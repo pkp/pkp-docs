@@ -1,0 +1,16 @@
+<div class="app">
+	<h2 class="app__title">
+		<a name="{{ app.path }}">{{ app.title }}</a>
+	</h2>
+	<p class="app__description">{{ app.description | markdownify }}</p>
+	{% if app.cards %}
+		<div class="app__cards">
+			{% for card in app.cards %}
+				<div class="card{% if card.isHighlighted %} card--isHighlighted{% endif %}{% if card.isDeveloper %} card--isDeveloper{% endif %}">
+					{% capture markdownify_include %}	{% include cards/{{ app.path}}/{{ card.path}}.md %}{% endcapture %}
+					{{ markdownify_include | markdownify }}
+				</div>
+			{% endfor %}
+		</div>
+	{% endif %}
+</div>

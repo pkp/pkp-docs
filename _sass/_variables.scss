@@ -1,0 +1,40 @@
+$bg:         #fff;
+
+$light: 300;
+$normal: 400;
+$medium: 500;
+$bold: 700;
+
+body {
+	background: $bg;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	font-weight: $normal;
+}
+
+.hero,
+.app {
+	max-width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.app {
+	clear: both;
+}
+
+.app__cards {
+	clear: both;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.card {
+	float: left;
+	width: 360px;
+	border: 1px solid #eee;
+	border-top: 2px solid #50cc86;
+	margin: 20px;
+	vertical-align: top;
+	padding: 20px;
+}
