@@ -1,12 +1,14 @@
 <div class="hero">
-	<div class="hero__text">{{ site.data.index.heroText | markdownify }}</div>
-	{% if site.data.index.apps %}
-		<div class="hero__links">
-			{% for app in site.data.index.apps %}
-				{% if app.includeInHero %}
-					<a href="#{{ app.path }}">{{ app.titleShort }}</a>
-				{% endif %}
-			{% endfor %}
-		</div>
-	{% endif %}
+	<div class="hero__content">
+		<div class="hero__text">{{ site.data.index.heroText | markdownify }}</div>
+		{% if site.data.index.apps %}
+			<div class="hero__links">
+				{% for app in site.data.index.apps %}
+					{% if app.includeInHero %}
+						<a class="hero__link" href="#{{ app.path }}">{{ app.titleShort }}</a>
+					{% endif %}
+				{% endfor %}
+			</div>
+		{% endif %}
+	</div>
 </div>

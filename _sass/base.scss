@@ -1,0 +1,21 @@
+html,
+body {
+	margin: 0;
+	background: $bg;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	line-height: 1.8em;
+	font-weight: $normal;
+	color: $text;
+}
+
+a {
+	color: $link;
+	font-weight: $medium;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		color: $link-hover;
+	}
+}

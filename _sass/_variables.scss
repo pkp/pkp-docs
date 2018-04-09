@@ -1,23 +1,18 @@
-$bg:         #fff;
+$bg: #fff;
+$bg-shade: #eee;
+$bg-dark: #002c40;
+
+$text: $bg-dark;
+
+$link: #007ab2;
+$link-hover: lighten($link, 10%);
 
 $light: 300;
 $normal: 400;
 $medium: 500;
 $bold: 700;
 
-body {
-	background: $bg;
-	font-family: Roboto, sans-serif;
-	font-size: 16px;
-	font-weight: $normal;
-}
-
-.hero,
-.app {
-	max-width: 950px;
-	margin-left: auto;
-	margin-right: auto;
-}
+$radius: 3px;
 
 .app {
 	clear: both;
@@ -38,3 +33,9 @@ body {
 	vertical-align: top;
 	padding: 20px;
 }
+
+@import '_normalize';
+@import '_mixins';
+@import 'base';
+@import 'components/siteHeader';
+@import 'components/hero';

@@ -1,0 +1,54 @@
+.siteHeader {
+	@include container;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.siteHeader__logo {
+	font-size: 1.5rem;
+	font-weight: $light;
+	line-height: 1.2em;
+	color: $text;
+	text-decoration: none;
+}
+
+.siteHeader__about {
+	position: absolute;
+	right: -9999px;
+}
+
+@media (min-width: 768px) {
+
+	.siteHeader {
+		position: relative;
+		min-height: 4rem;
+	}
+
+	.siteHeader__logo {
+		position: absolute;
+		top: 50%;
+		left: 2rem;
+		transform: translateY(-50%);
+	}
+
+	.siteHeader__about {
+		top: 50%;
+		right: 2rem;
+		transform: translateY(-50%);
+		max-width: 75%;
+
+		p {
+			margin: 0;
+		}
+
+		a {
+			color: $text;
+			text-decoration: underline;
+
+			&:hover,
+			&:focus {
+				color: lighten($text, 10%);
+			}
+		}
+	}
+}
