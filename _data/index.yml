@@ -12,6 +12,11 @@ apps:
       - path: developer
         isDeveloper: true
       - path: starting-a-journal
+      - path: setting-up-a-journal
+      - path: editorial-workflow
+      - path: using-dois
+      - path: crossref-manual-for-ojs
+      - path: importing-exporting
   - path: ojs2
     title: Open Journal Systems 2
     titleShort: OJS 2
