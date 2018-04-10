@@ -24,7 +24,7 @@ bundle exec jekyll serve
 
 ## Orientation to file structure
 
-The index page's data is specified in `_data/index.yml`. Each app covered is specified under the `apps` propert. OJS 3 looks like this:
+The index page's data is specified in `_data/index.yml`. Each app covered is specified under the `apps` property. OJS 3 looks like this:
 
 ```
 - path: ojs3
@@ -41,7 +41,14 @@ The index page's data is specified in `_data/index.yml`. Each app covered is spe
 		- path: starting-a-journal
 ```
 
-Each of the `cards` provides a `path` which points to markdown files in the `_includes/cards` directory. Each of these cards represents a resource card that will be added under that app, and you can use markdown to add links.
+- `path` should be a unique ID made up of numbers and letters with no spaces.
+- `title` is the main title of the app's section
+- `titleShort` is used in the buttons in the hero element at the top
+- `includeInHero` can be set to false if you want to create an app section but don't want it to be listed in the buttons in the hero element at the top
+- `description` is a short description that will be placed below the title in the app's section
+- `cards` see below
+
+Each of the `cards` provides a `path` which points to markdown files in the `_includes/cards` directory. Each of these cards represents a resource card that will be added under that app, and you can use markdown to add links. See the next section.
 
 ### Add a new resource
 
@@ -51,10 +58,10 @@ Create a card under `_includes/cards/<app>/<your-new-resource-name>.md`. Give yo
 ### [Your resource title](http://link-to-resource.com)
 ```
 
-Add a short description below it.
+Add a short description below it, and link to the resource.
 
 ```
-This resource will help you accomplish X.
+This resource will help you accomplish X. [View Now](http://link-to-resource.com)
 ```
 
 ### Create multiple sections in your resource card
