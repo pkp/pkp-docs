@@ -27,3 +27,18 @@ apps:
     titleShort: OMP
     includeInHero: true
     description: Usage guides and documentation for our monograph publishing software.
+  - path: ots
+    title: Open Typesetting Stack
+    titleShort: OTS
+    includeInHero: true
+    description: Documentation for making use of our technical stack for typesetting in JATS XML.
+  - path: ocs2
+    title: Open Conference Systems
+    titleShort: OCS
+    includeInHero: true
+    description: Usage guides and documentation for our scholarly conference software.
+  - path: ohs
+    title: Open Harvester Systems
+    titleShort: OHS
+    includeInHero: true
+    description: Usage guides and documentation for our metadata indexing software.
