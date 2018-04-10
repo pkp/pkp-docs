@@ -43,7 +43,9 @@ The index page's data is specified in `_data/index.yml`. Each app covered is spe
 
 Each of the `cards` provides a `path` which points to markdown files in the `_includes/cards` directory. Each of these cards represents a resource card that will be added under that app, and you can use markdown to add links.
 
-**To add a new resource**, create a card under `_includes/cards/<app>/<your-new-resource-name>.md`. Give your card a title with three `###`:
+### Add a new resource
+
+Create a card under `_includes/cards/<app>/<your-new-resource-name>.md`. Give your card a title with three `###`:
 
 ```
 ### [Your resource title](http://link-to-resource.com)
@@ -54,6 +56,8 @@ Add a short description below it.
 ```
 This resource will help you accomplish X.
 ```
+
+### Create multiple sections in your resource card
 
 If you want to add a section to the card, use three dashes before the section:
 
