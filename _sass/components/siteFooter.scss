@@ -1,0 +1,23 @@
+.siteFooter {
+	margin-top: 2rem;
+	padding: 2rem 1rem;
+	background: $bg-shade;
+
+	p {
+		text-align: center;
+	}
+}
+
+@media (min-width: 767px) {
+
+	.siteFooter {
+		margin-top: 4rem;
+
+		p {
+			margin: 4em 0;
+			max-width: 300px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
