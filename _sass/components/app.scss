@@ -25,6 +25,10 @@
 	}
 }
 
+.app__cards {
+	margin-top: 2rem;
+}
+
 @media (min-width: 767px) {
 
 	.app__title {
@@ -35,10 +39,6 @@
 
 	.app__description {
 		margin-top: 1rem;
-	}
-
-	.app__cards {
-		margin-top: 2rem;
 	}
 }
 
