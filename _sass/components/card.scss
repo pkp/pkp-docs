@@ -1,0 +1,122 @@
+.card {
+	padding: 1rem;
+	border: 1px solid #eee;
+	border-top: 2px solid $help;
+	margin-bottom: 2rem;
+
+	h3 {
+		margin-bottom: 1rem;
+		font-size: 1.3rem;
+		font-weight: $bold;
+
+		a {
+			font-weight: $bold;
+			color: $text;
+
+			&:hover,
+			&:focus {
+				color: $text;
+			}
+		}
+
+		[class*="fa-"] {
+			font-size: 1rem;
+			vertical-align: baseline;
+		}
+	}
+
+	hr {
+		margin-left: -1rem;
+		margin-right: -1rem;
+		border: none;
+		border-bottom: 1px solid $bg-shade;
+	}
+
+	ul {
+		padding-left: 0;
+		list-style: none;
+	}
+
+	li {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+		font-size: 1.2rem;
+
+		&:before {
+		  content: "•";
+			margin-right: 0.75rem;
+		  color: $link;
+		}
+	}
+
+	*:first-child {
+		margin-top: 0;
+	}
+
+	*:last-child {
+		margin-bottom: 0;
+	}
+
+	.svg-inline--fa {
+		margin-right: 0.25em;
+	}
+
+	.fa-language {
+		color: $help;
+	}
+}
+
+.card--isDeveloper {
+	border-top-color: $tech;
+
+	h3 {
+		[class*="fa-"] {
+			color: $tech;
+		}
+	}
+}
+
+.card--isHighlighted {
+	border: none;
+	background: $bg-dark;
+	color: $text-on-dark;
+
+	h3,
+	a,
+	a:hover,
+	a:focus,
+	h3 a,
+	h3 a:hover,
+	h3 a:focus {
+		color: $text-on-dark;
+	}
+
+	a {
+		text-decoration: underline;
+	}
+
+	h3 a {
+		text-decoration: none;
+	}
+}
+
+@media (min-width: 767px) {
+
+	.card {
+		max-width: 45%;
+	}
+}
+
+@media (min-width: 992px) {
+
+	.card {
+		max-width: 408px;
+	}
+}
+
+@media (min-width: 1400px) {
+
+	.card {
+		max-width: 362px;
+	}
+}

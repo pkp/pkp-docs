@@ -3,9 +3,14 @@ $bg-shade: #eee;
 $bg-dark: #002c40;
 
 $text: $bg-dark;
+$text-on-dark: #fff;
 
 $link: #007ab2;
 $link-hover: lighten($link, 10%);
+
+$help: #00b28d;
+$tech: #e08914;
+
 
 $light: 300;
 $normal: 400;
@@ -14,28 +19,10 @@ $bold: 700;
 
 $radius: 3px;
 
-.app {
-	clear: both;
-}
-
-.app__cards {
-	clear: both;
-	margin-left: -20px;
-	margin-right: -20px;
-}
-
-.card {
-	float: left;
-	width: 360px;
-	border: 1px solid #eee;
-	border-top: 2px solid #50cc86;
-	margin: 20px;
-	vertical-align: top;
-	padding: 20px;
-}
-
 @import '_normalize';
 @import '_mixins';
 @import 'base';
 @import 'components/siteHeader';
 @import 'components/hero';
+@import 'components/app';
+@import 'components/card';

@@ -1,0 +1,67 @@
+.app {
+	@include container;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.app__title {
+	margin-top: 4rem;
+	padding-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 1.5rem;
+	line-height: 1.5em;
+
+	a {
+		font-weight: $light;
+		color: $text;
+
+		&:hover,
+		&:focus {
+			color: $text;
+		}
+	}
+}
+
+.app__description {
+
+	p:first-child {
+		margin-top: 0;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+
+@media (min-width: 767px) {
+
+	.app__title {
+		border-bottom: 1px solid $bg-shade;
+		font-size: 2rem;
+		line-height: 1.5em;
+	}
+
+	.app__description {
+		margin-top: 1rem;
+	}
+
+	.app__cards {
+		margin-top: 2rem;
+	}
+}
+
+@media (min-width: 992px) {
+
+	.app__title {
+		font-size: 2.4rem;
+		line-height: 1.5em;
+	}
+
+	.app__description {
+		margin-top: 1,5rem;
+	}
+
+	.app__cards {
+		margin-top: 3rem;
+	}
+}

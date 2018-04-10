@@ -3,7 +3,7 @@
 
 A visual, step-by-step guide to managing a journal with Open Journal Systems. [View Now](https://www.gitbook.com/book/pkp/ojs3/details)
 
-[<span class='far fa-file-pdf'></span> Download PDF](https://www.gitbook.com/download/pdf/book/pkp/ojs3?lang=en)
+<span class="far fa-file-pdf" aria-hidden="true"></span> [Download PDF](https://www.gitbook.com/download/pdf/book/pkp/ojs3?lang=en)
 
 ---
 
@@ -14,7 +14,7 @@ A visual, step-by-step guide to managing a journal with Open Journal Systems. [V
 - [Authoring](#)
 - [Editorial Workflow](#)
 - [Reviewing](#)
-- ... [and more](https://www.gitbook.com/book/pkp/ojs3/details)
+- ... and [more](https://www.gitbook.com/book/pkp/ojs3/details).
 
 ---
 
