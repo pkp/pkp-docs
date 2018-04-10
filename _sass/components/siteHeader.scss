@@ -14,7 +14,7 @@
 
 .siteHeader__about {
 	position: absolute;
-	right: -9999px;
+	left: -9999px;
 }
 
 @media (min-width: 768px) {
@@ -33,6 +33,7 @@
 
 	.siteHeader__about {
 		top: 50%;
+		left: auto;
 		right: 2rem;
 		transform: translateY(-50%);
 		max-width: 75%;
