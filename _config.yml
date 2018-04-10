@@ -1,2 +1,9 @@
 title: PKP Documentation Hub
 markdown: kramdown
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "book"
