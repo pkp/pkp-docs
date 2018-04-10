@@ -1,3 +1,13 @@
 <div class="siteFooter">
 	Footer
 </div>
+<script type="text/javascript">
+function pkpInitSmoothScroll() {
+	if (typeof SmoothScroll !== 'undefined') {
+		var pkpScroll = new SmoothScroll('a[href^="#"]', {easing: 'easeInOutCubic'});
+	} else {
+		setTimeout(pkpInitSmoothScroll, 500);
+	}
+}
+pkpInitSmoothScroll();
+</script>

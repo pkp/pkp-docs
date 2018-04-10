@@ -5,7 +5,7 @@
 			<div class="hero__links">
 				{% for app in site.data.index.apps %}
 					{% if app.includeInHero %}
-						<a class="hero__link" href="#{{ app.path }}">{{ app.titleShort }}</a>
+						<a class="hero__link" href="#app{{ app.path }}">{{ app.titleShort }}</a>
 					{% endif %}
 				{% endfor %}
 			</div>

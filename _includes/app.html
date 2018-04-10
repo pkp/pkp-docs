@@ -1,6 +1,6 @@
-<div class="app">
+<div class="app" id="app{{ app.path }}">
 	<h2 class="app__title">
-		<a name="{{ app.path }}">{{ app.title }}</a>
+		{{ app.title }}
 	</h2>
 	<div class="app__description">{{ app.description | markdownify }}</div>
 	{% if app.cards %}
