@@ -71,3 +71,15 @@
 		padding-bottom: 6rem;
 	}
 }
+
+@media (min-width: 1400px) {
+
+	.hero__content {
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+	}
+
+	.hero__links {
+		margin-top: 4rem;
+	}
+}
