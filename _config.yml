@@ -1,5 +1,11 @@
 title: PKP Documentation Hub
 markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
 defaults:
   -
     scope:
@@ -7,3 +13,10 @@ defaults:
       type: "pages"
     values:
       layout: "book"
+pkp_search:
+  exclude_file_types:
+    - '.scss'
+    - '.css'
+    - '.js'
+  exclude_titles:
+    - 'Summary'
