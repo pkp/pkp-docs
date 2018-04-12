@@ -2,10 +2,27 @@
 <html lang="en-US">
 	{% include book/head.html %}
 	<body>
-		{% if page.isBookIndex != true %}
-			{% capture markdownify_include %}{% include_relative SUMMARY.md %}{% endcapture %}
-			{{ markdownify_include | replace: ".md", "" | markdownify }}
-		{% endif %}
-		{{ content }}
+		{% include book/header.html %}
+		<div class="book{% if page.isBookIndex != true %} book--withSidebar{% endif %}">
+			<a href="#summary" class="-screenReader">{{ site.data.site.skipToSummary }}</a>
+			<div class="book__page">
+				<div class="book__content">
+					{{ content }}
+				</div>
+			</div>
+			{% if page.isBookIndex != true %}
+				<div class="book__sidebar">
+					<div class="book__summary">
+						{% capture markdownify_include %}{% include_relative SUMMARY.md %}{% endcapture %}
+						{{ markdownify_include | replace: ".md", "" | markdownify }}
+					</div>
+					<div class="book__backToHub">
+						<span class="fa fa-long-arrow-alt-left" aria-hidden="true"></span>
+						{{ site.data.site.linkBackToDocs | markdownify }}
+					</div>
+				</div>
+			{% endif %}
+		</div>
+		{% include hub/footer.html %}
 	</body>
 </html>

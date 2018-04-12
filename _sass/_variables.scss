@@ -3,6 +3,7 @@ $bg-shade: #eee;
 $bg-dark: #002c40;
 
 $text: $bg-dark;
+$text-light: rgba($bg-dark, 0.7);
 $text-on-dark: #fff;
 
 $link: #007ab2;
@@ -18,13 +19,3 @@ $medium: 500;
 $bold: 700;
 
 $radius: 3px;
-
-@import '_normalize';
-@import '_mixins';
-@import 'base';
-@import 'components/siteHeader';
-@import 'components/search';
-@import 'components/hero';
-@import 'components/app';
-@import 'components/card';
-@import 'components/siteFooter';

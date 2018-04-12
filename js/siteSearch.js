@@ -48,6 +48,9 @@
 
 	// Initialize search handler
 	function initSearchInput() {
+		if (!searchInput) {
+			return;
+		}
 		var debouncedSearch = debounce(search, 250);
 		searchInput.addEventListener('input', function(e) {
 			if (searchQuery === e.target.value || (!searchQuery.length && e.target.value.length < 3)) {

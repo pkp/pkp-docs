@@ -4,10 +4,10 @@
 <script defer src="/js/siteSearch.js"></script>
 <script type="text/javascript">
 function pkpInitSmoothScroll() {
-	if (typeof SmoothScroll !== 'undefined') {
-		var pkpScroll = new SmoothScroll('a[href^="#"]', {easing: 'easeInOutCubic'});
-	} else {
+	if (typeof SmoothScroll === 'undefined') {
 		setTimeout(pkpInitSmoothScroll, 500);
+	} else {
+		var pkpScroll = new SmoothScroll('a[href^="#"]', {easing: 'easeInOutCubic'});
 	}
 }
 pkpInitSmoothScroll();
