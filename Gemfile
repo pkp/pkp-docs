@@ -6,4 +6,5 @@ group :jekyll_plugins do
 	gem 'jekyll-optional-front-matter'
 	gem 'jekyll-default-layout'
 	gem 'jekyll-titles-from-headings'
+	gem 'jekyll-readme-index'
 end
