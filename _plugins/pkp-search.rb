@@ -15,10 +15,12 @@ module Jekyll
         @search_config = {
 					'exclude_file_types' => {},
           'exclude_titles' => {},
+          'exclude_paths' => {},
         }.merge!(config['pkp_search'] || {})
 
 				@exclude_file_types = @search_config['exclude_file_types']
         @exclude_titles = @search_config['exclude_titles']
+        @exclude_paths = @search_config['exclude_paths']
       end
 
       # Index all pages except pages matching any value in config['lunr_excludes'] or with date['exclude_from_search']
@@ -34,8 +36,19 @@ module Jekyll
 					end
 
 					@exclude = false;
+
 					@exclude_file_types.each do |file_type|
 						if File.extname(page.name) == file_type
+							@exclude = true
+							break
+						end
+					end
+					if @exclude
+						next
+					end
+
+					@exclude_paths.each do |path|
+						if page.name.include? path
 							@exclude = true
 							break
 						end

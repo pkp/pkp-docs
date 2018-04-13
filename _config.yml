@@ -1,5 +1,4 @@
 title: PKP Documentation Hub
-markdown: kramdown
 plugins:
   - jekyll-seo-tag
   - jekyll-relative-links
@@ -21,3 +20,5 @@ pkp_search:
     - '.js'
   exclude_titles:
     - 'Summary'
+  exclude_paths:
+    - 'SUMMARY.md'
