@@ -1,4 +1,5 @@
 heroText: "**User guides**, **developer documentation** and **publishing tips** for all of the Public Knowledge Project's software"
+quickLinksLabel: "Jump to:"
 apps:
   - path: ojs3
     title: Open Journal Systems 3

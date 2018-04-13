@@ -1,0 +1,11 @@
+<div id="searchControl" class="search">
+	<label for="searchInput" class="search__inputWrapper">
+		<span class="search__icon">
+			<span class="fas fa-spinner fa-spin" aria-hidden="true"></span>
+			<span class="fa fa-search" aria-hidden="true"></span>
+		</span>
+		<span class="-screenReader">{{ site.data.site.searchLabel }}</span>
+		<input id="searchInput" class="search__input" placeholder="{{ site.data.site.searchPlaceholder }}" aria-controls="searchResults">
+	</label>
+	<div id="searchResults" class="search__results" aria-live="polite"></div>
+</div>

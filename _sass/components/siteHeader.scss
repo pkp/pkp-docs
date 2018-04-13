@@ -5,6 +5,9 @@
 }
 
 .siteHeader__logo {
+	display: inline-block;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	font-size: 1.5rem;
 	font-weight: $light;
 	line-height: 1.2em;
@@ -17,6 +20,15 @@
 	left: -9999px;
 }
 
+.siteHeader--book {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: $bg;
+	border-bottom: 1px solid $bg-shade;
+}
+
 @media (min-width: 768px) {
 
 	.siteHeader {
@@ -24,11 +36,8 @@
 		min-height: 6rem;
 	}
 
-	.siteHeader__logo {
-		position: absolute;
-		top: 50%;
-		left: 2rem;
-		transform: translateY(-50%);
+	.siteHeader--book {
+		position: fixed;
 	}
 
 	.siteHeader__about {

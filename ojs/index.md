@@ -6,6 +6,6 @@ description: Get started running, editing and customizing your scholarly journal
 
 {% for app in site.data.index.apps %}
 {% if app.path == 'ojs3' or app.path == 'ojs2' %}
-{% include app.html %}
+{% include hub/app.html %}
 {% endif %}
 {% endfor %}

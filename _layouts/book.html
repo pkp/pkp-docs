@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	{% include book/head.html %}
+	<body{% if page.isBookIndex != true %} class="body--withSidebar"{% endif %}>
+		{% include book/header.html %}
+		<div class="book">
+			<a href="#summary" class="-screenReader">{{ site.data.site.skipToSummary }}</a>
+			<div class="book__page">
+				<div class="book__content">
+					{{ content }}
+				</div>
+			</div>
+			{% if page.isBookIndex != true %}
+				<div class="book__sidebarScreen"></div>
+				<div id="sidebar" class="book__sidebar">
+					<div class="book__summary">
+						{% capture markdownify_include %}{% include_relative SUMMARY.md %}{% endcapture %}
+						{{ markdownify_include | replace: ".md", "" | markdownify }}
+					</div>
+					<div class="book__backToHub">
+						<span class="fa fa-long-arrow-alt-left" aria-hidden="true"></span>
+						{{ site.data.site.linkBackToDocs | markdownify }}
+					</div>
+					<div class="book__spacer"></div>
+				</div>
+			{% endif %}
+		</div>
+		{% include hub/footer.html %}
+		<script type="text/javascript">{% include js/sidebarToggle.js %}</script>
+		<script type="text/javascript">{% include js/smoothScrolling.js %}</script>
+	</body>
+</html>

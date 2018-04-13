@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
-	{% include head.html %}
+	{% include hub/head.html %}
 	<body>
-		{% include header.html %}
+		{% include hub/header.html %}
 		{{ content }}
-		{% include footer.html %}
+		{% include hub/footer.html %}
+		<script type="text/javascript">{% include js/siteSearch.js %}</script>
+		<script type="text/javascript">{% include js/smoothScrolling.js %}</script>
 	</body>
 </html>

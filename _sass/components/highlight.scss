@@ -1,0 +1,20 @@
+pre,
+pre.highlight {
+	background: $bg-shade;
+	margin: 2rem 0;
+	padding: 2rem;
+	overflow-x: scroll;
+	line-height: 1.3em;
+	tab-size: 2;
+	-moz-tab-size: 2;
+	-o-tab-size: 2;
+}
+
+code {
+	padding: 0.25em;
+	background: #eee;
+	border-radius: 3px;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 13px;
+	font-style: normal;
+}

@@ -1,5 +1,11 @@
 .hero {
 	background: $bg-shade;
+
+	.search {
+		margin-top: 3rem;
+		margin-bottom: 4.5rem;
+		width: 100%;
+	}
 }
 
 .hero__content {
@@ -12,26 +18,23 @@
 	max-width: 500px;
 	font-size: 1.8rem;
 	font-weight: $light;
-	line-height: 1.5em;
+	line-height: 1.2em;
 
 	p {
 		margin: 0;
 	}
 }
 
-.hero__links {
-	margin-top: 3rem;
+.hero__linksLabel {
+	margin-right: 0.5rem;
 }
 
 .hero__link {
 	display: inline-block;
-	padding: 0.25em 1em;
-	border: 2px solid $link;
-	border-radius: $radius;
-
-	+ .hero__link {
-		margin-left: 1rem;
-	}
+	margin-bottom: 1rem;
+	margin-right: 1rem;
+	border-bottom: 2px solid $link;
+	line-height: 1.5em;
 }
 
 @media (min-width: 480px) {
@@ -79,7 +82,7 @@
 		padding-bottom: 8rem;
 	}
 
-	.hero__links {
+	.hero .search {
 		margin-top: 4rem;
 	}
 }
