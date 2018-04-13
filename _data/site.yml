@@ -2,5 +2,6 @@ siteName: PKP|Help
 siteAbout: "The [Public Knowledge Project](https://pkp.sfu.ca) is a multi-university initiative to improve the quality and reach of scholarly publishing."
 linkBackToDocs: "Back to [all documentation](/)."
 skipToSummary: "Jump to table of contents"
+skipToSummary: "Toggle Menu"
 searchLabel: Search
 searchPlaceholder: Search everything

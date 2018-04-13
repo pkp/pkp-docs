@@ -1,3 +1,10 @@
-<div class="siteHeader siteHeader--book">
-	<a class="siteHeader__logo" href="/">{{ site.data.site.siteName }}</a>
+<div class="bookHeader">
+	{% if page.isBookIndex != true %}
+		<button id="sidebarControl" class="bookHeader__sidebarControl">
+			<span class="fa fa-bars" aria-hidden="true"></span>
+			<span class="fa fa-times" aria-hidden="true"></span>
+			<span class="-screenReader">{{ site.data.site.toggleMenu }}</span>
+		</button>
+	{% endif %}
+	<a class="bookHeader__logo" href="/">{{ site.data.site.siteName }}</a>
 </div>

@@ -1,0 +1,76 @@
+.bookHeader {
+	@include container;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: $bg;
+	border-bottom: 1px solid $bg-shade;
+	z-index: 999;
+}
+
+.bookHeader__logo {
+	display: inline-block;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	font-size: 1.5rem;
+	font-weight: $light;
+	line-height: 1.2em;
+	color: $text;
+	text-decoration: none;
+}
+
+.bookHeader__sidebarControl {
+	display: inline-block;
+	margin-right: 1rem;
+	margin-left: -1rem;
+	padding: 1rem;
+	border: none;
+	border-right: 1px solid $bg-shade;
+	background: transparent;
+	font-size: 1.5rem;
+	line-height: 1.2em;
+	color: $text;
+	cursor: pointer;
+
+	&:hover,
+	&:focus {
+		box-shadow: inset 4px 0 0 $link;
+		outline: 0;
+	}
+
+	.fa-bars,
+	.fa-times {
+		min-width: 2rem;
+		text-align: center;
+	}
+
+	.fa-times {
+		display: none;
+	}
+}
+
+.-sidebarIsOpen .bookHeader__sidebarControl {
+
+	.fa-bars {
+		display: none;
+	}
+
+	.fa-times {
+		display: inline-block;
+	}
+}
+
+@media (min-width: 992px) {
+
+	.bookHeader {
+		position: relative;
+		min-height: 6rem;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+	}
+
+	.bookHeader__sidebarControl {
+		display: none;
+	}
+}

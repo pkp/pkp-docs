@@ -21,6 +21,11 @@
 }
 
 .siteHeader--book {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: $bg;
 	border-bottom: 1px solid $bg-shade;
 }
 
@@ -29,6 +34,10 @@
 	.siteHeader {
 		position: relative;
 		min-height: 6rem;
+	}
+
+	.siteHeader--book {
+		position: fixed;
 	}
 
 	.siteHeader__about {
