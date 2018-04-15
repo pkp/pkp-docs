@@ -1,4 +1,4 @@
 
-### <span class="fas fa-code"></span> [Developer Documentation](/developer)
+### <span class="fas fa-code"></span> [Developer Documentation](http://pkp.github.io/)
 
-Technical references, documentation and customization guides for Open Journal Systems. [View Now](/developer)
+Technical references, plugin documentation and customization guides for Open Journal Systems. [View Now](http://pkp.github.io/)

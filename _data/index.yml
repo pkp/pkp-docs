@@ -13,16 +13,23 @@ apps:
       - path: developer
         isDeveloper: true
       - path: starting-a-journal
+      - path: translating-guide
+        isHighlighted: true
       - path: setting-up-a-journal
       - path: editorial-workflow
-      - path: using-dois
-      - path: crossref-manual-for-ojs
+      - path: pkp-theming-guide
+      - path: crossref-ojs-manual
+      - path: using-paypal-for-ojs-and-ocs
       - path: importing-exporting
   - path: ojs2
     title: Open Journal Systems 2
     titleShort: OJS 2
-    includeInHero: false
+    includeInHero: true
     description: "Help guides for older versions of our journal management software. We recommend you [upgrade to OJS 3](#ojs3)."
+    cards:
+        - path: learning-ojs-2
+        - path: ojs-2-technical-reference
+        - path: ojs2-pkp-school
   - path: omp3
     title: Open Monograph Press
     titleShort: OMP
@@ -33,6 +40,8 @@ apps:
     titleShort: OTS
     includeInHero: true
     description: Documentation for making use of our technical stack for typesetting in JATS XML.
+    cards:
+        - path: learn-more
   - path: ocs2
     title: Open Conference Systems
     titleShort: OCS

@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introduction](.)
 * [What is a theme?](what-is-a-theme.md)
    * [CSS/LESS](css-less.md)
    * [HTML/Smarty Templates](html-smarty.md)
@@ -15,4 +15,3 @@
    * [Bootstrap3 Theme](theme-bootstrap3.md)
 * Advanced Techniques
    * [Passing Data to Templates](advanced-custom-data.md)
-

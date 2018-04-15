@@ -1,6 +1,6 @@
 # Sumário
 
-* [Introdução](README.md)
+* [Introdução](.)
 * [O que é um tema?](what-is-a-theme.md)
     * [CSS/LESS](css-less.md)
     * [HTML/Smarty Templates](html-smarty.md)
