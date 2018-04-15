@@ -12,7 +12,7 @@ Here are the main steps in setting up your journal with OJS.  Some link to PKP S
 5. [Customize the look](http://docs.pkp.sfu.ca/ojs3/content/en/website_settings.html)
 6. [Decide on article file types](http://docs.pkp.sfu.ca/ojs3/content/en/production.html)
 7. [Register for an ISSN](http://www.issn.org/understanding-the-issn/what-is-an-issn/)
-8. <del>Register for a DOI</del> <!-- update entirely -->
+8. [Register for a DOI](../doi-plugin/)
 9. [Register with a LOCKSS Network](https://www.lockss.org/support/prepare-your-content/open-access-preservation-options/)
 10. [Import content](../importing-exporting/)
 11. [Build an editorial team](http://pkpschool.sfu.ca/courses/becoming-an-editor/)

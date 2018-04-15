@@ -35,6 +35,9 @@ apps:
     titleShort: OMP
     includeInHero: true
     description: Usage guides and documentation for our monograph publishing software.
+    cards:
+        - path: learning-omp
+        - path: omp-api
   - path: ots
     title: Open Typesetting Stack
     titleShort: OTS
@@ -47,8 +50,12 @@ apps:
     titleShort: OCS
     includeInHero: true
     description: Usage guides and documentation for our scholarly conference software.
+    cards:
+        - path: ocs
   - path: ohs
     title: Open Harvester Systems
     titleShort: OHS
     includeInHero: true
     description: Usage guides and documentation for our metadata indexing software.
+    cards:
+        - path: learn-more
