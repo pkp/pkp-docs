@@ -1,7 +1,6 @@
 <div class="hero">
 	<div class="hero__content">
 		<div class="hero__text">{{ site.data.index.heroText | markdownify }}</div>
-		{% include search.html %}
 		{% if site.data.index.apps %}
 			<div class="hero__links">
 				<span class="hero__linksLabel">{{ site.data.index.quickLinksLabel }}</span>

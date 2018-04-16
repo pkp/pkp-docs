@@ -13,12 +13,3 @@ defaults:
       type: "pages"
     values:
       layout: "book"
-pkp_search:
-  exclude_file_types:
-    - '.scss'
-    - '.css'
-    - '.js'
-  exclude_titles:
-    - 'Summary'
-  exclude_paths:
-    - 'SUMMARY.md'
