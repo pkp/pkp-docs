@@ -24,7 +24,7 @@ apps:
   - path: ojs2
     title: Open Journal Systems 2
     titleShort: OJS 2
-    includeInHero: true
+    includeInHero: false
     description: "Help guides for older versions of our journal management software. We recommend you [upgrade to OJS 3](#ojs3)."
     cards:
         - path: learning-ojs-2
