@@ -9,6 +9,10 @@
 		border: none;
 		border-bottom: 1px solid $bg-shade;
 	}
+
+	img {
+		max-width: 100%;
+	}
 }
 
 .book__content {
