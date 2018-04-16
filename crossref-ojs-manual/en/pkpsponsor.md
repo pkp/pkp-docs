@@ -8,7 +8,6 @@ Organizations from the following countries (who are in the [Low Income Country](
 
 
   | Afghanistan (LIC) | Central African Republic (LIC) | Gambia (LIC) | Liberia (LIC) | Niger (LIC) |
-  | ----- | ----- | ----- | ----- | ----- |
   | Sudan (LMC) | Bangladesh (LIC) | Chad (LIC) | Guinea (LIC) | Madagascar (LIC) |
   | Pakistan (LMC) | Tajikistan (LIC) | Benin (LIC) | Comoros (LIC) | Guinea-Bassau (LIC) |
   | Malawi (LIC) | Rwanda (LIC) | Tanzania (LIC) | Benin (LIC) | Congo, Democratic Republic (LIC) |
