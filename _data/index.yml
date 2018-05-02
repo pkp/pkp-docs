@@ -18,6 +18,7 @@ apps:
       - path: setting-up-a-journal
       - path: editorial-workflow
       - path: pkp-theming-guide
+        isDeveloper: true
       - path: crossref-ojs-manual
       - path: using-paypal-for-ojs-and-ocs
       - path: importing-exporting
