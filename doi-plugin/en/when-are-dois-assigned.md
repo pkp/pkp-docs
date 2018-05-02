@@ -28,7 +28,7 @@ As long as no DOI has been assigned to the object (see "When are DOIs being assi
 
 See the following example of the DOI suffix field for issues:
 
-![](/assets/assignment.png)
+![](assets/assignment.png)
 
 You can change this field as long as no DOI has been assigned to the object. Leaving the field empty or deleting its contents and saving the form means that the object will not get a DOI assigned, even if it is publicly accessed.
 

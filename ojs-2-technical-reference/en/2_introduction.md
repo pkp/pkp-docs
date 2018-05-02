@@ -17,7 +17,7 @@ The following diagram illustrates the various components and their interactions.
 
 **Figure 1.1. Open Journal Systems MVC Diagram**
 
-![Fig 1.1 Open JOurnal Systems MVC Diagram](./fig1.png)
+![Fig 1.1 Open JOurnal Systems MVC Diagram](/fig1.png)
 
 The following files are in the root directory of a typical OJS 2.x installation:
 
