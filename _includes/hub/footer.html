@@ -1,3 +1,29 @@
 <div class="siteFooter">
-	<p>This is the footer. We could fill this with PKP's logo, a short statement about PKP's software, relevant links to PKP stuff, etc.</p>
+	<nav class="siteFooter__container">
+		<div class="siteFooter__logo">
+			<a href="https://pkp.sfu.ca">
+				<img src="/img/pkp-logo.png" alt="Public Knowledge Project">
+			</a>
+		</div>
+		{% if site.data.site.navContrib %}
+			<div class="siteFooter__nav">
+				<div class="siteFooter__navHeader">
+					{{ site.data.site.navContrib.title }}
+				</div>
+				{% for nav in site.data.site.navContrib.items %}
+					{{ nav | markdownify }}
+				{% endfor %}
+			</div>
+		{% endif %}
+		{% if site.data.site.navAbout %}
+			<div class="siteFooter__nav">
+				<div class="siteFooter__navHeader">
+					{{ site.data.site.navAbout.title }}
+				</div>
+				{% for nav in site.data.site.navAbout.items %}
+					{{ nav | markdownify }}
+				{% endfor %}
+			</div>
+		{% endif %}
+	</div>
 </div>

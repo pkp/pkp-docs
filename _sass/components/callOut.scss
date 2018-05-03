@@ -1,0 +1,70 @@
+.callOut {
+	background-color: $help;
+	background-image: url('/img/forum-background.png');
+	background-repeat: repeat;
+	background-position: center;
+
+	.callOut__container {
+		@include container;
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+		font-size: 1.7rem;
+		line-height: 1.8em;
+		font-weight: $light;
+		color: $text-on-dark;
+
+		@media (min-width: 480px) {
+			text-align: center;
+			padding-left: 2rem;
+			padding-right: 2rem;
+		}
+
+		@media (min-width: 767px) {
+			padding-left: 0;
+			padding-right: 0;
+			padding-top: 6rem;
+			padding-bottom: 6rem;
+			max-width: 25em;
+		}
+
+		@media (min-width: 992px) {
+			padding-top: 8rem;
+			padding-bottom: 8rem;
+			font-size: 1.9rem;
+		}
+
+		@media (min-width: 1200px) {
+			font-size: 2rem;
+		}
+	}
+
+	a {
+		color: $text-on-dark;
+
+		&:hover,
+		&:focus {
+			color: $text-on-dark;
+		}
+	}
+
+	.button {
+		font-size: 1.2rem;
+		line-height: 1.5em;
+		color: $text-on-dark;
+		border-color: $text-on-dark;
+		box-shadow: none;
+		text-decoration: none;
+
+		&:hover,
+		&:focus {
+			color: $help;
+			border-color: $text-on-dark;
+			background-color: $text-on-dark;
+		}
+
+		@media (min-width: 992px) {
+			font-size: 1.3rem;
+			line-height: 1.5em;
+		}
+	}
+}

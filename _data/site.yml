@@ -5,3 +5,15 @@ skipToSummary: "Jump to table of contents"
 skipToSummary: "Toggle Menu"
 searchLabel: Search
 searchPlaceholder: Search everything
+visitForum: "Visit our [community forum](https://forum.pkp.sfu.ca) to meet hundreds of editors, publishers and journal managers."
+navContrib:
+  title: Community
+  items:
+    - "[Documentation Interest Group](https://github.com/pkp/documentation-interest-group)"
+    - "[Translating Guide](/translating-guide/en/)"
+    - "[Community Forum](https://forum.pkp.sfu.ca)"
+navAbout:
+  title: About
+  items:
+    - "[Public Knowledge Project](https://pkp.sfu.ca)"
+    - "[PKP&#124;Publishing Services](https://pkpservices.sfu.ca/)"
