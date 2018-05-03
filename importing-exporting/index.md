@@ -1,31 +1,8 @@
 ---
-isBookIndex: true
+isSinglePage: true
 ---
 
 # Importing and Exporting Data
-
-<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
-
-- [Introduction](#introduction)
-- [Using the Quick Submit Plugin](#using-the-quick-submit-plugin)
-- [Using the Web-based Expedited Submission Process to Add Articles Quickly](#using-the-web-based-expedited-submission-process-to-add-articles-quickly)
-- [Articles and Issues XML Plugin](#articles-and-issues-xml-plugin)
-	- [Importing Articles and Issues](#importing-articles-and-issues)
-	- [Creating the XML Import File](#creating-the-xml-import-file)
-	- [Importing Articles and Issues From the Web](#importing-articles-and-issues-from-the-web)
-	- [Exporting Articles and Issues From the Web](#exporting-articles-and-issues-from-the-web)
-- [Users XML Plugin](#users-xml-plugin)
-	- [Importing Users](#importing-users)
-	- [Creating the Import Users XML File](#creating-the-import-users-xml-file)
-	- [Exporting Users From the Web](#exporting-users-from-the-web)
-- [CrossRef XML Export Plugin](#crossref-xml-export-plugin)
-- [Erudit Article Export Plugin](#erudit-article-export-plugin)
-	- [Exporting Erudit Information From the Web](#exporting-erudit-information-from-the-web)
-- [PubMed XML Export Plugin](#pubmed-xml-export-plugin)
-	- [Exporting Pubmed Information From the Web](#exporting-pubmed-information-from-the-web)
-- [Using the Plugins from the Command Line](#using-the-plugins-from-the-command-line)
-
-<!-- /TOC -->
 
 ## Introduction
 

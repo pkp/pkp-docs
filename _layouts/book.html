@@ -10,12 +10,16 @@
 					{{ content }}
 				</div>
 			</div>
-			{% if page.isBookIndex != true %}
+			{% if page.isSinglePage or page.isBookIndex != true %}
 				<div class="book__sidebarScreen"></div>
 				<div id="sidebar" class="book__sidebar">
 					<div class="book__summary">
-						{% capture markdownify_include %}{% include_relative SUMMARY.md %}{% endcapture %}
-						{{ markdownify_include | replace: ".md", "" | markdownify }}
+						{% if page.isSinglePage %}
+							{% include book/toc.html html=content h_min=2 h_max=3 %}
+						{% elsif page.isBookIndex != true %}
+								{% capture markdownify_include %}{% include_relative SUMMARY.md %}{% endcapture %}
+								{{ markdownify_include | replace: ".md", "" | markdownify }}
+						{% endif %}
 					</div>
 					<div class="book__backToHub">
 						<span class="fa fa-long-arrow-alt-left" aria-hidden="true"></span>
