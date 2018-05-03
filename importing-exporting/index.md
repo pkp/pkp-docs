@@ -1,5 +1,5 @@
 ---
-isSinglePage: true
+generateHeadingToc: true
 ---
 
 # Importing and Exporting Data
