@@ -8,7 +8,7 @@ There are a number of components to a successful OJS install: downloading and un
 
 ## Download and unpack OJS Installation File
 
-All OJS downloads can be found at http://pkp.sfu.ca/ojs_download. Depending on your circumstances you will want to download either the most recent stable version (best for production systems) or the most recent development version (less stable but with more features). The install process is the same for both versions. 
+All OJS downloads can be found at http://pkp.sfu.ca/ojs_download. Depending on your circumstances you will want to download either the most recent stable version (best for production systems) or the most recent development version (less stable but with more features). The install process is the same for both versions.
 
 Unpack the tar file, and move the unpacked contents to a web-accessible directory on your web server from which you want OJS to run. A common web-accessible directory is /var/www/html, which we will use for this example.
 
@@ -40,7 +40,7 @@ You will need to create a database for the system to use, and also ensure that y
 For MySQL, you can create the database and user via phpMyAdmin or the MySQL command line interface. A CLI example follows:
 ```
 $ mysql -u root -p
-Enter password: 
+Enter password:
 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 95
@@ -74,7 +74,7 @@ You must then specify a username, password and email for the Administrator Accou
 Next is the Database Settings section. You must fill in the proper database connection settings: choose the correct database driver for your system; specify the correct host (normally localhost, but this could be different depending on your setup); the username and password of the database user; and the database name that they will be connecting to. If you have not yet created the database, then ensure that the "Create new database" checkbox remains checked; however, this option will not work if your database user does not have sufficient permissions to create databases, in which case you should create the database beforehand.
 
 
-##OJS Install: Database Settings
+## OJS Install: Database Settings
 
 
 Then choose an appropriate OAI repository identifier (the default may be sufficient), and choose the Install Open Journal Systems option if your database user can write directly to the database; or Manual Install if you need to populate the database manually.
@@ -84,5 +84,3 @@ If all goes well, you will then see a success screen.
 If your config.inc.php file wasn't writable by the server, you will be prompted to copy the contents of a text field and paste it to the default config.inc.php file on the server.
 
 If you chose to do a Manual Install, you will be prompted to copy a series of SQL statements, which must then be executed via your SQL server.
-
-
