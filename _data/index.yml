@@ -39,6 +39,7 @@ apps:
     cards:
         - path: learning-omp
         - path: omp-api
+          isDeveloper: true
   - path: ots
     title: Open Typesetting Stack
     titleShort: OTS
