@@ -8,7 +8,7 @@
 		if (typeof SmoothScroll === 'undefined') {
 			setTimeout(init, 500);
 		} else {
-			var scroll = new SmoothScroll('a[href^="#"]', {easing: 'easeInOutCubic', offset:80});
+			var scroll = new SmoothScroll('a[href*="#"]', {easing: 'easeInOutCubic', offset:80});
 		}
 	}
 	init();

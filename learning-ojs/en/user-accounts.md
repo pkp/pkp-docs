@@ -1,4 +1,12 @@
-# Roles in OJS
+# Chapter 3: User Accounts
+
+OJS uses a comprehensive roles system to divide work between users, assign workflows, and limit access to different parts of the system.
+
+Since one installation of OJS can host multiple journals, users can be enrolled in different roles for more than one journal. For example, one person could be both an editor and author for the same journal, as well as being only an author in one journal, a reviewer in another, and an editor in a third.
+
+When a user logs into the system, they will be taken to their Dashboard. From here, they will see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow.
+
+## Roles in OJS
 
 The OJS workflow revolves around different roles for different users, allowing them access to different parts of the workflow, and different permissions and responsibilities.
 
@@ -6,12 +14,12 @@ Major roles include Site Administrator, Journal Manager, Editor, Section Editor,
 
 OJS 3 also includes additional roles such as Translator and Designer. You can also create new roles or rename existing ones. More information on configuring roles is available in Chapter 5.
 
-## Site Administrator
+### Site Administrator
 The Site Administrator is responsible for the overall OJS installation, ensuring the server settings are accurate, adding language files, and creating any new journals on the installation. The Site Administrator account is created as part of the installation process. Unlike all other OJS roles, there can only be one Site Administrator.
 
-See [Chapter 4: Site Administration](./site_administration.md) for more details.
+See [Chapter 4: Site Administration](./site-administration.md) for more details.
 
-## Journal Manager
+### Journal Manager
 The Journal Manager is responsible for setting up the journal web site, configuring the system options, and managing the user accounts. This does not involve any advanced technical skills, but entails filling out web-based forms and uploading files.
 
 The Journal Manager also enrolls the Editors, Section Editors, Copyeditors, Layout Editors, Proofreaders, Authors, and Reviewers.
@@ -26,9 +34,9 @@ Many Journal Managers also enroll as Editors, allowing them to easily manage bot
 > Although the Journal Manager is a journal-specific role, journal managers should generally be considered system-wide trusted users, as they have the ability to assume the identities of other users who may be enrolled in other journals.
 >
 
-See [Chapter 5: Setting up a Journal](./journal_setup.md) for more details.
+See [Chapter 5: Setting up a Journal](./journal-setup.md) for more details.
 
-## Author
+### Author
 
 Authors are able to submit manuscripts to the journal directly through the journal's website. The Author is asked to upload submission files and to provide metadata or indexing information (the metadata improves the search capacity for research online and for the journal). The Author can upload multiple files, in the form of data sets, research instruments, or source texts that will enrich the item, as well as contribute to more open and robust forms of research and scholarship.
 
@@ -36,7 +44,7 @@ The Author is able to track the submission through the review and editorial proc
 
 See [Chapter 9: Authoring](./authoring.md) for more details.
 
-## Editor
+### Editor
 
 The Editor oversees the entire review, editing and publishing process. The Editor, working with the Journal Manager, typically establishes the policies and procedures for the journal.
 
@@ -48,31 +56,31 @@ The Editor also creates the journal issues, schedules submissions for publicatio
 
 Many Editors also enroll as Journal Managers, allowing them to easily manage both the editorial workflow as well as the journal settings.
 
-See [Chapter 10: Editorial Workflow](./editorial_workflow.md) for more details.
+See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
 
-## Section Editor
+### Section Editor
 
 The Section Editor manages the review and editing of submissions to which they have been assigned. In some cases, a Section Editor who is assigned to see submissions through the Review Process will also be responsible for seeing the submissions that are accepted through the Editing process (that is, through copyediting, production, and proofreading).
 
 Often, however, Section Editors only work with the review process, and an Editor, acting in the role of Section Editor, sees the submissions through the Editing process. The journal will have a policy on how the tasks are divided.
 
-See [Chapter 10: Editorial Workflow](./editorial_workflow.md) for more details.
+See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
 
-## Reviewer
+### Reviewer
 
 The Reviewer is selected by the Editor or Section Editor to review a submission. Reviewers are asked to submit reviews to the journal's website and are able to upload attachments for the use of the Editor and Author. Reviewers may be rated by Section Editors, again depending on the policies for this journal.
 
 See [Chapter 8: Reviewing](./reviewing.md) for more details.
 
-## Copyeditor
+### Copyeditor
 
 The Copyeditor edits submissions to improve grammar and clarity, works with authors to ensure everything is in place, ensures strict adherence to the journal's bibliographic and textual style, and produces a clean, edited copy for a Layout Editor or Production Assistant to turn into the galleys that will be in the published format of the journal.
 
 Some journals have an Editor or Section Editor play this role.
 
-See [Chapter 10: Editorial Workflow](./editorial_workflow.md) for more details.
+See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
 
-## Layout Editor
+### Layout Editor
 
 The Layout Editor transforms the copyedited versions of the submission into galleys in HTML, PDF, XML, etc. -- files which the journal has elected to use for online publication.
 
@@ -83,16 +91,60 @@ The Layout Editor transforms the copyedited versions of the submission into gall
 
 In some cases, the Editor or Section Editor will also serve as Layout Editor.
 
-See [Chapter 10: Editorial Workflow](./editorial_workflow.md) for more details.
+See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
 
-## Proofreader
+### Proofreader
 
 The Proofreader carefully reads over the galleys in the various formats in which the journal publishes (as does the author). The Proofreader (and the Author) record any typographic and formatting errors for the Layout Editor to fix.
 
 In the case of some journals, the Editor or Section Editor will also serve as Proofreader.
 
-See [Chapter 10: Editorial Workflow](./editorial_workflow.md) for more details.
+See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
 
-## Reader
+### Reader
 
 The Reader role is the simplest role in OJS, and has the fewest capabilities. Readers receive a notification email with the publication of each issue, which includes the Table of Contents for that particular issue.
+
+<hr />
+
+## Registering with a Journal
+
+Unregistered visitors to a journal can normally register as a Reader, Author, and/or Reviewer. Journal Managers are able to remove the ability for visitors to self-register, in which case a notice will appear stating that registration is currently closed (see Journal Settings), but Journal Managers can always register users at any time, and for any role.
+
+To register with a journal, click the Register link on the upper right corner.
+
+![](./assets/learning-ojs-3-registration.png)
+
+This will open the Registration Form for you to complete with all required information.
+
+![](./assets/learning-ojs-3-registration-form.png)
+
+All fields with an asterisk (First Name, Last Name, Affiliation, Country, Email, Username, Password, Repeat Password) are mandatory. If the journal is multilingual, you will need to select your preferred language.
+
+You will be automatically registered as a Reader and an Author. You will be given the option to register as a Reviewer as well.
+
+You will not be able to self-register for an Editorial Role (e.g., Editor, Section Editor, Copyeditor, Layout Editor, Proofreader, or Journal Manager). If you need to be enrolled at that level, contact a current Journal Manager or Site Administrator.
+
+<hr />
+
+## Viewing and Changing your Profile
+
+To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
+
+![](./assets/learning-ojs3.1-ed-view-profile.PNG)
+
+From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image \(which some journals may publish along with your article or on a list of editors\), determine your notification settings, or update your password.
+
+## Resetting your Password
+
+You can reset your password by:
+
+1. Logging into the journal
+2. Selecting your username and View Profile from the upper right corner of the screen
+3. Choosing the Password tab
+4. Entering your current password and then your new password twice
+5. Hitting Save
+
+![](./assets/learning-ojs3.1-ed-change-pw.PNG)
+
+Your password is now changed.
