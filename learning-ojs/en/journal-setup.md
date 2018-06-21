@@ -254,7 +254,7 @@ Use this section to configure the submission process.
 
 **Submission Preparation Checklist**: Authors must check off that they agree with each item on this list. Use the _Order_ link to change the order of the items, use the _Add Item_ link to create a new item, and use the blue arrow to the left of the item name to _Edit_ an exiting item.
 
-![](learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
+![](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
 
 **Notification of Author Submission**: Add an email address here to be contacted whenever there is a new submission.
 

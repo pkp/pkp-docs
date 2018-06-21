@@ -240,7 +240,7 @@ You can make additional changes using the blue arrow toggle next to the Reviewer
 
 **Edit Review**: Allows you to change the review dates and files.
 
-![](learning-ojs-3-ed-rev-reviewer-edit-review.png)
+![](./assets/learning-ojs-3-ed-rev-reviewer-edit-review.png)
 
 **Unassign Reviewer**: Allows you to unassign the Reviewer.
 
@@ -322,7 +322,7 @@ In this case, we're going to inform the Author that we are accepting the revisio
 
 Use the **Add Message** button to reply.
 
-![](learning-ojs-3-ed-discussion-window-reply.png)
+![](./assets/learning-ojs-3-ed-discussion-window-reply.png)
 
 Another option would be to ask for further revisions, but at this point, we're ready to move on.
 
@@ -702,7 +702,7 @@ You can make changes to the upload by selecting the blue arrow to the left of th
 
 Finally, you will need to inform the Section Editor that the galleys have been completed. To do so, use the Production Discussion panel and choose the _Add Discussion_ link.
 
-![](learning-ojs-3-au-production-galleys-complete.png)
+![](./assets/learning-ojs-3-au-production-galleys-complete.png)
 
 Add the Section Editor to the top of the page, and then include a subject line and message. Hit **OK** to send the message.
 
