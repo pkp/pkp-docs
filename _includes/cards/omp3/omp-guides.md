@@ -5,8 +5,8 @@ These documents are standalone guides for specific OMP topics outside of the fun
 
 ---
 
-- [GDPR  Guidebook](gdpr/en/gdpr-pkp-guide.pdf)
-- [Statistics](admin-guide/en/statistics.md)
-- [Crossref OJS Manual](crossref-ojs-manual/en/issues.md)
+- [GDPR  Guidebook](gdpr/gdpr-pkp-guide.pdf)
+- [Statistics](admin-guide/en/statistics)
+- [Crossref Manual](crossref-ojs-manual/en/)
 - [PKP Theming Guide](/pkp-theming-guide/)
 <!--- [Getting Found, Staying Found](/getting-found-staying-found/en/)-->
