@@ -6,3 +6,5 @@ The PKP Theming Guide is an introduction to building custom themes for Open Jour
 ---
 
 <span class='fa fa-language'></span> Available in [Português Brasileiro](/pkp-theming-guide/pt-br/).
+
+<!-- card flagged redundant // possible removal-->

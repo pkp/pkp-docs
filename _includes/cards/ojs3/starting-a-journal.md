@@ -10,3 +10,5 @@ An easy-to-follow checklist of all the steps you'll need to take to launch a suc
 - [Upgrading OJS](https://github.com/pkp/ojs/blob/master/docs/UPGRADE)
 - [Setting Up OJS](http://docs.pkp.sfu.ca/ojs3/en/journal_setup.html)
 - [Basic Workplan for a New OJS Journal](/starting-a-journal/)
+
+<!-- card flagged redundant // possible removal-->
