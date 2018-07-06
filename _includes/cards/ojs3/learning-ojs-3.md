@@ -5,7 +5,6 @@ A visual, step-by-step guide to managing a journal with Open Journal Systems. [V
 
 ---
 
-- [Installing and Upgrading](learning-ojs/en/installing-upgrading)
 - [Settings](learning-ojs/en/journal-setup)
 - [Issues](learning-ojs/en/issues)
 - [Users and Roles](learning-ojs/en/users-and-roles)

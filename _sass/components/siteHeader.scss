@@ -6,13 +6,19 @@
 
 .siteHeader__logo {
 	display: inline-block;
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-top: .5rem;
+	padding-bottom: .5rem;
 	font-size: 1.5rem;
 	font-weight: $light;
 	line-height: 1.2em;
 	color: $text;
 	text-decoration: none;
+}
+
+.siteHeader__logoImage {
+	max-height: 32px;
+	width: auto;
+	display: block;
 }
 
 .siteHeader__about {

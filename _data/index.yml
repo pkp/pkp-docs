@@ -8,29 +8,25 @@ apps:
     description: Our flagship software for open access journal publishing, used by more than 10,000 journals worldwide.
     cards:
       - path: learning-ojs-3
+      - path: admin-guide
+      - path: starting-a-journal
+      - path: gdpr
+      - path: pkp-school
       - path: looking-for-ojs-2
         isHighlighted: true
-      - path: developer
-        isDeveloper: true
-      - path: starting-a-journal
-      - path: translating-guide
-        isHighlighted: true
-      - path: setting-up-a-journal
-      - path: editorial-workflow
       - path: pkp-theming-guide
         isDeveloper: true
-      - path: crossref-ojs-manual
-      - path: using-paypal-for-ojs-and-ocs
-      - path: importing-exporting
   - path: ojs2
     title: Open Journal Systems 2
     titleShort: OJS 2
     includeInHero: false
-    description: "Help guides for older versions of our journal management software. We recommend you [upgrade to OJS 3](#ojs3)."
+    description: "Help guides for older versions of our journal management software. We recommend you [upgrade to OJS 3](#appojs3)."
     cards:
         - path: learning-ojs-2
-        - path: ojs-2-technical-reference
         - path: ojs2-pkp-school
+        - path: crossref-ojs-manual
+        - path: ojs-2-technical-reference
+          isDeveloper: true
   - path: omp3
     title: Open Monograph Press
     titleShort: OMP
@@ -38,15 +34,12 @@ apps:
     description: Usage guides and documentation for our monograph publishing software.
     cards:
         - path: learning-omp
+        - path: admin-guide
+        - path: gdpr
         - path: omp-api
           isDeveloper: true
-  - path: ots
-    title: Open Typesetting Stack
-    titleShort: OTS
-    includeInHero: true
-    description: Documentation for making use of our technical stack for typesetting in JATS XML.
-    cards:
-        - path: learn-more
+        - path: pkp-theming-guide
+          isDeveloper: true
   - path: ocs2
     title: Open Conference Systems
     titleShort: OCS
@@ -54,10 +47,3 @@ apps:
     description: Usage guides and documentation for our scholarly conference software.
     cards:
         - path: ocs
-  - path: ohs
-    title: Open Harvester Systems
-    titleShort: OHS
-    includeInHero: true
-    description: Usage guides and documentation for our metadata indexing software.
-    cards:
-        - path: learn-more
