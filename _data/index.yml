@@ -9,7 +9,8 @@ apps:
     cards:
       - path: learning-ojs-3
       - path: admin-guide
-      - path: ojs-guides
+      - path: starting-a-journal
+      - path: gdpr
       - path: pkp-school
       - path: looking-for-ojs-2
         isHighlighted: true
@@ -23,6 +24,7 @@ apps:
     cards:
         - path: learning-ojs-2
         - path: ojs2-pkp-school
+        - path: crossref-ojs-manual
         - path: ojs-2-technical-reference
           isDeveloper: true
   - path: omp3
@@ -33,7 +35,7 @@ apps:
     cards:
         - path: learning-omp
         - path: admin-guide
-        - path: omp-guides
+        - path: gdpr
         - path: omp-api
           isDeveloper: true
         - path: pkp-theming-guide

@@ -7,5 +7,5 @@ The PKP Administrator Guide provides guidance for administering PKP applications
 
 - [Installing and Upgrading](admin-guide/en/managing-the-environment)
 - [Email](admin-guide/en/email)
-- [Stats](admin-guide/en/statistics)
+- [Statistics](admin-guide/en/statistics)
 - ... and [more](admin-guide/en/).
