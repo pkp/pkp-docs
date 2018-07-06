@@ -5,6 +5,6 @@ Open Conference Systems (OCS) is a free Web publishing tool that will create a c
 
 - [OCS Readme](http://pkp.sfu.ca/ocs/README)
 - [Upgrade OCS](https://pkp.sfu.ca/ocs/UPGRADE)
-- [OCS in an Hour](http://pkp.sfu.ca/files/OCSinanHour.pdf)
-- [OCS Quick Guide](http://pkp.sfu.ca/files/OCS_QuickGuide.pdf)
-- [OxS Quick Reference](https://pkp.sfu.ca/files/docs/quickreference/quickreference.pdf)
+- [<span class="far fa-file-pdf"></span> OCS in an Hour](http://pkp.sfu.ca/files/OCSinanHour.pdf)
+- [<span class="far fa-file-pdf"></span> OCS Quick Guide](http://pkp.sfu.ca/files/OCS_QuickGuide.pdf)
+- [<span class="far fa-file-pdf"></span> OxS Quick Reference](https://pkp.sfu.ca/files/docs/quickreference/quickreference.pdf)
