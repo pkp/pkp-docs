@@ -2,6 +2,9 @@
 
 * [PKP Administrator Guide](.)
 * [Managing the Server Environment](managing-the-environment.md)
+  * [System Requirements and Installation](./managing-the-environment.md#system-requirements-and-installation)
+  * [Upgrading](./managing-the-environment.md#upgrading)
+  * [Other Tips and Tricks](./managing-the-environment.md#other-tips-and-tricks)
 * [Securing Your System](securing-your-system.md)
   * [Managing Spam](./securing-your-system.md#managing-spam)
 * [Data Import and Export](data-import-and-export.md)

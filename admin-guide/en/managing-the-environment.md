@@ -1,10 +1,38 @@
 # Managing the Server Environment
 
-### Configuring the Proper Environment {#docs-internal-guid-6febf1df-b712-a6c2-06bc-8713ee194a6c}
+Managing a PKP application generally means: 
 
-Step 1: read the README \([https://pkp.sfu.ca/ojs/README](https://pkp.sfu.ca/ojs/README)\). This contains a fair amount of information on configuring a secure web environment.
+* ensuring that system requirements are met; 
+* properly configuring the system and application to work properly;
+* managing the install and upgrade process.
 
-#### File Permissions
+PKP applications are relatively simple PHP/MySQL web applications, and can be run just about anywhere, provided a relatively recent version of PHP and MySQL are available. Other configuration options (eg. PostgreSQL, MS SQL) are also possible. 
+
+All applications ship with a full set of configuration, installation and upgrade documentation, found in the `docs/` directory included in the package download. These should be consulted as a primary resource for any configuration, installation or upgrade question, and should be reviewed periodically (particularly as part of any upgrade process). PKP provides these guides on the web, and we provide quick links below. 
+
+## Hosted Solutions
+
+If you do not have the expertise, staff or desire to install and manage OJS on your own, PKP Publishing Services provides complete hosting solutions at a number of price points. For more information, see the [PKP Publishing Services website] (https://pkpservices.sfu.ca). 
+
+## System Requirements and Installation
+
+Details on general system requirements, configuration recommendations and general installation instructions can be found in the various application README files:
+
+* OJS: [https://pkp.sfu.ca/ojs/README](https://pkp.sfu.ca/ojs/README)
+* OMP: [https://pkp.sfu.ca/omp/README](https://pkp.sfu.ca/omp/README)
+* OCS: [https://pkp.sfu.ca/ocs/README](https://pkp.sfu.ca/ocs/README)
+
+## Upgrading
+
+Upgrade instructions can be found in the following locations: 
+
+* OJS: [https://pkp.sfu.ca/ojs/UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE)
+* OMP: [https://pkp.sfu.ca/omp/UPGRADE](https://pkp.sfu.ca/omp/UPGRADE)
+* OCS: [https://pkp.sfu.ca/ocs/UPGRADE](https://pkp.sfu.ca/ocs/UPGRADE)
+
+## Other Tips and Tricks
+
+### File Permissions
 
 It is difficult to prescribe exact steps towards setting proper file permissions, as so much depends on the server's operating system, web server, and PHP setup.
 
@@ -17,73 +45,19 @@ Because security configurations can vary, and because of the volume of requests 
 
 PHP Safe Mode is not a recommended configuration and may not function properly. This is because in some configurations it will cause PHP's mkdir\(\) function to create directories that cannot thereafter be read or written because of file permissions. This is a limitation of Safe Mode and may prevent you from using OJS in a Safe Mode environment.
 
-#### Database Setup, Security, and Character Encoding
-
-Although OJS supports various database servers \(e.g. MySQL, PostgreSQL\), this guide assumes that you will be using MySQL for your OJS installation.
-
-To ensure that database access is limited to only the tables required by your OJS installation, you should create a dedicated MySQL user account for OJS with limited system privileges. It is not recommended to use the MySQL ‘root’ user account for your OJS install. In addition, if you haven’t already, please ensure that you set a password for the MySQL ‘root’ user account \(by default, the MySQL ‘root’ user account does not require a password\).
-
-To create a MySQL OJS user \(e.g. ‘ojs\_user’\) with access to an OJS database \(e.g. ‘ojs\_database’\), you will need to execute the following MySQL commands using the ‘root’ MySQL user account.
-
-Login to MySQL using the root MySQL user account
-
-`$ mysql -u root -p`
-
-Create a dedicated OJS user account
-
-``mysql> CREATE USER `ojs_user`@`localhost` IDENTIFIED BY 'password';``  
-
-
-Grant OJS user access to OJS database
-
-``mysql> GRANT ALL ON `ojs_database`.* TO `ojs_user`@`localhost`;``
-
-Create empty OJS database using UTF8 character encoding
-
-``mysql> CREATE `ojs_database` DEFAULT CHARACTER SET utf8;``
-
-Save the MySQL OJS account username and password, since they will be required by the OJS installer, which will need to connect to the newly created database using the MySQL OJS user account.
-
-Unless there is a compelling reason to use another character encoding, UTF8 should be used by default for your OJS installation. When invoking either the web-based or command-line OJS installer, ensure that you specify UTF8 for the client character set, connection character set, and database character set.
-
-If you are manually editing the OJS `config.inc.php` file, the character set settings should be defined as follows. Note the additional dash \(-\) in the client\_charset setting \(utf-8\) that is not required in the connection and database charset settings \(utf8\).
-
-`; Client output/input character set  
-client_charset = utf-8`
-
-`; Database connection character set  
-connection_charset = utf8`
-
-`; Database storage character set  
-database_charset = utf8`
-
-### System Requirements, Installation and Upgrading
-
-Details on general system requirements and general installation instructions can be found in the various application README files:
-
-OJS: [https://pkp.sfu.ca/ojs/README](https://pkp.sfu.ca/ojs/README)
-
-OMP: [https://pkp.sfu.ca/omp/README](https://pkp.sfu.ca/omp/README)
-
-OCS: [https://pkp.sfu.ca/ocs/README](https://pkp.sfu.ca/ocs/README)
-
-Likewise, general upgrade instructions can be found in the application UPGRADE files:
-
-OJS: [https://pkp.sfu.ca/ojs/UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE)
-
 ### PHP and PKP Application Compatibility
 
 If you are running PHP 5.3+ \(which you should be doing\), you will need to run OJS 2.4.0+, OMP 1.0+ or OCS 2.3.6+. Older versions of the software will not work on newer versions of PHP.
 
 If you are running PHP 7+, you will need to run OJS 3.0+.
 
-OJS 3.1+ requires PHP 5.6 or above.
+OJS 3.1+ **requires** PHP 5.6 or above.
 
-NOTE: If you are running OJS3 on a PHP7+ LAMP stack, please remember update your MySQL driver parameter\(Database section\) on `config.inc.php` file, i.e.:
+**NOTE**: If you are running OJS3 on a PHP7+ LAMP stack, please remember to update your MySQL driver parameter\(Database section\) on `config.inc.php` file, i.e.:
 
 `driver = mysqli`
 
-### Managing installs with Git
+### Installing and Managing Applications via Git
 
 Using Git to manage your OJS install gives you a higher control over updates and code fixes from official PKP Github repository. You will be able to create local branches of a OJS current version to check improvements and test them as well.
 
@@ -91,3 +65,8 @@ OJS installs managed with Git tool also demands that you have set two special re
 
 Another advantage using Git consists on ability to create local branches that enables sysadmins to make their own local tests and even collaborate with OJS code  improvements pushing commits to review on official Git repo.That way it is also possible upgrade code version, minor and major versions, at same time keeping current local code version with branches. Likewise a rollback just requires a branch checkout command.
 
+Instructions for installing via Git can be found directly in our GitHub repositories: 
+
+* OJS: [https://github.com/pkp/ojs](https://github.com/pkp/ojs)
+* OMP: [https://github.com/pkp/omp](https://github.com/pkp/omp)
+* OCS: [https://github.com/pkp/ocs](https://github.com/pkp/ocs)
