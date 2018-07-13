@@ -21,10 +21,12 @@ Markdown does not _require_ a specific or special editor. If you want to try wri
 
 All of the documents we have are hosted in Github and – especially when looking to modify documents – it will be important to know  a little bit about repositories, branches, and pull-requests. Don't let the language intimidate you! It's pretty easy. You should be able edit a document directly from the repository itself.
 
-1. Follow the directory structure in Github until you see the file you want to edit.
-2. Click the filename to view that individual file.
-3. From there, on the top right of the document window, you should see a small pencil icon.
-4. Click that button to open up a plaintext editor for the document within Github itself.
+1. Create a [Github](https://github.com) account if you do not already have one and log in.
+2. Navigate to https://github.com/pkp/pkp-docs
+3. Follow the directory structure in Github until you see the file you want to edit.
+4. Click the filename to view that individual file.
+5. From there, on the top right of the document window, you should see a small pencil icon.
+6. Click that button to open up a plaintext editor for the document within Github itself.
 
 ![](assets/contrib-01.gif)
 
