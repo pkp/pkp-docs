@@ -1,10 +1,10 @@
 # Table of contents
 
-* [PKP Administrator Guide](.)
+* [PKP Administrator's Guide](.)
 * [Managing the Server Environment](managing-the-environment.md)
   * [System Requirements and Installation](./managing-the-environment.md#system-requirements-and-installation)
   * [Upgrading](./managing-the-environment.md#upgrading)
-  * [Other Tips and Tricks](./managing-the-environment.md#other-tips-and-tricks)
+  * [Managing Installs via Git](./managing-the-environment.md#installing-and-managing-applications-via-Git)
 * [Securing Your System](securing-your-system.md)
   * [Managing Spam](./securing-your-system.md#managing-spam)
 * [Data Import and Export](data-import-and-export.md)
@@ -25,4 +25,8 @@
   * [Frequently Encountered Statistics Problems](./statistics.md#frequently-encountered-statistics-problems)
   * [Further Resources](./statistics.md#further-resources)
 * [Email](email.md)
+* [Troubleshooting](troubleshooting.md)
+  * [Permissions, File Access, Etc.](./troubleshooting.md#permissions-file-access-etc)
+  * [Character Encoding](./troubleshooting.md#character-encoding)
+  * [Error-reporting](./troubleshooting.md#error-reporting-blank-pages-diagnostics-etc)
 * [Appendix A: Create a Protected OJS 3 Sandbox Staged with Git](appendix-1.-create-a-protected-ojs-3-sandbox-staged-with-git.md)

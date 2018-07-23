@@ -30,34 +30,7 @@ Upgrade instructions can be found in the following locations:
 * OMP: [https://pkp.sfu.ca/omp/UPGRADE](https://pkp.sfu.ca/omp/UPGRADE)
 * OCS: [https://pkp.sfu.ca/ocs/UPGRADE](https://pkp.sfu.ca/ocs/UPGRADE)
 
-## Other Tips and Tricks
-
-### File Permissions
-
-It is difficult to prescribe exact steps towards setting proper file permissions, as so much depends on the server's operating system, web server, and PHP setup.
-
-Start by checking which server API PHP uses on your server. If OJS is already installed, log in as Site Administrator, click "System Information", and at the bottom of the page, click "Extended PHP Information". Find the line that says "Server API". Depending on which API you are using \(mod\_php/SAPI or CGI/FastCGI\), permissions should be set as follows.
-
-* mod\_php/SAPI: In this configuration, all PHP scripts on the system typically execute as the same user \(usually Apache's "nobody" or "www-data" accounts\). Be warned that this may be insecure on a shared host. The files\_dir \(configured in config.inc.php\), the cache directory, the public directory, and all contents and subdirectories must be writable and readable by the web server user. The config.inc.php configuration file must be readable by the web server user.
-* CGI/FastCGI: In this configuration, PHP scripts will typically run under your user account \(though server configurations may vary\). This can be a well-secured configuration. The files\_dir \(configured in config.inc.php\), the cache directory, the public directory, and all contents and subdirectories must be writable and readable by this user account. The config.inc.php configuration file must be readable by this account.
-
-Because security configurations can vary, and because of the volume of requests for support we receive regarding file permissions, we will only be able to provide limited help with these issues. Please be as specific as possible when posting about permissions issues.
-
-PHP Safe Mode is not a recommended configuration and may not function properly. This is because in some configurations it will cause PHP's mkdir\(\) function to create directories that cannot thereafter be read or written because of file permissions. This is a limitation of Safe Mode and may prevent you from using OJS in a Safe Mode environment.
-
-### PHP and PKP Application Compatibility
-
-If you are running PHP 5.3+ \(which you should be doing\), you will need to run OJS 2.4.0+, OMP 1.0+ or OCS 2.3.6+. Older versions of the software will not work on newer versions of PHP.
-
-If you are running PHP 7+, you will need to run OJS 3.0+.
-
-OJS 3.1+ **requires** PHP 5.6 or above.
-
-**NOTE**: If you are running OJS3 on a PHP7+ LAMP stack, please remember to update your MySQL driver parameter\(Database section\) on `config.inc.php` file, i.e.:
-
-`driver = mysqli`
-
-### Installing and Managing Applications via Git
+## Installing and Managing Applications via Git
 
 Using Git to manage your OJS install gives you a higher control over updates and code fixes from official PKP Github repository. You will be able to create local branches of a OJS current version to check improvements and test them as well.
 
