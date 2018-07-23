@@ -12,6 +12,7 @@ apps:
       - path: starting-a-journal
       - path: gdpr
       - path: pkp-school
+      - path: crossref-ojs-manual
       - path: looking-for-ojs-2
         isHighlighted: true
       - path: pkp-theming-guide
@@ -25,6 +26,8 @@ apps:
         - path: learning-ojs-2
         - path: ojs2-pkp-school
         - path: crossref-ojs-manual
+        - path: importing-exporting
+        - path: using-paypal-for-ojs-and-ocs
         - path: ojs-2-technical-reference
           isDeveloper: true
   - path: omp3

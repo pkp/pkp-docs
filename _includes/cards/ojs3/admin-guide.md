@@ -1,11 +1,13 @@
 
-### [Admin Guide](admin-guide/en/)
+### [Administrator's Guide](admin-guide/en/)
 
-The PKP Administrator Guide provides guidance for administering PKP applications, including Open Journal Systems \(OJS\), Open Monograph Press \(OMP\) and Open Conference Systems \(OCS\). It is written by and for systems administrators - those who are responsible for the installation, upgrading and general maintenance of the system.
+A guide for system administrators of PKP applications.
 
 ---
 
 - [Installing and Upgrading](admin-guide/en/managing-the-environment)
-- [Email](admin-guide/en/email)
+- [Data Import and Export](admin-guide/en/data-import-and-export)
 - [Statistics](admin-guide/en/statistics)
+- [Email](admin-guide/en/email)
+- [Troubleshooting](admin-guide/en/troubleshooting)
 - ... and [more](admin-guide/en/).
