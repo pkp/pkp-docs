@@ -4,6 +4,8 @@ As part of installing OJS, you will have created a Site Administrator user accou
 
 You will be able to create new hosted journal instances, manage language support across your system, and perform other administrative functions.
 
+More technical information about administering an OJS site, including upgrades, email, statistics, and importing and exporting, is available in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/).
+
 ## Site Management
 
 To get to Site Management, login as the Site Administrator, and choose Administration from the left menu.
