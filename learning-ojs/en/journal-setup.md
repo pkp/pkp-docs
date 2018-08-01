@@ -282,7 +282,7 @@ This tab allows you to configure your journal's review process.
 
 **Default Review Deadlines**: Indicate how long reviewers have to decide to accept or decline a review request from the editor, and how long they have to make a recommendation.
 
-**Automated Email Reminders**: Set automatic reminder email messages to be sent to late reviewers. Note that some system settings must be configured by the Site Administrator.
+**Automated Email Reminders**: Set automatic reminder email messages to be sent to late reviewers. Note that some system settings must be configured by the Site Administrator. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
 
 **Review Forms**: Review forms provide reviewers with a set of questions to respond to. This can help focus their feedback in ways that is more useful to you.
 
@@ -349,7 +349,7 @@ Use the Publisher Library to store important documents, such as your journal's M
 
 ### Emails
 
-The section allows you to configure the emails that are sent out from the system.
+The section allows you to configure the emails that are sent out from the system. 
 
 ![](./assets/learning-ojs3.1-jm-settings-workflow-emails.PNG)
 
@@ -358,6 +358,8 @@ The section allows you to configure the emails that are sent out from the system
 **Bounce Address**: A notice will be sent to this email address of any system-sent emails that fail to deliver, such as when the targeted email address is no longer valid.
 
 **Prepared Email Tempates**: Pre-written emails are an important part of OJS. You see all of them here, and use the Edit link \(as always, found by selecting the blue arrow to the left of the template name\) to make any modifications.
+
+Some configuation is required to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
 
 <hr />
 
