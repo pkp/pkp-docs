@@ -11,5 +11,7 @@ To access Site Administration pages, log in as a Site Administrator and from you
 
 Site Administration responsibilities fall into two categories: **Site Management** and **Administrative Functions**. The activities of both are described on the following pages.
 
+More technical information about administering an OJS site, including upgrades, email, statistics, and importing and exporting, is available in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/).
+
 ![Site Administration Responsibilities](images/chapter4/site_admin_1.png)
 
