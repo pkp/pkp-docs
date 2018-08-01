@@ -22,3 +22,4 @@ OJS facilitates work flow communication through the use of prepared email messag
 
 ![Edit Prepared Email](images/chapter5/edit_email.png) 
 
+Some configuation is required to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
