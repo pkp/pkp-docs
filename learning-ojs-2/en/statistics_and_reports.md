@@ -40,11 +40,10 @@ Report templates are available, and you can make selections based on location an
 
 Click **Generate custom report** to create a CSV file with your results. A Report URL is also generated, which you can be use to generate the report at a later time with the current form settings.
 
-For more detailed information, see [OJS Report Generator: Examples and Tips](https://dl.dropboxusercontent.com/u/9529729/OJSReportGeneratorExamplesandTips.pdf).
-
 ### **Display Statistics**
 
 You can display statistics for your readers using plugins. See [System Plugins](https://pkp.gitbooks.io/learning-ojs-2/content/en/system_plugins.html) for more information.
 
+For more detailed information about managing, generating, and troubleshooting statistics and reports in OJS, see the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
 
 
