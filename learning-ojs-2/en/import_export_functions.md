@@ -5,7 +5,7 @@ Open Journal Systems offers a variety of tools and Import/Export plugins which a
 
 
 > Note
-> This section serves only as an overview of OJS' import/export functionality. Some import/export functions, notably the Users and Issues & Articles functions, are complex to use and to explain. For detailed usage instructions for all import/export functions, see the [documentation online](https://pkp.sfu.ca/wiki/index.php?title=Importing_and_Exporting_Data).
+> This section serves only as an overview of OJS' import/export functionality. Some import/export functions, notably the Users and Issues & Articles functions, are complex to use and to explain. For detailed usage instructions for all import/export functions, see the [documentation online](https://docs.pkp.sfu.ca/importing-exporting/en/).
 
 
 
