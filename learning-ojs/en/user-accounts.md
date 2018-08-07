@@ -135,6 +135,8 @@ To view and edit your profile, log in and click your Username link from the uppe
 
 From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image \(which some journals may publish along with your article or on a list of editors\), determine your notification settings, or update your password.
 
+The API tab on the user profile allows a user to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
+
 ## Resetting your Password
 
 You can reset your password by:
