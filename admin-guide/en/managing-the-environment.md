@@ -12,7 +12,7 @@ All applications ship with a full set of configuration, installation and upgrade
 
 ## Hosted Solutions
 
-If you do not have the expertise, staff or desire to install and manage OJS on your own, PKP Publishing Services provides complete hosting solutions at a number of price points. For more information, see the [PKP Publishing Services website] (https://pkpservices.sfu.ca). 
+If you do not have the expertise, staff or desire to install and manage OJS on your own, PKP Publishing Services provides complete hosting solutions at a number of price points. For more information, see the [PKP Publishing Services website](https://pkpservices.sfu.ca). 
 
 ## System Requirements and Installation
 
