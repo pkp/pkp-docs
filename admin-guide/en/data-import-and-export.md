@@ -225,11 +225,15 @@ The mEDRA Export/Registration Plugin allows you to export issue, article, and ga
 
 Import/export plugins can normally also be run from the command line. You can view the applicable plugin names by running the following command:
 
+```
 php tools/importExport.php list
+```
 
 You can see usage parameters by running the following command:
 
+```
 php tools/importExport.php \[PluginName\] usage  
+```
 
 ## Troubleshoot importing and exporting
 
