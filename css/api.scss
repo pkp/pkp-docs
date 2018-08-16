@@ -7,9 +7,8 @@
 @import '_mixins';
 @import 'base';
 @import 'components/bookHeader';
-@import 'components/versions';
 @import 'components/book';
+@import 'components/versions';
+@import 'components/swagger';
 @import 'components/alert';
-@import 'lib/pygments-friendly';
-@import 'components/highlight';
 @import 'components/siteFooter';

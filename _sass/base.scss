@@ -50,3 +50,7 @@ a {
 		color: $link-hover;
 	}
 }
+
+.site-row {
+	@include container;
+}

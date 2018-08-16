@@ -1,0 +1,19 @@
+.version {
+	display: inline-block;
+	padding: 0 1em;
+	border: 1px solid transparent;
+	border-radius: 15px;
+  font-weight: 700;
+  line-height: 30px;
+
+	&:hover,
+	&:focus {
+		border-color: $link;
+	}
+}
+
+.version--current {
+	border-color: $link;
+	background: $link;
+	color: $text-on-dark;
+}
