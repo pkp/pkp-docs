@@ -1,10 +1,10 @@
 {% if versions %}
 	<div class="versions">
 		{% for version in versions %}
-			{% if current == version %}
-				<span class="version version--current">{{ version }}</span>
+			{% if current == version[0] %}
+				<span class="version version--current">{{ version[0] }}</span>
 			{% else %}
-				<a href="{{ version }}" class="version">{{ version }}</a>
+				<a href="{{ version[1] }}" class="version">{{ version[0] }}</a>
 			{% endif %}
 		{% endfor %}
 	</div>
