@@ -1,0 +1,4212 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "3.2.x",
+        "title": "Open Journal Systems - API Specification",
+        "description": "This guide documents the REST API endpoints which can be accessed with this version of [Open Journal Systems](https:\/\/pkp.sfu.ca\/ojs\/). It is a technical reference for software developers who wish to build custom interactions with the platform.\n\nPlease consult the [REST API Usage Guide](\/dev\/api) for an introduction to using the API or the [Developer Documentation Hub](\/dev) for documentation on the platform's internals.\n\n**Changes since v3.1.x**\n* The Author property, `isBrowseable`, was renamed to `includeInBrowse`.\n* The Author property, `isPrimaryContact`, was renamed to `primaryContact`.\n* The Submission property, `status`, was changed from an `object` to an `integer`. Please see documentation for more information.",
+        "contact": {
+            "name": "Public Knowledge Project",
+            "url": "https:\/\/pkp.sfu.ca"
+        }
+    },
+    "produces": [
+        "application\/json"
+    ],
+    "tags": [
+        {
+            "name": "Submissions"
+        },
+        {
+            "name": "Issues"
+        },
+        {
+            "name": "Users",
+            "description": "Only admins, journal editors, and subeditors can access these endpoints."
+        },
+        {
+            "name": "Contexts",
+            "description": "Only admins and journal managers can access these endpoints."
+        },
+        {
+            "name": "Backend",
+            "description": "Private endpoints for OJS's UI. These endpoints will be less stable between versions. We discourage their use in third-party plugins or applications."
+        }
+    ],
+    "definitions": {
+        "Author": {
+            "type": "object",
+            "properties": {
+                "affilation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "biography": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "country": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string",
+                    "validation": [
+                        "email_or_localhost"
+                    ]
+                },
+                "familyName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "fullName": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "givenName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "id": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "includeInBrowse": {
+                    "type": "boolean"
+                },
+                "orcid": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "orcid"
+                    ]
+                },
+                "primaryContact": {
+                    "type": "boolean"
+                },
+                "seq": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "url": {
+                    "type": "string",
+                    "validation": [
+                        "url"
+                    ]
+                },
+                "userGroupId": {
+                    "type": "integer"
+                }
+            }
+        },
+        "Context": {
+            "type": "object",
+            "properties": {
+                "_href": {
+                    "type": "string",
+                    "format": "uri",
+                    "readOnly": true,
+                    "apiSummary": true
+                },
+                "abbreviation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "about": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "acronym": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "additionalHomeContent": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "agenciesEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "agenciesEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "agenciesRequired": {
+                    "type": "boolean"
+                },
+                "announcementsIntroduction": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "authorGuidelines": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "authorInformation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "authorSelfArchivePolicy": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "citationsEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "citationsEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "citationsRequired": {
+                    "type": "boolean"
+                },
+                "clockssLicense": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "competingInterests": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "contactAffiliation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "contactEmail": {
+                    "type": "string",
+                    "validation": [
+                        "email_or_localhost"
+                    ]
+                },
+                "contactName": {
+                    "type": "string"
+                },
+                "contactPhone": {
+                    "type": "string"
+                },
+                "copySubmissionAckAddress": {
+                    "type": "string"
+                },
+                "copySubmissionAckPrimaryContact": {
+                    "type": "string"
+                },
+                "copyrightHolderOther": {
+                    "type": "string"
+                },
+                "copyrightHolderType": {
+                    "type": "string"
+                },
+                "copyrightNotice": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "copyrightNoticeAgree": {
+                    "type": "boolean"
+                },
+                "copyrightYearBasis": {
+                    "type": "string"
+                },
+                "coverageEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "coverageEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "coverageRequired": {
+                    "type": "boolean"
+                },
+                "currency": {
+                    "type": "string"
+                },
+                "customHeaders": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "defaultMetricType": {
+                    "type": "string"
+                },
+                "defaultReviewMode": {
+                    "type": "integer",
+                    "default": 2
+                },
+                "delayedOpenAccessDuration": {
+                    "type": "integer"
+                },
+                "delayedOpenAccessPolicy": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "description": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "disableUserReg": {
+                    "type": "boolean"
+                },
+                "disciplinesEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "disciplinesEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "disciplinesRequired": {
+                    "type": "boolean"
+                },
+                "editorialTeam": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "emailSignature": {
+                    "type": "string",
+                    "defaultLocaleKey": "default.journalSettings.emailSignature"
+                },
+                "enableAnnouncements": {
+                    "type": "boolean"
+                },
+                "enableAnnouncementsHomepage": {
+                    "type": "boolean"
+                },
+                "enableAuthorSelfArchive": {
+                    "type": "boolean"
+                },
+                "enableClockss": {
+                    "type": "boolean"
+                },
+                "enableLockss": {
+                    "type": "boolean"
+                },
+                "enableOpenAccessNotification": {
+                    "type": "boolean"
+                },
+                "enableSubscriptionOnlinePaymentNotificationPurchaseIndividual": {
+                    "type": "boolean"
+                },
+                "enableSubscriptionOnlinePaymentNotificationPurchaseInstitutional": {
+                    "type": "boolean"
+                },
+                "enableSubscriptionOnlinePaymentNotificationRenewIndividual": {
+                    "type": "boolean"
+                },
+                "enableSubscriptionOnlinePaymentNotificationRenewInstitutional": {
+                    "type": "boolean"
+                },
+                "enabled": {
+                    "type": "boolean",
+                    "apiSummary": true
+                },
+                "envelopeSender": {
+                    "type": "string",
+                    "validation": [
+                        "email_or_localhost"
+                    ]
+                },
+                "favicon": {
+                    "type": "object",
+                    "multilingual": true,
+                    "properties": {
+                        "en_US": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        },
+                        "fr_CA": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "homepageImage": {
+                    "type": "object",
+                    "multilingual": true,
+                    "properties": {
+                        "en_US": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        },
+                        "fr_CA": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "id": {
+                    "type": "integer",
+                    "readOnly": true,
+                    "apiSummary": true
+                },
+                "itemsPerPage": {
+                    "type": "integer",
+                    "default": 25
+                },
+                "journalThumbnail": {
+                    "type": "object",
+                    "multilingual": true,
+                    "apiSummary": true,
+                    "properties": {
+                        "en_US": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        },
+                        "fr_CA": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "keywordsEnabledSubmission": {
+                    "type": "boolean",
+                    "default": true
+                },
+                "keywordsEnabledWorkflow": {
+                    "type": "boolean",
+                    "default": true
+                },
+                "keywordsRequired": {
+                    "type": "boolean"
+                },
+                "languagesEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "languagesEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "languagesRequired": {
+                    "type": "boolean"
+                },
+                "librarianInformation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "licenseUrl": {
+                    "type": "string",
+                    "validation": [
+                        "url"
+                    ]
+                },
+                "lockssLicense": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "mailingAddress": {
+                    "type": "string"
+                },
+                "membershipFee": {
+                    "type": "number",
+                    "default": 0
+                },
+                "membershipFeeDescription": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "membershipFeeName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "name": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "numAnnouncementsHomepage": {
+                    "type": "integer"
+                },
+                "numDaysBeforeInviteReminder": {
+                    "type": "integer"
+                },
+                "numDaysBeforeSubmitReminder": {
+                    "type": "integer"
+                },
+                "numMonthsAfterSubscriptionExpiryReminder": {
+                    "type": "integer"
+                },
+                "numMonthsBeforeSubscriptionExpiryReminder": {
+                    "type": "integer"
+                },
+                "numPageLinks": {
+                    "type": "integer",
+                    "default": 10
+                },
+                "numWeeksAfterSubscriptionExpiryReminder": {
+                    "type": "integer"
+                },
+                "numWeeksBeforeSubscriptionExpiryReminder": {
+                    "type": "integer"
+                },
+                "numWeeksPerResponse": {
+                    "type": "integer"
+                },
+                "numWeeksPerReview": {
+                    "type": "integer",
+                    "default": 4
+                },
+                "onlineIssn": {
+                    "type": "string",
+                    "validation": [
+                        "issn"
+                    ]
+                },
+                "openAccessPolicy": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "pageFooter": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "pageHeaderLogoImage": {
+                    "type": "object",
+                    "multilingual": true,
+                    "properties": {
+                        "en_US": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        },
+                        "fr_CA": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "path": {
+                    "type": "string",
+                    "validation": [
+                        "regex:\/^[a-z0-9]+([\\-_][a-z0-9]+)*$\/"
+                    ],
+                    "apiSummary": true
+                },
+                "paymentPluginName": {
+                    "type": "string"
+                },
+                "paymentsEnabled": {
+                    "type": "boolean"
+                },
+                "primaryLocale": {
+                    "type": "string",
+                    "validation": [
+                        "regex:\/^[a-z]{2}_[A-Z]{2}(@[a-z]{0,})?$\/"
+                    ]
+                },
+                "printIssn": {
+                    "type": "string",
+                    "validation": [
+                        "issn"
+                    ]
+                },
+                "privacyStatement": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "publicationFee": {
+                    "type": "number",
+                    "default": 0
+                },
+                "publicationFeeDescription": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "publicationFeeName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "publisherInstitution": {
+                    "type": "string"
+                },
+                "publishingMode": {
+                    "type": "integer"
+                },
+                "purchaseArticleFee": {
+                    "type": "number",
+                    "default": 0
+                },
+                "purchaseArticleFeeDescription": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "purchaseArticleFeeEnabled": {
+                    "type": "boolean"
+                },
+                "purchaseArticleFeeName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "purchaseIssueFee": {
+                    "type": "number"
+                },
+                "purchaseIssueFeeEnabled": {
+                    "type": "boolean"
+                },
+                "rateReviewerOnQuality": {
+                    "type": "boolean"
+                },
+                "readerInformation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "restrictArticleAccess": {
+                    "type": "boolean"
+                },
+                "restrictOnlyPdf": {
+                    "type": "boolean"
+                },
+                "restrictReviewerFileAccess": {
+                    "type": "boolean"
+                },
+                "restrictSiteAccess": {
+                    "type": "boolean"
+                },
+                "reviewGuidelines": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "reviewerAccessKeysEnabled": {
+                    "type": "boolean"
+                },
+                "reviewerCompetingInterestsRequired": {
+                    "type": "boolean"
+                },
+                "rightsEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "rightsEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "rightsRequired": {
+                    "type": "boolean"
+                },
+                "searchDescription": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "seq": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "showEnsuringLink": {
+                    "type": "boolean"
+                },
+                "sourceEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "sourceEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "sourceRequired": {
+                    "type": "boolean"
+                },
+                "subjectsEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "subjectsEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "subjectsRequired": {
+                    "type": "boolean"
+                },
+                "submissionChecklist": {
+                    "type": "array",
+                    "multilingual": true,
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "order": {
+                                "type": "integer"
+                            },
+                            "content": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "default": [
+                        {
+                            "order": 1,
+                            "content": {
+                                "defaultLocaleKey": "default.journalSettings.checklist.notPreviouslyPublished"
+                            }
+                        },
+                        {
+                            "order": 2,
+                            "content": {
+                                "defaultLocaleKey": "default.journalSettings.checklist.fileFormat"
+                            }
+                        },
+                        {
+                            "order": 3,
+                            "content": {
+                                "defaultLocaleKey": "default.journalSettings.checklist.addressesLinked"
+                            }
+                        },
+                        {
+                            "order": 4,
+                            "content": {
+                                "defaultLocaleKey": "default.journalSettings.checklist.submissionAppearance"
+                            }
+                        },
+                        {
+                            "order": 5,
+                            "content": {
+                                "defaultLocaleKey": "default.journalSettings.checklist.bibliographicRequirements"
+                            }
+                        }
+                    ],
+                    "properties": {
+                        "en_US": {
+                            "type": "object",
+                            "properties": {
+                                "order": {
+                                    "type": "integer"
+                                },
+                                "content": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "fr_CA": {
+                            "type": "object",
+                            "properties": {
+                                "order": {
+                                    "type": "integer"
+                                },
+                                "content": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "submissionFee": {
+                    "type": "number"
+                },
+                "submissionFeeDescription": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "submissionFeeName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "subscriptionAdditionalInformation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "subscriptionEmail": {
+                    "type": "string",
+                    "validation": [
+                        "email_or_localhost"
+                    ]
+                },
+                "subscriptionExpiryPartial": {
+                    "type": "boolean"
+                },
+                "subscriptionMailingAddress": {
+                    "type": "string"
+                },
+                "subscriptionName": {
+                    "type": "string"
+                },
+                "subscriptionPhone": {
+                    "type": "string"
+                },
+                "supportEmail": {
+                    "type": "string",
+                    "validation": [
+                        "email_or_localhost"
+                    ]
+                },
+                "supportName": {
+                    "type": "string"
+                },
+                "supportPhone": {
+                    "type": "string"
+                },
+                "supportedFormLocales": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "validation": [
+                            "regex:\/^[a-z]{2}_[A-Z]{2}(@[a-z]{0,})?$\/"
+                        ]
+                    }
+                },
+                "supportedLocales": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "validation": [
+                            "regex:\/^[a-z]{2}_[A-Z]{2}(@[a-z]{0,})?$\/"
+                        ]
+                    }
+                },
+                "supportedSubmissionLocales": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "validation": [
+                            "regex:\/^[a-z]{2}_[A-Z]{2}(@[a-z]{0,})?$\/"
+                        ]
+                    }
+                },
+                "themePluginPath": {
+                    "type": "string",
+                    "default": "default"
+                },
+                "typeEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "typeEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "typeRequired": {
+                    "type": "boolean"
+                },
+                "url": {
+                    "type": "string",
+                    "validation": [
+                        "uri"
+                    ],
+                    "readOnly": true,
+                    "apiSummary": true
+                }
+            }
+        },
+        "ErrorResponse": {
+            "type": "object",
+            "description": "A response object that will be returned when the requested could not be fulfilled.",
+            "properties": {
+                "error": {
+                    "type": "string"
+                },
+                "errorMessage": {
+                    "type": "string"
+                }
+            }
+        },
+        "Galley": {
+            "type": "object",
+            "properties": {
+                "_parent": {
+                    "type": "string",
+                    "readOnly": true
+                },
+                "dependentFiles": {
+                    "type": "array",
+                    "readOnly": true,
+                    "items": {
+                        "$ref": "#\/definitions\/SubmissionFile"
+                    }
+                },
+                "file": {
+                    "type": "object",
+                    "readOnly": true,
+                    "$ref": "#\/definitions\/SubmissionFile"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "label": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "locale": {
+                    "type": "string"
+                },
+                "seq": {
+                    "type": "integer"
+                },
+                "urlPublished": {
+                    "type": "string",
+                    "readOnly": true
+                },
+                "urlRemote": {
+                    "type": "string",
+                    "validation": [
+                        "url"
+                    ]
+                }
+            }
+        },
+        "InvalidParametersResponse": {
+            "type": "object",
+            "description": "A response object that will be returned when there are validation errors for the request parameters. Typically used with forms.",
+            "example": {
+                "name": "You must provide a name to create a new user.",
+                "roles": "You must assign the user to one or more roles."
+            }
+        },
+        "Issue": {
+            "type": "object",
+            "properties": {
+                "_href": {
+                    "type": "string",
+                    "readOnly": true,
+                    "apiSummary": true
+                },
+                "articles": {
+                    "type": "array",
+                    "readOnly": true,
+                    "items": {
+                        "$ref": "#\/definitions\/SubmissionSummary"
+                    }
+                },
+                "coverImageAltText": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "coverImageUrl": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "dateNotified": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "datePublished": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "description": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "doi": {
+                    "type": "string"
+                },
+                "galleys": {
+                    "type": "array",
+                    "readOnly": true,
+                    "apiSummary": true,
+                    "items": {
+                        "$ref": "#\/definitions\/Galley"
+                    }
+                },
+                "id": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "identification": {
+                    "type": "string",
+                    "readOnly": true,
+                    "apiSummary": true
+                },
+                "isCurrent": {
+                    "type": "boolean",
+                    "readOnly": true
+                },
+                "lastModified": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "number": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "publishedUrl": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "url"
+                    ]
+                },
+                "sections": {
+                    "type": "array",
+                    "readOnly": true,
+                    "items": {
+                        "$ref": "#\/definitions\/SectionSummary"
+                    }
+                },
+                "title": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "volume": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "year": {
+                    "type": "integer",
+                    "apiSummary": true
+                }
+            }
+        },
+        "LocaleObject": {
+            "type": "object",
+            "description": "Key\/value pairs containing data stored by locale key.",
+            "example": {
+                "en_US": "Filename",
+                "fr_CA": "Nom de fichier"
+            }
+        },
+        "ReviewRound": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "round": {
+                    "type": "integer"
+                },
+                "stageId": {
+                    "type": "integer"
+                },
+                "status": {
+                    "type": "string",
+                    "readOnly": true
+                },
+                "statusId": {
+                    "type": "integer"
+                }
+            }
+        },
+        "ReviewSummary": {
+            "type": "object",
+            "description": "A special representation of a User assigned to a reviewer group. This model presents specific details about review activity.",
+            "properties": {
+                "_href": {
+                    "type": "string"
+                },
+                "affiliation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "averageReviewCompletionDays": {
+                    "type": "integer"
+                },
+                "dateLastReviewAssignment": {
+                    "type": "string"
+                },
+                "disabled": {
+                    "type": "boolean"
+                },
+                "fullName": {
+                    "type": "string"
+                },
+                "gossip": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "groups": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#\/definitions\/UserGroup"
+                    }
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "interests": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#\/definitions\/UserInterest"
+                    }
+                },
+                "reviewsActive": {
+                    "type": "integer"
+                },
+                "reviewsCompleted": {
+                    "type": "integer"
+                },
+                "reviewsDeclined": {
+                    "type": "integer"
+                },
+                "userName": {
+                    "type": "string"
+                }
+            }
+        },
+        "Section": {
+            "type": "object",
+            "properties": {
+                "abbrev": {
+                    "$ref": "#\/definitions\/LocaleObject",
+                    "apiSummary": true
+                },
+                "id": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "seq": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "title": {
+                    "$ref": "#\/definitions\/LocaleObject",
+                    "apiSummary": true
+                }
+            }
+        },
+        "Submission": {
+            "type": "object",
+            "properties": {
+                "_href": {
+                    "type": "string",
+                    "readOnly": true,
+                    "apiSummary": true
+                },
+                "abstract": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "authorString": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "authors": {
+                    "type": "array",
+                    "apiSummary": true,
+                    "items": {
+                        "$ref": "#\/definitions\/Author"
+                    }
+                },
+                "copyrightHolder": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "copyrightYear": {
+                    "type": "string"
+                },
+                "coverImageAltText": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "coverImageUrl": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "datePublished": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "dateStatusModified": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "dateSubmitted": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "discipline": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "doi": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "fulltitle": {
+                    "$ref": "#\/definitions\/LocaleObject",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "galleys": {
+                    "type": "array",
+                    "apiSummary": true,
+                    "items": {
+                        "$ref": "#\/definitions\/Galley"
+                    }
+                },
+                "id": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "issue": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/IssueSummary"
+                },
+                "language": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "lastModified": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "licenseUrl": {
+                    "type": "string",
+                    "validation": [
+                        "url"
+                    ]
+                },
+                "locale": {
+                    "type": "string"
+                },
+                "pages": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "prefix": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "reviewAssignments": {
+                    "type": "array",
+                    "readOnly": "true",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": "integer"
+                                },
+                                "isCurrentUserAssigned": {
+                                    "type": "integer",
+                                    "readOnly": true
+                                },
+                                "status": {
+                                    "type": "integer",
+                                    "readOnly": true
+                                },
+                                "statusLabel": {
+                                    "type": "integer",
+                                    "readOnly": true
+                                },
+                                "dateDue": {
+                                    "type": "integer",
+                                    "validation": [
+                                        "date|Y-m-d H:i:s"
+                                    ]
+                                },
+                                "dateResponseDue": {
+                                    "type": "integer",
+                                    "validation": [
+                                        "date|Y-m-d H:i:s"
+                                    ]
+                                },
+                                "round": {
+                                    "type": "integer"
+                                },
+                                "reviewRoundId": {
+                                    "type": "integer"
+                                }
+                            }
+                        }
+                    }
+                },
+                "reviewRounds": {
+                    "type": "array",
+                    "readOnly": true,
+                    "items": {
+                        "$ref": "#\/definitions\/ReviewRound"
+                    }
+                },
+                "section": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/SectionSummary"
+                },
+                "shortAuthorString": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "sponsor": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "stages": {
+                    "type": "array",
+                    "readOnly": true,
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {
+                                "type": "integer"
+                            },
+                            "label": {
+                                "type": "string"
+                            },
+                            "isActiveStage": {
+                                "type": "boolean"
+                            },
+                            "currentUserAssignedRoles": {
+                                "type": "array",
+                                "items": {
+                                    "type": "integer"
+                                }
+                            },
+                            "status": {
+                                "type": "string"
+                            },
+                            "statusId": {
+                                "type": "integer"
+                            },
+                            "files": {
+                                "type": "object",
+                                "properties": {
+                                    "count": {
+                                        "type": "integer"
+                                    }
+                                }
+                            },
+                            "queries": {
+                                "type": "array",
+                                "items": {
+                                    "id": {
+                                        "type": "integer"
+                                    },
+                                    "assocType": {
+                                        "type": "integer"
+                                    },
+                                    "assocId": {
+                                        "type": "integer"
+                                    },
+                                    "stageId": {
+                                        "type": "integer"
+                                    },
+                                    "seq": {
+                                        "type": "integer"
+                                    },
+                                    "closed": {
+                                        "type": "boolean"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "status": {
+                    "type": "integer",
+                    "apiSummary": true,
+                    "validation": [
+                        "in:1,2,3,4"
+                    ]
+                },
+                "statusLabel": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "subject": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "submissionProgress": {
+                    "type": "integer",
+                    "apiSummary": true,
+                    "valiidation": [
+                        "in:0,1,2,3,4"
+                    ]
+                },
+                "subtitle": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "title": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "type": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "urlPublished": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "urlWorkflow": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "readOnly": true
+                }
+            }
+        },
+        "SubmissionFile": {
+            "type": "object",
+            "properties": {
+                "fileName": {
+                    "type": "string"
+                },
+                "fileStage": {
+                    "type": "integer"
+                },
+                "genreId": {
+                    "type": "integer"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "metadata": {
+                    "type": "object",
+                    "properties": {
+                        "description": {
+                            "$ref": "#\/definitions\/LocaleObject"
+                        },
+                        "creator": {
+                            "$ref": "#\/definitions\/LocaleObject"
+                        },
+                        "publisher": {
+                            "$ref": "#\/definitions\/LocaleObject"
+                        },
+                        "source": {
+                            "$ref": "#\/definitions\/LocaleObject"
+                        },
+                        "subject": {
+                            "$ref": "#\/definitions\/LocaleObject"
+                        },
+                        "sponsor": {
+                            "$ref": "#\/definitions\/LocaleObject"
+                        },
+                        "dateCreated": {
+                            "type": "string",
+                            "validation": [
+                                "date:Y-m-d"
+                            ]
+                        },
+                        "language": {
+                            "type": "string"
+                        },
+                        "caption": {
+                            "type": "string"
+                        },
+                        "credit": {
+                            "type": "string"
+                        },
+                        "copyrightOwner": {
+                            "type": "string"
+                        },
+                        "terms": {
+                            "type": "string"
+                        },
+                        "width": {
+                            "type": "string"
+                        },
+                        "height": {
+                            "type": "string"
+                        },
+                        "physicalWidth": {
+                            "type": "string"
+                        },
+                        "physicalHeight": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "revision": {
+                    "type": "integer"
+                }
+            }
+        },
+        "User": {
+            "type": "object",
+            "properties": {
+                "_href": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "affiliation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "authId": {
+                    "type": "integer"
+                },
+                "authString": {
+                    "type": "string"
+                },
+                "billingAddress": {
+                    "type": "string"
+                },
+                "biography": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "country": {
+                    "type": "string"
+                },
+                "dateLastRegistered": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "dateRegistered": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "dateValidated": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "disabled": {
+                    "type": "boolean",
+                    "apiSummary": true
+                },
+                "disabledReason": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "email_or_localhost"
+                    ]
+                },
+                "familyName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "fullName": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "givenName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "gossip": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "groups": {
+                    "type": "array",
+                    "apiSummary": true,
+                    "readOnly": true,
+                    "items": {
+                        "$ref": "#\/definitions\/UserGroup"
+                    }
+                },
+                "id": {
+                    "type": "integer",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "interests": {
+                    "type": "array",
+                    "readOnly": true,
+                    "items": {
+                        "$ref": "#\/definitions\/UserInterest"
+                    }
+                },
+                "mailingAddress": {
+                    "type": "string"
+                },
+                "mustChangePassword": {
+                    "type": "boolean"
+                },
+                "orcid": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "orcid"
+                    ]
+                },
+                "phone": {
+                    "type": "string"
+                },
+                "signature": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "url": {
+                    "type": "string",
+                    "validation": [
+                        "url"
+                    ]
+                },
+                "userName": {
+                    "type": "string",
+                    "apiSummary": true
+                }
+            }
+        },
+        "UserGroup": {
+            "type": "object",
+            "properties": {
+                "abbrev": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "name": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "permitSelfRegistration": {
+                    "type": "boolean"
+                },
+                "recommendOnly": {
+                    "type": "boolean"
+                },
+                "roleId": {
+                    "type": "integer"
+                },
+                "showTitle": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "UserInterest": {
+            "type": "object",
+            "description": "A user's review interests.",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "interest": {
+                    "type": "string"
+                }
+            }
+        },
+        "AuthorEditable": {
+            "type": "object",
+            "properties": {
+                "affilation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "biography": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "country": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string",
+                    "validation": [
+                        "email_or_localhost"
+                    ]
+                },
+                "familyName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "givenName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "id": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "includeInBrowse": {
+                    "type": "boolean"
+                },
+                "orcid": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "orcid"
+                    ]
+                },
+                "primaryContact": {
+                    "type": "boolean"
+                },
+                "seq": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "url": {
+                    "type": "string",
+                    "validation": [
+                        "url"
+                    ]
+                },
+                "userGroupId": {
+                    "type": "integer"
+                }
+            }
+        },
+        "AuthorSummary": {
+            "type": "object",
+            "properties": {
+                "fullName": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "id": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "orcid": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "orcid"
+                    ]
+                },
+                "seq": {
+                    "type": "integer",
+                    "apiSummary": true
+                }
+            }
+        },
+        "ContextEditable": {
+            "type": "object",
+            "properties": {
+                "abbreviation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "about": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "acronym": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "additionalHomeContent": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "agenciesEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "agenciesEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "agenciesRequired": {
+                    "type": "boolean"
+                },
+                "announcementsIntroduction": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "authorGuidelines": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "authorInformation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "authorSelfArchivePolicy": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "citationsEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "citationsEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "citationsRequired": {
+                    "type": "boolean"
+                },
+                "clockssLicense": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "competingInterests": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "contactAffiliation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "contactEmail": {
+                    "type": "string",
+                    "validation": [
+                        "email_or_localhost"
+                    ]
+                },
+                "contactName": {
+                    "type": "string"
+                },
+                "contactPhone": {
+                    "type": "string"
+                },
+                "copySubmissionAckAddress": {
+                    "type": "string"
+                },
+                "copySubmissionAckPrimaryContact": {
+                    "type": "string"
+                },
+                "copyrightHolderOther": {
+                    "type": "string"
+                },
+                "copyrightHolderType": {
+                    "type": "string"
+                },
+                "copyrightNotice": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "copyrightNoticeAgree": {
+                    "type": "boolean"
+                },
+                "copyrightYearBasis": {
+                    "type": "string"
+                },
+                "coverageEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "coverageEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "coverageRequired": {
+                    "type": "boolean"
+                },
+                "currency": {
+                    "type": "string"
+                },
+                "customHeaders": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "defaultMetricType": {
+                    "type": "string"
+                },
+                "defaultReviewMode": {
+                    "type": "integer",
+                    "default": 2
+                },
+                "delayedOpenAccessDuration": {
+                    "type": "integer"
+                },
+                "delayedOpenAccessPolicy": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "description": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "disableUserReg": {
+                    "type": "boolean"
+                },
+                "disciplinesEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "disciplinesEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "disciplinesRequired": {
+                    "type": "boolean"
+                },
+                "editorialTeam": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "emailSignature": {
+                    "type": "string",
+                    "defaultLocaleKey": "default.journalSettings.emailSignature"
+                },
+                "enableAnnouncements": {
+                    "type": "boolean"
+                },
+                "enableAnnouncementsHomepage": {
+                    "type": "boolean"
+                },
+                "enableAuthorSelfArchive": {
+                    "type": "boolean"
+                },
+                "enableClockss": {
+                    "type": "boolean"
+                },
+                "enableLockss": {
+                    "type": "boolean"
+                },
+                "enableOpenAccessNotification": {
+                    "type": "boolean"
+                },
+                "enableSubscriptionOnlinePaymentNotificationPurchaseIndividual": {
+                    "type": "boolean"
+                },
+                "enableSubscriptionOnlinePaymentNotificationPurchaseInstitutional": {
+                    "type": "boolean"
+                },
+                "enableSubscriptionOnlinePaymentNotificationRenewIndividual": {
+                    "type": "boolean"
+                },
+                "enableSubscriptionOnlinePaymentNotificationRenewInstitutional": {
+                    "type": "boolean"
+                },
+                "enabled": {
+                    "type": "boolean",
+                    "apiSummary": true
+                },
+                "envelopeSender": {
+                    "type": "string",
+                    "validation": [
+                        "email_or_localhost"
+                    ]
+                },
+                "favicon": {
+                    "type": "object",
+                    "multilingual": true,
+                    "properties": {
+                        "en_US": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        },
+                        "fr_CA": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "homepageImage": {
+                    "type": "object",
+                    "multilingual": true,
+                    "properties": {
+                        "en_US": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        },
+                        "fr_CA": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "itemsPerPage": {
+                    "type": "integer",
+                    "default": 25
+                },
+                "journalThumbnail": {
+                    "type": "object",
+                    "multilingual": true,
+                    "apiSummary": true,
+                    "properties": {
+                        "en_US": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        },
+                        "fr_CA": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "keywordsEnabledSubmission": {
+                    "type": "boolean",
+                    "default": true
+                },
+                "keywordsEnabledWorkflow": {
+                    "type": "boolean",
+                    "default": true
+                },
+                "keywordsRequired": {
+                    "type": "boolean"
+                },
+                "languagesEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "languagesEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "languagesRequired": {
+                    "type": "boolean"
+                },
+                "librarianInformation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "licenseUrl": {
+                    "type": "string",
+                    "validation": [
+                        "url"
+                    ]
+                },
+                "lockssLicense": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "mailingAddress": {
+                    "type": "string"
+                },
+                "membershipFee": {
+                    "type": "number",
+                    "default": 0
+                },
+                "membershipFeeDescription": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "membershipFeeName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "name": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "numAnnouncementsHomepage": {
+                    "type": "integer"
+                },
+                "numDaysBeforeInviteReminder": {
+                    "type": "integer"
+                },
+                "numDaysBeforeSubmitReminder": {
+                    "type": "integer"
+                },
+                "numMonthsAfterSubscriptionExpiryReminder": {
+                    "type": "integer"
+                },
+                "numMonthsBeforeSubscriptionExpiryReminder": {
+                    "type": "integer"
+                },
+                "numPageLinks": {
+                    "type": "integer",
+                    "default": 10
+                },
+                "numWeeksAfterSubscriptionExpiryReminder": {
+                    "type": "integer"
+                },
+                "numWeeksBeforeSubscriptionExpiryReminder": {
+                    "type": "integer"
+                },
+                "numWeeksPerResponse": {
+                    "type": "integer"
+                },
+                "numWeeksPerReview": {
+                    "type": "integer",
+                    "default": 4
+                },
+                "onlineIssn": {
+                    "type": "string",
+                    "validation": [
+                        "issn"
+                    ]
+                },
+                "openAccessPolicy": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "pageFooter": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "pageHeaderLogoImage": {
+                    "type": "object",
+                    "multilingual": true,
+                    "properties": {
+                        "en_US": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        },
+                        "fr_CA": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "path": {
+                    "type": "string",
+                    "validation": [
+                        "regex:\/^[a-z0-9]+([\\-_][a-z0-9]+)*$\/"
+                    ],
+                    "apiSummary": true
+                },
+                "paymentPluginName": {
+                    "type": "string"
+                },
+                "paymentsEnabled": {
+                    "type": "boolean"
+                },
+                "primaryLocale": {
+                    "type": "string",
+                    "validation": [
+                        "regex:\/^[a-z]{2}_[A-Z]{2}(@[a-z]{0,})?$\/"
+                    ]
+                },
+                "printIssn": {
+                    "type": "string",
+                    "validation": [
+                        "issn"
+                    ]
+                },
+                "privacyStatement": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "publicationFee": {
+                    "type": "number",
+                    "default": 0
+                },
+                "publicationFeeDescription": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "publicationFeeName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "publisherInstitution": {
+                    "type": "string"
+                },
+                "publishingMode": {
+                    "type": "integer"
+                },
+                "purchaseArticleFee": {
+                    "type": "number",
+                    "default": 0
+                },
+                "purchaseArticleFeeDescription": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "purchaseArticleFeeEnabled": {
+                    "type": "boolean"
+                },
+                "purchaseArticleFeeName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "purchaseIssueFee": {
+                    "type": "number"
+                },
+                "purchaseIssueFeeEnabled": {
+                    "type": "boolean"
+                },
+                "rateReviewerOnQuality": {
+                    "type": "boolean"
+                },
+                "readerInformation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "restrictArticleAccess": {
+                    "type": "boolean"
+                },
+                "restrictOnlyPdf": {
+                    "type": "boolean"
+                },
+                "restrictReviewerFileAccess": {
+                    "type": "boolean"
+                },
+                "restrictSiteAccess": {
+                    "type": "boolean"
+                },
+                "reviewGuidelines": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "reviewerAccessKeysEnabled": {
+                    "type": "boolean"
+                },
+                "reviewerCompetingInterestsRequired": {
+                    "type": "boolean"
+                },
+                "rightsEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "rightsEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "rightsRequired": {
+                    "type": "boolean"
+                },
+                "searchDescription": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "seq": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "showEnsuringLink": {
+                    "type": "boolean"
+                },
+                "sourceEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "sourceEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "sourceRequired": {
+                    "type": "boolean"
+                },
+                "subjectsEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "subjectsEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "subjectsRequired": {
+                    "type": "boolean"
+                },
+                "submissionChecklist": {
+                    "type": "array",
+                    "multilingual": true,
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "order": {
+                                "type": "integer"
+                            },
+                            "content": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "default": [
+                        {
+                            "order": 1,
+                            "content": {
+                                "defaultLocaleKey": "default.journalSettings.checklist.notPreviouslyPublished"
+                            }
+                        },
+                        {
+                            "order": 2,
+                            "content": {
+                                "defaultLocaleKey": "default.journalSettings.checklist.fileFormat"
+                            }
+                        },
+                        {
+                            "order": 3,
+                            "content": {
+                                "defaultLocaleKey": "default.journalSettings.checklist.addressesLinked"
+                            }
+                        },
+                        {
+                            "order": 4,
+                            "content": {
+                                "defaultLocaleKey": "default.journalSettings.checklist.submissionAppearance"
+                            }
+                        },
+                        {
+                            "order": 5,
+                            "content": {
+                                "defaultLocaleKey": "default.journalSettings.checklist.bibliographicRequirements"
+                            }
+                        }
+                    ],
+                    "properties": {
+                        "en_US": {
+                            "type": "object",
+                            "properties": {
+                                "order": {
+                                    "type": "integer"
+                                },
+                                "content": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "fr_CA": {
+                            "type": "object",
+                            "properties": {
+                                "order": {
+                                    "type": "integer"
+                                },
+                                "content": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                },
+                "submissionFee": {
+                    "type": "number"
+                },
+                "submissionFeeDescription": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "submissionFeeName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "subscriptionAdditionalInformation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "subscriptionEmail": {
+                    "type": "string",
+                    "validation": [
+                        "email_or_localhost"
+                    ]
+                },
+                "subscriptionExpiryPartial": {
+                    "type": "boolean"
+                },
+                "subscriptionMailingAddress": {
+                    "type": "string"
+                },
+                "subscriptionName": {
+                    "type": "string"
+                },
+                "subscriptionPhone": {
+                    "type": "string"
+                },
+                "supportEmail": {
+                    "type": "string",
+                    "validation": [
+                        "email_or_localhost"
+                    ]
+                },
+                "supportName": {
+                    "type": "string"
+                },
+                "supportPhone": {
+                    "type": "string"
+                },
+                "supportedFormLocales": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "validation": [
+                            "regex:\/^[a-z]{2}_[A-Z]{2}(@[a-z]{0,})?$\/"
+                        ]
+                    }
+                },
+                "supportedLocales": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "validation": [
+                            "regex:\/^[a-z]{2}_[A-Z]{2}(@[a-z]{0,})?$\/"
+                        ]
+                    }
+                },
+                "supportedSubmissionLocales": {
+                    "type": "array",
+                    "items": {
+                        "type": "string",
+                        "validation": [
+                            "regex:\/^[a-z]{2}_[A-Z]{2}(@[a-z]{0,})?$\/"
+                        ]
+                    }
+                },
+                "themePluginPath": {
+                    "type": "string",
+                    "default": "default"
+                },
+                "typeEnabledSubmission": {
+                    "type": "boolean"
+                },
+                "typeEnabledWorkflow": {
+                    "type": "boolean"
+                },
+                "typeRequired": {
+                    "type": "boolean"
+                }
+            }
+        },
+        "ContextSummary": {
+            "type": "object",
+            "properties": {
+                "_href": {
+                    "type": "string",
+                    "format": "uri",
+                    "readOnly": true,
+                    "apiSummary": true
+                },
+                "abbreviation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "acronym": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "description": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "enabled": {
+                    "type": "boolean",
+                    "apiSummary": true
+                },
+                "id": {
+                    "type": "integer",
+                    "readOnly": true,
+                    "apiSummary": true
+                },
+                "journalThumbnail": {
+                    "type": "object",
+                    "multilingual": true,
+                    "apiSummary": true,
+                    "properties": {
+                        "en_US": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        },
+                        "fr_CA": {
+                            "name": {
+                                "type": "string"
+                            },
+                            "uploadName": {
+                                "type": "string"
+                            },
+                            "width": {
+                                "type": "integer"
+                            },
+                            "height": {
+                                "type": "integer"
+                            },
+                            "dateUploaded": {
+                                "type": "string",
+                                "validation": [
+                                    "date_format:Y-m-d H:i:s"
+                                ]
+                            },
+                            "altText": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "name": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "path": {
+                    "type": "string",
+                    "validation": [
+                        "regex:\/^[a-z0-9]+([\\-_][a-z0-9]+)*$\/"
+                    ],
+                    "apiSummary": true
+                },
+                "seq": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "url": {
+                    "type": "string",
+                    "validation": [
+                        "uri"
+                    ],
+                    "readOnly": true,
+                    "apiSummary": true
+                }
+            }
+        },
+        "GalleyEditable": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "label": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "locale": {
+                    "type": "string"
+                },
+                "seq": {
+                    "type": "integer"
+                },
+                "urlRemote": {
+                    "type": "string",
+                    "validation": [
+                        "url"
+                    ]
+                }
+            }
+        },
+        "IssueEditable": {
+            "type": "object",
+            "properties": {
+                "coverImageAltText": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "coverImageUrl": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "dateNotified": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "datePublished": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "description": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "doi": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "lastModified": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "number": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "publishedUrl": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "url"
+                    ]
+                },
+                "title": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "volume": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "year": {
+                    "type": "integer",
+                    "apiSummary": true
+                }
+            }
+        },
+        "IssueSummary": {
+            "type": "object",
+            "properties": {
+                "_href": {
+                    "type": "string",
+                    "readOnly": true,
+                    "apiSummary": true
+                },
+                "coverImageAltText": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "coverImageUrl": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "datePublished": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "description": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "galleys": {
+                    "type": "array",
+                    "readOnly": true,
+                    "apiSummary": true,
+                    "items": {
+                        "$ref": "#\/definitions\/Galley"
+                    }
+                },
+                "id": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "identification": {
+                    "type": "string",
+                    "readOnly": true,
+                    "apiSummary": true
+                },
+                "number": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "publishedUrl": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "url"
+                    ]
+                },
+                "title": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "volume": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "year": {
+                    "type": "integer",
+                    "apiSummary": true
+                }
+            }
+        },
+        "ReviewRoundEditable": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "round": {
+                    "type": "integer"
+                },
+                "stageId": {
+                    "type": "integer"
+                },
+                "statusId": {
+                    "type": "integer"
+                }
+            }
+        },
+        "SectionEditable": {
+            "type": "object",
+            "properties": {
+                "abbrev": {
+                    "$ref": "#\/definitions\/LocaleObject",
+                    "apiSummary": true
+                },
+                "id": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "seq": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "title": {
+                    "$ref": "#\/definitions\/LocaleObject",
+                    "apiSummary": true
+                }
+            }
+        },
+        "SectionSummary": {
+            "type": "object",
+            "properties": {
+                "abbrev": {
+                    "$ref": "#\/definitions\/LocaleObject",
+                    "apiSummary": true
+                },
+                "id": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "seq": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "title": {
+                    "$ref": "#\/definitions\/LocaleObject",
+                    "apiSummary": true
+                }
+            }
+        },
+        "SubmissionEditable": {
+            "type": "object",
+            "properties": {
+                "abstract": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "authors": {
+                    "type": "array",
+                    "apiSummary": true,
+                    "items": {
+                        "$ref": "#\/definitions\/Author"
+                    }
+                },
+                "copyrightHolder": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "copyrightYear": {
+                    "type": "string"
+                },
+                "coverImageAltText": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "coverImageUrl": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "datePublished": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "dateStatusModified": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "dateSubmitted": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "discipline": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "doi": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "galleys": {
+                    "type": "array",
+                    "apiSummary": true,
+                    "items": {
+                        "$ref": "#\/definitions\/Galley"
+                    }
+                },
+                "id": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "issue": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/IssueSummary"
+                },
+                "language": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "lastModified": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "licenseUrl": {
+                    "type": "string",
+                    "validation": [
+                        "url"
+                    ]
+                },
+                "locale": {
+                    "type": "string"
+                },
+                "pages": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "prefix": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "section": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/SectionSummary"
+                },
+                "sponsor": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "status": {
+                    "type": "integer",
+                    "apiSummary": true,
+                    "validation": [
+                        "in:1,2,3,4"
+                    ]
+                },
+                "statusLabel": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "subject": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "submissionProgress": {
+                    "type": "integer",
+                    "apiSummary": true,
+                    "valiidation": [
+                        "in:0,1,2,3,4"
+                    ]
+                },
+                "subtitle": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "title": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "type": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                }
+            }
+        },
+        "SubmissionSummary": {
+            "type": "object",
+            "properties": {
+                "_href": {
+                    "type": "string",
+                    "readOnly": true,
+                    "apiSummary": true
+                },
+                "abstract": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "authorString": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "authors": {
+                    "type": "array",
+                    "apiSummary": true,
+                    "items": {
+                        "$ref": "#\/definitions\/Author"
+                    }
+                },
+                "coverImageAltText": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "coverImageUrl": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "datePublished": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "doi": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "fulltitle": {
+                    "$ref": "#\/definitions\/LocaleObject",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "galleys": {
+                    "type": "array",
+                    "apiSummary": true,
+                    "items": {
+                        "$ref": "#\/definitions\/Galley"
+                    }
+                },
+                "id": {
+                    "type": "integer",
+                    "apiSummary": true
+                },
+                "issue": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/IssueSummary"
+                },
+                "language": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "pages": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "prefix": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "section": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/SectionSummary"
+                },
+                "shortAuthorString": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "status": {
+                    "type": "integer",
+                    "apiSummary": true,
+                    "validation": [
+                        "in:1,2,3,4"
+                    ]
+                },
+                "statusLabel": {
+                    "type": "string",
+                    "apiSummary": true
+                },
+                "submissionProgress": {
+                    "type": "integer",
+                    "apiSummary": true,
+                    "valiidation": [
+                        "in:0,1,2,3,4"
+                    ]
+                },
+                "subtitle": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "title": {
+                    "apiSummary": true,
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "urlPublished": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "urlWorkflow": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "readOnly": true
+                }
+            }
+        },
+        "SubmissionFileEditable": {
+            "type": "object",
+            "properties": {
+                "fileName": {
+                    "type": "string"
+                },
+                "fileStage": {
+                    "type": "integer"
+                },
+                "genreId": {
+                    "type": "integer"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "metadata": {
+                    "type": "object",
+                    "properties": {
+                        "description": {
+                            "$ref": "#\/definitions\/LocaleObject"
+                        },
+                        "creator": {
+                            "$ref": "#\/definitions\/LocaleObject"
+                        },
+                        "publisher": {
+                            "$ref": "#\/definitions\/LocaleObject"
+                        },
+                        "source": {
+                            "$ref": "#\/definitions\/LocaleObject"
+                        },
+                        "subject": {
+                            "$ref": "#\/definitions\/LocaleObject"
+                        },
+                        "sponsor": {
+                            "$ref": "#\/definitions\/LocaleObject"
+                        },
+                        "dateCreated": {
+                            "type": "string",
+                            "validation": [
+                                "date:Y-m-d"
+                            ]
+                        },
+                        "language": {
+                            "type": "string"
+                        },
+                        "caption": {
+                            "type": "string"
+                        },
+                        "credit": {
+                            "type": "string"
+                        },
+                        "copyrightOwner": {
+                            "type": "string"
+                        },
+                        "terms": {
+                            "type": "string"
+                        },
+                        "width": {
+                            "type": "string"
+                        },
+                        "height": {
+                            "type": "string"
+                        },
+                        "physicalWidth": {
+                            "type": "string"
+                        },
+                        "physicalHeight": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "revision": {
+                    "type": "integer"
+                }
+            }
+        },
+        "UserEditable": {
+            "type": "object",
+            "properties": {
+                "affiliation": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "authId": {
+                    "type": "integer"
+                },
+                "authString": {
+                    "type": "string"
+                },
+                "billingAddress": {
+                    "type": "string"
+                },
+                "biography": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "country": {
+                    "type": "string"
+                },
+                "dateLastRegistered": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "dateRegistered": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "dateValidated": {
+                    "type": "string",
+                    "validation": [
+                        "date:Y-m-d H:i:s"
+                    ]
+                },
+                "disabled": {
+                    "type": "boolean",
+                    "apiSummary": true
+                },
+                "disabledReason": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "email_or_localhost"
+                    ]
+                },
+                "familyName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "givenName": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "gossip": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "mailingAddress": {
+                    "type": "string"
+                },
+                "mustChangePassword": {
+                    "type": "boolean"
+                },
+                "orcid": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "orcid"
+                    ]
+                },
+                "phone": {
+                    "type": "string"
+                },
+                "signature": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "url": {
+                    "type": "string",
+                    "validation": [
+                        "url"
+                    ]
+                },
+                "userName": {
+                    "type": "string",
+                    "apiSummary": true
+                }
+            }
+        },
+        "UserSummary": {
+            "type": "object",
+            "properties": {
+                "_href": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "disabled": {
+                    "type": "boolean",
+                    "apiSummary": true
+                },
+                "email": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "email_or_localhost"
+                    ]
+                },
+                "fullName": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "groups": {
+                    "type": "array",
+                    "apiSummary": true,
+                    "readOnly": true,
+                    "items": {
+                        "$ref": "#\/definitions\/UserGroup"
+                    }
+                },
+                "id": {
+                    "type": "integer",
+                    "apiSummary": true,
+                    "readOnly": true
+                },
+                "orcid": {
+                    "type": "string",
+                    "apiSummary": true,
+                    "validation": [
+                        "orcid"
+                    ]
+                },
+                "userName": {
+                    "type": "string",
+                    "apiSummary": true
+                }
+            }
+        },
+        "UserGroupEditable": {
+            "type": "object",
+            "properties": {
+                "abbrev": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "id": {
+                    "type": "integer"
+                },
+                "name": {
+                    "$ref": "#\/definitions\/LocaleObject"
+                },
+                "permitSelfRegistration": {
+                    "type": "boolean"
+                },
+                "recommendOnly": {
+                    "type": "boolean"
+                },
+                "roleId": {
+                    "type": "integer"
+                },
+                "showTitle": {
+                    "type": "boolean"
+                }
+            }
+        }
+    },
+    "paths": {
+        "\/submissions": {
+            "get": {
+                "tags": [
+                    "Submissions"
+                ],
+                "summary": "Get a list of submissions.",
+                "description": "See `\/submissions\/{submissionId}` for notes about submission properties.",
+                "parameters": [
+                    {
+                        "name": "status",
+                        "description": "Filter results by submission status. Pass more than one status in a comma-separated list (eg - `3,4`). Must match the value of the `STATUS_QUEUED`, `STATUS_PUBLISHED` or `STATUS_DECLINED` constants in OJS 3.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "assignedTo",
+                        "description": "Filter results by those assigned to this user ID. All users except managers and admins are automatically restricted to assigned submissions and do not need to pass this parameter.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "count",
+                        "description": "How many results to return in a single request. Default is `20`. Max is `100`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "offset",
+                        "description": "Offset the results returned. Use this to receive subsequent pages of requests. A `count` of `10` and `offset` of `15` will return results `15` to `25`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "orderBy",
+                        "description": "Order the results returned. Must be one of `dateSubmitted`, `lastModified` or `title`. Default is `dateSubmitted`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "orderDirection",
+                        "description": "Return the results in ascending or descending order. Must be `ASC` or `DESC`. Default is `DESC`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "isIncomplete",
+                        "description": "Filter the results by those for which the author has not yet completed the submission process.",
+                        "in": "query",
+                        "required": false,
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "isOverdue",
+                        "description": "Filter the results by those for which a reviewer has missed a deadline.",
+                        "in": "query",
+                        "required": false,
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "sectionIds",
+                        "description": "Filter the results by those assigned to a section.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "searchPhrase",
+                        "description": "Filter the results by a search phrase matched against the title and authors.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of submissions.",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "itemsMax": {
+                                    "type": "integer"
+                                },
+                                "items": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#\/definitions\/SubmissionSummary"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "You do not have permission to access submission assigned to the user requested in the `assignedTo` parameter.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "\/submissions\/{submissionId}": {
+            "get": {
+                "tags": [
+                    "Submissions"
+                ],
+                "summary": "Get a submission by ID.",
+                "description": "* Unpublished submissions are only returned for assigned participants, editors and admins.\n* `abstract` includes HTML markup.\n* `pages` is usually a `string`. But in some cases it may return an array of arrays. Each array contains two items: the start and end page. Example: `[[25, 31], [45, 62]]`.\n* `submissionProgress` will be > 0 if the submission is incomplete.\n* `stages`, `reviewRounds` and `reviewAssignments` should only be returned for participants assigned to the submission.\n* `reviewAssignments` should only expose user-identifying information for editors and admins.",
+                "parameters": [
+                    {
+                        "name": "submissionId",
+                        "in": "path",
+                        "descriptions": "Submission ID",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Submission detais.",
+                        "schema": {
+                            "$ref": "#\/definitions\/Submission"
+                        }
+                    },
+                    "403": {
+                        "description": "You do not have permission to access this submissions.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    },
+                    "404": {
+                        "description": "The requested submission could not be found.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "\/submissions\/{submissionId}\/galleys": {
+            "get": {
+                "tags": [
+                    "Submissions"
+                ],
+                "summary": "Get a submisssion's galleys.",
+                "description": "* This endpoint will not be available until a submission has reached the Production stage.\n* `_parent` will return the API URL representing the associated submission.\n* `publishedUrl` will point to the frontend galley view (eg - `\/article\/view\/<submission-id>\/<galley-id>`).\n* Some of the galley file data will only be present for supplementary and artwork files.",
+                "parameters": [
+                    {
+                        "name": "submissionId",
+                        "in": "path",
+                        "descriptions": "Submission ID",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of the submission's galleys.",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#\/definitions\/Galley"
+                            }
+                        }
+                    },
+                    "403": {
+                        "description": "You do not have permission to access this submission.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    },
+                    "404": {
+                        "description": "The requested submission could not be found.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "\/submissions\/{submissionId}\/participants": {
+            "get": {
+                "tags": [
+                    "Submissions"
+                ],
+                "summary": "Get the participants assigned to a submisssion.",
+                "parameters": [
+                    {
+                        "name": "submissionId",
+                        "in": "path",
+                        "descriptions": "Submission ID",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of users assigned to a submission",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#\/definitions\/UserSummary"
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "The requested submission could not be found.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "\/submissions\/{submissionId}\/participants\/{stageId}": {
+            "get": {
+                "tags": [
+                    "Submissions"
+                ],
+                "summary": "Get the participants assigned to a stage of this submisssion's workflow.",
+                "parameters": [
+                    {
+                        "name": "submissionId",
+                        "in": "path",
+                        "descriptions": "Submission ID",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "stageId",
+                        "in": "path",
+                        "descriptions": "Stage ID",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of users assigned to the requested stage of the requested submission",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#\/definitions\/UserSummary"
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "The requested submission could not be found.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "\/issues": {
+            "get": {
+                "tags": [
+                    "Issues"
+                ],
+                "summary": "Get a list of issues.",
+                "description": "Results ar eeordered by `datePublished` with the most recent first.",
+                "parameters": [
+                    {
+                        "name": "count",
+                        "description": "How many results to return in a single request. Default is `20`. Max is `100`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "offset",
+                        "description": "Offset the results returned. Use this to receive subsequent pages of requests. A `count` of `10` and `offset` of `15` will return results `15` to `25`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "orderBy",
+                        "description": "Order the results returned. Must be one of `datePublished`, `lastModified` or `seq`. Default is `datePublished`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "orderDirection",
+                        "description": "Return the results in ascending or descending order. Must be `ASC` or `DESC`. Default is `DESC`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "isPublished",
+                        "description": "Filter returned issues by those that have been published. Pass a `false` value to return only unpublished issues. Only administrators and journal managers are allowed to access unpublished issues.",
+                        "in": "query",
+                        "required": false,
+                        "type": "boolean"
+                    },
+                    {
+                        "name": "volumes",
+                        "description": "Filter returned issues by those in a specific volume.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "numbers",
+                        "description": "Filter returned issues by those assigned a specific number.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "years",
+                        "description": "Filter returned issues by those in a specific year.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of issues.",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#\/definitions\/IssueSummary"
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "The requested volume, number or year is not valid.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "\/issues\/current": {
+            "get": {
+                "tags": [
+                    "Issues"
+                ],
+                "summary": "Get the current issue.",
+                "responses": {
+                    "200": {
+                        "description": "The current issue.",
+                        "schema": {
+                            "$ref": "#\/definitions\/Issue"
+                        }
+                    },
+                    "404": {
+                        "description": "This journal does not have a current issue.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "\/issues\/{issueId}": {
+            "get": {
+                "tags": [
+                    "Issues"
+                ],
+                "summary": "Get an issue by ID.",
+                "description": "If the issue has a custom section order, the `seq` property of each `SectionSummary` will reflect the sequence for that issue.",
+                "responses": {
+                    "200": {
+                        "description": "The requested issue.",
+                        "schema": {
+                            "$ref": "#\/definitions\/Issue"
+                        }
+                    },
+                    "404": {
+                        "description": "The requested issue could not be found.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "\/users": {
+            "get": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Get a list of users.",
+                "parameters": [
+                    {
+                        "name": "roleIds",
+                        "description": "Filter the results by those who have one of these user role IDs.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "status",
+                        "description": "Filter results by active\/disabled users. Must be one of `active`, `disabled`, `all`. Default is `active`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "assignedToSubmission",
+                        "description": "Filter results by those assigned to this submission ID.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "assignedToSubmissionStage",
+                        "description": "Filter results by those assigned to this submission stage. Will be ignored if no `assignedToSubmission` parameter exists.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "assignedToSection",
+                        "description": "Filter the results by those assigned as section editors to this section ID.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "count",
+                        "description": "How many results to return in a single request. Default is `20`. Max is `100`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "offset",
+                        "description": "Offset the results returned. Use this to receive subsequent pages of requests. A `count` of `10` and `offset` of `15` will return results `15` to `25`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "orderBy",
+                        "description": "Order the results returned. Must be one of `id`, `familyName` or `givenName`. Default is `id`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "orderDirection",
+                        "description": "Return the results in ascending or descending order. Must be `ASC` or `DESC`. Default is `DESC`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "searchPhrase",
+                        "description": "Filter the results by a search phrase matched against the `userName`, `givenName`, `familyName`, `email`, `affiliation`, `biography` and `orcid`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "A list of users.",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "itemsMax": {
+                                    "type": "integer"
+                                },
+                                "items": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#\/definitions\/UserSummary"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "403": {
+                        "description": "Only administrators, journal managers and editors are allowed to access users on this site.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "\/users\/{userId}": {
+            "get": {
+                "tags": [
+                    "Users"
+                ],
+                "summary": "Get a user by ID.",
+                "parameters": [
+                    {
+                        "name": "userId",
+                        "description": "User ID",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "User details.",
+                        "schema": {
+                            "$ref": "#\/definitions\/User"
+                        }
+                    }
+                }
+            }
+        },
+        "\/users\/reviewers": {
+            "get": {
+                "tags": [
+                    "Users"
+                ],
+                "parameters": [
+                    {
+                        "name": "status",
+                        "description": "Filter results by active\/disabled users. Must be one of `active`, `disabled`, `all`. Default is `active`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "reviewerRating",
+                        "description": "Filter results by those who have an average review assignment rating of at least `X` (valid ratings are between `1` and `5`).",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "reviewsCompleted",
+                        "description": "Filter results by those who have completed at least `X` reviews. You can also pass a range as a string formatted as `X-X`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "reviewsActive",
+                        "description": "Filter results by those who have `X` review assignments currently in progress. You can also pass a range as a string formatted as `X-X`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "daysSinceLastAssignment",
+                        "description": "Filter results by those who's last review was assigned at least `X` days ago. You can also pass a range as a string formatted as `X-X`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "averageCompletion",
+                        "description": "Filter results by those who complete a review assignment within `X` days on average.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "assignedToSubmission",
+                        "description": "Filter results by those assigned to this submission ID.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "assignedToSubmissionStage",
+                        "description": "Filter results by those assigned to this submission stage. Will be ignored if no `assignedToSubmission` parameter exists.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "assignedToSection",
+                        "description": "Filter the results by those assigned as section editors to this section ID.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "count",
+                        "description": "How many results to return in a single request. Default is `20`. Max is `100`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "offset",
+                        "description": "Offset the results returned. Use this to receive subsequent pages of requests. A `count` of `10` and `offset` of `15` will return results `15` to `25`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "orderBy",
+                        "description": "Order the results returned. Must be one of `id`, `familyName` or `givenName`. Default is `id`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "orderDirection",
+                        "description": "Return the results in ascending or descending order. Must be `ASC` or `DESC`. Default is `DESC`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "searchPhrase",
+                        "description": "Filter the results by a search phrase matched against the `userName`, `givenName`, `familyName`, `email`, `affiliation`, `biography`, `orcid`, `interests`, and `gossip`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of reviewers.",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "itemsMax": {
+                                    "type": "integer"
+                                },
+                                "items": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#\/definitions\/ReviewerSummary"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "403": {
+                        "description": "Only administrators, journal managers and editors are allowed to access users on this site.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "\/contexts": {
+            "get": {
+                "tags": [
+                    "Contexts"
+                ],
+                "summary": "Get a list of journals.",
+                "parameters": [
+                    {
+                        "name": "isEnabled",
+                        "description": "Filter results by enabled\/disabled contexts. Any truthy or falsey value will get enabled\/disabled contexts. Leave this parameter out to get all contexts.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "count",
+                        "description": "How many results to return in a single request. Default is `20`. Max is `100`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "type"
+                    },
+                    {
+                        "name": "offset",
+                        "description": "Offset the results returned. Use this to receive subsequent pages of requests.",
+                        "in": "query",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "searchPhrase",
+                        "description": "Filter results by a search phrase matched against the `name`, `description`, `acronym`, or `abbreviation`.",
+                        "in": "query",
+                        "required": false,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of contexts.",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "itemsMax": {
+                                    "type": "integer"
+                                },
+                                "items": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#\/definitions\/ContextSummary"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "403": {
+                        "description": "You do not have permission to view disabled contexts.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Contexts"
+                ],
+                "summary": "Create a new context (journal\/press).",
+                "parameters": [
+                    {
+                        "name": "context",
+                        "description": "Details about the context that should be created. The `path` field is required. The `name` is required in the site's primary locale.",
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#\/definitions\/ContextEditable"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Details of the context that was just added.",
+                        "schema": {
+                            "$ref": "#\/definitions\/Context"
+                        }
+                    },
+                    "400": {
+                        "description": "The information you submitted did not pass validation. The response will contain information about which parameters failed validation.",
+                        "schema": {
+                            "$ref": "#\/definitions\/InvalidParametersResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "\/contexts\/{contextId}": {
+            "get": {
+                "tags": [
+                    "Contexts"
+                ],
+                "summary": "Get a context by ID.",
+                "parameters": [
+                    {
+                        "name": "contextId",
+                        "description": "Context ID",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Context details. Some details may be withheld if you are not a site admin or manager of that context.",
+                        "schema": {
+                            "$ref": "#\/definitions\/Context"
+                        }
+                    },
+                    "403": {
+                        "description": "You do not have permission to view this context.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    },
+                    "404": {
+                        "description": "The requested context could not be found.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    }
+                }
+            },
+            "put": {
+                "tags": [
+                    "Contexts"
+                ],
+                "summary": "Edit a context (journal\/press).",
+                "parameters": [
+                    {
+                        "name": "contextId",
+                        "description": "Context ID",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "context",
+                        "description": "The details about a context that you want to edit. All params are optional. When a param is omitted, the existing value of that param will not be modified.",
+                        "in": "body",
+                        "schema": {
+                            "$ref": "#\/definitions\/ContextEditable"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "The context that was just edited with the current values after the edit has occurred.",
+                        "schema": {
+                            "$ref": "#\/definitions\/Context"
+                        }
+                    },
+                    "400": {
+                        "description": "The information you submitted did not pass validation. The response will contain information about which parameters failed validation.",
+                        "schema": {
+                            "$ref": "#\/definitions\/InvalidParametersResponse"
+                        }
+                    },
+                    "403": {
+                        "description": "There are two possible conditions that will result in a `403` response. 1. You do not have permission to edit this context. 2. You submitted changes for one context from the API endpoint of another context. To edit a context, you must make a request to that context's API endpoint or the site-wide API endpoint.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    },
+                    "404": {
+                        "description": "The requested context could not be found.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    }
+                }
+            },
+            "delete": {
+                "tags": [
+                    "Contexts"
+                ],
+                "summary": "Delete a context (journal\/press).",
+                "parameters": [
+                    {
+                        "name": "contextId",
+                        "description": "Context ID",
+                        "in": "path",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Details of the context that was just deleted.",
+                        "schema": {
+                            "$ref": "#\/definitions\/Context"
+                        }
+                    },
+                    "403": {
+                        "description": "You do not have permission to delete this context.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    },
+                    "404": {
+                        "description": "The requested context could not be found.",
+                        "schema": {
+                            "$ref": "#\/definitions\/ErrorResponse"
+                        }
+                    }
+                }
+            }
+        },
+        "\/_submissions": {
+            "get": {
+                "tags": [
+                    "Backend"
+                ],
+                "summary": "Used in submission lists.",
+                "description": "This endpoint delivers a little bit of extra information about each submission that is used in the submissions list. This private endpoint saves a few extra HTTP requests, but it is more database-intensive for each query.",
+                "parameters": [
+                    {
+                        "name": "...",
+                        "description": "Accepts most parameters supported by the public `\/submissions` endpoint."
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of submissions."
+                    }
+                }
+            }
+        }
+    }
+}

@@ -76,3 +76,38 @@ If you want to add a section to the card, use three dashes before the section:
 ---
 Available in [Deutsch](/url).
 ```
+
+## Generate REST API References
+
+The REST API references use [SwaggerUI](https://swagger.io/tools/swagger-ui/) to generate the human-readable documentation from a `.json` specification file. To generate this file, you'll need a checkout of the OJS/OMP application repository.
+
+```
+php lib/pkp/tools/buildSwagger.php <path-to-docs/dev/api/<app>/<version>.json
+```
+
+Then create a `.md` file in the documentation repository at `/dev/api/<app>/<version>.md`. Use the following front-matter:
+
+```
+---
+layout: api
+title: REST API Reference, <version> - Open Journal Systems
+description: This guide documents the REST API endpoints which will be accessible for Open Journal Systems <version>. It is a technical reference for software developers who wish to build custom interactions with the platform.
+swagger: /dev/api/ojs/<version>.json
+app: <app>
+version: <version>
+---
+```
+
+Then create an entry for the version you just added under `/_data/versions.yml`.
+
+Then add a link to this version in the References section of `/dev/api/index.md`.
+
+### Version Pattern
+
+REST API references should be created for every minor version of an application. Examples: 3.1.x, 3.2.x, 3.3.x.
+
+We also have one version, `dev`, which is used for the current in-development version of the API docs. This may not be updated very regularly but can be used to give advanced warning of new endpoints or significant changes.
+
+### Changelog
+
+Every version can include a changelog detailing breaking changes from previous versions of the API. This has to be done in the description of the `.json` file for now.

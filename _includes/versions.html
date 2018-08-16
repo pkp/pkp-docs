@@ -1,0 +1,11 @@
+{% if versions %}
+	<div class="versions">
+		{% for version in versions %}
+			{% if current == version %}
+				<span class="version version--current">{{ version }}</span>
+			{% else %}
+				<a href="{{ version }}" class="version">{{ version }}</a>
+			{% endif %}
+		{% endfor %}
+	</div>
+{% endif %}

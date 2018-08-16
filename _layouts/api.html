@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	{% include api/head.html %}
+	<body>
+		{% include api/header.html %}
+		<div class="book">
+		{% if page.version == 'dev' %}
+			<div class="alert alert--warning">
+				<div class="alert__heading">{{ site.data.site.devVersion }}</div>
+				<div class="alert__description">{{ site.data.site.devVersionDescription }}</div>
+			</div>
+		{% endif %}
+			{{ content }}
+			<div id="docs-api"></div>
+		</div>
+		{% include hub/footer.html %}
+		<script type="text/javascript">
+			window.onload = function() {
+				if (typeof SwaggerUIBundle !== 'undefined') {
+					var ui = SwaggerUIBundle({
+						url: "{{ page.swagger }}",
+						dom_id: '#docs-api',
+						presets: [
+							SwaggerUIBundle.presets.apis,
+							SwaggerUIStandalonePreset
+						],
+						plugins: [
+							function () {
+								return {
+									wrapComponents: {
+										authorizeBtn: function() {
+											return null;
+										}
+									}
+								};
+							},
+						],
+						layout: "StandaloneLayout"
+					});
+				}
+			};
+		</script>
+	</body>
+</html>

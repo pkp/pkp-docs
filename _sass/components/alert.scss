@@ -1,0 +1,20 @@
+.alert {
+	margin: 4rem 0;
+	padding: 1rem;
+	background: $bg-shade;
+	border-left: 0.5rem solid $bg-dark;
+}
+
+.alert__heading {
+	margin-bottom: 1rem;
+	font-weight: 700;
+}
+
+.alert--warning {
+	background: #f8dce2;
+	border-left-color: $warning;
+}
+
+.alert + .alert {
+	margin: 2rem 0;
+}

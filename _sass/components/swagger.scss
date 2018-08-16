@@ -1,0 +1,174 @@
+/* Some hacky CSS to override the SwaggerUI, which renders our API documentation */
+
+.topbar, /* Top bar with unused content */
+.information-container .main .link, /* Link to non-functioning URL */
+.try-out, /* Try Out buttons that don't work */
+.swagger-ui section.models /* Models section hidden for clarity */
+{ display: none; }
+
+/* Typography */
+html,
+body,
+.swagger-ui,
+.swagger-ui .info .title,
+.swagger-ui .info li,
+.swagger-ui .info p,
+.swagger-ui .info table,
+.swagger-ui .opblock-tag,
+.swagger-ui .opblock-tag small,
+.swagger-ui .parameter__in,
+.swagger-ui .parameter__type {
+	font-family: Roboto, sans-serif;
+}
+.swagger-ui .info .title {
+	font-size: 2.2rem;
+	line-height: 1.1em;
+	font-weight: 700;
+}
+.information-container .info,
+.parameters-col_description {
+	line-height: 1.5em;
+}
+
+/* Inline code bits */
+.swagger-ui .code,
+.swagger-ui code,
+.swagger-ui .info code {
+	display: inline-block;
+	padding: 0 0.25em;
+	border-radius: 2px;
+	background: #eee;
+	color: #555;
+	font-weight: 700;
+	font-family: monospace;
+}
+
+/* Remove extra margins */
+.swagger-ui .info {
+	margin-top: 0;
+}
+
+/* Version indicator */
+.swagger-ui .info .title small {
+	top: auto;
+	background: none;
+	line-height: 1.5em;
+	vertical-align: baseline;
+}
+.swagger-ui .info .title small .version {
+	padding: 0;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5em;
+	color: #333;
+}
+
+/* Hide open api version number  */
+.swagger-ui .info .title small + small {
+	display: none;
+}
+
+/* Endpoint blocks */
+.swagger-ui .opblock-tag-section {
+	border: 1px solid #eee;
+	margin-bottom: 1rem;
+}
+.swagger-ui .opblock-tag {
+	margin-bottom: 0;
+	border-bottom: 1px solid #eee;
+	font-size: 18px;
+	font-weight: 700;
+}
+.swagger-ui .opblock.is-open .opblock-summary {
+	border-bottom: 1px solid #eee !important;
+}
+.opblock-tag + div {
+	margin: 15px 15px 0 !important;
+}
+.swagger-ui .opblock {
+	border-color: #eee !important;
+	background: transparent !important;
+	border-radius: 0;
+	border-left: none;
+	box-shadow: -1px 0 #eee;
+}
+.swagger-ui .opblock.is-open.opblock-get {
+	box-shadow: -4px 0 #007ab2;
+}
+.swagger-ui .opblock.opblock-get .opblock-summary-method {
+	background: #007ab2;
+}
+.swagger-ui .opblock.is-open.opblock-post {
+	box-shadow: -4px 0 #00b28d;
+}
+.swagger-ui .opblock.opblock-post .opblock-summary-method {
+	background: #00b28d;
+}
+.swagger-ui .opblock.is-open.opblock-put {
+	box-shadow: -4px 0 #e08914;
+}
+.swagger-ui .opblock.opblock-put .opblock-summary-method {
+	background: #e08914;
+}
+.swagger-ui .opblock.is-open.opblock-delete {
+	box-shadow: -4px 0 $warning;
+}
+.swagger-ui .opblock.opblock-delete .opblock-summary-method {
+	background: $warning;
+}
+.swagger-ui .opblock .opblock-section-header {
+	box-shadow: none;
+	border-bottom: 1px solid #eee;
+}
+
+/* Parameters table */
+.swagger-ui table.parameters th {
+	color: #777;
+	border: none;
+	font-weight: 400;
+}
+.swagger-ui .parameter__name {
+	font-family: monospace;
+	font-weight: 700;
+	color: #333;
+}
+.swagger-ui .parameter__type {
+	font-size: 14px;
+	font-weight: 400;
+	color: #333;
+}
+.swagger-ui .parameter__in {
+	font-style: normal;
+	font-weight: 400;
+	color: #777;
+}
+
+/* Unused Response type selection */
+.opblock-section-header label { visibility: hidden; }
+
+/* Remove extra space that disturbs alignment of parameter tables */
+.parameters-col_description p:first-child { margin-top: 0; }
+
+/* Spacing between left/right cols in parameter tables */
+.swagger-ui table tbody tr td:first-of-type { padding-right: 2em; }
+
+/* Fix overlapping text to switch between example/model responses */
+.tablinks {
+	padding-right: 1em;
+	margin-right: 1em;
+}
+.swagger-ui .tab li:first-of-type::after {
+	right: 1em;
+}
+
+/* Prettify things a bit */
+@media (min-width: 992px) {
+	.swagger-ui .wrapper {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.information-container .info {
+		line-height: 1.5em;
+	}
+}
