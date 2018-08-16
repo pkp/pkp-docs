@@ -77,6 +77,50 @@ If you want to add a section to the card, use three dashes before the section:
 Available in [Deutsch](/url).
 ```
 
+## Versions of documents
+
+You can link between different versions of the same document. Below is an example using the `importing-exporting` document. First, prepare all versions of the document in directories like below. (Notice the latest version has no version number.)
+
+```
+/importing-exporting/en
+/importing-exporting/2.0/en
+/importing-exporting/1.0/en
+```
+
+Then add an entry for the version in `/data/versions.yaml`:
+
+```
+importing-exporting:
+	3.0: /importing-exporting/en
+	2.0: /importing-exporting/2.0/en
+	1.0: /importing-exporting/1.0/en
+```
+
+Then add the following to the frontmatter of each `.md` file in the document, adjusting the `version` entry as appropriate:
+
+```
+---
+book: importing-exporting
+version: 2.0
+---
+```
+
+This should display a link to each version in the header of each `.md` file you've modified.
+
+### Creating a new version
+
+To create a new version of the document:
+
+1. Move the existing `/importing-exporting/en` to `/importing-exporting/<version>/en`.
+2. Move the new version into `/importing-exporting/en`.
+3. Update `/_data/versions.yaml` appropriately.
+
+The base URL, `/<any-book>/en`, should always be the current version so that any internal or external links always point to the most up-to-date resource.
+
+### Multiple languages
+
+This structure doesn't yet support versioning separate language editions of documents. We can work on that when we need it.
+
 ## Generate REST API References
 
 The REST API references use [SwaggerUI](https://swagger.io/tools/swagger-ui/) to generate the human-readable documentation from a `.json` specification file. To generate this file, you'll need a checkout of the OJS/OMP application repository.
