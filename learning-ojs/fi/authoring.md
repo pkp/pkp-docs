@@ -25,13 +25,13 @@ Mikäli olet jo siirtynyt Hallintapaneeliin, aloita käsikirjoituksen lähetys v
 
 Toiminto avaa viisiportaisen lomakkeen, jossa käsikirjoitus lähetetään ja kuvaillaan.
 
-![](./assets/learning-ojs3.1-au-dashboard-new.png)
+![](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
 ### Vaihe 1
 
 Ensimmäisessä vaiheessa täytetään käsikirjoituksen luokitteluun liittyviä perustietoja. Sivulla näkyvät kohdat riippuvat osittain lehden asetuksista, eli kaikkia alla mainittuja kohtia ei välttämättä ole julkaisussa, johon olet lähettämässä käsikirjoitusta.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-1.png)
+![](./assets/learning-ojs3.1-au-dashboard-new-s1.png)
 
 Valitse käsikirjoituksen kieli vetovalikosta.
 
