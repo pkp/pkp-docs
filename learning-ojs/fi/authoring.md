@@ -19,31 +19,31 @@ Näkymä on tällä hetkellä tyhjä, koska käyttäjätilillä ei ole lähetett
 
 ## Käsikirjoituksen lähetys
 
-Pääset lähettämään käsikirjoitusta valitsemalla "Lähetä käsikirjoitus" yläpalkista tai menemällä valikkoon "Tietoa" => "Käsikirjoitukset", josta valitset toiminnon "Lähetä uusi käsikirjoitus". Joidenkin julkaisujen kotisivuilla voi olla myös vaihtoehtoisia polkuja.
+Julkaisun sivuilla pääset lähettämään käsikirjoitusta valitsemalla "Lähetä käsikirjoitus" yläpalkista tai menemällä valikkoon "Tietoa" => "Käsikirjoitukset", josta valitset toiminnon "Lähetä uusi käsikirjoitus". Joidenkin julkaisujen kotisivuilla voi olla myös vaihtoehtoisia polkuja.
 
 Mikäli olet jo siirtynyt Hallintapaneeliin, aloita käsikirjoituksen lähetys valitsemalla **Uusi käsikirjoitus** näkymän oikeasta reunasta.
 
 Toiminto avaa viisiportaisen lomakkeen, jossa käsikirjoitus lähetetään ja kuvaillaan.
 
-![](./assets/learning-ojs3.1-au-dashboard-new.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new.png)
 
 ### Vaihe 1
 
 Ensimmäisessä vaiheessa täytetään käsikirjoituksen luokitteluun liittyviä perustietoja. Sivulla näkyvät kohdat riippuvat osittain lehden asetuksista, eli kaikkia alla mainittuja kohtia ei välttämättä ole julkaisussa, johon olet lähettämässä käsikirjoitusta.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-1.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new-1.png)
 
 Valitse käsikirjoituksen kieli vetovalikosta.
 
 Valitse käsikirjoitukselle sopiva osasto. Jos et ole varma valinnastasi, niin valitse sopivin. Toimituskunta pääsee vaihtamaan osastoa vielä useaan kertaan prosessin aikana.
-
-Lue ja hyväksy tekijänoikeuksiin liittyvät ehdot.
 
 Lue ja hyväksy tarkistuslistassa olevat kohdat. Mikäli käsikirjoituksesi ei täytä ehtoja, tee tarvittavat korjaukset ennen etenemistä.
 
 Lisää tarvittaessa kommentteja toimittajalle.
 
 Valitse tarvittaessa oikea kirjoittajarooli. Tavallisesti julkaisussa on vain yksi kirjoittajille tarkoitettu käyttäjärooli.
+
+Lue ja hyväksy tekijänoikeuksiin liittyvät ehdot.
 
 Lue ja hyväksy tietosuojaseloste.
 
@@ -75,6 +75,8 @@ Ensimmäisen tiedoston lisäys on nyt valmis. Voit lisätä uusia tiedostoja val
 
 Näkyville tulee lomakkeen toinen vaihe, jossa on nyt listattuna kaikki lisäämäsi tiedostot. Mikäli sinun pitää tehdä tiedostoihin muutoksia, voit painaa tiedoston nimen edessä olevaa sinistä kolmiota, josta pääset joko muokkaamaan tai poistamaan ko. tiedoston. Huomaa, että muokkaus koskee vain tiedoston kuvailutietoja. Voit myös jatkaa tiedostojen lataamista valitsemalla **Lataa tiedosto**.
 
+![](./assets/learning-ojs-3-author-submission-step2-5.png)
+
 Valitse **Tallenna ja jatka**, jolloin siirryt lomakkeen kolmanteen vaiheeseen.
 
 ### Vaihe 3
@@ -85,19 +87,19 @@ Täytä käsikirjoituksen otsikko (kolmessa osassa, joista prefiksi koskee vain 
 
 Mikäli lehti on monikielinen, myös kuvailutiedot voi täyttää usealla kielellä. Tällöin esimerkiksi otsikko-kenttää painaessa avautuu jokaiselle kieliversiolle oma tekstikenttä, johon voi kirjoittaa otsikon.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new-3.png)
 
 Absraktin alapuolella on tekijäluettelo. Oletuksena käsikirjoitusta lähettävän kirjoittajan tiedot näkyvät valmiina.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
-Mikäli tarvitaan muita tekijöitä, valitse kohta **Lisää tekijä**. Tämä toiminto avaa uuden lomakkeen, johon tekijän tiedot täytetään. Huomaa, että tarvitset henkilöiden sähköpostiosoitteet.
+Mikäli tarvitaan muita tekijöitä, valitse kohta **Lisää tekijä**. Tämä toiminto avaa uuden lomakkeen, johon tekijän tiedot täytetään. Huomaa, että tarvitset henkilöiden sähköpostiosoitteet. Lomakkeen pakolliset kentät on merkitty punaisella tähdellä.
 
 ![](./assets/learning-ojs-3-author-submission-step3-2.png)
 
 Valitse **Tallenna** ja uusi tekijä lisätään luetteloon.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
 Riippuen julkaisun asetuksista ja kirjoittajaohjeista voit nähdä tekijäluettelon alla myös muita kuvailutietoja koskevia kenttiä, kuten avainsanat.
 
@@ -113,7 +115,7 @@ Neljännessä vaiheessa sinua pyydetään varmistamaan, että olet valmis lähet
 
 Valitse **Suorita lähetys**.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-4.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new-4.png)
 
 Varmistus kysytään vielä uudelleen avautuvassa ikkunassa. Valitse **OK**.
 
@@ -121,7 +123,7 @@ Varmistus kysytään vielä uudelleen avautuvassa ikkunassa. Valitse **OK**.
 
 ### Vaihe 5
 
-![](./assets/learning-ojs3.1-au-dashboard-new-5.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
 Käsikirjoitus on nyt lähetetty! Toimittajat ovat saaneet tiedon uudesta käsikirjoituksesta.
 
@@ -129,7 +131,7 @@ Käsikirjoitus on nyt lähetetty! Toimittajat ovat saaneet tiedon uudesta käsik
 
 Käsikirjoituksesi näkyy nyt Hallintapaneelissa kohdassa **Omat kirjoitukseni**. Käsikirjoituksen otsikon perässä näkyy käsikirjoituksen työvaihe ja otsikkoa painamalla pääset katsomaan toimitusprosessia koskevaa näkymää kirjoittajan näkökulmasta.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-sub.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
 Käsikirjoitus etenee toimitusprosessissa ja toimittajat ovat sinuun yhteydessä järjestelmän kautta. 
 
@@ -141,15 +143,15 @@ Kun artikkelia koskeva vertaisarviointi on valmis, toimittaja ilmoittaa sinulle 
 
 Sähköpostin saatuasi siirry lehden sivuille ja kirjaudu omaan Hallintapaneeliisi.
 
-![](./assets/learning-ojs-3-auth-responding-revisions.png)
+![](./assets/learning-ojs-3.1-au-responding-revisions.png)
 
-Valitse *Arviointi* linkki käsikirjoituksesi nimen vieressä.
+Listauksesta näkyy, että käsikirjoitukseen on pyydetty korjauksia. Siirry käsikikirjoitukseen klikkaamalla sen otsikkoa.
 
-![](./assets/learning-ojs-3-auth-responding-revisions2.png)
+![](./assets/learning-ojs-3.1-au-responding-revisions2.png)
 
 Siirryt käsikirjoituksesi työnkulkuun, jossa olet parhaillaan arviointivaiheessa. Näkymän yläosassa lukee toimittajan päätös ja siinä oleva linkki johtaa toimittajan lähettämään viestiin, jossa annetaan tarkemmat ohjeet.
 
-![](./assets/learning-ojs-3-auth-responding-revisions3.png)
+![](./assets/learning-ojs-3.1-au-responding-revisions3.png)
 
 Tee lähettämääsi käsikirjoitukseen toimittajan ja arvioijien esittämät muutokset. Muista pitää käsikirjoitusta anonymisoituna.
 
@@ -159,13 +161,13 @@ Kun muokattu käsikirjoitus on valmis, siirry lehden sivuille ja kirjaudu Hallin
 
 Avautuvalta sivulta löydät laatikon, joka on otsikoitu **Korjaukset**.
 
-![](./assets/learning-ojs-3-auth-responding-revisions4.png)
+![](./assets/learning-ojs-3.1-au-responding-revisions4.png)
 
 Valitse *Lataa tiedosto*.
 
 ![](./assets/learning-ojs-3-auth-responding-upload.png)
 
-Valitse vetovalikosta se tiedosto, jonka uutta korjattua versiota olet lataamassa.
+Valitse ensin Artikkelin osa. Valinnalla määritetään, että onko kyse varsinaisesta käsikirjoitustiedostosta vai mahdollisesti jostakin liitetiedostosta. **Pääset lataamaan tiedostoa vasta valinnan jälkeen**. Tavallisesti oikea vaihtoehto on "Artikkelin teksti".
 
 Lataa tämän jälkeen uusi tiedosto ja valitse **Jatka**.
 
@@ -209,7 +211,11 @@ Päätös voi olla esimerkiksi uuden arviointikierroksen käynnistyminen, jolloi
 
 ### Muutokset hyväksytty
 
-Kun toimittaja on hyväksynyt käsikirjoituksesi julkaistavaksi, saat uuden toimittajan tekemän päätöksen sähköpostitse. Näet myös hallintapaneelista päätöstä koskevan ilmoituksen.
+Kun toimittaja on hyväksynyt käsikirjoituksesi julkaistavaksi, saat uuden toimittajan tekemän päätöksen sähköpostitse. Hallintapaneelista näet, että käsikirjoitus on siirtynyt teknisen toimittamisen vaiheeseen ja voit jäädä odottamaan lisäohjeita.
+
+![](./assets/learning-ojs-3-au-copyedits.png)
+
+Kun siirryt käsikirjoituksen työnkulkuun klikkaamalla sen otsikkoa, voit vielä katsoa toimittajan päätöstä valitsemalla Arvionti-välilehden.
 
 ![](./assets/learning-ojs-3-au-notifications.png)
 
@@ -217,11 +223,8 @@ Jälkimmäinen päätös on viimeisin. Voit avata sen painamalla päätöksen ot
 
 ![](./assets/learning-ojs-3-au-notifications2.png)
 
-Alempana keskustelulaatikossa voit myös nähdä täydentävän viestin toimittajalta.
+Alempana keskustelulaatikossa saatat myös nähdä täydentävän viestin toimittajalta.
 
-![](./assets/learning-ojs-3-au-rev-discussions.png)
-
-Käsikirjoituksesi on nyt siirtynyt teknisen toimittamisen vaiheeseen ja voit jäädä odottamaan lisäohjeita.
 <hr />
 
 ## Käsikirjoituksen lähettäminen toiselle arviointikierrokselle
@@ -248,20 +251,23 @@ Saat uusista keskusteluviesteistä sähköpostin. Siirry lehden sivuille ja kirj
 
 ![](./assets/learning-ojs-3-au-copyedits.png)
 
-Näet käsikirjoituksesi hallintapaneelin listauksissa. Paina Tekninen toimitus -linkkiä ja siirryt käsikirjoituksessasi oikeaan työvaiheeseen, josta keskustelu löytyy.
+Näet käsikirjoituksesi hallintapaneelin listauksissa. Klikkaa käsikirjoituksen otsikkoa ja siirryt käsikirjoituksessasi oikeaan työvaiheeseen, josta keskustelu löytyy.
 
 ![](./assets/learning-ojs-3-au-copyedits-notice.png)
 
 Paina keskustelun otsikkoa avataksesi viestin. Olet todennäköisesti saanut toimittajalta ohjeita sekä liitetiedostona olevan käsikirjoituksen.
 
-
 ![](./assets/learning-ojs-3-au-copyedits-message.png)
 
-Mikäli sinua on pyydetty vain tarkistamaan käsikirjoitus, voit sen luettuasi vastata toimittajan keskusteluviestiin.
+Mikäli sinua on pyydetty vain tarkistamaan käsikirjoitus, voit sen luettuasi vastata toimittajan keskusteluviestiin. Vaihtoehtoisesti palaat tekemään käsikirjoitukseen pyydettyjä muutoksia ja palaat myöhemmin lataamaan uuden version.
 
 ![](./assets/learning-ojs-3-au-copyedits-reply.png)
 
-Mikäli sinua olisi pyydetty tekemään itse korjauksia, voisit liittää nyt korjatun käsikirjoituksen keskusteluviestisi liitteeksi. Tässä tapauksessa ilmoitamme vain, että käsikirjoitus on omasta puolestasi kunnossa. Kirjoita viesti ja paina **OK**.
+Voit vastata viestiin painamalla **Lisää viesti**. Kirjoita vastaus toimittajalta saatujen ohjeiden perusteella. 
+
+Mikäli sinua on pyydetty lataamaan korjattu versio käsikirjoituksesta, valitse kohdasta **Liitetyt tiedosto** linkki **Lataa tiedosto**. Linkistä avautuu jo aiemmista vaiheista tuttu tiedostojen lataukseen käytettävä lomake. Lataa muokattu käsikirjoitus.
+
+Paina lopuksi **OK**.
 
 Näet nyt keskustelutoiminnosta, että olet viimeinen keskusteluun vastannut henkilö.
 
@@ -283,7 +289,7 @@ Saat viestin, jossa kerrotaan oikoluettavien tiedostojen olevan valmiina. Siirry
 
 ![](./assets/learning-ojs-3-au-production-dashboard.png)
 
-Näet käsikirjoituksesi hallintapaneelin listauksissa. Paina Tuotanto-linkkiä ja siirryt käsikirjoituksessasi oikeaan työvaiheeseen.
+Näet käsikirjoituksesi hallintapaneelin listauksissa. Paina käsikirjoituksen otsikkoa ja siirryt käsikirjoituksessasi oikeaan työvaiheeseen.
 
 ![](./assets/learning-ojs-3-au-production-record.png)
 
@@ -295,4 +301,5 @@ Tarkistettuasi käsikirjoituksen, voit vastata keskusteluviestiin ja ilmoittaa m
 
 ![](./assets/learning-ojs-3-au-production-message2.png)
 
-Oikoluvun jälkeen oma osuutesi käsikirjoituksen käsittelyssä on valmis.
+Oikoluvun jälkeen oma osuutesi käsikirjoituksen käsittelyssä on valmis. Lopullinen julkaistava käsikirjoitus ilmestyy kohtaan "Julkaistavat tiedostot", kun se on valmis.
+
