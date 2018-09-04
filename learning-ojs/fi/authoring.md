@@ -11,7 +11,7 @@ Aloita rekisteröityminen valitsemalla Rekisteröidy-linkki, joka löytyy tavall
 
 Tilin luomisen jälkeen voit kirjatua sisään järjestelmään ja pääset omaan Hallintapaneeliin.
 
-![](./assets/learning-ojs3.1-au-dashboard-empty.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
 Näkymä on tällä hetkellä tyhjä, koska käyttäjätilillä ei ole lähetetty aiemmin käsikirjoituksia.
 
