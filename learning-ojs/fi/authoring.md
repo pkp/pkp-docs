@@ -129,7 +129,7 @@ Käsikirjoitus on nyt lähetetty! Toimittajat ovat saaneet tiedon uudesta käsik
 
 ### Hallintapaneeli
 
-Käsikirjoituksesi näkyy nyt Hallintapaneelissa kohdassa **Omat kirjoitukseni**. Käsikirjoituksen otsikon perässä näkyy käsikirjoituksen työvaihe ja otsikkoa painamalla pääset katsomaan toimitusprosessia koskevaa näkymää kirjoittajan näkökulmasta.
+Käsikirjoituksesi näkyy nyt Hallintapaneelissa kohdassa **Oma jononi**. Käsikirjoituksen otsikon perässä näkyy käsikirjoituksen työvaihe ja otsikkoa painamalla pääset katsomaan toimitusprosessia koskevaa näkymää kirjoittajan näkökulmasta. Klikkaamalla otsikon oikeassa reunassa oleva sinistä nuolta, näet lisätietoja käsikirjoitukseen liittyen.
 
 ![](./assets/learning-ojs3.1-au-dashboard-new-subb.png)
 
@@ -157,9 +157,9 @@ Tee lähettämääsi käsikirjoitukseen toimittajan ja arvioijien esittämät mu
 
 ### Uuden version lähetys
 
-Kun muokattu käsikirjoitus on valmis, siirry lehden sivuille ja kirjaudu Hallintapaneeliin. Valitse *Arviointi* linkki käsikirjoituksesi nimen vieressä.
+Kun muokattu käsikirjoitus on valmis, siirry lehden sivuille ja kirjaudu Hallintapaneeliin. Klikkaa käsikirjoituksesi otsikkoa.
 
-Avautuvalta sivulta löydät laatikon, joka on otsikoitu **Korjaukset**.
+Avautuvalta sivulta, Arviointi-välilehdeltä, löydät laatikon, joka on otsikoitu **Korjaukset**.
 
 ![](./assets/learning-ojs-3.1-au-responding-revisions4.png)
 
@@ -261,11 +261,11 @@ Paina keskustelun otsikkoa avataksesi viestin. Olet todennäköisesti saanut toi
 
 Mikäli sinua on pyydetty vain tarkistamaan käsikirjoitus, voit sen luettuasi vastata toimittajan keskusteluviestiin. Vaihtoehtoisesti palaat tekemään käsikirjoitukseen pyydettyjä muutoksia ja palaat myöhemmin lataamaan uuden version.
 
-![](./assets/learning-ojs-3-au-copyedits-reply.png)
-
 Voit vastata viestiin painamalla **Lisää viesti**. Kirjoita vastaus toimittajalta saatujen ohjeiden perusteella. 
 
 Mikäli sinua on pyydetty lataamaan korjattu versio käsikirjoituksesta, valitse kohdasta **Liitetyt tiedosto** linkki **Lataa tiedosto**. Linkistä avautuu jo aiemmista vaiheista tuttu tiedostojen lataukseen käytettävä lomake. Lataa muokattu käsikirjoitus.
+
+![](./assets/learning-ojs-3-au-copyedits-reply.png)
 
 Paina lopuksi **OK**.
 
@@ -289,7 +289,7 @@ Saat viestin, jossa kerrotaan oikoluettavien tiedostojen olevan valmiina. Siirry
 
 ![](./assets/learning-ojs-3-au-production-dashboard.png)
 
-Näet käsikirjoituksesi hallintapaneelin listauksissa. Paina käsikirjoituksen otsikkoa ja siirryt käsikirjoituksessasi oikeaan työvaiheeseen.
+Näet käsikirjoituksesi hallintapaneelin listauksissa. Klikkaa käsikirjoituksen otsikkoa ja siirryt käsikirjoituksessasi oikeaan työvaiheeseen.
 
 ![](./assets/learning-ojs-3-au-production-record.png)
 
@@ -297,9 +297,11 @@ Paina keskustelun otsikkoa avataksesi viestin. Olet todennäköisesti saanut  oh
 
 ![](./assets/learning-ojs-3-au-production-message.png)
 
-Tarkistettuasi käsikirjoituksen, voit vastata keskusteluviestiin ja ilmoittaa mahdolliset korjauspyynnöt.
+Tarkistettuasi käsikirjoituksen, voit vastata keskusteluviestiin ja ilmoittaa mahdolliset korjauspyynnöt. Valitse **Lisää viesti** ja kirjoita viesti. Paina lopuksi **OK**.
 
 ![](./assets/learning-ojs-3-au-production-message2.png)
 
 Oikoluvun jälkeen oma osuutesi käsikirjoituksen käsittelyssä on valmis. Lopullinen julkaistava käsikirjoitus ilmestyy kohtaan "Julkaistavat tiedostot", kun se on valmis.
+
+
 
