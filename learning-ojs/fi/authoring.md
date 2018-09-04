@@ -95,7 +95,7 @@ Absraktin alapuolella on tekijäluettelo. Oletuksena käsikirjoitusta lähettäv
 
 Mikäli tarvitaan muita tekijöitä, valitse kohta **Lisää tekijä**. Tämä toiminto avaa uuden lomakkeen, johon tekijän tiedot täytetään. Huomaa, että tarvitset henkilöiden sähköpostiosoitteet. Lomakkeen pakolliset kentät on merkitty punaisella tähdellä.
 
-![](./assets/learning-ojs-3-author-submission-step3-2.png)
+![](./assets/learning-ojs-3-author-submission-step3-2b.png)
 
 Valitse **Tallenna** ja uusi tekijä lisätään luetteloon.
 
