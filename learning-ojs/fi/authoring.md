@@ -87,11 +87,11 @@ Täytä käsikirjoituksen otsikko (kolmessa osassa, joista prefiksi koskee vain 
 
 Mikäli lehti on monikielinen, myös kuvailutiedot voi täyttää usealla kielellä. Tällöin esimerkiksi otsikko-kenttää painaessa avautuu jokaiselle kieliversiolle oma tekstikenttä, johon voi kirjoittaa otsikon.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3.png)
+![](./assets/learning-ojs3.1-au-dashboard-new-3b.png)
 
 Absraktin alapuolella on tekijäluettelo. Oletuksena käsikirjoitusta lähettävän kirjoittajan tiedot näkyvät valmiina.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
+![](./assets/learning-ojs3.1-au-dashboard-new-3-contribb.png)
 
 Mikäli tarvitaan muita tekijöitä, valitse kohta **Lisää tekijä**. Tämä toiminto avaa uuden lomakkeen, johon tekijän tiedot täytetään. Huomaa, että tarvitset henkilöiden sähköpostiosoitteet. Lomakkeen pakolliset kentät on merkitty punaisella tähdellä.
 
@@ -99,11 +99,11 @@ Mikäli tarvitaan muita tekijöitä, valitse kohta **Lisää tekijä**. Tämä t
 
 Valitse **Tallenna** ja uusi tekijä lisätään luetteloon.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
+![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-newb.png)
 
 Riippuen julkaisun asetuksista ja kirjoittajaohjeista voit nähdä tekijäluettelon alla myös muita kuvailutietoja koskevia kenttiä, kuten avainsanat.
 
-![](./assets/learning-ojs-3-author-submission-step3-4.png)
+![](./assets/learning-ojs-3-author-submission-step3-4b.png)
 
 Avainsanojen tapaisten kenttien kohdalla erota annettavat sanat painamalla aina enter-nappia sanan jokaisen kirjoittamisen jälkeen. Mikäli järjestelmä ehdottaa sanoja kirjoitettaessa, voit valita sanan klikkaamalla sitä.
 
@@ -115,15 +115,15 @@ Neljännessä vaiheessa sinua pyydetään varmistamaan, että olet valmis lähet
 
 Valitse **Suorita lähetys**.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-4.png)
+![](./assets/learning-ojs3.1-au-dashboard-new-4b.png)
 
 Varmistus kysytään vielä uudelleen avautuvassa ikkunassa. Valitse **OK**.
 
-![](./assets/learning-ojs-3-author-submission-step4-1.png)
+![](./assets/learning-ojs-3-author-submission-step4-1b.png)
 
 ### Vaihe 5
 
-![](./assets/learning-ojs3.1-au-dashboard-new-5.png)
+![](./assets/learning-ojs3.1-au-dashboard-new-5b.png)
 
 Käsikirjoitus on nyt lähetetty! Toimittajat ovat saaneet tiedon uudesta käsikirjoituksesta.
 
@@ -131,7 +131,7 @@ Käsikirjoitus on nyt lähetetty! Toimittajat ovat saaneet tiedon uudesta käsik
 
 Käsikirjoituksesi näkyy nyt Hallintapaneelissa kohdassa **Omat kirjoitukseni**. Käsikirjoituksen otsikon perässä näkyy käsikirjoituksen työvaihe ja otsikkoa painamalla pääset katsomaan toimitusprosessia koskevaa näkymää kirjoittajan näkökulmasta.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
+![](./assets/learning-ojs3.1-au-dashboard-new-subb.png)
 
 Käsikirjoitus etenee toimitusprosessissa ja toimittajat ovat sinuun yhteydessä järjestelmän kautta. 
 
