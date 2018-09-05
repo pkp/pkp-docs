@@ -1,7 +1,6 @@
-# Luku 10: Käsikirjoituksen lähetys
+# Luku 10: Kirjoittajat
 
 Tässä luvussa kerrotaan OJS3-järjestelmän toiminnoista kirjoittajan näkykulmasta.
-
 
 ## Rekisteröityminen julkaisuun
 

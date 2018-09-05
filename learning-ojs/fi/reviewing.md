@@ -1,4 +1,4 @@
-# Luku 11: Arviointi
+# Luku 12: Arvioijat
 
 Julkaisun arvioijaksi voi tulla joko ilmoittamalla halukkuutensa julkaisuun rekisteröitymisen yhteydessä tai vastaavasti julkaisun toimittajan kutsusta.
 
@@ -18,7 +18,7 @@ Siirryt arviointilomakkeen ensimmäiseen vaiheeseen.
 
 Näkymässä näet arvioitavan artikkelin tiedot. Joidenkin julkaisujen tapauksessa voit nähdä jo tässä vaiheessa myös koko artikkelin tekstin. 
 
-Linkistä **Katso käsikirjoituksen yksityiskohdat** avautuu ikkuna, josta näkyy artikkelin metadata. Mikäli kyseessä on avoin vertaisarviointi, näet myös kirjoittajien nimet.
+Linkistä **Näytä kaikki käsikirjoituksen tiedot** avautuu ikkuna, josta näkyy artikkelin metadata. Mikäli kyseessä on avoin vertaisarviointi, näet myös kirjoittajien nimet.
 
 ![](./assets/learning-ojs-3-rev-step1-3.png)
 
@@ -26,7 +26,7 @@ Sivun alaosassa näkyy arviointia koskeva aikataulu sekä arvioinnin vastaanotto
 
 Mikäli hylkäät arviointipyynnön, järjestelmä avaa uuden ikkunan, jossa on esitäytetty viesti toimittajalle. Voit muokata valmista tekstiä haluamallasi tavalla ja lähettää viestin. Arviointiprosessi on tällöin päättynyt omalta osaltasi ja toimittaja on saanut tiedon kieltäytymisestä.
 
-Mikäli hyväksyt arviointipyynnön, siirryt lomakkeen toiseen vaiheeseen. Tällä sivulla näkyvät lehden arviointiohjeet, joihin tulee perehtyä huolellisesti. Jokaisella julkaisulla on omat ohjeet, joten tutustu niihin tarkasti. Ohjeisiin pääsee käsiksi vielä myöhemminkin.
+Mikäli hyväksyt arviointipyynnön, siirryt lomakkeen toiseen vaiheeseen. Tällä sivulla näkyvät julkaisun arviointiohjeet, joihin tulee perehtyä huolellisesti. Jokaisella julkaisulla on omat ohjeet, eli niiden laajuus ja yksityiskohtaisuus vaihtelee. Ohjeisiin pääsee käsiksi vielä myöhemminkin.
 
 ![](./assets/learning-ojs-3-rev-step2.png)
 
@@ -38,7 +38,7 @@ Tiedostojen alapuolella on varsinainen arviointilomake. Oletuksena siinä on kak
 
 Oletuslomakkeessa ensimmäisen kentän teksti on tarkoitettu sekä kirjoittajalle että toimittajalle ja toinen kenttä vain toimittajalle.
 
-Arvionti *kannattaa aina kirjoittaa ensin omalle tietokoneelle tallenttavaan tiedostoon*. Kun palaat takaisin arviolomakkeeseen, pääset jatkamaan uudestaan arviointilomakkeen kolmannesta vaiheesta ja voit kopioida kirjoittamasi tekstit arviointilomakkeen kenttiin.
+Arvionti *kannattaa aina kirjoittaa ensin omalle tietokoneelle tallennettavaan tiedostoon*. Kun palaat takaisin arviolomakkeeseen, pääset jatkamaan uudestaan arviointilomakkeen kolmannesta vaiheesta ja voit kopioida kirjoittamasi tekstit arviointilomakkeen kenttiin.
 
 ![](./assets/learning-ojs-3-rev-step3.png)
 
