@@ -1,69 +1,66 @@
-# Chapter 12: Reviewing
+# Luku 11: Arviointi
 
-As a reviewer, you will learn of the review request via email or by checking your dashboard:
+Julkaisun arvioijaksi voi tulla joko ilmoittamalla halukkuutensa julkaisuun rekisteröitymisen yhteydessä tai vastaavasti julkaisun toimittajan kutsusta.
+
+Mikäli olet saanut kutsun arvioijaksi, saat todennäköisesti kaksi sähköpostiviestiä lähes peräkkäin. Näistä ensimmäisessä ilmoitetaan, että sinua on pyydetty arvioijaksi ja kerrotaan käyttäjätiliisi liittyvät yksityiskohdat. Jos sinulla ei ollut ennestään käyttäjätilia, näet myös salasanasi, joka sinun pitää vaihtaa yleensä ensimmäisen kirjautumisen jälkeen. Jos haluat kieltäytyä kokonaan tekemästä arviointeja kyseessä olevalle julkaisulle, kieltäydy annetusta arviointipyynnöstä alla olevien ohjeiden mukaisesti ja ilmoita vielä erikseen toimittajalle, että et halua uusia pyyntöjä enää jatkossa.
+
+Toinen sähköpostiviesti sisältää varsinaisen arviointipyynnön. Mikäli olet jo ennestään lehden arvioija, saat vain tämän viestin.
+
+Lue saamasi viesti, siirry lehden kotisivuille ja kirjaudu sisään hallintapaneeliin. Joidenkin julkaisujen tapauksessa viesti saattaa sisältää linkin, joka kirjaa sinut suoraan sisään ja siirtää sinut arviointilomakkeeseen.
 
 ![](./assets/learning-ojs-3-rev-dashboard.png)
 
-From the My Assigned list, find the title and Review link. Notice the lack of any author information in this double-blind peer review process.
-
-Selecting the Review link will take you to the first review step in the submission record, which is much more limited than the editor’s view, and contains no author information.
+Mikäli olet kirjautunut sisään omilla tunnuksilla, näet hallintapaneelin listauksissa saapuneet työt ja niihin liittyvän aikataulun. Tässä tapauksessa lehdellä on aktivoituna tuplasokkoarviointi, eli et näe kirjoittajan nimeä. Paina oikean työn otsikkoa päästäksesi arviointilomakkeeseen.
 
 ![](./assets/learning-ojs-3-rev-step1.png)
 
-This first step consists of the following sections:
+Siirryt arviointilomakkeen ensimmäiseen vaiheeseen. 
 
-**Request for Review**: provides some text inviting you to act as a reviewer.
+Näkymässä näet arvioitavan artikkelin tiedot. Joidenkin julkaisujen tapauksessa voit nähdä jo tässä vaiheessa myös koko artikkelin tekstin. 
 
-**Article Title**: provides the title of the article.
-
-**Abstract**: provides the abstract text.
-
-Further down the screen, you will find additional information.
+Linkistä **Katso käsikirjoituksen yksityiskohdat** avautuu ikkuna, josta näkyy artikkelin metadata. Mikäli kyseessä on avoin vertaisarviointi, näet myös kirjoittajien nimet.
 
 ![](./assets/learning-ojs-3-rev-step1-3.png)
 
-The **View All Submission Details** link will open a window with additional information, including all of the non-author metadata:
+Sivun alaosassa näkyy arviointia koskeva aikataulu sekä arvioinnin vastaanottoon liittyvät painikkeet.
 
-![](./assets/learning-ojs-3-rev-step1-2.png)
+Mikäli hylkäät arviointipyynnön, järjestelmä avaa uuden ikkunan, jossa on esitäytetty viesti toimittajalle. Voit muokata valmista tekstiä haluamallasi tavalla ja lähettää viestin. Arviointiprosessi on tällöin päättynyt omalta osaltasi ja toimittaja on saanut tiedon kieltäytymisestä.
 
-Note that none of these fields are editable by the reviewer, and are only provided to help you conduct a thorough review.
-
-Close this window and move further down the screen. From here you can see the Review Schedule, including all of the relevant due dates.
-
-From here, you can decline or accept the review. If you decline, you will be dropped from the process. If you accept, you will move to review step 2, where you would be able to read any reviewer guidelines provided by the journal.
+Mikäli hyväksyt arviointipyynnön, siirryt lomakkeen toiseen vaiheeseen. Tällä sivulla näkyvät lehden arviointiohjeet, joihin tulee perehtyä huolellisesti. Jokaisella julkaisulla on omat ohjeet, joten tutustu niihin tarkasti. Ohjeisiin pääsee käsiksi vielä myöhemminkin.
 
 ![](./assets/learning-ojs-3-rev-step2.png)
 
-Hit **Continue** to move to step 3. From here you can download a copy of the review files and enter your review comments. The first window is for comments to the editor and the author; the second window is just for the editor.
+Valitse **Jatka** ja siirryt kolmanteen vaiheeseen.
+
+Tällä sivulla näet viimeistään arvioitavaksi tarkoitetun käsikirjoituksen sekä sen mahdolliset liitteet. Voit ladata tiedoston painamalla sen otsikkoa.
+
+Tiedostojen alapuolella on varsinainen arviointilomake. Oletuksena siinä on kaksi viestikenttää, mutta joillakin julkaisuilla voi olla käytössä laajempi ja yksityiskohtaisempi arviointilomake.
+
+Oletuslomakkeessa ensimmäisen kentän teksti on tarkoitettu sekä kirjoittajalle että toimittajalle ja toinen kenttä vain toimittajalle.
+
+Arvionti *kannattaa aina kirjoittaa ensin omalle tietokoneelle tallenttavaan tiedostoon*. Kun palaat takaisin arviolomakkeeseen, pääset jatkamaan uudestaan arviointilomakkeen kolmannesta vaiheesta ja voit kopioida kirjoittamasi tekstit arviointilomakkeen kenttiin.
 
 ![](./assets/learning-ojs-3-rev-step3.png)
 
-Once you have read the paper and added your comments, scroll down the page to optionally upload a marked up copy of the review file \(remember to strip any personal identification from the file before uploading it\).
+Joissakin tapauksissa arvioijaa saatetaan pyytää lähettämään tekstitiedosto, johon muutokset on merkitty suoraan. Tässä tapauksessa voit lisätä tiedostot kohtaan **Arvioijan tiedostot**. Mikäli kyseessä on sokkoarviointi, muista poistaa tiedostosta tiedot, joista sinut voi tunnistaa.
+
+Voit tarvittaessa keskustella arviosta toimittajan kanssa aloittamalla uuden keskustelun kohdassa **Arviointiin liittyvät keskustelut**. Mikäli kyseessä on avoin vertaisarviointi, voit keskustella myös kirjoittajan kanssa.
 
 ![](./assets/learning-ojs-3-rev-step3-1.png)
 
-Next, you must then make your recommendation using the dropdown menu.
+Kun arvio on valmis, valitse vielä suosituksesi käyttämällä lomakkeen lopussa olevaa vetovalikkoa.
 
-Your choices include:
+Vaihtoehdot ovat:
 
-**Accept Submission**: it is ready to go to Copyediting as is.
+- **Hyväksy käsikirjoitus**: ei vaadi muutoksia.
+- **Vaatii korjauksia**: vaatii pieniä korjauksia, jotka toimittaja voi arvioida itse.
+- **Lähetä uudelleen arvioitavaksi**: vaatii laajoja korjauksia ja uuden arviointikierroksen.
+- **Lähetä toiseen julkaisuun**: käsikirjoitus ei sovi julkaisun linjaan.
+- **Hylkää käsikirjoitus**: liian heikkotasoinen julkaistavaksi.
+- **Katso kommentit**: mikäli mikään yllä mainittu määritelmä ei sovi, voit jättää vapaamuotoisen kommentin toimittajalle, jossa esität näkemyksesi.
 
-**Revisions Required**: it requires minor changes that can be reviewed and accepted by the editor.
+Paina lopuksi **Lähetä arviointi** ja vahvista vielä lähetys kysyttäessä painamalla **OK**.
 
-**Resubmit for Review**: it requires major changes and another round of peer review.
-
-**Resubmit Elsewhere**: it doesn’t seem like a good fit for the focus and scope of this journal.
-
-**Decline Submission**: it has too many weakness to ever be accepted.
-
-**See Comments**: if none of the above recommendations make sense, you can leave a comment for the editor detailing your concerns.
-
-Finally, hit the Submit Review button to complete your task. You’ll be asked to confirm.
-
-![](./assets/learning-ojs-3-rev-step3-2.png)
-
-Hit OK. You will be taken the final confirmation screen thanking you for your work.
+Arviointi on nyt lähetetty. Lomakkeen viimeisellä sivulla näkyy vahvistus valmiista arvioinnista sekä arviointia koskevat keskustelut. Voit tarvittaessa olla vielä yhteydessä toimittajan kanssa keskustelutoiminnon avulla.
 
 ![](./assets/learning-ojs-3-rev-step4.png)
-
-That's it! The review is now complete.

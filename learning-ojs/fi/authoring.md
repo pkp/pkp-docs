@@ -183,7 +183,7 @@ Tarkista tiedoston nimi ja valitse uudelleen **Jatka**. Tavallisesti nimeä ei t
 
 Voit halutessasi ladata myös muita uusia tiedostoja. Kun olet valmis, valitse **Suorita**.
 
-Korjattu käsikirjoitustiedostosi on nyt Korjaukset-laatikossa. Suluissa oleva numero kertoo, että tiedostosta on olemassa nyt kaksi versiota. Ensimmäinen versio on arvioinnissa ollut käsikirjoitus ja toinen versio juuri lataamasi uusi tiedosto. 
+Korjattu käsikirjoitustiedostosi on nyt Korjaukset-laatikossa. Suluissa oleva numero kertoo, että tiedostosta on olemassa nyt kaksi versiota. Ensimmäinen versio on arvioinnissa ollut käsikirjoitus ja toinen versio juuri lataamasi uusi tiedosto.
 
 ![](./assets/learning-ojs-3-auth-responding-upload4.png)
 
