@@ -171,7 +171,6 @@ Valitse vetovalikosta se tiedosto, jonka uutta versiota olet lisäämässä.
 
 Lataa tämän jälkeen uusi tiedosto koneeltasi.
 
-
 ![](./assets/learning-ojs-3-auth-responding-upload1.png)
 
 Kun tiedosto on siirretty, valitse **Jatka**.
