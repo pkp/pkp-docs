@@ -180,7 +180,7 @@ You will notice that some plugins are required for the system and cannot be disa
 
 #### Plugin Gallery
 
-The Plugin Gallery provides access to externally-created plugins, that may not be included in your OJS installation, but are available for download and activation.
+The Plugin Gallery provides access to externally-created plugins, that may not be included in your OJS installation, but are available for download and activation. Only an Administrator user can install a new plugin.
 
 ![](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery.PNG)
 
@@ -240,7 +240,7 @@ You can also edit each component by selecting the blue arrow to the left of the 
 
 **Name**: This is the name of the component, as presented to the author.
 
-**Options**: Choose how the files associated with this component will be treated and displayed.
+**Options**: Choose how the files associated with this component will be treated and displayed. Anything that is marked as a Dependent file will not be published.
 
 **File Type Grouping**: Determine whether this component is associated with the submission document, artwork, or is a supplementary file.
 
@@ -357,7 +357,7 @@ The section allows you to configure the emails that are sent out from the system
 
 **Bounce Address**: A notice will be sent to this email address of any system-sent emails that fail to deliver, such as when the targeted email address is no longer valid.
 
-**Prepared Email Tempates**: Pre-written emails are an important part of OJS. You see all of them here, and use the Edit link \(as always, found by selecting the blue arrow to the left of the template name\) to make any modifications.
+**Prepared Email Tempates**: Pre-written emails are an important part of OJS. You see all of them here, and use the Edit link \(as always, found by selecting the blue arrow to the left of the template name\) to make any modifications. Not all templates listed are used in OJS 3. If you use the link to "Add Email Template," you will be able to create a new template but it will not be available to use at any stage in the workflow.
 
 Some configuation is required to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
 
@@ -376,6 +376,9 @@ This section helps you enhance your search engine optimization.
 Use **Description** to provide a brief description of your journal for search engines.
 
 Use **Custom Tags** to add custom HTML header tags to the header of every page of your journal \(e.g., META tags to temporarily block search engine indexing\).
+
+Use **Custom Tags** to add custom HTML header tags to the header of every page of your journal, which can help your site get indexed by search engines. Tags need to be added as HTML elements. If you simply enter words they will appear at the top of every page of your site instead of in the site's metadata. Here is an example of text that could be entered in this field:
+<meta name="description" content="The Journal of Public Knowledge. Publication of the Public Knowledge Project - PKP and Simon Fraser University - SFU" /><meta name="keywords" content="open access, scholarly publishing, open source software, non-profit organizations, scholarly journals, free software" /><meta name="author" content="metatags generator"><meta name="robots" content="index, follow"><meta name="revisit-after" content="3 month">
 
 ### Access
 
