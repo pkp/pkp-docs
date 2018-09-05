@@ -1,12 +1,54 @@
-# Chapter 3: User Accounts
+# Luku 3: Käyttäjätilit
 
-OJS uses a comprehensive roles system to divide work between users, assign workflows, and limit access to different parts of the system.
+OJS-järjestelmän käyttäjätilit ovat aina sivustokohtaisia. Jos samalla sivustolla ylläpidetään useita julkaisuja, kelpaa sama käyttäjätunnus kaikkiin lehtiin, eli käyttäjän ei tarvitse rekisteröityä uudelleen.
 
-Since one installation of OJS can host multiple journals, users can be enrolled in different roles for more than one journal. For example, one person could be both an editor and author for the same journal, as well as being only an author in one journal, a reviewer in another, and an editor in a third.
+OJS-järjestelmän käyttöoikeuksia ja pääsyä erilaisiin järjestelmän toimintoihin hallitaan käyttäjäroolien avulla. Sama käyttäjä voi olla kirjoittajan roolissa yhdessä julkaisussa ja samaan aikaan toimittajan roolissa toisessa julkaisussa. 
 
-When a user logs into the system, they will be taken to their Dashboard. From here, they will see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow.
+Kun käyttäjä on kirjautunut sisään järjestelmään ja siirtyy omaan Hallintapaneeliin, näkymä riippuu niistä rooleista, joita käyttäjälle on annettu.
 
-## Roles in OJS
+## Rekisteröityminen
+
+Rekisteröityminen julkaisuun voi olla joissakin tilanteissa suljettu. Kun käyttäjä rekisteröityy OJS-järjestelmän johonkin julkaisuun, hän saa tavallisesti Lukija-roolin. Jotkin julkaisut antavat käyttäjälle mahdollisuuden tarjoutua myös arvioijaksi.
+
+Kirjoittaja-roolin käyttäjä saa, kun hän lähettää ensimmäisen käsikirjoituksen julkaisuun.
+
+Rekisteröityminen julkaisuun alkaa painamalla kohtaa **Rekisteröidy**, joka löytyy tavallisesti lehden kotisivun oikeasta yläkulmasta.
+
+![](./assets/learning-ojs-3-registration.png)
+
+Linkistä avautuu rekisteröitymislomake, johon tulee täyttää pyydetyt tiedot.
+
+![](./assets/learning-ojs-3-registration-form-1.png)
+
+Kaikki tähdellä merkityt kentät ovat pakollisia tietoja. Näitä ovat tavallisesti etunimi, sukunimi, affiliaatio, mmaa, sähköposti, käyttäjätunnus sekä salasana. Mikäli lehti on monikielinen, valitset lisäksi ensisijaisen kielen.
+
+![](./assets/learning-ojs-3-registration-form-2.png)
+
+Tämän julkaisun tapauksessa saat automaattisesti Lukija-roolin ja voit myös halutessaisi valita Arvioija-roolin. Lomakkeen kautta ei voi rekisteröityä muihin rooleihin. Mikäli tarvitse jonkin toisen roolin julkaisussa, ota yhteyttä lehden toimittajaan.
+
+<hr />
+
+## Käyttäjäprofiilin muokkaus
+
+Käyttäjätilin luomisen jälkeen voit muokata omaa profiilia kirjautumalla sisään järjestelmään ja viemällä hiiren oikeaan yläkulmaan oman käyttäjätunnuksen päälle. Valitse avautuvasta vetovalikosta **Näytä profiili**.
+
+![](./assets/learning-ojs3.1-ed-view-profile.png)
+
+Välilehdistä löytyvät kohdat mm. henkilötiedoille, yhteystiedoille, roolivalinnoille, julkiselle profiilille, salasanan vaihdolle sekä järjestelmän lähettämien ilmoitusten hallinnalle.
+
+Rooleja ja ilmoituksia koskevat asetukset koskevat sitä lehteä, jonka sivuilla olet parhaillaan.
+
+## Salasanan vaihtaminen
+
+Jos unohdat salasanan, voit pyytää uuden valitsemalla lehden sivulla linkin **Kirjaudu** ja avautuvalta sivulta linkin **Unohditko salasanasi?**.
+
+Jos haluat muuttaa salasanaasi, kirjaudu sisään järjestelmään, siirry käyttäjäprofiiliin ja sieltä Salasana-välilehdelle. Anna lomakkeeseen nykyinen salasana ja tämän jälkeen uusi salasana kahdesti ja paina **Tallenna**.
+
+![](./assets/learning-ojs3.1-ed-change-pw.png)
+
+<hr />
+
+## Roolit OJS-järjestelmässä
 
 The OJS workflow revolves around different roles for different users, allowing them access to different parts of the workflow, and different permissions and responsibilities.
 
@@ -106,45 +148,3 @@ See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
 The Reader role is the simplest role in OJS, and has the fewest capabilities. Readers receive a notification email with the publication of each issue, which includes the Table of Contents for that particular issue.
 
 <hr />
-
-## Registering with a Journal
-
-Unregistered visitors to a journal can normally register as a Reader, Author, and/or Reviewer. Journal Managers are able to remove the ability for visitors to self-register, in which case a notice will appear stating that registration is currently closed (see Journal Settings), but Journal Managers can always register users at any time, and for any role.
-
-To register with a journal, click the Register link on the upper right corner.
-
-![](./assets/learning-ojs-3-registration.png)
-
-This will open the Registration Form for you to complete with all required information.
-
-![](./assets/learning-ojs-3-registration-form.png)
-
-All fields with an asterisk (First Name, Last Name, Affiliation, Country, Email, Username, Password, Repeat Password) are mandatory. If the journal is multilingual, you will need to select your preferred language.
-
-You will be automatically registered as a Reader and an Author. You will be given the option to register as a Reviewer as well.
-
-You will not be able to self-register for an Editorial Role (e.g., Editor, Section Editor, Copyeditor, Layout Editor, Proofreader, or Journal Manager). If you need to be enrolled at that level, contact a current Journal Manager or Site Administrator.
-
-<hr />
-
-## Viewing and Changing your Profile
-
-To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
-
-![](./assets/learning-ojs3.1-ed-view-profile.PNG)
-
-From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image \(which some journals may publish along with your article or on a list of editors\), determine your notification settings, or update your password.
-
-## Resetting your Password
-
-You can reset your password by:
-
-1. Logging into the journal
-2. Selecting your username and View Profile from the upper right corner of the screen
-3. Choosing the Password tab
-4. Entering your current password and then your new password twice
-5. Hitting Save
-
-![](./assets/learning-ojs3.1-ed-change-pw.PNG)
-
-Your password is now changed.
