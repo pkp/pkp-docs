@@ -194,6 +194,8 @@ This opens a new window, where Reviewers are listed and can be selected one at a
 
 Note the details visible about the Reviewers, including their interests, past assignments, etc.
 
+In OJS releases 3.0 to 3.1.0, you cannot assign a user to review a submission if they are also an editor of the submission.  If you do, the editor will no longer be able to access the submission after they submit their review, in order to maintain the principles of blind peer review. However, starting with OJS 3.1.1, you can assign a user to review a submission if they are also an editor of the submission.
+
 At the bottom of this form, you will see options to:
 
 **Select Reviewer**: Use this to confirm your selection once you have picked a Reviewer from the list.
