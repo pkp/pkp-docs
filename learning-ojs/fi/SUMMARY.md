@@ -16,7 +16,7 @@
 * [Luku 9: Tilaukset](./subscriptions.md)
 * [Luku 10: Kirjoittajat](./authoring.md)
   * [Registering with the Journal](./authoring#registering-with-the-journal)
-  * [Submitting an Article](./authoring#submitting-an-article)
+  * [Submitting an Article](./authoring#submitting-an-article)s
   * [Responding to a Review](./authoring#responding-to-a-review)
   * [Re-submitting for Review](./authoring#resubmitting-for-review)
   * [Responding to a Copyediting Request](./authoring#responding-to-a-copyediting-request)
