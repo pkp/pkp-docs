@@ -167,9 +167,13 @@ Valitse *Lataa tiedosto*.
 
 ![](./assets/learning-ojs-3-auth-responding-upload.png)
 
-Valitse ensin Artikkelin osa. Valinnalla määritetään, että onko kyse varsinaisesta käsikirjoitustiedostosta vai mahdollisesti jostakin liitetiedostosta. **Pääset lataamaan tiedostoa vasta valinnan jälkeen**. Tavallisesti oikea vaihtoehto on "Artikkelin teksti".
+Valitse vetovalikosta se tiedosto, jonka uutta versiota olet lisäämässä. 
 
-Lataa tämän jälkeen uusi tiedosto ja valitse **Jatka**.
+Lataa tämän jälkeen uusi tiedosto koneeltasi.
+
+![](./assets/learning-ojs-3-auth-responding-upload1.png)
+
+Kun tiedosto on siirretty, valitse **Jatka**.
 
 ![](./assets/learning-ojs-3-auth-responding-upload2.png)
 
