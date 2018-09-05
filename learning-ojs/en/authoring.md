@@ -104,6 +104,8 @@ Your submission is now complete! The editor has been notified of your submission
 * Create a new submission
 * Return to your dashboard
 
+Once you complete a submission, you cannot make changes to it.  If you want to replace the file you submitted or make other changes to the submission, you will need to contact the editor through the Pre-Review Discussions tool.
+
 ### Dashboard
 
 And here is your submission in your Dashboard. You can see that it is currently in the _Submission_ stage.
