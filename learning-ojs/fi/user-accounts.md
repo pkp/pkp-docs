@@ -68,6 +68,8 @@ Julkaisun hallinnoijan käyttöoikeustaso on *Julkaisun Hallinnoija*.
 
 Käyttäjä saa käsikirjoituksen lähetyksen yhteydessä Kirjoittaja-roolin. Kirjoittaja pääsee lähettämään käsikirjoitustiedostoja ja lisäämään käsikirjoitusta koskevia kuvailutietoja. Kirjoittaja toimii käsikirjoituksen lähetyksen jälkeen kontaktihenkilönä, jolle toimittaja lähettää tietoja käsikirjoituksen etenemisestä toimitusprosessissa OJS-järjestelmä kautta. Toimitusprosessin aikana kirjoittaja voi lähettää käsikirjoituksesta uusia versioita ja vastata erilaisiin toimituskunnan kysymyksiin käsikirjoitukseensa liittyen.
 
+Kirjoittajan käyttöoikeustaso on *Kirjoittaja*.
+
 Katso tarkemmin [Luku 10: Kirjoittaja](./editorial-workflow.md).
 
 ### Editor
