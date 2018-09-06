@@ -1,7 +1,7 @@
 
 ### [Learning OJS 3](learning-ojs/en/)
 
-A visual, step-by-step guide to managing a journal with Open Journal Systems. [View Now](learning-ojs/en/)
+A visual, step-by-step guide to managing a journal with Open Journal Systems. [View Now](learning-ojs/)
 
 ---
 
@@ -11,3 +11,7 @@ A visual, step-by-step guide to managing a journal with Open Journal Systems. [V
 - [Editorial Workflow](learning-ojs/en/editorial-workflow)
 - [Reviewing](learning-ojs/en/reviewing)
 - ... and [more](learning-ojs/en/).
+
+---
+
+<span class='fa fa-language'></span> Available in [Finnish](/learning-ojs/fi/).
