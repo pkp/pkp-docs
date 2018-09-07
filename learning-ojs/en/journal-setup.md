@@ -349,7 +349,7 @@ Use the Publisher Library to store important documents, such as your journal's M
 
 ### Emails
 
-The section allows you to configure the emails that are sent out from the system. 
+The section allows you to configure the emails that are sent out from the system.
 
 ![](./assets/learning-ojs3.1-jm-settings-workflow-emails.PNG)
 
@@ -378,7 +378,10 @@ Use **Description** to provide a brief description of your journal for search en
 Use **Custom Tags** to add custom HTML header tags to the header of every page of your journal \(e.g., META tags to temporarily block search engine indexing\).
 
 Use **Custom Tags** to add custom HTML header tags to the header of every page of your journal, which can help your site get indexed by search engines. Tags need to be added as HTML elements. If you simply enter words they will appear at the top of every page of your site instead of in the site's metadata. Here is an example of text that could be entered in this field:
+
+```
 <meta name="description" content="The Journal of Public Knowledge. Publication of the Public Knowledge Project - PKP and Simon Fraser University - SFU" /><meta name="keywords" content="open access, scholarly publishing, open source software, non-profit organizations, scholarly journals, free software" /><meta name="author" content="metatags generator"><meta name="robots" content="index, follow"><meta name="revisit-after" content="3 month">
+```
 
 ### Access
 
