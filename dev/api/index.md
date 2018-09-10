@@ -46,18 +46,18 @@ https://example.com/*/api/v1/contexts
 
 ## Authentication
 
-Only authenticated users can access the REST API endpoints. Authentication can be done with cookies or an API key.
+Only authenticated users can access the REST API endpoints. Authentication can be done with cookies or an API token.
 
 ### Cookies
 
 Cookie-based authentication can be used when you are making a request from the same domain name as the application. No special authentication is required. When a request is made from the user's browser, the browser will send the cookies to the server.
 
-### API Key
+### API Token
 
-Your API key can be found by going to **User Profile > API Key** in the application. Add a query parameter, `apiKey`, to any request to the API.
+Your API token can be found by going to **User Profile > API Key** in the application. Add a query parameter, `apiToken`, to any request to the API.
 
 ```
-https://example.com/api/v1/submissions?apiKey=eyJ0e...6vJU
+https://example.com/api/v1/submissions?apiToken=eyJ0e...6vJU
 ```
 
 ## Query Parameters

@@ -30,6 +30,15 @@ body,
 	line-height: 1.5em;
 }
 
+/** Override some book styles */
+.book .swagger-ui table {
+	border: inherit;
+
+	thead {
+		background: transparent;
+	}
+}
+
 /* Inline code bits */
 .swagger-ui .code,
 .swagger-ui code,
@@ -61,7 +70,7 @@ body,
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.5em;
-	color: #333;
+	color: $text;
 }
 
 /* Hide open api version number  */
@@ -121,6 +130,11 @@ body,
 	box-shadow: none;
 	border-bottom: 1px solid #eee;
 }
+.swagger-ui table thead tr td,
+.swagger-ui table thead tr th,
+.book .swagger-ui table.parameters thead {
+	border-bottom: 1px solid #eee;
+}
 
 /* Parameters table */
 .swagger-ui table.parameters th {
@@ -131,17 +145,50 @@ body,
 .swagger-ui .parameter__name {
 	font-family: monospace;
 	font-weight: 700;
-	color: #333;
+	color: $text;
 }
 .swagger-ui .parameter__type {
 	font-size: 14px;
 	font-weight: 400;
-	color: #333;
+	color: $text;
 }
 .swagger-ui .parameter__in {
 	font-style: normal;
 	font-weight: 400;
 	color: #777;
+}
+
+/** Response table */
+.swagger-ui .response-col_status {
+	font-size: 1.5rem;
+	font-family: Roboto, sans-serif;
+}
+.swagger-ui thead .response-col_status,
+.swagger-ui thead .response-col_description {
+	font-size: 0.9rem;
+	font-weight: 400;
+	font-family: Roboto, sans-serif;
+	color: $text-light;
+}
+.swagger-ui table tbody tr.response > td {
+  padding-top: 3rem;
+}
+.swagger-ui .response-col_description__inner div.markdown,
+.swagger-ui .response-col_description__inner div.renderedMarkdown,
+.swagger-ui .response-col_description__inner div.markdown p,
+.swagger-ui .response-col_description__inner div.renderedMarkdown p {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	color: $text;
+	font-size: 1rem;
+	font-family: Roboto, sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	font-style: normal;
+}
+.swagger-ui .response-content-type {
+	padding-top: 0;
 }
 
 /* Unused Response type selection */
@@ -171,4 +218,9 @@ body,
 	.information-container .info {
 		line-height: 1.5em;
 	}
+}
+
+/* Hide the validation status button until we fix the validation errors */
+img[alt="Online validator badge"] {
+	display: none;
 }
