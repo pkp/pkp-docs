@@ -172,3 +172,8 @@ body,
 		line-height: 1.5em;
 	}
 }
+
+/* Hide the validation status button until we fix the validation errors */
+img[alt="Online validator badge"] {
+	display: none;
+}
