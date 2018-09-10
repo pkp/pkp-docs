@@ -13,3 +13,9 @@ defaults:
       type: "pages"
     values:
       layout: "book"
+  -
+    scope:
+      path: "dev/api"
+      type: "pages"
+    values:
+      swaggerUiVersion: 3
