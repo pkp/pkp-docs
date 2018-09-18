@@ -4,7 +4,7 @@
 * [Managing the Server Environment](managing-the-environment.md)
   * [System Requirements and Installation](./managing-the-environment.md#system-requirements-and-installation)
   * [Upgrading](./managing-the-environment.md#upgrading)
-  * [Managing Installs via Git](./managing-the-environment.md#installing-and-managing-applications-via-Git)
+  * [Managing Installs via Git](./managing-the-environment.md#installing-and-managing-applications-via-git)
 * [Securing Your System](securing-your-system.md)
   * [Managing Spam](./securing-your-system.md#managing-spam)
 * [Data Import and Export](data-import-and-export.md)
