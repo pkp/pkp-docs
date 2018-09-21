@@ -123,7 +123,7 @@ When OJS or OMP loads a template, it searches in the following order.
 1. The current theme template directory.
 2. If a Parent theme is specified, the Parent theme's template directory.
 3. The OJS or OMP template directory.
-4. The lib/pkp/templates/ directory within the application.
+4. The `lib/pkp/templates/` directory within the application.
 
 To override a Parent Theme's template, copy that template file into the same location in the Child Theme.
 
