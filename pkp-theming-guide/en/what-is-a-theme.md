@@ -4,7 +4,7 @@ A theme controls the look and feel of your journal or press, including the color
 
 This guide assumes that you are familiar with writing and using [HTML](https://en.wikipedia.org/wiki/HTML) and [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) to build websites. The theming platform follows common practices for overriding templates and injecting CSS styles that you may be familiar with from other content management platforms, such as [WordPress](https://wordpress.org/) or [Drupal](https://www.drupal.org/). 
 
-If these are new concepts for you, you may find this section of the [Learning OJS 3](https://pkp.gitbooks.io/ojs3/content/en/website_settings.html) guide more useful.
+If these are new concepts for you, you may find this section of the [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#website-settings) guide more useful.
 
 ## Locating the Theme Plugins
 
