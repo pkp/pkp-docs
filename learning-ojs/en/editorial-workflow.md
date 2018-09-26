@@ -521,7 +521,7 @@ The Copyediting stage is now complete.
 
 ## Production
 
-With the completion of the Copyediting stage, the submission now moves to Production. From here, the copyedit files \(often Microsoft Word files\) will be converted to publishable formats \(e.g., PDF, HTML\) and proofread before publishing.
+With the completion of the Copyediting stage, the submission now moves to Production. From here, the copyedit files \(often Microsoft Word files\) will be converted to publishable formats in the form of galley files \(e.g., PDF, HTML\) and proofread before publishing.
 
 To start working in Production, the Section Editor must login to the system and choose the submission from her dashboard.
 
@@ -722,6 +722,8 @@ To inform the Editor, use the Production Discussion panel's _Add Discussion_ lin
 
 ### Scheduling for Publication
 
+Before you can schedule an article for publication, you have to create an issue. See the [Issues chapter](https://docs.pkp.sfu.ca/learning-ojs/en/issues).
+
 Upon receiving notification of the completed galleys, the editor logs into the submission record, and checks the uploaded galley files.
 
 If the galleys look ready, the editor can hit the blue **Schedule for Publication** action button.
@@ -736,6 +738,6 @@ Use this to add the submission to a future or back issue of the journal.
 
 You also have the option to add page numbers, permission, and licensing information.
 
-Hitting **Save** will publish the submission to the selected issue. If the issue is already published, the submission will be immediately available to readers.
+Hitting **Save** will publish the submission to the selected issue. If the issue is already published, the submission will be immediately available to readers. Otherwise the submission will not be published until the issue is published.
 
 Congratulations! You have now come to the end of the editorial workflow.
