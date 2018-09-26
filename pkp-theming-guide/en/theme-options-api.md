@@ -100,17 +100,26 @@ public function init() {
 }
 ```
 
-## getOptionsConfig()
+## getOptionConfig()
 Get the configuration settings for an existing option. This is useful alongside [modifyOptionsConfig()](#modifyoptionsconfig) to extend choices in a Parent Theme's option.
 
 ```php
 public function init() {
-    $this->getOptionsConfig('typography');
+    $typographyConfig = $this->getOptionConfig('typography');
+}
+```
+
+## getOptionsConfig()
+Get the configuration settings for all options in this theme and any parent.
+
+```php
+public function init() {
+    $allOptionsConfig = $this->getOptionsConfig();
 }
 ```
 
 ## isColourDark()
-Check the brightness of a hexidecimal color code (`#000000`). 
+Check the brightness of a hexidecimal color code (`#000000`).
 
 This is a helper function that is useful when using colour options in your theme. If a colour is used as a background, you may need to adjust the text on top of it when it is too dark or too light.
 
