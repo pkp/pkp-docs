@@ -45,9 +45,9 @@ You will also find `$currentJournal` and `$currentPress` variables for ease-of-u
 
 **`(string) $primaryLocale`** is the primary locale (language) the site is configured for. You'll find an array of supported locales at ` $supportedLocales`.
 
-** `(string|null) $disableUserReg`** is a flag which indicates whether or not users can self-register on the site.
+**`(string|null) $disableUserReg`** is a flag which indicates whether or not users can self-register on the site.
 
-** `(string) $dateFormatTrunc`**, ** `(string) $dateFormatShort`** and ** `(string) $dateFormatLong`** provide the date formats defined in your application's configuration. These can be invoked to reformat machine-readable dates (`2016-11-26`) in Smarty templates: `{$article->getDatePublished()|date_format:$dateFormatShort}`
+**`(string) $dateFormatTrunc`**, **`(string) $dateFormatShort`** and **`(string) $dateFormatLong`** provide the date formats defined in your application's configuration. These can be invoked to reformat machine-readable dates (`2016-11-26`) in Smarty templates: `{$article->getDatePublished()|date_format:$dateFormatShort}`
 
 ## Requests and Routing
 
