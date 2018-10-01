@@ -127,6 +127,33 @@ Some responses will include a `_href` property. The value of this property will 
 }
 ```
 
+## Upload Files
+
+All files are uploaded by sending a `POST` request to the `/temporaryFiles` endpoint. It then returns a file ID which can be used in subsequent requests. Let's look at an example.
+
+To upload a logo for a context (journal or press),  upload the image by sending a `POST` request to `/temporaryFiles`. A successful upload will generate the following response:
+
+```
+{
+	id: 123
+}
+```
+
+To save the logo to the context, send a `PUT` request to `/contexts/1`:
+
+```
+{
+	pageHeaderLogoImage: {
+		temporaryFileId: 123,
+		altText: "Logo for the Journal of Public Knowledge"
+	}
+}
+```
+
+The file will be moved from the temporary directory to its public location, overwriting any existing logo.
+
+Temporary files can only be managed by the **the user who uploaded the file**. If a user passes a `temporaryFileId` for a file they did not upload themselves, they will receive an authorization error.
+
 ## Compatibility and Maintenance
 
 The REST API is still under active development. The development path will follow our own needs as we refactor our UI to work with the API. Our goal is to eventually run the entire application through the API, so that all functionality is exposed to third-party applications.
