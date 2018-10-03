@@ -20,7 +20,7 @@ You can edit a user account by selecting the blue arrow to the left of an entry.
 
 This opens the options to Email, Edit User, Disable, Remove, Login As, Merge User.
 
-**Email** opens a window allowing you to quickly send a message to that user.
+**Email** opens a window allowing you to quickly send a message to that user. You cannot email multiple users at the same time except by using the Announcements feature.
 
 ![](./assets/learning-ojs-3-users-email.png)
 
@@ -70,7 +70,7 @@ Once you have added all of the roles, hit the **Save** button.
 
 Users in the system must have one or more roles.
 
-Roles define what a user can do within the system. An Author can make submissions and little else. An Editor can manage submissions, and a Journal Manager can configure the journal's settings.
+Roles define what a user can do within the system. An Author can make submissions and little else. An Editor can manage submissions, and a Journal Manager can configure the journal's settings. See [Chapter 3](https://docs.pkp.sfu.ca/learning-ojs/en/user-accounts#roles-in-ojs) for a list and description of every role.
 
 One user can have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
 
