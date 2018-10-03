@@ -175,13 +175,13 @@ If you are a member of a LOCKSS or CLOCKSS network, use this page to activate yo
 
 OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages on a single site or journal. When you install OJS, you can select one or more languages for your site. 
 
-Under Website Settings > Languages you can see a list of languages or locales installed on your site and configure how the languages are used. Additional languages can be installed on your site by an Administrator – see [Chapter 4](https://docs.pkp.sfu.ca/learning-ojs/en/site-administration) for details.
+Under Website Settings > Languages you can see a list of languages or locales installed on your site and configure how the languages are used in your journal. Additional languages can be installed on your site by an Administrator – see [Chapter 4](https://docs.pkp.sfu.ca/learning-ojs/en/site-administration) for details.
 
 ![](./assets/learning-ojs3.1-jm-settings-web-lang.PNG)
 
-**Primary Locale**: One language must be set as the primary locale, which means it is the language that it appears in by default
+**Primary Locale**: One language must be set as the primary locale, which means the language the journal appears in by default
 
-**UI**: If you want the site’s interface to be available in other languages, select them here
+**UI**: If you want the journal’s interface to be available in other languages, select them here
 
 **Submission**: If you want authors to be able to make submissions in other languages, select them here
 
