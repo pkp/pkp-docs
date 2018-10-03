@@ -2,11 +2,11 @@
 
 Open Journal Systems offers a variety of tools and plugins which allow you to inject data into and extract data from OJS. This chapter explains how to use import and export tools and plugins. More information can be found in each plugin's documentation within OJS' plugin directory \(plugins/\).
 
-Most import and export functions can be carried out by logging in as Journal Manager and going to `Tools &gt; Import/Export`.
+Most import and export functions can be carried out by logging in as Journal Manager and going to Tools &gt; Import/Export.
 
 ![](./assets/import-export.png)
 
-However, in some cases import/export plugins need to be installed or enabled first under `Settings &gt; Website &gt; Plugins`. How to access and use specific plugins and functions are explained in the sections below.
+However, in some cases import/export plugins need to be installed or enabled first under Settings &gt; Website &gt; Plugins. How to access and use specific plugins and functions are explained in the sections below.
 
 ![](./assets/plugins.png)
 
@@ -38,7 +38,7 @@ First, ensure that the Quick Submit Plugin has been installed and enabled for yo
 
 1. Go to Settings &gt; Website &gt; Plugins
 2. Under Installed Plugins, look for the Quick Submit Plugin.  If you see it listed, skip to step 8.
-3. If you do not see the Quick Submit Plugin under Installed Plugins, go to the Plugin Gallery tab.  
+3. If you do not see the Quick Submit Plugin under Installed Plugins, go to the Plugin Gallery tab.
 4. Click on Quick Submit.  A popup box will open.
 5. Click on Install.  If you do not see the Install button, you will need to ask the Administrator of your site to install the plugin for you.
 6. A popup box will open and ask “Are you sure you wish to install this plugin?”  Click OK and wait a few minutes while the installation completes.
@@ -63,7 +63,7 @@ Next you can import each article with the Plugin.
 2. Upload a cover image if you have one.  This field is optional and can be ignored.
 3. Choose the section of the journal that the article will appear in from the drop-down list in the Section field.
 4. Enter the metadata for the article in the other fields.
-5. Under List of Contributors, click Add Contributor to enter the names of authors and other contributors to the article.   
+5. Under List of Contributors, click Add Contributor to enter the names of authors and other contributors to the article.
 6. Under Galleys, click Add Galley to upload a PDF file of the article.  A popup box will open where you can enter the Galley Label and language of the galley.  Once you click Save, another box will open where you can select the Article Component and upload the file.
 7. At the end of the Quick Submit Plugin form, you can select whether you want the article you are adding to be published immediately or unpublished, if you wish to publish it later.
 8. When you have finished entering all data for the article, click Save.
@@ -84,10 +84,10 @@ To use this plugin you will need the following:
 
 If you are importing data, first create the XML import file.  Here are links to sample XML import files and XML schemas:
 
-* Sample XML file for article metadata: https://github.com/pkp/ojs/blob/master/plugins/importexport/native/sample.xml
-* Sample XML file for issue metadata: https://github.com/pkp/ojs/blob/master/tests/data/60-content/issue.xml
-* XML schema for use across PKP software applications: https://github.com/pkp/pkp-lib/blob/master/plugins/importexport/native/pkp-native.xsd
-* XML schema for use in OJS: https://github.com/pkp/ojs/blob/master/plugins/importexport/native/native.xsd
+* Sample XML file for article metadata: [https://github.com/pkp/ojs/blob/master/plugins/importexport/native/sample.xml](https://github.com/pkp/ojs/blob/master/plugins/importexport/native/sample.xml)
+* Sample XML file for issue metadata: [https://github.com/pkp/ojs/blob/master/tests/data/60-content/issue.xml](https://github.com/pkp/ojs/blob/master/tests/data/60-content/issue.xml)
+* XML schema for use across PKP software applications: [https://github.com/pkp/pkp-lib/blob/master/plugins/importexport/native/pkp-native.xsd](https://github.com/pkp/pkp-lib/blob/master/plugins/importexport/native/pkp-native.xsd)
+* XML schema for use in OJS: [https://github.com/pkp/ojs/blob/master/plugins/importexport/native/native.xsd](https://github.com/pkp/ojs/blob/master/plugins/importexport/native/native.xsd)
 
 \* Please note that the XML format used by the Native XML Plugin for OJS 3 is different from the XML format for the Articles and Issues XML Plugin used in OJS 2.  If you export data from OJS 2 and want to import it into OJS 3, you will have to edit the XML file first. Also note that the schema is revised periodically; if exporting from one version of OJS and importing into a different version, you may need to adjust the XML slightly to account for these changes.
 
@@ -121,7 +121,7 @@ To export article and issue metadata using the Native XML Plugin:
 1. Login to OJS as Journal Manager
 2. Go to Tools &gt; Import/Export &gt; Native XML Plugin
 3. Depending on whether you are exporting article or issue metadata, go to the Export Articles or Export Issues tab
-4. Select the articles or issues you wish to export by checking the box beside them.  
+4. Select the articles or issues you wish to export by checking the box beside them.
 5. Click Export
 6. The articles or issues will be exported in XML format, and can be imported to this or another journal
 
@@ -143,7 +143,7 @@ To use this plugin you will need the following:
 * A basic understanding of XML
 * To be enrolled as a Journal Manager in the OJS journal
 
-If you are importing users into OJS, first create the XML import file.  Here is a sample XML import file: https://github.com/pkp/ojs/blob/master/plugins/importexport/users/sample.xml
+If you are importing users into OJS, first create the XML import file.  Here is a sample XML import file: [https://github.com/pkp/ojs/blob/master/plugins/importexport/users/sample.xml](https://github.com/pkp/ojs/blob/master/plugins/importexport/users/sample.xml)
 
 \* Please note that the XML format used by the Users XML Plugin in OJS 3 is different from the XML format used by the Plugin in OJS 2.  If you export data from OJS 2 and want to import it into OJS 3, you will have to edit the XML file first.
 
@@ -173,7 +173,7 @@ To export user accounts using the Users XML Plugin:
 
 1. Login to OJS as Journal Manager
 2. Go to Tools &gt; Import/Export &gt; Users XML Plugin
-3. Select the user accounts you wish to export by checking the box beside them.  
+3. Select the user accounts you wish to export by checking the box beside them.
 4. Click Export Users
 5. The user accounts will be exported in XML format, and can be imported to this or another journal
 
@@ -185,11 +185,11 @@ OJS has plugins that allow you to export article metadata to external sites and 
 
 ### PubMed XML Export Plugin
 
-The PubMed XML Export Plugin allows you to export article metadata as an XML file in NLM PubMed/MEDLINE format.  For more information about the Plugin, see its README file: https://github.com/pkp/ojs/tree/master/plugins/importexport/pubmed  
+The PubMed XML Export Plugin allows you to export article metadata as an XML file in NLM PubMed/MEDLINE format.  For more information about the Plugin, see its README file: [https://github.com/pkp/ojs/tree/master/plugins/importexport/pubmed](https://github.com/pkp/ojs/tree/master/plugins/importexport/pubmed)
 
 ### DataCite Export/Registration Plugin
 
-The DataCite Export/Registration Plugin allows you to export issue, article, galley, and supplementary file metadata in DataCite format and register DOIs with DataCite.  For more information about the Plugin, see its README file: https://github.com/pkp/ojs/blob/master/plugins/importexport/datacite/README
+The DataCite Export/Registration Plugin allows you to export issue, article, galley, and supplementary file metadata in DataCite format and register DOIs with DataCite.  For more information about the Plugin, see its README file: [https://github.com/pkp/ojs/blob/master/plugins/importexport/datacite/README](https://github.com/pkp/ojs/blob/master/plugins/importexport/datacite/README)
 
 ### DOAJ Export Plugin
 
@@ -215,11 +215,11 @@ To manually export article metadata to DOAJ:
 
 ### CrossRef XML Export Plugin
 
-The CrossRef XML Export Plugin allows you to automatically and manually export article metadata in CrossRef XML format for deposit with CrossRef.  For information about how to use this plugin, see the CrossRef OJS Manual: http://docs.pkp.sfu.ca/crossref-ojs-manual/
+The CrossRef XML Export Plugin allows you to automatically and manually export article metadata in CrossRef XML format for deposit with CrossRef.  For information about how to use this plugin, see the CrossRef OJS Manual: [http://docs.pkp.sfu.ca/crossref-ojs-manual/](http://docs.pkp.sfu.ca/crossref-ojs-manual/)
 
 ### mEDRA Export/Registration Plugin
 
-The mEDRA Export/Registration Plugin allows you to export issue, article, and galley metadata in Onix for DOI \(O4DOI\) format and register DOIs with the mEDRA registration agency.  For information about how to use the plugin, see its README file: https://github.com/pkp/ojs/blob/master/plugins/importexport/medra/README  
+The mEDRA Export/Registration Plugin allows you to export issue, article, and galley metadata in Onix for DOI \(O4DOI\) format and register DOIs with the mEDRA registration agency.  For information about how to use the plugin, see its README file: [https://github.com/pkp/ojs/blob/master/plugins/importexport/medra/README](https://github.com/pkp/ojs/blob/master/plugins/importexport/medra/README)
 
 ## Use import/export plugins from the command line
 
@@ -232,15 +232,15 @@ php tools/importExport.php list
 You can see usage parameters by running the following command:
 
 ```
-php tools/importExport.php \[PluginName\] usage  
+php tools/importExport.php \[PluginName\] usage
 ```
 
 ## Troubleshoot importing and exporting
 
 > _"I imported my XML file and I’m getting an error message."_
 
-Did you validate your XML file before importing it?  If you did not, run it through a validator in your XML editor or browser and the validator will indicate what is wrong with the file.  
+Did you validate your XML file before importing it?  If you did not, run it through a validator in your XML editor or browser and the validator will indicate what is wrong with the file.
 
 > _"When I click on the Export button I get a blank page instead of a list of data to export."_
 
-You should check the error\_log file to find what went wrong exactly.  
+You should check the error\_log file to find what went wrong exactly.
