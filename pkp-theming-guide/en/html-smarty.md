@@ -64,7 +64,7 @@ Some of the data passed to templates allow you to access object settings. You wi
 <p>Welcome to {$currentContext->getLocalizedName()}</p>
 ```
 
-Some of the data is specific to certain templates. Tthe `/frontend/pages/article.tpl` template receives an `$article` variable which can be used to access data about that article.
+Some of the data is specific to certain templates. The `/frontend/pages/article.tpl` template receives an `$article` variable which can be used to access data about that article.
 
 ```html
 <h1 class="article-title">{$article->getLocalizedTitle()}</h1>
