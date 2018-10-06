@@ -238,7 +238,7 @@ Click on the linked discussion to open it, read the message, and open the attach
 
 ![](./assets/learning-ojs-3-au-copyedits-message.png)
 
-Once you have read the attached file, you can respond to the copyeditor indicating an required changes or your approval.
+Once you have read the attached file, you can respond to the copyeditor indicating any required changes or your approval.
 
 ![](./assets/learning-ojs-3-au-copyedits-reply.png)
 
