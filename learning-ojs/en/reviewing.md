@@ -62,7 +62,7 @@ Finally, hit the Submit Review button to complete your task. You’ll be asked t
 
 ![](./assets/learning-ojs-3-rev-step3-2.png)
 
-Hit OK. You will be taken the final confirmation screen thanking you for your work.
+Hit OK. You will be taken to the final confirmation screen thanking you for your work.
 
 ![](./assets/learning-ojs-3-rev-step4.png)
 
