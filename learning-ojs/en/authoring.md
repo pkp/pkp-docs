@@ -214,7 +214,7 @@ If the editor’s decision is to resubmit for review, you will need to log in an
 
 At the review stage you will need to do two things to resubmit once you have revised your document:
 
-Upload the new file in the revisions section. To upload a new file click on ‘Upload file.’ A new window will open allowing you to upload your file(s). Select the appropriate option from the dropdown menu to indicate you not submitting a revision of an existing file.
+Upload the new file in the revisions section. To upload a new file click on ‘Upload file.’ A new window will open allowing you to upload your file(s). Select the appropriate option from the dropdown menu to indicate you are submitting a revision of an existing file.
 
 Add a discussion to notify the editor that you have re-submitted.
 
@@ -238,7 +238,7 @@ Click on the linked discussion to open it, read the message, and open the attach
 
 ![](./assets/learning-ojs-3-au-copyedits-message.png)
 
-Once you have read the attached file, you can respond to the copyeditor indicating an required changes or your approval.
+Once you have read the attached file, you can respond to the copyeditor indicating any required changes or your approval.
 
 ![](./assets/learning-ojs-3-au-copyedits-reply.png)
 

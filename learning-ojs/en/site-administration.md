@@ -14,7 +14,7 @@ To get to Site Management, login as the Site Administrator, and choose Administr
 
 ### Hosted Journals
 
-From here, choose Hosted Journals. One the resulting page, you will see all of the journals in this OJS installation. In the example, below, there is only one.
+From here, choose Hosted Journals. On the resulting page, you will see all of the journals in this OJS installation. In the example, below, there is only one.
 
 ![](./assets/learning-ojs3.1-sa-hosted-journals.PNG)
 
