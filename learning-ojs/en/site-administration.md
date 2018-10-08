@@ -58,9 +58,20 @@ You will have the opportunity to provide details about your individual journal\(
 
 #### Languages
 
-OJS is a multilingual system and you can add additional languages to your site here, making them available to all of the journals on your installation.
+OJS is designed to be a multilingual system, allowing journals supporting a wide variety of languages to be hosted under a single site. When you install OJS, you can select one or more languages for your site. 
+
+The Site Administrator can set the default language of the site and install additional locales to make other languages available for use by journals. Journal Managers can then manage their own language settings under Website Settings > Languages. See [Chapter 5](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#website-settings) for details.  
+
+Under Administration > Site Settings > Languages you can see a list of languages that are installed on your site, enable languages, and set any language as the Default Locale, which means it is the language that users will first see when first visiting the site.
 
 ![](./assets/learning-ojs3.1-sa-languages.PNG)
+
+To add another language:
+1. Click Install Locale
+2. Check off the locales you would like to install
+3. Click Save
+
+After installing the new locale, you will have to enable it on the Site Settings > Languages page.  Further configuration of the language’s availability on the site can be done under Website Settings > Languages by a Journal Manager. See [Chapter 5](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#website-settings) for details.
 
 OJS 3.1 doesn't yet have as many translations as OJS 2, but we expect to have more contributed over time. Contributions are always welcome.
 
