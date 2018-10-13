@@ -553,7 +553,7 @@ You can now wait for the Layout Editor to complete his tasks.
 
 ### Layout Editing
 
-As the Layout Editor, you will have received a message inviting you to create the galleys for the submission.
+As a Layout Editor, you will have received a message inviting you to create the galleys for the submission.
 
 To get started, login to the system and go to your dashboard.
 
