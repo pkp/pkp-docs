@@ -80,7 +80,7 @@ From here, you can change the name or abbreviation of the section.
 
 **Indexing**: Each section can have different indexing settings. For example, an Editorial section will not typically be peer-reviewed.
 
-**Identify items published in this section as a\(n\)**: This used by some indexing systems. Note that it is not a required field.
+**Identify items published in this section as a\(n\)**: This is used by some indexing systems. Note that it is not a required field.
 
 **Section Editors**: If you have editors enrolled in your journal, you will see them listed here and can assign one of them to the section. This means any submissions made to the section are automatically assigned to the editor, saving you from manually assigning an editor.
 
