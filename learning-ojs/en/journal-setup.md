@@ -119,15 +119,15 @@ The Website Settings allow you to configure how your journal's website looks and
 **Theme**: The theme determines the overall design or layout of your site. Several different theme options are available and you can try them out without affecting your site's content or configuration.
 
 First you can ensure that all available themes have been enabled on your site.
-1. Go to the Plugins tab under Website Settings
-2. Scroll to the bottom and find Theme Plugins
-3. Check the box next to each plugin to enable it
+1. Go to the Plugins tab under Website Settings.
+2. Scroll to the bottom and find Theme Plugins.
+3. Check the box next to each plugin to enable it.
 
 You can also look for additional themes in the Plugin Gallery and install and enable those.
 
 Now that you have all available themes, return to the Appearance tab to try out different themes.
 1. Under Theme you will see a drop-down list of themes. Select one.
-2. Scroll to the bottom of the page and click Save
+2. Scroll to the bottom of the page and click Save.
 3. The theme may have additional sub-themes or configuration options available. To make these appear, refresh the page in your browser.
 4. If you select a different sub-theme or change the colour scheme or other design features, click Save at the bottom of the page again.
 5. Open your site's home page in a new tab or window of your browser to see how the site looks with the new theme or sub-theme and with different configuration options.
