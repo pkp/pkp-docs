@@ -76,7 +76,7 @@ From here, you can change the name or abbreviation of the section.
 
 **Word Count**: Use this to limit the number of words for abstracts in this section.
 
-**Review Form**: You can select specific review forms for each section. Learn more about Review Forms here.
+**Review Form**: You can select specific review forms for each section. Learn more about Review Forms [here](./editorial-workflow.md#review).
 
 **Indexing**: Each section can have different indexing settings. For example, an Editorial section will not typically be peer-reviewed.
 
