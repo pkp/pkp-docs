@@ -2,20 +2,20 @@
 
 A small API exists for adding theme options. These options allow you to offer theme-specific configuration and typically entail color and font selections.
 
-The API is new and still maturing. This documentation covers what's in place now so that you can take advantage of it in your own themes.
-
 ## addOption()
-Add a new theme option. Supports option types of `text` (a small text field), `colour` (a color selector) and `radio` (choose from a list of options).
+Add a new theme option. Supports any of the `Field` classes except for the file upload fields.
 
-Example color option.
+(TODO: Add a link to documentation on the form field classes.)
+
+Example color picker.
 
 ```php
 public function init() {
-	$this->addOption('baseColour', 'colour', array(
-		'label' => 'plugins.themes.default.option.colour.label',
-		'description' => 'plugins.themes.default.option.colour.description',
+	$this->addOption('baseColor', 'FieldColor', [
+		'label' => __('plugins.themes.default.option.colour.label'),
+		'description' => __('plugins.themes.default.option.colour.description'),
 		'default' => '#1E6292',
-	));
+	]);
 }
 ```
 
@@ -23,49 +23,31 @@ Example dropdown list of typography options.
 
 ```php
 public function init() {
-	$this->addOption('typography', 'radio', array(
-		'label' => 'plugins.themes.default.option.typography.label',
-		'description' => 'plugins.themes.default.option.typography.description',
-		'options' => array(
-			'notoSans' => 'plugins.themes.default.option.typography.notoSans',
-			'notoSerif' => 'plugins.themes.default.option.typography.notoSerif',
-			'notoSerif_notoSans' => 'plugins.themes.default.option.typography.notoSerif_notoSans',
-			'notoSans_notoSerif' => 'plugins.themes.default.option.typography.notoSans_notoSerif',
-			'lato' => 'plugins.themes.default.option.typography.lato',
-			'lora' => 'plugins.themes.default.option.typography.lora',
-			'lora_openSans' => 'plugins.themes.default.option.typography.lora_openSans',
-		)
-	));
+	$this->addOption('typography', 'FieldOptions', [
+		'type' => 'radio',
+		'label' => __('plugins.themes.default.option.typography.label'),
+		'description' => __('plugins.themes.default.option.typography.description'),
+		'options' => [
+			[
+				'value' => 'notoSans',
+				'label' => __('plugins.themes.default.option.typography.notoSans'),
+			],
+			[
+				'value' => 'notoSerif',
+				'label' => __('plugins.themes.default.option.typography.notoSerif'),
+			],
+		],
+		'default' => 'notoSans',
+	]);
 }
 ```
-
-## modifyOptionsConfig()
-Modify the settings of an option that's already been added, such as a Parent Theme's option. Pass the name of the option and a new array of options arguments.
-
-Example modifying the `typography` option in the previous example.
-
-```php
-public function init() {
-	$this->modifyOptionsConfig('typography', 'radio', array(
-		'label' => 'plugins.themes.default.option.typography.label',
-		'description' => 'plugins.themes.default.option.typography.description',
-        // New options. These replace the existing options.
-		'options' => array(
-			'montserratNotoSerif' => 'plugins.themes.default-child.option.typography.montserratNotoSerif',
-			'montserratNotoSans' => 'plugins.themes.default-child.option.typography.montserratNotoSans',
-        )
-	));
-}
-```
-
-See also [getOptionsConfig()](#getoptionsconfig).
 
 ## removeOption()
 Remove an option that's already been added, such as a Parent Theme's option.
 
 ```php
 public function init() {
-    $this->removeOption( 'typography' );
+    $this->removeOption('typography');
 }
 ```
 
@@ -76,7 +58,7 @@ Example modifying a `LESS` variable based on a color option.
 
 ```php
 public function init() {
-	$this->modifyStyle('stylesheet', array('addLessVariables' => '@bg-base:' . $this->getOption('baseColour') . ';'));
+	$this->modifyStyle('stylesheet', array('addLessVariables' => '@bg-base:' . $this->getOption('baseColor') . ';'));
 }
 ```
 
@@ -101,7 +83,7 @@ public function init() {
 ```
 
 ## getOptionConfig()
-Get the configuration settings for an existing option. This is useful alongside [modifyOptionsConfig()](#modifyoptionsconfig) to extend choices in a Parent Theme's option.
+Get the configuration settings for an existing option. This is useful to modify or extend choices in a Parent Theme's option.
 
 ```php
 public function init() {

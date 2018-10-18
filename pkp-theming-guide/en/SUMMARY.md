@@ -15,3 +15,4 @@
    * [Bootstrap3 Theme](theme-bootstrap3.md)
 * Advanced Techniques
    * [Passing Data to Templates](advanced-custom-data.md)
+* [Changelog](changelog.md)
