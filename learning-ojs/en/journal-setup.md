@@ -354,7 +354,7 @@ Once you send the form to a reviewer you will no longer be able to edit it becau
 
 **Review Guidelines** Provide your reviewers with criteria for judging a submission's suitability for publication in the press, which may include instructions for preparing an effective and helpful review.
 
-**Review Options**: Select whether your journal will follow an double blind, blind, or open review process.
+**Review Options**: Select whether your journal will follow a double blind, blind, or open review process.
 
 **Reviewer Access**: Enable the first option to provide reviewers with one-click access to the review, by-passing the need to go to the website, login, and find the submission. For security reasons with this option, editors are not able to modify email addresses or add CCs or BCCs prior to sending invitations to reviewers.
 
@@ -395,8 +395,6 @@ This section helps you enhance your search engine optimization.
 ![](./assets/learning-ojs3.1-jm-settings-dist-index.PNG)
 
 Use **Description** to provide a brief description of your journal for search engines.
-
-Use **Custom Tags** to add custom HTML header tags to the header of every page of your journal \(e.g., META tags to temporarily block search engine indexing\).
 
 Use **Custom Tags** to add custom HTML header tags to the header of every page of your journal, which can help your site get indexed by search engines. Tags need to be added as HTML elements. If you simply enter words they will appear at the top of every page of your site instead of in the site's metadata. Here is an example of text that could be entered in this field:
 
