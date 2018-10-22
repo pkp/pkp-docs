@@ -76,11 +76,11 @@ From here, you can change the name or abbreviation of the section.
 
 **Word Count**: Use this to limit the number of words for abstracts in this section.
 
-**Review Form**: You can select specific review forms for each section. Learn more about Review Forms here.
+**Review Form**: You can select specific review forms for each section. Learn more about Review Forms [here](./editorial-workflow.md#review).
 
 **Indexing**: Each section can have different indexing settings. For example, an Editorial section will not typically be peer-reviewed.
 
-**Identify items published in this section as a\(n\)**: This used by some indexing systems. Note that it is not a required field.
+**Identify items published in this section as a\(n\)**: This is used by some indexing systems. Note that it is not a required field.
 
 **Section Editors**: If you have editors enrolled in your journal, you will see them listed here and can assign one of them to the section. This means any submissions made to the section are automatically assigned to the editor, saving you from manually assigning an editor.
 
@@ -119,15 +119,15 @@ The Website Settings allow you to configure how your journal's website looks and
 **Theme**: The theme determines the overall design or layout of your site. Several different theme options are available and you can try them out without affecting your site's content or configuration.
 
 First you can ensure that all available themes have been enabled on your site.
-1. Go to the Plugins tab under Website Settings
-2. Scroll to the bottom and find Theme Plugins
-3. Check the box next to each plugin to enable it
+1. Go to the Plugins tab under Website Settings.
+2. Scroll to the bottom and find Theme Plugins.
+3. Check the box next to each plugin to enable it.
 
 You can also look for additional themes in the Plugin Gallery and install and enable those.
 
 Now that you have all available themes, return to the Appearance tab to try out different themes.
 1. Under Theme you will see a drop-down list of themes. Select one.
-2. Scroll to the bottom of the page and click Save
+2. Scroll to the bottom of the page and click Save.
 3. The theme may have additional sub-themes or configuration options available. To make these appear, refresh the page in your browser.
 4. If you select a different sub-theme or change the colour scheme or other design features, click Save at the bottom of the page again.
 5. Open your site's home page in a new tab or window of your browser to see how the site looks with the new theme or sub-theme and with different configuration options.
@@ -354,7 +354,7 @@ Once you send the form to a reviewer you will no longer be able to edit it becau
 
 **Review Guidelines** Provide your reviewers with criteria for judging a submission's suitability for publication in the press, which may include instructions for preparing an effective and helpful review.
 
-**Review Options**: Select whether your journal will follow an double blind, blind, or open review process.
+**Review Options**: Select whether your journal will follow a double blind, blind, or open review process.
 
 **Reviewer Access**: Enable the first option to provide reviewers with one-click access to the review, by-passing the need to go to the website, login, and find the submission. For security reasons with this option, editors are not able to modify email addresses or add CCs or BCCs prior to sending invitations to reviewers.
 
@@ -395,8 +395,6 @@ This section helps you enhance your search engine optimization.
 ![](./assets/learning-ojs3.1-jm-settings-dist-index.PNG)
 
 Use **Description** to provide a brief description of your journal for search engines.
-
-Use **Custom Tags** to add custom HTML header tags to the header of every page of your journal \(e.g., META tags to temporarily block search engine indexing\).
 
 Use **Custom Tags** to add custom HTML header tags to the header of every page of your journal, which can help your site get indexed by search engines. Tags need to be added as HTML elements. If you simply enter words they will appear at the top of every page of your site instead of in the site's metadata. Here is an example of text that could be entered in this field:
 

@@ -553,7 +553,7 @@ You can now wait for the Layout Editor to complete his tasks.
 
 ### Layout Editing
 
-As the Layout Editor, you will have received a message inviting you to create the galleys for the submission.
+As a Layout Editor, you will have received a message inviting you to create the galleys for the submission.
 
 To get started, login to the system and go to your dashboard.
 
@@ -672,7 +672,7 @@ Once the author has had a chance to review the galleys and respond, you will rec
 
 ### Add Galleys
 
-Now that the Author has proofread the galleys, you can make any final changes, an then upload them to the Galleys panel.
+Now that the Author has proofread the galleys, you can make any final changes, and then upload them to the Galleys panel.
 
 ![](./assets/learning-ojs-3-au-production-galleys.png)
 
