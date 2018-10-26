@@ -138,7 +138,7 @@ Language packs are available in tar.gz archive format, and can be
 installed by following these steps (You will require software such as
 7-Zip to decompress the downloaded file):
 
--   Entar the archive to your OJS or OCS root directory on the server:
+-   Enter the archive to your OJS or OCS root directory on the server:
     this will place the translated locale files into the appropriate
     directories;
 -   Add the locale to `registry/locales.xml` using the following syntax:
