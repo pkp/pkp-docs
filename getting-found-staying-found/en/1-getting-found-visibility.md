@@ -49,7 +49,6 @@ For the final published version of an article (i.e., a PDF galley), you may also
 
 ### Digital Object Identifiers (DOIs)
 The Digital Object Identifier or DOI is used to individually identify unique content. They are typically applied to journal articles, but can be used for other content types such as datasets, images, or other supplementary materials added alongside articles. DOIs are what are called “persistent identifiers” -- so even if the URL (Uniform Resource Locator - in other words, a website link) for a journal changes, the DOI remains the same and can be used to link to an article. DOIs are becoming increasingly common and their use is seen as an indicator of the professionalism of the journal, so it is important to take them seriously.
-You will want to not only apply DOIs to the articles you publish, but also add them to the reference lists of your articles. This can be time-consuming, but is another important sign of the seriousness of your publishing.
 
 #### The anatomy of a DOI
 A DOI consists of a series of characters divided into two parts -- a prefix and a suffix, which are separated by a slash. The prefix uniquely identifies the registrant (i.e. the publisher) of the title, and the suffix identifies the specific object. So, for example:
@@ -58,7 +57,7 @@ For, example, this article: [“Health Care Professionals’ Opinions and Expect
 
 The DOI in this case is  10.4212/cjhp.v69i6.1606
 
-The “10.” part of the prefix identifies the DOI registry - the agency that issues the DOI numbers, in this example, Crossref. The characters “4212” in the prefix identify the registrant - in this case, the publisher, Multimed. And the cjhp.v69i6.1606, the suffix, consists of several different parts, meant to distinguish the particular content:
+The “10.” part of the prefix identifies the DOI registry - the agency that issues the DOI numbers, in this example, Crossref. The characters “4212” in the prefix identify the registrant - in this case, the publisher: Multimed. And the cjhp.v69i6.1606, the suffix, consists of several different parts, meant to distinguish the particular content:
 
 “cjhp” --  is an abbreviation for the journal -- The Canadian Journal of Hospital Pharmacy. This is a common feature of DOIs, where a journal will opt to be identified in a DOI by a standardized journal abbreviation. Multimed publishes multiple journals, and this helps to identify to which of its titles this article belongs.
 
@@ -69,15 +68,15 @@ DOIs are capable of identifying a journal, an individual issue or volume of a jo
 You may often see DOIs communicated as URLs: “https://dx.doi.org/10.4212/cjhp.v69i6.1606”. This method can be used to obtain any article that has a DOI, by indicating the DOI following the “dx.doi.org”.
 
 #### Setting up DOIs in OJS
-Journals publishing with OJS will find it very easy to work with DOIs. However, some initial setup steps are required. First, you will need to register with [Crossref] (https://www.crossref.org/membership/), which does require an annual fee. Further integration regarding OJS’ integration with Crossref can be found in the [Crossref manual](http://docs.pkp.sfu.ca/crossref/). You will then need to enable the DOI plugin within the OJS Journal Settings. Using [DOIs and the DOI plugin](http://docs.pkp.sfu.ca/dois/) provides you with the detailed steps you need to follow to configure DOIs for OJS.
+Journals publishing with OJS will find it very easy to work with DOIs. However, some initial setup steps are required. First, you will need to register with [Crossref](https://www.crossref.org/membership/), which does require an annual fee. Further integration regarding OJS’ integration with Crossref can be found in the [Crossref manual](http://docs.pkp.sfu.ca/crossref/). You will then need to enable the DOI plugin within the OJS Journal Settings. Using [DOIs and the DOI plugin](http://docs.pkp.sfu.ca/dois/) provides you with the detailed steps you need to follow to configure DOIs for OJS.
 
 #### Registering your DOIs in OJS
 
 Once you have joined Crossref and configured OJS to use DOIs, you will need to register your content as it is published. Again, OJS can help you with this, and the steps are outlined in the [Crossref manual]((http://docs.pkp.sfu.ca/crossref/).
 
-Open Researcher and Contributor ID (ORCID)
+### Open Researcher and Contributor ID (ORCID)
 
-The Open Research and Contributor ID (ORCID) is a persistent digital identifier that distinguishes one researcher or contributor from another, and is being increasingly adopted in workflows for grant and publication submission. The ORCID also serves as a means of ensuring that a researcher is accurately identified as a contributor for a particular work. This is particularly useful when authors have commonly used names (e.g., John Smith). The ORCID also ensures that works are properly attributed to authors who have undergone a legal name change.
+The Open Research and Contributor ID (ORCID) is a persistent digital identifier that distinguishes one researcher or contributor from another, and is being increasingly adopted in workflows for grant and publication submission. The ORCID also serves as a means of ensuring that a researcher is accurately identified as a contributor for a particular work. This is particularly useful when authors have the same names. ORCID also ensures that works are properly attributed to authors who have undergone a legal name change.
 
 An ORCID can be obtained by any researcher by [registering on the ORCID website](https://orcid.org/register). Registering for an ORCID is free, and filling out a basic profile takes just a few minutes.
 
@@ -97,9 +96,9 @@ Journal managers can encourage the use of ORCIDs by authors as a means of effect
 
 For journals using OJS, the ORCID can be entered as part of a user profile (under “Public” in OJS 3):
 
-![OJS ORCID profile](assets/chapter1/ojs-profile-orcid.png)
+![OJS ORCID profile](assets/chapter1/ojs3-profile-orcid.png)
 
-The OJS registration page can also include the option for new users to use their ORCID when registering.
+The OJS registration page can also include the option for new users to use their ORCID when registering:
 
 ![OJS ORCID registration](assets/chapter1/ojs3-orcid-registration.png)
 
@@ -107,5 +106,5 @@ The OJS registration page can also include the option for new users to use their
 This will automatically pull their personal data (first name, last name, email, etc.) from the ORCID database into the OJS registration form.
 
 
-Further Reading:
-Library Publishing Coalition(LPC) Webinar Series: [ORCID in Publishing Workflows]: (https://www.youtube.com/watch?v=9A3sk13C7QM)
+#### Further Reading:
+Library Publishing Coalition(LPC) Webinar Series: [ORCID in Publishing Workflows](https://www.youtube.com/watch?v=9A3sk13C7QM)
