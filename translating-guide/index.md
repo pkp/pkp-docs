@@ -3,6 +3,7 @@ isBookIndex: true
 ---
 # PKP Translating Guide
 
+- [Arabic](ar/)
 - [English](en/)
 
 PKP software includes popular applications like Open Journal Systems, Open Monograph Press, and Open Conference Systems. These applications can use multiple languages for interfaces, emails to users, etc. Open Journal Systems in particular has been translated to many languages. Some of these translations are not complete, and the applications get updated constantly.
