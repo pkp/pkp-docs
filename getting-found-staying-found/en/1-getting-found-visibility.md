@@ -108,3 +108,8 @@ This will automatically pull their personal data (first name, last name, email, 
 
 #### Further Reading:
 Library Publishing Coalition(LPC) Webinar Series: [ORCID in Publishing Workflows](https://www.youtube.com/watch?v=9A3sk13C7QM)
+
+
+### Metadata
+
+Coming later.
