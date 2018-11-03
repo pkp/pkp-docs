@@ -1,5 +1,4 @@
-#Getting Found: Building Visibility
-
+# Getting Found: Building Visibility
 
 The success of your journal depends on developing a
 regular readership, who will become part of your scholarly
@@ -10,7 +9,8 @@ This section examines a variety of ways to increase the “findability‟ of you
 through the use of commercial indexes, open databases,
 libraries, the media, professional networks, and professional recognition.
 
-##Journal Standards and Identifiers
+## Journal Standards and Identifiers
+
 By Roger Gillis
 
 There are several different standards and identifiers
@@ -23,7 +23,7 @@ ones: ISSN (International Standard Serial Number), Digital Object Identifier (DO
 and ORCID (Open Researcher and Contributor ID).
 
 
-###ISSNs
+### ISSNs
 
 An important way of helping people find your journal,
 and helping libraries and other organizations to make it discoverable, is to obtain an
