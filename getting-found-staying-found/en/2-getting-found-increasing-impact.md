@@ -32,4 +32,120 @@ In advising authors about such services, it is important to be aware of the term
 For example:
 [Academia.edu](https://academia.edu)
 [ResearchGate](https://researchgate.org)
-
+
+![ResearchGate](assets/chapter2/researchgate.png)
+*Screenshot from ResearchGate*
+
+Features of scholarly networking platforms may appeal to authors, but there are implications, particularly in hosting versions outside of OJS, that journal managers should be aware of. These include:
+
+*Aggregating metrics*:  When a work may be retrieved from multiple platforms, indicators of use will also be distributed among those platforms. This may drive traffic to content published by a journal, but perhaps not exclusively via the journal platform. Journal managers should consider workflows or tools to aggregate and understand broader patterns of use related to articles that they publish. Counting downloads will not adequately represent use if a community of scholars around a journal also values the ability to upload a version to ResearchGate, or even to their institutional repository. To address this:
+DOIs facilitate aggregation of metrics across platforms, through tools such as ImpactStory, Altmetric, and PlumAnalytics. In practice, effectiveness of these tools varies based on the breadth of relationships that they are able to establish with publishing platforms, and none is comprehensive. For instance, none to date include indicators of use via ResearchGate or Academia.edu.
+Also, some platforms will assign another DOI when a version is uploaded to their site. Consequently and counter-intuitively, it may be productive to track more than one DOI per item.
+Manual collection is another strategy that might be adopted i.e. gathering download counts that include sampling from commercial platforms, perhaps using google analytics to identify referring sites.
+
+*Understanding use*:  Where other hosting of articles is occurring, consider how the metrics on other platforms are derived and how they might be understood. (e.g. ResearchGate offers reads, citations, recommendations, score.
+
+
+## Research Impact Metrics
+
+By Ali Moore
+
+### What are bibliometrics?
+
+Bibliometrics are “the use of mathematical and statistical methods to study and identify patterns in the usage of materials and services within a library or to analyze the historical development of a specific body of literature, especially its authorship, publication, and use,” [(Reitz, 2004)[(http://www.abc-clio.com/ODLIS/odlis_b.aspx.). Bibliometrics are a method of interpreting and evaluating the quality of an article, journal, or the body of an author’s work. Bibliometrics are frequently used as an indicator of an author’s productivity and impact in tenure and performance review processes, and/or to obtain or to demonstrate accountability for grant-funded research. Applying metrics in such a manner is not without controversy and critics suggest that these measures are poor proxies for determining true academic impact. In some instances, the quality of the publication, assessed via the calculation of a Journal Impact Factor (JIF), is interpolated to assess the quality of a single article within the publication, or even used to assess the quality of the article’s author, [(Callaway, 2016)]
+(http://www.nature.com/news/beat-it-impact-factor-publishing-elite-turns-against-controversial-metric-1.20224.).
+Editors should be aware that a variety of metrics may be considered by prospective authors in arriving at their decision of whether or not to publish in a given journal. A general understanding of this subject may help editors to address author concerns. Bibliometrics, impact factors, and other indicators can usually be divided into one of the following categories: journal-level, article-level, or author-specific. Some of these metrics are discussed in the section below.  
+
+### Journal-level metrics
+
+#### Journal Impact Factor
+
+One of the most well-known and well-established journal-level metrics is the journal impact factor (JIF). JIF is measured as “the frequency with which the 'average article' published in a journal has been cited in a particular year. It measures a journal's relative importance as it compares to other journals in the same field” [(SFU Library, 2017)](http://www.lib.sfu.ca/help/publish/scholarly-publishing/scholarly-metrics). You can find a journal’s impact factor in Journal Citation Reports, which is published by Thomson Reuters.
+
+Journal Impact Factor, and 5-year Journal Impact Factor can be calculated using the formulae below:
+
+![Impact Factor forumula](assets/chapter2/ImpactFactor.png)
+
+
+
+JIF is considered a fairly controversial measure, as the number of open access journals, books, conference proceedings, and items in languages other than English included in the Journal Citation Reports is very limited. JIF also does not take into account self-citing. [Additionally, articles may be highly cited for negative reasons; as such, a high impact factor is not necessarily a guarantee of quality.]
+
+### Eigenfactor score
+
+A journal’s Eigenfactor score is evaluated based on the number of “The Eigenfactor ranks journals based on the number of citations its articles receive, weighting citations that come from other influential journals more heavily. A benefit of the Eigenfactor over the JIF is that it excludes self-citations.
+
+The Article Influence score is the Eigenfactor divided by the number of articles in the journal. This metric is most directly comparable to the JIF.”
+
+### Journal Immediacy Index
+The journal immediacy index measures how frequently the average article from a journal is cited within a given year of publication. This metric is made available through the InCites Journal Citation Reports (JCR) tool, but the formula could be applied to any journal that has compiled citation data for a given year. To calculate the immediacy index for a journal, the following calculation is applied:
+
+immediacy index for year x = total number of citations for reviews and articles accrued in year x  / total number of reviews and articles published in year x
+
+InCites JCR claims that the immediacy index allows one to see how quickly an article published in a given journal is cited relative to others in its subject category, which helps to identify which journals are publishing the “hottest” papers in a discipline.
+
+One can quickly see that there are a number of challenges with such an assertion. Firstly, journals gearing to publish issues earlier in the calendar year will benefit from a higher immediacy index as their outputs will have enjoyed a longer period within which to glean additional citations. Secondly, because it is a per-article average, the immediacy index tends to discount the advantage of large journals over small ones.
+
+### Article-level metrics
+
+#### Citation count    
+On the most basic level, individual articles are evaluated based on the number of citations that they receive. While a higher number may indicate that the article points to an original, innovative, or historically significant article, that is not necessarily the case: a study that is notoriously problematic may also be frequently cited as an example of what ought not to be done.  
+
+Citation counts are also very discipline specific. Health science researchers, for example, produce a higher volume of research outputs in particular formats such as journals than those working in the humanities or contemporary arts. As such, citation counts should not be compared across disciplines; a “highly cited” paper in one discipline may have thousands of citations, while another may have a couple hundred, and each paper may be considered highly cited in its own field.
+
+A number of different databases track citation counts, including Google Scholar, IEEE Xplore, PLOS One, Scopus, and Web of Science. Citation counts will vary among these because while there is overlap among coverage, each also ranks and analyzes unique journal titles.
+
+For example, citation count in Web of Science citation counts are limited to those journals selected for inclusion in their database.
+
+
+![Web of Science forumula](assets/chapter2/web-of-science.png)
+
+For the same example, Google Scholar returns a higher citation count because the index is more inclusive, and also represents non-journal citations.
+
+![Web of Science forumula](assets/chapter2/google-scholar-citation.png)
+
+#### Article Influence score
+“The *Article Influence Score* determines the average influence of a journal's articles over the first five years after publication.  It is calculated  by multiplying the Eigenfactor Score by 0.01 and dividing by the number of articles in the journal, normalized as a fraction of all articles in all publications.  This measure is roughly analogous to the *5-Year Journal Impact Factor* in that it is a ratio of a journal’s citation influence to the size of the journal’s article contribution over a period of five years” [(Clarivate Analytics, n.d., emphasis in original)](http://ipscience-help.thomsonreuters.com/incitesLiveJCR/glossaryAZgroup/g7/7751-TRS.html)
+
+#### Immediacy Index
+The immediacy index is not calculated at the article level as it takes into account the total number of citations received for articles and reviews published by a given journal for a particular year. As such, it is only calculated at the journal level.
+
+#### Download Count
+In addition to journal specific metrics, many publishers, both commercial and open access, also provide article download counts as a quantifiable measure of article attention.
+
+### Author-specific metrics
+#### *h*-index
+
+The *h*-index differs from other types of publication metrics in that it is aimed at demonstrating an author’s productivity and citation frequency across their body of work as a whole rather than focusing on a single publication. *h*-index is sometimes referred to as the *Hirsch index* or *Hirsch number* because the index was first suggested by University of California, San Diego physicist Jorge E. Hirsch as a metric for evaluating output in theoretical physics. Hirsch criticized journal impact factor (IF) and citation counts as being poor measures for researcher quality, [(McDonald, 2005)](http://ucsdnews.ucsd.edu/archive/newsrel/science/MCH.asp).
+
+The *h*-index takes into account both the number of publications of a given author, as well as the number of citations per each publication.
+
+![Web of Science forumula](assets/chapter2/h-index.png)
+
+
+
+(Image Source: [Wikimedia](Image Source: https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/H-index-en.svg/425px-H-index-en.svg.png) (Public Domain)
+
+#### Limitations of h-index
+It should be noted that *h*-index numbers of researchers should only be compared for those working within the same discipline. The value of *h*-indexes of authors working across different disciplines should not be directly compared because the method of computing the index strongly reflects differences in publication frequency, resulting in a lower value for researchers working within disciplines where lower publication frequency is the norm [(Bornmann, 2008)](http://www.emeraldinsight.com/doi/abs/10.1108/00220410810844150). *h*-index also does not reflect order of authorship listings, which is an important consideration in some academic disciplines. The *h*-index calculation results in a natural number and therefore has been criticized as having less discriminatory power than other methods of calculating research impact.
+
+The reliance of the *h*-index upon the corpus of an author’s works can result in differing values when calculations do not take into account the same publication sources. This discrepancy, documented in “Which *h*-index? — A comparison of Web of Science, Scopus and Google Scholar,” demonstrated that *h*-index values could vary from database to database, [(Bar-Ilan, 2007)](https://link.springer.com/article/10.1007%2Fs11192-008-0216-y]. For instance, if one calculation takes conference proceedings into account as a valid part of the author’s body of work, the *h*-index will necessarily result in a different value than when calculated without that category of content. Therefore, the publication in which a work appears must be indexed by the database in question in order to be reflected in this calculation.
+
+
+### Altmetrics
+  The term “altmetrics,” originally a portmanteau of “alternative” and “metrics,” refers to emerging metrics based on the social web, [(Priem, 2010)](http://altmetrics.org/manifesto) describing a range of non-traditional indicators that relate to the attention and/or use of published scholarly information (mentions in social media, social bookmarking, likes, etc.). One criticism levied at conventional bibliometrics is that the ability to measure attention is considerably delayed when metrics are reliant upon citations, a phenomenon often referred to as “citation lag,” [(Nakamura, 2011)](https://link.springer.com/article/10.1007/s11192-011-0341-x). Altmetrics tools relying on the social web can provide much more timely, near real-time usage/attention data, and may be applied to both traditional and non-traditional publishing formats.
+
+  With growing awareness, more nuanced understandings have characterized alt- or “all-metrics,” or “influmetrics,” as features of the evolving landscape of scholarly communication that do not replace but rather extend and complement more familiar indicators of use and influence [(Reed, McFarland, Croft 2016)](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/27301). While traditional measures of impact related to journal publishing (impact, citation counts) remain important to critically assessing influence of a journal and the articles in it, altmetrics offer journal managers insight into conversations or activity in venues that would otherwise be opaque.
+
+  For example, [ImpactStory](https://impactstory.org), [Altmetric](https://altmetric.com), [Plum Analytics](https://plumanalytics.com) and others use persistent identifiers such as DOIs to aggregate mentions of articles not just in citation indexes, but also in Wikipedia, Twitter, Mendeley and other online venues.
+
+  ![Altmetric](assets/chapter2/altmetric.png)
+
+  ImpactStory also indicates the proportion of the work that appears to be available from Open Access platforms.
+
+  ![ImpactStory](assets/chapter2/impact-story.png)
+
+
+  These features, which may demonstrate influence, use, and accessibility beyond the academic environment, may be of particular interest to journals that are grant-funded.
+
+  Further Reading:
+  [Metrics Toolkit](http://www.metrics-toolkit.org/)
