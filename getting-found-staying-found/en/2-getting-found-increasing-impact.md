@@ -200,7 +200,6 @@ One consideration that publishers will have to make is who owns the copyright of
 
 
 
-
 ### Creative Commons Licenses
 
 Another way that you can make your policy on sharing your journal/publication’s content explicit is through the use of Creative Commons licenses. There are different types of Creative Commons licenses, which stipulate that the material being licensed allows different uses. Creative Commons licenses are widely used on a variety of web-based material ranging from photographs, video and sound recordings, as well as written works such as books and articles. As of 2016, there are over 1.2 billion works that are licensed using Creative Commons licenses (Creative Commons, 2016).
@@ -212,6 +211,12 @@ In OJS, you can specify the use of Creative Commons licenses as part of the setu
 ![Creative Commons Licenses](assets/chapter2/cc-licenses.png)
 
 Source: University of British Columbia Libraries (http://guides.library.ubc.ca/c.php?g=698822&p=4961441#s-lib-ctab-15605828-2) Licensed under a CC-BY license.
+
+### SHERPA/RoMEO
+
+Journals and publishers should also consider sharing relevant policies as part of the [SHERPA/RoMEO database](http://www.sherpa.ac.uk/romeo/index.php)
+
+SHERPA/RoMEO is a popular database used for sharing journals’ and publishers’ policies on copyright and licensing of their works. It is used by authors, libraries, funders, as well as others to determine if publishers allow sharing of their publications outside of their website. Making this explicit through your policy and including your policies in a database like SHERPA/RoMEO can make it clearer for authors and users of of journals and publishers’ content on specifically how they  are allowing their publications to be used and share.
 
 
 
