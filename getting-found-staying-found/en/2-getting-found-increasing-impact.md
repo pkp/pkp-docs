@@ -149,3 +149,28 @@ The reliance of the *h*-index upon the corpus of an author’s works can result 
 
   Further Reading:
   [Metrics Toolkit](http://www.metrics-toolkit.org/)
+
+
+
+  ## Library Catalogues and Link Resolvers
+
+  By Sonya Betz
+
+Libraries have historically been the primary access point for most academic journals. Although researchers now find open access articles from other sources, there are still many who use traditional library systems to find relevant articles. A journal’s inclusion in tools such as library catalogues and link resolvers can help boost the profile of the journal, provide access to the journal’s content for other automated applications, and improve perceptions of the journal’s credibility.
+
+  ### Library/Union Catalogues
+
+If the journal has a local library affiliation, then editors can work with the library to catalogue the journal and make the record available in Worldcat (the world’s largest library catalog, that features library holdings from all over the world) for copy cataloguing by other libraries around the world. For example, Worldcat provides the Digital Collection Gateway tool:
+
+  “The WorldCat Digital Collection Gateway provides you with a self-service tool, available at no charge, for harvesting the metadata of your unique, open-access digital content into WorldCat. Once there, your collections are more visible and discoverable to end users who search WorldCat as well as Google and other popular websites.”
+
+  Source: [OCLC](https://www.oclc.org/en/digital-gateway.html)
+
+Using tools like WorldCat Digital collection gateway, which is typically used by Libraries to provide access to Open Access resources, can be a great way of providing exposure for your journal. If configured appropriately, a journal article’s metadata will be displayed as records in search results and  Your local library may be able to help you to get material included in Digital Collection Gateway.
+
+The journal is encouraged to approach aggregators and indexing services for inclusion into their respective databases. These databases subsequently form part of the presentation layer for web scale discovery systems such as Primo and Summon made available to users of library catalogues.
+
+
+### Link resolvers
+
+Link resolvers enable databases to connect to full-text journal articles. If a journal is indexed by another source, such as the DOAJ, or a commercial indexing service, then the journal may be included in link resolvers’ knowledge base as a source of full-text content. If not, journals can work with a local library to provide records.
