@@ -146,8 +146,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locales SYSTEM "../dbscripts/xml/dtd/locales.dtd">
 <locales>
+    <locale key="ar_IQ" name="Arabic"/>
     <locale key="de_DE" name="Deutsch (Deutschland)"/>
-    <locale key="ar_IQ" name="English"/>
+    <locale key="en_US" name="English"/>
     <locale key="es_ES" name="Español (España)"/>
     <locale key="fr_CA" name="Français (Canada)"/>
     (... and so on)
