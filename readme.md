@@ -4,7 +4,7 @@ The repository for generating PKP's documentation hub.
 
 ## Usage
 
-[Install Ruby 2.1.0 or higher](bundle install) and install the bundler gem.
+[Install Ruby 2.1.0 or higher](https://www.ruby-lang.org/en/documentation/installation/) and install the bundler gem.
 
 ```
 gem install bundler
