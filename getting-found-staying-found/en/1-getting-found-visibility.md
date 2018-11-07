@@ -53,7 +53,7 @@ The Digital Object Identifier or DOI is used to individually identify unique con
 #### The anatomy of a DOI
 A DOI consists of a series of characters divided into two parts -- a prefix and a suffix, which are separated by a slash. The prefix uniquely identifies the registrant (i.e. the publisher) of the title, and the suffix identifies the specific object. So, for example:
 
-For, example, this article: [“Health Care Professionals’ Opinions and Expectations of Clinical Pharamacy Services on a Surgical Ward”](http://www.cjhp-online.ca/index.php/cjhp/article/view/1606)
+For, example, this article: [“Health Care Professionals’ Opinions and Expectations of Clinical Pharmacy Services on a Surgical Ward”](http://www.cjhp-online.ca/index.php/cjhp/article/view/1606)
 
 The DOI in this case is  10.4212/cjhp.v69i6.1606
 
