@@ -159,18 +159,31 @@ Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust dir
     - A book-wide ``index.md`` file should contain a description of the book as well as copyright information. Look to other documents for an example. Also, if the document is available in more than one language, they should all be linked from this page.
 3. Create a folder for the [language of your document](http://www.lingoes.net/en/translator/langcode.htm) (eg: en_US, en_CA, fr_CA, fr_FR).
 4. Create a file called SUMMARY.md
-5. Create a file called README.md
+	- SUMMARY.md is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file.
+		- a chapter link would look like: ``- [Statistics](statistics.md)``
+		- a heading inside that chapter would look like: ``- [Definitions](./statistics.md#definitions)``
+5. Create a file called README.md which should be a language specific version of the text you had in ``index.md``.
 6. Create your chapters and write your links to those files in the ``SUMMARY.md`` file.
+	- Each full chapter of a multi-page document should be a singular markdown file. Subheadings within those chapters can be linked in ``SUMMARY.md`` to allow for links to specific sections.
 
 > A note on formatting: whereas your headers in single documents create the sidebar TOC, in multi-page docs this is handled by the ``SUMMARY.md`` file. As a result, you'll want each chapter title as an H1, with all subtitles running H2-H5. Since you can add to the TOC manually, you can include chapters there as you see fit.
 
 ### Images/Assets
 
-Images are easy to add to your document and help users locate some of the feature you're writing about. Firstly, you can store your images either at the top-level
+Adding images to your documentation helps users more easily locate some of the features you're writing about. Images should go in a folder named ``assets``. The type of document you're working on changes where you should put your images.
+
+1. Single-page documents:
+	- Place the ``assets`` folder within your main document folder. For example: ``/contributing/assets/``
+2. Multi-page documents:
+	- Place the ``assets`` folder within the language folder of the document you're working on. For example: ``/learning-ojs/en/assets/``
 
 #### Formatting Recommendations
 
-Images
+Images will automatically be restricted to 848 pixels in width on display. Where possible, try to limit your file size by keeping your images below that width. Format should follow these guidelines:
+
+- for screenshots, use PNG format
+- for photographs, use JPEG format
+- for animations, use GIF format  
 
 ## File Naming Conventions
 
@@ -182,25 +195,13 @@ Images
 
 **Images** // It is recommended that all your images be stored in a single "assets" folder within the language you're working (eg: ``en/assets/``). Keep your image titles brief or with abbreviations and consistently named so they're easy to locate. Depending on how many images you have, numbering these might be a lot more convenient while working on the document. _Listen to your heart._ Some examples include: ``contrib-01.png``, ``authoring-images-01.png``. If you're putting all your imagines into only the asset folder, it's a good idea to name your images to correspond with chapter titles.
 
-## Modifications to Cards and Site Layout
+<!-- ## Modifications to Cards and Site Layout
 
-_Coming soon._
-
-
-
-
-
-
-
-
-
-
-
-### Documentation Style and Format
-
-The final formats of different kinds of PKP documentation are noted above in the “[Types of Documentation](/#types-of-documentation)” section. We encourage people to write and edit documentation in markdown and contribute through GitHub. However, contributed documentation can be created or edited in any format you want to work in, including a .doc or .odt text document, a Google doc, or an email message, and the DIG will convert the documentation to its final format when completed. Please do not contribute documentation in PDF, HTML, or LaTeX format.
+_Coming soon._ -->
 
 ## Create and Submit a Document in Another Format
+
+We encourage users and community members to write and edit documentation in markdown and contribute through GitHub. However, contributed documentation can be created or edited in any format you want to work in, including a .doc or .odt text document, a Google doc, or an email message, and the Documentation Interest Group will convert the documentation to its final format when completed. Please do not contribute documentation in PDF, HTML, or LaTeX format.
 
 Some documentation contributors prefer to create or edit documentation in a Word, Open Document, Google Doc, or another format. If you’re creating documentation with a group of people, it can be easier to use a Google Doc than GitHub.  
 
