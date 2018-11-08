@@ -88,7 +88,7 @@ GitHub desktop manages your commits and pull-requests locally. It's especially c
 
 In Atom, the repository directory structure will be displayed on the left hand side in the "project window". Clicking on any title will open it in the editor and allow you to make changes. You'll notice labels next to the files as you work. Green indicates a new file you've added. Yellow indicates a files you've changed since the last time you pulled an update from the primary repository.
 
-![]assets/contrib-06.png)
+![](assets/contrib-06.png)
 
 If you are working on a project over time, you may want to regularly pull changes "from origin". You can do this in GitHub desktop by clicking on the "pull from origin" button near the top right of the window. It will pull changes since the last time you pulled them (or, since the time you originally cloned).
 
@@ -99,7 +99,7 @@ Once you make your edits with Atom and have a document you want to submit, you'l
 3. Write a concise name for your branch based on the doc you're submitting, with a single dash between words.
 4. Click "Create Branch".
 
-! []assets/contrib-7.gif)
+! [](assets/contrib-7.gif)
 
 Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub desktop window you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
 
@@ -197,7 +197,7 @@ Images will automatically be restricted to 848 pixels in width on display. Where
 
 ## Modifications to Cards and Site Layout
 
-Please read [Orientation to file structure](./README.md#orientation-to-file-structure) for guidance on how to configure the layout of the documentation hub. It is recommended that edits in this space be cleared via Git Issue or pull request. 
+Please read [Orientation to file structure](./README.md#orientation-to-file-structure) for guidance on how to configure the layout of the documentation hub. It is recommended that edits in this space be cleared via Git Issue or pull request.
 
 ## Create and Submit a Document in Another Format
 
