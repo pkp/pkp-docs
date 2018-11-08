@@ -99,7 +99,7 @@ Once you make your edits with Atom and have a document you want to submit, you'l
 3. Write a concise name for your branch based on the doc you're submitting, with a single dash between words.
 4. Click "Create Branch".
 
-! [](assets/contrib-7.gif)
+![](assets/contrib-7.gif)
 
 Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub desktop window you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
 
