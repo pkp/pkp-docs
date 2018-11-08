@@ -195,9 +195,9 @@ Images will automatically be restricted to 848 pixels in width on display. Where
 
 **Images** // It is recommended that all your images be stored in a single "assets" folder within the language you're working (eg: ``en/assets/``). Keep your image titles brief or with abbreviations and consistently named so they're easy to locate. Depending on how many images you have, numbering these might be a lot more convenient while working on the document. _Listen to your heart._ Some examples include: ``contrib-01.png``, ``authoring-images-01.png``. If you're putting all your imagines into only the asset folder, it's a good idea to name your images to correspond with chapter titles.
 
-<!-- ## Modifications to Cards and Site Layout
+## Modifications to Cards and Site Layout
 
-_Coming soon._ -->
+Please read [Orientation to file structure](./README.md#orientation-to-file-structure) for guidance on how to configure the layout of the documentation hub. It is recommended that edits in this space be cleared via Git Issue or pull request. 
 
 ## Create and Submit a Document in Another Format
 
