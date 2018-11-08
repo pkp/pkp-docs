@@ -99,7 +99,7 @@ Once you make your edits with Atom and have a document you want to submit, you'l
 3. Write a concise name for your branch based on the doc you're submitting, with a single dash between words.
 4. Click "Create Branch".
 
-![](assets/contrib-7.gif)
+![](assets/contrib-07.gif)
 
 Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub desktop window you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
 
@@ -157,13 +157,23 @@ Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust dir
     - _Remember to follow naming conventions_. (eg: if your book is a guide to ORCID, you could name it orcid-guide or orcid-plugin).
 2. Create an ``index.md``.
     - A book-wide ``index.md`` file should contain a description of the book as well as copyright information. Look to other documents for an example. Also, if the document is available in more than one language, they should all be linked from this page.
-3. Create a folder for the [language of your document](http://www.lingoes.net/en/translator/langcode.htm) (eg: en_US, en_CA, fr_CA, fr_FR).
-4. Create a file called SUMMARY.md
+    - At the top of your indexing file, include the following:
+
+```
+---
+isBookIndex: true
+---
+```
+
+Unlike with a Single-page document, you no longer need to add to index.md. The rest of your document steps should be as follows:
+
+1. Create a folder for the [language of your document](http://www.lingoes.net/en/translator/langcode.htm) (eg: en_US, en_CA, fr_CA, fr_FR).
+2. Create a file called SUMMARY.md
 	- SUMMARY.md is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file.
 		- a chapter link would look like: ``- [Statistics](statistics.md)``
 		- a heading inside that chapter would look like: ``- [Definitions](./statistics.md#definitions)``
-5. Create a file called README.md which should be a language specific version of the text you had in ``index.md``.
-6. Create your chapters and write your links to those files in the ``SUMMARY.md`` file.
+3. Create a file called README.md which should be a language specific version of the text you had in ``index.md``.
+4. Create your chapters and write your links to those files in the ``SUMMARY.md`` file.
 	- Each full chapter of a multi-page document should be a singular markdown file. Subheadings within those chapters can be linked in ``SUMMARY.md`` to allow for links to specific sections.
 
 > A note on formatting: whereas your headers in single documents create the sidebar TOC, in multi-page docs this is handled by the ``SUMMARY.md`` file. As a result, you'll want each chapter title as an H1, with all subtitles running H2-H5. Since you can add to the TOC manually, you can include chapters there as you see fit.
