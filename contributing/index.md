@@ -41,14 +41,14 @@ Once you've made your changes, it's time to _commit_ your changes and create a _
 
 The first is a very short descriptor of what you just changed. A few words should do the trick. Here are some examples:
 
-- updated ``filename.md``
-- migrated ``filename.md``
-- added appendix to document
-- replaced images
+- Updated link to OJS in ``filename.md``
+- migrated Crossref guide to markdown
+- added appendix to Learning OJS
+- replaced images in admin guide
 
 The second window allows you to enter a more detailed description of what you changed. You might want to do this if you need to justify your changes or need to let everyone else know that a change is significant.
 
-Below those two fields, you'll see your committing options. **_If you are a member of the PKP team, you'll see the ability to commit directly to master branch_**. It's important to note that these changes are immediate, but they are also unreviewed. If you are making small changes to one document, it's probably okay to commit to master. If you are changing the way documents link between each other or making more broad changes to the site itself, we recommend that you _create a new branch and start a pull request_.
+Below those two fields, you'll see your committing options. **_If you are a member of the PKP team, you'll see the ability to commit directly to master branch_**. It's important to note that these changes are immediate, but they are also unreviewed. Please do not commit directly to master. We recommend that you always commit code via pull request.
 
 ### Branches and Pull Requests
 
@@ -68,12 +68,12 @@ At the bottom of the page, you'll see what's known as a "diff." A diff is just a
 
 ### Using GitHub Desktop and Atom to Manage the Docs Hub
 
-If you're working on a large piece of documentation and you're not comfortable using either the command line or the web interface for GitHub, you might want to considering using GitHub's [GitHub Desktop](https://desktop.github.com/) and the [Atom](https://atom.io/) text editor. With this workflow, you can "clone" a copy of the docs repository to your computer, make your own edits locally (and even build a version of the Documentation Hub using Ruby, if you like) and create a pull request with your changes once you're finished.
+If you're working on a large piece of documentation and you're not comfortable using either the command line or the web interface for GitHub, you might want to consider using GitHub's [GitHub Desktop](https://desktop.github.com/) and the [Atom](https://atom.io/) text editor. With this workflow, you can "clone" a copy of the docs repository to your computer, make your edits locally (and even build a version of the Documentation Hub using Ruby, if you like) and create a pull request with your changes once you're finished.
 
-Once you've installed GitHub desktop, you should have an option while viewing any GitHub repository to "Clone or Download" and "Open in Desktop".
+Once you've installed GitHub desktop, you should have an option while viewing any GitHub repository to "Clone or Download" and "Open in Desktop."
 
 1. Navigate to the repository you want to clone.
-2. Click on the green button on the right that says "Clone or Download".
+2. Click on the green button on the right that says "Clone or Download."
 3. Select the "Open in Desktop" option.
 
 ![](assets/contrib-04.gif)
@@ -81,44 +81,44 @@ Once you've installed GitHub desktop, you should have an option while viewing an
 GitHub desktop manages your commits and pull-requests locally. It's especially convenient if you're changing more than one file at once. If you have Atom installed, you can open your project with the editor directly from GitHub desktop.
 
 1. Open GitHub desktop.
-2. Right click on the name of the repository you want to work on.
-3. Select "Open in Atom".
+2. Right click on the name of the repository in which you want to work.
+3. Select "Open in Atom."
 
 ![](assets/contrib-05.gif)
 
-In Atom, the repository directory structure will be displayed on the left hand side in the "project window". Clicking on any title will open it in the editor and allow you to make changes. You'll notice labels next to the files as you work. Green indicates a new file you've added. Yellow indicates a files you've changed since the last time you pulled an update from the primary repository.
+In Atom, the repository directory structure is accessible on the left-hand side in the "project window." Clicking on any title opens it in the editor and allow you to make changes. You'll notice labels next to the files as you work. Green indicates a new file you've added. Yellow indicates a file you've changed since the last time you pulled an update from the primary repository.
 
 ![](assets/contrib-06.png)
 
-If you are working on a project over time, you may want to regularly pull changes "from origin". You can do this in GitHub desktop by clicking on the "pull from origin" button near the top right of the window. It will pull changes since the last time you pulled them (or, since the time you originally cloned).
+If you are working on a project over time, you may want to regularly pull changes "from origin." You can do this in GitHub desktop by clicking on the "pull from origin" button near the top right of the window. It pulls changes since the last time you pulled them (or, since the time you cloned initially).
 
-Once you make your edits with Atom and have a document you want to submit, you'll want to contribute it back as a "branch".
+Once you make your edits with Atom and have a document you want to submit, you'll want to contribute it back as a "branch."
 
 1. In GitHub desktop, click on the "Current Branch" button.
 2. Click "New Branch"
 3. Write a concise name for your branch based on the doc you're submitting, with a single dash between words.
-4. Click "Create Branch".
+4. Click "Create Branch."
 
 ![](assets/contrib-07.gif)
 
-Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub desktop window you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
+Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub desktop window, you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
 
 ![](assets/contrib-08.png)
 
 The first field is for a very short descriptor of what you just changed. A few words should do the trick. Here are some examples:
 
-- updated ``filename.md``
-- migrated ``filename.md``
-- added appendix to document
-- replaced images
+- Updated ``filename.md``
+- Migrated ``filename.md``
+- Added appendix to document
+- Replaced images
 
 The second field is for a more detailed description of what you changed. You might want to do this if you need to justify your changes or need to let everyone else know that a change is significant.
 
-When you're done, click the button on the bottom left labelled "Commit to ``branch name``".
+When you finish, click the button on the bottom left labelled "Commit to ``branch name``."
 
-Now that your commits are settled, you can push your changes back to the repo with the button on the top right. It should say "Publish your Branch to Github" if it's the first time you've committed that branch. It will sync versions locally and remotely with your branch changes and submit your "pull request" to managers of the Docs Hub.
+Now that you've committed your changes, you can push your changes back to the repo with the button on the top right. It should say "Publish your Branch to Github" if it's the first time you've committed that branch. It syncs versions locally and remotely with your branch changes and submits your "pull request" to managers of the Docs Hub.
 
-This is, necessarily, a brief introduction to using GitHub. GitHub has a tremendous amount of documentation on it's use, however. If you want to read more about GitHub basics, please read ["Hello, World"](https://guides.github.com/activities/hello-world/).
+This document is, necessarily, a brief introduction to using GitHub. GitHub has a tremendous amount of documentation on its use, however. If you want to read more about GitHub basics, please read ["Hello, World"](https://guides.github.com/activities/hello-world/).
 
 ## The "Documentation Hub"
 
@@ -137,7 +137,7 @@ Single Page Documents, like this one, are rendered fully from one markdown file.
 If you look on the left, you'll see that "The 'Documentation Hub'" is currently a level 1 header and "Single Page Docs" is a level 2 header. However, this doesn't happen by itself. When you are editing or creating a single page document, you'll need to do the following:
 
 1. Create a folder for your document (if it's new) from the top level of the repository.
-	- _Remember to follow naming conventions_.
+    - _Remember to follow naming conventions_.
 2. Name the file inside ``index.md``.
 3. Place the following code at the top of the file:
 
@@ -147,16 +147,18 @@ generateHeadingToc: true
 ---
 ```
 
-From here, write the document out as you would using markdown. Any level two header (eg: ``## text``) will display on the table of contents on the left as a chapter. Any level three header (eg: ``### text``) will display as a sub-chapter. Levels four and up will not display on the sidebar table of contents.
+From here, write the document out as you would using markdown. Any level two header (e.g.: ``## text``) displays on the table of contents on the left as a chapter. Any level three header (e.g.: ``### text``) displays as a sub-chapter. Levels four and up does not display on the sidebar table of contents.
+
+> Headings should never skip a level. Do not jump from `## Heading` (2) to `#### Sub-heading` (3) just because you think it looks better. It is important that a sub-heading of `## Heading` (2) is `### Heading` (3) for accessibility.
 
 ### Multi-Page Docs
 
 Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust directories with folders for individual languages/translations, and a single markdown file for every chapter of the document. They also contain a file called ``SUMMARY.md`` that creates the table of contents for the book and a file called ``README.md`` that serves as a first/landing page for your document. To create a book start with the following:
 
 1. Create a folder for your document (if it's new) from the top level of the repository.
-    - _Remember to follow naming conventions_. (eg: if your book is a guide to ORCID, you could name it orcid-guide or orcid-plugin).
+    - _Remember to follow naming conventions_. (e.g., if your book is a guide to ORCID, you could name it orcid-guide or orcid-plugin).
 2. Create an ``index.md``.
-    - A book-wide ``index.md`` file should contain a description of the book as well as copyright information. Look to other documents for an example. Also, if the document is available in more than one language, they should all be linked from this page.
+    - A book-wide ``index.md`` file should contain a description of the book as well as copyright information. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page.
     - At the top of your indexing file, include the following:
 
 ```
@@ -169,27 +171,27 @@ Unlike with a Single-page document, you no longer need to add to index.md. The r
 
 1. Create a folder for the [language of your document](http://www.lingoes.net/en/translator/langcode.htm) (eg: en_US, en_CA, fr_CA, fr_FR).
 2. Create a file called SUMMARY.md
-	- SUMMARY.md is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file.
-		- a chapter link would look like: ``- [Statistics](statistics.md)``
-		- a heading inside that chapter would look like: ``- [Definitions](./statistics.md#definitions)``
+    - SUMMARY.md is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file.
+        - a chapter link would look like: ``- [Statistics](statistics.md)``
+        - a heading inside that chapter would look like: ``- [Definitions](./statistics.md#definitions)``
 3. Create a file called README.md which should be a language specific version of the text you had in ``index.md``.
 4. Create your chapters and write your links to those files in the ``SUMMARY.md`` file.
-	- Each full chapter of a multi-page document should be a singular markdown file. Subheadings within those chapters can be linked in ``SUMMARY.md`` to allow for links to specific sections.
+    - Each full chapter of a multi-page document should be a single markdown file. Subheadings within those chapters can be linked in ``SUMMARY.md`` to allow for links to specific sections.
 
-> A note on formatting: whereas your headers in single documents create the sidebar TOC, in multi-page docs this is handled by the ``SUMMARY.md`` file. As a result, you'll want each chapter title as an H1, with all subtitles running H2-H5. Since you can add to the TOC manually, you can include chapters there as you see fit.
+> A note on formatting: whereas your headers in single documents create the sidebar TOC, in multi-page docs, this is handled by the ``SUMMARY.md`` file. As a result, you'll want each chapter title as an H1, with all subtitles running H2-H5. Since you can add to the TOC manually, you can include chapters there as you see fit.
 
 ### Images/Assets
 
-Adding images to your documentation helps users more easily locate some of the features you're writing about. Images should go in a folder named ``assets``. The type of document you're working on changes where you should put your images.
+Adding images to your documentation helps users more easily locate some of the features about which you are writing. Images should go in a folder named ``assets``. The type of document you're working on changes where you should put your images.
 
 1. Single-page documents:
-	- Place the ``assets`` folder within your main document folder. For example: ``/contributing/assets/``
+    - Place the ``assets`` folder within your main document folder. For example: ``/contributing/assets/``
 2. Multi-page documents:
-	- Place the ``assets`` folder within the language folder of the document you're working on. For example: ``/learning-ojs/en/assets/``
+    - Place the ``assets`` folder within the language folder of the document you're working on. For example: ``/learning-ojs/en/assets/``
 
 #### Formatting Recommendations
 
-Images will automatically be restricted to 848 pixels in width on display. Where possible, try to limit your file size by keeping your images below that width. Format should follow these guidelines:
+Images are restricted to 848 pixels in width on display. Where possible, try to limit your file size by keeping your images below that width. The format should follow these guidelines:
 
 - for screenshots, use PNG format
 - for photographs, use JPEG format
@@ -199,11 +201,11 @@ Images will automatically be restricted to 848 pixels in width on display. Where
 
 **In General** // While any name you create should work, it's best to keep titles short and descriptive. Always replace spaces between words with a dash.
 
-**Titles** // Some example titles include:``learning-ojs``, ``pkp-theming-guide``, ``crossref-ojs-manual``. Remember that titles will be part of the file path in the URL to individual docs so keep it simple.
+**Titles** // Some example titles include:``learning-ojs``, ``pkp-theming-guide``, ``crossref-ojs-manual``. Remember that titles are part of the file path in the URL to individual docs so keep it simple.
 
 **Chapters** // You might be tempted to number chapters but, if we ever need to create new chapters in between existing ones, we would need to re-number. It's best to keep chapters in the same style as title-level names. Some examples for chapters include: ``getting-started.md``, ``troubleshooting.md``, ``data-import-and-export.md``.
 
-**Images** // It is recommended that all your images be stored in a single "assets" folder within the language you're working (eg: ``en/assets/``). Keep your image titles brief or with abbreviations and consistently named so they're easy to locate. Depending on how many images you have, numbering these might be a lot more convenient while working on the document. _Listen to your heart._ Some examples include: ``contrib-01.png``, ``authoring-images-01.png``. If you're putting all your imagines into only the asset folder, it's a good idea to name your images to correspond with chapter titles.
+**Images** // Please store all images in a single "assets" folder within the language you're working (e.g.: ``en/assets/``). Keep your image titles brief or with abbreviations and consistently named, so they're easy to locate. Depending on how many images you have, numbering these might be a lot more convenient while working on the document. _Listen to your heart._ Some examples include: ``contrib-01.png``, ``authoring-images-01.png``. If you're putting all your imagines into only the asset folder, it's a good idea to name your images to correspond with chapter titles.
 
 ## Modifications to Cards and Site Layout
 
