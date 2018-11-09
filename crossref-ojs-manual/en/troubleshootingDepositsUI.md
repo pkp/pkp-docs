@@ -32,3 +32,9 @@ In this particular case you can see that the error says, "the content of element
 These errors should be relatively self-explanatory, and should at least point to the specific element missing from your article's metadata. Most deposit errors will come down to elements missing or misconfigured in your deposit XML. If you are seeing any XML validation errors when checking the status of a deposit, see if you can track the error back to eg. a missing component in your journal or plugin configurations, for example a missing ISSN.
 
 **It is vital to note** that a status indication of "submitted" or "complete" does not necessarily indicate that a DOI has been successfully registered and is now available via Crossref - these statuses simply refer to the state of the DOI within the Crossref workflow. For complete status information, click on the status text. Often, a deposited DOI is entered in a queue along with thousands of other DOIs from different publishers. The information you receive via a status may take some time to accurately report.
+
+## Some Known Issues
+
+### DOI Links Auto-direct to Journal Homepage
+
+This can happen if your old DOI links were prepended with ``http:`` but you have since moved to SSL with ``https:``. Updating your DOIs via the plugin or XML Export will solve this issue. 
