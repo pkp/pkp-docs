@@ -11,6 +11,8 @@ navContrib:
   title: Community
   items:
     - "[Documentation Interest Group](https://github.com/pkp/documentation-interest-group)"
+    - "[Documentation Guidelines](/documentation-guidelines)"
+    - "[Contributing Documentation](/contributing)"
     - "[Translating Guide](/translating-guide/en/)"
     - "[Community Forum](https://forum.pkp.sfu.ca)"
 navAbout:
