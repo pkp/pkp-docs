@@ -1,6 +1,6 @@
 # Subscriptions
 
-If you have chosen the subscription option for your journal \(see Journal Setup [Step 4: Management](https://pkp.gitbooks.io/learning-ojs-2/content/en//step_four_management.html)\), a link to manage your subscriptions will appear on your Journal Management Pages menu.
+If you have chosen the subscription option for your journal \(see Journal Setup [Step 4: Management](https://docs.pkp.sfu.ca/learning-ojs-2/en/step_four_management)\), a link to manage your subscriptions will appear on your Journal Management Pages menu.
 
 ![Management Pages: Subscriptions](images/chapter5/jm_subscriptions.png)
 
@@ -58,7 +58,7 @@ Returning to the Subscriptions Summary page you will see an option to select **P
 
 ![Payments](images/chapter5/sub_pay.png)
 
-Selecting the **Payments** here will take you to the **Fee Payment Option** page configured in the [Payments](https://pkp.gitbooks.io/learning-ojs-2/content/en//payments.html) page in the previous section.
+Selecting the **Payments** here will take you to the **Fee Payment Option** page configured in the [Payments](https://docs.pkp.sfu.ca/learning-ojs-2/en/payments) page in the previous section.
 
 ![Fee Payment Options](images/chapter5/sub_pay_options.png)
 

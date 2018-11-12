@@ -10,20 +10,16 @@ The first section provides basic submission information (authors, title, section
 The Editing process comprises 4 sections:
 
 * 
-### [Copyediting](https://pkp.gitbooks.io/learning-ojs-2/content/en//in_editing_copyediting.html)
+### [Copyediting](https://docs.pkp.sfu.ca/learning-ojs-2/en/in_editing_copyediting)
 
 
 * 
-### [Scheduling](https://pkp.gitbooks.io/learning-ojs-2/content/en/scheduling.html)
+### [Scheduling](https://docs.pkp.sfu.ca/learning-ojs-2/en/scheduling)
 
 
 * 
-### [Layout Editing](https://pkp.gitbooks.io/learning-ojs-2/content/en//layout_editing.html) 
+### [Layout Editing](https://docs.pkp.sfu.ca/learning-ojs-2/en/layout_editing) 
 
 
 * 
-### [Proofreading](https://pkp.gitbooks.io/learning-ojs-2/content/en//in_editing_proofreading.html)
-
-
-
-
+### [Proofreading](https://docs.pkp.sfu.ca/learning-ojs-2/en/in_editing_proofreading)

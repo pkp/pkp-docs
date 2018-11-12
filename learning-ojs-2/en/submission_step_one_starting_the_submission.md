@@ -18,7 +18,7 @@ If the journal charges **Author Fees**, these will be presented to the author. I
 
 ![Author Fees](images/chapter6/step1_3.png)
 
-Next, the author must check each of the items from the **Submission Checklist**. These items were established in [Journal Management Setup Step 3](https://pkp.gitbooks.io/learning-ojs-2/content/en//step_three_submissions.html).
+Next, the author must check each of the items from the **Submission Checklist**. These items were established in [Journal Management Setup Step 3](https://docs.pkp.sfu.ca/learning-ojs-2/en/step_three_submissions).
 
 
 ![Submission Checklist](images/chapter6/step1_4.png)

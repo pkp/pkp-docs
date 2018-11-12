@@ -17,7 +17,7 @@ To create a new section:
 
 ![Journal Sections](images/chapter5/jm_section_create.png)
 
-* Complete the form with the new section's information, and check the appropriate options. In the example below, the new section is for Editorials, so options have been selected that will indicate that peer-review is not required, an abstract is not required, that only editors can submit to this section (it will not be available for authors to choose when submitting), the author name will not show on the table of contents, and it will not appear in the list of Sections on the About page. Remember, you can go back and edit this section at anytime if you wish to make changes. It is also possible to add a unique review form to a section. See [Review Forms](https://pkp.gitbooks.io/learning-ojs-2/content/en//review_forms.html) for more information about setting these up.
+* Complete the form with the new section's information, and check the appropriate options. In the example below, the new section is for Editorials, so options have been selected that will indicate that peer-review is not required, an abstract is not required, that only editors can submit to this section (it will not be available for authors to choose when submitting), the author name will not show on the table of contents, and it will not appear in the list of Sections on the About page. Remember, you can go back and edit this section at anytime if you wish to make changes. It is also possible to add a unique review form to a section. See [Review Forms](https://docs.pkp.sfu.ca/learning-ojs-2/en/review_forms) for more information about setting these up.
 
 
 
