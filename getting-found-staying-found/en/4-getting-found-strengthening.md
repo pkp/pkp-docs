@@ -35,4 +35,5 @@ authors as many of them are applicable outside the medical domain. Of particular
 publishers who may be establishing the reputation of their journal are the sections on journal owners and editorial freedom and publishing and editorial issues. Like the COPE code of conduct, the ICMJE recommendations contain a wealth of guidance for editors on dealing with common issues in publishing such as corrections, retractions, republications and version control as well dealing with  scientific misconduct and retraction, but they also include recommendations on dealing ethically with correspondence; fees and sponsorship or partnership; irregular publishing such as supplements, theme issues, and special series; and recommendations on ethical considerations for advertising and the media. The latest version of their recommendations can be found on their website, which also provides a conflict of interest disclosure form for download.
 
 ## Further Reading:
-[The International Committee of Medical Journal Editors (ICMJE) recommendations]  (http://www.icmje.org/recommendations/)
+
+[The International Committee of Medical Journal Editors (ICMJE) recommendations](http://www.icmje.org/recommendations/)
