@@ -14,5 +14,5 @@ To see a list of all of your journal's registered users, select **Users Enrolled
 
 
 
-From here you can edit any user account, log in as any user to temporarily perform any of their tasks or troubleshoot a problem, remove users from the list, or disable their account. Clicking Remove next to any user's name will unenroll them from that particular role; it won't delete their account from the system. Clicking Disable will stop users from logging in with that profile, but again it won't remove them from the site proper. See the section on [Merging Users](https://pkp.gitbooks.io/learning-ojs-2/content/en/merge_users.html) for tips on deleting an account.
+From here you can edit any user account, log in as any user to temporarily perform any of their tasks or troubleshoot a problem, remove users from the list, or disable their account. Clicking Remove next to any user's name will unenroll them from that particular role; it won't delete their account from the system. Clicking Disable will stop users from logging in with that profile, but again it won't remove them from the site proper. See the section on [Merging Users](https://docs.pkp.sfu.ca/learning-ojs-2/en/merge_users) for tips on deleting an account.
 

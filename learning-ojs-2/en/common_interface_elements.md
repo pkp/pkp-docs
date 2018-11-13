@@ -55,7 +55,7 @@ The right sidebar actually consists of a set of "blocks", described below.
 
 > **Note**
 > 
-> By default, these sidebar blocks are placed on the right. However, a Journal Manager can move any of these blocks to the left to create a new sidebar, and can also prevent any block from displaying entirely. The Journal Manager can also reorder the vertical position of these blocks. For more information on arranging blocks, see [Step 5: The Look](https://pkp.gitbooks.io/learning-ojs-2/content/en/step_five_the_look.html) in the Journal Management pages of Chapter 5. Journal Managers can also create their own blocks, enter any content they wish, and add them to the sidebar. For more information, see the section on [System Plugins](https://pkp.gitbooks.io/learning-ojs-2/content/en/system_plugins.html) in Chapter 5.  
+> By default, these sidebar blocks are placed on the right. However, a Journal Manager can move any of these blocks to the left to create a new sidebar, and can also prevent any block from displaying entirely. The Journal Manager can also reorder the vertical position of these blocks. For more information on arranging blocks, see [Step 5: The Look](https://docs.pkp.sfu.ca/learning-ojs-2/en/step_five_the_look) in the Journal Management pages of Chapter 5. Journal Managers can also create their own blocks, enter any content they wish, and add them to the sidebar. For more information, see the section on [System Plugins](https://docs.pkp.sfu.ca/learning-ojs-2/en/system_plugins) in Chapter 5.
 
 
 

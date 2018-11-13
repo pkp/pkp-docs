@@ -7,6 +7,8 @@ searchPlaceholder: Search everything
 visitForum: "Visit our [community forum](https://forum.pkp.sfu.ca) to meet hundreds of editors, publishers and journal managers."
 devVersion: "Warning: In Development"
 devVersionDescription: "This document describes features or capabilities that have not yet been released to the public. This information is provided as advanced notice for what we plan to be included in future versions. But the details here may change without warning."
+improveLink: "Improve this page"
+improveLinkBaseUrl: "https://github.com/pkp/pkp-docs/edit/master/"
 navContrib:
   title: Community
   items:

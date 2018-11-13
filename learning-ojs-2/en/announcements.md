@@ -1,6 +1,6 @@
 # Announcements
 
-If you have chosen the announcements option in [Step Four](https://pkp.gitbooks.io/learning-ojs-2/content/en//step_four_management.html) for your journal, a link to manage **Announcements** will appear under Management Pages. Select this link to discover your announcement options.
+If you have chosen the announcements option in [Step Four](https://docs.pkp.sfu.ca/learning-ojs-2/en/step_four_management) for your journal, a link to manage **Announcements** will appear under Management Pages. Select this link to discover your announcement options.
 
 
 

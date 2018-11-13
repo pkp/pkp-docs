@@ -41,7 +41,7 @@ If you as the Section Editor are acting as Proofreader, follow these steps:
 ![Completing Proofreading as Layout Editor](images/chapter8/editor_proof_6.png)  
 
 
-* Repeat these editorial steps for each submission. Once you have scheduled all of the submissions to the issue, you can [Publish](https://pkp.gitbooks.io/learning-ojs-2/content/en//issues.html) the issue and make it available on your journal web site.
+* Repeat these editorial steps for each submission. Once you have scheduled all of the submissions to the issue, you can [Publish](https://docs.pkp.sfu.ca/learning-ojs-2/en/issues) the issue and make it available on your journal web site.
 
 
 
