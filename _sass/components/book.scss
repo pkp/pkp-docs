@@ -54,10 +54,15 @@
 		font-size: 2.2rem;
 		line-height: 1.1em;
 	}
+}
 
-	.improve-link {
-		float: right;
-	}
+.book__improve {
+	display: inline-block;
+	margin-bottom: 2em;
+}
+
+.book__footer .book__improve {
+	margin-top: 3rem;
 }
 
 .book__sidebar {
@@ -176,6 +181,16 @@
 			font-size: 1.15rem;
 			line-height: 2.2em;
 		}
+	}
+
+	.book__improve {
+		float: right;
+		margin-left: 2em;
+	}
+
+	.book__footer .book__improve {
+		float: none;
+		margin-left: 0;
 	}
 }
 

@@ -7,9 +7,15 @@
 			<a href="#summary" class="-screenReader">{{ site.data.site.skipToSummary }}</a>
 			<div class="book__page">
 				<div class="book__content">
-					<a class="improve-link" href="https://github.com/pkp/pkp-docs/edit/master/{{ page.path }}">Improve this page
+					<a class="book__improve" href="{{ site.data.site.improveLinkBaseUrl }}{{ page.path }}">
+						{{ site.data.site.improveLink }}
 					</a>
 					{{ content }}
+					<div class="book__footer">
+						<a class="book__improve" href="{{ site.data.site.improveLinkBaseUrl }}{{ page.path }}">
+							{{ site.data.site.improveLink }}
+						</a>
+					</div>
 				</div>
 			</div>
 			{% if page.generateHeadingToc or page.isBookIndex != true %}
