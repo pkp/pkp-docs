@@ -42,7 +42,7 @@ Click **Generate custom report** to create a CSV file with your results. A Repor
 
 ### **Display Statistics**
 
-You can display statistics for your readers using plugins. See [System Plugins](https://pkp.gitbooks.io/learning-ojs-2/content/en/system_plugins.html) for more information.
+You can display statistics for your readers using plugins. See [System Plugins](https://docs.pkp.sfu.ca/learning-ojs-2/en/system_plugins) for more information.
 
 For more detailed information about managing, generating, and troubleshooting statistics and reports in OJS, see the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
 

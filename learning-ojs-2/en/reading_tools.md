@@ -129,7 +129,6 @@ Once this is saved, the sharing image/link will appear in your sidebar.
 
 
 
-Reading Tools must be configured in [Journal Setup Step 5.6: The Look -- Journal Layout](https://pkp.gitbooks.io/learning-ojs-2/content/en//step_five_the_look.html) before they appear. Both the Reading Tools and Related Items are treated as blocks, and can be moved from the left sidebar to the right, and moved up and down in the block hierarchy.
+Reading Tools must be configured in [Journal Setup Step 5.6: The Look -- Journal Layout](https://docs.pkp.sfu.ca/learning-ojs-2/en/step_five_the_look) before they appear. Both the Reading Tools and Related Items are treated as blocks, and can be moved from the left sidebar to the right, and moved up and down in the block hierarchy.
 
 ![Displaying Reading Tools](images/chapter5/rt_display.png)
-

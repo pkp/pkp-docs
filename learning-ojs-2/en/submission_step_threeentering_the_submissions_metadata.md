@@ -15,7 +15,7 @@ Next, enter the submission title and abstract.
 ![Title and Abstract](images/chapter6/step3_2.png)
 
 
-You will then add **indexing** information. This will help others find your article. The suggested indexing options were determined by the Journal Manager in [Setup Step 3](https://pkp.gitbooks.io/learning-ojs-2/content/en//step_three_submissions.html).
+You will then add **indexing** information. This will help others find your article. The suggested indexing options were determined by the Journal Manager in [Setup Step 3](https://docs.pkp.sfu.ca/learning-ojs-2/en/step_three_submissions).
 
 
 ![Indexing](images/chapter6/step3_3rev.png)

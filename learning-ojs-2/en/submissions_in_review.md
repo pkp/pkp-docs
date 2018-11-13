@@ -56,7 +56,7 @@ Use the Request icon to send an **email** to the Reviewer (using an email templa
 ![Request Email](images/chapter8/section_9.png)  
 
 
-By default, Reviewers will be provided with an extended text box to type in their comments. However, the Journal Manager can setup [Review Forms](https://pkp.gitbooks.io/learning-ojs-2/content/en//review_forms.html) allowing for more focused questions. Use the **Assign** **Review Form** link to provide a review form to this Reviewer.
+By default, Reviewers will be provided with an extended text box to type in their comments. However, the Journal Manager can setup [Review Forms](https://docs.pkp.sfu.ca/learning-ojs-2/en/review_forms) allowing for more focused questions. Use the **Assign** **Review Form** link to provide a review form to this Reviewer.
 
 
 ![Assign Review Form](images/chapter8/section_10.png)
@@ -79,5 +79,5 @@ Be sure to use the Acknowledge icon to email your thanks to the Reviewer.
 
 ![Review Information](images/chapter8/section_12.png)
 
-At this point, you can enroll more Reviewers (see above) or make a decision about the article (see [Editor Decision](https://pkp.gitbooks.io/learning-ojs-2/content/en//editor_decision.html)).
+At this point, you can enroll more Reviewers (see above) or make a decision about the article (see [Editor Decision](https://docs.pkp.sfu.ca/learning-ojs-2/en/editor_decision)).
 

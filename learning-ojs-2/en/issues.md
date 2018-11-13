@@ -19,7 +19,7 @@ Finally, the Editor is the only person who can send out a notification email to 
 
 > **Note**
 > 
-> Journal content can be published in bundled issues in traditional volume/number/year format, or can be published as soon as they are ready by adding finished submissions to the 'current' issue. See [Publication Scheduling](https://pkp.gitbooks.io/learning-ojs-2/content/en/step_four_management.html) at step 4.2 for more information on configuration options.
+> Journal content can be published in bundled issues in traditional volume/number/year format, or can be published as soon as they are ready by adding finished submissions to the 'current' issue. See [Publication Scheduling](https://docs.pkp.sfu.ca/learning-ojs-2/en/step_four_management) at step 4.2 for more information on configuration options.
 
 
 

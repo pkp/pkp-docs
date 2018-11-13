@@ -12,6 +12,6 @@ The Editor also schedules submissions for publication, arranges the Table of Con
 
 > ### Note
 > 
-> The Editor and Section Editor may share many responsibilities. While the **Review** and **Editing** processes alike can be handled by both roles, they are only discussed in [Chapter 8: Section Editors](https://pkp.gitbooks.io/learning-ojs-2/content/en//section_editors.html). Pages unique to the Editor only are here in Chapter 7.
+> The Editor and Section Editor may share many responsibilities. While the **Review** and **Editing** processes alike can be handled by both roles, they are only discussed in [Chapter 8: Section Editors](https://docs.pkp.sfu.ca/learning-ojs-2/en/section_editors). Pages unique to the Editor only are here in Chapter 7.
 
 

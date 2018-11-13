@@ -90,7 +90,7 @@ Request that the Layout Editor begin work by using the email icon under Request 
 
 The Layout Editor will prepare galleys for the submission in each of the journal's publishing formats (e.g., HTML, PDF, PS, etc.). The Supplementary Files, which remain in the original file format in which they were submitted, will be reviewed by the Layout Editor and Proofreader to ensure that basic formatting is in place, and that the files conform as well as possible to journal standards. You will receive an email when the Layout Editor has completed the initial production of the galleys.
 
-See [Chapter 11 Layout Editors](https://pkp.gitbooks.io/learning-ojs-2/content/en//layout_editors.html) for more on this role.
+See [Chapter 11 Layout Editors](https://docs.pkp.sfu.ca/learning-ojs-2/en/layout_editors) for more on this role.
 
 Upon receiving the email notification, log back into the system and return to the submission record. You will see the galleys in place. Use the Acknowledge email icon to thank the Layout Editor for his work.
 
