@@ -11,7 +11,7 @@
   * [Workflow Data](./what-data.md#workflow-data)
   * [General Visitor Information](./what-data.md#general-visitor-information)
 * [What Policies Should Publishers Provide and Where?](what-policies.md)
-  * [1. Consent Policy for Registration and Contributor Data ollection](./what-policies.md#consent-policy-for-registration-and-contributor-data-collection)
+  * [1. Consent Policy for Registration and Contributor Data Collection](./what-policies.md#consent-policy-for-registration-and-contributor-data-collection)
   * [2. Privacy Policy](./what-policies.md#privacy-policy)
   * [3. Cookie Policy](./what-policies.md#cookie-policy)
 * [Configuration Recommendations for GDPR Compliance](configuration-options.md)
