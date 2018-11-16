@@ -162,7 +162,7 @@ Your revised file is now visible in the Revisions panel.
 
 ### Inform the Editor
 
-Your next step is to inform the editor that the revised file is now available. To do so, go to the Review Discussion panel.
+The editor will receive a notification about the new file(s) being uploaded. Additionally you can inform the editor via the Review Discussion panel as explained below.
 
 ![](./assets/learning-ojs-3-auth-responding-discussion.png)
 
