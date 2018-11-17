@@ -113,3 +113,92 @@ Library Publishing Coalition(LPC) Webinar Series: [ORCID in Publishing Workflows
 ### Metadata
 
 Coming later.
+
+## Search Engines
+
+By Roger Gillis
+
+Despite the existence of specialized research databases, many researchers begin their online investigation in a search engine, like Google. Ensuring your journal is well placed within search engine search results is therefore an important responsibility for journal managers.
+
+### Search Engine Optimization
+Search Engine Optimization (SEO) refers to the process of increasing the visibility of a website, webpages, or website content (such as your journal articles) within search engines. SEO is an important consideration for online journals seeking to draw visitors to their sites. When a researcher does a search on Google that is relevant to your subject area, you want your articles to appear as close to the top of their result list as possible. SEO can help to put you higher on that list.
+
+Most visits to websites are driven by search engines. And two major search engines make up more than 95% of all search traffic in the United States: Google and Yahoo!-Bing alliance.  For most countries outside of the US, over 80% of search traffic comes solely from Google (with some exceptions, including Russia and China [(Fishkin & Moz, 2015)](https://moz.com/beginners-guide-to-seo).
+
+While most modern search engines are fairly adept at indexing sites, there are a number of things that you can do to rank higher in search engine results and draw more readers to your journal.
+
+Search engines provide two important functions: they return results relevant to the search query, and they return results often according to popularity of the websites. Much of what is written about SEO pertains to commercially-oriented businesses and organizations seeking the maximum exposure for their brands and products via search engines. Some of these organizations have deep pockets and have invested considerable time, effort, and money on SEO. For those with limited or no budget, and with highly specialized content, there are still some simple steps you can take to raise your visibility.
+
+Some of the best ways to ensure good SEO are based on more general principles related to modern websites and design:
+
+* Make your website easy to use, navigate, and understand
+* Provide direct, actionable information relevant to a users’ search query
+* Deliver high quality, legitimate, credible content
+
+(Source: (Fishkin & Moz, 2015)](https://moz.com/beginners-guide-to-seo)).
+
+Used appropriately, OJS can help you adhere to these principles, provide effective SEO for journals, and help you raise your visibility on the web.
+
+#### Practical steps and technical issues
+
+Search engines work by sending out automated “crawlers” across the web. These “crawlers” need to be able to visit your site and index every page. Here are some practical steps and considerations you can use in order to help crawlers index your site:
+
+* Search engines have an easier time indexing material that is in HTML format. For OJS journals, your site is in HTML and will present no problems for crawlers. However, you should consider publishing an HTML version of your articles, as PDFs are typically not as indexable. However, steps can be taken to make PDFs more accessible to search engines. See: [10 Tips to make your PDFs SEO friendly](https://www.searchenginejournal.com/pdf-seo-best-practices/59975/):
+
+* If you use images on your journal website or in your articles, it is advisable to use the “alt” attribute to provide search engines with a text-based description of images. This also improves the overall accessibility of your journal website, assisting users with screen readers to understand what your image was despicting. For OJS journals, you can add alt tags for the information you enter as a part of the setup process.
+
+
+![Entering Alternate Text in OJS 3](assets/chapter1/alt-text.png)
+
+Similarly, video and audio content is typically not indexed well by search engines, so providing things like transcripts can go a long way in making this content more accessible and indexed by search engines.
+
+### Usability and User experience
+
+Another important way to enhance your SEO is by having a modern site that provides a positive user experience:
+
+> “Usability and user experience are second order influences on search engine ranking success. They provide an indirect but measurable benefit to a site's external popularity, which the engines can then interpret as a signal of higher quality. This is called the "no one likes to link to a crummy site" phenomenon.” [(Fishkin & Moz, 2015, p. 27)]((https://moz.com/beginners-guide-to-seo).
+
+For OJS users, designing an appropriate site can be achieved through the new OJS theming capabilities.  In particular, OJS 3 offers significant improvements when it comes to user experience and usability, having undergone significant user testing in its development. For guidance on how to customize the look and feel of the OJS software, please consult the [Theming Guide] (https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+
+### Getting Found and Getting Social
+
+With the rise of social media, the sharing of content of websites (including academic articles) via social media outlets such as Facebook and Twitter has also arisen as a factor considered as part of SEO. While search engines may treat socially shared links differently than other web content, it is a factor that is taken into consideration when ranking search results (Fishkin, & Moz, 2015) Google, for example, takes into account different social sharing factors when ranking its search results.
+
+For advice on developing a social media presence for your journal, see the section in this book on using Social Media for your Journal. Publicizing your publication and its contents through social media will help boost your search engine rankings.
+
+### Linking up
+
+>“Links aren't everything in SEO, but search professionals attribute a large portion of the engines' algorithms to link-related factors (see Search Engine Ranking Factors). Through links, engines can not only analyze the popularity websites and pages based on the number and popularity of pages linking to them, but also metrics like trust, spam, and authority.” (Fishkin, & Moz p.30)
+
+Linking on the web works in two directions: links to your journal, including to your articles, from other sites and links you include on your journal to other sites. Both play an important role in SEO. The more sites that link to your journal, the more likely your journal is to rank higher in search engine rankings. Here are some easy things you can do to help get more links to your journal:
+
+1. Hire a professional graphic designer to create a journal logo that others could use to link to your site -- the equivalent of a digital bumper sticker.
+2. Have other journals in your discipline link to your site, in exchange for you linking to them.
+3. Ask your professional association, universities, libraries, academics working your discipline personal websites, or other related organizations to your field to provide a link to your site on their web pages.
+4. Get articles from your journal featured (and therefore linked) in a news story, media release, or blog. Media stories also tend to reach larger audiences, ensuring that your journal website is noticed by more readers than usual.
+
+Getting linked to often comes about through letting others know about your journal and may not require any additional effort. Be wary of mass solicitation in attempting to get others to link to your site, however, as this is often seen as spam and can undermine the credibility of your journal as well as negatively impact your SEO.
+
+Linking from your journal to other relevant sites is another important way to increase your SEO. Relevant is key here, as search engines are smart enough to recognize if you fill your site with unrelated links in an obvious attempt to raise your SEO illegitimately. Some simple ways to increase the relevant links on your website include:
+
+1. Include links to profile pages at the home institutions for all of your editorial team and authors. Here is an example for PKP Director, [Dr. John Willinsky](https://ed.stanford.edu/faculty/willinsk). This not only adds many relevant links to your journal website, but also significantly boosts its credibility by demonstrating that these are all real people. A common practice of predatory journals is to make up editorial board members, or to list people without their knowledge, so this is a good way to show you are a legitimate journal.
+2. Include links to the ORCIDs of your editorial team and authors. Similar to the item above, it increases relevant links and increases your credibility.
+3. Add DOI links to as many items in the references of your articles as possible. This will further boost both your relevant linking and your demonstration of being a professional publication. In OJS, this can be done by adding links to the reference list entries in the PDF galleys, the HTML galleys, and on the article abstract page.
+4. Create a page for relevant journals, associations, and other organizations closely associated with your journal. For example the _Canadian Journal of Sociology_ would likely link to the Canadian Sociological Association.
+5. Add a relevant Twitter feed to the homepage or sidebar of your journal, displaying the latest 5 or 6 links to the latest tweets from a related hashtag.
+
+### Evaluating Your SEO
+
+One of the easiest ways to determine how your publication might be faring in search engines is to do some tests for keywords and phrases. Try searching for your journal name or an article title in a search engine like Google and see your journal site is being indexed. You can also use like [Google Webmaster tools](https://www.google.com/webmasters/) tools to see which sites are linking to your site.
+
+There are a wide variety of tools that can assist you with Search Engine Optimization and can help you understand the traffic that is occurring on your website. Tools such as [Google analytics](https://analytics.google.com/analytics/web/)  or [Piwik](https://analytics.google.com/analytics/web/) - for which there are plugins that you can use in OJS-- are a very popular, free, and effective ways to understand and report on traffic to your journal website. [Moz Link Explorer](https://moz.com/link-explorer) is another tool that allows you to analyze the sites that link to your website.
+
+It takes time, practice, and experience to do SEO properly. However, there are a wide variety of tools that you can use to help grow and understand the web traffic reaching your website.
+
+Search Engine Optimization can be intimidating, but by following some of the advice outlined in this section, you can take steps towards ensuring that your journal will be highly visible in the search engines used by researchers interested in your content.
+
+Further Reading:
+
+[Creating Accessible PDFs (Library Publishing Coalition Webinar[(https://www.youtube.com/watch?v=Ex-XdcO7hjk)
+
+[PDF SEO best practices](https://www.google.com/url?q=https://www.searchenginejournal.com/pdf-seo-best-practices/59975/&sa=D&ust=1541954780929000&usg=AFQjCNGImYJnKymIh6PkQN5tWqUTMyRdfA)
