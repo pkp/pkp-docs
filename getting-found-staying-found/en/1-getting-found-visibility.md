@@ -250,4 +250,18 @@ If the commercial index asks for “exclusive” rights to index your publicatio
 
 The amount of time between the provision of your content to the vendor (e.g. PDF files and article metadata) may vary from one subject index to the next. The vendor will typically provide some mechanism for correction of errors in the guidelines for providing them with content.
 
-It is important to note that commercial products are not Open Access products. They are designed to provide access to a limited audience, and as such limit your publications’ exposure. It is important to broaden one’s indexing strategy beyond commercial indexes and take advantage of multiple different indexes -- both commercial and noncommercial -- to seek the maximum exposure of your journal or publication to a wide variety of audiences. 
+It is important to note that commercial products are not Open Access products. They are designed to provide access to a limited audience, and as such limit your publications’ exposure. It is important to broaden one’s indexing strategy beyond commercial indexes and take advantage of multiple different indexes -- both commercial and noncommercial -- to seek the maximum exposure of your journal or publication to a wide variety of audiences.
+
+### PKP Index
+
+The Public Knowledge Project Index (PKP Index) is an openly available database of articles, books, and conference proceedings, based on journals or other publications that use PKP’s Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Conference Systems (OCS) software applications. The PKP Index uses the Open Harvester System (OHS) software and hosts thousands of publications. It is not subject specific. The PKP Index is a good choice for your first index and is one way that you can increase the visibility of your journal.
+
+In order to be included within the PKP Index, your journal must include at least one published item.  Tests, demonstrations, and empty installations will be rejected. So you’ll need to wait until you’ve started publishing before you can sign up. This will be true of most indexes.
+
+#### Registering for the PKP Index
+
+By Andrea Pritt
+
+To register for the PKP Index go to the [registration page for the PKP Index](http://index.pkp.sfu.ca/index.php/user/register) and follow the instructions and ensure that you adhere to the requirements noted on the registration page.
+
+Processing the registration might take a few days to a week or so, as PKP staff approve the registrations. Check back after a short time, and click on “Browse” to see an alphabetical listing of all publications that are included in the PKP Index and you should see your publication appear. Future issues will be automatically included in the PKP Index, so no further action is required on your part.
