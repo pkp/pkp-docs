@@ -202,3 +202,52 @@ Further Reading:
 [Creating Accessible PDFs (Library Publishing Coalition Webinar[(https://www.youtube.com/watch?v=Ex-XdcO7hjk)
 
 [PDF SEO best practices](https://www.google.com/url?q=https://www.searchenginejournal.com/pdf-seo-best-practices/59975/&sa=D&ust=1541954780929000&usg=AFQjCNGImYJnKymIh6PkQN5tWqUTMyRdfA)
+
+## Indexes and Databases
+
+Indexes and databases are online, searchable collections of information. Sometimes they only include metadata (author names, article titles, subjects, keywords, etc.) and sometimes they contain the full-text. Some of them are freely available, and some of them require individual or institutional subscriptions to access. They are typically curated for relevance and quality and will have some set of criteria for what is included. For your journal, three important things to learn are: 1) is this database relevant to my journal, 2) what are the criteria for being included, and 3) how do I submit my journal’s content.
+
+### An introduction to indexing services
+
+By Andrea Kosavic
+
+Indexing services ensure that scholarly content is discoverable and accessible to the broadest possible audience. It is strategic for a journal’s content to be visible where researchers in the field are conducting their research, and this is achievable by targeting indexes favoured by scholars in a given area of study. This includes any number of open and commercial indexing services, and universal indexes like [Google Scholar](https://scholar.google.com).
+
+Indexes can broadly be categorized as commercial and open. Both have their advantages and disadvantages and are explored in further detail in the sections that follow.
+
+Those seeking maximum exposure for journals are advised to pursue inclusion in as many indexes as is appropriate and possible. It is prudent to bear in mind the significant [documented advantages of publishing in an open access format in terms of usage and impact](http://sparceurope.org/what-we-do/open-access/sparc-europe-open-access-resources/open-access-citation-advantage-service-oaca/oaca-list/): These advantages are magnified by indexing with open indexes.
+
+It is strategic to target indexes for your journal that address the needs of the scholarly community engaging with your publication. These vary from one discipline to the next. Journal editors are advised to consult (Ulrichs Web Global Serials Directory](https://ulrichsweb.serialssolutions.com/), a commercial service for which institutional libraries may have a subscription. A common strategy is to look up comparator journals in one’s subject area within Ulrichs and explore their abstracting & indexing affiliations. This figure shows a tab that be expanded within a respective journal’s description page within Ulrichs.
+
+![Ulrichs](assets/chapter1/ulrichs.png)
+
+
+
+
+This provides an ideal starting point for identifying services to approach. [SPARC also provides a broader list of indexes to consider](http://sparc.arl.org/resources/papers-guides/journal-indexing):
+
+### The indexing process
+
+Different indexes will have varying criteria for including your publications’ content in their index. Depending on the index, the indexing process may require manual intervention. As an example, regular exports of metadata from your journal, sometimes in particular formats, may be required.
+
+Some organizations may provide guidelines and their requirements for publishers providing content to them. This can be include (but is not limited to):
+
+*Delivery mechanism (e.g. via File transfer protocol or web upload)
+*Acceptance of file formats (e.g. PDF, HTML)
+*Provision of metadata -- (e.g. JATS/NLM XML)
+
+Also, bear in mind that some indexes may require that you meet certain criteria before being included in their indexes, such as reaching a minimum number of articles, or publishing a certain category of scholarly outputs (e.g. articles vs. reviews).
+
+In OJS, there are may data export utilities, for example, plugins that export to DOAJ and PubMed, that will facilitate providing some of the necessary contents and metadata to certain indexes.
+
+Most often, when an independently published publication such as a journal seeks to partner with a commercial indexing service for inclusion with a particular commercial database or index, they will often be presented with a legal agreement.
+
+If at all possible, it is advisable to seek legal counsel, or advice from those knowledgeable in electronic licensing, to review this document to ensure that it is in the best interest of your journal/publication.
+
+Some things to be wary of:
+
+If the commercial index asks for “exclusive” rights to index your publication, this is problematic. This means that you may not be free to provide other entities (commercial or non-commercial)  with the ability to index your content. Granting the indexing organization “non-exclusive” rights is much better as it frees your journal to seek out other indexing partnerships and not be limited to indexing in just one database, or with one commercial vendor.
+
+The amount of time between the provision of your content to the vendor (e.g. PDF files and article metadata) may vary from one subject index to the next. The vendor will typically provide some mechanism for correction of errors in the guidelines for providing them with content.
+
+It is important to note that commercial products are not Open Access products. They are designed to provide access to a limited audience, and as such limit your publications’ exposure. It is important to broaden one’s indexing strategy beyond commercial indexes and take advantage of multiple different indexes -- both commercial and noncommercial -- to seek the maximum exposure of your journal or publication to a wide variety of audiences. 
