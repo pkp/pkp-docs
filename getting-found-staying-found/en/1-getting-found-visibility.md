@@ -261,12 +261,7 @@ Listing your journal with open indexes
 
 Like commercial indexes, open indexes are also looking for high quality content, peer review, compatible subject matter, and evidence of stability and sustainability. Some, however, may be willing to accept submissions from new journals lacking an established history of publication. If you do not know the best open indexes for your journal, contact your library. They will be able to guide you in the appropriate direction.
 
-Google Scholar inclusion resources
-
-Google Scholar requires that particular technical specifications be followed to ensure proper indexing. OJS users can take comfort in the knowledge that Google Scholar recognizes OJS as meeting its specifications, but should take care to read the crawl guidelines to ensure their content is optimized for inclusion.
-
-More on Google Scholar here ...
-
+G
 
 ### PKP Index
 
@@ -293,6 +288,41 @@ Having your journal included in DOAJ can have significant benefits for your jour
 
 DOAJ determines quality and acceptance into the directory through an extensive application process. In March 2014, new criteria guidelines were established. DOAJ provides guidance for journals for its application process. Journals may also be removed from the index if they do not meat DOAJ’s requirements. More information about inclusion and removal of journals, can be found at the [FAQ list] (https://doaj.org/faq#list)
 
+oogle Scholar inclusion resources
+
+Google Scholar requires that particular technical specifications be followed to ensure proper indexing. OJS users can take comfort in the knowledge that Google Scholar recognizes OJS as meeting its specifications, but should take care to read the crawl guidelines to ensure their content is optimized for inclusion.
+
+More on Google Scholar here ...
+
+#### PubMed/Medline inclusion resources					
+PubMed  is one of the most recognized and respected open indexes. As with commercial indexes, PubMed collects metadata from different journals (all in the field of life sciences and biomedicine) and combines them into a single, searchable database.
+
+Journals in life sciences, medicine, or biomedicine fields that use the Open Journal Systems platform should endeavour to be included in PubMed. To facilitate this, OJS includes an exporting tool, which produces a file of all of your journal’s metadata, suitable for sending directly to PubMed. Some open indexes, such as BioMed Central or Chemistry Central, only include their own published content. For journals not published by BioMed Central or Chemistry Central, it is not an option. Examples of other open indexes include Agricola, from the U.S. National Agriculture Library and ERIC sponsored by the U.S. Department of Education, Institute of Education Sciences.
+
+
+Further reading:
+[Medline journal selection FAQ]: (https://www.nlm.nih.gov/pubs/factsheets/j_sel_faq.html)
+[Medline online application] (https://wwwcf.nlm.nih.gov/lstrc/lstrcform/med/index.html)
+[PubMed Central FAQ for publishers] (https://www.ncbi.nlm.nih.gov/pmc/about/faq-pub/
+[PubMed Central online application] (https://www.ncbi.nlm.nih.gov/pmc/pub/addjournal/
+
+
+### Knowledge Bases and ERM
+
+A knowledge base in the context of electronic resource management refers to a database of metadata about online journals and other online formats. The information about online journals in a knowledge base is frequently organized by publisher/provider and lists of related titles or titles in a product, and is used to facilitate user-facing discovery services such as:
+*Linking between indexes and content platforms (link resolving)
+*Maintaining lists of journal titles that are searchable, browsable, and that link to publisher platform
+*Populating unified / federated indexes of content for “discovery” by specific communities of users
+
+Knowledge bases and link resolvers, journal title lists, and discovery tools may be more or less interoperable, and may be open source projects, but are more frequently developed and maintained by commercial service providers. In either event, representation of title-level metadata in a knowledge base is prerequisite to link resolving, presence in a user-facing journal lists, and indexing in discovery tools such as (Summon), (EDS), and Primo.
+
+Frequently, participation in open indexes such as the PKP Index or the DOAJ (as detailed above) will also achieve representation even in commercial knowledge bases, which often seek to include Open Access resources as a value-add. However, the completeness and currency of Open Access title lists in knowledge bases varies, and it may be necessary to contact a knowledge base provider to request inclusion or an update to a title list that should include a journal, but does not.
+
+Examples of service providers for knowledge bases and related services include:
+  *Ex Libris - [Primo](http://www.exlibrisgroup.com/products/primo-library-discovery/), Summon
+  *Ebsco - [EBSCO discovery service](https://www.ebscohost.com/discovery)
+
+
 ## Commercial indexes	and aggregators			
 Commercial indexes and aggregators are collections of journal citation details (such as author names, article title, journal title, volume and issue numbers, abstracts, etc. – also known as “metadata”) maintained in a central, searchable database. As commercial services, these indexes are only available with a paid subscription, and are often accessed by readers through their library. A significant portion of any academic library budget goes toward making these commercial products freely available to their faculty and students. One of the most influential indexes is Clarivate Analytics’ (previously Thomson Reuters) [Web of Science](https://clarivate.com/products/web-of-science/).
 
@@ -318,3 +348,31 @@ Web of Science is another popular commercial index that many journals wish to ge
 [Selection process: FAQs] (http://wokinfo.com/essays/journal-selection-process/)
 [Submission form][http://ip-science.thomsonreuters.com/info/journalsubmission-front/?utm_source=false&utm_medium=false&utm_campaign=false
 [Evaluation status update request](http://ip-science.thomsonreuters.com/info/jrneval-status/)
+
+
+## Promotion and Marketing
+
+Promoting and marketing your journal to an audienceSome introductory text here.
+
+### Social media
+
+
+By ----
+
+Social media is a valuable way to reach specific audiences to introduce and amplify the work of your journal’s contributors. It can also supplement your communication with contributors by providing a channel that acknowledges and promotes their work. Your chosen platform should apply the established brand of your journal, for example, your journal’s logo, wordmark, or colours, as this consistency will support perception of credibility.
+
+#### Managing multiple platforms
+
+While most platforms are available for use without fees, effective use requires a sustained investment of attention to plan and maintain. Tools such as Twitter, Facebook, Instagram etc. can help you target an audience, but there is huge competition and lots of “noise”.
+
+Building an engaged social media following can absorb as many resources as you are willing to commit. Your social media plan should include recruiting the support of those who have already developed a credible profile and following among the target audience. Social media management tools bring multiple social media accounts into a single platform to facilitate scheduling of content, supervising contributors, and tracking metrics. It is worthwhile to determine your needs and capacities to select a suitable management tool. Few are free, most are subscription based. Examples include [Hootsuite](http://hootsuite.com) or [Social Pilot](https://socialpilot.co/?refer=UWUNR13U).
+
+#### Building a team
+
+It is common for scholarly social networking platforms such as [Academia.edu](https://academia.edu) ResearchGate[ResearchGate](https://researchgate.net), or [Humanities Commons](https://hcommons.org) to provide social features to network users by encouraging them to follow one another and to receive alerts when a followed person publishes. Educating authors about these features can increase their findability but also affect visits to your journal.
+
+Your authors and editorial team are the logical “core” of a journal’s social media team. Useful things they can do to bolster your publication’s social media presence include:
+
+*Like, follow and share the content on the journal’s social media platforms.
+*Follow and promote each other as co-contributors to the journal on their personal or professional social media accounts. For example, point to articles published in the same issue of a journal: “Appreciate the methodology used by Dr. Chao in this article just published in Journal Name with URL”
+*A member of the editorial team can build and oversee a team of staff or volunteers to populate your journal’s social media platforms with content that is vetted before publication. Online management tools such as Hootsuite can help to streamline this process.
