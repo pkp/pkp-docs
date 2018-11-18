@@ -306,5 +306,15 @@ One important consideration is the ownership of intellectual property. Often, as
 
 The actual steps involved to getting material included in commercial databases will differ. For commercial indexes (and many other indexes) they will make information available on how to go about getting indexed as a part of their databases. For example:
 
-https://www.ebsco.com/publisher-support (EBSCO)
-http://www.proquest.com/about/publishers-partners/why-partner-with-proquest.html (Proquest)
+[EBSCO publisher support](https://www.ebsco.com/publisher-support)
+[Proquest publisher partnerships](http://www.proquest.com/about/publishers-partners/why-partner-with-proquest.html)
+
+
+### Web of Science inclusion resources
+
+Web of Science is another popular commercial index that many journals wish to get indexed in. Editors will first want to consult the master journal list to see if the journal is included, and ensure that their publication is in alignment with the selection criteria.
+
+[Web of Science master journal list](http://ip-science.thomsonreuters.com/mjl/?utm_source=false&utm_medium=false&utm_campaign=false)
+[Selection process: FAQs] (http://wokinfo.com/essays/journal-selection-process/)
+[Submission form][http://ip-science.thomsonreuters.com/info/journalsubmission-front/?utm_source=false&utm_medium=false&utm_campaign=false
+[Evaluation status update request](http://ip-science.thomsonreuters.com/info/jrneval-status/)
