@@ -309,6 +309,8 @@ Further reading:
 
 ### Knowledge Bases and ERM
 
+By ....
+
 A knowledge base in the context of electronic resource management refers to a database of metadata about online journals and other online formats. The information about online journals in a knowledge base is frequently organized by publisher/provider and lists of related titles or titles in a product, and is used to facilitate user-facing discovery services such as:
 *Linking between indexes and content platforms (link resolving)
 *Maintaining lists of journal titles that are searchable, browsable, and that link to publisher platform
@@ -376,3 +378,30 @@ Your authors and editorial team are the logical “core” of a journal’s soci
 *Like, follow and share the content on the journal’s social media platforms.
 *Follow and promote each other as co-contributors to the journal on their personal or professional social media accounts. For example, point to articles published in the same issue of a journal: “Appreciate the methodology used by Dr. Chao in this article just published in Journal Name with URL”
 *A member of the editorial team can build and oversee a team of staff or volunteers to populate your journal’s social media platforms with content that is vetted before publication. Online management tools such as Hootsuite can help to streamline this process.
+
+### The news release
+
+By
+
+The inverted pyramid style media release remains a valid tool for getting information to key individuals and organizations about content published in your journal. The method of delivery has changed, but the media release is still a valuable way to pitch a story to a reporter who is almost always a layperson. We may consume media on different platforms, but commercial or traditional media remain the producers of trusted content that is shared across new platforms. Videos from TV news, stories from newspaper websites and blogs, audio from radio stations continue to be widely shared on the new media. These traditional media still confer credibility and reliability to sources. Reporters and their editors still turn to news releases as a way to discover stories. With some exceptions, a news story shared on social media about something in your journal will be perceived with a higher degree of credibility among a wider (though shallower) audience than if you simply post a link to the information on your social media platform.
+
+#### Reasons to use media releases
+
+It might be tempting to rely on an article abstract in place of a media release, but abstracts, regardless of effort to use “plain language” perform a different function and are not accessible to a general audience. The decision to create and use a media release will depend on your journal’s public profile needs and how important it is that your contributors’ work is noticed and by whom.
+
+![Press release](assets/chapter1/pressrelease.jpg)
+
+Image source: By The Air Force Departmental Publishing Office (AFDPO) [Public domain], via Wikimedia Commons. https://en.wikipedia.org/wiki/Inverted_pyramid_(journalism)-Check
+
+It is increasingly common that funders require projects to include a knowledge translation or mobilization component. Getting a story into the local community paper may or may not fulfill this requirement, but an article or mention in an industry magazine such as _Nature_, _Aviation Week_, or _CPA Magazine_ might. News reporters rarely spend time researching stories on their own. They rely on trusted sources. Unless they are assigned to a beat, which is rare now, most reporters will need explicit guidance to understand your subject area. Reporters rely on media releases to understand and shape a story. Media releases point out the relevance of an article to the media outlet’s audience, position an author as an expert and invite reporters to connect with the expert. Reporters rarely have time to read the original journal article.
+
+
+Factors to consider in developing a news release
+
+*Who is your audience and what do you want them to do? Example:  If your journal is for perfusionists and you want them to subscribe or read your new journal about perfusion, consider a media release to The Canadian Society of Clinical Perfusion, not the Globe and Mail
+*Are you the person who should write the release?  An editor may have the support of an institution’s communications staff who will have the skill set and contacts to help you get the story out. In this situation, an editor serves the role of guide and educator to the communications person who is usually not an expert in your field. The editor may also be an important go-between with the author(s).
+*A modern media release can be multi-media, incorporating video, animation, live links and text.
+*The findings or content of specific articles is  much more interesting than the fact you have published a new issue. So each issue offers many promotional opportunities as long as each is tailored to specific audiences.
+*It may be a better use of resources to recruit others who already have a following to promote the content in your journal than to devote resources to building a following from scratch.  The support of influencers who use social media will also help build a journal’s following.
+*Social media can amplify your story, but the substantive content usually resides elsewhere such as a news website, institutional blog, or your journal’s announcements page.
+*Journal content can have a long life. Consider promoting articles published several years earlier, especially if an article can fill an information vacuum for something current. 
