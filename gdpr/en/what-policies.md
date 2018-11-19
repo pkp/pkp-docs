@@ -5,7 +5,7 @@ The following policies should be provided in clear and plain language. Most poli
   * OJS 2: Journal Management > Setup > Step 2.5: Add Item to Appear in “About the Journal”
   * OJS/OMP 3: Settings > Journal > Masthead > About the Journal. 
 
-It is also worth adding a link to these policies in email footers/signature fields. A simple statement like “Journal Data Policies: <url to About page>” would suffice, but each individual policy could also be linked separately. Email footers can be edited in the following location: 
+It is also worth adding a link to these policies in email footers/signature fields. A simple statement like “Journal Data Policies: &lt;url to About page&gt;” would suffice, but each individual policy could also be linked separately. Email footers can be edited in the following location: 
 
   * OJS 2: Journal Management > Setup > Step 1.4: Email Identification, in the Signature field. 
   * OJS/OMP 3: Settings > Workflow > Emails, in the Signature field.
@@ -37,7 +37,7 @@ This setting can be configured in the following locations:
   * OJS 2: Journal Management > Setup > Step 2.3: Privacy Statement. 
   * OJS/OMP 3: Settings > Workflow > Submission > Privacy Statement. 
 
-## Sample Data Privacy Policy
+### Sample Data Privacy Policy
 
 The data collected from registered and non-registered users of this journal falls within the scope of the standard functioning of peer-reviewed journals. It includes information that makes communication possible for the editorial process; it is used to informs readers about the authorship and editing of content; it enables collecting aggregated data on readership behaviors, as well as tracking geopolitical and social elements of scholarly communication. 
 
