@@ -12,7 +12,7 @@ The OJS workflow revolves around different roles for different users, allowing t
 
 Major roles include Site Administrator, Journal Manager, Editor, Section Editor, Author, Reviewer, Copyeditor, Layout Editor, Proofreader, and Reader.
 
-OJS 3 also includes additional roles such as Translator and Designer. You can also create new roles or rename existing ones. More information on configuring roles is available in Chapter 5.
+OJS 3 also includes additional roles such as Translator and Designer. You can also create new roles or rename existing ones. More information on configuring roles is available in [Chapter 7](./users-and-roles.md).
 
 ### Site Administrator
 The Site Administrator is responsible for the overall OJS installation, ensuring the server settings are accurate, adding language files, and creating any new journals on the installation. The Site Administrator account is created as part of the installation process. Unlike all other OJS roles, there can only be one Site Administrator.
@@ -24,17 +24,9 @@ The Journal Manager is responsible for setting up the journal web site, configur
 
 The Journal Manager also enrolls the Editors, Section Editors, Copyeditors, Layout Editors, Proofreaders, Authors, and Reviewers.
 
-The Journal Manager also has access to the journal's other management features, and can create new Sections for the journal, set up Review Forms, edit the default Emails, manage the Reading Tools, view Statistics and Reports, and more.
+The Journal Manager also has access to the journal's other management features, and can create new Sections for the journal, set up Review Forms, edit the default Emails, view statistics and reports, import and export data, and access the editorial workflow and all journal submissions.
 
-Many Journal Managers also enroll as Editors, allowing them to easily manage both the journal settings as well as submissions in the editorial workflow.
-
-
-> **Note**
->
-> Although the Journal Manager is a journal-specific role, journal managers should generally be considered system-wide trusted users, as they have the ability to assume the identities of other users who may be enrolled in other journals.
->
-
-See [Chapter 5: Setting up a Journal](./journal-setup.md) for more details.
+See [Chapter 5: Journal Settings](./journal-setup.md) for more details.
 
 ### Author
 
@@ -54,7 +46,7 @@ Once review is completed, the Editor typically sees the submission through the E
 
 The Editor also creates the journal issues, schedules submissions for publication, arranges the Table of Contents, and publishes the issue as part of the Publishing Process. The Editor can restore archived submissions to the active In Review or In Editing lists.
 
-Many Editors also enroll as Journal Managers, allowing them to easily manage both the editorial workflow as well as the journal settings.
+Editors can also access journal settings, users and roles, and tools.
 
 See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
 
