@@ -37,3 +37,4 @@ publishers who may be establishing the reputation of their journal are the secti
 ## Further Reading:
 
 [The International Committee of Medical Journal Editors (ICMJE) recommendations](http://www.icmje.org/recommendations/)
+[Coalition for Diversity and Inclusion in Scholarly Communications - Statement of Principles](https://c4disc.org/principles/)
