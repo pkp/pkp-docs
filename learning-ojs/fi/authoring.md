@@ -4,7 +4,7 @@ Tässä luvussa kerrotaan OJS3-järjestelmän toiminnoista kirjoittajan näkykul
 
 ## Rekisteröityminen julkaisuun
 
-Käsikirjoituksen lähettämiseksi tarvitset käyttäjätilin OJS-järjestelmään. \(katso [Rekisteröityminen julkaisuun](./registering_with_a_journal.md)\).  Lehden ylläpito voi kytkeä rekisteröitymistoiminnon pois päältä, jolloin järjestelmä ilmoittaa, että rekisteröityminen on suljettu.
+Käsikirjoituksen lähettämiseksi tarvitset käyttäjätilin OJS-järjestelmään. \(katso [Rekisteröityminen julkaisuun](./user-accounts#Rekisteröityminen)\).  Lehden ylläpito voi kytkeä rekisteröitymistoiminnon pois päältä, jolloin järjestelmä ilmoittaa, että rekisteröityminen on suljettu.
 
 Aloita rekisteröityminen valitsemalla Rekisteröidy-linkki, joka löytyy tavallisesti julkaisun kotisivun oikeasta yläkulmasta.
 
