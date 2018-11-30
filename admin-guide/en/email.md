@@ -2,7 +2,7 @@
 
 ## **Primary and Technical Contacts**
 
-All PKP applications require that a primary and technical contact are configured under Setup for proper  daily operations. This has to be done for every journal, press or conference on the system. In OJS 2.x, this can be done under _Setup Step 1_. In OCS 2.x, this can be done under _Website Management Step 1_. IN OJS/OMP 3.x, this can be done under _Settings &gt; Journal &gt; Contact_.
+All PKP applications require that primary and technical contacts are configured under Setup for proper daily operations. This is required for every journal, press, or conference on the system. In OJS 2.x, this can be done under _Setup Step 1_. In OCS 2.x, this can be done under _Website Management Step 1_. IN OJS/OMP 3.x, this can be done under _Settings &gt; Journal &gt; Contact_.
 
 ## **Sending Mail**
 
@@ -18,9 +18,9 @@ Our software can also be configured to use an SMTP server as specified in `confi
 
 ## **Setting a Bounce Address**
 
-To control the address to which a bounced emails will be sent, you need to set the envelope sender address. Enable the `allow_envelope_sender` option in the `[email]` section of the configuration file; when this option is enabled, a "Bounce Address" field appears in the Email section under Setup.
+To control the address to which a bounced email will be sent, you need to set the envelope sender address. Enable the `allow_envelope_sender` option in the `[email]` section of the configuration file; when this option is enabled, a "Bounce Address" field appears in the Email section under Setup.
 
-Note that this option may require changes to the server's mail server configuration so that the user the web server runs as \(e.g. "www-data"\) is trusted by the sendmail program, or an "X-Warning" header will be added to outgoing messages. Consult your mail server's documentation if outgoing mails include such a header.
+Note that this option may require changes to the server's mail server configuration so that the user the web server runs as \(e.g. "www-data"\) is trusted by the sendmail program; otherwise an "X-Warning" header will be added to outgoing messages. Consult your mail server's documentation if outgoing mails include such a header.
 
 For example, Sendmail keeps a list of trusted users in the file "/etc/mail/trusted-users"; other mail systems use similar files.
 
@@ -72,9 +72,9 @@ If emails aren't being received by some users, the first thing to do is check to
 
 If the user can find no record whatsoever of the email being filtered as spam or junk, you may be encountering a **Sender Policy Framework** \(SPF\) validation problem with their server. You can confirm this by viewing your server's mail log to see if there are any reported receipt blockages/returns with SPF validation errors as the result.
 
-### **Explanation of the problem, and the solution**
+### **Explanation of the problem and the solution**
 
-As of version 2.4.6, OJS included a change to the way emails are sent out. Previously, all emails were sent using the OJS user's email address in the "FROM" field. This unfortunately led to some issues with the journal's outgoing emails being flagged as "spoofed" by some email servers, since the email addresses in question \(eg. james@myinstitution.org"\) didn't match the domain name of the server sending the email \(eg. "myjournal.com"\). \(Technically, the emails were failing Sender Policy Framework \(SPF\) validation.\) Being flagged in this way is more serious than being considered spam: in many cases, the receiving email server won't even assign the email to a spam/junk queue, instead simply choosing to discard it. 
+As of version 2.4.6, OJS included a change to the way emails are sent out. Previously, all emails were sent using the OJS user's email address in the "FROM" field. This unfortunately led to some issues with the journal's outgoing emails being flagged as "spoofed" by some email servers because the email addresses in question \(eg. james@myinstitution.org"\) didn't match the domain name of the server sending the email \(eg. "myjournal.com"\). \(Technically, the emails were failing Sender Policy Framework \(SPF\) validation.\) Being flagged in this way is more serious than being considered spam: in many cases, the receiving email server won't even assign the email to a spam/junk queue, instead simply choosing to discard it. 
 
 #### **Solution 1 \(OMP, OJS\):** 
 
