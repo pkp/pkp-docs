@@ -43,9 +43,9 @@ A ISSN can be obtained free of charge from a [local ISSN Centre](http://www.issn
 ![LAC ISSN](assets/chapter1/lac-issn.png)
 _An example of an ISSN application from Library and Archives Canada_
 
-ISSNs should be displayed on the journal’s website where it can be easily located, such as the footer or sidebar. If the publication has both a print and online edition, there is typically one for each. In OJS, you will be asked to enter your ISSN as part of the Journal Settings. This is used for metadata purposes and is not shown to readers. To make the ISSN visible in the journal footer, type it into the footer text field in the Website Settings. To make is visible in the sidebar, create a custom block.
+ISSNs should be displayed on the journal’s website where it can be easily located, such as the footer or sidebar. If the publication has both a print and online edition, there is typically one for each. In OJS, you will be asked to enter your ISSN as part of the Journal Settings. This is used for metadata purposes and is not shown to readers. To make the ISSN visible in the journal footer, type it into the footer text field in the Website Settings. To make the ISSN visible in the sidebar, create a custom block.
 
-For the final published version of an article (i.e., a PDF galley), you may also want to include the ISSN, along with the journal name and DOI (see below), on the final page or in the footer of the PDF of the article itself. This is important, as PDFs can be downloaded, shared via email, and become disassociated with the journal. You always want to provide an easy and obvious link back to your journal.
+For the final published version of an article (i.e., a PDF galley), you may also want to include the ISSN, along with the journal name and DOI (see below), on the final page or in the footer of the PDF, or in another area of the layout version of the article itself. This is important, as PDFs can be downloaded, shared via email, and become disassociated with the journal. You always want to provide an easy and obvious link back to your journal.
 
 ### Digital Object Identifiers (DOIs)
 The Digital Object Identifier or DOI is used to individually identify unique content. They are typically applied to journal articles, but can be used for other content types such as datasets, images, or other supplementary materials added alongside articles. DOIs are what are called “persistent identifiers” -- so even if the URL (Uniform Resource Locator - in other words, a website link) for a journal changes, the DOI remains the same and can be used to link to an article. DOIs are becoming increasingly common and their use is seen as an indicator of the professionalism of the journal, so it is important to take them seriously.
@@ -59,7 +59,7 @@ The DOI in this case is  10.4212/cjhp.v69i6.1606
 
 The “10.” part of the prefix identifies the DOI registry - the agency that issues the DOI numbers, in this example, Crossref. The characters “4212” in the prefix identify the registrant - in this case, the publisher: Multimed. And the cjhp.v69i6.1606, the suffix, consists of several different parts, meant to distinguish the particular content:
 
-“cjhp” --  is an abbreviation for the journal -- The Canadian Journal of Hospital Pharmacy. This is a common feature of DOIs, where a journal will opt to be identified in a DOI by a standardized journal abbreviation. Multimed publishes multiple journals, and this helps to identify to which of its titles this article belongs.
+“cjhp” --  is an abbreviation for the journal -- The _Canadian Journal of Hospital Pharmacy_. This is a common feature of DOIs, where a journal will opt to be identified in a DOI by a standardized journal abbreviation. Multimed publishes multiple journals, and this helps to identify to which of its titles this article belongs.
 
 “v69i6.1606” - is the volume number of the article (69), then the issue number (6), and finally “1606” is a unique identifier for the individual article. For journals using OJS, the DOI will be automatically generated for each article.
 
@@ -72,7 +72,7 @@ Journals publishing with OJS will find it very easy to work with DOIs. However, 
 
 #### Registering your DOIs in OJS
 
-Once you have joined Crossref and configured OJS to use DOIs, you will need to register your content as it is published. Again, OJS can help you with this, and the steps are outlined in the [Crossref manual]((http://docs.pkp.sfu.ca/crossref/).
+Once you have joined Crossref and configured OJS to use DOIs, you will need to register your content as it is published. Again, OJS can help you with this, and the steps are outlined in the [Crossref manual](http://docs.pkp.sfu.ca/crossref/).
 
 ### Open Researcher and Contributor ID (ORCID)
 
@@ -81,7 +81,7 @@ The Open Research and Contributor ID (ORCID) is a persistent digital identifier 
 An ORCID can be obtained by any researcher by [registering on the ORCID website](https://orcid.org/register). Registering for an ORCID is free, and filling out a basic profile takes just a few minutes.
 
 
-Here’s an example of an ORCID profile: http://orcid.org/0000-0001-6192-8687 for researcher and PKP Director John Willinsky.
+Here’s an example of an ORCID profile: [http://orcid.org/0000-0001-6192-8687](http://orcid.org/0000-0001-6192-8687) for researcher and PKP Director John Willinsky.
 
 ![LAC ISSN](assets/chapter1/willinsky-orcid.png)
 
@@ -92,7 +92,7 @@ Note |
 ------------ |
 Having a public profile also lends credibility to a researcher, allowing them to specify their education, employment, as well as published works in one central location. It also lends credibility to the journal, such as when you include the ORCID numbers for each of your editorial team members on your website. It is a valuable way to demonstrate that there are real people associated with your journal, not a list of made up names (which is seen as a sign of being a “predatory” journal).  |  
 
-Journal managers can encourage the use of ORCIDs by authors as a means of effectively collecting up-to-date information. While it might not be appropriate to enforce the use of ORCIDs, as not all authors will have them, it could be suggested to authors that they obtain an ORCID as part of the submission process and be required upon acceptance. This information, including a link to the ORCID registration form, could be part of the journal’s submission policy and featured on the journal’s website.
+Journal managers can encourage the use of ORCIDs by authors as a means of effectively collecting up-to-date information. While it might not be appropriate to enforce the use of ORCIDs, as not all authors will have them, it could be suggested to authors that they obtain an ORCID as part of the submission process and that it be required upon acceptance. This information, including a link to the ORCID registration form, could be part of the journal’s submission policy and featured on the journal’s website.
 
 For journals using OJS, the ORCID can be entered as part of a user profile (under “Public” in OJS 3):
 
@@ -107,7 +107,7 @@ This will automatically pull their personal data (first name, last name, email, 
 
 
 #### Further Reading:
-Library Publishing Coalition(LPC) Webinar Series: [ORCID in Publishing Workflows](https://www.youtube.com/watch?v=9A3sk13C7QM)
+Library Publishing Coalition (LPC) Webinar Series: [ORCID in Publishing Workflows](https://www.youtube.com/watch?v=9A3sk13C7QM)
 
 
 ### Metadata
@@ -135,7 +135,7 @@ Some of the best ways to ensure good SEO are based on more general principles re
 * Provide direct, actionable information relevant to a users’ search query
 * Deliver high quality, legitimate, credible content
 
-(Source: [(Fishkin & Moz, 2015)](https://moz.com/beginners-guide-to-seo)).
+Source: [(Fishkin & Moz, 2015)](https://moz.com/beginners-guide-to-seo).
 
 Used appropriately, OJS can help you adhere to these principles, provide effective SEO for journals, and help you raise your visibility on the web.
 
@@ -143,14 +143,14 @@ Used appropriately, OJS can help you adhere to these principles, provide effecti
 
 Search engines work by sending out automated “crawlers” across the web. These “crawlers” need to be able to visit your site and index every page. Here are some practical steps and considerations you can use in order to help crawlers index your site:
 
-* Search engines have an easier time indexing material that is in HTML format. For OJS journals, your site is in HTML and will present no problems for crawlers. However, you should consider publishing an HTML version of your articles, as PDFs are typically not as indexable. However, steps can be taken to make PDFs more accessible to search engines. See: [10 Tips to make your PDFs SEO friendly](https://www.searchenginejournal.com/pdf-seo-best-practices/59975/)
+* Search engines have an easier time indexing material that is in HTML format. For OJS journals, your site is in HTML and will present no problems for crawlers. However, you should consider publishing an HTML version of your articles, as PDFs are typically not as indexable. Keep in mind that steps can be taken to make PDFs more accessible to search engines. See: [10 Tips to make your PDFs SEO friendly](https://www.searchenginejournal.com/pdf-seo-best-practices/59975/)
 
-* If you use images on your journal website or in your articles, it is advisable to use the “alt” attribute to provide search engines with a text-based description of images. This also improves the overall accessibility of your journal website, assisting users with screen readers to understand what your image was despicting. For OJS journals, you can add alt tags for the information you enter as a part of the setup process.
+* If you use images on your journal website or in your articles, it is advisable to use the “alt” attribute to provide search engines with a text-based description of images. This also improves the overall accessibility of your journal website, assisting users with screen readers to understand the contents of an image. For OJS journals, you can add alt tags for the information you enter as a part of the setup process.
 
 
 ![Entering Alternate Text in OJS 3](assets/chapter1/alt-text.png)
 
-Similarly, video and audio content is typically not indexed well by search engines, so providing things like transcripts can go a long way in making this content more accessible and indexed by search engines.
+Similarly, video and audio content is typically not indexed well by search engines, so providing things like transcripts can go a long way in making this content more accessible and indexed by search engines, as well as usable by a broader spectrum of users, such as those with hearing or visual disabilities.
 
 ### Usability and User experience
 
@@ -162,13 +162,13 @@ For OJS users, designing an appropriate site can be achieved through the new OJS
 
 ### Getting Found and Getting Social
 
-With the rise of social media, the sharing of content of websites (including academic articles) via social media outlets such as Facebook and Twitter has also arisen as a factor considered as part of SEO. While search engines may treat socially shared links differently than other web content, it is a factor that is taken into consideration when ranking search results (Fishkin, & Moz, 2015). Google, for example, takes into account different social sharing factors when ranking its search results.
+With the rise of social media, the sharing of content of websites (including academic articles) via social media outlets such as Facebook and Twitter has also arisen as a factor considered as part of SEO. While search engines may treat socially shared links differently than other web content, it is a factor that is taken into consideration when ranking search results [(Fishkin, & Moz, 2015)]((https://moz.com/beginners-guide-to-seo). Google, for example, takes into account different social sharing factors when ranking its search results.
 
 For advice on developing a social media presence for your journal, see the section in this book on using Social Media for your Journal. Publicizing your publication and its contents through social media will help boost your search engine rankings.
 
 ### Linking up
 
->“Links aren't everything in SEO, but search professionals attribute a large portion of the engines' algorithms to link-related factors (see Search Engine Ranking Factors). Through links, engines can not only analyze the popularity websites and pages based on the number and popularity of pages linking to them, but also metrics like trust, spam, and authority.” (Fishkin, & Moz p.30)
+>“Links aren't everything in SEO, but search professionals attribute a large portion of the engines' algorithms to link-related factors (see Search Engine Ranking Factors). Through links, engines can not only analyze the popularity websites and pages based on the number and popularity of pages linking to them, but also metrics like trust, spam, and authority.” [(Fishkin, & Moz p.30)](https://moz.com/beginners-guide-to-seo)
 
 Linking on the web works in two directions: links to your journal, including to your articles, from other sites and links you include on your journal to other sites. Both play an important role in SEO. The more sites that link to your journal, the more likely your journal is to rank higher in search engine rankings. Here are some easy things you can do to help get more links to your journal:
 
@@ -205,7 +205,7 @@ Search Engine Optimization can be intimidating, but by following some of the adv
 
 ## Indexes and Databases
 
-Indexes and databases are online, searchable collections of information. Sometimes they only include metadata (author names, article titles, subjects, keywords, etc.) and sometimes they contain the full-text. Some of them are freely available, and some of them require individual or institutional subscriptions to access. They are typically curated for relevance and quality and will have some set of criteria for what is included. For your journal, three important things to learn are: 1) is this database relevant to my journal, 2) what are the criteria for being included, and 3) how do I submit my journal’s content.
+Indexes and databases are online, searchable collections of information. Sometimes they only include metadata (author names, article titles, subjects, keywords, etc.) and sometimes they contain the full-text. Some of them are freely available, and some of them require individual or institutional subscriptions to access. They are typically curated for relevance and quality and will have some set of criteria for what is included. For your journal, three important questions to ask are: is this database relevant to my journal? What are the criteria for being included? How do I submit my journal’s content?
 
 ### An introduction to indexing services
 
@@ -215,7 +215,7 @@ Indexing services ensure that scholarly content is discoverable and accessible t
 
 Indexes can broadly be categorized as commercial and open. Both have their advantages and disadvantages and are explored in further detail in the sections that follow.
 
-Those seeking maximum exposure for journals are advised to pursue inclusion in as many indexes as is appropriate and possible. It is prudent to bear in mind the significant [documented advantages of publishing in an open access format in terms of usage and impact](http://sparceurope.org/what-we-do/open-access/sparc-europe-open-access-resources/open-access-citation-advantage-service-oaca/oaca-list/): These advantages are magnified by indexing with open indexes.
+Those seeking maximum exposure for journals are advised to pursue inclusion in as many indexes as is appropriate and possible. It is prudent to bear in mind the significant [documented advantages of publishing in an open access format in terms of usage and impact](http://sparceurope.org/what-we-do/open-access/sparc-europe-open-access-resources/open-access-citation-advantage-service-oaca/oaca-list/). These advantages are magnified by indexing with open indexes.
 
 It is strategic to target indexes for your journal that address the needs of the scholarly community engaging with your publication. These vary from one discipline to the next. Journal editors are advised to consult [Ulrichs Web Global Serials Directory](https://ulrichsweb.serialssolutions.com/), a commercial service for which institutional libraries may have a subscription. A common strategy is to look up comparator journals in one’s subject area within Ulrichs and explore their abstracting & indexing affiliations. This figure shows a tab that be expanded within a respective journal’s description page within Ulrichs.
 
@@ -228,7 +228,7 @@ This provides an ideal starting point for identifying services to approach. [SPA
 
 Different indexes will have varying criteria for including your publications’ content in their index. Depending on the index, the indexing process may require manual intervention. As an example, regular exports of metadata from your journal, sometimes in particular formats, may be required.
 
-Some organizations may provide guidelines and their requirements for publishers providing content to them. This can be include (but is not limited to):
+Some organizations may provide guidelines and their requirements for publishers providing content to them. This can include (but is not limited to):
 
 * Delivery mechanism (e.g. via File transfer protocol or web upload)
 * Acceptance of file formats (e.g. PDF, HTML)
@@ -255,7 +255,6 @@ It is important to note that commercial products are not Open Access products. T
 Open indexes are similar to commercial indexes, in that they aggregate citation metadata into a single, searchable database or listing. The main types of open indexes include directories and search engines. One of the principle advantages of open indexes is that they are freely available online for anyone to use, including individual readers and libraries.
 
 Many open indexes are also be more willing to include content from new journals, placing more emphasis on the quality of your content and your open access policy than on a large archive of published material. In addition, your content can often be included more quickly in open indexes. Open indexes are becoming increasingly important to researchers. While they may not yet have the same prestige or influence as some of the commercial indexes, becoming part of one or more of them will significantly raise your journal’s profile with a wider audience of readers.
-Listing your journal with open indexes 	
 
 Like commercial indexes, open indexes are also looking for high quality content, peer review, compatible subject matter, and evidence of stability and sustainability. Some, however, may be willing to accept submissions from new journals lacking an established history of publication. If you do not know the best open indexes for your journal, contact your library. They will be able to guide you in the appropriate direction.
 
@@ -263,7 +262,7 @@ Like commercial indexes, open indexes are also looking for high quality content,
 
 By Andrea Pritt
 
-The Public Knowledge Project Index (PKP Index) is an openly available database of articles, books, and conference proceedings, based on journals or other publications that use PKP’s Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Conference Systems (OCS) software applications. The PKP Index uses the Open Harvester System (OHS) software and hosts thousands of publications. It is not subject specific. The PKP Index is a good choice for your first index and is one way that you can increase the visibility of your journal.
+The [Public Knowledge Project Index (PKP Index)](https://index.pkp.sfu.ca) is an openly available database of articles, books, and conference proceedings, based on journals or other publications that use PKP’s Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Conference Systems (OCS) software applications. The PKP Index uses the Open Harvester System (OHS) software and hosts thousands of publications. It is not subject specific. The PKP Index is a good choice for your first index and is one way that you can increase the visibility of your journal.
 
 In order to be included within the PKP Index, your journal must include at least one published item.  Tests, demonstrations, and empty installations will be rejected. So you’ll need to wait until you’ve started publishing before you can sign up. This will be true of most indexes.
 
@@ -281,17 +280,18 @@ The Directory of Open Access Journals (DOAJ) is an online, community-curated lis
 
 Having your journal included in DOAJ can have significant benefits for your journal’s reputation, usage, and impact. The DOAJ has established itself as a key index for high quality Open Access journals worldwide. It is becoming the defacto “white list” of non-predatory open access journals, so you definitely want to be part of it. Including your journal in DOAJ will bring significant visibility to your journal -- libraries include DOAJ journals as part of their catalogs, which will mean that your journals’ content will be included when thousands of students, faculty, and other researchers are looking for content. DOAJ is also a very common resource for authors looking for Open Access journals to publish in, which will also serve to raise the profile of your journal and assert its legitimacy. To help authors identify potential journals for submission by topic, DOAJ includes a Browse Subject feature.
 
-DOAJ determines quality and acceptance into the directory through an extensive application process. In March 2014, new criteria guidelines were established. DOAJ provides guidance for journals for its application process. Journals may also be removed from the index if they do not meat DOAJ’s requirements. More information about inclusion and removal of journals, can be found at the [FAQ list] (https://doaj.org/faq#list)
+DOAJ determines quality and acceptance into the directory through an extensive application process. In March 2014, new criteria guidelines were established. DOAJ provides guidance for journals for its application process. Journals may also be removed from the index if they do not meat DOAJ’s requirements. More information about inclusion and removal of journals, can be found at the [FAQ list](https://doaj.org/faq#list)
 
 
-#### Google Scholar
+### Google Scholar
 
+By  Roger Gillis and Andrea Kosavic
 
-Google Scholar is a search engine for scholarly literature that has grown quite popular since it launched in 2004. It provides a simple search interface allowing users to search across many disciplines and sources for scholarly material such as articles, theses, books, abstracts, and court opinions and includes material from academic publishers, professional societies, online repositories, universities and other web sites. (Google Scholar “About” 2018).
+Google Scholar is a search engine for scholarly literature that has grown quite popular since it launched in 2004. It provides a simple search interface allowing users to search across many disciplines and sources for scholarly material such as articles, theses, books, abstracts, and court opinions and includes material from academic publishers, professional societies, online repositories, universities and other web sites. [(Google Scholar “About” 2018]https://scholar.google.ca/intl/en/scholar/about.html).
 
 Google scholar is used by many people to access scholarly research, including researchers themselves, so having your journal included in its search results can provide great exposure for your journal. 
 
-OJS interacts very well with Google Scholar. In fact, Google Scholar [recommends OJS as a publishing system for journals seeking to get their articles discovered online](https://scholar.google.ca/intl/en/scholar/inclusion.html) . In order to expedite indexing in Google Scholar you can also use Google Webmaster Tools. 
+OJS interacts very well with Google Scholar. In fact, Google Scholar [recommends OJS as a publishing system for journals seeking to get their articles discovered online](https://scholar.google.ca/intl/en/scholar/inclusion.html). In order to expedite indexing in Google Scholar you can also use [Google Webmaster Tools](https://www.google.com/webmasters/). 
 
 Google Scholar has as part of its criteria, that your content feature primarily scholarly articles. Additionally, at a minimum, the abstracts will need to be made freely available in order that they may be viewed in Google Scholar search results. 
 
@@ -299,7 +299,10 @@ In order to be crawled by Google Scholar, the articles that your journal publish
 
 Google Scholar requires that particular technical specifications be followed to ensure proper indexing. OJS users can take comfort in the knowledge that Google Scholar recognizes OJS as meeting its specifications, but should take care to read the [indexing guidelines](https://scholar.google.ca/intl/en/scholar/inclusion.html) to ensure their content is optimized for inclusion.
 
-#### PubMed/Medline inclusion resources					
+#### PubMed/Medline inclusion resources		
+
+By Andrea Kosavic
+
 PubMed  is one of the most recognized and respected open indexes. As with commercial indexes, PubMed collects metadata from different journals (all in the field of life sciences and biomedicine) and combines them into a single, searchable database.
 
 Journals in life sciences, medicine, or biomedicine fields that use the Open Journal Systems platform should endeavour to be included in PubMed. To facilitate this, OJS includes an exporting tool, which produces a file of all of your journal’s metadata, suitable for sending directly to PubMed. Some open indexes, such as BioMed Central or Chemistry Central, only include their own published content. For journals not published by BioMed Central or Chemistry Central, it is not an option. Examples of other open indexes include Agricola, from the U.S. National Agriculture Library and ERIC sponsored by the U.S. Department of Education, Institute of Education Sciences.
@@ -333,7 +336,7 @@ Examples of service providers for knowledge bases and related services include:
 
 ## Commercial indexes	and aggregators		
 
-By Roger Gillis
+By Andrea Kosavic and Roger Gillis
 
 Commercial indexes and aggregators are collections of journal citation details (such as author names, article title, journal title, volume and issue numbers, abstracts, etc. – also known as “metadata”) maintained in a central, searchable database. As commercial services, these indexes are only available with a paid subscription, and are often accessed by readers through their library. Significant portions of many academic library budgets go toward making these commercial products freely available to their faculty and students. One of the most influential indexes is Clarivate Analytics’ (previously Thomson Reuters) [Web of Science](https://clarivate.com/products/web-of-science/).
 
@@ -353,6 +356,8 @@ The actual steps involved to getting material included in commercial databases w
 
 ### Web of Science inclusion resources
 
+By Andrea Kosavic
+
 Web of Science is another popular commercial index that many journals wish to get indexed in. Editors will first want to consult the master journal list to see if the journal is included, and ensure that their publication is in alignment with the selection criteria.
 
 *Web of Science Resources*
@@ -364,6 +369,8 @@ Web of Science is another popular commercial index that many journals wish to ge
 
 
 ## Promotion and Marketing
+
+By Suzanne Jay
 
 Promoting and marketing your journal to propspective audiences can be a great way to raise the profile of your journal. There are a variety of ways to go about this, including via Social Media as well as getting media attention for research that your jornal publishes.
 
@@ -379,7 +386,7 @@ Building an engaged social media following can absorb as many resources as you a
 
 #### Building a team
 
-It is common for scholarly social networking platforms such as [Academia.edu](https://academia.edu),ResearchGate](https://researchgate.net), or [Humanities Commons](https://hcommons.org) to provide social features to network users by encouraging them to follow one another and to receive alerts when a followed person publishes. Educating authors about these features can increase their findability but also affect visits to your journal.
+It is common for scholarly social networking platforms such as [Academia.edu](https://academia.edu),[ResearchGate](https://researchgate.net), or [Humanities Commons](https://hcommons.org) to provide social features to network users by encouraging them to follow one another and to receive alerts when a followed person publishes. Educating authors about these features can increase their findability but also affect visits to your journal.
 
 Your authors and editorial team are the logical “core” of a journal’s social media team. Useful things they can do to bolster your publication’s social media presence include:
 
@@ -397,12 +404,12 @@ It might be tempting to rely on an article abstract in place of a media release,
 
 ![Press release](assets/chapter1/press-release.jpg)
 
-Image source: By The Air Force Departmental Publishing Office (AFDPO) [Public domain], via Wikimedia Commons. https://en.wikipedia.org/wiki/Inverted_pyramid_(journalism)-Check
+Image source: By The Air Force Departmental Publishing Office (AFDPO) [Public domain], via Wikimedia Commons. [https://en.wikipedia.org/wiki/Inverted_pyramid_(journalism)-Check](https://en.wikipedia.org/wiki/Inverted_pyramid_(journalism)-Check)
 
 It is increasingly common that funders require projects to include a knowledge translation or mobilization component. Getting a story into the local community paper may or may not fulfill this requirement, but an article or mention in an industry magazine such as _Nature_, _Aviation Week_, or _CPA Magazine_ might. News reporters rarely spend time researching stories on their own. They rely on trusted sources. Unless they are assigned to a beat, which is rare now, most reporters will need explicit guidance to understand your subject area. Reporters rely on media releases to understand and shape a story. Media releases point out the relevance of an article to the media outlet’s audience, position an author as an expert and invite reporters to connect with the expert. Keep in mind that, reporters may not be able to read the original journal article, and may not have the necessary disciplinary background to interpret it appropriately.
 
 
-Factors to consider in developing a news release
+#### Factors to consider in developing a news release
 
 * Who is your audience and what do you want them to do? Example:  If your journal is for perfusionists and you want them to subscribe or read your new journal about perfusion, consider a media release to The Canadian Society of Clinical Perfusion, not the Globe and Mail
 * Are you the person who should write the release?  An editor may have the support of an institution’s communications staff who will have the skill set and contacts to help you get the story out. In this situation, an editor serves the role of guide and educator to the communications person who is usually not an expert in your field. The editor may also be an important go-between with the author(s).
