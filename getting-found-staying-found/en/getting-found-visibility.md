@@ -162,7 +162,7 @@ For OJS users, designing an appropriate site can be achieved through the new OJS
 
 ### Getting Found and Getting Social
 
-With the rise of social media, the sharing of content of websites (including academic articles) via social media outlets such as Facebook and Twitter has also arisen as a factor considered as part of SEO. While search engines may treat socially shared links differently than other web content, it is a factor that is taken into consideration when ranking search results [(Fishkin, & Moz, 2015)]((https://moz.com/beginners-guide-to-seo). Google, for example, takes into account different social sharing factors when ranking its search results.
+With the rise of social media, the sharing of content of websites (including academic articles) via social media outlets such as Facebook and Twitter has also arisen as a factor considered as part of SEO. While search engines may treat socially shared links differently than other web content, it is a factor that is taken into consideration when ranking search results [(Fishkin, & Moz, 2015)](https://moz.com/beginners-guide-to-seo). Google, for example, takes into account different social sharing factors when ranking its search results.
 
 For advice on developing a social media presence for your journal, see the section in this book on using Social Media for your Journal. Publicizing your publication and its contents through social media will help boost your search engine rankings.
 
