@@ -358,14 +358,14 @@ The actual steps involved to getting material included in commercial databases w
 
 By Andrea Kosavic
 
-Web of Science is another popular commercial index that many journals wish to get indexed in. Editors will first want to consult the master journal list to see if the journal is included, and ensure that their publication is in alignment with the selection criteria.
+Web of Science is another popular commercial index that many journals wish to get indexed in. Editors will first want to consult the [master journal list](http://ip-science.thomsonreuters.com/mjl/?utm_source=false&utm_medium=false&utm_campaign=false) to see if the journal is included, and ensure that their publication is in alignment with the selection criteria.
 
-*Web of Science Resources*
+*Web of Science Resources:*
 
 * [Web of Science master journal list](http://ip-science.thomsonreuters.com/mjl/?utm_source=false&utm_medium=false&utm_campaign=false)
-* [Selection process: FAQs] (http://wokinfo.com/essays/journal-selection-process/)
-* [Submission form][http://ip-science.thomsonreuters.com/info/journalsubmission-front/?utm_source=false&utm_medium=false&utm_campaign=false]
-* [Evaluation status update request](http://ip-science.thomsonreuters.com/info/jrneval-status/)
+* [Journal selection process](http://wokinfo.com/essays/journal-selection-process/)
+* [Submission for evaluation form](http://ip-science.thomsonreuters.com/info/journalsubmission-front/?utm_source=false&utm_medium=false&utm_campaign=false)
+* [Evaluation status update request form](http://ip-science.thomsonreuters.com/info/jrneval-status/)
 
 
 ## Promotion and Marketing
