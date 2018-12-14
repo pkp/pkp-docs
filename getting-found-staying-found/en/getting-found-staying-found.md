@@ -67,25 +67,30 @@ Once your journal is set up on a secure and reliable server, you will still want
 
 ## Public Knowledge Project Project Preservation Network (PKP PN)
 
-By Bronwen Sprout
+> By Bronwen Sprout
 
 In addition to backing up your journal content, you will also want to plan for long term preservation in the event that your journal ceases publication and your host/publisher no longer provides access to your content. PKP has developed a low barrier preservation option to digitally preserve OJS journals in the form of the [PKP Preservation Network (PKP PN)](https://pkp.sfu.ca/pkp-pn/). The PKP PN provides free preservation services for any OJS journal that meets a few minimum requirements. The PKP PN is a dark archive, meaning that end users will not have access to the preserved content until after a “trigger event” (notification by the journal manager or cessation of deposits into the PN after a period of inactivity). After a trigger event, PKP staff will approve the importing of the preserved content into one or more OJS instances hosted by PKP member institutions. Once loaded into these host OJS instances, the content will be openly accessible.
 
 The PKP PN uses the LOCKSS (Lots of Copies Keep Stuff Safe) program, which offers decentralized and distributed preservation, seamless perpetual access, and preservation of the authentic original version of the content. This open source software is developed at Stanford University Library and enables libraries to preserve selected web journals by regularly polling registered journal websites for newly published content and archiving it. Each archive is continually validated against other library caches, and if content is found to be corrupted or lost, the other caches or the journal are used to restore it.
 
-There are a number of existing ejournal preservation programs in addition to the PKP PN, including the [Global LOCKSS Network](https://www.lockss.org/community/networks/), [CLOCKSS](https://clockss.org/), [Portico](https://www.portico.org/), and various national libraries. Many of these have an associated evaluation component and/or a fee for publisher participation. For example, the Global LOCKSS Network primarily preserves content from larger publishers and vendors. Private LOCKSS Networks are often country-based and preserve small numbers of OJS journals hosted by member libraries. (Here’s a list [source: https://en.wikipedia.org/wiki/List_of_digital_preservation_initiatives] of some other preservation initiatives.)
+There are a number of existing ejournal preservation programs in addition to the PKP PN, including the [Global LOCKSS Network](https://www.lockss.org/community/networks/), [CLOCKSS](https://clockss.org/), [Portico](https://www.portico.org/), and various national libraries. Many of these have an associated evaluation component and/or a fee for publisher participation. For example, the Global LOCKSS Network primarily preserves content from larger publishers and vendors. Private LOCKSS Networks are often country-based and preserve small numbers of OJS journals hosted by member libraries. 
 
 Because OJS supports the LOCKSS system, it’s very easy to enable the PKP PN plugin as well as other “flavours” of LOCKSS from within the OJS interface. Depending on your journal’s arrangements, these alternatives to the PKP PN may or may not be relevant.
 
+*Further Reading*
+[Digital Preservation initiatives)[https://en.wikipedia.org/wiki/List_of_digital_preservation_initiatives] 
+
 ## DOAJ and Digital Preservation/Archiving Policy
+
+> By Roger Gillis
 
 Having a clear digital preservation and archiving strategy and making this explicit as part of a policy is a key component of the DOAJ application process and one of the criteria for being awarded the DOAJ Seal. If your journal is using OJS, you should consider enabling the PKP Preservation Network (PKP PN) plugin as noted in the previous section, which will fulfill the archiving component from DOAJ. Also, be sure to document and make available your journal’s policy on archiving. In OJS, this can be done as part of the setup process, and the policy will then appear on your journal’s “About” page.
 
 The following policy from _Current Oncology_ is an example a clear and concise archiving policy:
 
-“Following publication in Current Oncology, the full text of each article is available immediately and archived in PubMed Central (PMC), the U.S. National Library of Medicine's digital archive of biomedical and life sciences journal literature. This journal utilizes the LOCKSS system to create a distributed archiving system among participating libraries and permits those libraries to create permanent archives of the journal for purposes of preservation and restoration.”
+>“Following publication in Current Oncology, the full text of each article is available immediately and archived in PubMed >Central (PMC), the U.S. National Library of Medicine's digital archive of biomedical and life sciences journal literature. >This journal utilizes the LOCKSS system to create a distributed archiving system among participating libraries and permits >those libraries to create permanent archives of the journal for purposes of preservation and restoration.”
 
 Source: [Archiving Policy. Current Oncology Journal](http://www.current-oncology.com/index.php/oncology/about/editorialPolicies#archiving)
 
 
-DOAJ checks the Keepers Registry to confirm that a journal’s archiving arrangements are as stated in its application. The PKP PLN provides data about its holdings to the Keepers Registry so your journal will appear in the registry once it has been archived.
+DOAJ checks the Keepers Registry to confirm that a journal’s archiving arrangements are as stated in its application. The PKP PN provides data about its holdings to the Keepers Registry so your journal will appear in the registry once it has been archived.
