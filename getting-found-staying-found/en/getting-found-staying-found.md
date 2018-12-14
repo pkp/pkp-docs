@@ -77,7 +77,8 @@ There are a number of existing ejournal preservation programs in addition to the
 
 Because OJS supports the LOCKSS system, it’s very easy to enable the PKP PN plugin, as well as other “flavours” of LOCKSS, from within the OJS interface. Depending on your journal’s arrangements, these alternatives to the PKP PN may or may not be relevant.
 
-*Further Reading*
+**Further Reading**
+
 [Digital Preservation initiatives](https://en.wikipedia.org/wiki/List_of_digital_preservation_initiatives)
 
 ## DOAJ and Digital Preservation/Archiving Policy
@@ -88,7 +89,7 @@ Having a clear digital preservation and archiving strategy and making this expli
 
 The following policy from _Current Oncology_ is an example of a clear and concise archiving policy:
 
->“Following publication in Current Oncology, the full text of each article is available immediately and archived in PubMed >Central (PMC), the U.S. National Library of Medicine's digital archive of biomedical and life sciences journal literature. >This journal utilizes the LOCKSS system to create a distributed archiving system among participating libraries and permits >those libraries to create permanent archives of the journal for purposes of preservation and restoration.”
+>“Following publication in Current Oncology, the full text of each article is available immediately and archived in PubMed Central (PMC), the U.S. National Library of Medicine's digital archive of biomedical and life sciences journal literature. This journal utilizes the LOCKSS system to create a distributed archiving system among participating libraries and permits those libraries to create permanent archives of the journal for purposes of preservation and restoration.”
 
 Source: [Archiving Policy. Current Oncology Journal](http://www.current-oncology.com/index.php/oncology/about/editorialPolicies#archiving)
 
