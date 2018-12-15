@@ -274,7 +274,7 @@ Processing the registration might take a few days to a week or so, as PKP staff 
 
 ### Directory of Open Access Journals (DOAJ)
 
-> Contribured by Andrea Pritt
+> Contributed by Andrea Pritt
 
 The Directory of Open Access Journals (DOAJ) is an online, community-curated list of open access journals, which aims to be the starting point for researchers looking for quality peer-reviewed open access resources. As stated on the DOAJ website: “the aim of the DOAJ is to increase the visibility and ease of use of open access scientific and scholarly journals, thereby promoting their increased usage and impact”[(Directory of Open Access Journals [DOAJ], 2018)](https://doaj.org). The DOAJ's mission is to increase the visibility, accessibility, reputation, usage and impact of quality, peer-reviewed, open access scholarly research journals globally, regardless of discipline, geography or language."[DOAJ, “Mission” 2018](https://doaj.org/about) As of this writing, DOAJ claims to have approximately 11,000+ journals included as part of its index [(DOAJ, 2018)](https://doaj.org).
 
