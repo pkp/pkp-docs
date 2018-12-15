@@ -331,8 +331,7 @@ Frequently, participation in open indexes such as the PKP Index or the DOAJ (as 
 
 Examples of service providers for knowledge bases and related services include:
   *Ex Libris - [Primo](http://www.exlibrisgroup.com/products/primo-library-discovery/), Summon
-  *Ebsco - [EBSCO discovery service](https://www.ebscohost.com/discovery).
-
+  *Ebsco - [EBSCO discovery service](https://www.ebscohost.com/discovery)
 
 ## Commercial indexes	and aggregators		
 
