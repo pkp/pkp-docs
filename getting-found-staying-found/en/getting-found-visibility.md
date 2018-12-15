@@ -48,31 +48,33 @@ ISSNs should be displayed on the journal’s website where it can be easily loca
 For the final published version of an article (i.e., a PDF galley), you may also want to include the ISSN, along with the journal name and DOI (see below), on the final page or in the footer of the PDF, or in another area of the layout version of the article itself. This is important, as PDFs can be downloaded, shared via email, and become disassociated with the journal. You always want to provide an easy and obvious link back to your journal.
 
 ### Digital Object Identifiers (DOIs)
-The Digital Object Identifier or DOI is used to individually identify unique content. They are typically applied to journal articles, but can be used for other content types such as datasets, images, or other supplementary materials added alongside articles. DOIs are what are called “persistent identifiers” -- so even if the URL (Uniform Resource Locator - in other words, a website link) for a journal changes, the DOI remains the same and can be used to link to an article. DOIs are becoming increasingly common and their use is seen as an indicator of the professionalism of the journal, so it is important to take them seriously.
+The Digital Object Identifier or DOI is used to individually identify unique content and its location on the internet. They are typically applied to journal articles, but can be used for other content types such as datasets, images, or other supplementary materials added alongside articles. DOIs are what are called “persistent identifiers” — so even if the URL (Uniform Resource Locator - in other words, a website link) for a journal changes, the DOI remains the same and can be used to locate an article no matter where it moves on the web. DOIs are not only useful for readers trying to access articles, but are also used extensively by indexers, aggregators, and repositories, so it is important to take them seriously when trying to increase the visibility and impact of your journal.
 
 #### The anatomy of a DOI
-A DOI consists of a series of characters divided into two parts -- a prefix and a suffix, which are separated by a slash. The prefix uniquely identifies the registrant (i.e. the publisher) of the title, and the suffix identifies the specific object. So, for example:
+A DOI consists of a series of characters divided into two parts -- a prefix and a suffix, which are separated by a slash. The prefix uniquely identifies the registrant (i.e. the publisher) of the title, and the suffix identifies the specific object. 
 
-For, example, this article: [“Health Care Professionals’ Opinions and Expectations of Clinical Pharmacy Services on a Surgical Ward”](http://www.cjhp-online.ca/index.php/cjhp/article/view/1606)
+As an example, we will look at this article: [“Health Care Professionals’ Opinions and Expectations of Clinical Pharmacy Services on a Surgical Ward”](http://www.cjhp-online.ca/index.php/cjhp/article/view/1606)
 
 The DOI in this case is  10.4212/cjhp.v69i6.1606
 
-The “10.” part of the prefix identifies the DOI registry - the agency that issues the DOI numbers, in this example, Crossref. The characters “4212” in the prefix identify the registrant - in this case, the publisher: Multimed. And the cjhp.v69i6.1606, the suffix, consists of several different parts, meant to distinguish the particular content:
+The “10.” part of the prefix is an index code universal to all DOIs, and signals that the identifier is a DOI.  The characters “4212” in the prefix identify the registrant - in this case, the publisher Multimed. 
 
-“cjhp” --  is an abbreviation for the journal -- The _Canadian Journal of Hospital Pharmacy_. This is a common feature of DOIs, where a journal will opt to be identified in a DOI by a standardized journal abbreviation. Multimed publishes multiple journals, and this helps to identify to which of its titles this article belongs.
+The suffix after the slash, cjhp.v69i6.1606, consists of several different parts meant to distinguish the exact nature of the content:
 
-“v69i6.1606” - is the volume number of the article (69), then the issue number (6), and finally “1606” is a unique identifier for the individual article. For journals using OJS, the DOI will be automatically generated for each article.
+“cjhp” is an abbreviation for the journal _The Canadian Journal of Hospital Pharmacy_. This is a common feature of DOIs, where a journal will opt to be identified in a DOI by a standardized journal abbreviation. Multimed publishes multiple journals, and this helps to identify to which of its titles this article belongs.
+
+“v69i6.1606” contains the volume number (v) of the article (69), then the issue number (i6 - issue no. 6), while lastly “1606” is a unique identifier for the individual article. For journals using OJS, the DOI will be automatically generated for each article.
 
 DOIs are capable of identifying a journal, an individual issue or volume of a journal, an individual article in a journal, or can even go so granular as to identify a table or chart in a particular article. Not all journals use an abbreviation as part of the suffix. Many use a random number that is assigned by a DOI registration agency. However, using a journal abbreviation is a good way of allowing users to more quickly identify your journal.
 
 You may often see DOIs communicated as URLs: “https://dx.doi.org/10.4212/cjhp.v69i6.1606”. This method can be used to obtain any article that has a DOI, by indicating the DOI following the “dx.doi.org”.
 
 #### Setting up DOIs in OJS
-Journals publishing with OJS will find it very easy to work with DOIs. However, some initial setup steps are required. First, you will need to register with [Crossref](https://www.crossref.org/membership/), which does require an annual fee. Further integration regarding OJS’ integration with Crossref can be found in the [Crossref manual](http://docs.pkp.sfu.ca/crossref/). You will then need to enable the DOI plugin within the OJS Journal Settings. Using [DOIs and the DOI plugin](http://docs.pkp.sfu.ca/dois/) provides you with the detailed steps you need to follow to configure DOIs for OJS.
+Journals publishing with OJS will find it very easy to work with DOIs. However, some initial setup steps are required. In addition to obtaining an ISSN and entering it as part of the OJS Journal Settings, you will also need to register with [Crossref](https://www.crossref.org/membership/), which does require an annual fee. Further integration regarding OJS’ integration with Crossref can be found in the [Crossref manual](http://docs.pkp.sfu.ca/crossref/). You will then need to enable the DOI plugin within the OJS Journal Settings. [Using DOIs and the DOI plugin](http://docs.pkp.sfu.ca/dois/) provides you with the detailed steps you need to follow to configure DOIs for OJS.
 
 #### Registering your DOIs in OJS
 
-Once you have joined Crossref and configured OJS to use DOIs, you will need to register your content as it is published. Again, OJS can help you with this, and the steps are outlined in the [Crossref manual](http://docs.pkp.sfu.ca/crossref/).
+Once you have joined Crossref and configured OJS to use DOIs, you will need to register your content as it is published. OJS can be used to manually deposit DOIs to CrossRef, or configured to automatically deposit DOIs. A step-by-step guide to making DOI deposits to CrossRef can be found in the [Crossref manual](http://docs.pkp.sfu.ca/crossref/).
 
 ### Open Researcher and Contributor ID (ORCID)
 
