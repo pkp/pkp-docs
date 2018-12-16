@@ -170,20 +170,22 @@ For advice on developing a social media presence for your journal, see the secti
 
 ### Linking up
 
->“Links aren't everything in SEO, but search professionals attribute a large portion of the engines' algorithms to link-related factors (see Search Engine Ranking Factors). Through links, engines can not only analyze the popularity of websites and pages based on the number and popularity of pages linking to them, but also metrics like trust, spam, and authority.” [(Fishkin, & Moz p.30)](https://moz.com/beginners-guide-to-seo)
+Links aren't everything in SEO, but search professionals attribute a large portion of the engines' algorithms to link-related factors \[...\]. Through links, engines can not only analyze the popularity of websites and pages based on the number and popularity of pages linking to them, but also metrics like trust, spam, and authority.” [(Fishkin, & Moz p.30)](https://moz.com/beginners-guide-to-seo)
 
-Linking on the web works in two directions: links to your journal, including to your articles, from other sites and links you include on your journal to other sites. Both play an important role in SEO. The more sites that link to your journal, the more likely your journal is to rank higher in search engine rankings. Here are some easy things you can do to help get more links to your journal:
+
+
+Linking on the web works in two directions: links to your journal, including to your articles, from other sites, and links you include on your journal to other sites. Both play an important role in SEO. The more sites that link to your journal, the more likely your journal is to rank higher in search engine rankings. Here are some easy things you can do to help get more links to your journal:
 
 1. Hire a professional graphic designer to create a journal logo that others could use to link to your site.
 2. Have other journals, conferences, or associations in your discipline link to your site, in exchange for you linking to them.
-3. Ask your professional association, universities, libraries, academics working your discipline personal websites, or other related organizations to your field to provide a link to your site on their web pages.
+3. Ask your professional association, universities, libraries, academics working in your discipline, or other related organizations in your field to provide a link to your site on their web pages.
 4. Get articles from your journal featured (and therefore linked) in a news story, media release, or blog. Media stories also tend to reach larger audiences, ensuring that your journal website is noticed by more readers than usual.
 
-Getting linked to often comes about through letting others know about your journal and may not require any additional effort. Be wary of mass solicitation in attempting to get others to link to your site, however, as this is often seen as spam and can undermine the credibility of your journal as well as negatively impact your SEO.
+Getting linked to often comes about through letting others know about your journal, and may not require any additional effort. Be wary of mass solicitation in attempting to get others to link to your site, however, as this is often seen as spam and can undermine the credibility of your journal as well as negatively impact your SEO.
 
 Linking from your journal to other relevant sites is another important way to increase your SEO. Relevance is key here, as search engines are smart enough to recognize if you fill your site with unrelated links in an obvious attempt to raise your SEO illegitimately. Some simple ways to increase the relevant links on your website include:
 
-1. Include links to profile pages at the home institutions or professional websites for all of your editorial team and authors. Here is an example for PKP Director, [Dr. John Willinsky](https://ed.stanford.edu/faculty/willinsk). This not only adds many relevant links to your journal website, but also significantly boosts its credibility by demonstrating that these are all real people. A common practice of predatory journals is to make up editorial board members, or to list people without their knowledge, so this is a good way to show you are a legitimate journal.
+1. Include links to profile pages at the home institutions or professional websites for all of your editorial team and authors. [See this example for PKP Director, Dr. John Willinsky](https://ed.stanford.edu/faculty/willinsk). This not only adds many relevant links to your journal website, but also significantly boosts its credibility by demonstrating that these are all real people. A common practice of predatory journals is to make up editorial board members, or to list people without their knowledge, so this is a good way to show you are a legitimate journal.
 2. Include links to the ORCIDs of your editorial team and authors. Similar to the item above, it increases relevant links and increases your credibility.
 3. Add DOI links to as many items in the references of your articles as possible. This will further boost both your relevant linking and your demonstration of being a professional publication. In OJS, this can be done by adding links to the reference list entries in the PDF galleys, the HTML galleys, and on the article abstract page.
 4. Create a page for relevant journals, associations, and other organizations closely associated with your journal. For example the _Canadian Journal of Sociology_ would likely link to the Canadian Sociological Association.
