@@ -3,8 +3,7 @@
 Another method of building professional recognition is through the use of different techniques for measuring the use and impact of your journal. This will provide clear evidence of the success of your journal and allow you to regularly evaluate your progress.
 Under the traditional subscription/print model, the number of subscribers often formed the basis for understanding the usage of an individual journal. For open access journals, without a subscriber base to point to, this can be a challenge. OJS, however, does provide the option of requiring readers to register. A fee is not necessarily required for this registration, but does allow the journal to develop a better understanding of its audience. Some statistical analysis and reports are available to the OJS Journal Manager, including reporting on the number of registered users. The reporting and statistics capabilities of OJS are available in the [OJS statistics documentation](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
 
-Perhaps more important than the question of how many people are accessing your journal is how they are using it. This is known as measuring the “impact” of your journal. Journals with high citation impact are among the most respected and successful academic journals in their fields. Citation impact refers to how often an article, an author, or a journal, is cited by other scholars. While this is not an uncontroversial means of measuring the value a journal is having in the academic community, it is the standard one that most people recognize and operate on the basis of. Readers looking for reliable information will often first look to journals with a high citation impact. Prospective authors, reviewers, and editors will be interested in volunteering their time with journals that have a high citation impact. Indexes and databases will want to include journals in their resources that have a high citation impact. And lastly, libraries will be motivated to promote journals with a high citation impact. All of this can lead to a cyclical pattern, where high impact journals are more likely to be used and supported, leading to more recognition, and higher impact. The challenge for every new journal is to get this process started, using some of the methods discussed in the previous section.
-
+Perhaps more important than the question of how many people are accessing your journal is how they are using it. This is known as measuring the “impact” of your journal. Journals with high citation impact are among the most respected and successful academic journals in their fields. Citation impact refers to how often an article, an author, or a journal is cited by other scholars. While this is not an uncontroversial means of measuring the value a journal is having in the academic community, it is the standard one that most people recognize and operate on the basis of. Readers looking for reliable information will often first look to journals with a high citation impact. Prospective authors, reviewers, and editors will be interested in volunteering their time with journals that have a high citation impact. Indexes and databases will want to include journals in their resources that have a high citation impact. And lastly, libraries will be motivated to promote journals with a high citation impact. All of this can lead to a cyclical pattern, where high impact journals are more likely to be used and supported, leading to more recognition, and higher impact. The challenge for every new journal is to get this process started, using some of the methods discussed in the previous section.
 
 Of particular interest for OJS and other open access journals are the results from several studies revealing that open access policies tend to increase the citation impact of journals (“Bibliography of Empirical Studies on Open Access”, 2006). By providing free and immediate access to their content, open access journals are increasingly becoming the first choice among scholars for their research.
 
@@ -12,40 +11,41 @@ Of particular interest for OJS and other open access journals are the results fr
 
 Growing the number of authors that are contributing to your journal is an important element of growing your journal and ensuring that it continues to produce quality contents. Consider ways of drawing attention to your journal/publication by advertising it as part of conferences, posting the publishing of new issues to relevant listservs, or through departments at universities that have a research focus in the area that your journal publishes in.
 
-It’s important to note, that mass solicitation or “spamming” of authors is often viewed as a problematic practice in some circles and one that has been employed by questionable publishers. Try to strike a balance between actively for soliciting for publications and inundating potential authors with this solicitation.
+It’s important to note that mass solicitation or “spamming” of authors is often viewed as a problematic practice in some circles and one that has been employed by questionable publishers. Try to strike a balance between actively soliciting for publications and inundating potential authors with this solicitation.
 
 
 ## Commercial scholarly networking platforms
 
 By Dana MacFarland
 
-Commercial platforms such as ResearchGate and Academia.edu offer various services for authors that may include:
+Commercial platforms such as ResearchGate and Academia.edu offer various services for authors that may include the following:
 
-*Indexing in search engines (e.g. Google Scholar)
-*Publication alerts
-*Ability to create a profile on the platform
-*Ability to contact other scholars through the platform
-*Ability to host files and distribute them through the *platform and track their use
-*Promotion of jobs and other opportunities
-*Metrics or indicators per article or for the author
+* Indexing in search engines (e.g. Google Scholar)
+* Publication alerts
+* Ability to create a profile on the platform
+* Ability to contact other scholars through the platform
+* Ability to host files and distribute them through the platform and track their use
+* Promotion of jobs and other opportunities
+* Metrics or indicators per article or for the author
 
 In advising authors about such services, it is important to be aware of the terms of use, which are typically subject to modification without prior consent and at the sole discretion of the service provider.
 
 For example:
-[Academia.edu](https://academia.edu)
-[ResearchGate](https://researchgate.org)
+* [Academia.edu](https://academia.edu)
+* [ResearchGate](https://researchgate.org)
 
 ![ResearchGate](assets/chapter2/researchgate.png)
 *Screenshot from ResearchGate*
 
-Features of scholarly networking platforms may appeal to authors, but there are implications, particularly in hosting versions outside of OJS, that journal managers should be aware of. These include:
+Features of scholarly networking platforms may appeal to authors, but there are implications, particularly in hosting versions outside of OJS, that journal managers should be aware of. These include the following:
 
-*Aggregating metrics*:  When a work may be retrieved from multiple platforms, indicators of use will also be distributed among those platforms. This may drive traffic to content published by a journal, but perhaps not exclusively via the journal platform. Journal managers should consider workflows or tools to aggregate and understand broader patterns of use related to articles that they publish. Counting downloads will not adequately represent use if a community of scholars around a journal also values the ability to upload a version to ResearchGate, or even to their institutional repository. To address this:
-DOIs facilitate aggregation of metrics across platforms, through tools such as ImpactStory, Altmetric, and PlumAnalytics. In practice, effectiveness of these tools varies based on the breadth of relationships that they are able to establish with publishing platforms, and none is comprehensive. For instance, none to date include indicators of use via ResearchGate or Academia.edu.
-Also, some platforms will assign another DOI when a version is uploaded to their site. Consequently and counter-intuitively, it may be productive to track more than one DOI per item.
-Manual collection is another strategy that might be adopted i.e. gathering download counts that include sampling from commercial platforms, perhaps using google analytics to identify referring sites.
+*Aggregating metrics*:  When a work may be retrieved from multiple platforms, indicators of use will also be distributed among those platforms. This may drive traffic to content published by a journal, but perhaps not exclusively via the journal platform. Journal managers should consider workflows or tools to aggregate and understand broader patterns of use related to articles that they publish. Counting downloads will not adequately represent use if a community of scholars around a journal also values the ability to upload a version to ResearchGate, or even to their institutional repository. 
 
-*Understanding use*:  Where other hosting of articles is occurring, consider how the metrics on other platforms are derived and how they might be understood. (e.g. ResearchGate offers reads, citations, recommendations, score.
+To address this, DOIs facilitate aggregation of metrics across platforms, through tools such as ImpactStory, Altmetric, and PlumAnalytics. In practice, effectiveness of these tools varies based on the breadth of relationships that they are able to establish with publishing platforms and none is comprehensive. For instance, none to date include indicators of use via ResearchGate or Academia.edu. Also, some platforms will assign another DOI when a version is uploaded to their site. Consequently and counter-intuitively, it may be productive to track more than one DOI per item.
+
+Manual collection is another strategy that might be adopted i.e. gathering download counts that include sampling from commercial platforms, perhaps using Google Analytics to identify referring sites.
+
+*Understanding use*:  Where other hosting of articles is occurring, consider how the metrics on other platforms are derived and how they might be understood. (e.g. ResearchGate offers reads, citations, recommendations, score.)
 
 
 ## Research Impact Metrics
@@ -168,15 +168,15 @@ Libraries have historically been the primary access point for most academic jour
 
 ### Library/Union Catalogues
 
-If the journal has a local library affiliation, then editors can work with the library to catalogue the journal and make the record available in WorldCat (the world’s largest library catalog, that features library holdings from all over the world) for copy cataloguing by other libraries around the world. For example, WorldCat provides the Digital Collection Gateway tool:
+If the journal has a local library affiliation, then editors can work with the library to catalogue the journal and make the record available in WorldCat (the world’s largest library catalog, which features library holdings from all over the world) for copy cataloguing by other libraries around the world. For example, WorldCat provides the Digital Collection Gateway tool:
 
-  “The WorldCat Digital Collection Gateway provides you with a self-service tool, available at no charge, for harvesting the metadata of your unique, open-access digital content into WorldCat. Once there, your collections are more visible and discoverable to end users who search WorldCat as well as Google and other popular websites.”
+>“The WorldCat Digital Collection Gateway provides you with a self-service tool, available at no charge, for harvesting the metadata of your unique, open-access digital content into WorldCat. Once there, your collections are more visible and discoverable to end users who search WorldCat as well as Google and other popular websites.”
 
   Source: [OCLC](https://www.oclc.org/en/digital-gateway.html)
 
-Using tools like WorldCat Digital collection gateway, which is typically used by Libraries to provide access to Open Access resources, can be a great way of providing exposure for your journal. If configured appropriately, a journal article’s metadata will be displayed as records in search results and  Your local library may be able to help you to get material included in Digital Collection Gateway.
+Using tools like WorldCat Digital collection gateway, which is typically used by libraries to provide access to Open Access resources, can be a great way of providing exposure for your journal. If configured appropriately, a journal article’s metadata will be displayed as records in search results. Your local library may be able to help you to get material included in Digital Collection Gateway.
 
-The journal is encouraged to approach aggregators and indexing services for inclusion into their respective databases. These databases subsequently form part of the presentation layer for web scale discovery systems such as Primo and Summon made available to users of library catalogues.
+You can approach aggregators and indexing services for inclusion into their respective databases. These databases subsequently form part of the presentation layer for web scale discovery systems such as Primo and Summon made available to users of library catalogues.
 
 
 ### Link resolvers
