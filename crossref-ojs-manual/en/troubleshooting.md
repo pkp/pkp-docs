@@ -4,5 +4,5 @@ The Crossref Export/Registration plugin will notify you of any configuration err
 
 > Please note that PKP Developers are working on improved ways to determine the status of a DOI submission with Crossref.
 
-- [Troubleshooting Deposits from UI/Plugin-based Registration](/troubleshootingDepositsUI.md)
-- [Troubleshooting Deposits from XML Export](/troubleshootingDepositsExport.md)
+- [Troubleshooting Deposits from UI/Plugin-based Registration](./troubleshootingDepositsUI.md)
+- [Troubleshooting Deposits from XML Export](./troubleshootingDepositsExport.md)

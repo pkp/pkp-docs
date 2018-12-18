@@ -3,8 +3,7 @@
 Another method of building professional recognition is through the use of different techniques for measuring the use and impact of your journal. This will provide clear evidence of the success of your journal and allow you to regularly evaluate your progress.
 Under the traditional subscription/print model, the number of subscribers often formed the basis for understanding the usage of an individual journal. For open access journals, without a subscriber base to point to, this can be a challenge. OJS, however, does provide the option of requiring readers to register. A fee is not necessarily required for this registration, but does allow the journal to develop a better understanding of its audience. Some statistical analysis and reports are available to the OJS Journal Manager, including reporting on the number of registered users. The reporting and statistics capabilities of OJS are available in the [OJS statistics documentation](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
 
-Perhaps more important than the question of how many people are accessing your journal is how they are using it. This is known as measuring the “impact” of your journal. Journals with high citation impact are among the most respected and successful academic journals in their fields. Citation impact refers to how often an article, an author, or a journal, is cited by other scholars. While this is not an uncontroversial means of measuring the value a journal is having in the academic community, it is the standard one that most people recognize and operate on the basis of. Readers looking for reliable information will often first look to journals with a high citation impact. Prospective authors, reviewers, and editors will be interested in volunteering their time with journals that have a high citation impact. Indexes and databases will want to include journals in their resources that have a high citation impact. And lastly, libraries will be motivated to promote journals with a high citation impact. All of this can lead to a cyclical pattern, where high impact journals are more likely to be used and supported, leading to more recognition, and higher impact. The challenge for every new journal is to get this process started, using some of the methods discussed in the previous section.
-
+Perhaps more important than the question of how many people are accessing your journal is how they are using it. This is known as measuring the “impact” of your journal. Journals with high citation impact are among the most respected and successful academic journals in their fields. Citation impact refers to how often an article, an author, or a journal is cited by other scholars. While this is not an uncontroversial means of measuring the value a journal is having in the academic community, it is the standard one that most people recognize and operate on the basis of. Readers looking for reliable information will often first look to journals with a high citation impact. Prospective authors, reviewers, and editors will be interested in volunteering their time with journals that have a high citation impact. Indexes and databases will want to include journals in their resources that have a high citation impact. And lastly, libraries will be motivated to promote journals with a high citation impact. All of this can lead to a cyclical pattern, where high impact journals are more likely to be used and supported, leading to more recognition, and higher impact. The challenge for every new journal is to get this process started, using some of the methods discussed in the previous section.
 
 Of particular interest for OJS and other open access journals are the results from several studies revealing that open access policies tend to increase the citation impact of journals (“Bibliography of Empirical Studies on Open Access”, 2006). By providing free and immediate access to their content, open access journals are increasingly becoming the first choice among scholars for their research.
 
@@ -12,40 +11,41 @@ Of particular interest for OJS and other open access journals are the results fr
 
 Growing the number of authors that are contributing to your journal is an important element of growing your journal and ensuring that it continues to produce quality contents. Consider ways of drawing attention to your journal/publication by advertising it as part of conferences, posting the publishing of new issues to relevant listservs, or through departments at universities that have a research focus in the area that your journal publishes in.
 
-It’s important to note, that mass solicitation or “spamming” of authors is often viewed as a problematic practice in some circles and one that has been employed by questionable publishers. Try to strike a balance between actively for soliciting for publications and inundating potential authors with this solicitation.
+It’s important to note that mass solicitation or “spamming” of authors is often viewed as a problematic practice in some circles and one that has been employed by questionable publishers. Try to strike a balance between actively soliciting for publications and inundating potential authors with this solicitation.
 
 
 ## Commercial scholarly networking platforms
 
 By Dana MacFarland
 
-Commercial platforms such as ResearchGate and Academia.edu offer various services for authors that may include:
+Commercial platforms such as ResearchGate and Academia.edu offer various services for authors that may include the following:
 
-*Indexing in search engines (e.g. Google Scholar)
-*Publication alerts
-*Ability to create a profile on the platform
-*Ability to contact other scholars through the platform
-*Ability to host files and distribute them through the *platform and track their use
-*Promotion of jobs and other opportunities
-*Metrics or indicators per article or for the author
+* Indexing in search engines (e.g. Google Scholar)
+* Publication alerts
+* Ability to create a profile on the platform
+* Ability to contact other scholars through the platform
+* Ability to host files and distribute them through the platform and track their use
+* Promotion of jobs and other opportunities
+* Metrics or indicators per article or for the author
 
 In advising authors about such services, it is important to be aware of the terms of use, which are typically subject to modification without prior consent and at the sole discretion of the service provider.
 
 For example:
-[Academia.edu](https://academia.edu)
-[ResearchGate](https://researchgate.org)
+* [Academia.edu](https://academia.edu)
+* [ResearchGate](https://researchgate.org)
 
 ![ResearchGate](assets/chapter2/researchgate.png)
 *Screenshot from ResearchGate*
 
-Features of scholarly networking platforms may appeal to authors, but there are implications, particularly in hosting versions outside of OJS, that journal managers should be aware of. These include:
+Features of scholarly networking platforms may appeal to authors, but there are implications, particularly in hosting versions outside of OJS, that journal managers should be aware of. These include the following:
 
-*Aggregating metrics*:  When a work may be retrieved from multiple platforms, indicators of use will also be distributed among those platforms. This may drive traffic to content published by a journal, but perhaps not exclusively via the journal platform. Journal managers should consider workflows or tools to aggregate and understand broader patterns of use related to articles that they publish. Counting downloads will not adequately represent use if a community of scholars around a journal also values the ability to upload a version to ResearchGate, or even to their institutional repository. To address this:
-DOIs facilitate aggregation of metrics across platforms, through tools such as ImpactStory, Altmetric, and PlumAnalytics. In practice, effectiveness of these tools varies based on the breadth of relationships that they are able to establish with publishing platforms, and none is comprehensive. For instance, none to date include indicators of use via ResearchGate or Academia.edu.
-Also, some platforms will assign another DOI when a version is uploaded to their site. Consequently and counter-intuitively, it may be productive to track more than one DOI per item.
-Manual collection is another strategy that might be adopted i.e. gathering download counts that include sampling from commercial platforms, perhaps using google analytics to identify referring sites.
+*Aggregating metrics*:  When a work may be retrieved from multiple platforms, indicators of use will also be distributed among those platforms. This may drive traffic to content published by a journal, but perhaps not exclusively via the journal platform. Journal managers should consider workflows or tools to aggregate and understand broader patterns of use related to articles that they publish. Counting downloads will not adequately represent use if a community of scholars around a journal also values the ability to upload a version to ResearchGate, or even to their institutional repository. 
 
-*Understanding use*:  Where other hosting of articles is occurring, consider how the metrics on other platforms are derived and how they might be understood. (e.g. ResearchGate offers reads, citations, recommendations, score.
+To address this, DOIs facilitate aggregation of metrics across platforms, through tools such as ImpactStory, Altmetric, and PlumAnalytics. In practice, effectiveness of these tools varies based on the breadth of relationships that they are able to establish with publishing platforms and none is comprehensive. For instance, none to date include indicators of use via ResearchGate or Academia.edu. Also, some platforms will assign another DOI when a version is uploaded to their site. Consequently and counter-intuitively, it may be productive to track more than one DOI per item.
+
+Manual collection is another strategy that might be adopted i.e. gathering download counts that include sampling from commercial platforms, perhaps using Google Analytics to identify referring sites.
+
+*Understanding use*:  Where other hosting of articles is occurring, consider how the metrics on other platforms are derived and how they might be understood. (e.g. ResearchGate offers reads, citations, recommendations, score.)
 
 
 ## Research Impact Metrics
@@ -168,15 +168,15 @@ Libraries have historically been the primary access point for most academic jour
 
 ### Library/Union Catalogues
 
-If the journal has a local library affiliation, then editors can work with the library to catalogue the journal and make the record available in WorldCat (the world’s largest library catalog, that features library holdings from all over the world) for copy cataloguing by other libraries around the world. For example, WorldCat provides the Digital Collection Gateway tool:
+If the journal has a local library affiliation, then editors can work with the library to catalogue the journal and make the record available in WorldCat (the world’s largest library catalog, which features library holdings from all over the world) for copy cataloguing by other libraries around the world. For example, WorldCat provides the Digital Collection Gateway tool:
 
-  “The WorldCat Digital Collection Gateway provides you with a self-service tool, available at no charge, for harvesting the metadata of your unique, open-access digital content into WorldCat. Once there, your collections are more visible and discoverable to end users who search WorldCat as well as Google and other popular websites.”
+>“The WorldCat Digital Collection Gateway provides you with a self-service tool, available at no charge, for harvesting the metadata of your unique, open-access digital content into WorldCat. Once there, your collections are more visible and discoverable to end users who search WorldCat as well as Google and other popular websites.”
 
   Source: [OCLC](https://www.oclc.org/en/digital-gateway.html)
 
-Using tools like WorldCat Digital collection gateway, which is typically used by Libraries to provide access to Open Access resources, can be a great way of providing exposure for your journal. If configured appropriately, a journal article’s metadata will be displayed as records in search results and  Your local library may be able to help you to get material included in Digital Collection Gateway.
+Using tools like WorldCat Digital collection gateway, which is typically used by libraries to provide access to Open Access resources, can be a great way of providing exposure for your journal. If configured appropriately, a journal article’s metadata will be displayed as records in search results. Your local library may be able to help you to get material included in Digital Collection Gateway.
 
-The journal is encouraged to approach aggregators and indexing services for inclusion into their respective databases. These databases subsequently form part of the presentation layer for web scale discovery systems such as Primo and Summon made available to users of library catalogues.
+You can approach aggregators and indexing services for inclusion into their respective databases. These databases subsequently form part of the presentation layer for web scale discovery systems such as Primo and Summon made available to users of library catalogues.
 
 
 ### Link resolvers
@@ -186,9 +186,9 @@ Link resolvers enable databases to connect to full-text journal articles. If a j
 
 ## Copyright and Licensing
 
-By Roger Gillis
+> By Roger Gillis
 
-Copyright and licensing impacts your journals ability to have its content found and used. How you claim ownership as a publication over the material you publish will affect users’ ability to share and distribute that content outside of your website. For example, do you allow authors to retain copyright and distribute their articles outside of the journal such as by depositing a copy in their institutional repository, or on an author’s personal website? These are important considerations -- allowing authors to share their work that is published in your journal outside of your journal has the potential to help authors fulfill Open Access funding requirements and help them showcase and share their work (as well as raise the profile of your publication). While it is important to drive readers to your journal website, it may not always be possible for readers to read your journals’ content solely on your website.
+Copyright and licensing impacts your journals ability to have its content found and used. How you claim ownership as a publication over the material you publish will affect users’ ability to share and distribute that content outside of your website. For example, do you allow authors to retain copyright and distribute their articles outside of the journal such as by depositing a copy in their institutional repository, or on an author’s personal website? These are important considerations -- allowing authors to share their work that is published in your journal outside of your journal has the potential to help authors fulfill Open Access funding requirements and help them showcase and share their work (as well as raise the profile of your publication). It is important to drive readers to your journal website, but it may not always be possible for readers to read your journals’ content solely on your website, especially as authors increasingly wish to take advantage of other venues for sharing their work.
 
 While many journals claim to be “Open Access,” there are many degrees of what is considered “Open”. The Scholarly Publishing and Academic Resources Coalition (SPARC)  provides a good overview of the six fundamental aspects of Open Access -- reader rights, reuse rights, copyrights, author posting rights, automatic posting, and machine readability -- all of which factor into what journals need to consider as a part of their Open Access and Copyright policies.
 
@@ -197,20 +197,19 @@ While many journals claim to be “Open Access,” there are many degrees of wha
 
 Source: [Scholarly Publishing and Academic Resources Coalition “How open is it”](https://sparcopen.org/our-work/howopenisit/). Licensed under CC-BY.
 
-Developing copyright and licensing policies that address all of these criteria can be very helpful to authors and letting them know what the journal does and does not permit with respect to the articles and other material that are published as part of the journal or publication. The Open Access Scholarly Publishing Association provides some advice on how and where copyright and licensing policies should be articulated:
+Developing copyright and licensing policies that address all of these criteria can be very helpful to authors and letting them know what the journal does and does not permit with respect to the articles and other material that are published as part of the journal or publication. The Open Access Scholarly Publishing Association (OASPA) provides some advice on how and where copyright and licensing policies should be articulated:
 
-  “Licensing policies should be clearly stated and visible on journal websites and all published material. Policies are often stated at the bottom of each page of a website, but should also be clearly set out in an additional ‘Terms of Use’ or ‘Policies’ section, or in Guidelines for Authors.” (Open Access, Scholarly Publishers association, 2016 “Best practices in licensing and attribution: What you need to know.)”
+>“Licensing policies should be clearly stated and visible on journal websites and all published material. Policies are often >stated at the bottom of each page of a website, but should also be clearly set out in an additional ‘Terms of Use’ or >‘Policies’ section, or in Guidelines for Authors.” 
+(Source: Open Access, Scholarly Publishers association, 2016 [“Best practices in licensing and attribution: What you need to know.](https://oaspa.org/best-practices-licensing-attribution-need-to-know/))”
 
 
 ### Copyright Ownership
 
 One consideration that publishers will have to make is who owns the copyright of the material being published. Traditionally, in commercial publishing, publishers have insisted on owning copyright and having authors transfer the copyright to them. Increasingly, however, this is beginning to change, with many authors wanting to retain the copyright to their works in order to disseminate them in different venues (e.g. institutional repositories, personal websites, or as derivative works). Often, this is done with the requirement that when distributing outside of site, that authors ensure that they provide an appropriate citation and/or link to the original work on the publishers’ website, which can serve to increase readership in a journal. The copyright ownership policy that a publisher decides on should clearly articulate who owns the rights to a work that is being published, and -- if the author retains rights -- which rights these include. Sometimes these rights include the rights to use works for particular purposes (e.g. having copies of the work on a personal or university website). Or, in other instances, the author may retain copyright entirely, and is free to use their work as they wish.  Less restrictive licensing whereby authors either own the copyright or the work is licensed under a Creative Commons license (see below for more information on Creative Commons licenses) tend to be the norm for Open Access publishers and authors have come to expect. Moreover, allowing works to be disseminated outside of the publishers’ website can increase the distribution of the works themselves, thus increasing the availability and readership of the journal.
 
-
-
 ### Creative Commons Licenses
 
-Another way that you can make your policy on sharing your journal/publication’s content explicit is through the use of Creative Commons licenses. There are different types of Creative Commons licenses, which stipulate that the material being licensed allows different uses. Creative Commons licenses are widely used on a variety of web-based material ranging from photographs, video and sound recordings, as well as written works such as books and articles. As of 2016, there are over 1.2 billion works that are licensed using Creative Commons licenses (Creative Commons, 2016).
+Another way that you can make your policy on sharing your journal/publication’s content explicit is through the use of Creative Commons licenses. There are different types of Creative Commons licenses, which stipulate that the material being licensed allows different uses. Creative Commons licenses are widely used on a variety of web-based material ranging from photographs, video and sound recordings, as well as written works such as books and articles. As of 2017, there are over 1.4 billion works that are licensed using Creative Commons licenses [(Creative Commons, 2017](https://stateof.creativecommons.org/).
 
 Creative Commons licenses have a number of benefits, one of which is making it clear to users’ how the creator and/or publisher wish for the material to be used (e.g. whether it can be used commercially, whether derivative copies can be made, etc.). Another advantage, is that Creative Commons licenses are machine-readable, meaning that search engines and other technology  are easily able to read and interpret Creative Commons licenses and inform users about the licensing attached to each individual work.
 
