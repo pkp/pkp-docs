@@ -46,7 +46,8 @@ Example modifying the `typography` option in the previous example.
 
 ```php
 public function init() {
-	$this->modifyOptionsConfig('typography', 'radio', array(
+	$this->modifyOptionsConfig('typography', array(
+		'type' => radio,
 		'label' => 'plugins.themes.default.option.typography.label',
 		'description' => 'plugins.themes.default.option.typography.description',
         // New options. These replace the existing options.
