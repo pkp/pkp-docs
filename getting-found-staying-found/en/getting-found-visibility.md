@@ -135,13 +135,13 @@ Another important way to enhance your SEO is by having a modern site that provid
 
 > “Usability and user experience are second order influences on search engine ranking success. They provide an indirect but measurable benefit to a site's external popularity, which the engines can then interpret as a signal of higher quality. This is called the "no one likes to link to a crummy site" phenomenon.” [(Fishkin & Moz, 2015, p. 27)](https://moz.com/beginners-guide-to-seo).
 
-For OJS users, designing an appropriate site can be achieved through the new OJS theming capabilities.  In particular, OJS 3 offers significant improvements when it comes to user experience and usability, having undergone significant user testing in its development. For guidance on how to customize the look and feel of the OJS software, please consult the [Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+For OJS users, designing an appropriate site can be achieved through the new OJS theming capabilities.  In particular, OJS 3 offers significant improvements when it comes to user experience and usability, having undergone significant user testing in its development. For guidance on how to customize the look and feel of the OJS software, please consult the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
 ### Getting Found and Getting Social
 
 With the rise of social media, the sharing of content of websites (including academic articles) via social media outlets such as Facebook and Twitter has also arisen as a factor considered as part of SEO. While search engines may treat socially shared links differently than other web content, it is a factor that is taken into consideration when ranking search results [(Fishkin, & Moz, 2015)](https://moz.com/beginners-guide-to-seo). Google, for example, takes into account different social sharing factors when ranking its search results.
 
-For advice on developing a social media presence for your journal, see the section in this guide on using Social Media for your Journal. Publicizing your publication and its contents through social media will help boost your search engine rankings.
+For advice on developing a social media presence for your journal, see the section in this guide on [using Social Media for your Journal](#social-media). Publicizing your publication and its contents through social media will help boost your [search engine](#search-engine-optimization) rankings.
 
 ### Linking up
 
@@ -272,11 +272,11 @@ DOAJ determines quality and acceptance into the directory through an extensive a
 
 Google Scholar is a search engine for scholarly literature that has grown quite popular since it launched in 2004. It provides a simple search interface allowing users to search across many disciplines and sources for scholarly material such as articles, theses, books, abstracts, and court opinions and includes material from academic publishers, professional societies, online repositories, universities, and other web sites. [(Google Scholar “About” 2018]https://scholar.google.ca/intl/en/scholar/about.html).
 
-Google scholar is used by many people to access scholarly research, including researchers themselves, so having your journal included in its search results can provide great exposure for your journal. 
+Google scholar is used by many people to access scholarly research, including researchers themselves, so having your journal included in its search results can provide great exposure for your journal.
 
-OJS interacts very well with Google Scholar. In fact, Google Scholar [recommends OJS as a publishing system for journals seeking to get their articles discovered online](https://scholar.google.ca/intl/en/scholar/inclusion.html). In order to expedite indexing in Google Scholar you can also use [Google Webmaster Tools](https://www.google.com/webmasters/). 
+OJS interacts very well with Google Scholar. In fact, Google Scholar [recommends OJS as a publishing system for journals seeking to get their articles discovered online](https://scholar.google.ca/intl/en/scholar/inclusion.html). In order to expedite indexing in Google Scholar you can also use [Google Webmaster Tools](https://www.google.com/webmasters/).
 
-Google Scholar has as part of its criteria that your content feature primarily scholarly articles. Additionally, at a minimum the abstracts will need to be made freely available so that they may be viewed in Google Scholar search results. 
+Google Scholar has as part of its criteria, that your content feature primarily scholarly articles. Additionally, at a minimum, the abstracts will need to be made freely available in order that they may be viewed in Google Scholar search results.
 
 To be crawled by Google Scholar, the articles that your journal publishes need to be in either the HTML or PDF format. If publishing in PDF, the text must be searchable. To configure searchable text in OJS ensure that the appropriate search settings are enabled in the OJS config.inc.php file. You can read more about this in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/managing-the-environment).
 
@@ -393,10 +393,10 @@ It is increasingly common that funders require projects to include a knowledge t
 
 #### Factors to consider in developing a news release
 
-* Who is your audience and what do you want them to do? Example: If your journal is for perfusionists and you want them to subscribe to or read your new journal about perfusion, consider a media release to The Canadian Society of Clinical Perfusion, not the Globe and Mail
-* Are you the person who should write the release? An editor may have the support of an institution’s communications staff who will have the skill set and contacts to help you get the story out. In this situation, an editor serves the role of guide and educator to the communications person who is usually not an expert in the field. The editor may also be an important go-between with the author(s).
-* A modern media release can be multimedia, incorporating video, animation, live links, and text.
-* The findings or content of specific articles is much more interesting than the fact you have published a new issue. So each issue offers many promotional opportunities as long as each is tailored to specific audiences.
-* It may be a better use of resources to recruit others who already have a following to promote the content in your journal than to devote resources to building a following from scratch. The support of influencers who use social media will also help build a journal’s following.
-* Social media can amplify your story, but the substantive content usually resides elsewhere, such as a news website, institutional blog, or your journal’s announcements page.
-* Journal content can have a long life. Consider promoting articles published several years earlier, especially if an article can fill an information vacuum for something current. 
+* Who is your audience and what do you want them to do? Example:  If your journal is for perfusionists and you want them to subscribe or read your new journal about perfusion, consider a media release to The Canadian Society of Clinical Perfusion, not the Globe and Mail
+* Are you the person who should write the release?  An editor may have the support of an institution’s communications staff who will have the skill set and contacts to help you get the story out. In this situation, an editor serves the role of guide and educator to the communications person who is usually not an expert in your field. The editor may also be an important go-between with the author(s).
+* A modern media release can be multi-media, incorporating video, animation, live links and text.
+* The findings or content of specific articles is  much more interesting than the fact you have published a new issue. So each issue offers many promotional opportunities as long as each is tailored to specific audiences.
+* It may be a better use of resources to recruit others who already have a following to promote the content in your journal than to devote resources to building a following from scratch.  The support of influencers who use social media will also help build a journal’s following.
+* Social media can amplify your story, but the substantive content usually resides elsewhere such as a news website, institutional blog, or your journal’s announcements page.
+* Journal content can have a long life. Consider promoting articles published several years earlier, especially if an article can fill an information vacuum for something current.
