@@ -19,3 +19,6 @@ defaults:
       type: "pages"
     values:
       swaggerUiVersion: 3
+url: "https://docs.pkp.sfu.ca" # the base hostname & protocol for your site
+plugins:
+  - jekyll-sitemap
