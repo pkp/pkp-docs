@@ -6,7 +6,7 @@ Begun in 1998, PKP has developed [Open Journal Systems](http://pkp.sfu.ca/ojs) a
 
 Located at the [University of British Columbia](http://www.ubc.ca/), [Simon Fraser University](http://www.sfu.ca/), [Stanford University](http://ed.stanford.edu/suse/), <!-- and [Arizona State University](http://www.asu.edu/),--> the PKP also sustains an active research program on the impact of increased access to knowledge, with the resulting publications, dating back to 1998, available on the website.
 
-![logolist](http://pkp.sfu.ca/ojs/docs/technicalreference/common/logo_list.png)
+![logolist](https://pkp.sfu.ca/ojs/docs/technicalreference/common/logo_list.png)
 
 
 
