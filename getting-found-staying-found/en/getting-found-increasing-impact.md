@@ -16,7 +16,7 @@ It’s important to note that mass solicitation or “spamming” of authors is 
 
 ## Commercial scholarly networking platforms
 
-By Dana MacFarland
+> Contributed by Dana MacFarland
 
 Commercial platforms such as ResearchGate and Academia.edu offer various services for authors that may include the following:
 
@@ -50,7 +50,7 @@ Manual collection is another strategy that might be adopted i.e. gathering downl
 
 ## Research Impact Metrics
 
-By Ali Moore
+Contributed by Ali Moore and Jennifer Chan
 
 ### What are bibliometrics?
 
@@ -162,7 +162,7 @@ Further Reading:
 
 ## Library Catalogues and Link Resolvers
 
-By Sonya Betz
+> Contributed by Sonya Betz
 
 Libraries have historically been the primary access point for most academic journals. Although researchers now find open access articles from other sources, there are still many who use traditional library systems to find relevant articles. A journal’s inclusion in tools such as library catalogues and link resolvers can help boost the profile of the journal, provide access to the journal’s content for other automated applications, and improve perceptions of the journal’s credibility.
 
@@ -186,7 +186,7 @@ Link resolvers enable databases to connect to full-text journal articles. If a j
 
 ## Copyright and Licensing
 
-> By Roger Gillis
+> Contributed by Roger Gillis
 
 Copyright and licensing impacts your journals ability to have its content found and used. How you claim ownership as a publication over the material you publish will affect users’ ability to share and distribute that content outside of your website. For example, do you allow authors to retain copyright and distribute their articles outside of the journal such as by depositing a copy in their institutional repository, or on an author’s personal website? These are important considerations -- allowing authors to share their work that is published in your journal outside of your journal has the potential to help authors fulfill Open Access funding requirements and help them showcase and share their work (as well as raise the profile of your publication). It is important to drive readers to your journal website, but it may not always be possible for readers to read your journals’ content solely on your website, especially as authors increasingly wish to take advantage of other venues for sharing their work.
 
