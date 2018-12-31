@@ -4,7 +4,7 @@ The success of your journal depends on developing a regular readership, who will
 
 ## Journal Standards and Identifiers
 
-By Roger Gillis
+> Contributed by Roger Gillis
 
 There are several different standards and identifiers that are commonly used in academic publishing, and it is important for journal managers to become familiar with them and the role that they play in the operation of the journal. Although not exhaustive, this section will cover the most important ones: ISSN (International Standard Serial Number), Digital Object Identifier (DOI), and ORCID (Open Researcher and Contributor ID).
 
@@ -53,6 +53,8 @@ Once you have joined Crossref and configured OJS to use DOIs, you will need to r
 
 ### Open Researcher and Contributor ID (ORCID)
 
+> Contributed by Jennifer Chan 
+
 The Open Research and Contributor ID (ORCID) is a persistent digital identifier that distinguishes one researcher or contributor from another, and is being increasingly adopted in workflows for grant and publication submission. The ORCID also serves as a means of ensuring that a researcher is accurately identified as a contributor for a particular work. This is particularly useful when authors have the same names. ORCID also ensures that works are properly attributed to authors who have undergone a legal name change.
 
 An ORCID can be obtained by any researcher by [registering on the ORCID website](https://orcid.org/register). Registering for an ORCID is free, and filling out a basic profile takes just a few minutes.
@@ -86,14 +88,9 @@ This will automatically pull their personal data (first name, last name, email, 
 #### Further Reading:
 Library Publishing Coalition (LPC) Webinar Series: [ORCID in Publishing Workflows](https://www.youtube.com/watch?v=9A3sk13C7QM)
 
-
-### Metadata
-
-Coming later.
-
 ## Search Engines
 
-By Roger Gillis
+> Contributed by Roger Gillis
 
 Despite the existence of specialized research databases, many researchers begin their online investigation in a search engine, like Google. Ensuring your journal is well placed within search engine search results is therefore an important responsibility for journal managers.
 
@@ -101,7 +98,6 @@ Despite the existence of specialized research databases, many researchers begin 
 Search Engine Optimization (SEO) refers to the process of increasing the visibility of a website, webpages, or website content (such as your journal articles) within search engines. SEO is an important consideration for online journals seeking to draw visitors to their sites. When a researcher does a search on Google that is relevant to your subject area, you want your articles to appear as close to the top of their result list as possible. SEO can help to put you higher on that list.
 
 Most visits to websites are driven by search engines. And two major search engines make up more than 95% of all search traffic in the United States: Google and Yahoo!-Bing alliance. For most countries outside of the US, over 80% of search traffic comes solely from Google (with some exceptions, including Russia and China [(Fishkin & Moz, 2015)](https://moz.com/beginners-guide-to-seo).
-
 
 While most modern search engines are fairly adept at indexing sites, there are a number of things that you can do to rank higher in search engine results and draw more readers to your journal.
 
@@ -147,8 +143,6 @@ For advice on developing a social media presence for your journal, see the secti
 
 Links aren't everything in SEO, but search professionals attribute a large portion of the engines' algorithms to link-related factors \[...\]. Through links, engines can not only analyze the popularity of websites and pages based on the number and popularity of pages linking to them, but also metrics like trust, spam, and authority.” [(Fishkin, & Moz p.30)](https://moz.com/beginners-guide-to-seo)
 
-
-
 Linking on the web works in two directions: links to your journal, including to your articles, from other sites, and links you include on your journal to other sites. Both play an important role in SEO. The more sites that link to your journal, the more likely your journal is to rank higher in search engine rankings. Here are some easy things you can do to help get more links to your journal:
 
 1. Hire a professional graphic designer to create a journal logo that others could use to link to your site.
@@ -192,7 +186,7 @@ Indexes and databases are online, searchable collections of information. Sometim
 
 ### An introduction to indexing services
 
-> Section contributed by Andrea Kosavic
+> Contributed by Andrea Kosavic
 
 Indexing services ensure that scholarly content is discoverable and accessible to the broadest possible audience. It is strategic for a journal’s content to be visible where researchers in the field are conducting their research, and this is achievable by targeting indexes favoured by scholars in a given area of study. This includes any number of open and commercial indexing services and universal indexes like [Google Scholar](https://scholar.google.com).
 
@@ -338,7 +332,7 @@ The actual steps involved to getting material included in commercial databases w
 
 ### Web of Science inclusion resources
 
-By Andrea Kosavic
+> Contributed by Andrea Kosavic
 
 Web of Science is another popular commercial index that many journals wish to get indexed in. Editors will first want to consult the master journal list to see if the journal is included, and ensure that their publication is in alignment with the selection criteria.
 
@@ -352,7 +346,7 @@ Web of Science is another popular commercial index that many journals wish to ge
 
 ## Promotion and Marketing
 
-By Suzanne Jay
+> Contributed by Suzanne Jay
 
 Promoting and marketing your journal to propspective audiences can be a great way to raise the profile of your journal. There are a variety of ways to go about this, including via social media, as well as getting media attention for research that your jornal publishes.
 
