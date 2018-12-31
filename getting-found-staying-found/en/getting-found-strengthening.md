@@ -2,7 +2,7 @@
 
 ## Publication Ethics
 
-By Jeanette Hatherill, Andrea Kosavic
+>  Jeanette Hatherill, Andrea Kosavic
 
 
 
