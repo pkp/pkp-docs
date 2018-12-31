@@ -16,7 +16,8 @@ It’s important to note that mass solicitation or “spamming” of authors is 
 
 ## Commercial scholarly networking platforms
 
-> Section contributed by Dana MacFarland
+
+> Contributed by Dana MacFarland
 
 Commercial platforms such as ResearchGate and Academia.edu offer various services for authors that may include the following:
 
@@ -50,7 +51,7 @@ Manual collection is another strategy that might be adopted i.e. gathering downl
 
 ## Research Impact Metrics
 
-> Section contributed by Ali Moore and Jennifer Chan
+Contributed by Ali Moore and Jennifer Chan
 
 ### What are bibliometrics?
 
@@ -59,7 +60,7 @@ Editors should be aware that a variety of metrics may be considered by prospecti
 
 ### Journal-level metrics
 
-### Journal Impact Factor
+#### Journal Impact Factor
 
 One of the most well-known and well-established journal-level metrics is the journal impact factor (JIF). JIF is measured as “the frequency with which the 'average article' published in a journal has been cited in a particular year. It measures a journal's relative importance as it compares to other journals in the same field” [(SFU Library, 2017)](http://www.lib.sfu.ca/help/publish/scholarly-publishing/scholarly-metrics). You can find a journal’s impact factor in Journal Citation Reports, which is published by Thomson Reuters.
 
@@ -71,13 +72,13 @@ Journal Impact Factor, and 5-year Journal Impact Factor can be calculated using 
 
 JIF is considered a fairly controversial measure, as the number of open access journals, books, conference proceedings, and items in languages other than English included in the Journal Citation Reports is very limited. JIF also does not take into account self-citing. Additionally, articles may be highly cited for negative reasons; as such, a high impact factor is not necessarily a guarantee of quality.
 
-### Eigenfactor score
+#### Eigenfactor score
 
 A journal’s Eigenfactor score is evaluated based on the number of “The Eigenfactor ranks journals based on the number of citations its articles receive, weighting citations that come from other influential journals more heavily. A benefit of the Eigenfactor over the JIF is that it excludes self-citations.
 
 The Article Influence score is the Eigenfactor divided by the number of articles in the journal. This metric is most directly comparable to the JIF.
 
-### Journal Immediacy Index
+#### Journal Immediacy Index
 
 The journal immediacy index measures how frequently the average article from a journal is cited within a given year of publication. This metric is made available through the InCites Journal Citation Reports (JCR) tool, but the formula could be applied to any journal that has compiled citation data for a given year. To calculate the immediacy index for a journal, the following calculation is applied:
 
@@ -89,7 +90,7 @@ One can quickly see that there are a number of challenges with such an assertion
 
 ### Article-level metrics
 
-### Citation count
+#### Citation count
 
 On the most basic level, individual articles are evaluated based on the number of citations that they receive. While a higher number may indicate that the article points to an original, innovative, or historically significant article, that is not necessarily the case: a study that is notoriously problematic may also be frequently cited as an example of what ought not to be done.
 
@@ -108,21 +109,21 @@ For the same example, Google Scholar returns a higher citation count because the
 ![Web of Science formula](assets/chapter2/google-scholar-citation.png)
 *Screenshot of article result from Google Scholar*
 
-### Article Influence score
+#### Article Influence score
 
 The *Article Influence Score* determines the average influence of a journal's articles over the first five years after publication.  It is calculated  by multiplying the Eigenfactor Score by 0.01 and dividing by the number of articles in the journal, normalized as a fraction of all articles in all publications.  This measure is roughly analogous to the *5-Year Journal Impact Factor* in that it is a ratio of a journal’s citation influence to the size of the journal’s article contribution over a period of five years” [(Clarivate Analytics, n.d., emphasis in original)](http://ipscience-help.thomsonreuters.com/incitesLiveJCR/glossaryAZgroup/g7/7751-TRS.html)
 
-### Immediacy Index
+#### Immediacy Index
 
 The immediacy index is not calculated at the article level as it takes into account the total number of citations received for articles and reviews published by a given journal for a particular year. As such, it is only calculated at the journal level.
 
-### Download Count
+#### Download Count
 
 In addition to journal specific metrics, many publishers, both commercial and open access, also provide article download counts as a quantifiable measure of article attention.
 
 ### Author-specific metrics
 
-### *h*-index
+#### *h*-index
 
 The *h*-index differs from other types of publication metrics in that it is aimed at demonstrating an author’s productivity and citation frequency across their body of work as a whole rather than focusing on a single publication. *h*-index is sometimes referred to as the *Hirsch index* or *Hirsch number* because the index was first suggested by University of California, San Diego physicist Jorge E. Hirsch as a metric for evaluating output in theoretical physics. Hirsch criticized journal impact factor (IF) and citation counts as being poor measures for researcher quality [(McDonald, 2005)](http://ucsdnews.ucsd.edu/archive/newsrel/science/MCH.asp).
 
@@ -133,7 +134,7 @@ The *h*-index takes into account both the number of publications of a given auth
 
 (Image Source: [Wikimedia](Image Source: https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/H-index-en.svg/425px-H-index-en.svg.png) \(Public Domain\)\)
 
-#### Limitations of h-index
+##### Limitations of h-index
 
 It should be noted that *h*-index numbers of researchers should only be compared for those working within the same discipline. The value of *h*-indexes of authors working across different disciplines should not be directly compared because the method of computing the index strongly reflects differences in publication frequency, resulting in a lower value for researchers working within disciplines where lower publication frequency is the norm [(Bornmann, 2008)](http://www.emeraldinsight.com/doi/abs/10.1108/00220410810844150). *h*-index also does not reflect order of authorship listings, which is an important consideration in some academic disciplines. The *h*-index calculation results in a natural number and therefore has been criticized as having less discriminatory power than other methods of calculating research impact.
 
@@ -164,7 +165,7 @@ Further Reading:
 
 ## Library Catalogues and Link Resolvers
 
-By Sonya Betz
+> Contributed by Sonya Betz
 
 Libraries have historically been the primary access point for most academic journals. Although researchers now find open access articles from other sources, there are still many who use traditional library systems to find relevant articles. A journal’s inclusion in tools such as library catalogues and link resolvers can help boost the profile of the journal, provide access to the journal’s content for other automated applications, and improve perceptions of the journal’s credibility.
 
@@ -188,7 +189,7 @@ Link resolvers enable databases to connect to full-text journal articles. If a j
 
 ## Copyright and Licensing
 
-> By Roger Gillis
+> Contributed by Roger Gillis
 
 Copyright and licensing impacts your journals ability to have its content found and used. How you claim ownership as a publication over the material you publish will affect users’ ability to share and distribute that content outside of your website. For example, do you allow authors to retain copyright and distribute their articles outside of the journal such as by depositing a copy in their institutional repository, or on an author’s personal website? These are important considerations -- allowing authors to share their work that is published in your journal outside of your journal has the potential to help authors fulfill Open Access funding requirements and help them showcase and share their work (as well as raise the profile of your publication). It is important to drive readers to your journal website, but it may not always be possible for readers to read your journals’ content solely on your website, especially as authors increasingly wish to take advantage of other venues for sharing their work.
 

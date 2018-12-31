@@ -1,13 +1,13 @@
 # Staying found: Ensuring Continuity
 
-Once your journal has developed a loyal readership, and established itself with a variety of indexes, databases, and other venues, you will need to be able to maintain these relationships. One of the fastest ways to undermine confidence in your publication is if your content becomes regularly unavailable, or worse, disappears completely. For print journals, reliable access is helped by the production of many physical copies of the journal, and their widespread distribution. If one copy is lost or misplaced, it can easily be replaced by a copy of another.
+Once your journal has developed a loyal readership, and established itself with a variety of indexes, databases, and other venues, you will need to be able to maintain these relationships. One of the fastest ways to undermine confidence in your publication is if your content becomes regularly unavailable, or worse, disappears completely. For print journals, reliable access is helped by the production of many physical copies of the journal, and their widespread distribution. If one copy is lost or misplaced, it can easily be replaced by a copy of another.For online content, there is the danger of there being only a single copy, which is shared electronically among all readers over the internet. If that single copy is lost, it is irreplaceable, and the results can be catastrophic for your project. 
 
-For online content, there is the danger of there being only a single copy, which is shared electronically among all readers over the internet. If that single copy is lost, it is irreplaceable, and the results can be catastrophic for your project. In this section we delve into some specific and more technical aspects of running the OJS software. If you’re running your own instance of OJS some of this may be more applicable to technical staff that may be running your OJS software. Having someone working with you who is knowledgeable about Web security and systems administration can be of significant benefit to your journal. If possible, it is important to seek out someone with the necessary skills to be able to assist you with these matters.  The section that follows provides a brief overview of different considerations that you should take for hosting and ensuring the ongoing availability of your online journal. For specific, aspects of running OJS in particular, you may wish to consult some of our other [documentation](https://docs.pkp.sfu.ca), and, in particular the [Administrator's guide](https://docs.pkp.sfu.ca/admin-guide/) for more of an in-depth guide.
+In this section we delve into some specific and more technical aspects of running the OJS software. If you’re running your own instance of OJS some of this may be more applicable to technical staff that may be running your OJS software. Having someone working with you who is knowledgeable about web security and systems administration can be of significant benefit to your journal. If possible, it is important to seek out someone with the necessary skills to be able to assist you with these matters.  The section that follows provides a brief overview of different considerations that you should take for hosting and ensuring the ongoing availability of your online journal. For specific, aspects of running OJS in particular, you may wish to consult some of our other [documentation](https://docs.pkp.sfu.ca), and, in particular the [Administrator's guide](https://docs.pkp.sfu.ca/admin-guide/) for more of an in-depth guide.
 
 
 ## Server environment
 
-> By Roger Gillis
+> Contributed by Roger Gillis
 
 One of the key elements of hosting an online journals, is determining, where it will live, which typically means a web server. Ensuring that your journal is hosted on a secure and reliable server is the first step to providing uninterrupted access to your content. A server is simply a computer that can not only view files on the internet, but can also let others (securely!) see its own files. Every website that you visit is stored (or "hosted") on a computer acting as a web server. Some institutions have their own web servers that you may be able to use, or you may need to investigate the services of a commercial provider. Choosing a high quality web server host is an important step in setting up an online journal, so you will need to ask some hard questions. There are three main criteria to look for in a hosting environment: reliability, speed, technical requirements, space, and support.
 
@@ -19,7 +19,7 @@ And, lastly, you’ll want to consider support, in terms of what type of assista
 
 ### Self-hosted vs. Hosted Solution
 
-Like many open source platforms, OJS is undergoing continuous development with new features being added and bugs being fixed. As a part of this, it is necessary to keep on top of upgrading the version of OJS that runs on your server as new versions of OJS get released. Another consideration to take into account is whether or not you have resources and/or expertise at your disposal to be able to carry out upgrades as the software grows. If you are looking to an outside host to host your publication/journal such as a university library, PKP Publishing Services, or a commercial host, you should inquire if this is something that they assist with, how often they may upgrade your OJS installation, and if there are any costs involved.
+Like many open source platforms, OJS is undergoing continuous development with new features being added and bugs being fixed. As a part of this, it is necessary to keep on top of upgrading the version of OJS that runs on your server as new versions of OJS get released. Another consideration to take into account is whether or not you have resources and/or expertise at your disposal to be able to carry out upgrades as the software grows. If you are looking to an outside host to host your publication/journal such as a university library, [PKP Publishing Services](https://pkpservices.sfu.ca/), or a commercial host, you should inquire if this is something that they assist with, how often they may upgrade your OJS installation, and if there are any costs involved.
 
 ### Shared hosting vs. Dedicated Server Hosting
 
@@ -38,7 +38,7 @@ In this hosting arrangement, a virtualized server devoted to your needs is provi
 In this situation, an entire piece of physical hardware (i.e. a server) may be dedicated to your use. This is the most expensive of these three options and idea for very high traffic websites or larger operations that might have more complex needs.
 
 ### Backups
-A key consideration for any hosting service that you might want to consider is how and at what frequency is the application and the data backed up. Does the service provide daily backups? Weekly backups? Are these backups stored in remote geographical locations (e.g. if something were to happen in one location where your data was located, is there a copy of the data in another location).  If something happens to your site, you will want to be able to restore it back to where it was before the problem occurred. Is the database also backed up? If you are running OJS or any other database-driven applications, you will want to make sure the database can also be restored in the event of a system failure.
+A key consideration for any hosting service that you might want to consider is how and at what frequency is the application and the data backed up. Does the service provide daily backups? Weekly backups? Are these backups stored in remote geographical locations (e.g. if something were to happen in one location where your data was located, is there a copy of the data in another location?).  If something happens to your site, you will want to be able to restore it back to where it was before the problem occurred. Is the database also backed up? If you are running OJS or any other database-driven applications, you will want to make sure the database can also be restored in the event of a system failure.
 
 Some additional considerations to take into account include: does the provider have a system in place for their own system failures, such as power loss or server crashes? Will they be able to have your site back online fast after such a crisis?
 
@@ -50,11 +50,11 @@ Finally, for any hosting services, investigate their current list of customers, 
 
 ### Library-based hosting
 
-A number of university libraries host Open Journal Systems for journals that are affiliated with their university’s faculty. A list of these universities (especially in North America) can be found in the [Library Publishing Coalition Directory](https://librarypublishing.org/directory/). If you are affiliated with a university who offers OJS hosting, it is an option you may wish to consider.
+A number of university libraries host OJS for journals that are affiliated with their university. Consult with your affiliated library to see if they offer OJS hosting A list of these universities (especially in North America) can be found in the [Library Publishing Coalition Directory](https://librarypublishing.org/directory/). If you are affiliated with a university who offers OJS hosting, it is an option you may wish to consider.
 
-### Public Knowledge Project Publishing Services (PKP|PS)
+### Public Knowledge Project Publishing Services \(PKP|PS\)
 
-The Public Knowledge Project provides hosting services for journals as part of the [Public Knowledge Project Publishing Services (PKP-PS)](https://pkpservices.sfu.ca/). For an annual fee, PKP|PS installs and maintains OJS on commercial grade servers, provides encryption, as well as daily onsite, and weekly off-site backups. Also included as a part of its hosting packages are free upgrades to ensure that OJS installations keep up with the latest upgrades for the software. As a part of its services, journals hosting with PKP|PS retain full control over their publication and also can enact appropriate policies for their publications (e.g., copyright, access, peer-review, conflict of interest, etc.) All data is also retained by the client. As a part of PKP|PS’s services, there are several tiers of service with different features and additional features, which are outlined on the PKP|PS website.
+The Public Knowledge Project provides hosting services for journals as part of the [Public Knowledge Project Publishing Services (PKP-PS)](https://pkpservices.sfu.ca/). For an annual fee, PKP|PS installs and maintains OJS on commercial grade servers, provides encryption, as well as daily onsite, and weekly off-site backups. Also included as a part of its hosting packages are free upgrades to ensure that OJS installations keep up with the latest upgrades for the software. As a part of its services, journals hosting with PKP|PS retain full control over their publication and also can enact appropriate policies for their publications \(e.g., copyright, access, peer-review, conflict of interest, etc.\) All data is also retained by the client. As a part of PKP|PS’s services, there are several tiers of service with different features and additional features, which are outlined on the PKP|PS website.
 
 
 ## Digital Preservation
@@ -77,9 +77,6 @@ There are a number of existing ejournal preservation programs in addition to the
 
 Because OJS supports the LOCKSS system, it’s very easy to enable the PKP PN plugin, as well as other “flavours” of LOCKSS, from within the OJS interface. Depending on your journal’s arrangements, these alternatives to the PKP PN may or may not be relevant.
 
-**Further Reading**
-
-[Digital Preservation initiatives](https://en.wikipedia.org/wiki/List_of_digital_preservation_initiatives)
 
 ## DOAJ and Digital Preservation/Archiving Policy
 
@@ -93,5 +90,8 @@ The following policy from _Current Oncology_ is an example of a clear and concis
 
 Source: [Archiving Policy. Current Oncology Journal](http://www.current-oncology.com/index.php/oncology/about/editorialPolicies#archiving)
 
-
 DOAJ checks the Keepers Registry to confirm that a journal’s archiving arrangements are as stated in its application. The PKP PN provides data about its holdings to the Keepers Registry so your journal will appear in the registry once it has been archived.
+
+**Further Reading:**
+
+[Digital Preservation initiatives](https://en.wikipedia.org/wiki/List_of_digital_preservation_initiatives)
