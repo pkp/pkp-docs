@@ -3,9 +3,9 @@
 Another method of building professional recognition is through the use of different techniques for measuring the use and impact of your journal. This will provide clear evidence of the success of your journal and allow you to regularly evaluate your progress.
 Under the traditional subscription/print model, the number of subscribers often formed the basis for understanding the usage of an individual journal. For open access journals, without a subscriber base to point to, this can be a challenge. OJS, however, does provide the option of requiring readers to register. A fee is not necessarily required for this registration, but does allow the journal to develop a better understanding of its audience. Some statistical analysis and reports are available to the OJS Journal Manager, including reporting on the number of registered users. The reporting and statistics capabilities of OJS are available in the [OJS statistics documentation](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
 
-Perhaps more important than the question of how many people are accessing your journal is how they are using it. This is known as measuring the “impact” of your journal. Journals with high citation impact are among the most respected and successful academic journals in their fields. Citation impact refers to how often an article, an author, or a journal is cited by other scholars. While this is not an uncontroversial means of measuring the value a journal is having in the academic community, it is the standard one that most people recognize and operate on the basis of. Readers looking for reliable information will often first look to journals with a high citation impact. Prospective authors, reviewers, and editors will be interested in volunteering their time with journals that have a high citation impact. Indexes and databases will want to include journals in their resources that have a high citation impact. And lastly, libraries will be motivated to promote journals with a high citation impact. All of this can lead to a cyclical pattern, where high impact journals are more likely to be used and supported, leading to more recognition, and higher impact. The challenge for every new journal is to get this process started, using some of the methods discussed in the previous section.
+Perhaps more important than the question of how many people are accessing your journal is how they are using it. This is known as measuring the “impact” of your journal. Journals with high citation impact are among the most respected and successful academic journals in their fields. Citation impact refers to how often an article, an author, or a journal is cited by other scholars. While this is not an uncontroversial means of measuring the value a journal is having in the academic community, it is the standard one that most people recognize and operate on the basis of. Readers looking for reliable information will often first look to journals with a high citation impact. Prospective authors, reviewers, and editors may be more interested in volunteering their time with journals that have a high citation impact. Indexes and databases will want to include journals in their resources that have a high citation impact. And lastly, libraries will be motivated to promote journals with a high citation impact. All of this can lead to a cyclical pattern, where high impact journals are more likely to be used and supported, leading to more recognition, and higher impact. The challenge for every new journal is to get this process started, using some of the methods discussed in the previous section.
 
-Of particular interest for OJS and other open access journals are the results from several studies revealing that open access policies tend to increase the citation impact of journals (“Bibliography of Empirical Studies on Open Access”, 2006). By providing free and immediate access to their content, open access journals are increasingly becoming the first choice among scholars for their research.
+Of particular interest for OJS and other open access journals are the results from several studies revealing that open access policies tend to increase the citation impact of journals ["The effect of open access and downloads ('hits') on citation impact: a bibliography of studies" ](http://opcit.eprints.org/oacitation-biblio.html). By providing free and immediate access to their content, open access journals are increasingly becoming the first choice among scholars for their research.
 
 ## Attracting Authors
 
@@ -15,6 +15,7 @@ It’s important to note that mass solicitation or “spamming” of authors is 
 
 
 ## Commercial scholarly networking platforms
+
 
 > Contributed by Dana MacFarland
 
@@ -37,11 +38,11 @@ For example:
 ![ResearchGate](assets/chapter2/researchgate.png)
 *Screenshot from ResearchGate*
 
-Features of scholarly networking platforms may appeal to authors, but there are implications, particularly in hosting versions outside of OJS, that journal managers should be aware of. These include the following:
+Features of scholarly networking platforms may appeal to authors, but there are implications, particularly in hosting versions outside of OJS, that journal managers should be aware of. These include the aggregating metrics, and understanding use. 
 
 *Aggregating metrics*:  When a work may be retrieved from multiple platforms, indicators of use will also be distributed among those platforms. This may drive traffic to content published by a journal, but perhaps not exclusively via the journal platform. Journal managers should consider workflows or tools to aggregate and understand broader patterns of use related to articles that they publish. Counting downloads will not adequately represent use if a community of scholars around a journal also values the ability to upload a version to ResearchGate, or even to their institutional repository. 
 
-To address this, DOIs facilitate aggregation of metrics across platforms, through tools such as ImpactStory, Altmetric, and PlumAnalytics. In practice, effectiveness of these tools varies based on the breadth of relationships that they are able to establish with publishing platforms and none is comprehensive. For instance, none to date include indicators of use via ResearchGate or Academia.edu. Also, some platforms will assign another DOI when a version is uploaded to their site. Consequently and counter-intuitively, it may be productive to track more than one DOI per item.
+To address this, DOIs facilitate aggregation of metrics across platforms, through tools such as [ImpactStory](https://impactstory.org), [Altmetric](https://www.altmetric.com/), and [PlumAnalytics](https://plumanalytics.com/). In practice, effectiveness of these tools varies based on the breadth of relationships that they are able to establish with publishing platforms and none is comprehensive. For instance, none to date include indicators of use via ResearchGate or Academia.edu. Also, some platforms will assign another DOI when a version is uploaded to their site. Consequently and counter-intuitively, it may be productive to track more than one DOI per item.
 
 Manual collection is another strategy that might be adopted i.e. gathering download counts that include sampling from commercial platforms, perhaps using Google Analytics to identify referring sites.
 
@@ -69,19 +70,19 @@ Journal Impact Factor, and 5-year Journal Impact Factor can be calculated using 
 
 
 
-JIF is considered a fairly controversial measure, as the number of open access journals, books, conference proceedings, and items in languages other than English included in the Journal Citation Reports is very limited. JIF also does not take into account self-citing. [Additionally, articles may be highly cited for negative reasons; as such, a high impact factor is not necessarily a guarantee of quality.]
+JIF is considered a fairly controversial measure, as the number of open access journals, books, conference proceedings, and items in languages other than English included in the Journal Citation Reports is very limited. JIF also does not take into account self-citing. Additionally, articles may be highly cited for negative reasons; as such, a high impact factor is not necessarily a guarantee of quality.
 
-### Eigenfactor score
+#### Eigenfactor score
 
 A journal’s Eigenfactor score is evaluated based on the number of “The Eigenfactor ranks journals based on the number of citations its articles receive, weighting citations that come from other influential journals more heavily. A benefit of the Eigenfactor over the JIF is that it excludes self-citations.
 
-The Article Influence score is the Eigenfactor divided by the number of articles in the journal. This metric is most directly comparable to the JIF.”
+The Article Influence score is the Eigenfactor divided by the number of articles in the journal. This metric is most directly comparable to the JIF.
 
-### Journal Immediacy Index
+#### Journal Immediacy Index
 
 The journal immediacy index measures how frequently the average article from a journal is cited within a given year of publication. This metric is made available through the InCites Journal Citation Reports (JCR) tool, but the formula could be applied to any journal that has compiled citation data for a given year. To calculate the immediacy index for a journal, the following calculation is applied:
 
-immediacy index for year x = total number of citations for reviews and articles accrued in year x  / total number of reviews and articles published in year x
+`immediacy index for year x = total number of citations for reviews and articles accrued in year x  / total number of reviews and articles published in year x`
 
 InCites JCR claims that the immediacy index allows one to see how quickly an article published in a given journal is cited relative to others in its subject category, which helps to identify which journals are publishing the “hottest” papers in a discipline.
 
@@ -101,14 +102,16 @@ For example, citation count in Web of Science citation counts are limited to tho
 
 
 ![Web of Science formula](assets/chapter2/web-of-science.png)
+ *Screenshot from Web of Science Article*
 
 For the same example, Google Scholar returns a higher citation count because the index is more inclusive, and also represents non-journal citations.
 
 ![Web of Science formula](assets/chapter2/google-scholar-citation.png)
+*Screenshot of article result from Google Scholar*
 
 #### Article Influence score
 
-“The *Article Influence Score* determines the average influence of a journal's articles over the first five years after publication.  It is calculated  by multiplying the Eigenfactor Score by 0.01 and dividing by the number of articles in the journal, normalized as a fraction of all articles in all publications.  This measure is roughly analogous to the *5-Year Journal Impact Factor* in that it is a ratio of a journal’s citation influence to the size of the journal’s article contribution over a period of five years” [(Clarivate Analytics, n.d., emphasis in original)](http://ipscience-help.thomsonreuters.com/incitesLiveJCR/glossaryAZgroup/g7/7751-TRS.html)
+The *Article Influence Score* determines the average influence of a journal's articles over the first five years after publication.  It is calculated  by multiplying the Eigenfactor Score by 0.01 and dividing by the number of articles in the journal, normalized as a fraction of all articles in all publications.  This measure is roughly analogous to the *5-Year Journal Impact Factor* in that it is a ratio of a journal’s citation influence to the size of the journal’s article contribution over a period of five years” [(Clarivate Analytics, n.d., emphasis in original)](http://ipscience-help.thomsonreuters.com/incitesLiveJCR/glossaryAZgroup/g7/7751-TRS.html)
 
 #### Immediacy Index
 
@@ -119,23 +122,23 @@ The immediacy index is not calculated at the article level as it takes into acco
 In addition to journal specific metrics, many publishers, both commercial and open access, also provide article download counts as a quantifiable measure of article attention.
 
 ### Author-specific metrics
+
 #### *h*-index
 
-The *h*-index differs from other types of publication metrics in that it is aimed at demonstrating an author’s productivity and citation frequency across their body of work as a whole rather than focusing on a single publication. *h*-index is sometimes referred to as the *Hirsch index* or *Hirsch number* because the index was first suggested by University of California, San Diego physicist Jorge E. Hirsch as a metric for evaluating output in theoretical physics. Hirsch criticized journal impact factor (IF) and citation counts as being poor measures for researcher quality, [(McDonald, 2005)](http://ucsdnews.ucsd.edu/archive/newsrel/science/MCH.asp).
+The *h*-index differs from other types of publication metrics in that it is aimed at demonstrating an author’s productivity and citation frequency across their body of work as a whole rather than focusing on a single publication. *h*-index is sometimes referred to as the *Hirsch index* or *Hirsch number* because the index was first suggested by University of California, San Diego physicist Jorge E. Hirsch as a metric for evaluating output in theoretical physics. Hirsch criticized journal impact factor (IF) and citation counts as being poor measures for researcher quality [(McDonald, 2005)](http://ucsdnews.ucsd.edu/archive/newsrel/science/MCH.asp).
 
 The *h*-index takes into account both the number of publications of a given author, as well as the number of citations per each publication.
 
-![Web of Science forumula](assets/chapter2/h-index.png)
+![Web of Science formula](assets/chapter2/h-index.png)
 
 
+(Image Source: [Wikimedia](Image Source: https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/H-index-en.svg/425px-H-index-en.svg.png) \(Public Domain\)\)
 
-(Image Source: [Wikimedia](Image Source: https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/H-index-en.svg/425px-H-index-en.svg.png) (Public Domain)
-
-#### Limitations of h-index
+##### Limitations of h-index
 
 It should be noted that *h*-index numbers of researchers should only be compared for those working within the same discipline. The value of *h*-indexes of authors working across different disciplines should not be directly compared because the method of computing the index strongly reflects differences in publication frequency, resulting in a lower value for researchers working within disciplines where lower publication frequency is the norm [(Bornmann, 2008)](http://www.emeraldinsight.com/doi/abs/10.1108/00220410810844150). *h*-index also does not reflect order of authorship listings, which is an important consideration in some academic disciplines. The *h*-index calculation results in a natural number and therefore has been criticized as having less discriminatory power than other methods of calculating research impact.
 
-The reliance of the *h*-index upon the corpus of an author’s works can result in differing values when calculations do not take into account the same publication sources. This discrepancy, documented in “Which *h*-index? — A comparison of Web of Science, Scopus and Google Scholar,” demonstrated that *h*-index values could vary from database to database, [(Bar-Ilan, 2007)](https://link.springer.com/article/10.1007%2Fs11192-008-0216-y]. For instance, if one calculation takes conference proceedings into account as a valid part of the author’s body of work, the *h*-index will necessarily result in a different value than when calculated without that category of content. Therefore, the publication in which a work appears must be indexed by the database in question in order to be reflected in this calculation.
+The reliance of the *h*-index upon the corpus of an author’s works can result in differing values when calculations do not take into account the same publication sources. This discrepancy, documented in “Which *h*-index? — A comparison of Web of Science, Scopus and Google Scholar,” demonstrated that *h*-index values could vary from database to database, [(Bar-Ilan, 2007)](https://link.springer.com/article/10.1007%2Fs11192-008-0216-y). For instance, if one calculation takes conference proceedings into account as a valid part of the author’s body of work, the *h*-index will necessarily result in a different value than when calculated without that category of content. Therefore, the publication in which a work appears must be indexed by the database in question in order to be reflected in this calculation.
 
 
 ### Altmetrics
@@ -230,3 +233,5 @@ SHERPA/RoMEO is a popular database used for sharing journals’ and publishers�
 ## Further Reading:
 
 [Open Access Publishers Association - Best Practices in Licensing and Attribution](https://oaspa.org/best-practices-licensing-attribution-need-to-know/)
+
+"The effect of open access and downloads ('hits') on citation impact: a bibliography of studies" ](http://opcit.eprints.org/oacitation-biblio.html)
