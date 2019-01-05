@@ -143,24 +143,16 @@ The reliance of the *h*-index upon the corpus of an author’s works can result 
 
 ### Altmetrics
 
-The term “altmetrics,” originally a portmanteau of “alternative” and “metrics,” refers to emerging metrics based on the social web, [(Priem, 2010)](http://altmetrics.org/manifesto) describing a range of non-traditional indicators that relate to the attention and/or use of published scholarly information (mentions in social media, social bookmarking, likes, etc.). One criticism levied at conventional bibliometrics is that the ability to measure attention is considerably delayed when metrics are reliant upon citations, a phenomenon often referred to as “citation lag,” [(Nakamura, 2011)](https://link.springer.com/article/10.1007/s11192-011-0341-x). Altmetrics tools relying on the social web can provide much more timely, near real-time usage/attention data, and may be applied to both traditional and non-traditional publishing formats.
+The term “altmetrics,” originally a portmanteau of “alternative” and “metrics,” refers to emerging metrics based on the social web, [(Priem, 2010)](http://altmetrics.org/manifesto) describing a range of non-traditional indicators that relate to the attention and/or use of published scholarly information (mentions in social media, social bookmarking, likes, etc.). One criticism levied at conventional bibliometrics is that the ability to measure attention is considerably delayed when metrics are reliant upon citations, a phenomenon often referred to as “citation lag” [(Nakamura, 2011)](https://link.springer.com/article/10.1007/s11192-011-0341-x). Altmetrics tools relying on the social web can provide much more timely, near real-time usage/attention data, and may be applied to both traditional and non-traditional publishing formats.
 
 With growing awareness, more nuanced understandings have characterized alt- or “all-metrics,” or “influmetrics,” as features of the evolving landscape of scholarly communication that do not replace but rather extend and complement more familiar indicators of use and influence [(Reed, McFarland, Croft 2016)](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/27301). While traditional measures of impact related to journal publishing (impact, citation counts) remain important to critically assessing influence of a journal and the articles in it, altmetrics offer journal managers insight into conversations or activity in venues that would otherwise be opaque.
 
-For example, [ImpactStory](https://impactstory.org), [Altmetric](https://altmetric.com), [Plum Analytics](https://plumanalytics.com) and others use persistent identifiers such as DOIs to aggregate mentions of articles not just in citation indexes, but also in Wikipedia, Twitter, Mendeley and other online venues.
-
-![Altmetric](assets/chapter2/altmetric.png)
-
-ImpactStory also indicates the proportion of the work that appears to be available from Open Access platforms.
+For example, [ImpactStory](https://impactstory.org), [Altmetric](https://altmetric.com), [Plum Analytics](https://plumanalytics.com) and others use persistent identifiers such as DOIs to aggregate mentions of articles not just in citation indexes, but also in Wikipedia, Twitter, Mendeley and other online venues. ImpactStory also indicates the proportion of the work that appears to be available from Open Access platforms.
 
 ![ImpactStory](assets/chapter2/impact-story.png)
 
 
 These features, which may demonstrate influence, use, and accessibility beyond the academic environment, may be of particular interest to journals that are grant-funded.
-
-Further Reading:
-[Metrics Toolkit](http://www.metrics-toolkit.org/)
-
 
 
 ## Library Catalogues and Link Resolvers
@@ -171,7 +163,7 @@ Libraries have historically been the primary access point for most academic jour
 
 ### Library/Union Catalogues
 
-If the journal has a local library affiliation, then editors can work with the library to catalogue the journal and make the record available in WorldCat (the world’s largest library catalog, which features library holdings from all over the world) for copy cataloguing by other libraries around the world. For example, WorldCat provides the Digital Collection Gateway tool:
+If the journal has a local library affiliation, then editors can work with the library to catalogue the journal and make the record available in WorldCat (the world’s largest library catalog, which features library holdings from all over the world) for copy cataloguing by other libraries around the world. For example, WorldCat provides the [Digital Collection Gateway tool](https://www.oclc.org/en/digital-gateway.html):
 
 >“The WorldCat Digital Collection Gateway provides you with a self-service tool, available at no charge, for harvesting the metadata of your unique, open-access digital content into WorldCat. Once there, your collections are more visible and discoverable to end users who search WorldCat as well as Google and other popular websites.”
 
@@ -181,17 +173,15 @@ Using tools like WorldCat Digital collection gateway, which is typically used by
 
 You can approach aggregators and indexing services for inclusion into their respective databases. These databases subsequently form part of the presentation layer for web scale discovery systems such as Primo and Summon made available to users of library catalogues.
 
-
 ### Link resolvers
 
 Link resolvers enable databases to connect to full-text journal articles. If a journal is indexed by another source, such as the DOAJ, or a commercial indexing service, then the journal may be included in link resolvers’ knowledge base as a source of full-text content. If not, journals can work with a local library to provide records.
-
 
 ## Copyright and Licensing
 
 > Contributed by Roger Gillis
 
-Copyright and licensing impacts your journals ability to have its content found and used. How you claim ownership as a publication over the material you publish will affect users’ ability to share and distribute that content outside of your website. For example, do you allow authors to retain copyright and distribute their articles outside of the journal such as by depositing a copy in their institutional repository, or on an author’s personal website? These are important considerations -- allowing authors to share their work that is published in your journal outside of your journal has the potential to help authors fulfill Open Access funding requirements and help them showcase and share their work (as well as raise the profile of your publication). It is important to drive readers to your journal website, but it may not always be possible for readers to read your journals’ content solely on your website, especially as authors increasingly wish to take advantage of other venues for sharing their work.
+Copyright and licensing impacts your journals ability to have its content found and used. How you claim ownership as a publication over the material you publish will affect users’ ability to share and distribute that content outside of your website. For example, do you allow authors to retain copyright and distribute their articles outside of the journal such as by depositing a copy in their institutional repository, or on an author’s personal website? These are important considerations. Allowing authors to share their work that is published in your journal outside of your journal has the potential to help authors fulfill Open Access funding requirements and help them showcase and share their work (as well as raise the profile of your publication). It is important to drive readers to your journal website, but it may not always be possible for readers to read your journals’ content solely on your website, especially as authors increasingly wish to take advantage of other venues for sharing their work.
 
 While many journals claim to be “Open Access,” there are many degrees of what is considered “Open”. The Scholarly Publishing and Academic Resources Coalition (SPARC)  provides a good overview of the six fundamental aspects of Open Access -- reader rights, reuse rights, copyrights, author posting rights, automatic posting, and machine readability -- all of which factor into what journals need to consider as a part of their Open Access and Copyright policies.
 
@@ -203,8 +193,7 @@ Source: [Scholarly Publishing and Academic Resources Coalition “How open is it
 Developing copyright and licensing policies that address all of these criteria can be very helpful to authors and letting them know what the journal does and does not permit with respect to the articles and other material that are published as part of the journal or publication. The Open Access Scholarly Publishing Association (OASPA) provides some advice on how and where copyright and licensing policies should be articulated:
 
 >“Licensing policies should be clearly stated and visible on journal websites and all published material. Policies are often >stated at the bottom of each page of a website, but should also be clearly set out in an additional ‘Terms of Use’ or >‘Policies’ section, or in Guidelines for Authors.” 
-(Source: Open Access, Scholarly Publishers association, 2016 [“Best practices in licensing and attribution: What you need to know.](https://oaspa.org/best-practices-licensing-attribution-need-to-know/))”
-
+(Source: Open Access, Scholarly Publishers association, 2016. [“Best practices in licensing and attribution: What you need to know.](https://oaspa.org/best-practices-licensing-attribution-need-to-know/))”
 
 ### Copyright Ownership
 
@@ -224,14 +213,14 @@ Source: [University of British Columbia Libraries](http://guides.library.ubc.ca/
 
 ### SHERPA/RoMEO
 
-Journals and publishers should also consider sharing relevant policies as part of the [SHERPA/RoMEO database](http://www.sherpa.ac.uk/romeo/index.php)
+Journals and publishers should also consider sharing relevant policies as part of the [SHERPA/RoMEO database](http://www.sherpa.ac.uk/romeo/index.php).
 
-SHERPA/RoMEO is a popular database used for sharing journals’ and publishers’ policies on copyright and licensing of their works. It is used by authors, libraries, funders, as well as others to determine if publishers allow sharing of their publications outside of their website. Making this explicit through your policy and including your policies in a database like SHERPA/RoMEO can make it clearer for authors and users of of journals and publishers’ content on specifically how they  are allowing their publications to be used and share.
-
-
+SHERPA/RoMEO is a popular database used for sharing journals’ and publishers’ policies on copyright and licensing of their works. It is used by authors, libraries, funders, as well as others to determine if publishers allow sharing of their publications outside of the publications' website. Making this explicit through your policy and including your policies in a database like SHERPA/RoMEO can make it more clear for authors and users of of journals and publishers’ content on specifically how they publications can be used and shared.
 
 ## Further Reading:
 
 [Open Access Publishers Association - Best Practices in Licensing and Attribution](https://oaspa.org/best-practices-licensing-attribution-need-to-know/)
 
-"The effect of open access and downloads ('hits') on citation impact: a bibliography of studies" ](http://opcit.eprints.org/oacitation-biblio.html)
+["The effect of open access and downloads ('hits') on citation impact: a bibliography of studies"](http://opcit.eprints.org/oacitation-biblio.html)
+
+[Metrics Toolkit](http://www.metrics-toolkit.org/)
