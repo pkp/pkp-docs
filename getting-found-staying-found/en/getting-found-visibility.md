@@ -253,18 +253,18 @@ Processing the registration might take a few days to a week or so, as PKP staff 
 
 > Contributed by Andrea Pritt
 
-The Directory of Open Access Journals (DOAJ) is an online, community-curated list of open access journals, which aims to be the starting point for researchers looking for quality peer-reviewed open access resources. As stated on the DOAJ website: “the aim of the DOAJ is to increase the visibility and ease of use of open access scientific and scholarly journals, thereby promoting their increased usage and impact”[(Directory of Open Access Journals [DOAJ], 2018)](https://doaj.org). The DOAJ's mission is to increase the visibility, accessibility, reputation, usage and impact of quality, peer-reviewed, open access scholarly research journals globally, regardless of discipline, geography or language."[DOAJ, “Mission” 2018](https://doaj.org/about) As of this writing, DOAJ claims to have approximately 11,000+ journals included as part of its index [(DOAJ, 2018)](https://doaj.org).
+The Directory of Open Access Journals (DOAJ) is an online, community-curated list of open access journals, which aims to be the starting point for researchers looking for quality peer-reviewed open access resources. As stated on the DOAJ website: “the aim of the DOAJ is to increase the visibility and ease of use of open access scientific and scholarly journals, thereby promoting their increased usage and impact”[(Directory of Open Access Journals [DOAJ], 2018)](https://doaj.org). The DOAJ's mission is to increase the visibility, accessibility, reputation, usage and impact of quality, peer-reviewed, open access scholarly research journals globally, regardless of discipline, geography or language."[DOAJ, “Mission” 2018](https://doaj.org/about). As of this writing, DOAJ claims to have approximately 11,000+ journals included as part of its index [(DOAJ, 2018)](https://doaj.org).
 
-Having your journal included in DOAJ can have significant benefits for your journal’s reputation, usage, and impact. The DOAJ has established itself as a key index for high-quality open access journals worldwide. It is becoming the defacto “white list” of non-predatory open access journals, so you definitely want to be part of it. Including your journal in DOAJ will bring significant visibility to your journal -- libraries include DOAJ journals as part of their catalogs, which will mean that your journal's content will be included when thousands of students, faculty, and other researchers are looking for content. DOAJ is also a very common resource for authors looking for open access journals to publish in, which will also serve to raise the profile of your journal and assert its legitimacy. To help authors identify potential journals for submission by topic, DOAJ includes a Browse Subject feature.
+Having your journal included in DOAJ can have significant benefits for your journal’s reputation, usage, and impact. The DOAJ has established itself as a key index for high-quality open access journals worldwide. It is becoming the defacto “white list” of non-predatory open access journals, so you definitely want to be part of it. Including your journal in DOAJ will bring significant visibility to your journal -- libraries include DOAJ journals as part of their catalogs, which will mean that your journal's content will be included when thousands of students, faculty, and other researchers are looking for content. DOAJ is also a very common resource for authors looking for open access journals to publish in, which will also serve to raise the profile of your journal and assert its legitimacy. To help authors identify potential journals for submission by subject, DOAJ includes a "Browse Subjects" feature.
 
-DOAJ determines quality and acceptance into the directory through an extensive application process. In March 2014, new criteria guidelines were established. DOAJ provides guidance for journals for its application process. Journals may also be removed from the index if they do not meet DOAJ’s requirements. More information about inclusion and removal of journals can be found at the [FAQ list](https://doaj.org/faq#list).
+DOAJ determines quality and acceptance into the directory through an extensive application process. In March 2014, new criteria guidelines were established. DOAJ provides guidance for journals for its application process. Journals may also be removed from the index if they do not meet DOAJ’s requirements. More information about inclusion and removal of journals can be found at the [DOAJ FAQ list](https://doaj.org/faq#list).
 
 
 ### Google Scholar
 
 > Contributed by  Roger Gillis and Andrea Kosavic
 
-Google Scholar is a search engine for scholarly literature that has grown quite popular since it launched in 2004. It provides a simple search interface allowing users to search across many disciplines and sources for scholarly material such as articles, theses, books, abstracts, and court opinions and includes material from academic publishers, professional societies, online repositories, universities, and other web sites. [(Google Scholar “About” 2018]https://scholar.google.ca/intl/en/scholar/about.html).
+Google Scholar is a search engine for scholarly literature that has grown quite popular since it launched in 2004. It provides a simple search interface allowing users to search across many disciplines and sources for scholarly material such as articles, theses, books, abstracts, and court opinions and includes material from academic publishers, professional societies, online repositories, universities, and other web sites. [Google Scholar “About” 2018](https://scholar.google.ca/intl/en/scholar/about.html).
 
 Google scholar is used by many people to access scholarly research, including researchers themselves, so having your journal included in its search results can provide great exposure for your journal.
 
@@ -272,18 +272,17 @@ OJS interacts very well with Google Scholar. In fact, Google Scholar [recommends
 
 Google Scholar has as part of its criteria, that your content feature primarily scholarly articles. Additionally, at a minimum, the abstracts will need to be made freely available in order that they may be viewed in Google Scholar search results.
 
-To be crawled by Google Scholar, the articles that your journal publishes need to be in either the HTML or PDF format. If publishing in PDF, the text must be searchable. To configure searchable text in OJS ensure that the appropriate search settings are enabled in the OJS config.inc.php file. You can read more about this in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/managing-the-environment).
+To be crawled by Google Scholar, the articles that your journal publishes need to be in either the HTML or PDF format. If publishing in PDF, the text must be searchable. To configure searchable text in OJS ensure that the appropriate search settings are enabled in the OJS `config.inc.php` file. You can read more about this in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/managing-the-environment).
 
 Google Scholar requires that particular technical specifications be followed to ensure proper indexing. OJS users can take comfort in the knowledge that Google Scholar recognizes OJS as meeting its specifications but should take care to read the [indexing guidelines](https://scholar.google.ca/intl/en/scholar/inclusion.html) to ensure their content is optimized for inclusion.
 
-#### PubMed/Medline inclusion resources		
+### PubMed/Medline inclusion resources		
 
 > Contributed by Andrea Kosavic
 
 PubMed  is one of the most recognized and respected open indexes. As with commercial indexes, PubMed collects metadata from various journals (all in the field of life sciences and biomedicine) and combines them into a single searchable database.
 
-Journals in life sciences, medicine, or biomedicine fields that use the Open Journal Systems platform should endeavour to be included in PubMed. To facilitate this, OJS includes an exporting tool, which produces a file of all of your journal’s metadata suitable for sending directly to PubMed. Some open indexes, such as BioMed Central or Chemistry Central, only include their own published content. For journals not published by BioMed Central or Chemistry Central, it is not an option. Examples of other open indexes include Agricola from the U.S. National Agriculture Library and ERIC sponsored by the U.S. Department of Education, Institute of Education Sciences.
-
+Journals in life sciences, medicine, or biomedicine fields that use the Open Journal Systems platform should endeavour to be included in PubMed. To facilitate this, OJS includes an exporting tool, which produces a file of all of your journal’s metadata suitable for sending directly to PubMed. Some open indexes, such as BioMed Central or Chemistry Central, only include their own published content. For journals not published by BioMed Central or Chemistry Central, it is not an option. Examples of other open indexes include [Agricola](https://agricola.nal.usda.gov/) from the U.S. National Agriculture Library and ERIC(https://eric.ed.gov/) sponsored by the U.S. Department of Education, Institute of Education Sciences.
 
 *Further reading:*
 [Medline journal selection FAQ:](https://www.nlm.nih.gov/pubs/factsheets/j_sel_faq.html)
@@ -291,8 +290,7 @@ Journals in life sciences, medicine, or biomedicine fields that use the Open Jou
 [PubMed Central FAQ for publishers:](https://www.ncbi.nlm.nih.gov/pmc/about/faq-pub/)
 [PubMed Central online application:](https://www.ncbi.nlm.nih.gov/pmc/pub/addjournal/)
 
-
-#### Knowledge Bases and ERM
+### Knowledge Bases and ERM
 
 > Contributed by Andrea Kosavic
 
@@ -302,21 +300,18 @@ A knowledge base in the context of electronic resource management refers to a da
 * Maintaining lists of journal titles that are searchable, are browsable, and that link to publisher platform
 * Populating unified / federated indexes of content for “discovery” by specific communities of users
 
-Knowledge bases and link resolvers, journal title lists, and discovery tools may be more or less interoperable, and may be open source projects, but are more frequently developed and maintained by commercial service providers. In either event, representation of title-level metadata in a knowledge base is prerequisite to link resolving, presence in user-facing journal lists, and indexing in discovery tools such as (Summon), (EDS), and Primo.
+Knowledge bases and link resolvers, journal title lists, and discovery tools may be more or less interoperable, and may be open source projects, but are more frequently developed and maintained by commercial service providers. In either event, representation of title-level metadata in a knowledge base is prerequisite to link resolving, presence in user-facing journal lists, and indexing in discovery tools such as[Summon](https://www.proquest.com/products-services/The-Summon-Service.html), [EBSCO discovery service](https://www.ebscohost.com/discovery), and [Primo](http://www.exlibrisgroup.com/products/primo-library-discovery/).
 
 Frequently, participation in open indexes such as the PKP Index or the DOAJ (as detailed above) will also achieve representation even in commercial knowledge bases, which often seek to include Open Access materials as value-added resources. However, the completeness and currency of open access title lists in knowledge bases varies, and it may be necessary to contact a knowledge base provider to request inclusion or an update to a title list that should include a journal but does not.
 
-Examples of service providers for knowledge bases and related services include:
-  *Ex Libris - [Primo](http://www.exlibrisgroup.com/products/primo-library-discovery/), Summon
-  *Ebsco - [EBSCO discovery service](https://www.ebscohost.com/discovery)
 
 ## Commercial indexes	and aggregators		
 
 > Contributed by Andrea Kosavic and Roger Gillis
 
-Commercial indexes and aggregators are collections of journal citation details (such as author names, article title, journal title, volume and issue numbers, abstracts, etc. – also known as “metadata”) maintained in a central, searchable database. As commercial services, these indexes are only available with a paid subscription and are often accessed by readers through their library. Significant portions of many academic library budgets go toward making these commercial products freely available to their faculty and students. One of the most influential indexes is Clarivate Analytics’ (previously Thomson Reuters) [Web of Science](https://clarivate.com/products/web-of-science/).
+Commercial indexes and aggregators are collections of journal citation details (such as author names, article title, journal title, volume and issue numbers, abstracts, etc. – also known as “metadata”) maintained in a central, searchable database. As commercial services, these indexes are only available with a paid subscription and are often accessed by readers through their library. Significant portions of many academic library budgets go toward making these commercial products freely available to their faculty and students. One of the most influential indexes is [Clarivate Analytics](https://clarivate.com/) (previously Thomson Reuters) [Web of Science](https://clarivate.com/products/web-of-science/).
 
-Some indexes may be focused on a single discipline, such as [PsycInfo](http://www.apa.org/psycinfo/) for psychology, whereas others are multidisciplinary, such as Elsevier’s [Scopus](https://www.elsevier.com/solutions/scopus). Some combine information from hundreds of journals, and others may only include the metadata from a few. Some indexes are produced by scholarly societies or nonprofit organizations, and others are produced by for-profit businesses. Commercial indexes are often the most important way for readers to find your content, and getting included in one or more of them is important for your journal’s success.
+Some indexes may be focused on a single discipline, such as [PsycInfo](http://www.apa.org/psycinfo/) for psychology, whereas others are multidisciplinary, such as Elsevier’s [Scopus](https://www.elsevier.com/solutions/scopus). Some combine information from hundreds of journals, and others may only include the metadata from a few. Some indexes are produced by scholarly societies or nonprofit organizations, and others are produced by for-profit businesses. Commercial indexes are often an  important way for readers to find your content, and getting included in one or more of them is important for your journal’s success.
 
 ### Listing your journal with commercial indexes
 
@@ -339,16 +334,16 @@ Web of Science is another popular commercial index that many journals wish to ge
 *Web of Science Resources*
 
 * [Web of Science master journal list](http://ip-science.thomsonreuters.com/mjl/?utm_source=false&utm_medium=false&utm_campaign=false)
-* [Selection process: FAQs] (http://wokinfo.com/essays/journal-selection-process/)
-* [Submission form][http://ip-science.thomsonreuters.com/info/journalsubmission-front/?utm_source=false&utm_medium=false&utm_campaign=false]
+* [Selection process: FAQs](http://wokinfo.com/essays/journal-selection-process/)
+* [Submission form](http://ip-science.thomsonreuters.com/info/journalsubmission-front/?utm_source=false&utm_medium=false&utm_campaign=false)
 * [Evaluation status update request](http://ip-science.thomsonreuters.com/info/jrneval-status/)
 
 
 ## Promotion and Marketing
 
-> Contributed by Suzanne Jay
+> Contributed by Suzanne Jay and Kevin Stranack
 
-Promoting and marketing your journal to propspective audiences can be a great way to raise the profile of your journal. There are a variety of ways to go about this, including via social media, as well as getting media attention for research that your jornal publishes.
+Promoting and marketing your journal to propspective audiences can be a great way to raise the profile of your journal. There are a variety of ways to go about this, including via social media, as well as getting media attention for research that your journal publishes.
 
 ### Social media
 
@@ -362,7 +357,7 @@ Building an engaged social media following can absorb as many resources as you a
 
 #### Building a team
 
-It is common for scholarly social networking platforms, such as [Academia.edu](https://academia.edu),[ResearchGate](https://researchgate.net), or [Humanities Commons](https://hcommons.org), to provide social features to network users by encouraging them to follow one another and to receive alerts when a followed person publishes. Educating authors about these features can increase their findability and also increase visits to your journal.
+It is common for scholarly social networking platforms, such as [Academia.edu](https://academia.edu), [ResearchGate](https://researchgate.net), or [Humanities Commons](https://hcommons.org), to provide social features to network users by encouraging them to follow one another and to receive alerts when a followed person publishes. Educating authors about these features can increase their findability and also increase visits to your journal.
 
 Your authors and editorial team are the logical “core” of a journal’s social media team. Useful things they can do to bolster your publication’s social media presence include the following:
 
@@ -374,20 +369,20 @@ Your authors and editorial team are the logical “core” of a journal’s soci
 
 The inverted pyramid style media release remains a valid tool for getting information to key individuals and organizations about content published in your journal. The method of delivery has changed, but the media release is still a valuable way to pitch a story to a reporter who is almost always a layperson. We may consume media on different platforms, but commercial or traditional media remain the producers of trusted content that is shared across new platforms. Videos from TV news, stories from newspaper websites and blogs, and audio from radio stations continue to be widely shared on the news media. These traditional media still confer credibility and reliability to sources. Reporters and their editors still turn to news releases as a way to discover stories. With some exceptions, a news story shared on social media about something in your journal will be perceived with a higher degree of credibility among a wider (though shallower) audience than if you simply post a link to the information on your social media platform.
 
-#### Reasons to use media releases
+### Reasons to use media releases
 
 It might be tempting to rely on an article abstract in place of a media release, but abstracts, regardless of effort to use “plain language,” perform a different function and are not accessible to a general audience. The decision to create and use a media release will depend on your journal’s public profile needs and how important it is that your contributors’ work is noticed and by whom.
 
 ![Press release](assets/chapter1/press-release.jpg)
 
-Image source: By The Air Force Departmental Publishing Office (AFDPO) [Public domain], via Wikimedia Commons. [https://en.wikipedia.org/wiki/Inverted_pyramid_(journalism)-Check](https://en.wikipedia.org/wiki/Inverted_pyramid_(journalism)-Check)
+Image source: Air Force Departmental Publishing Office (AFDPO) [Public domain], via [Wikimedia Commons]. (https://en.wikipedia.org/wiki/Inverted_pyramid_(journalism)-Check)
 
 It is increasingly common that funders require projects to include a knowledge translation or mobilization component. Getting a story into the local community paper may or may not fulfill this requirement, but an article or mention in an industry magazine such as _Nature_, _Aviation Week_, or _CPA Magazine_ might. News reporters rarely spend time researching stories on their own. They rely on trusted sources. Unless they are assigned to a beat, which is rare now, most reporters will need explicit guidance to understand your subject area. Reporters rely on media releases to understand and shape a story. Media releases point out the relevance of an article to the media outlet’s audience, position an author as an expert and invite reporters to connect with the expert. Keep in mind that reporters may not be able to read the original journal article and may not have the necessary disciplinary background to interpret it appropriately.
 
 
 #### Factors to consider in developing a news release
 
-* Who is your audience and what do you want them to do? Example:  If your journal is for perfusionists and you want them to subscribe or read your new journal about perfusion, consider a media release to The Canadian Society of Clinical Perfusion, not the Globe and Mail
+* Who is your audience and what do you want them to do? Example:  If your journal is for perfusionists and you want them to subscribe or read your new journal about perfusion, consider a media release to The Canadian Society of Clinical Perfusion, not _The Globe and Mail_
 * Are you the person who should write the release?  An editor may have the support of an institution’s communications staff who will have the skill set and contacts to help you get the story out. In this situation, an editor serves the role of guide and educator to the communications person who is usually not an expert in your field. The editor may also be an important go-between with the author(s).
 * A modern media release can be multi-media, incorporating video, animation, live links and text.
 * The findings or content of specific articles is  much more interesting than the fact you have published a new issue. So each issue offers many promotional opportunities as long as each is tailored to specific audiences.
