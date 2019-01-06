@@ -22,32 +22,34 @@ _An example of an ISSN application from Library and Archives Canada_
 
 ISSNs should be displayed on the journal’s website where it can be easily located, such as the footer or sidebar. If the publication has both a print and online edition there is typically one for each. In OJS, you will be asked to enter your ISSN as part of the Journal Settings. This is used for metadata purposes and is not shown to readers. To make the ISSN visible in the journal footer, type it into the footer text field in the Website Settings. To make the ISSN visible in the sidebar, create a custom block.
 
-For the final published version of an article (i.e., a PDF galley), you may also want to include the ISSN, along with the journal name and DOI (see below), on the final page, in the footer of the PDF, or in another area of the layout version of the article itself. This is important, as PDFs can be downloaded, shared via email, and become disassociated with the journal. You always want to provide an easy and obvious link back to your journal.
+For the final published version of an article (e.g., a PDF galley), you may also want to include the ISSN, along with the journal name and DOI (see below), on the final page, in the footer of the PDF, or in another area of the layout version of the article itself. This is important, as PDFs can be downloaded, shared via email, and become disassociated with the journal. You always want to provide an easy and obvious link back to your journal.
 
 ### Digital Object Identifiers (DOIs)
+
+> Contributed by Roger Gillis
+
 The Digital Object Identifier or DOI is used to individually identify unique content and its location on the internet. They are typically applied to journal articles, but can be used for other content types such as datasets, images, or other supplementary materials added alongside articles. DOIs are what are called “persistent identifiers” — so even if the URL (Uniform Resource Locator - in other words, a website link) for a journal changes, the DOI remains the same and can be used to locate an article no matter where it moves on the web. DOIs are not only useful for readers trying to access articles, but are also used extensively by indexers, aggregators, and repositories, so it is important to take them seriously when trying to increase the visibility and impact of your journal.
 
-#### The anatomy of a DOI
+### The anatomy of a DOI
 A DOI consists of a series of characters divided into two parts -- a prefix and a suffix, which are separated by a slash. The prefix uniquely identifies the registrant (i.e. the publisher) of the title, and the suffix identifies the specific object. 
 
 For example, the article [“Health Care Professionals’ Opinions and Expectations of Clinical Pharmacy Services on a Surgical Ward”](http://www.cjhp-online.ca/index.php/cjhp/article/view/1606) has the DOI 10.4212/cjhp.v69i6.1606
 
 * The “10.” part of the prefix identifies the DOI registry or the agency that issues the DOI numbers - in this example the agency is Crossref. 
 * The characters “4212” in the prefix identify the registrant - in this case, the publisher is Multimed. 
-* cjhp.v69i6.1606, the suffix, consists of several different parts, meant to distinguish the particular content:
-
-   * “cjhp” is an abbreviation for the journal -- The _Canadian Journal of Hospital Pharmacy_. This is a common feature of DOIs, where a journal will opt to be identified in a DOI by a standardized journal abbreviation. Multimed publishes multiple journals, and this helps to identify to which of its titles this article belongs.
-   * “v69i6.1606” is the volume number of the article (69), then the issue number (6), and finally “1606” is a unique identifier for the individual article. For journals using OJS, the DOI will be automatically generated for each article.
+* cjhp.v69i6.1606, the suffix, consists of several different parts, meant to distinguish the particular content.
+* “cjhp” is an abbreviation for the journal -- The _Canadian Journal of Hospital Pharmacy_. This is a common feature of DOIs, where a journal will opt to be identified in a DOI by a standardized journal abbreviation. Multimed publishes multiple journals, and this helps to identify to which of its titles this article belongs.
+* “v69i6.1606” is the volume number of the article (69), then the issue number (6), and finally “1606” is a unique identifier for the individual article. For journals using OJS, the DOI will be automatically generated for each article.
 
 
 DOIs are capable of identifying a journal, an individual issue or volume of a journal, an individual article in a journal, or can even go so granular as to identify a table or chart in a particular article. Not all journals use an abbreviation as part of the suffix. Many use a random number that is assigned by a DOI registration agency. However, using a journal abbreviation is a good way of allowing users to more quickly identify your journal.
 
 You may often see DOIs communicated as URLs: “https://dx.doi.org/10.4212/cjhp.v69i6.1606.” This method can be used to obtain any article that has a DOI, by indicating the DOI following the “dx.doi.org.”
 
-#### Setting up DOIs in OJS
+### Setting up DOIs in OJS
 Journals publishing with OJS will find it very easy to work with DOIs. However, some initial setup steps are required. First, you will need to register with [Crossref](https://www.crossref.org/membership/), which does require an annual fee. Further integration regarding OJS’ integration with Crossref can be found in the [Crossref manual](http://docs.pkp.sfu.ca/crossref/). You will then need to enable the DOI plugin within the OJS Journal Settings. [Using DOIs and the DOI plugin](http://docs.pkp.sfu.ca/dois/) provides you with the detailed steps you need to follow to configure DOIs for OJS.
 
-#### Registering your DOIs in OJS
+### Registering your DOIs in OJS
 
 Once you have joined Crossref and configured OJS to use DOIs, you will need to register your content as it is published. OJS can be used to manually deposit DOIs to CrossRef, or configured to automatically deposit DOIs. A step-by-step guide to making DOI deposits to CrossRef can be found in the [Crossref manual](http://docs.pkp.sfu.ca/crossref/).
 
@@ -84,10 +86,6 @@ The OJS registration page can also include the option for new users to use their
 
 This will automatically pull their personal data (first name, last name, email, etc.) from the ORCID database into the OJS registration form.
 
-
-#### Further Reading:
-Library Publishing Coalition (LPC) Webinar Series: [ORCID in Publishing Workflows](https://www.youtube.com/watch?v=9A3sk13C7QM)
-
 ## Search Engines
 
 > Contributed by Roger Gillis
@@ -97,11 +95,11 @@ Despite the existence of specialized research databases, many researchers begin 
 ### Search Engine Optimization
 Search Engine Optimization (SEO) refers to the process of increasing the visibility of a website, webpages, or website content (such as your journal articles) within search engines. SEO is an important consideration for online journals seeking to draw visitors to their sites. When a researcher does a search on Google that is relevant to your subject area, you want your articles to appear as close to the top of their result list as possible. SEO can help to put you higher on that list.
 
-Most visits to websites are driven by search engines. And two major search engines make up more than 95% of all search traffic in the United States: Google and Yahoo!-Bing alliance. For most countries outside of the US, over 80% of search traffic comes solely from Google (with some exceptions, including Russia and China [(Fishkin & Moz, 2015)](https://moz.com/beginners-guide-to-seo).
-
-While most modern search engines are fairly adept at indexing sites, there are a number of things that you can do to rank higher in search engine results and draw more readers to your journal.
+Most visits to websites are driven by search engines. Two major search engines make up more than 95% of all search traffic in the United States: Google and Yahoo!-Bing alliance. For most countries outside of the US, over 80% of search traffic comes solely from Google (with some exceptions, including Russia and China [(Fishkin & Moz, 2015)](https://moz.com/beginners-guide-to-seo).
 
 Search engines provide two important functions: they return results relevant to the search query and they return results often according to popularity of the websites. Much of what is written about SEO pertains to commercially-oriented businesses and organizations seeking the maximum exposure for their brands and products via search engines. Some of these organizations have deep pockets and have invested considerable time, effort, and money on SEO. For those with limited or no budget and with highly specialized content, there are still some simple steps you can take to raise your visibility.
+
+While most modern search engines are fairly adept at indexing sites, there are a number of things that you can do to rank higher in search engine results and draw more readers to your journal.
 
 Some of the best ways to ensure good SEO are based on more general principles related to modern websites and design:
 
@@ -113,11 +111,11 @@ Source: [(Fishkin & Moz, 2015)](https://moz.com/beginners-guide-to-seo).
 
 Used appropriately, OJS can help you adhere to these principles, provide effective SEO for journals, and help you raise your visibility on the web.
 
-#### Practical steps and technical issues
+### Practical steps and technical issues
 
 Search engines work by sending out automated “crawlers” across the web. These “crawlers” need to be able to visit your site and index every page. Here are some practical steps and considerations you can use in order to help crawlers index your site:
 
-* Search engines have an easier time indexing material that is in HTML format. For OJS journals, your site is in HTML and will present no problems for crawlers. However, you should consider publishing HTML versions of your articles, as PDFs are typically not as indexable. Keep in mind that steps can be taken to make PDFs more accessible to search engines. See: [10 Tips to make your PDFs SEO friendly](https://www.searchenginejournal.com/pdf-seo-best-practices/59975/)
+* Search engines have an easier time indexing material that is in HTML format. For OJS journals, your site is in HTML and will present no problems for crawlers. Although more resource-intensive, you may wish to consider publishing HTML versions of your articles, as PDFs are typically not as indexable. However, keep in mind that steps can be taken to make PDFs more accessible to search engines. See: [10 Tips to make your PDFs SEO friendly](https://www.searchenginejournal.com/pdf-seo-best-practices/59975/)
 
 * If you use images on your journal website or in your articles, it is advisable to use the “alt” attribute to provide search engines with a text-based description of images. This also improves the overall accessibility of your journal website, assisting users with screen readers to understand the contents of an image. For OJS journals, you can add alt tags for the information you enter as a part of the setup process.
 
@@ -141,9 +139,9 @@ For advice on developing a social media presence for your journal, see the secti
 
 ### Linking up
 
-Links aren't everything in SEO, but search professionals attribute a large portion of the engines' algorithms to link-related factors \[...\]. Through links, engines can not only analyze the popularity of websites and pages based on the number and popularity of pages linking to them, but also metrics like trust, spam, and authority.” [(Fishkin, & Moz p.30)](https://moz.com/beginners-guide-to-seo)
+Links aren't everything in SEO, but search professionals attribute a large portion of the engines' algorithms to link-related factors. Through links, engines can not only analyze the popularity of websites and pages based on the number and popularity of pages linking to them, but also metrics like trust, spam, and authority.” [(Fishkin, & Moz p.30)](https://moz.com/beginners-guide-to-seo)
 
-Linking on the web works in two directions: links to your journal, including to your articles, from other sites, and links you include on your journal to other sites. Both play an important role in SEO. The more sites that link to your journal, the more likely your journal is to rank higher in search engine rankings. Here are some easy things you can do to help get more links to your journal:
+Linking on the web works in two directions: links to your journal, including to your articles, from other sites, and links you include on your journal to other sites. Both play an important role in SEO. The more sites that link to your journal, the more likely your journal is to rank higher in search engine rankings. Here are some things you can do to help get more links to your journal:
 
 1. Hire a professional graphic designer to create a journal logo that others could use to link to your site.
 2. Have other journals, conferences, or associations in your discipline link to your site, in exchange for you linking to them.
@@ -164,21 +162,13 @@ Linking from your journal to other relevant sites is another important way to in
 
 One of the easiest ways to determine how your publication might be faring in search engines is to do some tests for keywords and phrases. Try searching for your journal name or an article title in a search engine like Google and see your journal site is being indexed. 
 
-There are a wide variety of tools that can assist you with Search Engine Optimization and can help you understand the traffic that is occurring on your website:
+There are a wide variety of tools that can assist you with Search Engine Optimization and can help you understand the traffic for your website:
 
 * [Google Webmaster tools](https://www.google.com/webmasters/) and the [Google Search Console](https://search.google.com/search-console/about) can help you understand how your site is performing, and provide many tools to help improve your search ranking and performance.
 * [Google analytics](https://analytics.google.com/analytics/web/) or [Piwik](https://analytics.google.com/analytics/web/) can help you understand your web traffic. Both have OJS plugins and are popular, free, and effective ways to understand and report on traffic to your journal website. 
 * [Moz Link Explorer](https://moz.com/link-explorer) is another tool that allows you to analyze the sites that link to your website.
 
-There are a wide variety of tools that can assist you with SEO and can help you understand the traffic that is occurring on your website. Tools such as [Google analytics](https://analytics.google.com/analytics/web/) or [Piwik](https://analytics.google.com/analytics/web/) - for which there are plugins that you can use in OJS - are popular, free, and effective ways to understand and report on traffic to your journal website. [Moz Link Explorer](https://moz.com/link-explorer) is another tool that allows you to analyze the sites that link to your website.
-
 SEO can be intimidating and take time, practice, and experience to do properly. But by following some of the advice outlined in this section, you can take steps towards ensuring that your journal will be highly visible in the search engines used by researchers interested in your content and understand the web traffic reaching your website.
-
-*Further Reading*:
-
-[Creating Accessible PDFs (Library Publishing Coalition Webinar)](https://www.youtube.com/watch?v=Ex-XdcO7hjk)
-
-[PDF SEO best practices](https://www.google.com/url?q=https://www.searchenginejournal.com/pdf-seo-best-practices/59975/&sa=D&ust=1541954780929000&usg=AFQjCNGImYJnKymIh6PkQN5tWqUTMyRdfA)
 
 ## Indexes and Databases
 
@@ -394,3 +384,11 @@ It is increasingly common that funders require projects to include a knowledge t
 * It may be a better use of resources to recruit others who already have a following to promote the content in your journal than to devote resources to building a following from scratch.  The support of influencers who use social media will also help build a journal’s following.
 * Social media can amplify your story, but the substantive content usually resides elsewhere such as a news website, institutional blog, or your journal’s announcements page.
 * Journal content can have a long life. Consider promoting articles published several years earlier, especially if an article can fill an information vacuum for something current.
+
+## Further Reading:
+Library Publishing Coalition (LPC) Webinar Series: [ORCID in Publishing Workflows](https://www.youtube.com/watch?v=9A3sk13C7QM)
+
+[Creating Accessible PDFs](Library Publishing Coalition Webinar)](https://www.youtube.com/watch?v=Ex-XdcO7hjk)
+
+[PDF SEO best practices](https://www.google.com/url?q=https://www.searchenginejournal.com/pdf-seo-best-practices/59975/&sa=D&ust=1541954780929000&usg=AFQjCNGImYJnKymIh6PkQN5tWqUTMyRdfA)
+
