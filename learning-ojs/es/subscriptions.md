@@ -1,4 +1,4 @@
-## Capítulo 10: Suscripciones
+# Capítulo 10: Suscripciones
 OJS 3.1 le permite restringir parte o todo su contenido a los suscriptores. Para habilitar las Suscripciones, vaya primero a Preferencias > Distribución > Pagos.
 
 ![Captura de pantalla de cómo acceder a las suscripciones](./assets/image200.png)
