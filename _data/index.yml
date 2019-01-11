@@ -19,6 +19,8 @@ apps:
         isDeveloper: true
       - path: rest-api
         isDeveloper: true
+      - path: ui-library
+        isDeveloper: true
   - path: ojs2
     title: Open Journal Systems 2
     titleShort: OJS 2
@@ -46,6 +48,8 @@ apps:
         - path: pkp-theming-guide
           isDeveloper: true
         - path: rest-api
+          isDeveloper: true
+        - path: ui-library
           isDeveloper: true
   - path: ocs2
     title: Open Conference Systems
