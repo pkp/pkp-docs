@@ -26,7 +26,6 @@ El Administrador de la revista también tiene acceso a otras funciones de admini
 
 Muchos administradores de revistas también se inscriben como editores, lo que les permite administrar fácilmente tanto la configuración de la revista como los envíos en el flujo de trabajo editorial.
 
-> Nota
 > Aunque el Administrador de revistas es una función específica de una revista, los administradores de revistas deben ser considerados generalmente como usuarios de confianza en todo el sistema, ya que tienen la capacidad de asumir las identidades de otros usuarios que pueden estar inscritos en otras revistas.
 
 Consulte el Capítulo 5: Configuración de una revista para obtener más detalles.
@@ -71,8 +70,7 @@ Consulte el Capítulo 11: Flujo de trabajo editorial para obtener más detalles.
 ### Editor de maquetas
 El Editor de Maquetación transforma las versiones corregidas de la presentación en galeradas en HTML, PDF, XML, etc., archivos que la revista ha decidido utilizar para su publicación en línea.
 
-Nota
-OJS no proporciona actualmente software para la conversión automática de documentos procesados por palabras a formatos de galeradas (aunque un proyecto está en desarrollo), por lo que el editor de maquetas debería tener acceso y poder utilizar paquetes de software de terceros para la creación de galeradas.
+> OJS no proporciona actualmente software para la conversión automática de documentos procesados por palabras a formatos de galeradas (aunque un proyecto está en desarrollo), por lo que el editor de maquetas debería tener acceso y poder utilizar paquetes de software de terceros para la creación de galeradas.
 
 En algunos casos, el Editor o Editor de Sección también actuará como Editor de Maquetación.
 
@@ -85,3 +83,40 @@ En el caso de algunas revistas, el Editor o Editor de Sección también actuará
 Consulte el Capítulo 11: Flujo de trabajo editorial para obtener más detalles.
 ### Lector
 El rol Lector es el rol más simple en OJS, y tiene menos capacidades. Los lectores reciben un correo electrónico de notificación con la publicación de cada número, que incluye la Tabla de Contenidos para ese número en particular.
+
+## Registro en una revista
+Los visitantes no registrados de una revista normalmente pueden registrarse como Lectores, Autores y/o Revisores. Los administradores de revistas pueden eliminar la posibilidad de que los visitantes se registren por sí mismos, en cuyo caso aparecerá un aviso que indica que el registro está actualmente cerrado (consulte Configuración de revistas), pero los administradores de revistas siempre pueden registrar usuarios en cualquier momento y para cualquier función.
+
+Para registrarse en una revista, haga clic en el enlace **Registrar** en la esquina superior derecha.
+
+![Captura de pantalla 1 del registro](./assets/image187.png)
+
+Esto abrirá el Formulario de Inscripción para que usted complete con toda la información requerida.
+
+![Captura de pantalla 2 del registro](./assets/image147.png)
+
+Todos los campos marcados con un asterisco (Nombre, Apellido, Afiliación, País, Email, Nombre de usuario, Contraseña, Repetir contraseña) son obligatorios. Si la revista es multilingüe, deberá seleccionar el idioma que prefiera.
+
+Usted se registrará automáticamente como Lector y Autor. También tendrá la opción de registrarse como Revisor.
+
+Usted no podrá auto-registrarse para un rol editorial (por ejemplo, Editor, Editor de Sección, Copiador, Editor de Maquetación, Corrector, o Gerente de Revista). Si necesita inscribirse en ese nivel, póngase en contacto con un administrador de Revista o un administrador de sitio actual.
+
+## Cómo ver y cambiar su perfil
+Para ver y editar tu perfil, inicia sesión y haz clic en el enlace de tu nombre de usuario en la esquina superior derecha. Seleccione el enlace **Ver perfil**.
+
+
+![captura de perfil](./assets/image35.png)
+Desde aquí, seleccionando las diferentes pestañas, puede actualizar sus datos personales, información de contacto, cambiar sus funciones, añadir una imagen personal (que algunas revistas pueden publicar junto con su artículo o en una lista de editores), determinar su configuración de notificación o actualizar su contraseña.
+
+## Restablecimiento de la contraseña
+Puede restablecer su contraseña mediante:
+
+* Inicio de sesión en la revista
+* Seleccionando su nombre de usuario y Ver perfil en la esquina superior derecha de la pantalla
+* Selección de la ficha Contraseña
+* Introducir la contraseña actual y luego la nueva dos veces
+* Presionando Guardar
+
+![captura de pantalla de restablecimiento de contraseña](./assets/image50.png)
+
+Su clave está cambiada.
