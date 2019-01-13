@@ -2,9 +2,7 @@
 
 ## Publication Ethics
 
->  Jeanette Hatherill, Andrea Kosavic
-
-
+>  Section contributed by Jeanette Hatherill and Andrea Kosavic
 
 Journal managers and editors play an important role in establishing and solidifying
 the reputation of a journal. In previous sections of this book, we looked at how you
