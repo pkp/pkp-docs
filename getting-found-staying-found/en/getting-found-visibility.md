@@ -385,5 +385,5 @@ Library Publishing Coalition (LPC) Webinar Series: [ORCID in Publishing Workflow
 
 [Creating Accessible PDFs](Library Publishing Coalition Webinar)](https://www.youtube.com/watch?v=Ex-XdcO7hjk)
 
-[PDF SEO best practices](https://www.google.com/url?q=https://www.searchenginejournal.com/pdf-seo-best-practices/59975/&sa=D&ust=1541954780929000&usg=AFQjCNGImYJnKymIh6PkQN5tWqUTMyRdfA)
+[PDF SEO best practices](https://web.archive.org/web/20181222172840/https://www.searchenginejournal.com/pdf-seo-best-practices/59975/)
 
