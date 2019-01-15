@@ -26,7 +26,7 @@ The Journal Manager also enrolls the Editors, Section Editors, Copyeditors, Layo
 
 The Journal Manager also has access to the journal's other management features, and can create new Sections for the journal, set up Review Forms, edit the default Emails, view statistics and reports, import and export data, and access the editorial workflow and all journal submissions.
 
-See the [Journal Settings chapter](./journal-setup.md) for more details.
+See the Settings chapters for more details.
 
 ### Author
 
