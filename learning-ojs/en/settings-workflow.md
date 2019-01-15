@@ -148,20 +148,20 @@ All of the templates are enabled by default when you install OJS, but you can di
 When you edit an email template, you change what it will say every time it is used.  For emails that are sent voluntarily, such as a message sent to a reviewer asking them to review a submission, you can also change the contents of the message at the time of sending it. This changes the contents for that message only.
 
 To edit a template:
-1 Go to Workflow Settings > Emails > Prepared Email Templates
-2 Click the blue arrow next to the template name to reveal links below it
-3 Click Edit Email
-4 Make changes to the subject and the body text. Be careful to not delete any tags such as “{$authorName}:,” which automatically insert content from a submission.
-5 When you’re finished editing, click Save.
+1. Go to Workflow Settings > Emails > Prepared Email Templates
+2. Click the blue arrow next to the template name to reveal links below it
+3. Click Edit Email
+4. Make changes to the subject and the body text. Be careful to not delete any tags such as “{$authorName}:,” which automatically insert content from a submission.
+5. When you’re finished editing, click Save.
 
 ![](./assets/learning-ojs3.1-jm-settings-workflow-email-templates.PNG)
 
 #### Reload default email templates
 
 If you have edited email templates but want to reverse the edits and restore them to their default contents, you can reset them:
-1 Go to Workflow Settings > Emails > Prepared Email Templates
-2 Click Reset All Templates
-3 When the confirmation message appears, click OK.
+1. Go to Workflow Settings > Emails > Prepared Email Templates
+2. Click Reset All Templates
+3. When the confirmation message appears, click OK.
 
 #### Add email template
 
