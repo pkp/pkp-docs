@@ -108,11 +108,11 @@ Selecting the plugin title will provide additional details, including the author
 ### External Plugins 
 
 Sometimes new plugins or plugins that are developed by folks outside of PKP will not appear in the Plugin Gallery and you need to install them separately.
-1 Download the tar.gz file or .zip file of the plugin from its repository.
-2 Go to Installed Plugins tab.
-3 At top right, click Upload a New Plugin.
-4 Upload the plugin file.
-5 When it has finished uploading, click Save. Give it some time to install.
+1. Download the tar.gz file or .zip file of the plugin from its repository.
+2. Go to Installed Plugins tab.
+3. At top right, click Upload a New Plugin.
+4. Upload the plugin file.
+5. When it has finished uploading, click Save. Give it some time to install.
 
 If upload fails you may get an error message that says, “The uploaded plugin archive does not contain a folder that corresponds to the plugin name.” Usually this means you have to change the name of the plugin folder inside the zipped folder to a more simple name. For example, change “translator-ojs-3_0_0-0” to “translator.”
 
