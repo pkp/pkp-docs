@@ -70,7 +70,7 @@ Once you have added all of the roles, hit the **Save** button.
 
 Users in the system must have one or more roles.
 
-Roles define what a user can do within the system. An Author can make submissions and little else. An Editor can manage submissions, and a Journal Manager can configure the journal's settings. See [Chapter 3](https://docs.pkp.sfu.ca/learning-ojs/en/user-accounts#roles-in-ojs) for a list and description of every role.
+Roles define what a user can do within the system. An Author can make submissions and little else. An Editor can manage submissions, and a Journal Manager can configure the journal's settings. See the [User Accounts chapter](https://docs.pkp.sfu.ca/learning-ojs/en/user-accounts#roles-in-ojs) for a list and description of every role.
 
 One user can have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
 
@@ -78,7 +78,7 @@ OJS 3 has multiple roles available, each with different permission levels.
 
 ![](./assets/learning-ojs3.1-jm-users-roles.PNG)
 
-From this page, you can see each role, and the editorial stage each role can access. A good example of this is the Copyeditor role, which can only access the copyediting stage. Copyeditors cannot jump to the Review stage to see what happened during the peer review process. See Chapter 10 for more information about the different editorial stages.
+From this page, you can see each role, and the editorial stage each role can access. A good example of this is the Copyeditor role, which can only access the copyediting stage. Copyeditors cannot jump to the Review stage to see what happened during the peer review process. See the Editorial Workflow chapter for more information about the different editorial stages.
 
 ### Editing Roles
 
