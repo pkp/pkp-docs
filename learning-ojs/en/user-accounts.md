@@ -12,7 +12,7 @@ The OJS workflow revolves around different roles for different users, allowing t
 
 Major roles include Site Administrator, Journal Manager, Editor, Section Editor, Author, Reviewer, Copyeditor, Layout Editor, Proofreader, and Reader.
 
-OJS 3 also includes additional roles such as Translator and Designer. You can also create new roles or rename existing ones. More information on configuring roles is available in [Chapter 7](./users-and-roles.md).
+OJS 3 also includes additional roles such as Translator and Designer. You can also create new roles or rename existing ones. More information on configuring roles is available in the [Users and Roles chapter](./users-and-roles.md).
 
 ### Site Administrator
 The Site Administrator is responsible for the overall OJS installation, ensuring the server settings are accurate, adding language files, and creating any new journals on the installation. The Site Administrator account is created as part of the installation process. Unlike all other OJS roles, there can only be one Site Administrator.
@@ -26,7 +26,7 @@ The Journal Manager also enrolls the Editors, Section Editors, Copyeditors, Layo
 
 The Journal Manager also has access to the journal's other management features, and can create new Sections for the journal, set up Review Forms, edit the default Emails, view statistics and reports, import and export data, and access the editorial workflow and all journal submissions.
 
-See [Chapter 5: Journal Settings](./journal-setup.md) for more details.
+See the [Journal Settings chapter](./journal-setup.md) for more details.
 
 ### Author
 
@@ -34,7 +34,7 @@ Authors are able to submit manuscripts to the journal directly through the journ
 
 The Author is able to track the submission through the review and editorial process — as well as participate in the copyediting and proofreading of submissions accepted for publication — by logging in to the journal's website.
 
-See [Chapter 9: Authoring](./authoring.md) for more details.
+See the [Authoring chapter](./authoring.md) for more details.
 
 ### Editor
 
@@ -48,7 +48,7 @@ The Editor also creates the journal issues, schedules submissions for publicatio
 
 Editors can also access journal settings, users and roles, and tools.
 
-See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
 ### Section Editor
 
@@ -56,13 +56,13 @@ The Section Editor manages the review and editing of submissions to which they h
 
 Often, however, Section Editors only work with the review process, and an Editor, acting in the role of Section Editor, sees the submissions through the Editing process. The journal will have a policy on how the tasks are divided.
 
-See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
 ### Reviewer
 
 The Reviewer is selected by the Editor or Section Editor to review a submission. Reviewers are asked to submit reviews to the journal's website and are able to upload attachments for the use of the Editor and Author. Reviewers may be rated by Section Editors, again depending on the policies for this journal.
 
-See [Chapter 8: Reviewing](./reviewing.md) for more details.
+See the [Reviewing chapter](./reviewing.md) for more details.
 
 ### Copyeditor
 
@@ -70,7 +70,7 @@ The Copyeditor edits submissions to improve grammar and clarity, works with auth
 
 Some journals have an Editor or Section Editor play this role.
 
-See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
 ### Layout Editor
 
@@ -83,7 +83,7 @@ The Layout Editor transforms the copyedited versions of the submission into gall
 
 In some cases, the Editor or Section Editor will also serve as Layout Editor.
 
-See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
 ### Proofreader
 
@@ -91,7 +91,7 @@ The Proofreader carefully reads over the galleys in the various formats in which
 
 In the case of some journals, the Editor or Section Editor will also serve as Proofreader.
 
-See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
 ### Reader
 
