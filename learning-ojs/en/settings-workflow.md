@@ -60,7 +60,13 @@ This tab allows you to configure your journal's review process.
 
 **Default Review Deadlines**: Indicate how long reviewers have to decide to accept or decline a review request from the editor, and how long they have to make a recommendation.
 
-**Automated Email Reminders**: Set automatic reminder email messages to be sent to late reviewers. Note that some system settings must be configured by the Site Administrator. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
+**Automated Email Reminders**: Reviewers will automatically be notified when they are assigned to a review; however, you may wish to enable or disable reminder emails for reviewers. Use the drop down menu to select either the number of days or “Never Remind” under “Send a reminder if a reviewer has not responded to a review request within the following time (days) after response due date” to set the number of days that can pass after the due date before reviewers will be reminded to accept or reject a review request.
+
+Use the drop down menu to select either the number of days or “Never Remind” under “Send a reminder if a reviewer has not responded to a review request within the following time (days) after response due date” to set the number of days that can pass after the due date before reviewers will be reminded to make a recommendation for a submission.
+
+![](./assets/learning-ojs3.1-jm-settings-review-reminders.png
+
+Note that some system settings must be configured by the Site Administrator to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
 
 **Review Forms**: Review forms provide reviewers with a set of questions to respond to. This can help focus their feedback in ways that is more useful to you.
 
