@@ -1,4 +1,4 @@
-# Chapter 6: Issues
+# Chapter 10: Issues
 
 From the left menu, select Issues to manage all of the issues for your journal.
 
