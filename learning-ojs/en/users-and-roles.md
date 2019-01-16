@@ -20,9 +20,23 @@ You can edit a user account by selecting the blue arrow to the left of an entry.
 
 This opens the options to Email, Edit User, Disable, Remove, Login As, Merge User.
 
-**Email** opens a window allowing you to quickly send a message to that user. You cannot email multiple users at the same time except by using the Announcements feature.
+### Email Users 
+
+If you want to email a user about a particular submission, you can use the Discussion feature in the submission. This keeps all communication about a submission in one place.
+
+To send an email to a user that is unrelated to a submission:
+1. In the Journal Manager or Editor’s dashboard, go to Users & Roles > Users
+2. Find the user you want to email
+3. Click the blue arrow next to the user’s name to reveal links below it
+4. Click Email. A pop-up box will appear where you can type in your message and send it
 
 ![](./assets/learning-ojs-3-users-email.png)
+
+You cannot email multiple users at the same time except by using the Announcements feature. See the [Workflow Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow) for instructions on how to send announcements. It is also not possible to send a message to all users in one role, such as all reviewers registered on your site.
+
+If you want to email multiple users or all users in a single role on a regular basis, you can use an external email marketing application such as Mailchimp. User records can be exported in XML using Tools > Import/Export > Users XML Plugin or an Administrator can export them from the database in CSV.
+
+It is not currently possible to add cc or bcc addresses to messages or to add attachments to messages. To send attachments you can instead use the Discussion feature or the Submission Library.
 
 **Edit User** allows you to make changes to that user's account.
 
