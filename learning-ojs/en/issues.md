@@ -46,6 +46,8 @@ Using that same blue arrow will also reveal a Preview link, letting you get a lo
 
 Once you are happy with the issue hit the Publish Issue link to publish it on your journal website.
 
+By default, all registered users will be notified via email when a new issue is published from the list of Future Issues. To not send a notification of a new issue published, uncheck the box beside “Send notification email to all registered users” before pressing OK.
+
 ### Delete Issue
 
 You can use the Delete link to remove the issue. Any assigned articles will revert to their unpublished status.
