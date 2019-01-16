@@ -1,4 +1,4 @@
-# Chapter 8: Tools
+# Chapter 12: Tools
 
 The Tools section can be accessed from the left sidebar menu.
 
