@@ -10,6 +10,7 @@ apps:
       - path: learning-ojs-3
       - path: admin-guide
       - path: starting-a-journal
+      - path: gfsf
       - path: gdpr
       - path: pkp-school
       - path: crossref-ojs-manual
