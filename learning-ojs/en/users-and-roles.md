@@ -1,4 +1,4 @@
-# Chapter 7: Users and Roles
+# Chapter 10: Users and Roles
 
 This section provides access to all of the user accounts associated with your journal, as well as the opportunity to manage roles and permissions.
 
@@ -20,9 +20,23 @@ You can edit a user account by selecting the blue arrow to the left of an entry.
 
 This opens the options to Email, Edit User, Disable, Remove, Login As, Merge User.
 
-**Email** opens a window allowing you to quickly send a message to that user. You cannot email multiple users at the same time except by using the Announcements feature.
+### Email Users 
+
+If you want to email a user about a particular submission, you can use the Discussion feature in the submission. This keeps all communication about a submission in one place.
+
+To send an email to a user that is unrelated to a submission:
+1. In the Journal Manager or Editor’s dashboard, go to Users & Roles > Users
+2. Find the user you want to email
+3. Click the blue arrow next to the user’s name to reveal links below it
+4. Click Email. A pop-up box will appear where you can type in your message and send it
 
 ![](./assets/learning-ojs-3-users-email.png)
+
+You cannot email multiple users at the same time except by using the Announcements feature. See the [Workflow Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow) for instructions on how to send announcements. It is also not possible to send a message to all users in one role, such as all reviewers registered on your site.
+
+If you want to email multiple users or all users in a single role on a regular basis, you can use an external email marketing application such as Mailchimp. User records can be exported in XML using Tools > Import/Export > Users XML Plugin or an Administrator can export them from the database in CSV.
+
+It is not currently possible to add cc or bcc addresses to messages or to add attachments to messages. To send attachments you can instead use the Discussion feature or the Submission Library.
 
 **Edit User** allows you to make changes to that user's account.
 
@@ -70,7 +84,7 @@ Once you have added all of the roles, hit the **Save** button.
 
 Users in the system must have one or more roles.
 
-Roles define what a user can do within the system. An Author can make submissions and little else. An Editor can manage submissions, and a Journal Manager can configure the journal's settings. See [Chapter 3](https://docs.pkp.sfu.ca/learning-ojs/en/user-accounts#roles-in-ojs) for a list and description of every role.
+Roles define what a user can do within the system. An Author can make submissions and little else. An Editor can manage submissions, and a Journal Manager can configure the journal's settings. See the [User Accounts chapter](https://docs.pkp.sfu.ca/learning-ojs/en/user-accounts#roles-in-ojs) for a list and description of every role.
 
 One user can have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
 
@@ -78,7 +92,7 @@ OJS 3 has multiple roles available, each with different permission levels.
 
 ![](./assets/learning-ojs3.1-jm-users-roles.PNG)
 
-From this page, you can see each role, and the editorial stage each role can access. A good example of this is the Copyeditor role, which can only access the copyediting stage. Copyeditors cannot jump to the Review stage to see what happened during the peer review process. See Chapter 10 for more information about the different editorial stages.
+From this page, you can see each role, and the editorial stage each role can access. A good example of this is the Copyeditor role, which can only access the copyediting stage. Copyeditors cannot jump to the Review stage to see what happened during the peer review process. See the Editorial Workflow chapter for more information about the different editorial stages.
 
 ### Editing Roles
 

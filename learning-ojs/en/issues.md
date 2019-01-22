@@ -1,4 +1,4 @@
-# Chapter 6: Issues
+# Chapter 9: Issues
 
 From the left menu, select Issues to manage all of the issues for your journal.
 
@@ -45,6 +45,8 @@ Using that same blue arrow will also reveal a Preview link, letting you get a lo
 ### Publish Issue
 
 Once you are happy with the issue hit the Publish Issue link to publish it on your journal website.
+
+By default, all registered users will be notified via email when a new issue is published from the list of Future Issues. To not send a notification of a new issue published, uncheck the box beside “Send notification email to all registered users” before pressing OK.
 
 ### Delete Issue
 

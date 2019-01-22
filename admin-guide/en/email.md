@@ -55,7 +55,7 @@ require_validation = Off
 validation_timeout = 14
 ```
 
-[//]: <> (To find out more about email within the OJS user interface, see [the chapter on email in our Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/email).)
+[//]: <> (To find out more about email within the OJS user interface, see [the chapter on email in our Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow.md#emails).
 
 ## Sending Mail
 

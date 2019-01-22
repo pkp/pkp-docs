@@ -1,4 +1,4 @@
-# Chapter 11: Editorial Workflow
+# Chapter 14: Editorial Workflow
 
 In this chapter, you will follow as submission throughout the workflow, from first submission to final publication.
 
@@ -30,9 +30,25 @@ Use the checkbox to mark tasks for deletion \(the delete link is available at th
 
 <hr />
 
-## Submissions
+## Submission Notifications
 
-When an author makes a new submission to your journal, the editor is automatically emailed. When you log into your Dashboard, you can find it either from your Tasks, or from one of the queues \(My Queue, Unassigned, All Active, and Archives\).
+When an author makes a new submission to your journal, the editor is automatically emailed a notification and the author will receive an email acknowledging their submission. You can also configure OJS so that a copy of the notification email is sent to the journal’s primary contact set in Journal Settings, or to another address.
+
+To enable copies of submission acknowledgment email to be sent to the primary contact or another address: 
+1. In the Journal Manager’s dashboard, go to Settings > Workflow > Submissions
+2. Scroll down to Notification of Author Submissions
+3. Check off the box next to “Send a copy to the primary contact, identified in the Journal Settings.” if you wish for a copy to be sent to the primary contact email, and/or
+4. Enter the email you would like to have a copy sent to in the text field.
+
+![](./assets/learning-ojs3.1-configure-submission-notification.PNG)
+
+If you want to disable submission acknowledgement emails entirely, you can do so by disabling the *Submission Ack* email template from the list of prepared email templates. To learn more about disabling and enabling email templates, refer to *Disable email templates* in the [Workflow Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings).
+
+Users can also change their individual notification settings from their own profile under View Profile > Notifications. 
+
+## Submission Dashboard
+
+When you log into your Dashboard, you can find active submissions either from your Tasks, or from one of the queues \(My Queue, Unassigned, All Active, and Archives\).
 
 ![](./assets/learning-ojs3.1-ed-dashboard-active.PNG)
 
@@ -738,6 +754,6 @@ Use this to add the submission to a future or back issue of the journal.
 
 You also have the option to add page numbers, permission, and licensing information.
 
-Hitting **Save** will publish the submission to the selected issue. If the issue is already published, the submission will be immediately available to readers. Otherwise the submission will not be published until the issue is published.
+Hitting **Save** will publish the submission to the selected issue. If the issue is already published, the submission will be immediately available to readers. Otherwise the submission will not be published until the issue is published. See the [Issues chapter](https://docs.pkp.sfu.ca/learning-ojs/en/issues) for how to publish an issue.
 
 Congratulations! You have now come to the end of the editorial workflow.
