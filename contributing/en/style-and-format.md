@@ -1,6 +1,6 @@
 # Style and Format
 
-## Versioning and updates
+## Versioning and Updates
 
 Most documentation is updated continually by contributors as needed. In the event of a major software release that might make older docs irrelevant (e.g., OJS 3.1 -> OJS 3.2) PKP strives to update the materials before or as-close-to release as possible.
 
@@ -10,7 +10,7 @@ When making changes related to minor software releases (e.g., OJS 3.1.1 -> 3.1.2
 
 Older versions of the documentation are accessible – via GitHub branches – for major-version documents in the Documentation Hub.
 
-## Image format
+## Image Format
 
 Images are restricted to 848 pixels in width on display. Where possible, try to limit your file size by keeping your images below that width. The format should follow these guidelines:
 
@@ -26,7 +26,7 @@ When using pronouns to refer to a generic user, use gender-neutral pronouns such
 
 Contributors to documentation who wish to be acknowledged can be noted in the README.md file for a document. If documentation they contributed changes substantially over time, their names will be removed.
 
-## Tips for writing documentation
+## Tips for Writing Documentation
 - Avoid duplication. If instructions already exist somewhere else that you want to include in a document, provide links instead of duplicating or reproducing the text. Linking to existing docs reduces duplication of effort when updating content. For example, if I want to write documentation for configuring a plugin, I would write it in the README file for the GitHub repository for that plugin. That way, all docs that reference that plugin can provide a link to the same information.
 - Although the information you are writing about may be technical, try to write in simple, straightforward language. The PKP user community includes a variety of different people from different backgrounds and whose first language may not be the same as yours.
 - Keep in mind what group of users the documentation is for, what background and technical knowledge they may have, and what kind of information they need. User groups could include developers, system administrators, journal managers, editors, authors, and readers. Within any user group, write for the person with the most basic knowledge and experience.
@@ -38,7 +38,7 @@ Contributors to documentation who wish to be acknowledged can be noted in the RE
 
 You can learn more about writing good docs with this [Documentation Guide by WritetheDocs](http://www.writethedocs.org/guide/).
 
-## Tips for making video documentation
+## Tips for Making Video Documentation
 
 - Consider what you want the video to look like, how long it will be, and what your objective or purpose is. Create an outline and script, and practice before recording. 
 - Keep it short and focused, ideally 5 minutes or 10 minutes at the maximum. If you want to cover content that goes beyond that length, break the content into a few short videos.
