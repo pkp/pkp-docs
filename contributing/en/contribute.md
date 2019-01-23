@@ -55,4 +55,4 @@ For each task you can see the following information:
 	- The date you plan to finish the task
 	- Any questions you have about the task or process 
 3. If you have questions or need help while you’re working on your task, you can email documentation@publicknowledgeproject.org, post on the PKP Documentation Slack channel, or attend a virtual documentation sprint.
-4. Once your documentation task is complete, submit it to the DIG in an appropriate format, following the instructions in [Contributing Documentation](/contributing). If the deadline passes the DIG may contact you to ask how the task is going. 
+4. Once your documentation task is complete, submit it to the DIG in an appropriate format, following the instructions in this guide. If the deadline passes the DIG may contact you to ask how the task is going. 
