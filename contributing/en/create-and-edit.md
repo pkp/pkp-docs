@@ -21,7 +21,7 @@ Here are three guides for writing markdown:
 - [Mastering GitHub Flavoured Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-## File structure
+## File Structure
 
 Each folder in the PKP Documentation Hub repository represents a document. 
 
@@ -39,7 +39,7 @@ If the document exists (or will exist) in more than one language, there will be 
 
 ![](assets/contrib-language-folders.png
 
-## Create a document
+## Create a Document
 
 When you create a new document, you need to decided whether to make it a _single page document_ or _multi-page document_, as they are significantly different.
 
@@ -103,7 +103,7 @@ Unlike with a Single-page document, you no longer need to add to index.md. The r
 
 ![](assets/contrib-summary-md-file.png
 
-### File Naming Conventions
+### File naming conventions
 
 **In General** // While any name you create should work, it's best to keep titles short and descriptive. Always replace spaces between words with a dash.
 
@@ -122,7 +122,7 @@ Adding images to your documentation helps users more easily locate some of the f
 2. Multi-page documents:
     - Place the ``assets`` folder within the language folder of the document you're working on. For example: ``/learning-ojs/en/assets/``
 
-## Edit a document
+## Edit a Document
 
 If you want to edit existing documentation or add a section or chapter to existing documentation, you can edit the document directly from the docs repository itself.
 
@@ -135,6 +135,10 @@ If you want to edit existing documentation or add a section or chapter to existi
 7. Edit the document. 
 
 ![](assets/contrib-01.gif)
+
+## Save and Submit Your Changes
+
+This section explains how to save your work and submit your new and edited documents to the PKP Documentation Hub.
 
 ### Commit via browser
 
