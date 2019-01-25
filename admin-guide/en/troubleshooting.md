@@ -6,7 +6,7 @@
 
 It is difficult to prescribe exact steps towards setting proper file permissions, as so much depends on the server's operating system, web server, and PHP setup.
 
-Start by checking which server API PHP uses on your server. If OJS is already installed, log in as Site Administrator, click "System Information", and at the bottom of the page, click "Extended PHP Information". Find the line that says "Server API". Depending on which API you are using \(mod\_php/SAPI or CGI/FastCGI\), permissions should be set as follows.
+Start by checking which server API PHP uses on your server. If OJS, OMP, or OCS is already installed, log in as Site Administrator, click "System Information", and at the bottom of the page, click "Extended PHP Information". Find the line that says "Server API". Depending on which API you are using \(mod\_php/SAPI or CGI/FastCGI\), permissions should be set as follows.
 
 * mod\_php/SAPI: In this configuration, all PHP scripts on the system typically execute as the same user \(usually Apache's "nobody" or "www-data" accounts\). Be warned that this may be insecure on a shared host. The files\_dir \(configured in config.inc.php\), the cache directory, the public directory, and all contents and subdirectories must be writable and readable by the web server user. The config.inc.php configuration file must be readable by the web server user.
 * CGI/FastCGI: In this configuration, PHP scripts will typically run under your user account \(though server configurations may vary\). This can be a well-secured configuration. The files\_dir \(configured in config.inc.php\), the cache directory, the public directory, and all contents and subdirectories must be writable and readable by this user account. The config.inc.php configuration file must be readable by this account.
@@ -19,7 +19,7 @@ PHP Safe Mode is not a recommended configuration and may not function properly. 
 
 This is most likely caused by your server incorrectly identifying your HTML file as something other than HTML. The quickest way to diagnose this is to check the Galley Edit page: if you have uploaded an HTML file and the Label field says something other than "HTML" (like "Untitled", for example), then the file has not been correctly identified as HTML and will most likely not display correctly.
 
-OJS and OCS use three methods to determine a filetype, in the following order:
+OJS, OMP, and OCS use three methods to determine a filetype, in the following order:
 
 * PHP's mime_content_type function, which uses your system's magic.mime file (this method is deprecated)
 * PHP's finfo_... suite of functions (which replaces mime_content_type as the preferred method)
@@ -37,9 +37,9 @@ Additionally, you may be encountering problems due to malformed files. If you ar
 
 You may also want to search the [forum](https://forum.pkp.sfu.ca) for the keywords "magic mime" or for "mimetype" -- many users have had this problem, and there are several discussions on how to solve it.
 
-### My css files aren't being identified properly.
+### My CSS files aren't being identified properly.
 
-This could be the result of the identification issue above, or it could be because your css file includes a comment on the first line, before any actual css. Try removing the comment(s) from the top of the file and reuploading.
+This could be the result of the identification issue above, or it could be because your css file includes a comment on the first line, before any actual CSS. Try removing the comment(s) from the top of the file and reuploading.
 
 Note that this situation often occurs when uploading a modified copy of the main CSS file. We don't recommend this approach -- it's better to upload a CSS file that only contains overrides for the styles that you wish to modify from the default layout, as the main stylesheet is applied before any custom CSS files. This will help to avoid stylesheet headaches on upgrade.
 
@@ -59,15 +59,15 @@ The goal of fixing character encoding problems is to ensure that the data stored
 ### Introduction to Character Sets and Encodings
 
 The following articles provide a good introduction to character sets and encodings:
-https://www.w3.org/International/articles/definitions-characters/
-https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+* [Character Encodings: Essential Concepts](https://www.w3.org/International/articles/definitions-characters/)
+* [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
 ### General Approach
 
 * Check config.inc.php db settings: client, connection, database character sets
 * Compare config.inc.php db settings against actual settings in the db, i.e.
- * show variables like 'char%';
- * show variables like 'collation%';
+ * `show variables like 'char%'`
+ * `show variables like 'collation%'`
 * There's often a mismatch between 1. and 2. that provides the first mismatch clues
 * Generate two db dumps:
  * `mysqldump db --opt --default-character-set=latin1 result-file=latin1.sql`
@@ -96,8 +96,6 @@ Import steps:
 * switch to the new db: USE import\_ojs
 * set everything to utf8: SET NAMES utf8;
 * import the converted dump: SOURCE dump.utf8.sql;
-
-```
 
 ... and so on, replacing "article\_settings" with the table you need to clean up, and "setting\_value" with the column in the table needing cleanup.
 
@@ -137,6 +135,7 @@ UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚
 UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬"', '"”');
 UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬ ¢', '-');
 UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬ ¦', '"¦');
+```
 
 If all else fails: 
 
@@ -155,7 +154,7 @@ Usually, this indicates that a PHP error has occurred and the message has been s
 
 2. Check your file permissions
 
-If you haven’t installed OJS yet, then the most likely cause is a problem with file permissions in your cache/ or cache/t_compile directories. See docs/README for information on file permissions.
+If you haven’t installed OJS, OMP, or OCS yet, then the most likely cause is a problem with file permissions in your cache/ or cache/t_compile directories. See docs/README for information on file permissions.
 
 3. Further troubleshooting
 
@@ -179,7 +178,7 @@ Add below it:
 
 `echo "Importing " . $class . " \n";`
 
-This will cause OJS to list class files before importing them (for ANY viewer of the site). If you are having a problem with a particular file, it will be the last one listed. Double-check the file permissions on it and try running it through the PHP linter (php -l path/to/file.inc.php).
+This will cause OJS, OMP, or OCS to list class files before importing them (for ANY viewer of the site). If you are having a problem with a particular file, it will be the last one listed. Double-check the file permissions on it and try running it through the PHP linter (php -l path/to/file.inc.php).
 
 Be sure to revert this change when you are finished.
 
@@ -212,7 +211,7 @@ Function: handleRequest()
 
 ### I am receiving the following error: Fatal error: Allowed memory size of 8388608 bytes exhausted (etc.)
 
-Your PHP memory limit is most likely set too low. It's normally set at 8mb by default, but OJS for example needs at least 16mb set to run properly (and often more for occasional tasks like upgrading). You can find a `memory_limit` configuration directive in your server's `php.ini` config file.
+Your PHP memory limit is most likely set too low. It's normally set at 8mb by default, but OJS, OMP, and OCS need at least 16mb set to run properly (and often more for occasional tasks like upgrading). You can find a `memory_limit` configuration directive in your server's `php.ini` config file.
 
 ### After completing the install page, I receive a database error. What's going on?
 
@@ -220,17 +219,17 @@ You are probably receiving an error similar to
 
 `DB Error: Table 'ojs.journals' doesn't exist`
 
-... where the 'ojs' part of the error is the name of your database as specified during install. What has most likely happened is that you have attempted to create your OJS database and the installer has attempted to fill that database with the necessary data, but for some reason was unable to do so. Possible reasons for this include your database system (eg. MySQL) not allowing web-based database creation; or otherwise not allowing large-scale table creation. The best solution is to:
+... where the 'ojs' part of the error is the name of your database as specified during install. What has most likely happened is that you have attempted to create your database and the installer has attempted to fill that database with the necessary data, but for some reason was unable to do so. Possible reasons for this include your database system (eg. MySQL) not allowing web-based database creation; or otherwise not allowing large-scale table creation. The best solution is to:
 
 * restore your `config.inc.php` to the original (copying over `config.TEMPLATE.php` will do this);
 * create your database manually via phpMyAdmin, CPanel, or similar, depending on what your service provider provides;
-* restart the installation process by reloading your root OJS/OCS page;
+* restart the installation process by reloading your root OJS/OMP/OCS page;
 * fill in all installation fields as appropriate, ensuring that you write in the correct name for your newly-created database;
 * uncheck the "Create new Database" option;
 * click the "Manual Install" option at the very bottom of the installation page.
 * copy the database query from the resulting page, and run it against your database via phpMyAdmin or similar. 
 
-Please note that when you click the Manual Install button, the resulting page will say that the OJS Install has completed successfully, but this isn't quite true: you still have to copy the SQL statements and add them to your database manually.
+Please note that when you click the Manual Install button, the resulting page will say that the OJS/OMP/OCS Install has completed successfully, but this isn't quite true: you still have to copy the SQL statements and add them to your database manually.
 
 **Note:** You may also be encountering a plugin bug. There have been plugin bugs in the past where plugins have attempted to access the "journals" table before the installer has created the table; these will result in a "Table 'ojs.journals' doesn't exist" message when someone attempts to load the installer page in the first place. In this case, you can narrow it down to a particular plugin by checking the stack trace. 
 
@@ -240,9 +239,9 @@ If you are running PHP 5.3+ \(which you should be doing\), you will need to run 
 
 If you are running PHP 7+, you will need to run OJS 3.0+.
 
-OJS 3.1+ **requires** PHP 5.6 or above.
+OJS and OMP 3.1+ **requires** PHP 5.6 or above.
 
-**NOTE**: If you are running OJS3 on a PHP7+ LAMP stack, please remember to update your MySQL driver parameter\(Database section\) on `config.inc.php` file, i.e.:
+**NOTE**: If you are running OJS or OMP 3.x on a PHP7+ LAMP stack, please remember to update your MySQL driver parameter\(Database section\) on `config.inc.php` file, i.e.:
 
 `driver = mysqli`
 
