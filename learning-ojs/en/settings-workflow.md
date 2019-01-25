@@ -173,4 +173,14 @@ If you have edited email templates but want to reverse the edits and restore the
 
 Although there is a button to Add Email Template, which you can use it to create a custom email template, it will not be available to use at any stage in the workflow. This feature will be available in a future release of OJS 3.x.
 
+#### Add email attachment
+
+There is no direct email attachment option in OJS 3, but you can upload and share public files via the Publisher Library:
+
+1. In Settings > Workflow > Publisher Library > Add a file, upload your document and tick the “Public Access” checkbox
+2. Click "OK" for the URL to be generated
+3. Insert the URL in your email
+
+You can also choose to modify an existing email template with this URL, or share it publicly on the website.
+
 <hr />
