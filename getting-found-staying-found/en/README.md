@@ -16,12 +16,12 @@ This guide is designed to offer practical advice on various considerations for m
 journals more discoverable and sustainable, and is geared largely towards journals that use the [Open Journal Systems](https://pkp.sfu.ca/ojs/) (OJS) platform. This guide is intended largely for journal managers, editors, and those
  responsible for a journal’s operations. Some of PKP’s other documentation, such as the [Learning OJS 3 guide](https://docs.pkp.sfu.ca/learning-ojs/) and the [PKP Administrators guide](https://docs.pkp.sfu.ca/admin-guide/) contains information pertinent to using and administrating OJS.
 
-##Contributors:
+## Contributors:
 
 Editor: Roger Gillis
 
-Authors: 
-Sonya Betz, Jennifer Chan, Roger Gillis, Jeanette Hatherill, Suzanne Jay, Andrea Kosavic, Andrea Pritt, Dana MacFarland, Ali Moore, Brownen Sprout, Kevin Stranack. 
+Authors:
+Sonya Betz, Jennifer Chan, Roger Gillis, Jeanette Hatherill, Suzanne Jay, Andrea Kosavic, Andrea Pritt, Dana MacFarland, Ali Moore, Brownen Sprout, Kevin Stranack.
 
 
 Copyright: Simon Fraser University holds the copyright for work produced by the Public Knowledge Project and has placed its documentation under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
