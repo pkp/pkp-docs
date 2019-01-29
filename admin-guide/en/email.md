@@ -1,12 +1,12 @@
 # Email
 
-This chapter explains how emails are sent in OJS, the configuration options that are available, and how to troubleshoot email issues. Most of these instructions apply to OJS 2.x, 3.x, OMP, and OCS as well.
+This chapter explains how emails are sent in OJS, OMP, and OCS; the configuration options that are available; and how to troubleshoot email issues. 
 
-Mail in OJS uses [the PHPMailer library](https://github.com/PHPMailer/PHPMailer). You can find out more about PHPMailer on [their wiki](https://github.com/PHPMailer/PHPMailer/wiki). Other OJS code related to mail can be found in [the pkp-lib mail class](https://github.com/pkp/pkp-lib/tree/master/classes/mail).
+Mail in PKP software applications uses [the PHPMailer library](https://github.com/PHPMailer/PHPMailer). You can find out more about PHPMailer on [their wiki](https://github.com/PHPMailer/PHPMailer/wiki). Other code related to mail can be found in [the pkp-lib mail class](https://github.com/pkp/pkp-lib/tree/master/classes/mail).
 
-Records of emails that are sent in OJS are stored in the `email_log` table of the OJS database.
+Records of emails that are sent are stored in the `email_log` table of the database.
 
-OJS provides a number of options for configuring emails to work in your environment. The following configuration options are available for email in `config.inc.php`:
+PKP software applications provide a number of options for configuring emails to work in your environment. The following configuration options are available for email in `config.inc.php`:
 
 ```
 ;;;;;;;;;;;;;;;;;;
@@ -81,7 +81,7 @@ The command-line option used to set the envelope sender is `-f`.
 
 ## Email and Locale
 
-Email templates are installed directly in the database when a journal is created. If you need to edit [a locale file](https://github.com/pkp/ojs/blob/master/locale/en_US/emailTemplates.xml), any change in your template file will not be reflected until you reload all templates in the system.
+Email templates are installed directly in the database when a journal, press, or conference is created. If you need to edit [a locale file](https://github.com/pkp/ojs/blob/master/locale/en_US/emailTemplates.xml), any change in your template file will not be reflected until you reload all templates in the system.
 
 Reloading templates will override any modifications that you may have made. To keep those modifications, you will need to save these modification locally and re-add them to templates as required.
 
@@ -180,7 +180,7 @@ If you already have a TXT record in your DNS zone, you will need merge it to kee
 
 ## Troubleshooting Email Problems
 
-If emails aren't being received by some users, the first thing to do is check to see if you yourself can receive email. Try sending an email to yourself using the system. If you received it, OJS is probably sending email fine. You should then ask the user with the problem to check their email's spam/junk folders.
+If emails aren't being received by some users, the first thing to do is check to see if you yourself can receive email. Try sending an email to yourself using the system. If you received it, the software application is probably sending email fine. You should then ask the user with the problem to check their email's spam/junk folders.
 
 If the user can find no record whatsoever of the email being filtered as spam or junk, you may be encountering a **Sender Policy Framework** \(SPF\) validation problem with their server. You can confirm this by viewing your server's mail log to see if there are any reported receipt blockages/returns with SPF validation errors as the result.
 
