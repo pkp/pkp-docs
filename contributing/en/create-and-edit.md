@@ -4,9 +4,9 @@ Most of PKP's documentation is hosted and managed in a GitHub repository called 
 
 ## Markdown
 
-The files are all in a format called Markdown, a simple, easy-to-read, easy-to-write text format that allows users to generate basic HTML without knowing HTML language itself.  It uses simple tags to format text on a website. 
+The files are all in a format called Markdown, a simple, easy-to-read, easy-to-write text format that allows users to generate basic HTML without knowing HTML language itself.  It uses simple tags to format text on a website.
 
-This is an example of markdown: 
+This is an example of markdown:
 
 ````
 `### Step 3
@@ -23,21 +23,21 @@ Here are three guides for writing markdown:
 
 ## File Structure
 
-Each folder in the PKP Documentation Hub repository represents a document. 
+Each folder in the PKP Documentation Hub repository represents a document.
 
 ![](assets/contrib-docs-hub-repo.png)
 
-Short documents consist of a single markdown file and maybe an Assets folder of image files. All content is contained in the index.md file and the table of contents on the side of the page is created using the header tags in markdown. 
+Short documents consist of a single markdown file and maybe an Assets folder of image files. All content is contained in the index.md file and the table of contents on the side of the page is created using the header tags in markdown.
 
-![](assets/contrib-single-file-doc.png
+![](assets/contrib-single-file-doc.png)
 
 Longer documents consist of multiple chapter files, a README file, a SUMMARY file, and an Assets folder. The content is stored in the chapter files while the README file acts as a summary page for the document and the SUMMARY file creates the table of contents.
 
-![](assets/contrib-multi-file-doc.png
+![](assets/contrib-multi-file-doc.png)
 
 If the document exists (or will exist) in more than one language, there will be a separate folder of these files for each language version.
 
-![](assets/contrib-language-folders.png
+![](assets/contrib-language-folders.png)
 
 ## Create a Document
 
@@ -101,7 +101,7 @@ Unlike with a Single-page document, you no longer need to add to index.md. The r
 
 > A note on formatting: whereas your headers in single documents create the sidebar TOC, in multi-page docs, this is handled by the ``SUMMARY.md`` file. As a result, you'll want each chapter title as an H1, with all subtitles running H2-H5. Since you can add to the TOC manually, you can include chapters there as you see fit.
 
-![](assets/contrib-summary-md-file.png
+![](assets/contrib-summary-md-file.png)
 
 ### File naming conventions
 
@@ -132,7 +132,7 @@ If you want to edit existing documentation or add a section or chapter to existi
 4. Click the filename to view that individual file.
 5. From there, on the top right of the document window, you should see a small pencil icon.
 6. Click that button to open up a plain text editor for the document within GitHub itself.
-7. Edit the document. 
+7. Edit the document.
 
 ![](assets/contrib-01.gif)
 
