@@ -1,6 +1,6 @@
 # Email
 
-This chapter explains how emails are sent in OJS, the configuration options that are available, and how to troubleshoot email issues.
+This chapter explains how emails are sent in OJS, the configuration options that are available, and how to troubleshoot email issues. Most of these instructions apply to OJS 2.x, 3.x, OMP, and OCS as well.
 
 Mail in OJS uses [the PHPMailer library](https://github.com/PHPMailer/PHPMailer). You can find out more about PHPMailer on [their wiki](https://github.com/PHPMailer/PHPMailer/wiki). Other OJS code related to mail can be found in [the pkp-lib mail class](https://github.com/pkp/pkp-lib/tree/master/classes/mail).
 
@@ -55,7 +55,7 @@ require_validation = Off
 validation_timeout = 14
 ```
 
-[//]: <> (To find out more about email within the OJS user interface, see [the chapter on email in our Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow.md#emails).
+To find out more about email within the OJS user interface, see [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/) or [Learning OJS 2](https://docs.pkp.sfu.ca/learning-ojs-2/en/).
 
 ## Sending Mail
 
