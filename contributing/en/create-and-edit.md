@@ -25,19 +25,19 @@ Here are three guides for writing markdown:
 
 Each folder in the PKP Documentation Hub repository represents a document.
 
-![](assets/contrib-docs-hub-repo.png)
+![](./assets/contrib-docs-hub-repo.png)
 
 Short documents consist of a single markdown file and maybe an Assets folder of image files. All content is contained in the index.md file and the table of contents on the side of the page is created using the header tags in markdown.
 
-![](assets/contrib-single-file-doc.png)
+![](./assets/contrib-single-file-doc.png)
 
 Longer documents consist of multiple chapter files, a README file, a SUMMARY file, and an Assets folder. The content is stored in the chapter files while the README file acts as a summary page for the document and the SUMMARY file creates the table of contents.
 
-![](assets/contrib-multi-file-doc.png)
+![](./assets/contrib-multi-file-doc.png)
 
 If the document exists (or will exist) in more than one language, there will be a separate folder of these files for each language version.
 
-![](assets/contrib-language-folders.png)
+![](./assets/contrib-language-folders.png)
 
 ## Create a Document
 
@@ -101,7 +101,7 @@ Unlike with a Single-page document, you no longer need to add to index.md. The r
 
 > A note on formatting: whereas your headers in single documents create the sidebar TOC, in multi-page docs, this is handled by the ``SUMMARY.md`` file. As a result, you'll want each chapter title as an H1, with all subtitles running H2-H5. Since you can add to the TOC manually, you can include chapters there as you see fit.
 
-![](assets/contrib-summary-md-file.png)
+![](./assets/contrib-summary-md-file.png)
 
 ### File naming conventions
 
@@ -134,7 +134,7 @@ If you want to edit existing documentation or add a section or chapter to existi
 6. Click that button to open up a plain text editor for the document within GitHub itself.
 7. Edit the document.
 
-![](assets/contrib-01.gif)
+![](./assets/contrib-01.gif)
 
 ## Save and Submit Your Changes
 
@@ -144,7 +144,7 @@ This section explains how to save your work and submit your new and edited docum
 
 Once you've made your changes, it's time to _commit_ your changes and create a _pull request_. A _commit_ is merely a change to the file you are proposing to others who use the repository. You'll see two fields in the commit window.
 
-![](assets/contrib-02.png)
+![](./assets/contrib-02.png)
 
 The first is a very short descriptor of what you just changed. A few words should do the trick. Here are some examples:
 
@@ -167,7 +167,7 @@ A branch is a version of the repository that contains the changes you've propose
 
 After naming your branch, you'll be asked to open a "pull request." A pull request is a _request you are making for the managers of the repository to pull your changes into the master version of the doc_.
 
-![](assets/contrib-03.png)
+![](./assets/contrib-03.png)
 
 You can see here that you can title your request and fill out a description of what you've changed. Once you're all set, you can click the link that says "create pull request." Once you do this, repository managers are notified of your change and can decide to merge your code with the master repository.
 
@@ -183,7 +183,7 @@ Once you've installed GitHub desktop, you should have an option while viewing an
 2. Click on the green button on the right that says "Clone or Download."
 3. Select the "Open in Desktop" option.
 
-![](assets/contrib-04.gif)
+![](./assets/contrib-04.gif)
 
 GitHub desktop manages your commits and pull-requests locally. It's especially convenient if you're changing more than one file at once. If you have Atom installed, you can open your project with the editor directly from GitHub desktop.
 
@@ -191,11 +191,11 @@ GitHub desktop manages your commits and pull-requests locally. It's especially c
 2. Right click on the name of the repository in which you want to work.
 3. Select "Open in Atom."
 
-![](assets/contrib-05.gif)
+![](./assets/contrib-05.gif)
 
 In Atom, the repository directory structure is accessible on the left-hand side in the "project window." Clicking on any title opens it in the editor and allow you to make changes. You'll notice labels next to the files as you work. Green indicates a new file you've added. Yellow indicates a file you've changed since the last time you pulled an update from the primary repository.
 
-![](assets/contrib-06.png)
+![](./assets/contrib-06.png)
 
 If you are working on a project over time, you may want to regularly pull changes "from origin." You can do this in GitHub desktop by clicking on the "pull from origin" button near the top right of the window. It pulls changes since the last time you pulled them (or, since the time you cloned initially).
 
@@ -206,11 +206,11 @@ Once you make your edits with Atom and have a document you want to submit, you'l
 3. Write a concise name for your branch based on the doc you're submitting, with a single dash between words.
 4. Click "Create Branch."
 
-![](assets/contrib-07.gif)
+![](./assets/contrib-07.gif)
 
 Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub desktop window, you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
 
-![](assets/contrib-08.png)
+![](./assets/contrib-08.png)
 
 The first field is for a very short descriptor of what you just changed. A few words should do the trick. Here are some examples:
 
