@@ -221,6 +221,8 @@ SHERPA/RoMEO is a popular database used for sharing journalsâ€™ and publishersâ€
 
 [Open Access Publishers Association - Best Practices in Licensing and Attribution](https://oaspa.org/best-practices-licensing-attribution-need-to-know/)
 
+[University of Toronto Libraries - Journal Publishing Services - Journal Publishing Guide: Copyright and Licensing](https://jps.library.utoronto.ca/index.php/pubguide/copyright)
+
 ["The effect of open access and downloads ('hits') on citation impact: a bibliography of studies"](http://opcit.eprints.org/oacitation-biblio.html)
 
 [Metrics Toolkit](http://www.metrics-toolkit.org/)
