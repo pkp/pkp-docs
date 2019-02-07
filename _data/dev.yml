@@ -1,0 +1,21 @@
+cards:
+  - path: dev
+    title: Open Journal Systems 3 / Open Monograph Press 3
+    description: Documentation for developers who want to write plugins, build themes or help build our publishing software.
+    cards:
+      - path: documentation
+        isDeveloper: true
+      - path: pkp-theming-guide
+        isDeveloper: true
+      - path: plugin-guide
+        isDeveloper: true
+      - path: rest-api
+        isDeveloper: true
+      - path: ui-library
+        isDeveloper: true
+  - path: ojs2
+    title: Open Journal Systems 2
+    description: "Documentation for developers who are still working with OJS 2."
+    cards:
+        - path: ojs-2-technical-reference
+          isDeveloper: true
