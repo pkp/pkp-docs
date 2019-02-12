@@ -507,7 +507,7 @@ Returning to the Copyediting stage, you can see the message is posted.
 
 ![](./assets/learning-ojs-3-ce-copyedited-done.png)
 
-You work as the Copyeditor is now complete!
+Your work as the Copyeditor is now complete!
 
 ### Moving to Production
 
