@@ -125,3 +125,4 @@ You may wish to alter the copyright and licensing information to your own specif
  * @brief Stylesheet for the My Theme Bootstrap theme.
  */
  ```
+ -Aldair Morales Cuéllar
