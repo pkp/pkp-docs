@@ -13,6 +13,7 @@
 	line-height: 1.2em;
 	color: $text;
 	text-decoration: none;
+	vertical-align: middle;
 }
 
 .siteHeader__logoImage {
@@ -39,7 +40,6 @@
 
 	.siteHeader {
 		position: relative;
-		min-height: 6rem;
 	}
 
 	.siteHeader--book {
@@ -47,14 +47,15 @@
 	}
 
 	.siteHeader__about {
-		top: 50%;
+		display: inline-block;
+		position: relative;
 		left: auto;
-		right: 2rem;
-		transform: translateY(-50%);
-		max-width: 75%;
+		max-width: 65%;
+		padding-left: 2rem;
+		vertical-align: middle;
 
 		p {
-			margin: 2em;
+			margin: 0;
 		}
 
 		a {
@@ -66,5 +67,13 @@
 				color: lighten($text, 10%);
 			}
 		}
+	}
+}
+
+@media (min-width: 1400px) {
+
+	.siteHeader__about {
+		float: right;
+		line-height: 44px;
 	}
 }
