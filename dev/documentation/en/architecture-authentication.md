@@ -1,5 +1,67 @@
 # Authentication
 
-In progress.
+Cookies are used to authenticate a user session against a registered `User`. You can retrieve the currently logged in user from the `Request` object:
 
-User sessions. CSRF tokens. How to get the current user from the request object.
+```php
+$currentUser = $request->getUser();
+if (!$currentUser) {
+	// user is not logged in
+}
+```
+
+The `Request` is available globally from the [Application](./utilities-application).
+
+```php
+$currentUser = Application::getRequest()->getUser();
+```
+
+## CSRF Tokens
+
+CSRF tokens must be sent with all `POST`, `PUT` or `DELETE` requests to prevent attacks using [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery). CSRF tokens are not required for requests to the API which use the [API Token](/dev/api/#api-token).
+
+### Page Routes
+
+When Page Handlers receive `POST`, `PUT` or `DELETE` requests, any form data should be processed by a [`Form` UI Controller](./frontend#controllers). In such cases, the `Form` must add the CSRF check to its validation rules.
+
+```php
+class ExampleForm extends Form {
+	function __construct(...) {
+		$this->addCheck(new FormValidatorCSRF($this));
+	}
+}
+```
+
+### Controller Routes
+
+Controllers must check the CSRF token for any op that receives a `POST`, `PUT` or `DELETE` request.
+
+```php
+class BackIssueGridHandler extends IssueGridHandler {
+	function deleteIssue($args, $request) {
+		if (!$request->checkCSRF()) {
+			return new JSONMessage(false);
+		}
+	}
+}
+```
+
+### API Routes
+
+API Handlers automatically check the CSRF token for all `POST`, `PUT` or `DELETE` requests. No additional action must be taken.
+
+
+## User Session
+The user's session stores a logged-in user's IP address, last-used date/time and more. You can access the current user's session directly.
+
+```php
+$sessionManager = SessionManager::getManager();
+$session = $sessionManager->getUserSession();
+```
+
+Use of the `SessionManager` is discouraged unless you need to access the session itself. In all cases, the current `User` should be retrieved from the `Request` object.
+
+## CLI Tools
+
+A logged-in user will not exist when using the CLI tools. Care must be taken when writing code that gets or modifies information from the database to ensure that it can be used when no user session exists.
+
+The [Handlers](./architecture-handlers) should perform any authentication and authorization required before fulfilling a request.

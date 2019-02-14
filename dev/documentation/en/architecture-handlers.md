@@ -8,7 +8,7 @@ Code inside of a `Handler` can not be reused, so `Handler`s should not perform t
 
 ## Page Handlers
 
-Page Handlers return `HTML` output. The Page Handler must define a method for each op it supports.
+Page Handlers receive `GET` requests and return `HTML` output. The Page Handler must define a method for each op it supports.
 
 ```php
 import('classes.handler.Handler');
