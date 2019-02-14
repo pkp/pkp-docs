@@ -48,3 +48,6 @@
   * [Pagos](./subscriptions.md#pagos)
   * [Suscripciones individuales](./subscriptions.md#suscripciones-individuales)
   * [Suscripciones institucionales](./subscriptions.md#suscripciones-institucionales)
+ * [Capítulo 11: Autoría](./authoring.md)
+ * [Capítulo 13: Revisión](./reviewing.md)
+  
