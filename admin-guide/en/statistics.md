@@ -154,8 +154,6 @@ In the sample below we can see that article 95, “The Making of the Canadian Me
 
 **Description:** This report provides granular data on monthly views for the journal homepage, issue TOCs, article abstract/landing pages, and file views. It provides country information \(if configured\). Each row provides a total monthly view count for a particular object \(journal home page, article abstract page, article galley, or issue table of contents\). It further facets this by country if country support has been enabled and properly configured.
 
-It attempts to report on the journal’s entire usage history but is artificially constrained to 5,000 rows max. Older or more heavily trafficked journals should not use this report and should instead use the Custom Report Generator.
-
 **Use for:** generating a multifaceted overview content usage from month to month. It lists monthly view counts for all articles, article file downloads, issue TOC views, and journal homepage views for the specified timespan. Additional manual manipulation of the resulting report must be done to achieve aggregate results.
 
 **Do Not Use for:** attempting to get a quick usage snapshot, legacy usage, or journals that have a very large metrics dataset \(due to long history, high readership, or depth of metrics granularity\). Use the Custom Report Generator instead.
@@ -163,7 +161,7 @@ It attempts to report on the journal’s entire usage history but is artificiall
 **Special Notes:**
 
 * This report attempts to capture the entire usage history for: the journal home page, all article abstracts, all article galleys, and all issue table of contents.
-* To reduce the potential for exceeding time limits for downloads, this report only provides 5,000 records. If you have a lot of reportable data, this report will most likely not report it all. If this is the case, the Custom Report Generator plugin should be used instead, using smaller date ranges.
+* **OJS version 3.1.1 or older installs**: To reduce the potential for exceeding time limits for downloads, this report only provides 5,000 records. If you have a lot of reportable data, this report will most likely not report it all. If this is the case, the Custom Report Generator plugin should be used instead, using smaller date ranges. (This restriction was removed in OJS 3.1.2.) 
 
 **Example Data \(slightly edited for clarity\):**  
 
@@ -207,7 +205,7 @@ You are also able to limit results to specific date spans. This is the most flex
 
 * This is a very flexible, but also very complex, tool and needs to be properly configured in order to provide useful results.
 * Depending on the amount of data in your system, the facets you choose to retrieve, and the date span you choose, the system may fail to completely generate a report without timing out. If you encounter this, try reducing the requested date span.
-* This report is also limited to 5,000 rows, so if you are hitting a 5,000-row limit you will want to use the date selection tool or other filtering options, such as which item type to report on, to return smaller datasets which can then be compiled together manually as necessary.
+* **OJS version 3.1.1 or older installs**: To reduce the potential for exceeding time limits for downloads, this report only provides 5,000 records. If you have a lot of reportable data, this report will most likely not report it all. If this is the case, the Custom Report Generator plugin should be used instead, using smaller date ranges. (This restriction was removed in OJS 3.1.2.)
 * If you generate a custom report, the report will also provide you with a Report URL that you can save to use to repeat the identical report process.
 * If you create a report that reports on “yesterday” or “current month,” the resulting Report URL will always use “yesterday” or the “current month” relative to the day you run it. So if you originally created a report to report on “yesterday” a year ago and then ran it today, it would report on yesterday. However, if you specify a specific date range, say April 1 - April 15 2018, the resulting Report URL will always report metrics for that specific range.
 
@@ -623,7 +621,7 @@ There are two likely causes for this:
 
 The solution to this problem is to review your configuration and reprocess statistics, as per the Configuration section below.
 
-**Cause 2:** The report is hitting the report plugin’s 5,000-row limit. This should be obvious by looking at the .csv report: if it stops at or around row 5,000 \(usually around row 5,006 due to some extra rows at the top of the report\), then this is the issue. The solution here is to shrink the amount of data you are trying to extract, for example by limiting the date span, and downloading multiple reports. You can manually merge multiple reports together.
+**Cause 2:** The report is hitting the report plugin’s 5,000-row limit. This should be obvious by looking at the .csv report: if it stops at or around row 5,000 \(usually around row 5,006 due to some extra rows at the top of the report\), then this is the issue. The solution here is to shrink the amount of data you are trying to extract, for example by limiting the date span, and downloading multiple reports. You can manually merge multiple reports together. **Note**: This issue only applies to OJS 3.1.1 or older. The 5,000 row limit was removed in OJS 3.1.2. 
 
 Q: I’m trying to download regional information using the Custom Report Generator, but I’m not seeing any of this in my reports.
 
