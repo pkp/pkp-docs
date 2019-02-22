@@ -40,19 +40,22 @@ PKP software applications provide a number of options for configuring emails to 
 ; The reply-to field will be set with the reply-to or from address.
 ; force_default_envelope_sender = Off
 
-; Amount of time required between attempts to send non-editorial emails
-; in seconds. This can be used to help prevent email relaying via OJS.
-time_between_emails = 3600
+; Force a DMARC compliant from header (RFC5322.From)
+; If any of your users have email addresses in domains not under your control
+; you may need to set this to be compliant with DMARC policies published by
+; those 3rd party domains.
+; Setting this will move the users address into the reply-to field and the
+; from field wil be rewritten with the default_envelope_sender.
+; To use this you must set force_default_enveloper_sender = On and
+; default_envelope_sender must be set to a valid address in a domain you own.
+; force_dmarc_compliant_from = Off
 
-; Maximum number of recipients that can be included in a single email
-; (either as To:, Cc:, or Bcc: addresses) for a non-privileged user
-max_recipients = 10
-
-; If enabled, email addresses must be validated before login is possible.
-require_validation = Off
-
-; Maximum number of days before an unvalidated account expires and is deleted
-validation_timeout = 14
+; The display name to use with a DMARC compliant from header
+; By default the DMARC compliant from will have an empty name but this can
+; be changed by adding a text here.
+; You can use '%n' to insert the users name from the original from header
+; and '%s' to insert the localized sitename.
+; dmarc_compliant_from_displayname = '%n via %s'
 ```
 
 To find out more about email within the OJS user interface, see [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/) or [Learning OJS 2](https://docs.pkp.sfu.ca/learning-ojs-2/en/).
@@ -153,7 +156,9 @@ Additional information about Gmail SMTP is available at [https://support.google.
 
 Note that you may have to additionally configure application-specific passwords in Gmail; see [https://support.google.com/accounts/answer/185833?hl=en](https://support.google.com/accounts/answer/185833?hl=en) for details.
 
-## Sender Policy Framework (SPF)
+##  SPF and DMARC Issues
+
+### Sender Policy Framework (SPF)
 
 The Sender Policy Framework (SPF) relies on permission that a server, which may be running OJS, receives from another server which hosts the main domain. This authorizes the OJS server to send emails using that domain and prevents messages from being blocked.
 
@@ -177,6 +182,12 @@ Value: v=spf1 ip4:10.10.10.10 a:myojsserver.com ~all
 ```
 
 If you already have a TXT record in your DNS zone, you will need merge it to keep only one TXT record. There should only be a single DNS TXT record.
+
+### Domain-based Message Authentication, Reporting and Conformance (DMARC)
+
+While SPF provides the provision for OJS to send emails using a return path or email envelope containing an email address with a domain other than the one the OJS server is hosted on, there are times when OJS may send email on behalf of users that use domains that you cannot adust the SPF record for. Gmail is a good example: if an admin has a `user@gmail.com` address, there's no way you can get Google to add us as an SPF record.
+
+DMARC solves this by putting the user's email in the `reply-to:` address, and and putting the `default_envelope_sender` in the `From:` field. As of OJS 3.1.2, you can configure this via two new parameters in your `config.inc.php` file, namely `force_dmarc_compliant_from` and `dmarc_compliant_from_displayname`. (If you are on OJS 3.1.2+ and don't see those parameters in your live config file, you will want to review your `config.TEMPLATE.inc.php` file and move them over as they appear there.)
 
 ## Troubleshooting Email Problems
 
