@@ -1,0 +1,42 @@
+# Security
+
+The OJS or OMP application handles most of the security concerns that arise. However, there are some attacks you must protect yourself against when creating custom templates for your themes.
+
+## Cross-site Scripting (XSS)
+
+A [cross-site-scripting vulnerability](https://en.wikipedia.org/wiki/Cross-site_scripting) occurs when a malicious user is able to inject code into a page that is visited by another user. Whenever content displayed on the page comes from user input it must be escaped.
+
+Consider the following example.
+
+```php
+{$user->getGivenName()} made a comment.
+```
+
+A malicious user can change their given name to `<script>/* malicious code */<script>`. In the example above, the malicious code would be executed whenever _anyone_ visited the page. If a Journal Manager visits the page, the malicious code can be used to perform actions that only a Journal Manager can do, such as changing the journal's title.
+
+Use the `|escape` filter to prevent this attack.
+
+```php
+{$user->getGivenName()|escape} made a comment.
+```
+
+Attacks can come from any input controlled by a user, whether they are a disgruntled former Section Editor or a malicious user posing as an author. Make sure to escape submission titles, author names, issue titles and any other information controlled by anyone other than a Journal Manager.
+
+```php
+{$submission->getLocalizedTitle()|escape}
+{$author->getFullName()|escape}
+{$issue->getIssueIdentification()|escape}
+```
+
+Published submissions and issues can have custom URL paths. You can escape URLs that receive user input of this kind with `{url|escape ...}`.
+
+```php
+{url|escape op="view" path=$issue->getBestIssueId($currentJournal)}
+```
+
+Some fields allow the user to enter HTML code, such as a submission abstract or issue description. These fields should be escaped with the `strip_unsafe_html` filter.
+
+```php
+{$submission->getLocalizedAbstract()|strip_unsafe_html}
+{$issue->getLocalizedDescription()|strip_unsafe_html}
+```

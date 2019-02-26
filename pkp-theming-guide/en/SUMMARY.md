@@ -9,6 +9,7 @@
 * [Common Template Variables](template-variables.md)
 * [Theme API Documentation](theme-api.md)
 * [Theme Options API Documentation](theme-options-api.md)
+* [Security](security.md)
 * [Theming the Editorial Backend](theme-backend.md)
 * [Themes](themes.md)
    * [Default Theme](theme-default.md)
