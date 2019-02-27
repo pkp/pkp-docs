@@ -61,6 +61,6 @@ This will ensure that only literal content is included and not function calls or
 
 ## Be cautious, stay safe
 
-It is important to understand the appropriate kind of escaping to use based on where how are using data supplied by a user. If in doubt, follow a safe example from the core application code or [ask in the forum](https://forum.pkp.sfu.ca/).
+It is important to understand which kind of escaping you must use based on where you are using data supplied by a user. If in doubt, follow a safe example from the core application code or [ask in the forum](https://forum.pkp.sfu.ca/).
 
 You should *almost always* use some kind of escaping when including dynamic content in a Smarty template.
