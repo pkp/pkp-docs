@@ -7,6 +7,9 @@
 	<meta name="description" content="{{ page.description }}">
 	<meta property="og:description" content="{{ page.description }}">
 {% endif %}
+{% if page.url %}
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
 {% if page.isHome %}
 	<meta property="og:image" content="/img/docs-logo.png">
 {% endif %}
