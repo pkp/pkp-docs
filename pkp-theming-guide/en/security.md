@@ -20,7 +20,7 @@ Use smarty's [escape](https://www.smarty.net/docs/en/language.modifier.escape.tp
 {$user->getGivenName()|escape} made a comment.
 ```
 
-This will convert special HTML characters into escaped HTML, so that the `<script>` tags are displayed instead of executed.
+This will convert special HTML characters into escaped HTML so that the `<script>` tags are displayed instead of executed.
 
 Attacks can come from any input controlled by a user, whether they are a disgruntled former Section Editor or a malicious user posing as an author. Make sure to escape submission titles, author names, issue titles and any other information controlled by anyone other than a Journal Manager.
 
@@ -49,7 +49,7 @@ You can configure which HTML tags are allowed with the `allowed_html` setting in
 
 ## Escape JavaScript
 
-When including JavaScript in your theme you can not use the `escape` modifier because it will not remove the appropriate characters. For JavaScript, use the `json_encode` modifier when including user input.
+When including JavaScript in your theme, do not use the `escape` modifier because it will not remove the appropriate characters. For JavaScript, use the `json_encode` modifier when including user input.
 
 ```
 <script>
