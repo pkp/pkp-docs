@@ -20,15 +20,15 @@ Los orígenes de OJS. El sistema fue lanzado por primera vez en 2001 como una in
 
 OJS incluye las siguientes características:
 
-1 OJS se instala localmente y se controla localmente
-2 Los editores configuran requisitos, secciones, proceso de revisión, etc.
-3 Envío en línea, revisión doble ciego y administración de todo el contenido
-4 Amplia indexación del contenido
-5 Interfaz de lectura con capacidad de respuesta y temática
-6 Notificación por correo electrónico para los lectores
-7 Soporte para cargos de procesamiento de artículos, suscripciones y pagos en línea
-8 Completo soporte de ayuda en línea sensible al contexto
-9 Soporte multilingüe
+1. OJS se instala localmente y se controla localmente
+2. Los editores configuran requisitos, secciones, proceso de revisión, etc.
+3. Envío en línea, revisión doble ciego y administración de todo el contenido
+4. Amplia indexación del contenido
+5. Interfaz de lectura con capacidad de respuesta y temática
+6. Notificación por correo electrónico para los lectores
+7. Soporte para cargos de procesamiento de artículos, suscripciones y pagos en línea
+8. Completo soporte de ayuda en línea sensible al contexto
+9. Soporte multilingüe
 
 ## Novedades en OJS 3.1
 

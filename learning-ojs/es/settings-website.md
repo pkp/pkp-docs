@@ -112,5 +112,3 @@ Ahora aparecerá en la lista de elementos del menú de navegación. A continuaci
 ![Captura de pantalla del elemento del menú de edición](./assets/image172.png)
 
 Presione Guardar para grabar el cambio.
-
-

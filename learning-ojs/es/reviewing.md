@@ -1,4 +1,4 @@
-# Capítulo 13. Revisión
+# Capítulo 15. Revisión
 Como revisor, usted se enterará de la solicitud de revisión por correo electrónico o revisando su panel de control:
 
 ![Captura de pantalla de panel de control](./assets/image158.png)
