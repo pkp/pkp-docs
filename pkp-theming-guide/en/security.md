@@ -30,12 +30,6 @@ Attacks can come from any input controlled by a user, whether they are a disgrun
 {$issue->getIssueIdentification()|escape}
 ```
 
-Published submissions and issues can have custom URL paths. You can escape URLs that receive user input of this kind with `{url|escape ...}`.
-
-```php
-{url|escape op="view" path=$issue->getBestIssueId($currentJournal)}
-```
-
 ## Escape HTML
 
 Some fields allow the user to enter HTML code, such as a submission abstract or issue description. These fields should be escaped with the `strip_unsafe_html` modifier.
