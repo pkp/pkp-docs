@@ -1,5 +1,7 @@
-# Capítulo 11. Autoría
+# Capítulo 13. Autoría
+
 En este capítulo, aprenderá cómo funciona un autor en OJS 3.1 desde el registro hasta la revisión de la galerada final.
+
 ## Registro en la revista
 Para realizar un envío a una revista de OJS 3.1, primero deberá registrarse como autor (consulte Registro en una revista). Después de eso, cuando inicie sesión, se le llevará a su panel de control.
 

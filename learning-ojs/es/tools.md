@@ -1,4 +1,4 @@
-# Capítulo 9: Herramientas
+# Capítulo 11: Herramientas
 Se puede acceder a la sección Herramientas desde el menú de la barra lateral izquierda.
 
 ![Captura de pantalla de cómo acceder a las herramientas](./assets/image151.png)

@@ -1,4 +1,4 @@
-# Capítulo 8: Usuarios y roles
+# Capítulo 10: Usuarios y roles
 
 Esta sección proporciona acceso a todas las cuentas de usuario asociadas con su revista, así como la oportunidad de administrar roles y permisos.
 

@@ -1,4 +1,4 @@
-# Capítulo 7: Números
+# Capítulo 9: Números
 
 En el menú de la izquierda, seleccione Números para administrar todos los números de su revista.
 
