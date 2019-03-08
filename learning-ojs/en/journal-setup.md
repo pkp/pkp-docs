@@ -101,3 +101,26 @@ When you have more than one section created, you will see an Order link. Use tha
 Hit the **Done** button when you are finished.
 
 <hr />
+## Categories
+In OJS 3.1.2 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category (see chapter X). You can place an article in a category by editing its metadata (see Chapter X). This section explains how to create and edit categories
+
+To create a new category:
+* Click Add Category
+* Enter a name for your category that will be displayed to readers
+* Enter a path for the category’s URL on your site
+* Enter a description which will appear above the list of articles in the category
+* You can optionally change the order of the articles by date or title
+* Optionally add an image which will appear at the top of the category’s page
+* Click Save
+
+To edit a category:
+* Click the name of the category you want to edit
+* Make changes
+* Click OK
+
+To remove a category:
+* Click the blue arrow next to the category you want to remove
+* Click the Remove button that appears below
+* Confirm that you want to remove the category
+ 
+To display categories on your website you can go to Website Settings > Sidebar Management and place the Browse block on your sidebar.
