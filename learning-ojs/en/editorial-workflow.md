@@ -717,6 +717,16 @@ You can now see the galleys in the Galley panel.
 
 You can make changes to the upload by selecting the blue arrow to the left of the galley label, which reveals options to edit, change the file, or delete.
 
+### Add the Article to a Category
+
+If you use categories in your journal, you can optionally add the article to a category or categories. For instructions on how to create categories see [the Journal Settings chapter](journal-setup.md). You can add the article to a category by editing its metadata.
+
+1. Click Metadata from the top right menu.
+2. Scroll down to the Categories section and check off the categor(ies) you want to add the article to.
+3. Click Save.
+
+![](./assets/learning-ojs3.1-add-to-category.png)
+
 ### Inform the Section Editor
 
 Finally, you will need to inform the Section Editor that the galleys have been completed. To do so, use the Production Discussion panel and choose the _Add Discussion_ link.
