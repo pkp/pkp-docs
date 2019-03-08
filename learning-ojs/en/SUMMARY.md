@@ -24,6 +24,7 @@
   * [Masthead](./journal-setup.md#masthead)
   * [Contact](./journal-setup.md#contact)
   * [Sections](./journal-setup.md#sections)
+  * [Categories](./journal-setup.md#categories)
 * [Chapter 6: Website Settings](./settings-website.md)
   * [Appearance](./settings-website.md#appearance)
   * [Information](./settings-website.md#information)
