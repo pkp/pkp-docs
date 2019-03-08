@@ -316,9 +316,10 @@ You can modify any of the text before sending the message.
 
 Use the **Add Reviews** button to import the Reviewer's comments from the Editor and Author field. Comments in the Editor only field will not be displayed.
 
-![](./assets/learning-ojs-3-ed-rev-req-revisions2.png)
+![](./assets/learning-ojs-3-ed-rev-req-revisions3.png)
 
-If there are any attachments, such as marked up file created by a Reviewer, you can attach it here \(as long as it has been anonymized\).
+If there are any attachments, such as a marked up file created by a Reviewer, you can attach it here \(as long as it has been anonymized\).
+In OJS 3.1.2 and later, you can also upload a new file and add it as an attachment.
 
 Hit the **Record Editorial Decision** button to send the message.
 
