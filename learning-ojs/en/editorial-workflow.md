@@ -719,7 +719,7 @@ You can make changes to the upload by selecting the blue arrow to the left of th
 
 ### Add the Article to a Category
 
-If you use categories in your journal, you can optionally add the article to a category or categories. For instructions on how to create categories see [the Journal Settings chapter](journal-setup.md). You can add the article to a category by editing its metadata.
+If you use categories in your journal, you can optionally add the article to a category or categories. For instructions on how to create categories see [the Journal Settings chapter](./journal-setup.md). You can add the article to a category by editing its metadata.
 
 1. Click Metadata from the top right menu.
 2. Scroll down to the Categories section and check off the categor(ies) you want to add the article to.
