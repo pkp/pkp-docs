@@ -208,9 +208,9 @@ This opens a new window, where Reviewers are listed and can be selected one at a
 
 ![Locate reviewer screenshot OJS 3.1.2](./assets/learning-ojs-3.1.2-locate-reviewer.png)
 
-Clicking on the blue arrow reveals more information about their review history including how many active reviews they are currently assigned, how many reviews they have completed or declined, etc. If the user has added a Biography or Reviewing Interests, this information will display here.
+Clicking on the blue arrow reveals more information about their review history, including how many active reviews they are currently assigned, how many reviews they have completed or declined, etc. If the user has added a Biography or Reviewing Interests, this information will be displayed here.
 
-Additionally a Journal Editor can add an Editorial Note about the reviewer in their profile under Users & Roles > Users. This note will appear in the reviewer details in Add Reviewer screen but will not be visible to the reviewer or to the public.
+Additionally, a Journal Editor can add an Editorial Note about the reviewer in their profile under Users & Roles > Users. This note will appear in the reviewer details on the Add Reviewer screen, but will not be visible to the reviewer or to the public.
 
 ![Reviewer details screenshot OJS 3.1.2](./assets/learning-ojs-3.1.2-add-reviewer.png)
 
