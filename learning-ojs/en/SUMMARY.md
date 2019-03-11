@@ -10,8 +10,6 @@
   * [Community Contributions](./introduction.md#community-contributions)
   * [Support](./introduction.md#support.md)
 * [Chapter 2: Installing and Upgrading](./installing-upgrading.md)
-  * [Installation](./installing-upgrading.md#installation)
-  * [Upgrading](./installing-upgrading.md#upgrading)
 * [Chapter 3: User Accounts](./user-accounts.md)
   * [Roles in OJS](./user-accounts.md#roles-in-ojs)
   * [Registering with a Journal](./user-accounts.md#registering-with-a-journal)
