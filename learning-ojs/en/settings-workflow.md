@@ -119,7 +119,7 @@ Once you send the form to a reviewer you will no longer be able to edit it becau
 
 **Review Options**: Select whether your journal will follow a double blind, blind, or open review process.
 
-**Reviewer Access**: Enable the first option to provide reviewers with one-click access to the review, by-passing the need to go to the website, login, and find the submission. For security reasons with this option, editors are not able to modify email addresses or add CCs or BCCs prior to sending invitations to reviewers.
+**Reviewer Access**: Enable (default) the first option to provide reviewers with one-click access to the review, bypassing the need to go to the website, login, and find the submission. For security reasons with this option, editors are not able to modify email addresses or add CCs or BCCs prior to sending invitations to reviewers.
 
 Enabling the second option will limit access to submission files until after the reviewer has agreed to do the review.
 
