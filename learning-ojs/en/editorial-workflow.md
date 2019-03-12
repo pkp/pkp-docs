@@ -318,9 +318,10 @@ You can modify any of the text before sending the message.
 
 Use the **Add Reviews** button to import the Reviewer's comments from the Editor and Author field. Comments in the Editor only field will not be displayed.
 
-![](./assets/learning-ojs-3-ed-rev-req-revisions2.png)
+![](./assets/learning-ojs-3-ed-rev-req-revisions3.png)
 
-If there are any attachments, such as marked up file created by a Reviewer, you can attach it here \(as long as it has been anonymized\).
+If there are any attachments, such as a marked up file created by a Reviewer, you can attach it here \(as long as it has been anonymized\).
+In OJS 3.1.2 and later, you can also upload a new file and add it as an attachment.
 
 Hit the **Record Editorial Decision** button to send the message.
 
@@ -717,6 +718,16 @@ You can now see the galleys in the Galley panel.
 ![](./assets/learning-ojs-3-au-production-galleys-uploaded.png)
 
 You can make changes to the upload by selecting the blue arrow to the left of the galley label, which reveals options to edit, change the file, or delete.
+
+### Add the Article to a Category
+
+If you use categories in your journal, you can optionally add the article to a category or categories. For instructions on how to create categories see [the Journal Settings chapter](./journal-setup.md). You can add the article to a category by editing its metadata.
+
+1. Click Metadata from the top right menu.
+2. Scroll down to the Categories section and check off the categor(ies) you want to add the article to.
+3. Click Save.
+
+![](./assets/learning-ojs3.1-add-to-category.png)
 
 ### Inform the Section Editor
 
