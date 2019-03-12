@@ -206,9 +206,13 @@ From the Reviewers panel, you can select Add Reviewer to assign a new Reviewer.
 
 This opens a new window, where Reviewers are listed and can be selected one at a time.
 
-![](./assets/learning-ojs-3-ed-rev-add.png)
+![Locate reviewer screenshot OJS 3.1.2](./assets/learning-ojs-3.1.2-locate-reviewer.png)
 
-Note the details visible about the Reviewers, including their interests, past assignments, etc.
+Clicking on the blue arrow reveals more information about their review history, including how many active reviews they are currently assigned, how many reviews they have completed or declined, etc. If the user has added a Biography or Reviewing Interests, this information will be displayed here.
+
+Additionally, a Journal Editor can add an Editorial Note about the reviewer in their profile under Users & Roles > Users. This note will appear in the reviewer details on the Add Reviewer screen, but will not be visible to the reviewer or to the public.
+
+![Reviewer details screenshot OJS 3.1.2](./assets/learning-ojs-3.1.2-add-reviewer.png)
 
 In OJS releases 3.0 to 3.1.0, you cannot assign a user to review a submission if they are also an editor of the submission.  If you do, the editor will no longer be able to access the submission after they submit their review, in order to maintain the principles of blind peer review. However, starting with OJS 3.1.1, you can assign a user to review a submission if they are also an editor of the submission.
 
@@ -219,8 +223,6 @@ At the bottom of this form, you will see options to:
 **Create New Reviewer**: If none of the Reviewers are suitable, you can use this button to create a new Reviewer. This is a new account in the system.
 
 **Enroll Existing User**: If none of the Reviewers are suitable, you can enroll an existing user as a Reviewer.
-
-![](./assets/learning-ojs-3-ed-rev-add-2.png)
 
 For this demonstration, we will pick Adela as our Reviewer and hit the **Select Reviewer** button.
 
