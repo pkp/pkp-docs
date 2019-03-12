@@ -2,7 +2,7 @@
 
 
 
-A Section Editor will wait for reviewer feedback to come in before making an editorial decision about an article. The Section Editor will synthesize the reviewer input into a decision about whether to publish the submission. She can see at a glance the two reviewers' recommendations. To see the review data from each reviewer she can click the talk bubble beside the Review Form Response. In this example, both reviewers had made the recommendation of "Revisions Required".
+A Section Editor will wait for reviewer feedback to come in before making an editorial decision about an article. The Section Editor will synthesize the reviewer input into a decision about whether to publish the submission. They can see at a glance the two reviewers' recommendations. To see the review data from each reviewer they can click the talk bubble beside the Review Form Response. In this example, both reviewers had made the recommendation of "Revisions Required".
 
 ![Section Editor Decision](images/chapter8/section_editor_decision.png)
 
@@ -22,7 +22,7 @@ Editor Decision choices include:
 
 Once you've selected a decision from the dropdown menu, hit the Record Decision button.
 
-**Important Note**: The Section Editor must use the **Notify Author **icon to generate an email to the Author, informing him or her of your decision. Until this is done, no further work can be done with the submission. 
+**Important Note**: The Section Editor must use the **Notify Author **icon to generate an email to the Author, informing them of your decision. Until this is done, no further work can be done with the submission.
 
 Use the Import Peer Reviews button on the email form to pull the anonymous reviewer comments (or form results) into the body of the email. Hitting the Send button delivers the message. The option to upload attachments gives the Section Editor the opportunity to share a copy of the reviewer's edited manuscript with the author. Be sure the edited manuscript is stripped of any personal information. 
 

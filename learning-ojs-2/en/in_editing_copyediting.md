@@ -24,13 +24,13 @@ If you as the Section Editor are doing the copyediting, follow the 3 copyediting
 
 ![Copyediting Step 2](images/chapter8/editor_copyeditor_2.png)
 
- This will send an email to the Author, asking him to review your copyediting changes (note the instructions provided in the prepared email template).
+ This will send an email to the Author, asking them to review your copyediting changes (note the instructions provided in the prepared email template).
 
-![Sending Email](images/chapter8/editor_copyeditor_3.png) 
+![Sending Email](images/chapter8/editor_copyeditor_3.png)
 
 Once the email has been sent, the Author will be able to upload any further changes to the submission.
 
-Once the Author has uploaded any revisions, be sure to use the Acknowledge icon to thank him.
+Once the Author has uploaded any revisions, be sure to use the Acknowledge icon to thank them.
 
 ![Copyediting Acknowledgement](images/chapter8/editor_copyeditor_4.png)
 
@@ -63,14 +63,14 @@ This will generate with prepared email template text automatically provided.
 
 For details on the Copyeditor's tasks and the order in which they are performed, see Chapter 10: [Copyeditors](https://docs.pkp.sfu.ca/learning-ojs-2/en/copyeditors).
 
-Once the Copyeditor has completed the first stage of copyediting, both you and the Author will receive an email notification. The Author will review the changes and make any final changes of his own. You will be able to access both revisions from the copyediting section of the submission record. Remember to use the Acknowledge icon to let the Author and Copyeditor know that you have received their revisions.
+Once the Copyeditor has completed the first stage of copyediting, both you and the Author will receive an email notification. The Author will review the changes and make any final changes of their own. You will be able to access both revisions from the copyediting section of the submission record. Remember to use the Acknowledge icon to let the Author and Copyeditor know that you have received their revisions.
 
 ![Acknowledge Copyeditor and Author](images/chapter8/copyeditor_assign_5.png)
 
 
 Use the Request icon in Step 3 to ask the Copyeditor to make the final revisions, incorporating changes from the Author (and from you, if you choose to upload your own revised version). Remember to review any Copyedit Comments located just under the upload tool.
 
-Once the Copyeditor is finished with the final revisions, you will receive an email notification. Returning to the submission record, you will see the final copy (e.g.2-25-4.CE.DOCX) and be able to use the Acknowledge icon to thank her for her work. This file will now automatically become the first layout file.
+Once the Copyeditor is finished with the final revisions, you will receive an email notification. Returning to the submission record, you will see the final copy (e.g.2-25-4.CE.DOCX) and be able to use the Acknowledge icon to thank them for their work. This file will now automatically become the first layout file.
 
 
 ![Acknowledging Final Copyedits](images/chapter8/copyeditor_assign_6.png)      

@@ -535,13 +535,13 @@ Let’s imagine that we have the following scenarios, all three with a cron job 
 2. Journal Manager using OJS log files that rotate each day, having in their filenames the day that they were being used to log access; JM uses file loader task process 1.
 3. Same last scenario, but JM uses file loader task process 2.
 
-In scenario 1, if JM can’t configure the apache log files rotation to a smaller period of time, he can copy the 20130929-access.log file to the usageStats/stage directory every time he wants new statistics to be processed. The system will, each time, delete all data that were processed for that file and reprocess everything again. That is why this process is not as efficient as an smaller period of log file rotation. At day 20131006 the log rotation will occur and JM can finally move or copy the 20130929-access.log file to the stage directory so the stats logged between the last time he staged the file and the log rotation can also be processed.
+In scenario 1, if JM can’t configure the apache log files rotation to a smaller period of time, they can copy the 20130929-access.log file to the usageStats/stage directory every time they want new statistics to be processed. The system will, each time, delete all data that were processed for that file and reprocess everything again. That is why this process is not as efficient as an smaller period of log file rotation. At day 20131006 the log rotation will occur and JM can finally move or copy the 20130929-access.log file to the stage directory so the stats logged between the last time the file was staged and the log rotation can also be processed.
 
-In scenario 2, JM can move one file per day, always moving the file from the previous day. On Monday he can move two files at the same time \(from Saturday and Sunday\). He will have a small time between access and available statistics \(one day only, for most of the week\) and will avoid reprocessing same access log entries.
+In scenario 2, JM can move one file per day, always moving the file from the previous day. On Monday they can move two files at the same time \(from Saturday and Sunday\). They will have a small time between access and available statistics \(one day only, for most of the week\) and will avoid reprocessing same access log entries.
 
 In scenario 3, JM does not have to move the files. Each time the file loader task is executed, the system will automatically grab the log files that were not processed yet avoiding the current day one, will stage them, and will start processing each one.
 
-In scenarios 1 and 2, if for some reason JM can’t move files for a whole week, in the next opportunity he can move all of them at once. The scheduled task will process one by one then until the stage directory is empty again.
+In scenarios 1 and 2, if for some reason JM can’t move files for a whole week, in the next opportunity they can move all of them at once. The scheduled task will process one by one then until the stage directory is empty again.
 
 ### Reprocessing log files
 

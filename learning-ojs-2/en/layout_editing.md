@@ -92,7 +92,7 @@ The Layout Editor will prepare galleys for the submission in each of the journal
 
 See [Chapter 11 Layout Editors](https://docs.pkp.sfu.ca/learning-ojs-2/en/layout_editors) for more on this role.
 
-Upon receiving the email notification, log back into the system and return to the submission record. You will see the galleys in place. Use the Acknowledge email icon to thank the Layout Editor for his work.
+Upon receiving the email notification, log back into the system and return to the submission record. You will see the galleys in place. Use the Acknowledge email icon to thank the Layout Editor for their work.
 
 ![Galley Files](images/chapter8/layout_5.png)
 

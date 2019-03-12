@@ -4,7 +4,7 @@ The Workflow Settings allow you to configure various parts of the journal's edit
 
 ## Components
 
-When an author makes a submission, they can upload multiple files. Typically, one file will be the article text, and others can include interview transcripts, data, images, etc. Each of these files is a **component** of the submission. The components available for the author to choose from when making her submission are listed here.
+When an author makes a submission, they can upload multiple files. Typically, one file will be the article text, and others can include interview transcripts, data, images, etc. Each of these files is a **component** of the submission. The components available for the author to choose from when making their submission are listed here.
 
 ![](./assets/learning-ojs3.1-jm-settings-workflow-comp.PNG)
 
