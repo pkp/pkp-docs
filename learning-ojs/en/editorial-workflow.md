@@ -164,11 +164,11 @@ You can now see that the Section Editor is listed under Participants, and the Ac
 
 **Decline Submission**: Rejects the submission before going through the review process. The submission would then be archived.
 
-Although in this example, the editor assigned a section editor, it would also be possible for the editor to assign herself to the submission.
+Although in this example, the editor assigned a section editor, it would also be possible for the editor to assign themselves to the submission.
 
 ### Section Editor
 
-Now that the Section Editor has been assigned, she can login and view her dashboard. The submission can be found at the top of the My Assigned queue.
+Now that the Section Editor has been assigned, they can login and view their dashboard. The submission can be found at the top of the My Assigned queue.
 
 ![](./assets/learning-ojs3.1-se-dashboard.PNG)
 
@@ -178,15 +178,15 @@ Clicking on the article title opens the full submission record.
 
 #### Accepting the Assignment
 
-It is not required, but the Section Editor could reply to the Pre-Review Discussion to inform the editor that she will be proceeding with the assignment.
+It is not required, but the Section Editor could reply to the Pre-Review Discussion to inform the editor that they will be proceeding with the assignment.
 
 #### Communicating with the Author
 
-If the Section Editor has any questions for the author, she can use the Pre-Review Discussions.
+If the Section Editor has any questions for the author, they can use the Pre-Review Discussions.
 
 #### Sending to Review
 
-Once the Section Editor is satisfied that the submission is appropriate for the journal, she can select the **Send to Review** button to move the submission to the next stage.
+Once the Section Editor is satisfied that the submission is appropriate for the journal, they can select the **Send to Review** button to move the submission to the next stage.
 
 ![](./assets/learning-ojs3.1-se-record-sendReview.PNG)
 
@@ -325,7 +325,7 @@ In OJS 3.1.2 and later, you can also upload a new file and add it as an attachme
 
 Hit the **Record Editorial Decision** button to send the message.
 
-You must now wait for the Author to respond with her revisions.
+You must now wait for the Author to respond with their revisions.
 
 ### Author Responds
 
@@ -391,23 +391,23 @@ You can now see the new notification that the submission is awaiting copyedits, 
 
 ![](./assets/learning-ojs-3-ed-copyediting-add-dash.png)
 
-You can now wait for the Copyeditor to do her work.
+You can now wait for the Copyeditor to do their work.
 
 ### Copyeditor
 
-The Copyeditor will receive an email message from the Section Editor requesting her to take on the submission.
+The Copyeditor will receive an email message from the Section Editor requesting them to take on the submission.
 
-To get started, she must login and find the submission from her dashboard.
+To get started, they must login and find the submission from their dashboard.
 
 ![](./assets/learning-ojs-3-ce-dash.png)
 
-Then, she can click the Copyediting link next to the submission name. This will take her directly to the Copyediting stage for this submission.
+Then, they can click the Copyediting link next to the submission name. This will take them directly to the Copyediting stage for this submission.
 
 ![](./assets/learning-ojs-3-ce-submission.png)
 
-From here, she can see the Draft Files. These are the files that require copyediting. Clicking on the linked title will download the file to her desktop.
+From here, they can see the Draft Files. These are the files that require copyediting. Clicking on the linked title will download the file to their desktop.
 
-Outside of OJS, she will do her copyediting work.
+Outside of OJS, they will do the copyediting work.
 
 To check the submission metadata, use the Metadata link in the blue bar at the top.
 
@@ -421,13 +421,13 @@ If any changes are made, hit the **Save** button before exiting this window.
 
 #### Consult with the Author
 
-Once she has finished copyediting, she will run the changes past the Author by adding a new discussion, using the Copyediting Discussions panel's *Add discussion* link.
+Once they have finished copyediting, they will run the changes past the Author by adding a new discussion, using the Copyediting Discussions panel's *Add discussion* link.
 
-From the Add Discussion window, she must choose the Author and add a subject line and message.
+From the Add Discussion window, they must choose the Author and add a subject line and message.
 
 ![](./assets/learning-ojs-3-ce-add-discussion.png)
 
-Further down that same window, she must upload a copy of her copyedited file.
+Further down that same window, they must upload a copy of the copyedited file.
 
 ![](./assets/learning-ojs-3-ce-add-discussion2.png)
 
@@ -459,7 +459,7 @@ You can now wait for the author's response.
 
 ### Author Responds
 
-Once you hear back from the author, you can review his feedback by checking the discussion reply.
+Once you hear back from the author, you can review their feedback by checking the discussion reply.
 
 ![](./assets/learning-ojs-3-se-author-copyedits.png)
 
@@ -542,7 +542,7 @@ The Copyediting stage is now complete.
 
 With the completion of the Copyediting stage, the submission now moves to Production. From here, the copyedit files \(often Microsoft Word files\) will be converted to publishable formats in the form of galley files \(e.g., PDF, HTML\) and proofread before publishing.
 
-To start working in Production, the Section Editor must login to the system and choose the submission from her dashboard.
+To start working in Production, the Section Editor must login to the system and choose the submission from their dashboard.
 
 ![](./assets/learning-ojs-3-se-production-submissions.png)
 
@@ -562,13 +562,13 @@ To make the assignment, use the _Add_ link in the Participants list. This will o
 
 Use the role selector and search button to find appropriate users, select one, choose a predefined message, and hit **OK** to send.
 
-The user has now been notified via email and in his dashboard.
+The user has now been notified via email and in the dashboard.
 
 ![](./assets/learning-ojs-3-se-production-participants-added.png)
 
 Notice that the notification now indicates the submission is "Awaiting Galleys". You can see the layout editor in the Participants list, and you can see the request notice in the Production Discussions panel.
 
-You can now wait for the Layout Editor to complete his tasks.
+You can now wait for the Layout Editor to complete their tasks.
 
 ### Layout Editing
 
@@ -681,7 +681,7 @@ The file is now attached and you can send the message using the **OK** button.
 
 ![](./assets/learning-ojs-3-le-production-add-participant2.png)
 
-The Author has now been notified and you can await his response.
+The Author has now been notified and you can await their response.
 
 ### Author Response
 
@@ -745,7 +745,7 @@ You can now see the final discussion.
 
 At this point, the Section Editor receives the notification from the Layout Editor and reviews the galley files.
 
-She can either ask the Layout Editor to make additional changes \(using the Production Discussions\) or inform the Editor that the galleys are ready for publication.
+They can either ask the Layout Editor to make additional changes \(using the Production Discussions\) or inform the Editor that the galleys are ready for publication.
 
 To inform the Editor, use the Production Discussion panel's _Add Discussion_ link.
 

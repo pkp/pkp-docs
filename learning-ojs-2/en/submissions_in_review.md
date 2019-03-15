@@ -47,10 +47,10 @@ Once you've made the selection, you will be returned to the Review page. You can
 Notice the addition of **Reviewer A** (your first selection). You can remove this Reviewer using the Clear Reviewer link.
 
 
-![Request Reviewer](images/chapter8/section_8.png)  
-  
+![Request Reviewer](images/chapter8/section_8.png)
 
-Use the Request icon to send an **email** to the Reviewer (using an email template), asking him to take on the task.
+
+Use the Request icon to send an **email** to the Reviewer (using an email template), asking them to take on the task.
 
 
 ![Request Email](images/chapter8/section_9.png)  
@@ -68,7 +68,7 @@ If there are several Review Forms to choose from, use the **Preview** link to ta
 
 
 
-The Reviewer will send you an email both when he agrees to do the review and when the review is completed. Returning to the Review section, you can see the Reviewer's decision (e.g., Revisions Required). Any competing interests are also displayed.
+The Reviewer will send you an email both when they agree to do the review and when the review is completed. Returning to the Review section, you can see the Reviewer's decision (e.g., Revisions Required). Any competing interests are also displayed.
 
 You can also view the Reviewer comments by clicking on the Review Form Response icon. If the Reviewer uploaded a revised version of the submission (e.g., a Word document with changes included), this would also be available here.
 

@@ -72,7 +72,7 @@ Once the message is ready to go, use the Send button to deliver it. The Cancel b
 
 ![Sending Email to Editor](images/chapter7/editor_8rev.png)
 
-Once the message is sent, cancelled, or skipped, you will be returned to the Summary page. If you have completed the assignment, the assigned user's name will appear. By default, she will be given the responsibility to guide the submission through both the review and editing process, but this can be limited by unchecking either of the Review or Editing boxes. Be sure to use the Record button after making a change.
+Once the message is sent, cancelled, or skipped, you will be returned to the Summary page. If you have completed the assignment, the assigned user's name will appear. By default, they will be given the responsibility to guide the submission through both the review and editing process, but this can be limited by unchecking either of the Review or Editing boxes. Be sure to use the Record button after making a change.
 
 From here, you can also use the Delete link to reverse the assignment and also assign another Section Editor, Editor, or yourself.
 
@@ -132,21 +132,21 @@ You can also modify the **Indexing** information supplied by the author.
 Next, you can modify the **supporting agencies** included by the author.
 
 
-![Supporting Agencies](images/chapter7/editor_16.png)  
-
-  
-  
-  If the author did not include a formatted list of **references** for works cited during the submission process, references can be copy and pasted here.  
-  
-
-![References](images/chapter7/editor_17.png)  
+![Supporting Agencies](images/chapter7/editor_16.png)
 
 
 
-Finally, you can determine whether or not the author names should display in the **Table of Contents**. This is typically controlled by the Journal Section policy, but it can be overridden here. For example, you may have set your Editorial section to not display author names, but one issue will have a special editor and you do want her name to appear. Also, the agreed upon **permissions** are displayed here.
+  If the author did not include a formatted list of **references** for works cited during the submission process, references can be copy and pasted here.
 
 
-![Display Options](images/chapter7/editor_18.png)  
+![References](images/chapter7/editor_17.png)
+
+
+
+Finally, you can determine whether or not the author names should display in the **Table of Contents**. This is typically controlled by the Journal Section policy, but it can be overridden here. For example, you may have set your Editorial section to not display author names, but one issue will have a special editor and you do want their name to appear. Also, the agreed upon **permissions** are displayed here.
+
+
+![Display Options](images/chapter7/editor_18.png)
 
 
 Remember to hit the Save Metadata button. For further information on working with submissions, see Section Editor.
