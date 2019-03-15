@@ -11,7 +11,7 @@ There are several different standards and identifiers that are commonly used in 
 
 ### ISSNs
 
-An important way of helping people find your journal, and helping libraries and other organizations to make it discoverable, is to obtain an International Standard Serial Number (ISSN). An ISSN is an eight-digit international standard, which allows for any serial publication (i.e. any publication that is published on a repeating or “serial”  basis -- journal, magazine, etc.), regardless of where it is published, the medium, language, or frequency of publication. ISSNs are widely used by libraries, citation indexes, and the publishing industry to uniquely identify and distinguish journals. They are often more important than the journal title itself for serials management because they provide a consistent identifier throughout the life of a journal. Even if the journal changes names, the ISSN remains the same. This is essential for organizations like libraries and indexes to be able to identify and distinguish your journal. 
+An important way of helping people find your journal, and helping libraries and other organizations to make it discoverable, is to obtain an International Standard Serial Number (ISSN). An ISSN is an eight-digit international standard, which allows for any serial publication (i.e. any publication that is published on a repeating or “serial”  basis -- journal, magazine, etc.), regardless of where it is published, the medium, language, or frequency of publication. ISSNs are widely used by libraries, citation indexes, and the publishing industry to uniquely identify and distinguish journals. They are often more important than the journal title itself for serials management because they provide a consistent identifier that helps to disambiguate like-titled journals.
 
 Many external services, including indexing services such as the [Directory of Open Access Journals](https://doaj.org), require that journals have an ISSN.
 
@@ -24,6 +24,14 @@ ISSNs should be displayed on the journal’s website where it can be easily loca
 
 For the final published version of an article (e.g., a PDF galley), you may also want to include the ISSN, along with the journal name and DOI (see below), on the final page, in the footer of the PDF, or in another area of the layout version of the article itself. This is important, as PDFs can be downloaded, shared via email, and become disassociated with the journal. You always want to provide an easy and obvious link back to your journal.
 
+#### Best Practices for ISSN Usage
+
+The ISSN International Organization has a [list of recommendations](https://www.issn.org/understanding-the-issn/assignment-rules/issn-the-major-principles/) for how best to apply ISSNs. Some of the more important principles include:
+
+- a new ISSN should be applied for when a journal's title changes
+- a new ISSN should be applied for when a journal's medium changes (from print to electronic)
+- a new ISSN should be applied for when a journal merges with another title 
+
 ### Digital Object Identifiers (DOIs)
 
 > Contributed by Roger Gillis
@@ -31,12 +39,12 @@ For the final published version of an article (e.g., a PDF galley), you may also
 The Digital Object Identifier or DOI is used to individually identify unique content and its location on the internet. They are typically applied to journal articles, but can be used for other content types such as datasets, images, or other supplementary materials added alongside articles. DOIs are what are called “persistent identifiers” — so even if the URL (Uniform Resource Locator - in other words, a website link) for a journal changes, the DOI remains the same and can be used to locate an article no matter where it moves on the web. DOIs are not only useful for readers trying to access articles, but are also used extensively by indexers, aggregators, and repositories, so it is important to take them seriously when trying to increase the visibility and impact of your journal.
 
 ### The anatomy of a DOI
-A DOI consists of a series of characters divided into two parts -- a prefix and a suffix, which are separated by a slash. The prefix uniquely identifies the registrant (i.e. the publisher) of the title, and the suffix identifies the specific object. 
+A DOI consists of a series of characters divided into two parts -- a prefix and a suffix, which are separated by a slash. The prefix uniquely identifies the registrant (i.e. the publisher) of the title, and the suffix identifies the specific object.
 
 For example, the article [“Health Care Professionals’ Opinions and Expectations of Clinical Pharmacy Services on a Surgical Ward”](http://www.cjhp-online.ca/index.php/cjhp/article/view/1606) has the DOI 10.4212/cjhp.v69i6.1606
 
-* The “10.” part of the prefix identifies the DOI registry or the agency that issues the DOI numbers - in this example the agency is Crossref. 
-* The characters “4212” in the prefix identify the registrant - in this case, the publisher is Multimed. 
+* The “10.” part of the prefix identifies the DOI registry or the agency that issues the DOI numbers - in this example the agency is Crossref.
+* The characters “4212” in the prefix identify the registrant - in this case, the publisher is Multimed.
 * cjhp.v69i6.1606, the suffix, consists of several different parts, meant to distinguish the particular content.
 * “cjhp” is an abbreviation for the journal -- The _Canadian Journal of Hospital Pharmacy_. This is a common feature of DOIs, where a journal will opt to be identified in a DOI by a standardized journal abbreviation. Multimed publishes multiple journals, and this helps to identify to which of its titles this article belongs.
 * “v69i6.1606” is the volume number of the article (69), then the issue number (6), and finally “1606” is a unique identifier for the individual article. For journals using OJS, the DOI will be automatically generated for each article.
@@ -55,7 +63,7 @@ Once you have joined Crossref and configured OJS to use DOIs, you will need to r
 
 ### Open Researcher and Contributor ID (ORCID)
 
-> Contributed by Jennifer Chan 
+> Contributed by Jennifer Chan
 
 The Open Research and Contributor ID (ORCID) is a persistent digital identifier that distinguishes one researcher or contributor from another, and is being increasingly adopted in workflows for grant and publication submission. The ORCID also serves as a means of ensuring that a researcher is accurately identified as a contributor for a particular work. This is particularly useful when authors have the same names. ORCID also ensures that works are properly attributed to authors who have undergone a legal name change.
 
@@ -160,12 +168,12 @@ Linking from your journal to other relevant sites is another important way to in
 
 ### Evaluating Your SEO
 
-One of the easiest ways to determine how your publication might be faring in search engines is to do some tests for keywords and phrases. Try searching for your journal name or an article title in a search engine like Google and see your journal site is being indexed. 
+One of the easiest ways to determine how your publication might be faring in search engines is to do some tests for keywords and phrases. Try searching for your journal name or an article title in a search engine like Google and see your journal site is being indexed.
 
 There are a wide variety of tools that can assist you with Search Engine Optimization and can help you understand the traffic for your website:
 
 * [Google Webmaster tools](https://www.google.com/webmasters/) and the [Google Search Console](https://search.google.com/search-console/about) can help you understand how your site is performing, and provide many tools to help improve your search ranking and performance.
-* [Google analytics](https://analytics.google.com/analytics/web/) or [Piwik](https://analytics.google.com/analytics/web/) can help you understand your web traffic. Both have OJS plugins and are popular, free, and effective ways to understand and report on traffic to your journal website. 
+* [Google analytics](https://analytics.google.com/analytics/web/) or [Piwik](https://analytics.google.com/analytics/web/) can help you understand your web traffic. Both have OJS plugins and are popular, free, and effective ways to understand and report on traffic to your journal website.
 * [Moz Link Explorer](https://moz.com/link-explorer) is another tool that allows you to analyze the sites that link to your website.
 
 SEO can be intimidating and take time, practice, and experience to do properly. But by following some of the advice outlined in this section, you can take steps towards ensuring that your journal will be highly visible in the search engines used by researchers interested in your content and understand the web traffic reaching your website.
@@ -386,4 +394,3 @@ Library Publishing Coalition (LPC) Webinar Series: [ORCID in Publishing Workflow
 [Creating Accessible PDFs](Library Publishing Coalition Webinar)](https://www.youtube.com/watch?v=Ex-XdcO7hjk)
 
 [PDF SEO best practices](https://web.archive.org/web/20181222172840/https://www.searchenginejournal.com/pdf-seo-best-practices/59975/)
-
