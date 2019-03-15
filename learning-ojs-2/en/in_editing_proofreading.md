@@ -71,7 +71,7 @@ This will generate an email message, which includes detailed instructions for th
 ![Email to Author for Proofreading](images/chapter8/proof_4.png)
 
 
-You and the Proofreader will receive an email from the Author when they has completed their proofreading. You can use the Acknowledge icon to thank them for their work.
+You and the Proofreader will receive an email from the Author when they have completed their proofreading. You can use the Acknowledge icon to thank them for their work.
 
 
 ![Acknowledging the Author](images/chapter8/proof_5.png)
