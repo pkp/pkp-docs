@@ -31,6 +31,7 @@
   * [Metrics](.)
   * [ASSOC_TYPE](.)
   * [Tests](.)
+  * [Email Templates](email-templates)
 * [Resources](./resources)
   * [Postman API file](.)
   * [GenerateMetrics tool](.)
