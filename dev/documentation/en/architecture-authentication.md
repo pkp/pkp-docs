@@ -12,12 +12,18 @@ if (!$currentUser) {
 The `Request` is available globally from the [Application](./utilities-application).
 
 ```php
-$currentUser = Application::getRequest()->getUser();
+$currentUser = Application::get()->getRequest()->getUser();
 ```
 
 ## CSRF Tokens
 
 CSRF tokens must be sent with all `POST`, `PUT` or `DELETE` requests to prevent attacks using [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery). CSRF tokens are not required for requests to the API which use the [API Token](/dev/api/#api-token).
+
+A CSRF token may be requested from the current session.
+
+```php
+$csrfToken = $request->getSession()->getCSRFToken();
+```
 
 ### Page Routes
 
@@ -36,7 +42,7 @@ class ExampleForm extends Form {
 Controllers must check the CSRF token for any op that receives a `POST`, `PUT` or `DELETE` request.
 
 ```php
-class BackIssueGridHandler extends IssueGridHandler {
+class IssueGridHandler {
 	function deleteIssue($args, $request) {
 		if (!$request->checkCSRF()) {
 			return new JSONMessage(false);
@@ -48,7 +54,6 @@ class BackIssueGridHandler extends IssueGridHandler {
 ### API Routes
 
 API Handlers automatically check the CSRF token for all `POST`, `PUT` or `DELETE` requests. No additional action must be taken.
-
 
 ## User Session
 The user's session stores a logged-in user's IP address, last-used date/time and more. You can access the current user's session directly.
