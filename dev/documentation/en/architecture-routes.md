@@ -8,7 +8,7 @@ The diagram below shows a URL for a [Page Handler](architecture-handlers#page-ha
 
 ![Diagram indicating the parts of a URL for Page Handlers](../img/url-route-page.png)
 
-The router will look for a file at `/pages/issues/index.php` or `/lib/pkp/pages/issues/index.php` which loads the correct handler.
+The router will look for a file at `/pages/issue/index.php` or `/lib/pkp/pages/issue/index.php` which loads the correct handler.
 
 ```php
 switch ($op) {

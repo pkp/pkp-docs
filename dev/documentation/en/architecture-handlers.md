@@ -296,7 +296,7 @@ class BackIssueGridHandler extends IssueGridHandler {
 }
 ```
 
-A Controller Handler will often return a snippet of HTML in the `JSON` data package, which will be used by the [UI Controllers](./frontend#controllers) to update the DOM.
+A Controller Handler will often return an HTML string in the `JSON` data package, which will be used by the [UI Controllers](./frontend#controllers) to update the DOM.
 
 ```php
 import('classes.controllers.grid.issues.IssueGridHandler');
