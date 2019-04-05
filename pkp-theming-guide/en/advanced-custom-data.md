@@ -31,7 +31,7 @@ class DocsThemePlugin extends ThemePlugin {
 		$templateMgr = $args[0];
 
 		// Attach a custom piece of data to the TemplateManager
-        $myCustomData = 'This is my custom data. It could be any PHP variable.';
+		$myCustomData = 'This is my custom data. It could be any PHP variable.';
 		$templateMgr->assign('myCustomData', $myCustomData);
 	}
 }
@@ -60,13 +60,12 @@ class DocsThemePlugin extends ThemePlugin {
 		$templateMgr = $args[0];
 
 		// Attach the latest 3 announcements if they're enabled for this journal
-        $request = Application::getRequest();
-        $journal = $request->getJournal();
-        if ($journal && $journal->getSetting('enableAnnouncements')) {
-				$announcementDao = DAORegistry::getDAO('AnnouncementDAO');
-				$announcements =& $announcementDao->getNumAnnouncementsNotExpiredByAssocId(ASSOC_TYPE_JOURNAL, $journal->getId(), 3);
-				$templateMgr->assign('announcements', $announcements->toArray());
-			}
+		$request = Application::getRequest();
+		$journal = $request->getJournal();
+		if ($journal && $journal->getSetting('enableAnnouncements') {
+			$announcementDao = DAORegistry::getDAO('AnnouncementDAO');
+			$announcements =& $announcementDao->getNumAnnouncementsNotExpiredByAssocId(ASSOC_TYPE_JOURNAL, $journal->getId(), 3);
+			$templateMgr->assign('announcements', $announcements->toArray());
 		}
 	}
 }
@@ -104,16 +103,15 @@ class DocsThemePlugin extends ThemePlugin {
 		}
 
 		// Attach the latest 3 announcements if they're enabled for this journal
-        $request = Application::getRequest();
-        $journal = $request->getJournal();
-        if ($journal && $journal->getSetting('enableAnnouncements')) {
+		$request = Application::getRequest();
+		$journal = $request->getJournal();
+		if ($journal && $journal->getSetting('enableAnnouncements')) {
 			$announcementDao = DAORegistry::getDAO('AnnouncementDAO');
 			$announcements =& $announcementDao->getNumAnnouncementsNotExpiredByAssocId(ASSOC_TYPE_JOURNAL, $journal->getId(), 3);
 			$templateMgr->assign('announcements', $announcements->toArray());
 		}
 	}
 }
-
 ```
 
 **It's important to note** that only some templates are called directly with this hook. These are the top-level templates located under `/frontend/pages/<template_name>.tpl`. You'll find that these template files load additional sub-templates. But these are not passed through the hook. You can only hook into the primary template call for each page load.
