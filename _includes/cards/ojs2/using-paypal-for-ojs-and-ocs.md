@@ -5,4 +5,4 @@ How to configure OJS 2 to use Paypal. [View Now](/using-paypal-for-ojs-and-ocs/)
 
 ---
 
-<span class='fa fa-language'></span> Available in [Arabic](/using-paypal-for-ojs-and-ocs/ar/).
+<span class='fa fa-language'></span> Available in [العربية](/using-paypal-for-ojs-and-ocs/ar/).
