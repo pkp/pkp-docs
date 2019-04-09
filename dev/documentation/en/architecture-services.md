@@ -51,7 +51,7 @@ $contexts = Services::get('context')->getMany([
 
 The `EntityWriteInterface` provides methods for validating, adding, editing and deleting objects.
 
-Always validate properties when using them to add or edit an object.
+Before adding or editing an object, you must validate its properties.
 
 ```php
 $props = ['path' => 'publicknowledge'];
@@ -81,7 +81,7 @@ $editedContext = Services::get('context')->edit(
 To add an object, use the DAO to instantiate a new object, inject the props, and save it to the database.
 
 ```php
-$context = Application::getContextDAO()->newDataObject();
+$context = Application::get()->getContextDAO()->newDataObject();
 $context->_data = $props;
 $newContext = Services::get('context')->add(
   $context,
@@ -187,4 +187,4 @@ This refactor has three goals:
 2. To reinforce consistent use of hooks and notifications. It should not be possible to forget to call hooks, send email notifications or add log entries when taking actions. The service class should encapsulate all the tasks that are part of an action.
 3. To simplify the application structure. We hope that the service classes will provide a more intuitive API for plugin developers and third-party partners.
 
-Service classes are not yet available for all entities. They will be developed as we more of our UI is converted to use the REST API.
+Service classes are not yet available for all entities. They will be developed as more of our UI is converted to use the REST API.
