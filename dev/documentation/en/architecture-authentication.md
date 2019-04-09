@@ -72,3 +72,7 @@ Use of the `SessionManager` is discouraged unless you need to access the session
 A logged-in user will not exist when using the CLI tools. Care must be taken when writing code that gets or modifies information from the database to ensure that it can be used when no user session exists.
 
 The [Handlers](./architecture-handlers) should perform any authentication and authorization required before fulfilling a request.
+
+---
+
+Now that we know who the user is, learn [how we authorize their access to different operations](./architecture-authorization).

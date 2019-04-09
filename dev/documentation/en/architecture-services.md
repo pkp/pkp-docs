@@ -188,3 +188,7 @@ This refactor has three goals:
 3. To simplify the application structure. We hope that the service classes will provide a more intuitive API for plugin developers and third-party partners.
 
 Service classes are not yet available for all entities. They will be developed as more of our UI is converted to use the REST API.
+
+---
+
+Learn more about [how entities are defined and handled](./architecture-entities).

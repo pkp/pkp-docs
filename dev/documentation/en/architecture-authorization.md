@@ -336,3 +336,7 @@ class QueryRequiredPolicy extends Policy {
 	}
 }
 ```
+
+---
+
+Now that the user has been authorized, learn how [Service classes are used to fulfil the request](./architecture-services).

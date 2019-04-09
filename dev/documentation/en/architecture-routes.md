@@ -102,3 +102,7 @@ $pageUrl = $request->getDispatcher()->url($request, ROUTE_PAGE, 'issue', 'view',
 $apiUrl = $request->getDispatcher()->url($request, ROUTE_API, $context->getPath(), 'issues/1');
 $controllerUrl = $request->getDispatcher()->url($request, ROUTE_COMPONENT, null, 'grid.issues.IssueGridHandler', 'editIssue', [1]);
 ```
+
+---
+
+Learn about [how Handlers respond to the request](./architecture-handlers).

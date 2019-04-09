@@ -232,3 +232,7 @@ mysql> select * from journal_settings where setting_name="supportedLocales";
 ```
 
 Serialized data can not be efficiently searched, so it should never include data that you want to query against.
+
+---
+
+Learn more about the [plugin system](./architecture-plugins).

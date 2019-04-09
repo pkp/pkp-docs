@@ -244,3 +244,7 @@ HookRegistry::register('Schema::get::context', function($hookName, $schema) {
 ```
 
 If your code will be included in the application, it is better to add the property directly to the schema.
+
+---
+
+Learn more about [how entities are stored in the database](./architecture-database).

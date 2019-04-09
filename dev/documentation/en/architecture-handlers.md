@@ -311,3 +311,7 @@ class BackIssueGridHandler extends IssueGridHandler {
 HTML returned in this way should use the [`TemplateManager`](./frontend#template-manager).
 
 Controller Handlers are tightly coupled to the [UI Controller](./frontend#controllers) they serve. Read more about [UI Controllers](./frontend#controllers).
+
+---
+
+Learn [how the user is authenticated](./architecture-authentication).
