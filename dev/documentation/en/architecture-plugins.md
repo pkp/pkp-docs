@@ -2,7 +2,8 @@
 
 Plugins are independent modules that can be enabled and disabled to modify the application.
 
-> This chapter will describe how to ensure your code is exposed to plugins. Read the [Plugin Guide](/dev/plugins/en) to learn how to build your own plugins.
+> This chapter will describe how to load plugins in the main application. Read the [Plugin Guide](/dev/plugins/en) to learn how to build your own plugins.
+
 
 ## Load Plugins
 
