@@ -12,33 +12,33 @@
   * [Entities](./architecture-entities)
   * [Database](./architecture-database)
   * [Plugins](./architecture-plugins)
-* [Frontend](./frontend)
-  * [Template Manager](.)
-  * [UI Library](.)
-  * [Components](.)
-  * [Controllers (deprecated)](.)
-* [Utilities](./utilities)
-  * [Application](.)
-  * [Cache](.)
-  * [Config](.)
-  * [File Handling](.)
-  * [Hooks](.)
-  * [Translation](.)
-  * [Updates](.)
-  * [Validation](.)
-* [Uncategorized](.) (so far)
-  * [Notifications/Logs/Emails](.)
-  * [Metrics](.)
-  * [ASSOC_TYPE](.)
-  * [Tests](.)
+* Frontend
+  * Template Manager
+  * UI Library
+  * Components
+  * Controllers (deprecated)
+* Utilities
+  * Application
+  * Cache
+  * Config
+  * File
+  * Hooks
+  * Translation
+  * Updates
+  * Validation
+* Uncategorized
+  * Notifications
+  * Metrics
+  * ASSOC_TYPE
+  * Tests
   * [Email Templates](email-templates)
-* [Resources](./resources)
-  * [Postman API file](.)
-  * [GenerateMetrics tool](.)
-  * [GenerateSubmissions tool](.)
-  * [CacheBuster plugin](.)
-  * [How to build API docs to match your build](.)
-  * [Building with the UI Library](.)
-  * [Glossary of terms](.) (Context, Galley, ...)
-  * [Vagrant](.)
-  * [Code Standards Guide](.)
+* Resources
+  * Postman API file
+  * GenerateMetrics tool
+  * GenerateSubmissions tool
+  * CacheBuster plugin
+  * How to build API docs to match your build
+  * Building with the UI Library
+  * Glossary of terms
+  * Vagrant
+  * Code Standards Guide

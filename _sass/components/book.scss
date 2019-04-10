@@ -157,11 +157,11 @@
 
 	li {
 		list-style: none;
+		color: $text-light;
+		padding: 0.55em 0;
 		font-weight: $medium;
 
 		a {
-			display: inline-block;
-			padding: 0.55em 0;
 			line-height: 1.4em;
 			color: $text;
 
@@ -171,11 +171,14 @@
 			}
 		}
 
-		li a {
+		li {
 			padding: 0.15em 0;
-			font-weight: $normal;
-			color: $text-light;
 			font-size: 0.9rem;
+			font-weight: $normal;
+
+			a {
+				font-weight: $normal;
+			}
 		}
 	}
 }
