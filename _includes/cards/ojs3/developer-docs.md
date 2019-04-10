@@ -1,4 +1,4 @@
 
 ### <span class="fas fa-code"></span> [Developer Documentation](/dev)
 
-Developer documentation, reference guides and more to help you build themes, write plugins and develop new features for OJS and OMP. [View Now](/dev)
+Developer documentation, reference guides and more to help you build themes, write plugins and develop new features for OJS. [View Now](/dev)

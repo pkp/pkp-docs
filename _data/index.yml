@@ -9,13 +9,13 @@ apps:
     cards:
       - path: learning-ojs-3
       - path: admin-guide
+      - path: developer-docs
+        isDeveloper: true
       - path: starting-a-journal
       - path: gfsf
       - path: gdpr
       - path: pkp-school
       - path: crossref-ojs-manual
-      - path: developer-docs
-        isDeveloper: true
       - path: looking-for-ojs-2
         isHighlighted: true
   - path: ojs2
@@ -39,15 +39,9 @@ apps:
     cards:
         - path: learning-omp
         - path: admin-guide
+        - path: developer-docs
+          isDeveloper: true
         - path: gdpr
-        - path: omp-api
-          isDeveloper: true
-        - path: pkp-theming-guide
-          isDeveloper: true
-        - path: rest-api
-          isDeveloper: true
-        - path: ui-library
-          isDeveloper: true
   - path: ocs2
     title: Open Conference Systems
     titleShort: OCS

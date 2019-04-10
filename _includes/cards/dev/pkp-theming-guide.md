@@ -1,7 +1,7 @@
 
-### <span class="fas fa-code"></span> [Theming Guide](/pkp-theming-guide/en/)
+### [Theming Guide](/pkp-theming-guide/en/)
 
-An introduction to building custom themes for Open Journal Systems 3.0+ and OMP 1.2+. It is written for web developers who wish to tailor the look and feel of their journal or press with custom PHP, HTML and CSS code. [View Now](/pkp-theming-guide/en/)
+An introduction to building custom themes for OJS and OMP, for web developers who want to tailor the look of their journal or press. [View Now](/pkp-theming-guide/en/)
 
 ---
 

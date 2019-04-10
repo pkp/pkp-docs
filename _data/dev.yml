@@ -13,6 +13,10 @@ cards:
         isDeveloper: true
       - path: ui-library
         isDeveloper: true
+      - path: ojs-reference
+        isDeveloper: true
+      - path: omp-reference
+        isDeveloper: true
   - path: ojs2
     title: Open Journal Systems 2
     description: "Documentation for developers who are still working with OJS 2."
