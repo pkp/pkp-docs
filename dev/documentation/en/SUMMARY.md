@@ -27,6 +27,6 @@
   * Translation
   * Updates
   * Validation
-* Resources
+* [Resources](./resources)
 * Other
-  * [Email Templates](email-templates)
+  * [Email Templates](./email-templates)
