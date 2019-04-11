@@ -82,6 +82,26 @@
 		border-left: 0.25em solid darken($bg-shade, 15%);
 		background: $bg-shade;
 
+		&.tip {
+			background: #f8f2b2;
+			border-color: #e4d857;
+		}
+
+		&.notice {
+			background: #d2eaf5;
+			border-color: $link;
+		}
+
+		&.warning {
+			background: #f8dce2;
+			border-color: $warning;
+
+			code {
+				color: #ff1e4e;
+				border-color: #e99fae;
+			}
+		}
+
 		p {
 			font-size: 1rem;
 			line-height: 1.6em;

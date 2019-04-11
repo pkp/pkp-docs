@@ -3,6 +3,7 @@
 This section will describe how to install the application, contribute changes, and update your instance with the latest changes.
 
 > This guide assumes that you know how to run a local server, work with git version control and run tools from the command line.
+{:.warning}
 
 ## Technical Requirements
 

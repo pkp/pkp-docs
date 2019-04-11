@@ -11,10 +11,14 @@ Each entity is described in a schema file and is represented in the application 
 - An [APIHandler](./architecture-handlers), like `SubmissionHandler`, which serves a REST API endpoint for these objects.
 
 > Services, schemas and APIHandlers are new to the application and are not yet available for all entities. Read about the [refactor strategy](#refactor-strategy).
+{:.notice}
 
 ## DataObject class
 
 A `DataObject` class offers a simple API to get and set data for an object.
+
+> **Tip:** `DataObject`s perform the role of `Model`s in the MVC (Model-View-Controller) application architecture.
+{:.tip}
 
 Create a new object.
 
@@ -48,6 +52,7 @@ $name = $journal->getLocalizedData('name');
 ```
 
 > The `Submission` object works differently. It will fall back to the submission's locale, not the journal's primary locale.
+{:.notice}
 
 Set localized data by passing all locales at once.
 
@@ -106,7 +111,8 @@ A simple schema with two properties, `id` and `title`, would look like this.
 
 The json-schema syntax is documented in [these examples](http://json-schema.org/learn/getting-started-step-by-step.html).
 
-> Note: JSON is a stricter syntax than JavaScript. Use [JSONLint](https://jsonlint.com/) to identify errors in your schema.
+> **Tip:** JSON is a stricter syntax than JavaScript. Use [JSONLint](https://jsonlint.com/) to identify errors in your schema.
+{:.tip}
 
 ### Schema extensions
 
@@ -171,7 +177,8 @@ The application will expect to interact with this property as though it were a l
 
 Any validation rules will be applied to each locale value in the set.
 
-> **Data described as an object in json-schema is expected to be an associative array in PHP, not a PHP object.**
+> Data described as an object in json-schema is expected to be an associative array in PHP, not a PHP object.
+{:.warning}
 
 ### App properties
 

@@ -6,6 +6,9 @@ Code inside of a `Handler` can not be reused, so `Handler`s should not perform t
 
 `Handler`s **do not authorize the request** and should not be used without appropriate [authorization policies](./architecture-authorization).
 
+> **Tip:** `Handler`s perform the role of `Controller`s in the MVC (Model-View-Controller) application architecture.
+{:.tip}
+
 ## Page Handlers
 
 Page Handlers receive `GET` requests and return `HTML` output. The Page Handler must define a method for each op it supports.

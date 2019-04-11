@@ -5,6 +5,7 @@ The chapters in this section each describe a part of the application architectur
 These chapters are intended to provide an introduction to how the application works. You may need to read the code to learn more about each component. But after reading these chapters you should have an idea of where to look.
 
 > Some of the code in OJS and OMP is more than ten years old. Some of the concepts in this document have not yet been rolled out across the entire application. You may find parts of the application code that do not conform to coding conventions used in other parts. We are always refactoring the applications. This guide describes the architecture which all new contributions should follow.
+{:.notice}
 
 ## Modules
 

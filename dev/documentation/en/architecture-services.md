@@ -5,6 +5,7 @@ A `Service` class is a container for storing reusable methods. It coordinates [E
 Service classes isolate the business logic of actions taken in the application from the handlers which receive and respond to the request. It should be possible to use a service class method from a `PageHandler`, `APIHandler` or even a CLI command.
 
 > Services are new to the application and are not yet available for all entities. Read about the [refactor strategy](#refactor-strategy).
+{:.notice}
 
 ## Using a Service
 
