@@ -144,7 +144,7 @@ $contextProps = Services::get('context')
 Each service class may include additional methods as needed. For example, the `PKPContextService` class includes a method to restore all default settings for a locale.
 
 ```php
-$updatedContext = Services::get('context)
+$updatedContext = Services::get('context')
   ->restoreLocaleDefaults(
     $context,
     $request,

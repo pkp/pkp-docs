@@ -62,6 +62,20 @@
 		line-height: 2.2em;
 	}
 
+	ul,
+	ol {
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+
+	li {
+		line-height: 1.8em;
+	}
+
+	li + li {
+		margin-top: 1em;
+	}
+
 	blockquote {
 		margin: 2em 0;
 		padding: 1em;
