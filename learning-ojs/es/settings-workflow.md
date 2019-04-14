@@ -64,7 +64,7 @@ Esta pestaña le permite configurar el proceso de revisión de su revista.
 
 Utilice el menú desplegable para seleccionar ya sea el número de días o “No recordar nunca" en “Enviar un aviso si un revisor no ha respondido a una solicitud de revisión en el curso de (días) después de la fecha límite de respuesta" para establecer el número de días que pueden transcurrir después de la fecha límite antes que se envíe a los revisores un recordatorio de que deben hacer una recomendación en relación con una presentación.
 
-![](./assets/learning-ojs3.1-jm-settings-review-reminders.png
+![](./assets/learning-ojs3.1-jm-settings-review-reminders.png)
 
 Tenga en cuenta que el Administrador de la Página debe configurar algunas características del sistema para enviar correos electrónicos. Consulte la [Guía del administrador](https://docs.pkp.sfu.ca/admin-guide/en/email) para obtener información adicional.
 
