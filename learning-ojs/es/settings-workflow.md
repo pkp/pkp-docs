@@ -146,7 +146,7 @@ OJS facilita la comunicación del flujo de trabajo a través del uso de mensajes
 
 **Desactivar las plantillas de correo electrónico**
 
-Todas las plantillas están activadas de forma predeterminada al instalar OJS, pero usted puede desactivar algunas plantillas quitando la marca de la casilla en el extremo derecho con el título ‘Enabled’’ (Activada). La mayoría de las plantillas que se pueden desactivar son mensajes que se envían automáticamente por OJS. La desactivación de la plantilla significará que no se enviará el aviso automático.
+Todas las plantillas están activadas de forma predeterminada al instalar OJS, pero usted puede desactivar algunas plantillas quitando la marca de la casilla en el extremo derecho con el título "Activada." La mayoría de las plantillas que se pueden desactivar son mensajes que se envían automáticamente por OJS. La desactivación de la plantilla significará que no se enviará el aviso automático.
 
 **Editar las plantillas de correo electrónico**
 
