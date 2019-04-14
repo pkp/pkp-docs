@@ -96,7 +96,7 @@ A continuación, puede elegir el tipo de respuesta, incluyendo:
 * botones de radio (donde el revisor puede seleccionar solo una respuesta posible)
 * menú desplegable (donde los revisores pueden seleccionar solo una respuesta posible)
 
-**Opciones de respuesta** son las selecciones que usted puede hacer que sean disponibles para las casillas de verificación, los botones de radio o los menús desplegables. Un buen ejemplo de una respuesta a una casilla de verificación es una [escala tipo Likert] (https://es.wikipedia.org/wiki/Escala_Likert), donde el revisor debe elegir solo una opción: Por ejemplo, Bueno, neutral, malo.
+**Opciones de respuesta** son las selecciones que usted puede hacer que sean disponibles para las casillas de verificación, los botones de radio o los menús desplegables. Un buen ejemplo de una respuesta a una casilla de verificación es una [escala tipo Likert](https://es.wikipedia.org/wiki/Escala_Likert), donde el revisor debe elegir solo una opción: Por ejemplo, Bueno, neutral, malo.
 
 Recuerde oprimir el botón **Guardar** para registrar los cambios que haga.
 
