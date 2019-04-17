@@ -18,25 +18,55 @@ Use **Custom Tags** to add custom HTML header tags to the header of every page o
 
 ## Access
 
-OJS provides a number of security-related options that can be used to restrict the journal's contents, and maintain additional information about submissions for auditing purposes.
+Under the Access tab you can configure whether you want your journal contents to be open access, available by subscription, or a combination. By default, the open access option is selected. However, if you wish to use OJS for a subscription journal, choose the second option (see next section on Payments for further information).
 
 ![](./assets/learning-ojs3.1-jm-settings-dist-access.PNG)
 
-By default, the open access option is selected. However, if you wish to only use OJS for a subscription journal, choose the second option. This will also enable the Subscription section in the left sidebar \(more on Subscription Management in an upcoming chapter\).
+If you are only using OJS to manage your submission workflow and not publish your content, you can select "OJS will not be used to publish the journal's contents online." 
 
-For editorial management and not for publishing, select the last option.
+OJS allows you to configure how and when content can be accessed at an article and issue level. When you create an issue, there is a tab called **Access** under which you can set the **Access Status** as **Subscription** or **Open Access**.
+
+If you set it as **Subscription**, underneath that a box will appear where you can optionally enter an **Open Access Date**, at which the content will become open access.
+
+Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbox will appear beside each article under **Open Access**, where you can optionally set individual articles as open access, even if the rest of the issue remains available by subscription.
 
 ## Payments
 
-OJS provides the ability to collect online payments. Use this section to determine the default **Currency** type \(e.g., Canadian Dollars, Euros, etc.\) and **Payment Method** \(e.g., Paypal\).
+OJS provides the ability to collect online payments and manage subscriptions and author fee payments. If you would like to use these feature, you first have to enable payments.
+
+### Enable Payments 
+
+If you plan to accept Paypal and/or manual payments, go to Website Settings > Plugins and enable the Paypal Fee Payment Plugin and Manual Fee Payment Plugin.
+
+If you plan to make your journal or articles available by subscription, go to Distribution Settings > Access and check off “The journal will require subscriptions to access some or all of its contents.”
+
+![](./assets/learning-ojs3.1-jm-settings-dist-access.PNG)
+
+Then go to Payments (the next tab) and check off “Payments will be enabled for this journal. Note that users will be required to log in to make payments.”
 
 ![](./assets/learning-ojs3.1-jm-settings-dist-pay.PNG)
 
-Choosing **Manual Fee Payment** will allow you to type in some instructions to your users \(e.g., where to mail a cheque\).
+Select the currency you will use.
 
-Choosing **Paypal Fee Payment** will enable some additional settings where you can add the details from your Paypal account.
+Select a fee payment method.  
 
-![](./assets/learning-ojs3.1-jm-settings-dist-pay-paypalsettings.PNG)
+If you select Paypal Fee Payment, additional fields will appear.  You need to get this information from your Paypal account which you’ll set up on the Paypal website with the Paypal API.
+
+![](./assets/learning-ojs3.1-jm-settings-dist-paypalsettings.PNG)
+
+If you select Manual Fee Payment, a field will appear where you can enter instructions that will appear to users who are making a manual payment.  For example, “Send a cheque payable to the Public Knowledge Project” to )))))”
+
+Click Save.
+
+A new menu item will appear on the main dashboard menu called “Payments” (or “Subscriptions,” depending on which version of OJS you are using).
+
+![](./assets/learning-ojs3.1-jm-settings-dist-payments-menu.PNG)
+
+Go to the [Subscriptions Chapter](./subscriptions.md) for further instructions on managing subscriptions and payments.
+
+### Donations
+
+In OJS 3.x there is not an option to set up a payment type for donations, to manage donations with the Payments module, or to use the Paypal plugin to accept donations. You can add the Donations block to your sidebar, but it will have to link to an external site where donation payments can be made.
 
 ## Permissions
 
