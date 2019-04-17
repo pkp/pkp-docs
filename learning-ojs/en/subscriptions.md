@@ -48,6 +48,12 @@ Use this page to set the amounts charged for various types of fees.
 - **Reader Fees**: Use this to charge reader fees distinct from subscriptions.
 - **General Fees**: Use this to charge other fees, such as memberships.
 
+### Author Fees
+
+If you enable **Author Fees** you can request article processing charges after the review process has been completed. When the article is accepted by the editor, the editor will have the option to require payment. This will result in the author receiving a notification in OJS and an email, which will direct them through the payment process.
+
+![](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
+
 ## Payments
 
 As various payments are received, they will be listed under this tab.
