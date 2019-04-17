@@ -32,9 +32,13 @@ Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbo
 
 ## Payments
 
-OJS provides the ability to collect online payments and manage subscriptions and author fee payments. If you would like to use these feature, you first have to enable payments.
+OJS provides the ability to collect online payments and manage subscriptions and author fee payments. 
+
+Using the Paypal plugin, you can accept payments through Paypal, or you can accept manual payments (such as cheque, email transfer, etc.), but they must be made outside of OJS and are not automatically recorded in OJS.  If you would like to use a different payment service you will have to create your own plugin. 
 
 ### Enable Payments 
+
+To use payments and subscriptions features, you first have to enable payments.
 
 If you plan to accept Paypal and/or manual payments, go to Website Settings > Plugins and enable the Paypal Fee Payment Plugin and Manual Fee Payment Plugin.
 
