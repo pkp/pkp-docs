@@ -48,7 +48,7 @@ If you plan to make your journal or articles available by subscription, go to Di
 
 Then go to Payments (the next tab) and check off “Payments will be enabled for this journal. Note that users will be required to log in to make payments.”
 
-![](./assets/learning-ojs3.1-jm-settings-dist-pay.PNG)
+![](./assets/learning-ojs3.1-jm-settings-dist-pay.png)
 
 Select the currency you will use.
 
@@ -56,7 +56,7 @@ Select a fee payment method.
 
 If you select Paypal Fee Payment, additional fields will appear.  You need to get this information from your Paypal account which you’ll set up on the Paypal website with the Paypal API.
 
-![](./assets/learning-ojs3.1-jm-settings-dist-paypalsettings.PNG)
+![](./assets/learning-ojs3.1-jm-settings-dist-paypalsettings.png)
 
 If you select Manual Fee Payment, a field will appear where you can enter instructions that will appear to users who are making a manual payment.  For example, “Send a cheque payable to the Public Knowledge Project” to )))))”
 
@@ -64,7 +64,7 @@ Click Save.
 
 A new menu item will appear on the main dashboard menu called “Payments” (or “Subscriptions,” depending on which version of OJS you are using).
 
-![](./assets/learning-ojs3.1-jm-settings-dist-payments-menu.PNG)
+![](./assets/learning-ojs3.1-jm-settings-dist-payments-menu.png)
 
 Go to the [Subscriptions Chapter](./subscriptions.md) for further instructions on managing subscriptions and payments.
 
