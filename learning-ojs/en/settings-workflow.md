@@ -160,7 +160,7 @@ To edit a template:
 4. Make changes to the subject and the body text. Be careful to not delete any tags such as “{$authorName}:,” which automatically insert content from a submission.
 5. When you’re finished editing, click Save.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-email-templates.PNG)
+![](./assets/learning-ojs3.1-jm-settings-workflow-email-templates.png)
 
 #### Reload default email templates
 
