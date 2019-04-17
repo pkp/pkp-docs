@@ -64,7 +64,7 @@ This tab allows you to configure your journal's review process.
 
 Use the drop down menu to select either the number of days or “Never Remind” under “Send a reminder if a reviewer has not responded to a review request within the following time (days) after response due date” to set the number of days that can pass after the due date before reviewers will be reminded to make a recommendation for a submission.
 
-![](./assets/learning-ojs3.1-jm-settings-review-reminders.png
+![](./assets/learning-ojs3.1-jm-settings-review-reminders.png)
 
 Note that some system settings must be configured by the Site Administrator to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
 
