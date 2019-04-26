@@ -7,6 +7,14 @@ The community Bootstrap3 theme is designed to be a base, not a final product. To
 
 This means that, in most cases, you will need to do a little bit more work with a [Child Theme](child-themes.md) in order to polish off your site.
 
+These OJS sites demonstrate existing Bootstrap child themes:
+- [Default](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot1)
+- [Paper](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot2)
+- [Journal](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot3)
+- [Yeti](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot5)
+- [Sandstone](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot6)
+- [Cyborg](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot4)
+
 ## Install Boostrap3
 
 The **simplest** way to get the Bootstrap3 theme is to download the [latest release](https://github.com/NateWr/bootstrap3/releases) from the development repository. Unpack the `.zip` file and move the `bootstrap3` directory to your OJS installation at `/plugins/themes/bootstrap3`.
