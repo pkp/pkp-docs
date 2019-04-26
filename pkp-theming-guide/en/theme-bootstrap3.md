@@ -1,5 +1,5 @@
 # Bootstrap3 Theme
-[Bootstrap 3](http://getbootstrap.com/) is a popular HTML, CSS and JavaScript framework for developing responsive, mobile-first web applications. Due it's popularity, many developers are familiar with the HTML, CSS and JavaScript techniques used in the framework.
+[Bootstrap 3](http://getbootstrap.com/) is a popular HTML, CSS and JavaScript framework for developing responsive, mobile-first web applications. Due its popularity, many developers are familiar with the HTML, CSS and JavaScript techniques used in the framework.
 
 The [Bootstrap3 theme](https://github.com/NateWr/bootstrap3) is a community effort to provide a base theme built on these techniques. It implements an OJS journal theme using core bootstrap HTML markup, and provides a number of third-party styles for Bootstrap 3 out-of-the-box.
 
