@@ -1,7 +1,5 @@
 # Getting Found, Staying Found, Increasing Impact: Enhancing Readership and Preserving Content for OJS Journals, Second Edition.
 
-* [English](en/)
-
 Publishing a journal is about more than simply putting ink to paper (or pixels to screen).
 It is a collaboration between you and your readers. Two critical aspects of this relationship are,
 first, making your journal visible to your prospective audience. By putting your content online and making
