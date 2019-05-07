@@ -3,7 +3,7 @@ isBookIndex: true
 ---
 # Getting Found, Staying Found, Increasing Impact: Enhancing Readership and Preserving Content for OJS Journals, Second Edition.
 
-* [English](en/)
+<!-- * [English](en/) -->
 
 Publishing a journal is about more than simply putting ink to paper (or pixels to screen). It is a collaboration between you and your readers. Two critical aspects of this relationship are, first, making your journal visible to your prospective audience. By putting your content online and making it freely available through open access, you can be reaching of millions of people around the world. But if they don’t know you are out there, they will not be able to become part of your scholarly community. Second, once you have your content in place, and have established an audience of dedicated readers, you will want to ensure that your journal is always available – 24 hours a day, 7 days a week, 365 days a year. Unlike paper publications, electronic journals can disappear rather easily, either temporarily or permanently. Regular downtime caused by an unreliable server environment, or worse, complete loss of your content due to a lack of any kind of backup or preservation strategy, can seriously undermine your credibility with your readers, or even totally wipe out all of the work you and your collaborators have done together.
 
