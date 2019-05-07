@@ -81,6 +81,8 @@ Under Website Settings > Languages you can see a list of languages or locales in
 
 **Forms**: This will enable all selected languages to be available when filling in online forms.
 
+If enabling multiple languages to appear in the UI, make sure that in Website Settings > Appearance > Sidebar Management the Language Toggle Block is selected to make that feature available to users.
+
 ## Plugins
 
 Use this page to see all of the installed plugins and find new plugins.
