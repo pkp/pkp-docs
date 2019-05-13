@@ -54,6 +54,15 @@ It is not currently possible to add cc or bcc addresses to messages or to add at
 
 You may want to create a dummy user account \(e.g., Deleted Users\), and use that to merge unwanted accounts into.
 
+To merge users:
+1. At Users & Roles > Users, find the user account you want to remove
+2. Click the blue arrow next to the username 
+3. Click **Merge User** from the menu that appears below
+4. Find the user account that you want to merge this user account into (the user you want to maintain)
+5. Click the blue arrow next to username
+6. Click **Merge into this user**
+7. Press **OK** to confirm
+
 #### Search
 
 When you have a large number of users, you will want to take advantage of the search feature.
