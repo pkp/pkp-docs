@@ -59,6 +59,8 @@ Use these fields to modify the text in the For Readers, For Authors, For Librari
 
 Remember to hit **Save** to record any changes.
 
+To remove these fields and their contents from displaying publicly on the website's user interface, deselect the Information Block in Website Settings > Appearance > Sidebar Management.
+
 ## Archiving
 
 If you are a member of a LOCKSS or CLOCKSS network, use this page to activate your journal.
