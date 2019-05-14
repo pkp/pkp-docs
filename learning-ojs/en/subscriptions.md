@@ -105,4 +105,4 @@ You can create a new individual subscription by using the Create New Subscriptio
 - **Notes**: If you have any relevant notes to add, record that information here \(optional\).
 
 ## Subscription Block
-When a user is being provided access to a site or its content via a subscription, the information of the subscriber providing access can be dispayed in the sidebar. The Subscriptio Block feature must be selected for display in Website Settings > Appearance > Sidebar Management.
+When a user is being provided access to a site or its content via a subscription, the information of the subscriber providing access can be dispayed in the sidebar. The Subscription Block feature must be selected for display in Website Settings > Appearance > Sidebar Management.
