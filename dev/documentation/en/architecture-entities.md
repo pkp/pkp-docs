@@ -139,7 +139,7 @@ Assign this attribute when the property's default value must be localized. The v
 
 #### `validation`
 
-Assign this attribute to properties that should be validated before being saved to the database. We do not support json-schema's standard validation rules.
+Assign this attribute to properties that should be validated before being saved to the database. We do not support json-schema's standard validation rules. See [Validation](./utilities-validation).
 
 #### `multilingual`
 

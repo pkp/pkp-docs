@@ -26,7 +26,7 @@
   * Notifications
   * Translation
   * Updates
-  * Validation
+  * [Validation](./utilities-validation)
 * [Resources](./resources)
 * Other
   * [Email Templates](./email-templates)

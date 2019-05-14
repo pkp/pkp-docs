@@ -52,7 +52,7 @@ $contexts = Services::get('context')->getMany([
 
 The `EntityWriteInterface` provides methods for validating, adding, editing and deleting objects.
 
-Before adding or editing an object, you must validate its properties.
+Before adding or editing an object, you must validate its properties. See [Validation](./utilities-validation).
 
 ```php
 $props = ['path' => 'publicknowledge'];
