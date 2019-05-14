@@ -10,9 +10,6 @@ Each entity is described in a schema file and is represented in the application 
 - A json [schema](#schemas) which defines the properties, defaults and validation rules for these objects.
 - An [APIHandler](./architecture-handlers), like `SubmissionHandler`, which serves a REST API endpoint for these objects.
 
-> Services, schemas and APIHandlers are new to the application and are not yet available for all entities. Read about the [refactor strategy](#refactor-strategy).
-{:.notice}
-
 ## DataObject class
 
 A `DataObject` class offers a simple API to get and set data for an object.
@@ -130,25 +127,19 @@ Assign this attribute to properties that can not be edited, such as object IDs a
 
 Assign this attribute to properties that are used when adding or editing an object but will not be returned when requesting the object.
 
-An example of this attribute can be found in the `temporaryFileId` that is used to save a file but then discarded.
+An example of this attribute is the `temporaryFileId` that is used to save a file but then discarded.
 
 #### `apiSummary`
 
-Assign this attribute to properties that you want to appear in summary views of the object.
-
-This is usually used endpoints that return a list of objects.
+Assign this attribute to properties that you want to appear in summary views of the object. The summary view is usually used in endpoints that return a list of objects.
 
 #### `defaultLocaleKey`
 
 Assign this attribute when the property's default value must be localized. The value should match a locale key.
 
-See [Translation](./utilities-translation).
-
 #### `validation`
 
-Assign this attribute to properties that should be validated before being saved to the database.
-
-We do not support json-schema's standard validation rules. See [Validation](./validation).
+Assign this attribute to properties that should be validated before being saved to the database. We do not support json-schema's standard validation rules.
 
 #### `multilingual`
 
@@ -177,15 +168,16 @@ The application will expect to interact with this property as though it were a l
 
 Any validation rules will be applied to each locale value in the set.
 
-> Data described as an object in json-schema is expected to be an associative array in PHP, not a PHP object.
+> Data described as an object in json-schema is expected to be an associative array in PHP.
 {:.warning}
 
 ### App properties
 
 When a property should be added to an entity in one application but not another, use two schema files with the same name.
 
+`lib/pkp/schemas/context.json`
+
 ```json
-// lib/pkp/schemas/context.json
 {
 	"title": "Context",
 	"description": "A journal or press.",
@@ -199,8 +191,9 @@ When a property should be added to an entity in one application but not another,
 }
 ```
 
+`schemas/context.json`
+
 ```json
-// schemas/context.json
 {
 	"title": "Journal",
 	"description": "A journal.",
@@ -217,15 +210,15 @@ These schema files will be merged to produce a combined schema. When identical p
 
 ## SchemaDAO
 
-When an entity has a schema, it's [DAO](./architecture-database) should extend the `SchemaDAO` class. This class will use the schema file to ensure that data being read from and written to the database onforms to the schema.
+When an entity has a schema, it's [DAO](./architecture-database) should extend the `SchemaDAO` class. This class will use the schema file to ensure that data being read from and written to the database conforms to the schema.
 
 ## API Documentation
 
-The schema files are used to generate the [API documentation](/dev/api), so it can be used as an entity reference.
+The schema files are used to generate the [API documentation](/dev/api).
 
 ## Extending Schemas
 
-[Hooks](./utilities-hooks) can be used to add, edit or remove properties of an entity.
+Hooks can be used to add, edit or remove properties of an entity.
 
 Add an `institutionalHome` property to the `Context` entity.
 

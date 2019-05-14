@@ -67,8 +67,6 @@ if (!empty($errors)) {
 }
 ```
 
-Learn more about [Validation](./utilities-validation).
-
 Once the properties have been validated, they can be merged with the object and saved. Edit an existing object.
 
 ```php
@@ -114,7 +112,7 @@ Use the `getFullProperties()` method to retrieve a full representation of the ob
 
 ```php
 $contextProps = Services::get('context')
-  ->getSummaryProperties(
+  ->getFullProperties(
     $context,
     ['request' => Application::get()->getRequest()]
   );

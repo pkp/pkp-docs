@@ -9,7 +9,7 @@ if (!$currentUser) {
 }
 ```
 
-The `Request` is available globally from the [Application](./utilities-application).
+The `Request` is available globally from the `Application`.
 
 ```php
 $currentUser = Application::get()->getRequest()->getUser();
@@ -29,7 +29,7 @@ $csrfToken = $request->getSession()->getCSRFToken();
 
 ### Page Routes
 
-When Page Handlers receive `POST`, `PUT` or `DELETE` requests, any form data should be processed by a [`Form` UI Controller](./frontend#controllers). In such cases, the `Form` must add the CSRF check to its validation rules.
+When Page Handlers receive `POST`, `PUT` or `DELETE` requests, any form data should be processed by a `Form`. In such cases, the `Form` must add the CSRF check to its validation rules.
 
 ```php
 class ExampleForm extends Form {

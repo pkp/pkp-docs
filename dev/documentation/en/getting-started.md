@@ -1,6 +1,6 @@
 # Getting Started
 
-This section will describe how to install the application, contribute changes, and update your instance with the latest changes.
+This section will describe how to install the application, contribute changes, and stay up-to-date with the latest changes.
 
 > This guide assumes that you know how to run a local server, work with git version control and run tools from the command line.
 {:.warning}
@@ -26,7 +26,7 @@ Copy the default config file.
 cp config.TEMPLATE.inc.php config.inc.php
 ```
 
-Open the `config.inc.php` file, find the database settings, and update them to match the credentials for you SQL server.
+Open the `config.inc.php` file, find the database settings, and update them to match the credentials for your SQL server.
 
 Install dependencies with [composer](https://getcomposer.org/).
 
@@ -113,22 +113,20 @@ git push
 cd ../..
 ```
 
-You may need to update submodules, composer dependencies, the NPM build package (see [Branches](#branches) above).
-
 ## Updates
 
-When you have pulled down changes, you may need to update composer dependencies and the NPM build package.
+When you have pulled down changes from the `upstream` remote, run the following to sync the `lib/pkp` and `lib/ui-library` submodules.
+
+```
+git submodule update --init --recursive
+```
+
+You may need to update dependencies and rebuild the JavaScript package.
 
 ```
 composer --working-dir=lib/pkp update
 npm install
 npm run build
-```
-
-Run the following to sync the `lib/pkp` and `lib/ui-library` submodules.
-
-```
-git submodule update --init --recursive
 ```
 
 Sometimes a code change will modify the database structure and you will need to run the upgrade script.

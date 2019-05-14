@@ -155,7 +155,7 @@ $submissionDao = DAORegistry::getDAO('SubmissionDAO');
 $result = $submissionDao->retrieve($qo->toSql(), $qo->getBindings());
 ```
 
-QueryBuilders should make it easier to retrieve records from the database by providing simple, well-documented methods for limiting the results that are retrieved. In most cases, a QueryBuilder will help fulfil a Service class's `getMany()` method and the REST API.
+QueryBuilders should make it easier to retrieve records from the database by providing simple, well-documented methods for getting and filtering records. In most cases, a QueryBuilder will help fulfil a Service class's `getMany()` method.
 
 ## SchemaDAOs
 

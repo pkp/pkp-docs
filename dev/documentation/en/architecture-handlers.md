@@ -85,7 +85,18 @@ class IssueHandler extends Handler {
 
 ### Responses
 
-Page Handlers return HTML code using the [`TemplateManager`](./frontend#template-manager).
+Page Handlers return HTML code using the `TemplateManager`.
+
+```php
+class IssueHandler extends Handler {
+	public function current(Array $args, Request $request) {
+		$templateMgr = TemplateManager::getManager($request);
+		return $templateMgr->display('/path/to/template.tpl');
+	}
+}
+```
+
+Templates use the [Smarty](https://www.smarty.net/) (v3) templating library.
 
 ## API Handlers
 
@@ -103,7 +114,7 @@ class PKPSubmissionsHandler extends APIHandler {
 			'GET' => [
 				[
 					'pattern' => 'submissions',
-					'handler' => array($this, 'getMany'),
+					'handler' => [$this, 'getMany'],
 				],
 			],
 		];
@@ -130,7 +141,7 @@ class PKPSubmissionsHandler extends APIHandler {
 			'GET' => [
 				[
 					'pattern' => 'submissions/{submissionId}',
-					'handler' => array($this, 'get'),
+					'handler' => [$this, 'get'],
 				],
 			],
 		];
@@ -243,7 +254,7 @@ class PKPSubmissionsHandler extends APIHandler {
 }
 ```
 
-Error responses from the API should pass a [locale key](./utilities-translation) which describes the error.
+Error responses from the API should pass a locale key which describes the error.
 
 ```php
 import('lib.pkp.classes.handler.APIHandler');
@@ -279,9 +290,9 @@ Read the [Slim API Framework usage guide](http://www.slimframework.com/docs/) to
 
 ## Controller Handlers (deprecated)
 
-Controller Handlers receive requests from [UI Controllers](./frontend#controllers) and return `JSON` output. They act like Page Handlers except that they serve individual interactive UI components, such as a submission's list of files, discussions or participants.
+Controller Handlers receive requests from UI Controllers and return `JSON` output. They act like Page Handlers except that they serve individual interactive UI components, such as a submission's list of files, discussions or participants.
 
-**Controller Handlers are deprecated.** New features should be built using the [UI Library](./frontend#ui-library) interacting with API Handlers.  However, they are common throughout the application and will remain in use for some time.
+**Controller Handlers are deprecated.** New features should be built using the UI Library components that interact with API Handlers.  However, they are common throughout the application and will remain in use for some time.
 
 Learn more about [controller URLs, routes and ops](./architecture-routes#controller-routes).
 
@@ -305,15 +316,11 @@ A Controller Handler will often return an HTML string in the `JSON` data package
 import('classes.controllers.grid.issues.IssueGridHandler');
 class BackIssueGridHandler extends IssueGridHandler {
 	public function editIssue($args, $request)
-		...
-		return JSONMessage(true, '<div>...</div>');
+		$templateMgr = TemplateManager::getManager($request);
+		return JSONMessage(true, $templateMgr->display('/path/to/template.tpl'));
 	}
 }
 ```
-
-HTML returned in this way should use the [`TemplateManager`](./frontend#template-manager).
-
-Controller Handlers are tightly coupled to the [UI Controller](./frontend#controllers) they serve. Read more about [UI Controllers](./frontend#controllers).
 
 ---
 

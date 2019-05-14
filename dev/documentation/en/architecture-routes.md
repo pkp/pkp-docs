@@ -63,7 +63,7 @@ Controller URLs are derived from the `Handler` class name. The `Handler` suffix 
 
 # Writing URLs
 
-Never manually write a URL path because the application can be run without the URL routing enabled. When the [config](./utilities-config.md) option `disable_path_info` is turned on, URL routing will use query parameters.
+Never manually write a URL path because the application can be run without the URL routing enabled. When the config option `disable_path_info` is turned on, URL routing will use query parameters.
 
 ```
 http://example.org/?journal=publicknowledge&page=issue&op=view&path[]=1

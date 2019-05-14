@@ -1,8 +1,8 @@
 # Introduction
 
-This document provides a technical introduction to the coding conventions and concepts that power PKP's applications. It is written for software developers who want to fix bugs, add new features, and contribute code to OJS and OMP.
+This document describes the coding conventions and concepts that power PKP's applications. It is written for software developers who want to fix bugs, add new features, and contribute code to OJS and OMP.
 
-If you would like to adapt OJS or OMP to your publishing needs, you may prefer to consult the [Theming Guide](/pkp-theming-guide/en), [Plugin Guide](/dev/plugins/en), or other [developer documentation](/dev).
+If you want to adapt OJS or OMP to your publishing needs, you may prefer to consult the [Theming Guide](/pkp-theming-guide/en), Plugin Guide (in progress), or other [developer documentation](/dev).
 
 If you are not a coder, please consult our [user documentation](/).
 
@@ -14,7 +14,7 @@ These platforms are used to run everything from small, independent presses or jo
 
 ## Using this guide
 
-This guide will help you learn how to install, configure and contribute code to the project. It is written as a high-level introduction to the application structure and the most common utilities you will need to begin working with the code.
+This guide will help you learn how to contribute code to the project. It is written as a high-level introduction to the application structure and the most common utilities you will need to begin working with the code.
 
 If you are looking for a more detailed specification, please consult the [reference documentation (Doxygen)](https://pkp.sfu.ca/ojs/doxygen/master/html/index.html), the [REST API Usage Guide](/dev/api) or the [UI Library](/dev/ui-library/dev).
 

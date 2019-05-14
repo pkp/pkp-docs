@@ -2,7 +2,7 @@
 
 Plugins are independent modules that can be enabled and disabled to modify the application.
 
-> This chapter will describe how to load plugins in the main application. Read the [Plugin Guide](/dev/plugins/en) to learn how to build your own plugins.
+> This chapter will describe how to load plugins in the main application. The Plugin Guide (in progress) will describe how to build your own plugins.
 {:.notice}
 
 
@@ -44,4 +44,4 @@ Plugins in the Generic category are loaded with every request and do not need to
 
 ## Hooks
 
-Generic plugins use [Hooks](./utilities-hooks) to modify the application behavior. Care should be taken to ensure that hooks are available at key parts of the [Request Lifecycle](./architecture-request) to ensure that the application can be modified safely by third-party plugins.
+Generic plugins use Hooks to modify the application behavior. Care should be taken to ensure that hooks are available at key parts of the [Request Lifecycle](./architecture-request) to ensure that the application can be modified safely by third-party plugins.
