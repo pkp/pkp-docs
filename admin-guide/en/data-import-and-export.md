@@ -62,10 +62,10 @@ Next you can import each article with the Plugin.
 1. Go to Tools &gt; Import/Export and select Quick Submit Plugin.
 2. Upload a cover image if you have one.  This field is optional and can be ignored.
 3. Choose the section of the journal that the article will appear in from the drop-down list in the Section field.
-4. Enter the metadata for the article in the other fields.
+4. Enter the metadata for the article in the other fields. If you do not see all of the metadata fields you want, go to Workflow Settings > Submission > Submission Metadata to configure what fields should be included in submissions.
 5. Under List of Contributors, click Add Contributor to enter the names of authors and other contributors to the article.
 6. Under Galleys, click Add Galley to upload a PDF file of the article.  A popup box will open where you can enter the Galley Label and language of the galley.  Once you click Save, another box will open where you can select the Article Component and upload the file.
-7. At the end of the Quick Submit Plugin form, you can select whether you want the article you are adding to be published immediately or unpublished, if you wish to publish it later.
+7. At the end of the Quick Submit Plugin form, you can select whether you want the article you are adding to be published immediately or unpublished, if you wish to publish it later. If you select **Published**, you will have to select the issue you would like to publish it in and enter the **Date Published**. You can also optionally enter page numbers and permissions information.
 8. When you have finished entering all data for the article, click Save.
 
 ![](./assets/quick-submit-plugin%20%282%29.png)
