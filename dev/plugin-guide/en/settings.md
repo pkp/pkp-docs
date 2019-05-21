@@ -172,6 +172,8 @@ class TutorialExampleSettingsForm extends Form {
     // used in the URL that the form is submitted to
     $templateMgr = TemplateManager::getManager($request);
     $templateMgr->assign('pluginName', $this->plugin->getName());
+
+    return parent::fetch($request, $template, $display);
   }
 
 	/**
