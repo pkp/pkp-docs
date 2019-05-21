@@ -63,7 +63,9 @@ To remove these fields and their contents from displaying publicly on the websit
 
 ## Archiving
 
-If you are a member of a LOCKSS or CLOCKSS network, use this page to activate your journal.
+If you are a member of a LOCKSS or CLOCKSS network, use this page to activate your journal. The PKP PN Plugin, which deposits your content in the PKP Preservation Network, is not yet available for OJS 3.  When it is available and has been enabled, it will deposit your content directly in the Network.  
+
+If you use another network, enabling it here will make your content available to the network, but you will also need to contact the network to make it aware of your journal.
 
 ![](./assets/learning-ojs3.1-jm-settings-web-archive.PNG)
 
