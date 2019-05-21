@@ -145,7 +145,7 @@ The `requirePrimaryLocale` helper method will validate props that should be requ
 
 Some validation rules can not be described in the schema. This is the case when validation requires checking the database. For example, a context can not have a `urlPath` if another context exists with that `urlPath`.
 
-In such cases, the [Service] class's `validate` method should be used to extend the validation check.
+In such cases, the [Service](./architecture-services) class's `validate` method should be used to extend the validation check.
 
 ```php
 function validate($action, $props, $allowedLocales, $primaryLocale) {
