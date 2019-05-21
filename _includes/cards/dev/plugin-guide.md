@@ -1,4 +1,4 @@
 
-### Plugin Guide (coming soon)
+### [Plugin Guide](./plugin-guide/en)
 
-Learn about the plugin architecture of OJS and OMP to customize almost everything about the application.
+Learn how to write plugins to customize almost anything in OJS and OMP. [View Now](./plugin-guide/en)
