@@ -14,6 +14,7 @@
 * [Plugin Settings](./settings)
 * [Release a Plugin](./release)
 * [Examples](./examples)
+  * [Plugin Template](https://github.com/pkp/pluginTemplate){:target="_blank"}
   * [Add Styles and Scripts](./examples-styles-scripts)
   * [Context and Site](./examples-context-site)
   * [Get Data](./examples-get-data)

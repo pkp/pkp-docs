@@ -6,6 +6,7 @@ title: Examples - Plugin Guide for OJS and OMP
 
 Plugins can be put to a wide variety of uses. The examples below show you how to do things that many plugins may need to do.
 
+- [Plugin Template](https://github.com/pkp/pluginTemplate){:target="_blank"} - A working starter plugin that you can use as a base for your own plugins.
 - [Add Styles and Scripts](./examples-styles-scripts) - How to add a CSS stylesheet or JavaScript file to the backend.
 - [Context and Site](./examples-context-site) - How to distinguish between one journal and the admin area in your plugin.
 - [Get Data](./examples-get-data) - How to get some data to display in your plugin.
