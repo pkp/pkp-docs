@@ -263,7 +263,28 @@ This should be applied whenever you authorize access to any object of the submis
 
 ## Authorized Objects
 
-Policies work by checking that the requested objects exist and that the current user has permission to access them. These objects can be retrieved when responding to the request.
+Policies work by checking that the requested objects exist and that the current user has permission to access them. These objects can be stored when authorization is completed and retrieved later when responding to the request.
+
+Store an authorized object when a `Policy` has retrieved it from the database and it has passed that `Policy`'s rules.
+
+```php
+class QueryRequiredPolicy extends Policy {
+	public function dataObjectEffect() {
+
+		// Get the requested query and confirm that it exists
+		if (!$query) {
+			return AUTHORIZATION_DENY;
+		}
+
+		// Store the authorized object
+		$this->addAuthorizedContextObject(ASSOC_TYPE_QUERY, $query);
+
+		return AUTHORIZATION_PERMIT;
+	}
+}
+```
+
+Retrieve an authorized object in the `Handler`.
 
 ```php
 class ExampleHandler extends Handler {
@@ -315,24 +336,6 @@ class ExampleHandler extends Handler {
 		$currentSubmission = $this->getAuthorizedContextObject(ASSOC_TYPE_SUBMISSION);
 		$assignedRoles = $this->getAuthorizedContextObject(ASSOC_TYPE_ACCESSIBLE_WORKFLOW_STAGES);
 		...
-	}
-}
-```
-
-Store an authorized object when a `Policy` has retrieved it from the database and it has passed that `Policy`'s rules.
-
-```php
-class QueryRequiredPolicy extends Policy {
-	public function dataObjectEffect() {
-		// Get the query and confirm that it exists
-		if (!$query) {
-			return AUTHORIZATION_DENY;
-		}
-
-		// Store the authorized object
-		$this->addAuthorizedContextObject(ASSOC_TYPE_QUERY, $query);
-
-		return AUTHORIZATION_PERMIT;
 	}
 }
 ```
