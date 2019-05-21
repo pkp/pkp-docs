@@ -39,9 +39,9 @@ if ($context) {
 $this->updateSetting($contextId, 'editorName', 'Daniel Barnes');
 ```
 
-## Site-only Plugins
+## Site-wide Plugins
 
-You can restrict your plugin so that it can only be enabled and disabled in the administration area. Add the `isSitePlugin` method.
+Add the `isSitePlugin` method to enable the plugin's settings form in the site-wide plugins list.
 
 ```php
 class TutorialExamplePlugin extends GenericPlugin {
@@ -51,9 +51,7 @@ class TutorialExamplePlugin extends GenericPlugin {
 }
 ```
 
-When this method returns `true`, the plugin can only be enabled or disabled by an admin through the administration settings.
-
-Site-wide plugins are loaded for every context and can still modify context-specific behavior.
+Site-wide plugins can also be enabled, disabled and configured for each context.
 
 ---
 
