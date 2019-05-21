@@ -6,7 +6,7 @@ title: Getting Started - Plugin Guide for OJS and OMP
 
 In this guide, we will create a generic plugin that we will call the Tutorial Example.
 
-> Download [the plugin](https://github.com/pkp/tutorialExample) we will from GitHub.
+> Download [the plugin](https://github.com/pkp/tutorialExample) we will build in this tutorial from GitHub.
 {:.notice}
 
 A plugin stores all of its files in one directory in OJS or OMP. Our example plugin will be a `generic` plugin, so we put it in that directory. Every plugin requires three files.
