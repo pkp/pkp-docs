@@ -1,3 +1,7 @@
+---
+title: Getting Started - Technical Documentation - OJS/OMP
+---
+
 # Getting Started
 
 This section will describe how to install the application, contribute changes, and stay up-to-date with the latest changes.

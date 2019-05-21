@@ -1,3 +1,7 @@
+---
+title: Validation - Technical Documentation - OJS/OMP
+---
+
 # Validation
 
 Data can be validated using the [entity schemas](./architecture-entities#schemas) or the `ValidatorFactory`. In both cases, we use Laravel's [Validation](https://laravel.com/docs/5.5/validation) library.

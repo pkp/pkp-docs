@@ -1,3 +1,7 @@
+---
+title: Email Templates - Technical Documentation - OJS/OMP
+---
+
 # Email Templates
 
 Email templates mix customized, editable data with fixed defaults. For this reason, the behavior of the `EmailTemplateService` differs from other entity service classes. This section describes some of the differences.

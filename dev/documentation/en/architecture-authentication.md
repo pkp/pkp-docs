@@ -1,3 +1,7 @@
+---
+title: Authentication - Technical Documentation - OJS/OMP
+---
+
 # Authentication
 
 Cookies are used to authenticate a user session against a registered `User`. You can retrieve the currently logged in user from the `Request` object:

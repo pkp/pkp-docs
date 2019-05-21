@@ -1,3 +1,7 @@
+---
+title: Plugins - Technical Documentation - OJS/OMP
+---
+
 # Plugins
 
 Plugins are independent modules that can be enabled and disabled to modify the application.

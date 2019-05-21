@@ -1,3 +1,7 @@
+---
+title: Routes - Technical Documentation - OJS/OMP
+---
+
 # Routes
 
 Each request is mapped to a Page, API or Controller `Handler` based on the URL.

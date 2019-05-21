@@ -1,3 +1,8 @@
+---
+title: Technical Documentation - OJS/OMP
+description: A technical guide to the coding conventions and application architecture for Open Journal Systems and Open Monograph Press.
+---
+
 # Introduction
 
 This document describes the coding conventions and concepts that power PKP's applications. It is written for software developers who want to fix bugs, add new features, and contribute code to OJS and OMP.

@@ -1,3 +1,7 @@
+---
+title: Architecture - Technical Documentation - OJS/OMP
+---
+
 # Architecture
 
 The chapters in this section each describe a part of the application architecture. Together they provide an overview of how requests to the application are authorized, how data is saved and retrieved from the database, and how responses are returned.

@@ -1,3 +1,7 @@
+---
+title: Authorization - Technical Documentation - OJS/OMP
+---
+
 # Authorization
 
 Each `Handler` must define policies to prevent unauthorized access. These policies are applied in the `authorize` method.

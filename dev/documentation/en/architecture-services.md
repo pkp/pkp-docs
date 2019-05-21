@@ -1,3 +1,7 @@
+---
+title: Services - Technical Documentation - OJS/OMP
+---
+
 # Services
 
 A `Service` class is a container for storing reusable methods. It coordinates [Entities](./architecture-entities), [`DAO`s](./architecture-database) and other utilities to read and write from the database, send emails and fire events.

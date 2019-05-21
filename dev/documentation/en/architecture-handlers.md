@@ -1,3 +1,7 @@
+---
+title: Handlers - Technical Documentation - OJS/OMP
+---
+
 # Handlers
 
 Every request is routed to a `Handler`, which is responsible for authorizing the request, fetching data and formatting the response.

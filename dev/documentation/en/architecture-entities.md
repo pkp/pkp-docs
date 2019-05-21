@@ -1,3 +1,7 @@
+---
+title: Entities - Technical Documentation - OJS/OMP
+---
+
 # Entities
 
 An entity is any type of object in the application, such as a submission, review assignment, discussion or file.

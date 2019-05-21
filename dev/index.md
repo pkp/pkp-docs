@@ -1,6 +1,6 @@
 ---
 layout: hub
-title: PKP Developer Docs - Developer documentation for OJS and OMP
+title: PKP Developer Docs - Technical guides and documentation for OJS and OMP
 description: Developer documentation, reference guides and more to help you build themes, write plugins and develop new features for OJS and OMP
 ---
 

@@ -1,3 +1,7 @@
+---
+title: Database - Technical Documentation - OJS/OMP
+---
+
 # Database
 
 A Database Access Object (`DAO`) is responsible for executing database queries to read and write information from the database.
