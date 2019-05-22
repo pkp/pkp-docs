@@ -20,7 +20,7 @@ You can edit a user account by selecting the blue arrow to the left of an entry.
 
 This opens the options to Email, Edit User, Disable, Remove, Login As, Merge User.
 
-### Email Users 
+#### Email Users 
 
 If you want to email a user about a particular submission, you can use the Discussion feature in the submission. This keeps all communication about a submission in one place.
 
@@ -63,7 +63,7 @@ To merge users:
 6. Click **Merge into this user**
 7. Press **OK** to confirm
 
-#### Search
+#### Search Users
 
 When you have a large number of users, you will want to take advantage of the search feature.
 
