@@ -44,7 +44,7 @@ It is not currently possible to add cc or bcc addresses to messages or to add at
 
 **Disable** keeps the account in place, but blocks the user from accessing it.
 
-**Remove** un-enrolls the user from all roles in the journal, but the user account remains in the system. 
+**Remove** un-enrolls the user from all roles in the journal, but the user account remains in the system. The only way to actually remove a user account from your system is to **Merge Users** (see below).
 
 **Login As** allows you to temporarily log in as that user, for example, to complete an outstanding task.
 
@@ -112,6 +112,11 @@ If the user has further issues, a Journal Manager or Editor can do the following
 5. Check off **User must change password on next log in**
 6. Click **Save** at the end of the form
 7. Send the new password to the user and instruct them to log in with it
+
+If the user still cannot log in, their account may have been disabled.  To re-enable it:
+1. Go to Users & Roles > Users
+2. Find the user who can't log in and click the blue arrow next to their name
+3. Look below their name for **Enable** or **Disable.**  If Disable appears, the account is already enabled. If Enable appears, click it to re-enable the account.
 
 <hr />
 
