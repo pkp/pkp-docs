@@ -44,7 +44,7 @@ It is not currently possible to add cc or bcc addresses to messages or to add at
 
 **Disable** keeps the account in place, but blocks the user from accessing it.
 
-**Remove** clears the user account out of your journal records and the user can no longer login, but the account remains in the system.
+**Remove** un-enrolls the user from all roles in the journal, but the user account remains in the system. 
 
 **Login As** allows you to temporarily log in as that user, for example, to complete an outstanding task.
 
