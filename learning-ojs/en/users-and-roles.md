@@ -87,6 +87,32 @@ Once these fields are completed and you hit _Save_, you will then be asked to as
 
 Once you have added all of the roles, hit the **Save** button.
 
+#### Register a User from Another Journal
+
+On multi-journal installations, an Administrator can register a user from Journal A as a user on Journal B.  
+
+1. Log in to Journal B as an Administrator
+2. Go to Users & Roles > Users
+3. Search for the user from Journal A that you want to register on Journal B, checking off **Include users with no roles in this journal**
+4. When the user appears, click the blue arrow next to their name
+5. Click **Edit User**
+6. Scroll down to **User Roles** on the Edit User box that appears. 
+7. Check off the role that you want the user to have on Journal B
+8. Click **Save** at the end of the form
+
+#### If a User Can't Log In
+
+If a user can't log in to your journal site, tell them to select **Forgot your password** on the Login page. They will then receive a reset password link by email and will be able to reset their password.
+
+If the user has further issues, a Journal Manager or Editor can do the following:
+1. Go to Users & Roles > Users
+2. Find the user who can't log in and click the blue arrow next to their name
+3. Click the **Edit User** button that appears below
+4. Enter a new password in the **Password** field, making note of what the password is
+5. Check off **User must change password on next log in**
+6. Click **Save** at the end of the form
+7. Send the new password to the user and instruct them to log in with it
+
 <hr />
 
 ## Roles
