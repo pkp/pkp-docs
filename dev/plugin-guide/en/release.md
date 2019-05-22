@@ -10,18 +10,32 @@ By releasing a plugin, you will get community support to identify bugs and trans
 
 Plugin releases are one way that the Public Knowledge Project recognizes the contributions of community partners. We are more likely to take the time to assist you in maintaining your plugins if they are used widely in our community.
 
-## Requirements
+## Make Your Plugin Public
 
-We ask that you abide by the following conditions if you want a plugin to be included in the Plugin Gallery.
+Each release of your plugin must be made available for download publicly. We prefer that your code is available from a public code repository, such as [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/).
 
-1. The plugin must be released under a GPL-compatible license so that our community can retain ownership over their publishing software.
-2. Each plugin must pass a code review. Your plugin will be given a `reviewed` or `partner` certification. We may not include your plugin in the gallery if it does not pass review.
-3. We ask that you express a non-binding committment to maintain the plugin over time. Before inviting our community to adopt a plugin, we want to make sure that they will be able to use it in the future.
-4. Each release of your plugin must be made available for download publicly. We prefer that your code is available from a public release repository such as GitHub or GitLab.
+The plugin must be made available under a GPL-compatible license so that our community can retain ownership over their publishing software. This licensing must be explicit in the code, usually by including a `LICENSE` file in the root directory of the plugin.
 
-## Plugin Release XML
+See an [example](https://github.com/pkp/pluginTemplate/blob/master/LICENSE) of a license file.
 
-Each plugin must be defined in the [plugin gallery XML file](https://pkp.sfu.ca/ojs/xml/plugins.xml). This file provides a title, description, contact details, and information on each release package.
+## Build and Package Your Plugin
+
+Your release package should be a `.tar.gz` file that contains a single directory with all of the files necessary to run the plugin. The directory name should match the `product` name in the release XML.
+
+If your plugin is hosted at GitHub, you can [create a release](https://help.github.com/en/articles/creating-releases) and use our [bash script](../buildplugin.sh) to compile the release package. Use the following to run the script from the command line.
+
+```
+buildplugin.sh <repository_url> <release_tag>
+```
+
+If you use npm or another tool to compile files for your plugin, you will need to extend the bash script to compile your files before they are packaged.
+
+> Any non-essential files provided by your dependency manager (eg - composer, npm) should not be included with the package. These often include demos and examples that can be security risks when uploaded to the plugins directory.
+{:.warning}
+
+## Get the Plugin into the Plugin Gallery
+
+When you have prepared your release package and made it publicly available, you will need to create an XML snippet that provides a title, description, contact details, and information on each release package.
 
 ```xml
 <!-- The product should match the directory name of the plugin. -->
@@ -75,24 +89,9 @@ Each plugin must be defined in the [plugin gallery XML file](https://pkp.sfu.ca/
 </plugin>
 ```
 
-## Plugin Release Package
+When you are ready, you can request a review by sending your XML snippet to Alec Smecher at pkp.contact@sfu.ca.
 
-Your release package should be a `.tar.gz` file that contains a single directory with all of the files necessary to run the plugin. The directory name should match the `product` name in the release XML.
-
-If your plugin is hosted at GitHub, you can [create a release](https://help.github.com/en/articles/creating-releases) and use our [bash script](../buildplugin.sh) to compile the release package. Use the following to run the script from the command line.
-
-```
-buildplugin.sh <repository_url> <release_tag>
-```
-
-If you use composer, npm or another tool to manage dependencies, you will need to extend the bash script to perform your build step.
-
-> Any non-essential files provided by your dependency manager (eg - composer, npm) should not be included with the package. These often include demos and examples that can be security risks when uploaded to the plugins directory.
-{:.warning}
-
-## Request a Review
-
-When you have prepared your release package and made it publicly available, please send your Plugin Release XML by email to Alec Smecher at pkp.contact@sfu.ca.
+Each plugin must pass a code review. Your plugin will be given a `reviewed` or `partner` certification. We may not include your plugin in the gallery if it does not pass review.
 
 ## Update Releases
 
