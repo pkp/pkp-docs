@@ -12,7 +12,7 @@ The diagram below shows a URL for a [Page Handler](architecture-handlers#page-ha
 
 ![Diagram indicating the parts of a URL for Page Handlers](../img/url-route-page.png)
 
-The router will look for a file at `/pages/issue/index.php` or `/lib/pkp/pages/issue/index.php` which loads the correct handler.
+The router will look for a file at `/pages/issue/index.php` or `/lib/pkp/pages/issue/index.php`, which loads the correct handler.
 
 ```php
 switch ($op) {
@@ -46,7 +46,7 @@ The diagram below shows a URL for an [API Handler](architecture-handlers#api-han
 
 ![Diagram indicating the parts of a URL for API Handlers](../img/url-route-api.png)
 
-The router will look for a file at `/api/v1/submissions/index.php` which loads the correct handler.
+The router will look for a file at `/api/v1/submissions/index.php`, which loads the correct handler.
 
 ```php
 import('api.v1.submissions.SubmissionsHandler');
