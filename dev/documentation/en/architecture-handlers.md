@@ -187,7 +187,7 @@ class PKPSubmissionsHandler extends APIHandler {
 
 ### Request Body
 
-`POST` and `PUT` requests include data in the body of the request which can be accessed with `$slimRequest->getParsedBody()`.
+`POST` and `PUT` requests include data in the body of the request, which can be accessed with `$slimRequest->getParsedBody()`.
 
 ```bash
 $ curl https://example.org/publicknowledge/api/v1/submissions/1 \
@@ -258,7 +258,7 @@ class PKPSubmissionsHandler extends APIHandler {
 }
 ```
 
-Error responses from the API should pass a locale key which describes the error.
+Error responses from the API should pass a locale key that describes the error.
 
 ```php
 import('lib.pkp.classes.handler.APIHandler');
