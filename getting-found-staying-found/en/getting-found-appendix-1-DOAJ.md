@@ -66,7 +66,6 @@ Enter this information in two places:
 * Settings > Website> Information > For Authors  
   See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) for more detail.
 * Settings > Workflow > Submission > Submission Preparation Checklist 
-
   See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) for more detail.
 
 14) Enter the URL where this information can be found: 
