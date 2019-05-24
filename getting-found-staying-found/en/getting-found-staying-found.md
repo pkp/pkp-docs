@@ -84,7 +84,7 @@ Because OJS supports the LOCKSS system, it’s very easy to enable the PKP PN pl
 
 > Section contributed by Roger Gillis
 
-Having a clear digital preservation and archiving strategy and making this explicit as part of a policy is a key component of the DOAJ application process, and one of the criteria for being awarded the DOAJ Seal. If your journal is using OJS, you should consider enabling the PKP Preservation Network (PKP PN) plugin as noted in the previous section, which will fulfill the archiving component from DOAJ. Also, be sure to document and make your journal’s policy on archiving available. In OJS, this can be done as part of the setup process, and the policy will then appear on your journal’s “About” page.
+Having a clear digital preservation and archiving strategy and making this explicit as part of a policy is a key component of the [DOAJ application process](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-appendix-1-DOAJ) policy and one of the criteria for being awarded the DOAJ Seal. If your journal is using OJS, you should consider enabling the PKP Preservation Network (PKP PN) plugin as noted in the previous section, which will fulfill the archiving component from DOAJ. Also, be sure to document and make your journal’s policy on archiving available. In OJS, this can be done as part of the setup process, and the policy will then appear on your journal’s “About” page.
 
 The following policy from _Current Oncology_ is an example of a clear and concise archiving policy:
 
@@ -97,3 +97,5 @@ DOAJ checks the Keepers Registry to confirm that a journal’s archiving arrange
 **Further Reading:**
 
 [Digital Preservation initiatives](https://en.wikipedia.org/wiki/List_of_digital_preservation_initiatives)
+
+For more information on the DOAJ application process, please see [Appendix; DOAJ](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-appendix-1-DOAJ).
