@@ -58,7 +58,9 @@ The Contact email will appear on the Contact page of your site.
 
 12) In which country is the publisher of the journal based? 
 Enter this information at Journal Settings > Contact  > Mailing Address. A full mailing address is preferred.                                         
-See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact) for more details.              The country will appear on the Contact page of your site.
+See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact) for more details.          
+
+The country will appear on the Contact page of your site.
 
 13) Does the journal have article processing charges (APCs)?  
 Enter this information in two places:
