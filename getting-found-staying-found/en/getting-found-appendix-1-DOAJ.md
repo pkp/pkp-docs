@@ -27,7 +27,7 @@ This information needs to be added in two places:
 * Journal Settings > Masthead > ISSN  
   See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) for more details.
 * Add to your journal footer for it to appear on your site          
-See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
+  See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
 
 The ISSN will appear on the footer on every page of your site.
 
@@ -36,8 +36,7 @@ Enter this information in 2 places:
 
 * Journal Settings > Masthead > Publisher (it will be supplied to 3rd party metadata services, but will not appear publicly on your site)   
 See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
-* Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ)
-See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
+* Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ)                                                                                                          See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
 
 The contact’s name will appear on the Contact page of your site.
 
@@ -46,6 +45,7 @@ The contact’s name will appear on the Contact page of your site.
 9) Name of contact for this journal - Somebody who DOAJ can contact about this journal. 
 Enter this information at Journal Settings > Contact  > Principal Contact                                                                                                      
 See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact) for more details.
+
 The Contact name will appear on the Contact page of your site.
 
 10) Contact's email address 
