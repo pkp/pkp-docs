@@ -20,6 +20,7 @@ Add this at Journal Settings > Masthead
 
 2) URL: Enter the URL for your journal
 
+
 5) Journal ISSN (online): 
 This information needs to be added in two places:
 
@@ -33,10 +34,10 @@ The ISSN will appear on the footer on every page of your site.
 6) Publisher:
 Enter this information in 2 places:
 
- - Journal Settings > Masthead > Publisher (it will be supplied to 3rd party metadata services, but will not appear publicly on your site)
-    See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) for more details. 
- - Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ)
-    See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact) for more details.
+* Journal Settings > Masthead > Publisher (it will be supplied to 3rd party metadata services, but will not appear publicly on your site)   
+See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
+* Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ)     
+See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
 
 The contact’s name will appear on the Contact page of your site.
 
@@ -49,7 +50,7 @@ The Contact name will appear on the Contact page of your site.
 
 10) Contact's email address 
 Enter this information at Journal Settings > Contact  > Principal Contact                                                                  
-[See Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact) for more details.
+See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact) for more details.
 
 The Contact email will appear on the Contact page of your site.
 
@@ -65,9 +66,11 @@ The country will appear on the Contact page of your site.
 Enter this information in two places:
 
 * Settings > Website> Information > For Authors 
-See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) for more detail.
+  
+  See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) for more detail.
 * Settings > Workflow > Submission > Submission Preparation Checklist 
-See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) for more detail.
+
+  See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) for more detail.
 
 14) Enter the URL where this information can be found: 
 Article processing charges will appear on the About/Submissions page on your site and on the Information/Authors page on your site.
