@@ -20,7 +20,6 @@ Add this at Journal Settings > Masthead
 
 2) URL: Enter the URL for your journal
 
-
 5) Journal ISSN (online): 
 This information needs to be added in two places:
 
@@ -36,7 +35,8 @@ Enter this information in 2 places:
 
 * Journal Settings > Masthead > Publisher (it will be supplied to 3rd party metadata services, but will not appear publicly on your site)   
 See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
-* Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ)                                                                                                          See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
+* Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ)                                                                                                          
+See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
 
 The contact’s name will appear on the Contact page of your site.
 
