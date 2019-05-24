@@ -36,7 +36,7 @@ Enter this information in 2 places:
 
 * Journal Settings > Masthead > Publisher (it will be supplied to 3rd party metadata services, but will not appear publicly on your site)   
 See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
-* Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ)     
+* Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ)
 See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
 
 The contact’s name will appear on the Contact page of your site.
@@ -66,6 +66,7 @@ Enter this information in two places:
 * Settings > Website> Information > For Authors  
   See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) for more detail.
 * Settings > Workflow > Submission > Submission Preparation Checklist 
+
   See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) for more detail.
 
 14) Enter the URL where this information can be found: 
