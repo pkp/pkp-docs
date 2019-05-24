@@ -4,7 +4,7 @@ title: Plugin Settings - Plugin Guide for OJS and OMP
 
 # Plugin Settings
 
-Plugins can add settings so that an editor or admin can configure the plugin. Settings are accessed through the plugins list in the website settings area.
+Plugins can add settings so that an editor or admin can configure the plugin. Settings are accessed through the plugins list in the Website Settings area.
 
 > This section describes how to create a separate settings form for a plugin. In some cases, you will provide a better user experience if you add settings to the existing settings forms. Learn how to modify an existing form in the [custom field example](./examples-custom-field).
 {:.tip}
