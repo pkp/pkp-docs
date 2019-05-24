@@ -4,9 +4,9 @@ title: Services - Technical Documentation - OJS/OMP
 
 # Services
 
-A `Service` class is a container for storing reusable methods. It coordinates [Entities](./architecture-entities), [`DAO`s](./architecture-database) and other utilities to read and write from the database, send emails and fire events.
+A `Service` class is a container for storing reusable methods. It coordinates [Entities](./architecture-entities), [`DAO`s](./architecture-database), and other utilities to read and write from the database, send emails, and fire events.
 
-Service classes isolate the business logic of actions taken in the application from the handlers which receive and respond to the request. It should be possible to use a service class method from a `PageHandler`, `APIHandler` or even a CLI command.
+Service classes isolate the business logic of actions taken in the application from the handlers which receive and respond to the request. It should be possible to use a service class method from a `PageHandler`, `APIHandler`, or even a CLI command.
 
 > Services are new to the application and are not yet available for all entities. Read about the [refactor strategy](#refactor-strategy).
 {:.notice}
@@ -23,9 +23,9 @@ The available services can be found in `OJSServiceProvider` and `OMPServiceProvi
 
 ## Entity Services
 
-A `Service` class is usually paired with an [Entity](./architecture-entities) and provides all the methods to get, add, edit and delete that entity.
+A `Service` class is usually paired with an [Entity](./architecture-entities) and provides all the methods to get, add, edit, and delete that entity.
 
-Each entity service class will implement one or more interfaces which determine what methods are available.
+Each entity service class will implement one or more interfaces that determine what methods are available.
 
 ### EntityReadInterface
 
@@ -123,7 +123,7 @@ However, this should be avoided unless absolutely necessary. Storing a large col
 
 ### EntityWriteInterface
 
-The `EntityWriteInterface` provides methods for validating, adding, editing and deleting objects.
+The `EntityWriteInterface` provides methods for validating, adding, editing, and deleting objects.
 
 Before adding or editing an object, you must validate its properties. See [Validation](./utilities-validation).
 
@@ -140,7 +140,9 @@ if (!empty($errors)) {
 }
 ```
 
-Once the properties have been validated, they can be merged with the object and saved. Edit an existing object.
+Once the properties have been validated, they can be merged with the object and saved. 
+
+Edit an existing object.
 
 ```php
 $editedContext = Services::get('context')->edit(
@@ -244,7 +246,7 @@ $contextWithDefaults = Services::get('schema')
   );
 ```
 
-Other services may be related to an entity, but do not yet support the entity interfaces. See the [refactor strategy](#refactor-strategy).
+Other services may be related to an entity but do not yet support the entity interfaces. See the [refactor strategy](#refactor-strategy).
 
 ## Writing Service Classes
 
@@ -252,16 +254,16 @@ A good `Service` class should be:
 
 - **Stateless**: Each time a Service class method is called should be completely independent of any prior operations. Do not attach things to the instance with `$this`. All dependencies of a Service class method should be injected as a parameter for that method.
 - **Easy to use**: Try to hide complex database requirements and business logic behind intuitive method signatures.
-- **Reusable**: Consider all scenarios where a method might be used. Try to decouple it from your particular use-case where possible.
+- **Reusable**: Consider all scenarios where a method might be used. Try to decouple it from your particular use case where possible.
 
 ## Refactor Strategy
 
-Services are new to the application. Our intention is to move code into the service classes which currently exists in Page Handlers, Controller Handlers and Forms. The primary use-case for this change is to support the REST API.
+Services are new to the application. Our intention is to move code into the service classes wthat currently exist in Page Handlers, Controller Handlers, and Forms. The primary use case for this change is to support the REST API.
 
 This refactor has three goals:
 
-1. To decouple business logic from the UI components and request handlers. We should be able to get, add and edit objects from anywhere in the application.
-2. To reinforce consistent use of hooks and notifications. It should not be possible to forget to call hooks, send email notifications or add log entries when taking actions. The service class should encapsulate all the tasks that are part of an action.
+1. To decouple business logic from the UI components and request handlers. We should be able to get, add, and edit objects from anywhere in the application.
+2. To reinforce consistent use of hooks and notifications. It should not be possible to forget to call hooks, send email notifications, or add log entries when taking actions. The service class should encapsulate all the tasks that are part of an action.
 3. To simplify the application structure. We hope that the service classes will provide a more intuitive API for plugin developers and third-party partners.
 
 Service classes are not yet available for all entities. They will be developed as more of our UI is converted to use the REST API.
