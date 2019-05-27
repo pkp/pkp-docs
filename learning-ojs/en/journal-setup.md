@@ -4,7 +4,7 @@ The Settings section allows you to configure your OJS installation to best meet 
 
 You can find the Settings in the left menu panel when you are logged in as a user with Journal Manager permissions.
 
-![](./assets/learning-ojs3.1-jm-settings-journal.PNG)
+![](./assets/learning-ojs3.1-jm-settings-journal.png)
 
 It consists of Journal Settings, Website Settings, Workflow Settings, and Distribution Settings, which will be covered in the next 4 chapters.
 
@@ -12,7 +12,7 @@ The Journal Settings page includes details about the journal.
 
 Use the tabs to navigate to the different sections of Journal Settings: Masthead, Contact, Sections.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-page.PNG)
+![](./assets/learning-ojs3.1-jm-settings-journal-page.png)
 
 ## Masthead
 
@@ -22,7 +22,7 @@ Use the tabs to navigate to the different sections of Journal Settings: Masthead
 
 **Journal Abbreviation** is the abbreviation of your journal name. E.g., JSoftDoc.
 
-**Publisher** is the name of the organization publishing the journal. 
+**Publisher** is the name of the organization publishing the journal.
 
 Note that the publisher name entered here is used for metadata but will not be displayed on your site. To show the publisher name on your site you can enter it under Journal Settings > Contact > Mailing Address. You can also add it under About the Journal below.
 
@@ -46,7 +46,7 @@ Hit the **Save** button to save your changes.
 
 Use this section to add journal contacts.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-contact.PNG)
+![](./assets/learning-ojs3.1-jm-settings-journal-contact.png)
 
 **Mailing Address**: Add your journal's official mailing address here. This will appear on the journal's Contact page.
 
@@ -62,7 +62,7 @@ Use this page to configure the different sections of your journal. E.g., Article
 
 All of your existing sections will appear here. OJS requires at least one section, and creates an "Articles" section by default.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-sections.PNG)
+![](./assets/learning-ojs3.1-jm-settings-journal-sections.png)
 
 You can modify sections by clicking on the blue arrow to the left of the section name. This will reveal options to edit or delete the section.
 
@@ -100,7 +100,7 @@ Fill in the details and hit Save to record your work.
 
 When you have more than one section created, you will see an Order link. Use that to reorder how those sections display on your journal website.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-sections-order.PNG)
+![](./assets/learning-ojs3.1-jm-settings-journal-sections-order.png)
 
 Hit the **Done** button when you are finished.
 

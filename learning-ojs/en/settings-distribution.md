@@ -6,7 +6,7 @@ The Distribution Settings focus on helping to raise the visibility of your journ
 
 This section helps you enhance your search engine optimization.
 
-![](./assets/learning-ojs3.1-jm-settings-dist-index.PNG)
+![](./assets/learning-ojs3.1-jm-settings-dist-index.png)
 
 Use **Description** to provide a brief description of your journal for search engines.
 
@@ -20,9 +20,9 @@ Use **Custom Tags** to add custom HTML header tags to the header of every page o
 
 Under the Access tab you can configure whether you want your journal contents to be open access, available by subscription, or a combination. By default, the open access option is selected. However, if you wish to use OJS for a subscription journal, choose the second option (see next section on Payments for further information).
 
-![](./assets/learning-ojs3.1-jm-settings-dist-access.PNG)
+![](./assets/learning-ojs3.1-jm-settings-dist-access.png)
 
-If you are only using OJS to manage your submission workflow and not publish your content, you can select "OJS will not be used to publish the journal's contents online." 
+If you are only using OJS to manage your submission workflow and not publish your content, you can select "OJS will not be used to publish the journal's contents online."
 
 OJS allows you to configure how and when content can be accessed at an article and issue level. When you create an issue, there is a tab called **Access** under which you can set the **Access Status** as **Subscription** or **Open Access**.
 
@@ -32,11 +32,11 @@ Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbo
 
 ## Payments
 
-OJS provides the ability to collect online payments and manage subscriptions and author fee payments. 
+OJS provides the ability to collect online payments and manage subscriptions and author fee payments.
 
-Using the Paypal plugin, you can accept payments through Paypal, or you can accept manual payments (such as cheque, email transfer, etc.), but they must be made outside of OJS and are not automatically recorded in OJS.  If you would like to use a different payment service you will have to create your own plugin. 
+Using the Paypal plugin, you can accept payments through Paypal, or you can accept manual payments (such as cheque, email transfer, etc.), but they must be made outside of OJS and are not automatically recorded in OJS.  If you would like to use a different payment service you will have to create your own plugin.
 
-### Enable Payments 
+### Enable Payments
 
 To use payments and subscriptions features, you first have to enable payments.
 
@@ -44,7 +44,7 @@ If you plan to accept Paypal and/or manual payments, go to Website Settings > Pl
 
 If you plan to make your journal or articles available by subscription, go to Distribution Settings > Access and check off “The journal will require subscriptions to access some or all of its contents.”
 
-![](./assets/learning-ojs3.1-jm-settings-dist-access.PNG)
+![](./assets/learning-ojs3.1-jm-settings-dist-access.png)
 
 Then go to Payments (the next tab) and check off “Payments will be enabled for this journal. Note that users will be required to log in to make payments.”
 
@@ -52,7 +52,7 @@ Then go to Payments (the next tab) and check off “Payments will be enabled for
 
 Select the currency you will use.
 
-Select a fee payment method.  
+Select a fee payment method.
 
 If you select Paypal Fee Payment, additional fields will appear.  You need to get this information from your Paypal account which you’ll set up on the Paypal website with the Paypal API.
 
@@ -76,7 +76,7 @@ In OJS 3.x there is not an option to set up a payment type for donations, to man
 
 This section covers copyright issues for your journal.
 
-![](./assets/learning-ojs3.1-jm-settings-dist-permissions.PNG)
+![](./assets/learning-ojs3.1-jm-settings-dist-permissions.png)
 
 **Copyright Notice**: Add your journal's copyright statement here. It will be visible on the journal website.
 

@@ -8,7 +8,7 @@ In addition to managing the journal web site, the Journal Manager is also respon
 
 To view the user accounts, select Users & Roles from the left menu.
 
-![](./assets/learning-ojs3.1-jm-users.PNG)
+![](./assets/learning-ojs3.1-jm-users.png)
 
 ### Users
 
@@ -16,11 +16,11 @@ Users are displayed in last name order.
 
 You can edit a user account by selecting the blue arrow to the left of an entry.
 
-![](./assets/learning-ojs3.1-jm-users-edit.PNG)
+![](./assets/learning-ojs3.1-jm-users-edit.png)
 
 This opens the options to Email, Edit User, Disable, Remove, Login As, Merge User.
 
-#### Email Users 
+#### Email Users
 
 If you want to email a user about a particular submission, you can use the Discussion feature in the submission. This keeps all communication about a submission in one place.
 
@@ -56,7 +56,7 @@ You may want to create a dummy user account \(e.g., Deleted Users\), and use tha
 
 To merge users:
 1. At Users & Roles > Users, find the user account you want to remove
-2. Click the blue arrow next to the username 
+2. Click the blue arrow next to the username
 3. Click **Merge User** from the menu that appears below
 4. Find the user account that you want to merge this user account into (the user you want to maintain)
 5. Click the blue arrow next to username
@@ -89,14 +89,14 @@ Once you have added all of the roles, hit the **Save** button.
 
 #### Register a User from Another Journal
 
-On multi-journal installations, an Administrator can register a user from Journal A as a user on Journal B.  
+On multi-journal installations, an Administrator can register a user from Journal A as a user on Journal B.
 
 1. Log in to Journal B as an Administrator
 2. Go to Users & Roles > Users
 3. Search for the user from Journal A that you want to register on Journal B, checking off **Include users with no roles in this journal**
 4. When the user appears, click the blue arrow next to their name
 5. Click **Edit User**
-6. Scroll down to **User Roles** on the Edit User box that appears. 
+6. Scroll down to **User Roles** on the Edit User box that appears.
 7. Check off the role that you want the user to have on Journal B
 8. Click **Save** at the end of the form
 
@@ -130,7 +130,7 @@ One user can have more than one role, for example, being a Journal Manager, Edit
 
 OJS 3 has multiple roles available, each with different permission levels.
 
-![](./assets/learning-ojs3.1-jm-users-roles.PNG)
+![](./assets/learning-ojs3.1-jm-users-roles.png)
 
 From this page, you can see each role, and the editorial stage each role can access. A good example of this is the Copyeditor role, which can only access the copyediting stage. Copyeditors cannot jump to the Review stage to see what happened during the peer review process. See the Editorial Workflow chapter for more information about the different editorial stages.
 
@@ -140,7 +140,7 @@ Unchecking a box removes access to that stage for users with that role.
 
 Selecting the blue arrow to the left of the role name reveals the edit link. Clicking this opens the editing window.
 
-![](./assets/learning-ojs3.1-jm-users-roles-edit.PNG)
+![](./assets/learning-ojs3.1-jm-users-roles-edit.png)
 
 **Permission Level**: This indicates how much a user with this role can do in any stage. The Journal Assistant level can communicate with other users and upload and revise files.
 
@@ -166,7 +166,7 @@ Use the _Create New Roles_ link to open a window where you can create a new role
 
 This page allows you to determine how readers can access your journal.
 
-![](./assets/learning-ojs3.1-jm-users-siteoptions.PNG)
+![](./assets/learning-ojs3.1-jm-users-siteoptions.png)
 
 **Additional Site and Article Access Restrictions**: Choose from these options to limit access.
 

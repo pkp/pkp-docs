@@ -20,15 +20,15 @@ This book covers OJS version 3.1, released in October 2017, and features signifi
 
 ## OJS Features
 
-OJS includes the following features:  
-1. OJS is installed locally and controlled locally  
-2. Editors configure requirements, sections, review process, etc.  
-3. Online submission, double-blind review, and management of all content  
-4. Comprehensive indexing of content  
-5. Responsive, themable reader interface  
-6. Email notification for readers  
-7. Support for article-processing charges, subscriptions, and online payments  
-8. Complete context-sensitive online Help support  
+OJS includes the following features:
+1. OJS is installed locally and controlled locally
+2. Editors configure requirements, sections, review process, etc.
+3. Online submission, double-blind review, and management of all content
+4. Comprehensive indexing of content
+5. Responsive, themable reader interface
+6. Email notification for readers
+7. Support for article-processing charges, subscriptions, and online payments
+8. Complete context-sensitive online Help support
 9. Multilingual support
 
 ## What's New in OJS 3
@@ -51,7 +51,7 @@ _AKA "The Dashboard"_
 
 OJS 3.x now has a separate interface once you log into the editorial system. This not only makes it easier to customize the reader interface, but also provides OJS users of different journals a consistent experience.
 
-![](./assets/learning-ojs3.1-ed-dashboard.PNG)
+![](./assets/learning-ojs3.1-ed-dashboard.png)
 
 The editorial interface is known as your **dashboard** and consists of the following elements:
 

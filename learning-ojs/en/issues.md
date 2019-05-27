@@ -2,7 +2,7 @@
 
 From the left menu, select Issues to manage all of the issues for your journal.
 
-![](./assets/learning-ojs3.1-jm-issues.PNG)
+![](./assets/learning-ojs3.1-jm-issues.png)
 
 ## Future Issues
 
@@ -20,7 +20,7 @@ There are spaces to add volume, number, year, and title information \(e.g., Spec
 
 You can also edit an existing future issue by selecting the blue arrow to the left of the issue entry on the Future Issues page.
 
-![](./assets/learning-ojs3.1-jm-issues-edit.PNG)
+![](./assets/learning-ojs3.1-jm-issues-edit.png)
 
 This will reveal an Edit link, which will open a new window of information.
 
@@ -58,6 +58,6 @@ You can use the Delete link to remove the issue. Any assigned articles will reve
 
 This tab lists all of your published issues.
 
-![](./assets/learning-ojs3.1-jm-issues-back.PNG)
+![](./assets/learning-ojs3.1-jm-issues-back.png)
 
 As with Future Issues, using the blue arrow will reveal similar options as described above \(Edit, Preview, etc.\).
