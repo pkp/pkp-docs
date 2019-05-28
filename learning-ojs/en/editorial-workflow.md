@@ -719,6 +719,21 @@ You can now see the galleys in the Galley panel.
 
 You can make changes to the upload by selecting the blue arrow to the left of the galley label, which reveals options to edit, change the file, or delete.
 
+### Add an Image to an HTML Galley
+
+If you would like to include images in an HTML galley file, you can upload them to the submission and link to them in the file to display them.
+
+To upload the image file:
+1. In the Production stage of the submission, after uploading the HTML galley file, click the blue arrow in the front of the galley name
+2. Click **Edit** from the links that appear
+3. Click **Upload File**
+4. Select **Image** as the **Article Component**
+5. Upload the image file
+6. Continue, review details, and confirm
+7. Click **Save**
+
+To link to the image file you uploaded in the galley text, use the image tag with the file name - e.g., <img src="filename.jpg">. The HTML galley plugin should rewrite the address when the HTML document is shown.
+
 ### Add the Article to a Category
 
 If you use categories in your journal, you can optionally add the article to a category or categories. For instructions on how to create categories see [the Journal Settings chapter](./journal-setup.md). You can add the article to a category by editing its metadata.
