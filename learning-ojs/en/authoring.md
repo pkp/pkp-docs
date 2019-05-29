@@ -6,7 +6,7 @@ In this chapter, you will learn about how an author works in OJS 3.1 from regist
 
 To make a submission to an OJS 3.1 journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
 
-![](./assets/learning-ojs3.1-au-dashboard-empty.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
 It is currently empty as you have made no submissions.
 
@@ -16,13 +16,13 @@ It is currently empty as you have made no submissions.
 
 Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to Step 1 of a 5-Step process to upload and describe your submission.
 
-![](./assets/learning-ojs3.1-au-dashboard-new.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new.png)
 
 ### Step 1
 
 In **Step 1** you will provide preliminary information about your submission.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-1.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new-1.png)
 
 To begin select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
 
@@ -60,11 +60,11 @@ Click ‘Save and Continue’ to move to Step 3.
 
 On **Step 3**, you will be asked to add more information about the submission, including the title of the submission \(broken down into prefix, title, and subtitle\), the abstract, and scrolling down...
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new-3.png)
 
 ...any additional contributors.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
 You can add more contributors \(e.g., co-authors\), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
 
@@ -72,7 +72,7 @@ You can add more contributors \(e.g., co-authors\), by clicking the **Add Contri
 
 Hit **Save**, and the new contributor will appear on the screen.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
 Depending on the journal you are submitting to, you may see additional fields to complete, such as keywords.
 
@@ -88,7 +88,7 @@ On Step 4, you will be asked to confirm that you are happy with your submission.
 
 Click **Finish Submission**.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-4.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new-4.png)
 
 A box will pop up asking you to confirm you are finished. Click **OK**.
 
@@ -96,7 +96,7 @@ A box will pop up asking you to confirm you are finished. Click **OK**.
 
 ### Step 5
 
-![](./assets/learning-ojs3.1-au-dashboard-new-5.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
 Your submission is now complete! The editor has been notified of your submission. At this point, you can follow the links to:
 
@@ -110,7 +110,7 @@ Once you complete a submission, you cannot make changes to it.  If you want to r
 
 And here is your submission in your Dashboard. You can see that it is currently in the _Submission_ stage.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-sub.PNG)
+![](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
 Over the coming days, it will move into the Review stage, and if accepted, into the Copyediting and Production stages before being published.
 

@@ -111,9 +111,9 @@ Unlike with a Single-page document, you no longer need to add to index.md. The r
 
 **Chapters** // You might be tempted to number chapters but, if we ever need to create new chapters in between existing ones, we would need to re-number. It's best to keep chapters in the same style as title-level names. Some examples for chapters include: ``getting-started.md``, ``troubleshooting.md``, ``data-import-and-export.md``.
 
-**Images** // Please store all images in a single "assets" folder within the language you're working (e.g.: ``en/assets/``). Keep your image titles brief or with abbreviations and consistently named, so they're easy to locate. Depending on how many images you have, numbering these might be a lot more convenient while working on the document. _Listen to your heart._ Some examples include: ``contrib-01.png``, ``authoring-images-01.png``. If you're putting all your imagines into only the asset folder, it's a good idea to name your images to correspond with chapter titles. 
+**Images** // Please store all images in a single "assets" folder within the language you're working (e.g.: ``en/assets/``). Keep your image titles brief or with abbreviations and consistently named, so they're easy to locate. Depending on how many images you have, numbering these might be a lot more convenient while working on the document. _Listen to your heart._ Some examples include: ``contrib-01.png``, ``authoring-images-01.png``. If you're putting all your imagines into only the asset folder, it's a good idea to name your images to correspond with chapter titles.
 
-Note that file names are case sensitive, so if the image is saved as learning-ojs3.1-jm-settings-workflow-email-templates.png and you reference learning-ojs3.1-jm-settings-workflow-email-templates.PNG in the document, the image will not display.
+Note that file names are case sensitive, so if the image is saved as learning-ojs3.1-jm-settings-workflow-email-templates.png and you reference learning-ojs3.1-jm-settings-workflow-email-templates.png in the document, the image will not display.
 
 ### Add images
 

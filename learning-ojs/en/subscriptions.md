@@ -6,7 +6,7 @@ OJS 3.1 allows you to restrict some or all of your content to subscribers. To en
 
 Fill in details about your subscription policies on this page.
 
-![](./assets/learning-ojs3.1-jm-subscriptions-policies.PNG)
+![](./assets/learning-ojs3.1-jm-subscriptions-policies.png)
 
 - **Subscription Manager**: Add personal details for the responsible person.
 - **Subscription Information**: Add policy details to display on the journal website.
@@ -19,13 +19,13 @@ Fill in details about your subscription policies on this page.
 
 The next step in setting up subscription management is to designate the types of subscriptions the journal offers.
 
-![](./assets/learning-ojs3.1-jm-subscriptions-types.PNG)
+![](./assets/learning-ojs3.1-jm-subscriptions-types.png)
 
 Journals typically offer individual subscription and institutional subscription rates. Some journals may have special offers for members of an organization or students. OJS will support the management of print and/or online subscriptions. More than one type of subscription can be created to cover longer periods of time \(12 months, 36 months\).
 
 Select **Create New Subscription Type** to add a new one.
 
-![](./assets/learning-ojs3.1-jm-subscriptions-types-create.PNG)
+![](./assets/learning-ojs3.1-jm-subscriptions-types-create.png)
 
 - **Name of Type**: Give this new subscription type a unique name \(e.g., Student\).
 - **Description**: Provide a brief description that will appear on the website.
@@ -41,7 +41,7 @@ If you haven't already done so, go to [Settings &gt; Distribution &gt; Payments]
 
 Use this page to set the amounts charged for various types of fees.
 
-![](./assets/learning-ojs3.1-jm-subscriptions-paytypes.PNG)
+![](./assets/learning-ojs3.1-jm-subscriptions-paytypes.png)
 
 - **General Options**: Check this to allow for payments to be collected.
 - **Author Fees**: Set the amount to charge for an article processing charge \(APC\).
@@ -64,11 +64,11 @@ As various payments are received, they will be listed under this tab.
 
 All types of individual subscriptions will appear here.
 
-![](./assets/learning-ojs3.1-jm-subscriptions-indiv.PNG)
+![](./assets/learning-ojs3.1-jm-subscriptions-indiv.png)
 
 You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for that person under Users & Roles \(see the Users and Roles chapter\). Once that is done, you can search for the account here, and apply the different configurations.
 
-![](./assets/learning-ojs3.1-jm-subscriptions-indiv-create.PNG)
+![](./assets/learning-ojs3.1-jm-subscriptions-indiv-create.png)
 
 **Subscription Type**: Select the appropriate type for this new subscriber \(e.g., Student\) and its status \(e.g., Active\).
 
@@ -88,13 +88,13 @@ You can create a new individual subscription by using the Create New Subscriptio
 
 All types of institutional subscriptions will appear here.
 
-![](./assets/learning-ojs3.1-jm-subscriptions-instit.PNG)
+![](./assets/learning-ojs3.1-jm-subscriptions-instit.png)
 
 Institutional subscriptions are managed similarly to individual subscriptions, but are used for libraries, research institutes, and other organizes that subscribe to your journal.
 
 You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for the institution's contact person under Users & Roles \(see the Users and Roles chapter\). Once that is done, you can search for the account here, and apply the different configurations.
 
-![](./assets/learning-ojs3.1-jm-subscriptions-instit-create.PNG)
+![](./assets/learning-ojs3.1-jm-subscriptions-instit-create.png)
 
 - **Subscription Type**: Select the appropriate type for this new subscriber \(e.g., Library\) and its status \(e.g., Active\). (Subscription Types were configured earlier in this chapter.)
 - **Date**: Set the start and end dates for this subscription.

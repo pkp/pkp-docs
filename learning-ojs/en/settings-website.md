@@ -2,11 +2,11 @@
 
 The Website Settings allow you to configure how your journal's website looks and operates. It consists of tabs for Appearance, Information, Archiving, Languages, Plugins, Announcements, and Navigation Menus.
 
-![](./assets/learning-ojs3.1-jm-settings-web-appearance.PNG)
+![](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
 
 ## Appearance
 
-**Logo**: Use this space to upload a journal logo to the upper left corner of your reader interface. 
+**Logo**: Use this space to upload a journal logo to the upper left corner of your reader interface.
 
 **Page Footer**: This allows you to display text at the bottom of each page of your website.
 
@@ -29,7 +29,7 @@ Now that you have all available themes, return to the Appearance tab to try out 
 
 If you would like to make minor changes to your site's design and layout, you can upload a **Journal Stylesheet**.
 
-If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/). 
+If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
 **Typography**: Quickly choose the fonts for your journal.
 
@@ -55,7 +55,7 @@ Hit **Save** to record your changes.
 
 Use these fields to modify the text in the For Readers, For Authors, For Librarians pages on the journal website.
 
-![](./assets/learning-ojs3.1-jm-settings-web-info.PNG)
+![](./assets/learning-ojs3.1-jm-settings-web-info.png)
 
 Remember to hit **Save** to record any changes.
 
@@ -63,19 +63,19 @@ To remove these fields and their contents from displaying publicly on the websit
 
 ## Archiving
 
-If you are a member of a LOCKSS or CLOCKSS network, use this page to activate your journal. The PKP PN Plugin, which deposits your content in the PKP Preservation Network, is not yet available for OJS 3.  When it is available and has been enabled, it will deposit your content directly in the Network.  
+If you are a member of a LOCKSS or CLOCKSS network, use this page to activate your journal. The PKP PN Plugin, which deposits your content in the PKP Preservation Network, is not yet available for OJS 3.  When it is available and has been enabled, it will deposit your content directly in the Network.
 
 If you use another network, enabling it here will make your content available to the network, but you will also need to contact the network to make it aware of your journal.
 
-![](./assets/learning-ojs3.1-jm-settings-web-archive.PNG)
+![](./assets/learning-ojs3.1-jm-settings-web-archive.png)
 
 ## Languages
 
-OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages on a single site or journal. When you install OJS, you can select one or more languages for your site. 
+OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages on a single site or journal. When you install OJS, you can select one or more languages for your site.
 
 Under Website Settings > Languages you can see a list of languages or locales installed on your site and configure how the languages are used in your journal. Additional languages can be installed on your site by an Administrator – see [Chapter 4](https://docs.pkp.sfu.ca/learning-ojs/en/site-administration) for details.
 
-![](./assets/learning-ojs3.1-jm-settings-web-lang.PNG)
+![](./assets/learning-ojs3.1-jm-settings-web-lang.png)
 
 **Primary Locale**: One language must be set as the primary locale, which means the language the journal appears in by default
 
@@ -95,7 +95,7 @@ Use this page to see all of the installed plugins and find new plugins.
 
 All of the plugins listed here are available in your OJS installation. Check the Enable link to use them.
 
-![](./assets/learning-ojs3.1-jm-settings-web-plugins.PNG)
+![](./assets/learning-ojs3.1-jm-settings-web-plugins.png)
 
 You will notice that some plugins are required for the system and cannot be disabled.
 
@@ -105,13 +105,13 @@ Click the blue arrow next to the plugin name to reveal links to Delete, Upgrade,
 
 The Plugin Gallery provides access to externally-created plugins, that may not be included in your OJS installation, but are available for download and activation. Only an Administrator user can install a new plugin.
 
-![](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery.PNG)
+![](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery.png)
 
 Selecting the plugin title will provide additional details, including the author, status, description, and compatibility.
 
-![](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery-hypo.PNG)
+![](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery-hypo.png)
 
-### External Plugins 
+### External Plugins
 
 Sometimes new plugins or plugins that are developed by folks outside of PKP will not appear in the Plugin Gallery and you need to install them separately.
 1. Download the tar.gz file or .zip file of the plugin from its repository.
@@ -126,7 +126,7 @@ If upload fails you may get an error message that says, “The uploaded plugin a
 
 This section allows you to create and display news announcements on the journal's website.
 
-![](./assets/learning-ojs3.1-jm-settings-web-announce.PNG)
+![](./assets/learning-ojs3.1-jm-settings-web-announce.png)
 
 **Announcements**: Configure how announcements will appear on your journal website.
 
@@ -138,17 +138,17 @@ This section allows you to create and display news announcements on the journal'
 
 This section allows you to configure your navigation menus, such as including new links.
 
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu.PNG)
+![](./assets/learning-ojs3.1-jm-settings-web-navmenu.png)
 
 **Navigation Menus**: Configure the User Menu \(which includes Language, View Site, and Username\) or the Primary Menu \(on the journal home page, including Current, Archive, About, etc.\).
 
 **Navigation Menu Items**: These are programmed links you can add to either menu above. If you wish to add a link to the Primary Menu \(e.g., "Our Society"\), add it here using the _Add Item_ link.
 
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.PNG)
+![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.png)
 
 It will now appear in the list of Navigation Menu Items. Next, go to the desired Navigation Menu \(e.g., Primary\), use the blue arrow to reveal the options, and choose Edit. You can now drag and drop it from Unassigned Menu Items to Assigned Menu Items and into the appropriate location on the menu.
 
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.PNG)
+![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.png)
 
 Hit Save to record the change.
 

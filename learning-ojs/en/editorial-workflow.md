@@ -22,7 +22,7 @@ Some submission will not pass review and end here. Those that are accepted move 
 
 Your Tasks are available from the top left menu of your Dashboard. Note the number "1" in the image below. This indicates that there is currently 1 task in your list.
 
-![](./assets/learning-ojs3.1-ed-tasks.PNG)
+![](./assets/learning-ojs3.1-ed-tasks.png)
 
 Tasks provide a quick look at items that need your attention. Bold entries are unread, and unbold entries have been read.
 
@@ -34,23 +34,23 @@ Use the checkbox to mark tasks for deletion \(the delete link is available at th
 
 When an author makes a new submission to your journal, the editor is automatically emailed a notification and the author will receive an email acknowledging their submission. You can also configure OJS so that a copy of the notification email is sent to the journal’s primary contact set in Journal Settings, or to another address.
 
-To enable copies of submission acknowledgment email to be sent to the primary contact or another address: 
+To enable copies of submission acknowledgment email to be sent to the primary contact or another address:
 1. In the Journal Manager’s dashboard, go to Settings > Workflow > Submissions
 2. Scroll down to Notification of Author Submissions
 3. Check off the box next to “Send a copy to the primary contact, identified in the Journal Settings.” if you wish for a copy to be sent to the primary contact email, and/or
 4. Enter the email you would like to have a copy sent to in the text field.
 
-![](./assets/learning-ojs3.1-configure-submission-notification.PNG)
+![](./assets/learning-ojs3.1-configure-submission-notification.png)
 
 If you want to disable submission acknowledgement emails entirely, you can do so by disabling the *Submission Ack* email template from the list of prepared email templates. To learn more about disabling and enabling email templates, refer to *Disable email templates* in the [Workflow Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings).
 
-Users can also change their individual notification settings from their own profile under View Profile > Notifications. 
+Users can also change their individual notification settings from their own profile under View Profile > Notifications.
 
 ## Submission Dashboard
 
 When you log into your Dashboard, you can find active submissions either from your Tasks, or from one of the queues \(My Queue, Unassigned, All Active, and Archives\).
 
-![](./assets/learning-ojs3.1-ed-dashboard-active.PNG)
+![](./assets/learning-ojs3.1-ed-dashboard-active.png)
 
 ### My Queue
 
@@ -60,17 +60,17 @@ The **Search** tool for each queue can sometimes be helpful in tracking down sub
 
 The **Filter** tool allows you to limit your browsing to specific status \(e.g., incomplete, overdue\) stages \(submission, review, copyediting, production\), or sections \(e.g., articles, reviews\) for faster searching.
 
-![](./assets/learning-ojs3.1-ed-dashboard-filter.PNG)
+![](./assets/learning-ojs3.1-ed-dashboard-filter.png)
 
 Note that you can use the blue arrows to the right of each submission to reveal more details, including how many reviews are outstanding, new discussions, and more. It also reveals buttons to take you to the submission record, view the activity log and notes, and to delete the submission.
 
-![](./assets/learning-ojs3.1-ed-dashboard-active-details.PNG)
+![](./assets/learning-ojs3.1-ed-dashboard-active-details.png)
 
 ### Unassigned
 
 This panel includes submissions added to sections without section editors.
 
-![](./assets/learning-ojs3.1-ed-dashboard-unassigned.PNG)
+![](./assets/learning-ojs3.1-ed-dashboard-unassigned.png)
 
 In the above example, there are no unassigned submissions, so the panel is empty.
 
@@ -78,33 +78,33 @@ In the above example, there are no unassigned submissions, so the panel is empty
 
 This section includes a list of all submissions, without being organized into queues.
 
-![](./assets/learning-ojs3.1-ed-dashboard-all-active.PNG)
+![](./assets/learning-ojs3.1-ed-dashboard-all-active.png)
 
 ### Archived
 
 This section includes a list of all submissions either rejected or already published by the journal.
 
-![](./assets/learning-ojs3.1-ed-dashboard-archive.PNG)
+![](./assets/learning-ojs3.1-ed-dashboard-archive.png)
 
 ### Demonstration Submission
 
 For this demonstration, we are looking for the Williamson and Serletis submission, entitled _The Official Knowledge and Adult Education Agents_. It can be found at the top of the **My Assigned** queue, as well as in the **All Active** queue.
 
-![](./assets/learning-ojs3.1-ed-dashboard-active.PNG)
+![](./assets/learning-ojs3.1-ed-dashboard-active.png)
 
 Once you find the submission, you can use the blue arrow to reveal options to see if there are any open discussion \(there are none\), as well as to view the submission, view the activity logs and note, or to delete the submission.
 
-![](./assets/learning-ojs3.1-ed-submission-details.PNG)
+![](./assets/learning-ojs3.1-ed-submission-details.png)
 
 **Delete** will move the submission to the Archives and **Activity Log & Notes** will bring up the submission's history.
 
-![](./assets/learning-ojs3.1-ed-dashboard-log.PNG)
+![](./assets/learning-ojs3.1-ed-dashboard-log.png)
 
 ### Submission Record
 
 To view the submission in more detail, select **View Submission** button. This will take you to the submission record.
 
-![](./assets/learning-ojs3.1-ed-dashboard-record.PNG)
+![](./assets/learning-ojs3.1-ed-dashboard-record.png)
 
 From here, you can see:
 
@@ -122,7 +122,7 @@ In addition, in the blue bar along the top, you can see:
 
 **Metadata**: Where you can view and revise the submission metadata.
 
-![](./assets/learning-ojs3.1-ed-dashboard-record-metadata.PNG)
+![](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
 
 Use the Identifiers tab to also view or add a unique identifier.
 
@@ -130,7 +130,7 @@ Use the Identifiers tab to also view or add a unique identifier.
 
 **Editorial History**: Where you can view the history and any notes about the submission.
 
-![](./assets/learning-ojs3.1-ed-dashboard-log.PNG)
+![](./assets/learning-ojs3.1-ed-dashboard-log.png)
 
 Use the Notes tab to also view or add any editorial notes.
 
@@ -152,7 +152,7 @@ You will have the option to locate a user by role, choose an individual, and sen
 
 Hit the **OK** button to make the assignment and send the message.
 
-![](./assets/learning-ojs3.1-ed-dashboard-record-assign.PNG)
+![](./assets/learning-ojs3.1-ed-dashboard-record-assign.png)
 
 > Note the new Pre-Review Discussion that was automatically created as part of the assignment.
 
@@ -170,11 +170,11 @@ Although in this example, the editor assigned a section editor, it would also be
 
 Now that the Section Editor has been assigned, they can login and view their dashboard. The submission can be found at the top of the My Assigned queue.
 
-![](./assets/learning-ojs3.1-se-dashboard.PNG)
+![](./assets/learning-ojs3.1-se-dashboard.png)
 
 Clicking on the article title opens the full submission record.
 
-![](./assets/learning-ojs3.1-se-record.PNG)
+![](./assets/learning-ojs3.1-se-record.png)
 
 #### Accepting the Assignment
 
@@ -188,7 +188,7 @@ If the Section Editor has any questions for the author, they can use the Pre-Rev
 
 Once the Section Editor is satisfied that the submission is appropriate for the journal, they can select the **Send to Review** button to move the submission to the next stage.
 
-![](./assets/learning-ojs3.1-se-record-sendReview.PNG)
+![](./assets/learning-ojs3.1-se-record-sendReview.png)
 
 Keep the files that are to be reviewed checked off.
 
@@ -198,7 +198,7 @@ Keep the files that are to be reviewed checked off.
 
 When the submission enters the Review Stage, a notification indicates that Reviewers need to be assigned.
 
-![](./assets/learning-ojs3.1-se-record-revstage.PNG)
+![](./assets/learning-ojs3.1-se-record-revstage.png)
 
 > Note: In the screenshot above, we see the Section Editor's view. Notice the limited Action buttons \(only Make Recommendation is available\). If we were logged in as an Editor, we would see more Action buttons \(Request Revisions, Resubmit for Review, Send to Copyediting, Decline Submission\).
 
@@ -228,7 +228,7 @@ For this demonstration, we will pick Adela as our Reviewer and hit the **Select 
 
 This initiates a new window with a message for the Reviewer.
 
-![](./assets/learning-ojs3.1-se-record-revstage-revreq.PNG)
+![](./assets/learning-ojs3.1-se-record-revstage-revreq.png)
 
 You can revise any of the prepared text.
 
