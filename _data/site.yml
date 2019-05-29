@@ -12,7 +12,7 @@ improveLinkBaseUrl: "https://github.com/pkp/pkp-docs/edit/master/"
 navContrib:
   title: Community
   items:
-    - "[Documentation Interest Group](https://github.com/pkp/documentation-interest-group)"
+    - "[Documentation Interest Group](https://pkp.sfu.ca/documentation-interest-group/)"
     - "[Contributing Documentation](/contributing)"
     - "[Translating Guide](/translating-guide/)"
     - "[Community Forum](https://forum.pkp.sfu.ca)"
