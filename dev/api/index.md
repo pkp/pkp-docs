@@ -6,6 +6,8 @@ generateHeadingToc: true
 
 This document describes how to interact with the REST API provided by PKP applications. It is a technical document intended for software developers who wish to build applications to interact with OJS or OMP.
 
+Skip to the [technical references](#references).
+
 ## About the API
 
 The REST API will respond to HTTP requests with the requested data in JSON format. When receiving `POST` or `PUT` requests, it expects to receive a payload formatted in JSON.
@@ -143,5 +145,7 @@ The following technical references are available for different versions of the A
 
 - [OJS 3.1.x](ojs/3.1)
 - [OJS development](ojs/dev)
+
+We use [Postman](https://www.getpostman.com/) to test our APIs. You can [import our OJS collection](/dev/api/OJS-api-postman-collection.json) (last updated 2019-04-11).
 
 _Sorry, OMP's API documentation is not yet available. Many of the OJS endpoints are available but we haven't yet documented this._

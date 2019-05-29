@@ -1,0 +1,890 @@
+{
+	"variables": [],
+	"info": {
+		"name": "OJS",
+		"_postman_id": "97d53b8b-f8cf-6d35-c7be-27af25bbe3bd",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/contexts",
+			"request": {
+				"url": "http://localhost:8000/*/api/v1/contexts",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/contexts",
+			"request": {
+				"url": "http://localhost:8000/*/api/v1/contexts",
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-CSRF-TOKEN",
+						"value": "815bf33abd1644e3d11736aa1372434e",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name[en_US]",
+							"value": "Journal of Public Knowledge",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "description[en_US]",
+							"value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "path",
+							"value": "publicknowledge",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "enabled",
+							"value": "1"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/contexts/{id}",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/contexts/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/contexts/{id}",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/contexts/1",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "X-CSRF-TOKEN",
+						"value": "4ec20ae61613626318cd91e0c4f4fef8",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "path",
+							"value": "publicknowledge",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "enabled",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "abbreviation[en_US]",
+							"value": "publicknowledge",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "contactEmail",
+							"value": "test@test.com",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "acronym[xx_XX]",
+							"value": "JPKA",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "itemsPerPage",
+							"value": "25",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "supportedLocales[]",
+							"value": "en_US",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "supportedLocales[]",
+							"value": "de_DE",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "onlineIssn",
+							"value": "0378-5955",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/contexts/{id}",
+			"request": {
+				"url": "http://localhost:8000/*/api/v1/contexts/9",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "X-CSRF-TOKEN",
+						"value": "815bf33abd1644e3d11736aa1372434e",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/contexts/{id}/theme",
+			"request": {
+				"url": "http://localhost:8000/*/api/v1/contexts/1/theme",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/contexts/{id}/theme",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/contexts/1/theme",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "X-CSRF-TOKEN",
+						"value": "815bf33abd1644e3d11736aa1372434e",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "themePluginPath",
+							"value": "default",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "baseColour",
+							"value": "yellow",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/issues",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8000/publicknowledge/api/v1/issues",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"publicknowledge",
+						"api",
+						"v1",
+						"issues"
+					],
+					"query": [
+						{
+							"key": "isPublished",
+							"value": "true",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "volume",
+							"value": "1",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "numbers",
+							"value": "1",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "years",
+							"value": "2014",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/issues/current",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/issues/current",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/issues/{id}",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/issues/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/submissions",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/submissions",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/submissions/{id}",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/submissions/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/submissions/{id}/galleys",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/submissions/1/galleys",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/submissions/{id}/participants",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/submissions/1/participants",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/submissions/{id}/participants/{stageId}",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/submissions/1/participants/0",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/site",
+			"request": {
+				"url": "http://localhost:8000/*/api/v1/site/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/site",
+			"request": {
+				"url": "http://localhost:8000/*/api/v1/site",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "contactEmail[fr_CA]",
+							"value": "test@test.com",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "themePluginPath",
+							"value": "default",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "contactName[fr_CA]",
+							"value": "Test",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "contactName[en_US]",
+							"value": "Nate",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/site/theme",
+			"request": {
+				"url": "http://localhost:8000/*/api/v1/site/theme",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/site/theme",
+			"request": {
+				"url": "http://localhost:8000/*/api/v1/site/theme",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "themePluginPath",
+							"value": "default",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "baseColour",
+							"value": "yellow",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/stats/publishedSubmissions",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8000/publicknowledge/api/v1/stats/publishedSubmissions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"publicknowledge",
+						"api",
+						"v1",
+						"stats",
+						"publishedSubmissions"
+					],
+					"query": [
+						{
+							"key": "searchPhrase",
+							"value": "concrete",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "sectionIds",
+							"value": "1",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "timeSegment",
+							"value": "monthly",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "count",
+							"value": "30",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "offset",
+							"value": "30",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "orderBy",
+							"value": "total",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "dateStart",
+							"value": "",
+							"equals": false,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "dateEnd",
+							"value": "",
+							"equals": false,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/stats/publishedSubmissions/{id}",
+			"request": {
+				"url": {
+					"raw": "http://localhost:8000/publicknowledge/api/v1/stats/publishedSubmissions/24",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"publicknowledge",
+						"api",
+						"v1",
+						"stats",
+						"publishedSubmissions",
+						"24"
+					],
+					"query": [
+						{
+							"key": "dateStart",
+							"value": "2019-01-01",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "dateEnd",
+							"value": "2019-01-10",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "timeSegment",
+							"value": "daily",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "sectionIds",
+							"value": "1",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/users",
+			"request": {
+				"url": "http://localhost:8000/index.php/publicknowledge/api/v1/users",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/users/{id}",
+			"request": {
+				"url": "http://localhost:8000/index.php/publicknowledge/api/v1/users/1",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/users/reviewers",
+			"request": {
+				"url": "http://localhost:8000/index.php/publicknowledge/api/v1/users/reviewers",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/_payments",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/_payments",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": ""
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "currency",
+							"value": "GBP",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "anything",
+							"value": "else",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Private endpoint to proceess payments settings."
+			},
+			"response": []
+		},
+		{
+			"name": "/emailTemplates",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"var response = JSON.parse(responseBody);",
+							"var ids = [];",
+							"response.items.forEach(function (item) {",
+							"    if (item.id !== null) {",
+							"        ids.push(item.id);",
+							"    }",
+							"});",
+							"",
+							"var roleIds = [];",
+							"response.items.forEach(function(item) {",
+							"    if (!roleIds.includes(item.fromRoleId)) {",
+							"        roleIds.push(item.fromRoleId);",
+							"    }",
+							"});",
+							"",
+							"tests[\"ids: \" + ids.join(', ')] = true;",
+							"tests[\"count: \" + response.items.length] = true;",
+							"tests[\"roleIds: \" + roleIds.join(', ')] = true;"
+						]
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"raw": "http://localhost:8000/publicknowledge/api/v1/emailTemplates",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"publicknowledge",
+						"api",
+						"v1",
+						"emailTemplates"
+					],
+					"query": [
+						{
+							"key": "searchPhrase",
+							"value": "test-new-template",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "isEnabled",
+							"value": "1",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "count",
+							"value": "100",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "offset",
+							"value": "20",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "fromRoleIds",
+							"value": "256",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "toRoleIds",
+							"value": "512,4096",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						},
+						{
+							"key": "isCustom",
+							"value": "1",
+							"equals": true,
+							"description": "",
+							"disabled": true
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/emailTemplates",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/emailTemplates",
+				"method": "POST",
+				"header": [
+					{
+						"key": "X-CSRF-TOKEN",
+						"value": "c2a343a8d2c4dc27bc03c1ce960f6aee",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "body[en_US]",
+							"value": "<p>This is a test of a new template.</p>",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "subject[en_US]",
+							"value": "Test Subject",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "key",
+							"value": "test-new-template",
+							"description": "",
+							"type": "text"
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/emailTemplates/{key}",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/emailTemplates/COPYEDIT_REQUEST",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/emailTemplates/{key}",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/emailTemplates/COPYEDIT_REQUEST",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "X-CSRF-TOKEN",
+						"value": "9f624303b4bb65f453a295196f51ce79",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "body[en_US]",
+							"value": "<p>test</p>",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "enabled",
+							"value": "1",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "subject[en_US]",
+							"value": "EDITED Copyediting Request",
+							"description": "",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "/emailTemplates/{key}",
+			"request": {
+				"url": "http://localhost:8000/publicknowledge/api/v1/emailTemplates/EDITOR_DECISION_SEND_TO_PRODUCTION",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "X-Csrf-Token",
+						"value": "c2a343a8d2c4dc27bc03c1ce960f6aee",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

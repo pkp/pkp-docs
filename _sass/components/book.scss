@@ -54,6 +54,67 @@
 		font-size: 2.2rem;
 		line-height: 1.1em;
 	}
+
+	p {
+		margin-top: 2em;
+		margin-bottom: 2em;
+		font-size: 1.15rem;
+		line-height: 2.2em;
+	}
+
+	ul,
+	ol {
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+
+	li {
+		line-height: 1.8em;
+	}
+
+	li + li {
+		margin-top: 1em;
+	}
+
+	blockquote {
+		margin: 2em 0;
+		padding: 1em;
+		border-left: 0.25em solid darken($bg-shade, 15%);
+		background: $bg-shade;
+
+		&.tip {
+			background: #f8f2b2;
+			border-color: #e4d857;
+		}
+
+		&.notice {
+			background: #d2eaf5;
+			border-color: $link;
+		}
+
+		&.warning {
+			background: #f8dce2;
+			border-color: $warning;
+
+			code {
+				color: #ff1e4e;
+				border-color: #e99fae;
+			}
+		}
+
+		p {
+			font-size: 1rem;
+			line-height: 1.6em;
+		}
+
+		p:first-child {
+			margin-top: 0;
+		}
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
 }
 
 .book__improve {
@@ -130,11 +191,11 @@
 
 	li {
 		list-style: none;
+		color: $text-light;
+		padding: 0.55em 0;
 		font-weight: $medium;
 
 		a {
-			display: inline-block;
-			padding: 0.55em 0;
 			line-height: 1.4em;
 			color: $text;
 
@@ -144,11 +205,14 @@
 			}
 		}
 
-		li a {
+		li {
 			padding: 0.15em 0;
-			font-weight: $normal;
-			color: $text-light;
 			font-size: 0.9rem;
+			font-weight: $normal;
+
+			a {
+				font-weight: $normal;
+			}
 		}
 	}
 }
@@ -171,17 +235,6 @@
 }
 
 @media (min-width: 480px) {
-
-	.book__content {
-
-		p,
-		blockquote {
-			margin-top: 2em;
-			margin-bottom: 2em;
-			font-size: 1.15rem;
-			line-height: 2.2em;
-		}
-	}
 
 	.book__improve {
 		float: right;
