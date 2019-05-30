@@ -2,9 +2,9 @@
 
 PKP software documentation is created and maintained by PKP staff, users, and developers. It’s coordinated by the Documentation Interest Group (DIG), which is made up of PKP staff, users, and developers who are especially interested in documentation. All of us are available to answer questions and offer assistance and guidance to other folks who want to contribute to documentation.  
 
-We communicate on a Slack channel and meet twice a month for 2-hour virtual documentation sprints, where we collaborate virtually on documentation.  
+We communicate via an email list and meet twice a month for 2-hour virtual documentation sprints, where we collaborate virtually on documentation.  
 
-If you want to be added to the Slack channel, participate in a sprint, or otherwise get involved with documentation, email [documentation@publicknowledgeproject.org](mailto:documentation@publicknowledgeproject.org).
+If you want to get involved with documentation, email [documentation@publicknowledgeproject.org](mailto:documentation@publicknowledgeproject.org).
 
 ### Ways to Contribute to PKP Documentation
 
@@ -54,5 +54,5 @@ For each task you can see the following information:
 	- Your name and contact information 
 	- The date you plan to finish the task
 	- Any questions you have about the task or process 
-3. If you have questions or need help while you’re working on your task, you can email documentation@publicknowledgeproject.org, post on the PKP Documentation Slack channel, or attend a virtual documentation sprint.
+3. If you have questions or need help while you’re working on your task, you can email documentation@publicknowledgeproject.org, post on the PKP Documentation Slack channel or email list, or attend a virtual documentation sprint.
 4. Once your documentation task is complete, submit it to the DIG in an appropriate format, following the instructions in this guide. If the deadline passes the DIG may contact you to ask how the task is going. 
