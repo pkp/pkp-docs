@@ -1,4 +1,4 @@
-# Capítulo 7
+# Capítulo 7: Configuración del Flujo de Trabajo
 
 La opción Configuración del Flujo de Trabajo le permiten configurar las diferentes partes del flujo de trabajo editorial de la revista. Sus pestañas incluyen Componentes, Presentación, Revisión, Biblioteca del Editor y Correos Electrónicos.
 
@@ -6,7 +6,7 @@ La opción Configuración del Flujo de Trabajo le permiten configurar las difere
 
 Cuando un autor hace una presentación, puede cargar varios archivos. Normalmente, un archivo será el texto del artículo, y otros archivos pueden incluir transcripciones de entrevistas, datos, imágenes, etc. Cada uno de estos archivos es un **componente** de la presentación. Los componentes disponibles para su elección por el autor al hacer su presentación se enumeran aquí.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)
+![](./assets/learning-ojs3.1-jm-settings-workflow-comp-ES.png)
 
 Utilizando los enlaces proporcionados, usted puede cambiar el **Orden** de los componentes (cómo serán enumerados para el autor que somete la presentación), **Agregar un componente** (si hay algo que se necesita y que no está incluido de forma predeterminada --por ejemplo, un vídeo--) o **Restablecer los valores predeterminados** (si alguien ha hecho demasiadas modificaciones y usted solo desea restablecer todo).
 
@@ -14,7 +14,7 @@ Utilizando los enlaces proporcionados, usted puede cambiar el **Orden** de los c
 
 Usted también puede editar cada componente seleccionando la flecha azul a la izquierda del nombre del componente. Al hacerlo, aparecerá un enlace Editar y un enlace Eliminar.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-comp-edit.png)
+![](./assets/learning-ojs3.1-jm-settings-workflow-comp-edit-ES.png)
 
 **Nombre**: Este es el nombre del componente, como se presenta para el autor.
 
@@ -26,19 +26,19 @@ Usted también puede editar cada componente seleccionando la flecha azul a la iz
 
 Utilice esta sección para configurar el proceso de presentación.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-submission.png)
+![](./assets/learning-ojs3.1-jm-settings-workflow-submission-ES.png)
 
 **Directrices para el autor**: Utilice este campo para agregar directrices para sus autores. Esta información se mostrará en el sitio web de la revista.
 
 **Lista de verificación de preparación para la presentación**: Los autores deben marcar que están de acuerdo con cada elemento de esta lista. Utilice el enlace _Order_ para cambiar el orden de los elementos, utilice el enlace _Agregar elemento_ para crear un nuevo elemento, y utilice la flecha azul a la izquierda del nombre del elemento para editar un elemento de resultado.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
+![](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit-ES.png)
 
 **Aviso de presentación del autor**: Agregue una dirección de correo electrónico aquí para ser contactado siempre que se someta una nueva presentación.
 
 **Metadatos de la presentación**: Esta sección le permite determinar qué campos de metadatos deben usarse para su revista.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-submission-submission-metadata.png)
+![](./assets/learning-ojs-3-settings-workflow-settings-submission-submission-metadata-ES.png)
 
 Cada entrada es un diferente tipo de metadatos disponible para cada artículo en su revista.
 
@@ -56,7 +56,7 @@ Recuerde oprimir el botón **Guardar** para registrar cualquier cambio en esta p
 
 Esta pestaña le permite configurar el proceso de revisión de su revista.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-review.png)
+![](./assets/learning-ojs3.1-jm-settings-workflow-review-ES.png)
 
 **Fechas límite de revisión predeterminadas**: Indique cuánto tiempo tienen los revisores para decidir si aceptan o rechazan una solicitud de revisión del editor, y cuánto tiempo tienen para hacer una recomendación.
 
@@ -64,25 +64,23 @@ Esta pestaña le permite configurar el proceso de revisión de su revista.
 
 Utilice el menú desplegable para seleccionar ya sea el número de días o “No recordar nunca" en “Enviar un aviso si un revisor no ha respondido a una solicitud de revisión en el curso de (días) después de la fecha límite de respuesta" para establecer el número de días que pueden transcurrir después de la fecha límite antes que se envíe a los revisores un recordatorio de que deben hacer una recomendación en relación con una presentación.
 
-![](./assets/learning-ojs3.1-jm-settings-review-reminders.png)
-
 Tenga en cuenta que el Administrador de la Página debe configurar algunas características del sistema para enviar correos electrónicos. Consulte la [Guía del administrador](https://docs.pkp.sfu.ca/admin-guide/en/email) para obtener información adicional.
 
 **Formatos de revisión**: Los formatos de revisión plantean a los revisores un conjunto de preguntas que deben responder. Estas pueden ayudar a enfocar sus comentarios de la manera que sea más útil para usted.
 
 **Crear un formato de revisión**: Utilice el enlace Crear formato de revisión para elaborar un nuevo formato.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-create.png)
+![](./assets/learning-ojs-3-settings-workflow-settings-review-create-ES.png)
 
 La sección _Descripción e instrucciones_ proporciona información sobre el formato y cuándo usarlo para los Gerentes y Editores de la revista. Este contenido no está incluido en el formato que se muestra a los revisores. Usted puede agregar instrucciones y directrices para los revisores en la sección Directrices de Revisión \(a continuación\).
 
 En la página _Formato de revisión_, seleccione la flecha azul a la izquierda del nombre del formato para que se muestre el enlace _Edit_.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-edit1.png)
+![](./assets/learning-ojs-3-settings-workflow-settings-review-edit1-ES.png)
 
 Seleccione el enlace _Edit_ y complete el formato.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-create-items.png)
+![](./assets/learning-ojs-3-settings-workflow-settings-review-create-items-ES.png)
 
 **Elementos** son preguntas del formato.
 
@@ -102,13 +100,13 @@ Recuerde oprimir el botón **Guardar** para registrar los cambios que haga.
 
 Utilice la pestaña **Vista previa** para probar el formato.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-preview.png)
+![](./assets/learning-ojs-3-settings-workflow-settings-review-preview-ES.png)
 
 Una vez que envíe el formato a un revisor, ya no podrá editarlo porque hacerlo implicaría cambiar el registro para las revisiones existentes utilizando ese formato. Si desea realizar cambios en el formato de revisión en ese momento, puede copiar el formulario existente y crear una nueva versión actualizada.
 
 **Revisión ciega**: Marque esta casilla para que se muestre un enlace para obtener instrucciones sobre cómo asegurar que todos los archivos de presentación sean anónimos.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review2.png)
+![](./assets/learning-ojs-3-settings-workflow-settings-review2-ES.png)
 
 **Conflicto de intereses**: Agregue su declaración sobre la política de divulgación de intereses contrapuestos aquí.
 
@@ -128,13 +126,13 @@ Oprima el botón **Guardar** para registrar los cambios que haga.
 
 Utilice la Biblioteca del Editor para almacenar documentos importantes, tales como el Plan de Comercialización de su revista, y compartirlos con su equipo editorial.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-publib.png)
+![](./assets/learning-ojs3.1-jm-settings-workflow-publib-ES.png)
 
 ## Correos electrónicos
 
 La sección le permite configurar los correos electrónicos que se envían desde el sistema.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-emails.png)
+![](./assets/learning-ojs3.1-jm-settings-workflow-emails-ES.png)
 
 **Firma**: La información en este campo se agregará a la parte inferior de cada correo electrónico enviado por el sistema.
 
