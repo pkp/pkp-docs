@@ -6,7 +6,7 @@ La configuración de la distribución le ayuda a incrementar la visibilidad de s
 
 Esta sección le ayuda a mejorar su optimización de los motores de búsqueda.
 
-![](./assets/learning-ojs3.1-jm-settings-dist-index.png)
+![](./assets/learning-ojs3.1-jm-settings-dist-index-ES.png)
 
 Utilice la opción **Descripción** para proporcionar una descripción breve de su revista para los motores de búsqueda.
 
@@ -20,7 +20,7 @@ Utilice **Etiquetas personalizadas** para agregar etiquetas de encabezado HTML p
 
 OJS proporciona una serie de opciones relacionadas con la seguridad que pueden ser utilizadas para restringir el contenido de la revista y mantener información adicional acerca de las presentaciones para fines de auditoría.
 
-![](./assets/learning-ojs3.1-jm-settings-dist-access.png)
+![](./assets/learning-ojs3.1-jm-settings-dist-access-ES.png)
 
 La opción de acceso abierto está seleccionada como la opción predeterminada. Sin embargo, si solo desea utilizar OJS para una revista de suscripción, elija la segunda opción. Esto también activará a sección de Suscripción en la barra lateral izquierda (se describirá información adicional sobre la Gestión de Suscripciones en un próximo capítulo).
 
@@ -30,19 +30,19 @@ Para la gestión editorial y no para la publicación, seleccione la última opci
 
 OJS proporciona la capacidad de recolectar pagos en línea. Utilice esta sección para determinar el tipo de **moneda** predeterminada (por ejemplo, Dólares Canadienses, Euros, etc.) y el **método de pago** (por ejemplo, Paypal).
 
-![](./assets/learning-ojs3.1-jm-settings-dist-pay.png)
+![](./assets/learning-ojs3.1-jm-settings-dist-pay-ES.png)
 
 La elección del **Pago manual de la cuota** le permitirá escribir algunas instrucciones para los usuarios (por ejemplo, dónde enviar un cheque por correo).
 
 La elección de **Pago de Cuota con Paypal** le permitirá realizar algunos ajustes adicionales mediante los cuales usted puede agregar los detalles de su cuenta Paypal.
 
-![](./assets/learning-ojs3.1-jm-settings-dist-pay-paypalsettings.png)
+![](./assets/learning-ojs3.1-jm-settings-dist-pay-paypalsettings-ES.png)
 
 ## Permisos
 
 Esta sección cubre aspectos de derechos de autor para su revista.
 
-![](./assets/learning-ojs3.1-jm-settings-dist-permissions.png)
+![](./assets/learning-ojs3.1-jm-settings-dist-permissions-ES.png)
 
 **Aviso de Copyright**: Agregue aquí la declaración de derechos de autor de su revista. Esta declaración se mostrará en el sitio web de la revista.
 
