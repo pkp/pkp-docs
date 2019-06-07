@@ -13,105 +13,89 @@ Are you ready? Your journal must:
 ## DOAJ Required Fields (LPC Guide)
 The following are basic requirements for inclusion in DOAJ, which must be filled out in your [journal application](https://doaj.org/application/new). The numbers of these items match the numbered questions on the DOAJ application. The numbers that are missing are items that are not required.
 
+This list of items was adapted from the Library Publishing Coalition's [How-To Guide for Library Publishers: Directory of Open Access Journals Application](https://docs.google.com/document/d/1x1_JRbqX36wqSw7FlMiAqmAhrOzRW-q__XiEa4tvVdY).
+
 Next to each item is information about how to enter this information in OJS and, where applicable, where to link to it on your OJS site.
 
-1) [Journal Title](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead)
-Add this at Journal Settings > Masthead 
+**1) Journal Title**
+* Add this at Journal Settings > Masthead. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 
-2) URL: Enter the URL for your journal
+**2) URL** 
+* Enter the URL for your journal
 
-5) Journal ISSN (online): 
-This information needs to be added in two places:
+**5) Journal ISSN (online)** 
+* This information needs to be added in two places:
+  * Journal Settings > Masthead > ISSN. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+  * Add to your journal footer for it to appear on your site. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
 
-* Journal Settings > Masthead > ISSN  
-  See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) for more details.
-* Add to your journal footer for it to appear on your site          
-  See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
+* The ISSN will appear on the footer on every page of your site.
 
-The ISSN will appear on the footer on every page of your site.
+**6) Publisher**
+* Enter this information in 2 places:
+  * Journal Settings > Masthead > Publisher (it will be supplied to 3rd party metadata services, but will not appear publicly on your site). See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
+  * Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ). See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
 
-6) Publisher:
-Enter this information in 2 places:
+* The contact’s name will appear on the Contact page of your site.
 
-* Journal Settings > Masthead > Publisher (it will be supplied to 3rd party metadata services, but will not appear publicly on your site)   
-See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
-* Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ)                                                                                                          
-See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details.
+**8) Platform, Host or Aggregator** 
+* Enter “OJS” in this field
 
-The contact’s name will appear on the Contact page of your site.
+**9) Name of contact for this journal** - Somebody who DOAJ can contact about this journal. 
+* Enter this information at Journal Settings > Contact  > Principal Contact. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact).
 
-8) Platform, Host or Aggregator: Enter “OJS” in this field
+* The Contact name will appear on the Contact page of your site.
 
-9) Name of contact for this journal - Somebody who DOAJ can contact about this journal. 
-Enter this information at Journal Settings > Contact  > Principal Contact                                                                                                      
-See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact) for more details.
+**10) Contact's email address** 
+* Enter this information at Journal Settings > Contact  > Principal Contact. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact).
 
-The Contact name will appear on the Contact page of your site.
+* The Contact email will appear on the Contact page of your site.
 
-10) Contact's email address 
-Enter this information at Journal Settings > Contact  > Principal Contact                                                                  
-See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact) for more details.
+**11) Confirm contact's email Address**
 
-The Contact email will appear on the Contact page of your site.
+**12) In which country is the publisher of the journal based?** 
+* Enter this information at Journal Settings > Contact  > Mailing Address. A full mailing address is preferred. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact).          
 
-11) Confirm contact's email Address
+* The country will appear on the Contact page of your site.
 
-12) In which country is the publisher of the journal based? 
-Enter this information at Journal Settings > Contact  > Mailing Address. A full mailing address is preferred.                                         
-See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact) for more details.          
+**13) Does the journal have article processing charges (APCs)?**  
+* Enter this information in two places:
+  * Settings > Website> Information > For Authors. See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information).
+  * Settings > Workflow > Submission > Submission Preparation Checklist. See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
 
-The country will appear on the Contact page of your site.
+**14) Enter the URL where this information can be found** 
+* Article processing charges will appear on the About/Submissions page on your site and on the Information/Authors page on your site.
 
-13) Does the journal have article processing charges (APCs)?  
-Enter this information in two places:
+**17) Does the journal have article submission charges?**
+* Enter this information in two places:
+  * Settings > Website> Information > For Authors. See [Chapter 6: Website Setting](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information). 
+  * Settings > Workflow > Submission > Submission Preparation Checklist. See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
 
-* Settings > Website> Information > For Authors  
-  See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) for more detail.
-* Settings > Workflow > Submission > Submission Preparation Checklist 
-  See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) for more detail.
+**18) Enter the URL where this information can be found** 
+* Author submission charges will appear on the About/Submissions page on your site and on the Information/Authors page on your site.
 
-14) Enter the URL where this information can be found: 
-Article processing charges will appear on the About/Submissions page on your site and on the Information/Authors page on your site.
+**21) How many research and review articles did the journal publish in the last calendar year? The best way to calculate this number is to manually count the research and review articles published in the last calendar year from the Archives pages on your site.**
 
-17) Does the journal have article submission charges?
-Enter this information in two places:
+**22) Enter the URL where this information can be found**
+* Published articles appear on your site on the Archives page.
 
-* Settings > Website> Information > For Authors                                       
-See [Chapter 6: Website Setting](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) for more details. 
-* Settings > Workflow > Submission > Submission Preparation Checklist                                                                                                         
-See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) for more details.
+**32) Year first complete volume published online with full-text Open Access**
 
-18) Enter the URL where this information can be found 
-Author submission charges will appear on the About/Submissions page on your site and on the Information/Authors page on your site.
+* Published volumes appear on your site on the Archives page.
 
-21) How many research and review articles did the journal publish in the last calendar year? The best way to calculate this number is to manually count the research and review articles published in the last calendar year from the Archives pages on your site.
+**33) Please indicate which formats of full-text are available: PDF, HTML, ePUB, XML, Other
 
-22) Enter the URL where this information can be found.
-Published articles appear on your site on the Archives page.
-32) Year first complete volume published online with full-text Open Access.
+* Full-text galley files for articles are uploaded during the Production stage of submission and are displayed on the articles and table of contents pages of your site.
 
-Published volumes appear on your site on the Archives page.
+**34) Add keyword(s) that best describe the journal (comma delimited)** 
 
-33) Please indicate which formats of full-text are available
-
-* PDF
-* HTML
-* ePUB
-* XML
-* Other
-
-Full-text galley files for articles are uploaded during the Production stage of submission and are displayed on the articles and table of contents pages of your site.
-
-34) Add keyword(s) that best describe the journal (comma delimited) 
-
-Should describe the subject matter of the journal. Does not need to be entered in OJS.
+* The keywords should describe the subject matter of the journal. They do not need to be entered in OJS.
 
 ## DOAJ SEAL: 
 Journals following best practice in OA publishing
 
 During the application process, you can be awarded the DOAJ SEAL if these 7 criteria are all met. __It is absolutely possible to be indexed in the DOAJ without meeting the DOAJ seal requirements.__ 
  
-1. Digital archiving of content                                                        
+1. Digital archiving of content                                                       
 The DOAJ Seal is looking at how the journal can ensure the long-term availability and preservation of published content for the future. The DOAJ will accept some preservation service providers (e.g., LOCKSS/CLOCKSS. Portico, PubMed Central) as well as some national libraries (e.g., British Library, Library of Congress). Please note that institutional servers and repositories do not qualify as long term archival preservation.
 If you are a member of LOCKSS or CLOCKSS, enable this here:
 Settings > Website > Archiving .   
