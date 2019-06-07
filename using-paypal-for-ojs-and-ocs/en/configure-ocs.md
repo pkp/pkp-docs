@@ -2,7 +2,7 @@
 
 ## Configure your payment method
 
-* Log in as Conference Manager, and choose the **Payment Methods **link under Current Conferences.
+* Log in as Conference Manager, and choose the **Payment Methods** link under Current Conferences.
 * Choose the PayPal payment option, and fill in your PayPal IPN URL and Seller Account. Click Save.
 
 ## Configure your registrations and registration options

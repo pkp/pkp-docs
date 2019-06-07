@@ -1,6 +1,6 @@
 # Set up a PayPal Website Payments Standard account
 
-[https://www.paypal.com/us/cgi-bin/webscr?cmd=\_onboarding-list&getStarted=true](https://www.paypal.com/us/cgi-bin/webscr?cmd=_onboarding-list&getStarted=true)
+[https://www.paypal.com/ca/webapps/mpp/paypal-payments-standard](https://www.paypal.com/ca/webapps/mpp/paypal-payments-standard)
 
 ![](assets/Paypal1.png)
 
