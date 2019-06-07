@@ -232,7 +232,7 @@ This initiates a new window with a message for the Reviewer.
 
 You can revise any of the prepared text.
 
-If you are using a Blind Review method, ensure that the files you send to the Reviewer are stripped of any identifying information about the Author.
+If you are using a Blind Review method, ensure that the files you send to the Reviewer are stripped of any identifying information about the Author. Additional instruction for this is provided in Understanding Blind Review and Removing Identifying Information section.
 
 Further down the form, you will see the additional details that are sent to the Reviewer including title, abstract, important dates, and a link to the files to be reviewed.
 
@@ -269,6 +269,102 @@ You can make additional changes using the blue arrow toggle next to the Reviewer
 ![](./assets/learning-ojs-3-ed-rev-review-history.png)
 
 At this point, we could add additional Reviewers, and then wait for their recommendations to come in.
+
+### Understanding Blind Review
+
+OJS is designed to accommodate different types of reviews, and there are built-in steps to ensure anonymity.
+
+All information will be visible to the journal managers and editors regardless of the type of review selected. 
+The review type will be automatically selected based on what has been configured in the Workflow Setting [Workflow>Setting> Review]. The editors can change the review type when sending the review request. For Editor/Section Editor: When sending the review request, you must select the review type:
+
+* Double-Blind
+* Blind
+* Open
+
+**Double-Blind Review**: The identity of both the author and the reviewer is kept hidden. 
+
+The author or editor must ensure that metadata from the manuscript file is removed in a Double-Blind review. Please see ‘Directions on how to remove identifying information’ for more information.
+
+*Reviewer*: The reviewer will not be able to see the author(s) in their reviewer’s queue if the editor has selected a double-blind review. All identifying information in the metadata of the submission details is automatically removed by the system.
+
+![](./assets/%20learning-ojs3.1-ed-rev-anon1%20.png) 
+
+At the end of a review, if a reviewer chooses to upload a review file, they should remove all identifying information before uploading it to the system. Please see ‘Directions on how to remove identifying information’ for more information 
+
+*Author*: No identifying information regarding the reviewer will be visible to the author within their manuscript view. 
+
+![](./assets/%20learning-ojs3.1-ed-rev-anon2%20.png) 
+
+*Editors Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
+
+![](./assets/%20learning-ojs3.1-ed-rev-anon3%20.png) 
+
+**Blind Review**: Reviewer identity is kept anonymous from the author(s). The reviewers can see the author details. 
+
+*Reviewer*: The reviewer is able will see full the metadata entered by the author by clicking ‘View All Submission Details’ in the request tab of the manuscript. The authors’ name will also appear in the reviewer's queue. 
+
+*Author*: No identifying information regarding the reviewer will be available within their manuscript view. 
+
+![](./assets/%20learning-ojs3.1-ed-rev-anon2%20.png) 
+
+*Editors Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
+
+![](./assets/%20learning-ojs3.1-ed-rev-anon3%20.png) 
+
+### Removing Identifying Information 
+
+While OJS has a number of built-in functions for blind reviews, additional steps may need to be taken outside of the platform to ensure a Double-Blind Review. A submission file may also have information that could identify the authors' identity within the document properties [File>Info]. 
+
+![](./assets/%20learning-ojs3.1-ed-rev-anon4%20.png.png) 
+
+Authors may also include their name within the article, footnotes, or references. In which case, the editor will have to remove it prior to sending this out for review. Alternatively,  authors can be asked to redact their names from the submission file,  with "Author" and year used in the references and footnotes, instead of the authors' name, article title, etc. prior to submission. 
+
+#### Windows Operating System
+
+1. Go to “file”
+2. Select “info”
+3. Click on “check for issues”
+4. Click on “inspect document”
+5. In the "Document Inspector" dialog box, select the check boxes to choose the types of hidden content that you want to be inspected.
+6. Click "Remove All"
+7. Click "Close"
+8. Save the document.
+
+#### OS Operating System
+1. Go to Tools 
+2. Click ‘Protect Document’
+3. Select ‘Remove personal information from this file on save’
+4. Save file to locally
+
+![](./assets/%20learning-ojs3.1-ed-rev-anon5%20.png) 
+
+### Re-uploading Document 
+
+The Journal Managers and Editors are able to re-upload the anonymized document in the Review files by clicking the Upload/Select file on the ‘Review Files’ box. 
+
+![](./assets/%20learning-ojs3.1-ed-rev-anon6%20.png) 
+
+Click 'Upload Review File' 
+
+![](./assets/%20learning-ojs3.1-ed-rev-anon7%20.png) 
+
+Identify the article component and upload the file.
+
+![](./assets/%20learning-ojs3.1-ed-rev-anon8%20.png) 
+
+Review Details. It would be helpful to rename the file the time of re-upload and can also be renamed by click the arrow on the left side of the file name.
+
+![](./assets/%20learning-ojs3.1-ed-rev-anon9%20.png)
+
+Click Complete and select the file you would like to use for the review. 
+
+The files will appear under the initial upload. 
+When sending out the review request, please ensure that the original manuscript is unselected from the ‘Files To Be Reviewed’.
+
+![](./assets/%20learning-ojs3.1-ed-rev-anon10%20.png)
+
+Select the correct Review File. 
+
 
 ### Responding to Reviews
 
