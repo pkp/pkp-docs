@@ -1,4 +1,4 @@
-Set up a PayPal Website Payments Standard account:
+# Set up a PayPal Website Payments Standard account
 
 [https://www.paypal.com/us/cgi-bin/webscr?cmd=\_onboarding-list&getStarted=true](https://www.paypal.com/us/cgi-bin/webscr?cmd=_onboarding-list&getStarted=true)
 
@@ -34,4 +34,5 @@ On the Profile page, choose Instant Payment Notification Preferences.
 
 Use the Edit button to turn on Instant Payment Notification \(IPN\).
 
-Check the box and add the URL below \(you will also find this URL when you set up your payment methods in OJS or OCS\).
+Check the box and add the URL below \(you will also find this URL when you set up your payment 
+methods in OJS or OCS\).

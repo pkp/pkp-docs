@@ -1,6 +1,24 @@
 # Configure OJS
 
-Now that you have setup your PayPal account, you will need to activate your payment methods in OJS. To do so, login as the Journal Manager, and select Payments. Under General Options, choose your currency:
+Now that you have setup your PayPal account, you will need to activate your payment methods in OJS.
+
+## OJS 3.x
+
+Under Settings > Website > Plugins, enable the Paypal Fee Payment plugin in the Plugin Gallery.
+
+![](assets/Paypal-ojs3-1.png)
+
+Under Settings > Distribution > Payments, check the box to enable payments, select your preferred currency, and choose "PayPal Fee Payment" as the Payment Method.
+
+Enter your credentials under the Paypal Payment Settings. Check the box for Test Mode if you are only testing the plugin.
+
+![](assets/Paypal-ojs3-2.png)
+
+For more information about payments in OJS 3 [see the Learning OJS 3 guide](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#payments).
+
+## OJS 2.x
+
+Login as the Journal Manager, and select Payments. Under General Options, choose your currency:
 
 ![](assets/Paypal13.png)
 
