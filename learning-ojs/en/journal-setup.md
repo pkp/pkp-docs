@@ -124,7 +124,7 @@ To create a new category:
 
 To edit a category:
 * Click the name of the category you want to edit
-* Make changes
+* Make the changes
 * Click OK
 
 To remove a category:
