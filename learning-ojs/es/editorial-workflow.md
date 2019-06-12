@@ -574,7 +574,7 @@ La mayoría de los envíos de autores se presentan como documentos de Microsoft 
 
 Requerir que todos los envíos utilicen una plantilla preformateada con los estilos de publicación de su revista (por ejemplo, el tipo de letra, el tamaño de letra, la audacia, la ubicación, etc. del encabezado, el cuerpo, los pies de página, etc.) hará que la conversión del documento sea mucho más fácil.
 
-Microsoft proporciona una breve descripción general para crear modelos [aquí](https://www.gitbook.com/book/pkp/ojs3/edit#).
+Microsoft proporciona una breve descripción general para crear modelos [aquí](https://support.office.com/en-us/article/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb).
 
 Una vez que haya creado una plantilla que coincida con el estilo de de su revista, debe vincularla desde sus “Pautas para autores”, junto con una breve explicación de la necesidad de usar la plantilla. Esto significa que todos sus envíos vendrán ya formateados, ahorrándole al editor de maquetación una cantidad significativa de trabajo.
 
