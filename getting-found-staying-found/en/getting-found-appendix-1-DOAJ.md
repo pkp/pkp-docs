@@ -12,7 +12,7 @@ Are you ready? Your journal must:
 3. Have published at least 5 research articles in the last year
 4. Have a Creative Commons or equivalent license applied to all articles
 
-## DOAJ Required Fields (LPC Guide)
+## The DOAJ Application (LPC Guide)
 
 The following are basic requirements for inclusion in DOAJ, which must be filled out in your [journal application](https://doaj.org/application/new). The numbers of these items match the numbered questions on the DOAJ application. The numbers that are missing are items that are not required.
 
@@ -31,7 +31,7 @@ Next to each item is information about how to enter this information in OJS and,
   * Journal Settings > Masthead > ISSN. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
   * Add to your journal footer for it to appear on your site. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
 
-* The ISSN will appear on the footer on every page of your site.
+* The ISSN will appear on the footer on every page of your site. Note that if the journal also has a valid print ISSN this should be included in the DOAJ application (#4).
 
 **6) Publisher**
 * Enter this information in 2 places:
@@ -52,27 +52,27 @@ Next to each item is information about how to enter this information in OJS and,
 * Enter this information at Journal Settings > Contact  > Principal Contact. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact).
 * The Contact email will appear on the Contact page of your site.
 
-**11) Confirm contact's email Address**
-
 **12) In which country is the publisher of the journal based?**
 * Enter this information at Journal Settings > Contact  > Mailing Address. A full mailing address is preferred. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact).
 * The country will appear on the Contact page of your site.
 
 **13) Does the journal have article processing charges (APCs)?**
+* Select "Yes" or "No".
 * Enter this information in two places:
   * Settings > Website> Information > For Authors. See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information).
   * Settings > Workflow > Submission > Submission Preparation Checklist. See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
 
 **14) Enter the URL where this information can be found**
-* Article processing charges will appear on the About/Submissions page on your site and on the Information/Authors page on your site.
+* Article processing charges will appear on the About/Submissions page on your site and on the Information/Authors page on your site. DOAJ requires that you include information about charges even if they are zero.
 
 **17) Does the journal have article submission charges?**
+* Select "Yes" or "No".
 * Enter this information in two places:
   * Settings > Website> Information > For Authors. See [Chapter 6: Website Setting](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information).
   * Settings > Workflow > Submission > Submission Preparation Checklist. See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
 
 **18) Enter the URL where this information can be found**
-* Author submission charges will appear on the About/Submissions page on your site and on the Information/Authors page on your site.
+* Author submission charges will appear on the About/Submissions page on your site and on the Information/Authors page on your site. DOAJ requires that you include information about charges even if they are zero.
 
 **21) How many research and review articles did the journal publish in the last calendar year? The best way to calculate this number is to manually count the research and review articles published in the last calendar year from the Archives pages on your site.**
 
@@ -146,7 +146,7 @@ Provide information on authors self-archiving rights in a statement clarifying t
 In OJS enter the journal’s Author Self-Archiving Policy in Settings > Distribution > Permissions
 
 **7. Authors retain unrestricted copyright and publishing rights.**
-The DOAJ expects journals to allow copyright to be retained by the author and not be transferred to the journal or publisher. The journal and publisher must also not obtain exclusive publishing rights to the content, but instead these must be retained by the author. The DOAJ Best Practice recommends the terms of any license agreement should be made freely available to clarify author rights and what, if anything, authors are required to sign when submitting to the journal.
+The DOAJ Seal expects journals to allow copyright to be retained by the author and not be transferred to the journal or publisher. The journal and publisher must also not obtain exclusive publishing rights to the content, but instead these must be retained by the author. The DOAJ Best Practice recommends the terms of any license agreement should be made freely available to clarify author rights and what, if anything, authors are required to sign when submitting to the journal.
 
 In OJS  you can select the designated copyright holder for the article metadata as the Author, Journal, or Other. To select the Author as the designated copyright holder, go to Settings > Distribution > Permissions.
 
