@@ -23,12 +23,15 @@ Next to each item is information about how to enter this information in OJS and,
 ### Basic Journal Information
 
 **1) Journal Title**
+
 * Add this at Journal Settings > Masthead. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 
 **2) URL**
+
 * Enter the URL for your journal
 
 **5) Journal ISSN (online)**
+
 * This information needs to be added in two places:
   * Journal Settings > Masthead > ISSN. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
   * Add to your journal footer for it to appear on your site. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
@@ -36,6 +39,7 @@ Next to each item is information about how to enter this information in OJS and,
 * The ISSN will appear on the footer on every page of your site. Note that if the journal also has a valid print ISSN this should be included in the DOAJ application (#4).
 
 **6) Publisher**
+
 * Enter this information in 2 places:
   * Journal Settings > Masthead > Publisher (it will be supplied to 3rd party metadata services, but will not appear publicly on your site). See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
   * Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ). See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
@@ -43,6 +47,7 @@ Next to each item is information about how to enter this information in OJS and,
 * The contact’s name will appear on the Contact page of your site.
 
 **8) Platform, Host or Aggregator**
+
 * Enter “OJS” in this field
 
 **9) Name of contact for this journal** (Somebody who DOAJ can contact about this journal.)
@@ -51,14 +56,17 @@ Next to each item is information about how to enter this information in OJS and,
 * The Contact name will appear on the Contact page of your site.
 
 **10) Contact's email address**
+
 * Enter this information at Journal Settings > Contact  > Principal Contact. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact).
 * The Contact email will appear on the Contact page of your site.
 
 **12) In which country is the publisher of the journal based?**
+
 * Enter this information at Journal Settings > Contact  > Mailing Address. A full mailing address is preferred. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact).
 * The country will appear on the Contact page of your site.
 
 **13) Does the journal have article processing charges (APCs)?**
+
 * Select "Yes" or "No".
 * Enter this information in two places:
   * Settings > Website> Information > For Authors. See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information).
@@ -68,17 +76,20 @@ Next to each item is information about how to enter this information in OJS and,
 * Article processing charges will appear on the About/Submissions page on your site and on the Information/Authors page on your site. DOAJ requires that you include information about charges even if they are zero.
 
 **17) Does the journal have article submission charges?**
+
 * Select "Yes" or "No".
 * Enter this information in two places:
   * Settings > Website> Information > For Authors. See [Chapter 6: Website Setting](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information).
   * Settings > Workflow > Submission > Submission Preparation Checklist. See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
 
 **18) Enter the URL where this information can be found**
+
 * Author submission charges will appear on the About/Submissions page on your site and on the Information/Authors page on your site. DOAJ requires that you include information about charges even if they are zero.
 
 **21) How many research and review articles did the journal publish in the last calendar year? The best way to calculate this number is to manually count the research and review articles published in the last calendar year from the Archives pages on your site.**
 
 **22) Enter the URL where this information can be found**
+
 * Published articles appear on your site on the Archives page.
 
 **32) Year first complete volume published online with full-text Open Access**
@@ -145,6 +156,7 @@ Select the Creative Commons license you will use in Settings > Distribution > Pe
 See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) for more details.
 
 **5. Allow reuse via selected Creative Commons licenses**
+
 To allow for generous reuse and remixing of the content. The DOAJ Seal allows for 4 of the Creative Commons licenses: CC-BY, CC-BY-SA, CC-BY-NC, CC-BY-NC-SA. The DOAJ Seal does not consider any of the Creative Commons licenses that restrict remixing or the creation of derivative products of the published content (e.g. CC-BY-ND, CC-BY-NC-ND).
 
 In OJS, when selecting the license to be embedded with the article metadata and displayed on its webpage, be certain to select one of the following license types: CC Attribution, CC Attribution-ShareAlike, or CC Attribution-Noncommercial.
@@ -152,11 +164,13 @@ In OJS, when selecting the license to be embedded with the article metadata and 
 In OJS select the Creative Commons license you will use in Settings > Distribution > Permissions
 
 **6. Deposit policy**
+
 Provide information on authors self-archiving rights in a statement clarifying to authors what their rights are for self-archiving, which should cover their rights to self-archive preprint, accepted, final publisher versions of the article, usually in places like their own website or institutional repository. The DOAJ requires a policy to be listed for a journal and checks what policy is listed for the journal on services like [SHERPA/RoMEO ](http://www.sherpa.ac.uk/romeo/index.php).
 
 In OJS enter the journal’s Author Self-Archiving Policy in Settings > Distribution > Permissions
 
 **7. Authors retain unrestricted copyright and publishing rights.**
+
 The DOAJ Seal expects journals to allow copyright to be retained by the author and not be transferred to the journal or publisher. The journal and publisher must also not obtain exclusive publishing rights to the content, but instead these must be retained by the author. The DOAJ Best Practice recommends the terms of any license agreement should be made freely available to clarify author rights and what, if anything, authors are required to sign when submitting to the journal.
 
 In OJS  you can select the designated copyright holder for the article metadata as the Author, Journal, or Other. To select the Author as the designated copyright holder, go to Settings > Distribution > Permissions.
