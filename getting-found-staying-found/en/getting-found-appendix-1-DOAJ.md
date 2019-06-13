@@ -20,6 +20,8 @@ This list of items was adapted from the Library Publishing Coalition's [How-To G
 
 Next to each item is information about how to enter this information in OJS and, where applicable, where to link to it on your OJS site.
 
+### Basic Journal Information
+
 **1) Journal Title**
 * Add this at Journal Settings > Masthead. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 
@@ -90,6 +92,15 @@ Next to each item is information about how to enter this information in OJS and,
 **34) Add keyword(s) that best describe the journal (comma delimited)**
 
 * The keywords should describe the subject matter of the journal. They do not need to be entered in OJS.
+
+### Quality and Transparency of the Editorial Process
+
+### How Open is the Journal?
+
+### Content Licensing
+
+### Copyright and Permissions
+
 
 ## DOAJ SEAL
 
