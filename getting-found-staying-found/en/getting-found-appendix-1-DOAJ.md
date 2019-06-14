@@ -7,10 +7,10 @@ The Directory of Open Access Journals (DOAJ) is a service that indexes high qual
 ## Before you apply (DOAJ readiness)
 
 Are you ready? Your journal must:
-1. Be online and fully open access
-2. Have a confirmed journal title and ISSN
-3. Have published at least 5 research articles in the last year
-4. Have a Creative Commons or equivalent license applied to all articles
+1. Be online and fully open access.
+2. Have a confirmed journal title and [ISSN](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-visibility#issns).
+3. Have published at least 5 research articles in the last year.
+4. Have a Creative Commons or equivalent license applied to all articles. See [Copyright and Licensing](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-increasing-impact#copyright-and-licensing) to learn more.
 
 ## The DOAJ Application (LPC Guide)
 
