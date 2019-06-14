@@ -14,7 +14,7 @@ Are you ready? Your journal must:
 
 ## The DOAJ Application (LPC Guide)
 
-The following are basic requirements for inclusion in DOAJ, which must be filled out in your [journal application](https://doaj.org/application/new). The numbers of these items match the numbered questions on the DOAJ application. The numbers that are missing are items that are not required.
+This section will help you to complete [the DOAJ application](https://doaj.org/application/new) for your OJS-hosted journal. The numbers of these items match the numbered questions on the DOAJ application.
 
 This list of items was adapted from the Library Publishing Coalition's [How-To Guide for Library Publishers: Directory of Open Access Journals Application](https://docs.google.com/document/d/1x1_JRbqX36wqSw7FlMiAqmAhrOzRW-q__XiEa4tvVdY).
 
@@ -43,8 +43,6 @@ Next to each item is information about how to enter this information in OJS and,
 * Enter this information in 2 places:
   * Journal Settings > Masthead > Publisher (it will be supplied to 3rd party metadata services, but will not appear publicly on your site). See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
   * Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ). See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
-
-* The contact’s name will appear on the Contact page of your site.
 
 **8) Platform, Host or Aggregator**
 
@@ -241,7 +239,7 @@ See [PKP Administrator Guide](https://docs.pkp.sfu.ca/admin-guide/en/data-import
 
 To ensure readers (users) know and understand what they are permitted to do with the content, license information must be embedded into each published article, in all its outputs - e.g. on the HTML article webpage, in the XML/metadata and PDF version.
 
-OJS offers the Creative Commons license options that are acceptable for the DOAJ seal: CC BY, CC BY-SA or CC BY-NC. This license will be embedded in the metadata of published items and displayed on the item’s webpage.
+OJS offers the Creative Commons license options that are acceptable for the DOAJ seal: CC BY, CC BY-SA, CC BY-NC, or CC BY-NC-SA. This license will be embedded in the metadata of published items and displayed on the item’s webpage.
 Select the Creative Commons license you will use in Settings > Distribution > Permissions
 
 See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) for more details.
