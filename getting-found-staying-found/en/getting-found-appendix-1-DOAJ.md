@@ -2,7 +2,7 @@
 
 ## What is DOAJ and why should I apply?
 
-The Directory of Open Access Journals (DOAJ) is a service that indexes high quality, peer reviewed Open Access research journals, periodicals and their articles' metadata. The Directory aims to be comprehensive and cover all open access academic journals that use an appropriate quality control system (see below for definitions) and is not limited to particular languages, geographical region, or subject areas. The Directory aims to increase the visibility and ease of use of open access academic journals—regardless of size and country of origin—thereby promoting their visibility, usage and impact.
+> "The Directory of Open Access Journals (DOAJ) is a service that indexes high quality, peer reviewed Open Access research journals, periodicals and their articles' metadata. The Directory aims to be comprehensive and cover all open access academic journals that use an appropriate quality control system (see below for definitions) and is not limited to particular languages, geographical region, or subject areas. The Directory aims to increase the visibility and ease of use of open access academic journals—regardless of size and country of origin—thereby promoting their visibility, usage and impact." [(What is DOAJ?)](https://doaj.org/faq#whatis)
 
 ## Before you apply (DOAJ readiness)
 
