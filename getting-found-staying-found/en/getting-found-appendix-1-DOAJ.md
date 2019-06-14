@@ -106,12 +106,103 @@ Next to each item is information about how to enter this information in OJS and,
 
 ### Quality and Transparency of the Editorial Process
 
+**36) What is the URL for the Editorial Board page?**
+
+**37) Please select the review process of the paper.**
+
+* If ‘None’ is selected, the journal will be rejected. The type of review must be clearly labeled and described. "Editorial Review" is only valid for journals in the Humanities. Non-humanities journals may not use this option with the DOAJ.
+* Enter this information in Journal Settings > Masthead > About the Journal. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* You may want to create a special section on the About the Journal page to describe the review process.
+
+**38) Enter the URL where this information can be found.**
+
+* Information entered in #37 will appear publicly on the About > About the Journal page
+
+**39) What is the URL for the journal’s Aims & Scope.**
+
+* Enter this information in Journal Settings > Workflow > Submissions > Author Guidelines. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* You may want to create a section in the text box for the journal’s Aims & Scope. It will appear publicly on the About > About the Journal page.
+
+**40) What is the URL for the journal’s instructions for the authors?**
+
+* Enter this information in Journal Settings > Workflow > Submission > Author Guidelines. See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
+* Information entered in Author Guidelines and Submission Preparation Checklist will appear publicly on the About > Submissions page.
+
+**41) Does the journal have a policy of screening for plagiarism?**
+
+* Select "Yes" or "No".
+* If you use a plagiarism checking service please ensure this information is given online. It can be included in the peer review section. Currently plagiarism checking is not mandatory for inclusion in DOAJ.
+
+**42) Enter the URL where this information can be found.**
+
+**43) What is the average number of weeks between submission and publication?**
+
+* You should include a number here for the average number of weeks taken by your journal from submission of the paper to online publication.
+
 ### How Open is the Journal?
+
+**44) What is the URL for the journal's Open Access statement?**
+
+* Enter this information in Journal Settings > Masthead > About the Journal. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* You may want to create a section in the text box for the Open Access statement.
+* The example OA statement the DOAJ provides is: _"This is an open access journal which means that all content is freely available without charge to the user or his/her institution. Users are allowed to read, download, copy, distribute, print, search, or link to the full texts of the articles, or use them for any other lawful purpose, without asking prior permission from the publisher or the author. This is in accordance with the BOAI definition of open access."_
+* If your journal has a Creative Commons license, this Open Access statement is true of your journal. For instructions on where to add your CC license, see #47.
 
 ### Content Licensing
 
+**45) Does the journal embed or display licensing information in its articles?**
+
+* Select "Yes" or "No".
+* Answer Yes only if you include the CC license in the full text PDFs. Please include the URL of an example article in the box in #46.
+
+**47) Does the journal allow reuse and remixing of content in accordance with a Creative Commons license or other type of license with similar conditions (Select 'Other')?**
+
+* Options include:
+  * CC BY
+  * CC BY-NC
+  * CC BY-NC-ND
+  * CC BY-NC-SA
+  * CC BY-ND
+  * CC BY-SA
+  * Other
+
+* For more information see [the Creative Commons page on licenses](https://creativecommons.org/licenses/).
+* Enter this information in OJS at Distribution Settings > Permissions > License. See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
+* The license you select here will not be displayed on your site automatically. You can add it to your [About the Journal page](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead), to [the footer of your site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance), or another place.
+* You can also enter license information on a per article basis when you schedule an article for publication and it will be displayed on the article page. See [Chapter 14: Editorial Workflow](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#scheduling-for-publication).
+* If you allow more than one type of CC license please enter the most restrictive license in your DOAJ application (only one is allowed in the form).
+
+**49) Enter the URL on your site where your license terms are stated**
+
+* If you add this information to your About the Journal page (see question 47), you can link to it at About > About the Journal page.
+* If you add this information to your footer you can provide a link to your home page.
+* If you include it elsewhere on your site, provide a link to that page.
+* This must be a link on your own site, not a link to Creative Commons.
+
+**50) Does the journal allow readers to read, download, copy, distribute, print, search, or link to the full texts of its articles and allow readers to use them for any other lawful purpose?** (From the [Budapest Open Access Initiative's definition of Open Access](http://www.budapestopenaccessinitiative.org/read).)
+
+* In order to be indexed in DOAJ, the answer here must be Yes. If you have a CC license, this license determines what are the lawful purposes for reuse, e.g. non-commercial use only. A journal answering No will be automatically rejected.
+* Select "Yes" or "No".
+
 ### Copyright and Permissions
 
+**52) Does the journal allow the author(s) to hold the copyright without restrictions?**
+
+* Select "Yes" or "No".
+
+**53) Enter the URL where this information can be found**
+
+* Only enter the URL if you answered "Yes" to #52.
+* You can enter your copyright statement in Copyright Notice box. See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) and select the copyright holder (Author, Journal, or Other).
+* The Copyright Notice will be displayed with each published article. To provide a link to your statement, you can add it on the About the Journal page, in Journal Settings > Masthead > About the Journal. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+
+**54) Will the journal allow the author(s) to retain publishing rights without restrictions?**
+
+* Select "Yes" or "No".
+
+**55) Enter the URL where this information can be found**
+
+* To provide a link to your statement, you can add it on the About the Journal page, in Journal Settings > Masthead > About the Journal. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 
 ## DOAJ SEAL
 
