@@ -694,7 +694,7 @@ The majority of author submissions come in as Microsoft Word documents \(.doc or
 
 Requiring all submissions to use a template that is pre-formatted with your journal's publication styles \(e.g., the font face, font size, boldness, placement, etc. of the header, body, footers, etc.\) will make your document conversion much easier.
 
-Microsoft provides a brief overview for creating templates [here](https://www.gitbook.com/book/pkp/ojs3/edit#).
+Microsoft provides a brief overview for creating templates in MS Word [here](https://support.office.com/en-us/article/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb).
 
 Once you've created a template that matches your journal style, you should link it from your Author Guidelines, along with a brief explanation of the need to use the template. This means that all of your submissions will come in already formatted, saving your layout editor a significant amount of work.
 
