@@ -106,6 +106,9 @@ Next to each item is information about how to enter this information in OJS and,
 
 **36) What is the URL for the Editorial Board page?**
 
+* Enter this information under Journal Settings > Masthead > Editorial Team. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* This will appear publicly under About > Editorial Team.
+
 **37) Please select the review process of the paper.**
 
 * If ‘None’ is selected, the journal will be rejected. The type of review must be clearly labeled and described. "Editorial Review" is only valid for journals in the Humanities. Non-humanities journals may not use this option with the DOAJ.
