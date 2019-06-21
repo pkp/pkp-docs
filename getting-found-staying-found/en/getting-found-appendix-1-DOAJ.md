@@ -211,7 +211,7 @@ Journals following best practice in OA publishing
 
 During the application process, you can be awarded the DOAJ SEAL if these 7 criteria are all met. __It is absolutely possible to be indexed in the DOAJ without meeting the DOAJ seal requirements.__
 
-**1. Digital archiving of content**
+**1. Digital archiving of content** (Question 25)
 
 The DOAJ Seal is looking at how the journal can ensure the long-term availability and preservation of published content for the future. The DOAJ will accept some preservation service providers (e.g., LOCKSS/CLOCKSS. Portico, PubMed Central) as well as some national libraries (e.g., British Library, Library of Congress). Please note that institutional servers and repositories do not qualify as long term archival preservation.
 
@@ -220,7 +220,7 @@ Settings > Website > Archiving
 
 See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving) for more details.
 
-**2. Permanent identifiers**
+**2. Permanent identifiers** (Question 28)
 
 Ensure articles may continue to be found even when URLs change. The most common form of permanent identifier is the Digital Object Identifier [DOI](https://dx.doi.org/), but there may be others in use for a journal.
 
@@ -230,7 +230,7 @@ Tools > Import/Export > CrossRef XML Export Plugin
 
 See the [Crossref OJS Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) for more details.
 
-**3. Metadata supply to the DOAJ**
+**3. Metadata supply to the DOAJ** (Question 29)
 
 Provide greater visibility and discoverability of journal content by providing article-level metadata and links to the full text. Metadata must be provided to the DOAJ within 3 months via article-level xml file or by the DOAJ API.
 
@@ -238,7 +238,7 @@ You can use the OJS DOAJ Import/Export Plugin at Tools > Import/Export > DOAJ Ex
 
 See [PKP Administrator Guide](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export) for more details.
 
-**4. Embedded license information**
+**4. Embedded license information** (Question 45)
 
 To ensure readers (users) know and understand what they are permitted to do with the content, license information must be embedded into each published article, in all its outputs - e.g. on the HTML article webpage, in the XML/metadata and PDF version.
 
@@ -247,7 +247,7 @@ Select the Creative Commons license you will use in Settings > Distribution > Pe
 
 See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) for more details.
 
-**5. Allow reuse via selected Creative Commons licenses**
+**5. Allow reuse via selected Creative Commons licenses** (Question 47)
 
 To allow for generous reuse and remixing of the content. The DOAJ Seal allows for 4 of the Creative Commons licenses: CC-BY, CC-BY-SA, CC-BY-NC, CC-BY-NC-SA. The DOAJ Seal does not consider any of the Creative Commons licenses that restrict remixing or the creation of derivative products of the published content (e.g. CC-BY-ND, CC-BY-NC-ND).
 
@@ -255,13 +255,13 @@ In OJS, when selecting the license to be embedded with the article metadata and 
 
 In OJS select the Creative Commons license you will use in Settings > Distribution > Permissions
 
-**6. Deposit policy**
+**6. Deposit policy** (Question 51)
 
 Provide information on authors self-archiving rights in a statement clarifying to authors what their rights are for self-archiving, which should cover their rights to self-archive preprint, accepted, final publisher versions of the article, usually in places like their own website or institutional repository. The DOAJ requires a policy to be listed for a journal and checks what policy is listed for the journal on services like [SHERPA/RoMEO ](http://www.sherpa.ac.uk/romeo/index.php).
 
 In OJS enter the journal’s Author Self-Archiving Policy in Settings > Distribution > Permissions
 
-**7. Authors retain unrestricted copyright and publishing rights.**
+**7. Authors retain unrestricted copyright and publishing rights.** (Question 52)
 
 The DOAJ Seal expects journals to allow copyright to be retained by the author and not be transferred to the journal or publisher. The journal and publisher must also not obtain exclusive publishing rights to the content, but instead these must be retained by the author. The DOAJ Best Practice recommends the terms of any license agreement should be made freely available to clarify author rights and what, if anything, authors are required to sign when submitting to the journal.
 
