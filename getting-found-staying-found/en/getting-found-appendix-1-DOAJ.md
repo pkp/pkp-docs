@@ -16,9 +16,13 @@ Are you ready? Your journal must:
 
 This section will help you to complete [the DOAJ application](https://doaj.org/application/new) for your OJS-hosted journal. The numbers of these items match the numbered questions on the DOAJ application.
 
+All of the questions must be answered in order for the application to be complete; However, some of the questions only provide supplemental information to DOAJ and are not required for acceptance to DOAJ. The questions that are required for acceptance to DOAJ are marked with the letter **D**. Some additional questions are required for being awarded the DOAJ Seal. These are marked with the letter **S**.
+
 This list of items was adapted from the Library Publishing Coalition's [How-To Guide for Library Publishers: Directory of Open Access Journals Application](https://docs.google.com/document/d/1x1_JRbqX36wqSw7FlMiAqmAhrOzRW-q__XiEa4tvVdY).
 
 Next to each item is information about how to enter this information in OJS and, where applicable, where to link to it on your OJS site.
+
+If you are looking for further explanation on what the questions mean, please refer to [the LPC Guide](https://docs.google.com/document/d/1x1_JRbqX36wqSw7FlMiAqmAhrOzRW-q__XiEa4tvVdY/) or [DOAJ’s Information for Publishers page](https://doaj.org/publishers).
 
 ### Basic Journal Information
 
