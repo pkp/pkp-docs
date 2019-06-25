@@ -93,7 +93,7 @@ You can then choose the type of response, including:
 * a single word text box
 * a single line text box
 * an extended text box \(for longer answers\)
-* checkboxes \(where the reviewer can select multiple possible reponses\)
+* checkboxes \(where the reviewer can select multiple possible responses\)
 * radio buttons \(where the reviewer can only select one possible answer\)
 * dropdown menu \(also where reviewers can only select one possible answer\)
 
