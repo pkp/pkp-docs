@@ -17,7 +17,7 @@ It’s important to note that mass solicitation or “spamming” of authors is 
 ## Commercial scholarly networking platforms
 
 
-> Contributed by Dana MacFarland
+> Contributed by Dana McFarland
 
 Commercial platforms such as ResearchGate and Academia.edu offer various services for authors that may include the following:
 
