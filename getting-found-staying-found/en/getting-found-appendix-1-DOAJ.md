@@ -203,7 +203,7 @@ If you are looking for further explanation on what the questions mean, please re
 
 **35) Select the language(s) that the Full Text of the articles is published in.**
 
-You can select multiple languages.
+* You can select multiple languages.
 
 ### Quality and Transparency of the Editorial Process
 
