@@ -581,6 +581,16 @@ This option is only available for OJS 3.x using the Usage Statistics Plugin.  Fo
 
 This is not currently possible with OJS but will be available in the future.  
 
+### If I replace a galley file for the article, will the download count reset to 0?
+
+OJS collects statistics based on the internal IDs of issues, articles, and galleys.
+
+If you replace a PDF file for a galley, the galley ID will not change. This means download statistics for the galley will continue to accumulate across the two versions of the file. 
+
+If you remove a galley from an article and later add a new galley for the article, the new galley will have a new ID. The cumulative statistics for article views will be unchanged but the usage statistics for the galley file will start again at 0. Historic statistics for the old galley will remain in the metrics, unless you rebuild the access logs into new metrics. New statistics will be collected for the new galley as access happens over time.
+
+The specific impact will also vary by report, as the reports differ as to whether they are giving information for issues, articles, galleys, or a combination of these items.
+
 <hr />
 
 ## Frequently Encountered Statistics Problems
