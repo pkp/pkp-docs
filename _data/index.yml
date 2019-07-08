@@ -49,3 +49,4 @@ apps:
     description: Usage guides and documentation for our scholarly conference software.
     cards:
         - path: ocs
+        - path: ocs-quick-guide
