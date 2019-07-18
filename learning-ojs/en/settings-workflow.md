@@ -127,9 +127,24 @@ Hit the **Save** button to record your changes.
 
 ## Publisher Library
 
-Use the Publisher Library to store important documents, such as your journal's Marketing Plan, and share them with your editorial team.
+The Journal Manager and Editors may upload documents that they would like to share with the other users in the Publisher Library. Any document added in this area will be visible within a user’s Document Library in their manuscript’s Submission Library. 
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-publib.png)
+You can also upload a file here that you would like to be publicly accessible via a URL, which you can link to from other parts of your site, including the author guidelines, submission checklist, or a static page.
+
+Suggested forms that can be uploaded in this area can include the galley approval form, supplemental material cover page, and other forms related to your journals workflow. 
+
+![](./assets/learning-ojs3.1-jm-settings-workflow-publib1.png)
+
+To add a file here, click ‘Add a file’ on the top right corner of the Publisher Library box.
+
+![](./assets/learning-ojs3.1-jm-settings-workflow-publib2.png)
+
+**Name**: Title of Document you want to appear to the user
+
+**Type**: Select Marketing, Permission, Reports, Other
+
+**Public Access**: Enabling this will allow users to download this file using the hyperlink provided if it is hyperlinked in other parts of your journal site.  
+
 
 ## Emails
 
