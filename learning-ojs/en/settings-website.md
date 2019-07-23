@@ -77,11 +77,11 @@ Under Website Settings > Languages you can see a list of languages or locales in
 
 ![](./assets/learning-ojs3.1-jm-settings-web-lang.png)
 
-**Primary Locale**: One language must be set as the primary locale, which means the language the journal appears in by default
+**Primary Locale**: One language must be set as the primary locale, which means the language the journal appears in by default.
 
-**UI**: If you want the journal’s interface to be available in other languages, select them here
+**UI**: If you want the journal’s interface to be available in other languages, select them here.
 
-**Submission**: If you want authors to be able to make submissions in other languages, select them here
+**Submission**: If you want authors to be able to make submissions in other languages, select them here.
 
 **Forms**: This will enable all selected languages to be available when filling in online forms.
 
