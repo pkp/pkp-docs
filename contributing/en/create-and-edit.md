@@ -136,7 +136,6 @@ If you want to edit existing documentation or add a section or chapter to existi
 6. Click that button to open up a plain text editor for the document within GitHub itself.
 7. Edit the document.
 
-Please note: If you do not have permission to edit the pkp-docs repository directly you will need to create a fork.
 
 ![](./assets/contrib-01.gif)
 
