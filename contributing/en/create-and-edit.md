@@ -134,7 +134,7 @@ If you want to edit existing documentation or add a section or chapter to existi
 4. Click the filename to view that individual file.
 5. From there, on the top right of the document window, you should see a small pencil icon.
 6. Click that button to open up a plain text editor for the document within GitHub itself.
-7. Edit the document.
+7. Edit the document
 
 
 ![](./assets/contrib-01.gif)
