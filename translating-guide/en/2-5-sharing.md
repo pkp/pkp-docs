@@ -2,20 +2,14 @@
 
 1. Save and place your files
 2. Suggest inclusion of the files to PKP
-3. ...
 
 ### Saving and Properly Placing the Files
 
 Once you have translated the necessary XML files, they will need to be
-placed in an appropriately named subdirectory, using the ISO locale
+placed in an appropriately named subdirectories, using the ISO locale
 codes for your language and country (e.g., the files in `locale/en_US`
 are translated into French and saved in a subdirectory named
-`locale/fr_CA`).
-
-The only critical files that need translation for the system to function
-properly are found in `locale/en_US`, `dbscripts/xml/data/locale/en_US`
-(versions older than OxS 2.3 only), and `registry/locale/en_US` (again,
-only in versions older than OxS 2.3).
+`locale/fr_CA`).  See [XML files](2-2-xml-files) for location details.
 
 New locales must also be added to the file `registry/locales.xml`, after
 which they can be installed in the system through the site
@@ -119,6 +113,7 @@ git log --graph --oneline --all https://github.com/pkp/ojs/network
 
 ### Exporting a Translation
 
+*(OJS 2.x plugin only)*
 You can export a translation by clicking the <em>Export</em> link across
 from the language name on the Translator plugin page: the system will
 compress all locale files for that one translation to a downloadable
