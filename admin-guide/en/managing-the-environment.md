@@ -10,9 +10,9 @@ PKP applications are relatively simple PHP/MySQL web applications, and can be ru
 
 Package downloads for PKP applications can be downloaded from PKP's website at the following locations:
 
-* OJS: https://pkp.sfu.ca/ojs/ojs_download/
-* OMP: https://pkp.sfu.ca/omp/omp_download/
-* OCS: https://pkp.sfu.ca/ocs/ocs_download/
+* OJS: [https://pkp.sfu.ca/ojs/ojs_download](https://pkp.sfu.ca/ojs/ojs_download)
+* OMP: [https://pkp.sfu.ca/omp/omp_download](https://pkp.sfu.ca/omp/omp_download)
+* OCS: [https://pkp.sfu.ca/ocs/ocs_download](https://pkp.sfu.ca/ocs/ocs_download)
 
 All applications ship with a full set of configuration, installation and upgrade documentation, found in the `docs/` directory included in the package download. These should be consulted as a primary resource for any configuration, installation or upgrade question, and should be reviewed periodically (particularly as part of any upgrade process). PKP provides these guides on the web, and we provide quick links below.
 
