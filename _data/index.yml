@@ -26,7 +26,7 @@ apps:
     cards:
         - path: learning-ojs-2
         - path: ojs2-pkp-school
-        - path: crossref-ojs-manual
+        - path: crossref-ojs2-manual
         - path: importing-exporting
         - path: using-paypal-for-ojs-and-ocs
         - path: ojs-2-technical-reference
