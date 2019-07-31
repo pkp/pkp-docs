@@ -30,7 +30,7 @@ Use this section to configure the submission process.
 
 **Author Guidelines**: Use this field to add guidelines for your authors. This information will be displayed on the journal website.
 
-**Submission Preparation Checklist**: Authors must check off that they agree with each item on this list. Use the _Order_ link to change the order of the items, use the _Add Item_ link to create a new item, and use the blue arrow to the left of the item name to _Edit_ an exiting item.
+**Submission Preparation Checklist**: Authors must check off that they agree with each item on this list. Use the _Order_ link to change the order of the items, use the _Add Item_ link to create a new item, and use the blue arrow to the left of the item name to _Edit_ an existing item.
 
 ![](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
 
@@ -93,7 +93,7 @@ You can then choose the type of response, including:
 * a single word text box
 * a single line text box
 * an extended text box \(for longer answers\)
-* checkboxes \(where the reviewer can select multiple possible reponses\)
+* checkboxes \(where the reviewer can select multiple possible responses\)
 * radio buttons \(where the reviewer can only select one possible answer\)
 * dropdown menu \(also where reviewers can only select one possible answer\)
 
@@ -127,9 +127,24 @@ Hit the **Save** button to record your changes.
 
 ## Publisher Library
 
-Use the Publisher Library to store important documents, such as your journal's Marketing Plan, and share them with your editorial team.
+The Journal Manager and Editors may upload documents that they would like to share with the other users in the Publisher Library. Any document added in this area will be visible within a user’s Document Library in their manuscript’s Submission Library. 
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-publib.png)
+You can also upload a file here that you would like to be publicly accessible via a URL, which you can link to from other parts of your site, including the author guidelines, submission checklist, or a static page.
+
+Suggested forms that can be uploaded in this area can include the galley approval form, supplemental material cover page, and other forms related to your journals workflow. 
+
+![](./assets/learning-ojs3.1-jm-settings-workflow-publib1.png)
+
+To add a file here, click ‘Add a file’ on the top right corner of the Publisher Library box.
+
+![](./assets/learning-ojs3.1-jm-settings-workflow-publib2.png)
+
+**Name**: Title of Document you want to appear to the user
+
+**Type**: Select Marketing, Permission, Reports, Other
+
+**Public Access**: Enabling this will allow users to download this file using the hyperlink provided if it is hyperlinked in other parts of your journal site.  
+
 
 ## Emails
 

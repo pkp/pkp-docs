@@ -1,7 +1,6 @@
 siteAbout: "The [Public Knowledge Project](https://pkp.sfu.ca) is a multi-university initiative to improve the quality and reach of scholarly publishing."
 linkBackToDocs: "Back to [all documentation](/)."
 skipToSummary: "Jump to table of contents"
-skipToSummary: "Toggle Menu"
 searchLabel: Search
 searchPlaceholder: Search everything
 visitForum: "Visit our [community forum](https://forum.pkp.sfu.ca) to meet hundreds of editors, publishers and journal managers."
@@ -9,6 +8,7 @@ devVersion: "Warning: In Development"
 devVersionDescription: "This document describes features or capabilities that have not yet been released to the public. This information is provided as advanced notice for what we plan to be included in future versions. But the details here may change without warning."
 improveLink: "Improve this page"
 improveLinkBaseUrl: "https://github.com/pkp/pkp-docs/edit/master/"
+logoAltText: "PKP Docs"
 navContrib:
   title: Community
   items:
@@ -21,3 +21,4 @@ navAbout:
   items:
     - "[Public Knowledge Project](https://pkp.sfu.ca)"
     - "[PKP&#124;Publishing Services](https://pkpservices.sfu.ca/)"
+toggleMenu: "Toggle Menu"

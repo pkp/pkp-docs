@@ -1,6 +1,6 @@
 # Chapter 14: Editorial Workflow
 
-In this chapter, you will follow as submission throughout the workflow, from first submission to final publication.
+In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
 
 The workflow is divided into 4 stages:
 
@@ -136,9 +136,11 @@ Use the Notes tab to also view or add any editorial notes.
 
 ![](./assets/learning-ojs-3-ed-submissions-notes.png)
 
-**Submission Library**: Where you can add any relevant documents to the submission's library.
+**Submission Library**: The Submission Library is a general storage area for documents that may include conflict-of-interest forms, galley approval forms, etc. A user can upload the completed form for their manuscript in their Submission Library. The uploaded forms will also be available to other participants (with the exception of Reviewers) assigned throughout the editorial or production workflow to edit or re-upload new versions.
 
-![](./assets/learning-ojs-3-ed-submissions-sub-library.png)
+**Document Library**: Users throughout the editorial workflow will be able to access all the files in the Publisher Library (see [Workflow Settings chapter](./settings-workflow.md)) made available by the Journal Manager or Editor through opening the Submission Library and clicking "View Document Library." 
+
+![](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
 
 ### Assigning the Submission
 

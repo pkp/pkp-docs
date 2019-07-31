@@ -17,7 +17,7 @@ It’s important to note that mass solicitation or “spamming” of authors is 
 ## Commercial scholarly networking platforms
 
 
-> Contributed by Dana MacFarland
+> Contributed by Dana McFarland
 
 Commercial platforms such as ResearchGate and Academia.edu offer various services for authors that may include the following:
 
@@ -220,6 +220,8 @@ SHERPA/RoMEO is a popular database used for sharing journals’ and publishers�
 ## Further Reading:
 
 [Open Access Publishers Association - Best Practices in Licensing and Attribution](https://oaspa.org/best-practices-licensing-attribution-need-to-know/)
+
+[University of Toronto Libraries - Journal Publishing Services - Journal Publishing Guide: Copyright and Licensing](https://jps.library.utoronto.ca/index.php/pubguide/copyright)
 
 ["The effect of open access and downloads ('hits') on citation impact: a bibliography of studies"](http://opcit.eprints.org/oacitation-biblio.html)
 
