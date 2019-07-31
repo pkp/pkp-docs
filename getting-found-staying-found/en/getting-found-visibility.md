@@ -59,7 +59,7 @@ Journals publishing with OJS will find it very easy to work with DOIs. However, 
 
 ### Registering your DOIs in OJS
 
-Once you have joined Crossref and configured OJS to use DOIs, you will need to register your content as it is published. OJS can be used to manually deposit DOIs to CrossRef, or configured to automatically deposit DOIs. A step-by-step guide to making DOI deposits to CrossRef can be found in the [Crossref manual](http://docs.pkp.sfu.ca/crossref/).
+Once you have joined Crossref and configured OJS to use DOIs, you will need to register your content as it is published. OJS can be used to manually deposit DOIs to Crossref, or configured to automatically deposit DOIs. A step-by-step guide to making DOI deposits to Crossref can be found in the [Crossref manual](http://docs.pkp.sfu.ca/crossref/).
 
 ### Open Researcher and Contributor ID (ORCID)
 
