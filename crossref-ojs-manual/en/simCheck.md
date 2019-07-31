@@ -2,10 +2,11 @@
 
 OJS 3.1.2 includes support for iThenticate plagiarism check the Crossref Similarity Check service.
 
-https://github.com/asmecher/plagiarism
+[https://github.com/asmecher/plagiarism](https://github.com/asmecher/plagiarism)
 
-> For this plugin to work, the following must be added to your config.inc.php file:
-```
+For this plugin to work, _the following must be added to your config.inc.php file_:
+
+````
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; iThenticate Plugin Settings ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -20,9 +21,9 @@ username = "user@email.com"
 
 ; The password to access the API
 password = "password"
-```
+````
 
-Additionally, SimCheck full-text urls will be provided to Crossref as part of the DOI submission process automatically. 
+Additionally, SimCheck full-text urls will be provided to Crossref as part of the DOI submission process automatically.
 
 ## Installing and Enabling the Plugin
 

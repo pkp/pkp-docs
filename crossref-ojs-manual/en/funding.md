@@ -2,7 +2,7 @@
 
 As of OJS 3.1.2, it is possible to enable a funding registry plugin for submitting funding information to Crossref. The plugin will use the Crossref Funder Registry and Crossref API to check against existing funding agencies. The plugin will include funding information in your Crossref DOI deposits.
 
-https://github.com/ajnyga/funding/
+[https://github.com/ajnyga/funding/](https://github.com/ajnyga/funding/)
 
 >This plugin adds submission funding data using the Crossref funders registry, considers the data in the Crossref and DataCite XML export and displays them on the submission view page.
 
