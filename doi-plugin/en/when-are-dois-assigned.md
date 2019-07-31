@@ -2,7 +2,7 @@
 
 It is important that you understand when DOIs will be assigned because **DOI assignment is irreversible**. Once an article or issue is published there is no way from impeding automatic DOI assignment to the corresponding objects (issues, articles, galleys and supplementary files). This is due to the nature of permanent IDs: they are meant to be assigned once and only once and then never change again. This means that as soon as any public user got the chance to access a DOI it may never be changed after.
 
-The DOI of the object is generated automatically during the first public access to the object. Public access to a publication object is assumed whenever the object is viewed for the first time on the public web site of the journal or whenever the object was exported to a file format that contains and supports DOIs (e.g. PubMed format, native OJS export format, CrossRef, DataCite, mEDRA formats, etc.).
+The DOI of the object is generated automatically during the first public access to the object. Public access to a publication object is assumed whenever the object is viewed for the first time on the public web site of the journal or whenever the object was exported to a file format that contains and supports DOIs (e.g. PubMed format, native OJS export format, Crossref, DataCite, mEDRA formats, etc.).
 
 The assignment logic is slightly different for the different suffix generation strategies
 

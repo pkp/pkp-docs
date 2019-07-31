@@ -119,8 +119,8 @@ Settings > Website > Archiving .
 
 2. Permanent identifiers                                                                            
 Ensure articles may continue to be found even when URLs change. The most common form of permanent identifier is the Digital Object Identifier [DOI](https://dx.doi.org/), but there may be others in use for a journal.
-OJS can generate DOIs as part of the metadata and allows deposit of those DOIs directly to CrossRef (you must be a member of CrossRef to register DOIs):
-Tools > Import/Export > CrossRef XML Export Plugin              
+OJS can generate DOIs as part of the metadata and allows deposit of those DOIs directly to Crossref (you must be a member of Crossref to register DOIs):
+Tools > Import/Export > Crossref XML Export Plugin              
     See [Crossref | OJS Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) for more details.
 
 3. Metadata supply to the DOAJ                                                         
