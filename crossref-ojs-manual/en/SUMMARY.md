@@ -11,6 +11,6 @@
     - [Automatic Deposits](./config.md#automatic-deposits)
     - [Manual Deposits](./config.md#manual-deposits)
     - [Updating DOIs](./config.md#updating-dois)
-- [Reference Linking](references.md)
+- [Reference Linking and Deposit](references.md)
 - [Funding Information](funding.md)
 - [Similarity Check](simCheck.md)

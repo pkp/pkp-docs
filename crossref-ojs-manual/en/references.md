@@ -1,4 +1,4 @@
-# Reference Linking
+# Reference Linking and Deposit
 
 As of OJS 3.1.2, it is possible to enable a reference linking plugin for Crossref. The plugin will use the Crossref API to check against plain text references and locate possible DOIs for articles. The plugin will also allow the display of reference lists on the article landing page in OJS.
 
