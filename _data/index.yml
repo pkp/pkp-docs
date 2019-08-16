@@ -13,9 +13,10 @@ apps:
         isDeveloper: true
       - path: starting-a-journal
       - path: gfsf
-      - path: gdpr
       - path: pkp-school
       - path: crossref-ojs-manual
+      - path: orcid
+      - path: gdpr
       - path: looking-for-ojs-2
         isHighlighted: true
   - path: ojs2
