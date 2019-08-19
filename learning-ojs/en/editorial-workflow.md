@@ -830,7 +830,7 @@ To upload the image file:
 6. Continue, review details, and confirm
 7. Click **Save**
 
-To link to the image file you uploaded in the galley text, use the image tag with the file name - e.g., <img src="filename.jpg">. The HTML galley plugin should rewrite the address when the HTML document is shown.
+To link to the image file you uploaded in the galley text, use the image tag with the file name - e.g., `<img src="filename.jpg">`. The HTML galley plugin should rewrite the address when the HTML document is shown.
 
 ### Add the Article to a Category
 
