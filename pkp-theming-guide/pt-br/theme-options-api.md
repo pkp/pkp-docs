@@ -39,7 +39,7 @@ public function init() {
 }
 ```
 
-## modifyOptionsConfig()<a name="modifyoptionsconfig" id="modifyoptionsconfig"></a>
+## modifyOptionsConfig()
 Modifica as configurações de uma opção previamente adicionada. como uma opção de um Tema Pai. Passe o nome da opção e uma nova lista (em formato de _array_ ) de argumentos de opções.
 
 Exemplo que modifica a opção `tipografia` do exemplo anterior.
@@ -100,7 +100,7 @@ public function init() {
 }
 ```
 
-## getOptionsConfig()<a name="getoptionsconfig" id="getoptionsconfig"></a>
+## getOptionsConfig()
 Obtem as configurações definidas para uma opção existente. Isto é útil, juntamente com [modifyOptionsConfig()](#modifyoptionsconfig), para estender escolhas  em uma opção de Tema Pai.
 
 
