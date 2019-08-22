@@ -75,22 +75,22 @@ To get changes to the application that were made after you forked, add the `upst
 For OJS:
 
 ```
-git add remote upstream git@github.com:pkp/ojs.git
+git remote add upstream git@github.com:pkp/ojs.git
 cd lib/pkp
-git add remote upstream git@github.com:pkp/pkp-lib.git
+git remote add upstream git@github.com:pkp/pkp-lib.git
 cd ../ui-library
-git add remote upstream git@github.com:pkp/ui-library.git
+git remote add upstream git@github.com:pkp/ui-library.git
 cd ../..
 ```
 
 For OMP:
 
 ```
-git add remote upstream git@github.com:pkp/omp.git
+git remote add upstream git@github.com:pkp/omp.git
 cd lib/pkp
-git add remote upstream git@github.com:pkp/pkp-lib.git
+git remote add upstream git@github.com:pkp/pkp-lib.git
 cd ../ui-library
-git add remote upstream git@github.com:pkp/ui-library.git
+git remote add upstream git@github.com:pkp/ui-library.git
 cd ../..
 ```
 
