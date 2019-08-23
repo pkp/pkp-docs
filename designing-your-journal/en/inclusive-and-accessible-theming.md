@@ -10,14 +10,14 @@ You can use [WebAim's Contrast Checker](http://webaim.org/resources/contrastchec
 
 Most OJS 3 themes allow you to customize the main or header colour of your website. With [WebAim’s Contrast Checker(https://webaim.org/resources/contrastchecker/), for example, you can check whether you should use black or white text, as well as header logo, with your main colour of choice in order to ensure readability for users with visual limitations. In the following example, the user is testing out a pink as well as a purple selected to match their homepage cover image.
 
-![](./assets/designing-your-journal-inclusive-and-accessible-theming-WCAG-coulour-contrast-checker.png)
+![](./assets/WCAG-coulour-contrast-checker.png)
 
 The test recommends that the user only display black text on pink or white text on purple. Therefore, the user has two accessible options using these colours:
 
-![](./assets/designing-your-journal-inclusive-and-accessible-theming-header-colour-dont-1.png)
-![](./assets/designing-your-journal-inclusive-and-accessible-theming-header-colour-dont-2.png)
-![](./assets/designing-your-journal-inclusive-and-accessible-theming-header-colour-do-1.png)
-![](./assets/designing-your-journal-inclusive-and-accessible-theming-header-colour-do-2.png)
+![](./assets/header-colour-dont-1.png)
+![](./assets/header-colour-dont-2.png)
+![](./assets/header-colour-do-1.png)
+![](./assets/header-colour-do-2.png)
 
 Additionally, with tools such as the [Spectrum Chrome extension](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en) you can emulate various types of colour vision deficiencies (CVD) on any website. Tools like the [Accessible Color Palette Builder](https://toolness.github.io/accessible-color-matrix/) can help you decide on the best colour combinations for your website.
 
@@ -42,7 +42,7 @@ When writing URL text, make sure it can be understood without additional context
 When writing web content, ensure that:
 * Proper headings (e.g., <h1>, <h6>) are used to separate content in longer text. The headings should follow in order (e.g. <h1> - <h2> - <h3>) to allow a screen reader to navigate correctly through the page
 * Enumerative lists are presented as lists (e.g., ordered or unordered, definition lists)
-* Tables have appropriate table headers (the <th> element). 
+* Tables have appropriate table headers (the <th> element).
 
 ## Document accessibility
 
