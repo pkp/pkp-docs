@@ -1,6 +1,6 @@
 # Introduction
 
-[Open Journal Systems (OJS)](https://pkp.sfu.ca/ojs/) is an open source solution to managing and publishing scholarly journals online. OJS 3 has a responsive, themable reader interface where publishers can display journal issues and articles and relay other information about the journal and its policies. 
+[Open Journal Systems (OJS)](https://pkp.sfu.ca/ojs/) is an open source solution to managing and publishing scholarly journals online. OJS 3 has a responsive, themable reader interface where publishers can display journal issues and articles and relay other information about the journal and its policies.
 
 OJS 3 comes prepackaged with a suite of themes and the ability to additionally select various design elements from a set of options to customize the look and feel of your journal site. Most themes allow you to select colours, upload logos and other images, and change fonts. For information about how to make these changes and add content to your site, see the [Website Settings chapter in Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website).
 

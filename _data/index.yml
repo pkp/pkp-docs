@@ -12,6 +12,7 @@ apps:
       - path: developer-docs
         isDeveloper: true
       - path: starting-a-journal
+      - path: designing-your-journal
       - path: gfsf
       - path: pkp-school
       - path: crossref-ojs-manual
@@ -42,6 +43,7 @@ apps:
         - path: admin-guide
         - path: developer-docs
           isDeveloper: true
+        - path: designing-your-journal
         - path: gdpr
   - path: ocs2
     title: Open Conference Systems

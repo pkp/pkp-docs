@@ -19,22 +19,23 @@ The developer tool will allow you to experiment with the settings for various el
 
 ![](./assets/h1-header.png)*A screenshot of what the header will look like on the website with the above code*
 
-You can experiment with a wide variety of scenarios with your CSS modifications using these tools, but there are some things to keep in mind: 
+You can experiment with a wide variety of scenarios with your CSS modifications using these tools, but there are some things to keep in mind:
 
-Most PKP themes are designed to be responsive, meaning that they adjust to various screen sizes on various devices (tablets, mobile phones, etc.), so be sure to test and see how your customizations appear on these other devices as well. 
+Most PKP themes are designed to be responsive, meaning that they adjust to various screen sizes on various devices (tablets, mobile phones, etc.), so be sure to test and see how your customizations appear on these other devices as well.
 
 Keep track of the changes that you make using these tools (or use the Style Editor mentioned below), and make changes incrementally in the stylesheet that you upload to your journal’s website. You may want to consider having a version of the stylesheet open in a separate editor while you test the changes in your browser.
 
 Browser developer tools are quite extensive and include a larger number of features than are mentioned here; consult the developer tools’ respective websites for more information:
 
-- Firefox: https://developer.mozilla.org/en-US/docs/Tools 
-- Chrome: https://developers.google.com/web/tools/chrome-devtools/ 
+- Firefox: [https://developer.mozilla.org/en-US/docs/Tools](https://developer.mozilla.org/en-US/docs/Tools)
+- Chrome: [https://developers.google.com/web/tools/chrome-devtools/](https://developers.google.com/web/tools/chrome-devtools/)
 
 ## Create a basic CSS file using the default template
 
 The first step is to create your .css file. You can either do this in your web browser or using a text editor. Though any text editing tools will work (e.g., Notepad or textEdit), we recommend using a tool like [Atom](https://atom.io/) or [NotePad++](https://notepad-plus-plus.org/), which contains helpful features like syntax highlighting.
 
 ### Use your web browser
+
 The Firefox web browser contains a Style Editor that allows you to create and save your stylesheet while previewing these changes in your browser. To use this feature:
 
 1. Open your OJS home page
@@ -49,6 +50,7 @@ The Firefox web browser contains a Style Editor that allows you to create and sa
 To learn more about the Style Editor tool, see [Firefox’s official documentation](https://developer.mozilla.org/en-US/docs/Tools/Style_Editor).
 
 ### Use a text editor
+
 1. Open your text editor
 2. Create a new file and save the file with a name using the .css extension (e.g., ojs-style.css)
 3. Add the custom elements you would like to override in your CSS
@@ -56,10 +58,11 @@ To learn more about the Style Editor tool, see [Firefox’s official documentati
 5. Upload your file to OJS (see below)
 
 ### Upload your CSS file
+
 To test out your new or modified CSS before uploading it to your live journal, you can:
 - Upload it to your Firefox Style Editor
 - Upload it to your OJS sandbox site
-- Upload it to the PKP demo site 
+- Upload it to the PKP demo site
 
 When ready to upload your CSS, go to Settings > Website > Appearance > Journal Style Sheet and click **Upload**.
 
