@@ -10,7 +10,7 @@ You can use [WebAim's Contrast Checker](http://webaim.org/resources/contrastchec
 
 Most OJS 3 themes allow you to customize the main or header colour of your website. With [WebAim’s Contrast Checker(https://webaim.org/resources/contrastchecker/), for example, you can check whether you should use black or white text, as well as header logo, with your main colour of choice in order to ensure readability for users with visual limitations. In the following example, the user is testing out a pink as well as a purple selected to match their homepage cover image.
 
-![](./assets/WCAG-coulour-contrast-checker.png)
+![](./assets/WCAG-colour-contrast-checker.png)
 
 The test recommends that the user only display black text on pink or white text on purple. Therefore, the user has two accessible options using these colours:
 
