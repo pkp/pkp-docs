@@ -13,7 +13,7 @@ For example:
 ![](./assets/browser-developer-tools.png)*A screenshot of an OJS website using Firefox developer tools*
 
 The developer tool will allow you to experiment with the settings for various elements on the page and to test these modifications might look like before adding them to your CSS file where the change will be reflected on your site. Making changes within the developers tools will not alter any changes made on the website itself — just the version of the website that you are viewing in your browser. For example, you can alter the header that the site name is contained in 
-```<h1 class=“pkp_site_name”>``` to see what the site would look like if the top header had a black background. 
+`<h1 class=“pkp_site_name”>` to see what the site would look like if the top header had a black background. 
 
 ![](./assets/developer-tools-h1.png)*A screenshot of header CSS code in Firefox developer tools*
 
