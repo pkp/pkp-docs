@@ -1,5 +1,8 @@
 # Create a Stylesheet
 
+> When customizing your journal with custom CSS styles, we strongly encourage you to involve technical and design experts to ensure that the changes you make do not adversely effect your journal. Changes to the CSS can effect your compliance with accessibility laws in your country, impact the usability of your journal on different devices, and cause other unforeseen consequences that a professional can help you avoid.<br/><br/>However, we understand that many journals do not have the funds to access these resources. The guide below is provided for those who want to try to write CSS customizations themselves.
+{:.warning}
+
 In OJS, the Journal Manager, Journal Editor and Production Editor can upload a customized CSS (cascading stylesheet) file to override default CSS settings of a theme.
 
 ## Identifying elements of CSS
@@ -21,7 +24,8 @@ The developer tool will allow you to experiment with the settings for various el
 
 You can experiment with a wide variety of scenarios with your CSS modifications using these tools, but there are some things to keep in mind:
 
-Most PKP themes are designed to be responsive, meaning that they adjust to various screen sizes on various devices (tablets, mobile phones, etc.), so be sure to test and see how your customizations appear on these other devices as well.
+> Most PKP themes are designed to be responsive, meaning that they adjust to various screen sizes on various devices (tablets, mobile phones, etc.), so be sure to test and see how your customizations appear on these other devices as well.
+{:.tip}
 
 Keep track of the changes that you make using these tools (or use the Style Editor mentioned below), and make changes incrementally in the stylesheet that you upload to your journal’s website. You may want to consider having a version of the stylesheet open in a separate editor while you test the changes in your browser.
 
@@ -67,3 +71,5 @@ To test out your new or modified CSS before uploading it to your live journal, y
 When ready to upload your CSS, go to Settings > Website > Appearance > Journal Style Sheet and click **Upload**.
 
 ![](./assets/upload-stylesheet.png)
+
+When you're satisfied with the result, be sure to test your website on several devices, including laptops, tablets and phones, to ensure that you are happy with the way it looks no matter how your users access the journal's website.
