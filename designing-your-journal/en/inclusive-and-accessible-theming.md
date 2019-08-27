@@ -40,9 +40,29 @@ When writing URL text, make sure it can be understood without additional context
 ## Page structure
 
 When writing web content, ensure that:
-* Proper headings (e.g., <h1>, <h6>) are used to separate content in longer text. The headings should follow in order (e.g. <h1> - <h2> - <h3>) to allow a screen reader to navigate correctly through the page
+
+* Proper heading levels (e.g., `<h1>`, `<h6>`) are used to separate content in longer text. Heading levels should not be skipped in the ordering (e.g. `<h1>` - `<h2>` - `<h3>`) so that a screen reader can navigate correctly through the page - for example, the following is invalid because a `<h3>` follows directly after a `<h1>`, without a `<h2>` between them:
+
+```html
+<h1>Title</h1>
+<h3>1 XXXX</h3>
+<h2>2. XXXX</h2>
+```
+
+* Headings of the same level should have the same tag, and heading levels can be repeated; for example:
+
+```html
+<h1>Title</h1>
+<h2>1. XXXX</h2>
+<h2>2. XXXX</h2>
+<h3>2.1 XXXX</h3>
+<h3>2.2 XXXX</h3>
+<h2>3. XXXX</h2>
+```
+
+* There should only ever be one `<h1>` on a page. Usually, the theme provides the `<h1>` and you do not need to create this.
 * Enumerative lists are presented as lists (e.g., ordered or unordered, definition lists)
-* Tables have appropriate table headers (the <th> element).
+* Tables have appropriate table headers (the `<th>` element).
 
 ## Document accessibility
 
@@ -52,4 +72,4 @@ Non-HTML content, such as documents you upload, should be accessible as well. Wh
 
 When modifying the theme of your journal website, ensure that it remains accessible by checking your journal on different browsers and on various devices.
 
-Additional online tools such as [AChecker](http://achecker.ca/checker/index.php) (free) or [Wave browser extension](http://wave.webaim.org/extension) (free) can facilitate website auditing. Tabbing through your pages and using a screen reader such as [ChromeVox](http://www.chromevox.com/) (free), [NVDA](http://www.nvaccess.org/) (free) or [JAWS](http://www.freedomscientific.com/products/fs/jaws-product-page.asp) can help ensure that a person with a visual impairment can navigate your website.
+Additional online tools such as [AChecker](https://achecker.ca/checker/index.php) (free) or [Wave browser extension](http://wave.webaim.org/extension) (free) can facilitate website auditing. Tabbing through your pages and using a screen reader such as [ChromeVox](http://www.chromevox.com/) (free), [NVDA](https://www.nvaccess.org/) (free) or [JAWS](https://www.freedomscientific.com/products/fs/jaws-product-page.asp) can help ensure that a person with a visual impairment can navigate your website.
