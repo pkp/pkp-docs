@@ -27,7 +27,7 @@ La mejor manera de lograr una implementación segura es utilizar las siguientes 
 * Dedicar una base de datos a OJS; utilizar credenciales únicas para acceder a ella. Configure esta base de datos para realizar copias de seguridad automatizadas de forma regular base. Realice una copia de seguridad manual al actualizar o ejecutar mantenimiento.
 * Configure OJS (config.inc.php) para usar hash SHA1 en lugar de MD5.
 * Configure OJS (config.inc.php) para usar force_ssl_login de forma que Los usuarios autentificados se comunican con el servidor a través de HTTPS.
-* Instale OJS de manera que el directorio de archivos NO sea un subdirectorio de la instalación de OJS y no se pueda acceder directamente a través de la web servidor. Restrinja los permisos de los archivos tanto como sea posible. Automatizado las copias de seguridad de este directorio deben estar sincronizadas con copias de seguridad de la base de datos. Estos pasos **son críticos para mantener un entorno seguro**. y evitar el mal uso o la piratería de de su revista.
+* Instale OJS de manera que el directorio de archivos NO sea un subdirectorio de la instalación de OJS y no se pueda acceder directamente a través de la web servidor. Restrinja los permisos de los archivos tanto como sea posible. Automatizado las copias de seguridad de este directorio deben estar sincronizadas con copias de seguridad de la base de datos. Estos pasos **son críticos para mantener un entorno seguro**. y evitar el mal uso o la piratería de su revista.
 
 ### Descargar
 Los OJS pueden descargarse del [sitio web](http://pkp.sfu.ca) del Proyecto de Conocimiento Público.
@@ -38,7 +38,7 @@ Si tiene problemas, consulte también el documento de preguntas frecuentes de es
 
 Para instalar OJS:
 1. Extraer el archivo OJS a la ubicación deseada en su web directorio de documentos.
-2. Realice los siguientes archivos y directorios (y sus contenidos) escribible (es decir, cambiando el propietario o permisos con chown o chmod):
+2. Realice los siguientes archivos y directorios (y sus contenidos) escribibles (es decir, cambiando el propietario o permisos con `chown` o `chmod`):
    * config.inc.php (opcional -- si no se puede escribir se le pedirá que sobrescriba manualmente este archivo durante la instalación)
    * public
    * cache
@@ -46,7 +46,7 @@ Para instalar OJS:
    * cache/t_config
    * cache/t_compile
    * cache/_db
-3. Crear un directorio para almacenar los archivos subidos (archivos de envío, etc.) y hacer que este directorio sea escribible. Se recomienda encarecidamente que este se coloque en una ubicación no accesible a través de la web para garantizar una ubicación segura. medio ambiente (o protegidos de otro modo contra el acceso directo, como a través de .htaccess).
+3. Crear un directorio para almacenar los archivos subidos (archivos de envío, etc.) y hacer que este directorio sea escribible. Se recomienda encarecidamente que éste se coloque en una ubicación no accesible a través de la web para garantizar una ubicación segura. medio ambiente (o protegidos de otro modo contra el acceso directo, como a través de .htaccess).
 4. Abra un navegador web en http://yourdomain.com/path/to/ojs/  y siga las instrucciones de instalación en pantalla.
 Alternativamente, el instalador de la línea de comandos puede ser usado ejecutando el comando "php tools/install.php" desde su directorio OJS. ((Nota: con el instalador CLI puede que tenga que hacer “chown/chmod” en los directorios de archivos públicos y cargados después de la instalación, si el usuario de Apache es diferente del usuario que está ejecutando la herramienta.)
 5. Pasos adicionales recomendados después de la instalación:
@@ -56,10 +56,10 @@ Alternativamente, el instalador de la línea de comandos puede ser usado ejecuta
 ## Actualización
 Nota: Antes de actualizar su instalación, realice una copia de seguridad completa de sus archivos de datos y base de datos. Si el proceso de actualización falla, necesitará recuperarse de la copia de seguridad antes de continuar.
 
-Si está usando el Modo a prueba de fallos de PHP, por favor asegúrese de que la directiva max_execution_time en su archivo de configuración “php.ini” esté establecida en un límite alto. Si se alcanza este o cualquier otro límite de tiempo (por ejemplo, la directiva "Timeout" de Apache) y se interrumpe el proceso de actualización, será necesaria la intervención manual.
+Si está usando el Modo a prueba de fallos de PHP, por favor asegúrese de que la directiva max_execution_time en su archivo de configuración “php.ini” esté establecida en un límite alto. Si se alcanza éste o cualquier otro límite de tiempo (por ejemplo, la directiva "Timeout" de Apache) y se interrumpe el proceso de actualización, será necesaria la intervención manual.
 
 ### Actualización desde OJS versión 2.0.x, 2.1.x, 2.2.x o 2.3.x
-Para actualizar desde estas antiguas ramas de OJS, primero tendrá que actualizar a una versión intermedia de OJS 2.4.x. Descargue la última copia de OJS 2.4.x y siga las instrucciones de actualización incluidas allí, luego lea el documento docs/UPGRADE incluido en este paquete para continuar la actualización desde allí.
+Para actualizar desde estas antiguas ramas de OJS, primero tendrá que actualizar a una versión intermedia de OJS 2.4.x. Descargue la última copia de OJS 2.4.x y siga las instrucciones de actualización incluídas allí, luego lea el documento docs/UPGRADE incluido en este paquete para continuar la actualización desde allí.
 
 ### Actualización desde OJS versión 2.4.x
 OJS 3.x es una importante reescritura de Open Journal Systems, introduciendo numerosos conceptos nuevos y diferentes enfoques. El proceso de actualización de 2.x a 3.x hace todo lo posible para adaptar el contenido antiguo a las nuevas estructuras, pero recomendamos encarecidamente realizar una actualización de prueba y explorar el nuevo sistema antes de enviar el contenido a la actualización. Las **_degradaciones de 3.x a 2.x no serán soportadas_**.
@@ -71,7 +71,7 @@ Obtención del último código OJS
 Actualización de la base de datos OJS
 ```
 
-Se recomienda encarecidamente que revise también las infos del release (docs/RELEASE) y otra documentación en el directorio “docs” antes de realizar una actualización.
+Se recomienda encarecidamente que revise también las datos del release (docs/RELEASE) y otra documentación en el directorio “docs” antes de realizar una actualización.
 
 ### Obtención del último código OJS
 El código fuente de OJS está disponible en dos formatos: un paquete completo e independiente, y desde el acceso de sólo lectura a github.
