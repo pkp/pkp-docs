@@ -15,7 +15,6 @@ apps:
       - path: gfsf
       - path: pkp-school
       - path: crossref-ojs-manual
-      - path: orcid
       - path: gdpr
       - path: looking-for-ojs-2
         isHighlighted: true
