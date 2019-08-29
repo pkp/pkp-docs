@@ -186,7 +186,7 @@ If you have edited email templates but want to reverse the edits and restore the
 
 #### Add email template
 
-Although there is a button to Add Email Template, which you can use it to create a custom email template, it will not be available to use at any stage in the workflow. This feature will be available in a future release of OJS 3.x.
+Click the button **Add Email Template** to create a custom email template that you can use when notifying a user or adding a participant to a submission. Note that in versions earlier than OJS 3.1.2, you can create a custom email templates but it will not be available to use at any stage in the workflow. 
 
 #### Add email attachment
 
