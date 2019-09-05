@@ -16,7 +16,7 @@ Otros le permiten importar o exportar datos de usuario o artículo.
 Para obtener más información sobre el plugin de exportación XML de referencias cruzadas, consulte la guía de referencias cruzadas de PKP.
 
 ## Estadísticas
-La página Estadísticas proporciona acceso a una variedad de informes de de su revista.
+La página Estadísticas proporciona acceso a una variedad de informes de su revista.
 
 ![Captura de pantalla para generar estadísticas](./assets/image99.png)
 
