@@ -52,17 +52,17 @@ OJS 3.x ahora tiene una interfaz separada cada vez que inicie sesión en el sist
 
 La interfaz editorial se conoce como su panel de control y consta de los siguientes elementos:
 
-1 Barra de navegación superior: A la izquierda, encontrará el nombre de la revista con la que está trabajando actualmente (por ejemplo, Journal of Public Knowledge). Si está inscrito en más de una revista en esta instalación de OJS, puede utilizarla para cambiar de revista. Junto a esto están sus Tareas (artículos que necesitan atención inmediata). A la derecha, puede cambiar de idioma si la revista es multilingüe, ver la interfaz de lectura o hacer clic en su nombre de usuario para ver su perfil o cerrar la sesión.
+1. Barra de navegación superior: A la izquierda, encontrará el nombre de la revista con la que está trabajando actualmente (por ejemplo, Journal of Public Knowledge). Si está inscrito en más de una revista en esta instalación de OJS, puede utilizarla para cambiar de revista. Junto a esto están sus Tareas (artículos que necesitan atención inmediata). A la derecha, puede cambiar de idioma si la revista es multilingüe, ver la interfaz de lectura o hacer clic en su nombre de usuario para ver su perfil o cerrar la sesión.
 
-2 Panel del menú izquierdo: Estas son las secciones principales del panel, incluyendo los envíos, la administración de números, la administración de suscripciones (si está ejecutando una revista con suscripciones), la configuración, la administración de usuarios y funciones, y las herramientas. Los usuarios con menos permisos (por ejemplo, Autores, Revisores, Copiadores, etc.) verán menos enlaces aquí.
+2. Panel del menú izquierdo: Estas son las secciones principales del panel, incluyendo los envíos, la administración de números, la administración de suscripciones (si está ejecutando una revista con suscripciones), la configuración, la administración de usuarios y funciones, y las herramientas. Los usuarios con menos permisos (por ejemplo, Autores, Revisores, Copiadores, etc.) verán menos enlaces aquí.
 
-3 Barra de navegación azul: Estas opciones de menú son específicas para las diferentes secciones del flujo de trabajo editorial. Los metadatos, el historial editorial y la biblioteca de envíos forman parte del registro de envíos que se muestra a continuación.
+3. Barra de navegación azul: Estas opciones de menú son específicas para las diferentes secciones del flujo de trabajo editorial. Los metadatos, el historial editorial y la biblioteca de envíos forman parte del registro de envíos que se muestra a continuación.
 
-4 Panel principal: En el panel principal verá el área de trabajo actual. En la imagen de arriba, usted está viendo un registro de sumisión en la etapa de Producción.
+4. Panel principal: En el panel principal verá el área de trabajo actual. En la imagen de arriba, usted está viendo un registro de sumisión en la etapa de Producción.
 
-5 Submenús del Panel Principal: Dentro del Panel Principal, a menudo verá pestañas que le permiten ver información diferente sobre el contenido en el que se está trabajando. En este ejemplo, el registro de envío se rompe en cuatro secciones (Envío, Revisión, Edición, Producción). Fíjese en la pestaña Ayuda a la derecha, que proporciona ayuda sensible al contexto para la página que está viendo actualmente.
+5. Submenús del Panel Principal: Dentro del Panel Principal, a menudo verá pestañas que le permiten ver información diferente sobre el contenido en el que se está trabajando. En este ejemplo, el registro de envío se rompe en cuatro secciones (Envío, Revisión, Edición, Producción). Fíjese en la pestaña Ayuda a la derecha, que proporciona ayuda sensible al contexto para la página que está viendo actualmente.
  
-6 Panel derecho: Desde aquí, puede ver los botones de acción, como Schedule for Publication. Diferentes páginas tienen diferentes botones de acción. Debajo de los botones de acción se encuentra la tabla Participantes, que enumera a todos los participantes (excepto a los Revisores) involucrados en el envío.
+6. Panel derecho: Desde aquí, puede ver los botones de acción, como Schedule for Publication. Diferentes páginas tienen diferentes botones de acción. Debajo de los botones de acción se encuentra la tabla Participantes, que enumera a todos los participantes (excepto a los Revisores) involucrados en el envío.
 
 ## Contribuciones de la Comunidad
 
