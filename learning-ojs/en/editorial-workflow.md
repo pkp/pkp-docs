@@ -26,7 +26,7 @@ Your Tasks are available from the top left menu of your Dashboard. Note the numb
 
 Tasks provide a quick look at items that need your attention. Bold entries are unread, and unbold entries have been read.
 
-Use the checkbox to mark tasks for deletion \(the delete link is available at the bottom of the list\).
+Use the checkbox to mark tasks for deletion \(the link is available at the bottom of the list\).
 
 <hr />
 
@@ -96,7 +96,9 @@ Once you find the submission, you can use the blue arrow to reveal options to se
 
 ![](./assets/learning-ojs3.1-ed-submission-details.png)
 
-**Delete** will move the submission to the Archives and **Activity Log & Notes** will bring up the submission's history.
+**Delete** will completely remove the submission and all submission files from your journal. If you want to keep a record of the submission, it is better to **Decline** it, which will move the submission to the Archive.
+
+**Activity Log & Notes** will bring up the submission's history.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-log.png)
 
