@@ -363,24 +363,24 @@ OJS 3.1.2 now offers Editors and Journal Managers the option of viewing graph an
 
 The visual statistics can be found under **Statistics** on the left menu panel, by clicking  **Articles**.
 
-![] (./assets/Article-Usage-Visual-Statistics-1)
+![](./assets/Article-Usage-Visual-Statistics-1.png)
 
 The Articles statistics show the articles' abstract views in both graph and table format. The visual graphic can be changed from Monthly or Daily view. While the table format will allow you to filter the Total in ascending or descending order. 
 
-![] (./assets/Article-Usage-Visual-Statistics-2)
-![] (./assets/Article-Usage-Visual-Statistics-3)
+![](./assets/Article-Usage-Visual-Statistics-2.png)
+![](./assets/Article-Usage-Visual-Statistics-3.png)
 
 The calendar icon on the top right corner of your dashboard gives you the option of changing the article view to the Last 30 days, Last 90 days, Last 12 months, All dates or a Custom Date Range. 
 
-![] (./assets/Article-Usage-Visual-Statistics-4)
+![](./assets/Article-Usage-Visual-Statistics-4.png)
 
 The filter icon on the top right corner of your dashboard gives you the option of filtering the articles by Sections.
 
-![] (./assets/Article-Usage-Visual-Statistics-5)
+![](./assets/Article-Usage-Visual-Statistics-5.png)
 
 You also have the option of searching the statistics of a specific article by title, author, or manuscript ID by using the search function under **Article Details**.
 
-![] (./assets/Article-Usage-Visual-Statistics-6)
+![](./assets/Article-Usage-Visual-Statistics-6.png)
 
 
 
