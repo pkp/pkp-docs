@@ -358,7 +358,33 @@ This query will display aggregate counts for fulltext downloads by country in de
 
 ![](https://lh4.googleusercontent.com/L1GghbRsng68WpYdY-SFbsTvcLc9MjdKfOXRzMHpCgiBzRxrATY_1dU2HVLWxJo1SdkTIgxhj1rHqjXhw8S5p6Mr3-_PvDlYn4JZbpM6kboSDQmcwgcUkuz3PeqcyOYSHTYzA15t)
 
-## Display Usage Statistics
+## Article Usage Visual Statistics
+OJS 3.1.2 now offers Editors and Journal Managers the option of viewing graph and table representations of article usage, including abstract views and full-text downloads. 
+
+The visual statistics can be found under **Statistics** on the left menu panel, by clicking  **Articles**.
+
+![] (./assets/Article-Usage-Visual-Statistics-1)
+
+The Articles statistics show the articles' abstract views in both graph and table format. The visual graphic can be changed from Monthly or Daily view. While the table format will allow you to filter the Total in ascending or descending order. 
+
+![] (./assets/Article-Usage-Visual-Statistics-2)
+![] (./assets/Article-Usage-Visual-Statistics-3)
+
+The calendar icon on the top right corner of your dashboard gives you the option of changing the article view to the Last 30 days, Last 90 days, Last 12 months, All dates or a Custom Date Range. 
+
+![] (./assets/Article-Usage-Visual-Statistics-4)
+
+The filter icon on the top right corner of your dashboard gives you the option of filtering the articles by Sections.
+
+![] (./assets/Article-Usage-Visual-Statistics-5)
+
+You also have the option of searching the statistics of a specific article by title, author, or manuscript ID by using the search function under **Article Details**.
+
+![] (./assets/Article-Usage-Visual-Statistics-6)
+
+
+
+## Display Usage Statistics for Readers
 
 In OJS 3 you can display an article's usage statistics for the current year as a graph on the article landing page by using the Usage Statistics Plugin, like in this image.
 
