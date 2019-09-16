@@ -22,7 +22,7 @@ OJS proporciona una serie de opciones relacionadas con la seguridad que pueden s
 
 ![](./assets/learning-ojs3.1-jm-settings-dist-access-ES.png)
 
-La opción de acceso abierto está seleccionada como la opción predeterminada. Sin embargo, si solo desea utilizar OJS para una revista de suscripción, elija la segunda opción. Esto también activará a sección de Suscripción en la barra lateral izquierda (se describirá información adicional sobre la Gestión de Suscripciones en un próximo capítulo).
+La opción de acceso abierto está seleccionada como la opción predeterminada. Sin embargo, si solo desea utilizar OJS para una revista de suscripción, elija la segunda opción. Esto también activará la sección de Suscripción en la barra lateral izquierda (se describirá información adicional sobre la Gestión de Suscripciones en un próximo capítulo).
 
 Para la gestión editorial y no para la publicación, seleccione la última opción.
 
