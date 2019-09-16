@@ -8,11 +8,11 @@ A "Digital Object Identifier" (DOI) is a **globally unique identifier** for digi
 
 DOIs can be used for a very broad range of digital objects. The only common denominator of such objects is that they have a URL assigned, through which they can be located. DOIs do not impose a single metadata format. Digital objects can have specialized metadata assigned that is specific to the content and format of that object. That's where DOI registration agencies like Crossref, mEDRA, and DataCite come in. These specialized registration agencies accept only certain types of digital objects and define mandatory and optional metadata fields to be delivered when registering a DOI. DOI agencies require that metadata be delivered in well-defined metadata formats. Usually the agency defines their own metadata format or adapt an existing standard to their purpose.
 
-[Crossref](http://www.crossref.org/) is the official DOI link Registration Agency for the International DOI Foundation. It was founded as a cooperative effort by journal publishers to enable cross-publisher citation linking for online academic journals.
+[Crossref](https://www.crossref.org/) is the official DOI link Registration Agency for the International DOI Foundation. It was founded as a cooperative effort by journal publishers to enable cross-publisher citation linking for online academic journals.
 
-[mEDRA](http://www.medra.org/) is the multilingual European DOI Registration Agency. It registers documents of many European Union institutions but is also open to private and public institutions world-wide for registration of serial publications, serial publication issues and serial articles. In OJS language these are journal issues, articles and galleys.
+[mEDRA](https://www.medra.org/) is the multilingual European DOI Registration Agency. It registers documents of many European Union institutions but is also open to private and public institutions world-wide for registration of serial publications, serial publication issues and serial articles. In OJS language these are journal issues, articles and galleys.
 
-[DataCite](http://www.datacite.org/) is an international not-for-profit association of several research institutions. DataCite was originally founded to make DOI registration available for primary research data. Nowadays DataCite registers a broad range of publication objects. In the OJS context these are journal issues, articles, galleys and supplementary files.
+[DataCite](https://www.datacite.org/) is an international not-for-profit association of several research institutions. DataCite was originally founded to make DOI registration available for primary research data. Nowadays DataCite registers a broad range of publication objects. In the OJS context these are journal issues, articles, galleys and supplementary files.
 
 ## How does the DOI system work?
 
