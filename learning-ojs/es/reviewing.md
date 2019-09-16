@@ -50,7 +50,7 @@ Sus opciones incluyen:
 * **Revisiones Requeridas**: requiere cambios menores que pueden ser revisados y aceptados por el editor.
 * **Reenvío para revisión**: requiere cambios importantes y otra ronda de revisión por pares.
 * **Reenviar a otro lugar**: no parece ser una buena opción para el enfoque y alcance de esta revista.
-* **Declinar la Envío**: tiene demasiada debilidad para ser aceptada.
+* **Declinar el Envío**: tiene demasiada debilidad para ser aceptada.
 * **Vea Comentarios**: si ninguna de las recomendaciones anteriores tiene sentido, puede dejar un comentario para el editor detallando sus preocupaciones.
 
 Por último, pulse el botón **Enviar revisión** para completar la tarea. Se le pedirá que lo confirme.
