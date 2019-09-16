@@ -19,7 +19,7 @@ Utilice las fichas para navegar a las diferentes secciones de Ajustes de la revi
 
 Las **iniciales de la revista** son las iniciales de la revista. Por ejemplo, *JSD*.
 
-**Abreviatura de la revista** es la abreviatura del nombre de de su revista. Por ejemplo, *JSoftDoc*.
+**Abreviatura de la revista** es la abreviatura del nombre de su revista. Por ejemplo, *JSoftDoc*.
 
 **Editor** es el nombre de la organización que publica la revista.
 
@@ -27,7 +27,7 @@ Las **iniciales de la revista** son las iniciales de la revista. Por ejemplo, *J
 
 **Resumen de la revista** es una breve descripción de su revista. Si está en una instalación de OJS con múltiples revistas, este texto aparecerá con su listado de revistas.
 
-**Masthead** te permite añadir los nombres de tu equipo editorial o de cualquier otra persona que desees mencionar. Esto aparecerá en el sitio web público bajo Acerca de > Equipo Editorial.
+**Masthead** le permite añadir los nombres de tu equipo editorial o de cualquier otra persona que desee mencionar. Esto aparecerá en el sitio web público bajo Acerca de > Equipo Editorial.
 
 **Acerca de la Revista** es un espacio para agregar cualquier información acerca de su revista que pueda ser de interés para lectores, autores o revisores.
 
@@ -40,7 +40,7 @@ Utilice esta sección para agregar contactos de la revista.
 
 ![](./assets/image112.png)
 
-**Dirección postal**: Añada aquí la dirección postal oficial de de su revista. Esto aparecerá en la página de Contacto de la revista.
+**Dirección postal**: Añada aquí la dirección postal oficial de su revista. Esto aparecerá en la página de Contacto de la revista.
 
 **Contacto principal**: Añada la información de contacto de la persona de contacto principal de la revista.
 
@@ -49,7 +49,7 @@ Utilice esta sección para agregar contactos de la revista.
 Pulse el botón **Guardar** para guardar los cambios.
 
 ## Secciones
-Utilice esta página para configurar las diferentes secciones de de su revista. Por ejemplo, artículos, editoriales, reseñas, comentarios, etc.
+Utilice esta página para configurar las diferentes secciones de su revista. Por ejemplo, artículos, editoriales, reseñas, comentarios, etc.
 
 Todas las secciones existentes aparecerán aquí. OJS requiere al menos una sección, y crea una sección "Artículos" por defecto.
 
