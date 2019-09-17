@@ -183,7 +183,7 @@ The Home page image is the large feature image on the homepage on some themes, s
 <br/>
 
 <figure>
-    <img src="./assets/logo-good-mobile.png">
+    <img src="./assets/splash-image-do-mobile.png">
     <figcaption>The image’s dimensions (wider than tall) allow readers to get an idea of the journal’s latest announcements as soon as they land your home page. This allows some customisation of your website without obstructing its content.</figcaption>
 </figure>
 
