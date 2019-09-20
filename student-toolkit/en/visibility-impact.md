@@ -2,11 +2,11 @@
 
 These two sections briefly summarize strategies for making your journal visible, and checking your impact. If you have any further questions, please contact your librarian for more assistance.
 
-## Visibility 
+## Visibility
 
-Student journals can be promoted through department websites, mailing lists, classroom visits, posters, social media, and word of mouth. If your goal is to expand your readership beyond your campus community, the PKP publication [Getting Found, Staying Found](https://docs.pkp.sfu.ca/getting-found-staying-found/en/) provides an overview of strategies for making your journal more visible in academic communities and on the web. 
+Student journals can be promoted through department websites, mailing lists, classroom visits, posters, social media, and word of mouth. If your goal is to expand your readership beyond your campus community, the PKP publication [Getting Found, Staying Found](https://docs.pkp.sfu.ca/getting-found-staying-found/en/) provides an overview of strategies for making your journal more visible in academic communities and on the web.
 
-### ISSN 
+### ISSN
 
 An ISSN is “an 8-digit code used to identify newspapers, journals, magazines and periodicals of all kinds and on all media–print and electronic” (ISSN International Center, n.d.). They are a counterpart to ISBNs (International Standard Book Numbers) used to identify books. You will need a different ISSN for print and electronic versions of your journal.
 
@@ -16,13 +16,13 @@ In addition to the international centre (linked to above), many countries have a
 
 ### DOI numbers
 
-DOIs are a number sequence used to uniquely identify an online resource, and are used to identify individual articles. They provide stable links to journal content: even if an article moves, its DOI will not change. Having a DOI assigned makes it significantly easier to cite an article and track its citations. DOIs are purchased through Registration Authorities such as [CrossRef](https://www.crossref.org/services/content-registration/). 
+DOIs are a number sequence used to uniquely identify an online resource, and are used to identify individual articles. They provide stable links to journal content: even if an article moves, its DOI will not change. Having a DOI assigned makes it significantly easier to cite an article and track its citations. DOIs are purchased through Registration Authorities such as [CrossRef](https://www.crossref.org/services/content-registration/).
 
 PKP provides [documentation](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/gettingStarted) with information on how to set up DOIs, and CrossRef, in OJS.
 
 ### Search engines
 
-Google crawls the web and automatically adds new sites to its index. If you can’t find your journal on Google, you can submit your [URL manually](https://www.google.com/webmasters/tools/submit-url). 
+Google crawls the web and automatically adds new sites to its index. If you can’t find your journal on Google, you can submit your [URL manually](https://www.google.com/webmasters/tools/submit-url).
 
 Google Scholar identifies scholarly papers based largely on their format. Google Scholar’s [inclusion guidelines](https://scholar.google.com/intl/en/scholar/inclusion.html) specify that articles should meet the following criteria:
 
@@ -37,21 +37,24 @@ If your journal is being hosted by your library or institution, it likely has a 
 
 ### Databases and indexes
 
-Databases are searchable collections of journal articles. They also contain citation information, or metadata, about each article. Metadata is information such as article title, authors, and abstract. Indexes are similar, except they only contain metadata. 
+Databases are searchable collections of journal articles. They also contain citation information, or metadata, about each article. Metadata is information such as article title, authors, and abstract. Indexes are similar, except they only contain metadata.
 
-Commercial databases have strict inclusion criteria, generally requiring journals to have a stable publishing history and an editorial board comprised of respected researchers. This may be an option for a well-established journal with faculty editors. 
+Commercial databases have strict inclusion criteria, generally requiring journals to have a stable publishing history and an editorial board comprised of respected researchers. This may be an option for a well-established journal with faculty editors.
 
 See the section on [Indexes and Databases](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-visibility#indexes-and-databases) in *Getting Found, Staying Found* for more information about getting your journal indexed.
 
 ### Social Media
+
 Social media can be used to announce new articles and engage with your audience. You can also advertise Board positions and share calls for submissions.
 
 ### Directories
 
-Directories are lists of organizations or publications. Most are lists of journal titles, but some include links to full-text articles. Some that list student journals include: 
-* [The Directory of Open Access Journals](https://doaj.org/publishers)(DOAJ)  
+Directories are lists of organizations or publications. Most are lists of journal titles, but some include links to full-text articles. Some that list student journals include:
+
+* [The Directory of Open Access Journals](https://doaj.org/publishers)(DOAJ)
     * Library Publishing Coalition’s [guide to the DOAJ application](https://docs.google.com/document/d/1x1_JRbqX36wqSw7FlMiAqmAhrOzRW-q__XiEa4tvVdY/edit)
-* [Ulrich’s](http://www.ulrichsweb.com/ulrichsweb/faqs.asp#Updating_Ulrichs) 
+    * [DOAJ application guide for OJS journals](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-appendix-1-DOAJ)
+* [Ulrich’s](http://www.ulrichsweb.com/ulrichsweb/faqs.asp#Updating_Ulrichs)
 * [PKP Index](https://index.pkp.sfu.ca/index.php/user/register)
 
 ### Library catalogues
@@ -59,17 +62,14 @@ Directories are lists of organizations or publications. Most are lists of journa
 A simple way to make your journal more accessible is to have it included in your university’s library catalogue or e-journal list. Once your journal has published 2 or 3 issues, consider approaching your university librarian and requesting that the journal be included in the library catalogue and e-journal list. The library will need your [ISSN](https://docs.google.com/document/d/1vE_d8x77AjAVEjbYJ7TqBiK6Kb0HfwbM/edit#heading=h.111kx3o).
 
 ## Impact
+
 ### Citation statistics
 
 Google Scholar provides a free [citation tracking](http://scholar.google.com/citations) service to show how often work in your journal is cited by researchers. If your journal has been indexed by Google Scholar, this service will allow authors to monitor the impact of their articles. Authors must register for an account, and complete a user profile.
 
 ### Readership statistics
 
-Tracking readership statistics can help you understand your audience. These statistics will show whether you are reaching your target audience, and provide information about how readers are interacting with your journal. This data will help you promote your journal more effectively. 
+Tracking readership statistics can help you understand your audience. These statistics will show whether you are reaching your target audience, and provide information about how readers are interacting with your journal. This data will help you promote your journal more effectively.
 
-Most content management software includes features for tracking page views and downloads. Tools like [Google Analytics ](http://www.google.com/analytics/)and [Piwik](https://piwik.org/)  allow you to collect more detailed information, such as seeing how long people are spending on each page, tracking unique and repeat visitors, and monitoring how frequently visitors view your site.
-
-
-
-
+Most content management software includes features for tracking page views and downloads. Tools like [Google Analytics ](http://www.google.com/analytics/) and [Piwik](https://piwik.org/) allow you to collect more detailed information, such as seeing how long people are spending on each page, tracking unique and repeat visitors, and monitoring how frequently visitors view your site.
 

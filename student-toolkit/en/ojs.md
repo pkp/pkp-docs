@@ -6,8 +6,8 @@ Check out this page for some [examples of journals hosted with OJS](https://pkp.
 
 There are a few tools for the OJS system:
 
--   PKP School online courses - [Setting up a Journal in OJS](https://pkpschool.sfu.ca/courses/setting-up-a-journal-in-ojs-3/) and [Editorial Workflow in OJS](https://pkpschool.sfu.ca/courses/editorial-workflow-in-ojs-3/)    
--   PKP Docs: [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/)    
+-   PKP School online courses - [Setting up a Journal in OJS](https://pkpschool.sfu.ca/courses/setting-up-a-journal-in-ojs-3/) and [Editorial Workflow in OJS](https://pkpschool.sfu.ca/courses/editorial-workflow-in-ojs-3/)
+-   PKP Docs: [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/)
 -   The PKP [community forum](https://forum.pkp.sfu.ca/)
 
 OJS comes with plugins that support theme customization, social media sharing, usage statistics, and more. Additionally, OJS has collaborated with CrossRef, an organization dedicated to making scholarly communication better by using metadata to “find, cite, link, and assess” content (crossref.org). There is a plugin and [documentation on using CrossRef with OJS](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).

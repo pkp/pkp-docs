@@ -2,9 +2,9 @@
 
 ## Editorial board
 
-An editorial board, also known as the editorial team, is a group of people who work on the publication and production of the journal. Members should have clearly defined roles, and each role is responsible for distinct stages of the process. For an introduction to the editorial process, see Module 1 Unit 5 of PKP School’s “[Becoming an Editor](https://pkpschool.sfu.ca/courses/becoming-an-editor/)” series. 
+An editorial board, also known as the editorial team, is a group of people who work on the publication and production of the journal. Members should have clearly defined roles, and each role is responsible for distinct stages of the process. For an introduction to the editorial process, see Module 1 Unit 5 of PKP School’s “[Becoming an Editor](https://pkpschool.sfu.ca/courses/becoming-an-editor/)” series.
 
-The [2016 Editorial Standards guide](https://www.editors.ca/node/11696), published by Editors Canada, contains information about editorial processes and conventions, as well as standards for structural editing, stylistic editing, copyediting and proofreading. 
+The [2016 Editorial Standards guide](https://www.editors.ca/node/11696), published by Editors Canada, contains information about editorial processes and conventions, as well as standards for structural editing, stylistic editing, copyediting and proofreading.
 
 Look around at other journals or publishers for descriptions and examples of their boards (such as [Springer](https://www.springer.com/gp/authors-editors/editors/editorial-boards/32688) and [Wiley](https://authorservices.wiley.com/editors/editorial-office-guidelines/editorial-board.html)) to help with the creation of the journal’s board. [These slides](https://tspace.library.utoronto.ca/handle/1807/93452) provide a breakdown of the board structure at the University of Toronto Medical Journal, a student run journal founded in 1923. Including term lengths and how often the Board may meet, in addition to the responsibilities, is a good idea.
 
@@ -14,7 +14,7 @@ University Affairs published an [article in 2017](https://www.universityaffairs.
 
 ### Roles and responsibilities
 
-The titles of these positions may differ between journals, and smaller journals may have one person in all or some of these roles. The following are brief summaries of Board positions with sample job postings, but descriptions should be flexible to accommodate the needs of the journal. 
+The titles of these positions may differ between journals, and smaller journals may have one person in all or some of these roles. The following are brief summaries of Board positions with sample job postings, but descriptions should be flexible to accommodate the needs of the journal.
 
 #### Editor-in-chief
 
@@ -22,7 +22,7 @@ The Editor-in-chief is responsible for overseeing and coordinating the editorial
 
 __Sample job description for Editor in Chief of an Open Access Journal__
 
-[X journal] is seeking applications from students for the volunteer position of Editor in Chief for a 2-year term. [Description of journal taken from “About the Journal” page]. 
+[X journal] is seeking applications from students for the volunteer position of Editor in Chief for a 2-year term. [Description of journal taken from “About the Journal” page].
 [X journal] is a student-run, open access, peer-reviewed journal based at [x institution]
 
 __Responsibilities__
@@ -50,8 +50,9 @@ __Application procedure__
 Please apply with a current cover letter and resume to [email address] by the deadline of [date].
 
 
-#### Managing editor 
-Reports to the editor-in-chief, and oversees the operations of the journal, keeping the team on schedule. With section editors, makes decisions on submissions, and may be the point of contact between the journal and authors. 
+#### Managing editor
+
+Reports to the editor-in-chief, and oversees the operations of the journal, keeping the team on schedule. With section editors, makes decisions on submissions, and may be the point of contact between the journal and authors.
 
 __Sample job description for Managing Editor of an Open Access Journal__
 
@@ -70,7 +71,7 @@ __Benefits__
 This is an excellent opportunity to gain experience in scholarly publishing, editing, web design, and project management while collaborating with a team of colleagues to enhance the [x] field by publishing quality work written by [students, etc].
 
 __Requirements__
- 
+
 * Excellent organizational skills and the ability to prioritize tasks and manage deadlines
 * Ability to work in a highly collaborative environment with a team of volunteers
 * Strong written and verbal communication skills
@@ -83,8 +84,8 @@ __Application procedure__
 Please apply with a current cover letter and resume to [email address] by the deadline of [date].
 
 
-#### Section editor 
-Reporting to the Managing Editor, a Section Editor (or Associate Editor) manages the progression of articles from submission to publication by communicating with authors, peer reviewers, and copy editors regarding article reviews and revisions. Will often have the final decision whether a submission is accepted or rejected. 
+#### Section editor
+Reporting to the Managing Editor, a Section Editor (or Associate Editor) manages the progression of articles from submission to publication by communicating with authors, peer reviewers, and copy editors regarding article reviews and revisions. Will often have the final decision whether a submission is accepted or rejected.
 
 __Sample job description for Section Editor of an Open Access Journal__
 
@@ -110,7 +111,6 @@ __Requirements__
 __Application procedure__
 
 Please apply with a current cover letter and resume to [email address] by the deadline of [date].
-
 
 #### Layout editor
 
@@ -170,14 +170,7 @@ __Requirements__
 * Experience with Open Journal Systems (OJS) and / or content management systems is an asset
 * Punctual and capable of working under pressure and with short deadlines
 * Strong attention to detail
-* Familiarity with [citation style AND journal style]. 
+* Familiarity with [citation style AND journal style].
 
 __Application procedure__
 Please apply with a current cover letter and resume to [email address] by the deadline of [date].
-
-
-
-
-
-
-
