@@ -1,6 +1,6 @@
 # Things to Consider
 
-This [blog post on the Hybrid Publishing Lab](http://hybridpublishing.org/2015/03/oaj-canvas/#more-3570) includes a worksheet or canvas that you can use when thinking of the following consideration for your journal. A version is available in [appendix three](https://github.com/pkp/pkp-docs/blob/student-toolkit/student-toolkit/en/appendix-3.md).
+This [blog post on the Hybrid Publishing Lab](http://hybridpublishing.org/2015/03/oaj-canvas/#more-3570) includes a worksheet or canvas that you can use when thinking of the following consideration for your journal. A version is available in [appendix three](./appendix-3).
 
 ## Choosing a name
 
@@ -31,7 +31,7 @@ When making selection decisions, consider whose voices aren’t being heard. You
 
 How will you advertise for content? Where? Some ideas are on social media, school newspaper or radio, and within an academic department or faculty. Submission information should be included on your website. Depending on how often you are publishing the journal, you may want to accept submissions on an ongoing basis.  
 
-Here’s an example of a [call for papers](https://sfufilmjournal.wixsite.com/cinemainpractice/single-post/2016/11/28/Call-for-Papers) sent out by Cinema in Practice, an undergraduate film journal (also found in [appendix four](https://github.com/pkp/pkp-docs/blob/student-toolkit/student-toolkit/en/appendix-4.md).
+Here’s an example of a [call for papers](https://sfufilmjournal.wixsite.com/cinemainpractice/single-post/2016/11/28/Call-for-Papers) sent out by Cinema in Practice, an undergraduate film journal (also found in [appendix four](./appendix-4).
 
 ## Author fees
 
@@ -45,7 +45,7 @@ How frequently will you publish? Journals are often published annually or biannu
 
 One of the most important considerations for your journal will be creating a Publication Agreement. These are contracts between the author and the journal, protecting both parties’ rights and responsibilities.  
 
-Agreements vary by journal but typically include information on copyright, and author rights. We will discuss these in more detail in the [Copyright and Creative Commons section](https://github.com/pkp/pkp-docs/blob/student-toolkit/student-toolkit/en/copyright.md). Check in with your librarian or copyright office for more assistance.
+Agreements vary by journal but typically include information on copyright, and author rights. We will discuss these in more detail in the [Copyright and Creative Commons section](./copyright.md). Check in with your librarian or copyright office for more assistance.
 
 ### Examples
 
