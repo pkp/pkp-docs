@@ -8,7 +8,7 @@ In this guide we will focus on visual impairments specifically, but it is always
 
 You can use [WebAim's Contrast Checker](http://webaim.org/resources/contrastchecker), [Contrast Ratio Checker](http://leaverou.github.io/contrast-ratio), or the [Colour Contrast Analyser](https://www.paciellogroup.com/resources/contrastanalyser) to check the contrast ratio between your website’s background and text colours and make sure it is accessible based on the [WCAG 2.0 Guidelines](https://www.w3.org/TR/WCAG20/#visual-audio-contrast).
 
-Most OJS 3 themes allow you to customize the main or header colour of your website. With [WebAim’s Contrast Checker(https://webaim.org/resources/contrastchecker/), for example, you can check whether you should use black or white text, as well as header logo, with your main colour of choice in order to ensure readability for users with visual limitations. In the following example, the user is testing out a pink as well as a purple selected to match their homepage cover image.
+Most OJS 3 themes allow you to customize the main or header colour of your website. With [WebAim’s Contrast Checker](https://webaim.org/resources/contrastchecker/), for example, you can check whether you should use black or white text, as well as header logo, with your main colour of choice in order to ensure readability for users with visual limitations. In the following example, the user is testing out a pink as well as a purple selected to match their homepage cover image.
 
 ![](./assets/WCAG-colour-contrast-checker.png)
 
