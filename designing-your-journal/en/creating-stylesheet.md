@@ -36,7 +36,7 @@ Browser developer tools are quite extensive and include a larger number of featu
 
 ## Create a basic CSS file using the default template
 
-The first step is to create your .css file. You can either do this in your web browser or using a text editor. Though any text editing tools will work (e.g., Notepad or textEdit), we recommend using a tool like [Atom](https://atom.io/) or [NotePad++](https://notepad-plus-plus.org/), which contains helpful features like syntax highlighting.
+The first step is to create your .css file. You can either do this in your web browser or using a text editor. Though any text editing tools will work (e.g., Notepad or TextEdit), we recommend using a tool like [Atom](https://atom.io/) or [NotePad++](https://notepad-plus-plus.org/), which contains helpful features like syntax highlighting.
 
 ### Use your web browser
 
