@@ -2,7 +2,7 @@
 
 Como parte de la instalación de OJS, habrá creado una cuenta de usuario de Administrador del Sitio. Cuando inicie sesión en OJS con esa cuenta, tendrá acceso a la configuración del Administrador del Sitio desde el Panel.
 
-Podrá crear nuevas instancias de la revista alojadas, gestionar el soporte de idiomas en todo el sistema y realizar otras funciones administrativas.
+Podrá crear nuevas instancias de las revistas alojadas, gestionar el soporte de idiomas en todo el sistema y realizar otras funciones administrativas.
 
 ## Administración del sitio
 
@@ -22,7 +22,7 @@ Para editar la revista existente, haga clic en la flecha azul a la izquierda del
 **Editar** le permitirá cambiar el título, la descripción o la ruta.
 ![Captura de Pantalla Edicción de Título de Revista](./assets/image10.png)
 
-**Eliminar** le permitirá eliminar la revista de la instalación. Se le pedirá que confirme que realmente desea hacerlo, ya que es irreversible.
+**Eliminar** le permitirá eliminar la revista de la instalación de OJS. Se le pedirá que confirme que realmente desea hacerlo, ya que es irreversible.
 ![Captura de Pantalla Eliminar Revista](./assets/image152.png)
 
 El **Asistente de configuración** le llevará a las distintas opciones de configuración para esa revista. Repasaremos estos ajustes en detalle en el Capítulo 5.
