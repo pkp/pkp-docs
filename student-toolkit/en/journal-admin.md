@@ -12,15 +12,15 @@ Another aspect for consideration would be the diversity of the board. Scholarly 
 
 University Affairs published an [article in 2017](https://www.universityaffairs.ca/career-advice/career-advice-article/benefits-sitting-journals-editorial-board/) that discusses the benefits of participating on a journal’s board and can provide people with an idea of what to expect. Likewise, here is an article from [2016 by Devoney Looser](https://www.chronicle.com/article/How-Your-Journal-Editor-Works/236911?cid=rc_right) from the Chronicle of Higher Education that provides insight into the editorial process.
 
-### Roles and responsibilities
+## Roles and responsibilities
 
 The titles of these positions may differ between journals, and smaller journals may have one person in all or some of these roles. The following are brief summaries of Board positions with sample job postings, but descriptions should be flexible to accommodate the needs of the journal.
 
-#### Editor-in-chief
+### Editor-in-chief
 
 The Editor-in-chief is responsible for overseeing and coordinating the editorial process. For information on the Editor-in-Chief role, this [interview with Dr. Helle Goldman](https://www.editage.com/insights/peer-review-worthy-papers-journal-decision-making-and-more), Editor in Chief of Polar Research, provides some insight.
 
-__Sample job description for Editor in Chief of an Open Access Journal__
+#### Sample job description for Editor in Chief of an Open Access Journal
 
 [X journal] is seeking applications from students for the volunteer position of Editor in Chief for a 2-year term. [Description of journal taken from “About the Journal” page].
 [X journal] is a student-run, open access, peer-reviewed journal based at [x institution]
@@ -50,11 +50,11 @@ __Application procedure__
 Please apply with a current cover letter and resume to [email address] by the deadline of [date].
 
 
-#### Managing editor
+### Managing editor
 
 Reports to the editor-in-chief, and oversees the operations of the journal, keeping the team on schedule. With section editors, makes decisions on submissions, and may be the point of contact between the journal and authors.
 
-__Sample job description for Managing Editor of an Open Access Journal__
+#### Sample job description for Managing Editor of an Open Access Journal
 
 [X journal] is seeking applications from students for the volunteer position of Managing Editor for a 2-year term, with approximate hours of 8+ per week throughout the semester. [Description of journal taken from “About the Journal” page]. [X journal] is a student-run, open access, peer-reviewed journal based at [x institution].
 
@@ -84,10 +84,10 @@ __Application procedure__
 Please apply with a current cover letter and resume to [email address] by the deadline of [date].
 
 
-#### Section editor
+### Section editor
 Reporting to the Managing Editor, a Section Editor (or Associate Editor) manages the progression of articles from submission to publication by communicating with authors, peer reviewers, and copy editors regarding article reviews and revisions. Will often have the final decision whether a submission is accepted or rejected.
 
-__Sample job description for Section Editor of an Open Access Journal__
+#### Sample job description for Section Editor of an Open Access Journal
 
 [X journal] is seeking applications from students for the volunteer position of Section Editor for a 2-year term, for approximately 4-6 hours per week throughout the semester. [Description of journal taken from “About the Journal” page]. [X journal] is a student-run, open access, peer-reviewed journal based at [x institution].
 
@@ -112,11 +112,11 @@ __Application procedure__
 
 Please apply with a current cover letter and resume to [email address] by the deadline of [date].
 
-#### Layout editor
+### Layout editor
 
 Layout editors prepare the manuscript for publication by formatting the article in accordance with journal policies and style guide. Academic journals typically publish in PDF and/or HTML, but other formats such as XML and EPUB may be used.
 
-__Sample job description for Layout Editor of an Open Access Journal__
+#### Sample job description for Layout Editor of an Open Access Journal
 
 [X journal] is seeking applications from students for the volunteer position of Layout Editor for a 2-year term, for approximately 2-4 hours per week, concentrated later in the semester. [Description of journal taken from “About the Journal” page]. [X journal] is a student-run, open access, peer-reviewed journal based at [x institution].
 
@@ -144,10 +144,10 @@ __Application procedure__
 
 Please apply with a current cover letter and resume to [email address] by the deadline of [date].
 
-#### Peer reviewers
+### Peer reviewers
 Provide constructive feedback on the manuscript, including recommendations on whether the article is ready for publication. The Journal BiNET provides guidelines that may be helpful for new reviewers.
 
-__Sample job description for Peer Reviewers for an Open Access Journal__
+#### Sample job description for Peer Reviewers for an Open Access Journal
 
 [X journal] is seeking applications from students for the volunteer position of Peer Reviewer for a 2-year term, for approximately 2-4 hours a week, concentrated mid-semester. [Description of journal taken from “About the Journal” page]. [X journal] is a student-run, open access, peer-reviewed journal based at [x institution].
 
