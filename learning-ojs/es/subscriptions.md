@@ -3,11 +3,11 @@ OJS 3.1 le permite restringir parte o todo su contenido a los suscriptores. Para
 
 ![Captura de pantalla de cómo acceder a las suscripciones](./assets/image200.png)
 
-Una vez allí,en Opciones generales, debe dar un clic a la frase “Haga clic aqui para habilitar módulo de pagos...”
+Una vez allí, en Opciones generales, debe dar un clic a la frase “Haga clic aqui para habilitar módulo de pagos...”
 
 ![Captura de pantalla de Opciones generales](./assets/image15.png)
 
-Luego, presione el botón guardar. Aparecerá en el menú izquierdo de la pantalla, el enlace a Pagos
+Luego, presione el botón Guardar. Aparecerá en el menú izquierdo de la pantalla, el enlace a Pagos
 
 ![Captura de pantalla pagos](./assets/image207.png)
 

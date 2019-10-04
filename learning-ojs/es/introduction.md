@@ -60,7 +60,7 @@ La interfaz editorial se conoce como su panel de control y consta de los siguien
 
 4. Panel principal: En el panel principal verá el área de trabajo actual. En la imagen de arriba, usted está viendo un registro de sumisión en la etapa de Producción.
 
-5. Submenús del Panel Principal: Dentro del Panel Principal, a menudo verá pestañas que le permiten ver información diferente sobre el contenido en el que se está trabajando. En este ejemplo, el registro de envío se rompe en cuatro secciones (Envío, Revisión, Edición, Producción). Fíjese en la pestaña Ayuda a la derecha, que proporciona ayuda sensible al contexto para la página que está viendo actualmente.
+5. Submenús del Panel Principal: Dentro del Panel Principal, a menudo verá pestañas que le permiten ver información diferente sobre el contenido en el que se está trabajando. En este ejemplo, el registro de envío se divide en cuatro secciones (Envío, Revisión, Edición, Producción). Fíjese en la pestaña Ayuda a la derecha, que proporciona ayuda sensible al contexto para la página que está viendo actualmente.
  
 6. Panel derecho: Desde aquí, puede ver los botones de acción, como Schedule for Publication. Diferentes páginas tienen diferentes botones de acción. Debajo de los botones de acción se encuentra la tabla Participantes, que enumera a todos los participantes (excepto a los Revisores) involucrados en el envío.
 

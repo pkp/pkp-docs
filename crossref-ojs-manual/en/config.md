@@ -4,7 +4,7 @@ The Crossref XML Export Plugin  can deposit DOIs to Crossref for registration in
 
 - automatically, as the content is published;
 - manually, from plugin interface;
-- manually, via Crossref XML Export and upload via the Crossref back-end at doi.crossref.org.
+- manually, via Crossref XML Export and upload via the Crossref admin tool at doi.crossref.org.
 
 You can also register your content with Crossref entirely outside of OJS using the Crossref metadata manager, though the plugin can save you having to input metadata by hand.
 
@@ -47,7 +47,7 @@ Manual deposits are always enabled in OJS 3.1.2.
 
 ## Updating DOIs
 
-Any time you make a change to an article's metadata, you should update the metadata associated with your DOI registered with Crossref. Updates do not happen automatically. To update:
+Any time you make a change to an article's metadata, **you should update the metadata associated with your DOI** registered with Crossref. Updates do not happen automatically. To update:
 
 1. Navigate to the Crossref XML Export Plugin
 2. Click the "Articles" sub-heading.

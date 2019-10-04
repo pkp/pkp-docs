@@ -45,6 +45,12 @@ a {
 	font-weight: $medium;
 	text-decoration: none;
 
+	// Avoid long links overflow
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	word-break: break-word;
+
 	&:hover,
 	&:focus {
 		color: $link-hover;

@@ -568,7 +568,7 @@ Desde el panel **Archivos Listos para la Producción**, descargue los archivos a
 
 Las revistas en línea publican hoy sus artículos en una variedad de tipos de archivos. Los más comunes son el PDF y el HTML, pero cada vez se utilizan más formatos adicionales, como ePub, MP3 y XML.
 
-La mayoría de los envíos de autores se presentan como documentos de Microsoft Word (.doc o.docx), y normalmente se mueven a través del flujo de trabajo OJS (revisión, revisión, corrección de estilo) en ese formato. Otros formatos a veces incluyen texto (.txt), formato de texto enriquecido (.rtf) u Open Office (.odt). Estos no son adecuados para la publicación final, por lo que tendrán que ser convertidos a un formato más fácil de leer.
+La mayoría de los envíos de autores se presentan como documentos de Microsoft Word (.doc o .docx), y normalmente se mueven a través del flujo de trabajo OJS (revisión, revisión, corrección de estilo) en ese formato. Otros formatos a veces incluyen texto (.txt), formato de texto enriquecido (.rtf) u Open Office (.odt). Estos no son adecuados para la publicación final, por lo que tendrán que ser convertidos a un formato más fácil de leer.
 
 #### Trabajar a partir de plantillas
 
@@ -576,7 +576,7 @@ Requerir que todos los envíos utilicen una plantilla preformateada con los esti
 
 Microsoft proporciona una breve descripción general para crear modelos [aquí](https://support.office.com/en-us/article/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb).
 
-Una vez que haya creado una plantilla que coincida con el estilo de de su revista, debe vincularla desde sus “Pautas para autores”, junto con una breve explicación de la necesidad de usar la plantilla. Esto significa que todos sus envíos vendrán ya formateados, ahorrándole al editor de maquetación una cantidad significativa de trabajo.
+Una vez que haya creado una plantilla que coincida con el estilo de su revista, debe vincularla desde sus “Pautas para autores”, junto con una breve explicación de la necesidad de usar la plantilla. Esto significa que todos sus envíos vendrán ya formateados, ahorrándole al editor de maquetación una cantidad significativa de trabajo.
 
 He aquí un ejemplo de una revista OJS que requiere que los autores descarguen y utilicen un archivo de plantilla: [Paideusis](https://journals.sfu.ca/pie/index.php/pie#authorGuidelines).
 
@@ -689,7 +689,7 @@ Si es necesario, cambie el nombre del archivo. Presione **Continuar**.
 
 Si tiene más archivos, cárguelos ahora. De lo contrario, pulse **Completar**.
 
-Ahora puede ver las galeradas  en el Panel de Galerada.
+Ahora puede ver las galeradas en el Panel de Galerada.
 
 ![](./assets/image78.png)
 
