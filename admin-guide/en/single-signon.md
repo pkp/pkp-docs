@@ -1,4 +1,4 @@
-# Setting up LDAP/Shibboleth
+# User Authentication and Single Sign-on
 
 ## Introduction 
 For synchronizing user accounts across multiple applications, OJS and OCS support LDAP and Shibboleth, both of which have varying degrees of support in other applications including PhpBB, Drupal, Wordpress, and other content management systems.
