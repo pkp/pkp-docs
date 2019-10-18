@@ -1,29 +1,20 @@
-# Configure OJS
+# Test PayPal plugin in OJS
 
-Now that you have setup your PayPal account, you will need to activate your payment methods in OJS. To do so, login as the Journal Manager, and select Payments. Under General Options, choose your currency:
+To test your PayPal plugin, you will need to enable this  in OJS or OMP. 
 
-![](assets/Paypal13.png)
+## Enable the PayPal plugin
+Go to Website Settings > Plugins > Installed Plugins and find the PayPal Fee Payment plugin. Check the box next to the plugin to enable it. If you also plan to collect manual fees you can enable the Manual Fee Payment plugin as well.
 
-Next, select the kind of payments you wish to charge on your site. These could include author submission fees, fast-track peer review fees, article publication fees, subscription fees, pay-per-view fees, membership fees, or, as in the example below, donations:
+![screenshot of payment plugin in OJS](./assets/Paypal-11.png)
 
-![](assets/Paypal14.png)
+## Set up payments
+Please see [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#payments) for how to enable payments. Ensure that you select **Paypal Fee Payment** as a **Payment Method**. After you select Paypal Fee Payment, fields will appear below for _*Account Name**, **Client ID**, and **Secret**_. Follow the instructions in the [PayPal documentation](https://developer.paypal.com/docs/integration/admin/manage-apps/#create-or-edit-sandbox-and-live-apps) to generate the credentials to enter into the OJS fields. Make sure to check off the box for Test Mode before saving. 
 
-This will create a DONATION link in the sidebar **if** you have installed the PHP libcurl library, and **if** you have not changed the default in your OJS Home &gt; User &gt; Journal Management &gt; Journal Setup \(then choose "5. The Look" and check that 5.6 has the 'Donation Block' still in the right sidebar\):
+![screenshot of distribution settings-payments in OJS](./assets/Paypal-12.png)
 
-![](assets/Paypal15.png)
+Next, go to the [Subscriptions chapter](https://docs.pkp.sfu.ca/learning-ojs/en/subscriptions.html) in Learning OJS 3 and follow the instructions to set up your payment types and subscription types, if applicable.
 
-When readers select the DONATION link, they will be taken to the PayPal Fee Payment page:
+## Test Transactions 
+Using the pretend PayPal accounts, make test payments to the site. Once the payment is complete, the user will return to the journal or conference. The payment will appear in your PayPal Account Overview:
 
-![](assets/Paypal16.png)
-
-After clicking Continue, the reader will be taken directly to PayPal, where they can select their donation amount \(e.g., $10.00\) and pay using a credit card or with their own PayPal account:
-
-![](assets/Paypal17.png)
-
-If they choose to use a credit card, they will need to fill in the resulting form:
-
-![](assets/Paypal18.png)
-
-Once the payment is complete, they will return to the journal or conference. The payment will appear in your PayPal Account Overview:
-
-![](assets/Paypal19.png)
+![screenshot of paypal account overview](./assets/Paypal-13.png)
