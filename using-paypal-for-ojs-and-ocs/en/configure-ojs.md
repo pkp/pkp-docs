@@ -1,6 +1,24 @@
 # Test PayPal plugin in OJS
 
-To test your PayPal plugin, you will need to enable this  in OJS or OMP. 
+Now that you have setup your PayPal account, you will need to activate your payment methods in OJS.
+
+## OJS 3.x
+
+Under Settings > Website > Plugins, enable the Paypal Fee Payment plugin in the Plugin Gallery.
+
+![](assets/Paypal-ojs3-1.png)
+
+Under Settings > Distribution > Payments, check the box to enable payments, select your preferred currency, and choose "PayPal Fee Payment" as the Payment Method.
+
+Enter your credentials under the Paypal Payment Settings. Check the box for Test Mode if you are only testing the plugin.
+
+![](assets/Paypal-ojs3-2.png)
+
+For more information about payments in OJS 3 [see the Learning OJS 3 guide](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#payments).
+
+## OJS 2.x
+
+Login as the Journal Manager, and select Payments. Under General Options, choose your currency:
 
 ## Enable the PayPal plugin
 Go to Website Settings > Plugins > Installed Plugins and find the PayPal Fee Payment plugin. Check the box next to the plugin to enable it. If you also plan to collect manual fees you can enable the Manual Fee Payment plugin as well.
