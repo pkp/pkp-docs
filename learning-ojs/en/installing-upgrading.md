@@ -12,7 +12,7 @@ For those who want to install from source via Git, instructions can be found dir
 
 ### Download
 
-OJS can be downloaded from the [Public Knowledge Project web site.](http://pkp.sfu.ca).
+OJS can be downloaded from the [Public Knowledge Project web site](http://pkp.sfu.ca).
 
 ### Hosted Solutions
 

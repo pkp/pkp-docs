@@ -3,7 +3,6 @@
 * [Introduction](.)
 * [Translating PKP software](1-translating.md)
 * [Technical aspects: how to do it](2-technical.md)
-   * [Applications, library, and branches](2-1-code-organization.md)
    * [Locale XML files](2-2-xml-files.md)
    * [Editing an existing translation](2-3-editing-existing.md)
    * [Creating a translation from scratch](2-4-from-scratch.md)

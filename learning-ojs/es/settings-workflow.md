@@ -114,7 +114,7 @@ Una vez que envíe el formato a un revisor, ya no podrá editarlo porque hacerlo
 
 **Directrices de revisión**: Proporcione a los revisores los criterios para dictaminar sobre la idoneidad de una presentación para su publicación en la prensa; estos pueden incluir instrucciones para preparar una revisión eficiente y provechosa.
 
-**Review Options**: Seleccione si su revista seguirá un proceso de revisión doble ciego, ciego, o abierto.
+**Opciones de revisión**: Seleccione si su revista seguirá un proceso de revisión doble ciego, ciego, o abierto.
 
 **Acceso del revisor**: activar (predeterminado) la primera opción para permitir a los revisores acceder con un solo clic a la revisión, obviando la necesidad de ir a la página web, iniciar la sesión y encontrar la presentación. Por razones de seguridad con esta opción, los editores no pueden modificar las direcciones de correo electrónico o agregar CC o BCC antes de enviar invitaciones a los revisores.
 
@@ -153,7 +153,7 @@ Cuando usted edita una plantilla de correo electrónico, puede cambiar lo que va
 Para editar una plantilla:
 1. Vaya a Preferencias de flujo de trabajo > Correos electrónicos > Plantillas de correo electrónico preparadas
 2. Haga clic en la flecha azul al lado del nombre de la plantilla para que se muestren los enlaces debajo de ella
-3. Haga clic en Edit Email
+3. Haga clic en Modificar correo electrónico
 4. Realizar cambios en el asunto y el cuerpo del texto. Tenga cuidado de no borrar etiquetas tales como "{$authorName}:", las cuales insertan automáticamente el contenido de una presentación.
 5. Cuando haya terminado de editar, haga clic en Guardar.
 

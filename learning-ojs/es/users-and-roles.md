@@ -52,7 +52,7 @@ Nota: Si deja el campo Buscar en blanco, selecciona un rol y pulsa Buscar, obten
 ![Captura de pantalla de filtraje de usuarios](./assets/image71.png)
 
 ### Añadir usuario
-Para agregar un nuevo usuario a de su revista, seleccione el enlace **Añadir usuario**. Esto abrirá una nueva ventana con un conjunto de campos para rellenar.
+Para agregar un nuevo usuario a su revista, seleccione el enlace **Añadir usuario**. Esto abrirá una nueva ventana con un conjunto de campos para rellenar.
 
 ![Captura de pantalla de añadir usuario](./assets/image74.png)
 
@@ -74,7 +74,7 @@ OJS 3 tiene múltiples roles/tareas disponibles, cada uno con diferentes niveles
 
 ![Captura de pantalla de roles](./assets/image105.png)
 
-Desde esta página, puedes ver cada rol/tarea, y la etapa editorial a la que cada rol/tarea puede acceder. Un buen ejemplo de esto es el rol Corrector, que sólo puede acceder a la etapa de edición. Los correctores no pueden saltar a la etapa de revisión para ver qué pasó durante el proceso de revisión por pares. Consulte el [Capítulo 11](editorial-workflow.md) para obtener más información sobre las diferentes etapas editoriales.
+Desde esta página, puedes ver cada rol/tarea, y la etapa editorial a la que cada rol/tarea puede acceder. Un buen ejemplo de esto es el rol **Corrector**, que sólo puede acceder a la etapa de edición. Los correctores no pueden saltar a la etapa de revisión para ver qué pasó durante el proceso de revisión por pares. Consulte el [Capítulo 11](editorial-workflow.md) para obtener más información sobre las diferentes etapas editoriales.
 
 ## Tratamiento de funciones
 
@@ -101,9 +101,9 @@ La tercera opción es útil para editores invitados o posiblemente para editores
 
 ## Crear nuevos roles
 
-Utilice el enlace Crear nuevos roles para abrir una ventana en la que puede crear una nueva función para de su revista, incluida la configuración de las etapas a las que puede acceder y la cantidad de permisos que debe tener
+Utilice el enlace Crear nuevos roles para abrir una ventana en la que puede crear una nueva función para su revista, incluida la configuración de las etapas a las que puede acceder y la cantidad de permisos que debe tener
 
-8.3 Opciones de acceso al sitio
+**Opciones de acceso al sitio**: 
 Esta página le permite determinar cómo los lectores pueden acceder a su revista.
 
 ![Captura de pantalla de opciones de acceso al sitio](./assets/image25.png)

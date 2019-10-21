@@ -95,11 +95,11 @@ Esto abrirá el Formulario de Inscripción para que usted complete con toda la i
 
 ![Captura de pantalla 2 del registro](./assets/image147.png)
 
-Todos los campos marcados con un asterisco (Nombre, Apellido, Afiliación, País, Email, Nombre de usuario, Contraseña, Repetir contraseña) son obligatorios. Si la revista es multilingüe, deberá seleccionar el idioma que prefiera.
+Todos los campos marcados con un asterisco (Nombre, Apellido, Afiliación, País, Correo electrónico, Nombre de usuario, Contraseña, Repetir contraseña) son obligatorios. Si la revista es multilingüe, deberá seleccionar el idioma que prefiera.
 
 Usted se registrará automáticamente como Lector y Autor. También tendrá la opción de registrarse como Revisor.
 
-Usted no podrá auto-registrarse para un rol editorial (por ejemplo, Editor, Editor de Sección, Copiador, Editor de Maquetación, Corrector, o Gerente de Revista). Si necesita inscribirse en ese nivel, póngase en contacto con un administrador de Revista o un administrador de sitio actual.
+Usted no podrá auto-registrarse para un rol editorial (por ejemplo, Editor, Editor de Sección, Copiador, Editor de Maquetación, Corrector, o Gerente de Revista). Si necesita inscribirse en ese nivel, póngase en contacto con un administrador de Revista o un administrador del sitio actual.
 
 ## Cómo ver y cambiar su perfil
 Para ver y editar tu perfil, inicia sesión y haz clic en el enlace de tu nombre de usuario en la esquina superior derecha. Seleccione el enlace **Ver perfil**.

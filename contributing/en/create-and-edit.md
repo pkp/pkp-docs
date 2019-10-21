@@ -91,11 +91,11 @@ isBookIndex: true
 Unlike with a Single-page document, you no longer need to add to index.md. The rest of your document steps should be as follows:
 
 1. Create a folder for the [language of your document](http://www.lingoes.net/en/translator/langcode.htm) (eg: en_US, en_CA, fr_CA, fr_FR).
-2. Create a file called SUMMARY.md
-    - SUMMARY.md is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file.
+2. Create a file called ``SUMMARY.md``
+    - ``SUMMARY.md`` is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file.
         - a chapter link would look like: ``- [Statistics](statistics.md)``
         - a heading inside that chapter would look like: ``- [Definitions](./statistics.md#definitions)``
-3. Create a file called README.md which should be a language specific version of the text you had in ``index.md``.
+3. Create a file called ``README.md`` which should be a language specific version of the text you had in ``index.md``.
 4. Create your chapters and write your links to those files in the ``SUMMARY.md`` file.
     - Each full chapter of a multi-page document should be a single markdown file. Subheadings within those chapters can be linked in ``SUMMARY.md`` to allow for links to specific sections.
 
@@ -134,7 +134,8 @@ If you want to edit existing documentation or add a section or chapter to existi
 4. Click the filename to view that individual file.
 5. From there, on the top right of the document window, you should see a small pencil icon.
 6. Click that button to open up a plain text editor for the document within GitHub itself.
-7. Edit the document.
+7. Edit the document
+
 
 ![](./assets/contrib-01.gif)
 

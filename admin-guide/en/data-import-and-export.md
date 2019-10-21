@@ -50,8 +50,10 @@ First, ensure that the Quick Submit Plugin has been installed and enabled for yo
 Next you will need to create the issues \(or issue\) that will contain the new articles you are importing.
 
 1. Go to Issues &gt; Future issues and select Create Issue.
-2. Enter metadata for the issue and click Save.
-3. Do this for all of the issues you are uploading articles for.
+2. Enter metadata for the issue
+3. If the issue is already published you can check off "Published"
+5. Click Save.
+5. Do this for all of the issues you are uploading articles for.
 
 ![](./assets/create-issue.png)
 
@@ -69,6 +71,22 @@ Next you can import each article with the Plugin.
 8. When you have finished entering all data for the article, click Save.
 
 ![](./assets/quick-submit-plugin%20%282%29.png)
+
+DOIs are not added with the QuickSubmit Plugin. Instead you have to add them separately.
+
+To add existing DOIs to articles that have already been assigned:
+1. Enable and configure the DOI plugin so that you need to "Enter an individual DOI suffix for each published item." 
+2. After you finish uploading the article with the QuickSubmit plugin, click “Go to Submission” to go to the article’s submission record. Or go to the article's submission record through the Submissions dashboard.
+3. Open Metadata on the top right and go to the Identifiers tab
+4. Enter the DOI suffix for the article.
+5. Click Save and then Save again to assign the DOI
+6. If you normally assign DOIs using a default pattern, re-configure the DOI plugin for this after you have finished adding DOIs to articles you uploaded with the QuickSubmit plugin
+
+To assign new DOIs to articles:
+1. Ensure that the DOI plugin is enabled and configured
+2. After you finish uploading the article with the QuickSubmit plugin, click “Go to Submission” to go to the article’s submission record. Or go to the article's submission record through the Submissions dashboard.
+3. Open Metadata on the top right and go to the Identifiers tab. You should see a preview of the DOI that will be assigned and a checked box next to "Assign the DOI to this article." 
+4. Click Save and the DOI will be assigned.
 
 ### Native XML Plugin
 
@@ -213,9 +231,9 @@ To manually export article metadata to DOAJ:
 5. Click Export
 6. Visit [https://doaj.org/](https://doaj.org/) and login to upload the XML file that was created during the export process
 
-### CrossRef XML Export Plugin
+### Crossref XML Export Plugin
 
-The CrossRef XML Export Plugin allows you to automatically and manually export article metadata in CrossRef XML format for deposit with CrossRef.  For information about how to use this plugin, see the CrossRef OJS Manual: [http://docs.pkp.sfu.ca/crossref-ojs-manual/](http://docs.pkp.sfu.ca/crossref-ojs-manual/)
+The Crossref XML Export Plugin allows you to automatically and manually export article metadata in Crossref XML format for deposit with Crossref.  For information about how to use this plugin, see the Crossref OJS Manual: [http://docs.pkp.sfu.ca/crossref-ojs-manual/](http://docs.pkp.sfu.ca/crossref-ojs-manual/)
 
 ### mEDRA Export/Registration Plugin
 

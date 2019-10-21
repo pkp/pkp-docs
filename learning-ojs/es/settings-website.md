@@ -44,7 +44,7 @@ Recuerde presionar **Guardar** para registrar cualquier cambio.
 
 ## Archivo
 
-Si usted es miembro de una red LOCKSS o CLOCKSS, utilice esta página para activar de su revista.
+Si usted es miembro de una red LOCKSS o CLOCKSS, utilice esta página para activar su revista.
 
 ![Captura de pantalla de la página de configuración de archivando](./assets/image157.png)
 
@@ -62,7 +62,7 @@ Utilice esta página para configurar los idiomas utilizados por su revista.
 
 **Formularios:** Esto permitirá que todos los idiomas seleccionados estén disponibles al rellenar formularios en línea.
 
-Si un idioma no está disponible en esta página, póngase en contacto con el Administrador del Sitio para agregarlo por usted. Ver  [Capítulo 4: Administración del Sitio](./site-administration.md) para más detalles en el Capítulo 4.
+Si un idioma no está disponible en esta página, póngase en contacto con el Administrador del Sitio para agregarlo por usted. Ver [Capítulo 4: Administración del Sitio](./site-administration.md) para más detalles en el Capítulo 4.
 
 ## Plugins
 Use esta página para ver todos los plugins instalados y encontrar nuevos plugins.

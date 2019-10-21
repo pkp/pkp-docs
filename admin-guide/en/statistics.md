@@ -358,7 +358,33 @@ This query will display aggregate counts for fulltext downloads by country in de
 
 ![](https://lh4.googleusercontent.com/L1GghbRsng68WpYdY-SFbsTvcLc9MjdKfOXRzMHpCgiBzRxrATY_1dU2HVLWxJo1SdkTIgxhj1rHqjXhw8S5p6Mr3-_PvDlYn4JZbpM6kboSDQmcwgcUkuz3PeqcyOYSHTYzA15t)
 
-## Display Usage Statistics
+## Article Usage Visual Statistics
+OJS 3.1.2 now offers Editors and Journal Managers the option of viewing graph and table representations of article usage, including abstract views and full-text downloads. 
+
+The visual statistics can be found under **Statistics** on the left menu panel, by clicking  **Articles**.
+
+![](./assets/Article-Usage-Visual-Statistics-1.png)
+
+The Articles statistics show the articles' abstract views in both graph and table format. The visual graphic can be changed from Monthly or Daily view. While the table format will allow you to filter the Total in ascending or descending order. 
+
+![](./assets/Article-Usage-Visual-Statistics-2.png)
+![](./assets/Article-Usage-Visual-Statistics-3.png)
+
+The calendar icon on the top right corner of your dashboard gives you the option of changing the article view to the Last 30 days, Last 90 days, Last 12 months, All dates or a Custom Date Range. 
+
+![](./assets/Article-Usage-Visual-Statistics-4.png)
+
+The filter icon on the top right corner of your dashboard gives you the option of filtering the articles by Sections.
+
+![](./assets/Article-Usage-Visual-Statistics-5.png)
+
+You also have the option of searching the statistics of a specific article by title, author, or manuscript ID by using the search function under **Article Details**.
+
+![](./assets/Article-Usage-Visual-Statistics-6.png)
+
+
+
+## Display Usage Statistics for Readers
 
 In OJS 3 you can display an article's usage statistics for the current year as a graph on the article landing page by using the Usage Statistics Plugin, like in this image.
 
@@ -580,6 +606,16 @@ This option is only available for OJS 3.x using the Usage Statistics Plugin.  Fo
 ### How can I track usage by institution?
 
 This is not currently possible with OJS but will be available in the future.  
+
+### If I replace a galley file for the article, will the download count reset to 0?
+
+OJS collects statistics based on the internal IDs of issues, articles, and galleys.
+
+If you replace a PDF file for a galley, the galley ID will not change. This means download statistics for the galley will continue to accumulate across the two versions of the file. 
+
+If you remove a galley from an article and later add a new galley for the article, the new galley will have a new ID. The cumulative statistics for article views will be unchanged but the usage statistics for the galley file will start again at 0. Historic statistics for the old galley will remain in the metrics, unless you rebuild the access logs into new metrics. New statistics will be collected for the new galley as access happens over time.
+
+The specific impact will also vary by report, as the reports differ as to whether they are giving information for issues, articles, galleys, or a combination of these items.
 
 <hr />
 

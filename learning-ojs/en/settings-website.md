@@ -77,11 +77,11 @@ Under Website Settings > Languages you can see a list of languages or locales in
 
 ![](./assets/learning-ojs3.1-jm-settings-web-lang.png)
 
-**Primary Locale**: One language must be set as the primary locale, which means the language the journal appears in by default
+**Primary Locale**: One language must be set as the primary locale, which means the language the journal appears in by default.
 
-**UI**: If you want the journal’s interface to be available in other languages, select them here
+**UI**: If you want the journal’s interface to be available in other languages, select them here.
 
-**Submission**: If you want authors to be able to make submissions in other languages, select them here
+**Submission**: If you want authors to be able to make submissions in other languages, select them here.
 
 **Forms**: This will enable all selected languages to be available when filling in online forms.
 
@@ -141,6 +141,10 @@ This section allows you to configure your navigation menus, such as including ne
 ![](./assets/learning-ojs3.1-jm-settings-web-navmenu.png)
 
 **Navigation Menus**: Configure the User Menu \(which includes Language, View Site, and Username\) or the Primary Menu \(on the journal home page, including Current, Archive, About, etc.\).
+
+Some menu item types will only be displayed under certain conditions. For example, the Login menu item type will link to your login page, but it will only appear in the menu when your website visitor is logged out. Similarly, the Logout menu item type will only appear when a website visitor is logged in.
+
+When you assign a Menu Item with display conditions to a Menu, you will see an icon of an eye with a slash through it. You can click that icon to learn more about when it will be displayed or hidden.
 
 **Navigation Menu Items**: These are programmed links you can add to either menu above. If you wish to add a link to the Primary Menu \(e.g., "Our Society"\), add it here using the _Add Item_ link.
 

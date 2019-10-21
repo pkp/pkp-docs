@@ -1,6 +1,6 @@
 # Chapter 14: Editorial Workflow
 
-In this chapter, you will follow as submission throughout the workflow, from first submission to final publication.
+In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
 
 The workflow is divided into 4 stages:
 
@@ -26,7 +26,7 @@ Your Tasks are available from the top left menu of your Dashboard. Note the numb
 
 Tasks provide a quick look at items that need your attention. Bold entries are unread, and unbold entries have been read.
 
-Use the checkbox to mark tasks for deletion \(the delete link is available at the bottom of the list\).
+Use the checkbox to mark tasks for deletion \(the link is available at the bottom of the list\).
 
 <hr />
 
@@ -96,7 +96,9 @@ Once you find the submission, you can use the blue arrow to reveal options to se
 
 ![](./assets/learning-ojs3.1-ed-submission-details.png)
 
-**Delete** will move the submission to the Archives and **Activity Log & Notes** will bring up the submission's history.
+**Delete** will completely remove the submission and all submission files from your journal. If you want to keep a record of the submission, it is better to **Decline** it, which will move the submission to the Archive.
+
+**Activity Log & Notes** will bring up the submission's history.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-log.png)
 
@@ -136,9 +138,11 @@ Use the Notes tab to also view or add any editorial notes.
 
 ![](./assets/learning-ojs-3-ed-submissions-notes.png)
 
-**Submission Library**: Where you can add any relevant documents to the submission's library.
+**Submission Library**: The Submission Library is a general storage area for documents that may include conflict-of-interest forms, galley approval forms, etc. A user can upload the completed form for their manuscript in their Submission Library. The uploaded forms will also be available to other participants (with the exception of Reviewers) assigned throughout the editorial or production workflow to edit or re-upload new versions.
 
-![](./assets/learning-ojs-3-ed-submissions-sub-library.png)
+**Document Library**: Users throughout the editorial workflow will be able to access all the files in the Publisher Library (see [Workflow Settings chapter](./settings-workflow.md)) made available by the Journal Manager or Editor through opening the Submission Library and clicking "View Document Library." 
+
+![](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
 
 ### Assigning the Submission
 
@@ -232,7 +236,7 @@ This initiates a new window with a message for the Reviewer.
 
 You can revise any of the prepared text.
 
-If you are using a Blind Review method, ensure that the files you send to the Reviewer are stripped of any identifying information about the Author.
+If you are using a Blind Review method, ensure that the files you send to the Reviewer are stripped of any identifying information about the Author. Additional instruction for this is provided in the [Understanding Blind Review](#understanding-blind-review) and [Removing Identifying Information](#removing-identifying-information) sections.
 
 Further down the form, you will see the additional details that are sent to the Reviewer including title, abstract, important dates, and a link to the files to be reviewed.
 
@@ -270,9 +274,105 @@ You can make additional changes using the blue arrow toggle next to the Reviewer
 
 At this point, we could add additional Reviewers, and then wait for their recommendations to come in.
 
+### Understanding Blind Review
+
+OJS is designed to accommodate different types of reviews and has built-in steps to ensure anonymity.
+
+All information will be visible to the journal managers and editors regardless of the type of review selected.
+The review type will be automatically selected based on what has been configured under _Settings_ > _Workflow_ > _Review_. The editors can change the review type when sending the review request. Editors/Section Editors must select the review type when sending the review request from the following options:
+
+* Double-Blind
+* Blind
+* Open
+
+**Double-Blind Review**: The identity of both the author and the reviewer is kept hidden.
+
+The author or editor must ensure that metadata from the manuscript file is removed in a Double-Blind review. See [Removing Identifying Information](#removing-identifying-information) for more information.
+
+*Reviewer*: The reviewer will not be able to see the author(s) in their reviewer’s queue if the editor has selected a double-blind review. All identifying information in the metadata of the submission details is automatically removed by the system.
+
+![](./assets/learning-ojs3.1-ed-rev-anon1.png)
+
+At the end of a review, if a reviewer chooses to upload a review file they should remove all identifying information before uploading it to the system. See [Removing Identifying Information](#removing-identifying-information) for more information.
+
+*Author*: No identifying information regarding the reviewer will be visible to the author within their manuscript view.
+
+![](./assets/learning-ojs3.1-ed-rev-anon2.png)
+
+*Editors Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
+
+![](./assets/learning-ojs3.1-ed-rev-anon3.png)
+
+**Blind Review**: Reviewer identity is kept anonymous from the author(s). The reviewers can see the author details.
+
+*Reviewer*: The reviewer is able will see full the metadata entered by the author by clicking _View All Submission Details_ in the request tab of the manuscript. The authors’ name will also appear in the reviewer's queue.
+
+*Author*: No identifying information regarding the reviewer will be available within their manuscript view.
+
+![](./assets/learning-ojs3.1-ed-rev-anon2.png)
+
+*Editors Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
+
+![](./assets/learning-ojs3.1-ed-rev-anon3.png)
+
+### Removing Identifying Information
+
+While OJS has a number of built-in functions for blind reviews, additional steps may need to be taken outside of the platform to ensure a Double-Blind Review. A submission file may have information that could identify the authors' identity within the document properties.
+
+![](./assets/learning-ojs3.1-ed-rev-anon4.png)
+
+Authors may also include their name within the article, footnotes, or references, in which case the editor will have to remove it prior to sending for review. Alternatively, authors can be asked to redact their names from the submission file, with "Author" and year used in the references and footnotes instead of the authors' name, article title, etc., prior to submission.
+
+#### Microsoft Word for Windows
+
+1. Go to _File_
+2. Select _Info_
+3. Click on _Check for Issues_
+4. Click on _Inspect Document_
+5. In the _Document Inspector_ dialog box, select the check boxes to choose the types of hidden content that you want to be inspected
+6. Click _Remove All_
+7. Click _Close_
+8. Save the document
+
+#### Microsoft Word for MacOS
+
+1. Go to _Tools_
+2. Click _Protect Document_
+3. Select _Remove personal information from this file on save_
+4. Click _OK_ and save the file
+
+![](./assets/learning-ojs3.1-ed-rev-anon5.png)
+
+### Re-uploading the Document
+
+The Journal Managers and Editors are able to re-upload the anonymized document in the Review files by clicking **Upload/Select Files** in the _Review Files_ box.
+
+![](./assets/learning-ojs3.1-ed-rev-anon6.png)
+
+Click **Upload Review File**.
+
+![](./assets/learning-ojs3.1-ed-rev-anon7.png)
+
+Identify the article component and upload the file.
+
+![](./assets/learning-ojs3.1-ed-rev-anon8.png)
+
+Review Details. It may be helpful to rename the file to the time of re-upload. The file can also be renamed by clicking the arrow on the left side of the file name.
+
+![](./assets/learning-ojs3.1-ed-rev-anon9.png)
+
+Click Complete and select the file you would like to use for the review.
+
+The file(s) will appear under the initial upload.
+When sending out the review request, ensure that the original manuscript is unselected from the ‘Files To Be Reviewed’.
+
+![](./assets/learning-ojs3.1-ed-rev-anon10.png)
+
+Select the Review File(s) and click **OK**.
+
 ### Responding to Reviews
 
-Once the Reviewers have completed their work, the Section Editor can see the results in their dashboard.Here they will see notifications that new reviews have been submitted and whether all reviews are in.
+Once the Reviewers have completed their work, the Section Editor can see the results in their dashboard. Here they will see notifications that new reviews have been submitted and whether all reviews are in.
 
 ![](./assets/learning-ojs-3-ed-rev-responding.png)
 
@@ -598,7 +698,7 @@ The majority of author submissions come in as Microsoft Word documents \(.doc or
 
 Requiring all submissions to use a template that is pre-formatted with your journal's publication styles \(e.g., the font face, font size, boldness, placement, etc. of the header, body, footers, etc.\) will make your document conversion much easier.
 
-Microsoft provides a brief overview for creating templates [here](https://www.gitbook.com/book/pkp/ojs3/edit#).
+Microsoft provides a brief overview for creating templates in MS Word [here](https://support.office.com/en-us/article/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb).
 
 Once you've created a template that matches your journal style, you should link it from your Author Guidelines, along with a brief explanation of the need to use the template. This means that all of your submissions will come in already formatted, saving your layout editor a significant amount of work.
 
@@ -732,7 +832,7 @@ To upload the image file:
 6. Continue, review details, and confirm
 7. Click **Save**
 
-To link to the image file you uploaded in the galley text, use the image tag with the file name - e.g., <img src="filename.jpg">. The HTML galley plugin should rewrite the address when the HTML document is shown.
+To link to the image file you uploaded in the galley text, use the image tag with the file name - e.g., `<img src="filename.jpg">`. The HTML galley plugin should rewrite the address when the HTML document is shown.
 
 ### Add the Article to a Category
 

@@ -217,7 +217,7 @@ You can export users by one or more roles, or export all users at once. To expor
 
 Please note that passwords will be encrypted using MD5 or SHA-1 encryption, depending on what system the journal is using.
 
-## CrossRef XML Export Plugin
+## Crossref XML Export Plugin
 
 Please see the [PKP Crossref Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/).
 

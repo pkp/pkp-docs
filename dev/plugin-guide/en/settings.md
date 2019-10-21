@@ -69,7 +69,7 @@ class TutorialExamplePlugin extends GenericPlugin {
       // settings form
       case 'settings':
         $templateMgr = TemplateManager::getManager($request);
-        $settingsForm = $templateMgr->fetch($this->getTemplateResource('settings.tpl');
+        $settingsForm = $templateMgr->fetch($this->getTemplateResource('settings.tpl'));
         return new JSONMessage(true, $settingsForm);
 		}
 		return parent::manage($args, $request);
