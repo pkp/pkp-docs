@@ -18,7 +18,7 @@ Examples of how journals phrase their copyright and Creative Commons licenses:
 
 Examples of copyright agreements:
 
-* [Example Copyright Agreement: CC BY](https://www.lib.sfu.ca/system/files/32407/sample_copyright_agreement.docx)
+* [Example Copyright Agreement: CC BY](https://www.lib.sfu.ca/system/files/32410/sample_copyright_agreement.docx)
 * [Copyright](https://libraryguides.mcgill.ca/journalpublishing/copyright) (McGill Library, Scholarly Journal Publishing guide)
 
 The [Publication Agreements section](./things-to-consider#publishing-agreements) has a list of examples that include wording to specify CC and author rights.
