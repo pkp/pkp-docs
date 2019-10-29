@@ -33,6 +33,24 @@ Please see [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distr
 Next, go to the [Subscriptions chapter](https://docs.pkp.sfu.ca/learning-ojs/en/subscriptions.html) in Learning OJS 3 and follow the instructions to set up your payment types and subscription types, if applicable.
 
 ## Test Transactions 
-Using the pretend PayPal accounts, make test payments to the site. Once the payment is complete, the user will return to the journal or conference. The payment will appear in your PayPal Account Overview:
+On OJS set up a test transaction that you can use to test whether payments are being successfully processed. For this example, we will be using an Article Processing Fee.
+You as the author will get a link to pay your Article Processing Fee. The link will first direct you to login to your OJS account followed by the [PayPal Sandbox website](https://www.sandbox.paypal.com/mep/dashboard ). 
+
+![Screenshot of email notification from OJS](./assets/Paypal-13.png)
+
+Using one of the fake PayPal accounts, make test payments to the site. The successful payment will then appear on sandbox of your main PayPal Account Overview:
+
+![Screenshot payment activity on paypal](./assets/Paypal-13.png)
+
+The test transaction will also appear on the Payments page of your journal. 
+
+## Troubleshooting Test Transactions
+If your test transactions are not successful, please check the following: 
+* API app is set on sandbox.
+* OJS plugin is set to Test Mode.
+* API credentials from the sandbox has been copied correctly to OJS.
+
+
+
 
 ![screenshot of paypal account overview](./assets/Paypal-13.png)
