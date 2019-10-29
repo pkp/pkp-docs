@@ -44,7 +44,7 @@ Using one of the fake PayPal accounts, make test payments to the site. The succe
 
 The test transaction will also appear on the Payments page of your journal. 
 
-## Troubleshooting Test Transactions
+### Troubleshooting Test Transactions
 If your test transactions are not successful, please check the following: 
 * API app is set on sandbox.
 * OJS plugin is set to Test Mode.
