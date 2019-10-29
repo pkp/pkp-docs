@@ -1,38 +1,10 @@
-# Set up a PayPal Website Payments Standard account
+# Use Your Real PayPal Account
 
-[https://www.paypal.com/ca/webapps/mpp/paypal-payments-standard](https://www.paypal.com/ca/webapps/mpp/paypal-payments-standard)
+Once you’ve confirmed that payments from the pretend accounts are successful, you can now enable the PayPal Account.
 
-![](assets/Paypal1.png)
+First,  you’ll need to change your need to change  your PayPal API app from Sandbox to Live. You will then need to generate the Live API credentials. 
 
-Hit the Go button. If you already have a PayPal account, login now. If not, select your country:
+Next, you’ll need to update the PayPal information on your OJS distribution setting with live API credentials and unselect ‘Test Mode’
 
-![](assets/Paypal2.png)
+![](assets/Paypal-15.png)
 
-Fill in the resulting form:
-
-![](assets/Paypal3.png)
-
-Fill in the forms and save. Next, create your business account:
-
-![](assets/Paypal4.png)
-
-Confirm your registration using your email account:
-
-![](assets/Paypal5.png)
-
-![](assets/Paypal6.png)
-
-Once you've confirmed your account, go to your Account Overview:
-
-![](assets/Paypal7.png)
-
-Using the Unverified link, go ahead and verify your account.
-
-Next, from your Account Overview, choose the Edit Profile link.
-
-On the Profile page, choose Instant Payment Notification Preferences.
-
-Use the Edit button to turn on Instant Payment Notification \(IPN\).
-
-Check the box and add the URL below \(you will also find this URL when you set up your payment 
-methods in OJS or OCS\).
