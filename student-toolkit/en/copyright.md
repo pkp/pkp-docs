@@ -2,12 +2,9 @@
 
 Your journal content should be licensed with a Creative Commons or [equivalent license](https://pressbooks.bccampus.ca/facultyoertoolkit/chapter/creative-commons-alternatives/), which grants users the right to download, share, and distribute the work without seeking permission from the author or publisher in accordance with the specific license you choose. For example, the most open kind of license, the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode), allows users to use and adapt the work any way they like, providing they give proper credit to the author. Other licenses prevent users from using the work for any commercial purpose ([CC BY NC](https://creativecommons.org/licenses/by-nc/4.0/)) or creating derivative works ([CC BY ND](https://creativecommons.org/licenses/by-nd/4.0/)) but still allow for reuse of the work without permission, providing credit is given to the author. There are [six CC licenses](https://creativecommons.org/share-your-work/licensing-types-examples/) to choose from, and you can assign a Creative Commons license to all articles in your journal or allow authors to [choose their own license](https://creativecommons.org/choose/).
 
-<figure>
-    <img src="./assets/cc-licenses.png">
-    <figcaption>Figure 2: Creative Commons Licenses. JoKalliauer, 2015. <a href="https://commons.wikimedia.org/wiki/File:Creative_Commons_Licenses.png">https://commons.wikimedia.org/wiki/File:Creative_Commons_Licenses.png</a>. Used under a <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution-Share Alike 3.0 Unported license</a>.</figcaption>
-</figure>
+![](./assets/cc-licenses.png)*Figure 2: Creative Commons Licenses. JoKalliauer, 2015. [https://commons.wikimedia.org/wiki/File:Creative_Commons_Licenses.png](https://commons.wikimedia.org/wiki/File:Creative_Commons_Licenses.png). Used under a [Creative Commons Attribution-Share Alike 3.0 Unported license](https://creativecommons.org/licenses/by-sa/3.0/deed.en)*
 
-In Canada, copyright is automatically assigned to the author of an original creative work, such as a journal article. Some journals allow content authors to retain copyright over their own work, whereas others ask authors to sign copyright over to the journal. We recommend allowing authors to retain their copyright, but you may wish to ask the author to grant the journal the first right of publication (meaning that the work can not have been published elsewhere before it is published in the journal).  Your journal should have a clear copyright policy, and authors should be informed of the policy before they submit their work for publication. This statement is typically found in information on the journal’s style or the submission process.
+In Canada, copyright is automatically assigned to the author of an original creative work, such as a journal article. However, in some cases, such as when a work was done in the course of employment, the copyright belongs to the employer. In some employment situations, there may be a contract, such as a collective agreement, that specifies that the copyright stays with the author. Some journals allow content authors to retain copyright over their own work, whereas others ask authors to sign copyright over to the journal. We recommend allowing authors to retain their copyright, but you may wish to ask the author to grant the journal the first right of publication (meaning that the work can not have been published elsewhere before it is published in the journal).  Your journal should have a clear copyright policy, and authors should be informed of the policy before they submit their work for publication. This statement is typically found in information on the journal’s style or the submission process.
 
 For details about how journals apply the various licenses, check out this blog post: [CC-What? What's behind the Creative Commons licenses used by OA journals?](https://www.lib.sfu.ca/help/publish/scholarly-publishing/radical-access/creative-commons-licenses-open-access-journals)
 
@@ -21,7 +18,7 @@ Examples of how journals phrase their copyright and Creative Commons licenses:
 
 Examples of copyright agreements:
 
-* [Example Copyright Agreement: CC BY](https://www.lib.sfu.ca/system/files/32407/sample_copyright_agreement.docx)
+* [Example Copyright Agreement: CC BY](https://www.lib.sfu.ca/system/files/32410/sample_copyright_agreement.docx)
 * [Copyright](https://libraryguides.mcgill.ca/journalpublishing/copyright) (McGill Library, Scholarly Journal Publishing guide)
 
 The [Publication Agreements section](./things-to-consider#publishing-agreements) has a list of examples that include wording to specify CC and author rights.
