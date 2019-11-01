@@ -49,7 +49,8 @@ Determine what training and support will be needed by your editorial team before
 
 Before proceeding with your upgrade it is strongly advised that you do an inventory of your journal. 
 
-During the upgrade the following items will automatically be moved from OJS 2 to OJS 3
+During the upgrade the following items will automatically be moved from OJS 2 to OJS 3:
+
 * Submissions
 * Users
 * Roles/Permission setting
@@ -95,10 +96,10 @@ WHERE email LIKE "%@spam.com"
 OR email LIKE "%morespam.com"
 ...
 ```
-With this list of usernames, you can then use OJS’s built-in user merging tool (in your OJS directory at tools/mergeUsers.php) to clean up users.We created a small bash script to do this, and PKP also has a process that they recommend. You’ll need to create a user account that all accounts can be merged into if one doesn’t already exist. Keep in mind that while it’s nearly impossible to find all the spam users in a large instance of OJS, you may be able to significantly clean these up, thereby reducing the amount of data in your instance and making it easier for journal teams to manage their users.  It is important to use the merging tool instead of deleting spam users from the users table, as deleting users can produce major errors in your installation. 
+With this list of usernames, you can then use OJS’s built-in user merging tool (in your OJS directory at `tools/mergeUsers.php`) to clean up users.We created a small bash script to do this, and PKP also has a process that they recommend. You’ll need to create a user account that all accounts can be merged into if one doesn’t already exist. Keep in mind that while it’s nearly impossible to find all the spam users in a large instance of OJS, you may be able to significantly clean these up, thereby reducing the amount of data in your instance and making it easier for journal teams to manage their users.  It is important to use the merging tool instead of deleting spam users from the users table, as deleting users can produce major errors in your installation. 
 
 ## Perform a sandbox or test upgrade
-See the section below under Upgrading Your OJS Instance - Step 1 - Perform a Sandbox Upgrade
+See the section below under [Upgrading Your OJS Instance - Step 1 - Perform a Sandbox Upgrade](./upgrading-ojs#step-1-perform-a-sandbox-upgrade)
 
 ## Evaluate, test, and troubleshoot your sandbox OJS 3 site
 
@@ -109,7 +110,7 @@ This is an excellent time to review the journal’s workflow. The journal team m
 Make sure that the journal team understands that changes made to the sandbox site will not be incorporated into the production site upon upgrade. Keep a list of all changes to the content and structure requested during the review of the sandbox site so that these can be applied to the production site immediately after the upgrade.
 
 ## Plan for new theming
-OJS 3 handles theming for the website differently than earlier versions of the software, so the look and feel of your journal will change. You will have new options for customizing this aspect of your journal site through the current selection of themes. 
+OJS 3 handles theming for the website differently than earlier versions of the software, so the look and feel of your journal will change. You will have new options for customizing this aspect of your journal site through the current selection of themes.
 
 If you have applied custom theming to your journal in OJS 2, that theme will not display properly in OJS 3. You may opt to use one of the available themes in OJS 3 or create a new custom theme that works with OJS 3. If you create a new custom theme, you should develop this prior to the upgrade so that you can put it in place on the production site immediately after the upgrade. Please refer to PKP’s [Designing Your Journal guide](https://docs.pkp.sfu.ca/designing-your-journal/en) for help in creating a custom look and feel for your journal. PKP’s [Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) can be used to develop a custom theme for your journal.
 

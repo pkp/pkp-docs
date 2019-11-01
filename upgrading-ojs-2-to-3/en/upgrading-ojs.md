@@ -19,30 +19,31 @@ You may also wish to prevent the OJS 3 sandbox installation from sending emails 
 
 `UPDATE users SET email = CONCAT(email, 'test');`
 
-Next, edit your config.inc.php configuration file in the sandbox installation to add the details from your existing OJS 2 install, but make sure to specify the copies of your database and files directory rather than the production versions in use by your existing OJS 2 install. Follow the instructions in docs/UPGRADE to upgrade the database. (This will also rearrange your files directory, which is why it’s important to make a copy!)
+Next, edit your `config.inc.php` configuration file in the sandbox installation to add the details from your existing OJS 2 install, but make sure to specify the copies of your database and files directory rather than the production versions in use by your existing OJS 2 install. Follow the instructions in `docs/UPGRADE` to upgrade the database. (This will also rearrange your files directory, which is why it’s important to make a copy!)
 
-See the Troubleshooting section below for possible errors you may encounter during the upgrade process.
+See [the Troubleshooting section below](#troubleshooting) for possible errors you may encounter during the upgrade process.
 
 If the upgrade completes successfully, login to the OJS 3 sandbox install and review that all submissions and files are present and that everything is displaying correctly.
 
 Once you are satisfied with the test upgrade move on to the next step.
 
 ## Step 2 - Perform the upgrade
-Now that you have tested the sandbox upgrade and are satisfied with the results, it is time to upgrade your installation. On the set day, at the set time, take your OJS 2.x journal offline and follow the instructions in docs/UPGRADE to upgrade the software. To do so, you will repeat the upgrade steps with your production installation. Before upgrading your installation, perform a complete backup of your database and ‘files’ folder. If the upgrade process fails, you will need to recover from backup before continuing. Official upgrade instructions can be found directly in the [UPGRADE documentation](https://pkp.sfu.ca/ojs/UPGRADE). When the upgrade completes successfully, inform the editors so they can login and start working.
+Now that you have tested the sandbox upgrade and are satisfied with the results, it is time to upgrade your installation. On the set day, at the set time, take your OJS 2.x journal offline and follow the instructions in `docs/UPGRADE` to upgrade the software. To do so, you will repeat the upgrade steps with your production installation. Before upgrading your installation, perform a complete backup of your database and ‘files’ folder. If the upgrade process fails, you will need to recover from backup before continuing. Official upgrade instructions can be found directly in the [UPGRADE documentation](https://pkp.sfu.ca/ojs/UPGRADE). When the upgrade completes successfully, inform the editors so they can login and start working.
 
 If your OJS installation doesn’t already have the ‘files’ folder located outside of the web accessible OJS installation, please move it now. Failure to meet this requirement is the only significant security risk faced by OJS journals. See the “Recommended Configuration” section of the README document included in your OJS download files for details.
 
 ## Troubleshooting
+
 ### Fatal error messages during the upgrade process
 This usually indicates that there was a data inconsistency in your OJS 2.x database; search the [PKP Community Forum](https://forum.pkp.sfu.ca/) for similar messages.
 
-### Warnings of the form “PHP Notice: unserialize(): Error at offset…” 
-This indicates that you may have accidentally changed the character set configuration in your config.inc.php or while creating your sandbox database.
+### Warnings of the form “PHP Notice: unserialize(): Error at offset…”
+This indicates that you may have accidentally changed the character set configuration in your `config.inc.php` or while creating your sandbox database.
 
 ### Error message "The tar command is not available. Please correctly configure it in your 'config.inc.php'”
-This is a common error message you may come across when trying to enable plugins. The [PKP Community Forum](https://forum.pkp.sfu.ca/) has a number of suggested solutions. 
- 
-### Database upgrade error 
+This is a common error message you may come across when trying to enable plugins. The [PKP Community Forum](https://forum.pkp.sfu.ca/) has a number of suggested solutions.
+
+### Database upgrade error
 This usually indicates that that some things are mismatched or duplicated. You should take a look at your existing database and make sure that everything is the same or has not been duplicated
 
 For additional upgrade resources see the [Additional Resources](./resources.md) section at the end of this guide.
