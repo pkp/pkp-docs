@@ -11,6 +11,7 @@ apps:
       - path: admin-guide
       - path: developer-docs
         isDeveloper: true
+      - path: upgrading-guide
       - path: starting-a-journal
       - path: designing-your-journal
       - path: gfsf
@@ -22,8 +23,9 @@ apps:
     title: Open Journal Systems 2
     titleShort: OJS 2
     includeInHero: true
-    description: "Help guides for older versions of our journal management software. We recommend you [upgrade to OJS 3](#appojs3)."
+    description: "Help guides for older versions of our journal management software. We recommend you [upgrade to OJS 3](/upgrading-ojs-2-to-3/en)."
     cards:
+        - path: upgrading-guide
         - path: learning-ojs-2
         - path: ojs2-pkp-school
         - path: crossref-ojs2-manual
