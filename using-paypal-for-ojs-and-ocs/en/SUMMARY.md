@@ -1,8 +1,7 @@
 # Summary
 
 * [Introduction](.)
-* [Set up a PayPal sandbox account](chapter1.md)
-* [Set up a real PayPal account](your-real-paypal-account.md)
-* [Configure OJS](configure-ojs.md)
-* [Configure OCS](configure-ocs.md)
-* [View payments made](view-payments-made.md)
+* [Set up PayPal accounts](setup-paypal-accounts.md)
+* [Test the PayPal plugin in OJS](configure-ojs.md)
+* [Use Your Real PayPal Account](your-real-paypal-account.md)
+* [Manage PayPal Payments](view-payments-made.md)
