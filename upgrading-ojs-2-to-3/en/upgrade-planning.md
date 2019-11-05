@@ -1,10 +1,5 @@
 # Planning for a Major Upgrade
 
-* Decision-making
-* Timeline
-* Learning new system
-* Communicating with editorial staff
-
 Once you have reviewed the features of OJS 3 and decided you want to proceed with the upgrade, you will need to do some careful planning to ensure a smooth process, minimal disruption to your publication schedule, and a happy editorial staff. Many of the changes are human resources related (i.e., training and visual design), as well as technical, so clear communication is important at every stage.
 
 The major steps in completing an upgrade are as follows:
@@ -23,7 +18,7 @@ The major steps in completing an upgrade are as follows:
 13. Evaluate, test, and troubleshoot your new OJS 3 site
 14. Training and setup
 
-This chapter focuses on the planning and human resources aspects of the upgrade process. The next chapter covers technical aspects.
+This chapter focuses on the initial planning and human resources steps of the upgrade process. The next chapter covers technical steps.
 
 ## Decide if and when you want to upgrade
 
