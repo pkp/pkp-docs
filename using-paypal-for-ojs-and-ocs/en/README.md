@@ -7,3 +7,11 @@ This document will outline how to use the PayPal plugin. You should, however, re
 
 ## PayPal alternatives
 The only payment tool that OJS currently has a plugin for is PayPal. If you are not able to use PayPal and would like to use a different tool to accept payments, we recommend writing a plugin for the other payment tool. The PayPal plugin uses the [Omnipay library](https://omnipay.thephpleague.com/), which provides support for a lot of different payment tools. A developer should be able to copy the PayPal plugin and adapt it to a different payment tool.
+
+## Contributors
+
+Patricia Mangahis
+
+## Copyright
+
+Simon Fraser University holds the copyright for work produced by the Public Knowledge Project and has placed its documentation under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
