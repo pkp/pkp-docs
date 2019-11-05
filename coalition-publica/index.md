@@ -2,7 +2,7 @@
 isBookIndex: true
 ---
 
-# Coalition Publica OJS Guide
+# Coalition Publi.ca OJS Guide
 
 * [English](en/)
 * [Français](fr/)
