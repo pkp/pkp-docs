@@ -1,6 +1,6 @@
 # Upgrading Your OJS Instance
 
-This chapter will cover the technical aspects of upgrading your instance to OJS 3.0. Planning your upgrade will go a long way into making this a successful process. Before any upgrading takes place, it is important to ensure that your server meets [OJS 3.X requirements](https://pkp.sfu.ca/ojs/README) and that your OJS 2.x installation is not too old to be upgraded to OJS 3.0. After you determine that your server meets the requirements you can continue with the OJS 3.0 upgrade.
+This chapter will cover the technical aspects of upgrading your instance to OJS 3.X. Planning your upgrade will go a long way into making this a successful process. Before any upgrading takes place, it is important to ensure that your server meets [OJS 3.X requirements](https://pkp.sfu.ca/ojs/README) and that your OJS 2.x installation is not too old to be upgraded to OJS 3.X. After you determine that your server meets the requirements you can continue with the OJS 3.X upgrade.
 
 ## Step 1: Perform a sandbox upgrade
 It is important to perform a test upgrade first. To do this, you will need to make a complete copy of your OJS 2.x journal, including the database and files area. Follow the upgrade instructions on that copy. Official upgrade instructions can be found directly in the [UPGRADE documentation](https://pkp.sfu.ca/ojs/UPGRADE). Here you will find instructions for upgrading from several versions of OJS 2.x.
