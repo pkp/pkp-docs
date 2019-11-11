@@ -17,6 +17,8 @@
 -   [Getting Ready for OJS 3.0: When Should I Upgrade?](https://pkp.sfu.ca/2016/08/29/getting-ready-for-ojs-3-0-when-should-i-upgrade/) - PKP blog post.
 -   [Making the Move to Open Journal Systems 3: Recommendations for a (mostly) painless upgrade](https://journal.code4lib.org/articles/14260) - this article discusses the upgrade planning and process, includes discussion of some best practices in supporting journal teams through the upgrade, checklists, technical troubleshooting tips, and post-upgrade support strategies.
 -   [Taking the Leap: Experiences Planning and Implementing a Migration to OJS 3](http://hdl.handle.net/1805/18140) - Library Publishing Forum 2018 presentation.
+-   [Instalación y migración a OJS 3](https://hackmd.io/@marcbria/install-migrate-ojs3#/) is a presentation in Spanish on upgrading to OJS 3.
+-   [Upgrade OJS2 a OJS3 (sobre CentOS)](https://hackmd.io/@marcbria/ojs2-ojs3-upgrade-centos) is a short guide in Spanish to upgrading to OJS 3 on a server running CentOS and PHP 5.6.
 
 ## Support resources
 
