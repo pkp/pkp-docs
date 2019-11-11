@@ -54,7 +54,7 @@ Select the currency you will use.
 
 Select a fee payment method.
 
-If you select Paypal Fee Payment, additional fields will appear.  You need to get this information from your Paypal account which you’ll set up on the Paypal website with the Paypal API.
+If you select Paypal Fee Payment, additional fields will appear.  You need to get this information from your Paypal account which you’ll set up on the Paypal website with the Paypal API. See the [Paypal Plugin Guide](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/) for more information. 
 
 ![](./assets/learning-ojs3.1-jm-settings-dist-paypalsettings.png)
 
