@@ -8,13 +8,13 @@ Este libro cubre la versión 3.1 de OJS, publicada en octubre de 2017, y present
 
 ## Antecedentes
 
-OJS es un sistema de gestión y publicación de revistas y sitios web. OJS cubre todos los aspectos de la publicación de revistas en línea, desde el establecimiento de un sitio web de la revista hasta las tareas operativas tales como el proceso de envío del autor, la revisión por pares, la edición, la publicación, el archivo y la indexación de la revista. OJS también ayuda a manejar los aspectos personales de la organización de una revista, incluyendo el seguimiento del trabajo de editores, revisores y autores, notificando a los lectores y ayudando con la correspondencia.
+_OJS es un sistema de gestión y publicación de revistas y sitios web._ OJS cubre todos los aspectos de la publicación de revistas en línea, desde el establecimiento de un sitio web de la revista hasta las tareas operativas tales como el proceso de envío del autor, la revisión por pares, la edición, la publicación, el archivo y la indexación de la revista. OJS también ayuda a manejar los aspectos personales de la organización de una revista, incluyendo el seguimiento del trabajo de editores, revisores y autores, notificando a los lectores y ayudando con la correspondencia.
 
-OJS es flexible y escalable. Una sola instalación de OJS puede soportar la operación de una o varias revistas. Cada revista tiene su propio URL único, así como su propio aspecto. OJS puede permitir que un solo editor gestione todos los aspectos de una revista y el sitio web de la revista, o bien, OJS dará soporte a un equipo internacional de editores con diversas responsabilidades para las múltiples secciones de una revista.
+_OJS es flexible y escalable._ Una sola instalación de OJS puede soportar la operación de una o varias revistas. Cada revista tiene su propio URL único, así como su propio aspecto. OJS puede permitir que un solo editor gestione todos los aspectos de una revista y el sitio web de la revista, o bien, OJS dará soporte a un equipo internacional de editores con diversas responsabilidades para las múltiples secciones de una revista.
 
-OJS apoya el principio de ampliar el acceso. Este sistema no sólo pretende ayudar a la publicación de revistas, sino también demostrar cómo se pueden reducir los costes de la publicación de revistas hasta el punto de que proporcionar a los lectores un "acceso abierto" a los contenidos de la revista se convierta en una opción viable. Los argumentos a favor del acceso abierto se exponen en una amplia serie de artículos derivados de este proyecto que están disponibles gratuitamente en el sitio web del Proyecto Investigación > Publicaciones en la página web del Proyecto de Conocimiento Público.
+_OJS apoya el principio de ampliar el acceso._ Este sistema no sólo pretende ayudar a la publicación de revistas, sino también demostrar cómo se pueden reducir los costes de la publicación de revistas hasta el punto de que proporcionar a los lectores un "acceso abierto" a los contenidos de la revista se convierta en una opción viable. Los argumentos a favor del acceso abierto se exponen en una amplia serie de artículos derivados de este proyecto que están disponibles gratuitamente en el sitio web del Proyecto Investigación > Publicaciones en la página web del Proyecto de Conocimiento Público.
 
-Los orígenes de OJS. El sistema fue lanzado por primera vez en 2001 como una iniciativa de investigación y desarrollo en la Universidad de Columbia Británica, con el apoyo del Consejo de Investigación en Ciencias Sociales y Humanidades de Canadá, la Fundación Max Bell, la Pacific Press Endowment y la Fundación MacArthur. En la actualidad, la Biblioteca de la Universidad Simon Fraser supervisa su desarrollo continuo. Para obtener más información, visite el sitio web del Proyecto de Conocimiento Público.
+_Los orígenes de OJS._ El sistema fue lanzado por primera vez en 2001 como una iniciativa de investigación y desarrollo en la Universidad de Columbia Británica, con el apoyo del Consejo de Investigación en Ciencias Sociales y Humanidades de Canadá, la Fundación Max Bell, la Pacific Press Endowment y la Fundación MacArthur. En la actualidad, la Biblioteca de la Universidad Simon Fraser supervisa su desarrollo continuo. Para obtener más información, visite el sitio web del Proyecto de Conocimiento Público.
 
 ## Características de OJS
 
@@ -44,25 +44,27 @@ La siguiente imagen es una captura de pantalla de un Índice de la revista de De
 
 Puedes ver en la captura de pantalla que las funciones de usuario ahora existen en el menú de tu perfil en la parte superior derecha de la pantalla. Esto aleja el contenido de gestión en OJS 3.x de la vista general del usuario. La información de la barra lateral está claramente desglosada, así como la barra de navegación superior con menús plegables para las funciones "Acerca de". Al igual que OJS 2, cada artículo tiene un título enlazado para ver los metadatos y resúmenes de los objetos, y ahora las galerías están claramente etiquetadas debajo de los títulos con logotipos más claros.
 
-## Interfaz Editorial alias El Tablero
+## Interfaz Editorial 
+
+_alias El Tablero_
 
 OJS 3.x ahora tiene una interfaz separada cada vez que inicie sesión en el sistema editorial. Esto no sólo facilita la personalización de la interfaz de lectura, sino que también proporciona una experiencia consistente a los usuarios de OJS de diferentes revistas.
 
 ![Captura de pantalla de la interfaz editorial](./assets/image100.png)
 
-La interfaz editorial se conoce como su panel de control y consta de los siguientes elementos:
+La interfaz editorial se conoce como su **panel de control** y consta de los siguientes elementos:
 
-1. Barra de navegación superior: A la izquierda, encontrará el nombre de la revista con la que está trabajando actualmente (por ejemplo, Journal of Public Knowledge). Si está inscrito en más de una revista en esta instalación de OJS, puede utilizarla para cambiar de revista. Junto a esto están sus Tareas (artículos que necesitan atención inmediata). A la derecha, puede cambiar de idioma si la revista es multilingüe, ver la interfaz de lectura o hacer clic en su nombre de usuario para ver su perfil o cerrar la sesión.
+1. **Barra de navegación superior:** A la izquierda, encontrará el nombre de la revista con la que está trabajando actualmente (por ejemplo, Journal of Public Knowledge). Si está inscrito en más de una revista en esta instalación de OJS, puede utilizarla para cambiar de revista. Junto a esto están sus Tareas (artículos que necesitan atención inmediata). A la derecha, puede cambiar de idioma si la revista es multilingüe, ver la interfaz de lectura o hacer clic en su nombre de usuario para ver su perfil o cerrar la sesión.
 
-2. Panel del menú izquierdo: Estas son las secciones principales del panel, incluyendo los envíos, la administración de números, la administración de suscripciones (si está ejecutando una revista con suscripciones), la configuración, la administración de usuarios y funciones, y las herramientas. Los usuarios con menos permisos (por ejemplo, Autores, Revisores, Copiadores, etc.) verán menos enlaces aquí.
+2. **Panel del menú izquierdo:** Estas son las secciones principales del panel, incluyendo los envíos, la administración de números, la administración de suscripciones (si está ejecutando una revista con suscripciones), la configuración, la administración de usuarios y funciones, y las herramientas. Los usuarios con menos permisos (por ejemplo, Autores, Revisores, Copiadores, etc.) verán menos enlaces aquí.
 
-3. Barra de navegación azul: Estas opciones de menú son específicas para las diferentes secciones del flujo de trabajo editorial. Los metadatos, el historial editorial y la biblioteca de envíos forman parte del registro de envíos que se muestra a continuación.
+3. **Barra de navegación azul:**** Estas opciones de menú son específicas para las diferentes secciones del flujo de trabajo editorial. Los metadatos, el historial editorial y la biblioteca de envíos forman parte del registro de envíos que se muestra a continuación.
 
-4. Panel principal: En el panel principal verá el área de trabajo actual. En la imagen de arriba, usted está viendo un registro de sumisión en la etapa de Producción.
+4. **Panel principal:** En el panel principal verá el área de trabajo actual. En la imagen de arriba, usted está viendo un registro de sumisión en la etapa de Producción.
 
-5. Submenús del Panel Principal: Dentro del Panel Principal, a menudo verá pestañas que le permiten ver información diferente sobre el contenido en el que se está trabajando. En este ejemplo, el registro de envío se divide en cuatro secciones (Envío, Revisión, Edición, Producción). Fíjese en la pestaña Ayuda a la derecha, que proporciona ayuda sensible al contexto para la página que está viendo actualmente.
+5. **Submenús del Panel Principal:** Dentro del Panel Principal, a menudo verá pestañas que le permiten ver información diferente sobre el contenido en el que se está trabajando. En este ejemplo, el registro de envío se divide en cuatro secciones (Envío, Revisión, Edición, Producción). Fíjese en la pestaña Ayuda a la derecha, que proporciona ayuda sensible al contexto para la página que está viendo actualmente.
  
-6. Panel derecho: Desde aquí, puede ver los botones de acción, como Schedule for Publication. Diferentes páginas tienen diferentes botones de acción. Debajo de los botones de acción se encuentra la tabla Participantes, que enumera a todos los participantes (excepto a los Revisores) involucrados en el envío.
+6. **Panel derecho:** Desde aquí, puede ver los botones de acción, como Schedule for Publication. Diferentes páginas tienen diferentes botones de acción. Debajo de los botones de acción se encuentra la tabla Participantes, que enumera a todos los participantes (excepto a los Revisores) involucrados en el envío.
 
 ## Contribuciones de la Comunidad
 
@@ -76,5 +78,5 @@ También agradecemos las contribuciones a las pruebas de software y a los inform
 
 Se puede acceder a un foro comunitario y a un sistema de reporte de problemas técnicos a través del sitio web de PKP.
 
-Si tiene preguntas sobre un sitio de revista en particular, como los requisitos de envío, póngase en contacto directamente con esa revista, utilizando la información de contacto que aparece en la página Acerca de la revista.
+Si tiene preguntas sobre un sitio de revista en particular, como los requisitos de envío, póngase en contacto directamente con esa revista, utilizando la información de contacto que aparece en la página **Acerca** de la revista.
 
