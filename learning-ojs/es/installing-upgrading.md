@@ -3,7 +3,7 @@
 Este capítulo cubre cómo instalar OJS 3 por primera vez, y cómo actualizar una instalación existente ejecutando OJS 2.x.
 
 ## Instalación
-Open Journal Systems (OJS) ha sido desarrollado por el Proyecto de Conocimiento Público.
+Open Journal Systems (OJS) ha sido desarrollado por el Public Knowledge Project.
 Para obtener información general sobre OJS y otros sistemas de investigación abiertos, visite la página web de PKP en [http://pkp.sfu.ca/](http://pkp.sfu.ca).
 
 ### Licencias
@@ -30,7 +30,7 @@ La mejor manera de lograr una implementación segura es utilizar las siguientes 
 * Instale OJS de manera que el directorio de archivos NO sea un subdirectorio de la instalación de OJS y no se pueda acceder directamente a través de la web servidor. Restrinja los permisos de los archivos tanto como sea posible. Automatizado las copias de seguridad de este directorio deben estar sincronizadas con copias de seguridad de la base de datos. Estos pasos **son críticos para mantener un entorno seguro**. y evitar el mal uso o la piratería de su revista.
 
 ### Descargar
-Los OJS pueden descargarse del [sitio web](http://pkp.sfu.ca) del Proyecto de Conocimiento Público.
+Los OJS pueden descargarse del [sitio web](https://pkp.sfu.ca/ojs/ojs_download/) del Public Knowledge Project.
 
 ### Instalación
 Por favor revise este documento y el documento RELEASE antes de instalar OJS.
@@ -132,4 +132,8 @@ Abra un navegador web en su sitio OJS; será redirigido a la página de instalac
 Seleccione el enlace "Upgrade" y siga las instrucciones en pantalla.
 Reedite "config.inc.php" y cambie "installed = Off" a  "Installed = On"
 ```
-
+
+## Soluciones de alojamiento 
+
+Si usted no tiene la experiencia, el personal o el deseo de instalar y administrar OJS por su cuenta, PKP Publishing Services proporciona soluciones completas de alojamiento con diferentes tarifas disponibles. Para obtener más información, consulte el sitio web de **[PKP Publishing Services](https://pkpservices.sfu.ca/).**
+
