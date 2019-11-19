@@ -1,6 +1,6 @@
 # Create and Edit Documentation
 
-Most of PKP's documentation is hosted and managed in a GitHub repository called the PKP Documentation Hub and is displayed as a website using an open source tool called [Jekyll](https://jekyllrb.com). The content files that make up PKP's documentation are stored in the [Documentation Hub repository](https://github.com/pkp/pkp-docs) and you can edit documents and add new documents to the repository with a Github account. This chapter explains how to add new documents and edit documents in the repository.
+Most of PKP's documentation is hosted and managed in a GitHub repository called the PKP Documentation Hub and is displayed as a website using an open source tool called [Jekyll](https://jekyllrb.com). The content files that make up PKP's documentation are stored in the [Documentation Hub repository](https://github.com/pkp/pkp-docs) and you can edit and add documents to the repository with a GitHub account. This chapter explains how to add new documents and edit documents in the repository.
 
 ## Markdown
 
@@ -136,7 +136,6 @@ If you want to edit existing documentation or add a section or chapter to existi
 6. Click that button to open up a plain text editor for the document within GitHub itself.
 7. Edit the document
 
-
 ![](./assets/contrib-01.gif)
 
 ## Save and Submit Your Changes
@@ -226,7 +225,7 @@ The second field is for a more detailed description of what you changed. You mig
 
 When you finish, click the button on the bottom left labelled "Commit to `branch name`."
 
-Now that you've committed your changes, you can push your changes back to the repo with the button on the top right. It should say "Publish your Branch to Github" if it's the first time you've committed that branch. It syncs versions locally and remotely with your branch changes and submits your "pull request" to managers of the Docs Hub.
+Now that you've committed your changes, you can push your changes back to the repo with the button on the top right. It should say "Publish your Branch to GitHub" if it's the first time you've committed that branch. It syncs versions locally and remotely with your branch changes and submits your "pull request" to managers of the Docs Hub.
 
 This document is, necessarily, a brief introduction to using GitHub. GitHub has a tremendous amount of documentation on its use, however. If you want to read more about GitHub basics, please read ["Hello, World"](https://guides.github.com/activities/hello-world/).
 

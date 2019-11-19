@@ -10,8 +10,22 @@ First of all, thank you in advance for your contribution! Secondly, contributing
 
 Most of PKP’s documentation is on the [PKP website](https://pkp.sfu.ca). It consists of the following:
 
-- **Documents or Guides** // Instructions on how to use, administer, or develop PKP software. Hosted in the [PKP Documentation Hub](https://docs.pkp.sfu.ca) and composed with markdown. For example, see [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/).
-- **README Files** // A file included with each release of PKP software and, ideally, with each plugin. Located in the root folder of their specific software/plugin repository in Github, they contain information about the software version, installation, and basic functions, settings/configuration, and usage. For example, see the [OJS Keyword Cloud Block Plugin README file](https://github.com/ali-sokhandan/ojs3-keywordcloud-plugin/blob/master/readme.md)
-- **Videos** // Video tutorials on how to use PKP software or take part in scholarly journal publishing. These videos include courses in the [PKP School](https://pkpschool.sfu.ca/). For example, see "[Setting up a Journal in OJS 3](http://pkpschool.sfu.ca/courses/setting-up-a-journal-in-ojs-3/)"
-- **In-app Help** // Basic information about a particular part or feature of a PKP software application that users can access from within the application itself, by clicking "Help".
-- **Web pages** // The PKP website has information about PKP platforms or the organization that does not consist of usage instructions but is still instructive/supportive. PKP Staff maintains these pages. For example, see [Editorial Resources](https://pkp.sfu.ca/editorial-resources/)
+### Documents or Guides
+
+Instructions on how to use, administer, or develop PKP software. Hosted in the [PKP Documentation Hub](https://docs.pkp.sfu.ca) and composed with markdown. For example, see [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/).
+
+### README Files
+
+A file included with each release of PKP software and, ideally, with each plugin. Located in the root folder of their specific software/plugin repository in GitHub, they contain information about the software version, installation, and basic functions, settings/configuration, and usage. For example, see the [OJS Keyword Cloud Block Plugin README file](https://github.com/ali-sokhandan/ojs3-keywordcloud-plugin/blob/master/readme.md)
+
+### Videos
+
+Video tutorials on how to use PKP software or take part in scholarly journal publishing. These videos include courses in the [PKP School](https://pkpschool.sfu.ca/). For example, see "[Setting up a Journal in OJS 3](http://pkpschool.sfu.ca/courses/setting-up-a-journal-in-ojs-3/)"
+
+### In-app Help
+
+Basic information about a particular part or feature of a PKP software application that users can access from within the application itself, by clicking "Help".
+
+### Web pages
+
+The PKP website has information about PKP platforms or the organization that does not consist of usage instructions but is still instructive/supportive. PKP Staff maintains these pages. For example, see [Editorial Resources](https://pkp.sfu.ca/editorial-resources/)

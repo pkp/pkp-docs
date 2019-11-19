@@ -39,7 +39,7 @@ Contributors to documentation who wish to be acknowledged can be noted in the RE
 
 You can learn more about writing good docs with this [Documentation Guide by WritetheDocs](https://www.writethedocs.org/guide/).
 
-## Tips for Making Video Documentation
+## Tips for Video Documentation
 
 - Consider what you want the video to look like, how long it will be, and what your objective or purpose is. Create an outline and script, and practice before recording.
 - Keep it short and focused, ideally 5 minutes or 10 minutes at the maximum. If you want to cover content that goes beyond that length, break the content into a few short videos.
