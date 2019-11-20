@@ -16,7 +16,7 @@
   * [Author fees](./things-to-consider.md#author-fees)
   * [Publication schedule](./things-to-consider.md#publication-schedule)
   * [Publishing agreements](./things-to-consider.md#publishing-agreements)
-  * [Publication format](./things-to-consider.md#publication-formats)
+  * [Publication format](./things-to-consider.md#publication-format)
   * [Disciplinary focus](./things-to-consider.md#disciplinary-focus)
   * [Submission considerations](./things-to-consider.md#submission-considerations)
   * [Sustainability](./things-to-consider.md#sustainability)

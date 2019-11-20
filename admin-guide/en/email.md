@@ -68,7 +68,7 @@ On Windows, PHP needs to be configured to send email through a SMTP server \(run
 
 On other platforms such as Linux and Mac OS X, PHP will sent mail using the local sendmail client, so a local MTA such as Sendmail or Postfix must be running and configured to allow outgoing mail.
 
-See [http://www.php.net/mail](http://www.php.net/mail) for more details on configuring PHP's mail functionality.
+See [https://www.php.net/manual/en/function.mail.php](https://www.php.net/manual/en/function.mail.php) for more details on configuring PHP's mail functionality.
 
 Our software can also be configured to use an SMTP server as specified in `config.inc.php`, either with or without authentication.
 
@@ -216,4 +216,4 @@ You are receiving this email on behalf of <journal-name>. In the event of a requ
 
 #### Solution 2 \(OCS, but also OJS and OMP\):
 
-Configure your install to use GMail's SMTP service, as per [this FAQ thread](https://pkp.sfu.ca/wiki/index.php?title=Using_gmail_SMTP). See [the section above on SMTP](#Sender-Policy-Framework-(SPF)) for more information.
+Configure your install to use GMail's SMTP service. See [the section above on SMTP](#Sender-Policy-Framework-(SPF)) for more information.
