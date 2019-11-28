@@ -14,7 +14,7 @@ Los terceros son bienvenidos a modificar y redistribuir OJS en su totalidad o en
 ### Requerimientos del sistema
 Requisitos recomendados del servidor:
 
-* PHP >= 5.5 con soporte MySQL o PostgreSQL
+* PHP >= 7.1 con soporte MySQL o PostgreSQL
 * MySQL >= 4.1 o PostgreSQL >= 9.1.5
 * Apache >= 1.3.2x o >= 2.0.4x o Microsoft IIS 6
 * Sistema operativo: Cualquier sistema operativo que soporte el software anterior, incluyendo Linux, BSD, Solaris, Mac OS X, Windows.
