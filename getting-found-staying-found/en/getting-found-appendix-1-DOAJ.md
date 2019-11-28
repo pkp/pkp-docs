@@ -140,7 +140,7 @@ If you are looking for further explanation on what the questions mean, please re
   * CLOCKSS
   * LOCKSS
   * PKP PN (Not yet available in OJS 3.x)
-  * PMC/Europe PMC/PMC Canada
+  * PMC/Europe PMC
   * Portico
   * A national library
   * Other
