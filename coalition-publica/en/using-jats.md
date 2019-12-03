@@ -122,5 +122,5 @@ If your access settings are configured
 
 ## Step 6. Enable Inclusion
 
-Contact us to confirm that your OJS journal’s data can now be fetched for inclusion in Érudit, as part of Coalition Publi.ca!
+Contact us to confirm that your OJS journal’s data can now be fetched for inclusion in Érudit, as part of Coalition Publica!
 

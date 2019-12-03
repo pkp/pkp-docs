@@ -121,4 +121,4 @@ Si vos paramètres d’accès sont configurés
 
 ## Étape 6. Activer l’inclusion
 
-Contactez-nous pour vous assurer que les données de votre revue sont récupérées pour une diffusion sur Érudit dans le cadre de Coalition Publi.ca!
+Contactez-nous pour vous assurer que les données de votre revue sont récupérées pour une diffusion sur Érudit dans le cadre de Coalition Publica!
