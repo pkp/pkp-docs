@@ -98,7 +98,8 @@ Fill in the details and hit Save to record your work.
 
 ### Restrict section submitters
 
-Each section allows to restrict submissions by checking the "Items can only be submitted by Editors and Section Editors" checkbox. 
+Each section allows to restrict submissions by checking the "Items can only be submitted by Editors and Section Editors" checkbox.
+
 ![](./assets/learning-ojs3.1-jm-settings-journal-sections-restrict.png)
 
 If this checkbox is checked for all sections, authors will not be able to submit to the journals. Authors who select New Submission from their dashboards will now see the message "This journal is not accepting submissions at this time."
