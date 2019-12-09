@@ -36,7 +36,9 @@ Contributors to documentation who wish to be acknowledged can be noted in the RE
 - Give examples to help users understand concepts.
 - Try to anticipate problems and issues that the user might have. Explain how to overcome them.
 
-You can learn more about writing good docs with this [Documentation Guide by WritetheDocs](http://www.writethedocs.org/guide/).
+You can learn more about writing good docs with these resources:
+- [Documentation Guide by WritetheDocs](http://www.writethedocs.org/guide/)
+- [Mailchimp Content Style Guide](https://styleguide.mailchimp.com/writing-technical-content/)
 
 ## Tips for Making Video Documentation
 
