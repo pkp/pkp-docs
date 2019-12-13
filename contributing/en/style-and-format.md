@@ -29,7 +29,7 @@ Contributors to documentation who wish to be acknowledged can be noted in the RE
 ## Tips for Writing Documentation
 
 - Avoid duplication. If instructions already exist somewhere else that you want to include in a document, provide links instead of duplicating or reproducing the text. Linking to existing docs reduces duplication of effort when updating content. For example, if I want to write documentation for configuring a plugin, I would write it in the README file for the GitHub repository for that plugin. That way, all docs that reference that plugin can provide a link to the same information.
-- Although the information you are writing about may be technical, try to write in simple, straightforward language. The PKP user community includes a variety of different people from different backgrounds and whose first language may not be the same as yours.
+- Although the information you are writing about may be technical, try to write in simple, straightforward language. The PKP user community includes a variety of different people from different backgrounds and whose first language may not be the same as yours. [This tutorial](https://www.linux.com/tutorials/technical-writing-international-audience/) has tips on writing for an international audience.
 - Keep in mind what group of users the documentation is for, what background and technical knowledge they may have, and what kind of information they need. User groups could include developers, system administrators, journal managers, editors, authors, and readers. Within any user group, write for the person with the most basic knowledge and experience.
 - Explain and define acronyms and technical concepts.
 - Break things down into simple steps and use numbered or bulleted lists whenever possible.
@@ -37,7 +37,9 @@ Contributors to documentation who wish to be acknowledged can be noted in the RE
 - Give examples to help users understand concepts.
 - Try to anticipate problems and issues that the user might have. Explain how to overcome them.
 
-You can learn more about writing good docs with this [Documentation Guide by WritetheDocs](https://www.writethedocs.org/guide/).
+You can learn more about writing good docs with these resources:
+- [Documentation Guide by WritetheDocs](http://www.writethedocs.org/guide/)
+- [Mailchimp Content Style Guide](https://styleguide.mailchimp.com/writing-technical-content/)
 
 ## Tips for Video Documentation
 

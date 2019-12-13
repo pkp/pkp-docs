@@ -9,6 +9,6 @@ Publishing a journal is about more than simply putting ink to paper (or pixels t
 
 In this revised edition of _Getting Found, Staying Found_ will highlight many aspects of the publishing process that are important for increasing your journal’s “findability” and building a wider audience. Moreover, it will also show you how to ensure reliable and ongoing access to your valuable content. Much of the information in this resource is intended to be generic and could be applied to any journal, using any software platform. However, the authors have opted to include additional information pertaining to the Open Journal Systems  (OJS) software developed by the Public Knowledge Project to provide further illustrations of how to apply this information in a real world setting.
 
-Copyright: Simon Fraser University holds the copyright for work produced by the Public Knowledge Project and has placed its documentation under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Copyright: Simon Fraser University holds the copyright for work produced by the Public Knowledge Project and has placed its documentation under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
-[![](https://i.creativecommons.org/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](http://creativecommons.org/licenses/by/4.0/)
+[![](https://licensebuttons.net/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](https://creativecommons.org/licenses/by/4.0/)

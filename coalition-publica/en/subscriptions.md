@@ -44,6 +44,6 @@ Use this form to perform the following:
 2. Check the “Generate new API key” checkbox.
 3. Press the “Save” button.
 
-With this done, the “API Key” box should contain a long string of numbers and letters. Copy this to your clipboard, and provide it via email to your Coalition Publi.ca contact.
+With this done, the “API Key” box should contain a long string of numbers and letters. Copy this to your clipboard, and provide it via email to your Coalition Publica contact.
 
 That is all that is required! These steps will allow Érudit the right to perform actions with this newly-created user -- in particular, since the user has a Subscription Manager role, to download subscription-based or unpublished from the website that are not exposed to the public.

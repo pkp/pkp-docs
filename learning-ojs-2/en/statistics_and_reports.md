@@ -28,7 +28,7 @@ The following reports are offered in CSV format:
 
 ![Timed Views Report](images/chapter5/timed_viewed.png)
 
-The COUNTER plugin is available for COUNTER-style journal reporting. Be sure to check the requirements on the [Project COUNTER ](http://www.projectcounter.org/)website.
+The COUNTER plugin is available for COUNTER-style journal reporting. Be sure to check the requirements on the [Project COUNTER ](https://www.projectcounter.org/)website.
 
 ![COUNTER Reports](images/chapter5/counter_reports.png)
 

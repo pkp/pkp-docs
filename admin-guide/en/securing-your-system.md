@@ -32,12 +32,12 @@ salt = "sdlkjfhleiqwrfgbksdlkjgbelruywoeiyt7384gdqlywqvlwjf"`
 A secure deployment of PKP software can be best achieved by using the following recommendations, which are described in docs/README in every download of the software:
 
 * Dedicate a database to OJS, OMP, and OCS; use unique credentials to access it. Configure this database to perform automated backups on a regular basis. Perform a manual backup when upgrading or performing maintenance. If you do not have access to your database contact your system administrator and ensure that database backups are taking place for your OJS. 
-* Configure the software (config.inc.php) to use SHA1 hashing rather than MD5.
-* Enable captcha or recaptcha in your config.inc.php file, and test that they are working. This will prevent most spam user registrations.
-* Configure the software (config.inc.php) to use force_ssl_login so that authenticated users communicate with the server via HTTPS. (You will also have to properly create and configure an SSL certificate to do this properly.)
+* Configure the software (`config.inc.php`) to use SHA1 hashing rather than MD5.
+* Enable captcha or recaptcha in your `config.inc.php` file, and test that they are working. This will prevent most spam user registrations.
+* Configure the software (`config.inc.php`) to use force_ssl_login so that authenticated users communicate with the server via HTTPS. (You will also have to properly create and configure an SSL certificate to do this properly.)
 * Install the software so that the files directory is NOT a subdirectory of the OJS, OMP, or OCS installation and cannot be accessed directly via the web server.
 * Restrict file permissions as much as possible.
-* Deploy and test a proper backup mechanism. The backup mechanism should back up the database, the system files, and the submission files directory (the “files_dir” parameter in config.inc.php). Ideally, you should make both on-site and off-site backups.
+* Deploy and test a proper backup mechanism. The backup mechanism should back up the database, the system files, and the submission files directory (the `files_dir` parameter in `config.inc.php`). Ideally, you should make both on-site and off-site backups.
 * Ensure that your web server environment is regularly updated, in particular with any and all security patches.
 
 If these steps are followed, you will substantially reduce the risk of falling prey to common hacking techniques. If already running OJS, OMP, or OCS, we strongly urge you to review your existing configurations and ensure these steps have been followed.
@@ -106,7 +106,7 @@ If you are using OJS older than 2.4.8-3, you will not be able to use the most re
 To configure ReCAPTCHA:
 
 1. Register an account and create a “property” for your website here: [https://www.google.com/recaptcha/intro/](https://www.google.com/recaptcha/intro/)
-2. Ensure that the relevant lines for enabling captcha are uncommented in config.inc.php
+2. Ensure that the relevant lines for enabling captcha are uncommented in `config.inc.php`
 3. Copy and paste the public and private keys you receive as part of the property registration into the `[captcha]` section of `config.inc.php`:
 
 `recaptcha_public_key = 123456abcdef  
@@ -154,7 +154,7 @@ The names.txt file has to be stored somewhere on the server and the location ref
 
 ## Security FAQ
 
-> Section Contributed by Kenton Good, and adapted from the [PKP Community Forum](http://forum.pkp.sfu.ca/t/pkp-applications-and-security/27991)
+> Section Contributed by Kenton Good, and adapted from the [PKP Community Forum](https://forum.pkp.sfu.ca/t/pkp-applications-and-security/27991)
 
 Below are some general questions we have answered more than a few times in the past, along with some responses. We will add to this list as we receive questions over time.
 
@@ -164,9 +164,9 @@ We do. PKP announces all valid security vulnerabilities, and their respective fi
 
 **I believe I have found a security vulnerability. How can I report it?**
 
-Please send a detailed description of the vulnerability to our support email: support@publicknowledgeproject.org. We will respond to you as quickly as possible with an evaluation of the vulnerability. If it is in fact a vulnerability within OJS, OMP, or OCS (ie. not a hack due to a general server/software misconfiguration, or a vulnerability in another software application, or something dressed up to look like a vulnerability, which believe me we do see on occasion), we will proceed with next steps: identifying and publishing a fix, and then disclosing the issue and fix to the public.
+Please send a detailed description of the vulnerability to our support email: [support@publicknowledgeproject.org](mailto:support@publicknowledgeproject.org). We will respond to you as quickly as possible with an evaluation of the vulnerability. If it is in fact a vulnerability within OJS, OMP, or OCS (ie. not a hack due to a general server/software misconfiguration, or a vulnerability in another software application, or something dressed up to look like a vulnerability, which believe me we do see on occasion), we will proceed with next steps: identifying and publishing a fix, and then disclosing the issue and fix to the public.
 Another option is to submit an issue (and, if available, a patch in the form of a pull request) via [Github](https://github.com/pkp/pkp-lib).
 
 **My journal has a ton of spam registrations. Is there anything I can do about this?**
 
-Yes - you can enable your site's captcha settings, which are found in your config.inc.php file. There is a regular captcha, and an implementation of Google’s Recaptcha which requires its own private/public keys (which you can get from Google - see the config.inc.php file for further instructions). You can also turn on email validation in your config.inc.php file to enforce registrants to verify their account via an email link. Non-validated accounts will be automatically deleted after a number of days, which you can set. See `require_validation` and `validation_timeout` in the config file. 
+Yes - you can enable your site's captcha settings, which are found in your `config.inc.php` file. There is a regular captcha, and an implementation of Google’s Recaptcha which requires its own private/public keys (which you can get from Google - see the `config.inc.php` file for further instructions). You can also turn on email validation in your `config.inc.php` file to enforce registrants to verify their account via an email link. Non-validated accounts will be automatically deleted after a number of days, which you can set. See `require_validation` and `validation_timeout` in the config file.

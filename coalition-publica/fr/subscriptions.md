@@ -42,6 +42,6 @@ Utilisez ce formulaire de la manière suivante:
 2. Cochez la case “​*Generate new API key*”​.
 3. Appuyez sur le bouton “​*Save*”​.
 
-Ceci fait, la zone “​*API Key*​” devrait maintenant avoir une longue chaîne de lettres et chiffres. Copiez celle-ci et fournissez-la par courriel à votre contact Coalition Publi.ca.
+Ceci fait, la zone “​*API Key*​” devrait maintenant avoir une longue chaîne de lettres et chiffres. Copiez celle-ci et fournissez-la par courriel à votre contact Coalition Publica.
 
 C’est tout ce qu’il fallait! Ces étapes permettront à Érudit d’effectuer des actions avec cet utilisateur nouvellement créé -- soit, étant donné que l’utilisateur a un rôle de Responsable des abonnements, de télécharger des contenus sous embargo (accessibles seulement par abonnement) ou non publié sur le site web OJS et par conséquent inaccessibles publiquement.

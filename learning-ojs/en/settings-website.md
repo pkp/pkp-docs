@@ -130,7 +130,7 @@ This section allows you to create and display news announcements on the journal'
 
 **Announcements**: Configure how announcements will appear on your journal website.
 
-**Announcement Types**: You can create different types of announcements \(e.g., News, New Issue Alert, etc.\). Use the _Add Annoucment Type_ link to create them.
+**Announcement Types**: You can create different types of announcements \(e.g., News, New Issue Alert, etc.\). Use the _Add Announcement Type_ link to create them.
 
 **Announcements**: Use the _Add Announcement_ link to create a new announcement for your Announcements page.
 
