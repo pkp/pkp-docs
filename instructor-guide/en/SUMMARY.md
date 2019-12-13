@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](./introduction.md)
-* [Benefits of a course journal](./benefits.md)
 * [How can you use OJS?](./using-ojs.md)
 * [Scoping your project](./scoping.md)
 * [Support for your course journal](./support.md)
