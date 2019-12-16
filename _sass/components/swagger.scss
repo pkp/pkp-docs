@@ -42,7 +42,8 @@ body,
 /* Inline code bits */
 .swagger-ui .code,
 .swagger-ui code,
-.swagger-ui .info code {
+.swagger-ui .info code,
+.swagger-ui .markdown code {
 	display: inline-block;
 	padding: 0 0.25em;
 	border-radius: 2px;
@@ -102,6 +103,56 @@ body,
 	border-left: none;
 	box-shadow: -1px 0 #eee;
 }
+.swagger-ui .opblock-tag {
+	display: block;
+	position: relative;
+}
+.swagger-ui .opblock-tag .expand-operation {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	height: 20px;
+}
+.swagger-ui .opblock-tag small {
+	display: block;
+	padding: 0 1rem 0 0;
+
+	p {
+		line-height: 1.6em;
+	}
+
+	p:first-child {
+		margin-top: 0;
+	}
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}
+.swagger-ui .opblock .opblock-summary {
+	display: block;
+	position: relative;
+}
+.swagger-ui .opblock .opblock-summary-method {
+	position: absolute;
+	top: 50%;
+	left: 0.5rem;
+	min-width: 100px;
+	transform:translateY(-50%);
+}
+.swagger-ui .opblock .opblock-summary-path {
+	display: block;
+	padding-left: 115px;
+
+	a {
+		font-weight: 700;
+	}
+}
+.swagger-ui .opblock .opblock-summary-description {
+	padding-left: 115px;
+	line-height: 1.3rem;
+}
 .swagger-ui .opblock.is-open.opblock-get {
 	box-shadow: -4px 0 #007ab2;
 }
@@ -156,6 +207,10 @@ body,
 	font-style: normal;
 	font-weight: 400;
 	color: #777;
+}
+.swagger-ui .parameters-col_description input[disabled],
+.swagger-ui .parameters-col_description select[disabled] {
+	display: none;
 }
 
 /** Response table */
