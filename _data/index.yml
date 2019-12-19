@@ -15,6 +15,7 @@ apps:
       - path: starting-a-journal
       - path: designing-your-journal
       - path: gfsf
+      - path: instructor-guide
       - path: student-toolkit
       - path: pkp-school
       - path: crossref-ojs-manual
