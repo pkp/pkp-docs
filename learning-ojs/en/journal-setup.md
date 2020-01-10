@@ -62,7 +62,7 @@ Use this page to configure the different sections of your journal. E.g., Article
 
 All of your existing sections will appear here. OJS requires at least one section, and creates an "Articles" section by default.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-sections.png)
+![](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
 
 You can modify sections by clicking on the blue arrow to the left of the section name. This will reveal options to edit or delete the section.
 
@@ -70,7 +70,7 @@ You can modify sections by clicking on the blue arrow to the left of the section
 
 Selecting the edit link will open a new window with different configuration options.
 
-![](./assets/learning-ojs-3-settings-website-settings-sections-edit-1.png)
+![](./assets/learning-ojs-3.2-settings-website-settings-sections-edit-1.png)
 
 From here, you can change the name or abbreviation of the section.
 
@@ -80,9 +80,9 @@ From here, you can change the name or abbreviation of the section.
 
 **Review Form**: You can select specific review forms for each section. Learn more about Review Forms [here](./editorial-workflow.md#review).
 
-**Indexing**: Each section can have different indexing settings. For example, an Editorial section will not typically be peer-reviewed.
+**Section Options**: Each section can have different settings, including whether it is indexed, peer-reviewed, accepts unsolicited submission, or listed in the table of contents. For example, an Editorial section will not typically be peer-reviewed.
 
-**Identify items published in this section as a\(n\)**: This is used by some indexing systems. Note that it is not a required field.
+**Identify items published in this section as a\(n\)**: This is used by some systems. Note that it is not a required field.
 
 **Section Editors**: If you have editors enrolled in your journal, you will see them listed here and can assign one of them to the section. This means any submissions made to the section are automatically assigned to the editor, saving you from manually assigning an editor.
 
@@ -92,7 +92,7 @@ Hit the **Save** button to save your changes and return to the Sections page.
 
 From the sections page, select the Create Section link to open a blank window, exactly the same as the window used for editing a section described above.
 
-![](./assets/learning-ojs-3-settings-website-settings-sections-create.png)
+![](./assets/learning-ojs-3.2-settings-website-settings-sections-create.png)
 
 Fill in the details and hit Save to record your work.
 
@@ -100,7 +100,7 @@ Fill in the details and hit Save to record your work.
 
 Each section allows to restrict submissions by checking the "Items can only be submitted by Editors and Section Editors" checkbox.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-sections-restrict.png)
+![](./assets/learning-ojs3.2-jm-settings-journal-sections-restrict.png)
 
 If this checkbox is checked for all sections, authors will not be able to submit to the journals. Authors who select New Submission from their dashboards will now see the message "This journal is not accepting submissions at this time."
 
@@ -110,7 +110,7 @@ If this checkbox is checked for all sections, authors will not be able to submit
 
 When you have more than one section created, you will see an Order link. Use that to reorder how those sections display on your journal website.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-sections-order.png)
+![](./assets/learning-ojs3.2-jm-settings-journal-sections-order.png)
 
 Hit the **Done** button when you are finished.
 
