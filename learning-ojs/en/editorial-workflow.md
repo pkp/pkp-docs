@@ -277,6 +277,16 @@ Cancelling a review request will permit you to send a template email to the revi
 Cancelled review will be recorded in reviewer stats that you can see when selecting a reviewer.
 ![Cancelled requests in reviewer stats](./assets/learning-ojs-3.2-cancelled-reviews-tracker.png)
 
+**Review Discussion**: Review Discussion is another way for you to contact a reviewer. In a review discussion, you have the option to attach files. 
+
+To start a discussion, click ‘Add Discussion.’
+![](./assets/learning-ojs3.2-rev-contact2)
+
+You will then select the reviewer(s) you would like to start a discussion with. 
+
+![](./assets/learning-ojs3.2-rev-contact3)
+ 
+
 **History**: Provides a brief history of the review.
 
 ![](./assets/learning-ojs-3-ed-rev-review-history.png)
