@@ -268,6 +268,15 @@ You can make additional changes using the blue arrow toggle next to the Reviewer
 
 **Unassign Reviewer**: Allows you to unassign the Reviewer.
 
+**Cancel Review Request**: Starting in OJS 3.2, you can cancel a review request. This may be necessary when a reviewer has not responded to a review request or accepted to do a review but never delivered.
+![Cancel reviewer option](./assets/learning-ojs-3.2-cancel-reviewer.png)
+
+Cancelling a review request will permit you to send a template email to the reviewer. The request will then show up in the editor's reviewer list as "cancelled".
+![Request cancelled](./assets/learning-ojs-3.2-reviewer-cancelled.png)
+
+Cancelled review will be recorded in reviewer stats that you can see when selecting a reviewer.
+![Cancelled requests in reviewer stats](./assets/learning-ojs-3.2-cancelled-reviews-tracker.png)
+
 **History**: Provides a brief history of the review.
 
 ![](./assets/learning-ojs-3-ed-rev-review-history.png)
