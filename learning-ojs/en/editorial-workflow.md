@@ -64,7 +64,7 @@ The **Filter** tool allows you to limit your browsing to specific status \(e.g.,
 
 Note that you can use the blue arrows to the right of each submission to reveal more details, including how many reviews are outstanding, new discussions, and more. It also reveals buttons to take you to the submission record, view the activity log and notes, and to delete the submission.
 
-![](./assets/learning-ojs3.1-ed-dashboard-active-details.png)
+![](./assets/learning-ojs3.2-ed-dashboard-active-details.png)
 
 ### Unassigned
 
