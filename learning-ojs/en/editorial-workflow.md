@@ -58,13 +58,13 @@ When you log into your Dashboard, you can find active submissions either from yo
 
 The **Search** tool for each queue can sometimes be helpful in tracking down submissions.
 
-The **Filter** tool allows you to limit your browsing to specific status \(e.g., incomplete, overdue\) stages \(submission, review, copyediting, production\), or sections \(e.g., articles, reviews\) for faster searching.
+The **Filter** tool allows you to limit your browsing to specific status \(e.g., incomplete, overdue,inactive for 30 days\) stages \(submission, review, copyediting, production\), or sections \(e.g., articles, reviews\) for faster searching.
 
-![](./assets/learning-ojs3.1-ed-dashboard-filter.png)
+![](./assets/learning-ojs3.2-ed-dashboard-filter.png)
 
 Note that you can use the blue arrows to the right of each submission to reveal more details, including how many reviews are outstanding, new discussions, and more. It also reveals buttons to take you to the submission record, view the activity log and notes, and to delete the submission.
 
-![](./assets/learning-ojs3.1-ed-dashboard-active-details.png)
+![](./assets/learning-ojs3.2-ed-dashboard-active-details.png)
 
 ### Unassigned
 
