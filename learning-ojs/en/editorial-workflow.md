@@ -280,11 +280,11 @@ Cancelled review will be recorded in reviewer stats that you can see when select
 **Review Discussion**: Review Discussion is another way for you to contact a reviewer. In a review discussion, you have the option to attach files. 
 
 To start a discussion, click ‘Add Discussion.’
-![](./assets/learning-ojs3.2-rev-contact2)
+![](./assets/learning-ojs3.2-rev-contact2.png)
 
 You will then select the reviewer(s) you would like to start a discussion with. 
 
-![](./assets/learning-ojs3.2-rev-contact3)
+![](./assets/learning-ojs3.2-rev-contact3.png)
  
 
 **History**: Provides a brief history of the review.
