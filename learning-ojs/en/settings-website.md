@@ -35,6 +35,8 @@ If you would like to make more significant changes to the design or give your si
 
 **Colour**: Quickly change the colour of your journal's header.
 
+**Journal Summary**: Check this off to show the journal summary on the homepage. You can add your journal summary under Journal Settings > Masthead.
+
 **Journal Style Sheet**: Use this to upload a unique style sheet for your journal.
 
 **Sidebar Management**: This allows you to move different blocks in or out of the sidebar in the reader interface.
