@@ -13,6 +13,8 @@ cards:
         isDeveloper: true
       - path: ui-library
         isDeveloper: true
+      - path: release-notebooks
+        isDeveloper: true
       - path: ojs-reference
         isDeveloper: true
       - path: omp-reference

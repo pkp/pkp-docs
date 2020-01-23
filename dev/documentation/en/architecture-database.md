@@ -25,12 +25,6 @@ When a DAO has a different name in OJS and OMP, you can retrieve it through the 
 // Get a `JournalDAO` or `PressDAO`
 $contextDao = Application::get()->getContextDAO();
 
-// Get a `ArticleDAO` or `MonographDAO`
-$submissionDao = Application::get()->getSubmissionDAO();
-
-// Get a `PublishedArticleDAO` or `PublishedMonographDAO`
-$publishedSubmissionDao = Application::get()->getPublishedSubmissionDAO();
-
 // Get a `ArticleGalleyDAO` or `PublicationFormatDAO`
 $representationDao = Application::get()->getRepresentationDAO();
 
@@ -135,7 +129,7 @@ $reviewRoundDao->deleteById((int) $reviewRoundId);
 
 ## QueryBuilder
 
-We use `QueryBuilder`s to construct complex queries. `QueryBuilder`s extend [Laravel's QueryBuilder](https://laravel.com/docs/5.5/queries) and provide an expressive API for fetching records of an [Entity](./architecture-entities).
+A query builder should be used to construct complex queries. Query builders extend [Laravel's query builder](https://laravel.com/docs/5.5/queries) and provide an expressive API for fetching records of an [Entity](./architecture-entities).
 
 For example, the `SubmissionQueryBuilder` can be used to retrieve submissions based on several filter parameters.
 
@@ -146,20 +140,43 @@ $qb->filterByContext($contextId)
   ->orderBy('title');
 ```
 
-Once the `QueryBuilder` has been configured it can be compiled to get a `QueryObject`.
+Once configured, use the query builder to generate the query string and parameter bindings to be passed to a `DAO`.
 
 ```php
-$qo = $qb->get();
-```
-
-Use the `QueryObject` to produce the raw query string and parameter bindings for the `DAO`.
-
-```php
+$qo = $qb->getQuery();
 $submissionDao = DAORegistry::getDAO('SubmissionDAO');
 $result = $submissionDao->retrieve($qo->toSql(), $qo->getBindings());
 ```
 
-QueryBuilders should make it easier to retrieve records from the database by providing simple, well-documented methods for getting and filtering records. In most cases, a QueryBuilder will help fulfil a Service class's `getMany()` method.
+Use the `getCount()` method to get a count of matching rows.
+
+```php
+$count = $qb->assignedTo($userId)->getCount();
+```
+
+Use the `getIds()` method to get an array of object ids.
+
+```php
+$assignedIds = $qb->assignedTo($userId)->getIds();
+```
+
+In most cases, a `QueryBuilder` will help fulfil the matching `EntityReadInterface` [methods](architecture-services#entityreadinterface) of a Service class.
+
+A `QueryBuilder` can also be used with Laravel's [query methods](https://laravel.com/docs/5.5/queries).
+
+```php
+$qb = new \APP\Services\QueryBuilders\UserQueryBuilder();
+$qb->filterByContext($contextId);
+
+// Get all matching emails
+$emails = $qb->getQuery()->pluck('u.email');
+
+// Get the first matching result
+$user = $qb->getQuery()->first();
+
+// Get the last registered user
+$user = $qb->getQuery()->max('u.date_registered');
+```
 
 ## SchemaDAOs
 

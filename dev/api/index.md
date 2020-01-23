@@ -12,7 +12,8 @@ Skip to the [technical references](#references).
 
 The REST API will respond to HTTP requests with the requested data in JSON format. When receiving `POST` or `PUT` requests, it expects to receive a payload formatted in JSON.
 
-_The REST API is in early stages of development. The [Compatibility and Maintenance](#compatibility-and-maintenance) section provides some guidance for long-term maintenance of third-party applications built using the API._
+> The REST API is in early stages of development. The [Compatibility and Maintenance](#compatibility-and-maintenance) section provides some guidance for long-term maintenance of third-party applications built using the API.
+{:.warning}
 
 ## Access the API
 
@@ -61,6 +62,9 @@ Your API token can be found by going to **User Profile > API Key** in the applic
 ```
 https://example.com/api/v1/submissions?apiToken=eyJ0e...6vJU
 ```
+
+> The `apiToken` will not validate if the `api_secret_key` setting has not been set in the application's `config.inc.php` file.
+{:.tip}
 
 ## Query Parameters
 
@@ -137,7 +141,7 @@ To make it easier to maintain third-party plugins and applications, we will main
 
 However, changes to the endpoints under the **Backend** category in the reference may not be documented. Use them at your own peril.
 
-We plan to add endpoints as quickly as possible. If you need an endpoint that is not available, and are willing to contribute code to put it into place, please open an issue on the [pkp-lib GitHub repository](https://github.com/pkp/pkp-lib). We welcome community contributions and will work with you to ensure the specification is one that we can stand by over time with minimal disruption.
+We plan to add endpoints as quickly as possible. If you need an endpoint that is not available, and are willing to contribute code to put it into place, please [open an issue](https://github.com/pkp/pkp-lib/issues/new). We welcome community contributions and will work with you to ensure the specification is one that we can stand by over time with minimal disruption.
 
 ## References
 
