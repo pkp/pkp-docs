@@ -63,14 +63,6 @@ Remember to hit **Save** to record any changes.
 
 To remove these fields and their contents from displaying publicly on the website's user interface, deselect the Information Block in Website Settings > Appearance > Sidebar Management.
 
-## Archiving
-
-If you are a member of a LOCKSS or CLOCKSS network, use this page to activate your journal. The PKP PN Plugin, which deposits your content in the PKP Preservation Network, is not yet available for OJS 3.  When it is available and has been enabled, it will deposit your content directly in the Network.
-
-If you use another network, enabling it here will make your content available to the network, but you will also need to contact the network to make it aware of your journal.
-
-![](./assets/learning-ojs3.1-jm-settings-web-archive.png)
-
 ## Languages
 
 OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages on a single site or journal. When you install OJS, you can select one or more languages for your site.
