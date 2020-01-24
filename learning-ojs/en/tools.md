@@ -2,15 +2,15 @@
 
 The Tools section can be accessed from the left sidebar menu.
 
-![](./assets/learning-ojs3.1-jm-users-tools.png)
+![](./assets/learning-ojs3.2-jm-users-tools.png)
 
-Tools consist of an Import/Export tab and a Report Generator tab (called Statistics in OJS 3.1.1 and earlier).
+Tools consist of an Import/Export tab, a Report Generator tab (called Statistics in OJS 3.1.1 and earlier), and a Permissions tab.
 
 ## Import/Export
 
 Import/Export allows you to easily get data out of your OJS journal and get data into it.
 
-![](./assets/learning-ojs3.1-jm-users-tools-import.png)
+![](./assets/learning-ojs3.2-jm-users-tools-import.png)
 
 Some of the tools allow you to export to third-party systems, such as PubMed or the DOAJ. Others allow you to import or export user or article data.
 
@@ -22,7 +22,7 @@ For more information on the Crossref XML Export Plugin, see the [PKP Crossref Gu
 
 The Report Generator page provides access to a variety of reports from your journal.
 
-![](./assets/learning-ojs3.1-jm-users-tools-stats.png)
+![](./assets/learning-ojs3.2-jm-users-tools-stats.png)
 
 The system generates reports that track the details associated with site usage and submissions over a given period of time. Reports are generated in CSV format which requires a spreadsheet application to view.
 
@@ -30,14 +30,18 @@ The system generates reports that track the details associated with site usage a
 - **View Report**: Provides a report on galley and abstract views by readers \(i.e., how many times a PDF for an article has been viewed\).
 - **Articles Report**: Provides a spreadsheet of all published articles.
 - **COUNTER Reports**: Provides COUNTER data.
-- **Subscriptions Report**: Provides a spreadsheet of subscription activity.
 - **Review Report**: Provides a spreadsheet of all review activity.
-
 
 ### Generate Custom Report
 
 Use this feature to build your own reports.
 
-![](./assets/learning-ojs3.1-jm-users-tools-stats-custom.png)
+![](./assets/learning-ojs3.2-jm-users-tools-stats-custom.png)
 
 More information on how to generate and manage statistics in OJS is provided in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
+
+## Permissions
+
+The Reset Article Permissions tool allows you to reset the copyright statement and license information on all published articles, and will revert it to your journal's current default settings. Take caution when using this tool and consult legal expertise if you are unsure what rights you hold over the articles published in your journal.
+
+![](./assets/learning-ojs3.2-jm-users-tools-permissions.png)

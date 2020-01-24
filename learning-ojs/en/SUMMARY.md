@@ -51,6 +51,7 @@
 * [Chapter 11: Tools](./tools.md)
   * [Import &amp; Export](./tools.md#importexport)
   * [Report Generator](./tools.md#report-generator)
+  * [Permissions](./tools.md#permissions)
 * [Chapter 12: Subscriptions](./subscriptions.md)
   * [Subscription Policies](./subscriptions.md#subscription-policies)
   * [Subscription Types](./subscriptions.md#subscription-types)
