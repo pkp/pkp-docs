@@ -4,7 +4,7 @@ title: Editorial Statistics - Technical Documentation - OJS/OMP
 
 # Editorial Statistics
 
-Editorial statistics refer to the editorial activity of a journal or press. The editorial statistics [service](architecture-services.md) helps you calculate data on submissions received, accepted and published, and the time authors must wait for editorial decisions.
+Editorial statistics refer to the editorial activity of a journal or press. The editorial statistics [service](architecture-services.md) helps you calculate data on submissions received, accepted and published, and how long authors must wait for editorial decisions.
 
 Get a count of submissions received by one journal.
 

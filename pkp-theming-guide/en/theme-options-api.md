@@ -1,148 +1,217 @@
 # Theme Options API Documentation
 
-A small API exists for adding theme options. These options allow you to offer theme-specific configuration and typically entail color and font selections.
+Theme options allow you to offer theme-specific configuration settings. They are most often used to provide color and font selections so that a journal can adapt a theme to their brand.
 
-The API is new and still maturing. This documentation covers what's in place now so that you can take advantage of it in your own themes.
+Options added to a theme will appear under the theme selection in the Settings > Website > Appearance > Theme  section.
 
-## addOption()
-Add a new theme option. Supports option types of `text` (a small text field), `colour` (a color selector) and `radio` (choose from a list of options).
+![Screenshot of theme options in backend](theme-options.png)
 
-Example color option.
+## Add a theme option
+
+All theme options should be configured in the `init()` method of your theme. The example below will create a color picker, add it to the settings when your theme is selected, and provide a default value to be used when the user has not selected one.
 
 ```php
 public function init() {
-	$this->addOption('baseColour', 'colour', array(
-		'label' => 'plugins.themes.default.option.colour.label',
-		'description' => 'plugins.themes.default.option.colour.description',
+	$this->addOption('baseColour', 'FieldColor', [
+		'label' => __('plugins.themes.default.option.colour.label'),
+		'description' => __('plugins.themes.default.option.colour.description'),
 		'default' => '#1E6292',
-	));
+	]);
 }
 ```
 
-Example dropdown list of typography options.
+Add an option to select from a list.
 
 ```php
 public function init() {
-	$this->addOption('typography', 'radio', array(
-		'label' => 'plugins.themes.default.option.typography.label',
-		'description' => 'plugins.themes.default.option.typography.description',
-		'options' => array(
-			'notoSans' => 'plugins.themes.default.option.typography.notoSans',
-			'notoSerif' => 'plugins.themes.default.option.typography.notoSerif',
-			'notoSerif_notoSans' => 'plugins.themes.default.option.typography.notoSerif_notoSans',
-			'notoSans_notoSerif' => 'plugins.themes.default.option.typography.notoSans_notoSerif',
-			'lato' => 'plugins.themes.default.option.typography.lato',
-			'lora' => 'plugins.themes.default.option.typography.lora',
-			'lora_openSans' => 'plugins.themes.default.option.typography.lora_openSans',
-		)
-	));
+	$this->addOption('typography', 'FieldOptions', [
+		'type' => 'radio',
+		'label' => __('plugins.themes.default.option.typography.label'),
+		'description' => __('plugins.themes.default.option.typography.description'),
+		'options' => [
+			[
+				'value' => 'notoSans',
+				'label' => __('plugins.themes.default.option.typography.notoSans'),
+			],
+			[
+				'value' => 'notoSerif',
+				'label' => __('plugins.themes.default.option.typography.notoSerif'),
+			],
+		],
+		'default' => 'notoSans',
+	]);
 }
 ```
 
-## modifyOptionsConfig()
-Modify the settings of an option that's already been added, such as a Parent Theme's option. Pass the name of the option and a new array of options arguments.
-
-Example modifying the `typography` option in the previous example.
+Add a checkbox to enable or disable a feature.
 
 ```php
 public function init() {
-	$this->modifyOptionsConfig('typography', array(
+	$this->addOption('showDescriptionInJournalIndex', 'FieldOptions', [
+		'label' => __('manager.setup.contextSummary'),
+		'options' => [
+			[
+				'value' => true,
+				'label' => __('plugins.themes.default.option.showDescriptionInJournalIndex.option'),
+			],
+		],
+		'default' => false,
+	]);
+}
+```
+
+Add a text field to describe a section.
+
+```php
+public function init() {
+	$this->addOption('callToAction', 'FieldText', [
+		'label' => __('plugins.themes.default.option.callToAction.label'),
+		'default' => false,
+	]);
+}
+```
+
+> All of the form field components can be seen in the [UI Library](/dev/ui-library/dev).
+{:.tip}
+
+Use any field type that extends the `Field` class except the `FieldUpload` and `FieldUploadImage` types. File uploads are not yet supported for theme options.
+
+
+## Use a theme option
+
+Get the value of a theme option and use it in your theme. The example below will use the selected color and pass it to the LESS stylesheet before it is compiled, overwriting the default value of `@bg-base`.
+
+```php
+public function init() {
+	$baseColour = $this->getOption('baseColour');
+	$this->modifyStyle(
+		'stylesheet',
+		['addLessVariables' => "@bg-base:$baseColour;"]
+	);
+}
+```
+
+Get theme options from any template by using the `$activeTheme` variable.
+
+```html
+{if $activeTheme->getOption('showDescriptionInJournalIndex')}
+	<section>
+		{$currentContext->getData('description')}
+	</section>
+{/if}
+```
+
+## Manage colors
+
+When the user selects a light or dark color with a theme option, text must be adjusted to ensure sufficient color contrast. Use the `isColourDark()` method to check the brightness and make adjustments.
+
+```php
+public function init() {
+
+		// Set the background color
+		$additionalLessVariables[] = '@bg-base:' . $this->getOption('baseColour') . ';';
+
+		// Set the text to white if the background is too dark
+    if (!$this->isColourDark($this->getOption('baseColour'))) {
+        $additionalLessVariables[] = '@text-bg-base:white;';
+    }
+}
+```
+
+## Modify existing options
+
+A child theme may need to extend an existing option defined by the parent theme or remove it altogether. Modify the typography option.
+
+```php
+public function init() {
+	$this->modifyOptionsConfig('typography', [
 		'type' => radio,
 		'label' => 'plugins.themes.default.option.typography.label',
 		'description' => 'plugins.themes.default.option.typography.description',
-        // New options. These replace the existing options.
-		'options' => array(
+
+		// Replace the existing options with new options.
+		'options' => [
 			'montserratNotoSerif' => 'plugins.themes.default-child.option.typography.montserratNotoSerif',
 			'montserratNotoSans' => 'plugins.themes.default-child.option.typography.montserratNotoSans',
-        )
-	));
+		]
+	]);
 }
 ```
 
-See also [getOptionsConfig()](#getoptionsconfig).
-
-## removeOption()
-Remove an option that's already been added, such as a Parent Theme's option.
+Remove the typography option.
 
 ```php
 public function init() {
-    $this->removeOption( 'typography' );
+	$this->removeOption( 'typography' );
 }
 ```
 
-## getOption()
-Retrieve the value of a theme option. This is used to retrieve the currently set value of the option for use in the theme or templates.
-
-Example modifying a `LESS` variable based on a color option.
+Get the option's `Field` object to manipulate it directly.
 
 ```php
 public function init() {
-	$this->modifyStyle('stylesheet', array('addLessVariables' => '@bg-base:' . $this->getOption('baseColour') . ';'));
+	$typographyField = $this->getOptionConfig('typography');
+	$typographField->label = __('plugins.themes.default.option.typography.label');
 }
 ```
 
-Example loading a custom font based on a radio selection.
+Get the `Field` objects for all theme options.
 
 ```php
 public function init() {
-	if ($this->getOption('typography') === 'notoSerif') {
-		$this->addStyle(
-			'fontNotoSerif',
-			'//fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i',
-			array('baseUrl' => '')
-		);
-		$this->modifyStyle(
-			'stylesheet',
-            array(
-            	'addLessVariables' => '@font: "Noto Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;'
-            )
-        );
+	$allOptions = $this->getOptionsConfig();
+	foreach ((array) $allOptions as $option) {
+		...
 	}
 }
 ```
 
-## getOptionConfig()
-Get the configuration settings for an existing option. This is useful alongside [modifyOptionsConfig()](#modifyoptionsconfig) to extend choices in a Parent Theme's option.
+## Examples
+
+Add a theme option to select a font and load the custom font file based on the user's selection.
 
 ```php
 public function init() {
-    $typographyConfig = $this->getOptionConfig('typography');
-}
-```
 
-## getOptionsConfig()
-Get the configuration settings for all options in this theme and any parent.
+	// Add the option
+	$this->addOption('typography', 'FieldOptions', [
+		'type' => 'radio',
+		'label' => __('plugins.themes.default.option.typography.label'),
+		'description' => __('plugins.themes.default.option.typography.description'),
+		'options' => [
+			[
+				'value' => 'notoSans',
+				'label' => __('plugins.themes.default.option.typography.notoSans'),
+			],
+			[
+				'value' => 'notoSerif',
+				'label' => __('plugins.themes.default.option.typography.notoSerif'),
+			],
+		],
+		'default' => 'notoSans',
+	]);
 
-```php
-public function init() {
-    $allOptionsConfig = $this->getOptionsConfig();
-}
-```
-
-## isColourDark()
-Check the brightness of a hexidecimal color code (`#000000`).
-
-This is a helper function that is useful when using colour options in your theme. If a colour is used as a background, you may need to adjust the text on top of it when it is too dark or too light.
-
-Example adjusting a `LESS` variable when a colour selection is too light.
-
-```php
-public function init() {
-    $additionalLessVariables[] = '@bg-base:' . $this->getOption('baseColour') . ';';
-    // Check the new background color
-    // and swap to black text if needed
-    if (!$this->isColourDark($this->getOption('baseColour'))) {
-        $additionalLessVariables[] = '@text-bg-base:rgba(0,0,0,0.84);';
-    }
-}
-```
-
-By default, the function uses a brightness threshold of `130`. You can pass in a custom threshold. Higher values are brighter.
-
-```php
-public function init() {
-    if (!$this->isColourDark($this->getOption('baseColour'), 180)) {
-        $additionalLessVariables[] = '@text-bg-base:rgba(0,0,0,0.84);';
-    }
+	// Load the correct google font
+	if ($this->getOption('typography') === 'notoSerif') {
+		$this->addStyle(
+			'fontNotoSerif',
+			'//fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i',
+			['baseUrl' => '']
+		);
+		$this->modifyStyle(
+			'stylesheet',
+			['addLessVariables' => '@font: "Noto Serif", serif;']
+		);
+	} else {
+		$this->addStyle(
+			'fontNotoSans',
+			'//fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i',
+			['baseUrl' => '']
+		);
+		$this->modifyStyle(
+			'stylesheet',
+			['addLessVariables' => '@font: "Noto Sans", sans-serif;']
+		);
+	}
 }
 ```
