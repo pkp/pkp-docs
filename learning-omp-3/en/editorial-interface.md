@@ -1,7 +1,7 @@
 # Editorial Interface
 
 
-![](./assets/learning_omp_editorial-interface.png)
+![](./assets/learning_omp-editorial-interface.png)
 OMP 3.x  has a separate interface once you log into the editorial system. This makes it easier to customize the reader interface. 
 
 The editorial interface is known as your dashboard and consists of the following elements:
