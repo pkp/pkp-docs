@@ -85,4 +85,4 @@ To create a new role, go to Users & Roles > Roles. On the top-right corner of th
 
 Select the Permission level, enter the Role Name and Abbreviation, and select from the Role Options (as it applies). 
 
-![](./assets/learning_omp_user_accounts_3.png)
+![](./assets/learning_omp-user-accounts_3.png)
