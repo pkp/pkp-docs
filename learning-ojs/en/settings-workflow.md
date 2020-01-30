@@ -6,7 +6,7 @@ The Workflow Settings allow you to configure various parts of the journal's edit
 
 When an author makes a submission, they can upload multiple files. Typically, one file will be the article text, and others can include interview transcripts, data, images, etc. Each of these files is a **component** of the submission. The components available for the author to choose from when making their submission are listed here.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)
+![](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)
 
 Using the links provided, you can change the **Order** of the components \(how they will be listed to the submitting author\), **Add a Component** \(if something you need is not included by default -- e.g., Video\), or **Restore the Defaults** \(if someone has made too many modifications and you just want to reset everything\).
 
