@@ -56,4 +56,5 @@ You can learn more about writing good docs with these resources:
 - If you make a mistake, just pause and continue. You can cut out the mistake later during editing.
 - After recording, use annotation tools in your screencasting program to add captions, arrows, animation, or highlighting. This can help direct your viewer’s eyes, highlight important things, or further explain things.
 - Give the video a clear, accurate title and an informative description
+- Add captions to the video, which are text versions of the audio content, synchronized with the video. Captions help make the video accessible to people who are deaf or hard of hearing and they can improve comprehension for viewers with less fluency in the video's language. 
 - Include an accurate transcript, such as an .srt file. YouTube automates this, but it does require some manual improvement. This will allow translators to more easily make subtitles in other languages.
