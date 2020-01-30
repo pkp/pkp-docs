@@ -9,6 +9,8 @@ cards:
         isDeveloper: true
       - path: plugin-guide
         isDeveloper: true
+      - path: testing
+        isDeveloper: true
       - path: rest-api
         isDeveloper: true
       - path: ui-library
