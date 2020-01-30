@@ -26,7 +26,7 @@ You can also edit each component by selecting the blue arrow to the left of the 
 
 Use this section to configure the submission process.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-submission.png)
+![](./assets/learning-ojs3.2-jm-settings-workflow-submission.png)
 
 **Author Guidelines**: Use this field to add guidelines for your authors. This information will be displayed on the journal website.
 
