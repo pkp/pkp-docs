@@ -12,13 +12,13 @@ The Journal Settings page includes details about the journal.
 
 Use the tabs to navigate to the different sections of Journal Settings: Masthead, Contact, Sections.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-page.png)
+![](./assets/learning-ojs3.2-jm-settings-journal-page.png)
 
 ## Masthead
 
-**Journal Name** is the name of your journal. E.g., Journal of Software Documentation
+**Journal title** is the name of your journal. E.g., Journal of Software Documentation
 
-**Journal Initials** are the initials of the journal. E.g., JSD.
+**Journal initials** are the initials of the journal. E.g., JSD.
 
 **Journal Abbreviation** is the abbreviation of your journal name. E.g., JSoftDoc.
 
@@ -32,9 +32,9 @@ OJS journals will typically have an online ISSN, but some may also publish a pri
 
 Please note that the ISSN entered here is used for metadata but will not be displayed on your site. It's recommended that you also add the ISSN to the footer of your site. You can do this under Website Settings > Appearance > Footer.
 
-**Journal Summary** is a brief description of your journal. If you are on an OJS installation with multiple journals, this text will appear with your journal listing.
+**Journal Summary** is a brief description of your journal. If you are on an OJS installation with multiple journals, this text will appear with your journal listing. You can also choose to add the journal summary to the journal homepage in the Website Settings.
 
-**Masthead** allows you to add the names of your editorial team or anyone else you wish to mention. This will appear on the public website under About &gt; Editorial Team.
+**Editorial Team** allows you to add the names of your editorial team or anyone else you wish to mention. This will appear on the public website under About &gt; Editorial Team.
 
 **About the Journal** is a space to add any information about your journal which may be of interest to readers, authors, or reviewers.
 
@@ -46,11 +46,9 @@ Hit the **Save** button to save your changes.
 
 Use this section to add journal contacts.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-contact.png)
+![](./assets/learning-ojs3.2-jm-settings-journal-contact.png)
 
-**Mailing Address**: Add your journal's official mailing address here. This will appear on the journal's Contact page.
-
-**Principal Contact**: Add contact information for the journal's main contact person.
+**Principal Contact**: Add contact information for the journal's main contact person, including name, email, phone, affiliation, and mailing address for the journal. This will appear on the journal's Contact page.
 
 **Technical Support Contact**: Add contact information for the journal's technical support person. This information will appear on the journal's Contact page and also in different points in the workflow to offer assistance to users.
 
@@ -77,8 +75,6 @@ From here, you can change the name or abbreviation of the section.
 **Section Policy**: Use this field to add important details such as submission requirements, peer review, etc.
 
 **Word Count**: Use this to limit the number of words for abstracts in this section.
-
-**Review Form**: You can select specific review forms for each section. Learn more about Review Forms [here](./editorial-workflow.md#review).
 
 **Section Options**: Each section can have different settings, including whether it is indexed, peer-reviewed, accepts unsolicited submission, or listed in the table of contents. For example, an Editorial section will not typically be peer-reviewed.
 
