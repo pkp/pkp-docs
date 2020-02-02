@@ -45,7 +45,7 @@ To order your series, click **Order** on the right corner of the series box.
 Using the double arrow beside the Series title, drag the series in order and click Done once you have completed ordering your series. 
 
 #### Add books to series
-See the Catalog and Displaying Content chapter [link] for instructions on how to add books to series.
+See the [Catalog and Displaying Content chapter](./catalog-management.md) for instructions on how to add books to series.
 
 ### Categories
 Categories can be used to group and display books according to the subject matter or themes — for example, economics, literature, and poetry. Categories may be nested within "parent" categories in a hierarchy. Categories can be displayed as a browse block on your press site, and readers can select a category to view all books in that category.  
