@@ -1,7 +1,7 @@
 # Tools
 
 ## Import/Export
-![](.assets/learning_omp-tools-import_export.png)
+![](./assets/learning_omp-tools-import_export.png)
 
 OMP provides a number of tools to import and export data into and out of your press. Please see [PKP’s Administrator’s Guide](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export) for information on how to use the Native XML Plugin and the Users XML Plugin. Please also note that the Quick Submit Plugin is not available for OMP. 
 
