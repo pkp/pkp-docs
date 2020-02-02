@@ -77,4 +77,23 @@ To display categories on your website you can go to Website Settings > Appearanc
 #### Add books to categories
 See the Catalog and Displaying Content chapter for instructions on how to add books to categories.
 
+## Website Settings
+
+Please refer to the [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on Website Setting applicable to OMP. 
+
+Please note that some plugins for OJS are not available for OMP.
+
+## Workflow Settings
+Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes. 
+
+
+This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library. 
+
+Under Production, you will enter all the information required to generate your ONIX metadata. 
+![](./assets/learning_omp-workflow_setting-ONIX.png)
+
+## Distribution 
+Please refer to [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on Distribution Settings and Subscriptions in OMP.
+
+
 
