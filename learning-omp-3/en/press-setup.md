@@ -40,7 +40,7 @@ You can modify a series by clicking on the blue arrow to the left of the series 
 
 To order your series, click **Order** on the right corner of the series box. 
 
-![](.learning_omp-press_setup-order_series.png)
+![](./assets/learning_omp-press_setup-order_series.png)
 
 Using the double arrow beside the Series title, drag the series in order and click Done once you have completed ordering your series. 
 
