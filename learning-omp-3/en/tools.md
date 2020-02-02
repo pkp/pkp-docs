@@ -8,3 +8,7 @@ OMP provides a number of tools to import and export data into and out of your pr
 To export using the ONIX 3.0 Monograph Export Plugin, you need to ensure that all of the fields are completed under Settings > Workflow > Production.
 
 The Tab Delimited Content Import Plugin can only be used with the command line. 
+
+## Statistics
+You can generate statistical reports for usage and reviews or create a custom report. For information on how to use and configure statistics in OMP see the PKP Administrator’s Guide https://docs.pkp.sfu.ca/admin-guide/en/statistics.
+
