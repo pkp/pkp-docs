@@ -2,7 +2,7 @@
 
 This chapter will provide a general outline and instruction for the various role-specific workflows including the author, reviewer, and editorial team. 
 
-## Author
+## Author Workflow
 
 ### Registration
 To create an account in a Press, click ‘Register’ on the Press’ homepage. This is typically found on the top-right corner of the Press’ site.
