@@ -29,26 +29,26 @@ From here, you’ll be able to edit your name, contact information, signature, a
 ## Author Submission
 Once you are ready to make a submission, click ‘New Submission’ on your user dashboard. 
 
-![](.assets/learning-omp_role-specific-workflow_auth-subm-1.png)
+![](./assets/learning-omp_role-specific-workflow_auth-subm-1.png)
 
 **Step 1: Prepare** 
 You will need to select the Submission Type, Series, the Role in submission, and add notes to the Editor (if applicable). 
 
 Once you have completed this form, click agree to the terms and click ‘Save and continue.' 
 
-![](.assets/learning-omp_role-specific-workflow_auth-subm-2.png)
+![](./assets/learning-omp_role-specific-workflow_auth-subm-2.png)
 
 **Step 2: Upload Submission**
 
 Identify your Submission Component from the list. Once selected, upload your file. 
 
-![](.assets/learning-omp_role-specific-workflow_auth-subm-3.png)
+![](./assets/learning-omp_role-specific-workflow_auth-subm-3.png)
 
 Press continue. 
 
 You can upload additional documents (as applicable). 
 
-![](.assets/learning-omp_role-specific-workflow_auth-subm-4.png)
+![](./assets/learning-omp_role-specific-workflow_auth-subm-4.png)
 
 Press ‘Complete’ followed by ‘Save and Continue.'
 
@@ -56,7 +56,7 @@ Press ‘Complete’ followed by ‘Save and Continue.'
 
 You will need to enter the following metadata regarding your manuscript. Items marked with the red asterisk are a mandatory part of the submission.  
 
-![](.assets/learning-omp_role-specific-workflow_auth-subm-5.png)
+![](./assets/learning-omp_role-specific-workflow_auth-subm-5.png)
 
 Enter your manuscript’s Title, Subtitle, Abstract, List of Contributors, Chapters, Additional Refinements Subjects, and Keywords as applicable. 
 
