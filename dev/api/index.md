@@ -177,6 +177,6 @@ The following technical references are available for different versions of the A
 - [OJS 3.2](ojs/3.2)
 - [OJS 3.1.x](ojs/3.1)
 
-We use [Postman](https://www.getpostman.com/) to test our APIs. You can [import our OJS collection](/dev/api/OJS-api-postman-collection.json) (last updated 2019-04-11).
+We use [Postman](https://www.getpostman.com/) to test our APIs. You can [import our OJS collection](/dev/api/OJS-api-postman-collection.json) (last updated 2020-02-03).
 
 _Sorry, OMP's API documentation is not yet available. Many of the OJS endpoints are available but we haven't yet documented this._
