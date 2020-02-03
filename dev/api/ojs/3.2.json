@@ -3,7 +3,7 @@
     "info": {
         "version": "3.2.x",
         "title": "Open Journal Systems - API Reference",
-        "description": "This guide documents the REST API endpoints which can be accessed with this version of [Open Journal Systems](https:\/\/pkp.sfu.ca\/ojs\/). It is a technical reference for software developers who wish to build custom interactions with the platform.\n\nPlease consult the [REST API Usage Guide](\/dev\/api) for an introduction to using the API or the [Developer Documentation Hub](\/dev) for documentation on the platform's internals.\n\n**Breaking changes since v3.1.x**\n* Major changes have been made to submission data. Submissions now contain one or more `publications`, where title, author and other published data is stored.\n* The Author property, `isBrowseable`, was renamed to `includeInBrowse`.\n* The Author property, `isPrimaryContact`, was renamed to `primaryContact`.\n* The Submission property, `status`, was changed from an `object` to an `integer`. Please see documentation for more information.\n* The `\/submissions\/{submissionId}\/galleys` endpoint was removed. Galley data is provided with each publication.",
+        "description": "This guide documents the REST API endpoints which can be accessed with this version of [Open Journal Systems](https:\/\/pkp.sfu.ca\/ojs\/). It is a technical reference for software developers who wish to build custom interactions with the platform.\n\nPlease consult the [REST API Usage Guide](\/dev\/api) for an introduction to using the API or the [Developer Documentation Hub](\/dev) for documentation on the platform's internals.\n\n**Breaking changes**\n* Major changes have been made to submission data to support versioning. All related endpoints have major changes. See the [release notebook](\/dev\/release-notebooks\/en\/3.2-release-notebook) for further information. \n* The `_parent` property has been removed from issue galleys.\n* The Author property, `isBrowseable`, was renamed to `includeInBrowse`.\n* The Author property, `isPrimaryContact`, was renamed to `primaryContact`.\n* The Submission property, `status`, was changed from an `object` to an `integer`. Please see documentation for more information.\n* The `\/submissions\/{submissionId}\/galleys` endpoint was removed. Galley data is provided with each publication.",
         "contact": {
             "name": "Public Knowledge Project",
             "url": "https:\/\/pkp.sfu.ca"
@@ -216,7 +216,7 @@
                     "type": "string",
                     "default": "issue",
                     "validation": [
-                        "in:issue,article"
+                        "in:issue,submission"
                     ]
                 },
                 "coverage": {
@@ -540,7 +540,7 @@
                 },
                 "keywords": {
                     "type": "string",
-                    "default": "enable",
+                    "default": "request",
                     "description": "Enable keywords metadata. `0` is disabled. `enable` will make it available in the workflow. `request` will allow an author to enter a value during submission. `require` will require that the author enter a value during submission.",
                     "validation": [
                         "nullable",
@@ -902,10 +902,21 @@
                     ]
                 },
                 "styleSheet": {
-                    "type": "string",
+                    "type": "object",
                     "validation": [
                         "nullable"
-                    ]
+                    ],
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "uploadName": {
+                            "type": "string"
+                        },
+                        "dateUploaded": {
+                            "type": "string"
+                        }
+                    }
                 },
                 "subjects": {
                     "type": "string",
@@ -1735,7 +1746,11 @@
                 },
                 "licenseUrl": {
                     "type": "string",
-                    "description": "A URL to a webpage describing the license terms for this publication."
+                    "description": "A URL to a webpage describing the license terms for this publication.",
+                    "validation": [
+                        "nullable",
+                        "url"
+                    ]
                 },
                 "locale": {
                     "type": "string",
@@ -1851,6 +1866,14 @@
                     "description": "The public URL for this publication or where it will be available if it has not yet been published.",
                     "apiSummary": true,
                     "readOnly": true
+                },
+                "version": {
+                    "type": "integer",
+                    "description": "The version number of this publication. Version numbers should increment by one so that the third publication of a submission will have the version number `3`. Version numbers should typically be set automatically and editorial staff should not be encouraged to modify them.",
+                    "apiSummary": true,
+                    "validation": [
+                        "min:1"
+                    ]
                 }
             }
         },
@@ -2096,6 +2119,23 @@
                         "validation": [
                             "alpha_num"
                         ]
+                    }
+                },
+                "styleSheet": {
+                    "type": "object",
+                    "validation": [
+                        "nullable"
+                    ],
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "uploadName": {
+                            "type": "string"
+                        },
+                        "dateUploaded": {
+                            "type": "string"
+                        }
                     }
                 },
                 "supportedLocales": {
@@ -2797,7 +2837,7 @@
                     "type": "string",
                     "default": "issue",
                     "validation": [
-                        "in:issue,article"
+                        "in:issue,submission"
                     ]
                 },
                 "coverage": {
@@ -3140,7 +3180,7 @@
                 },
                 "keywords": {
                     "type": "string",
-                    "default": "enable",
+                    "default": "request",
                     "description": "Enable keywords metadata. `0` is disabled. `enable` will make it available in the workflow. `request` will allow an author to enter a value during submission. `require` will require that the author enter a value during submission.",
                     "validation": [
                         "nullable",
@@ -3510,10 +3550,25 @@
                     ]
                 },
                 "styleSheet": {
-                    "type": "string",
+                    "type": "object",
                     "validation": [
                         "nullable"
-                    ]
+                    ],
+                    "properties": {
+                        "temporaryFileId": {
+                            "type": "integer",
+                            "writeOnly": true
+                        },
+                        "name": {
+                            "type": "string"
+                        },
+                        "uploadName": {
+                            "type": "string"
+                        },
+                        "dateUploaded": {
+                            "type": "string"
+                        }
+                    }
                 },
                 "subjects": {
                     "type": "string",
@@ -4318,7 +4373,11 @@
                 },
                 "licenseUrl": {
                     "type": "string",
-                    "description": "A URL to a webpage describing the license terms for this publication."
+                    "description": "A URL to a webpage describing the license terms for this publication.",
+                    "validation": [
+                        "nullable",
+                        "url"
+                    ]
                 },
                 "locale": {
                     "type": "string",
@@ -4428,6 +4487,14 @@
                 },
                 "type": {
                     "$ref": "#\/definitions\/LocaleObject"
+                },
+                "version": {
+                    "type": "integer",
+                    "description": "The version number of this publication. Version numbers should increment by one so that the third publication of a submission will have the version number `3`. Version numbers should typically be set automatically and editorial staff should not be encouraged to modify them.",
+                    "apiSummary": true,
+                    "validation": [
+                        "min:1"
+                    ]
                 }
             }
         },
@@ -4561,6 +4628,14 @@
                     "description": "The public URL for this publication or where it will be available if it has not yet been published.",
                     "apiSummary": true,
                     "readOnly": true
+                },
+                "version": {
+                    "type": "integer",
+                    "description": "The version number of this publication. Version numbers should increment by one so that the third publication of a submission will have the version number `3`. Version numbers should typically be set automatically and editorial staff should not be encouraged to modify them.",
+                    "apiSummary": true,
+                    "validation": [
+                        "min:1"
+                    ]
                 }
             }
         },
@@ -4725,11 +4800,25 @@
                     }
                 },
                 "styleSheet": {
-                    "type": "string",
-                    "writeOnly": true,
+                    "type": "object",
                     "validation": [
                         "nullable"
-                    ]
+                    ],
+                    "properties": {
+                        "temporaryFileId": {
+                            "type": "integer",
+                            "writeOnly": true
+                        },
+                        "name": {
+                            "type": "string"
+                        },
+                        "uploadName": {
+                            "type": "string"
+                        },
+                        "dateUploaded": {
+                            "type": "string"
+                        }
+                    }
                 },
                 "supportedLocales": {
                     "type": "array",
@@ -6666,20 +6755,6 @@
                         "in": "query",
                         "required": false,
                         "type": "string"
-                    },
-                    {
-                        "name": "count",
-                        "description": "How many results to return in a single request. Default is `30`. Max is `100`.",
-                        "in": "query",
-                        "required": false,
-                        "type": "type"
-                    },
-                    {
-                        "name": "offset",
-                        "description": "Offset the results returned. Use this to receive subsequent pages of requests.",
-                        "in": "query",
-                        "required": false,
-                        "type": "integer"
                     }
                 ],
                 "responses": {

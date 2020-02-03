@@ -174,8 +174,8 @@ We plan to add endpoints as quickly as possible. If you need an endpoint that is
 
 The following technical references are available for different versions of the API.
 
+- [OJS 3.2](ojs/3.2)
 - [OJS 3.1.x](ojs/3.1)
-- [OJS development](ojs/dev)
 
 We use [Postman](https://www.getpostman.com/) to test our APIs. You can [import our OJS collection](/dev/api/OJS-api-postman-collection.json) (last updated 2019-04-11).
 
