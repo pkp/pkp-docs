@@ -18,6 +18,12 @@ The plugin must be made available under a GPL-compatible license so that our com
 
 See an [example](https://github.com/pkp/pluginTemplate/blob/master/LICENSE) of a license file.
 
+## Write Tests for Your plugin
+
+Plugins can take advantage of the [testing tools](/dev/testing/en) to run their plugin against different PHP versions and databases. Plugins with tests are more likely to be accepted in the plugin gallery and make it easier for you to test compatibility with each new release of OJS or OMP.
+
+Learn how to [write tests for your plugin](/dev/testing/en/plugins-themes).
+
 ## Build and Package Your Plugin
 
 Your release package should be a `.tar.gz` file that contains a single directory with all of the files necessary to run the plugin. The directory name should match the `product` name in the release XML.

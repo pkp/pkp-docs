@@ -24,19 +24,16 @@ There are many ways to [configure your environment](https://docs.cypress.io/guid
 
 Replace `****` with the values which match your local installation and place this file in your application's root directory.
 
-> The base URL, database credentials and files directory can be found in the `config.inc.php` file in your application's root directory.
+> The `DBTYPE` must match one of the options in the installation form. It is usually `mysqli` or `postgres`.
 {:.tip}
 
 The integration tests will install the software and create test data.
-
-- create empty database
-- set install to off
 
 ## Run integration tests
 
 The integration tests will install the software and run a number of tests to add users, make submissions, record editorial decisions and publish articles.
 
-Before the integration tests are run, update your `config.inc.php` file to point to an empty database and set the `installed` flag to `Off`.
+Before the integration tests are run, update your `config.inc.php` file and set the `installed` flag to `Off`.
 
 ```
 ; Set this to On once the system has been installed

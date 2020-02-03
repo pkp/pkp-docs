@@ -53,8 +53,8 @@ cy.createUser({
 });
 ```
 
-Read all the commands in the `lib/pkp/cypresss/support/commands.js` file.
+Read all the commands in the `lib/pkp/cypress/support/commands.js` file.
 
 ---
 
-Learn how to [debug test failures](./debugging).
+Learn how to [debug test failures](./debug).
