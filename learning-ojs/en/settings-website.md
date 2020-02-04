@@ -31,11 +31,11 @@ If you would like to make minor changes to your site's design and layout, you ca
 
 If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
-**Typography**: Quickly choose the fonts for your journal.
+**Typography**: Quickly choose the fonts for your journal. This option may or may not be available depending on the selected theme.
 
-**Colour**: Quickly change the colour of your journal's header.
+**Colour**: Quickly change the colour of your journal's header. This option may or may not be available depending on the selected theme.
 
-**Journal Summary**: Check this off to show the journal summary on the homepage. You can add your journal summary under Journal Settings > Masthead.
+**Journal Summary**: Check this off to show the journal summary on the homepage. You can add your journal summary under Journal Settings > Masthead. This option may or may not be available depending on the selected theme.
 
 **Journal Style Sheet**: Use this to upload a unique style sheet for your journal.
 
