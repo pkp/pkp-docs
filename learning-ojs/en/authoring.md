@@ -116,6 +116,25 @@ Over the coming days, it will move into the Review stage, and if accepted, into 
 
 <hr />
 
+## Editing Metadata
+
+In OJS 3.2, you may edit your own metadata at different stages of the editorial workflow. This will be dependent on settings granted by the Journal. You may either have global permission to make edits or have to send a request to the Editor to do so. 
+
+Changes might include updated abstracts, correcting spelling errors, or adding additional contributors. 
+
+To make edits to your submitted manuscript, click on the publication tab of your submission.
+
+![](./assets/learning-ojs3.2-auth-dashboard-publication.png)
+
+You will be able to make changes to any of the sub-menus on the left by clicking to those tabs. Click ‘Save’ once you’re done making your changes.
+
+![](./assets/learning-ojs3.2-auth-dashboard-publication2.png)
+
+When granted permission, you will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors, and Metadata. While Galleys is listed as an option on the side menu, you will not be able to upload or make changes in this section. 
+
+If you notice that the ‘Save’ button is grey and inactive, this means you will have to request permission from the Editor to make changes to your submission or ask them to make the changes for you. 
+
+
 ## Responding to a Review
 
 Once the review process has completed, you will be notified via email by the editor of their decision.
