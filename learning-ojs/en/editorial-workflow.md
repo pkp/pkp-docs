@@ -144,6 +144,36 @@ Use the Notes tab to also view or add any editorial notes.
 
 ![](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
 
+### Granting Author permissions
+In OJS 3.2, editors can grant access to allow authors to make metadata changes. 
+There are two ways editors can grant this type of access.
+
+**Global permission**- will grant all users with the role ‘author’ permission to make metadata changes.
+
+To enable this, go to Users & Roles > Roles. Click the blue arrow beside the ‘Author’ then click edit.
+
+![](./assets/learning-ojs3.2-editorial-workflow-author-edit.png)
+
+Under Role Options, enable ‘Permit submission metadata edit.’ then click OK.
+
+![](./assets/learning-ojs3.2-editorial-workflow-author-editmenu.png)
+
+**Limited Permission** - will grant registered authors (typically a single author) permission to only make changes at certain stages of the editorial workflow.
+
+To allow an author to change the metadata at a specific stage of the workflow, click on the workflow stage (ie., Submission, Review, Copyediting, or Production).
+
+Under the participant’s list, click the arrow beside the author’s name followed by Edit.
+
+![](./assets/learning-ojs3.2-editorial-workflow-edit-participant.png)
+
+Under Permissions, enable ‘Allow this person to edit publication details.’ followed by OK.
+
+![](./assets/learning-ojs3.2-editorial-workflow-edit-grantpermission.png)
+
+Once the author has been granted access to made edits they will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors,  and Metadata.
+
+![](./assets/learning-ojs3.2-editorial-workflow-edit-publicationmenu.png)
+
 ### Assigning the Submission
 
 Depending on how you have your sections configured, some new submissions may come in unassigned. If this is the case, the next step is to assign an editor or section editor. To do so, select the _Assign_ link in the **Participants** panel.
