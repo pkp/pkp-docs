@@ -10,7 +10,7 @@ There are six levels of permissions/access that a role can have: Press Manager, 
 
 __Press Managers__ can access the many Press Management pages, including content settings, press settings, and import/export tools and other plugins. The Press Manager(s) should configure the press via the Press Settings pages before any submissions are solicited. By default, the Press Editor, Production Editor, and Layout Editors all have "press manager" permissions. These four roles have limited customizable options in the OMP workflow.
 
-__Series Editors__ can access all of the submissions that are part of the series to which they are assigned. They do not need to be explicitly assigned to the submission to have access, as long as the submission is in their series. By default, only the Series Editor role has this set of permissions.
+__Series Editors__ can access all of the submissions that are part of the [series](./press-setup.md#series) to which they are assigned. They do not need to be explicitly assigned to the submission to have access, as long as the submission is in their series. By default, only the Series Editor role has this set of permissions.
 
 __Assistants__ can access only the workflow stage and monograph to which they have been assigned. They need to be explicitly assigned to the monograph at the appropriate stage to gain access. By default, most roles fall under this set of permissions.
 
@@ -64,7 +64,7 @@ __Layout Editor__ transforms the copyedited versions of the submission into gall
 
 Note - OMP does not currently provide software for automatically converting word-processed documents to galley formats (although a project is in development), so the Layout Editor should have access to and be able to use third-party software packages for creating galleys.
 
-*In some cases, the Editor or Section Editor will also serve as the Layout Editor*.
+_In some cases, the Editor or Section Editor will also serve as the Layout Editor_.
 
 __Indexer__, as some ebooks will require an index to the content. Creating the index would be the responsibility of the Indexer.
 
