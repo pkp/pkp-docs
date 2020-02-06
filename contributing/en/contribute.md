@@ -8,7 +8,7 @@ If you want to get involved with documentation, email [documentation@publicknowl
 
 ## Ways to Contribute
 
-There many ways to contribute to PKP software documentation whether you want to write, edit, or update any piece – big or small – of a specific document.
+There are many ways to contribute to PKP software documentation whether you want to write, edit, or update any piece – big or small – of a specific document.
 
 ### Update existing documentation
 
@@ -16,7 +16,7 @@ Most PKP software is consistently under development. Documentation requires the 
 
 ### Transform support forum topics into documentation
 
-One way that PKP provides support to users, in addition to documentation, is by hosting a [support forum](https://forum.pkp.sfu.ca/). Users post questions about the software on the forum and members of the PKP staff and community answer. The forum is a rich resource for unique, advanced information for customizations and troubleshooting the software which may be missing from the standard documentation, especially regarding new features. It can be difficult, however, to find relevant information on the forum. You can contribute to PKP documentation by noting questions on the forum that are not answered in documentation (especially common questions) and transferring the answers to existing documentation or sometimes creating new documentation.
+One way that PKP provides support to users, in addition to documentation, is through the [support forum](https://forum.pkp.sfu.ca/). Users post questions about the software on the forum and members of the PKP staff and community answer. The forum is a rich resource for unique, advanced information for customizations and troubleshooting the software which may be missing from the standard documentation, especially regarding new features. It can be difficult, however, to find relevant information on the forum. You can contribute to PKP documentation by noting questions on the forum that are not answered in documentation (especially common questions) and transferring the answers to existing documentation or sometimes creating new documentation.
 
 ### Contribute new documentation
 
