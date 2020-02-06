@@ -8,7 +8,7 @@ If you want to get involved with documentation, email [documentation@publicknowl
 
 ## Ways to Contribute
 
-There many ways to contribute to PKP software documentation whether you want to write, edit, or update any piece – big or small – of a specific document.
+There are many ways to contribute to PKP software documentation whether you want to write, edit, or update any piece – big or small – of a specific document.
 
 ### Update existing documentation
 
