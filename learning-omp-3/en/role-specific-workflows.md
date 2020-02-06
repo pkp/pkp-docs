@@ -95,7 +95,8 @@ After reviewing the manuscript, the Editor can decide to Accept and Skip Review,
 
 The assigned Editor will then decide whether they will send the manuscript for Internal or External Review. 
 
- Internal vs. External Review
+### Internal vs. External Review
+ 
 As an editor, you can choose to conduct an Internal Review followed by an External Review or choose to move straight to peer review; each of these optional stages involves its respective set of reviewers.
 
 ### Internal review
@@ -113,8 +114,16 @@ You can select a reviewer from the reviewers in your journal, create a new revie
 
 At this stage, reviewers associated with the press evaluate the submission. In an Open or Blind review, an editor can contact reviewers as well as revise their due dates by clicking the icon next to their names.
 
+![](./assets/learning-omp_role-specific-workflow_assgn-rev3.png)
+
 You will be notified of completed reviews and can access the reviews by clicking the arrow beside the reviewer's name and selecting ‘Email Reviewer’ in the Reviewers section.
-Once all the reviews are in, you must make a decision on the submission. You may: 1) Request Revisions (in which case the author will be able to modify their submission information and/or upload revised submission files); 2) Send to External Review (editor selects files to send to the external review process); 3) Accept for Submission (at which point the submission will enter the Editorial stage, bypassing External Review); or 4) Decline Submission (at which point the submission will be archived and the author notified).
+
+Once all the reviews are in, you must make a decision on the submission. You may: 
+
+1) Request Revisions (in which case the author will be able to modify their submission information and/or upload revised submission files); 
+2) Send to External Review (editor selects files to send to the external review process); 
+3) Accept for Submission (at which point the submission will enter the Editorial stage, bypassing External Review); or
+4) Decline Submission (at which point the submission will be archived and the author notified).
 
 These selections are found on the right panel in the Internal Review menu. 
 
@@ -130,13 +139,15 @@ You can select a reviewer from the reviewers in your journal, create a new revie
 At this stage, reviewers associated with the press evaluate the submission. In an Open or Blind review, an editor can contact reviewers as well as revise their due dates by clicking the icon next to their names.
 
 Once the review has been completed you will be notified. As an editor, you can access the reviews by clicking on the reviewer's name in the Reviewers section.
+
 All author, reviewer, and editor revision files are available from the Revisions section. Only documents included in this section will be available to be moved to later workflow stages.
 
 Once all the reviews are in, you must make a decision on the submission. You may select: 
-
-
 1) Request Revisions, in which case the author will be able to modify their submission information and/or upload revised submission files; 
-2) Decline Submission, at which point the submission will be archived and the author notified; or 3) Accept Submission, at which point the submission will enter the Editorial stage. 
+
+2) Decline Submission, at which point the submission will be archived and the author notified; or 
+
+3) Accept Submission, at which point the submission will enter the Editorial stage. 
 
 These selections are found on the right panel in the Internal Review menu. 
 
