@@ -25,7 +25,7 @@ To add a series, click **Add Series**  on the right corner of the Series table a
 
 * Description: Use this field to add details regarding the series, editor, editor information, etc.
 * ISSN: The 8-digit code to identify your print and/or online series 
-* __Order Monograph__: The order in which you would like monographs within the series to be displayed
+* Order Monograph: The order in which you would like monographs within the series to be displayed
 
 ![](./assets/learning_omp-press_setup-mono_order.png)
 
