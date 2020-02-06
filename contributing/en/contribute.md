@@ -46,7 +46,7 @@ Members of the DIG review suggestions and add them to lists of potential tasks. 
 
 ## Find a Documentation Task
 
-PKP keeps track of documentation that needs to be created, updated, and reviewed on a [shared spreadsheet](https://docs.google.com/spreadsheets/d/1bo0etXPjDxC_xdmOGCdwAtdXv85ojdqRdNr3sfMD2aU/) that's maintained by the DIG. If you're looking for a task, the spreadsheet is an excellent place to start. You can also add new tasks.
+PKP keeps track of documentation that needs to be created, updated, and reviewed on a [shared spreadsheet](https://docs.google.com/spreadsheets/d/1bo0etXPjDxC_xdmOGCdwAtdXv85ojdqRdNr3sfMD2aU/) that's maintained by the DIG. If you're looking for a task, the spreadsheet is an excellent place to start. You can also add new tasks to this spreadsheet.
 
 Tasks are categorized by role and listed on different worksheets according to role. You can look for tasks that match your role or experience with PKP software. The roles are as follows:
 
