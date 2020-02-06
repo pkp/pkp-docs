@@ -1,6 +1,4 @@
----
-isBookIndex: true
----
+
 
 # Learning OMP 3: A User Guide to Open Monograph Press
 
