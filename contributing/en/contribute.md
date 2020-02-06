@@ -12,7 +12,7 @@ There are many ways to contribute to PKP software documentation whether you want
 
 ### Update existing documentation
 
-Most PKP software is consistently under development. Documentation requires the same. Depending on how much the software has changed since the last revision, updating documentation can involve making a few minor changes or significant rewriting. A list of documents flagged for an update is on the PKP Documentation Tasks spreadsheet, [explained below](#find-a-documentation-task). If you are new to writing documentation, updating docs is often a good place to start.
+Most PKP software is consistently under development. Documentation requires the same. Depending on how much the software has changed since the last revision, updating documentation can involve making a few minor changes or a significant rewrite. A list of documents flagged for an update is on the PKP Documentation Tasks spreadsheet, [explained below](#find-a-documentation-task). If you are new to writing documentation, updating docs is often a good place to start.
 
 ### Transform support forum topics into documentation
 
