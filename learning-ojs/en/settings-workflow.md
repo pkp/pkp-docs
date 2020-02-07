@@ -1,8 +1,17 @@
 # Chapter 7: Workflow Settings
 
-The Workflow Settings allow you to configure various parts of the journal's editorial workflow. Its tabs include Components, Submission, Review, Publisher Library, and Emails.
+The Workflow Settings allow you to configure various parts of the journal's editorial workflow. Its tabs include Submission, Review, Publisher Library, and Emails.
 
-## Components
+
+
+## Submission
+
+Use this section to configure the submission process.
+
+### Metadata
+This section determines what types of metadata will be collected during the submission process, such as keywords and references.
+
+### Components
 
 When an author makes a submission, they can upload multiple files. Typically, one file will be the article text, and others can include interview transcripts, data, images, etc. Each of these files is a **component** of the submission. The components available for the author to choose from when making their submission are listed here.
 
@@ -10,7 +19,7 @@ When an author makes a submission, they can upload multiple files. Typically, on
 
 Using the links provided, you can change the **Order** of the components \(how they will be listed to the submitting author\), **Add a Component** \(if something you need is not included by default -- e.g., Video\), or **Restore the Defaults** \(if someone has made too many modifications and you just want to reset everything\).
 
-### Edit Component
+#### Edit Component
 
 You can also edit each component by selecting the blue arrow to the left of the component name. This will reveal an Edit link and a Delete link.
 
@@ -22,35 +31,17 @@ You can also edit each component by selecting the blue arrow to the left of the 
 
 **File Type Grouping**: Determine whether this component is associated with the submission document, artwork, or is a supplementary file.
 
-## Submission
 
-Use this section to configure the submission process.
-
-![](./assets/learning-ojs3.2-jm-settings-workflow-submission.png)
-
-**Author Guidelines**: Use this field to add guidelines for your authors. This information will be displayed on the journal website.
-
-**Submission Preparation Checklist**: Authors must check off that they agree with each item on this list. Use the _Order_ link to change the order of the items, use the _Add Item_ link to create a new item, and use the blue arrow to the left of the item name to _Edit_ an existing item.
+### Checklist
+In the Submission Preparation Checklist, Authors must check off that they agree with each item on this list. Use the _Order_ link to change the order of the items, use the _Add Item_ link to create a new item, and use the blue arrow to the left of the item name to _Edit_ an existing item.
 
 ![](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
 
-**Notification of Author Submission**: Add an email address here to be contacted whenever there is a new submission.
+### Author Guidelines
+Use this field to add information for your authors that will be useful during the submission process. This information will be displayed on the journal website.
+* Author Guidelines: Recommended guidlines include required file types for the submission document, the preferred citation format, or any elements that should be present in the submission.
 
-**Submission Metadata**: This section allows you to determine which metadata fields to use for your journal.
-
-![](./assets/learning-ojs-3-settings-workflow-settings-submission-submission-metadata.png)
-
-Each entry is a different metadata type available for every article in your journal.
-
-Some journals may want to activate all of them, but many will wish to keep it simple and just choose Keywords.
-
-If you choose _Enabled_, that metadata type will be added to your submissions for completion by an editor.
-
-If you choose _Submission Form_, that metadata type will also be presented to your authors for them to fill in during their submission.
-
-Remember to hit the **Save** button to record any changes to this page.
-
-**Privacy Statement**: The default privacy statement can be modified if you wish.
+* Copyright Notice: This is the author copyright agreement between the author and the journal, and the author agrees to these terms at the time of submission.
 
 ## Review
 
