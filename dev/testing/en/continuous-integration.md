@@ -2,7 +2,7 @@
 title: Continuous Integration - Testing - OJS/OMP
 ---
 
-# Continous Integration
+# Continuous Integration
 
 We use [Travis CI](https://travis-ci.org) for Continuous Integration (CI) testing. Integration and unit tests are run against every commit and pull request to help catch regressions before they are released.
 
