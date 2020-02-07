@@ -1,4 +1,5 @@
 # Installing and Upgrading
+
 OMP 3 is a PHP web application with standardized install and upgrade processes. These processes are kept as simple as possible, although some general systems administration experience is recommended.
 
 Up-to-date OMP system requirements, as well as installation, upgrade, and configuration instructions, can be found in the following locations:
@@ -10,12 +11,15 @@ Up-to-date OMP system requirements, as well as installation, upgrade, and config
 For those who want to install from source via Git, instructions can be found directly on [GitHub](https://github.com/pkp/omp).
 
 ## Download
+
 OMP can be downloaded from [the Public Knowledge Project website](https://pkp.sfu.ca/omp/omp_download/).
 
 ## Hosted Solutions
+
 If you do not have the expertise, infrastructure, or desire to install and manage OMP on your own, PKP Publishing Services provides complete hosting solutions at a number of price points. For more information, see the [PKP Publishing Services website](https://pkpservices.sfu.ca/)
 
 ## Creating a Press
+
 During the OMP installation process, you must provide an initial Site Administrator username and password to use the system. When you log in with that username and password, you will be brought to an empty press listing (you can return to this later from the Site Administrator interface). You may create your new press by clicking the Add Press option and providing your press name, an optional description, and the path from which your press will be found on the website.
 
 Clicking Save on the Add Press dialogue will save the information you added and bring you to a Press Creation wizard. The wizard has six setup steps (with mandatory fields being marked with an asterisk):

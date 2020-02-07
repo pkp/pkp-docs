@@ -1,9 +1,11 @@
 # User Accounts
-A monograph publishing workflow will involve various users with various roles. OMP offers a flexible role management system that allows the Press Manager to control which roles have access to a given task and/or stage of the workflow. 
 
-OMP has a number of default roles with associated permissions/access. These roles include Press Manager, Press Editor, Series Editor, Volume Editor, Author, Internal Reviewer, External Reviewer, Copyeditor, Layout Editor, and Proofreader. OMP 3 also includes additional roles such as Translator and Designer. You can create new roles or rename and reconfigure existing roles as needed. 
+A monograph publishing workflow will involve various users with various roles. OMP offers a flexible role management system that allows the Press Manager to control which roles have access to a given task and/or stage of the workflow.
+
+OMP has a number of default roles with associated permissions/access. These roles include Press Manager, Press Editor, Series Editor, Volume Editor, Author, Internal Reviewer, External Reviewer, Copyeditor, Layout Editor, and Proofreader. OMP 3 also includes additional roles such as Translator and Designer. You can create new roles or rename and reconfigure existing roles as needed.
 
 ## Permission Levels
+
 There are six levels of permissions/access that a role can have: Press Manager, Press Assistant, Series Editor, Reviewer, Author, Reader. Permission determines to which parts of the dashboard the role has access. These permission levels cannot be changed once set. You can assign any number of roles to each workflow stage. Assigning a role to a workflow stage means that you will be able to include one or more persons with that role during that stage of the submission. For example, by default, the Marketing Coordinator is included in the editorial stage, the Layout Editor in the production stage, and the Author in all stages. You can add or remove any role from a workflow stage.
 
 ![](./assets/learning_omp-user_accounts.png)
@@ -22,31 +24,31 @@ __Reader__ has access to the reader-facing website. This permission is included 
 
 ## Roles
 
-Roles may vary according to Press; OMP has been designed to accommodate various Press sizes and the accompanying roles. Depending on the size of your press, you may utilize some or all of these roles. You may also have one person perform multiple roles. 
+Roles may vary according to Press; OMP has been designed to accommodate various Press sizes and the accompanying roles. Depending on the size of your press, you may utilize some or all of these roles. You may also have one person perform multiple roles.
 
-Some Presses may have the Press Editor overseeing all the editing, whereas some presses may not have Layout Editors or Proofreaders. 
+Some Presses may have the Press Editor overseeing all the editing, whereas some presses may not have Layout Editors or Proofreaders.
 
 __Press Manager__ is responsible for setting up the press website, configuring the system options, and managing the user accounts. This does not involve any advanced technical skills but entails filling out web-based forms and uploading files.
 
-In a closed user registration, the Press Manager will need to enroll the Editors, Copyeditors, Layout Editors, Proofreaders, Authors, and Reviewers. 
+In a closed user registration, the Press Manager will need to enroll the Editors, Copyeditors, Layout Editors, Proofreaders, Authors, and Reviewers.
 
 The Press Manager also has access to the press’ other management features and can create new series for the press, set up review forms, edit the default emails, view statistics and reports, import and export data, and access the editorial workflow and all press submissions.
 
-__Press Editor__, along with the Press Manager, typically establishes the policies and procedures for the press. Press Editors can also access journal settings, users and roles, and tools. They have access to all submissions and manage submissions and Series Editors. 
+__Press Editor__, along with the Press Manager, typically establishes the policies and procedures for the press. Press Editors can also access journal settings, users and roles, and tools. They have access to all submissions and manage submissions and Series Editors.
 
-__Production Editor__ oversees the entire review, editing, and publishing process for the press as a whole. 
+__Production Editor__ oversees the entire review, editing, and publishing process for the press as a whole.
 
 In the editorial process, the Production Editor assigns responsibilities to the Series Editor(s) and Volume Editor(s) to manage content further down the chain. The Production Editor maintains an overview of all active projects and assists with problem-solving as appropriate.
 
-The Production Editor also creates the press series and schedules ebooks for publication. 
+The Production Editor also creates the press series and schedules ebooks for publication.
 
-__Series Editor__ oversees the reviewing, editing, and publishing process for a monographic series. 
+__Series Editor__ oversees the reviewing, editing, and publishing process for a monographic series.
 
 In the editorial process, the Series Editor assigns responsibilities to the Volume Editor(s) to manage the content of individual titles in the series. The Series Editor maintains an overview of all active titles and assists with problem-solving as appropriate.
 
-The Series Editor also authorizes individual ebooks within the series. 
+The Series Editor also authorizes individual ebooks within the series.
 
-__Volume Editor__ oversees the review, editing, and publishing process for a monograph in a series. 
+__Volume Editor__ oversees the review, editing, and publishing process for a monograph in a series.
 
 In the editorial process, the Volume Editor manages the content of an individual title in a series. The Volume Editor would have direct responsibility for overseeing all other contributors to the editorial workflow of the given title.
 
@@ -72,17 +74,18 @@ __Funding Coordinator__ identifies appropriate grants to which projects may appl
 
 __Marketing and Sales Coordinator__ have no specific role in the editorial workflow but could be designated within OMP to oversee the public face of the press.
 
-__Author submits__ manuscripts to the press directly through the press' website. The Author is asked to upload submission files and to provide metadata or indexing information (the metadata improves the search capacity for research online and for the discovery of the press' ebooks). 
+__Author submits__ manuscripts to the press directly through the press' website. The Author is asked to upload submission files and to provide metadata or indexing information (the metadata improves the search capacity for research online and for the discovery of the press' ebooks).
 
 The Author is able to track the submission through the review and editorial process and participate in copyediting and proofreading of submissions accepted for publication.
 
 ## Creating new roles
+
 OMP allows for the creation of new roles if the default ones do not fit your needs. 
 
-To create a new role, go to Users & Roles > Roles. On the top-right corner of the Current Roles box, click ‘Create New Role.' 
+To create a new role, go to Users & Roles > Roles. On the top-right corner of the Current Roles box, click ‘Create New Role.'
 
 ![](./assets/learning_omp-user_accounts_2.png)
 
-Select the Permission level, enter the Role Name and Abbreviation, and select from the Role Options (as it applies). 
+Select the Permission level, enter the Role Name and Abbreviation, and select from the Role Options (as it applies).
 
 ![](./assets/learning_omp-user-accounts_3.png)
