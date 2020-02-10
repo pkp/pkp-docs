@@ -27,6 +27,10 @@
   * Translation
   * Updates
   * [Validation](./utilities-validation)
-* [Resources](./resources)
 * Other
   * [Email Templates](./email-templates)
+  * [Publication Versions](./publication-versions)
+  * [Statistics](./statistics)
+    * [Editorial Statistics](./statistics-editorial)
+    * [Reader Statistics](./statistics-reader)
+* [Resources](./resources)

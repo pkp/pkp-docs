@@ -9,9 +9,13 @@ cards:
         isDeveloper: true
       - path: plugin-guide
         isDeveloper: true
+      - path: testing
+        isDeveloper: true
       - path: rest-api
         isDeveloper: true
       - path: ui-library
+        isDeveloper: true
+      - path: release-notebooks
         isDeveloper: true
       - path: ojs-reference
         isDeveloper: true

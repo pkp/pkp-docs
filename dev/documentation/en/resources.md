@@ -15,7 +15,7 @@ This plugin will [clear the template and CSS cache](https://github.com/NateWr/ca
 
 ## Postman API
 
-We use [Postman](https://www.getpostman.com/) to test our REST API endpoints. You can [import our request collection](/dev/api/OJS-api-postman-collection.json) for OJS (last updated 2019-04-11).
+We use [Postman](https://www.getpostman.com/) to test our REST API endpoints. You can [import our request collection](/dev/api/OJS-api-postman-collection.json) for OJS (last updated 2020-02-03).
 
 ## Generate submissions
 

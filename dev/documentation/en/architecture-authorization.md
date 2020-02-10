@@ -235,7 +235,7 @@ class SubmissionsHandler extends APIHandler {
 }
 ```
 
-## Authorizing by Submission Assigment
+## Authorizing by Submission Assignment
 
 When authorizing access to a submission, you must check what roles the user is assigned _for that submission_.
 
