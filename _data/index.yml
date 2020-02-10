@@ -41,6 +41,7 @@ apps:
     description: Usage guides and documentation for our monograph publishing software.
     cards:
         - path: learning-omp
+        - path: learning-omp-1
         - path: admin-guide
         - path: developer-docs
           isDeveloper: true
