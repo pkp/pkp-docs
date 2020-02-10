@@ -6,7 +6,7 @@ This chapter will provide a general outline and instruction for the various role
 
 ### Registration
 
-To create an account in a Press, click ‘Register’ on the Press’ homepage. This is typically found on the top-right corner of the Press’ site.
+To create an account in a Press, click **Register** on the Press’ homepage. This is typically found on the top-right corner of the Press’ site.
 
 ![](./assets/learning-omp_role-specific-workflow_auth-reg.png)
 
@@ -20,7 +20,7 @@ Once you have completed the form and agreed to the terms, click register. After 
 
 Once logged in you will be able to edit your user profile by clicking your username on the top-right corner of your dashboard. 
 
-Select ‘View Profile’
+Select **View Profile**
 
 ![](./assets/learning-omp_role-specific-workflow_edit-profile-1.png)
 
@@ -30,7 +30,7 @@ From here, you’ll be able to edit your name, contact information, signature, a
 
 ### Author Submission
 
-Once you are ready to make a submission, click ‘New Submission’ on your user dashboard. 
+Once you are ready to make a submission, click **New Submission** on your user dashboard. 
 
 ![](./assets/learning-omp_role-specific-workflow_auth-subm-1.png)
 
@@ -38,7 +38,7 @@ Once you are ready to make a submission, click ‘New Submission’ on your user
 
 You will need to select the Submission Type, Series, the Role in submission, and add notes to the Editor (if applicable). 
 
-Once you have completed this form, click agree to the terms and click ‘Save and continue.' 
+Once you have completed this form, click agree to the terms and click **Save and continue**. 
 
 ![](./assets/learning-omp_role-specific-workflow_auth-subm-2.png)
 
@@ -54,7 +54,7 @@ You can upload additional documents (as applicable).
 
 ![](./assets/learning-omp_role-specific-workflow_auth-subm-4.png)
 
-Press ‘Complete’ followed by ‘Save and Continue.'
+Press **Complete** followed by **Save and Continue**.
 
 **Step 3: Catalog**
 
@@ -68,11 +68,11 @@ For the List of Contributors, you will need to fill in the required information:
 
 You will need to select who will be the principal contact for the submission and whether their name will appear in the browse list on the press. 
 
-Once you have completed the form, click ‘Save and Continue.'
+Once you have completed the form, click **Save and Continue**.
 
 **Step 4: Confirmation**
 
-Once you have completed all the steps, click ‘Finish Submission.' 
+Once you have completed all the steps, click **Finish Submission**. 
 
 ## Reviewer Workflow
 
@@ -82,7 +82,7 @@ Reviewer requests will appear in their user dashboard and in the taskbar. The re
 
 A reviewer can see more details regarding the request by clicking on the manuscript. The request submenu will have the general information regarding the submission, the review file, and additional submission details and review schedule. 
 
-The information in the ‘View All submission Details’ will vary depending on your review policy. 
+The information in the **View All submission Details** will vary depending on your review policy. 
 
 ![](./assets/learning-omp_role-specific-workflow_rev-invite.png)
 
@@ -96,7 +96,7 @@ The second tab will outline the press’ reviewer guidelines. The third tab will
 
 Once a manuscript has been submitted, the Editor will review the submission to determine its suitability. 
 
-The submitted manuscript will appear in the Editor’s ‘My Queue’ or ‘Unassigned.' The Editor will select and download the Manuscript. 
+The submitted manuscript will appear in the Editor’s **My Queue** or **Unassigned**. The Editor will select and download the Manuscript. 
 
 After reviewing the manuscript, the Editor can decide to Accept and Skip Review, Decline Submission, or send it through Peer Review. The Editor can either assign a Series Editor or undertake the review process themselves.
 
@@ -112,7 +112,7 @@ As an editor, you can initiate the internal review process for an assigned submi
 
 You will be prompted to select the submission files the author provided for inclusion in the review process, and you can optionally upload new files or revise existing files. Once you have selected the appropriate files, you can select to send the manuscript to review.
 
-Once the Internal Review has been prompted on your dashboard, you will need to select reviewers by clicking ‘Add Reviewer’ in your main menu subpanel.
+Once the Internal Review has been prompted on your dashboard, you will need to select reviewers by clicking **Add Reviewer** in your main menu subpanel.
 
 ![](./assets/learning-omp_role-specific-workflow_assgn-rev.png)
 
@@ -124,22 +124,22 @@ At this stage, reviewers associated with the press evaluate the submission. In a
 
 ![](./assets/learning-omp_role-specific-workflow_assgn-rev3.png)
 
-You will be notified of completed reviews and can access the reviews by clicking the arrow beside the reviewer's name and selecting ‘Email Reviewer’ in the Reviewers section.
+You will be notified of completed reviews and can access the reviews by clicking the arrow beside the reviewer's name and selecting **Email Reviewer** in the Reviewers section.
 
-Once all the reviews are in, you must make a decision on the submission. You may: 
+Once all the reviews are in, you must make a decision on the submission. Options are the following:
 
-1) Request Revisions (in which case the author will be able to modify their submission information and/or upload revised submission files); 
-2) Send to External Review (editor selects files to send to the external review process); 
-3) Accept for Submission (at which point the submission will enter the Editorial stage, bypassing External Review); or
-4) Decline Submission (at which point the submission will be archived and the author notified).
+* Request Revisions (in which case the author will be able to modify their submission information and/or upload revised submission files)
+* Send to External Review (editor selects files to send to the external review process)
+* Accept for Submission (at which point the submission will enter the Editorial stage, bypassing External Review)
+* Decline Submission (at which point the submission will be archived and the author notified)
 
-These selections are found on the right panel in the Internal Review menu. 
+These selections are found on the right panel in the **Internal Review** menu. 
 
 ### External review
 
 The external review process can be initiated at the end of the internal review process by choosing the Send to External Review or at the time of initial triage. Similar to the Internal Review, you will be prompted to select the submission files the author provided for inclusion in the review process, and you can optionally upload new files or revise existing files. Once you have selected the appropriate files, you can select to send the manuscript to review.
 
-Once the Internal Review has been prompted on your dashboard, you will need to select reviewers by clicking ‘Add Reviewer’ in your main menu subpanel.
+Once the Internal Review has been prompted on your dashboard, you will need to select reviewers by clicking **Add Reviewer** in your main menu subpanel.
 
 ![](./assets/learning-omp_role-specific-workflow_assgn-rev.png)
 
@@ -151,13 +151,13 @@ Once the review has been completed you will be notified. As an editor, you can a
 
 All author, reviewer, and editor revision files are available from the Revisions section. Only documents included in this section will be available to be moved to later workflow stages.
 
-Once all the reviews are in, you must make a decision on the submission. You may select:
+Once all the reviews are in, you must make a decision on the submission. You may select one of the following:
 
-1) Request Revisions, in which case the author will be able to modify their submission information and/or upload revised submission files; 
+* Request Revisions, in which case the author will be able to modify their submission information and/or upload revised submission files 
 
-2) Decline Submission, at which point the submission will be archived and the author notified; or 
+* Decline Submission, at which point the submission will be archived and the author notified 
 
-3) Accept Submission, at which point the submission will enter the Editorial stage. 
+* Accept Submission, at which point the submission will enter the Editorial stage
 
 These selections are found on the right panel in the Internal Review menu. 
 
@@ -171,7 +171,7 @@ Following the Copyediting stage, the manuscript enters the Production stage.
 
 Whereas the production stage is generally initiated after the copyediting stage has been completed, the Editor may choose to add information as it becomes available earlier in the workflow process. 
 
-At the production stage you can review, edit, and finalize the information of the manuscript — including key metadata, abstract, category, contributors, chapters, submission type, permissions, the cover image, and identifiers and other metadata — by clicking ‘Catalog Entry.'
+At the production stage you can review, edit, and finalize the information of the manuscript — including key metadata, abstract, category, contributors, chapters, submission type, permissions, the cover image, and identifiers and other metadata — by clicking **Catalog Entry**.
 
 ![](./assets/learning-omp_role-specific-workflow_catalog-entry.png)
 
@@ -185,7 +185,7 @@ All approved and copyedited submission files from the editorial stage are availa
 
 ### Publication Formats
 
-Books can be published on your public OMP press site in a variety of formats, including HTML, PDF, and EPUB. These files must be uploaded during the Production stage as “publication formats.” You can also create publication formats for physical hardcover and paperback copies of the book.
+Books can be published on your public OMP press site in a variety of formats, including HTML, PDF, and EPUB. These files must be uploaded during the Production stage as **publication formats**. You can also create publication formats for physical hardcover and paperback copies of the book.
 
 The publication files must be prepared outside of OMP by a typesetter, graphic designer, or layout editor. Once they are ready to be published, create a publication format and then upload the file.
 
@@ -198,7 +198,7 @@ To add a publication format:
 
 ![](./assets/learning-omp_role-specific-workflow_pub-format.png)
 
-Now you will see the publication format listed. It should say it is “Awaiting Approval.”
+Now you will see the publication format listed. It should say it is **Awaiting Approval**.
 
 ![](./assets/learning-omp_role-specific-workflow_pub-format2.png)
 
@@ -217,7 +217,7 @@ You can upload multiple files for a single publication format, which you may wis
 
 #### Add chapter files
 
-If you want to upload individual chapter files, you can create a publication format called “Chapter Files” and then upload a file for each chapter under that publication format. The separate chapter files will then be available under the metadata on the published book page.
+If you want to upload individual chapter files, you can create a publication format called **Chapter Files** and then upload a file for each chapter under that publication format. The separate chapter files will then be available under the metadata on the published book page.
 
 Another option is to create a separate publication format for each chapter, but if you do that there will be links to each chapter along the right side of the book page on your website, along with the main publication formats (EBOOK, PDF, etc.).
 
@@ -227,16 +227,16 @@ For a manuscript to appear in the public catalog, you must approve the submissio
 
 ![](./assets/learning-omp_role-specific-workflow_pub-format-approve.png)
 
-The first checkbox, "Awaiting Approval," is for editors to sign off when the publication format's metadata is ready for publication.
+The first checkbox, **Awaiting Approval**, is for editors to sign off when the publication format's metadata is ready for publication.
 
-The second checkbox, "Not Available," is for approving the publication format for display to readers. Once this checkbox is toggled, any approved files will be shown to the user.
+The second checkbox, **Not Available**, is for approving the publication format for display to readers. Once this checkbox is toggled, any approved files will be shown to the user.
 
 If a publication format has no approved files, it will not appear in the catalog.
 
 In order for a digital edition of a book to be available for download, you must:
-* Create a digital format (e.g., ebook) under the Production workflow stage;
-* Upload files to the format's proofreading step in the Production workflow stage;
-* Audit and approve all proofs;
-* Ensure that the submission and the format type are both marked as available in the catalog;
-* If charging a fee for the digital edition, ensure that you have a payment method selected under Management → Distribution * Process (either PayPal or manual payment);
-* Finally, ensure that you configure the Direct Sales Availability & Pricing section for that particular format in the Catalog Entry, where you can either set a particular format as Open Access or optionally set a fee for purchase.
+* Create a digital format (e.g., ebook) under the Production workflow stage
+* Upload files to the format's proofreading step in the Production workflow stage
+* Audit and approve all proofs
+* Ensure that the submission and the format type are both marked as available in the catalog
+* If charging a fee for the digital edition, ensure that you have a payment method selected under Management → Distribution * Process (either PayPal or manual payment)
+* Finally, ensure that you configure the Direct Sales Availability & Pricing section for that particular format in the Catalog Entry, where you can either set a particular format as Open Access or optionally set a fee for purchase
