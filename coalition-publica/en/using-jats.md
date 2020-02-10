@@ -95,7 +95,7 @@ Don’t forget to repeat these steps for any other journals you wish to include 
 
 There are several journal settings that should be properly configured in order for the data to be collected by Érudit. For each journal that you wish to include, make sure that:
 
-* For each of your journal’s sections, the “Identify items published in this section as a(n)...” field is set to one of the [suggested JATS article-type values](https://jats.nlm.nih.gov/archiving/tag-library/1.1/attribute/article-type.html&sa=D&ust=1572973357641000).
+* For each of your journal’s sections, the “Identify items published in this section as a(n)...” field is set to one of the [suggested JATS article-type values](https://jats.nlm.nih.gov/archiving/tag-library/1.1/attribute/article-type.html).
 * Your journal settings are complete, e.g.:
 	* An ISSN has been specified
 	* The journal title is the same as you have registered at [issn.org](https://www.issn.org)
