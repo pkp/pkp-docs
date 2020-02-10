@@ -52,7 +52,7 @@ __Volume Editor__ oversees the review, editing, and publishing process for a mon
 
 In the editorial process, the Volume Editor manages the content of an individual title in a series. The Volume Editor would have direct responsibility for overseeing all other contributors to the editorial workflow of the given title.
 
-__Copy Editor__ edits accepted submissions to improve grammar and clarity, works with authors to ensure everything is in place, ensures strict adherence to the press' bibliographic and textual style, and produces a clean, edited copy for a Layout Editor or Production Assistant to turn into the galleys that will be in the published format of the ebook.
+__Copyeditor__ edits accepted submissions to improve grammar and clarity, works with authors to ensure everything is in place, ensures strict adherence to the press' bibliographic and textual style, and produces a clean, edited copy for a Layout Editor or Production Assistant to turn into the galleys that will be in the published format of the ebook.
 
 *Some presses have a Production Editor or Series Editor play this role*.
 
