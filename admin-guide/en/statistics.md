@@ -384,8 +384,6 @@ You also have the option of searching the statistics of a specific article by ti
 
 ![](./assets/Article-Usage-Visual-Statistics-6.png)
 
-
-
 ## Display Usage Statistics for Readers
 
 In OJS 3 you can display an article's usage statistics for the current year as a graph on the article landing page by using the Usage Statistics Plugin, like in this image.
@@ -419,9 +417,10 @@ Please note the following:
 <hr />
 
 ## Editorial Activity
-This section provides statistics about the editorial workflow, such as number of submissions received, days to first editorial decision, and acceptance and rejection rates. You can filter these statistics using a custom date range to, e.g., find the number of articles accepted during a 12-month period. 
 
-![](./assets/editorialactivity1.png)
+This section provides statistics about the editorial workflow, such as number of submissions received, days to first editorial decision, and acceptance and rejection rates. You can filter these statistics using a custom date range to, e.g., find the number of articles accepted during a 12-month period.
+
+![](./assets/editorial-activity.png)
 
 There are some important things to note when considering the data in these reports:
 * Published submissions within a date range only count the initial publication date and not subsequent versions.
@@ -432,6 +431,7 @@ There are some important things to note when considering the data in these repor
 An Editorial Activity Report will be generated monthly and can be sent by email to editors and section editors. All managers and section editors are automatically opted out of the monthly report; however, you can opt in by going to User Profile > Notifications and unchecking the box that disables the automated email.
 
 ## Users
+
 This section provides information about new user/role registrations within a specified time period. The Total column is not a total number of accounts created; it identifies how many users have that role in the system right now. When an existing user receives a new role, such as a registered author becoming a reviewer, that addition to the total number of reviewers in the system will be reflected in the data by an increase in the number of reviewers but no change in the total number of users.
 
 ![](./assets/users.png)
@@ -625,7 +625,7 @@ This option is only available for OJS 3.x using the Usage Statistics Plugin.  Fo
 
 ### How can I track usage by institution?
 
-This is not currently possible with OJS but will be available in the future.  
+This is not currently possible with OJS but will be available in the future.
 
 ### If I replace a galley file for the article, will the download count reset to 0?
 
@@ -677,7 +677,7 @@ There are two likely causes for this:
 
 The solution to this problem is to review your configuration and reprocess statistics, as per the Configuration section below.
 
-**Cause 2:** The report is hitting the report plugin’s 5,000-row limit. This should be obvious by looking at the .csv report: if it stops at or around row 5,000 \(usually around row 5,006 due to some extra rows at the top of the report\), then this is the issue. The solution here is to shrink the amount of data you are trying to extract, for example by limiting the date span, and downloading multiple reports. You can manually merge multiple reports together. **Note**: This issue only applies to OJS 3.1.1 or older. The 5,000 row limit was removed in OJS 3.1.2. 
+**Cause 2:** The report is hitting the report plugin’s 5,000-row limit. This should be obvious by looking at the .csv report: if it stops at or around row 5,000 \(usually around row 5,006 due to some extra rows at the top of the report\), then this is the issue. The solution here is to shrink the amount of data you are trying to extract, for example by limiting the date span, and downloading multiple reports. You can manually merge multiple reports together. **Note**: This issue only applies to OJS 3.1.1 or older. The 5,000 row limit was removed in OJS 3.1.2.
 
 Q: I’m trying to download regional information using the Custom Report Generator, but I’m not seeing any of this in my reports.
 
@@ -701,4 +701,4 @@ Using Cron:  [https://help.ubuntu.com/community/CronHowto](https://help.ubuntu.c
 
 PKP Statistics Framework Technical Documentation \(very verbose\):  [https://pkp.sfu.ca/wiki/index.php?title=PKP\_Statistics\_Framework](https://pkp.sfu.ca/wiki/index.php?title=PKP_Statistics_Framework)
 
-PKP Community Forum \(for follow-up questions\):  [https://forum.pkp.sfu.ca](https://forum.pkp.sfu.ca)  
+PKP Community Forum \(for follow-up questions\):  [https://forum.pkp.sfu.ca](https://forum.pkp.sfu.ca)
