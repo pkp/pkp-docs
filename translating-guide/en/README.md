@@ -1,9 +1,7 @@
 
 # PKP Translating Guide
 
-PKP software includes popular applications like Open Journal Systems, Open Monograph Press, and Open Conference Systems. These applications can use multiple languages for interfaces, emails to users, etc. Open Journal Systems in particular has been translated to many languages. Some of these translations are not complete, and the applications get updated constantly.
-
-Community translators are helping with the important task of localizing software and documentation. They come from many different backgrounds; this documentation is supposed to help old and new contributors to explain how the translation processes work and how they can contribute. In addition, the documentation points to additional ressources.
+The PKP Translating Guide is for any user who wants to create or edit a translation of a PKP software application. It explains how languages and locales work, how to create new translations and add to existing translations, how to customize a translation on your local installation, and how to work with the translation community.
 
 ----
 Copyright: Simon Fraser University holds the copyright for work produced by the Public Knowledge Project and has placed its documentation under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
