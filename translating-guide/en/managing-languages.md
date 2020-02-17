@@ -1,4 +1,4 @@
-# Managing Languages and Locales
+# Managing Languages in PKP Software
 
 ## How Languages and Locales Work
 
