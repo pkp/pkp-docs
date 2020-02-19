@@ -6,7 +6,7 @@ and support a flexible mix of publishing options.
 Locale Files
 ------------
 
-Locale files are XML files stored in one of several directories named
+Locale files are Gettext PO files stored in one of several directories named
 for the locale code (i.e. en\_US for U.S. English or fr\_CA for Canadian
 French). These contain the key =\> value associations that map symbolic
 names for pieces of language (i.e. "navigation.journalHelp") to
@@ -28,7 +28,7 @@ Segmentation of content into numerous files serves several purposes:
     between several translators without requiring merges.
 -   *Reuse*: Any content that is available in the PKP library can be
     used by any application that needs it. One translation update for
-    OJS therefore may result in useful contributions to OCS or OMP.
+    OJS therefore may result in useful contributions to OPS or OMP.
 -   *Portability*: Content that is associated with plugins can be
     packaged easily for distribution.
 -   *Efficiency*: This remains to be proven, but it should be possible
@@ -44,8 +44,8 @@ Segmentation of content into numerous files serves several purposes:
 -   If content is not specific to a single application, put it in the
     PKP library.
 -   Try to group by logical entity. For example, a locale file called
-    "submission.xml" dealing with content about submissions is probably
-    more useful a distinction than a locale file called "author.xml"
+    "submission.po" dealing with content about submissions is probably
+    more useful a distinction than a locale file called "author.po"
     dealing with authorship and author workflow, because any page
     displaying information about a submission will likely include
     authorship information but will not necessarily care about the
@@ -69,13 +69,15 @@ Segmentation of content into numerous files serves several purposes:
     interface. For example, the following should *not* be used:
 
 ```
-<message key="manager.setup.step1.journalDescription">Journal Description</message>
+msgid "manager.setup.step1.journalDescription"
+msgstr "Journal Description"
 ```
 
 ...instead, use something more like...
 
 ```
-<message key="manager.setup.journalDescription">Journal Description</message>
+msgid "manager.setup.journalDescription"
+msgstr "Journal Description"
 ```
 
 This keeps the locale files organized in spite of the inevitable user
@@ -86,11 +88,12 @@ interface rearrangements.
     already exists:
 
 ```
-fgrep -l ">Title<" `find . -name \*.xml`
+fgrep -l "\"Title\"" `find . -name \*.po`
 ```
 
-(The \> and < surrounding Title are used to mark the beginning and end
-of the entry.)
+(The \" sequences surrounding Title are used to mark the beginning and end
+of the entry so that the word Title isn't matched in the middle of a long
+string.)
 
 ### Semantics
 
@@ -101,14 +104,18 @@ presented in languages that do not behave the same way.
     concatenate. The following should /not/ be used:
 
 ```
-<message key="some.locale.key1">You have </message>
-<message key="some.locale.key2"> unread messages.</message>
+msgid "some.locale.key1"
+msgstr ">You have "
+
+msgid "some.locale.key2"
+msstr " unread messages"
 ```
 
 Instead, the following should be used:
 
 ```
-<message key="some.locale.key">You have {$numberUnreadMessages} unread messages.</message>
+msgid "some.locale.key"
+msgstr "You have {$numberUnreadMessages} unread messages."
 ```
 
 This will prevent problems e.g. with right-to-left languages, and keep
@@ -117,19 +124,3 @@ content more logically organized.
 -   Be careful when using the same locale key in different contexts. For
     example, "active" text, i.e. button labels, may be different than
     informational labels.
-
-### Escaping and Other Guidelines
-
--   Most content in the locale files is intended for presentation on the
-    web and is in HTML format. For the most part, HTML is plain-text,
-    but there are occasional differences. Ampersands will generally need
-    to be double-escaped, i.e.: `Statistics &amp; Reports`
-
-This will come out in the HTML source as "Statistics & Reports", thus
-the ampersand will be displayed correctly.
-
--   For large blocks of HTML, use `<![CDATA[ ... ]]>`. For example:
-
-```
-<message key="some.big.html"><![CDATA[<p>This is a large block of content containing <em>HTML</em>.]]\></message>
-```
