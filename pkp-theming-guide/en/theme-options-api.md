@@ -101,6 +101,9 @@ Get theme options from any template by using the `$activeTheme` variable.
 {/if}
 ```
 
+> If you call `$this->getOption(...)` in the `init()` method, make sure that all options have been declared first. The values of theme options added after the first call to `$this->getOption(...)` will not be returned.
+{:.warning}
+
 ## Manage colors
 
 When the user selects a light or dark color with a theme option, text must be adjusted to ensure sufficient color contrast. Use the `isColourDark()` method to check the brightness and make adjustments.
