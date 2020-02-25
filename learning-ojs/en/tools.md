@@ -49,7 +49,7 @@ First, ensure that the Quick Submit Plugin has been installed and enabled for yo
 
 ![](./assets/enabled-import-plugins.png)
 
-Next you will need to create the issues \(or issue\) that will contain the new articles you are importing.
+Next, you will need to create the issues \(or issue\) that will contain the new articles you are importing.
 
 1. Go to Issues &gt; Future issues and select Create Issue.
 2. Enter metadata for the issue
@@ -69,12 +69,12 @@ Next you can import each article with the Plugin.
 4. Enter the metadata for the article in the other fields. If you do not see all of the metadata fields you want, go to Workflow Settings > Submission > Submission Metadata to configure what fields should be included in submissions.
 5. Under List of Contributors, click Add Contributor to enter the names of authors and other contributors to the article.
 6. Under Galleys, click Add Galley to upload a PDF file of the article.  A popup box will open where you can enter the Galley Label and language of the galley.  Once you click Save, another box will open where you can select the Article Component and upload the file.
-7. At the end of the Quick Submit Plugin form, you can select whether you want the article you are adding to be published immediately or unpublished, if you wish to publish it later. If you select **Published**, you will have to select the issue you would like to publish it in and enter the **Date Published**. You can also optionally enter page numbers and permissions information.
+7. At the end of the Quick Submit Plugin form, you can select whether you want the article you are adding to be published immediately or unpublished if you wish to publish it later. If you select **Published**, you will have to select the issue you would like to publish it in and enter the **Date Published**. You can also optionally enter page numbers and permissions information.
 8. When you have finished entering all data for the article, click Save.
 
-![](./assets/quick-submit-plugin%20%282%29.png)
+![](./assets/quick-submit-plugin-2.png)
 
-DOIs are not added with the QuickSubmit Plugin. Instead you have to add them separately.
+DOIs are not added with the QuickSubmit Plugin. Instead, you have to add them separately.
 
 To add existing DOIs to articles that have already been assigned:
 1. Enable and configure the DOI plugin so that you need to "Enter an individual DOI suffix for each published item." 
