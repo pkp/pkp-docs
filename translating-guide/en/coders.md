@@ -1,3 +1,5 @@
+# Localization for Developers
+
 This page describes the motivations and policies that are used in PKP
 software to maintain consistent and flexible localization, i.e. the
 ability to translate content and built-in text into numerous languages
