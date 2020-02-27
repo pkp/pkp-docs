@@ -50,13 +50,32 @@ For more detail on redirect URIs see ORCID support page for [Public APIs](https:
 
 ## Enable and Configure the ORCID Profile Plugin in OJS
 
-After you have obtained an API key from ORCID, you can enable and configure the plugin in OJS. For multi-journal installations this needs to be done on a per-journal basis as this plugin is not a site-wide plugin:
+After you have obtained an API key from ORCID, you can enable and configure the plugin in OJS.
+
+### Per Journal Setup
 1. Go to Website Settings > Plugins
 2. Under Installed Plugins find the ORCID plugin
 3. Click the box to the right of the plugin name to enable it
-4. Click the blue arrow to the left of the plugin name to make "Settings" appear, then open Settings. 
-Enter information about your ORCID API
+4. Click the blue arrow to the left of the plugin name to make "Settings" appear, then open Settings. Enter information about your ORCID API credentials.
 
+### Site-wide Setup
+For multi-journal installations this can be set site-wide in `config.inc.php`. This hides the Client Secret from Journal Managers, which may be preferred if you have institutional credentials for ORCID. Add the following section to your `config.inc.php` file:
+
+```
+;;;;;;;;;
+; ORCID ;
+;;;;;;;;;
+
+[orcid]
+
+api_url = https://api.sandbox.orcid.org/
+client_id = APP-YOURID
+client_secret = yourclientsecret
+```
+
+Note that the `api_url` needs to end with a slash.
+
+### More Plugin Settings
 Under “E-Mail Settings” you can tick the checkbox to “Send e-mail to request ORCID authorization from article authors on publication of a new issue.” If checked, OJS will send an email automatically to authors who have not already linked their ORCID iDs when the article is published asking them to link their iDs.
 
 ![Image of plugin configuration](./assets/configure-orcid-plugin.png)
