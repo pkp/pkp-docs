@@ -53,7 +53,7 @@ The PKP keeps an up-to-date list of languages and contributors from the relevant
 
 If you don't see the language(s) you are looking for listed on either of these lists, please consider undertaking the translation yourself. If you are interested in contributing in such a way, [contact us](http://pkp.sfu.ca/contact) for advice, or consult the rest of this document.
 
-### Install a Language
+## Install a Language
 
 Language packs may be available in tar.gz archive format, and can be installed by following these steps (You will require software such as 7-Zip to decompress the downloaded file):
 
