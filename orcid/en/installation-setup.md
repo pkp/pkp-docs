@@ -56,11 +56,11 @@ After you have obtained an API key from ORCID, you can enable and configure the 
 1. Go to Website Settings > Plugins
 2. Under Installed Plugins find the ORCID plugin
 3. Click the box to the right of the plugin name to enable it
-4. Click the blue arrow to the left of the plugin name to make "Settings" appear, then open Settings. 
-Enter information about your ORCID API
+4. Click the blue arrow to the left of the plugin name to make "Settings" appear, then open Settings. Enter information about your ORCID API credentials.
 
 ### Site-wide Setup
-For multi-journal installations this can be set site-wide in config.inc.php. This hides the Client Secret from Journal Managers, which might be desirable if you have institutional credentials for ORCID. Add the following section to your config.inc.php:
+For multi-journal installations this can be set site-wide in `config.inc.php`. This hides the Client Secret from Journal Managers, which may be preferred if you have institutional credentials for ORCID. Add the following section to your `config.inc.php` file:
+
 ```
 ;;;;;;;;;
 ; ORCID ;
@@ -72,7 +72,8 @@ api_url = https://api.sandbox.orcid.org/
 client_id = APP-YOURID
 client_secret = yourclientsecret
 ```
-Please be aware that the api_url needs to end with a slash.
+
+Note that the `api_url` needs to end with a slash.
 
 ### More Plugin Settings
 Under “E-Mail Settings” you can tick the checkbox to “Send e-mail to request ORCID authorization from article authors on publication of a new issue.” If checked, OJS will send an email automatically to authors who have not already linked their ORCID iDs when the article is published asking them to link their iDs.
