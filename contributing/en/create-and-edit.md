@@ -1,49 +1,29 @@
-# Create and Edit Documentation
+# Edit and Create
 
-Most of PKP's documentation is hosted and managed in a GitHub repository called the PKP Documentation Hub and is displayed as a website using an open source tool called [Jekyll](https://jekyllrb.com). The content files that make up PKP's documentation are stored in the [Documentation Hub repository](https://github.com/pkp/pkp-docs) and you can edit and add documents to the repository with a GitHub account. This chapter explains how to add new documents and edit documents in the repository.
+Now that you understand the basics of Github,  this chapter explains how to add new documents and edit documents in the repository.
 
-## Markdown
 
-The files are all in a format called Markdown, a simple, easy-to-read, easy-to-write text format that allows users to generate basic HTML without knowing HTML language itself. It uses simple tags to format text on a website.
+## Edit a Document
 
-This is an example of markdown:
+If you want to edit existing documentation or add a section or chapter to existing documentation, you can edit the document directly from the docs repository itself.
 
-```
-`### Step 3
+1. Create a [GitHub](https://github.com) account if you do not already have one and log in.
+2. Navigate to [the repository in GitHub](https://github.com/pkp/pkp-docs).
+3. Follow the directory structure in GitHub until you see the file you want to edit.
+4. Click the filename to view that individual file.
+5. From there, on the top right of the document window, you should see a small pencil icon.
+6. Click that button to open up a plain text editor for the document within GitHub itself.
+7. Edit the document
 
-On **Step 3**, you will be asked to add more information about the submission, including the title of the submission \(broken down into prefix, title, and subtitle\), the abstract, and scrolling down...`
+![](./assets/contrib-01.gif)
 
-```
-
-Here are three guides for writing markdown:
-
-- [Daring Fireball Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
-- [Mastering GitHub Flavoured Markdown](https://guides.github.com/features/mastering-markdown/)
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-## File Structure
-
-Each folder in the PKP Documentation Hub repository represents a document.
-
-![](./assets/contrib-docs-hub-repo.png)
-
-Short documents consist of a single markdown file and may have an "assets" folder of images. All content is contained in the `index.md` file and the table of contents on the side of the page is created using the header tags in markdown.
-
-![](./assets/contrib-single-file-doc.png)
-
-Longer documents consist of multiple chapter files, a README file, a SUMMARY file, and an assets folder. Content is stored in the chapter files and the README file acts as a summary page for the document. The SUMMARY file creates the table of contents.
-
-![](./assets/contrib-multi-file-doc.png)
-
-If the document exists (or will exist) in more than one language, there will be a separate folder of these files for each language version.
-
-![](./assets/contrib-language-folders.png)
+If your edits requires you to replace or add images, see section on Adding/Replacing images. 
 
 ## Create a Document
 
 When you create a new document, you need to decided whether to make it a _single page document_ or _multi-page document_, as they are significantly different.
 
-### Single page docs
+### Single Page Docs
 
 Single page documents are rendered fully from one markdown file. The table of contents on the side of the page is created using the header tags in markdown. For example:
 
@@ -71,7 +51,7 @@ From here, write the document out as you would using markdown. Any level two hea
 
 > Headings should never skip a level. Do not jump from `## Heading` (2) to `#### Sub-heading` (4). It is important that a sub-heading of `## Heading` (2) is `### Heading` (3) for accessibility.
 
-### Multi-page docs
+### Multi-page Docs
 
 Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust directories with folders for individual languages/translations, and a single markdown file for every chapter of the document. They also contain a file called `SUMMARY.md` that creates the table of contents for the document and a file called `README.md` that serves as a first/landing page for your document. To create a multi-page document start with the following:
 
@@ -79,8 +59,8 @@ Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust dir
 2. Enter the name of the document folder and then /. This will automatically create the folder.
 - _Remember to follow naming conventions_. (e.g., if your document is a guide to ORCID, you could name it orcid-guide or orcid-plugin).
 3. Enter the name of the file `index.md`.
-    - A document-wide `index.md` file should contain a description of the document as well as copyright information. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page.
-    - At the top of your indexing file, include the following:
+- A document-wide `index.md` file should contain a description of the document as well as copyright information. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page.
+ - At the top of your indexing file, include the following:
 
 ```
 ---
@@ -103,135 +83,155 @@ Unlike with a single-page document, you no longer need to add to index.md. The r
 
 ![](./assets/contrib-summary-md-file.png)
 
-### File naming conventions
+## Adding/Replacing images
 
-**In General** // While any name you create should work, it's best to keep titles short and descriptive. Always replace spaces between words with a dash.
+### Adding Images
 
-**Titles** // Some example titles include: `learning-ojs`, `pkp-theming-guide`, `crossref-ojs-manual`. Remember that titles are part of the file path in the URL to individual docs so keep it simple.
-
-**Chapters** // You might be tempted to number chapters but, if we ever need to create new chapters in between existing ones, we would need to re-number. It's best to keep chapters in the same style as title-level names. Some examples for chapters include: `getting-started.md`, `troubleshooting.md`, `data-import-and-export.md`.
-
-**Images** // Please store all images in a single "assets" folder within the language you're working (e.g.: `en/assets/`). Keep your image titles brief or with abbreviations and consistently named, so they're easy to locate. Depending on how many images you have, numbering these might be a lot more convenient while working on the document. _Listen to your heart._ Some examples include: `contrib-01.png`, `authoring-images-01.png`. If you're putting all your imagines into only the asset folder, it's a good idea to name your images to correspond with chapter titles.
-
-Note that file names are case sensitive, so if the image is saved as learning-ojs3.1-jm-settings-workflow-email-templates.png and you reference learning-ojs3.1-jm-settings-workflow-email-templates.png in the document, the image will not display.
-
-### Add images
-
-Adding images to your documentation helps users more easily locate the features you are writing about. Images should go in a folder named `assets`. The type of document you're working on changes where you should put your images.
+Adding images to your documentation helps users more easily locate the features you are writing about. Images should go in a folder named assets. The type of document you’re working on changes where you will find the assets folder.
 
 1. Single-page documents:
-    - Place the `assets` folder within your main document folder. For example: `/contributing/assets/`
+    - Find the assets folder within your main document folder. For example: `/contributing/assets/`
 2. Multi-page documents:
-    - Place the `assets` folder within the language folder of the document you're working on. For example: `/learning-ojs/en/assets/`
+    - Find the assets folder within the language folder of the document you’re working on. For example: `/learning-ojs/en/assets/`
 
-## Edit a Document
+To add new images to a document, you will need to take and save these screenshots locally. Make sure to follow the naming convention for images.
 
-If you want to edit existing documentation or add a section or chapter to existing documentation, you can edit the document directly from the docs repository itself.
+New assets can be added before working on a document or after it has been completed.
 
-1. Create a [GitHub](https://github.com) account if you do not already have one and log in.
-2. Navigate to [the repository in GitHub](https://github.com/pkp/pkp-docs).
-3. Follow the directory structure in GitHub until you see the file you want to edit.
-4. Click the filename to view that individual file.
-5. From there, on the top right of the document window, you should see a small pencil icon.
-6. Click that button to open up a plain text editor for the document within GitHub itself.
-7. Edit the document
+To add assets to a document and assets folder
+1. Add image code in the part of the document you would like this to appear in. To link to an image in the assets folder you will need to type `“![](./assets/ image file name)”`
+    e.g., `![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
+2. Repeat this step as many times as needed.
+3. Create a draft pull request rather than opening  a pull request yet
+4. Upload assets into the assets folder
+   - Go to the branch that has been created for this set of changes.
+   - Open the document folder followed by the language folder (if applicable)-
+   - Open the Assets folder
+   - Click the Upload Files button
+   - Click Choose Your Files
+   - Open the special folder where you saved all of your screenshots
+   - Select all of the files and click Open
+   - Commit your changes directly to the branch you have been working in
+   - Change the status of your draft pull request
 
-![](./assets/contrib-01.gif)
+![](./assets/draft-PR.png)
 
-## Save and Submit Your Changes
+### Replacing Images
 
-This section explains how to save your work and submit your new and edited documents to the PKP Documentation Hub.
+While you’re editing a document you may find that you need to replace an image with an updated screenshot. This might be the case with version updates.
 
-### Commit via browser
+First, take the new screenshot and update the link to the screenshot in the document.
 
-Once you've made your changes, it's time to _commit_ your changes and create a _pull request_. A _commit_ is merely a change to the file you are proposing to others who use the repository. You'll see two fields in the commit window.
+1. Take the new screenshot and save it
+2. Before you save the new screenshot, find the link in the document to the old screenshot. It may look something like this:
+   - `![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
+3. If you’re doing a version update, change the version number in the file name. You would change the above example link to say the following:
+    - `![](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)`
+4. Copy the part of the link that comes after the last / and before the file type extension - e.g., `learning-ojs3.2-jm-settings-workflow-comp`
+5. Go to the new screenshot you just took and save as. Paste the file name you copied in the last step and save the screenshot in a special folder on your desktop.
+6. Continue editing the document and save any additional screenshots you take in the same folder and naming them in the same way.
+Create a draft pull request rather than opening a pull request yet
+Once you are finishing editing the document, describe your changes at the bottom of the document and click Propose File Change. This will add your changes to a branch. The next page will show Comparing Changes. Create a draft pull request rather than opening  a pull request yet. You will upload your screenshot files to the new branch before making a pull request.
+   - Go to the branch that has been created for this set of changes.
+   - Open the document folder followed by the language folder (if applicable)
+   - Open the Assets folder
+   - Click the Upload Files button
+   - Click Choose Your Files
+   - Open the special folder where you saved all of your screenshots
+   - Select all of the files and click Open
+   - Commit your changes directly to the branch you have been working in
+   - Change the status of your draft pull request
 
-![](./assets/contrib-02.png)
+![](./assets/draft-PR.png)
 
-The first is a very short descriptor of what you just changed. A few words should do the trick. Here are some examples:
+### Deleting Images
 
-- Updated link to OJS in `filename.md`
-- migrated Crossref guide to markdown
-- added appendix to Learning OJS
-- replaced images in admin guide
+If you’ve replaced images and there is no longer a use for the previous saved asset, the old assets can now be deleted. Before deleting the old assets, look through the chapter to make sure that these are not being used in other sections of the document. If so, update the other links with the new file name. You can then delete the old assets from your branch and create a pull request.
 
-The second window allows you to enter a more detailed description of what you changed. You might want to do this if you need to justify your changes or need to let everyone else know that a change is significant.
+## Creating Assets Folder
 
-Below those two fields, you'll see your committing options. **_If you are a member of the PKP team, you'll see the ability to commit directly to master branch_**. It's important to note that these changes are immediate, but they are also unreviewed. Please do not commit directly to master. We recommend that you always commit code via pull request.
+To create an asset folder within the document branch, you will need to create a new file by clicking ‘Create new file’ in your repository.
 
-### Branches and pull requests
+![](./assets/create-assets-folder.png)
 
-A branch is a version of the repository that contains the changes you've proposed, uniquely. Since it is not part of "master," it won't have an impact on the way the site is built in real-time. If you create your own branch via this method, you'll be asked to name it. Name it something simple with no spaces. A suitable way to name your branch is with the name of the document you're adding or modifying. For example:
+This will prompt you to another page where you can edit a new file. On the top you will see:
 
-- crossref-doc-edits
-- starting-a-journal-edits
-- new-doc-filename
+![](./assets/create-file-name.png)
 
-After naming your branch, you'll be asked to open a "pull request." A pull request is a _request you are making for the managers of the repository to pull your changes into the master version of the doc_.
+Here you will enter the main document folder and the subsequent folders. This will vary depending on whether you are creating an asset folder for a single on multi-page document.
 
-![](./assets/contrib-03.png)
+Begin by entering the main folder name followed by ‘/’. You will do this until you reach the subfolder you want to create your asset folder within.In a single-page document the asset folder might be created as the second level folder (i.e., `pkp-docs/contributing/assets/`). In a multi-page document the asset folder might be created within the language folder of the document you are working on. (i.e., `pkp-docs/learning-ojs/en/assets/`).
 
-You can see here that you can title your request and fill out a description of what you've changed. Once you're all set, you can click the link that says "create pull request." Once you do this, repository managers are notified of your change and can decide to merge your code with the master repository.
+Multi-page Example:
 
-At the bottom of the page, you'll see what's known as a "diff." A diff is just a way to see what changes you've made from the original code.
+![](./assets/create-file-name-multi.png)
 
-### Use GitHub Desktop and Atom to edit documents
+For this example, I have created an assets folder within the en folder of learning-ojs.
 
-If you're working on a large piece of documentation and you're not comfortable using either the command line or the web interface for GitHub, you might want to consider using GitHub's [GitHub Desktop](https://desktop.github.com/) and the [Atom](https://atom.io/) text editor. With this workflow, you can "clone" a copy of the docs repository to your computer, make your edits locally (and even build a version of the Documentation Hub using Ruby, if you like) and create a pull request with your changes once you're finished.
+Single-page example:
 
-Once you've installed GitHub desktop, you should have an option while viewing any GitHub repository to "Clone or Download" and "Open in Desktop."
+![](./assets/create-file-name-single.png)
 
-1. Navigate to the repository you want to clone.
-2. Click on the green button on the right that says "Clone or Download."
-3. Select the "Open in Desktop" option.
+As Github will not allow you to create a blank folder, you will need to create a document in the asset folder. Remember that document pages need to end with ‘.md’
 
-![](./assets/contrib-04.gif)
+This can be labelled as anything, as it will be deleted after you’ve uploaded your assets. Enter some text into the textbox and commit the change to the file.
 
-GitHub desktop manages your commits and pull-requests locally. It's especially convenient if you're changing more than one file at once. If you have Atom installed, you can open your project with the editor directly from GitHub desktop.
+![](./assets/create-file-holder.png)
 
-1. Open GitHub desktop.
-2. Right click on the name of the repository in which you want to work.
-3. Select "Open in Atom."
+You should find your newly created assets folder within the main document folder. Click upload files on the top right corner.
 
-![](./assets/contrib-05.gif)
+![](./assets/create-file-upload.png)
 
-In Atom, the repository directory structure is accessible on the left-hand side in the "project window." Clicking on any title opens it in the editor and allow you to make changes. You'll notice labels next to the files as you work. Green indicates a new file you've added. Yellow indicates a file you've changed since the last time you pulled an update from the primary repository.
+Add your assets using drag and drop or by clicking ‘choose your files’
 
-![](./assets/contrib-06.png)
+![](./assets/create-file-upload2.png)
 
-If you are working on a project over time, you may want to regularly pull changes "from origin." You can do this in GitHub desktop by clicking on the "pull from origin" button near the top right of the window. It pulls changes since the last time you pulled them (or, since the time you cloned initially).
+Once you’ve uploaded assets into your assets folder you can go ahead and delete the holder document file you created, by clicking the file name followed by trash can icon on the top right corner.
 
-Once you make your edits with Atom and have a document you want to submit, you'll want to contribute it back as a "branch."
+![](./assets/create-file-remove-holder.png)
 
-1. In GitHub desktop, click on the "Current Branch" button.
-2. Click "New Branch"
-3. Write a concise name for your branch based on the doc you're submitting, with a single dash between words.
-4. Click "Create Branch."
+## Creating a Pull Request
 
-![](./assets/contrib-07.gif)
+Once you’ve completed the made edits to the file, you will scroll down and fill the information in the text boxes and click ‘Propose file change’.
 
-Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub desktop window, you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
+![](./assets/create-PR-1.png)
 
-![](./assets/contrib-08.png)
+This will bring you to another page that compares the changes you’ve made.
 
-The first field is for a very short descriptor of what you just changed. A few words should do the trick. Here are some examples:
+![](./assets/create-PR-compare.png)
 
-- Updated `filename.md`
-- Migrated `filename.md`
-- Added appendix to document
-- Replaced images
+The fourth box (highlighted in red) is the branch that’s automatically created by Github.
 
-The second field is for a more detailed description of what you changed. You might want to do this if you need to justify your changes or need to let everyone else know that a change is significant.
+Click ‘Create pull request.’
 
-When you finish, click the button on the bottom left labelled "Commit to `branch name`."
+This page is where you would enter a more detailed description of what you changed. You might want to do this if you need to justify your changes or need to let everyone else know that a change is significant.
 
-Now that you've committed your changes, you can push your changes back to the repo with the button on the top right. It should say "Publish your Branch to GitHub" if it's the first time you've committed that branch. It syncs versions locally and remotely with your branch changes and submits your "pull request" to managers of the Docs Hub.
+![](./assets/create-open-PR.png)
 
-This document is, necessarily, a brief introduction to using GitHub. GitHub has a tremendous amount of documentation on its use, however. If you want to read more about GitHub basics, please read ["Hello, World"](https://guides.github.com/activities/hello-world/).
+In this final page, you also have the option to create your pull request or create a draft pull request. A pull request indicates that you have completed your changes and lets the PKP team members know to review your changes. Meanwhile, a draft pull request allows you to continue to make changes.
 
-<!---
-Include this in internal Documentation Procedures instead
-## Modify cards and site layout
+*If you are a member of the PKP team, you’ll see the ability to commit directly to the master branch*. It’s important to note that these changes are immediate, but they are also unreviewed. Please do not commit directly to master. We recommend that you always commit code via pull request.
 
-Please read [Orientation to file structure](./README.md#orientation-to-file-structure) for guidance on how to configure the layout of the documentation hub. It is recommended that edits in this space be cleared via Git Issue or pull request.
---->
+## Save and Continue Edits to Branch
+
+Once you’ve created a draft pull request, you can continue making changes to the document you’re working on at any time. It will be important to note which branch is created for that particular document, especially if you have multiple branches in your repository.
+
+![](./assets/Github-dash-branch-menu.png)
+
+Again, the branch that has been created will be listed on the forth box in the Comparing changes page when generating a pull request.
+
+![](./assets/create-branch-name.png)
+
+You can also find out the branch by looking at the PKP Repository, pull request tab. Any active pull requests made can be found in the pkp repository page under pull request. Here you will find both draft pull requests and pull requests made.
+
+![](./assets/pkp-docs-PR.png)
+
+From your own repository, you will want to select the correct branch and continue making the changes to the document. After making these changes and providing the details of the changes in the textbox. You will want to select the first option to ‘Commit directly to the branch’.
+
+![](./assets/PR-Commit-changes-to-branch.png)
+
+You will repeat this step until you’ve complete making your changes.
+
+Once you’ve completed making the changes to your document. You can now go back to the draft pull request you created and click ‘Ready for Review.’
+
+![](./assets/PR-ready-review.png)
