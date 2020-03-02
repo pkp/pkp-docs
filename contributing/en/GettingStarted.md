@@ -1,0 +1,2 @@
+# Getting Started 
+Most of PKP’s documentation is hosted and managed in a GitHub repository called the PKP Documentation Hub and is displayed as a website using an open-source tool called Jekyll. Github is a collaborative version control system that manages and stores revisions of a project. To learn more about Github and Git, please see the following [video](https://www.youtube.com/watch?v=uUuTYDg9XoI).  
