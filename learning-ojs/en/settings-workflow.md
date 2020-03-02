@@ -1,18 +1,18 @@
 # Chapter 7: Workflow Settings
 
-The Workflow Settings allow you to configure various parts of the journal's editorial workflow. The workflow setting has 4 main tabs. 
-
+The Workflow Settings allow you to configure various parts of the journal's editorial workflow. The workflow setting has 4 main tabs.
 
 ## Submission
 
 Use this section to configure the submission process.
 
 ### Metadata
+
 This section determines what types of metadata will be collected during the submission process, such as keywords and references.
 
 ### Components
 
-Are the file types authors may upload to the site. Typically, one file will be the article text, and others can include interview transcripts, data, images, etc. The components available for the author to choose from when making their submission are listed here.
+Components are the file types authors may upload to the site. Typically, one file will be the article text, and others can include interview transcripts, data, images, etc. The components available for the author to choose from when making their submission are listed here.
 
 ![](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)
 
@@ -32,15 +32,16 @@ You can also edit each component by selecting the blue arrow to the left of the 
 
 - **Key**: Optional short symbol for the component.
 
-
 ### Checklist
+
 In the Submission Preparation Checklist, Authors must check off that they agree with each item on this list. Use the _Order_ link to change the order of the items, use the _Add Item_ link to create a new item, and use the blue arrow to the left of the item name to _Edit_ an existing item.
 
 ![](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
 
 ### Author Guidelines
+
 Use this field to add information for your authors that will be useful during the submission process. This information will be displayed on the journal website.
--  Author Guidelines: Recommended guidlines include required file types for the submission document, the preferred citation format, or any elements that should be present in the submission.
+-  Author Guidelines: Recommended guidelines include required file types for the submission document, the preferred citation format, or any elements that should be present in the submission.
 
 -  Copyright Notice: This is the author copyright agreement between the author and the journal, and the author agrees to these terms at the time of submission.
 
@@ -50,7 +51,7 @@ This tab allows you to configure your journal's review process.
 
 ![](./assets/learning-ojs3.1-jm-settings-workflow-review.png)
 
-### Setup 
+### Setup
 
 **Default Review Mode**: Select whether your journal will follow a double blind, blind, or open review process.
 
@@ -70,12 +71,14 @@ Hit the **Save** button to record your changes.
 
 Note that some system settings must be configured by the Site Administrator to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
 
-### Review Guidance 
-**Review Guidelines** Provide your reviewers with criteria for judging a submission's suitability for publication in the press, which may include instructions for preparing an effective and helpful review.
+### Review Guidance
+
+**Review Guidelines**: Provide your reviewers with criteria for judging a submission's suitability for publication in the press, which may include instructions for preparing an effective and helpful review.
 
 **Competing Interests**: Add your competing interest disclosure policy statement here.
 
 ### Review Forms
+
 Review forms provide reviewers with a set of questions to respond to. This can help focus their feedback in ways that is more useful to you.
 
 **Create Review Form**: Use the Create Review Form link to make a new form.
@@ -138,8 +141,7 @@ To add a file here, click ‘Add a file’ on the top right corner of the Publis
 
 **Type**: Select Marketing, Permission, Reports, Other
 
-**Public Access**: Enabling this will allow users to download this file using the hyperlink provided if it is hyperlinked in other parts of your journal site.  
-
+**Public Access**: Enabling this will allow users to download this file using the hyperlink provided if it is hyperlinked in other parts of your journal site.
 
 ## Emails
 
@@ -164,11 +166,20 @@ When you edit an email template, you change what it will say every time it is us
 To edit a template:
 1. Go to Workflow Settings > Emails > Prepared Email Templates
 2. Click the blue arrow next to the template name to reveal links below it
-3. Click Edit Email
+3. Click Edit
 4. Make changes to the subject and the body text. Be careful to not delete any tags such as “{$authorName}:,” which automatically insert content from a submission.
 5. When you’re finished editing, click Save.
 
 ![](./assets/learning-ojs3.1-jm-settings-workflow-email-templates.png)
+
+#### Disable email templates
+
+All of the templates are enabled by default when you install OJS, but you can disable some templates by clicking the Disable button. Most of the templates that can be disabled are messages that are sent automatically by OJS. Disabling the template will mean that the automatic notification will not be sent.
+
+To disable a template:
+1. Go to Workflow Settings > Emails > Prepared Email Templates
+2. Click the blue arrow next to the template name to reveal links below it
+3. Click Disable (if the button does not appear, then this template can't be disabled)
 
 #### Reload default email templates
 
@@ -179,11 +190,11 @@ If you have edited email templates but want to reverse the edits and restore the
 
 #### Add email template
 
-Click the button **Add Email Template** to create a custom email template that you can use when notifying a user or adding a participant to a submission. Note that in versions earlier than OJS 3.1.2, you can create a custom email templates but it will not be available to use at any stage in the workflow. 
+Click the button **Add Email Template** to create a custom email template that you can use when notifying a user or adding a participant to a submission. Note that in versions earlier than OJS 3.1.2, you can create a custom email templates but it will not be available to use at any stage in the workflow.
 
 #### Filters
-Click here to filter email templates based on the following: Enabled, Disabled, Custom Template. You can also filter email templates based on who it was sent from and who it is sent to. 
 
+Click here to filter email templates based on the following: Enabled, Disabled, Custom Template. You can also filter email templates based on who it was sent from and who it is sent to.
 
 #### Add email attachment
 
@@ -197,7 +208,7 @@ You can also choose to modify an existing email template with this URL, or share
 
 #### Template descriptions
 
-OJS 3.2 now provides a desciption for every template outlining the sender and receipient, stage of workflow. 
+OJS 3.2 now provides a description for every template outlining the sender and recipient, stage of workflow.
 
 The table below provides an overview of the prepared email templates found in OJS 3.2. Note that "Editor" refers to any type of editor (e.g. journal editor, production editor, etc.). The following columns appear in the table:
 
