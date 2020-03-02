@@ -1,13 +1,14 @@
 # Chapter 6: Website Settings
 
-The Website Settings allow you to configure how your journal's website looks and operates. It consists of 3 main tabs for Apperance, Setup, Plugins.
+The Website Settings allow you to configure how your journal's website looks and operates. It consists of 3 main tabs for Appearance, Setup, and Plugins.
 
 ![](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
 
 ## Appearance
 
 ### Theme
-**Theme**: The theme determines the overall design or layout of your site. Several different theme options are available and you can try them out without affecting your site's content or configuration.
+
+The theme determines the overall design or layout of your site. Several different theme options are available and you can try them out without affecting your site's content or configuration.
 
 First you can ensure that all available themes have been enabled on your site.
 1. Go to the Plugins tab under Website Settings.
@@ -24,7 +25,7 @@ Now that you have all available themes, return to the Appearance tab to try out 
 5. Open your site's home page in a new tab or window of your browser to see how the site looks with the new theme or sub-theme and with different configuration options.
 6. If you do not see the changes appear on your site, you may need to clear the cache under the Administration menu.
 
-If you would like to make minor changes to your site's design and layout, you can upload a **Journal Stylesheet** in Website Settings > Apperance > Advanced.
+If you would like to make minor changes to your site's design and layout, you can upload a **Journal Stylesheet** in Website Settings > Appearance > Advanced.
 
 - **Typography**: Quickly choose the fonts for your journal. This option may or may not be available depending on the selected theme.
 
@@ -32,14 +33,13 @@ If you would like to make minor changes to your site's design and layout, you ca
 
 - **Journal Summary**: Check this off to show the journal summary on the homepage. You can add your journal summary under Journal Settings > Masthead. This option may or may not be available depending on the selected theme.
 
-- **Header Background Image**: Check this off if you if you want the uplaoded homepage image to be shown as the header background.
+- **Header Background Image**: Check this off if you if you want the uploaded homepage image to be shown as the header background.
 
-### Setup 
+### Setup
 
 Where you can upload images (logo, thumbnail, homepage) to your sites main page, enter footer information, and configure your sidebar menu.
 
 - **Journal thumbnail**: Upload a small logo or image representative of the journal that will be used in lists of journals on this OJS installation. This will only be used on OJS installations with multiple journals.
-
 
 - **Homepage Image**: Uploading an image here will will place it on your journal's home page.
 
@@ -49,7 +49,7 @@ Where you can upload images (logo, thumbnail, homepage) to your sites main page,
 
 ### Advanced
 
-Where you can upload your journal stylesheet, Favicon, and Additional Content. 
+Where you can upload your journal stylesheet, Favicon, and Additional Content.
 
 - **Journal Style Sheet**: Use this to upload a unique style sheet for your journal.
 If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
@@ -57,7 +57,7 @@ If you would like to make more significant changes to the design or give your si
 - **Journal Favicon**: Add a [favicon](https://en.wikipedia.org/wiki/Favicon) to display in the reader's browser address bar.
 - **Additional Content**: Any text entered here will appear on your homepage.
 
-Hit **Save** to record your changes. 
+Hit **Save** to record your changes.
 
 ## Setup
 
@@ -89,7 +89,7 @@ Under Website Settings > Languages you can see a list of languages or locales in
 
 If enabling multiple languages to appear in the UI, make sure that in Website Settings > Appearance > Sidebar Management the Language Toggle Block is selected to make that feature available to users.
 
-### Navigation Menus
+### Navigation
 
 This section allows you to configure your navigation menus, such as including new links.
 
@@ -117,18 +117,23 @@ This section allows you to create and display news announcements on the journal'
 
 ![](./assets/learning-ojs3.1-jm-settings-web-announce.png)
 
-- **Announcements**: Check this off if you want to have announcements in your websit
+- **Announcements**: Check this off if you want to have announcements in your website
   - **Introduction**: Enter any information you would like to appear on your announcements page.
   - **Display on Homepage**: Enter the number of announcements to be displayed on the homepage. If this is left blank, no announcements will be displayed.
-  
-- **Lists**: Limit the number of items \(for example, submissions, users, or editing assignments\) to show in a list before showing subsequent items on another page. Also, limit the number of links to display to subsequent pages of the list.
 
-- **Privacy Statement**: Enter the privacy statement you want to appear on your site.
+### Lists
 
-### Plugins
+Limit the number of items \(for example, submissions, users, or editing assignments\) to show in a list before showing subsequent items on another page. Also, limit the number of links to display to subsequent pages of the list.
+
+### Privacy Statement
+
+Enter the privacy statement you want to appear on your site.
+
+## Plugins
+
 Use this page to see all of the installed plugins and find new plugins.
 
-#### Installed Plugins
+### Installed Plugins
 
 All of the plugins listed here are available in your OJS installation. Check the Enable link to use them.
 
@@ -138,7 +143,7 @@ You will notice that some plugins are required for the system and cannot be disa
 
 Click the blue arrow next to the plugin name to reveal links to Delete, Upgrade, or Configure settings for the plugin.
 
-#### Plugin Gallery
+### Plugin Gallery
 
 The Plugin Gallery provides access to externally-created plugins, that may not be included in your OJS installation, but are available for download and activation. Only an Administrator user can install a new plugin.
 
@@ -148,7 +153,7 @@ Selecting the plugin title will provide additional details, including the author
 
 ![](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery-hypo.png)
 
-#### External Plugins
+### External Plugins
 
 Sometimes new plugins or plugins that are developed by folks outside of PKP will not appear in the Plugin Gallery and you need to install them separately.
 1. Download the tar.gz file or .zip file of the plugin from its repository.
@@ -160,11 +165,3 @@ Sometimes new plugins or plugins that are developed by folks outside of PKP will
 If upload fails you may get an error message that says, “The uploaded plugin archive does not contain a folder that corresponds to the plugin name.” Usually this means you have to change the name of the plugin folder inside the zipped folder to a more simple name. For example, change “translator-ojs-3_0_0-0” to “translator.”
 
 Remember to hit Save to record the change.
-
-
-
-
-
-
-
-
