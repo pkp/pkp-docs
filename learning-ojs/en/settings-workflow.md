@@ -120,7 +120,7 @@ Once you send the form to a reviewer you will no longer be able to edit it becau
 ![](./assets/learning-ojs-3-settings-workflow-settings-review2.png)
 
 
-### Publisher Library
+## Publisher Library
 
 The Journal Manager and Editors may upload documents that they would like to share with the other users in the Publisher Library. Any document added in this area will be visible within a user’s Document Library in their manuscript’s Submission Library. 
 
