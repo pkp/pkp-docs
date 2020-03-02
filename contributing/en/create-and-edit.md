@@ -223,7 +223,7 @@ You can also find out the branch by looking at the PKP Repository, pull request 
 
 From your own repository, you will want to select the correct branch and continue making the changes to the document. After making these changes and providing the details of the changes in the textbox. You will want to select the first option to ‘Commit directly to the branch’.
 
-![](./assets/PR-Commit-changes-to-branch)
+![](./assets/PR-Commit-changes-to-branch.png)
 
 You will repeat this step until you’ve complete making your changes. 
 
