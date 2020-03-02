@@ -59,8 +59,8 @@ Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust dir
 2. Enter the name of the document folder and then /. This will automatically create the folder.
 - _Remember to follow naming conventions_. (e.g., if your document is a guide to ORCID, you could name it orcid-guide or orcid-plugin).
 3. Enter the name of the file `index.md`.
-    - A document-wide `index.md` file should contain a description of the document as well as copyright information. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page.
-    - At the top of your indexing file, include the following:
+- A document-wide `index.md` file should contain a description of the document as well as copyright information. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page.
+ - At the top of your indexing file, include the following:
 
 ```
 ---
@@ -92,7 +92,7 @@ Adding images to your documentation helps users more easily locate the features 
 1. Single-page documents:
     - Find the assets folder within your main document folder. For example: `/contributing/assets/`
 2. Multi-page documents:
--   Find the assets folder within the language folder of the document you’re working on. For example: `/learning-ojs/en/assets/`
+    - Find the assets folder within the language folder of the document you’re working on. For example: `/learning-ojs/en/assets/`
 
 To add new images to a document, you will need to take and save these screenshots locally. Make sure to follow the naming convention for images.
 
@@ -104,15 +104,15 @@ To add assets to a document and assets folder
 2. Repeat this step as many times as needed.
 3. Create a draft pull request rather than opening  a pull request yet
 4. Upload assets into the assets folder
-    - Go to the branch that has been created for this set of changes.
-    - Open the document folder followed by the language folder (if applicable)-
-    - Open the Assets folder
-    - Click the Upload Files button
-    - Click Choose Your Files
-    - Open the special folder where you saved all of your screenshots
-    - Select all of the files and click Open
-    - Commit your changes directly to the branch you have been working in
-    - Change the status of your draft pull request 
+   - Go to the branch that has been created for this set of changes.
+   - Open the document folder followed by the language folder (if applicable)-
+   - Open the Assets folder
+   - Click the Upload Files button
+   - Click Choose Your Files
+   - Open the special folder where you saved all of your screenshots
+   - Select all of the files and click Open
+   - Commit your changes directly to the branch you have been working in
+   - Change the status of your draft pull request 
 ![](./assets/draft-PR.png)
 
 ### Replacing Images
@@ -123,24 +123,23 @@ First, take the new screenshot and update the link to the screenshot in the docu
 
 1. Take the new screenshot and save it
 2. Before you save the new screenshot, find the link in the document to the old screenshot. It may look something like this:
-    - `![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
+   - `![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
 3. If you’re doing a version update, change the version number in the file name. You would change the above example link to say the following:
     - `![](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)`
 4. Copy the part of the link that comes after the last / and before the file type extension - e.g., `learning-ojs3.2-jm-settings-workflow-comp`
 5. Go to the new screenshot you just took and save as. Paste the file name you copied in the last step and save the screenshot in a special folder on your desktop.
 6. Continue editing the document and save any additional screenshots you take in the same folder and naming them in the same way.
-
+Create a draft pull request rather than opening a pull request yet
 Once you are finishing editing the document, describe your changes at the bottom of the document and click Propose File Change. This will add your changes to a branch. The next page will show Comparing Changes. Create a draft pull request rather than opening  a pull request yet. You will upload your screenshot files to the new branch before making a pull request. 
-
-    - Go to the branch that has been created for this set of changes.
-    - Open the document folder followed by the language folder (if applicable)
-    - Open the Assets folder
-    - Click the Upload Files button
-    - Click Choose Your Files
-    - Open the special folder where you saved all of your screenshots
-    - Select all of the files and click Open
-    - Commit your changes directly to the branch you have been working in
-    - Change the status of your draft pull request 
+  - Go to the branch that has been created for this set of changes.
+  - Open the document folder followed by the language folder (if applicable)
+  - Open the Assets folder
+  - Click the Upload Files button
+  - Click Choose Your Files
+  - Open the special folder where you saved all of your screenshots
+  - Select all of the files and click Open
+  - Commit your changes directly to the branch you have been working in
+  - Change the status of your draft pull request 
 ![](./assets/draft-PR.png)
 
 ### Deleting Images
@@ -162,10 +161,14 @@ Here you will enter the main document folder and the subsequent folders. This wi
 Begin by entering the main folder name followed by ‘/’. You will do this until you reach the subfolder you want to create your asset folder within.In a single-page document the asset folder might be created as the second level folder (i.e.,pkp-docs/contributing/assets/). In a multi-page document the asset folder might be created within the language folder of the document you are working on.  (i.e., pkp-docs/learning-ojs/en/assets/).
 
 Multi-page Example: 
+
 ![](./assets/create-file-name-multi.png)
+
 For this example, I have created an assets folder within the en folder of learning-ojs.
 
 Single-page example:
+
+
 ![](./assets/create-file-name-single.png)
 
 As Github will not allow you to create a blank folder, you will need to create a document in the asset folder. Remember that document pages need to end with ‘.md’
