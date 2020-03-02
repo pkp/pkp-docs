@@ -187,4 +187,46 @@ Once you’ve uploaded assets into your assets folder you can go ahead and delet
 ![](./assets/create-file-remove-holder.png)
 
 ## Creating a pull request
+Once you’ve completed the made edits to the file, you will scroll down and fill the information in the text boxes and click ‘Propose file change’.
 
+![](./assets/create-PR-1.png)
+
+This will bring you to another page that compares the changes you’ve made. 
+
+![](./assets/create-PR-compare.png)
+
+The fourth box (highlighted in red) is the branch that’s automatically created by Github.
+
+Click ‘Create pull request.’
+
+This page is where you would enter a more detailed description of what you changed. You might want to do this if you need to justify your changes or need to let everyone else know that a change is significant.
+
+![](./assets/create-open-PR.png)
+
+In this final page, you also have the option to create your pull request or create a draft pull request. A pull request indicates that you have completed your changes and lets the PKP team members know to review your changes. Meanwhile, a draft pull request allows you to continue to make changes. 
+
+*If you are a member of the PKP team, you’ll see the ability to commit directly to the master branch*. It’s important to note that these changes are immediate, but they are also unreviewed. Please do not commit directly to master. We recommend that you always commit code via pull request.
+
+## Save and Continue Edits to branch
+
+Once you’ve created a draft pull request, you can continue making changes to the document you’re working on at any time. It will be important to note which branch is created for that particular document, especially if you have multiple branches in your repository.
+
+![](./assets/Github-dash-branch-menu.png)
+
+Again, the branch that has been created will be listed on the forth box in the Comparing changes page when generating a pull request. 
+
+![](./assets/create-branch-name.png)
+
+You can also find out the branch by looking at the PKP Repository, pull request tab. Any active pull requests made can be found in the pkp repository page under pull request. Here you will find both draft pull requests and pull requests made. 
+
+![](./assets/pkp-docs-PR.png)
+
+From your own repository, you will want to select the correct branch and continue making the changes to the document. After making these changes and providing the details of the changes in the textbox. You will want to select the first option to ‘Commit directly to the branch’.
+
+![](./assets/PR-Commit-changes-to-branch)
+
+You will repeat this step until you’ve complete making your changes. 
+
+Once you’ve completed making the changes to your document. You can now go back to the draft pull request you created and click ‘Ready for Review.’
+
+![](./assets/PR-ready-review.png)
