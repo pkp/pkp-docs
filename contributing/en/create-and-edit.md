@@ -113,6 +113,7 @@ To add assets to a document and assets folder
    - Select all of the files and click Open
    - Commit your changes directly to the branch you have been working in
    - Change the status of your draft pull request 
+
 ![](./assets/draft-PR.png)
 
 ### Replacing Images
@@ -131,15 +132,16 @@ First, take the new screenshot and update the link to the screenshot in the docu
 6. Continue editing the document and save any additional screenshots you take in the same folder and naming them in the same way.
 Create a draft pull request rather than opening a pull request yet
 Once you are finishing editing the document, describe your changes at the bottom of the document and click Propose File Change. This will add your changes to a branch. The next page will show Comparing Changes. Create a draft pull request rather than opening  a pull request yet. You will upload your screenshot files to the new branch before making a pull request. 
-  - Go to the branch that has been created for this set of changes.
-  - Open the document folder followed by the language folder (if applicable)
-  - Open the Assets folder
-  - Click the Upload Files button
-  - Click Choose Your Files
-  - Open the special folder where you saved all of your screenshots
-  - Select all of the files and click Open
-  - Commit your changes directly to the branch you have been working in
-  - Change the status of your draft pull request 
+   - Go to the branch that has been created for this set of changes.
+   - Open the document folder followed by the language folder (if applicable)
+   - Open the Assets folder
+   - Click the Upload Files button
+   - Click Choose Your Files
+   - Open the special folder where you saved all of your screenshots
+   - Select all of the files and click Open
+   - Commit your changes directly to the branch you have been working in
+   - Change the status of your draft pull request 
+
 ![](./assets/draft-PR.png)
 
 ### Deleting Images
