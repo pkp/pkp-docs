@@ -8,7 +8,7 @@ If you want to get involved with documentation, email [documentation@publicknowl
 
 ## Ways to Contribute
 
-There many ways to contribute to PKP software documentation whether you want to write, edit, or update any piece – big or small – of a specific document.
+There are many ways to contribute to PKP software documentation whether you want to write, edit, or update any piece – big or small – of a specific document.
 
 ### Update existing documentation
 
@@ -46,9 +46,9 @@ Members of the DIG review suggestions and add them to lists of potential tasks. 
 
 ## Find a Documentation Task
 
-PKP keeps track of documentation that needs to be created, updated, and reviewed on a [shared spreadsheet](https://docs.google.com/spreadsheets/d/1bo0etXPjDxC_xdmOGCdwAtdXv85ojdqRdNr3sfMD2aU/) that's maintained by the DIG. If you're looking for a task, the spreadsheet is an excellent place to start. You can also add new tasks.
+PKP keeps track of documentation that needs to be created, updated, and reviewed on a [shared spreadsheet](https://docs.google.com/spreadsheets/d/1bo0etXPjDxC_xdmOGCdwAtdXv85ojdqRdNr3sfMD2aU/) that's maintained by the DIG. If you're looking for a task, the spreadsheet is an excellent place to start. You can also add new tasks to the spreadsheet. 
 
-Tasks are categorized by role and listed on different worksheets according to role. You can look for tasks that match your role or experience with PKP software. The roles are as follows:
+Tasks are categorized by role and listed on different worksheets according to roles. You can look for tasks that match your role or experience with PKP software. The roles are as follows:
 
 - **Administrators**: Administrators are responsible for PKP software installation and upgrades, ensuring the server settings are accurate, adding language files, and creating any new journals on the installation. Administrators have an understanding of and may modify system files and settings, but are not responsible for programming new features or developing the software.
 - **Developers**: Developers participate in the development of PKP software applications and plugins. They write and modify the code and evaluate and implement new features.
