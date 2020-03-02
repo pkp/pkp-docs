@@ -19,7 +19,7 @@
   * [Create a Document](./create-and-edit.md#create-a-document)
   * [Adding/Replacing Images](./create-and-edit.md#addingreplacing-images)
   * [Creating Assets folder](./create-and-edit.md#creating-assets-folder)
-  * [Creating a pull request] (.create-and-edit.md#creating-a-pull-request)
+  * [Creating a pull request] (./create-and-edit.md#creating-a-pull-request)
   * [Save and Continue Edits to branch](./contributing/en/create-and-edit.md#save-and-continue-edits-to-branch)
 * [Style and Format](./style-and-format.md)
   * [Versioning and Updates](./style-and-format.md#versioning-and-updates)
