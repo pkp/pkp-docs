@@ -23,7 +23,7 @@ If your edits requires you to replace or add images, see section on Adding/Repla
 
 When you create a new document, you need to decided whether to make it a _single page document_ or _multi-page document_, as they are significantly different.
 
-### Single page docs
+### Single Page Docs
 
 Single page documents are rendered fully from one markdown file. The table of contents on the side of the page is created using the header tags in markdown. For example:
 
@@ -51,7 +51,7 @@ From here, write the document out as you would using markdown. Any level two hea
 
 > Headings should never skip a level. Do not jump from `## Heading` (2) to `#### Sub-heading` (4). It is important that a sub-heading of `## Heading` (2) is `### Heading` (3) for accessibility.
 
-### Multi-page docs
+### Multi-page Docs
 
 Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust directories with folders for individual languages/translations, and a single markdown file for every chapter of the document. They also contain a file called `SUMMARY.md` that creates the table of contents for the document and a file called `README.md` that serves as a first/landing page for your document. To create a multi-page document start with the following:
 
@@ -83,7 +83,7 @@ Unlike with a single-page document, you no longer need to add to index.md. The r
 
 ![](./assets/contrib-summary-md-file.png)
 
-## Adding/Replacing images 
+## Adding/Replacing images
 
 ### Adding Images
 
@@ -100,7 +100,7 @@ New assets can be added before working on a document or after it has been comple
 
 To add assets to a document and assets folder
 1. Add image code in the part of the document you would like this to appear in. To link to an image in the assets folder you will need to type `“![](./assets/ image file name)”`
-    e.g., ![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)
+    e.g., `![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
 2. Repeat this step as many times as needed.
 3. Create a draft pull request rather than opening  a pull request yet
 4. Upload assets into the assets folder
@@ -112,7 +112,7 @@ To add assets to a document and assets folder
    - Open the special folder where you saved all of your screenshots
    - Select all of the files and click Open
    - Commit your changes directly to the branch you have been working in
-   - Change the status of your draft pull request 
+   - Change the status of your draft pull request
 
 ![](./assets/draft-PR.png)
 
@@ -131,7 +131,7 @@ First, take the new screenshot and update the link to the screenshot in the docu
 5. Go to the new screenshot you just took and save as. Paste the file name you copied in the last step and save the screenshot in a special folder on your desktop.
 6. Continue editing the document and save any additional screenshots you take in the same folder and naming them in the same way.
 Create a draft pull request rather than opening a pull request yet
-Once you are finishing editing the document, describe your changes at the bottom of the document and click Propose File Change. This will add your changes to a branch. The next page will show Comparing Changes. Create a draft pull request rather than opening  a pull request yet. You will upload your screenshot files to the new branch before making a pull request. 
+Once you are finishing editing the document, describe your changes at the bottom of the document and click Propose File Change. This will add your changes to a branch. The next page will show Comparing Changes. Create a draft pull request rather than opening  a pull request yet. You will upload your screenshot files to the new branch before making a pull request.
    - Go to the branch that has been created for this set of changes.
    - Open the document folder followed by the language folder (if applicable)
    - Open the Assets folder
@@ -140,29 +140,29 @@ Once you are finishing editing the document, describe your changes at the bottom
    - Open the special folder where you saved all of your screenshots
    - Select all of the files and click Open
    - Commit your changes directly to the branch you have been working in
-   - Change the status of your draft pull request 
+   - Change the status of your draft pull request
 
 ![](./assets/draft-PR.png)
 
 ### Deleting Images
 
-If you’ve replaced images and there is no longer a use for the previous saved asset, the old assets can now be deleted. Before deleting the old assets, look through the chapter to make sure that these are not being used in other sections of the document. If so, update the other links with the new file name. You can then delete the old assets from your branch and create a pull request. 
+If you’ve replaced images and there is no longer a use for the previous saved asset, the old assets can now be deleted. Before deleting the old assets, look through the chapter to make sure that these are not being used in other sections of the document. If so, update the other links with the new file name. You can then delete the old assets from your branch and create a pull request.
 
+## Creating Assets Folder
 
-## Creating Assets folder
 To create an asset folder within the document branch, you will need to create a new file by clicking ‘Create new file’ in your repository.
 
 ![](./assets/create-assets-folder.png)
 
-This will prompt you to another page where you can edit a new file. On the top you will see: 
+This will prompt you to another page where you can edit a new file. On the top you will see:
 
 ![](./assets/create-file-name.png)
 
 Here you will enter the main document folder and the subsequent folders. This will vary depending on whether you are creating an asset folder for a single on multi-page document.
 
-Begin by entering the main folder name followed by ‘/’. You will do this until you reach the subfolder you want to create your asset folder within.In a single-page document the asset folder might be created as the second level folder (i.e.,pkp-docs/contributing/assets/). In a multi-page document the asset folder might be created within the language folder of the document you are working on.  (i.e., pkp-docs/learning-ojs/en/assets/).
+Begin by entering the main folder name followed by ‘/’. You will do this until you reach the subfolder you want to create your asset folder within.In a single-page document the asset folder might be created as the second level folder (i.e., `pkp-docs/contributing/assets/`). In a multi-page document the asset folder might be created within the language folder of the document you are working on. (i.e., `pkp-docs/learning-ojs/en/assets/`).
 
-Multi-page Example: 
+Multi-page Example:
 
 ![](./assets/create-file-name-multi.png)
 
@@ -170,12 +170,11 @@ For this example, I have created an assets folder within the en folder of learni
 
 Single-page example:
 
-
 ![](./assets/create-file-name-single.png)
 
 As Github will not allow you to create a blank folder, you will need to create a document in the asset folder. Remember that document pages need to end with ‘.md’
 
-This can be labelled as anything, as it will be deleted after you’ve uploaded your assets. Enter some text into the textbox and commit the change to the file. 
+This can be labelled as anything, as it will be deleted after you’ve uploaded your assets. Enter some text into the textbox and commit the change to the file.
 
 ![](./assets/create-file-holder.png)
 
@@ -187,16 +186,17 @@ Add your assets using drag and drop or by clicking ‘choose your files’
 
 ![](./assets/create-file-upload2.png)
 
-Once you’ve uploaded assets into your assets folder you can go ahead and delete the holder document file you created, by clicking the file name followed by trash can icon on the top right corner. 
+Once you’ve uploaded assets into your assets folder you can go ahead and delete the holder document file you created, by clicking the file name followed by trash can icon on the top right corner.
 
 ![](./assets/create-file-remove-holder.png)
 
-## Creating a pull request
+## Creating a Pull Request
+
 Once you’ve completed the made edits to the file, you will scroll down and fill the information in the text boxes and click ‘Propose file change’.
 
 ![](./assets/create-PR-1.png)
 
-This will bring you to another page that compares the changes you’ve made. 
+This will bring you to another page that compares the changes you’ve made.
 
 ![](./assets/create-PR-compare.png)
 
@@ -208,21 +208,21 @@ This page is where you would enter a more detailed description of what you chang
 
 ![](./assets/create-open-PR.png)
 
-In this final page, you also have the option to create your pull request or create a draft pull request. A pull request indicates that you have completed your changes and lets the PKP team members know to review your changes. Meanwhile, a draft pull request allows you to continue to make changes. 
+In this final page, you also have the option to create your pull request or create a draft pull request. A pull request indicates that you have completed your changes and lets the PKP team members know to review your changes. Meanwhile, a draft pull request allows you to continue to make changes.
 
 *If you are a member of the PKP team, you’ll see the ability to commit directly to the master branch*. It’s important to note that these changes are immediate, but they are also unreviewed. Please do not commit directly to master. We recommend that you always commit code via pull request.
 
-## Save and Continue Edits to branch
+## Save and Continue Edits to Branch
 
 Once you’ve created a draft pull request, you can continue making changes to the document you’re working on at any time. It will be important to note which branch is created for that particular document, especially if you have multiple branches in your repository.
 
 ![](./assets/Github-dash-branch-menu.png)
 
-Again, the branch that has been created will be listed on the forth box in the Comparing changes page when generating a pull request. 
+Again, the branch that has been created will be listed on the forth box in the Comparing changes page when generating a pull request.
 
 ![](./assets/create-branch-name.png)
 
-You can also find out the branch by looking at the PKP Repository, pull request tab. Any active pull requests made can be found in the pkp repository page under pull request. Here you will find both draft pull requests and pull requests made. 
+You can also find out the branch by looking at the PKP Repository, pull request tab. Any active pull requests made can be found in the pkp repository page under pull request. Here you will find both draft pull requests and pull requests made.
 
 ![](./assets/pkp-docs-PR.png)
 
@@ -230,7 +230,7 @@ From your own repository, you will want to select the correct branch and continu
 
 ![](./assets/PR-Commit-changes-to-branch.png)
 
-You will repeat this step until you’ve complete making your changes. 
+You will repeat this step until you’ve complete making your changes.
 
 Once you’ve completed making the changes to your document. You can now go back to the draft pull request you created and click ‘Ready for Review.’
 
