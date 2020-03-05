@@ -50,13 +50,13 @@ For each project, click the project’s name to get a list of components. **All 
 
 Click on a component’s title to get started. You should see a list of languages along with an indication of the translation’s completeness:
 
-![](.assets/translating-guide-weblate-update-translation.png)
+![](./assets/translating-guide-weblate-update-translation.png)
 
 To begin working, click the Translate button next to your language. (If your language is not listed, see the next section **Begin a new translation**.)
 
 Weblate will automatically step you through each of the each string that needs to be checked, corrected, or translated:
 
-![](.assets/translating-guide-weblate-translate-string.png)
+![](./assets/translating-guide-weblate-translate-string.png)
 
 When you have finished translating the remaining strings for this component, continue to the next.
 
