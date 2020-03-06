@@ -1,3 +1,7 @@
+---
+book: learning-ojs
+version: 3.1
+---
 # Chapter 6: Website Settings
 
 The Website Settings allow you to configure how your journal's website looks and operates. It consists of tabs for Appearance, Information, Archiving, Languages, Plugins, Announcements, and Navigation Menus.

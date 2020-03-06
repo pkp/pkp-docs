@@ -1,3 +1,7 @@
+---
+book: learning-ojs
+version: current
+---
 # Chapter 8: Distribution Settings
 
 The Distribution Settings focus on access to and visibility of your journal. The tabs consist of License, Search Indexing, Payments, Access, and Archiving.

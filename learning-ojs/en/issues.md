@@ -1,3 +1,7 @@
+---
+book: learning-ojs
+version: current
+---
 # Chapter 9: Issues
 
 From the left menu, select Issues to manage all of the issues for your journal.

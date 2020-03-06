@@ -1,3 +1,7 @@
+---
+book: learning-ojs
+version: 3.1
+---
 # Chapter 10: Users and Roles
 
 This section provides access to all of the user accounts associated with your journal, as well as the opportunity to manage roles and permissions.

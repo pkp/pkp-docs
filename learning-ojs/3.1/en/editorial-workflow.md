@@ -1,3 +1,7 @@
+---
+book: learning-ojs
+version: 3.1
+---
 # Chapter 14: Editorial Workflow
 
 In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.

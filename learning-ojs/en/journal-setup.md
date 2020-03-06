@@ -1,3 +1,7 @@
+---
+book: learning-ojs
+version: current
+---
 # Chapter 5: Journal Settings
 
 The Settings section allows you to configure your OJS installation to best meet your publishing needs.

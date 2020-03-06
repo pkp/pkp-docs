@@ -1,3 +1,7 @@
+---
+book: learning-ojs
+version: current
+---
 # Chapter 4: Site Administration
 
 As part of installing OJS, you will have created a Site Administrator user account. When you log into OJS with that account you will have access to Site Administrator settings from the Dashboard.
