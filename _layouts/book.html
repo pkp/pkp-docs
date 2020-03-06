@@ -11,7 +11,7 @@
 						{{ site.data.site.improveLink }}
 					</a>
 					{% include anchor_headings.html html=content anchorBody='#' anchorTitle='Link to %heading% section' h_min=2 %}
-					{% if page.isBookIndex == true %}
+					{% if page.isBookIndex %}
 						{% include book/copyright.html %}
 					{% endif %}
 					<div class="book__footer">
