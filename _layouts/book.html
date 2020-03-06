@@ -11,6 +11,9 @@
 						{{ site.data.site.improveLink }}
 					</a>
 					{% include anchor_headings.html html=content anchorBody='#' anchorTitle='Link to %heading% section' h_min=2 %}
+					{% if page.isBookIndex == true %}
+						{% include book/copyright.html %}
+					{% endif %}
 					<div class="book__footer">
 						<a class="book__improve" href="{{ site.data.site.improveLinkBaseUrl }}{{ page.path }}">
 							{{ site.data.site.improveLink }}
