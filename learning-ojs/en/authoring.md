@@ -20,7 +20,7 @@ It is currently empty as you have made no submissions.
 
 Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to Step 1 of a 5-Step process to upload and describe your submission.
 
-![](./assets/learning-ojs3.1-au-dashboard-new.png)
+![](./assets/learning-ojs3.1-au-dashboard-new-1.png)
 
 ### Step 1
 
@@ -28,7 +28,9 @@ In **Step 1** you will provide preliminary information about your submission.
 
 ![](./assets/learning-ojs3.1-au-dashboard-new-1.png)
 
-To begin select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
+If the journal allows submissions in multiple languages, you can select the language of your submission from the drop-down menu. Languages can be enabled in Website Settings -> Setup -> Language.
+
+Select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
 
 Read and agree to the statements in the submission checklist by checking each box. Include any comments for the editor, read the journal’s privacy statement, and then click the **Save and Continue** button to move to **Step 2**.
 
