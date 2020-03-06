@@ -87,9 +87,9 @@ Under Website Settings > Languages you can see a list of languages or locales in
 
 - **UI**: If you want the journal’s interface to be available in other languages, select them here.
 
-- **Forms**: This will enable all selected languages to be available when filling in online forms.
+- **Forms**: This will enable all selected languages to be available when filling in online forms. This will allow metadata to be added in selected languages in the Publication tab.
 
-- **Submission**: If you want authors to be able to make submissions in other languages, select them here.
+- **Submission**: If you want authors to be able to make submissions in other languages, select them here. This will allow authors to add metadata in selected languages when uploading their submission.
 
 If enabling multiple languages to appear in the UI, make sure that in Website Settings > Appearance > Sidebar Management the Language Toggle Block is selected to make that feature available to users.
 
