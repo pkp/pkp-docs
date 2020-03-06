@@ -1,6 +1,9 @@
-# Learning OJS 3.1: A Visual Guide to Open Journal Systems
+---
+book: learning-ojs
+version: 3.1
+---
 
-*This version of Learning OJS is based on OJS 3.1 and earlier. [Go here to see the current version of Learning OJS](/learning-ojs).*
+# Learning OJS 3.1: A Visual Guide to Open Journal Systems
 
 Copyright: Simon Fraser University holds the copyright for work produced by the Public Knowledge Project and has placed its documentation under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 

@@ -31,8 +31,8 @@ GEM
       jekyll (~> 3.0)
     jekyll-optional-front-matter (0.3.0)
       jekyll (~> 3.0)
-    jekyll-readme-index (0.2.0)
-      jekyll (~> 3.0)
+    jekyll-readme-index (0.3.0)
+      jekyll (>= 3.0, < 5.0)
     jekyll-relative-links (0.5.3)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
@@ -81,4 +81,4 @@ DEPENDENCIES
   jekyll-titles-from-headings
 
 BUNDLED WITH
-   1.16.1
+   1.17.3
