@@ -126,6 +126,7 @@ From here, you can see:
 
 ![](./assets/learning-ojs3.2_edflow_decisionstatus.png)
 *The screenshot above shows the decision button for MS# 425 prior to a decision being recorded. The screenshot below shows the notification of the recorded decision.* 
+
 ![](./assets/learning-ojs3.2_edflow_decisionstatus2.png)
 
 
