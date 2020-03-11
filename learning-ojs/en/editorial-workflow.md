@@ -125,6 +125,8 @@ From here, you can see:
 **Submission Status** Once an editor has recorded a decision in one stage of the workflow of OJS 3.2, the recorded decision will appear in place of the decision buttons. Editors will still have the ability to change the recorded decision by clicking, ‘Change Decision’ this will enable the 3 options once again. 
 
 ![](./assets/learning-ojs3.2_edflow_decisionstatus.png)
+*The screenshot above shows the decision button for MS# 425 prior to a decision being recorded. The screenshot below shows the notification of the recorded decision.* 
+![](./assets/learning-ojs3.2_edflow_decisionstatus2.png)
 
 
 **Participants**: This panel is where you will see the list of participants involved in the submission, including the editor, section editors, and author. Other names \(copyeditors, layout editors, etc.\) will appear here as they are added in subsequent steps.
