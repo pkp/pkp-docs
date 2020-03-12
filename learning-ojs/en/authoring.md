@@ -82,7 +82,7 @@ If the categories are enabled in the journal you are submitting to, you will be 
 
 ![](./assets/learning-ojs-authoring-category.png)
 
-You may see additional fields to complete, such as keywords.
+You may also see additional fields to complete, such as keywords.
 
 ![](./assets/learning-ojs-3-author-submission-step3-4.png)
 
