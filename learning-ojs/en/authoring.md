@@ -78,6 +78,10 @@ Hit **Save**, and the new contributor will appear on the screen.
 
 ![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
+If the categories are enabled in the journal you are submitting to, you will be able to select a category their manuscript submission, if it applies.
+
+![](.assets/learning-ojs-authoring-category.png)
+
 Depending on the journal you are submitting to, you may see additional fields to complete, such as keywords.
 
 ![](./assets/learning-ojs-3-author-submission-step3-4.png)
