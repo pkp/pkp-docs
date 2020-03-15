@@ -134,7 +134,7 @@ Use the Identifiers tab to also view or add a unique identifier.
 
 ![](./assets/learning-ojs-3-ed-submissions-identifiers.png)
 
-**Editorial History**: Where you can view the history and any notes about the submission.
+**Activity Log**: Where you can view the history and any notes about the submission.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-log.png)
 
