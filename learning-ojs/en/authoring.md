@@ -78,7 +78,7 @@ Hit **Save**, and the new contributor will appear on the screen.
 
 ![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
-If the categories are enabled in the journal you are submitting to, you will be able to select a category their manuscript submission, if it applies.
+If the categories are enabled in the journal you are submitting to, you will be able to select a category for the manuscript submission, if it applies.
 
 ![](./assets/learning-ojs-authoring-category.png)
 
