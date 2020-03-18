@@ -122,6 +122,14 @@ From here, you can see:
 
 > Note: If you don't see these buttons, you likely have not yet assigned the submission to an editor.
 
+**Submission Status** Once an editor has recorded a decision in one stage of the workflow of OJS 3.2, the recorded decision will appear in place of the decision buttons. Editors will still have the ability to change the recorded decision by clicking, ‘Change Decision’ this will enable the 3 options once again. 
+
+![](./assets/learning-ojs3.2_edflow_decisionstatus.png)
+*The screenshot above shows the decision button for MS# 425 prior to a decision being recorded. The screenshot below shows the notification of the recorded decision.* 
+
+![](./assets/learning-ojs3.2_edflow_decisionstatus2.png)
+
+
 **Participants**: This panel is where you will see the list of participants involved in the submission, including the editor, section editors, and author. Other names \(copyeditors, layout editors, etc.\) will appear here as they are added in subsequent steps.
 
 In addition, in the blue bar along the top, you can see:
@@ -204,6 +212,10 @@ You can now see that the Section Editor is listed under Participants, and the Ac
 
 Although in this example, the editor assigned a section editor, it would also be possible for the editor to assign themselves to the submission.
 
+Once the editor has seclected an action, the submission status will change and the action buttons will be disabled.
+
+![](./assets/learning-ojs3.2_edflow_decisionstatus2.png)
+
 ### Section Editor
 
 Now that the Section Editor has been assigned, they can login and view their dashboard. The submission can be found at the top of the My Assigned queue.
@@ -238,7 +250,7 @@ When the submission enters the Review Stage, a notification indicates that Revie
 
 ![](./assets/learning-ojs3.1-se-record-revstage.png)
 
-> Note: In the screenshot above, we see the Section Editor's view. Notice the limited Action buttons \(only Make Recommendation is available\). If we were logged in as an Editor, we would see more Action buttons \(Request Revisions, Resubmit for Review, Send to Copyediting, Decline Submission\).
+> Note: In the screenshot above, we see the Section Editor's view. Notice the limited Action buttons \(only Make Recommendation is available\). If we were logged in as an Editor, we would see more Action buttons \(Request Revision, Accept Submission, Decline Submission\).
 
 From the Reviewers panel, you can select Add Reviewer to assign a new Reviewer.
 
@@ -451,11 +463,9 @@ Based on the Reviewer recommendations, you can use the action buttons to make a 
 
 Options include:
 
-**Request Revisions**: This will require the Author to make minor changes, but no further peer review is required.
+**Request Revisions**: This will require the Author to make minor changes, the editor has the option to select whether another round of review will be required.
 
-**Resubmit for Review**: This will require the Author to make major changes and another round of review will need to take place.
-
-**Send to Copyediting**: This means the submission is accepted without revisions and can proceed to the Copyediting stage.
+**Accept Submission**: This means the submission is accepted without revisions and can proceed to the Copyediting stage.
 
 **Decline Submission**: This means that the submission has not passed peer review and is unsuitable for further consideration. The submission would then move to the Archives.
 
@@ -502,7 +512,7 @@ Another option would be to ask for further revisions, but at this point, we're r
 
 ### Moving to Copyediting
 
-The submission is now ready to be moved to copyediting. To do so, use the blue **Send to Copyediting** button.
+The submission is now ready to be moved to copyediting. To do so, use the blue **Accept Submission** button.
 
 ![](./assets/learning-ojs-3-ed-send-to-copyediting.png)
 
@@ -514,11 +524,15 @@ Hit the **Record Editorial Decision** button at the bottom of the window.
 
 The submission is automatically moved to the Copyediting stage.
 
+Back on the review tab, you will notice that the status now indicates the submission has been accepte.
+
+![](./assets/learning-ojs3.2_edflow_decisionstatus_accept.png)
+
 <hr />
 
 ## Copyediting
 
-When a submission is approved in the Review Stage, it will automatically move to the Copyediting stage.
+When a submission is accepted in the Review Stage, it will automatically move to the Copyediting stage.
 
 ![](./assets/learning-ojs-3-ed-copyediting.png)
 
@@ -687,8 +701,9 @@ Notice that the appropriate file, from the Copyedited panel, is included and wil
 
 Hit **Record Editorial Decision** to proceed.
 
-The Copyediting stage is now complete.
+The Copyediting stage is now complete and the submission status will be updated.
 
+![](./assets/learning-ojs3.2_edflow_decisionstatus_copyedit.png)
 <hr />
 
 ## Production
