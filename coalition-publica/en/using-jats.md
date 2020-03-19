@@ -105,7 +105,7 @@ There are several journal settings that should be properly configured in order f
 		* Make sure, when you schedule an article for publication, to attach the permissions to it (copyright holder and copyright year).
 * Ensure that OJS knows about your server’s text extraction tools. Check your `config.inc.php` file in the `[search]` section to make sure your server’s locations for these tools are specified. This will also help OJS to index PDF documents for its own search indexing. (This step may require the help of your system administrator, as it requires access to a file on the server on which OJS is installed.)
 
-## Step 5. Rebuild your search index. 
+## Step 5. Rebuild Your Search Index
 
 If you had to modify your `config.inc.php` file to enable PDF indexing as instructed in Step 4, you will also have to rebuild your search index. You can do this by running the following command on your server, in the OJS web root: 
 
