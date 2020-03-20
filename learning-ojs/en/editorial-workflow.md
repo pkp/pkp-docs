@@ -54,7 +54,7 @@ Users can also change their individual notification settings from their own prof
 
 When you log into your Dashboard, you can find active submissions either from your Tasks, or from one of the queues \(My Queue, Unassigned, All Active, and Archives\). The counter gives you an overview of how many total items are in each queue.
 
-![](./assets/learning-ojs3.1-ed-dashboard-active.png)
+![](./assets/learning-ojs3.2-ed-dashboard-active.png)
 
 ### My Queue
 
