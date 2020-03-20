@@ -134,7 +134,7 @@ From here, you can see:
 
 In addition, in the blue bar along the top, you can see:
 
-**Metadata**: Where you can view and revise the submission metadata.
+**Metadata**: Where you can view and revise the submission metadata. In OJS 3.2, users can be granted permission to revise certain submission metadata at any stage of the workflow. 
 
 ![](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
 
