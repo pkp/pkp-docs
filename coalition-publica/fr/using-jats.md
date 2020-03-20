@@ -104,7 +104,17 @@ Plusieurs paramètres de revue doivent être correctement configurés afin de
 		* Assurez-vous, lorsque vous établissez le “Calendrier de publication” d’un article, d’y associer les autorisations (titulaire du droit d’auteur et année du droit d’auteur)
 * Assurez-vous que votre instance OJS connaisse l’emplacement de vos outils d’extraction de texte sur vos serveurs. Vérifiez la section ​`[search]`​ de votre fichier `config.inc.php`​ pour vous assurer que les emplacements serveur de ces outils sont spécifiés. Par ailleurs, cela permettra à OJS d’indexer les documents PDF pour son propre moteur de recherche. (Cette étape peut requérir l’aide de votre administrateur système puisqu’elle requiert l’accès à un fichier sur le serveur où votre instance OJS est installée.)
 
-## Étape 5. Vérifier les paramètres de distribution
+## Étape 5. Reconstruisez votre index de recherche
+
+Si vous avez dû modifier votre fichier `config.inc.php` pour activer l'indexation PDF comme indiqué à l'étape 4, vous devrez également reconstruire votre index de recherche. Vous pouvez le faire en exécutant la commande suivante sur votre serveur, dans la racine Web OJS:
+
+`php tools/rebuildSearchIndex.php`
+
+Vous pouvez vérifier pour confirmer que l'index a été correctement reconstruit en recherchant du texte qui n'apparaît que dans un PDF (c'est-à-dire pas dans d'autres métadonnées de soumission stockées par OJS, telles que des champs de titre ou de résumé).
+
+REMARQUE: cette étape n'est requise que si vous avez récemment activé l'indexation PDF.
+
+## Étape 6. Vérifier les paramètres de distribution
 
 Sous Paramètres > Distribution > Accès, vous verrez un ensemble de paramètres:
 
@@ -119,6 +129,6 @@ Si vos paramètres d’accès sont configurés
 
 ... suivre les instructions ci-dessous, à la section ​*Abonnements et utilisation d’OJS sans publication*,​ afin d’inclure ses contenus sur Érudit.
 
-## Étape 6. Activer l’inclusion
+## Étape 7. Activer l’inclusion
 
 Contactez-nous pour vous assurer que les données de votre revue sont récupérées pour une diffusion sur Érudit dans le cadre de Coalition Publica!

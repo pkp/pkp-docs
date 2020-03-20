@@ -15,7 +15,7 @@ class TutorialExamplePlugin extends GenericPlugin {
 }
 ```
 
-A block pugin will extend the `BlockPlugin` class.
+A block plugin will extend the `BlockPlugin` class.
 
 ```php
 import('lib.pkp.classes.plugins.BlockPlugin');

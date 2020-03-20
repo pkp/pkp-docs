@@ -1,6 +1,6 @@
 api:
   ojs:
-    dev: /dev/api/ojs/dev
+    3.2: /dev/api/ojs/3.2
     3.1: /dev/api/ojs/3.1
 importing-exporting:
   current: /importing-exporting/en

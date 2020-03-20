@@ -30,7 +30,8 @@ class InstitutionalHomePlugin extends GenericPlugin {
   /**
    * Extend the context entity's schema with an institutionalHome property
    */
-  public function addToSchema($hookName, $schema) {
+  public function addToSchema($hookName, $args) {
+		$schema = $args[0];
     $schema->properties->institutionalHome = new stdObject();
     $schema->properties->institutionalHome->type = 'string';
     $schema->properties->institutionalHome->multilingual = true;

@@ -20,11 +20,24 @@ apps:
       - path: pkp-school
       - path: crossref-ojs-manual
       - path: gdpr
+  - path: omp3
+    title: Open Monograph Press
+    titleShort: OMP
+    includeInHero: true
+    description: Usage guides and documentation for our monograph publishing software.
+    cards:
+        - path: learning-omp
+        - path: learning-omp-1
+        - path: admin-guide
+        - path: developer-docs
+          isDeveloper: true
+        - path: designing-your-journal
+        - path: gdpr
   - path: ojs2
     title: Open Journal Systems 2
     titleShort: OJS 2
     includeInHero: true
-    description: "Help guides for older versions of our journal management software. We recommend you [upgrade to OJS 3](/upgrading-ojs-2-to-3/en)."
+    description: "Help guides for older versions of our journal management software. We recommend you [upgrade to OJS 3](/upgrading-ojs-2-to-3/)."
     cards:
         - path: upgrading-guide
         - path: learning-ojs-2
@@ -34,18 +47,6 @@ apps:
         - path: using-paypal-for-ojs-and-ocs
         - path: ojs-2-technical-reference
           isDeveloper: true
-  - path: omp3
-    title: Open Monograph Press
-    titleShort: OMP
-    includeInHero: true
-    description: Usage guides and documentation for our monograph publishing software.
-    cards:
-        - path: learning-omp
-        - path: admin-guide
-        - path: developer-docs
-          isDeveloper: true
-        - path: designing-your-journal
-        - path: gdpr
   - path: ocs2
     title: Open Conference Systems
     titleShort: OCS

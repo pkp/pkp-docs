@@ -35,10 +35,28 @@ The `EntityReadInterface` provides the `get()` method to get one object.
 $context = Services::get('context')->get($contextId);
 ```
 
-Use the `getMany()` method to retrieve an array of objects, filtered by one or more parameters.
+It also provides a number of methods which can be used to retrieve results filtered by one or more parameters.
+
+Use the `getCount()` method to retrieve a count of objects matching the specified parameters.
 
 ```php
-$enabledContexts = Services::get('context')->getMany([
+$numberOfEnabledContexts = Services::get('context')->getCount([
+  'isEnabled' => true,
+]);
+```
+
+Use the `getIds()` method to retrieve an array of object ids.
+
+```php
+$enabledContextIds = Services::get('context')->getIds([
+  'isEnabled' => true,
+]);
+```
+
+Use the `getMany()` method to retrieve an iterator of objects.
+
+```php
+$contextsIterator = Services::get('context')->getMany([
   'isEnabled' => true,
 ]);
 ```
@@ -46,11 +64,62 @@ $enabledContexts = Services::get('context')->getMany([
 Pass the `count` and `offset` parameters to paginate the results. The example below shows how to get ten items starting with the second page of results.
 
 ```php
-$contexts = Services::get('context')->getMany([
+$contextsIterator = Services::get('context')->getMany([
   'count' => 10,
   'offset' => 10,
 ]);
 ```
+
+The `getCount()`, `getIds()` and `getMany()` methods all accept the same parameters. These are different for each [entity](architecture-entities) and can be discovered by reading the documentation of the service class's `getMany()` method.
+
+The `getMany()` method returns a `DAOResultIterator` (see [Iterators](https://www.php.net/manual/en/class.iterator.php)). Iterators can be used like an array in `foreach` loops:
+
+```php
+$contextsIterator = Services::get('context')->getMany(['isEnabled' => true]);
+$names = [];
+foreach ($contextsIterator as $context) {
+    $names[] = $context->getLocalizedData('name');
+}
+```
+
+However, a `DAOResultIterator` can not be looped over twice. This will cause a fatal error.
+
+```php
+$names = [];
+$paths = [];
+$contextsIterator = Services::get('contexts')->getMany(['isEnabled' => true]);
+foreach ($contextsIterator as $context) {
+    $names[] = $context->getLocalizedData('name');
+}
+// The iterator has already been looped over
+// before so this will cause an error
+foreach ($contextsIterator as $context) {
+    $paths[] = $context->getData('urlPath');
+}
+```
+
+To check if no results have been returned, use `count()` instead of `!empty()`.
+
+```php
+$contextsIterator = Services::get('contexts')->getMany(['isEnabled' => true]);
+if (!empty($contextsIterator)) {
+	// This will always be true
+}
+if (count($contextsIterator)) {
+	// Only true if one or more contexts were found
+}
+```
+
+The `DAOResultIterator` can not be used with the `array_map`, `array_filter` or `array_reduce` functions.
+
+If needed, a `DAOResultIterator` can be converted to an array.
+
+```php
+$contextsIterator = Services::get('contexts')->getMany(['isEnabled' => true]);
+$contexts = iterator_to_array($contextsIterator);
+```
+
+However, this should be avoided unless absolutely necessary. Storing a large collection of objects in memory will slow the application down. If you're not sure, ask a more senior developer on the team.
 
 ### EntityWriteInterface
 
@@ -100,7 +169,7 @@ Services::get('context')->delete($context);
 
 ### EntityPropertyInterface
 
-The `EntityPropertyInterface` provides methods for converting the object into an associative array. This is used before data is returned as JSON in the REST API and CLI.
+The `EntityPropertyInterface` provides methods to convert an object into an associative array. This is used before data is returned as JSON in the REST API and CLI.
 
 Use the `getSummaryProperties()` method to retrieve a summary of the object.
 
@@ -130,16 +199,21 @@ You can ask for the properties you want with the `getProperties()` method.
 $contextProps = Services::get('context')
   ->getProperties(
     $context,
-    ['name', 'path']
+    ['name', 'path', 'url']
     ['request' => Application::get()->getRequest()]
   );
+```
 
-// result:
-//
-// [
-//  ['name' => ['en_US' => 'Journal of Public Knowledge']],
-//  ['path' => 'publicKnowledge']
-// ]
+This will return an associative array.
+
+```
+[
+	'name' => [
+		'en_US' => 'Journal of Public Knowledge'
+	]
+  'path' => 'publicKnowledge',
+	'url' => 'http://localhost:8000/publicknowledge'
+]
 ```
 
 ### Additional Methods

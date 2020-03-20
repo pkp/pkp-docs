@@ -123,29 +123,29 @@ The section below documents how we have modified or extended the json-schema syn
 
 We do not use json-schema's `date` and `date-time` formats. Instead, we use `date-iso` (`YYYY-MM-DD`) and `date-time-iso` (`YYYY-MM-DD HH:MM:SS`) to more strictly match our own date/time handling.
 
-#### `readOnly`
+#### readOnly
 
 Assign this attribute to properties that can not be edited, such as object IDs and URLs.
 
-#### `writeOnly`
+#### writeOnly
 
 Assign this attribute to properties that are used when adding or editing an object but will not be returned when requesting the object.
 
 An example of this attribute is the `temporaryFileId` that is used to save a file but then discarded.
 
-#### `apiSummary`
+#### apiSummary
 
 Assign this attribute to properties that you want to appear in summary views of the object. The summary view is usually used in endpoints that return a list of objects.
 
-#### `defaultLocaleKey`
+#### defaultLocaleKey
 
 Assign this attribute when the property's default value must be localized. The value should match a locale key.
 
-#### `validation`
+#### validation
 
 Assign this attribute to properties that should be validated before being saved to the database. We do not support json-schema's standard validation rules. See [Validation](./utilities-validation).
 
-#### `multilingual`
+#### multilingual
 
 Assign this property to data that can be in more than one locale.
 
@@ -227,7 +227,8 @@ Hooks can be used to add, edit or remove properties of an entity.
 Add an `institutionalHome` property to the `Context` entity.
 
 ```php
-HookRegistry::register('Schema::get::context', function($hookName, $schema) {
+HookRegistry::register('Schema::get::context', function($hookName, $args) {
+	$schema = $args[0];
   $schema->properties->institutionalHome = [
     'type' => 'string',
     'apiSummary' => true,
@@ -239,7 +240,8 @@ HookRegistry::register('Schema::get::context', function($hookName, $schema) {
 Require a journal acronym to be 3 characters or less.
 
 ```php
-HookRegistry::register('Schema::get::context', function($hookName, $schema) {
+HookRegistry::register('Schema::get::context', function($hookName, $args) {
+	$schema = $args[0];
   if (!property_exists($schema->properties, 'acronym')) {
     return;
   }
