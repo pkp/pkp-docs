@@ -64,11 +64,11 @@ Click ‘Save and Continue’ to move to Step 3.
 
 ### Step 3
 
-On **Step 3**, you will be asked to add more information about the submission, including the title of the submission \(broken down into prefix, title, and subtitle\), the abstract, and scrolling down...
+On **Step 3**, you will be asked to add more information about the submission, including the title of the submission \(broken down into prefix, title, and subtitle\), and the abstract. If the journal allows submissions in multiple languages, clicking on each metadata field will reveal the option to enter the metadata in the other languages that are enabled, allowing you to enter the title, subtitle and abstract in the other language(s).  Scrolling down...
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3.png)
+![](./assets/learning-ojs3.2-au-dashboard-new-3.png)
 
-...any additional contributors.
+...you are able to add any additional contributors.
 
 ![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
@@ -84,9 +84,9 @@ If the categories are enabled in the journal you are submitting to, you will be 
 
 ![](./assets/learning-ojs-authoring-category.png)
 
-You may also see additional fields to complete, such as keywords.
+You may also see additional fields to complete, such as keywords. If additional languages are enabled for the journal, you can enter the metadata in these languages. Clicking on the metadata field will reveal the fields for other languages enabled in the journal.
 
-![](./assets/learning-ojs-3-author-submission-step3-4.png)
+![](./assets/learning-ojs-3.2-author-submission-step3-4.png)
 
 To enter keyword, simply type the word or phrase and hit your Enter key. The word or phrase will be formatted as a keyword.
 
@@ -136,9 +136,9 @@ To make edits to your submitted manuscript, click on the publication tab of your
 
 ![](./assets/learning-ojs3.2-auth-dashboard-publication.png)
 
-You will be able to make changes to any of the sub-menus on the left by clicking to those tabs. Click ‘Save’ once you’re done making your changes.
+You will be able to make changes to any of the sub-menus on the left by clicking to those tabs. If multiple languages are enabled for the journal, you will be able to edit metadata in those languages by clicking on the language tab in the top right. Click ‘Save’ once you’re done making your changes.
 
-![](./assets/learning-ojs3.2-auth-dashboard-publication2.png)
+![](./assets/learning-ojs3.2-auth-dashboard-publication2-language.png)
 
 When granted permission, you will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors, and Metadata. While Galleys is listed as an option on the side menu, you will not be able to upload or make changes in this section. 
 
