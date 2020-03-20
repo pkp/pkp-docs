@@ -16,15 +16,15 @@ In this section you can configure copyright and licensing terms for your journal
 
 **Copyright Holder**: Select who holds copyright to the articles published by your journal. The trend in open access publishing is to allow authors to retain copyright of their work.
 
-**License**: Select the license for your journal. CC Attribution 4.0 is a widely used license for open access journals, allowing for maximum sharing and reuse. For definitions of different Creative Commons licenses, see the [Creative Commons website](https://creativecommons.org/). 
+**License**: Select the license for your journal. CC Attribution 4.0 is a widely used license for open access journals, allowing for maximum sharing and reuse. For definitions of different Creative Commons licenses, see the [Creative Commons website](https://creativecommons.org/).
 
 The license you select will be automatically added to each article's metadata and displayed on the article page of each published article.
 
-**Copyright Year**: Select whether you want the copyright year to come by default from the article's publication date or the issue's publication date. 
+**Copyright Year**: Select whether you want the copyright year to come by default from the article's publication date or the issue's publication date.
 
 If you use a continuous publishing model, select the article's publication date. If you use a traditional, issue-based publishing model, select the issue's publication date.
 
-This default can be overridden on a case-by-case basis. 
+This default can be overridden on a case-by-case basis.
 
 **License Terms**: Enter any additional license terms you would like to display alongside the license selected above on the published article page.
 
@@ -45,7 +45,7 @@ Use **Custom Tags** to add custom HTML header tags to the header of every page o
 
 OJS provides the ability to collect online payments and manage subscriptions and author fee payments.
 
-Using the Paypal plugin, you can accept payments through Paypal, or you can accept manual payments (such as cheque, email transfer, etc.), but they must be made outside of OJS and are not automatically recorded in OJS.  If you would like to use a different payment service you will have to create your own plugin.
+Using the PayPal plugin, you can accept payments through PayPal, or you can accept manual payments (such as cheque, email transfer, etc.), but they must be made outside of OJS and are not automatically recorded in OJS.  If you would like to use a different payment service you will have to create your own plugin.
 
 ### Enable Payments
 
@@ -57,9 +57,9 @@ Select the currency you will use.
 
 Select the fee payment method you will use under **Payment Plugins**.
 
-If you select **PayPal Fee Payment**, additional fields will appear. 
+If you select **PayPal Fee Payment**, additional fields will appear.
 
-To accept PayPal payments, you will need to go to Website Settings > Plugins and enable the PayPal Plugin, then do additional setup and configuration explained in the [Paypal Plugin Guide](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/). Through this process you will get the values for the **Account Name**, **Client ID**, and **Secret** fields.
+To accept PayPal payments, you will need to go to Website Settings > Plugins and enable the PayPal Plugin, then do additional setup and configuration explained in the [PayPal Plugin Guide](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/). Through this process you will get the values for the **Account Name**, **Client ID**, and **Secret** fields.
 
 ![](./assets/learning-ojs3.2-jm-settings-dist-paypalsettings.png)
 
@@ -81,7 +81,7 @@ If you plan to make your journal or articles available by subscription, go to Di
 
 ### Donations
 
-In OJS 3.x there is not an option to set up a payment type for donations, to manage donations with the Payments module, or to use the Paypal plugin to accept donations. You can add the Donations block to your sidebar, but it will have to link to an external site where donation payments can be made.
+In OJS 3.x there is not an option to set up a payment type for donations, to manage donations with the Payments module, or to use the PayPal plugin to accept donations. You can add the Donations block to your sidebar, but it will have to link to an external site where donation payments can be made.
 
 ## Access
 
@@ -99,10 +99,11 @@ Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbo
 
 **Enable OAI** will be enabled by default, as this is an important protocol used by indexing services and other applications to harvest your journal's metadata. However, if you are not using OJS to publish your journal's content you may want to disable OAI.
 
-![](./assets/learning-ojs3.2-jm-settings-dist-access-oai.png)
+![](./assets/learning-ojs3.2-jm-settings-dist-oai.png)
 
 ## Archiving
-If you are a member of a LOCKSS or CLOCKSS network, use this tab to activate your journal. The PKP PN Plugin, which deposits your content in the PKP Preservation Network, is not yet available for OJS 3.  
+
+If you are a member of a LOCKSS or CLOCKSS network, use this tab to activate your journal. The PKP PN Plugin, which deposits your content in the PKP Preservation Network, is not yet available for OJS 3.
 
 If you use another network, enabling it here will make your content available to the network, but you will also need to contact the network to make it aware of your journal.
 
