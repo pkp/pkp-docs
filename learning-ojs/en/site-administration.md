@@ -1,6 +1,6 @@
 ---
 book: learning-ojs
-version: current
+version: 3.2
 ---
 # Chapter 4: Site Administration
 

@@ -1,6 +1,6 @@
 ---
 book: learning-ojs
-version: current
+version: 3.2
 ---
 
 # Learning OJS 3.2: A Visual Guide to Open Journal Systems

@@ -1,6 +1,6 @@
 ---
 book: learning-ojs
-version: current
+version: 3.2
 ---
 # Chapter 1: Introduction
 
