@@ -229,11 +229,12 @@ Add an `institutionalHome` property to the `Context` entity.
 ```php
 HookRegistry::register('Schema::get::context', function($hookName, $args) {
 	$schema = $args[0];
-  $schema->properties->institutionalHome = [
-    'type' => 'string',
-    'apiSummary' => true,
-    'validation' => ['nullable']
-  ];
+	$schema->properties->institutionalHome = (object) [
+		'type' => 'string',
+		'apiSummary' => true,
+		'multilingual' => true,
+		'validation' => ['nullable']
+	];
 });
 ```
 
