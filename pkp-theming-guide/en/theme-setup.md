@@ -68,7 +68,7 @@ The `/plugins/themes/tutorial-theme/version.xml` file is required to configure m
     <type>plugins.themes</type>
     <release>1.0.0.0</release>
     <date>2016-11-21</date>
-    <lazy-load>0</lazy-load>
+    <lazy-load>1</lazy-load>
     <class>TutorialThemePlugin</class>
 </version>
 ```

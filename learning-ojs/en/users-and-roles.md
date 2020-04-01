@@ -132,7 +132,7 @@ Roles define what a user can do within the system. An Author can make submission
 
 One user can have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
 
-OJS 3 has multiple roles available, each with different permission levels.
+Here is an example of the roles and respective permission levels in a typical journal workflow:
 
 ![](./assets/learning-ojs3.1-jm-users-roles.png)
 

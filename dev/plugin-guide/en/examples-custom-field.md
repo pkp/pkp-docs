@@ -32,10 +32,12 @@ class InstitutionalHomePlugin extends GenericPlugin {
    */
   public function addToSchema($hookName, $args) {
 		$schema = $args[0];
-    $schema->properties->institutionalHome = new stdObject();
-    $schema->properties->institutionalHome->type = 'string';
-    $schema->properties->institutionalHome->multilingual = true;
-    $schema->properties->institutionalHome->validation = ['nullable'];
+		$schema->properties->institutionalHome = (object) [
+			'type' => 'string',
+			'apiSummary' => true,
+			'multilingual' => true,
+			'validation' => ['nullable']
+		];
   }
 
   /**
