@@ -169,3 +169,32 @@ Sometimes new plugins or plugins that are developed by folks outside of PKP will
 If upload fails you may get an error message that says, “The uploaded plugin archive does not contain a folder that corresponds to the plugin name.” Usually this means you have to change the name of the plugin folder inside the zipped folder to a more simple name. For example, change “translator-ojs-3_0_0-0” to “translator.”
 
 Remember to hit Save to record the change.
+
+## Static Pages
+
+The **Static Pages plugin** allows you to create new pages on your journal website for additional content - for example, you could create a page that details your open access policies.  
+
+To use the Static Pages plugin:
+* Go to Website Settings > Plugins and find the Static Pages plugin
+* Enable the plugin by checking the box beside it
+* Refresh the page in your browser. Now you should see a new tab next to **Plugins** called **Static Pages**.
+* Click the **Static Pages** tab 
+
+![](./assets/learning-ojs3.2-website-settings-static-pages-plugin.png)
+
+* Add a new page by clicking **Add Static Page**. 
+* Fill in the form that opens with the content you want on the page. The **Path** will be used as part of the page URL and the **Title** will appear as the page title. 
+
+![](./assets/learning-ojs3.2-website-settings-add-static-page.png) 
+
+* You can preview the page as you’re working by clicking the **Preview** link at the bottom of the form
+* When you’re finished creating the page, click **Save**
+
+After you create the page you will want to add it to your menu.  Instructions on how to do that are in the above section on **Navigation Menus**.
+
+To edit a page you created with the plugin:
+* Go to Website Settings > Static Pages
+* Click **Edit** next to the page you want to edit
+* You can preview the page as you’re working by clicking the **Preview** link at the bottom of the form
+* When you’re finished editing the page, click **Save**
+
