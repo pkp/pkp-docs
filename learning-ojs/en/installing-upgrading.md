@@ -2,7 +2,7 @@
 book: learning-ojs
 version: 3.2
 ---
-# Chapter 2: Installing and Upgrading
+# Installing and Upgrading
 
 OJS 3 is a PHP web application with standardized install and upgrade processes. These processes are kept as simple as possible, though some general systems administration experience is recommended. 
 

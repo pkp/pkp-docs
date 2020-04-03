@@ -2,7 +2,7 @@
 book: learning-ojs
 version: 3.2
 ---
-# Chapter 15: Reviewing
+# Reviewing
 
 As a reviewer, you will learn of the review request via email or by checking your dashboard:
 

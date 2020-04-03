@@ -2,7 +2,7 @@
 book: learning-ojs
 version: 3.2
 ---
-# Chapter 3: User Accounts
+# User Accounts
 
 OJS uses a comprehensive roles system to divide work between users, assign workflows, and limit access to different parts of the system.
 

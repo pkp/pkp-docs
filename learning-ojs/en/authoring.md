@@ -2,7 +2,7 @@
 book: learning-ojs
 version: 3.2
 ---
-# Chapter 13: Authoring
+# Authoring
 
 In this chapter, you will learn about how an author works in OJS 3.2 from registration through to proofreading the final galley.
 

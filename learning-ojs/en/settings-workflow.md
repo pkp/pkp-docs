@@ -2,7 +2,7 @@
 book: learning-ojs
 version: 3.2
 ---
-# Chapter 7: Workflow Settings
+# Workflow Settings
 
 The Workflow Settings allow you to configure various parts of the journal's editorial workflow. The workflow setting has 4 main tabs.
 

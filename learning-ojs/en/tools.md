@@ -2,7 +2,7 @@
 book: learning-ojs
 version: 3.2
 ---
-# Chapter 11: Tools
+# Tools
 
 The Tools section can be accessed from the left sidebar menu.
 
