@@ -134,6 +134,95 @@ PDFs are also popular with many readers as they most closely recreate the printe
 
 Example (see PDF link at bottom of page): [Irish Journal of Technology Enhanced Learning](http://www.journal.ilta.ie/index.php/telji/article/view/22/51)
 
+#### HTML Files
 
 
+
+#### ePUB Files
+Similar to HTML files, ePub files are ideal for mobile devices but require specialized coding to create. Conversion tools are available, such as [Calibre](https://calibre-ebook.com/). More detailed HOW TO instructions for creating ePub files are [available here](https://www.wikihow.com/Convert-a-Word-Document-to-Epub).
+
+Like HTML files, some additional cleanup may be required after conversion and [require some knowledge](http://www.jedisaber.com/eBooks/Introduction.shtml) of the format.
+
+Example (see EPUB link at bottom of the page): [International Review of Research in Open and Distance Learning](http://www.irrodl.org/index.php/irrodl/article/view/2895)
+
+#### XML Files
+XML files are structured files in which each part of the article is tagged as a distinct element. This allows the reader to easily navigate through and access figures, images, metadata, references, and parts of the article text. Creating XML files is a very efficient way to publish in multiple formats. When you create an XML file, you can then automatically generate PDFs, HTML, ePub, and other formats.
+
+![](./assets/learning-ojs3.2-ed-prod-xmlgalley.png) 
+PKP is developing tools that will allow you to create, convert, and edit XML files within OJS. Currently you need to create and edit the files outside of OJS. If you want to produce XML galley files for your journal, you can use the services of a graphic designer or typesetter, or if you have some XML expertise you can create the files yourself. W3schools has excellent tutorials on XML.
+
+Example [Food and Nutrition Research](https://foodandnutritionresearch.net/index.php/fnr/article/view/3609/10173)
+
+#### Multimedia Files
+
+
+
+### Contact the Author
+Next, you will want to share the PDF with the author for a final look and sign off. To do so, use the **Add Discussion** link in the Production Discussion panel. This will open a new window.
+
+![](./assets/learning-ojs-3.2-le-production-add-participant.png)
+
+Remember to add the author at the top of the window and then add a subject and a message.
+
+Before sending, attach a copy of the PDF file using the **Upload File** link. This will make it available to the author.
+
+![](./assets/learning-ojs-3.2-le-production-add-participant-upload.png)
+
+Remember to select the correct Article Component and then upload the PDF. 
+
+Click **Continue**.
+
+Next, make any changes to the file name (usually you don’t need to do anything here).
+
+![](./assets/learning-ojs-3.2-le-production-add-participant-upload2.png)
+
+Then, you can upload additional files, if necessary.
+
+![](./assets/learning-ojs-3.2-le-production-add-participant-upload3.png)
+
+Once you are done, hit **Complete**.
+
+The file is now attached and you can send the message using the **OK** button.
+
+![](./assets/learning-ojs-3.2-le-production-add-participant2.png)
+
+The Author has now been notified and you can await their response.
+
+### Author Response
+
+Once the author has had a chance to review the galleys and respond, you will receive an email notification and will see a reply in the Production Discussions.
+
+![](./assets/learning-ojs-3.2-au-production-message-reply.png)
+
+### Add Galleys 
+
+Now that the Author has proofread the galleys, you can make any final changes, and then upload them to the submission. To upload galleys, go to the Publication tab, then Galleys.
+
+![](./assets/learning-ojs-3.2-au-production-galleys.png)
+
+Then click **Add galley**, which will open a new window.
+
+![](./assets/learning-ojs-3.2-au-production-galleys-upload1.png)
+
+Add an appropriate label \(e.g., PDF, HTML, etc.\) and click **Save**.
+
+![](./assets/learning-ojs-3.2-au-production-galleys-upload2.png)
+
+From this window, choose the appropriate article componenet \(e.g., article text\) and upload the galley file. Click **Continue**.
+
+![](./assets/learning-ojs-3.2-au-production-galleys-upload3.png)
+
+If necessary, change the filename. Click **Continue**.
+
+![](./assets/learning-ojs-3.2-au-production-galleys-upload4.png)
+
+If you have more files, upload them now. Otherwise click **Complete**.
+
+You can now see the galleys in the Galley panel.
+
+![](./assets/learning-ojs-3.2-au-production-galleys-uploaded.png)
+
+You can make changes to the upload by selecting the blue arrow to the left of the galley label, which reveals options to edit, change the file, or delete.
+
+### Inform the Section Editor
 
