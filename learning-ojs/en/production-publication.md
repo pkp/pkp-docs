@@ -263,4 +263,107 @@ Categories can be used to organize your articles into thematic collections. If y
 
 ![](./assets/learning-ojs3.2-ed-prod-add-to-category.png)
 
+<!---### Extract and Save References--->
+
+## Create Issue
+When you are ready to publish the article, you have to create an issue to publish it in first. Then you will schedule articles for publication in the issue. The articles will not be published until you publish the issue as a whole. This section explains how to create and edit issues.
+
+From the left menu, select Issues to manage all of the issues for your journal.
+
+![](./assets/learning-ojs3.1-jm-issues.png)
+
+You will see tabs for Future Issues and Back Issues. 
+
+**Future Issues** are all of your unpublished issues. You can create as many of these as you wish, and schedule submissions to any of them.
+
+**Back Issues** lists all of your published issues.
+
+![](./assets/learning-ojs3.1-jm-issues-back.png)
+
+To create a new issue, use the **Create Issue** link and fill in the form.
+
+![](./assets/learning-ojs-3-issues-create.png)
+
+There are spaces to add volume, number, year, and title information (e.g., Special Issue #1), as well as a description, cover image, and custom URL. The cover image and description will appear at the top of the issue page on your site, if you add them. If you have volume, number, and title checked off below, you will be required to fill something into each field.
+
+When you’re finished, click **Save**.
+
+### Edit Issue
+You can also edit an existing future issue by selecting the blue arrow to the left of the issue entry on the Future Issues page.
+
+![](./assets/learning-ojs3.1-jm-issues-edit.png)
+
+This will reveal an **Edit** link, which will open a new window of information.
+
+![](./assets/learning-ojs-3-issues-details.png)
+
+**Table of Contents**: For a new issue, this will be empty, but for issues that have had submissions scheduled, they will be listed here.
+
+Use the blue arrow next to each submission to reveal links to go directly to the submission record (more about this in Chapter 10) or remove it.
+
+**Issue Data**: This provides access to the volume, issue, number data you entered when first creating the issue.
+
+**Issue Galleys**: This allows you to upload galley of the complete issue – e.g., one PDF containing all articles. This will be linked from the issue web page.
+
+**Identifiers**: Use this space to add a DOI for the issue, if your journal supports issue-level identifiers.
+
+### Order sections and articles
+When you publish an issue, articles will be displayed under your journal’s sections. 
+
+If you go to Journal Settings > Sections and edit a section, you can configure how it will appear on your published issue page, including whether the title of the section is displayed. 
+
+You can also drag and drop the sections to change the order of how they will appear on your published issue.
+
+If you want to change the order of sections on a per issue basis or the order of articles within a section:
+* Go to **Issues** and open the issue you want to edit
+* Click **Order**
+* Drag and drop the sections and articles where you want them
+* Click **Done** when you are finished
+
+### Preview issue and articles
+If you want to see what your issue and the articles in it will look like on your site before publishing it, you can use the Preview feature:
+* Click the blue arrow next to the future issue
+* Click **Preview** 
+* The issue preview page will open. To preview an article, click the article title in the table of contents.
+
+### Publish issue
+Once you are happy with the issue hit the **Publish Issue** link to publish it on your journal website.
+
+### Notify readers
+By default, all registered users will be notified via email when a new issue is published from the list of Future Issues. 
+
+To not send a notification of a new issue published, uncheck the box beside “Send notification email to all registered users” before pressing OK.
+
+### Unpublish Issue
+Use the **Unpublish Issue** link to remove the issue and all of its content from public view. The issue will revert to the Future Issues tab.
+
+### Delete Issue
+You can use the **Delete** link to remove the issue entirely. Not only will the issue be unpublished, the organizational structure and any issue metadata will also be removed. Any assigned articles will revert to their unpublished status.
+
+## Add the Article to an Issue
+Now that you have created an issue, you can add the article to it. Please note that the article will not be published until the issue is published. In this step you are assigning the article to an issue. 
+
+* Go back to **Submissions**
+* Find and open the submission you want to publish
+* Go to the **Publication** tab > **Issue**
+* In the **Issue** field, select the issue you want to publish the article in
+* The **Section** will be filled in automatically based on the submission metadata but you can change it if needed
+* You can select a **Category** if you haven’t already done so (explained above)
+* If you want an image to appear on the article page, upload it under **Cover Image**
+* You can add **Page Numbers**, which will be included in the metadata and on the table of contents
+* **Date Published** will be set automatically when the issue is published. Do not enter a publication date unless the article was previously published elsewhere and you need to backdate it.
+* Click **Save** when you are finished
+
+![](./assets/learning-ojs3.2-ed-prod-add-to-issue.png)
+
+### Continuous publishing
+OJS is currently designed for a traditional publishing model where articles are published in issues. However, continuous publishing is a popular alternative way to publish scholarly research, in which articles are published as they are ready. You can use a continuous publishing model within OJS.  
+
+You can create an issue with a title like “Current Publications,” publish it, and add articles to it as they become available. The articles will be published immediately on the current issue page of your site. 
+
+When the “Current Publications” issue gets full, you can rename it with an issue number (e.g., Vol 1, Issue )] and create a new “Current Publications” issue for the next batch of new articles.
+
+If you would like to notify your readers when each new article is published, you will have to create an individual **Announcement**, as the automatic notification message for a new publication can only be sent when a new issue is published. See the [Website Settings chapter](./settings-website.md#announcements) for information about Announcements.
+
+
 
