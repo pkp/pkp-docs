@@ -330,9 +330,11 @@ If you want to see what your issue and the articles in it will look like on your
 Once you are happy with the issue hit the **Publish Issue** link to publish it on your journal website.
 
 ### Notify readers
-By default, all registered users will be notified via email when a new issue is published from the list of Future Issues. 
+You will have the option to send a notification to users about the new issue. 
 
-To not send a notification of a new issue published, uncheck the box beside “Send notification email to all registered users” before pressing OK.
+To not send a notification of a new issue published, uncheck the box beside “Send notification email to all registered users” before pressing **OK**.
+
+The content of the announcement is generated automatically and cannot be edited. You can alternatively use the [Announcements](./settings-website.md#announcements) feature to send a publication announcement with customized content.
 
 ### Unpublish Issue
 Use the **Unpublish Issue** link to remove the issue and all of its content from public view. The issue will revert to the Future Issues tab.
@@ -364,6 +366,38 @@ You can create an issue with a title like “Current Publications,” publish it
 When the “Current Publications” issue gets full, you can rename it with an issue number (e.g., Vol 1, Issue )] and create a new “Current Publications” issue for the next batch of new articles.
 
 If you would like to notify your readers when each new article is published, you will have to create an individual **Announcement**, as the automatic notification message for a new publication can only be sent when a new issue is published. See the [Website Settings chapter](./settings-website.md#announcements) for information about Announcements.
+
+## Schedule for Publication
+
+The next step is to schedule the article for publication. Although the article will not be published until the issue it is assigned to is published, the Schedule for Publication step is the final step in confirming that the article is ready to be published. 
+
+Only a Journal Editor can schedule an article for publication, not a Section Editor or Guest Editor. 
+
+The article must have been assigned to an issue and passed the Review stage in order to be able to schedule it for publication.
+
+When you are ready to publish the article:
+* Open the submission
+* Go to the **Publication** tab 
+* Click the blue **Schedule for Publication** button.
+
+![](./assets/learning-ojs3.2-ed-prod-schedule-for-pub.png)
+
+A message will pop up that confirms you want to schedule the article for publication. Click **Publish**. 
+
+## Schedule for individual publications
+In previous versions of OJS, an article would be assigned to an issue and would be published when that issue was published. In OJS 3.2, it is now possible to set a specific publication date for each publication. 
+
+To do this, under the **Publication** tab of the manuscript, go to **Issues**.
+
+Under **Date Published** you can enter the publication date if it is different from the issue publication date. If not, leave this blank. 
+
+![](./assets/learning-ojs-3.2-ed-production-schedule-individual.png)
+
+In order to schedule an individual publication, it must be assigned to an issue and have passed the review stage.
+
+If the date is set to a future date, the publication should be published when the scheduled task runs for that date. 
+
+If the scheduled manuscript is unscheduled from the issue, the previously scheduled date should not change.
 
 
 
