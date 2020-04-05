@@ -41,16 +41,16 @@ Use this tab to add or edit article keywords.
 If any changes are made, click Save before exiting this window.
 
 **Identifiers**
-Use the Identifiers tab to view or add a unique identifier, such as a DOI.
+Use the Identifiers tab to view or add a unique identifier, such as a DOI. More information about assigning and managing DOIs is available in the [DOI Plugin Guide](https://docs.pkp.sfu.ca/doi-plugin/en/).  
 
 **Galleys**
-Use the Galleys tab to upload the final file for publication. 
+Use the Galleys tab to upload the final file for publication. This is explained below.
 
 **Permissions & Disclosure**
-Include details about the copyright holder and link to the article license, if applicable.
+Include details about the copyright holder and link to the article license, if applicable. This will be automatically filled in according to your [Distribution Settings](./settings-distribution.md).  
 
 **Issues**
-Use the Issues tab to assign the article to a journal issue.
+Use the Issues tab to assign the article to a journal issue. This is explained below.
 
 ### Multilingual submissions
 
@@ -225,4 +225,42 @@ You can now see the galleys in the Galley panel.
 You can make changes to the upload by selecting the blue arrow to the left of the galley label, which reveals options to edit, change the file, or delete.
 
 ### Inform the Section Editor
+Finally, you will need to inform the Section Editor that the galleys have been completed. To do so, use the Production Discussion panel and choose the **Add Discussion** link.
+
+![](./assets/learning-ojs-3.2-au-production-galleys-complete.png)
+
+Add the Section Editor to the top of the page, and then include a subject line and message. Click **OK** to send the message.
+
+You can now see the final discussion.
+
+![](./assets/learning-ojs-3.2-au-production-galleys-discussions.png)
+
+### Section Editor Informs Editor
+
+At this point, the Section Editor receives the notification from the Layout Editor and reviews the galley files.
+
+They can either ask the Layout Editor to make additional changes \(using the Production Discussions\) or inform the Editor that the galleys are ready for publication.
+
+To inform the Editor, use the Production Discussion panel's **Add Discussion** link.
+
+The next step in publishing the submission is to check and finalize the metadata. 
+
+## Finalize metadata
+
+Before publishing the submission, you should check that the metadata for the article is complete and accurate in OJS and matches the metadata on the PDF. This is important for ensuring that the content is indexed by Google Scholar, discoverable by other services, and accessible to readers.
+
+You can check the metadata for the submission by going to **Submissions**, opening the submission, going to the **Publication** tab, and checking the **Title**, **Contributors**, and **Metadata** tabs.
+
+At this point you can also add the article to a category to display it on a thematic category page on your site and extract and save references (if you have not already).
+
+### Add the Article to a Category
+Categories can be used to organize your articles into thematic collections. If you use categories in your journal, you can optionally add the article to a category or categories. For instructions on how to create categories see the [Journal Settings chapter](./journalsetup.md). You can add the article to a category by editing its metadata.
+
+* In the article submission, go to the **Publication** tab
+* Click **Issue**
+* In the **Categories** box, check the category or categories that you want to add the article to
+* Click **Save**
+
+![](./assets/learning-ojs3.2-ed-prod-add-to-category.png)
+
 
