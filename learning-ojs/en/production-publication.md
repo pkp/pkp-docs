@@ -399,5 +399,45 @@ If the date is set to a future date, the publication should be published when th
 
 If the scheduled manuscript is unscheduled from the issue, the previously scheduled date should not change.
 
+## Versioning of articles
+
+An ability to publish versions of articles is one of the major new features in OJS 3.2. 
+
+Once an article is published, neither metadata nor galleys can be edited. When a revision of a published article or metadata is necessary, it can be done in one of two ways:
+
+![](./assets/learning-ojs-3.2-ed-production-versioning-ways.png)
+
+Option 1: Unpublish and republish
+
+Unpublishing an article allows you to make changes without creating a new version. After unpublishing, you can update metadata and/or replace the galley file and schedule the article for publication again. If scheduled into a published issue, it will become available right away. No notification will be sent to readers, since the notification is sent when an issue is published, not for an individual article.
+
+Option 2: Create new version
+
+When creating a new version, you will be able to make changes to the metadata and/or galley files. Make sure to click **Save** on the bottom right to record the changes.
+
+You can keep track of version updates under **All Versions**. Each version is marked by a number and date published. The version currently being updated is marked by a number and **Unpublished**.
+
+![](./assets/learning-ojs-3.2-ed-production-all-versions.png)
+
+Once your changes are completed, you can publish the new version by clicking **Publish** on the top right. If scheduled into a published issue, it will become available right away. No notification will be sent to readers since the notification is sent when an issue is published, not for an individual article.
+
+The list of prior versions and update dates will be listed on the published article page.
+
+![](./assets/learning-ojs-3.2-ed-production-published-versions.png)
+
+Readers will be able to access previous versions. They will see a message on the article and galley pages advising them that it is an outdated version and pointing them to the most recent version.
+
+Example of an outdated version message on the article page:
+
+![](./assets/learning-ojs-3.2-ed-production-outdated-version.png)
+
+Example of an outdated version message on the PDF galley page:
+
+![](./assets/learning-ojs-3.2-ed-production-outdated-pdf.png)
+
+The article URL will always point to the most recent version, with earlier versions being available at the same URL with  the version at the end of the URL (e.g. /version/1234/). 
+
+Where a DOI was assigned to the original version, it will not be changed automatically. Previously deposited CrossRef metadata will not be automatically updated. If article metadata was changed, we recommend updating CrossRef metadata in the CrossRef XML Export Plugin by manually depositing the updated article. For instructions on how to manually deposit an article see the PKP’s [CrossRef Plugin Guide - Manual Deposits](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits).
+
 
 
