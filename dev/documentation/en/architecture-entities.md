@@ -227,19 +227,22 @@ Hooks can be used to add, edit or remove properties of an entity.
 Add an `institutionalHome` property to the `Context` entity.
 
 ```php
-HookRegistry::register('Schema::get::context', function($hookName, $schema) {
-  $schema->properties->institutionalHome = [
-    'type' => 'string',
-    'apiSummary' => true,
-    'validation' => ['nullable']
-  ];
+HookRegistry::register('Schema::get::context', function($hookName, $args) {
+	$schema = $args[0];
+	$schema->properties->institutionalHome = (object) [
+		'type' => 'string',
+		'apiSummary' => true,
+		'multilingual' => true,
+		'validation' => ['nullable']
+	];
 });
 ```
 
 Require a journal acronym to be 3 characters or less.
 
 ```php
-HookRegistry::register('Schema::get::context', function($hookName, $schema) {
+HookRegistry::register('Schema::get::context', function($hookName, $args) {
+	$schema = $args[0];
   if (!property_exists($schema->properties, 'acronym')) {
     return;
   }

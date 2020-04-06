@@ -67,7 +67,7 @@ O arquivo `/plugins/themes/tutorial-theme/version.xml` é obrigatório para conf
     <type>plugins.themes</type>
     <release>1.0.0.0</release>
     <date>2016-11-21</date>
-    <lazy-load>0</lazy-load>
+    <lazy-load>1</lazy-load>
     <class>TutorialThemePlugin</class>
 </version>
 ```
@@ -121,5 +121,5 @@ _Caso não tenha certeza sobre o que se trata o arquivo LESS leia a seção CSS/
 
 Esta parte do guia de customização de temas introduziu a estrutura de um tema para OJS ou OMP. Mas existe muito mais que você pode fazer e experimentar com a [API de Tema](theme-api.md).
 
-Continue a ler para mais dicas práticas sobre como usar [Temas Filhos(_Child Themes_)](child-themes.md), a documentação completa de [API de Tema](theme-api.md) e a [API de Opções de Tema(_Theme Options API_)](theme-options-api.md). Assim como também estarão disponíveis links para exemplos existentes de temas personalizados "na natureza". 
+Continue a ler para mais dicas práticas sobre como usar [Temas Filhos(_Child Themes_)](child-themes.md), a documentação completa de [API de Tema](theme-api.md) e a [API de Opções de Tema(_Theme Options API_)](theme-options-api.md). Assim como também estarão disponíveis links para exemplos existentes de temas personalizados "na natureza".
 

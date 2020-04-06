@@ -37,7 +37,7 @@ apps:
     title: Open Journal Systems 2
     titleShort: OJS 2
     includeInHero: true
-    description: "Help guides for older versions of our journal management software. We recommend you [upgrade to OJS 3](/upgrading-ojs-2-to-3/en)."
+    description: "Help guides for older versions of our journal management software. We recommend you [upgrade to OJS 3](/upgrading-ojs-2-to-3/)."
     cards:
         - path: upgrading-guide
         - path: learning-ojs-2

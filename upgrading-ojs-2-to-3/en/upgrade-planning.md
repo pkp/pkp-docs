@@ -4,19 +4,20 @@ Once you have reviewed the features of OJS 3 and decided you want to proceed wit
 
 The major steps in completing an upgrade are as follows:
 1. Decide if and when you’re ready to upgrade to OJS 3
-2. Communicate about the upgrade with your editorial team or journal contacts
-3. Ensure that your server meets the requirements of OJS 3 and modify if necessary
-4. Do an inventory
-5. Clean up existing user database
-6. Perform a sandbox or test upgrade
-7. Evaluate, test, and troubleshoot your sandbox OJS 3 site
-8. Plan for new theming/look and feel of the journal
-9. Confirm your team is ready for the production upgrade
-10. Schedule the production upgrade
-11. Set content freeze dates if necessary
-12. Perform the production upgrade
-13. Evaluate, test, and troubleshoot your new OJS 3 site
-14. Training and setup
+2. Decide which version of OJS 3 to upgrade to
+3. Communicate about the upgrade with your editorial team or journal contacts
+4. Ensure that your server meets the requirements of OJS 3 and modify if necessary
+5. Do an inventory
+6. Clean up existing user database
+7. Perform a sandbox or test upgrade
+8. Evaluate, test, and troubleshoot your sandbox OJS 3 site
+9. Plan for new theming/look and feel of the journal
+10. Confirm your team is ready for the production upgrade
+11. Schedule the production upgrade
+12. Set content freeze dates if necessary
+13. Perform the production upgrade
+14. Evaluate, test, and troubleshoot your new OJS 3 site
+15. Training and setup
 
 This chapter focuses on the initial planning and human resources steps of the upgrade process. The next chapter covers technical steps.
 
@@ -29,6 +30,10 @@ Development of OJS is ongoing and new versions with new features are released ev
 * If a version of OJS 3 meets your needs, it’s time to prepare your journal teams for the upgrade. This can involve editorial, technical, and human resources support. You will need to coordinate the timing of the upgrade with everyone involved with the journal. The best general time to upgrade is when the journal is not in an active phase of the publishing cycle, and the specific time of the upgrade should be scheduled when all team members are available to perform the upgrade itself and to review the journal immediately after the upgrade for problems and to make any necessary changes.
 
 For additional resources outlining the new features in OJS 3 and upgrade-related documents, see the Additional Resources section at the end of this guide.
+
+## Decide which version of OJS 3 to upgrade to
+
+Generally you should upgrade to the latest version of OJS. However, if the latest version is a new major release (e.g., OJS 3.1.0, OJS 3.2.0), you may want to wait until the next minor release is available (e.g., OJS 3.1.0-1; OJS 3.2.0-1) because usually a new major release has a few unexpected bugs that will be fixed in the first minor release that follows. Check the [https://pkp.sfu.ca/category/news/](PKP website) for news about releases when making this decision.
 
 ## Plan your upgrade
 
