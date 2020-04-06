@@ -21,11 +21,9 @@ In the **Production** tab, you can assign participants (such as a Layout Editor)
 ## Publication Tabs
 Everything related to publishing a submission is done under the Publication tab. The Publication tab allows you to edit or add information about the submission, including contributors, metadata, and identifiers. It is also where you will upload the final Galley files for publication in the journal.
 
-![](./assets/learning-ojs3.2-ed-prod-publication-tab.png)
+![](./assets/learning-ojs-3.2-production-publication-tab.png)
 
 Here is an overview of what the different tabs in this section are for. Detailed instructions on some of these are available later in the chapter.
-
-learning-ojs-3.2-production-publication-tab.png
 
 **Title & Abstract**
 Use this tab to edit the article title, subtitle, and abstract.
@@ -149,6 +147,7 @@ Example (see EPUB link at bottom of the page): [International Review of Research
 XML files are structured files in which each part of the article is tagged as a distinct element. This allows the reader to easily navigate through and access figures, images, metadata, references, and parts of the article text. Creating XML files is a very efficient way to publish in multiple formats. When you create an XML file, you can then automatically generate PDFs, HTML, ePub, and other formats.
 
 ![](./assets/learning-ojs3.2-ed-prod-xmlgalley.png) 
+
 PKP is developing tools that will allow you to create, convert, and edit XML files within OJS. Currently you need to create and edit the files outside of OJS. If you want to produce XML galley files for your journal, you can use the services of a graphic designer or typesetter, or if you have some XML expertise you can create the files yourself. W3schools has excellent tutorials on XML.
 
 Example [Food and Nutrition Research](https://foodandnutritionresearch.net/index.php/fnr/article/view/3609/10173)
@@ -160,13 +159,13 @@ Example [Food and Nutrition Research](https://foodandnutritionresearch.net/index
 ### Contact the Author
 Next, you will want to share the PDF with the author for a final look and sign off. To do so, use the **Add Discussion** link in the Production Discussion panel. This will open a new window.
 
-![](./assets/learning-ojs-3.2-le-production-add-participant.png)
+![](./assets/learning-ojs-3-le-production-add-participant.png)
 
 Remember to add the author at the top of the window and then add a subject and a message.
 
 Before sending, attach a copy of the PDF file using the **Upload File** link. This will make it available to the author.
 
-![](./assets/learning-ojs-3.2-le-production-add-participant-upload.png)
+![](./assets/learning-ojs-3-le-production-add-participant-upload.png)
 
 Remember to select the correct Article Component and then upload the PDF. 
 
@@ -174,17 +173,17 @@ Click **Continue**.
 
 Next, make any changes to the file name (usually you don’t need to do anything here).
 
-![](./assets/learning-ojs-3.2-le-production-add-participant-upload2.png)
+![](./assets/learning-ojs-3-le-production-add-participant-upload2.png)
 
 Then, you can upload additional files, if necessary.
 
-![](./assets/learning-ojs-3.2-le-production-add-participant-upload3.png)
+![](./assets/learning-ojs-3-le-production-add-participant-upload3.png)
 
 Once you are done, hit **Complete**.
 
 The file is now attached and you can send the message using the **OK** button.
 
-![](./assets/learning-ojs-3.2-le-production-add-participant2.png)
+![](./assets/learning-ojs-3-le-production-add-participant2.png)
 
 The Author has now been notified and you can await their response.
 
@@ -192,7 +191,7 @@ The Author has now been notified and you can await their response.
 
 Once the author has had a chance to review the galleys and respond, you will receive an email notification and will see a reply in the Production Discussions.
 
-![](./assets/learning-ojs-3.2-au-production-message-reply.png)
+![](./assets/learning-ojs-3-au-production-message-reply.png)
 
 ### Add Galleys 
 
@@ -202,19 +201,19 @@ Now that the Author has proofread the galleys, you can make any final changes, a
 
 Then click **Add galley**, which will open a new window.
 
-![](./assets/learning-ojs-3.2-au-production-galleys-upload1.png)
+![](./assets/learning-ojs-3-au-production-galleys-upload1.png)
 
 Add an appropriate label \(e.g., PDF, HTML, etc.\) and click **Save**.
 
-![](./assets/learning-ojs-3.2-au-production-galleys-upload2.png)
+![](./assets/learning-ojs-3-au-production-galleys-upload2.png)
 
 From this window, choose the appropriate article componenet \(e.g., article text\) and upload the galley file. Click **Continue**.
 
-![](./assets/learning-ojs-3.2-au-production-galleys-upload3.png)
+![](./assets/learning-ojs-3-au-production-galleys-upload3.png)
 
 If necessary, change the filename. Click **Continue**.
 
-![](./assets/learning-ojs-3.2-au-production-galleys-upload4.png)
+![](./assets/learning-ojs-3-au-production-galleys-upload4.png)
 
 If you have more files, upload them now. Otherwise click **Complete**.
 
@@ -227,13 +226,13 @@ You can make changes to the upload by selecting the blue arrow to the left of th
 ### Inform the Section Editor
 Finally, you will need to inform the Section Editor that the galleys have been completed. To do so, use the Production Discussion panel and choose the **Add Discussion** link.
 
-![](./assets/learning-ojs-3.2-au-production-galleys-complete.png)
+![](./assets/learning-ojs-3-au-production-galleys-complete.png)
 
 Add the Section Editor to the top of the page, and then include a subject line and message. Click **OK** to send the message.
 
 You can now see the final discussion.
 
-![](./assets/learning-ojs-3.2-au-production-galleys-discussions.png)
+![](./assets/learning-ojs-3-au-production-galleys-discussions.png)
 
 ### Section Editor Informs Editor
 
