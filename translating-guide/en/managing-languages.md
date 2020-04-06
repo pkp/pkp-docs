@@ -1,3 +1,7 @@
+---
+book: translating-guide
+version: 3.2
+---
 # Managing Languages in PKP Software
 
 ## How Languages and Locales Work
@@ -23,7 +27,7 @@ msgstr "By Issue"
 When the system needs to display a piece of text, it first determines which language should be displayed. The language used comes from, in order of preference:
 * The language the user has selected within the UI, if multiple options are enabled
 * The default language of the "context" (that's the journal in OJS, the press in OMP, or the server in OPS)
-* The detault language of the site
+* The default language of the site
 
 Once the system knows which language to display to the user it grabs the message key value from the locale file that belongs to that specific translation: that is, if it needs to display the text relevant to `msgid "navigation.journalHelp"` from the above example, and knows that it should display this in English, it will look in `locale/en_US/locale.po` for the appropriate key value, in this case "Journal Help". If the message key doesn't exist (if the locale file is missing that particular key, or doesn't exist on the system in the first place), the system will display the raw message key surrounded by hash marks: `##navigation.journalHelp##`
 

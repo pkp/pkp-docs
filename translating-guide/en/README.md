@@ -1,3 +1,7 @@
+---
+book: translating-guide
+version: 3.2
+---
 
 # PKP Translating Guide
 

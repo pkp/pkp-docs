@@ -1,3 +1,7 @@
+---
+book: translating-guide
+version: 3.2
+---
 # Introduction
 
 OJS, OMP, and other PKP software applications are multilingual. This allows the software interface to be available in different languages and allows journals and presses to publish in a variety of languages. The Public Knowledge Project aims to support English, French, Spanish, and Portuguese translations for each application. Community members have translated the software into many additional languages and we welcome contributions at any time.

@@ -1,3 +1,7 @@
+---
+book: translating-guide
+version: 3.1
+---
 # Additional information and community
 
 The [PKP Wiki for Translations](3-1-wiki) is being migrated to new systems, and content will be moved to this document, to GitHub, and to the PKP Website.

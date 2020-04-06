@@ -1,3 +1,7 @@
+---
+book: translating-guide
+version: 3.2
+---
 # Translating PKP Software
 
 Starting with OJS/OMP 3.2, we are using the web-based translation tool [Weblate](https://weblate.org/en/) to manage translations of OJS and OMP. 

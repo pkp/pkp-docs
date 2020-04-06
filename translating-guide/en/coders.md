@@ -1,3 +1,7 @@
+---
+book: translating-guide
+version: 3.2
+---
 # Localization for Developers
 
 This page describes the motivations and policies that are used in PKP
