@@ -43,15 +43,15 @@ The first place to check on language availability is from within the software in
 
 If you have more than one context (journal, server or press) installed, the Site Administrator controls what languages are available for to each
 context. Navigate to Administration, Settings, and Languages. Installed languages are listed here with an checkbox option to enable or disable the language sitewide.
-    
+
 For each context, the Manager controls the settings within that context by navigating to Settings > Website > Setup > Languages. Each language can be enabled for the UI, for Forms, and for Submissions.
-    
+
 * UI: Controls the user interface languages available in the front-end and in the back end. Enabling a language for the UI will allow users to select the language of the application interface. For example, buttons, page titles, and on-screen messages will be in the user's selected language.
-         
+
 * Forms: Controls the data entry forms for the application. Enabling a language for forms will allow text boxes to support multilingual data entry. For example, configuration settings and metadata can be entered in multiple languages.
-         
+
 * Submissions: Controls what languages are accepted for submission of manuscripts to the system. Enabling a language for Submissions will allow the author to select that language as representing the uploaded submission document.
-         
+
 ### Check the PKP Website for Available Languages
 
 The PKP keeps an up-to-date list of languages and contributors from the relevant project page:
