@@ -459,6 +459,8 @@ If you want to see what your issue and the articles in it will look like on your
 * Click **Preview** 
 * The issue preview page will open. To preview an article, click the article title in the table of contents.
 
+![](./assets/learning-ojs-3.2-ed-production-publish-issue.png)
+
 ### Publish Issue
 
 Once you are happy with the issue hit the **Publish Issue** link to publish it on your journal website.
@@ -468,6 +470,8 @@ Once you are happy with the issue hit the **Publish Issue** link to publish it o
 You will have the option to send a notification to users about the new issue. 
 
 To not send a notification of a new issue published, uncheck the box beside “Send notification email to all registered users” before pressing **OK**.
+
+![](./assets/learning-ojs-3.2-ed-production-reader-notify.png)
 
 The content of the announcement is generated automatically and cannot be edited. You can alternatively use the [Announcements](./settings-website.md#announcements) feature to send a publication announcement with customized content.
 
