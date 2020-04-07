@@ -105,6 +105,14 @@ When you upload a galley file, you will need to select a **Component Type**. The
 * Supplementary: The link will appear on the article landing page
 * Neither supplementary nor dependent: The link will appear on the article landing page and in the table of contents
 
+For example, if you want to embed multimedia files in HTML files and have these appear on the landing page, the issue page, and the submission page, you would configure the settings as follows:
+
+* Go to Settings > Workflow > Submission > **Components** tab
+* Click the blue arrow next to **HTML Stylesheet** and **Edit**
+* Uncheck “Mark files of this type as dependent files” and “Mark files of this type as supplementary files”. Click **Save**.
+* Click the blue arrow next to **Multimedia** and **Edit**
+* Uncheck “Mark files of this type as supplementary files.” Leave “Dependent files” checked off. Click **Save**.
+
 #### Galley file formats
 Online journals publish their articles in a variety of file types. The most common are PDF and HTML, but increasingly additional formats are being used, such as ePub, MP3, and XML. 
 
@@ -133,8 +141,88 @@ PDFs are also popular with many readers as they most closely recreate the printe
 Example (see PDF link at bottom of page): [Irish Journal of Technology Enhanced Learning](http://www.journal.ilta.ie/index.php/telji/article/view/22/51)
 
 #### HTML Files
+HTML files have the advantage of flexibility. They handle linking and multimedia very well, and can fit on just about any screen - including phones and tablets. They do, however, look different than a printed page, so some readers prefer a PDF. The ideal situation is to provide both PDF and HTML files to best meet the needs of different users.
 
+Creating an HTML file can require more time and effort than creating PDF files. Word processors do not have effective tools for doing a “Save As” to HTML. Microsoft Word tries to do this, but the results are not useful for uploading to OJS. Instead, try following this workflow:
+* Convert the Word document. You can use this [free online tool](https://word2cleanhtml.com/) to do an initial conversion.
+* Open the resulting HTML files in a text editor (e.g., NotePad in Windows) or HTML editor (e.g., Adobe Dreamweaver). From here, you will need to make any final clean up or formatting. Understanding the basics of HTML is required. There are many [free tutorials](https://www.w3schools.com/html/), but it does take some time.
+* Keep the HTML formatting basic. Just focus on paragraphs, line breaks, headings, and links. Don’t worry about fonts, colours, or other design elements - OJS will take care of all of that automatically as part of the overall journal design.
+* Upload to OJS as an HTML galley file
+* The HTML viewer renders HTML files within an iframe, which may affect navigation to hyperlinked web pages. You can bypass this feature by opening hyperlinks in a new browser tab, by adding the target="_blank" attribute to your href tags. 
 
+A few example HTML templates can be found and adapted from these sources: 
+* [Resource by U of A](https://drive.google.com/file/d/1mCP0tguFJf7jJn_CNceEwvRn5eCJrvxP/view) - License: CC0 1.0 Universal (CC0 1.0)
+ 
+Examples (see HTML link at bottom of the page): 
+* [Cultural Anthropology](https://journal.culanth.org/index.php/ca/article/view/4434)
+* [Evidence Based Library & Information Practice](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621)
+
+##### Style HTML galley files
+It is possible to style the design of your HTML galley files in bulk or on an individual per-article basis. Styling in bulk can only be done if you are using a custom theme. 
+
+To style an individual HTML galley file:
+* While creating the HTML galley file, ensure that it includes a reference to the stylesheet in the <head> section, e.g. <link rel="stylesheet" href="./article_styles.css" type="text/css" />
+* Upload the HTML galley file (see below for instructions on how to **Add Galley Files**) 
+* Edit the galley file
+* Upload the CSS stylesheets with the appropriate **Component Type - HTML Stylesheet**
+
+To style all HTML galley files:
+If you are using a custom theme plugin, you can write a line of code to include a custom style for all HTML galleys. This will only apply to HTML galley files that do not have a style applied individually. More information on custom theming is available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+
+##### Add images and multimedia to an HTML Galley
+If you would like to include images or multimedia files in an HTML galley file, you can upload them as Dependent Files to the submission, and link to them within the file to display them.
+
+Before beginning the item upload, you will need an HTML page containing one of the following:
+* <audio controls> element (for MP3)
+* <video> element (for MP4), or 
+* <img src=”imagename”> tag for images
+  
+The HTML page should also contain the exact name of the file you are connecting to. 
+
+You will need to save the audio / video / image file in MP3 / MP4 / JPEG / GIF format using the name in the HTML page. 
+
+Your HTML file will need to contain the following minimum code (for audio files). For the related video or image file code, please see the w3schools instructions on embedding video in HTML or instructions on embedding images in HTML.
+
+```
+<html>
+<head>
+<title>MP3 upload</title>
+</head>
+<body>
+<audio controls>
+  <source src="filename.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+</body>
+</html>
+```
+
+In OJS you will need to configure the settings for your Component Types before adding multimedia files. See **Galley File Component Types** above for details about adjusting these settings.
+
+Make sure you have “Multimedia” and / or “Image” files configured as “dependent files” in the Component Type settings. 
+
+![](./assets/learning-ojs3.2-ed-prod-multimedia-component-edit.png)
+
+Now go back to the submission to upload an HTML stylesheet to display your multimedia file. See below for instructions on how to **Add  galley files**. In addition, when you upload the file:
+* Label the galley according to the multimedia file type (e.g., MP3, MP4, Image)
+* Select **HTML Stylesheet** from the **Article Component** dropdown
+* Upload the HTML file you prepared with at least the minimum code (instructions above)
+* Click **Continue**
+* In the **Review Details** tab you can upload Dependent Files. This is where you will upload the MP3 / MP4 / image file. 
+
+![](./assets/learning-ojs3.2-ed-prod-multimed-dep-file.png)
+
+Select **Multimedia** or **Image** from the **Article Component** drop-down menu, and upload the MP3, MP4, or image file.
+
+![](./assets/learning-ojs3.2-ed-prod-upload-multimedia.png)
+
+When uploading an image file you will be asked to add a Caption, Credit, Copyright Owner, and Permission Terms, as applicable.
+
+![](./assets/learning-ojs3.2-ed-prod-image-details.png)
+
+Click **Continue** to complete the upload, review the details, and confirm. Your multimedia file has now been added as a dependent file along with the HTML, and will be embedded in the HTML when the item is published.
+
+![](./assets/learning-ojs3.2-ed-prod-upload-video-dependent.png)
 
 #### ePUB Files
 Similar to HTML files, ePub files are ideal for mobile devices but require specialized coding to create. Conversion tools are available, such as [Calibre](https://calibre-ebook.com/). More detailed HOW TO instructions for creating ePub files are [available here](https://www.wikihow.com/Convert-a-Word-Document-to-Epub).
@@ -153,8 +241,32 @@ PKP is developing tools that will allow you to create, convert, and edit XML fil
 Example [Food and Nutrition Research](https://foodandnutritionresearch.net/index.php/fnr/article/view/3609/10173)
 
 #### Multimedia Files
+It is becoming increasingly popular for journals to publish multimodal content, including audio and video files, in addition to text-based articles. In addition to providing audio and visual formats for text-based articles, which can help to increase the accessibility of journal content, multimodal content is increasingly [valued as an alternative form of scholarship](https://www.tandfonline.com/doi/full/10.1080/07294360.2017.1389857?casa_token=QlJ8xBTQUEMAAAAA%3AWDkOV6R-qfZxJBimLv_Jv4iB3o2XYeA-Cym7uxHoCww9THLVmZFVfKmRP3dtqq098HvYG6kqTl_v) which represents and reflects different modes of expression and ways of knowing. Journals that choose to create audio versions of text-based articles may choose to do so manually, by having someone read the article into a voice recorder, or automatically using Text to Speech software.
 
+Multimedia files can be embedded into the article page on your journal site, or can be linked to  from an external site, such as YouTube or Soundcloud. If you use an external site, the quality may be better, but statistics will not be collected on galley views or downloads, and preservation of the content is dependent on the external site.
 
+When uploading a multimedia file, you can select “article text” from the component list and upload the file (MP3, MP4, image file, etc) directly. This will allow the user to access the file using the image viewing software or the audio / video playing software installed on their device. 
+
+Example (see MP3 link in side menu at bottom of the page): [International Review of Research in Open and Distance Learning](http://www.irrodl.org/index.php/irrodl/article/view/3279)
+
+Alternatively, you can embed the audio, video, or image file in an HTML page so that users can view the file directly in their browser. See **Add images and multimedia to an HTML galley** above for instructions on how to do this. 
+
+Example: [Intersectional Apocalypse](https://journals.lib.sfu.ca/index.php/ifj/article/view/673)
+
+##### Upload a multimedia file linked from an external site
+Upload the multimedia galley file in the Production stage of the workflow. See below for instructions on how to **Add Galley Files**. In addition, when you upload the file:
+* Label the galley according to the multimedia file type (e.g., MP3 / MP4)
+* Check the box indicating “This galley will be available at a separate website”
+
+![](./assets/learning-ojs3.2-ed-prod-upload-video-youtube.png)
+
+To get the URL, locate the video or audio in YouTube, SoundCloud, etc., then click **Share** and copy the URL.
+
+![](./assets/learning-ojs3.2-ed-prod-share-youtube.png)
+
+Paste the URL into the remote galley field and click **Save**.
+
+The video should now appear in the published submission.
 
 ### Contact the Author
 Next, you will want to share the PDF with the author for a final look and sign off. To do so, use the **Add Discussion** link in the Production Discussion panel. This will open a new window.
@@ -193,7 +305,7 @@ Once the author has had a chance to review the galleys and respond, you will rec
 
 ![](./assets/learning-ojs-3-au-production-message-reply.png)
 
-### Add Galleys 
+### Add Galley Files
 
 Now that the Author has proofread the galleys, you can make any final changes, and then upload them to the submission. To upload galleys, go to the Publication tab, then Galleys.
 
