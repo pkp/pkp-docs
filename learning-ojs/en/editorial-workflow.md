@@ -152,12 +152,12 @@ Use the Notes tab to also view or add any editorial notes.
 
 **Submission Library**: The Submission Library is a general storage area for documents that may include conflict-of-interest forms, galley approval forms, etc. A user can upload the completed form for their manuscript in their Submission Library. The uploaded forms will also be available to other participants (with the exception of Reviewers) assigned throughout the editorial or production workflow to edit or re-upload new versions.
 
-**Document Library**: Users throughout the editorial workflow will be able to access all the files in the Publisher Library (see [Workflow Settings chapter](./settings-workflow.md)) made available by the Journal Manager or Editor through opening the Submission Library and clicking "View Document Library." 
+**Document Library**: Users throughout the editorial workflow will be able to access all the files in the Publisher Library (see [Workflow Settings chapter](./settings-workflow.md)) made available by the Journal Manager or Editor through opening the Submission Library and clicking "View Document Library".
 
 ![](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
 
 ### Granting Author permissions
-In OJS 3.2, editors can grant access to allow authors to make metadata changes. 
+In OJS 3.2, editors can grant access to allow authors to make metadata changes.
 There are two ways editors can grant this type of access.
 
 **Global permission**- will grant all users with the role ‘author’ permission to make metadata changes.
@@ -212,7 +212,7 @@ You can now see that the Section Editor is listed under Participants, and the Ac
 
 Although in this example, the editor assigned a section editor, it would also be possible for the editor to assign themselves to the submission.
 
-Once the editor has seclected an action, the submission status will change and the action buttons will be disabled.
+Once the editor has selected an action, the submission status will change and the action buttons will be disabled.
 
 ![](./assets/learning-ojs3.2_edflow_decisionstatus2.png)
 
@@ -323,15 +323,15 @@ Cancelling a review request will permit you to send a template email to the revi
 Cancelled review will be recorded in reviewer stats that you can see when selecting a reviewer.
 ![Cancelled requests in reviewer stats](./assets/learning-ojs-3.2-cancelled-reviews-tracker.png)
 
-**Review Discussion**: Review Discussion is another way for you to contact a reviewer. In a review discussion, you have the option to attach files. 
+**Review Discussion**: Review Discussion is another way for you to contact a reviewer. In a review discussion, you have the option to attach files.
 
 To start a discussion, click ‘Add Discussion.’
 ![](./assets/learning-ojs3.2-rev-contact2.png)
 
-You will then select the reviewer(s) you would like to start a discussion with. 
+You will then select the reviewer(s) you would like to start a discussion with.
 
 ![](./assets/learning-ojs3.2-rev-contact3.png)
- 
+
 
 **History**: Provides a brief history of the review.
 
@@ -524,7 +524,7 @@ Hit the **Record Editorial Decision** button at the bottom of the window.
 
 The submission is automatically moved to the Copyediting stage.
 
-Back on the review tab, you will notice that the status now indicates the submission has been accepte.
+Back on the review tab, you will notice that the status now indicates the submission has been accepted.
 
 ![](./assets/learning-ojs3.2_edflow_decisionstatus_accept.png)
 
@@ -704,4 +704,3 @@ Hit **Record Editorial Decision** to proceed.
 The Copyediting stage is now complete and the submission status will be updated. The next chapter covers the Production and Publication stage.
 
 ![](./assets/learning-ojs3.2_edflow_decisionstatus_copyedit.png)
-<hr />

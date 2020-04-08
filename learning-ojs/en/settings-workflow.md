@@ -126,14 +126,13 @@ Once you send the form to a reviewer you will no longer be able to edit it becau
 
 ![](./assets/learning-ojs-3-settings-workflow-settings-review2.png)
 
-
 ## Publisher Library
 
-The Journal Manager and Editors may upload documents that they would like to share with the other users in the Publisher Library. Any document added in this area will be visible within a user’s Document Library in their manuscript’s Submission Library. 
+The Journal Manager and Editors may upload documents that they would like to share with the other users in the Publisher Library. Any document added in this area will be visible within a user’s Document Library in their manuscript’s Submission Library.
 
 You can also upload a file here that you would like to be publicly accessible via a URL, which you can link to from other parts of your site, including the author guidelines, submission checklist, or a static page.
 
-Suggested forms that can be uploaded in this area can include the galley approval form, supplemental material cover page, and other forms related to your journals workflow. 
+Suggested forms that can be uploaded in this area can include the galley approval form, supplemental material cover page, and other forms related to your journals workflow.
 
 ![](./assets/learning-ojs3.1-jm-settings-workflow-publib1.png)
 

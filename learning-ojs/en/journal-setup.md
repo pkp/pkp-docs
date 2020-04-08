@@ -96,7 +96,7 @@ From the sections page, select the Create Section link to open a blank window, e
 
 Fill in the details and hit Save to record your work.
 
-### Restrict section submitters
+### Restrict Section Submitters
 
 Each section allows to restrict submissions by checking the "Items can only be submitted by Editors and Section Editors" checkbox.
 
@@ -117,6 +117,7 @@ Hit the **Done** button when you are finished.
 <hr />
 
 ## Categories
+
 In OJS 3.1.2 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production section of the Editorial Settings chapter](./editorial-workflow.md#production). This section explains how to create and edit categories.
 
 ![](./assets/learning-ojs3.1-categories-menu.png)

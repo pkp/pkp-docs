@@ -4,7 +4,7 @@ version: 3.2
 ---
 # Subscriptions
 
-OJS 3.1 allows you to restrict some or all of your content to subscribers. To enable Subscriptions, first go to [Settings &gt; Distribution &gt; Access](./distribution_settings.md).
+OJS allows you to restrict some or all of your content to subscribers. To enable Subscriptions, first go to [Settings &gt; Distribution &gt; Access](./distribution_settings.md).
 
 ## Subscription Policies
 
@@ -41,7 +41,7 @@ Select **Create New Subscription Type** to add a new one.
 
 ## Payment Types
 
-If you haven't already done so, go to [Settings &gt; Distribution &gt; Payments](./distribution_settings.md) and set the appropriate currency and payment method \(e.g., Paypal\).
+If you haven't already done so, go to [Settings &gt; Distribution &gt; Payments](./distribution_settings.md) and set the appropriate currency and payment method \(e.g., PayPal\).
 
 Use this page to set the amounts charged for various types of fees.
 
@@ -109,4 +109,5 @@ You can create a new individual subscription by using the Create New Subscriptio
 - **Notes**: If you have any relevant notes to add, record that information here \(optional\).
 
 ## Subscription Block
-When a user is being provided access to a site or its content via a subscription, the information of the subscriber providing access can be dispayed in the sidebar. The Subscription Block feature must be selected for display in Website Settings > Appearance > Sidebar Management.
+
+When a user is being provided access to a site or its content via a subscription, the information of the subscriber providing access can be displayed in the sidebar. The Subscription Block feature must be selected for display in Website Settings > Appearance > Sidebar Management.

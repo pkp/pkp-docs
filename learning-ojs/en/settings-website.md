@@ -172,20 +172,20 @@ Remember to hit Save to record the change.
 
 ## Static Pages
 
-The **Static Pages plugin** allows you to create new pages on your journal website for additional content - for example, you could create a page that details your open access policies.  
+The **Static Pages plugin** allows you to create new pages on your journal website for additional content - for example, you could create a page that details your open access policies.
 
 To use the Static Pages plugin:
 * Go to Website Settings > Plugins and find the Static Pages plugin
 * Enable the plugin by checking the box beside it
 * Refresh the page in your browser. Now you should see a new tab next to **Plugins** called **Static Pages**.
-* Click the **Static Pages** tab 
+* Click the **Static Pages** tab
 
 ![](./assets/learning-ojs3.2-website-settings-static-pages-plugin.png)
 
-* Add a new page by clicking **Add Static Page**. 
-* Fill in the form that opens with the content you want on the page. The **Path** will be used as part of the page URL and the **Title** will appear as the page title. 
+* Add a new page by clicking **Add Static Page**.
+* Fill in the form that opens with the content you want on the page. The **Path** will be used as part of the page URL and the **Title** will appear as the page title.
 
-![](./assets/learning-ojs3.2-website-settings-add-static-page.png) 
+![](./assets/learning-ojs3.2-website-settings-add-static-page.png)
 
 * You can preview the page as you’re working by clicking the **Preview** link at the bottom of the form
 * When you’re finished creating the page, click **Save**
@@ -197,4 +197,3 @@ To edit a page you created with the plugin:
 * Click **Edit** next to the page you want to edit
 * You can preview the page as you’re working by clicking the **Preview** link at the bottom of the form
 * When you’re finished editing the page, click **Save**
-
