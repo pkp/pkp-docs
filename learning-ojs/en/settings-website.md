@@ -1,16 +1,18 @@
-# Chapter 6: Website Settings
+---
+book: learning-ojs
+version: 3.2
+---
+# Website Settings
 
-The Website Settings allow you to configure how your journal's website looks and operates. It consists of tabs for Appearance, Information, Archiving, Languages, Plugins, Announcements, and Navigation Menus.
+The Website Settings allow you to configure how your journal's website looks and operates. It consists of 3 main tabs for Appearance, Setup, and Plugins.
 
 ![](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
 
 ## Appearance
 
-**Logo**: Use this space to upload a journal logo to the upper left corner of your reader interface.
+### Theme
 
-**Page Footer**: This allows you to display text at the bottom of each page of your website.
-
-**Theme**: The theme determines the overall design or layout of your site. Several different theme options are available and you can try them out without affecting your site's content or configuration.
+The theme determines the overall design or layout of your site. Several different theme options are available and you can try them out without affecting your site's content or configuration.
 
 First you can ensure that all available themes have been enabled on your site.
 1. Go to the Plugins tab under Website Settings.
@@ -27,31 +29,43 @@ Now that you have all available themes, return to the Appearance tab to try out 
 5. Open your site's home page in a new tab or window of your browser to see how the site looks with the new theme or sub-theme and with different configuration options.
 6. If you do not see the changes appear on your site, you may need to clear the cache under the Administration menu.
 
-If you would like to make minor changes to your site's design and layout, you can upload a **Journal Stylesheet**.
+If you would like to make minor changes to your site's design and layout, you can upload a **Journal Stylesheet** in Website Settings > Appearance > Advanced.
 
+- **Typography**: Quickly choose the fonts for your journal. This option may or may not be available depending on the selected theme.
+
+- **Colour**: Quickly change the colour of your journal's header. This option may or may not be available depending on the selected theme.
+
+- **Journal Summary**: Check this off to show the journal summary on the homepage. You can add your journal summary under Journal Settings > Masthead. This option may or may not be available depending on the selected theme.
+
+- **Header Background Image**: Check this off if you if you want the uploaded homepage image to be shown as the header background.
+
+### Setup
+
+Where you can upload images (logo, thumbnail, homepage) to your sites main page, enter footer information, and configure your sidebar menu.
+
+- **Journal thumbnail**: Upload a small logo or image representative of the journal that will be used in lists of journals on this OJS installation. This will only be used on OJS installations with multiple journals.
+
+- **Homepage Image**: Uploading an image here will will place it on your journal's home page.
+
+- **Page Footer**: Enter any images, text or HTML code that you'd like to appear at the bottom of your website.
+
+- **Sidebar**: This allows you to move different blocks in or out of the sidebar in the reader interface.
+
+### Advanced
+
+Where you can upload your journal stylesheet, Favicon, and Additional Content.
+
+- **Journal Style Sheet**: Use this to upload a unique style sheet for your journal.
 If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
-**Typography**: Quickly choose the fonts for your journal.
-
-**Colour**: Quickly change the colour of your journal's header.
-
-**Journal Style Sheet**: Use this to upload a unique style sheet for your journal.
-
-**Sidebar Management**: This allows you to move different blocks in or out of the sidebar in the reader interface.
-
-**Homepage Image**: Uploading an image here will will place it on your journal's home page.
-
-**Journal Favicon**: Add a [favicon](https://en.wikipedia.org/wiki/Favicon) to display in the reader's browser address bar.
-
-**Additional Content**: Any text entered here will appear on your homepage.
-
-**Lists**: Limit the number of items \(for example, submissions, users, or editing assignments\) to show in a list before showing subsequent items in another page. Also, limit the number of links to display to subsequent pages of the list.
-
-**Journal thumbnail**: Upload a small logo or image representative of the journal that will be used in lists of journals on this OJS installation. This will only be used on OJS installations with multiple journals.
+- **Journal Favicon**: Add a [favicon](https://en.wikipedia.org/wiki/Favicon) to display in the reader's browser address bar.
+- **Additional Content**: Any text entered here will appear on your homepage.
 
 Hit **Save** to record your changes.
 
-## Information
+## Setup
+
+### Information
 
 Use these fields to modify the text in the For Readers, For Authors, For Librarians pages on the journal website.
 
@@ -61,15 +75,7 @@ Remember to hit **Save** to record any changes.
 
 To remove these fields and their contents from displaying publicly on the website's user interface, deselect the Information Block in Website Settings > Appearance > Sidebar Management.
 
-## Archiving
-
-If you are a member of a LOCKSS or CLOCKSS network, use this page to activate your journal. The PKP PN Plugin, which deposits your content in the PKP Preservation Network, is not yet available for OJS 3.  When it is available and has been enabled, it will deposit your content directly in the Network.
-
-If you use another network, enabling it here will make your content available to the network, but you will also need to contact the network to make it aware of your journal.
-
-![](./assets/learning-ojs3.1-jm-settings-web-archive.png)
-
-## Languages
+### Languages
 
 OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages on a single site or journal. When you install OJS, you can select one or more languages for your site.
 
@@ -77,15 +83,55 @@ Under Website Settings > Languages you can see a list of languages or locales in
 
 ![](./assets/learning-ojs3.1-jm-settings-web-lang.png)
 
-**Primary Locale**: One language must be set as the primary locale, which means the language the journal appears in by default.
+- **Primary Locale**: One language must be set as the primary locale, which means the language the journal appears in by default.
 
-**UI**: If you want the journal’s interface to be available in other languages, select them here.
+- **UI**: If you want the journal’s interface to be available in other languages, select them here.
 
-**Submission**: If you want authors to be able to make submissions in other languages, select them here.
+- **Forms**: This will enable all selected languages to be available when filling in online forms. This will allow metadata to be added in selected languages in the Publication tab.
 
-**Forms**: This will enable all selected languages to be available when filling in online forms.
+- **Submission**: If you want authors to be able to make submissions in other languages, select them here. This will allow authors to add metadata in selected languages when uploading their submission.
 
 If enabling multiple languages to appear in the UI, make sure that in Website Settings > Appearance > Sidebar Management the Language Toggle Block is selected to make that feature available to users.
+
+### Navigation
+
+This section allows you to configure your navigation menus, such as including new links.
+
+![](./assets/learning-ojs3.1-jm-settings-web-navmenu.png)
+
+- **Navigation Menus**: Configure the User Menu and/or the Primary Menu.
+
+Some menu item types will only be displayed under certain conditions. For example, the Login menu item type will link to your login page, but it will only appear in the menu when your website visitor is logged out. Similarly, the Logout menu item type will only appear when a website visitor is logged in.
+
+When you assign a Menu Item with display conditions to a Menu, you will see an icon of an eye with a slash through it. You can click that icon to learn more about when it will be displayed or hidden.
+
+- **Navigation Menu Items**: These are programmed links you can add to either menu above. If you wish to add a link to the Primary Menu \(e.g., "Our Society"\), add it here using the _Add Item_ link.
+
+![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.png)
+
+It will now appear in the list of Navigation Menu Items. Next, go to the desired Navigation Menu \(e.g., Primary\), use the blue arrow to reveal the options, and choose Edit. You can now drag and drop it from Unassigned Menu Items to Assigned Menu Items and into the appropriate location on the menu.
+
+![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.png)
+
+Hit Save to record the change.
+
+### Announcements
+
+This section allows you to create and display news announcements on the journal's website.
+
+![](./assets/learning-ojs3.1-jm-settings-web-announce.png)
+
+- **Announcements**: Check this off if you want to have announcements in your website
+  - **Introduction**: Enter any information you would like to appear on your announcements page.
+  - **Display on Homepage**: Enter the number of announcements to be displayed on the homepage. If this is left blank, no announcements will be displayed.
+
+### Lists
+
+Limit the number of items \(for example, submissions, users, or editing assignments\) to show in a list before showing subsequent items on another page. Also, limit the number of links to display to subsequent pages of the list.
+
+### Privacy Statement
+
+Enter the privacy statement you want to appear on your site.
 
 ## Plugins
 
@@ -122,38 +168,32 @@ Sometimes new plugins or plugins that are developed by folks outside of PKP will
 
 If upload fails you may get an error message that says, “The uploaded plugin archive does not contain a folder that corresponds to the plugin name.” Usually this means you have to change the name of the plugin folder inside the zipped folder to a more simple name. For example, change “translator-ojs-3_0_0-0” to “translator.”
 
-## Announcements
+Remember to hit Save to record the change.
 
-This section allows you to create and display news announcements on the journal's website.
+## Static Pages
 
-![](./assets/learning-ojs3.1-jm-settings-web-announce.png)
+The **Static Pages plugin** allows you to create new pages on your journal website for additional content - for example, you could create a page that details your open access policies.
 
-**Announcements**: Configure how announcements will appear on your journal website.
+To use the Static Pages plugin:
+* Go to Website Settings > Plugins and find the Static Pages plugin
+* Enable the plugin by checking the box beside it
+* Refresh the page in your browser. Now you should see a new tab next to **Plugins** called **Static Pages**.
+* Click the **Static Pages** tab
 
-**Announcement Types**: You can create different types of announcements \(e.g., News, New Issue Alert, etc.\). Use the _Add Announcement Type_ link to create them.
+![](./assets/learning-ojs3.2-website-settings-static-pages-plugin.png)
 
-**Announcements**: Use the _Add Announcement_ link to create a new announcement for your Announcements page.
+* Add a new page by clicking **Add Static Page**.
+* Fill in the form that opens with the content you want on the page. The **Path** will be used as part of the page URL and the **Title** will appear as the page title.
 
-## Navigation Menus
+![](./assets/learning-ojs3.2-website-settings-add-static-page.png)
 
-This section allows you to configure your navigation menus, such as including new links.
+* You can preview the page as you’re working by clicking the **Preview** link at the bottom of the form
+* When you’re finished creating the page, click **Save**
 
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu.png)
+After you create the page you will want to add it to your menu.  Instructions on how to do that are in the above section on **Navigation Menus**.
 
-**Navigation Menus**: Configure the User Menu \(which includes Language, View Site, and Username\) or the Primary Menu \(on the journal home page, including Current, Archive, About, etc.\).
-
-Some menu item types will only be displayed under certain conditions. For example, the Login menu item type will link to your login page, but it will only appear in the menu when your website visitor is logged out. Similarly, the Logout menu item type will only appear when a website visitor is logged in.
-
-When you assign a Menu Item with display conditions to a Menu, you will see an icon of an eye with a slash through it. You can click that icon to learn more about when it will be displayed or hidden.
-
-**Navigation Menu Items**: These are programmed links you can add to either menu above. If you wish to add a link to the Primary Menu \(e.g., "Our Society"\), add it here using the _Add Item_ link.
-
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.png)
-
-It will now appear in the list of Navigation Menu Items. Next, go to the desired Navigation Menu \(e.g., Primary\), use the blue arrow to reveal the options, and choose Edit. You can now drag and drop it from Unassigned Menu Items to Assigned Menu Items and into the appropriate location on the menu.
-
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.png)
-
-Hit Save to record the change.
-
-<hr />
+To edit a page you created with the plugin:
+* Go to Website Settings > Static Pages
+* Click **Edit** next to the page you want to edit
+* You can preview the page as you’re working by clicking the **Preview** link at the bottom of the form
+* When you’re finished editing the page, click **Save**

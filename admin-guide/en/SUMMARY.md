@@ -24,6 +24,7 @@
   * [Generate Reports: Examples and Tips](./statistics.md#generate-reports-examples-and-tips)
   * [Article Usage Visual Statistics](./statistics.md#article-usage-visual-statistics)
   * [Display Usage Statistics](./statistics.md#display-usage-statistics-for-readers)
+  * [Editorial Activity](./statistics.md#editorial-activity)
   * [Configure the Statistics Framework](./statistics.md#appendix-b-configure-the-statistics-framework)
   * [Processing Log Files](./statistics.md#appendix-c-processing-log-files)
   * [Frequently Asked Questions](./statistics.md#frequently-asked-questions)

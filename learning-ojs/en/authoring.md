@@ -1,10 +1,14 @@
-# Chapter 13: Authoring
+---
+book: learning-ojs
+version: 3.2
+---
+# Authoring
 
-In this chapter, you will learn about how an author works in OJS 3.1 from registration through to proofreading the final galley.
+In this chapter, you will learn about how an author works in OJS 3.2 from registration through to proofreading the final galley.
 
 ## Registering with the Journal
 
-To make a submission to an OJS 3.1 journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
+To make a submission to an OJS 3.2 journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
 
 ![](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
@@ -16,15 +20,17 @@ It is currently empty as you have made no submissions.
 
 Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to Step 1 of a 5-Step process to upload and describe your submission.
 
-![](./assets/learning-ojs3.1-au-dashboard-new.png)
+![](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
 ### Step 1
 
 In **Step 1** you will provide preliminary information about your submission.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-1.png)
+![](./assets/learning-ojs3.2-au-dashboard-new-1.png)
 
-To begin select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
+If the journal allows submissions in multiple languages, you can select the language of your submission from the drop-down menu. Languages can be enabled in Website Settings -> Setup -> Language.
+
+Select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
 
 Read and agree to the statements in the submission checklist by checking each box. Include any comments for the editor, read the journal’s privacy statement, and then click the **Save and Continue** button to move to **Step 2**.
 
@@ -58,11 +64,11 @@ Click ‘Save and Continue’ to move to Step 3.
 
 ### Step 3
 
-On **Step 3**, you will be asked to add more information about the submission, including the title of the submission \(broken down into prefix, title, and subtitle\), the abstract, and scrolling down...
+On **Step 3**, you will be asked to add more information about the submission, including the title of the submission \(broken down into prefix, title, and subtitle\), and the abstract. If the journal allows submissions in multiple languages, clicking on each metadata field will reveal the option to enter the metadata in the other languages that are enabled, allowing you to enter the title, subtitle and abstract in the other language(s).  Scrolling down...
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3.png)
+![](./assets/learning-ojs3.2-au-dashboard-new-3.png)
 
-...any additional contributors.
+...you are able to add any additional contributors.
 
 ![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
@@ -74,9 +80,13 @@ Hit **Save**, and the new contributor will appear on the screen.
 
 ![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
-Depending on the journal you are submitting to, you may see additional fields to complete, such as keywords.
+If the categories are enabled in the journal you are submitting to, you will be able to select a category for the manuscript submission, if it applies.
 
-![](./assets/learning-ojs-3-author-submission-step3-4.png)
+![](./assets/learning-ojs-authoring-category.png)
+
+You may also see additional fields to complete, such as keywords. If additional languages are enabled for the journal, you can enter the metadata in these languages. Clicking on the metadata field will reveal the fields for other languages enabled in the journal.
+
+![](./assets/learning-ojs-3.2-author-submission-step3-4.png)
 
 To enter keyword, simply type the word or phrase and hit your Enter key. The word or phrase will be formatted as a keyword.
 
@@ -113,6 +123,26 @@ And here is your submission in your Dashboard. You can see that it is currently 
 ![](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
 Over the coming days, it will move into the Review stage, and if accepted, into the Copyediting and Production stages before being published.
+
+<hr />
+
+## Editing Metadata
+
+In OJS 3.2, you may edit your own metadata at different stages of the editorial workflow. This will be dependent on settings granted by the Journal. You may either have global permission to make edits or have to send a request to the Editor to do so.
+
+Changes might include updated abstracts, correcting spelling errors, or adding additional contributors.
+
+To make edits to your submitted manuscript, click on the publication tab of your submission.
+
+![](./assets/learning-ojs3.2-auth-dashboard-publication.png)
+
+You will be able to make changes to any of the sub-menus on the left by clicking to those tabs. If multiple languages are enabled for the journal, you will be able to edit metadata in those languages by clicking on the language tab in the top right. Click ‘Save’ once you’re done making your changes.
+
+![](./assets/learning-ojs3.2-auth-dashboard-publication2-language.png)
+
+When granted permission, you will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors, and Metadata. While Galleys is listed as an option on the side menu, you will not be able to upload or make changes in this section.
+
+If you notice that the ‘Save’ button is grey and inactive, this means you will have to request permission from the Editor to make changes to your submission or ask them to make the changes for you.
 
 <hr />
 

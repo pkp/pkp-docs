@@ -1,4 +1,8 @@
-# Chapter 3: User Accounts
+---
+book: learning-ojs
+version: 3.2
+---
+# User Accounts
 
 OJS uses a comprehensive roles system to divide work between users, assign workflows, and limit access to different parts of the system.
 
@@ -15,11 +19,13 @@ Major roles include Site Administrator, Journal Manager, Editor, Section Editor,
 OJS 3 also includes additional roles such as Translator and Designer. You can also create new roles or rename existing ones. More information on configuring roles is available in the [Users and Roles chapter](./users-and-roles.md).
 
 ### Site Administrator
+
 The Site Administrator is responsible for the overall OJS installation, ensuring the server settings are accurate, adding language files, and creating any new journals on the installation. The Site Administrator account is created as part of the installation process. Unlike all other OJS roles, there can only be one Site Administrator.
 
 See [Chapter 4: Site Administration](./site-administration.md) for more details.
 
 ### Journal Manager
+
 The Journal Manager is responsible for setting up the journal web site, configuring the system options, and managing the user accounts. This does not involve any advanced technical skills, but entails filling out web-based forms and uploading files.
 
 The Journal Manager also enrolls the Editors, Section Editors, Copyeditors, Layout Editors, Proofreaders, Authors, and Reviewers.

@@ -1,4 +1,8 @@
-# Chapter 10: Users and Roles
+---
+book: learning-ojs
+version: 3.2
+---
+# Users and Roles
 
 This section provides access to all of the user accounts associated with your journal, as well as the opportunity to manage roles and permissions.
 
@@ -150,7 +154,7 @@ Selecting the blue arrow to the left of the role name reveals the edit link. Cli
 
 **Stage Assignment**: This allows you to determine which stage users with this role can access.
 
-**Role Options**: Use these checkboxes to show anyone with this role in the contributor list \(e.g., the author list\).
+**Role Options**: Use these checkboxes to show anyone with this role in the contributor list \(e.g., the author list\). As of OJS 3.2, roles can be assigned permission to edit submission metadata by enabling the checkbox.
 
 Use the second option to determine whether users can self-register in this role. Authors and Reviewers are good candidates for self-registration. You would definitely NOT want to allow users to self-register as Journal Managers or Editors!
 
