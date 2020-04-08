@@ -1,3 +1,7 @@
+---
+book: translating-guide
+version: 3.1
+---
 Introduction
 ============
 

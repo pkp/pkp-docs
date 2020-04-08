@@ -1,3 +1,7 @@
+---
+book: translating-guide
+version: 3.1
+---
 # Translating PKP Software: how to do it
 
 To begin, it is helpful to understand how the [locale files are structured within an installation](2-2-xml-files).
