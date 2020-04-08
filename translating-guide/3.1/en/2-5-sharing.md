@@ -1,3 +1,7 @@
+---
+book: translating-guide
+version: 3.1
+---
 ## Share your translations
 
 1. Save and place your files

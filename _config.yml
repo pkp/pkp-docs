@@ -20,5 +20,9 @@ defaults:
     values:
       swaggerUiVersion: 3
 url: "https://docs.pkp.sfu.ca" # the base hostname & protocol for your site
+readme_index:
+  enabled: true
+  remove_originals: false
+  with_frontmatter: true
 plugins:
   - jekyll-sitemap
