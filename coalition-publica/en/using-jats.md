@@ -103,17 +103,20 @@ There are several journal settings that should be properly configured in order f
 	* Copyright
 		* Make sure that the copyright holder of the articles (author, journal or other) is properly identified in Settings > Distribution > Permissions.
 		* Make sure, when you schedule an article for publication, to attach the permissions to it (copyright holder and copyright year).
-* Ensure that OJS knows about your server’s text extraction tools. Check your `config.inc.php` file in the `[search]` section to make sure your server’s locations for these tools are specified. This will also help OJS to index PDF documents for its own search indexing. (This step may require the help of your system administrator, as it requires access to a file on the server on which OJS is installed.)
 
 ## Step 5. Rebuild Your Search Index
 
-If you had to modify your `config.inc.php` file to enable PDF indexing as instructed in Step 4, you will also have to rebuild your search index. You can do this by running the following command on your server, in the OJS web root: 
+This step may require the help of your system administrator, as it requires access to a file on the server on which OJS is installed.
+* Ensure that OJS knows about your server’s text extraction tools: check your `config.inc.php` file in the `[search]` section to make sure your server’s locations for these tools are specified. 
+* If you had to modify your `config.inc.php` file to enable PDF indexing, you will also have to rebuild your search index. You can do this by running the following command on your server, in the OJS web root:
 
 `php tools/rebuildSearchIndex.php`
 
-You can check to confirm that the index has been successfully rebuilt by searching for text that only appears in a PDF (ie. not in other submission metadata stored by OJS, such as title or abstract fields). 
+NOTE: This step is required only if you have recently enabled PDF indexing.
 
-NOTE: This step is required *only* if you have recently enabled PDF indexing. 
+* You can check that the index has been successfully rebuilt by searching for text that only appears in a PDF (ie. not in other submission metadata stored by OJS, such as title or abstract fields).
+
+In addition to configuring your OJS for Coalition Publica, this step will also help OJS to index PDF documents for its own search indexing. 
 
 ## Step 6. Check your Distribution Settings
 
