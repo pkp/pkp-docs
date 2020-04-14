@@ -102,17 +102,19 @@ Plusieurs paramètres de revue doivent être correctement configurés afin de
 	* Droit d’auteur
 		* Assurez-vous que le titulaire du droit d’auteur des articles (“Auteur”, “Revue” ou “Autre”) soit adéquatement identifié dans Paramètres > Distribution > Autorisations.
 		* Assurez-vous, lorsque vous établissez le “Calendrier de publication” d’un article, d’y associer les autorisations (titulaire du droit d’auteur et année du droit d’auteur)
-* Assurez-vous que votre instance OJS connaisse l’emplacement de vos outils d’extraction de texte sur vos serveurs. Vérifiez la section ​`[search]`​ de votre fichier `config.inc.php`​ pour vous assurer que les emplacements serveur de ces outils sont spécifiés. Par ailleurs, cela permettra à OJS d’indexer les documents PDF pour son propre moteur de recherche. (Cette étape peut requérir l’aide de votre administrateur système puisqu’elle requiert l’accès à un fichier sur le serveur où votre instance OJS est installée.)
 
-## Étape 5. Reconstruisez votre index de recherche
-
-Si vous avez dû modifier votre fichier `config.inc.php` pour activer l'indexation PDF comme indiqué à l'étape 4, vous devrez également reconstruire votre index de recherche. Vous pouvez le faire en exécutant la commande suivante sur votre serveur, dans la racine Web OJS:
+## Étape 5. Activer l’indexation des PDF
+Cette étape peut requérir l'aide de votre administrateur système puisqu'elle requiert l’accès à un fichier sur le serveur où votre instance OJS est installée. 
+* Assurez-vous que votre instance OJS connaisse l’emplacement de vos outils d’extraction de texte sur vos serveurs : vérifiez la section ​`[search]`​ de votre fichier ​`config.inc.php`​ pour vous assurer que les emplacements serveur de ces outils sont spécifiés. 
+* Si vous avez dû modifier votre fichier ​`config.inc.php`​ pour activer l’indexation PDF, vous devrez également reconstruire votre index de recherche. Vous pouvez le faire en exécutant la commande suivante sur votre serveur, dans la racine Web OJS:
 
 `php tools/rebuildSearchIndex.php`
 
-Vous pouvez vérifier pour confirmer que l'index a été correctement reconstruit en recherchant du texte qui n'apparaît que dans un PDF (c'est-à-dire pas dans d'autres métadonnées de soumission stockées par OJS, telles que des champs de titre ou de résumé).
+REMARQUE: cette étape n’est requise que si vous avez récemment activé l’indexation PDF.
 
-REMARQUE: cette étape n'est requise que si vous avez récemment activé l'indexation PDF.
+* Vous pouvez vérifier que l’index a été correctement reconstruit en recherchant du texte qui n’apparaît que dans un PDF (c’est-à-dire pas dans d’autres métadonnées de soumission stockées par OJS, telles que des champs de titre ou de résumé).
+
+En plus de configurer votre OJS pour Coalition Publica, cela permettra à OJS d’indexer les documents PDF pour son propre moteur de recherche. 
 
 ## Étape 6. Vérifier les paramètres de distribution
 
