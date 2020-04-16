@@ -80,7 +80,15 @@ From here, you can change the name or abbreviation of the section.
 
 **Word Count**: Use this to limit the number of words for abstracts in this section.
 
-**Section Options**: Each section can have different settings, including whether it is indexed, peer-reviewed, accepts unsolicited submission, or listed in the table of contents. For example, an Editorial section will not typically be peer-reviewed.
+**Section Options**: Each section can have different settings, including whether it is indexed, peer-reviewed, accepts unsolicited submission, or listed in the table of contents. 
+
+For example, an Editorial section will not typically be peer-reviewed.
+
+If you have a section that is no longer active, you can check off "Items can only be submitted by Editors and Section Editors" and then authors will not be able to submit to it.
+
+You can check off "Will not be included in the indexing of the journal" for sections that contain front matter, back matter, and anything else that might clutter the search index unnecessarily. 
+
+![](./assets/learning-ojs-3.2-settings-section-options.png)
 
 **Identify items published in this section as a\(n\)**: This is used by some systems. Note that it is not a required field.
 
