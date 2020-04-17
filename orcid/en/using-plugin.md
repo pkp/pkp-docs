@@ -28,3 +28,29 @@ You can also request ORCID authorization from authors by doing the following:
 ![](./assets/edit-contributor.png)
 
 ![](./assets/id-not-authenticated.png)
+
+### Remove ORCID iD from a user account
+
+There may be a situation in which you need to remove an author's ORCID iD. This can only be done by an Administrator.
+
+1. Logged in as an Administrator, on the left menu of OJS, select **Users & Roles** and click on **Users**
+
+![](./assets/orcid-guide-find-user.png)
+
+2. Locate the name of the user for whom you want to remove the ORCID iD 
+
+3. Click on the small arrow next to the person’s name and select **Edit User**
+
+![](./assets/orcid-guide-edit-user.png)
+
+4. Once you are in the Edit User page, click on **More User Details**
+
+![](./assets/orcid-guide-user-details.png)
+
+5. Find the ORCID iD box and delete the ORCID iD
+
+![](./assets/orcid-guide-delete-id.png)
+
+6. Click **OK** at the bottom of the page
+
+![](./assets/orcid-guide-ok.png)
