@@ -1,6 +1,6 @@
 ---
 book: learning-omp
-version: 3.2
+version: 3.1
 ---
 
 # Learning OMP 3: A User Guide to Open Monograph Press
