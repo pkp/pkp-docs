@@ -393,7 +393,28 @@ Categories can be used to organize your articles into thematic collections. If y
 
 ![](./assets/learning-ojs3.2-ed-prod-add-to-category.png)
 
-<!---### Extract and Save References--->
+### Extract and Save References
+
+If you would like to display the article’s bibliographic references on the article page with linked DOIs, and submit the references to Crossref with the rest of the article’s metadata, you can use the “Extract and save references” feature. This feature can only be used if you’re using the DOI plugin and the Crossref plugin to export your metadata to Crossref. The feature will store each reference in the database as a separate reference and add the DOI to the reference on the article page. It will also make it easier for indexing services, such as Google Scholar, identify and index the article’s citations.
+
+The first thing you must do is enable References as a submission metadata field.
+1. Go to Workflow Settings > Submission > Metadata
+2. Scroll down to References and check off Enable references metadata
+3. New options will appear below and you can select to either 
+  * do not request references from the author during submission - the References field will not be on the submission form and instead references can be added by an editor
+  * ask the author to provide references during submission - the References field will be on the submission form and authors can optionally add their references to it, or an editor can add references to the submission later
+  * require the author to provide references before accepting their submission - the References field will be on the submission form and authors will be required to add their references to it
+4. Click Save
+
+![](./assets/learning-ojs3.2-ed-prod-enable-references.png)
+
+Now if you go to a submission record’s **Publication** tab you will see a **References** tab below. An editor can open the tab and copy and paste the article's references into the field. In addition, if you checked the second or third option above, there will be a **References** field when an author makes a submission and the author will be able to add their references to it. 
+
+Each reference should be on a separate line and you should sure the text you paste into the field is unformatted and has no extra line breaks or spaces. Remove any DOIs in the references if you plan to add them later with the Crossref Reference Linking plugin.
+
+When the article is published, the references will appear on the article page and the references will be submitted to CrossRef.
+
+After you have exported the article’s metadata to Crossref, you can insert the DOIs for the article references from Crossref if you use the Crossref Reference Linking plugin. Instructions on how to use the plugin are available in the [Crossref Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references). 
 
 ## Create Issue
 
