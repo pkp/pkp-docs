@@ -156,7 +156,7 @@ Additional information about Gmail SMTP is available at [https://support.google.
 
 Note that you may have to additionally configure application-specific passwords in Gmail; see [https://support.google.com/accounts/answer/185833?hl=en](https://support.google.com/accounts/answer/185833?hl=en) for details.
 
-##  SPF and DMARC Issues
+## SPF and DMARC Issues
 
 ### Sender Policy Framework (SPF)
 

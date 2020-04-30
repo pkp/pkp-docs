@@ -31,7 +31,7 @@ Problems may occur if:
 
 * you are using the first option but your magic.mime file does not include enough information on the filetype you are attempting to identify;
 * your server configuration does not support the first two options;
-* you do not have sufficient permissions to run an external tool as in the third 
+* you do not have sufficient permissions to run an external tool as in the third option.
 
 Additionally, you may be encountering problems due to malformed files. If you are having trouble having your HTML files recognized, you may want to run them through [HTML-Tidy](http://www.w3.org/People/Raggett/tidy/) or otherwise ensure that they are valid HTML. HTML files created by word processors in particular may have a hard time being recognized as HTML.
 
@@ -39,7 +39,7 @@ You may also want to search the [forum](https://forum.pkp.sfu.ca) for the keywor
 
 ### My CSS files aren't being identified properly.
 
-This could be the result of the identification issue above, or it could be because your css file includes a comment on the first line, before any actual CSS. Try removing the comment(s) from the top of the file and reuploading.
+This could be the result of the identification issue above, or it could be because your css file includes a comment on the first line, before any actual CSS. Try removing the comment(s) from the top of the file and re-uploading.
 
 Note that this situation often occurs when uploading a modified copy of the main CSS file. We don't recommend this approach -- it's better to upload a CSS file that only contains overrides for the styles that you wish to modify from the default layout, as the main stylesheet is applied before any custom CSS files. This will help to avoid stylesheet headaches on upgrade.
 
@@ -244,5 +244,3 @@ OJS and OMP 3.1+ **requires** PHP 5.6 or above.
 **NOTE**: If you are running OJS or OMP 3.x on a PHP7+ LAMP stack, please remember to update your MySQL driver parameter\(Database section\) on `config.inc.php` file, i.e.:
 
 `driver = mysqli`
-
-
