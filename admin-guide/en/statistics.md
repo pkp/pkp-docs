@@ -4,7 +4,7 @@ This chapter of the Administrator's Guide provides a general overview of statist
 
 The types of statistics available in OJS 3.2 and later are Articles, Editorial Activity, and Users. There is also a Report Generator section for producing various reports from some of the available data.
 
-The development of this chapter has been funded by the Government of Canada via a grant from Canadian Heritage and by the Canadian Association of Learned Journals / Association canadienne des revues savantes. Public Knowledge Project provided additional in-kind assistance toward the development of this project.  
+The development of this chapter has been funded by the Government of Canada via a grant from Canadian Heritage and by the Canadian Association of Learned Journals / Association canadienne des revues savantes. Public Knowledge Project provided additional in-kind assistance toward the development of this project.
 
 
 ![](https://lh5.googleusercontent.com/roq7_6Ck6BNqkpPKetR8zxiRaRljhCR5Z240OzY6l7ZC61st_8AT8VNAYfMY7S8mZceMF0sJjrtu-h0E3FhYQ9PiwCKvjzJzNAPR6fCEmjMMEv7JaF8oaiuYmjNj68bgbPGnCM2w)
@@ -43,9 +43,9 @@ As of version 2.4.3, Open Journal Systems uses a new structure for collecting st
 The following describes the data to which users of various iterations of OJS have access. The OJS version can be determined by a journal staff member by visiting About &gt; About this Publication System \(OJS 2\).
 
 - OJS 2.4.2 or older:
-    - Metrics are based on the old metrics method. Only simple article view counts are recorded for each abstract or galley view. These are not filtered by any of the COUNTER Project filter rules.  
+    - Metrics are based on the old metrics method. Only simple article view counts are recorded for each abstract or galley view. These are not filtered by any of the COUNTER Project filter rules.
     - These are available from a View Report under Journal Management &gt; Stats and Reports.
-    - You may also have access to a rudimentary Timed Views Report. This report, if available in a pre- OJS 2.4.2 or older install, should be considered buggy and unpredictable. It should not be used.  
+    - You may also have access to a rudimentary Timed Views Report. This report, if available in a pre- OJS 2.4.2 or older install, should be considered buggy and unpredictable. It should not be used.
     - Upgrading is advised so that better metrics can be gathered going forward. \(Note that upgrading will not provide you with better metrics from before the upgrade date, at least by default. See the FAQ section for more information on reprocessing old metrics.\)
 - OJS 2.4.3 or newer:
     - Metrics are based on the new metrics method described above.
@@ -111,7 +111,7 @@ The following table is a quick cheatsheet and comparison tool for each report; m
 
 **Example Data \(edited for clarity\):**
 
-In the sample below, which was generated for the date span March 29 2017 - March 30 2017 \(i.e., 1 day\), we can see that the article “Amusing Ourselves to Death” was quite highly viewed, with 2 abstract views and 11 total galley views \(3 PDF and 8 HTML\). The “Comobility” article only had its abstract viewed once.  
+In the sample below, which was generated for the date span March 29 2017 - March 30 2017 \(i.e., 1 day\), we can see that the article “Amusing Ourselves to Death” was quite highly viewed, with 2 abstract views and 11 total galley views \(3 PDF and 8 HTML\). The “Comobility” article only had its abstract viewed once.
 ****
 
 | **ID** | **Article Title** | **Authors** | **Issue** | **Date Published** | **Abstract** | **Total Galley** | **PDF** | **HTML** |
@@ -140,7 +140,7 @@ In the sample below, which was generated for the date span March 29 2017 - March
 
 **Example Data \(slightly edited for clarity\):**
 
-In the sample below we can see that article 95, “The Making of the Canadian Media,” has had 443 abstract views and 1476 total galley views. The PDF and Total Galley views are the same because there were no HTML views. With article 1125, “Digital Networks,” the abstract was viewed 1821 times and total galley views are 8478, which is the sum of the HTML and PDF views.  
+In the sample below we can see that article 95, “The Making of the Canadian Media,” has had 443 abstract views and 1476 total galley views. The PDF and Total Galley views are the same because there were no HTML views. With article 1125, “Digital Networks,” the abstract was viewed 1821 times and total galley views are 8478, which is the sum of the HTML and PDF views.
 ****
 
 | **ID** | **Article Title** | **Issue** | **Date Published** | **Abstract** | **Total Galleys** | **HTML** | **PDF** |
@@ -163,9 +163,9 @@ In the sample below we can see that article 95, “The Making of the Canadian Me
 **Special Notes:**
 
 * This report attempts to capture the entire usage history for: the journal home page, all article abstracts, all article galleys, and all issue table of contents.
-* **OJS version 3.1.1 or older installs**: To reduce the potential for exceeding time limits for downloads, this report only provides 5,000 records. If you have a lot of reportable data, this report will most likely not report it all. If this is the case, the Custom Report Generator plugin should be used instead, using smaller date ranges. (This restriction was removed in OJS 3.1.2.) 
+* **OJS version 3.1.1 or older installs**: To reduce the potential for exceeding time limits for downloads, this report only provides 5,000 records. If you have a lot of reportable data, this report will most likely not report it all. If this is the case, the Custom Report Generator plugin should be used instead, using smaller date ranges. (This restriction was removed in OJS 3.1.2.)
 
-**Example Data \(slightly edited for clarity\):**  
+**Example Data \(slightly edited for clarity\):**
 
 
 | **ID** | **Type** | **Title** | **Issue** | **Journal** | **Country** | **Month** | **Count** |
@@ -247,7 +247,7 @@ The Report Generator can be found in OJS 3 at Dashboard &gt; Tools &gt; Statisti
 
 ![](https://lh3.googleusercontent.com/zZgY3vgUHtOhTkLnfTsXOjWit7hn3dOkv14m0eCa7mz1oYb04KeV68mIJ4RC7TzDlA1l0nRrOQtyMr_VOzLlEDe0qEDqNtYweS9LgW5kbFeSJVskOJQGY6L7C1QMa617BTeXNkKi)
 
-...is actually repeated in the “Columns” section below...along with a number of other options. \(Visible in the advanced options.\)  
+...is actually repeated in the “Columns” section below...along with a number of other options. \(Visible in the advanced options.\)
 
 
 ![](https://lh4.googleusercontent.com/ZGkhfw8uSwd9Ovktc4GpTmHQIBnOg68tzRt6cBdLrelT3JMNrs4rskSw9Ezi4L_n42jeDRJ-WdpCgobnAamGH4fZUwrGU03wHCK2nd_-y6OGxJ1ihT8mfK2gLpYr1WcZ10uMLUNp)
@@ -335,7 +335,7 @@ This query displays a count of fulltext downloads for each journal issue and ord
 
 ### Example: What countries are downloading our articles \(for a specific date interval\)?
 
-This query will display aggregate counts for fulltext downloads by country in descending order. Note that one will need to specify a date range.  
+This query will display aggregate counts for fulltext downloads by country in descending order. Note that one will need to specify a date range.
 
 * Select “Article file downloads” from the dropdown box.
 * Uncheck all boxes under “Aggregate stats by.”
@@ -361,18 +361,18 @@ This query will display aggregate counts for fulltext downloads by country in de
 ![](https://lh4.googleusercontent.com/L1GghbRsng68WpYdY-SFbsTvcLc9MjdKfOXRzMHpCgiBzRxrATY_1dU2HVLWxJo1SdkTIgxhj1rHqjXhw8S5p6Mr3-_PvDlYn4JZbpM6kboSDQmcwgcUkuz3PeqcyOYSHTYzA15t)
 
 ## Article Usage Visual Statistics
-OJS 3.1.2 now offers Editors and Journal Managers the option of viewing graph and table representations of article usage, including abstract views and full-text downloads. 
+OJS 3.1.2 now offers Editors and Journal Managers the option of viewing graph and table representations of article usage, including abstract views and full-text downloads.
 
 The visual statistics can be found under **Statistics** on the left menu panel, by clicking  **Articles**.
 
 ![](./assets/Article-Usage-Visual-Statistics-1.png)
 
-The Articles statistics show the articles' abstract views in both graph and table format. The visual graphic can be changed from Monthly or Daily view. While the table format will allow you to filter the Total in ascending or descending order. 
+The Articles statistics show the articles' abstract views in both graph and table format. The visual graphic can be changed from Monthly or Daily view. While the table format will allow you to filter the Total in ascending or descending order.
 
 ![](./assets/Article-Usage-Visual-Statistics-2.png)
 ![](./assets/Article-Usage-Visual-Statistics-3.png)
 
-The calendar icon on the top right corner of your dashboard gives you the option of changing the article view to the Last 30 days, Last 90 days, Last 12 months, All dates or a Custom Date Range. 
+The calendar icon on the top right corner of your dashboard gives you the option of changing the article view to the Last 30 days, Last 90 days, Last 12 months, All dates or a Custom Date Range.
 
 ![](./assets/Article-Usage-Visual-Statistics-4.png)
 
@@ -689,7 +689,7 @@ This happens when the amount of data you are trying to download exceeds the serv
 
 ### I need some guidance on processing, re-processing, or troubleshooting log files.
 
-See Appendix C: Processing Log Files.
+See [Appendix C: Processing Log Files](/admin-guide/en/statistics#appendix-c-processing-log-files).
 
 <hr />
 
