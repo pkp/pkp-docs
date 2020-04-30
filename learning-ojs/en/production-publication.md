@@ -399,12 +399,12 @@ If you would like to display the article’s bibliographic references on the art
 
 The first thing you must do is enable References as a submission metadata field.
 1. Go to Workflow Settings > Submission > Metadata
-2. Scroll down to References and check off Enable references metadata
+2. Scroll down to **References** and check off **Enable references metadata**
 3. New options will appear below and you can select to either 
   * do not request references from the author during submission - the References field will not be on the submission form and instead references can be added by an editor
   * ask the author to provide references during submission - the References field will be on the submission form and authors can optionally add their references to it, or an editor can add references to the submission later
   * require the author to provide references before accepting their submission - the References field will be on the submission form and authors will be required to add their references to it
-4. Click Save
+4. Click **Save**
 
 ![](./assets/learning-ojs3.2-ed-prod-enable-references.png)
 
@@ -415,6 +415,13 @@ Each reference should be on a separate line and you should sure the text you pas
 When the article is published, the references will appear on the article page and the references will be submitted to CrossRef.
 
 After you have exported the article’s metadata to Crossref, you can insert the DOIs for the article references from Crossref if you use the Crossref Reference Linking plugin. Instructions on how to use the plugin are available in the [Crossref Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references). 
+
+Once you have the plugin set up and have exported the article's metadata to Crossref, you can insert the DOIs from Crossref back into the references:
+1. Open the submission
+2. Go to the **Publication** tab and **References**
+3. Click **Check Crossref DOIs**
+4. Some DOIs will now be added to the references
+
 
 ## Create Issue
 
