@@ -2,7 +2,7 @@
 
 For synchronizing user accounts across multiple applications, OJS and OCS support LDAP and Shibboleth, both of which have varying degrees of support in other applications including PhpBB, Drupal, WordPress, and other content management systems.
 
-*LDAP* (the Lightweight Directory Access Protocol), while not as powerful as Shibboleth (e.g. LDAP does not support single sign-on, where logging into one service automatically logs into all others), is a common choice for centralizing authentication on a server. A popular LDAP implementation is [OpenLDAP](http://www.openldap.org/) an open source implementation of the protocol.
+*LDAP* (the Lightweight Directory Access Protocol), while not as powerful as Shibboleth (e.g. LDAP does not support single sign-on, where logging into one service automatically logs into all others), is a common choice for centralizing authentication on a server. A popular LDAP implementation is [OpenLDAP](https://www.openldap.org/) an open source implementation of the protocol.
 
 *Shibboleth* is a powerful alternative to LDAP for user management and authentication, and has grown in popularity. Shibboleth offers the account synchronization capabilities of LDAP as well as single-sign-on functionality (where logging into one service automatically logs into all others), providing a more seamless integration between your web applications. However, Shibboleth can be much more complex to install and configure than LDAP.
 
@@ -33,10 +33,11 @@ The next set of settings configures OJS/OCS to allow communication with the LDAP
 * *Manager password*. The password for the manager account (only required if the user profile/password synchronization or user creation options are enabled).
 * *Password encryption*. For security reasons, it is recommended you use some form of password encryption. If you have PHP version 4.3.0 or greater, we suggest using SSHA.
 
-Optionally, if your PHP version 5.0 or greater, you can configure LDAP to use SASL (Simple Authentication and Security Layer) for authentication. As this feature is for advanced users, please consult the links in the Resources section for more information. 
+Optionally, if your PHP version 5.0 or greater, you can configure LDAP to use SASL (Simple Authentication and Security Layer) for authentication. As this feature is for advanced users, please consult the links in the Resources section for more information.
 
-## Setting up Shibboleth 
-*Note*: Please note that Shibboleth support has not yet been ported to OCS. 
+## Setting up Shibboleth
+
+*Note*: Please note that Shibboleth support has not yet been ported to OCS.
 
 Shibboleth is maintained by the [Internet2 Middleware Initiative](http://shibboleth.internet2.edu/), and as such their website provides a central location for downloads and documentation. Currently, they provide Shibboleth Service Provider 2.1 in binary form for all major operating systems, as well as providing source code. For further information on installing and setting up the Shibboleth Service Provider, please consult Internet2's support documentation.
 
@@ -49,12 +50,14 @@ The `implicit_auth_admin_list` variable contains a list of UINs (email addresses
 
 ## Frequently Asked Questions
 
-### I can't log in to OxS with my LDAP credentials. 
+### I can't log in to OxS with my LDAP credentials.
+
 A major component of OxS is a consistent record of user activity, especially in respect to submissions and editing. If user records are stored outside of OxS, there is no guarantee that the record will stick around or stay consistent, causing problems with OxS. Thus, LDAP credentials won't work unless there is a matching user in OxS.
 
 That said, there are several ways to get your LDAP users into your OxS database. If you wish to do a one time dump of users into OxS, you could build an XML file with user information to import into OxS (see the Users XML plugin). Further, code could be written to automatically insert users into the database when registered in another application. The execute function in `classes/manager/form/UserManagementForm.inc.php` shows how users are registered into OJS, and can be modeled in user registration functions in another application. Likely a variety of other solutions can be implemented to overcome this.
 
 ### OxS seems to hash passwords differently than in LDAP. How to I get OxS to conform to LDAP's hashing technique?
+
 By default, OJS and OCS append the username to the password before hashing. To change this behavior, modify the `encryptCredentials function in classes/security/Validation.inc.php`. If you change the password hashing behavior, you will have to reset all existing passwords in the database.
 
 I get this error when trying to connect to my LDAP server:
@@ -62,8 +65,9 @@ I get this error when trying to connect to my LDAP server:
 
 PHP's LDAP extension is not included by default, and may have to be compiled. See [PHP Installation Guide](http://ca.php.net/manual/en/ldap.installation.php) for more information.
 
-## Resources 
+## Resources
+
 * [Quick HOWTO : Ch31 : Centralized Logins Using LDAP and RADIUS ](http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch31_:_Centralized_Logins_Using_LDAP_and_RADIUS)
-* [OpenLDAP 2.1 Administrator's Guide: Using SASL](http://www.openldap.org/doc/admin21/sasl.html) 
+* [OpenLDAP 2.1 Administrator's Guide: Using SASL](https://www.openldap.org/doc/admin21/sasl.html)
 * [Cyrus SASL for System Administrators](http://www.sendmail.org/~ca/email/cyrus/sysadmin.html)
 * [Shibboleth Documentation](https://spaces.internet2.edu/display/SHIB/)

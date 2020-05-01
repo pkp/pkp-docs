@@ -545,7 +545,7 @@ OJS needs to process the files to be able to retrieve statistics data from them.
 
 #### File loader
 
-The file loader task implements a process to reliably handle all file processing. It works with 4 folders: stage, processing, archive, and reject. Everytime the file loader is run, it will search for files inside the stage folder. If there are any, it will move one file to the processing folder and start working on it. If anything goes wrong, it will send an email to the system administrator with valuable information about what went wrong and will move the file to the reject folder. If the processing went well, then it will move the file to the archive folder. It will continue this process until there are no more files inside the stage folder.
+The file loader task implements a process to reliably handle all file processing. It works with 4 folders: stage, processing, archive, and reject. Every time the file loader is run, it will search for files inside the stage folder. If there are any, it will move one file to the processing folder and start working on it. If anything goes wrong, it will send an email to the system administrator with valuable information about what went wrong and will move the file to the reject folder. If the processing went well, then it will move the file to the archive folder. It will continue this process until there are no more files inside the stage folder.
 
 #### Processes
 
@@ -593,7 +593,7 @@ In scenarios 1 and 2, if for some reason JM can’t move files for a whole week,
 
 If you need to reprocess any log file \(if a new robot list or geolocation database is introduced or you fixed problems inside rejected files\) you can move them back to the stage process. Even if they were inside “rejected” or “archived” directories. They will be processed and any existing data from these logs will be replaced by reprocessed data.
 
-The important thing is that after a file is successfully processed and moved to the archive folder, its filename is preserved. The filename is used to keep track of statistics data and the file that it was retrieved from. For the same reason, it’s important that all log files have unique filenames. You don’t have to worry about this if you are using OJS log files. But if you are using apache access log files, ensure that you are using something unique such as dates in the filenames.  
+The important thing is that after a file is successfully processed and moved to the archive folder, its filename is preserved. The filename is used to keep track of statistics data and the file that it was retrieved from. For the same reason, it’s important that all log files have unique filenames. You don’t have to worry about this if you are using OJS log files. But if you are using apache access log files, ensure that you are using something unique such as dates in the filenames.
 
 <hr />
 
@@ -631,7 +631,7 @@ This is not currently possible with OJS but will be available in the future.
 
 OJS collects statistics based on the internal IDs of issues, articles, and galleys.
 
-If you replace a PDF file for a galley, the galley ID will not change. This means download statistics for the galley will continue to accumulate across the two versions of the file. 
+If you replace a PDF file for a galley, the galley ID will not change. This means download statistics for the galley will continue to accumulate across the two versions of the file.
 
 If you remove a galley from an article and later add a new galley for the article, the new galley will have a new ID. The cumulative statistics for article views will be unchanged but the usage statistics for the galley file will start again at 0. Historic statistics for the old galley will remain in the metrics, unless you rebuild the access logs into new metrics. New statistics will be collected for the new galley as access happens over time.
 

@@ -56,7 +56,7 @@ Authors, reviewers, and editors deal with submission files from people they don�
 
 > Section Contributed by Kenton Good
 
-Using SSL/TLS encryption to secure your site brings advantages in security, privacy, censorship protection, search engine findability, and data integrity.
+Using SSL/TLS encryption to secure your site brings advantages in security, privacy, censorship protection, search engine optimization, and data integrity.
 
 ### Security and Privacy Advantages
 
@@ -84,6 +84,7 @@ Purchasing a certificate may be an option available to you as well. Commercial b
 ### Enabling SSL (requires shell access):
 
 #### Generating CSR (Certificate Signing Request)
+
 Required step to generate a certificate if you are going to be purchasing a certificate from a CA that is not Let’s Encrypt. In terms of how to do this, this varies from one Linux distribution to the next, some common Linux examples can be found here:
 * [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04)
 * [CentOS/RHEL 7](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-centos-7)
@@ -92,7 +93,7 @@ Required step to generate a certificate if you are going to be purchasing a cert
 
 #### Maintaining your Certificates
 
-When you purchase a certificate from a CA, you will typically purchase a certificate that lasts between 1 to 3 years. Certificates are set to expire and will need to be renewed resulting in a new expense at the time of renewal.  Let’s Encrypt certificates expire every 90 days. The Let’s Encrypt software (certbot) can be configured to automatically renew certificates before they expire. Meaning once installed you should have minimal maintenance moving forward. Automation is done with `cron` or `systemd`.
+When you purchase a certificate from a CA, you will typically purchase a certificate that lasts between 1 to 3 years. Certificates are set to expire and will need to be renewed resulting in a new expense at the time of renewal. Let’s Encrypt certificates expire every 90 days. The Let’s Encrypt software (certbot) can be configured to automatically renew certificates before they expire. Meaning once installed you should have minimal maintenance moving forward. Automation is done with `cron` or `systemd`.
 
 ## Managing Spam
 
@@ -177,7 +178,8 @@ We do. PKP announces all valid security vulnerabilities, and their respective fi
 
 **I believe I have found a security vulnerability. How can I report it?**
 
-Please send a detailed description of the vulnerability to our support email: [support@publicknowledgeproject.org](mailto:support@publicknowledgeproject.org). We will respond to you as quickly as possible with an evaluation of the vulnerability. If it is in fact a vulnerability within OJS, OMP, or OCS (ie. not a hack due to a general server/software misconfiguration, or a vulnerability in another software application, or something dressed up to look like a vulnerability, which believe me we do see on occasion), we will proceed with next steps: identifying and publishing a fix, and then disclosing the issue and fix to the public.
+Please send a detailed description of the vulnerability to our support email: [support@publicknowledgeproject.org](mailto:support@publicknowledgeproject.org). We will respond to you as quickly as possible with an evaluation of the vulnerability. If it is in fact a vulnerability within OJS, OMP, or OCS (ie. not a hack due to a general server/software misconfiguration, or a vulnerability in another software application, or something dressed up to look like a vulnerability, which we do see on occasion), we will proceed with next steps: identifying and publishing a fix, and then disclosing the issue and fix to the public.
+
 Another option is to submit an issue (and, if available, a patch in the form of a pull request) via [Github](https://github.com/pkp/pkp-lib).
 
 **My journal has a ton of spam registrations. Is there anything I can do about this?**

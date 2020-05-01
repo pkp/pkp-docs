@@ -72,8 +72,7 @@ The following articles provide a good introduction to character sets and encodin
 * Generate two db dumps:
  * `mysqldump db --opt --default-character-set=latin1 result-file=latin1.sql`
  * `mysqldump db --opt --default-character-set=utf8 result-file=utf8.sql`
-* Explore each dump file in vim using its character encoding tools: https://spin.atomicobject.com/2011/06/21/character-encoding-tricks-for-vim/ 
-
+* Explore each dump file in vim using its character encoding tools: [https://spin.atomicobject.com/2011/06/21/character-encoding-tricks-for-vim/](https://spin.atomicobject.com/2011/06/21/character-encoding-tricks-for-vim/)
 
 #### Common Problem #1: Latin1 table definitions with UTF8 data
 
@@ -84,18 +83,18 @@ By default, journals on our servers are correctly configured to use UTF8 setting
 The following conversion steps and import process can be used to resolve these issues:
 
 Conversion steps:
-* ask for a latin1 mysql dump with --default-character-encoding=latin1 --result-file=dump.latin1.sql
-* open dump.latin.sql in vim
+* ask for a latin1 mysql dump with `--default-character-encoding=latin1 --result-file=dump.latin1.sql`
+* open `dump.latin.sql` in vim
 * remove 'SET NAMES latin1' from the top of the file
-* replace latin1 table definitions with utf8 table definitions via :%s/CHARSET=latin1/CHARSET=utf8/g
-* set the file encoding for the file to utf8 via :set fileencoding=utf8
-* save the file to a new filename via :w dump.utf8.sql
+* replace latin1 table definitions with utf8 table definitions via `:%s/CHARSET=latin1/CHARSET=utf8/g`
+* set the file encoding for the file to utf8 via `:set fileencoding=utf8`
+* save the file to a new filename via `:w dump.utf8.sql`
 
 Import steps:
-* create a clean utf8 database: CREATE DATABASE import\_ojs DEFAULT CHARSET utf8;
-* switch to the new db: USE import\_ojs
-* set everything to utf8: SET NAMES utf8;
-* import the converted dump: SOURCE dump.utf8.sql;
+* create a clean utf8 database: `CREATE DATABASE import\_ojs DEFAULT CHARSET utf8;`
+* switch to the new db: `USE import\_ojs`
+* set everything to utf8: `SET NAMES utf8;`
+* import the converted dump: `SOURCE dump.utf8.sql;`
 
 ... and so on, replacing "article\_settings" with the table you need to clean up, and "setting\_value" with the column in the table needing cleanup.
 
@@ -110,7 +109,7 @@ The following steps can be used to resolve this encoding issue:
 * Install on your local machine [ftfy](https://ftfy.readthedocs.io/en/latest/), as it is a python tool it will require python3 installed as well;
 * Edit the command-line ftfy executable cli.py (it may be in a different path depending on your environment.): 
 	`/usr/local/lib/python3.6/site-packages/ftfy/cli.py`
-* Around line 100 ($ vim +100 cli.py) add an extra parameter 'uncurl_quotes=False' to the fix_file function. It will like as follows:
+* Around line 100 (`$ vim +100 cli.py`) add an extra parameter 'uncurl_quotes=False' to the fix_file function. It will like as follows:
 
 ```
 for line in fix_file(file, encoding=encoding,
@@ -137,14 +136,13 @@ UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚
 UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬ ¦', '"¦');
 ```
 
-If all else fails: 
+If all else fails:
 
-Kurt has run the following dump command with some success, but without explaining exactly what it does: 
+Kurt has run the following dump command with some success, but without explaining exactly what it does:
 
 `mysqldump ocs-$USERNAME --opt --default-character-set=latin1 --skip-set-charset --single-transaction  --ignore-table=ocs-$USERNAME.paper_search_keyword_list --ignore-table=ocs-$USERNAME.paper_search_object_keywords --ignore-table=ocs-$USERNAME.paper_search_objects --result-file=/tmp/$USERNAME.sql`
 
-
-## Error-reporting: Blank Pages, Diagnostics, etc. 
+## Error-reporting: Blank Pages, Diagnostics, etc.
 
 ### When I click some button or follow some link, I'm left with a blank page. What do I do?
 
@@ -227,11 +225,11 @@ You are probably receiving an error similar to
 * fill in all installation fields as appropriate, ensuring that you write in the correct name for your newly-created database;
 * uncheck the "Create new Database" option;
 * click the "Manual Install" option at the very bottom of the installation page.
-* copy the database query from the resulting page, and run it against your database via phpMyAdmin or similar. 
+* copy the database query from the resulting page, and run it against your database via phpMyAdmin or similar.
 
 Please note that when you click the Manual Install button, the resulting page will say that the OJS/OMP/OCS Install has completed successfully, but this isn't quite true: you still have to copy the SQL statements and add them to your database manually.
 
-**Note:** You may also be encountering a plugin bug. There have been plugin bugs in the past where plugins have attempted to access the "journals" table before the installer has created the table; these will result in a "Table 'ojs.journals' doesn't exist" message when someone attempts to load the installer page in the first place. In this case, you can narrow it down to a particular plugin by checking the stack trace. 
+**Note:** You may also be encountering a plugin bug. There have been plugin bugs in the past where plugins have attempted to access the "journals" table before the installer has created the table; these will result in a "Table 'ojs.journals' doesn't exist" message when someone attempts to load the installer page in the first place. In this case, you can narrow it down to a particular plugin by checking the stack trace.
 
 ## PHP and PKP Application Compatibility
 
@@ -239,7 +237,7 @@ If you are running PHP 5.3+ \(which you should be doing\), you will need to run 
 
 If you are running PHP 7+, you will need to run OJS 3.0+.
 
-OJS and OMP 3.1+ **requires** PHP 5.6 or above.
+OJS and OMP 3.1.2+ **requires** PHP 7.1 or above. Refer to [docs/README](https://github.com/pkp/ojs/tree/master/docs) for your OJS/OMP version for more information about PHP system requirements.
 
 **NOTE**: If you are running OJS or OMP 3.x on a PHP7+ LAMP stack, please remember to update your MySQL driver parameter\(Database section\) on `config.inc.php` file, i.e.:
 
