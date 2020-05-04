@@ -1,6 +1,6 @@
 # Email
 
-This chapter explains how emails are sent in OJS, OMP, and OCS; the configuration options that are available; and how to troubleshoot email issues. 
+This chapter explains how emails are sent in OJS, OMP, and OCS; the configuration options that are available; and how to troubleshoot email issues.
 
 Mail in PKP software applications uses [the PHPMailer library](https://github.com/PHPMailer/PHPMailer). You can find out more about PHPMailer on [their wiki](https://github.com/PHPMailer/PHPMailer/wiki). Other code related to mail can be found in [the pkp-lib mail class](https://github.com/pkp/pkp-lib/tree/master/classes/mail).
 
@@ -58,7 +58,7 @@ PKP software applications provide a number of options for configuring emails to 
 ; dmarc_compliant_from_displayname = '%n via %s'
 ```
 
-To find out more about email within the OJS user interface, see [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/) or [Learning OJS 2](https://docs.pkp.sfu.ca/learning-ojs-2/en/).
+To find out more about email within the OJS user interface, see [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/).
 
 ## Sending Mail
 
@@ -156,7 +156,7 @@ Additional information about Gmail SMTP is available at [https://support.google.
 
 Note that you may have to additionally configure application-specific passwords in Gmail; see [https://support.google.com/accounts/answer/185833?hl=en](https://support.google.com/accounts/answer/185833?hl=en) for details.
 
-##  SPF and DMARC Issues
+## SPF and DMARC Issues
 
 ### Sender Policy Framework (SPF)
 
