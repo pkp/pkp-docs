@@ -40,7 +40,7 @@ Have you made a document about PKP software that is specific to your local insti
 
 ### Identify documentation that is missing or needs improvement
 
-If you notice something that there should be documentation for or existing documentation that needs to be corrected, updated, or explained more clearly, we want to know. You can send your suggestion to [documentation@publicknowledgeproject.org](mailto:documentation@publicknowledgeproject.org), file an issue in the [GitHub PKP Docs repository](https://github.com/pkp/pkp-docs), or click the *Improve this page* link on any page in the Documentation Hub. To file an issue in the repository, you first have to create a GitHub account and sign in.
+If you notice something that there should be documentation for or existing documentation that needs to be corrected, updated, or explained more clearly, we want to know. You can send your suggestion via our [feedback form](https://pkp.sfu.ca/documentation-feedback) or file an issue in the [GitHub PKP Docs repository](https://github.com/pkp/pkp-docs). To file an issue in the repository, you first have to create a GitHub account and sign in. If you want to edit a document directly, you can click the *Improve this page* link on any page in the Documentation Hub. 
 
 Members of the DIG review suggestions and add them to lists of potential tasks. Please provide as much detail as possible in your suggestion.
 
