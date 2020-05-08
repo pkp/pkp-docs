@@ -146,7 +146,9 @@ Selecting the blue arrow to the left of the role name reveals the edit link. Cli
 
 ![](./assets/learning-ojs3.1-jm-users-roles-edit.png)
 
-**Permission Level**: This indicates how much a user with this role can do in any stage. The Journal Assistant level can communicate with other users and upload and revise files.
+**Permission Level**: This indicates how much a user with this role can do in any stage.
+
+The Journal Assistant level can communicate with other users and upload and revise files. In Journals where only one user has been assigned with an Assistant role, they will be automatically assigned to a new submission. Once a second person has been assigned this role, this action will stop.
 
 **Role Name**: You can use this field to easily rename any role.
 
