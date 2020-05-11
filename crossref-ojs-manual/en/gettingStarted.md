@@ -51,5 +51,5 @@ Let's break these steps down one by one.
 ## Additional Resources
 
 - [The DOI Handbook @ doi.org](https://www.doi.org/hb.html) – The DOI Handbook is a comprehensive guide to DOIs and their usage and is available in several languages.
+- [Crossref Curriculum](https://www.crossref.org/education/)
 - [Crossref Blog: URLs and DOIs, a complicated relationship](https://www.crossref.org/blog/urls-and-dois-a-complicated-relationship/) – A blog post from Crossref's Joe Wass that explains the difference between URLs and DOIs.
-- [Crossref FAQ](https://www.crossref.org/faqs/)
