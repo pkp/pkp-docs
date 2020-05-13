@@ -52,3 +52,9 @@ You will also find `$currentJournal` and `$currentPress` variables for ease-of-u
 ## Requests and Routing
 
 **`(string) $requestedPage`** and **`(string) $requestedOp`** provide the Page and Operation of the current request. This is useful if a template is loaded on different pages but you'd like to modify the display depending on where it appears.
+
+## Debugging
+
+Will be really dificult to keep an updated list of template's variables because ocasionally some will change and themes can add their own. If you want to see all the availiable variables you have in your template, we suggest use an smarty function called **`{debug}`**.
+
+You only need to place **`{debug}`** inside your template file, force your server to refresh your templates and refresh your page to get a pop-up window with a lot of useful data. More information [here](https://www.smarty.net/docs/en/language.function.debug.tpl).  
