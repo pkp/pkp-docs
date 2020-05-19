@@ -74,7 +74,7 @@ public function init() {
 > All of the form field components can be seen in the [UI Library](/dev/ui-library/dev).
 {:.tip}
 
-Use any field type that extends the `Field` class except the `FieldUpload` and `FieldUploadImage` types. File uploads are not yet supported for theme options.
+> Use any field type that extends the `Field` class except the `FieldUpload` and `FieldUploadImage` types. File uploads are not yet supported for theme options. {:.warning}
 
 
 ## Use a theme option
