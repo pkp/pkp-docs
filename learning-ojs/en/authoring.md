@@ -150,7 +150,8 @@ If you notice that the ‘Save’ button is grey and inactive, this means you wi
 
 Once the review process has completed, you will be notified via email by the editor of their decision.
 
-After receiving the email, login to your dashboard.
+After receiving the email with the decision, login to your dashboard. Select the manuscript you have been notified about.
+
 
 ![](./assets/learning-ojs-3-auth-responding-revisions.png)
 
