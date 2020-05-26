@@ -200,8 +200,6 @@ The editor will receive a notification about the new file(s) being uploaded. Add
 
 From there, select the *Add Discussion* link.
 
-![](./assets/learning-ojs-3-auth-responding-discussion-add.png)
-
 Select the users you want to notify under Participants.
 
 ![](./assets/learning-ojs-3.2-auth-responding-discussion-add.png)
