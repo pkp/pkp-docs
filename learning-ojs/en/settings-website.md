@@ -160,7 +160,7 @@ Selecting the plugin title will provide additional details, including the author
 ### External Plugins
 
 Sometimes new plugins or plugins that are developed by folks outside of PKP will not appear in the Plugin Gallery and you need to install them separately.
-1. Download the tar.gz file or .zip file of the plugin from its repository.
+1. Download the tar.gz file of the plugin from its repository under the Releases tab.
 2. Go to Installed Plugins tab.
 3. At top right, click Upload a New Plugin.
 4. Upload the plugin file.
@@ -281,6 +281,33 @@ Finally, you have to add the custom block you just created to your sidebar.
 3. Drag and drop the block over to **Sidebar**. You can drag and drop all your blocks in the desired order.
 
 Another option is to use the [Twitter sidebar plugin](https://github.com/RBoelter/ojs3-twitter-sidebar). This plugin makes Twitter block for the sidebar.
+
+#### Disqus plugin
+
+The [Disqus plugin](https://github.com/ajnyga/disqus) integrates with [Disqus](disqus.com) and allows users to add comments to the article pages. 
+
+The Disqus plugin is a third-party plugin and must be installed from its Github repository.
+
+After you install and enable the plugin, you must register for a Disqus account on the [Disqus website](disqus.com). When you register, choose the option to use Disqus on your website. Disqus offers free and paid plans and you must choose a plan when you register.
+
+When asked to register your **Website Name**, create a name based on your journal name. This will show up in Disqus feeds, email notifications, and your Community tab. For example, "pkpworkshopsjournal."
+
+Skip the **Install Disqus** step and go to **Configure Disqus**. Enter your journal url in the **Website URL** field. Enter your comments policy as applicable.
+
+![](./assets/learning-ojs-3.2-settings-plugin-disqus-configure-disqus.png)
+
+Now you can configure the Disqus plugin on your journal site:
+1. Go to Website Settings > Plugins
+2. Find the Disqus plugin
+3. Click the blue arrow next to the plugin name and **Settings** that will appear below
+4. Enter the Website Name from your Disqus account in the **Disqus forum's shortname** field
+5. Click **OK**
+
+![](./assets/learning-ojs-3.2-settings-plugin-disqus-configure-plugin.png)
+
+After configuring the plugin, if you open one of your article pages, you should see Disqus comments at the bottom. Your users will have to register with Disqus to use the feature.
+
+![](./assets/learning-ojs-3.2-settings-plugin-disqus-comment-on-article.png)
 
 #### Hypothes.is plugin
 
