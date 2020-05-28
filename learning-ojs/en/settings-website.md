@@ -170,7 +170,7 @@ If upload fails you may get an error message that says, “The uploaded plugin a
 
 Remember to hit Save to record the change.
 
-### Content Enhancement/Discovery Plugins
+### Content Enhancement and Discovery Plugins
 
 OJS 3 has a number of plugins that you can enable to help enhance the user experience and discoverability of your content and journal. This section will outline the different plugins available in OJS and how to configure and use them.
 
