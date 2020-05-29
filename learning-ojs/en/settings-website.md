@@ -49,7 +49,7 @@ Where you can upload images (logo, thumbnail, homepage) to your sites main page,
 
 - **Page Footer**: Enter any images, text or HTML code that you'd like to appear at the bottom of your website.
 
-- **Sidebar**: This allows you to move different blocks in or out of the sidebar in the reader interface.
+- **Sidebar**: This allows you to move different blocks in or out of the sidebar in the reader interface. You can also create a custom block using the [Custom Block plugin](./settings-website.md#custom-block-plugin)
 
 ### Advanced
 
