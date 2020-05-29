@@ -52,7 +52,9 @@ It is not currently possible to add cc or bcc addresses to messages or to add at
 
 **Login As** allows you to temporarily log in as that user, for example, to complete an outstanding task.
 
-**Merge User** lets you fold this user account, including any submissions or assignments, into another user account on your system.
+#### Merge User 
+
+The Merge User feature lets you fold this user account, including any submissions or assignments, into another user account on your system.
 
 > **Note**: This is the only way to completely delete an account from the system.
 
