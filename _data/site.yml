@@ -23,4 +23,8 @@ navAbout:
   items:
     - "[Public Knowledge Project](https://pkp.sfu.ca)"
     - "[PKP&#124;Publishing Services](https://pkpservices.sfu.ca/)"
+navContact:
+  title: Contact
+  items:
+    - "[Contact Us](https://pkp.sfu.ca/documentation-feedback/)"
 toggleMenu: "Toggle Menu"
