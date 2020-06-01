@@ -150,23 +150,23 @@ If you notice that the ‘Save’ button is grey and inactive, this means you wi
 
 Once the review process has completed, you will be notified via email by the editor of their decision.
 
-After receiving the email, login to your dashboard.
+After receiving the email with the decision, login to your dashboard. Select the manuscript you have been notified about.
 
-![](./assets/learning-ojs-3-auth-responding-revisions.png)
+![](./assets/learning-ojs-3.2-auth-responding-revisions.png)
 
-Select the *Review* link next to your submission to view the decision.
+Within the Review tab of the manuscript, you will also see a copy of the Editorial Decision under Notifications. Depending on the type of peer review the journal uses, you may see less information on the Review tab of the journal. The example below shows an open peer review which allows authors to see who the reviewer was.
 
-![](./assets/learning-ojs-3-auth-responding-revisions2.png)
+![](./assets/learning-ojs-3.2-auth-responding-revisions2.png)
 
-From here, you can see the decision (revisions requested) and a link to the editor's notification.
+To view the Editorial decision, click the link under notifications.
 
-![](./assets/learning-ojs-3-auth-responding-revisions3.png)
+![](./assets/learning-ojs-3.2-auth-responding-revisions3.png)
 
 Based on the information in the editor's message, you must now prepare your revisions.
 
 ### Uploading the Revised File
 
-By scrolling down the page, you will find a panel for **Revisions**.
+Once you’re ready to upload the revised file, scroll down the page and find the panel for **Revisions**.
 
 ![](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
@@ -198,9 +198,9 @@ The editor will receive a notification about the new file(s) being uploaded. Add
 
 From there, select the *Add Discussion* link.
 
-![](./assets/learning-ojs-3-auth-responding-discussion-add.png)
+Select the users you want to notify under Participants.
 
-Use the *Add User* link to add the editor.
+![](./assets/learning-ojs-3.2-auth-responding-discussion-add.png)
 
 Add a subject line and a message.
 
@@ -218,9 +218,9 @@ You will receive an email that your revisions have been accepted.
 
 In addition, notifications will appear on your dashboard.
 
-![](./assets/learning-ojs-3-au-notifications.png)
+![](./assets/learning-ojs-3.2-au-notifications.png)
 
-The later notification is the current one. Click on it to open the message (which is the same as the email you would have also received).
+The notifications show up in order of date, meaning the most recent one will be on the bottom. Click on it to open the message (which is the same as the email you would have also received).
 
 ![](./assets/learning-ojs-3-au-notifications2.png)
 
