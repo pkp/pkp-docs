@@ -152,10 +152,9 @@ Once the review process has completed, you will be notified via email by the edi
 
 After receiving the email with the decision, login to your dashboard. Select the manuscript you have been notified about.
 
-
 ![](./assets/learning-ojs-3.2-auth-responding-revisions.png)
 
-Within the Review tab of the manuscript, you will also see a copy of the Editorial Decision under Notifications. Depending on the type of peer review the journal uses, you may see less information on the Review tab of the journal. The example below shows an open peer review which allows authors to see who the reviewer was. 
+Within the Review tab of the manuscript, you will also see a copy of the Editorial Decision under Notifications. Depending on the type of peer review the journal uses, you may see less information on the Review tab of the journal. The example below shows an open peer review which allows authors to see who the reviewer was.
 
 ![](./assets/learning-ojs-3.2-auth-responding-revisions2.png)
 
@@ -167,8 +166,7 @@ Based on the information in the editor's message, you must now prepare your revi
 
 ### Uploading the Revised File
 
-Once you’re ready to upload the revised file. Scroll down the page and find the panel for **Revisions**.
-
+Once you’re ready to upload the revised file, scroll down the page and find the panel for **Revisions**.
 
 ![](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
