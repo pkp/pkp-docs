@@ -5,19 +5,20 @@ Una vez que haya revisado las características de OJS 3 y haya decidido que dese
 Los pasos principales para completar una actualización son los siguientes:
 
 1. Decida si está listo para actualizar a OJS 3 y cuándo lo hará
-2. Comunique la actualización a su equipo editorial o a los contactos de la revista
-3. Asegúrese de que su servidor cumple con los requisitos de OJS 3 y modifíquelo si es necesario
-4. Haga un inventario
-5. Limpie la base de datos de usuarios/as existente
-6. Realice un "sandbox" o una actualización de prueba
-7. Evalúe, pruebe y solucione problemas de su sitio "sandbox" OJS 3
-8. Planifique un nuevo "theming"/aspecto de la revista
-9. Confirme que su equipo está listo para la actualización de producción
-10. Programe la actualización de producción
-11. Establezca fechas de congelación de contenido si es necesario
-12. Lleve a cabo la actualización de producción
-13. Evalúe, pruebe y solucione problemas de su nuevo sitio OJS 3
-14. Formación y configuración
+2. Decida a qué versión de OJS 3 actualizará
+3. Comunique la actualización a su equipo editorial o a los contactos de la revista
+4. Asegúrese de que su servidor cumple con los requisitos de OJS 3 y modifíquelo si es necesario
+5. Haga un inventario
+6. Limpie la base de datos de usuarios/as existente
+7. Realice un "sandbox" o una actualización de prueba
+8. Evalúe, pruebe y solucione problemas de su sitio "sandbox" OJS 3
+9. Planifique un nuevo "theming"/aspecto de la revista
+10. Confirme que su equipo está listo para la actualización de producción
+11. Programe la actualización de producción
+12. Establezca fechas de congelación de contenido si es necesario
+13. Lleve a cabo la actualización de producción
+14. Evalúe, pruebe y solucione problemas de su nuevo sitio OJS 3
+15. Formación y configuración
 
 Este capítulo se centra en los pasos iniciales de planificación y recursos humanos del proceso de actualización. El siguiente capítulo cubre los pasos técnicos.
 
@@ -30,6 +31,10 @@ El desarrollo de OJS sigue en curso y se lanzan nuevas versiones con nuevas cara
 - Si una versión de OJS 3 satisface sus necesidades, es hora de preparar a sus equipos de revistas para la actualización. Esto puede involucrar apoyo editorial, técnico y de recursos humanos. Deberá coordinar el momento de la actualización con todos los involucrados en la revista. Generalmente, el mejor momento para actualizar es cuando la revista no se encuentra en una fase activa del ciclo de publicación, y el momento específico de la actualización debe programarse cuando todos los miembros del equipo estén disponibles para realizar la actualización en sí y para revisar la revista inmediatamente después de la actualización por si surgieran problemas y se tuvieran que hacer los cambios necesarios para solucionarlos.
 
 Para obtener recursos adicionales que describan las nuevas funcionalidades en OJS 3 y los documentos relacionados con la actualización, consulte la sección "Recursos adicionales" al final de esta guía.
+
+## Decida a qué versión de OJS 3 quiere actualizar
+
+Generalmente, debería actualizar a la última versión de OJS. Sin embargo, si la última versión es una nueva versión mayor (por ejemplo, OJS 3.1.0, OJS 3.2.0), es posible que prefiera esperar hasta que la siguiente versión menor esté disponible (por ejemplo, OJS 3.1.0-1; OJS 3.2. 0-1) porque habitualmente una nueva versión principal tiene algunos errores inesperados que se solucionarán en la primera versión menor que sigue. Consulte el [https://pkp.sfu.ca/category/news/](sitio web de PKP) para obtener noticias sobre los lanzamientos y tomar esta decisión.
 
 ## Planifique su actualización
 
