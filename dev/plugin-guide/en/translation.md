@@ -38,19 +38,6 @@ The locale file defines the language and any messages that should be translated.
 </locale>
 ```
 
-Call the `addLocale()` method during registration to load the locale files.
-
-```php
-import('lib.pkp.classes.plugins.GenericPlugin');
-class TutorialExamplePlugin extends GenericPlugin {
-	public function register($category, $path, $mainContextId = NULL) {
-    $success = parent::register($category, $path);
-    $this->addLocale();
-		return $success;
-  }
-}
-```
-
 Then use the `__()` function to get a message in your plugin.
 
 ```php
