@@ -154,3 +154,26 @@ You can reset your password by:
 ![](./assets/learning-ojs3.1-ed-change-pw.png)
 
 Your password is now changed.
+
+### If you forgot your password
+
+Retrieving your password is a three-step process:
+
+First you need to request a new password:
+1. Click the **Login** link at the top-right corner of the navigation bar
+2. Click the **Forgot your Password** link on the following page
+3. Enter your email address
+4. Click **Reset Password**
+
+Then you need to check your email account and confirm your request: 
+1. Open your email account
+2. Open the confirmation email message from the journal (you may need to check your Spam folder)
+3. Click the link to confirm that you did indeed request your password to be reset. You will be taken back to the journal in question, and the system will email you a new password.
+
+Now you can retrieve you new temporary password and log in: 
+1. Go back to your email account
+2. Open the email message containing your temporary password (you may need to check your Spam folder)
+3. Log in to the journal with your temporary password
+4. Fill in a new password when prompted by the journal 
+
+If you need further assistance, contact the journal's editorial team. A list of contacts should be available on the **About** page.
