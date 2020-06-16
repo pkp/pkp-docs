@@ -10,7 +10,7 @@ Every request to a [PageHandler](./architecture-handlers#page-handlers) returns 
 class SettingsHandler extends Handler {
 	public function distribution(Array $args, Request $request) {
 		$templateMgr = TemplateManager::getManager($request);
-		return $templateMgr->display('/path/to/template.tpl');
+		return $templateMgr->display('path/to/template.tpl');
 	}
 }
 ```
@@ -25,7 +25,7 @@ class SettingsHandler extends Handler {
 		// Searches for a template in the following directories:
 		// - templates/distribution.tpl
 		// - lib/pkp/templates/distribution.tpl
-		return $templateMgr->display('/distribution.tpl');
+		return $templateMgr->display('distribution.tpl');
 	}
 }
 ```
@@ -63,7 +63,7 @@ class SettingsHandler extends Handler {
 		$templateMgr->assign([
 			'description' => 'This is an example description.',
 		]);
-		return $templateMgr->display('/path/to/template.tpl');
+		return $templateMgr->display('path/to/template.tpl');
 	}
 }
 ```
@@ -87,7 +87,7 @@ class SettingsHandler extends Handler {
 		$templateMgr->assign([
 			'items' => ['a', 'b', 'c'],
 		]);
-		return $templateMgr->display('/path/to/template.tpl');
+		return $templateMgr->display('path/to/template.tpl');
 	}
 }
 ```
@@ -175,7 +175,7 @@ class SettingsHandler extends Handler {
 		$templateMgr->assign([
 			'pageTitle' => __('manager.distribution.title'),
 		]);
-		return $templateMgr->display('/distribution.tpl');
+		return $templateMgr->display('distribution.tpl');
 	}
 }
 ```
