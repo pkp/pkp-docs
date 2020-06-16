@@ -4,7 +4,7 @@ title: Getting Started - Testing - OJS/OMP
 
 # Getting started
 
-We use [Cypress](https://www.cypress.io/) and [PHPUnit](https://phpunit.de/) to test our applications. Before you can run the tests, you will need to [clone and configure](./dev/documentation/en/getting-started) the application's repository so that you have a working installation of the application on your local environment.
+We use [Cypress](https://www.cypress.io/) and [PHPUnit](https://phpunit.de/) to test our applications. Before you can run the tests, you will need to [clone and configure](/dev/documentation/en/getting-started) the application's repository so that you have a working installation of the application on your local environment.
 
 ## Configure your environment
 
