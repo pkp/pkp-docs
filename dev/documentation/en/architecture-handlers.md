@@ -100,7 +100,8 @@ class IssueHandler extends Handler {
 }
 ```
 
-Templates use the [Smarty](https://www.smarty.net/) (v3) templating library.
+> Read the [Frontend](./frontend) section of this documentation to learn more about templates.
+{:.notice}
 
 ## API Handlers
 
@@ -294,37 +295,12 @@ Read the [Slim API Framework usage guide](http://www.slimframework.com/docs/v3/)
 
 ## Controller Handlers (deprecated)
 
+> **Controller Handlers are deprecated.** New features should be built using the UI Library components that interact with API Handlers.  However, they are common throughout the application and will remain in use for some time.
+{:.warning}
+
 Controller Handlers receive requests from UI Controllers and return `JSON` output. They act like Page Handlers except that they serve individual interactive UI components, such as a submission's list of files, discussions or participants.
 
-**Controller Handlers are deprecated.** New features should be built using the UI Library components that interact with API Handlers.  However, they are common throughout the application and will remain in use for some time.
-
-Learn more about [controller URLs, routes and ops](./architecture-routes#controller-routes).
-
-### JSONMessage Response
-
-Use the `JSONMessage` class to format a response for Controller Handlers.
-
-```php
-import('classes.controllers.grid.issues.IssueGridHandler');
-class BackIssueGridHandler extends IssueGridHandler {
-	public function deleteIssue($args, $request)
-		...
-		return JSONMessage(true);
-	}
-}
-```
-
-A Controller Handler will often return an HTML string in the `JSON` data package, which will be used by the [UI Controllers](./frontend#controllers) to update the DOM.
-
-```php
-import('classes.controllers.grid.issues.IssueGridHandler');
-class BackIssueGridHandler extends IssueGridHandler {
-	public function editIssue($args, $request)
-		$templateMgr = TemplateManager::getManager($request);
-		return JSONMessage(true, $templateMgr->display('/path/to/template.tpl'));
-	}
-}
-```
+Learn more about [working with controllers](./frontend-controllers).
 
 ---
 

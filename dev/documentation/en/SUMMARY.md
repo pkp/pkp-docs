@@ -12,11 +12,11 @@
   * [Entities](./architecture-entities)
   * [Database](./architecture-database)
   * [Plugins](./architecture-plugins)
-* Frontend
-  * Template Manager
-  * UI Library
-  * Components
-  * Controllers
+* [Frontend](./frontend)
+  * [Pages](./frontend-pages)
+  * [UI Library](./frontend-ui-library)
+  * [Components](./frontend-components)
+  * [Controllers](./frontend-controllers)
 * Utilities
   * Application
   * Cache
