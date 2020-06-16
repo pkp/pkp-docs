@@ -184,10 +184,10 @@ Even if no title appears on the page, the `pageTitle` must be set. It will be us
 
 ## Accessing Template Variables
 
-It is sometimes necessary to retrieve a variable that has already been assigned to the template. Use `get_template_var` to retrieve the variable.
+It is sometimes necessary to retrieve a variable that has already been assigned to the template. Use `getTemplateVars` to retrieve the variable.
 
 ```php
-$status = $templateMgr->get_template_var('status');
+$status = $templateMgr->getTemplateVars('status');
 $templateMgr->assign([
 	'isPublished' => $status === STATUS_PUBLISHED
 ]);
