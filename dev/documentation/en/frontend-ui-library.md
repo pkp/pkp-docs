@@ -139,7 +139,6 @@ class WorkflowHandler extends Handler {
 		$templateMgr->setState([
 			'components' => [
 				'exampleForm' => [
-					'id' => 'exampleForm',
 					'fields' => [...],
 				],
 			],
@@ -168,10 +167,24 @@ When the child component needs to update its props, it fires the `set` event wit
 const newData = {
 	fields: [...],
 };
-this.$emit('set', this.id, newData);
+this.$emit('set', 'exampleForm', newData);
 ```
 
-The `Page` component will locate the component's props and update them with the `newData`.
+The `Page` component will locate the component's props and update them with the `newData`. In order for this to work, the event must pass the object key, `exampleForm`, as the second argument in the `$emit` function.
+
+The following example shows how the `set` method in a `Page` component updates a component's data.
+
+```js
+set(key, newData) {
+	if (!this.components[key]) {
+		return;
+	}
+	this.components[key] = {
+		...this.components[key],
+		...newData
+	};
+}
+```
 
 ## Extend the Page Component
 
