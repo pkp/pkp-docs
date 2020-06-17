@@ -1,5 +1,5 @@
 ---
-title: Services - Technical Documentation - OJS/OMP
+title: Services - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Services
@@ -140,7 +140,7 @@ if (!empty($errors)) {
 }
 ```
 
-Once the properties have been validated, they can be merged with the object and saved. 
+Once the properties have been validated, they can be merged with the object and saved.
 
 Edit an existing object.
 

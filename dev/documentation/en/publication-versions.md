@@ -1,5 +1,5 @@
 ---
-title: Publication Versions - Technical Documentation - OJS/OMP
+title: Publication Versions - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Publication Versions

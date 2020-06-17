@@ -1,5 +1,5 @@
 ---
-title: Request Lifecycle - Technical Documentation - OJS/OMP
+title: Request Lifecycle - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Request Lifecycle

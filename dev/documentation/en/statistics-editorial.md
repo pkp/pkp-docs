@@ -1,5 +1,5 @@
 ---
-title: Editorial Statistics - Technical Documentation - OJS/OMP
+title: Editorial Statistics - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Editorial Statistics

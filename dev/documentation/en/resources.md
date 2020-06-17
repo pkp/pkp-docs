@@ -1,5 +1,5 @@
 ---
-title: Resources - Technical Documentation - OJS/OMP
+title: Resources - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Resources

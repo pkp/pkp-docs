@@ -1,5 +1,5 @@
 ---
-title: Entities - Technical Documentation - OJS/OMP
+title: Entities - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Entities

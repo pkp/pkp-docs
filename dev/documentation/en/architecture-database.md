@@ -1,5 +1,5 @@
 ---
-title: Database - Technical Documentation - OJS/OMP
+title: Database - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Database
