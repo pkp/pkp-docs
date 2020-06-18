@@ -22,7 +22,7 @@
   * Cache
   * Config
   * File
-  * Hooks
+  * [Hooks](./utilities-hooks)
   * Notifications
   * [Translation](./utilities-translation)
   * Updates
