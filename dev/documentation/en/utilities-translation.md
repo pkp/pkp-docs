@@ -80,7 +80,7 @@ Pass named parameters to the `{translate}` function to replace variables in the 
 
 A journal, press or preprint server may publish in more than one language. For that reason, all data objects and forms must be built to accept content in more than one language.
 
-> The Entities chapter describes how to [get multilingual data in the DataObject class](http://localhost:4000/dev/documentation/en/architecture-entities#dataobject-class) and how to [define multilingual properties in the schema](http://localhost:4000/dev/documentation/en/architecture-entities#multilingual).
+> The Entities chapter describes how to [get multilingual data in the DataObject class](/dev/documentation/en/architecture-entities#dataobject-class) and how to [define multilingual properties in the schema](/dev/documentation/en/architecture-entities#multilingual).
 {:.notice}
 
 Each journal, press, or preprint server can enable a locale in the UI, forms and submissions.

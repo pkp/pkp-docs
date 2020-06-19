@@ -109,9 +109,9 @@ The following hooks allow plugins to intervene in request handling and routing. 
 
 ### Entities
 
-The following hooks allow plugins to intervene in how [Entities](./architecture-entities) are fetched, validated, added and edited. Use these hooks to modify the properties of an object.
+The following hooks allow plugins to intervene in how [Entities](/dev/documentation/en/architecture-entities) are fetched, validated, added and edited. Use these hooks to modify the properties of an object.
 
-The hooks in the list below are available for any entity that has been converted to a [schema and service class](https://docs.pkp.sfu.ca/dev/documentation/en/architecture-entities).
+The hooks in the list below are available for any entity that has been converted to a [schema and service class](/dev/documentation/en/architecture-entities).
 
 | Hook | Usage |
 | --- | --- |
