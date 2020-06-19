@@ -59,7 +59,7 @@ When you have prepared your release package and made it publicly available, you 
   <maintainer>
     <name>Alec Smecher</name>
     <institution>Public Knowledge Project</institution>
-    <email>pkp.contact@sfu.ca</email>
+    <email>pkp.contact@gmail.com</email>
   </maintainer>
 
   <!-- For each release version, link to the release package
@@ -95,7 +95,7 @@ When you have prepared your release package and made it publicly available, you 
 </plugin>
 ```
 
-When you are ready, you can request a review by sending your XML snippet to Alec Smecher at pkp.contact@sfu.ca.
+When you are ready, you can request a review by sending your XML snippet to Alec Smecher at pkp.contact@gmail.com.
 
 Each plugin must pass a code review. Your plugin will be given a `reviewed` or `partner` certification. We may not include your plugin in the gallery if it does not pass review.
 
