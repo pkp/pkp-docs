@@ -23,6 +23,8 @@ HookRegistry::register('Context::delete', function($hookName, $args) {
 
 	// Code below is for demonstration and does not work
 	Email::send('admin@admin.com', 'The journal ' . $context->getLocalizedName() . ' was deleted.');
+
+	return false;
 });
 ```
 
@@ -37,6 +39,8 @@ HookRegistry::register('Context::add', function($hookName, $args) {
 	$context = $args[0];
 
 	$context->setData('publisherInstitution', 'Public Knowledge Project');
+
+	return false;
 });
 ```
 
@@ -53,6 +57,8 @@ HookRegistry::register('Deposit::xml', function($hookName, $args) {
 
 	// $xml is now a reference to the same string instead of a copy
 	// so changes made here will effect the original variable
+
+	return false;
 });
 ```
 
@@ -61,6 +67,8 @@ More than one callback can be registered to each hook. They are fired in the ord
 ```php
 HookRegistry::register('Crossref::deposit', function($hookName, $args) {
 	// ...
+
+	return false;
 }, HOOK_SEQUENCE_LATE);
 ```
 
