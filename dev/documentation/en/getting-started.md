@@ -1,5 +1,5 @@
 ---
-title: Getting Started - Technical Documentation - OJS/OMP
+title: Getting Started - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Getting Started

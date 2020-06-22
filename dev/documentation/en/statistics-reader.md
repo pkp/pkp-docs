@@ -1,5 +1,5 @@
 ---
-title: Reader Statistics - Technical Documentation - OJS/OMP
+title: Reader Statistics - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Reader Statistics

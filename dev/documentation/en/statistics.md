@@ -1,5 +1,5 @@
 ---
-title: Statistics - Technical Documentation - OJS/OMP
+title: Statistics - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Statistics

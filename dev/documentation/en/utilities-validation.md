@@ -1,5 +1,5 @@
 ---
-title: Validation - Technical Documentation - OJS/OMP
+title: Validation - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Validation

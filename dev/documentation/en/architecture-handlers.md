@@ -1,5 +1,5 @@
 ---
-title: Handlers - Technical Documentation - OJS/OMP
+title: Handlers - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Handlers

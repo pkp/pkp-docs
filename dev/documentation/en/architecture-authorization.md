@@ -1,5 +1,5 @@
 ---
-title: Authorization - Technical Documentation - OJS/OMP
+title: Authorization - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Authorization

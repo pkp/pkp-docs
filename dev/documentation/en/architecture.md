@@ -1,5 +1,5 @@
 ---
-title: Architecture - Technical Documentation - OJS/OMP
+title: Architecture - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Architecture

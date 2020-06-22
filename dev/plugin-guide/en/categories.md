@@ -228,7 +228,7 @@ Themes control the design and layout of a journal or press website. Read the [Th
 
 Generic plugins are loaded with every request. They hook into the application early in the [Request Lifecycle](/dev/documentation/en/architecture-request) and can be used to modify almost everything.
 
-Generic plugins use the Hooks system in OJS and OMP to intervene in the application. Hooks should be added in a plugin's `register()` method.
+Generic plugins use [Hooks](/dev/documentation/en/utilities-hooks) to intervene in the application. Hooks should be added in a plugin's `register()` method.
 
 ```php
 import('lib.pkp.classes.plugins.GenericPlugin');
@@ -251,7 +251,7 @@ class ExamplePlugin extends GenericPlugin {
 > Always check if the plugin is enabled before registering a hook. Otherwise, your plugin will run even when it has been disabled.
 {:.warning}
 
-Generic plugins are very powerful and can use any hook in the application. Look at the [examples](./examples) for ideas.
+Generic plugins are very powerful and can use any hook in the application. Look at the [examples](./examples) for ideas and learn about the most [common hooks](/dev/documentation/en/utilities-hooks#common-hooks).
 
 ## Other
 

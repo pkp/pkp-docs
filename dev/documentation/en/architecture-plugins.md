@@ -1,5 +1,5 @@
 ---
-title: Plugins - Technical Documentation - OJS/OMP
+title: Plugins - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Plugins

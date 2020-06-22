@@ -22,9 +22,9 @@
   * Cache
   * Config
   * File
-  * Hooks
+  * [Hooks](./utilities-hooks)
   * Notifications
-  * Translation
+  * [Translation](./utilities-translation)
   * Updates
   * [Validation](./utilities-validation)
 * Other

@@ -1,5 +1,5 @@
 ---
-title: Email Templates - Technical Documentation - OJS/OMP
+title: Email Templates - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Email Templates
