@@ -8,7 +8,7 @@ Vamos dar uma olhada na estrutura básica de um tema que chamaremos de `tutorial
 /plugins/themes/tutorial-theme/index.php
 /plugins/themes/tutorial-theme/TutorialThemePlugin.inc.php
 /plugins/themes/tutorial-theme/version.xml
-/plugins/themes/tutorial-theme/locale/en_US/locale.xml
+/plugins/themes/tutorial-theme/locale/pt_BR/locale.po
 /plugins/themes/tutorial-theme/styles/index.less
 /plugins/themes/tutorial-theme/styles/variables.less
 /plugins/themes/tutorial-theme/styles/structure.less
@@ -72,15 +72,28 @@ O arquivo `/plugins/themes/tutorial-theme/version.xml` é obrigatório para conf
 </version>
 ```
 
-O arquivo `/plugins/themes/tutorial-theme/locale/en_US/locale.xml` permite-nos configurar qualquer termo(_string_) no nosso tema para que  fique disponível para tradução para outros idiomas. Para fazer isso é necessário atribuir o termo(_string_) que se queira traduzir para uma _key_ .
+O arquivo `/plugins/themes/tutorial-theme/locale/pt_BR/locale.po` permite-nos configurar qualquer termo(_string_) no nosso tema para que  fique disponível para tradução para outros idiomas. Para fazer isso é necessário atribuir o termo(_string_) que se queira traduzir para uma _key_ .
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
-<locale name="pt_BR" full_name="Português (Brasil)">
-    <message key="plugins.themes.tutorial-theme.name">Tema Tutorial</message>
-    <message key="plugins.themes.tutorial-theme.description">Um tema de exemplo para o OJS ou o OMP desenvolvido com nossa fantástica documentação.</message>
-</locale>
+```po
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-30T11:58:35-07:00\n"
+"PO-Revision-Date: 2020-01-30 08:35+0000\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese (Brazil) <http://translate.pkp.sfu.ca/projects/ojs/"
+"themes-default/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.9.1\n"
+
+msgid "plugins.themes.tutorial-theme.name"
+msgstr "Tema Tutorial"
+
+msgid "plugins.themes.tutorial-theme.description"
+msgstr "Um tema de exemplo para o OJS ou o OMP desenvolvido com nossa fantástica documentação."
 ```
 
 Lembra como demos um nome e uma descrição para nosso tema na classe de plugin do tema? Agora podemos atualizar aqueles métodos para carregarem nossas _strings_ traduzidas.

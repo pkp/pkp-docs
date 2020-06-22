@@ -8,7 +8,7 @@ Let's take a look at the file structure of a basic theme we'll call `tutorial-th
 /plugins/themes/tutorial-theme/index.php
 /plugins/themes/tutorial-theme/TutorialThemePlugin.inc.php
 /plugins/themes/tutorial-theme/version.xml
-/plugins/themes/tutorial-theme/locale/en_US/locale.xml
+/plugins/themes/tutorial-theme/locale/en_US/locale.po
 /plugins/themes/tutorial-theme/styles/index.less
 /plugins/themes/tutorial-theme/styles/variables.less
 /plugins/themes/tutorial-theme/styles/structure.less
@@ -73,15 +73,25 @@ The `/plugins/themes/tutorial-theme/version.xml` file is required to configure m
 </version>
 ```
 
-The `/plugins/themes/tutorial-theme/locale/en_US/locale.xml` file allows us to make any strings in our theme ready for translation. We do this by assigning strings a key.
+The `/plugins/themes/tutorial-theme/locale/en_US/locale.po` file allows us to make any strings in our theme ready for translation. We do this by assigning strings a key.
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
-<locale name="en_US" full_name="U.S. English">
-    <message key="plugins.themes.tutorial-theme.name">Tutorial Theme</message>
-    <message key="plugins.themes.tutorial-theme.description">An example theme for OJS or OMP built with our amazing documentation.</message>
-</locale>
+```po
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-06-19T13:50:00+00:00\n"
+"PO-Revision-Date: 2020-06-19T13:50:00+00:00\n"
+"Language: \n"
+
+msgid "plugins.themes.tutorial-theme.name"
+msgstr "Tutorial Theme"
+
+msgid "plugins.themes.tutorial-theme.description"
+msgstr "An example theme for OJS or OMP built with our amazing documentation."
 ```
 
 Remember how we gave our theme a name and description in the theme plugin class? We can now update those methods to load our translated strings.
