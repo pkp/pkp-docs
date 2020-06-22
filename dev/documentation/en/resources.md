@@ -23,13 +23,19 @@ A CLI script to [generate submissions for import](https://gist.github.com/NateWr
 
 ## Generate metrics
 
-A CLI tool to [generate fake metrics data](https://gist.github.com/NateWr/32322ca420a0abb37c035506dd51601d). Creates fake stats entries for each submission in your instance.
+A CLI tool is available to generate usage statistics for each submission in your instance. From the root directory of an application, run:
+
+```
+php lib/pkp/generateTestMetrics.php <context_id> <start_date> <end_date>
+```
+
+Dates should be in the format `YYYY-MM-DD`.
 
 ## Remove a locale key
 
-A CLI tool to [remove a locale key from every locale](https://gist.github.com/NateWr/dd912a94e8809d91698e59f16fa96a5d). This can be useful when a locale key is no longer used and needs to be removed from every locale.
+A CLI tool is available to remove locale keys. This can be useful when a locale key is no longer used and needs to be removed from every locale.
 
-Copy the file into the `tools` directory of your OJS, OMP or OPS instance and run the following command.
+From the rood directory of an application, run:
 
 ```
 php tools/removeLocaleKey.php example.locale.key
