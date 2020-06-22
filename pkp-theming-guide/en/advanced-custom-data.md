@@ -33,6 +33,8 @@ class DocsThemePlugin extends ThemePlugin {
 		// Attach a custom piece of data to the TemplateManager
 		$myCustomData = 'This is my custom data. It could be any PHP variable.';
 		$templateMgr->assign('myCustomData', $myCustomData);
+
+		return false;
 	}
 }
 ```
@@ -67,6 +69,8 @@ class DocsThemePlugin extends ThemePlugin {
 			$announcements =& $announcementDao->getNumAnnouncementsNotExpiredByAssocId(ASSOC_TYPE_JOURNAL, $journal->getId(), 3);
 			$templateMgr->assign('announcements', $announcements->toArray());
 		}
+
+		return false;
 	}
 }
 ```
@@ -99,7 +103,7 @@ class DocsThemePlugin extends ThemePlugin {
 
 		// Don't do anything if we're not loading the right template
 		if ($template != 'frontend/pages/article.tpl') {
-			return;
+			return false;
 		}
 
 		// Attach the latest 3 announcements if they're enabled for this journal
@@ -110,6 +114,8 @@ class DocsThemePlugin extends ThemePlugin {
 			$announcements =& $announcementDao->getNumAnnouncementsNotExpiredByAssocId(ASSOC_TYPE_JOURNAL, $journal->getId(), 3);
 			$templateMgr->assign('announcements', $announcements->toArray());
 		}
+
+		return false;
 	}
 }
 ```

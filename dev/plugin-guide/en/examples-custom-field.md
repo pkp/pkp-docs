@@ -38,6 +38,8 @@ class InstitutionalHomePlugin extends GenericPlugin {
 			'multilingual' => true,
 			'validation' => ['nullable']
 		];
+
+		return false;
   }
 
   /**
@@ -63,6 +65,8 @@ class InstitutionalHomePlugin extends GenericPlugin {
 			'groupId' => 'publishing',
 			'value' => $context->getData('institutionalHome'),
 		]));
+
+		return false;
 	}
 }
 ```

@@ -201,6 +201,8 @@ HookRegistry::register('Form::config::before', function($hookName, $form) {
 			['value' => 'physics', 'label' => __('subject.physics'),
 		],
 	});
+
+	return false;
 }
 ```
 

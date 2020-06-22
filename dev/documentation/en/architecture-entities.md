@@ -235,6 +235,8 @@ HookRegistry::register('Schema::get::context', function($hookName, $args) {
 		'multilingual' => true,
 		'validation' => ['nullable']
 	];
+
+	return false;
 });
 ```
 
@@ -246,7 +248,9 @@ HookRegistry::register('Schema::get::context', function($hookName, $args) {
   if (!property_exists($schema->properties, 'acronym')) {
     return;
   }
-  $schema->properties->acronym->validation = ['max:3'];
+	$schema->properties->acronym->validation = ['max:3'];
+
+	return false;
 });
 ```
 
