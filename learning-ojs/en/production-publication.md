@@ -574,7 +574,7 @@ If the scheduled manuscript is unscheduled from the issue, the previously schedu
 
 ## Versioning of Articles
 
-An ability to publish versions of articles is one of the major new features in OJS 3.2.
+An ability to publish versions of articles is one of the major new features in OJS 3.2. This feature supports preprint publication and publishing new versions of articles when a correction or significant change has been made. With the versioning feature you can manage different versions of an article and clearly indicate which is the most current.
 
 Once an article is published, neither metadata nor galleys can be edited. When a revision of a published article or metadata is necessary, it can be done in one of two ways:
 
@@ -610,4 +610,11 @@ Example of an outdated version message on the PDF galley page:
 
 The article URL will always point to the most recent version, with earlier versions being available at the same URL with the version at the end of the URL (e.g. /version/1234/).
 
+### DOIs and Indexing of Versions
 Where a DOI was assigned to the original version, it will not be changed automatically. Previously deposited CrossRef metadata will not be automatically updated. If article metadata was changed, we recommend updating CrossRef metadata in the CrossRef XML Export Plugin by manually depositing the updated article. For instructions on how to manually deposit an article see the PKP’s [CrossRef Plugin Guide - Manual Deposits](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits).
+
+Indexing services and repositories that use OAI to harvest metadata will need to harvest the article metadata again in order to update to the new version.
+
+The new version will be tagged properly to be recognized and updated by Google Scholar's index, but the harvester will need to visit your site again in order to find the new version.  
+
+It is best to check with a particular repository or index to learn what their process is and what they require.
