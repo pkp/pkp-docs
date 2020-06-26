@@ -8,8 +8,10 @@ copyright: "Copyright: Simon Fraser University holds the copyright for work prod
 copyright-button: "[![](https://licensebuttons.net/l/by/4.0/88x31.png \"Creative Commons Attribution 4.0 International\")](https://creativecommons.org/licenses/by/4.0/)"
 devVersion: "Warning: In Development"
 devVersionDescription: "This document describes features or capabilities that have not yet been released to the public. This information is provided as advanced notice for what we plan to be included in future versions. But the details here may change without warning."
-improveLink: "Improve this page"
+improveLink: "Edit this page"
 improveLinkBaseUrl: "https://github.com/pkp/pkp-docs/edit/master/"
+contactLink: "make a suggestion"
+contactBaseUrl: "https://pkp.sfu.ca/documentation-feedback/"
 logoAltText: "PKP Docs"
 navContrib:
   title: Community
