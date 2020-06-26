@@ -34,7 +34,7 @@ A secure deployment of PKP software can be best achieved by using the following 
 * Dedicate a database to OJS, OMP, and OCS; use unique credentials to access it. Configure this database to perform automated backups on a regular basis. Perform a manual backup when upgrading or performing maintenance. If you do not have access to your database contact your system administrator and ensure that database backups are taking place for your OJS.
 * Configure the software (`config.inc.php`) to use SHA1 hashing rather than MD5.
 * Enable captcha or recaptcha in your `config.inc.php` file, and test that they are working. This will prevent most spam user registrations.
-* Configure the software (`config.inc.php`) to use force_ssl_login so that authenticated users communicate with the server via HTTPS. (You will also have to properly create and configure an SSL certificate to do this properly.)
+* Configure the software (`config.inc.php`) to use `force_login_ssl` so that authenticated users communicate with the server via HTTPS. (You will also have to properly create and configure an SSL certificate to do this properly.)
 * Install the software so that the files directory is NOT a subdirectory of the OJS, OMP, or OCS installation and cannot be accessed directly via the web server.
 * Restrict file permissions as much as possible.
 * Deploy and test a proper backup mechanism. The backup mechanism should back up the database, the system files, and the submission files directory (the `files_dir` parameter in `config.inc.php`). Ideally, you should make both on-site and off-site backups.
