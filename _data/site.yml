@@ -12,6 +12,7 @@ improveLink: "Edit this page"
 improveLinkBaseUrl: "https://github.com/pkp/pkp-docs/edit/master/"
 contactLink: "make a suggestion"
 contactBaseUrl: "https://pkp.sfu.ca/documentation-feedback/"
+orText: "or"
 logoAltText: "PKP Docs"
 navContrib:
   title: Community
