@@ -20,5 +20,5 @@ The editorial interface is known as your dashboard and consists of the following
 
 5.__Main Panel Submenus__: Within the Main Panel, you will often see tabs that allow you to view various information about the area in which you are currently working. In this example, the submission record is broken into five sections (Submission, Internal Review, External Review, Copyediting, Production). Notice the Help tab to the right, which provides context-sensitive help for the page you are currently viewing.
 
-6.__Right Panel__: From here, you can see the action buttons, such as Send to Internal Review. Different pages have different action buttons or decision notifications. Below the action button or decision notification is the Participants table, which lists everyone (except Reviewers) involved in the submission.
+6.__Right Panel__: From here, you can see the action buttons, such as Send to Internal Review. Different pages have different action buttons or decision notifications. Below the action button or decision notification is the Participants table, which lists everyone (except Reviewers) involved in the submission. In the image above the action buttons are not shown as it has been published. 
 
