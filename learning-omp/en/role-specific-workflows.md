@@ -165,95 +165,284 @@ Once all the reviews are in, you must make a decision on the submission. You may
 
 These selections are found on the right panel in the Internal Review menu. 
 
-### Cancel Review Requests
-
-As of OMP 3.2, you now can now cancel review requests if you no longer require the review, the reviewer informed you that they cannot complete the review, or the reviewer has been unresponsive for a period of time.
-
-To cancel a review during the review stage
-1. Go to the manuscript which will open the Workflow tab and 
-2. Click on the review type initiated
-3. Select the Round of Review
-4. Scroll down to the Reviewers panel and click the blue arrow beside the reviewers name for additional options
-5. Select Cancel Review. This will populate an email text box if you want to send the reviewer an email regarding the cancellation. There is also the option to cancel without sending an email. 
-
-![](./assets/learning-omp3.2-workflow-editorial.png) 
-
 ## Copyediting Workflow
 
 Please refer to the Copyediting section of [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#copyediting).
 
-## Production Workflow
+## Production/Publication Workflow
 
-Following the Copyediting stage, the manuscript enters the Production stage. 
+Following the Copyediting stage, the manuscript enters the Production stage. In the Production stage you will finalize the metadata, configure publication formats, upload final files for publication, and publish the book online. 
 
-Whereas the production stage is generally initiated after the copyediting stage has been completed, the Editor may choose to add information as it becomes available earlier in the workflow process. 
+This chapter explains the steps in that process and the different tabs used in the production stage. 
 
-At the production stage you can review, edit, and finalize the information of the manuscript — including key metadata, abstract, category, contributors, chapters, submission type, permissions, the cover image, and identifiers and other metadata — by clicking **Catalog Entry**.
+Following the section on multilingual submission below, this chapter will outline the different tabs found in the production workflow and what information and files can be added within each tab.
 
-![](./assets/learning-omp_role-specific-workflow_catalog-entry.png)
+Finally, it will detail how to use the versioning feature new to OMP 3.2 to publish a new version of a book if significant changes are made.
 
-You will also upload the publication format(s) in the Production stage. Various book formats including audio, digital, hardback, paperback/softback can be configured, and proofs can be uploaded for auditing and final editorial approval. Publication Formats will be explained in greater detail below.
+Please note that in OMP 3.2, Catalog Entry has been replaced by the Publication tab. The Publication tab is now where you can add and edit metadata, identifiers, and publication formats. The Publication tab is explained in more detail below.
 
-Once the proofs are approved and the catalog information is checked and approved for publishing, the book is published online. **Terms for downloading monographs can be set.**
+To start working in Production, the Press Manager or Editor must log in to the system and choose the submission from their dashboard. 
 
-The production stage is used to create and manage publication formats **(e.g., Digital, Hardback, Paperback/ Softcover)**, final publication-ready versions of the submission, and the catalog itself. This process is **usually** managed by a production editor with the input and assistance of designers and proofreaders. Production Editors and other users can be assigned using the Participants menu.
+Clicking on the manuscript will open the submission record.
 
-All approved and copyedited submission files from the editorial stage are available in the Production Ready section, and additional files can be added if need be.
+![](./assets/learning-OMP-3.2-production-1.png)
 
-### Publication Formats
+You will see the copyedited files are now available in the __Production Ready Files panel__.
 
-Books can be published on your public OMP press site in a variety of formats, including HTML, PDF, and EPUB. These files must be uploaded during the Production stage as **publication formats**. You can also create publication formats for physical hardcover and paperback copies of the book.
+In the Workflow >Production tab, you can assign participants (such as a Production Editor) to the Production stage of the workflow and communicate with participants in the Production Discussions panel.
 
-The publication files must be prepared outside of OMP by a typesetter, graphic designer, or layout editor. Once they are ready to be published, create a publication format and then upload the file.
+![](./assets/learning-OMP-3.2-production-2.png)
 
-To add a publication format:
+This process is normally managed by a Production Editor, with the input and assistance of Designers and Proofreaders. Production Editors can be assigned from the Participants panel of the submission.
 
-1. Go to the Production stage of the submission
-2. In the section **Publication Formats**, click **Add Publication Format**
-3. In the box that appears, enter the file name (typically “PDF,” “HTML,” etc.) and fill out the other fields as necessary
-4. When finished click OK
+#### Prepare Files for Publication
 
-![](./assets/learning-omp_role-specific-workflow_pub-format.png)
+Books can be published on your public OMP press site in a variety of formats, including HTML, PDF, and EPUB. These files must be uploaded during the Production stage as publication formats. You can also create publication formats for physical hardcover and paperback copies of the book.
 
-Now you will see the publication format listed. It should say it is **Awaiting Approval**.
+The publication files must be prepared outside of OMP by a typesetter, graphic designer, or layout editor. 
 
-![](./assets/learning-omp_role-specific-workflow_pub-format2.png)
+Learning OJS 3.2 has information on how to prepare different formats of files for publication (for journals they are called “galley files”).
 
-To upload the file:
+In the event that a user (i.e., designer or layout editor does not have the proper permissions to upload files to the __Publication Formats__ on the __Publication tab__, final galley files can be uploaded under __Production Ready Files__.
 
-1. Below the publication format, click **Change File**
-2. Select the component type for the file
-3. Upload the file
-4. Click **Continue**
-5. Review details and click **Continue** again
-6. Click **Complete**
+![](./assets/learning-OMP-3.2-production-3.png)
 
-To add another format, follow the same steps.
+Alternatively, they can also be uploaded in the __Publication Formats__ in Publication tab. Additional instructions on __Publication Formats__ are provided below.
 
-You can upload multiple files for a single publication format, which you may wish to do when adding supplementary material or individual chapter files.
+![](./assets/learning-OMP-3.2-production-4.png)
 
-#### Add chapter files
+##### Contacting Author
 
-If you want to upload individual chapter files, you can create a publication format called **Chapter Files** and then upload a file for each chapter under that publication format. The separate chapter files will then be available under the metadata on the published book page.
+If your press will be sending proofs to the author for approval, you can use the Notify function in the Participants tab. See [Learning OJS - Chapter 15](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#contact-the-author) for more details. 
 
-Another option is to create a separate publication format for each chapter, but if you do that there will be links to each chapter along the right side of the book page on your website, along with the main publication formats (EBOOK, PDF, etc.).
+### Publication Tabs
 
-#### Approve publication formats and set terms
+The Publication tab allows you to edit or add information about the submission, including contributors, metadata, and identifiers for the final publication. It is also where you will upload the final publication files for publication in the Press.
 
-For a manuscript to appear in the public catalog, you must approve the submission's metadata for public display. Each publication format will have a two-step approval process.
+![](./assets/learning-omp3.2-workflow-production-meta.png)
 
-![](./assets/learning-omp_role-specific-workflow_pub-format-approve.png)
+__Title & Abstract__ Use this tab to edit the book title, subtitle, and abstract.
+If any changes are made, click Save before exiting this window.
 
-The first checkbox, **Awaiting Approval**, is for editors to sign off when the publication format's metadata is ready for publication.
+__Contributors__ Use this tab to add, edit, or remove book contributors.
+If any changes are made, click Save before exiting this window.
 
-The second checkbox, **Not Available**, is for approving the publication format for display to readers. Once this checkbox is toggled, any approved files will be shown to the user.
+__Chapters__ Use this tab to add multiple chapter files (if applicable)
 
-If a publication format has no approved files, it will not appear in the catalog.
+__Metadata__ Use this tab to add, edit or remove keywords and/or subjects.
 
-In order for a digital edition of a book to be available for download, you must:
-* Create a digital format (e.g., ebook) under the Production workflow stage
-* Upload files to the format's proofreading step in the Production workflow stage
-* Audit and approve all proofs
-* Ensure that the submission and the format type are both marked as available in the catalog
-* If charging a fee for the digital edition, ensure that you have a payment method selected under Management → Distribution * Process (either PayPal or manual payment)
-* Finally, ensure that you configure the Direct Sales Availability & Pricing section for that particular format in the Catalog Entry, where you can either set a particular format as Open Access or optionally set a fee for purchase
+__Publication Formats__ Use this tab to add Publication formats. See Publication Formats below for more information. 
+
+__Catalog Entry__ Use this tab to add catalog information including date, series, series position, and category. See Catalog Entry below for more information. 
+
+__Permissions & Disclosure__  Include details about the copyright holder and link to the publication license, if applicable. This will be automatically filled in according to your Distribution Settings.
+
+#### Chapters
+
+If your manuscript contains different chapters, you can add the information in this menu. 
+
+__Note__: Chapter files can only be added by the Editor or Production Editor of the press.
+
+To add a chapter after final galleys have been prepared, click __Add Chapter__.
+
+![](./assets/learning-omp3.2-workflow-production-chapters-1.png)
+
+Enter the following information: Title (required), Subtitle, Abstract, Pages, Contributor, and select the chapter file. 
+
+![](./assets/learning-omp3.2-workflow-production-chapters-2.png)
+
+##### Publication Dates
+
+If your chapters have different publication dates, there is an additional setting that can be enabled to add a field to enter this date.
+
+To enable this, see Publication Dates in the Marketing tab. 
+
+##### Adding Chapter files
+
+Once you have created your chapters you can add the chapter files by clicking the chapter name.
+
+![](./assets/learning-omp3.2-workflow-production-chapters-3.png)
+
+You will now find an additional box at the end to select your file. The files options listed here include the ones from the editorial workflow (indicated by username at the beginning) and the final production files (indicated by file type at the beginning).
+
+ If you do not see the chapter file listed here, you may need to upload it in the Production tab. 
+
+![](.assets/learning-omp3.2-workflow-production-chapters-4.png)
+
+#### Publication Formats
+
+Books can be published on your public OMP press site in a variety of formats, including HTML, PDF, EPUB, and more. Supplementary materials can also be published.
+
+These files can be uploaded by the Layout Editor or Editor depending on the workflow of your press.
+
+To add publication formats, click __Add publication format__.
+
+![](./assets/learning-omp3.2-workflow-production-formats-1.png)
+
+Enter the format title, select format from the drop-down list and select the option that applies. Click OK to save.
+
+![](./assets/learning-omp3.2-workflow-production-formats-2.png)
+
+##### Add Publication Format files
+
+Once you have added the publication formats, you can select the corresponding file by clicking __Select Files__.
+
+![](./assets/learning-omp3.2-workflow-production-formats-3.png)
+
+Select the file that corresponds with the publication format you’ve created.
+
+![](./assets/learning-omp3.2-workflow-production-formats-4.png)
+
+Once Publication Formats have been created you can update the Completion and Availability by clicking the blue boxes beside the formats.
+
+Once it has been approved and made available, the status bar will change accordingly. 
+
+![](./assets/learning-omp3.2-workflow-production-formats-6.png)
+
+#### Catalog Entry
+
+To add this publication to a catalog, fill and select the following information in this tab including
+* Publication Date 
+* Series
+* Series Position
+* Category 
+* URL Path
+* Cover Image and alternative text.
+
+#### Permission & Disclosure
+Your press will automatically assign the default permissions set in your Distribution Setting (Setting > Distribution Settings> License)
+
+If you need to override this, it can be done under this tab by clicking override. This will enable the textbox to the left where you can enter this information.
+
+![](./assets/learning-omp3.2-workflow-production-permission.png)
+
+### Marketing Tab
+
+The marketing tab will need to be completed prior to publishing the manuscript. The section below outlines what information should be entered in this tab. This information can be added at the Publication stage or at any point in this information becomes available throughout the workflow.
+
+![](./assets/learning-omp3.2-workflow-production-audience.png)
+
+Within the marketing type there are 3 menus that you can configure - audience, representative, publication dates.
+
+#### Audience 
+
+This is where you can add/select audience information for your ONIX export.
+
+Depending on your market, the Audience, Ranges and Education values may be handled in various ways.  In English speaking North America the following ONIX values are typically used.
+* ONIX Code List 28 for Audience codes
+* Audience Range for age and grade ranges
+
+![](./assets/learning-omp3.2-workflow-production-audience-1.png)
+
+__Audience__ - Identify the [intended audience](https://booknetcanada.atlassian.net/wiki/spaces/UserDocs/pages/16449595/How+do+Audience+Subject+Audience+Range+work+together+to+help+librarians+and+other+professionals+select+products) from the dropdown list. 
+
+![](./assets/learning-omp3.2-workflow-production-audience-2.png)
+
+__Audience Range Qualifier__
+
+__Audience Range__
+
+##### Additional Resources
+* [How do Audience / Subject / Audience Range work together to help librarians and other professionals select products?](https://booknetcanada.atlassian.net/wiki/spaces/UserDocs/pages/16449595/How+do+Audience+Subject+Audience+Range+work+together+to+help+librarians+and+other+professionals+select+products)
+* [ONIX](https://booknetcanada.atlassian.net/wiki/spaces/UserDocs/pages/1378909/ONIX)
+* [Thema Basics: Subject Categories, Qualifier Codes, National Qualifier Lists](https://booknetcanada.atlassian.net/wiki/spaces/UserDocs/pages/8257659/Thema+Basics+Subject+Categories+Qualifier+Codes+National+Qualifier+Lists#ThemaBasics:SubjectCategories,QualifierCodes,NationalQualifierLists-SubjectCategoriesvsQualifierCodes)
+
+#### Representative
+
+You can add Agents and Suppliers for your manuscript here by click Add Representative.
+
+![](./assets/learning-omp3.2-workflow-production-representative.png)
+
+In the pop-up box, you can select whether you are adding an Agent or Supplier. Depending on the selection, additional fields will be generated.
+
+In order to save you will need to fill all the required fields (marked with an asterisk). All remaining fields are optional.
+
+![](./assets/Learning-omp3.2-workflow-production-representative-2.png)
+
+To edit or delete a representative, click the blue arrow beside the name.
+
+![](./assets/learning-omp3.2-workflow-production-representative-3.png)
+
+
+#### Publication Dates
+
+If your manuscript will have multiple chapters with differing publication dates, you can enable it here. 
+
+![](./assets/learning-omp3.2-workflow-production-pubdate.png)
+
+This will enable an extra field for publication dates when adding chapter files.
+
+![](./assets/Learning-omp3.2-workflow-production-pubdate-2.png)
+
+### Multilingual Submissions 
+For multilingual books, the Title & Abstract, Metadata, Chapter and Permission & Disclosure tabs have options for adding and editing metadata in multiple languages. Languages must first be turned on in Website Settings > Setup > Languages.
+
+![](./assets/learning-omp3.2-workflow-production-multilingual.png)
+
+Under the ‘Publish’ button select the desired language. In the example above French and English are enabled. The french text boxes will appear beside the english when selected.
+
+
+### Publish
+
+Now that you’ve entered all the relevant information and proofs for your manuscript in the publication and marketing tabs, and are ready to click the Publish button.
+![](./assets/learning-omp3.2-workflow-production-publish-1.png)
+
+This will prompt a secondary box confirming you want to publish.
+
+![](./assets/learning-omp3.2-workflow-production-publish-2.png)
+
+Once you’ve published the manuscript, you will see the status change in the following places.
+
+![](./assets/learning-omp3.2-workflow-production-publish-3.png)
+
+#### Versioning 
+
+OMP 3.2 introduces a new versioning feature which gives you the ability to publish versions of books.
+
+Once a book is published, neither metadata nor publication files can be edited while the book is live. When a revision of a published book or metadata is necessary, it can be done in one of two ways:
+
+![](./assets/learning-omp3.2-workflow-production-versioning-1.png)
+
+##### Option 1: Unpublish and republish
+
+Unpublishing a book allows you to make changes without creating a new version. After unpublishing, you can update metadata and/or replace the publication file and schedule the book for publication again. 
+
+#### Option 2: Create new version
+
+When creating a new version, you will be able to make changes to the metadata and/or publication files. Make sure to click Save on the bottom right to record the changes.
+
+You can keep track of version updates under All Versions. Each version is marked by a number and date published. The version currently being updated is marked by a number and Unpublished.
+
+![](./assets/learning-omp3.2-workflow-production-versioning-2.png)
+
+Once your changes are completed, you can publish the new version by clicking Publish on the top right. 
+
+The list of prior versions and update dates will be listed on the publication page.
+
+![](./assets/learning-omp3.2-workflow-production-versioning-3.png)
+
+Readers will be able to access previous versions. They will see a message on the book page and publication file advising them that it is an outdated version and pointing them to the most recent version.
+
+![](./assets/learning-omp3.2-workflow-production-versioning-4.png)
+
+Example of an outdated version message on the publication  page:
+
+_The publication URL will always point to the most recent version, with earlier versions being available at the same URL with the version at the end of the URL_ (e.g. /version/1234/).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
