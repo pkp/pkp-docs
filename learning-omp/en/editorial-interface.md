@@ -16,10 +16,9 @@ The editorial interface is known as your dashboard and consists of the following
 
 3.__Metadata Bar__: This shows information about the manuscript. On the left is status, manuscript number, author, title. On the right are additional buttons that will allow you to preview the manuscript page once it’s published, and see the submission type (e.g. monograph, edited volume), activity log, and document library. "In the image above, you'll notice that the status is "Published," the manuscript number is 22, the author is Veletsianos, etc."
 
-4. __Main Panel__: In the main panel you will see the area of the workflow you are working in. In the image above, you are looking at Copyediting stage of the editorial workflow, as indicated by the red line under.
+4.__Main Panel__: In the main panel you will see the area of the workflow you are working in. In the image above, you are looking at Copyediting stage of the editorial workflow, as indicated by the red line under.
 
-5. __Main Panel Submenus__: Within the Main Panel, you will often see tabs that allow you to view various information about the area in which you are currently working. In this example, the submission record is broken into five sections (Submission, Internal Review, External Review, Copyediting, Production). Notice the Help tab to the right, which provides context-sensitive help for the page you are currently viewing.
+5.__Main Panel Submenus__: Within the Main Panel, you will often see tabs that allow you to view various information about the area in which you are currently working. In this example, the submission record is broken into five sections (Submission, Internal Review, External Review, Copyediting, Production). Notice the Help tab to the right, which provides context-sensitive help for the page you are currently viewing.
 
-
-6. __Right Panel__: From here, you can see the action buttons, such as Send to Internal Review. Different pages have different action buttons or decision notifications. Below the action button or decision notification is the Participants table, which lists everyone (except Reviewers) involved in the submission.
+6.__Right Panel__: From here, you can see the action buttons, such as Send to Internal Review. Different pages have different action buttons or decision notifications. Below the action button or decision notification is the Participants table, which lists everyone (except Reviewers) involved in the submission.
 
