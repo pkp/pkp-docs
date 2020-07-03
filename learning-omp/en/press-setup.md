@@ -12,6 +12,8 @@ In the Press Settings section, you can configure information about your press th
 
 You can find the Settings in the left menu panel when you are logged in as a user with Press Manager permissions. This section contains most of the information that you provided when originally creating your press (and which can be modified at any time). 
 
+In OMP 3.2, the Publisher information is now stored under the Press setting. You will need to enter all the information required to generate your ONIX metadata.
+
 ![](./assets/learning-omp3.2-press-setting-1.png)
 
 ![](./assets/learning-omp3.2-press-setting-2.png)
@@ -107,6 +109,14 @@ To display categories on your website you can go to Website Settings > Appearanc
 
 See the Catalog and Displaying Content chapter for instructions on how to add books to categories.
 
+### Public Identifiers 
+
+If your Press will be using Public Identifiers such as DOI or URN, these will need to be enabled in the Plugin Gallery (Website Settings > Plugin > Plugin Gallery).
+
+![](./assets/llearning-omp3.2-website-setting-indentifier-1.png)
+
+Once these have been enabled, you can click the blue arrow to configure the settings for both these. 
+
 ## Website Settings
 
 Please refer to the [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on Website Setting applicable to OMP. 
@@ -120,9 +130,7 @@ Workflow Settings include all submission and publication configuration options, 
 
 This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library. 
 
-Under Production, you will enter all the information required to generate your ONIX metadata.
-
-![](./assets/learning_omp-workflow_setting-ONIX.png)
+![](./assets/learning-omp3.2-workflow-setting.png)
 
 ## Distribution
 
