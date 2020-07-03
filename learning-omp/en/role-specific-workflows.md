@@ -165,6 +165,19 @@ Once all the reviews are in, you must make a decision on the submission. You may
 
 These selections are found on the right panel in the Internal Review menu. 
 
+### Cancel Review Requests
+
+As of OMP 3.2, you now can now cancel review requests if you no longer require the review, the reviewer informed you that they cannot complete the review, or the reviewer has been unresponsive for a period of time.
+
+To cancel a review during the review stage
+1. Go to the manuscript which will open the Workflow tab and 
+2. Click on the review type initiated
+3. Select the Round of Review
+4. Scroll down to the Reviewers panel and click the blue arrow beside the reviewers name for additional options
+5. Select Cancel Review. This will populate an email text box if you want to send the reviewer an email regarding the cancellation. There is also the option to cancel without sending an email. 
+
+![](./assets/learning-omp3.2-workflow-editorial.png) 
+
 ## Copyediting Workflow
 
 Please refer to the Copyediting section of [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#copyediting).
