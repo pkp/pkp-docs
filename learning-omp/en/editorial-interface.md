@@ -6,7 +6,7 @@ version: 3.2
 
 ![](./assets/learning-OMP-3.2-Dashboard-1.png)
 
-OMP 3.x has a separate interface once you log into the editorial system. This makes it easier to customize the reader interface.
+OMP 3.2 has a separate interface once you log into the editorial system. This makes it easier to customize the reader interface.
 
 The editorial interface is known as your dashboard and consists of the following elements:
 
