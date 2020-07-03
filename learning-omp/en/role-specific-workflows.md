@@ -407,7 +407,7 @@ Once a book is published, neither metadata nor publication files can be edited w
 
 Unpublishing a book allows you to make changes without creating a new version. After unpublishing, you can update metadata and/or replace the publication file and schedule the book for publication again. 
 
-#### Option 2: Create new version
+##### Option 2: Create new version
 
 When creating a new version, you will be able to make changes to the metadata and/or publication files. Make sure to click Save on the bottom right to record the changes.
 
