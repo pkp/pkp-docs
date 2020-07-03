@@ -134,4 +134,40 @@ This section will focus on the Production tab of Workflow Settings, as these are
 
 ## Distribution
 
-Please refer to [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on Distribution Settings and Subscriptions in OMP.
+### Payment 
+
+The payment configuration for OMP is much simpler than in OJS. If you are using your press to accept payment you have the option of PayPal or manual payment notification.
+
+#### PayPal
+
+For help setting up your paypal account see [Using the PayPal Plugin for OJS and OMP](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/)
+
+Once you have your paypal account set up, you will need to enter the following information under the Paypal Fee Payment setup.
+
+![](./assets/learning-omp3.2-distribution-payment-1.png)
+
+For books or publication versions that will be available for purchase, you will need to indicate the price of these in the Publication Formats by clicking __Set Terms __
+
+![](./assets/learning-omp3.2-distribution-payment-2.png)
+
+Select Direct Sales followed by the price and Save. 
+
+![](./assets/learning-omp3.2-distribution-payment-3.png)
+
+The book's landing page will now show the prices for each format.
+
+![](./assets/learning-omp3.2-distribution-payment-4.png)
+
+Users who wish to purchase will click the button which will direct them to paypal to complete payment. Once payment has been processed the document will become available to the user for reading and/or download. 
+
+#### Manual Payment
+
+If your press will be collecting payment in another form (e.g cheque, ETF)  you can provide the instructions under Manual Payment. 
+
+![](./assets/learning-omp3.2-distribution-payment-5.png)
+
+Opting for this payment method will provide users with the same payment button on the book’s landing page with instructions on how to pay and will prompt them to send notification of payment. 
+
+![](./assets/learning-omp3.2-distribution-payment-6.png)
+
+This notification will be sent to the Journal Manager via email with the users information (Full Name and Username). It will be up to the Press to determine the delivery method of the publication. 
