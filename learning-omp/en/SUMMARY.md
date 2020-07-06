@@ -2,6 +2,7 @@
 
 * [Preface](.)
 * [Introduction](./introduction.md)
+  * [OMP 3.2 Features](./introduction.md#omp-32-features)
 * [Installing and Upgrading](./install-upgrade.md)
   * [Download](./install-upgrade.md#download)
   * [Hosted Solutions](./install-upgrade.md#hosted-solutions)
