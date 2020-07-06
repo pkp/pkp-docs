@@ -36,14 +36,14 @@ Series can be used to help organize your publications. A series represents a spe
 
 To add a series, click **Add Series**  on the right corner of the Series table and fill in the following fields:
 
-* Cover Image: Upload a cover for the series (optional)
-* Title: Title of series
-* Description: Use this field to add details regarding the series, editor, editor information, etc.
-* ISSN: The 8-digit code to identify your print and/or online series (you can apply for an ISSN through your country’s ISSN centre, listed in the [ISSN Network](https://www.issn.org/the-centre-and-the-network/members-countries/the-issn-network-today/#))
-* Order Monograph: The order in which you would like monographs within the series to be displayed
+* __Cover Image__: Upload a cover for the series (optional)
+* __Title__: Title of series
+* __Description__: Use this field to add details regarding the series, editor, editor information, etc.
+* __ISSN__: The 8-digit code to identify your print and/or online series (you can apply for an ISSN through your country’s ISSN centre, listed in the [ISSN Network](https://www.issn.org/the-centre-and-the-network/members-countries/the-issn-network-today/#))
+* __Order Monograph__: The order in which you would like monographs within the series to be displayed
 ![](./assets/learning_omp-press_setup-mono_order.png)
-* Category: The subject matter this series will be part of
-* Path: What you want to use for the end of the URL 
+* __Category__: The subject matter this series will be part of
+* __Path__: What you want to use for the end of the URL 
 
 
 #### Edit Series
@@ -113,7 +113,7 @@ See the Catalog and Displaying Content chapter for instructions on how to add bo
 
 If your Press will be using Public Identifiers such as DOI or URN, these will need to be enabled in the Plugin Gallery (Website Settings > Plugin > Plugin Gallery).
 
-![](./assets/llearning-omp3.2-website-setting-indentifier-1.png)
+![](./assets/learning-omp3.2-website-setting-indentifier-1.png)
 
 Once these have been enabled, you can click the blue arrow to configure the settings for both these. 
 
@@ -146,7 +146,7 @@ Once you have your paypal account set up, you will need to enter the following i
 
 ![](./assets/learning-omp3.2-distribution-payment-1.png)
 
-For books or publication versions that will be available for purchase, you will need to indicate the price of these in the Publication Formats by clicking __Set Terms __
+For books or publication versions that will be available for purchase, you will need to indicate the price of these in the Publication Formats by clicking __Set Terms__
 
 ![](./assets/learning-omp3.2-distribution-payment-2.png)
 
