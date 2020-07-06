@@ -255,7 +255,7 @@ Enter the following information: Title (required), Subtitle, Abstract, Pages, Co
 
 If your chapters have different publication dates, there is an additional setting that can be enabled to add a field to enter this date.
 
-To enable this, see Publication Dates in the Marketing tab. 
+To enable this, see Publication Dates in the [Marketing tab](./role-specific-workflows.md#publication-dates-1). 
 
 ##### Adding Chapter files
 
@@ -320,7 +320,7 @@ If you need to override this, it can be done under this tab by clicking override
 
 The marketing tab will need to be completed prior to publishing the manuscript. The section below outlines what information should be entered in this tab. This information can be added at the Publication stage or at any point in this information becomes available throughout the workflow.
 
-![](./assets/learning-omp3.2-workflow-production-audience.png)
+![](./assets/Learning-omp3.2-workflow-production-audience.png)
 
 Within the marketing type there are 3 menus that you can configure - audience, representative, publication dates.
 
@@ -357,7 +357,7 @@ In the pop-up box, you can select whether you are adding an Agent or Supplier. D
 
 In order to save you will need to fill all the required fields (marked with an asterisk). All remaining fields are optional.
 
-![](./assets/Learning-omp3.2-workflow-production-representative-2.png)
+![](./assets/learning-omp3.2-workflow-production-representative-2.png)
 
 To edit or delete a representative, click the blue arrow beside the name.
 
@@ -377,7 +377,7 @@ This will enable an extra field for publication dates when adding chapter files.
 ### Multilingual Submissions 
 For multilingual books, the Title & Abstract, Metadata, Chapter and Permission & Disclosure tabs have options for adding and editing metadata in multiple languages. Languages must first be turned on in Website Settings > Setup > Languages.
 
-![](./assets/learning-omp3.2-workflow-production-multilingual.png)
+![](./assets/Learning-omp3.2-workflow-production-multilingual.png)
 
 Under the ‘Publish’ button select the desired language. In the example above French and English are enabled. The french text boxes will appear beside the english when selected.
 
