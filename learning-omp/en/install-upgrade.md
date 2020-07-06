@@ -28,11 +28,11 @@ During the OMP installation process, you must provide an initial Site Administra
 
 Clicking Save on the Add Press dialogue will save the information you added and bring you to a Press Creation wizard. The wizard has six setup steps (with mandatory fields being marked with an asterisk):
 
-* Masthead: general press information and your masthead
-* Contact: contact information for your principal contact
-* Appearance: various components of the press' appearance such as headers, footers, and layout
-* Submission: Submission Checklist presented to authors during the book submission process
-* Indexing: custom search engine indexing words
-* Users: add new initial users to the press
+* __Masthead__: general press information and your masthead
+* __Contact__: contact information for your principal contact
+* __Appearance__: various components of the press' appearance such as headers, footers, and layout
+* __Submission__: Submission Checklist presented to authors during the book submission process
+* __Indexing__: custom search engine indexing words
+* __Users__: add new initial users to the press
 
 The wizard includes only the most immediately important options that need to be configured before your press can go live. Once the six steps are complete, your press is live. You can modify these and other options at any time from your Management interface.
