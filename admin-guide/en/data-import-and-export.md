@@ -34,7 +34,7 @@ To use this plugin you will need the following:
 If you are importing data, first create the XML import file.  Here are links to sample XML import files and XML schemas:
 
 * Sample XML file for article metadata: [https://github.com/pkp/ojs/blob/master/plugins/importexport/native/sample.xml](https://github.com/pkp/ojs/blob/master/plugins/importexport/native/sample.xml)
-* Sample XML file for issue metadata: [https://github.com/pkp/ojs/blob/master/tests/data/60-content/issue.xml](https://github.com/pkp/ojs/blob/master/tests/data/60-content/issue.xml)
+* Sample XML file for issue metadata: [https://github.com/pkp/ojs/blob/master/plugins/importexport/native/tests/functional/testissue.xml](https://github.com/pkp/ojs/blob/master/plugins/importexport/native/tests/functional/testissue.xml)
 * XML schema for use across PKP software applications: [https://github.com/pkp/pkp-lib/blob/master/plugins/importexport/native/pkp-native.xsd](https://github.com/pkp/pkp-lib/blob/master/plugins/importexport/native/pkp-native.xsd)
 * XML schema for use in OJS: [https://github.com/pkp/ojs/blob/master/plugins/importexport/native/native.xsd](https://github.com/pkp/ojs/blob/master/plugins/importexport/native/native.xsd)
 
