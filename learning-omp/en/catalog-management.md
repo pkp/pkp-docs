@@ -13,14 +13,14 @@ Authors may also assign their original submissions to various categories and ser
 
 ### Create a new catalog entry 
 
-You can create a new entry from the list of submissions in Catalog > All Monographs by clicking ‘Add Entry’ on the main panel submenu.
+You can create a new entry from the list of submissions in Catalog > All Monographs by clicking __Add Entry__ on the main panel submenu.
 
 ![](./assets/learning_omp-catalog-managment_add-entry.png)
 
-Select the submission(s) you want to add to the catalog and click ‘Add Selected to Catalog.’
+Select the submission(s) you want to add to the catalog and click __Add Selected to Catalog.__
 
 ### Create a catalog entry for a chapter 
-See section on adding Chapter files.
+See section on adding [Chapter files](./role-specific-workflows.md#chapters).
 
 ### Create a catalog entry within a manuscript submission 
 To create a catalog entry within the submission of a manuscript:
@@ -55,11 +55,11 @@ To select, add, or edit your spotlight go to Catalog > Spotlights.
 
 ### Author Browse Lists 
 
-#### How to include authors in browse lists. 
+#### How to include authors in browse lists
 
 All contributors listed for each manuscript will be displayed in the monograph’s summary page.
 
-![](.assets/learning-omp3.2-catalog-browse.png)
+![](./assets/learning-omp3.2-catalog-browse.png)
 
 When entering contributors, the submitting author will have the option to include all other contributors in the browse list.
 
