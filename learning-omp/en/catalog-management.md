@@ -32,7 +32,7 @@ To create a catalog entry within the submission of a manuscript:
 
 ### Select Featured and New Release entries 
 
-In Catalog > All Monographs you will see checkboxes beside each catalog entry that will allow you to designate it as a Featured Entry or a New release.
+In Catalog > All Monographs you will see checkboxes beside each catalog entry that will allow you to designate it as a Featured Entry or a New Release.
 
 ![](./assets/learning-omp3.2-catalog-management-featured.png)
 
