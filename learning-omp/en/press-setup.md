@@ -12,9 +12,11 @@ In the Press Settings section, you can configure information about your press th
 
 You can find the Settings in the left menu panel when you are logged in as a user with Press Manager permissions. This section contains most of the information that you provided when originally creating your press (and which can be modified at any time). 
 
-![](./assets/learning_omp-press_setup.png)
+In OMP 3.2, the Publisher information is now stored under the Press setting. You will need to enter all the information required to generate your ONIX metadata.
 
-![](./assets/learning_omp-press_setup_2.png)
+![](./assets/learning-omp3.2-press-setting-1.png)
+
+![](./assets/learning-omp3.2-press-setting-2.png)
 
 ### Masthead
 
@@ -28,33 +30,34 @@ This section contains the primary contact information you provided when original
 
 Series can be used to help organize your publications. A series represents a special set of books devoted to a theme or topic. Visitors will be able to search and browse the press by series. In the Series tab of your Press Settings, you can create, edit, and order the series that will appear on your press website.
 
-![](./assets/learning_omp-press_setup-series.png)
+![](./assets/learning-omp3.2-press-setting-series-1.png)
 
 #### Add Series
 
 To add a series, click **Add Series**  on the right corner of the Series table and fill in the following fields:
 
-* Description: Use this field to add details regarding the series, editor, editor information, etc.
-* ISSN: The 8-digit code to identify your print and/or online series 
-* Order Monograph: The order in which you would like monographs within the series to be displayed
-
+* __Cover Image__: Upload a cover for the series (optional)
+* __Title__: Title of series
+* __Description__: Use this field to add details regarding the series, editor, editor information, etc.
+* __ISSN__: The 8-digit code to identify your print and/or online series (you can apply for an ISSN through your country’s ISSN centre, listed in the [ISSN Network](https://www.issn.org/the-centre-and-the-network/members-countries/the-issn-network-today/#))
+* __Order Monograph__: The order in which you would like monographs within the series to be displayed
 ![](./assets/learning_omp-press_setup-mono_order.png)
+* __Category__: The subject matter this series will be part of
+* __Path__: What you want to use for the end of the URL 
 
-* Category: The subject matter this series will be part of
 
 #### Edit Series
 
 You can modify a series by clicking on the blue arrow to the left of the series name. This will reveal options to edit or delete the series.
 
-![](./assets/learning_omp-press_setup-series.png)
+![](./assets/learning-omp3.2-press-setting-series-3.png)
 
 #### Order Series
 
-To order your series, click **Order** on the right corner of the series box. 
+To order your series, click Order on the right corner of the series box. Using the double arrow beside the Series title, drag the series in order and click Done once you have completed ordering your series.
 
-![](./assets/learning_omp-press_setup-order_series.png)
+![](./assets/learning-omp3.2-press-setting-series-4.png)
 
-Using the double arrow beside the Series title, drag the series in order and click Done once you have completed ordering your series. 
 
 #### Add books to series
 
@@ -62,19 +65,25 @@ See the [Catalog and Displaying Content chapter](./catalog-management.md) for in
 
 ### Categories
 
-Categories can be used to group and display books according to the subject matter or themes — for example, economics, literature, and poetry. Categories may be nested within "parent" categories in a hierarchy. Categories can be displayed as a browse block on your press site, and readers can select a category to view all books in that category.
+Categories can be used to group and display books according to the subject matter or themes — for example, economics, literature, and poetry. Categories may be nested within “parent” categories in a hierarchy. Categories can be displayed as a browse block on your press site, and readers can select a category to view all books in that category.
 
-You can place an article in a category by editing its metadata, which is explained in the Catalog and Displaying Content chapter. This section explains how to create and edit categories.
+You can place a book in a category by editing its metadata, which is explained in the Catalog and Displaying Content chapter. This section explains how to create and edit categories.
+
+To start, go to Press Setting followed by the Categories tab.
 
 #### Create a category
 
 1. Click Add Category
 2. Enter a name for your category that will be displayed to readers
-3. Enter a path for the category’s URL on your site
-4. Enter a description that will appear above the list of articles in the category
-5. Change the order of the articles by date or title (optional)
-6. Add an image that will appear at the top of the category’s page (optional)
-7. Click Save
+3. Select a Parent Category (if applicable)
+4. Enter a path for the category’s URL on your site
+5. Enter a description that will appear above the list of books in the category
+6. Change the order of the books by date or title (optional)
+7. Add an image that will appear at the top of the category’s page (optional)
+8. Click Save
+
+![](./assets/learning-omp3.2-press-setting-categories-1.gif)
+
 
 #### Edit a category
 
@@ -82,11 +91,15 @@ You can place an article in a category by editing its metadata, which is explain
 2. Make the changes
 3. Click OK
 
+![](./assets/learning-omp3.2-press-setting-categories-2.gif)
+
 #### Remove a category
 
 1. Click the blue arrow next to the category you want to remove
 2. Click the Remove button that appears below
 3. Confirm that you want to remove the category
+
+![](./assets/learning-omp3.2-press-setting-categories-3.gif)
 
 #### Display categories
 
@@ -95,6 +108,14 @@ To display categories on your website you can go to Website Settings > Appearanc
 #### Add books to categories
 
 See the Catalog and Displaying Content chapter for instructions on how to add books to categories.
+
+### Public Identifiers 
+
+If your Press will be using Public Identifiers such as DOI or URN, these will need to be enabled in the Plugin Gallery (Website Settings > Plugin > Plugin Gallery).
+
+![](./assets/learning-omp3.2-website-setting-indentifier-1.png)
+
+Once these have been enabled, you can click the blue arrow to configure the settings for both these. 
 
 ## Website Settings
 
@@ -109,10 +130,44 @@ Workflow Settings include all submission and publication configuration options, 
 
 This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library. 
 
-Under Production, you will enter all the information required to generate your ONIX metadata.
-
-![](./assets/learning_omp-workflow_setting-ONIX.png)
+![](./assets/learning-omp3.2-workflow-setting.png)
 
 ## Distribution
 
-Please refer to [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on Distribution Settings and Subscriptions in OMP.
+### Payment 
+
+The payment configuration for OMP is much simpler than in OJS. If you are using your press to accept payment you have the option of PayPal or manual payment notification.
+
+#### PayPal
+
+For help setting up your paypal account see [Using the PayPal Plugin for OJS and OMP](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/)
+
+Once you have your paypal account set up, you will need to enter the following information under the Paypal Fee Payment setup.
+
+![](./assets/learning-omp3.2-distribution-payment-1.png)
+
+For books or publication versions that will be available for purchase, you will need to indicate the price of these in the Publication Formats by clicking __Set Terms__
+
+![](./assets/learning-omp3.2-distribution-payment-2.png)
+
+Select Direct Sales followed by the price and Save. 
+
+![](./assets/learning-omp3.2-distribution-payment-3.png)
+
+The book's landing page will now show the prices for each format.
+
+![](./assets/learning-omp3.2-distribution-payment-4.png)
+
+Users who wish to purchase will click the button which will direct them to paypal to complete payment. Once payment has been processed the document will become available to the user for reading and/or download. 
+
+#### Manual Payment
+
+If your press will be collecting payment in another form (e.g cheque, ETF)  you can provide the instructions under Manual Payment. 
+
+![](./assets/learning-omp3.2-distribution-payment-5.png)
+
+Opting for this payment method will provide users with the same payment button on the book’s landing page with instructions on how to pay and will prompt them to send notification of payment. 
+
+![](./assets/learning-omp3.2-distribution-payment-6.png)
+
+This notification will be sent to the Journal Manager via email with the users information (Full Name and Username). It will be up to the Press to determine the delivery method of the publication. 

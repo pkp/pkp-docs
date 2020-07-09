@@ -16,4 +16,30 @@ The Tab Delimited Content Import Plugin can only be used with the command line.
 
 ## Statistics
 
+This chapter of the Learning OMP 3.2 provides a general overview of statistics available in Open Monograph Press (OMP). For more detailed information on statistics and usage guidelines, please see the Statistics chapter on the [PKP Administrator’s Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
+
+### Monograph 
+
+Similar to the [Article Usage visual statistics](https://docs.pkp.sfu.ca/admin-guide/en/statistics#article-usage-visual-statistics), Monograph shows a visual graphic of the catalogue activity. 
+
+![](./assets/learning-omp3.2-stastics-monograph.png)
+
+### Editorial Activity 
+
+The Editorial activity statistics provides a visual graph and trend table with a summary of the editorial activity for your press. This can be filtered for a specific date range and/or series.
+
+![](./assets/learning-omp3.2-statistics-editorial.png)
+
+### Users
+
+Provides a summary of the number of users registered in your press and by roles.
+
+![](./assets/learning-omp3.2-statistics-users.png)
+
+### Report Generator 
+
 You can generate statistical reports for usage and reviews or create a custom report. For information on how to use and configure statistics in OMP see the [PKP Administrator’s Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
+
+
+
+
