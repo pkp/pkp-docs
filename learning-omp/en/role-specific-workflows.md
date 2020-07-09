@@ -18,7 +18,7 @@ Enter all of the required information on the registration form as indicated by t
 
 ![](./assets/learning-omp_role-specific-workflow_auth-reg-2.png)
 
-Once you have completed the form and agreed to the terms, click register. After completing the registration you’ll be able to submit a manuscript, edit your profile, and continue browsing. 
+Once you have completed the form and agreed to the terms, click Register. After completing the registration you’ll be able to submit a manuscript, edit your profile, and continue browsing. 
 
 ### Edit Profile
 
@@ -100,7 +100,7 @@ The second tab will outline the press’ reviewer guidelines. The third tab will
 
 Once a manuscript has been submitted, the Editor will review the submission to determine its suitability. 
 
-The submitted manuscript will appear in the Editor’s **My Queue** or **Unassigned**. The Editor will select and download the Manuscript. 
+The submitted manuscript will appear in the Editor’s **My Queue** or **Unassigned**. The Editor will select and download the manuscript. 
 
 After reviewing the manuscript, the Editor can decide to Accept and Skip Review, Decline Submission, or send it through Peer Review. The Editor can either assign a Series Editor or undertake the review process themselves.
 
@@ -187,9 +187,9 @@ Clicking on the manuscript will open the submission record.
 
 ![](./assets/learning-OMP-3.2-production-1.png)
 
-You will see the copyedited files are now available in the __Production Ready Files panel__.
+You will see the copyedited files are now available in the __Production Ready Files__ panel.
 
-In the Workflow >Production tab, you can assign participants (such as a Production Editor) to the Production stage of the workflow and communicate with participants in the Production Discussions panel.
+In the Workflow > Production tab, you can assign participants (such as a Production Editor) to the Production stage of the workflow and communicate with participants in the Production Discussions panel.
 
 ![](./assets/learning-OMP-3.2-production-2.png)
 
@@ -221,21 +221,21 @@ The Publication tab allows you to edit or add information about the submission, 
 
 ![](./assets/learning-omp3.2-workflow-production-meta.png)
 
-__Title & Abstract__ Use this tab to edit the book title, subtitle, and abstract.
+__Title & Abstract__: Use this tab to edit the book title, subtitle, and abstract.
 If any changes are made, click Save before exiting this window.
 
-__Contributors__ Use this tab to add, edit, or remove book contributors.
+__Contributors__: Use this tab to add, edit, or remove book contributors.
 If any changes are made, click Save before exiting this window.
 
-__Chapters__ Use this tab to add multiple chapter files (if applicable)
+__Chapters__: Use this tab to add multiple chapter files (if applicable)
 
-__Metadata__ Use this tab to add, edit or remove keywords and/or subjects.
+__Metadata__: Use this tab to add, edit or remove keywords and/or subjects.
 
-__Publication Formats__ Use this tab to add Publication formats. See Publication Formats below for more information. 
+__Publication Formats__: Use this tab to add Publication formats. See Publication Formats below for more information. 
 
-__Catalog Entry__ Use this tab to add catalog information including date, series, series position, and category. See Catalog Entry below for more information. 
+__Catalog Entry__: Use this tab to add catalog information including date, series, series position, and category. See Catalog Entry below for more information. 
 
-__Permissions & Disclosure__  Include details about the copyright holder and link to the publication license, if applicable. This will be automatically filled in according to your Distribution Settings.
+__Permissions & Disclosure__: Include details about the copyright holder and link to the publication license, if applicable. This will be automatically filled in according to your Distribution Settings.
 
 #### Chapters
 
@@ -247,7 +247,7 @@ To add a chapter after final galleys have been prepared, click __Add Chapter__.
 
 ![](./assets/learning-omp3.2-workflow-production-chapters-1.png)
 
-Enter the following information: Title (required), Subtitle, Abstract, Pages, Contributor, and select the chapter file. 
+Enter Title (required), Subtitle, Abstract, Pages, Contributor, and select the chapter file. 
 
 ![](./assets/learning-omp3.2-workflow-production-chapters-2.png)
 
@@ -259,7 +259,7 @@ To enable this, see Publication Dates in the [Marketing tab](./role-specific-wor
 
 ##### Adding Chapter files
 
-Once you have created your chapters you can add the chapter files by clicking the chapter name.
+Once you have created your chapters, you can add the chapter files by clicking the chapter name.
 
 ![](./assets/learning-omp3.2-workflow-production-chapters-3.png)
 
@@ -328,7 +328,7 @@ Within the marketing type there are 3 menus that you can configure - audience, r
 
 This is where you can add/select audience information for your ONIX export.
 
-Depending on your market, the Audience, Ranges and Education values may be handled in various ways.  In English speaking North America the following ONIX values are typically used.
+Depending on your market, the Audience, Ranges and Education values may be handled in various ways.  In English speaking North America, the following ONIX values are typically used.
 * ONIX Code List 28 for Audience codes
 * Audience Range for age and grade ranges
 
@@ -375,16 +375,16 @@ This will enable an extra field for publication dates when adding chapter files.
 ![](./assets/Learning-omp3.2-workflow-production-pubdate-2.png)
 
 ### Multilingual Submissions 
-For multilingual books, the Title & Abstract, Metadata, Chapter and Permission & Disclosure tabs have options for adding and editing metadata in multiple languages. Languages must first be turned on in Website Settings > Setup > Languages.
+For multilingual books, the Title & Abstract, Metadata, Chapter, and Permission & Disclosure tabs have options for adding and editing metadata in multiple languages. Languages must first be turned on in Website Settings > Setup > Languages.
 
 ![](./assets/Learning-omp3.2-workflow-production-multilingual.png)
 
-Under the ‘Publish’ button select the desired language. In the example above French and English are enabled. The french text boxes will appear beside the english when selected.
+Under the ‘Publish’ button, select the desired language. In the example above, French and English are enabled. The French text boxes will appear beside the English when selected.
 
 
 ### Publish
 
-Now that you’ve entered all the relevant information and proofs for your manuscript in the publication and marketing tabs, and are ready to click the Publish button.
+Now that you’ve entered all the relevant information and proofs for your manuscript in the publication and marketing tabs, and are ready to click the **Publish** button.
 ![](./assets/learning-omp3.2-workflow-production-publish-1.png)
 
 This will prompt a secondary box confirming you want to publish.
@@ -428,21 +428,3 @@ Readers will be able to access previous versions. They will see a message on the
 Example of an outdated version message on the publication  page:
 
 _The publication URL will always point to the most recent version, with earlier versions being available at the same URL with the version at the end of the URL_ (e.g. /version/1234/).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
