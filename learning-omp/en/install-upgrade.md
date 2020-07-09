@@ -20,19 +20,19 @@ OMP can be downloaded from [the Public Knowledge Project website](https://pkp.sf
 
 ## Hosted Solutions
 
-If you do not have the expertise, infrastructure, or desire to install and manage OMP on your own, PKP Publishing Services provides complete hosting solutions at a number of price points. For more information, see the [PKP Publishing Services website](https://pkpservices.sfu.ca/)
+If you do not have the expertise, infrastructure, or desire to install and manage OMP on your own, PKP Publishing Services provides complete hosting solutions at a number of price points. For more information, see the [PKP Publishing Services website](https://pkpservices.sfu.ca/).
 
 ## Creating a Press
 
-During the OMP installation process, you must provide an initial Site Administrator username and password to use the system. When you log in with that username and password, you will be brought to an empty press listing (you can return to this later from the Site Administrator interface). You may create your new press by clicking the Add Press option and providing your press name, an optional description, and the path from which your press will be found on the website.
+During the OMP installation process, you must provide an initial Site Administrator username and password to use the system. When you log in with that username and password, you will be brought to an empty press listing (you can return to this later from the Site Administrator interface). You may create your new press by clicking the **Add Press** option and providing your press name, an optional description, and the path from which your press will be found on the website.
 
-Clicking Save on the Add Press dialogue will save the information you added and bring you to a Press Creation wizard. The wizard has six setup steps (with mandatory fields being marked with an asterisk):
+Clicking Save on the **Add Press** dialogue will save the information you added and bring you to a **Press Creation** wizard. The wizard has six setup steps (with mandatory fields being marked with an asterisk):
 
-* __Masthead__: general press information and your masthead
-* __Contact__: contact information for your principal contact
-* __Appearance__: various components of the press' appearance such as headers, footers, and layout
+* __Masthead__: General press information and your masthead
+* __Contact__: Contact information for your principal contact
+* __Appearance__: Various components of the press' appearance such as headers, footers, and layout
 * __Submission__: Submission Checklist presented to authors during the book submission process
-* __Indexing__: custom search engine indexing words
-* __Users__: add new initial users to the press
+* __Indexing__: Custom search engine indexing words
+* __Users__: Add new initial users to the press
 
 The wizard includes only the most immediately important options that need to be configured before your press can go live. Once the six steps are complete, your press is live. You can modify these and other options at any time from your Management interface.
