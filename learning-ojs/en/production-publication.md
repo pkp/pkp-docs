@@ -352,6 +352,17 @@ You can now see the galleys in the Galley panel.
 
 You can make changes to the upload by selecting the blue arrow to the left of the galley label, which reveals options to edit, change the file, or delete.
 
+### Edit Galley Files
+
+If you want to make a change to a galley file or galley file label after it has been uploaded, you can edit it. Please note that if the article has already been published, to make a change to the galley file you will first have to un-publish the article or create a new version (see Versioning of Articles below). But before the article is published, you can edit the galley file easily.
+
+1. Open the submission from the submission dashboard
+2. Go to the Publication tab and Galleys
+3. Click the blue arrow next to the file you want to edit
+4. If you would like to edit the galley label, click the Edit button that appears and change the Galley Label
+5. If you would like to change the file, click Change File and upload a new file
+6. When you are finished editing, click Save
+
 ### Inform the Section Editor
 
 Finally, you will need to inform the Section Editor that the galleys have been completed. To do so, use the Production Discussion panel and choose the **Add Discussion** link.
