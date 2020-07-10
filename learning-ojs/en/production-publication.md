@@ -363,6 +363,8 @@ If you want to make a change to a galley file or galley file label after it has 
 5. If you would like to change the file, click Change File and upload a new file
 6. When you are finished editing, click Save
 
+![](./assets/learning-ojs-3.2-au-production-galleys-edit.png)
+
 ### Inform the Section Editor
 
 Finally, you will need to inform the Section Editor that the galleys have been completed. To do so, use the Production Discussion panel and choose the **Add Discussion** link.
