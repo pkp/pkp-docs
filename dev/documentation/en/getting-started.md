@@ -37,6 +37,7 @@ Install dependencies with [composer](https://getcomposer.org/).
 ```
 composer --working-dir=lib/pkp update
 composer --working-dir=plugins/paymethod/paypal update
+composer --working-dir=plugins/generic/citationStyleLanguage install
 ```
 
 Run the following command if you are installing OJS.
