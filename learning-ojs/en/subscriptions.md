@@ -47,16 +47,20 @@ Use this page to set the amounts charged for various types of fees.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-paytypes.png)
 
-- **General Options**: Check this to allow for payments to be collected.
-- **Author Fees**: Set the amount to charge for an article processing charge \(APC\).
-- **Reader Fees**: Use this to charge reader fees distinct from subscriptions.
-- **General Fees**: Use this to charge other fees, such as memberships.
-
 ### Author Fees
-
-If you enable **Author Fees** you can request article processing charges after the review process has been completed. When the article is accepted by the editor, the editor will have the option to require payment. This will result in the author receiving a notification in OJS and an email, which will direct them through the payment process.
+If you want to charge an article processing charge \(APC\) to authors, enter the amount here. Enable Author Fees will allow you to request an article processing charge after the review process has been completed. When the article is accepted by the editor, the editor will have the option to require payment. This will result in the author receiving a notification in OJS and an email, which will direct them through the payment process.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
+
+### Reader Fees
+If you want to charge fees to access individual articles and issues, you can enter the prices for articles and issues here. 
+
+You can apply the fees to PDF files only by checking off "Only Restrict Access to PDF version of issues and articles." 
+
+Note that in order to sell access to an issue, you will need to upload an issue galley.
+
+### General Fees
+Use this to charge other fees, such as memberships.
 
 ## Payments
 
