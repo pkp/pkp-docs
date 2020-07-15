@@ -7,7 +7,7 @@ description: A technical guide to the coding conventions and application archite
 
 This document describes the coding conventions and concepts that power PKP's applications. It is written for software developers who want to fix bugs, add new features, and contribute code to OJS and OMP.
 
-If you want to adapt OJS or OMP to your publishing needs, you may prefer to consult the [Theming Guide](/pkp-theming-guide/en), Plugin Guide (in progress), or other [developer documentation](/dev).
+If you want to adapt OJS or OMP to your publishing needs, you may prefer to consult the [Theming Guide](/pkp-theming-guide/en), [Plugin Guide](/dev/plugin-guide/en/), or other [developer documentation](/dev).
 
 If you are not a coder, please consult our [user documentation](/).
 
