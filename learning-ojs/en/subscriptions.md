@@ -109,9 +109,18 @@ You can create a new individual subscription by using the Create New Subscriptio
 -  **Institution**: Add the name of the institution for this subscription \(e.g., Simon Fraser University Library\).
 - **Mailing Address**: Add the address of the institution.
 - **Domain**: Readers coming from a computer with this domain will automatically receive access \(e.g., sfu.ca\). This will apply to on-campus users.
-- **IP Ranges**: The institution may provide you with IP ranges. Readers coming from a computer from this IP range will automatically receive access.
+- **IP Ranges**: The institution may provide you with IP ranges. Readers coming from a computer from this IP range will automatically receive access. Each IP range should be entered as a new line.
+![](./assets/learning-ojs3.2-jm-subscriptions-instit-IP.png)
 - **Notes**: If you have any relevant notes to add, record that information here \(optional\).
 
 ## Subscription Block
 
 When a user is being provided access to a site or its content via a subscription, the information of the subscriber providing access can be displayed in the sidebar. The Subscription Block feature must be selected for display in Website Settings > Appearance > Sidebar Management.
+
+## Setting select articles as Open Access
+
+If you would like to set certain articles as Open Access, this can be done by going to **Issues** on the leftside menu. If you would like to set it before publishing the issue, click the Future tab followed by the blue arrow beside the Issue.
+
+Under the Table of Contents, check off the articles that will be set as Open Access.
+
+![](./assets/learning-ojs3.2-jm-subscriptions-single-article.png)
