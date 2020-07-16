@@ -510,6 +510,31 @@ Use the **Add Message** button to reply.
 
 Another option would be to ask for further revisions, but at this point, we're ready to move on.
 
+### Additional Round of Review
+
+If you would like to start an additional round (2nd+) after the author revisions have been received, click the **New Review Round** tab within the review tab of the manuscript. 
+
+![](./assets/learning-ojs-3-new-round-1.png)
+
+This will open another menu for you to select which files (provided by the author) to include for the new round of review.
+
+![](./assets/learning-ojs-3-new-round-2.png)
+
+If there are any additional files you want to make available again from the previous round, this can be done by clicking **Upload/Select Files**. Click **Show files from all accessible workflow stages**.
+
+![](./assets/learning-ojs-3-new-round-3.png)
+
+The files available from Round 1 should appear under Submission. The files that appear under Review will only show files uploaded by the author from the previous round (i.e., revised files from Round 1). If you are on Round 3 (and onwards) and require files from Round 1 or 2, you will need to download these to your local desktop and re-upload them using  **Upload/Select Files**.
+
+![](./assets/learning-ojs-3-new-round-4.png)
+
+Similarly, if there are any additional files authors provide after they upload the resubmission, you can upload this using **Upload/Select File**.
+
+Once you’re ready to startthe new round of review, assign Reviewers as you had done in the previous round. 
+
+These steps can be repeated until a final decision to accept or decline the manuscript has been reached. 
+
+
 ### Moving to Copyediting
 
 The submission is now ready to be moved to copyediting. To do so, use the blue **Accept Submission** button.
