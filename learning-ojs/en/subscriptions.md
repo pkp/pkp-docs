@@ -110,6 +110,7 @@ You can create a new individual subscription by using the Create New Subscriptio
 - **Mailing Address**: Add the address of the institution.
 - **Domain**: Readers coming from a computer with this domain will automatically receive access \(e.g., sfu.ca\). This will apply to on-campus users.
 - **IP Ranges**: The institution may provide you with IP ranges. Readers coming from a computer from this IP range will automatically receive access. Each IP range should be entered as a new line.
+
 ![](./assets/learning-ojs3.2-jm-subscriptions-instit-IP.png)
 - **Notes**: If you have any relevant notes to add, record that information here \(optional\).
 
