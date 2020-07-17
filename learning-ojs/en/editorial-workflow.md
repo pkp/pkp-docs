@@ -528,12 +528,11 @@ The files available from Round 1 should appear under Submission. The files that 
 
 ![](./assets/learning-ojs-3-new-round-4.png)
 
-Similarly, if there are any additional files authors provide after they upload the resubmission, you can upload this using **Upload/Select File**.
+Similarly, if there are any additional files authors provide after they upload the resubmission, you can upload them using **Upload/Select File**.
 
-Once you’re ready to startthe new round of review, assign Reviewers as you had done in the previous round. 
+Once you’re ready to start the new round of review, assign Reviewers as you had done in the previous round. You can assign the same reviewers or different reviewers.
 
 These steps can be repeated until a final decision to accept or decline the manuscript has been reached. 
-
 
 ### Moving to Copyediting
 
