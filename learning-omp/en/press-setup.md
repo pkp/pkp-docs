@@ -4,13 +4,13 @@ version: 3.2
 ---
 # Setting up and Maintaining Your Press
 
-There are a number of components to your press found in the Settings menu on the left navigation bar. All of the site configuration options are under Settings > Press. The options you find here control every aspect of the press, including press information, how your press looks, workflow settings, and how the publication and distribution processes work. This section will go in-depth on your Press and Workflow Settings. Please refer to the [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/) for information regarding the Website and Distribution that will be applicable in your OMP installation.
+There are a number of components to your press found in the Settings menu on the left navigation bar. All of the site configuration options are under Settings > Press. The options you find here control every aspect of the press, including press information, how your press looks, workflow settings, and how the publication and distribution processes work. This section will go in-depth on your Press and Workflow Settings. Please refer to the [Learning OJS guide](/learning-ojs/en/) for information regarding the Website and Distribution that will be applicable in your OMP installation.
 
 ## Press Settings
 
 In the Press Settings section, you can configure information about your press that will be displayed for readers, such as your press name, editorial team, and contact information. You can also set up and configure series and categories, which are used to display and organize your published monographs.
 
-You can find the Settings in the left menu panel when you are logged in as a user with Press Manager permissions. This section contains most of the information that you provided when originally creating your press (and which can be modified at any time). 
+You can find the Settings in the left menu panel when you are logged in as a user with Press Manager permissions. This section contains most of the information that you provided when originally creating your press (and which can be modified at any time).
 
 In OMP 3.2, the Publisher information is now stored under the Press setting. You will need to enter all the information required to generate your ONIX metadata.
 
@@ -43,7 +43,7 @@ To add a series, click **Add Series**  on the right corner of the Series table a
 * __Order Monograph__: The order in which you would like monographs within the series to be displayed
 ![](./assets/learning_omp-press_setup-mono_order.png)
 * __Category__: The subject matter this series will be part of
-* __Path__: What you want to use for the end of the URL 
+* __Path__: What you want to use for the end of the URL
 
 
 #### Edit Series
@@ -109,40 +109,40 @@ To display categories on your website you can go to Website Settings > Appearanc
 
 See the Catalog and Displaying Content chapter for instructions on how to add books to categories.
 
-### Public Identifiers 
+### Public Identifiers
 
 If your Press will be using Public Identifiers such as DOI or URN, these will need to be enabled in the Plugin Gallery (Website Settings > Plugin > Plugin Gallery).
 
 ![](./assets/learning-omp3.2-website-setting-indentifier-1.png)
 
-Once these have been enabled, you can click the blue arrow to configure the settings for both these. 
+Once these have been enabled, you can click the blue arrow to configure the settings for both these.
 
 ## Website Settings
 
-Please refer to the [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on Website Setting applicable to OMP. 
+Please refer to the [Learning OJS guide](/learning-ojs/en/) for information on Website Setting applicable to OMP.
 
 Please note that some plugins for OJS are not available for OMP.
 
 ## Workflow Settings
 
-Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes. 
+Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes.
 
 
-This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library. 
+This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](/learning-ojs/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library.
 
 ![](./assets/learning-omp3.2-workflow-setting.png)
 
 ## Distribution
 
-### Payment 
+### Payment
 
 The payment configuration for OMP is much simpler than in OJS. If you are using your press to accept payment you have the option of PayPal or manual payment notification.
 
 #### PayPal
 
-For help setting up your paypal account see [Using the PayPal Plugin for OJS and OMP](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/)
+For help setting up your PayPal account see [Using the PayPal Plugin for OJS and OMP](/using-paypal-for-ojs-and-ocs/en/)
 
-Once you have your paypal account set up, you will need to enter the following information under the Paypal Fee Payment setup.
+Once you have your PayPal account set up, you will need to enter the following information under the PayPal Fee Payment setup.
 
 ![](./assets/learning-omp3.2-distribution-payment-1.png)
 
@@ -150,7 +150,7 @@ For books or publication versions that will be available for purchase, you will 
 
 ![](./assets/learning-omp3.2-distribution-payment-2.png)
 
-Select Direct Sales followed by the price and Save. 
+Select Direct Sales followed by the price and Save.
 
 ![](./assets/learning-omp3.2-distribution-payment-3.png)
 
@@ -158,16 +158,16 @@ The book's landing page will now show the prices for each format.
 
 ![](./assets/learning-omp3.2-distribution-payment-4.png)
 
-Users who wish to purchase will click the button which will direct them to paypal to complete payment. Once payment has been processed the document will become available to the user for reading and/or download. 
+Users who wish to purchase will click the button which will direct them to PayPal to complete payment. Once payment has been processed the document will become available to the user for reading and/or download.
 
 #### Manual Payment
 
-If your press will be collecting payment in another form (e.g cheque, ETF)  you can provide the instructions under Manual Payment. 
+If your press will be collecting payment in another form (e.g cheque, ETF) you can provide the instructions under Manual Payment.
 
 ![](./assets/learning-omp3.2-distribution-payment-5.png)
 
-Opting for this payment method will provide users with the same payment button on the book’s landing page with instructions on how to pay and will prompt them to send notification of payment. 
+Opting for this payment method will provide users with the same payment button on the book’s landing page with instructions on how to pay and will prompt them to send notification of payment.
 
 ![](./assets/learning-omp3.2-distribution-payment-6.png)
 
-This notification will be sent to the Journal Manager via email with the users information (Full Name and Username). It will be up to the Press to determine the delivery method of the publication. 
+This notification will be sent to the Journal Manager via email with the users information (Full Name and Username). It will be up to the Press to determine the delivery method of the publication.

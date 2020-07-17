@@ -19,7 +19,7 @@
   * [Workflow Settings](./press-setup.md#workflow-settings)
   * [Distribution](./press-setup.md#distribution)
 * [Tools](./tools.md)
-  * [Import/Export](./tools.md#import-export)
+  * [Import/Export](./tools.md#importexport)
   * [Statistics](./tools.md#statistics)
 * [Role-specific Workflows](./role-specific-workflows.md)
   * [Author Workflow](./role-specific-workflows.md#author-workflow)

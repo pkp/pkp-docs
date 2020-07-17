@@ -4,7 +4,7 @@ version: 3.2
 ---
 # Editorial Interface
 
-![](./assets/learning-OMP-3.2-Dashboard.gif)
+![](./assets/learning-omp3.2-dashboard.gif)
 
 OMP 3.2 has a separate interface once you log into the editorial system. This makes it easier to customize the reader interface.
 
@@ -20,5 +20,4 @@ The editorial interface is known as your dashboard and consists of the following
 
 5. __Main Panel Submenus__: Within the main panel, you will often see tabs that allow you to view various information about the area in which you are currently working. In this example, the submission record is broken into five sections (Submission, Internal Review, External Review, Copyediting, Production). Notice the Help tab to the right, which provides context-sensitive help for the page you are currently viewing.
 
-6. __Right Panel__: From here, you can see the action buttons, such as Send to Internal Review. Different pages have different action buttons or decision notifications. Below the action button or decision notification is the Participants table, which lists everyone (except Reviewers) involved in the submission. In the image, above the action buttons are not shown, as it has been published. 
-
+6. __Right Panel__: From here, you can see the action buttons, such as Send to Internal Review. Different pages have different action buttons or decision notifications. Below the action button or decision notification is the Participants table, which lists everyone (except Reviewers) involved in the submission. In the image, above the action buttons are not shown, as it has been published.

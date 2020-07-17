@@ -115,6 +115,7 @@ To allow an author to change the metadata at a specific stage of the workflow, c
 Under the participant’s list, click the arrow beside the author’s name followed by Edit.
 
 ![](./assets/learning-omp3.2-user-permission-3.png)
+
 ![](./assets/learning-omp3.2-user-permission-4.png)
 
 Under Permissions, enable ‘Allow this person to edit publication details.’ followed by OK.
@@ -124,8 +125,3 @@ Under Permissions, enable ‘Allow this person to edit publication details.’ f
 Once the author has been granted access to made edits they will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors,  Chapters and Metadata.
 
 ![](./assets/learning-omp3.2-user-permission-6.png)
-
-
-
-
-

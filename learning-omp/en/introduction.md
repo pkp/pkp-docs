@@ -19,10 +19,10 @@ As OMP and OJS are similar software applications and share some of the same func
 
 ## OMP 3.2 Features
 
-OMP 3.2 has been released with the following features/improvements: 
+OMP 3.2 has been released with the following features/improvements:
+
 * Option to upload cover images
 * Publication date and pages field for OMP chapters
-* Save featured and new releases in catalog entries  
+* Save featured and new releases in catalog entries
 * Display chapter PDF files on abstract page
 * Upload and display multiple chapter files
-
