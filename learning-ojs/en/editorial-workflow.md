@@ -512,7 +512,15 @@ Another option would be to ask for further revisions, but at this point, we're r
 
 ### Additional Round of Review
 
-If you would like to start an additional round (2nd+) after the author revisions have been received, click the **New Review Round** tab within the review tab of the manuscript. 
+It is best to start a new round of review **after** an author uploads revised files on the previous round. Creating a New Round of review before the author has had a chance to upload their files could create some confusion as their dashboard (and yours) will default to the new round. The author will however be able to switch back to Round 1 to upload their files.
+
+![](./assets/learning-ojs-3-new-round-0.png)
+
+This will also result in having to download the uploaded file from Round 1 and upload it into Round 2 if you opt to go this route.
+
+A new round should **not** be started if you are experiencing any issues with the current round (i.e., unable to record decision, re-invite a declined or removed reviewer). 
+
+To start an additional around of review after revised files have been received, click the **New Review Round** tab within the review tab of the manuscript. 
 
 ![](./assets/learning-ojs-3-new-round-1.png)
 
@@ -531,6 +539,8 @@ The files available from Round 1 should appear under Submission. The files that 
 Similarly, if there are any additional files authors provide after they upload the resubmission, you can upload them using **Upload/Select File**.
 
 Once you’re ready to start the new round of review, assign Reviewers as you had done in the previous round. You can assign the same reviewers or different reviewers.
+
+Reviewers from previous rounds will not have access to comments they've made the round before. If a reviewer has requested their comments from the previous round, the editor could copy this from Round 1 - Review Details and start a discussion in Round 2. Alternatively, the journal may choose to encourage the submission of Response to Reviewer as part of the resubmission.
 
 These steps can be repeated until a final decision to accept or decline the manuscript has been reached. 
 
