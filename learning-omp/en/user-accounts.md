@@ -1,3 +1,7 @@
+---
+book: learning-omp
+version: 3.2
+---
 # User Accounts
 
 A monograph publishing workflow will involve various users with various roles. OMP offers a flexible role management system that allows the Press Manager to control which roles have access to a given task and/or stage of the workflow.
@@ -89,3 +93,35 @@ To create a new role, go to Users & Roles > Roles. On the top-right corner of th
 Select the Permission level, enter the Role Name and Abbreviation, and select from the Role Options (as it applies).
 
 ![](./assets/learning_omp-user-accounts_3.png)
+
+## Granting Author permissions
+
+In OMP 3.2, editors can grant access to allow authors to make metadata changes. There are two ways editors can grant this type of access.
+
+__Global permission__- will grant all users with the role ‘author’ permission to make metadata changes.
+
+To enable this, go to Users & Roles > Roles. Click the blue arrow beside the ‘Author’ then click edit.
+
+![](./assets/learning-omp3.2-user-permission-1.png)
+
+Under Role Options, enable ‘Permit submission metadata edit.’ then click OK.
+
+![](./assets/learning-omp3.2-user-permission-2.png)
+
+__Limited Permission__ - will grant registered authors (typically a single author) permission to only make changes at certain stages of the editorial workflow.
+
+To allow an author to change the metadata at a specific stage of the workflow, click on the workflow stage (ie., Submission, Review, Copyediting, or Production).
+
+Under the participant’s list, click the arrow beside the author’s name followed by Edit.
+
+![](./assets/learning-omp3.2-user-permission-3.png)
+
+![](./assets/learning-omp3.2-user-permission-4.png)
+
+Under Permissions, enable ‘Allow this person to edit publication details.’ followed by OK.
+
+![](./assets/learning-omp3.2-user-permission-5.png)
+
+Once the author has been granted access to made edits they will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors,  Chapters and Metadata.
+
+![](./assets/learning-omp3.2-user-permission-6.png)
