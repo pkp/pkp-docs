@@ -57,6 +57,7 @@
   * [Individual Subscriptions](./subscriptions.md#individual-subscriptions)
   * [Institutional Subscriptions](./subscriptions.md#institutional-subscriptions)
   * [Subscription Block](./subscriptions.md#subscription-block)
+  * [Setting Articles as Open Access](./subscriptions.md#setting-articles-as-open-access)
 * [Authoring](./authoring.md)
   * [Registering with the Journal](./authoring#registering-with-the-journal)
   * [Submitting an Article](./authoring#submitting-an-article)
