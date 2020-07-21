@@ -42,7 +42,7 @@ You are advised to first check which languages are available from your version o
 The first place to check on language availability is from within the software installation itself.
 
 If you have more than one context (journal, server or press) installed, the Site Administrator controls what languages are available for to each
-context. Navigate to Administration, Settings, and Languages. Installed languages are listed here with an checkbox option to enable or disable the language sitewide.
+context. Navigate to Administration > Settings > Languages. Installed languages are listed here with an checkbox option to enable or disable the language sitewide.
 
 For each context, the Manager controls the settings within that context by navigating to Settings > Website > Setup > Languages. Each language can be enabled for the UI, for Forms, and for Submissions.
 
@@ -61,3 +61,7 @@ The PKP keeps an up-to-date list of languages and contributors from the relevant
 * [OMP Languages List](https://translate.pkp.sfu.ca/projects/omp/#languages)
 
 If you don't see the language(s) you are looking for listed on either of these lists, please consider undertaking the translation yourself. If you are interested in contributing in such a way, [contact us](http://pkp.sfu.ca/contact) for advice, or consult the rest of this document.
+
+## Install a Language
+
+Site Administrators can install new languages through the Administration dashboard. See [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/site-administration#languages) for more information on how to install and manage languages in PKP software.
