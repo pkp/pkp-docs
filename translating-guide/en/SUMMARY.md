@@ -10,5 +10,6 @@
    * [How content is organized](./translate-software.md#how-content-is-organized)
    * [Update an existing translation](./translate-software.md#update-an-existing-translation)
    * [Begin a new translation](./translate-software.md#begin-a-new-translation)
+   * [Translating PKP Documentation] (translate-documentation.md)
 * [Localization for Developers](coders.md)
 * [Translation Resources and Community](resources.md)
