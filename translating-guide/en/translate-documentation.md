@@ -5,7 +5,7 @@ You can translate documentation directly in GitHub without using GitLocalize and
 
 ## PKP Documentation
 
-PKP creates and maintains many different guides on using, administering, and developing PKP software applications, as well as other guides about scholarly publishing. You can see all of our published documentation at [docs.pkp.sfu.ca](docs.pkp.sfu.ca).
+PKP creates and maintains many different guides on using, administering, and developing PKP software applications, as well as other guides about scholarly publishing. Our published documentation can be found at [docs.pkp.sfu.ca](docs.pkp.sfu.ca).
 
 Documentation is coordinated, created, and maintained by the Documentation Interest Group, as well as other PKP staff and community members. We are always improving documentation - from creating new guides to updating documentation as the software and its features change.
 
@@ -23,7 +23,7 @@ Larger language groups have a Language Moderator who coordinates translators and
 
 Anyone with translation expertise and some understanding of the software and context is welcome to contribute to translation. We especially appreciate translators who can commit to maintaining a translation over the long term.
 
-If you’re interested in being a Language Moderator for a particular language, please [get in touch](mailto:documentation@publicknowledgeproject.org). Language Moderators are required to make a minimum 2-year commitment to moderating the language. Language moderators should have excellent translation skills and knowledge of PKP software, as they are responsible for reviewing the approving translations. They should also have a relationship with and understanding of the user community for the language, so they can effectively coordinate and recruit translators.
+If you’re interested in being a Language Moderator for a particular language, please contact  [documentation@publicknowledgeproject.org](mailto:documentation@publicknowledgeproject.org). Language Moderators are required to make a minimum 2-year commitment to moderating the language. Language moderators should have excellent translation skills and knowledge of PKP software, as they are responsible for reviewing the approving translations. They should also have a relationship with and understanding of the user community for the language, so they can effectively coordinate and recruit translators.
 
 ## Getting started
 
