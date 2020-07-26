@@ -512,6 +512,8 @@ Another option would be to ask for further revisions, but at this point, we're r
 
 ### Additional Round of Review
 
+If you would like to put the revised article through another round of review, you can start a second (or third or subsequent) review round after the author revisions have been received.
+
 It is best to start a new round of review **after** an author uploads revised files on the previous round. Creating a New Round of review before the author has uploaded their files could create some confusion as their dashboard (and yours) will default to the new round. The author will, however, be able to switch back to Round 1 to upload their files.
 
 ![](./assets/learning-ojs-3-new-round-0.png)
