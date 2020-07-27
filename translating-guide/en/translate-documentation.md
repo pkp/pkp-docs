@@ -5,15 +5,15 @@ You can translate documentation directly in GitHub without using GitLocalize and
 
 ## PKP Documentation
 
-PKP creates and maintains many different guides on using, administering, and developing PKP software applications, as well as other guides about scholarly publishing. Our published documentation can be found at [docs.pkp.sfu.ca](docs.pkp.sfu.ca).
+PKP creates and maintains many different guides on using, administering, and developing PKP software applications, as well as other guides about scholarly publishing. Our published documentation can be found in the [PKP Docs Hub](docs.pkp.sfu.ca).
 
 Documentation is coordinated, created, and maintained by the Documentation Interest Group, as well as other PKP staff and community members. We are always improving documentation - from creating new guides to updating documentation as the software and its features change.
 
-All of our documentation is created and updated in the [pkp-docs Github repository](https://github.com/pkp/pkp-docs) in markdown files and rendered into web pages in the Docs Hub using a tool called Jekyll. You do not need to have any knowledge of these tools to translate documentation.
+All of our documentation is created and updated in the [pkp-docs GitHub repository](https://github.com/pkp/pkp-docs) in markdown files and rendered into web pages in the Docs Hub using a tool called Jekyll. You do not need to have any knowledge of these tools to translate documentation.
 
 Most of our documentation is created in English and then translated into other languages, but original documentation in other languages is welcome. If you would like to create and update documentation or are just interested in learning more about how documentation works, check out our [Guidelines for Contributing to PKP Documentation](https://docs.pkp.sfu.ca/contributing/en/) or contact us at documentation@publicknowledgeproject.org.
 
-## Documentation translation workflow
+## Documentation Translation Workflow
 
 Documentation translation is integrated with PKP software translation, and the workflow is similar. Translation of PKP software and documentation is done by PKP software users around the world. Translators can translate one guide or many.
 
@@ -25,9 +25,9 @@ Anyone with translation expertise and some understanding of the software and con
 
 If you’re interested in being a Language Moderator for a particular language, please contact  [documentation@publicknowledgeproject.org](mailto:documentation@publicknowledgeproject.org). Language Moderators are required to make a minimum 2-year commitment to moderating the language. Language moderators should have excellent translation skills and knowledge of PKP software, as they are responsible for reviewing the approving translations. They should also have a relationship with and understanding of the user community for the language, so they can effectively coordinate and recruit translators.
 
-## Getting started
+## Get Started
 
-To get started translating PKP software documentation, you can follow the instructions in this guide. You only need to contact the Translations Coordinator or your Language Moderator if you have questions. You can also get support for translation in the [PKP Community Forum](https://forum.pkp.sfu.ca/c/questions/translations/12).
+To get started translating PKP software documentation, you can follow the instructions in this guide. You only need to contact the Translation Coordinator or your Language Moderator if you have questions. You can also get support for translation in the [PKP Community Forum](https://forum.pkp.sfu.ca/c/questions/translations/12).
 
 To use GitLocalize for translation, you need to have a GitHub account and be logged in. If you do not already have an account, register on GitHub.
 
@@ -43,7 +43,7 @@ Click on the language that you want to translate into. In this example, it is Po
 
 On the language page you will see a list of documents, and beside each document name, the percentage of the document that has been translated. The next step is to decide which document to translate.
 
-## Choose a translation project
+## Choose a Translation Project
 
 Consider the following when choosing a document to translate.
 
@@ -82,7 +82,7 @@ In this example the guide has been translated.
 
 If there is a document that is completely or mostly untranslated, you can also open it in the [Docs Hub](https://docs.pkp.sfu.ca/index.html) to see how long it is and what content it contains.
 
-## Start translating
+## Start Translating
 
 Once you decide on a project, you can start translating.
 
@@ -100,7 +100,7 @@ Whichever order you decide to follow, open the file you want to translate first.
 If you click the text on the right, a text-editing box will appear with the original text in it. You can replace this text with translated text. Click **Submit** as you finish each part.
 ![](./assets/translating-guide-gitlocalize-translate-text-box.png)
 
-### Machine Translation
+### Machine translation
 
 You can also use the machine translation tool to get machine translation assistance. 
 
@@ -142,12 +142,13 @@ After the review has been completed and your translation merged, you will receiv
 
 Now you can translate another chapter! Click the language link to go back to the language folder and follow the steps above again, creating a new review request as you finish each chapter.
 
-## Maintain a document translation
+## Maintain or Update a Document Translation
 
-After you complete a translation of a document, it is ideal if you can continue to maintain the translation as the document is changed and updated. Documents are updated when the software changes or when improvements and additions to the document are made.
+After you complete a translation of a document, it is ideal if you can continue to maintain the translation as the document is changed and updated. Documents are updated when the software changes or when improvements and additions to the document are made. 
 
-Once you translate a document, any time there is an update to that document it will get sent to GitLocalize and you will receive a notification of the update at the email address associated with your GitHub account.
-You can also visit GitLocalize to see if there have been updates that need to be translated. If the document you translated shows a percentage un-translated, there is probably an update that needs to be translated.
+Once you translate a document, any time there is an update to that document it will get sent to GitLocalize and you will receive a notification of the update at the email address associated with your GitHub account. 
+
+You can also visit GitLocalize to see if there have been updates that need to be translated, even if you did not do the original translation. If a document shows a percentage un-translated, there is probably an update that needs to be translated.
 
 ![](./assets/translating-guide-gitlocalize-translation-update.png)
 
@@ -167,7 +168,8 @@ Translate that text, using machine translation tools as desired, and click **Sub
 
 Click **Create Review Request** when you have finished translating the updates.
 
-## Improve a document translation
+## Improve a Document Translation
+
 If a document has already been translated but you think the translation needs to be improved, you can edit an existing translation. 
 
 Follow the instructions above under [Start Translating](#start-translating). The translated text will appear on the right. 
@@ -184,7 +186,7 @@ To understand how documents in pkp-docs are structured and how to create and edi
 
 You can look at the structure of an already translated document, such as Learning OJS, to see how a GitHub-based translation will work.
 
-## Review a translation
+## Review a Translation
 
 If you are a Language Moderator and a new translation in that language is completed in GitLocalize, you will receive a notification by email that there is a new translation to review. 
 
@@ -198,21 +200,4 @@ Click on the review request to open it. The **Conversation** tab will show any c
 
 ![](./assets/translating-guide-gitlocalize-review-translated-texts.png)
 
-If you want to suggest changes to the translator or ask a question, reply in the Conversation tab. If you are happy with the translation, you can go back to the Conversation tab and click Send Pull Request. This will send a pull request to the pkp-docs GitHub repository, to be merged. You will receive an email notification once it is merged. The translation will be available in the Docs Hub the next time the website is built.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+If you want to suggest changes to the translator or ask a question, reply in the Conversation tab. If you are happy with the translation, you can go back to the Conversation tab and click Send Pull Request. This will send a pull request to the pkp-docs GitHub repository, to be merged. You will receive an email notification once it is merged. The translation will be available in the Docs Hub the next time the website is built, which could be in a few days or a week.
