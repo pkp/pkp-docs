@@ -28,20 +28,26 @@ Learn how to [write tests for your plugin](/dev/testing/en/plugins-themes).
 
 Your release package should be a `.tar.gz` file that contains a single directory with all of the files necessary to run the plugin. The directory name should match the `product` name in the release XML.
 
-If your plugin is hosted at GitHub, you can [create a release](https://help.github.com/en/articles/creating-releases) and use our [bash script](../buildplugin.sh) to compile the release package. Use the following to run the script from the command line.
+We provide a [CLI tool](https://github.com/pkp/pkp-plugin-cli/) that can help you build and package your plugin. Install it with the following command.
 
 ```
-buildplugin.sh <repository_url> <release_tag>
+npm install -g pkp-plugin-cli
 ```
 
-If you use npm or another tool to compile files for your plugin, you will need to extend the bash script to compile your files before they are packaged.
+Use the following to build a release package and upload it as a release to your repository on GitHub.
+
+```
+npm release
+```
 
 > Any non-essential files provided by your dependency manager (eg - composer, npm) should not be included with the package. These often include demos and examples that can be security risks when uploaded to the plugins directory.
 {:.warning}
 
 ## Get the Plugin into the Plugin Gallery
 
-When you have prepared your release package and made it publicly available, you will need to create an XML snippet that provides a title, description, contact details, and information on each release package.
+When you have prepared your release package and made it publicly available, open a pull request on our [plugin gallery repository](https://github.com/pkp/plugin-gallery/) that adds your plugin to the XML file.
+
+Your plugin's XML must provide a title, description, contact details, and information on each release package.
 
 ```xml
 <!-- The product should match the directory name of the plugin. -->
@@ -93,11 +99,11 @@ When you have prepared your release package and made it publicly available, you 
     <description>Initial release.</description>
   </release>
 </plugin>
-```
+``
 
-When you are ready, you can request a review by sending your XML snippet to Alec Smecher at pkp.contact@gmail.com.
+When you have opened the pull request, tests will run against your XML snippet and we will be able to merge your plugin into the list.
 
-Each plugin must pass a code review. Your plugin will be given a `reviewed` or `partner` certification. We may not include your plugin in the gallery if it does not pass review.
+In addition, each plugin must pass a code review. Your plugin will be given a `reviewed` or `partner` certification. We may not include your plugin in the gallery if it does not pass review.
 
 ## Update Releases
 
