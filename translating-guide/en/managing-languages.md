@@ -2,7 +2,7 @@
 book: translating-guide
 version: 3.2
 ---
-# Managing Languages in PKP Software
+# Manage Languages in PKP Software
 
 ## How Languages and Locales Work
 
