@@ -1,9 +1,10 @@
 # Translate PKP Documentation
 
 PKP uses a different tool for translating documentation called GitLocalize, which is compatible with markdown files, integrated with GitHub, and designed for translating longer pieces of text - and so better suited for translating documentation than Weblate. This chapter explains how to use GitLocalize, find documentation to translate, translate documentation, and maintain translations. 
+
 You can translate documentation directly in GitHub without using GitLocalize and the section “Translate without GitLocalize” explains how to do that, but we still recommend reading this chapter to understand how documentation translation works as a whole.
 
-## PKP Documentation
+### PKP Documentation
 
 PKP creates and maintains many different guides on using, administering, and developing PKP software applications, as well as other guides about scholarly publishing. Our published documentation can be found in the [PKP Docs Hub](docs.pkp.sfu.ca).
 
@@ -13,7 +14,7 @@ All of our documentation is created and updated in the [pkp-docs GitHub reposito
 
 Most of our documentation is created in English and then translated into other languages, but original documentation in other languages is welcome. If you would like to create and update documentation or are just interested in learning more about how documentation works, check out our [Guidelines for Contributing to PKP Documentation](https://docs.pkp.sfu.ca/contributing/en/) or contact us at documentation@publicknowledgeproject.org.
 
-## Documentation Translation Workflow
+### Documentation Translation Workflow
 
 Documentation translation is integrated with PKP software translation, and the workflow is similar. Translation of PKP software and documentation is done by PKP software users around the world. Translators can translate one guide or many.
 
@@ -43,17 +44,17 @@ Click on the language that you want to translate into. In this example, it is Po
 
 On the language page you will see a list of documents, and beside each document name, the percentage of the document that has been translated. The next step is to decide which document to translate.
 
-## Choose a Translation Project
+### Choose a translation project
 
 Consider the following when choosing a document to translate.
 
-### Documentation needs and priorities of your language group
+#### Documentation needs and priorities of your language group
 
 Is there one document that would be more useful to other PKP software users who speak your language than others? If so, you may want to translate that document first.
 
 You can ask the language moderator for your language if they know of any documentation needs or priorities for your language group. You can also inquire with regional user groups.
 
-### The size of translation project you want to do right now
+#### The size of translation project you want to do right now
 
 Think about how much time you can commit to this current translation project. Once you begin a translation project, it is best to finish it within one week.
 
@@ -180,7 +181,7 @@ When you are finished, follow the instructions under **Create Review Request**.
 
 ## Translate without GitLocalize
 
-If you do not want to use GitLocallize to translate PKP documentation, your other option is to translate the markdown files, maintaining markdown formatting, and submit your translation directly in the [pkp-docs repository](https://github.com/pkp/pkp-docs) in GitHub.
+If you do not want to use GitLocallize to translate PKP documentation, your other option is to translate the markdown files, maintaining markdown formatting, and submit your translation directly in the [pkp-docs repository](https://github.com/pkp/pkp-docs) in GitHub. Please note, this method is less preferred because the translation will need to be pulled into GitLocalize and the Translation Coordinator will have to manually associate each translated section of text with the original text.
 
 To understand how documents in pkp-docs are structured and how to create and edit documents, read the [Guidelines for Contributing to PKP Documentation](https://docs.pkp.sfu.ca/contributing/en/). 
 
