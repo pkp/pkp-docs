@@ -12,7 +12,7 @@ PO files are used by many thousands of software projects worldwide to manage tra
 
 (If you want to use another translation tool, please go ahead — but please check with us first to make sure you coordinate your work with other translators, and that the tool you choose supports monolingual PO files.)
 
-## Getting started
+## Get Started
 
 So you want to translate OJS or OMP into another language! The PKP community depends on volunteer efforts to keep the system working well in many languages and we appreciate your help.
 

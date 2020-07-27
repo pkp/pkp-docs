@@ -1,20 +1,20 @@
 # Translate PKP Documentation
 
-PKP uses a different tool for translating documentation called GitLocalize, which is compatible with markdown files, integrated with GitHub, and designed for translating longer pieces of text - and so better suited for translating documentation than Weblate. This chapter explains how to use GitLocalize, find documentation to translate, translate documentation, and maintain translations. 
+PKP uses a different tool for translating documentation called GitLocalize, which is compatible with markdown files, integrated with GitHub, and designed for translating longer pieces of text - and so better suited for translating documentation than Weblate. This chapter explains how to use GitLocalize, find documentation to translate, translate documentation, and maintain translations.
 
 You can translate documentation directly in GitHub without using GitLocalize and the section “Translate without GitLocalize” explains how to do that, but we still recommend reading this chapter to understand how documentation translation works as a whole.
 
-### PKP Documentation
+## PKP Documentation
 
-PKP creates and maintains many different guides on using, administering, and developing PKP software applications, as well as other guides about scholarly publishing. Our published documentation can be found in the [PKP Docs Hub](docs.pkp.sfu.ca).
+PKP creates and maintains many different guides on using, administering, and developing PKP software applications, as well as other guides about scholarly publishing. Our published documentation can be found in the [PKP Docs Hub](https://docs.pkp.sfu.ca).
 
 Documentation is coordinated, created, and maintained by the Documentation Interest Group, as well as other PKP staff and community members. We are always improving documentation - from creating new guides to updating documentation as the software and its features change.
 
 All of our documentation is created and updated in the [pkp-docs GitHub repository](https://github.com/pkp/pkp-docs) in markdown files and rendered into web pages in the Docs Hub using a tool called Jekyll. You do not need to have any knowledge of these tools to translate documentation.
 
-Most of our documentation is created in English and then translated into other languages, but original documentation in other languages is welcome. If you would like to create and update documentation or are just interested in learning more about how documentation works, check out our [Guidelines for Contributing to PKP Documentation](https://docs.pkp.sfu.ca/contributing/en/) or contact us at documentation@publicknowledgeproject.org.
+Most of our documentation is created in English and then translated into other languages, but original documentation in other languages is welcome. If you would like to create and update documentation or are just interested in learning more about how documentation works, check out our [Guidelines for Contributing to PKP Documentation](/contributing/en/) or contact us at documentation@publicknowledgeproject.org.
 
-### Documentation Translation Workflow
+## Documentation Translation Workflow
 
 Documentation translation is integrated with PKP software translation, and the workflow is similar. Translation of PKP software and documentation is done by PKP software users around the world. Translators can translate one guide or many.
 
@@ -72,7 +72,8 @@ Click the en folder to see all of the chapter files in the document.
 
 ![](./assets/translating-guide-gitlocalize-chapter-files.png)
 
-Then open a chapter folder to see how long the chapter is and what parts need to be translated. 
+Then open a chapter folder to see how long the chapter is and what parts need to be translated.
+
 In this example you can see that the guide has not been translated yet.
 
 ![](./assets/translating-guide-gitlocalize-document-to-translate.png)
@@ -99,6 +100,7 @@ The chapter files will be listed in alphabetical order, but it might be easier f
 
 Whichever order you decide to follow, open the file you want to translate first. You will see a split-view editor, with the original text on the left. GitLocalize breaks the files down into translatable segments, automatically links the translation with the version in the source language, highlighting the sections that are missing translations. 
 If you click the text on the right, a text-editing box will appear with the original text in it. You can replace this text with translated text. Click **Submit** as you finish each part.
+
 ![](./assets/translating-guide-gitlocalize-translate-text-box.png)
 
 ### Machine translation
@@ -181,9 +183,9 @@ When you are finished, follow the instructions under **Create Review Request**.
 
 ## Translate without GitLocalize
 
-If you do not want to use GitLocallize to translate PKP documentation, your other option is to translate the markdown files, maintaining markdown formatting, and submit your translation directly in the [pkp-docs repository](https://github.com/pkp/pkp-docs) in GitHub. Please note, this method is less preferred because the translation will need to be pulled into GitLocalize and the Translation Coordinator will have to manually associate each translated section of text with the original text.
+If you do not want to use GitLocalize to translate PKP documentation, your other option is to translate the markdown files, maintaining markdown formatting, and submit your translation directly in the [pkp-docs repository](https://github.com/pkp/pkp-docs) in GitHub. Please note, this method is less preferred because the translation will need to be pulled into GitLocalize and the Translation Coordinator will have to manually associate each translated section of text with the original text.
 
-To understand how documents in pkp-docs are structured and how to create and edit documents, read the [Guidelines for Contributing to PKP Documentation](https://docs.pkp.sfu.ca/contributing/en/). 
+To understand how documents in pkp-docs are structured and how to create and edit documents, read the [Guidelines for Contributing to PKP Documentation](/contributing/en/).
 
 You can look at the structure of an already translated document, such as Learning OJS, to see how a GitHub-based translation will work.
 

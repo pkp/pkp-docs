@@ -9,8 +9,7 @@ software to maintain consistent and flexible localization, i.e. the
 ability to translate content and built-in text into numerous languages
 and support a flexible mix of publishing options.
 
-Locale Files
-------------
+## Locale Files
 
 Locale files are Gettext PO files stored in one of several directories named
 for the locale code (i.e. en\_US for U.S. English or fr\_CA for Canadian
@@ -22,10 +21,10 @@ translations in various languages (i.e. "Journal Help" in English or
 There are numerous locale files, organized by function. The major places
 to find these are:
 
--   locale/ - Contains the application-specific locale files
--   lib/pkp/locale/ - Contains the generic PKP library locale files
--   plugins/\*/\*/locale/ - Contains application-specific plugin content
--   lib/pkp/plugins/\*/\*/locale/ - Contains generic plugin content
+-   `locale/` - Contains the application-specific locale files
+-   `lib/pkp/locale/` - Contains the generic PKP library locale files
+-   `plugins/*/*/locale/` - Contains application-specific plugin content
+-   `lib/pkp/plugins/*/*/locale/` - Contains generic plugin content
 
 Segmentation of content into numerous files serves several purposes:
 
