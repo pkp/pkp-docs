@@ -2,7 +2,7 @@
 book: translating-guide
 version: 3.2
 ---
-# Translating PKP Software
+# Translate PKP Software
 
 Starting with OJS/OMP 3.2, we are using the web-based translation tool [Weblate](https://weblate.org) to manage translations of OJS and OMP.
 
@@ -24,7 +24,7 @@ Once you have registered and logged in, go to “Browse All Projects.” You wil
 
 ![](./assets/translating-guide-weblate-projects.png)
 
-## How content is organized in Weblate
+## How Content is Organized in Weblate
 
 Content is organized into **Projects**, **Components**, and **Strings**.
 
@@ -49,7 +49,7 @@ Inside each **component**, you will see numerous **strings**. These are the actu
 
 ![](./assets/translating-guide-weblate-strings.png)
 
-## Update an existing translation
+## Update an Existing Translation
 
 Once you have registered for an account and gotten access to the projects (see above), decide which projects you want to work on. See the previous section for information on which projects will be important to your work.
 
@@ -69,6 +69,6 @@ When you have finished translating the remaining strings for this component, con
 
 When all components are finished, please contact [Alec Smecher](mailto:alec@smecher.bc.ca) with the good news!
 
-## Begin a new translation
+## Begin a New Translation
 
-To begin a new translation, please create an account by following the instructions above. Be sure to specify that you want to start a new translation; this will take a little bit of set-up. When you receive confirmation that everything is ready, follow the instructions in **Update an existing translation** — the only difference will be that you will start with empty translation files.
+To begin a new translation, please create an account by following the instructions above. Be sure to specify that you want to start a new translation; this will take a little bit of set-up. When you receive confirmation that everything is ready, follow the instructions in **Update an Existing Translation** — the only difference will be that you will start with empty translation files.
