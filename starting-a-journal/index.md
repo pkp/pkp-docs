@@ -20,9 +20,3 @@ Here are the main steps in setting up your journal with OJS.  Some link to PKP S
 13. [Select a financial model](http://pkpschool.sfu.ca/courses/becoming-an-editor/) - Module 8
 14. [Get your content indexed](http://pkp.sfu.ca/files/GettingFoundStayingFound.pdf) <!-- needs updating -->
 15. [Market your journal](http://pkpschool.sfu.ca/courses/becoming-an-editor/) - Module 9
-
----
-
-Copyright: Simon Fraser University holds the copyright for work produced by the Public Knowledge Project and has placed its documentation under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
-
-[![](https://i.creativecommons.org/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](http://creativecommons.org/licenses/by/4.0/)

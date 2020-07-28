@@ -1,5 +1,5 @@
 ---
-title: Resources - Technical Documentation - OJS/OMP
+title: Resources - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Resources
@@ -15,7 +15,7 @@ This plugin will [clear the template and CSS cache](https://github.com/NateWr/ca
 
 ## Postman API
 
-We use [Postman](https://www.getpostman.com/) to test our REST API endpoints. You can [import our request collection](/dev/api/OJS-api-postman-collection.json) for OJS (last updated 2019-04-11).
+We use [Postman](https://www.getpostman.com/) to test our REST API endpoints. You can [import our request collection](/dev/api/OJS-api-postman-collection.json) for OJS (last updated 2020-02-03).
 
 ## Generate submissions
 
@@ -23,4 +23,22 @@ A CLI script to [generate submissions for import](https://gist.github.com/NateWr
 
 ## Generate metrics
 
-A CLI tool to [generate fake metrics data](https://gist.github.com/NateWr/32322ca420a0abb37c035506dd51601d). Creates fake stats entries for each submission in your instance.
+A CLI tool is available to generate usage statistics for each submission in your instance. From the root directory of an application, run:
+
+```
+php lib/pkp/generateTestMetrics.php <context_id> <start_date> <end_date>
+```
+
+Dates should be in the format `YYYY-MM-DD`.
+
+## Remove a locale key
+
+A CLI tool is available to remove locale keys. This can be useful when a locale key is no longer used and needs to be removed from every locale.
+
+From the rood directory of an application, run:
+
+```
+php tools/removeLocaleKey.php example.locale.key
+```
+
+It will remove all instances of that locale key from every locale `.po` file in the application and pkp-lib.

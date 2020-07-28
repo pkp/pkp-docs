@@ -1,5 +1,5 @@
 ---
-title: Architecture - Technical Documentation - OJS/OMP
+title: Architecture - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Architecture
@@ -28,11 +28,11 @@ ojs
 └── plugins         # Official and third-party plugins
 ```
 
-A class in OJS or OMP will often extend a class in the [base library](https://github.com/pkp/pkp-lib/). For example, in OJS we use the `Article` class which extends the `Submission` class.
+A class in OJS or OMP will often extend a class in the [base library](https://github.com/pkp/pkp-lib/). For example, in OJS we use the `Submission` class which extends the `PKPSubmission` class.
 
 ```php
-import('lib.pkp.classes.submission.Submission');
-class Article extends Submission {
+import('lib.pkp.classes.submission.PKPSubmission');
+class Submission extends PKPSubmission {
   ...
 }
 ```
@@ -43,17 +43,17 @@ Both the application and the base library share a similar file structure.
 ojs
 │
 ├─┬ classes
-│ └─┬ article
-│   └── Article.inc.php
+│ └─┬ submission
+│   └── Submission.inc.php
 │
 └─┬ lib
   └─┬ pkp
     └─┬ classes
       └─┬ submission
-        └── Submission.inc.php
+        └── PKPSubmission.inc.php
 ```
 
-The same approach is used in OMP, where a `Monograph` class extends the `Submission` class.
+The same approach is used in OMP.
 
 ## Contexts
 

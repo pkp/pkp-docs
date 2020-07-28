@@ -1,4 +1,8 @@
-# Chapter 10: Users and Roles
+---
+book: learning-ojs
+version: 3.2
+---
+# Users and Roles
 
 This section provides access to all of the user accounts associated with your journal, as well as the opportunity to manage roles and permissions.
 
@@ -48,7 +52,9 @@ It is not currently possible to add cc or bcc addresses to messages or to add at
 
 **Login As** allows you to temporarily log in as that user, for example, to complete an outstanding task.
 
-**Merge User** lets you fold this user account, including any submissions or assignments, into another user account on your system.
+#### Merge User 
+
+The Merge User feature lets you fold this user account, including any submissions or assignments, into another user account on your system.
 
 > **Note**: This is the only way to completely delete an account from the system.
 
@@ -128,7 +134,7 @@ Roles define what a user can do within the system. An Author can make submission
 
 One user can have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
 
-OJS 3 has multiple roles available, each with different permission levels.
+Here is an example of the roles and respective permission levels in a typical journal workflow:
 
 ![](./assets/learning-ojs3.1-jm-users-roles.png)
 
@@ -142,7 +148,9 @@ Selecting the blue arrow to the left of the role name reveals the edit link. Cli
 
 ![](./assets/learning-ojs3.1-jm-users-roles-edit.png)
 
-**Permission Level**: This indicates how much a user with this role can do in any stage. The Journal Assistant level can communicate with other users and upload and revise files.
+**Permission Level**: This indicates how much a user with this role can do in any stage.
+
+The Journal Assistant level can communicate with other users and upload and revise files. In Journals where only one user has been assigned with an Assistant role, they will be automatically assigned to a new submission. Once a second person has been assigned this role, this action will stop.
 
 **Role Name**: You can use this field to easily rename any role.
 
@@ -150,7 +158,7 @@ Selecting the blue arrow to the left of the role name reveals the edit link. Cli
 
 **Stage Assignment**: This allows you to determine which stage users with this role can access.
 
-**Role Options**: Use these checkboxes to show anyone with this role in the contributor list \(e.g., the author list\).
+**Role Options**: Use these checkboxes to show anyone with this role in the contributor list \(e.g., the author list\). As of OJS 3.2, roles can be assigned permission to edit submission metadata by enabling the checkbox.
 
 Use the second option to determine whether users can self-register in this role. Authors and Reviewers are good candidates for self-registration. You would definitely NOT want to allow users to self-register as Journal Managers or Editors!
 

@@ -25,7 +25,7 @@ Several Canadian higher education institutions have developed Indigenous writing
 Style guides provide no guidance for citing Indigenous Elders; however NorQuest College (Edmonton, Alberta) has developed a template for APA and MLA citations.
 
 -   APA style [reference list](http://libguides.norquest.ca/apa6/audiovisual#s-lib-ctab-7271142-7) and [in-text](http://libguides.norquest.ca/apa6/intext_citations#s-lib-ctab-7230105-9) citations
-- MLA style [reference list](http://libguides.norquest.ca/MLA8/AV#s-lib-ctab-10492795-8) and [in-text](http://libguides.norquest.ca/MLA8/intextcitations#s-lib-ctab-10510622-5) citations
+- MLA style [reference list](http://libguides.norquest.ca/c.php?g=487448&p=5073772) and [in-text](http://libguides.norquest.ca/MLA8/intextcitations#s-lib-ctab-10510622-5) citations
 
 ## Peer review
 

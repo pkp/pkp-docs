@@ -1,4 +1,8 @@
-# Chapter 4: Site Administration
+---
+book: learning-ojs
+version: 3.2
+---
+# Site Administration
 
 As part of installing OJS, you will have created a Site Administrator user account. When you log into OJS with that account you will have access to Site Administrator settings from the Dashboard.
 
@@ -26,7 +30,7 @@ To edit the existing journal, click on the blue arrow to the left of the journal
 
 ![](./assets/learning-ojs-3-ch4-hosted-journals-edit-modal.png)
 
-**Remove** will let you delete the journal from the installation. You will be asked to confirm that you really do want to do this, as it is irreverisible.
+**Remove** will let you delete the journal from the installation. You will be asked to confirm that you really do want to do this, as it is irreversible.
 
 ![](./assets/learning-ojs-3-ch4-hosted-journals-remove.png)
 

@@ -22,4 +22,4 @@ Authors:
 Sonya Betz, Jennifer Chan, Roger Gillis, Jeanette Hatherill, Suzanne Jay, Andrea Kosavic, Andrea Pritt, Dana McFarland, Mariya Maistrovskaya, Ali Moore, Brownen Sprout, Kevin Stranack.
 
 
-Copyright: Simon Fraser University holds the copyright for work produced by the Public Knowledge Project and has placed its documentation under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+Copyright: Simon Fraser University holds the copyright for work produced by the Public Knowledge Project and has placed its documentation under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).

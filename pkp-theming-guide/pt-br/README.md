@@ -6,7 +6,7 @@ Este guia é um trabalho em andamento que poderá se modificar com o passar do t
 
 ---
 
-Direitos autorais: A Universidade Simon Fraser mantém os direitos autorais da obra produzida pela Public Knowledge Project\(PKP\) e disponibiliza esta documentação sob um [Licença Creative Commons Atribuição 4.0 Internacional](http://creativecommons.org/licenses/by/4.0/).
+Direitos autorais: A Universidade Simon Fraser mantém os direitos autorais da obra produzida pela Public Knowledge Project\(PKP\) e disponibiliza esta documentação sob um [Licença Creative Commons Atribuição 4.0 Internacional](https://creativecommons.org/licenses/by/4.0/).
 
-[![](https://i.creativecommons.org/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](http://creativecommons.org/licenses/by/4.0/)
+[![](https://licensebuttons.net/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](https://creativecommons.org/licenses/by/4.0/)
 

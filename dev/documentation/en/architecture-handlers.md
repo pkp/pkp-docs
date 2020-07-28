@@ -1,5 +1,5 @@
 ---
-title: Handlers - Technical Documentation - OJS/OMP
+title: Handlers - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Handlers
@@ -290,7 +290,7 @@ class PKPSubmissionsHandler extends APIHandler {
 
 ### Slim Framework
 
-Read the [Slim API Framework usage guide](http://www.slimframework.com/docs/) to learn more about the `$slimRequest` and `$response` objects.
+Read the [Slim API Framework usage guide](http://www.slimframework.com/docs/v3/) to learn more about the `$slimRequest` and `$response` objects.
 
 ## Controller Handlers (deprecated)
 

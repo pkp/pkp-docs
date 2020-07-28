@@ -1,4 +1,8 @@
-# Chapter 3: User Accounts
+---
+book: learning-ojs
+version: 3.2
+---
+# User Accounts
 
 OJS uses a comprehensive roles system to divide work between users, assign workflows, and limit access to different parts of the system.
 
@@ -15,11 +19,13 @@ Major roles include Site Administrator, Journal Manager, Editor, Section Editor,
 OJS 3 also includes additional roles such as Translator and Designer. You can also create new roles or rename existing ones. More information on configuring roles is available in the [Users and Roles chapter](./users-and-roles.md).
 
 ### Site Administrator
+
 The Site Administrator is responsible for the overall OJS installation, ensuring the server settings are accurate, adding language files, and creating any new journals on the installation. The Site Administrator account is created as part of the installation process. Unlike all other OJS roles, there can only be one Site Administrator.
 
 See [Chapter 4: Site Administration](./site-administration.md) for more details.
 
 ### Journal Manager
+
 The Journal Manager is responsible for setting up the journal web site, configuring the system options, and managing the user accounts. This does not involve any advanced technical skills, but entails filling out web-based forms and uploading files.
 
 The Journal Manager also enrolls the Editors, Section Editors, Copyeditors, Layout Editors, Proofreaders, Authors, and Reviewers.
@@ -148,3 +154,26 @@ You can reset your password by:
 ![](./assets/learning-ojs3.1-ed-change-pw.png)
 
 Your password is now changed.
+
+### If you forgot your password
+
+Retrieving your password is a three-step process:
+
+First you need to request a new password:
+1. Click the **Login** link at the top-right corner of the navigation bar
+2. Click the **Forgot your Password** link on the following page
+3. Enter your email address
+4. Click **Reset Password**
+
+Then you need to check your email account and confirm your request: 
+1. Open your email account
+2. Open the confirmation email message from the journal (you may need to check your Spam folder)
+3. Click the link to confirm that you did indeed request your password to be reset. You will be taken back to the journal in question, and the system will email you a new password.
+
+Now you can retrieve you new temporary password and log in: 
+1. Go back to your email account
+2. Open the email message containing your temporary password (you may need to check your Spam folder)
+3. Log in to the journal with your temporary password
+4. Fill in a new password when prompted by the journal 
+
+If you need further assistance, contact the journal's editorial team. A list of contacts should be available on the **About** page.

@@ -1,6 +1,11 @@
 
-### [OMP 1.0 Userguide](https://pkp.sfu.ca/wiki/index.php/OMP_Userguide)
+### [Learning OMP 3](/learning-omp/en)
 
-A step-by-step guide to managing a press with the legacy version of Open Monograph Press. [View now](https://pkp.sfu.ca/wiki/index.php/OMP_Userguide)
+A visual, step-by-step guide to managing a press with Open Monograph Press. [View Now](learning-omp/)
 
-Learning OMP 3 is currently in development. _Coming soon_.
+---
+
+- [Editorial Interface](learning-omp/en/editorial-interface)
+- [User Accounts](learning-omp/en/user-accounts)
+- [Catalog Management](learning-omp/en/catalog-management)
+- ... and [more](learning-omp/en/).

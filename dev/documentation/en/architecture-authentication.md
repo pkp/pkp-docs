@@ -1,5 +1,5 @@
 ---
-title: Authentication - Technical Documentation - OJS/OMP
+title: Authentication - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Authentication

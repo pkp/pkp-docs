@@ -95,7 +95,7 @@ Don’t forget to repeat these steps for any other journals you wish to include 
 
 There are several journal settings that should be properly configured in order for the data to be collected by Érudit. For each journal that you wish to include, make sure that:
 
-* For each of your journal’s sections, the “Identify items published in this section as a(n)...” field is set to one of the [suggested JATS article-type values](https://jats.nlm.nih.gov/archiving/tag-library/1.1/attribute/article-type.html&sa=D&ust=1572973357641000).
+* For each of your journal’s sections, the “Identify items published in this section as a(n)...” field is set to one of the [suggested JATS article-type values](https://jats.nlm.nih.gov/archiving/tag-library/1.1/attribute/article-type.html).
 * Your journal settings are complete, e.g.:
 	* An ISSN has been specified
 	* The journal title is the same as you have registered at [issn.org](https://www.issn.org)
@@ -103,9 +103,22 @@ There are several journal settings that should be properly configured in order f
 	* Copyright
 		* Make sure that the copyright holder of the articles (author, journal or other) is properly identified in Settings > Distribution > Permissions.
 		* Make sure, when you schedule an article for publication, to attach the permissions to it (copyright holder and copyright year).
-* Ensure that OJS knows about your server’s text extraction tools. Check your `config.inc.php` file in the `[search]` section to make sure your server’s locations for these tools are specified. This will also help OJS to index PDF documents for its own search indexing. (This step may require the help of your system administrator, as it requires access to a file on the server on which OJS is installed.)
 
-## Step 5. Check your Distribution Settings
+## Step 5. Rebuild Your Search Index
+
+This step may require the help of your system administrator, as it requires access to a file on the server on which OJS is installed.
+* Ensure that OJS knows about your server’s text extraction tools: check your `config.inc.php` file in the `[search]` section to make sure your server’s locations for these tools are specified.
+* If you had to modify your `config.inc.php` file to enable PDF indexing, you will also have to rebuild your search index. You can do this by running the following command on your server, in the OJS web root:
+
+`php tools/rebuildSearchIndex.php`
+
+NOTE: This step is required only if you have recently enabled PDF indexing.
+
+* You can check that the index has been successfully rebuilt by searching for text that only appears in a PDF (ie. not in other submission metadata stored by OJS, such as title or abstract fields).
+
+In addition to configuring your OJS for Coalition Publica, this step will also help OJS to index PDF documents for its own search indexing.
+
+## Step 6. Check your Distribution Settings
 
 Under Settings > Distribution > Access, you will see a series of settings:
 
@@ -120,7 +133,6 @@ If your access settings are configured
 
 ... see specific instructions below, in Subscriptions and Non-Publishing Use of OJS section, for inclusion on Érudit.
 
-## Step 6. Enable Inclusion
+## Step 7. Enable Inclusion
 
-Contact us to confirm that your OJS journal’s data can now be fetched for inclusion in Érudit, as part of Coalition Publi.ca!
-
+Contact us to confirm that your OJS journal’s data can now be fetched for inclusion in Érudit, as part of Coalition Publica!
