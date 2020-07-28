@@ -37,7 +37,7 @@ npm install -g pkp-plugin-cli
 Use the following to build a release package and upload it as a release to your repository on GitHub.
 
 ```
-npm release
+pkp-plugin release
 ```
 
 > Any non-essential files provided by your dependency manager (eg - composer, npm) should not be included with the package. These often include demos and examples that can be security risks when uploaded to the plugins directory.
@@ -99,7 +99,7 @@ Your plugin's XML must provide a title, description, contact details, and inform
     <description>Initial release.</description>
   </release>
 </plugin>
-``
+```
 
 When you have opened the pull request, tests will run against your XML snippet and we will be able to merge your plugin into the list.
 
@@ -107,9 +107,12 @@ In addition, each plugin must pass a code review. Your plugin will be given a `r
 
 ## Update Releases
 
-Once your plugin has been added to the Plugin Gallery, you can not remove or modify the release package. If you modify the release package, the md5sum will change and the plugin will no longer be downloaded from the Plugin Gallery.
+Your plugin will only appear in the plugin gallery for software versions with the appropriate `<compatibility>` statements. When a new version of PKP software is released, please test your plugin.
 
-Whenever you make a change, even a small change to a readme file, you must release a new version and provide us with the new release XML snippet.
+If it is compatible, open a pull request with the additional `<version>` tags in the `<compatibility>` statement. If changes are required to make it compatible, release a new version of your plugin and follow the instructions above to build a new release and add it to the plugin gallery.
+
+> Once your plugin has been added to the Plugin Gallery, you can not remove or modify the release package. If you modify the release package, the md5sum will change and the plugin will no longer be downloaded from the Plugin Gallery.
+{:.warning}
 
 ---
 
