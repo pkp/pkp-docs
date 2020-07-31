@@ -19,4 +19,4 @@ Here are the main steps in setting up your journal with OJS.  Some link to PKP S
 12. [Determine copyright policy](http://pkpschool.sfu.ca/courses/becoming-an-editor/) - Module 11, Unit 1
 13. [Select a financial model](http://pkpschool.sfu.ca/courses/becoming-an-editor/) - Module 8
 14. [Get your content indexed](http://pkp.sfu.ca/files/GettingFoundStayingFound.pdf) <!-- needs updating -->
-15. [Market your journal](http://pkpschool.sfu.ca/courses/becoming-an-editor/) - Module 9
+15. [Market your journal](http://pkpschool.sfu.ca/courses/becoming-an-editor/) - Module 9  
