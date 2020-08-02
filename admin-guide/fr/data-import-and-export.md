@@ -1,6 +1,6 @@
 # Importation et Exportation de Données
 
-Open Journal Systems offers a variety of tools and plugins which allow you to inject data into and extract data from OJS. This chapter explains how to use import and export tools and plugins. More information can be found in each plugin's documentation within OJS' plugin directory (plugins/).
+Open Journal Systems offre une variété d'outils et de plugiciels qui vous permettent d'injecter et d'extraire des données d'OJS. Ce chapitre explique comment utiliser les outils et plugiciels d'importation et d'exportation. Plus d'informations sont disponibles dans la documentation de chaque plugiciel dans le répertoire plugiciel d'OJS (plugins/).
 
 La plupart des fonctions d'importation et d'exportation peuvent être executées en vous connectant en tant que Directeur/trice de la revue et en allant dans Outils > Importer/Exporter.
 
@@ -18,11 +18,11 @@ Les articles et les publications peuvent être rapidement importés dans OJS à 
 
 ### Plugiciel Quick Submit
 
-The Quick Submit Plugin allows you to quickly add complete submissions to an issue. It provides a one-step submission process for editors needing to bypass the traditional submission, review, and editing process. See [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/tools) for more details.
+Le plugiciel Quick Submit vous permet d'ajouter rapidement des soumissions complètes à une publication. Cela fournit un processus de soumission en une seule étape pour les éditeurs qui doivent contourner le processus traditionnel de soumission, de révision et d'édition. Voir [Apprendre OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/tools) pour plus de détails.
 
 ### Plugiciel Native XML
 
-The Native XML Plugin in OJS 3.x replaces the Articles and Issues XML Plugin, which was used in OJS 2 to import article and issue metadata into and out of OJS in an XML file.  It can be used to import and export single or multiple issues and/or articles, including comprehensive metadata. It can be used in the following cases:
+Le plugiciel Native XML d'OJS 3.x remplace le plugiciel XML Articles and Issues, qui était utilisé dans OJS 2 pour importer les métadonnées d'un article et d'une publication dans et hors d'OJS dans un fichier XML. Cela peut être utilisé pour importer et exporter un ou plusieures publications et/ou articles, y compris des métadonnées compréhensives. Cela peut être utilisé dans les cas suivants:
 
 - Déplacement des métadonnées d'articles et de publications d'un journal OJS à un autre
 - Déplacement d'un grand nombre de publications et d'articles antérieurs dans OJS
