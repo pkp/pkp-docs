@@ -84,7 +84,7 @@ In this example the guide has been translated.
 
 If there is a document that is completely or mostly untranslated, you can also open it in the [Docs Hub](https://docs.pkp.sfu.ca/index.html) to see how long it is and what content it contains.
 
-## Start Translating
+### Start Translating
 
 Once you decide on a project, you can start translating.
 
@@ -103,7 +103,7 @@ If you click the text on the right, a text-editing box will appear with the orig
 
 ![](./assets/translating-guide-gitlocalize-translate-text-box.png)
 
-### Machine translation
+#### Machine translation
 
 You can also use the machine translation tool to get machine translation assistance. 
 
@@ -117,17 +117,23 @@ You may find that the machine translator will skip some sections, which you will
 
 You will have to click **Submit** below each piece of text to confirm that the translation is complete. 
 
-### Glossary
+#### Glossary
 
 PKP software translators maintain glossaries on a per-language basis of standard translations of technical terms. You should try to use the same translations when possible. You can check the glossaries in the [software translation tool](https://translate.pkp.sfu.ca/dictionaries/pkp-lib/). 
 
 You can also check a translated installation of OJS, OMP, or OPS to see what terms are used in the application itself. 
 
-### Screenshots
+#### Screenshots
 
-You will see screenshots as you are translating, but you can ignore them. PKP has an automatic process to generate screenshots for translations.
+You will see screenshots as you are translating. PKP is developing an automatic process to generate screenshots for translations. Until that is available, you are welcome to take screenshots of the software that will be added to the guide. Otherwise, English screenshots will be used until the other language screenshots are available.
 
-## Create Review Request
+To take screenshots you will need to have access to an installation of the software the guide is about (e.g., OJS) with the language you are translating the document into installed and enabled. [Contact PKP](https://pkp.sfu.ca/contact-us/) if you need assistance with this.
+
+As you are translating the text in GitLocalize, as you come upon a screenshot, recreate the same scenario and take a similar screenshot on your installation. You can also open the English (or another language) version of the guide you are translating to see the existing screenshots. 
+
+Save the screenshot with the same file name as the English screenshot (which you will see in the translation on the right), but add an abbreviation for your language at the end. For example, if you see the screenshot tag {img0 src="./assets/learning-ojs3.1-ed-tasks.png"} and you're translating into French, name your screenshot learning-ojs3.1-ed-tasks-fr.png. Then add the language abbreviation to the end of the file name in the image tag in Gitlocalize. E.g., {img0 src="./assets/learning-ojs3.1-ed-tasks-fr.png"}
+
+### Create Review Request
 
 When you have finished translating the chapter and clicked **Submit** below each piece of text, the next step is to request a review of the translation to the language moderator.
 
@@ -203,4 +209,6 @@ Click on the review request to open it. The **Conversation** tab will show any c
 
 ![](./assets/translating-guide-gitlocalize-review-translated-texts.png)
 
-If you want to suggest changes to the translator or ask a question, reply in the Conversation tab. If you are happy with the translation, you can go back to the Conversation tab and click Send Pull Request. This will send a pull request to the pkp-docs GitHub repository, to be merged. You will receive an email notification once it is merged. The translation will be available in the Docs Hub the next time the website is built, which could be in a few days or a week.
+If you want to suggest changes to the translator or ask a question, reply in the Conversation tab. If you are happy with the translation, you can go back to the Conversation tab and click Send Pull Request. You will be asked to enter a Title and Description for your pull request. The title can be something brief like "French translation of Learning OJS." The Description can be the same or you can add further information as needed.
+
+This will send a pull request to the pkp-docs GitHub repository, to be merged. You will receive an email notification once it is merged. The translation will be available in the Docs Hub the next time the website is built, which could be in a few days or a week.
