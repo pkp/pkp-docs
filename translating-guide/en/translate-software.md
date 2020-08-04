@@ -72,3 +72,8 @@ When all components are finished, please contact [Alec Smecher](mailto:alec@smec
 ## Begin a New Translation
 
 To begin a new translation, please create an account by following the instructions above. Be sure to specify that you want to start a new translation; this will take a little bit of set-up. When you receive confirmation that everything is ready, follow the instructions in **Update an Existing Translation** — the only difference will be that you will start with empty translation files.
+
+### Use Your New Translation
+
+To learn how to use the new language you have translated the software into on your installation, see [the Install a Language instructions in this guide](./managing-languages.md#install-a-language).
+
