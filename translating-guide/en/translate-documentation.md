@@ -161,9 +161,11 @@ You can also visit GitLocalize to see if there have been updates that need to be
 
 ![](./assets/translating-guide-gitlocalize-translation-update.png)
 
-Usually updates will consist of small changes, such as a change to a paragraph, a new paragraph or section, and/or updated screenshots. Sometimes changes will be larger, like a new chapter or substantial changes to the text and/or screenshots.
+If the document shows a status of "Conflict," like in the example below, it probably means the document was translated outside of GitLocalize and so the relationships between the original text and translated text have not been defined. See the section below on "Update a Document Translated Outside of GitLocalize" for further information. 
 
-Usually if a document changes substantially, the DIG will release a new version of it and maintain the old version. 
+![](./assets/translating-guide-gitlocalize-conflict.png)
+
+Usually updates will consist of small changes, such as a change to a paragraph, a new paragraph or section, and/or updated screenshots. Sometimes changes will be larger, like a new chapter or substantial changes to the text and/or screenshots. Usually if a document changes substantially, the DIG will release a new version of it and maintain the old version. 
 
 To update the translation, open the guide and find the chapter that needs to be updated, which will not be 100% translated.
 
@@ -177,6 +179,23 @@ Translate that text, using machine translation tools as desired, and click **Sub
 
 Click **Create Review Request** when you have finished translating the updates.
 
+### Update a Document Translated Outside of GitLocalize
+
+Some PKP documents were translated before GitLocalize was adopted. These translations have been moved into GitLocalize but the translated segments of text need to be manually connected to the original segments of text. Until the segments are connected, the document will show as having "conflicts." 
+
+To update these translations you can follow the instructions above. Please note that because these documents were translated in the past, there may be a number of significant changes and new segments that need to be translated. 
+
+In addition to updating the translation, you will need to connect any segment tinted red to its original segment. This includes screenshots.
+
+![](./assets/translating-guide-gitlocalize-segment-conflict.png)
+
+1. Click on the segment highlighted in red
+2. You will see a message that says "A source segment for this translation is missing. Please link to a segment on the left or delete this translation if it is outdated." and a button below it to "Link to a segment."
+3. Click the **Link to a segment** button. A line will appear.
+4. Move to the line to the segment on the left that is the original text of the translated text on the right. Click in the original text segment.
+
+Do this for the rest of the red segments on the page.
+
 ## Improve a Document Translation
 
 If a document has already been translated but you think the translation needs to be improved, you can edit an existing translation. 
@@ -189,7 +208,7 @@ When you are finished, follow the instructions under **Create Review Request**.
 
 ## Translate without GitLocalize
 
-If you do not want to use GitLocalize to translate PKP documentation, your other option is to translate the markdown files, maintaining markdown formatting, and submit your translation directly in the [pkp-docs repository](https://github.com/pkp/pkp-docs) in GitHub. Please note, this method is less preferred because the translation will need to be pulled into GitLocalize and the Translation Coordinator will have to manually associate each translated section of text with the original text.
+If you do not want to use GitLocalize to translate PKP documentation, your other option is to translate the markdown files, maintaining markdown formatting, and submit your translation directly in the [pkp-docs repository](https://github.com/pkp/pkp-docs) in GitHub. Please note, this method is less preferred because the translation will need to be pulled into GitLocalize and the Translation Coordinator or a future translator will have to manually associate each translated segment of text with the original text.
 
 To understand how documents in pkp-docs are structured and how to create and edit documents, read the [Guidelines for Contributing to PKP Documentation](/contributing/en/).
 
