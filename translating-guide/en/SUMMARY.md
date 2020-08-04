@@ -5,7 +5,7 @@
    * [How Languages and Locales Work](./managing-languages.md#how-languages-and-locales-work)
    * [Check Language Availability](./managing-languages.md#check-language-availability)
    * [Install a Language](./managing-languages.md#install-a-language)
-   * [Use the Default Translation](./managing-languages.md#use-the-default-translation)
+   * [Default Translation Plugin](./managing-languages.md#default-translation-plugin)
 * [Translate PKP Software](translate-software.md)
    * [Get Started](./translate-software.md#get-started)
    * [How Content Is Organized](./translate-software.md#how-content-is-organized-in-weblate)
