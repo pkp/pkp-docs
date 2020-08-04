@@ -86,3 +86,14 @@ Another option is to get the latest translations from the pkp-translations organ
 - any relevant plugins
 
 If the language is new, you will also have to add an entry for it to the file in your installation called registry/locales.xml.
+
+## Default Translation Plugin
+
+While you're in the process of translating the software, you can avoid having untranslated locale keys displayed on your site (like ##plugins.generic.customLocale.customLocaleFiles##) by using the Default Translation plugin. This plugin will automatically display the English translation if the site is set to another language but a translation of a message key does not exist in that language.
+
+To use the plugin
+1. Go to Website Settings > Plugins > Plugin Gallery
+2. Find the Default Translation plugin and install it
+3. Under the list of Installed Plugins, find the Default Translation plugin again and enable it
+
+No configuration of the plugin is required.
