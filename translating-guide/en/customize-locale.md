@@ -32,6 +32,8 @@ Each file in a locale folder is a collection of message keys categorized by topi
 
 An additional tricky thing to keep in mind is that every installation of OJS, OMP, or OPS has 2 sets of locale files – 1 in a folder called pkp-lib/locale/, which are for files that are common to all PKP software applications, and 1 in a folder called ojs/locale (or pkp/omp/locale or pkp/ops/locale), which are for files that are specific to that application.  For example, all of the English OJS email templates are in the ojs/locale/en_us/emails.po file. Whereas all of the English message keys related to user accounts are in the pkp-lib/locale/en_us/user.po file.
 
+Finally, keep in mind that locales and message keys can change between different versions of PKP software. 
+
 ## Find the Locale File to Edit
 Because the message keys are saved in multiple different files and you can only search within a file, before you can edit a message key you need to figure out which file it is in. There are a few different ways to do this.  
 
