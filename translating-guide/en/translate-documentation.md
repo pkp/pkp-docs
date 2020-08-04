@@ -125,13 +125,15 @@ You can also check a translated installation of OJS, OMP, or OPS to see what ter
 
 #### Screenshots
 
-You will see screenshots as you are translating. PKP is developing an automatic process to generate screenshots for translations. Until that is available, you are welcome to take screenshots of the software that will be added to the guide. Otherwise, English screenshots will be used until the other language screenshots are available.
+You will see screenshots as you are translating, but you can ignore them. PKP is developing an automatic process to generate screenshots for translations.
+
+<!--- You will see screenshots as you are translating. PKP is developing an automatic process to generate screenshots for translations. Until that is available, you are welcome to take screenshots of the software that will be added to the guide. Otherwise, English screenshots will be used until the other language screenshots are available.
 
 To take screenshots you will need to have access to an installation of the software the guide is about (e.g., OJS) with the language you are translating the document into installed and enabled. [Contact PKP](https://pkp.sfu.ca/contact-us/) if you need assistance with this.
 
 As you are translating the text in GitLocalize, as you come upon a screenshot, recreate the same scenario and take a similar screenshot on your installation. You can also open the English (or another language) version of the guide you are translating to see the existing screenshots. 
 
-Save the screenshot with the same file name as the English screenshot (which you will see in the translation on the right), but add an abbreviation for your language at the end. For example, if you see the screenshot tag {img0 src="./assets/learning-ojs3.1-ed-tasks.png"} and you're translating into French, name your screenshot learning-ojs3.1-ed-tasks-fr.png. Then add the language abbreviation to the end of the file name in the image tag in Gitlocalize. E.g., {img0 src="./assets/learning-ojs3.1-ed-tasks-fr.png"}
+Save the screenshot with the same file name as the English screenshot (which you will see in the translation on the right), but add an abbreviation for your language at the end. For example, if you see the screenshot tag {img0 src="./assets/learning-ojs3.1-ed-tasks.png"} and you're translating into French, name your screenshot learning-ojs3.1-ed-tasks-fr.png. Then add the language abbreviation to the end of the file name in the image tag in Gitlocalize. E.g., {img0 src="./assets/learning-ojs3.1-ed-tasks-fr.png"} --->
 
 ### Create Review Request
 
