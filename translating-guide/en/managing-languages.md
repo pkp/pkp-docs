@@ -70,7 +70,7 @@ If you have newly translated the software into another language and want to inst
 
 First, confirm that you are using OJS/OMP/OPS 3.2.0 or above. If you are not, you will need to upgrade to the newest version of OJS/OMP/OPS.
 
-When you upgrade, if you use a git checkout of OJS/OMP/OPS, rather than installing from a .tar.gz package, you will install the new translation files.
+When you upgrade, if you use a git checkout of OJS/OMP/OPS, rather than installing from a .tar.gz package, you will use the latest "stable" branch of the software. This will include recent translation contributions automatically and can be periodically refreshed.
 
 Otherwise, you can download the new translation files and install them on your site by doing the following:
 1. Go to [Weblate](https://translate.pkp.sfu.ca/)
@@ -80,7 +80,7 @@ Otherwise, you can download the new translation files and install them on your s
 5. Do the same thing for any plugins that you use
 6. Add the files you download to your OJS/OMP/OPS installation
 
-Another option is to get the latest translations from the pkp-translations organization in Github, including the following: 
+Another option is to get the latest translations from the pkp-translations organization in Github, in which the current stable branch will be at the end of the url. In this example, the stable branch is 3.2.1: 
 - https://github.com/pkp-translations/pkp-lib/tree/stable-3_2_1
 - https://github.com/pkp-translations/ojs/tree/stable-3_2_1
 - any relevant plugins
