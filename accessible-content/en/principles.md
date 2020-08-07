@@ -61,3 +61,53 @@ Alt text (“alternative text”) is a machine-readable tag that describes an im
 Image positioning matters for text documents (e.g. Word, PDF) when read by screen readers. 
 
 Only images with the Wrap Text style of "In Line with Text" are recognized by screen reader software. When exported to PDF, images with other wrapping styles will be skipped by a screen reader even when an alt tag is present.
+
+### Video and audio content
+
+When creating video and audio content, it is important to ensure that it is accessible to users with visual, auditory, and neurological disabilities. Make sure that the video does not play automatically, as people should be able to choose when to play the content. A hearing impaired person may not be aware of the audio volume; users with physical or cognitive disabilities may not be as fast to stop the video and may impact other people in their environment, as well as feel embarrassed by the situation.
+
+#### Video and audio quality
+
+-   Ensure that the video contains no unannounced flashing/strobing that could trigger seizures due to photosensitivity;
+    
+-   Provide high-quality foreground audio that is clearly distinguishable from any background noise to aid people who are hard of hearing.
+    
+#### Providing alternatives for video and audio
+
+-   **Captions**. Captions are text alternatives to the spoken word presented within multimedia. They are beneficial to those who cannot hear the audio, those who may not be fluent in the language or those who prefer to receive information via text over sound.
+
+       You can have automated captions generated that will then need to be reviewed and corrected by a human reader, using tools like:
+
+    -   [YouTube auto captioning for video](https://www.youtube.com/)
+    
+    -   [Kapwing Caption Video Online](https://www.kapwing.com/tools/caption-video)
+    
+    -   [IBM Watson auto captioning for audio](https://speech-to-text-demo.ng.bluemix.net/) (demo)
+    
+-   **Transcripts**. Transcripts contain the full text of the spoken word (not necessarily verbatim) that could be accessed and read separately from the multimedia itself. Transcripts allow deaf/blind users to get content through the use of refreshable Braille devices. They are also useful for searching and navigating to a specific part of the text.
+    
+    When planning a video/audio recording, it is a good idea to have the transcript written out ahead of time. It can then be used both for the multimedia creation and to be made available afterwards.
+
+-   **Audio descriptions**. Audio descriptions are meant to provide additional information about content that is visible on the screen for users with visual disabilities. They typically take the form of a narrator that describes visual-only content in the multimedia and can be provided with the primary video, or in another audio track.
+    
+    When producing a video, the need for audio descriptions can often be avoided by describing or presenting the visual content via spoken audio. For example instead of saying “click here and then here”, you can say “click File and then Save” thus conveying visual content through audio.
+
+-   **Sign language interpretation**. While closed captions or transcripts provide a suitable alternative for users with hearing disabilities who are comfortable reading written language, they may not be sufficient for deaf users who rely on sign language as their primary (or only) language of communication. In this case an alternative can be provided via sign language interpretation or other tools outlined in the [Accessibility for Sign Language users chapter](https://docs.google.com/document/d/123_T3cPljMGIHsKg2OG7t5HJX5fxmeRrVARWSNxWJdM/edit#heading=h.27oq969ne8sp).
+    
+### Accessible hyperlinks
+
+Users who navigate using a screen reader must be able to unambiguously understand the purpose of the link and skip links they are not interested in. To achieve this, link text needs to be:
+
+-   **Descriptive.** When writing URL text, make sure it can be understood without additional context. E.g.:
+    
+    -   Do not use: "[Click here](https://pkp.sfu.ca/ojs/) to read about OJS”.
+    -    Use instead: “More information is available on the [Open Journal Systems (OJS) page](https://pkp.sfu.ca/ojs/)”.
+    
+-   **Concise**. Use keyword(s) as linked text rather than longer sentences. For text that is meant to be printed, hyperlink the text and add a full URL. E.g.:
+    - For online display: “More information is available on the [Open Journal Systems (OJS) page](https://pkp.sfu.ca/ojs/)”.   
+    
+    -   For print display or online + print: “More information is available on the [Open Journal Systems (OJS) page](https://pkp.sfu.ca/ojs/) at [https://pkp.sfu.ca/ojs/](https://pkp.sfu.ca/ojs/)”.
+    
+-   **Unique**. Avoid similarly named hyperlinks if they link to different places.
+
+- **Visually distinct**. Use the default blue underlined style for hyperlinks. If you change it, make sure the links are still high contrast and underlined. Don't use underline for non-hyperlinked text.
