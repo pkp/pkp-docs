@@ -1,10 +1,10 @@
 # Customize a Translation Locally
 
-You can use the Custom Locale plugin to do a translation or change a translation on your local installation. It also allows you to customize text on your site in any language that is installed and enabled. For example, if you want to change the text displayed on the review recommendation buttons in the submission workflow, you can use the Custom Locale plugin. 
+You can use the Custom Locale plugin to customize or change a translation on your local installation. It also allows you to customize text on your OJS journal, OMP press, or OPS server in any language that is installed and enabled. For example, if you want to change the text displayed on the review recommendation buttons in the submission workflow, you can use the Custom Locale plugin. 
 
-The Custom Locale is only reliably available and operational for OJS/OMP/OPS 3.2.0+. 
+The Custom Locale is only reliably available and operational for OJS/OMP/OPS 3.2.0 and newer. 
 
-If you want to make a translation that other users can benefit from, it is better to translate in Weblate. But there are some situations in which translating on your local installation is preferred, and the Custom Locale plugin allows you to do this. This chapter explains how to use the plugin.
+If you want to make a translation that other users can benefit from, it is better to translate in Weblate. But there are some situations in which customizing a translation on your local installation is preferred, and the Custom Locale plugin allows you to do this. This chapter explains how to use the plugin.
 
 Please see [How Languages and Locales Work](https://docs.pkp.sfu.ca/translating-guide/en/managing-languages#how-languages-and-locales-work) in this guide for an explanation of how languages and locale files work in PKP software. 
 
@@ -30,7 +30,7 @@ You can open a file, find a message key in it, and enter a custom value to chang
 
 Each file in a locale folder is a collection of message keys categorized by topic, based on what feature or function they pertain to in the software application.  For example, most message keys related to an editor’s work are in the locale/en_US/editor.po file, while message keys for the ORCID profile plugin are in the plugins/generic/orcidProfile/locale/en_US/locale.po file. 
 
-An additional tricky thing to keep in mind is that every installation of OJS, OMP, or OPS has 2 sets of locale files – 1 in a folder called pkp-lib/locale/, which are for files that are common to all PKP software applications, and 1 in a folder called ojs/locale (or pkp/omp/locale or pkp/ops/locale), which are for files that are specific to that application.  For example, all of the English OJS email templates are in the ojs/locale/en_us/emails.po file. Whereas all of the English message keys related to user accounts are in the pkp-lib/locale/en_us/user.po file.
+An additional tricky thing to keep in mind is that every installation of OJS, OMP, or OPS has 2 sets of locale files – 1 in a folder called lib/pkp/locale, which are for files that are common to all PKP software applications, and 1 in a folder called locale, which is for files that are specific to the application (OJS, OMP, or OPS).  For example, all of the English OJS email templates are in the ojs/locale/en_us/emails.po file. Whereas all of the English message keys related to user accounts are in the pkp-lib/locale/en_us/user.po file.
 
 Finally, keep in mind that locales and message keys can change between different versions of PKP software. 
 
