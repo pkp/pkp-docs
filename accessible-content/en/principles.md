@@ -125,7 +125,8 @@ Text colour against the background may appear as sufficiently distinct to a sigh
 
 You can use [WebAim’s Contrast Checker](http://webaim.org/resources/contrastchecker), [Contrast Ratio Checker](http://leaverou.github.io/contrast-ratio), or the [Colour Contrast Analyser](https://www.paciellogroup.com/resources/contrastanalyser) to check the contrast ratio between your website’s background and text colours. Here is an example of a check done using [WebAim’s Contrast Checker](http://webaim.org/resources/contrastchecker):
 
-![Screenshot of WebAim's Colour Contrast Checker interface.]([./assets/1_a11y-guide-webaim-contrast-checker.png](https://github.com/pkp/pkp-docs/blob/accessible-content/accessible-content/en/assets/1_a11y-guide-webaim-contrast-checker.png)
+![Screenshot of WebAim's Colour Contrast Checker interface.](./assets/1_a11y-guide-webaim-contrast-checker.png)
+
 *Example of WebAim's Colour Contrast Checker interface options*
 
 In this example, normal text of purple colour #666FF is not sufficiently distinct against the white background #FFFFFF and fails the Level AA standard, but large text of the same colour passes. To fix the issue, you can darken the text colour or increase the font size.
@@ -152,4 +153,4 @@ Other tools, such as the [Spectrum Chrome extension](https://chrome.google.com/w
 ![Four variations of the same map with different colours, description below.](./assets/5_a11y-guide-colour-chart4.png) 
 *In this figure, the original’s (1) colour legend is not as clear for users with achromatopsia, total colour blindness, as shown in (2). Some of the data’s categories are too similar to each other.*
   
-Certain web-based tools like [ColorBrewer](http://colorbrewer2.org/) provide accessible colour palettes for data visualisation, adapted to different types of datasets (sequential, diverging, qualitative). When in doubt, you may also fall back on different shapes or patterns to indicate delimitations in large groups of data points.
+Certain web-based tools like [ColorBrewer](https://colorbrewer2.org/) provide accessible colour palettes for data visualisation, adapted to different types of datasets (sequential, diverging, qualitative). When in doubt, you may also fall back on different shapes or patterns to indicate delimitations in large groups of data points.
