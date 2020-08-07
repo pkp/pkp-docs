@@ -28,7 +28,7 @@ If you’re interested in being a Language Moderator for a particular language, 
 
 ## Get Started
 
-To get started translating PKP software documentation, you can follow the instructions in this guide. You only need to contact the Translation Coordinator or your Language Moderator if you have questions. You can also get support for translation in the [PKP Community Forum](https://forum.pkp.sfu.ca/c/questions/translations/12).
+To get started translating PKP software documentation, you can follow the instructions in this guide. If you have questions you can contact the Translation Coordinator or your Language Moderator. You can also talk to other PKP translators and ask questions in the [PKP Community Forum](https://forum.pkp.sfu.ca/c/translations/12).
 
 To use GitLocalize for translation, you need to have a GitHub account and be logged in. If you do not already have an account, register on GitHub.
 
@@ -117,11 +117,12 @@ You may find that the machine translator will skip some sections, which you will
 
 You will have to click **Submit** below each piece of text to confirm that the translation is complete. 
 
-#### Glossary
+#### Choosing the right words
 
-PKP software translators maintain glossaries on a per-language basis of standard translations of technical terms. You should try to use the same translations when possible. You can check the glossaries in the [software translation tool](https://translate.pkp.sfu.ca/dictionaries/pkp-lib/). 
-
-You can also check a translated installation of OJS, OMP, or OPS to see what terms are used in the application itself. 
+When translating software documentation, it's important to use terminology that is consistent with the software application and is commonly understood by users. There are a number of ways you can check this:
+- Check an installation of the software that the guide is about (e.g., OJS) with the language you are translating the document into installed and enabled. PKP maintains test drive demo sites for [OJS](https://pkp.sfu.ca/ojs/ojs_demo/), [OMP](https://pkp.sfu.ca/omp/omp_demo/), and [OPS](https://pkp.sfu.ca/ops/demo/). If your language is not installed here and you need assistance accessing an installation in your language, you can [Contact PKP](https://pkp.sfu.ca/contact-us/). 
+- PKP software translators maintain glossaries on a per-language basis of standard translations of technical terms. You can check the glossaries in the [software translation tool](https://translate.pkp.sfu.ca/dictionaries/pkp-lib/) on the language page, and if you create a Weblate account you can add terms to the glossary.
+- You can post questions about terminology in the [PKP Community Forum](https://forum.pkp.sfu.ca/c/translations/12), which is a community discussion space for PKP translators. You will need to register to post a question.
 
 #### Screenshots
 
@@ -233,3 +234,5 @@ Click on the review request to open it. The **Conversation** tab will show any c
 If you want to suggest changes to the translator or ask a question, reply in the Conversation tab. If you are happy with the translation, you can go back to the Conversation tab and click Send Pull Request. You will be asked to enter a Title and Description for your pull request. The title should include the name of the file or files that are included in the translation pull request and the language that they were translated into. For example, "French translation of Learning OJS - Website Settings." The Description can be the same or you can add further information as needed.
 
 This will send a pull request to the pkp-docs GitHub repository, to be merged. You will receive an email notification once it is merged. The translation will be available in the Docs Hub the next time the website is built, which could be in a few days or a week.
+
+There is a bug in GitLocalize that will sometimes display a link to "Create Review Request" after you have gone through all of the above steps and there is nothing new to review. If you encounter this, please ignore it.
