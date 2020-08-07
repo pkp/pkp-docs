@@ -111,3 +111,42 @@ Users who navigate using a screen reader must be able to unambiguously understan
 -   **Unique**. Avoid similarly named hyperlinks if they link to different places.
 
 - **Visually distinct**. Use the default blue underlined style for hyperlinks. If you change it, make sure the links are still high contrast and underlined. Don't use underline for non-hyperlinked text.
+
+### Contrast and colour reliance
+
+Contrast and colour use are vital to accessibility. Having insufficient contrast may affect users with visual disabilities. Having content that relies on colour to convey meaning may affect users with colour vision deficiencies (CVD) and those who rely on screen readers.
+
+#### Contrast ratio
+
+Text colour against the background may appear as sufficiently distinct to a sighted reader, but may present issues to a reader with visual disabilities. To help evaluate it, [WCAG 2.1 Guidelines](https://www.w3.org/TR/WCAG21/#contrast-minimum) quantify accessible contrast ratio as at least 4.5:1 for normal text and 3:1 for large text, for Level AA.
+
+You can use [WebAim’s Contrast Checker](http://webaim.org/resources/contrastchecker), [Contrast Ratio Checker](http://leaverou.github.io/contrast-ratio), or the [Colour Contrast Analyser](https://www.paciellogroup.com/resources/contrastanalyser) to check the contrast ratio between your website’s background and text colours. Here is an example of a check done using [WebAim’s Contrast Checker](http://webaim.org/resources/contrastchecker):
+
+![Screenshot of WebAim's Colour Contrast Checker interface.]([./assets/1_a11y-guide-webaim-contrast-checker.png](https://github.com/pkp/pkp-docs/blob/accessible-content/accessible-content/en/assets/1_a11y-guide-webaim-contrast-checker.png)
+*Example of WebAim's Colour Contrast Checker interface options*
+
+In this example, normal text of purple colour #666FF is not sufficiently distinct against the white background #FFFFFF and fails the Level AA standard, but large text of the same colour passes. To fix the issue, you can darken the text colour or increase the font size.
+
+Similarly, you can use the WebAIM [Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/) to evaluate the visibility of your links.
+
+#### Use of colour
+
+We often use colour in web content or in published content to convey meaning. Using coloured graphs or illustration is one such example. When making the choice to use colour, consider whether a reader with colour vision deficiencies (CVD) or using a screen reader would still be able to understand the meaning conveyed. It is essential for the colour to not be the only means of conveying the information - consider adding other textual queues (e.g. numbers or % on a graph).
+
+**Don’t do this:**
+
+![An orange and a green circle with no text.](./assets/2_a11y-guide-colour-circles-dont.png)
+
+**Do this:**
+ 
+![An orange circle with a word Yes and a green circle with a word No.](./assets/[3_a11y-guide-colour-circles-do.png](https://github.com/pkp/pkp-docs/blob/accessible-content/accessible-content/en/assets/3_a11y-guide-colour-circles-do.png)
+
+Other tools, such as the [Spectrum Chrome extension](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en) allow you to emulate different types of CVD on any website. This is particularly useful if your articles contain data visualisations. The following two figures, obtained from an article published in the journal Polar Research, illustrate how CVD can affect a user’s understanding of a graph or a chart.
+
+![Two versions of the same map with different colours, description below.](./assets/4_a11y-guide-colour-chart2.png)
+*In this figure, the original (1) is still accessible and legible to users with deuteranopia, a green blindness, as shown in (2).*
+
+![Four variations of the same map with different colours, description below.](./assets/[5_a11y-guide-colour-chart4.png](https://github.com/pkp/pkp-docs/blob/accessible-content/accessible-content/en/assets/5_a11y-guide-colour-chart4.png ) 
+*In this figure, the original’s (1) colour legend is not as clear for users with achromatopsia, total colour blindness, as shown in (2). Some of the data’s categories are too similar to each other.*
+  
+Certain web-based tools like [ColorBrewer](http://colorbrewer2.org/) provide accessible colour palettes for data visualisation, adapted to different types of datasets (sequential, diverging, qualitative). When in doubt, you may also fall back on different shapes or patterns to indicate delimitations in large groups of data points.
