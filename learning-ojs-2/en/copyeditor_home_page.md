@@ -29,7 +29,7 @@ Use the **Complete** mail icon to notify the Section Editor and Author your work
 
 ![Copyeditor Email](images/chapter10/copyedit_5.png)
 
-You must now wait for the Author to look over the edited document and complete her copyedits. Once it is ready, you will receive an email notification and be able to download the revised submission (e.g., 8-22-1-CE.DOCX), located in **Step 2. Author Copyedit**. Be sure to check the Copyedit Comments, found just under the file upload tool for any additional information the Author or the Section Editor may have noted.
+You must now wait for the Author to look over the edited document and complete their copyedits. Once it is ready, you will receive an email notification and be able to download the revised submission (e.g., 8-22-1-CE.DOCX), located in **Step 2. Author Copyedit**. Be sure to check the Copyedit Comments, found just under the file upload tool for any additional information the Author or the Section Editor may have noted.
 
 
 ![Download Author Copyedits](images/chapter10/copyedit_6.png)

@@ -1,4 +1,8 @@
-# Chapter 4: Site Administration
+---
+book: learning-ojs
+version: 3.2
+---
+# Site Administration
 
 As part of installing OJS, you will have created a Site Administrator user account. When you log into OJS with that account you will have access to Site Administrator settings from the Dashboard.
 
@@ -10,33 +14,33 @@ More technical information about administering an OJS site, including upgrades, 
 
 To get to Site Management, login as the Site Administrator, and choose Administration from the left menu.
 
-![](./assets/learning-ojs3.1-sa-site-admin.PNG)
+![](./assets/learning-ojs3.1-sa-site-admin.png)
 
 ### Hosted Journals
 
 From here, choose Hosted Journals. On the resulting page, you will see all of the journals in this OJS installation. In the example, below, there is only one.
 
-![](./assets/learning-ojs3.1-sa-hosted-journals.PNG)
+![](./assets/learning-ojs3.1-sa-hosted-journals.png)
 
 To edit the existing journal, click on the blue arrow to the left of the journal name. You will see options to edit, remove, or update the settings.
 
-![](./assets/learning-ojs3.1-sa-hosted-journals-edit.PNG)
+![](./assets/learning-ojs3.1-sa-hosted-journals-edit.png)
 
 **Edit** will let you change the title, description, or path.
 
 ![](./assets/learning-ojs-3-ch4-hosted-journals-edit-modal.png)
 
-**Remove** will let you delete the journal from the installation. You will be asked to confirm that you really do want to do this, as it is irreverisible.
+**Remove** will let you delete the journal from the installation. You will be asked to confirm that you really do want to do this, as it is irreversible.
 
 ![](./assets/learning-ojs-3-ch4-hosted-journals-remove.png)
 
-**Settings Wizard** will take you to the various settings options for that journal. We'll go over these settings in detail in Chapter 5.
+**Settings Wizard** will take you to the various settings options for that journal. We'll go over these settings in detail in the Settings chapters.
 
 ![](./assets/learning-ojs-3-ch4-hosted-journals-settings-wiz.png)
 
 **Users** will allow you to add and manage users associated with this journal.
 
-![](./assets/learning-ojs3.1-sa-hosted-journals-users.PNG)
+![](./assets/learning-ojs3.1-sa-hosted-journals-users.png)
 
 Back on the Hosted Journals page, you can use the Create Journal link to add a new journal to this OJS installation. From the resulting form, fill in the fields with the new information.
 
@@ -54,24 +58,24 @@ This includes the name of your site, a site logo, an introductory statement abou
 
 You will have the opportunity to provide details about your individual journal\(s\) at a later stage.
 
-![](./assets/learning-ojs3.1-sa-site-settings.PNG)
+![](./assets/learning-ojs3.1-sa-site-settings.png)
 
 #### Languages
 
-OJS is designed to be a multilingual system, allowing journals supporting a wide variety of languages to be hosted under a single site. When you install OJS, you can select one or more languages for your site. 
+OJS is designed to be a multilingual system, allowing journals supporting a wide variety of languages to be hosted under a single site. When you install OJS, you can select one or more languages for your site.
 
-The Site Administrator can set the default language of the site and install additional locales to make other languages available for use by journals. Journal Managers can then manage their own language settings under Website Settings > Languages. See [Chapter 5](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#website-settings) for details.  
+The Site Administrator can set the default language of the site and install additional locales to make other languages available for use by journals. Journal Managers can then manage their own language settings under Website Settings > Languages. See the [Website Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website) for details.
 
 Under Administration > Site Settings > Languages you can see a list of languages that are installed on your site, enable languages, and set any language as the Default Locale, which means it is the language that users will first see when first visiting the site.
 
-![](./assets/learning-ojs3.1-sa-languages.PNG)
+![](./assets/learning-ojs3.1-sa-languages.png)
 
 To add another language:
 1. Click Install Locale
 2. Check off the locales you would like to install
 3. Click Save
 
-After installing the new locale, you will have to enable it on the Site Settings > Languages page.  Further configuration of the language’s availability on the site can be done under Website Settings > Languages by a Journal Manager. See [Chapter 5](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#website-settings) for details.
+After installing the new locale, you will have to enable it on the Site Settings > Languages page.  Further configuration of the language’s availability on the site can be done under Website Settings > Languages by a Journal Manager. See the [Website Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website) for details.
 
 OJS 3.1 doesn't yet have as many translations as OJS 2, but we expect to have more contributed over time. Contributions are always welcome.
 
@@ -79,17 +83,17 @@ OJS 3.1 doesn't yet have as many translations as OJS 2, but we expect to have mo
 
 From here, you can choose to enable or disable various plugins, making them available \(or not\) to all of the journals on this OJS installation.
 
-![](./assets/learning-ojs3.1-sa-plugins.PNG)
+![](./assets/learning-ojs3.1-sa-plugins.png)
 
 #### Navigation Menus
 
-Use this section to modify your site-wide menus. You can learn more about configuring menus in Chapter 5.
+Use this section to modify your site-wide menus. You can learn more about configuring menus in the Website Settings chapter.
 
-![](./assets/learning-ojs3.1-sa-menus.PNG)
+![](./assets/learning-ojs3.1-sa-menus.png)
 
 ### Next Steps
 
-Once you've created a journal and configured the site settings, you may want to create a user account for the Journal Manager or Editor -- see [Chapter 7](./users-and-roles.md) for details.
+Once you've created a journal and configured the site settings, you may want to create a user account for the Journal Manager or Editor -- see the [Users and Roles chapter](./users-and-roles.md) for details.
 
 <hr />
 
@@ -97,13 +101,13 @@ Once you've created a journal and configured the site settings, you may want to 
 
 This section provides detailed information about the server on which your OJS installation is running.
 
-![](./assets/learning-ojs3.1-sa-admin-functions.PNG)
+![](./assets/learning-ojs3.1-sa-admin-functions.png)
 
 ### System Information
 
 Use this section to find out details about the server running your installation.
 
-![](./assets/learning-ojs3.1-sa-sysinfo.PNG)
+![](./assets/learning-ojs3.1-sa-sysinfo.png)
 
 OJS Version information shows which version is currently installed, and your version history including any upgrades. You can click the Check for updates link to see if you are using the most recent version of OJS.
 

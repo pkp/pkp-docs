@@ -42,6 +42,6 @@ Covered in the online documentation:
 
 * mEDRA Export/Registration Plugin: Export issue, article and galley metadata in Onix for DOI (O4DOI) format and register DOIs with the mEDRA registration agency.
 
-* CrossRef Export/Registration Plugin: Export or register article metadata in [CrossRef](http://crossref.org/) format.
+* Crossref Export/Registration Plugin: Export or register article metadata in [Crossref](http://crossref.org/) format.
 
 * Articles & Issues XML Plugin: This is useful for exporting the article and issue metadata from one OJS journal to another. It can also be used for importing large amounts of back content from outside of OJS.

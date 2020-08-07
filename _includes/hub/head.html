@@ -1,8 +1,17 @@
 <title>{{ page.title }}</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:site_name" content="PKP Docs">
 {% if page.description %}
 	<meta name="description" content="{{ page.description }}">
+	<meta property="og:description" content="{{ page.description }}">
+{% endif %}
+{% if page.url %}
+	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
+{% if page.isHome %}
+	<meta property="og:image" content="/img/docs-logo.png">
 {% endif %}
 <link type="text/css" href="/css/style.css" rel="stylesheet" media="all">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">

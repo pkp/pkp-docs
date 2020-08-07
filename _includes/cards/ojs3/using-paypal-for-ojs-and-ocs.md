@@ -7,4 +7,4 @@ OJS 3.1.x supports the use of the [PayPal online payment system](http://www.payp
 
 ---
 
-<span class='fa fa-language'></span> Available in [Arabic](/using-paypal-for-ojs-and-ocs/ar/).
+<span class='fa fa-language'></span> Available in [العربية](/using-paypal-for-ojs-and-ocs/ar/).

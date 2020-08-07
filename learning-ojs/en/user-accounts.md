@@ -1,4 +1,8 @@
-# Chapter 3: User Accounts
+---
+book: learning-ojs
+version: 3.2
+---
+# User Accounts
 
 OJS uses a comprehensive roles system to divide work between users, assign workflows, and limit access to different parts of the system.
 
@@ -12,21 +16,23 @@ The OJS workflow revolves around different roles for different users, allowing t
 
 Major roles include Site Administrator, Journal Manager, Editor, Section Editor, Author, Reviewer, Copyeditor, Layout Editor, Proofreader, and Reader.
 
-OJS 3 also includes additional roles such as Translator and Designer. You can also create new roles or rename existing ones. More information on configuring roles is available in [Chapter 7](./users-and-roles.md).
+OJS 3 also includes additional roles such as Translator and Designer. You can also create new roles or rename existing ones. More information on configuring roles is available in the [Users and Roles chapter](./users-and-roles.md).
 
 ### Site Administrator
+
 The Site Administrator is responsible for the overall OJS installation, ensuring the server settings are accurate, adding language files, and creating any new journals on the installation. The Site Administrator account is created as part of the installation process. Unlike all other OJS roles, there can only be one Site Administrator.
 
 See [Chapter 4: Site Administration](./site-administration.md) for more details.
 
 ### Journal Manager
+
 The Journal Manager is responsible for setting up the journal web site, configuring the system options, and managing the user accounts. This does not involve any advanced technical skills, but entails filling out web-based forms and uploading files.
 
 The Journal Manager also enrolls the Editors, Section Editors, Copyeditors, Layout Editors, Proofreaders, Authors, and Reviewers.
 
 The Journal Manager also has access to the journal's other management features, and can create new Sections for the journal, set up Review Forms, edit the default Emails, view statistics and reports, import and export data, and access the editorial workflow and all journal submissions.
 
-See [Chapter 5: Journal Settings](./journal-setup.md) for more details.
+See the Settings chapters for more details.
 
 ### Author
 
@@ -34,7 +40,7 @@ Authors are able to submit manuscripts to the journal directly through the journ
 
 The Author is able to track the submission through the review and editorial process — as well as participate in the copyediting and proofreading of submissions accepted for publication — by logging in to the journal's website.
 
-See [Chapter 9: Authoring](./authoring.md) for more details.
+See the [Authoring chapter](./authoring.md) for more details.
 
 ### Editor
 
@@ -48,7 +54,7 @@ The Editor also creates the journal issues, schedules submissions for publicatio
 
 Editors can also access journal settings, users and roles, and tools.
 
-See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
 ### Section Editor
 
@@ -56,13 +62,13 @@ The Section Editor manages the review and editing of submissions to which they h
 
 Often, however, Section Editors only work with the review process, and an Editor, acting in the role of Section Editor, sees the submissions through the Editing process. The journal will have a policy on how the tasks are divided.
 
-See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
 ### Reviewer
 
 The Reviewer is selected by the Editor or Section Editor to review a submission. Reviewers are asked to submit reviews to the journal's website and are able to upload attachments for the use of the Editor and Author. Reviewers may be rated by Section Editors, again depending on the policies for this journal.
 
-See [Chapter 8: Reviewing](./reviewing.md) for more details.
+See the [Reviewing chapter](./reviewing.md) for more details.
 
 ### Copyeditor
 
@@ -70,7 +76,7 @@ The Copyeditor edits submissions to improve grammar and clarity, works with auth
 
 Some journals have an Editor or Section Editor play this role.
 
-See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
 ### Layout Editor
 
@@ -83,7 +89,7 @@ The Layout Editor transforms the copyedited versions of the submission into gall
 
 In some cases, the Editor or Section Editor will also serve as Layout Editor.
 
-See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
 ### Proofreader
 
@@ -91,7 +97,7 @@ The Proofreader carefully reads over the galleys in the various formats in which
 
 In the case of some journals, the Editor or Section Editor will also serve as Proofreader.
 
-See [Chapter 10: Editorial Workflow](./editorial-workflow.md) for more details.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
 ### Reader
 
@@ -123,11 +129,17 @@ You will not be able to self-register for an Editorial Role (e.g., Editor, Secti
 
 To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
 
-![](./assets/learning-ojs3.1-ed-view-profile.PNG)
+![](./assets/learning-ojs3.1-ed-view-profile.png)
 
 From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image \(which some journals may publish along with your article or on a list of editors\), determine your notification settings, or update your password.
 
-The API tab on the user profile allows a user to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
+Under **Notifications**, you can configure what kinds of notifications you receive from the journal when events occur, such as a new journal issue is published or there is activity on a submission you're involved in.
+* Check off "Enable these types of notifications" if you want to see a notification of this event on your dashboard when you log in to the site
+* Check off "Do not send me an email for these types of notifications" if you do not want to receive an email notification about this event
+
+![](./assets/learning-ojs-3-user-notifications.png)
+
+The **API tab** on the user profile allows you to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
 
 ## Resetting your Password
 
@@ -139,6 +151,29 @@ You can reset your password by:
 4. Entering your current password and then your new password twice
 5. Hitting Save
 
-![](./assets/learning-ojs3.1-ed-change-pw.PNG)
+![](./assets/learning-ojs3.1-ed-change-pw.png)
 
 Your password is now changed.
+
+### If you forgot your password
+
+Retrieving your password is a three-step process:
+
+First you need to request a new password:
+1. Click the **Login** link at the top-right corner of the navigation bar
+2. Click the **Forgot your Password** link on the following page
+3. Enter your email address
+4. Click **Reset Password**
+
+Then you need to check your email account and confirm your request: 
+1. Open your email account
+2. Open the confirmation email message from the journal (you may need to check your Spam folder)
+3. Click the link to confirm that you did indeed request your password to be reset. You will be taken back to the journal in question, and the system will email you a new password.
+
+Now you can retrieve you new temporary password and log in: 
+1. Go back to your email account
+2. Open the email message containing your temporary password (you may need to check your Spam folder)
+3. Log in to the journal with your temporary password
+4. Fill in a new password when prompted by the journal 
+
+If you need further assistance, contact the journal's editorial team. A list of contacts should be available on the **About** page.

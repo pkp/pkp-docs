@@ -2,9 +2,7 @@
 
 ## Publication Ethics
 
-By Jeanette Hatherill, Andrea Kosavic
-
-
+>  Section contributed by Jeanette Hatherill and Andrea Kosavic
 
 Journal managers and editors play an important role in establishing and solidifying
 the reputation of a journal. In previous sections of this book, we looked at how you
@@ -38,3 +36,4 @@ publishers who may be establishing the reputation of their journal are the secti
 
 [The International Committee of Medical Journal Editors (ICMJE) recommendations](http://www.icmje.org/recommendations/)
 [Coalition for Diversity and Inclusion in Scholarly Communications - Statement of Principles](https://c4disc.org/principles/)
+[SPARC Europe - Business Plan Toolkit for Open Access journals](https://sparceurope.org/download/304/)

@@ -1,11 +1,19 @@
 # Bootstrap3 Theme
-[Bootstrap 3](http://getbootstrap.com/) is a popular HTML, CSS and JavaScript framework for developing responsive, mobile-first web applications. Due it's popularity, many developers are familiar with the HTML, CSS and JavaScript techniques used in the framework.
+[Bootstrap 3](http://getbootstrap.com/) is a popular HTML, CSS and JavaScript framework for developing responsive, mobile-first web applications. Due its popularity, many developers are familiar with the HTML, CSS and JavaScript techniques used in the framework.
 
 The [Bootstrap3 theme](https://github.com/NateWr/bootstrap3) is a community effort to provide a base theme built on these techniques. It implements an OJS journal theme using core bootstrap HTML markup, and provides a number of third-party styles for Bootstrap 3 out-of-the-box.
 
 The community Bootstrap3 theme is designed to be a base, not a final product. To ensure widespread compatibility with Bootstrap 3 resources, and to ease the introduction for developers accustomed to working with Bootstrap 3, this theme only provides markup using core components from the Bootstrap 3 framework. 
 
 This means that, in most cases, you will need to do a little bit more work with a [Child Theme](child-themes.md) in order to polish off your site.
+
+These OJS sites demonstrate existing Bootstrap child themes:
+- [Default](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot1)
+- [Paper](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot2)
+- [Journal](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot3)
+- [Yeti](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot5)
+- [Sandstone](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot6)
+- [Cyborg](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot4)
 
 ## Install Boostrap3
 

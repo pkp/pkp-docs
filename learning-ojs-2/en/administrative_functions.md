@@ -19,7 +19,7 @@ OJS Version information shows which version is currently installed, and your ver
 
 The OJS Configuration section displays all of the configuration options and their values as they are in config.inc.php. You can find more information about config.inc.php configuration parameters in the file itself.
 
-The final section on this page displays server information: your operating system, PHP version, server and database information. You can also view extended PHP information by clicking the **Extended PHP information** link (this displays the output of [phpinfo()](http://ca.php.net/phpinfo)). All of this information can be useful when trying to troubleshoot a problem.
+The final section on this page displays server information: your operating system, PHP version, server and database information. You can also view extended PHP information by clicking the **Extended PHP information** link (this displays the output of [phpinfo()](https://www.php.net/phpinfo)). All of this information can be useful when trying to troubleshoot a problem.
 
 
 

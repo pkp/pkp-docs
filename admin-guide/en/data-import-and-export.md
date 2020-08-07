@@ -16,59 +16,8 @@ Import/export functionality is also available as a command-line tool; see `tools
 
 Articles and issues can be quickly imported into OJS using the Quick Submit Plugin or the Native XML Plugin \(formerly the Articles and Issues XML Plugin\).  The Quick Submit Plugin is a useful tool for importing 5-10 articles, but for larger numbers of articles and issues, or if you have your metadata in a transformable format, you may wish to use the Native XML Plugin.
 
-### Quick Submit Plugin
-
-The Quick Submit Plugin allows you to quickly add complete submissions to an issue. It provides a one-step submission process for editors needing to bypass the traditional submission, review, and editing process.
-
-The Quick Submit Plugin can be used in the following cases:
-
-* Journals who are using OJS to display and publish their content without using the editorial workflow
-* Journals that were published using another platform and are migrating to OJS, when a conversion tool for that platform is not available
-* Journals that were originally published in print and have since been digitized
-
-To use this plugin, you will need the following:
-
-* To be enrolled as an Editor or Journal Manager
-* A set of ready-to-publish files \(e.g., PDFs\)
-* All of the metadata for the files \(e.g., author names, titles, abstracts, etc.\)
-
-First, ensure that the Quick Submit Plugin has been installed and enabled for your journal.  You will need to have the Journal Manager role to enable the plugin and the Administrator role to install the plugin.
-
-![](./assets/find-plugins.png)
-
-1. Go to Settings &gt; Website &gt; Plugins
-2. Under Installed Plugins, look for the Quick Submit Plugin.  If you see it listed, skip to step 8.
-3. If you do not see the Quick Submit Plugin under Installed Plugins, go to the Plugin Gallery tab.
-4. Click on Quick Submit.  A popup box will open.
-5. Click on Install.  If you do not see the Install button, you will need to ask the Administrator of your site to install the plugin for you.
-6. A popup box will open and ask “Are you sure you wish to install this plugin?”  Click OK and wait a few minutes while the installation completes.
-7. After the plugin has been installed, go back to the Installed Plugins tab and find the Quick Submit Plugin.
-8. Check the box to the right of the plugin name and description to enable the plugin.
-
-![](./assets/enabled-import-plugins.png)
-
-Next you will need to create the issues \(or issue\) that will contain the new articles you are importing.
-
-1. Go to Issues &gt; Future issues and select Create Issue.
-2. Enter metadata for the issue and click Save.
-3. Do this for all of the issues you are uploading articles for.
-
-![](./assets/create-issue.png)
-
-Next you can import each article with the Plugin.
-
-![](./assets/import-plugins.png)
-
-1. Go to Tools &gt; Import/Export and select Quick Submit Plugin.
-2. Upload a cover image if you have one.  This field is optional and can be ignored.
-3. Choose the section of the journal that the article will appear in from the drop-down list in the Section field.
-4. Enter the metadata for the article in the other fields.
-5. Under List of Contributors, click Add Contributor to enter the names of authors and other contributors to the article.
-6. Under Galleys, click Add Galley to upload a PDF file of the article.  A popup box will open where you can enter the Galley Label and language of the galley.  Once you click Save, another box will open where you can select the Article Component and upload the file.
-7. At the end of the Quick Submit Plugin form, you can select whether you want the article you are adding to be published immediately or unpublished, if you wish to publish it later.
-8. When you have finished entering all data for the article, click Save.
-
-![](./assets/quick-submit-plugin%20%282%29.png)
+### Quick Submit
+The Quick Submit Plugin allows you to quickly add complete submissions to an issue. It provides a one-step submission process for editors needing to bypass the traditional submission, review, and editing process. See [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/tools) for more details.
 
 ### Native XML Plugin
 
@@ -84,8 +33,8 @@ To use this plugin you will need the following:
 
 If you are importing data, first create the XML import file.  Here are links to sample XML import files and XML schemas:
 
-* Sample XML file for article metadata: [https://github.com/pkp/ojs/blob/master/plugins/importexport/native/sample.xml](https://github.com/pkp/ojs/blob/master/plugins/importexport/native/sample.xml)
-* Sample XML file for issue metadata: [https://github.com/pkp/ojs/blob/master/tests/data/60-content/issue.xml](https://github.com/pkp/ojs/blob/master/tests/data/60-content/issue.xml)
+* Sample XML file for article metadata: [https://github.com/pkp/ojs/blob/master/cypress/fixtures/export-issues.xml](https://github.com/pkp/ojs/blob/master/cypress/fixtures/export-issues.xml)
+* Sample XML file for issue metadata: [https://github.com/pkp/ojs/blob/master/plugins/importexport/native/tests/functional/testissue.xml](https://github.com/pkp/ojs/blob/master/plugins/importexport/native/tests/functional/testissue.xml)
 * XML schema for use across PKP software applications: [https://github.com/pkp/pkp-lib/blob/master/plugins/importexport/native/pkp-native.xsd](https://github.com/pkp/pkp-lib/blob/master/plugins/importexport/native/pkp-native.xsd)
 * XML schema for use in OJS: [https://github.com/pkp/ojs/blob/master/plugins/importexport/native/native.xsd](https://github.com/pkp/ojs/blob/master/plugins/importexport/native/native.xsd)
 
@@ -213,9 +162,9 @@ To manually export article metadata to DOAJ:
 5. Click Export
 6. Visit [https://doaj.org/](https://doaj.org/) and login to upload the XML file that was created during the export process
 
-### CrossRef XML Export Plugin
+### Crossref XML Export Plugin
 
-The CrossRef XML Export Plugin allows you to automatically and manually export article metadata in CrossRef XML format for deposit with CrossRef.  For information about how to use this plugin, see the CrossRef OJS Manual: [http://docs.pkp.sfu.ca/crossref-ojs-manual/](http://docs.pkp.sfu.ca/crossref-ojs-manual/)
+The Crossref XML Export Plugin allows you to automatically and manually export article metadata in Crossref XML format for deposit with Crossref.  For information about how to use this plugin, see the Crossref OJS Manual: [http://docs.pkp.sfu.ca/crossref-ojs-manual/](http://docs.pkp.sfu.ca/crossref-ojs-manual/)
 
 ### mEDRA Export/Registration Plugin
 

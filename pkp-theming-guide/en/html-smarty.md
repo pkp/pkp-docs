@@ -89,4 +89,4 @@ All of the frontend templates include information about which variables it makes
  *}
 ```
 
-*Please note that not every variable is listed here. Only those variables used by this template are listed. But there are many [common template variables](template-variables.md) available to you. You can also load [custom data](examples-advanced.md).*
+*Please note that not every variable is listed here. Only those variables used by this template are listed. But there are many [common template variables](template-variables.md) available to you. You can also load [custom data](advanced-custom-data.md).*

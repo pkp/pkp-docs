@@ -1,20 +1,24 @@
 siteAbout: "The [Public Knowledge Project](https://pkp.sfu.ca) is a multi-university initiative to improve the quality and reach of scholarly publishing."
 linkBackToDocs: "Back to [all documentation](/)."
 skipToSummary: "Jump to table of contents"
-skipToSummary: "Toggle Menu"
 searchLabel: Search
 searchPlaceholder: Search everything
 visitForum: "Visit our [community forum](https://forum.pkp.sfu.ca) to meet hundreds of editors, publishers and journal managers."
+copyright: "Copyright: Simon Fraser University holds the copyright for work produced by the Public Knowledge Project and has placed its documentation under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)."
+copyright-button: "[![](https://licensebuttons.net/l/by/4.0/88x31.png \"Creative Commons Attribution 4.0 International\")](https://creativecommons.org/licenses/by/4.0/)"
 devVersion: "Warning: In Development"
 devVersionDescription: "This document describes features or capabilities that have not yet been released to the public. This information is provided as advanced notice for what we plan to be included in future versions. But the details here may change without warning."
-improveLink: "Improve this page"
+improveLink: "Edit this page"
 improveLinkBaseUrl: "https://github.com/pkp/pkp-docs/edit/master/"
+contactLink: "make a suggestion"
+contactBaseUrl: "https://pkp.sfu.ca/documentation-feedback/"
+orText: "or"
+logoAltText: "PKP Docs"
 navContrib:
   title: Community
   items:
-    - "[Documentation Interest Group](https://github.com/pkp/documentation-interest-group)"
-    - "[Documentation Guidelines](/documentation-guidelines)"
-    - "[Contributing Documentation](/contributing)"
+    - "[Documentation Interest Group](https://pkp.sfu.ca/documentation-interest-group/)"
+    - "[Contributing Documentation](/contributing/)"
     - "[Translating Guide](/translating-guide/)"
     - "[Community Forum](https://forum.pkp.sfu.ca)"
 navAbout:
@@ -22,3 +26,8 @@ navAbout:
   items:
     - "[Public Knowledge Project](https://pkp.sfu.ca)"
     - "[PKP&#124;Publishing Services](https://pkpservices.sfu.ca/)"
+navContact:
+  title: Contact
+  items:
+    - "[Contact Us](https://pkp.sfu.ca/documentation-feedback/)"
+toggleMenu: "Toggle Menu"

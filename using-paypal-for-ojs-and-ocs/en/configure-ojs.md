@@ -1,29 +1,56 @@
-# Configure OJS
+# Test PayPal plugin in OJS
 
-Now that you have setup your PayPal account, you will need to activate your payment methods in OJS. To do so, login as the Journal Manager, and select Payments. Under General Options, choose your currency:
+Now that you have setup your PayPal account, you will need to activate your payment methods in OJS.
 
-![](assets/Paypal13.png)
+## OJS 3.x
 
-Next, select the kind of payments you wish to charge on your site. These could include author submission fees, fast-track peer review fees, article publication fees, subscription fees, pay-per-view fees, membership fees, or, as in the example below, donations:
+Under Settings > Website > Plugins, enable the Paypal Fee Payment plugin in the Plugin Gallery.
 
-![](assets/Paypal14.png)
+![](assets/Paypal-ojs3-1.png)
 
-This will create a DONATION link in the sidebar **if** you have installed the PHP libcurl library, and **if** you have not changed the default in your OJS Home &gt; User &gt; Journal Management &gt; Journal Setup \(then choose "5. The Look" and check that 5.6 has the 'Donation Block' still in the right sidebar\):
+Under Settings > Distribution > Payments, check the box to enable payments, select your preferred currency, and choose "PayPal Fee Payment" as the Payment Method.
 
-![](assets/Paypal15.png)
+Enter your credentials under the Paypal Payment Settings. Check the box for Test Mode if you are only testing the plugin.
 
-When readers select the DONATION link, they will be taken to the PayPal Fee Payment page:
+![](assets/Paypal-ojs3-2.png)
 
-![](assets/Paypal16.png)
+For more information about payments in OJS 3 [see the Learning OJS 3 guide](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#payments).
 
-After clicking Continue, the reader will be taken directly to PayPal, where they can select their donation amount \(e.g., $10.00\) and pay using a credit card or with their own PayPal account:
+## OJS 2.x
 
-![](assets/Paypal17.png)
+Login as the Journal Manager, and select Payments. Under General Options, choose your currency:
 
-If they choose to use a credit card, they will need to fill in the resulting form:
+## Enable the PayPal plugin
+Go to Website Settings > Plugins > Installed Plugins and find the PayPal Fee Payment plugin. Check the box next to the plugin to enable it. If you also plan to collect manual fees you can enable the Manual Fee Payment plugin as well.
 
-![](assets/Paypal18.png)
+![screenshot of payment plugin in OJS](./assets/Paypal-11.png)
 
-Once the payment is complete, they will return to the journal or conference. The payment will appear in your PayPal Account Overview:
+## Set up payments
+Please see [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#payments) for how to enable payments. Ensure that you select **Paypal Fee Payment** as a **Payment Method**. After you select Paypal Fee Payment, fields will appear below for _*Account Name**, **Client ID**, and **Secret**_. Follow the instructions in the [PayPal documentation](https://developer.paypal.com/docs/integration/admin/manage-apps/#create-or-edit-sandbox-and-live-apps) to generate the credentials to enter into the OJS fields. Make sure to check off the box for Test Mode before saving. 
 
-![](assets/Paypal19.png)
+![screenshot of distribution settings-payments in OJS](./assets/Paypal-12.png)
+
+Next, go to the [Subscriptions chapter](https://docs.pkp.sfu.ca/learning-ojs/en/subscriptions.html) in Learning OJS 3 and follow the instructions to set up your payment types and subscription types, if applicable.
+
+## Test Transactions 
+On OJS set up a test transaction that you can use to test whether payments are being successfully processed. For this example, we will be using an Article Processing Fee.
+You as the author will get a link to pay your Article Processing Fee. The link will first direct you to login to your OJS account followed by the [PayPal Sandbox website](https://www.sandbox.paypal.com/mep/dashboard ). 
+
+![Screenshot of email notification from OJS](./assets/Paypal-13.png)
+
+Using one of the fake PayPal accounts, make test payments to the site. The successful payment will then appear on sandbox of your main PayPal Account Overview:
+
+![Screenshot payment activity on paypal](./assets/Paypal-13.png)
+
+The test transaction will also appear on the Payments page of your journal. 
+
+### Troubleshooting Test Transactions
+If your test transactions are not successful, please check the following: 
+* API app is set on sandbox.
+* OJS plugin is set to Test Mode.
+* API credentials from the sandbox has been copied correctly to OJS.
+
+
+
+
+![screenshot of paypal account overview](./assets/Paypal-13.png)

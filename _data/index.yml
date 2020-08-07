@@ -3,35 +3,24 @@ quickLinksLabel: "Jump to:"
 apps:
   - path: ojs3
     title: Open Journal Systems 3
-    titleShort: OJS
+    titleShort: OJS 3
     includeInHero: true
     description: Our flagship software for open access journal publishing, used by more than 10,000 journals worldwide.
     cards:
       - path: learning-ojs-3
       - path: admin-guide
+      - path: developer-docs
+        isDeveloper: true
+      - path: upgrading-guide
       - path: starting-a-journal
-      - path: gdpr
+      - path: designing-your-journal
+      - path: gfsf
+      - path: instructor-guide
+      - path: student-toolkit
       - path: pkp-school
       - path: crossref-ojs-manual
-      - path: looking-for-ojs-2
-        isHighlighted: true
-      - path: pkp-theming-guide
-        isDeveloper: true
-      - path: rest-api
-        isDeveloper: true
-  - path: ojs2
-    title: Open Journal Systems 2
-    titleShort: OJS 2
-    includeInHero: false
-    description: "Help guides for older versions of our journal management software. We recommend you [upgrade to OJS 3](#appojs3)."
-    cards:
-        - path: learning-ojs-2
-        - path: ojs2-pkp-school
-        - path: crossref-ojs-manual
-        - path: importing-exporting
-        - path: using-paypal-for-ojs-and-ocs
-        - path: ojs-2-technical-reference
-          isDeveloper: true
+      - path: gdpr
+      - path: translation
   - path: omp3
     title: Open Monograph Press
     titleShort: OMP
@@ -39,13 +28,26 @@ apps:
     description: Usage guides and documentation for our monograph publishing software.
     cards:
         - path: learning-omp
+        - path: learning-omp-1
         - path: admin-guide
+        - path: developer-docs
+          isDeveloper: true
+        - path: designing-your-journal
         - path: gdpr
-        - path: omp-api
-          isDeveloper: true
-        - path: pkp-theming-guide
-          isDeveloper: true
-        - path: rest-api
+        - path: translation
+  - path: ojs2
+    title: Open Journal Systems 2
+    titleShort: OJS 2
+    includeInHero: true
+    description: "Help guides for older versions of our journal management software. We recommend you [upgrade to OJS 3](/upgrading-ojs-2-to-3/)."
+    cards:
+        - path: upgrading-guide
+        - path: learning-ojs-2
+        - path: ojs2-pkp-school
+        - path: crossref-ojs2-manual
+        - path: importing-exporting
+        - path: using-paypal-for-ojs-and-ocs
+        - path: ojs-2-technical-reference
           isDeveloper: true
   - path: ocs2
     title: Open Conference Systems
@@ -54,3 +56,4 @@ apps:
     description: Usage guides and documentation for our scholarly conference software.
     cards:
         - path: ocs
+        - path: ocs-quick-guide

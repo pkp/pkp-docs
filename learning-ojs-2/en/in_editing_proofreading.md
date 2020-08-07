@@ -13,14 +13,14 @@ If you as the Section Editor are acting as Proofreader, follow these steps:
 
 * First, request that the Author undertake the proofreading of the galley using the Request icon:
 
-![Proofreading](images/chapter8/editor_proof_1.png)  
+![Proofreading](images/chapter8/editor_proof_1.png)
 
-    
+
 * This will generate an email message for the author. Hit the Send button to deliver this email:
 
 ![Send Email](images/chapter8/editor_proof_2.png)
 
-* Once the Author has completed her review, use the Acknowledge icon to thank her for her work. Use the Proofreading Corrections icon to view any comments made by the Author. You can optionally use the **Initiate** link to indicate that you have begun your proofreading responsibilities for this submission. Alternatively, you could simply revise the galleys and upload them in the Layout section using the Edit link for each galley.
+* Once the Author has completed their review, use the Acknowledge icon to thank them for their work. Use the Proofreading Corrections icon to view any comments made by the Author. You can optionally use the **Initiate** link to indicate that you have begun your proofreading responsibilities for this submission. Alternatively, you could simply revise the galleys and upload them in the Layout section using the Edit link for each galley.
 
 ![Initiating Proofreading](images/chapter8/editor_proof_3.png)
 
@@ -71,13 +71,13 @@ This will generate an email message, which includes detailed instructions for th
 ![Email to Author for Proofreading](images/chapter8/proof_4.png)
 
 
-You and the Proofreader will receive an email from the Author when he has completed his proofreading. You can use the Acknowledge icon to thank him for his work.
+You and the Proofreader will receive an email from the Author when they have completed their proofreading. You can use the Acknowledge icon to thank them for their work.
 
 
-![Acknowledging the Author](images/chapter8/proof_5.png)  
+![Acknowledging the Author](images/chapter8/proof_5.png)
 
 
-The Author, upon completing his review of the galleys and Supplementary Files, if any, sends a completion email to the Proofreader, with a CC to the Section Editor. Any typos or formatting errors are noted in the Corrections text-box in Proofreading (because the Authors and Proofreaders cannot mark up the galleys).
+The Author, upon completing their review of the galleys and Supplementary Files, if any, sends a completion email to the Proofreader, with a CC to the Section Editor. Any typos or formatting errors are noted in the Corrections text-box in Proofreading (because the Authors and Proofreaders cannot mark up the galleys).
 
 The Proofreader, on completing the review of the galleys and Supplementary Files, if any, notifies the Layout Editor, with a CC to the Section Editor, and the Layout Editor proceeds to correct the galleys and Supplementary Files, if any.
 

@@ -37,4 +37,4 @@ These errors should be relatively self-explanatory, and should at least point to
 
 ### DOI Links Auto-direct to Journal Homepage
 
-This can happen if your old DOI links were prepended with ``http:`` but you have since moved to SSL with ``https:``. Updating your DOIs via the plugin or XML Export will solve this issue. 
+This can happen if your old DOI links were prepended with ``http:`` but you have since moved to SSL with ``https:``. Updating your DOIs via the plugin or XML Export will solve this issue.

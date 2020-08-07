@@ -1,9 +1,9 @@
 
-### [Crossref and DOIs](/crossref-ojs-manual/en/)
+### Plugin Guides
 
-Learn how you can take advantage of PKP's partnership with Crossref to help publishers and journals take advantage of Crossref's research indexing service. [View Now](/crossref-ojs-manual/en/)
+These guides explain how to use OJS plugins for DOIs, CrossRef, ORCID, and PayPal. The plugins integrate OJS with services offered by PKP partner organizations.
 
 - [DOI Plugin Guide](/doi-plugin/en/)
 - [Crossref Plugin Guide](/crossref-ojs-manual/en/)
-
-<!-- card flagged redundant // possible removal-->
+- [ORCID Plugin Guide](/orcid/en)
+- [PayPal Plugin Guide](/using-paypal-for-ojs-and-ocs/en)
