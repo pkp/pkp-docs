@@ -21,6 +21,7 @@ Alt text (“alternative text”) is a machine-readable tag that describes an im
   * Have no function beyond aesthetics
 
 ### How to write alt text for images
+
 * The recommended number of characters for alt text is 125 characters or less for compatibility with popular screen readers.
 * All alt text should end with a “.” so that the screen reader will pause after reading.
 * Issue and article cover images should have alt text.
@@ -42,12 +43,14 @@ Alt text (“alternative text”) is a machine-readable tag that describes an im
   * Emojis
 
 ### Icons
+
 * Icons follow the same principles; are they informative or decorative?
   * Is there text directly next to the icon?
   * If there is text, does it describe what the icon is for?
   * If the icon is a link or a button, what happens when it is clicked or activated? Where does it go?
 
 ### Complex images
+
 * Complex images contain substantial information, for example:
   * Graphs or charts (e.g. flow charts, organizational charts)
   * Illustrations or diagrams
@@ -139,14 +142,14 @@ We often use colour in web content or in published content to convey meaning. Us
 
 **Do this:**
  
-![An orange circle with a word Yes and a green circle with a word No.](./assets/[3_a11y-guide-colour-circles-do.png](https://github.com/pkp/pkp-docs/blob/accessible-content/accessible-content/en/assets/3_a11y-guide-colour-circles-do.png)
+![An orange circle with a word Yes and a green circle with a word No.](./assets/3_a11y-guide-colour-circles-do.png)
 
 Other tools, such as the [Spectrum Chrome extension](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en) allow you to emulate different types of CVD on any website. This is particularly useful if your articles contain data visualisations. The following two figures, obtained from an article published in the journal Polar Research, illustrate how CVD can affect a user’s understanding of a graph or a chart.
 
 ![Two versions of the same map with different colours, description below.](./assets/4_a11y-guide-colour-chart2.png)
 *In this figure, the original (1) is still accessible and legible to users with deuteranopia, a green blindness, as shown in (2).*
 
-![Four variations of the same map with different colours, description below.](./assets/[5_a11y-guide-colour-chart4.png](https://github.com/pkp/pkp-docs/blob/accessible-content/accessible-content/en/assets/5_a11y-guide-colour-chart4.png ) 
+![Four variations of the same map with different colours, description below.](./assets/5_a11y-guide-colour-chart4.png) 
 *In this figure, the original’s (1) colour legend is not as clear for users with achromatopsia, total colour blindness, as shown in (2). Some of the data’s categories are too similar to each other.*
   
 Certain web-based tools like [ColorBrewer](http://colorbrewer2.org/) provide accessible colour palettes for data visualisation, adapted to different types of datasets (sequential, diverging, qualitative). When in doubt, you may also fall back on different shapes or patterns to indicate delimitations in large groups of data points.
