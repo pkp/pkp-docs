@@ -46,21 +46,20 @@ Voici des choses à considérer:
 - Assurez-vous de bien définir le type de document à l'aide de ..>.
 - Votre fichier XML doit être encodé en UTF8.
 - Les dates doivent être spécifiées sous la forme AAAA-MM-JJ.
-- Pour importer un fichier, vous pouvez utiliser <embed> pour placer un fichier directement dans votre document XML, ou utilisez <href> pour créer un lien vers un. </href></embed>
-- Si vous utilisez le <embed> tag, vous devrez encoder vos fichiers en base64. Utilisant <embed> avec un fichier encodé en base64 ressemblerait à ceci: [capture d'écran nécessaire]</embed></embed>
-- Vous pouvez créer un lien vers des URL ainsi que des fichiers locaux en utilisant
-    <href> . Un lien URL complet ressemblerait à ceci: [capture d'écran requise] </href>
+- Pour importer un fichier, vous pouvez utiliser `<embed>` pour placer un fichier directement dans votre document XML, ou utilisez `<href>` pour créer un lien vers un.
+- Si vous utilisez le `<embed>` tag, vous devrez encoder vos fichiers en base64. Utilisant `<embed>` avec un fichier encodé en base64 ressemblerait à ceci: [capture d'écran nécessaire]
+- Vous pouvez créer un lien vers des URL ainsi que des fichiers locaux en utilisant `<href>` . Un lien URL complet ressemblerait à ceci: [capture d'écran requise]
 - Vous pouvez utiliser la liaison locale si vos fichiers sont déjà stockées sur la machine de destination, mais dans ce cas, vous devez lancer l'importation depuis la ligne de commande. L'importation d'un fichier local ressemblerait à ceci: [ajouter une capture d'écran]
-- Certains éléments peuvent soutenir les tags HTML intégrées, tel que l'élément abstrait. Si vous intégrez du HTML dans votre document, n'oubliez pas de placer le HTML dans des tags <! [CDATA []]>.
+- Certains éléments peuvent soutenir les tags HTML intégrées, tel que l'élément abstrait. Si vous intégrez du HTML dans votre document, n'oubliez pas de placer le HTML dans des tags `<![CDATA[]]>`.
 - Si votre journal prend en charge plusieurs lieux, vous pouvez inclure les termes traduits dans une entrée distincte: [capture d'écran]
-- Si vous faites des erreurs typographiques dans les données que vous essayez d'importer, vous risquez de vous retrouver avec des entrées dupliquées ou fractionnées: par exemple, si votre journal a déjà une section "Articles" avec les initiales ART, mais que vous faites un typo dans votre fichier XML, par exemple, <abbrev locale="en\_US"> AR </abbrev> au lieu de <abbrev locale="en\_US"> ART </abbrev> , une nouvelle section dans le journal avec les initiales AR sera créée, et cet article y sera ajouté. Cela peut être facilement corrigé avant l'importation, mais difficile à nettoyer après.
+- Si vous faites des erreurs typographiques dans les données que vous essayez d'importer, vous risquez de vous retrouver avec des entrées dupliquées ou fractionnées: par exemple, si votre journal a déjà une section "Articles" avec les initiales ART, mais que vous faites un typo dans votre fichier XML, par exemple, `<abbrev locale="en\_US">` AR `</abbrev>` au lieu de `<abbrev locale="en\_US">` ART `</abbrev>` , une nouvelle section dans le journal avec les initiales AR sera créée, et cet article y sera ajouté. Cela peut être facilement corrigé avant l'importation, mais difficile à nettoyer après.
 
 Vous devez valider votre fichier XML avant de l'importer. Si vous utilisez un outil d'édition XML, tel que Liquid XML Editor ou Oxygen XML, vous pouvez valider le fichier dans l'outil d'édition. Si le XML n'est pas valide, un message d'erreur s'affiche pour identifier les lignes contenant des erreurs.
 
 Dès que vous avez le fichier d'importation XML valide, vous pouvez l'importer:
 
 1. Connectez-vous à OJS en tant que Directeur/trice de la revue
-2. Allez dans Outils> Importer/Exporter> Plugiciel Native XML
+2. Allez dans Outils > Importer/Exporter > Plugiciel Native XML
 3. Sous l'onglet Importer, cliquez sur Télécharger le fichier et sélectionnez votre fichier XML
 4. Cliquez sur Importer
 5. Vous serez informé si il y a une erreur ou si l'importation a réussi.
@@ -70,13 +69,13 @@ Dès que vous avez le fichier d'importation XML valide, vous pouvez l'importer:
 Pour exporter un article et publier des métadonnées à l'aide du plugiciel Native XML:
 
 1. Connectez-vous à OJS en tant que Directeur/trice de la revue
-2. Allez dans Outils> Importer/Exporter> Plugiciel Native XML
+2. Allez dans Outils > Importer/Exporter> Plugiciel Native XML
 3. Selon que vous exportez des métadonnées d'article ou de publication, accédez à l'onglet Exporter des articles ou Exporter des publications.
 4. Sélectionnez les articles ou publications que vous souhaitez exporter en cochant la case à côté d'eux.
 5. Cliquez sur Exporter
 6. Les articles ou publications seront exportés sous format XML et peuvent être importés dans ce journal ou dans un autre
 
-* Veuillez noter que l'utilisation de ce plugiciel pour exporter des articles et des publications exportera non seulement toutes les métadonnées pertinentes, mais inclura aussi tous les fichiers reliés à l'article (HTML, PDF, etc.) incorporés dans le document XML et encodé en Base64. Cela peut entraîner des fichiers XML volumineux et encombrants, en particulier lorsque plusieurs publications sont exportés à la fois. Leur ouverture dans un éditeur pour afficher ou modifier des données ou métadonnées XML peut être pénible pour votre ordinateur, et le téléchargement de ou vers serveur de ces fichiers peut prendre un certain temps, en fonction de votre connexion et des ressources du serveur source.
+\* Veuillez noter que l'utilisation de ce plugiciel pour exporter des articles et des publications exportera non seulement toutes les métadonnées pertinentes, mais inclura aussi tous les fichiers reliés à l'article (HTML, PDF, etc.) incorporés dans le document XML et encodé en Base64. Cela peut entraîner des fichiers XML volumineux et encombrants, en particulier lorsque plusieurs publications sont exportés à la fois. Leur ouverture dans un éditeur pour afficher ou modifier des données ou métadonnées XML peut être pénible pour votre ordinateur, et le téléchargement de ou vers serveur de ces fichiers peut prendre un certain temps, en fonction de votre connexion et des ressources du serveur source.
 
 ![](./assets/native-xml-plugin-export.png)
 
@@ -102,10 +101,10 @@ Voici des choses à considérer:
 
 - Assurez-vous de bien définir le type de document à l'aide de ..>.
 - Votre fichier XML doit être encodé en UTF8.
-- <firstname>, <lastname> and <email> are mandatory.</email></lastname></firstname>
+- `<firstname>`, `<lastname>` and `<email>` are mandatory.
 - Si vous autorisez le système à générer des mots de passe pour les utilisateurs que vous téléchargez, vous avez l'option d'autoriser le système à envoyer un e-mail aux utilisateurs avec leurs informations d'identification de compte. Cette option se trouve sur la page du plugiciel Users XML ("Envoyer un e-mail de notification à chaque utilisateur importé contenant le nom et le mot de passe de l'utilisateur.").
-- Vous pouvez exiger de l'utilisateur de modifier son mot de passe lors de sa prochaine connexion en définissant l'attribut de mot de passe "change" sur "true": <password must_change = "true"> myoldpassword
-- Le cryptage par défaut du mot de passe est "plaintext" (c'est-à-dire aucun). Crypté suppose qu'il a été crypté par Validation::encryptCredentials() et utilise le même algorithme de cryptage utilisé par le système.
+- Vous pouvez exiger de l'utilisateur de modifier son mot de passe lors de sa prochaine connexion en définissant l'attribut de mot de passe "change" sur "true": `<password must_change = "true">`myoldpassword`</password>`
+- Le cryptage par défaut du mot de passe est "plaintext" (c'est-à-dire aucun). Crypté suppose qu'il a été crypté par `Validation::encryptCredentials()` et utilise le même algorithme de cryptage utilisé par le système.
 - Si le fichier importé contient des noms d'utilisateur ou des adresses e-mail qui existent déjà dans le système, les données de ces utilisateurs ne seront pas importées et les nouveaux rôles à créer seront attribués aux utilisateurs existants.
 
 Vous devez valider votre fichier XML avant de l'importer. Si vous utilisez un outil d'édition XML, tel que Liquid XML Editor ou Oxygen XML, vous pouvez valider le fichier dans l'outil d'édition. Si le XML n'est pas valide, un message d'erreur s'affiche pour identifier les lignes contenant des erreurs.
@@ -148,7 +147,7 @@ Si votre journal est indexé par le Directory of Open Access Journals (DOAJ), vo
 
 Pour exporter les métadonnées du journal vers DOAJ automatiquement:
 
-1. Obtenez une clé API de DOAJ en allant sur [https://doaj.org/](https://doaj.org/) , en vous connectant et en vérifiant votre numéro de membre.
+1. Obtenez une clé API de DOAJ en allant sur [https://doaj.org/](https://doaj.org/), en vous connectant et en vérifiant votre numéro de membre.
 2. Connectez-vous à OJS en tant que Directeur/trice de la revue
 3. Allez dans Outils > Importer/Exporter > Plugiciel DOAJ Export
 4. Sous l'onglet Paramètres, entrez votre clé API DOAJ
