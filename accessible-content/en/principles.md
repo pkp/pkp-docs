@@ -154,3 +154,65 @@ Other tools, such as the [Spectrum Chrome extension](https://chrome.google.com/w
 *In this figure, the original’s (1) colour legend is not as clear for users with achromatopsia, total colour blindness, as shown in (2). Some of the data’s categories are too similar to each other.*
   
 Certain web-based tools like [ColorBrewer](https://colorbrewer2.org/) provide accessible colour palettes for data visualisation, adapted to different types of datasets (sequential, diverging, qualitative). When in doubt, you may also fall back on different shapes or patterns to indicate delimitations in large groups of data points.
+
+### Readability and legibility of writing
+
+Understandably, text writing and formatting for a journal will likely follow conventions of a particular scholarly community. But there are general principles we can follow to make it more readable and legible.
+
+Shorter paragraphs will make the text easier to read on small screens and will help people with cognitive, neurological and/or learning disabilities. Similarly, expanding acronyms and abbreviations on first use and keeping a list of acronyms as an appendix for reference is a common and helpful practice.
+
+[WebAim’s Writing Clearly and Simply](https://webaim.org/techniques/writing/) guide contains other helpful tips for writers to achieve clarity and simplicity. Additionally, tools like [Hemingway App](http://www.hemingwayapp.com/) can help evaluate your text for complexity and suggest ways of improving its general readability.
+
+### Headings structure
+
+Headings help users understand how the content of a page is organized. Also, they provide in-page navigation which is used by web browsers, plug-ins, and assistive technologies. When creating web content, using heading hierarchy in rank order will help users navigate the document with more ease.
+
+Headings can provide a clearer idea about the content once it shows an outline of it. For that reason, rather than write a long main heading, it is advised to use subheadings.
+
+It is possible to create content sections using subheadings, and these can connect related paragraphs.
+
+![Example of heading formatting for JMIR](./assets/[6_a11y-guide-headings-jmir.png](https://github.com/pkp/pkp-docs/blob/accessible-content/accessible-content/en/assets/6_a11y-guide-headings-jmir.png )
+
+*Example of heading formatting for JMIR papers from [JMIR Publications Knowledge Base and Help Center](https://support.jmir.org/hc/en-us/articles/360017464552-How-should-headings-be-formatted-).*
+
+#### HTML documents
+
+In accessible HTML documents, headings are structured using the following tags: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`. They are nested according to their rank or level. Rank level is defined by the number of heading tags. Hence, `<h1>` is the highest level in importance and `<h6>` is the lowest subheading in the structure rank of headings.
+
+Avoid skipping headings in a document structure to prevent confusion, even if you prefer the visual presentation. A `<h2>`  must be followed by a `<h3>` as the next subheading in the same section. However, it is fine that a `<h4>` is followed directly by a `<h2>` when it opens a new section, as long as `<h4>` closes the previous one.
+
+**Only one** `<h1>` heading should be used per document, because it is the document title or article title.
+
+Examples:
+The example below shows an article structure with headings where the *Article title* is the highest rank heading and the most important info of the structure.
+> (h1) *Article title* 
+> (h2) Abstract
+> (h2) Introduction
+> (h3) Background
+> (h2) Methods
+> (h2) Conclusion
+
+The example below demonstrates how to nest sections, with the lowest level closing the previous section. In this example, the "(h4) Background by region" closes the "(h2) Introduction" section and is fine in accessibility terms.
+
+>(h1) Article title
+>(h2) Abstract
+>(h2) Introduction
+>(h3) Background
+>(h4) **Background by region**
+>(h2) Methods
+>(h2) Conclusion
+
+#### Text documents
+
+There are many Text Editors available to create documents, including Microsoft Word, Apple Pages, LibreOffice, and online editors like Google Docs. You can use any editor you like to create documents with accessible heading structures.
+
+Other editors will typically follow the same concept of heading ranking and nesting. You will usually have the option to select a portion of text and format it as a heading.
+
+The following image shows the heading options for Google Docs:
+![Screenshot of heading options in Google Doc.](./assets/7_a11y-guide-headings-doc.png)
+
+The heading hierarchy for documents on text editors should follow the same concept of rank level for HTML documents:
+
+-   Every document must have a *Heading 1*
+-   Do not skip heading levels, e.g.: a *Heading 2* must be followed by a *Heading 3* then *Heading 4*, except when starting a new section
+-   Headings should be unique to prevent any confusion while navigating, skimming or reading the whole document
