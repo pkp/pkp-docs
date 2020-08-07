@@ -56,13 +56,11 @@ You can ask the language moderator for your language if they know of any documen
 
 #### The size of translation project you want to do right now
 
-Think about how much time you can commit to this current translation project. Once you begin a translation project, it is best to finish it within one week.
+Think about how much time you can commit to this current translation project. Once you begin a translation project, it is best to finish it within one or two weeks.
 
 Documents vary in size. A few documents, like Learning OJS, have more than 10 chapters and some chapters are quite long. However, most documents have approximately 5 chapters that are 1-3 pages each.
 
-You do not have to translate an entire document. Translation is done in chapter files and paragraphs, so you can choose to only translate a chapter or even only a few paragraphs in a chapter. You may find a document that is mostly translated and only needs a small part of it translated.
-
-However, if there is an entirely un-translated document, it is best if you can commit to translating the whole document or at least a thematic section of it.
+Translation is done in chapter files and paragraphs, so you can choose to only translate a chapter or even only a few paragraphs in a chapter. You may find a document that is mostly translated and only needs a small part of it translated. However, if there is an entirely un-translated document, it is best if you can commit to translating the whole document or at least a thematic section of it. The translation will not be published until the entire document (all files/chapters) have been translated.
 
 You can open each document to see how long it is and what parts of it need to be translated. When you first open the document, you will see the “en” folder and an index file.
 
