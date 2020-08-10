@@ -171,7 +171,7 @@ Headings can provide a clearer idea about the content once it shows an outline o
 
 It is possible to create content sections using subheadings, and these can connect related paragraphs.
 
-![Example of heading formatting for JMIR](./assets/[6_a11y-guide-headings-jmir.png](https://github.com/pkp/pkp-docs/blob/accessible-content/accessible-content/en/assets/6_a11y-guide-headings-jmir.png )
+![Example of heading formatting for JMIR](./assets/6_a11y-guide-headings-jmir.png)
 
 *Example of heading formatting for JMIR papers from [JMIR Publications Knowledge Base and Help Center](https://support.jmir.org/hc/en-us/articles/360017464552-How-should-headings-be-formatted-).*
 
