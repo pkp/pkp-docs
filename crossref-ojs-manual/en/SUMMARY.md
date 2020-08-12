@@ -14,5 +14,5 @@
 - [Reference Linking and Deposit](references.md)
 - [Funding Information](funding.md)
 - [Similarity Check](simCheck.md)
-- [Crossmark](./en/crossmark.md)
+- [Crossmark](./crossmark.md)
 
