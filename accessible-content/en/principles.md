@@ -216,3 +216,68 @@ The heading hierarchy for documents on text editors should follow the same conce
 -   Every document must have a *Heading 1*
 -   Do not skip heading levels, e.g.: a *Heading 2* must be followed by a *Heading 3* then *Heading 4*, except when starting a new section
 -   Headings should be unique to prevent any confusion while navigating, skimming or reading the whole document
+
+# PLACEHOLDER FOR LISTS AND TABLES
+
+### Document metadata
+
+Adding metadata to your document increases its searchability. It also allows software applications and adaptive technologies to give the users the key information about the document, so they can easily find the desired document and determine if it is what they need.
+
+#### Filename
+
+-   Screen readers read the filename when navigating to a document from another document. Making the file name identifiable and meaningful will help both screen reader users and anyone who saves the file locally for future reference    
+-   Avoid special characters in filenames    
+-   Words separated by hyphens "-" and by capital letters (e.g. dogShow) may be read as individual words depending on the screen reader    
+-   Galley files should follow a common naming pattern that would be consistent across all publications
+    
+#### Title, author, and more
+
+To add or modify the title, author, or subject of an MS Office document, navigate to:
+ 
+-   Windows: File > Info > Properties    
+-   Mac: File > Properties > Summary
+    
+Adding the following information in MS Word should be transferred to the PDF on conversion:
+
+-   “Title”, which corresponds to “Document Title” in the PDF file    
+-   “Subject”, which corresponds to “Description” in the PDF file    
+-   “Author”, which corresponds to “Author” in the PDF file    
+-   “Tags”, which corresponds to “Keywords” in the PDF file
+  
+*Note on using capitalization in titles*
+
+If your discipline often displays article titles in all caps, you may want to avoid entering the titles in all caps manually, as screen readers may read this as an acronym rather than a title. Instead, the title and subtitle should be entered with upper and lower-case characters, e.g. “The Trolley Problem of Climate Change”, and then made upper-case through your journal’s stylesheet. This will also ensure the title is made available in its original form for downstream indexers like Crossref and Google Scholar.
+
+#### Language
+
+A screen reader that supports multiple languages will rely on the web pages’ language tag to know in which language to read it. If you use OJS with multiple languages, make sure to use the proper language locale for that language (e.g. French locale for the French language) as the locale determines the language tag for the page.
+
+Additionally, if you publish galleys in PDF, you can set the language tag for the document as follows:
+
+1.  Open the Document Properties dialog: Choose File > Properties    
+2.  Select a language from the Language menu in the Reading Options area of the Advanced tab.
+    
+If you publish galleys in HTML or XML, it is best practice to set the lang, global language attribute, to the root element of each document. This declares the language of the entire galley, and helps assistive technologies determine how to pronounce words. It also helps search engines and web browsers.
+
+You can also add the language attribute to specific elements, when the language changes mid-document. For example, an English language document may quote a paragraph in French.
+
+In HTML:
+`<p lang="fr">Ceci est un paragraphe.</p>`
+
+In XML:
+```
+<section id="test" xml:lang="fr">
+	<title>En Français</title>
+	<p>Ceci est un paragraphe.</p>
+</section>
+```
+
+### Accessibility for Sign language users
+
+For some people with auditory disabilities, sign language may be the primary language, and they may not read the written language fluently or at all. Here are some of the strategies to make your content accessible to them:
+
+-   Present information via a video accompanied by sign language interpretation - see for example [Revista Brasileira de Vídeo-Registros em Libras](https://revistabrasileiravrlibras.paginas.ufsc.br/)    
+-   Add automated sign language interpretation by a virtual sign language avatar to the website - see for example [VLibras](https://www.vlibras.gov.br/) for the Portuguese Sign Language Libras    
+-   Use simpler text that is supplemented by images, graphs, and other illustrations    
+
+Use signwriting where available for the sign language of your country. For further resources see the [Sutton's SignWriting site](https://www.signwriting.org/).
