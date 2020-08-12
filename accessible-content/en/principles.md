@@ -217,7 +217,211 @@ The heading hierarchy for documents on text editors should follow the same conce
 -   Do not skip heading levels, e.g.: a *Heading 2* must be followed by a *Heading 3* then *Heading 4*, except when starting a new section
 -   Headings should be unique to prevent any confusion while navigating, skimming or reading the whole document
 
-# PLACEHOLDER FOR LISTS AND TABLES
+### Lists
+
+According to the content presented and how the content creator wants to organize it, there are three types of lists for web content. The type of list used depends on the kind of information that is being organized and its purpose.
+
+* unordered list
+* ordered list
+* description list
+
+Assistive technologies inform users what type of list will be read before proceeding to each item. It also describes how many items are on a list, the current item, and how many list items are still remaining.
+
+#### Unordered list
+
+In an unordered list, the elements order is not important and  is used to show a group or a set of elements. This list usually shows a bullet for each element.
+
+This list is coded using `<ul>` for the main element and `<li>` for each item. Example:
+
+**Code**:
+```html
+<ul>
+<li>Researchers</li>
+<li>Students</li>
+<li>Editors</li>
+<li>Authors</li>
+</ul>
+```
+
+**Rendered**
+> - Researchers
+> - Students
+> - Editors
+> - Authors
+
+#### Ordered list
+The main purpose is to show a hierarchy or sequential information. It can also show steps of instruction to follow or proceedings. It can show a number or a letter for each element listed.
+
+This list is coded using `<ol>` for the main element and `<li>`  for each item. Example:
+
+**Code**:
+```html
+<ol>
+<li>Accept submission</li>
+<li>Assign reviewers</li>
+<li>Send to review</li>
+<li>Set a due date</li>
+</ol>
+```
+
+**Rendered**
+> 1. Accept submission
+> 2. Assign reviewers
+> 3. Send to review
+> 4. Set a due date
+
+
+
+#### Description list (definition list)
+
+A description list consists of grouping terms and their descriptions. It is possible to associate one or more terms to one or more descriptions of the terms.
+The markup for description lists includes the `<dl>` tag for the start of the list, the `<dt>` tag for the term(s), and the `<dd>` tag for the description(s).
+A term can be grouped to more than one description. Likewise, one or more terms can be grouped with one description. Many terms to many descriptions is also acceptable.
+
+Screen readers will announce the number of terms as well as the descriptions.
+Below are some examples for description lists:
+
+**One term, multiple descriptions**:
+```html
+<dl>
+    <dt>Authors</dt>
+        <dd>John</dd>
+        <dd>Kevin</dd>
+        <dd>Juan</dd>
+    <dt>Editor</dt>
+        <dd>James</dd>
+</dl>
+```
+
+**Rendered**
+> <dl>
+> <dt>Authors</dt>
+> <dd>John</dd>
+> <dd>Kevin</dd>
+> <dd>Juan</dd>
+> <dt>Editor</dt>
+> <dd>James</dd>
+> </dl>
+
+**Multiple terms, one description**:
+```html
+<dl>
+    <dt>OJS</dt>
+    <dt>OMP</dt>
+        <dd>Publishing software platforms developed by PKP.</dd>
+</dl>
+```
+
+**Rendered**
+> <dl>
+>     <dt>OJS</dt>
+>     <dt>OMP</dt>
+>         <dd>Publishing software platforms developed by PKP.</dd>
+> </dl>
+
+**Multiple terms, multiple descriptions**:
+```html
+<dl>
+    <dt>Authors</dt>
+    <dt>Editors</dt>
+        <dd>James</dd>
+        <dd>Michael</dd>
+</dl>
+```
+
+**Rendered**
+> <dl>
+> <dt>Authors</dt>
+> <dt>Editors</dt>
+>     <dd>James</dd>
+>     <dd>Michael</dd>
+> </dl>
+
+### Columns
+
+While newer screen readers are typically compatible with multi-column layout, some older screen readers may read the page left-to-right, line by line, rendering the text out of order.
+
+Tables are frequently used to create column formatting, but this is a common misuse. Tables (as detailed below) should be used exclusively for tabular data or content. Screen readers are expected to announce this as a “Table” and interpret the first row of a Table as the Table Header, causing potential confusion.
+
+If you determine that columns are the best way to present your web content, the preferred way is to use [CSS to format multiple columns](https://www.w3schools.com/css/css3_multiple_columns.asp). However, it is important to ensure that the text is ordered coherently, even when CSS is inactive.
+
+For text documents (e.g. Word, PDF) it is important to create columns using the Columns formatting tool rather than by using the Tab key or Spacebar to create whitespace between lines of text.
+
+### Tables
+
+Tables should be used exclusively to present tabular data or content. Tables can help organize content with a logical relationship in grids, making it easier to read and understand. For more on accessibility in tables see the [W3C/WAI Tables Concepts page](https://www.w3.org/WAI/tutorials/tables/).
+
+It is possible to use tables to position elements visually in a document or page, although it is not advisable. It can cause confusion for assistive technologies that would announce the element as a “table” where it may in fact contain different content. It may give a sense of missing data in the wrapping element.
+
+#### Tables structure
+
+Different types of data or content can be presented in a different structure of tables. The complete structure set of this element involves:
+
+* **Caption/Summary**: or table title, it could be either a short or long description of the data in the table, i.e.: "How I choose to spend my money". It serves to describe the content that the user will read and find in the table.
+* **Table header**: Usually the first row of a table. It provides a label to the column and what type of information to expect in that column. However, for long tables it is also possible to use the whole first column as a table header as well. For example, tables containing countries and social indicators usually have the first row and the first column as table headers.
+* **Table body**: wraps the main content or data of a table. It presents them below the table header and above the table footer.
+* *Table footer**: this element serves to summarize the columns of a table. It is useful for values or numbers data tables. It is not a mandatory element for tables with values that should not be summarized, i.e.: table with names, ages, citizenship, etc... Even age is a number, it won't be summarized at the bottom of a table.
+
+Below is an example of a table with elements of a table described above: *Caption*, *Header*, *Body* and *Footer*.
+
+
+<table>
+<caption>How I chose to spend my money</caption>
+<thead>
+<tr>
+<th>Purchase</th>
+<th>Location</th>
+<th>Date</th>
+<th>Evaluation</th>
+<th>Cost (€)</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="4">SUM</td>
+<td>118</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td>Haircut</td>
+<td>Hairdresser</td>
+<td>12/09</td>
+<td>Great idea</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Lasagna</td>
+<td>Restaurant</td>
+<td>12/09</td>
+<td>Regrets</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Shoes</td>
+<td>Shoeshop</td>
+<td>13/09</td>
+<td>Big regrets</td>
+<td>65</td>
+</tr>
+<tr>
+<td>Toothpaste</td>
+<td>Supermarket</td>
+<td>13/09</td>
+<td>Good</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+*Table example with: Caption, Header, body and Footer(summarizing) - Source: https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced*
+
+For HTML documents the following tags are used to define a table main structure: <table>, <thead>, <tbody> and <tfoot>. The last 3 elements are always wrapped by the <table> tag. You can find further technical info about how to generate HTML tables for visually impaired users on the [Mozilla web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#Tables_for_visually_impaired_users).
+
+To [create accessible tables in Microsoft Word](https://kb.iu.edu/d/aqjl):
+* Ensure that "Header Row" and "First Column" are designated (checkbox checked)
+* Repeat column headings where a table spans multiple pages
+* Add alt text in table properties
+* Choose table design that meets [WCAG contrast requirements](#contrast-and-colour-reliance)
 
 ### Document metadata
 
