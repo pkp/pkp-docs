@@ -12,7 +12,11 @@ PKP is continually working with Crossref to improve the level of overall DOI exp
 - inclusion of references (OJS 3.1.2-1);
 - improved use of Crossref API (OJS 3.1.2-1);
 - support for Similarity Check service;
+- support for reference linking and submission (OJS 3.1.2-x)
+- support for Crossref Funder registry (OJS 3.1.2-x)
+- support publications/versioning for DOIs (OJS 3.2)
 - also, regular review for improved user experience.
+
 
 ## Future Development Plans and Milestones
 
