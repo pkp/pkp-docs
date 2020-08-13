@@ -206,6 +206,7 @@ There are many Text Editors available to create documents, including Microsoft W
 Other editors will typically follow the same concept of heading ranking and nesting. You will usually have the option to select a portion of text and format it as a heading.
 
 The following image shows the heading options for Google Docs:
+
 ![Screenshot of heading options in Google Doc.](./assets/7_a11y-guide-headings-doc.png)
 
 The heading hierarchy for documents on text editors should follow the same concept of rank level for HTML documents:
