@@ -42,7 +42,7 @@ A non-extensive list of additional resources on accessible content creation is p
 
 - [Web Accessibility in Mind (WebAIM).ORG](https://webaim.org/techniques/css/invisiblecontent/) - Presents techniques for creating accessible content to screen reader technology, while keeping it hidden for sighted users, if necessary.
 
-- [Yale University | Usability & Web Accessibility](https://usability.yale.edu/web-accessibility/articles/images) - Explains how people with disabilities interact with images and how to make them accessible.
+- [Yale University Usability & Web Accessibility](https://usability.yale.edu/web-accessibility/articles/images) - Explains how people with disabilities interact with images and how to make them accessible.
 
 - [Tables / Accessible Publishing Knowledge Base](https://kb.daisy.org/publishing/docs/html/tables.html) - Explains how to create accessible html data tables, as “the correct tagging and description of data tables simplifies access and understanding for users who cannot see the data or need additional help understanding it”.
 
