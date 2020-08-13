@@ -37,7 +37,7 @@ PDF is the most common format for publishing articles, but can present a number 
 
 #### 1 - Ensure the source document is accessible
 
-Follow the [General Principles](./principles.md) to create the source document with accessibility in mind. If you are using MS Word, use the [Accessibility Checker to validate it. ](./galleys.md#how-to-check-an-ms-word-document-for-accessibility)
+Follow the [General Principles](./principles.md) to create the source document with accessibility in mind. If you are using MS Word, use the [Accessibility Checker to validate it.](./galleys.md#how-to-check-an-ms-word-document-for-accessibility)
 
 #### 2 - Convert the document into PDF
 
@@ -73,7 +73,7 @@ Under **File Format**, select “PDF”. Then choose the **Best for electronic d
 
 #### 3 - Check a PDF document for accessibility
 
-If you are creating a document from MS Word, start by checking accessibility using the [MS Word Accessibility Checker](././galleys.md#how-to-check-an-ms-word-document-for-accessibility).
+If you are creating a document from MS Word, start by checking accessibility using the [MS Word Accessibility Checker](./galleys.md#how-to-check-an-ms-word-document-for-accessibility).
 
 After the document has been converted to PDF, it’s a good idea to check that accessibility features are preserved and nothing has been lost. This includes checking that tags are present and the reading order is correct for a screen reader.
 
@@ -87,7 +87,7 @@ Remediating a document in PDF requires Adobe Acrobat Pro. or more details see th
 
 ### HTML
 
-HTML is another popular galley format used by publishers. It offers more flexibility than PDF for adjusting to different screen sizes and accommodating multimedia.It has the potential to be more accessible than PDF as long as the document follows the [general principles of creating accessible content](./principles.md#headings-structure), such as structured headings, alt text, etc.
+HTML is another popular galley format used by publishers. It offers more flexibility than PDF for adjusting to different screen sizes and accommodating multimedia. It has the potential to be more accessible than PDF as long as the document follows the [general principles of creating accessible content](./principles.md#headings-structure), such as structured headings, alt text, etc.
 
 For instructions on how to create and style HTML galleys, add multimedia content, and upload HTML galleys to OJS, see the [Learning OJS 3 - Chapter 15: Production and Publication - HTML Files](/learning-ojs/en/production-publication#html-files).
 
