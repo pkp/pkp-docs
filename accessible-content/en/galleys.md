@@ -7,12 +7,13 @@ This section provides an overview of how to incorporate the accessible content p
 The MS Word Accessibility Checker scans the file for common issues that may make a file less accessible for users with disabilities.
 
 Run the Accessibility Checker:
--   Windows: File > Check for Issues > Check Accessibility   
--   Mac: Review > "Check Accessibility"
-    
+
+- Windows: File > Check for Issues > Check Accessibility
+- Mac: Review > "Check Accessibility"
+
 After running the Checker, the "Inspection Results" will display one or more of the following messages:
 
-- **Error**: identifies content that makes a document difficult to read and understand  
+- **Error**: identifies content that makes a document difficult to read and understand
 - **Warning**: identifies content that in most cases, makes the document difficult to understand
 - **Tip**: identified content that may not constitute an end user issue, but could be presented in a different way to optimize user experience
 
@@ -34,12 +35,12 @@ Online journals publish their articles in a variety of file types. The most comm
 
 PDF is the most common format for publishing articles, but can present a number of issues from an accessibility standpoint. One of the main issues is that a text document created with accessibility considerations in mind may lose some of these features when converted to PDF, such as tags, alt text, headings, etc. Here are the steps to follow to minimize these risks:
 
-1.  #### Ensure the source document is accessible
+#### 1 - Ensure the source document is accessible
 
 Follow the [General Principles](./principles.md) to create the source document with accessibility in mind. If you are using MS Word, use the [Accessibility Checker to validate it. ](./galleys.md#how-to-check-an-ms-word-document-for-accessibility)
 
-2.  #### Convert the document into PDF
- 
+#### 2 - Convert the document into PDF
+
 The method you choose to export your Word Document to PDF will affect the preservation of the accessibility features that you have added to your document. For additional guidance see the [WebAIM PDF Accessibility Guide - Converting Documents to PDF](https://webaim.org/techniques/acrobat/converting).
 
 ##### Preferred Method (requires Adobe Acrobat Pro)
@@ -70,7 +71,7 @@ Under **File Format**, select “PDF”. Then choose the **Best for electronic d
 
 **IMPORTANT**: **never “Print to PDF”** when exporting a Word Document to PDF. A screen reader user may still be able to access the text of a PDF created in this way, but heading structure, alternative text, and any other tag structure will be lost.
 
-3.  #### Check a PDF document for accessibility
+#### 3 - Check a PDF document for accessibility
 
 If you are creating a document from MS Word, start by checking accessibility using the [MS Word Accessibility Checker](././galleys.md#how-to-check-an-ms-word-document-for-accessibility).
 
@@ -78,7 +79,7 @@ After the document has been converted to PDF, it’s a good idea to check that a
 
 This process requires Adobe Acrobat Pro and is described in detail in [WebAim’s PDF Accessibility Guide.](https://webaim.org/techniques/acrobat/acrobat)
 
-4.  #### Remediate a PDF document
+#### 4 - Remediate a PDF document
 
 If you receive a PDF that is untagged, or where the tag structure is incomplete or incorrect, it is usually best to return to the source document, make the necessary accessibility repairs, and then re-create the PDF. If the source document is unavailable, you can use Acrobat to convert a PDF back to a Word, Excel, or PowerPoint file. Select File > Export To, then choose your desired format.
 
@@ -88,7 +89,7 @@ Remediating a document in PDF requires Adobe Acrobat Pro. or more details see th
 
 HTML is another popular galley format used by publishers. It offers more flexibility than PDF for adjusting to different screen sizes and accommodating multimedia.It has the potential to be more accessible than PDF as long as the document follows the [general principles of creating accessible content](./principles.md#headings-structure), such as structured headings, alt text, etc.
 
-For instructions on how to create and style HTML galleys, add multimedia content, and upload HTML galleys to OJS, see the [Learning OJS 3 - Chapter 15: Production and Publication - HTML Files](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#html-files).
+For instructions on how to create and style HTML galleys, add multimedia content, and upload HTML galleys to OJS, see the [Learning OJS 3 - Chapter 15: Production and Publication - HTML Files](/learning-ojs/en/production-publication#html-files).
 
 ### XML
 
@@ -96,16 +97,17 @@ XML files have the potential to be very accessible. They contain extensible mark
 
 XML markup is structural and semantic, rather than having anything to do with how the text content should be presented, and the file can be processed automatically to create various formats. Many publishers use an “XML-first” publishing workflow, producing a master XML file that is used to generate HTML, PDF, EPUB, and other formats. This allows publishers to build in all accessibility features at the beginning of their workflow.
 
-For more information on XML publishing in OJS see [Learning OJS 3: Production and Publication - XML](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#xml-files).
+For more information on XML publishing in OJS see [Learning OJS 3: Production and Publication - XML](/learning-ojs/en/production-publication#xml-files).
 
-The DAISY Digital Talking Book or DAISY XML is an XML-based e-book format that was developed by the DAISY Consortium as an accessible file format for people with print disabilities. It is a package of digital files that can include digital audio files, marked-up text files, synchronization files, and navigation files. Special DAISY players can play the audio, read the text using Text to Speech, and navigate through the book in an accessible way. [This tutorial]([https://cynthiang.ca/2015/08/18/accessible-format-production-part-6-daisy-book/](https://cynthiang.ca/2015/08/18/accessible-format-production-part-6-daisy-book/)) explains how to make a DAISY Book.
+The DAISY Digital Talking Book or DAISY XML is an XML-based e-book format that was developed by the DAISY Consortium as an accessible file format for people with print disabilities. It is a package of digital files that can include digital audio files, marked-up text files, synchronization files, and navigation files. Special DAISY players can play the audio, read the text using Text to Speech, and navigate through the book in an accessible way. [This tutorial](https://cynthiang.ca/2015/08/18/accessible-format-production-part-6-daisy-book/) explains how to make a DAISY Book.
 
 ### EPUB
 
 Used commonly in eBook publishing, EPUB defines a means of representing, packaging and encoding structured and semantically enhanced Web content — including HTML5, CSS, SVG, images, and other resources — for distribution in a single-file format.
 
 Below are some resources for accessible EPUB creation:
-- [Learning OJS 3: Production and Publication - EPUB](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#epub-files) - how to create EPUB galleys
+
+- [Learning OJS 3: Production and Publication - EPUB](/learning-ojs/en/production-publication#epub-files) - how to create EPUB galleys
 - [EPUB - the DAISY Consortium](https://daisy.org/activities/standards/epub/) - EPUB packages and accessibility
 - [Top tips for creating accessible EPUB 3 files](http://diagramcenter.org/54-9-tips-for-creating-accessible-epub-3-files.html) - tips from Diagram Center
 - [EPUB Validation Process](https://kb.daisy.org/publishing/docs/epub/validation/overview.html) - EPUB accessibility checkers
