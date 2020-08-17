@@ -1,7 +1,7 @@
 
-# Appendix 2: Google Scholar Guide\
+# Appendix 2: Google Scholar Guide
 
-Contributors: Kate Shuttleworth, Emily Zheng, Monica Westin, Roger Gillis, Patricia Mangahis\
+Contributors: Kate Shuttleworth, Emily Zheng, Monica Westin, Roger Gillis, Patricia Manghais
 
 # Introduction
 
@@ -11,7 +11,8 @@ This guide provides guidance around the indexing of Open Journal Systems (OJS) t
 
 Google Scholar is a popular scholarly indexing engine that crawls the web looking for scholarly publications: articles, books, reports, theses, conference proceedings, preprints, among others. Google scholar identifies scholarly content, determines each item's bibliographic metadata, and groups different online versions of an item together with this metadata in search results.
 
-There is no need to register your journal with Google Scholar. Google Scholar will eventually find and automatically crawl the site. If you notice that your journal is not appearing in Google Scholar, there maybe some issues that need to be addressed, see the [Commons OJS indexing problems and suggested fixes](https://docs.google.com/document/d/1zCNh4JbpaFlKBoHrbqnMyqvP2W0Ka2kbMtHs7cPdvT8/edit#heading=h.78asu7oban1q), below.
+There is no need to register your journal with Google Scholar. Google Scholar will eventually find and automatically crawl the site. If you notice that your journal is not appearing in Google Scholar, there maybe some issues that need to be addressed, see the [Commons OJS indexing problems and suggested fixes](#Troubleshooting Google Scholar indexing problems for Journal Managers and Editors
+), below.
 
 ![](./assets/google-scholar-guide-search-results.png)
 
@@ -41,16 +42,16 @@ Example set of metatags from [Google Scholar inclusion guidelines](https://schol
 <meta name="citation_pdf_url" content="http://www.example.com/content/271/20/11761.full.pdf">
 ```
 
-The **\'93Citation_pdf_url\'94** metatag tells the indexing system which file to associate with this metadata, and provides a direct URL to the article galley.
+The '```<meta name="citation_pdf_url"/>``` tells the indexing system which file to associate with this metadata, and provides a direct URL to the article galley.
 
 You can review the metatags for one of your articles by going to the landing page for the article, then viewing the HTML source. Usually you can do this by right clicking on the page and selecting view page source-Inspect element-Developer tools, -  or using a keyboard command, depending on which browser you use.
 
 ![](./assets/google-scholar-guide-atelie-site.png)
 
-Once viewing the source code of your article page, you can search the HTML source for \'93citation_\'94 to view metatags. This process can be used to test and troubleshoot many of the OJS indexing errors described in this guide.
-\
+Once viewing the source code of your article page, you can search the HTML source for "citation_" to view metatags. This process can be used to test and troubleshoot many of the OJS indexing errors described in this guide.
+
 ![](./assets/google-scholar-guide-meta-tags.png)
-\
+
 # Troubleshooting Google Scholar indexing problems for Journal Managers and Editors
 
 If you notice that Google Scholar has not indexed or ceased indexing your journal, it could be due to inconsistencies between the journal's metadata and the Galley files. Metadata in the Tags & Galley should match precisely. Some common discrepancies include:
@@ -83,7 +84,7 @@ To test for this problem, review the HTML source for your articles to view the d
 
 If the problem is widespread across your OJS site, and you are currently using one of the OJS versions listed here, there is a patch that has been developed specifically to fix this problem. This patch will ensure that only the publication date is being used in the date metatag.
 
-Patches for supported versions of OJS include:\
+Patches for supported versions of OJS include:
 
 -   OJS 3.0.1 and 3.0.2: [https://github.com/pkp/ojs/commit/9105b7ebc397f3647d500d62d30654b56a4f1e60.diff](https://github.com/pkp/ojs/commit/9105b7ebc397f3647d500d62d30654b56a4f1e60.diff)
     
@@ -91,21 +92,21 @@ Patches for supported versions of OJS include:\
     
 -   OJS 2.4.x: [https://github.com/pkp/ojs/commit/6cf0078cff0556231696cf9979377381d18d721d.diff](https://github.com/pkp/ojs/commit/6cf0078cff0556231696cf9979377381d18d721d.diff)
  
-More information about the code patch can be found here: [https://github.com/pkp/pkp-lib/issues/2739](https://github.com/pkp/pkp-lib/issues/2739)\
+More information about the code patch can be found here: [https://github.com/pkp/pkp-lib/issues/2739](https://github.com/pkp/pkp-lib/issues/2739)
 
 Contact your site administrator if you believe that your journal may be affected by this bug.
 
 ### Use only one language in each metadata tag, and don't reproduce duplicate metadata in different languages/scripts across multiple metatags
 
-Another common error for OJS journals occurs when multiple languages or scripts are combined in the metatags for a single article, resulting in mixed bibliographic information. This causes confusion both for the Scholar indexing system and for researchers who may, for example, click on a Scholar search result that seems to be an article written in a familiar language -- and end up on a PDF they can\'92t read. Avoid duplicating this information in different languages or scripts within a single field.
+Another common error for OJS journals occurs when multiple languages or scripts are combined in the metatags for a single article, resulting in mixed bibliographic information. This causes confusion both for the Scholar indexing system and for researchers who may, for example, click on a Scholar search result that seems to be an article written in a familiar language -- and end up on a PDF they can't read. Avoid duplicating this information in different languages or scripts within a single field.
 
--   ex: including the translated version of the title in title metatags, e.g.
+-   ex: including the translated version of the title in title metatags:
     
 ```
 <meta name="citation_title" content="War and Peace == Война и мир" />
 ```
     
--   ex: listing authors in native script/language of home institution when it is not the language in which the article was written, e.g.
+-   ex: listing authors in native script/language of home institution when it is not the language in which the article was written:
 ```    
 <meta name="citation_author" content="Толстой, Лев Николаевич " />
 ```
@@ -116,13 +117,13 @@ Another common error for OJS journals occurs when multiple languages or scripts 
 
 ### Use the full-text language in the metadata tags
 
-The language of the abstract should match the language of the metatags, such as the title metatag. Using English as the default language for metatags, regardless of the language of the article, will also cause problems for indexing. It also results in missed citations, because articles that cite another article will likely use the language of the full-text for the citation. Missing citations means articles won’t be ranked as they should be in Scholar search results-- and both of these result in unhappy authors.
+The language of the abstract should match the language of the metatags, such as the title metatag. Using English as the default language for metatags, regardless of the language of the article, will also cause problems for indexing. It also results in missed citations, because articles that cite another article will likely use the language of the full-text for the citation. Missing citations means articles won’t be ranked as they should be in Scholar search results - and both of these result in unhappy authors.
 
 ![](./assets/google-scholar-guide-content-date.png)
 
 
 The fix for both of these issues is to use the language of the full text in the PDF as a guide for the language to use in entering the metadata in the fields in OJS.
-\
+
 #### Adding multilingual metadata in OJS 3.2
 
 In OJS 3.2, it is possible to enable multiple languages for your journal and add metadata in those languages in separate fields. This avoids the indexing issues that can result from inconsistencies with the metadata language not matching the language of the article text, or of combining multiple languages in the same metadata field. Note that you should still ensure that the [primary language for the submission](https://docs.pkp.sfu.ca/learning-ojs/en/authoring#step-1) matches the language of the full article text, and that metadata is entered in the language of the full article text, regardless of whether or not additional language metadata is included.
@@ -137,7 +138,7 @@ Common formatting errors could include incorrect/inconsistent “first name, las
 In the red metatags below, you can see a few different examples of common author name errors, all of which will break indexing in Google Scholar. In the first metatag, notice that the author’s first name and last name have been inverted. In the second, only part of the author’s name has been entered. And in the last, a lower case spelling has been used for the author’s name.
 
 
-![](./assets/google-scholar-guide-author-names.png
+![](./assets/google-scholar-guide-author-names.png)
 
 To troubleshoot and fix these errors, you will want to compare the names in the citation_author metatags with how it appears in the PDF. If there are discrepancies, make the change to the metatags in the article metadata within your journal to match the PDF. Remember to look out for formatting and capitalization.
 
@@ -158,7 +159,7 @@ Otherwise, if you have so many journals on your OJS site that making a change fo
 
   
 
-Finally, you can upgrade to OJS version 3.1.2 and newer, where the fix for this bug has been built in. This is the recommended solution by both PKP and Google Scholar (see “Best practices for OJS journals”)[link].
+Finally, you can upgrade to OJS version 3.1.2 and newer, where the fix for this bug has been built in. This is the recommended solution by both PKP and Google Scholar (see “Best practices for OJS journals” above.
 
 ## Secure Socket Layer (SSL) certificate errors
 
