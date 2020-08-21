@@ -11,9 +11,9 @@ La section Outils est accessible à partir du menu de la barre latérale gauche.
 
 Les Outils consistent d'un onglet Import/Export, d'un onglet Générateur de Rapports (appelé Statistiques dans OJS 3.1.1 et versions antérieures) et d'un onglet Autorisations.
 
-## Import/Export
+## Importer/Exporter
 
-Import/Export allows you to easily get data out of your OJS journal and get data into it.
+Importer/Exporter vous permet d'extraire facilement des données de votre journal OJS et d'y insérer des données.
 
 ![](./assets/learning-ojs3.2-jm-users-tools-import.png)
 
@@ -56,7 +56,7 @@ Tout d'abord, assurez-vous que le plugin Quick Submit a été installé et activ
 
 Ensuite, vous devrez créer les numéros qui contiendront les nouveaux articles que vous importez.
 
-1. Go to Issues > Future issues and select Create Issue.
+1. Accédez à Numéros > Numéros à venir et sélectionnez Créer un Numéro.
 2. Saisissez les métadonnées du Numéro
 3. Si le Numéro est déjà publié, vous pouvez cocher "Publié"
 4. Cliquez sur Enregistrer.
@@ -68,13 +68,13 @@ Ensuite, vous pouvez importer chaque article avec le Plugiciel.
 
 ![](./assets/import-plugins.png)
 
-1. Go to Tools > Import/Export and select Quick Submit Plugin.
-2. Upload a cover image if you have one.  This field is optional and can be ignored.
+1. Allez dans Outils > Importer/Exporter et sélectionnez Plugiciel de soumission expresse
+2. Téléversez une image de couverture si vous en avez une. Ce champ est facultatif et peut être ignoré.
 3. Choisissez la section de la revue dans laquelle l'article apparaîtra dans la liste déroulante du champ Section.
 4. Saisissez les métadonnées de l'article dans les autres champs. Si vous ne voyez pas tous les champs de métadonnées souhaités, accédez à Paramètres du flux des travaux > Soumission > Métadonnées de Soumission pour configurer les champs à inclure dans les soumissions.
 5. Sous Liste des Contributeurs, cliquez sur Ajouter un Contributeur pour saisir les noms des auteurs et des autres contributeurs à l'article.
 6. Sous Épreuves, cliquez sur Ajouter une Épreuve pour télécharger un fichier PDF de l'article. Une boîte de dialogue s'ouvrira où vous pourrez entrer l'Étiquette de l'Épreuve et la langue de l'Épreuve. Une fois que vous avez cliqué sur Enregistrer, une autre boîte s'ouvre où vous pouvez sélectionner le Composant de l'Article et télécharger le fichier.
-7. At the end of the Quick Submit Plugin form, you can select whether you want the article you are adding to be published immediately or unpublished if you wish to publish it later. If you select **Published**, you will have to select the issue you would like to publish it in and enter the **Date Published**. You can also optionally enter page numbers and permissions information.
+7. À la fin du formulaire du Plugiciel de soumission expresse, vous pouvez choisir si vous souhaitez que l'article que vous ajoutez soit publié immédiatement ou non publié si vous souhaitez le publier plus tard. Si vous sélectionnez **Publié**, vous devrez sélectionner le numéro dans lequel vous souhaitez le publier et entrer la **Date de Publication**. Vous pouvez également saisir des numéros de page et des informations sur les autorisations.
 8. Lorsque vous avez terminé de saisir toutes les données de l'article, cliquez sur Enregistrer.
 
 ![](./assets/quick-submit-plugin-2.png)
@@ -84,7 +84,7 @@ Les DOI ne sont pas ajoutés avec le plugiciel QuickSubmit. Au lieu de cela, vou
 Pour ajouter des DOI existants à des articles déjà attribués:
 
 1. Activez et configurez le plugiciel DOI de sorte que vous deviez "Entrer un suffixe DOI individuel pour chaque élément publié."
-2. After you finish uploading the article with the QuickSubmit plugin, click “Go to Submission” to go to the article’s submission record. Or go to the article's submission record through the Submissions dashboard.
+2. Après avoir téléversé l'article avec le plugiciel de soumission expresse, cliquez sur «Aller à la Soumission» pour accéder à l'enregistrement de soumission de l'article. Ou accédez à l'enregistrement de soumission de l'article via le tableau de bord Soumissions.
 3. Ouvrez les Métadonnées en haut à droite et accédez à l'onglet Identificateurs
 4. Entrez le suffixe DOI de l'article.
 5. Cliquez sur Enregistrer puis enregistrez à nouveau pour attribuer le DOI
@@ -105,11 +105,11 @@ La page Générateur de Rapports permet d'accéder à divers rapports de votre r
 
 Le système génère des rapports qui traquent les détails associés à l'utilisation du site et aux soumissions sur une période donnée. Les rapports sont générés au format CSV qui nécessite une application de tableur pour les afficher.
 
-- **PKP Usage Statistics Report**: Provides basic usage statistics for your journal.
+- **Statistiques d'Utilisation de PKP** : fournit des statistiques d'utilisation de base pour votre revue.
 - **Afficher le Rapport**: fournit un rapport sur les vues d'épreuve et de résumé par les lecteurs (c'est-à-dire combien de fois un PDF d'un article a été consulté).
 - **Rapport d'Articles**: fournit un tableur de tous les articles publiés.
 - **Rapports COUNTER** : fournit des données COUNTER.
-- **Review Report**: Provides a spreadsheet of all review activity.
+- **Rapport de consultation**: fournit un tableur de toutes les activités d'évaluation.
 
 ### Générer un Rapport Personnalisé
 
