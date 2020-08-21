@@ -351,7 +351,9 @@ Les statistiques visuelles se trouvent sous **Statistiques** dans le panneau de 
 
 Les statistiques des Articles présentent les consultations de la page du résumé des articles sous forme de graphique et de tableau. Le graphique visuel peut être modifié de la vue mensuelle à la vue quotidienne, et vice versa. Tandis que le format du tableau vous permettra de filtrer le total par ordre croissant ou décroissant.
 
-![](./assets/Article-Usage-Visual-Statistics-2.png) ![](./assets/Article-Usage-Visual-Statistics-3.png)
+![](./assets/Article-Usage-Visual-Statistics-2.png)
+
+![](./assets/Article-Usage-Visual-Statistics-3.png)
 
 L'icône calendrier dans le coin supérieur droit de votre tableau de bord vous donne la possibilité de changer la consultation de l'article sur les 30 derniers jours, les 90 derniers jours, les 12 derniers mois, Toutes les dates ou une Période Personnalisée.
 
