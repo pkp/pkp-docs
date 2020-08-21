@@ -65,3 +65,35 @@ If you don't see the language(s) you are looking for listed on either of these l
 ## Install a Language
 
 Site Administrators can install new languages through the Administration dashboard. See [Learning OJS 3](/learning-ojs/en/site-administration#languages) for more information on how to install and manage languages in PKP software.
+
+If you have newly translated the software into another language and want to install that language on your site, you will not be able to install it in the standard way until it has been merged into a release of the software. Instead, if you have access to the server and installation files and sufficient technical knowledge, you can install the new language using one of the methods below. 
+
+First, confirm that you are using OJS/OMP/OPS 3.2.0 or above. If you are not, you will need to upgrade to the newest version of OJS/OMP/OPS.
+
+When you upgrade, if you use a git checkout of OJS/OMP/OPS, rather than installing from a .tar.gz package, you will use the latest "stable" branch of the software. This will include recent translation contributions automatically and can be periodically refreshed.
+
+Otherwise, you can download the new translation files and install them on your site by doing the following:
+1. Go to [Weblate](https://translate.pkp.sfu.ca/)
+2. Open the project "PKP Web Application Library"
+3. Click Files > Download original translation files as ZIP file
+4. Do the same thing with the Project "Open Journal Systems," "Open Monograph Press," or "Open Preprint Systems," depending on which application you use
+5. Do the same thing for any plugins that you use
+6. Add the files you download to your OJS/OMP/OPS installation
+
+Another option is to get the latest translations from the pkp-translations organization in Github, in which the current stable branch will be at the end of the url. In this example, the stable branch is 3.2.1: 
+- https://github.com/pkp-translations/pkp-lib/tree/stable-3_2_1
+- https://github.com/pkp-translations/ojs/tree/stable-3_2_1
+- any relevant plugins
+
+If the language is new, you will also have to add an entry for it to the file in your installation called registry/locales.xml.
+
+## Default Translation Plugin
+
+While you're in the process of translating the software, you can avoid having untranslated locale keys displayed on your site (like ##plugins.generic.customLocale.customLocaleFiles##) by using the Default Translation plugin. This plugin will automatically display the English translation if the site is set to another language but a translation of a message key does not exist in that language.
+
+To use the plugin
+1. Go to Website Settings > Plugins > Plugin Gallery
+2. Find the Default Translation plugin and install it
+3. Under the list of Installed Plugins, find the Default Translation plugin again and enable it
+
+No configuration of the plugin is required.
