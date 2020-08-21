@@ -86,7 +86,10 @@ COUNTER | Fournit des rapports COUNTER pour toutes les revues sur l'application 
 
 ### Tableau de Comparaison de Tous les Rapports de Contenu OJS
 
-| Articles | Fournit des informations générales sur tous les articles du système, incl. Titre, résumé, auteurs, décision du/de la rédacteur-trice et statut. | Contenu | N | O | O | | --- | --- | --- | | Abonnements | Fournit des informations sur les abonnements individuels et institutionnels. | Contenu | N | O | O | | Revue | Fournit des informations de revue sur tous les articles du système, incl. noms, avis et recommandations des évaluateurs-trices. | Contenu | N | O | O |
+| Articles | Fournit des informations générales sur tous les articles du système, incl. Titre, résumé, auteurs, décision du/de la rédacteur-trice et statut. | Contenu | N | O | O 
+ --- | --- | --- | --- | --- | --- 
+Abonnements | Fournit des informations sur les abonnements individuels et institutionnels. | Contenu | N | O | O 
+Revue | Fournit des informations de revue sur tous les articles du système, incl. noms, avis et recommandations des évaluateurs-trices. | Contenu | N | O | O 
 
 ### Rapport sur les Consultations Programmées
 
@@ -111,7 +114,10 @@ Dans l'exemple ci-dessous, qui a été généré pour la période du 29 mars 201
 
 ---
 
-| **ID** | **Titre de l'article** | **Auteurs** | **Numéro** | **Date de Publication** | **Résumé** | **Épreuve Totale** | **PDF** | **HTML** | | --- | --- | --- | | **2** 508 | "S'Amuser à Mort?" Réseaux Sociaux, Satire Politique et l'Élection de 2011 | Ian Reilly | Vol 36, No 3 (2011): Fascinations Canadiennes | 2011-09-13 22:11 | 2 | 11 | 3 | 8 | | 2512 | Comobility: Comment la Proximité et la Distance Voyagent Ensemble dans les Médias Locatifs | Jen Southern | Vol 37, No 1 (2012): Les Arts Médiatiques Revisités (MARs) | 13/04/2012 9:38 | 1 | **** | **** | **** |
+| **ID** | **Titre de l'article** | **Auteurs** | **Numéro** | **Date de Publication** | **Résumé** | **Épreuve Totale** | **PDF** | **HTML** 
+ --- | --- | --- | --- | --- | --- | --- | --- | --- 
+ **2** 508 | "S'Amuser à Mort?" Réseaux Sociaux, Satire Politique et l'Élection de 2011 | Ian Reilly | Vol 36, No 3 (2011): Fascinations Canadiennes | 2011-09-13 22:11 | 2 | 11 | 3 | 8 
+ 2512 | Comobility: Comment la Proximité et la Distance Voyagent Ensemble dans les Médias Locatifs | Jen Southern | Vol 37, No 1 (2012): Les Arts Médiatiques Revisités (MARs) | 13/04/2012 9:38 | 1 | **** | **** | **** 
 
 ### Rapport de Consultation
 
@@ -137,7 +143,10 @@ Dans l'exemple ci-dessous, nous pouvons voir que l'article 95, «La Création de
 
 ---
 
-| **ID** | **Titre de l'article** | **Numéro** | **Date de Publication** | **Résumé** | **Épreuves Totales** | **HTML** | **PDF** | | --- | --- | --- | | 95 | La Création des Médias Canadiens | Vol 6, n ° 1 (1979) | 1979-01-03 | 443 | 1476 | | 1476 | | 1125 | Réseaux Numériques | Vol 24, n ° 4 (1999) | 1999-04-01 | 1821 | 8478 | 2093 | 6385 |
+| **ID** | **Titre de l'article** | **Numéro** | **Date de Publication** | **Résumé** | **Épreuves Totales** | **HTML** | **PDF** | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 95 | La Création des Médias Canadiens | Vol 6, n ° 1 (1979) | 1979-01-03 | 443 | 1476 | | 1476 | 
+| 1125 | Réseaux Numériques | Vol 24, n ° 4 (1999) | 1999-04-01 | 1821 | 8478 | 2093 | 6385 |
 
 ### Rapport sur les Statistiques d'Utilisation
 
@@ -158,7 +167,11 @@ Dans l'exemple ci-dessous, nous pouvons voir que l'article 95, «La Création de
 
 **Exemple de Données (légèrement modifiées pour plus de clarté):**
 
-| **ID** | **Type** | **Titre** | **Numéro** | **Journal** | **Pays** | **Mois** | **Compte** | | --- | --- | --- | --- | | 1 | Journal | Journal Canadien de la Communication | CJC | CA | 201502 | 1678 | | | 112 | Article | La Star de Toronto Congédie la Journaliste Claire Hoy, le Poursuit et des Chaînes de Télévision pour Diffamation | Vol 1, n ° 3 (1974) | CJC | CA | 201502 | 3 | | 112 | Article | La Star de Toronto Congédie la Journaliste Claire Hoy, le Poursuit et des Chaînes de Télévision pour Diffamation | Vol 1, n ° 3 (1974) | CJC | US | 201502 | 1 |
+| **ID** | **Type** | **Titre** | **Numéro** | **Journal** | **Pays** | **Mois** | **Compte** | 
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Journal | Journal Canadien de la Communication | CJC | CA | 201502 | 1678 |
+| 112 | Article | La Star de Toronto Congédie la Journaliste Claire Hoy, le Poursuit et des Chaînes de Télévision pour Diffamation | Vol 1, n ° 3 (1974) | CJC | CA | 201502 | 3 |
+| 112 | Article | La Star de Toronto Congédie la Journaliste Claire Hoy, le Poursuit et des Chaînes de Télévision pour Diffamation | Vol 1, n ° 3 (1974) | CJC | US | 201502 | 1 |
 
 D'après l'exemple ci-dessus, nous pouvons voir qu'en Février 2015, la page d'accueil principale de la revue CJC a été consultée 1 678 fois, et l'article «T La Star de Toronto ...» a été consulté 3 fois au Canada et une fois aux États-Unis.
 
@@ -209,7 +222,11 @@ L'exemple suivant nous fournira les décomptes des consultations de résumé d'a
 
 Dans les données ci-dessous, nous pouvons voir que le résumé de l'article «La Star de Toronto Congédie la Journaliste» a été téléchargé une fois le 4 mars 2018, tandis que l'article «Faire Exploser la Marque» a été téléchargé quatre fois en l'Allemagne le 22 mars 2018 et deux fois aux le États-Unis, le 4 mars 2018. (Notez la différence entre un type "Article", qui fait référence à la consultation du résumé, et le type "Épreuve ", qui fait référence à la consultation ou au téléchargement du fichier d'épreuve.)
 
-| **Type** | **Article** | **Numéro** | **Pays** | **Jour** | **Mois** | **Compte** | | --- | --- | --- | --- | | Article | La Star de Toronto Congédie la Journaliste Claire Hoy, le Poursuit et des Chaînes de Télévision pour Diffamation | Vol 1, n ° 3 (1974) | US | 20180304 | 201803 | 1 | | Épreuve | Faire Exploser la Marque: Perspectives Critiques sur la Culture Promotionnelle | Vie Numérique | DE | 20180322 | 201803 | 4 | | Épreuve | Faire Exploser la Marque: Perspectives Critiques sur la Culture Promotionnelle | Vie Numérique | US | 20180304 | 201803 | 2 |
+| **Type** | **Article** | **Numéro** | **Pays** | **Jour** | **Mois** | **Compte** | 
+| --- | --- | --- | --- | --- | --- | --- |
+| Article | La Star de Toronto Congédie la Journaliste Claire Hoy, le Poursuit et des Chaînes de Télévision pour Diffamation | Vol 1, n ° 3 (1974) | US | 20180304 | 201803 | 1 | 
+| Épreuve | Faire Exploser la Marque: Perspectives Critiques sur la Culture Promotionnelle | Vie Numérique | DE | 20180322 | 201803 | 4 |
+| Épreuve | Faire Exploser la Marque: Perspectives Critiques sur la Culture Promotionnelle | Vie Numérique | US | 20180304 | 201803 | 2 |
 
 ## Générer des Rapports: Exemples et Astuces
 
@@ -473,11 +490,19 @@ Ce script attend un paramètre d'accompagnement sous la forme d'un pointeur vers
 
 **Commandes à exécuter (OJS 2)**
 
-| **Processus** | **Commande** | | --- | --- | --- | --- | | Fichiers journaux OJS | php tools/runScheduledTasks.php plugins/generic/usageStats/schedulesTasks.xml | | Fichiers journaux OJS avec un processus de transfert automatisé | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksAutoStage.xml | | Fichiers journaux externes | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
+| **Processus** | **Commande** | 
+| --- | --- |
+| Fichiers journaux OJS | php tools/runScheduledTasks.php plugins/generic/usageStats/schedulesTasks.xml |
+| Fichiers journaux OJS avec un processus de transfert automatisé | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksAutoStage.xml | 
+| Fichiers journaux externes | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
 
 **Commandes à exécuter (OJS 3)**
 
-| **Processus** | **Commande** | | --- | --- | --- | --- | | Fichiers journaux OJS | php tools/runScheduledTasks.php lib/pkp/plugins/generic/usageStats/scheduledTasks.xml | | Fichiers journaux OJS avec un processus de transfert automatisé | php tools/runScheduledTasks.php lib/pkp/plugins/generic/usageStats/scheduledTasksAutoStage.xml | | Fichiers journaux externes | php tools/runScheduledTasks.php lib/pkp/plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
+| **Processus** | **Commande** |
+| --- | --- | 
+| Fichiers journaux OJS | php tools/runScheduledTasks.php lib/pkp/plugins/generic/usageStats/scheduledTasks.xml |
+| Fichiers journaux OJS avec un processus de transfert automatisé | php tools/runScheduledTasks.php lib/pkp/plugins/generic/usageStats/scheduledTasksAutoStage.xml | 
+| Fichiers journaux externes | php tools/runScheduledTasks.php lib/pkp/plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
 
 Une fois que vous avez configuré le plugiciel Acron ou une tâche cron, vos statistiques devraient commencer le traitement. Ils ne traitent qu'à des heures définies: une fois toutes les 24 heures si vous utilisez le plugiciel Acron et à n'importe quelle fréquence définie dans le travail cron, si cela est utilisé. Attendez ce laps de temps, puis vérifiez si les statistiques sont maintenant disponibles. Si ce n'est pas le cas, passez à la section Dépannage.
 
@@ -529,7 +554,11 @@ Le chargeur de fichiers est un outil de tâche planifiée, qui peut être pério
 
 **Processus de tâche du chargeur de fichiers:**
 
-| **#** | **Processus** | **Commande** | | --- | --- | --- | --- | | 1 | Fichiers journaux OJS | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasks.xml | | 2 | Fichiers journaux OJS avec un processus de transfert automatisé | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksAutoStage.xml | | 3 | Fichiers journaux externes | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
+| **#** | **Processus** | **Commande** | 
+| --- | --- | --- | 
+| 1 | Fichiers journaux OJS | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasks.xml | 
+| 2 | Fichiers journaux OJS avec un processus de transfert automatisé | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksAutoStage.xml | 
+| 3 | Fichiers journaux externes | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
 
 Cela doit être exécuté à partir du répertoire de base d'installation OJS.
 
