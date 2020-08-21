@@ -31,7 +31,7 @@ Utilisez les onglets pour accéder aux différentes sections des Paramètres de 
 
 Notez que le nom de l'éditeur saisi ici est utilisé pour les métadonnées mais ne sera pas affiché sur votre site. Pour afficher le nom de l'éditeur sur votre site, vous pouvez le saisir sous Paramètres de la Revue > Coordonnées > Adresse Postale. Vous pouvez également l'ajouter sous À Propos de la Revue ci-dessous.
 
-**ISSN** (Numéro International Normalisé des publications en Série) est un numéro à huit chiffres qui identifie les revues. Il est géré par un réseau mondial de Centres Nationaux coordonnés par un Centre International basé à Paris, soutenu par l'Unesco et le gouvernement Français. Un numéro peut être obtenu sur le [ site Web de l'ISSN ](http://www.issn.org/). Cela peut être fait à tout moment de l'exploitation de la revue.
+**ISSN** (Numéro International Normalisé des publications en Série) est un numéro à huit chiffres qui identifie les revues. Il est géré par un réseau mondial de Centres Nationaux coordonnés par un Centre International basé à Paris, soutenu par l'Unesco et le gouvernement Français. Un numéro peut être obtenu sur le [site Web de l'ISSN](http://www.issn.org/). Cela peut être fait à tout moment de l'exploitation de la revue.
 
 Les revues OJS ont généralement un ISSN en ligne, mais certaines peuvent également publier une version imprimée, ce qui nécessite un différent ISSN imprimé.
 
@@ -127,7 +127,7 @@ Appuyez sur le bouton **OK** lorsque vous avez terminé.
 
 ## Catégories
 
-Dans OJS 3.1.2, vous pouvez créer des catégories pour organiser vos articles en collections thématiques et fournir un autre moyen pour les lecteurs d'accéder à votre contenu. Les catégories peuvent être affichées sous forme de bloc de navigation sur votre site de revue et les lecteurs peuvent sélectionner une catégorie pour afficher tous les articles de cette catégorie. Vous pouvez placer un article dans une catégorie en modifiant ses métadonnées, ce qui est expliqué dans la [section Production du chapitre Paramètres Éditoriaux](./editorial-workflow.md#production) . Cette section explique comment créer et modifier des catégories.
+Dans OJS 3.1.2, vous pouvez créer des catégories pour organiser vos articles en collections thématiques et fournir un autre moyen pour les lecteurs d'accéder à votre contenu. Les catégories peuvent être affichées sous forme de bloc de navigation sur votre site de revue et les lecteurs peuvent sélectionner une catégorie pour afficher tous les articles de cette catégorie. Vous pouvez placer un article dans une catégorie en modifiant ses métadonnées, ce qui est expliqué dans la [section Production du chapitre Paramètres Éditoriaux](./editorial-workflow.md#production). Cette section explique comment créer et modifier des catégories.
 
 ![](./assets/learning-ojs3.1-categories-menu.png)
 

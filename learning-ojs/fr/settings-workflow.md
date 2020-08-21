@@ -1,5 +1,5 @@
 ---
-book: learning-ojs
+book: apprendre-ojs
 version: 3.2
 ---
 
