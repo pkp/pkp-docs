@@ -22,7 +22,7 @@ PKP has a Translation Coordinator who coordinates translators and translations a
 
 Larger language groups have a Language Moderator who coordinates translators and translations in that language and reports to the Translation Coordinator. The smaller language groups are coordinated directly by the Translation Coordinator.
 
-Anyone with fluency in multiple languages and some understanding of the software and scholarly publishing context is welcome to contribute to translation. We especially appreciate translators who can commit to maintaining a translation over the long term. If you have multilingual fluency but no experience with our software, please use the documentation resources noted above to learn about our software before you start translating. Additional resources are noted below under **Choosing the Right Words.**
+Anyone with fluency in multiple languages and some understanding of the software and scholarly publishing context is welcome to contribute to translation. We especially appreciate translators who can commit to maintaining a translation over the long term. If you have multilingual fluency but no experience with our software, please use the documentation resources noted above to learn about our software before you start translating. Additional resources are noted below under **Choose the Right Words.**
 
 If you’re interested in being a Language Moderator for a particular language, please contact  [documentation@publicknowledgeproject.org](mailto:documentation@publicknowledgeproject.org). Language Moderators are required to make a minimum 2-year commitment to moderating the language. Language moderators should have excellent translation skills and knowledge of PKP software, as they are responsible for reviewing the approving translations. They should also have a relationship with and understanding of the user community for the language, so they can effectively coordinate and recruit translators.
 
@@ -94,9 +94,10 @@ Click the en folder to see all of the chapter files in the document. You will al
 
 ![](./assets/translating-guide-gitlocalize-chapter-files.png)
 
-The chapter files will be listed in alphabetical order, but it might be easier for you to translate the files in their logical order. If so, you can open the guide in the [Docs Hub](https://docs.pkp.sfu.ca/index.html) to see what order the chapters are in and follow that order. 
+The chapter files will be listed in alphabetical order. Start by translating the SUMMARY.md file. After that you can translate the files in any order you want, but it might be easier for you to translate the files in their logical order. If so, you can open the guide in the [Docs Hub](https://docs.pkp.sfu.ca/index.html) to see what order the chapters are in and follow that order. 
 
-Whichever order you decide to follow, open the file you want to translate first. You will see a split-view editor, with the original text on the left. GitLocalize breaks the files down into translatable segments, automatically links the translation with the version in the source language, highlighting the sections that are missing translations. 
+Starting with the SUMMARY.md file, open the file. You will see a split-view editor, with the original text on the left. GitLocalize breaks the files down into translatable segments, automatically links the translation with the version in the source language, highlighting the sections that are missing translations. 
+
 If you click the text on the right, a text-editing box will appear with the original text in it. You can replace this text with translated text. Click **Submit** as you finish each part.
 
 ![](./assets/translating-guide-gitlocalize-translate-text-box.png)
@@ -115,7 +116,7 @@ You may find that the machine translator will skip some sections, which you will
 
 You will have to click **Submit** below each piece of text to confirm that the translation is complete. 
 
-#### Choosing the right words
+#### Choose the right words
 
 When translating software documentation, it's important to use terminology that is consistent with the software application and is commonly understood by users. There are a number of ways you can check this:
 - Check an installation of the software that the guide is about (e.g., OJS) with the language you are translating the document into installed and enabled. PKP maintains test drive demo sites for [OJS](https://pkp.sfu.ca/ojs/ojs_demo/), [OMP](https://pkp.sfu.ca/omp/omp_demo/), and [OPS](https://pkp.sfu.ca/ops/demo/). If your language is not installed here and you need assistance accessing an installation in your language, you can [Contact PKP](https://pkp.sfu.ca/contact-us/). 
