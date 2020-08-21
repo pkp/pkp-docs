@@ -7,15 +7,15 @@ version: 3.2
 
 OJS utilise un système de rôles intégral pour répartir le travail entre les utilisateurs, attribuer des flux de travaux, et limiter l'accès à différentes parties du système.
 
-Since one installation of OJS can host multiple journals, users can be enrolled in different roles for more than one journal. For example, one person could be both an editor and author for the same journal, as well as being only an author in one journal, a reviewer in another, and an editor in a third.
+Puisqu'une installation d'OJS peut héberger plusieurs revues, les utilisateurs peuvent être inscrits dans des rôles différents pour plusieurs revues. Par exemple, une personne peut être à la fois rédacteur/trice et auteur pour la même revue, mais aussi n'être qu'auteur dans une revue, évaluateur/trice dans une autre, et rédacteur dans une troisième.
 
-When a user logs into the system, they will be taken to their Dashboard. From here, they will see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow.
+Lorsqu'un utilisateur se connecte au système, il est redirigé vers son Tableau de Bord. De là, ils verront toutes les fonctions du système auquel ils ont accès. Par exemple, un-e Évaluateur/trice ne verra que la soumission qui lui a été affectée, tandis qu'un-e rédacteur/trice verra toutes les soumissions dans le flux des travaux éditorial.
 
 ## Rôles dans OJS
 
 Le flux des travaux d'OJS s'articule autour de différents rôles pour différents utilisateurs, leur permettant d'accéder à différentes parties du flux des travaux, et de différentes autorisations et responsabilités.
 
-Major roles include Site Administrator, Journal Manager, Editor, Section Editor, Author, Reviewer, Copyeditor, Layout Editor, Proofreader, and Reader.
+Les rôles principaux incluent l'Administrateur/trice de Site, le/la directeur/trice de la revue, le-a rédacteur/trice, rédacteur/trice de la rubrique, l'auteur, l'évaluateur/trice, le/la réviseur/euse, l'éditeur/trice de mise en page, le/la correcteur/trice d'épreuve , et le/la lecteur/trice.
 
 OJS 3 comprend également des rôles supplémentaires tels que Traducteur/trice et Designer. Vous pouvez également créer de nouveaux rôles ou renommer des rôles existants. Plus d'informations sur la configuration des rôles sont disponibles dans le [Chapitre Utilisateurs et Rôles](./users-and-roles.md) .
 
@@ -27,9 +27,9 @@ Voir le [Chapitre 4: Administration du Site](./site-administration.md) pour plus
 
 ### Directeur/trice de la Revue
 
-The Journal Manager is responsible for setting up the journal web site, configuring the system options, and managing the user accounts. This does not involve any advanced technical skills, but entails filling out web-based forms and uploading files.
+Le/la Directeur/trice de la Revue responsable de la configuration du site Web de la revue, de la configuration des options système, et de la gestion des comptes utilisateurs. Cela n'implique aucune compétence technique avancée, mais implique le remplissage de formulaires sur Web et le téléversement de fichiers.
 
-The Journal Manager also enrolls the Editors, Section Editors, Copyeditors, Layout Editors, Proofreaders, Authors, and Reviewers.
+Également, le/la Directeur/trice de la Revue inscrit les rédacteurs, les rédacteurs de rubrique, les réviseurs, les éditeurs de mise en page, les correcteurs d'épreuve ,  les auteurs, et les évaluateurs.
 
 Le/la Directeur/truce de la Revue a également accès aux autres fonctionnalités de gestion de la revue, et peut créer de nouvelles Sections pour la revue, configurer des formulaires d'évaluation, modifier les emails par défaut, accéder les statistiques et les rapports, importer et exporter des données, et accéder au flux des travaux éditorial et à toutes les soumissions de revue.
 
@@ -43,31 +43,31 @@ L'auteur est en mesure de suivre la soumission tout au long du processus d'éval
 
 Voir le [Chapitre Soumission](./authoring.md) pour plus de détails.
 
-### Editor
+### Rédacteur
 
-The Editor oversees the entire review, editing and publishing process. The Editor, working with the Journal Manager, typically establishes the policies and procedures for the journal.
+Le rédacteur  supervise l'ensemble du processus d'évaluation, de rédaction et de publication. Le rédacteur , en collaboration avec le/la directeur/trice de la revue, établit généralement les règles et procédures de la revue.
 
-In the editorial process, the Editor assigns submissions to the Section Editors to see through Submission Review and Submission Editing. The Editor keeps an eye on the submission's progress and assists with any difficulties.
+Dans le processus éditorial, le rédacteur  attribue les soumissions aux rédacteurs  de rubrique  pour avoir accès et vérifier l'évaluation et la rédaction des soumissions. Le rédacteur garde un œil sur les progrès de la soumission et assiste en cas de difficultés.
 
-Once review is completed, the Editor typically sees the submission through the Editing process (including copyediting, production, and proofreading) although in some journals this remains the responsibility of the Section Editor in charge of the submission's review process.
+Une fois l'évaluation terminée, le rédacteur voit généralement la soumission à travers le processus de rédaction (y compris la révision, la production et la correction d'épreuve) bien que dans certaines revues, cela reste la responsabilité de l'éditeur de section en charge du processus d'évaluation de la soumission.
 
-The Editor also creates the journal issues, schedules submissions for publication, arranges the Table of Contents, and publishes the issue as part of the Publishing Process. The Editor can restore archived submissions to the active In Review or In Editing lists.
+Le rédacteur crée également les numéros de revue, planifie les soumissions pour publication, organise la table des matières et publie le numéro dans le cadre du processus de publication. Le rédacteur peut restaurer les soumissions archivées dans les listes actives En Évaluation ou En Rédaction.
 
-Editors can also access journal settings, users and roles, and tools.
+Les rédacteurs peuvent également accéder aux paramètres de la revue, aux utilisateurs, aux rôles et aux outils.
 
 Voir le [Chapitre Flux des Travaux Éditorial](./editorial-workflow.md) pour plus de détails.
 
-### Section Editor
+### Rédacteur de rubrique
 
-The Section Editor manages the review and editing of submissions to which they have been assigned. In some cases, a Section Editor who is assigned to see submissions through the Review Process will also be responsible for seeing the submissions that are accepted through the Editing process (that is, through copyediting, production, and proofreading).
+Les rédacteurs de rubrique gère l'évaluation et la redaction des soumissions auxquelles ils ont été attribuées. Dans certains cas, un rédacteur de rubrique qui est chargé de voir les soumissions via le processus d'évaluation sera également responsable de voir les soumissions qui sont acceptées par le processus de rédaction (c'est-à-dire par la révision, la production et la correction).
 
-Often, however, Section Editors only work with the review process, and an Editor, acting in the role of Section Editor, sees the submissions through the Editing process. The journal will have a policy on how the tasks are divided.
+Souvent, cependant, les rédacteurs de rubrique ne travaillent qu'avec le processus de rédaction, et un rédacteur, agissant dans le rôle de rédacteur de rubrique, voit les soumissions à travers le processus de rédaction. La revue aura des règles à propos de la répartition des tâches.
 
-See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
+Voir le [Chapitre Flux des travaux éditoriaux](./editorial-workflow.md) pour plus de détails.
 
 ### Évaluateur/trice
 
-The Reviewer is selected by the Editor or Section Editor to review a submission. Reviewers are asked to submit reviews to the journal's website and are able to upload attachments for the use of the Editor and Author. Reviewers may be rated by Section Editors, again depending on the policies for this journal.
+L'évaluateur/trice est sélectionné-e par le rédacteur  ou le rédacteur de rubrique pour évaluer une soumission. Les évaluateurs sont invités à soumettre des évaluations sur le site Web de la revue et peuvent télécharger des pièces jointes pour le rédacteur et l'auteur. Les évaluateurs peuvent être notés par les rédacteurs de rubrique, encore une fois en fonction des règles de cette revue.
 
 Voir le [Chapitre d'Évaluation](./reviewing.md) pour plus de détails.
 
@@ -75,7 +75,7 @@ Voir le [Chapitre d'Évaluation](./reviewing.md) pour plus de détails.
 
 Le/la réviseur/euse modifie les soumissions pour améliorer la grammaire et la clarté, travaille avec les auteurs pour s'assurer que tout est en place, garantit le strict respect du style bibliographique et textuel de la revue et produit une copie propre et éditée pour qu'un éditeur de mise en page ou un assistant de production la transforme en épreuves qui seront dans le format de publication de la revue.
 
-Some journals have an Editor or Section Editor play this role.
+Certaines revues ont un rédacteur ou un éditeur de section qui joue ce rôle.
 
 Voir le [Chapitre Flux des travaux Éditorial](./editorial-workflow.md) pour plus de détails.
 
@@ -90,11 +90,11 @@ Dans certains cas, l'éditeur/trice ou l'éditeur/trice de section fera égaleme
 
 Voir le [Chapitre Flux des Travaux Éditorial](./editorial-workflow.md) pour plus de détails.
 
-### Proofreader
+### Correcteur/trice d'épreuve
 
 Le/la correcteur/trice lit attentivement les épreuves dans les différents formats dans lesquels la revue publie (tout comme l'auteur). Le/la correcteur/trice (et l'auteur) enregistrent toutes les erreurs typographiques et de formatage que l'éditeur/trice de mise en page doit corriger.
 
-In the case of some journals, the Editor or Section Editor will also serve as Proofreader.
+Dans le cas de certaines revues, le rédacteur  ou le rédacteur de rubrique fera également office de correcteur/trice.
 
 Voir le [Chapitre Flux des Travaux Éditorial](./editorial-workflow.md) pour plus de détails.
 
@@ -120,7 +120,7 @@ Tous les champs avec un astérisque (Prénom, Nom, Affiliation, Pays, Email, Nom
 
 Vous serez automatiquement enregistré en tant que lecteur/trice et auteur. Vous aurez également la possibilité de vous inscrire en tant qu'Évaluateur/trice.
 
-You will not be able to self-register for an Editorial Role (e.g., Editor, Section Editor, Copyeditor, Layout Editor, Proofreader, or Journal Manager). If you need to be enrolled at that level, contact a current Journal Manager or Site Administrator.
+Vous ne pourrez pas vous inscrire vous-même pour un rôle éditorial (par exemple, rédacteur,redacteur/trice de rubrique, réviseur/euse, éditeur/trice de mise en page, correcteur/trice d'épreuve, ou directeur/trice de la revue). Si vous devez être inscrit à ce niveau, contactez un-e directeur/trice de la revue ou un administrateur de site actuel.
 
 <hr>
 
