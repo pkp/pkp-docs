@@ -31,7 +31,7 @@ Utilisez les onglets pour accéder aux différentes sections des Paramètres de 
 
 Notez que le nom de l'éditeur saisi ici est utilisé pour les métadonnées mais ne sera pas affiché sur votre site. Pour afficher le nom de l'éditeur sur votre site, vous pouvez le saisir sous Paramètres de la Revue > Coordonnées > Adresse Postale. Vous pouvez également l'ajouter sous À Propos de la Revue ci-dessous.
 
-**&nbsp;ISSN ** (Numéro International Normalisé des publications en Série) est un numéro à huit chiffres qui identifie les revues. Il est géré par un réseau mondial de Centres Nationaux coordonnés par un Centre International basé à Paris, soutenu par l'Unesco et le gouvernement Français. Un numéro peut être obtenu sur le [ site Web de l'ISSN ](http://www.issn.org/). Cela peut être fait à tout moment de l'exploitation de la revue.
+**ISSN** (Numéro International Normalisé des publications en Série) est un numéro à huit chiffres qui identifie les revues. Il est géré par un réseau mondial de Centres Nationaux coordonnés par un Centre International basé à Paris, soutenu par l'Unesco et le gouvernement Français. Un numéro peut être obtenu sur le [ site Web de l'ISSN ](http://www.issn.org/). Cela peut être fait à tout moment de l'exploitation de la revue.
 
 Les revues OJS ont généralement un ISSN en ligne, mais certaines peuvent également publier une version imprimée, ce qui nécessite un différent ISSN imprimé.
 
