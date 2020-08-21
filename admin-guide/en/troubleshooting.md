@@ -6,14 +6,52 @@
 
 It is difficult to prescribe exact steps towards setting proper file permissions, as so much depends on the server's operating system, web server, and PHP setup.
 
+In general, you want your permissions set such that your webserver can read and write (recursively) to the `config.inc.php` `files_dir`, and to `cache/`, and `public/`. Optionally, for added features and reduced security, you can enable write to `config.inc.php`, to `plugins/` and perhaps to the locale `.xml` files. Your webserver should have read-only access to all other files and directories distributed in the package.
+
 Start by checking which server API PHP uses on your server. If OJS, OMP, or OCS is already installed, log in as Site Administrator, click "System Information", and at the bottom of the page, click "Extended PHP Information". Find the line that says "Server API". Depending on which API you are using \(mod\_php/SAPI or CGI/FastCGI\), permissions should be set as follows.
 
 * mod\_php/SAPI: In this configuration, all PHP scripts on the system typically execute as the same user \(usually Apache's "nobody" or "www-data" accounts\). Be warned that this may be insecure on a shared host. The files\_dir \(configured in config.inc.php\), the cache directory, the public directory, and all contents and subdirectories must be writable and readable by the web server user. The config.inc.php configuration file must be readable by the web server user.
 * CGI/FastCGI: In this configuration, PHP scripts will typically run under your user account \(though server configurations may vary\). This can be a well-secured configuration. The files\_dir \(configured in config.inc.php\), the cache directory, the public directory, and all contents and subdirectories must be writable and readable by this user account. The config.inc.php configuration file must be readable by this account.
 
+#### How does Linux do this?
+
+In Linux, permissions are based both on a numeric access control mode, and on file ownership 63. Understanding this permissions scheme is a prerequisite.
+
+For example, ownership of `apache:www` with permissions of `750` (`rwxr-x---`) means that the apache user can read, write and execute; anyone with the `www` group can read or execute; and the file is protected against access by anyone else. Note that “execute” means two entirely different things for directories than for files!
+
+##### An Example (for dedicated hosting)
+
+Generally, the ownership of `cache/`, `public/`, and other web-writable directories should be your web user and the web-user’s primary group, for example `apache:www-data`. Permissions should probably be `750`.
+
+The ownership of the other non-web-writable directories should be your user, with either the web user’s group, or with public execute permissions. For example:
+
+`myuser:www-data` with `750`
+
+or
+
+`myuser:ourgroup` with `755`
+
+Web-writable files would be the same, but without the execute permission:
+
+`apache:www-data` with `640`
+
+Non-web-writable files would be perhaps:
+
+`myuser:www-data` with `640`
+
+or
+
+`myuser:ourgroup` with `644`
+
+#### But What about Shared Hosts?
+
+With some shared hosts (for example, if your only access is via cPanel or a similar web-based admin tool), you may not have the ability to change the file ownership, and your webserver is effectively running as your user. In that case, you may still have the ability to protect your files by making them non-writable by your own user (even though this sounds counter-intuitive). In a shared host, you will almost certainly want to deny world permissions to your files, but look to the documentation and support for your host in particular.
+
+#### A Note on Security Configurations
+
 Because security configurations can vary, and because of the volume of requests for support we receive regarding file permissions, we will only be able to provide limited help with these issues. Please be as specific as possible when posting about permissions issues.
 
-PHP Safe Mode is not a recommended configuration and may not function properly. This is because in some configurations it will cause PHP's mkdir\(\) function to create directories that cannot thereafter be read or written because of file permissions. This is a limitation of Safe Mode and may prevent you from using OJS in a Safe Mode environment.
+PHP Safe Mode is not a recommended configuration and may not function properly. This is because in some configurations it will cause PHP's `mkdir()` function to create directories that cannot thereafter be read or written because of file permissions. This is a limitation of Safe Mode and may prevent you from using OJS in a Safe Mode environment.
 
 ### HTML Galleys don't display properly / files I upload aren't being identified properly.
 
