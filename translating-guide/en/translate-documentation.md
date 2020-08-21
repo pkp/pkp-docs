@@ -22,13 +22,13 @@ PKP has a Translation Coordinator who coordinates translators and translations a
 
 Larger language groups have a Language Moderator who coordinates translators and translations in that language and reports to the Translation Coordinator. The smaller language groups are coordinated directly by the Translation Coordinator.
 
-Anyone with translation expertise and some understanding of the software and context is welcome to contribute to translation. We especially appreciate translators who can commit to maintaining a translation over the long term.
+Anyone with fluency in multiple languages and some understanding of the software and scholarly publishing context is welcome to contribute to translation. We especially appreciate translators who can commit to maintaining a translation over the long term. If you have multilingual fluency but no experience with our software, please use the documentation resources noted above to learn about our software before you start translating. Additional resources are noted below under **Choosing the Right Words.**
 
 If you’re interested in being a Language Moderator for a particular language, please contact  [documentation@publicknowledgeproject.org](mailto:documentation@publicknowledgeproject.org). Language Moderators are required to make a minimum 2-year commitment to moderating the language. Language moderators should have excellent translation skills and knowledge of PKP software, as they are responsible for reviewing the approving translations. They should also have a relationship with and understanding of the user community for the language, so they can effectively coordinate and recruit translators.
 
 ## Get Started
 
-To get started translating PKP software documentation, you can follow the instructions in this guide. You only need to contact the Translation Coordinator or your Language Moderator if you have questions. You can also get support for translation in the [PKP Community Forum](https://forum.pkp.sfu.ca/c/questions/translations/12).
+To get started translating PKP software documentation, you can follow the instructions in this guide. If you have questions you can contact the Translation Coordinator or your Language Moderator. You can also talk to other PKP translators and ask questions in the [PKP Community Forum](https://forum.pkp.sfu.ca/c/translations/12).
 
 To use GitLocalize for translation, you need to have a GitHub account and be logged in. If you do not already have an account, register on GitHub.
 
@@ -56,13 +56,11 @@ You can ask the language moderator for your language if they know of any documen
 
 #### The size of translation project you want to do right now
 
-Think about how much time you can commit to this current translation project. Once you begin a translation project, it is best to finish it within one week.
+Think about how much time you can commit to this current translation project. Once you begin a translation project, it is best to finish it within one or two weeks.
 
 Documents vary in size. A few documents, like Learning OJS, have more than 10 chapters and some chapters are quite long. However, most documents have approximately 5 chapters that are 1-3 pages each.
 
-You do not have to translate an entire document. Translation is done in chapter files and paragraphs, so you can choose to only translate a chapter or even only a few paragraphs in a chapter. You may find a document that is mostly translated and only needs a small part of it translated.
-
-However, if there is an entirely un-translated document, it is best if you can commit to translating the whole document or at least a thematic section of it.
+Translation is done in chapter files and paragraphs, so you can choose to only translate a chapter or even only a few paragraphs in a chapter. You may find a document that is mostly translated and only needs a small part of it translated. However, if there is an entirely un-translated document, it is best if you can commit to translating the whole document or at least a thematic section of it. The translation will not be published until the entire document (all files/chapters) have been translated.
 
 You can open each document to see how long it is and what parts of it need to be translated. When you first open the document, you will see the “en” folder and an index file.
 
@@ -84,7 +82,7 @@ In this example the guide has been translated.
 
 If there is a document that is completely or mostly untranslated, you can also open it in the [Docs Hub](https://docs.pkp.sfu.ca/index.html) to see how long it is and what content it contains.
 
-## Start Translating
+### Start Translating
 
 Once you decide on a project, you can start translating.
 
@@ -103,7 +101,7 @@ If you click the text on the right, a text-editing box will appear with the orig
 
 ![](./assets/translating-guide-gitlocalize-translate-text-box.png)
 
-### Machine translation
+#### Machine translation
 
 You can also use the machine translation tool to get machine translation assistance. 
 
@@ -117,17 +115,18 @@ You may find that the machine translator will skip some sections, which you will
 
 You will have to click **Submit** below each piece of text to confirm that the translation is complete. 
 
-### Glossary
+#### Choosing the right words
 
-PKP software translators maintain glossaries on a per-language basis of standard translations of technical terms. You should try to use the same translations when possible. You can check the glossaries in the [software translation tool](https://translate.pkp.sfu.ca/dictionaries/pkp-lib/). 
+When translating software documentation, it's important to use terminology that is consistent with the software application and is commonly understood by users. There are a number of ways you can check this:
+- Check an installation of the software that the guide is about (e.g., OJS) with the language you are translating the document into installed and enabled. PKP maintains test drive demo sites for [OJS](https://pkp.sfu.ca/ojs/ojs_demo/), [OMP](https://pkp.sfu.ca/omp/omp_demo/), and [OPS](https://pkp.sfu.ca/ops/demo/). If your language is not installed here and you need assistance accessing an installation in your language, you can [Contact PKP](https://pkp.sfu.ca/contact-us/). 
+- PKP software translators maintain glossaries on a per-language basis of standard translations of technical terms. You can check the glossaries in the [software translation tool](https://translate.pkp.sfu.ca/dictionaries/pkp-lib/) on the language page, and if you create a Weblate account you can add terms to the glossary.
+- You can post questions about terminology in the [PKP Community Forum](https://forum.pkp.sfu.ca/c/translations/12), which is a community discussion space for PKP translators. You will need to register to post a question.
 
-You can also check a translated installation of OJS, OMP, or OPS to see what terms are used in the application itself. 
+#### Screenshots
 
-### Screenshots
+You will see screenshots as you are translating, but you can ignore them. PKP is developing an automatic process to generate screenshots for translations.
 
-You will see screenshots as you are translating, but you can ignore them. PKP has an automatic process to generate screenshots for translations.
-
-## Create Review Request
+### Create Review Request
 
 When you have finished translating the chapter and clicked **Submit** below each piece of text, the next step is to request a review of the translation to the language moderator.
 
@@ -155,9 +154,11 @@ You can also visit GitLocalize to see if there have been updates that need to be
 
 ![](./assets/translating-guide-gitlocalize-translation-update.png)
 
-Usually updates will consist of small changes, such as a change to a paragraph, a new paragraph or section, and/or updated screenshots. Sometimes changes will be larger, like a new chapter or substantial changes to the text and/or screenshots.
+If the document shows a status of "Conflict," like in the example below, it probably means the document was translated outside of GitLocalize and so the relationships between the original text and translated text have not been defined. See the section below on "Update a Document Translated Outside of GitLocalize" for further information. 
 
-Usually if a document changes substantially, the DIG will release a new version of it and maintain the old version. 
+![](./assets/translating-guide-gitlocalize-conflict.png)
+
+Usually updates will consist of small changes, such as a change to a paragraph, a new paragraph or section, and/or updated screenshots. Sometimes changes will be larger, like a new chapter or substantial changes to the text and/or screenshots. Usually if a document changes substantially, the DIG will release a new version of it and maintain the old version. 
 
 To update the translation, open the guide and find the chapter that needs to be updated, which will not be 100% translated.
 
@@ -171,6 +172,23 @@ Translate that text, using machine translation tools as desired, and click **Sub
 
 Click **Create Review Request** when you have finished translating the updates.
 
+### Update a Document Translated Outside of GitLocalize
+
+Some PKP documents were translated before GitLocalize was adopted. These translations have been moved into GitLocalize but the translated segments of text need to be manually connected to the original segments of text. Until the segments are connected, the document will show as having "conflicts." 
+
+To update these translations you can follow the instructions above. Please note that because these documents were translated in the past, there may be a number of significant changes and new segments that need to be translated. 
+
+In addition to updating the translation, you will need to connect any segment tinted red to its original segment. This includes screenshots.
+
+![](./assets/translating-guide-gitlocalize-segment-conflict.png)
+
+1. Click on the segment highlighted in red
+2. You will see a message that says "A source segment for this translation is missing. Please link to a segment on the left or delete this translation if it is outdated." and a button below it to "Link to a segment."
+3. Click the **Link to a segment** button. A line will appear.
+4. Move to the line to the segment on the left that is the original text of the translated text on the right. Click in the original text segment.
+
+Do this for the rest of the red segments on the page.
+
 ## Improve a Document Translation
 
 If a document has already been translated but you think the translation needs to be improved, you can edit an existing translation. 
@@ -183,7 +201,7 @@ When you are finished, follow the instructions under **Create Review Request**.
 
 ## Translate without GitLocalize
 
-If you do not want to use GitLocalize to translate PKP documentation, your other option is to translate the markdown files, maintaining markdown formatting, and submit your translation directly in the [pkp-docs repository](https://github.com/pkp/pkp-docs) in GitHub. Please note, this method is less preferred because the translation will need to be pulled into GitLocalize and the Translation Coordinator will have to manually associate each translated section of text with the original text.
+If you do not want to use GitLocalize to translate PKP documentation, your other option is to translate the markdown files, maintaining markdown formatting, and submit your translation directly in the [pkp-docs repository](https://github.com/pkp/pkp-docs) in GitHub. Please note, this method is less preferred because the translation will need to be pulled into GitLocalize and the Translation Coordinator or a future translator will have to manually associate each translated segment of text with the original text.
 
 To understand how documents in pkp-docs are structured and how to create and edit documents, read the [Guidelines for Contributing to PKP Documentation](/contributing/en/).
 
@@ -203,4 +221,8 @@ Click on the review request to open it. The **Conversation** tab will show any c
 
 ![](./assets/translating-guide-gitlocalize-review-translated-texts.png)
 
-If you want to suggest changes to the translator or ask a question, reply in the Conversation tab. If you are happy with the translation, you can go back to the Conversation tab and click Send Pull Request. This will send a pull request to the pkp-docs GitHub repository, to be merged. You will receive an email notification once it is merged. The translation will be available in the Docs Hub the next time the website is built, which could be in a few days or a week.
+If you want to suggest changes to the translator or ask a question, reply in the Conversation tab. If you are happy with the translation, you can go back to the Conversation tab and click Send Pull Request. You will be asked to enter a Title and Description for your pull request. The title should include the name of the file or files that are included in the translation pull request and the language that they were translated into. For example, "French translation of Learning OJS - Website Settings." The Description can be the same or you can add further information as needed.
+
+This will send a pull request to the pkp-docs GitHub repository, to be merged. You will receive an email notification once it is merged. The translation will be available in the Docs Hub the next time the website is built, which could be in a few days or a week.
+
+There is a bug in GitLocalize that will sometimes display a link to "Create Review Request" after you have gone through all of the above steps and there is nothing new to review. If you encounter this, please ignore it.

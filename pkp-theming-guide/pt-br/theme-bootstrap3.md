@@ -1,5 +1,5 @@
 # Tema Bootstrap3
-O [Bootstrap 3](http://getbootstrap.com/) é um framework de HTML, CSS e JavaScript muito popular para desenvolvimento de aplicações _web_ responsivas e _mobile-first_. Devido à sua popularidade muitos desenvolvedores estão familiarizados com as técnicas de HTML, CSS e JavaScript utilizados neste _framework_.
+O [Bootstrap 3](https://getbootstrap.com/docs/3.4/) é um framework de HTML, CSS e JavaScript muito popular para desenvolvimento de aplicações _web_ responsivas e _mobile-first_. Devido à sua popularidade muitos desenvolvedores estão familiarizados com as técnicas de HTML, CSS e JavaScript utilizados neste _framework_.
 
 O [tema Bootstrap3 ](https://github.com/NateWr/bootstrap3) é um esforço da comunidade em fornecer um tema base desenvolvido utilizando estas técnicas. Ele implementa um tema de periódico em OJS utilizando o código  _markup_ HTML principal do bootstrap e fornece um bom número de estilos de terceiros prontos para uso no tema Bootstrap3.
 
@@ -29,7 +29,7 @@ Cada uma das amostras é liberada sob uma licença compatível com GPL. Há milh
 
 
 ## Explorando o Bootstrap
-Sendo o Bootstrap apenas um tema base ele demandará um pouco de trabalho para a implementação de temas com visual mais requintado. Recomenda-se que, caso você esteja trabalhando com estes arquivos,  esteja familiarizado com ambos os elementos de [Bootstrap 3](http://getbootstrap.com/getting-started/) e [LESS](http://lesscss.org/features/). 
+Sendo o Bootstrap apenas um tema base ele demandará um pouco de trabalho para a implementação de temas com visual mais requintado. Recomenda-se que, caso você esteja trabalhando com estes arquivos,  esteja familiarizado com ambos os elementos de [Bootstrap 3](https://getbootstrap.com/docs/3.4/getting-started/) e [LESS](http://lesscss.org/features/). 
 
 
 Inicialmente explore o arquivo de variáveis do Bootstrap básico:

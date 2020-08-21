@@ -1,6 +1,6 @@
 # Getting Started
 
-Most of PKP’s documentation is hosted and managed in a GitHub repository called the PKP Documentation Hub and is built using an open-source tool called [Jekyll](https://jekyllrb.com/). GitHub is a collaborative version control system that manages and stores revisions of a project. To learn more about GitHub and Git, [see this video](https://www.youtube.com/watch?v=uUuTYDg9XoI).
+Most of PKP’s documentation is hosted and managed in a GitHub repository called the PKP Documentation Hub and is built using an open-source tool called [Jekyll](https://jekyllrb.com/). GitHub is a collaborative version control system that manages and stores revisions of a project. To learn more about GitHub and Git, watch this ["What Is Git and Github?" video](https://www.youtube.com/watch?v=uUuTYDg9XoI) or this ["Git and Github for Poets" video](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV).
 
 The content files that make up PKP’s documentation are stored in the [Documentation Hub repository](https://github.com/pkp/pkp-docs) and anyone with a GitHub account can edit and add documents to the repository. This chapter explains the important things you will need to know when working on GitHub.
 

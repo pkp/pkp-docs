@@ -22,3 +22,4 @@
   * [Publication Ethics](./getting-found-strengthening.md#publication-ethics)
   * [Further Reading](./getting-found-strengthening.md#further-reading)
 * [Appendix 1: DOAJ Application Guide for OJS Journals](./getting-found-appendix-1-DOAJ.md)
+* [Appendix 2: Google Scholar Indexing](./getting-found-appendix-2-google-scholar.md)
