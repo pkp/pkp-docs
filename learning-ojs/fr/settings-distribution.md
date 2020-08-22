@@ -9,7 +9,7 @@ Les paramètres de distribution se concentrent sur l'accès et la visibilité de
 
 Veuillez noter que si votre journal est multilingue et que les formulaires sont activés pour plusieurs langues dans les paramètres de langue, vous devrez configurer certaines de ces informations pour chaque langue. Vous pouvez passer à une autre langue en sélectionnant la langue sous le lien Aide en haut à droite.
 
-## License
+## Licence
 
 Dans cette section, vous pouvez configurer les conditions des droits d'auteur et de licence pour le contenu de votre revue.
 
@@ -21,15 +21,15 @@ Dans cette section, vous pouvez configurer les conditions des droits d'auteur et
 
 La licence que vous sélectionnez sera automatiquement ajoutée aux métadonnées de chaque article et affichée sur la page d'article de chaque article publié.
 
-**Copyright Year**: Select whether you want the copyright year to come by default from the article's publication date or the issue's publication date.
+**Année du copyright**: indiquez si vous souhaitez que l'année du droit d'auteur provienne par défaut de la date de publication de l'article ou de la date de publication du numéro.
 
 Si vous utilisez un modèle de publication continue, sélectionnez la date de publication de l'article. Si vous utilisez un modèle de publication traditionnel basé sur les numéros, sélectionnez la date de publication du numéro.
 
 Ces paramètres par défaut peuvent être remplacée au cas par cas.
 
-**License Terms**: Enter any additional license terms you would like to display alongside the license selected above on the published article page.
+**Termes de la Licence**: saisissez les conditions de licence supplémentaires que vous souhaitez afficher à côté de la licence sélectionnée ci-dessus sur la page de l'article publié.
 
-## Search Indexing
+## Indexation par les moteurs de recherche
 
 Cette section vous aide à améliorer l'optimisation de votre moteur de recherche et à rendre votre contenu plus visible.
 
@@ -61,7 +61,7 @@ Sélectionnez le mode de paiement des frais que vous utiliserez sous **Plugiciel
 
 Si vous sélectionnez **Paiement des Frais par PayPal** , des champs supplémentaires apparaîtront.
 
-To accept PayPal payments, you will need to go to Website Settings > Plugins and enable the PayPal Plugin, then do additional setup and configuration explained in the [PayPal Plugin Guide](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/). Through this process you will get the values for the **Account Name**, **Client ID**, and **Secret** fields.
+Pour accepter des paiement PayPal, vous devrez allez à Paramètres Site Web > Plugiciels et activer le Plugiciel PayPal, puis effectuez l'installation et la configuration supplémentaires expliquées dans le [Guide de Plugiciel PayPal](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/). Grâce à ce processus, vous obtiendrez les valeurs des champs **Nom de Compte**, **ID du Client**, et **Clé secrète**.
 
 ![](./assets/learning-ojs3.2-jm-settings-dist-paypalsettings.png)
 
