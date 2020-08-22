@@ -23,7 +23,7 @@ Vous pouvez modifier un compte utilisateur en sélectionnant la flèche bleue à
 
 ![](./assets/learning-ojs3.1-jm-users-edit.png)
 
-This opens the options to Email, Edit User, Disable, Remove, Login As, Merge User.
+Cela ouvre les options Email, Modifier l'Utilisateur, Désactiver, Supprimer, connexion sous , Fusionner l'Utilisateur.
 
 #### Utilisateurs d'Email
 
@@ -31,7 +31,7 @@ Si vous souhaitez envoyer un email à un utilisateur à propos d'une soumission 
 
 Pour envoyer un email à un utilisateur qui n'est pas lié à une soumission:
 
-1. In the Journal Manager or Editor’s dashboard, go to Users & Roles > Users
+1. Dans le tableau de bord du/de la directeur/trice de la revue ou du rédacteur, allez à Utilisateurs et Rôles > Utilisateurs
 2. Trouvez l'utilisateur à qui vous souhaitez envoyer un e-mail
 3. Cliquez sur la flèche bleue à côté du nom de l'utilisateur pour afficher les liens en dessous
 4. Cliquez sur Email. Une boîte de dialogue apparaîtra dans laquelle vous pouvez taper votre message et l'envoyer
@@ -40,7 +40,7 @@ Pour envoyer un email à un utilisateur qui n'est pas lié à une soumission:
 
 Vous ne pouvez pas envoyez un email à plusieurs utilisateurs à la fois sauf en utilisant la fonction d'Annonces. Voir le [Chapitre Paramètres de Flux des Travaux](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow) pour des instructions sur comment onvoyer des annonces. Il n'est pas non plus possible d'envoyer un message à tous les utilisateurs dans un rôle, comme tous les évaluateurs enregistrés sur votre site.
 
-If you want to email multiple users or all users in a single role on a regular basis, you can use an external email marketing application such as Mailchimp. User records can be exported in XML using Tools > Import/Export > Users XML Plugin or an Administrator can export them from the database in CSV.
+Si vous souhaitez envoyer régulièrement un email à plusieurs utilisateurs ou à tous les utilisateurs d'un même rôle, vous pouvez utiliser une application de marketing par email externe telle que Mailchimp. Les enregistrements d'utilisateur peuvent être exportés au format XML en utilisant Outils > Importer/Exporter > Plugiciel Users XML ou un administrateur peut les exporter de la base de données au format CSV.
 
 Il n'est actuellement pas possible d'ajouter des adresses cc ou cci aux messages ou d'ajouter des pièces jointes aux messages. Pour envoyer des pièces jointes, vous pouvez utiliser la fonction de Discussion ou la Bibliothèque de Soumission.
 
@@ -52,7 +52,7 @@ Il n'est actuellement pas possible d'ajouter des adresses cc ou cci aux messages
 
 **Supprimer** désinscrit l'utilisateur de tous les rôles dans la revue, mais le compte utilisateur reste dans le système. La seule façon de supprimer réellement un compte utilisateur de votre système est de **Fusionner les Utilisateurs** (voir ci-dessous).
 
-**Login As** allows you to temporarily log in as that user, for example, to complete an outstanding task.
+**Connexion sous** vous permet de vous connecter temporairement en tant que cet utilisateur, par exemple, pour terminer une tâche en cours.
 
 #### Fusionner l'Utilisateur
 
@@ -113,7 +113,7 @@ Sur les installations multi-revues, un-e administrateur/trice peut enregistrer u
 
 Si un-e utilisateur/trice ne peut pas se connecter à votre site de revue, dites-lui de sélectionner **Mot de passe oublié** sur la page de connexion. Ils recevront alors un lien de réinitialisation du mot de passe par e-mail et pourront réinitialiser leur mot de passe.
 
-If the user has further issues, a Journal Manager or Editor can do the following:
+Si l'utilisateur/trice a d'autres problèmes, un-e Directeur/trice de Revue ou un rédacteur  peut effectuer les opérations suivantes:
 
 1. Allez dans Utilisateurs et Rôles > Utilisateurs
 2. Trouvez l'utilisateur/trice qui ne peut pas se connecter et cliquez sur la flèche bleue à côté de son nom
@@ -135,9 +135,9 @@ Si l'utilisateur/trice ne parvient toujours pas à se connecter, son compte a pe
 
 Les utilisateurs du système doivent avoir un ou plusieurs rôles.
 
-Roles define what a user can do within the system. An Author can make submissions and little else. An Editor can manage submissions, and a Journal Manager can configure the journal's settings. See the [User Accounts chapter](https://docs.pkp.sfu.ca/learning-ojs/en/user-accounts#roles-in-ojs) for a list and description of every role.
+Les rôles définissent ce qu'un-e utilisateur/trice peut faire dans le système. Un auteur peut faire des soumissions et rien d'autre. Un-e rédacteur/trice peut gérer les soumissions et un-e directeur/trice de revue peut configurer les paramètres du journal. Voir le [Chapitre Comptes d'Utilisateurs](https://docs.pkp.sfu.ca/learning-ojs/en/user-accounts#roles-in-ojs) pour une liste et une description de chaque rôle.
 
-One user can have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
+Un utilisateur peut avoir plusieurs rôles, par exemple, être un-e directeur/trice, un-e rédacteur/trice et un-e auteur dans la même revue.
 
 Voici un exemple des rôles et des niveaux d'autorisation respectifs dans un flux des travaux de revue typique:
 
@@ -167,7 +167,7 @@ Le niveau Assistant-e de Revue peut communiquer avec d'autres utilisateurs et t�
 
 Utilisez la deuxième option pour déterminer si les utilisateurs peuvent s'inscrire eux-mêmes dans ce rôle. Les auteurs et les évaluateurs sont de bons candidats pour l'auto-inscription. Vous ne voudriez certainement PAS permettre aux utilisateurs de s'auto-enregistrer en tant que Directeurs ou Éditeurs de la Revue!
 
-The third option is useful for guest editors or possibly section editors, depending upon your preferred workflow and authority chain.
+La troisième option est utile pour les rédacteurs invités ou éventuellement les rédacteurs de rubrique, selon votre flux des travaux et votre chaîne d'autorité préférés.
 
 ### Créer de Nouveaux Rôles
 
@@ -185,6 +185,6 @@ Cette page vous permet de déterminer comment les lecteurs peuvent accéder à v
 
 > Gardez à l'esprit que même si le fait d'exiger une inscription pour lire le contenu en libre accès peut être pratique pour votre suivi, cela peut dissuader certaines personnes de lire votre contenu. Utiliser avec précaution.
 
-**User Registration**: This option allows you to determine whether users can create their own accounts or must be enrolled by a Journal Manager.
+**Inscription des Utilisateurs**: cette option vous permet de déterminer si les utilisateurs peuvent créer leurs propres comptes ou s'ils doivent être inscrits par un-e Directeur/trice de Revue.
 
 > Permettre aux utilisateurs de s’enregistrer eux-mêmes, mais uniquement dans les rôles d’auteur, de évaluateur/trice ou de lecteur/trice, est un bon choix.
