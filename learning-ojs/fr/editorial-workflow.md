@@ -506,7 +506,7 @@ Une autre option serait de demander des révisions supplémentaires, mais à ce 
 
 Si vous souhaitez soumettre l'article évalué à un autre cycle d'évaluation, vous pouvez commencer un deuxième cycle d'évaluation (ou troisième ou suivant) une fois que les évaluations de l'auteur ont été reçues.
 
-It is best to start a new round of review **after** an author uploads revised files on the previous round. Creating a New Round of review before the author has uploaded their files could create some confusion as their dashboard (and yours) will default to the new round. The author will, however, be able to switch back to Round 1 to upload their files.
+Il est préférable de commencer un nouveau cycle d'évaluation **après** qu'un auteur a téléchargé les fichiers évalués lors du cycle précédent. La création d'un nouveau cycle d'évaluation avant que l'auteur ait téléchargé ses fichiers pourrait créer une certaine confusion car son tableau de bord (et le vôtre) sera par défaut le nouveau cycle. Cependant, l'auteur pourra revenir au premier cycle pour téléverser ses fichiers.
 
 ![](./assets/learning-ojs-3-new-round-0.png)
 
@@ -522,7 +522,7 @@ Cela ouvrira un autre menu pour vous permettre de sélectionner les fichiers (fo
 
 ![](./assets/learning-ojs-3-new-round-2.png)
 
-If there are any additional files you want to make available again from the previous round, this can be done by clicking **Upload/Select Files**. Click **Show files from all accessible workflow stages**.
+S'il y a des fichiers supplémentaires que vous souhaitez rendre disponibles à nouveau à partir du cycle précédent, cela peut être fait en cliquant sur **Téléverser/Sélectionner des Fichiers**. Cliquez sur **Afficher les fichiers de toutes les étapes de flux des travaux accessibles** .
 
 ![](./assets/learning-ojs-3-new-round-3.png)
 
@@ -530,7 +530,7 @@ Les fichiers disponibles lors du premier cycle doivent apparaître sous Soumissi
 
 ![](./assets/learning-ojs-3-new-round-4.png)
 
-Similarly, if there are any additional files authors provide after they upload the resubmission, you can upload them using **Upload/Select Files**.
+De même, s'il y a des fichiers supplémentaires fournis par les auteurs après avoir téléchargé la nouvelle soumission, vous pouvez les télécharger à l'aide de **Téléverser/Sélectionner des Fichiers** .
 
 Une fois que vous êtes prêt à commencer le nouveau cycle d'évaluation, attribuez des Évaluateurs comme vous l'avez fait lors du cycle précédent. Vous pouvez affecter les mêmes Évaluateurs ou différents Évaluateurs.
 
@@ -590,7 +590,7 @@ Vous pouvez maintenant attendre que le/la réviseur/euse fasse son travail.
 
 ### Réviseur/euse
 
-The Copyeditor will receive an email message from the Section Editor requesting them to take on the submission.
+Le/la réviseur/euse recevra un e-mail de le/la Rédacteur/trice de la Rubrique lui demandant de prendre en charge la soumission.
 
 Pour commencer, ils doivent se connecter et trouver la soumission à partir de leur tableau de bord.
 
@@ -622,11 +622,11 @@ Dans la fenêtre Ajouter une discussion, ils doivent choisir l'auteur et ajouter
 
 ![](./assets/learning-ojs-3-ce-add-discussion.png)
 
-Further down that same window, they must upload a copy of the copyedited file.
+Plus bas dans cette même fenêtre, ils doivent téléverser une copie du fichier révisé.
 
 ![](./assets/learning-ojs-3-ce-add-discussion2.png)
 
-To do so, use the *Upload File* link. This will open a new window where you must choose the *Article Component* (e.g., article text) and upload the file.
+Pour ce faire, utilisez le lien *Téléverser un Fichier*. Cela ouvrira une nouvelle fenêtre où vous devez choisir le *Component de l'Article* (par example, texte de l'article) et téléverser le fichier.
 
 ![](./assets/learning-ojs-3-ce-upload1.png)
 
@@ -686,15 +686,15 @@ Le fichier est maintenant visible dans le panneau *Révisé* (près du bas de l'
 
 ![](./assets/learning-ojs-3-ce-copyedited2.png)
 
-### Inform the Section Editor
+### Informer le/le Rédacteur/trice de la Rubrique
 
-The final step is for you to inform the Section Editor that the copyediting is complete.
+L'étape finale consiste à informer le/la Rédacteur/trice de la Rubrique que la révision est terminée.
 
 Pour ce faire, démarrez une nouvelle Discussion de Révision en utilisant le lien *Ajouter une Discussion* .
 
 ![](./assets/learning-ojs-3-ce-copyedited-final.png)
 
-In the discussion window, add the Section Editor, a subject line, and a message.
+Dans la fenêtre de discussion, ajoutez le/la Rédacteur/trice de de la Rubrique, une ligne de sujet, et un message.
 
 ![](./assets/learning-ojs-3-ce-copyedited-discussion.png)
 
@@ -708,7 +708,7 @@ Votre travail en tant que réviseur/euse est maintenant terminé!
 
 ### Passer à la Production
 
-The Section Editor will receive an email that the copyediting is complete, and see a notification in the discussions.
+le/la Rédacteur/trice de la Rubrique recevra un email indiquant que la révision est terminée et verra une notification dans les discussions.
 
 ![](./assets/learning-ojs-3-se-copyedited-dash.png)
 
