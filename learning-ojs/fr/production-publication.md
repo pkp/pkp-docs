@@ -631,7 +631,7 @@ L'URL de l'article pointera toujours vers la version la plus récente, les versi
 
 Lorsqu'un DOI a été attribué à la version originale, il ne sera pas modifié automatiquement. Les métadonnées CrossRef précédemment déposées ne seront pas automatiquement mises à jour. Si les métadonnées d'article ont été modifiées, nous vous recommandons de mettre à jour les métadonnées CrossRef dans le plugiciel d'exportation XML CrossRef en déposant manuellement l'article mis à jour. Pour savoir comment déposer manuellement un article, consultez le [Guide du Plugiciel CrossRef - Dépôts Manuels](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits) de PKP.
 
-Indexing services and repositories that use OAI to harvest metadata will need to harvest the article metadata again in order to update to the new version.
+Les services d'indexation et les référentiels qui utilisent OAI pour récolter les métadonnées devront à nouveau récolter les métadonnées de l'article afin de mettre à jour vers la nouvelle version.
 
 La nouvelle version sera correctement balisée pour être reconnue et mise à jour par l'index de Google Scholar, mais le moissonneur devra visiter à nouveau votre site afin de trouver la nouvelle version.
 
