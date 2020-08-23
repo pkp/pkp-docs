@@ -60,9 +60,9 @@ Où vous pouvez télécharger votre feuille de style de la revu, Favicon et cont
 
 - **Feuille de Style de la Revue**: utilisez cette option pour télécharger une feuille de style unique pour votre revue. Si vous souhaitez apporter des modifications plus importantes à la conception ou donner à votre site un aspect tout à fait unique, vous pouvez développer votre propre thème ou thème enfant. Les instructions sont disponibles dans le [Guide de Thématisation PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) .
 
-- **Journal Favicon**: Add a [favicon](https://en.wikipedia.org/wiki/Favicon) to display in the reader's browser address bar.
+- **Favicon**: ajoutez un [favicon](https://en.wikipedia.org/wiki/Favicon) à afficher dans la barre d'adresse du navigateur du lecteur.
 
-- **Additional Content**: Any text entered here will appear on your homepage.
+- **Contenu Additionnel**: tout texte saisi ici apparaîtra sur votre page d'accueil.
 
 Appuyez sur **Enregistrer** pour enregistrer vos modifications.
 
@@ -88,11 +88,11 @@ Sous Paramètres du site Web > Langues, vous pouvez voir une liste des langues o
 
 - **Paramètres Régionaux Principaux**: une langue doit être définie comme paramètres régionaux principaux, ce qui signifie la langue dans laquelle le journal apparaît par défaut.
 
-- **UI**: If you want the journal’s interface to be available in other languages, select them here.
+- **Interface d'utilisateur** : si vous souhaitez que l'interface de la revue soit disponible dans d'autres langues, sélectionnez-les ici.
 
 - **Formulaires**: Cela permettra à toutes les langues sélectionnées d'être disponibles lors du remplissage des formulaires en ligne. Cela permettra d'ajouter des métadonnées dans les langues sélectionnées dans l'onglet Publication.
 
-- **Submission**: If you want authors to be able to make submissions in other languages, select them here. This will allow authors to add metadata in selected languages when uploading their submission.
+- **Soumission**: si vous voulez que les auteurs puissent soumettre des soumissions dans d'autres langues, sélectionnez-les ici. Cela permettra aux auteurs d'ajouter des métadonnées dans les langues sélectionnées lors du téléversement de leur soumission.
 
 Si vous activez l'affichage de plusieurs langues dans l'interface utilisateur, assurez-vous que dans Paramètres du site Web > Apparence > Gestion de la Barre Latérale, le Bloc Toggle de Langue est sélectionné pour rendre cette fonctionnalité disponible aux utilisateurs.
 
@@ -167,8 +167,8 @@ Parfois, les nouveaux plugiciels ou plugiciels développés par des personnes ex
 1. Téléchargez le fichier tar.gz du plugiciel à partir de son référentiel sous l'onglet Versions.
 2. Accédez à l'onglet Plugiciels Installés.
 3. En haut à droite, cliquez sur Télécharger un nouveau plugiciel.
-4. Upload the plugin file.
-5. When it has finished uploading, click Save. Give it some time to install.
+4. Téléverser le fichier du plugiciel.
+5. Une fois le téléversement terminé, cliquez sur Enregistrer. Donnez-lui un peu de temps pour l'installation.
 
 Si le téléchargement échoue, vous pouvez recevoir un message d'erreur indiquant: "L'archive du plugin téléchargé ne contient pas de dossier correspondant au nom du plugiciel." Habituellement, cela signifie que vous devez changer le nom du dossier du plugiciel dans le dossier zippé en un nom plus simple. Par exemple, remplacez «traducteur-ojs-3_0_0-0» par «traducteur».
 
