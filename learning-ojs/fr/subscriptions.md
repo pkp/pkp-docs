@@ -7,18 +7,18 @@ version: 3.2
 
 OJS vous permet de restreindre l'accés à tout ou juste une partie de votre contenu aux abonnés. Pour activer les Abonnements, accédez d'abord à [Paramètres > Distribution > Accès](./distribution_settings.md) .
 
-## Subscription Policies
+## Politiques d'abonnement
 
-Fill in details about your subscription policies on this page.
+Remplissez les détails de vos politiques d'abonnement sur cette page.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-policies.png)
 
-- **Subscription Manager**: Add personal details for the responsible person.
-- **Subscription Information**: Add policy details to display on the journal website.
-- **Subscription Expiry**: Determine whether past subscribers should continue to have access to older content.
-- **Subscription Expiry Reminder**: Configure automated renewal reminders.
-- **Online Payment Notifications**: Keep the Subscription Manager informed of payment activities.
-- **Open Access Options for Subscription Journals**: If appropriate select the number of current months for restricting access. Older content will be automatically made open.
+- **Responsable des Abonnements**: ajoutez les détails personnels de la personne responsable.
+- **Renseignement sur l' Abonnement**: ajoutez des détails des règles à afficher sur le site Web de la revue.
+- **Échéance de l'Abonnement**: déterminez si les anciens abonnés doivent continuer à avoir accès au contenu plus ancien.
+- **Rappel de l'échéance de l''Abonnement**: configurez des rappels de renouvellement automatisés.
+- **Avis de Paiement en Ligne**: tenez le/la Directeur/trice d'Abonnement informé-e des activités de paiement.
+- **Options pour le libre accès pour les revues sous abonnement**: Sélectionnez le nombre de mois actuels pour lesquels vous souhaitez restreindre l'accès. Le contenu plus ancien sera automatiquement ouvert.
 
 ## Types d'Abonnement
 
@@ -34,7 +34,7 @@ Sélectionnez **Créer un Nouveau Type d'Abonnement** pour en ajouter un nouveau
 
 - **Nom du Type**: donnez à ce nouveau type d'abonnement un nom unique (par exemple, étudiant).
 - **Description**: Fournissez une brève description qui apparaîtra sur le site Web.
-- **Cost**: Select the currency type and amount.
+- **Coût**: sélectionnez le type de devise et le montant.
 - **Format** : choisissez le format approprié (par exemple, en ligne).
 - **Durée**: entrez le nombre de mois que ce type d'abonnement couvrira (par exemple, 12).
 - **Abonnements**: indiquez si ce type couvre les individus ou les institutions.
@@ -48,17 +48,17 @@ Utilisez cette page pour définir les montants facturés pour différents types 
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-paytypes.png)
 
-### Author Fees
+### Frais de publication pour un article
 
 Si vous souhaitez facturer des frais de traitement d'article (Article Processing Charge -- APC) aux auteurs, saisissez le montant ici. Activer les frais d'auteur vous permettra de demander des frais de traitement d'article une fois le processus d'évaluation terminé. Lorsque l'article est accepté par l'éditeur/trice, l'éditeur/trice aura la possibilité d'exiger un paiement. Cela entraînera la réception d'une notification par l'auteur dans OJS et d'un email, qui le dirigera tout au long du processus de paiement.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
 
-### Reader Fees
+### Frais de Lecture
 
 Si vous souhaitez facturer des frais pour accéder à des articles et numéros individuels, vous pouvez saisir ici les prix des articles et numéros.
 
-You can apply the fees to PDF files only by checking off "Only Restrict Access to PDF version of issues and articles".
+Vous pouvez appliquer les frais aux fichiers PDF uniquement en cochant " Limiter l'accès uniquement aux articles et numéros en format PDF".
 
 Notez que pour vendre l'accès à un numéro, vous devrez télécharger une épreuve de numéros.
 
@@ -92,7 +92,7 @@ Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un N
 
 **Numéro de Référence**: si l'abonnement est associé à un numéro de référence pertinent (tel qu'un numéro de facture pour le paiement), ajoutez ces informations ici (facultatif).
 
-**Notes**: If you have any relevant notes to add, record that information here (optional).
+**Notes**: Si vous avez des notes pertinentes à ajouter, enregistrez-les ici (facultatif).
 
 <hr>
 
@@ -110,14 +110,14 @@ Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un n
 
 - **Type d'Abonnement**: sélectionnez le type approprié pour ce nouvel abonné (par exemple, Bibliothèque) et son statut (par exemple, Actif). (Les types d'abonnement ont été configurés plus tôt dans ce chapitre.)
 - **Date**: définissez les dates de début et de fin de cet abonnement.
-- **Institution**: Add the name of the institution for this subscription (e.g., Simon Fraser University Library).
-- **Mailing Address**: Add the address of the institution.
+- **Nom de l'Institution**: Ajoutez le nom de l'institution pour cet abonnement (par exemple, Bibliothèque de l'Université Simon Fraser).
+- **Adresse de Courrier**: ajoutez l'adresse de l'institution.
 - **Domaine**: les lecteurs provenant d'un ordinateur avec ce domaine recevront automatiquement l'accès (par exemple, sfu.ca). Cela s'appliquera aux utilisateurs sur le campus.
-- **IP Ranges**: The institution may provide you with IP ranges. Readers using a computer in this IP range will automatically receive access. Each IP range should be entered as a new line.
+- **Plage d'Adresses IP**: l'établissement peut vous fournir des gammes d'adresses IP. Les lecteurs utilisant un ordinateur dans cette gamme d'adresses IP recevront automatiquement l'accès. Chaque gamme IP doit être saisie comme une nouvelle ligne.
 
 ![](./assets/learning-ojs3.2-jm-subscriptions-instit-IP.png)
 
-- **Notes**: If you have any relevant notes to add, record that information here (optional).
+- **Notes**: Si vous avez des notes pertinentes à ajouter, enregistrez-les ici (facultatif).
 
 ## Bloc d'Abonnement
 
