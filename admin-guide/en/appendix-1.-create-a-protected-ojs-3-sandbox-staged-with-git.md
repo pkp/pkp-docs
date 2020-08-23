@@ -17,7 +17,7 @@ The README here: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) has in
    ```
    cd <httpd-docs-folder>
    git clone -n https://github.com/pkp/ojs.git ./
-   git checkout -b ojs-3_1_0 --no-track origin/ojs-stable-3_1_0
+   git checkout -b stable-3_2_1 --no-track origin/stable-3_2_1
    cp config.TEMPLATE.inc.php config.inc.php
    chmod -R 755 *
    chmod 600 config.inc.php
@@ -28,7 +28,7 @@ The README here: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) has in
    ```
    git submodule update --init --recursive
    cd lib/pkp
-   git checkout -b ojs-3_1_0 --no-track origin/ojs-stable-3_1_0
+   git checkout -b stable-3_2_1 --no-track origin/stable-3_2_1
    ```
 
 4. Install composer:
