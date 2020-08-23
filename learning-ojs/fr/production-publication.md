@@ -177,7 +177,7 @@ Pour styliser tous les fichiers épreuves HTML: Si vous utilisez un plugiciel de
 
 ##### Ajoutez des images et du multimédia à une épreuve HTML
 
-If you would like to include images or multimedia files in an HTML galley file, you can upload them as Dependent Files to the submission, and link to them within the file to display them.
+Si vous souhaitez inclure des images ou des fichiers multimédias dans un fichier épreuve HTML, vous pouvez les téléverser en tant que fichiers reliés dans la soumission, et créer un lien vers eux dans le fichier pour les afficher.
 
 Avant de commencer de téléverser l'élément, vous aurez besoin d'une page HTML contenant l'un des éléments suivants:
 
@@ -211,7 +211,7 @@ Assurez-vous que les fichiers «Multimédia» et/ou «Image» sont configurés c
 
 ![](./assets/learning-ojs3.2-ed-prod-multimedia-component-edit.png)
 
-Now go back to the submission to upload an HTML stylesheet to display your multimedia file. See below for instructions on how to **Add  Galley Files**. In addition, when you upload the file:
+Revenez maintenant à la soumission pour téléverser une feuille de style HTML pour afficher votre fichier multimédia. Voir ci-dessous pour savoir comment **ajouter des fichiers épreuves** . De plus, lorsque vous téléversez le fichier:
 
 - Étiquetez l'épreuve en fonction du type de fichier multimédia (par exemple, MP3, MP4, Image)
 - Sélectionnez **&nbsp;Feuille de style HTML ** dans la liste déroulante **&nbsp;Éléments d'article **.
@@ -631,7 +631,7 @@ L'URL de l'article pointera toujours vers la version la plus récente, les versi
 
 Lorsqu'un DOI a été attribué à la version originale, il ne sera pas modifié automatiquement. Les métadonnées CrossRef précédemment déposées ne seront pas automatiquement mises à jour. Si les métadonnées d'article ont été modifiées, nous vous recommandons de mettre à jour les métadonnées CrossRef dans le plugiciel d'exportation XML CrossRef en déposant manuellement l'article mis à jour. Pour savoir comment déposer manuellement un article, consultez le [Guide du Plugiciel CrossRef - Dépôts Manuels](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits) de PKP.
 
-Indexing services and repositories that use OAI to harvest metadata will need to harvest the article metadata again in order to update to the new version.
+Les services d'indexation et les référentiels qui utilisent OAI pour récolter les métadonnées devront à nouveau récolter les métadonnées de l'article afin de mettre à jour vers la nouvelle version.
 
 La nouvelle version sera correctement balisée pour être reconnue et mise à jour par l'index de Google Scholar, mais le moissonneur devra visiter à nouveau votre site afin de trouver la nouvelle version.
 
