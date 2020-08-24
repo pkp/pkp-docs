@@ -58,7 +58,8 @@ Où vous pouvez télécharger des images (logo, vignette, page d'accueil) vers l
 
 Où vous pouvez télécharger votre feuille de style de la revu, Favicon et contenu supplémentaire.
 
-- **Feuille de Style de la Revue**: utilisez cette option pour télécharger une feuille de style unique pour votre revue. Si vous souhaitez apporter des modifications plus importantes à la conception ou donner à votre site un aspect tout à fait unique, vous pouvez développer votre propre thème ou thème enfant. Les instructions sont disponibles dans le [Guide de Thématisation PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) .
+- **Feuille de Style de la Revue**: utilisez cette option pour télécharger une feuille de style unique pour votre revue.
+Si vous souhaitez apporter des modifications plus importantes à la conception ou donner à votre site un aspect tout à fait unique, vous pouvez développer votre propre thème ou thème enfant. Les instructions sont disponibles dans le [Guide de Thématisation PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) .
 
 - **Favicon**: ajoutez un [favicon](https://en.wikipedia.org/wiki/Favicon) à afficher dans la barre d'adresse du navigateur du lecteur.
 
@@ -82,7 +83,7 @@ Pour supprimer ces champs et leur contenu de l'affichage public sur l'interface 
 
 OJS est multilingue, ce qui signifie que l'interface, les emails et le contenu publié peuvent être disponibles en plusieurs langues sur un seul site ou revue. Lorsque vous installez OJS, vous pouvez sélectionner une ou plusieurs langues pour votre site.
 
-Sous Paramètres du site Web > Langues, vous pouvez voir une liste des langues ou des paramètres régionaux installés sur votre site et configurer la façon dont les langues sont utilisées dans votre journal. Des langues supplémentaires peuvent être installées sur votre site par un Administrateur - voir le [Chapitre 4](https://docs.pkp.sfu.ca/learning-ojs/en/site-administration) pour plus de détails.
+Sous Paramètres du site Web > Langues, vous pouvez voir une liste des langues ou des paramètres régionaux installés sur votre site et configurer la façon dont les langues sont utilisées dans votre journal. Des langues supplémentaires peuvent être installées sur votre site par un Administrateur - voir le [Chapitre 4](./site-administration) pour plus de détails.
 
 ![](./assets/learning-ojs3.1-jm-settings-web-lang.png)
 
@@ -125,8 +126,8 @@ Cette section vous permet de créer et d'afficher des annonces de nouvelles sur 
 ![](./assets/learning-ojs3.1-jm-settings-web-announce.png)
 
 - **Annonces**: cochez cette case si vous souhaitez avoir des annonces sur votre site Web
-    - **Introduction**: saisissez les informations que vous souhaitez voir apparaître sur votre page d'annonces.
-    - **Afficher sur la Page d'Accueil**: saisissez le nombre d'annonces à afficher sur la page d'accueil. Si ce champ est laissé vide, aucune annonce ne sera affichée.
+  - **Introduction**: saisissez les informations que vous souhaitez voir apparaître sur votre page d'annonces.
+  - **Afficher sur la Page d'Accueil**: saisissez le nombre d'annonces à afficher sur la page d'accueil. Si ce champ est laissé vide, aucune annonce ne sera affichée.
 
 ### Listes
 
@@ -178,7 +179,7 @@ N'oubliez pas de cliquer sur Enregistrer pour enregistrer le changement.
 
 OJS 3 dispose d'un certain nombre de plugiciels que vous pouvez activer pour améliorer l'expérience utilisateur et la découvrabilité de votre contenu et de votre revue. Cette section décrit les différents plugiciels disponibles dans OJS et comment les configurer et les utiliser.
 
-Étant donné que certains plugiciels ci-dessous sont des plugiciels tiers, vous devrez peut-être télécharger le fichier zip depuis GitHub et le télécharger dans votre revue. Pour des informations générales sur les plugiciels et comment installer et activer des plugiciels, veuillez consulter [Apprendre OJS 3 - Plugiciels](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins) .
+Étant donné que certains plugiciels ci-dessous sont des plugiciels tiers, vous devrez peut-être télécharger le fichier zip depuis GitHub et le télécharger dans votre revue. Pour des informations générales sur les plugiciels et comment installer et activer des plugiciels, veuillez consulter [Apprendre OJS 3 - Plugiciels](./settings-website#plugins) .
 
 Veuillez noter que vu que PKP ne gére pas de plugiciels tiers, nous ne pouvons pas garantir qu'il fonctionnera avec votre version d'OJS.
 
@@ -256,12 +257,10 @@ Tout d'abord, vous devez activer et configurer le plugiciel d'en-tête personnal
 1. Accédez à Paramètres du site Web > Plugiciels et assurez-vous que le plugiciel En-tête personnalisé est installé et activé
 2. Cliquez sur la flèche bleue à côté du nom du plugiciel et cliquez sur le bouton **Paramètres** qui apparaît ci-dessous
 3. Collez ce qui suit dans le champ Contenu de l'en-tête:
-
-```
+```html
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
-
-1. Cliquez sur **OK** pour l'enregistrer
+4. Cliquez sur **OK** pour l'enregistrer
 
 Ensuite, vous devez créer un bloc personnalisé:
 
@@ -271,18 +270,14 @@ Ensuite, vous devez créer un bloc personnalisé:
 4. Donnez au bloc un nom, tel que "Twitter"
 5. Above the **Content** field, click the **Source Code** button
 6. Dans la boîte de dialogue qui apparaît, collez le contenu suivant - sauf utilisez votre propre lien et nom de compte Twitter:
-
-```
+```html
 <a class="twitter-timeline" href="https://twitter.com/asmecher?ref_src=twsrc%5Etfw">Tweets by asmecher</a>
 ```
-
-1. Des paramètres de chronologie personnalisés supplémentaires peuvent être ajoutés si vous le souhaitez, par exemple:
-
-```
+7. Des paramètres de chronologie personnalisés supplémentaires peuvent être ajoutés si vous le souhaitez, par exemple:
+```html
 <a class="twitter-timeline" "data-tweet-limit="3" ...
 ```
-
-1. Cliquez sur **Enregistrer**
+8. Cliquez sur **Enregistrer**
 
 Enfin, vous devez ajouter le bloc personnalisé que vous venez de créer à votre barre latérale.
 
@@ -294,15 +289,15 @@ Une autre option consiste à utiliser le [plugiciel de la barre latérale Twitte
 
 #### Plugiciel Disqus
 
-Le [plugiciel Disqus](https://github.com/ajnyga/disqus) s'intègre à [Disqus](disqus.com) et permet aux utilisateurs d'ajouter des commentaires aux pages d'article.
+Le [plugiciel Disqus](https://github.com/ajnyga/disqus) s'intègre à [Disqus](https://disqus.com) et permet aux utilisateurs d'ajouter des commentaires aux pages d'article.
 
 Le plugiciel Disqus est un plugiciel tiers et doit être installé à partir de son référentiel Github.
 
-Après avoir installé et activé le plugiciel, vous devez créer un compte Disqus sur le [Site Web Disqus](disqus.com). Lors de votre inscription, choisissez l'option permettant d'utiliser Disqus sur votre site Web. Disqus propose des forfaits gratuits et payants et vous devez choisir un forfait lors de votre inscription.
+Après avoir installé et activé le plugiciel, vous devez créer un compte Disqus sur le [Site Web Disqus](https://disqus.com). Lors de votre inscription, choisissez l'option permettant d'utiliser Disqus sur votre site Web. Disqus propose des forfaits gratuits et payants et vous devez choisir un forfait lors de votre inscription.
 
 Lorsqu'on vous demande d'enregistrer le **Nom de votre Site Web**, créez un nom basé sur le nom de votre journal. Cela apparaîtra dans les fils Disqus, les notifications par courriel et votre onglet Communauté. Par exemple "pkpworkshopsjournal."
 
-Ignorez l'étape **Installer Disqus{/ strong0} et accédez à **Configurer Disqus{/ strong1}. Saisissez l'URL de votre revue dans le champ **URL du site Web{/ strong2}. Entrez vos règles pour les commentaires, si vous en avez.******
+Ignorez l'étape **Installer Disqus** et accédez à **Configurer Disqus**. Saisissez l'URL de votre revue dans le champ **URL du site Web**. Entrez vos règles pour les commentaires, si vous en avez.
 
 ![](./assets/learning-ojs-3.2-settings-plugin-disqus-configure-disqus.png)
 
@@ -403,12 +398,13 @@ Ce plugiciel affiche le nombre de téléchargements d'un article sur la page de 
 Pour configurer le plugiciel de statistiques d'utilisation, vous devez être un **Administrateur**:
 
 1. Accédez à Paramètres > Site Web > Plugiciels.
-2. Sous Plugiciels Génériques, recherchez le Plugin de Statistiques d'Utilisation. 3.Cliquez sur la flèche bleue à gauche du nom du plugiciel pour faire apparaître des liens en dessous du plugiciel.
-3. Cliquez sur Paramètres.
-4. Faites défiler vers le bas de la boîte de dialogue qui s'ouvre à la section Options d'Affichage des Statistiques.
-5. Cochez la case à côté de Afficher les statistiques de soumission pour le lecteur.
-6. En dessous, vous pouvez sélectionner si vous souhaitez afficher les statistiques sous forme de graphique à barres ou à courbes et le nombre maximum de mois pour lesquels afficher l'utilisation.
-7. Cliquez sur Enregistrer.
+2. Sous Plugiciels Génériques, recherchez le Plugin de Statistiques d'Utilisation.
+3. Cliquez sur la flèche bleue à gauche du nom du plugiciel pour faire apparaître des liens en dessous du plugiciel.
+4. Cliquez sur Paramètres.
+5. Faites défiler vers le bas de la boîte de dialogue qui s'ouvre à la section Options d'Affichage des Statistiques.
+6. Cochez la case à côté de Afficher les statistiques de soumission pour le lecteur.
+7. En dessous, vous pouvez sélectionner si vous souhaitez afficher les statistiques sous forme de graphique à barres ou à courbes et le nombre maximum de mois pour lesquels afficher l'utilisation.
+8. Cliquez sur Enregistrer.
 
 ![](./assets/learning-ojs-settings-plugin-usage-stats-2.png)
 
