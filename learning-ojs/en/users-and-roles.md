@@ -2,6 +2,7 @@
 book: learning-ojs
 version: 3.2
 ---
+
 # Users and Roles
 
 This section provides access to all of the user accounts associated with your journal, as well as the opportunity to manage roles and permissions.
@@ -29,6 +30,7 @@ This opens the options to Email, Edit User, Disable, Remove, Login As, Merge Use
 If you want to email a user about a particular submission, you can use the Discussion feature in the submission. This keeps all communication about a submission in one place.
 
 To send an email to a user that is unrelated to a submission:
+
 1. In the Journal Manager or Editor’s dashboard, go to Users & Roles > Users
 2. Find the user you want to email
 3. Click the blue arrow next to the user’s name to reveal links below it
@@ -36,7 +38,7 @@ To send an email to a user that is unrelated to a submission:
 
 ![](./assets/learning-ojs-3-users-email.png)
 
-You cannot email multiple users at the same time except by using the Announcements feature. See the [Workflow Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow) for instructions on how to send announcements. It is also not possible to send a message to all users in one role, such as all reviewers registered on your site.
+You cannot email multiple users at the same time except by using the Announcements feature. See the [Workflow Settings chapter](./settings-workflow) for instructions on how to send announcements. It is also not possible to send a message to all users in one role, such as all reviewers registered on your site.
 
 If you want to email multiple users or all users in a single role on a regular basis, you can use an external email marketing application such as Mailchimp. User records can be exported in XML using Tools > Import/Export > Users XML Plugin or an Administrator can export them from the database in CSV.
 
@@ -52,15 +54,16 @@ It is not currently possible to add cc or bcc addresses to messages or to add at
 
 **Login As** allows you to temporarily log in as that user, for example, to complete an outstanding task.
 
-#### Merge User 
+#### Merge User
 
 The Merge User feature lets you fold this user account, including any submissions or assignments, into another user account on your system.
 
 > **Note**: This is the only way to completely delete an account from the system.
 
-You may want to create a dummy user account \(e.g., Deleted Users\), and use that to merge unwanted accounts into.
+You may want to create a dummy user account (e.g., Deleted Users), and use that to merge unwanted accounts into.
 
 To merge users:
+
 1. At Users & Roles > Users, find the user account you want to remove
 2. Click the blue arrow next to the username
 3. Click **Merge User** from the menu that appears below
@@ -77,7 +80,7 @@ When you have a large number of users, you will want to take advantage of the se
 
 This can help you quickly find a user by first name, last name, or email address, or to see all users in a particular role.
 
-**Note**: If you leave the Search field blank, select a Role, and hit Search, you will get a list of all users in that role \(e.g., all copyeditors\).
+**Note**: If you leave the Search field blank, select a Role, and hit Search, you will get a list of all users in that role (e.g., all copyeditors).
 
 ![](./assets/learning-ojs-3-users-search-roles.png)
 
@@ -111,6 +114,7 @@ On multi-journal installations, an Administrator can register a user from Journa
 If a user can't log in to your journal site, tell them to select **Forgot your password** on the Login page. They will then receive a reset password link by email and will be able to reset their password.
 
 If the user has further issues, a Journal Manager or Editor can do the following:
+
 1. Go to Users & Roles > Users
 2. Find the user who can't log in and click the blue arrow next to their name
 3. Click the **Edit User** button that appears below
@@ -119,7 +123,8 @@ If the user has further issues, a Journal Manager or Editor can do the following
 6. Click **Save** at the end of the form
 7. Send the new password to the user and instruct them to log in with it
 
-If the user still cannot log in, their account may have been disabled.  To re-enable it:
+If the user still cannot log in, their account may have been disabled. To re-enable it:
+
 1. Go to Users & Roles > Users
 2. Find the user who can't log in and click the blue arrow next to their name
 3. Look below their name for **Enable** or **Disable.**  If Disable appears, the account is already enabled. If Enable appears, click it to re-enable the account.
@@ -130,7 +135,7 @@ If the user still cannot log in, their account may have been disabled.  To re-en
 
 Users in the system must have one or more roles.
 
-Roles define what a user can do within the system. An Author can make submissions and little else. An Editor can manage submissions, and a Journal Manager can configure the journal's settings. See the [User Accounts chapter](https://docs.pkp.sfu.ca/learning-ojs/en/user-accounts#roles-in-ojs) for a list and description of every role.
+Roles define what a user can do within the system. An Author can make submissions and little else. An Editor can manage submissions, and a Journal Manager can configure the journal's settings. See the [User Accounts chapter](./user-accounts#roles-in-ojs) for a list and description of every role.
 
 One user can have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
 
