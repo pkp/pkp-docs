@@ -38,7 +38,7 @@ Pour envoyer un email à un utilisateur qui n'est pas lié à une soumission:
 
 ![](./assets/learning-ojs-3-users-email.png)
 
-Vous ne pouvez pas envoyez un email à plusieurs utilisateurs à la fois sauf en utilisant la fonction d'Annonces. Voir le [Chapitre Paramètres de Flux des Travaux](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow) pour des instructions sur comment onvoyer des annonces. Il n'est pas non plus possible d'envoyer un message à tous les utilisateurs dans un rôle, comme tous les évaluateurs enregistrés sur votre site.
+Vous ne pouvez pas envoyez un email à plusieurs utilisateurs à la fois sauf en utilisant la fonction d'Annonces. Voir le [Chapitre Paramètres de Flux des Travaux](./settings-workflow) pour des instructions sur comment onvoyer des annonces. Il n'est pas non plus possible d'envoyer un message à tous les utilisateurs dans un rôle, comme tous les évaluateurs enregistrés sur votre site.
 
 Si vous souhaitez envoyer régulièrement un email à plusieurs utilisateurs ou à tous les utilisateurs d'un même rôle, vous pouvez utiliser une application de marketing par email externe telle que Mailchimp. Les enregistrements d'utilisateur peuvent être exportés au format XML en utilisant Outils > Importer/Exporter > Plugiciel Users XML ou un administrateur peut les exporter de la base de données au format CSV.
 
@@ -135,7 +135,7 @@ Si l'utilisateur/trice ne parvient toujours pas à se connecter, son compte a pe
 
 Les utilisateurs du système doivent avoir un ou plusieurs rôles.
 
-Les rôles définissent ce qu'un-e utilisateur/trice peut faire dans le système. Un auteur peut faire des soumissions et rien d'autre. Un-e rédacteur/trice peut gérer les soumissions et un-e directeur/trice de revue peut configurer les paramètres du journal. Voir le [Chapitre Comptes d'Utilisateurs](https://docs.pkp.sfu.ca/learning-ojs/en/user-accounts#roles-in-ojs) pour une liste et une description de chaque rôle.
+Les rôles définissent ce qu'un-e utilisateur/trice peut faire dans le système. Un auteur peut faire des soumissions et rien d'autre. Un-e rédacteur/trice peut gérer les soumissions et un-e directeur/trice de revue peut configurer les paramètres du journal. Voir le [Chapitre Comptes d'Utilisateurs](./user-accounts#roles-in-ojs) pour une liste et une description de chaque rôle.
 
 Un utilisateur peut avoir plusieurs rôles, par exemple, être un-e directeur/trice, un-e rédacteur/trice et un-e auteur dans la même revue.
 
