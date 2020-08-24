@@ -6,7 +6,7 @@
 
 Il est difficile de prescrire des étapes exactes afin de définir les autorisations de fichiers appropriées, parce que cela dépend du système d'exploitation du serveur, du serveur Web, et de la configuration PHP.
 
-En général, vous voulez que vos autorisations soient définies de manière à ce que votre serveur Web puisse lire et écrire (de manière récursive) dans `config.inc.php` `files_dir`, et dans `cache/`, et `public/`. Vous avez comme option, pour des fonctionnalités supplémentaires et une sécurité réduite, d'activer l'écriture dans <code>config.inc.php</code>, dans <code>plugiciels/</code> et peut-être dans les paramètres régionaux <code>.xml</code> des dossiers. Votre serveur Web doit avoir un accès en lecture seule à tous les autres fichiers et répertoires distribués dans le package.
+En général, vous voulez que vos autorisations soient définies de manière à ce que votre serveur Web puisse lire et écrire (de manière récursive) dans `config.inc.php` `files_dir`, et dans `cache/`, et `public/`. Vous avez comme option, pour des fonctionnalités supplémentaires et une sécurité réduite, d'activer l'écriture dans `config.inc.php`, dans `plugiciels/` et peut-être dans les paramètres régionaux `.xml` des dossiers. Votre serveur Web doit avoir un accès en lecture seule à tous les autres fichiers et répertoires distribués dans le package.
 
 Commencez par vérifier quelle API de serveur PHP utilise sur votre serveur. Si OJS, OMP ou OCS est déjà installé, connectez-vous en tant que Directeur/trice du Site, cliquez sur «Informations système», et au bas de la page, cliquez sur «Informations PHP étendues». Trouvez la ligne qui dit «API du serveur». Selon l'API que vous utilisez (mod_php / SAPI ou CGI / FastCGI), les autorisations doivent être définies comme suit.
 
@@ -179,21 +179,23 @@ Si tout autre tentative échoue:
 
 Kurt a exécuté la commande de décharge suivante avec un certain succès, mais sans expliquer exactement ce qu'elle fait:
 
-`mysqldump ocs-$USERNAME --opt --default-character-set=latin1 --skip-set-charset --single-transaction  --ignore-table=ocs-$USERNAME.paper_search_keyword_list --ignore-table=ocs-$USERNAME.paper_search_object_keywords --ignore-table=ocs-$USERNAME.paper_search_objects --result-file=/tmp/$USERNAME.sql`
+```
+mysqldump ocs-$USERNAME --opt --default-character-set=latin1 --skip-set-charset --single-transaction  --ignore-table=ocs-$USERNAME.paper_search_keyword_list --ignore-table=ocs-$USERNAME.paper_search_object_keywords --ignore-table=ocs-$USERNAME.paper_search_objects --result-file=/tmp/$USERNAME.sql
+```
 
 ## Rapport d'Erreurs: Pages Blanches, Diagnostics, etc.
 
 ### Lorsque je clique sur un bouton ou que je suis un lien, je finis avec une page blanche. Qu'est ce que je peux faire?
 
-1. Vérifiez le log des erreurs de votre serveur Web
+1: Vérifiez le log des erreurs de votre serveur Web
 
 Normalement, cela indique qu'une erreur PHP s'est produite et que le message a été envoyé à votre serveur Web ou au fichier log du système. Vérifiez là-bas - par exemple `/var/log/apache/error.log` , bien que l'emplacement exact dépendra de la configuration de votre serveur - pour plus de détails.
 
-1. Vérifiez vos autorisations de fichiers
+2: Vérifiez vos autorisations de fichiers
 
 Si vous n'avez pas encore installé OJS, OMP ou OCS, la cause la plus probable est un problème avec les autorisations de fichiers dans vos répertoires cache/ ou cache/t_compile. Voir docs/README pour plus d'informations sur les autorisations de fichiers.
 
-1. Diagnostic d'anomalies supplémentaire
+3: Diagnostic d'anomalies supplémentaire
 
 Si vous n'avez pas accès au fichier log de votre serveur, vous pouvez essayer d'ajouter ce qui suit au début de index.php pour que les messages d'erreur soient envoyés au navigateur:
 
@@ -276,7 +278,7 @@ Si vous utilisez PHP 5.3+ (ce que vous devriez faire), vous devrez exécuter OJS
 
 Si vous utilisez PHP 7+, vous devrez exécuter OJS 3.0+.
 
-OJS et OMP 3.1.2+ **nécessitent** PHP 7.1 ou supérieur. <br>Faire référence à [docs/README](https://github.com/pkp/ojs/tree/master/docs) pour votre version OJS/OMP pour plus d'informations sur les exigences du système PHP.
+OJS et OMP 3.1.2+ **nécessitent** PHP 7.1 ou supérieur. Faire référence à [docs/README](https://github.com/pkp/ojs/tree/master/docs) pour votre version OJS/OMP pour plus d'informations sur les exigences du système PHP.
 
 **REMARQUE** : Si vous exécutez OJS ou OMP 3.x sur un stack PHP7 + LAMP, n'oubliez pas de mettre à jour le paramètre de votre driver MySQL (section Base de Données) sur le fichier `config.inc.php` , c'est-à-dire:
 
