@@ -65,7 +65,7 @@ Vous aurez la possibilité de fournir des détails sur vos revues à un stade ul
 
 OJS est conçu pour être un système multilingue, permettant aux revues prenant en charge une grande variété de langues d'être hébergées sur un seul site. Lorsque vous installez OJS, vous pouvez sélectionner une ou plusieurs langues pour votre site.
 
-L'Administrateur du Site peut définir la langue par défaut du site et installer des Paramètres Régionaux additionnels pour que d'autres langues soit disponibles à l'utilisateur. Les Directeurs de Revue peuvent gérer leurs propres paramètres de langue sous Paramètres du Site Web > Langues. Voir le [Chapitre Paramètres du Site Web](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website) pour plus de détails.
+L'Administrateur du Site peut définir la langue par défaut du site et installer des Paramètres Régionaux additionnels pour que d'autres langues soit disponibles à l'utilisateur. Les Directeurs de Revue peuvent gérer leurs propres paramètres de langue sous Paramètres du Site Web > Langues. Voir le [Chapitre Paramètres du Site Web](./settings-website) pour plus de détails.
 
 Sous Administration > Paramètres du Site> Langues, vous pouvez voir une liste des langues installées sur votre site, activer les langues, et définir n'importe quelle langue comme langue par défaut de votre site à travers les Paramètres Régionaux, ce qui signifie que c'est la langue que les utilisateurs verront la première fois qu'ils visitent le site.
 
@@ -77,7 +77,7 @@ Pour ajouter une autre langue:
 2. Cochez les Paramètres Régionaux que vous souhaitez installer
 3. Cliquez sur Enregistrer
 
-Après l'installation de nouveaux Paramètres Régionaux, vous devrez les activer sur la page Paramétres du Site > Langues. Une configuration supplémentaire de la disponibilité de la langue sur le site peut être effectuée sous Paramètres du Site Web > Langues par Directeur/trice de Revue. Voir le <a>Chapitre Paramètres du Site Web</a> pour plus de détails.
+Après l'installation de nouveaux Paramètres Régionaux, vous devrez les activer sur la page Paramétres du Site > Langues. Une configuration supplémentaire de la disponibilité de la langue sur le site peut être effectuée sous Paramètres du Site Web > Langues par Directeur/trice de Revue. Voir le [Chapitre Paramètres du Site Web](./settings-website) pour plus de détails.
 
 OJS 3.1 n'a pas encore autant de traductions que OJS 2, mais nous nous attendons à avoir plus contribué au fil du temps. Les contributions sont toujours les bienvenues.
 
