@@ -178,21 +178,23 @@ If all else fails:
 
 Kurt has run the following dump command with some success, but without explaining exactly what it does:
 
-`mysqldump ocs-$USERNAME --opt --default-character-set=latin1 --skip-set-charset --single-transaction  --ignore-table=ocs-$USERNAME.paper_search_keyword_list --ignore-table=ocs-$USERNAME.paper_search_object_keywords --ignore-table=ocs-$USERNAME.paper_search_objects --result-file=/tmp/$USERNAME.sql`
+```
+mysqldump ocs-$USERNAME --opt --default-character-set=latin1 --skip-set-charset --single-transaction  --ignore-table=ocs-$USERNAME.paper_search_keyword_list --ignore-table=ocs-$USERNAME.paper_search_object_keywords --ignore-table=ocs-$USERNAME.paper_search_objects --result-file=/tmp/$USERNAME.sql
+```
 
 ## Error-reporting: Blank Pages, Diagnostics, etc.
 
 ### When I click some button or follow some link, I'm left with a blank page. What do I do?
 
-1. Check your webserver error log
+1: Check your webserver error log
 
 Usually, this indicates that a PHP error has occurred and the message has been sent to your web server or system log file. Check there – e.g. `/var/log/apache/error.log`, although the exact location will depend on your server configuration – for further details.
 
-2. Check your file permissions
+2: Check your file permissions
 
 If you haven’t installed OJS, OMP, or OCS yet, then the most likely cause is a problem with file permissions in your cache/ or cache/t_compile directories. See docs/README for information on file permissions.
 
-3. Further troubleshooting
+3: Further troubleshooting
 
 If you don’t have access to your server log file, you can try adding the following near the top of index.php to cause error messages to be sent to the browser:
 
