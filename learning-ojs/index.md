@@ -6,5 +6,6 @@ isBookIndex: true
 
 * [English](./en)
 * [Español](./es)
+* [Français](./fr)
 * [Suomi](./fi)
 * [العربية](./ar)

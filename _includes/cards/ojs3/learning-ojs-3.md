@@ -14,4 +14,4 @@ A visual, step-by-step guide to managing a journal with Open Journal Systems. [V
 
 ---
 
-<span class='fa fa-language'></span> Available in [العربية](/learning-ojs/ar/), [Suomi](/learning-ojs/fi/), and [Español](/learning-ojs/es/).
+<span class='fa fa-language'></span> Available in [العربية](/learning-ojs/ar/), [Español](/learning-ojs/es/), [Français](/learning-ojs/fr/), and [Suomi](/learning-ojs/fi/).
