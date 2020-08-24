@@ -2,6 +2,7 @@
 book: learning-ojs
 version: 3.2
 ---
+
 # Website Settings
 
 The Website Settings allow you to configure how your journal's website looks and operates. It consists of 3 main tabs for Appearance, Setup, and Plugins.
@@ -15,6 +16,7 @@ The Website Settings allow you to configure how your journal's website looks and
 The theme determines the overall design or layout of your site. Several different theme options are available and you can try them out without affecting your site's content or configuration.
 
 First you can ensure that all available themes have been enabled on your site.
+
 1. Go to the Plugins tab under Website Settings.
 2. Scroll to the bottom and find Theme Plugins.
 3. Check the box next to each plugin to enable it.
@@ -22,6 +24,7 @@ First you can ensure that all available themes have been enabled on your site.
 You can also look for additional themes in the Plugin Gallery and install and enable those.
 
 Now that you have all available themes, return to the Appearance tab to try out different themes.
+
 1. Under Theme you will see a drop-down list of themes. Select one.
 2. Scroll to the bottom of the page and click Save.
 3. The theme may have additional sub-themes or configuration options available. To make these appear, refresh the page in your browser.
@@ -59,6 +62,7 @@ Where you can upload your journal stylesheet, Favicon, and Additional Content.
 If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
 - **Journal Favicon**: Add a [favicon](https://en.wikipedia.org/wiki/Favicon) to display in the reader's browser address bar.
+
 - **Additional Content**: Any text entered here will appear on your homepage.
 
 Hit **Save** to record your changes.
@@ -79,7 +83,7 @@ To remove these fields and their contents from displaying publicly on the websit
 
 OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages on a single site or journal. When you install OJS, you can select one or more languages for your site.
 
-Under Website Settings > Languages you can see a list of languages or locales installed on your site and configure how the languages are used in your journal. Additional languages can be installed on your site by an Administrator – see [Chapter 4](https://docs.pkp.sfu.ca/learning-ojs/en/site-administration) for details.
+Under Website Settings > Languages you can see a list of languages or locales installed on your site and configure how the languages are used in your journal. Additional languages can be installed on your site by an Administrator – see [Chapter 4](./site-administration) for details.
 
 ![](./assets/learning-ojs3.1-jm-settings-web-lang.png)
 
@@ -105,11 +109,11 @@ Some menu item types will only be displayed under certain conditions. For exampl
 
 When you assign a Menu Item with display conditions to a Menu, you will see an icon of an eye with a slash through it. You can click that icon to learn more about when it will be displayed or hidden.
 
-- **Navigation Menu Items**: These are programmed links you can add to either menu above. If you wish to add a link to the Primary Menu \(e.g., "Our Society"\), add it here using the _Add Item_ link.
+- **Navigation Menu Items**: These are programmed links you can add to either menu above. If you wish to add a link to the Primary Menu (e.g., "Our Society"), add it here using the _Add Item_ link.
 
 ![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.png)
 
-It will now appear in the list of Navigation Menu Items. Next, go to the desired Navigation Menu \(e.g., Primary\), use the blue arrow to reveal the options, and choose Edit. You can now drag and drop it from Unassigned Menu Items to Assigned Menu Items and into the appropriate location on the menu.
+It will now appear in the list of Navigation Menu Items. Next, go to the desired Navigation Menu (e.g., Primary), use the blue arrow to reveal the options, and choose Edit. You can now drag and drop it from Unassigned Menu Items to Assigned Menu Items and into the appropriate location on the menu.
 
 ![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.png)
 
@@ -127,7 +131,7 @@ This section allows you to create and display news announcements on the journal'
 
 ### Lists
 
-Limit the number of items \(for example, submissions, users, or editing assignments\) to show in a list before showing subsequent items on another page. Also, limit the number of links to display to subsequent pages of the list.
+Limit the number of items (for example, submissions, users, or editing assignments) to show in a list before showing subsequent items on another page. Also, limit the number of links to display to subsequent pages of the list.
 
 ### Privacy Statement
 
@@ -160,6 +164,7 @@ Selecting the plugin title will provide additional details, including the author
 ### External Plugins
 
 Sometimes new plugins or plugins that are developed by folks outside of PKP will not appear in the Plugin Gallery and you need to install them separately.
+
 1. Download the tar.gz file of the plugin from its repository under the Releases tab.
 2. Go to Installed Plugins tab.
 3. At top right, click Upload a New Plugin.
@@ -174,7 +179,7 @@ Remember to hit Save to record the change.
 
 OJS 3 has a number of plugins that you can enable to help enhance the user experience and discoverability of your content and journal. This section will outline the different plugins available in OJS and how to configure and use them.
 
-As some of the plugins below are 3rd party plugins, it may require that you download the zip file from GitHub and upload it to your journal. For general information on plugins and how to install and enable plugins, please see [Learning OJS 3 - Plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins).
+As some of the plugins below are 3rd party plugins, it may require that you download the zip file from GitHub and upload it to your journal. For general information on plugins and how to install and enable plugins, please see [Learning OJS 3 - Plugins](./settings-website#plugins).
 
 Please note that as PKP does not maintain 3rd party plugins, we cannot guarantee that it will work with your version of OJS.
 
@@ -252,7 +257,7 @@ First, you need to enable and configure the Custom Header plugin, which allows y
 1. Go to Website Settings > Plugins and ensure the Custom Header plugin is installed and enabled
 2. Click the blue arrow next to the plugin name and click the **Settings** button that appears below
 3. Paste the following into the Header Content field:
-```
+```html
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
 4. Click **OK** to save it
@@ -265,11 +270,11 @@ Next, you need to create a custom block:
 4. Give the block a name, such as “Twitter”
 5. Above the **Content** field, click the **Source Code** button
 6. In the pop-up box that appears, paste the following content - except use your own Twitter account link and name:
-```
+```html
 <a class="twitter-timeline" href="https://twitter.com/asmecher?ref_src=twsrc%5Etfw">Tweets by asmecher</a>
 ```
 7. Additional custom timeline parameters can be added if you want, e.g:
-````
+````html
 <a class="twitter-timeline" "data-tweet-limit="3" ...
 ````
 8. Click **Save**
@@ -284,11 +289,11 @@ Another option is to use the [Twitter sidebar plugin](https://github.com/RBoelte
 
 #### Disqus plugin
 
-The [Disqus plugin](https://github.com/ajnyga/disqus) integrates with [Disqus](disqus.com) and allows users to add comments to the article pages. 
+The [Disqus plugin](https://github.com/ajnyga/disqus) integrates with [Disqus](https://disqus.com) and allows users to add comments to the article pages.
 
 The Disqus plugin is a third-party plugin and must be installed from its Github repository.
 
-After you install and enable the plugin, you must register for a Disqus account on the [Disqus website](disqus.com). When you register, choose the option to use Disqus on your website. Disqus offers free and paid plans and you must choose a plan when you register.
+After you install and enable the plugin, you must register for a Disqus account on the [Disqus website](https://disqus.com). When you register, choose the option to use Disqus on your website. Disqus offers free and paid plans and you must choose a plan when you register.
 
 When asked to register your **Website Name**, create a name based on your journal name. This will show up in Disqus feeds, email notifications, and your Community tab. For example, "pkpworkshopsjournal."
 
@@ -297,6 +302,7 @@ Skip the **Install Disqus** step and go to **Configure Disqus**. Enter your jour
 ![](./assets/learning-ojs-3.2-settings-plugin-disqus-configure-disqus.png)
 
 Now you can configure the Disqus plugin on your journal site:
+
 1. Go to Website Settings > Plugins
 2. Find the Disqus plugin
 3. Click the blue arrow next to the plugin name and **Settings** that will appear below
@@ -393,7 +399,7 @@ To configure the Usage Statistics Plugin, you must be an **Administrator**:
 
 1. Go to Settings > Website > Plugins.
 2. Under Generic Plugins, find the Usage Statistics Plugin.
-3.Click the blue arrow to the left of the plugin name to make links appear below the plugin.
+3. Click the blue arrow to the left of the plugin name to make links appear below the plugin.
 4. Click Settings.
 5. Scroll to the bottom of the pop-up box that opens to the section Statistics Display Options.
 6. Check the box beside the Display submission statistics chart for the reader.
@@ -403,6 +409,7 @@ To configure the Usage Statistics Plugin, you must be an **Administrator**:
 ![](./assets/learning-ojs-settings-plugin-usage-stats-2.png)
 
 Please note that:
+
 * Usage statistics can only be displayed for the current year. The plugin is reset at the beginning of each year.
 * The statistics being displayed indicate the number of times an article was downloaded.
 
@@ -411,6 +418,7 @@ Please note that:
 The **Static Pages plugin** allows you to create new pages on your journal website for additional content - for example, you could create a page that details your open access policies.
 
 To use the Static Pages plugin:
+
 * Go to Website Settings > Plugins and find the Static Pages plugin
 * Enable the plugin by checking the box beside it
 * Refresh the page in your browser. Now you should see a new tab next to **Plugins** called **Static Pages**.
@@ -429,6 +437,7 @@ To use the Static Pages plugin:
 After you create the page you will want to add it to your menu.  Instructions on how to do that are in the above section on **Navigation Menus**.
 
 To edit a page you created with the plugin:
+
 * Go to Website Settings > Static Pages
 * Click **Edit** next to the page you want to edit
 * You can preview the page as you’re working by clicking the **Preview** link at the bottom of the form
