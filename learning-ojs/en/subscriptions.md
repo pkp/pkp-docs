@@ -2,9 +2,10 @@
 book: learning-ojs
 version: 3.2
 ---
+
 # Subscriptions
 
-OJS allows you to restrict some or all of your content to subscribers. To enable Subscriptions, first go to [Settings &gt; Distribution &gt; Access](./distribution_settings.md).
+OJS allows you to restrict some or all of your content to subscribers. To enable Subscriptions, first go to [Settings > Distribution > Access](./settings-distribution.md).
 
 ## Subscription Policies
 
@@ -41,7 +42,7 @@ Select **Create New Subscription Type** to add a new one.
 
 ## Payment Types
 
-If you haven't already done so, go to [Settings &gt; Distribution &gt; Payments](./distribution_settings.md) and set the appropriate currency and payment method (e.g., PayPal).
+If you haven't already done so, go to [Settings > Distribution > Payments](./settings-distribution.md) and set the appropriate currency and payment method (e.g., PayPal).
 
 Use this page to set the amounts charged for various types of fees.
 
@@ -77,7 +78,7 @@ All types of individual subscriptions will appear here.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-indiv.png)
 
-You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for that person under Users & Roles (see [the User Accounts chapter](/learning-ojs/en/user-accounts)). Once that is done, you can search for the account here, and apply the different configurations.
+You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for that person under Users & Roles (see [the User Accounts chapter](./user-accounts)). Once that is done, you can search for the account here, and apply the different configurations.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-indiv-create.png)
 
@@ -103,13 +104,13 @@ All types of institutional subscriptions will appear here.
 
 Institutional subscriptions are managed similarly to individual subscriptions, but are used for libraries, research institutes, and other organizes that subscribe to your journal.
 
-You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for the institution's contact person under Users & Roles (see [the User Accounts chapter](/learning-ojs/en/user-accounts)). Once that is done, you can search for the account here, and apply the different configurations.
+You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for the institution's contact person under Users & Roles (see [the User Accounts chapter](./user-accounts)). Once that is done, you can search for the account here, and apply the different configurations.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-instit-create.png)
 
 - **Subscription Type**: Select the appropriate type for this new subscriber (e.g., Library) and its status (e.g., Active). (Subscription Types were configured earlier in this chapter.)
 - **Date**: Set the start and end dates for this subscription.
--  **Institution**: Add the name of the institution for this subscription (e.g., Simon Fraser University Library).
+- **Institution**: Add the name of the institution for this subscription (e.g., Simon Fraser University Library).
 - **Mailing Address**: Add the address of the institution.
 - **Domain**: Readers coming from a computer with this domain will automatically receive access (e.g., sfu.ca). This will apply to on-campus users.
 - **IP Ranges**: The institution may provide you with IP ranges. Readers using a computer in this IP range will automatically receive access. Each IP range should be entered as a new line.

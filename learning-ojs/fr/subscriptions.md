@@ -5,7 +5,7 @@ version: 3.2
 
 # Abonnements
 
-OJS vous permet de restreindre l'accés à tout ou juste une partie de votre contenu aux abonnés. Pour activer les Abonnements, accédez d'abord à [Paramètres > Distribution > Accès](./distribution_settings.md) .
+OJS vous permet de restreindre l'accés à tout ou juste une partie de votre contenu aux abonnés. Pour activer les Abonnements, accédez d'abord à [Paramètres > Distribution > Accès](./settings-distribution.md) .
 
 ## Politiques d'abonnement
 
@@ -42,7 +42,7 @@ Sélectionnez **Créer un Nouveau Type d'Abonnement** pour en ajouter un nouveau
 
 ## Types de Paiement
 
-Si vous ne l'avez pas déjà fait, allez dans [Paramètres > Distribution > Paiements](./distribution_settings.md) et définissez la devise et le mode de paiement appropriés (par exemple, PayPal).
+Si vous ne l'avez pas déjà fait, allez dans [Paramètres > Distribution > Paiements](./settings-distribution.md) et définissez la devise et le mode de paiement appropriés (par exemple, PayPal).
 
 Utilisez cette page pour définir les montants facturés pour différents types de frais.
 
@@ -78,7 +78,7 @@ Tous les types d'abonnements individuels apparaîtront ici.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-indiv.png)
 
-Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un Nouvel Abonnement. Cependant, vous devrez d'abord créer un nouveau compte pour cette personne sous Utilisateurs et Rôles (voir le[Chapitre Comptes d'Utilisateurs](/learning-ojs/en/user-accounts) ). Une fois que cela est fait, vous pouvez rechercher le compte ici et appliquer les différentes configurations.
+Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un Nouvel Abonnement. Cependant, vous devrez d'abord créer un nouveau compte pour cette personne sous Utilisateurs et Rôles (voir le [Chapitre Comptes d'Utilisateurs](./user-accounts) ). Une fois que cela est fait, vous pouvez rechercher le compte ici et appliquer les différentes configurations.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-indiv-create.png)
 
@@ -104,7 +104,7 @@ Tous les types d'abonnements institutionnels apparaîtront ici.
 
 Les abonnements institutionnels sont gérés de la même manière que les abonnements individuels, mais sont utilisés pour les bibliothèques, les instituts de recherche et autres organisations qui s'abonnent à votre revue.
 
-Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un nouvel abonnement. Cependant, vous devrez d'abord créer un nouveau compte pour la personne qui le point de contact avec l'institution sous Utilisateurs et Rôles (voir le[Chapitre Comptes d'Utilisateurs](/learning-ojs/en/user-accounts) ). Une fois que cela est fait, vous pouvez rechercher le compte ici et appliquer les différentes configurations.
+Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un nouvel abonnement. Cependant, vous devrez d'abord créer un nouveau compte pour la personne qui le point de contact avec l'institution sous Utilisateurs et Rôles (voir le [Chapitre Comptes d'Utilisateurs](./user-accounts) ). Une fois que cela est fait, vous pouvez rechercher le compte ici et appliquer les différentes configurations.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-instit-create.png)
 
