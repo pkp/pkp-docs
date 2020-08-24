@@ -15,9 +15,9 @@ Cliquez sur l'article afin d'ouvrir le dossier de soumission.
 
 ![](./assets/learning-ojs-3.2-se-production.png)
 
-Vous verrez que les fichiers copiés sont désormais disponibles dans le panneau **&nbsp;Fichiers prêts pour la production **.
+Vous verrez que les fichiers copiés sont désormais disponibles dans le panneau **Fichiers prêts pour la production** .
 
-Dans l'onglet **Production** , vous pouvez affecter des participants (comme un/une rédacteur-trice de mise en page) à l'étape de production du flux de travaux et communiquer avec les participants dans le panneau **Discussions sur la production** .
+Dans l'onglet **Production**, vous pouvez affecter des participants (comme un/une rédacteur-trice de mise en page) à l'étape de production du flux de travaux et communiquer avec les participants dans le panneau **Discussions sur la production** .
 
 ## Onglets de Publication
 
@@ -27,23 +27,30 @@ Tout ce qui concerne la publication d'une soumission se fait sous l'onglet Publi
 
 Voici un aperçu de ce à quoi servent les différents onglets de cette section. Des instructions détaillées sur certains d'entre eux sont disponibles plus loin dans le chapitre.
 
-**Titre et résumé** Utilisez cet onglet pour modifier le titre, le sous-titre et le résumé de l'article.
+**Titre et résumé**
+Utilisez cet onglet pour modifier le titre, le sous-titre et le résumé de l'article.
 
 Si des modifications sont apportées, cliquez sur Enregistrer avant de quitter cette fenêtre.
 
-**Contributeurs-trices** Utilisez cet onglet pour ajouter, modifier ou supprimer des contributeurs-trices à l'article.
+**Contributeurs-trices**
+Utilisez cet onglet pour ajouter, modifier ou supprimer des contributeurs-trices à l'article.
 
-**Métadonnées** Utilisez cet onglet pour ajouter ou modifier des mots-clés d'article.
+**Métadonnées**
+Utilisez cet onglet pour ajouter ou modifier des mots-clés d'article.
 
 Si des modifications sont apportées, cliquez sur Enregistrer avant de quitter cette fenêtre.
 
-**Références** Utilisez l'onglet références pour afficher ou ajouter une référence unique, tel qu'un DOI. Plus d'informations sur l'attribution et la gestion des DOI sont disponibles dans le [Guide du plugiciel DOI](https://docs.pkp.sfu.ca/doi-plugin/en/) .
+**Références**
+Utilisez l'onglet références pour afficher ou ajouter une référence unique, tel qu'un DOI. Plus d'informations sur l'attribution et la gestion des DOI sont disponibles dans le [Guide du plugiciel DOI](https://docs.pkp.sfu.ca/doi-plugin/en/) .
 
-**Épreuves** Utilisez l'onglet Épreuves pour téléverser le fichier final pour la publication. Ceci est expliqué ci-dessous.
+**Épreuves**
+Utilisez l'onglet Épreuves pour téléverser le fichier final pour la publication. Ceci est expliqué ci-dessous.
 
-**Autorisations et divulgation** Incluez des détails sur le titulaire du droit d'auteur et un lien vers la licence de l'article, le cas échéant. Celui-ci sera automatiquement renseigné en fonction de vos [Paramètres de Distribution](./settings-distribution.md) .
+**Autorisations et divulgation**
+Incluez des détails sur le titulaire du droit d'auteur et un lien vers la licence de l'article, le cas échéant. Celui-ci sera automatiquement renseigné en fonction de vos [Paramètres de Distribution](./settings-distribution.md).
 
-**Numéro** Utilisez l'onglet Numéro pour affecter l'article à un numéro de revue. Ceci est expliqué ci-dessous.
+**Numéro**
+Utilisez l'onglet Numéro pour affecter l'article à un numéro de revue. Ceci est expliqué ci-dessous.
 
 ### Soumissions Multilingues
 
@@ -75,11 +82,13 @@ L'utilisateur a maintenant été averti par courriel et dans le tableau de bord.
 
 ![](./assets/learning-ojs-3.2-se-production-participants-added.png)
 
-Vous pouvez maintenant voir le/la Rédacteur-trice de Mise en Page dans la liste des Participants et vous pouvez voir l'avis de demande dans le Panneau Discussions sur la production. Vous pouvez maintenant attendre que le/la rédacteur-trice de mise en page termine ses tâches.
+Vous pouvez maintenant voir le/la Rédacteur-trice de Mise en Page dans la liste des Participants et vous pouvez voir l'avis de demande dans le Panneau Discussions sur la production.
+Vous pouvez maintenant attendre que le/la rédacteur-trice de mise en page termine ses tâches.
 
 ### Rédaction de la mise en page
 
-En tant que rédacteur-trice de mise en page, vous aurez reçu un message vous invitant à créer les épreuves pour la soumission. Pour commencer, connectez-vous au système et accédez à votre tableau de bord.
+En tant que rédacteur-trice de mise en page, vous aurez reçu un message vous invitant à créer les épreuves pour la soumission.
+Pour commencer, connectez-vous au système et accédez à votre tableau de bord.
 
 ![](./assets/learning-ojs-3.2-le-dashboard.png)
 
@@ -127,9 +136,11 @@ D'autres formats peuvent nécessiter des plugiciels supplémentaires ou peuvent 
 
 #### Utiliser des Modèles
 
-Exiger que toutes les soumissions utilisent un modèle de document préformaté avec les styles de publication de votre journal (par exemple, la police, la taille de police, les caractères gras, l'emplacement, etc., de l'en-tête, du corps, des pieds de page, etc.) peut rendre la conversion de votre document beaucoup plus facile. [Microsoft fournit un bref aperçu de la création de modèles dans MS Word](https://support.office.com/en-us/article/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb) .
+Exiger que toutes les soumissions utilisent un modèle de document préformaté avec les styles de publication de votre journal (par exemple, la police, la taille de police, les caractères gras, l'emplacement, etc., de l'en-tête, du corps, des pieds de page, etc.) peut rendre la conversion de votre document beaucoup plus facile.
+[Microsoft fournit un bref aperçu de la création de modèles dans MS Word](https://support.office.com/en-us/article/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb) .
 
-Une fois que vous avez créé un modèle qui correspond au style de votre revue, il peut être utile pour la soumission d'auteurs-es, de rédacteurs-trices de mise en page ou d'autres utilisateurs. Voici un exemple de revue OJS qui oblige les auteurs-es à télécharger et à utiliser un fichier modèle: [Paideusis](https://journals.sfu.ca/pie/index.php/pie#authorGuidelines) .
+Une fois que vous avez créé un modèle qui correspond au style de votre revue, il peut être utile pour la soumission d'auteurs-es, de rédacteurs-trices de mise en page ou d'autres utilisateurs.
+Voici un exemple de revue OJS qui oblige les auteurs-es à télécharger et à utiliser un fichier modèle: [Paideusis](https://journals.sfu.ca/pie/index.php/pie#authorGuidelines) .
 
 Idéalement, votre modèle doit être créé à l'aide de styles plutôt que d'un formatage direct. Cela garantit non seulement la cohérence de tous vos documents, mais aidera également toutes les conversions vers d'autres formats (par exemple, HTML). Voici une [explication de la différence entre les styles et la mise en forme directe dans Word](https://support.office.com/en-us/article/Style-basics-in-Word-d382f84d-5c38-4444-98a5-9cbb6ede1ba4?CorrelationId=1b00844c-a9dc-4d62-98df-a966f30d4b20&ui=en-US&rs=en-US&ad=US&ocmsassetID=HA010230882)
 
@@ -171,9 +182,10 @@ Afin de styliser un fichier épreuve HTML individuel:
 - Lors de la création du fichier épreuve HTML, assurez-vous qu'il inclut une référence à la feuille de style dans la section `<head>` , par exemple `<link rel="stylesheet" href="./article_styles.css" type="text/css" />`
 - Téléversez le fichier épreuve HTML (voir ci-dessous pour savoir comment **ajouter des fichiers épreuves**)
 - Modifier le fichier épreuve
-- Téléversez les feuilles de style CSS avec le **&nbsp;type d'élément - feuille de style HTML ** approprié.
+- Téléversez les feuilles de style CSS avec le **type d'élément - feuille de style HTML** approprié.
 
-Pour styliser tous les fichiers épreuves HTML: Si vous utilisez un plugiciel de thème personnalisé, vous pouvez écrire une ligne de code pour inclure un style personnalisé pour toutes les épreuves HTML. Cela ne s'appliquera qu'aux fichiers épreuve HTML qui n'ont pas de style appliqué individuellement. Plus d'informations sur le thème personnalisé sont disponibles dans le [guide sur les thème PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) .
+Pour styliser tous les fichiers épreuves HTML:
+Si vous utilisez un plugiciel de thème personnalisé, vous pouvez écrire une ligne de code pour inclure un style personnalisé pour toutes les épreuves HTML. Cela ne s'appliquera qu'aux fichiers épreuve HTML qui n'ont pas de style appliqué individuellement. Plus d'informations sur le thème personnalisé sont disponibles dans le [guide sur les thème PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) .
 
 ##### Ajoutez des images et du multimédia à une épreuve HTML
 
@@ -191,7 +203,7 @@ Vous devrez enregistrer le fichier audio/vidéo/image au format MP3/MP4/JPEG/GIF
 
 Votre fichier HTML devra contenir le code minimum suivant (pour les fichiers audio). Pour le code vidéo ou du fichier image associé, veuillez consulter les instructions de w3schools sur l'incorporation de vidéo en HTML ou les instructions sur l'incorporation d'images en HTML.
 
-```
+```html
 <html>
 <head>
 <title>MP3 upload</title>
@@ -214,14 +226,14 @@ Assurez-vous que les fichiers «Multimédia» et/ou «Image» sont configurés c
 Revenez maintenant à la soumission pour téléverser une feuille de style HTML pour afficher votre fichier multimédia. Voir ci-dessous pour savoir comment **ajouter des fichiers épreuves** . De plus, lorsque vous téléversez le fichier:
 
 - Étiquetez l'épreuve en fonction du type de fichier multimédia (par exemple, MP3, MP4, Image)
-- Sélectionnez **&nbsp;Feuille de style HTML ** dans la liste déroulante **&nbsp;Éléments d'article **.
+- Sélectionnez **Feuille de style HTML** dans la liste déroulante **Éléments d'article** .
 - Téléversez le fichier HTML que vous avez préparé avec au moins le code minimum (instructions ci-dessus)
 - Cliquez sur **Continuer**
-- Dans l'onglet **&nbsp;Examiner les détails **, vous pouvez téléverser des fichiers reliés. C'est ici que vous téléversez le fichier MP3/MP4/image.
+- Dans l'onglet **Examiner les détails**, vous pouvez téléverser des fichiers reliés. C'est ici que vous téléversez le fichier MP3/MP4/image.
 
 ![](./assets/learning-ojs3.2-ed-prod-multimed-dep-file.png)
 
-Sélectionnez **&nbsp;Multimédia ** ou **&nbsp;Image ** dans le menu déroulant **&nbsp;Éléments d'Article **, puis importez le fichier MP3, MP4 ou l'image.
+Sélectionnez **Multimédia** ou **Image** dans le menu déroulant **Éléments d'Article**, puis importez le fichier MP3, MP4 ou l'image.
 
 ![](./assets/learning-ojs3.2-ed-prod-upload-multimedia.png)
 
@@ -235,7 +247,7 @@ Cliquez sur **Continuer** pour terminer le téléversement, vérifiez les détai
 
 #### Fichiers ePUB
 
-Semblables aux fichiers HTML, les fichiers ePub sont idéaux pour les appareils mobiles mais nécessitent un codage spécialisé pour leur création. Des outils de conversion sont disponibles, tels que [Calibre](https://calibre-ebook.com/) . Des instructions plus détaillées pour créer des fichiers ePub sont [disponibles ici](https://www.wikihow.com/Convert-a-Word-Document-to-Epub) .
+Semblables aux fichiers HTML, les fichiers ePub sont idéaux pour les appareils mobiles mais nécessitent un codage spécialisé pour leur création. Des outils de conversion sont disponibles, tels que [Calibre](https://calibre-ebook.com/). Des instructions plus détaillées pour créer des fichiers ePub sont [disponibles ici](https://www.wikihow.com/Convert-a-Word-Document-to-Epub).
 
 Comme les fichiers HTML, un nettoyage supplémentaire peut être nécessaire après la conversion et [nécessite une certaine connaissance](http://www.jedisaber.com/eBooks/Introduction.shtml) du format.
 
@@ -395,7 +407,7 @@ Vous pouvez vérifier les métadonnées de la soumission en accédant à **Soumi
 
 ### Ajouter l'Article à une Catégorie
 
-Les catégories peuvent être utilisées pour organiser vos articles en collections thématiques. Si vous utilisez des catégories dans votre revue, vous pouvez éventuellement ajouter l'article à une ou plusieurs catégories. Pour savoir comment créer des catégories, consultez le [ Chapitre sur les Paramètres de la Revue ](./journalsetup.md). Vous pouvez ajouter l'article à une catégorie en modifiant ses métadonnées.
+Les catégories peuvent être utilisées pour organiser vos articles en collections thématiques. Si vous utilisez des catégories dans votre revue, vous pouvez éventuellement ajouter l'article à une ou plusieurs catégories. Pour savoir comment créer des catégories, consultez le [Chapitre sur les Paramètres de la Revue](./journalsetup.md). Vous pouvez ajouter l'article à une catégorie en modifiant ses métadonnées.
 
 - Dans la soumission d'article, allez dans l'onglet **Publication**
 - Cliquez sur **Numéro**
@@ -413,12 +425,10 @@ La première chose à faire est d'activer les références en tant que champ de 
 1. Accédez à Paramètres du flux de travaux > Soumission > Métadonnées
 2. Faites défiler jusqu'à **Références** et cochez **Activer la métadonnée « Références »**
 3. De nouvelles options apparaîtront ci-dessous et vous pouvez choisir entre
-
-- Ne pas demander de références à l'auteur-e pendant la soumission - le champ Références ne sera pas sur le formulaire de soumission et à la place des références peuvent être ajoutées par un/une rédacteur-trice
-- Demander à l'auteur-e de fournir des références pendant la soumission - le champ Références sera sur le formulaire de soumission et les auteurs-es peuvent éventuellement y ajouter leurs références, ou un/une rédacteur-trice peut ajouter des références à la soumission plus tard
-- Obliger l'auteur-e à fournir des références avant d'accepter sa soumission - le champ Références sera sur le formulaire de soumission et les auteurs-es devront y ajouter leurs références
-
-1. Cliquez sur **Enregistrer**
+   - Ne pas demander de références à l'auteur-e pendant la soumission - le champ Références ne sera pas sur le formulaire de soumission et à la place des références peuvent être ajoutées par un/une rédacteur-trice
+   - Demander à l'auteur-e de fournir des références pendant la soumission - le champ Références sera sur le formulaire de soumission et les auteurs-es peuvent éventuellement y ajouter leurs références, ou un/une rédacteur-trice peut ajouter des références à la soumission plus tard
+   - Obliger l'auteur-e à fournir des références avant d'accepter sa soumission - le champ Références sera sur le formulaire de soumission et les auteurs-es devront y ajouter leurs références
+4. Cliquez sur **Enregistrer**
 
 ![](./assets/learning-ojs3.2-ed-prod-enable-references.png)
 

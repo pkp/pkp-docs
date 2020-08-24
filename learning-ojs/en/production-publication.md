@@ -2,6 +2,7 @@
 book: learning-ojs
 version: 3.2
 ---
+
 # Chapter 15: Production and Publication
 
 With the completion of the Copyediting stage, the submission now moves to Production. From here, the copyedited files will be converted to publishable formats in the form of galley files (e.g., PDF, HTML) and proofread before publishing. A new journal issue will be created and the article will be scheduled for publication in the issue. This chapter explains the steps in that process, as well as how to use the versioning feature in OJS 3.2 to publish a new version of an article if significant changes are made.
@@ -108,16 +109,18 @@ A Galley is the final publication-ready file that has been prepared for readers 
 When you upload a galley file, you will need to select a **Component Type**. These are the same component types that authors select from when they upload submission files. You can configure component types under Workflow Settings > Submission > Components, according to whether you want the component type to be published and whether you want a link to it to appear on the article landing page or in the table of contents.
 
 The configurations are as follows:
+
 * Dependent: the link will not appear with published content at all
 * Supplementary: The link will appear on the article landing page
 * Neither supplementary nor dependent: The link will appear on the article landing page and in the table of contents
 
 For example, if you want to embed multimedia files in HTML files and have these appear on the landing page, the issue page, and the submission page, you would configure the settings as follows:
+
 * Go to Settings > Workflow > Submission > **Components** tab
 * Click the blue arrow next to **HTML Stylesheet** and **Edit**
 * Uncheck “Mark files of this type as dependent files” and “Mark files of this type as supplementary files”. Click **Save**.
 * Click the blue arrow next to **Multimedia** and **Edit**
-* Uncheck “Mark files of this type as supplementary files.” Leave “Dependent files” checked off. Click **Save**.
+* Uncheck “Mark files of this type as supplementary files”. Leave “Dependent files” checked off. Click **Save**.
 
 #### Galley file formats
 
@@ -154,6 +157,7 @@ Example (see PDF link at bottom of page): [Irish Journal of Technology Enhanced 
 HTML files have the advantage of flexibility. They handle linking and multimedia very well, and can fit on just about any screen - including phones and tablets. They do, however, look different than a printed page, so some readers prefer a PDF. The ideal situation is to provide both PDF and HTML files to best meet the needs of different users.
 
 Creating an HTML file can require more time and effort than creating PDF files. Word processors do not have effective tools for doing a “Save As” to HTML. Microsoft Word tries to do this, but the results are not useful for uploading to OJS. Instead, try following this workflow:
+
 * Convert the Word document. You can use [this free online tool](https://word2cleanhtml.com/) to do an initial conversion.
 * Open the resulting HTML files in a text editor (e.g., NotePad in Windows) or HTML editor (e.g., Adobe Dreamweaver). From here, you will need to make any final clean up or formatting. Understanding the basics of HTML is required. There are many [free tutorials](https://www.w3schools.com/html/), but it does take some time.
 * Keep the HTML formatting basic. Just focus on paragraphs, line breaks, headings, and links. Don’t worry about fonts, colours, or other design elements - OJS will take care of all of that automatically as part of the overall journal design.
@@ -161,9 +165,11 @@ Creating an HTML file can require more time and effort than creating PDF files. 
 * The HTML viewer renders HTML files within an iframe, which may affect navigation to hyperlinked web pages. You can bypass this feature by opening hyperlinks in a new browser tab, by adding the `target="_blank"` attribute to your href tags.
 
 A few example HTML templates can be found and adapted from these sources:
+
 * [Resource by U of A](https://drive.google.com/file/d/1mCP0tguFJf7jJn_CNceEwvRn5eCJrvxP/view) - License: CC0 1.0 Universal (CC0 1.0)
 
 Examples (see HTML link at bottom of the page):
+
 * [Cultural Anthropology](https://journal.culanth.org/index.php/ca/article/view/4434)
 * [Evidence Based Library & Information Practice](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621)
 
@@ -172,6 +178,7 @@ Examples (see HTML link at bottom of the page):
 It is possible to style the design of your HTML galley files in bulk or on an individual per-article basis. Styling in bulk can only be done if you are using a custom theme.
 
 To style an individual HTML galley file:
+
 * While creating the HTML galley file, ensure that it includes a reference to the stylesheet in the `<head>` section, e.g. `<link rel="stylesheet" href="./article_styles.css" type="text/css" />`
 * Upload the HTML galley file (see below for instructions on how to **Add Galley Files**)
 * Edit the galley file
@@ -185,6 +192,7 @@ If you are using a custom theme plugin, you can write a line of code to include 
 If you would like to include images or multimedia files in an HTML galley file, you can upload them as Dependent Files to the submission, and link to them within the file to display them.
 
 Before beginning the item upload, you will need an HTML page containing one of the following:
+
 * `<audio controls>` element (for MP3)
 * `<video>` element (for MP4), or
 * `<img src=”imagename”>` tag for images
@@ -195,7 +203,7 @@ You will need to save the audio/video/image file in MP3/MP4/JPEG/GIF format usin
 
 Your HTML file will need to contain the following minimum code (for audio files). For the related video or image file code, please see the w3schools instructions on embedding video in HTML or instructions on embedding images in HTML.
 
-```
+```html
 <html>
 <head>
 <title>MP3 upload</title>
@@ -216,6 +224,7 @@ Make sure you have “Multimedia” and/or “Image” files configured as “de
 ![](./assets/learning-ojs3.2-ed-prod-multimedia-component-edit.png)
 
 Now go back to the submission to upload an HTML stylesheet to display your multimedia file. See below for instructions on how to **Add  Galley Files**. In addition, when you upload the file:
+
 * Label the galley according to the multimedia file type (e.g., MP3, MP4, Image)
 * Select **HTML Stylesheet** from the **Article Component** dropdown
 * Upload the HTML file you prepared with at least the minimum code (instructions above)
@@ -271,6 +280,7 @@ Example: [Intersectional Apocalypse](https://journals.lib.sfu.ca/index.php/ifj/a
 ##### Upload a multimedia file linked from an external site
 
 Upload the multimedia galley file in the Production stage of the workflow. See below for instructions on how to **Add Galley Files**. In addition, when you upload the file:
+
 * Label the galley according to the multimedia file type (e.g., MP3/MP4)
 * Check the box indicating “This galley will be available at a separate website”
 
@@ -332,11 +342,11 @@ Then click **Add galley**, which will open a new window.
 
 ![](./assets/learning-ojs-3-au-production-galleys-upload1.png)
 
-Add an appropriate label \(e.g., PDF, HTML, etc.\) and click **Save**.
+Add an appropriate label (e.g., PDF, HTML, etc.) and click **Save**.
 
 ![](./assets/learning-ojs-3-au-production-galleys-upload2.png)
 
-From this window, choose the appropriate article component \(e.g., article text\) and upload the galley file. Click **Continue**.
+From this window, choose the appropriate article component (e.g., article text) and upload the galley file. Click **Continue**.
 
 ![](./assets/learning-ojs-3-au-production-galleys-upload3.png)
 
@@ -411,6 +421,7 @@ Categories can be used to organize your articles into thematic collections. If y
 If you would like to display the article’s bibliographic references on the article page with linked DOIs, and submit the references to Crossref with the rest of the article’s metadata, you can use the “Extract and save references” feature. This feature can only be used if you’re using the DOI plugin and the Crossref plugin to export your metadata to Crossref. The feature will store each reference in the database as a separate reference and add the DOI to the reference on the article page. It will also make it easier for indexing services, such as Google Scholar, identify and index the article’s citations.
 
 The first thing you must do is enable References as a submission metadata field.
+
 1. Go to Workflow Settings > Submission > Metadata
 2. Scroll down to **References** and check off **Enable references metadata**
 3. New options will appear below and you can select to either 
@@ -421,20 +432,20 @@ The first thing you must do is enable References as a submission metadata field.
 
 ![](./assets/learning-ojs3.2-ed-prod-enable-references.png)
 
-Now if you go to a submission record’s **Publication** tab you will see a **References** tab below. An editor can open the tab and copy and paste the article's references into the field. In addition, if you checked the second or third option above, there will be a **References** field when an author makes a submission and the author will be able to add their references to it. 
+Now if you go to a submission record’s **Publication** tab you will see a **References** tab below. An editor can open the tab and copy and paste the article's references into the field. In addition, if you checked the second or third option above, there will be a **References** field when an author makes a submission and the author will be able to add their references to it.
 
 Each reference should be on a separate line and you should sure the text you paste into the field is unformatted and has no extra line breaks or spaces. Remove any DOIs in the references if you plan to add them later with the Crossref Reference Linking plugin.
 
 When the article is published, the references will appear on the article page and the references will be submitted to CrossRef.
 
-After you have exported the article’s metadata to Crossref, you can insert the DOIs for the article references from Crossref if you use the Crossref Reference Linking plugin. Instructions on how to use the plugin are available in the [Crossref Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references). 
+After you have exported the article’s metadata to Crossref, you can insert the DOIs for the article references from Crossref if you use the Crossref Reference Linking plugin. Instructions on how to use the plugin are available in the [Crossref Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references).
 
 Once you have the plugin set up and have exported the article's metadata to Crossref, you can insert the DOIs from Crossref back into the references:
+
 1. Open the submission
 2. Go to the **Publication** tab and **References**
 3. Click **Check Crossref DOIs**
 4. Some DOIs will now be added to the references
-
 
 ## Create Issue
 
@@ -489,6 +500,7 @@ If you go to Journal Settings > Sections and edit a section, you can configure h
 You can also drag and drop the sections to change the order of how they will appear on your published issue.
 
 If you want to change the order of sections on a per issue basis or the order of articles within a section:
+
 * Go to **Issues** and open the issue you want to edit
 * Click **Order**
 * Drag and drop the sections and articles where you want them
@@ -497,6 +509,7 @@ If you want to change the order of sections on a per issue basis or the order of
 ### Preview Issue and Articles
 
 If you want to see what your issue and the articles in it will look like on your site before publishing it, you can use the Preview feature:
+
 * Click the blue arrow next to the future issue
 * Click **Preview**
 * The issue preview page will open. To preview an article, click the article title in the table of contents.
@@ -561,6 +574,7 @@ Only a Journal Editor can schedule an article for publication, not a Section Edi
 The article must have been assigned to an issue and passed the Review stage in order to be able to schedule it for publication.
 
 When you are ready to publish the article:
+
 * Open the submission
 * Go to the **Publication** tab
 * Click the blue **Schedule for Publication** button.
@@ -624,10 +638,11 @@ Example of an outdated version message on the PDF galley page:
 The article URL will always point to the most recent version, with earlier versions being available at the same URL with the version at the end of the URL (e.g. /version/1234/).
 
 ### DOIs and Indexing of Versions
+
 Where a DOI was assigned to the original version, it will not be changed automatically. Previously deposited CrossRef metadata will not be automatically updated. If article metadata was changed, we recommend updating CrossRef metadata in the CrossRef XML Export Plugin by manually depositing the updated article. For instructions on how to manually deposit an article see the PKP’s [CrossRef Plugin Guide - Manual Deposits](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits).
 
 Indexing services and repositories that use OAI to harvest metadata will need to harvest the article metadata again in order to update to the new version.
 
-The new version will be tagged properly to be recognized and updated by Google Scholar's index, but the harvester will need to visit your site again in order to find the new version.  
+The new version will be tagged properly to be recognized and updated by Google Scholar's index, but the harvester will need to visit your site again in order to find the new version.
 
 It is best to check with a particular repository or index to learn what their process is and what they require.
