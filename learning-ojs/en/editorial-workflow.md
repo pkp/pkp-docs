@@ -2,6 +2,7 @@
 book: learning-ojs
 version: 3.2
 ---
+
 # Editorial Workflow
 
 In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
@@ -39,6 +40,7 @@ Use the checkbox to mark tasks for deletion \(the link is available at the botto
 When an author makes a new submission to your journal, the editor is automatically emailed a notification and the author will receive an email acknowledging their submission. You can also configure OJS so that a copy of the notification email is sent to the journal’s primary contact set in Journal Settings, or to another address.
 
 To enable copies of submission acknowledgment email to be sent to the primary contact or another address:
+
 1. In the Journal Manager’s dashboard, go to Settings > Workflow > Submissions
 2. Scroll down to Notification of Author Submissions
 3. Check off the box next to “Send a copy to the primary contact, identified in the Journal Settings.” if you wish for a copy to be sent to the primary contact email, and/or
@@ -46,13 +48,13 @@ To enable copies of submission acknowledgment email to be sent to the primary co
 
 ![](./assets/learning-ojs3.1-configure-submission-notification.png)
 
-If you want to disable submission acknowledgement emails entirely, you can do so by disabling the *Submission Ack* email template from the list of prepared email templates. To learn more about disabling and enabling email templates, refer to *Disable email templates* in the [Workflow Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings).
+If you want to disable submission acknowledgement emails entirely, you can do so by disabling the *Submission Ack* email template from the list of prepared email templates. To learn more about disabling and enabling email templates, refer to *Disable email templates* in the [Workflow Settings chapter](./journal-setup#workflow-settings).
 
 Users can also change their individual notification settings from their own profile under View Profile > Notifications.
 
 ## Submission Dashboard
 
-When you log into your Dashboard, you can find active submissions either from your Tasks, or from one of the queues \(My Queue, Unassigned, All Active, and Archives\). The counter gives you an overview of how many total items are in each queue.
+When you log into your Dashboard, you can find active submissions either from your Tasks, or from one of the queues (My Queue, Unassigned, All Active, and Archives). The counter gives you an overview of how many total items are in each queue.
 
 ![](./assets/learning-ojs3.2-ed-dashboard-active.png)
 
@@ -62,7 +64,7 @@ When you log into your Dashboard, you can find active submissions either from yo
 
 The **Search** tool for each queue can sometimes be helpful in tracking down submissions.
 
-The **Filter** tool allows you to limit your browsing to specific status \(e.g., incomplete, overdue,inactive for 30 days\) stages \(submission, review, copyediting, production\), or sections \(e.g., articles, reviews\) for faster searching.
+The **Filter** tool allows you to limit your browsing to specific status (e.g., incomplete, overdue,inactive for 30 days) stages (submission, review, copyediting, production), or sections (e.g., articles, reviews) for faster searching.
 
 ![](./assets/learning-ojs3.2-ed-dashboard-filter.png)
 
@@ -96,7 +98,7 @@ For this demonstration, we are looking for the Williamson and Serletis submissio
 
 ![](./assets/learning-ojs3.1-ed-dashboard-active.png)
 
-Once you find the submission, you can use the blue arrow to reveal options to see if there are any open discussion \(there are none\), as well as to view the submission, view the activity logs and note, or to delete the submission.
+Once you find the submission, you can use the blue arrow to reveal options to see if there are any open discussion (there are none), as well as to view the submission, view the activity logs and note, or to delete the submission.
 
 ![](./assets/learning-ojs3.1-ed-submission-details.png)
 
@@ -122,19 +124,18 @@ From here, you can see:
 
 > Note: If you don't see these buttons, you likely have not yet assigned the submission to an editor.
 
-**Submission Status** Once an editor has recorded a decision in one stage of the workflow of OJS 3.2, the recorded decision will appear in place of the decision buttons. Editors will still have the ability to change the recorded decision by clicking, ‘Change Decision’ this will enable the 3 options once again. 
+**Submission Status** Once an editor has recorded a decision in one stage of the workflow of OJS 3.2, the recorded decision will appear in place of the decision buttons. Editors will still have the ability to change the recorded decision by clicking, ‘Change Decision’ this will enable the 3 options once again.
 
 ![](./assets/learning-ojs3.2_edflow_decisionstatus.png)
-*The screenshot above shows the decision button for MS# 425 prior to a decision being recorded. The screenshot below shows the notification of the recorded decision.* 
+*The screenshot above shows the decision button for MS# 425 prior to a decision being recorded. The screenshot below shows the notification of the recorded decision.*
 
 ![](./assets/learning-ojs3.2_edflow_decisionstatus2.png)
 
-
-**Participants**: This panel is where you will see the list of participants involved in the submission, including the editor, section editors, and author. Other names \(copyeditors, layout editors, etc.\) will appear here as they are added in subsequent steps.
+**Participants**: This panel is where you will see the list of participants involved in the submission, including the editor, section editors, and author. Other names (copyeditors, layout editors, etc.) will appear here as they are added in subsequent steps.
 
 In addition, in the blue bar along the top, you can see:
 
-**Metadata**: Where you can view and revise the submission metadata. In OJS 3.2, users can be granted permission to revise certain submission metadata at any stage of the workflow. 
+**Metadata**: Where you can view and revise the submission metadata. In OJS 3.2, users can be granted permission to revise certain submission metadata at any stage of the workflow.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
 
@@ -157,6 +158,7 @@ Use the Notes tab to also view or add any editorial notes.
 ![](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
 
 ### Granting Author permissions
+
 In OJS 3.2, editors can grant access to allow authors to make metadata changes.
 There are two ways editors can grant this type of access.
 
@@ -288,7 +290,7 @@ Further down the form, you will see the additional details that are sent to the 
 
 ![](./assets/learning-ojs-3-ed-rev-add-4.png)
 
-By default, Reviewers will be provided with an extended text box to type in their comments. However, the Journal Manager can create Review Forms in [**Workflow Settings &gt; Review**](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings) to ask more focused questions. If you would like the Reviewer to fill out a review form, select it under **Review Form**.
+By default, Reviewers will be provided with an extended text box to type in their comments. However, the Journal Manager can create Review Forms in [**Workflow Settings &gt; Review**](./journal-setup#workflow-settings) to ask more focused questions. If you would like the Reviewer to fill out a review form, select it under **Review Form**.
 
 Hit the **Add Reviewer** button to send the message and assign the Reviewer.
 
@@ -315,23 +317,26 @@ You can make additional changes using the blue arrow toggle next to the Reviewer
 **Unassign Reviewer**: Allows you to unassign the Reviewer.
 
 **Cancel Review Request**: Starting in OJS 3.2, you can cancel a review request. This may be necessary when a reviewer has not responded to a review request or accepted to do a review but never delivered.
+
 ![Cancel reviewer option](./assets/learning-ojs-3.2-cancel-reviewer.png)
 
 Cancelling a review request will permit you to send a template email to the reviewer. The request will then show up in the editor's reviewer list as "cancelled".
+
 ![Request cancelled](./assets/learning-ojs-3.2-reviewer-cancelled.png)
 
 Cancelled review will be recorded in reviewer stats that you can see when selecting a reviewer.
+
 ![Cancelled requests in reviewer stats](./assets/learning-ojs-3.2-cancelled-reviews-tracker.png)
 
 **Review Discussion**: Review Discussion is another way for you to contact a reviewer. In a review discussion, you have the option to attach files.
 
 To start a discussion, click ‘Add Discussion.’
+
 ![](./assets/learning-ojs3.2-rev-contact2.png)
 
 You will then select the reviewer(s) you would like to start a discussion with.
 
 ![](./assets/learning-ojs3.2-rev-contact3.png)
-
 
 **History**: Provides a brief history of the review.
 
@@ -483,7 +488,7 @@ Use the **Add Reviews** button to import the Reviewer's comments from the Editor
 
 ![](./assets/learning-ojs-3-ed-rev-req-revisions3.png)
 
-If there are any attachments, such as a marked up file created by a Reviewer, you can attach it here \(as long as it has been anonymized\).
+If there are any attachments, such as a marked up file created by a Reviewer, you can attach it here (as long as it has been anonymized).
 In OJS 3.1.2 and later, you can also upload a new file and add it as an attachment.
 
 Hit the **Record Editorial Decision** button to send the message.
@@ -492,7 +497,7 @@ You must now wait for the Author to respond with their revisions.
 
 ### Author Responds
 
-Once the Author has made the revisions, you should receive a message \(via email and the Review Discussions panel\).
+Once the Author has made the revisions, you should receive a message (via email and the Review Discussions panel).
 
 ![](./assets/learning-ojs-3-ed-discussion-panel.png)
 
@@ -669,7 +674,6 @@ Once you hear back from the author, you can review their feedback by checking th
 From here, you can see no further changes are required.
 
 ![](./assets/learning-ojs-3-se-author-copyedits-reply.png)
-
 
 ### The Final Copyedited File
 

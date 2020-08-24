@@ -48,7 +48,7 @@ Pour permettre l'envoi de copies de l'email confirmant la soumission au contact 
 
 ![](./assets/learning-ojs3.1-configure-submission-notification.png)
 
-Si vous souhaitez désactiver l'envoi d'emails confirmant la soumission, vous pouvez faire cela en désactivant le modèle d'email *Acusé de Soumission* de la liste des modèles d'email préparés. Pour plus d'informations sur l'activation et la désactivation de modèles d'emails, voir *Désactiver des modèles d'emails* dans le [Chapitre Paramètres de Flux des Travaux](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings).
+Si vous souhaitez désactiver l'envoi d'emails confirmant la soumission, vous pouvez faire cela en désactivant le modèle d'email *Acusé de Soumission* de la liste des modèles d'email préparés. Pour plus d'informations sur l'activation et la désactivation de modèles d'emails, voir *Désactiver des modèles d'emails* dans le [Chapitre Paramètres de Flux des Travaux](./journal-setup#workflow-settings).
 
 Les utilisateurs peuvent aussi modifier leurs paramètres de notification individuels à partir de leur propre profil sous Afficher le Profil > Notifications.
 
@@ -126,7 +126,8 @@ De là, vous pouvez voir:
 
 **État de la Soumission** Une fois qu'un(e) rédacteur/trice a enregistré une décision dans un stade du flux des travaux d'OJS 3.2, la décision enregistrée apparaîtra à la place des boutons de décision. Les rédacteurs auront toujours la possibilité de modifier la décision enregistrée en cliquant sur «Modifier la Décision», cela activera à nouveau les 3 options.
 
-![](./assets/learning-ojs3.2_edflow_decisionstatus.png) *La capture d'écran ci-dessus montre le bouton de décision pour MS# 425 avant l'enregistrement d'une décision. La capture d'écran ci-dessous montre la notification de la décision enregistrée.*
+![](./assets/learning-ojs3.2_edflow_decisionstatus.png)
+*La capture d'écran ci-dessus montre le bouton de décision pour MS# 425 avant l'enregistrement d'une décision. La capture d'écran ci-dessous montre la notification de la décision enregistrée.*
 
 ![](./assets/learning-ojs3.2_edflow_decisionstatus2.png)
 
@@ -158,7 +159,8 @@ Utilisez l'onglet Notes pour afficher ou ajouter des notes éditoriales.
 
 ### Accorder des Autorisations d'Auteur
 
-Dans OJS 3.2, les rédacteurs peuvent accorder l'accès pour permettre aux auteurs d'apporter des modifications aux métadonnées. Il y a deux façons dont les rédacteurs peuvent accorder ce type d'accès.
+Dans OJS 3.2, les rédacteurs peuvent accorder l'accès pour permettre aux auteurs d'apporter des modifications aux métadonnées.
+Il y a deux façons dont les rédacteurs peuvent accorder ce type d'accès.
 
 **Autorisation Globale**- accordera à tous les utilisateurs le rôle «auteur» ce qui est une autorisation de modifier les métadonnées.
 
@@ -288,7 +290,7 @@ Plus bas dans le formulaire, vous verrez les détails supplémentaires qui sont 
 
 ![](./assets/learning-ojs-3-ed-rev-add-4.png)
 
-Par défaut, les Évaluateur seront fournis d'une large zone de texte pour écrire leur commentaires. Néanmoins, le/la Directeur/trice de la Revue peut créer des Formulaires de Révision sous [**Paramètres de Flux des Travaux > Évaluation**](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings) pour demander des questions plus spécifiques. Si vous voulez que l'Évaluateur/trice remplisse un formulaire de Évaluation, sélectionnez cela sous **Formulaire d'Évaluation**.
+Par défaut, les Évaluateur seront fournis d'une large zone de texte pour écrire leur commentaires. Néanmoins, le/la Directeur/trice de la Revue peut créer des Formulaires de Révision sous [**Paramètres de Flux des Travaux > Évaluation**](./journal-setup#workflow-settings) pour demander des questions plus spécifiques. Si vous voulez que l'Évaluateur/trice remplisse un formulaire de Évaluation, sélectionnez cela sous **Formulaire d'Évaluation**.
 
 Cliquez sur le bouton **Ajouter un-e Évaluateur/trice** pour envoyer le message et affecter l'Évaluateur/trice.
 
@@ -314,15 +316,23 @@ Vous pouvez apporter des modifications supplémentaires à l'aide de la flèche 
 
 **Annuler l'Affectation de l'Évaluateur/trice**: vous permet de supprimer l'affectation de l'Évaluateur/trice.
 
-**Annuler la Demande d'Évaluation** : à partir de OJS 3.2, vous pouvez annuler une demande d'évaluation. Cela peut être nécessaire lorsqu'un évaluateur n'a pas répondu à une demande de révision ou a accepté de faire une évaluation mais n'a jamais présenté de résultats. ![Cancel reviewer option](./assets/learning-ojs-3.2-cancel-reviewer.png)
+**Annuler la Demande d'Évaluation** : à partir de OJS 3.2, vous pouvez annuler une demande d'évaluation. Cela peut être nécessaire lorsqu'un évaluateur n'a pas répondu à une demande de révision ou a accepté de faire une évaluation mais n'a jamais présenté de résultats.
 
-L'annulation d'une demande d'évaluation vous permettra d'envoyer un modèle d'email à l'Évaluateur/trice. La demande apparaîtra alors dans la liste des Évaluateurs du rédacteur/trice comme "annulée". ![Request cancelled](./assets/learning-ojs-3.2-reviewer-cancelled.png)
+![Cancel reviewer option](./assets/learning-ojs-3.2-cancel-reviewer.png)
 
-L'évaluation annulée sera enregistrée dans les statistiques de l'Évaluateur/trice que vous pouvez voir lors de la sélection d'un-e Évaluateur/trice. ![Cancelled requests in reviewer stats](./assets/learning-ojs-3.2-cancelled-reviews-tracker.png)
+L'annulation d'une demande d'évaluation vous permettra d'envoyer un modèle d'email à l'Évaluateur/trice. La demande apparaîtra alors dans la liste des Évaluateurs du rédacteur/trice comme "annulée".
+
+![Request cancelled](./assets/learning-ojs-3.2-reviewer-cancelled.png)
+
+L'évaluation annulée sera enregistrée dans les statistiques de l'Évaluateur/trice que vous pouvez voir lors de la sélection d'un-e Évaluateur/trice.
+
+![Cancelled requests in reviewer stats](./assets/learning-ojs-3.2-cancelled-reviews-tracker.png)
 
 **Discussion d'Évaluation**: La discussion d'Évaluation est un autre moyen pour vous de contacter un-e Évaluateur/trice. Dans une discussion d'évaluation, vous avez la possibilité de joindre des fichiers.
 
-Pour commencer une discussion, cliquez sur "Ajouter une Discussion". ![](./assets/learning-ojs3.2-rev-contact2.png)
+Pour commencer une discussion, cliquez sur "Ajouter une Discussion".
+
+![](./assets/learning-ojs3.2-rev-contact2.png)
 
 Vous sélectionnerez ensuite les Évaluateurs avec lesquels vous souhaitez commencer une discussion.
 
@@ -338,7 +348,8 @@ Vous sélectionnerez ensuite les Évaluateurs avec lesquels vous souhaitez comme
 
 OJS est conçu pour accueillir différents types d'évaluations et comporte des étapes intégrées pour garantir l'anonymat.
 
-Toutes les informations seront visibles pour les directeurs et rédacteurs de la revue quel que soit le type d'évaluation sélectionné. Le type d'évaluation sera automatiquement sélectionné en fonction de ce qui a été configuré sous *Paramètres* > *Flux des Travaux* > *Évaluation*. Les rédacteurs peuvent modifier le type d'évaluation lors de l'envoi de la demande d'évaluation. Les rédacteurs/rédacteurs de section doivent sélectionner le type d'évaluation lors de l'envoi de la demande d'évaluation parmis les options suivantes:
+Toutes les informations seront visibles pour les directeurs et rédacteurs de la revue quel que soit le type d'évaluation sélectionné.
+Le type d'évaluation sera automatiquement sélectionné en fonction de ce qui a été configuré sous *Paramètres* > *Flux des Travaux* > *Évaluation*. Les rédacteurs peuvent modifier le type d'évaluation lors de l'envoi de la demande d'évaluation. Les rédacteurs/rédacteurs de section doivent sélectionner le type d'évaluation lors de l'envoi de la demande d'évaluation parmis les options suivantes:
 
 - Double-Aveugle
 - Aveugle
@@ -416,13 +427,14 @@ Identifiez le composant de l'article et téléchargez le fichier.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon8.png)
 
-Détails d'Évaluation. Il peut être utile de renommer le fichier au moment de  retéléchargement. Le fichier peut également être renommé en cliquant sur la flèche à gauche du nom du fichier.
+Détails d'Évaluation. Il peut être utile de renommer le fichier au moment de retéléchargement. Le fichier peut également être renommé en cliquant sur la flèche à gauche du nom du fichier.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon9.png)
 
 Cliquez sur Terminer et sélectionnez le fichier que vous souhaitez utiliser pour l'Évaluation.
 
-Les fichiers apparaîtront sous le téléchargement initial. Lors de l'envoi de la demande d'Évaluation, assurez-vous que le manuscrit original n'est pas sélectionné dans les «Fichiers à Évaluer».
+Les fichiers apparaîtront sous le téléchargement initial.
+Lors de l'envoi de la demande d'Évaluation, assurez-vous que le manuscrit original n'est pas sélectionné dans les «Fichiers à Évaluer».
 
 ![](./assets/learning-ojs3.1-ed-rev-anon10.png)
 
@@ -476,7 +488,8 @@ Utilisez le bouton **Ajouter des Évaluations** pour importer les commentaires d
 
 ![](./assets/learning-ojs-3-ed-rev-req-revisions3.png)
 
-S'il y a des pièces jointes, comme un fichier balisé créé par un-e Évaluateur/trice, vous pouvez le joindre ici (tant qu'il a été anonymisé). Dans OJS 3.1.2 et versions ultérieures, vous pouvez également télécharger un nouveau fichier et l'ajouter en tant que pièce jointe.
+S'il y a des pièces jointes, comme un fichier balisé créé par un-e Évaluateur/trice, vous pouvez le joindre ici (tant qu'il a été anonymisé).
+Dans OJS 3.1.2 et versions ultérieures, vous pouvez également télécharger un nouveau fichier et l'ajouter en tant que pièce jointe.
 
 Appuyez sur le bouton **Enregistrer la Décision Éditoriale** pour envoyer le message.
 
