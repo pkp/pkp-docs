@@ -2,6 +2,7 @@
 book: learning-ojs
 version: 3.2
 ---
+
 # Reviewing
 
 As a reviewer, you will learn of the review request via email or by checking your dashboard:
@@ -42,7 +43,7 @@ Hit **Continue** to move to step 3. From here you can download a copy of the rev
 
 ![](./assets/learning-ojs-3-rev-step3.png)
 
-Once you have read the paper and added your comments, scroll down the page to optionally upload a marked up copy of the review file \(remember to strip any personal identification from the file before uploading it\).
+Once you have read the paper and added your comments, scroll down the page to optionally upload a marked up copy of the review file (remember to strip any personal identification from the file before uploading it).
 
 ![](./assets/learning-ojs-3-rev-step3-1.png)
 
