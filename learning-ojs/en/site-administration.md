@@ -2,6 +2,7 @@
 book: learning-ojs
 version: 3.2
 ---
+
 # Site Administration
 
 As part of installing OJS, you will have created a Site Administrator user account. When you log into OJS with that account you will have access to Site Administrator settings from the Dashboard.
@@ -54,9 +55,9 @@ This section will appear if you have two or more journals, and allow you to add 
 
 #### Site Setup
 
-This includes the name of your site, a site logo, an introductory statement about your site, a site footer, a redirect option \(if you only plan to have one journal on this installation\), contact information, a minimum password length for registered users, style sheet and theme options, and sidebar management.
+This includes the name of your site, a site logo, an introductory statement about your site, a site footer, a redirect option (if you only plan to have one journal on this installation), contact information, a minimum password length for registered users, style sheet and theme options, and sidebar management.
 
-You will have the opportunity to provide details about your individual journal\(s\) at a later stage.
+You will have the opportunity to provide details about your individual journal(s) at a later stage.
 
 ![](./assets/learning-ojs3.1-sa-site-settings.png)
 
@@ -64,24 +65,25 @@ You will have the opportunity to provide details about your individual journal\(
 
 OJS is designed to be a multilingual system, allowing journals supporting a wide variety of languages to be hosted under a single site. When you install OJS, you can select one or more languages for your site.
 
-The Site Administrator can set the default language of the site and install additional locales to make other languages available for use by journals. Journal Managers can then manage their own language settings under Website Settings > Languages. See the [Website Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website) for details.
+The Site Administrator can set the default language of the site and install additional locales to make other languages available for use by journals. Journal Managers can then manage their own language settings under Website Settings > Languages. See the [Website Settings chapter](./settings-website) for details.
 
 Under Administration > Site Settings > Languages you can see a list of languages that are installed on your site, enable languages, and set any language as the Default Locale, which means it is the language that users will first see when first visiting the site.
 
 ![](./assets/learning-ojs3.1-sa-languages.png)
 
 To add another language:
+
 1. Click Install Locale
 2. Check off the locales you would like to install
 3. Click Save
 
-After installing the new locale, you will have to enable it on the Site Settings > Languages page.  Further configuration of the language’s availability on the site can be done under Website Settings > Languages by a Journal Manager. See the [Website Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website) for details.
+After installing the new locale, you will have to enable it on the Site Settings > Languages page.  Further configuration of the language’s availability on the site can be done under Website Settings > Languages by a Journal Manager. See the [Website Settings chapter](./settings-website) for details.
 
 OJS 3.1 doesn't yet have as many translations as OJS 2, but we expect to have more contributed over time. Contributions are always welcome.
 
 #### Plugins
 
-From here, you can choose to enable or disable various plugins, making them available \(or not\) to all of the journals on this OJS installation.
+From here, you can choose to enable or disable various plugins, making them available (or not) to all of the journals on this OJS installation.
 
 ![](./assets/learning-ojs3.1-sa-plugins.png)
 
@@ -117,7 +119,7 @@ The OJS Configuration section displays all of the configuration options and thei
 
 You can find more information about _config.inc.php_ configuration parameters in the file itself.
 
-The final section on this page displays additional server information: your operating system, PHP version, server and database information. You can also view extended PHP information by clicking the Extended PHP information link (this displays the output of ``phpinfo()``)
+The final section on this page displays additional server information: your operating system, PHP version, server and database information. You can also view extended PHP information by clicking the Extended PHP information link (this displays the output of `phpinfo()`)
 
 All of this information can be useful when trying to troubleshoot a problem.
 
@@ -135,4 +137,4 @@ Clicking _Clear Template Cache_ clears all cached versions of HTML templates. Th
 
 ### Clear Scheduled Task Execution Logs
 
-If scheduled tasks have been enabled for your journal, clicking _Clear Scheduled Task Execution Logs_ will delete the task execution log files from your server. The execution log files include dates that correspond to previously completed scheduled tasks \(e.g. sending automatic email review reminders\).
+If scheduled tasks have been enabled for your journal, clicking _Clear Scheduled Task Execution Logs_ will delete the task execution log files from your server. The execution log files include dates that correspond to previously completed scheduled tasks (e.g. sending automatic email review reminders).
