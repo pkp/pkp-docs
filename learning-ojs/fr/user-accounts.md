@@ -84,6 +84,7 @@ Voir le [Chapitre Flux des travaux Éditorial](./editorial-workflow.md) pour plu
 L'éditeur de mise en page transforme les versions révisées de la soumission en épreuves au format HTML, PDF, XML, etc. -- fichiers que la revue a choisi d'utiliser pour la publication en ligne.
 
 > Remarque
+>
 > OJS ne fournit pas actuellement de logiciel pour convertir automatiquement les documents traités de texte en formats d'épreuve (bien qu'un projet soit en cours de développement), donc l'éditeur de mise en page devrait avoir accès et pouvoir utiliser des logiciels tiers pour créer des épreuves.
 
 Dans certains cas, l'éditeur/trice ou l'éditeur/trice de section fera également office d'éditeur de mise en page.
