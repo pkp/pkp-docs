@@ -337,7 +337,7 @@ Ce plugiciel affiche un nuage d'étiquettes de mots-clés qui peuvent être acti
 
 ![](./assets/learning-ojs-settings-plugin-keyword.png)
 
-Il s'agit d'un plugiiciel tiers qui devra être [téléchargé à partir de GitHub](https://github.com/lepidus/ojs3-keywordcloud-plugin) .
+Il s'agit d'un plugiiciel tiers qui devra être [téléchargé à partir de GitHub](https://github.com/lepidus/keywordCloud) .
 
 Une fois que vous avez téléchargé le fichier depuis GitHub, téléversez-le dans votre journal et activez-le. Cela rendra le nuage de mots-clés disponible sous forme de bloc que vous pourrez ajouter à la barre latérale de votre journal.
 

@@ -84,7 +84,7 @@ L'option de ligne de commande utilisée pour définir l'expéditeur de l'envelop
 
 ## Email et Lieux
 
-Les modèles de courrier électronique sont installés directement dans la base de données lors de la création d'un journal, d'une presse ou d'une conférence. Si vous avez besoin de modifier [un fichier local](https://github.com/pkp/ojs/blob/master/locale/en_US/emailTemplates.xml), toute modification apportée à votre fichier de modèle ne sera pas prise en compte tant que vous n'aurez pas rechargé tous les modèles dans le système.
+Les modèles de courrier électronique sont installés directement dans la base de données lors de la création d'un journal, d'une presse ou d'une conférence. Si vous avez besoin de modifier [un fichier local](https://github.com/pkp/ojs/blob/stable-3_1_2/locale/en_US/emailTemplates.xml), toute modification apportée à votre fichier de modèle ne sera pas prise en compte tant que vous n'aurez pas rechargé tous les modèles dans le système.
 
 Le rechargement des modèles remplacera toutes les modifications que vous avez faites. Pour garder ces modifications, vous devrez enregistrer ces modifications localement et les rajouter aux modèles là où nécessaire.
 

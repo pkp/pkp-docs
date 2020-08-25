@@ -337,7 +337,7 @@ This plugin displays a tag cloud of keywords that can be enabled on the sidebar 
 
 ![](./assets/learning-ojs-settings-plugin-keyword.png)
 
-This is a 3rd party plugin that will need to be [downloaded from GitHub](https://github.com/lepidus/ojs3-keywordcloud-plugin).
+This is a 3rd party plugin that will need to be [downloaded from GitHub](https://github.com/lepidus/keywordCloud).
 
 Once you’ve downloaded the file from GitHub, upload it to your journal and enable it. This will make the keyword cloud available as a block that you can add to the sidebar of your journal.
 

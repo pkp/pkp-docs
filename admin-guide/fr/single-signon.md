@@ -71,4 +71,4 @@ L'extension LDAP de PHP n'est pas incluse par défaut et devra peut-être être 
 - [Quick HOWTO : Ch31 : Centralized Logins Using LDAP and RADIUS ](http://www.linuxhomenetworking.com/wiki/index.php/Quick_HOWTO_:_Ch31_:_Centralized_Logins_Using_LDAP_and_RADIUS)
 - [OpenLDAP 2.1 Administrator's Guide: Using SASL](https://www.openldap.org/doc/admin21/sasl.html)
 - [Cyrus SASL for System Administrators](http://www.sendmail.org/~ca/email/cyrus/sysadmin.html)
-- [Shibboleth Documentation](https://spaces.internet2.edu/display/SHIB/)
+- [Shibboleth Documentation](https://wiki.shibboleth.net/confluence/display/SP3)

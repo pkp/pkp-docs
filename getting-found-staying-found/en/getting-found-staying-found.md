@@ -32,7 +32,7 @@ In this arrangement, the server that hosts your website will also be hosting oth
 
 ### Virtual Private server / Virtual Dedicated Server hosting services
 
-In this hosting arrangement, a virtualized server devoted to your needs is provided. This is a “middle-of-the road” option and can be affordable, but is usually not as cheap as shared hosting. In this hosting environment often different resources can be scaled up and applied should you need them (usually at an additional cost). For example, if your site experiences a rise in traffic, you may be able to pay more to dedicate additional bandwith for a period of time or on an ongoing basis. Some popular commercial virtual private server hosting include: [Digital Ocean](https://www.digitalocean.com/), [Amazon Web Services](aws.amazon.com), and [Linode](https://www.linode.com/), to name a few.
+In this hosting arrangement, a virtualized server devoted to your needs is provided. This is a “middle-of-the road” option and can be affordable, but is usually not as cheap as shared hosting. In this hosting environment often different resources can be scaled up and applied should you need them (usually at an additional cost). For example, if your site experiences a rise in traffic, you may be able to pay more to dedicate additional bandwith for a period of time or on an ongoing basis. Some popular commercial virtual private server hosting include: [Digital Ocean](https://www.digitalocean.com/), [Amazon Web Services](https://aws.amazon.com), and [Linode](https://www.linode.com/), to name a few.
 
 ### Dedicated server
 In this situation, an entire piece of physical hardware (i.e. a server) may be dedicated to your use. This is the most expensive of these three options and idea for very high traffic websites or larger operations that might have more complex needs.
@@ -90,7 +90,7 @@ The following policy from _Current Oncology_ is an example of a clear and concis
 
 >“Following publication in Current Oncology, the full text of each article is available immediately and archived in PubMed Central (PMC), the U.S. National Library of Medicine's digital archive of biomedical and life sciences journal literature. This journal utilizes the LOCKSS system to create a distributed archiving system among participating libraries and permits those libraries to create permanent archives of the journal for purposes of preservation and restoration.”
 
-Source: [Archiving Policy. Current Oncology Journal](http://www.current-oncology.com/index.php/oncology/about/editorialPolicies#archiving)
+Source: [Archiving Policy. Current Oncology Journal](https://www.current-oncology.com/index.php/oncology/about)
 
 DOAJ checks the Keepers Registry to confirm that a journal’s archiving arrangements are as stated in its application. The PKP PN provides data about its holdings to the Keepers Registry so your journal will appear in the registry once it has been archived.
 

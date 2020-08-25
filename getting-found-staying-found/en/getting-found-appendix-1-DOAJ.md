@@ -401,7 +401,7 @@ In OJS select the Creative Commons license you will use in Settings > Distributi
 
 **6. Deposit policy** (Question 51)
 
-Provide information on authors self-archiving rights in a statement clarifying to authors what their rights are for self-archiving, which should cover their rights to self-archive preprint, accepted, final publisher versions of the article, usually in places like their own website or institutional repository. The DOAJ requires a policy to be listed for a journal and checks what policy is listed for the journal on services like [SHERPA/RoMEO](http://www.sherpa.ac.uk/romeo/index.php).
+Provide information on authors self-archiving rights in a statement clarifying to authors what their rights are for self-archiving, which should cover their rights to self-archive preprint, accepted, final publisher versions of the article, usually in places like their own website or institutional repository. The DOAJ requires a policy to be listed for a journal and checks what policy is listed for the journal on services like [SHERPA/RoMEO](https://v2.sherpa.ac.uk/romeo/).
 
 In OJS enter the journal’s Author Self-Archiving Policy in Settings > Distribution > Permissions
 

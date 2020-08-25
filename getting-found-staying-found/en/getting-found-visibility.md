@@ -55,7 +55,7 @@ DOIs are capable of identifying a journal, an individual issue or volume of a jo
 You may often see DOIs communicated as URLs: “https://dx.doi.org/10.4212/cjhp.v69i6.1606.” This method can be used to obtain any article that has a DOI, by indicating the DOI following the “dx.doi.org.”
 
 ### Setting up DOIs in OJS
-Journals publishing with OJS will find it very easy to work with DOIs. However, some initial setup steps are required. First, you will need to register with [Crossref](https://www.crossref.org/membership/), which does require an annual fee. Further integration regarding OJS’ integration with Crossref can be found in the [Crossref manual](http://docs.pkp.sfu.ca/crossref/). You will then need to enable the DOI plugin within the OJS Journal Settings. [Using DOIs and the DOI plugin](http://docs.pkp.sfu.ca/dois/) provides you with the detailed steps you need to follow to configure DOIs for OJS.
+Journals publishing with OJS will find it very easy to work with DOIs. However, some initial setup steps are required. First, you will need to register with [Crossref](https://www.crossref.org/membership/), which does require an annual fee. Further integration regarding OJS’ integration with Crossref can be found in the [Crossref manual](https://docs.pkp.sfu.ca/crossref/). You will then need to enable the DOI plugin within the OJS Journal Settings. [Using DOIs and the DOI plugin](https://docs.pkp.sfu.ca/doi-plugin/) provides you with the detailed steps you need to follow to configure DOIs for OJS.
 
 ### Registering your DOIs in OJS
 
@@ -284,7 +284,7 @@ PubMed  is one of the most recognized and respected open indexes. As with commer
 Journals in life sciences, medicine, or biomedicine fields that use the Open Journal Systems platform should endeavour to be included in PubMed. To facilitate this, OJS includes an exporting tool, which produces a file of all of your journal’s metadata suitable for sending directly to PubMed. Some open indexes, such as BioMed Central or Chemistry Central, only include their own published content. For journals not published by BioMed Central or Chemistry Central, it is not an option. Examples of other open indexes include [Agricola](https://agricola.nal.usda.gov/) from the U.S. National Agriculture Library and ERIC(https://eric.ed.gov/) sponsored by the U.S. Department of Education, Institute of Education Sciences.
 
 *Further reading:*
-[Medline journal selection FAQ:](https://www.nlm.nih.gov/pubs/factsheets/j_sel_faq.html)
+[Medline journal selection FAQ:](https://wayback.archive-it.org/org-350/20180312141547/https://www.nlm.nih.gov/pubs/factsheets/j_sel_faq.html)
 [Medline online application:](https://wwwcf.nlm.nih.gov/lstrc/lstrcform/med/index.html)
 [PubMed Central FAQ for publishers:](https://www.ncbi.nlm.nih.gov/pmc/about/faq-pub/)
 [PubMed Central online application:](https://www.ncbi.nlm.nih.gov/pmc/pub/addjournal/)
@@ -310,7 +310,7 @@ Frequently, participation in open indexes such as the PKP Index or the DOAJ (as 
 
 Commercial indexes and aggregators are collections of journal citation details (such as author names, article title, journal title, volume and issue numbers, abstracts, etc. – also known as “metadata”) maintained in a central, searchable database. As commercial services, these indexes are only available with a paid subscription and are often accessed by readers through their library. Significant portions of many academic library budgets go toward making these commercial products freely available to their faculty and students. One of the most influential indexes is [Clarivate Analytics](https://clarivate.com/) (previously Thomson Reuters) [Web of Science](https://clarivate.com/products/web-of-science/).
 
-Some indexes may be focused on a single discipline, such as [PsycInfo](http://www.apa.org/psycinfo/) for psychology, whereas others are multidisciplinary, such as Elsevier’s [Scopus](https://www.elsevier.com/solutions/scopus). Some combine information from hundreds of journals, and others may only include the metadata from a few. Some indexes are produced by scholarly societies or nonprofit organizations, and others are produced by for-profit businesses. Commercial indexes are often an  important way for readers to find your content, and getting included in one or more of them is important for your journal’s success.
+Some indexes may be focused on a single discipline, such as [PsycInfo](https://www.apa.org/pubs/databases/psycinfo) for psychology, whereas others are multidisciplinary, such as Elsevier’s [Scopus](https://www.elsevier.com/solutions/scopus). Some combine information from hundreds of journals, and others may only include the metadata from a few. Some indexes are produced by scholarly societies or nonprofit organizations, and others are produced by for-profit businesses. Commercial indexes are often an  important way for readers to find your content, and getting included in one or more of them is important for your journal’s success.
 
 ### Listing your journal with commercial indexes
 
@@ -352,7 +352,7 @@ Social media is a valuable way to reach specific audiences to introduce and ampl
 
 While most platforms are available for use without fees, effective use requires a sustained investment of attention to plan and maintain. Tools such as Twitter, Facebook, Instagram, etc. can help you target an audience, but there is huge competition and lots of “noise.”
 
-Building an engaged social media following can absorb as many resources as you are willing to commit. Your social media plan should include recruiting the support of those who have already developed a credible profile and following among the target audience. Social media management tools bring multiple social media accounts into a single platform to facilitate scheduling of content, supervising contributors, and tracking metrics. It is worthwhile to determine your needs and capacities to select a suitable management tool. Few are free, most are subscription based. Examples include [Hootsuite](http://hootsuite.com) or [Social Pilot](https://socialpilot.co/?refer=UWUNR13U).
+Building an engaged social media following can absorb as many resources as you are willing to commit. Your social media plan should include recruiting the support of those who have already developed a credible profile and following among the target audience. Social media management tools bring multiple social media accounts into a single platform to facilitate scheduling of content, supervising contributors, and tracking metrics. It is worthwhile to determine your needs and capacities to select a suitable management tool. Few are free, most are subscription based. Examples include [Hootsuite](https://hootsuite.com) or [Social Pilot](https://socialpilot.co/?refer=UWUNR13U).
 
 #### Building a team
 
@@ -392,6 +392,6 @@ It is increasingly common that funders require projects to include a knowledge t
 ## Further Reading:
 Library Publishing Coalition (LPC) Webinar Series: [ORCID in Publishing Workflows](https://www.youtube.com/watch?v=9A3sk13C7QM)
 
-[Creating Accessible PDFs](Library Publishing Coalition Webinar)](https://www.youtube.com/watch?v=Ex-XdcO7hjk)
+[Creating Accessible PDFs (Library Publishing Coalition Webinar)](https://www.youtube.com/watch?v=Ex-XdcO7hjk)
 
 [PDF SEO best practices](https://web.archive.org/web/20181222172840/https://www.searchenginejournal.com/pdf-seo-best-practices/59975/)

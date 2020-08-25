@@ -120,7 +120,7 @@ Contrast and colour use are vital to accessibility. Having insufficient contrast
 
 Text colour against the background may appear as sufficiently distinct to a sighted reader, but may present issues to a reader with visual disabilities. To help evaluate it, [WCAG 2.1 Guidelines](https://www.w3.org/TR/WCAG21/#contrast-minimum) quantify accessible contrast ratio as at least 4.5:1 for normal text and 3:1 for large text, for Level AA.
 
-You can use [WebAim’s Contrast Checker](http://webaim.org/resources/contrastchecker), [Contrast Ratio Checker](http://leaverou.github.io/contrast-ratio), or the [Colour Contrast Analyser](https://www.paciellogroup.com/resources/contrastanalyser) to check the contrast ratio between your website’s background and text colours. Here is an example of a check done using [WebAim’s Contrast Checker](http://webaim.org/resources/contrastchecker):
+You can use [WebAim’s Contrast Checker](https://webaim.org/resources/contrastchecker/), [Contrast Ratio Checker](https://contrast-ratio.com/), or the [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) to check the contrast ratio between your website’s background and text colours. Here is an example of a check done using [WebAim’s Contrast Checker](https://webaim.org/resources/contrastchecker/):
 
 ![Screenshot of WebAim's Colour Contrast Checker interface.](./assets/1_a11y-guide-webaim-contrast-checker.png)
 

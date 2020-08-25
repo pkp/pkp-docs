@@ -84,7 +84,7 @@ The command-line option used to set the envelope sender is `-f`.
 
 ## Email and Locale
 
-Email templates are installed directly in the database when a journal, press, or conference is created. If you need to edit [a locale file](https://github.com/pkp/ojs/blob/master/locale/en_US/emailTemplates.xml), any change in your template file will not be reflected until you reload all templates in the system.
+Email templates are installed directly in the database when a journal, press, or conference is created. If you need to edit [a locale file](https://github.com/pkp/ojs/blob/stable-3_1_2/locale/en_US/emailTemplates.xml), any change in your template file will not be reflected until you reload all templates in the system.
 
 Reloading templates will override any modifications that you may have made. To keep those modifications, you will need to save these modification locally and re-add them to templates as required.
 
