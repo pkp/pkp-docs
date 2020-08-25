@@ -4,7 +4,7 @@ version: 3.1
 ---
 # Chapter 12: Subscriptions
 
-OJS 3.1 allows you to restrict some or all of your content to subscribers. To enable Subscriptions, first go to [Settings &gt; Distribution &gt; Access](./distribution_settings.md).
+OJS 3.1 allows you to restrict some or all of your content to subscribers. To enable Subscriptions, first go to [Settings &gt; Distribution &gt; Access](./settings-distribution.md).
 
 ## Subscription Policies
 
@@ -41,7 +41,7 @@ Select **Create New Subscription Type** to add a new one.
 
 ## Payment Types
 
-If you haven't already done so, go to [Settings &gt; Distribution &gt; Payments](./distribution_settings.md) and set the appropriate currency and payment method \(e.g., Paypal\).
+If you haven't already done so, go to [Settings &gt; Distribution &gt; Payments](./settings-distribution.md) and set the appropriate currency and payment method \(e.g., Paypal\).
 
 Use this page to set the amounts charged for various types of fees.
 
