@@ -870,7 +870,7 @@ To inform the Editor, use the Production Discussion panel's _Add Discussion_ lin
 
 ### Scheduling for Publication
 
-Before you can schedule an article for publication, you have to create an issue. See the [Issues chapter](https://docs.pkp.sfu.ca/learning-ojs/en/issues).
+Before you can schedule an article for publication, you have to create an issue. See the [Issues chapter](./issues).
 
 Upon receiving notification of the completed galleys, the editor logs into the submission record, and checks the uploaded galley files.
 
@@ -886,6 +886,6 @@ Use this to add the submission to a future or back issue of the journal.
 
 You also have the option to add page numbers, permission, and licensing information.
 
-Hitting **Save** will publish the submission to the selected issue. If the issue is already published, the submission will be immediately available to readers. Otherwise the submission will not be published until the issue is published. See the [Issues chapter](https://docs.pkp.sfu.ca/learning-ojs/en/issues) for how to publish an issue.
+Hitting **Save** will publish the submission to the selected issue. If the issue is already published, the submission will be immediately available to readers. Otherwise the submission will not be published until the issue is published. See the [Issues chapter](./issues) for how to publish an issue.
 
 Congratulations! You have now come to the end of the editorial workflow.
