@@ -1,6 +1,6 @@
 # Appendix 1: DOAJ Application Guide for OJS Journals
 
-Publishers who wish to have their journal included in the Directory of Open Access Journals (DOAJ) have to fill out an extensive application form to indicate that the journal meets DOAJ's criteria. This appendix provides guidance for journals using Open Journal Systems (OJS) on how to represent and link to information in OJS that is relevant for DOAJ inclusion and the DOAJ application.  
+Publishers who wish to have their journal included in the Directory of Open Access Journals (DOAJ) have to fill out an extensive application form to indicate that the journal meets DOAJ's criteria. This appendix provides guidance for journals using Open Journal Systems (OJS) on how to represent and link to information in OJS that is relevant for DOAJ inclusion and the DOAJ application.
 
 ## What is DOAJ and why should I apply?
 
@@ -9,6 +9,7 @@ Publishers who wish to have their journal included in the Directory of Open Acce
 ## Before you apply (DOAJ readiness)
 
 Are you ready? Your journal must:
+
 1. Be online and fully open access.
 2. Have a confirmed journal title and [ISSN](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-visibility#issns).
 3. Have published at least 5 research articles in the last year.
@@ -18,7 +19,7 @@ Are you ready? Your journal must:
 
 This section will help you to complete [the DOAJ application](https://doaj.org/application/new) for your OJS journal. The numbers of these items match the numbered questions on the DOAJ application.
 
-All of the questions must be answered in order for the application to be complete; however, some of the questions only provide supplemental information to DOAJ and are not required for acceptance to DOAJ. The questions that are required for acceptance to DOAJ are marked with the letter **D**. Some additional questions are required for being awarded the DOAJ Seal. These are marked with the letter **S**. Questions that are not marked should still be answered. 
+All of the questions must be answered in order for the application to be complete; however, some of the questions only provide supplemental information to DOAJ and are not required for acceptance to DOAJ. The questions that are required for acceptance to DOAJ are marked with the letter **D**. Some additional questions are required for being awarded the DOAJ Seal. These are marked with the letter **S**. Questions that are not marked should still be answered.
 
 This list of items was adapted from the Library Publishing Coalition's [How-To Guide for Library Publishers: Directory of Open Access Journals Application](https://docs.google.com/document/d/1x1_JRbqX36wqSw7FlMiAqmAhrOzRW-q__XiEa4tvVdY).
 
@@ -151,7 +152,7 @@ If you are looking for further explanation on what the questions mean, please re
 **26) Enter the URL where this information can be found.**
 
 * This field is optional if you selected "No policy in place."
-* If you are archiving your content in a LOCKSS network, this will not automatically be displayed on your OJS site. You can add your archiving policy to the About page or another page and link to it here. 
+* If you are archiving your content in a LOCKSS network, this will not automatically be displayed on your OJS site. You can add your archiving policy to the About page or another page and link to it here.
 
 **27) Does the journal allow software/spiders to automatically crawl the journal content (also known as text mining)?**
 

@@ -5,7 +5,7 @@ Under the traditional subscription/print model, the number of subscribers often 
 
 Perhaps more important than the question of how many people are accessing your journal is how they are using it. This is known as measuring the “impact” of your journal. Journals with high citation impact are among the most respected and successful academic journals in their fields. Citation impact refers to how often an article, an author, or a journal is cited by other scholars. While this is not an uncontroversial means of measuring the value a journal is having in the academic community, it is the standard one that most people recognize and operate on the basis of. Readers looking for reliable information will often first look to journals with a high citation impact. Prospective authors, reviewers, and editors may be more interested in volunteering their time with journals that have a high citation impact. Indexes and databases will want to include journals in their resources that have a high citation impact. And lastly, libraries will be motivated to promote journals with a high citation impact. All of this can lead to a cyclical pattern, where high impact journals are more likely to be used and supported, leading to more recognition, and higher impact. The challenge for every new journal is to get this process started, using some of the methods discussed in the previous section.
 
-Of particular interest for OJS and other open access journals are the results from several studies revealing that open access policies tend to increase the citation impact of journals ["The effect of open access and downloads ('hits') on citation impact: a bibliography of studies" ](http://opcit.eprints.org/oacitation-biblio.html). By providing free and immediate access to their content, open access journals are increasingly becoming the first choice among scholars for their research.
+Of particular interest for OJS and other open access journals are the results from several studies revealing that open access policies tend to increase the citation impact of journals ["The effect of open access and downloads ('hits') on citation impact: a bibliography of studies"](http://opcit.eprints.org/oacitation-biblio.html). By providing free and immediate access to their content, open access journals are increasingly becoming the first choice among scholars for their research.
 
 ## Attracting Authors
 
@@ -13,9 +13,7 @@ Growing the number of authors that are contributing to your journal is an import
 
 It’s important to note that mass solicitation or “spamming” of authors is often viewed as a problematic practice in some circles and one that has been employed by questionable publishers. Try to strike a balance between actively soliciting for publications and inundating potential authors with this solicitation.
 
-
 ## Commercial scholarly networking platforms
-
 
 > Contributed by Dana McFarland
 
@@ -32,22 +30,22 @@ Commercial platforms such as ResearchGate and Academia.edu offer various service
 In advising authors about such services, it is important to be aware of the terms of use, which are typically subject to modification without prior consent and at the sole discretion of the service provider.
 
 For example:
+
 * [Academia.edu](https://academia.edu)
 * [ResearchGate](https://researchgate.org)
 
 ![ResearchGate](assets/chapter2/researchgate.png)
 *Screenshot from ResearchGate*
 
-Features of scholarly networking platforms may appeal to authors, but there are implications, particularly in hosting versions outside of OJS, that journal managers should be aware of. These include the aggregating metrics, and understanding use. 
+Features of scholarly networking platforms may appeal to authors, but there are implications, particularly in hosting versions outside of OJS, that journal managers should be aware of. These include the aggregating metrics, and understanding use.
 
-*Aggregating metrics*:  When a work may be retrieved from multiple platforms, indicators of use will also be distributed among those platforms. This may drive traffic to content published by a journal, but perhaps not exclusively via the journal platform. Journal managers should consider workflows or tools to aggregate and understand broader patterns of use related to articles that they publish. Counting downloads will not adequately represent use if a community of scholars around a journal also values the ability to upload a version to ResearchGate, or even to their institutional repository. 
+*Aggregating metrics*:  When a work may be retrieved from multiple platforms, indicators of use will also be distributed among those platforms. This may drive traffic to content published by a journal, but perhaps not exclusively via the journal platform. Journal managers should consider workflows or tools to aggregate and understand broader patterns of use related to articles that they publish. Counting downloads will not adequately represent use if a community of scholars around a journal also values the ability to upload a version to ResearchGate, or even to their institutional repository.
 
 To address this, DOIs facilitate aggregation of metrics across platforms, through tools such as [ImpactStory](https://impactstory.org), [Altmetric](https://www.altmetric.com/), and [PlumAnalytics](https://plumanalytics.com/). In practice, effectiveness of these tools varies based on the breadth of relationships that they are able to establish with publishing platforms and none is comprehensive. For instance, none to date include indicators of use via ResearchGate or Academia.edu. Also, some platforms will assign another DOI when a version is uploaded to their site. Consequently and counter-intuitively, it may be productive to track more than one DOI per item.
 
 Manual collection is another strategy that might be adopted i.e. gathering download counts that include sampling from commercial platforms, perhaps using Google Analytics to identify referring sites.
 
 *Understanding use*:  Where other hosting of articles is occurring, consider how the metrics on other platforms are derived and how they might be understood. (e.g. ResearchGate offers reads, citations, recommendations, score.)
-
 
 ## Research Impact Metrics
 
@@ -67,8 +65,6 @@ One of the most well-known and well-established journal-level metrics is the jou
 Journal Impact Factor, and 5-year Journal Impact Factor can be calculated using the formulae below:
 
 ![Impact Factor forumula](assets/chapter2/ImpactFactor.png)
-
-
 
 JIF is considered a fairly controversial measure, as the number of open access journals, books, conference proceedings, and items in languages other than English included in the Journal Citation Reports is very limited. JIF also does not take into account self-citing. Additionally, articles may be highly cited for negative reasons; as such, a high impact factor is not necessarily a guarantee of quality.
 
@@ -100,7 +96,6 @@ A number of different databases track citation counts, including Google Scholar,
 
 For example, citation count in Web of Science citation counts are limited to those journals selected for inclusion in their database.
 
-
 ![Web of Science formula](assets/chapter2/web-of-science.png)
  *Screenshot from Web of Science Article*
 
@@ -131,15 +126,13 @@ The *h*-index takes into account both the number of publications of a given auth
 
 ![Web of Science formula](assets/chapter2/h-index.png)
 
-
-(Image Source: [Wikimedia](Image Source: https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/H-index-en.svg/425px-H-index-en.svg.png) \(Public Domain\)\)
+(Image Source: [Wikimedia](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/H-index-en.svg/425px-H-index-en.svg.png) \(Public Domain\)\)
 
 ##### Limitations of h-index
 
 It should be noted that *h*-index numbers of researchers should only be compared for those working within the same discipline. The value of *h*-indexes of authors working across different disciplines should not be directly compared because the method of computing the index strongly reflects differences in publication frequency, resulting in a lower value for researchers working within disciplines where lower publication frequency is the norm [(Bornmann, 2008)](http://www.emeraldinsight.com/doi/abs/10.1108/00220410810844150). *h*-index also does not reflect order of authorship listings, which is an important consideration in some academic disciplines. The *h*-index calculation results in a natural number and therefore has been criticized as having less discriminatory power than other methods of calculating research impact.
 
 The reliance of the *h*-index upon the corpus of an author’s works can result in differing values when calculations do not take into account the same publication sources. This discrepancy, documented in “Which *h*-index? — A comparison of Web of Science, Scopus and Google Scholar,” demonstrated that *h*-index values could vary from database to database, [(Bar-Ilan, 2007)](https://link.springer.com/article/10.1007%2Fs11192-008-0216-y). For instance, if one calculation takes conference proceedings into account as a valid part of the author’s body of work, the *h*-index will necessarily result in a different value than when calculated without that category of content. Therefore, the publication in which a work appears must be indexed by the database in question in order to be reflected in this calculation.
-
 
 ### Altmetrics
 
@@ -151,9 +144,7 @@ For example, [ImpactStory](https://impactstory.org), [Altmetric](https://altmetr
 
 ![ImpactStory](assets/chapter2/impact-story.png)
 
-
 These features, which may demonstrate influence, use, and accessibility beyond the academic environment, may be of particular interest to journals that are grant-funded.
-
 
 ## Library Catalogues and Link Resolvers
 
@@ -187,12 +178,11 @@ While many journals claim to be “Open Access,” there are many degrees of wha
 
 ![How Open Is it](assets/chapter2/how-open-is-it.png)
 
-
 Source: [Scholarly Publishing and Academic Resources Coalition “How open is it”](https://sparcopen.org/our-work/howopenisit/). Licensed under CC-BY.
 
 Developing copyright and licensing policies that address all of these criteria can be very helpful to authors and letting them know what the journal does and does not permit with respect to the articles and other material that are published as part of the journal or publication. The Open Access Scholarly Publishing Association (OASPA) provides some advice on how and where copyright and licensing policies should be articulated:
 
->“Licensing policies should be clearly stated and visible on journal websites and all published material. Policies are often >stated at the bottom of each page of a website, but should also be clearly set out in an additional ‘Terms of Use’ or >‘Policies’ section, or in Guidelines for Authors.” 
+>“Licensing policies should be clearly stated and visible on journal websites and all published material. Policies are often >stated at the bottom of each page of a website, but should also be clearly set out in an additional ‘Terms of Use’ or >‘Policies’ section, or in Guidelines for Authors.”
 (Source: Open Access, Scholarly Publishers association, 2016. [“Best practices in licensing and attribution: What you need to know.](https://oaspa.org/best-practices-licensing-attribution-need-to-know/))”
 
 ### Copyright Ownership
@@ -217,7 +207,7 @@ Journals and publishers should also consider sharing relevant policies as part o
 
 SHERPA/RoMEO is a popular database used for sharing journals’ and publishers’ policies on copyright and licensing of their works. It is used by authors, libraries, funders, as well as others to determine if publishers allow sharing of their publications outside of the publications' website. Making this explicit through your policy and including your policies in a database like SHERPA/RoMEO can make it more clear for authors and users of of journals and publishers’ content on specifically how they publications can be used and shared.
 
-## Further Reading:
+## Further Reading
 
 [Open Access Publishers Association - Best Practices in Licensing and Attribution](https://oaspa.org/best-practices-licensing-attribution-need-to-know/)
 

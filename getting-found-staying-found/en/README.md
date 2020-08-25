@@ -14,7 +14,7 @@ This guide is designed to offer practical advice on various considerations for m
 journals more discoverable and sustainable, and is geared largely towards journals that use the [Open Journal Systems](https://pkp.sfu.ca/ojs/) (OJS) platform. This guide is intended largely for journal managers, editors, and those
  responsible for a journal’s operations. Some of PKP’s other documentation, such as the [Learning OJS 3 guide](https://docs.pkp.sfu.ca/learning-ojs/) and the [PKP Administrators guide](https://docs.pkp.sfu.ca/admin-guide/) contains information pertinent to using and administrating OJS.
 
-## Contributors:
+## Contributors
 
 Editor: Roger Gillis
 

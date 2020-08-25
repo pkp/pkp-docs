@@ -1,9 +1,8 @@
 # Staying found: Ensuring Continuity
 
-Once your journal has developed a loyal readership, and established itself with a variety of indexes, databases, and other venues, you will need to be able to maintain these relationships. One of the fastest ways to undermine confidence in your publication is if your content becomes regularly unavailable, or worse, disappears completely. For print journals, reliable access is helped by the production of many physical copies of the journal, and their widespread distribution. If one copy is lost or misplaced, it can easily be replaced by a copy of another.For online content, there is the danger of there being only a single copy, which is shared electronically among all readers over the internet. If that single copy is lost, it is irreplaceable, and the results can be catastrophic for your project. 
+Once your journal has developed a loyal readership, and established itself with a variety of indexes, databases, and other venues, you will need to be able to maintain these relationships. One of the fastest ways to undermine confidence in your publication is if your content becomes regularly unavailable, or worse, disappears completely. For print journals, reliable access is helped by the production of many physical copies of the journal, and their widespread distribution. If one copy is lost or misplaced, it can easily be replaced by a copy of another.For online content, there is the danger of there being only a single copy, which is shared electronically among all readers over the internet. If that single copy is lost, it is irreplaceable, and the results can be catastrophic for your project.
 
 In this section we delve into some specific and more technical aspects of running the OJS software. If you’re running your own instance of OJS some of this may be more applicable to technical staff that may be running your OJS software. Having someone working with you who is knowledgeable about web security and systems administration can be of significant benefit to your journal. If possible, it is important to seek out someone with the necessary skills to be able to assist you with these matters.  The section that follows provides a brief overview of different considerations that you should take for hosting and ensuring the ongoing availability of your online journal. For specific, aspects of running OJS in particular, you may wish to consult some of our other [documentation](https://docs.pkp.sfu.ca), and, in particular the [Administrator's guide](https://docs.pkp.sfu.ca/admin-guide/) for more of an in-depth guide.
-
 
 ## Server environment
 
@@ -25,19 +24,20 @@ Like many open source platforms, OJS is undergoing continuous development with n
 
 If you are considering hosting OJS on your own, there are several factors to take into consideration. One key consideration is what type of hosting you are seeking out. Many commercial webhosting operations now offer a variety of webhosting options, and it's important to know what the pros and cons of each are and how they might impact you hosting OJS on your own.
 
-
 ### Shared Hosting
 
 In this arrangement, the server that hosts your website will also be hosting other people’s websites on the same server. This is often the most affordable solution, and while it may be fine if your site is low maintenance and does not use a lot of resources, it may not be suited to high traffic sites or sites where a significant number of resources are required. Access to certain features on the server may be limited in some instances.
 
 ### Virtual Private server / Virtual Dedicated Server hosting services
 
-In this hosting arrangement, a virtualized server devoted to your needs is provided. This is a “middle-of-the road” option and can be affordable, but is usually not as cheap as shared hosting. In this hosting environment often different resources can be scaled up and applied should you need them (usually at an additional cost). For example, if your site experiences a rise in traffic, you may be able to pay more to dedicate additional bandwith for a period of time or on an ongoing basis. Some popular commercial virtual private server hosting include: [Digital Ocean](https://www.digitalocean.com/), [Amazon Web Services](https://aws.amazon.com), and [Linode](https://www.linode.com/), to name a few.
+In this hosting arrangement, a virtualized server devoted to your needs is provided. This is a “middle-of-the road” option and can be affordable, but is usually not as cheap as shared hosting. In this hosting environment often different resources can be scaled up and applied should you need them (usually at an additional cost). For example, if your site experiences a rise in traffic, you may be able to pay more to dedicate additional bandwidth for a period of time or on an ongoing basis. Some popular commercial virtual private server hosting include: [Digital Ocean](https://www.digitalocean.com/), [Amazon Web Services](https://aws.amazon.com), and [Linode](https://www.linode.com/), to name a few.
 
 ### Dedicated server
+
 In this situation, an entire piece of physical hardware (i.e. a server) may be dedicated to your use. This is the most expensive of these three options and idea for very high traffic websites or larger operations that might have more complex needs.
 
 ### Backups
+
 A key consideration for any hosting service that you might want to consider is how and at what frequency is the application and the data backed up. Does the service provide daily backups? Weekly backups? Are these backups stored in remote geographical locations (e.g. if something were to happen in one location where your data was located, is there a copy of the data in another location?).  If something happens to your site, you will want to be able to restore it back to where it was before the problem occurred. Is the database also backed up? If you are running OJS or any other database-driven applications, you will want to make sure the database can also be restored in the event of a system failure.
 
 Some additional considerations to take into account include: does the provider have a system in place for their own system failures, such as power loss or server crashes? Will they be able to have your site back online fast after such a crisis?
@@ -55,7 +55,6 @@ A number of university libraries host OJS for journals that are affiliated with 
 ### Public Knowledge Project Publishing Services \(PKP-PS\)
 
 The Public Knowledge Project provides hosting services for journals as part of the [Public Knowledge Project Publishing Services (PKP-PS)](https://pkpservices.sfu.ca/). For an annual fee, PKP-PS installs and maintains OJS on commercial grade servers, provides encryption, as well as daily onsite, and weekly off-site backups. Also included as a part of its hosting packages are free upgrades to ensure that OJS installations keep up with the latest upgrades for the software. As a part of its services, journals hosting with PKP-PS retain full control over their publication and also can enact appropriate policies for their publications \(e.g., copyright, access, peer-review, conflict of interest, etc.\) All data is also retained by the client. As a part of PKP-PS’s services, there are several tiers of service with different features and additional features, which are outlined on the PKP-PS website.
-
 
 ## Digital Preservation
 
@@ -79,7 +78,6 @@ There are a number of existing ejournal preservation programs in addition to the
 
 Because OJS supports the LOCKSS system, it’s very easy to enable the PKP PN plugin, as well as other “flavours” of LOCKSS, from within the OJS interface. Depending on your journal’s arrangements, these alternatives to the PKP PN may or may not be relevant.
 
-
 ## DOAJ and Digital Preservation/Archiving Policy
 
 > Section contributed by Roger Gillis
@@ -98,4 +96,4 @@ DOAJ checks the Keepers Registry to confirm that a journal’s archiving arrange
 
 [Digital Preservation initiatives](https://en.wikipedia.org/wiki/List_of_digital_preservation_initiatives)
 
-For more information on the DOAJ application process, please see [Appendix; DOAJ](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-appendix-1-DOAJ).
+For more information on the DOAJ application process, please see [Appendix 1: DOAJ](./getting-found-appendix-1-DOAJ).
