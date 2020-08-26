@@ -33,7 +33,7 @@ Si la revue autorise les soumissions dans plusieurs langues, vous pouvez sélect
 
 Sélectionnez la section appropriée pour votre soumission (par exemple, article, revue, etc.). Si vous ne savez pas quelle section est appropriée, faites votre meilleure estimation.
 
-Read and agree to the statements in the submission checklist by checking each box. Include any comments for the editor, read the journal’s privacy statement, and then click the **Save and Continue** button to move to **Step 2**.
+Lisez et acceptez les déclarations de la liste de contrôle de soumission en cochant chaque case. Incluez tous vos commentaires pour le rédacteur, lisez la déclaration de confidentialité de la revue, et puis cliquez sur le bouton **Enregistrer et continuer** pour passer à **l'étape 2** .
 
 ### Étape 2
 
@@ -191,7 +191,7 @@ Votre fichier révisé est maintenant visible dans le panneau Révisions.
 
 ![](./assets/learning-ojs-3-auth-responding-upload4.png)
 
-### Inform the Editor
+### Informer le Rédacteur
 
 Le rédacteur en cours de téléversement. De plus, vous pouvez informer l'éditeur via le panneau Examiner les discussions comme expliqué ci-dessous.
 
@@ -239,13 +239,13 @@ Toutes nos félicitations! Vous avez été accepté et votre dossier de soumissi
 
 <hr>
 
-## Resubmitting for Review
+## Soumettre à Nouveau pour une Evaluation
 
 Si la décision du rédacteur est de soumettre à nouveau pour examen, vous devrez vous connecter et sélectionner l'article dans votre page de soumission. La nouvelle soumission se fait à l'étape de la révision, il n'est pas nécessaire de commencer une nouvelle soumission.
 
-At the review stage you will need to do two things to resubmit once you have revised your document:
+Au stade de l'évaluation, vous devrez faire deux choses pour soumettre à nouveau une fois que vous aurez révisé votre document:
 
-Upload the new file in the revisions section. To upload a new file click on ‘Upload file.’ A new window will open allowing you to upload your file(s). Select the appropriate option from the dropdown menu to indicate you are submitting a revision of an existing file.
+Téléversez le nouveau fichier dans la section Révisions. Pour téléverser un nouveau fichier, cliquez sur «Téléversez le fichier». Une nouvelle fenêtre s'ouvrira vous permettant de téléverser votre (vos) fichier(s). Sélectionnez l'option appropriée dans le menu déroulant pour indiquer que vous soumettez une révision d'un fichier existant.
 
 Ajoutez une discussion pour informer le rédacteur que vous avez soumis à nouveau.
 
@@ -253,7 +253,7 @@ Le processus d'évaluation par ses collègues sera répété et vous recevrez pr
 
 <hr>
 
-## Responding to a Copyediting Request
+## Répondre à une Demande de Révision
 
 L'étape suivante du flux de travail consiste à inspecter vos fichiers de soumission qui ont été révisés.
 
