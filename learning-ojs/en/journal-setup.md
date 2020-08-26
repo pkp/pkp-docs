@@ -86,7 +86,7 @@ For example, an Editorial section will not typically be peer-reviewed.
 
 If you have a section that is no longer active, you can check off "Items can only be submitted by Editors and Section Editors" and then authors will not be able to submit to it.
 
-You can check off "Will not be included in the indexing of the journal" for sections that contain front matter, back matter, and anything else that might clutter the search index unnecessarily. 
+You can check off "Will not be included in the indexing of the journal" for sections that contain front matter, back matter, and anything else that might clutter the search index unnecessarily.
 
 ![](./assets/learning-ojs-3.2-settings-section-options.png)
 
@@ -126,7 +126,7 @@ Hit the **Done** button when you are finished.
 
 ## Categories
 
-In OJS 3.1.2 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production section of the Editorial Settings chapter](./editorial-workflow.md#production). This section explains how to create and edit categories.
+In OJS 3.1.2 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production). This section explains how to create and edit categories.
 
 ![](./assets/learning-ojs3.1-categories-menu.png)
 

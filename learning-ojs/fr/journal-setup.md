@@ -127,7 +127,7 @@ Appuyez sur le bouton **OK** lorsque vous avez terminé.
 
 ## Catégories
 
-Dans OJS 3.1.2, vous pouvez créer des catégories pour organiser vos articles en collections thématiques et fournir un autre moyen pour les lecteurs d'accéder à votre contenu. Les catégories peuvent être affichées sous forme de bloc de navigation sur votre site de revue et les lecteurs peuvent sélectionner une catégorie pour afficher tous les articles de cette catégorie. Vous pouvez placer un article dans une catégorie en modifiant ses métadonnées, ce qui est expliqué dans la [section Production du chapitre Paramètres Éditoriaux](./editorial-workflow.md#production). Cette section explique comment créer et modifier des catégories.
+Dans OJS 3.1.2, vous pouvez créer des catégories pour organiser vos articles en collections thématiques et fournir un autre moyen pour les lecteurs d'accéder à votre contenu. Les catégories peuvent être affichées sous forme de bloc de navigation sur votre site de revue et les lecteurs peuvent sélectionner une catégorie pour afficher tous les articles de cette catégorie. Vous pouvez placer un article dans une catégorie en modifiant ses métadonnées, ce qui est expliqué dans la [section Production du chapitre Paramètres Éditoriaux](./production). Cette section explique comment créer et modifier des catégories.
 
 ![](./assets/learning-ojs3.1-categories-menu.png)
 
