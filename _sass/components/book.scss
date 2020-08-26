@@ -265,6 +265,9 @@
 		max-width: 50em;
 		margin-left: auto;
 		margin-right: auto;
+		// Make sure the footer is pushed to the bottom of the screen
+		// even if the book content is very short
+		min-height: calc(100vh - 30rem);
 	}
 
 	.book__footerWrapper {
