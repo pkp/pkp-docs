@@ -106,7 +106,7 @@ Si vous utilisez OJS plus ancien que 2.4.8-3, vous ne pourrez pas utiliser la ve
 Pour configurer ReCAPTCHA:
 
 1. Créez un compte et créez une «propriété» pour votre site Web ici: [https://www.google.com/recaptcha/intro/](https://www.google.com/recaptcha/intro/)
-2. Assurez-vous que les lignes pertinentes à l'activation du captcha ne sont pas commentées dans ` config.inc.php {/ code0}`
+2. Assurez-vous que les lignes pertinentes à l'activation du captcha ne sont pas commentées dans `config.inc.php`
 3. Copiez et collez les clés publiques et privées que vous recevez dans le cadre de l'enregistrement de la propriété dans la section `[captcha]` de `config.inc.php` :
 
 ```

@@ -18,7 +18,7 @@ Les articles et les publications peuvent être rapidement importés dans OJS à 
 
 ### Plugiciel Quick Submit
 
-Le plugiciel Quick Submit vous permet d'ajouter rapidement des soumissions complètes à une publication. Cela fournit un processus de soumission en une seule étape pour les éditeurs qui doivent contourner le processus traditionnel de soumission, de révision et d'édition. Voir [Apprendre OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/tools) pour plus de détails.
+Le plugiciel Quick Submit vous permet d'ajouter rapidement des soumissions complètes à une publication. Cela fournit un processus de soumission en une seule étape pour les éditeurs qui doivent contourner le processus traditionnel de soumission, de révision et d'édition. Voir [Apprendre OJS 3](/learning-ojs/fr/tools) pour plus de détails.
 
 ### Plugiciel Native XML
 

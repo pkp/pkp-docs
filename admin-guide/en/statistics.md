@@ -689,7 +689,7 @@ This happens when the amount of data you are trying to download exceeds the serv
 
 ### I need some guidance on processing, re-processing, or troubleshooting log files.
 
-See [Appendix C: Processing Log Files](/admin-guide/en/statistics#appendix-c-processing-log-files).
+See [Appendix C: Processing Log Files](#appendix-c-processing-log-files).
 
 <hr />
 

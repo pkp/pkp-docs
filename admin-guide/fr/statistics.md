@@ -690,7 +690,7 @@ Cela se produit lorsque la quantité de données que vous essayez de télécharg
 
 ### J'ai besoin de quelques conseils sur le traitement, le retraitement ou le dépannage des fichiers journaux.
 
-Voir l'[Annexe C: Traitement des Fichiers Journaux](/admin-guide/en/statistics#appendix-c-processing-log-files) .
+Voir l'[Annexe C: Traitement des Fichiers Journaux](#annexe-c-traitement-des-fichiers-journaux) .
 
 <hr>
 
