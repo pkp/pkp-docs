@@ -41,7 +41,7 @@ Use this tab to add or edit article keywords.
 If any changes are made, click Save before exiting this window.
 
 **Identifiers**
-Use the Identifiers tab to view or add a unique identifier, such as a DOI. More information about assigning and managing DOIs is available in the [DOI Plugin Guide](https://docs.pkp.sfu.ca/doi-plugin/en/).
+Use the Identifiers tab to view or add a unique identifier, such as a DOI. More information about assigning and managing DOIs is available in the [DOI Plugin Guide](/doi-plugin/).
 
 **Galleys**
 Use the Galleys tab to upload the final file for publication. This is explained below.

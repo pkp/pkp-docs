@@ -52,7 +52,7 @@ Où vous pouvez télécharger des images (logo, vignette, page d'accueil) vers l
 
 - **Pied de Page**: saisissez les images, le texte ou le code HTML que vous souhaitez voir apparaître au bas de votre site Web.
 
-- **Barre Latérale**: Cela vous permet de déplacer différents blocs dans ou hors de la barre latérale dans l'interface du lecteur. Vous pouvez également créer un bloc personnalisé à l'aide du [Plugiciel Custom Block](./settings-website.md#custom-block-plugin)
+- **Barre Latérale**: Cela vous permet de déplacer différents blocs dans ou hors de la barre latérale dans l'interface du lecteur. Vous pouvez également créer un bloc personnalisé à l'aide du [Plugiciel Custom Block](./settings-website.md#plugiciel-de-bloc-personnalisé)
 
 ### Avancé
 
@@ -179,7 +179,7 @@ N'oubliez pas de cliquer sur Enregistrer pour enregistrer le changement.
 
 OJS 3 dispose d'un certain nombre de plugiciels que vous pouvez activer pour améliorer l'expérience utilisateur et la découvrabilité de votre contenu et de votre revue. Cette section décrit les différents plugiciels disponibles dans OJS et comment les configurer et les utiliser.
 
-Étant donné que certains plugiciels ci-dessous sont des plugiciels tiers, vous devrez peut-être télécharger le fichier zip depuis GitHub et le télécharger dans votre revue. Pour des informations générales sur les plugiciels et comment installer et activer des plugiciels, veuillez consulter [Apprendre OJS 3 - Plugiciels](./settings-website#plugins) .
+Étant donné que certains plugiciels ci-dessous sont des plugiciels tiers, vous devrez peut-être télécharger le fichier zip depuis GitHub et le télécharger dans votre revue. Pour des informations générales sur les plugiciels et comment installer et activer des plugiciels, veuillez consulter [Apprendre OJS 3 - Plugiciels](./settings-website#plugiciels) .
 
 Veuillez noter que vu que PKP ne gére pas de plugiciels tiers, nous ne pouvons pas garantir qu'il fonctionnera avec votre version d'OJS.
 

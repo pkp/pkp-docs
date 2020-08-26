@@ -48,7 +48,7 @@ Pour permettre l'envoi de copies de l'email confirmant la soumission au contact 
 
 ![](./assets/learning-ojs3.1-configure-submission-notification.png)
 
-Si vous souhaitez désactiver l'envoi d'emails confirmant la soumission, vous pouvez faire cela en désactivant le modèle d'email *Acusé de Soumission* de la liste des modèles d'email préparés. Pour plus d'informations sur l'activation et la désactivation de modèles d'emails, voir *Désactiver des modèles d'emails* dans le [Chapitre Paramètres de Flux des Travaux](./journal-setup#workflow-settings).
+Si vous souhaitez désactiver l'envoi d'emails confirmant la soumission, vous pouvez faire cela en désactivant le modèle d'email *Acusé de Soumission* de la liste des modèles d'email préparés. Pour plus d'informations sur l'activation et la désactivation de modèles d'emails, voir *Désactiver des modèles d'emails* dans le [Chapitre Paramètres de Flux des Travaux](./settings-workflow).
 
 Les utilisateurs peuvent aussi modifier leurs paramètres de notification individuels à partir de leur propre profil sous Afficher le Profil > Notifications.
 
@@ -284,13 +284,13 @@ Cela ouvre une nouvelle fenêtre avec un message pour la Évaluatrice.
 
 Vous pouvez réviser n'importe quel texte préparé.
 
-Si vous utilisez une méthode d'Évaluation à l'Aveugle, assurez-vous que les fichiers que vous envoyez à l'Évaluateur/trice sont démunis de toute information qui peut identifier l'auteur. Des instructions supplémentaires à ce sujet sont fournies dans les sections [Comprendre l'Évaluation à l'aveugle](#understanding-blind-review) et [Enlever les Informations d'Identification](#removing-identifying-information) .
+Si vous utilisez une méthode d'Évaluation à l'Aveugle, assurez-vous que les fichiers que vous envoyez à l'Évaluateur/trice sont démunis de toute information qui peut identifier l'auteur. Des instructions supplémentaires à ce sujet sont fournies dans les sections [Comprendre l'Évaluation à l'aveugle](#comprendre-lévaluation-à-laveugle) et [Enlever les Informations d'Identification](#supprimer-les-informations-didentification) .
 
 Plus bas dans le formulaire, vous verrez les détails supplémentaires qui sont envoyés à l'Évaluateur/trice, y compris le titre, le résumé, les dates importantes, et un lien vers les fichiers à évaluer.
 
 ![](./assets/learning-ojs-3-ed-rev-add-4.png)
 
-Par défaut, les Évaluateur seront fournis d'une large zone de texte pour écrire leur commentaires. Néanmoins, le/la Directeur/trice de la Revue peut créer des Formulaires de Révision sous [**Paramètres de Flux des Travaux > Évaluation**](./journal-setup#workflow-settings) pour demander des questions plus spécifiques. Si vous voulez que l'Évaluateur/trice remplisse un formulaire de Évaluation, sélectionnez cela sous **Formulaire d'Évaluation**.
+Par défaut, les Évaluateur seront fournis d'une large zone de texte pour écrire leur commentaires. Néanmoins, le/la Directeur/trice de la Revue peut créer des Formulaires de Révision sous [**Paramètres de Flux des Travaux > Évaluation**](./settings-workflow#évaluation) pour demander des questions plus spécifiques. Si vous voulez que l'Évaluateur/trice remplisse un formulaire de Évaluation, sélectionnez cela sous **Formulaire d'Évaluation**.
 
 Cliquez sur le bouton **Ajouter un-e Évaluateur/trice** pour envoyer le message et affecter l'Évaluateur/trice.
 
@@ -357,13 +357,13 @@ Le type d'évaluation sera automatiquement sélectionné en fonction de ce qui a
 
 **Évaluation en Double-Aveugle**: l'identité de l'auteur et de l'évaluateur/trice sont gardées cachées.
 
-L'auteur ou le/la rédacteur/trice doit s'assurer que les métadonnées du fichier manuscrit sont supprimées lors d'une évaluation en Double-Aveugle. Voir [Supprimer les informations d'identification](#removing-identifying-information) pour plus d'informations.
+L'auteur ou le/la rédacteur/trice doit s'assurer que les métadonnées du fichier manuscrit sont supprimées lors d'une évaluation en Double-Aveugle. Voir [Supprimer les informations d'identification](#supprimer-les-informations-didentification) pour plus d'informations.
 
 *Évaluateur!trice:* L'Évaluateur/trice ne sera pas en mesure de voir le(s) auteur(s) dans la file d' attente de l'évaluateur/trice si le/la rédacteur/trice a sélectionné une évaluation en double-aveugle. Toutes les informations d'identification dans les métadonnées des détails de soumission sont automatiquement supprimées par le système.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon1.png)
 
-À la fin d'une évaluation, si un-e évaluateur/trice choisit de télécharger un fichier d'évaluation, toutes les informations d'identification doivent être supprimées avant de le télécharger dans le système. Voir [Supprimer les Informations d'Identification](#removing-identifying-information) pour plus d'informations.
+À la fin d'une évaluation, si un-e évaluateur/trice choisit de télécharger un fichier d'évaluation, toutes les informations d'identification doivent être supprimées avant de le télécharger dans le système. Voir [Supprimer les Informations d'Identification](#supprimer-les-informations-didentification) pour plus d'informations.
 
 *Auteur*: Aucune information d'identification concernant l'évaluateur/trice ne sera visible par l'auteur dans la vue de son manuscrit.
 

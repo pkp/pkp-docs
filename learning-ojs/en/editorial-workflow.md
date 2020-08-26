@@ -48,7 +48,7 @@ To enable copies of submission acknowledgment email to be sent to the primary co
 
 ![](./assets/learning-ojs3.1-configure-submission-notification.png)
 
-If you want to disable submission acknowledgement emails entirely, you can do so by disabling the *Submission Ack* email template from the list of prepared email templates. To learn more about disabling and enabling email templates, refer to *Disable email templates* in the [Workflow Settings chapter](./journal-setup#workflow-settings).
+If you want to disable submission acknowledgement emails entirely, you can do so by disabling the *Submission Ack* email template from the list of prepared email templates. To learn more about disabling and enabling email templates, refer to *Disable email templates* in the [Workflow Settings chapter](./settings-workflow).
 
 Users can also change their individual notification settings from their own profile under View Profile > Notifications.
 
@@ -290,7 +290,7 @@ Further down the form, you will see the additional details that are sent to the 
 
 ![](./assets/learning-ojs-3-ed-rev-add-4.png)
 
-By default, Reviewers will be provided with an extended text box to type in their comments. However, the Journal Manager can create Review Forms in [**Workflow Settings &gt; Review**](./journal-setup#workflow-settings) to ask more focused questions. If you would like the Reviewer to fill out a review form, select it under **Review Form**.
+By default, Reviewers will be provided with an extended text box to type in their comments. However, the Journal Manager can create Review Forms in [**Workflow Settings &gt; Review**](./settings-workflow#review) to ask more focused questions. If you would like the Reviewer to fill out a review form, select it under **Review Form**.
 
 Hit the **Add Reviewer** button to send the message and assign the Reviewer.
 

@@ -75,7 +75,7 @@ Appuyez sur le bouton **Enregistrer** pour enregistrer vos modifications.
 
 ![](./assets/learning-ojs3.1-jm-settings-review-reminders.png)
 
-Notez que certains paramètres du système doivent être configurés par l'administrateur du site pour être en mesure d'envoyer des emails .Consultez le [Guide de l'Administrateur ](https://docs.pkp.sfu.ca/admin-guide/en/email) pour plus d'information.
+Notez que certains paramètres du système doivent être configurés par l'administrateur du site pour être en mesure d'envoyer des emails .Consultez le [Guide de l'Administrateur ](/admin-guide/fr/email) pour plus d'information.
 
 ### Conseils pour l'évaluation
 
@@ -108,7 +108,7 @@ Vous pouvez choisir de rendre la question obligatoire pour les évaluateurs et v
 Vous pouvez ensuite choisir le type de réponse, notamment:
 
 - case de saisi pour un seul mot
--  zone de texte simple ligne
+- zone de texte simple ligne
 - zone de texte élargie  (pour des réponses plus longues)
 - cases à cocher (dans lesquelles le réviseur peut sélectionner plusieurs réponses possibles)
 - boutons radio (où l'évaluateur ne peut sélectionner qu'une seule réponse possible)
@@ -162,7 +162,7 @@ La section vous permet de configurer les courriels envoyés depuis le système.
 
 ### Modèles de courriel
 
-OJS facilites la communication du flux des travaux via l'utilisation de courriels préparés. Vous pouvez voir et modifier ces modèles due courriel préparé ici. Notez que certaines configurations sont obligatoires pour envoyer un e-mail. Voir le [Guide de l'Administrateur](https://docs.pkp.sfu.ca/admin-guide/en/email) pour plus d'information.
+OJS facilites la communication du flux des travaux via l'utilisation de courriels préparés. Vous pouvez voir et modifier ces modèles due courriel préparé ici. Notez que certaines configurations sont obligatoires pour envoyer un e-mail. Voir le [Guide de l'Administrateur](/admin-guide/fr/email) pour plus d'information.
 
 #### Modifier les modèles de courriel
 

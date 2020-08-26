@@ -9,7 +9,7 @@ Dans le cadre de l'installation d'OJS, vous aurez créé un compte d'Administrat
 
 Vous serez en mesure de créer de nouvelles copies hébergées de la revue, de gérer la prise en charge des langues sur votre système, et d'exécuter d'autres fonctions administratives.
 
-Des informations supplémentaires à propos de l'administration d'un site <br>OJS, y compris les mises à niveau, les emails, les statistics, et l'import et export, sont disponibles dans le [Guide d'Administrateur](https://docs.pkp.sfu.ca/admin-guide/en/).
+Des informations supplémentaires à propos de l'administration d'un site <br>OJS, y compris les mises à niveau, les emails, les statistics, et l'import et export, sont disponibles dans le [Guide d'Administrateur](/admin-guide/).
 
 ## Gestion du Site
 

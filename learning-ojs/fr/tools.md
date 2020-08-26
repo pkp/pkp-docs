@@ -19,9 +19,9 @@ Importer/Exporter vous permet d'extraire facilement des données de votre journa
 
 Quelques outils vous permettent d'exporter vers des systèmes tiers, tels que PubMed ou le DOAJ. D'autres vous permettent d'importer ou d'exporter des données utilisateur ou article.
 
-Pour des instructions détaillées sur l'importation et l'exportation voir le [Guide de l'Administrateur/trice](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export).
+Pour des instructions détaillées sur l'importation et l'exportation voir le [Guide de l'Administrateur/trice](/admin-guide/fr/data-import-and-export).
 
-Pour plus d'informations sur le plugiciel Crossref XML Export, consultez le [Guide PKP Crossref](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) .
+Pour plus d'informations sur le plugiciel Crossref XML Export, consultez le [Guide PKP Crossref](/crossref-ojs-manual/) .
 
 ### Plugiciel Quick Submit
 
@@ -117,7 +117,7 @@ Utilisez cette fonction pour créer vos propres rapports.
 
 ![](./assets/learning-ojs3.2-jm-users-tools-stats-custom.png)
 
-Plus d'informations sur comment générer et gérer les statistiques dans OJS sont disponibles dans le [Guide de l'Administrateur/trice](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
+Plus d'informations sur comment générer et gérer les statistiques dans OJS sont disponibles dans le [Guide de l'Administrateur/trice](/admin-guide/fr/statistics).
 
 ## Permissions
 

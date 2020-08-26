@@ -7,7 +7,7 @@ version: 3.2
 
 Une fois la phase de révision terminée, la soumission passe maintenant à la production. À partir de là, les fichiers copiés seront convertis en formats publiables sous forme de fichiers épreuves (par exemple, PDF, HTML) et relus avant publication. Un nouveau numéro de revue sera créé et l'article sera publié dans le numéro. Ce chapitre explique les étapes de ce processus, ainsi que la façon d'utiliser la fonction de contrôle de version d'OJS 3.2 pour publier une nouvelle version d'un article si des modifications importantes sont apportées.
 
-OJS offre également un moyen simple de contourner le flux de travail éditorial décrit dans le chapitre précédent et de soumettre le contenu directement en production, où il peut être ajouté à un numéro et publié. Vous pouvez le faire via le plugiciel Soumission Rapide. Consultez les [ Instructions détaillées du plugiciel Soumission Rapide dans le chapitre Importation et Exportation de Données ](./tools.md#importexport)
+OJS offre également un moyen simple de contourner le flux de travail éditorial décrit dans le chapitre précédent et de soumettre le contenu directement en production, où il peut être ajouté à un numéro et publié. Vous pouvez le faire via le plugiciel Soumission Rapide. Consultez les [Instructions détaillées du plugiciel Soumission Rapide dans le chapitre Importation et Exportation de Données](./tools.md#importerexporter)
 
 Pour commencer le travail de Production, le/la rédacteur-trice de la rubrique ou le/la rédacteur-trice de la revue doit se connecter au système et choisir la soumission dans son tableau de bord.
 
@@ -41,7 +41,7 @@ Utilisez cet onglet pour ajouter ou modifier des mots-clés d'article.
 Si des modifications sont apportées, cliquez sur Enregistrer avant de quitter cette fenêtre.
 
 **Références**
-Utilisez l'onglet références pour afficher ou ajouter une référence unique, tel qu'un DOI. Plus d'informations sur l'attribution et la gestion des DOI sont disponibles dans le [Guide du plugiciel DOI](https://docs.pkp.sfu.ca/doi-plugin/en/) .
+Utilisez l'onglet références pour afficher ou ajouter une référence unique, tel qu'un DOI. Plus d'informations sur l'attribution et la gestion des DOI sont disponibles dans le [Guide du plugiciel DOI](/doi-plugin/) .
 
 **Épreuves**
 Utilisez l'onglet Épreuves pour téléverser le fichier final pour la publication. Ceci est expliqué ci-dessous.
@@ -185,7 +185,7 @@ Afin de styliser un fichier épreuve HTML individuel:
 - Téléversez les feuilles de style CSS avec le **type d'élément - feuille de style HTML** approprié.
 
 Pour styliser tous les fichiers épreuves HTML:
-Si vous utilisez un plugiciel de thème personnalisé, vous pouvez écrire une ligne de code pour inclure un style personnalisé pour toutes les épreuves HTML. Cela ne s'appliquera qu'aux fichiers épreuve HTML qui n'ont pas de style appliqué individuellement. Plus d'informations sur le thème personnalisé sont disponibles dans le [guide sur les thème PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) .
+Si vous utilisez un plugiciel de thème personnalisé, vous pouvez écrire une ligne de code pour inclure un style personnalisé pour toutes les épreuves HTML. Cela ne s'appliquera qu'aux fichiers épreuve HTML qui n'ont pas de style appliqué individuellement. Plus d'informations sur le thème personnalisé sont disponibles dans le [guide sur les thème PKP](/pkp-theming-guide/) .
 
 ##### Ajoutez des images et du multimédia à une épreuve HTML
 
@@ -528,7 +528,7 @@ Pour ne pas envoyer de notification d'un nouveau numéro publié, décochez la c
 
 ![](./assets/learning-ojs-3.2-ed-production-reader-notify.png)
 
-Le contenu de l'annonce est généré automatiquement et ne peut pas être modifié. Vous pouvez également utiliser la fonction [Annonces](./settings-website.md#announcements) pour envoyer une annonce de publication avec un contenu personnalisé.
+Le contenu de l'annonce est généré automatiquement et ne peut pas être modifié. Vous pouvez également utiliser la fonction [Annonces](./settings-website.md#annonces) pour envoyer une annonce de publication avec un contenu personnalisé.
 
 ### Dépublier un Numéro
 
@@ -563,7 +563,7 @@ Vous pouvez créer un numéro avec un titre tel que «Publications Actuelles», 
 
 Lorsque le numéro «Publications Actuelles» est plein, vous pouvez le renommer avec un chiffre de numéro (par exemple, Vol 1, Numéro 2) et créer un nouveau numéro «Publications Actuelles» pour le prochain lot de nouveaux articles.
 
-Si vous souhaitez informer vos lecteurs de la publication de chaque nouvel article, vous devrez créer une **Annonce** individuelle, car le message de notification automatique pour une nouvelle publication ne peut être envoyé que lorsqu'un nouveau numéro est publié. Consultez le [chapitre Paramètres du site web](./settings-website.md#announcements) pour plus d'informations sur les annonces.
+Si vous souhaitez informer vos lecteurs de la publication de chaque nouvel article, vous devrez créer une **Annonce** individuelle, car le message de notification automatique pour une nouvelle publication ne peut être envoyé que lorsqu'un nouveau numéro est publié. Consultez le [chapitre Paramètres du site web](./settings-website.md#annonces) pour plus d'informations sur les annonces.
 
 ## Calendrier de Publication
 
