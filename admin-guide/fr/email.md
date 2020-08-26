@@ -58,7 +58,7 @@ Les applications logicielles PKP offrent un certain nombre d'options pour config
 ; dmarc_compliant_from_displayname = '%n via %s'
 ```
 
-Pour en savoir plus sur les emails dans l'interface utilisateur OJS, voir [Apprendre OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/) .
+Pour en savoir plus sur les emails dans l'interface utilisateur OJS, voir [Apprendre OJS 3](/learning-ojs/fr/) .
 
 ## Envoi de Mail
 

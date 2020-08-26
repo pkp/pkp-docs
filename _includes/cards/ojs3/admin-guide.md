@@ -1,5 +1,5 @@
 
-### [Administrator's Guide](admin-guide/en/)
+### [Administrator's Guide](admin-guide/)
 
 A guide for system administrators of PKP applications.
 
@@ -11,3 +11,7 @@ A guide for system administrators of PKP applications.
 - [Email](admin-guide/en/email)
 - [Troubleshooting](admin-guide/en/troubleshooting)
 - ... and [more](admin-guide/en/).
+
+---
+
+<span class='fa fa-language'></span> Available in [Français](/admin-guide/fr/).
