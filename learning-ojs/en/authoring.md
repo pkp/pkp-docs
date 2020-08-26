@@ -2,6 +2,7 @@
 book: learning-ojs
 version: 3.2
 ---
+
 # Authoring
 
 In this chapter, you will learn about how an author works in OJS 3.2 from registration through to proofreading the final galley.
@@ -64,7 +65,7 @@ Click ‘Save and Continue’ to move to Step 3.
 
 ### Step 3
 
-On **Step 3**, you will be asked to add more information about the submission, including the title of the submission \(broken down into prefix, title, and subtitle\), and the abstract. If the journal allows submissions in multiple languages, clicking on each metadata field will reveal the option to enter the metadata in the other languages that are enabled, allowing you to enter the title, subtitle and abstract in the other language(s).  Scrolling down...
+On **Step 3**, you will be asked to add more information about the submission, including the title of the submission (broken down into prefix, title, and subtitle), and the abstract. If the journal allows submissions in multiple languages, clicking on each metadata field will reveal the option to enter the metadata in the other languages that are enabled, allowing you to enter the title, subtitle and abstract in the other language(s).  Scrolling down...
 
 ![](./assets/learning-ojs3.2-au-dashboard-new-3.png)
 
