@@ -41,7 +41,7 @@ You will also find `$currentJournal` and `$currentPress` variables for ease-of-u
 
 ## Configuration
 
-**`(string) $baseUrl`** and **`(string) $basePath`** provide the base site URL (`https://myjournal.com/index.php`) and any journal- or press-specific path (`journal-of-public-knowledge`) for the current request. This can be used to construct reliable URLs.
+**`(string) $baseUrl`** provide the base site URL (`https://myjournal.com/index.php`). This can be used to construct reliable URLs.
 
 **`(string) $primaryLocale`** is the primary locale (language) the site is configured for. You'll find an array of supported locales at ` $supportedLocales`.
 
