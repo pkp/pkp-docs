@@ -1,7 +1,6 @@
 .book {
-	@include container;
 	margin-top: 4rem;
-	padding-top: 3rem;
+	padding: 3rem 1rem 0 1rem;
 
 	hr {
 		margin-top: 2rem;
@@ -52,14 +51,14 @@
 		margin-top: 0;
 		margin-bottom: 1.5rem;
 		font-size: 2.2rem;
-		line-height: 1.1em;
+		line-height: 1.2em;
 	}
 
 	p {
 		margin-top: 2em;
 		margin-bottom: 2em;
 		font-size: 1.15rem;
-		line-height: 2.2em;
+		line-height: 2em;
 	}
 
 	ul,
@@ -130,7 +129,7 @@
 	position: fixed;
 	top: 60px;
 	left: 0;
-	height: 100%;
+	height: calc(100vh - 60px);
 	padding: 1rem;
 	background: $bg;
 	transform: translateX(-100%);
@@ -140,7 +139,7 @@
 }
 
 .book__spacer {
-	padding-bottom: 5rem; // Make sure last items are visible in scroll
+	padding-bottom: 1rem; // Make sure last items are visible in scroll
 }
 
 .book__sidebarScreen {
@@ -247,38 +246,51 @@
 	}
 }
 
+@media (min-width: 768px) {
+
+	.book {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+}
+
 @media (min-width: 992px) {
 
 	.book {
-		padding-top: 0;
+		margin-top: 5rem;
+		padding-top: 3rem;
+	}
+
+	.book__content {
+		max-width: 50em;
+		margin-left: auto;
+		margin-right: auto;
+		// Make sure the footer is pushed to the bottom of the screen
+		// even if the book content is very short
+		min-height: calc(100vh - 30rem);
+	}
+
+	.book__footerWrapper {
+		margin-top: 3rem;
 	}
 
 	.body--withSidebar {
 
 		.book {
 			position: relative;
-
-			&:before,
-			&:after {
-				content: " ";
-				display: table;
-			}
-
-			&:after {
-				clear: both;
-			}
 		}
 
 		.book__sidebar {
-			position: relative;
-			top: auto;
-			left: auto;
-			overflow: hidden;
+			position: fixed;
+			top: 5rem;
+			left: 0;
+			overflow: auto;
 			transform: none;
-			float: left;
-			width: 40%;
+			width: 20em;
+			height: calc(100vh - 5rem);
 			margin-top: 0;
-			padding: 0 2rem 0 0;
+			padding: 1rem 2rem;
+			border-right: 1px solid $bg-shade;
 		}
 
 		.book__sidebarScreen {
@@ -286,28 +298,16 @@
 		}
 
 		.book__page {
-			float: right;
-			width: 60%;
-		}
-	}
-
-	.book__content {
-		max-width: 700px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-}
-
-@media (min-width: 1200px) {
-
-	.body--withSidebar {
-
-		.book__sidebar {
-			width: 25%;
+			margin-left: 20em;
 		}
 
-		.book__page {
-			width: 75%;
+		.book__footerWrapper {
+			margin-left: 20em;
+
+			.siteFooter__container {
+				justify-content: center;
+				max-width: none;
+			}
 		}
 	}
 }
