@@ -135,7 +135,7 @@ Si l'utilisateur/trice ne parvient toujours pas à se connecter, son compte a pe
 
 Les utilisateurs du système doivent avoir un ou plusieurs rôles.
 
-Les rôles définissent ce qu'un-e utilisateur/trice peut faire dans le système. Un auteur peut faire des soumissions et rien d'autre. Un-e rédacteur/trice peut gérer les soumissions et un-e directeur/trice de revue peut configurer les paramètres du journal. Voir le [Chapitre Comptes d'Utilisateurs](./user-accounts#roles-in-ojs) pour une liste et une description de chaque rôle.
+Les rôles définissent ce qu'un-e utilisateur/trice peut faire dans le système. Un auteur peut faire des soumissions et rien d'autre. Un-e rédacteur/trice peut gérer les soumissions et un-e directeur/trice de revue peut configurer les paramètres du journal. Voir le [Chapitre Comptes d'Utilisateurs](./user-accounts#rôles-dans-ojs) pour une liste et une description de chaque rôle.
 
 Un utilisateur peut avoir plusieurs rôles, par exemple, être un-e directeur/trice, un-e rédacteur/trice et un-e auteur dans la même revue.
 
