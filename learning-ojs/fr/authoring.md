@@ -1,5 +1,5 @@
 ---
-book: learning-ojs
+book: apprendre-ojs
 version: 3.2
 ---
 
@@ -9,7 +9,7 @@ Dans ce chapitre, vous apprendrez comment un auteur travaille dans OJS 3.2, de l
 
 ## S'Inscrire à la Revue
 
-Pour soumettre une soumission à une revue OJS 3.2, vous devez d'abord créer un compte utilisateur auprès d'un journal et vous connecter (voir [Inscription à une revue](./user-accounts#registering-with-a-journal) ). Après cela, lorsque vous vous connectez, vous serez redirigé vers votre tableau de bord.
+Pour soumettre une soumission à une revue OJS 3.2, vous devez d'abord créer un compte utilisateur auprès d'un journal et vous connecter (voir [Inscription à une revue](./user-accounts#inscription-à-une-revue) ). Après cela, lorsque vous vous connectez, vous serez redirigé vers votre tableau de bord.
 
 ![](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
@@ -283,7 +283,7 @@ Votre rôle dans le processus de révision est maintenant terminé et vous pouve
 
 <hr>
 
-## <a>Répondre à une Demande de Correction d'Épreuves</a>
+## Répondre à une Demande de Correction d'Épreuves
 
 La prochaine étape du flux des travaux consiste à inspecter vos fichiers de soumission qui ont été convertis en épreuves (par exemple, PDF, HTML, etc.).
 
