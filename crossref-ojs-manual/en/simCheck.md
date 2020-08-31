@@ -1,3 +1,7 @@
+---
+book: crossref-ojs-manual
+version: 3.2
+---
 # Similarity Check
 
 OJS 3.1.2 includes support for iThenticate plagiarism check the Crossref Similarity Check service.
@@ -16,7 +20,7 @@ Install the plugin by clicking Install
 
 Next, for this plugin to work, _the following must be added to your config.inc.php file_:
 
-````
+```
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; iThenticate Plugin Settings ;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -31,14 +35,14 @@ username = "user@email.com"
 
 ; The password to access the API
 password = "password"
-````
+```
 
 Now you can enable the plugin:
 Go back to Settings > Website > Plugins
 Find the iThenticate plugin
 Click the check box next to it to enable it
 
-Additionally, OJS automatically includes the Similarity Check URL as part of your deposit. 
+Additionally, OJS automatically includes the Similarity Check URL as part of your deposit.
 
 For more information on Similarity Check, please visit the [Crossref website](https://www.crossref.org/education/similarity-check/) and [see the Similarity Check User Guide](https://www.crossref.org/pdfs/similarity-check-user-guide-aug19.pdf).
 

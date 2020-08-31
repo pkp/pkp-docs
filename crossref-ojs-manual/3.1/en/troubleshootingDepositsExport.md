@@ -1,6 +1,6 @@
 ---
 book: crossref-ojs-manual
-version: 3.2
+version: 3.1
 ---
 # Troubleshooting Deposits from XML Export
 

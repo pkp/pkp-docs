@@ -1,6 +1,6 @@
 ---
 book: crossref-ojs-manual
-version: 3.2
+version: 3.1
 ---
 # Getting Started with DOIs
 
@@ -35,13 +35,25 @@ Let's break these steps down one by one.
 
 ## Configuring the DOI plugin for OJS
 
-1. Ensure that all title-level metadata has been properly filled out.
+1. Ensure that all title-level metadata has been properly filled out. The DOI plugin requires the following metadata found in your journal's dashboard **Settings** > **Journal**:
+    - Journal Title
+    - Journal Initials
+    - Journal Abbreviation
+    - Journal ISSN (or electronic ISSN)
+    - Principal Contact (name and email)
+    - Technical Support Contact (name and email)
+    - Publisher (Institution and URL)
 2. Enable and configure the "DOI" public identifier plugin at **Settings** > **Website** > **Plugins** > **DOI Plugin** (under the section "public identifier plugins").
+    - First, **Enable** the plugin by checking the box to the right of it; then configure the plugin by clicking its **Settings** link.
+    - For plugin settings, ensure that you have only _Articles_ checked for depositing journal content.
+    - You must include a DOI prefix which you get from Crossref and additionally must configure the DOI suffix. We **strongly recommend** using the default patterns if you are a new journal and have not previously had DOIs issued.
 3. Assign DOIs.
+    - At the bottom of this page, you'll see two links for assigning DOIs en masse. One is "assign DOIs," which makes DOIs using the suffix pattern you set above. It assigns a DOI to anything that does not already have one.
+    - You'll also see one that says, "re-assign DOIs." **_Only click this if you have not registered any of your DOIs and made an error in prior suffix generation_**.  
+    - If you chose to assign DOIs manually as you publish, you could select that from the DOI Suffix options. Using this method, OJS does not create a DOI suffix automatically. Instead, you enter DOIs as part of article metadata.
 
 ## Additional Resources
 
 - [The DOI Handbook @ doi.org](https://www.doi.org/hb.html) – The DOI Handbook is a comprehensive guide to DOIs and their usage and is available in several languages.
 - [Crossref Curriculum](https://www.crossref.org/education/)
-    - [Similarity Check] (https://www.crossref.org/education/similarity-check/)
 - [Crossref Blog: URLs and DOIs, a complicated relationship](https://www.crossref.org/blog/urls-and-dois-a-complicated-relationship/) – A blog post from Crossref's Joe Wass that explains the difference between URLs and DOIs.

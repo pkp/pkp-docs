@@ -2,6 +2,9 @@ api:
   ojs:
     3.2: /dev/api/ojs/3.2
     3.1: /dev/api/ojs/3.1
+crossref-ojs-manual:
+  3.2: /crossref-ojs-manual/en
+  3.1: /crossref-ojs-manual/3.1/en
 importing-exporting:
   current: /importing-exporting/en
   3.0: /importing-exporting/3.0/en

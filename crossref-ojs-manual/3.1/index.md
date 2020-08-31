@@ -1,7 +1,7 @@
 ---
 isBookIndex: true
 ---
-# Crossref | OJS 3.2 Manual
+# Crossref | OJS 3.1.2+ Manual
 
 * [English](en/)
 
