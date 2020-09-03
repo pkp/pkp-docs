@@ -59,14 +59,11 @@ class DocsThemePlugin extends ThemePlugin {
 		// Retrieve the TemplateManager
 		$templateMgr = $args[0];
 
-		// Attach the latest 3 announcements if they're enabled for this journal
+		// Attach the the journal's license as a badge.
 		$request = Application::getRequest();
 		$journal = $request->getJournal();
-		if ($journal && $journal->getSetting('enableAnnouncements') {
-			$announcementDao = DAORegistry::getDAO('AnnouncementDAO');
-			$announcements =& $announcementDao->getNumAnnouncementsNotExpiredByAssocId(ASSOC_TYPE_JOURNAL, $journal->getId(), 3);
-			$templateMgr->assign('announcements', $announcements->toArray());
-		}
+		$badge=Application::get()->getCCLicenseBadge($journal->getData('licenseUrl'));
+		$templateMgr->assign('ccLicenseBadgeJournal', $badge);
 	}
 }
 ```
