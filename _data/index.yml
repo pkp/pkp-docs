@@ -22,6 +22,15 @@ apps:
       - path: crossref-ojs-manual
       - path: gdpr
       - path: translation
+- path: disc-sust
+    title: Discoverability and Sustainability
+    titleShort: Discoverability/Sustainability
+    includeInHero: true
+    description: This series of guides includes resources related to discoverability and sustainability for publications using PKP software.
+    cards:
+      - path: gfsf
+      - path: doaj
+      - path: google-scholar
   - path: omp3
     title: Open Monograph Press
     titleShort: OMP
@@ -36,6 +45,15 @@ apps:
         - path: designing-your-journal
         - path: gdpr
         - path: translation
+- path: sust-disc
+    title: Sustainability and Discovery
+    titleShort: OJS 3
+    includeInHero: true
+    description: This series of guides
+    cards:
+      - path: learning-ojs-3
+      - path: doaj
+
   - path: ojs2
     title: Open Journal Systems 2
     titleShort: OJS 2

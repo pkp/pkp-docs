@@ -1,4 +1,4 @@
-# Appendix 2: Google Scholar Indexing
+# Google Scholar Indexing
 
 > Contributors: Kate Shuttleworth, Emily Zheng, Monica Westin, Roger Gillis, Patricia Manghais
 
