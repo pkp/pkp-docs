@@ -1,3 +1,7 @@
+---
+generateHeadingToc: true
+---
+
 # DOAJ Application Guide for OJS Journals
 
 Publishers who wish to have their journal included in the Directory of Open Access Journals (DOAJ) have to fill out an extensive application form to indicate that the journal meets DOAJ's criteria. This appendix provides guidance for journals using Open Journal Systems (OJS) on how to represent and link to information in OJS that is relevant for DOAJ inclusion and the DOAJ application.
