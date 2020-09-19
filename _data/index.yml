@@ -15,22 +15,13 @@ apps:
       - path: starting-a-journal
       - path: designing-your-journal
       - path: accessible-content
-      - path: gfsf
+      - path: disc-sust
       - path: instructor-guide
       - path: student-toolkit
       - path: pkp-school
       - path: crossref-ojs-manual
       - path: gdpr
       - path: translation
-- path: disc-sust
-    title: Discoverability and Sustainability
-    titleShort: Discoverability/Sustainability
-    includeInHero: true
-    description: This series of guides includes resources related to discoverability and sustainability for publications using PKP software.
-    cards:
-      - path: gfsf
-      - path: doaj
-      - path: google-scholar
   - path: omp3
     title: Open Monograph Press
     titleShort: OMP
