@@ -64,7 +64,7 @@ One of the most well-known and well-established journal-level metrics is the jou
 
 Journal Impact Factor, and 5-year Journal Impact Factor can be calculated using the formulae below:
 
-![Impact Factor forumula](assets/chapter2/ImpactFactor.png)
+![Impact Factor formula](assets/chapter2/ImpactFactor.png)
 
 JIF is considered a fairly controversial measure, as the number of open access journals, books, conference proceedings, and items in languages other than English included in the Journal Citation Reports is very limited. JIF also does not take into account self-citing. Additionally, articles may be highly cited for negative reasons; as such, a high impact factor is not necessarily a guarantee of quality.
 
