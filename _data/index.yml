@@ -36,15 +36,7 @@ apps:
         - path: designing-your-journal
         - path: gdpr
         - path: translation
-- path: sust-disc
-    title: Sustainability and Discovery
-    titleShort: OJS 3
-    includeInHero: true
-    description: This series of guides
-    cards:
-      - path: learning-ojs-3
-      - path: doaj
-
+        - path: gfsf
   - path: ojs2
     title: Open Journal Systems 2
     titleShort: OJS 2
