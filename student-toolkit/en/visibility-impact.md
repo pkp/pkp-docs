@@ -53,7 +53,7 @@ Directories are lists of organizations or publications. Most are lists of journa
 
 * [The Directory of Open Access Journals](https://doaj.org/publishers)(DOAJ)
     * Library Publishing Coalition’s [guide to the DOAJ application](https://docs.google.com/document/d/1x1_JRbqX36wqSw7FlMiAqmAhrOzRW-q__XiEa4tvVdY/edit)
-    * [DOAJ application guide for OJS journals](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-appendix-1-DOAJ)
+    * [DOAJ application guide for OJS journals](/doaj/)
 * [Ulrich’s](http://www.ulrichsweb.com/ulrichsweb/faqs.asp#Updating_Ulrichs)
 * [PKP Index](https://index.pkp.sfu.ca/index.php/user/register)
 

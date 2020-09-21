@@ -15,7 +15,7 @@ apps:
       - path: starting-a-journal
       - path: designing-your-journal
       - path: accessible-content
-      - path: gfsf
+      - path: disc-sust
       - path: instructor-guide
       - path: student-toolkit
       - path: pkp-school
@@ -36,6 +36,7 @@ apps:
         - path: designing-your-journal
         - path: gdpr
         - path: translation
+        - path: gfsf
   - path: ojs2
     title: Open Journal Systems 2
     titleShort: OJS 2
