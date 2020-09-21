@@ -8,7 +8,9 @@ generateHeadingToc: true
 
 ## Introduction
 
-This guide provides guidance around the indexing of Open Journal Systems (OJS) that can also be used for Open Monograph Press (OMP) in Google Scholar. It is written largely for an audience of journal managers as well as systems administrators - those who are responsible for the installation, upgrading and general maintenance of the system. We have tried to suggest the sections which are most applicable to these two audiences.
+This guide provides guidance around the indexing of Open Journal Systems (OJS) in Google Scholar. It is written largely for an audience of journal managers as well as systems administrators - those who are responsible for the installation, upgrading and general maintenance of the system. We have tried to suggest the sections which are most applicable to these two audiences.
+
+This guide focuses on Google Scholar indexing of OJS sites. Some of this information is applicable to OMP and OPS sites, but Google Scholar interaction with these sites has not been researched.
 
 ## Overview of Google Scholar Indexing
 
@@ -55,7 +57,7 @@ Once viewing the source code of your article page, you can search the HTML sourc
 
 ![HTML source metatags](./assets/google-scholar-guide-meta-tags.png)
 
-## Troubleshooting Google Scholar indexing problems for Journal Managers and Editors
+## Troubleshooting for Journal Managers and Editors
 
 If you notice that Google Scholar has not indexed or ceased indexing your journal, it could be due to inconsistencies between the journal's metadata and the Galley files. Metadata in the Tags & Galley should match precisely. Some common discrepancies include:
 
@@ -143,7 +145,7 @@ In the red metatags below, you can see a few different examples of common author
 
 To troubleshoot and fix these errors, you will want to compare the names in the citation_author metatags with how it appears in the PDF. If there are discrepancies, make the change to the metatags in the article metadata within your journal to match the PDF. Remember to look out for formatting and capitalization.
 
-## Troubleshooting Google Scholar Indexing problems for Site Administrators
+## Troubleshooting for Site Administrators
 
 If you notice that Google Scholar has not indexed or ceased indexing your journal, there are a few potential causes. Google Scholar will stop indexing a journal if:
 
@@ -177,7 +179,7 @@ To test, open an article in several different browsers (Chrome, Safari, etc). If
 
 ![SSL warnings in a web browser](./assets/google-scholar-guide-ssl.png)
 
-### Site Downtimes
+### Site downtimes
 
 Frequent site downtimes will trigger Google Scholar to cease indexing a journal.
 
