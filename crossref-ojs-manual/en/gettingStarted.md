@@ -22,12 +22,12 @@ To use DOIs for your publication, you'll need to meet the following requirements
 - you must have an ISSN;
 - you need a membership with Crossref, Datacite, or some other DOI registration agency;
 - you must configure OJS to use DOIs;
-    - you'll need to have filled out specific title-level metadata about your journal, and;
-    - you'll need to have configured the DOI plugin.
+  - you'll need to have filled out specific title-level metadata about your journal, and;
+  - you'll need to have configured the DOI plugin.
 
 Let's break these steps down one by one.
 
-**One Issue of your journal must be published** – You'll need to have one existing issue of your journal to acquire a Crossref membership.  However, you'll also need an ISSN and, as luck has it, having a published issue is a requirement for an ISSN as well.
+**One Issue of your journal must be published** – You'll need to have one existing issue of your journal to acquire a Crossref membership.  However, you'll also need an ISSN and, as luck would have it, having a published issue is a requirement for an ISSN as well.
 
 **An ISSN must be assigned to your journal** – Once you've published an issue, you can apply for an ISSN. ISSNs are identifiers used to distinguish and locate specific journal titles. You can find out more about acquiring an ISSN at issn.org.
 
@@ -43,5 +43,5 @@ Let's break these steps down one by one.
 
 - [The DOI Handbook @ doi.org](https://www.doi.org/hb.html) – The DOI Handbook is a comprehensive guide to DOIs and their usage and is available in several languages.
 - [Crossref Curriculum](https://www.crossref.org/education/)
-    - [Similarity Check] (https://www.crossref.org/education/similarity-check/)
+  - [Similarity Check](https://www.crossref.org/education/similarity-check/)
 - [Crossref Blog: URLs and DOIs, a complicated relationship](https://www.crossref.org/blog/urls-and-dois-a-complicated-relationship/) – A blog post from Crossref's Joe Wass that explains the difference between URLs and DOIs.
