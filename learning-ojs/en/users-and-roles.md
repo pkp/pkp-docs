@@ -7,7 +7,7 @@ version: 3.2
 
 This section provides access to all of the user accounts associated with your journal, as well as the opportunity to manage roles and permissions.
 
-## Users
+## Managing Users
 
 In addition to managing the journal web site, the Journal Manager is also responsible for all of the user accounts in the system.
 
@@ -131,19 +131,37 @@ If the user still cannot log in, their account may have been disabled. To re-ena
 
 <hr />
 
-## Roles
+## Permissions and Roles in OJS
 
-Users in the system must have one or more roles.
+The OJS workflow revolves around different roles with different permissions and responsibilities for each user, allowing them access to different parts of the workflow. Users in the system must have at least one role. Users can also have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal. 
 
-Roles define what a user can do within the system. An Author can make submissions and little else. An Editor can manage submissions, and a Journal Manager can configure the journal's settings. See the [User Accounts chapter](./user-accounts#roles-in-ojs) for a list and description of every role.
+Each role is first assigned a permission level, which will broadly define what level of access a user has to a particular journal. Roles are then further customized by providing a position name, and granting or restricting access to various stages of the Editorial Workflow. 
 
-One user can have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
+There are a number of predefined roles that you can use and edit in OJS. Read in-depth about these predefined roles organized by their permissions level. Italicized roles are new in OJS 3.
+ 
+* The **Site Administrator** is a single user responsible for administration of the entire OJS installation. This permissions level will not appear in user lists or in role settings.
+* **Journal Managers** have access to the entire Editorial Workflow, as well as all other journal settings.
+Available predefined Journal Manager roles: Journal Manager, Journal Editor (formerly “Editor” in OJS 2), Production Manager
+* **Section Editors** have access to the entire Editorial Workflow, but cannot make any changes to journal settings.
+Available predefined Section Editor roles: Section Editor, *Guest Editor*
+* **Assistants** can access only the parts of the Editorial Workflow assigned to their role.
+Available predefined Assistant roles and their assigned editorial workflow stages:
+    * Submission & Review stages: *Funding coordinator*
+    * Copyediting stage: Copyeditor, *Marketing and sales coordinator*
+    * Production Stage: *Designer*, *Indexer*, Layout Editor, Proofreader
+* **Reviewers** are users who appear when you're assigning reviews in the Editorial Workflow and have access to that stage when they're assigned.
+* **Authors** can make new submissions.
+* **Readers** can access the reader-facing website. This is the minimum permissions level granted to all users.
+* **Subscription Managers** can edit site access settings as well as settings related to subscriptions. This is a new permissions level in OJS 3, with one predefined role, *Subscription Manager*.
 
-Here is an example of the roles and respective permission levels in a typical journal workflow:
+Predefined and custom roles can be checked from the Roles tab.
 
 ![](./assets/learning-ojs3.1-jm-users-roles.png)
 
 From this page, you can see each role, and the editorial stage each role can access. A good example of this is the Copyeditor role, which can only access the copyediting stage. Copyeditors cannot jump to the Review stage to see what happened during the peer review process. See the Editorial Workflow chapter for more information about the different editorial stages.
+
+In addition to assigning and editing the predefined roles, Site Administrators and Journal Managers can also create new roles or rename existing ones. 
+
 
 ### Editing Roles
 
