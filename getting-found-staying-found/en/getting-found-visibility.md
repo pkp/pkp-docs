@@ -257,7 +257,7 @@ DOAJ determines quality and acceptance into the directory through an extensive a
 
 > Contributed by  Roger Gillis and Andrea Kosavic
 
-Google Scholar is a search engine for scholarly literature that has grown quite popular since it launched in 2004. It provides a simple search interface allowing users to search across many disciplines and sources for scholarly material such as articles, theses, books, abstracts, and court opinions and includes material from academic publishers, professional societies, online repositories, universities, and other web sites. [Google Scholar “About” 2018](https://scholar.google.ca/intl/en/scholar/about.html). [Appendix 2: Google Scholar Indexing](/google-scholar/) provides a detailed guide for using and troubleshooting Google Scholar.
+Google Scholar is a search engine for scholarly literature that has grown quite popular since it launched in 2004. It provides a simple search interface allowing users to search across many disciplines and sources for scholarly material such as articles, theses, books, abstracts, and court opinions and includes material from academic publishers, professional societies, online repositories, universities, and other web sites. [Google Scholar “About” 2018](https://scholar.google.ca/intl/en/scholar/about.html). The [Google Scholar Guide](/google-scholar/) provides a detailed guide for using and troubleshooting Google Scholar.
 
 Google scholar is used by many people to access scholarly research, including researchers themselves, so having your journal included in its search results can provide great exposure for your journal.
 
