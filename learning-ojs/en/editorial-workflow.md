@@ -561,6 +561,10 @@ This will open a new window.
 
 ![](./assets/learning-ojs-3-ed-accept.png)
 
+Note that if the journal has enabled an article processing charge (APC) to be charged to authors, the option will appear at this stage to notify the author that the payment is due. Selecting "Request publication fee" will prompt a payment notification email to be sent to the author with payment instructions. For information about enabling author fees, please see the [Subscriptions chapter > Payment Types](./subscriptions) and [Distribution settings > Enable Payment](./settings-distribution).
+
+![](./assets/learning-ojs-3-request-fee.png)
+
 Hit the **Record Editorial Decision** button at the bottom of the window.
 
 The submission is automatically moved to the Copyediting stage.
