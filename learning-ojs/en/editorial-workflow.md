@@ -561,7 +561,7 @@ This will open a new window.
 
 ![](./assets/learning-ojs-3-ed-accept.png)
 
-Note that if the journal has enabled an article processing charge (APC) to be charged to authors, the option will appear at this stage to notify the author that the payment is due. Selecting "Request publication fee" will prompt a payment notification email to be sent to the author with payment instructions. For information about enabling author fees, please see the [Subscriptions chapter > Payment Types](./subscriptions) and [Distribution settings > Enable Payment](./settings-distribution).
+Note that if the journal has enabled an article processing charge (APC) to be charged to authors, the option will appear at this stage to notify the author that the payment is due. Selecting "Request publication fee" will prompt a payment notification email to be sent to the author with payment instructions. For information about enabling author fees, please see the [Subscriptions chapter > Payment Types](./subscriptions#payment-types) and [Distribution settings > Enable Payments](./settings-distribution#enable-payments).
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
 
