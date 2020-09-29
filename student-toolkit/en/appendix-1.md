@@ -12,7 +12,7 @@ Student journals rely on the volunteer labour of editors and peer reviewers. To 
 * Honing your analytical skills
 * Improving the quality of your writing
 * Gaining experience with scholarly communication and academic publishing
-* Leaning to review your peers’ work
+* Learning to review your peers’ work
 * Learning to revise your work in response to constructive feedback
 * Enhancing your knowledge of the literature in your field
 * Preparing for graduate school
