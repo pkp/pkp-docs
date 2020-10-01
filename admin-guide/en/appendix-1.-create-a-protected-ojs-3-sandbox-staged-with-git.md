@@ -6,10 +6,16 @@ The following document describes a general workflow for creating a git-based san
 
 The README here: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) has instructions on installing from git. What we do is as follows:
 
-1. Create a MySQL OJS user and database. The command we use is as follows; it may be different for you depending on your environment, access to root, etc.:
+1. Create a MySQL or PostgreSQL OJS user and database. The command we use is as follows; it may be different for you depending on your environment, access to root, etc.:
 
+   **MySQL**
    ```
    mysql -u root -e "CREATE DATABASE `ojs-sandbox` DEFAULT CHARACTER SET UTF8; GRANT ALL ON `ojs-sandbox`.* TO `ojs`@localhost IDENTIFIED BY 'ojs'" -p
+   ```
+   **PostgreSQL**
+   ```
+   psql -h localhost -U postgres -d postgres -c "CREATE USER ojs WITH NOSUPERUSER INHERIT NOCREATEROLE NOCREATEDB NOREPLICATION NOBYPASSRLS ENCRYPTED PASSWORD 'ojs'; COMMENT ON ROLE ojs IS 'Site administrator';
+   CREATE DATABASE ojs-sandbox OWNER ojs;" -W
    ```
 
 2. Checkout the stable branch from GitHub. The path will be specific to your Apache install, and you can update the branch to the latest stable branch:
@@ -91,10 +97,15 @@ This plugin will have to be re-installed after you go to production, which, if y
 
 These commands are done on the production install, and are your typical backup/archiving commands.
 
-Database: we usually use mysqldump to make a copy of the database:
+Database:
 
+* **MySQL**: we usually use mysqldump to make a copy of the database:
    ```
    mysqldump db\_name --opt --default-character-set=utf8 --result-file=~/client\_db.sql -u db\_user -p
+   ```
+* **PostgreSQL**: we usually use [pg_dumpall](https://www.postgresql.org/docs/current/backup-dump.html#BACKUP-DUMP-ALL) to make a copy of the database and cluster-wide data (such as users definition):
+   ```
+   pg_dumpall -U postgres -h localhost -d postgres > ~/client_db.sql
    ```
 
 Submission files: you can find the correct directory in the OJS config.inc.php file, look for the “files\_dir” parameter. We usually compress this to make it easier to transfer:
@@ -123,8 +134,13 @@ Transfer the files to the staging server: we usually use `scp` or `rsync`. Your 
 
 Install the database (this may differ depending on the username, database name and password you specified previously):
 
+* **MySQL**
    ```
    mysql -u ojs-sandbox -p ojs-sandbox < ~/client\_db.sql
+   ```
+* **PostgreSQL**
+   ```
+   psql -U postgres -h localhost -f ~/client_db.sql postgres
    ```
 
 Install the submission files:
@@ -153,8 +169,13 @@ If you are running the sandbox on its own server, you may want to consider disab
 
 You can set your email addresses to a [Mailinator](https://www.mailinator.com/) address, which will mean the emails will be sent to an accessible public inbox (e.g. username@mailinator.com), or use a fake email address. You can also set emails based on specific user roles. You will first need to access your database:
 
+* **MySQL**
    ```
    mysql -u ojs -pojs ojs-sandbox
+   ```
+* **PostgreSQL**
+   ```
+   psql -h localhost -U ojs -d 'ojs-sandbox'
    ```
 
 To set all user email addresses to username@mailinator.com:
