@@ -153,7 +153,7 @@ Si vous êtes entrain d'exécuter le sandbox sur son propre serveur, vous pouvez
 Vous pouvez changer vos adresses e-mail pour une adresse [Mailinator](https://www.mailinator.com/) , cela signifie que les e-mails seront envoyés à une boîte de réception publique accessible (par exemple, username@mailinator.com), ou utiliser une adresse e-mail truquée. Vous pouvez également définir des e-mails en fonction de rôles d'utilisateurs spécifiques. Vous devez premièrement accéder à votre base de données:
 
 ```
-mysql -u ojs-sandbox -p ojs-sandbox
+mysql -u ojs -pojs ojs-sandbox
 ```
 
 Afin de changer toutes les adresses e-mail pour username@mailinator.com:

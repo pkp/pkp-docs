@@ -6,7 +6,7 @@ The following document describes a general workflow for creating a git-based san
 
 The README here: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) has instructions on installing from git. What we do is as follows:
 
-1. Create MySQL OJS user and database. The command we use is as follows; it may be different for you depending on your environment, access to root, etc.:
+1. Create a MySQL OJS user and database. The command we use is as follows; it may be different for you depending on your environment, access to root, etc.:
 
    ```
    mysql -u root -e "CREATE DATABASE `ojs-sandbox` DEFAULT CHARACTER SET UTF8; GRANT ALL ON `ojs-sandbox`.* TO `ojs`@localhost IDENTIFIED BY 'ojs'" -p
@@ -153,7 +153,7 @@ If you are running the sandbox on its own server, you may want to consider disab
 You can set your email addresses to a [Mailinator](https://www.mailinator.com/) address, which will mean the emails will be sent to an accessible public inbox (e.g. username@mailinator.com), or use a fake email address. You can also set emails based on specific user roles. You will first need to access your database:
 
    ```
-   mysql -u ojs-sandbox -p ojs-sandbox
+   mysql -u ojs -pojs ojs-sandbox
    ```
 
 To set all user email addresses to username@mailinator.com:
