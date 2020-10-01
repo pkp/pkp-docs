@@ -13,7 +13,7 @@ This guide will help you navigate the options that are available, understand wha
 
 ## Production Workflow
 
-The XML production workflow recommended in this guide mixes is a three-step process that includes automated and manual tasks.
+The XML production workflow recommended in this guide is a three-step process that includes automated and manual tasks.
 
 1. The full text of an article's submission is [automatically converted](./convert) to JATS XML in a process that often introduces errors.
 2. The JATS XML is then [manually copyedited and typeset](./edit) by editorial staff to correct errors and prepare the final proof.
