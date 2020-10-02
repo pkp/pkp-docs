@@ -6,18 +6,25 @@ Le document suivant décrit des étapes générales afin de créer un sandbox ba
 
 Ce README: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) a des instructions pour l'installation à partir de git. Voici les étapes à suivre:
 
-1. Créer un utilisateur et une base de données MySQL OJS. La commande que nous utilisons est la suivante; cela peut être différent pour vous en fonction de votre environnement, de l'accès à la root, etc.:
+1. Créer un utilisateur et une base de données MySQL ou PostgreSQL OJS. La commande que nous utilisons est la suivante; cela peut être différent pour vous en fonction de votre environnement, de l'accès à la root, etc.:
 
+   **MySQL**
     ```
     mysql -u root -e "CREATE DATABASE `ojs-sandbox` DEFAULT CHARACTER SET UTF8; GRANT ALL ON `ojs-sandbox`.* TO `ojs`@localhost IDENTIFIED BY 'ojs'" -p
     ```
+   **PostgreSQL**
+   ```
+   psql -h localhost -U postgres -d postgres -c "CREATE USER ojs WITH NOSUPERUSER INHERIT NOCREATEROLE NOCREATEDB NOREPLICATION NOBYPASSRLS ENCRYPTED PASSWORD 'ojs'; COMMENT ON ROLE ojs IS 'Site administrator';
+   CREATE DATABASE ojs-sandbox OWNER ojs;" -W
+   ```
 
 2. Extraire la branche stable de GitHub. Le chemin sera spécifique à votre installation Apache, et vous pouvez mettre à jour la branche avec la dernière branche stable:
 
     ```
     cd <httpd-docs-folder>
+    BRANCH='stable-3_2_1'
     git clone -n https://github.com/pkp/ojs.git ./
-    git checkout -b stable-3_2_1 --no-track origin/stable-3_2_1
+    git checkout -b $BRANCH --no-track origin/$BRANCH
     cp config.TEMPLATE.inc.php config.inc.php
     chmod -R 755 *
     chmod 600 config.inc.php
@@ -28,7 +35,7 @@ Ce README: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) a des instru
     ```
     git submodule update --init --recursive
     cd lib/pkp
-    git checkout -b stable-3_2_1 --no-track origin/stable-3_2_1
+    git checkout -b $BRANCH --no-track origin/$BRANCH
     ```
 
 4. Installer le compositeur:
@@ -90,11 +97,16 @@ git checkout plugins/generic/acron
 
 Ces commandes sont exécutées durant l'installation de production, et sont vos commandes de sauvegarde/archivage typiques.
 
-Base de données: généralement, nous utilisons mysqldump afin de créer une copie de la base de données:
+Base de données:
 
+* **MySQL**: généralement, nous utilisons mysqldump afin de créer une copie de la base de données:
 ```
 mysqldump db\_name --opt --default-character-set=utf8 --result-file=~/client\_db.sql -u db\_user -p
 ```
+* **PostgreSQL**: généralement, nous utilisons [pg_dumpall](https://www.postgresql.org/docs/current/backup-dump.html#BACKUP-DUMP-ALL) afin de créer une copie de la base de données et préserve les données communes au cluster (telles que les rôles):
+   ```
+   pg_dumpall -U postgres -h localhost -d postgres > ~/client_db.sql
+   ```
 
 Fichiers à soumettre: vous pouvez trouver le répertoire correct dans le fichier OJS config.inc.php, recherchez le paramètre «files_dir». Généralement, nous compressons ceci afin de faciliter le transfert:
 
@@ -122,9 +134,14 @@ rsync -avz files.tar.gz username@stagingserver.org:/~
 
 Installer la base de données (cela peut-être différent selon le nom d'utilisateur, le nom de la base de données et le mot de passe que vous avez spécifiés précédemment):
 
-```
-mysql -u ojs-sandbox -p ojs-sandbox < ~/client\_db.sql
-```
+* **MySQL**
+   ```
+   mysql -u ojs-sandbox -p ojs-sandbox < ~/client\_db.sql
+   ```
+* **PostgreSQL**
+   ```
+   psql -U postgres -h localhost -f ~/client_db.sql postgres
+   ```
 
 Installer les fichiers à soumettre:
 
@@ -152,9 +169,14 @@ Si vous êtes entrain d'exécuter le sandbox sur son propre serveur, vous pouvez
 
 Vous pouvez changer vos adresses e-mail pour une adresse [Mailinator](https://www.mailinator.com/) , cela signifie que les e-mails seront envoyés à une boîte de réception publique accessible (par exemple, username@mailinator.com), ou utiliser une adresse e-mail truquée. Vous pouvez également définir des e-mails en fonction de rôles d'utilisateurs spécifiques. Vous devez premièrement accéder à votre base de données:
 
-```
-mysql -u ojs-sandbox -p ojs-sandbox
-```
+* **MySQL**
+   ```
+   mysql -u ojs -pojs ojs-sandbox
+   ```
+* **PostgreSQL**
+   ```
+   psql -h localhost -U ojs -d 'ojs-sandbox'
+   ```
 
 Afin de changer toutes les adresses e-mail pour username@mailinator.com:
 
