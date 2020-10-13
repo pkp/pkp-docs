@@ -24,7 +24,7 @@ You may also want to add a consent statement to your Author Submission Checklist
 
 ### OJS/OMP 3
 
-These applications do not currently provide a means to add a consent checkbox item to user registration, but this [has been filed in GitHub](https://github.com/pkp/pkp-lib/issues/3575)  and will be available in OJS/OMP 3.1.1-1, on or before May 25. 
+These applications currently provide a means to add a consent checkbox item to user registration by clicking a checkbox  "Yes, I agree to have my data collected and stored according to the privacy statement." 
 
 You may also want to add a consent statement to your Author Submission Checklist, in Settings > Workflow > Submission > Submission Preparation Checklist.
 
