@@ -24,8 +24,6 @@ You may also want to add a consent statement to your Author Submission Checklist
 
 ### OJS/OMP 3
 
-These applications currently provide a means to add a consent checkbox item to user registration by clicking a checkbox  "Yes, I agree to have my data collected and stored according to the privacy statement." 
-
 You may also want to add a consent statement to your Author Submission Checklist, in Settings > Workflow > Submission > Submission Preparation Checklist.
 
 ## 2. Privacy Policy
