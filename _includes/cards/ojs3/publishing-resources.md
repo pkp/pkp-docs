@@ -1,5 +1,7 @@
 
-### Scholarly and Open Access Publishing Resources
+### Publishing Resources
+
+External resources on open access and scholarly publishing and how to start and manage a journal or publishing program.
 
 - [OASPA Open Access Publishing Resources](https://oaspa.org/information-resources/openaccessresources/)
 - [Library Publishing Coalition Zotero Library](https://www.zotero.org/groups/1592237/lpc_bibliography/library)
