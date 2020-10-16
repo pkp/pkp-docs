@@ -20,6 +20,7 @@ apps:
       - path: student-toolkit
       - path: pkp-school
       - path: crossref-ojs-manual
+      - path: publishing-resources
       - path: gdpr
       - path: translation
   - path: omp3
