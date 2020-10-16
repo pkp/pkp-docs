@@ -5,11 +5,11 @@ version: 3.2
 
 # Soumission
 
-Dans ce chapitre, vous apprendrez comment un auteur travaille dans OJS 3.2, de l'inscription à la correction d'épreuves de l'épreuve finale.
+Dans ce chapitre, vous apprendrez comment un auteur interagit avec OJS 3.2, depuis l'inscription jusqu'à la correction des épreuves finales.
 
-## S'Inscrire à la Revue
+## S'inscrire à la revue
 
-Pour soumettre une soumission à une revue OJS 3.2, vous devez d'abord créer un compte utilisateur auprès d'un journal et vous connecter (voir [Inscription à une revue](./user-accounts#inscription-à-une-revue) ). Après cela, lorsque vous vous connectez, vous serez redirigé vers votre tableau de bord.
+Pour soumettre une soumission à une revue OJS 3.2, vous devez d'abord créer un compte utilisateur auprès d'une revue et vous connecter (voir [Inscription à une revue](./user-accounts#inscription-à-une-revue) ). Après cela, une fois connecté, vous serez redirigé vers votre tableau de bord.
 
 ![](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
@@ -17,7 +17,7 @@ Il est actuellement vide car vous n'avez fait aucune soumission.
 
 <hr>
 
-## Soumettre un Article
+## Soumettre un article
 
 Commencez une nouvelle soumission en cliquant sur le bouton **Nouvelle soumission** sur le côté droit de l'écran. Vous serez conduit à l'étape 1 d'un processus en 5 étapes pour téléverser et décrire votre soumission.
 
@@ -31,9 +31,9 @@ Pendant **l'étape 1,** vous fournirez des informations préliminaires sur votre
 
 Si la revue autorise les soumissions dans plusieurs langues, vous pouvez sélectionner la langue de votre soumission dans le menu déroulant. Les langues peuvent être activées dans Paramètres du site Web -> Configuration -> Langue.
 
-Sélectionnez la section appropriée pour votre soumission (par exemple, article, revue, etc.). Si vous ne savez pas quelle section est appropriée, faites votre meilleure estimation.
+Sélectionnez la rubrique appropriée pour votre soumission (par exemple, article, compte rendu, etc.). Si vous ne savez pas quelle section est appropriée, estimez au mieux.
 
-Lisez et acceptez les déclarations de la liste de contrôle de soumission en cochant chaque case. Incluez tous vos commentaires pour le rédacteur, lisez la déclaration de confidentialité de la revue, et puis cliquez sur le bouton **Enregistrer et continuer** pour passer à **l'étape 2** .
+Lisez et acceptez les énoncés de la liste de vérification de la soumission en cochant chaque case. Incluez tous vos commentaires pour le rédacteur, lisez la déclaration de confidentialité de la revue, et puis cliquez sur le bouton **Enregistrer et continuer** pour passer à **l'étape 2** .
 
 ### Étape 2
 
@@ -41,21 +41,21 @@ Lisez et acceptez les déclarations de la liste de contrôle de soumission en co
 
 ![](./assets/learning-ojs-3-author-submission-step2.png)
 
-Tout d'abord, vous DEVEZ sélectionner un composant d'article. Cela permet au système de savoir si le fichier est le corps du manuscrit, une image, un collection de données, etc. **Ceci doit être sélectionné avant que vous pouvez téléverser votre fichier** .
+Tout d'abord, vous DEVEZ sélectionner un élément d'article. Cela permet au système de savoir si le fichier est le corps du texte du manuscrit, une image, un ensemble de données, etc. **Ceci doit être sélectionné avant que vous puissiez téléverser votre fichier** .
 
 ![](./assets/learning-ojs-3-author-submission-step2-2.png)
 
-Après que vous avez effectué cette sélection, vous pouvez mis en ligne votre premier fichier. Il est important de noter que vous ne pouvez mis en ligne qu'un **seul** fichier à la fois. Des fichiers supplémentaires peuvent être mis en ligne plus tard dans le processus. Typiquement, ce premier fichier sera le corps de votre manuscrit. Appuyez sur le bouton **Continuer** après que le fichier est mis en ligne.
+Une fois la sélection effectuée, vous pouvez téléverser votre premier fichier. Il est important de noter que vous ne pouvez téléverser qu'un **seul** fichier à la fois. Des fichiers supplémentaires pourront être téléversés plus loin dans le processus. Typiquement, ce premier fichier sera le corps du texte de votre manuscrit. Appuyez sur le bouton **Continuer** une fois le fichier téléversé.
 
 ![](./assets/learning-ojs-3-author-submission-step2-3.png)
 
-Après avoir téléversé le fichier, vous sera demandé de revoir le nom du fichier. Utilisez le lien Modifier pour apporter des modifications.
+Après avoir téléversé le fichier, il vous sera demandé de vérifier le nom du fichier. Utilisez le lien Modifier pour apporter des modifications.
 
 Cliquez sur le bouton **Continuer** .
 
-D'après, vous avez la possibilité de répéter le processus pour téléverser des fichiers supplémentaires (par exemple, une collection de données ou une image).
+Par après, vous avez la possibilité de répéter le processus pour téléverser des fichiers supplémentaires (par exemple, un ensemble de données ou une image).
 
-Après que vous avez terminé de téléverser tous vos fichiers, cliquez sur **Terminer** ; cela fermera la fenêtre de téléverser.
+Après avoir terminé de téléverser tous vos fichiers, cliquez sur **Terminer** ; cela fermera la fenêtre de téléversement.
 
 ![](./assets/learning-ojs-3-author-submission-step2-4.png)
 
