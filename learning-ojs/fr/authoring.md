@@ -55,6 +55,7 @@ Cliquez sur le bouton **Continuer** .
 
 Par après, vous avez la possibilité de répéter le processus pour téléverser des fichiers supplémentaires (par exemple, un ensemble de données ou une image).
 
+Après avoir terminé de téléverser tous vos fichiers, cliquez sur **Terminer** ; cela fermera la fenêtre de téléversement.
 
 ![](./assets/learning-ojs-3-author-submission-step2-4.png)
 
