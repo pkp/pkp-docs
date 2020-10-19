@@ -15,7 +15,7 @@ After running the Checker, the "Inspection Results" will display one or more of 
 
 - **Error**: identifies content that makes a document difficult to read and understand
 - **Warning**: identifies content that in most cases, makes the document difficult to understand
-- **Tip**: identified content that may not constitute an end user issue, but could be presented in a different way to optimize user experience
+- **Tip**: identifies content that may not constitute an end user issue, but could be presented in a different way to optimize user experience
 
 Clicking an item in the "Inspection Results" list will take you directly to the issue – the item will be removed from the inspection results automatically once it is addressed. You do not need to re-run the checker.
 
