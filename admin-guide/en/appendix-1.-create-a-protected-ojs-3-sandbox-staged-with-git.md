@@ -23,19 +23,15 @@ The README here: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) has in
    ```
    cd <httpd-docs-folder>
    BRANCH='stable-3_2_1'
-   git clone -n https://github.com/pkp/ojs.git ./
-   git checkout -b $BRANCH --no-track origin/$BRANCH
-   cp config.TEMPLATE.inc.php config.inc.php
+   git clone -b $BRANCH --single-branch https://github.com/pkp/ojs.git ./
+   git branch --unset-upstream $BRANCH
    chmod -R 755 *
-   chmod 600 config.inc.php
    ```
 
 3. Fetch corresponding PKP library and checkout stable branch from GitHub, making sure that the branch corresponds to the same branch referenced above:
 
    ```
    git submodule update --init --recursive
-   cd lib/pkp
-   git checkout -b $BRANCH --no-track origin/$BRANCH
    ```
 
 4. Install composer:
@@ -72,6 +68,7 @@ The README here: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) has in
    ```
    cd ../../..
    cp config.TEMPLATE.inc.php config.inc.php
+   chmod 600 config.inc.php
    ```
 
 At this point you should have a fully prepared OJS 3 system and database ready to go.
