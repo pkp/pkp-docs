@@ -54,6 +54,8 @@ If you want to charge an article processing charge (APC) to authors, enter the a
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
 
+**Note:** Authors will be required to login to the journal before being directed to PayPal to process payment.
+
 ### Reader Fees
 
 If you want to charge fees to access individual articles and issues, you can enter the prices for articles and issues here.
