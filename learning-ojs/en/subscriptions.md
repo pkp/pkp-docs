@@ -72,7 +72,7 @@ Use this to charge other fees, such as memberships.
 
 As various payments are received, they will be listed under this tab.
 
-<hr />
+Only payments made through PayPal will be recorded here.
 
 ## Individual Subscriptions
 
@@ -96,7 +96,6 @@ You can create a new individual subscription by using the Create New Subscriptio
 
 **Notes**: If you have any relevant notes to add, record that information here (optional).
 
-<hr />
 
 ## Institutional Subscriptions
 
@@ -120,6 +119,22 @@ You can create a new individual subscription by using the Create New Subscriptio
 ![](./assets/learning-ojs3.2-jm-subscriptions-instit-IP.png)
 
 - **Notes**: If you have any relevant notes to add, record that information here (optional).
+
+## Payment Notifications
+
+### Manual payment notifications
+
+With a manual payment notification, once this information is filled out the subscription manager is notified via email that a manual payment has been made. Since the sandbox is restricted from sending emails any tests that you would do would not send an email as it normally does.
+
+These manual subscriptions will also be recorded in the Payment > Individual or Institutional tab. The example below shows the test subscription I had put through this morning.
+
+From here the subscription manager can update the status as needed based on your workflow. 
+
+![](https://lh5.googleusercontent.com/7oePnnTRsQpIDs0mIlOS1DTxu46gQxVMoVegSbwhZO9ozyzQeZkn7CMihI2NM7hlDSLJLCS6VdMNQc7UmFdjrm9SRP5aUb1VTkj21pIhAy6c4g-Th9CHe0gbyTqh3S0wwC96NHvq)
+
+### PayPal payment notifications
+
+When a payment has been processed through PayPal the account administrator for your PayPal account will receive notification of payment. 
 
 ## Subscription Block
 
