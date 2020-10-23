@@ -56,6 +56,7 @@
   * [Payments](./subscriptions.md#payments)
   * [Individual Subscriptions](./subscriptions.md#individual-subscriptions)
   * [Institutional Subscriptions](./subscriptions.md#institutional-subscriptions)
+  * [Payment Notifications](./subscriptions.md#payment-notifications)
   * [Subscription Block](./subscriptions.md#subscription-block)
   * [Setting Articles as Open Access](./subscriptions.md#setting-articles-as-open-access)
 * [Authoring](./authoring.md)
