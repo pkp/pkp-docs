@@ -83,7 +83,7 @@ This process requires Adobe Acrobat Pro and is described in detail in [WebAim’
 
 If you receive a PDF that is untagged, or where the tag structure is incomplete or incorrect, it is usually best to return to the source document, make the necessary accessibility repairs, and then re-create the PDF. If the source document is unavailable, you can use Acrobat to convert a PDF back to a Word, Excel, or PowerPoint file. Select File > Export To, then choose your desired format.
 
-Remediating a document in PDF requires Adobe Acrobat Pro. or more details see the [WebAim’s PDF Accessibility Guide.](https://webaim.org/techniques/acrobat/acrobat)
+Remediating a document in PDF requires Adobe Acrobat Pro. For more details see the [WebAim’s PDF Accessibility Guide.](https://webaim.org/techniques/acrobat/acrobat)
 
 ### HTML
 
