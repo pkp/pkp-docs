@@ -50,7 +50,7 @@ Use this page to set the amounts charged for various types of fees.
 
 ### Author Fees
 
-If you want to charge an article processing charge (APC) to authors, enter the amount here. Enable Author Fees will allow you to request an article processing charge after the review process has been completed. When the article is accepted by the editor, the editor will have the option to require payment. This will result in the author receiving a notification in OJS and an email, which will direct them through the payment process. 
+If you want to charge an article processing charge (APC) to authors, enter the amount here. Enable Author Fees will allow you to request an article processing charge after the review process has been completed. When the article is accepted by the editor, the editor will have the option to require payment. This will result in the author receiving a notification in OJS and an email, which will direct them through the payment process.
 
 Note that the option to notify authors about the Author Fee will appear only when the payment details (PayPal account details or manual PayPal instructions) have been completed in [Settings > Distribution > Payments](./settings-distribution#payments).
 
@@ -98,7 +98,6 @@ You can create a new individual subscription by using the Create New Subscriptio
 
 **Notes**: If you have any relevant notes to add, record that information here (optional).
 
-
 ## Institutional Subscriptions
 
 All types of institutional subscriptions will appear here.
@@ -128,9 +127,9 @@ You can create a new individual subscription by using the Create New Subscriptio
 
 With a manual payment notification, once this information is filled out the subscription manager is notified via email that a manual payment has been made. Since the sandbox is restricted from sending emails any tests that you would do would not send an email as it normally does.
 
-These manual subscriptions will also be recorded in the Payment > Individual or Institutional tab. The example below shows the test subscription I had put through this morning.
+These manual subscriptions will also be recorded in the Payment > Individual or Institutional tab. The example below shows a test subscription.
 
-From here the subscription manager can update the status as needed based on your workflow. 
+From here the subscription manager can update the status as needed based on your workflow.
 
 ![](./assets/learning-ojs3.2-subs-manual-notification.png)
 
