@@ -1,6 +1,6 @@
 ---
 book: learning-ojs
-version: 3.2
+version: 3,2
 ---
 
 # Configurações do Periódico
@@ -21,7 +21,7 @@ Use as abas para navegar pelas diferentes seções de Configurações da Revista
 
 ## Equipe Editorial
 
-**Journal title** is the name of your journal. E.g., Journal of Software Documentation
+**O título do jornal** é o nome do seu jornal. Por exemplo, Journal of Software Documentation
 
 **A sigla do periódico** são as iniciais do periódico. Por exemplo, JSD.
 
@@ -45,9 +45,9 @@ Observe que o ISSN inserido aqui é usado para os metadados, mas não será exib
 
 Isso pode incluir sua política de acesso aberto, o foco e escopo do periódico, aviso de direitos autorais, divulgação de financiamento, histórico do periódico, uma declaração de privacidade e inclusão em qualquer sistema de arquivamento LOCKSS ou CLOCKSS.
 
-Hit the **Save** button to save your changes.
+Clique no botão **Salvar** para salvar suas alterações.
 
-## Contact
+## Contato
 
 Use esta seção para adicionar os contatos do periódico.
 
@@ -57,9 +57,9 @@ Use esta seção para adicionar os contatos do periódico.
 
 **Contato de Apoio Técnico**: Adicione informações sobre o contato do responsável pelo apoio técnico do periódico. Essas informações aparecerão na página de contato do periódico e também em diferentes pontos do fluxo de trabalho para atendimento aos usuários.
 
-Hit the **Save** button to save your changes.
+Clique no botão **Salvar** para salvar suas alterações.
 
-## Sections
+## Seções
 
 Use esta página para configurar as diferentes seções de seu periódico. Por exemplo, artigos, editoriais, críticas, resenhas, etc.
 
@@ -67,15 +67,15 @@ Todas as suas seções aparecerão aqui. O OJS requer pelo menos uma seção, po
 
 ![](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
 
-You can modify sections by clicking on the blue arrow to the left of the section name. This will reveal options to edit or delete the section.
+Você pode modificar as seções clicando na seta azul à esquerda do nome da seção. Isso revelará opções para editar ou excluir a seção.
 
-### Edit a Section
+### Editar uma seção
 
 Ao selecionar o link Editar fará com que uma nova janela se abra com diferentes opções de configuração.
 
 ![](./assets/learning-ojs-3.2-settings-website-settings-sections-edit-1.png)
 
-From here, you can change the name or abbreviation of the section.
+A partir daqui, você pode alterar o nome ou a abreviatura da seção.
 
 **Políticas da seção**: Use este campo para adicionar detalhes importantes, como requisitos para submissão, avaliação por pares, etc.
 
@@ -95,9 +95,9 @@ Você pode marcar "Itens desta seção NÃO serão incluídos para indexação d
 
 **Editores de Seção**: Se você tiver editores inscritos em seu periódico, você os verá listados aqui e poderá atribuir um deles à seção. Isso significa que todos as submissões feitas à seção são atribuídas automaticamente ao editor, evitando que você atribua um editor manualmente.
 
-Hit the **Save** button to save your changes and return to the Sections page.
+Clique no botão **Salvar** para salvar suas alterações e retornar à página Seções.
 
-### Create Section
+### Criar Seção
 
 Na página Seções, selecione o link Incluir Seção para abrir uma janela em branco, exatamente a mesma descrita acima usada para editar uma seção.
 
@@ -125,34 +125,34 @@ Clique no botão **Concluído** quando terminar.
 
 <hr>
 
-## Categories
+## Categorias
 
 No OJS 3.1.2, você pode criar categorias para organizar seus artigos em coleções temáticas e fornecer outra maneira para que os leitores acessem seu conteúdo. As categorias podem ser exibidas como um bloco de navegação no site do seu periódico e os leitores podem selecionar uma categoria para visualizar todos os artigos nela contidos. Você pode colocar um artigo em uma categoria editando seus metadados, o que é explicado no [capítulo Editoração e Publicação](./production). Esta seção apenas explica como criar e editar categorias.
 
 ![](./assets/learning-ojs3.1-categories-menu.png)
 
-To create a new category:
+Para criar uma nova categoria:
 
 - Clique em Incluir Categoria
-- Enter a name for your category that will be displayed to readers
-- Enter a path for the category’s URL on your site
-- Enter a description which will appear above the list of articles in the category
+- Insira um nome para sua categoria que será exibido aos leitores
+- Insira um caminho para o URL da categoria em seu site
+- Insira uma descrição que aparecerá acima da lista de artigos na categoria
 - Se quiser, você pode alterar a ordem dos artigos por data ou título
 - Se desejar, adicione uma imagem que aparecerá na parte superior da página da categoria
-- Click Save
+- Clique em Salvar
 
 ![](./assets/learning-ojs3.1-create-category.png)
 
-To edit a category:
+Para editar uma categoria:
 
-- Click the name of the category you want to edit
-- Make the changes
-- Click OK
+- Clique no nome da categoria que deseja editar
+- Faça as mudanças
+- Clique OK
 
-To remove a category:
+Para remover uma categoria:
 
-- Click the blue arrow next to the category you want to remove
-- Click the Remove button that appears below
-- Confirm that you want to remove the category
+- Clique na seta azul ao lado da categoria que deseja remover
+- Clique no botão Remover que aparece abaixo
+- Confirme que deseja remover a categoria
 
 Para exibir categorias em seu site, você pode ir para Configurações do site > Gerenciamento da barra lateral e colocar o Bloco de Navegação na barra lateral.
