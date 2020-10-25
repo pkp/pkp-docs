@@ -7,15 +7,15 @@ version: 3.2
 
 A seção Configurações permite configurar o OJS para melhor atender às suas necessidades editoriais.
 
-You can find the Settings in the left menu panel when you are logged in as a user with Journal Manager permissions.
+Você pode encontrar as Configurações no menu do painel esquerdo quando estiver conectado como usuário com permissões de gerente da revista.
 
 ![](./assets/learning-ojs3.1-jm-settings-journal.png)
 
-It consists of Journal Settings, Website Settings, Workflow Settings, and Distribution Settings, which will be covered in the next 4 chapters.
+Compreende as configuração relacionadas à revista, ao website, ao fluxo de trabalho e à distribuição, que serão abordadas nos próximos 4 capítulos.
 
 A página Configurações do Revista inclui detalhes sobre o periódico.
 
-Use the tabs to navigate to the different sections of Journal Settings: Masthead, Contact, Sections.
+Use as abas para navegar pelas diferentes seções de Configurações da Revista: Equipe Editorial, Contato, Seções.
 
 ![](./assets/learning-ojs3.2-jm-settings-journal-page.png)
 
@@ -33,9 +33,9 @@ Observe que o nome da editora inserida aqui é usado para os metadados, mas não
 
 **ISSN** (International Standard Serial Number) é um número com oito dígitos que identifica os periódicos. É administrado por uma rede mundial de Centros Nacionais coordenada por um Centro Internacional localizado em Paris, apoiado pela Unesco e pelo governo francês. Um número pode ser obtido no [site ISSN](http://www.issn.org/). Isto pode ser feito em qualquer momento do funcionamento do periódico.
 
-OJS journals will typically have an online ISSN, but some may also publish a print version, which requires a different print ISSN.
+Os periódicos OJS normalmente têm um ISSN eletrônico, mas alguns também podem publicar uma versão impressa, o que requer um ISSN diferente para o impresso.
 
-Please note that the ISSN entered here is used for metadata but will not be displayed on your site. It's recommended that you also add the ISSN to the footer of your site. You can do this under Website Settings > Appearance > Footer.
+Observe que o ISSN inserido aqui é usado para os metadados, mas não será exibido em seu site. Recomenda-se também que o ISSN seja adicionado ao rodapé do seu site. Você pode adicioná-lo em Configurações do Website > Aparência > Configurar > Rodapé.
 
 **Resumo da revista ** é uma breve descrição do seu periódico. Se você estiver em um portal de periódicos do OJS com vários periódicos, este texto aparecerá com sua lista de periódicos. Você também pode optar por adicionar o resumo do periódico à página inicial do periódico nas Configurações Website.
 
@@ -53,7 +53,7 @@ Use esta seção para adicionar os contatos do periódico.
 
 ![](./assets/learning-ojs3.2-jm-settings-journal-contact.png)
 
-**Principal Contact**: Add contact information for the journal's main contact person, including name, email, phone, affiliation, and mailing address for the journal. This will appear on the journal's Contact page.
+**Contato principal**: Adicione as informações do contato principal do periódico, incluindo nome, e-mail, telefone, afiliação e endereço para correspondência do periódico. Estas informações aparecerão na página Contato do periódico.
 
 **Contato de Apoio Técnico**: Adicione informações sobre o contato do responsável pelo apoio técnico do periódico. Essas informações aparecerão na página de contato do periódico e também em diferentes pontos do fluxo de trabalho para atendimento aos usuários.
 
@@ -79,7 +79,7 @@ From here, you can change the name or abbreviation of the section.
 
 **Políticas da seção**: Use este campo para adicionar detalhes importantes, como requisitos para submissão, avaliação por pares, etc.
 
-**Word Count**: Use this to limit the number of words for abstracts in this section.
+**Contar palavras**: Use este campo para limitar o número de palavras para os resumos nesta seção.
 
 **Opções de seção**: Cada seção pode ter configurações diferentes, incluindo se é indexada, avaliada pelos pares, aceita submissão voluntária ou listada no sumário.
 
@@ -87,13 +87,13 @@ Por exemplo, uma seção Editorial normalmente não será avaliada por pares.
 
 Se você tiver uma seção que não está mais ativa, você pode marcar "Restrita a editores e editores de seção" e os autores não poderão mais submeter para esta seção.
 
-You can check off "Will not be included in the indexing of the journal" for sections that contain front matter, back matter, and anything else that might clutter the search index unnecessarily.
+Você pode marcar "Itens desta seção NÃO serão incluídos para indexação do periódico" para seções que contenham páginas iniciais ou finais e qualquer outra coisa que possa atrapalhar o índice desnecessariamente.
 
 ![](./assets/learning-ojs-3.2-settings-section-options.png)
 
 **Identificar os itens publicados nesta seção como  um(a) **: É usado por alguns sistemas. Observe que não é um campo obrigatório.
 
-**Section Editors**: If you have editors enrolled in your journal, you will see them listed here and can assign one of them to the section. This means any submissions made to the section are automatically assigned to the editor, saving you from manually assigning an editor.
+**Editores de Seção**: Se você tiver editores inscritos em seu periódico, você os verá listados aqui e poderá atribuir um deles à seção. Isso significa que todos as submissões feitas à seção são atribuídas automaticamente ao editor, evitando que você atribua um editor manualmente.
 
 Hit the **Save** button to save your changes and return to the Sections page.
 
