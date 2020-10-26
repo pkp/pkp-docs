@@ -4,7 +4,11 @@
 	<body {% if page.isBookIndex != true %} class="body--withSidebar"{% endif %}>
 		{% include book/header.html %}
 		<div class="book">
-			<a href="#summary" class="-screenReader">{{ site.data.site.skipToSummary }}</a>
+			{% if page.generateHeadingToc or page.isBookIndex != true %}
+				<a href="#sidebar" class="-screenReader">
+					{{ site.data.site.skipToSummary }}
+				</a>
+			{% endif %}
 			<div class="book__page">
 				<div class="book__content">
 					<div class="book__improve">
