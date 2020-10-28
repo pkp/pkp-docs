@@ -1,4 +1,6 @@
 
-### [Getting Started](/starting-a-journal/)
+### Getting Started
 
-An easy-to-follow checklist of all the steps you'll need to take to launch a successful journal. [View Now](/starting-a-journal/)
+Start with our [FAQ](/faq/).
+
+If you're launching a new journal, there's an [easy-to-follow checklist](/starting-a-journal/) of all the steps you'll need to take.
