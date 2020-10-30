@@ -7,12 +7,12 @@ apps:
     includeInHero: true
     description: Our flagship software for open access journal publishing, used by more than 10,000 journals worldwide.
     cards:
+      - path: starting-a-journal
       - path: learning-ojs-3
       - path: admin-guide
       - path: developer-docs
         isDeveloper: true
       - path: upgrading-guide
-      - path: starting-a-journal
       - path: designing-your-journal
       - path: accessible-content
       - path: disc-sust
