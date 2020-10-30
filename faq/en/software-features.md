@@ -12,7 +12,7 @@ Choosing the right software depends on several factors. Start by considering the
 
 ## Can I try your software?
 
-Yes. You can find demonstration sites and “test drive” installations of our software on the [PKP website](https://pkp.sfu.ca/). To find a demo, go to the software you wish to try and select “Demo.” Our demos are basic installations only. We recommend you also look at other journals, presses, and preprint servers using our software.
+Yes. You can find demonstration sites and “test drive” installations of our software on the [PKP website](https://pkp.sfu.ca/). To find a demo, go to the software you wish to try and select “Demo”. Our demos are basic installations only. We recommend you also look at other journals, presses, and preprint servers using our software.
 
 ## Where can I find examples of OJS journals, OMP presses, and OPS servers?
 
@@ -31,9 +31,9 @@ Yes, you can use all of the backend submission workflow management tools of OJS 
 
 While OJS was ultimately developed to support open access publishing, it can certainly be used for subscription-based journals or journals with mixed content, and it is used by many journals that charge subscription fees. OJS has modules for managing both individual and institutional subscriptions, accepting Paypal and manual payments, and charging author payment charges (APCs).
 
-You can review how the subscription and payment features work in [our documentation](https://docs.pkp.sfu.ca/learning-ojs/en/subscriptions)
+You can review how the subscription and payment features work in [our documentation](https://docs.pkp.sfu.ca/learning-ojs/en/subscriptions).
 
-You can also explore them on our [OJS testdrive site](https://pkp.sfu.ca/ojs/ojs_demo/)
+You can also explore them on our [OJS testdrive site](https://pkp.sfu.ca/ojs/ojs_demo/).
 
 ## Can I use OJS to publish newsletters and magazines?
 
@@ -49,7 +49,7 @@ OJS can be used to publish books but we recommend that you use OMP instead. OMP 
 
 ## Does OJS support open peer review?
 
-OJS supports three types of review: double-blind, blind, and open. For more information read [Understanding Blind Review](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#understanding-blind-review) in “Learning OJS 3.”
+OJS supports three types of review: double-blind, blind, and open. For more information read [Understanding Blind Review](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#understanding-blind-review) in “Learning OJS 3”.
 
 ## Can I use OJS in conjunction with Crossref?
 

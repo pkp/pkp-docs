@@ -40,13 +40,13 @@ You need to look elsewhere for more information about the error before you can s
 
 ### First, check your PHP error log
 
-The location of your PHP error log will depend on your hosting provider's configuration, but usually it's a file called `error_log` somewhere within your account. If you’re running your own server, logs will usually be somewhere like `/var/log` or `/var/log/apach`.
+The location of your PHP error log will depend on your hosting provider's configuration, but usually it's a file called `error_log` somewhere within your account. If you’re running your own server, logs will usually be somewhere like `/var/log` or `/var/log/apache`.
 
 It’s rare and uncommon for your web host to not provide access to your error log. If your service provider has a knowledge base, they will typically describe how to find your logs there.
 
 In most shared hosts, there is a directory called “logs” or something similar.
 
-Error logs can look confusing if you’re not familiar with them but you want to look for the word “error” and other keywords that indicate what could be going wrong. An error will often refer to a particular file in your OJS installation and a line of code in that file. You can open the file and find the line to try to understand the error. It is likely that other users have had the same problem so you can search for the error and solution on the [PKP Support Forum](https://forum.pkp.sfu.ca/)
+Error logs can look confusing if you’re not familiar with them but you want to look for the word “error” and other keywords that indicate what could be going wrong. An error will often refer to a particular file in your OJS installation and a line of code in that file. You can open the file and find the line to try to understand the error. It is likely that other users have had the same problem so you can search for the error and solution on the [PKP Support Forum](https://forum.pkp.sfu.ca/).
 
 Here are some common error messages and possible solutions.
 

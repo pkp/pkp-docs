@@ -6,7 +6,7 @@ By default, OJS allows users to self-register as an Author, Reader, or Reviewer.
 
 To close registration, go to [Users & Roles > Site Access Options](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#site-access-options).
 
-You can now select the radio button for “The Journal Manager will register all user accounts. Editors or Section Editors may register user accounts for reviewers.”
+You can now select the radio button for “The Journal Manager will register all user accounts. Editors or Section Editors may register user accounts for reviewers.
 
 ## I lost/forgot my password. How do I retrieve it?
 

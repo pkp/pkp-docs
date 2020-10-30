@@ -50,11 +50,11 @@ You can access a log of all events and emails sent on a particular submission by
 
 If the Activity Log shows the message was sent but the user did not receive it, send test emails to determine whether the issue is specific to a user, submission, or action.
 
-For further email troubleshooting, see the [PKP Administrator’s Guide](https://docs.pkp.sfu.ca/admin-guide/en/email)
+For further email troubleshooting, see the [PKP Administrator’s Guide](https://docs.pkp.sfu.ca/admin-guide/en/email).
 
 ## How do I make the galley file links appear in the issue table of contents?
 
-First , ensure that the galley file is uploaded into the correct location. Only files uploaded under the “Publication” tab will be displayed to the end-reader.
+First, ensure that the galley file is uploaded into the correct location. Only files uploaded under the “Publication” tab will be displayed to the end-reader.
 
 Whether or not the galley file links appear on the issue table of contents page depends on which component type the galley file is and how the component type has been configured. If the link is not appearing on the table of contents, it is probably because it is a component type that has been configured as Dependent or Supplementary.
 
