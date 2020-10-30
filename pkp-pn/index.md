@@ -1,5 +1,10 @@
-Introduction
-------------
+---
+generateHeadingToc: true
+---
+
+# PKP Preservation Network 
+
+## Introduction
 
 The PKP Preservation Network (PKP PN) allows OJS journals to digitally preserve their content. This means in the event that a journal stops publishing or goes offline, there will be a way to have continued long-term access. 
 
