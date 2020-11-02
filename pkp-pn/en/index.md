@@ -4,7 +4,7 @@ generateHeadingToc: true
 
 # PKP Preservation Network
 ## Introduction
-The PKP Preservation Network (PKP PN) allows OJS journals to digitally preserve their content. This means in the event that a journal stops publishing or goes offline, there will be a way to have continued long-term access. 
+The PKP Preservation Network (PKP PN) allows publishers of OJS journals to digitally preserve their content. This means in the event that a journal stops publishing or goes offline, there will be a way to have continued long-term access to articles and issues. 
 
 The PKP PN deposits content using the [LOCKSS](http://www.lockss.org/) Program, which offers decentralized and distributed preservation. This allows for journals that are not part of any other digital preservation service (such as CLOCKSS or Portico) the ability to be preserved for long-term access. 
 
@@ -44,8 +44,7 @@ Once enabled, the plugin will automatically deposit the journal’s published co
 
 The PKP PN plugin will start packaging content to be deposited within 24 hours to 48 hours of configuration and new issue publication, but will take a few days to go through the whole cycle. 
 
-While the PKP PN plugin does not currently support the deposit of individual articles that is not assigned to an issue. The plugin will check for any changes or updates (after the creation of the deposit). If there is a change to a deposited article or new article has been assigned to a deposited issue, the plugin automatically resets the deposit so that the next time the "depositor" is executed, this issue gets redeposited.
-
+The PKP PN plugin does not currently support the deposit of individual articles that are not assigned to an issue. The plugin will check for any changes or updates (after the creation of the deposit). If there is a change to a deposited article or new article has been assigned to a deposited issue, the plugin automatically resets the deposit so that the next time the "depositor" is executed, this issue gets redeposited.
 
 ### Reset
 The reset option for the issue deposit will repackage and send the files to the staging server for reprocessing. This can be done if there is an error indicated. 
@@ -56,7 +55,7 @@ To check the status of the PKP PN plugin, click the blue arrow beside the plugin
 
 ![Image of PKP PN Plugin menu expanded on the Plugin Gallery screen, with an arrow pointing to the Status link](./assets/pkp-pn-status-button.png)
 
-The key thing to look for in the PKP PN status page would be the LOCKSS status column. If the preservation of an issue is successful the LOCKSS status will indicate “**Agreement**” meaning the whole network agrees that there is a consistent copy of the issue archived. 
+The key thing to look for in the PKP PN status page would be the LOCKSS status column. If the preservation of an issue is successful, the LOCKSS status will indicate “**Agreement**,” meaning the whole network agrees that there is a consistent copy of the issue archived. 
 
 The status menu will identify the type, type object ID, number of items checked, and various statuses. 
 
@@ -67,11 +66,11 @@ The status menu will identify the type, type object ID, number of items checked,
 * **Checked**: The date that the journal plugin most recently checked the status of the deposit in the staging server. Once a deposit is completed and all nodes in the LOCKSS network have reached an agreement, the plugin will stop checking on its status.
 
 The key columns you will want to look at are:
-* **Local Status** indicated the status of the OJS installation in packaging up and transferring each issue to the staging server
+* **Local Status** indicates the status of the OJS installation in packaging up and transferring each issue to the staging server.
   * **New**: the plugin is aware of the deposit, but has not generated a package file for the staging server.
   * **Packaged**: the package file has been created. The staging server has not been informed of the deposit.
   * **Transferred**: the deposit has been sent to the staging server for further processing and validation.
-* **Processing Status** indicates the status of each issue in housekeeping on the staging server
+* **Processing Status** indicates the status of each issue in housekeeping on the staging server.
   * **Received**: The staging server has downloaded the deposit file from the journal.
   * **Validated**: The package has been validated and scanned for viruses and is now ready for sending to the LOCKSS network.
   * **Sent**: The staging server has informed the LOCKSS network that the deposit is ready.
@@ -102,28 +101,24 @@ Please note, the Keepers Registry updates its holdings data from the PKP PN mont
 ### I’ve enabled the plugin and the Terms of Use aren’t showing up after I click refresh.
 ![Image of an example of Terms of Use not displaying in the PKP PN Plugin setup screen.](./assets/pkp-pn-refresh-terms.png)
 
-Check to see that an ISSN has been entered in your journal setting. Once this information is in your journal, it will list the Terms of Use. 
+Check to see that an ISSN has been entered in your [Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead). Once this information is in your journal, it will list the Terms of Use. 
 
 ### The plugin status continues to display "Network Status: The PKP PLN does not know about this journal yet." and no issues are listed under deposits.
 Please note, it can take a while for LOCKSS to synchronize the deposit across all the caches in the network.
 
-If that persists for more than 24 hours, you may not have set up cron correctly. Other causes could be an old OJS installation, trouble contacting the staging server, or the staging server not reaching the journal properly.
+If the message persists for more than 24 hours, you may not have set up cron correctly. Other causes could be an old OJS installation, trouble contacting the staging server, or the staging server not reaching the journal properly.
 
-If you continue to have this issue, please contact PKP Publishing Services if you are a hosted client. For self-hosted journals, please create a post on the forum and include your journal title and URL.  
+If you continue to have this issue, please contact PKP Publishing Services if you are a hosted client. For self-hosted journals, please create a post on the [PKP Community Forum](https://forum.pkp.sfu.ca/) and include your journal title and URL.  
 
 ![Image demonstrating the plugin status screen showing the The PKP PLN does not know about this journal yet. error](./assets/pkp-pn-unknown-journal.png)
 
 ### The LOCKSS status indicates that it is in Agreement, but I can’t see our Journal on Keepers or on the PKP PN Journal list.
-The [PKP PN Journal list](http://pkp.sfu.ca/files/pkppn/onix.csv) updates nightly while Keepers Registry updates its holdings data from the PKP PN every month. 
-
-Please contact PKP Publishing Services if you are a hosted client. For self-hosted journals, please create a post on the forum and include your journal UUID or URL. 
+The [PKP PN Journal list](http://pkp.sfu.ca/files/pkppn/onix.csv) updates nightly while Keepers Registry updates its holdings data from the PKP PN every month. If you think your journal should be listed based on these time frames, please contact PKP Publishing Services if you are a hosted client. For self-hosted journals, please create a post on the [PKP Community Forum](https://forum.pkp.sfu.ca/) and include your journal UUID or URL. 
 
 ### Other useful hints / Troubleshooting hints
-For users with technical knowledge, there are a number of troubleshooting hints available in the [PKP PN Github page](https://github.com/pkp/pln) if you do encounter any issues with packaging and depositing content. 
-
+For users with technical knowledge, there are a number of troubleshooting hints available in the [PKP PN Github page](https://github.com/pkp/pln) if you encounter any issues with packaging and depositing content. 
 
 ## Trigger Event
 A “Trigger event” is prompted when a) An OJS Journal Manager explicitly indicates they are ceasing publication or b) cessation of deposits into the PKP PN (after a period of inactivity).
 
-After a trigger event, PKP staff will approve the importing of the preserved content into one or more OJS instances hosted by PKP member institutions. End users will not have access to the preserved content until after a “trigger event” and content has been re-loaded.
-The PKP PN employs automated techniques to detect a potential trigger event and contact the journal to confirm their publication status.
+After a trigger event, PKP staff will approve the importing of the preserved content into one or more OJS instances hosted by PKP member institutions. End users will not have access to the preserved content until after a “trigger event” and content has been re-loaded. The PKP PN employs automated techniques to detect a potential trigger event and contact the journal to confirm their publication status.
