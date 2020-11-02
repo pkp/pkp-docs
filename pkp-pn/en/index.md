@@ -12,7 +12,7 @@ The PKP PN functions as a dark archive, meaning that end-users will not have acc
 
 Please note that archiving your content in the PKP PN is not the same as backing up your OJS site. The PKP PN archive cannot be used if you lose content on your site and need to restore it. Frequent backups of your site should be performed separately.
 
-In addition to ensuring long-term access to your content, having a digital preservation and archiving strategy and making this explicit as part of a policy is one of the key components of the [DOAJ application process](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-appendix-1-DOAJ) policy and one of the criteria for being awarded the DOAJ Seal. 
+In addition to ensuring long-term access to your content, having a digital preservation and archiving strategy and making this explicit as part of a policy is one of the key components of the [DOAJ application process](https://docs.pkp.sfu.ca/doaj/en/) policy and one of the criteria for being awarded the DOAJ Seal. 
 
 ## Installation & Configuration
 ### PKP PN Criteria
@@ -36,15 +36,19 @@ To configure the plugin, you will need to be logged in as the Administrator.
 
 ## Using the Plugin
 Once enabled, the plugin will automatically deposit the journal’s published content in the PKP PN each time an issue is published. This is the automatic deposit process:
-1. The deposit is created by the journal when the issue is published.
+
+1. The deposit is prompted by the publication of an issue. This will be based on the plugins set scheduled tasks with the default interval being 24 hours. 
 2. The deposit is then transferred to the network’s staging server, where its contents are validated, checked for viruses, etc.
 3. The deposit is then transferred from the staging server to the LOCKSS network.
 4. When all of the copies on the LOCKSS network are proven to be identical, the journal deletes the deposit in order to save storage space.
 
 The PKP PN plugin will start packaging content to be deposited within 24 hours to 48 hours of configuration and new issue publication, but will take a few days to go through the whole cycle. 
 
-The plugin currently does **not** support continuous publication, but there is some partial work in place to support both issues and article-level deposits in the near future. The plugin will only start generating a package upon issue publication, so if you publish an issue and then later add articles to it, those articles will not be archived. 
+While the PKP PN plugin does not currently support the deposit of individual articles that is not assigned to an issue. The plugin will check for any changes or updates (after the creation of the deposit). If there is a change to a deposited article or new article has been assigned to a deposited issue, the plugin automatically resets the deposit so that the next time the "depositor" is executed, this issue gets redeposited.
 
+
+### Reset
+The reset option for the issue deposit will repackage and send the files to the staging server for reprocessing. This can be done if there is an error indicated. 
 
 ## Status
 ### Checking Status in OJS
@@ -75,8 +79,13 @@ The key columns you will want to look at are:
   * **Received**: The LOCKSS network has acknowledged the deposit.
   * **Syncing**: Nodes on the LOCKSS network are downloading and verifying the deposit.
   * **Agreement**: The nodes on the LOCKSS network have checked that they all have a copy of the deposit.
+  
+  
+The diagram below provides a visual summary of the deposit process. 
 
-** Additional information regarding the deposit status and errors will be available with the release of OJS 3.3. **
+![Workflow chart of PKP PN](./assets/pkp-pn-status-chart.png)
+
+*Additional information regarding the deposit status and errors will be available with the release of OJS 3.3.*
 
 ### Checking status on PKP PN Journal list
 In addition to checking the PKP PN plugin status, you can also check the [list of journal issues](http://pkp.sfu.ca/files/pkppn/onix.csv). This list is updated nightly.
