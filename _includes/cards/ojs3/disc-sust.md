@@ -6,3 +6,4 @@ These guides explain various aspects of discoverability and sustainability pract
 - [Getting Found / Staying Found](/getting-found-staying-found/)
 - [DOAJ Application Guide](/doaj/)
 - [Google Scholar Indexing](/google-scholar/)
+- [PKP Preservation Network Guide](/pkp-pn/)
