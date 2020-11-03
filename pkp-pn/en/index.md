@@ -132,9 +132,3 @@ The [PKP PN Journal list](http://pkp.sfu.ca/files/pkppn/onix.csv) updates nightl
 ### Troubleshooting hints
 
 For users with technical knowledge, there are a number of troubleshooting hints available on the [PKP PN GitHub page](https://github.com/pkp/pln) if you encounter any issues with packaging and depositing content.
-
-## Trigger Event
-
-A “Trigger event” is prompted when a) An OJS Journal Manager explicitly indicates they are ceasing publication or b) cessation of deposits into the PKP PN (after a period of inactivity).
-
-After a trigger event, PKP staff will approve the importing of the preserved content into one or more OJS instances hosted by PKP member institutions. End users will not have access to the preserved content until after a “trigger event” and content has been re-loaded. The PKP PN employs automated techniques to detect a potential trigger event and contact the journal to confirm their publication status.
