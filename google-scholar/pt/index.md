@@ -1,5 +1,5 @@
 ---
-generateHeadingToc: true
+generateHeadingToc: verdade
 ---
 
 # Indexação no Google Acadêmico
@@ -51,11 +51,11 @@ A `<meta name="citation_pdf_url"/>` informa ao sistema de indexação qual arqui
 
 Você pode revisar as metatags de um de seus artigos acessando a página do artigo e visualizando o código-fonte em HTML. Normalmente, você pode fazer isso clicando com o botão direito na página e selecionando "Exibir código-fonte da página", "Inspecionar elemento", "Ferramentas de desenvolvedor" ou usando um comando de teclado, dependendo do navegador usado por você.
 
-![Right clicking on an OJS journal webpage](./assets/google-scholar-guide-atelie-site.png)
+![Clique com o botão direito na página de um jornal OJS](./assets/google-scholar-guide-atelie-site.png)
 
 Depois de visualizar o código-fonte da página do seu artigo, você pode pesquisar o HTML por "citation_" para visualizar as  metatags. Este procedimento pode ser usado para testar e solucionar muitos dos erros de indexação do OJS descritos neste guia.
 
-![HTML source metatags](./assets/google-scholar-guide-meta-tags.png)
+![Metatags de origem HTML](./assets/google-scholar-guide-meta-tags.png)
 
 ## Solução de problemas para gestores e editores de periódicos
 
@@ -73,15 +73,15 @@ Se você perceber que o Google Acadêmico não indexou ou parou de indexar seu p
 
 <br>Siga as etapas abaixo para verificar a consistência nos metadados de seu periódico. Se os metadados parecerem estar corretos, mas os artigos do seu periódico não estiverem sendo exibidos nos resultados da busca do Google Acadêmico, pode ser que leve algum tempo para que as alterações apareçam no site do Google Acadêmico, já que uma vez que o Google Acadêmico tenha indexado um artigo, nenhuma alteração será refletida em seu site até que o Google Acadêmico faça alterações em seu índice (o que ocorre duas vezes por ano). Se ainda assim as alterações não aparecerem, entre em contato com o administrador do site para obter apoio suplementar para solução de problemas (consulte abaixo a seção 'Solucionando problemas de indexação do Google Acadêmico" para administradores de site).
 
-### Check for consistency in the publication date
+### Verifique a consistência na data de publicação
 
 <br>A metatag da publicação deve coincidir com a data de publicação formal da edição, bem como a data de publicação listada no PDF do artigo. Se uma dessas datas estiver incorreta, você pode alterá-la no site do periódico (nas configurações de Dados da Edição) ou no PDF do artigo.
 
-![HTML source citation date](./assets/google-scholar-guide-citation-date.png)
+![Data de citação da fonte HTML](./assets/google-scholar-guide-citation-date.png)
 
-![A journal article with the publication year of 2019 circled](./assets/google-scholar-guide-date-galley.png)
+![An OJS journal page with the publication date circled on the page](https://github.com/pkp/pkp-docs/blob/master/google-scholar/en/assets/google-scholar-guide-volume-issue.png?raw=true)
 
-![An OJS journal page with the publication date circled on the page](./assets/google-scholar-guide-volume-issue.png)
+![Uma página de jornal OJS com a data de publicação circulada na página](./assets/google-scholar-guide-volume-issue.png)
 
 Há um bug conhecido para diferentes versões do OJS que faz com que datas incorretas sejam listadas nas metatags. Se você estiver usando qualquer versão do 3.0.x ou 2.4.x e tiver erros de data generalizados nas metatags em seu site, esse bug é uma causa provável.
 
@@ -89,19 +89,19 @@ Para testar esse problema, analise o código-fonte HTML de seus artigos para vis
 
 Se o problema estiver generalizado por todo o site do OJS e você estiver usando uma das versões listadas aqui, existe um patch que foi desenvolvido especificamente para corrigir esse problema. Este patch irá garantir que apenas a data de publicação seja usada na metatag de data.
 
-Patches for supported versions of OJS include:
+Os patches para as versões compatíveis do OJS incluem:
 
-- [OJS 3.0.1 and 3.0.2](https://github.com/pkp/ojs/commit/9105b7ebc397f3647d500d62d30654b56a4f1e60.diff)
+- [OJS 3.0.1 e 3.0.2](https://github.com/pkp/ojs/commit/9105b7ebc397f3647d500d62d30654b56a4f1e60.diff)
 
 - [OJS 3.0.0](https://github.com/asmecher/ojs/commit/c46a9d7a0873ba21ab7fec1cd1453cae215f9a3f.diff)
 
 - [OJS 2.4.x](https://github.com/pkp/ojs/commit/6cf0078cff0556231696cf9979377381d18d721d.diff)
 
-[More information about the code patch can be found here.](https://github.com/pkp/pkp-lib/issues/2739)
+[Mais informações sobre o patch de código podem ser encontradas aqui.](https://github.com/pkp/pkp-lib/issues/2739)
 
 Entre em contato com o administrador do site se você acredita que seu periódico possa estar sendo afetado por este bug.
 
-### Use only one language in each metadata tag, and don't reproduce duplicate metadata in different languages/scripts across multiple metatags
+### Use apenas um idioma em cada tag de metadados e não reproduza metadados duplicados em diferentes idiomas / scripts em várias metatags
 
 Outro erro comum para periódicos OJS ocorre quando vários idiomas ou scripts são combinados nas metatags para um único artigo, resultando em informações bibliográficas mistas. Isso causa confusão tanto para o sistema de indexação do Acadêmico quanto para os pesquisadores que podem, por exemplo, clicar em um resultado de pesquisa do Acadêmico que parece ser um artigo escrito em um idioma conhecido - e acabar em um PDF que eles não podem ler. Evite duplicar essas informações em diferentes idiomas ou scripts em um único campo.
 
@@ -125,35 +125,35 @@ Exemplo de lista de autores em script / idioma proveniente da instituição de o
 
 O idioma do resumo deve corresponder ao idioma das metatags, tal como a metatag do título. Usar o inglês como idioma padrão para metatags, independentemente do idioma do artigo, também causará problemas de indexação. Isso também resulta em citações perdidas, porque os artigos que citam outro artigo provavelmente usarão o idioma do texto na íntegra para a citação. Citações perdidas significam que os artigos não serão classificados como deveriam nos resultados de pesquisa do Google Acadêmico - e ambos resultam em autores insatisfeitos.
 
-![HTML source with title, date and language highlighted](./assets/google-scholar-guide-content-date.png)
+![Fonte HTML com título, data e idioma destacados](./assets/google-scholar-guide-content-date.png)
 
 A solução para ambos problemas é usar o idioma do texto completo que está no PDF como um guia para o idioma a ser usado ao inserir os metadados nos campos do OJS.
 
-#### Adding multilingual metadata in OJS 3.2
+#### Adicionar metadados multilíngues no OJS 3.2
 
 No OJS 3.2, é possível habilitar vários idiomas para o seu periódico e adicionar metadados nesses idiomas em campos separados. Isso evita os problemas de indexação que podem resultar de inconsistências com o idioma dos metadados que não correspondem ao idioma do texto do artigo ou da combinação de vários idiomas no mesmo campo de metadados. Observe que você ainda deve garantir que o [idioma principal da submissão](/learning-ojs/en/authoring#step-1) corresponda ao idioma do texto completo do artigo e que os metadados sejam inseridos no idioma do texto completo do artigo, independentemente da inclusão ou não metadados em outros idiomas.
 
 Consulte o guia Aprendendo sobre o OJS 3.2 em [Configurações do site - Idiomas](/learning-ojs/en/settings-website#languages) para maiores detalhes sobre como habilitar vários idiomas em seu jornal. Consulte Produção e Publicação - [Submissões Multilíngues](/learning-ojs/en/production-publication#multilingual-submissions) para maiores detalhes sobre como adicionar metadados em vários idiomas.
 
-### Ensure that authors’ names are formatted consistently
+### Certifique-se de que os nomes dos autores sejam formatados de forma consistente
 
 Erros de formatação comuns podem incluir nome / sobrenome incorreto / inconsistente: formato, nomes incompletos, erros de ortografia ou uso de letras maiúsculas e discrepâncias entre as metatags e o PDF publicado.
 
 Abaixo, nas metatags vermelhas, você pode observar alguns exemplos de erros comuns relacionados aos nomes de autores, que suspenderão a indexação no Google Acadêmico. Na primeira metatag, note que o nome e o sobrenome do autor foram invertidos. No segundo, apenas parte do nome do autor foi inserido. E no último exemplo, no sobrenome do autor, além do uso de letra minúscula, houve um erro de digitação (falta a letra "r").
 
-![Author names in HTML and on the journal page](./assets/google-scholar-guide-author-names.png)
+<img>
 
 Para solucionar e corrigir esses erros, você deve comparar os nomes nas metatags citation_author com o modo como aparecem no PDF. Se houver discrepâncias, altere as metatags nos metadados do artigo em seu periódico para corresponder ao PDF. Lembre-se de observar a formatação e o uso de letras maiúsculas.
 
-## Troubleshooting for Site Administrators
+## Solução de problemas para administradores de sites
 
 Caso você note que o Google Acadêmico não indexou ou parou de indexar seu periódico, saiba que há algumas causas potenciais para que isto ocorra. O Google Acadêmico deixará de indexar um periódico se:
 
 - Há um grande número de erros de metadados (consulte a seção Indexação do Google Acadêmico para Gestores de Periódicos deste guia para obter detalhes)
-- The metatags are missing entirely (a known bug for upgrades to some versions of OJS)
-- The HTTPS certificate is invalid or expired
+- As metatags estão totalmente ausentes (um bug conhecido para atualizações de algumas versões do OJS)
+- O certificado HTTPS é inválido ou expirou
 - Há frequentes períodos de inatividade do site
-- The OJS site has been hacked
+- O site OJS foi hackeado
 
 Detalharemos abaixo como reconhecer e corrigir esses problemas comuns.
 
@@ -171,15 +171,15 @@ Do contrário, caso você tenha muitos periódicos em seu site OJS que a altera�
 
 Por fim, você pode atualizar para o OJS versão 3.1.2 e mais recente, nas quais a correção para esse bug foi incorporada. Esta é a solução recomendada tanto pelo PKP quanto pelo Acadêmico Scholar (consulte a seção “Melhores práticas para periódicos OJS”).
 
-### Secure Socket Layer (SSL) certificate errors
+### Erros de certificado SSL (Secure Socket Layer)
 
 Quando a versão https de um site replica erros devido a um certificado inválido, o sistema de indexação é impedido de rastrear o site e é forçado a removê-lo do Google Acadêmico.
 
 Para testar, abra um artigo em vários navegadores diferentes (Chrome, Safari, etc). Se você detectar avisos de que a conexão não é privada, entre em contato com seu provedor de certificado SSL para corrigir tal erro. Se possível, peça-lhes para configurar renovações automatizadas para evitar expirações futuras.
 
-![SSL warnings in a web browser](./assets/google-scholar-guide-ssl.png)
+![SSL warnings in a web browser](https://github.com/pkp/pkp-docs/blob/master/google-scholar/en/assets/google-scholar-guide-ssl.png?raw=true)
 
-### Site downtimes
+### Tempo de inatividade do site
 
 As interrupções frequentes do site farão com que o Google Acadêmico pare de indexar um periódico.
 
@@ -204,15 +204,15 @@ Se você suspeitar que seu site OJS tenha sido invadido:
 
 A melhor prática para o OJS é garantir que você esteja executando a versão mais recente e monitorar o fórum da comunidade PKP e o site do PKP para novos lançamentos e atualizações, se possível. Caso seja vítima de spammers, você poderá usar a ferramenta “mesclar usuários” na interface de administração do usuário ou [por meio da linha de comando](/admin-guide/en/securing-your-system#cleaning-lots-of-users) para remover essas contas em um grande bloco. Recomendamos também que [se habilite o reCaptcha em sua configuração do OJS](/admin-guide/en/securing-your-system#captcharecaptcha) para reduzir o número de contas de spam criadas.
 
-## Best practices for OJS journal indexing
+## Melhores práticas para indexação de periódicos OJS
 
-### Avoid customized URL structures
+### Evite estruturas de URL personalizadas
 
 O sistema de indexação do Google Acadêmico foi treinado para reconhecer a estrutura de URL padrão do OJS. Embora o OJS permita a personalização de endereços de URL, os URLs personalizados tornam mais difícil para o rastreador identificar os periódicos do OJS. A estrutura deve ser:
 
 https://NOMEDOSITE.COM/index.php/ABREVIACAODOPERIODICO/article/view/SUBMISSION#
 
-For example:
+Por exemplo:
 
 http://seer.unipampa.edu.br/index.php/agropampa/article/view/23142
 
@@ -232,4 +232,4 @@ Esses redirecionamentos precisam ser HTTP 301s permanentes e não HTTP 302s. Par
 
 2. [Apresentação “Indexing Repositories: Pitfalls & Best Practices” na conferência Open Repositories 2015](https://www.or2015.net/wp-content/uploads/2015/06/or-2015-anurag-google-scholar.pdf) (direcionada aos repositórios, mas apresenta boas diretrizes gerais para indexação acadêmica e da web)
 
-3. [PKP Community Forum](https://forum.pkp.sfu.ca/)
+3. [Fórum da comunidade PKP](https://forum.pkp.sfu.ca/)
