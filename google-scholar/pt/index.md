@@ -8,23 +8,23 @@ generateHeadingToc: true
 
 ## Introdução
 
-This guide provides guidance around the indexing of Open Journal Systems (OJS) in Google Scholar. It is written largely for an audience of journal managers as well as systems administrators - those who are responsible for the installation, upgrading and general maintenance of the system. We have tried to suggest the sections which are most applicable to these two audiences.
+Este guia provê orientação sobre a indexação do Open Journal Systems (OJS) no Google Acadêmico. É direcionado principalmente para os gestores de periódicos bem como para os administradores de sistemas - responsáveis pela instalação, atualização e manutenção geral do sistema. Procuramos sugerir as seções que são mais aplicáveis a este público.
 
-This guide focuses on Google Scholar indexing of OJS sites. Some of this information is applicable to OMP and OPS sites, but Google Scholar interaction with these sites has not been researched.
+Este guia está focado na indexação de sites OJS no Google Acadêmico. Algumas destas informações são aplicáveis ao OMP e OPS, porém a interação do Google Acadêmico com estes sistemas ainda não foi pesquisada.
 
 ## Visão geral da indexação do Google Acadêmico
 
-Google Scholar is a popular scholarly indexing engine that crawls the web looking for scholarly publications: articles, books, reports, theses, conference proceedings, preprints, among others. Google scholar identifies scholarly content, determines each item's bibliographic metadata, and groups different online versions of an item together with this metadata in search results.
+O Google Acadêmico é um conhecido motor de busca acadêmico que vasculha a internet em busca de publicações acadêmicas: artigos, livros, relatórios, dissertações e teses, anais de conferências, preprints, entre outros. O Google Acadêmico identifica o conteúdo acadêmico, determina os metadados bibliográficos de cada item e agrupa as diferentes versões online de um item junto aos metadados no resultado da busca.
 
-There is no need to register your journal with Google Scholar. Google Scholar will eventually find and automatically crawl the site. If you notice that your journal is not appearing in Google Scholar, there may be some issues that need to be addressed, see the [common OJS indexing problems and suggested fixes](#troubleshooting-google-scholar-indexing-problems-for-journal-managers-and-editors) below.
+Não é necessário registrar seu periódico no Google Acadêmico. O Google Acadêmico eventualmente o encontrará e vasculhará automaticamente o site. Se você perceber que seu periódico não está sendo exibido no Google Acadêmico, pode ser que hajam alguns problemas que precisam ser resolvidos, confira abaixo os [problemas comuns de indexação do OJS e as correções sugeridas](#troubleshooting-google-scholar-indexing-problems-for-journal-managers-and-editors).
 
 ![Google scholar search results](./assets/google-scholar-guide-search-results.png)
 
-Google Scholar relies on two key pieces of information in order to do its indexing:
+O Google Acadêmico depende de duas informações-chave para realizar a indexação:
 
-1. A way to crawl all the Uniform Resource Locators (URLs) - or essentially links - for articles, either via a crawler-friendly browse (usually set up by default for OJS instances), or a sitemap.
+1. Uma maneira de rastrear todos os Uniform Resource Locators (URLs) - ou basicamente links - para artigos, seja por meio de uma navegação amigável (geralmente configurada como padrão nas instâncias do OJS) ou um mapa do site (sitemap).
 
-2. Bibliographic information from articles in the form of machine-readable metadata tags ("metatags"). These metatags are derived from the information you add to the forms in OJS to describe your journal, issues, and submissions.
+2. Informações bibliográficas dos artigos na forma de tags (etiquetas) de metadados legíveis por máquina ("metatags"). Essas metatags são extraídas das informações adicionadas aos formulários no OJS para descrever seu periódico, edições e submissões.
 
 Metatags bibliográficas indicam ao Google Acadêmico os metadados específicos para um artigo (por exemplo, título, autor, data de publicação, etc.)
 
@@ -47,9 +47,9 @@ Exemplo de conjunto de metatags das [diretrizes de inclusão do Google Acadêmic
 <meta name="citation_pdf_url" content="http://www.example.com/content/271/20/11761.full.pdf">
 ```
 
-The `<meta name="citation_pdf_url"/>` tells the indexing system which file to associate with this metadata, and provides a direct URL to the article galley.
+A `<meta name="citation_pdf_url"/>` informa ao sistema de indexação qual arquivo deve ser associado a esses metadados e fornece uma URL para a composição final do artigo, isto é, arquivo digital finalizado, a prova.
 
-You can review the metatags for one of your articles by going to the landing page for the article, then viewing the HTML source. Usually you can do this by right clicking on the page and selecting "View Page Source", "Inspect Element", "Developer Tools", or using a keyboard command, depending on which browser you use.
+Você pode revisar as metatags de um de seus artigos acessando a página do artigo e visualizando o código-fonte em HTML. Normalmente, você pode fazer isso clicando com o botão direito na página e selecionando "Exibir código-fonte da página", "Inspecionar elemento", "Ferramentas de desenvolvedor" ou usando um comando de teclado, dependendo do navegador usado por você.
 
 ![Right clicking on an OJS journal webpage](./assets/google-scholar-guide-atelie-site.png)
 
@@ -59,19 +59,19 @@ Depois de visualizar o código-fonte da página do seu artigo, você pode pesqui
 
 ## Solução de problemas para gestores e editores de periódicos
 
-If you notice that Google Scholar has not indexed or ceased indexing your journal, it could be due to inconsistencies between the journal's metadata and the Galley files. Metadata in the Tags & Galley should match precisely. Some common discrepancies include:
+Se você perceber que o Google Acadêmico não indexou ou parou de indexar seu periódico, isto pode ter ocorrido por inconsistências entre os metadados do periódico e os arquivos de prova. Estes metadados devem corresponder rigorosamente. Entre as discrepâncias comuns pode-se citar:
 
 - Datas de publicação incorretas listadas nas metatags
 
-- Mixing up multiple languages or scripts in metatags
+- Vários idiomas ou scritps misturados nas metatags
 
-- Language of metadata (especially title and abstract) in different language than the language of the article full text
+- Idioma dos metadados (especialmente título e resumo) diferente daquele do artigo
 
 - Discrepâncias na formatação do nome do autor entre os metadados e a publicação (por exemplo, formato do nome e sobrenome e letras maiúsculas).
 
 - Autores listados em ordem diferente nas metatags e na publicação
 
-Follow the steps below to check for consistency in your journal's metadata. If the metadata seems to be correct but your journal's articles do not appear in Google Scholar search results, it may take some time before the changes show up in the Google Scholar site, as once Google Scholar has indexed an article, any changes will not be reflected until Google Scholar makes changes to its' index (which occurs twice yearly). Should the changes still not appear, contact your site administrator for further support for further troubleshooting (see the 'Troubleshooting Google Scholar indexing problems" for site administrators' section, below).
+<br>Siga as etapas abaixo para verificar a consistência nos metadados de seu periódico. Se os metadados parecerem estar corretos, mas os artigos do seu periódico não estiverem sendo exibidos nos resultados da busca do Google Acadêmico, pode ser que leve algum tempo para que as alterações apareçam no site do Google Acadêmico, já que uma vez que o Google Acadêmico tenha indexado um artigo, nenhuma alteração será refletida em seu site até que o Google Acadêmico faça alterações em seu índice (o que ocorre duas vezes por ano). Se ainda assim as alterações não aparecerem, entre em contato com o administrador do site para obter apoio suplementar para solução de problemas (consulte abaixo a seção 'Solucionando problemas de indexação do Google Acadêmico" para administradores de site).
 
 ### Check for consistency in the publication date
 
@@ -83,11 +83,11 @@ Follow the steps below to check for consistency in your journal's metadata. If t
 
 ![An OJS journal page with the publication date circled on the page](./assets/google-scholar-guide-volume-issue.png)
 
-There is a known bug for different versions of OJS below that cause incorrect dates to be listed in the metatags. If you are using any version of 3.0.x or 2.4.x and have widespread date errors in the metatags across your site, this bug is a likely cause.
+Há um bug conhecido para diferentes versões do OJS que faz com que datas incorretas sejam listadas nas metatags. Se você estiver usando qualquer versão do 3.0.x ou 2.4.x e tiver erros de data generalizados nas metatags em seu site, esse bug é uma causa provável.
 
-To test for this problem, review the HTML source for your articles to view the date metatag for articles across your journals. Compare these dates with the publication dates listed in the PDFs, as well as the publication date for the issues in which these articles appear.
+Para testar esse problema, analise o código-fonte HTML de seus artigos para visualizar a metatag de data para artigos em seus periódicos. Compare essas datas com as datas de publicação listadas nos PDFs, bem como a data de publicação para as edições em que esses artigos aparecem.
 
-If the problem is widespread across your OJS site, and you are currently using one of the OJS versions listed here, there is a patch that has been developed specifically to fix this problem. This patch will ensure that only the publication date is being used in the date metatag.
+Se o problema estiver generalizado por todo o site do OJS e você estiver usando uma das versões listadas aqui, existe um patch que foi desenvolvido especificamente para corrigir esse problema. Este patch irá garantir que apenas a data de publicação seja usada na metatag de data.
 
 Patches for supported versions of OJS include:
 
@@ -99,19 +99,19 @@ Patches for supported versions of OJS include:
 
 [More information about the code patch can be found here.](https://github.com/pkp/pkp-lib/issues/2739)
 
-Contact your site administrator if you believe that your journal may be affected by this bug.
+Entre em contato com o administrador do site se você acredita que seu periódico possa estar sendo afetado por este bug.
 
 ### Use only one language in each metadata tag, and don't reproduce duplicate metadata in different languages/scripts across multiple metatags
 
 Outro erro comum para periódicos OJS ocorre quando vários idiomas ou scripts são combinados nas metatags para um único artigo, resultando em informações bibliográficas mistas. Isso causa confusão tanto para o sistema de indexação do Acadêmico quanto para os pesquisadores que podem, por exemplo, clicar em um resultado de pesquisa do Acadêmico que parece ser um artigo escrito em um idioma conhecido - e acabar em um PDF que eles não podem ler. Evite duplicar essas informações em diferentes idiomas ou scripts em um único campo.
 
-Example including the translated version of the title in title metatags:
+Exemplo com a versão traduzida do título nas metatags do título:
 
 ```html
 <meta name="citation_title" content="War and Peace == Война и мир" />
 ```
 
-Example listing authors in native script/language of home institution when it is not the language in which the article was written:
+Exemplo de lista de autores em script / idioma proveniente da instituição de origem, quando não é o idioma em que o artigo foi escrito:
 
 ```html
 <meta name="citation_author" content="Толстой, Лев Николаевич " />
@@ -121,29 +121,29 @@ Example listing authors in native script/language of home institution when it is
 <meta name="citation_author" content="Tolstoy, Lev Nikolayevich "/>
 ```
 
-### Use the full-text language in the metadata tags
+### Use nas tags de metadados o idioma empregado na íntegra do texto
 
-The language of the abstract should match the language of the metatags, such as the title metatag. Using English as the default language for metatags, regardless of the language of the article, will also cause problems for indexing. It also results in missed citations, because articles that cite another article will likely use the language of the full-text for the citation. Missing citations means articles won’t be ranked as they should be in Scholar search results - and both of these result in unhappy authors.
+O idioma do resumo deve corresponder ao idioma das metatags, tal como a metatag do título. Usar o inglês como idioma padrão para metatags, independentemente do idioma do artigo, também causará problemas de indexação. Isso também resulta em citações perdidas, porque os artigos que citam outro artigo provavelmente usarão o idioma do texto na íntegra para a citação. Citações perdidas significam que os artigos não serão classificados como deveriam nos resultados de pesquisa do Google Acadêmico - e ambos resultam em autores insatisfeitos.
 
 ![HTML source with title, date and language highlighted](./assets/google-scholar-guide-content-date.png)
 
-The fix for both of these issues is to use the language of the full text in the PDF as a guide for the language to use in entering the metadata in the fields in OJS.
+A solução para ambos problemas é usar o idioma do texto completo que está no PDF como um guia para o idioma a ser usado ao inserir os metadados nos campos do OJS.
 
 #### Adding multilingual metadata in OJS 3.2
 
-In OJS 3.2, it is possible to enable multiple languages for your journal and add metadata in those languages in separate fields. This avoids the indexing issues that can result from inconsistencies with the metadata language not matching the language of the article text, or of combining multiple languages in the same metadata field. Note that you should still ensure that the [primary language for the submission](/learning-ojs/en/authoring#step-1) matches the language of the full article text, and that metadata is entered in the language of the full article text, regardless of whether or not additional language metadata is included.
+No OJS 3.2, é possível habilitar vários idiomas para o seu periódico e adicionar metadados nesses idiomas em campos separados. Isso evita os problemas de indexação que podem resultar de inconsistências com o idioma dos metadados que não correspondem ao idioma do texto do artigo ou da combinação de vários idiomas no mesmo campo de metadados. Observe que você ainda deve garantir que o [idioma principal da submissão](/learning-ojs/en/authoring#step-1) corresponda ao idioma do texto completo do artigo e que os metadados sejam inseridos no idioma do texto completo do artigo, independentemente da inclusão ou não metadados em outros idiomas.
 
-See the Learning OJS 3.2 guide under [Website settings - Languages](/learning-ojs/en/settings-website#languages) for details on enabling multiple languages for your journal. See Production and Publication - [Multilingual Submissions](/learning-ojs/en/production-publication#multilingual-submissions) for details on adding metadata in multiple languages.
+Consulte o guia Aprendendo sobre o OJS 3.2 em [Configurações do site - Idiomas](/learning-ojs/en/settings-website#languages) para maiores detalhes sobre como habilitar vários idiomas em seu jornal. Consulte Produção e Publicação - [Submissões Multilíngues](/learning-ojs/en/production-publication#multilingual-submissions) para maiores detalhes sobre como adicionar metadados em vários idiomas.
 
 ### Ensure that authors’ names are formatted consistently
 
 Erros de formatação comuns podem incluir nome / sobrenome incorreto / inconsistente: formato, nomes incompletos, erros de ortografia ou uso de letras maiúsculas e discrepâncias entre as metatags e o PDF publicado.
 
-In the red metatags below, you can see a few different examples of common author name errors, all of which will break indexing in Google Scholar. In the first metatag, notice that the author’s first name and last name have been inverted. In the second, only part of the author’s name has been entered. And in the last, a lower case spelling has been used for the author’s name.
+Abaixo, nas metatags vermelhas, você pode observar alguns exemplos de erros comuns relacionados aos nomes de autores, que suspenderão a indexação no Google Acadêmico. Na primeira metatag, note que o nome e o sobrenome do autor foram invertidos. No segundo, apenas parte do nome do autor foi inserido. E no último exemplo, no sobrenome do autor, além do uso de letra minúscula, houve um erro de digitação (falta a letra "r").
 
 ![Author names in HTML and on the journal page](./assets/google-scholar-guide-author-names.png)
 
-To troubleshoot and fix these errors, you will want to compare the names in the citation_author metatags with how it appears in the PDF. If there are discrepancies, make the change to the metatags in the article metadata within your journal to match the PDF. Remember to look out for formatting and capitalization.
+Para solucionar e corrigir esses erros, você deve comparar os nomes nas metatags citation_author com o modo como aparecem no PDF. Se houver discrepâncias, altere as metatags nos metadados do artigo em seu periódico para corresponder ao PDF. Lembre-se de observar a formatação e o uso de letras maiúsculas.
 
 ## Troubleshooting for Site Administrators
 
@@ -152,30 +152,30 @@ Caso você note que o Google Acadêmico não indexou ou parou de indexar seu per
 - Há um grande número de erros de metadados (consulte a seção Indexação do Google Acadêmico para Gestores de Periódicos deste guia para obter detalhes)
 - The metatags are missing entirely (a known bug for upgrades to some versions of OJS)
 - The HTTPS certificate is invalid or expired
-- There are frequent site downtimes
+- Há frequentes períodos de inatividade do site
 - The OJS site has been hacked
 
-Below, we will detail how to recognize & fix these common problems.
+Detalharemos abaixo como reconhecer e corrigir esses problemas comuns.
 
-### Metatags no longer included after OJS upgrade
+### Metatags ausentes após atualização do OJS
 
 Há um bug conhecido para atualizações de algumas versões do OJS: OJS 2.x para OJS 3.0.1, 3.0.2, 3.1.0 e 3.1.1 que cria problemas para periódicos em relação ao Google Acadêmico.
 
 Nesses casos, o plug-in Google Acadêmico que cria metatags para periódicos OJS é desativado durante a atualização, mesmo que tenha sido ativado na versão anterior.
 
-If your OJS site has upgraded to any version of OJS listed above, it’s a good idea to check if your journals have been affected by this issue. The best way to check is to search for the “citation_title” metatag in the HTML source for a few articles in each journal that upgraded. If there is no title metatag, you have likely been affected by this disabled plugin issue.
+Se o seu site OJS foi atualizado para qualquer versão do OJS listada acima, é aconselhável verificar se seus periódicos foram afetados por esse problema. A melhor maneira de verificar é pesquisar a metatag “citation_title” no código-fonte HTML para alguns artigos em cada periódico atualizado. Se não houver metatag de título, você provavelmente foi afetado por esse problema de plug-in desativado.
 
 Existem diferentes maneiras de corrigir esse problema, dependendo da quantidade de periódicos OJS publicados por você. Se a coleção de periódicos em seu portal de periódicos OJS for pequena o suficiente para que você possa fazer um simples ajuste manual para cada periódico, essa é provavelmente a solução mais fácil. Para ativar o plug-in do Google Acadêmico manualmente, periódico por periódico, comece fazendo o login no painel do administrador de seu periódico. Na guia “Plugins”, encontre a lista de “Plugins genéricos” e marque a caixa de seleção “Google Acadêmico Indexing Plugin”. Certifique-se de salvar suas configurações. Repita para todos os periódicos afetados.
 
-Otherwise, if you have so many journals on your OJS site that making a change for each individual journal will take too much time, you can use [an SQL command to adjust your journals database all at once](https://github.com/pkp/ojs/blob/stable-3_1_2/dbscripts/xml/upgrade/3.1.2_update.xml#L41..L42).
+Do contrário, caso você tenha muitos periódicos em seu site OJS que a alteração em cada periódico tome muito tempo, você pode usar [um comando SQL para ajustar seu banco de dados de periódicos de uma só vez](https://github.com/pkp/ojs/blob/stable-3_1_2/dbscripts/xml/upgrade/3.1.2_update.xml#L41..L42) .
 
 Por fim, você pode atualizar para o OJS versão 3.1.2 e mais recente, nas quais a correção para esse bug foi incorporada. Esta é a solução recomendada tanto pelo PKP quanto pelo Acadêmico Scholar (consulte a seção “Melhores práticas para periódicos OJS”).
 
 ### Secure Socket Layer (SSL) certificate errors
 
-When the https version of a site returns errors due to an invalid certificate, the indexing system is blocked from crawling the site and is forced to remove it from the Scholar index.
+Quando a versão https de um site replica erros devido a um certificado inválido, o sistema de indexação é impedido de rastrear o site e é forçado a removê-lo do Google Acadêmico.
 
-To test, open an article in several different browsers (Chrome, Safari, etc). If you see warnings that the connection is not private, contact your SSL certificate provider to fix. If possible, ask them to set up automated renewals to avoid future expirations.
+Para testar, abra um artigo em vários navegadores diferentes (Chrome, Safari, etc). Se você detectar avisos de que a conexão não é privada, entre em contato com seu provedor de certificado SSL para corrigir tal erro. Se possível, peça-lhes para configurar renovações automatizadas para evitar expirações futuras.
 
 ![SSL warnings in a web browser](./assets/google-scholar-guide-ssl.png)
 
@@ -183,26 +183,26 @@ To test, open an article in several different browsers (Chrome, Safari, etc). If
 
 As interrupções frequentes do site farão com que o Google Acadêmico pare de indexar um periódico.
 
-Work with your host to minimize downtime for scheduled maintenance, and manage anticipated traffic to prevent traffic overload.
+Trabalhe com seu hospedeiro para minimizar o tempo de inatividade para manutenção programada e gerencie o tráfego previsto para evitar sobrecarga de tráfego.
 
-During site migrations, the best practice is to keep the old site functional and live while the new site is being developed, to avoid interruptions in access for both researchers and the indexing system. When the new site is ready to go live, first put the article-level redirects in place, then change the DNS lookup to the new server. (See also “[Set up article-level redirects](#set-up-article-level-redirects)”)
+Ao migrar um periódico OJS, recomenda-se manter o site antigo funcional e ativo enquanto o novo site está sendo desenvolvido, evitando assim interrupções no acesso dos pesquisadores e do sistema de indexação. Quando o novo site estiver pronto para entrar no ar, primeiro insira os redirecionamentos em nível de artigo e, em seguida, altere a pesquisa de DNS para o novo servidor. (Consulte também “[Configurar redirecionamentos em nível do artigo](#set-up-article-level-redirects)”)
 
 Ao migrar um periódico OJS, tente manter o site antigo funcional enquanto desenvolve seu novo site. Isso evita interrupções no acesso dos pesquisadores e dos sistemas de indexação. Quando o novo site estiver pronto para entrar no ar, primeiro coloque os redirecionamentos de nível de artigo no lugar e, em seguida, altere a pesquisa de DNS para o novo servidor.
 
-### Site hacks
+### Invasão de sites
 
-Hacked OJS sites are used for commercial spamming. Being hacked may not be immediately obvious to editors and journal managers.
+Os sites OJS invadidos são usados para spam comercial. A invasão pode não ser evidente de imediato a editores e gerentes de periódicos.
 
 O Google Acadêmico busca identificar sites invadidos e interromper sua indexação.
 
-If you suspect that your OJS site might be hacked:
+Se você suspeitar que seu site OJS tenha sido invadido:
 
 - Emule o rastreador do Google (para ver o que ele “vê”) configurando seu user-agent como Googlebot: `curl -A Googlebot URL_DO_SEU_SITE`
-    - Check a broad sample of randomly selected articles to see if they return a different page from what you see in the browser, or redirect to another site.
-- Alert your hosting provider. They should be able to analyze and fix underlying security issues.
-- Alert [the PKP community](https://forum.pkp.sfu.ca) forum and share your solutions
+    - Verifique uma ampla amostra de artigos selecionados aleatoriamente para ver se eles abrem uma página diferente da que você vê no navegador ou redirecionam para outro site.
+- Alerte seu provedor de hospedagem, os quais devem ser capazes de analisar e corrigir problemas de segurança subjacentes.
+- Alerte o fórum [da comunidade PKP](https://forum.pkp.sfu.ca) e compartilhe suas soluções.
 
-Best practice for OJS is to ensure that you are running the newest version and to monitor the PKP community forum and the PKP website for new releases and upgrade if possible. If you are the victim of spammers, you can use the “merge users” tool either in the User administration interface or [through the command line](/admin-guide/en/securing-your-system#cleaning-lots-of-users) to remove these accounts in bulk. We also recommend [enabling reCaptcha in your OJS configuration file](/admin-guide/en/securing-your-system#captcharecaptcha) to reduce the number of spam accounts created in your installation.
+A melhor prática para o OJS é garantir que você esteja executando a versão mais recente e monitorar o fórum da comunidade PKP e o site do PKP para novos lançamentos e atualizações, se possível. Caso seja vítima de spammers, você poderá usar a ferramenta “mesclar usuários” na interface de administração do usuário ou [por meio da linha de comando](/admin-guide/en/securing-your-system#cleaning-lots-of-users) para remover essas contas em um grande bloco. Recomendamos também que [se habilite o reCaptcha em sua configuração do OJS](/admin-guide/en/securing-your-system#captcharecaptcha) para reduzir o número de contas de spam criadas.
 
 ## Best practices for OJS journal indexing
 
@@ -218,18 +218,18 @@ http://seer.unipampa.edu.br/index.php/agropampa/article/view/23142
 
 Não recomendamos a personalização das URLs do OJS, o que dificultará e tornará mais lento para que os rastreadores do Google Acadêmico indexem o site.
 
-### Set up article-level redirects
+### Configure redirecionamentos em nível do artigo
 
-When a journal site moves or items are renumbered, this will result in article-level HTTP needing to be redirected.
+Quando um site de periódico é movido ou itens são renumerados, isso resultará na necessidade de se redirecionar o HTTP no nível do artigo.
 
-If your journal will be migrating or has migrated, or articles have been renumbered or given new identifiers, it will be important to minimize broken links. You will need to set up redirects at the article level, from the previous article URL to the new article URL; it is not sufficient to simply redirect the old articles to the new homepage URL.
+Se a seu periódico for migrar ou tenha migrado, ou os artigos foram renumerados ou receberam novos identificadores, será importante minimizar os links quebrados. Você precisará configurar redirecionamentos no nível do artigo, da URL do artigo para a nova URL do artigo; não é suficiente simplesmente redirecionar os artigos antigos para o novo URL da página inicial.
 
-These redirects would need to be permanent HTTP 301s and not HTTP 302s. For more information on the differences between the two, see [this guide to 301 and 302 redirects.](https://www.searchenginejournal.com/301-vs-302-redirects-seo/299843/)
+Esses redirecionamentos precisam ser HTTP 301s permanentes e não HTTP 302s. Para maiores informações sobre as diferenças entre os dois, consulte [este guia para os redirecionamentos 301 e 302.](https://www.searchenginejournal.com/301-vs-302-redirects-seo/299843/)
 
 ## Diretrizes de indexação e Recursos do Google Acadêmico para OJS
 
 1. [Inclusão no Google Acadêmico e diretrizes à solução de problemas](https://scholar.google.com/intl/en/scholar/inclusion.html#indexing)
 
-2. [“Indexing Repositories: Pitfalls & Best Practices” presentation from 2015 Open Repositories conference](https://www.or2015.net/wp-content/uploads/2015/06/or-2015-anurag-google-scholar.pdf) (targeted to repositories, but has good general guidelines for both Scholar & web indexing)
+2. [Apresentação “Indexing Repositories: Pitfalls & Best Practices” na conferência Open Repositories 2015](https://www.or2015.net/wp-content/uploads/2015/06/or-2015-anurag-google-scholar.pdf) (direcionada aos repositórios, mas apresenta boas diretrizes gerais para indexação acadêmica e da web)
 
 3. [PKP Community Forum](https://forum.pkp.sfu.ca/)
