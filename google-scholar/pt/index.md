@@ -1,5 +1,5 @@
 ---
-generateHeadingToc: verdade
+generateHeadingToc: true
 ---
 
 # Indexação no Google Acadêmico
