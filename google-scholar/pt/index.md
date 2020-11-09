@@ -16,7 +16,7 @@ Este guia está focado na indexação de sites OJS no Google Acadêmico. Algumas
 
 O Google Acadêmico é um conhecido motor de busca acadêmico que vasculha a internet em busca de publicações acadêmicas: artigos, livros, relatórios, dissertações e teses, anais de conferências, preprints, entre outros. O Google Acadêmico identifica o conteúdo acadêmico, determina os metadados bibliográficos de cada item e agrupa as diferentes versões online de um item junto aos metadados no resultado da busca.
 
-Não é necessário registrar seu periódico no Google Acadêmico. O Google Acadêmico eventualmente o encontrará e vasculhará automaticamente o site. Se você perceber que seu periódico não está sendo exibido no Google Acadêmico, pode ser que hajam alguns problemas que precisam ser resolvidos, confira abaixo os [problemas comuns de indexação do OJS e as correções sugeridas](#troubleshooting-google-scholar-indexing-problems-for-journal-managers-and-editors).
+Não é necessário registrar seu periódico no Google Acadêmico. O Google Acadêmico eventualmente o encontrará e vasculhará automaticamente o site. Se você perceber que seu periódico não está sendo exibido no Google Acadêmico, pode ser que hajam alguns problemas que precisam ser resolvidos, confira abaixo os [problemas comuns de indexação do OJS e as correções sugeridas](#solução-de-problemas-para-gestores-e-editores-de-periódicos).
 
 ![Google scholar search results](./assets/google-scholar-guide-search-results.png)
 
@@ -71,15 +71,15 @@ Se você perceber que o Google Acadêmico não indexou ou parou de indexar seu p
 
 - Autores listados em ordem diferente nas metatags e na publicação
 
-<br>Siga as etapas abaixo para verificar a consistência nos metadados de seu periódico. Se os metadados parecerem estar corretos, mas os artigos do seu periódico não estiverem sendo exibidos nos resultados da busca do Google Acadêmico, pode ser que leve algum tempo para que as alterações apareçam no site do Google Acadêmico, já que uma vez que o Google Acadêmico tenha indexado um artigo, nenhuma alteração será refletida em seu site até que o Google Acadêmico faça alterações em seu índice (o que ocorre duas vezes por ano). Se ainda assim as alterações não aparecerem, entre em contato com o administrador do site para obter apoio suplementar para solução de problemas (consulte abaixo a seção 'Solucionando problemas de indexação do Google Acadêmico" para administradores de site).
+Siga as etapas abaixo para verificar a consistência nos metadados de seu periódico. Se os metadados parecerem estar corretos, mas os artigos do seu periódico não estiverem sendo exibidos nos resultados da busca do Google Acadêmico, pode ser que leve algum tempo para que as alterações apareçam no site do Google Acadêmico, já que uma vez que o Google Acadêmico tenha indexado um artigo, nenhuma alteração será refletida em seu site até que o Google Acadêmico faça alterações em seu índice (o que ocorre duas vezes por ano). Se ainda assim as alterações não aparecerem, entre em contato com o administrador do site para obter apoio suplementar para solução de problemas (consulte abaixo a seção 'Solucionando problemas de indexação do Google Acadêmico" para administradores de site).
 
 ### Verifique a consistência na data de publicação
 
-<br>A metatag da publicação deve coincidir com a data de publicação formal da edição, bem como a data de publicação listada no PDF do artigo. Se uma dessas datas estiver incorreta, você pode alterá-la no site do periódico (nas configurações de Dados da Edição) ou no PDF do artigo.
+A metatag da publicação deve coincidir com a data de publicação formal da edição, bem como a data de publicação listada no PDF do artigo. Se uma dessas datas estiver incorreta, você pode alterá-la no site do periódico (nas configurações de Dados da Edição) ou no PDF do artigo.
 
 ![Data de citação da fonte HTML](./assets/google-scholar-guide-citation-date.png)
 
-![An OJS journal page with the publication date circled on the page](https://github.com/pkp/pkp-docs/blob/master/google-scholar/en/assets/google-scholar-guide-volume-issue.png?raw=true)
+![A journal article with the publication year of 2019 circled](./assets/google-scholar-guide-date-galley.png)
 
 ![Uma página de jornal OJS com a data de publicação circulada na página](./assets/google-scholar-guide-volume-issue.png)
 
@@ -141,7 +141,7 @@ Erros de formatação comuns podem incluir nome / sobrenome incorreto / inconsis
 
 Abaixo, nas metatags vermelhas, você pode observar alguns exemplos de erros comuns relacionados aos nomes de autores, que suspenderão a indexação no Google Acadêmico. Na primeira metatag, note que o nome e o sobrenome do autor foram invertidos. No segundo, apenas parte do nome do autor foi inserido. E no último exemplo, no sobrenome do autor, além do uso de letra minúscula, houve um erro de digitação (falta a letra "r").
 
-<img>
+![Author names in HTML and on the journal page](./assets/google-scholar-guide-author-names.png)
 
 Para solucionar e corrigir esses erros, você deve comparar os nomes nas metatags citation_author com o modo como aparecem no PDF. Se houver discrepâncias, altere as metatags nos metadados do artigo em seu periódico para corresponder ao PDF. Lembre-se de observar a formatação e o uso de letras maiúsculas.
 
@@ -177,7 +177,7 @@ Quando a versão https de um site replica erros devido a um certificado inválid
 
 Para testar, abra um artigo em vários navegadores diferentes (Chrome, Safari, etc). Se você detectar avisos de que a conexão não é privada, entre em contato com seu provedor de certificado SSL para corrigir tal erro. Se possível, peça-lhes para configurar renovações automatizadas para evitar expirações futuras.
 
-![SSL warnings in a web browser](https://github.com/pkp/pkp-docs/blob/master/google-scholar/en/assets/google-scholar-guide-ssl.png?raw=true)
+![SSL warnings in a web browser](./assets/google-scholar-guide-ssl.png)
 
 ### Tempo de inatividade do site
 
@@ -185,7 +185,7 @@ As interrupções frequentes do site farão com que o Google Acadêmico pare de 
 
 Trabalhe com seu hospedeiro para minimizar o tempo de inatividade para manutenção programada e gerencie o tráfego previsto para evitar sobrecarga de tráfego.
 
-Ao migrar um periódico OJS, recomenda-se manter o site antigo funcional e ativo enquanto o novo site está sendo desenvolvido, evitando assim interrupções no acesso dos pesquisadores e do sistema de indexação. Quando o novo site estiver pronto para entrar no ar, primeiro insira os redirecionamentos em nível de artigo e, em seguida, altere a pesquisa de DNS para o novo servidor. (Consulte também “[Configurar redirecionamentos em nível do artigo](#set-up-article-level-redirects)”)
+Ao migrar um periódico OJS, recomenda-se manter o site antigo funcional e ativo enquanto o novo site está sendo desenvolvido, evitando assim interrupções no acesso dos pesquisadores e do sistema de indexação. Quando o novo site estiver pronto para entrar no ar, primeiro insira os redirecionamentos em nível de artigo e, em seguida, altere a pesquisa de DNS para o novo servidor. (Consulte também “[Configurar redirecionamentos em nível do artigo](#configure-redirecionamentos-em-nível-do-artigo)”)
 
 Ao migrar um periódico OJS, tente manter o site antigo funcional enquanto desenvolve seu novo site. Isso evita interrupções no acesso dos pesquisadores e dos sistemas de indexação. Quando o novo site estiver pronto para entrar no ar, primeiro coloque os redirecionamentos de nível de artigo no lugar e, em seguida, altere a pesquisa de DNS para o novo servidor.
 
@@ -198,7 +198,7 @@ O Google Acadêmico busca identificar sites invadidos e interromper sua indexaç
 Se você suspeitar que seu site OJS tenha sido invadido:
 
 - Emule o rastreador do Google (para ver o que ele “vê”) configurando seu user-agent como Googlebot: `curl -A Googlebot URL_DO_SEU_SITE`
-    - Verifique uma ampla amostra de artigos selecionados aleatoriamente para ver se eles abrem uma página diferente da que você vê no navegador ou redirecionam para outro site.
+  - Verifique uma ampla amostra de artigos selecionados aleatoriamente para ver se eles abrem uma página diferente da que você vê no navegador ou redirecionam para outro site.
 - Alerte seu provedor de hospedagem, os quais devem ser capazes de analisar e corrigir problemas de segurança subjacentes.
 - Alerte o fórum [da comunidade PKP](https://forum.pkp.sfu.ca) e compartilhe suas soluções.
 

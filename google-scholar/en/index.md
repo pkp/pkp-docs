@@ -16,7 +16,7 @@ This guide focuses on Google Scholar indexing of OJS sites. Some of this informa
 
 Google Scholar is a popular scholarly indexing engine that crawls the web looking for scholarly publications: articles, books, reports, theses, conference proceedings, preprints, among others. Google scholar identifies scholarly content, determines each item's bibliographic metadata, and groups different online versions of an item together with this metadata in search results.
 
-There is no need to register your journal with Google Scholar. Google Scholar will eventually find and automatically crawl the site. If you notice that your journal is not appearing in Google Scholar, there may be some issues that need to be addressed, see the [common OJS indexing problems and suggested fixes](#troubleshooting-google-scholar-indexing-problems-for-journal-managers-and-editors) below.
+There is no need to register your journal with Google Scholar. Google Scholar will eventually find and automatically crawl the site. If you notice that your journal is not appearing in Google Scholar, there may be some issues that need to be addressed, see the [common OJS indexing problems and suggested fixes](#troubleshooting-for-journal-managers-and-editors) below.
 
 ![Google scholar search results](./assets/google-scholar-guide-search-results.png)
 
