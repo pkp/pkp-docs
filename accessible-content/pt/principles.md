@@ -350,14 +350,14 @@ Tabelas devem ser usadas exclusivamente para apresentar dados ou conteúdo tabul
 
 É possível usar tabelas para posicionar elementos visualmente em um documento ou página, embora não seja aconselhável. Isso pode causar confusão para tecnologias assistivas que anunciariam o elemento como uma “tabela” onde ele pode de fato conter conteúdo diferente. Pode dar uma sensação de falta de dados no elemento agrupador.
 
-### Table structure
+### Estrutura de tabelas
 
 Diferentes tipos de dados ou conteúdo podem ser apresentados em diferentes estruturas de tabelas. O conjunto completo da estrutura deste elemento envolve:
 
 - **Legenda/Resumo**: ou título da tabela, pode ser uma descrição curta ou longa dos dados da tabela, ou seja: "Como escolho gastar meu dinheiro". Serve para descrever o conteúdo que será lido e encontrado na tabela.
 - **Cabeçalho da tabela**: geralmente a primeira linha de uma tabela. Fornece um rótulo para a coluna e o tipo de informação esperado na coluna respectiva. No entanto, para tabelas longas, também é possível usar a primeira coluna inteira como cabeçalho da tabela. Por exemplo, tabelas contendo países e indicadores sociais geralmente têm a primeira linha e a primeira coluna como cabeçalhos.
 - **Corpo da tabela**: envolve o conteúdo principal ou dados de uma tabela. É apresentado abaixo do cabeçalho da tabela e acima do rodapé da tabela.
-- **Table footer**: this element serves to summarize the columns of a table. It is useful for tables values or numerical data. It is not a mandatory element for tables with values that do not require a summary, i.e.: table with names, ages, citizenship, etc. That is to say, even if age is a numerical value, it should not be summarized at the bottom of a table.
+- **Rodapé da tabela**: este elemento serve para resumir as colunas de uma tabela. É útil para valores de tabelas ou dados numéricos. Não é obrigatório para tabelas com valores que não exijam resumo, por exemplo: tabela com nomes, idades, nacionalidade etc... Ou seja, mesmo que idade seja um valor numérico, não deve ser resumida na parte inferior de uma tabela.
 
 A seguir apresentamos um exemplo de uma tabela com seus elementos conforme descrito anteriormente: *Legenda/Resumo* , *Cabeçalho* , *Corpo* e *Rodapé*.
 
@@ -368,7 +368,7 @@ A seguir apresentamos um exemplo de uma tabela com seus elementos conforme descr
       <th>Compra</th>
       <th>Localização</th>
       <th>Data</th>
-      <th>Evaluation</th>
+      <th>Avaliação</th>
       <th>Custo (€)</th>
     </tr>
   </thead>
