@@ -364,14 +364,14 @@ Tables should be used exclusively to present tabular data or content. Tables can
 
 It is possible to use tables to position elements visually in a document or page, although it is not advisable. It can cause confusion for assistive technologies that would announce the element as a “table” where it may in fact contain different content. It may give a sense of missing data in the wrapping element.
 
-### Tables structure
+### Table structure
 
 Different types of data or content can be presented in a different structure of tables. The complete structure set of this element involves:
 
 * **Caption/Summary**: or table title, it could be either a short or long description of the data in the table, i.e.: "How I choose to spend my money". It serves to describe the content that the user will read and find in the table.
 * **Table header**: Usually the first row of a table. It provides a label to the column and what type of information to expect in that column. However, for long tables it is also possible to use the whole first column as a table header as well. For example, tables containing countries and social indicators usually have the first row and the first column as table headers.
 * **Table body**: wraps the main content or data of a table. It presents them below the table header and above the table footer.
-* **Table footer**: this element serves to summarize the columns of a table. It is useful for values or numbers data tables. It is not a mandatory element for tables with values that should not be summarized, i.e.: table with names, ages, citizenship, etc... Even age is a number, it won't be summarized at the bottom of a table.
+* **Table footer**: this element serves to summarize the columns of a table. It is useful for tables values or numerical data. It is not a mandatory element for tables with values that do not require a summary, i.e.: table with names, ages, citizenship, etc. That is to say, even if age is a numerical value, it should not be summarized at the bottom of a table.
 
 Below is an example of a table with elements of a table described above: *Caption*, *Header*, *Body* and *Footer*.
 
