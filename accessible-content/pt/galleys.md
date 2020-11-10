@@ -53,7 +53,7 @@ Se você estiver criando um documento por meio da guia Acrobat no MS Office, ver
 
 Salve seu documento do Word como PDF usando a função “Salvar como”. Isso pode não preservar todos os recursos de acessibilidade, como marcação, portanto, por isso é melhor usar o Acrobat Pro, se estiver disponível.
 
-##### Next Best Method (does not require Adobe Acrobat Pro)
+##### Próximo melhor método (não requer Adobe Acrobat Pro)
 
 Salve seu documento do Word como PDF usando a função “Salvar como”. Isso pode não preservar todos os recursos de acessibilidade, como marcações, portanto, é melhor usar o Acrobat Pro, caso esteja disponível.
 
