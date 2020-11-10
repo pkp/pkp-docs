@@ -15,7 +15,7 @@ Após a execução do Verificador, os "Resultados da inspeção" exibirão uma o
 
 - **Erro**: identifica o conteúdo que torna um documento difícil de ler e entender
 - **Aviso**: identifica o conteúdo que, na maioria dos casos, torna o documento difícil de entender
-- **Tip**: identifies content that may not constitute an end user issue, but could be presented in a different way to optimize user experience
+- **Dica**: identifica o conteúdo que pode não constituir um problema para o leitor, mas pode ser apresentado de maneira diferente para otimizar a experiência de leitura
 
 Clicar em um item na lista "Resultados da inspeção" levará diretamente ao problema - o item será removido dos resultados da inspeção automaticamente assim que for resolvido. Não é necessário executar o verificador novamente.
 
@@ -45,7 +45,7 @@ O método escolhido para exportar o Documento Word para PDF afetará a preserva�
 
 ##### Método recomendado (exige o Adobe Acrobat Pro)
 
-Export your Word Document by using “Create PDF” from a file in Adobe Acrobat Pro. Open Adobe Acrobat Pro > File > Create > PDF from File > Select desired document to convert.
+Exporte seu documento do Word usando “Criar PDF” a partir de um arquivo no Adobe Acrobat Pro. Abra Adobe Acrobat Pro> Arquivo> Criar> PDF do arquivo> Selecione o documento desejado para converter. <img>
 
 Caso esteja criando um documento por meio da aba Acrobat no MS Office, certifique-se de <strong>Marcas estruturais do documento para acessibilidade</strong> está habilitado.
 
@@ -79,7 +79,7 @@ Este processo requer o Adobe Acrobat Pro e é descrito em detalhes no [Guia de a
 
 Caso receba um PDF sem marcações ou marcado ou no qual as marcas estruturais estão incompletas ou incorretas, geralmente é melhor verificar o documento de origem, fazer os reparos de acessibilidade necessários e recriar o PDF. Caso o documento de origem não estiver disponível, é possível usar o Acrobat para converter um PDF de volta em um arquivo do Word, Excel ou PowerPoint. Selecione Arquivo > Exportar para e escolha o formato desejado.
 
-Remediating a document in PDF requires Adobe Acrobat Pro. For more details see the [WebAim’s PDF Accessibility Guide.](https://webaim.org/techniques/acrobat/acrobat)
+A correção de um documento em PDF requer o Adobe Acrobat Pro. Para mais detalhes consulte o [Guia de acessibilidade em PDF do WebAim](https://webaim.org/techniques/acrobat/acrobat).
 
 ### HTML
 
@@ -89,7 +89,7 @@ Para instruções sobre como criar e aplicar formatação acessível em document
 
 ### XML
 
-XML files have the potential to be very accessible. They contain extensible markup that divides them into elements (e.g., chapters, paragraphs, tables, lists, footnotes) and have document type definition (DTD) that defines the rules for the document, describes the structural elements and attributes, and tells computer systems (such as assistive technologies) how to interpret the data. XML files can be highly structured and tagged, which provides the opportunity to add context to images, figures, etc. Semantic tagging can improve navigation and logical reading order. For example, semantic tags can tell a screen-reader in which order to read the content.
+Arquivos XML tem o potencial de serem muito acessíveis. Eles contêm marcação extensível que os divide em elementos (por exemplo, capítulos, parágrafos, tabelas, listas, notas de rodapé) e têm definição de tipo de documento (DTD) que define as regras para o documento, descreve os elementos estruturais e atributos, e informa os sistemas de computador (como tecnologias assistivas) a forma de interpretar os dados. Os arquivos XML podem ser altamente estruturados e marcados, o que fornece a oportunidade de adicionar contexto a imagens, figuras etc. A marcação semântica pode melhorar a navegação e a ordem de leitura lógica. Por exemplo, as marcações semânticas podem informar a um leitor de tela a ordem de leitura do conteúdo.
 
 A marcação XML é estrutural e semântica, em vez de ter qualquer relação com a forma como o conteúdo do texto deve ser apresentado, e o arquivo pode ser processado automaticamente para criar vários formatos. Muitos editores usam um fluxo de trabalho de publicação “primeiro em XML”, produzindo um arquivo XML mestre que é usado para gerar HTML, PDF, EPUB e outros formatos. Isso permite que os editores incluam todos os recursos de acessibilidade no início de seu fluxo de trabalho.
 
