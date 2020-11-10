@@ -59,7 +59,7 @@ Salve seu documento do Word como PDF usando a função “Salvar como”. Isso p
 
 No Windows: Selecione **Arquivo> Salvar como**. Selecione “PDF” da lista de arquivos suspensos. Clique em “Opções” e certifique-se de que a opção **“Marcas estruturais do documento para acessibilidade”** esteja habilitada e salve o arquivo.
 
-![Screenshot of MS Word on Windows file save option with the checked checkbox Document structure tags for accessibility](./assets/11_a11y-guide-saveas-pdf1.png)
+![Captura de tela da opção de salvar arquivo do MS Word no Windows com a caixa de seleção Marcações da estrutura do documento para acessibilidade](./assets/11_a11y-guide-saveas-pdf1.png)
 
 No Mac: Abra o menu do aplicativo **Arquivo** e selecione **Salvar como ...** Em **Formato de arquivo**, selecione “PDF”. Em seguida, escolha a opção **Melhor para distribuição eletrônica e acessibilidade** (**usa o serviço on-line da Microsoft**) e, em seguida, **Exportar**.
 
