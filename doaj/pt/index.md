@@ -1,5 +1,5 @@
 ---
-generateHeadingToc: verdade
+generateHeadingToc: true
 ---
 
 # Guia DOAJ para periódicos do OJS
@@ -21,7 +21,7 @@ Você está pronto? Seu periódico deve:
 
 ## A inscrição no DOAJ
 
-Esta seção o auxiliará a preencher <a class="" href="">a inscrição no DOAJ</a> para seu periódico gerenciado no Open Journal Systems (OJS). Os números dos itens correspondem às perguntas enumeradas na inscrição ao DOAJ.
+Esta seção o auxiliará a preencher [a inscrição no DOAJ](https://doaj.org/application/new) para seu periódico gerenciado no Open Journal Systems (OJS). Os números dos itens correspondem às perguntas enumeradas na inscrição ao DOAJ.
 
 Todas as perguntas devem ser respondidas para que a inscrição seja concluída. No entanto, algumas perguntas fornecem apenas informações suplementares ao DOAJ e não são exigidas para o aceite no DOAJ. As perguntas exigidas para o aceite no DOAJ são indicadas com a letra **D.** Algumas perguntas adicionais, indicadas com a letra **S**, são necessárias para a concessão do Selo DOAJ. Mesmo as perguntas não indicadas devem ser respondidas.
 
@@ -48,26 +48,24 @@ Para maiores informações sobre o significado das perguntas, consulte [o Guia L
 **4) ISSN do Periódico (impresso)** (adicionar apenas se tiver) [ **D** ]
 
 - Esta informação precisa ser adicionada em dois locais:
-
-    - Configurações do periódico >  Equipe Editorial > ISSN. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
-    - Adicione ao rodapé do seu periódico para que apareça em seu site. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
+  - Configurações do periódico >  Equipe Editorial > ISSN. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
+  - Adicione ao rodapé do seu periódico para que apareça em seu site. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
 
 - O ISSN aparecerá no rodapé de todas as páginas do seu site.
 
 **5) ISSN do periódico (eletrônico)** [ **D** ]
 
 - Esta informação precisa ser adicionada em dois locais:
-
-    - Configurações do periódico >  Equipe Editorial > ISSN. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
-    - Adicione ao rodapé do seu periódico para que ele apareça em seu site. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) .
+  - Configurações do periódico >  Equipe Editorial > ISSN. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
+  - Adicione ao rodapé do seu periódico para que ele apareça em seu site. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) .
 
 - O ISSN aparecerá no rodapé de todas as páginas do seu site.
 
 **6) Editora** [ **D** ]
 
 - Insira esta informação em dois locais:
-    - Configurações do periódico >  Equipe Editorial > Editor (será fornecido aos serviços de metadados de terceiros, mas não aparecerá publicamente em seu site). Consulte o [Capítulo 5: Configurações do diário](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) .
-    - Configurações do periódico > Contato> Endereço para correspondência (o nome do editor aparecerá na página Contato do seu site, uma exigência do DOAJ). Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
+  - Configurações do periódico >  Equipe Editorial > Editor (será fornecido aos serviços de metadados de terceiros, mas não aparecerá publicamente em seu site). Consulte o [Capítulo 5: Configurações do diário](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) .
+  - Configurações do periódico > Contato> Endereço para correspondência (o nome do editor aparecerá na página Contato do seu site, uma exigência do DOAJ). Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
 
 **7) Sociedade ou Instituição**
 
@@ -99,8 +97,8 @@ Para maiores informações sobre o significado das perguntas, consulte [o Guia L
 
 - Selecione "Sim" ou "Não".
 - Insira esta informação em dois locais:
-    - Configurações > Site > Informações > Para autores. Consulte o [Capítulo 6: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) .
-    - Configurações> Fluxo de trabalho> Envio> Lista de verificação de preparação de envio. Consulte o [Capítulo 7: Configurações do fluxo de trabalho](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) .
+  - Configurações > Site > Informações > Para autores. Consulte o [Capítulo 6: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) .
+  - Configurações> Fluxo de trabalho> Envio> Lista de verificação de preparação de envio. Consulte o [Capítulo 7: Configurações do fluxo de trabalho](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) .
 
 **14) Insira a URL onde esta informação pode ser encontradal** [ **D** ]
 
@@ -112,8 +110,8 @@ Para maiores informações sobre o significado das perguntas, consulte [o Guia L
 
 - Selecione "Sim" ou "Não".
 - Insira essas informações em dois locais:
-    - Configurações> Site> Informações> Para autores. Consulte o [Capítulo 6: Configuração do site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) .
-    - Configurações> Fluxo de trabalho> Envio> Lista de verificação de preparação de submissão. Consulte o [Capítulo 7: Configurações do fluxo de trabalho](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) .
+  - Configurações> Site> Informações> Para autores. Consulte o [Capítulo 6: Configuração do site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) .
+  - Configurações> Fluxo de trabalho> Envio> Lista de verificação de preparação de submissão. Consulte o [Capítulo 7: Configurações do fluxo de trabalho](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) .
 
 **18) Insira a URL onde essas informações podem ser encontradas** [ **D** ]
 
@@ -142,20 +140,18 @@ Para maiores informações sobre o significado das perguntas, consulte [o Guia L
 **25) Qual política de arquivamento digital o periódico utiliza?** [ **S** ]
 
 - Selecione todas as opções aplicáveis:
-
-    - Nenhuma política em vigor
-    - CINES
-    - CLOCKSS
-    - LOCKSS
-    - PKP PN (ainda não disponível no OJS 3.x)
-    - PMC / Europe PMC
-    - Portico
-    - Uma biblioteca nacional
-    - Outros
+  - Nenhuma política em vigor
+  - CINES
+  - CLOCKSS
+  - LOCKSS
+  - PKP PN (ainda não disponível no OJS 3.x)
+  - PMC / Europe PMC
+  - Portico
+  - Uma biblioteca nacional
+  - Outros
 
 - Arquivos online institucionais e dos próprios editores não são válidos.
-
-- Se você é membro do LOCKSS ou CLOCKSS, habilite-o aqui em Configurações> Site> Arquivamento. Consulte o [Capítulo 6: Configurações do site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving) .
+- Se você é membro do LOCKSS ou CLOCKSS, habilite-o aqui em Configurações> Site> Arquivamento. Consulte o [Capítulo 6: Configurações do site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving).
 
 **26) Digite a URL onde esta informação pode ser encontrada.**
 
@@ -169,12 +165,11 @@ Para maiores informações sobre o significado das perguntas, consulte [o Guia L
 **28) Quais identificadores de artigos o periódico utiliza?** [ **S** ]
 
 - Selecione uma das seguintes opções:
-
-    - Nenhum
-    - DOI
-    - Handles
-    - ARK
-    - Outros
+  - Nenhum
+  - DOI
+  - Handles
+  - ARK
+  - Outros
 
 - OJS pode gerar DOIs como parte dos metadados e permitir o depósito desses DOIs diretamente no CrossRef (você **tem** ser membro do CrossRef para registrar os DOIs). Clique em Ferramentas> Importar / Exportar> Plug-in de Exportação CrossRef XML. Para maiores detalhes, leia [o manual Crossref OJS](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
 
@@ -202,12 +197,11 @@ Para maiores informações sobre o significado das perguntas, consulte [o Guia L
 **33) Por favor, indique quais formatos de texto completo estão disponíveis**
 
 - Selecione todos os formatos aplicados
-
-    - PDF
-    - HTML
-    - ePUB
-    - XML
-    - Outros
+  - PDF
+  - HTML
+  - ePUB
+  - XML
+  - Outros
 
 - Arquivos de texto completo para artigos são transferidos durante o estágio de produção de submissão e são exibidos nas páginas de artigos e no sumário do seu site.
 
@@ -251,7 +245,7 @@ Para maiores informações sobre o significado das perguntas, consulte [o Guia L
 - Selecione "Sim" ou "Não".
 - Se você utiliza um serviço de verificação de plágio, certifique-se de que esta informação esteja disponibilizada online. Ela pode ser incluída na seção de avaliação por pares. Atualmente, a verificação de plágio não é obrigatória para inclusão no DOAJ.
 
-**42) Digite a URL em que esta informação pode ser encontrada.*****
+**42) Digite a URL em que esta informação pode ser encontrada.**
 
 - Se você incluir sua política de detecção de plágio em uma página do site OJS, insira a URL da página.
 
@@ -265,7 +259,7 @@ Para maiores informações sobre o significado das perguntas, consulte [o Guia L
 
 - Insira esta informação em Configurações do periódico >  Equipe Editorial > Sobre o periódico. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
 - Você pode querer criar uma seção na caixa de texto para a Declaração de Acesso Aberto.
-- O exemplo de declaração de Acesso Aberto que o DOAJ fornece é: *"Este é um periódico de acesso aberto, o que significa que todo o conteúdo está disponível gratuitamente para o usuário ou sua instituição. Os usuários têm permissão para ler, baixar, copiar, distribuir, imprimir, pesquisar, ou fazer vincular artigos na íntegra, ou usá-los para qualquer outra finalidade legal, sem pedir permissão prévia do editor ou do autor. Isso está em conformidade com a definição de acesso aberto da Budapest Open Access Initiative (BOAI). "*
+- O exemplo de declaração de Acesso Aberto que o DOAJ fornece é: *"Este é um periódico de acesso aberto, o que significa que todo o conteúdo está disponível gratuitamente para o usuário ou sua instituição. Os usuários têm permissão para ler, baixar, copiar, distribuir, imprimir, pesquisar, ou fazer vincular artigos na íntegra, ou usá-los para qualquer outra finalidade legal, sem pedir permissão prévia do editor ou do autor. Isso está em conformidade com a definição de acesso aberto da Budapest Open Access Initiative (BOAI)."*
 - Se o seu periódico está licenciado sob uma licença Creative Commons, esta declaração de Acesso Aberto é válida para o seu periódico. Para obter instruções sobre onde adicionar sua licença CC, consulte o número 47.
 
 ### Licenciamento de Conteúdo
@@ -274,7 +268,8 @@ Para maiores informações sobre o significado das perguntas, consulte [o Guia L
 
 - Selecione "Sim" ou "Não".
 - Responda Sim apenas se incluir a licença CC nos PDFs dos artigos. Inclua a URL de um artigo como exemplo no número 46.
-- Selecione a licença Creative Commons que você usará em: Configurações > Distribuição > Permissões. Consulte o [Capítulo 8: Configurações de distribuição](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) .
+- Selecione a licença Creative Commons que você usará em:
+Configurações > Distribuição > Permissões. Consulte o [Capítulo 8: Configurações de distribuição](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) .
 - Se desejar incorporar informações de licença para artigos, você deve adicioná-las a todos os arquivos em PDF que vocês carregou em submissões durante o estágio de Produção.
 
 **46) Em caso afirmativo, forneça uma URL para uma página como exemplo com informações de licença incorporadas**
@@ -284,32 +279,27 @@ Para maiores informações sobre o significado das perguntas, consulte [o Guia L
 **47) O periódico permite a reutilização e a recombinação de conteúdo conforme uma licença Creative Commons ou outro tipo de licença com condições semelhantes (selecione 'Outro')?** [**D**] [**S**]
 
 - As opções incluem:
-
-    - CC BY
-    - CC BY-NC
-    - CC BY-NC-ND
-    - CC BY-NC-SA
-    - CC BY-ND
-    - CC BY-SA
-    - Outros
+  - CC BY
+  - CC BY-NC
+  - CC BY-NC-ND
+  - CC BY-NC-SA
+  - CC BY-ND
+  - CC BY-SA
+  - Outros
 
 - Para maiores informações, consulte [a página sobre as licenças da Creative Commons](https://creativecommons.org/licenses/) .
-
 - Insira esta informação no OJS em Configurações de distribuição > Permissões > Licença. Consulte o [Capítulo 8: Configurações de distribuição](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) .
-
 - A licença que você selecionar aqui não será exibida automaticamente em seu site. Você pode adicioná-la à [página Sobre o Periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) , ao [rodapé do seu site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) ou em outro lugar.
-
 - Você também pode inserir informações de licença por artigo ao programar um artigo para publicação, as quais serão exibidas na página do artigo. Consulte o [Capítulo 14: Fluxo de trabalho editorial](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#scheduling-for-publication) .
-
 - Se você permitir mais de um tipo de licença CC, insira a licença **mais restritiva** em seu aplicativo DOAJ (apenas uma é permitida no formulário).
 
 **48) Qual dos seguintes conteúdos é necessário?** (Caso tenha sido selecionado  'Outro' no número 47)
 
 - Selecione todas as opções aplicáveis:
-    - Atribuição
-    - Não comercial
-    - Sem derivações
-    - Compartilha igual
+  - Atribuição
+  - Não comercial
+  - Sem derivações
+  - Compartilha igual
 
 **49) Insira a URL em seu site onde seus termos de licença são declarados** [ **D** ]
 
@@ -326,22 +316,23 @@ Para maiores informações sobre o significado das perguntas, consulte [o Guia L
 **51) Com qual diretório de políticas de depósito o periódico tem uma política de depósito registrada?** [ **S** ]
 
 - Selecione todas as opções aplicáveis:
+  - Nenhum
+  - Sherpa / Romeo
+  - Dulcinea
+  - Héloïse
+  - Diadorim
+  - Outro
 
-    - Nenhum
-    - Sherpa / Romeo
-    - Dulcinea
-    - Héloïse
-    - Diadorim
-    - Outro
-
-- No OJS, insira a política de autoarquivamento do autor do periódico em: Configurações> Distribuição> Permissões
+- No OJS, insira a política de autoarquivamento do autor do periódico em:
+Configurações> Distribuição> Permissões
 
 ### Direitos Autorais e Permissões
 
 **52) O periódico permite que o(s) autor(es) detenham os direitos autorais sem restrições?** [ **S** ]
 
 - Selecione "Sim" ou "Não".
-- No OJS, você pode selecionar o detentor dos direitos autorais designados para os metadados do artigo como autor, periódico ou outro. Para selecionar o autor como o detentor dos direitos autorais designado, clique em: Configurações > Distribuição > Permissões
+- No OJS, você pode selecionar o detentor dos direitos autorais designados para os metadados do artigo como autor, periódico ou outro. Para selecionar o autor como o detentor dos direitos autorais designado, clique em:
+Configurações > Distribuição > Permissões
 
 **53) Insira a URL onde esta informação pode ser encontrada**
 
@@ -357,13 +348,13 @@ Para maiores informações sobre o significado das perguntas, consulte [o Guia L
 
 - Para fornecer um link para a sua declaração, você pode adicioná-la na página Sobre o periódico, em Configurações do periódico > Equipe Editorial > Sobre o periódico. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
 
-<hr>
+<hr />
 
 [ **D** ] Este é um requisito básico para i ingresso no DOAJ
 
 [ **S** ] Este é um requisito do selo DOAJ
 
-## SELO DOAJ<br>****
+## SELO DOAJ
 
 Para periódicos que seguem as melhores práticas de publicação em Acesso Aberto.
 
@@ -373,7 +364,8 @@ Durante o processo de candidatura, você pode receber o Selo DOAJ se estes 7 cri
 
 O Selo DOAJ busca verificar como o periódico pode garantir a disponibilidade a longo prazo e a preservação do conteúdo publicado futuramente. O DOAJ aceitará alguns fornecedores de serviços de preservação (por exemplo, LOCKSS / CLOCKSS. Portico, PubMed Central), bem como algumas bibliotecas nacionais (por exemplo, Biblioteca Britânica, Biblioteca do Congresso). Lembre-se que servidores e repositórios institucionais não se qualificam como preservação arquivística de longo prazo.
 
-Se você é um membro do LOCKSS ou CLOCKSS, habilite-o aqui: Configurações > Site > Arquivamento
+Se você é um membro do LOCKSS ou CLOCKSS, habilite-o aqui:
+Configurações > Site > Arquivamento
 
 Para maiores informações, consulte o [Capítulo 6: Configurações do site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving).
 
@@ -399,7 +391,8 @@ Para maiores informações, consulte o [Guia do Administrador PKP](https://docs.
 
 Para garantir que os leitores (usuários) saibam e compreendam o que eles têm permissão para fazer com o conteúdo, as informações da licença devem ser incorporadas em cada artigo publicado, em todos os meios de publicação - por exemplo, na página do artigo em HTML, na versão XML / metadados e em PDF.
 
-***** OJS oferece as opções de licença Creative Commons que são aceitas pelo selo DOAJ: CC BY, CC BY-SA, CC BY-NC ou CC BY-NC-SA. Esta licença será incorporada nos metadados dos itens publicados e exibida no site. Selecione a licença Creative Commons que será utilizada em Configurações > Distribuição > Permissões
+***** OJS oferece as opções de licença Creative Commons que são aceitas pelo selo DOAJ: CC BY, CC BY-SA, CC BY-NC ou CC BY-NC-SA. Esta licença será incorporada nos metadados dos itens publicados e exibida no site.
+Selecione a licença Creative Commons que será utilizada em Configurações > Distribuição > Permissões
 
 Para maiores informações, consulte o [Capítulo 8: Configurações de distribuição](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
 
@@ -415,7 +408,7 @@ No OJS, selecione a licença Creative Commons a ser utilizada em Configurações
 
 Fornece informações sobre os direitos de autoarquivamento dos autores em uma declaração esclarecendo aos autores quais são seus direitos para autoarquivamento, que deve abranger seus direitos de autoarquivo preprint, versões aceitas e finais do artigo do editor, geralmente em locais como seu próprio site ou repositório institucional. O DOAJ exige que uma política seja listada para um periódico e verifica qual política está listada para o periódico em serviços como [SHERPA / RoMEO](https://v2.sherpa.ac.uk/romeo/).
 
- Insira, no OJS, a Política de Autoarquivamento do Autor do periódico em Configurações > Distribuição > Permissões
+Insira, no OJS, a Política de Autoarquivamento do Autor do periódico em Configurações > Distribuição > Permissões
 
 **7. Os autores detêm direitos autorais e direitos de publicação irrestritos.** (Pergunta 52)
 
@@ -429,4 +422,4 @@ Se o OJS 2 foi atualizado para o OJS 3 após o aceite no DOAJ, será necessário
 
 - Verifique se as informações exigidas do periódico na candidatura ainda estão presentes no site do seu periódico e nos mesmos locais. As informações sobre o periódico estão incluídas em diferentes páginas no OJS 2 e no OJS 3.
 - Envie uma solicitação de atualização para DOAJ em que as URLs da página foram alteradas (por exemplo, Sobre, Contato, etc.).
-- Se você envia metadados de artigos para o DOAJ, verifique se [o plugin de exportação para DOAJ ](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export) está ativado e a chave API foi inserida.
+- Se você envia metadados de artigos para o DOAJ, verifique se [o plugin de exportação para DOAJ](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export) está ativado e a chave API foi inserida.
