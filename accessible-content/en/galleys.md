@@ -37,7 +37,7 @@ PDF is the most common format for publishing articles, but can present a number 
 
 #### 1 - Ensure the source document is accessible
 
-Follow the [General Principles](./principles.md) to create the source document with accessibility in mind. If you are using MS Word, use the [Accessibility Checker to validate it.](./galleys.md#how-to-check-an-ms-word-document-for-accessibility)
+Follow the [General Principles](./principles.md) to create the source document with accessibility in mind. If you are using MS Word, use the [Accessibility Checker to validate it.](#how-to-check-an-ms-word-document-for-accessibility)
 
 #### 2 - Convert the document into PDF
 
@@ -77,13 +77,13 @@ If you are creating a document from MS Word, start by checking accessibility usi
 
 After the document has been converted to PDF, it’s a good idea to check that accessibility features are preserved and nothing has been lost. This includes checking that tags are present and the reading order is correct for a screen reader.
 
-This process requires Adobe Acrobat Pro and is described in detail in [WebAim’s PDF Accessibility Guide.](https://webaim.org/techniques/acrobat/acrobat)
+This process requires Adobe Acrobat Pro and is described in detail in [WebAim’s PDF Accessibility Guide](https://webaim.org/techniques/acrobat/acrobat).
 
 #### 4 - Remediate a PDF document
 
 If you receive a PDF that is untagged, or where the tag structure is incomplete or incorrect, it is usually best to return to the source document, make the necessary accessibility repairs, and then re-create the PDF. If the source document is unavailable, you can use Acrobat to convert a PDF back to a Word, Excel, or PowerPoint file. Select File > Export To, then choose your desired format.
 
-Remediating a document in PDF requires Adobe Acrobat Pro. For more details see the [WebAim’s PDF Accessibility Guide.](https://webaim.org/techniques/acrobat/acrobat)
+Remediating a document in PDF requires Adobe Acrobat Pro. For more details see the [WebAim’s PDF Accessibility Guide](https://webaim.org/techniques/acrobat/acrobat).
 
 ### HTML
 
