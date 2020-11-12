@@ -37,7 +37,7 @@ O PDF é o formato mais comum para publicação de artigos, mas pode apresentar 
 
 #### 1 - Certifique-se de que o documento de origem seja acessível
 
-Siga os [Princípios Gerais](./principles.md) para criar o documento de origem com acessibilidade em mente. Se você estiver usando o MS Word, use o [Verificador de Acessibilidade para validá-lo.](./galleys.md#how-to-check-an-ms-word-document-for-accessibility)
+Siga os [Princípios Gerais](./principles.md) para criar o documento de origem com acessibilidade em mente. Se você estiver usando o MS Word, use o [Verificador de Acessibilidade para validá-lo.](#como-verificar-a-acessibilidade-de-um-documento-do-ms-word)
 
 #### 2 - Converta o documento para PDF
 
@@ -45,23 +45,27 @@ O método escolhido para exportar o Documento Word para PDF afetará a preserva�
 
 ##### Método recomendado (exige o Adobe Acrobat Pro)
 
-Exporte seu documento do Word usando “Criar PDF” a partir de um arquivo no Adobe Acrobat Pro. Abra Adobe Acrobat Pro> Arquivo> Criar> PDF do arquivo> Selecione o documento desejado para converter. <img>
+Exporte seu documento do Word usando “Criar PDF” a partir de um arquivo no Adobe Acrobat Pro. Abra Adobe Acrobat Pro> Arquivo> Criar> PDF do arquivo> Selecione o documento desejado para converter.
 
-Caso esteja criando um documento por meio da aba Acrobat no MS Office, certifique-se de <strong>Marcas estruturais do documento para acessibilidade</strong> está habilitado.
+![Screenshot of Acrobat Pro DC menu option to create PDF from file.](./assets/9_a11y-guide-create-pdf-pro1.png)
 
-Se você estiver criando um documento por meio da guia Acrobat no MS Office, verifique se a opção **Ativar acessibilidade e refluxo com marcações do Adobe PDF** está habilitado.
+Caso esteja criando um documento por meio da aba Acrobat no MS Office, certifique-se de **Marcas estruturais do documento para acessibilidade** está habilitado.
 
-Salve seu documento do Word como PDF usando a função “Salvar como”. Isso pode não preservar todos os recursos de acessibilidade, como marcação, portanto, por isso é melhor usar o Acrobat Pro, se estiver disponível.
+![Screenshot of Acrobat PDFMaker with the checked checkbox to Enable Accessibility and Reflow with tagged Adobe PDF](./assets/10_a11y-guide-create-pdf-pro2.png)
 
 ##### Próximo melhor método (não requer Adobe Acrobat Pro)
 
 Salve seu documento do Word como PDF usando a função “Salvar como”. Isso pode não preservar todos os recursos de acessibilidade, como marcações, portanto, é melhor usar o Acrobat Pro, caso esteja disponível.
 
-No Windows: Selecione **Arquivo> Salvar como**. Selecione “PDF” da lista de arquivos suspensos. Clique em “Opções” e certifique-se de que a opção **“Marcas estruturais do documento para acessibilidade”** esteja habilitada e salve o arquivo.
+No Windows:
+Selecione **Arquivo> Salvar como**. Selecione “PDF” da lista de arquivos suspensos.
+Clique em “Opções” e certifique-se de que a opção **“Marcas estruturais do documento para acessibilidade”** esteja habilitada e salve o arquivo.
 
 ![Captura de tela da opção de salvar arquivo do MS Word no Windows com a caixa de seleção Marcações da estrutura do documento para acessibilidade](./assets/11_a11y-guide-saveas-pdf1.png)
 
-No Mac: Abra o menu do aplicativo **Arquivo** e selecione **Salvar como ...** Em **Formato de arquivo**, selecione “PDF”. Em seguida, escolha a opção **Melhor para distribuição eletrônica e acessibilidade** (**usa o serviço on-line da Microsoft**) e, em seguida, **Exportar**.
+No Mac:
+Abra o menu do aplicativo **Arquivo** e selecione **Salvar como ...**
+Em **Formato de arquivo**, selecione “PDF”. Em seguida, escolha a opção **Melhor para distribuição eletrônica e acessibilidade** (**usa o serviço on-line da Microsoft**) e, em seguida, **Exportar**.
 
 ![Screenshot of the MS Word on Mac file save option in PDF with the checked checkbox Best for electronic distribution and accessibility](./assets/12_a11y-guide-saveas-pdf2.png)
 
@@ -69,7 +73,7 @@ No Mac: Abra o menu do aplicativo **Arquivo** e selecione **Salvar como ...** Em
 
 #### 3 - Verifique a acessibilidade de um documento PDF
 
-Se estiver criando um documento no MS Word, comece verificando a acessibilidade usando o [Verificador de Acessibilidade do MS Word](./galleys.md#how-to-check-an-ms-word-document-for-accessibility).
+Se estiver criando um documento no MS Word, comece verificando a acessibilidade usando o [Verificador de Acessibilidade do MS Word](#como-verificar-a-acessibilidade-de-um-documento-do-ms-word).
 
 Após a conversão do documento para PDF, é importante verificar se os recursos de acessibilidade foram preservados e nada foi perdido. Isso inclui verificar se as marcas estruturais estão presentes e se a ordem de leitura está correta para um leitor de tela.
 
@@ -83,7 +87,7 @@ A correção de um documento em PDF requer o Adobe Acrobat Pro. Para mais detalh
 
 ### HTML
 
-HTML é outro formato popular de publicação usado por editores. Ele oferece mais flexibilidade que o PDF para se ajustar a diferentes tamanhos de tela e permitir o uso de multimídia. Tem o potencial de ser mais acessível que o PDF, desde que o documento siga os [princípios gerais de criação de conteúdo acessível](./principles.md#headings-structure), como cabeçalhos estruturados, uso de texto alternativo etc.
+HTML é outro formato popular de publicação usado por editores. Ele oferece mais flexibilidade que o PDF para se ajustar a diferentes tamanhos de tela e permitir o uso de multimídia. Tem o potencial de ser mais acessível que o PDF, desde que o documento siga os [princípios gerais de criação de conteúdo acessível](./principles.md#strutura-de-cabeçalhos-de-seções), como cabeçalhos estruturados, uso de texto alternativo etc.
 
 Para instruções sobre como criar e aplicar formatação acessível em documentos HTML, adicionar conteúdo multimídia e enviar composições HTML para publicação no OJS, consulte [Aprendendo o OJS 3 - Capítulo 15: Produção e publicação - Documentos HTML](/learning-ojs/en/production-publication#html-files).
 

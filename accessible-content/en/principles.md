@@ -303,11 +303,11 @@ Below are some examples for description lists:
 
 > <dl>
 > 	<dt>Authors</dt>
->		<dd>John</dd>
->		<dd>Kevin</dd>
->		<dd>Juan</dd>
->	<dt>Editor</dt>
->		<dd>James</dd>
+>		  <dd>John</dd>
+>		  <dd>Kevin</dd>
+>		  <dd>Juan</dd>
+>	  <dt>Editor</dt>
+>		  <dd>James</dd>
 > </dl>
 
 **Multiple terms, one description**:
@@ -323,9 +323,9 @@ Below are some examples for description lists:
 **Rendered**
 
 > <dl>
->     <dt>OJS</dt>
->     <dt>OMP</dt>
->         <dd>Publishing software platforms developed by PKP.</dd>
+>   <dt>OJS</dt>
+>   <dt>OMP</dt>
+>     <dd>Publishing software platforms developed by PKP.</dd>
 > </dl>
 
 **Multiple terms, multiple descriptions**:

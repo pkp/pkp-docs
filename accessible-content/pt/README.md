@@ -4,7 +4,7 @@ O guia "Como criar conteúdo acessível" contempla os princípios gerais da prod
 
 Este guia será útil para autores na preparação de seus manuscritos e para editores na formatação de materiais para publicação e inclusão de conteúdo em sites de periódicos.
 
-<hr>
+<hr />
 
 Direito autoral: A Simon Fraser University detém os direitos autorais do trabalho produzido pelo Public Knowledge Project e colocou sua documentação sob uma [Licença Internacional Creative Commons Atribuição 4.0](https://creativecommons.org/licenses/by/4.0/).
 

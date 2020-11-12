@@ -42,7 +42,7 @@ Apresentamos a seguir uma lista não extensa de recursos adicionais sobre a cria
 
 - [Web Accessibility in Mind (WebAIM) .ORG](https://webaim.org/techniques/css/invisiblecontent/) - Apresenta técnicas para criar conteúdo acessível à tecnologia de leitor de tela, mantendo-o oculto para usuários com boa visão, caso seja necessário.
 
-- [Usabilidade e acessibilidade da Web da Universidade Yale ](https://usability.yale.edu/web-accessibility/articles/images) - explica como as pessoas com deficiência interagem com as imagens e como torná-las acessíveis.
+- [Usabilidade e acessibilidade da Web da Universidade Yale](https://usability.yale.edu/web-accessibility/articles/images) - explica como as pessoas com deficiência interagem com as imagens e como torná-las acessíveis.
 
 - [Tabelas / Base de Conhecimento de Publicação Acessível](https://kb.daisy.org/publishing/docs/html/tables.html) - explica como criar tabelas de dados html acessíveis, já que “a marcação e descrição corretas das tabelas de dados simplificam o acesso e a compreensão para usuários que não podem ver os dados ou precisam de ajuda adicional para entendê-los”.
 

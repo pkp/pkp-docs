@@ -8,17 +8,17 @@ Alt text (“texto alternativo”) é uma marcação (tag) legível por máquina
 
 - Nem todas as imagens precisam de texto alternativo. Caso uma imagem seja informativa ou decorativa, será necessário incluir texto alternativo que também forneça contexto para a imagem.
 - Exemplos de imagens consideradas informativas:
-    - **Imagens que são links ou botões**
-        - Imagens clicáveis devem ter um texto alternativo ou fazer parte de uma área interativa que inclua uma descrição ou contexto para a imagem. Deve dar pistas sobre o que acontecerá ao clicar no link;
-        - Caso não haja texto explicativo ao redor da imagem, será necessário o texto alternativo.
-    - **Imagens que contêm texto importante**
-        - Logotipos
-            - O texto alternativo para o logotipo de uma empresa ou organização no cabeçalho deve ser o nome da empresa ou organização. Inclua texto alternativo adicional para o destino do link. Por exemplo, o logotipo do UserTesting pode apresentar o texto alternativo “UserTestin - Início”.
-            - A descrição de uma imagem também pode ser apresentada abaixo da imagem como uma “legenda”.
+  - **Imagens que são links ou botões**
+    - Imagens clicáveis devem ter um texto alternativo ou fazer parte de uma área interativa que inclua uma descrição ou contexto para a imagem. Deve dar pistas sobre o que acontecerá ao clicar no link;
+    - Caso não haja texto explicativo ao redor da imagem, será necessário o texto alternativo.
+  - **Imagens que contêm texto importante**
+    - Logotipos
+      - O texto alternativo para o logotipo de uma empresa ou organização no cabeçalho deve ser o nome da empresa ou organização. Inclua texto alternativo adicional para o destino do link. Por exemplo, o logotipo do UserTesting pode apresentar o texto alternativo “UserTestin - Início”.
+      - A descrição de uma imagem também pode ser apresentada abaixo da imagem como uma “legenda”.
 - Exemplos de imagens consideradas decorativas:
-    - Usada para fins estéticos (melhorias visuais, decorações, enfeites);
-    - Não oferece informação relevante;
-    - Não tem função além da estética.
+  - Usada para fins estéticos (melhorias visuais, decorações, enfeites);
+  - Não oferece informação relevante;
+  - Não tem função além da estética.
 
 ### Como escrever texto alternativo para imagens
 
@@ -26,38 +26,38 @@ Alt text (“texto alternativo”) é uma marcação (tag) legível por máquina
 - Todo texto alternativo deve terminar com “.” para que o leitor de tela faça uma pausa após a leitura.
 - As imagens de capa da edição e do artigo devem apresentar texto alternativo.
 - Dicas na imagem sobre as quais escrever no texto alternativo:
-    - O posicionamento de objetos na imagem;
-    - Tipo de imagem (por exemplo, pintura, gráfico);
-    - Cores;
-    - Nomes de pessoas na imagem;
-    - Roupas, se forem detalhes importantes;
-    - Animais;
-    - O posicionamento do texto na imagem;
-    - Emoções (por exemplo, sorrindo);
-    - Arredores.
+  - O posicionamento de objetos na imagem;
+  - Tipo de imagem (por exemplo, pintura, gráfico);
+  - Cores;
+  - Nomes de pessoas na imagem;
+  - Roupas, se forem detalhes importantes;
+  - Animais;
+  - O posicionamento do texto na imagem;
+  - Emoções (por exemplo, sorrindo);
+  - Arredores.
 - Descrições de imagens que podem ser omitidas:
-    - Descrição das cores;
-    - Detalhes óbvios, como o fato de uma pessoa ter dois olhos, um nariz e uma boca;
-    - Detalhes que não são o foco da imagem;
-    - Descrições excessivamente poéticas e detalhadas;
-    - Emojis.
+  - Descrição das cores;
+  - Detalhes óbvios, como o fato de uma pessoa ter dois olhos, um nariz e uma boca;
+  - Detalhes que não são o foco da imagem;
+  - Descrições excessivamente poéticas e detalhadas;
+  - Emojis.
 
 ### Ícones
 
 - Os ícones seguem os mesmos princípios; são informativos ou decorativos?
-    - Existe texto diretamente ao lado do ícone?
-    - Se houver texto, ele descreve para que serve o ícone?
-    - Se o ícone for um link ou um botão, o que acontece quando ele é clicado ou ativado? Onde isso leva o leitor?
+  - Existe texto diretamente ao lado do ícone?
+  - Se houver texto, ele descreve para que serve o ícone?
+  - Se o ícone for um link ou um botão, o que acontece quando ele é clicado ou ativado? Onde isso leva o leitor?
 
 ### Imagens complexas
 
 - Imagens complexas contêm informações substanciais, por exemplo:
-    - Gráficos ou diagramas (por exemplo, fluxogramas, organogramas);
-    - Ilustrações ou diagramas;
-    - Mapas ou outras imagens geográficas ou topográficas.
+  - Gráficos ou diagramas (por exemplo, fluxogramas, organogramas);
+  - Ilustrações ou diagramas;
+  - Mapas ou outras imagens geográficas ou topográficas.
 - A alternativa recomendada para escrever sobre imagens complexas é escrever uma descrição curta e uma longa:
-    - A descrição curta em texto alternativo primeiro identifica a imagem e, em seguida, indica a localização da descrição longa. Por exemplo, `alt="Gráfico trimestral de alterações climáticas. Discussão disponível abaixo."`.
-    - A longa descrição na página contém as informações essenciais transmitidas pela imagem.
+  - A descrição curta em texto alternativo primeiro identifica a imagem e, em seguida, indica a localização da descrição longa. Por exemplo, `alt="Gráfico trimestral de alterações climáticas. Discussão disponível abaixo."`.
+  - A longa descrição na página contém as informações essenciais transmitidas pela imagem.
 
 ### Posicionamento de imagem para leitores de tela
 
@@ -92,7 +92,7 @@ Ao criar conteúdo de áudio e vídeo, é fundamental garantir que seja acessív
 
     Ao produzir um vídeo, a necessidade de descrições de áudio pode muitas vezes ser evitada descrevendo ou apresentando o conteúdo visual por meio de áudio falado. Por exemplo, em vez de dizer “clique aqui e depois aqui”, pode-se dizer “clique em Arquivo e depois em Salvar”, transmitindo conteúdo visual por meio de áudio.
 
-- **Interpretação de linguagem de sinais**. Embora as legendas ou transcrições forneçam uma alternativa adequada para usuários com deficiências auditivas que se sentem confortáveis com a leitura da linguagem escrita, elas podem não ser suficientes para usuários surdos que dependem da linguagem de sinais como sua principal (ou única) língua de comunicação. Neste caso, uma alternativa pode ser fornecida por meio da interpretação em linguagem de sinais ou outras ferramentas descritas na seção [Acessibilidade para usuários de linguagem de sinais](#accessibility-for-sign-language-users).
+- **Interpretação de linguagem de sinais**. Embora as legendas ou transcrições forneçam uma alternativa adequada para usuários com deficiências auditivas que se sentem confortáveis com a leitura da linguagem escrita, elas podem não ser suficientes para usuários surdos que dependem da linguagem de sinais como sua principal (ou única) língua de comunicação. Neste caso, uma alternativa pode ser fornecida por meio da interpretação em linguagem de sinais ou outras ferramentas descritas na seção [Acessibilidade para usuários de linguagem de sinais](#acessibilidade-para-usuários-de-língua-de-sinais).
 
 ## Hiperlinks acessíveis
 
@@ -122,7 +122,7 @@ A cor do texto contra o fundo pode parecer suficientemente distinta para um leit
 
 Use o [Verificador de Contraste da WebAim](https://webaim.org/resources/contrastchecker/), [Verificador de Taxa de Contraste](https://contrast-ratio.com/), ou o [Analisador de Contraste de Cores](https://developer.paciellogroup.com/resources/contrastanalyser/) para verificar a taxa de contraste entre as cores de fundo e do texto em suas páginas. Apresentamos a seguir um exemplo usando o [Verificador de Contraste da WebAim](https://webaim.org/resources/contrastchecker/):
 
-Exemplo das opções de interface do Verificador de Contraste de Cores da WebAim
+![Exemplo das opções de interface do Verificador de Contraste de Cores da WebAim.](./assets/1_a11y-guide-webaim-contrast-checker.png)
 
 *Exemplo de opções de interface do Verificador de contraste de cores do WebAim*
 
@@ -186,11 +186,22 @@ Deve-se usar **apenas um título** `<h1>` por documento, pois é o título do do
 
 O exemplo a seguir mostra a estrutura de um artigo com cabçalhos de seção onde o *Título do artigo* é o nível mais alto e a informação mais importante na estrutura.
 
-> (h1) *Título do artigo*<br> (h2) Resumo<br> (h2) Introdução<br> (h3) Fundamentação teórica<br> (h2) Métodos<br> (h2) Conclusão
+> (h1) *Título do artigo*  
+(h2) Resumo  
+(h2) Introdução  
+(h3) Fundamentação teórica  
+(h2) Métodos  
+(h2) Conclusão  
 
 O exemplo a seguir demonstra como aninhar seções, com o nível mais baixo fechando a seção anterior. Neste exemplo, o "(h4) Plano de fundo por região" fecha a seção "(h2) Introdução" e está de acordo em termos de acessibilidade.
 
-> (h1) Título do artigo<br> (h2) Resumo<br> (h2) Introdução<br> (h3) Fundamentação teórica<br> (h4) **Histórico por região**<br> (h2) Métodos<br> (h2) Conclusão
+> (h1) Título do artigo  
+(h2) Resumo  
+(h2) Introdução  
+(h3) Fundamentação teórica  
+(h4) **Histórico por região**  
+(h2) Métodos  
+(h2) Conclusão  
 
 ### Documentos de texto
 
@@ -268,9 +279,12 @@ Esta lista é codificada usando `<ol>` para o elemento principal e `<li>` para c
 
 ### Lista descritiva (lista de definições)
 
-Uma lista descritiva consiste em agrupar termos e suas descrições. É possível associar um ou mais termos a uma ou mais descrições dos termos. A marcação para listas de descrição inclui a marca `<dl>` para o início da lista, a marca `<dt>` para o(s) termo(s) e a marca `<dd>` para a(s) descrição(ões). Um termo pode ser agrupado em mais de uma descrição. Da mesma forma, um ou mais termos podem ser agrupados com uma descrição. Muitos termos para muitas descrições também são aceitáveis.
+Uma lista descritiva consiste em agrupar termos e suas descrições. É possível associar um ou mais termos a uma ou mais descrições dos termos.
+A marcação para listas de descrição inclui a marca `<dl>` para o início da lista, a marca `<dt>` para o(s) termo(s) e a marca `<dd>` para a(s) descrição(ões).
+Um termo pode ser agrupado em mais de uma descrição. Da mesma forma, um ou mais termos podem ser agrupados com uma descrição. Muitos termos para muitas descrições também são aceitáveis.
 
-Leitores de tela anunciarão o número de termos, bem como as descrições. A seguir apresentamos alguns exemplos de listas descritivas:
+Leitores de tela anunciarão o número de termos, bem como as descrições.
+A seguir apresentamos alguns exemplos de listas descritivas:
 
 **Um termo, várias descrições**:
 
@@ -309,9 +323,9 @@ Leitores de tela anunciarão o número de termos, bem como as descrições. A se
 **Renderizado**
 
 > <dl>
->     <dt>OJS</dt>
->     <dt>OMP</dt>
->         <dd>Plataformas de software para publicações desenvolvidas pelo PKP.</dd>
+>   <dt>OJS</dt>
+>   <dt>OMP</dt>
+>     <dd>Plataformas de software para publicações desenvolvidas pelo PKP.</dd>
 > </dl>
 
 **Vários termos, várias descrições**:
@@ -412,12 +426,14 @@ A seguir apresentamos um exemplo de uma tabela com seus elementos conforme descr
 
 *Exemplo de tabela com: Legenda/Resumo, Cabeçalho, Corpo e Rodapé (resumindo) - Fonte: [https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced)*
 
-Para documentos HTML as tags a seguir são usadas para definir a estrutura principal de uma tabela: `<table>`, `<thead>`, `<tbody>` e `<tfoot>`. Os últimos 3 elementos são sempre envoltos por uma tag `<table>`. Informações técnica mais detalhadas sobre como produzir tableas HTML para pessoas com deficiência visual estão disponíveis nos [Documentos Web da Mozilla](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#Tables_for_visually_impaired_users). Para [criar tabelas acessíveis no Microsoft Word](https://kb.iu.edu/d/aqjl):
+Para documentos HTML as tags a seguir são usadas para definir a estrutura principal de uma tabela: `<table>`, `<thead>`, `<tbody>` e `<tfoot>`. Os últimos 3 elementos são sempre envoltos por uma tag `<table>`. Informações técnica mais detalhadas sobre como produzir tableas HTML para pessoas com deficiência visual estão disponíveis nos [Documentos Web da Mozilla](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#Tables_for_visually_impaired_users).
+
+Para [criar tabelas acessíveis no Microsoft Word](https://kb.iu.edu/d/aqjl):
 
 - Certifique-se que "Linha de Cabeçalho" e "Primeira Coluna" estão marcadas (caixa de seleção marcada);
 - Repita colunas de títulos onde uma tabela se estende por várias páginas;
 - Inclua texto alternativo nas propriedades da tabela;
-- Escolha a formatação da tabela que atenda aos [requisitos de contraste WCAG](#contrast-and-colour-reliance).
+- Escolha a formatação da tabela que atenda aos [requisitos de contraste WCAG](#contraste-e-dependência-de-cores).
 
 ## Metadados do documento
 
@@ -435,18 +451,37 @@ Incluir metadados ao documento aumenta sua capacidade de ser pesquisável. Tamb�
 Para adicionar ou modificar o título, autor ou assunto de um documento do MS Office, navegue até:
 
 - Windows: Arquivo > Informações > Propriedades
-- Mac: Arquivo > Propriedades > Resumo A inclusão das seguintes informações no MS Word deve ser transferida para o PDF na conversão:
+- Mac: Arquivo > Propriedades > Resumo
+
+A inclusão das seguintes informações no MS Word deve ser transferida para o PDF na conversão:
+
 - “Título”, que corresponde a “Título do Documento” no arquivo PDF
 - “Assunto”, que corresponde a “Descrição” no arquivo PDF
 - “Autor”, que corresponde a “Autor” no arquivo PDF
-- “Tags”, que corresponde a “Palavras-chave” no arquivo PDF *Nota sobre o uso de letras maiúsculas nos títulos* Se sua disciplina frequentemente exibe títulos de artigos em maiúsculas, evite inserir os títulos em maiúsculas manualmente, pois os leitores de tela podem ler isto como um acrônimo em vez de um título. Em vez disso, o título e o subtítulo devem ser inseridos com caracteres maiúsculos e minúsculos, por exemplo, “O problema do bonde das mudanças climáticas”, e então colocados em maiúsculas na folha de estilo de sua publicação. Isso também garantirá que o título seja disponibilizado em sua forma original para indexadores downstream como Crossref e Google Acadêmico.
+- “Tags”, que corresponde a “Palavras-chave” no arquivo PDF
+
+*Nota sobre o uso de letras maiúsculas nos títulos*
+
+Se sua disciplina frequentemente exibe títulos de artigos em maiúsculas, evite inserir os títulos em maiúsculas manualmente, pois os leitores de tela podem ler isto como um acrônimo em vez de um título. Em vez disso, o título e o subtítulo devem ser inseridos com caracteres maiúsculos e minúsculos, por exemplo, “O problema do bonde das mudanças climáticas”, e então colocados em maiúsculas na folha de estilo de sua publicação. Isso também garantirá que o título seja disponibilizado em sua forma original para indexadores downstream como Crossref e Google Acadêmico.
 
 ### Língua
 
-Um leitor de tela que oferece suporte a vários idiomas dependerá da tag de idioma das páginas da web para saber em qual idioma lê-lo. Caso use o OJS com vários idiomas, certifique-se de usar a localidade de idioma adequada para esse idioma (por exemplo, localidade francesa para o idioma francês), pois a localidade determina a tag de idioma da página. Além disso, caso publique as composições em PDF, poderá definir a tag de idioma do documento da seguinte maneira:
+Um leitor de tela que oferece suporte a vários idiomas dependerá da tag de idioma das páginas da web para saber em qual idioma lê-lo. Caso use o OJS com vários idiomas, certifique-se de usar a localidade de idioma adequada para esse idioma (por exemplo, localidade francesa para o idioma francês), pois a localidade determina a tag de idioma da página.
+
+Além disso, caso publique as composições em PDF, poderá definir a tag de idioma do documento da seguinte maneira:
 
 1. Abra a caixa de diálogo Propriedades do documento: Escolha Arquivo > Propriedades
-2. Selecione um idioma no menu Idioma na área Opções de leitura da guia Avançado. Caso publique composições em HTML ou XML, é uma prática recomendada definir o lang, atributo de idioma global, como o elemento raiz de cada documento. Isso declara o idioma de toda a composição e ajuda as tecnologias assistivas a determinar como pronunciar as palavras. Também ajuda os mecanismos de pesquisa e navegadores da Web. Você também pode adicionar o atributo de idioma a elementos específicos, quando o idioma muda no meio do documento. Por exemplo, um documento em inglês pode citar um parágrafo em francês. Em HTML: `<p lang="fr">Ceci est un paragraphe.</p>` Em XML:
+2. Selecione um idioma no menu Idioma na área Opções de leitura da guia Avançado.
+
+Caso publique composições em HTML ou XML, é uma prática recomendada definir o lang, atributo de idioma global, como o elemento raiz de cada documento. Isso declara o idioma de toda a composição e ajuda as tecnologias assistivas a determinar como pronunciar as palavras. Também ajuda os mecanismos de pesquisa e navegadores da Web.
+
+Você também pode adicionar o atributo de idioma a elementos específicos, quando o idioma muda no meio do documento. Por exemplo, um documento em inglês pode citar um parágrafo em francês.
+
+Em HTML:
+
+`<p lang="fr">Ceci est un paragraphe.</p>`
+
+Em XML:
 
 ```html
 <section id="test" xml:lang="fr">
@@ -461,4 +496,6 @@ Para algumas pessoas com deficiência auditiva, a linguagem de sinais pode ser a
 
 - Apresente as informações por meio de vídeo acompanhado de interpretação em língua de sinais - ver por exemplo a [Revista Brasileira de Vídeo-Registros em Libras](https://revistabrasileiravrlibras.paginas.ufsc.br/);
 - Inclua a interpretação automatizada de linguagem de sinais por um avatar virtual de linguagem de sinais ao site - ver por exemplo [VLibras](https://www.vlibras.gov.br/) para a Linguagem de Sinais portuguesa Libras;
-- Use texto mais simples complementado por imagens, gráficos e outras ilustrações. Use a escrita de sinais, quando disponível, para a língua de sinais de seu país. Para obter mais recursos, consulte o [site SignWriting da Sutton](https://www.signwriting.org/).
+- Use texto mais simples complementado por imagens, gráficos e outras ilustrações.
+
+Use a escrita de sinais, quando disponível, para a língua de sinais de seu país. Para obter mais recursos, consulte o [site SignWriting da Sutton](https://www.signwriting.org/).
