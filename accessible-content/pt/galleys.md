@@ -47,11 +47,11 @@ O método escolhido para exportar o Documento Word para PDF afetará a preserva�
 
 Exporte seu documento do Word usando “Criar PDF” a partir de um arquivo no Adobe Acrobat Pro. Abra Adobe Acrobat Pro> Arquivo> Criar> PDF do arquivo> Selecione o documento desejado para converter.
 
-![Screenshot of Acrobat Pro DC menu option to create PDF from file.](./assets/9_a11y-guide-create-pdf-pro1.png)
+![Tela do menu de opções do Acrobat Pro DC para gerar um PDF a partir de um arquivo.](./assets/9_a11y-guide-create-pdf-pro1.png)
 
 Caso esteja criando um documento por meio da aba Acrobat no MS Office, certifique-se de **Marcas estruturais do documento para acessibilidade** está habilitado.
 
-![Screenshot of Acrobat PDFMaker with the checked checkbox to Enable Accessibility and Reflow with tagged Adobe PDF](./assets/10_a11y-guide-create-pdf-pro2.png)
+![Tela do Acrobat PDFMaker com a opção marcada para Habilitar a Acessibilidade e Formatação com Adobe PDF marcado](./assets/10_a11y-guide-create-pdf-pro2.png)
 
 ##### Próximo melhor método (não requer Adobe Acrobat Pro)
 
@@ -61,13 +61,13 @@ No Windows:
 Selecione **Arquivo> Salvar como**. Selecione “PDF” da lista de arquivos suspensos.
 Clique em “Opções” e certifique-se de que a opção **“Marcas estruturais do documento para acessibilidade”** esteja habilitada e salve o arquivo.
 
-![Captura de tela da opção de salvar arquivo do MS Word no Windows com a caixa de seleção Marcações da estrutura do documento para acessibilidade](./assets/11_a11y-guide-saveas-pdf1.png)
+![Tela de opções para salvar arquivo do MS Word no Windows com a opção de Marcas de estrutura de documento para acessibilidade marcada.](./assets/11_a11y-guide-saveas-pdf1.png)
 
 No Mac:
 Abra o menu do aplicativo **Arquivo** e selecione **Salvar como ...**
 Em **Formato de arquivo**, selecione “PDF”. Em seguida, escolha a opção **Melhor para distribuição eletrônica e acessibilidade** (**usa o serviço on-line da Microsoft**) e, em seguida, **Exportar**.
 
-![Screenshot of the MS Word on Mac file save option in PDF with the checked checkbox Best for electronic distribution and accessibility](./assets/12_a11y-guide-saveas-pdf2.png)
+![Tela de opções para salvar arquivo do MS Word no Windows com a opção de Marcas de estrutura de documento para acessibilidade marcada.](./assets/12_a11y-guide-saveas-pdf2.png)
 
 **IMPORTANTE** : **Nunca use “Imprimir para PDF”** ao exportar um documento do Word para PDF. Um usuário de leitor de tela ainda pode acessar o texto de um PDF criado dessa maneira, mas a estrutura do título, o texto alternativo e qualquer outra marca estrutural será perdida.
 
