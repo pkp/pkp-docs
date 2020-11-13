@@ -94,13 +94,14 @@ The Plugins tab under Website Settings lists pre-installed plugins under Install
 
 **ORCID Profile**: This plugin allows authors to associate their ORCID ID using ORCID’s public or member API. In order to use it, the institution responsible for the preprint server must request credentials to ORCID. Please refer to this [ORCID Guide](https://docs.pkp.sfu.ca/orcid/en/) on how to install and configure this plugin.
 
-**Returning Author Plugin**: Typically, all new submissions will be checked by a moderator before being published on the server (see the Editorial Workflow section of this guide). The Returning Author Plugin will permit authors who already have at least one published submission to self-publish subsequent submissions, without the need for a moderator to confirm the submission.
+**Returning Author Plugin**: Typically, all new submissions will be checked by a moderator before being published on the server (see the [Editorial Workflow section of this guide](./editorial-workflow)). The Returning Author Plugin will permit authors who already have at least one published submission to self-publish subsequent submissions, without the need for a moderator to confirm the submission.
 
 ## Workflow Settings
-The workflow settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on workflow settings. 
-Screening policies and plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow).
+The workflow settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on workflow settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow).
 
-As OPS does not use other aspects of the review process available in OJS, server managers will need to decide on a policy and practice for screening submissions to prevent spam from being ingested into the server. Author screening plugins can be used to facilitate this process, and will appear under Submission >Author Screening Plugins in the Workflow Settings when enabled. See the section on Plugins in the [Website Settings chapter]() for information about the Returning Author Plugin and the Control Public Files Plugin.
+### Screening policies and plugins
+
+As OPS does not use other aspects of the review process available in OJS, server managers will need to decide on a policy and practice for screening submissions to prevent spam from being ingested into the server. Author screening plugins can be used to facilitate this process, and will appear under Submission >Author Screening Plugins in the Workflow Settings when enabled. See the section on Plugins in the [Website Settings chapter](./setup.md#plugins) for information about the Returning Author Plugin and the Control Public Files Plugin.
 
 The Checklist and the Author Guidelines tabs should be populated with details about the types of submissions that are acceptable and the specifications for formatting, layout, and copyright. 
 
