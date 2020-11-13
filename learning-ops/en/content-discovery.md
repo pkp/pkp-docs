@@ -26,4 +26,4 @@ Depending on policy established by your Server access to content can be configur
 
 
 ### Plugins
-There are also some plugins available on OPS that provide more ways for content to be discovered. See the Plugins section of the [Website Settings chapter] for details.
+There are also some plugins available on OPS that provide more ways for content to be discovered. See the Plugins section of the [Website Settings chapter](./setup.md#plugins) for details.
