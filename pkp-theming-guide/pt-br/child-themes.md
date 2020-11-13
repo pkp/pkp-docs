@@ -18,7 +18,7 @@ Nenhuma.
 
 Temas Pai e Filho são plugin de tema normais e não implicam em nada especial no modo como são desenvolvidos. Ambos os temas, Filho e Pai, utilizam a mesma [API de Tema](theme-api.md). Você pode aprender mais a respeito da estrutura de um tema e como configurar seu próprio tema personalizado em [O que é um tema?](what-is-a-theme.md).
 
-Uma vez configurado o tema, você pode utilizar um pouco de código extra para designar um tema como tema pai. Você talvez reconheça o trecho abaixo encontrado em [Configuração de Temas](theme-setup.md) 
+Uma vez configurado o tema, você pode utilizar um pouco de código extra para designar um tema como tema pai. Você talvez reconheça o trecho abaixo encontrado em [Configuração de Temas](theme-setup.md)
 
 ```php
 <?php
@@ -32,7 +32,7 @@ class TutorialThemePlugin extends ThemePlugin {
 	public function init() {
         $this->addStyle('stylesheet', 'styles/index.less');
 	}
-    
+
 	/**
 	 * Obtem o nome de exibição deste tema
 	 * @return string
@@ -40,7 +40,7 @@ class TutorialThemePlugin extends ThemePlugin {
 	function getDisplayName() {
 		return 'Tutorial Theme';
 	}
-    
+
 	/**
 	 * Obtem a descrição deste plugin
 	 * @return string
@@ -71,13 +71,13 @@ Você pode configurar o Tema Pai para este tema utilizando o método `setParent(
 	 * @return null
 	 */
 	public function init() {
-    
+
         // Usar o slug único do plugin Tema Pai
         $this->setParent('defaultthemeplugin');
-        
-        // Altere o ID desta folha de estilos para 
-        //`child-stylesheet`. Isto assegura que 
-        // não entrará em conflito com a folha de estilos 
+
+        // Altere o ID desta folha de estilos para
+        //`child-stylesheet`. Isto assegura que
+        // não entrará em conflito com a folha de estilos
         // do tema pai
         $this->addStyle('child-stylesheet', 'styles/index.less');
 	}
@@ -138,4 +138,4 @@ Isso não será necessário com muita freqüência, mas poderá ser útil caso v
 
 ## Exemplo
 
-Caso prefira estudar código, confira um [exemplo simples de Tema Filho](https://github.com/NateWr/default-child) com toda a configuração básica em seu devido lugar.
+Caso prefira estudar código, confira um [exemplo simples de Tema Filho](https://github.com/NateWr/defaultChild) com toda a configuração básica em seu devido lugar.

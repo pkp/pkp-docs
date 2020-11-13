@@ -14,7 +14,7 @@ If you've built themes for popular content management systems like [WordPress](h
 
 ## What's the difference between a Child Theme and a Parent Theme?
 
-Nothing. 
+Nothing.
 
 Child and Parent Themes are just regular theme plugins and don't entail anything special in how they're built. All themes, Child or Parent, use the same [Theme API](theme-api.md). You can learn more about the structure of a theme, and setting up your own custom theme, in [What is a theme?](what-is-a-theme.md).
 
@@ -32,7 +32,7 @@ class TutorialThemePlugin extends ThemePlugin {
 	public function init() {
         $this->addStyle('stylesheet', 'styles/index.less');
 	}
-    
+
 	/**
 	 * Get the display name of this theme
 	 * @return string
@@ -40,7 +40,7 @@ class TutorialThemePlugin extends ThemePlugin {
 	function getDisplayName() {
 		return 'Tutorial Theme';
 	}
-    
+
 	/**
 	 * Get the description of this plugin
 	 * @return string
@@ -71,10 +71,10 @@ You can set a Parent Theme for this theme using the `setParent()` method. Let's 
 	 * @return null
 	 */
 	public function init() {
-    
+
         // Use the parent theme's unique plugin slug
         $this->setParent('defaultthemeplugin');
-        
+
         // Change the ID of this stylesheet slug to
         // `child-stylesheet`. This ensures that it
         // won't clash with the parent's stylesheet.
@@ -136,4 +136,4 @@ You don't need to register extended relationships of this kind. When a Parent Th
 This won't be needed very often, but it can be useful if you manage lots of journal themes and want to share code between theme. Or if you are extending one of the community-provided child themes.
 
 ## Example
-If you prefer to study code, a [simple example Child Theme](https://github.com/NateWr/default-child) can be found with all the basic configuration in place.
+If you prefer to study code, a [simple example Child Theme](https://github.com/NateWr/defaultChild) can be found with all the basic configuration in place.
