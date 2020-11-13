@@ -94,7 +94,7 @@ The Plugins tab under Website Settings lists pre-installed plugins under Install
 
 **ORCID Profile**: This plugin allows authors to associate their ORCID ID using ORCID’s public or member API. In order to use it, the institution responsible for the preprint server must request credentials to ORCID. Please refer to this [ORCID Guide](https://docs.pkp.sfu.ca/orcid/en/) on how to install and configure this plugin.
 
-**Returning Author Plugin**: Typically, all new submissions will be checked by a moderator before being published on the server (see the [Editorial Workflow section of this guide](./editorial-workflow)). The Returning Author Plugin will permit authors who already have at least one published submission to self-publish subsequent submissions, without the need for a moderator to confirm the submission.
+**Returning Author Plugin**: Typically, all new submissions will be checked by a moderator before being published on the server (see the [Editorial Workflow section of this guide](./editorial-workflow.md)). The Returning Author Plugin will permit authors who already have at least one published submission to self-publish subsequent submissions, without the need for a moderator to confirm the submission.
 
 ## Workflow Settings
 The workflow settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on workflow settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow).
