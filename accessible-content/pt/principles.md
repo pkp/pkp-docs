@@ -122,7 +122,7 @@ A cor do texto contra o fundo pode parecer suficientemente distinta para um leit
 
 Use o [Verificador de Contraste da WebAim](https://webaim.org/resources/contrastchecker/), [Verificador de Taxa de Contraste](https://contrast-ratio.com/), ou o [Analisador de Contraste de Cores](https://developer.paciellogroup.com/resources/contrastanalyser/) para verificar a taxa de contraste entre as cores de fundo e do texto em suas páginas. Apresentamos a seguir um exemplo usando o [Verificador de Contraste da WebAim](https://webaim.org/resources/contrastchecker/):
 
-![Exemplo das opções de interface do Verificador de Contraste de Cores da WebAim.](./assets/1_a11y-guide-webaim-contrast-checker.png)
+![Tela do Verificador de Contraste de Cores do WebAim.](./assets/1_a11y-guide-webaim-contrast-checker.png)
 
 *Exemplo de opções de interface do Verificador de contraste de cores do WebAim*
 
@@ -136,19 +136,19 @@ Frequentemente, usamos cores em conteúdo da Web ou em conteúdo publicado para 
 
 **Não faça isso:**
 
-![An orange and a green circle with no text.](./assets/2_a11y-guide-colour-circles-dont.png)
+![Um círculo laranja e um círculo verde sem texto.](./assets/2_a11y-guide-colour-circles-dont.png)
 
 **Faça isso:**
 
-![An orange circle with a word Yes and a green circle with a word No.](./assets/3_a11y-guide-colour-circles-do.png)
+![Um círculo laranja com a palavra SIM e um círculo verde com a palavra NÃO.](./assets/3_a11y-guide-colour-circles-do.png)
 
 Outras ferramentas, como a [extensão Spectrum do Chrome](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en), permitem emular diferentes tipos de DVC em qualquer site. Isso é particularmente útil se seus artigos contiverem visualizações de dados. As duas figuras a seguir, obtidas de um artigo publicado na revista Polar Research, ilustram como o DVC pode afetar a compreensão de um diagrama ou gráfico pelo leitor.
 
-![Two versions of the same map with different colours, description below.](./assets/4_a11y-guide-colour-chart2.png)
+![Duas versões do mesmo mapa com cores distintas, descrição a seguir.](./assets/4_a11y-guide-colour-chart2.png)
 
 *Nesta figura, o original (1) ainda está acessível e legível para usuários com deuteranopia, uma cegueira verde, conforme mostrado em (2).*
 
-![Four variations of the same map with different colours, description below.](./assets/5_a11y-guide-colour-chart4.png)
+![Quatro variações do mesmo mapa com cores distintas, descrição a seguir.](./assets/5_a11y-guide-colour-chart4.png)
 
 *Nesta figura, a legenda da cor do original (1) não é tão clara para leitores com acromatopsia, daltonismo total, como mostrado em (2). Algumas das categorias de dados são muito semelhantes entre si.*
 
@@ -170,7 +170,7 @@ Os títulos de seções podem fornecer uma ideia mais clara sobre o conteúdo, u
 
 É possível criar seções de conteúdo usando subtítulos, e estes podem conectar parágrafos relacionados.
 
-![Example of heading formatting for JMIR](./assets/6_a11y-guide-headings-jmir.png)
+![Exemplo de formatação de cabeçalho para JMIR](./assets/6_a11y-guide-headings-jmir.png)
 
 *Exemplo de formação de títulos deseção para artigos do JMIR em [Base de Conhecimento e Central de Ajuda das Publicações JMIR](https://support.jmir.org/hc/en-us/articles/360017464552-How-should-headings-be-formatted-).*
 
@@ -211,7 +211,7 @@ Outros editores normalmente seguem o mesmo conceito de classificação e aninham
 
 A imagem a seguir mostra as opções de título para o Google Docs:
 
-![Screenshot of heading options in Google Doc.](./assets/7_a11y-guide-headings-doc.png)
+![Tela de opções de cabeçalho no Google Docs](./assets/7_a11y-guide-headings-doc.png)
 
 A hierarquia de títulos para documentos em editores de texto deve seguir o mesmo conceito de nível de classificação para documentos HTML:
 
