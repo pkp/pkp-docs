@@ -13,7 +13,6 @@ Examples of how journals phrase their copyright and Creative Commons licenses:
 * [Partnership: The Canadian Journal of Library and Information Practice and Research](https://journal.lib.uoguelph.ca/index.php/perj/about/submissions)
 * [Intersectional Apocalypse](https://journals.lib.sfu.ca/index.php/ifj/about/submissions)
 * [Aboriginal Policy Studies](https://journals.library.ualberta.ca/aps/index.php/aps/about/submissions)
-* [Journal of Defense Resources Management](http://journal.dresmara.ro/guidelines.html)
 * [Encounters in Theory and History of Education](https://ojs.library.queensu.ca/index.php/encounters/about/submissions)
 
 Examples of copyright agreements:
