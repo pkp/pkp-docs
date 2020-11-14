@@ -1,12 +1,12 @@
 # Things to Consider
 
-This [blog post on the Hybrid Publishing Lab](http://hybridpublishing.org/2015/03/oaj-canvas/#more-3570) includes a worksheet or canvas that you can use when thinking of the following consideration for your journal. A version is available in [appendix three](./appendix-3).
+This [blog post on the Hybrid Publishing Lab](https://projects.digital-cultures.net/hybrid-publishing-lab/2015/03/oaj-canvas/) includes a worksheet or canvas that you can use when thinking of the following consideration for your journal. A version is available in [appendix three](./appendix-3).
 
 ## Choosing a name
 
 What will you call your journal? Having a unique name will help your journal stand out. After working with your editorial board to brainstorm ideas, you will want to check potential names in [Ulrichs](http://ulrichsweb.serialssolutions.com/) serials directory. This can help you avoid having the same or similar name as another journal, which could cause confusion for your audience.
 
-The title should let people know what to expect from the journal, what topic/discipline will be contributing articles, and that it’s a student journal. Some examples are [Undergraduate Research Journal for the Humanities](https://kuscholarworks.ku.edu/handle/1808/21354), [Knots: An Undergraduate Journal of Disability Studies](https://jps.library.utoronto.ca/index.php/knots), and [Compass](https://journals.library.ualberta.ca/compass/index.php/compass).
+The title should let people know what to expect from the journal, what topic/discipline will be contributing articles, and that it’s a student journal. Some examples are [Zenith! The Undergraduate Research Journal for the Humanities](https://journals.ku.edu/zenith), [Knots: An Undergraduate Journal of Disability Studies](https://jps.library.utoronto.ca/index.php/knots), and [Compass](https://journals.library.ualberta.ca/compass/index.php/compass).
 
 ## Content types
 
@@ -31,7 +31,7 @@ When making selection decisions, consider whose voices aren’t being heard. You
 
 How will you advertise for content? Where? Some ideas are on social media, school newspaper or radio, and within an academic department or faculty. Submission information should be included on your website. Depending on how often you are publishing the journal, you may want to accept submissions on an ongoing basis.
 
-Here’s an example of a [call for papers](https://sfufilmjournal.wixsite.com/cinemainpractice/single-post/2016/11/28/Call-for-Papers) sent out by Cinema in Practice, an undergraduate film journal (also found in [appendix four](./appendix-4).
+Here’s an example of a call for papers sent out by Cinema in Practice, an undergraduate film journal (see [appendix four](./appendix-4).
 
 ## Author fees
 
