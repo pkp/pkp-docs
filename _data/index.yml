@@ -38,6 +38,21 @@ apps:
         - path: gdpr
         - path: translation
         - path: gfsf
+        - path: faq
+  - path: ops3
+    title: Open Preprint Systems
+    titleShort: OPS
+    includeInHero: true
+    description: Usage guides and documentation for our preprint publishing software.
+    cards:
+        - path: learning-ops
+        - path: admin-guide
+        - path: developer-docs
+          isDeveloper: true
+        - path: designing-your-journal
+        - path: gdpr
+        - path: translation
+        - path: faq
   - path: ojs2
     title: Open Journal Systems 2
     titleShort: OJS 2

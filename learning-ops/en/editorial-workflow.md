@@ -78,7 +78,7 @@ For more information on the tabs and options available, please refer to the [Pub
 
 For information about managing and posting metadata in multiple languages, see [Multilingual Submissions in Learning OJS 3](/learning-ojs/en/production-publication#multilingual-submissions).
 
-The preprint status (indicating whether it has been submitted to or published in a journal) can be altered in the dropdown menu that becomes available by selecting the ‘Relations’ button. For more information on preprint status, please refer to the [Preprint Status section](./#preprint-status) in this guide.
+The preprint status (indicating whether it has been submitted to or published in a journal) can be altered in the dropdown menu that becomes available by selecting the ‘Relations’ button. For more information on preprint status, please refer to the [Preprint Status section](#preprint-status) in this guide.
 
 In order to post the preprint, it’s necessary to select the ‘Schedule for Publication” button which opens a pop-up asking the user to confirm that they would like to move forward with the posting of the preprint. This will immediately release the preprint to public view.
 
@@ -95,10 +95,7 @@ Only the bottom two relational status will appear on the abstract page if select
 
 ![](./assets/learning-ops-editorial-workflow-preprint-status.png)
 
-Submission statuses can be updated even after a Preprint has been posted.
-As well, once the preprint has had its Version of Record (VoR) published in a journal,
-the DOI assigned to the published preprint can be added by going to the "Relations" button
-and selecting the last option, that will show a text box in which the user should add the VoR’s DOI link.
+Submission statuses can be updated even after a Preprint has been posted. Additionally, once the preprint has had its Version of Record (VoR) published in a journal, the DOI assigned to the published preprint can be added by going to the "Relations" button and selecting the last option, that will show a text box in which the user should add the VoR’s DOI link.
 
 ![](./assets/learning-ops-editorial-workflow-relations.png)
 
@@ -108,13 +105,11 @@ Once a DOI has been entered, it will appear publicly on the Preprint abstract pa
 
 ## Publish New Versions
 
-Versioning is an important feature of preprint servers because it allows researchers to correct, expand,
-and improve their articles over time. Since preprints can change significantly between versions,
-it is important to post and clearly identify all versions of a preprint. OPS allows you to post different versions of an article and display all of the versions on the posted article page.
+Versioning is an important feature of preprint servers because it allows researchers to correct, expand, and improve their articles over time. Since preprints can change significantly between versions, it is important to post and clearly identify all versions of a preprint. OPS allows you to post different versions of an article and display all of the versions on the posted article page.
 
 By default, only Server Managers can create new versions of a posted preprint. The **‘Create New Version’** button is available next to the **‘Unpublish’** button:
 
- ![](./assets/learning-ops-editorial-workflow-create-new-version.png)
+![](./assets/learning-ops-editorial-workflow-create-new-version.png)
 
 Clicking **‘Create New Version’** will open a pop-up asking if you are sure you’d like to create a new version. It’s important to note that, once a new version is created, it’s not possible to delete it; OPS allows the user to unpublish a version and create new ones, but not to delete an existing record. Note that an unpublished version of a preprint is only visible to the Server Managers and Authors.
 
