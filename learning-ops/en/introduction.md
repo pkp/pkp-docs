@@ -4,7 +4,7 @@ version: 3.2
 ---
 # Introduction
 
-Open Preprint Systems (OPS) is an open source preprint server for managing the posting of preprint research papers. Authors, after registering with the system and being approved by the Preprint Manager, can share their research as preprints, as PDFs or Word documents. The posted papers are then made freely available online for download and indexing by Google Scholar.
+Open Preprint Systems (OPS) is an open source preprint server for managing the posting of preprint research papers. With OPS you can manage the entire preprint workflow, from author submission to posting on the server website and updating preprint versions. Authors, after registering with the system and being approved by the Preprint Manager, can share their research as preprints, as PDFs or Word documents. The posted papers are then made freely available online for download and indexing by Google Scholar.
 
 OPS is built using the same framework as Open Journal Systems (OJS) and shares much of its functionality. However, OPS has a simplified editorial workflow, with no peer review stage, and custom plugins for screening and community feedback. This guide contains information and instructions about features and workflows that are unique to OPS. For functions that are the same in OJS, this guide will link to sections of [Learning OJS](/learning-ojs/en/), a comprehensive user guide for OJS.
 
