@@ -24,7 +24,9 @@ When using pronouns to refer to a generic user, use gender-neutral pronouns such
 
 ## Attribution
 
-Contributors to documentation who wish to be acknowledged can be noted in the README.md file for a document. If documentation they contributed changes substantially over time, their names may be removed.
+Contributors to a document, including authors and translators, can be noted in the Index.md file for a document. See [this example](https://raw.githubusercontent.com/pkp/pkp-docs/master/learning-ojs/index.md) for how contributor credits should be formatted.
+
+If documentation they contributed changes substantially over time, their names may be removed.
 
 ## Tips for Writing Documentation
 
