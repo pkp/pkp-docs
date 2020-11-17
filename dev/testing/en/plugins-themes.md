@@ -12,5 +12,5 @@ Plugin and theme tests can be run locally by running the following command in th
 
 ```
 cd path/to/ojs
-npx cypress run --headless --browser chrome --config integrationFolder=plugins/generic/staticPages/cypress/tests
+npx cypress run --config integrationFolder=plugins/generic/staticPages/cypress/tests
 ```
