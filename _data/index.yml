@@ -29,6 +29,7 @@ apps:
     includeInHero: true
     description: Usage guides and documentation for our monograph publishing software.
     cards:
+        - path: starting-a-press
         - path: learning-omp
         - path: learning-omp-1
         - path: admin-guide
