@@ -18,7 +18,7 @@ O Google Acadêmico é um conhecido motor de busca acadêmico que vasculha a int
 
 Não é necessário registrar seu periódico no Google Acadêmico. O Google Acadêmico eventualmente o encontrará e vasculhará automaticamente o site. Se você perceber que seu periódico não está sendo exibido no Google Acadêmico, pode ser que hajam alguns problemas que precisam ser resolvidos, confira abaixo os [problemas comuns de indexação do OJS e as correções sugeridas](#solução-de-problemas-para-gestores-e-editores-de-periódicos).
 
-![Google scholar search results](./assets/google-scholar-guide-search-results.png)
+![Resultados de busca do Google Acadêmico](./assets/google-scholar-guide-search-results.png)
 
 O Google Acadêmico depende de duas informações-chave para realizar a indexação:
 
@@ -79,7 +79,7 @@ A metatag da publicação deve coincidir com a data de publicação formal da ed
 
 ![Data de citação da fonte HTML](./assets/google-scholar-guide-citation-date.png)
 
-![A journal article with the publication year of 2019 circled](./assets/google-scholar-guide-date-galley.png)
+![Um artigo de periódico com o ano de publicação, 2019, circulado](./assets/google-scholar-guide-date-galley.png)
 
 ![Uma página de jornal OJS com a data de publicação circulada na página](./assets/google-scholar-guide-volume-issue.png)
 
@@ -125,7 +125,7 @@ Exemplo de lista de autores em script / idioma proveniente da instituição de o
 
 O idioma do resumo deve corresponder ao idioma das metatags, tal como a metatag do título. Usar o inglês como idioma padrão para metatags, independentemente do idioma do artigo, também causará problemas de indexação. Isso também resulta em citações perdidas, porque os artigos que citam outro artigo provavelmente usarão o idioma do texto na íntegra para a citação. Citações perdidas significam que os artigos não serão classificados como deveriam nos resultados de pesquisa do Google Acadêmico - e ambos resultam em autores insatisfeitos.
 
-![Fonte HTML com título, data e idioma destacados](./assets/google-scholar-guide-content-date.png)
+![Fonte HTML com título, data e idioma realçados](./assets/google-scholar-guide-content-date.png)
 
 A solução para ambos problemas é usar o idioma do texto completo que está no PDF como um guia para o idioma a ser usado ao inserir os metadados nos campos do OJS.
 
@@ -141,7 +141,7 @@ Erros de formatação comuns podem incluir nome / sobrenome incorreto / inconsis
 
 Abaixo, nas metatags vermelhas, você pode observar alguns exemplos de erros comuns relacionados aos nomes de autores, que suspenderão a indexação no Google Acadêmico. Na primeira metatag, note que o nome e o sobrenome do autor foram invertidos. No segundo, apenas parte do nome do autor foi inserido. E no último exemplo, no sobrenome do autor, além do uso de letra minúscula, houve um erro de digitação (falta a letra "r").
 
-![Author names in HTML and on the journal page](./assets/google-scholar-guide-author-names.png)
+![Nomes de autores no código HTML e na página do periódico](./assets/google-scholar-guide-author-names.png)
 
 Para solucionar e corrigir esses erros, você deve comparar os nomes nas metatags citation_author com o modo como aparecem no PDF. Se houver discrepâncias, altere as metatags nos metadados do artigo em seu periódico para corresponder ao PDF. Lembre-se de observar a formatação e o uso de letras maiúsculas.
 
@@ -177,7 +177,7 @@ Quando a versão https de um site replica erros devido a um certificado inválid
 
 Para testar, abra um artigo em vários navegadores diferentes (Chrome, Safari, etc). Se você detectar avisos de que a conexão não é privada, entre em contato com seu provedor de certificado SSL para corrigir tal erro. Se possível, peça-lhes para configurar renovações automatizadas para evitar expirações futuras.
 
-![SSL warnings in a web browser](./assets/google-scholar-guide-ssl.png)
+![Avisos SSL em um navegador da Internet](./assets/google-scholar-guide-ssl.png)
 
 ### Tempo de inatividade do site
 
