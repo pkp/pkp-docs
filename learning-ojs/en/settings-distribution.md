@@ -111,7 +111,7 @@ Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbo
 
 If you are a member of a LOCKSS or CLOCKSS network, use this tab to activate your journal. The PKP PN Plugin, which deposits your content in the PKP Preservation Network(PN), is available for OJS 3.1.2 or newer.
 
-For instructions on enabling the PKP PN, see [PKP Preservation Network Guide](https://docs.pkp.sfu.ca/pkp-pn/)
+For instructions on enabling the PKP PN, see the [PKP Preservation Network Guide](https://docs.pkp.sfu.ca/pkp-pn/).
 
 If you use another network, enabling it here will make your content available to the network, but you will also need to contact the network to make it aware of your journal.
 
