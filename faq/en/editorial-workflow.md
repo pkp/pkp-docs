@@ -62,22 +62,7 @@ See the [Production and Publication chapter](https://docs.pkp.sfu.ca/learning-oj
 
 ## Why are the HTML galley files not being displayed or identified properly?
 
-If the HTML galley is triggering a download, instead of displaying in the browser window, double check that the HTML Article Galley plugin is active. Go to **Settings > Website > Plugins**, and ensure that the **HTML Article Galley** plugin is installed, up-to-date, and enabled.
-
-When you upload a galley file, it’s important that you give it the generic label “html,” “pdf,” “xml,” etc. If your HTML file or another galley file is not being displayed properly, it could be because you gave it a different label. This causes the server to incorrectly identify your HTML file as something other than HTML.
-
-To check the label on the galley file:
-
-1. Go to the Submissions dashboard and find the submission under the All Active or Archives tab, depending on whether it has been published
-2. Open the submission
-3. Go to the Publication tab and Galleys
-4. Check that the files listed there have been labelled correctly
-
-If a galley file label needs to be changed and the article has already been published (and you’re using OJS 3.2+), you will need to un-publish it, change the label, and then re-publish it. If it has not been published yet or you are using an earlier version of OJS, you can go ahead and change the label.
-
-See [our documentation about versioning](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#versioning-of-articles) for information about editing a published article.
-
-See [our documentation about production and publication](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#edit-galley-files) for instructions on how to edit a galley file label.
+If the HTML galley is triggering a download, instead of displaying in the browser window, check that the HTML Article Galley plugin is active. Go to **Settings > Website > Plugins**, and ensure that the **HTML Article Galley** plugin is installed, up-to-date, and enabled.
 
 If you have further issues, ask your Systems Administrator to check your server and filetype configurations. OJS, OMP, and OPS use three methods to determine a filetype, in the following order:
 
