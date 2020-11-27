@@ -46,6 +46,8 @@ It is possible to do continuous publishing in OJS, where articles are published 
 3. When the issue is full, remove the title and assign the issue an issue and volume number
 4. Create a new issue called “New Research” and add new articles to it.
 
+Note that if you change issue names in the future and are minting DOIs through Crossref, you will need to [update the metadata for your articles with Crossref](/crossref-ojs-manual/en/config#updating-dois).
+
 See [Learning OJS 3 - Production and Publication](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#continuous-publishing) for more information.
 
 ## How can I start using DOIs?
