@@ -144,7 +144,7 @@ If you are looking for further explanation on what the questions mean, please re
   * CINES
   * CLOCKSS
   * LOCKSS
-  * PKP PN (Not yet available in OJS 3.x)
+  * PKP PN (Available on OJS 3.1.2+)
   * PMC/Europe PMC
   * Portico
   * A national library
