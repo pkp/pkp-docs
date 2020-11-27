@@ -93,10 +93,10 @@ SELECT user_group_id FROM user_groups WHERE context_id=0 AND role_id=1;
 It’ll probably give you a 1 back as a result. Then, you can grant that to your user:
 
 ```sql
-INSERT INTO user_user_groups (user_id, user_group_id) VALUES (1234, 1);
+INSERT INTO user_user_groups (user_id, user_group_id) VALUES (<new_admin_user_id>, 1);
 ```
 
-…where 1234 is your user ID, and 1 is the user_group_id you got from the first query (probably a 1).
+…where `<new_admin_user_id>` is your user ID, and 1 is the user_group_id you got from the first query (probably a 1).
 
 ## How can I retrieve the site Administrator password?
 
