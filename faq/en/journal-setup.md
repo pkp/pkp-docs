@@ -2,9 +2,9 @@
 
 ## How can I create a unique look for my journal, press, or server website?
 
-OJS 3 includes a number of free themes that you can use for your journal. You can view them on [PKP’s demo site](https://demo.publicknowledgeproject.org/ojs3/demo/)
+OJS 3 includes a number of free themes that you can use for your journal. You can view them on [PKP’s demo site](https://demo.publicknowledgeproject.org/ojs3/demo/).
 
-You can use one of the free themes as a basis for your journal and customize it with a journal stylesheet that you can upload under Settings > Website > Appearance > Advanced. This will allow you to change the theme colours, fonts, etc. with options defined via custom CSS rules.
+You can use one of the free themes as a basis for your journal and customize, which can be installed through [the Plugin Gallery](/learning-ojs/en/settings-website#plugin-gallery). Once you have enabled a theme in [Settings > Website > Appearance](/learning-ojs/en/settings-website#appearance), additional options will be available to customize colours and adjust other aspects of your journal's appearance.
 
 PKP has a guide to [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/), which offers guidance on how to customize themes, create CSS files, and select images and fonts to suit your audience and content.
 
