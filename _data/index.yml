@@ -39,7 +39,6 @@ apps:
         - path: gdpr
         - path: translation
         - path: gfsf
-        - path: faq
   - path: ops3
     title: Open Preprint Systems
     titleShort: OPS
