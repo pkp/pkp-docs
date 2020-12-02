@@ -10,13 +10,19 @@ When making changes related to minor software releases (e.g., OJS 3.1.1 -> 3.1.2
 
 Older versions of the documentation are accessible – via GitHub branches – for major-version documents in the Documentation Hub.
 
-## Image Format
+## Images
+
+### Image format
 
 Images are restricted to 848 pixels in width on display. Where possible, try to limit your file size by keeping your images below that width. The format should follow these guidelines:
 
 - for screenshots, use PNG format
 - for photographs, use JPEG format
 - for animations, use GIF format
+
+### Screenshots
+
+When you take screenshots, do not include the menu and broader elements of the interface unless it is necessary. This lessens the need to replace screenshots when the software interface changes.
 
 ## Pronouns
 
