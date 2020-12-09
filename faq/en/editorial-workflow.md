@@ -62,22 +62,7 @@ See the [Production and Publication chapter](https://docs.pkp.sfu.ca/learning-oj
 
 ## Why are the HTML galley files not being displayed or identified properly?
 
-If the HTML galley is triggering a download, instead of displaying in the browser window, double check that the HTML Article Galley plugin is active. Go to **Settings > Website > Plugins**, and ensure that the **HTML Article Galley** plugin is installed, up-to-date, and enabled.
-
-When you upload a galley file, it’s important that you give it the generic label “html,” “pdf,” “xml,” etc. If your HTML file or another galley file is not being displayed properly, it could be because you gave it a different label. This causes the server to incorrectly identify your HTML file as something other than HTML.
-
-To check the label on the galley file:
-
-1. Go to the Submissions dashboard and find the submission under the All Active or Archives tab, depending on whether it has been published
-2. Open the submission
-3. Go to the Publication tab and Galleys
-4. Check that the files listed there have been labelled correctly
-
-If a galley file label needs to be changed and the article has already been published (and you’re using OJS 3.2+), you will need to un-publish it, change the label, and then re-publish it. If it has not been published yet or you are using an earlier version of OJS, you can go ahead and change the label.
-
-See [our documentation about versioning](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#versioning-of-articles) for information about editing a published article.
-
-See [our documentation about production and publication](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#edit-galley-files) for instructions on how to edit a galley file label.
+If the HTML galley is triggering a download, instead of displaying in the browser window, check that the HTML Article Galley plugin is active. Go to **Settings > Website > Plugins**, and ensure that the **HTML Article Galley** plugin is installed, up-to-date, and enabled.
 
 If you have further issues, ask your Systems Administrator to check your server and filetype configurations. OJS, OMP, and OPS use three methods to determine a filetype, in the following order:
 
@@ -111,8 +96,6 @@ Note: Be cautious when deleting published items from your site. Once items are p
 
 You may want to disable submissions if your journal is no longer publishing or you only use OJS to publish your content.
 
-To disable new submissions to the journal, you will need to be in the Journal Manager role. You can do it in two ways:
-Limit submissions only to Editors per section, as described in the [Learning OJS 3 guide: Journal Settings > Sections](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections)
-Remove the “Make a Submission Block” from the user interface in [Website Settings > Appearance > Setup > Sidebar](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#setup-1) AND/OR remove the “Make a Submission Block” in the [Website Settings > Plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins).
+To disable new submissions to the journal, you will need to be in the Journal Manager role. You can do this by restricting section submitters, as described in the [Learning OJS 3 guide: Journal Settings > Sections](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#restrict-section-submitters).
 
-There is an [open issue](https://github.com/pkp/pkp-lib/issues/5702) to improve the ability to close and control submissions.
+Improvements to the ability to close and control submissions will be available in OJS/OMP/OPS 3.3. See [the "Ability to disable submissions in OJS3" issue on GitHub for more details](https://github.com/pkp/pkp-lib/issues/5702).
