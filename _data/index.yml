@@ -19,7 +19,7 @@ apps:
       - path: instructor-guide
       - path: student-toolkit
       - path: pkp-school
-      - path: crossref-ojs-manual
+      - path: plugin-guides
       - path: publishing-resources
       - path: gdpr
       - path: translation
@@ -64,7 +64,7 @@ apps:
         - path: ojs2-pkp-school
         - path: crossref-ojs2-manual
         - path: importing-exporting
-        - path: using-paypal-for-ojs-and-ocs
+        - path: paypal
         - path: ojs-2-technical-reference
           isDeveloper: true
   - path: ocs2
