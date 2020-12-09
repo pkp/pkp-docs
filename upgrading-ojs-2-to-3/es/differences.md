@@ -45,7 +45,6 @@ También hay algunas características de OJS 2 que se han descartado o que aún 
 
 - Algunos módulos no se han portado a OJS 3, entre ellos Books for Review y Dataverse
 - La administración de plantillas de correo electrónico y la administración de notificaciones de usuario/a aún se están perfeccionando
-- Los depósitos automáticos en el archivo PKP PN aún no están disponibles
 - La funcionalidad de pagos y suscripciones está menos desarrollada y algunas funciones no están disponibles, incluidas las donaciones
 
 Es importante hacer un inventario de sus módulos y características más útiles y más utilizados y comprobar la disponibilidad en la versión más reciente de OJS antes de decidir actualizar.
