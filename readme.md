@@ -2,6 +2,8 @@
 
 The repository for generating PKP's documentation hub.
 
+Interested in contributing documentation? Check out [our guidelines for contributing to PKP documentation](https://docs.pkp.sfu.ca/contributing/) to get started.
+
 ## Usage
 
 [Install Ruby 2.1.0 or higher](https://www.ruby-lang.org/en/documentation/installation/) and install the bundler gem.
