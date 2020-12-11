@@ -124,7 +124,7 @@ You can select a reviewer from the reviewers in your journal, create a new revie
 
 ![](./assets/learning-omp_role-specific-workflow_assgn-rev2.png)
 
-At this stage, reviewers associated with the press evaluate the submission. In an Open or Blind review, an editor can contact reviewers as well as revise their due dates by clicking the icon next to their names.
+At this stage, reviewers associated with the press evaluate the submission. In an Open or Anonymous Reviewer/Disclosed Author review, an editor can contact reviewers as well as revise their due dates by clicking the icon next to their names.
 
 ![](./assets/learning-omp_role-specific-workflow_assgn-rev3.png)
 
@@ -149,7 +149,7 @@ Once the Internal Review has been prompted on your dashboard, you will need to s
 
 You can select a reviewer from the reviewers in your journal, create a new reviewer, or enroll an existing reviewer from another journal within a multi-journal installation.
 
-At this stage, reviewers associated with the press evaluate the submission. In an Open or Blind review, an editor can contact reviewers as well as revise their due dates by clicking the icon next to their names.
+At this stage, reviewers associated with the press evaluate the submission. In an Open or Anonymous Reviewer/Disclosed Author review, an editor can contact reviewers as well as revise their due dates by clicking the icon next to their names.
 
 Once the review has been completed you will be notified. As an editor, you can access the reviews by clicking on the reviewer's name in the Reviewers section.
 

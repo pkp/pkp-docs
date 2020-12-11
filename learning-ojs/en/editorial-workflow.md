@@ -266,7 +266,7 @@ Additionally, a Journal Editor can add an Editorial Note about the reviewer in t
 
 ![Reviewer details screenshot OJS 3.1.2](./assets/learning-ojs-3.1.2-add-reviewer.png)
 
-In OJS releases 3.0 to 3.1.0, you cannot assign a user to review a submission if they are also an editor of the submission.  If you do, the editor will no longer be able to access the submission after they submit their review, in order to maintain the principles of blind peer review. However, starting with OJS 3.1.1, you can assign a user to review a submission if they are also an editor of the submission.
+In OJS releases 3.0 to 3.1.0, you cannot assign a user to review a submission if they are also an editor of the submission.  If you do, the editor will no longer be able to access the submission after they submit their review, in order to maintain the principles of anonymous peer review. However, starting with OJS 3.1.1, you can assign a user to review a submission if they are also an editor of the submission.
 
 At the bottom of this form, you will see options to:
 
@@ -284,7 +284,7 @@ This initiates a new window with a message for the Reviewer.
 
 You can revise any of the prepared text.
 
-If you are using a Blind Review method, ensure that the files you send to the Reviewer are stripped of any identifying information about the Author. Additional instruction for this is provided in the [Understanding Blind Review](#understanding-blind-review) and [Removing Identifying Information](#removing-identifying-information) sections.
+If you are using an Anonymous Review method, ensure that the files you send to the Reviewer are stripped of any identifying information about the Author. Additional instruction for this is provided in the [Understanding Anonymous Review](#understanding-anonymous-review) and [Removing Identifying Information](#removing-identifying-information) sections.
 
 Further down the form, you will see the additional details that are sent to the Reviewer including title, abstract, important dates, and a link to the files to be reviewed.
 
@@ -344,22 +344,22 @@ You will then select the reviewer(s) you would like to start a discussion with.
 
 At this point, we could add additional Reviewers, and then wait for their recommendations to come in.
 
-### Understanding Blind Review
+### Understanding Anonymous Review
 
 OJS is designed to accommodate different types of reviews and has built-in steps to ensure anonymity.
 
 All information will be visible to the journal managers and editors regardless of the type of review selected.
 The review type will be automatically selected based on what has been configured under _Settings_ > _Workflow_ > _Review_. The editors can change the review type when sending the review request. Editors/Section Editors must select the review type when sending the review request from the following options:
 
-* Double-Blind
-* Blind
+* Anonymous Reviewer/Anonymous Author
+* Anonymous Reviewer/Disclosed Author
 * Open
 
-**Double-Blind Review**: The identity of both the author and the reviewer is kept hidden.
+**Anonymous Reviewer/Anonymous Author**: The identity of both the author and the reviewer is kept hidden.
 
-The author or editor must ensure that metadata from the manuscript file is removed in a Double-Blind review. See [Removing Identifying Information](#removing-identifying-information) for more information.
+The author or editor must ensure that metadata from the manuscript file is removed in Anonymous Reviewer/Anonymous Author. See [Removing Identifying Information](#removing-identifying-information) for more information.
 
-*Reviewer*: The reviewer will not be able to see the author(s) in their reviewer’s queue if the editor has selected a double-blind review. All identifying information in the metadata of the submission details is automatically removed by the system.
+*Reviewer*: The reviewer will not be able to see the author(s) in their reviewer’s queue if the editor has selected Anonymous Reviewer/Anonymous Author. All identifying information in the metadata of the submission details is automatically removed by the system.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon1.png)
 
@@ -373,7 +373,7 @@ At the end of a review, if a reviewer chooses to upload a review file they shoul
 
 ![](./assets/learning-ojs3.1-ed-rev-anon3.png)
 
-**Blind Review**: Reviewer identity is kept anonymous from the author(s). The reviewers can see the author details.
+**Anonymous Reviewer/Disclosed Author**: Reviewer identity is kept anonymous from the author(s). The reviewers can see the author details.
 
 *Reviewer*: The reviewer is able will see full the metadata entered by the author by clicking _View All Submission Details_ in the request tab of the manuscript. The authors’ name will also appear in the reviewer's queue.
 
@@ -387,7 +387,7 @@ At the end of a review, if a reviewer chooses to upload a review file they shoul
 
 ### Removing Identifying Information
 
-While OJS has a number of built-in functions for blind reviews, additional steps may need to be taken outside of the platform to ensure a Double-Blind Review. A submission file may have information that could identify the authors' identity within the document properties.
+While OJS has a number of built-in functions for anonymous reviews, additional steps may need to be taken outside of the platform to ensure Anonymous Reviewer/Anonymous Author. A submission file may have information that could identify the authors' identity within the document properties.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon4.png)
 

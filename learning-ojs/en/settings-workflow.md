@@ -57,7 +57,7 @@ This tab allows you to configure your journal's review process.
 
 ### Setup
 
-**Default Review Mode**: Select whether your journal will follow a double blind, blind, or open review process.
+**Default Review Mode**: Select whether your journal will follow an anonymous reviewer/anonymous author, anonymous reviewer/disclosed author, or open review process.
 
 **Restrict File Access**:Check this off if you want the reviewer to respond to the request before accessing the submission files.
 
@@ -122,7 +122,7 @@ Use the **Preview** tab to test out the form.
 
 Once you send the form to a reviewer you will no longer be able to edit it because that would change the record for existing reviews using that form. If you want to make changes to the review form at that point you can copy the existing form and create a new updated version.
 
-**Blind Review**: Check this box to display a link for instructions on ensuring all submission files are anonymized.
+**Anonymous Reviewer/Disclosed Author**: Check this box to display a link for instructions on ensuring all submission files are anonymized.
 
 ![](./assets/learning-ojs-3-settings-workflow-settings-review2.png)
 

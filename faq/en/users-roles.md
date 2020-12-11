@@ -38,9 +38,9 @@ There are few scenarios where you might come across this message:
 
 1. You were assigned a role in the journal which does not have access to some stages of the workflow (for example, a copyeditor usually won’t have access to the peer review workflow stage). You may need to be assigned a new or additional role to receive additional access.
 2. The role settings need to be adjusted to provide access to more stages of the workflow for everyone assigned to that role.
-3. If you happen to be an editor or section editor of a journal that uses a blind or double blind review and has assigned yourself as a reviewer and declined this request.
+3. If you happen to be an editor or section editor of a journal that uses Anonymous Reviewer/Disclosed Author (previously known as "blind") or Anonymous Reviewer/Anonymous Author (previously knows as "double-blind") and has assigned yourself as a reviewer and declined this request.
 
-If you encounter this message as a result of the first 2 scenarios, please see [the Users and Roles documentation](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#if-a-user-cant-log-in) for details on editing a user’s account to assign a different or additional role, and editing the role settings to allow access to different workflow stages. (based on the role’s access to workflow stages, or on which role you’re in when assigned to an article)
+If you encounter this message as a result of the first 2 scenarios, please see [the Users and Roles documentation](/learning-ojs/en/users-and-roles#if-a-user-cant-log-in) for details on editing a user’s account to assign a different or additional role, and editing the role settings to allow access to different workflow stages. (based on the role’s access to workflow stages, or on which role you’re in when assigned to an article)
 
 The third scenario is a result of the security measures within the recent releases of OJS to protect the review process. The system is recognizing the most recent role as a reviewer. A workaround for this would be for the editor to use the direct link to the editorial workflow, i.e. you add /workflow/index/MSID/3 right after index.php in the URL: https://YourJournalURL/index.php/acronym/workflow/index/XXXX/3, where xxxx is the MS ID #.
 
