@@ -5,7 +5,7 @@ version: 3.2
 
 # Chapter 15: Production and Publication
 
-With the completion of the Copyediting stage, the submission now moves to Production. From here, the copyedited files will be converted to publishable formats in the form of galley files (e.g., PDF, HTML) and proofread before publishing. A new journal issue will be created and the article will be scheduled for publication in the issue. This chapter explains the steps in that process, as well as how to use the versioning feature in OJS 3.2 to publish a new version of an article if significant changes are made.
+With the completion of the Copyediting stage, the submission now moves to Production. From here, the copyedited files will be converted to publishable formats in the form of galley files (e.g., PDF, HTML) and proofread before publishing. A new journal issue will be created and the article will be scheduled for publication in the issue. This chapter explains the steps in that process, as well as how to use the versioning feature (first introducted in OJS 3.2) to publish a new version of an article if significant changes are made.
 
 OJS also offers a straightforward way to bypass the editorial workflow described in the previous chapter and submit content directly into production, where it can be added to an issue and published. You can do this via Quick Submit plugin. See the detailed [Quick Submit plugin instructions under the Data Import & Export chapter](./tools.md#importexport).
 
@@ -508,7 +508,9 @@ If you want to change the order of sections on a per issue basis or the order of
 
 ### Preview Issue and Articles
 
-If you want to see what your issue and the articles in it will look like on your site before publishing it, you can use the Preview feature:
+If you want to see what your articles will look like prior to publication, click on the Preview button on the Publication tab of the submission record. Users with the permission to preview will see this button from the Copyediting stage forward.
+
+If you want to see what your articles will look like in the context of an issue before publishing it, you can use the Issue Preview feature:
 
 * Click the blue arrow next to the future issue
 * Click **Preview**
