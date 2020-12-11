@@ -160,7 +160,23 @@ The section allows you to configure the emails that are sent out from the system
 
 ### Email Templates
 
-OJS facilitates work flow communication through the use of prepared email messages. You can view and modify these prepared email templates here. Please note, some configuration is required to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
+OJS facilitates work flow communication through the use of prepared email messages. Please note, some configuration is required to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
+
+You can view and modify the prepared email templates here. You will see a list of email templates under the Emails tab. The title and summary of each email template is displayed in the list. 
+
+![](./assets/learning-ojs3.3-jm-settings-workflow-email-templates.png)
+
+If you click the arrow beside each email template you can view the message subject and contents and who is the default sender and recipient of the message.
+
+![](./assets/learning-ojs3.3-jm-settings-workflow-email-template-view.png)
+
+You can search for an email template by keyword by typing something in to the **Search** box.
+
+You can click **Filters** to reveal options to filter the templates by status, sent from, sent to, and which workflow stage it is used during. These filters can help you find templates you want to edit.
+
+![](./assets/learning-ojs3.3-jm-settings-workflow-email-template-filters.png)
+
+See [Template Descriptions](#template-descriptions) at the end of this chapter for a table of all email templates and their sender, recipient, and workflow stage.
 
 #### Edit email templates
 
@@ -172,8 +188,6 @@ To edit a template:
 3. Click Edit
 4. Make changes to the subject and the body text. Be careful to not delete any tags such as “{$authorName}:,” which automatically insert content from a submission.
 5. When you’re finished editing, click Save.
-
-![](./assets/learning-ojs3.1-jm-settings-workflow-email-templates.png)
 
 #### Disable email templates
 
