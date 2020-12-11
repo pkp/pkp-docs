@@ -137,6 +137,12 @@ Limit the number of items (for example, submissions, users, or editing assignmen
 
 Enter the privacy statement you want to appear on your site.
 
+### Date and Time
+
+This option allows for the configuration of different format for dates and times for each journal and locale, which could previously only be set up in the 'config.inc.php' file. Note that the `config.inc.php` file can still be used to set the time and format across multiple journals, and the settings for the primary locale will be the default for other locales, unless otherwise configured.  A custom format can be entered using the [special format characters](https://www.php.net/manual/en/function.strftime.php#refsect1-function.strftime-parameters).
+
+![](./assets/learning-ojs3.3-date-and-time-setup.png)
+
 ## Plugins
 
 Use this page to see all of the installed plugins and find new plugins.
