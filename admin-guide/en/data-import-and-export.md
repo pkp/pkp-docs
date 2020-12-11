@@ -81,6 +81,8 @@ To export article and issue metadata using the Native XML Plugin:
 
 ## Import and export users
 
+### Export users to XML
+
 The Users XML Plugin can be used to import and export users and their roles. It can be used in the following cases:
 
 * Moving user accounts from one OJS journal to another
@@ -128,6 +130,17 @@ To export user accounts using the Users XML Plugin:
 5. The user accounts will be exported in XML format, and can be imported to this or another journal
 
 ![](./assets/users-xml-plugin-export.png)
+
+### Export users to CSV
+
+Journal editors and managers can export the user database as a CSV file. The CSV format is easy to use with marketing and mailing list management tools, such as Mailchimp.
+
+To export users to a CSV file:
+
+1. Navigate to **Statistics > Users**.
+2. Click on **Export**.
+3. Use checkboxes to select the group(s) of users you wish to export.
+4. Click **Export** again. This will generate a download, which may take several minutes to process depending on the size of your user database.
 
 ## Export metadata to external sites and indexing services
 
