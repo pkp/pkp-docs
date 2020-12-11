@@ -510,6 +510,8 @@ If you want to change the order of sections on a per issue basis or the order of
 
 If you want to see what your articles will look like prior to publication, click on the Preview button on the Publication tab of the submission record. Users with the permission to preview will see this button from the Copyediting stage forward.
 
+![](./assets/learning-ojs-3.3-ed-production-publish-preview-article.png)
+
 If you want to see what your articles will look like in the context of an issue before publishing it, you can use the Issue Preview feature:
 
 * Click the blue arrow next to the future issue
