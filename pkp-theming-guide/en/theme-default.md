@@ -8,4 +8,6 @@ The default typography uses fonts from Google's [Noto](https://www.google.com/ge
 
 The Default Theme has deliberately chosen a simple, no-fuss layout with a neutral color palette. This makes it easier for your brand to stand out with just a few simple changes to the color and typography in use.
 
+As of OJS/OMP/OPS 3.3, the Default Theme has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. Note that changes made to the theme may impact accessibility.
+
 The simple structure of the Default Theme makes it easier to extend with [Child Themes](child-themes.md). A large set of [LESS variables](https://github.com/pkp/ojs/blob/master/plugins/themes/default/styles/variables.less) can be adjusted to override font sizes, colors, borders, responsive breakpoints and more.
