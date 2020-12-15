@@ -41,6 +41,12 @@ Before the integration tests are run, update your `config.inc.php` file and set 
 installed = Off
 ```
 
+Run the following comand in the root directory of the application to start a server. The URL should match the `baseUrl` in `cypress.env.json`.
+
+```
+php -S localhost:8000
+```
+
 Run the following command in the root directory of the application to run the tests.
 
 ```
