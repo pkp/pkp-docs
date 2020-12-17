@@ -96,7 +96,7 @@ In this example, the number and location of cars are state and should be passed 
 
 The `Page` component sometimes manages state that should be passed down to a complex component. A single `Page` may manage many complex components such as [Forms](/dev/ui-library/dev/#/component/Form) and [ListPanels](/dev/ui-library/dev/#/component/ListPanel) which need to update the state after making requests to the API.
 
-> This convention described below is a lightweight alternative to state management libraries such as [Vuex](https://vuex.vuejs.org/).
+> The convention described below is a lightweight alternative to state management libraries such as [Vuex](https://vuex.vuejs.org/).
 {:.tip}
 
 State is passed down to these components as `props`.
@@ -259,4 +259,4 @@ The [UI Library](/dev/ui-library/dev) provides a demo, technical specification a
 
 ---
 
-The next chapter describes how to make use of [common, complex components](./frontend-components) such as Forms and ListPanels.
+The next chapter describes how to create and use [Forms](./frontend-forms).

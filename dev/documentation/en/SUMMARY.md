@@ -15,13 +15,14 @@
 * [Frontend](./frontend)
   * [Pages](./frontend-pages)
   * [UI Library](./frontend-ui-library)
-  * [Components](./frontend-components)
+  * [Forms](./frontend-forms)
+  * [ListPanels](./frontend-list-panels)
   * [Controllers](./frontend-controllers)
 * Utilities
   * Application
   * Cache
   * Config
-  * File
+  * [Files](./utilities-files)
   * [Hooks](./utilities-hooks)
   * Notifications
   * [Translation](./utilities-translation)
@@ -33,4 +34,5 @@
   * [Statistics](./statistics)
     * [Editorial Statistics](./statistics-editorial)
     * [Reader Statistics](./statistics-reader)
+  * [Submission Files](./submission-files)
 * [Resources](./resources)

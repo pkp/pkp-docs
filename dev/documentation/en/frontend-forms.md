@@ -1,16 +1,10 @@
 ---
-title: Components - Frontend - Technical Documentation - OJS/OMP
+title: Forms - Frontend - Technical Documentation - OJS/OMP
 ---
 
-# Components
+# Forms
 
-Some components in the [UI Library](/dev/ui-library/dev/) manage complex UI interactions and control many nested components. These components, such as [Forms](/dev/ui-library/dev/#/component/Form) and [ListPanels](/dev/ui-library/dev/#/component/ListPanel), require precise configuration with a dozen or more `props`.
-
-This chapter describes how these components can be loaded, mounted and extended using PHP helper classes.
-
-## Forms
-
-`Form` components coordinate the activity of multiple fields. They ensure that forms implement accessible markup, support multilingual input, and provide consistent UIs for pagination, error handling, and user interaction.
+[Forms](/dev/ui-library/dev/#/component/Form) coordinate the activity of many nested components. In order to ensure that forms implement accessible markup and support multilingual input, helper classes are available to create, configure and display forms.
 
 Each form extends the `FormComponent` class.
 
@@ -75,10 +69,10 @@ public function __construct($action, $locales, $context) {
 }
 ```
 
-> Every form field in the [UI Library](.) has an equivalent PHP class in `\PKP\components\forms`.
+> Every form field in the [UI Library](/dev/ui-library/) has an equivalent PHP class in `\PKP\components\forms`.
 {:.tip}
 
-Forms will be created by a `PageHandler` and passed to the `TemplateManager` as state. First, create an instance of the form by passing the API endpoint where the form should be submitted and the locales supported by the current context.
+Forms will be created by a `PageHandler` and passed to the `TemplateManager` as state. First, create an instance of the form by passing the URL where it should be submitted and the locales supported by the current context.
 
 ```php
 // The URL where the form will be submitted
@@ -102,7 +96,7 @@ $locales = array_map(function($localeKey) use ($localeNames) {
 $contactForm = new PKP\components\forms\context\PKPContactForm($apiUrl, $locales, $context);
 ```
 
-Then use the `getConfig()` method to compile all the required props and pass them to the template's [component state](frontend-ui-library#state-management-for-complex-components).
+Then use the `getConfig()` method to compile all of the required props and pass them to the template's [component state](frontend-ui-library#state-management-for-complex-components).
 
 ```php
 $templateMgr = TemplateManager::getManager($request);
@@ -283,76 +277,6 @@ $this->addField(new FieldRadioInput('copyrightHolderType', [
 
 The UI Library includes an example of [conditional display](/dev/ui-library/dev/#/component/Form/ExampleConditionalDisplay).
 
-## ListPanels
-
-Many of the [ListPanel](/dev/ui-library/dev/#/component/ListPanel) components are as complex as a small application. They allow the user to add, edit and delete items, perform faceted searches, navigate through paginated lists, and more.
-
-The most complex ListPanels provide a class to configure the component and pass the props to the TemplateManager as state.
-
-Each ListPanel extends the base class, defines configurable props as public properties, and implements a `getConfig()` method that compiles all required props into an associative array.
-
-```php
-namespace PKP\components\listPanels;
-
-class PKPAnnouncementsListPanel extends ListPanel {
-
-	/** @var string URL to the API endpoint where items can be retrieved */
-	public $apiUrl = '';
-
-	/** @var int How many items to display on one page in this list */
-	public $count = 30;
-
-	/**
-	 * @copydoc ListPanel::getConfig()
-	 */
-	public function getConfig() {
-		\AppLocale::requireComponents(LOCALE_COMPONENT_PKP_MANAGER);
-		\AppLocale::requireComponents(LOCALE_COMPONENT_APP_MANAGER);
-
-		// Call ListPanel::getConfig() to compile common props
-		$config = parent::getConfig();
-
-		// Assign props that have been configured for this object
-		$config['apiUrl'] = $this->apiUrl;
-		$config['count'] = $this->count;
-
-		// Assign required props that do not need to be configured,
-		// such as translated strings
-		$config['addAnnouncementLabel'] = __('grid.action.addAnnouncement');
-		$config['deleteAnnouncementLabel'] = __('manager.announcements.deleteAnnouncement');
-
-		return $config;
-	}
-}
-```
-
-> The props required for each ListPanel are documented in the [UI Library](/dev/ui-library/dev/).
-{:.tip}
-
-In a `PageHandler`, create a new instance of the ListPanel and pass in the configuration props.
-
-```php
-$listPanel = new \PKP\components\listPanels\PKPAnnouncementsListPanel(
-	'announcementsListPanel',
-	__('announcement.announcements'),
-	[
-		'apiUrl' => $request->getDispatcher()->url(...),
-		'count' => 20,
-	]
-);
-```
-
-Then call the `getConfig()` method and pass the props to the `TemplateManager` as state.
-
-```php
-$templateMgr = TemplateManager::getManager($request);
-$templateMgr->setState([
-	'components' => [
-		$listPanel->id => $listPanel->getConfig(),
-	],
-]);
-```
-
 ---
 
-Parts of the UI in PKP's application have not yet been converted to the UI Library. Learn about these [controllers](./frontend-controllers) in the next section.
+Learn about another complex component, [ListPanels](./frontend-list-panels), in the next section.
