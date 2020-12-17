@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<title>{{ page.title }}</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	{% if page.description %}
+		<meta name="description" content="{{ page.description }}">
+	{% endif %}
+	<link type="text/css" href="/css/book.css" rel="stylesheet" media="all">
+	<link rel="stylesheet" href="style.css">
+	<script defer type="text/javascript" src="main.js"></script>
+	<meta name="theme-color" content="#282624">
+	<body>
+		{% include book/header.html %}
+
+		<main class="book">
+			<section class="container">
+				{{ content }}
+
+				<details>
+					<summary>These folders can be used as a template for your journal’s design folder.</summary>
+					<pre>
+		design folder
+		|
+		|--- logo
+		|   |
+		|   |--- black on transparent background (PNG)
+		|   |
+		|   |--- white on transparent background (PNG)
+		|   |
+		|   |--- your brand colour on transparent background (PNG)
+		|   |
+		|   |--- black (SVG)
+		|   |
+		|   `--- white (SVG)
+		|
+		|--- visuals
+		|   |
+		|   |--- homepage images
+		|   |
+		|   `--- header images
+		|
+		|--- covers
+		|   |
+		|   |--- issue covers in high-resolution
+		|   |
+		|   `--- article covers in high-resolution
+		|
+		`--- colour palette (document listing out HEX values for your brand colour(s))
+					</pre>
+				</details>
+			</section>
+
+			<!-- Start here -->
+			<section class="container building-block">
+				<header class="building-block__header" onclick="showStep(start);">
+					<h2>START HERE</h2>
+				</header>
+				<section id="start" class="building-block__body">
+					<div class="building-block__intro arrow">
+						<p><strong>Find visual inspiration</strong></p>
+						<p>Find design inspiration through mood boarding, appreciating other sites’ layouts, your tastes.</p>
+						<ul>
+							<li>
+								From UI and graphic design sites
+								<ul>
+									<li><a href="https://eyeondesign.aiga.org/" target="_blank" rel="noreferrer">AIGA Eye on Design</a></li>
+									<li><a href="https://dribbble.com/colors/ " target="_blank" rel="noreferrer">Dribbble’s search by colour</a></li>
+								</ul>
+							</li>
+							<li>
+								Various art blogs
+								<ul>
+									<li><a href="https://butdoesitfloat.com/" target="_blank" rel="noreferrer">But does it float?</a></li>
+									<li><a href="https://www.itsnicethat.com/" target="_blank" rel="noreferrer">It’s Nice That</a></li>
+								</ul>
+							</li>
+							<li>Anywhere: (scholarly or non-scholarly) websites, library archives, art books, architecture, Instagram, Pinterest&hellip;</li>
+						</ul>
+						<p>Save those images in an inspiration folder or copy them into a mood board and bookmark interesting websites to guide you in your next design decisions. You don’t need a lot: inspiration can come from a single image as well.</p>
+					</div>
+				</section>
+			</section>
+
+			<!-- Colour palette choices -->
+			<section class="container building-block">
+				<header class="building-block__header" onclick="showStep(colours);">
+					<h2>Colour palette</h2>
+				</header>
+
+				<section id="colours" class="building-block__body">
+					<div class="building-block__intro arrow">
+						<p><strong>Create a simple & cohesive colour palette.</strong></p>
+						<p>Most OJS 3 themes have built-in settings that allow you to select one primary colour. Immersion is a lot more customisable and lets you select a different colour per section within an issue.</p>
+						<p>Using a polychromatic colour scheme requires more effort in terms of design research and CSS modifications.</p>
+					</div>
+
+					<div class="building-block__cost-levels">
+						<p>What level of time and effort are you able to put into this?</p>
+						<div class="choices">
+							<button class="choice" onclick="showStep(coloursLow)">Lower</button>
+							<button class="choice" onclick="showStep(coloursMedium)">Medium</button>
+							<button class="choice" onclick="showStep(coloursHigh)">Higher</button>
+						</div>
+					</div>
+
+					<div id="colours-low" class="building-block__tip">
+						<h3>Lower cost & effort</h3>
+						<p>
+							Choose black and/or white as primary and accent colours in your theme’s settings.
+						</p>
+						<p>
+							Greyscale is always elegant, while still allowing you to personalise your journal by highlighting other visual elements – such as article figures and issue cover images – through high-quality photographs and illustrations.
+						</p>
+						<p>
+							OJS 3’s newest themes have been optimised to be accessible (meeting WCAG’s requirements for text-on-background colour contrast) and aesthetically-pleasing when using greyscale as primary colours.
+						</p>
+						<ul>
+							<li><a href="https://www.schemecolor.com/grayscale.php" target="_blank" rel="noreferrer">An example grayscale colour scheme, with HEX, RGB, and CMYK values</a></li>
+						</ul>
+					</div>
+
+					<div id="colours-medium" class="building-block__tip">
+						<h3>Medium cost & effort</h3>
+						<p>
+							Select a single hue as your base (brand) colour.
+						</p>
+						<p>
+							Most of OJS 3’s themes only allow a single primary colour which is automatically applied to accentuate certain page elements and call-to-actions.
+						</p>
+						<p>
+							In most cases, the theme will also handle variations of your selected primary colour by calculating lighter tints or darker shades to use on different page elements.
+						</p>
+						<ul>
+							<li>
+								Culled from your inspirations (images or bookmarked websites).
+								<ul>
+									<li><a href="http://colormind.io/image/" target="_blank" rel="noreferrer">Colormind.io’s image colour extractor</a></li>
+									<li><a href="https://chrome.google.com/webstore/detail/site-palette/pekhihjiehdafocefoimckjpbkegknoh" target="_blank" rel="noreferrer">Chrome extension for colour picking a website’s palette</a></li>
+									<li><a href="https://addons.mozilla.org/en-GB/firefox/addon/colorzilla/" target="_blank" rel="noreferrer">Firefox extension for colour picking a website’s palette</a></li>
+								</ul>
+							</li>
+							<li>Randomly generated:
+								<ul>
+									<li><a href="https://www.webfx.com/web-design/random-color-picker/" target="_blank" rel="noreferrer">Random colour picker</a></li>
+									<li><a href="https://coolors.co/app" target="_blank" rel="noreferrer">Coolors.co</a></li>
+								</ul>
+							</li>
+							<li>Based on its symbolism (taken from <a href="https://www.canva.com/learn/color-meanings-symbolism/" target="_blank" rel="noreferrer">this article</a>):
+								<ul>
+									<li>Red: energy, power, passion</li>
+									<li>Orange: joy, enthusiasm, creativity</li>
+									<li>Yellow: happiness, intellect, energy</li>
+									<li>Green: ambition, growth, freshness, safety</li>
+									<li>Blue: tranquillity, confidence, intelligence</li>
+									<li>Purple: luxury, ambition, creativity</li>
+									<li>Black: power, elegance, mystery</li>
+									<li>White: cleanliness, purity, perfection</li>
+								</ul>
+							</li>
+						</ul>
+						<p><em>Note on accessibility:</em> make sure to test colour contrasts for users with CVDs by comparing text and background colours. These combinations vary from one theme to another. Choose any one of the following tools:</p>
+						<ul>
+							<li><a href="https://contrastchecker.online/" target="_blank" rel="noreferrer">ContrastChecker.online</a></li>
+							<li><a href="https://accessible-colors.com/" target="_blank" rel="noreferrer">Accessible-colors.com</a></li>
+							<li><a href="https://whocanuse.com/" target="_blank" rel="noreferrer">Who can use this colour combination?</a></li>
+						</ul>
+					</div>
+
+					<div id="colours-high" class="building-block__tip">
+						<h3>Higher cost & effort</h3>
+						<p>Create a polychromatic palette, but make sure to have only one base (brand) colour.</p>
+						<p>⚠️&nbsp;With most themes, you will have to use your browser’s <em>Inspector</em> tool and to write some CSS if you wish to use more than a single hue to complement the primary colour in your journal’s website.</p>
+						<p>Immersion allows you to select a different colour for each section within an issue.</p>
+						<p>Manuscript is the only theme that has options for primary and accent colours.</p>
+						<p>Secondary and accent colours can also be used to edit your journal’s images to harmonise them with your site (e.g. by colourising them).</p>
+						<p>Stick to a maximum of 3 different hues.</p>
+						<p>Using your inspiration board and a palette generator&hellip;</p>
+						<ul>
+							<li>find a random colour selection.
+								<ul>
+									<li><a href="https://colorsupplyyy.com/random-color-generator" target="_blank" rel="noreferrer">Colorsupplyyy’s random colour generator</a></li>
+									<li><a href="http://fabianburghardt.de/swisscolors/" target="_blank" rel="noreferrer">Swiss Style colour picker</a></li>
+								</ul>
+							</li>
+							<li>extract multiple colours from an illustration or a photograph.
+								<ul>
+									<li><a href="http://colormind.io/image/" target="_blank" rel="noreferrer">Colormind.io’s colour extractor</a></li>
+								</ul>
+							</li>
+						</ul>
+						<p><em>Note on accessibility:</em> make sure to test colour contrasts for users with CVDs by comparing text and background colours. These combinations vary from one theme to another. Choose any one of the following tools:</p>
+						<ul>
+							<li><a href="https://toolness.github.io/accessible-color-matrix/" target="_blank" rel="noreferrer">Accessible Color Matrix</a> (tests combinations for up to six different colours)</li>
+							<li><a href="https://contrastchecker.online/" target="_blank" rel="noreferrer">ContrastChecker.online</a></li>
+							<li><a href="https://accessible-colors.com/" target="_blank" rel="noreferrer">Accessible-colors.com</a></li>
+							<li><a href="https://whocanuse.com/" target="_blank" rel="noreferrer">Who can use this colour combination?</a></li>
+						</ul>
+
+						<div class="choices" onClick="showStep(coloursHighMore);">
+							<button class="choice">I want to further explore colour palettes</button>
+						</div>
+
+						<div id="colours-high-more" class="building-block__tip-more">
+							<p>Keep in mind that displaying multiple colours makes meeting accessibility requirements for colour contrasts a lot more difficult. It is not recommended to use more than two or three hues for text and background.</p>
+							<p>If you wish to create a selection from scratch, base your palette on an adjacent, analogous, triadic or tetradic colour scheme. Stick to only using these colours as accent colours or to enhance visuals on your site.</p>
+							<ul>
+								<li><a href="https://paletton.com/" target="_blank" rel="noreferrer">Paletton’s colour scheme designer</a></li>
+							</ul>
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<!-- Typographic choices -->
+			<section class="container building-block">
+				<header class="building-block__header" onclick="showStep(typography);">
+					<h2>Typography</h2>
+				</header>
+
+				<section id="typography" class="building-block__body">
+					<div class="building-block__intro arrow">
+						<p><strong>Select a legible typeface that suits the journal’s tone.</strong></p>
+						<p>
+							Typeface choices are built-in in all OJS 3 themes and have been selected with web legibility and professionalism in mind. The options will continue to improve as we research into more high-quality, free, and open-source typefaces.
+						</p>
+					</div>
+
+					<div class="building-block__cost-levels">
+						<p>Do you want to write some CSS in order to use other fonts?</p>
+						<div class="choices">
+							<button class="choice" onclick="showStep(typographyLow)">No</button>
+							<button class="choice" onclick="showStep(typographyMedium)">Yes, but I have very little time</button>
+							<button class="choice" onclick="showStep(typographyHigh)">Yes, and I want to take the time to explore other options</button>
+						</div>
+					</div>
+
+					<div id="typography-low" class="building-block__tip">
+						<h3>Lower cost & effort</h3>
+						<p>Don’t do anything: let your selected theme handle text display and typeface pairings.</p>
+						<p>Themes come with either a selection of typeface pairings (Default) or a built-in typeface which are already optimised for their use in both heading and body text.</p>
+					</div>
+
+					<div id="typography-medium" class="building-block__tip">
+						<h3>Medium cost & effort</h3>
+						<p>Use only ONE typeface for body text and headings, but make sure that it includes at least italics & a bolder weight.</p>
+						<p>Careful: a <em>display</em> typeface is not designed to be used in body text; it will not be legible.</p>
+						<ul>
+							<li><a href="https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en" target="_blank" rel="noreferrer">WhatFont extension for Chrome</a>, to identify fonts used in any webpage without the need to inspect elements</li>
+							<li><a href="https://addons.mozilla.org/en-GB/firefox/addon/zjm-whatfont/" target="_blank" rel="noreferrer">WhatFont extension for Firefox</a></li>
+							<li><a href="ttps://www.smashingmagazine.com/2019/07/gorgeous-free-open-source-typefaces/" target="_blank" rel="noreferrer">7 Gorgeous Free And Open-Source Typefaces And When To Use Them</a> on Smashing Magazine</li>
+							<li><a href="https://open-foundry.com/fonts" target="_blank" rel="noreferrer">Open Foundry</a>, a selection and showcase of high-quality & free typefaces</li>
+							<li><a href="http://freefaces.gallery/" target="_blank" rel="noreferrer">Free Faces</a></li>
+							<li><a href="http://uplaod.fr/allfonts/" target="_blank" rel="noreferrer">Uplaod</a>, a creative studio that provides free fonts (nicer for logos)</li>
+							<li><a href="https://www.velvetyne.fr/" target="_blank" rel="noreferrer">Velvetyne</a>, a libre & open-source type foundry (also mostly quirky display fonts)</li>
+							<li><a href="https://fonts.google.com/" target="_blank" rel="noreferrer">Google Fonts</a> (⚠️&nbsp;WARNING: not all are good quality)</li>
+						</ul>
+					</div>
+
+					<div id="typography-high" class="building-block__tip">
+						<h3>Higher cost & effort</h3>
+						<p>Pair two typefaces based on certain properties, such as <a href="https://en.wikipedia.org/wiki/X-height" target="_blank" rel="noreferrer">x-height<a/>, <a href="https://www.creativebloq.com/features/5-traits-that-define-a-typefaces-personality" target="_blank" rel="noreferrer">personality</a>, history, type designer or foundry&hellip;</p>
+						<p><a href="https://en.wikipedia.org/wiki/Font_superfamily" target="_blank" rel="noreferrer">Typeface superfamilies</a> are  pairings of serif and sans-serif fonts that were designed together.</p>
+						<ul>
+							<li><a href="https://fonts.google.com/featured/Superfamilies" target="_blank" rel="noreferrer">Google Fonts’ superfamilies</a></li>
+						</ul>
+						<p>Many designers regularly compile recommended font pairings. You may also find inspiration there:</p>
+						<ul>
+							<li><a href="https://www.typewolf.com/" target="_blank" rel="noreferrer">Typewolf</a>: pairings found on websites</li>
+							<li><a href="http://typ.io/" target="_blank" rel="noreferrer">Typ.io</a>: pairings found on websites</li>
+							<li><a href="https://fontjoy.com/" target="_blank" rel="noreferrer">Fontjoy</a>: Google Fonts pairings generated by deep learning (based on x-height)</li>
+							<li><a href="https://fontpair.co/" target="_blank" rel="noreferrer">FontPair</a>: Google Fonts pairing suggestions</li>
+						</ul>
+
+						<div class="choices" onClick="showStep(typographyHighMore);">
+							<button class="choice">I don’t like any of these suggestions.</button>
+						</div>
+
+						<div id="typography-high-more" class="building-block__tip-more">
+							<p>Try to create your own pairing.</p>
+							<p>This option is not recommended as it involves a lot more time, research, and testing to make sure the selected fonts can display your content.</p>
+							<ul>
+								<li><a href="https://open-foundry.com/fonts" target="_blank" rel="noreferrer">Open Foundry</a>: a selection and showcase of high-quality & free typefaces</li>
+								<li><a href="http://freefaces.gallery/" target="_blank" rel="noreferrer">Free Faces</a></li>
+								<li><a href="http://uplaod.fr/allfonts/" target="_blank" rel="noreferrer">Uplaod</a>, a creative studio that provides free fonts (nicer for logos)</li>
+								<li><a href="https://www.velvetyne.fr/" target="_blank" rel="noreferrer">Velvetyne</a>, a libre & open-source type foundry (also mostly quirky display fonts)</li>
+								<li><a href="https://fonts.google.com/" target="_blank" rel="noreferrer">Google Fonts</a> (⚠️&nbsp;WARNING: not all are good quality)</li>
+							</ul>
+						</div>
+					</div>
+
+				</section>
+			</section>
+
+			<!-- Logo choices -->
+			<section class="container building-block">
+				<header class="building-block__header" onclick="showStep(logo);">
+					<h2>Logo</h2>
+				</header>
+
+				<section id="logo" class="building-block__body">
+					<div class="building-block__intro arrow">
+						<p><strong>Display a simple & versatile logo for use in various contexts.</strong></p>
+						<p>A logo consists of an image file that is generally either&hellip;</p>
+						<ol>
+							<li>a logomark: it contains an icon</li>
+							<li>a logotype (or wordmark): a stylised version of the journal’s name or abbreviation</li>
+						</ol>
+						<p>Journals usually have the latter. If you do want a logomark to stand out a little more but do not have the resources to hire a graphic designer, you can still create one using free and open-source assets.</p>
+						<p>In some cases, a journal might need an image file (in SVG, PNG formats) of their logo to use on other platforms, such as social media profile photos and PDF articles and reports.</p>
+					</div>
+
+					<div class="building-block__cost-levels">
+						<p>Do you want to create a logo of your journal title and/or abbreviation to be used on other platforms?</p>
+						<div class="choices">
+							<button class="choice" onclick="showStep(logoLow)">I don’t need one now</button>
+							<button class="choice" onclick="showStep(logoMedium)">Yes, and I want a logotype</button>
+							<button class="choice" onclick="showStep(logoHigh)">Yes, and I want a logomark </button>
+						</div>
+					</div>
+
+					<div id="logo-low" class="building-block__tip">
+						<h3>Lower cost & effort</h3>
+						<p>If you don’t need a logo in image format, using plain text to display your journal title is always the simplest option.</p>
+						<p>You can let the theme handle the title display and focus on personalising your colour palette & visuals (cover images, homepage image).</p>
+					</div>
+
+					<div id="logo-medium" class="building-block__tip">
+						<h3>Medium cost & effort</h3>
+						<p><a href="https://picas.now.sh/" target="_blank" rel="noreferrer">This simple web app</a> generates high-resolution logotypes in PNG using Google Fonts. Your logotype’s font does not need to be the same as your website’s body text font.</p>
+						<p>Avoid displaying long journal titles in logos. Use a logotype <em>only</em> if your journal has a short title or an abbreviation.</p>
+						<p>Save these files somewhere safe, so that the journal may continue to use a consistent logo for many years to come</p>
+						<p>⚠️&nbsp;Warning: do NOT take a screen capture of text to use as a logo. It will not be high-quality, nor reusable in different contexts.</p>
+						<p><em>Note on accessibility:</em> when uploading your logo, make sure to fill out the "Alternate text" with your journal title.</p>
+
+						<div class="choices" onClick="showStep(logoMediumMore);">
+							<button class="choice">I want to make my own</button>
+						</div>
+
+						<div id="logo-medium-more" class="building-block__tip-more">
+							<p>You will need a graphics editor that can export images in PNG and SVG.</p>
+							<p>I use <a href="https://www.figma.com/" target="_blank" rel="noreferrer">Figma</a> for UI design but it can also be used to design a simple logotype. It’s a powerful design app, and free for up to three projects.</p>
+							<p>If you took the time to select a <strong>display typeface</strong> in the previous step, this would be one of its uses.</p>
+							<ol>
+								<li>Avoid displaying long journal titles. Use a logotype <em>only</em> if your journal has a short title or an abbreviation.</li>
+								<li>Create a black version and a white version with transparent backgrounds, so that they may be used on backgrounds of different colours. You can also create one in your base (brand) colour.</li>
+								<li>Make sure the image has a width of at least 500px; OJS 3 themes should resize them automatically to fit the layout.</li>
+								<li>Export your logotypes in both SVG and in PNG. Save these files somewhere safe, so that the journal may continue to use a consistent logo for many years to come.</li>
+								<li>You should have at least four files in total to be used on your site and any other platforms and documents</li>
+							</ol>
+						</div>
+					</div>
+
+					<div id="logo-high" class="building-block__tip">
+						<h3>Higher cost & effort</h3>
+						<p>Some apps generate clean PNG and/or SVG logos on the fly, without the need for a graphics editor. Careful: most require you to create an account and are not free.</p>
+						<ul>
+							<li><a href="https://hatchful.shopify.com" target="_blank" rel="noreferrer">Hatchful</a>, Shopify’s free logo maker</li>
+							<li><a href="https://brandmark.io/" target="_blank" rel="noreferrer">Brandmark</a>, another generator (NOT free)</li>
+							<li><a href="https://logo.shapefactory.co/" target="_blank" rel="noreferrer">ShapeFactory</a>’s logo maker (NOT free)</li>
+						</ul>
+						<p>If you do use any of these services, try to save both the SVG and PNG versions. Save these files somewhere safe, so that the journal may continue to use a consistent logo for many years to come</p>
+						<p>⚠️&nbsp;Warning: do NOT take a screen capture of text to use as a logo. It will not be high-quality, nor reusable in different contexts.</p>
+						<p><em>Note on accessibility:</em> when uploading your logo, make sure to fill out the "Alternate text" with your journal title.</p>
+
+						<div class="choices" onClick="showStep(logoHighMore);">
+							<button class="choice">I want to make my own&nbsp;/ I don’t like these ones</button>
+						</div>
+
+						<div id="logo-high-more" class="building-block__tip-more">
+							<p>You will need a graphics editor that can export images in PNG and SVG. </p>
+							<p>I use <a href="https://www.figma.com/" target="_blank" rel="noreferrer">Figma</a> for UI design but it can also be used to design a simple logotype. It’s a powerful design app, and free for up to three projects.</p>
+							<ol>
+								<li>Find a royalty-free SVG icon on <a href="https://thenounproject.com/" target="_blank" rel="noreferrer">The Noun Project</a></li>
+								<li>Avoid displaying long journal titles. Try to use your journal’s abbreviation.</li>
+								<li>Create a black version and a white version with transparent backgrounds, so that they may be used on backgrounds of different colours. You can also create one in your base (brand) colour.</li>
+								<li>Make sure the image has a width of at least 500px; OJS 3 themes should resize them automatically to fit the layout.</li>
+								<li>Export your logotypes in both SVG and in PNG. Save these files somewhere safe, so that the journal may continue to use a consistent logo for many years to come.</li>
+								<li>You should have at least four files in total to be used on your site and any other platforms and documents</li>
+							</ol>
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<!-- Visual choices -->
+			<section class="container building-block">
+				<header class="building-block__header" onclick="showStep(visuals);">
+					<h2>Visuals</h2>
+				</header>
+
+				<section id="visuals" class="building-block__body">
+					<div class="building-block__intro arrow">
+						<p><strong>Use high-quality photographs & illustrations.</strong></p>
+						<p>In OJS 3, besides the logo, you can upload visuals as a homepage image (Default, Manuscript, Health Sciences, Pragma, Classic) or a header image (Immersion), as well as article images. Some themes (Immersion) also allow you to upload an image for an issue section.
+						</p>
+					</div>
+
+					<div class="building-block__cost-levels">
+						<p>Do you want to source additional visuals to supplement your journal’s website?</p>
+						<div class="choices">
+							<button class="choice" onclick="showStep(visualsLow)">No</button>
+							<button class="choice" onclick="showStep(visualsMedium)">Yes</button>
+						</div>
+					</div>
+
+					<div id="visuals-low" class="building-block__tip">
+						<h3>Lower cost & effort</h3>
+						<p>Invest time and effort in a high-quality logo, and enjoy the nice theme, colour and typography choices you’ve made.</p>
+						<p>If available, use your articles’ figures and photos (but make sure to always request a hi-res version of them in PNG).</p>
+					</div>
+
+					<div id="visuals-medium" class="building-block__tip">
+						<h3>Higher cost & effort</h3>
+						<p>Find royalty-free photographs and illustrations: always in high-resolution PNG or SVG, without watermarks.</p>
+						<ul>
+							<li>Collect public domain images:
+								<ul>
+									<li>Public domain image banks:
+										<a href="https://publicdomainreview.org/collections/?medium=image" target="_blank" rel="noreferrer">The Public Domain Review</a>,
+										<a href="https://commons.wikimedia.org" target="_blank" rel="noreferrer">Wikimedia Commons</a>
+									</li>
+									<li>Local and national public library archives:
+									<a href="https://www.flickr.com/photos/britishlibrary" target="_blank" rel="noreferrer">British Library</a>
+									<a href="https://www.nypl.org/" target="_blank" rel="noreferrer">NY Public Library</a>
+									<a href="https://hagstromerlibrary.ki.se/" target="_blank" rel="noreferrer">The Hagströmer Medico-Historical Library</a>
+								</ul>
+							</li>
+							<li>Download royalty-free images:
+							<ul>
+								<li>Illustrations: <a href="https://undraw.co/" target="_blank" rel="noreferrer">Undraw</a></li>
+								<li>Photographs: <a href="https://unsplash.com/ " target="_blank" rel="noreferrer">Unsplash</a></li>
+							</ul>
+							</li>
+							<li>Create abstract patterns:
+							<ul>
+								<li>Blobs: <a href="https://www.blobmaker.app/" target="_blank" rel="noreferrer">Blobmaker</a></li>
+								<li>Triangles: <a href="https://trianglify.io/" target="_blank" rel="noreferrer">Trianglify</a></li>
+								<li>Gradients: <a href="https://gradient.shapefactory.co/" target="_blank" rel="noreferrer">ShapeFactory’s Gradient maker</a></li>
+								<li>More patterns: <a href="https://www.heropatterns.com/" target="_blank" rel="noreferrer">Hero Patterns</a></li>
+							</ul>
+							</li>
+						</ul>
+
+						<div class="choices" onClick="showStep(visualsMediumMore);">
+							<button class="choice">I want to further customise my images</button>
+						</div>
+
+						<div id="visuals-medium-more" class="building-block__tip-more">
+							<p>You could harmonise your images to match your site by editing them.</p>
+							<p><a href="https://duotone.shapefactory.co/" target="_blank" rel="noreferrer">ShapeFactory’s duotone app</a> lets you easily search images from Unsplash and colourise them with two of your selected hues.</p>
+							<p>Using a graphics editor, you can also filter and colourise your images using your chosen colour palette.</p>
+						</div>
+					</div>
+				</section>
+			</section>
+
+			<!-- Theme choices -->
+			<section class="container building-block">
+				<header class="building-block__header" onclick="showStep(theme);">
+					<h2>Theme</h2>
+				</header>
+
+				<section id="theme" class="building-block__body">
+					<div class="building-block__intro arrow">
+						<p><strong>Choose a theme that suits your journal’s identity.</strong></p>
+						<ul>
+							<!-- <li><a href="https://github.com/NateWr/defaultManuscript/releases" target="_blank" rel="noreferrer">Manuscript</a>, a child theme of Default with a boxed layout that mimics a paper document.</li> -->
+							<li><a href="https://github.com/pkp/healthSciences/releases" target="_blank" rel="noreferrer">Health Sciences</a>, a theme designed with a focus on text legibility and content clarity as well as an understated palette of light greys and white.
+								<ul>
+									<li><a href="https://sandbox.publicknowledgeproject.org/index.php/bcn2019health1/" target="_blank" rel="noreferrer">Demo 1</a></li>
+									<li><a href="https://sandbox.publicknowledgeproject.org/index.php/bcn2019health2/" target="_blank" rel="noreferrer">Demo 2</a></li>
+								</ul>
+							</li>
+							<li><a href="https://github.com/pkp/classic/releases" target="_blank" rel="noreferrer">Classic</a>, a theme that plays on colour and font contrasts based on literary classics’ book design and featuring a starkly contrasting black header and brand coloured-footer.
+								<ul>
+									<li><a href="https://sandbox.publicknowledgeproject.org/index.php/bcn2019classic1/" target="_blank" rel="noreferrer">Demo</a></li>
+								</ul>
+							</li>
+							<li><a href="https://github.com/pkp/immersion/releases" target="_blank" rel="noreferrer">Immersion</a>, a theme focussed on full-page images, large typefaces, and bold colour blocks tailored for journals with a focus on visuals.
+								<ul>
+									<li><a href="https://sandbox.publicknowledgeproject.org/index.php/bcn2019immersion1/" target="_blank" rel="noreferrer">Demo 1</a></li>
+									<li><a href="https://sandbox.publicknowledgeproject.org/index.php/bcn2019immersion2/" target="_blank" rel="noreferrer">Demo 2</a></li>
+								</ul>
+							</li>
+							<li><a href="https://github.com/pkp/pragma/releases" target="_blank" rel="noreferrer">Pragma</a>, a theme inspired by 60’s minimalism and early periodicals’ tables of contents featuring an extensive use of a monochromatic colour palette.
+								<ul>
+									<li><a href="https://sandbox.publicknowledgeproject.org/index.php/bcn2019pragma1/" target="_blank" rel="noreferrer">Demo</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<div class="building-block__cost-levels">
+						<p>Which theme would you like to use?</p>
+						<div class="choices">
+							<!-- <button class="choice" onclick="showStep(themeManuscript)">Manuscript</button> -->
+							<button class="choice" onclick="showStep(themeHealthSciences)">Health Sciences</button>
+							<button class="choice" onclick="showStep(themeClassic)">Classic</button>
+							<button class="choice" onclick="showStep(themeImmersion)">Immersion</button>
+							<button class="choice" onclick="showStep(themePragma)">Pragma</button>
+						</div>
+					</div>
+
+					<!-- <div id="theme-manuscript" class="building-block__tip">
+						<h3>Manuscript</h3>
+						<p>&hellip;and update your journal’s settings with the design choices you’ve made:</p>
+						<ul>
+							<li>Colour palette
+								<ul>
+									<li>Primary (base or brand) colour</li>
+									<li>Secondary (or accent) colour</li>
+								</ul>
+							</li>
+							<li>Typefaces <em>(optional, extra CSS needed)</em>
+								<ul>
+									<li>Font for headings</li>
+									<li>Font for body text</li>
+								</ul>
+							</li>
+							<li>Logo (with a transparent background)
+								<ul>
+									<li>PNG logo in black</li>
+									<li>PNG logo in white</li>
+									<li>PNG logo in your brand colour</li>
+								</ul>
+							</li>
+							<li>Visuals (make sure to check terms and restrictions on their use)
+								<ul>
+									<li>Collection of photographs</li>
+									<li>Collection of illustrations</li>
+									<li>Collection of patterns and abstract backgrounds</li>
+								</ul>
+							</li>
+						</ul>
+					</div> -->
+
+					<div id="theme-health-sciences" class="building-block__tip">
+						<h3>Health Sciences</h3>
+						<p>&hellip;and update your journal’s settings with the design choices you’ve made:</p>
+						<ul>
+							<li>Colour palette
+								<ul>
+									<li>Primary (base or brand) colour</li>
+								</ul>
+							</li>
+							<li>Typefaces <em>(optional, extra CSS needed)</em>
+								<ul>
+									<li>Font for headings</li>
+									<li>Font for body text</li>
+								</ul>
+							</li>
+							<li>Logo (with a transparent background)
+								<ul>
+									<li>PNG logo in black</li>
+									<li>PNG logo in your brand colour (make sure that the brand colour is accessible on a black background)</li>
+								</ul>
+							</li>
+							<li>Visuals (make sure to check terms and restrictions on their use)
+								<ul>
+									<li>Collection of photographs</li>
+									<li>Collection of illustrations</li>
+									<li>Collection of patterns and abstract backgrounds</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<div id="theme-classic" class="building-block__tip">
+						<h3>Classic</h3>
+						<p>&hellip;and update your journal’s settings with the design choices you’ve made:</p>
+						<ul>
+							<li>Colour palette
+								<ul>
+									<li>Primary (base or brand) colour (shows as link underlines & footer background)</li>
+								</ul>
+							</li>
+							<li>Typefaces <em>(optional, extra CSS needed)</em>
+								<ul>
+									<li>Font for headings</li>
+									<li>Font for body text</li>
+								</ul>
+							</li>
+							<li>Logo (with a transparent background)
+								<ul>
+									<li>PNG logo in black</li>
+									<li>PNG logo in your brand colour (make sure that the brand colour is accessible on a black background)</li>
+								</ul>
+							</li>
+							<li>Visuals (make sure to check terms and restrictions on their use)
+								<ul>
+									<li>Collection of photographs</li>
+									<li>Collection of illustrations</li>
+									<li>Collection of patterns and abstract backgrounds</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<div id="theme-immersion" class="building-block__tip">
+						<h3>Immersion</h3>
+						<p>&hellip;and update your journal’s settings with the design choices you’ve made:</p>
+						<ul>
+							<li>Colour palette
+								<ul>
+									<li>Primary (base or brand) colour</li>
+									<li>Secondary (or accent) colour (for section colour)</li>
+									<li>Tertiary (or accent) colour (for section colour)</li>
+								</ul>
+							</li>
+							<li>Typefaces <em>(optional, extra CSS needed)</em>
+								<ul>
+									<li>Font for headings</li>
+									<li>Font for body text</li>
+								</ul>
+							</li>
+							<li>Logo (with a transparent background)
+								<ul>
+									<li>PNG logo in black</li>
+									<li>PNG logo in white</li>
+									<li>PNG logo in your brand colour</li>
+								</ul>
+							</li>
+							<li>Visuals (make sure to check terms and restrictions on their use)
+								<ul>
+									<li>Collection of photographs</li>
+									<li>Collection of illustrations</li>
+									<li>Collection of patterns and abstract backgrounds</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<div id="theme-pragma" class="building-block__tip">
+						<h3>Pragma</h3>
+						<p>&hellip;and update your journal’s settings with the design choices you’ve made:</p>
+						<ul>
+							<li>Colour palette
+								<ul>
+									<li>Primary (base or brand) colour</li>
+								</ul>
+							</li>
+							<li>Typefaces <em>(optional, extra CSS needed)</em>
+								<ul>
+									<li>Font for headings</li>
+									<li>Font for body text</li>
+								</ul>
+							</li>
+							<li>Logo (with a transparent background; colour depends on your primary colour choice)
+								<ul>
+									<li>PNG logo in black</li>
+									<li>PNG logo in white</li>
+									<li>PNG logo in your brand colour</li>
+								</ul>
+							</li>
+							<li>Visuals (make sure to check terms and restrictions on their use)
+								<ul>
+									<li>Collection of photographs</li>
+									<li>Collection of illustrations</li>
+									<li>Collection of patterns and abstract backgrounds</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+				</section>
+			</section>
+		</main>
+		<footer>
+			<div class="container">
+				<p>Created for the <em>Beyond the Theme</em> workshop presented by <a href="https://github.com/NateWr" target="_blank" rel="noreferrer" title="Go to Nate’s Github page">Nate Wright</a> & <a href="https://github.com/sssoz" target="_blank" rel="noreferrer" title="Go to Sophy’s Github page">Sophy O.</a> (<a href="mailto:ouchsophy@gmail.com">ouchsophy@gmail.com</a>) on the 20<sup>th</sup> of November 2019 at PKP’s 2019 International Conference, Universitat Autònoma de Barcelona.</p>
+				<p><a href="https://github.com/sssoz/cyoa-ojs3-theming" target="_blank" rel="noreferrer">Contribute on Github</a></p>
+			</div>
+		</footer>
+
+		{% include analytics.html %}
+	</body>
+</html>
