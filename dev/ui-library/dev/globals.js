@@ -72,6 +72,7 @@ window.pkp = {
 		'common.confirm': 'Confirm',
 		'common.delete': 'Delete',
 		'common.edit': 'Edit',
+		'common.editItem': 'Edit {$name}',
 		'common.error': 'Error',
 		'common.filter': 'Filters',
 		'common.filterAdd': 'Add filter: {$filterTitle}',
@@ -124,7 +125,8 @@ window.$.pkp = {
 	app: {
 		currentLocale: 'en_US',
 		primaryLocale: 'en_US',
-		cdnEnabled: true
+		cdnEnabled: true,
+		rtlLocales: []
 	},
 	pkpHandler() {
 		alert(
