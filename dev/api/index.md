@@ -179,4 +179,4 @@ Technical references are available for the following software packages.
 > Documentation for the REST APIs in OMP and OPS is not yet available. These applications share many of the same endpoints as OJS, but the documentation has not yet been prepared.
 {:.notice}
 
-We use [Postman](https://www.getpostman.com/) to test our APIs. You can [import our OJS collection](/dev/api/OJS-api-postman-collection.json) (last updated 2020-02-03).
+We use [Postman](https://www.getpostman.com/) to test our APIs. You can [import our OJS collection](/dev/api/OJS-api-postman-collection.json) (last updated 2020-12-21).
