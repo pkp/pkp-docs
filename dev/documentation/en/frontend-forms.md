@@ -69,7 +69,7 @@ public function __construct($action, $locales, $context) {
 }
 ```
 
-> Every form field in the [UI Library](/dev/ui-library/) has an equivalent PHP class in `\PKP\components\forms`.
+> Every form field in the [UI Library](/dev/ui-library/dev) has an equivalent PHP class in `\PKP\components\forms`.
 {:.tip}
 
 Forms will be created by a `PageHandler` and passed to the `TemplateManager` as state. First, create an instance of the form by passing the URL where it should be submitted and the locales supported by the current context.
@@ -77,7 +77,7 @@ Forms will be created by a `PageHandler` and passed to the `TemplateManager` as 
 ```php
 // The URL where the form will be submitted
 $apiUrl = $request
-	->getDispacheter()
+	->getDispacher()
 	->url(
 		$request,
 		ROUTE_API,
@@ -275,7 +275,7 @@ $this->addField(new FieldRadioInput('copyrightHolderType', [
 	]));
 ```
 
-The UI Library includes an example of [conditional display](/dev/ui-library/dev/#/component/Form/ExampleConditionalDisplay).
+The UI Library includes an example of [conditional display](/dev/#/component/Form/with-conditional-display).
 
 ---
 

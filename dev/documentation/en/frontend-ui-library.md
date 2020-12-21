@@ -4,14 +4,14 @@ title: UI Library - Frontend - Technical Documentation - OJS/OMP
 
 # UI Library
 
-The [UI Library](/dev/ui-library/dev) is built with [Vue.js](https://vuejs.org/). It provides reusable components to create consistent, accessible user interfaces for all PKP applications. This chapter describes how to pass data into the root Vue.js component and manage state in the browser.
+> Read and understand the essentials section of the [Vue.js guide](https://vuejs.org/v2/guide/) before continuing.
+{:.tip}
 
-> This chapter describes how to integrate PKP's server-side application with Vue.js and the UI Library. It does not describe how to use Vue.js. Developers can learn about the Vue.js library by reading the Essentials section of the [Vue.js guide](https://vuejs.org/v2/guide/).
-{:.notice}
+The [UI Library](/dev/ui-library/dev) is built with [Vue.js](https://vuejs.org/). It provides reusable components to create consistent, accessible user interfaces for all PKP applications. This chapter describes how to pass data into the root Vue.js component and manage state in the browser.
 
 ## Page Component
 
-The [Page component](/dev/ui-library/dev/#/component/Page) is the root component on a page that manages data and passes props down to child components. Whenever using the backend template, a `Page` component is automatically mounted to the DOM. This means that global components can be used without any additional configuration.
+The [Page component](/dev/ui-library/dev/#/component/Page) is the root component on a page that manages data and passes props down to child components. Whenever a backend template is used, a `Page` component is automatically mounted to the DOM. This means that global components can be used without any additional configuration.
 
 ```html
 {extends file="layouts/backend.tpl"}
@@ -21,7 +21,7 @@ The [Page component](/dev/ui-library/dev/#/component/Page) is the root component
 {/block}
 ```
 
-When the template does not need to change after it is loaded on the page, use the Smarty syntax to display that information. The template below displays a badge when a submission is published.
+Smarty syntax can be mixed with components from the UI Library. The template below shows a badge when a submission is published.
 
 ```html
 {extends file="layouts/backend.tpl"}
@@ -33,31 +33,16 @@ When the template does not need to change after it is loaded on the page, use th
 {/block}
 ```
 
-When the template may change after it is loaded on the page, use the Vue.js template syntax to show or hide information. Vue.js will update the template without refreshing the page.
-
-The example below will show or hide the badge when the submission's publication status changes.
-
-```html
-{extends file="layouts/backend.tpl"}
-
-{block name="page"}
-	<badge
-		v-if="isPublished"
-		:is-success="true"
-	>
-		Published
-	</badge>
-{/block}
-```
+Sometimes the publication status will change before the Smarty template is reloaded. When actions are taken in the browser that change the publication status, we need to show or hide the `<badge>` by using state.
 
 ## State
 
-Data that may change after the page is loaded is called **state**. For example, when an editor publishes or unpublishes a submission the template needs to update to reflect the new submission status.
+Data that may change after the page is loaded is called state. For example, when an editor publishes or unpublishes a submission the template needs to update to reflect the new submission status.
 
-> In Vue.js terminology, state represents the `data` properties that are passed into the root component when the page is loaded.
+> State is another name for the `data` properties of the root Vue.js component.
 {:.tip}
 
-Initialize state on the server side by using the `setState` method to pass data to the `Page` component.
+Initialize state on the server by using the `setState` method to pass data to the `Page` component.
 
 ```php
 class WorkflowHandler extends Handler {
@@ -86,7 +71,11 @@ State can be accessed in templates by using the [Vue.js template syntax](https:/
 {/block}
 ```
 
-State should only be used when data changes in the browser, without a full-page reload, and the UI must update to reflect that change. It is not always easy to determine which data should be managed by Vue.js as state and which data should be managed by Smarty as static template data.
+Use the Vue.js dev tools for [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/vue-js-devtools/) or [Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en) to toggle state and see how the template changes.
+
+![Video showing changing state in the browser](../img/state.gif)
+
+State should only be used when data changes the UI must update to reflect that change without reloading the page. It is not always easy to determine which data should be managed by Vue.js as state and which data should be managed by Smarty.
 
 To help make the distinction, consider a city street. At any given moment, the number and location of cars on the street will change. But the boundaries of the street and the direction of travel will not.
 
