@@ -61,6 +61,10 @@ class IssueGridHandler {
 
 API Handlers automatically check the CSRF token for all `POST`, `PUT` or `DELETE` requests. No additional action must be taken.
 
+## UI Library
+
+A CSRF token is available as a global variable when working with the UI Library. Learn more about using the [CSRF Token](/dev/ui-library/dev/#/pages/csrf) in ajax requests.
+
 ## User Session
 The user's session stores a logged-in user's IP address, last-used date/time and more. You can access the current user's session directly.
 

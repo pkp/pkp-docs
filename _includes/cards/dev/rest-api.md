@@ -5,4 +5,4 @@ Helpful hints and complete technical references for using OJS 3's REST API. [Vie
 
 ---
 
-References: [3.2](/dev/api/ojs/3.2), [3.1.x](/dev/api/ojs/3.1)
+References: [3.3](/dev/api/ojs/3.3), [3.2](/dev/api/ojs/3.2), [3.1](/dev/api/ojs/3.1)
