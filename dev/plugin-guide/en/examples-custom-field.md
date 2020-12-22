@@ -54,7 +54,7 @@ class InstitutionalHomePlugin extends GenericPlugin {
     }
 
     // Don't do anything at the site-wide level
-		$context = Application::getRequest()->getContext();
+		$context = Application::get()->getRequest()->getContext();
 		if (!$context) {
 			return;
     }

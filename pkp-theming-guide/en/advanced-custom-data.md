@@ -62,7 +62,7 @@ class DocsThemePlugin extends ThemePlugin {
 		$templateMgr = $args[0];
 
 		// Attach the latest 3 announcements if they're enabled for this journal
-		$request = Application::getRequest();
+		$request = Application::get()->getRequest();
 		$journal = $request->getJournal();
 		if ($journal && $journal->getSetting('enableAnnouncements') {
 			$announcementDao = DAORegistry::getDAO('AnnouncementDAO');
@@ -107,7 +107,7 @@ class DocsThemePlugin extends ThemePlugin {
 		}
 
 		// Attach the latest 3 announcements if they're enabled for this journal
-		$request = Application::getRequest();
+		$request = Application::get()->getRequest();
 		$journal = $request->getJournal();
 		if ($journal && $journal->getSetting('enableAnnouncements')) {
 			$announcementDao = DAORegistry::getDAO('AnnouncementDAO');
