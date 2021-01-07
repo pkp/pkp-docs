@@ -27,21 +27,30 @@ Services::get('file')->delete($fileId);
 Get the relative path to a file in the file directory.
 
 ```php
-$path = Services::get('file')->getPath($fileId);
+$file = Services::get('file')->get($fileId);
+$path = $file->path;
 ```
 
 Download a file in the file directory.
 
 ```php
-Services::get('file')->download($fileId, 'my-special-file.txt');
+$downloadFileAs = 'my-special-file.txt';
+Services::get('file')->download($file->path, $downloadFileAs);
 ```
 
 Generate a safe filename from any string.
 
 ```php
 $title = $publication->getLocalizedFullTitle();
-$path = Services::get('file')->getPath($fileId);
-$filename = Services::get('file')->formatFilename($path, $title);
+$file = Services::get('file')->get($fileId);
+$filename = Services::get('file')->formatFilename($file->path, $title);
+```
+
+Get the mimetype of a file.
+
+```php
+$file = Services::get('file')->get($fileId);
+$mimetype = $file->mimetype;
 ```
 
 File relationships in the database should always refer to the `file_id` in the `files` table. Use a foreign key when possible.
@@ -53,17 +62,17 @@ The File Service is a small wrapper around [Flysystem 1.x](https://flysystem.the
 Check if a file exists.
 
 ```php
-$path = Services::get('file')->getPath($fileId);
-if (Services::get('file')->fs->has($path)) {
+$file = Services::get('file')->get($fileId);
+if (Services::get('file')->fs->has($file->path)) {
 	...
 }
 ```
 
-Get the mimetype of a file.
+Get the size of a file.
 
 ```php
-$path = Services::get('file')->getPath($fileId);
-$mimetype = Services::get('file')->fs->getMimetype($path);
+$file = Services::get('file')->get($fileId);
+$size = Services::get('file')->fs->getSize($file->path);
 ```
 
 By default, the File Service instantiates the [local file system adaptor](https://flysystem.thephpleague.com/v1/docs/adapter/local/) and configures it to use the `files_dir` directory. Adaptors are available for other file systems such as AWS and Azure. Use the Flysystem API, not PHP's file functions, in order to ensure operations are compatible with all of the filesystem adaptors.
