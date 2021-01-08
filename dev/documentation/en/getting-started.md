@@ -11,12 +11,16 @@ This section will describe how to install the application, contribute changes, a
 
 ## Technical Requirements
 
-- PHP 7.0+
+The following requirements must be met to run the software from the GitHub repositories. Read the [Admin Guide](http://localhost:4000/admin-guide/en/managing-the-environment) if you are installing from a release package.
+
+- PHP 7.3+
 - MySQL 4.1+ _or_ PostgreSQL 9.1.5+
+
+If you are using Windows, you may need to install GNU Patch and add it to your system's `PATH` environment variable.
 
 ## Install
 
-Fork and clone the [OJS](https://github.com/pkp/ojs) or [OMP](https://github.com/pkp/omp) repository on GitHub. (How to [fork and clone a repository on GitHub](https://help.github.com/en/articles/fork-a-repo).)
+Fork and clone the [OJS](https://github.com/pkp/ojs), [OMP](https://github.com/pkp/omp), or [OPS](https://github.com/pkp/ops) repository on GitHub. (How to [fork and clone a repository on GitHub](https://help.github.com/en/articles/fork-a-repo).)
 
 From your terminal, navigate to the application's root directory and run the following command to check out the submodules:
 

@@ -50,7 +50,7 @@ class InternalIssueIdPlugin extends GenericPlugin {
 
     // 1. ...only when it is the issue template.
     if ($template !== 'frontend/pages/issue.tpl') {
-      return;
+      return false;
     }
 
     // 2. Get the `issue` object from the assigned template variables.
@@ -60,7 +60,9 @@ class InternalIssueIdPlugin extends GenericPlugin {
     $internalIssueId = $this->getSetting($contextId, 'issueInternalId' . $issue->getId());
 
     // 4. Assign the internal issue id for use in the template.
-    $templateMgr->assign('internalIssueId', $internalIssueId);
+		$templateMgr->assign('internalIssueId', $internalIssueId);
+
+		return false;
   }
 }
 ```
