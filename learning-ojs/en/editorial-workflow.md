@@ -212,7 +212,7 @@ You can now see that the Section Editor is listed under Participants, and the Ac
 
 **Accept and Skip Review**: Skips the Review Stage and moves the submission directly into Copyediting.
 
-**Decline Submission**: Rejects the submission before going through the review process. The submission would then be archived.
+**Decline Submission**: Rejects the submission before going through the review process. The submission would then be archived. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active. 
 
 Although in this example, the editor assigned a section editor, it would also be possible for the editor to assign themselves to the submission.
 
@@ -474,7 +474,8 @@ Options include:
 
 **Accept Submission**: This means the submission is accepted without revisions and can proceed to the Copyediting stage.
 
-**Decline Submission**: This means that the submission has not passed peer review and is unsuitable for further consideration. The submission would then move to the Archives.
+**Decline Submission**: This means that the submission has not passed peer review and is unsuitable for further consideration. The submission would then move to the Archives. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active. 
+
 
 ### Request Revisions
 
