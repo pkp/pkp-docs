@@ -4,11 +4,21 @@ version: 3.2
 ---
 # Workflow Settings
 
-The Workflow Settings allow you to configure various parts of the journal's editorial workflow. The workflow setting has 4 main tabs.
+The Workflow Settings allow you to configure various parts of the journal's editorial workflow. The workflow setting has 5 main tabs.
 
 ## Submission
 
 Use this section to configure the submission process.
+
+### Disable Submissions
+
+A journal manager will be able to disable submissions for the entire section or disable submissions to a specific section or for the journal as a whole. 
+
+Once the setting is enabled, a notification is displayed indicating that submissions have been disabled. When this setting is enabled, users will no longer be able to make submissions in the journal. 
+
+![](./assets/learning-ojs3.3-workflow-disable-submissions.png)
+![](./assets/learning-ojs3.3-workflow-disable-submissions-notification.png)
+
 
 ### Metadata
 
