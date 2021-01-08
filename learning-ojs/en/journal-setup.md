@@ -66,6 +66,12 @@ All of your existing sections will appear here. OJS requires at least one sectio
 
 ![](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
 
+Submissions can also be disabled for individual sections. This can be done in instances where a section is no longer being used, in order to prevent articles from being submitted to a particular section. 
+
+A section can be marked as “Inactive” in the section settings: 
+
+![](./assets/learning-ojs3.3-section-setting-inactive.png)
+
 You can modify sections by clicking on the blue arrow to the left of the section name. This will reveal options to edit or delete the section.
 
 ### Edit a Section
@@ -84,11 +90,11 @@ From here, you can change the name or abbreviation of the section.
 
 For example, an Editorial section will not typically be peer-reviewed.
 
-If you have a section that is no longer active, you can check off "Items can only be submitted by Editors and Section Editors" and then authors will not be able to submit to it.
+Submissions can also be disabled for individual sections. This can be done in instances where a section is no longer being used, in order to prevent articles from being submitted to a particular section. 
 
 You can check off "Will not be included in the indexing of the journal" for sections that contain front matter, back matter, and anything else that might clutter the search index unnecessarily.
 
-![](./assets/learning-ojs-3.2-settings-section-options.png)
+![](./assets/learning-ojs3.3-section-options.png)
 
 **Identify items published in this section as a\(n\)**: This is used by some systems. Note that it is not a required field.
 
