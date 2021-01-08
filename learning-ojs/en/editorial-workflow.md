@@ -116,7 +116,9 @@ To view the submission in more detail, select **View Submission** button. This w
 
 From here, you can see:
 
-**Submission Files**: This panel lists the files that have been submitted. In this view, there is just one file, but multiple files could have been submitted.
+**Submission Files**: This panel lists the files that have been submitted. In this view, there is just one file, but multiple files could have been submitted. Submission files will now retain the original names when downloaded. 
+
+For journals using anonymous review, the author and reviewer (if they were to upload any document) are still removed. An example filename structure for files downloaded by Reviewers will be  ```ojs-review-assignment-1-article-text-8.docx``` The numeric number corresponds with the manuscript number of assignment. 
 
 **Pre-Review Discussions**: This panel allows the editor to communicate with the author, or with others on the editorial team. For example, to ask the author for some additional information, or to ask a section editor to take responsibility for this submission.
 
