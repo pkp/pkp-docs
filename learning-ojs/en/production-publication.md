@@ -201,7 +201,7 @@ The HTML page should also contain the exact name of the file you are connecting 
 
 You will need to save the audio/video/image file in MP3/MP4/JPEG/GIF format using the name in the HTML page.
 
-Your HTML file will need to contain the following minimum code (for audio files). For the related video or image file code, please see the w3schools instructions on embedding video in HTML or instructions on embedding images in HTML.
+Your HTML file will need to contain the following minimum code (for audio files). For the related video or image file code, please see the w3schools instructions on [embedding video in HTML](https://www.w3schools.com/html/html5_video.asp) or instructions on [embedding images in HTML](https://www.w3schools.com/html/html_images.asp).
 
 ```html
 <html>
