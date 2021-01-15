@@ -13,9 +13,9 @@ This document provides step-by-step instructions for Journal Managers and Admini
 ## What does the ORCID plugin do?
 
 The ORCID Profile Plugin for OJS/OPS versions 3.1.2 and above allows an OJS journal and an OPS preprint server to:
--Collect and authenticate a contributor’s ORCID iD using the ORCID API ([ORCID member organizations](https://orcid.org/members) can use the ORCID Member API, non-member organizations can use the ORCID Public API - see descriptions of each API below).
--Automatically send an email to contributors requesting their ORCID iD authentication.
--Display a contributor’s authenticated ORCID iD on the journal article or preprint page, which will link to the contributor’s ORCID record. For example:
+* Collect and authenticate a contributor’s ORCID iD using the ORCID API ([ORCID member organizations](https://orcid.org/members) can use the ORCID Member API, non-member organizations can use the ORCID Public API - see descriptions of each API below).
+* Automatically send an email to contributors requesting their ORCID iD authentication.
+* Display a contributor’s authenticated ORCID iD on the journal article or preprint page, which will link to the contributor’s ORCID record. For example:
 
 ![Image of journal displaying authenticated iDs on the article page](./assets/orcid-id-example.png)*Example of a journal displaying authenticated iDs on the article page*
 
@@ -23,4 +23,4 @@ Member API only: Sends publication details to  the “works” section of a cont
 
 ![Image of ORCID displaying the source of an entry in an ORCID record](./assets/orcid-publication-source.png)*Image of ORCID displaying the source of an entry in an ORCID record*
 
-When a work is added to an ORCID record, the "source" is displayed as well. If a person adds a work to their own record, the "source" will be the person's name. If a work is added via API as in the case of OJS, the "source" will appear as whatever "client name" is entered when the ORCID API credentials are requested.If the ORCID plugin is being used for just a single journal, the source/client name is usually just the name of the journal. If the ORCID plugin is used for multiple journals on the same instance, then the source/client name would need to be something more broad, like "Univ. of XYZ Open Journals"
+When a work is added to an ORCID record, the "source" is displayed as well. If a person adds a work to their own record, the "source" will be the person's name. If a work is added via API as in the case of OJS, the "source" will appear as whatever "client name" is entered when the ORCID API credentials are requested.If the ORCID plugin is being used for just a single journal, the source/client name is usually just the name of the journal. If the ORCID plugin is used for multiple journals on the same instance, then the source/client name would need to be something more broad, like "Univ. of XYZ Open Journals."
