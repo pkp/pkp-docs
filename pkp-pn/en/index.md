@@ -52,8 +52,6 @@ The PKP PN plugin will start packaging content to be deposited within 24 hours t
 
 The PKP PN plugin does not currently support the deposit of individual articles that are not assigned to an issue. The plugin will check for any changes or updates (after the creation of the deposit). If there is a change to a deposited article or new article has been assigned to a deposited issue, the plugin automatically resets the deposit so that the next time the "depositor" is executed, this issue gets redeposited.
 
-Back issues will be deposited in the archive when you enable the plugin.
-
 ### Reset
 
 The reset option for the issue deposit will repackage and send the files to the staging server for reprocessing. This can be done if there is an error indicated.
@@ -108,10 +106,6 @@ To check your archiving status externally, please visit the [Keepers Registry](h
 Please note, the Keepers Registry updates its holdings data from the PKP PN monthly.
 
 ![Image demonstrating a Keepers Registry record](./assets/pkp-pn-keepers-registry.png)
-
-### Leaving the PKP PN
-
-If you want to cease depositing your content in the PKP PN, simply disable the plugin. The content you already deposited will remain in the archive.
 
 ## Troubleshooting
 

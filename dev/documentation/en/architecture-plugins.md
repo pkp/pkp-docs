@@ -48,7 +48,3 @@ Plugins in the Generic category are loaded with every request and do not need to
 ## Hooks
 
 Generic plugins use Hooks to modify the application behavior. Care should be taken to ensure that hooks are available at key parts of the [Request Lifecycle](./architecture-request) to ensure that the application can be modified safely by third-party plugins.
-
----
-
-The next section moves on to the application frontend. Learn how to [deliver HTML to the browser and build interactive interfaces](./architecture-frontend).

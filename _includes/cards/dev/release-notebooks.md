@@ -5,4 +5,4 @@ Essential guidance on changes to the application code for each new release. [Vie
 
 ---
 
-Notebooks: [3.3](/dev/release-notebooks/en/3.3-release-notebook), [3.2](/dev/release-notebooks/en/3.2-release-notebook)
+Notebooks: [v3.2](/dev/release-notebooks/en/3.2-release-notebook)

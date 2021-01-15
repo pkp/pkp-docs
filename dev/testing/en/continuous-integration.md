@@ -4,13 +4,13 @@ title: Continuous Integration - Testing - OJS/OMP
 
 # Continuous Integration
 
-We use [Travis CI](https://travis-ci.com) for Continuous Integration (CI) testing. Integration and unit tests are run against every commit and pull request to help catch regressions before they are released.
+We use [Travis CI](https://travis-ci.org) for Continuous Integration (CI) testing. Integration and unit tests are run against every commit and pull request to help catch regressions before they are released.
 
 CI tests are configured to run the tests against multiple PHP versions and databases. The configuration details are stored in the `.travis.yml` file in the application's root directory.
 
 ![Screenshot of OJS test result in Travis.](./travis-overview.png)
 
-View the tests for [OJS](https://travis-ci.com/pkp/ojs/), [OMP](https://travis-ci.com/pkp/omp/) and [OPS](https://travis-ci.com/pkp/ops/).
+View the tests for [OJS](https://travis-ci.org/pkp/ojs/) and [OMP](https://travis-ci.org/pkp/omp/).
 
 ## Tests for pull requests
 

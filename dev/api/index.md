@@ -12,6 +12,9 @@ Skip to the [technical references](#references).
 
 The REST API will respond to HTTP requests with the requested data in JSON format. When receiving `POST` or `PUT` requests, it expects to receive a payload formatted in JSON.
 
+> The REST API is in early stages of development. The [Compatibility and Maintenance](#compatibility-and-maintenance) section provides some guidance for long-term maintenance of third-party applications built using the API.
+{:.warning}
+
 ## Access the API
 
 Use the following to access the `/submissions` endpoint when an application is hosted at `https://example.com/`.
@@ -50,9 +53,7 @@ Only authenticated users can access the REST API endpoints. Authentication can b
 
 ### Cookies
 
-Cookie-based authentication can be used when you are making a request from the same domain name as the application. When a request is made from the user's browser, the browser will send the cookies to the server.
-
-A CSRF token must be sent with every `POST`, `PUT` or `DELETE` request when using cookie-based authentication. Read more about the [CSRF Token](http://localhost:4000/dev/ui-library/dev/#/pages/csrf).
+Cookie-based authentication can be used when you are making a request from the same domain name as the application. No special authentication is required. When a request is made from the user's browser, the browser will send the cookies to the server.
 
 ### API Token
 
@@ -74,12 +75,6 @@ The base endpoint for an entity will return a list of those entities. Typically,
 The following will return only submissions that have been submitted to sections with an ID of `1` or `2`.
 
 ```
-https://example.com/api/v1/submissions?sectionIds[]=1&sectionIds[]=2
-```
-
-When a query parameter is accepted as an array, it will often accept the parameter as a comma-separated string.
-
-```
 https://example.com/api/v1/submissions?sectionIds=1,2
 ```
 
@@ -99,11 +94,11 @@ The following will return the second "page" of results, if each page contained 3
 https://example.com/api/v1/submissions?count=30offset=30
 ```
 
-Consult the [API Reference](#references) for a full list of supported query parameters.
+Consult the [API Reference](#references) for full specifiation of supported query parameters.
 
 ## Multiple Languages
 
-All PKP applications are multilingual. Multilingual fields will be provided as a JSON object with keys specifying the locale codes. The following response shows the `title` property of a publication in English and Canadian French.
+All PKP applications are multilingual. Multilingual fields will be provided as a JSON object with keys specifying the locale codes. The following response shows the `title` property of a submission in English and Canadian French.
 
 ```
 {
@@ -115,7 +110,7 @@ All PKP applications are multilingual. Multilingual fields will be provided as a
 }
 ```
 
-This is the same even when an installation only uses a single language.
+This is the same even when an installation only uses a single language:
 
 ```
 {
@@ -126,7 +121,7 @@ This is the same even when an installation only uses a single language.
 }
 ```
 
-When sending `POST` or `PUT` requests, the REST API will expect the data it receives to be passed in the same format.
+When sending `POST` or `PUT` requests, the REST API will expect the data it receives to be broken down by locale.
 
 ## API Links
 
@@ -135,15 +130,14 @@ Some responses will include a `_href` property. The value of this property will 
 ```
 {
 	"_href": "http://example.com/api/v1/submissions/219"
-	...
 }
 ```
 
-## Temporary Files
+## Upload Files
 
-Files can be uploaded by sending a `POST` request to the `/temporaryFiles` endpoint. It will return a file ID which can be used in subsequent requests. Let's look at an example.
+All files are uploaded by sending a `POST` request to the `/temporaryFiles` endpoint. It then returns a file ID which can be used in subsequent requests. Let's look at an example.
 
-To upload a logo for a context (journal, press, or preprint server),  upload the image by sending a `POST` request to `/temporaryFiles`. A successful upload will generate the following response:
+To upload a logo for a context (journal or press),  upload the image by sending a `POST` request to `/temporaryFiles`. A successful upload will generate the following response:
 
 ```
 {
@@ -166,19 +160,23 @@ The file will be moved from the temporary directory to its public location, over
 
 Temporary files can only be managed by the **the user who uploaded the file**. If a user passes a `temporaryFileId` for a file they did not upload themselves, they will receive an authorization error.
 
-## Unstable Endpoints
+## Compatibility and Maintenance
 
-A few of the REST API endpoints are for internal use only and may be changed without notice. These endpoints are grouped in the **Backend** section of the references. Developers should expect that any integrations which make use of these endpoints could break from one version to the next.
+The REST API is still under active development. The development path will follow our own needs as we refactor our UI to work with the API. Our goal is to eventually run the entire application through the API, so that all functionality is exposed to third-party applications.
+
+To make it easier to maintain third-party plugins and applications, we will maintain a changelog in the [reference](#references) for each version of the API.
+
+However, changes to the endpoints under the **Backend** category in the reference may not be documented. Use them at your own peril.
+
+We plan to add endpoints as quickly as possible. If you need an endpoint that is not available, and are willing to contribute code to put it into place, please [open an issue](https://github.com/pkp/pkp-lib/issues/new). We welcome community contributions and will work with you to ensure the specification is one that we can stand by over time with minimal disruption.
 
 ## References
 
-Technical references are available for the following software packages.
+The following technical references are available for different versions of the API.
 
-- [OJS 3.3](ojs/3.3)
 - [OJS 3.2](ojs/3.2)
-- [OJS 3.1](ojs/3.1)
+- [OJS 3.1.x](ojs/3.1)
 
-> Documentation for the REST APIs in OMP and OPS is not yet available. These applications share many of the same endpoints as OJS, but the documentation has not yet been prepared.
-{:.notice}
+We use [Postman](https://www.getpostman.com/) to test our APIs. You can [import our OJS collection](/dev/api/OJS-api-postman-collection.json) (last updated 2020-02-03).
 
-We use [Postman](https://www.getpostman.com/) to test our APIs. You can [import our OJS collection](/dev/api/OJS-api-postman-collection.json) (last updated 2020-12-21).
+_Sorry, OMP's API documentation is not yet available. Many of the OJS endpoints are available but we haven't yet documented this._

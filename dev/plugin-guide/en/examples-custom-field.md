@@ -38,8 +38,6 @@ class InstitutionalHomePlugin extends GenericPlugin {
 			'multilingual' => true,
 			'validation' => ['nullable']
 		];
-
-		return false;
   }
 
   /**
@@ -54,7 +52,7 @@ class InstitutionalHomePlugin extends GenericPlugin {
     }
 
     // Don't do anything at the site-wide level
-		$context = Application::get()->getRequest()->getContext();
+		$context = Application::getRequest()->getContext();
 		if (!$context) {
 			return;
     }
@@ -65,8 +63,6 @@ class InstitutionalHomePlugin extends GenericPlugin {
 			'groupId' => 'publishing',
 			'value' => $context->getData('institutionalHome'),
 		]));
-
-		return false;
 	}
 }
 ```

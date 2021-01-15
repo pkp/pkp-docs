@@ -243,9 +243,7 @@ class ExamplePlugin extends GenericPlugin {
   }
 
   public function doSomething($hookName, $args) {
-		// Do something...
-
-		return false;
+    // Do something...
   }
 }
 ```
