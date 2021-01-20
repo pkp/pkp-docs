@@ -64,7 +64,21 @@ When you log into your Dashboard, you can find active submissions either from yo
 
 The **Search** tool for each queue can sometimes be helpful in tracking down submissions.
 
-The **Filter** tool allows you to limit your browsing to specific status (e.g., incomplete, overdue,inactive for 30 days) stages (submission, review, copyediting, production), or sections (e.g., articles, reviews) for faster searching.
+The **Filter** tool allows you to limit your browsing to specific conditions for faster searching. Depending on their role, editorial roles will be able to filter by the following:
+
+- __Status:__ select from _incomplete_, _overdue_, and _inactive for 30 days_
+
+- __Stages:__ select from _submission_, _review_, _copyediting_, and _production_
+
+- __Sections:__ this option is only available if more than 5 sections exist. After you begin entering text, the filter will auto-suggest. For example, filter by _articles_ or _reviews_
+
+- __Assigned editor(s):__ only journal managers have this filter options. Like sections, this is a textbox with auto-suggest
+
+- __Assigned issue:__ only journal managers can filter by unpublished issues, but editors and assistants will be able to filter by published issues. This field is case-sensitive and require exact match. For best results, search by year or title, rather than volume or number. This filter is mostly used if the assignment of a submission to an issue is done in an early phase of the editorial process. 
+
+Some filters allow multiple selections; users can filter by more than one editor, section or issue. Filters are applied with OR conditions, so when a user selects to filter by Editor A and Editor B, all submissions will be returned that are assigned to editor A OR editor B.
+
+When using multiple filters, the AND condition will be applied between filters. For example, when filtering by Review Stage AND Editor A, only submissions assigned to Editor A in the review stage will be returned.
 
 ![](./assets/learning-ojs3.2-ed-dashboard-filter.png)
 
@@ -88,7 +102,7 @@ This section includes a list of all submissions, without being organized into qu
 
 ### Archived
 
-This section includes a list of all submissions either rejected or already published by the journal.
+This section includes a list of all submissions either rejected or already published by the journal. The filters described above in My Queue are also applicable here.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-archive.png)
 
