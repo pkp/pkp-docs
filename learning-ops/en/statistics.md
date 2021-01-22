@@ -12,7 +12,7 @@ There are a number of identified improvements that will be made towards statisti
 
 The Preprints section provides a visual display as well as a table format of preprint activity.  The visual graphic can be changed from Monthly or Daily view. While the table format will allow you to filter the Total in ascending or descending order. As well as changed to view Abstract and File activity.
 
-![](./assets/learning-ops-statistics-preprints-report.png)
+![Screenshot of visual graph and table of the Preprint Report](./assets/learning-ops-statistics-preprints-report.png)
 
 There are also a number of filters that can be used including date range and section. The search bar under Preprint Details can be used to search for the activity of a specific preprint manuscript.
 
@@ -20,13 +20,13 @@ There are also a number of filters that can be used including date range and sec
 
 The Editorial activity statistics provides a visual graph and trend table with a summary of the editorial activity for your Server. This can be filtered for a specific date range.
 
-![](./assets/learning-ops-statistics-editorial-report.png)
+![Screenshot of Editorial Activity Report](./assets/learning-ops3.3-statistics-editorial-report.png)
 
 ## Users
 
 Provides a summary of the number of users registered in your server and by roles.
 
-![](./assets/learning-ops-statistics-users-report.png)
+![Screenshot of User Report](./assets/learning-ops-statistics-users-report.png)
 
 ## Report Generator
 
