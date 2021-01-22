@@ -1,6 +1,8 @@
 
 ### Getting Started
 
-Start with our [Frequently Asked Questions (FAQ)](/faq/) on how to use PKP software and common troubleshooting issues.
+[Frequently Asked Questions (FAQ)](/faq/): How to use PKP software and common troubleshooting issues.
 
-If you're launching a new journal, there's an [easy-to-follow checklist](/starting-a-journal/) of all the steps you'll need to take.
+[Launch a new journal](/starting-a-journal/): A step-by-step checklist.
+
+[Journal policies and workflows](/journal-policies-workflows/): A guide to common journal practices.
