@@ -27,7 +27,6 @@ You can bypass the workflow in OJS using the QuickSubmit plugin ([Learning OJS >
 You should also disable submissions on your OJS site to prevent authors from inadvertently submitting their work there. To disable new submissions to the journal, you will need to be in the Journal Manager role. You can do it in two ways:
 
 -   Disable submission per section [as described in the Learning OJS 3 guide](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#create-section)
-    
 -   Remove the “Make a Submission Block” from the user interface in [Settings > Website > Appearance > Setup > Sidebar](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#setup) and/or disable the “Make a Submission Block” in [Settings > Website > Plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#installed-plugins)   
 
 ## Using OJS to publish conference proceedings
@@ -37,9 +36,7 @@ PKP froze development of Open Conference Systems (OCS), our original conference 
 Some considerations for publishing conference proceedings include:
 
 -   Will you use OJS for peer review and editing of the conference proceedings, or just the final publication? See “Using OJS for publishing only” if you don’t plan to use the editorial workflow.
-    
 -   Will you publish video or audio recordings of the sessions, or just conference papers and / or PowerPoints? See our [OJS documentation on publishing multimedia files](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#multimedia-files) for information about publishing audio and video.
-    
 -   You may need to modify labels in the journal to indicate that the site is for a “conference” rather than a “journal.” You can use the [Custom Locale Plugin](https://docs.pkp.sfu.ca/translating-guide/en/customize-locale) to make customizations to the text displayed in the journal site.
     
 ## Continuous publishing
