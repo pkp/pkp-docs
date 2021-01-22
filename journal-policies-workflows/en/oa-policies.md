@@ -1,4 +1,4 @@
-# Open Access Policies
+# Open access policies
 
 ## Open access vs subscription journals
 
@@ -7,7 +7,7 @@ Open Access (OA) has a variety of definitions, but essentially it refers to publ
 In addition to making the work freely available online, permission must be granted for users to download, share, and distribute the work, providing they give credit to the original author. This permission is usually granted through Creative Commons licensing, described below.
 
 By contrast, Subscription journals restrict access to the journal’s contents to a limited audience by charging for access - typically through individual or institutional subscription fees - and by limiting the ways the journal content can be distributed and shared without seeking permission from the copyright holder.
- 
+
 ### Why to make your journal open access
 
 Many benefits of OA have been well documented, such as the citation advantage, more widespread access, and recognition by funders (to name a few).
@@ -31,5 +31,5 @@ Increasingly, many funding agencies have recognized the value of OA and have req
 ### How to write an OA statement and policy for the journal
 
 An OA statement should state a journal’s commitment to OA. For example, the Journal of Copyright in Education and Librarianship’s OA statement reads:
-  
+
 “JCEL provides immediate open access to published content in support of the idea that free access to research helps support the exchange of knowledge and ideas. All articles will be published under [Creative Commons](https://creativecommons.org/) licenses. In order to lower barriers to publication for authors, JCEL does not charge any form of author fees. JCEL is published through the support of our generous sponsors.”
