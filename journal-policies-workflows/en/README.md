@@ -8,7 +8,7 @@ This guide provides an overview of common journal policies and workflows and how
 
 ## Contributors
 
-Mariya Maistrovskaya, Amanda Stevens, Roger Gillis
+Mariya Maistrovskaya, Amanda Stevens, Roger Gillis, Kate Shuttleworth
 
 <hr>
 
