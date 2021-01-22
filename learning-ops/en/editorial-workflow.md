@@ -54,7 +54,7 @@ If your server chooses to assign moderators to screen submissions before they ar
 
 Selecting the arrow next to a user’s name shows the list of options, which include ‘Remove’, ‘Edit’, ‘Notify’ (this option will create a new Discussion), and ‘Login As’.
 
-![](./assets/learning-ops-editorial-workflow-participants.png)
+![](./assets/learning-ops3.3-editorial-workflow-participants.png)
 
 It’s possible to add a new participant to the submission by selecting the ‘Assign’ button. When assigning a moderator it’s possible to allow for them to view and edit submission metadata (this option is selected by default) and/or to only recommend an editorial decision, in which case a Server Manager or another Moderator needs to record the decision to either post or decline the submission.
 
