@@ -3,7 +3,7 @@
 OJS can be used for the entire journal management process, from submissions through to final publication of issues. However, some journals choose to use OJS for only one stage of publishing - for example, to manage the submission workflow when publishing elsewhere on an external site, or to publish work on the OJS site when the workflow is managed outside of OJS. OJS can also be used to publish conference proceedings, and some journals choose to publish article-by-article, rather than collecting articles into an issue before publishing. We have outlined each of these use cases below.
 
 
-### Using OJS for submission workflow only
+## Using OJS for submission workflow only
 
 Your journal may choose to use OJS to manage the submission workflow and coordinate communications between editors and authors as work moves through submission, peer review, copyediting, and other aspects of the editorial and publishing workflow. If you are only using OJS to manage your submission workflow and not publish your content, you can do the following:
 
@@ -18,7 +18,7 @@ It is recommended that even if you are not publishing your articles and issues o
 
 As well, if you are using a tool like the [ORCID Profile plugin](https://docs.pkp.sfu.ca/orcid/en/) or the [PKP PN](https://docs.pkp.sfu.ca/pkp-pn/), it will send the records to their respective external sources, as the sending action is triggered when an issue is published.
 
-### Using OJS for publishing only
+## Using OJS for publishing only
 
 Your journal may choose to use OJS for the final journal publication while managing the editorial workflow outside of OJS.
   
@@ -30,7 +30,7 @@ You should also disable submissions on your OJS site to prevent authors from ina
     
 -   Remove the “Make a Submission Block” from the user interface in [Settings > Website > Appearance > Setup > Sidebar](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#setup) and/or disable the “Make a Submission Block” in [Settings > Website > Plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#installed-plugins)   
 
-### Using OJS to publish conference proceedings
+## Using OJS to publish conference proceedings
 
 PKP froze development of Open Conference Systems (OCS), our original conference management software, in 2018, in order to focus our development resources on OJS, OMP, and OPS. OJS can be used to publish conference proceedings, although you will need to use a separate site to manage conference registration and scheduling. Please see our [FAQ question](https://docs.pkp.sfu.ca/faq/en/software-features#can-i-use-ojs-to-publish-conference-proceedings-what-happened-to-ocs) on this topic for more details.
 
@@ -42,7 +42,7 @@ Some considerations for publishing conference proceedings include:
     
 -   You may need to modify labels in the journal to indicate that the site is for a “conference” rather than a “journal.” You can use the [Custom Locale Plugin](https://docs.pkp.sfu.ca/translating-guide/en/customize-locale) to make customizations to the text displayed in the journal site.
     
-### Continuous publishing
+## Continuous publishing
 
 OJS is currently designed for a traditional publishing model where articles are published in issues. However, continuous publishing is a popular alternative way to publish scholarly research, in which articles are published as they are ready. You can use a continuous publishing model within OJS. 
 
