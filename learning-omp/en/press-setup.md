@@ -1,6 +1,6 @@
 ---
 book: learning-omp
-version: 3.2
+version: 3.3
 ---
 # Setting up and Maintaining Your Press
 
