@@ -100,23 +100,21 @@ This section includes a list of all submissions, without being organized into qu
 
 ![](./assets/learning-ojs3.1-ed-dashboard-all-active.png)
 
-### Archived
+### Archives
 
-This section includes a list of all submissions either rejected or already published by the journal. The filters described above in My Queue are also applicable here.
+This section includes a list of all submissions either declined or already published by the journal. Declined submissions may be deleted from the list of archived submissions. Deleting a declined submission will completely remove the submission and all submission files from your journal. 
 
-![](./assets/learning-ojs3.1-ed-dashboard-archive.png)
+![Screenshot of the list of archived submissions with the option to delete submissions.](./assets/ojs-3.3-sub-delete.png)
 
 ### Demonstration Submission
 
-For this demonstration, we are looking for the Williamson and Serletis submission, entitled _The Official Knowledge and Adult Education Agents_. It can be found at the top of the **My Assigned** queue, as well as in the **All Active** queue.
+For this demonstration, we are looking at the Cerpa submission, entitled _A Review of Object Oriented Database Concepts and their Implementation_. It can be found at the top of the **My Assigned** queue, as well as in the **All Active** queue.
 
-![](./assets/learning-ojs3.1-ed-dashboard-active.png)
+![The My Assigned queue on the OJS Submissions Dashboard, with the example article by Cerpa at the top of the queue.](./assets/learning-ojs3.3-submission-queue.png)
 
-Once you find the submission, you can use the blue arrow to reveal options to see if there are any open discussion (there are none), as well as to view the submission, view the activity logs and note, or to delete the submission.
+Once you find the submission, you can use the view button to view the submission, or use the blue arrow to reveal options and see if there are any open discussions (there are none in this case), the number of production galleys, and access the activity log & notes.
 
-![](./assets/learning-ojs3.1-ed-submission-details.png)
-
-**Delete** will completely remove the submission and all submission files from your journal. If you want to keep a record of the submission, it is better to **Decline** it, which will move the submission to the Archive.
+![A submission with the options menu expanded.](./assets/learning-ojs3.3-submission-options.png)
 
 **Activity Log & Notes** will bring up the submission's history.
 
@@ -488,7 +486,7 @@ Options include:
 
 **Accept Submission**: This means the submission is accepted without revisions and can proceed to the Copyediting stage.
 
-**Decline Submission**: This means that the submission has not passed peer review and is unsuitable for further consideration. The submission would then move to the Archives. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active. 
+**Decline Submission**: This means that the submission has not passed peer review and is unsuitable for further consideration. The submission would then move to the Archives. Only declined submissions in the Archives can be deleted. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active. 
 
 
 ### Request Revisions
