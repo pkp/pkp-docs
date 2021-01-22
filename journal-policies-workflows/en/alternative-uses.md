@@ -1,2 +1,3 @@
 # Alternative Uses of OJS
 
+OJS can be used for the entire journal management process, from submissions through to final publication of issues. However, some journals choose to use OJS for only one stage of publishing - for example, to manage the submission workflow when publishing elsewhere on an external site, or to publish work on the OJS site when the workflow is managed outside of OJS. OJS can also be used to publish conference proceedings, and some journals choose to publish article-by-article, rather than collecting articles into an issue before publishing. We have outlined each of these use cases below.
