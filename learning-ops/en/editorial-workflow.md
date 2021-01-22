@@ -62,7 +62,9 @@ It’s possible to add a new participant to the submission by selecting the ‘A
 
 If the Moderator wants to ask the author a question or have a discussion with the author, another moderator, the Preprint Server Manager, or another participant in the submission, they can Add a Discussion in the Production Discussions. How to create a response to a discussion is explained in [Learning OJS 3](/learning-ojs/en/editorial-workflow#consult-with-the-author).
 
-There are two possible editorial decisions, which are ‘Decline Submission’ or ‘Schedule for Publication’. Selecting ‘Decline Submission” will open a pop-up with the option to notify the author(s) or not, and selecting ‘Schedule for Publication’ will move the user to the Publication tab.
+There are two possible editorial decisions, which are ‘Decline Submission’ or ‘Post the preprint’. Selecting ‘Decline Submission” will open a pop-up with the option to notify the author(s) or not, and selecting ‘Post the preprint’ will move the user to the Publication tab.
+
+In OPS 3.3 it is possible to revert a 'Decline Submission' Decision. This can be done by clicking 'Change Decision' after you have recorded a Decline decision followed by Revert Decline.
 
 ![](./assets/learning-ops3.3-editorial-workflow-editorial-decision.png)
 
