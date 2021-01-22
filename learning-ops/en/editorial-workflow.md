@@ -64,7 +64,7 @@ If the Moderator wants to ask the author a question or have a discussion with th
 
 There are two possible editorial decisions, which are ‘Decline Submission’ or ‘Schedule for Publication’. Selecting ‘Decline Submission” will open a pop-up with the option to notify the author(s) or not, and selecting ‘Schedule for Publication’ will move the user to the Publication tab.
 
-![](./assets/learning-ops-editorial-workflow-editorial-decision.png)
+![](./assets/learning-ops3.3-editorial-workflow-editorial-decision.png)
 
 ## Publication
 
