@@ -23,7 +23,7 @@ This chapter explains the steps in the editorial workflow for Authors, Moderator
 All active and archived (published or declined) submissions for the preprint server will
 appear in the Submissions dashboard.
 
-![](./assets/learning-ops-submissions-dashboard.png)
+![Screenshot of OPS submission dashboard as Preprint Manager](./assets/learning-ops3.3-submissions-dashboard.png)
 
 Which submissions are visible will depend on the role of the logged in user.
 
@@ -54,7 +54,7 @@ If your server chooses to assign moderators to screen submissions before they ar
 
 Selecting the arrow next to a user’s name shows the list of options, which include ‘Remove’, ‘Edit’, ‘Notify’ (this option will create a new Discussion), and ‘Login As’.
 
-![](./assets/learning-ops-editorial-workflow-participants.png)
+![](./assets/learning-ops3.3-editorial-workflow-participants.png)
 
 It’s possible to add a new participant to the submission by selecting the ‘Assign’ button. When assigning a moderator it’s possible to allow for them to view and edit submission metadata (this option is selected by default) and/or to only recommend an editorial decision, in which case a Server Manager or another Moderator needs to record the decision to either post or decline the submission.
 
@@ -62,9 +62,11 @@ It’s possible to add a new participant to the submission by selecting the ‘A
 
 If the Moderator wants to ask the author a question or have a discussion with the author, another moderator, the Preprint Server Manager, or another participant in the submission, they can Add a Discussion in the Production Discussions. How to create a response to a discussion is explained in [Learning OJS 3](/learning-ojs/en/editorial-workflow#consult-with-the-author).
 
-There are two possible editorial decisions, which are ‘Decline Submission’ or ‘Schedule for Publication’. Selecting ‘Decline Submission” will open a pop-up with the option to notify the author(s) or not, and selecting ‘Schedule for Publication’ will move the user to the Publication tab.
+There are two possible editorial decisions, which are ‘Decline Submission’ or ‘Post the preprint’. Selecting ‘Decline Submission” will open a pop-up with the option to notify the author(s) or not, and selecting ‘Post the preprint’ will move the user to the Publication tab.
 
-![](./assets/learning-ops-editorial-workflow-editorial-decision.png)
+In OPS 3.3 it is possible to revert a 'Decline Submission' Decision. This can be done by clicking 'Change Decision' after you have recorded a Decline decision followed by Revert Decline.
+
+![](./assets/learning-ops3.3-editorial-workflow-editorial-decision.png)
 
 ## Publication
 
