@@ -7,7 +7,7 @@ To update the plugin:
 1. Go to Settings > Website > Plugins > Plugin Gallery
 2. Scroll to the ORCID plugin listing
 3. Check to make sure the note next to the ORCID plugin says “up to date”
-If there is an update available, install the update by clicking *Update*.
+If there is an update available, install the update by clicking "Update"
 
 ## Authors receive ORCID invitation links but cannot login
 Ensure  that your ORCID plugin is actually configured and not just enabled; don't enable it unless you are ready to configure it.
@@ -15,7 +15,7 @@ Ensure  that your ORCID plugin is actually configured and not just enabled; don'
 ## ORCID is configured but authors who click the link receive an error message 
 
 Check to ensure that authors are using the current link and not a previous link from the sandbox. 
-If you are on OJS 3.2 it may also be this bug in ORCID email template for authors - [https://github.com/pkp/orcidProfile/issues/122](https://github.com/pkp/orcidProfile/issues/122) (which is resolved in 3.2-13 and 3.3)
+If you are on OJS 3.2 it may also be this bug in ORCID email template for authors - [https://github.com/pkp/orcidProfile/issues/122](https://github.com/pkp/orcidProfile/issues/122) (which is resolved in 3.2-1-3 and 3.3)
 
 
 Existing videos:
