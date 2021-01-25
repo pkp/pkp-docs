@@ -23,7 +23,7 @@ There are multiple different ways that an author can connect their ORCID iD with
 1. If an author does not yet have an OJS/OPS user account, they can connect their ORCID iD at the registration step.
 a. When on the OJS/OPS register page, click the button to “Create or Connect your ORCID iD” - you will be prompted to sign in to your ORCID record (make sure to use your sandbox ORCID email address and password) and “authorize” OJS/OPS to access your ORCID iD and ORCID record.
 b. Some of the information in the registration form (e.g., name) will be automatically populated based on the information set to public visibility in the user’s ORCID Record.
-c. Once registered and logged in, the user can go to their Profile and click on the Public tab to see their authenticated ORCID iD *(note bug)*
+c. Once registered and logged in, the user can go to their Profile and click on the Public tab to see their authenticated ORCID iD. **Please Note:** There is currently [a bug associated with this feature](https://github.com/pkp/orcidProfile/issues/158)
 d. Once you submit a publication and the publication gets published, the ORCID iD should appear on the publication in OJS/OPS. If you are using the Member API, the publication should also appear on the ORCID Record in the works section once your article is published (please note: this does not currently work with OPS).
 
 *Scenario 2*: An article with one author is submitted by the author while logged in to their OJS/OPS author account. 
