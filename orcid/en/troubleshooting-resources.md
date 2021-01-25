@@ -1,37 +1,26 @@
-# Troubleshooting and Resources
+# Troubleshooting
 
-## Troubleshooting
+## Make sure your plugin is up to date
+Most troubleshooting issues can be resolved by upgrading the ORCID plugin. If you run into any issues, try upgrading the plugin first. You should also check periodically to make sure your ORCID plugin remains up to date. 
 
-### Can multiple journals use the same API credentials?
+To update the plugin:
+1. Go to Settings > Website > Plugins > Plugin Gallery
+2. Scroll to the ORCID plugin listing
+3. Check to make sure the note next to the ORCID plugin says “up to date”
+If there is an update available, install the update by clicking "Update"
 
-Yes, but make sure to keep account name general since it will be in the metadata (under data source name on the ORCID record).
+## Authors receive ORCID invitation links but cannot login
+Ensure  that your ORCID plugin is actually configured and not just enabled; don't enable it unless you are ready to configure it.
 
-### An author received a request to register their ORCID iD but when they try to enter their iD they get an error.
+## ORCID is configured but authors who click the link receive an error message 
 
-This can happen when the Journal Manager has enabled the ORCID Profile Plugin but did not configure it with the journal’s ORCID API information. Go to Website Settings > Plugins, find the ORCID Profile Plugin, and open the Settings link below it. If required fields are blank, you need to follow the steps in [Enable and Configure the ORCID Profile Plugin in OJS](./installation-setup#enable-and-configure-the-orcid-profile-plugin-in-ojs).
+Check to ensure that authors are using the current link and not a previous link from the sandbox. 
+If you are on OJS 3.2 it may also be this bug in ORCID email template for authors - [https://github.com/pkp/orcidProfile/issues/122](https://github.com/pkp/orcidProfile/issues/122) (which is resolved in 3.2-1-3 and 3.3)
 
-### When the author’s ORCID iD link is added to the ORCID field, the last number gets cut off.
 
-If you are using a version of OJS earlier than 3.1.1 and the link starts with “https” instead of “http” the last number in the link will get cut off. ORCiD previously explicitly required the use of http, but now they permit (and recommend) https. Support for this was added in OJS 3.1.1.
-
-You can resolve this issue by upgrading your OJS install to 3.1.1 or later, or by removing the “s” from “https” in the ORCID link.
-
-### I am getting an error “Redirect URI doesn’t match your registered redirect URIs”.
-
-You will need to register a redirect_uri in your ORCID account developer tools. The ORCID redirect URI should be your public OJS URL.
-
-For more information, see: [https://support.orcid.org/hc/en-us/articles/360006972513-How-do-redirect-URIs-work](https://support.orcid.org/hc/en-us/articles/360006972513-How-do-redirect-URIs-work)
-
-### I tried to set up the ORCID plugin in OJS but encountered the error message “Please check your client id, scopes and redirect URIs” when testing the public sandbox.
-
-This error is usually caused by entering a production API client and not a Sandbox API client. To fix this, update the settings in your ORCID Plugin to the non-Sandbox option [link to section above].
-
-## Additional Resources
-
-- [OJS-ORCID Plugin announcement](https://orcid.org/blog/2019/03/12/introducing-new-ojs-orcid-plugin)
-- [ORCID Plugin in GitHub](https://github.com/pkp/orcidProfile/)
-- [This video tutorial](https://www.youtube.com/watch?v=VdQwnbfVhtk) offers instructions on adding your API key to OJS (in Indonesian)
-- [Open issues related to ORCID](https://github.com/pkp/pkp-lib/search?q=orcid+is%3Aissue&type=Issues)
-- Current issues and development projects are outlined in the following ticket: [https://github.com/pkp/pkp-lib/issues/4935](https://github.com/pkp/pkp-lib/issues/4935)
-
-Search for answers to your technical questions or post questions on [the PKP Community Support Forum](https://forum.pkp.sfu.ca/)
+Existing videos:
+Video: [https://www.youtube.com/watch?v=YgJw9HW-JEg](https://www.youtube.com/watch?v=YgJw9HW-JEg ) 
+Set up the plugin: [https://vimeo.com/374414746](https://vimeo.com/374414746) 
+User authorization: [https://vimeo.com/374415404](https://vimeo.com/374415404) 
+Co-authors: [https://vimeo.com/374416189](https://vimeo.com/374416189)
+Article publication: [https://vimeo.com/374417678](https://vimeo.com/374417678) 
