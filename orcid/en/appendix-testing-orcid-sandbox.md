@@ -6,6 +6,7 @@ Once your Sandbox Client ID and Client Secret have been added to the configurati
 To test that the plugin is working correctly in the sandbox:
 
 ## Create a Sandbox ORCID iD
+
 For testing purposes, you will need to create a fake “sandbox” ORCID iD. To do this:
 
 1. Go to [https://sandbox.orcid.org/register](https://sandbox.orcid.org/register) and fill in the form. Make sure to use a made-up email address using `@mailinator.com` - for example: `test123@mailinator.com` Please note the sandbox only allows `@mailinator.com` addresses.
