@@ -2,13 +2,15 @@
 
 ## The Basics
 
-Please see [https://pkp.sfu.ca/ojs/README](https://pkp.sfu.ca/ojs/README), [https://pkp.sfu.ca/omp/README](https://pkp.sfu.ca/omp/README), or [https://pkp.sfu.ca/ocs/README](https://pkp.sfu.ca/ocs/README) to ensure that the software install directory and `/files` folder are configured securely on your server.
+Please see [https://pkp.sfu.ca/ojs/README](https://pkp.sfu.ca/ojs/README), [https://pkp.sfu.ca/omp/README](https://pkp.sfu.ca/omp/README), or [https://pkp.sfu.ca/ocs/README](https://pkp.sfu.ca/ocs/README) to ensure that the software install directory and file storage area (`files_dir` in `config.inc.php`) are configured securely on your server.
 
-In general, the `/files` folder should not be web accessible and should be placed outside of the main software install directory. The software application will manage access to private submission files based on user roles and permissions \(i.e. Editors will have access to all submission files, whereas authors will only be able to access their own submission files\).
+In general, the `files_dir` should not be web accessible and should be placed outside of the main software install directory. The software application will manage access to private submission files based on user roles and permissions \(i.e. Editors will have access to all submission files, whereas authors will only be able to access their own submission files\).
 
-In addition, to ensure security the `/files` folder should not be readable by other users on the server. Only the webserver should have the necessary read/write permissions so that OJS, OMP, or OCS can read existing files and add new files to the folder, e.g.
+In addition, to ensure security the `files_dir` folder should not be readable by other users on the server. Only the webserver should have the necessary read/write permissions so that OJS, OMP, or OCS can read existing files and add new files to the folder, e.g.
 
 `drwxrwx---    6 ojs www 204B 11 Sep  2017 files/`
+
+The exact details of file permissions will depend on how your web server runs PHP scripts (this is called the "server API" or "SAPI"). For example, if it uses `mod_php`, all PHP scripts will run as the `www-data` user or similar (this is inherently not 100% secure on a multi-user server). If it uses CGI, FastCGI, FPM, or a similar mechanism, it will likely run under your user account.
 
 It is recommended that you install an SSL certificate for your OJS, OMP, or OCS install and ensure that your site always uses the HTTPS protocol to manage user registration, login, and to present content to readers. Once your SSL certificate has been installed and is confirmed to be working \(i.e. you can access your site via [https://myjournal.org](https://myjournal.org/)\) you can configure your site to always use HTTPS by using the following setting in `config.inc.php`:
 
@@ -37,7 +39,7 @@ A secure deployment of PKP software can be best achieved by using the following 
 * Configure the software (`config.inc.php`) to use `force_login_ssl` so that authenticated users communicate with the server via HTTPS. (You will also have to properly create and configure an SSL certificate to do this properly.)
 * Install the software so that the files directory is NOT a subdirectory of the OJS, OMP, or OCS installation and cannot be accessed directly via the web server.
 * Restrict file permissions as much as possible.
-* Deploy and test a proper backup mechanism. The backup mechanism should back up the database, the system files, and the submission files directory (the `files_dir` parameter in `config.inc.php`). Ideally, you should make both on-site and off-site backups.
+* Deploy and test a proper backup mechanism. The backup mechanism should back up the database, the system files, and the file storage area (the `files_dir` parameter in `config.inc.php`). Ideally, you should make both on-site and off-site backups.
 * Ensure that your web server environment is regularly updated, in particular with any and all security patches.
 
 If these steps are followed, you will substantially reduce the risk of falling prey to common hacking techniques. If already running OJS, OMP, or OCS, we strongly urge you to review your existing configurations and ensure these steps have been followed.
