@@ -4,7 +4,7 @@ Once you’ve confirmed that payments from the pretend accounts are successful, 
 
 First,  you’ll need to change your need to change your PayPal API app from Sandbox to Live. You will then need to generate the Live API credentials. To get Live API Credentials, go to Tools > Business Setup > Offer PayPal checkout on your website. Click **Set Up Online Payments** followed up **Get Your API Credentials**
 
-![](assets/Paypal API Credentials.gif)
+![](assets/Paypal-API-Credentials.gif)
 
 Next, you’ll need to update the PayPal information on your OJS distribution setting with live API credentials and unselect ‘Test Mode’
 
