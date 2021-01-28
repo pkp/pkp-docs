@@ -68,7 +68,9 @@ To create a new Announcement, go to: Settings > Website > Announcements
 
 To add a new Announcement, click on "Add Announcement" and write a new message. Make sure you check the box: “Send notification email to all registered users.”
 
-If you would like to send a notification to all users in a particular role or a subset of users (unrelated to a submission), you are not able to do this yet in OJS 3.X. Instead you need to use an external tool such as Mailchimp. You can export your users in a CSV file from phpMyAdmin, import them into the external email notification tool, and then send messages to selected users.
+If you would like to send a message to all users in a particular role you can use the Notify feature. See [Email Users in Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#email-users) for details.
+
+For more refined communication with users and marketing communication, we recommend an external tool, such as Mailchimp. You can export your users in a CSV file under Tools > Import/Export and import them into the external tool.
 
 If you want to communicate with a group of users who are all assigned to a particular submission, you can use the Discussion feature on the submission.
 
