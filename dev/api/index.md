@@ -41,7 +41,7 @@ https://example.com/index.php?journal=journalpath&endpoint=/api/v1/submission
 Administrators can access _some_ endpoints, such as `/contexts`, at a site-wide endpoint that spans all journals.
 
 ```
-https://example.com/*/api/v1/contexts
+https://example.com/_/api/v1/contexts
 ```
 
 ## Authentication
