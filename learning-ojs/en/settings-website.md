@@ -126,8 +126,12 @@ This section allows you to create and display news announcements on the journal'
 ![](./assets/learning-ojs3.1-jm-settings-web-announce.png)
 
 - **Announcements**: Check this off if you want to have announcements in your website
-  - **Introduction**: Enter any information you would like to appear on your announcements page.
+  - **Introduction**: Enter any general information you would like to appear on your announcements page.
   - **Display on Homepage**: Enter the number of announcements to be displayed on the homepage. If this is left blank, no announcements will be displayed.
+  
+Once the Announcements setting is enabled, click "Save." An "Announcements" menu item now appears in the main navigation on the left hand side. Click on this menu item and select "Add Announcement." Here you can include the title of the announcement, a short description and / or full text of the announcement, and an (optional) expiry date. If you wish to send an email notification to all users (who have not opted out of email notifications), select "Send notification email to all registered users." The announcement should now appear on an "Announcements" tab on the public-facing journal site.
+
+![](./learning-ojs3.3-settings-website-announcements)
 
 ### Lists
 
