@@ -62,11 +62,7 @@ In a multi-journal installation, Journal Managers or Journal Editors will only b
 
 ## How do I send a message to my site’s users?
 
-The easiest way to send a notification to all registered users is to create an “Announcement.” In addition to sending a message to all users (who have not opted out of email notifications), an Announcement is also displayed on the journal homepage and saved as an archive.
-
-To create a new Announcement, go to: Settings > Website > Announcements
-
-To add a new Announcement, click on "Add Announcement" and write a new message. Make sure you check the box: “Send notification email to all registered users.”
+The easiest way to send a notification to all registered users is to create an “Announcement.” In addition to sending a message to all users (who have not opted out of email notifications), an Announcement is also displayed on the journal homepage and saved as an archive. See [Website Settings > Announcements in Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#announcements) for details.
 
 If you would like to send a message to all users in a particular role you can use the Notify feature. See [Email Users in Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#email-users) for details.
 
