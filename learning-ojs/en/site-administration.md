@@ -37,7 +37,7 @@ To edit the existing journal, click on the blue arrow to the left of the journal
 
 **Settings Wizard** will take you to the various settings options for that journal. 
 
-Restrict Bulk Emails allows the journal administrator to disable the ability to send bulk emails to certain roles. The bulk email feature can be enabled under [Site Settings > Bulk Emails](/site-administration#bulk-emails). A journal manager will be unable to send bulk emails to any roles that you select under the “Disable Roles” setting. Use this setting to limit abuse of the email notification feature. For example, it may be safer to disable bulk emails to readers, authors, or other large user groups that have not consented to receive such emails.
+Restrict Bulk Emails allows the journal administrator to disable the ability to send bulk emails to certain roles. The bulk email feature can be enabled under [Site Settings > Bulk Emails](#bulk-emails). A journal manager will be unable to send bulk emails to any roles that you select under the “Disable Roles” setting. Use this setting to limit abuse of the email notification feature. For example, it may be safer to disable bulk emails to readers, authors, or other large user groups that have not consented to receive such emails.
 
 ![](./assets/learning-ojs3.3-admin-restrict-bulk-emails.png)
 
@@ -106,7 +106,7 @@ Note that misuse of this figure to send unsolicited email may violate anti-spam 
 
 ![](./assets/learning-ojs3.3-site-settings-bulk-emails.png)
 
-It is possible to disable sending bulk emails to certain roles for individual journals under [Hosted Journals](site-administration#hosted-journals) > Settings Wizard.
+It is possible to disable sending bulk emails to certain roles for individual journals under [Hosted Journals](#hosted-journals) > Settings Wizard.
 
 ### Next Steps
 
