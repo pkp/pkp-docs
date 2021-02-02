@@ -131,7 +131,7 @@ This section allows you to create and display news announcements on the journal'
   
 Once the Announcements setting is enabled, click "Save." An "Announcements" menu item now appears in the main navigation on the left hand side. Click on this menu item and select "Add Announcement." Here you can include the title of the announcement, a short description and / or full text of the announcement, and an (optional) expiry date. If you wish to send an email notification to all users (who have not opted out of email notifications), select "Send notification email to all registered users." The announcement should now appear on an "Announcements" tab on the public-facing journal site.
 
-![](./learning-ojs3.3-settings-website-announcements)
+![](./learning-ojs3.3-settings-website-announcements.png)
 
 ### Lists
 
