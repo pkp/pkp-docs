@@ -38,11 +38,20 @@ To send an email to a user that is unrelated to a submission:
 
 ![](./assets/learning-ojs-3-users-email.png)
 
-You cannot email multiple users at the same time except by using the Announcements feature. See the [Workflow Settings chapter](./settings-workflow) for instructions on how to send announcements. It is also not possible to send a message to all users in one role, such as all reviewers registered on your site.
+In OJS 3.3 you can email multiple users at the same time using the Notify tab. This feature will need to be enabled for each journal by the journal administrator under Site Settings > Bulk Emails. The site administrator can also disable certain roles in the journal from receiving bulk emails under Hosted Journals > Settings Wizard.
 
-If you want to email multiple users or all users in a single role on a regular basis, you can use an external email marketing application such as Mailchimp. User records can be exported in XML using Tools > Import/Export > Users XML Plugin or an Administrator can export them from the database in CSV.
+If enabled for the journal by the site administrator, emails can be sent to all users in one or more role, such as all journal managers and / or all section editors, etc. 
 
-It is not currently possible to add cc or bcc addresses to messages or to add attachments to messages. To send attachments you can instead use the Discussion feature or the Submission Library.
+In the Notify tab, select the user roles that you would like to email. Type your subject and email message. You have the option to send a copy of the email to your own email address. You will receive a status notification indicating that the message was sent successfully. 
+
+![](./assets/learning-ojs3.3-users-roles-notify.png)
+
+This email feature can be used to send practical, core service emails to users who are actively working on the journal. For example, you might send an email to all copy editors reminding them of the “house style” for a particular word use or spelling. Avoid using this feature to notify large numbers of readers; the Announcement feature is preferable for large broadcast emails. See [Website Settings > Setup > Announcements](./settings-website#announcements) for details about this feature.
+
+As this is a generic email tool, be advised that some users’ email clients may direct this message to a spam folder. Sending multiple messages may also result in the journal being flagged as a “spam” sender. Become familiar with anti-spam and email privacy laws in your region, such as CASL in Canada and GDPR in the EU and UK. Note that there is no “unsubscribe” option available for users who receive these emails. 
+
+It is not possible to add cc or bcc addresses other than your own, or to add attachments to messages. To send attachments you can instead use the Discussion feature or the Submission Library.
+
 
 **Edit User** allows you to make changes to that user's account.
 
