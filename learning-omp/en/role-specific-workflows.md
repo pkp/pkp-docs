@@ -24,9 +24,9 @@ Once you have completed the form and agreed to the terms, click Register. After 
 
 Once logged in you will be able to edit your user profile by clicking your username on the top-right corner of your dashboard.
 
-Select **View Profile**
+Click **Edit Profile**
 
-![](./assets/learning-omp_role-specific-workflow_edit-profile-1.png)
+![](./assets/learning-omp3.3_role-specific-workflow_edit-profile-1.png)
 
 From here, you’ll be able to edit your name, contact information, signature, and public profile; change your password; set notification preferences; etc.
 
@@ -80,9 +80,9 @@ Once you have completed all the steps, click **Finish Submission**.
 
 ## Reviewer Workflow
 
-Reviewer requests will appear in their user dashboard and in the taskbar. The request will have the Response and Review deadline.
+Reviewer requests will listed in a pop-up screen once they click the notification icon. 
 
-![](./assets/learning-omp_role-specific-workflow_rev-dash.png)
+![](./assets/learning-omp3.3_role-specific-workflow_rev-dash.png)
 
 A reviewer can see more details regarding the request by clicking on the manuscript. The request submenu will have the general information regarding the submission, the review file, and additional submission details and review schedule.
 
