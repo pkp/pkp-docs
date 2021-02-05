@@ -84,6 +84,10 @@ The preprint status (indicating whether it has been submitted to or published in
 
 In order to post the preprint, it’s necessary to select the ‘Schedule for Publication” button which opens a pop-up asking the user to confirm that they would like to move forward with the posting of the preprint. This will immediately release the preprint to public view.
 
+If enabled, an email is automatically sent to the author when the preprint is posted online on the server. This automated email template can be modified, or turned off, at **Workflow Settings > Email > Email Templates**, identified with the key `POSTED_ACK`.
+
+![Posted Acknowledgement Email Template](./assets/learning_ops3.3_preprint_posted_acknowledgement_email_template.jpg)
+
 Once the preprint is published, the options to ‘Unpublish’ or ‘Create New Version’ become available. By unpublishing, it’s possible to edit the current version of the preprint without creating a new version, as published preprints can’t be edited while public. Adding a new version will keep the current version as is and create a new record. For more information on versioning, please refer to the [Publish New Versions](./editorial-workflow#versioning) section of this guide below.
 
 ### Preprint Status
