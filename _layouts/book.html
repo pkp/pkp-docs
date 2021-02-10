@@ -21,7 +21,7 @@
 						</a>
 					</div>
 					{% include anchor_headings.html html=content anchorBody='#' anchorTitle='Link to %heading% section' h_min=2 %}
-					{% if page.isBookIndex %}
+					{% if page.name == "index.md" or page.name == "README.md" %}
 						{% include book/copyright.html %}
 					{% endif %}
 					<div class="book__footer">
