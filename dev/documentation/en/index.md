@@ -24,9 +24,3 @@ This guide will help you learn how to contribute code to the project. It is writ
 If you are looking for a more detailed specification, please consult the [reference documentation (Doxygen)](https://pkp.sfu.ca/ojs/doxygen/master/html/index.html), the [REST API Usage Guide](/dev/api) or the [UI Library](/dev/ui-library/dev).
 
 When you're ready, learn how to [get started](./getting-started) by installing the software and setting up your development environment.
-
-----
-
-Copyright: Simon Fraser University holds the copyright for work produced by the Public Knowledge Project and has placed its documentation under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
-[![](https://licensebuttons.net/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](https://creativecommons.org/licenses/by/4.0/)
