@@ -12,13 +12,13 @@ Use this section to configure the submission process.
 
 ### Disable Submissions
 
-A journal manager will be able to disable submissions for the entire section or disable submissions to a specific section or for the journal as a whole. 
+A journal manager will be able to disable submissions for the entire section or disable submissions to a specific section or for the journal as a whole.
 
-Once the setting is enabled, a notification is displayed indicating that submissions have been disabled. When this setting is enabled, users will no longer be able to make submissions in the journal. 
+Once the setting is enabled, a notification is displayed indicating that submissions have been disabled. When this setting is enabled, users will no longer be able to make submissions in the journal.
 
 ![](./assets/learning-ojs3.3-workflow-disable-submissions.png)
-![](./assets/learning-ojs3.3-workflow-disable-submissions-notification.png)
 
+![](./assets/learning-ojs3.3-workflow-disable-submissions-notification.png)
 
 ### Metadata
 
@@ -55,9 +55,9 @@ In the Submission Preparation Checklist, Authors must check off that they agree 
 ### Author Guidelines
 
 Use this field to add information for your authors that will be useful during the submission process. This information will be displayed on the journal website.
--  Author Guidelines: Recommended guidelines include required file types for the submission document, the preferred citation format, or any elements that should be present in the submission.
 
--  Copyright Notice: This is the author copyright agreement between the author and the journal, and the author agrees to these terms at the time of submission.
+- Author Guidelines: Recommended guidelines include required file types for the submission document, the preferred citation format, or any elements that should be present in the submission.
+- Copyright Notice: This is the author copyright agreement between the author and the journal, and the author agrees to these terms at the time of submission.
 
 ## Review
 
@@ -158,7 +158,7 @@ To add a file here, click ‘Add a file’ on the top right corner of the Publis
 
 ## Emails
 
-### Setup
+### Email Setup
 
 The section allows you to configure the emails that are sent out from the system.
 
@@ -172,7 +172,7 @@ The section allows you to configure the emails that are sent out from the system
 
 OJS facilitates work flow communication through the use of prepared email messages. Please note, some configuration is required to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
 
-You can view and modify the prepared email templates here. You will see a list of email templates under the Emails tab. The title and summary of each email template is displayed in the list. 
+You can view and modify the prepared email templates here. You will see a list of email templates under the Emails tab. The title and summary of each email template is displayed in the list.
 
 ![](./assets/learning-ojs3.3-jm-settings-workflow-email-templates.png)
 
@@ -193,6 +193,7 @@ See [Template Descriptions](#template-descriptions) at the end of this chapter f
 When you edit an email template, you change what it will say every time it is used.  For emails that are sent voluntarily, such as a message sent to a reviewer asking them to review a submission, you can also change the contents of the message at the time of sending it. This changes the contents for that message only.
 
 To edit a template:
+
 1. Go to Workflow Settings > Emails > Prepared Email Templates
 2. Click the blue arrow next to the template name to reveal links below it
 3. Click Edit
@@ -204,6 +205,7 @@ To edit a template:
 All of the templates are enabled by default when you install OJS, but you can disable some templates by clicking the Disable button. Most of the templates that can be disabled are messages that are sent automatically by OJS. Disabling the template will mean that the automatic notification will not be sent.
 
 To disable a template:
+
 1. Go to Workflow Settings > Emails > Prepared Email Templates
 2. Click the blue arrow next to the template name to reveal links below it
 3. Click Disable (if the button does not appear, then this template can't be disabled)
@@ -211,6 +213,7 @@ To disable a template:
 #### Reload default email templates
 
 If you have edited email templates but want to reverse the edits and restore them to their default contents, you can reset them:
+
 1. Go to Workflow Settings > Emails > Prepared Email Templates
 2. Click Reset All Templates
 3. When the confirmation message appears, click OK.

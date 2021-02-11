@@ -35,7 +35,7 @@ To edit the existing journal, click on the blue arrow to the left of the journal
 
 ![](./assets/learning-ojs-3-ch4-hosted-journals-remove.png)
 
-**Settings Wizard** will take you to the various settings options for that journal. 
+**Settings Wizard** will take you to the various settings options for that journal.
 
 Restrict Bulk Emails allows the journal administrator to disable the ability to send bulk emails to certain roles. The bulk email feature can be enabled under [Site Settings > Bulk Emails](#bulk-emails). A journal manager will be unable to send bulk emails to any roles that you select under the “Disable Roles” setting. Use this setting to limit abuse of the email notification feature. For example, it may be safer to disable bulk emails to readers, authors, or other large user groups that have not consented to receive such emails.
 
@@ -85,7 +85,7 @@ To add another language:
 
 After installing the new locale, you will have to enable it on the Site Settings > Languages page.  Further configuration of the language’s availability on the site can be done under Website Settings > Languages by a Journal Manager. See the [Website Settings chapter](./settings-website) for details.
 
-OJS 3.1 doesn't yet have as many translations as OJS 2, but we expect to have more contributed over time. Contributions are always welcome.
+OJS 3 doesn't yet have as many translations as OJS 2, but we expect to have more contributed over time. Contributions are always welcome.
 
 #### Plugins
 
@@ -99,8 +99,9 @@ Use this section to modify your site-wide menus. You can learn more about config
 
 ![](./assets/learning-ojs3.1-sa-menus.png)
 
-####  Bulk Emails
-OJS 3.3 has the option to allow bulk emails to be sent to several user groups in a journal at one time. See [Users and Roles > Email Users](/users-and-roles#email-users). As the site administrator, you can use the site settings to select the hosted journals that will be allowed to send bulk emails.
+#### Bulk Emails
+
+OJS 3.3 has the option to allow bulk emails to be sent to several user groups in a journal at one time. See [Users and Roles > Email Users](./users-and-roles#email-users). As the site administrator, you can use the site settings to select the hosted journals that will be allowed to send bulk emails.
 
 Note that misuse of this figure to send unsolicited email may violate anti-spam laws in some jurisdictions and may result in your server’s emails being blocked as spam. Seek technical advice before enabling this feature and consider consulting with journal managers to ensure it is used appropriately.
 

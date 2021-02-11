@@ -66,9 +66,9 @@ All of your existing sections will appear here. OJS requires at least one sectio
 
 ![](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
 
-Submissions can also be disabled for individual sections. This can be done in instances where a section is no longer being used, in order to prevent articles from being submitted to a particular section. 
+Submissions can also be disabled for individual sections. This can be done in instances where a section is no longer being used, in order to prevent articles from being submitted to a particular section.
 
-A section can be marked as “Inactive” in the section settings: 
+A section can be marked as “Inactive” in the section settings:
 
 ![](./assets/learning-ojs3.3-section-setting-inactive.png)
 
@@ -86,11 +86,11 @@ From here, you can change the name or abbreviation of the section.
 
 **Word Count**: Use this to limit the number of words for abstracts in this section.
 
-**Section Options**: Each section can have different settings, including whether it is indexed, peer-reviewed, accepts unsolicited submission, or listed in the table of contents. 
+**Section Options**: Each section can have different settings, including whether it is indexed, peer-reviewed, accepts unsolicited submission, or listed in the table of contents.
 
 For example, an Editorial section will not typically be peer-reviewed.
 
-Submissions can also be disabled for individual sections. This can be done in instances where a section is no longer being used, in order to prevent articles from being submitted to a particular section. 
+Submissions can also be disabled for individual sections. This can be done in instances where a section is no longer being used, in order to prevent articles from being submitted to a particular section.
 
 You can check off "Will not be included in the indexing of the journal" for sections that contain front matter, back matter, and anything else that might clutter the search index unnecessarily.
 
@@ -132,11 +132,12 @@ Hit the **Done** button when you are finished.
 
 ## Categories
 
-In OJS 3.1.2 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production). This section explains how to create and edit categories.
+In OJS 3 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production). This section explains how to create and edit categories.
 
 ![](./assets/learning-ojs3.1-categories-menu.png)
 
 To create a new category:
+
 * Click Add Category
 * Enter a name for your category that will be displayed to readers
 * Enter a path for the category’s URL on your site
@@ -148,11 +149,13 @@ To create a new category:
 ![](./assets/learning-ojs3.1-create-category.png)
 
 To edit a category:
+
 * Click the name of the category you want to edit
 * Make the changes
 * Click OK
 
 To remove a category:
+
 * Click the blue arrow next to the category you want to remove
 * Click the Remove button that appears below
 * Confirm that you want to remove the category

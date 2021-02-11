@@ -102,7 +102,7 @@ This section includes a list of all submissions, without being organized into qu
 
 ### Archives
 
-This section includes a list of all submissions either declined or already published by the journal. Declined submissions may be deleted from the list of archived submissions. Deleting a declined submission will completely remove the submission and all submission files from your journal. 
+This section includes a list of all submissions either declined or already published by the journal. Declined submissions may be deleted from the list of archived submissions. Deleting a declined submission will completely remove the submission and all submission files from your journal.
 
 ![Screenshot of the list of archived submissions with the option to delete submissions.](./assets/ojs-3.3-sub-delete.png)
 
@@ -128,9 +128,9 @@ To view the submission in more detail, select **View Submission** button. This w
 
 From here, you can see:
 
-**Submission Files**: This panel lists the files that have been submitted. In this view, there is just one file, but multiple files could have been submitted. Submission files will now retain the original names when downloaded. 
+**Submission Files**: This panel lists the files that have been submitted. In this view, there is just one file, but multiple files could have been submitted. Submission files will now retain the original names when downloaded.
 
-For journals using anonymous review, the author and reviewer (if they were to upload any document) are still removed. An example filename structure for files downloaded by Reviewers will be  ```ojs-review-assignment-1-article-text-8.docx``` The numeric number corresponds with the manuscript number of assignment. 
+For journals using anonymous review, the author and reviewer (if they were to upload any document) are still removed. An example filename structure for files downloaded by Reviewers will be `ojs-review-assignment-1-article-text-8.docx` The numeric number corresponds with the manuscript number of assignment.
 
 **Pre-Review Discussions**: This panel allows the editor to communicate with the author, or with others on the editorial team. For example, to ask the author for some additional information, or to ask a section editor to take responsibility for this submission.
 
@@ -198,7 +198,7 @@ Under Permissions, enable ‘Allow this person to edit publication details.’ f
 
 ![](./assets/learning-ojs3.2-editorial-workflow-edit-grantpermission.png)
 
-Once the author has been granted access to made edits they will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors,  and Metadata.
+Once the author has been granted access to made edits they will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors, and Metadata.
 
 ![](./assets/learning-ojs3.2-editorial-workflow-edit-publicationmenu.png)
 
@@ -224,7 +224,7 @@ You can now see that the Section Editor is listed under Participants, and the Ac
 
 **Accept and Skip Review**: Skips the Review Stage and moves the submission directly into Copyediting.
 
-**Decline Submission**: Rejects the submission before going through the review process. The submission would then be archived. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active. 
+**Decline Submission**: Rejects the submission before going through the review process. The submission would then be archived. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active.
 
 Although in this example, the editor assigned a section editor, it would also be possible for the editor to assign themselves to the submission.
 
@@ -486,8 +486,7 @@ Options include:
 
 **Accept Submission**: This means the submission is accepted without revisions and can proceed to the Copyediting stage.
 
-**Decline Submission**: This means that the submission has not passed peer review and is unsuitable for further consideration. The submission would then move to the Archives. Only declined submissions in the Archives can be deleted. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active. 
-
+**Decline Submission**: This means that the submission has not passed peer review and is unsuitable for further consideration. The submission would then move to the Archives. Only declined submissions in the Archives can be deleted. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active.
 
 ### Request Revisions
 
@@ -684,7 +683,7 @@ It is now visible in the Copyediting Discussions.
 
 You can now wait for the author's response.
 
-### Author Responds
+### Author Replies
 
 Once you hear back from the author, you can review their feedback by checking the discussion reply.
 
