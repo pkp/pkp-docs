@@ -28,7 +28,7 @@ If the document exists (or will exist) in more than one language, there will be 
 
 ### README File
 
-The README.md file should include a brief introduction regarding the document, a list of contributors, release date, and copyright.
+The README.md file should include a brief introduction regarding the document, a list of contributors, and a release date.
 
 ![](./assets/Github-readme.png)
 

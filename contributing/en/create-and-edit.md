@@ -1,7 +1,6 @@
 # Edit and Create
 
-Now that you understand the basics of Github,  this chapter explains how to add new documents and edit documents in the repository.
-
+Now that you understand the basics of GitHub, this chapter explains how to add new documents and edit documents in the repository.
 
 ## Edit a Document
 
@@ -13,7 +12,7 @@ If you want to edit existing documentation or add a section or chapter to existi
 4. Click the filename to view that individual file.
 5. From there, on the top right of the document window, you should see a small pencil icon.
 6. Click that button to open up a plain text editor for the document within GitHub itself.
-7. Edit the document
+7. Edit the document.
 
 ![](./assets/contrib-01.gif)
 
@@ -59,7 +58,7 @@ Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust dir
 2. Enter the name of the document folder and then /. This will automatically create the folder.
 - _Remember to follow naming conventions_. (e.g., if your document is a guide to ORCID, you could name it orcid-guide or orcid-plugin).
 3. Enter the name of the file `index.md`.
-- A document-wide `index.md` file should contain a description of the document as well as copyright information. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page.
+- A document-wide `index.md` file should contain a description of the document. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page.
  - At the top of your indexing file, include the following:
 
 ```
@@ -98,7 +97,8 @@ To add new images to a document, you will need to take and save these screenshot
 
 New assets can be added before working on a document or after it has been completed.
 
-To add assets to a document and assets folder
+To add assets to a document and assets folder:
+
 1. Add image code in the part of the document you would like this to appear in. To link to an image in the assets folder you will need to type `“![](./assets/ image file name)”`
     e.g., `![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
 2. Repeat this step as many times as needed.
