@@ -167,23 +167,3 @@ spamUserThree
 ```
 
 The `names.txt` file has to be stored on the server and the location referenced by the script \(eg. “/tmp/names.txt”\). The script should also specify the location of the mergeUsers.php script \(eg. “/ojswebroot/tools/mergeUsers.php”\), and also the user into which all of these accounts should be merged \(eg. “admin-user” - this must be an existing account\). Update those parameters to suit your environment. **Don’t store this script, or the `names.txt` file, in a web-accessible location!**
-
-## Security FAQ
-
-> Section Contributed by Kenton Good, and adapted from the [PKP Community Forum](https://forum.pkp.sfu.ca/t/pkp-applications-and-security/27991)
-
-Below are some general questions we have answered more than a few times in the past, along with some responses. We will add to this list as we receive questions over time.
-
-**Do you announce security vulnerabilities, and if so, where?**
-
-We do. PKP announces all valid security vulnerabilities, and their respective fixes when available, via the community forum; our news blog; via Facebook and Twitter; and on our application download pages. All fixes are also published in our Github code repository. In the event that a third party discloses a security vulnerability, we request that a public disclosure isn’t made until a fix is available, at which time we work with the third party to notify the public of the vulnerability, and the fix.
-
-**I believe I have found a security vulnerability. How can I report it?**
-
-Please send a detailed description of the vulnerability to our support email: [support@publicknowledgeproject.org](mailto:support@publicknowledgeproject.org). We will respond to you as quickly as possible with an evaluation of the vulnerability. If it is in fact a vulnerability within OJS, OMP, or OCS (ie. not a hack due to a general server/software misconfiguration, or a vulnerability in another software application, or something dressed up to look like a vulnerability, which we do see on occasion), we will proceed with next steps: identifying and publishing a fix, and then disclosing the issue and fix to the public.
-
-Another option is to submit an issue (and, if available, a patch in the form of a pull request) via [Github](https://github.com/pkp/pkp-lib).
-
-**My journal has a ton of spam registrations. Is there anything I can do about this?**
-
-Yes - you can enable your site's captcha settings, which are found in your `config.inc.php` file. There is a regular captcha, and an implementation of Google’s Recaptcha which requires its own private/public keys (which you can get from Google - see the `config.inc.php` file for further instructions). You can also turn on email validation in your `config.inc.php` file to enforce registrants to verify their account via an email link. Non-validated accounts will be automatically deleted after a number of days, which you can set. See `require_validation` and `validation_timeout` in the config file.

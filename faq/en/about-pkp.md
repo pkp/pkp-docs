@@ -27,3 +27,16 @@ If you have any doubts or questions, please [contact us](https://pkp.sfu.ca/cont
 ## How can I contribute to development or develop a plugin?
 
 PKP has [developer documentation](https://docs.pkp.sfu.ca/dev/) on [how to get started with PKP software development](https://docs.pkp.sfu.ca/dev/documentation/en/) and [how to write plugins](https://docs.pkp.sfu.ca/dev/plugin-guide/en/). All development is managed in [PKP’s Github repository](https://github.com/pkp/pkp-lib).
+
+## Where do you announce security vulnerabilities?
+
+PKP announces all valid security vulnerabilities, and their respective fixes when available, via the [PKP Community Forum](https://forum.pkp.sfu.ca/), [our news blog](https://pkp.sfu.ca/category/news/), our social media accounts, and our application download pages. All fixes are also published in [PKP’s Github repository](https://github.com/pkp/pkp-lib). In the event that a third party discloses a security vulnerability, we request that a public disclosure isn’t made until a fix is available, at which time we work with the third party to notify the public of the vulnerability and the fix.
+
+## How can I report a security vulnerability?
+
+Please send a detailed description of the vulnerability to our support email: [support@publicknowledgeproject.org](mailto:support@publicknowledgeproject.org). We will respond to you as quickly as possible with an evaluation of the vulnerability. 
+
+If it is in fact a vulnerability within our software (and not a hack due to a general server/software misconfiguration, a vulnerability in another software application, or something dressed up to look like a vulnerability, which we do see on occasion), we will proceed with next steps: identifying and publishing a fix, and then disclosing the issue and fix to the public.
+
+Another option is to submit an issue (and, if available, a patch in the form of a pull request) via [Github](https://github.com/pkp/pkp-lib).
+
