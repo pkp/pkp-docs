@@ -9,7 +9,7 @@ Open Journal Systems \(OJS\) is an open source solution to managing and publishi
 
 It has been designed to reduce the time and energy devoted to the clerical and managerial tasks associated with editing a journal, while improving the record-keeping and efficiency of editorial processes. It seeks to improve the scholarly and public quality of journal publishing through a number of innovations, including enhancing the reader experience, making journal policies more transparent, and improving indexing.
 
-This guide covers OJS version 3.2, released in February 2020, and features significant enhancements over the previous versions of the software. We hope you find it helpful for your publishing projects.
+This guide covers OJS version 3.3, released in February 2021, and features significant enhancements over the previous versions of the software. We hope you find it helpful for your publishing projects.
 
 ## Background
 
@@ -39,7 +39,7 @@ OJS includes the following features:
 
 ## What's New in OJS 3.3
 
-OJS 3.3 has a simplified dashboard navigation menu and new features related to submission management, communicating with users, and accessibility. This section will outline the main changes so you know what to expect when you upgrade to OJS 3.3. 
+OJS 3.3 has a simplified dashboard navigation menu and new features related to submission management, communicating with users, and accessibility. This section will outline the main changes so you know what to expect when you upgrade to OJS 3.3.
 
 Many of these changes are applicable also to Open Monograph Press (OMP) and Open Preprint Systems (OPS).
 
@@ -49,7 +49,7 @@ For a summary of changes in OJS 3.3 that are relevant to developers and developm
 
 ### Dashboard Interface and Navigation Menus
 
-There are some changes to the dashboard interface and navigation menus for logged in users in OJS 3.3. 
+There are some changes to the dashboard interface and navigation menus for logged in users in OJS 3.3.
 
 Journal Managers, Editors, Reviewers, Authors, and others who log in may notice a change in the main navigation menu on the left side. In 3.3, only users in roles who have access to the Settings menus (Journal Managers and Editors) will see the left-hand navigation menu. There are also additional menu links for Issues, Announcements, and Payments, and some of the menu links have moved.
 
@@ -70,37 +70,47 @@ The link from the dashboard to the public journal site home page has moved. A Jo
 ### Editorial Workflow
 
 #### Uploading submission files
+
 During submission, Authors can upload multiple files at once as well as drag-and-drop files. They are no longer asked to enter metadata such as a description, license, etc. This information can be entered during the workflow, where the old file upload wizard is still in use. You can find further instructions in the [Authoring chapter](./authoring#step-2).
 
 ![A short video that demonstrates how files can be uploaded in OJS 3.3](./assets/learning-ojs3.3-upload-submission-files.gif)
 
 #### Submission filters
+
 All Active and Archived submissions can now be filtered by assigned issue and assigned Editor. Only Journal Managers can filter by assigned Editor. You can find further instructions in the [Editorial Workflow chapter](./editorial-workflow#submission-dashboard).
 
 #### Reverse a declined decision
+
 A new editorial action allows Editors to reverse a declined decision in the submission and review stages. After a declined decision is reverted, the submission is restored to its previous stage and review round if active. You can find further instructions in the [Editorial Workflow chapter](./editorial-workflow#assigning-the-submission).
 
 #### Delete only declined submissions
+
 Only declined submissions can be deleted from the submissions list. You can find further instructions in the [Editorial Workflow chapter](./editorial-workflow#archived).
 
 #### Review type terminology
-In previous versions of OJS, the review types were “Double Blind,” “Blind,” and “Open.” In OJS 3.3 these have been changed to “Anonymous Reviewer/Anonymous Author,” “Anonymous Reviewer/Disclosed Author,” and “Open.” 
+
+In previous versions of OJS, the review types were “Double Blind,” “Blind,” and “Open.” In OJS 3.3 these have been changed to “Anonymous Reviewer/Anonymous Author,” “Anonymous Reviewer/Disclosed Author,” and “Open.”
 
 #### Category displayed on article page
+
 An article’s assigned categories now appear on the article landing page. You can find further instructions in the [Journal Settings chapter](./journal-setup#categories).
 
 #### Disable submissions
+
 Journal Managers and Editors can configure the Workflow Settings to disable all submissions for a journal. This can be used by journals that are no longer accepting new content. You can find further instructions in the [Journal Settings chapter](./journal-setup#sections).
 
 ### User Management and Communication
 
 #### Export users
+
 There is now an export tool available under Tools > Import/Export that can be used to export users to a CSV file. This can be used to import users into third-party mailing services. You can find further instructions in the [Users and Roles chapter](./users-and-roles#email-users).
 
 #### Notify users
+
 OJS 3.3 has a much-requested feature to notify, or send a message, to all users in a role. See the [Users and Roles chapter](./users-and-roles#email-users) for more details.
 
 #### Filter email templates by workflow stage
+
 When managing and editing email templates under Workflow Settings > Email, Journal Managers and Editors can filter the email templates by workflow stage. You can find further instructions in the [Workflow Settings chapter](./settings-workflow#filters).
 
 ### Accessibility
@@ -109,12 +119,14 @@ In 2019 OJS was audited for accessibility to people with disabilities and use as
 
 ### For Multilingual Journals
 
-OJS 3.3 has a number of new features that improve usage for journals working and/or publishing in multiple languages. 
+OJS 3.3 has a number of new features that improve usage for journals working and/or publishing in multiple languages.
 
 #### Date and time formats
+
 Date and time formats can now be specified for each journal and locale/language. Further instructions are in the [Website Settings chapter](./settings-website#date-and-time).
 
 #### Right-to-left languages
+
 There is better support for languages that read right-to-left, such as Arabic, Farsi, and Hebrew, in the rich text editor that appears in many form fields in OJS.
 
 #### Remote URLs
