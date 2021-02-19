@@ -45,7 +45,9 @@ On **Step 2**, a window will open allowing you to upload your submission file.
 
 In OJS 3.3 authors can upload multiple files at once, as well as drag-and-drop files.
 
-Once you've uploaded all your files you can indicate the file type for each from a single menu panel and metadata such as a description, license, etc. This information can be entered during the workflow. 
+![](./assets/submission3.3-files.gif)
+
+Once you've uploaded all your files you can indicate the file type for each from a single menu panel and metadata such as a description, license, etc. information can be entered during the workflow. 
 
 Once you have finished uploading and labelling all of your files, click **Save and continue** button to move to **Step 3**
 
