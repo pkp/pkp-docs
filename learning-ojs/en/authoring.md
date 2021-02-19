@@ -47,13 +47,13 @@ In OJS 3.3 authors can upload multiple files at once, as well as drag-and-drop f
 
 ![](./assets/submission3.3-files.gif)
 
-Once you've uploaded all your files you can indicate the file type for each from a single menu panel and metadata such as a description, license, etc. information can be entered during the workflow. 
+Once you've uploaded all your files you can indicate the file type for each from a single menu panel, and metadata such as a description or license can be entered during the workflow.
 
-Once you have finished uploading and labelling all of your files, click **Save and continue** button to move to **Step 3**
+Once you have finished uploading and labelling all of your files, click the **Save and Continue** button to move to **Step 3**.
 
 ### Step 3
 
-On **Step 3**, you will be asked to add more information about the submission, including the title of the submission (broken down into prefix, title, and subtitle), and the abstract. If the journal allows submissions in multiple languages, clicking on each metadata field will reveal the option to enter the metadata in the other languages that are enabled, allowing you to enter the title, subtitle and abstract in the other language(s).  Scrolling down...
+On **Step 3**, you will be asked to add more information about the submission, including the title of the submission (broken down into prefix, title, and subtitle), and the abstract. If the journal allows submissions in multiple languages, clicking on each metadata field will reveal the option to enter the metadata in the other languages that are enabled, allowing you to enter the title, subtitle and abstract in the other language(s). Scrolling down...
 
 ![](./assets/learning-ojs3.2-au-dashboard-new-3.png)
 
