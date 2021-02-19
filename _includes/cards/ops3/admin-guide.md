@@ -1,7 +1,7 @@
 
 ### [Administrator's Guide](admin-guide/)
 
-A guide for system administrators of PKP applications.
+A guide for system administrators of PKP applications. [View Now](/admin-guide/)
 
 ---
 
