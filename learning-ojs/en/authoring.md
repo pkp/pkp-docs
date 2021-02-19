@@ -27,9 +27,11 @@ Start a new submission by clicking the **New Submission** button on the right si
 
 In **Step 1** you will provide preliminary information about your submission.
 
-![](./assets/learning-ojs3.2-au-dashboard-new-1.png)
+![](./assets/learning-ojs3.3-au-dashboard-new-1.png)
 
 If the journal allows submissions in multiple languages, you can select the language of your submission from the drop-down menu. Languages can be enabled in Website Settings -> Setup -> Language.
+
+If the journal has Categories enabled and setup, you can select the categories your submission from the list. Categories can be setup in Journal > Categories.
 
 Select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
 
@@ -39,29 +41,13 @@ Read and agree to the statements in the submission checklist by checking each bo
 
 On **Step 2**, a window will open allowing you to upload your submission file.
 
-![](./assets/learning-ojs-3-author-submission-step2.png)
+![](./assets/learning-ojs-3.3-author-submission-step2.png)
 
-First, you MUST select an Article Component. This lets the system know whether the file is the body of the manuscript, an image, a data set, etc. **This must be selected before your file will upload**.
+In OJS 3.3 authors can upload multiple files at once, as well as drag-and-drop files.
 
-![](./assets/learning-ojs-3-author-submission-step2-2.png)
+Once you've uploaded all your files you can indicate the file type for each from a single menu panel and metadata such as a description, license, etc. This information can be entered during the workflow. 
 
-Once you’ve made that selection, you can then upload your first file. It is important to note that you can only upload **one** file at a time. Additional files can be uploaded later in the process. Typically, this first file will be the body of your manuscript. Hit the **Continue** button once the file uploads.
-
-![](./assets/learning-ojs-3-author-submission-step2-3.png)
-
-After uploading the file, you will be asked to review the name of the file. Use the Edit link to make any changes.
-
-Click the **Continue** button.
-
-Next, you have the option to repeat the process to upload additional files \(e.g., a data set or an image\).
-
-Once you have finished uploading all of your files, click **Complete**; this will close the upload window.
-
-![](./assets/learning-ojs-3-author-submission-step2-4.png)
-
-You will be brought back to the _Submit an Article_ screen where you will see the files you’ve uploaded. If you need to make changes, expand the blue arrow to the left of your file and make any changes using the _Edit_ link.
-
-Click ‘Save and Continue’ to move to Step 3.
+Once you have finished uploading and labelling all of your files, click **Save and continue** button to move to **Step 3**
 
 ### Step 3
 
