@@ -15,6 +15,8 @@ To view the user accounts, select Users & Roles from the left menu.
 
 ![](./assets/learning-ojs3.1-jm-users.png)
 
+If you want to export a list of all registered users, you can find the option to export it as an XML file under the **Tools** menu. If you prefer your user data in a spreadsheet format, you can download it as a CSV file from **Statistics > Users**.
+
 ### Users
 
 Users are displayed in last name order.
