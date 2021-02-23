@@ -11,7 +11,7 @@ This section will describe how to install the application, contribute changes, a
 
 ## Technical Requirements
 
-The following requirements must be met to run the software from the GitHub repositories. Read the [Admin Guide](http://localhost:4000/admin-guide/en/managing-the-environment) if you are installing from a release package.
+The following requirements must be met to run the software from the GitHub repositories. Read the [Admin Guide](../../../admin-guide/en/managing-the-environment) if you are installing from a release package.
 
 - PHP 7.3+
 - MySQL 4.1+ _or_ PostgreSQL 9.1.5+
