@@ -34,7 +34,13 @@ The Editorial activity statistics provides a visual graph and trend table with a
 
 Provides a summary of the number of users registered in your press and by roles.
 
-![](./assets/learning-omp3.2-statistics-users.png)
+In OMP 3.3, Press Managers and Press Editors can also export the user database as a CSV file, a user-friendly spreadsheet format. The CSV format is easy to use with marketing and mailing list management tools, such as Mailchimp.
+
+Previous versions only offered the option to export the user database in XML format. The previous XML export options is still available (under **Tools**).
+
+To export users, navigate to **Statistics > Users**. Click on the button **Export**. Next, use checkboxes to select the group(s) of users you wish to export, and **Export** again. This will generate a download, which may take several minutes to process, depending on the size of your user database.
+
+![](./assets/learning-omp3.3-statistics-users.png)
 
 ### Report Generator
 
