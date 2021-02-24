@@ -40,7 +40,7 @@ Once you are ready to make a submission, click **New Submission** on your user d
 
 **Step 1: Prepare**
 
-You will need to select the Submission Type, Series, the Role in submission, and add notes to the Editor (if applicable).
+You will need to select the Submission Type, Category, Series, the Role in submission, as well as agree to the submission guidelines and add notes to the Editor (if applicable).
 
 Once you have completed this form, click agree to the terms and click **Save and continue**.
 
@@ -48,15 +48,9 @@ Once you have completed this form, click agree to the terms and click **Save and
 
 **Step 2: Upload Submission**
 
-Identify your Submission Component from the list. Once selected, upload your file.
+Identify your Submission Component from the list. Once selected, upload all of the files relevant to your submission. You can select multiple files from the file browser using Ctrl+Click or Command+Click, or Shift+Click to select a range of files. Once your files are uploaded, you will be prompted to identify the file type. Click on a label to assign it to an uploaded file.
 
 ![](./assets/learning-omp_role-specific-workflow_auth-subm-3.png)
-
-Press continue.
-
-You can upload additional documents (as applicable).
-
-![](./assets/learning-omp_role-specific-workflow_auth-subm-4.png)
 
 Press **Complete** followed by **Save and Continue**.
 
