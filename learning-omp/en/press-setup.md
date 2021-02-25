@@ -127,10 +127,8 @@ Please note that some plugins for OJS are not available for OMP.
 
 Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes.
 
-
 This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](/learning-ojs/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library.
 
-![](./assets/learning-omp3.3-workflow-setting.png)
 
 ## Distribution
 
