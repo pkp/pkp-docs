@@ -12,11 +12,9 @@ Although the fundamental features of OJS are consistent between versions, there 
 * Multilingual author name support
 * Support for thematic collections or categories of articles
 
-For an overview of features you can look forward to seeing in OJS 3, please see our [OJS 3 Features Overview](http://www.youtube.com/watch?feature=player_embedded&v=UFkEj2kXd-0&list=PLg358gdRUrDX7Ai8HcN2vqPM1g0HHG7nu) video below.
+For an overview of features you can look forward to seeing in OJS 3, see our [OJS 3 Features Overview](https://www.youtube.com/watch?feature=player_embedded&v=UFkEj2kXd-0&list=PLg358gdRUrDX7Ai8HcN2vqPM1g0HHG7nu) video below.
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=UFkEj2kXd-0&list=PLg358gdRUrDX7Ai8HcN2vqPM1g0HHG7nu
-" target="_blank"><img src="http://img.youtube.com/vi/UFkEj2kXd-0/0.jpg" 
-alt="OJS 3 Features Overview" width="400" height="310" border="10" /></a>
+[![OJS 3 Features Overview](https://img.youtube.com/vi/UFkEj2kXd-0/0.jpg)](https://www.youtube.com/watch?feature=player_embedded&v=UFkEj2kXd-0&list=PLg358gdRUrDX7Ai8HcN2vqPM1g0HHG7nu)
 
 ## OJS 3 interface
 
