@@ -14,7 +14,7 @@ You can find the Settings in the left menu panel when you are logged in as a use
 
 In OMP 3.2, the Publisher information is now stored under the Press setting. You will need to enter all the information required to generate your ONIX metadata.
 
-![](./assets/learning-omp3.2-press-setting-1.png)
+![](./assets/learning-omp3.3-press-setting-1.png)
 
 ![](./assets/learning-omp3.2-press-setting-2.png)
 
@@ -30,7 +30,7 @@ This section contains the primary contact information you provided when original
 
 Series can be used to help organize your publications. A series represents a special set of books devoted to a theme or topic. Visitors will be able to search and browse the press by series. In the Series tab of your Press Settings, you can create, edit, and order the series that will appear on your press website.
 
-![](./assets/learning-omp3.2-press-setting-series-1.png)
+![](./assets/learning-omp3.3-press-setting-series-1.png.png)
 
 #### Add Series
 
@@ -50,7 +50,7 @@ To add a series, click **Add Series**  on the right corner of the Series table a
 
 You can modify a series by clicking on the blue arrow to the left of the series name. This will reveal options to edit or delete the series.
 
-![](./assets/learning-omp3.2-press-setting-series-3.png)
+![](./assets/learning-omp3.3-press-setting-series-3.png)
 
 #### Order Series
 
@@ -82,7 +82,7 @@ To start, go to Press Setting followed by the Categories tab.
 7. Add an image that will appear at the top of the category’s page (optional)
 8. Click Save
 
-![](./assets/learning-omp3.2-press-setting-categories-1.gif)
+![](./assets/learning-omp3.3-press-setting-categories-1.gif)
 
 
 #### Edit a category
@@ -91,7 +91,7 @@ To start, go to Press Setting followed by the Categories tab.
 2. Make the changes
 3. Click OK
 
-![](./assets/learning-omp3.2-press-setting-categories-2.gif)
+![](./assets/learning-omp3.3-press-setting-categories-2.gif)
 
 #### Remove a category
 
@@ -99,7 +99,7 @@ To start, go to Press Setting followed by the Categories tab.
 2. Click the Remove button that appears below
 3. Confirm that you want to remove the category
 
-![](./assets/learning-omp3.2-press-setting-categories-3.gif)
+![](./assets/learning-omp3.3-press-setting-categories-3.gif)
 
 #### Display categories
 
@@ -127,10 +127,8 @@ Please note that some plugins for OJS are not available for OMP.
 
 Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes.
 
-
 This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](/learning-ojs/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library.
 
-![](./assets/learning-omp3.2-workflow-setting.png)
 
 ## Distribution
 

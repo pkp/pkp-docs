@@ -2,7 +2,7 @@
 
 * [Preface](.)
 * [Introduction](./introduction.md)
-  * [OMP 3.2 Features](./introduction.md#omp-32-features)
+  * [OMP 3 Features](./introduction.md#omp-3-features)
 * [Installing and Upgrading](./install-upgrade.md)
   * [Download](./install-upgrade.md#download)
   * [Hosted Solutions](./install-upgrade.md#hosted-solutions)
@@ -12,6 +12,7 @@
   * [Permission Levels](./user-accounts.md#permission-levels)
   * [Roles](./user-accounts.md#roles)
   * [Creating New Roles](./user-accounts.md#creating-new-roles)
+  * [Emailing All Users in a Role](./user-accounts.md#emailing-all-users-in-a-role)
   * [Granting Author Permission](./user-accounts.md#granting-author-permissions)
 * [Setting up and Maintaining Your Press](./press-setup.md)
   * [Press Settings](./press-setup.md#press-settings)

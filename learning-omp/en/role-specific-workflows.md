@@ -24,9 +24,9 @@ Once you have completed the form and agreed to the terms, click Register. After 
 
 Once logged in you will be able to edit your user profile by clicking your username on the top-right corner of your dashboard.
 
-Select **View Profile**
+Click **Edit Profile**
 
-![](./assets/learning-omp_role-specific-workflow_edit-profile-1.png)
+![](./assets/learning-omp3.3_role-specific-workflow_edit-profile-1.png)
 
 From here, you’ll be able to edit your name, contact information, signature, and public profile; change your password; set notification preferences; etc.
 
@@ -80,9 +80,9 @@ Once you have completed all the steps, click **Finish Submission**.
 
 ## Reviewer Workflow
 
-Reviewer requests will appear in their user dashboard and in the taskbar. The request will have the Response and Review deadline.
+Reviewer requests will listed in a pop-up screen once they click the notification icon. 
 
-![](./assets/learning-omp_role-specific-workflow_rev-dash.png)
+![](./assets/learning-omp3.3_role-specific-workflow_rev-dash.png)
 
 A reviewer can see more details regarding the request by clicking on the manuscript. The request submenu will have the general information regarding the submission, the review file, and additional submission details and review schedule.
 
@@ -135,7 +135,9 @@ Once all the reviews are in, you must make a decision on the submission. Options
 * Request Revisions (in which case the author will be able to modify their submission information and/or upload revised submission files)
 * Send to External Review (editor selects files to send to the external review process)
 * Accept for Submission (at which point the submission will enter the Editorial stage, bypassing External Review)
-* Decline Submission (at which point the submission will be archived and the author notified)
+* Decline Submission (at which point the submission will be archived and the author notified). 
+
+A declined submission can be reverted, see [Reversing a declined decision](/learning-omp/en/role-specific-workflows#reversing-a-declined-decision).
 
 These selections are found on the right panel in the **Internal Review** menu.
 
@@ -158,12 +160,13 @@ All author, reviewer, and editor revision files are available from the Revisions
 Once all the reviews are in, you must make a decision on the submission. You may select one of the following:
 
 * Request Revisions, in which case the author will be able to modify their submission information and/or upload revised submission files
-
-* Decline Submission, at which point the submission will be archived and the author notified
-
+* Decline Submission, at which point the submission will be archived and the author notified. A declined submission can be reverted 
 * Accept Submission, at which point the submission will enter the Editorial stage
 
 These selections are found on the right panel in the Internal Review menu.
+
+#### Reversing a declined decision
+OMP 3.3 allows Press Editors to to reverse a declined decision in the submission and review stages. After a declined decision is reverted, the submission is restored to its previous stage and review round if active. 
 
 ## Copyediting Workflow
 
