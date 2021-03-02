@@ -17,7 +17,7 @@ Among the many features of OMP is its ability to...
 
 As OMP and OJS are similar software applications and share some of the same functions, this guide will refer users to sections of the OJS documentation that are shared. This guide is aimed at providing information specific to OMP.
 
-## OMP 3.3 Features
+## OMP 3 Features
 
 OMP 3.3 has been released with the following features/improvements:
 
