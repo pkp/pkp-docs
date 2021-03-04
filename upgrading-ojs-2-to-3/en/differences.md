@@ -12,6 +12,10 @@ Although the fundamental features of OJS are consistent between versions, there 
 * Multilingual author name support
 * Support for thematic collections or categories of articles
 
+For an overview of features you can look forward to seeing in OJS 3, see our [OJS 3 Features Overview](https://www.youtube.com/watch?feature=player_embedded&v=UFkEj2kXd-0&list=PLg358gdRUrDX7Ai8HcN2vqPM1g0HHG7nu) video below.
+
+[![OJS 3 Features Overview](https://img.youtube.com/vi/UFkEj2kXd-0/0.jpg)](https://www.youtube.com/watch?feature=player_embedded&v=UFkEj2kXd-0&list=PLg358gdRUrDX7Ai8HcN2vqPM1g0HHG7nu)
+
 ## OJS 3 interface
 
 There is a new interface for readers and editors, including a separate editorial interface that is visually distinct from the journal. Users with multiple roles are no longer required to select a role from their user homepage in order to access certain settings or administrative features; all the available options can be located in the new dashboard. This also allows for seamless switching between tasks associated with different roles. The new interface is illustrated below and explained in [What’s New in OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/introduction#whats-new-in-ojs-3).

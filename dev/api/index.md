@@ -41,7 +41,7 @@ https://example.com/index.php?journal=journalpath&endpoint=/api/v1/submission
 Administrators can access _some_ endpoints, such as `/contexts`, at a site-wide endpoint that spans all journals.
 
 ```
-https://example.com/*/api/v1/contexts
+https://example.com/_/api/v1/contexts
 ```
 
 ## Authentication
@@ -169,6 +169,22 @@ Temporary files can only be managed by the **the user who uploaded the file**. I
 ## Unstable Endpoints
 
 A few of the REST API endpoints are for internal use only and may be changed without notice. These endpoints are grouped in the **Backend** section of the references. Developers should expect that any integrations which make use of these endpoints could break from one version to the next.
+
+## Updating the API documentation
+
+Developers should update the API documentation whenever their code modifies a request or response. The API endpoints and query parameters are defined in an [OpenAPI v3 specification](https://github.com/pkp/ojs/blob/master/docs/dev/swagger-source.json)
+
+
+Several `definitions` are left undefined in the specification file.
+
+```
+"definitions": {
+	"Author": "author",
+	...
+}
+```
+
+These definitions are drawn from the [entity schemas](https://docs.pkp.sfu.ca/dev/documentation/en/architecture-entities#schemas), and will be [merged with the source file](https://github.com/pkp/pkp-docs#generate-rest-api-references) when the API docs are built.
 
 ## References
 

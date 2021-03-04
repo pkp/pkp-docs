@@ -14,7 +14,7 @@
 				{
 					"name": "/contexts",
 					"request": {
-						"url": "http://localhost:8000/*/api/v1/contexts",
+						"url": "http://localhost:8000/_/api/v1/contexts",
 						"method": "GET",
 						"header": [
 							{
@@ -32,7 +32,7 @@
 					"name": "/contexts",
 					"request": {
 						"url": {
-							"raw": "http://localhost:8000/*/api/v1/contexts?apiToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjQyZGFjMDRhZjM0MDYzOTNlMWViNmVhYWY5ZDhjZDU4MDIxZDRhMWIi.vJNHqGv8Ph7Drev_ywHpVdI26jKvznSbOp7AHnz0UrE",
+							"raw": "http://localhost:8000/_/api/v1/contexts?apiToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjQyZGFjMDRhZjM0MDYzOTNlMWViNmVhYWY5ZDhjZDU4MDIxZDRhMWIi.vJNHqGv8Ph7Drev_ywHpVdI26jKvznSbOp7AHnz0UrE",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -206,7 +206,7 @@
 					"name": "/contexts/{id}",
 					"request": {
 						"url": {
-							"raw": "http://localhost:8000/*/api/v1/contexts/9?apiToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjQyZGFjMDRhZjM0MDYzOTNlMWViNmVhYWY5ZDhjZDU4MDIxZDRhMWIi.vJNHqGv8Ph7Drev_ywHpVdI26jKvznSbOp7AHnz0UrE",
+							"raw": "http://localhost:8000/_/api/v1/contexts/9?apiToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjQyZGFjMDRhZjM0MDYzOTNlMWViNmVhYWY5ZDhjZDU4MDIxZDRhMWIi.vJNHqGv8Ph7Drev_ywHpVdI26jKvznSbOp7AHnz0UrE",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -239,7 +239,7 @@
 				{
 					"name": "/contexts/{id}/theme",
 					"request": {
-						"url": "http://localhost:8000/*/api/v1/contexts/1/theme",
+						"url": "http://localhost:8000/_/api/v1/contexts/1/theme",
 						"method": "GET",
 						"header": [],
 						"body": {},
@@ -1495,7 +1495,7 @@
 				{
 					"name": "/site",
 					"request": {
-						"url": "http://localhost:8000/*/api/v1/site/",
+						"url": "http://localhost:8000/_/api/v1/site/",
 						"method": "GET",
 						"header": [],
 						"body": {},
@@ -1507,7 +1507,7 @@
 					"name": "/site",
 					"request": {
 						"url": {
-							"raw": "http://localhost:8000/*/api/v1/site?apiToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjQyZGFjMDRhZjM0MDYzOTNlMWViNmVhYWY5ZDhjZDU4MDIxZDRhMWIi.vJNHqGv8Ph7Drev_ywHpVdI26jKvznSbOp7AHnz0UrE",
+							"raw": "http://localhost:8000/_/api/v1/site?apiToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjQyZGFjMDRhZjM0MDYzOTNlMWViNmVhYWY5ZDhjZDU4MDIxZDRhMWIi.vJNHqGv8Ph7Drev_ywHpVdI26jKvznSbOp7AHnz0UrE",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -1570,7 +1570,7 @@
 				{
 					"name": "/site/theme",
 					"request": {
-						"url": "http://localhost:8000/*/api/v1/site/theme",
+						"url": "http://localhost:8000/_/api/v1/site/theme",
 						"method": "GET",
 						"header": [],
 						"body": {},
@@ -1582,7 +1582,7 @@
 					"name": "/site/theme",
 					"request": {
 						"url": {
-							"raw": "http://localhost:8000/*/api/v1/site/theme?apiToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjQyZGFjMDRhZjM0MDYzOTNlMWViNmVhYWY5ZDhjZDU4MDIxZDRhMWIi.vJNHqGv8Ph7Drev_ywHpVdI26jKvznSbOp7AHnz0UrE",
+							"raw": "http://localhost:8000/_/api/v1/site/theme?apiToken=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IjQyZGFjMDRhZjM0MDYzOTNlMWViNmVhYWY5ZDhjZDU4MDIxZDRhMWIi.vJNHqGv8Ph7Drev_ywHpVdI26jKvznSbOp7AHnz0UrE",
 							"protocol": "http",
 							"host": [
 								"localhost"

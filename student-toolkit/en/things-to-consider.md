@@ -1,6 +1,6 @@
 # Things to Consider
 
-This [blog post on the Hybrid Publishing Lab](https://projects.digital-cultures.net/hybrid-publishing-lab/2015/03/oaj-canvas/) includes a worksheet or canvas that you can use when thinking of the following consideration for your journal. A version is available in [appendix three](./appendix-3).
+This [blog post on the Hybrid Publishing Lab](./appendix-3) includes a worksheet or canvas that you can use when thinking of the following consideration for your journal.
 
 ## Choosing a name
 
