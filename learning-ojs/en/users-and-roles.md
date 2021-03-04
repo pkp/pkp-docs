@@ -141,7 +141,7 @@ If the user still cannot log in, their account may have been disabled. To re-ena
 
 <hr />
 
-## Permissions and Roles in OJS
+## Permissions and Roles
 
 The OJS workflow revolves around different roles with different permissions and responsibilities for each user, allowing them access to different parts of the workflow. Users in the system must have at least one role. Users can also have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
 
