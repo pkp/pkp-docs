@@ -149,14 +149,6 @@ For journals using anonymous review, the author and reviewer (if they were to up
 
 In addition, in the blue bar along the top, you can see:
 
-**Metadata**: Where you can view and revise the submission metadata. In OJS 3.2, users can be granted permission to revise certain submission metadata at any stage of the workflow.
-
-![](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
-
-Use the Identifiers tab to also view or add a unique identifier.
-
-![](./assets/learning-ojs-3-ed-submissions-identifiers.png)
-
 **Activity Log**: Where you can view the history and any notes about the submission.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-log.png)
@@ -170,6 +162,14 @@ Use the Notes tab to also view or add any editorial notes.
 **Document Library**: Users throughout the editorial workflow will be able to access all the files in the Publisher Library (see [Workflow Settings chapter](./settings-workflow.md)) made available by the Journal Manager or Editor through opening the Submission Library and clicking "View Document Library".
 
 ![](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
+
+**Preview**:  See how the submission will look when published with its current metadata and Galley files by clicking Preview.
+
+![Screenshot of Preview feature that shows how an article will look when published](./assets/learning-ojs-3-ed-preview.png)
+
+**Metadata**: Where you can view and revise the submission metadata. In OJS 3.2 and later, users can be granted permission to revise certain submission metadata at any stage of the workflow.
+
+![](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
 
 ### Granting Author permissions
 
@@ -635,15 +635,15 @@ From here, they can see the Draft Files. These are the files that require copyed
 
 Outside of OJS, they will do the copyediting work.
 
-To check the submission metadata, use the Metadata link in the blue bar at the top.
+To check the submission metadata, click from the Workflow tab to the Production tab.
 
-![](./assets/learning-ojs-3-ce-copyediting-metadata.png)
+![Screenshot of article record's Publication tab with metadata fields](./assets/learning-ojs-3-ce-copyediting-metadata.png)
 
-This would include checking the article title, abstract, author names, keywords, etc.
-
-![](./assets/learning-ojs-3-ce-copyediting-metadata2.png)
+This would include checking the article title, abstract, contributor names, keywords, etc.
 
 If any changes are made, hit the **Save** button before exiting this window.
+
+You can Preview how the Abstract page would look if published with the current metadata by clicking on the Preview button in the top-right portion of the page.
 
 #### Consult with the Author
 
