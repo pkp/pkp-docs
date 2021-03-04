@@ -38,9 +38,9 @@ There are few scenarios where you might come across this message:
 
 1. You were assigned a role in the journal which does not have access to some stages of the workflow (for example, a copyeditor usually won’t have access to the peer review workflow stage). You may need to be assigned a new or additional role to receive additional access.
 2. The role settings need to be adjusted to provide access to more stages of the workflow for everyone assigned to that role.
-3. If you happen to be an editor or section editor of a journal that uses a blind or double blind review and has assigned yourself as a reviewer and declined this request.
+3. If you happen to be an editor or section editor of a journal that uses Anonymous Reviewer/Disclosed Author (previously known as "blind") or Anonymous Reviewer/Anonymous Author (previously knows as "double-blind") and has assigned yourself as a reviewer and declined this request.
 
-If you encounter this message as a result of the first 2 scenarios, please see [the Users and Roles documentation](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#if-a-user-cant-log-in) for details on editing a user’s account to assign a different or additional role, and editing the role settings to allow access to different workflow stages. (based on the role’s access to workflow stages, or on which role you’re in when assigned to an article)
+If you encounter this message as a result of the first 2 scenarios, please see [the Users and Roles documentation](/learning-ojs/en/users-and-roles#if-a-user-cant-log-in) for details on editing a user’s account to assign a different or additional role, and editing the role settings to allow access to different workflow stages. (based on the role’s access to workflow stages, or on which role you’re in when assigned to an article)
 
 The third scenario is a result of the security measures within the recent releases of OJS to protect the review process. The system is recognizing the most recent role as a reviewer. A workaround for this would be for the editor to use the direct link to the editorial workflow, i.e. you add /workflow/index/MSID/3 right after index.php in the URL: https://YourJournalURL/index.php/acronym/workflow/index/XXXX/3, where xxxx is the MS ID #.
 
@@ -62,13 +62,11 @@ In a multi-journal installation, Journal Managers or Journal Editors will only b
 
 ## How do I send a message to my site’s users?
 
-The easiest way to send a notification to all registered users is to create an “Announcement.” In addition to sending a message to all users (who have not opted out of email notifications), an Announcement is also displayed on the journal homepage and saved as an archive.
+The easiest way to send a notification to all registered users is to create an “Announcement.” In addition to sending a message to all users (who have not opted out of email notifications), an Announcement is also displayed on the journal homepage and saved as an archive. See [Website Settings > Announcements in Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#announcements) for details.
 
-To create a new Announcement, go to: Settings > Website > Announcements
+If you would like to send a message to all users in a particular role you can use the Notify feature. See [Email Users in Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#email-users) for details.
 
-To add a new Announcement, click on "Add Announcement" and write a new message. Make sure you check the box: “Send notification email to all registered users.”
-
-If you would like to send a notification to all users in a particular role or a subset of users (unrelated to a submission), you are not able to do this yet in OJS 3.X. Instead you need to use an external tool such as Mailchimp. You can export your users in a CSV file from phpMyAdmin, import them into the external email notification tool, and then send messages to selected users.
+For more refined communication with users and marketing communication, we recommend an external tool, such as Mailchimp. You can export your users in a CSV file under Tools > Import/Export and import them into the external tool.
 
 If you want to communicate with a group of users who are all assigned to a particular submission, you can use the Discussion feature on the submission.
 

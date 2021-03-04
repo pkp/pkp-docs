@@ -4,6 +4,10 @@ When making design changes, it is important to be mindful of the diversity of yo
 
 In this guide we will focus on visual impairments specifically, but it is always valuable to maintain clear and concise editorial standards so that your articles reach and remain accessible to as many researchers or readers interested in your field as possible.
 
+## Accessibility of Themes
+
+As of OJS/OMP/OPS 3.3, the Default Theme has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. Note that changes made to the theme may impact accessibility.
+
 ## Colour
 
 You can use [WebAim's Contrast Checker](http://webaim.org/resources/contrastchecker), [Contrast Ratio Checker](http://leaverou.github.io/contrast-ratio), or the [Colour Contrast Analyser](https://www.paciellogroup.com/resources/contrastanalyser) to check the contrast ratio between your website’s background and text colours and make sure it is accessible based on the [WCAG 2.0 Guidelines](https://www.w3.org/TR/WCAG20/#visual-audio-contrast).

@@ -1,6 +1,6 @@
 ---
 book: learning-ojs
-version: 3.2
+version: 3.3
 ---
 
 # Introduction
@@ -9,7 +9,7 @@ Open Journal Systems \(OJS\) is an open source solution to managing and publishi
 
 It has been designed to reduce the time and energy devoted to the clerical and managerial tasks associated with editing a journal, while improving the record-keeping and efficiency of editorial processes. It seeks to improve the scholarly and public quality of journal publishing through a number of innovations, including enhancing the reader experience, making journal policies more transparent, and improving indexing.
 
-This guide covers OJS version 3.2, released in February 2020, and features significant enhancements over the previous versions of the software. We hope you find it helpful for your publishing projects.
+This guide covers OJS version 3.3, released in February 2021, and features significant enhancements over the previous versions of the software. We hope you find it helpful for your publishing projects.
 
 ## Background
 
@@ -29,7 +29,7 @@ OJS includes the following features:
 
 1. OJS is installed locally and controlled locally
 2. Editors configure requirements, sections, review process, etc.
-3. Online submission, double-blind review, and management of all content
+3. Online submission, anonymous review, and management of all content
 4. Comprehensive indexing of content
 5. Responsive, themable reader interface
 6. Email notification for readers
@@ -39,34 +39,98 @@ OJS includes the following features:
 
 ## What's New in OJS 3
 
-OJS 3 is significantly different than its predecessor, OJS 2. It includes enhancements and new features developed from community feedback, extensive usability testing, and new software design capabilities.
+OJS 3.3 has a simplified dashboard navigation menu and new features related to submission management, communicating with users, and accessibility. This section will outline the main changes so you know what to expect when you upgrade to OJS 3.3.
 
-## Reader Interface
+Many of these changes are applicable also to Open Monograph Press (OMP) and Open Preprint Systems (OPS).
 
-By default, Open Journal Systems is installed with a very simple, functional user interface. This includes a top header, navigation bar, navigation blocks to the right, and a main content block in the middle of the page.
+If you are upgrading from OJS 2 and want to see an overview of changes in OJS 3.X, see [What’s New In OJS 3 in a previous version of this guide](https://docs.pkp.sfu.ca/learning-ojs/3.1/en/introduction#whats-new-in-ojs-3) and PKP’s guide to [Upgrading from OJS 2 to OJS 3](https://docs.pkp.sfu.ca/upgrading-ojs-2-to-3/). Please note that you will need to first upgrade from OJS 2 to OJS 3.2, and from there upgrade to OJS 3.3.
 
-The following image is a screenshot of an OJS Demonstration Journal Table of Contents.
+For a summary of changes in OJS 3.3 that are relevant to developers and development, please see the [Release Notebook for OJS OJS/OMP/OPS v3.3](https://docs.pkp.sfu.ca/dev/release-notebooks/en/3.3-release-notebook)
 
-![](./assets/learning-ojs-3-ojs3-interface.png)
+### Dashboard Interface and Navigation Menus
 
-You can see from the screenshot that the user functions now exist from your profile menu at the top right of the screen. This takes the managerial content in OJS 3.x away from general user view. Side bar information is clearly broken out, as well as your top navigation bar with collapsible menus for the "About" functions. Like OJS 2, each article has a linked title for viewing object metadata and abstracts, and galleys are now clearly labeled below the titles with clearer logos.
+There are some changes to the dashboard interface and navigation menus for logged in users in OJS 3.3.
 
-## Editorial Interface
+Journal Managers, Editors, Reviewers, Authors, and others who log in may notice a change in the main navigation menu on the left side. In 3.3, only users in roles who have access to the Settings menus (Journal Managers and Editors) will see the left-hand navigation menu. There are also additional menu links for Issues, Announcements, and Payments, and some of the menu links have moved.
 
-_AKA "The Dashboard"_
+![Screenshot of the dashboard that Journal Managers see when logged in](./assets/learning-ojs-3.3-navigation-menu-dashboard-jm.png)
 
-OJS 3.x has a separate interface once you log into the editorial system. This not only makes it easier to customize the reader interface, but also provides OJS users of different journals a consistent experience.
+Users in other roles will not see the menu because they can only access the Submissions part of the menu.
 
-![](./assets/learning-ojs3.2-ed-dashboard.gif)
+![Screenshot of the dashboard that Authors see when logged in](./assets/learning-ojs-3.3-navigation-menu-dashboard-author.png)
 
-The editorial interface is known as your **dashboard** and consists of the following elements:
+A user can now access their user profile and select a language on multilingual journals by clicking the person icon on the top right corner.
 
-1. **Top Navigation Bar**: To the left, you will find the name of the journal you are currently working with \(e.g., Journal of Public Knowledge\). If you are enrolled in more than one journal on this OJS installation, you can use this to switch between journals. Next to that are your Tasks \(items needing immediate attention\). To the right, you can switch languages if the journal is multilingual, view the reader interface, or click on your username to [view your profile](./user-accounts#viewing-and-changing-your-profile) or logout.
-2. **Left Menu Panel**: These are the major sections of the dashboard, including the submissions, issue management, subscription management (if you are running a journal using subscriptions), settings, user and role management, and tools. Users with fewer permissions (e.g., Authors, Reviewers, Copyeditors, etc.) will see fewer links here.
-3. **Metadata Bar**: This shows information about the submission. On the left are the submission ID, author, and title. On the right are additional buttons that will allow you to preview the published submission page, as well as the activity log and document library.
-4. **Main Panel**: In the main panel you will see the current work area. In the image above, you are looking at a submission record in the Submission stage.
-5. **Main Panel Sub-Menus**: Within the Main Panel, you will often see tabs that allow you to view different information about the content being worked on. In this example, the submission record is broken into four sections \(Submission, Review, Copyediting, Production\). Notice the Help tab to the right, which provides context-sensitive help for the page you are currently viewing.
-6. **Right Panel**: From here, you can see the action buttons, such as Send to Review. Different pages have different action buttons. Below the action buttons is the Participants table, which lists everyone \(except Reviewers\) involved in the submission.
+![Screenshot of the menu where users can edit their profile and select a language](./assets/learning-ojs-3.3-navigation-menu-dashboard-user-menu.png)
+
+The link from the dashboard to the public journal site home page has moved. A Journal Manager or Editor can now view the public journal site by clicking the name of the journal that appears on the top left corner of the page. For multi-journal installations, you can click the site map symbol on the top left corner of the page and then a list of journals in the installation will appear below and you can select the site you want to view.
+
+![Screenshot of the link to view the public journal site](./assets/learning-ojs-3.3-navigation-menu-dashboard-view-journal.png)
+
+### Editorial Workflow
+
+#### Uploading submission files
+
+During submission, Authors can upload multiple files at once as well as drag-and-drop files. They are no longer asked to enter metadata such as a description, license, etc. This information can be entered during the workflow, where the old file upload wizard is still in use. You can find further instructions in the [Authoring chapter](./authoring#step-2).
+
+![A short video that demonstrates how files can be uploaded in OJS 3.3](./assets/learning-ojs3.3-upload-submission-files.gif)
+
+#### Submission filters
+
+All Active and Archived submissions can now be filtered by assigned issue and assigned Editor. Only Journal Managers can filter by assigned Editor. You can find further instructions in the [Editorial Workflow chapter](./editorial-workflow#submission-dashboard).
+
+#### Reverse a declined decision
+
+A new editorial action allows Editors to reverse a declined decision in the submission and review stages. After a declined decision is reverted, the submission is restored to its previous stage and review round if active. You can find further instructions in the [Editorial Workflow chapter](./editorial-workflow#assigning-the-submission).
+
+#### Delete only declined submissions
+
+Only declined submissions can be deleted from the submissions list. You can find further instructions in the [Editorial Workflow chapter](./editorial-workflow#archived).
+
+#### Review type terminology
+
+In previous versions of OJS, the review types were “Double Blind,” “Blind,” and “Open.” In OJS 3.3 these have been changed to “Anonymous Reviewer/Anonymous Author,” “Anonymous Reviewer/Disclosed Author,” and “Open.”
+
+#### Category displayed on article page
+
+An article’s assigned categories now appear on the article landing page. You can find further instructions in the [Journal Settings chapter](./journal-setup#categories).
+
+#### Disable submissions
+
+Journal Managers and Editors can configure the Workflow Settings to disable all submissions for a journal. This can be used by journals that are no longer accepting new content. You can find further instructions in the [Journal Settings chapter](./journal-setup#sections).
+
+### User Management and Communication
+
+#### Export users
+
+There is now an export tool available under Tools > Import/Export that can be used to export users to a CSV file. This can be used to import users into third-party mailing services. You can find further instructions in the [Users and Roles chapter](./users-and-roles#email-users).
+
+#### Notify users
+
+OJS 3.3 has a much-requested feature to notify, or send a message, to all users in a role. See the [Users and Roles chapter](./users-and-roles#email-users) for more details.
+
+#### Filter email templates by workflow stage
+
+When managing and editing email templates under Workflow Settings > Email, Journal Managers and Editors can filter the email templates by workflow stage. You can find further instructions in the [Workflow Settings chapter](./settings-workflow#filters).
+
+### Accessibility
+
+In 2019 OJS was audited for accessibility to people with disabilities and use assistive technology. All of the changes that were recommended by the audit have been implemented in OJS 3.3, including an accessible Default Theme and custom blocks now requiring a title. More information about custom blocks is in the [Website Settings chapter](./settings-website#custom-block-plugin).
+
+### For Multilingual Journals
+
+OJS 3.3 has a number of new features that improve usage for journals working and/or publishing in multiple languages.
+
+#### Date and time formats
+
+Date and time formats can now be specified for each journal and locale/language. Further instructions are in the [Website Settings chapter](./settings-website#date-and-time).
+
+#### Right-to-left languages
+
+There is better support for languages that read right-to-left, such as Arabic, Farsi, and Hebrew, in the rich text editor that appears in many form fields in OJS.
+
+#### Remote URLs
+Navigation menu items with remote URLs can now have different remote URLs for each language. 
 
 ## Community Contributions
 
@@ -78,6 +142,12 @@ We also welcome software testing and bug reporting contributions.
 
 ## Support
 
-A [community forum](https://forum.pkp.sfu.ca/) and [issue reporting system](https://github.com/pkp/pkp-lib/#issues) for technical issues can be accessed via the [PKP web site](https://pkp.sfu.ca).
+PKP offers the following free support resources for OJS:
+
+* [PKP Docs Hub](https://docs.pkp.sfu.ca/): User guides, developer documentation and publishing tips for all of our software. Also includes links to community developed videos.
+* [PKP Community Forum](https://forum.pkp.sfu.ca/): An online discussion board where you can ask questions, answer questions, and share ideas.
+* [PKP School](https://pkpschool.sfu.ca/): A collection of online, open, and self-paced courses designed by PKP experts in English and Spanish. Includes video tutorials on Setting up Your Journal; the Editorial Workflow in OJS 3; and Becoming an Editor.
+
+There is also a “Help” link on the top right corner of every page in OJS, OMP, and OPS where you can find information about the current page and its functions.
 
 For questions about a particular journal site, such as submission requirements, contact that journal directly, using the contact information listed on the journal's **About** page.

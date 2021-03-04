@@ -1,6 +1,6 @@
 ---
 book: learning-ojs
-version: 3.2
+version: 3.3
 ---
 
 # Editorial Workflow
@@ -64,7 +64,21 @@ When you log into your Dashboard, you can find active submissions either from yo
 
 The **Search** tool for each queue can sometimes be helpful in tracking down submissions.
 
-The **Filter** tool allows you to limit your browsing to specific status (e.g., incomplete, overdue,inactive for 30 days) stages (submission, review, copyediting, production), or sections (e.g., articles, reviews) for faster searching.
+The **Filter** tool allows you to limit your browsing to specific conditions for faster searching. Depending on their role, editorial roles will be able to filter by the following:
+
+- __Status:__ select from _incomplete_, _overdue_, and _inactive for 30 days_
+
+- __Stages:__ select from _submission_, _review_, _copyediting_, and _production_
+
+- __Sections:__ this option is only available if more than 5 sections exist. After you begin entering text, the filter will auto-suggest. For example, filter by _articles_ or _reviews_
+
+- __Assigned editor(s):__ only journal managers have this filter options. Like sections, this is a textbox with auto-suggest
+
+- __Assigned issue:__ only journal managers can filter by unpublished issues, but editors and assistants will be able to filter by published issues. This field is case-sensitive and require exact match. For best results, search by year or title, rather than volume or number. This filter is mostly used if the assignment of a submission to an issue is done in an early phase of the editorial process. 
+
+Some filters allow multiple selections; users can filter by more than one editor, section or issue. Filters are applied with OR conditions, so when a user selects to filter by Editor A and Editor B, all submissions will be returned that are assigned to editor A OR editor B.
+
+When using multiple filters, the AND condition will be applied between filters. For example, when filtering by Review Stage AND Editor A, only submissions assigned to Editor A in the review stage will be returned.
 
 ![](./assets/learning-ojs3.2-ed-dashboard-filter.png)
 
@@ -86,23 +100,21 @@ This section includes a list of all submissions, without being organized into qu
 
 ![](./assets/learning-ojs3.1-ed-dashboard-all-active.png)
 
-### Archived
+### Archives
 
-This section includes a list of all submissions either rejected or already published by the journal.
+This section includes a list of all submissions either declined or already published by the journal. Declined submissions may be deleted from the list of archived submissions. Deleting a declined submission will completely remove the submission and all submission files from your journal.
 
-![](./assets/learning-ojs3.1-ed-dashboard-archive.png)
+![Screenshot of the list of archived submissions with the option to delete submissions.](./assets/ojs-3.3-sub-delete.png)
 
 ### Demonstration Submission
 
-For this demonstration, we are looking for the Williamson and Serletis submission, entitled _The Official Knowledge and Adult Education Agents_. It can be found at the top of the **My Assigned** queue, as well as in the **All Active** queue.
+For this demonstration, we are looking at the Cerpa submission, entitled _A Review of Object Oriented Database Concepts and their Implementation_. It can be found at the top of the **My Assigned** queue, as well as in the **All Active** queue.
 
-![](./assets/learning-ojs3.1-ed-dashboard-active.png)
+![The My Assigned queue on the OJS Submissions Dashboard, with the example article by Cerpa at the top of the queue.](./assets/learning-ojs3.3-submission-queue.png)
 
-Once you find the submission, you can use the blue arrow to reveal options to see if there are any open discussion (there are none), as well as to view the submission, view the activity logs and note, or to delete the submission.
+Once you find the submission, you can use the view button to view the submission, or use the blue arrow to reveal options and see if there are any open discussions (there are none in this case), the number of production galleys, and access the activity log & notes.
 
-![](./assets/learning-ojs3.1-ed-submission-details.png)
-
-**Delete** will completely remove the submission and all submission files from your journal. If you want to keep a record of the submission, it is better to **Decline** it, which will move the submission to the Archive.
+![A submission with the options menu expanded.](./assets/learning-ojs3.3-submission-options.png)
 
 **Activity Log & Notes** will bring up the submission's history.
 
@@ -116,7 +128,9 @@ To view the submission in more detail, select **View Submission** button. This w
 
 From here, you can see:
 
-**Submission Files**: This panel lists the files that have been submitted. In this view, there is just one file, but multiple files could have been submitted.
+**Submission Files**: This panel lists the files that have been submitted. In this view, there is just one file, but multiple files could have been submitted. Submission files will now retain the original names when downloaded.
+
+For journals using anonymous review, the author and reviewer (if they were to upload any document) are still removed. An example filename structure for files downloaded by Reviewers will be `ojs-review-assignment-1-article-text-8.docx` The numeric number corresponds with the manuscript number of assignment.
 
 **Pre-Review Discussions**: This panel allows the editor to communicate with the author, or with others on the editorial team. For example, to ask the author for some additional information, or to ask a section editor to take responsibility for this submission.
 
@@ -135,14 +149,6 @@ From here, you can see:
 
 In addition, in the blue bar along the top, you can see:
 
-**Metadata**: Where you can view and revise the submission metadata. In OJS 3.2, users can be granted permission to revise certain submission metadata at any stage of the workflow.
-
-![](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
-
-Use the Identifiers tab to also view or add a unique identifier.
-
-![](./assets/learning-ojs-3-ed-submissions-identifiers.png)
-
 **Activity Log**: Where you can view the history and any notes about the submission.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-log.png)
@@ -156,6 +162,14 @@ Use the Notes tab to also view or add any editorial notes.
 **Document Library**: Users throughout the editorial workflow will be able to access all the files in the Publisher Library (see [Workflow Settings chapter](./settings-workflow.md)) made available by the Journal Manager or Editor through opening the Submission Library and clicking "View Document Library".
 
 ![](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
+
+**Preview**:  See how the submission will look when published with its current metadata and Galley files by clicking Preview.
+
+![Screenshot of Preview feature that shows how an article will look when published](./assets/learning-ojs-3-ed-preview.png)
+
+**Metadata**: Where you can view and revise the submission metadata. In OJS 3.2 and later, users can be granted permission to revise certain submission metadata at any stage of the workflow.
+
+![](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
 
 ### Granting Author permissions
 
@@ -184,7 +198,7 @@ Under Permissions, enable ‘Allow this person to edit publication details.’ f
 
 ![](./assets/learning-ojs3.2-editorial-workflow-edit-grantpermission.png)
 
-Once the author has been granted access to made edits they will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors,  and Metadata.
+Once the author has been granted access to made edits they will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors, and Metadata.
 
 ![](./assets/learning-ojs3.2-editorial-workflow-edit-publicationmenu.png)
 
@@ -210,7 +224,7 @@ You can now see that the Section Editor is listed under Participants, and the Ac
 
 **Accept and Skip Review**: Skips the Review Stage and moves the submission directly into Copyediting.
 
-**Decline Submission**: Rejects the submission before going through the review process. The submission would then be archived.
+**Decline Submission**: Rejects the submission before going through the review process. The submission would then be archived. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active.
 
 Although in this example, the editor assigned a section editor, it would also be possible for the editor to assign themselves to the submission.
 
@@ -266,7 +280,7 @@ Additionally, a Journal Editor can add an Editorial Note about the reviewer in t
 
 ![Reviewer details screenshot OJS 3.1.2](./assets/learning-ojs-3.1.2-add-reviewer.png)
 
-In OJS releases 3.0 to 3.1.0, you cannot assign a user to review a submission if they are also an editor of the submission.  If you do, the editor will no longer be able to access the submission after they submit their review, in order to maintain the principles of blind peer review. However, starting with OJS 3.1.1, you can assign a user to review a submission if they are also an editor of the submission.
+In OJS releases 3.0 to 3.1.0, you cannot assign a user to review a submission if they are also an editor of the submission.  If you do, the editor will no longer be able to access the submission after they submit their review, in order to maintain the principles of anonymous peer review. However, starting with OJS 3.1.1, you can assign a user to review a submission if they are also an editor of the submission.
 
 At the bottom of this form, you will see options to:
 
@@ -284,7 +298,7 @@ This initiates a new window with a message for the Reviewer.
 
 You can revise any of the prepared text.
 
-If you are using a Blind Review method, ensure that the files you send to the Reviewer are stripped of any identifying information about the Author. Additional instruction for this is provided in the [Understanding Blind Review](#understanding-blind-review) and [Removing Identifying Information](#removing-identifying-information) sections.
+If you are using an Anonymous Review method, ensure that the files you send to the Reviewer are stripped of any identifying information about the Author. Additional instruction for this is provided in the [Understanding Anonymous Review](#understanding-anonymous-review) and [Removing Identifying Information](#removing-identifying-information) sections.
 
 Further down the form, you will see the additional details that are sent to the Reviewer including title, abstract, important dates, and a link to the files to be reviewed.
 
@@ -344,22 +358,22 @@ You will then select the reviewer(s) you would like to start a discussion with.
 
 At this point, we could add additional Reviewers, and then wait for their recommendations to come in.
 
-### Understanding Blind Review
+### Understanding Anonymous Review
 
 OJS is designed to accommodate different types of reviews and has built-in steps to ensure anonymity.
 
 All information will be visible to the journal managers and editors regardless of the type of review selected.
 The review type will be automatically selected based on what has been configured under _Settings_ > _Workflow_ > _Review_. The editors can change the review type when sending the review request. Editors/Section Editors must select the review type when sending the review request from the following options:
 
-* Double-Blind
-* Blind
+* Anonymous Reviewer/Anonymous Author
+* Anonymous Reviewer/Disclosed Author
 * Open
 
-**Double-Blind Review**: The identity of both the author and the reviewer is kept hidden.
+**Anonymous Reviewer/Anonymous Author**: The identity of both the author and the reviewer is kept hidden.
 
-The author or editor must ensure that metadata from the manuscript file is removed in a Double-Blind review. See [Removing Identifying Information](#removing-identifying-information) for more information.
+The author or editor must ensure that metadata from the manuscript file is removed in Anonymous Reviewer/Anonymous Author. See [Removing Identifying Information](#removing-identifying-information) for more information.
 
-*Reviewer*: The reviewer will not be able to see the author(s) in their reviewer’s queue if the editor has selected a double-blind review. All identifying information in the metadata of the submission details is automatically removed by the system.
+*Reviewer*: The reviewer will not be able to see the author(s) in their reviewer’s queue if the editor has selected Anonymous Reviewer/Anonymous Author. All identifying information in the metadata of the submission details is automatically removed by the system.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon1.png)
 
@@ -373,7 +387,7 @@ At the end of a review, if a reviewer chooses to upload a review file they shoul
 
 ![](./assets/learning-ojs3.1-ed-rev-anon3.png)
 
-**Blind Review**: Reviewer identity is kept anonymous from the author(s). The reviewers can see the author details.
+**Anonymous Reviewer/Disclosed Author**: Reviewer identity is kept anonymous from the author(s). The reviewers can see the author details.
 
 *Reviewer*: The reviewer is able will see full the metadata entered by the author by clicking _View All Submission Details_ in the request tab of the manuscript. The authors’ name will also appear in the reviewer's queue.
 
@@ -387,7 +401,7 @@ At the end of a review, if a reviewer chooses to upload a review file they shoul
 
 ### Removing Identifying Information
 
-While OJS has a number of built-in functions for blind reviews, additional steps may need to be taken outside of the platform to ensure a Double-Blind Review. A submission file may have information that could identify the authors' identity within the document properties.
+While OJS has a number of built-in functions for anonymous reviews, additional steps may need to be taken outside of the platform to ensure Anonymous Reviewer/Anonymous Author. A submission file may have information that could identify the authors' identity within the document properties.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon4.png)
 
@@ -472,7 +486,7 @@ Options include:
 
 **Accept Submission**: This means the submission is accepted without revisions and can proceed to the Copyediting stage.
 
-**Decline Submission**: This means that the submission has not passed peer review and is unsuitable for further consideration. The submission would then move to the Archives.
+**Decline Submission**: This means that the submission has not passed peer review and is unsuitable for further consideration. The submission would then move to the Archives. Only declined submissions in the Archives can be deleted. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active.
 
 ### Request Revisions
 
@@ -621,15 +635,15 @@ From here, they can see the Draft Files. These are the files that require copyed
 
 Outside of OJS, they will do the copyediting work.
 
-To check the submission metadata, use the Metadata link in the blue bar at the top.
+To check the submission metadata, click from the Workflow tab to the Production tab.
 
-![](./assets/learning-ojs-3-ce-copyediting-metadata.png)
+![Screenshot of article record's Publication tab with metadata fields](./assets/learning-ojs-3-ce-copyediting-metadata.png)
 
-This would include checking the article title, abstract, author names, keywords, etc.
-
-![](./assets/learning-ojs-3-ce-copyediting-metadata2.png)
+This would include checking the article title, abstract, contributor names, keywords, etc.
 
 If any changes are made, hit the **Save** button before exiting this window.
+
+You can Preview how the Abstract page would look if published with the current metadata by clicking on the Preview button in the top-right portion of the page.
 
 #### Consult with the Author
 
@@ -669,7 +683,7 @@ It is now visible in the Copyediting Discussions.
 
 You can now wait for the author's response.
 
-### Author Responds
+### Author Replies
 
 Once you hear back from the author, you can review their feedback by checking the discussion reply.
 

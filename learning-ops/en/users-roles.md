@@ -1,6 +1,6 @@
 ---
 book: learning-ops
-version: 3.2
+version: 3.3
 ---
 # Users and Roles
 
@@ -44,15 +44,15 @@ To enable this, go to Users & Roles > Roles. Click the blue arrow beside the ‘
 
 Under Role Options, enable **‘Permit submission metadata edit.’** then click OK.
 
-![](./assets/learning-ops-users-and-roles-edit-author-permission.png)
+![](./assets/learning-ops3.3-users-and-roles-edit-author-permission.png)
 
 **Limited Permission**- will grant registered authors (typically a single author) permission to make one-time or short-term changes.To allow an author to make a change in the metadata, find their name under the participant list followed by Edit.
 
-![](./assets/learning-ops-users-and-roles-limited-metadata-permission.png)
+![](./assets/learning-ops3.3-users-and-roles-limited-metadata-permission.png)
 
 Under Permissions, enable **‘Allow this person to edit publication details.’** followed by OK.
 
-![](./assets/learning-ops-users-and-roles-edit-limited-metadata-permission.png)
+![](./assets/learning-ops3.3-users-and-roles-edit-limited-metadata-permission.png)
 
 Once the author has been granted access to make edits they will be able to make changes to the metadata mentioned in the box.
 

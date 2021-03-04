@@ -1,12 +1,11 @@
 ---
 book: learning-ojs
-version: 3.2
+version: 3.3
 ---
 
 # User Account Management
 
 When a user log into the system, they will be taken to their Dashboard. From here, users can change their profile information or account settings, as well as see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow. More information about roles and permissions levels is available in the [Users and Roles chapter](./users-and-roles.md).
-
 
 ## Registering with a Journal
 

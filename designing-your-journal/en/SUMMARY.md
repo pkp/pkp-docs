@@ -6,6 +6,7 @@
   * [Typography](./branding.md#typography)
   * [Images](./branding.md#images)
 * [Inclusive and Accessible Theming](./inclusive-and-accessible-theming.md)
+  * [Accessibility of Themes](./inclusive-and-accessible-theming.md#accessibility-of-themes)
   * [Colour](./inclusive-and-accessible-theming.md#colour)
   * [Alternative text for images](./inclusive-and-accessible-theming.md#alternative-text-for-images)
   * [Descriptive URLs](./inclusive-and-accessible-theming.md#descriptive-urls)

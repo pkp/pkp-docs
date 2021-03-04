@@ -1,6 +1,6 @@
 ---
 book: learning-ojs
-version: 3.2
+version: 3.3
 ---
 
 # Reviewing
@@ -9,7 +9,7 @@ As a reviewer, you will learn of the review request via email or by checking you
 
 ![](./assets/learning-ojs-3-rev-dashboard.png)
 
-From the My Assigned list, find the title and Review link. Notice the lack of any author information in this double-blind peer review process.
+From the My Assigned list, find the title and Review link. Notice the lack of any author information in this Anonymous Reviewer/Anonymous Author peer review process.
 
 Selecting the Review link will take you to the first review step in the submission record, which is much more limited than the editor’s view, and contains no author information.
 

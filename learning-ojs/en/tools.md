@@ -1,6 +1,6 @@
 ---
 book: learning-ojs
-version: 3.2
+version: 3.3
 ---
 
 # Tools
@@ -17,7 +17,9 @@ Import/Export allows you to easily get data out of your OJS journal and get data
 
 ![](./assets/learning-ojs3.2-jm-users-tools-import.png)
 
-Some of the tools allow you to export to third-party systems, such as PubMed or the DOAJ. Others allow you to import or export user or article data.
+Some of the tools allow you to export to third-party systems, such as PubMed or the DOAJ. Others allow you to import or export article data.
+
+If you want to export user data, you can find the option to export it as an XML file here. If you prefer your user data in a spreadsheet format, you can download it as a CSV file from **Statistics > Users**.
 
 For detailed instructions on importing and exporting see the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export).
 

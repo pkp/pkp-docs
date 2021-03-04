@@ -1,6 +1,6 @@
 ---
 book: learning-omp
-version: 3.2
+version: 3.3
 ---
 # User Accounts
 
@@ -93,6 +93,25 @@ To create a new role, go to Users & Roles > Roles. On the top-right corner of th
 Select the Permission level, enter the Role Name and Abbreviation, and select from the Role Options (as it applies).
 
 ![](./assets/learning_omp-user-accounts_3.png)
+
+## Emailing all users in a role
+
+It is now possible to notify all users with a role by using the **Notify** feature in **Users & Roles**.
+
+Please note, this feature is disabled by default and administrators will need to enable it for each press.
+
+To email users with a particular role, start by selecting role and scrolling to the bottom to enter your message. 
+
+This feature may be useful for contacting your reviewers to confirm their interest in serving as a reviewer for your press.
+
+Once you have sent your message, there will be a status notification indicating whether your message has been successfully sent.
+
+When using this function, please note that there will be no record in your press of the emails that have been sent using this. Although you could opt to cc the main Press contact on the email.
+
+![List of Roles in Press you can notify](./assets/learning-omp3.3-notify-user-1.png)
+![Message box for Notify user function](./assets/learning-omp3.3-notify-user-2.png)
+
+
 
 ## Granting Author permissions
 

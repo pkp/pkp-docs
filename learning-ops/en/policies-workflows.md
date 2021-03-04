@@ -1,6 +1,6 @@
 ---
 book: learning-ops
-version: 3.2
+version: 3.3
 ---
 # Developing Policies and Workflows
 

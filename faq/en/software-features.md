@@ -49,7 +49,7 @@ OJS can be used to publish books but we recommend that you use OMP instead. OMP 
 
 ## Does OJS support open peer review?
 
-OJS supports three types of review: double-blind, blind, and open. For more information read [Understanding Blind Review](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#understanding-blind-review) in “Learning OJS 3”.
+OJS supports three types of review: anonymous reviewer/anonymous author (previously known as "double-blind"), anonymous reviewer/disclosed author (previously known as "blind"), and open. For more information read [Understanding Anonymous Review](/learning-ojs/en/editorial-workflow#understanding-anonymous-review) in “Learning OJS 3”.
 
 ## Can I use OJS in conjunction with Crossref?
 
