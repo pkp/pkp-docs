@@ -4,11 +4,11 @@ Open Journal Systems offers a variety of tools and plugins which allow you to in
 
 Most import and export functions can be carried out by logging in as Journal Manager and going to Tools > Import/Export.
 
-![](./assets/import-export.png)
+![Screenshot of OJS Tools menu showing Import/Export options in OJS.](./assets/import-export.png)
 
 However, in some cases import/export plugins need to be installed or enabled first under Settings > Website > Plugins. How to access and use specific plugins and functions are explained in the sections below.
 
-![](./assets/plugins.png)
+![Screenshot of plugins gallery where some import/export plugins can be enabled.](./assets/plugins.png)
 
 Import/export functionality is also available as a command-line tool; see `tools/importExport.php` and the command line section for more information.
 
@@ -64,7 +64,7 @@ Once you have the valid XML import file, you can import it:
 4. Click Import
 5. You will be notified of any errors, or if the import was successful.
 
-![](./assets/native-xml-plugin.png)
+![Screenshot of XML file upload screen.](./assets/native-xml-plugin.png)
 
 To export article and issue metadata using the Native XML Plugin:
 
@@ -77,7 +77,7 @@ To export article and issue metadata using the Native XML Plugin:
 
 \* Please note that using this plugin to export articles and issues will not only export all relevant metadata, but will include all article files \(HTML, PDF, etc.\) embedded within the XML document in Base64 encoding. This can result in large, cumbersome XML files, especially when multiple issues are exported at once. Opening them in an editor to view or change any XML data or metadata may be taxing for your computer, and it may take some time to download and/or upload said files, depending on your connection and the resources of the source server.
 
-![](./assets/native-xml-plugin-export.png)
+![Screenshot of Export Articles tab under the Native XML Plugin.](./assets/native-xml-plugin-export.png)
 
 ## Import and export users
 
@@ -119,7 +119,7 @@ Once you have the valid XML import file, you can import it:
 4. Click Import Users
 5. You will be notified of any errors, or if the import was successful.
 
-![](./assets/users-xml-plugin-import.png)
+![Screenshot of Users XML Plugin file uploader for importing users.](./assets/users-xml-plugin-import.png)
 
 To export user accounts using the Users XML Plugin:
 
@@ -129,7 +129,7 @@ To export user accounts using the Users XML Plugin:
 4. Click Export Users
 5. The user accounts will be exported in XML format, and can be imported to this or another journal
 
-![](./assets/users-xml-plugin-export.png)
+![Screenshot of Export Users tab under Users XML Plugin.](./assets/users-xml-plugin-export.png)
 
 ### Export users to CSV
 
