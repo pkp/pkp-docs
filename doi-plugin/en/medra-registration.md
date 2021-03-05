@@ -4,7 +4,7 @@ If you want to register DOIs with mEDRA then you'll have to do some basic config
 
 You should see the following form fields:
 
-![](assets/MEDRA-basic-config.png)
+![OJS 2 mEDRA export plugin settings screen.](assets/MEDRA-basic-config.png)
 
 Please enter the institution that registered the DOI prefix you are using. This is your own institution if you have an account with the registration agency yourself (automatic registration mode) or the institution of the registration account owner you are sending your XML files to (manual export mode).
 
