@@ -92,8 +92,7 @@ Once the preprint is published, the options to ‘Unpublish’ or ‘Create New 
 
 ### Preprint Status
 
-There are three possible relational statuses for a published preprint.
-Only the bottom two relational status will appear on the abstract page if selected.
+There are three possible Relations statuses for a published preprint. Only the bottom two relational status will appear on the abstract page if selected.
 
 * Preprint has not been submitted for publication;
 * Preprint has been submitted for publication in a journal; or
@@ -101,7 +100,7 @@ Only the bottom two relational status will appear on the abstract page if select
 
 ![](./assets/learning-ops-editorial-workflow-preprint-status.png)
 
-Submission statuses can be updated even after a Preprint has been posted. Additionally, once the preprint has had its Version of Record (VoR) published in a journal, the DOI assigned to the published preprint can be added by going to the "Relations" button and selecting the last option, that will show a text box in which the user should add the VoR’s DOI link.
+Submission statuses can be updated even after a Preprint has been posted, either by a Moderator or an Author. Additionally, once the preprint has had its Version of Record (VoR) published in a journal, the DOI assigned to the published preprint can be added by going to the "Relations" button and selecting the last option, that will show a text box in which the user should add the VoR’s DOI link.
 
 ![](./assets/learning-ops-editorial-workflow-relations.png)
 
