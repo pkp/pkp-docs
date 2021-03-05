@@ -6,6 +6,7 @@ PKP School is a guided series of training videos on setting up a journal and edi
 - [PKP School](http://pkpschool.sfu.ca/)
 - [Editorial workflow videos](https://www.youtube.com/playlist?list=PLg358gdRUrDUH0A7bCsDhpfgFKzq5Xl8T)
 - [Journal setup videos](https://www.youtube.com/playlist?list=PLg358gdRUrDXu-2mS5nRj_EoOueYBVN11)
+- [What's New in OJS 3.3](https://youtu.be/3D_hS4Bd-Y8)
 - [OMP videos](https://www.youtube.com/playlist?list=PLg358gdRUrDWtvSij3GnddTjlpbIAP3Yn)
 - [Indonesian videos](https://www.youtube.com/playlist?list=PLg358gdRUrDWqBdy3ue-DE_MD4ZsUDT03) 
 - [Spanish videos](https://www.youtube.com/playlist?list=PLg358gdRUrDWpTENORD2wEFCKz6D6F-Sg)
