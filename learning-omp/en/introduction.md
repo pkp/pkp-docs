@@ -19,7 +19,7 @@ As OMP and OJS are similar software applications and share some of the same func
 
 ## OMP 3 Features
 
-OMP 3.3 has been released with the following features/improvements:
+For a detailed description of new features in OMP 3.3, see [What's New in This Version of OJS in the Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/introduction#whats-new-in-this-version-of-ojs). The new features include the following:
 
 * Disable Submissions
 * Deactivate Series
