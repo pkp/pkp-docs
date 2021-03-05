@@ -6,7 +6,7 @@ version: 3.2
 
 Starting with OJS/OMP 3.2, we are using the web-based translation tool [Weblate](https://weblate.org) to manage translations of OJS and OMP.
 
-This means we have moved away from using XML files, and are instead using ["monolingual"](https://docs.weblate.org/en/latest/formats.html) PO files. These two file formats look a little different but support the same information. For example, here is an [XML file](https://github.com/pkp/pkp-lib/blob/stable-3_1_2/locale/en_US/common.xml) and a [PO file](https://github.com/pkp/pkp-lib/blob/master/locale/en_US/common.po).
+This means we have moved away from using XML files, and are instead using ["monolingual"](https://docs.weblate.org/en/latest/formats.html) PO files. These two file formats look a little different but support the same information. For example, here is an [XML file](https://github.com/pkp/pkp-lib/blob/stable-3_1_2/locale/en_US/common.xml) and a [PO file](https://github.com/pkp/pkp-lib/blob/main/locale/en_US/common.po).
 
 PO files are used by many thousands of software projects worldwide to manage translations. There are good-quality third-party tools for working with these. We have chosen Weblate, which supports web-based translation. This will replace our [Translator plugin](https://github.com/pkp/translator/).
 

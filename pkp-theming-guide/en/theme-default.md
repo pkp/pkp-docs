@@ -10,4 +10,4 @@ The Default Theme has deliberately chosen a simple, no-fuss layout with a neutra
 
 As of OJS/OMP/OPS 3.3, the Default Theme has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. Note that changes made to the theme may impact accessibility.
 
-The simple structure of the Default Theme makes it easier to extend with [Child Themes](child-themes.md). A large set of [LESS variables](https://github.com/pkp/ojs/blob/master/plugins/themes/default/styles/variables.less) can be adjusted to override font sizes, colors, borders, responsive breakpoints and more.
+The simple structure of the Default Theme makes it easier to extend with [Child Themes](child-themes.md). A large set of [LESS variables](https://github.com/pkp/ojs/blob/main/plugins/themes/default/styles/variables.less) can be adjusted to override font sizes, colors, borders, responsive breakpoints and more.

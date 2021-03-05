@@ -2,7 +2,7 @@
 
 Ce chapitre explique comment les emails sont envoyés dans OJS, OMP et OCS; les options de configuration disponibles; et comment résoudre les problèmes de messagerie.
 
-Le courrier dans les applications logicielles PKP utilise [la bibliothèque PHPMailer](https://github.com/PHPMailer/PHPMailer) . Vous pouvez en savoir plus à propos de PHPMailer sur [leur wiki](https://github.com/PHPMailer/PHPMailer/wiki). D'autres codes liés au courrier peuvent être trouvés dans [la classe mail pkp-lib](https://github.com/pkp/pkp-lib/tree/master/classes/mail) .
+Le courrier dans les applications logicielles PKP utilise [la bibliothèque PHPMailer](https://github.com/PHPMailer/PHPMailer) . Vous pouvez en savoir plus à propos de PHPMailer sur [leur wiki](https://github.com/PHPMailer/PHPMailer/wiki). D'autres codes liés au courrier peuvent être trouvés dans [la classe mail pkp-lib](https://github.com/pkp/pkp-lib/tree/main/classes/mail) .
 
 Les enregistrements des emails envoyés sont stockés dans la table `email_log` de la base de données.
 

@@ -1,6 +1,6 @@
 # Theme API Documentation
 
-Every theme extends the core [`ThemePlugin`](https://github.com/pkp/pkp-lib/blob/master/classes/plugins/ThemePlugin.inc.php) class. This class has a number of methods that will help you load scripts and styles, modify parent stylesheets and more.
+Every theme extends the core [`ThemePlugin`](https://github.com/pkp/pkp-lib/blob/main/classes/plugins/ThemePlugin.inc.php) class. This class has a number of methods that will help you load scripts and styles, modify parent stylesheets and more.
 
 This section contains technical documentation of this PHP class. If you're not familiar with the theme class, and how it relates to styles, scripts and templates, you should [begin here](what-is-a-theme.md).
 

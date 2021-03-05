@@ -172,7 +172,7 @@ A few of the REST API endpoints are for internal use only and may be changed wit
 
 ## Updating the API documentation
 
-Developers should update the API documentation whenever their code modifies a request or response. The API endpoints and query parameters are defined in an [OpenAPI v3 specification](https://github.com/pkp/ojs/blob/master/docs/dev/swagger-source.json)
+Developers should update the API documentation whenever their code modifies a request or response. The API endpoints and query parameters are defined in an [OpenAPI v3 specification](https://github.com/pkp/ojs/blob/main/docs/dev/swagger-source.json)
 
 
 Several `definitions` are left undefined in the specification file.

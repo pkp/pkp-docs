@@ -217,9 +217,9 @@ The recommended image dimensions will vary depending on the base theme you have 
 
 For the Health Sciences and Classic themes, detailed information about images and dimensions can be found in their README files:
 
-* Health Sciences: [https://github.com/pkp/healthSciences/blob/master/README.md](https://github.com/pkp/healthSciences/blob/master/README.md)
-* Classic: [https://github.com/pkp/classic/blob/master/README.md](https://github.com/pkp/classic/blob/master/README.md)
-* Bootstrap: [https://github.com/NateWr/bootstrap3/blob/master/README.md](https://github.com/pkp/classic/blob/master/README.md)
+* Health Sciences: [https://github.com/pkp/healthSciences/blob/main/README.md](https://github.com/pkp/healthSciences/blob/main/README.md)
+* Classic: [https://github.com/pkp/classic/blob/main/README.md](https://github.com/pkp/classic/blob/main/README.md)
+* Bootstrap: [https://github.com/NateWr/bootstrap3/blob/master/README.md](https://github.com/NateWr/bootstrap3/blob/master/README.md)
 
 Other themes do not have image information in their README files. See [the Themes chapter of the Theming Guide](/pkp-theming-guide/en/themes) for further information on these themes.
 
