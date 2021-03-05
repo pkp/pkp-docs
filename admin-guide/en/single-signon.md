@@ -11,7 +11,7 @@ Setting up an LDAP server is beyond the scope of this guide, but please consult 
 
 To setup LDAP in OJS and OCS, log in as the Site Administrator, and under 'Site Management' on the Administrator's home page, click on 'Authentication Sources'. Under 'Create authentication source', select 'LDAP' and click 'Create'. This will bring up the LDAP settings page.
 
-![](./assets/LdapAuthSources.png)
+![Screenshot of Authentication Source titled LDAP with list of options in OJS.](./assets/LdapAuthSources.png)
 
 *Warning*: Please note that the LDAP plugin doesn't ship with OCS by default -- you'll have to grab it from a recent version of OJS (or from CVS). More information can be found [here](http://pkp.sfu.ca/bugzilla/show_bug.cgi?id=2960).
 
@@ -23,7 +23,7 @@ The title for your LDAP setup is arbitrary; leave it as is or choose your own ti
 
 The next set of settings configures OJS/OCS to allow communication with the LDAP server.
 
-![](./assets/LdapSettings.png)
+![Screenshot of LDAP settings fields OJS.](./assets/LdapSettings.png)
 
 * *Server hostname*. The domain/IP address of the server that hosts the LDAP source. If OJS/OCS is running on the same server as LDAP, you can enter `localhost`.
 * *Server port*. If LDAP is running on a non-standard port, enter the number here. Leave it blank if you're not sure.
@@ -41,9 +41,9 @@ Optionally, if your PHP version 5.0 or greater, you can configure LDAP to use SA
 
 Shibboleth is maintained by the [Internet2 Middleware Initiative](http://shibboleth.internet2.edu/), and as such their website provides a central location for downloads and documentation. Currently, they provide Shibboleth Service Provider 2.1 in binary form for all major operating systems, as well as providing source code. For further information on installing and setting up the Shibboleth Service Provider, please consult Internet2's support documentation.
 
-Once Shibboleth is set up on your system, integration with your PKP application requires editing the `config.inc.php` file found in the base directory, in the `[security]` section. The variables in question all fall under the `implicit_auth `variable--Uncomment that by deleting the semicolon, and uncomment all of the other variables that begin with `implicit_auth`. Note that none of the other implicit_auth variables are consulted if the main variable is commented or not set to 'On'. By turning `implicit_auth` on, the login process will go through Shibboleth and several forms will be modified to not ask for personal information that is stored in Shibboleth.
+Once Shibboleth is set up on your system, integration with your PKP application requires editing the `config.inc.php` file found in the base directory, in the `[security]` section. The variables in question all fall under the `implicit_auth` variable -- uncomment that by deleting the semicolon, and uncomment all of the other variables that begin with `implicit_auth`. Note that none of the other implicit_auth variables are consulted if the main variable is commented or not set to 'On'. By turning `implicit_auth` on, the login process will go through Shibboleth and several forms will be modified to not ask for personal information that is stored in Shibboleth.
 
-![](./assets/ShibbolethSettings.png)
+![Screenshot of the the implicit_auth variable enabled in the config.inc.php file.](./assets/ShibbolethSettings.png)
 
 Initially, all of the variables are set to values for the [Texas Digital Library's Shibboleth Federation](http://www.tdl.org/shibboleth/). As you are likely not affiliated with TDL, you will have to change the values to reflect your Shibboleth settings. If your application is part of an institutional federation, consult your technical support for these values. Otherwise, you will have to investigate the configuration files in Shibboleth. This can get complicated, and there is a difference between variables in Shibboleth 1.x and Shibboleth 2.x. As of Shibboleth 2.0, these values are stored as web server environment variables, and you can determine them by looking in the attribute-map.xml file (usually in the `shibboleth_dir/etc/shibboleth/` directory), where the attribute is denoted by the 'id' attribute of each Attribute element. By default, the values should be `Shib-EP-[AttributeId]` where `[AttributeId]` is the value in the 'id' attribute, with the first letter capitalized. These values may also be in the form `HTTP_SHIB_EP_[AttributeID]` with `[AttributeID]` in all caps.
 
