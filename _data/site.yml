@@ -9,7 +9,7 @@ copyright-button: "[![Creative Commons Attribution 4.0 International](https://li
 devVersion: "Warning: In Development"
 devVersionDescription: "This document describes features or capabilities that have not yet been released to the public. This information is provided as advanced notice for what we plan to be included in future versions. But the details here may change without warning."
 improveLink: "Edit this page"
-improveLinkBaseUrl: "https://github.com/pkp/pkp-docs/edit/master/"
+improveLinkBaseUrl: "https://github.com/pkp/pkp-docs/edit/main/"
 contactLink: "make a suggestion"
 contactBaseUrl: "https://pkp.sfu.ca/documentation-feedback/"
 orText: "or"
