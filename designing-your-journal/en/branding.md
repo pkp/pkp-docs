@@ -12,7 +12,7 @@ OJS 3’s dashboard allows for some personalisation without having to alter the 
 
 ## Colours
 
-![](./assets/website-settings-change-colours.gif)
+![Animation of a user accessing OJS appearance settings and selecting a pink accent under the "Colour" option.](./assets/website-settings-change-colours.gif)
 
 When selecting the colour scheme for your journal, stick to simple palettes composed of grayscale with one or two accent colours. This will help your website look professional and uncluttered. Most default themes will only allow for one or two colours; make sure the chosen colours do not obstruct the text or any images on your website. It is possible to further customize your site’s colours with CSS, but we do not recommend this for beginners.
 
@@ -20,7 +20,7 @@ For more information about accessible colour choices and screenshot examples, se
 
 ## Typography
 
-![](./assets/website-settings-change-typography.gif)
+![Animation of a user accessing OJS appearance settings and selecting a new font under the Typography option.](./assets/website-settings-change-typography.gif)
 
 Different typefaces and fonts can convey different tones. The OJS 3 default theme offers a few pairing options, whereas other themes might give you the option to select your own. If you wish to customize this, you will have to [edit CSS stylesheets manually](./creating-stylesheet.md).
 
@@ -85,63 +85,63 @@ The Logo is the image that represents the journal and is displayed at the top of
 * Easily readable.
 
 <figure>
-    <img src="./assets/logo-dont-1.png">
+    <img src="./assets/logo-dont-1.png" alt="Image demonstrating a hard-to-read small logo image in black text on a blue background, with a red X beside it.">
     <figcaption>Image dimensions are too small, poor contrast between header background colour and text colour, and text is too long.</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/logo-dont-2.png">
+    <img src="./assets/logo-dont-2.png" alt="Image demonstrating a very colorful and small logo image, with a red X beside it.">
     <figcaption>Background image too busy and creates poor contrast, and too much text which becomes unreadable.</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/logo-dont-3.png">
+    <img src="./assets/logo-dont-3.png" alt="Image demonstrating a small and low quality square black logo image with a white background, with a red X beside it.">
     <figcaption>JPEG format does not allow for transparent background and lowers the image quality, image dimensions are too small, and too much text which becomes unreadable.</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/logo-good-3.png">
+    <img src="./assets/logo-good-3.png" alt="Image demonstrating an easily readable large logo image with white text on a blue background, with a green checkmark beside it.">
     <figcaption>Logo is transparent and in PNG format, colour contrast is high enough to be readable against header background, but there is still too much text; see the following image for the mobile view.</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/logo-good-mobile.png">
+    <img src="./assets/logo-good-mobile.png" alt="Image demonstrating the previous image's readable logo on a mobile display, with a green checkmark beside it.">
     <figcaption>On mobile, the text in the logo becomes unreadable and cluttered. The logo could be greatly improved by simplifying it.</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/logo-good-2.png">
+    <img src="./assets/logo-good-2.png" alt="Image demonstrating a plain text journal title, with a green checkmark beside it.">
     <figcaption>If you do not have access to graphic design software or resources to design a logo, displaying the journal title in plain text is always the simplest user-friendly (accessible and responsive) option. You still have the option to change the typeface of this text if you would like to personalise it without the use of software. <a href="https://fonts.google.com/">Google Fonts</a> offers many free and open source display fonts (requires some CSS knowledge).</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/logo-better-1.png">
+    <img src="./assets/logo-better-1.png" alt="Image demonstrating a large, plain white logo on a blue background with the journal's initials, with two green checkmarks beside it.">
     <figcaption>A clean, simple, and high contrast logo is more impactful. The PNG lossless format allows for a transparent background and better image quality, and the image is not stretched, thanks to larger image dimensions.</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/logo-better-2.png">
+    <img src="./assets/logo-better-2.png" alt="Image demonstrating a large, plain blue logo on a white background with the journal's initials, with two green checkmarks beside it.">
     <figcaption>A variant of the previous logo on a white background, using the same brand colour.</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/logo-better-mobile.png">
+    <img src="./assets/logo-better-mobile.png" alt="Image demonstrating a large, plain logo with the journal's initials on a mobile display, with two green checkmarks beside it.">
     <figcaption>This version looks good on both mobile and desktop views.</figcaption>
 </figure>
 
@@ -155,35 +155,35 @@ The Home page image is the large feature image on the homepage on some themes, s
 * images with a larger width than height.
 
 <figure>
-    <img src="./assets/splash-image-dont.png">
+    <img src="./assets/splash-image-dont.png" alt="Image where an oversized issue cover image has been set as the homepage image, taking up an excessive amount of space. The image is marked with a red X.">
     <figcaption>The home page image should not be used for issue covers -- there is a space dedicated to this in an issue’s metadata. It is also much taller than it is wide: your readers will have to scroll before seeing your latest announcements or issue’s table of contents.</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/splash-image-dont-mobile.png">
+    <img src="./assets/splash-image-dont-mobile.png" alt="Image showing the previous oversized image on a mobile display, marked with a red X.">
     <figcaption>Image sizing issues are magnified on mobile devices; the reader has to scroll even more. This may cause them to navigate away from your website before reading your journal’s content.</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/splash-image-dont-2.png">
+    <img src="./assets/splash-image-dont-2.png" alt="Image of a properly sized homepage image, marked with a red X.">
     <figcaption>Original image dimensions are too small - less than 1000 pixels wide. Used as a cover or home page image, it stretches out and becomes blurry or pixelated.</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/splash-image-do.png">
+    <img src="./assets/splash-image-do.png"  alt="Image showing a properly sized homepage image, marked with a green check.">
     <figcaption>The image is much wider than it is tall, giving readers a better idea of the journal’s text content “above the fold” (before the reader has to scroll to see the rest of the page). A high-quality and larger (over 1200 pixels wide) PNG image looks more polished and translates well on most screens, from mobile devices to desktop HD monitors.</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/splash-image-do-mobile.png">
+    <img src="./assets/splash-image-do-mobile.png"  alt="Image showing a properly sized homepage image on a mobile display, marked with a green check.">
     <figcaption>The image’s dimensions (wider than tall) allow readers to get an idea of the journal’s latest announcements as soon as they land your home page. This allows some customisation of your website without obstructing its content.</figcaption>
 </figure>
 
@@ -227,7 +227,7 @@ The size and manner in which images are displayed can be altered by uploading a 
 
 In OMP you can configure the size of your book cover thumbnails under Website Settings > Appearance.
 
-![](./assets/cover-thumbnails.png)
+![Screenshot of OMP cover thumbnail dimension setting screen.](./assets/cover-thumbnails.png)
 
 ### Resizing images
 
