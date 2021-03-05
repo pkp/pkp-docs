@@ -8,7 +8,7 @@ The Settings section allows you to configure your OJS installation to best meet 
 
 You can find the Settings in the left menu panel when you are logged in as a user with Journal Manager permissions.
 
-![](./assets/learning-ojs3.1-jm-settings-journal.png)
+![OJS dashboard View for Journal Managers with links to Settings menu and its submenus in left-hand sidebar.](./assets/learning-ojs3.1-jm-settings-journal.png)
 
 It consists of Journal Settings, Website Settings, Workflow Settings, and Distribution Settings, which will be covered in the next 4 chapters.
 
@@ -16,7 +16,7 @@ The Journal Settings page includes details about the journal.
 
 Use the tabs to navigate to the different sections of Journal Settings: Masthead, Contact, Sections.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-page.png)
+![OJS dashboard view of Journal Settings with navigation tabs for the Settings submenus across top portion of page content.](./assets/learning-ojs3.1-jm-settings-journal-page.png)
 
 ## Masthead
 
@@ -50,7 +50,7 @@ Hit the **Save** button to save your changes.
 
 Use this section to add journal contacts.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-contact.png)
+![OJS dashboard view of Journal Settings submenu Contact where information can be added in text fields.](./assets/learning-ojs3.1-jm-settings-journal-contact.png)
 
 **Mailing Address**: Add your journal's official mailing address here. This will appear on the journal's Contact page.
 
@@ -66,7 +66,7 @@ Use this page to configure the different sections of your journal. E.g., Article
 
 All of your existing sections will appear here. OJS requires at least one section, and creates an "Articles" section by default.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-sections.png)
+![OJS dashboard view of Journal Settings submenu Sections with links for Order and Create Section and editable list of current sections.](./assets/learning-ojs3.1-jm-settings-journal-sections.png)
 
 You can modify sections by clicking on the blue arrow to the left of the section name. This will reveal options to edit or delete the section.
 
@@ -74,7 +74,7 @@ You can modify sections by clicking on the blue arrow to the left of the section
 
 Selecting the edit link will open a new window with different configuration options.
 
-![](./assets/learning-ojs-3-settings-website-settings-sections-edit-1.png)
+![New window displaying a section's current settings that is editable.](./assets/learning-ojs-3-settings-website-settings-sections-edit-1.png)
 
 From here, you can change the name or abbreviation of the section.
 
@@ -96,7 +96,7 @@ Hit the **Save** button to save your changes and return to the Sections page.
 
 From the sections page, select the Create Section link to open a blank window, exactly the same as the window used for editing a section described above.
 
-![](./assets/learning-ojs-3-settings-website-settings-sections-create.png)
+![Screenshot of new window for entering section information in text fields and selecting section options.](./assets/learning-ojs-3-settings-website-settings-sections-create.png)
 
 Fill in the details and hit Save to record your work.
 
@@ -104,17 +104,17 @@ Fill in the details and hit Save to record your work.
 
 Each section allows to restrict submissions by checking the "Items can only be submitted by Editors and Section Editors" checkbox.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-sections-restrict.png)
+![Screenshot of list of options for restricting a section. Items can be selected from list by checking the box to the left of the item.](./assets/learning-ojs3.1-jm-settings-journal-sections-restrict.png)
 
 If this checkbox is checked for all sections, authors will not be able to submit to the journals. Authors who select New Submission from their dashboards will now see the message "This journal is not accepting submissions at this time."
 
-![](./assets/learning-ojs3.1-jm-settings-journal-not-accepting-submissions.png)
+![[Screenshot example of message displayed on a journal New Submission page.](./assets/learning-ojs3.1-jm-settings-journal-not-accepting-submissions.png)
 
 ### Order Sections
 
 When you have more than one section created, you will see an Order link. Use that to reorder how those sections display on your journal website.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-sections-order.png)
+![Screenshot of list of available sections from top to bottom of page in OJS dashboard.](./assets/learning-ojs3.1-jm-settings-journal-sections-order.png)
 
 Hit the **Done** button when you are finished.
 
@@ -123,7 +123,7 @@ Hit the **Done** button when you are finished.
 ## Categories
 In OJS 3.1.2 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production section of the Editorial Settings chapter](./editorial-workflow.md#production). This section explains how to create and edit categories.
 
-![](./assets/learning-ojs3.1-categories-menu.png)
+![OJS dashboard view of Journal Settings submenu Categories with links for Order and Add a Category and editable list of current categories.](./assets/learning-ojs3.1-categories-menu.png)
 
 To create a new category:
 * Click Add Category
@@ -134,7 +134,7 @@ To create a new category:
 * Optionally add an image which will appear at the top of the category’s page
 * Click Save
 
-![](./assets/learning-ojs3.1-create-category.png)
+![Screenshot of new window for entering category information in text fields and selecting category options.](./assets/learning-ojs3.1-create-category.png)
 
 To edit a category:
 * Click the name of the category you want to edit
