@@ -37,7 +37,7 @@ OJS includes the following features:
 8. Complete context-sensitive online Help support
 9. Multilingual support
 
-## What's New in OJS 3
+## What's New in This Version of OJS
 
 OJS 3.3 has a simplified dashboard navigation menu and new features related to submission management, communicating with users, and accessibility. This section will outline the main changes so you know what to expect when you upgrade to OJS 3.3. You can also watch [a video that demonstrates new features in OJS 3.3](https://youtu.be/3D_hS4Bd-Y8), created by [PKP Publishing Services](https://pkpservices.sfu.ca).
 
