@@ -27,7 +27,7 @@ Some of the features of OPS include:
 For a detailed description of new features in OPS 3.3, see [What's New in This Version of OJS in the Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/introduction#whats-new-in-this-version-of-ojs). OPS 3.3 also includes the following new features:
 
 * A new email template that can be sent to an author by a moderator when the author's preprint is posted, which confirms the preprint has been posted.
-* Any author can update the status of the Relation field, regardless of whether the author has permission to self-post.
+* Any author can update the status of the Relations field, regardless of whether the author has permission to self-post.
 
 ## OPS Uses
 
