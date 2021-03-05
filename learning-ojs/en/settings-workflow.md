@@ -16,9 +16,9 @@ A journal manager will be able to disable submissions for the entire section or 
 
 Once the setting is enabled, a notification is displayed indicating that submissions have been disabled. When this setting is enabled, users will no longer be able to make submissions in the journal.
 
-![](./assets/learning-ojs3.3-workflow-disable-submissions.png)
+![OJS 3.3 disable submission menu.](./assets/learning-ojs3.3-workflow-disable-submissions.png)
 
-![](./assets/learning-ojs3.3-workflow-disable-submissions-notification.png)
+![OJS 3.3 notice about the journal not accepting submissions.](./assets/learning-ojs3.3-workflow-disable-submissions-notification.png)
 
 ### Metadata
 
@@ -28,7 +28,7 @@ This section determines what types of metadata will be collected during the subm
 
 Components are the file types authors may upload to the site. Typically, one file will be the article text, and others can include interview transcripts, data, images, etc. The components available for the author to choose from when making their submission are listed here.
 
-![](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)
+![OJS 3.3 article components menu.](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)
 
 Using the links provided, you can change the **Order** of the components \(how they will be listed to the submitting author\), **Add a Component** \(if something you need is not included by default -- e.g., Video\), or **Restore the Defaults** \(if someone has made too many modifications and you just want to reset everything\).
 
@@ -36,7 +36,7 @@ Using the links provided, you can change the **Order** of the components \(how t
 
 You can also edit each component by selecting the blue arrow to the left of the component name. This will reveal an Edit link and a Delete link.
 
-![](./assets/learning-ojs3.3-jm-settings-workflow-comp-edit.png)
+![OJS 3.3 component editing menu.](./assets/learning-ojs3.3-jm-settings-workflow-comp-edit.png)
 
 - **Name**: This is the name of the component, as presented to the author.
 
@@ -50,7 +50,7 @@ You can also edit each component by selecting the blue arrow to the left of the 
 
 In the Submission Preparation Checklist, Authors must check off that they agree with each item on this list. Use the _Order_ link to change the order of the items, use the _Add Item_ link to create a new item, and use the blue arrow to the left of the item name to _Edit_ an existing item.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
+![OJS 3.3 submission checklist editing menu.](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
 
 ### Author Guidelines
 
@@ -63,7 +63,7 @@ Use this field to add information for your authors that will be useful during th
 
 This tab allows you to configure your journal's review process.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-review.png)
+![OJS 3.3 review configuration editing menu.](./assets/learning-ojs3.1-jm-settings-workflow-review.png)
 
 ### Setup
 
@@ -81,7 +81,7 @@ Use the drop down menu to select either the number of days or “Never Remind”
 
 Hit the **Save** button to record your changes.
 
-![](./assets/learning-ojs3.1-jm-settings-review-reminders.png)
+![OJS 3.3 notification of author submission screen.](./assets/learning-ojs3.1-jm-settings-review-reminders.png)
 
 Note that some system settings must be configured by the Site Administrator to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
 
@@ -97,17 +97,17 @@ Review forms provide reviewers with a set of questions to respond to. This can h
 
 **Create Review Form**: Use the Create Review Form link to make a new form.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-create.png)
+![OJS 3.3 new review form creation menu.](./assets/learning-ojs-3-settings-workflow-settings-review-create.png)
 
 The Description and Instructions provide information about the form and when to use it for Journal Managers and Editors. This content is not included on the form that reviewers see. You can add instructions and guidelines for reviewers under Review Guidelines \(below\).
 
 Back at the Review Forms page, select the blue arrow to the left of the form name to reveal the Edit link.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-edit1.png)
+![OJS 3.3 review forms with edit menu expanded.](./assets/learning-ojs-3-settings-workflow-settings-review-edit1.png)
 
 Select the Edit link and complete the form.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-create-items.png)
+![OJS 3.3 review form edit menu and response options.](./assets/learning-ojs-3-settings-workflow-settings-review-create-items.png)
 
 **Form Items** are form questions.
 
@@ -128,13 +128,13 @@ Remember to hit the **Save** button to record your changes.
 
 Use the **Preview** tab to test out the form.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-preview.png)
+![OJS 3.3 review form preview and response options.](./assets/learning-ojs-3-settings-workflow-settings-review-preview.png)
 
 Once you send the form to a reviewer you will no longer be able to edit it because that would change the record for existing reviews using that form. If you want to make changes to the review form at that point you can copy the existing form and create a new updated version.
 
 **Anonymous Reviewer/Disclosed Author**: Check this box to display a link for instructions on ensuring all submission files are anonymized.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review2.png)
+![OJS 3.3 checkbox to display submission anonymization instructions.](./assets/learning-ojs-3-settings-workflow-settings-review2.png)
 
 ## Publisher Library
 
@@ -144,11 +144,11 @@ You can also upload a file here that you would like to be publicly accessible vi
 
 Suggested forms that can be uploaded in this area can include the galley approval form, supplemental material cover page, and other forms related to your journals workflow.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-publib1.png)
+![OJS 3.3 publisher library menu.](./assets/learning-ojs3.1-jm-settings-workflow-publib1.png)
 
 To add a file here, click ‘Add a file’ on the top right corner of the Publisher Library box.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-publib2.png)
+![OJS 3.3 add a file to the publisher library.](./assets/learning-ojs3.1-jm-settings-workflow-publib2.png)
 
 **Name**: Title of Document you want to appear to the user
 
@@ -162,7 +162,7 @@ To add a file here, click ‘Add a file’ on the top right corner of the Publis
 
 The section allows you to configure the emails that are sent out from the system.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-emails.png)
+![OJS 3.3 emails menu.](./assets/learning-ojs3.1-jm-settings-workflow-emails.png)
 
 **Signature**: The information in this field will be added to the bottom of every email sent out by the system.
 
@@ -174,17 +174,17 @@ OJS facilitates work flow communication through the use of prepared email messag
 
 You can view and modify the prepared email templates here. You will see a list of email templates under the Emails tab. The title and summary of each email template is displayed in the list.
 
-![](./assets/learning-ojs3.3-jm-settings-workflow-email-templates.png)
+![OJS 3.3 emails templates.](./assets/learning-ojs3.3-jm-settings-workflow-email-templates.png)
 
 If you click the arrow beside each email template you can view the message subject and contents and who is the default sender and recipient of the message.
 
-![](./assets/learning-ojs3.3-jm-settings-workflow-email-template-view.png)
+![OJS 3.3 editorial assignment template editing screen.](./assets/learning-ojs3.3-jm-settings-workflow-email-template-view.png)
 
 You can search for an email template by keyword by typing something in to the **Search** box.
 
 You can click **Filters** to reveal options to filter the templates by status, sent from, sent to, and which workflow stage it is used during. These filters can help you find templates you want to edit.
 
-![](./assets/learning-ojs3.3-jm-settings-workflow-email-template-filters.png)
+![OJS 3.3 email template filtering options.](./assets/learning-ojs3.3-jm-settings-workflow-email-template-filters.png)
 
 See [Template Descriptions](#template-descriptions) at the end of this chapter for a table of all email templates and their sender, recipient, and workflow stage.
 
