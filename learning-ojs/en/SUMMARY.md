@@ -4,7 +4,7 @@
 * [Introduction](./introduction.md)
   * [Background](./introduction.md#background)
   * [OJS Features](./introduction.md#ojs-features)
-  * [What's New in OJS 3](./introduction.md#whats-new-in-ojs-3)
+  * [What's New in OJS 3](./introduction.md#whats-new-in-this-version-of-ojs)
   * [Community Contributions](./introduction.md#community-contributions)
   * [Support](./introduction.md#support.md)
 * [Installing and Upgrading](./installing-upgrading.md)
