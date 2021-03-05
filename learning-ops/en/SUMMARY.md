@@ -3,6 +3,7 @@
 * [Preface](.)
 * [Introduction](./introduction)
   * [OPS Features](./introduction#ops-features)
+  * [What's New in This Version of OPS](./introduction#what's-new-in-this-version)
   * [OPS Uses](./introduction#ops-uses)
   * [Terminology](./introduction#terminology)
   * [Support and Community Resources](./introduction#support-and-community-resources)
