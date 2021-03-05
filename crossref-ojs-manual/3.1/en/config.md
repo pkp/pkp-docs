@@ -16,7 +16,7 @@ You can find the Crossref Plugin from your dashboard by navigating to **Tools** 
 
 This is the Crossref XML Export Plugin in OJS 3.1.2+:
 
-![](./assets/autoDeposit-01.png)
+![OJS 3.1 CrossRef XML Export plugin settings: checkbox for automatic deposits.](./assets/autoDeposit-01.png)
 
 ## Setting up the Crossref Plugin
 
@@ -27,7 +27,7 @@ This is the Crossref XML Export Plugin in OJS 3.1.2+:
 
 To enable automatic deposits, simply check the box on the settings page.
 
-![](./assets/autoDeposit-02.png)
+![OJS 3.1 CrossRef XML Export Plugin: settings tab screen.](./assets/autoDeposit-02.png)
 
 OJS will deposit assigned DOIs as content in your journal is published. OJS does this at specific timed intervals. If your DOIs do not appear to be registered shortly after publication, you can wait a day to see if they make it through the OJS process and the Crossref queue. You can also check the status of your DOI by clicking the "Articles" tab at the top of the Crossref plugin settings page. You'll see an up-to-date status column on the right of the page.
 
