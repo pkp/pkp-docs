@@ -102,20 +102,20 @@ Run the following commands whenever you want to pull the latest changes to your 
 
 ```
 # Update the app
-git checkout master
-git pull upstream master
+git checkout main
+git pull upstream main
 git push
 
 # Update the pkp-lib submodule
 cd lib/pkp
-git checkout master
-git pull upstream master
+git checkout main
+git pull upstream main
 git push
 
 # Update the ui-library submodule
 cd ../ui-library
-git checkout master
-git pull upstream master
+git checkout main
+git pull upstream main
 git push
 
 cd ../..

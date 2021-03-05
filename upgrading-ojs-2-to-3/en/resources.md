@@ -5,7 +5,7 @@
 -   [Learning OJS 3.1: A Visual Guide to Open Journal Systems](https://docs.pkp.sfu.ca/learning-ojs/) offers user guides, developer information, and publishing tips for OJS 3.
 -   [OJS 3 Demo](https://pkp.sfu.ca/ojs/ojs_demo/): Explore how OJS 3 works by trying out the demo and test drive sites hosted by PKP.
 -   [PKP School](https://pkpschool.sfu.ca/) offers free video courses to assist users with various aspects of OJS 3, in both English and Spanish. You will need to create a free account and log in to the site in order to participate. The videos are also available at [PKP’s YouTube channel](https://www.youtube.com/user/PublicKnowledgeProj).
--   [OJS 3.1.2 Release Notes](https://github.com/pkp/ojs/blob/master/docs/release-notes/README-3.1.2) lists new features.
+-   [OJS Release Notes](https://github.com/pkp/ojs/blob/main/docs/release-notes) lists new features.
 -   [PKP Docs What’s New in OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/introduction#whats-new-in-ojs-3) outlines interface changes for readers & editors.
 -   [Major New Features in Upcoming OJS 3](https://pkp.sfu.ca/2016/08/05/major-new-features-in-upcoming-ojs-3/) is a pre-release blog post from 2016.
 

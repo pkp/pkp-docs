@@ -210,7 +210,7 @@ This page is where you would enter a more detailed description of what you chang
 
 In this final page, you also have the option to create your pull request or create a draft pull request. A pull request indicates that you have completed your changes and lets the PKP team members know to review your changes. Meanwhile, a draft pull request allows you to continue to make changes.
 
-*If you are a member of the PKP team, you’ll see the ability to commit directly to the master branch*. It’s important to note that these changes are immediate, but they are also unreviewed. Please do not commit directly to master. We recommend that you always commit code via pull request.
+*If you are a member of the PKP team, you’ll see the ability to commit directly to the main branch*. It’s important to note that these changes are immediate, but they are also unreviewed. Please do not commit directly to main. We recommend that you always commit code via pull request.
 
 ## Save and Continue Edits to Branch
 

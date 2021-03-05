@@ -34,10 +34,10 @@ To use this plugin you will need the following:
 
 If you are importing data, first create the XML import file.  Here are links to sample XML import files and XML schemas:
 
-* Sample XML file for article metadata: [https://github.com/pkp/ojs/blob/master/cypress/fixtures/export-issues.xml](https://github.com/pkp/ojs/blob/master/cypress/fixtures/export-issues.xml)
-* Sample XML file for issue metadata: [https://github.com/pkp/ojs/blob/master/plugins/importexport/native/tests/functional/testissue.xml](https://github.com/pkp/ojs/blob/master/plugins/importexport/native/tests/functional/testissue.xml)
-* XML schema for use across PKP software applications: [https://github.com/pkp/pkp-lib/blob/master/plugins/importexport/native/pkp-native.xsd](https://github.com/pkp/pkp-lib/blob/master/plugins/importexport/native/pkp-native.xsd)
-* XML schema for use in OJS: [https://github.com/pkp/ojs/blob/master/plugins/importexport/native/native.xsd](https://github.com/pkp/ojs/blob/master/plugins/importexport/native/native.xsd)
+* Sample XML file for article metadata: [https://github.com/pkp/ojs/blob/main/cypress/fixtures/export-issues.xml](https://github.com/pkp/ojs/blob/main/cypress/fixtures/export-issues.xml)
+* Sample XML file for issue metadata: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml)
+* XML schema for use across PKP software applications: [https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd](https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd)
+* XML schema for use in OJS: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd)
 
 \* Please note that the XML format used by the Native XML Plugin for OJS 3 is different from the XML format for the Articles and Issues XML Plugin used in OJS 2.  If you export data from OJS 2 and want to import it into OJS 3, you will have to edit the XML file first. Also note that the schema is revised periodically; if exporting from one version of OJS and importing into a different version, you may need to adjust the XML slightly to account for these changes.
 
@@ -95,7 +95,7 @@ To use this plugin you will need the following:
 * A basic understanding of XML
 * To be enrolled as a Journal Manager in the OJS journal
 
-If you are importing users into OJS, first create the XML import file.  Here is a sample XML import file: [https://github.com/pkp/ojs/blob/master/plugins/importexport/users/sample.xml](https://github.com/pkp/ojs/blob/master/plugins/importexport/users/sample.xml)
+If you are importing users into OJS, first create the XML import file.  Here is a sample XML import file: [https://github.com/pkp/ojs/blob/main/plugins/importexport/users/sample.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/users/sample.xml)
 
 \* Please note that the XML format used by the Users XML Plugin in OJS 3 is different from the XML format used by the Plugin in OJS 2.  If you export data from OJS 2 and want to import it into OJS 3, you will have to edit the XML file first.
 
@@ -148,11 +148,11 @@ OJS has plugins that allow you to export article metadata to external sites and 
 
 ### PubMed XML Export Plugin
 
-The PubMed XML Export Plugin allows you to export article metadata as an XML file in NLM PubMed/MEDLINE format. For more information about the Plugin, see its README file: [https://github.com/pkp/ojs/tree/master/plugins/importexport/pubmed](https://github.com/pkp/ojs/tree/master/plugins/importexport/pubmed)
+The PubMed XML Export Plugin allows you to export article metadata as an XML file in NLM PubMed/MEDLINE format. For more information about the Plugin, see its README file: [https://github.com/pkp/ojs/tree/main/plugins/importexport/pubmed](https://github.com/pkp/ojs/tree/main/plugins/importexport/pubmed)
 
 ### DataCite Export/Registration Plugin
 
-The DataCite Export/Registration Plugin allows you to export issue, article, galley, and supplementary file metadata in DataCite format and register DOIs with DataCite. For more information about the Plugin, see its README file: [https://github.com/pkp/ojs/blob/master/plugins/importexport/datacite/README](https://github.com/pkp/ojs/blob/master/plugins/importexport/datacite/README)
+The DataCite Export/Registration Plugin allows you to export issue, article, galley, and supplementary file metadata in DataCite format and register DOIs with DataCite. For more information about the Plugin, see its README file: [https://github.com/pkp/ojs/blob/main/plugins/importexport/datacite/README](https://github.com/pkp/ojs/blob/main/plugins/importexport/datacite/README)
 
 ### DOAJ Export Plugin
 
@@ -182,7 +182,7 @@ The Crossref XML Export Plugin allows you to automatically and manually export a
 
 ### mEDRA Export/Registration Plugin
 
-The mEDRA Export/Registration Plugin allows you to export issue, article, and galley metadata in Onix for DOI \(O4DOI\) format and register DOIs with the mEDRA registration agency.  For information about how to use the plugin, see its README file: [https://github.com/pkp/ojs/blob/master/plugins/importexport/medra/README](https://github.com/pkp/ojs/blob/master/plugins/importexport/medra/README)
+The mEDRA Export/Registration Plugin allows you to export issue, article, and galley metadata in Onix for DOI \(O4DOI\) format and register DOIs with the mEDRA registration agency. For information about how to use the plugin, see its README file: [https://github.com/pkp/medra/blob/main/README](https://github.com/pkp/medra/blob/main/README)
 
 ## Use import/export plugins from the command line
 

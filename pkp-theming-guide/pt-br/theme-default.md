@@ -6,4 +6,4 @@ A tipografia padrão utiliza a fonte da família [Noto](https://www.google.com/g
 
 O Tema Padrão deliberadamente escolheu um layout simples, sem conflitos  e com uma paleta de cores neutra. Isso torna mais fácil para que a sua marca  se destaque com apenas algumas mudanças simples de cor e tipografia em uso.
 
-A estrutura simples do Tema Padrão facilita estender as funcionalidades utilizando [Temas Filhos](child-themes.md). Um grande conjunto de [variáveis LESS](https://github.com/pkp/ojs/blob/master/plugins/themes/default/styles/variables.less) pode ser ajustado para sobrepor definições de tamanhos, cores, bordas, pontos de interrupção responsivos entre outras coisas.
+A estrutura simples do Tema Padrão facilita estender as funcionalidades utilizando [Temas Filhos](child-themes.md). Um grande conjunto de [variáveis LESS](https://github.com/pkp/ojs/blob/main/plugins/themes/default/styles/variables.less) pode ser ajustado para sobrepor definições de tamanhos, cores, bordas, pontos de interrupção responsivos entre outras coisas.

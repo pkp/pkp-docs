@@ -278,7 +278,7 @@ Si vous utilisez PHP 5.3+ (ce que vous devriez faire), vous devrez exécuter OJS
 
 Si vous utilisez PHP 7+, vous devrez exécuter OJS 3.0+.
 
-OJS et OMP 3.1.2+ **nécessitent** PHP 7.1 ou supérieur. Faire référence à [docs/README](https://github.com/pkp/ojs/tree/master/docs) pour votre version OJS/OMP pour plus d'informations sur les exigences du système PHP.
+OJS et OMP 3.1.2+ **nécessitent** PHP 7.1 ou supérieur. Faire référence à [docs/README](https://github.com/pkp/ojs/tree/main/docs) pour votre version OJS/OMP pour plus d'informations sur les exigences du système PHP.
 
 **REMARQUE** : Si vous exécutez OJS ou OMP 3.x sur un stack PHP7 + LAMP, n'oubliez pas de mettre à jour le paramètre de votre driver MySQL (section Base de Données) sur le fichier `config.inc.php` , c'est-à-dire:
 

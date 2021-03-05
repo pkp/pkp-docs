@@ -34,10 +34,10 @@ Pour utiliser ce plugiciel, vous aurez besoin de:
 
 Si vous importez des données, créez premièrement le fichier d'importation XML. Voici des liens vers des exemples de fichiers d'importation XML et de schémas XML:
 
-- Exemple de fichier XML pour les métadonnées d'article: [https://github.com/pkp/ojs/blob/master/plugins/importexport/native/sample.xml](https://github.com/pkp/ojs/blob/master/plugins/importexport/native/sample.xml)
-- Exemple de fichier XML pour les métadonnées de publication: [https://github.com/pkp/ojs/blob/master/plugins/importexport/native/tests/functional/testissue.xml](https://github.com/pkp/ojs/blob/master/plugins/importexport/native/tests/functional/testissue.xml)
-- Schéma XML à utiliser dans les applications logicielles PKP: [https://github.com/pkp/pkp-lib/blob/master/plugins/importexport/native/pkp-native.xsd](https://github.com/pkp/pkp-lib/blob/master/plugins/importexport/native/pkp-native.xsd)
-- Schéma XML à utiliser dans OJS: [https://github.com/pkp/ojs/blob/master/plugins/importexport/native/native.xsd](https://github.com/pkp/ojs/blob/master/plugins/importexport/native/native.xsd)
+- Exemple de fichier XML pour les métadonnées d'article: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/sample.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/sample.xml)
+- Exemple de fichier XML pour les métadonnées de publication: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml)
+- Schéma XML à utiliser dans les applications logicielles PKP: [https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd](https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd)
+- Schéma XML à utiliser dans OJS: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd)
 
 * Veuillez noter que le format XML utilisé par le plugiciel Native XML pour OJS 3 est différent du format XML pour le plugiciel XML Articles and Issues utilisé dans OJS 2. Si vous exportez des données depuis OJS 2 et que vous voulez les importer dans OJS 3, vous devrez premièrement modifier le fichier XML. Notez également que le schéma est révisé périodiquement; si vous exportez à partir d'une version d'OJS et que vous importez dans une autre version, vous devrez peut-être ajuster légèrement le XML pour tenir compte de ces changements.
 
@@ -93,7 +93,7 @@ Pour utiliser ce plugiciel, vous aurez besoin des éléments suivants:
 - Une compréhension de base de XML
 - Être inscrit en tant que Directeur/trice de la revue dans la revue OJS
 
-Si vous importez des utilisateurs dans OJS, créez premièrement le fichier d'importation XML. Voici un exemple de fichier d'importation XML: [https://github.com/pkp/ojs/blob/master/plugins/importexport/users/sample.xml](https://github.com/pkp/ojs/blob/master/plugins/importexport/users/sample.xml)
+Si vous importez des utilisateurs dans OJS, créez premièrement le fichier d'importation XML. Voici un exemple de fichier d'importation XML: [https://github.com/pkp/ojs/blob/main/plugins/importexport/users/sample.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/users/sample.xml)
 
 * Veuillez noter que le format XML utilisé par le plugiciel XML Users dans OJS 3 est différent du format XML utilisé par le plugiciel dans OJS 2. Si vous exportez des données depuis OJS 2 et que vous souhaitez les importer dans OJS 3, vous devrez d'abord modifier le fichier XML.
 
@@ -135,11 +135,11 @@ OJS a des plugiciels qui vous permettent d'exporter des métadonnées d'article 
 
 ### Plugiciel PubMed XML Export
 
-Le plugiciel PubMed XML Export vous permet d'exporter les métadonnées d'article sous forme de fichier XML au format NLM PubMed/MEDLINE. Pour plus d'informations sur le plugiciel, consultez son fichier README: [https://github.com/pkp/ojs/tree/master/plugins/importexport/pubmed](https://github.com/pkp/ojs/tree/master/plugins/importexport/pubmed)
+Le plugiciel PubMed XML Export vous permet d'exporter les métadonnées d'article sous forme de fichier XML au format NLM PubMed/MEDLINE. Pour plus d'informations sur le plugiciel, consultez son fichier README: [https://github.com/pkp/ojs/tree/main/plugins/importexport/pubmed](https://github.com/pkp/ojs/tree/main/plugins/importexport/pubmed)
 
 ### Plugiciel DataCite Export/Registration
 
-Le plugiciel DataCite Export/Registration vous permet d'exporter des métadonnées de publication, d'article, et de fichiers supplémentaires au format DataCite et d'enregistrer les DOI avec DataCite. Pour plus d'informations sur le plugiciel, consultez son fichier README: [https://github.com/pkp/ojs/blob/master/plugins/importexport/datacite/README](https://github.com/pkp/ojs/blob/master/plugins/importexport/datacite/README)
+Le plugiciel DataCite Export/Registration vous permet d'exporter des métadonnées de publication, d'article, et de fichiers supplémentaires au format DataCite et d'enregistrer les DOI avec DataCite. Pour plus d'informations sur le plugiciel, consultez son fichier README: [https://github.com/pkp/ojs/blob/main/plugins/importexport/datacite/README](https://github.com/pkp/ojs/blob/main/plugins/importexport/datacite/README)
 
 ### Plugiciel DOAJ Export
 
@@ -169,7 +169,7 @@ Le plugiciel Crossref XML Export vous permet d'exporter les métadonnées d'arti
 
 ### Plugiciel mEDRA Export/Registration
 
-Le plugiciel mEDRA Export/Registration vous permet d'exporter des métadonnées de publications, d'articles et de fichiers au format Onix for DOI (O4DOI) et d'enregistrer les DOI avec l'agence d'enregistrement mEDRA. Pour plus d'informations sur l'utilisation du plugiciel, consultez son fichier README: [https://github.com/pkp/ojs/blob/master/plugins/importexport/medra/README](https://github.com/pkp/ojs/blob/master/plugins/importexport/medra/README)
+Le plugiciel mEDRA Export/Registration vous permet d'exporter des métadonnées de publications, d'articles et de fichiers au format Onix for DOI (O4DOI) et d'enregistrer les DOI avec l'agence d'enregistrement mEDRA. Pour plus d'informations sur l'utilisation du plugiciel, consultez son fichier README: [https://github.com/pkp/medra/blob/main/README](https://github.com/pkp/medra/blob/main/README)
 
 ## Utiliser les plugiciels d'import/export depuis la ligne de commande
 
