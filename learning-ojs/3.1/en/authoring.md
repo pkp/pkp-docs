@@ -152,7 +152,7 @@ Use the dropdown menu to choose that you are uploading a revision of an existing
 
 Then upload the revised file and hit **Continue**.
 
-![Review file details and continu](./assets/learning-ojs-3-auth-responding-upload2.png)
+![Review file details and continue](./assets/learning-ojs-3-auth-responding-upload2.png)
 
 Check the file details and hit **Continue** again.
 
