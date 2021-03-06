@@ -51,4 +51,4 @@ If your test transactions are not successful, please check the following:
 * API credentials from the sandbox has been copied correctly to OJS.
 
 
-![Screenshot of PayPal sandbox activity page.](./assets/Paypal-13.png)
+
