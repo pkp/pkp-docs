@@ -36,7 +36,7 @@ Next, go to the [Subscriptions chapter](https://docs.pkp.sfu.ca/learning-ojs/en/
 On OJS set up a test transaction that you can use to test whether payments are being successfully processed. For this example, we will be using an Article Processing Fee.
 You as the author will get a link to pay your Article Processing Fee. The link will first direct you to login to your OJS account followed by the [PayPal Sandbox website](https://www.sandbox.paypal.com/mep/dashboard ). 
 
-![Screenshot of PayPal sandbox.](./assets/Paypal-13.png)
+![Screenshot of email notification to make Paypal payment](./assets/Paypal-14.png)
 
 Using one of the fake PayPal accounts, make test payments to the site. The successful payment will then appear on sandbox of your main PayPal Account Overview:
 
@@ -51,4 +51,4 @@ If your test transactions are not successful, please check the following:
 * API credentials from the sandbox has been copied correctly to OJS.
 
 
-![Screenshot of PayPal sandbox activity page.](./assets/Paypal-13.png)
+
