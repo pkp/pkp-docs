@@ -2,7 +2,7 @@
 
 The ORCID Plugin Guide explains how to use and configure the ORCID Profile Plugin, how to obtain ORCID membership and API credentials, and how to connect ORCID iDs with works published with OJS.
 
-# Introduction
+## Introduction
 
 [ORCID (Open Researcher and Contributor Identifier)](https://orcid.org/) is a persistent digital identifier that distinguishes individual researchers and supports automated links between researchers and their professional activities. For an overview of ORCID, please see the following introductory [ORCID video](https://vimeo.com/97150912).
 
