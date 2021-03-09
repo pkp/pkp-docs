@@ -10,7 +10,7 @@ In this chapter, you will learn about how an author works in OJS 3.1 from regist
 
 To make a submission to an OJS 3.1 journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
 
-![](./assets/learning-ojs3.1-au-dashboard-empty.png)
+![Submissions queue in author dashboard](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
 It is currently empty as you have made no submissions.
 
@@ -20,13 +20,13 @@ It is currently empty as you have made no submissions.
 
 Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to Step 1 of a 5-Step process to upload and describe your submission.
 
-![](./assets/learning-ojs3.1-au-dashboard-new.png)
+![Author submission queue with new submission button](./assets/learning-ojs3.1-au-dashboard-new.png)
 
 ### Step 1
 
 In **Step 1** you will provide preliminary information about your submission.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-1.png)
+![Article submission start screen](./assets/learning-ojs3.1-au-dashboard-new-1.png)
 
 To begin select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
 
@@ -36,15 +36,15 @@ Read and agree to the statements in the submission checklist by checking each bo
 
 On **Step 2**, a window will open allowing you to upload your submission file.
 
-![](./assets/learning-ojs-3-author-submission-step2.png)
+![File upload screen](./assets/learning-ojs-3-author-submission-step2.png)
 
 First, you MUST select an Article Component. This lets the system know whether the file is the body of the manuscript, an image, a data set, etc. **This must be selected before your file will upload**.
 
-![](./assets/learning-ojs-3-author-submission-step2-2.png)
+![Select article component](./assets/learning-ojs-3-author-submission-step2-2.png)
 
 Once you’ve made that selection, you can then upload your first file. It is important to note that you can only upload **one** file at a time. Additional files can be uploaded later in the process. Typically, this first file will be the body of your manuscript. Hit the **Continue** button once the file uploads.
 
-![](./assets/learning-ojs-3-author-submission-step2-3.png)
+![Review submission details](./assets/learning-ojs-3-author-submission-step2-3.png)
 
 After uploading the file, you will be asked to review the name of the file. Use the Edit link to make any changes.
 
@@ -54,7 +54,7 @@ Next, you have the option to repeat the process to upload additional files \(e.g
 
 Once you have finished uploading all of your files, click **Complete**; this will close the upload window.
 
-![](./assets/learning-ojs-3-author-submission-step2-4.png)
+![Complete upload](./assets/learning-ojs-3-author-submission-step2-4.png)
 
 You will be brought back to the _Submit an Article_ screen where you will see the files you’ve uploaded. If you need to make changes, expand the blue arrow to the left of your file and make any changes using the _Edit_ link.
 
@@ -64,23 +64,23 @@ Click ‘Save and Continue’ to move to Step 3.
 
 On **Step 3**, you will be asked to add more information about the submission, including the title of the submission \(broken down into prefix, title, and subtitle\), the abstract, and scrolling down...
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3.png)
+![Enter metadata](./assets/learning-ojs3.1-au-dashboard-new-3.png)
 
 ...any additional contributors.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
+![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
 You can add more contributors \(e.g., co-authors\), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
 
-![](./assets/learning-ojs-3-author-submission-step3-2.png)
+![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
 
 Hit **Save**, and the new contributor will appear on the screen.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
+![List with new contributors added](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
 Depending on the journal you are submitting to, you may see additional fields to complete, such as keywords.
 
-![](./assets/learning-ojs-3-author-submission-step3-4.png)
+![Enter keywords](./assets/learning-ojs-3-author-submission-step3-4.png)
 
 To enter keyword, simply type the word or phrase and hit your Enter key. The word or phrase will be formatted as a keyword.
 
@@ -92,15 +92,15 @@ On Step 4, you will be asked to confirm that you are happy with your submission.
 
 Click **Finish Submission**.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-4.png)
+![Finish submission screen](./assets/learning-ojs3.1-au-dashboard-new-4.png)
 
 A box will pop up asking you to confirm you are finished. Click **OK**.
 
-![](./assets/learning-ojs-3-author-submission-step4-1.png)
+![Confirm submission screen](./assets/learning-ojs-3-author-submission-step4-1.png)
 
 ### Step 5
 
-![](./assets/learning-ojs3.1-au-dashboard-new-5.png)
+![Next steps submission screen](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
 Your submission is now complete! The editor has been notified of your submission. At this point, you can follow the links to:
 
@@ -114,7 +114,7 @@ Once you complete a submission, you cannot make changes to it.  If you want to r
 
 And here is your submission in your Dashboard. You can see that it is currently in the _Submission_ stage.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
+![Submission in author dashboard](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
 Over the coming days, it will move into the Review stage, and if accepted, into the Copyediting and Production stages before being published.
 
@@ -126,15 +126,15 @@ Once the review process has completed, you will be notified via email by the edi
 
 After receiving the email, login to your dashboard.
 
-![](./assets/learning-ojs-3-auth-responding-revisions.png)
+![Submission dashboard with items in review](./assets/learning-ojs-3-auth-responding-revisions.png)
 
 Select the *Review* link next to your submission to view the decision.
 
-![](./assets/learning-ojs-3-auth-responding-revisions2.png)
+![Review tab of manuscript](./assets/learning-ojs-3-auth-responding-revisions2.png)
 
 From here, you can see the decision (revisions requested) and a link to the editor's notification.
 
-![](./assets/learning-ojs-3-auth-responding-revisions3.png)
+![Editor decision notification](./assets/learning-ojs-3-auth-responding-revisions3.png)
 
 Based on the information in the editor's message, you must now prepare your revisions.
 
@@ -142,37 +142,37 @@ Based on the information in the editor's message, you must now prepare your revi
 
 By scrolling down the page, you will find a panel for **Revisions**.
 
-![](./assets/learning-ojs-3-auth-responding-revisions4.png)
+![Revisions panel](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
 Use the *Upload a File* link to upload your revised manuscript.
 
-![](./assets/learning-ojs-3-auth-responding-upload.png)
+![Upload review file](./assets/learning-ojs-3-auth-responding-upload.png)
 
 Use the dropdown menu to choose that you are uploading a revision of an existing file.
 
 Then upload the revised file and hit **Continue**.
 
-![](./assets/learning-ojs-3-auth-responding-upload2.png)
+![Review file details and continue](./assets/learning-ojs-3-auth-responding-upload2.png)
 
 Check the file details and hit **Continue** again.
 
-![](./assets/learning-ojs-3-auth-responding-upload3.png)
+![Add another file or complete upload](./assets/learning-ojs-3-auth-responding-upload3.png)
 
 If you have any additional files to upload, do so now. Otherwise, hit **Complete**.
 
 Your revised file is now visible in the Revisions panel.
 
-![](./assets/learning-ojs-3-auth-responding-upload4.png)
+![Revised file now in revisions panel](./assets/learning-ojs-3-auth-responding-upload4.png)
 
 ### Inform the Editor
 
 The editor will receive a notification about the new file(s) being uploaded. Additionally you can inform the editor via the Review Discussion panel as explained below.
 
-![](./assets/learning-ojs-3-auth-responding-discussion.png)
+![Review discussions panel](./assets/learning-ojs-3-auth-responding-discussion.png)
 
 From there, select the *Add Discussion* link.
 
-![](./assets/learning-ojs-3-auth-responding-discussion-add.png)
+![Add discussion and add user](./assets/learning-ojs-3-auth-responding-discussion-add.png)
 
 Use the *Add User* link to add the editor.
 
@@ -182,7 +182,7 @@ Hit **OK** to send the message.
 
 An email has now been sent to the editor and you (and the editor) can see the message in the Review Discussions panel.
 
-![](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
+![Message in review discussions panel](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
 
 At this point, the author needs to wait to hear back from the editor as to whether the revisions are acceptable.
 
@@ -192,21 +192,21 @@ You will receive an email that your revisions have been accepted.
 
 In addition, notifications will appear on your dashboard.
 
-![](./assets/learning-ojs-3-au-notifications.png)
+![Notifications in dashboard](./assets/learning-ojs-3-au-notifications.png)
 
 The later notification is the current one. Click on it to open the message (which is the same as the email you would have also received).
 
-![](./assets/learning-ojs-3-au-notifications2.png)
+![Notification message](./assets/learning-ojs-3-au-notifications2.png)
 
 Use the **X** in the upper right corner to close the window.
 
 Further down your dashboard, you will also see a discussion reply from the editor.
 
-![](./assets/learning-ojs-3-au-rev-discussions.png)
+![Discussion reply in review discussion panel](./assets/learning-ojs-3-au-rev-discussions.png)
 
 Clicking the discussion title will open it up.
 
-![](./assets/learning-ojs-3-au-rev-discussions2.png)
+![Review discussion message](./assets/learning-ojs-3-au-rev-discussions2.png)
 
 Congratulations! You've been accepted and your submission file is moving on to the Copyedit stage.
 
@@ -232,25 +232,25 @@ The next step in the workflow is to inspect your submission files that have been
 
 You will receive an email indicating that files are available. To see them, login to the journal and go to your dashboard.
 
-![](./assets/learning-ojs-3-au-copyedits.png)
+![Author submission dashboard](./assets/learning-ojs-3-au-copyedits.png)
 
 You can see your entry in the My Authored panel. Select the Copyediting link to go to the full submission record, including the notification in the Copyediting Discussions panel.
 
-![](./assets/learning-ojs-3-au-copyedits-notice.png)
+![Copyediting section of author dashboard](./assets/learning-ojs-3-au-copyedits-notice.png)
 
 Click on the linked discussion to open it, read the message, and open the attached file.
 
-![](./assets/learning-ojs-3-au-copyedits-message.png)
+![Copyediting check discussion message](./assets/learning-ojs-3-au-copyedits-message.png)
 
 Once you have read the attached file, you can respond to the copyeditor indicating any required changes or your approval.
 
-![](./assets/learning-ojs-3-au-copyedits-reply.png)
+![Respond to copyediting check message](./assets/learning-ojs-3-au-copyedits-reply.png)
 
 If needed, you could attach a revision, but for this example we will simply approve the changes and hit **OK**.
 
 On your dashboard, you can see that you were the last person to reply to the message.
 
-![](./assets/learning-ojs-3-au-copyedits-final-dash.png)
+![[Dashboard showing copyediting discussions](./assets/learning-ojs-3-au-copyedits-final-dash.png)
 
 Your role in the copyediting process is now complete and you can wait for the request to proofread the final galleys (e.g., PDFs, HTML, etc.) before publication.
 
@@ -262,18 +262,18 @@ The next step in the workflow is to inspect your submission files that have been
 
 You will receive an email indicating that files are available. To see them, login to the journal and go to your dashboard.
 
-![](./assets/learning-ojs-3-au-production-dashboard.png)
+![Author submission dashboard](./assets/learning-ojs-3-au-production-dashboard.png)
 
 You can see your entry in the My Authored panel. Select the Production link to go to the full submission record, including the notification in the Production Discussions panel.
 
-![](./assets/learning-ojs-3-au-production-record.png)
+![Production section of author dashboard](./assets/learning-ojs-3-au-production-record.png)
 
 Click on the linked discussion to open it, read the message, and open the attached file.
 
-![](./assets/learning-ojs-3-au-production-message.png)
+![Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message.png)
 
 Once you have read the attached file, you can respond to the Layout Editor indicating any required changes or your approval.
 
-![](./assets/learning-ojs-3-au-production-message2.png)
+![Respond to Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message2.png)
 
 That's it! Your role in the editorial workflow is now completed.

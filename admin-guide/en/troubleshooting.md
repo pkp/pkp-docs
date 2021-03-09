@@ -277,7 +277,7 @@ If you are running PHP 5.3+ \(which you should be doing\), you will need to run 
 
 If you are running PHP 7+, you will need to run OJS 3.0+.
 
-OJS and OMP 3.1.2+ **requires** PHP 7.1 or above. Refer to [docs/README](https://github.com/pkp/ojs/tree/master/docs) for your OJS/OMP version for more information about PHP system requirements.
+OJS and OMP 3.1.2+ **requires** PHP 7.1 or above. Refer to [docs/README](https://github.com/pkp/ojs/tree/main/docs) for your OJS/OMP version for more information about PHP system requirements.
 
 **NOTE**: If you are running OJS or OMP 3.x on a PHP7+ LAMP stack, please remember to update your MySQL driver parameter\(Database section\) on `config.inc.php` file, i.e.:
 

@@ -1,6 +1,6 @@
 ---
 book: learning-ojs
-version: 3.2
+version: 3.3
 ---
 
 # Website Settings
@@ -126,8 +126,12 @@ This section allows you to create and display news announcements on the journal'
 ![](./assets/learning-ojs3.1-jm-settings-web-announce.png)
 
 - **Announcements**: Check this off if you want to have announcements in your website
-  - **Introduction**: Enter any information you would like to appear on your announcements page.
+  - **Introduction**: Enter any general information you would like to appear on your announcements page.
   - **Display on Homepage**: Enter the number of announcements to be displayed on the homepage. If this is left blank, no announcements will be displayed.
+  
+Once the Announcements setting is enabled, click "Save." An "Announcements" menu item now appears in the main navigation on the left hand side. Click on this menu item and select "Add Announcement." Here you can include the title of the announcement, a short description and / or full text of the announcement, and an (optional) expiry date. If you wish to send an email notification to all users (who have not opted out of email notifications), select "Send notification email to all registered users." The announcement should now appear on an "Announcements" tab on the public-facing journal site.
+
+![](./assets/learning-ojs3.3-settings-website-announcements.png)
 
 ### Lists
 
@@ -136,6 +140,12 @@ Limit the number of items (for example, submissions, users, or editing assignmen
 ### Privacy Statement
 
 Enter the privacy statement you want to appear on your site.
+
+### Date and Time
+
+This option allows for the configuration of different format for dates and times for each journal and locale, which could previously only be set up in the 'config.inc.php' file. Note that the `config.inc.php` file can still be used to set the time and format across multiple journals, and the settings for the primary locale will be the default for other locales, unless otherwise configured.  A custom format can be entered using the [special format characters](https://www.php.net/manual/en/function.strftime.php#refsect1-function.strftime-parameters).
+
+![](./assets/learning-ojs3.3-date-and-time-setup.png)
 
 ## Plugins
 
@@ -239,7 +249,7 @@ To configure and add custom blocks:
 
 * Click Manage Custom Blocks below the plugin name
 * From this screen, click Add Block to create a new block or click Edit or Delete under the block name to manage existing blocks.
-* When adding a new block, enter a name for your block (without spaces or non-alphanumeric characters) and the content to be shown in the sidebar.
+* When adding a new block, enter a name for your block (without spaces or non-alphanumeric characters) and the content to be shown in the sidebar.(**Please note**: this is a required field)
 * The display and order of blocks can be edited from the Sidebar Management section of Dashboard > Settings > Website > Appearance > Setup.
 
 #### Custom Header Plugin

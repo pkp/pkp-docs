@@ -10,8 +10,3 @@ PKP software includes popular applications like Open Journal Systems (OJS), Open
 This guide explains how to translate OJS and OMP version 3.1 and earlier and OCS. For OJS and OMP 3.2, we use a new translation tool which is explained in the [new version of the PKP Translating Guide](https://docs.pkp.sfu.ca/translating-guide/en/). Please keep in mind that any translations you make to your OJS or OMP site using the older tools detailed in this guide may not be carried forward when you upgrade to OJS or OMP 3.2. If you would like to contribute to active current translation of the software, please use the new tools and [new guide](https://docs.pkp.sfu.ca/translating-guide/en/).
 
 Community translators are helping with the important task of localizing software and documentation. They come from many different backgrounds; this documentation is supposed to help old and new contributors to explain how the translation processes work and how they can contribute. In addition, the documentation points to additional resources.
-
-----
-Copyright: Simon Fraser University holds the copyright for work produced by the Public Knowledge Project and has placed its documentation under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
-[![](https://licensebuttons.net/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](https://creativecommons.org/licenses/by/4.0/)

@@ -1,6 +1,6 @@
 ---
 book: learning-omp
-version: 3.2
+version: 3.3
 ---
 # Role-specific Workflows
 
@@ -24,9 +24,9 @@ Once you have completed the form and agreed to the terms, click Register. After 
 
 Once logged in you will be able to edit your user profile by clicking your username on the top-right corner of your dashboard.
 
-Select **View Profile**
+Click **Edit Profile**
 
-![](./assets/learning-omp_role-specific-workflow_edit-profile-1.png)
+![](./assets/learning-omp3.3_role-specific-workflow_edit-profile-1.png)
 
 From here, you’ll be able to edit your name, contact information, signature, and public profile; change your password; set notification preferences; etc.
 
@@ -40,7 +40,7 @@ Once you are ready to make a submission, click **New Submission** on your user d
 
 **Step 1: Prepare**
 
-You will need to select the Submission Type, Series, the Role in submission, and add notes to the Editor (if applicable).
+You will need to select the Submission Type, Category, Series, the Role in submission, as well as agree to the submission guidelines and add notes to the Editor (if applicable).
 
 Once you have completed this form, click agree to the terms and click **Save and continue**.
 
@@ -48,15 +48,9 @@ Once you have completed this form, click agree to the terms and click **Save and
 
 **Step 2: Upload Submission**
 
-Identify your Submission Component from the list. Once selected, upload your file.
+Identify your Submission Component from the list. Once selected, upload all of the files relevant to your submission. You can select multiple files from the file browser using Ctrl+Click or Command+Click, or Shift+Click to select a range of files. Once your files are uploaded, you will be prompted to identify the file type. Click on a label to assign it to an uploaded file.
 
 ![](./assets/learning-omp_role-specific-workflow_auth-subm-3.png)
-
-Press continue.
-
-You can upload additional documents (as applicable).
-
-![](./assets/learning-omp_role-specific-workflow_auth-subm-4.png)
 
 Press **Complete** followed by **Save and Continue**.
 
@@ -80,9 +74,9 @@ Once you have completed all the steps, click **Finish Submission**.
 
 ## Reviewer Workflow
 
-Reviewer requests will appear in their user dashboard and in the taskbar. The request will have the Response and Review deadline.
+Reviewer requests will listed in a pop-up screen once they click the notification icon. 
 
-![](./assets/learning-omp_role-specific-workflow_rev-dash.png)
+![](./assets/learning-omp3.3_role-specific-workflow_rev-dash.png)
 
 A reviewer can see more details regarding the request by clicking on the manuscript. The request submenu will have the general information regarding the submission, the review file, and additional submission details and review schedule.
 
@@ -124,7 +118,7 @@ You can select a reviewer from the reviewers in your journal, create a new revie
 
 ![](./assets/learning-omp_role-specific-workflow_assgn-rev2.png)
 
-At this stage, reviewers associated with the press evaluate the submission. In an Open or Blind review, an editor can contact reviewers as well as revise their due dates by clicking the icon next to their names.
+At this stage, reviewers associated with the press evaluate the submission. In an Open or Anonymous Reviewer/Disclosed Author review, an editor can contact reviewers as well as revise their due dates by clicking the icon next to their names.
 
 ![](./assets/learning-omp_role-specific-workflow_assgn-rev3.png)
 
@@ -135,7 +129,9 @@ Once all the reviews are in, you must make a decision on the submission. Options
 * Request Revisions (in which case the author will be able to modify their submission information and/or upload revised submission files)
 * Send to External Review (editor selects files to send to the external review process)
 * Accept for Submission (at which point the submission will enter the Editorial stage, bypassing External Review)
-* Decline Submission (at which point the submission will be archived and the author notified)
+* Decline Submission (at which point the submission will be archived and the author notified). 
+
+A declined submission can be reverted, see [Reversing a declined decision](/learning-omp/en/role-specific-workflows#reversing-a-declined-decision).
 
 These selections are found on the right panel in the **Internal Review** menu.
 
@@ -149,7 +145,7 @@ Once the Internal Review has been prompted on your dashboard, you will need to s
 
 You can select a reviewer from the reviewers in your journal, create a new reviewer, or enroll an existing reviewer from another journal within a multi-journal installation.
 
-At this stage, reviewers associated with the press evaluate the submission. In an Open or Blind review, an editor can contact reviewers as well as revise their due dates by clicking the icon next to their names.
+At this stage, reviewers associated with the press evaluate the submission. In an Open or Anonymous Reviewer/Disclosed Author review, an editor can contact reviewers as well as revise their due dates by clicking the icon next to their names.
 
 Once the review has been completed you will be notified. As an editor, you can access the reviews by clicking on the reviewer's name in the Reviewers section.
 
@@ -158,12 +154,13 @@ All author, reviewer, and editor revision files are available from the Revisions
 Once all the reviews are in, you must make a decision on the submission. You may select one of the following:
 
 * Request Revisions, in which case the author will be able to modify their submission information and/or upload revised submission files
-
-* Decline Submission, at which point the submission will be archived and the author notified
-
+* Decline Submission, at which point the submission will be archived and the author notified. A declined submission can be reverted 
 * Accept Submission, at which point the submission will enter the Editorial stage
 
 These selections are found on the right panel in the Internal Review menu.
+
+#### Reversing a declined decision
+OMP 3.3 allows Press Editors to to reverse a declined decision in the submission and review stages. After a declined decision is reverted, the submission is restored to its previous stage and review round if active. 
 
 ## Copyediting Workflow
 

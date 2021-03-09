@@ -1,6 +1,6 @@
 ---
 book: learning-ojs
-version: 3.2
+version: 3.3
 ---
 # Installing and Upgrading
 

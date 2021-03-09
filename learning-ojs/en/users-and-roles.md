@@ -1,6 +1,6 @@
 ---
 book: learning-ojs
-version: 3.2
+version: 3.3
 ---
 
 # Users and Roles
@@ -14,6 +14,8 @@ In addition to managing the journal web site, the Journal Manager is also respon
 To view the user accounts, select Users & Roles from the left menu.
 
 ![](./assets/learning-ojs3.1-jm-users.png)
+
+If you want to export a list of all registered users, you can find the option to export it as an XML file under the **Tools** menu. If you prefer your user data in a spreadsheet format, you can download it as a CSV file from **Statistics > Users**.
 
 ### Users
 
@@ -38,11 +40,19 @@ To send an email to a user that is unrelated to a submission:
 
 ![](./assets/learning-ojs-3-users-email.png)
 
-You cannot email multiple users at the same time except by using the Announcements feature. See the [Workflow Settings chapter](./settings-workflow) for instructions on how to send announcements. It is also not possible to send a message to all users in one role, such as all reviewers registered on your site.
+In OJS 3.3 you can email multiple users at the same time using the Notify tab. This feature will need to be enabled for each journal by the journal administrator under Site Settings > Bulk Emails. The site administrator can also disable certain roles in the journal from receiving bulk emails under Hosted Journals > Settings Wizard.
 
-If you want to email multiple users or all users in a single role on a regular basis, you can use an external email marketing application such as Mailchimp. User records can be exported in XML using Tools > Import/Export > Users XML Plugin or an Administrator can export them from the database in CSV.
+If enabled for the journal by the site administrator, emails can be sent to all users in one or more role, such as all journal managers and / or all section editors, etc. See [Site Administration > Site Settings](./site-administration#site-settings) for instructions on enabling this feature.
 
-It is not currently possible to add cc or bcc addresses to messages or to add attachments to messages. To send attachments you can instead use the Discussion feature or the Submission Library.
+In the Notify tab, select the user roles that you would like to email. Type your subject and email message. You have the option to send a copy of the email to your own email address. You will receive a status notification indicating that the message was sent successfully.
+
+![](./assets/learning-ojs3.3-users-roles-notify.png)
+
+This email feature can be used to send practical, core service emails to users who are actively working on the journal. For example, you might send an email to all copy editors reminding them of the “house style” for a particular word use or spelling. Avoid using this feature to notify large numbers of readers; the Announcement feature is preferable for large broadcast emails. See [Website Settings > Setup > Announcements](./settings-website#announcements) for details about this feature.
+
+If several recipients flag your message as spam, it could result in all emails from the journal being sent to the spam folder. Care must be taken not to abuse this feature by sending excessive, unwanted emails. Become familiar with anti-spam and email privacy laws in your region, such as CASL in Canada and GDPR in the EU and UK. Note that there is no “unsubscribe” option available for users who receive these emails.
+
+It is not possible to add cc or bcc addresses other than your own, or to add attachments to messages. To send attachments you can instead use the Discussion feature or the Submission Library.
 
 **Edit User** allows you to make changes to that user's account.
 
@@ -131,11 +141,11 @@ If the user still cannot log in, their account may have been disabled. To re-ena
 
 <hr />
 
-## Permissions and Roles in OJS
+## Permissions and Roles
 
-The OJS workflow revolves around different roles with different permissions and responsibilities for each user, allowing them access to different parts of the workflow. Users in the system must have at least one role. Users can also have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal. 
+The OJS workflow revolves around different roles with different permissions and responsibilities for each user, allowing them access to different parts of the workflow. Users in the system must have at least one role. Users can also have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
 
-Each role is first assigned a permission level, which will broadly define what level of access a user has to a particular journal. Roles are then further customized by providing a position name, and granting or restricting access to various stages of the Editorial Workflow. 
+Each role is first assigned a permission level, which will broadly define what level of access a user has to a particular journal. Roles are then further customized by providing a position name, and granting or restricting access to various stages of the Editorial Workflow.
 
 There are a number of predefined roles that you can use and edit in OJS. Read in-depth about these predefined roles organized by their permissions level. Italicized roles are new in OJS 3.
  
@@ -161,7 +171,6 @@ Predefined and custom roles can be checked from the Roles tab.
 From this page, you can see each role, and the editorial stage each role can access. A good example of this is the Copyeditor role, which can only access the copyediting stage. Copyeditors cannot jump to the Review stage to see what happened during the peer review process. See the Editorial Workflow chapter for more information about the different editorial stages.
 
 In addition to assigning and editing the predefined roles, Site Administrators and Journal Managers can also create new roles or rename existing ones. 
-
 
 ### Editing Roles
 

@@ -65,7 +65,7 @@ This information is stored in the application database.
 
 ### Availability and Access
 
-This information is available to almost any submission participant, with some restrictions to preserve the blind peer review process. In short: contributing authors, editors and editorial assistants can all see this data; in most cases, only editorial staff can edit this data after submission.
+This information is available to almost any submission participant, with some restrictions to preserve the anonymous peer review process. In short: contributing authors, editors and editorial assistants can all see this data; in most cases, only editorial staff can edit this data after submission.
 
 Editors can download this data via author and submission reports.
 

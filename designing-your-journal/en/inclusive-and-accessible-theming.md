@@ -4,20 +4,24 @@ When making design changes, it is important to be mindful of the diversity of yo
 
 In this guide we will focus on visual impairments specifically, but it is always valuable to maintain clear and concise editorial standards so that your articles reach and remain accessible to as many researchers or readers interested in your field as possible.
 
+## Accessibility of Themes
+
+As of OJS/OMP/OPS 3.3, the Default Theme has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. Note that changes made to the theme may impact accessibility.
+
 ## Colour
 
 You can use [WebAim's Contrast Checker](http://webaim.org/resources/contrastchecker), [Contrast Ratio Checker](http://leaverou.github.io/contrast-ratio), or the [Colour Contrast Analyser](https://www.paciellogroup.com/resources/contrastanalyser) to check the contrast ratio between your website’s background and text colours and make sure it is accessible based on the [WCAG 2.0 Guidelines](https://www.w3.org/TR/WCAG20/#visual-audio-contrast).
 
 Most OJS 3 themes allow you to customize the main or header colour of your website. With [WebAim’s Contrast Checker](https://webaim.org/resources/contrastchecker/), for example, you can check whether you should use black or white text, as well as header logo, with your main colour of choice in order to ensure readability for users with visual limitations. In the following example, the user is testing out a pink as well as a purple selected to match their homepage cover image.
 
-![](./assets/WCAG-colour-contrast-checker.png)
+![Screenshot of the WebAim contrast checker showing pass and fail statuses for different text and background color combinations.](./assets/WCAG-colour-contrast-checker.png)
 
 The test recommends that the user only display black text on pink or white text on purple. Therefore, the user has two accessible options using these colours:
 
-![](./assets/header-colour-dont-1.png)
-![](./assets/header-colour-dont-2.png)
-![](./assets/header-colour-do-1.png)
-![](./assets/header-colour-do-2.png)
+![Screenshot of the failed color combination of white on light pink used in OJS, accompanied by a red X.](./assets/header-colour-dont-1.png)
+![Screenshot of the failed color combination of black on dark violet used in OJS, accompanied by a red X.](./assets/header-colour-dont-2.png)
+![Screenshot of the acceptable color combination of black on light pink used in OJS, accompanied by a green checkmark.](./assets/header-colour-do-1.png)
+![Screenshot of the acceptable color combination of white on dark violet used in OJS, accompanied by a green checkmark.](./assets/header-colour-do-2.png)
 
 Additionally, with tools such as the [Spectrum Chrome extension](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en) you can emulate various types of colour vision deficiencies (CVD) on any website. Tools like the [Accessible Color Palette Builder](https://toolness.github.io/accessible-color-matrix/) can help you decide on the best colour combinations for your website.
 

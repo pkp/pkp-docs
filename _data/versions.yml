@@ -9,13 +9,16 @@ importing-exporting:
   current: /importing-exporting/en
   3.0: /importing-exporting/3.0/en
 learning-ojs:
-  3.2: /learning-ojs
+  3.3: /learning-ojs
+  3.2: /learning-ojs/3.2
   3.1: /learning-ojs/3.1
 learning-omp:
-  3.2: /learning-omp
+  3.3: /learning-omp
+  3.2: /learning-omp/3.2
   3.1: /learning-omp/3.1
 learning-ops:
-  3.2: /learning-ops
+  3.3: /learning-ops
+  3.2: /learning-ops/3.2
 translating-guide:
   3.2: /translating-guide
   3.1: /translating-guide/3.1

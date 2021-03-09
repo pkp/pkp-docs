@@ -28,7 +28,7 @@ After enabling the plugin, a Settings link will appear.  You may need to click a
 
 Select Settings and something similar to this form will appear.
 
-![](assets/settings-testdrive.png)
+![OJS 2 DOI plugin settings screen.](assets/settings-testdrive.png)
 
 First select the types of content that you want DOIs to be assigned to. Selecting this option does not mean that all objects of the selected type need to get a DOI assigned. Depending on the chosen DOI suffix generation method, you can selectively assign DOIs if you like (see "When are DOIs being assigned?" below). Selecting a type of content makes the DOI configuration fields available on the corresponding object-specific metadata entry pages. Please be aware that not all registration agencies support all object types for DOI registration. For example, while DataCite is able to support all object types, mEDRA will not register supplementary files.
 

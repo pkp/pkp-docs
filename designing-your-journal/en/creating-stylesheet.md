@@ -46,7 +46,7 @@ The Firefox web browser contains a Style Editor that allows you to create and sa
 2. Navigate to Tools > Web Developer > Style Editor
 3. Click the small + sign to add a new empty stylesheet
 
-![](./assets/browser-style-editor.png)
+![Screenshot highlighting the location of the "+" mark in the Style Editor.](./assets/browser-style-editor.png)
 
 4. Add your custom styles to the new stylesheet
 5. Click the ‘Save’ button to save the file to your local machine
@@ -70,6 +70,6 @@ To test out your new or modified CSS before uploading it to your live journal, y
 
 When ready to upload your CSS, go to Settings > Website > Appearance > Journal Style Sheet and click **Upload**.
 
-![](./assets/upload-stylesheet.png)
+![Screenshot of Journal style sheet upload button in OJS.](./assets/upload-stylesheet.png)
 
 When you're satisfied with the result, be sure to test your website on several devices, including laptops, tablets and phones, to ensure that you are happy with the way it looks no matter how your users access the journal's website.

@@ -4,7 +4,7 @@ To use the plugin, you will first need to obtain either Public or Member ORCID A
 
 ## Obtain ORCID Sandbox API Credentials
 
-You are strongly advised  to test the ORCID plugin in the ORCID Sandbox environment using Sandbox ORCID API credentials first to make sure that the OJS/OPS environment is configured  properly, before moving to the production environment and going live with the plugin functionality. The process for obtaining your Sandbox ORCID API credentials will vary depending on whether you are planning to use the ORCID Public API or the ORCID Member API.
+You are strongly advised  to test the ORCID plugin in the ORCID Sandbox environment using Sandbox ORCID API credentials first to make sure that the OJS/OPS environment is configured  properly, before moving to the production environment and going live with the plugin functionality. The process for obtaining your Sandbox ORCID API credentials will vary depending on whether you are planning to use the ORCID Public API or the ORCID Member API. 
 
 ORCID provides two different API endpoints for: sandbox (testing) and production (live) environments: the ORCID Member API, and the ORCID Public API:
 
@@ -47,7 +47,7 @@ When registering for Sandbox or [Production Member API](https://orcid.org/conten
 
 ### Enable and Configure the ORCID Profile Plugin in OJS/OPS
 
-After you have obtained your Sandbox Client ID and Client Secret from ORCID, you can enable and configure the plugin in OJS/OPS.
+After you have obtained your Client ID and Client Secret from ORCID, you can enable and configure the plugin in OJS/OPS.
 
 First, enable the ORCID plugin for each journal (OJS) or preprint server (OPS) on your installation:
 

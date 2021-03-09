@@ -158,6 +158,8 @@ Certain web-based tools like [ColorBrewer](https://colorbrewer2.org/) provide ac
 
 Understandably, text writing and formatting for a journal will likely follow conventions of a particular scholarly community. But there are general principles we can follow to make it more readable and legible.
 
+Start by ensuring the text is free from spelling and grammar errors. You can use the built-in spell check in MS Word or Google Docs or free online tools such as [GrammarCheck](https://www.grammarcheck.net/editor/).
+
 Shorter paragraphs will make the text easier to read on small screens and will help people with cognitive, neurological and/or learning disabilities. Similarly, expanding acronyms and abbreviations on first use and keeping a list of acronyms as an appendix for reference is a common and helpful practice.
 
 [WebAim’s Writing Clearly and Simply](https://webaim.org/techniques/writing/) guide contains other helpful tips for writers to achieve clarity and simplicity. Additionally, tools like [Hemingway App](http://www.hemingwayapp.com/) can help evaluate your text for complexity and suggest ways of improving its general readability.

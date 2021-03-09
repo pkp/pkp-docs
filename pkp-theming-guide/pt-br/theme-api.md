@@ -1,6 +1,6 @@
 # Documentação da API de Tema
 
-Todo tema estende a classe principal do [`ThemePlugin`](https://github.com/pkp/pkp-lib/blob/master/classes/plugins/ThemePlugin.inc.php). Esta classe tem um número de métodos que auxiliam no carregamento de _scripts_ e estilos, além de modificar as folhas de estilo Pai entre outras coisas.
+Todo tema estende a classe principal do [`ThemePlugin`](https://github.com/pkp/pkp-lib/blob/main/classes/plugins/ThemePlugin.inc.php). Esta classe tem um número de métodos que auxiliam no carregamento de _scripts_ e estilos, além de modificar as folhas de estilo Pai entre outras coisas.
 
 Esta seção abrange a documentação técnica desta classe PHP. Caso você não esteja familiarizado com classe de tema e como isto se relaciona com estilos, _scripts_ e _templates_ então [comece por aqui](what-is-a-theme.md).
 

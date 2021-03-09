@@ -1,6 +1,6 @@
 ---
 book: learning-ops
-version: 3.2
+version: 3.3
 ---
 # Editorial Workflow
 
@@ -23,7 +23,7 @@ This chapter explains the steps in the editorial workflow for Authors, Moderator
 All active and archived (published or declined) submissions for the preprint server will
 appear in the Submissions dashboard.
 
-![](./assets/learning-ops-submissions-dashboard.png)
+![Screenshot of OPS submission dashboard as Preprint Manager](./assets/learning-ops3.3-submissions-dashboard.png)
 
 Which submissions are visible will depend on the role of the logged in user.
 
@@ -54,7 +54,7 @@ If your server chooses to assign moderators to screen submissions before they ar
 
 Selecting the arrow next to a user’s name shows the list of options, which include ‘Remove’, ‘Edit’, ‘Notify’ (this option will create a new Discussion), and ‘Login As’.
 
-![](./assets/learning-ops-editorial-workflow-participants.png)
+![](./assets/learning-ops3.3-editorial-workflow-participants.png)
 
 It’s possible to add a new participant to the submission by selecting the ‘Assign’ button. When assigning a moderator it’s possible to allow for them to view and edit submission metadata (this option is selected by default) and/or to only recommend an editorial decision, in which case a Server Manager or another Moderator needs to record the decision to either post or decline the submission.
 
@@ -62,9 +62,11 @@ It’s possible to add a new participant to the submission by selecting the ‘A
 
 If the Moderator wants to ask the author a question or have a discussion with the author, another moderator, the Preprint Server Manager, or another participant in the submission, they can Add a Discussion in the Production Discussions. How to create a response to a discussion is explained in [Learning OJS 3](/learning-ojs/en/editorial-workflow#consult-with-the-author).
 
-There are two possible editorial decisions, which are ‘Decline Submission’ or ‘Schedule for Publication’. Selecting ‘Decline Submission” will open a pop-up with the option to notify the author(s) or not, and selecting ‘Schedule for Publication’ will move the user to the Publication tab.
+There are two possible editorial decisions, which are ‘Decline Submission’ or ‘Post the preprint’. Selecting ‘Decline Submission” will open a pop-up with the option to notify the author(s) or not, and selecting ‘Post the preprint’ will move the user to the Publication tab.
 
-![](./assets/learning-ops-editorial-workflow-editorial-decision.png)
+In OPS 3.3 it is possible to revert a 'Decline Submission' Decision. This can be done by clicking 'Change Decision' after you have recorded a Decline decision followed by Revert Decline.
+
+![](./assets/learning-ops3.3-editorial-workflow-editorial-decision.png)
 
 ## Publication
 
@@ -82,12 +84,15 @@ The preprint status (indicating whether it has been submitted to or published in
 
 In order to post the preprint, it’s necessary to select the ‘Schedule for Publication” button which opens a pop-up asking the user to confirm that they would like to move forward with the posting of the preprint. This will immediately release the preprint to public view.
 
+If enabled, an email is automatically sent to the author when the preprint is posted online on the server. This automated email template can be modified, or turned off, at **Workflow Settings > Email > Email Templates**, identified with the key `POSTED_ACK`.
+
+![Posted Acknowledgement Email Template](./assets/learning_ops3.3_preprint_posted_acknowledgement_email_template.jpg)
+
 Once the preprint is published, the options to ‘Unpublish’ or ‘Create New Version’ become available. By unpublishing, it’s possible to edit the current version of the preprint without creating a new version, as published preprints can’t be edited while public. Adding a new version will keep the current version as is and create a new record. For more information on versioning, please refer to the [Publish New Versions](./editorial-workflow#versioning) section of this guide below.
 
 ### Preprint Status
 
-There are three possible relational statuses for a published preprint.
-Only the bottom two relational status will appear on the abstract page if selected.
+There are three possible Relations statuses for a published preprint. Only the bottom two relational status will appear on the abstract page if selected.
 
 * Preprint has not been submitted for publication;
 * Preprint has been submitted for publication in a journal; or
@@ -95,7 +100,7 @@ Only the bottom two relational status will appear on the abstract page if select
 
 ![](./assets/learning-ops-editorial-workflow-preprint-status.png)
 
-Submission statuses can be updated even after a Preprint has been posted. Additionally, once the preprint has had its Version of Record (VoR) published in a journal, the DOI assigned to the published preprint can be added by going to the "Relations" button and selecting the last option, that will show a text box in which the user should add the VoR’s DOI link.
+Submission statuses can be updated even after a Preprint has been posted, either by a Moderator or an Author. Additionally, once the preprint has had its Version of Record (VoR) published in a journal, the DOI assigned to the published preprint can be added by going to the "Relations" button and selecting the last option, that will show a text box in which the user should add the VoR’s DOI link.
 
 ![](./assets/learning-ops-editorial-workflow-relations.png)
 

@@ -28,13 +28,13 @@ If the document exists (or will exist) in more than one language, there will be 
 
 ### README File
 
-The README.md file should include a brief introduction regarding the document, a list of contributors, release date, and copyright.
+The README.md file should include a brief introduction regarding the document, a list of contributors, and a release date.
 
 ![](./assets/Github-readme.png)
 
 ## Branches and Pull Requests
 
-A branch is a version of the repository that contains the changes you’ve proposed, uniquely. Since it is not part of “master”, it won’t have an impact on the way the site is built in real-time.
+A branch is a version of the repository that contains the changes you’ve proposed, uniquely. Since it is not part of "main", it won’t have an impact on the way the site is built in real-time.
 
 As most users will not have direct access to make changes to the PKP repository, they will need to create a branch to make changes. If you do not have full permission you will come across the message box below.
 

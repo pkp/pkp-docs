@@ -11,7 +11,7 @@ This section will describe how to install the application, contribute changes, a
 
 ## Technical Requirements
 
-The following requirements must be met to run the software from the GitHub repositories. Read the [Admin Guide](http://localhost:4000/admin-guide/en/managing-the-environment) if you are installing from a release package.
+The following requirements must be met to run the software from the GitHub repositories. Read the [Admin Guide](../../../admin-guide/en/managing-the-environment) if you are installing from a release package.
 
 - PHP 7.3+
 - MySQL 4.1+ _or_ PostgreSQL 9.1.5+
@@ -102,20 +102,20 @@ Run the following commands whenever you want to pull the latest changes to your 
 
 ```
 # Update the app
-git checkout master
-git pull upstream master
+git checkout main
+git pull upstream main
 git push
 
 # Update the pkp-lib submodule
 cd lib/pkp
-git checkout master
-git pull upstream master
+git checkout main
+git pull upstream main
 git push
 
 # Update the ui-library submodule
 cd ../ui-library
-git checkout master
-git pull upstream master
+git checkout main
+git pull upstream main
 git push
 
 cd ../..

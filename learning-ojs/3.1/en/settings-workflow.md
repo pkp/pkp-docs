@@ -10,7 +10,7 @@ The Workflow Settings allow you to configure various parts of the journal's edit
 
 When an author makes a submission, they can upload multiple files. Typically, one file will be the article text, and others can include interview transcripts, data, images, etc. Each of these files is a **component** of the submission. The components available for the author to choose from when making their submission are listed here.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)
+![OJS 3.1 article components menu.](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)
 
 Using the links provided, you can change the **Order** of the components \(how they will be listed to the submitting author\), **Add a Component** \(if something you need is not included by default -- e.g., Video\), or **Restore the Defaults** \(if someone has made too many modifications and you just want to reset everything\).
 
@@ -18,7 +18,7 @@ Using the links provided, you can change the **Order** of the components \(how t
 
 You can also edit each component by selecting the blue arrow to the left of the component name. This will reveal an Edit link and a Delete link.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-comp-edit.png)
+![OJS 3.1 submission configuration menu.](./assets/learning-ojs3.1-jm-settings-workflow-comp-edit.png)
 
 **Name**: This is the name of the component, as presented to the author.
 
@@ -30,19 +30,19 @@ You can also edit each component by selecting the blue arrow to the left of the 
 
 Use this section to configure the submission process.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-submission.png)
+![OJS 3.1 submission checklist editing menu.](./assets/learning-ojs3.1-jm-settings-workflow-submission.png)
 
 **Author Guidelines**: Use this field to add guidelines for your authors. This information will be displayed on the journal website.
 
 **Submission Preparation Checklist**: Authors must check off that they agree with each item on this list. Use the _Order_ link to change the order of the items, use the _Add Item_ link to create a new item, and use the blue arrow to the left of the item name to _Edit_ an existing item.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
+![OJS 3.1 submission checklist editing menu.](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
 
 **Notification of Author Submission**: Add an email address here to be contacted whenever there is a new submission.
 
 **Submission Metadata**: This section allows you to determine which metadata fields to use for your journal.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-submission-submission-metadata.png)
+![OJS 3.1 submission metadata control grid.](./assets/learning-ojs-3-settings-workflow-settings-submission-submission-metadata.png)
 
 Each entry is a different metadata type available for every article in your journal.
 
@@ -60,7 +60,7 @@ Remember to hit the **Save** button to record any changes to this page.
 
 This tab allows you to configure your journal's review process.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-review.png)
+![OJS 3.1 review configuration editing menu.](./assets/learning-ojs3.1-jm-settings-workflow-review.png)
 
 **Default Review Deadlines**: Indicate how long reviewers have to decide to accept or decline a review request from the editor, and how long they have to make a recommendation.
 
@@ -68,7 +68,7 @@ This tab allows you to configure your journal's review process.
 
 Use the drop down menu to select either the number of days or “Never Remind” under “Send a reminder if a reviewer has not responded to a review request within the following time (days) after response due date” to set the number of days that can pass after the due date before reviewers will be reminded to make a recommendation for a submission.
 
-![](./assets/learning-ojs3.1-jm-settings-review-reminders.png)
+![OJS 3.1 notification of author submission screen.](./assets/learning-ojs3.1-jm-settings-review-reminders.png)
 
 Note that some system settings must be configured by the Site Administrator to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
 
@@ -76,17 +76,17 @@ Note that some system settings must be configured by the Site Administrator to s
 
 **Create Review Form**: Use the Create Review Form link to make a new form.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-create.png)
+![OJS 3.1 new review form creation menu.](./assets/learning-ojs-3-settings-workflow-settings-review-create.png)
 
 The Description and Instructions provide information about the form and when to use it for Journal Managers and Editors. This content is not included on the form that reviewers see. You can add instructions and guidelines for reviewers under Review Guidelines \(below\).
 
 Back at the Review Forms page, select the blue arrow to the left of the form name to reveal the Edit link.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-edit1.png)
+![OJS 3.1 review forms with edit menu expanded.](./assets/learning-ojs-3-settings-workflow-settings-review-edit1.png)
 
 Select the Edit link and complete the form.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-create-items.png)
+![OJS 3.1 review form edit menu and response options.](./assets/learning-ojs-3-settings-workflow-settings-review-create-items.png)
 
 **Items** are form questions.
 
@@ -107,13 +107,13 @@ Remember to hit the **Save** button to record your changes.
 
 Use the **Preview** tab to test out the form.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-preview.png)
+![OJS 3.1 review form preview and response options.](./assets/learning-ojs-3-settings-workflow-settings-review-preview.png)
 
 Once you send the form to a reviewer you will no longer be able to edit it because that would change the record for existing reviews using that form. If you want to make changes to the review form at that point you can copy the existing form and create a new updated version.
 
 **Blind Review**: Check this box to display a link for instructions on ensuring all submission files are anonymized.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review2.png)
+![OJS 3.1 checkbox to display submission anonymization instructions.](./assets/learning-ojs-3-settings-workflow-settings-review2.png)
 
 **Competing Interests**: Add your competing interest disclosure policy statement here.
 
@@ -137,11 +137,11 @@ You can also upload a file here that you would like to be publicly accessible vi
 
 Suggested forms that can be uploaded in this area can include the galley approval form, supplemental material cover page, and other forms related to your journals workflow. 
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-publib1.png)
+![OJS 3.1 publisher library menu.](./assets/learning-ojs3.1-jm-settings-workflow-publib1.png)
 
 To add a file here, click ‘Add a file’ on the top right corner of the Publisher Library box.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-publib2.png)
+![OJS 3.1 add a file to the publisher library.](./assets/learning-ojs3.1-jm-settings-workflow-publib2.png)
 
 **Name**: Title of Document you want to appear to the user
 
@@ -154,7 +154,7 @@ To add a file here, click ‘Add a file’ on the top right corner of the Publis
 
 The section allows you to configure the emails that are sent out from the system.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-emails.png)
+![OJS 3.1 emails menu.](./assets/learning-ojs3.1-jm-settings-workflow-emails.png)
 
 **Signature**: The information in this field will be added to the bottom of every email sent out by the system.
 
@@ -179,7 +179,7 @@ To edit a template:
 4. Make changes to the subject and the body text. Be careful to not delete any tags such as “{$authorName}:,” which automatically insert content from a submission.
 5. When you’re finished editing, click Save.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-email-templates.png)
+![OJS 3.1 prepared emails templates.](./assets/learning-ojs3.1-jm-settings-workflow-email-templates.png)
 
 #### Reload default email templates
 

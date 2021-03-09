@@ -16,7 +16,7 @@ Each release of your plugin must be made available for download publicly. We pre
 
 The plugin must be made available under a GPL-compatible license so that our community can retain ownership over their publishing software. This licensing must be explicit in the code, usually by including a `LICENSE` file in the root directory of the plugin.
 
-See an [example](https://github.com/pkp/pluginTemplate/blob/master/LICENSE) of a license file.
+See an [example](https://github.com/pkp/pluginTemplate/blob/main/LICENSE) of a license file.
 
 ## Write Tests for Your plugin
 
