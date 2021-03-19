@@ -6,7 +6,7 @@ version: 3.1
 
 The Website Settings allow you to configure how your journal's website looks and operates. It consists of tabs for Appearance, Information, Archiving, Languages, Plugins, Announcements, and Navigation Menus.
 
-![](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
+![OJS dashboard view of website settings menu](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
 
 ## Appearance
 
@@ -59,7 +59,7 @@ Hit **Save** to record your changes.
 
 Use these fields to modify the text in the For Readers, For Authors, For Librarians pages on the journal website.
 
-![](./assets/learning-ojs3.1-jm-settings-web-info.png)
+![OJS dashboard view of Information menu with boiler plate text in the fields for readers and for authors.](./assets/learning-ojs3.1-jm-settings-web-info.png)
 
 Remember to hit **Save** to record any changes.
 
@@ -71,7 +71,7 @@ If you are a member of a LOCKSS or CLOCKSS network, use this page to activate yo
 
 If you use another network, enabling it here will make your content available to the network, but you will also need to contact the network to make it aware of your journal.
 
-![](./assets/learning-ojs3.1-jm-settings-web-archive.png)
+![OJS dashboard view of Archiving page with an option to select PKP PN, LOCKSS or CLOCKSS networks.](./assets/learning-ojs3.1-jm-settings-web-archive.png)
 
 ## Languages
 
@@ -79,7 +79,7 @@ OJS is multilingual, which means that the interface, emails, and published conte
 
 Under Website Settings > Languages you can see a list of languages or locales installed on your site and configure how the languages are used in your journal. Additional languages can be installed on your site by an Administrator – see [Chapter 4](https://docs.pkp.sfu.ca/learning-ojs/en/site-administration) for details.
 
-![](./assets/learning-ojs3.1-jm-settings-web-lang.png)
+![OJS dashboard view of Languages menu with English and French options, English option selected as primary locale.](./assets/learning-ojs3.1-jm-settings-web-lang.png)
 
 **Primary Locale**: One language must be set as the primary locale, which means the language the journal appears in by default.
 
@@ -99,7 +99,7 @@ Use this page to see all of the installed plugins and find new plugins.
 
 All of the plugins listed here are available in your OJS installation. Check the Enable link to use them.
 
-![](./assets/learning-ojs3.1-jm-settings-web-plugins.png)
+![OJS dashboard view of Plugins menu with the tab for installed plugins selected.](./assets/learning-ojs3.1-jm-settings-web-plugins.png)
 
 You will notice that some plugins are required for the system and cannot be disabled.
 
@@ -109,11 +109,11 @@ Click the blue arrow next to the plugin name to reveal links to Delete, Upgrade,
 
 The Plugin Gallery provides access to externally-created plugins, that may not be included in your OJS installation, but are available for download and activation. Only an Administrator user can install a new plugin.
 
-![](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery.png)
+![OJS dashboard view of Plugins menu with the tab for plugin gallery selected.](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery.png)
 
 Selecting the plugin title will provide additional details, including the author, status, description, and compatibility.
 
-![](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery-hypo.png)
+![Hypothes.is plugin selected in the plugin gallery shows that it is installed and up-to-date.](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery-hypo.png)
 
 ### External Plugins
 
@@ -130,7 +130,7 @@ If upload fails you may get an error message that says, “The uploaded plugin a
 
 This section allows you to create and display news announcements on the journal's website.
 
-![](./assets/learning-ojs3.1-jm-settings-web-announce.png)
+![OJS dashboard view of Announcements menu with an option to enable and display announcements.](./assets/learning-ojs3.1-jm-settings-web-announce.png)
 
 **Announcements**: Configure how announcements will appear on your journal website.
 
@@ -142,7 +142,7 @@ This section allows you to create and display news announcements on the journal'
 
 This section allows you to configure your navigation menus, such as including new links.
 
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu.png)
+![OJS dashboard view of Navigation Menu with user and primary menus and an option to add or edit navigation menu items.](./assets/learning-ojs3.1-jm-settings-web-navmenu.png)
 
 **Navigation Menus**: Configure the User Menu \(which includes Language, View Site, and Username\) or the Primary Menu \(on the journal home page, including Current, Archive, About, etc.\).
 
@@ -152,11 +152,11 @@ When you assign a Menu Item with display conditions to a Menu, you will see an i
 
 **Navigation Menu Items**: These are programmed links you can add to either menu above. If you wish to add a link to the Primary Menu \(e.g., "Our Society"\), add it here using the _Add Item_ link.
 
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.png)
+![Add item screen with item title and remote URL filled out.](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.png)
 
 It will now appear in the list of Navigation Menu Items. Next, go to the desired Navigation Menu \(e.g., Primary\), use the blue arrow to reveal the options, and choose Edit. You can now drag and drop it from Unassigned Menu Items to Assigned Menu Items and into the appropriate location on the menu.
 
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.png)
+![Primary navigation area with a list of assigned and unassigned menu items.](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.png)
 
 Hit Save to record the change.
 
