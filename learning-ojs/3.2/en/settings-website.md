@@ -7,7 +7,7 @@ version: 3.2
 
 The Website Settings allow you to configure how your journal's website looks and operates. It consists of 3 main tabs for Appearance, Setup, and Plugins.
 
-![](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
+![OJS dashboard view of website settings menu.](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
 
 ## Appearance
 
@@ -73,7 +73,7 @@ Hit **Save** to record your changes.
 
 Use these fields to modify the text in the For Readers, For Authors, For Librarians pages on the journal website.
 
-![](./assets/learning-ojs3.1-jm-settings-web-info.png)
+![OJS dashboard view of Information menu with boiler plate text in the fields for readers and for authors.](./assets/learning-ojs3.1-jm-settings-web-info.png)
 
 Remember to hit **Save** to record any changes.
 
@@ -85,7 +85,7 @@ OJS is multilingual, which means that the interface, emails, and published conte
 
 Under Website Settings > Languages you can see a list of languages or locales installed on your site and configure how the languages are used in your journal. Additional languages can be installed on your site by an Administrator – see [Chapter 4](./site-administration) for details.
 
-![](./assets/learning-ojs3.1-jm-settings-web-lang.png)
+![OJS dashboard view of Languages menu with English and French options, English option selected as primary locale.](./assets/learning-ojs3.1-jm-settings-web-lang.png)
 
 - **Primary Locale**: One language must be set as the primary locale, which means the language the journal appears in by default.
 
@@ -101,7 +101,7 @@ If enabling multiple languages to appear in the UI, make sure that in Website Se
 
 This section allows you to configure your navigation menus, such as including new links.
 
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu.png)
+![OJS dashboard view of Navigation Menu with user and primary menus and an option to add or edit navigation menu items.](./assets/learning-ojs3.1-jm-settings-web-navmenu.png)
 
 - **Navigation Menus**: Configure the User Menu and/or the Primary Menu.
 
@@ -111,11 +111,11 @@ When you assign a Menu Item with display conditions to a Menu, you will see an i
 
 - **Navigation Menu Items**: These are programmed links you can add to either menu above. If you wish to add a link to the Primary Menu (e.g., "Our Society"), add it here using the _Add Item_ link.
 
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.png)
+![Add item screen with item title and remote URL filled out.](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.png)
 
 It will now appear in the list of Navigation Menu Items. Next, go to the desired Navigation Menu (e.g., Primary), use the blue arrow to reveal the options, and choose Edit. You can now drag and drop it from Unassigned Menu Items to Assigned Menu Items and into the appropriate location on the menu.
 
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.png)
+![Primary navigation area with a list of assigned and unassigned menu items.](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.png)
 
 Hit Save to record the change.
 
@@ -123,7 +123,7 @@ Hit Save to record the change.
 
 This section allows you to create and display news announcements on the journal's website.
 
-![](./assets/learning-ojs3.1-jm-settings-web-announce.png)
+![OJS dashboard view of Announcements menu with an option to enable and display announcements.](./assets/learning-ojs3.1-jm-settings-web-announce.png)
 
 - **Announcements**: Check this off if you want to have announcements in your website
   - **Introduction**: Enter any information you would like to appear on your announcements page.
@@ -145,7 +145,7 @@ Use this page to see all of the installed plugins and find new plugins.
 
 All of the plugins listed here are available in your OJS installation. Check the Enable link to use them.
 
-![](./assets/learning-ojs3.1-jm-settings-web-plugins.png)
+![OJS dashboard view of Plugins menu with the tab for installed plugins selected.](./assets/learning-ojs3.1-jm-settings-web-plugins.png)
 
 You will notice that some plugins are required for the system and cannot be disabled.
 
@@ -155,11 +155,11 @@ Click the blue arrow next to the plugin name to reveal links to Delete, Upgrade,
 
 The Plugin Gallery provides access to externally-created plugins, that may not be included in your OJS installation, but are available for download and activation. Only an Administrator user can install a new plugin.
 
-![](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery.png)
+![OJS dashboard view of Plugins menu with the tab for plugin gallery selected.](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery.png)
 
 Selecting the plugin title will provide additional details, including the author, status, description, and compatibility.
 
-![](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery-hypo.png)
+![Hypothes.is plugin selected in the plugin gallery shows that it is installed and up-to-date.](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery-hypo.png)
 
 ### External Plugins
 
@@ -189,15 +189,15 @@ Please note that as PKP does not maintain 3rd party plugins, we cannot guarantee
 
 This plugin can be enabled from the Plugin Gallery.
 
-![](./assets/learning-ojs-settings-plugin-addthis.png)
+![Social media sharing icons displayed on an article page by the AddThis plugin.](./assets/learning-ojs-settings-plugin-addthis.png)
 
 You can configure the social media icons and get statistics by clicking on the Setting button of the Plugin.
 
-![](./assets/learning-ojs-settings-plugin-addthis-2.png)
+![AddThis plugin settings button.](./assets/learning-ojs-settings-plugin-addthis-2.png)
 
 In order to get statistics from this plugin, you will need to register for an [AddThis account](https://www.addthis.com/).
 
-![](./assets/learning-ojs-settings-plugin-addthis-3.png)
+![AddThis plugin settings expanded with different display options.](./assets/learning-ojs-settings-plugin-addthis-3.png)
 
 #### Browse Plugin
 
@@ -205,13 +205,13 @@ This plugin implements a block plugin that allows the user to navigate content b
 
 This plugin can be enabled from the Plugin Gallery.
 
-![](./assets/learning-ojs-settings-plugin-browse.png)
+![Browse plugin with categories for Summer, Fall, Spring, Winter.](./assets/learning-ojs-settings-plugin-browse.png)
 
 #### Citation Style Language Plugin
 
 The Citation Style Language plugin adds a “How to Cite” block to the article page that contains a citation for the article in the format of your choice, with an option below to generate the citation in another format.
 
-![](./assets/learning-ojs-settings-plugin-citation.png)
+![Example of a citation on an article page under How to Cite added by the Citation Style Language Plugin.](./assets/learning-ojs-settings-plugin-citation.png)
 
 This is an Installed Plugin and will need to be enabled under Website Settings > Plugins > Installed Plugins.
 
@@ -220,7 +220,7 @@ To configure the plugin:
 * Click the blue arrow next to the plugin name
 * Click the **Settings** link that appears below.
 
-![](./assets/learning-ojs-settings-plugin-citation-2.png)
+![Citation Style Language Plugin settings button.](./assets/learning-ojs-settings-plugin-citation-2.png)
 
 * Select the Primary citation format you would like to use from the first list, followed by the other citation formats you * would like to be available from the second list
 * Next, you can optionally select a downloadable format to make available to readers to export to bibliography management software
@@ -299,7 +299,7 @@ When asked to register your **Website Name**, create a name based on your journa
 
 Skip the **Install Disqus** step and go to **Configure Disqus**. Enter your journal url in the **Website URL** field. Enter your comments policy as applicable.
 
-![](./assets/learning-ojs-3.2-settings-plugin-disqus-configure-disqus.png)
+![Configure Disqus menu on the Disqus website.](./assets/learning-ojs-3.2-settings-plugin-disqus-configure-disqus.png)
 
 Now you can configure the Disqus plugin on your journal site:
 
@@ -309,11 +309,11 @@ Now you can configure the Disqus plugin on your journal site:
 4. Enter the Website Name from your Disqus account in the **Disqus forum's shortname** field
 5. Click **OK**
 
-![](./assets/learning-ojs-3.2-settings-plugin-disqus-configure-plugin.png)
+![OJS Disqus plugin settings menu with an option to enter a forum's shortname.](./assets/learning-ojs-3.2-settings-plugin-disqus-configure-plugin.png)
 
 After configuring the plugin, if you open one of your article pages, you should see Disqus comments at the bottom. Your users will have to register with Disqus to use the feature.
 
-![](./assets/learning-ojs-3.2-settings-plugin-disqus-comment-on-article.png)
+![Example of an article page with Disqus comment field at the bottom.](./assets/learning-ojs-3.2-settings-plugin-disqus-comment-on-article.png)
 
 #### Hypothes.is plugin
 
@@ -323,19 +323,19 @@ This plugin can be enabled from the Plugin Gallery.
 
 Once enabled, readers will see the hypothes.is tools on the right side of the HTML galley.
 
-![](./assets/learning-ojs-settings-plugin-hypothesis.png)
+![Hypothesis view next to an HTML galley with sample text.](./assets/learning-ojs-settings-plugin-hypothesis.png)
 
 You will need a free hypothes.is account in order to participate in public commenting. Specific/Private commenting groups can also be set up. [See hypothes.is](https://web.hypothes.is/help/how-to-create-a-private-group/) for instructions.
 
 Public annotations and highlights will be visible (if any) once you are signed in.
 
-![](./assets/learning-ojs-settings-plugin-hypothesis-2.png)
+![Hypothesis view next to an HTML galley with portions of the sample text highlighted.](./assets/learning-ojs-settings-plugin-hypothesis-2.png)
 
 #### Keyword Cloud plugin
 
 This plugin displays a tag cloud of keywords that can be enabled on the sidebar of your journal or press.
 
-![](./assets/learning-ojs-settings-plugin-keyword.png)
+![Keyword cloud displayed in a journal sidebar.](./assets/learning-ojs-settings-plugin-keyword.png)
 
 This is a 3rd party plugin that will need to be [downloaded from GitHub](https://github.com/lepidus/keywordCloud).
 
@@ -354,7 +354,7 @@ The cloud will should now appear on the sidebar of your journal site.
 
 This plugin creates a “most read articles” section in the journal’s sidebar with the 5 most viewed articles (with links) in the last week, along with the number of views per article.
 
-![](./assets/learning-ojs-settings-plugin-most-read.png)
+![Most read of the week list with article titles and links displayed in a journal sidebar.](./assets/learning-ojs-settings-plugin-most-read.png)
 
 This is a 3rd party plugin and the file will need to be [downloaded from GitHub](https://github.com/ajnyga/mostRead).
 
@@ -375,7 +375,7 @@ The block will now appear on the sidebar of your journal site.
 
 This plugin inserts a list of articles by the same author (with appropriate links) on an article’s abstract page.
 
-![](./assets/learning-ojs-settings-plugin-author-rec.png)
+![Most read articles by the same author(s) with a sample article and link.](./assets/learning-ojs-settings-plugin-author-rec.png)
 
 This plugin can be enabled in the Plugin Gallery.
 
@@ -393,7 +393,7 @@ Once it has been enabled, there is no additional configuration required.
 
 This plugin displays the number of downloads of an article on the article page.
 
-![](./assets/learning-ojs-settings-plugin-usage-stats.png)
+![Bar graph of article downloads displayed on an artilce page by the Usage Statistics plugin.](./assets/learning-ojs-settings-plugin-usage-stats.png)
 
 To configure the Usage Statistics Plugin, you must be an **Administrator**:
 
@@ -406,7 +406,7 @@ To configure the Usage Statistics Plugin, you must be an **Administrator**:
 7. Below that you can select whether you would like to display the statistics as a bar or line graph and the maximum number of months to display usage for.
 8. Click Save.
 
-![](./assets/learning-ojs-settings-plugin-usage-stats-2.png)
+![Usage Statistics plugin settings with statistics display options.](./assets/learning-ojs-settings-plugin-usage-stats-2.png)
 
 Please note that:
 
@@ -424,12 +424,12 @@ To use the Static Pages plugin:
 * Refresh the page in your browser. Now you should see a new tab next to **Plugins** called **Static Pages**.
 * Click the **Static Pages** tab
 
-![](./assets/learning-ojs3.2-website-settings-static-pages-plugin.png)
+![Static Pages tab in the Website Settings menu.](./assets/learning-ojs3.2-website-settings-static-pages-plugin.png)
 
 * Add a new page by clicking **Add Static Page**.
 * Fill in the form that opens with the content you want on the page. The **Path** will be used as part of the page URL and the **Title** will appear as the page title.
 
-![](./assets/learning-ojs3.2-website-settings-add-static-page.png)
+![Add Static Page menu with a page title and path entered.](./assets/learning-ojs3.2-website-settings-add-static-page.png)
 
 * You can preview the page as you’re working by clicking the **Preview** link at the bottom of the form
 * When you’re finished creating the page, click **Save**
