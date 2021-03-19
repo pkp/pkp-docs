@@ -13,7 +13,7 @@ In addition to managing the journal web site, the Journal Manager is also respon
 
 To view the user accounts, select Users & Roles from the left menu.
 
-![](./assets/learning-ojs3.1-jm-users.png)
+![Users and Roles screen with list of journal users](./assets/learning-ojs3.1-jm-users.png)
 
 ### Users
 
@@ -21,7 +21,7 @@ Users are displayed in last name order.
 
 You can edit a user account by selecting the blue arrow to the left of an entry.
 
-![](./assets/learning-ojs3.1-jm-users-edit.png)
+![Blue arrow selected by a user's name with options to edit their account](./assets/learning-ojs3.1-jm-users-edit.png)
 
 This opens the options to Email, Edit User, Disable, Remove, Login As, Merge User.
 
@@ -36,7 +36,7 @@ To send an email to a user that is unrelated to a submission:
 3. Click the blue arrow next to the user’s name to reveal links below it
 4. Click Email. A pop-up box will appear where you can type in your message and send it
 
-![](./assets/learning-ojs-3-users-email.png)
+![Email pop-up box for emailing a user]](./assets/learning-ojs-3-users-email.png)
 
 You cannot email multiple users at the same time except by using the Announcements feature. See the [Workflow Settings chapter](./settings-workflow) for instructions on how to send announcements. It is also not possible to send a message to all users in one role, such as all reviewers registered on your site.
 
@@ -46,7 +46,7 @@ It is not currently possible to add cc or bcc addresses to messages or to add at
 
 **Edit User** allows you to make changes to that user's account.
 
-![](./assets/learning-ojs-3-users-edit-user.png)
+![Edit information about a user](./assets/learning-ojs-3-users-edit-user.png)
 
 **Disable** keeps the account in place, but blocks the user from accessing it.
 
@@ -76,23 +76,23 @@ To merge users:
 
 When you have a large number of users, you will want to take advantage of the search feature.
 
-![](./assets/learning-ojs-3-users-search.png)
+![Search for a journal user by name, email, and role](./assets/learning-ojs-3-users-search.png)
 
 This can help you quickly find a user by first name, last name, or email address, or to see all users in a particular role.
 
 **Note**: If you leave the Search field blank, select a Role, and hit Search, you will get a list of all users in that role (e.g., all copyeditors).
 
-![](./assets/learning-ojs-3-users-search-roles.png)
+![Search for all users with a given role](./assets/learning-ojs-3-users-search-roles.png)
 
 #### Add User
 
 To add a new user to your journal, select the Add User link. This will open a new window with a set of fields to fill in.
 
-![](./assets/learning-ojs-3-users-add-new.png)
+![Add a user and enter their information](./assets/learning-ojs-3-users-add-new.png)
 
 Once these fields are completed and you hit _Save_, you will then be asked to assign roles to the new account. Use the _Add Role_ link to open the role selector.
 
-![](./assets/learning-ojs-3-users-add-new-roles1.png)
+![Assign a role to a new user's account](./assets/learning-ojs-3-users-add-new-roles1.png)
 
 Once you have added all of the roles, hit the **Save** button.
 
@@ -156,7 +156,7 @@ Available predefined Assistant roles and their assigned editorial workflow stage
 
 Predefined and custom roles can be checked from the Roles tab.
 
-![](./assets/learning-ojs3.1-jm-users-roles.png)
+![Roles tab showing all current roles in the journal](./assets/learning-ojs3.1-jm-users-roles.png)
 
 From this page, you can see each role, and the editorial stage each role can access. A good example of this is the Copyeditor role, which can only access the copyediting stage. Copyeditors cannot jump to the Review stage to see what happened during the peer review process. See the Editorial Workflow chapter for more information about the different editorial stages.
 
@@ -169,7 +169,7 @@ Unchecking a box removes access to that stage for users with that role.
 
 Selecting the blue arrow to the left of the role name reveals the edit link. Clicking this opens the editing window.
 
-![](./assets/learning-ojs3.1-jm-users-roles-edit.png)
+![Edit details of a role](./assets/learning-ojs3.1-jm-users-roles-edit.png)
 
 **Permission Level**: This indicates how much a user with this role can do in any stage.
 
@@ -197,7 +197,7 @@ Use the _Create New Roles_ link to open a window where you can create a new role
 
 This page allows you to determine how readers can access your journal.
 
-![](./assets/learning-ojs3.1-jm-users-siteoptions.png)
+![Site access options tab under Users and Roles](./assets/learning-ojs3.1-jm-users-siteoptions.png)
 
 **Additional Site and Article Access Restrictions**: Choose from these options to limit access.
 
