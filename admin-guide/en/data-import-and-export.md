@@ -4,11 +4,11 @@ Open Journal Systems offers a variety of tools and plugins which allow you to in
 
 Most import and export functions can be carried out by logging in as Journal Manager and going to Tools > Import/Export.
 
-![Screenshot of OJS Tools menu showing Import/Export options in OJS.](./assets/import-export.png)
+![The OJS Tools menu showing Import/Export options in OJS.](./assets/import-export.png)
 
 However, in some cases import/export plugins need to be installed or enabled first under Settings > Website > Plugins. How to access and use specific plugins and functions are explained in the sections below.
 
-![Screenshot of plugins gallery where some import/export plugins can be enabled.](./assets/plugins.png)
+![The plugins gallery where some import/export plugins can be enabled.](./assets/plugins.png)
 
 Import/export functionality is also available as a command-line tool; see `tools/importExport.php` and the command line section for more information.
 
@@ -77,7 +77,7 @@ To export article and issue metadata using the Native XML Plugin:
 
 \* Please note that using this plugin to export articles and issues will not only export all relevant metadata, but will include all article files \(HTML, PDF, etc.\) embedded within the XML document in Base64 encoding. This can result in large, cumbersome XML files, especially when multiple issues are exported at once. Opening them in an editor to view or change any XML data or metadata may be taxing for your computer, and it may take some time to download and/or upload said files, depending on your connection and the resources of the source server.
 
-![Screenshot of Export Articles tab under the Native XML Plugin.](./assets/native-xml-plugin-export.png)
+![The Export Articles tab under the Native XML Plugin.](./assets/native-xml-plugin-export.png)
 
 ## Import and export users
 
