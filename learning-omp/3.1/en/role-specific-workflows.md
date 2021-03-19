@@ -12,11 +12,11 @@ This chapter will provide a general outline and instruction for the various role
 
 To create an account in a Press, click **Register** on the Press’ homepage. This is typically found on the top-right corner of the Press’ site.
 
-![Image highlighting the location of the Register button on the top right of an OMP press site.](./assets/learning-omp_role-specific-workflow_auth-reg.png)
+![Highlighted location of the Register button on the top right of an OMP press site.](./assets/learning-omp_role-specific-workflow_auth-reg.png)
 
 Enter all of the required information on the registration form as indicated by the red asterisk and agree to the terms and conditions. 
 
-![Image of the OMP registration form filled out with sample information.](./assets/learning-omp_role-specific-workflow_auth-reg-2.png)
+![OMP registration form filled out with sample information.](./assets/learning-omp_role-specific-workflow_auth-reg-2.png)
 
 Once you have completed the form and agreed to the terms, click register. After completing the registration you’ll be able to submit a manuscript, edit your profile, and continue browsing. 
 
@@ -26,17 +26,17 @@ Once logged in you will be able to edit your user profile by clicking your usern
 
 Select **View Profile**
 
-![Image indicating the location of the user profile menu at the top right of the OMP dashboard.](./assets/learning-omp_role-specific-workflow_edit-profile-1.png)
+![Highlighted location of the user profile menu at the top right of the OMP dashboard.](./assets/learning-omp_role-specific-workflow_edit-profile-1.png)
 
 From here, you’ll be able to edit your name, contact information, signature, and public profile; change your password; set notification preferences; etc. 
 
-![Image showing the Identity tab under profile settings in OMP with sample information.](./assets/learning-omp_role-specific-workflow_edit-profile-2.png)
+![The Identity tab under profile settings in OMP with sample information.](./assets/learning-omp_role-specific-workflow_edit-profile-2.png)
 
 ### Author Submission
 
 Once you are ready to make a submission, click **New Submission** on your user dashboard. 
 
-![Image highlighting the New Submission on the top right of the submissions panel of the OMP dashboard.](./assets/learning-omp_role-specific-workflow_auth-subm-1.png)
+![Highlighted New Submission link on the top right of the submissions panel of the OMP dashboard.](./assets/learning-omp_role-specific-workflow_auth-subm-1.png)
 
 **Step 1: Prepare**
 
@@ -44,19 +44,19 @@ You will need to select the Submission Type, Series, the Role in submission, and
 
 Once you have completed this form, click agree to the terms and click **Save and continue**. 
 
-![Image showing a sample Submission form.](./assets/learning-omp_role-specific-workflow_auth-subm-2.png)
+![A sample Submission form.](./assets/learning-omp_role-specific-workflow_auth-subm-2.png)
 
 **Step 2: Upload Submission**
 
 Identify your Submission Component from the list. Once selected, upload your file. 
 
-![Image showing a successfully uploaded submission file.](./assets/learning-omp_role-specific-workflow_auth-subm-3.png)
+![A successfully uploaded submission file.](./assets/learning-omp_role-specific-workflow_auth-subm-3.png)
 
 Press continue. 
 
 You can upload additional documents (as applicable). 
 
-![Screenshot of the "Add Another File" button used for supplemental files.](./assets/learning-omp_role-specific-workflow_auth-subm-4.png)
+![The "Add Another File" button used for supplemental files.](./assets/learning-omp_role-specific-workflow_auth-subm-4.png)
 
 Press **Complete** followed by **Save and Continue**.
 
@@ -64,7 +64,7 @@ Press **Complete** followed by **Save and Continue**.
 
 You will need to enter the following metadata regarding your manuscript. Items marked with the red asterisk are a mandatory part of the submission.  
 
-![Image of the metadata form under the Catalog tab of the submission process.](./assets/learning-omp_role-specific-workflow_auth-subm-5.png)
+![The metadata form under the Catalog tab of the submission process.](./assets/learning-omp_role-specific-workflow_auth-subm-5.png)
 
 Enter your manuscript’s Title, Subtitle, Abstract, List of Contributors, Chapters, Additional Refinements Subjects, and Keywords as applicable. 
 
@@ -82,13 +82,13 @@ Once you have completed all the steps, click **Finish Submission**.
 
 Reviewer requests will appear in their user dashboard and in the taskbar. The request will have the Response and Review deadline.
 
-![Image of the expanded tasks menu in the dashboard, containing 3 pending reviews.](./assets/learning-omp_role-specific-workflow_rev-dash.png)
+![The expanded tasks menu in the dashboard, containing 3 pending reviews.](./assets/learning-omp_role-specific-workflow_rev-dash.png)
 
 A reviewer can see more details regarding the request by clicking on the manuscript. The request submenu will have the general information regarding the submission, the review file, and additional submission details and review schedule. 
 
 The information in the **View All submission Details** will vary depending on your review policy. 
 
-![Image of Review details, including files to review and due date.](./assets/learning-omp_role-specific-workflow_rev-invite.png)
+![Review details, including files to review and due date.](./assets/learning-omp_role-specific-workflow_rev-invite.png)
 
 The reviewer's option to accept or decline the review request will be at the bottom of this page. Once the reviewer accepts the request, they will have access to the remaining tabs.
 
@@ -118,15 +118,15 @@ You will be prompted to select the submission files the author provided for incl
 
 Once the Internal Review has been prompted on your dashboard, you will need to select reviewers by clicking **Add Reviewer** in your main menu subpanel.
 
-![Screenshot highlighting the location of the Add Reviewer button in the subpanel.](./assets/learning-omp_role-specific-workflow_assgn-rev.png)
+![Highlighted location of the Add Reviewer button in the subpanel.](./assets/learning-omp_role-specific-workflow_assgn-rev.png)
 
 You can select a reviewer from the reviewers in your journal, create a new reviewer, or enroll an existing reviewer from another journal within a multi-journal installation. 
 
-![Screenshot of reviewer selection screen.](./assets/learning-omp_role-specific-workflow_assgn-rev2.png)
+![The reviewer selection screen.](./assets/learning-omp_role-specific-workflow_assgn-rev2.png)
 
 At this stage, reviewers associated with the press evaluate the submission. In an Open or Blind review, an editor can contact reviewers as well as revise their due dates by clicking the icon next to their names.
 
-![Screenshot of the expanded reviewer details menu, including links to email the reviewer, view review history, etc.](./assets/learning-omp_role-specific-workflow_assgn-rev3.png)
+![The expanded reviewer details menu, including links to email the reviewer, view review history, etc.](./assets/learning-omp_role-specific-workflow_assgn-rev3.png)
 
 You will be notified of completed reviews and can access the reviews by clicking the arrow beside the reviewer's name and selecting **Email Reviewer** in the Reviewers section.
 
@@ -145,7 +145,7 @@ The external review process can be initiated at the end of the internal review p
 
 Once the External Review has been prompted on your dashboard, you will need to select reviewers by clicking **Add Reviewer** in your main menu subpanel.
 
-![Screenshot highlighting the location of the Add Reviewer button in the subpanel.](./assets/learning-omp_role-specific-workflow_assgn-rev.png)
+![Highlighted location of the Add Reviewer button in the subpanel.](./assets/learning-omp_role-specific-workflow_assgn-rev.png)
 
 You can select a reviewer from the reviewers in your journal, create a new reviewer, or enroll an existing reviewer from another journal within a multi-journal installation.
 
@@ -177,7 +177,7 @@ Whereas the production stage is generally initiated after the copyediting stage 
 
 At the production stage you can review, edit, and finalize the information of the manuscript — including key metadata, abstract, category, contributors, chapters, submission type, permissions, the cover image, and identifiers and other metadata — by clicking **Catalog Entry**.
 
-![Screenshot highlighting the location of the Catalog Entry link at the top of the production screen.](./assets/learning-omp_role-specific-workflow_catalog-entry.png)
+![Highlighted the location of the Catalog Entry link at the top of the production screen.](./assets/learning-omp_role-specific-workflow_catalog-entry.png)
 
 You will also upload the publication format(s) in the Production stage. Various book formats including audio, digital, hardback, paperback/softback can be configured, and proofs can be uploaded for auditing and final editorial approval. Publication Formats will be explained in greater detail below.
 
@@ -200,11 +200,11 @@ To add a publication format:
 3. In the box that appears, enter the file name (typically “PDF,” “HTML,” etc.) and fill out the other fields as necessary
 4. When finished click OK
 
-![Image highlighting the "Add publication format" link in the Publication Formats section.](./assets/learning-omp_role-specific-workflow_pub-format.png)
+![Highlighted "Add publication format" link in the Publication Formats section.](./assets/learning-omp_role-specific-workflow_pub-format.png)
 
 Now you will see the publication format listed. It should say it is **Awaiting Approval**.
 
-![Image demonstrating the "Awaiting Approval" status for a newly added format.](./assets/learning-omp_role-specific-workflow_pub-format2.png)
+![The "Awaiting Approval" status for a newly added format.](./assets/learning-omp_role-specific-workflow_pub-format2.png)
 
 To upload the file:
 
@@ -229,7 +229,7 @@ Another option is to create a separate publication format for each chapter, but 
 
 For a manuscript to appear in the public catalog, you must approve the submission's metadata for public display. Each publication format will have a two-step approval process.
 
-![Image showing the "Awaiting Approval" checkbox and "Not Available" checkbox for an unreviewed format.](./assets/learning-omp_role-specific-workflow_pub-format-approve.png)
+![The "Awaiting Approval" checkbox and "Not Available" checkbox for an unreviewed format.](./assets/learning-omp_role-specific-workflow_pub-format-approve.png)
 
 The first checkbox, **Awaiting Approval**, is for editors to sign off when the publication format's metadata is ready for publication.
 
