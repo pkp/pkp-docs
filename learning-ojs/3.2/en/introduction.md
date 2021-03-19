@@ -57,7 +57,7 @@ _AKA "The Dashboard"_
 
 OJS 3.x has a separate interface once you log into the editorial system. This not only makes it easier to customize the reader interface, but also provides OJS users of different journals a consistent experience.
 
-![](./assets/learning-ojs3.2-ed-dashboard.gif)
+![Animated GIF showing the main elements of the OJS dashboard](./assets/learning-ojs3.2-ed-dashboard.gif)
 
 The editorial interface is known as your **dashboard** and consists of the following elements:
 
