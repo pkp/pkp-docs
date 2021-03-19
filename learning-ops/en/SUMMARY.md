@@ -19,7 +19,7 @@
   * [Moderator](./users-roles#moderator)
   * [Author](./users-roles#author)
   * [Reader](./users-roles#reader)
-  * [Permission to Edit Metadata](./users-roles#permissions-to-edit-metadata)
+  * [Permission to Edit Metadata](./users-roles#permission-to-edit-metadata)
 * [Setting Up and Maintaining Your Server](./setup)
   * [Server Settings](./setup#server-settings)
   * [Website Settings](./setup#website-settings)
