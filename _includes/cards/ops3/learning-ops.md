@@ -1,7 +1,7 @@
 
-### [Learning OPS 3](/learning-ops/)
+### [Learning OPS 3](/learning-ops/en/)
 
-A visual, step-by-step guide to managing a preprint server with Open Preprint Systems. [View Now](learning-ops/)
+A visual, step-by-step guide to managing a preprint server with Open Preprint Systems. [View Now](learning-ops/en/)
 
 ---
 
