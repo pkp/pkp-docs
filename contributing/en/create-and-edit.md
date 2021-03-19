@@ -20,7 +20,10 @@ If your edits requires you to replace or add images, see section on Adding/Repla
 
 ## Create a Document
 
-When you create a new document, you need to decided whether to make it a _single page document_ or _multi-page document_, as they are significantly different.
+When you create a new document, you need to decided whether to make it a _single page document_ or _multi-page document_, as they are significantly different. Most guides in the Documentation Hub are multi-page documents, which means that each chapter is a different file. However, some short guides are single-page documents. 
+
+* [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/) is an example of a multi-page document.
+* [Google Scholar Indexing](https://docs.pkp.sfu.ca/google-scholar/en/) is an example of a single-page document.
 
 ### Single Page Docs
 
