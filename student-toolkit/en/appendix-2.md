@@ -6,7 +6,6 @@
 
 ![Part three of an infographic on starting an Open Access journal.](./assets/app-2-oa-infographic-3.png)
 
-An OCR-enabled/searchable PDF version of the above infographic for screen readers, etc. can be found [here](./assets/how-to-start-an-open-access-journal.pdf).
+[OCR-enabled and searchable PDF version of the "How to Start an Open Access Journal" infographic.](./assets/how-to-start-an-open-access-journal.pdf)
 
 Kirchner, A. (2014, July 14). How to start an Open Access journal [blog post]. *Hybrid Publishing Lab*. [http://hybridpublishing.org/2014/07/infographic-how-to-start-an-open-access-journal/](http://hybridpublishing.org/2014/07/infographic-how-to-start-an-open-access-journal/)
-
