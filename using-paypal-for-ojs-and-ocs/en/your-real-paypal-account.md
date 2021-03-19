@@ -8,5 +8,5 @@ First,  you’ll need to change your PayPal API app from Sandbox to Live API. To
 
 Next, you’ll need to update the PayPal information on your OJS distribution setting with live API credentials and unselect ‘Test Mode’
 
-![Screenshot of test payment received in the recent PayPal activity screen.](assets/Paypal-15.png)
+![A test payment received in the recent PayPal activity screen.](assets/Paypal-15.png)
 
