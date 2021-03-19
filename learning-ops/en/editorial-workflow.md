@@ -88,7 +88,7 @@ If enabled, an email is automatically sent to the author when the preprint is po
 
 ![Posted Acknowledgement Email Template](./assets/learning_ops3.3_preprint_posted_acknowledgement_email_template.jpg)
 
-Once the preprint is published, the options to ‘Unpublish’ or ‘Create New Version’ become available. By unpublishing, it’s possible to edit the current version of the preprint without creating a new version, as published preprints can’t be edited while public. Adding a new version will keep the current version as is and create a new record. For more information on versioning, please refer to the [Publish New Versions](./editorial-workflow#versioning) section of this guide below.
+Once the preprint is published, the options to ‘Unpublish’ or ‘Create New Version’ become available. By unpublishing, it’s possible to edit the current version of the preprint without creating a new version, as published preprints can’t be edited while public. Adding a new version will keep the current version as is and create a new record. For more information on versioning, please refer to the [Publishing New Versions](./editorial-workflow#publishing-new-versions) section of this guide below.
 
 ### Preprint Status
 
@@ -108,7 +108,7 @@ Once a DOI has been entered, it will appear publicly on the Preprint abstract pa
 
 ![](./assets/learning-ops-editorial-workflow-abstract-page.png)
 
-## Publish New Versions
+## Publishing New Versions
 
 Versioning is an important feature of preprint servers because it allows researchers to correct, expand, and improve their articles over time. Since preprints can change significantly between versions, it is important to post and clearly identify all versions of a preprint. OPS allows you to post different versions of an article and display all of the versions on the posted article page.
 
