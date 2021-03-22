@@ -6,39 +6,39 @@ To use the PayPal plugin you will need to have a PayPal Website Payments Standar
 
 Go to https://www.paypal.com
 
-![Screenshot of the PayPal.com homepage.](./assets/Paypal-1.png)
+![The PayPal.com homepage.](./assets/Paypal-1.png)
 
 Hit the Sign Up button on the top-right corner of the page. You will need to register for a Paypal Business Account and determine the type of Business Account you need for your journal - Standard or Pro.
 
-![Screenshot of the two business account options available on PayPal: Standard (Free) or Pro (includes customizable site integration for $35/month).](./assets/Paypal-2.png)
+![The two business account options available on PayPal: Standard (Free) or Pro (includes customizable site integration for $35/month).](./assets/Paypal-2.png)
 
 Start by entering the email address you will use for login.
 
-![Screenshot of the PayPal business account email registration field.](./assets/Paypal-3.png)
+![The PayPal business account email registration field.](./assets/Paypal-3.png)
 
 Fill in the fields and save to create your business account.
 
-![Screenshot of the PayPal business account registration screen filled in with sample login and business contact information.](./assets/Paypal-4.png)
+![The PayPal business account registration screen filled in with sample login and business contact information.](./assets/Paypal-4.png)
 
 You will need to enter the type of business from the list provided in the dropbox. This will prompt you to add additional information about your business including Product or Service keyword, estimated total sale, date business was established, and website information. 
 
-![Screenshot of PayPal's dropdown list of business types.](./assets/Paypal-5.png)
+![PayPal's dropdown list of business types.](./assets/Paypal-5.png)
 
 It will then ask you to complete the Account Holder Info.
 
-![Screenshot of the personal details fields from the PayPal business account registration process.](./assets/Paypal-6.png)
+![The personal details fields from the PayPal business account registration process.](./assets/Paypal-6.png)
 
 You should receive an email from Paypal requesting to verify your Paypal account. 
 
-![Screenshot of a verification email from PayPal including a link to confirm the registered email account.](./assets/Paypal-7.png)
+![A verification email from PayPal including a link to confirm the registered email account.](./assets/Paypal-7.png)
 
 Once you have verified your account, you can then set up your payment information in your Account Settings > Business Profile. 
 
-![Screenshot of Settings menu dropdown from the PayPal homepage.](./assets/Paypal-8.png)
+![The Settings menu dropdown from the PayPal homepage.](./assets/Paypal-8.png)
 
 Next, you will want to set up your Instant Payment Notification Preference from your Account Settings > Product & Services > Website Payments > Instant payment notifications > Update.
 
-![Screenshot of the "Edit Instant Payment Notification Settings" screen from PayPal, with a sample journal URL pasted into the URL field.](./assets/Paypal-9.png)
+![The "Edit Instant Payment Notification Settings" screen from PayPal, with a sample journal URL pasted into the URL field.](./assets/Paypal-9.png)
 
 Enter your journal's homepage URL and enable Instant Payment Notification (IPN).
 
@@ -53,7 +53,7 @@ Before we start, let’s clarify the types of accounts, as PayPal's names are a 
 3. In the sandbox sign up, you should give your real information. It is a real account, used to develop the interaction. You will have the option of creating a merchant and personal account.
 4. You will want to create one seller pretend account for your journal and a few pretend accounts for different buyers (journal subscribers, donors, etc). You can also give these accounts bank balances, log-in accounts, etc.
 
-![A screenshot of the "Create Sandbox Account" settings screen from PayPal.](./assets/Paypal-10.png)
+![The "Create Sandbox Account" settings screen from PayPal.](./assets/Paypal-10.png)
 
 5. After you have created each PayPal account, you can easily log in to any one of these PayPal accounts via a menu choice from your sandbox developer accounts, which makes this easy. After you are logged in to your pretend PayPal account, you can do everything a real PayPal user can do. For example, you can verify your PayPal account. (If the site asks for verification, which the real PayPal does by depositing two small transactions into your account, you can provide any dollar amount you wish.)
 
