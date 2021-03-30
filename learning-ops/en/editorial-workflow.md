@@ -23,7 +23,7 @@ This chapter explains the steps in the editorial workflow for Authors, Moderator
 All active and archived (published or declined) submissions for the preprint server will
 appear in the Submissions dashboard.
 
-![Screenshot of OPS submission dashboard as Preprint Manager](./assets/learning-ops3.3-submissions-dashboard.png)
+![The OPS submission dashboard as Preprint Manager](./assets/learning-ops3.3-submissions-dashboard.png)
 
 Which submissions are visible will depend on the role of the logged in user.
 

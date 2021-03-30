@@ -9,9 +9,9 @@ In OJS, the Journal Manager, Journal Editor and Production Editor can upload a c
 
 Most browsers will have several tools that can help you to inspect and test the CSS that is being used in your journal to identify the specific elements you might want to change. 
 
-For example, you can right-click on a part of a webpage (Ctrl+click on Macs), and you should see an option to “Inspect element”. In both Firefox and Chrome, this will bring up a version of “Developer tools” (named differently in each browser), which will allow you to take a closer look at the contents of a page’s HTML and CSS. 
+For example, you can right-click on a part of a webpage (Ctrl+click on Macs), and you should see an option to “Inspect element”. In both Firefox and Chrome, this will bring up a version of “Developer tools” (named differently in each browser), which will allow you to take a closer look at the contents of a page’s HTML and CSS.
 
-For example: 
+For example:
 
 ![](./assets/browser-developer-tools.png)*A screenshot of an OJS website using Firefox developer tools*
 
@@ -64,12 +64,13 @@ To learn more about the Style Editor tool, see [Firefox’s official documentati
 ### Upload your CSS file
 
 To test out your new or modified CSS before uploading it to your live journal, you can:
+
 - Upload it to your Firefox Style Editor
 - Upload it to your OJS sandbox site
 - Upload it to the PKP demo site
 
 When ready to upload your CSS, go to Settings > Website > Appearance > Journal Style Sheet and click **Upload**.
 
-![Screenshot of Journal style sheet upload button in OJS.](./assets/upload-stylesheet.png)
+![The journal style sheet upload button in OJS.](./assets/upload-stylesheet.png)
 
 When you're satisfied with the result, be sure to test your website on several devices, including laptops, tablets and phones, to ensure that you are happy with the way it looks no matter how your users access the journal's website.

@@ -64,7 +64,7 @@ Once you have the valid XML import file, you can import it:
 4. Click Import
 5. You will be notified of any errors, or if the import was successful.
 
-![Screenshot of XML file upload screen.](./assets/native-xml-plugin.png)
+![The XML file upload screen.](./assets/native-xml-plugin.png)
 
 To export article and issue metadata using the Native XML Plugin:
 
@@ -119,7 +119,7 @@ Once you have the valid XML import file, you can import it:
 4. Click Import Users
 5. You will be notified of any errors, or if the import was successful.
 
-![Screenshot of Users XML Plugin file uploader for importing users.](./assets/users-xml-plugin-import.png)
+![The Users XML Plugin file uploader for importing users.](./assets/users-xml-plugin-import.png)
 
 To export user accounts using the Users XML Plugin:
 
@@ -129,7 +129,7 @@ To export user accounts using the Users XML Plugin:
 4. Click Export Users
 5. The user accounts will be exported in XML format, and can be imported to this or another journal
 
-![Screenshot of Export Users tab under Users XML Plugin.](./assets/users-xml-plugin-export.png)
+![The Export Users tab under Users XML Plugin.](./assets/users-xml-plugin-export.png)
 
 ### Export users to CSV
 

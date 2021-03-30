@@ -48,7 +48,7 @@ Multiple sections can be created and multiple moderators can be assigned to each
 
 Instructions on how to create, edit, and manage sections is in [Learning OJS 3](/learning-ojs/en/journal-setup#sections).
 
-![Screenshot of the Create Section Window](./assets/learning-ops3.3-server-settings-create-section.png)
+![The Create Section Window](./assets/learning-ops3.3-server-settings-create-section.png)
 
 ### Categories
 
@@ -56,7 +56,7 @@ This area allows for the creation and management of categories, which is another
 
 Instructions on how to create, edit, and manage categories is in [Learning OJS 3](/learning-ojs/en/journal-setup#categories). Here’s an example of what adding a new category looks like:
 
-![Screenshot of the Create Category Window](./assets/learning-ops3.3-server-settings-add-category.png)
+![The Create Category Window](./assets/learning-ops3.3-server-settings-add-category.png)
 
 Another difference between sections and categories is the ability of having sub-categories associated to a parent category, as seen below:
 

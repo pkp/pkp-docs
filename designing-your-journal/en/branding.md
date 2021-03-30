@@ -155,28 +155,28 @@ The Home page image is the large feature image on the homepage on some themes, s
 * images with a larger width than height.
 
 <figure>
-    <img src="./assets/splash-image-dont.png" alt="Image where an oversized issue cover image has been set as the homepage image, taking up an excessive amount of space. The image is marked with a red X.">
+    <img src="./assets/splash-image-dont.png" alt="An oversized issue cover image which has been set as the homepage image, taking up an excessive amount of space. The image is marked with a red X.">
     <figcaption>The home page image should not be used for issue covers -- there is a space dedicated to this in an issue’s metadata. It is also much taller than it is wide: your readers will have to scroll before seeing your latest announcements or issue’s table of contents.</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/splash-image-dont-mobile.png" alt="Image showing the previous oversized image on a mobile display, marked with a red X.">
+    <img src="./assets/splash-image-dont-mobile.png" alt="The previous oversized image on a mobile display, marked with a red X.">
     <figcaption>Image sizing issues are magnified on mobile devices; the reader has to scroll even more. This may cause them to navigate away from your website before reading your journal’s content.</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/splash-image-dont-2.png" alt="Image of a properly sized homepage image, marked with a red X.">
+    <img src="./assets/splash-image-dont-2.png" alt="A properly sized homepage image, marked with a red X.">
     <figcaption>Original image dimensions are too small - less than 1000 pixels wide. Used as a cover or home page image, it stretches out and becomes blurry or pixelated.</figcaption>
 </figure>
 
 <br/>
 
 <figure>
-    <img src="./assets/splash-image-do.png"  alt="Image showing a properly sized homepage image, marked with a green check.">
+    <img src="./assets/splash-image-do.png"  alt="A properly sized homepage image, marked with a green check.">
     <figcaption>The image is much wider than it is tall, giving readers a better idea of the journal’s text content “above the fold” (before the reader has to scroll to see the rest of the page). A high-quality and larger (over 1200 pixels wide) PNG image looks more polished and translates well on most screens, from mobile devices to desktop HD monitors.</figcaption>
 </figure>
 
@@ -227,7 +227,7 @@ The size and manner in which images are displayed can be altered by uploading a 
 
 In OMP you can configure the size of your book cover thumbnails under Website Settings > Appearance.
 
-![Screenshot of OMP cover thumbnail dimension setting screen.](./assets/cover-thumbnails.png)
+![The OMP cover thumbnail dimension setting screen.](./assets/cover-thumbnails.png)
 
 ### Resizing images
 

@@ -94,7 +94,7 @@ Submissions can also be disabled for individual sections. This can be done in in
 
 You can check off "Will not be included in the indexing of the journal" for sections that contain front matter, back matter, and anything else that might clutter the search index unnecessarily.
 
-![Screenshot of window for entering Word Count, Review Form, and Section Options.](./assets/learning-ojs3.3-section-options.png)
+![A window for entering Word Count, Review Form, and Section Options.](./assets/learning-ojs3.3-section-options.png)
 
 **Identify items published in this section as a\(n\)**: This is used by some systems. Note that it is not a required field.
 
@@ -106,7 +106,7 @@ Hit the **Save** button to save your changes and return to the Sections page.
 
 From the sections page, select the Create Section link to open a blank window, exactly the same as the window used for editing a section described above.
 
-![Screenshot of new window for entering section information in text fields and selecting section options.](./assets/learning-ojs-3.2-settings-website-settings-sections-create.png)
+![A new window for entering section information in text fields and selecting section options.](./assets/learning-ojs-3.2-settings-website-settings-sections-create.png)
 
 Fill in the details and hit Save to record your work.
 
@@ -114,7 +114,7 @@ Fill in the details and hit Save to record your work.
 
 Each section allows to restrict submissions by checking the "Items can only be submitted by Editors and Section Editors" checkbox.
 
-![Screenshot of list of options for restricting a section. Items can be selected from list by checking the box to the left of the item.](./assets/learning-ojs3.2-jm-settings-journal-sections-restrict.png)
+![The list of options for restricting a section. Items can be selected from list by checking the box to the left of the item.](./assets/learning-ojs3.2-jm-settings-journal-sections-restrict.png)
 
 If this checkbox is checked for all sections, authors will not be able to submit to the journals. Authors who select New Submission from their dashboards will now see the message "This journal is not accepting submissions at this time."
 
@@ -124,7 +124,7 @@ If this checkbox is checked for all sections, authors will not be able to submit
 
 When you have more than one section created, you will see an Order link. Use that to reorder how those sections display on your journal website.
 
-![Screenshot of list of available sections from top to bottom of page in OJS dashboard.](./assets/learning-ojs3.2-jm-settings-journal-sections-order.png)
+![A list of available sections from top to bottom of page in OJS dashboard.](./assets/learning-ojs3.2-jm-settings-journal-sections-order.png)
 
 Hit the **Done** button when you are finished.
 
@@ -144,7 +144,7 @@ To create a new category:
 * Optionally add an image which will appear at the top of the category’s page
 * Click Save
 
-![Screenshot of new window for entering category information in text fields and selecting category options.](./assets/learning-ojs3.1-create-category.png)
+![A new window for entering category information in text fields and selecting category options.](./assets/learning-ojs3.1-create-category.png)
 
 To edit a category:
 

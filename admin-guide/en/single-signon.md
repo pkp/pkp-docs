@@ -23,7 +23,7 @@ The title for your LDAP setup is arbitrary; leave it as is or choose your own ti
 
 The next set of settings configures OJS/OCS to allow communication with the LDAP server.
 
-![Screenshot of LDAP settings fields OJS.](./assets/LdapSettings.png)
+![The LDAP settings fields OJS.](./assets/LdapSettings.png)
 
 * *Server hostname*. The domain/IP address of the server that hosts the LDAP source. If OJS/OCS is running on the same server as LDAP, you can enter `localhost`.
 * *Server port*. If LDAP is running on a non-standard port, enter the number here. Leave it blank if you're not sure.
