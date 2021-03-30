@@ -214,7 +214,7 @@ If your press will be sending proofs to the author for approval, you can use the
 
 The Publication tab allows you to edit or add information about the submission, including contributors, metadata, and identifiers for the final publication. It is also where you will upload the final publication files for publication in the Press.
 
-![Highlighted location of Contributors and Metadata in the Publicaton tab.](./assets/learning-omp3.2-workflow-production-meta.png)
+![Highlighted location of Contributors and Metadata in the Publication tab.](./assets/learning-omp3.2-workflow-production-meta.png)
 
 __Title & Abstract__: Use this tab to edit the book title, subtitle, and abstract.
 If any changes are made, click Save before exiting this window.
