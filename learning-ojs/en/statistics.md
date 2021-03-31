@@ -103,7 +103,7 @@ This report provides granular data on monthly views for the journal homepage, is
 
 **Example Data \(slightly edited for clarity\):**
 
-
+***
 | **ID** | **Type** | **Title** | **Issue** | **Journal** | **Country** | **Month** | **Count** |
 | --- | --- | --- | --- |
 | 1 | Journal | Canadian Journal of Communication | CJC | CA | 201502 | 1678 |  |
