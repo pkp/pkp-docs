@@ -8,7 +8,7 @@ We use [Travis CI](https://travis-ci.com) for Continuous Integration (CI) testin
 
 CI tests are configured to run the tests against multiple PHP versions and databases. The configuration details are stored in the `.travis.yml` file in the application's root directory.
 
-![Screenshot of OJS test result in Travis.](./travis-overview.png)
+![OJS test results in Travis.](./travis-overview.png)
 
 View the tests for [OJS](https://travis-ci.com/pkp/ojs/), [OMP](https://travis-ci.com/pkp/omp/) and [OPS](https://travis-ci.com/pkp/ops/).
 
@@ -16,7 +16,7 @@ View the tests for [OJS](https://travis-ci.com/pkp/ojs/), [OMP](https://travis-c
 
 Travis will run tests against every pull request to OJS or OMP. The tests are listed in the checks at the bottom of the pull request.
 
-![Screenshot of Travis check in the pull request.](./travis-pr.png)
+![A Travis check in the pull request.](./travis-pr.png)
 
 Click the **Details** link beside the Travis tests to watch the tests as they run and see which tests have passed or failed. All tests must pass before a pull request will be merged.
 

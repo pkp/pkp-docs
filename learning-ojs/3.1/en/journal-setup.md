@@ -96,7 +96,7 @@ Hit the **Save** button to save your changes and return to the Sections page.
 
 From the sections page, select the Create Section link to open a blank window, exactly the same as the window used for editing a section described above.
 
-![Screenshot of new window for entering section information in text fields and selecting section options.](./assets/learning-ojs-3-settings-website-settings-sections-create.png)
+![A new window for entering section information in text fields and selecting section options.](./assets/learning-ojs-3-settings-website-settings-sections-create.png)
 
 Fill in the details and hit Save to record your work.
 
@@ -104,28 +104,30 @@ Fill in the details and hit Save to record your work.
 
 Each section allows to restrict submissions by checking the "Items can only be submitted by Editors and Section Editors" checkbox.
 
-![Screenshot of list of options for restricting a section. Items can be selected from list by checking the box to the left of the item.](./assets/learning-ojs3.1-jm-settings-journal-sections-restrict.png)
+![The list of options for restricting a section. Items can be selected from list by checking the box to the left of the item.](./assets/learning-ojs3.1-jm-settings-journal-sections-restrict.png)
 
 If this checkbox is checked for all sections, authors will not be able to submit to the journals. Authors who select New Submission from their dashboards will now see the message "This journal is not accepting submissions at this time."
 
-![[Screenshot example of message displayed on a journal New Submission page.](./assets/learning-ojs3.1-jm-settings-journal-not-accepting-submissions.png)
+![An example of the message displayed on a journal New Submission page.](./assets/learning-ojs3.1-jm-settings-journal-not-accepting-submissions.png)
 
 ### Order Sections
 
 When you have more than one section created, you will see an Order link. Use that to reorder how those sections display on your journal website.
 
-![Screenshot of list of available sections from top to bottom of page in OJS dashboard.](./assets/learning-ojs3.1-jm-settings-journal-sections-order.png)
+![A list of available sections from top to bottom of page in OJS dashboard.](./assets/learning-ojs3.1-jm-settings-journal-sections-order.png)
 
 Hit the **Done** button when you are finished.
 
 <hr />
 
 ## Categories
+
 In OJS 3.1.2 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production section of the Editorial Settings chapter](./editorial-workflow.md#production). This section explains how to create and edit categories.
 
 ![OJS dashboard view of Journal Settings submenu Categories with links for Order and Add a Category and editable list of current categories.](./assets/learning-ojs3.1-categories-menu.png)
 
 To create a new category:
+
 * Click Add Category
 * Enter a name for your category that will be displayed to readers
 * Enter a path for the category’s URL on your site
@@ -134,14 +136,16 @@ To create a new category:
 * Optionally add an image which will appear at the top of the category’s page
 * Click Save
 
-![Screenshot of new window for entering category information in text fields and selecting category options.](./assets/learning-ojs3.1-create-category.png)
+![A new window for entering category information in text fields and selecting category options.](./assets/learning-ojs3.1-create-category.png)
 
 To edit a category:
+
 * Click the name of the category you want to edit
 * Make the changes
 * Click OK
 
 To remove a category:
+
 * Click the blue arrow next to the category you want to remove
 * Click the Remove button that appears below
 * Confirm that you want to remove the category

@@ -122,7 +122,7 @@ Text colour against the background may appear as sufficiently distinct to a sigh
 
 You can use [WebAim’s Contrast Checker](https://webaim.org/resources/contrastchecker/), [Contrast Ratio Checker](https://contrast-ratio.com/), or the [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) to check the contrast ratio between your website’s background and text colours. Here is an example of a check done using [WebAim’s Contrast Checker](https://webaim.org/resources/contrastchecker/):
 
-![Screenshot of WebAim's Colour Contrast Checker interface.](./assets/1_a11y-guide-webaim-contrast-checker.png)
+![WebAim's Colour Contrast Checker interface.](./assets/1_a11y-guide-webaim-contrast-checker.png)
 
 *Example of WebAim's Colour Contrast Checker interface options*
 
@@ -213,7 +213,7 @@ Other editors will typically follow the same concept of heading ranking and nest
 
 The following image shows the heading options for Google Docs:
 
-![Screenshot of heading options in Google Doc.](./assets/7_a11y-guide-headings-doc.png)
+![The heading options in Google Doc.](./assets/7_a11y-guide-headings-doc.png)
 
 The heading hierarchy for documents on text editors should follow the same concept of rank level for HTML documents:
 

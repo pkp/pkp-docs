@@ -4,7 +4,7 @@ Theme options allow you to offer theme-specific configuration settings. They are
 
 Options added to a theme will appear under the theme selection in the Settings > Website > Appearance > Theme  section.
 
-![Screenshot of theme options in backend](theme-options.png)
+![Theme options in the OJS backend](theme-options.png)
 
 ## Add a theme option
 

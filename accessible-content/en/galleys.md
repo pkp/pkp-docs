@@ -47,11 +47,11 @@ The method you choose to export your Word Document to PDF will affect the preser
 
 Export your Word Document by using “Create PDF” from a file in Adobe Acrobat Pro. Open Adobe Acrobat Pro > File > Create > PDF from File > Select desired document to convert.
 
-![Screenshot of Acrobat Pro DC menu option to create PDF from file.](./assets/9_a11y-guide-create-pdf-pro1.png)
+![The Acrobat Pro DC menu option to create PDF from file.](./assets/9_a11y-guide-create-pdf-pro1.png)
 
 If you are creating a document via the Acrobat Tab in MS Office, make sure that **Enable Accessibility and Reflow with tagged Adobe PDF** is checked.
 
-![Screenshot of Acrobat PDFMaker with the checked checkbox to Enable Accessibility and Reflow with tagged Adobe PDF](./assets/10_a11y-guide-create-pdf-pro2.png)
+![The Acrobat PDFMaker with the checked checkbox to Enable Accessibility and Reflow with tagged Adobe PDF](./assets/10_a11y-guide-create-pdf-pro2.png)
 
 ##### Next Best Method (does not require Adobe Acrobat Pro)
 
@@ -61,13 +61,13 @@ On Windows:
 Select **File > Save As**. Select “PDF” from the list of drop-down files.
 Click “Options” and make sure **“Document structure tags for accessibility”** is checked, then save the file.
 
-![Screenshot of MS Word on Windows file save option with the checked checkbox Document structure tags for accessibility](./assets/11_a11y-guide-saveas-pdf1.png)
+![The MS Word on Windows file save option with the checked checkbox Document structure tags for accessibility](./assets/11_a11y-guide-saveas-pdf1.png)
 
 On Mac:
 Open the **File** application menu and select **Save As…**
 Under **File Format**, select “PDF”. Then choose the **Best for electronic distribution and accessibility** (**uses Microsoft online service**) radio button, then **Export**.
 
-![Screenshot of the MS Word on Mac file save option in PDF with the checked checkbox Best for electronic distribution and accessibility](./assets/12_a11y-guide-saveas-pdf2.png)
+![The MS Word on Mac file save option in PDF with the checked checkbox Best for electronic distribution and accessibility](./assets/12_a11y-guide-saveas-pdf2.png)
 
 **IMPORTANT**: **never “Print to PDF”** when exporting a Word Document to PDF. A screen reader user may still be able to access the text of a PDF created in this way, but heading structure, alternative text, and any other tag structure will be lost.
 

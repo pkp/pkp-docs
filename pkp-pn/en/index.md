@@ -37,7 +37,7 @@ To configure the plugin, you will need to be logged in as the Administrator.
 5. Once the plugin has been updated or enabled, click Settings to review and accept the terms of use. The Journal Identifier will automatically be populated.
 6. Click Save
 
-![Image of PKP PN Plugin Screen with Terms of Use checkboxes filled in, automatically populated Journal Identifier field, and Save button](./assets/pkp-pn-terms.png)
+![The PKP PN Plugin Screen with Terms of Use checkboxes filled in, automatically populated Journal Identifier field, and Save button](./assets/pkp-pn-terms.png)
 
 ## Using the Plugin
 
@@ -64,13 +64,13 @@ The reset option for the issue deposit will repackage and send the files to the 
 
 To check the status of the PKP PN plugin, click the blue arrow beside the plugin title followed by Status.
 
-![Image of PKP PN Plugin menu expanded on the Plugin Gallery screen, with an arrow pointing to the Status link](./assets/pkp-pn-status-button.png)
+![The PKP PN Plugin menu expanded on the Plugin Gallery screen, with an arrow pointing to the Status link](./assets/pkp-pn-status-button.png)
 
 The key thing to look for in the PKP PN status page would be the LOCKSS status column. If the preservation of an issue is successful, the LOCKSS status will indicate “**Agreement**,” meaning the whole network agrees that there is a consistent copy of the issue archived.
 
 The status menu will identify the type, type object ID, number of items checked, and various statuses.
 
-![Image of PKP PN Plugin Status screen demonstrating LOCKSS Status parameters for several issues](./assets/pkp-pn-status-menu.png)
+![The PKP PN Plugin Status screen demonstrating LOCKSS Status parameters for several issues](./assets/pkp-pn-status-menu.png)
 
 * **ID**: The deposit's internal database identifier.
 * **Type**: Whether the deposit is an issue or an article. At the moment, only issues are being packaged. Each issue is exported and stored as a zipped Bag. The bag has information about the journal (journal title, ISSN, etc.) and copyright and licensing information about each article in the issue.
@@ -117,7 +117,7 @@ If you want to cease depositing your content in the PKP PN, simply disable the p
 
 ### I’ve enabled the plugin and the Terms of Use aren’t showing up after I click refresh
 
-![Image of an example of Terms of Use not displaying in the PKP PN Plugin setup screen.](./assets/pkp-pn-refresh-terms.png)
+![An example of Terms of Use not displaying in the PKP PN Plugin setup screen.](./assets/pkp-pn-refresh-terms.png)
 
 Check to see that an ISSN has been entered in your [Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead). Once this information is in your journal, it will list the Terms of Use.
 

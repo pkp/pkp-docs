@@ -40,11 +40,11 @@ Por defecto, Open Journal Systems se instala con una interfaz de usuario muy sim
 
 La siguiente imagen es una captura de pantalla de un Índice de la revista de Demostración de OJS.
 
-![screenshot of an Index of the OJS Demonstration magazine](./assets/image5.png)
+![An Index of the OJS Demonstration magazine](./assets/image5.png)
 
 Puedes ver en la captura de pantalla que las funciones de usuario ahora existen en el menú de tu perfil en la parte superior derecha de la pantalla. Esto aleja el contenido de gestión en OJS 3.x de la vista general del usuario. La información de la barra lateral está claramente desglosada, así como la barra de navegación superior con menús plegables para las funciones "Acerca de". Al igual que OJS 2, cada artículo tiene un título enlazado para ver los metadatos y resúmenes de los objetos, y ahora las galerías están claramente etiquetadas debajo de los títulos con logotipos más claros.
 
-## Interfaz Editorial 
+## Interfaz Editorial
 
 _alias El Tablero_
 

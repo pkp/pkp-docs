@@ -102,7 +102,7 @@ For example, citation count in Web of Science citation counts are limited to tho
 For the same example, Google Scholar returns a higher citation count because the index is more inclusive, and also represents non-journal citations.
 
 ![Web of Science formula](assets/chapter2/google-scholar-citation.png)
-*Screenshot of article result from Google Scholar*
+*An article result from Google Scholar*
 
 #### Article Influence score
 

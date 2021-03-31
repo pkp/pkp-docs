@@ -79,30 +79,29 @@ There are 3 places in OJS where you can add the above information, depending on 
 Enter this information under **Settings > Distribution > License**.
 For additional details about this section see  [Learning OJS 3: Distributions Settings - License](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#license).
 
-![Screenshot of OJS 3.2 Distribution Settings.](./assets/journal-policies-distribution-settings.png
-)
+![The OJS 3.2 Distribution Settings.](./assets/journal-policies-distribution-settings.png)
 
 The above information will be automatically displayed on each article page:
 
-![Screenshot of display of licensing information in OJS 3 public interface.](./assets/journal-policies-published-copyright-notice.png)
+![The display of licensing information in OJS 3 public interface.](./assets/journal-policies-published-copyright-notice.png)
 
 If your journal distributes articles under different licenses, you will be able to override the above information per article in the Permissions & Disclosure section of the Publication tab:
 
-![Screenshot of display of Permissions & Disclosure settings in OJS 3.2](./assets/journal-policies-published-copyright-notice.png)
+![The display of Permissions & Disclosure settings in OJS 3.2](./assets/journal-policies-published-copyright-notice.png)
 
 **2: Add the copyright notice for authors to accept during submission and display in Author Guidelines.**
 
 This statement can be added in **Settings > Workflow > Submission > Author Guidelines > Copyright Notice.**
 
-![Screenshot of display of Permissions & Disclosure settings in OJS 3.2](./assets/journal-policies-published-copyright-notice.png)
+![The display of Permissions & Disclosure settings in OJS 3.2](./assets/journal-policies-published-copyright-notice.png)
 
 The statement will appear publicly on the Author Guidelines page to inform potential authors of the terms they will be agreeing to:
 
-![Screenshot of Author Guidelines setting in OJS 3.2](./assets/journal-policies-copyright-notice-guidelines.png)
+![The Author Guidelines setting in OJS 3.2](./assets/journal-policies-copyright-notice-guidelines.png)
 
 A checkbox to agree to this statement will be presented to the author to accept during submission:
 
-![Screenshot of copyright statement acknowledgement in OJS 3.2](./assets/journal-policies-agree-copyright-statement.png)
+![The copyright statement acknowledgement in OJS 3.2](./assets/journal-policies-agree-copyright-statement.png)
 
 Depending on the jurisdiction, a copyright transfer may need to be formally signed whereas a license may or may not require a signature. In North America it is sufficient for the author to accept the license by agreeing to publish with the journal.
 
@@ -110,6 +109,6 @@ Depending on the jurisdiction, a copyright transfer may need to be formally sign
 
 It is important to display copyright and licensing information on the article document itself, so anyone who may read, save or share it would still know how it can be used.
 
-![Screenshot of Creative Commons License source information in PDF Galley](./assets/journal-policies-agree-copyright-statement.png)
+![The Creative Commons License source information in a PDF Galley](./assets/journal-policies-agree-copyright-statement.png)
 
 Source: McCormick, A., Adams, S. A., Dunbar, H., & Mclean-Plunkett, S. (2020). Teaching Copyright Law through Participatory Involvement in an Unconference Setting. *Journal of Copyright in Education & Librarianship*, 4(1). [https://doi.org/10.17161/jcel.v4i1.13283](https://doi.org/10.17161/jcel.v4i1.13283)

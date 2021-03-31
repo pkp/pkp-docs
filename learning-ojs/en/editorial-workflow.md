@@ -104,7 +104,7 @@ This section includes a list of all submissions, without being organized into qu
 
 This section includes a list of all submissions either declined or already published by the journal. Declined submissions may be deleted from the list of archived submissions. Deleting a declined submission will completely remove the submission and all submission files from your journal.
 
-![Screenshot of the list of archived submissions with the option to delete submissions.](./assets/ojs-3.3-sub-delete.png)
+![The list of archived submissions with the option to delete submissions.](./assets/ojs-3.3-sub-delete.png)
 
 ### Demonstration Submission
 
@@ -165,7 +165,7 @@ Use the Notes tab to also view or add any editorial notes.
 
 **Preview**:  See how the submission will look when published with its current metadata and Galley files by clicking Preview.
 
-![Screenshot of Preview feature that shows how an article will look when published](./assets/learning-ojs-3-ed-preview.png)
+![The preview feature that shows how an article will look when published](./assets/learning-ojs-3-ed-preview.png)
 
 **Metadata**: Where you can view and revise the submission metadata. In OJS 3.2 and later, users can be granted permission to revise certain submission metadata at any stage of the workflow.
 
@@ -637,7 +637,7 @@ Outside of OJS, they will do the copyediting work.
 
 To check the submission metadata, click from the Workflow tab to the Production tab.
 
-![Screenshot of article record's Publication tab with metadata fields](./assets/learning-ojs-3-ce-copyediting-metadata.png)
+![An article record's Publication tab with metadata fields](./assets/learning-ojs-3-ce-copyediting-metadata.png)
 
 This would include checking the article title, abstract, contributor names, keywords, etc.
 

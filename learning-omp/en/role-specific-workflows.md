@@ -58,7 +58,7 @@ Press **Complete** followed by **Save and Continue**.
 
 You will need to enter the following metadata regarding your manuscript. Items marked with the red asterisk are a mandatory part of the submission.
 
-![Image of the metadata form under the Catalog tab of the submission process.](./assets/learning-omp_role-specific-workflow_auth-subm-5.png)
+![The metadata form under the Catalog tab of the submission process.](./assets/learning-omp_role-specific-workflow_auth-subm-5.png)
 
 Enter your manuscript’s Title, Subtitle, Abstract, List of Contributors, Chapters, Additional Refinements Subjects, and Keywords as applicable.
 
@@ -154,12 +154,13 @@ All author, reviewer, and editor revision files are available from the Revisions
 Once all the reviews are in, you must make a decision on the submission. You may select one of the following:
 
 * Request Revisions, in which case the author will be able to modify their submission information and/or upload revised submission files
-* Decline Submission, at which point the submission will be archived and the author notified. A declined submission can be reverted 
+* Decline Submission, at which point the submission will be archived and the author notified. A declined submission can be reverted
 * Accept Submission, at which point the submission will enter the Editorial stage
 
 These selections are found on the right panel in the Internal Review menu.
 
 #### Reversing a declined decision
+
 OMP 3.3 allows Press Editors to to reverse a declined decision in the submission and review stages. After a declined decision is reverted, the submission is restored to its previous stage and review round if active. 
 
 ## Copyediting Workflow
@@ -338,6 +339,7 @@ __Audience Range Qualifier__
 __Audience Range__
 
 ##### Additional Resources
+
 * [How do Audience / Subject / Audience Range work together to help librarians and other professionals select products?](https://booknetcanada.atlassian.net/wiki/spaces/UserDocs/pages/16449595/How+do+Audience+Subject+Audience+Range+work+together+to+help+librarians+and+other+professionals+select+products)
 * [ONIX](https://booknetcanada.atlassian.net/wiki/spaces/UserDocs/pages/1378909/ONIX)
 * [Thema Basics: Subject Categories, Qualifier Codes, National Qualifier Lists](https://booknetcanada.atlassian.net/wiki/spaces/UserDocs/pages/8257659/Thema+Basics+Subject+Categories+Qualifier+Codes+National+Qualifier+Lists#ThemaBasics:SubjectCategories,QualifierCodes,NationalQualifierLists-SubjectCategoriesvsQualifierCodes)
@@ -357,7 +359,6 @@ In order to save you will need to fill all the required fields (marked with an a
 To edit or delete a representative, click the blue arrow beside the name.
 
 ![The representatives list with expanded options menu including edit/delete options.](./assets/learning-omp3.2-workflow-production-representative-3.png)
-
 
 #### Publication Dates
 
