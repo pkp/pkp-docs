@@ -147,6 +147,21 @@ php tools/upgrade.php upgrade
 
 All contributions should be written in a branch and pushed to your fork. Then open a [Pull Request](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork) to PKP's repository.
 
+For code that is intended for inclusion in the main codebase:
+- New features are best contributed to the `main` branch for inclusion in the next major release. Bug fixes are best contributed to the latest stable branch (e.g. `stable-3_3_0` for 3.3.0).
+- The design patterns used in PKP software should be understood and followed when possible. This includes:
+  - Localization standards
+  - Security practices (checking database IDs, avoiding cross-site scripting attacks, etc)
+  - Maintenance considerations (please include upgrade and installation scripts when required)
+  - Code formatting, variable naming, and stylistic conventions
+- Contributors are responsible for writing code compatible with the primary platforms listed in docs/README.md.
+- When contributed changes may affect more than one application, we request that all major applications be considered (OJS, OMP, and OPS).
+- The development team is happy to review contributed patches, but we have a limited amount of time to spend integrating patches with the codebase or modifying contributed code. If aspects of the code need work, we would rather inform the author and have them perform the modifications.
+
+For contributions that are distributed separately as patches or plugins:
+- If contributors haven't met the conditions above, they are welcome to distribute additional features as patches or plugins. However, the PKP team won't be able to provide support in this case.
+- If the option is available, coding a feature as a plugin is the preferred method.
+
 ---
 
 Now that you're up and running, learn more about the [application architecture](./architecture).
