@@ -229,20 +229,6 @@ Many open indexes are also more willing to include content from new journals, pl
 
 Like commercial indexes, open indexes are also looking for high-quality content, peer review, compatible subject matter, and evidence of stability and sustainability. Some, however, may be willing to accept submissions from new journals lacking an established history of publication. If you do not know the best open indexes for your journal, contact your library. They will be able to guide you in the appropriate direction.
 
-### PKP Index
-
-> Contributed by Andrea Pritt
-
-The [Public Knowledge Project Index (PKP Index)](https://index.pkp.sfu.ca) is an openly available database of articles, books, and conference proceedings based on journals or other publications that use PKP’s Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Conference Systems (OCS) software applications. The PKP Index uses the Open Harvester System (OHS) software and hosts thousands of publications. It is not subject specific. The PKP Index is a good choice for your first index and is one way that you can increase the visibility of your journal.
-
-In order to be included within the PKP Index, your journal must include at least one published item.  Tests, demonstrations, and empty installations will be rejected. You’ll need to wait until you’ve started publishing before you can sign up. This will be true of most indexes.
-
-#### Registering for the PKP Index
-
-To register for the PKP Index, go to the [registration page for the PKP Index](http://index.pkp.sfu.ca/index.php/user/register), follow the instructions, and ensure that you adhere to the requirements noted on the registration page.
-
-Processing the registration might take a few days to a week or so, as PKP staff approve the registrations. Check back after a short time, and click on “Browse” to see an alphabetical listing of all publications that are included in the PKP Index and you should see your publication appear. Future issues will be automatically included in the PKP Index; no further action is required on your part.
-
 ### Directory of Open Access Journals (DOAJ)
 
 > Contributed by Andrea Pritt
@@ -295,7 +281,7 @@ A knowledge base in the context of electronic resource management refers to a da
 
 Knowledge bases and link resolvers, journal title lists, and discovery tools may be more or less interoperable, and may be open source projects, but are more frequently developed and maintained by commercial service providers. In either event, representation of title-level metadata in a knowledge base is prerequisite to link resolving, presence in user-facing journal lists, and indexing in discovery tools such as[Summon](https://www.proquest.com/products-services/The-Summon-Service.html), [EBSCO discovery service](https://www.ebscohost.com/discovery), and [Primo](http://www.exlibrisgroup.com/products/primo-library-discovery/).
 
-Frequently, participation in open indexes such as the PKP Index or the DOAJ (as detailed above) will also achieve representation even in commercial knowledge bases, which often seek to include Open Access materials as value-added resources. However, the completeness and currency of open access title lists in knowledge bases varies, and it may be necessary to contact a knowledge base provider to request inclusion or an update to a title list that should include a journal but does not.
+Frequently, participation in open indexes such as the DOAJ (as detailed above) will also achieve representation even in commercial knowledge bases, which often seek to include Open Access materials as value-added resources. However, the completeness and currency of open access title lists in knowledge bases varies, and it may be necessary to contact a knowledge base provider to request inclusion or an update to a title list that should include a journal but does not.
 
 ## Commercial indexes and aggregators
 
