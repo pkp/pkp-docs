@@ -55,7 +55,6 @@ Directories are lists of organizations or publications. Most are lists of journa
     * Library Publishing Coalition’s [guide to the DOAJ application](https://docs.google.com/document/d/1x1_JRbqX36wqSw7FlMiAqmAhrOzRW-q__XiEa4tvVdY/edit)
     * [DOAJ application guide for OJS journals](/doaj/)
 * [UlrichsWeb Periodicals](http://www.ulrichsweb.com/ulrichsweb/faqs.asp#Updating_Ulrichs)
-* [PKP Index](https://index.pkp.sfu.ca/index.php/user/register)
 
 ### Library catalogues
 
