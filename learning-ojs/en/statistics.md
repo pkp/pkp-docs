@@ -7,8 +7,7 @@ version: 3.3
 
 The statistics features of OJS allow you to view different numbers pertaining to the activity, access, and downloads of various aspects of your site, including article and abstract views, subscription activity, editorial and review activity, and user counts separate by role. There is also a Report Generator section for producing various reports from some of the available data.
 
-This section will describe the statistics report/visualization tools available in OJS and how to use them. If you are interested in how to manage statistics as a systems administrator, including configuring the statistics framework, managing legacy statistics and statistics in OJS 2, and troubleshooting statistics, please view [the PKP Administrator’s Guide’s documentation on statistics](https://docs.pkp.sfu.ca/admin-guide/en/statistics). 
-
+This section will describe the statistics report/visualization tools available in OJS and how to use them. If you are interested in how to manage statistics as a systems administrator, including configuring the statistics framework, managing legacy statistics and statistics in OJS 2, and troubleshooting statistics, please view [the PKP Administrator’s Guide’s documentation on statistics](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
 
 ## Definitions
 
@@ -20,7 +19,6 @@ The following definitions may be helpful to you for understanding the variety of
 * **Multi-clicks:** the process \(accidental or nefarious\) of increasing usage counts by clicking on an abstract page or galley file multiple times in quick succession. OJS identifies and removes these attempts from its usage metrics, as per the Project COUNTER Code of Practice.
 * **Project COUNTER Code of Practice:** a set of practices developed by COUNTER to establish a means to report on usage metrics for electronic resources in a consistent way. The Code provides rules on what should be counted as a view, including specific rules for robot usage and multi-click abuse. OJS filters metrics through these rules. It should also be noted that PKP is part of the COUNTER Bots and Crawlers Working Group.
 * **Robots, crawlers, bots:** nonhuman site visitors who may still view and download article data. These are usually identified as such to the server, and OJS does not count them in its usage metrics, as per the Project COUNTER Code of Practice.
-
 
 ## Articles
 
@@ -48,14 +46,14 @@ You also have the option of searching the statistics of a specific article by ti
 
 ![The search bar for locating specific article statistics.](./assets/article-details-search.png)
 
-
-## Editorial Activity 
+## Editorial Activity
 
 This section provides statistics about the editorial workflow, such as number of submissions received, days to first editorial decision, and acceptance and rejection rates. You can filter these statistics using a custom date range to, e.g., find the number of articles accepted during a 12-month period.
 
 ![Sample of editorial statistics.](./assets/editorial-activity.png)
 
 There are some important things to note when considering the data in these reports:
+
 * Published submissions within a date range only count the initial publication date and not subsequent versions.
 * Days to decision uses an 80% threshold, so the data listed represent that 80% of submissions with a decision have received one within X number of days.
 * The acceptance and decline rates only count submissions that have received an accept/decline decision, so they exclude submissions still in the queue.
@@ -63,15 +61,14 @@ There are some important things to note when considering the data in these repor
 
 An Editorial Activity Report will be generated monthly and can be sent by email to editors and section editors. All managers and section editors are automatically opted out of the monthly report; however, you can opt in by going to User Profile > Notifications and unchecking the box that disables the automated email.
 
-
 ## Users
 
 This section provides information about new user/role registrations within a specified time period. The Total column is not a total number of accounts created; it identifies how many users have that role in the system right now. When an existing user receives a new role, such as a registered author becoming a reviewer, that addition to the total number of reviewers in the system will be reflected in the data by an increase in the number of reviewers but no change in the total number of users.
 
 ![Sample users statistics data.](./assets/users.png)
 
+## Report Generator
 
-## Report Generator 
 The Report Generator page provides access to a variety of reports from your journal.
 
 ![The list of reports on the Report Generator page in OJS, detailed below.](./assets/report-generator.png)
@@ -86,11 +83,9 @@ The system generates reports that track the details associated with site usage a
 * View Report: Provides a report on galley and abstract views by readers (i.e., how many times a PDF for an article has been viewed). (Usage)
 * Custom Report Generation: Customizable version of the Usage Statistics report, where various facets can be selected and specific date spans can be set. See Generate Custom Report for more information and examples. (Usage)
 
-
 ### Usage Statistics Report
 
 This report provides granular data on monthly views for the journal homepage, issue TOCs, article abstract/landing pages, and file views in CSV format. It provides country information (if configured). Each row provides a total monthly view count for a particular object (journal home page, article abstract page, article galley, or issue table of contents). It further facets this by country if country support has been enabled and properly configured.
-
 
 **Use for:** generating a multifaceted overview content usage from month to month. It lists monthly view counts for all articles, article file downloads, issue TOC views, and journal homepage views for the specified timespan. Additional manual manipulation of the resulting report must be done to achieve aggregate results.
 
@@ -126,10 +121,10 @@ In the sample below we can see that article 95, “The Making of the Canadian Me
 | 95 | The Making of the Canadian Media | Vol 6, No 1 \(1979\) | 1979-01-03 | 443 | 1476 |   | 1476 |
 | 1125 | Digital Networks | Vol 24, No 4 \(1999\) | 1999-04-01 | 1821 | 8478 | 2093 | 6385 |
 
-
-### Generate Custom Report 
+### Generate Custom Report
 
 Use this feature to build your own reports. These reports provide granular data on daily views for the journal using the full metrics dataset. You are able to aggregate results by:
+
 * Country
 * Region
 * City
@@ -137,6 +132,7 @@ Use this feature to build your own reports. These reports provide granular data 
 * Day
 
 Metrics are tracked against specific item types (AKA “objects”):
+
 * File downloads
 * Abstract views
 * Issue Table of Contents views
@@ -144,11 +140,12 @@ Metrics are tracked against specific item types (AKA “objects”):
 
 ![The custom report generator interface in OJS.](./assets/custom-report-generator1.png)
 
-You are also able to limit results to specific date spans. 
+You are also able to limit results to specific date spans.
 
 This is the most flexible report option available in OJS and can provide a very detailed amount of data. Below are some examples of statistics questions that may be useful to journals, as well as instructions on how to formulate a report to answer those questions using this feature.
 
 Special Notes on the Report Generator:
+
 * Depending on the amount of data in your system, the facets you choose to retrieve, and the date span you choose, the system may fail to completely generate a report without timing out. If you encounter this, try reducing the requested date span.
 * If you generate a custom report, the report will also provide you with a Report URL that you can save to use to repeat the identical report process. Make sure to copy and save the URL somewhere so that you can re-run your search later (it will disappear once the page is reloaded).
 * If you create a report that reports on “yesterday” or “current month,” the resulting Report URL will always use “yesterday” or the “current month” relative to the day you run it. So if you originally created a report to report on “yesterday” a year ago and then ran it today, it would report on yesterday. However, if you specify a specific date range, say April 1 - April 15 2018, the resulting Report URL will always report metrics for that specific range.
@@ -156,10 +153,10 @@ Special Notes on the Report Generator:
 * The generator works like a funnel for data. The trick is to narrow down the bigger elements (such as date range), select what you’re interested in from there (issues, articles, etc.), then tweak the data at the end (i.e., sort by number of downloads).
 * The Report Generator is most useful if you use the Advanced Options. All the examples below make use of the advanced options.
 
-
 #### Example report: How well has a particular (i.e., most recent) issue performed over the last few months?
 
 This particular query will give you a monthly count of how many full text galleys have been downloaded from a particular issue. You’ll have a column for month and total count for month and a separate row for every month.
+
 * Under “Default report templates” select “Article file downloads” from the dropdown list.
 * Uncheck all boxes in the “Aggregate stats by.”
 * Click on the “Month” radio button and enter date range under “Or select range by.”
@@ -181,10 +178,10 @@ This particular query will give you a monthly count of how many full text galley
 
 * Save the URL at the bottom of the page for your records!
 
-
-#### Example report: What are the most downloaded articles over the last 5 years? #
+#### Example report: What are the most downloaded articles over the last 5 years?
 
 This report will present a list of article titles (and the issues they come from) ordered by descending download counts.
+
 * Select “Article file downloads” from the dropdown box.
 * Uncheck all boxes under “Aggregate stats by.”
 * Select the “Month” radio button and enter a date range.
@@ -210,10 +207,10 @@ This report will present a list of article titles (and the issues they come from
 
 * Save your URL at the bottom of the page!
 
-
 #### Example: What’s our most popular issue?
 
 This query displays a count of full text downloads for each journal issue and orders the results from highest to lowest.
+
 * Select “Article file downloads” from the dropdown box.
 * Uncheck all boxes under “Aggregate stats by.”
 * Select the “Month” radio button and enter a date range.
@@ -239,10 +236,10 @@ This query displays a count of full text downloads for each journal issue and or
 
 * Don’t forget to save your URL to run at a later date.
 
-
-#### Example: What countries are downloading our articles (for a specific date interval)? #
+#### Example: What countries are downloading our articles (for a specific date interval)?
 
 This query will display aggregate counts for fulltext downloads by country in descending order. Note that one will need to specify a date range.
+
 * Select “Article file downloads” from the dropdown box.
 * Uncheck all boxes under “Aggregate stats by.”
 * Select the “Month” radio button and enter a date range.
@@ -265,7 +262,6 @@ This query will display aggregate counts for fulltext downloads by country in de
 * Don’t forget to save your URL to run at a later date.
 
 ![Results in .csv format returned from the above custom report.](./assets/custom-report-generator14.png)
-
 
 ### Display Usage Statistics for Readers
 
