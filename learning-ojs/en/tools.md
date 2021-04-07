@@ -99,28 +99,6 @@ To assign new DOIs to articles:
 3. Open Metadata on the top right and go to the Identifiers tab. You should see a preview of the DOI that will be assigned and a checked box next to "Assign the DOI to this article."
 4. Click Save and the DOI will be assigned.
 
-## Report Generator
-
-The Report Generator page provides access to a variety of reports from your journal.
-
-![](./assets/learning-ojs3.2-jm-users-tools-stats.png)
-
-The system generates reports that track the details associated with site usage and submissions over a given period of time. Reports are generated in CSV format which requires a spreadsheet application to view.
-
-- **PKP Usage Statistics Report**: Provides basic usage statistics for your journal.
-- **View Report**: Provides a report on galley and abstract views by readers (i.e., how many times a PDF for an article has been viewed).
-- **Articles Report**: Provides a spreadsheet of all published articles.
-- **COUNTER Reports**: Provides COUNTER data.
-- **Review Report**: Provides a spreadsheet of all review activity.
-
-### Generate Custom Report
-
-Use this feature to build your own reports.
-
-![](./assets/learning-ojs3.2-jm-users-tools-stats-custom.png)
-
-More information on how to generate and manage statistics in OJS is provided in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
-
 ## Permissions
 
 The Reset Article Permissions tool allows you to reset the copyright statement and license information on all published articles, and will revert it to your journal's current default settings. Take caution when using this tool and consult legal expertise if you are unsure what rights you hold over the articles published in your journal.
