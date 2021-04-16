@@ -81,9 +81,9 @@ To remove these fields and their contents from displaying publicly on the websit
 
 ### Languages
 
-OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages on a single site or journal. When you install OJS, you can select one or more languages for your site.
+OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages and authors can make submissions in one or more languages on a single site or journal. When you install OJS, you can select one or more languages for your site.
 
-Under Website Settings > Languages you can see a list of languages or locales installed on your site and configure how the languages are used in your journal. Additional languages can be installed on your site by an Administrator – see [Chapter 4](./site-administration) for details.
+Under Website Settings > Languages you can see a list of languages or locales installed on your site and configure how the languages are used in your journal. Consider carefully how you want to configure and use languages in your journal because significant problems can occur if you change the settings later.
 
 ![OJS dashboard view of Languages menu with English and French options, English option selected as primary locale.](./assets/learning-ojs3.1-jm-settings-web-lang.png)
 
@@ -94,6 +94,8 @@ Under Website Settings > Languages you can see a list of languages or locales in
 - **Forms**: This will enable all selected languages to be available when filling in online forms. This will allow metadata to be added in selected languages in the Publication tab.
 
 - **Submission**: If you want authors to be able to make submissions in other languages, select them here. This will allow authors to add metadata in selected languages when uploading their submission.
+
+Additional languages can be installed on your site by an Administrator – see [Chapter 4](./site-administration) for details.
 
 If enabling multiple languages to appear in the UI, make sure that in Website Settings > Appearance > Sidebar Management the Language Toggle Block is selected to make that feature available to users.
 
