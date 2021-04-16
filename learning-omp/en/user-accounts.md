@@ -12,7 +12,7 @@ OMP has a number of default roles with associated permissions/access. These role
 
 There are six levels of permissions/access that a role can have: Press Manager, Press Assistant, Series Editor, Reviewer, Author, Reader. Permission determines to which parts of the dashboard the role has access. These permission levels cannot be changed once set. You can assign any number of roles to each workflow stage. Assigning a role to a workflow stage means that you will be able to include one or more persons with that role during that stage of the submission. For example, by default, the Marketing Coordinator is included in the editorial stage, the Layout Editor in the production stage, and the Author in all stages. You can add or remove any role from a workflow stage.
 
-![](./assets/learning_omp-user_accounts.png)
+![The roles and permissions screen in OMP.](./assets/learning_omp-user_accounts.png)
 
 __Press Managers__ can access the many Press Management pages, including content settings, press settings, and import/export tools and other plugins. The Press Manager(s) should configure the press via the Press Settings pages before any submissions are solicited. By default, the Press Editor, Production Editor, and Layout Editors all have "press manager" permissions. These four roles have limited customizable options in the OMP workflow.
 
@@ -88,11 +88,11 @@ OMP allows for the creation of new roles if the default ones do not fit your nee
 
 To create a new role, go to Users & Roles > Roles. On the top-right corner of the Current Roles box, click ‘Create New Role.'
 
-![](./assets/learning_omp-user_accounts_2.png)
+![The Create New Role button highlighted in the Roles screen.](./assets/learning_omp-user_accounts_2.png)
 
 Select the Permission level, enter the Role Name and Abbreviation, and select from the Role Options (as it applies).
 
-![](./assets/learning_omp-user-accounts_3.png)
+![The Permission level dropdown in the Role creation screen.](./assets/learning_omp-user-accounts_3.png)
 
 ## Emailing all users in a role
 
@@ -100,9 +100,7 @@ It is now possible to notify all users with a role by using the **Notify** featu
 
 Please note, this feature is disabled by default and administrators will need to enable it for each press.
 
-To email users with a particular role, start by selecting role and scrolling to the bottom to enter your message. 
-
-This feature may be useful for contacting your reviewers to confirm their interest in serving as a reviewer for your press.
+To email users with a particular role, start by selecting role and scrolling to the bottom to enter your message. This feature may be useful for contacting your reviewers to confirm their interest in serving as a reviewer for your press.
 
 Once you have sent your message, there will be a status notification indicating whether your message has been successfully sent.
 
@@ -115,17 +113,17 @@ When using this function, please note that there will be no record in your press
 
 ## Granting Author permissions
 
-In OMP 3.2, editors can grant access to allow authors to make metadata changes. There are two ways editors can grant this type of access.
+As of OMP 3.2, editors can grant access to allow authors to make metadata changes. There are two ways editors can grant this type of access.
 
 __Global permission__- will grant all users with the role ‘author’ permission to make metadata changes.
 
 To enable this, go to Users & Roles > Roles. Click the blue arrow beside the ‘Author’ then click edit.
 
-![](./assets/learning-omp3.2-user-permission-1.png)
+![The expanded Edit menu under the Author role.](./assets/learning-omp3.2-user-permission-1.png)
 
 Under Role Options, enable ‘Permit submission metadata edit.’ then click OK.
 
-![](./assets/learning-omp3.2-user-permission-2.png)
+![The ‘Permit submission metadata edit.’ checkbox highlighted in the role options screen.](./assets/learning-omp3.2-user-permission-2.png)
 
 __Limited Permission__ - will grant registered authors (typically a single author) permission to only make changes at certain stages of the editorial workflow.
 
@@ -133,14 +131,14 @@ To allow an author to change the metadata at a specific stage of the workflow, c
 
 Under the participant’s list, click the arrow beside the author’s name followed by Edit.
 
-![](./assets/learning-omp3.2-user-permission-3.png)
+![The workflow screen.](./assets/learning-omp3.2-user-permission-3.png)
 
-![](./assets/learning-omp3.2-user-permission-4.png)
+![The expanded edit menu under the Author in the workflow screen.](./assets/learning-omp3.2-user-permission-4.png)
 
 Under Permissions, enable ‘Allow this person to edit publication details.’ followed by OK.
 
-![](./assets/learning-omp3.2-user-permission-5.png)
+![The edit assignment window with permissions options.](./assets/learning-omp3.2-user-permission-5.png)
 
 Once the author has been granted access to made edits they will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors,  Chapters and Metadata.
 
-![](./assets/learning-omp3.2-user-permission-6.png)
+![The above sections highlighted on the Publication tab.](./assets/learning-omp3.2-user-permission-6.png)
