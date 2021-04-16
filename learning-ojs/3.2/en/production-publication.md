@@ -13,7 +13,7 @@ To start working in Production, the Section Editor or Journal Editor must login 
 
 Clicking on the article will open the submission record.
 
-![](./assets/learning-ojs-3.2-se-production.png)
+![Production tab in the editorial workflow of a manuscript](./assets/learning-ojs-3.2-se-production.png)
 
 You will see the copyedited files are now available in the **Production Ready Files** panel.
 
@@ -23,7 +23,7 @@ In the **Production** tab, you can assign participants (such as a Layout Editor)
 
 Everything related to publishing a submission is done under the Publication tab. The Publication tab allows you to edit or add information about the submission, including contributors, metadata, and identifiers. It is also where you will upload the final Galley files for publication in the journal.
 
-![](./assets/learning-ojs-3.2-production-publication-tab.png)
+![Publication tab that displays metadata information of a manuscript.](./assets/learning-ojs-3.2-production-publication-tab.png)
 
 Here is an overview of what the different tabs in this section are for. Detailed instructions on some of these are available later in the chapter.
 
@@ -58,11 +58,11 @@ The Title & Abstract, Metadata, Permissions & Disclosure, and Issue tabs have op
 
 Select the desired language tab below the “Schedule for Production” button, and complete the metadata fields in the selected language.
 
-![](./assets/learning-ojs3.2-ed-prod-metadata-lang.png)
+![Multilingual button and text fields for French(Canada)in the metadata subtab within Publication.](./assets/learning-ojs3.2-ed-prod-metadata-lang.png)
 
 The “Issue” tab allows you to upload multiple cover images in selected languages.
 
-![](./assets/learning-ojs3.2-ed-prod-issue-languages.png)
+![Multilingual button and upload field for an issue cover image for French(Canada)in the Issue subtab within Publication.](./assets/learning-ojs3.2-ed-prod-issue-languages.png)
 
 ## Format Article for Publication
 
@@ -74,13 +74,13 @@ This can vary from journal to journal – you may have layout editors or product
 
 To make the assignment, use the **Assign** link in the Participants list. This will open a new window.
 
-![](./assets/learning-ojs-3.2-se-production-participants-add.png)
+![New window to assign participants such as Layout Editor.](./assets/learning-ojs-3.2-se-production-participants-add.png)
 
 Use the role selector and search button to find appropriate users. Select the user and choose a predefined message, then click **OK** to send.
 
 The user has now been notified via email and in the dashboard.
 
-![](./assets/learning-ojs-3.2-se-production-participants-added.png)
+![Manuscript dashboard after additional participants have been assigned.](./assets/learning-ojs-3.2-se-production-participants-added.png)
 
 You can now see the Layout Editor in the Participants list, and you can see the request notice in the Production Discussions panel.
 You can now wait for the Layout Editor to complete their tasks.
