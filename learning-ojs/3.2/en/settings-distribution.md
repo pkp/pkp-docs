@@ -13,7 +13,7 @@ Please note that if your journal is multilingual and you have Forms enabled for 
 
 In this section you can configure copyright and licensing terms for your journal's content.
 
-![](./assets/learning-ojs3.2-jm-settings-dist-permissions.png)
+![Distribution settings license tab showing copyright holder, license and copyright year options.](./assets/learning-ojs3.2-jm-settings-dist-permissions.png)
 
 **Copyright Holder**: Select who holds copyright to the articles published by your journal. The trend in open access publishing is to allow authors to retain copyright of their work.
 
@@ -33,7 +33,7 @@ This default can be overridden on a case-by-case basis.
 
 This section helps you enhance your search engine optimization and make your content more discoverable.
 
-![](./assets/learning-ojs3.2-jm-settings-dist-index.png)
+![Distribution settings search indexing tab showing description and custom tags options.](./assets/learning-ojs3.2-jm-settings-dist-index.png)
 
 Use **Description** to provide a brief description of your journal for search engines.
 
@@ -57,7 +57,7 @@ Using the PayPal plugin, you can accept payments through PayPal, or you can acce
 
 To use payments and subscriptions features, you first have to enable payments under this tab. After you check off **Enable**, additional configuration settings will appear below.
 
-![](./assets/learning-ojs3.2-jm-settings-dist-pay.png)
+![Distribution settings payments tab showing enable payments, currency and payment plugins options.](./assets/learning-ojs3.2-jm-settings-dist-pay.png)
 
 Select the currency you will use.
 
@@ -67,11 +67,11 @@ If you select **PayPal Fee Payment**, additional fields will appear.
 
 To accept PayPal payments, you will need to go to Website Settings > Plugins and enable the PayPal Plugin, then do additional setup and configuration explained in the [PayPal Plugin Guide](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/). Through this process you will get the values for the **Account Name**, **Client ID**, and **Secret** fields.
 
-![](./assets/learning-ojs3.2-jm-settings-dist-paypalsettings.png)
+![Paypal fee payment screen showing test mode enable option, account name, client ID and secret fields.](./assets/learning-ojs3.2-jm-settings-dist-paypalsettings.png)
 
 If you select **Manual Fee Payment** under **Payment Plugins**, a field will appear where you can enter instructions that will appear to users who are making a manual payment.  For example, “Send a cheque payable to the Public Knowledge Project” to ______.”
 
-![](./assets/learning-ojs3.2-jm-settings-manual-payments.png)
+![Manual fee payment screen showing manual payment instructions field.](./assets/learning-ojs3.2-jm-settings-manual-payments.png)
 
 You will also need to enable the Manual Payment Plugin under Website Settings > Plugins to accept manual payments.
 
@@ -83,7 +83,7 @@ Go to the [Subscriptions Chapter](./subscriptions.md) for further instructions o
 
 If you plan to make your journal or articles available by subscription, go to Distribution Settings > Access and check off “The journal will require subscriptions to access some or all of its contents.”
 
-![](./assets/learning-ojs3.2-jm-settings-dist-access.png)
+![Distribution settings access tab showing publishing mode options.](./assets/learning-ojs3.2-jm-settings-dist-access.png)
 
 ### Donations
 
@@ -93,7 +93,7 @@ In OJS 3.x there is not an option to set up a payment type for donations, to man
 
 Under the Access tab you can configure whether you want your journal contents to be open access, available by subscription, or a combination. By default, the open access option is selected. However, if you wish to use OJS for a subscription journal, choose the second option (see above section on Payments for further information). Selecting the second option will allow you to further delay open access by different periods of time.
 
-![](./assets/learning-ojs3.2-jm-settings-dist-access-delayed.png)
+![Distribution settings access tab showing publishing mode and delayed open access options.](./assets/learning-ojs3.2-jm-settings-dist-access-delayed.png)
 
 If you are only using OJS to manage your submission workflow and not publish your content, you can select "OJS will not be used to publish the journal's contents online."
 
@@ -105,7 +105,7 @@ Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbo
 
 **Enable OAI** will be enabled by default, as this is an important protocol used by indexing services and other applications to harvest your journal's metadata. However, if you are not using OJS to publish your journal's content you may want to disable OAI.
 
-![](./assets/learning-ojs3.2-jm-settings-dist-oai.png)
+![Enable OAI screen with enable and disable options.](./assets/learning-ojs3.2-jm-settings-dist-oai.png)
 
 ## Archiving
 
@@ -115,4 +115,4 @@ For instructions on enabling the PKP PN, see the [PKP Preservation Network Guide
 
 If you use another network, enabling it here will make your content available to the network, but you will also need to contact the network to make it aware of your journal.
 
-![](./assets/learning-ojs3.2-jm-settings-web-archive.png)
+![Distribution settings acrhiving tab showing LOCKSS and CLOCKSS options.](./assets/learning-ojs3.2-jm-settings-web-archive.png)
