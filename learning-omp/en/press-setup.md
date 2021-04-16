@@ -41,7 +41,7 @@ To add a series, click **Add Series**  on the right corner of the Series table a
 * __Description__: Use this field to add details regarding the series, editor, editor information, etc.
 * __ISSN__: The 8-digit code to identify your print and/or online series (you can apply for an ISSN through your country’s ISSN centre, listed in the [ISSN Network](https://www.issn.org/the-centre-and-the-network/members-countries/the-issn-network-today/#))
 * __Order Monograph__: The order in which you would like monographs within the series to be displayed
-![](./assets/learning_omp-press_setup-mono_order.png)
+![List of display order options.](./assets/learning_omp-press_setup-mono_order.png)
 * __Category__: The subject matter this series will be part of
 * __Path__: What you want to use for the end of the URL
 
