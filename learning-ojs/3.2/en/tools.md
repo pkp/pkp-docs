@@ -7,7 +7,7 @@ version: 3.2
 
 The Tools section can be accessed from the left sidebar menu.
 
-![](./assets/learning-ojs3.2-jm-users-tools.png)
+![Tools side menu options.](./assets/learning-ojs3.2-jm-users-tools.png)
 
 Tools consist of an Import/Export tab, a Report Generator tab (called Statistics in OJS 3.1.1 and earlier), and a Permissions tab.
 
@@ -15,7 +15,7 @@ Tools consist of an Import/Export tab, a Report Generator tab (called Statistics
 
 Import/Export allows you to easily get data out of your OJS journal and get data into it.
 
-![](./assets/learning-ojs3.2-jm-users-tools-import.png)
+![List of Import/Export plugins available.](./assets/learning-ojs3.2-jm-users-tools-import.png)
 
 Some of the tools allow you to export to third-party systems, such as PubMed or the DOAJ. Others allow you to import or export user or article data.
 
@@ -41,7 +41,7 @@ To use this plugin, you will need the following:
 
 First, ensure that the Quick Submit Plugin has been installed and enabled for your journal.  You will need to have the Journal Manager role to enable the plugin and the Administrator role to install the plugin.
 
-![](./assets/find-plugins.png)
+![Settings side menu options with the option for Website selected.](./assets/find-plugins.png)
 
 1. Go to Settings > Website > Plugins
 2. Under Installed Plugins, look for the Quick Submit Plugin.  If you see it listed, skip to step 8.
@@ -52,7 +52,7 @@ First, ensure that the Quick Submit Plugin has been installed and enabled for yo
 7. After the plugin has been installed, go back to the Installed Plugins tab and find the Quick Submit Plugin.
 8. Check the box to the right of the plugin name and description to enable the plugin.
 
-![](./assets/enabled-import-plugins.png)
+![List of Import/Export plugins from the Installed Plugin tab in Website settings.](./assets/enabled-import-plugins.png)
 
 Next, you will need to create the issues (or issue) that will contain the new articles you are importing.
 
@@ -62,11 +62,11 @@ Next, you will need to create the issues (or issue) that will contain the new ar
 4. Click Save.
 5. Do this for all of the issues you are uploading articles for.
 
-![](./assets/create-issue.png)
+![Volume 1 Number 1, 2017 issue titled From below created under Future Issue.](./assets/create-issue.png)
 
 Next you can import each article with the Plugin.
 
-![](./assets/import-plugins.png)
+![Tools side menu options with Import/Export selected.](./assets/import-plugins.png)
 
 1. Go to Tools > Import/Export and select Quick Submit Plugin.
 2. Upload a cover image if you have one.  This field is optional and can be ignored.
@@ -77,7 +77,7 @@ Next you can import each article with the Plugin.
 7. At the end of the Quick Submit Plugin form, you can select whether you want the article you are adding to be published immediately or unpublished if you wish to publish it later. If you select **Published**, you will have to select the issue you would like to publish it in and enter the **Date Published**. You can also optionally enter page numbers and permissions information.
 8. When you have finished entering all data for the article, click Save.
 
-![](./assets/quick-submit-plugin-2.png)
+![Submission form on QuickSubmit.](./assets/quick-submit-plugin-2.png)
 
 DOIs are not added with the QuickSubmit Plugin. Instead, you have to add them separately.
 
@@ -101,7 +101,7 @@ To assign new DOIs to articles:
 
 The Report Generator page provides access to a variety of reports from your journal.
 
-![](./assets/learning-ojs3.2-jm-users-tools-stats.png)
+![List of Reports available](./assets/learning-ojs3.2-jm-users-tools-stats.png)
 
 The system generates reports that track the details associated with site usage and submissions over a given period of time. Reports are generated in CSV format which requires a spreadsheet application to view.
 
@@ -115,7 +115,7 @@ The system generates reports that track the details associated with site usage a
 
 Use this feature to build your own reports.
 
-![](./assets/learning-ojs3.2-jm-users-tools-stats-custom.png)
+![Sample custom report settings to generate Issue table of contents page preview aggregated by country and month for this current month.](./assets/learning-ojs3.2-jm-users-tools-stats-custom.png)
 
 More information on how to generate and manage statistics in OJS is provided in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
 
