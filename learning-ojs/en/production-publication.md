@@ -58,11 +58,11 @@ The Title & Abstract, Metadata, Permissions & Disclosure, and Issue tabs have op
 
 Select the desired language tab below the “Schedule for Production” button, and complete the metadata fields in the selected language.
 
-![Multilingual button and text fields for French(Canada)in the metadata subtab within Publication.](./assets/learning-ojs3.2-ed-prod-metadata-lang.png)
+![Multilingual button and text fields for French (Canada) in the metadata subtab within Publication.](./assets/learning-ojs3.2-ed-prod-metadata-lang.png)
 
 The “Issue” tab allows you to upload multiple cover images in selected languages.
 
-![Multilingual button and upload field for an issue cover image for French(Canada)in the Issue subtab within Publication.](./assets/learning-ojs3.2-ed-prod-issue-languages.png)
+![Multilingual button and upload field for an issue cover image for French (Canada) in the Issue subtab within Publication.](./assets/learning-ojs3.2-ed-prod-issue-languages.png)
 
 ## Format Article for Publication
 
