@@ -14,7 +14,7 @@ Authors may also assign their original submissions to various categories and ser
 
 You can create a new entry from the list of submissions in Catalog > All Monographs by clicking ‘Add Entry’ on the main panel submenu.
 
-![](./assets/learning_omp-catalog-managment_add-entry.png)
+![Red arrow pointing to the Add Entry button on the right of the main panel submenu.]](./assets/learning_omp-catalog-managment_add-entry.png)
 
 Select the submission(s) you want to add to the catalog and click ‘Add Selected to Catalog.’
 
@@ -34,19 +34,19 @@ To create a catalog entry within the submission of a manuscript:
 2. Click Catalog in the pop-up box
 3. Click the checkbox to Add this to the public catalog
 
-![](./assets/learning_omp-catalog-managment_catalog-entry.png)
+![The 'Add this book to the public catalog' checkbox highlighted under the Catalog tab.](./assets/learning_omp-catalog-managment_catalog-entry.png)
 
 ## Select Featured and New Release entries
 
 In Catalog > All Monographs you will see checkboxes beside each catalog entry that will allow you to designate it as a Featured Entry or a New Submission.
 
-![](./assets/learning_omp-catalog-managment_feat-monograph.png)
+![A sample list of monographs in OMP with Featured and New release checkboxes.](./assets/learning_omp-catalog-managment_feat-monograph.png)
 
 When you select either of these checkboxes, the entry will appear under a special section on the homepage for “Featured” and “New” monographs.
 
 If you don't see the entry appear, make sure you have enabled them on the Homepage Content setting under Website Settings > Appearance.
 
-![](./assets/learning_omp-catalog-managment_homepage-content.png)
+![The homepage content display options list in OMP.](./assets/learning_omp-catalog-managment_homepage-content.png)
 
 To configure the number of Featured and New monographs displayed on the homepage, you can adjust the numbers for Lists - Items per Page under Website Settings > Appearance.
 
@@ -62,7 +62,7 @@ This is useful when you want to promote a book with marketing language that goes
 
 To select, add, or edit your spotlight go to Catalog > Spotlights.
 
-![](./assets/learning_omp-catalog-managment_add-spotlight.png)
+![The 'Add Spotlight' button highlights on the right of the Spotlights menu.](./assets/learning_omp-catalog-managment_add-spotlight.png)
 
 ## Author Browse Lists
 
@@ -70,25 +70,25 @@ To select, add, or edit your spotlight go to Catalog > Spotlights.
 
 All contributors listed for each manuscript will be displayed in the monograph’s summary page.
 
-![](./assets/learning_omp-catalog-managment_auth-contrib1.png)
+![The contributors list of an OMP submission.](./assets/learning_omp-catalog-managment_auth-contrib1.png)
 
 When entering contributors, the submitting author will have the option to include all other contributors in the browse list.
 
-![](./assets/learning_omp-catalog-managment_auth-contrib2.png)
+![The checkbox for including a contributor in browse lists found when entering contributor metadata.](./assets/learning_omp-catalog-managment_auth-contrib2.png)
 
 Selecting to include contributors means that their name will be displayed in the press’ home (if selected as a new release or feature), series, or category page.
 
-![](./assets/learning_omp-catalog-managment_new-release.png)
+![An example of authors being displayed in the New Releases feature box.](./assets/learning_omp-catalog-managment_new-release.png)
 
 ### Highlight author who is an editor of the volume
 
 To highlight an author who is also the editor of the volume, the submitting author must indicate their role accordingly when entering them in the list of contributors.
 
-![](./assets/learning_omp-catalog_managment-contributor_role.png)
+![The Contributor role selection menu in the contributor metadata entry screen.](./assets/learning_omp-catalog_managment-contributor_role.png)
 
 If this role is not being displayed in your press, please check your User & Role settings (Users & Roles > Roles > Arrow on Volume Editor > Edit > Role Options)
 
-![](./assets/learning_omp-catalog_managment-role_options.png)
+![The role options menu.](./assets/learning_omp-catalog_managment-role_options.png)
 
 ## Add Books to Series
 
@@ -101,7 +101,7 @@ To add a book to a series:
 3. Fill in the **Series Position** field below if you want to indicate where the book fits into the series
 4. Click **Save**
 
-![](./assets/learning_omp-catalog_managment-series.png)
+![The series selection dropdown and series position entry field location.](./assets/learning_omp-catalog_managment-series.png)
 
 ## Add Books to Categories
 
