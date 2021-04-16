@@ -90,11 +90,11 @@ You can now wait for the Layout Editor to complete their tasks.
 As a Layout Editor, you will have received a message inviting you to create the galleys for the submission.
 To get started, login to the system and go to your dashboard.
 
-![](./assets/learning-ojs-3.2-le-dashboard.png)
+![Layout Editor Dashboard showing list of assigned manuscripts.](./assets/learning-ojs-3.2-le-dashboard.png)
 
 From here, find the submission and select the **Production** link. This will take you to the submission record.
 
-![](./assets/learning-ojs-3.2-le-submission.png)
+![Production tab of on the assigned manuscript with 1 production ready file for the Layout Editor.](./assets/learning-ojs-3.2-le-submission.png)
 
 From the Production Ready Files panel, download the files to your desktop and work outside of OJS to convert them to galley files. The next section explains galley file formats and preparation.
 
@@ -221,7 +221,7 @@ In OJS you will need to configure the settings for your Component Types before a
 
 Make sure you have “Multimedia” and/or “Image” files configured as “dependent files” in the Component Type settings.
 
-![](./assets/learning-ojs3.2-ed-prod-multimedia-component-edit.png)
+![Form to add Multimedia as a dependent component type.](./assets/learning-ojs3.2-ed-prod-multimedia-component-edit.png)
 
 Now go back to the submission to upload an HTML stylesheet to display your multimedia file. See below for instructions on how to **Add  Galley Files**. In addition, when you upload the file:
 
@@ -231,19 +231,18 @@ Now go back to the submission to upload an HTML stylesheet to display your multi
 * Click **Continue**
 * In the **Review Details** tab you can upload Dependent Files. This is where you will upload the MP3/MP4/image file.
 
-![](./assets/learning-ojs3.2-ed-prod-multimed-dep-file.png)
+![Step 2 of uploading production ready files where users will go to upload their dependent files.](./assets/learning-ojs3.2-ed-prod-multimed-dep-file.png)
 
 Select **Multimedia** or **Image** from the **Article Component** drop-down menu, and upload the MP3, MP4, or image file.
 
-![](./assets/learning-ojs3.2-ed-prod-upload-multimedia.png)
+![Step 1 for uploading dependent files, dropdown bar lists Multimedia and Image as selection for Article components.](./assets/learning-ojs3.2-ed-prod-upload-multimedia.png)
 
 When uploading an image file you will be asked to add a Caption, Credit, Copyright Owner, and Permission Terms, as applicable.
 
-![](./assets/learning-ojs3.2-ed-prod-image-details.png)
+![Step 2 for uploading dependent files. Text fields to enter Caption, Credit, Copyright Owner, and Permission Terms.](./assets/learning-ojs3.2-ed-prod-image-details.png)
 
 Click **Continue** to complete the upload, review the details, and confirm. Your multimedia file has now been added as a dependent file along with the HTML, and will be embedded in the HTML when the item is published.
 
-![](./assets/learning-ojs3.2-ed-prod-upload-video-dependent.png)
 
 #### ePUB Files
 
@@ -257,7 +256,7 @@ Example (see EPUB link at bottom of the page): [International Review of Research
 
 XML files are structured files in which each part of the article is tagged as a distinct element. This allows the reader to easily navigate through and access figures, images, metadata, references, and parts of the article text. Creating XML files is a very efficient way to publish in multiple formats. When you create an XML file, you can then automatically generate PDFs, HTML, ePub, and other formats.
 
-![](./assets/learning-ojs3.2-ed-prod-xmlgalley.png)
+![XML preview of article with navigation menu options.](./assets/learning-ojs3.2-ed-prod-xmlgalley.png)
 
 PKP is developing tools that will allow you to create, convert, and edit XML files within OJS. Currently you need to create and edit the files outside of OJS. If you want to produce XML galley files for your journal, you can use the services of a graphic designer or typesetter, or if you have some XML expertise you can create the files yourself. W3schools has excellent tutorials on XML.
 
