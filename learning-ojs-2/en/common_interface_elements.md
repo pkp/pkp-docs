@@ -9,7 +9,7 @@ There are a number of common interface elements at the Site and Journal levels o
 
 The topmost navigation bar includes Home, About, Login, Register and Search links. If you are logged in as a user, the Login and Register links are replaced with a User Home link.
 
-Top Navigation Bar, Site-level and Not Logged In:  
+Top Navigation Bar, Site-level and Not Logged In:
 
 ![The Top Navigation Bar](images/chapter1/elements_2.png)
 
@@ -29,13 +29,13 @@ Top Navigation Bar, Site-level and Logged In:
 * Clicking the **Search** link will bring you to a comprehensive search page. If you are currently browsing at the site level, you will be able to choose whether to search across all journals on the site, or only against a particular journal. If you are browsing at the journal level, your search will only be performed against that journal's contents.
 
 * If you have already logged in, you will see a User Home link rather than the Login and Register links. Clicking this will take you to your site or journal-specific User Home page.
-    
+
 
 ### The Breadcrumb
 
 
 
-Directly under the topmost navigation bar you will find a series of breadcrumb links, one for the the site- or journal-level homepage, and one for each subpage that you have navigated to, leading to one for the page you are on, which is highlighted in bold. Each link will bring you back to that specific subpage.  
+Directly under the topmost navigation bar you will find a series of breadcrumb links, one for the the site- or journal-level homepage, and one for each subpage that you have navigated to, leading to one for the page you are on, which is highlighted in bold. Each link will bring you back to that specific subpage.
 
 
 ![The Breadcrumb](images/chapter1/elements_3.png)
