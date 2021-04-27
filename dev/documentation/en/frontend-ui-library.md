@@ -4,8 +4,9 @@ title: UI Library - Frontend - Technical Documentation - OJS/OMP
 
 # UI Library
 
-> Read and understand the essentials section of the [Vue.js guide](https://vuejs.org/v2/guide/) before continuing.
-{:.tip}
+> Read and understand the essentials section of the [Vue.js guide](https://vuejs.org/v2/guide/) before continuing. 
+> 
+> {:.tip}
 
 The [UI Library](/dev/ui-library/dev) is built with [Vue.js](https://vuejs.org/). It provides reusable components to create consistent, accessible user interfaces for all PKP applications. This chapter describes how to pass data into the root Vue.js component and manage state in the browser.
 
@@ -17,7 +18,7 @@ The [Page component](/dev/ui-library/dev/#/component/Page) is the root component
 {extends file="layouts/backend.tpl"}
 
 {block name="page"}
-	<badge :is-success="true">Published</badge>
+    <badge :is-success="true">Published</badge>
 {/block}
 ```
 
@@ -27,9 +28,9 @@ Smarty syntax can be mixed with components from the UI Library. The template bel
 {extends file="layouts/backend.tpl"}
 
 {block name="page"}
-	{if $isPublished}
-		<badge :is-success="true">Published</badge>
-	{/if}
+    {if $isPublished}
+        <badge :is-success="true">Published</badge>
+    {/if}
 {/block}
 ```
 
@@ -39,20 +40,21 @@ Sometimes the publication status will change before the Smarty template is reloa
 
 Data that may change after the page is loaded is called state. For example, when an editor publishes or unpublishes a submission the template needs to update to reflect the new submission status.
 
-> State is another name for the `data` properties of the root Vue.js component.
-{:.tip}
+> State is another name for the `data` properties of the root Vue.js component. 
+> 
+> {:.tip}
 
 Initialize state on the server by using the `setState` method to pass data to the `Page` component.
 
 ```php
 class WorkflowHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
-		$templateMgr->setState([
-			'isPublished' => $publication->getData('status') === STATUS_PUBLISHED,
-		]);
-		return $templateMgr->display('/workflow.tpl');
-	}
+    public function distribution(Array $args, Request $request) {
+        $templateMgr = TemplateManager::getManager($request);
+        $templateMgr->setState([
+            'isPublished' => $publication->getData('status') === STATUS_PUBLISHED,
+        ]);
+        return $templateMgr->display('/workflow.tpl');
+    }
 }
 ```
 
@@ -62,12 +64,12 @@ State can be accessed in templates by using the [Vue.js template syntax](https:/
 {extends file="layouts/backend.tpl"}
 
 {block name="page"}
-	<badge
-		v-if="isPublished"
-		:is-success="true"
-	>
-		Published
-	</badge>
+    <badge
+        v-if="isPublished"
+        :is-success="true"
+    >
+        Published
+    </badge>
 {/block}
 ```
 
@@ -85,55 +87,57 @@ In this example, the number and location of cars are state and should be passed 
 
 The `Page` component sometimes manages state that should be passed down to a complex component. A single `Page` may manage many complex components such as [Forms](/dev/ui-library/dev/#/component/Form) and [ListPanels](/dev/ui-library/dev/#/component/ListPanel) which need to update the state after making requests to the API.
 
-> The convention described below is a lightweight alternative to state management libraries such as [Vuex](https://vuex.vuejs.org/).
-{:.tip}
+> The convention described below is a lightweight alternative to state management libraries such as [Vuex](https://vuex.vuejs.org/). 
+> 
+> {:.tip}
 
 State is passed down to these components as `props`.
 
 ```php
 class WorkflowHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
-		$templateMgr->setState([
-			'formId' => 'exampleForm',
-			'fields' => [...],
-		]);
-		return $templateMgr->display('/workflow.tpl');
-	}
+    public function distribution(Array $args, Request $request) {
+        $templateMgr = TemplateManager::getManager($request);
+        $templateMgr->setState([
+            'formId' => 'exampleForm',
+            'fields' => [...],
+        ]);
+        return $templateMgr->display('/workflow.tpl');
+    }
 }
 ```
 ```html
 {extends file="layouts/backend.tpl"}
 
 {block name="page"}
-	<pkp-form
-		:id="formId"
-		:fields="fields"
-		...
-	/>
+    <pkp-form
+        :id="formId"
+        :fields="fields"
+        ...
+    />
 {/block}
 ```
 
 This leads to a problem when a field's value changes. The `Form` component can not modify that value because Vue.js enforces a strict [one-way data flow](https://vuejs.org/v2/guide/components-props.html#One-Way-Data-Flow).
 
-> Read this guide on [organizing components](https://vuejs.org/v2/guide/components.html#Organizing-Components) to understand how props and events are used in Vue.js to manage state across multiple components.
-{:.notice}
+> Read this guide on [organizing components](https://vuejs.org/v2/guide/components.html#Organizing-Components) to understand how props and events are used in Vue.js to manage state across multiple components. 
+> 
+> {:.notice}
 
 In such cases, `Page` components make use of events to manage state for these components. The component's props are added to a `components` object in the state.
 
 ```php
 class WorkflowHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
-		$templateMgr->setState([
-			'components' => [
-				'exampleForm' => [
-					'fields' => [...],
-				],
-			],
-		]);
-		return $templateMgr->display('/workflow.tpl');
-	}
+    public function distribution(Array $args, Request $request) {
+        $templateMgr = TemplateManager::getManager($request);
+        $templateMgr->setState([
+            'components' => [
+                'exampleForm' => [
+                    'fields' => [...],
+                ],
+            ],
+        ]);
+        return $templateMgr->display('/workflow.tpl');
+    }
 }
 ```
 
@@ -143,10 +147,10 @@ The props are bound to the component in the template and the `Page` component li
 {extends file="layouts/backend.tpl"}
 
 {block name="page"}
-	<pkp-form
-		v-bind="components.exampleForm"
-		@set="set"
-	/>
+    <pkp-form
+        v-bind="components.exampleForm"
+        @set="set"
+    />
 {/block}
 ```
 
@@ -154,7 +158,7 @@ When the child component needs to update its props, it fires the `set` event wit
 
 ```js
 const newData = {
-	fields: [...],
+    fields: [...],
 };
 this.$emit('set', 'exampleForm', newData);
 ```
@@ -165,13 +169,13 @@ The following example shows how the `set` method in a `Page` component updates a
 
 ```js
 set(key, newData) {
-	if (!this.components[key]) {
-		return;
-	}
-	this.components[key] = {
-		...this.components[key],
-		...newData
-	};
+    if (!this.components[key]) {
+        return;
+    }
+    this.components[key] = {
+        ...this.components[key],
+        ...newData
+    };
 }
 ```
 
@@ -183,33 +187,33 @@ It is often necessary to extend the `Page` component to provide additional funct
 import Page from './Page.vue';
 
 export default {
-	name: 'SettingsPage',
-	extends: Page,
-	data() {
-		return {
-			announcementsLabel: '',
-			announcementsUrl: ''
-		};
-	},
-	mounted() {
-		pkp.eventBus.$on('form-success', (formId, context) => {
-			if (formId === pkp.const.FORM_ANNOUNCEMENT_SETTINGS) {
-				let menu = {...this.menu};
-				if (!context.enableAnnouncements) {
-					delete menu.announcements;
-				} else {
-					menu.announcements = {
-						name: 'Announcements',
-						url: 'http://example.org/announcements'
-					};
-				}
-				this.menu = menu;
-			}
-		});
-	},
-	destroyed() {
-		pkp.eventBus.$off('form-success');
-	}
+    name: 'SettingsPage',
+    extends: Page,
+    data() {
+        return {
+            announcementsLabel: '',
+            announcementsUrl: ''
+        };
+    },
+    mounted() {
+        pkp.eventBus.$on('form-success', (formId, context) => {
+            if (formId === pkp.const.FORM_ANNOUNCEMENT_SETTINGS) {
+                let menu = {...this.menu};
+                if (!context.enableAnnouncements) {
+                    delete menu.announcements;
+                } else {
+                    menu.announcements = {
+                        name: 'Announcements',
+                        url: 'http://example.org/announcements'
+                    };
+                }
+                this.menu = menu;
+            }
+        });
+    },
+    destroyed() {
+        pkp.eventBus.$off('form-success');
+    }
 };
 ```
 
@@ -220,10 +224,10 @@ Once a new page component has been created, it must be imported and registered i
 import SettingsPage from '@/components/Container/SettingsPage.vue';
 
 window.pkp = Object.assign(PkpLoad, {
-	controllers: {
-		...
-		SettingsPage
-	}
+    controllers: {
+        ...
+        SettingsPage
+    }
 });
 ```
 
@@ -232,11 +236,11 @@ Finally, the `PageHandler` must assign the `pageComponent` variable to the templ
 ```php
 $templateMgr = TemplateManager::getManager($request);
 $templateMgr->assign([
-	'pageComponent' => 'SettingsPage',
+    'pageComponent' => 'SettingsPage',
 ]);
 $templateMgr->setState([
-	'announcementLabel' => __('announcement.announcements'),
-	'announcementsUrl' => $request->getRouter()->url($request, null, 'management', 'settings', 'announcements'),
+    'announcementLabel' => __('announcement.announcements'),
+    'announcementsUrl' => $request->getRouter()->url($request, null, 'management', 'settings', 'announcements'),
 ])
 ```
 
