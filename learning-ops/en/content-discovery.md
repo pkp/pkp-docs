@@ -2,6 +2,7 @@
 book: learning-ops
 version: 3.3
 ---
+
 # Content Discovery
 
 OPS supports a number of ways to make the content on your Server discoverable to your readers. Most of which are built in functionality.
