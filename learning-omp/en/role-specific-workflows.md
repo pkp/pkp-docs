@@ -2,6 +2,7 @@
 book: learning-omp
 version: 3.3
 ---
+
 # Role-specific Workflows
 
 This chapter will provide a general outline and instruction for the various role-specific workflows including the author, reviewer, and editorial team.
@@ -74,7 +75,7 @@ Once you have completed all the steps, click **Finish Submission**.
 
 ## Reviewer Workflow
 
-Reviewer requests will listed in a pop-up screen once they click the notification icon. 
+Reviewer requests will listed in a pop-up screen once they click the notification icon.
 
 ![The task checklist screen for a reviewer.](./assets/learning-omp3.3_role-specific-workflow_rev-dash.png)
 
@@ -129,7 +130,7 @@ Once all the reviews are in, you must make a decision on the submission. Options
 * Request Revisions (in which case the author will be able to modify their submission information and/or upload revised submission files)
 * Send to External Review (editor selects files to send to the external review process)
 * Accept for Submission (at which point the submission will enter the Editorial stage, bypassing External Review)
-* Decline Submission (at which point the submission will be archived and the author notified). 
+* Decline Submission (at which point the submission will be archived and the author notified).
 
 A declined submission can be reverted, see [Reversing a declined decision](/learning-omp/en/role-specific-workflows#reversing-a-declined-decision).
 
@@ -217,11 +218,9 @@ The Publication tab allows you to edit or add information about the submission, 
 
 ![Highlighted location of Contributors and Metadata in the Publication tab.](./assets/learning-omp3.2-workflow-production-meta.png)
 
-__Title & Abstract__: Use this tab to edit the book title, subtitle, and abstract.
-If any changes are made, click Save before exiting this window.
+__Title & Abstract__: Use this tab to edit the book title, subtitle, and abstract. If any changes are made, click Save before exiting this window.
 
-__Contributors__: Use this tab to add, edit, or remove book contributors.
-If any changes are made, click Save before exiting this window.
+__Contributors__: Use this tab to add, edit, or remove book contributors. If any changes are made, click Save before exiting this window.
 
 __Chapters__: Use this tab to add multiple chapter files (if applicable)
 
@@ -277,7 +276,7 @@ To add publication formats, click __Add publication format__.
 
 Enter the format title, select format from the drop-down list and select the option that applies. Click OK to save.
 
-![Sample new publication format information entered in the upload form.](./assets/learning-omp3.2-workflow-production-formats-2.p
+!\[Sample new publication format information entered in the upload form.\](./assets/learning-omp3.2-workflow-production-formats-2.p
 
 ##### Add Publication Format files
 
@@ -380,8 +379,7 @@ Under the ‘Publish’ button, select the desired language. In the example abov
 
 ### Publish
 
-Now that you’ve entered all the relevant information and proofs for your manuscript in the publication and marketing tabs, and are ready to click the **Publish** button.
-![The Publish button.](./assets/learning-omp3.2-workflow-production-publish-1.png)
+Now that you’ve entered all the relevant information and proofs for your manuscript in the publication and marketing tabs, and are ready to click the **Publish** button. ![The Publish button.](./assets/learning-omp3.2-workflow-production-publish-1.png)
 
 This will prompt a secondary box confirming you want to publish.
 
