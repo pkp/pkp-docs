@@ -1,97 +1,96 @@
-# Planificación de una actualización mayor
+# Planning for a Major Upgrade
 
-Una vez que haya revisado las características de OJS 3 y haya decidido que desea continuar con la actualización, deberá realizar una planificación cuidadosa para garantizar un proceso sin problemas, una interrupción mínima en su calendario de publicaciones y un personal editorial feliz. Muchos de los cambios están relacionados con recursos humanos (es decir, formación y diseño visual), pero también técnicos, por lo que una comunicación clara es importante en cada etapa.
+Once you have reviewed the features of OJS 3 and decided you want to proceed with the upgrade, you will need to do some careful planning to ensure a smooth process, minimal disruption to your publication schedule, and a happy editorial staff. Many of the changes are human resources related (i.e., training and visual design), as well as technical, so clear communication is important at every stage.
 
-Los pasos principales para completar una actualización son los siguientes:
+The major steps in completing an upgrade are as follows:
+1. Decide if and when you’re ready to upgrade to OJS 3
+2. Decide which version of OJS 3 to upgrade to
+3. Communicate about the upgrade with your editorial team or journal contacts
+4. Ensure that your server meets the requirements of OJS 3 and modify if necessary
+5. Do an inventory
+6. Clean up existing user database
+7. Perform a sandbox or test upgrade
+8. Evaluate, test, and troubleshoot your sandbox OJS 3 site
+9. Plan for new theming/look and feel of the journal
+10. Confirm your team is ready for the production upgrade
+11. Schedule the production upgrade
+12. Set content freeze dates if necessary
+13. Perform the production upgrade
+14. Evaluate, test, and troubleshoot your new OJS 3 site
+15. Training and setup
 
-1. Decida si está listo para actualizar a OJS 3 y cuándo lo hará
-2. Decida a qué versión de OJS 3 actualizará
-3. Comunique la actualización a su equipo editorial o a los contactos de la revista
-4. Asegúrese de que su servidor cumple con los requisitos de OJS 3 y modifíquelo si es necesario
-5. Haga un inventario
-6. Limpie la base de datos de usuarios/as existente
-7. Realice un "sandbox" o una actualización de prueba
-8. Evalúe, pruebe y solucione problemas de su sitio "sandbox" OJS 3
-9. Planifique un nuevo "theming"/aspecto de la revista
-10. Confirme que su equipo está listo para la actualización de producción
-11. Programe la actualización de producción
-12. Establezca fechas de congelación de contenido si es necesario
-13. Lleve a cabo la actualización de producción
-14. Evalúe, pruebe y solucione problemas de su nuevo sitio OJS 3
-15. Formación y configuración
+This chapter focuses on the initial planning and human resources steps of the upgrade process. The next chapter covers technical steps.
 
-Este capítulo se centra en los pasos iniciales de planificación y recursos humanos del proceso de actualización. El siguiente capítulo cubre los pasos técnicos.
+## Decide if and when you want to upgrade
 
-## Decida si está listo para actualizar a OJS 3 y cuándo lo hará
+Development of OJS is ongoing and new versions with new features are released every few months. You can be strategic in deciding when to upgrade based on when desired features will be available. For example, if a particular plugin is important to your users and it will not be available for OJS 3 until next year, you may want to wait until next year to do your major upgrade. You may also want to wait until a new release of OJS has been fully tested and bug-free, which is sometimes not the case immediately after its official release. However, if OJS 3 has all of the main features you need, scheduling the upgrade will involve other considerations which are outlined in this chapter.
 
-El desarrollo de OJS sigue en curso y se lanzan nuevas versiones con nuevas características cada pocos meses. Puede ser estratégico al decidir cuándo actualizar en función de cuándo estarán disponibles las funciones deseadas. Por ejemplo, si un módulo en particular es importante para sus usuarios/as y no estará disponible para OJS 3 hasta el próximo año, puede esperar hasta el próximo año para llevar a cabo su actualización mayor. También puede esperar hasta que una nueva versión de OJS haya sido probada completamente y esté libre de errores, lo que a veces no sucede inmediatamente después de su lanzamiento oficial. Sin embargo, si OJS 3 tiene todas las características principales que necesita, la programación de la actualización implicará otras consideraciones que se describen en este capítulo.
+* Identify essential features used in your journal(s). You should discuss this with your editorial team(s) and ensure you have a full understanding of their needs and workflows.
+* Learn about OJS 3 and its features and functions
+* If a version of OJS 3 meets your needs, it’s time to prepare your journal teams for the upgrade. This can involve editorial, technical, and human resources support. You will need to coordinate the timing of the upgrade with everyone involved with the journal. The best general time to upgrade is when the journal is not in an active phase of the publishing cycle, and the specific time of the upgrade should be scheduled when all team members are available to perform the upgrade itself and to review the journal immediately after the upgrade for problems and to make any necessary changes.
 
-- Identifique las características esenciales utilizadas en su(s) revista(s). Debería discutir esto con su equipo editorial y asegurarse de comprender totalmente sus necesidades y flujos de trabajo.
-- Aprenda sobre OJS 3 y sus características y funciones
-- Si una versión de OJS 3 satisface sus necesidades, es hora de preparar a sus equipos de revistas para la actualización. Esto puede involucrar apoyo editorial, técnico y de recursos humanos. Deberá coordinar el momento de la actualización con todos los involucrados en la revista. Generalmente, el mejor momento para actualizar es cuando la revista no se encuentra en una fase activa del ciclo de publicación, y el momento específico de la actualización debe programarse cuando todos los miembros del equipo estén disponibles para realizar la actualización en sí y para revisar la revista inmediatamente después de la actualización por si surgieran problemas y se tuvieran que hacer los cambios necesarios para solucionarlos.
+For additional resources outlining the new features in OJS 3 and upgrade-related documents, see the Additional Resources section at the end of this guide.
 
-Para obtener recursos adicionales que describan las nuevas funcionalidades en OJS 3 y los documentos relacionados con la actualización, consulte la sección "Recursos adicionales" al final de esta guía.
+## Decide which version of OJS 3 to upgrade to
 
-## Decida a qué versión de OJS 3 quiere actualizar
+Generally you should upgrade to the latest version of OJS. However, if the latest version is a new major release (e.g., OJS 3.1.0, OJS 3.2.0), you may want to wait until the next minor release is available (e.g., OJS 3.1.0-1; OJS 3.2.0-1) because usually a new major release has a few unexpected bugs that will be fixed in the first minor release that follows. Check the [PKP website](https://pkp.sfu.ca/category/news/) for news about releases when making this decision.
 
-Generalmente, debería actualizar a la última versión de OJS. Sin embargo, si la última versión es una nueva versión mayor (por ejemplo, OJS 3.1.0, OJS 3.2.0), es posible que prefiera esperar hasta que la siguiente versión menor esté disponible (por ejemplo, OJS 3.1.0-1; OJS 3.2. 0-1) porque habitualmente una nueva versión principal tiene algunos errores inesperados que se solucionarán en la primera versión menor que sigue. Consulte el [https://pkp.sfu.ca/category/news/](sitio web de PKP) para obtener noticias sobre los lanzamientos y tomar esta decisión.
+## Plan your upgrade
 
-## Planifique su actualización
+Taking into account the steps involved, create a plan and timeline for the upgrade.
 
-Teniendo en cuenta los pasos necesarios, cree un plan y un cronograma para la actualización.
+## Communicate about the upgrade with your editorial team or journal contacts
 
-## Comunique la actualización a su equipo editorial o a los contactos de la revista
+Depending on whether you are an institution or publisher that hosts or supports multiple journals or if you are an administrator of a single journal, you may communicate directly with a journal’s editorial team or with a main contact at each journal who then communicates or supports an editorial team. Announce the upgrade to your editorial team or journal contacts. The upgrade will mainly affect Journal Managers, Editors, and Section Editors. They should be informed of the upcoming change, receive information about how to use the new version of OJS, and have input into the upgrade timeline. Reviewers and Authors are unlikely to be affected by the upgrade and will notice little change in their workflows.
 
-Dependiendo de si es una institución o un editor/a que aloja o apoya varias revistas, o de si es administrador/a de una sola revista, puede comunicarse directamente con el equipo editorial de una revista o con un contacto principal de cada revista, que luego se comunicará o dará soporte al equipo editorial. Anuncie la actualización a su equipo editorial o a los contactos de la revista. La actualización afectará principalmente a los administradores/as de revistas, a los editores/as y a los editores/as de sección. Estos deben estar informados del cambio, recibir información sobre cómo usar la nueva versión de OJS y participar en la cronología de la actualización. Es poco probable que los revisores/as y los autores/as se vean afectados por la actualización y notarán pocos cambios en sus flujos de trabajo.
+Determine what training and support will be needed by your editorial team before and after the upgrade and how it will be provided.
 
-Determine qué formación y soporte necesitará su equipo editorial antes y después de la actualización y cómo se proporcionará.
+## Ensure that your server meets the requirements of OJS 3 and modify if necessary
 
-## Asegúrese de que su servidor cumple con los requisitos de OJS 3 y modifíquelo si es necesario
-
-Los requisitos de servidor recomendados para OJS 3 son:
+The recommended server requirements for OJS 3 are:
 
 - PHP >= 7.2
-- MySQL >= 4.1 o PostgreSQL >= 9.1.5
-- Apache >= 1.3.2x o >= 2.0.4x o Microsoft IIS 6
-- Sistema operativo: cualquier sistema operativo que admita el software anterior, incluidos Linux, BSD, Solaris, Mac OS X, Windows
+- MySQL >= 4.1 or PostgreSQL >= 9.1.5
+- Apache >= 1.3.2x or >= 2.0.4x or Microsoft IIS 6
+- Operating system: Any OS that supports the above software, including Linux, BSD, Solaris, Mac OS X, Windows
 
-Como PKP no tiene los recursos para probar todas las combinaciones posibles de versiones de software y plataformas, no se garantiza el correcto funcionamiento ni el soporte. Agradecemos los comentarios de los usuarios/as que han implementado OJS en sistemas distintos a los mencionados anteriormente.
+As PKP does not have the resources to test every possible combination of software versions and platforms, no guarantee of correct operation or support is implied. We welcome feedback from users who have deployed OJS on systems other than those listed above.
 
-## Haga un inventario de su revista
+## Do an inventory of your journal
 
-Antes de continuar con la actualización, se recomienda encarecidamente que haga un inventario de su revista.
+Before proceeding with your upgrade it is strongly advised that you do an inventory of your journal.
 
-Durante la actualización, los siguientes elementos se moverán automáticamente de OJS 2 a OJS 3:
+During the upgrade the following items will automatically be moved from OJS 2 to OJS 3:
 
-- Envíos
-- Usuarios/as
-- Configuración de roles/permisos
-- Avisos
-- Secciones
+* Submissions
+* Users
+* Roles/Permission setting
+* Announcements
+* Sections
 
-Es aconsejable que **guarde una copia de todos los datos** que aparecen en las páginas de su revista para recuperarlos en OJS 3. También podría ser útil tener capturas de pantalla de toda la configuración de la revista en OJS 2 como referencia. Notará que se han realizado una serie de cambios entre OJS 2 y OJS 3, por lo que la información introducida en la configuración de OJS 2 deberá introducirse en diferentes lugares en OJS 3.
+It is advisable that you **save a copy all the data** that appears on your journal pages to be re-entered into OJS 3. It might also be useful to have screenshots of all the Journal Setup from OJS 2 for reference.  You will notice that there have been a number of changes that were made between OJS 2 and OJS 3, so information entered in Setup in OJS 2 will need to be entered in different places within OJS 3.
 
-Los elementos que deberán volver a crearse una vez que haya actualizado a OJS 3 son los siguientes:
+Items that will need to be re-created once you’ve upgraded to OJS 3 include the following:
 
-- Información de la revista: cabecera, equipo editorial, permisos, etc.
-- Personalizaciones: CSS, imágenes, códigos de color
-- Ajustes de configuración de la revista e información textual
-- Módulos
-- Páginas/Menús
-- Enlaces
-- Archivos
-- Plantillas de correo electrónico personalizadas
-- Formularios de revisión
-- Bloques personalizados
-- Cargas de PDF
+* Journal Information - Masthead, Editorial Team, Permissions, etc.
+* Customizations - CSS, images, color codes
+* Journal setup settings and textual information
+* Plugins
+* Pages/ Menus
+* Links
+* Files
+* Customized email templates
+* Reviewer Forms
+* Custom blocks
+* PDF uploads
 
-Le recomendamos que guarde las personalizaciones que haya realizado localmente en el "sandbox" (imágenes, CSS, textos) para volver a cargarlas según sea necesario en la versión de producción final.
+We recommend that you save any customizations you made to the sandbox (images, CSS, texts) locally to re-upload as necessary to the final production version.
 
-Si su instalación de OJS 2 tiene enlaces a archivos PDF cargados u otros archivos (por ejemplo, formularios de suscripción, acuerdos), estos deberán volver a cargarse en la Biblioteca editorial y actualizarse en el hipervínculo. El directorio de archivos de OJS 2 ya no funcionará después de la actualización.
+If your OJS 2 installation has links to uploaded PDFs or other files (e.g., subscription forms, agreements) these will need to be re-uploaded to the Publisher Library and updated in the hyperlink. The OJS 2 files directory will no longer be functional after the upgrade.
 
-## Limpie la base de datos de usuarios/as existente
+## Clean up existing user database
 
-La actualización de OJS 2 a OJS 3 también es una oportunidad para eliminar todos los usuarios/as que puedan ser spam, lo cual es un problema común en OJS, particularmente antes de que PKP implementara reCAPTCHA en el registro de la cuenta. Hay varias formas de identificar a estos usuarios/as, pero una opción es a través de los dominios de correo electrónico utilizados cuando el usuario/a se registró. Mediante la siguiente consulta SQL, usted o el administrador/a de su sistema pueden identificar los dominios para localizar posibles usuarios/as spam:
+The upgrade from OJS 2 to 3 is also an opportunity to clean up any users that may be spam users, which is a common issue in OJS, particularly for instances that existed before PKP implemented reCAPTCHA on account registration. There are several ways to identify these users, but one option is through the email domains used when the user signed up. Using the following SQL query, you or your system administrator can identify the domains in order to identify possible spam users:
 
 ```
 SELECT substring_index(email, '@', -1) domain, COUNT(*) email_count
@@ -101,8 +100,7 @@ GROUP BY substring_index(email, '@', -1)
 -- If you want to sort as well:
 ORDER BY email_count DESC, domain;
 ```
-
-Una vez que haya identificado los dominios que están conectados a los usuarios/as spam, puede usarlos para crear una lista de nombres de usuario/a para limpiar con una búsqueda:
+Once you’ve identified the domains that are connected to spam users, you can use these to create a list of usernames to clean up with a query:
 
 ```
 SELECT * FROM users
@@ -111,37 +109,36 @@ OR email LIKE "%morespam.com"
 ...
 ```
 
-Con esta lista de nombres de usuario, puede usar la herramienta de fusión de usuarios incorporada en OJS (en su directorio OJS en `tools/mergeUsers.php` ) para limpiar usuarios/as. Hemos creado un pequeño script bash para hacer esto, y PKP también tiene un proceso que recomiendan. Deberá crear una cuenta de usuario/a en la que se puedan fusionar todas las cuentas si aún no existe una. Tenga en cuenta que, si bien es casi imposible encontrar a todos los usuarios/as spam en una búsqueda extensa de OJS, es posible que pueda reducirlos significativamente, minimizando así la cantidad de datos en su caso y facilitando a los equipos de la revista la gestión de sus usuarios/as. Es importante utilizar la herramienta de fusión en lugar de eliminar usuarios/as spam de la lista de usuarios/as, ya que eliminar usuarios/as puede producir errores importantes en su instalación.
+With this list of usernames, you can then use OJS’s built-in user merging tool (in your OJS directory at `tools/mergeUsers.php`) to clean up users.We created a small bash script to do this, and PKP also has a process that they recommend. You’ll need to create a user account that all accounts can be merged into if one doesn’t already exist. Keep in mind that while it’s nearly impossible to find all the spam users in a large instance of OJS, you may be able to significantly clean these up, thereby reducing the amount of data in your instance and making it easier for journal teams to manage their users.  It is important to use the merging tool instead of deleting spam users from the users table, as deleting users can produce major errors in your installation.
 
-## Realice un "sandbox" o una actualización de prueba
+## Perform a sandbox or test upgrade
 
-Consulte la sección a continuación en [Actualización de su instancia de OJS - Paso  1 - Realizar una actualización Sandbox](./upgrading-ojs#step-1-perform-a-sandbox-upgrade)
+See the section below under [Upgrading Your OJS Instance - Step 1 - Perform a Sandbox Upgrade](./upgrading-ojs#step-1-perform-a-sandbox-upgrade)
 
-## Evalúe, pruebe y solucione problemas de su sitio "sandbox" OJS 3
+## Evaluate, test, and troubleshoot your sandbox OJS 3 site
 
-Haga que todos los miembros del equipo de la revista que usan regularmente el sitio (por ejemplo, los gestores/as de la revista, los editores/as y los editores/as de sección) revisen el sitio sandbox y aporten sus comentarios. Este es un excelente momento para proporcionar formación sobre el uso del nuevo sistema, si planea impartirla. Si descubre que alguna funcionalidad crítica no está disponible en la nueva versión, considere posponer la actualización o proponga ideas para adaptar las diferencias en la funcionalidad.
+Have all journal team members who regularly use the site (e.g., Journal Managers, Editors, and Section Editors) review the sandbox site and provide feedback. This is an excellent time to provide training in using the new system if you plan to do so. If you discover that critical functionality is not available in the new version, consider postponing the upgrade or brainstorm ways to accommodate the differences in functionality.
 
-Este es un excelente momento para revisar el flujo de trabajo de la revista. Es posible que el equipo de la revista quiera aprovechar las nuevas funciones o simplemente mejorar el flujo de trabajo existente mientras forma al equipo en el uso del nuevo sistema.
+This is an excellent time to review the journal’s workflow. The journal team may want to take advantage of new features or just improve the existing workflow while training the team on using the new system.
 
-Asegúrese de que el equipo de la revista comprende que los cambios realizados en el sitio sandbox no se incorporarán al sitio de producción hasta después de la actualización. Haga una lista de todos los cambios en el contenido y en la estructura solicitados durante la revisión del sitio de sandbox para que puedan aplicarse al sitio de producción inmediatamente después de la actualización.
+Make sure that the journal team understands that changes made to the sandbox site will not be incorporated into the production site upon upgrade. Keep a list of all changes to the content and structure requested during the review of the sandbox site so that these can be applied to the production site immediately after the upgrade.
 
-## Planifique un nuevo "theming"
+## Plan for new theming
 
-OJS 3 maneja el "theming" para el sitio web de manera diferente a las versiones anteriores del software, por lo que la apariencia de su revista cambiará. Tendrá nuevas opciones para personalizar el aspecto de su revista a través de la selección actual de temas.
+OJS 3 handles theming for the website differently than earlier versions of the software, so the look and feel of your journal will change. You will have new options for customizing this aspect of your journal site through the current selection of themes.
 
-Si ha aplicado temas personalizados a su revista en OJS 2, ese tema no se mostrará correctamente en OJS 3. Puede optar por usar uno de los temas disponibles en OJS 3 o crear un nuevo tema personalizado que funcione en OJS 3. Si crea un nuevo tema personalizado, debe desarrollarlo antes de la actualización para poder implementarlo en el sitio de producción inmediatamente después de la actualización. Consulte la [guía de diseño de su revista](https://docs.pkp.sfu.ca/designing-your-journal/en) de PKP para obtener ayuda para crear un aspecto personalizado de su revista. La [Guía de temas](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) de PKP se puede utilizar para desarrollar un tema personalizado para su revista.
+If you have applied custom theming to your journal in OJS 2, that theme will not display properly in OJS 3. You may opt to use one of the available themes in OJS 3 or create a new custom theme that works with OJS 3. If you create a new custom theme, you should develop this prior to the upgrade so that you can put it in place on the production site immediately after the upgrade. Please refer to PKP’s [Designing Your Journal guide](https://docs.pkp.sfu.ca/designing-your-journal/en) for help in creating a custom look and feel for your journal. PKP’s [Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) can be used to develop a custom theme for your journal.
 
-## Confirme que su equipo está listo para la actualización de producción
+## Confirm your team is ready for the production upgrade
 
-A pesar de que ha estado en comunicación con los distintos miembros del equipo durante este proceso, es importante consultar a cada miembro del equipo para confirmar que están listos para continuar con la actualización. La actualización de OJS 2 a OJS 3 es un cambio importante que, según la revista, puede involucrar a muchas partes interesadas, con roles grandes o pequeños, en la actualización. Consulte a cada miembro del equipo para confirmar que están listos para la actualización.
+Though you have been communicating with the various team members throughout this process, it is important to check in with each individual team member to confirm they are ready to proceed with the upgrade. Upgrading from OJS 2 to OJS 3 is a major change that, depending on the journal, can involve many stakeholders with big or small roles in the upgrade. Check in with each team member to confirm they are ready for the upgrade.
 
-## Programe la actualización de producción
+## Schedule the production upgrade
 
-Una vez que esté listo para continuar con la actualización, comunique al equipo(s) de la revista:
+Once you are ready to proceed with the upgrade, communicate to the journal team(s):
+* The upgrade date(s)
+* The downtime during which the journal website would not be available
+* Content freeze if you are pausing new content creation/modification prior to the upgrade
+* Support contacts for inquiries and assistance
 
-- La(s) fecha(s) de actualización
-- El tiempo de inactividad durante el cual el sitio web de la revista no estará disponible
-- La congelación del contenido si pone en pausa la creación/modificación de nuevo contenido antes de la actualización
-- Los contactos de soporte para consultas y asistencia
-
-Si la actualización implica tiempo de inactividad o una congelación de contenido nuevo, asegúrese de solicitar acuse de recibo por correo electrónico una vez que se anuncien las fechas.
+If the upgrade involves downtime or a freeze for new content, make sure to request email receipt confirmation once the dates are announced.
