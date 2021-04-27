@@ -1,54 +1,58 @@
-# Diferencias entre OJS 2 y OJS 3
+# Differences between OJS 2 and 3
 
-Aunque las características fundamentales de OJS son consistentes entre las versiones, hay algunos cambios y mejoras significativas en OJS 3. Las nuevas características en OJS 3 incluyen lo siguiente, algunas de las cuales se explican con más detalle a continuación:
+Although the fundamental features of OJS are consistent between versions, there are some significant changes and improvements in OJS 3. New features in OJS 3 include the following, some of which are explained in more detail below:
 
-- Diseño adaptable y optimizado para dispositivos móviles
-- Nuevos temas
-- Flujo de trabajo editorial flexible
-- Integración de módulos con ORCID, iThenticate, Publons y otros servicios externos
-- Registro de usuarios/as simplificado
-- Roles y permisos personalizables
-- Informes internos y estadísticos de uso ampliados
-- Soporte multilingüe para nombres de autor/a
-- Soporte para colecciones temáticas o categorías de artículos
+* Responsive, mobile-friendly design
+* New themes
+* Flexible editorial workflow
+* Plugin integration with with ORCID, iThenticate, Publons, and other external services
+* Simplified user registration
+* Customizable roles and permissions
+* Expanded internal and usage statistics reports
+* Multilingual author name support
+* Support for thematic collections or categories of articles
 
-## Interfaz de OJS 3
+For an overview of features you can look forward to seeing in OJS 3, see our [OJS 3 Features Overview](https://www.youtube.com/watch?feature=player_embedded&v=UFkEj2kXd-0&list=PLg358gdRUrDX7Ai8HcN2vqPM1g0HHG7nu) video below.
 
-Hay una nueva interfaz para lectores/as y editores/as que incluye una interfaz editorial distinta visualmente a la de la revista. Los usuarios/as con múltiples roles ya no están obligados a seleccionar un rol desde el área personal de su página de inicio para acceder a ciertas configuraciones o funciones administrativas. Todas las opciones disponibles se pueden localizar en el nuevo panel de instrumentos. Esto también permite un cambio continuo entre tareas asociadas a diferentes roles. La nueva interfaz se muestra a continuación y se explica en [Novedades de OJS 3](https://docs.pkp.sfu.ca/learning-ojs/es/introduction#novedades-en-ojs-31) .
+[![OJS 3 Features Overview](https://img.youtube.com/vi/UFkEj2kXd-0/0.jpg)](https://www.youtube.com/watch?feature=player_embedded&v=UFkEj2kXd-0&list=PLg358gdRUrDX7Ai8HcN2vqPM1g0HHG7nu)
 
-![](./assets/ojs-2-settings.png) | ![](./assets/ojs-3-dashboard.png)
-:---: | :---:
-Menú de configuración de OJS 2 después de seleccionar el rol de administrador/a del sitio | Panel de OJS 3 con menús de configuración en el panel izquierdo
+## OJS 3 interface
 
-## Flujo de trabajo de OJS 3
+There is a new interface for readers and editors, including a separate editorial interface that is visually distinct from the journal. Users with multiple roles are no longer required to select a role from their user homepage in order to access certain settings or administrative features; all the available options can be located in the new dashboard. This also allows for seamless switching between tasks associated with different roles. The new interface is illustrated below and explained in [What’s New in OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/introduction#whats-new-in-ojs-3).
 
-El flujo de trabajo editorial de OJS 3 se ha mejorado significativamente para que sea más flexible, lo que puede significar un gran cambio para sus editores/as. OJS 3 consta de 4 etapas editoriales, y cualquiera de ellas se puede omitir fácilmente:
+|                ![](./assets/ojs-2-settings.png)                 |           ![](./assets/ojs-3-dashboard.png)           |
+|:---------------------------------------------------------------:|:-----------------------------------------------------:|
+| OJS 2 settings menu after selecting the Site Administrator Role | OJS 3 Dashboard with settings menus on the left panel |
 
-1. Envío, en la que se tratan los envíos nuevos (rechazados, asignados a editores/as de sección, etc.)
-2. Revisión, en la que tienen lugar la revisión por pares y las revisiones de los autores
-3. Edición, en la que los archivos revisados se envían para su corrección
-4. Producción, en la que la versión final editada se convierte a formatos publicables (PDF, HTML, etc.), se revisa y se programa para su publicación.
+## OJS 3 workflow
 
-Otra nueva característica editorial es la introducción de una función de discusión interna para cada etapa editorial (Envío, Revisión, Edición, Producción). Estas discusiones funcionan de manera muy similar a un foro en línea: un usuario/a crea un tema de discusión, invita a otras personas a participar y les envía un mensaje con archivos adjuntos relevantes.
+The editorial workflow in OJS 3 has been significantly revamped to be more flexible, which can be a large adjustment for your editors. OJS 3 consists of 4 editorial stages, any of which can be easily skipped:
+
+1. Submission, where new submissions are dealt with (rejected, assigned to section editors, etc.)
+2. Review, where peer review and author revisions take place
+3. Copyediting, where the reviewed and revised files are sent for copyediting
+4. Production, where the final, copyedited version is converted into publishable formats (PDF, HTML, etc.), proofread, and scheduled for publication.
+
+Another new editorial feature is the introduction of an internal discussion feature for each editorial stage (Submission, Review, Copyediting, Production). These discussions work much like an online forum — a user creates a discussion topic, invites others to participate, and sends a message with any relevant attachments.
 
 ![](./assets/ojs-3-discussions.png)
 
-## Estadísticas
+## Statistics
 
-El tipo de informes estadísticos disponibles y la forma en que se generan es otro cambio clave entre las versiones. Si su revista utiliza informes estadísticos, lea la [Guía de estadísticas](https://docs.pkp.sfu.ca/admin-guide/en/statistics), que explica los diversos tipos de informes disponibles en cada versión y proporciona información sobre cómo actualizar las revistas con datos heredados de Ver informe.
+The type of statistics reports available and the way they are generated is another key change between versions. If your journal makes use of statistics reports, read the [Statistics guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics), which explains the various types of reports available in each version and provides information on upgrading journals with legacy View Report data.
 
-OJS 3 tiene nuevas características estadísticas, como un panel visual de estadísticas de uso para editores/as y administradores/as de revistas, y la capacidad de mostrar las estadísticas de uso de un artículo en la parte pública para el lector.
+OJS 3 has new statistics features such as a visual dashboard of usage statistics for editors and journal managers and the ability to display an article’s usage statistics on the reader front end.
 
-## Características descartadas
+## Missing features
 
-También hay algunas características de OJS 2 que se han descartado o que aún están en desarrollo para OJS 3, incluidas las siguientes:
+There are also some features from OJS 2 that are missing or still in development for OJS 3, including the following:
 
-- Algunos módulos no se han portado a OJS 3, entre ellos Books for Review y Dataverse
-- La administración de plantillas de correo electrónico y la administración de notificaciones de usuario/a aún se están perfeccionando
-- La funcionalidad de pagos y suscripciones está menos desarrollada y algunas funciones no están disponibles, incluidas las donaciones
+* Some plugins have not been ported to OJS 3, including Books for Review and Dataverse
+* Email template management and user notification management is still being refined
+* Payments and subscriptions functionality is less developed and some features are not available, including donations
 
-Es importante hacer un inventario de sus módulos y características más útiles y más utilizados y comprobar la disponibilidad en la versión más reciente de OJS antes de decidir actualizar.
+It is important to take an inventory of your useful and frequently used plugins and features and their availability for the newer version of OJS before deciding to upgrade.
 
-Por último, las actualizaciones y desarrollos de OJS 3 siguen en curso. Si no está seguro sobre el estado de una característica o módulo en OJS 3, busque en el [Foro de la comunidad](https://forum.pkp.sfu.ca/) y en el [repositorio Github de PKP](https://github.com/pkp/pkp-lib/issues) para ver si se está trabajando activamente en ello. También puede solicitar nuevas funciones o cambios en funciones ya existentes, que mejorarán OJS.
+Lastly, updates and developments to OJS 3 are ongoing. If you are unsure about the status of a feature or plugin in OJS 3, search on the [PKP Community Forum](https://forum.pkp.sfu.ca/) and [PKP’s GitHub repository](https://github.com/pkp/pkp-lib/issues) to see if it is actively being worked on. You can also request new features or tweaks to features that will improve OJS.
 
-Para obtener recursos adicionales sobre las diferencias entre OJS 2 y OJS 3, consulte la sección "Recursos adicionales" al final de esta guía.
+For additional resources on the differences between OJS 2 and 3 see the Additional Resources section at the end of this guide.
