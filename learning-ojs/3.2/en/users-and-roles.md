@@ -36,7 +36,7 @@ To send an email to a user that is unrelated to a submission:
 3. Click the blue arrow next to the user’s name to reveal links below it
 4. Click Email. A pop-up box will appear where you can type in your message and send it
 
-![Email pop-up box for emailing a user]](./assets/learning-ojs-3-users-email.png)
+!\[Email pop-up box for emailing a user]\](./assets/learning-ojs-3-users-email.png)
 
 You cannot email multiple users at the same time except by using the Announcements feature. See the [Workflow Settings chapter](./settings-workflow) for instructions on how to send announcements. It is also not possible to send a message to all users in one role, such as all reviewers registered on your site.
 
@@ -133,19 +133,16 @@ If the user still cannot log in, their account may have been disabled. To re-ena
 
 ## Permissions and Roles in OJS
 
-The OJS workflow revolves around different roles with different permissions and responsibilities for each user, allowing them access to different parts of the workflow. Users in the system must have at least one role. Users can also have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal. 
+The OJS workflow revolves around different roles with different permissions and responsibilities for each user, allowing them access to different parts of the workflow. Users in the system must have at least one role. Users can also have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
 
-Each role is first assigned a permission level, which will broadly define what level of access a user has to a particular journal. Roles are then further customized by providing a position name, and granting or restricting access to various stages of the Editorial Workflow. 
+Each role is first assigned a permission level, which will broadly define what level of access a user has to a particular journal. Roles are then further customized by providing a position name, and granting or restricting access to various stages of the Editorial Workflow.
 
 There are a number of predefined roles that you can use and edit in OJS. Read in-depth about these predefined roles organized by their permissions level. Italicized roles are new in OJS 3.
- 
+
 * The **Site Administrator** is a single user responsible for administration of the entire OJS installation. This permissions level will not appear in user lists or in role settings.
-* **Journal Managers** have access to the entire Editorial Workflow, as well as all other journal settings.
-Available predefined Journal Manager roles: Journal Manager, Journal Editor (formerly “Editor” in OJS 2), Production Manager
-* **Section Editors** have access to the entire Editorial Workflow, but cannot make any changes to journal settings.
-Available predefined Section Editor roles: Section Editor, *Guest Editor*
-* **Assistants** can access only the parts of the Editorial Workflow assigned to their role.
-Available predefined Assistant roles and their assigned editorial workflow stages:
+* **Journal Managers** have access to the entire Editorial Workflow, as well as all other journal settings. Available predefined Journal Manager roles: Journal Manager, Journal Editor (formerly “Editor” in OJS 2), Production Manager
+* **Section Editors** have access to the entire Editorial Workflow, but cannot make any changes to journal settings. Available predefined Section Editor roles: Section Editor, *Guest Editor*
+* **Assistants** can access only the parts of the Editorial Workflow assigned to their role. Available predefined Assistant roles and their assigned editorial workflow stages:
     * Submission & Review stages: *Funding coordinator*
     * Copyediting stage: Copyeditor, *Marketing and sales coordinator*
     * Production Stage: *Designer*, *Indexer*, Layout Editor, Proofreader
@@ -160,7 +157,7 @@ Predefined and custom roles can be checked from the Roles tab.
 
 From this page, you can see each role, and the editorial stage each role can access. A good example of this is the Copyeditor role, which can only access the copyediting stage. Copyeditors cannot jump to the Review stage to see what happened during the peer review process. See the Editorial Workflow chapter for more information about the different editorial stages.
 
-In addition to assigning and editing the predefined roles, Site Administrators and Journal Managers can also create new roles or rename existing ones. 
+In addition to assigning and editing the predefined roles, Site Administrators and Journal Managers can also create new roles or rename existing ones.
 
 
 ### Editing Roles
