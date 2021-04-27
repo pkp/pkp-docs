@@ -1,6 +1,6 @@
 # Database Interaction with DAOs
 
-The following code snippet retrieves an article object using the article ID supplied in the ``$articleId`` variable, changes the title, and updates the database with the new values.
+The following code snippet retrieves an article object using the article ID supplied in the `$articleId` variable, changes the title, and updates the database with the new values.
 
 **Example 3.2. Retrieving an Article Object**
 
