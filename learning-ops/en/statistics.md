@@ -2,6 +2,7 @@
 book: learning-ops
 version: 3.3
 ---
+
 # Statistics
 
 This chapter of Learning OPS provides a general overview of statistics available in Open Preprint Server (OPS). For more detailed information on statistics and usage guidelines, please see the Statistics chapter on the [PKP Administrator’s Guide](/admin-guide/en/statistics).
