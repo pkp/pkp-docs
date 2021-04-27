@@ -2,7 +2,7 @@
 
 OJS provides a number of statistical and reporting features for your journal. To access them, go to the Journal Management Pages and select **Stats & Reports**.
 
-![Journal Management Pages: Stats &amp; Reports](images/chapter5/jm_stats_reports.png)
+![Journal Management Pages: Stats & Reports](images/chapter5/jm_stats_reports.png)
 
 ### Statistics
 
@@ -18,7 +18,7 @@ The Reports section provides spreadsheets of data on all of the articles submitt
 
 The following reports are offered in CSV format:
 
-* **View Report** summarizes abstract view counts, and total counts for galley views on a per-article basis for every published article. 
+* **View Report** summarizes abstract view counts, and total counts for galley views on a per-article basis for every published article.
 * **Articles Report** summarizes all of the articles in your journal with title, author and status data.
 * **Subscriptions Report** summarizes membership information for individual and institutional subscriptions
 * **Review Report **summarizes the review activities including article and reviewer names, and dates of assignments.
