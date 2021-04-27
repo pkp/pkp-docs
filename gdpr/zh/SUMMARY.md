@@ -1,0 +1,18 @@
+# Table of contents
+
+* [GDPR Guidebook for PKP Users](.)
+* [Introduction](introduction.md)
+* [Key Terms](key-terms.md)
+* [What’s the Deal?](whats-the-deal.md)
+* [Scholarly Publishing, Data Privacy, and the Public Interest](scholarly-publishing.md)
+* [What Data do PKP Applications Process?](what-data.md)
+  * [User Registration Data](./what-data.md#user-registration-data)
+  * [Contributor Metadata](./what-data.md#contributor-metadata)
+  * [Workflow Data](./what-data.md#workflow-data)
+  * [General Visitor Information](./what-data.md#general-visitor-information)
+* [What Policies Should Publishers Provide and Where?](what-policies.md)
+  * [1. Consent Policy for Registration and Contributor Data Collection](./what-policies.md#1-consent-policy-for-registration-and-contributor-data-collection)
+  * [2. Privacy Policy](./what-policies.md#2-privacy-policy)
+  * [3. Cookie Policy](./what-policies.md#3-cookie-policy)
+* [Configuration Recommendations for GDPR Compliance](configuration-options.md)
+* [FAQ](gdpr-faq.md)
