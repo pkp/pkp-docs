@@ -24,8 +24,9 @@ This provides a log of the entire build process including the logs from the Cypr
 
 ![Short video showing how to access the raw log of build results](./travis-log-raw.gif)
 
-> When viewing the raw log, run a search in your browser for "fatal". This is a quick way to find the source of many -- _but not all_ -- test failures.
-{:.tip}
+> When viewing the raw log, run a search in your browser for "fatal". This is a quick way to find the source of many -- _but not all_ -- test failures. 
+> 
+> {:.tip}
 
 ### Travis debug mode
 
@@ -47,8 +48,9 @@ When the tests run with these settings, the log will contain a uuencoded dump of
 uudecode /path/to/log.txt | tar xvz
 ```
 
-> If you are struggling to understand a test failure in Travis, it may be best to run the tests locally where you have more insight into the state of the application.
-{:.tip}
+> If you are struggling to understand a test failure in Travis, it may be best to run the tests locally where you have more insight into the state of the application. 
+> 
+> {:.tip}
 
 ---
 
