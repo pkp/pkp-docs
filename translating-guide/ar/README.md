@@ -1,6 +1,10 @@
+---
+book: translating-guide
+version: 3.2
+---
 
-# دليل الترجمة في مشروع المعرفة العامة
+# PKP Translating Guide
 
-إن برامجيات مشروع المعرفة العامة تتضمن تطبيقات مشهورة مثل نظام المجلات المفتوحة، Open Monograph Press، ونظام المؤتمرات المفتوحة. هذه التطبيقات يمكنها استعمال لغات متعددة لواجهة المستخدم، المراسلات الالكترونية، إلخ. نظام المجلات المفتوحة على وجه الخصوص قد تمت ترجمته إلى العديد من اللغات.بعض تلك الترجمات غير مكتمل، وتلك التطبيقات يجري تحديثها دورياً.
+The PKP Translating Guide is for users who want to create or edit a translation of a PKP software application. It explains how languages and locales work, how to create new translations and edit existing translations, how to customize a translation locally, and how to work with the translation community.
 
-المترجمون عبر العالم يساهمون معنا في مهمة كبيرة لتوفير النظام وأدبياته في تلك اللغات. إنهم من خلفيات متنوعة؛ وهذه الويقة تهدف إلى مساعدة المساهمين الحاليين والجدد على استعاب الكيفية التي تعمل بها الترجمات وكيف لهم أن يشاركوا فيها. فضلاً عن ذلك، الوثيقة تشير إلى موارد مفيدة أخرى.
+Starting with OJS/OMP/OPS 3.2, PKP is using Weblate to manage and do translations of OJS, OMP and OPS. Previously PKP used the Translator Plugin and direct editing of the XML locale files. [The previous version of the PKP Translating Guide](/translating-guide/3.1/en/) explains how to translate with these tools. This guide explains how to use Weblate.
