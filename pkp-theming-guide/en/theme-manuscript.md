@@ -1,6 +1,6 @@
 # Manuscript Theme
 
-Manuscript is a clean, simple theme with a boxed layout that mimics a paper document. 
+Manuscript is a clean, simple theme with a boxed layout that mimics a paper document.
 
 [This OJS site](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/manuscript) demonstrates the Manuscript theme.
 
