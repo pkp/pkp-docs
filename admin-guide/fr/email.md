@@ -1,219 +1,219 @@
 # Email
 
-Ce chapitre explique comment les emails sont envoyés dans OJS, OMP et OCS; les options de configuration disponibles; et comment résoudre les problèmes de messagerie.
+This chapter explains how emails are sent in OJS, OMP, and OCS; the configuration options that are available; and how to troubleshoot email issues.
 
-Le courrier dans les applications logicielles PKP utilise [la bibliothèque PHPMailer](https://github.com/PHPMailer/PHPMailer) . Vous pouvez en savoir plus à propos de PHPMailer sur [leur wiki](https://github.com/PHPMailer/PHPMailer/wiki). D'autres codes liés au courrier peuvent être trouvés dans [la classe mail pkp-lib](https://github.com/pkp/pkp-lib/tree/main/classes/mail) .
+Mail in PKP software applications uses [the PHPMailer library](https://github.com/PHPMailer/PHPMailer). You can find out more about PHPMailer on [their wiki](https://github.com/PHPMailer/PHPMailer/wiki). Other code related to mail can be found in [the pkp-lib mail class](https://github.com/pkp/pkp-lib/tree/main/classes/mail).
 
-Les enregistrements des emails envoyés sont stockés dans la table `email_log` de la base de données.
+Records of emails that are sent are stored in the `email_log` table of the database.
 
-Les applications logicielles PKP offrent un certain nombre d'options pour configurer les emails afin qu'ils fonctionnent dans votre environnement. Les options de configuration suivantes sont disponibles pour les emails dans `config.inc.php` :
+PKP software applications provide a number of options for configuring emails to work in your environment. The following configuration options are available for email in `config.inc.php`:
 
 ```
 ;;;;;;;;;;;;;;;;;;
-; Paramètres d'emails ;
+; Email Settings ;
 ;;;;;;;;;;;;;;;;;;
 
 [email]
 
-; Utilisez SMTP pour envoyer du mail au lieu de mail()
-; smtp = on
+; Use SMTP for sending mail instead of mail()
+; smtp = On
 
-; Paramètres du serveur SMTP
+; SMTP server settings
 ; smtp_server = mail.example.com
 ; smtp_port = 25
 
-; Activer l'authentification SMTP
-; Mécanismes pris en charge: ssl, tls
+; Enable SMTP authentication
+; Supported mechanisms: ssl, tls
 ; smtp_auth = ssl
-; smtp_username = nom d'utilisateur
-; smtp_password = mot de passe
+; smtp_username = username
+; smtp_password = password
 
-; Autoriser la spécification de l'expéditeur de l'enveloppe
-; (peut ne pas être possible avec certaines configurations de serveur)
+; Allow envelope sender to be specified
+; (may not be possible with some server configurations)
 ; allow_envelope_sender = Off
 
-; Expéditeur d'enveloppe par défaut à utiliser si aucun n'est spécifié ailleurs
-; default_envelope_sender = mon_adresse@my_host.com
+; Default envelope sender to use if none is specified elsewhere
+; default_envelope_sender = my_address@my_host.com
 
-; Forcer l'expéditeur d'enveloppe par défaut (si présent)
-; Ceci est utile si vous configurez une adresse de non-réponse à l'échelle du site
-; Le champ de réponse sera défini avec l'adresse de réponse ou l'adresse initiale.
+; Force the default envelope sender (if present)
+; This is useful if setting up a site-wide no-reply address
+; The reply-to field will be set with the reply-to or from address.
 ; force_default_envelope_sender = Off
 
-; Forcer un DMARC conforme à partir de l'en-tête (RFC5322.From)
-; Si l'un de vos utilisateurs possède des adresses email dans des domaines qui ne sont pas sous votre contrôle
-; vous devrez peut-être les configurer pour être conforme aux politiques DMARC publiées par
-; ces domaines tiers.
-; Ce réglage déplacera l'adresse des utilisateurs dans le champ de réponse et
-; from field sera réécrit avec default_envelope_sender.
-; Pour l'utiliser, vous devez définir force_default_enveloper_sender = On et
-; default_envelope_sender doit être défini sur une adresse valide dans un domaine que vous possédez.
+; Force a DMARC compliant from header (RFC5322.From)
+; If any of your users have email addresses in domains not under your control
+; you may need to set this to be compliant with DMARC policies published by
+; those 3rd party domains.
+; Setting this will move the users address into the reply-to field and the
+; from field wil be rewritten with the default_envelope_sender.
+; To use this you must set force_default_enveloper_sender = On and
+; default_envelope_sender must be set to a valid address in a domain you own.
 ; force_dmarc_compliant_from = Off
 
-; Le nom d'affichage à utiliser avec un DMARC doit conformer à celui de l'en-tête
-; Par défaut, le DMARC compatible de aura un nom vide mais cela peut
-; être modifié en ajoutant un texte ici.
-; Vous pouvez utiliser '%n' pour insérer le nom de l'utilisateur à partir de l'original de l'en-tête
-; et '%s' pour insérer le nom de site localisé.
+; The display name to use with a DMARC compliant from header
+; By default the DMARC compliant from will have an empty name but this can
+; be changed by adding a text here.
+; You can use '%n' to insert the users name from the original from header
+; and '%s' to insert the localized sitename.
 ; dmarc_compliant_from_displayname = '%n via %s'
 ```
 
-Pour en savoir plus sur les emails dans l'interface utilisateur OJS, voir [Apprendre OJS 3](/learning-ojs/fr/) .
+To find out more about email within the OJS user interface, see [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/).
 
-## Envoi de Mail
+## Sending Mail
 
-Par défaut, PHPMailer enverra le mail via la fonction `mail()` intégrée de PHP.
+By default, PHPMailer will send mail through PHP's built-in `mail()` facility.
 
-Sur Windows, PHP doit être configuré pour envoyer des emails via un serveur SMTP (fonctionnant soit sur la même machine, ou sur une autre machine).
+On Windows, PHP needs to be configured to send email through a SMTP server \(running either on the same machine or on another machine\).
 
-Sur d'autres plates-formes telles que Linux et Mac OS X, PHP enverra du courrier en utilisant le client sendmail local, donc un MTA local tel que Sendmail ou Postfix doit être exécuté et configuré pour autoriser le courrier sortant.
+On other platforms such as Linux and Mac OS X, PHP will sent mail using the local sendmail client, so a local MTA such as Sendmail or Postfix must be running and configured to allow outgoing mail.
 
-Voir [https://www.php.net/manual/en/function.mail.php](https://www.php.net/manual/en/function.mail.php) pour plus de détails sur la configuration de la fonctionnalité de messagerie de PHP.
+See [https://www.php.net/manual/en/function.mail.php](https://www.php.net/manual/en/function.mail.php) for more details on configuring PHP's mail functionality.
 
-Notre logiciel peut aussi être configuré pour utiliser un serveur SMTP comme spécifié dans `config.inc.php`, avec ou sans authentification.
+Our software can also be configured to use an SMTP server as specified in `config.inc.php`, either with or without authentication.
 
-## Définir une Adresse de Rebond
+## Setting a Bounce Address
 
-Afin de contrôler l'adresse à laquelle un email rejetté sera envoyé, vous devez définir l'adresse de l'expéditeur de l'enveloppe. Activez l'option `allow_envelope_sender` dans la section `[email]` du fichier de configuration; lorsque cette option est activée, un champ "Adresse de rebond" apparaît dans la section Email sous Configuration.
+To control the address to which a bounced email will be sent, you need to set the envelope sender address. Enable the `allow_envelope_sender` option in the `[email]` section of the configuration file; when this option is enabled, a "Bounce Address" field appears in the Email section under Setup.
 
-Notez que cette option peut nécessiter des modifications de la configuration du serveur mail du serveur afin que l'utilisateur que le serveur Web exécute (par exemple "www-data") soit approuvé par le programme sendmail; sinon, un en-tête "X-Warning" sera ajouté aux messages sortants. Consultez la documentation de votre serveur mail si les emails sortants incluent un tel en-tête.
+Note that this option may require changes to the server's mail server configuration so that the user the web server runs as \(e.g. "www-data"\) is trusted by the sendmail program; otherwise an "X-Warning" header will be added to outgoing messages. Consult your mail server's documentation if outgoing mails include such a header.
 
-Par exemple, Sendmail garde une liste d'utilisateurs de confiance dans `/etc/mail/trusted-users`; d'autres systèmes de messagerie utilisent des fichiers similaires.
+For example, Sendmail keeps a list of trusted users in `/etc/mail/trusted-users`; other mail systems use similar files.
 
-L'option de ligne de commande utilisée pour définir l'expéditeur de l'enveloppe est `-f`.
+The command-line option used to set the envelope sender is `-f`.
 
-## Email et Lieux
+## Email and Locale
 
-Les modèles de courrier électronique sont installés directement dans la base de données lors de la création d'un journal, d'une presse ou d'une conférence. Si vous avez besoin de modifier [un fichier local](https://github.com/pkp/ojs/blob/stable-3_1_2/locale/en_US/emailTemplates.xml), toute modification apportée à votre fichier de modèle ne sera pas prise en compte tant que vous n'aurez pas rechargé tous les modèles dans le système.
+Email templates are installed directly in the database when a journal, press, or conference is created. If you need to edit [a locale file](https://github.com/pkp/ojs/blob/stable-3_1_2/locale/en_US/emailTemplates.xml), any change in your template file will not be reflected until you reload all templates in the system.
 
-Le rechargement des modèles remplacera toutes les modifications que vous avez faites. Pour garder ces modifications, vous devrez enregistrer ces modifications localement et les rajouter aux modèles là où nécessaire.
+Reloading templates will override any modifications that you may have made. To keep those modifications, you will need to save these modification locally and re-add them to templates as required.
 
-## Contacts Principaux et Techniques
+## Primary and Technical Contacts
 
-Toutes les applications PKP nécessitent que les contacts principaux et techniques soient configurés sous Configuration pour des opérations quotidiennes appropriées. Ceci est nécessaire pour chaque journal, presse, ou conférence du système.
+All PKP applications require that primary and technical contacts are configured under Setup for proper daily operations. This is required for every journal, press, or conference in the system.
 
-- Dans OJS 2.x, cela peut être fait dans *Setup Step 1* .
-- Dans OCS 2.x, cela peut être fait dans *Website Management Step 1*.
-- Dans OJS/OMP 3.x, cela peut être fait sous *Settings > Journal > Contact*.
+- In OJS 2.x, this can be done under _Setup Step 1_.
+- In OCS 2.x, this can be done under _Website Management Step 1_.
+- In OJS/OMP 3.x, this can be done under _Settings &gt; Journal &gt; Contact_.
 
-## Validation des Emails pour les Nouveaux Utilisateurs
+## Email Validation for New Users
 
-OJS fournit un formulaire d'auto-inscription à tous les utilisateurs qui peut être désactivé ou réactivé sous *Menu Admin > Utilisateur et Rôles > Options d'Accès au Site > Enregistrement Utilisateur*
+OJS provides a self-registration form to all users which can be disabled or re-enabled under _Admin Menu > User & Roles > Site Access Options > User Registration_
 
-Une fois activée, chaque utilisateur sera capable de s'inscrire et créer un compte dans le Journal avec un rôle de lecteur, d'auteur et/ou de réviseur; cependant, il n'est pas inhabituel pour les utilisateurs de créer des comptes spam qui encombreront la liste des utilisateurs légitimes et augmenteront la charge de travail des éditeurs de journaux pour vérifier ces comptes et les nettoyer manuellement.
+Once this is enabled, every user is able to register and create an account in the Journal with a role as reader, author, and/or reviewer; however, it is not unusual for users to create spam accounts that will clutter the list of legitimate users and increase the workload for Journal Editors to verify these accounts and clean them up manually.
 
-La création de compte spam en masse peut être réduite avec deux paramètres dans `config.inc.php` :
+Mass spam account creation can be reduced with two settings in `config.inc.php`:
 
 ```
-; Si activée, les adresses email doivent être validées avant que la connexion ne soit possible.
+; If enabled, email addresses must be validated before login is possible.
 require_validation = Off
 
-; Nombre maximum de jours avant l'expiration et la suppression d'un compte non validé
+; Maximum number of days before an unvalidated account expires and is deleted
 validation_timeout = 14
 ```
 
-Le premier paramètre est `require_validation` , qui est défini pour être `Off` par défaut. Lorsqu'il est défini pour être  `On` , ce paramètre exigera que chaque nouvel utilisateur active son compte avant de pouvoir utiliser le système pleinement.
+The first parameter is `require_validation`, which is set to `Off` by default. When set to `On`, this parameter will require that every new user activates their account before being able to fully use the system.
 
-Le second paramètre est `validation_timeout`, qui est défini pour être  `14` par défaut. Ce paramètre ne fonctionne que lorsque la commande `require_validation` est activée et signifie qu'un utilisateur dispose de 14 jours pour activer son nouveau compte ou le compte sera automatiquement supprimé du système lorsque la limite de temps sera atteinte.
+The second parameter is `validation_timeout`, which is set to `14` by default. This parameter only works when the `require_validation` is enabled, and means that a user has 14 days to activate their new account or the account will be removed from the system automatically when the time limit is reached.
 
-## Configurer le Système pour Utiliser Gmail SMTP
+## Configuring the System to use Gmail SMTP
 
-Afin d'utiliser Gmail SMTP pour envoyer des emails depuis OJS, vous pouvez utiliser les paramètres suivants dans `config.inc.php`.
+To use Gmail SMTP to send email from OJS, you can use the following settings in `config.inc.php`.
 
-Pour OJS 2.x:
+For OJS 2.x:
 
 ```
-; Utilisez SMTP pour envoyer du mail au lieu de mail ()
+; Use SMTP for sending mail instead of mail()
 smtp = On
 
-; Paramètres du serveur SMTP
-smtp_server = "ssl: //smtp.gmail.com"
+; SMTP server settings
+smtp_server = "ssl://smtp.gmail.com"
 smtp_port = 465
 
-; Activer l'authentification SMTP
+; Enable SMTP authentication
 smtp_auth = PLAIN
-smtp_username = "utilisateur@gmail.com"
-smtp_password = "mot de passe"
+smtp_username = "user@gmail.com"
+smtp_password = "password"
 ```
 
-Pour OJS 3.x:
+For OJS 3.x:
 
 ```
-; Utilisez SMTP pour envoyer du mail au lieu de mail ()
+; Use SMTP for sending mail instead of mail()
 smtp = On
 
-; Paramètres du serveur SMTP
+; SMTP server settings
 smtp_server = smtp.gmail.com
 smtp_port = 465
 
-; Activer l'authentification SMTP
+; Enable SMTP authentication
 smtp_auth = ssl
-smtp_username = "utilisateur@gmail.com"
-smtp_password = "mot de passe"
+smtp_username = "user@gmail.com"
+smtp_password = "password"
 ```
 
-Des informations supplémentaires sur Gmail SMTP sont disponibles sur [adresse https://support.google.com/a/answer/176600?hl=fr](https://support.google.com/a/answer/176600?hl=en) .
+Additional information about Gmail SMTP is available at [https://support.google.com/a/answer/176600?hl=en](https://support.google.com/a/answer/176600?hl=en).
 
-Notez que vous devrez peut-être aussi configurer des mots de passe spécifiques à l'application dans Gmail; voir [https://support.google.com/accounts/answer/185833?hl=fr](https://support.google.com/accounts/answer/185833?hl=en) pour plus de détails.
+Note that you may have to additionally configure application-specific passwords in Gmail; see [https://support.google.com/accounts/answer/185833?hl=en](https://support.google.com/accounts/answer/185833?hl=en) for details.
 
-## Problèmes SPF et DMARC
+## SPF and DMARC Issues
 
 ### Sender Policy Framework (SPF)
 
-Le Sender Policy Framework (SPF) se base sur l'autorisation qu'un serveur, qui peut exécuter OJS, reçoit d'un autre serveur qui héberge le domaine principal. Cela autorise le serveur OJS à envoyer des e-mails en utilisant ce domaine et empêche les messages d'être bloqués.
+The Sender Policy Framework (SPF) relies on permission that a server, which may be running OJS, receives from another server which hosts the main domain. This authorizes the OJS server to send emails using that domain and prevents messages from being blocked.
 
-SPF est requis quand votre installation OJS s'exécute sur un serveur différent, y compris un sous-domaine, de votre domaine principal; Par exemple, lorsque vous hébergez un journal situé sur journal.domain.com sur un serveur situé en dehors de l'institution qui héberge domain.com.
+SPF is required when your OJS installation runs on a different server, including a subdomain, from your main domain; For instance, when you host a journal located at journal.domain.com on a server located outside of the institution which hosts domain.com.
 
-Dans cette situation, vous devrez demander à votre personnel des services informatiques d'activer une entrée TXT dans votre zone DNS, qui vous permet l'envoi d'e-mails et de notifications au nom de @domain.com. Voici un exemple de scénario possible où un enregistrement SPF est requis:
+In this situation, you will have to ask your IT services staff to enable a TXT entry in your DNS zone, which grants sending emails and notifications on behalf of @domain.com. Below is an example of a possible scenario where a SPF record is required:
 
-Serveur exécutant OJS:
+Server running OJS:
 
 ```
 IP: 10.10.10.10
-Server name: myojsserver.com (il ne s'agit pas de votre domaine, mais uniquement d'un nom de serveur défini par votre fournisseur hôte OJS)
+Server name: myojsserver.com (this is not your domain, but only a server name which is defined by your OJS host vendor)
 ```
 
-Ce serveur devra être inclus dans votre zone DNS en tant qu'enregistrement SPF TXT. Dans ce cas, vous devrez ajouter les éléments suivants:
+This server will need to be included in your DNS zone as a TXT SPF record. In this case, you will need to add the following:
 
 ```
-Name: vide ou défini sur @ (selon les instructions de votre registraire de domaine)
+Name: blank, or set to @ (depending on your domain registrar instructions)
 Type: TXT
 Value: v=spf1 ip4:10.10.10.10 a:myojsserver.com ~all
 ```
 
-Si vous avez déjà un enregistrement TXT dans votre zone DNS, vous devrez le fusionner pour ne conserver qu'un seul enregistrement TXT. Il ne doit y avoir qu'un seul enregistrement DNS TXT.
+If you already have a TXT record in your DNS zone, you will need merge it to keep only one TXT record. There should only be a single DNS TXT record.
 
-### Authentification, Rapport et Conformité des Messages Basés sur le Domaine (DMARC)
+### Domain-based Message Authentication, Reporting and Conformance (DMARC)
 
-Même si SPF offre la prévision pour que OJS envoie des emails en utilisant un chemin de retour ou une enveloppe d'email contenant une adresse email avec un domaine autre que celui sur lequel le serveur OJS est hébergé, de temps en temps, OJS envoie des emails de la part des utilisateurs qui utilisent des domaines pour lesquel vous ne pouvez pas ajuster l'enregistrement SPF. Gmail est un bon exemple: si un administrateur a une adresse `user@gmail.com`, il n'y a pas moyen que Google nous ajoute en tant qu'enregistrement SPF.
+While SPF provides the provision for OJS to send emails using a return path or email envelope containing an email address with a domain other than the one the OJS server is hosted on, there are times when OJS may send email on behalf of users that use domains that you cannot adust the SPF record for. Gmail is a good example: if an admin has a `user@gmail.com` address, there's no way you can get Google to add us as an SPF record.
 
-DMARC résout cela en ajoutant l'email de l'utilisateur dans l'adresse `reply-to:`, et en ajoutant  `default_envelope_sender` dans le champ `From:`. Depuis OJS 3.1.2, vous pouvez configurer cela via deux nouveaux paramètres dans votre fichier `config.inc.php`, c'est-à-dire `force_dmarc_compliant_from` et `dmarc_compliant_from_displayname`. (Si vous êtes sur OJS 3.1.2+ et que vous ne voyez pas ces paramètres dans votre fichier config, vous devrez reviser votre fichier `config.TEMPLATE.inc.php` et les déplacer comme ils y apparents.)
+DMARC solves this by putting the user's email in the `reply-to:` address, and and putting the `default_envelope_sender` in the `From:` field. As of OJS 3.1.2, you can configure this via two new parameters in your `config.inc.php` file, namely `force_dmarc_compliant_from` and `dmarc_compliant_from_displayname`. (If you are on OJS 3.1.2+ and don't see those parameters in your live config file, you will want to review your `config.TEMPLATE.inc.php` file and move them over as they appear there.)
 
-## Dépannage des Problèmes de Courrier Électronique
+## Troubleshooting Email Problems
 
-Si certains utilisateurs ne reçoivent pas d'emails, la première chose à faire est de vérifier si vous pouvez vous-même recevoir des emails. Essayez d'envoyer un e-mail à vous-même à l'aide du système. Si vous l'avez reçu, l'application logicielle envoie probablement les e-mail correctement. Vous devriez alors demander à l'utilisateur qui a le problème de vérifier les dossiers spam/courrier indésirable de son courrier électronique.
+If emails aren't being received by some users, the first thing to do is check to see if you yourself can receive email. Try sending an email to yourself using the system. If you received it, the software application is probably sending email fine. You should then ask the user with the problem to check their email's spam/junk folders.
 
-Si l'utilisateur ne trouve aucun enregistrement d'email filtré comme spam ou courrier indésirable, vous rencontrez peut-être un problème de validation **Sender Policy Framework** (SPF) avec son serveur. Vous pouvez le confirmer en consultant le log de mail de votre serveur pour voir s'il y a des reçus de blocages/retours signalés avec des erreurs de validation SPF comme résultat.
+If the user can find no record whatsoever of the email being filtered as spam or junk, you may be encountering a **Sender Policy Framework** \(SPF\) validation problem with their server. You can confirm this by viewing your server's mail log to see if there are any reported receipt blockages/returns with SPF validation errors as the result.
 
-### Explication et Solution
+### Explanation and Solution
 
-Depuis la version 2.4.6, OJS a inclus un changement dans la façon dont les emails sont envoyés. Auparavant, tous les e-mails étaient envoyés en utilisant l'adresse email de l'utilisateur OJS dans le champ «FROM». Cela a malheureusement conduit à certains problèmes avec les emails sortants du journal étant marqués comme "usurpés" par certains serveurs d'email car les adresses email en question (par exemple, "james@myinstitution.org ") ne correspondaient pas au nom de domaine du serveur envoyant l'email (par exemple, "myjournal.com"). (Techniquement, les e-mails échouaient à la validation du Sender Policy Framework (SPF).) Être signalé de cette manière est plus grave que d'être considéré comme du spam: dans de nombreux cas, le serveur de réception n'attribuera pas l'email à la file d'attente de spam/courrier indésirable, et choisira simplement de le supprimer.
+As of version 2.4.6, OJS included a change to the way emails are sent out. Previously, all emails were sent using the OJS user's email address in the "FROM" field. This unfortunately led to some issues with the journal's outgoing emails being flagged as "spoofed" by some email servers because the email addresses in question \(eg. james@myinstitution.org"\) didn't match the domain name of the server sending the email \(eg. "myjournal.com"\). \(Technically, the emails were failing Sender Policy Framework \(SPF\) validation.\) Being flagged in this way is more serious than being considered spam: in many cases, the receiving email server won't even assign the email to a spam/junk queue, instead simply choosing to discard it.
 
-#### Solution 1 (OMP, OJS):
+#### Solution 1 \(OMP, OJS\)
 
-Pour éviter que cela ne se produise, l'équipe de développement de PKP a adopté une méthode de notification par email similaire à d'autres applications Web telles que WordPress: envoyez tous les e-mails du système en utilisant une adresse email centrale dans le champ «FROM», avec les adresses email des destinataires prévus dans le champ "REPLY-TO". L'adresse e-mail centrale à utiliser par défaut est celle fournie à l' **Étape 1.2 de Configuration du Journal: Contact Principal**, dont le domaine doit correspondre au nom de domaine à partir duquel le journal envoie le courrier. (Si cette adresse email ne peut pas correspondre au domaine d'envoi par journal, une adresse email alternative peut être configurée au niveau du site via le fichier OJS config.inc.php). De plus, un nouveau paramètre «En-tête d'Email» a été fourni à l' **Étape 1.4 de Configuration du Journal: Identification d'Email** , qui peut être utilisé pour fournir un texte explicatif au destinataire.
+To prevent this from happening, the PKP development team has adopted an email notification method similar to other web applications such as WordPress: send all email from the system using one central email address in the "FROM" field, with the intended recipients' email addresses in the "REPLY-TO" Field. The central email address to be used by default would be the one provided in **Journal Setup Step 1.2: Principal Contact**, which should match the domain name from which the journal sends mail. \(If this email address cannot match the sending domain on a per-journal basis, an alternate email address can be configured at the site level via the OJS config.inc.php file\). In addition, a new "Email Header" setting has been provided in **Journal Setup Step 1.4: Email Identification**, which can be used to provide explanatory text to the recipient.
 
-Pour configurer cela correctement, nous suggérons ce qui suit:
+To properly configure this, we suggest the following:
 
-- Si vous n'êtes pas déjà sur OJS 2.4.6+, mettez à niveau.
-- Configurez l'adresse email qu'OJS utilisera pour envoyer tous les emails à l'aide du paramètre «Contact Principal» de l'Étape 1.2 de Configuration du Journal.
-    - Si possible, faites en sorte que votre adresse email de contact principal serve de point de contact général pour le journal et qu'elle corresponde au nom de domaine du journal. Par exemple, si votre nom de domaine est "hypothesisjournal.com", essayez d'utiliser une adresse email comme "editor@hypothesisjournal.com".
-- Fournissez un texte explicatif en utilisant le paramètre "En-tête d'Email" à l'Étape 1.4 de Configuration du Journal. Ce texte apparaîtra en haut de chaque email généré par le système. N'oubliez pas que ces emails sont généralement des notifications pour les utilisateurs et doivent être traités comme des emails de notification provenant d'autres systèmes. Nous recommandons le texte suivant:
+* If you aren't on OJS 2.4.6+ already, upgrade.
+* Configure the email address OJS will use to send out all email using the "Principal Contact" setting in Journal Setup Step 1.2
+  * If at all possible, have your Principal Contact email address serve as a general point of contact for the journal, and have it match the journal domain name. For example, if your domain name is "hypothesisjournal.com", try using an email address like "editor@hypothesisjournal.com".
+* Provide some explanatory text using the "Email Header" setting in Journal Setup Step 1.4. This text will appear at the top of every email generated by the system. Remember, these emails are typically notifications to users, and should be treated just like notification emails from other systems. We recommend the following text:
 
 ```
-Vous recevez cet email de la part de <nom_du_journal>. En cas de demande de réponse, vous pouvez répondre directement à cet email.
+You are receiving this email on behalf of <journal-name>. In the event of a requested response, you may respond directly to this email.
 ```
 
-#### Solution 2 (OCS, mais aussi OJS et OMP):
+#### Solution 2 \(OCS, but also OJS and OMP\)
 
-Configurez votre installation pour utiliser le service SMTP de GMail. Voir [la section ci-dessus sur SMTP](#Sender-Policy-Framework-(SPF)) pour plus d'informations.
+Configure your install to use GMail's SMTP service. See [the section above on SMTP](#spf-and-dmarc-issues) for more information.
