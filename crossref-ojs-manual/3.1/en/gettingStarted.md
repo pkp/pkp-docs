@@ -2,14 +2,15 @@
 book: crossref-ojs-manual
 version: 3.1
 ---
+
 # Getting Started with DOIs
 
 DOI stands for Digital Object Identifier. DOIs are what is known as "persistent identifiers" or PIDs. A DOI links persistently to a publication so that – provided it is kept up to date – any link or reference to it should take a user to where the article currently resides online. They are useful for citation metrics, but also as a way to prevent or combat dead links. They make content easier to locate.
 
 > [A DOI is] a unique alphanumeric string assigned to a digital object – in this case, an electronic journal article or a book chapter. In the Crossref system, each DOI is associated with a set of basic metadata and a URL pointer to the full text, so that it uniquely identifies the content item and provides a persistent link to its location on the internet.
->
+> 
 > For more information on the DOI itself, which is a NISO standard syntax, please visit the International DOI Foundation website at www.doi.org. For details on the use of the DOI within Crossref, please see the "How Crossref Works" page.
->
+> 
 > See more at [http://www.crossref.org/about/](http://www.crossref.org/about/)
 
 The key to this statement is that a DOI is _unique_. Any article should only have one unique combination of a DOI prefix and suffix. Articles should also, ideally, only have one DOI each.
@@ -49,7 +50,7 @@ Let's break these steps down one by one.
     - You must include a DOI prefix which you get from Crossref and additionally must configure the DOI suffix. We **strongly recommend** using the default patterns if you are a new journal and have not previously had DOIs issued.
 3. Assign DOIs.
     - At the bottom of this page, you'll see two links for assigning DOIs en masse. One is "assign DOIs," which makes DOIs using the suffix pattern you set above. It assigns a DOI to anything that does not already have one.
-    - You'll also see one that says, "re-assign DOIs." **_Only click this if you have not registered any of your DOIs and made an error in prior suffix generation_**.  
+    - You'll also see one that says, "re-assign DOIs." **_Only click this if you have not registered any of your DOIs and made an error in prior suffix generation_**.
     - If you chose to assign DOIs manually as you publish, you could select that from the DOI Suffix options. Using this method, OJS does not create a DOI suffix automatically. Instead, you enter DOIs as part of article metadata.
 
 ## Additional Resources
