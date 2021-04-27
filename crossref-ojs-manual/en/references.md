@@ -2,15 +2,15 @@
 book: crossref-ojs-manual
 version: 3.2
 ---
+
 # Reference Linking and Deposit
 
 As of OJS 3.1.2, it is possible to enable a reference linking plugin for Crossref. The plugin will use the Crossref API to check against plain text references and locate possible DOIs for articles. The plugin will also allow the display of reference lists on the article landing page in OJS.
 
 [https://github.com/pkp/crossrefReferenceLinking](https://github.com/pkp/crossrefReferenceLinking)
-
->This plugin will automatically add the extracted article references to the DOI registration with Crossref. Crossref will then automatically check if any DOIs can be found for the submitted references. Users can then check the reference section of the metadata to see what reference DOIs have been linked. If article references change once they are registered, the article DOI with the new references will have to be updated. Then the check for the found references DOIs should be done again.
->
->This plugin requires Crossref DOIs to be assigned to articles, article references to be separately entered and extracted, as well as article DOIs to be deposited to Crossref from within OJS. It uses the Crossref Export/Registration plugin settings: Crossref credentials (username and password), the setting for the automatic DOI deposit (here for automatic references DOIs check), as well as the setting for the testing mode.
+> This plugin will automatically add the extracted article references to the DOI registration with Crossref. Crossref will then automatically check if any DOIs can be found for the submitted references. Users can then check the reference section of the metadata to see what reference DOIs have been linked. If article references change once they are registered, the article DOI with the new references will have to be updated. Then the check for the found references DOIs should be done again.
+> 
+> This plugin requires Crossref DOIs to be assigned to articles, article references to be separately entered and extracted, as well as article DOIs to be deposited to Crossref from within OJS. It uses the Crossref Export/Registration plugin settings: Crossref credentials (username and password), the setting for the automatic DOI deposit (here for automatic references DOIs check), as well as the setting for the testing mode.
 
 ## Installing and Enabling the Plugin
 
