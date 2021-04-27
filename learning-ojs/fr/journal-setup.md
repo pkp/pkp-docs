@@ -1,158 +1,162 @@
 ---
-book: apprendre-ojs
-version: 3.2
+book: learning-ojs
+version: 3.3
 ---
 
-# Paramètres de la Revue
+# Journal Settings
 
-La section Paramètres vous permet de configurer votre installation OJS pour répondre au mieux à vos besoins de publication.
+The Settings section allows you to configure your OJS installation to best meet your publishing needs.
 
-Vous pouvez trouver les Paramètres dans le panneau de menu de gauche lorsque vous êtes connecté en tant qu'utilisateur avec des autorisations de Directeur-trice de la Revue.
+You can find the Settings in the left menu panel when you are logged in as a user with Journal Manager permissions.
 
-![](./assets/learning-ojs3.1-jm-settings-journal.png)
+![OJS dashboard View for Journal Managers with links to Settings menu and its submenus in left-hand sidebar.](./assets/learning-ojs3.1-jm-settings-journal.png)
 
-Il comprend les Paramètres de la Revue, les Paramètres du Site Web, les Paramètres de Flux de Travaux et les Paramètres de Distribution, qui seront traités dans les 4 chapitres suivants.
+It consists of Journal Settings, Website Settings, Workflow Settings, and Distribution Settings, which will be covered in the next 4 chapters.
 
-La page Paramètres de la Revue comprend des détails sur la Revue.
+The Journal Settings page includes details about the journal.
 
-Utilisez les onglets pour accéder aux différentes sections des Paramètres de la Revue: Bloc Générique, Coordonnées, Rubriques de la Revue.
+Use the tabs to navigate to the different sections of Journal Settings: Masthead, Contact, Sections.
 
-![](./assets/learning-ojs3.2-jm-settings-journal-page.png)
+![OJS dashboard view of Journal Settings with navigation tabs for the Settings submenus across top portion of page content.](./assets/learning-ojs3.2-jm-settings-journal-page.png)
 
-## Bloc Générique
+## Masthead
 
-**Le Titre de la Revue** est le nom de votre revue. Par exemple, Revue de la Documentation de Logiciel
+**Journal title** is the name of your journal. E.g., Journal of Software Documentation
 
-**Abréviations de la Revue** sont les initiales de la revue. Par exemple, RDL.
+**Journal initials** are the initials of the journal. E.g., JSD.
 
-**Titre Court de la Revue** est le sigle du nom de votre revue. Par exemple, RDocLogi.
+**Journal Abbreviation** is the abbreviation of your journal name. E.g., JSoftDoc.
 
-**Éditeur** est le nom de l'organisation qui publie la revue.
+**Publisher** is the name of the organization publishing the journal.
 
-Notez que le nom de l'éditeur saisi ici est utilisé pour les métadonnées mais ne sera pas affiché sur votre site. Pour afficher le nom de l'éditeur sur votre site, vous pouvez le saisir sous Paramètres de la Revue > Coordonnées > Adresse Postale. Vous pouvez également l'ajouter sous À Propos de la Revue ci-dessous.
+Note that the publisher name entered here is used for metadata but will not be displayed on your site. To show the publisher name on your site you can enter it under Journal Settings > Contact > Mailing Address. You can also add it under About the Journal below.
 
-**ISSN** (Numéro International Normalisé des publications en Série) est un numéro à huit chiffres qui identifie les revues. Il est géré par un réseau mondial de Centres Nationaux coordonnés par un Centre International basé à Paris, soutenu par l'Unesco et le gouvernement Français. Un numéro peut être obtenu sur le [site Web de l'ISSN](http://www.issn.org/). Cela peut être fait à tout moment de l'exploitation de la revue.
+**ISSN** \(International Standard Serial Number\) is an eight-digit number which identifies journals. It is managed by a world wide network of National Centres coordinated by an International Centre based in Paris, backed by Unesco and the French Government. A number can be obtained from the [ISSN web site](http://www.issn.org/). This can be done at any point in operating the journal.
 
-Les revues OJS ont généralement un ISSN en ligne, mais certaines peuvent également publier une version imprimée, ce qui nécessite un différent ISSN imprimé.
+OJS journals will typically have an online ISSN, but some may also publish a print version, which requires a different print ISSN.
 
-Veuillez noter que l'ISSN saisi ici est utilisé pour les métadonnées mais ne sera pas affiché sur votre site. Il est recommandé d'ajouter également l'ISSN au pied de page de votre site. Vous pouvez le faire sous Paramètres du Site Web > Apparence > Pied de Page.
+Please note that the ISSN entered here is used for metadata but will not be displayed on your site. It's recommended that you also add the ISSN to the footer of your site. You can do this under Website Settings > Appearance > Footer.
 
-**Le Résumé de la Revue** est une brève description de votre revue. Si vous êtes sur une installation OJS avec plusieurs revues, ce texte apparaîtra avec votre liste de revues. Vous pouvez également choisir d'ajouter le résumé de la revue à la page d'accueil de la revue dans les Paramètres du Site Web.
+**Journal Summary** is a brief description of your journal. If you are on an OJS installation with multiple journals, this text will appear with your journal listing. You can also choose to add the journal summary to the journal homepage in the Website Settings.
 
-**L'Équipe Éditoriale** vous permet d'ajouter les noms de votre équipe éditoriale ou de toute autre personne que vous souhaitez mentionner. Cela apparaîtra sur le site Web public sous À Propos > Équipe Éditoriale.
+**Editorial Team** allows you to add the names of your editorial team or anyone else you wish to mention. This will appear on the public website under About &gt; Editorial Team.
 
-**À Propos de la Revue** est un espace pour ajouter des informations sur votre revue susceptibles d'intéresser les lecteurs, les auteurs ou les évaluateurs.
+**About the Journal** is a space to add any information about your journal which may be of interest to readers, authors, or reviewers.
 
-Cela peut inclure votre politique d'accès libre, l'objet et la portée de la revue, l'avis de droit d'auteur, la divulgation de commandite, l'historique de la revue, une déclaration de confidentialité et l'inclusion dans tout système d'archivage LOCKSS ou CLOCKSS.
+This could include your open access policy, the focus and scope of the journal, copyright notice, sponsorship disclosure, history of the journal, a privacy statement, and inclusion in any LOCKSS or CLOCKSS archival system.
 
-Appuyez sur le bouton **Enregistrer** pour enregistrer vos modifications.
+Hit the **Save** button to save your changes.
 
-## Coordonnées
+## Contact
 
-Utilisez cette section pour ajouter des coordonnées à la revue.
+Use this section to add journal contacts.
 
-![](./assets/learning-ojs3.2-jm-settings-journal-contact.png)
+![OJS dashboard view of Journal Settings submenu Contact where information can be added in text fields.](./assets/learning-ojs3.2-jm-settings-journal-contact.png)
 
-**Personne-Ressource Principale** : Ajoutez les coordonnées de la personne principale de la revue, y compris le nom, l'adresse e-mail, le téléphone, l'affiliation et l'adresse postale de la revue. Cela apparaîtra sur la page Coordonnées de la revue.
+**Principal Contact**: Add contact information for the journal's main contact person, including name, email, phone, affiliation, and mailing address for the journal. This will appear on the journal's Contact page.
 
-**Personne-Ressource pour le Soutien Technique** : Ajoutez les coordonnées du soutien technique de la revue. Ces informations apparaîtront sur la page Coordonnées de la revue et également à différents points du flux de travaux pour offrir une assistance aux utilisateurs.
+**Technical Support Contact**: Add contact information for the journal's technical support person. This information will appear on the journal's Contact page and also in different points in the workflow to offer assistance to users.
 
-Appuyez sur le bouton **Enregistrer** pour enregistrer vos modifications.
+Hit the **Save** button to save your changes.
 
-## Rubriques de la Revue
+## Sections
 
-Utilisez cette page pour configurer les différentes sections de votre Revue. Par exemple, Articles, Éditoriaux, Évaluations, Commentaires, etc.
+Use this page to configure the different sections of your journal. E.g., Articles, Editorials, Reviews, Commentary, etc.
 
-Toutes vos sections existantes apparaîtront ici. OJS nécessite au moins une section et crée une section "Articles" par défaut.
+All of your existing sections will appear here. OJS requires at least one section, and creates an "Articles" section by default.
 
-![](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
+![OJS dashboard view of Journal Settings submenu Sections with links for Order and Create Section and editable list of current sections.](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
 
-Vous pouvez modifier les sections en cliquant sur la flèche bleue à gauche du nom de la section. Cela révélera des options pour modifier ou supprimer la section.
+Submissions can also be disabled for individual sections. This can be done in instances where a section is no longer being used, in order to prevent articles from being submitted to a particular section.
 
-### Modifier une Rubrique
+A section can be marked as “Inactive” in the section settings:
 
-La sélection du lien d'édition ouvrira une nouvelle fenêtre avec différentes options de configuration.
+![View of Joural Sections in the OJS dashboard. Red box surrounding checkbox next to the section Articles indicates where to mark it inactive.](./assets/learning-ojs3.3-section-setting-inactive.png)
 
-![](./assets/learning-ojs-3.2-settings-website-settings-sections-edit-1.png)
+You can modify sections by clicking on the blue arrow to the left of the section name. This will reveal options to edit or delete the section.
 
-De là, vous pouvez modifier le nom ou le titre court de la rubrique.
+### Edit a Section
 
-**Politique de la Rubrique** : Utilisez ce champ pour ajouter des détails importants tels que les exigences de soumission, l'évaluation par des pairs, etc.
+Selecting the edit link will open a new window with different configuration options.
 
-**Nombre de Mots** : Utilisez cette option pour limiter le nombre de mots pour les résumés de cette section.
+![New window displaying a section's current settings that is editable.](./assets/learning-ojs-3.2-settings-website-settings-sections-edit-1.png)
 
-**Options de Rubrique** : Chaque section peut avoir des paramètres différents, y compris si elle est indexée, évaluée par les pairs, accepte les soumissions non sollicitées ou répertoriée dans la table de matières.
+From here, you can change the name or abbreviation of the section.
 
-Par exemple, une section Éditoriale ne sera généralement pas évalué par des pairs.
+**Section Policy**: Use this field to add important details such as submission requirements, peer review, etc.
 
-Si vous avez une section qui n'est plus active, vous pouvez cocher «Les articles ne peuvent être soumis que par les Rédacteurs-trices et les Rédacteurs-trices de Rubrique» et les auteurs ne pourront pas y soumettre.
+**Word Count**: Use this to limit the number of words for abstracts in this section.
 
-Vous pouvez cocher «Ne sera pas inclus dans l'indexation de la revue» pour les sections qui contiennent des pages préliminaires, des arrière-plans et tout autre élément susceptible d'encombrer inutilement l'index de recherche.
+**Section Options**: Each section can have different settings, including whether it is indexed, peer-reviewed, accepts unsolicited submission, or listed in the table of contents.
 
-![](./assets/learning-ojs-3.2-settings-section-options.png)
+For example, an Editorial section will not typically be peer-reviewed.
 
-**Identifier les publications dans cette rubrique en tant que un(e)** : Ceci est utilisé par certains systèmes. Notez que ce n'est pas un champ obligatoire.
+Submissions can also be disabled for individual sections. This can be done in instances where a section is no longer being used, in order to prevent articles from being submitted to a particular section.
 
-**Rédacteurs-trices Assignés-ées** : Si vous avez des rédacteurs-trices inscrits dans votre revue, vous les verrez listés ici et vous pourrez en attribuer un(e) à la rubrique. Cela signifie que toutes les soumissions faites à la rubrique sont automatiquement assignées au rédacteur, vous évitant de devoir attribuer manuellement.
+You can check off "Will not be included in the indexing of the journal" for sections that contain front matter, back matter, and anything else that might clutter the search index unnecessarily.
 
-Appuyez sur le bouton **Enregistrer** pour enregistrer vos modifications et revenir à la page Sections.
+![A window for entering Word Count, Review Form, and Section Options.](./assets/learning-ojs3.3-section-options.png)
 
-### Créer une Rubrique
+**Identify items published in this section as a\(n\)**: This is used by some systems. Note that it is not a required field.
 
-Dans la page rubriques de la revue, sélectionnez le lien Créer une rubrique pour ouvrir une fenêtre vide, exactement la même que la fenêtre utilisée pour rédiger une section décrite ci-dessus.
+**Section Editors**: If you have editors enrolled in your journal, you will see them listed here and can assign one of them to the section. This means any submissions made to the section are automatically assigned to the editor, saving you from manually assigning an editor.
 
-![](./assets/learning-ojs-3.2-settings-website-settings-sections-create.png)
+Hit the **Save** button to save your changes and return to the Sections page.
 
-Remplissez les détails et appuyez sur Enregistrer.
+### Create Section
 
-### Restreindre les Soumissionnaires de Rubrique
+From the sections page, select the Create Section link to open a blank window, exactly the same as the window used for editing a section described above.
 
-Chaque rubrique permet de restreindre les soumissions en cochant la case « Les articles ne peuvent être soumis que par les rédacteurs-trices et les rédacteurs-trices de rubrique».
+![A new window for entering section information in text fields and selecting section options.](./assets/learning-ojs-3.2-settings-website-settings-sections-create.png)
 
-![](./assets/learning-ojs3.2-jm-settings-journal-sections-restrict.png)
+Fill in the details and hit Save to record your work.
 
-Si cette case est cochée pour toutes les rubriques, les auteurs ne pourront pas soumettre aux revues. Les auteurs qui sélectionnent Nouvelle Soumission dans leurs tableaux de bord verront désormais le message "Cette revue n'accepte pas les soumissions pour le moment".
+### Restrict Section Submitters
 
-![](./assets/learning-ojs3.1-jm-settings-journal-not-accepting-submissions.png)
+Each section allows to restrict submissions by checking the "Items can only be submitted by Editors and Section Editors" checkbox.
 
-### Trier vos Rubriques
+![The list of options for restricting a section. Items can be selected from list by checking the box to the left of the item.](./assets/learning-ojs3.2-jm-settings-journal-sections-restrict.png)
 
-Lorsque vous avez créé plus d'une rubrique, vous verrez un lien Trier. Utilisez-le pour réorganiser l'affichage de ces rubriques sur le site web de votre revue.
+If this checkbox is checked for all sections, authors will not be able to submit to the journals. Authors who select New Submission from their dashboards will now see the message "This journal is not accepting submissions at this time."
 
-![](./assets/learning-ojs3.2-jm-settings-journal-sections-order.png)
+![Screenshot example of message displayed on a journal New Submission page.](./assets/learning-ojs3.1-jm-settings-journal-not-accepting-submissions.png)
 
-Appuyez sur le bouton **OK** lorsque vous avez terminé.
+### Order Sections
 
-<hr>
+When you have more than one section created, you will see an Order link. Use that to reorder how those sections display on your journal website.
 
-## Catégories
+![A list of available sections from top to bottom of page in OJS dashboard.](./assets/learning-ojs3.2-jm-settings-journal-sections-order.png)
 
-Dans OJS 3.1.2, vous pouvez créer des catégories pour organiser vos articles en collections thématiques et fournir un autre moyen pour les lecteurs d'accéder à votre contenu. Les catégories peuvent être affichées sous forme de bloc de navigation sur votre site de revue et les lecteurs peuvent sélectionner une catégorie pour afficher tous les articles de cette catégorie. Vous pouvez placer un article dans une catégorie en modifiant ses métadonnées, ce qui est expliqué dans la [section Production du chapitre Paramètres Éditoriaux](./production). Cette section explique comment créer et modifier des catégories.
+Hit the **Done** button when you are finished.
 
-![](./assets/learning-ojs3.1-categories-menu.png)
+## Categories
 
-Pour créer une nouvelle catégorie:
+In OJS 3 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production). This section explains how to create and edit categories.
 
-- Cliquez sur Ajouter une Catégorie
-- Entrez un nom pour votre catégorie qui sera affiché aux lecteurs
-- Entrez un chemin pour l'URL de la catégorie sur votre site
-- Entrez une description qui apparaîtra au-dessus de la liste des articles de la catégorie
-- Vous pouvez éventuellement modifier l'ordre des articles par date ou par titre
-- Ajoutez éventuellement une image qui apparaîtra en haut de la page de la catégorie
-- Cliquez sur OK
+![OJS dashboard view of Journal Settings submenu Categories with links for Order and Add a Category and editable list of current categories.](./assets/learning-ojs3.1-categories-menu.png)
 
-![](./assets/learning-ojs3.1-create-category.png)
+To create a new category:
 
-Pour modifier une catégorie:
+* Click Add Category
+* Enter a name for your category that will be displayed to readers
+* Enter a path for the category’s URL on your site
+* Enter a description which will appear above the list of articles in the category
+* You can optionally change the order of the articles by date or title
+* Optionally add an image which will appear at the top of the category’s page
+* Click Save
 
-- Cliquez sur le nom de la catégorie que vous souhaitez modifier
-- Faites les changements
-- Cliquez sur OK
+![A new window for entering category information in text fields and selecting category options.](./assets/learning-ojs3.1-create-category.png)
 
-Pour supprimer une catégorie:
+To edit a category:
 
-- Cliquez sur la flèche bleue à côté de la catégorie que vous souhaitez supprimer
-- Cliquez sur le bouton Supprimer qui apparaît ci-dessous
-- Confirmez que vous souhaitez supprimer la catégorie
+* Click the name of the category you want to edit
+* Make the changes
+* Click OK
 
-Pour afficher des catégories sur votre site web, vous pouvez accéder à Paramètres du Site Web > Gestion de la Barre Latérale et placer le bloc Parcourir sur votre barre latérale.
+To remove a category:
+
+* Click the blue arrow next to the category you want to remove
+* Click the Remove button that appears below
+* Confirm that you want to remove the category
+
+To display categories on your website you can go to Website Settings > Sidebar Management and place the Browse block on your sidebar.
