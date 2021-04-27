@@ -10,7 +10,7 @@ Section Editors have access to only those submissions to which they have been as
 
 Click on the **1 In Review link **to see the submissions assigned to you that are currently going through the review process.
 
-On the resulting page, you will see a list of all submissions in your Review queue. 
+On the resulting page, you will see a list of all submissions in your Review queue.
 
 ![Submissions in Review](images/chapter8/section_2.png)
 
