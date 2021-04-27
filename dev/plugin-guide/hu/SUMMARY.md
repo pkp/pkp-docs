@@ -1,0 +1,23 @@
+# Summary
+
+* [Introduction](.)
+* [Getting Started](./getting-started)
+* [Plugin Categories](./categories)
+  * [Blocks](./categories#blocks)
+  * [Import/Export](./categories#importexport)
+  * [Reports](./categories#reports)
+  * [Themes](./categories#themes)
+  * [Generic](./categories#generic)
+  * [Other](./categories#other)
+* [Translation](./translation)
+* [Templates](./templates)
+* [Plugin Settings](./settings)
+* [Release a Plugin](./release)
+* [Examples](./examples)
+  * [Plugin Template](https://github.com/pkp/pluginTemplate){:target="_blank"}
+  * [Add Styles and Scripts](./examples-styles-scripts)
+  * [Context and Site](./examples-context-site)
+  * [Get Data](./examples-get-data)
+  * [Get Data from the Template](./examples-get-data-template)
+  * [Add Custom Fields](./examples-custom-field)
+  * [Add Custom Page](./examples-custom-page)
