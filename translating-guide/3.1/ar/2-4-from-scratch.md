@@ -1,3 +1,8 @@
-## الشروع بالترجمة من الصفر
+---
+book: translating-guide
+version: 3.1
+---
 
-إن استعمال الإضافة المخصصة للترجمة للشروع بها من الصفر هو أمر أكثر قبولاً من تعديل ترجمة منصبة غير مكتملة. سيكون عليك أن تقوم يدوياً بإنشاء ورفع ملف اللغة الرئيسي (`locales/[your_LANG]/locale.xml`) مع ملف قوالب المراسلات الالكترونية (`dbscripts/xml/data/locale/[your_LANG]/email_templates_data.xml` إلى نظام المجلات المفتوحة بإصداره ما قبل 2.3؛ أما ما عدا ذلك، حاول الوصول إلى `locales/[your_LANG]/`)، ثم أدخل لغتك المضافة إلى مدخلات الملف `registry/locales.xml`، وعندها ستظهر لغتك ضمن قائمة اللغات القابلة للتعديل عندما تستعمل إضافة الترجمة. بمجرد إنجاز ما سبق، يمكنك إضافة المزيد من ملفات اللغة مستعيناً بالشروحات أعلاه، كما سيكون بإمكانك تعديل الملفين أعلاه أيضاً.
+## Starting a Translation From Scratch
+
+Using the Translation plugin to start a translation from scratch is a little more involved than editing an incomplete, installed translation. You'll need to manually create and upload the main locale files (`locales/[your_LANG]/*.xml` and `lib/pkp/locales/[your_LANG]/*.xml`), and enter your new language into `registry/locales.xml`, after which your language will appear in the list of editable translations when you visit the Translator plugin. Once this is done you can add new locale files as per the above instructions, and you'll even be able to edit the above two files.
