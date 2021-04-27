@@ -7,16 +7,7 @@ As a Crossref Sponsoring Organization, PKP can also act as sponsor and represent
 Organizations from the following countries (who are in the [Low Income Country](http://data.worldbank.org/income-level/LIC) category, or in the [Low & Middle Income country list](http://data.worldbank.org/income-level/LMC) and whose GNI per capita is up to $1,500) may be eligible for sponsorship.
 
 
-  | Afghanistan (LIC) | Central African Republic (LIC) | Gambia (LIC) | Liberia (LIC) | Niger (LIC) |
-  | Sudan (LMC) | Bangladesh (LIC) | Chad (LIC) | Guinea (LIC) | Madagascar (LIC) |
-  | Pakistan (LMC) | Tajikistan (LIC) | Benin (LIC) | Comoros (LIC) | Guinea-Bassau (LIC) |
-  | Malawi (LIC) | Rwanda (LIC) | Tanzania (LIC) | Benin (LIC) | Congo, Democratic Republic (LIC) |
-  | Haiti (LIC) | Mali (LIC) | Sao Tome and Principe (LMC) | Togo (LIC) | Burkina Faso (LIC) |
-  | Cote d’Ivoire (LMC) | Kenya (LIC) | Mauritania (LMC) | Senegal (LMC) | Uganda (LIC) |
-  | Burundi (LIC) | Djibouti (LMC) | Korea, Democratic Republic (LIC) | Mozambique (LIC) | Sierra Leone (LIC) |
-  | Yemen Republic (LMC) | Cambodia (LIC) | Eritrea (LIC) | Kyrgyz Republic (LMC) | Myanmar (LIC) |
-  | Somalia (LIC) | Zambia (LMC) | Cameroon (LMC) | Ethiopia (LIC) | LAO PDR (LMC) |
-  | Nepal (LIC) | South Sudan (LMC) | Zimbabwe (LIC) | | |
+  | Afghanistan (LIC) | Central African Republic (LIC) | Gambia (LIC) | Liberia (LIC) | Niger (LIC) | | Sudan (LMC) | Bangladesh (LIC) | Chad (LIC) | Guinea (LIC) | Madagascar (LIC) | | Pakistan (LMC) | Tajikistan (LIC) | Benin (LIC) | Comoros (LIC) | Guinea-Bassau (LIC) | | Malawi (LIC) | Rwanda (LIC) | Tanzania (LIC) | Benin (LIC) | Congo, Democratic Republic (LIC) | | Haiti (LIC) | Mali (LIC) | Sao Tome and Principe (LMC) | Togo (LIC) | Burkina Faso (LIC) | | Cote d’Ivoire (LMC) | Kenya (LIC) | Mauritania (LMC) | Senegal (LMC) | Uganda (LIC) | | Burundi (LIC) | Djibouti (LMC) | Korea, Democratic Republic (LIC) | Mozambique (LIC) | Sierra Leone (LIC) | | Yemen Republic (LMC) | Cambodia (LIC) | Eritrea (LIC) | Kyrgyz Republic (LMC) | Myanmar (LIC) | | Somalia (LIC) | Zambia (LMC) | Cameroon (LMC) | Ethiopia (LIC) | LAO PDR (LMC) | | Nepal (LIC) | South Sudan (LMC) | Zimbabwe (LIC) | | |
 
 For further eligibility criteria and any other information, [contact us](mailto:pkp.contact@gmail.com). If you believe your journal meets the PKP Sponsorship requirements and you'd like to submit an eligibility form, you can [click here to fill one out](http://goo.gl/forms/2mme6t19OBp79ezp2).
 
