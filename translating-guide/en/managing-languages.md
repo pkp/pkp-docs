@@ -2,6 +2,7 @@
 book: translating-guide
 version: 3.2
 ---
+
 # Manage Languages in PKP Software
 
 ## How Languages and Locales Work
@@ -41,8 +42,7 @@ You are advised to first check which languages are available from your version o
 
 The first place to check on language availability is from within the software installation itself.
 
-If you have more than one context (journal, server or press) installed, the Site Administrator controls what languages are available for to each
-context. Navigate to Administration > Settings > Languages. Installed languages are listed here with an checkbox option to enable or disable the language sitewide.
+If you have more than one context (journal, server or press) installed, the Site Administrator controls what languages are available for to each context. Navigate to Administration > Settings > Languages. Installed languages are listed here with an checkbox option to enable or disable the language sitewide.
 
 For each context, the Manager controls the settings within that context by navigating to Settings > Website > Setup > Languages. Each language can be enabled for the UI, for Forms, and for Submissions.
 
@@ -66,7 +66,7 @@ If you don't see the language(s) you are looking for listed on either of these l
 
 Site Administrators can install new languages through the Administration dashboard. See [Learning OJS 3](/learning-ojs/en/site-administration#languages) for more information on how to install and manage languages in PKP software.
 
-If you have newly translated the software into another language and want to install that language on your site, you will not be able to install it in the standard way until it has been merged into a release of the software. Instead, if you have access to the server and installation files and sufficient technical knowledge, you can install the new language using one of the methods below. 
+If you have newly translated the software into another language and want to install that language on your site, you will not be able to install it in the standard way until it has been merged into a release of the software. Instead, if you have access to the server and installation files and sufficient technical knowledge, you can install the new language using one of the methods below.
 
 First, confirm that you are using OJS/OMP/OPS 3.2.0 or above. If you are not, you will need to upgrade to the newest version of OJS/OMP/OPS.
 
@@ -80,7 +80,7 @@ Otherwise, you can download the new translation files and install them on your s
 5. Do the same thing for any plugins that you use
 6. Add the files you download to your OJS/OMP/OPS installation
 
-Another option is to get the latest translations from the pkp-translations organization in Github, in which the current stable branch will be at the end of the url. In this example, the stable branch is 3.2.1: 
+Another option is to get the latest translations from the pkp-translations organization in Github, in which the current stable branch will be at the end of the url. In this example, the stable branch is 3.2.1:
 - https://github.com/pkp-translations/pkp-lib/tree/stable-3_2_1
 - https://github.com/pkp-translations/ojs/tree/stable-3_2_1
 - any relevant plugins
