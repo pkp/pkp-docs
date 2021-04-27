@@ -58,8 +58,7 @@ Where you can upload images (logo, thumbnail, homepage) to your sites main page,
 
 Where you can upload your journal stylesheet, Favicon, and Additional Content.
 
-- **Journal Style Sheet**: Use this to upload a unique style sheet for your journal.
-If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+- **Journal Style Sheet**: Use this to upload a unique style sheet for your journal. If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
 - **Journal Favicon**: Add a [favicon](https://en.wikipedia.org/wiki/Favicon) to display in the reader's browser address bar.
 
