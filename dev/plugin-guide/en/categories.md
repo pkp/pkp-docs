@@ -29,12 +29,12 @@ Each plugin category class provides methods that must be implemented. For exampl
 ```php
 import('lib.pkp.classes.plugins.ReportPlugin');
 class ReviewReportPlugin extends ReportPlugin {
-	public function display($args, $request) {
+    public function display($args, $request) {
     header('content-type: text/comma-separated-values');
-		header('content-disposition: attachment; filename=reviews.csv');
+        header('content-disposition: attachment; filename=reviews.csv');
     $fp = fopen('php://output', 'wt');
-		fputcsv($fp, [/* the review details in the report */]);
-		fclose($fp);
+        fputcsv($fp, [/* the review details in the report */]);
+        fclose($fp);
   }
 }
 ```
@@ -91,8 +91,8 @@ Block plugins can use any HTML code. However, if you want your block to blend in
 
 ```html
 <div class="pkp_block">
-	<span class="title"><!-- Add the title of your block here --></span>
-	<div class="content">
+    <span class="title"><!-- Add the title of your block here --></span>
+    <div class="content">
     <!-- Add the main content for your block here -->
 	</div>
 </div>
@@ -102,8 +102,9 @@ Block plugins can use any HTML code. However, if you want your block to blend in
 
 Import/export plugins provide tools for getting data into and out of OJS and OMP. They can be used when you are moving between our application and another platform to migrate users, submissions, back issues and more.
 
-> Download an [example import/export plugin](https://github.com/pkp/exampleImportExport).
-{:.notice}
+> Download an [example import/export plugin](https://github.com/pkp/exampleImportExport). 
+> 
+> {:.notice}
 
 Each import/export plugin can be run on the command line.
 
@@ -115,19 +116,19 @@ $ php tools/importExport.php ExampleImportExportPlugin import filename.csv
 import('lib.pkp.classes.plugins.ImportExportPlugin');
 class ExampleImportExportPlugin extends ImportExportPlugin {
   /**
-	 * @copydoc ImportExportPlugin::usage()
-	 */
-	public function usage($scriptName) {
+     * @copydoc ImportExportPlugin::usage()
+     */
+    public function usage($scriptName) {
     echo "Usage: " . $scriptName . " " . $this->getName() . " [command]\n";
     echo "Commands:\n";
     echo "  import [filename]";
     echo "  export [filename]";
   }
 
-	/**
-	 * @copydoc ImportExportPlugin::executeCLI()
-	 */
-	public function executeCLI($scriptName, &$args) {
+    /**
+     * @copydoc ImportExportPlugin::executeCLI()
+     */
+    public function executeCLI($scriptName, &$args) {
     $command = array_shift($args);
     $filename = array_shift($args);
 
@@ -149,34 +150,34 @@ Each import/export plugin has its own page under the Tools > Import/Export menu.
 ```php
 import('lib.pkp.classes.plugins.ImportExportPlugin');
 class ExampleImportExportPlugin extends ImportExportPlugin {
-	/**
-	 * @copydoc ImportExportPlugin::register()
-	 */
-	public function display($args, $request) {
-		parent::display($args, $request);
+    /**
+     * @copydoc ImportExportPlugin::register()
+     */
+    public function display($args, $request) {
+        parent::display($args, $request);
 
-		// Use the path to determine which action
-		// should be taken.
-		$path = array_shift($args);
-		switch ($path) {
+        // Use the path to determine which action
+        // should be taken.
+        $path = array_shift($args);
+        switch ($path) {
 
-			// Deliver a CSV file for download
-			case 'exportAll':
-				header('content-type: text/comma-separated-values');
-				header('content-disposition: attachment; filename=example-' . date('Ymd') . '.csv');
+            // Deliver a CSV file for download
+            case 'exportAll':
+                header('content-type: text/comma-separated-values');
+                header('content-disposition: attachment; filename=example-' . date('Ymd') . '.csv');
         $fp = fopen('php://output', 'wt');
         fputcsv($fp, [/* export dataset */]);
         fclose($fp);
-				break;
+                break;
 
       // When no path is requested, display a page with
       // export options and a form to kick off the
       // `exportAll` path.
-			default:
-				$templateMgr = TemplateManager::getManager($request);
-				$templateMgr->display($this->getTemplateResource('export.tpl'));
-		}
-	}
+            default:
+                $templateMgr = TemplateManager::getManager($request);
+                $templateMgr->display($this->getTemplateResource('export.tpl'));
+        }
+    }
 }
 ```
 
@@ -207,13 +208,13 @@ class ArticleReportPlugin extends ReportPlugin {
 
     // Return a CSV file
     header('content-type: text/comma-separated-values');
-		header('content-disposition: attachment; filename=articles-' . date('Ymd') . '.csv');
-		$fp = fopen('php://output', 'wt');
+        header('content-disposition: attachment; filename=articles-' . date('Ymd') . '.csv');
+        $fp = fopen('php://output', 'wt');
     fputcsv($fp, ['ID', 'Title']);
     foreach ($submissions as $submission) {
       fputcsv($fp, [$submission->getId(), $submission->getLocalizedTitle()]);
     }
-		fclose($fp);
+        fclose($fp);
   }
 }
 ```
@@ -234,24 +235,25 @@ Generic plugins use [Hooks](/dev/documentation/en/utilities-hooks) to intervene 
 import('lib.pkp.classes.plugins.GenericPlugin');
 class ExamplePlugin extends GenericPlugin {
 
-	public function register($category, $path, $mainContextId = NULL) {
-		$success = parent::register($category, $path);
-		if ($success && $this->getEnabled()) {
-			HookRegistry::register('Example::hookName', array($this, 'doSomething'));
-		}
-		return $success;
+    public function register($category, $path, $mainContextId = NULL) {
+        $success = parent::register($category, $path);
+        if ($success && $this->getEnabled()) {
+            HookRegistry::register('Example::hookName', array($this, 'doSomething'));
+        }
+        return $success;
   }
 
   public function doSomething($hookName, $args) {
-		// Do something...
+        // Do something...
 
-		return false;
+        return false;
   }
 }
 ```
 
-> Always check if the plugin is enabled before registering a hook. Otherwise, your plugin will run even when it has been disabled.
-{:.warning}
+> Always check if the plugin is enabled before registering a hook. Otherwise, your plugin will run even when it has been disabled. 
+> 
+> {:.warning}
 
 Generic plugins are very powerful and can use any hook in the application. Look at the [examples](./examples) for ideas and learn about the most [common hooks](/dev/documentation/en/utilities-hooks#common-hooks).
 
