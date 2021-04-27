@@ -7,7 +7,7 @@ Additional language packages will typically be available for download from the O
 
 To access your site's language settings, click the **Languages** link where you can subsequently manage any languages already installed, or download languages to install them.
 
-Figure: Site Administrator Language Options  
+Figure: Site Administrator Language Options
 
 
 ![Site Administrator Language Options](images/chapter4/languages.png)
