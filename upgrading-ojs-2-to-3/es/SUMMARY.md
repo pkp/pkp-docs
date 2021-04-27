@@ -1,8 +1,8 @@
-# Índice
+# Summary
 
-* [Introducción](./introduction.md)
-* [Diferencias entre OJS 2 y 3](./differences.md)
-* [Planificar una actualización mayor](./upgrade-planning.md)
-* [Actualizar su OJS](./upgrading-ojs.md)
-* [Después de la actualización](./post-upgrade.md)
-* [Recursos adicionales](./resources.md)
+* [Introduction](./introduction.md)
+* [Differences between OJS 2 and 3](./differences.md)
+* [Planning for a Major Upgrade](./upgrade-planning.md)
+* [Upgrading Your OJS Instance](./upgrading-ojs.md)
+* [Post-upgrade](./post-upgrade.md)
+* [Additional Resources](./resources.md)
