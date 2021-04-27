@@ -1,275 +1,280 @@
-# الفصل 10: التأليف
+---
+book: learning-ojs
+version: 3.1
+---
 
-في هذا الفصل، ستتعلم عن كيفية تعامل المؤلف مع نظام المجلات المفتوحة بدءً من التسجيل وانتهاءً بالقراءة التصحيحية للوح الطباعي النهائي.
+# Chapter 13: Authoring
 
-## التسجيل في المجلة
+In this chapter, you will learn about how an author works in OJS 3.1 from registration through to proofreading the final galley.
 
-لتقديم طلب نشر إلى مجلة تعمل بنظام المجلات المفتوحة، عليك أولاً التسجيل بمثابة مؤلف \(أنظر [التسجيل في مجلة](./user-accounts.md#التسجيل-في-مجلة)\). بعد ذلك، وعند تسجيل الدخول في الموقع، سيتم أخذك إلى لوحة القيادة.
+## Registering with the Journal
 
-![](./assets/learning-ojs3.1-au-dashboard-empty.png)
+To make a submission to an OJS 3.1 journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
 
-وهي حالياً خالية حيث أنك لم تقدم أي طلبات بعد.
+![Submissions queue in author dashboard](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
-<hr />
-
-## تقديم مقالة
-
-إبدأ بتقديم طلب جديد عبر النقر على زر **طلب جديد** في الجانب الأيمن من النافذة.  سيتم أخذك إلى الخطوة الأولى من عملية تستغرق خمس خطوات لرفع وتوصيف طلبك.
-
-![](./assets/learning-ojs3.1-au-dashboard-new.png)
-
-### الخطوة 1
-
-في **الخطوة 1** ستقدم معلومات أولية عن طلب تقديمك.
-
-![](./assets/learning-ojs3.1-au-dashboard-new-1.png)
-
-للبدء، إختر القسم الأنسب لتقديم طلبك \(أي، مقالة، مراجعة... إلخ\). إن لم تكن متأكداً من القسم المناسب، رجح القسم الأقرب في المعنى إلى موضوع مقالتك.
-
-إقرأ الفقرات الموجودة ضمن قائمة تقديم الطلب ووافق عليها عبر تأشير خانة الاختيار إزاء كل منها. ضمِّن أي ملاحظات موجهة إلى المحرر، واقرأ بيان الخصوصية للمجلة ومن ثم انقر على زر **إحفظ واستمر** للانتقال إلى **الخطوة 2**.
-
-### الخطوة 2
-
-في **الخطوة 2**، ستفتح لك نافذة تسمح لك برفع ملف تقديمك.
-
-![](./assets/learning-ojs-3-author-submission-step2.png)
-
-أولاً عليك اختيار مكون المقالة. هذا سيسمح للنظام بمعرفة فيما لو أن الملف الذي ترفعه هو متن العمل، صورة، جداول بيانات... إلخ. **ينبغي تحديد ذلك قبل الشروع برفع الملف**.
-
-![](./assets/learning-ojs-3-author-submission-step2-2.png)
-
-بمجرد اتخاذ هذا الاختيار، سيكون بإمكانك رفع ملفك الأول. من المهم ملاحظة أنك تستطيع رفع ملف **واحد فقط** في كل عملية رفع. يمكن رفع ملفات إضافية لاحقاً خلال هذه العملية. عادة ما يكون الملف الأول هو متن مؤلَّفك. أنقر على زر **استمر** بمجرد رفع الملف.
-
-![](./assets/learning-ojs-3-author-submission-step2-3.png)
-
-بعد رفع الملف، ستتم مطالبتك بمراجعة تسميته. استعمل رابط التعديل لإجراء أي تعديلات.
-
-أنقر على زر **استمر**.
-
-بعدها سيكون لك خيار إعادة العملية لرفع ملفات إضافية \(مثل جدول بيانات أو صورة\).
-
-بمجرد إكمال رفع كل ملفاتك، أنقر **أكمل**؛ هذا سيغلق نافذة الرفع.
-
-![](./assets/learning-ojs-3-author-submission-step2-4.png)
-
-ستتم إعادتك إلى نافذة _تقديم مقالة_ حيث ستعاين الملفات التي سبق لك رفعها. إذا أردت إجراء تعديلات، قم بتوسيع السهم الأزرق في يمين الملف المعني وأجر أي تعديلات مستعملاً رابط _تعديل_.
-
-أنقر ‘إحفظ واستمر’ للانتقال إلى الخطوة 3.
-
-### الخطوة 3
-
-في **الخطوة 3**، ستتم مطالبتك بإضافة المزيد من المعلومات عن تقديمك، بما في ذلك عنوانه \(مجزئاً إياه إلى بادئة، عنوان، وعنوان ثانوي\)، وملخص، ومن ثم عبر النزول في النافذة...
-
-![](./assets/learning-ojs3.1-au-dashboard-new-3.png)
-
-...أي مساهمين آخرين.
-
-![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
-
-يمكنك إضافة المزيد من المساهمين \(أي المؤلفين المشاركين\)، عبر النقر على رابط **إضافة مساهمين**. هذا سيفتح نافذة جديدة تتضمن حقولاً لإدخال بياناتهم.
-
-![](./assets/learning-ojs-3-author-submission-step3-2.png)
-
-أنقر **إحفظ**، ليظهر المساهم المضاف على النافذة.
-
-![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
-
-إعتماداً على المجلة التي تقدم طلبك إليها، قد تشاهد حقولاً إضافية عليك إدخالها، مثل: الكلمات المفتاحية.
-
-![](./assets/learning-ojs-3-author-submission-step3-4.png)
-
-لإدخال كلمة مفتاحية، ببساطة أكتب الكلمة أو العبارة ثم اضغط مفتاح الرجوع في لوحة المفاتيح. ستتم نمذجة الكلمة أو العبارة بمثابة كلمة مفتاحية.
-
-أنقر **إحفظ واستمر** للمضي قدماً.
-
-### الخطوة 4
-
-في الخطوة 4، سيتم سؤالك فيما لو أنك راضٍ عن تقديم طلبك.
-
-أنقر **إنهاء التقديم**.
-
-![](./assets/learning-ojs3.1-au-dashboard-new-4.png)
-
-ستظهر نافذة منبثقة تطالبك بتأكيد رغبتك في إنهاء التقديم. أنقر **تمام**.
-
-![](./assets/learning-ojs-3-author-submission-step4-1.png)
-
-### الخطوة 5
-
-![](./assets/learning-ojs3.1-au-dashboard-new-5.png)
-
-طلب تقديمك الآن مكتمل! لقد تم إشعار المحرر بشأنه. في هذه المرحلة، يمكنك الحصول على الروابط الآتية:
-
-* مراجعة طلب التقديم
-* إنشاء طلب تقديم جديد
-* العودة إلى لوحة القيادة
-
-بمجرد إكمالك لطلب التقديم، لن يكون بإمكانك إجراء أي تعديلات عليه. إذا أردت استبدال أي ملف أو القيام بأي تعديلات أخرى، سيكون عليك مراسلة المحرر عبر أداة مناقشات ما قبل التحكيم.
-
-### لوحة القيادة
-
-ها هو طلب تقديمك في لوحة القيادة. يمكنك مشاهدة أنه لا يزال في مرحلة _التقديم_.
-
-![](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
-
-خلال الأيام القادمة، سيتم نقله إلى مرحلة التحكيم، وإذا تم قبوله، إلى مراحل التدقيق ومن ثم الإنتاج قبل أن يحصل على النشر.
+It is currently empty as you have made no submissions.
 
 <hr />
 
-## الاستجابة للتنقيحات
+## Submitting an Article
 
-بمجرد انتهاء عملية التحكيم، سيتم إشعارك عبر البريد الالكتروني من قبل المحرر بقراره.
+Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to Step 1 of a 5-Step process to upload and describe your submission.
 
-بعد استلامك للرسالة، أدخل إلى لوحة القيادة.
+![Author submission queue with new submission button](./assets/learning-ojs3.1-au-dashboard-new.png)
 
-![](./assets/learning-ojs-3-auth-responding-revisions.png)
+### Step 1
 
-إختر رابط *التحكيم* المجاور لطلب تقديمك لمعاينة القرار.
+In **Step 1** you will provide preliminary information about your submission.
 
-![](./assets/learning-ojs-3-auth-responding-revisions2.png)
+![Article submission start screen](./assets/learning-ojs3.1-au-dashboard-new-1.png)
 
-من هنا، يمكنك مشاهدة القرار (التنقيحات مطلوبة) مع رابط يذهب إلى ملاحظات المحرر.
+To begin select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
 
-![](./assets/learning-ojs-3-auth-responding-revisions3.png)
+Read and agree to the statements in the submission checklist by checking each box. Include any comments for the editor, read the journal’s privacy statement, and then click the **Save and Continue** button to move to **Step 2**.
 
-استناداً إلى المعطيات الواردة في رسالة المحرر، عليك الآن تحضير تنقيحاتك.
+### Step 2
 
-### رفع الملف المنقح
+On **Step 2**, a window will open allowing you to upload your submission file.
 
-عبر تقليب الصفحة إلى الأسفل، ستجد لوحة **التنقيحات**.
+![File upload screen](./assets/learning-ojs-3-author-submission-step2.png)
 
-![](./assets/learning-ojs-3-auth-responding-revisions4.png)
+First, you MUST select an Article Component. This lets the system know whether the file is the body of the manuscript, an image, a data set, etc. **This must be selected before your file will upload**.
 
-إستعمل رابط *رفع الملف* لرفع نسختك المنقحة.
+![Select article component](./assets/learning-ojs-3-author-submission-step2-2.png)
 
-![](./assets/learning-ojs-3-auth-responding-upload.png)
+Once you’ve made that selection, you can then upload your first file. It is important to note that you can only upload **one** file at a time. Additional files can be uploaded later in the process. Typically, this first file will be the body of your manuscript. Hit the **Continue** button once the file uploads.
 
-إستعمل القائمة المنسدلة واختر منها ما يشير إلى أنك ترفع نسخة منقحة من ملف موجود سابقاً.
+![Review submission details](./assets/learning-ojs-3-author-submission-step2-3.png)
 
-ثم إرفع الملف المنقح وانقر **إستمر**.
+After uploading the file, you will be asked to review the name of the file. Use the Edit link to make any changes.
 
-![](./assets/learning-ojs-3-auth-responding-upload2.png)
+Click the **Continue** button.
 
-تحقق من تفاصيل الملف ثم انقر **إستمر** مرة أخرى.
+Next, you have the option to repeat the process to upload additional files \(e.g., a data set or an image\).
 
-![](./assets/learning-ojs-3-auth-responding-upload3.png)
+Once you have finished uploading all of your files, click **Complete**; this will close the upload window.
 
-إذا كان لديك أي ملفات إضافية لرفعها، إرفعها الآن، وإلا، أنقر **أكمل**.
+![Complete upload](./assets/learning-ojs-3-author-submission-step2-4.png)
 
-ملفك المنقح ظاهر الآن في لوحة التحكيم.
+You will be brought back to the _Submit an Article_ screen where you will see the files you’ve uploaded. If you need to make changes, expand the blue arrow to the left of your file and make any changes using the _Edit_ link.
 
-![](./assets/learning-ojs-3-auth-responding-upload4.png)
+Click ‘Save and Continue’ to move to Step 3.
 
-### إبلاغ المحرر
+### Step 3
 
-خطوتك الآتية هي إبلاغ المحرر بأن ملفك المنقح صار متوفراً. للقيام بذلك، إذهب إلى لوحة مناقشات التحكيم.
+On **Step 3**, you will be asked to add more information about the submission, including the title of the submission \(broken down into prefix, title, and subtitle\), the abstract, and scrolling down...
 
-![](./assets/learning-ojs-3-auth-responding-discussion.png)
+![Enter metadata](./assets/learning-ojs3.1-au-dashboard-new-3.png)
 
-من هناك، إختر رابط *إضافة مناقشة*.
+...any additional contributors.
 
-![](./assets/learning-ojs-3-auth-responding-discussion-add.png)
+![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
-إستعمل *خانات التأشير* لإضافة المحرر.
+You can add more contributors \(e.g., co-authors\), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
 
-أدخل موضع المناقشة ونص رسالتك.
+![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
 
-أنقر **تم** لإرسال الرسالة.
+Hit **Save**, and the new contributor will appear on the screen.
 
-بذلك، سيتم إرسال رسالة الكترونية إلى المحرر وإليك، وسيكون بإمكان المحرر معاينة الرسالة في لوحة مناقشات التحكيم.
+![List with new contributors added](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
-![](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
+Depending on the journal you are submitting to, you may see additional fields to complete, such as keywords.
 
-في هذه المرحلة، على المؤلف انتظار الرد من المحرر فيما لو أن التنقيحات مقبولة.
+![Enter keywords](./assets/learning-ojs-3-author-submission-step3-4.png)
 
-### قبول التنقيحات
+To enter keyword, simply type the word or phrase and hit your Enter key. The word or phrase will be formatted as a keyword.
 
-ستصلك رسالة بأن تنقيحاتك مقبولة.
+Click **Save and Continue** to move forward.
 
-فضلاً عن ذلك، ستظهر لك إشعارات في لوحة القيادة.
+### Step 4
 
-![](./assets/learning-ojs-3-au-notifications.png)
+On Step 4, you will be asked to confirm that you are happy with your submission.
 
-الإشعار الأخير هو الإشعار الحالي. أنقر عليه لفتح الرسالة (والتي ستكون مطابقة للرسالة الالكترونية التي ستتلقاها).
+Click **Finish Submission**.
 
-![](./assets/learning-ojs-3-au-notifications2.png)
+![Finish submission screen](./assets/learning-ojs3.1-au-dashboard-new-4.png)
 
-إستعمل علامة الضرب **×** في الزاوية العليا اليمنى لإغلاق النافذة.
+A box will pop up asking you to confirm you are finished. Click **OK**.
 
-فضلاً عن ذلك، وفي نهاية لوحة القيادة، ستلاحظ وجود رد على المناقشة من قبل المحرر.
+![Confirm submission screen](./assets/learning-ojs-3-author-submission-step4-1.png)
 
-![](./assets/learning-ojs-3-au-rev-discussions.png)
+### Step 5
 
-النقر على عنوان المناقشة سيؤدي إلى فتحها.
+![Next steps submission screen](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
-![](./assets/learning-ojs-3-au-rev-discussions2.png)
+Your submission is now complete! The editor has been notified of your submission. At this point, you can follow the links to:
 
-تهانينا! لقد تم قبول عملك، وملفك سيذهب إلى مرحلة التدقيق.
+* Review this submission
+* Create a new submission
+* Return to your dashboard
 
-<hr />
+Once you complete a submission, you cannot make changes to it.  If you want to replace the file you submitted or make other changes to the submission, you will need to contact the editor through the Pre-Review Discussions tool.
 
-## إعادة التقديم إلى التحكيم
+### Dashboard
 
-إذا كان قرار المحرر هو إعادة التقديم إلى التحكيم، سيكون عليك تسجيل الدخول إلى الموقع واختيار المقالة في صفحة طلبات تقديمك. إعادة التقديم يجري في مرحلة التحكيم، وليس عليك أن تبدأ بطلب تقديم جديد.
+And here is your submission in your Dashboard. You can see that it is currently in the _Submission_ stage.
 
-في مرحلة التحكيم، سيكون عليك القيام بأمرين لإعادة التقديم إلى المحكم بعد إجرائك للتنقيح:
+![Submission in author dashboard](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
-إرفع الملف الجديد في مقطع التنقيحات. للقيام بذلك، أنقر على ‘رفع ملف.’ ستظهر لك نافذة جديدة تتيح رفع ملف/ملفات. إختر من القائمة المنسدلة ما تراه مناسباً للإشارة إلى أنك ترفع نسخة معدلة من ملف موجود سابقاً.
-
-أضف المناقشة لإشعار المحرر بأنك قد أعدت تقديم طلبك.
-
-عملية التحكيم المناظر ستأخذ مجراها مرة أخرى، ومن المرجح أن تتلقى المزيد من التماسات التنقيح. بمجرد إكمالها وقبولها، سيتم أخذك إلى الخطوة التالية.
+Over the coming days, it will move into the Review stage, and if accepted, into the Copyediting and Production stages before being published.
 
 <hr />
 
-## الاستجابة لالتماس التدقيق
+## Responding to a Review
 
-الخطوة التالية في المخطط الانسيابي هي فحص ملفات تقديمك والتي تكون قد خضعت للتدقيق.
+Once the review process has completed, you will be notified via email by the editor of their decision.
 
-ستتلقى رسالة الكترونية تشعرك بأن ملفاتك صارت جاهزة. لمعاينتها، أدخل موقع المجلة واذهب إلى لوحة القيادة.
+After receiving the email, login to your dashboard.
 
-![](./assets/learning-ojs-3-au-copyedits.png)
+![Submission dashboard with items in review](./assets/learning-ojs-3-auth-responding-revisions.png)
 
-ستجد إدخالاً ضمن لوحة مؤلفاتي. إختر رابط التدقيق للذهاب إلى سجل التقديم الكامل، متضمناً الإشعار الخاص به في لوحة مناقشات التدقيق.
+Select the *Review* link next to your submission to view the decision.
 
-![](./assets/learning-ojs-3-au-copyedits-notice.png)
+![Review tab of manuscript](./assets/learning-ojs-3-auth-responding-revisions2.png)
 
-أنقر رابط المناقشة لفتحه وقراءة الرسالة، ثم افتح الملف المرفق.
+From here, you can see the decision (revisions requested) and a link to the editor's notification.
 
-![](./assets/learning-ojs-3-au-copyedits-message.png)
+![Editor decision notification](./assets/learning-ojs-3-auth-responding-revisions3.png)
 
-بمجرد قراءتك للملف المرفق، يمكنك الاستجابة برغبتك في إجراء أي تعديلات ضرورية أو مصادقتك على العمل.
+Based on the information in the editor's message, you must now prepare your revisions.
 
-![](./assets/learning-ojs-3-au-copyedits-reply.png)
+### Uploading the Revised File
 
-إذا تطلب الأمر، يمكنك إرفاق نسخة منقحة، ولكن سنقتصر هنا على أنك قد وافقت على النتائج. أنقر **تمام**.
+By scrolling down the page, you will find a panel for **Revisions**.
 
-في لوحة القيادة، ستجد أنك آخر من أجاب على الرسالة.
+![Revisions panel](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
-![](./assets/learning-ojs-3-au-copyedits-final-dash.png)
+Use the *Upload a File* link to upload your revised manuscript.
 
-دورك في مرحلة التدقيق قد انتهى الآن، ويمكنك انتظار إلتماس بإجراء القراءة التصحيحية للألواح الطباعية النهائية (أي ملفات PDF، HTML، إلخ.) ما قبل النشر.
+![Upload review file](./assets/learning-ojs-3-auth-responding-upload.png)
+
+Use the dropdown menu to choose that you are uploading a revision of an existing file.
+
+Then upload the revised file and hit **Continue**.
+
+![Review file details and continue](./assets/learning-ojs-3-auth-responding-upload2.png)
+
+Check the file details and hit **Continue** again.
+
+![Add another file or complete upload](./assets/learning-ojs-3-auth-responding-upload3.png)
+
+If you have any additional files to upload, do so now. Otherwise, hit **Complete**.
+
+Your revised file is now visible in the Revisions panel.
+
+![Revised file now in revisions panel](./assets/learning-ojs-3-auth-responding-upload4.png)
+
+### Inform the Editor
+
+The editor will receive a notification about the new file(s) being uploaded. Additionally you can inform the editor via the Review Discussion panel as explained below.
+
+![Review discussions panel](./assets/learning-ojs-3-auth-responding-discussion.png)
+
+From there, select the *Add Discussion* link.
+
+![Add discussion and add user](./assets/learning-ojs-3-auth-responding-discussion-add.png)
+
+Use the *Add User* link to add the editor.
+
+Add a subject line and a message.
+
+Hit **OK** to send the message.
+
+An email has now been sent to the editor and you (and the editor) can see the message in the Review Discussions panel.
+
+![Message in review discussions panel](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
+
+At this point, the author needs to wait to hear back from the editor as to whether the revisions are acceptable.
+
+### Revisions Accepted
+
+You will receive an email that your revisions have been accepted.
+
+In addition, notifications will appear on your dashboard.
+
+![Notifications in dashboard](./assets/learning-ojs-3-au-notifications.png)
+
+The later notification is the current one. Click on it to open the message (which is the same as the email you would have also received).
+
+![Notification message](./assets/learning-ojs-3-au-notifications2.png)
+
+Use the **X** in the upper right corner to close the window.
+
+Further down your dashboard, you will also see a discussion reply from the editor.
+
+![Discussion reply in review discussion panel](./assets/learning-ojs-3-au-rev-discussions.png)
+
+Clicking the discussion title will open it up.
+
+![Review discussion message](./assets/learning-ojs-3-au-rev-discussions2.png)
+
+Congratulations! You've been accepted and your submission file is moving on to the Copyedit stage.
 
 <hr />
 
-## الاستجابة لالتماس القراءة التصحيحية
+## Resubmitting for Review
 
-الخطوة التالية في المخطط الانسيابي هي أن تفحص ملفاتك التي تحولت إلى ألواح طباعية (أي ملفات PDF، HTML، إلخ.).
+If the editor’s decision is to resubmit for review, you will need to log in and select the article in your submissions page. The resubmission is done in the review stage, there is no need to start a new submission.
 
-ستتلقى رسالة الكترونية تشعرك بأن الملفات صارت جاهزة. لمعاينتها، أدخل موقع المجلة واذهب إلى لوحة القيادة.
+At the review stage you will need to do two things to resubmit once you have revised your document:
 
-![](./assets/learning-ojs-3-au-production-dashboard.png)
+Upload the new file in the revisions section. To upload a new file click on ‘Upload file.’ A new window will open allowing you to upload your file(s). Select the appropriate option from the dropdown menu to indicate you are submitting a revision of an existing file.
 
-ستجد إدخالاً ضمن لوحة مؤلفاتي. إختر رابط الإنتاج، لعرض سجل التقديم بالكامل، متضمناً إشعاراً في لوحة مناقشات الإنتاج.
+Add a discussion to notify the editor that you have re-submitted.
 
-![](./assets/learning-ojs-3-au-production-record.png)
+The peer review process will be repeated, and you will likely receive additional revisions to make. Once these are completed and accepted, you will then be moved to the next stage.
 
-أنقر رابط المناقشة لفتحه وقراءة الرسالة، ثم افتح الملف المرفق.
+<hr />
 
-![](./assets/learning-ojs-3-au-production-message.png)
+## Responding to a Copyediting Request
 
-بمجرد قراءتك للملف المرفق، يمكنك الاستجابة برغبتك في إجراء أي تعديلات ضرورية تطلبها من المصمم أو مصادقتك على العمل.
+The next step in the workflow is to inspect your submission files that have been copyedited.
 
-![](./assets/learning-ojs-3-au-production-message2.png)
+You will receive an email indicating that files are available. To see them, login to the journal and go to your dashboard.
 
-هذا كل شيء! دورك ضمن مجريات التحرير قد انتهى الآن.
+![Author submission dashboard](./assets/learning-ojs-3-au-copyedits.png)
+
+You can see your entry in the My Authored panel. Select the Copyediting link to go to the full submission record, including the notification in the Copyediting Discussions panel.
+
+![Copyediting section of author dashboard](./assets/learning-ojs-3-au-copyedits-notice.png)
+
+Click on the linked discussion to open it, read the message, and open the attached file.
+
+![Copyediting check discussion message](./assets/learning-ojs-3-au-copyedits-message.png)
+
+Once you have read the attached file, you can respond to the copyeditor indicating any required changes or your approval.
+
+![Respond to copyediting check message](./assets/learning-ojs-3-au-copyedits-reply.png)
+
+If needed, you could attach a revision, but for this example we will simply approve the changes and hit **OK**.
+
+On your dashboard, you can see that you were the last person to reply to the message.
+
+![[Dashboard showing copyediting discussions](./assets/learning-ojs-3-au-copyedits-final-dash.png)
+
+Your role in the copyediting process is now complete and you can wait for the request to proofread the final galleys (e.g., PDFs, HTML, etc.) before publication.
+
+<hr />
+
+## Responding to a Proofreading Request
+
+The next step in the workflow is to inspect your submission files that have been converted into galleys (e.g., PDF, HTML, etc.).
+
+You will receive an email indicating that files are available. To see them, login to the journal and go to your dashboard.
+
+![Author submission dashboard](./assets/learning-ojs-3-au-production-dashboard.png)
+
+You can see your entry in the My Authored panel. Select the Production link to go to the full submission record, including the notification in the Production Discussions panel.
+
+![Production section of author dashboard](./assets/learning-ojs-3-au-production-record.png)
+
+Click on the linked discussion to open it, read the message, and open the attached file.
+
+![Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message.png)
+
+Once you have read the attached file, you can respond to the Layout Editor indicating any required changes or your approval.
+
+![Respond to Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message2.png)
+
+That's it! Your role in the editorial workflow is now completed.
