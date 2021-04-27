@@ -1,501 +1,494 @@
-# Princípios gerais para a criação de conteúdo acessível
+# General principles for creating accessible content
 
-## Texto alternativo para imagens
+## Alt text for images
 
-Alt text (“texto alternativo”) é uma marcação (tag) legível por máquinas que descreve uma imagem em palavras caso a imagem não possa ser exibida por qualquer motivo, incluindo conexão lenta com a Internet, erro no código HTML ou o uso de tecnologia assistiva.
+Alt text (“alternative text”) is a machine-readable tag that describes an image in words if the image cannot be displayed for any reason, including slow internet connection, error in the HTML code, or the use of assistive technology.
 
-### Onde incluir texto alternativo
+### Where to add alt text
 
-- Nem todas as imagens precisam de texto alternativo. Caso uma imagem seja informativa ou decorativa, será necessário incluir texto alternativo que também forneça contexto para a imagem.
-- Exemplos de imagens consideradas informativas:
-  - **Imagens que são links ou botões**
-    - Imagens clicáveis devem ter um texto alternativo ou fazer parte de uma área interativa que inclua uma descrição ou contexto para a imagem. Deve dar pistas sobre o que acontecerá ao clicar no link;
-    - Caso não haja texto explicativo ao redor da imagem, será necessário o texto alternativo.
-  - **Imagens que contêm texto importante**
-    - Logotipos
-      - O texto alternativo para o logotipo de uma empresa ou organização no cabeçalho deve ser o nome da empresa ou organização. Inclua texto alternativo adicional para o destino do link. Por exemplo, o logotipo do UserTesting pode apresentar o texto alternativo “UserTestin - Início”.
-      - A descrição de uma imagem também pode ser apresentada abaixo da imagem como uma “legenda”.
-- Exemplos de imagens consideradas decorativas:
-  - Usada para fins estéticos (melhorias visuais, decorações, enfeites);
-  - Não oferece informação relevante;
-  - Não tem função além da estética.
+* Not all images need alt text. If an image is informative versus decorative, it will need alt text that also gives context to the image.
+* Examples of images that are considered informative:
+  * **Images that are links or buttons**
+    * Clickable images should have alt text or be part of a clickable area that includes a description or context of the image. It should give clues on what will happen when clicking the link
+    * If there is no text around the image, it needs alt text.
+  * **Images that contain important text**
+    * Logos
+      * The alt text for a company or organisation’s logo in the header should be the company or organisation’s name. Add additional alt text for a link destination, for example, the UserTesting logo could have the alt text “User Testing -- Home”.
+      * The description of an image can also be found at the bottom of the image as a “caption”.
+* Examples of images that are considered decorative:
+  * Used for aesthetic purposes (visual enhancements, decorations, embellishments)
+  * Provide no information
+  * Have no function beyond aesthetics
 
-### Como escrever texto alternativo para imagens
+### How to write alt text for images
 
-- O número recomendado de caracteres para texto alternativo é 125 caracteres ou menos para compatibilidade com leitores de tela populares.
-- Todo texto alternativo deve terminar com “.” para que o leitor de tela faça uma pausa após a leitura.
-- As imagens de capa da edição e do artigo devem apresentar texto alternativo.
-- Dicas na imagem sobre as quais escrever no texto alternativo:
-  - O posicionamento de objetos na imagem;
-  - Tipo de imagem (por exemplo, pintura, gráfico);
-  - Cores;
-  - Nomes de pessoas na imagem;
-  - Roupas, se forem detalhes importantes;
-  - Animais;
-  - O posicionamento do texto na imagem;
-  - Emoções (por exemplo, sorrindo);
-  - Arredores.
-- Descrições de imagens que podem ser omitidas:
-  - Descrição das cores;
-  - Detalhes óbvios, como o fato de uma pessoa ter dois olhos, um nariz e uma boca;
-  - Detalhes que não são o foco da imagem;
-  - Descrições excessivamente poéticas e detalhadas;
-  - Emojis.
+* The recommended number of characters for alt text is 125 characters or less for compatibility with popular screen readers.
+* All alt text should end with a “.” so that the screen reader will pause after reading.
+* Issue and article cover images should have alt text.
+* Image clues to write about in alt text:
+  * The placement of objects in the image
+  * Image style (e.g. painting, graph)
+  * Colours
+  * Names of people in the image
+  * Clothes, if they are important details
+  * Animals
+  * The placement of text within the image
+  * Emotions (e.g. smiling)
+  * Surroundings
+* Image descriptions that can be left out:
+  * Description of colours
+  * Obvious details, such as a person has two eyes, a nose, and a mouth
+  * Details that are not the focus of the image
+  * Overly poetic and detailed descriptions
+  * Emojis
 
-### Ícones
+### Icons
 
-- Os ícones seguem os mesmos princípios; são informativos ou decorativos?
-  - Existe texto diretamente ao lado do ícone?
-  - Se houver texto, ele descreve para que serve o ícone?
-  - Se o ícone for um link ou um botão, o que acontece quando ele é clicado ou ativado? Onde isso leva o leitor?
+* Icons follow the same principles; are they informative or decorative?
+  * Is there text directly next to the icon?
+  * If there is text, does it describe what the icon is for?
+  * If the icon is a link or a button, what happens when it is clicked or activated? Where does it go?
 
-### Imagens complexas
+### Complex images
 
-- Imagens complexas contêm informações substanciais, por exemplo:
-  - Gráficos ou diagramas (por exemplo, fluxogramas, organogramas);
-  - Ilustrações ou diagramas;
-  - Mapas ou outras imagens geográficas ou topográficas.
-- A alternativa recomendada para escrever sobre imagens complexas é escrever uma descrição curta e uma longa:
-  - A descrição curta em texto alternativo primeiro identifica a imagem e, em seguida, indica a localização da descrição longa. Por exemplo, `alt="Gráfico trimestral de alterações climáticas. Discussão disponível abaixo."`.
-  - A longa descrição na página contém as informações essenciais transmitidas pela imagem.
+* Complex images contain substantial information, for example:
+  * Graphs or charts (e.g. flow charts, organizational charts)
+  * Illustrations or diagrams
+  * Maps or other geographical or topographical images
+* The recommended alternative to writing about complex images is to write both a short and long description:
+  * The short description in alt text first identifies the image, and then indicates the location of the long description. E.g. `alt="Graph of quarterly temperature changes. Discussion available below."`.
+  * The long description on the page contains essential information that is conveyed by the image.
 
-### Posicionamento de imagem para leitores de tela
+### Image positioning for screen readers
 
-O posicionamento de imagem é importante para documentos de texto (por exemplo, Word, PDF) quando lidos por leitores de tela.
+Image positioning matters for text documents (e.g. Word, PDF) when read by screen readers.
 
-Somente imagens com opção de layout "Alinhado com o texto" são reconhecidas pelo software de leitura de tela. Quando exportadas para PDF, imagens com outros estilos de disposição serão ignoradas por um leitor de tela, mesmo quando uma tag de texto alternativo estiver presente.
+Only images with the Wrap Text style of "In Line with Text" are recognized by screen reader software. When exported to PDF, images with other wrapping styles will be skipped by a screen reader even when an alt tag is present.
 
-## Conteúdo de áudio e vídeo
+## Video and audio content
 
-Ao criar conteúdo de áudio e vídeo, é fundamental garantir que seja acessível a usuários com deficiências visuais, auditivas e neurológicas. Certifique-se de que o vídeo não seja reproduzido automaticamente, pois deve-se permitir escolher quando reproduzir o conteúdo. Uma pessoa com deficiência auditiva pode não estar ciente do volume do áudio; espectadores com deficiência física ou cognitiva podem não ser tão rápidos para interromper o vídeo e podem impactar outras pessoas em seu ambiente, além de se sentirem constrangidos com a situação.
+When creating video and audio content, it is important to ensure that it is accessible to users with visual, auditory, and neurological disabilities. Make sure that the video does not play automatically, as people should be able to choose when to play the content. A hearing impaired person may not be aware of the audio volume; users with physical or cognitive disabilities may not be as fast to stop the video and may impact other people in their environment, as well as feel embarrassed by the situation.
 
-### Qualidade de áudio e vídeo
+### Video and audio quality
 
-- Certifique-se de que o vídeo não contém flashes/efeitos estroboscópicos não anunciados que podem desencadear convulsões devido à fotossensibilidade;
-- Forneça áudio de alta qualidade no primeiro plano que seja claramente distinguível de qualquer ruído de fundo para ajudar pessoas com deficiência auditiva.
+- Ensure that the video contains no unannounced flashing/strobing that could trigger seizures due to photosensitivity;
+- Provide high-quality foreground audio that is clearly distinguishable from any background noise to aid people who are hard of hearing.
 
-### Oferecendo alternativas para áudio e vídeo
+### Providing alternatives for video and audio
 
-- **Legendas** . As legendas são alternativas de texto à fala apresentada em multimídia. São benéficos para quem não consegue ouvir o áudio, quem pode não ser fluente no idioma ou quem prefere receber informações por texto em vez de som.
+- **Captions**. Captions are text alternatives to the spoken word presented within multimedia. They are beneficial to those who cannot hear the audio, those who may not be fluent in the language or those who prefer to receive information via text over sound.
 
-    Podem ser geradas legendas automatizadas que precisarão ser revisadas e corrigidas por um leitor humano, usando ferramentas como:
+    You can have automated captions generated that will then need to be reviewed and corrected by a human reader, using tools like:
 
-    - [Legenda automática do YouTube para vídeo](https://www.youtube.com/)
+    - [YouTube auto captioning for video](https://www.youtube.com/)
     - [Kapwing Caption Video Online](https://www.kapwing.com/tools/caption-video)
-    - [Legendas automáticas Watson da IBM para áudio](https://speech-to-text-demo.ng.bluemix.net/) (demonstração)
+    - [IBM Watson auto captioning for audio](https://speech-to-text-demo.ng.bluemix.net/) (demo)
 
-- **Transcrições**. A transcrição contém o texto completo das falas (não necessariamente literal) que pode ser acessado e lido separadamente da própria multimídia. Transcrições permitem que pessoas surdas/cegas obtenham conteúdo por meio do uso de dispositivos Braille atualizáveis. Eles também são úteis para pesquisa e navegação para uma seção específica do texto.
+- **Transcripts**. Transcripts contain the full text of the spoken word (not necessarily verbatim) that could be accessed and read separately from the multimedia itself. Transcripts allow deaf/blind users to get content through the use of refreshable Braille devices. They are also useful for searching and navigating to a specific part of the text.
 
-    Ao planejar uma gravação de áudio/vídeo, é importante escrever a transcrição com antecedência. Ela pode então ser usada tanto para a criação da multimídia quanto para disponibilização posterior.
+    When planning a video/audio recording, it is a good idea to have the transcript written out ahead of time. It can then be used both for the multimedia creation and to be made available afterwards.
 
-- **Descrições de áudio**. As descrições de áudio têm o objetivo de fornecer informações adicionais sobre o conteúdo visível na tela para usuários com deficiência visual. Elas normalmente assumem a forma de um narrador que descreve o conteúdo apenas visual na multimídia e podem ser apresentados com o vídeo principal ou em outra faixa de áudio.
+- **Audio descriptions**. Audio descriptions are meant to provide additional information about content that is visible on the screen for users with visual disabilities. They typically take the form of a narrator that describes visual-only content in the multimedia and can be provided with the primary video, or in another audio track.
 
-    Ao produzir um vídeo, a necessidade de descrições de áudio pode muitas vezes ser evitada descrevendo ou apresentando o conteúdo visual por meio de áudio falado. Por exemplo, em vez de dizer “clique aqui e depois aqui”, pode-se dizer “clique em Arquivo e depois em Salvar”, transmitindo conteúdo visual por meio de áudio.
+    When producing a video, the need for audio descriptions can often be avoided by describing or presenting the visual content via spoken audio. For example instead of saying “click here and then here”, you can say “click File and then Save” thus conveying visual content through audio.
 
-- **Interpretação de linguagem de sinais**. Embora as legendas ou transcrições forneçam uma alternativa adequada para usuários com deficiências auditivas que se sentem confortáveis com a leitura da linguagem escrita, elas podem não ser suficientes para usuários surdos que dependem da linguagem de sinais como sua principal (ou única) língua de comunicação. Neste caso, uma alternativa pode ser fornecida por meio da interpretação em linguagem de sinais ou outras ferramentas descritas na seção [Acessibilidade para usuários de linguagem de sinais](#acessibilidade-para-usuários-de-língua-de-sinais).
+- **Sign language interpretation**. While closed captions or transcripts provide a suitable alternative for users with hearing disabilities who are comfortable reading written language, they may not be sufficient for deaf users who rely on sign language as their primary (or only) language of communication. In this case an alternative can be provided via sign language interpretation or other tools outlined in the [Accessibility for Sign Language users section](#accessibility-for-sign-language-users).
 
-## Hiperlinks acessíveis
+## Accessible hyperlinks
 
-Aqueles que navegam usando um leitor de tela devem ser capazes de compreender sem ambiguidade a finalidade do link e pular os links nos quais não estão interessados. Para conseguir isso, o texto do link precisa ser:
+Users who navigate using a screen reader must be able to unambiguously understand the purpose of the link and skip links they are not interested in. To achieve this, link text needs to be:
 
-- **Descritivo.** Ao escrever um endereço eletrônico, certifique-se de que pode ser compreendido sem contexto adicional. Por exemplo:
+- **Descriptive.** When writing URL text, make sure it can be understood without additional context. E.g.:
 
-    - Não use: "[Clique aqui](https://pkp.sfu.ca/ojs/) para ler sobre o OJS".
-    - Use: “Mais informações estão disponíveis [na página do Open Journal Systems (OJS)](https://pkp.sfu.ca/ojs/)”.
+    - Do not use: "[Click here](https://pkp.sfu.ca/ojs/) to read about OJS”.
+    - Use instead: “More information is available on the [Open Journal Systems (OJS) page](https://pkp.sfu.ca/ojs/)”.
 
-- **Conciso**. Use palavras-chave como texto vinculado em vez de frases mais longas. Para texto que deve ser impresso, crie um hiperlink para o texto e adicione o endereço completo. Por exemplo:
+- **Concise**. Use keyword(s) as linked text rather than longer sentences. For text that is meant to be printed, hyperlink the text and add a full URL. E.g.:
 
-    - Para exibição on-line: “Mais informações disponíveis [na página do Open Journal Systems (OJS)](https://pkp.sfu.ca/ojs/)”.
-    - Para exibição impressa ou online + impressa: “Mais informações estão disponíveis [na página do Open Journal Systems (OJS)](https://pkp.sfu.ca/ojs/) em [https://pkp.sfu.ca/ojs/](https://pkp.sfu.ca/ojs/)”.
+    - For online display: “More information is available on the [Open Journal Systems (OJS) page](https://pkp.sfu.ca/ojs/)”.
+    - For print display or online + print: “More information is available on the [Open Journal Systems (OJS) page](https://pkp.sfu.ca/ojs/) at [https://pkp.sfu.ca/ojs/](https://pkp.sfu.ca/ojs/)”.
 
-- **Único**. Evite hiperlinks com nomes semelhantes se eles direcionarem para lugares diferentes.
+- **Unique**. Avoid similarly named hyperlinks if they link to different places.
 
-- **Visualmente distinto**. Use o estilo sublinhado em azul padrão para hiperlinks. Se você alterar, certifique-se de que os links ainda estejam com alto contraste e sublinhados. Não use sublinhado para texto sem hiperlink.
+- **Visually distinct**. Use the default blue underlined style for hyperlinks. If you change it, make sure the links are still high contrast and underlined. Don't use underline for non-hyperlinked text.
 
-## Contraste e dependência de cores
+## Contrast and colour reliance
 
-O uso de contraste e cor são vitais para a acessibilidade. Ter contraste insuficiente pode afetar usuários com deficiência visual. Ter conteúdo que depende de cores para transmitir significado pode afetar usuários com deficiências de visão de cores (DVC) e aqueles que dependem de leitores de tela.
+Contrast and colour use are vital to accessibility. Having insufficient contrast may affect users with visual disabilities. Having content that relies on colour to convey meaning may affect users with colour vision deficiencies (CVD) and those who rely on screen readers.
 
-### Taxa de contraste
+### Contrast ratio
 
-A cor do texto contra o fundo pode parecer suficientemente distinta para um leitor com boa visão, mas pode apresentar problemas para um leitor com deficiência visual. Para ajudar na avaliação, as [diretrizes WCAG 2.1](https://www.w3.org/TR/WCAG21/#contrast-minimum) quantificam a taxa de contraste acessível em pelo menos 4,5:1 para texto normal e 3:1 para texto grande, para nível AA.
+Text colour against the background may appear as sufficiently distinct to a sighted reader, but may present issues to a reader with visual disabilities. To help evaluate it, [WCAG 2.1 Guidelines](https://www.w3.org/TR/WCAG21/#contrast-minimum) quantify accessible contrast ratio as at least 4.5:1 for normal text and 3:1 for large text, for Level AA.
 
-Use o [Verificador de Contraste da WebAim](https://webaim.org/resources/contrastchecker/), [Verificador de Taxa de Contraste](https://contrast-ratio.com/), ou o [Analisador de Contraste de Cores](https://developer.paciellogroup.com/resources/contrastanalyser/) para verificar a taxa de contraste entre as cores de fundo e do texto em suas páginas. Apresentamos a seguir um exemplo usando o [Verificador de Contraste da WebAim](https://webaim.org/resources/contrastchecker/):
+You can use [WebAim’s Contrast Checker](https://webaim.org/resources/contrastchecker/), [Contrast Ratio Checker](https://contrast-ratio.com/), or the [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/) to check the contrast ratio between your website’s background and text colours. Here is an example of a check done using [WebAim’s Contrast Checker](https://webaim.org/resources/contrastchecker/):
 
-![Tela do Verificador de Contraste de Cores do WebAim.](./assets/1_a11y-guide-webaim-contrast-checker.png)
+![WebAim's Colour Contrast Checker interface.](./assets/1_a11y-guide-webaim-contrast-checker.png)
 
-*Exemplo de opções de interface do Verificador de contraste de cores do WebAim*
+*Example of WebAim's Colour Contrast Checker interface options*
 
-Neste exemplo, o texto normal de cor roxa #666FF não é suficientemente distinto contra o fundo branco #FFFFFF e falha no padrão de Nível AA, mas o texto grande da mesma cor é aprovado. Para corrigir o problema, você pode escurecer a cor do texto ou aumentar o tamanho da fonte.
+In this example, normal text of purple colour #666FF is not sufficiently distinct against the white background #FFFFFF and fails the Level AA standard, but large text of the same colour passes. To fix the issue, you can darken the text colour or increase the font size.
 
-Da mesma forma, o [Verificador de Contraste de Link](https://webaim.org/resources/linkcontrastchecker/) da WebAIM pode ser usado para avaliar a visibilidade de seus links.
+Similarly, you can use the WebAIM [Link Contrast Checker](https://webaim.org/resources/linkcontrastchecker/) to evaluate the visibility of your links.
 
-### Uso de cor
+### Use of colour
 
-Frequentemente, usamos cores em conteúdo da Web ou em conteúdo publicado para transmitir significado. O uso de gráficos coloridos ou ilustração é um exemplo. Ao fazer a escolha de usar cores, considere se um leitor com deficiência de visão de cores (DVC) ou usando um leitor de tela ainda seria capaz de entender o significado transmitido. É essencial que a cor não seja o único meio de transmitir as informações - considere adicionar outros contextos textuais (por exemplo, números ou % em um gráfico).
+We often use colour in web content or in published content to convey meaning. Using coloured graphs or illustration is one such example. When making the choice to use colour, consider whether a reader with colour vision deficiencies (CVD) or using a screen reader would still be able to understand the meaning conveyed. It is essential for the colour to not be the only means of conveying the information - consider adding other textual queues (e.g. numbers or % on a graph).
 
-**Não faça isso:**
+**Don’t do this:**
 
-![Um círculo laranja e um círculo verde sem texto.](./assets/2_a11y-guide-colour-circles-dont.png)
+![An orange and a green circle with no text.](./assets/2_a11y-guide-colour-circles-dont.png)
 
-**Faça isso:**
+**Do this:**
 
-![Um círculo laranja com a palavra SIM e um círculo verde com a palavra NÃO.](./assets/3_a11y-guide-colour-circles-do.png)
+![An orange circle with a word Yes and a green circle with a word No.](./assets/3_a11y-guide-colour-circles-do.png)
 
-Outras ferramentas, como a [extensão Spectrum do Chrome](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en), permitem emular diferentes tipos de DVC em qualquer site. Isso é particularmente útil se seus artigos contiverem visualizações de dados. As duas figuras a seguir, obtidas de um artigo publicado na revista Polar Research, ilustram como o DVC pode afetar a compreensão de um diagrama ou gráfico pelo leitor.
+Other tools, such as the [Spectrum Chrome extension](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en) allow you to emulate different types of CVD on any website. This is particularly useful if your articles contain data visualisations. The following two figures, obtained from an article published in the journal Polar Research, illustrate how CVD can affect a user’s understanding of a graph or a chart.
 
-![Duas versões do mesmo mapa com cores distintas, descrição a seguir.](./assets/4_a11y-guide-colour-chart2.png)
+![Two versions of the same map with different colours, description below.](./assets/4_a11y-guide-colour-chart2.png)
 
-*Nesta figura, o original (1) ainda está acessível e legível para usuários com deuteranopia, uma cegueira verde, conforme mostrado em (2).*
+*In this figure, the original (1) is still accessible and legible to users with deuteranopia, a green blindness, as shown in (2).*
 
-![Quatro variações do mesmo mapa com cores distintas, descrição a seguir.](./assets/5_a11y-guide-colour-chart4.png)
+![Four variations of the same map with different colours, description below.](./assets/5_a11y-guide-colour-chart4.png)
 
-*Nesta figura, a legenda da cor do original (1) não é tão clara para leitores com acromatopsia, daltonismo total, como mostrado em (2). Algumas das categorias de dados são muito semelhantes entre si.*
+*In this figure, the original’s (1) colour legend is not as clear for users with achromatopsia, total colour blindness, as shown in (2). Some of the data’s categories are too similar to each other.*
 
-Certas ferramentas baseadas na web, como o [ColorBrewer](https://colorbrewer2.org/), fornecem paletas de cores acessíveis para visualização de dados, adaptadas a diferentes tipos de conjuntos de dados (sequencial, divergente, qualitativo). Em caso de dúvida, recorra a diferentes formas ou padrões para indicar delimitações em grandes grupos de pontos de dados.
+Certain web-based tools like [ColorBrewer](https://colorbrewer2.org/) provide accessible colour palettes for data visualisation, adapted to different types of datasets (sequential, diverging, qualitative). When in doubt, you may also fall back on different shapes or patterns to indicate delimitations in large groups of data points.
 
-## Facilidade de leitura e legibilidade da escrita
+## Readability and legibility of writing
 
-Compreensivelmente, a redação e a formatação do texto para um periódico provavelmente seguirão as convenções de uma comunidade acadêmica específica. Mas existem princípios gerais que podem ser seguidos para torná-lo mais fácil de ler e compreender.
+Understandably, text writing and formatting for a journal will likely follow conventions of a particular scholarly community. But there are general principles we can follow to make it more readable and legible.
 
-Parágrafos mais curtos facilitarão a leitura do texto em telas pequenas e ajudarão pessoas com deficiências cognitivas, neurológicas e/ou de aprendizagem. Da mesma forma, expandir acrônimos e abreviações no primeiro uso e manter uma lista de acrônimos como apêndice para referência é uma prática comum e útil.
+Start by ensuring the text is free from spelling and grammar errors. You can use the built-in spell check in MS Word or Google Docs or free online tools such as [GrammarCheck](https://www.grammarcheck.net/editor/).
 
-[O guia de escrita clara e simples do WebAim](https://webaim.org/techniques/writing/) contém outras dicas úteis para que os autores alcancem clareza e simplicidade. Além disso, ferramentas como o [aplicativo Hemingway](http://www.hemingwayapp.com/) podem ajudar a avaliar a complexidade do texto e sugerir maneiras de melhorar sua legibilidade geral.
+Shorter paragraphs will make the text easier to read on small screens and will help people with cognitive, neurological and/or learning disabilities. Similarly, expanding acronyms and abbreviations on first use and keeping a list of acronyms as an appendix for reference is a common and helpful practice.
 
-## Estrutura de cabeçalhos de seções
+[WebAim’s Writing Clearly and Simply](https://webaim.org/techniques/writing/) guide contains other helpful tips for writers to achieve clarity and simplicity. Additionally, tools like [Hemingway App](http://www.hemingwayapp.com/) can help evaluate your text for complexity and suggest ways of improving its general readability.
 
-Os cabeçalhos de seções, ou títulos de seções, ajudam os leitores a entender como o conteúdo de uma página é organizado. Além disso, fornecem navegação dentro da página que é usada por navegadores da Web, plug-ins e tecnologias assistivas. Ao criar conteúdo para a Web, o uso da hierarquia de títulos em ordem de classificação ajudará os leitores a navegar no documento com mais facilidade.
+## Headings structure
 
-Os títulos de seções podem fornecer uma ideia mais clara sobre o conteúdo, uma vez que mostram sua estrutura básica. Por esse motivo, em vez de escrever um título de seção principal longo, é aconselhável usar subtítulos.
+Headings help users understand how the content of a page is organized. Also, they provide in-page navigation which is used by web browsers, plug-ins, and assistive technologies. When creating web content, using heading hierarchy in rank order will help users navigate the document with more ease.
 
-É possível criar seções de conteúdo usando subtítulos, e estes podem conectar parágrafos relacionados.
+Headings can provide a clearer idea about the content once it shows an outline of it. For that reason, rather than write a long main heading, it is advised to use subheadings.
 
-![Exemplo de formatação de cabeçalho para JMIR](./assets/6_a11y-guide-headings-jmir.png)
+It is possible to create content sections using subheadings, and these can connect related paragraphs.
 
-*Exemplo de formação de títulos deseção para artigos do JMIR em [Base de Conhecimento e Central de Ajuda das Publicações JMIR](https://support.jmir.org/hc/en-us/articles/360017464552-How-should-headings-be-formatted-).*
+![Example of heading formatting for JMIR](./assets/6_a11y-guide-headings-jmir.png)
 
-### Documentos HTML
+*Example of heading formatting for JMIR papers from [JMIR Publications Knowledge Base and Help Center](https://support.jmir.org/hc/en-us/articles/360017464552-How-should-headings-be-formatted-).*
 
-Em documentos HTML acessíveis, os cabeçalhos são estruturados usando as seguintes tags: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>` e `<h6>`. Eles são aninhados de acordo com sua hierarquia ou nível. O nível de classificação é definido pelo número de tags de título. Consequentemente, `<h1>` é o nível mais alto em importância e `<h6>` é o subtítulo mais baixo na classificação da estrutura de títulos.
+### HTML documents
 
-Evite pular títulos na estrutura de um documento para evitar confusão, mesmo se preferir a apresentação visual. Um `<h2>` deve ser seguido por um `<h3>` como o próximo subtítulo na mesma seção. No entanto, é bom que um `<h4>` seja seguido diretamente por um `<h2>` ao abrir uma nova seção, desde que `<h4>` feche a anterior.
+In accessible HTML documents, headings are structured using the following tags: `<h1>`, `<h2>`, `<h3>`, `<h4>`, `<h5>`, and `<h6>`. They are nested according to their rank or level. Rank level is defined by the number of heading tags. Hence, `<h1>` is the highest level in importance and `<h6>` is the lowest subheading in the structure rank of headings.
 
-Deve-se usar **apenas um título** `<h1>` por documento, pois é o título do documento ou título do artigo.
+Avoid skipping headings in a document structure to prevent confusion, even if you prefer the visual presentation. A `<h2>` must be followed by a `<h3>` as the next subheading in the same section. However, it is fine that a `<h4>` is followed directly by a `<h2>` when it opens a new section, as long as `<h4>` closes the previous one.
 
-#### Exemplos
+**Only one** `<h1>` heading should be used per document, because it is the document title or article title.
 
-O exemplo a seguir mostra a estrutura de um artigo com cabçalhos de seção onde o *Título do artigo* é o nível mais alto e a informação mais importante na estrutura.
+#### Examples
 
-> (h1) *Título do artigo*  
-(h2) Resumo  
-(h2) Introdução  
-(h3) Fundamentação teórica  
-(h2) Métodos  
-(h2) Conclusão  
+The example below shows an article structure with headings where the *Article title* is the highest rank heading and the most important info of the structure.
 
-O exemplo a seguir demonstra como aninhar seções, com o nível mais baixo fechando a seção anterior. Neste exemplo, o "(h4) Plano de fundo por região" fecha a seção "(h2) Introdução" e está de acordo em termos de acessibilidade.
+> (h1) *Article title*  
+> (h2) Abstract  
+> (h2) Introduction  
+> (h3) Background  
+> (h2) Methods  
+> (h2) Conclusion
 
-> (h1) Título do artigo  
-(h2) Resumo  
-(h2) Introdução  
-(h3) Fundamentação teórica  
-(h4) **Histórico por região**  
-(h2) Métodos  
-(h2) Conclusão  
+The example below demonstrates how to nest sections, with the lowest level closing the previous section. In this example, the "(h4) Background by region" closes the "(h2) Introduction" section and is fine in accessibility terms.
 
-### Documentos de texto
+> (h1) Article title  
+> (h2) Abstract  
+> (h2) Introduction  
+> (h3) Background  
+> (h4) **Background by region**  
+> (h2) Methods  
+> (h2) Conclusion
 
-Existem muitos editores de texto disponíveis para criar documentos, incluindo Microsoft Word, Apple Pages, LibreOffice e editores online como o Google Docs. Use qualquer editor de sua preferência para criar documentos com estruturas de títulos acessíveis.
+### Text documents
 
-Outros editores normalmente seguem o mesmo conceito de classificação e aninhamento de títulos. Normalmente, é possível selecionar uma parte do texto e formatá-la como um título.
+There are many Text Editors available to create documents, including Microsoft Word, Apple Pages, LibreOffice, and online editors like Google Docs. You can use any editor you like to create documents with accessible heading structures.
 
-A imagem a seguir mostra as opções de título para o Google Docs:
+Other editors will typically follow the same concept of heading ranking and nesting. You will usually have the option to select a portion of text and format it as a heading.
 
-![Tela de opções de cabeçalho no Google Docs](./assets/7_a11y-guide-headings-doc.png)
+The following image shows the heading options for Google Docs:
 
-A hierarquia de títulos para documentos em editores de texto deve seguir o mesmo conceito de nível de classificação para documentos HTML:
+![The heading options in Google Doc.](./assets/7_a11y-guide-headings-doc.png)
 
-- Todo documento deve ter um *Título 1*
-- Não pule níveis de título, por exemplo: um *Título 2* deve ser seguido por um *Título 3 e, em* seguida, *Título 4*, exceto ao iniciar uma nova seção
-- Os títulos devem ser exclusivos para evitar qualquer confusão ao navegar, deslizar ou ler todo o documento
+The heading hierarchy for documents on text editors should follow the same concept of rank level for HTML documents:
 
-## Listas
+- Every document must have a *Heading 1*
+- Do not skip heading levels, e.g.: a *Heading 2* must be followed by a *Heading 3* then *Heading 4*, except when starting a new section
+- Headings should be unique to prevent any confusion while navigating, skimming or reading the whole document
 
-De acordo com o conteúdo apresentado e como o criador do conteúdo deseja organizá-lo, existem três tipos de listas para conteúdo da Web. O tipo de lista usada depende do tipo de informação que está sendo organizada e sua finalidade.
+## Lists
 
-- lista não ordenada
-- lista ordenada
-- lista descritiva
+According to the content presented and how the content creator wants to organize it, there are three types of lists for web content. The type of list used depends on the kind of information that is being organized and its purpose.
 
-As tecnologias assistivas informam aos leitores que tipo de lista será lida antes de prosseguir para cada item. Também descreve quantos itens estão em uma lista, o item atual e quantos itens da lista ainda restam.
+* unordered list
+* ordered list
+* description list
 
-### Lista não ordenada
+Assistive technologies inform users what type of list will be read before proceeding to each item. It also describes how many items are on a list, the current item, and how many list items are still remaining.
 
-Em uma lista não ordenada, a ordem dos elementos não é importante e é usada para mostrar um grupo ou um conjunto de elementos. Essa lista geralmente mostra um marcador para cada elemento.
+### Unordered list
 
-Esta lista é codificada usando `<ul>` para o elemento principal e `<li>` para cada item. Exemplo:
+In an unordered list, the elements order is not important and  is used to show a group or a set of elements. This list usually shows a bullet for each element.
 
-**Código**
+This list is coded using `<ul>` for the main element and `<li>` for each item. Example:
+
+**Code**
 
 ```html
 <ul>
-	<li>Pesquisadores</li>
-	<li>Estudantes</li>
-	<li>Editores</li>
-	<li>Autores</li>
+    <li>Researchers</li>
+    <li>Students</li>
+    <li>Editors</li>
+    <li>Authors</li>
 </ul>
 ```
 
-**Renderizado**
+**Rendered**
 
-> - Pesquisadores
-> - Estudantes
-> - Editores
-> - Autores
+> - Researchers
+> - Students
+> - Editors
+> - Authors
 
-### Lista ordenada
+### Ordered list
 
-O objetivo principal é mostrar uma hierarquia ou informação sequencial. Ele também pode mostrar etapas de instrução a seguir ou procedimentos. Ele pode mostrar um número ou uma letra para cada elemento listado.
+The main purpose is to show a hierarchy or sequential information. It can also show steps of instruction to follow or proceedings. It can show a number or a letter for each element listed.
 
-Esta lista é codificada usando `<ol>` para o elemento principal e `<li>` para cada item. Exemplo:
+This list is coded using `<ol>` for the main element and `<li>`  for each item. Example:
 
-**Código**
+**Code**
 
 ```html
 <ol>
-	<li>Aceitar submissão</li>
-	<li>Designar avaliadores</li>
-	<li>Enviar para avaliação</li>
-	<li>Definir data de conclusão da atividade</li>
+    <li>Accept submission</li>
+    <li>Assign reviewers</li>
+    <li>Send to review</li>
+    <li>Set a due date</li>
 </ol>
 ```
 
-**Renderizado**
+**Rendered**
 
-> 1. Aceitar submissão
-> 2. Designar avaliadores
-> 3. Enviar para avaliação
-> 4. Defina uma data de conclusão da tarefa
+> 1. Accept submission
+> 2. Assign reviewers
+> 3. Send to review
+> 4. Set a due date
 
-### Lista descritiva (lista de definições)
+### Description list (definition list)
 
-Uma lista descritiva consiste em agrupar termos e suas descrições. É possível associar um ou mais termos a uma ou mais descrições dos termos.
-A marcação para listas de descrição inclui a marca `<dl>` para o início da lista, a marca `<dt>` para o(s) termo(s) e a marca `<dd>` para a(s) descrição(ões).
-Um termo pode ser agrupado em mais de uma descrição. Da mesma forma, um ou mais termos podem ser agrupados com uma descrição. Muitos termos para muitas descrições também são aceitáveis.
+A description list consists of grouping terms and their descriptions. It is possible to associate one or more terms to one or more descriptions of the terms. The markup for description lists includes the `<dl>` tag for the start of the list, the `<dt>` tag for the term(s), and the `<dd>` tag for the description(s). A term can be grouped to more than one description. Likewise, one or more terms can be grouped with one description. Many terms to many descriptions is also acceptable.
 
-Leitores de tela anunciarão o número de termos, bem como as descrições.
-A seguir apresentamos alguns exemplos de listas descritivas:
+Screen readers will announce the number of terms as well as the descriptions. Below are some examples for description lists:
 
-**Um termo, várias descrições**:
+**One term, multiple descriptions**:
 
 ```html
 <dl>
-	<dt>Autores</dt>
-    	<dd>John</dd>
-    	<dd>Kevin</dd>
-    	<dd>Juan</dd>
-	<dt>Editor</dt>
-		<dd>James</dd>
+    <dt>Authors</dt>
+        <dd>John</dd>
+        <dd>Kevin</dd>
+        <dd>Juan</dd>
+    <dt>Editor</dt>
+        <dd>James</dd>
 </dl>
 ```
 
-**Renderizado**
-
+**Rendered**
 > <dl>
-> 	<dt>Autores</dt>
->   	<dd>John</dd>
->   	<dd>Kevin</dd>
->   	<dd>Juan</dd>
->   <dt>Editor</dt>
->   	<dd>James</dd>
+>   <dt>Authors</dt>
+>         <dd>John</dd>
+>         <dd>Kevin</dd>
+>         <dd>Juan</dd>
+>     <dt>Editor</dt>
+>         <dd>James</dd>
 > </dl>
-
-**Vários termos, uma descrição**:
+**Multiple terms, one description**:
 
 ```html
 <dl>
-	<dt>OJS</dt>
-	<dt>OMP</dt>
-		<dd>Plataformas de software para publicações desenvolvidas pelo PKP.</dd>
+    <dt>OJS</dt>
+    <dt>OMP</dt>
+        <dd>Publishing software platforms developed by PKP.</dd>
 </dl>
 ```
 
-**Renderizado**
-
+**Rendered**
 > <dl>
 >   <dt>OJS</dt>
 >   <dt>OMP</dt>
->     <dd>Plataformas de software para publicações desenvolvidas pelo PKP.</dd>
+>     <dd>Publishing software platforms developed by PKP.</dd>
 > </dl>
-
-**Vários termos, várias descrições**:
+**Multiple terms, multiple descriptions**:
 
 ```html
 <dl>
-    <dt>Autores</dt>
-    <dt>Editores</dt>
+    <dt>Authors</dt>
+    <dt>Editors</dt>
         <dd>James</dd>
         <dd>Michael</dd>
 </dl>
 ```
 
-**Renderizado**
-
+**Rendered**
 > <dl>
-> <dt>Autores</dt>
-> <dt>Editores</dt>
+> <dt>Authors</dt>
+> <dt>Editors</dt>
 >     <dd>James</dd>
 >     <dd>Michael</dd>
 > </dl>
+## Columns
 
-## Colunas
+While newer screen readers are typically compatible with multi-column layout, some older screen readers may read the page left-to-right, line by line, rendering the text out of order.
 
-Embora os leitores de tela mais atualizados sejam normalmente compatíveis com o layout de várias colunas, alguns leitores de tela mais antigos podem ler a página da esquerda para a direita, linha por linha, tornando o texto fora de ordem.
+Tables are frequently used to create column formatting, but this is a common misuse. Tables (as detailed below) should be used exclusively for tabular data or content. Screen readers are expected to announce this as a “Table” and interpret the first row of a Table as the Table Header, causing potential confusion.
 
-As tabelas são frequentemente usadas para criar formatação em coluna, mas esse é um uso comum incorreto. As tabelas (conforme detalhado mais adiante) devem ser usadas exclusivamente para dados ou conteúdo tabular. Espera-se que os leitores de tela anunciem isso como uma “Tabela” e interpretem a primeira linha de uma Tabela como o Cabeçalho da Tabela, causando provável confusão.
+If you determine that columns are the best way to present your web content, the preferred way is to use [CSS to format multiple columns](https://www.w3schools.com/css/css3_multiple_columns.asp). However, it is important to ensure that the text is ordered coherently, even when CSS is inactive.
 
-Caso determine que colunas são a melhor maneira de apresentar seu conteúdo na Web, a maneira recomendada é usar [CSS para formatar várias colunas](https://www.w3schools.com/css/css3_multiple_columns.asp). No entanto, é importante garantir que o texto seja ordenado de forma coerente, mesmo quando o CSS estiver desativado.
+For text documents (e.g. Word, PDF) it is important to create columns using the Columns formatting tool rather than by using the tab key or spacebar to create whitespace between lines of text.
 
-Para documentos de texto (por exemplo, Word, PDF), é importante criar colunas usando a ferramenta de formatação Colunas em vez de usar a tecla TAB ou a barra de espaço para criar espaços em branco entre as linhas de texto.
+## Tables
 
-## Tabelas
+Tables should be used exclusively to present tabular data or content. Tables can help organize content with a logical relationship in grids, making it easier to read and understand. For more on accessibility in tables see the [W3C/WAI Tables Concepts page](https://www.w3.org/WAI/tutorials/tables/).
 
-Tabelas devem ser usadas exclusivamente para apresentar dados ou conteúdo tabulares. Tabelas podem ajudar a organizar o conteúdo com uma relação lógica em grade, facilitando a leitura e o entendimento. Para obter mais informações sobre acessibilidade em tabelas, consulte a [página de Conceitos de Tabela da W3C/WAI](https://www.w3.org/WAI/tutorials/tables/).
+It is possible to use tables to position elements visually in a document or page, although it is not advisable. It can cause confusion for assistive technologies that would announce the element as a “table” where it may in fact contain different content. It may give a sense of missing data in the wrapping element.
 
-É possível usar tabelas para posicionar elementos visualmente em um documento ou página, embora não seja aconselhável. Isso pode causar confusão para tecnologias assistivas que anunciariam o elemento como uma “tabela” onde ele pode de fato conter conteúdo diferente. Pode dar uma sensação de falta de dados no elemento agrupador.
+### Table structure
 
-### Estrutura de tabelas
+Different types of data or content can be presented in a different structure of tables. The complete structure set of this element involves:
 
-Diferentes tipos de dados ou conteúdo podem ser apresentados em diferentes estruturas de tabelas. O conjunto completo da estrutura deste elemento envolve:
+* **Caption/Summary**: or table title, it could be either a short or long description of the data in the table, i.e.: "How I choose to spend my money". It serves to describe the content that the user will read and find in the table.
+* **Table header**: Usually the first row of a table. It provides a label to the column and what type of information to expect in that column. However, for long tables it is also possible to use the whole first column as a table header as well. For example, tables containing countries and social indicators usually have the first row and the first column as table headers.
+* **Table body**: wraps the main content or data of a table. It presents them below the table header and above the table footer.
+* **Table footer**: this element serves to summarize the columns of a table. It is useful for tables values or numerical data. It is not a mandatory element for tables with values that do not require a summary, i.e.: table with names, ages, citizenship, etc. That is to say, even if age is a numerical value, it should not be summarized at the bottom of a table.
 
-- **Legenda/Resumo**: ou título da tabela, pode ser uma descrição curta ou longa dos dados da tabela, ou seja: "Como escolho gastar meu dinheiro". Serve para descrever o conteúdo que será lido e encontrado na tabela.
-- **Cabeçalho da tabela**: geralmente a primeira linha de uma tabela. Fornece um rótulo para a coluna e o tipo de informação esperado na coluna respectiva. No entanto, para tabelas longas, também é possível usar a primeira coluna inteira como cabeçalho da tabela. Por exemplo, tabelas contendo países e indicadores sociais geralmente têm a primeira linha e a primeira coluna como cabeçalhos.
-- **Corpo da tabela**: envolve o conteúdo principal ou dados de uma tabela. É apresentado abaixo do cabeçalho da tabela e acima do rodapé da tabela.
-- **Rodapé da tabela**: este elemento serve para resumir as colunas de uma tabela. É útil para valores de tabelas ou dados numéricos. Não é obrigatório para tabelas com valores que não exijam resumo, por exemplo: tabela com nomes, idades, nacionalidade etc... Ou seja, mesmo que idade seja um valor numérico, não deve ser resumida na parte inferior de uma tabela.
-
-A seguir apresentamos um exemplo de uma tabela com seus elementos conforme descrito anteriormente: *Legenda/Resumo* , *Cabeçalho* , *Corpo* e *Rodapé*.
+Below is an example of a table with elements of a table described above: *Caption*, *Header*, *Body* and *Footer*.
 
 <table>
-  <caption>Como escolho gastar meu dinheiro</caption>
+  <caption>How I chose to spend my money</caption>
   <thead>
     <tr>
-      <th>Compra</th>
-      <th>Localização</th>
-      <th>Data</th>
-      <th>Avaliação</th>
-      <th>Custo (€)</th>
+      <th>Purchase</th>
+      <th>Location</th>
+      <th>Date</th>
+      <th>Evaluation</th>
+      <th>Cost (€)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Corte de cabelo</td>
-      <td>Cabeleireiro</td>
+      <td>Haircut</td>
+      <td>Hairdresser</td>
       <td>12/09</td>
-      <td>Grande ideia</td>
+      <td>Great idea</td>
       <td>30</td>
     </tr>
     <tr>
-      <td>Lasanha</td>
-      <td>Restaurante</td>
+      <td>Lasagna</td>
+      <td>Restaurant</td>
       <td>12/09</td>
-      <td>Arrependimento</td>
+      <td>Regrets</td>
       <td>18</td>
     </tr>
     <tr>
-      <td>Sapatos</td>
-      <td>Loja de sapatos</td>
+      <td>Shoes</td>
+      <td>Shoeshop</td>
       <td>13/09</td>
-      <td>Grande arrependimento</td>
+      <td>Big regrets</td>
       <td>65</td>
     </tr>
     <tr>
-      <td>Creme dental</td>
-      <td>Mercado</td>
+      <td>Toothpaste</td>
+      <td>Supermarket</td>
       <td>13/09</td>
-      <td>Bom</td>
+      <td>Good</td>
       <td>5</td>
     </tr>
   </tbody>
   <tfoot>
     <tr>
-      <td colspan="4">TOTAL</td>
+      <td colspan="4">SUM</td>
       <td>118</td>
     </tr>
   </tfoot>
 </table>
 
-*Exemplo de tabela com: Legenda/Resumo, Cabeçalho, Corpo e Rodapé (resumindo) - Fonte: [https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced)*
+*Table example with: Caption, Header, Body and Footer (summarizing) - Source: [https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced)*
 
-Para documentos HTML as tags a seguir são usadas para definir a estrutura principal de uma tabela: `<table>`, `<thead>`, `<tbody>` e `<tfoot>`. Os últimos 3 elementos são sempre envoltos por uma tag `<table>`. Informações técnica mais detalhadas sobre como produzir tableas HTML para pessoas com deficiência visual estão disponíveis nos [Documentos Web da Mozilla](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#Tables_for_visually_impaired_users).
+For HTML documents the following tags are used to define a table main structure: `<table>`, `<thead>`, `<tbody>` and `<tfoot>`. The last 3 elements are always wrapped by the `<table>` tag. You can find further technical info about how to generate HTML tables for visually impaired users on the [Mozilla web docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced#Tables_for_visually_impaired_users).
 
-Para [criar tabelas acessíveis no Microsoft Word](https://kb.iu.edu/d/aqjl):
+To [create accessible tables in Microsoft Word](https://kb.iu.edu/d/aqjl):
 
-- Certifique-se que "Linha de Cabeçalho" e "Primeira Coluna" estão marcadas (caixa de seleção marcada);
-- Repita colunas de títulos onde uma tabela se estende por várias páginas;
-- Inclua texto alternativo nas propriedades da tabela;
-- Escolha a formatação da tabela que atenda aos [requisitos de contraste WCAG](#contraste-e-dependência-de-cores).
+* Ensure that "Header Row" and "First Column" are designated (checkbox checked)
+* Repeat column headings where a table spans multiple pages
+* Add alt text in table properties
+* Choose table design that meets [WCAG contrast requirements](#contrast-and-colour-reliance)
 
-## Metadados do documento
+## Document metadata
 
-Incluir metadados ao documento aumenta sua capacidade de ser pesquisável. Também permite que aplicativos de software e tecnologias adaptativas forneçam aos usuários as principais informações sobre o documento, para que possam localizar facilmente o documento desejado e determinar se é o que precisam.
+Adding metadata to your document increases its searchability. It also allows software applications and adaptive technologies to give the users the key information about the document, so they can easily find the desired document and determine if it is what they need.
 
-### Nome do arquivo
+### Filename
 
-- Os leitores de tela leem o nome do arquivo ao navegar para um documento a partir de outro documento. Tornar o nome do arquivo identificável e significativo ajudará quem usa leitores de tela e qualquer pessoa que salve o arquivo localmente para referência futura;
-- Evite caracteres especiais em nomes de arquivos;
-- Palavras separadas por hífens "-" e por letras maiúsculas (por exemplo, dogShow) podem ser lidas como palavras individuais dependendo do leitor de tela;
-- Arquivos para publicação devem seguir um padrão de nomenclatura comum que seja consistente em todas as publicações.
+- Screen readers read the filename when navigating to a document from another document. Making the file name identifiable and meaningful will help both screen reader users and anyone who saves the file locally for future reference
+- Avoid special characters in filenames
+- Words separated by hyphens "-" and by capital letters (e.g. dogShow) may be read as individual words depending on the screen reader
+- Galley files should follow a common naming pattern that would be consistent across all publications
 
-### Título, autor e mais
+### Title, author, and more
 
-Para adicionar ou modificar o título, autor ou assunto de um documento do MS Office, navegue até:
+To add or modify the title, author, or subject of an MS Office document, navigate to:
 
-- Windows: Arquivo > Informações > Propriedades
-- Mac: Arquivo > Propriedades > Resumo
+- Windows: File > Info > Properties
+- Mac: File > Properties > Summary
 
-A inclusão das seguintes informações no MS Word deve ser transferida para o PDF na conversão:
+Adding the following information in MS Word should be transferred to the PDF on conversion:
 
-- “Título”, que corresponde a “Título do Documento” no arquivo PDF
-- “Assunto”, que corresponde a “Descrição” no arquivo PDF
-- “Autor”, que corresponde a “Autor” no arquivo PDF
-- “Tags”, que corresponde a “Palavras-chave” no arquivo PDF
+- “Title”, which corresponds to “Document Title” in the PDF file
+- “Subject”, which corresponds to “Description” in the PDF file
+- “Author”, which corresponds to “Author” in the PDF file
+- “Tags”, which corresponds to “Keywords” in the PDF file
 
-*Nota sobre o uso de letras maiúsculas nos títulos*
+*Note on using capitalization in titles*
 
-Se sua disciplina frequentemente exibe títulos de artigos em maiúsculas, evite inserir os títulos em maiúsculas manualmente, pois os leitores de tela podem ler isto como um acrônimo em vez de um título. Em vez disso, o título e o subtítulo devem ser inseridos com caracteres maiúsculos e minúsculos, por exemplo, “O problema do bonde das mudanças climáticas”, e então colocados em maiúsculas na folha de estilo de sua publicação. Isso também garantirá que o título seja disponibilizado em sua forma original para indexadores downstream como Crossref e Google Acadêmico.
+If your discipline often displays article titles in all caps, you may want to avoid entering the titles in all caps manually, as screen readers may read this as an acronym rather than a title. Instead, the title and subtitle should be entered with upper and lower-case characters, e.g. “The Trolley Problem of Climate Change”, and then made upper-case through your journal’s stylesheet. This will also ensure the title is made available in its original form for downstream indexers like Crossref and Google Scholar.
 
-### Língua
+### Language
 
-Um leitor de tela que oferece suporte a vários idiomas dependerá da tag de idioma das páginas da web para saber em qual idioma lê-lo. Caso use o OJS com vários idiomas, certifique-se de usar a localidade de idioma adequada para esse idioma (por exemplo, localidade francesa para o idioma francês), pois a localidade determina a tag de idioma da página.
+A screen reader that supports multiple languages will rely on the web pages’ language tag to know in which language to read it. If you use OJS with multiple languages, make sure to use the proper language locale for that language (e.g. French locale for the French language) as the locale determines the language tag for the page.
 
-Além disso, caso publique as composições em PDF, poderá definir a tag de idioma do documento da seguinte maneira:
+Additionally, if you publish galleys in PDF, you can set the language tag for the document as follows:
 
-1. Abra a caixa de diálogo Propriedades do documento: Escolha Arquivo > Propriedades
-2. Selecione um idioma no menu Idioma na área Opções de leitura da guia Avançado.
+1. Open the Document Properties dialog: Choose File > Properties
+2. Select a language from the Language menu in the Reading Options area of the Advanced tab.
 
-Caso publique composições em HTML ou XML, é uma prática recomendada definir o lang, atributo de idioma global, como o elemento raiz de cada documento. Isso declara o idioma de toda a composição e ajuda as tecnologias assistivas a determinar como pronunciar as palavras. Também ajuda os mecanismos de pesquisa e navegadores da Web.
+If you publish galleys in HTML or XML, it is best practice to set the lang, global language attribute, to the root element of each document. This declares the language of the entire galley, and helps assistive technologies determine how to pronounce words. It also helps search engines and web browsers.
 
-Você também pode adicionar o atributo de idioma a elementos específicos, quando o idioma muda no meio do documento. Por exemplo, um documento em inglês pode citar um parágrafo em francês.
+You can also add the language attribute to specific elements, when the language changes mid-document. For example, an English language document may quote a paragraph in French.
 
-Em HTML:
+In HTML:
 
 `<p lang="fr">Ceci est un paragraphe.</p>`
 
-Em XML:
+In XML:
 
 ```html
 <section id="test" xml:lang="fr">
-	<title>En Français</title>
-	<p>Ceci est un paragraphe.</p>
+    <title>En Français</title>
+    <p>Ceci est un paragraphe.</p>
 </section>
 ```
 
-## Acessibilidade para usuários de língua de sinais
+## Accessibility for Sign language users
 
-Para algumas pessoas com deficiência auditiva, a linguagem de sinais pode ser a língua principal, e elas podem não ler a linguagem escrita fluentemente ou nem mesmo ler. Aqui estão algumas das estratégias para tornar seu conteúdo acessível para eles:
+For some people with auditory disabilities, sign language may be the primary language, and they may not read the written language fluently or at all. Here are some of the strategies to make your content accessible to them:
 
-- Apresente as informações por meio de vídeo acompanhado de interpretação em língua de sinais - ver por exemplo a [Revista Brasileira de Vídeo-Registros em Libras](https://revistabrasileiravrlibras.paginas.ufsc.br/);
-- Inclua a interpretação automatizada de linguagem de sinais por um avatar virtual de linguagem de sinais ao site - ver por exemplo [VLibras](https://www.vlibras.gov.br/) para a Linguagem de Sinais portuguesa Libras;
-- Use texto mais simples complementado por imagens, gráficos e outras ilustrações.
+- Present information via a video accompanied by sign language interpretation - see for example [Revista Brasileira de Vídeo-Registros em Libras](https://revistabrasileiravrlibras.paginas.ufsc.br/)
+- Add automated sign language interpretation by a virtual sign language avatar to the website - see for example [VLibras](https://www.vlibras.gov.br/) for the Portuguese Sign Language Libras
+- Use simpler text that is supplemented by images, graphs, and other illustrations
 
-Use a escrita de sinais, quando disponível, para a língua de sinais de seu país. Para obter mais recursos, consulte o [site SignWriting da Sutton](https://www.signwriting.org/).
+Use signwriting where available for the sign language of your country. For further resources see the [Sutton's SignWriting site](https://www.signwriting.org/).
