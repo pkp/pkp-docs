@@ -8,10 +8,10 @@ Every request to a [PageHandler](./architecture-handlers#page-handlers) returns 
 
 ```php
 class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
-		return $templateMgr->display('path/to/template.tpl');
-	}
+    public function distribution(Array $args, Request $request) {
+        $templateMgr = TemplateManager::getManager($request);
+        return $templateMgr->display('path/to/template.tpl');
+    }
 }
 ```
 
@@ -19,14 +19,14 @@ Templates are located in the `/templates` and `lib/pkp/templates` directories. I
 
 ```php
 class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
+    public function distribution(Array $args, Request $request) {
+        $templateMgr = TemplateManager::getManager($request);
 
-		// Searches for a template in the following directories:
-		// - templates/distribution.tpl
-		// - lib/pkp/templates/distribution.tpl
-		return $templateMgr->display('distribution.tpl');
-	}
+        // Searches for a template in the following directories:
+        // - templates/distribution.tpl
+        // - lib/pkp/templates/distribution.tpl
+        return $templateMgr->display('distribution.tpl');
+    }
 }
 ```
 
@@ -36,7 +36,7 @@ A `PageHandler` for the editorial backend must set a class property to identify 
 ```php
 class SettingsHandler extends Handler {
 
-	public $_isBackendPage = true;
+    public $_isBackendPage = true;
 
 }
 ```
@@ -58,13 +58,13 @@ Assign variables to a template in the `PageHandler`.
 
 ```php
 class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
-		$templateMgr->assign([
-			'description' => 'This is an example description.',
-		]);
-		return $templateMgr->display('path/to/template.tpl');
-	}
+    public function distribution(Array $args, Request $request) {
+        $templateMgr = TemplateManager::getManager($request);
+        $templateMgr->assign([
+            'description' => 'This is an example description.',
+        ]);
+        return $templateMgr->display('path/to/template.tpl');
+    }
 }
 ```
 
@@ -74,7 +74,7 @@ Use the variable in the template.
 {extends file="layouts/backend.tpl"}
 
 {block name="page"}
-	<p>{$description}</p>
+    <p>{$description}</p>
 {/block}
 ```
 
@@ -82,13 +82,13 @@ Use conditional expressions and loops.
 
 ```php
 class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
-		$templateMgr->assign([
-			'items' => ['a', 'b', 'c'],
-		]);
-		return $templateMgr->display('path/to/template.tpl');
-	}
+    public function distribution(Array $args, Request $request) {
+        $templateMgr = TemplateManager::getManager($request);
+        $templateMgr->assign([
+            'items' => ['a', 'b', 'c'],
+        ]);
+        return $templateMgr->display('path/to/template.tpl');
+    }
 }
 ```
 
@@ -96,11 +96,11 @@ class SettingsHandler extends Handler {
 {extends file="layouts/backend.tpl"}
 
 {block name="page"}
-	{if count($items)}
-		{foreach from=$items item="letter"}
-			<p>{$letter}</p>
-		{/foreach}
-	{/if}
+    {if count($items)}
+        {foreach from=$items item="letter"}
+            <p>{$letter}</p>
+        {/foreach}
+    {/if}
 {/block}
 ```
 
@@ -109,7 +109,7 @@ Use the `{url}` function to construct a URL to one of the application's pages.
 ```html
 <-- Generates the following URL http://.../<context-path>/management/settings/website -->
 <a href="{url page="management" op="settings" path="website"}">
-	Website Settings
+    Website Settings
 </a>
 ```
 
@@ -122,12 +122,10 @@ Use the `{translate}` function to get a localized string.
 It is sometimes necessary to use a variable inside of a localized string.
 
 ```html
-<span>{translate key="common.lessThan value="29"}</span>
-<!--
-	localized string: "{$value} or less"
-	result: 29 or less
--->
-```
+<span>{translate key="common.lessThan value="29"}</span><!--
+    localized string: "{$value} or less"
+    result: 29 or less
+-->```
 
 Use the `$smarty` variable to access a PHP constant.
 
@@ -136,7 +134,7 @@ define('STATUS_PUBLISHED', 3);
 ```
 ```html
 {if $submissionStatus === $smarty.const.STATUS_PUBLISHED}
-	✔ This submission is published
+    ✔ This submission is published
 {/if}
 ```
 
@@ -170,13 +168,13 @@ Every page in the editorial backend should set the page title.
 
 ```php
 class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
-		$templateMgr->assign([
-			'pageTitle' => __('manager.distribution.title'),
-		]);
-		return $templateMgr->display('distribution.tpl');
-	}
+    public function distribution(Array $args, Request $request) {
+        $templateMgr = TemplateManager::getManager($request);
+        $templateMgr->assign([
+            'pageTitle' => __('manager.distribution.title'),
+        ]);
+        return $templateMgr->display('distribution.tpl');
+    }
 }
 ```
 
@@ -189,7 +187,7 @@ It is sometimes necessary to retrieve a variable that has already been assigned 
 ```php
 $status = $templateMgr->getTemplateVars('status');
 $templateMgr->assign([
-	'isPublished' => $status === STATUS_PUBLISHED
+    'isPublished' => $status === STATUS_PUBLISHED
 ]);
 ```
 
