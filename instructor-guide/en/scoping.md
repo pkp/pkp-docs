@@ -26,8 +26,7 @@ Instructors who plan to set up and manage the journal should be mindful of the a
 
 ## Roles for students vs instructor / library
 
-Publishing a journal involves people in many different roles. At a minimum there is an editor, authors, and peer reviewers. There may also be a managing editor (which may or may not be separate from an editor-in-chief), copyeditors, proofreaders, layout editors, designers, and more. Instructors of course journals will need to consider which roles are necessary for their journal: which of those roles will be held by students; which by the instructor; and which, if any, will be the responsibility of a supporting librarian or colleague. It is important to articulate these expectations clearly and early.
-OJS uses a comprehensive roles-based system; for more about these roles and how they work in OJS, see [Roles in OJS](https://docs.pkp.sfu.ca/learning-ojs/en/user-accounts#roles-in-ojs).
+Publishing a journal involves people in many different roles. At a minimum there is an editor, authors, and peer reviewers. There may also be a managing editor (which may or may not be separate from an editor-in-chief), copyeditors, proofreaders, layout editors, designers, and more. Instructors of course journals will need to consider which roles are necessary for their journal: which of those roles will be held by students; which by the instructor; and which, if any, will be the responsibility of a supporting librarian or colleague. It is important to articulate these expectations clearly and early. OJS uses a comprehensive roles-based system; for more about these roles and how they work in OJS, see [Roles in OJS](https://docs.pkp.sfu.ca/learning-ojs/en/user-accounts#roles-in-ojs).
 
 ## Succession planning and documentation for a course journal
 
