@@ -17,16 +17,14 @@ If your submission is In Editing, you can view its details in the Editing sectio
 In the next section, you can follow the copyediting process.
 
 
-![Copyediting](images/chapter6/author_editing_2.png)  
+![Copyediting](images/chapter6/author_editing_2.png)
 
 
   * Step 1: The journal's Copyeditor (Sarah Simpson) has made changes to the submission file. You can download a revised copy here from Initial Copyedit (e.g., 8-18-3-CE.DOCX).
   *  Step 2: You will review the Copyeditor's changes, and make any final changes of your own. You then upload your revised submission file here under Author Copyedit (e.g., 8-22-1-CE.DOCX). Be sure to use the email icon to notify the Copyeditor that you have submitted your file.
   *  Step 3: The Copyeditor takes a last look at your changes before passing the submission over to the Layout Editor in Final Copyedit (e.g.,8-23-1-CE.DOCX) No action is required by the author.
-
-
->** Note**
->
+> ** Note**
+> 
 > Copyedit comments can be added using the icon near the bottom of this section. There is also a link to "Copyedit Instructions".
 
 
@@ -56,27 +54,27 @@ The final editing stage is proofreading. Similar to Copyediting, it is also brok
 
 On the resulting screen, you can use the View Proof links to display the files. You can click the linked file names (e.g, 8-28-1-PB.PDF) to download a copy.
 
-   
+
 ![Layout](images/chapter6/author_proof_3.png)
 
 Review the files and make any comments using the Layout Comments icon.
 
-    
+
 ![Corrections](images/chapter6/author_proof_4.png)
 
 Once you have completed your review and noted any necessary changes, hit the Complete button.
 
-    
-![Proofreading](images/chapter6/author_proof_5.png)  
-    
+
+![Proofreading](images/chapter6/author_proof_5.png)
+
 
 This will generate an email informing the Proofreader and Section Editor that you are satisfied with the galleys.
 
-   
+
 ![Sending Email](images/chapter6/author_proof_6.png)
 
 
-  
+
 * Step 2: The journal's own Proofreader will also check for errors and make their own notes and inform the Layout Editor when all proofreading is complete. No action is required by the Author.
 
 * Step 3: The Layout Editor takes all of the notes and incorporates all of the changes into revised galleys. These are then ready to publish. No action is required by the Author.
