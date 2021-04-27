@@ -1,129 +1,92 @@
-هذه الصفحة تصف الدوافع والسياسات المتبعة في برامجيات مشروع المعرفة العامة
-للحفاظ على ترجمات متكاملة ومرنة، أي القابلية على ترجمة المحتوى
-والنصوص التشغيلية للأنظمة إلى لغات متعددة، مع دعم مزيج سلس من أدوات النشر.
+---
+book: translating-guide
+version: 3.1
+---
 
-الملفات المحلية
----------------
+This page describes the motivations and policies that are used in PKP software to maintain consistent and flexible localization, i.e. the ability to translate content and built-in text into numerous languages and support a flexible mix of publishing options.
 
-الملفات المحلية هي ملفات بصيغة XML مخزونة في مجلد واحد أو أكثر
-ذات تسميات تتبع ترميز اللغة (مثل، en\_US للإنجليزية الأمريكية أو fr\_CA
-للفرنسية الكندية). هذه الملفات تحتوي الزوج المفتاح =\> القيمة ذات الصلة
-والتي تمثل التسميات الدالة على عبارات اللغة (مثل، "navigation.journalHelp")
-حيث تظهر في الترجمات المتعددة (مثلاً، "Journal Help" بالإنجليزية أو
-"Aide" بالفرنسية).
+Locale Files
+------------
 
-هناك عدة ملفات للغة، مبوبة حسب الوظيفة. الأماكن الرئيسية التي توضع فيها هي:
+Locale files are XML files stored in one of several directories named for the locale code (i.e. en\_US for U.S. English or fr\_CA for Canadian French). These contain the key =\> value associations that map symbolic names for pieces of language (i.e. "navigation.journalHelp") to translations in various languages (i.e. "Journal Help" in English or "Aide" in French).
 
--   locale/ - يحتوي على ملفات اللغة الخاصة بالتطبيق نفسه.
--   lib/pkp/locale/ - يحتوي على مكتبة ملفات اللغة المستعملة عموماً في مشروع المعرفة العامة.
--   plugins/\*/\*/locale/ - يحتوي على ترجمات الإضافات الخاصة بالتطبيق.
--   lib/pkp/plugins/\*/\*/locale/ - يحتوي على ترجمات الإضافات العامة.
+There are numerous locale files, organized by function. The major places to find these are:
 
-تجزئة محتويات الترجمات في ملفات متعددة يخدم أغراضاً متعددة:
+-   locale/ - Contains the application-specific locale files
+-   lib/pkp/locale/ - Contains the generic PKP library locale files
+-   plugins/\*/\*/locale/ - Contains application-specific plugin content
+-   lib/pkp/plugins/\*/\*/locale/ - Contains generic plugin content
 
--   *الإدامة*: الملفات الأصغر حجماً والمبوبة تماماً حسب المواضيع أسهل
-    عند الإدامة. يمكن توزيع مهمة الترجمة بين عدة مترجمين دون الحاجة
-    إلى إجراءات الدمج لاحقاً.
--   *إعادة الاستعمال*: أي محتوى متوفر في مكتبة مشروع المعرفة العامة
-    يمكن استعماله مع أي تطبيق يحتاجه. تحديث واحد في نظام المجلات
-    المفتوحة قد يقدم إسهامات هامة لترجمة نظام المؤتمرات المفتوحة أو
-    نظام الناشر العلمي.
--   *قابلية التنقل*: المحتوى المرتبط بالإضافات يمكن رزمه بسهولة لأغراض التوزيع
--   *الكفاءة*: هذا قد يتطلب إثباتاً، لكنه قد يكون بالإمكان جني بعض التحسينات
-    في الأداء واستعمال الموارد عبر الاقتصار على تحميل مجاميع فرعية من
-    المحتوى اللغوي. معظم طلبات التصفح، على سبيل المثال هي للصفحات الخارجية
-    من الموقع؛ مع ذلك، فإن معظم المحتوى المترجم يختص بتسيير أعمال التحرير.
+Segmentation of content into numerous files serves several purposes:
 
-### المحتوى يجب أن يذهب إلى أين؟
+-   *Maintainability*: Smaller files, organized roughly by topic, are easier to maintain. A language can be more easily distributed between several translators without requiring merges.
+-   *Reuse*: Any content that is available in the PKP library can be used by any application that needs it. One translation update for OJS therefore may result in useful contributions to OCS or OMP.
+-   *Portability*: Content that is associated with plugins can be packaged easily for distribution.
+-   *Efficiency*: This remains to be proven, but it should be possible to reap some performance and resource usage benefits by only loading a subset of the localized content. Most requests, for example, are for public-facing pages; most of the translated content, however, addresses workflow.
 
--   إن كان المحتوى متعلقاً بإضافة واحدة، فعليه أن يوزع معها.
--   إن كان المحتوى غير محدد لنظام واحد، ضعه في مكتبة
-    مشروع المعرفة العامة.
--   حاول تجميع الأمور على أساس منطقي. على سبيل المثال، ملف لغة
-    يسمى "submission.xml" يتعامل بمحتوى يخص طلبات التقديم هو
-    أكثر ترجيحاً لأغراض التمييز من ملف لغة يسمى "author.xml"
-    يتعامل بأمور التأليف ومجريات عمل المؤلف، لأن أي صفحة تعرض
-    أموراً تتعلق بالتقديم غالباً ما ستضم معلومات التأليف
-    ولكنها ليست بالضرورة تمت بصلة إلى المخطط الانسيابي
-    الذي يتبعه المؤلف نفسه.
--   خذ بنظر الاعتبار أي جزء من النظام يستدعي تحميل مفتاح العبارة.
-    إذا كانت الأمور مهيكلة على أساس منطقي سليم، لن يكون من الضروري
-    تحميل ملف لغة كامل من أجل مفتاح منفرد.
+### Where should content go?
 
-### كيف عليَّ أن أسمي مفتاح العبارة؟
+-   If content relates only to a single plugin, it needs to be distributed with that plugin.
+-   If content is not specific to a single application, put it in the PKP library.
+-   Try to group by logical entity. For example, a locale file called "submission.xml" dealing with content about submissions is probably more useful a distinction than a locale file called "author.xml" dealing with authorship and author workflow, because any page displaying information about a submission will likely include authorship information but will not necessarily care about the author's workflow.
+-   Consider which parts of the system will need to load a locale key. If logically well-structured, it shouldn't be necessary to load an entire locale file for the sake of a single locale key.
 
--   المنطق يفرض أن يكون مفتاح العبارة قصيراً وعليه أن يعرف بشكل فريد
-    جملة نصية من اللغة المعنية.
--   على مفاتيح العبارات أن تترتب بشكل مجاميع هرمية، مثلاً،
-    "submission.id"، "submission.history.clearLog"،
-    "submission.history.viewLog" كلها تتوضع ضمن مجال التسمية المستعار
-    "submission"، مراعياً أن تتواجد مع مفاتيع العبارات ذات الصلة بالتأريخ
-    أي ضمن المجموعة الفرعية "submission.history".
--   بقدر الإمكان، على المفاتيح ذات الصلة مع بعضها أن تبقى متقاربة
-    في ملف اللغة لمساعدة المترجمين في الحفاظ على ترابط المعاني.
--   لا تجعل مسميات المفاتيح قريبة جداً مما يتواجد في واجهات
-    المستخدم. مثلاً، ما يأتي *يجب تجنبه*:
+### How should I name a locale key?
+
+-   A locale key should be reasonably short and must uniquely identify a piece of text.
+-   Locale keys should be organized for hierarchical grouping, i.e. "submission.id", "submission.history.clearLog", "submission.history.viewLog" are all within the "submission" pseudo-namespace, and with history-related locale keys further subgrouped into "submission.history".
+-   As much as possible, related keys should be kept close to each other in the locale file to help translators to stay consistent.
+-   Don't tie the names of locale keys too closely to the user interface. For example, the following should *not* be used:
 
 ```
-<message key="manager.setup.step1.journalDescription">وصف المجلة</message>
+<message key="manager.setup.step1.journalDescription">Journal Description</message>
 ```
 
-...بدلاً منه، استعمل شيئاً مماثلاً لـ...
+...instead, use something more like...
 
 ```
-<message key="manager.setup.journalDescription">وصف المجلة</message>
+<message key="manager.setup.journalDescription">Journal Description</message>
 ```
 
-هذا من شأنه الحفاظ على ملف اللغة منظماً بغض النظر عن إعادة تنظيم
-مكونات واجهة المستخدم وهو أمر قد يكون حتمياً أحياناً.
+This keeps the locale files organized in spite of the inevitable user interface rearrangements.
 
--   عند إضافة مفتاح عبارة جديد، وبوجه الخصوص قصيراً من (1 أو 2 من الكلمات)،
-    إستقص في ملفات اللغة الموجودة عن احتمالية وجود مفتاح مماثل:
+-   When adding a new locale key, particularly for short (1 or 2 word) entries, grep the existing locale files to see whether something already exists:
 
 ```
-fgrep -l ">العنوان<" `find . -name \*.xml`
+fgrep -l ">Title<" `find . -name \*.xml`
 ```
 
-(إن \> و < المحيطتان بكلمة العنوان تستعملان لتعليم بداية الإدخال ونهايته.)
+(The \> and < surrounding Title are used to mark the beginning and end of the entry.)
 
-### الدلالات اللغوية
+### Semantics
 
-لا تفترض أن عليك الاعتماد على الدلالات اللغوية الإنجليزية. يمكنك عرض المحتوى
-بلغة ذات دلالات أخرى تختص بها ليستقيم المعنى بشكل أفضل.
+Do not assume that you can rely on English semantics. Contents may be presented in languages that do not behave the same way.
 
--   إستعمل متغيرات التعويض بدلاً من اللجوء إلى مفاتيح متعددة للعبارات.
-    ما يأتي ينبغي /تجنب/ استعماله:
+-   Use replacement variables rather than multiple locale keys to concatenate. The following should /not/ be used:
 
 ```
-<message key="some.locale.key1">لديك </message>
-<message key="some.locale.key2"> رسائل غير مقروءة.</message>
+<message key="some.locale.key1">You have </message>
+<message key="some.locale.key2"> unread messages.</message>
 ```
 
-فبدلاً منه، استعمل:
+Instead, the following should be used:
 
 ```
-<message key="some.locale.key">لديك {$numberUnreadMessages} رسائل غير مقروءة.</message>
+<message key="some.locale.key">You have {$numberUnreadMessages} unread messages.</message>
 ```
 
-هذا من شأنه منع المشاكل في عرض العبارات في اللغات ذات المحاذاة من اليمين إلى اليسار
-ويجعل المحتوى أكثر تنظيماً.
+This will prevent problems e.g. with right-to-left languages, and keep content more logically organized.
 
--   كن على حذر عند استعمال نفس مفتاح اللغة في سياقات مختلفة.
-    على سبيل المثال، عبارة "نشط" والتي تظهر أحياناً على الأزرار قد تكون
-    مختلفة فيما لو ظهرت على الملصقات التوضيحية.
+-   Be careful when using the same locale key in different contexts. For example, "active" text, i.e. button labels, may be different than informational labels.
 
-### الترميز الإبدالي وإرشادات أخرى
+### Escaping and Other Guidelines
 
--   معظم المحتوى في ملفات اللغة يهدف إلى الظهور على صفحات الإنترنت
-    وهو بصيغة HTML. وغالباً، فإن بنية HTML هي النصوص الصريحة،
-    لكن هناك اختلافات ظرفية. أدوات العطف عموماً ستحتاج إلى الترميز
-    الإبدالي من أجل إظهارها كما هي، مثلاً `Statistics &amp; Reports`.
+-   Most content in the locale files is intended for presentation on the web and is in HTML format. For the most part, HTML is plain-text, but there are occasional differences. Ampersands will generally need to be double-escaped, i.e.: `Statistics &amp; Reports`
 
-هذا سيظهرها على شاشة المستخدم بشكل "Statistics & Reports"، ما يعني
-الإظهار الصحيح لعلامة العطف.
+This will come out in the HTML source as "Statistics & Reports", thus the ampersand will be displayed correctly.
 
--   للكتل الكبيرة من نصوص HTML، إستعمل `<![CDATA[ ... ]]>`. مثلاً:
+-   For large blocks of HTML, use `<![CDATA[ ... ]]>`. For example:
 
 ```
-<message key="some.big.html"><![CDATA[<p>هذه كتلة كبيرة من المحتوى المكتوب بصيغة <em>HTML</em>.]]\></message>
+<message key="some.big.html"><![CDATA[<p>This is a large block of content containing <em>HTML</em>.]]\></message>
 ```
