@@ -41,7 +41,7 @@
   * [Roles](./users-and-roles.md#permissions-and-roles-in-ojs)
   * [Site Access Options](./users-and-roles.md#site-access-options)
 * [Tools](./tools.md)
-  * [Import &amp; Export](./tools.md#importexport)
+  * [Import & Export](./tools.md#importexport)
   * [Report Generator](./tools.md#report-generator)
   * [Permissions](./tools.md#permissions)
 * [Subscriptions](./subscriptions.md)
