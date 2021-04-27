@@ -18,10 +18,7 @@ Most OJS 3 themes allow you to customize the main or header colour of your websi
 
 The test recommends that the user only display black text on pink or white text on purple. Therefore, the user has two accessible options using these colours:
 
-![An unacceptable color combination of white on light pink used in OJS, accompanied by a red X.](./assets/header-colour-dont-1.png)
-![An unacceptable color combination of black on dark violet used in OJS, accompanied by a red X.](./assets/header-colour-dont-2.png)
-![An acceptable color combination of black on light pink used in OJS, accompanied by a green checkmark.](./assets/header-colour-do-1.png)
-![An acceptable color combination of white on dark violet used in OJS, accompanied by a green checkmark.](./assets/header-colour-do-2.png)
+![An unacceptable color combination of white on light pink used in OJS, accompanied by a red X.](./assets/header-colour-dont-1.png) ![An unacceptable color combination of black on dark violet used in OJS, accompanied by a red X.](./assets/header-colour-dont-2.png) ![An acceptable color combination of black on light pink used in OJS, accompanied by a green checkmark.](./assets/header-colour-do-1.png) ![An acceptable color combination of white on dark violet used in OJS, accompanied by a green checkmark.](./assets/header-colour-do-2.png)
 
 Additionally, with tools such as the [Spectrum Chrome extension](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en) you can emulate various types of colour vision deficiencies (CVD) on any website. Tools like the [Accessible Color Palette Builder](https://toolness.github.io/accessible-color-matrix/) can help you decide on the best colour combinations for your website.
 
