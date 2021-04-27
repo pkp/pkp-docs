@@ -1,47 +1,49 @@
-# Abonnements et utilisation d’OJS sans publication
+# Subscriptions and Non-Publishing Use of OJS
 
-Si vous utilisez OJS pour publier du contenu requérant un abonnement ou si vous utilisez OJS pour la gestion éditoriale sans publier, une configuration supplémentaire est nécessaire afin de permettre à Érudit d’accéder à votre contenu. Il est également requis que votre instance OJS soit à la version ​**OJS 3.1.2-1 ou plus récente**​.
+If you are using OJS to publish content that requires subscription, or if you are using OJS for workflow but not publishing, some additional configuration is required to allow Érudit to access your content. You will also need to be running **OJS 3.1.2.1 or newer**.
 
-**Ces étapes ne sont pas requises si vous utilisez OJS pour publier une revue en libre accès.**
+**These steps are not required if you are using OJS to publish an open access journal.**
 
-## Étape 1. Créer un Responsable des abonnements
+## Step 1. Create a Subscription Manager
 
-Lors de cette étape, vous allez configurer un nouvel utilisateur qui aura un rôle de Responsable des abonnements. Si le rôle de Responsable des abonnements existe déjà sur votre instance, vous pouvez utiliser ce compte et sauter cette étape. Notez que pour des raisons de sécurité, il est toutefois déconseillé d’utiliser un compte lié à un rôle autre que celui de Responsable des abonnements (il vaut mieux que ce compte n’ait qu’un rôle, celui de Responsable des abonnements). Par la suite, vous permettrez à Érudit d’utiliser ce rôle lors de la récupération du contenu de votre instance OJS en lui fournissant le ​*API key secret*​ associé à ce compte utilisateur.
+In this step, you will create a new user with a Subscription Manager role. If you already have a Subscription Manager, you may skip this step and use that account instead. However, for security reasons, it is not recommended to use an account with any roles aside from Subscription Manager (it’s better to have a single role for this account, the Subscription Manager role). Later you will grant Érudit permission to act as this user when collecting content from your installation by providing the API key secret associated with this user account.
 
-Connectez-vous en tant que Directeur de la revue ou Administrateur du site, déplacez-vous sous “Utilisateurs et Rôles > Utilisateurs”. Utilisez le bouton “Ajouter un utilisateur” pour créer un nouveau compte utilisateur.
+As a Journal Manager or Site Administrator, go to Users & Roles > Users. Use the “Add User” link to create a new user account.
 
-Remplissez le formulaire et appuyez sur “Sauvegarder”. Bien que nous recommandions d’utiliser des informations réelles lors de la création des utilisateurs pour votre revue, ce n’est pas obligatoire. L’important est de remplir les champs obligatoires et de vous rappeler du nom d’utilisateur et du mot de passe que vous avez utilisés pour passer à la prochaine étape.
+Fill in the form and press “Save”. While we recommend using legitimate contact credentials for your journal, it does not matter what user details you use, as long as the required form fields are complete and you will remember the username and password for the next step. This will complete Step #1 of the user creation process.
 
-La deuxième étape de la création d’un utilisateur consiste à lui attribuer un rôle. Dans la liste des “Rôles de l’utilisateur”, assurez-vous de cocher “Gestionnaire d’abonnement”. Sauvegardez.
+In Step #2, you will be presented with a list of User Roles. Make sure you check “Subscription Manager”. Press “Save” to complete Step #2 of the user creation process.
 
-Ceci complète le processus de création d’un utilisateur. Rappelez-vous du nom d’utilisateur et du mot de passe que vous avez utilisés lors de la création du compte.
+This will complete the user creation process. Make sure to remember the username and password you entered when creating the account.
 
-## Étape 2. S’assurer d’avoir saisi un API key secret
+## Step 2. Ensure that you have entered an API key secret
 
-Cette étape peut requérir l’aide de votre administrateur système puisqu’elle requiert l’accès à un fichier sur le serveur où votre instance OJS est installée.
+This step may require the help of your system administrator, as it requires access to a file on the server on which OJS is installed.
 
-Dans votre fichier de configuration OJS (​`config.inc.php`​ dans le répertoire d’installation de votre OJS) vous trouverez une directive appelée “`api_key_secret`​”. Par défaut, ce paramètre est vide. Si c’est le cas, modifiez-le pour qu’il contienne une séquence de 32 caractères ou plus (n’importe quelle lettres et symboles). Votre instance OJS en sera plus sécurisée lors de l’utilisation des ​*API keys​*.
+In your OJS configuration file (`config.inc.php` in your OJS installation directory) you will find a directive called “`api_key_secret`”. By default this setting is empty. If so, change it to contain a sequence of 32 characters or more (any letters and symbols). This will help make your installation more secure when using API keys.
 
-Vous n’aurez pas à mémoriser la valeur de ce paramètre, mais si vous le perdez, tous ceux utilisant les ​*API keys​* (tel que celui que nous génèrerons à la prochaine étape) devront en obtenir une nouvelle.
+You will not need to remember this setting, but if you lose it, anyone using API keys (such as the one we will generate in the next step) will need to get a new one.
 
-Un coup le paramètre renseigné, sauvegardez le fichier.
+Once the setting is no longer empty, save the file.
 
-## Étape 3. Générer une API Key
+## Step 3. Generate an API Key
 
-Déconnectez-vous de votre instance OJS et connectez-vous de nouveau en utilisant les paramètres d’accès du compte Gestionnaire d’abonnement que vous avez créé à l’étape 2.
+Log out of your OJS installation, and log in again using the credentials for the Subscription Manager account you created in Step 2.
 
-Allez à votre Profil utilisateur (typiquement disponible dans le coin en haut à droite). Ouvrez l’onglet “​*API Key*”​:
+Navigate to your user’s Profile (typically available in the top-right corner).
+
+Open the “API Key” tab:
 
 ![](./assets/apiKey.png)
 
-Il pourrait y avoir déjà du contenu dans la zone “​*API Key*”​ . Si c’est le cas, ignorez-le.
+There may already be content in the “API Key” box. If so, ignore it.
 
-Utilisez ce formulaire de la manière suivante:
+Use this form to perform the following:
 
-1. Cochez la case “​*Enable external applications with the API key to access this account*”​.
-2. Cochez la case “​*Generate new API key*”​.
-3. Appuyez sur le bouton “​*Save*”​.
+1. Check the “Enable external applications with the API key to access this account” checkbox.
+2. Check the “Generate new API key” checkbox.
+3. Press the “Save” button.
 
-Ceci fait, la zone “​*API Key*​” devrait maintenant avoir une longue chaîne de lettres et chiffres. Copiez celle-ci et fournissez-la par courriel à votre contact Coalition Publica.
+With this done, the “API Key” box should contain a long string of numbers and letters. Copy this to your clipboard, and provide it via email to your Coalition Publica contact.
 
-C’est tout ce qu’il fallait! Ces étapes permettront à Érudit d’effectuer des actions avec cet utilisateur nouvellement créé -- soit, étant donné que l’utilisateur a un rôle de Responsable des abonnements, de télécharger des contenus sous embargo (accessibles seulement par abonnement) ou non publié sur le site web OJS et par conséquent inaccessibles publiquement.
+That is all that is required! These steps will allow Érudit the right to perform actions with this newly-created user -- in particular, since the user has a Subscription Manager role, to download subscription-based or unpublished from the website that are not exposed to the public.
