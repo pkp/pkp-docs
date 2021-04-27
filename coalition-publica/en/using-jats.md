@@ -97,12 +97,12 @@ There are several journal settings that should be properly configured in order f
 
 * For each of your journal’s sections, the “Identify items published in this section as a(n)...” field is set to one of the [suggested JATS article-type values](https://jats.nlm.nih.gov/archiving/tag-library/1.1/attribute/article-type.html).
 * Your journal settings are complete, e.g.:
-	* An ISSN has been specified
-	* The journal title is the same as you have registered at [issn.org](https://www.issn.org)
-	* A publisher is specified in Settings > Journal > Masthead
-	* Copyright
-		* Make sure that the copyright holder of the articles (author, journal or other) is properly identified in Settings > Distribution > Permissions.
-		* Make sure, when you schedule an article for publication, to attach the permissions to it (copyright holder and copyright year).
+    * An ISSN has been specified
+    * The journal title is the same as you have registered at [issn.org](https://www.issn.org)
+    * A publisher is specified in Settings > Journal > Masthead
+    * Copyright
+        * Make sure that the copyright holder of the articles (author, journal or other) is properly identified in Settings > Distribution > Permissions.
+        * Make sure, when you schedule an article for publication, to attach the permissions to it (copyright holder and copyright year).
 
 ## Step 5. Rebuild Your Search Index
 
