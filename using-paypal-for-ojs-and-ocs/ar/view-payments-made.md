@@ -1,9 +1,17 @@
-# معاينة المدفوعات
+# View payments made
 
-1. لمعاينة المدفوعات المكتملة عبر Paypal:
-2. سجل دخولك بصفة رئيس تحرير المجلة.
-3. إذهب إلى إداة المجلة، ثم المدفوعات.
-4. إختر التبويب 'السجلات' من شاشة خيارات مدفوعات الرسوم. 
+To view completed payments made with PayPal:
 
-وبالمثل، ستجد خيارات أخرى عن مدفوعات طلبات التقديم والتحكيم المناظر أسفل صفحة 'الخيارات' الرئيسية. عند تمكينها ستتمكن من مشاهدة فيما لو تم إجراء الدفع لكل طلب تقديم، ومتى حصل ذلك.
+## OJS 3.x
 
+1. Log in as the Journal Manager.
+2. Click Payments in the left sidebar.
+3. Navigate to the Payments tab.
+
+## OJS 2.x
+
+1. Log in as the Journal Manager.
+2. Go to Journal Management > Payments.
+3. Select the 'Records' tab from the Fee Payment Options screen.
+
+Likewise, you'll find options for submission and peer review payments under the main 'Options' page. With these enabled, you'll be able to see if/when they were paid for each submission.
