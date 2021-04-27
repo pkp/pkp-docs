@@ -1,7 +1,7 @@
 # Categories
 
 
-Creating categories can help organize large sets of journals hosted on a site. 
+Creating categories can help organize large sets of journals hosted on a site.
 
 After selecting Categories from the Site Administration page, you can choose whether or not to allow journals to be organized into categories.
 
