@@ -14,11 +14,11 @@ The next section outlines any required **Author Fees**. If the journal does not 
 ![Author Fees](images/chapter6/author_review_4rev.png)
 
 
-  
+
   The **Status** section lets you know where your submission is in the publishing process (see above for status possibilities). It also lets you know when you made your submission and the date of the most recent status change.
 
 
-![Status](images/chapter6/author_review_5rev.png)  
+![Status](images/chapter6/author_review_5rev.png)
 
 
   The final section outlines the submission **Metadata**, including author details, title, abstract, indexing, and supporting agency. You can modify any of this information by selecting **Edit Metadata**.
