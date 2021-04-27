@@ -1,135 +1,135 @@
-# Annexe A: Créer un Protected OJS 3 Sandbox Staged avec Git
+# Appendix A: Create a Protected OJS 3 Sandbox Staged with Git
 
-Le document suivant décrit des étapes générales afin de créer un sandbox basé sur git d'un journal de production qui n'est pas actuellement sur git. Il fournit des instructions sur la façon de limiter l'accès accidentel, les e-mails sortants, etc. Votre expérience peut être différente de la notre. Adaptez ce contenu à votre propre environnement; À utiliser à vos risques et périls.
+The following document describes a general workflow for creating a git-based sandbox of a production journal that is not currently on git. It provides instructions on how to limit accidental access, outgoing email, etc. YMMV. Adapt for your own environment; use at your own risk.
 
-## Préparer l'environnement Git
+## Prepare the Git environment
 
-Ce README: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) a des instructions pour l'installation à partir de git. Voici les étapes à suivre:
+The README here: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) has instructions on installing from git. What we do is as follows:
 
-1. Créer un utilisateur et une base de données MySQL ou PostgreSQL OJS. La commande que nous utilisons est la suivante; cela peut être différent pour vous en fonction de votre environnement, de l'accès à la root, etc.:
+1. Create a MySQL or PostgreSQL OJS user and database. The command we use is as follows; it may be different for you depending on your environment, access to root, etc.:
 
    **MySQL**
-    ```
-    mysql -u root -e "CREATE DATABASE `ojs-sandbox` DEFAULT CHARACTER SET UTF8; GRANT ALL ON `ojs-sandbox`.* TO `ojs`@localhost IDENTIFIED BY 'ojs'" -p
-    ```
+   ```
+   mysql -u root -e "CREATE DATABASE `ojs-sandbox` DEFAULT CHARACTER SET UTF8; GRANT ALL ON `ojs-sandbox`.* TO `ojs`@localhost IDENTIFIED BY 'ojs'" -p
+   ```
    **PostgreSQL**
    ```
    psql -h localhost -U postgres -d postgres -c "CREATE USER ojs WITH NOSUPERUSER INHERIT NOCREATEROLE NOCREATEDB NOREPLICATION NOBYPASSRLS ENCRYPTED PASSWORD 'ojs'; COMMENT ON ROLE ojs IS 'Site administrator';
    CREATE DATABASE ojs-sandbox OWNER ojs;" -W
    ```
 
-2. Extraire la branche stable de GitHub. Le chemin sera spécifique à votre installation Apache, et vous pouvez mettre à jour la branche avec la dernière branche stable:
+2. Checkout the stable branch from GitHub. The path will be specific to your Apache install, and you can update the branch to the latest stable branch:
 
-    ```
-    cd <httpd-docs-folder>
-    BRANCH='stable-3_2_1'
-    git clone -b $BRANCH --single-branch https://github.com/pkp/ojs.git ./
-    git branch --unset-upstream $BRANCH
-    chmod -R 755 *
-    ```
+   ```
+   cd <httpd-docs-folder>
+   BRANCH='stable-3_2_1'
+   git clone -b $BRANCH --single-branch https://github.com/pkp/ojs.git ./
+   git branch --unset-upstream $BRANCH
+   chmod -R 755 *
+   ```
 
-3. Acquérir la bibliothèque PKP correspondante et extraire la branche stable à partir de GitHub, tout en vous assurant que la branche correspond à la même branche référencée ci-dessus:
+3. Fetch corresponding PKP library and checkout stable branch from GitHub, making sure that the branch corresponds to the same branch referenced above:
 
-    ```
-    git submodule update --init --recursive
-    ```
+   ```
+   git submodule update --init --recursive
+   ```
 
-4. Installer le compositeur:
+4. Install composer:
 
-    ```
-    cd ../..
-    php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-    php -r "if (hash_file('sha384', 'composer-setup.php') === 'e0012edf3e80b6978849f5eff0d4b4e4c79ff1609dd1e613307e16318854d24ae64f26d17af3ef0bf7cfb710ca74755a') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
-    php composer-setup.php
-    php -r "unlink('composer-setup.php');"
-    ```
+   ```
+   cd ../..
+   php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+   php -r "if (hash_file('sha384', 'composer-setup.php') === 'e0012edf3e80b6978849f5eff0d4b4e4c79ff1609dd1e613307e16318854d24ae64f26d17af3ef0bf7cfb710ca74755a') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+   php composer-setup.php
+   php -r "unlink('composer-setup.php');"
+   ```
 
-5. Installer les dépendances du compositeur:
+5. Install composer dependencies:
 
-    ```
-    cd lib/pkp
-    php ../../composer.phar --no-dev install
-    cd ../../plugins/paymethod/paypal
-    php ../../../composer.phar --no-dev install
-    cd ../../../plugins/generic/citationStyleLanguage
-    php ../../../composer.phar --no-dev install
-    ```
+   ```
+   cd lib/pkp
+   php ../../composer.phar --no-dev install
+   cd ../../plugins/paymethod/paypal
+   php ../../../composer.phar --no-dev install
+   cd ../../../plugins/generic/citationStyleLanguage
+   php ../../../composer.phar --no-dev install
+   ```
 
-6. Installer les dépendances de Node.js (REMARQUE: npm doit être installé sur le serveur):
+6. Install Node.js dependencies \(NOTE: npm must be installed on the server\):
 
-    ```
-    cd ../../..
-    npm install
-    npm run build
-    ```
+   ```
+   cd ../../..
+   npm install
+   npm run build
+   ```
 
-7. Créer un nouveau fichier de configuration:
+7. Create a new config file:
 
-    ```
-    cd ../../..
-    cp config.TEMPLATE.inc.php config.inc.php
-    chmod 600 config.inc.php
-    ```
+   ```
+   cd ../../..
+   cp config.TEMPLATE.inc.php config.inc.php
+   chmod 600 config.inc.php
+   ```
 
-À ce point, vous devriez avoir un système OJS 3 fonctionnel et une base de données prête à l'emploi.
+At this point you should have a fully prepared OJS 3 system and database ready to go.
 
-## **Éliminer toute possibilité que des tâches planifiées soient déclenchées dans le serveur intermédiaire**
+## **Eliminate any possibility of scheduled tasks from being triggered in staging server**
 
-Supprimer le plugiciel Acron (le plugiciel Acron peut déclencher l'exécution de tâches planifiées sans dépendre d'une tâche cron):
+Delete the Acron plugin \(the Acron plugin can trigger scheduled tasks to be run without relying on a cron job\):
 
-```
-rm -rf plugins/generic/acron
-rm -rf lib/pkp/plugins/generic/acron
-```
+   ```
+   rm -rf plugins/generic/acron
+   rm -rf lib/pkp/plugins/generic/acron
+   ```
 
-Ce plugiciel devra être réinstallé après votre passage en production, ce que, si vous exécutez des tâches via git, vous pouvez faire avec ces commandes:
+This plugin will have to be re-installed after you go to production, which, if you are running things via git, you can do by:
 
-```
-git checkout plugins/generic/acron
-cd lib/pkp
-git checkout plugins/generic/acron
-```
+   ```
+   git checkout plugins/generic/acron
+   cd lib/pkp
+   git checkout plugins/generic/acron
+   ```
 
-## Sauvegarder et copier les fichiers soumission, publics, et base de données
+## Back up and copy the submission, public and database files
 
-Ces commandes sont exécutées durant l'installation de production, et sont vos commandes de sauvegarde/archivage typiques.
+These commands are done on the production install, and are your typical backup/archiving commands.
 
-Base de données:
+Database:
 
-* **MySQL**: généralement, nous utilisons mysqldump afin de créer une copie de la base de données:
-```
-mysqldump db\_name --opt --default-character-set=utf8 --result-file=~/client\_db.sql -u db\_user -p
-```
-* **PostgreSQL**: généralement, nous utilisons [pg_dumpall](https://www.postgresql.org/docs/current/backup-dump.html#BACKUP-DUMP-ALL) afin de créer une copie de la base de données et préserve les données communes au cluster (telles que les rôles):
+* **MySQL**: we usually use mysqldump to make a copy of the database:
+   ```
+   mysqldump db\_name --opt --default-character-set=utf8 --result-file=~/client\_db.sql -u db\_user -p
+   ```
+* **PostgreSQL**: we usually use [pg_dumpall](https://www.postgresql.org/docs/current/backup-dump.html#BACKUP-DUMP-ALL) to make a copy of the database and cluster-wide data (such as users definition):
    ```
    pg_dumpall -U postgres -h localhost -d postgres > ~/client_db.sql
    ```
 
-Fichiers à soumettre: vous pouvez trouver le répertoire correct dans le fichier OJS config.inc.php, recherchez le paramètre «files_dir». Généralement, nous compressons ceci afin de faciliter le transfert:
+Submission files: you can find the correct directory in the OJS config.inc.php file, look for the “files\_dir” parameter. We usually compress this to make it easier to transfer:
 
-```
-cd <submission files dir>
-tar -cvzf ~/files.tar.gz ./
-```
+   ```
+   cd <submission files dir>
+   tar -cvzf ~/files.tar.gz ./
+   ```
 
-Fichiers publics: cela peut inclure des éléments tel que des images de couverture et ainsi de suite, et se trouve dans le répertoire OJS system, dans le sous-répertoire «public /»:
+Public files: this can include things like cover images and so on, and is located in the OJS system directory, in the “public/“ subdirectory:
 
-```
-cd <ojs-system-dir>/public
-tar -cvzf ~/public.tar.gz ./
-```
+   ```
+   cd <ojs-system-dir>/public
+   tar -cvzf ~/public.tar.gz ./
+   ```
 
-Transférer les fichiers sur le serveur intermédiaire: nous utilisons généralement `scp` ou `rsync` . Les gens qui se specialize dans votre type de système devraient savoir quoi utiliser ici, mais dans notre cas, c'est généralement quelque chose comme:
+Transfer the files to the staging server: we usually use `scp` or `rsync`. Your systems folks should know what to use here, but for us it’s usually something like:
 
-```
-rsync -avz client\_db.sql username@stagingserver.org:/~
-rsync -avz public.tar.gz username@stagingserver.org:/~
-rsync -avz files.tar.gz username@stagingserver.org:/~
-```
+  ```
+  rsync -avz client\_db.sql username@stagingserver.org:/~
+  rsync -avz public.tar.gz username@stagingserver.org:/~
+  rsync -avz files.tar.gz username@stagingserver.org:/~
+  ```
 
-## Installer les fichiers de soumission, publics et de base de données aux bonnes destinations
+## Install the submission, public and database files to the correct locations
 
-Installer la base de données (cela peut-être différent selon le nom d'utilisateur, le nom de la base de données et le mot de passe que vous avez spécifiés précédemment):
+Install the database (this may differ depending on the username, database name and password you specified previously):
 
 * **MySQL**
    ```
@@ -140,31 +140,31 @@ Installer la base de données (cela peut-être différent selon le nom d'utilisa
    psql -U postgres -h localhost -f ~/client_db.sql postgres
    ```
 
-Installer les fichiers à soumettre:
+Install the submission files:
 
-```
-tar -xvf ~/files.tar.gz <files directory>
-```
+   ```
+   tar -xvf ~/files.tar.gz <files directory>
+   ```
 
-Installer les fichiers publics:
+Install the public files:
 
-```
-tar xvf ~/public.tar.gz <ojs-folder>/public/
-```
+   ```
+   tar xvf ~/public.tar.gz <ojs-folder>/public/
+   ```
 
-Modifier le fichier `config.inc.php` et changer les paramètres de base de données et files_dir.
+Edit the `config.inc.php` file and change database and files_dir parameters.
 
-```
-vi config.inc.php
-```
+   ```
+   vi config.inc.php
+   ```
 
-À ce point, tous les fichiers et tables de base de données pertinents doivent être en place et le fichier de configuration doit pointer vers ces emplacements.
+At this point, all relevant files and DB tables should be in place, and the config file should be pointing to those locations.
 
-## Nettoyer tous les e-mails dans le système afin que le système n'envoie pas d'e-mails par accident
+## Sanitize all emails in the system so that the system doesn’t send out email by accident
 
-Si vous êtes entrain d'exécuter le sandbox sur son propre serveur, vous pouvez considérer la désactivation de toutes les fonctionnalités d'e-mails sur le serveur. Mais ce qui suit marchera aussi (cela veut dire que tous les e-mails envoyés seront envoyés à des adresses e-mail non productives).
+If you are running the sandbox on its own server, you may want to consider disabling any and all email functionality on the server. But the following will also work (in that any emails that are sent will be sent to non-production email addresses).
 
-Vous pouvez changer vos adresses e-mail pour une adresse [Mailinator](https://www.mailinator.com/) , cela signifie que les e-mails seront envoyés à une boîte de réception publique accessible (par exemple, username@mailinator.com), ou utiliser une adresse e-mail truquée. Vous pouvez également définir des e-mails en fonction de rôles d'utilisateurs spécifiques. Vous devez premièrement accéder à votre base de données:
+You can set your email addresses to a [Mailinator](https://www.mailinator.com/) address, which will mean the emails will be sent to an accessible public inbox (e.g. username@mailinator.com), or use a fake email address. You can also set emails based on specific user roles. You will first need to access your database:
 
 * **MySQL**
    ```
@@ -175,28 +175,28 @@ Vous pouvez changer vos adresses e-mail pour une adresse [Mailinator](https://ww
    psql -h localhost -U ojs -d 'ojs-sandbox'
    ```
 
-Afin de changer toutes les adresses e-mail pour username@mailinator.com:
+To set all user email addresses to username@mailinator.com:
 
-```
-UPDATE users SET email=CONCAT\(username,'@mailinator.com’\);
-```
+   ```
+   UPDATE users SET email=CONCAT\(username,'@mailinator.com’\);
+   ```
 
-Pour définir tous les e-mails liés à la soumission, par exemple, ceux des contributeurs, à test@example.com:
+To set all submission-related emails, e.g. those of contributors, to test@example.com:
 
-```
-UPDATE authors SET email = 'test@example.com’
-```
+   ```
+   UPDATE authors SET email = 'test@example.com’
+   ```
 
-## (Optionnel) Ajouter une protection par mot de passe au site afin qu'il ne soit pas accédé par accident, analysé, etc.
+## (Optional) Add password protection to the site so that it isn’t accidentally accessed, crawled, etc.
 
-Nous faisons cela pour tous les sandbox en ajoutant la protection .htaccess et .htpasswd à la root web du sandbox. Les gens qui se specialize dans votre type de système sauraient comment faire cela.
+We do this for all sandboxes by adding .htaccess and .htpasswd protection to the sandbox web root. Your systems folks would know how to do this.
 
-## Exécuter la mise à niveau
+## Run the upgrade
 
-À partir de la Sandbox web root, exécuter la commande ci-dessous:
+From the sandbox web root run this command:
 
-```
-php tools/upgrade.php upgrade
-```
+   ```
+   php tools/upgrade.php upgrade
+   ```
 
-À ce point, si la mise à niveau est complète, vous devriez avoir une mise à niveau de sandbox propre et protégée qui exécute OJS 3 et que vous pouvez gérer via git.
+At this point, if the upgrade completes, you should have a clean, protected sandbox upgrade running OJS 3 that you can manage via git.
