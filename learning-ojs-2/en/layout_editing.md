@@ -13,13 +13,13 @@ If you as the Section Editor doing the layout editing, follow these steps:
 * First, download the final copyedited version of the submission which has automatically moved to the Layout section:
 
     ![Downloading a File](images/chapter8/editor_layout_1.png)
-    
-    
+
+
 
 * Next, using the downloaded submission file as your source document, convert it into an HTML or PDF version suitable for online viewing.
 
     * For HTML files, you might want to use software such as Adobe Dreamweaver or the open source Nvu. Exercise caution if using Microsoft Word to generate the HTML, as it will introduce non-standard tags which may disrupt the display of the submission when published on your web site (Note: Dreamweaver has a "Clean Up Word HTML" option that can help with this).
-    
+
     * For PDF files, Adobe Acrobat can easily convert Word documents, as can Microsoft Word 2007. The open source Open Office suite can also open Word documents and easily convert them into PDF files. Many journals on a limited budget have opted to only display PDFs, as it takes significantly less time to create PDF files, and requires less technical knowledge.
 
 * Returning to OJS, you will next need to upload your HTML or PDF file as a "galley":
@@ -42,13 +42,13 @@ OJS will automatically include a "label" (PDF), which will be the link text on t
 
 * Returning to the Layout section, you will now see your galleys.
 
-![Galleys](images/chapter8/editor_layout_5.png)   
-  * 
+![Galleys](images/chapter8/editor_layout_5.png)
+  *
 
     * **View Proof** will display the galley in your browser.
- 
+
     * The **linked** file name will allow you to download a copy of the file.
- 
+
     * The **Order** arrows will allow you to change the order of the galley links on the Table of Contents. In this example, the HTML link would appear before the PDF link. These Order arrows would allow you to adjust that.
 
     * The **Edit** link will take you back to the "Edit a Layout Galley" screen, allowing you to replace the galley file (without modifying that galley's view count) or, in the case of an HTML galley, add a new stylesheet or images. Using the **Delete** link will remove the file (and all viewing statistics -- see the Views column).
@@ -70,16 +70,16 @@ As the Section Editor, on receiving notification of the completion of the copyed
 
 The record has been highlighted to indicate an action is required in the layout editing stage.
 
-![Submission record](images/chapter8/layout_1.png) 
+![Submission record](images/chapter8/layout_1.png)
 
-Select the submission record, scroll to the Layout area on the page, and click on **Assign Layout Editor**.  
+Select the submission record, scroll to the Layout area on the page, and click on **Assign Layout Editor**.
 
 
 ![Selecting a Layout Editor](images/chapter8/layout_2.png)
 
 The resulting page displays individuals assigned to the role of copyeditor. Select one by clicking **Assign**.
 
-![Assign Editor](images/chapter8/layout_3.png) 
+![Assign Editor](images/chapter8/layout_3.png)
 
 
 
