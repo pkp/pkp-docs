@@ -1,13 +1,14 @@
 # Create a Stylesheet
 
-> When customizing your journal with custom CSS styles, we strongly encourage you to involve technical and design experts to ensure that the changes you make do not adversely effect your journal. Changes to the CSS can effect your compliance with accessibility laws in your country, impact the usability of your journal on different devices, and cause other unforeseen consequences that a professional can help you avoid.<br/><br/>However, we understand that many journals do not have the funds to access these resources. The guide below is provided for those who want to try to write CSS customizations themselves.
-{:.warning}
+> When customizing your journal with custom CSS styles, we strongly encourage you to involve technical and design experts to ensure that the changes you make do not adversely effect your journal. Changes to the CSS can effect your compliance with accessibility laws in your country, impact the usability of your journal on different devices, and cause other unforeseen consequences that a professional can help you avoid.<br/><br/>However, we understand that many journals do not have the funds to access these resources. The guide below is provided for those who want to try to write CSS customizations themselves. 
+> 
+> {:.warning}
 
 In OJS, the Journal Manager, Journal Editor and Production Editor can upload a customized CSS (cascading stylesheet) file to override default CSS settings of a theme.
 
 ## Identifying elements of CSS
 
-Most browsers will have several tools that can help you to inspect and test the CSS that is being used in your journal to identify the specific elements you might want to change. 
+Most browsers will have several tools that can help you to inspect and test the CSS that is being used in your journal to identify the specific elements you might want to change.
 
 For example, you can right-click on a part of a webpage (Ctrl+click on Macs), and you should see an option to “Inspect element”. In both Firefox and Chrome, this will bring up a version of “Developer tools” (named differently in each browser), which will allow you to take a closer look at the contents of a page’s HTML and CSS.
 
@@ -15,8 +16,7 @@ For example:
 
 ![](./assets/browser-developer-tools.png)*A screenshot of an OJS website using Firefox developer tools*
 
-The developer tool will allow you to experiment with the settings for various elements on the page and to test these modifications might look like before adding them to your CSS file where the change will be reflected on your site. Making changes within the developers tools will not alter any changes made on the website itself — just the version of the website that you are viewing in your browser. For example, you can alter the header that the site name is contained in 
-`<h1 class=“pkp_site_name”>` to see what the site would look like if the top header had a black background. 
+The developer tool will allow you to experiment with the settings for various elements on the page and to test these modifications might look like before adding them to your CSS file where the change will be reflected on your site. Making changes within the developers tools will not alter any changes made on the website itself — just the version of the website that you are viewing in your browser. For example, you can alter the header that the site name is contained in `<h1 class=“pkp_site_name”>` to see what the site would look like if the top header had a black background.
 
 ![](./assets/developer-tools-h1.png)*A screenshot of header CSS code in Firefox developer tools*
 
@@ -24,8 +24,9 @@ The developer tool will allow you to experiment with the settings for various el
 
 You can experiment with a wide variety of scenarios with your CSS modifications using these tools, but there are some things to keep in mind:
 
-> Most PKP themes are designed to be responsive, meaning that they adjust to various screen sizes on various devices (tablets, mobile phones, etc.), so be sure to test and see how your customizations appear on these other devices as well.
-{:.tip}
+> Most PKP themes are designed to be responsive, meaning that they adjust to various screen sizes on various devices (tablets, mobile phones, etc.), so be sure to test and see how your customizations appear on these other devices as well. 
+> 
+> {:.tip}
 
 Keep track of the changes that you make using these tools (or use the Style Editor mentioned below), and make changes incrementally in the stylesheet that you upload to your journal’s website. You may want to consider having a version of the stylesheet open in a separate editor while you test the changes in your browser.
 
