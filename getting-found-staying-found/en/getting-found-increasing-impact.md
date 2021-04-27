@@ -1,7 +1,6 @@
 # Increasing Impact
 
-Another method of building professional recognition is through the use of different techniques for measuring the use and impact of your journal. This will provide clear evidence of the success of your journal and allow you to regularly evaluate your progress.
-Under the traditional subscription/print model, the number of subscribers often formed the basis for understanding the usage of an individual journal. For open access journals, without a subscriber base to point to, this can be a challenge. OJS, however, does provide the option of requiring readers to register. A fee is not necessarily required for this registration, but does allow the journal to develop a better understanding of its audience. Some statistical analysis and reports are available to the OJS Journal Manager, including reporting on the number of registered users. The reporting and statistics capabilities of OJS are available in the [OJS statistics documentation](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
+Another method of building professional recognition is through the use of different techniques for measuring the use and impact of your journal. This will provide clear evidence of the success of your journal and allow you to regularly evaluate your progress. Under the traditional subscription/print model, the number of subscribers often formed the basis for understanding the usage of an individual journal. For open access journals, without a subscriber base to point to, this can be a challenge. OJS, however, does provide the option of requiring readers to register. A fee is not necessarily required for this registration, but does allow the journal to develop a better understanding of its audience. Some statistical analysis and reports are available to the OJS Journal Manager, including reporting on the number of registered users. The reporting and statistics capabilities of OJS are available in the [OJS statistics documentation](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
 
 Perhaps more important than the question of how many people are accessing your journal is how they are using it. This is known as measuring the “impact” of your journal. Journals with high citation impact are among the most respected and successful academic journals in their fields. Citation impact refers to how often an article, an author, or a journal is cited by other scholars. While this is not an uncontroversial means of measuring the value a journal is having in the academic community, it is the standard one that most people recognize and operate on the basis of. Readers looking for reliable information will often first look to journals with a high citation impact. Prospective authors, reviewers, and editors may be more interested in volunteering their time with journals that have a high citation impact. Indexes and databases will want to include journals in their resources that have a high citation impact. And lastly, libraries will be motivated to promote journals with a high citation impact. All of this can lead to a cyclical pattern, where high impact journals are more likely to be used and supported, leading to more recognition, and higher impact. The challenge for every new journal is to get this process started, using some of the methods discussed in the previous section.
 
@@ -34,8 +33,7 @@ For example:
 * [Academia.edu](https://academia.edu)
 * [ResearchGate](https://researchgate.org)
 
-![ResearchGate](assets/chapter2/researchgate.png)
-*Screenshot from ResearchGate*
+![ResearchGate](assets/chapter2/researchgate.png) *Screenshot from ResearchGate*
 
 Features of scholarly networking platforms may appeal to authors, but there are implications, particularly in hosting versions outside of OJS, that journal managers should be aware of. These include the aggregating metrics, and understanding use.
 
@@ -53,8 +51,7 @@ Contributed by Ali Moore and Jennifer Chan
 
 ### What are bibliometrics?
 
-Bibliometrics are “the use of mathematical and statistical methods to study and identify patterns in the usage of materials and services within a library or to analyze the historical development of a specific body of literature, especially its authorship, publication, and use,” [(Reitz, 2004)](http://www.abc-clio.com/ODLIS/odlis_b.aspx.). Bibliometrics are a method of interpreting and evaluating the quality of an article, journal, or the body of an author’s work. Bibliometrics are frequently used as an indicator of an author’s productivity and impact in tenure and performance review processes, and/or to obtain or to demonstrate accountability for grant-funded research. Applying metrics in such a manner is not without controversy and critics suggest that these measures are poor proxies for determining true academic impact. In some instances, the quality of the publication, assessed via the calculation of a Journal Impact Factor (JIF), is interpolated to assess the quality of a single article within the publication, or even used to assess the quality of the article’s author, [(Callaway, 2016)](http://www.nature.com/news/beat-it-impact-factor-publishing-elite-turns-against-controversial-metric-1.20224.).
-Editors should be aware that a variety of metrics may be considered by prospective authors in arriving at their decision of whether or not to publish in a given journal. A general understanding of this subject may help editors to address author concerns. Bibliometrics, impact factors, and other indicators can usually be divided into one of the following categories: journal-level, article-level, or author-specific. Some of these metrics are discussed in the section below.
+Bibliometrics are “the use of mathematical and statistical methods to study and identify patterns in the usage of materials and services within a library or to analyze the historical development of a specific body of literature, especially its authorship, publication, and use,” [(Reitz, 2004)](http://www.abc-clio.com/ODLIS/odlis_b.aspx.). Bibliometrics are a method of interpreting and evaluating the quality of an article, journal, or the body of an author’s work. Bibliometrics are frequently used as an indicator of an author’s productivity and impact in tenure and performance review processes, and/or to obtain or to demonstrate accountability for grant-funded research. Applying metrics in such a manner is not without controversy and critics suggest that these measures are poor proxies for determining true academic impact. In some instances, the quality of the publication, assessed via the calculation of a Journal Impact Factor (JIF), is interpolated to assess the quality of a single article within the publication, or even used to assess the quality of the article’s author, [(Callaway, 2016)](http://www.nature.com/news/beat-it-impact-factor-publishing-elite-turns-against-controversial-metric-1.20224.). Editors should be aware that a variety of metrics may be considered by prospective authors in arriving at their decision of whether or not to publish in a given journal. A general understanding of this subject may help editors to address author concerns. Bibliometrics, impact factors, and other indicators can usually be divided into one of the following categories: journal-level, article-level, or author-specific. Some of these metrics are discussed in the section below.
 
 ### Journal-level metrics
 
@@ -96,13 +93,11 @@ A number of different databases track citation counts, including Google Scholar,
 
 For example, citation count in Web of Science citation counts are limited to those journals selected for inclusion in their database.
 
-![Web of Science formula](assets/chapter2/web-of-science.png)
- *Screenshot from Web of Science Article*
+![Web of Science formula](assets/chapter2/web-of-science.png) *Screenshot from Web of Science Article*
 
 For the same example, Google Scholar returns a higher citation count because the index is more inclusive, and also represents non-journal citations.
 
-![Web of Science formula](assets/chapter2/google-scholar-citation.png)
-*An article result from Google Scholar*
+![Web of Science formula](assets/chapter2/google-scholar-citation.png) *An article result from Google Scholar*
 
 #### Article Influence score
 
@@ -155,8 +150,7 @@ Libraries have historically been the primary access point for most academic jour
 ### Library/Union Catalogues
 
 If the journal has a local library affiliation, then editors can work with the library to catalogue the journal and make the record available in WorldCat (the world’s largest library catalog, which features library holdings from all over the world) for copy cataloguing by other libraries around the world. For example, WorldCat provides the [Digital Collection Gateway tool](https://www.oclc.org/en/digital-gateway.html):
-
->“The WorldCat Digital Collection Gateway provides you with a self-service tool, available at no charge, for harvesting the metadata of your unique, open-access digital content into WorldCat. Once there, your collections are more visible and discoverable to end users who search WorldCat as well as Google and other popular websites.”
+> “The WorldCat Digital Collection Gateway provides you with a self-service tool, available at no charge, for harvesting the metadata of your unique, open-access digital content into WorldCat. Once there, your collections are more visible and discoverable to end users who search WorldCat as well as Google and other popular websites.”
 
   Source: [OCLC](https://www.oclc.org/en/digital-gateway.html)
 
@@ -181,9 +175,7 @@ While many journals claim to be “Open Access,” there are many degrees of wha
 Source: [Scholarly Publishing and Academic Resources Coalition “How open is it”](https://sparcopen.org/our-work/howopenisit/). Licensed under CC-BY.
 
 Developing copyright and licensing policies that address all of these criteria can be very helpful to authors and letting them know what the journal does and does not permit with respect to the articles and other material that are published as part of the journal or publication. The Open Access Scholarly Publishing Association (OASPA) provides some advice on how and where copyright and licensing policies should be articulated:
-
->“Licensing policies should be clearly stated and visible on journal websites and all published material. Policies are often >stated at the bottom of each page of a website, but should also be clearly set out in an additional ‘Terms of Use’ or >‘Policies’ section, or in Guidelines for Authors.”
-(Source: Open Access, Scholarly Publishers association, 2016. [“Best practices in licensing and attribution: What you need to know.](https://oaspa.org/best-practices-licensing-attribution-need-to-know/))”
+> “Licensing policies should be clearly stated and visible on journal websites and all published material. Policies are often >stated at the bottom of each page of a website, but should also be clearly set out in an additional ‘Terms of Use’ or >‘Policies’ section, or in Guidelines for Authors.” (Source: Open Access, Scholarly Publishers association, 2016. [“Best practices in licensing and attribution: What you need to know.](https://oaspa.org/best-practices-licensing-attribution-need-to-know/))”
 
 ### Copyright Ownership
 
