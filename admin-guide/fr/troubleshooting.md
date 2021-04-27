@@ -1,155 +1,152 @@
-# Diagnostic d'Anomalies
+# Troubleshooting
 
-## Autorisations, Accès aux Fichiers, etc.
+## Permissions, File Access, Etc.
 
-### Configuration des Autorisations de Fichier
+### Configuring File Permissions
 
-Il est difficile de prescrire des étapes exactes afin de définir les autorisations de fichiers appropriées, parce que cela dépend du système d'exploitation du serveur, du serveur Web, et de la configuration PHP.
+It is difficult to prescribe exact steps towards setting proper file permissions, as so much depends on the server's operating system, web server, and PHP setup.
 
-En général, vous voulez que vos autorisations soient définies de manière à ce que votre serveur Web puisse lire et écrire (de manière récursive) dans `config.inc.php` `files_dir`, et dans `cache/`, et `public/`. Vous avez comme option, pour des fonctionnalités supplémentaires et une sécurité réduite, d'activer l'écriture dans `config.inc.php`, dans `plugiciels/` et peut-être dans les paramètres régionaux `.xml` des dossiers. Votre serveur Web doit avoir un accès en lecture seule à tous les autres fichiers et répertoires distribués dans le package.
+In general, you want your permissions set such that your webserver can read and write (recursively) to the `config.inc.php` `files_dir`, and to `cache/`, and `public/`. Optionally, for added features and reduced security, you can enable write to `config.inc.php`, to `plugins/` and perhaps to the locale `.xml` files. Your webserver should have read-only access to all other files and directories distributed in the package.
 
-Commencez par vérifier quelle API de serveur PHP utilise sur votre serveur. Si OJS, OMP ou OCS est déjà installé, connectez-vous en tant que Directeur/trice du Site, cliquez sur «Informations système», et au bas de la page, cliquez sur «Informations PHP étendues». Trouvez la ligne qui dit «API du serveur». Selon l'API que vous utilisez (mod_php / SAPI ou CGI / FastCGI), les autorisations doivent être définies comme suit.
+Start by checking which server API PHP uses on your server. If OJS, OMP, or OCS is already installed, log in as Site Administrator, click "System Information", and at the bottom of the page, click "Extended PHP Information". Find the line that says "Server API". Depending on which API you are using \(mod\_php/SAPI or CGI/FastCGI\), permissions should be set as follows.
 
-- mod_php / SAPI: Dans cette configuration, tous les scripts PHP sur le système s'exécutent généralement sous le même nom d'utilisateur (généralement les comptes "nobody" ou "www-data" d'Apache). Soyez averti que cela peut être non sécurisé sur un hôte partagé. Les répertoires files_dir (configuré dans config.inc.php), cache, public, ainsi que tous les contenus et sous-répertoires doivent être accessibles en écriture et en lecture par l'utilisateur du serveur Web. Le fichier de configuration config.inc.php doit être accessible en lecture par l'utilisateur du serveur Web.
-- CGI / FastCGI: Dans cette configuration, les scripts PHP s'exécuteront généralement sous votre compte utilisateur (quoique les configurations de serveur puissent varier). Cela peut être une configuration bien sécurisée. Le files_dir (configuré dans config.inc.php), le répertoire de cache, le répertoire public et tous les contenus et sous-répertoires doivent être accessibles en écriture et en lecture par ce compte utilisateur. Le fichier de configuration config.inc.php doit être accessible en lecture par ce compte.
+* mod\_php/SAPI: In this configuration, all PHP scripts on the system typically execute as the same user \(usually Apache's "nobody" or "www-data" accounts\). Be warned that this may be insecure on a shared host. The files\_dir \(configured in config.inc.php\), the cache directory, the public directory, and all contents and subdirectories must be writable and readable by the web server user. The config.inc.php configuration file must be readable by the web server user.
+* CGI/FastCGI: In this configuration, PHP scripts will typically run under your user account \(though server configurations may vary\). This can be a well-secured configuration. The files\_dir \(configured in config.inc.php\), the cache directory, the public directory, and all contents and subdirectories must be writable and readable by this user account. The config.inc.php configuration file must be readable by this account.
 
-#### Comment est ce que Linux fait cela?
+#### How does Linux do this?
 
-Sous Linux, les autorisations sont basées à la fois sur un mode de contrôle d'accès numérique et sur la propriété des fichiers 63. La compréhension de ce schéma d'autorisations est un prérequis.
+In Linux, permissions are based both on a numeric access control mode, and on file ownership 63. Understanding this permissions scheme is a prerequisite.
 
-Par exemple, la propriété de `apache:www` avec les autorisations de `750` (`rwxr-x---`) signifie que l'utilisateur apache peut lire, écrire et exécuter; toute personne appartenant au groupe `www` peut lire ou exécuter; et le fichier est protégé contre l'accès par quiconque. Notez que «exécuter» signifie deux choses totalement différentes pour les répertoires et pour les fichiers!
+For example, ownership of `apache:www` with permissions of `750` (`rwxr-x---`) means that the apache user can read, write and execute; anyone with the `www` group can read or execute; and the file is protected against access by anyone else. Note that “execute” means two entirely different things for directories than for files!
 
-##### Un Exemple (pour un hébergement dédié)
+##### An Example (for dedicated hosting)
 
-En général, la propriété de `cache/` , `public/` et d'autres répertoires inscriptibles sur le Web doit appartenir  à votre utilisateur Web et le groupe principal de l'utilisateur Web, par exemple `apache:www-data`. Les autorisations devraient probablement être de `750` .
+Generally, the ownership of `cache/`, `public/`, and other web-writable directories should be your web user and the web-user’s primary group, for example `apache:www-data`. Permissions should probably be `750`.
 
-La propriété des autres répertoires non accessibles en écriture sur le Web doit appartenir à votre utilisateur, avec le groupe de l'utilisateur Web ou avec des autorisations d'exécution publiques. Par exemple:
+The ownership of the other non-web-writable directories should be your user, with either the web user’s group, or with public execute permissions. For example:
 
-`myuser:www-data` avec `750`
+`myuser:www-data` with `750`
 
-ou
+or
 
-`myuser:ourgroup` avec `755`
+`myuser:ourgroup` with `755`
 
-Les fichiers inscriptibles sur le Web seraient les mêmes, mais sans l'autorisation d'exécution:
+Web-writable files would be the same, but without the execute permission:
 
-`apache:www-data` avec `640`
+`apache:www-data` with `640`
 
-Les fichiers non inscriptibles sur le Web seraient peut-être:
+Non-web-writable files would be perhaps:
 
-`myuser:www-data` avec `640`
+`myuser:www-data` with `640`
 
-ou
+or
 
-`myuser:ourgroup` avec `644`
+`myuser:ourgroup` with `644`
 
-#### Mais qu'en est-il des Hôtes Partagés?
+#### But What about Shared Hosts?
 
-Avec certains hôtes partagés (par exemple, si votre seul accès se fait via cPanel ou un outil d'administration Web similaire), vous n'aurez peut-être pas la possibilité de modifier la propriété du fichier et votre serveur Web s'exécute effectivement en tant qu'utilisateur. Dans ce cas, vous pouvez toujours avoir la possibilité de protéger vos fichiers en les rendant non inscriptibles par votre propre utilisateur (même si cela semble contre-intuitif). Dans un hôte partagé, vous voudrez presque certainement refuser les autorisations mondiales sur vos fichiers, mais consultez la documentation et le support de votre hôte en particulier.
+With some shared hosts (for example, if your only access is via cPanel or a similar web-based admin tool), you may not have the ability to change the file ownership, and your webserver is effectively running as your user. In that case, you may still have the ability to protect your files by making them non-writable by your own user (even though this sounds counter-intuitive). In a shared host, you will almost certainly want to deny world permissions to your files, but look to the documentation and support for your host in particular.
 
-#### Une note sur les Configurations de Sécurité
+#### A Note on Security Configurations
 
-Vu que les configurations de sécurité peuvent varier, et vu le volume de demandes d'assistance que nous recevons concernant les autorisations de fichiers, nous ne pourons fournir qu'une aide limitée pour ces problèmes. Veuillez être aussi précis que possible lors de la publication de problèmes d'autorisations.
+Because security configurations can vary, and because of the volume of requests for support we receive regarding file permissions, we will only be able to provide limited help with these issues. Please be as specific as possible when posting about permissions issues.
 
-Le mode PHP Safe Mode n'est pas une configuration recommandée et peut ne pas fonctionner correctement. Cela est parce que, dans certaines configurations, la fonction mkdir() de PHP créera des répertoires qui ne pourront plus être accessible par lecture ou écriture par la suite à cause des autorisations de fichiers. Ceci est une limitation du Safe Mode et peut vous empêcher d'utiliser OJS dans un environnement en mode Safe Mode.
+PHP Safe Mode is not a recommended configuration and may not function properly. This is because in some configurations it will cause PHP's `mkdir()` function to create directories that cannot thereafter be read or written because of file permissions. This is a limitation of Safe Mode and may prevent you from using OJS in a Safe Mode environment.
 
-### Les fichiers HTML ne s'affichent pas correctement / les fichiers que je télécharge ne sont pas correctement identifiés.
+### HTML Galleys don't display properly / files I upload aren't being identified properly.
 
-Cela est probablement dû au fait que votre serveur identifie votre fichier HTML d'une façon incorrecte, comme étant autre chose que HTML. Le moyen le plus rapide de diagnostiquer cela est de vérifier la page Galley Edit: si vous avez téléchargé un fichier HTML et que le champ Label indique autre chose que "HTML" (tel que "Sans titre", par exemple), cela veut dire que le fichier n'a pas été correctement identifié au format HTML et ne s'affichera probablement pas correctement.
+This is most likely caused by your server incorrectly identifying your HTML file as something other than HTML. The quickest way to diagnose this is to check the Galley Edit page: if you have uploaded an HTML file and the Label field says something other than "HTML" (like "Untitled", for example), then the file has not been correctly identified as HTML and will most likely not display correctly.
 
-OJS, OMP et OCS utilisent trois méthodes afin de déterminer un type de fichier, dans l'ordre suivant:
+OJS, OMP, and OCS use three methods to determine a filetype, in the following order:
 
-- La fonction mime_content_type de PHP, qui utilise le fichier magic.mime de votre système (cette méthode est obsolète)
-- La suite de fonctions finfo _... de PHP (qui remplace mime_content_type comme méthode préférée)
-- L'outil "fichier" externe, en exécutant ce qui suit:
+* PHP's mime_content_type function, which uses your system's magic.mime file (this method is deprecated)
+* PHP's finfo_... suite of functions (which replaces mime_content_type as the preferred method)
+* The external "file" tool, by executing the following:
 
 `file -bi [filename here]`
 
-Des problèmes peuvent survenir si:
+Problems may occur if:
 
-- vous utilisez la première option mais votre fichier magic.mime ne contient pas assez d'informations sur le type de fichier que vous essayez d'identifier;
-- la configuration de votre serveur ne prend pas en charge les deux premières options;
-- vous n'avez pas des autorisations suffisantes pour exécuter un outil externe comme dans la troisième option.
+* you are using the first option but your magic.mime file does not include enough information on the filetype you are attempting to identify;
+* your server configuration does not support the first two options;
+* you do not have sufficient permissions to run an external tool as in the third option.
 
-Aditionellement, vous pouvez rencontrer des problèmes dus à des fichiers mal formés. Si vous avez des problèmes à reconnaître vos fichiers HTML, vous pouvez les exécuter via [HTML-Tidy](http://www.w3.org/People/Raggett/tidy/) ou autrement vous assurer qu'ils sont au format HTML. Les fichiers HTML créés par des traitements de texte en particulier peuvent avoir du mal à être reconnus comme HTML.
+Additionally, you may be encountering problems due to malformed files. If you are having trouble having your HTML files recognized, you may want to run them through [HTML-Tidy](http://www.w3.org/People/Raggett/tidy/) or otherwise ensure that they are valid HTML. HTML files created by word processors in particular may have a hard time being recognized as HTML.
 
-Vous pouvez aussi rechercher sur le [forum](https://forum.pkp.sfu.ca) les mots-clés "magic mime" ou "mimetype" -- plusieurs utilisateurs ont eu ce problème, et il y a de nombreuses discussions sur la façon de le résoudre.
+You may also want to search the [forum](https://forum.pkp.sfu.ca) for the keywords "magic mime" or for "mimetype" -- many users have had this problem, and there are several discussions on how to solve it.
 
-### Mes fichiers CSS ne sont pas correctement identifiés.
+### My CSS files aren't being identified properly.
 
-Cela pourrait être le résultat du problème d'identification ci-dessus, ou cela pourrait être parce que votre fichier css comprend un commentaire sur la première ligne, avant tout contenu CSS réel. Essayez de supprimer le(s) commentaire(s) au tout début du fichier et de le télécharger à nouveau.
+This could be the result of the identification issue above, or it could be because your css file includes a comment on the first line, before any actual CSS. Try removing the comment(s) from the top of the file and re-uploading.
 
-Notez que cette situation se produit assez souvent lors du téléchargement d'une copie modifiée du fichier CSS principal. Nous ne recommandons pas cette approche - il est préférable de télécharger un fichier CSS qui ne contient que des remplacements pour les styles que vous souhaitez modifier à partir de la mise en page par défaut, car la feuille de style principale est appliquée avant tout fichier CSS personnalisé. Cela aidera à éviter les problèmes reliés à la feuille de style lors de la mise à niveau.
+Note that this situation often occurs when uploading a modified copy of the main CSS file. We don't recommend this approach -- it's better to upload a CSS file that only contains overrides for the styles that you wish to modify from the default layout, as the main stylesheet is applied before any custom CSS files. This will help to avoid stylesheet headaches on upgrade.
 
-## Encodage de Caractère
+## Character Encoding
 
-Les problèmes d'encodage de caractère surviennent principalement dans deux situations: lorsque les journaux sont migrés d'une autre plate-forme vers OJS; ou (plus couramment) lorsqu'un journal OJS est migré d'un autre serveur vers nos serveurs.
+Character encoding issues mostly crop up in two situations: when journals are migrated from another platform to OJS; or (more commonly) when an OJS journal is migrated from another server to our servers.
 
-Il est souvent utile de vérifier les paramètres actuels de la base de données pour vous assurer que vous travaillez dans l'ensemble de caractères avec lequel vous pensez travailler. Une fois connecté à MySQL, essayez ce qui suit:
+It’s often helpful to check the current database settings to ensure that you’re working in the character set that you think you’re working with. Once logged into MySQL, try the following:
 
 ```
 show variables like 'char%';
 show variables like 'collation%';
 ```
 
-Le but de résoudre les problèmes d'encodage de caractère est de s'assurer que les données stockées dans la base de données correspondent aux paramètres de l'ensemble de caractères de la base de données, c'est-à-dire que nous stockons les données utf8 dans une base de données utf8. Une fois que cela a été fait, nous voulons nous assurer que les paramètres OJS config.inc.php correspondent aux paramètres de données et de base de données, c'est-à-dire que les paramètres du client, de la connexion et de l'ensemble de caractères de la base de données sont tous définis sur utf8 dans config.inc.php.
+The goal of fixing character encoding problems is to ensure that the data stored in the database matches the character set settings of the database, i.e. that we’re storing utf8 data in a utf8 database. Once this has been achieved, we want to ensure that the OJS config.inc.php settings match the data and db settings, i.e. client, connection, database character set settings are all set to utf8 in config.inc.php.
 
-### Introduction aux Ensembles de Caractères et aux Encodages
+### Introduction to Character Sets and Encodings
 
-Les articles suivants fournissent une bonne introduction aux ensembles de caractères et aux encodages:
+The following articles provide a good introduction to character sets and encodings:
+* [Character Encodings: Essential Concepts](https://www.w3.org/International/articles/definitions-characters/)
+* [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
-- [Encodages de Caractère: Concepts Essentiels](https://www.w3.org/International/articles/definitions-characters/)
-- [Le Minimum Absolu que tout Développeur de Logiciel doit Absolument et Positivement savoir sur l'Unicode et les Ensembles de Caractères (Sans Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+### General Approach
 
-### Approche Générale
+* Check config.inc.php db settings: client, connection, database character sets
+* Compare config.inc.php db settings against actual settings in the db, i.e.
+ * `show variables like 'char%'`
+ * `show variables like 'collation%'`
+* There's often a mismatch between 1. and 2. that provides the first mismatch clues
+* Generate two db dumps:
+ * `mysqldump db --opt --default-character-set=latin1 result-file=latin1.sql`
+ * `mysqldump db --opt --default-character-set=utf8 result-file=utf8.sql`
+* Explore each dump file in vim using its character encoding tools: [https://spin.atomicobject.com/2011/06/21/character-encoding-tricks-for-vim/](https://spin.atomicobject.com/2011/06/21/character-encoding-tricks-for-vim/)
 
-- Vérifiez les paramètres de la base de données config.inc.php: client, connexion, ensembles de caractères de la base de données
-- Comparez les paramètres de la base de données config.inc.php avec les paramètres de la base de données, c.-à-d.
-- `show variables like 'char%'`
-- `show variables like 'collation%'`
-- Il y a souvent une incompatibilité entre 1. et 2. qui fournit les premiers indices d'incompatibilité
-- Générez deux décharges de base de données:
-- `mysqldump db --opt --default-character-set=latin1 result-file=latin1.sql`
-- `mysqldump db --opt --default-character-set=utf8 result-file=utf8.sql`
-- Explorez chaque fichier de décharge dans vim à l'aide de ses outils d'ecodage de caractère: [https://spin.atomicobject.com/2011/06/21/character-encoding-tricks-for-vim/](https://spin.atomicobject.com/2011/06/21/character-encoding-tricks-for-vim/)
+#### Common Problem #1: Latin1 table definitions with UTF8 data
 
-#### Problème commun n° 1: définitions de table Latin1 avec des données UTF8
+During migration from another institution you may receive a MySQL dump that includes table definitions that are set to latin1 (i.e. CREATE TABLE access\_keys … DEFAULT CHARSET=latin1) even though the actual data saved in the tables is UTF8. You can config.inc.php on the original server to confirm if this is the case: if client\_charset = utf-8 in config.inc.php then data will be stored as UTF8 in the database.
 
-Durant la migration depuis une autre institution, vous pouvez recevoir une décharge MySQL qui comprend des définitions de table qui sont définies sur latin1 (c'est-à-dire CREATE TABLE access_keys … DEFAULT CHARSET = latin1) même si les données actuelles enregistrées dans les tables sont UTF8. Vous pouvez config.inc.php sur le serveur d'origine pour confirmer si c'est le cas: si client_charset = utf-8 dans config.inc.php, donc les données seront stockées en UTF8 dans la base de données.
+By default, journals on our servers are correctly configured to use UTF8 settings throughout the database and config.inc.php. Importing a mismatched database with Latin1 table definitions and UTF8 data will result in character display issues in OJS.
 
-Par défaut, les journaux sur nos serveurs sont correctement configurés pour utiliser les paramètres UTF8 dans toute la base de données et config.inc.php. L'importation d'une base de données incompatible avec des définitions de table Latin1 et des données UTF8 entraînera des problèmes d'affichage des caractères dans OJS.
+The following conversion steps and import process can be used to resolve these issues:
 
-Les étapes de conversion et le processus d'importation suivants peuvent être utilisés pour résoudre ces problèmes:
+Conversion steps:
+* ask for a latin1 mysql dump with `--default-character-encoding=latin1 --result-file=dump.latin1.sql`
+* open `dump.latin.sql` in vim
+* remove 'SET NAMES latin1' from the top of the file
+* replace latin1 table definitions with utf8 table definitions via `:%s/CHARSET=latin1/CHARSET=utf8/g`
+* set the file encoding for the file to utf8 via `:set fileencoding=utf8`
+* save the file to a new filename via `:w dump.utf8.sql`
 
-Étapes de conversion:
+Import steps:
+* create a clean utf8 database: `CREATE DATABASE import\_ojs DEFAULT CHARSET utf8;`
+* switch to the new db: `USE import\_ojs`
+* set everything to utf8: `SET NAMES utf8;`
+* import the converted dump: `SOURCE dump.utf8.sql;`
 
-- demander une décharge mysql latin1 avec `--default-character-encoding=latin1 --result-file=dump.latin1.sql`
-- ouvrez `dump.latin.sql` dans vim
-- supprimer 'SET NAMES latin1' du haut du fichier
-- remplacer les définitions de table latin1 par les définitions de table utf8 via `:%s/CHARSET=latin1/CHARSET=utf8/g`
-- définissez l'encodage du fichier pour le fichier sur utf8 via `:set fileencoding=utf8`
-- enregistrez le fichier sous un nouveau nom de fichier via `:w dump.utf8.sql`
+... and so on, replacing "article\_settings" with the table you need to clean up, and "setting\_value" with the column in the table needing cleanup.
 
-Étapes d'importation:
+#### Common Problem #2: double-quotes with encoding issue on DUMP files
 
-- créer une base de données utf8 propre: `CREATE DATABASE import\_ojs DEFAULT CHARSET utf8;`
-- changer vers la nouvelle base de données: `USE import\_ojs`
-- définissez tout sur utf8: `SET NAMES utf8;`
-- importez la décharge convertie: `SOURCE dump.utf8.sql;`
+During migration/upgrade from lib-ojs server to sfulib MySQL dump files from former may present encoding characters issue related to double-quotes, e.g.:  â€œlearning,â€<9d> which should be “learning,” even using correct UTF8 collation to export from Database.
 
-... et ainsi de suite, en remplaçant "article_settings" par la table à nettoyer et "setting_value" par la colonne de la table à nettoyer.
+This problem shows up when users copy-and-paste fancy/smart quotes from MS Word which uses the windows-1252 character set that  doesn't match with anything in UTF8. Which results in this sequences that look like â€œlearning,â€<9d>.
 
-#### Problème commun n° 2: guillemets doubles avec problème d'encodage sur les fichiers DUMP
+The following steps can be used to resolve this encoding issue:
 
-Durant la migration/mise à niveau du serveur lib-ojs vers sfulib, les fichiers de décharge MySQL de l'ancien serveur peuvent présenter un problème d'encodage de caractères lié aux guillemets doubles, par exemple: â€œapprentissage,â€<9d> qui devrait être "apprentissage", même en utilisant la collation UTF8 correcte pour exporter depuis la base de données.
-
-Ce problème apparaît lorsque les utilisateurs copient et collent des guillemets fancy/smart à partir de MS Word qui utilise l'ensemble de caractères Windows-1252 qui ne correspond à rien en UTF8. Ce qui aboutit à ces séquences qui ressemblent à â€œapprentissage,â€<9d>.
-
-Les étapes suivantes peuvent être utilisées pour résoudre ce problème d'encodage:
-
-- Installez sur votre machine locales [ftfy](https://ftfy.readthedocs.io/en/latest/), étant un outil python, cela va nécessiter que python3 soit installé aussi;
-- Modifiez l'exécutable ftfy en ligne de commande cli.py (cela peut être dans un chemin différent selon votre environnement.): `/usr/local/lib/python3.6/site-packages/ftfy/cli.py`
-- Autour de la ligne 100 ( `$ vim +100 cli.py` ), ajoutez un paramètre supplémentaire 'uncurl_quotes = False' à la fonction fix_file. Cela ressemblera à ce qui suit:
+* Install on your local machine [ftfy](https://ftfy.readthedocs.io/en/latest/), as it is a python tool it will require python3 installed as well;
+* Edit the command-line ftfy executable cli.py (it may be in a different path depending on your environment.): `/usr/local/lib/python3.6/site-packages/ftfy/cli.py`
+* Around line 100 (`$ vim +100 cli.py`) add an extra parameter 'uncurl_quotes=False' to the fix_file function. It will like as follows:
 
 ```
 for line in fix_file(file, encoding=encoding,
@@ -158,11 +155,11 @@ for line in fix_file(file, encoding=encoding,
      uncurl_quotes=False):
 ```
 
-- Téléchargez sur votre machine locale le fichier DUMP (ex: client.orig.sql) et vous pourrez exécuter: `$ ftfy --output=client.clean.sql client.orig.sql`
+* Download to you local machine the DUMP file (i.e: client.orig.sql) and you will be able to run: `$ ftfy --output=client.clean.sql client.orig.sql`
 
-#### Solutions de Contournement Manuelles (Dernier Recours)
+#### Manual Workarounds (Last Resort)
 
-Si vous rencontrez des caractères étranges comme Ã¢â‚¬ / Ã¢â‚¬" / Ã¢â‚¬â„¢ / etc., essayez les commandes SQL suivantes pour les rechercher et les remplacer (tirées de ce [blog](https://digwp.com/2011/07/clean-up-weird-characters-in-database/) ) :
+If you are running into strange characters like Ã¢â‚¬ / Ã¢â‚¬" / Ã¢â‚¬â„¢ / etc., try the following SQL commands to search and replace them (taken from this [blog post](https://digwp.com/2011/07/clean-up-weird-characters-in-database/)):
 
 ```
 UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬Å“', '"');
@@ -175,57 +172,57 @@ UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚
 UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬ ¦', '"¦');
 ```
 
-Si tout autre tentative échoue:
+If all else fails:
 
-Kurt a exécuté la commande de décharge suivante avec un certain succès, mais sans expliquer exactement ce qu'elle fait:
+Kurt has run the following dump command with some success, but without explaining exactly what it does:
 
 ```
 mysqldump ocs-$USERNAME --opt --default-character-set=latin1 --skip-set-charset --single-transaction  --ignore-table=ocs-$USERNAME.paper_search_keyword_list --ignore-table=ocs-$USERNAME.paper_search_object_keywords --ignore-table=ocs-$USERNAME.paper_search_objects --result-file=/tmp/$USERNAME.sql
 ```
 
-## Rapport d'Erreurs: Pages Blanches, Diagnostics, etc.
+## Error-reporting: Blank Pages, Diagnostics, etc.
 
-### Lorsque je clique sur un bouton ou que je suis un lien, je finis avec une page blanche. Qu'est ce que je peux faire?
+### When I click some button or follow some link, I'm left with a blank page. What do I do?
 
-1: Vérifiez le log des erreurs de votre serveur Web
+1: Check your webserver error log
 
-Normalement, cela indique qu'une erreur PHP s'est produite et que le message a été envoyé à votre serveur Web ou au fichier log du système. Vérifiez là-bas - par exemple `/var/log/apache/error.log` , bien que l'emplacement exact dépendra de la configuration de votre serveur - pour plus de détails.
+Usually, this indicates that a PHP error has occurred and the message has been sent to your web server or system log file. Check there – e.g. `/var/log/apache/error.log`, although the exact location will depend on your server configuration – for further details.
 
-2: Vérifiez vos autorisations de fichiers
+2: Check your file permissions
 
-Si vous n'avez pas encore installé OJS, OMP ou OCS, la cause la plus probable est un problème avec les autorisations de fichiers dans vos répertoires cache/ ou cache/t_compile. Voir docs/README pour plus d'informations sur les autorisations de fichiers.
+If you haven’t installed OJS, OMP, or OCS yet, then the most likely cause is a problem with file permissions in your cache/ or cache/t_compile directories. See docs/README for information on file permissions.
 
-3: Diagnostic d'anomalies supplémentaire
+3: Further troubleshooting
 
-Si vous n'avez pas accès au fichier log de votre serveur, vous pouvez essayer d'ajouter ce qui suit au début de index.php pour que les messages d'erreur soient envoyés au navigateur:
+If you don’t have access to your server log file, you can try adding the following near the top of index.php to cause error messages to be sent to the browser:
 
 `ini_set('display_errors', E_ALL);`
 
-Si vous exécutez dans un environnement Windows IIS, vous devrez peut-être aussi activer `fastcgi.impersonate=1` dans votre fichier php.ini.
+If you happen to be running in a Windows IIS environment, you may also have to enable `fastcgi.impersonate=1` in your php.ini file.
 
-Vous pouvez également modifier temporairement (approximativement) la ligne 27 du fichier `lib/pkp/includes/functions.inc.php` , en supprimant l'opérateur @, pour que cela ressemble à ceci:
+You may also want to temporarily modify (approximately) line 27 of file `lib/pkp/includes/functions.inc.php`, removing the @ operator, so it would look like this:
 
 `if((include_once BASE_SYS_DIR.'/'.$filePath) === false) {`
 
-N'oubliez pas d'annuler cette modification par la suite.
+Remember to revert that change afterwards.
 
-Parfois, un script PHP spécifique inclus dans le logiciel échoue à s'exécuter sans aucun message d'erreur, par exemple en raison d'une modification <br>interrompue ou d'un problème de permissions de fichiers. Pour déterminer quel script pourrait être à l'origine du problème, vous pouvez modifier votre `lib/pkp/includes/functions.inc.php` et rechercher la ligne suivante:
+Sometimes a specific PHP script included in the software will fail to execute without any error message, e.g. due to a broken modification or a file permissions problem. To determine which script might be causing the problem, you can edit your `lib/pkp/includes/functions.inc.php` and find the following line:
 
 `function import($class) {`
 
-Ajoutez en dessous:
+Add below it:
 
 `echo "Importing " . $class . " \n";`
 
-Cela causera OJS, OMP ou OCS à répertorier les fichiers de classe avant de les importer (pour TOUT visualiseur du site). Si vous rencontrez un problème avec un fichier particulier, ce sera le dernier dans la liste. Vérifiez-y les autorisations du fichier et essayez de l'exécuter via le linter PHP (php -l chemin / vers / file.inc.php).
+This will cause OJS, OMP, or OCS to list class files before importing them (for ANY viewer of the site). If you are having a problem with a particular file, it will be the last one listed. Double-check the file permissions on it and try running it through the PHP linter (php -l path/to/file.inc.php).
 
-Assurez-vous d'annuler cette modification lorsque vous avez terminé.
+Be sure to revert this change when you are finished.
 
-### Qu'est-ce qu'un stacktrace et comment l'afficher dans OxS?
+### What is a stacktrace and how do I display them in OxS?
 
-Un stacktrace montre la route à travers le code utilisé pour afficher la page actuelle. Lorsqu'une erreur est affichée, un stacktrace est souvent utile pour aider à déterminer comment l'erreur a été provoquée, en permettant au développeur de parcourir le code et voir quel route il doit emprunter pour reproduire l'erreur.
+A stacktrace shows the route through the code taken to display the current page. When an error is displayed, a stacktrace is often helpful in helping to track down how the error is being caused, by letting the developer step through the code and see what route they must take to reproduce the error.
 
-Pour activer le stacktracing sur les erreurs dans OxS, activez l'option 'show_stacktrace' dans config.inc.php (vers le bas du document). Un exemple de stacktrace ressemblera à ceci:
+To enable stacktracing on errors in OxS, turn on the 'show_stacktrace' option in config.inc.php (near the bottom of the document). An example stacktrace will look like this:
 
 ```
 DB Error: ERROR: invalid input syntax for integer: ""
@@ -248,38 +245,38 @@ File: /var/www/ojs/index.php line 99
 Function: handleRequest()
 ```
 
-### Je reçois l'erreur suivante: Erreur fatale: taille de mémoire autorisée de 8388608 octets épuisés (etc.)
+### I am receiving the following error: Fatal error: Allowed memory size of 8388608 bytes exhausted (etc.)
 
-Votre limite de mémoire PHP est probablement trop basse. Elle est normalement réglé à 8 Mo par défaut, mais OJS, OMP et OCS ont besoin d'au moins 16 Mo pour fonctionner correctement (et souvent plus pour des tâches occasionnelles telles que la mise à niveau). Vous pouvez trouver une directive de configuration `memory_limit` dans le fichier de configuration `php.ini` votre serveur.
+Your PHP memory limit is most likely set too low. It's normally set at 8mb by default, but OJS, OMP, and OCS need at least 16mb set to run properly (and often more for occasional tasks like upgrading). You can find a `memory_limit` configuration directive in your server's `php.ini` config file.
 
-### Après avoir complété la page d'installation, je reçois une erreur de base de données. Que se passe-t-il?
+### After completing the install page, I receive a database error. What's going on?
 
-Vous recevez probablement une erreur similaire à
+You are probably receiving an error similar to
 
 `DB Error: Table 'ojs.journals' doesn't exist`
 
-... où la partie 'ojs' de l'erreur est le nom de votre base de données tel que spécifié lors de l'installation. Ce qui s'est probablement produit, c'est que vous avez tenté de créer votre base de données et que le programme d'installation a tenté de remplir cette base de données avec les données nécessaires, mais n'a pas pu le faire pour une raison quelconque. Des raisons possibles à cela incluent votre système de base de données (par exemple MySQL) ne permettant pas la création de base de données basée sur le Web; ou autrement ne permettant pas la création de table à grande échelle. La meilleure solution est de:
+... where the 'ojs' part of the error is the name of your database as specified during install. What has most likely happened is that you have attempted to create your database and the installer has attempted to fill that database with the necessary data, but for some reason was unable to do so. Possible reasons for this include your database system (eg. MySQL) not allowing web-based database creation; or otherwise not allowing large-scale table creation. The best solution is to:
 
-- restaurez votre `config.inc.php` à l'original (la copie sur `config.TEMPLATE.php` fera cela);
-- créez votre base de données manuellement via phpMyAdmin, CPanel ou similaire, en fonction de ce que votre fournisseur de services fournit;
-- redémarrez le processus d'installation en rechargeant votre page OJS/OMP/OCS root;
-- remplissez tous les champs d'installation comme il convient, en vous assurant que vous écrivez le nom correct pour votre base de données nouvellement créée;
-- décochez l'option "Créer une nouvelle base de données";
-- cliquez sur l'option "Installation manuelle" tout en bas de la page d'installation.
-- copiez la requête de base de données à partir de la page résultante et exécutez-la sur votre base de données via phpMyAdmin ou similaire.
+* restore your `config.inc.php` to the original (copying over `config.TEMPLATE.php` will do this);
+* create your database manually via phpMyAdmin, CPanel, or similar, depending on what your service provider provides;
+* restart the installation process by reloading your root OJS/OMP/OCS page;
+* fill in all installation fields as appropriate, ensuring that you write in the correct name for your newly-created database;
+* uncheck the "Create new Database" option;
+* click the "Manual Install" option at the very bottom of the installation page.
+* copy the database query from the resulting page, and run it against your database via phpMyAdmin or similar.
 
-Veuillez noter que lorsque vous cliquez sur le bouton Installation manuelle, la page résultante indiquera que l'installation OJS/OMP/OCS s'est terminée avec succès, mais ce n'est pas tout à fait vrai: vous devez toujours copier les instructions SQL et les ajouter à votre base de données manuellement.
+Please note that when you click the Manual Install button, the resulting page will say that the OJS/OMP/OCS Install has completed successfully, but this isn't quite true: you still have to copy the SQL statements and add them to your database manually.
 
-**Remarque:** vous pouvez aussi rencontrer un bug du plugiciel. Il y a eu des bugs de plugiciel dans le passé où les plugiciels ont tenté d'accéder à la table «journaux» avant que le programme d'installation ait créé la table; il en résultera un message «La table 'ojs.journals' n'existe pas» quand quelqu'un essaiera de charger la page d'installation en premier lieu. Dans ce cas, vous pouvez réduire cela à un plugiciel particulier en vérifiant le stack trace.
+**Note:** You may also be encountering a plugin bug. There have been plugin bugs in the past where plugins have attempted to access the "journals" table before the installer has created the table; these will result in a "Table 'ojs.journals' doesn't exist" message when someone attempts to load the installer page in the first place. In this case, you can narrow it down to a particular plugin by checking the stack trace.
 
-## Compatibilité des Applications PHP et PKP
+## PHP and PKP Application Compatibility
 
-Si vous utilisez PHP 5.3+ (ce que vous devriez faire), vous devrez exécuter OJS 2.4.0+, OMP 1.0+ ou OCS 2.3.6+. Les anciennes versions du logiciel ne fonctionneront pas sur les nouvelles versions de PHP.
+If you are running PHP 5.3+ \(which you should be doing\), you will need to run OJS 2.4.0+, OMP 1.0+ or OCS 2.3.6+. Older versions of the software will not work on newer versions of PHP.
 
-Si vous utilisez PHP 7+, vous devrez exécuter OJS 3.0+.
+If you are running PHP 7+, you will need to run OJS 3.0+.
 
-OJS et OMP 3.1.2+ **nécessitent** PHP 7.1 ou supérieur. Faire référence à [docs/README](https://github.com/pkp/ojs/tree/main/docs) pour votre version OJS/OMP pour plus d'informations sur les exigences du système PHP.
+OJS and OMP 3.1.2+ **requires** PHP 7.1 or above. Refer to [docs/README](https://github.com/pkp/ojs/tree/main/docs) for your OJS/OMP version for more information about PHP system requirements.
 
-**REMARQUE** : Si vous exécutez OJS ou OMP 3.x sur un stack PHP7 + LAMP, n'oubliez pas de mettre à jour le paramètre de votre driver MySQL (section Base de Données) sur le fichier `config.inc.php` , c'est-à-dire:
+**NOTE**: If you are running OJS or OMP 3.x on a PHP7+ LAMP stack, please remember to update your MySQL driver parameter\(Database section\) on `config.inc.php` file, i.e.:
 
 `driver = mysqli`
