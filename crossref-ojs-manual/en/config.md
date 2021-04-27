@@ -2,6 +2,7 @@
 book: crossref-ojs-manual
 version: 3.2
 ---
+
 # Crossref XML Export Plugin (OJS 3.2+)
 
 The Crossref XML Export Plugin  can deposit DOIs to Crossref for registration in a variety of ways:
@@ -16,8 +17,7 @@ Manual deposit from the plugin interface might be used to selectively deposit co
 
 Manual deposit using Crossref XML export and admin tool might be used if you opt to add additional metadata such as licensing information not currently being deposited through the Crossref XML plugin.
 
-You can also register your content with Crossref entirely outside of OJS using the Crossref metadata manager, though the plugin can save you having to input metadata by hand.
-You can find the Crossref Plugin from your dashboard by navigating to **Tools > Import/Export > Crossref XML Export Plugin**.
+You can also register your content with Crossref entirely outside of OJS using the Crossref metadata manager, though the plugin can save you having to input metadata by hand. You can find the Crossref Plugin from your dashboard by navigating to **Tools > Import/Export > Crossref XML Export Plugin**.
 
 This is the Crossref XML Export Plugin in OJS 3.2+:
 
