@@ -1,43 +1,48 @@
-# Capítulo 11: Herramientas
-Se puede acceder a la sección Herramientas desde el menú de la barra lateral izquierda.
+---
+book: learning-ojs
+version: 3.1
+---
 
-![Captura de pantalla de cómo acceder a las herramientas](./assets/image151.png)
-Las herramientas consisten en una pestaña Importar/Exportar y una pestaña Estadísticas.
+# Chapter 11: Tools
 
-## Importación/Exportación
-Importar/Exportar le permite obtener fácilmente datos de su publicación OJS y meterlos en ella.
+The Tools section can be accessed from the left sidebar menu.
 
-![Captura de pantalla de Importar / Exportar Herramientas](./assets/image123.png)
+![Tools side menu options.](./assets/learning-ojs3.1-jm-users-tools.png)
 
-Algunas de las herramientas le permiten exportar a sistemas de terceros, como PubMed o el DOAJ.
+Tools consist of an Import/Export tab and a Report Generator tab (called Statistics in OJS 3.1.1 and earlier).
 
-Otros le permiten importar o exportar datos de usuario o artículo.
+## Import/Export
 
-Para obtener más información sobre el plugin de exportación XML de referencias cruzadas, consulte la guía de referencias cruzadas de PKP.
+Import/Export allows you to easily get data out of your OJS journal and get data into it.
 
-## Estadísticas
-La página Estadísticas proporciona acceso a una variedad de informes de su revista.
+![List of Import/Export plugins available.](./assets/learning-ojs3.1-jm-users-tools-import.png)
 
-![Captura de pantalla para generar estadísticas](./assets/image99.png)
+Some of the tools allow you to export to third-party systems, such as PubMed or the DOAJ. Others allow you to import or export user or article data.
 
-El sistema genera informes que rastrean los detalles asociados con el uso del sitio y los envíos durante un período de tiempo determinado. Los informes se generan en formato CSV, lo que requiere una aplicación de hoja de cálculo para su visualización.
+For detailed instructions on importing and exporting see the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export).
 
-**Ver informe**: Proporciona un informe sobre los puntos de vista de galeradas y abstractos de los lectores (es decir, cuántas veces se ha visto un PDF de un artículo).
+For more information on the Crossref XML Export Plugin, see the [PKP Crossref Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
 
-**Informe de revisión**: Proporciona una hoja de cálculo de toda la actividad de revisión.
+## Report Generator
 
-**Informe de suscripciones**: Proporciona una hoja de cálculo de la actividad de suscripción.
+The Report Generator page provides access to a variety of reports from your journal.
 
-**COUNTER Reports**: Proporciona datos COUNTER.
+![List of Reports available.](./assets/learning-ojs3.1-jm-users-tools-stats.png)
 
-**Reporte de Artículos**: Proporciona una hoja de cálculo de todos los artículos publicados.
+The system generates reports that track the details associated with site usage and submissions over a given period of time. Reports are generated in CSV format which requires a spreadsheet application to view.
 
-**Informe de estadísticas de uso de PKP**: Proporciona estadísticas de uso básicas para su publicación.
-
-## Generar un informe personalizado
-Utilice esta función para crear sus propios informes.
-
-![Captura de pantalla del informe personalizado](./assets/image188.png)
-
+- **PKP Usage Statistics Report**: Provides basic usage statistics for your journal.
+- **View Report**: Provides a report on galley and abstract views by readers \(i.e., how many times a PDF for an article has been viewed\).
+- **Articles Report**: Provides a spreadsheet of all published articles.
+- **COUNTER Reports**: Provides COUNTER data.
+- **Subscriptions Report**: Provides a spreadsheet of subscription activity.
+- **Review Report**: Provides a spreadsheet of all review activity.
 
 
+### Generate Custom Report
+
+Use this feature to build your own reports.
+
+![Sample custom report settings to generate Issue table of contents page preview aggregated by country and month for this current month.](./assets/learning-ojs3.1-jm-users-tools-stats-custom.png)
+
+More information on how to generate and manage statistics in OJS is provided in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
