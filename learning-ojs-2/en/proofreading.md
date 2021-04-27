@@ -12,7 +12,7 @@ Clicking this link will open a comment box, where you can see the Author's comme
 
 ![Corrections](images/chapter12/proof_4.png)
 
-Using the Save button will save your comments and return you to the submission page. Use the Complete mail icon to inform the Section Editor (add Layout Editor if required) through an email template that you have completed your work. 
+Using the Save button will save your comments and return you to the submission page. Use the Complete mail icon to inform the Section Editor (add Layout Editor if required) through an email template that you have completed your work.
 
 ![Send Email](images/chapter12/proof_5.png)
 
@@ -20,7 +20,7 @@ Using the Save button will save your comments and return you to the submission p
 A date stamp will display under "complete" beside **Proofreader Comments**, and the Layout Editor will take on the final proofread.
 
 
-![Completed Submission](images/chapter12/proof_6.png)   
+![Completed Submission](images/chapter12/proof_6.png)
 
 
 You are now finished with the submission.
