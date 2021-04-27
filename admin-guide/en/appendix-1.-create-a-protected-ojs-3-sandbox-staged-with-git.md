@@ -187,7 +187,7 @@ To set all submission-related emails, e.g. those of contributors, to test@exampl
    UPDATE authors SET email = 'test@example.com’
    ```
 
-##  (Optional) Add password protection to the site so that it isn’t accidentally accessed, crawled, etc.
+## (Optional) Add password protection to the site so that it isn’t accidentally accessed, crawled, etc.
 
 We do this for all sandboxes by adding .htaccess and .htpasswd protection to the sandbox web root. Your systems folks would know how to do this.
 
