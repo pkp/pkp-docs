@@ -20,7 +20,7 @@ This will allow you to add information regarding your overall OJS installation, 
 ![Site Settings](images/chapter4/sa_site_settings.png)
 
 
-Below is a detailed breakdown of all options: 
+Below is a detailed breakdown of all options:
 
 * **Form Language**: This will not appear if your site is unilingual. If you have multiple languages, however, you will need to fill in each form in the first language, save your changes, return to the form, change this dropdown to the second language, complete the form in the second language, and save again.
 
