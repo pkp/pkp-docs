@@ -2,6 +2,7 @@
 book: learning-ops
 version: 3.3
 ---
+
 # Editorial Workflow
 
 The editorial workflow for preprints is simple compared to the editorial workflow for journal articles. When a preprint is submitted it is immediately in the Production stage and Production is the only stage in the workflow. An activity log, similar to what is in place in OJS, indicates all of the activity that has taken place on the submission. Generally, the author has more control over the process than they would when submitting to a journal. Authors can self-post immediately upon submission, or a screening process can be used, depending on the server’s screening policy. Additionally, unlike journals, preprints are not organized into issues.
@@ -9,10 +10,7 @@ The editorial workflow for preprints is simple compared to the editorial workflo
 A typical workflow could be the following, with variations depending on the preprint server’s policies (see above):
 
 1. An author makes a submission, which includes the full-text preprint file, supplemental material, and metadata.
-2. The preprint is posted online automatically and immediately.
-Or:
-The preprint is screened by a moderator. The moderator will decide to decline the
-submission or schedule it for posting.
+2. The preprint is posted online automatically and immediately. Or: The preprint is screened by a moderator. The moderator will decide to decline the submission or schedule it for posting.
 3. Metadata is finalized and the preprint is posted online.
 4. The author may post revised versions of the preprint as they become available.
 
@@ -20,8 +18,7 @@ This chapter explains the steps in the editorial workflow for Authors, Moderator
 
 ## Submissions Dashboard
 
-All active and archived (published or declined) submissions for the preprint server will
-appear in the Submissions dashboard.
+All active and archived (published or declined) submissions for the preprint server will appear in the Submissions dashboard.
 
 ![The OPS submission dashboard as Preprint Manager](./assets/learning-ops3.3-submissions-dashboard.png)
 
@@ -35,20 +32,17 @@ See [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#
 
 ## Making a Submission
 
-The editorial workflow in OPS starts when an author submits a new manuscript.
-How an author can make a submission is explained in [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/authoring). It is the same in OJS and OPS except that when the author makes a submission of a new preprint, they can choose a Category to submit to instead of a Section.
+The editorial workflow in OPS starts when an author submits a new manuscript. How an author can make a submission is explained in [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/authoring). It is the same in OJS and OPS except that when the author makes a submission of a new preprint, they can choose a Category to submit to instead of a Section.
 
 ![](./assets/learning-ops-make-submission-choose-category.png)
 
-Depending on your preprint server policies, the preprint will be published immediately
-after submission or it will be screened by a Moderator. It is also possible to have moderation done by the research community after a preprint is posted and made public.
+Depending on your preprint server policies, the preprint will be published immediately after submission or it will be screened by a Moderator. It is also possible to have moderation done by the research community after a preprint is posted and made public.
 
 The next section explains the pre-publication moderation process.
 
 ## Moderation and Production
 
-The Preprint Server Manager will receive a notification that a new submission was received
-and can assign a Moderator to the submission. Or in the [Server Settings](./setup#server-settings), they can assign a Moderator to a Category or Section, which means that any new submissions to that category or section will automatically be assigned to the moderator.
+The Preprint Server Manager will receive a notification that a new submission was received and can assign a Moderator to the submission. Or in the [Server Settings](./setup#server-settings), they can assign a Moderator to a Category or Section, which means that any new submissions to that category or section will automatically be assigned to the moderator.
 
 If your server chooses to assign moderators to screen submissions before they are posted, you can manage, assign, and notify participants for a submission as necessary using the ‘Participants’ list.
 
