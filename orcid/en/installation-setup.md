@@ -4,7 +4,7 @@ To use the plugin, you will first need to obtain either Public or Member ORCID A
 
 ## Obtain ORCID Sandbox API Credentials
 
-You are strongly advised  to test the ORCID plugin in the ORCID Sandbox environment using Sandbox ORCID API credentials first to make sure that the OJS/OPS environment is configured  properly, before moving to the production environment and going live with the plugin functionality. The process for obtaining your Sandbox ORCID API credentials will vary depending on whether you are planning to use the ORCID Public API or the ORCID Member API. 
+You are strongly advised  to test the ORCID plugin in the ORCID Sandbox environment using Sandbox ORCID API credentials first to make sure that the OJS/OPS environment is configured  properly, before moving to the production environment and going live with the plugin functionality. The process for obtaining your Sandbox ORCID API credentials will vary depending on whether you are planning to use the ORCID Public API or the ORCID Member API.
 
 ORCID provides two different API endpoints for: sandbox (testing) and production (live) environments: the ORCID Member API, and the ORCID Public API:
 
@@ -112,8 +112,7 @@ Once your ORCID plugin is enabled and in production, you might want to let your 
 
 ### Request ORCID authentication upon issue publication
 
-The Editor can do this at any point:
-You can configure the ORCID plugin settings to send an email automatically to authors requesting ORCID authorization when an article is published.
+The Editor can do this at any point: You can configure the ORCID plugin settings to send an email automatically to authors requesting ORCID authorization when an article is published.
 
 You can also request ORCID authorization from authors by doing the following:
 
