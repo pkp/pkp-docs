@@ -12,11 +12,11 @@ All theme options should be configured in the `init()` method of your theme. The
 
 ```php
 public function init() {
-	$this->addOption('baseColour', 'FieldColor', [
-		'label' => __('plugins.themes.default.option.colour.label'),
-		'description' => __('plugins.themes.default.option.colour.description'),
-		'default' => '#1E6292',
-	]);
+    $this->addOption('baseColour', 'FieldColor', [
+        'label' => __('plugins.themes.default.option.colour.label'),
+        'description' => __('plugins.themes.default.option.colour.description'),
+        'default' => '#1E6292',
+    ]);
 }
 ```
 
@@ -24,22 +24,22 @@ Add an option to select from a list.
 
 ```php
 public function init() {
-	$this->addOption('typography', 'FieldOptions', [
-		'type' => 'radio',
-		'label' => __('plugins.themes.default.option.typography.label'),
-		'description' => __('plugins.themes.default.option.typography.description'),
-		'options' => [
-			[
-				'value' => 'notoSans',
-				'label' => __('plugins.themes.default.option.typography.notoSans'),
-			],
-			[
-				'value' => 'notoSerif',
-				'label' => __('plugins.themes.default.option.typography.notoSerif'),
-			],
-		],
-		'default' => 'notoSans',
-	]);
+    $this->addOption('typography', 'FieldOptions', [
+        'type' => 'radio',
+        'label' => __('plugins.themes.default.option.typography.label'),
+        'description' => __('plugins.themes.default.option.typography.description'),
+        'options' => [
+            [
+                'value' => 'notoSans',
+                'label' => __('plugins.themes.default.option.typography.notoSans'),
+            ],
+            [
+                'value' => 'notoSerif',
+                'label' => __('plugins.themes.default.option.typography.notoSerif'),
+            ],
+        ],
+        'default' => 'notoSans',
+    ]);
 }
 ```
 
@@ -47,16 +47,16 @@ Add a checkbox to enable or disable a feature.
 
 ```php
 public function init() {
-	$this->addOption('showDescriptionInJournalIndex', 'FieldOptions', [
-		'label' => __('manager.setup.contextSummary'),
-		'options' => [
-			[
-				'value' => true,
-				'label' => __('plugins.themes.default.option.showDescriptionInJournalIndex.option'),
-			],
-		],
-		'default' => false,
-	]);
+    $this->addOption('showDescriptionInJournalIndex', 'FieldOptions', [
+        'label' => __('manager.setup.contextSummary'),
+        'options' => [
+            [
+                'value' => true,
+                'label' => __('plugins.themes.default.option.showDescriptionInJournalIndex.option'),
+            ],
+        ],
+        'default' => false,
+    ]);
 }
 ```
 
@@ -64,15 +64,16 @@ Add a text field to describe a section.
 
 ```php
 public function init() {
-	$this->addOption('callToAction', 'FieldText', [
-		'label' => __('plugins.themes.default.option.callToAction.label'),
-		'default' => false,
-	]);
+    $this->addOption('callToAction', 'FieldText', [
+        'label' => __('plugins.themes.default.option.callToAction.label'),
+        'default' => false,
+    ]);
 }
 ```
 
-> All of the form field components can be seen in the [UI Library](/dev/ui-library/dev).
-{:.tip}
+> All of the form field components can be seen in the [UI Library](/dev/ui-library/dev). 
+> 
+> {:.tip}
 
 Use any field type that extends the `Field` class except the `FieldUpload` and `FieldUploadImage` types. File uploads are not yet supported for theme options.
 
@@ -83,11 +84,11 @@ Get the value of a theme option and use it in your theme. The example below will
 
 ```php
 public function init() {
-	$baseColour = $this->getOption('baseColour');
-	$this->modifyStyle(
-		'stylesheet',
-		['addLessVariables' => "@bg-base:$baseColour;"]
-	);
+    $baseColour = $this->getOption('baseColour');
+    $this->modifyStyle(
+        'stylesheet',
+        ['addLessVariables' => "@bg-base:$baseColour;"]
+    );
 }
 ```
 
@@ -95,14 +96,15 @@ Get theme options from any template by using the `$activeTheme` variable.
 
 ```html
 {if $activeTheme->getOption('showDescriptionInJournalIndex')}
-	<section>
-		{$currentContext->getData('description')}
-	</section>
+    <section>
+        {$currentContext->getData('description')}
+    </section>
 {/if}
 ```
 
-> If you call `$this->getOption(...)` in the `init()` method, make sure that all options have been declared first. The values of theme options added after the first call to `$this->getOption(...)` will not be returned.
-{:.warning}
+> If you call `$this->getOption(...)` in the `init()` method, make sure that all options have been declared first. The values of theme options added after the first call to `$this->getOption(...)` will not be returned. 
+> 
+> {:.warning}
 
 ## Manage colors
 
@@ -111,10 +113,10 @@ When the user selects a light or dark color with a theme option, text must be ad
 ```php
 public function init() {
 
-		// Set the background color
-		$additionalLessVariables[] = '@bg-base:' . $this->getOption('baseColour') . ';';
+        // Set the background color
+        $additionalLessVariables[] = '@bg-base:' . $this->getOption('baseColour') . ';';
 
-		// Set the text to white if the background is too dark
+        // Set the text to white if the background is too dark
     if (!$this->isColourDark($this->getOption('baseColour'))) {
         $additionalLessVariables[] = '@text-bg-base:white;';
     }
@@ -127,17 +129,17 @@ A child theme may need to extend an existing option defined by the parent theme 
 
 ```php
 public function init() {
-	$this->modifyOptionsConfig('typography', [
-		'type' => radio,
-		'label' => 'plugins.themes.default.option.typography.label',
-		'description' => 'plugins.themes.default.option.typography.description',
+    $this->modifyOptionsConfig('typography', [
+        'type' => radio,
+        'label' => 'plugins.themes.default.option.typography.label',
+        'description' => 'plugins.themes.default.option.typography.description',
 
-		// Replace the existing options with new options.
-		'options' => [
-			'montserratNotoSerif' => 'plugins.themes.default-child.option.typography.montserratNotoSerif',
-			'montserratNotoSans' => 'plugins.themes.default-child.option.typography.montserratNotoSans',
-		]
-	]);
+        // Replace the existing options with new options.
+        'options' => [
+            'montserratNotoSerif' => 'plugins.themes.default-child.option.typography.montserratNotoSerif',
+            'montserratNotoSans' => 'plugins.themes.default-child.option.typography.montserratNotoSans',
+        ]
+    ]);
 }
 ```
 
@@ -145,7 +147,7 @@ Remove the typography option.
 
 ```php
 public function init() {
-	$this->removeOption( 'typography' );
+    $this->removeOption( 'typography' );
 }
 ```
 
@@ -153,8 +155,8 @@ Get the option's `Field` object to manipulate it directly.
 
 ```php
 public function init() {
-	$typographyField = $this->getOptionConfig('typography');
-	$typographField->label = __('plugins.themes.default.option.typography.label');
+    $typographyField = $this->getOptionConfig('typography');
+    $typographField->label = __('plugins.themes.default.option.typography.label');
 }
 ```
 
@@ -162,10 +164,10 @@ Get the `Field` objects for all theme options.
 
 ```php
 public function init() {
-	$allOptions = $this->getOptionsConfig();
-	foreach ((array) $allOptions as $option) {
-		...
-	}
+    $allOptions = $this->getOptionsConfig();
+    foreach ((array) $allOptions as $option) {
+        ...
+    }
 }
 ```
 
@@ -176,45 +178,45 @@ Add a theme option to select a font and load the custom font file based on the u
 ```php
 public function init() {
 
-	// Add the option
-	$this->addOption('typography', 'FieldOptions', [
-		'type' => 'radio',
-		'label' => __('plugins.themes.default.option.typography.label'),
-		'description' => __('plugins.themes.default.option.typography.description'),
-		'options' => [
-			[
-				'value' => 'notoSans',
-				'label' => __('plugins.themes.default.option.typography.notoSans'),
-			],
-			[
-				'value' => 'notoSerif',
-				'label' => __('plugins.themes.default.option.typography.notoSerif'),
-			],
-		],
-		'default' => 'notoSans',
-	]);
+    // Add the option
+    $this->addOption('typography', 'FieldOptions', [
+        'type' => 'radio',
+        'label' => __('plugins.themes.default.option.typography.label'),
+        'description' => __('plugins.themes.default.option.typography.description'),
+        'options' => [
+            [
+                'value' => 'notoSans',
+                'label' => __('plugins.themes.default.option.typography.notoSans'),
+            ],
+            [
+                'value' => 'notoSerif',
+                'label' => __('plugins.themes.default.option.typography.notoSerif'),
+            ],
+        ],
+        'default' => 'notoSans',
+    ]);
 
-	// Load the correct google font
-	if ($this->getOption('typography') === 'notoSerif') {
-		$this->addStyle(
-			'fontNotoSerif',
-			'//fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i',
-			['baseUrl' => '']
-		);
-		$this->modifyStyle(
-			'stylesheet',
-			['addLessVariables' => '@font: "Noto Serif", serif;']
-		);
-	} else {
-		$this->addStyle(
-			'fontNotoSans',
-			'//fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i',
-			['baseUrl' => '']
-		);
-		$this->modifyStyle(
-			'stylesheet',
-			['addLessVariables' => '@font: "Noto Sans", sans-serif;']
-		);
-	}
+    // Load the correct google font
+    if ($this->getOption('typography') === 'notoSerif') {
+        $this->addStyle(
+            'fontNotoSerif',
+            '//fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i',
+            ['baseUrl' => '']
+        );
+        $this->modifyStyle(
+            'stylesheet',
+            ['addLessVariables' => '@font: "Noto Serif", serif;']
+        );
+    } else {
+        $this->addStyle(
+            'fontNotoSans',
+            '//fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i',
+            ['baseUrl' => '']
+        );
+        $this->modifyStyle(
+            'stylesheet',
+            ['addLessVariables' => '@font: "Noto Sans", sans-serif;']
+        );
+    }
 }
 ```
