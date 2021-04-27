@@ -8,8 +8,9 @@ The chapters in this section each describe a part of the application architectur
 
 These chapters provide an introduction to how the application works. You may need to read the code to learn more about each component. But after reading these chapters you should have an idea of where to look.
 
-> Some of the code in OJS and OMP is more than ten years old. You may find parts of the application code that do not conform to coding conventions in this document. This guide describes the architecture which all new contributions should follow.
-{:.notice}
+> Some of the code in OJS and OMP is more than ten years old. You may find parts of the application code that do not conform to coding conventions in this document. This guide describes the architecture which all new contributions should follow. 
+> 
+> {:.notice}
 
 ## Modules
 
