@@ -189,21 +189,21 @@ Avoid skipping headings in a document structure to prevent confusion, even if yo
 The example below shows an article structure with headings where the *Article title* is the highest rank heading and the most important info of the structure.
 
 > (h1) *Article title*  
-(h2) Abstract  
-(h2) Introduction  
-(h3) Background  
-(h2) Methods  
-(h2) Conclusion  
+> (h2) Abstract  
+> (h2) Introduction  
+> (h3) Background  
+> (h2) Methods  
+> (h2) Conclusion
 
 The example below demonstrates how to nest sections, with the lowest level closing the previous section. In this example, the "(h4) Background by region" closes the "(h2) Introduction" section and is fine in accessibility terms.
 
 > (h1) Article title  
-(h2) Abstract  
-(h2) Introduction  
-(h3) Background  
-(h4) **Background by region**  
-(h2) Methods  
-(h2) Conclusion
+> (h2) Abstract  
+> (h2) Introduction  
+> (h3) Background  
+> (h4) **Background by region**  
+> (h2) Methods  
+> (h2) Conclusion
 
 ### Text documents
 
@@ -241,10 +241,10 @@ This list is coded using `<ul>` for the main element and `<li>` for each item. E
 
 ```html
 <ul>
-	<li>Researchers</li>
-	<li>Students</li>
-	<li>Editors</li>
-	<li>Authors</li>
+    <li>Researchers</li>
+    <li>Students</li>
+    <li>Editors</li>
+    <li>Authors</li>
 </ul>
 ```
 
@@ -265,10 +265,10 @@ This list is coded using `<ol>` for the main element and `<li>`  for each item. 
 
 ```html
 <ol>
-	<li>Accept submission</li>
-	<li>Assign reviewers</li>
-	<li>Send to review</li>
-	<li>Set a due date</li>
+    <li>Accept submission</li>
+    <li>Assign reviewers</li>
+    <li>Send to review</li>
+    <li>Set a due date</li>
 </ol>
 ```
 
@@ -281,55 +281,48 @@ This list is coded using `<ol>` for the main element and `<li>`  for each item. 
 
 ### Description list (definition list)
 
-A description list consists of grouping terms and their descriptions. It is possible to associate one or more terms to one or more descriptions of the terms.
-The markup for description lists includes the `<dl>` tag for the start of the list, the `<dt>` tag for the term(s), and the `<dd>` tag for the description(s).
-A term can be grouped to more than one description. Likewise, one or more terms can be grouped with one description. Many terms to many descriptions is also acceptable.
+A description list consists of grouping terms and their descriptions. It is possible to associate one or more terms to one or more descriptions of the terms. The markup for description lists includes the `<dl>` tag for the start of the list, the `<dt>` tag for the term(s), and the `<dd>` tag for the description(s). A term can be grouped to more than one description. Likewise, one or more terms can be grouped with one description. Many terms to many descriptions is also acceptable.
 
-Screen readers will announce the number of terms as well as the descriptions.
-Below are some examples for description lists:
+Screen readers will announce the number of terms as well as the descriptions. Below are some examples for description lists:
 
 **One term, multiple descriptions**:
 
 ```html
 <dl>
-	<dt>Authors</dt>
-    	<dd>John</dd>
-    	<dd>Kevin</dd>
-    	<dd>Juan</dd>
-	<dt>Editor</dt>
-		<dd>James</dd>
+    <dt>Authors</dt>
+        <dd>John</dd>
+        <dd>Kevin</dd>
+        <dd>Juan</dd>
+    <dt>Editor</dt>
+        <dd>James</dd>
 </dl>
 ```
 
 **Rendered**
-
 > <dl>
-> 	<dt>Authors</dt>
->		  <dd>John</dd>
->		  <dd>Kevin</dd>
->		  <dd>Juan</dd>
->	  <dt>Editor</dt>
->		  <dd>James</dd>
+>   <dt>Authors</dt>
+>         <dd>John</dd>
+>         <dd>Kevin</dd>
+>         <dd>Juan</dd>
+>     <dt>Editor</dt>
+>         <dd>James</dd>
 > </dl>
-
 **Multiple terms, one description**:
 
 ```html
 <dl>
-	<dt>OJS</dt>
-	<dt>OMP</dt>
-		<dd>Publishing software platforms developed by PKP.</dd>
+    <dt>OJS</dt>
+    <dt>OMP</dt>
+        <dd>Publishing software platforms developed by PKP.</dd>
 </dl>
 ```
 
 **Rendered**
-
 > <dl>
 >   <dt>OJS</dt>
 >   <dt>OMP</dt>
 >     <dd>Publishing software platforms developed by PKP.</dd>
 > </dl>
-
 **Multiple terms, multiple descriptions**:
 
 ```html
@@ -342,14 +335,12 @@ Below are some examples for description lists:
 ```
 
 **Rendered**
-
 > <dl>
 > <dt>Authors</dt>
 > <dt>Editors</dt>
 >     <dd>James</dd>
 >     <dd>Michael</dd>
 > </dl>
-
 ## Columns
 
 While newer screen readers are typically compatible with multi-column layout, some older screen readers may read the page left-to-right, line by line, rendering the text out of order.
@@ -487,8 +478,8 @@ In XML:
 
 ```html
 <section id="test" xml:lang="fr">
-	<title>En Français</title>
-	<p>Ceci est un paragraphe.</p>
+    <title>En Français</title>
+    <p>Ceci est un paragraphe.</p>
 </section>
 ```
 
