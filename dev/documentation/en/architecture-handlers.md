@@ -10,8 +10,9 @@ Code inside of a `Handler` can not be reused, so `Handler`s should not perform t
 
 `Handler`s **do not authorize the request** and should not be used without appropriate [authorization policies](./architecture-authorization).
 
-> **Tip:** `Handler`s perform the role of `Controller`s in the MVC (Model-View-Controller) application architecture.
-{:.tip}
+> **Tip:** `Handler`s perform the role of `Controller`s in the MVC (Model-View-Controller) application architecture. 
+> 
+> {:.tip}
 
 ## Page Handlers
 
@@ -20,12 +21,12 @@ Page Handlers receive `GET` requests and return `HTML` output. The Page Handler 
 ```php
 import('classes.handler.Handler');
 class IssueHandler extends Handler {
-	/**
-	 * Display the table of contents for the current issue
-	 */
-	public function current(Array $args, Request $request) {
-		return '<html>...</html>';
-	}
+    /**
+     * Display the table of contents for the current issue
+     */
+    public function current(Array $args, Request $request) {
+        return '<html>...</html>';
+    }
 }
 ```
 
@@ -38,12 +39,12 @@ Page Handlers may define an `index` op to handle URLs that do not contain an op.
 ```php
 import('classes.handler.Handler');
 class IssueHandler extends Handler {
-	/**
-	 * Display a list of all issues
-	 */
-	public function index(Array $args, Request $request) {
-		return '<html>...</html>';
-	}
+    /**
+     * Display a list of all issues
+     */
+    public function index(Array $args, Request $request) {
+        return '<html>...</html>';
+    }
 }
 ```
 
@@ -51,10 +52,10 @@ The router must declare the `index` op:
 
 ```php
 switch ($op) {
-	case 'index':
-		define('HANDLER_CLASS', 'IssueHandler');
-		import('pages.issue.IssueHandler');
-		break;
+    case 'index':
+        define('HANDLER_CLASS', 'IssueHandler');
+        import('pages.issue.IssueHandler');
+        break;
 }
 ```
 
@@ -66,10 +67,10 @@ Any URL fragments that are appended after the op will be passed to the `Handler`
 
 ```php
 class IssueHandler extends Handler {
-	public function view(Array $args, Request $request) {
-		$issueId = isset($args[0]) ? (int) $args[0] : null;
-		return '<html>...</html>';
-	}
+    public function view(Array $args, Request $request) {
+        $issueId = isset($args[0]) ? (int) $args[0] : null;
+        return '<html>...</html>';
+    }
 }
 ```
 
@@ -78,11 +79,11 @@ Return a `404` error when page arguments request an entity that does not exist.
 ```php
 class IssueHandler extends Handler {
  public function view(Array $args, Request $request) {
-	 $issueId = isset($args[0]) ? (int) $args[0] : null;
-	 if (/* issue not found */) {
-		 $this->getDispatcher()->handle404();
-	 }
-	 return '<html>...</html>';
+     $issueId = isset($args[0]) ? (int) $args[0] : null;
+     if (/* issue not found */) {
+         $this->getDispatcher()->handle404();
+     }
+     return '<html>...</html>';
  }
 }
 ```
@@ -93,15 +94,16 @@ Page Handlers return HTML code using the `TemplateManager`.
 
 ```php
 class IssueHandler extends Handler {
-	public function current(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
-		return $templateMgr->display('/path/to/template.tpl');
-	}
+    public function current(Array $args, Request $request) {
+        $templateMgr = TemplateManager::getManager($request);
+        return $templateMgr->display('/path/to/template.tpl');
+    }
 }
 ```
 
-> Read the [Frontend](./frontend) section of this documentation to learn more about templates.
-{:.notice}
+> Read the [Frontend](./frontend) section of this documentation to learn more about templates. 
+> 
+> {:.notice}
 
 ## API Handlers
 
@@ -114,19 +116,19 @@ $ curl https://example.org/publicknowledge/api/v1/submissions
 ```php
 import('lib.pkp.classes.handler.APIHandler');
 class PKPSubmissionsHandler extends APIHandler {
-	public function __construct() {
-		$this->_endpoints = [
-			'GET' => [
-				[
-					'pattern' => 'submissions',
-					'handler' => [$this, 'getMany'],
-				],
-			],
-		];
-	}
-	public function getMany($slimRequest, $response, $args) {
-		return $response->withJson([...], 200);
-	}
+    public function __construct() {
+        $this->_endpoints = [
+            'GET' => [
+                [
+                    'pattern' => 'submissions',
+                    'handler' => [$this, 'getMany'],
+                ],
+            ],
+        ];
+    }
+    public function getMany($slimRequest, $response, $args) {
+        return $response->withJson([...], 200);
+    }
 }
 ```
 
@@ -141,20 +143,20 @@ $ curl https://example.org/publicknowledge/api/v1/submissions/1
 ```php
 import('lib.pkp.classes.handler.APIHandler');
 class PKPSubmissionsHandler extends APIHandler {
-	public function __construct() {
-		$this->_endpoints = [
-			'GET' => [
-				[
-					'pattern' => 'submissions/{submissionId}',
-					'handler' => [$this, 'get'],
-				],
-			],
-		];
-	}
-	public function get($slimRequest, $response, $args) {
-		$submissionId = (int) $args['submissionId'];
-		return $response->withJson([...], 200);
-	}
+    public function __construct() {
+        $this->_endpoints = [
+            'GET' => [
+                [
+                    'pattern' => 'submissions/{submissionId}',
+                    'handler' => [$this, 'get'],
+                ],
+            ],
+        ];
+    }
+    public function get($slimRequest, $response, $args) {
+        $submissionId = (int) $args['submissionId'];
+        return $response->withJson([...], 200);
+    }
 }
 ```
 
@@ -169,20 +171,20 @@ $ curl https://example.org/publicknowledge/api/v1/submissions?searchPhrase=barne
 ```php
 import('lib.pkp.classes.handler.APIHandler');
 class PKPSubmissionsHandler extends APIHandler {
-	public function __construct() {
-		$this->_endpoints = [
-			'GET' => [
-				[
-					'pattern' => 'submissions',
-					'handler' => array($this, 'getMany'),
-				],
-			],
-		];
-	}
-	public function getMany($slimRequest, $response, $args) {
-		$params = $slimRequest->getQueryParams(); // ['searchPhrase' => 'barnes']
-		return $response->withJson([...], 200);
-	}
+    public function __construct() {
+        $this->_endpoints = [
+            'GET' => [
+                [
+                    'pattern' => 'submissions',
+                    'handler' => array($this, 'getMany'),
+                ],
+            ],
+        ];
+    }
+    public function getMany($slimRequest, $response, $args) {
+        $params = $slimRequest->getQueryParams(); // ['searchPhrase' => 'barnes']
+        return $response->withJson([...], 200);
+    }
 }
 ```
 
@@ -200,20 +202,20 @@ $ curl https://example.org/publicknowledge/api/v1/submissions/1 \
 ```php
 import('lib.pkp.classes.handler.APIHandler');
 class PKPSubmissionsHandler extends APIHandler {
-	public function __construct() {
-		$this->_endpoints = [
-			'PUT' => [
-				[
-					'pattern' => 'submissions/{submissionId}',
-					'handler' => array($this, 'edit'),
-				],
-			],
-		];
-	}
-	public function edit($slimRequest, $response, $args) {
-		$data = $slimRequest->getParsedBody(); // ['contactEmail' => 'editor@example.org']
-		...
-	}
+    public function __construct() {
+        $this->_endpoints = [
+            'PUT' => [
+                [
+                    'pattern' => 'submissions/{submissionId}',
+                    'handler' => array($this, 'edit'),
+                ],
+            ],
+        ];
+    }
+    public function edit($slimRequest, $response, $args) {
+        $data = $slimRequest->getParsedBody(); // ['contactEmail' => 'editor@example.org']
+        ...
+    }
 }
 ```
 
@@ -224,15 +226,15 @@ API Handlers are passed a `$response` object which should be returned using the 
 ```php
 import('lib.pkp.classes.handler.APIHandler');
 class PKPSubmissionsHandler extends APIHandler {
-	public function __construct() {
-		$this->_endpoints = [...];
-	}
-	public function get($slimRequest, $response, $args) {
-		return $response->withJson([
-			'id' => 1,
-			'title' => 'Example Submission',
-		], 200);
-	}
+    public function __construct() {
+        $this->_endpoints = [...];
+    }
+    public function get($slimRequest, $response, $args) {
+        return $response->withJson([
+            'id' => 1,
+            'title' => 'Example Submission',
+        ], 200);
+    }
 }
 ```
 
@@ -241,21 +243,21 @@ Always return the correct [HTTP Status Code](https://en.wikipedia.org/wiki/List_
 ```php
 import('lib.pkp.classes.handler.APIHandler');
 class PKPSubmissionsHandler extends APIHandler {
-	public function __construct() {
-		$this->_endpoints = [...];
-	}
-	public function get($slimRequest, $response, $args) {
-		if (/* no submission found */) {
-			return $response->withJson(false, 404);
-		}
-		if (/* submission access not allowed */) {
-			return $response->withJson(false, 403);
-		}
-		return $response->withJson([
-			'id' => 1,
-			'title' => 'Example Submission',
-		], 200);
-	}
+    public function __construct() {
+        $this->_endpoints = [...];
+    }
+    public function get($slimRequest, $response, $args) {
+        if (/* no submission found */) {
+            return $response->withJson(false, 404);
+        }
+        if (/* submission access not allowed */) {
+            return $response->withJson(false, 403);
+        }
+        return $response->withJson([
+            'id' => 1,
+            'title' => 'Example Submission',
+        ], 200);
+    }
 }
 ```
 
@@ -264,15 +266,15 @@ Error responses from the API should pass a locale key that describes the error.
 ```php
 import('lib.pkp.classes.handler.APIHandler');
 class PKPSubmissionsHandler extends APIHandler {
-	public function __construct() {
-		$this->_endpoints = [...];
-	}
-	public function get($slimRequest, $response, $args) {
-		if (/* no submission found */) {
-			return $response->withStatus(404)->withJsonError('api.submissions.404.submissionNotFound');
-		}
-		...
-	}
+    public function __construct() {
+        $this->_endpoints = [...];
+    }
+    public function get($slimRequest, $response, $args) {
+        if (/* no submission found */) {
+            return $response->withStatus(404)->withJsonError('api.submissions.404.submissionNotFound');
+        }
+        ...
+    }
 }
 ```
 
@@ -282,10 +284,10 @@ The `$slimRequest` object is a PSR 7 object created by the [Slim API framework](
 
 ```php
 class PKPSubmissionsHandler extends APIHandler {
-	public function get($slimRequest, $response, $args) {
-		$request = $this->getRequest();
-		...
-	}
+    public function get($slimRequest, $response, $args) {
+        $request = $this->getRequest();
+        ...
+    }
 }
 ```
 
@@ -295,8 +297,9 @@ Read the [Slim API Framework usage guide](http://www.slimframework.com/docs/v3/)
 
 ## Controller Handlers (deprecated)
 
-> **Controller Handlers are deprecated.** New features should be built using the UI Library components that interact with API Handlers.  However, they are common throughout the application and will remain in use for some time.
-{:.warning}
+> **Controller Handlers are deprecated.** New features should be built using the UI Library components that interact with API Handlers.  However, they are common throughout the application and will remain in use for some time. 
+> 
+> {:.warning}
 
 Controller Handlers receive requests from UI Controllers and return `JSON` output. They act like Page Handlers except that they serve individual interactive UI components, such as a submission's list of files, discussions or participants.
 
