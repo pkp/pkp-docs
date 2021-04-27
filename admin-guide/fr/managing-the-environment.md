@@ -1,49 +1,49 @@
-# Gestion de l'environnement du serveur
+# Managing the Server Environment
 
-Gérer une application PKP signifie généralement:
+Managing a PKP application generally means:
 
-- s'assurer que les exigences du système sont respectées;
-- configurer correctement le système et l'application pour qu'ils fonctionnent correctement;
-- gérer le processus d'installation et de mise à niveau.
+* ensuring that system requirements are met;
+* properly configuring the system and application to work properly;
+* managing the install and upgrade process.
 
-Les applications PKP sont des applications Web PHP / MySQL relativement simples, et peuvent être exécutées à peu près n'importe où, à condition qu'une version relativement récente de PHP et de MySQL soit disponible. D'autres options de configuration (par exemple PostgreSQL, MS SQL) sont également possibles.
+PKP applications are relatively simple PHP/MySQL web applications, and can be run just about anywhere, provided a relatively recent version of PHP and MySQL are available. Other configuration options (e.g. PostgreSQL, MS SQL) are also possible.
 
-Les packages pour le téléchargement  des applications PKP peuvent être téléchargés à partir du site Web de PKP aux emplacements suivants:
+Package downloads for PKP applications can be downloaded from PKP's website at the following locations:
 
-- OJS: [https://pkp.sfu.ca/ojs/ojs_download](https://pkp.sfu.ca/ojs/ojs_download)
-- OMP: [https://pkp.sfu.ca/omp/omp_download](https://pkp.sfu.ca/omp/omp_download)
-- OCS: [https://pkp.sfu.ca/ocs/ocs_download](https://pkp.sfu.ca/ocs/ocs_download)
+* OJS: [https://pkp.sfu.ca/ojs/ojs_download](https://pkp.sfu.ca/ojs/ojs_download)
+* OMP: [https://pkp.sfu.ca/omp/omp_download](https://pkp.sfu.ca/omp/omp_download)
+* OCS: [https://pkp.sfu.ca/ocs/ocs_download](https://pkp.sfu.ca/ocs/ocs_download)
 
-Toutes les applications sont livrées avec un ensemble complet de documentation de configuration, d'installation et de mise à niveau, qui se trouve dans le répertoire `docs/` inclus dans le package du téléchargement. Ceux-ci doivent être consultés en tant que ressource principale pour toute question de configuration, d'installation ou de mise à niveau, et doivent être revus périodiquement (en particulier dans le cadre de tout processus de mise à niveau). PKP fournit ces guides sur le Web et nous fournissons des liens rapides ci-dessous.
+All applications ship with a full set of configuration, installation and upgrade documentation, found in the `docs/` directory included in the package download. These should be consulted as a primary resource for any configuration, installation or upgrade question, and should be reviewed periodically (particularly as part of any upgrade process). PKP provides these guides on the web, and we provide quick links below.
 
-## Solutions d'hébergement
+## Hosted Solutions
 
-Si vous n'avez pas l'expertise, le personnel ou le désir d'installer et de gérer OJS vous-même, PKP Publishing Services fournit des solutions d'hébergement complètes à un certain nombre de prix. Pour plus d'informations, consultez le [site Web PKP Publishing Services](https://pkpservices.sfu.ca) .
+If you do not have the expertise, staff or desire to install and manage OJS on your own, PKP Publishing Services provides complete hosting solutions at a number of price points. For more information, see the [PKP Publishing Services website](https://pkpservices.sfu.ca).
 
-## Exigences du système et installation
+## System Requirements and Installation
 
-Les détails sur la configuration système requise, les recommandations de configuration et les instructions générales d'installation se trouvent dans les différents fichiers README de l'application:
+Details on general system requirements, configuration recommendations and general installation instructions can be found in the various application README files:
 
-- OJS: [https://pkp.sfu.ca/ojs/README](https://pkp.sfu.ca/ojs/README)
-- OMP: [https://pkp.sfu.ca/omp/README](https://pkp.sfu.ca/omp/README)
-- OCS: [https://pkp.sfu.ca/ocs/README](https://pkp.sfu.ca/ocs/README)
+* OJS: [https://pkp.sfu.ca/ojs/README](https://pkp.sfu.ca/ojs/README)
+* OMP: [https://pkp.sfu.ca/omp/README](https://pkp.sfu.ca/omp/README)
+* OCS: [https://pkp.sfu.ca/ocs/README](https://pkp.sfu.ca/ocs/README)
 
-## Mise à jour
+## Upgrading
 
-Les instructions sur la mise à jour se trouvent aux emplacements suivants:
+Upgrade instructions can be found in the following locations:
 
-- OJS: [https://pkp.sfu.ca/ojs/UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE)
-- OMP: [https://pkp.sfu.ca/omp/UPGRADE](https://pkp.sfu.ca/omp/UPGRADE)
-- OCS: [https://pkp.sfu.ca/ocs/UPGRADE](https://pkp.sfu.ca/ocs/UPGRADE)
+* OJS: [https://pkp.sfu.ca/ojs/UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE)
+* OMP: [https://pkp.sfu.ca/omp/UPGRADE](https://pkp.sfu.ca/omp/UPGRADE)
+* OCS: [https://pkp.sfu.ca/ocs/UPGRADE](https://pkp.sfu.ca/ocs/UPGRADE)
 
-## Installation et gestion des applications via Git
+## Installing and Managing Applications via Git
 
-L'utilisation de Git pour gérer votre logiciel PKP vous donne un meilleur contrôle sur les mises à jour et les corrections de bogues du référentiel PKP officiel. En utilisant Git, vous pouvez créer des branches locales pour personnaliser votre code, vérifier et tester les dernières modifications apportées à la version de votre logiciel, restaurer votre code plus facilement et créer des requêtes d'extraction vers le référentiel PKP à partager avec la plus large communauté .
+Using Git to manage your PKP software gives you greater control over updates and bug fixes from the official PKP repository. By using Git, you can create local branches to customize your code, verify and test the latest changes to your software version, rollback your code more easily, and create pull requests back to the PKP repository to share with the larger community.
 
-Les installations OJS et OMP gérées avec Git nécessitent l'installation et l'utilisation de [Node.js](https://nodejs.org/en/) et de [Composer](https://getcomposer.org/) . Les deux outils sont nécessaires pour mettre à jour les dépendances utilisées par la bibliothèque PKP. Actuellement, OCS ne nécessite pas ces outils.
+OJS and OMP installs managed with Git require the installation and usage of [Node.js](https://nodejs.org/en/) and [Composer](https://getcomposer.org/). Both tools are required to update dependencies that are used by the PKP Library. OCS does not currently require these tools.
 
-Les instructions d'installation via Git se trouvent directement dans nos référentiels GitHub aux emplacements suivants:
+Instructions for installing via Git can be found directly in our GitHub repositories in the following locations:
 
-- OJS: [https://github.com/pkp/ojs](https://github.com/pkp/ojs)
-- OMP: [https://github.com/pkp/omp](https://github.com/pkp/omp)
-- OCS: [https://github.com/pkp/ocs](https://github.com/pkp/ocs)
+* OJS: [https://github.com/pkp/ojs](https://github.com/pkp/ojs)
+* OMP: [https://github.com/pkp/omp](https://github.com/pkp/omp)
+* OCS: [https://github.com/pkp/ocs](https://github.com/pkp/ocs)
