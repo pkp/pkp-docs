@@ -58,8 +58,7 @@ Where you can upload images (logo, thumbnail, homepage) to your sites main page,
 
 Where you can upload your journal stylesheet, Favicon, and Additional Content.
 
-- **Journal Style Sheet**: Use this to upload a unique style sheet for your journal.
-If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+- **Journal Style Sheet**: Use this to upload a unique style sheet for your journal. If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
 - **Journal Favicon**: Add a [favicon](https://en.wikipedia.org/wiki/Favicon) to display in the reader's browser address bar.
 
@@ -130,7 +129,7 @@ This section allows you to create and display news announcements on the journal'
 - **Announcements**: Check this off if you want to have announcements in your website
   - **Introduction**: Enter any general information you would like to appear on your announcements page.
   - **Display on Homepage**: Enter the number of announcements to be displayed on the homepage. If this is left blank, no announcements will be displayed.
-  
+
 Once the Announcements setting is enabled, click "Save." An "Announcements" menu item now appears in the main navigation on the left hand side. Click on this menu item and select "Add Announcement." Here you can include the title of the announcement, a short description and / or full text of the announcement, and an (optional) expiry date. If you wish to send an email notification to all users (who have not opted out of email notifications), select "Send notification email to all registered users." The announcement should now appear on an "Announcements" tab on the public-facing journal site.
 
 ![OJS 3.3 Announcements menu enabled in the sidebar with an option to add and edit announcements.](./assets/learning-ojs3.3-settings-website-announcements.png)
