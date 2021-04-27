@@ -33,7 +33,7 @@ You will also find `$currentJournal` and `$currentPress` variables for ease-of-u
 
 **`(string) $siteTitle`**  is the localized title of the current Journal or Press, or the overall site index.
 
-**`(string) $currentLocale`** is the locale (language) the site is currently being viewed in. You'll find an array of supported locales at ` $supportedLocales`.
+**`(string) $currentLocale`** is the locale (language) the site is currently being viewed in. You'll find an array of supported locales at `$supportedLocales`.
 
 **`(string) $displayPageHeaderTitle`** is the name of the current Journal or Press, or the site name if no Journal or Press is being viewed.
 
@@ -43,7 +43,7 @@ You will also find `$currentJournal` and `$currentPress` variables for ease-of-u
 
 **`(string) $baseUrl`** provides the base site URL (`https://myjournal.com/index.php`). This can be used to construct reliable URLs.
 
-**`(string) $primaryLocale`** is the primary locale (language) the site is configured for. You'll find an array of supported locales at ` $supportedLocales`.
+**`(string) $primaryLocale`** is the primary locale (language) the site is configured for. You'll find an array of supported locales at `$supportedLocales`.
 
 **`(string|null) $disableUserReg`** is a flag which indicates whether or not users can self-register on the site.
 
