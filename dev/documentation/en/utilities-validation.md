@@ -6,8 +6,9 @@ title: Validation - Technical Documentation - OJS|OMP|OPS
 
 Data can be validated using the [entity schemas](./architecture-entities#schemas) or the `ValidatorFactory`. In both cases, we use Laravel's [Validation](https://laravel.com/docs/5.5/validation) library.
 
-> All of Laravel's [validation rules](https://laravel.com/docs/5.5/validation#available-validation-rules) are supported except the `exist` rule.
-{:.notice}
+> All of Laravel's [validation rules](https://laravel.com/docs/5.5/validation#available-validation-rules) are supported except the `exist` rule. 
+> 
+> {:.notice}
 
 ## ValidatorFactory
 
@@ -87,8 +88,9 @@ Every property that can be empty or null must have the `nullable` validation rul
 }
 ```
 
-> You never need to add the `array`, `boolean`, `integer` or `string` validation rules. These will be applied automatically based on the `type` property.
-{:.notice}
+> You never need to add the `array`, `boolean`, `integer` or `string` validation rules. These will be applied automatically based on the `type` property. 
+> 
+> {:.notice}
 
 ## Service Validation
 
@@ -96,14 +98,14 @@ An entity's [Service](./architecture-services) class should implement a `validat
 
 ```php
 class PKPContextService implements EntityWriteInterface {
-	/**
-	 * @copydoc \PKP\Services\EntityProperties\EntityWriteInterface::validate()
-	 */
-	public function validate($action, $props, $allowedLocales, $primaryLocale) {
-		$schemaService = Services::get('schema');
-		import('lib.pkp.classes.validation.ValidatorFactory');
-		$validator = \ValidatorFactory::make(
-			$props,
+    /**
+     * @copydoc \PKP\Services\EntityProperties\EntityWriteInterface::validate()
+     */
+    public function validate($action, $props, $allowedLocales, $primaryLocale) {
+        $schemaService = Services::get('schema');
+        import('lib.pkp.classes.validation.ValidatorFactory');
+        $validator = \ValidatorFactory::make(
+            $props,
       $schemaService->getValidationRules(SCHEMA_CONTEXT, $allowedLocales)
     );
   }
