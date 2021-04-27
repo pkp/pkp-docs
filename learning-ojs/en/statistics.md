@@ -73,7 +73,7 @@ The Report Generator page provides access to a variety of reports from your jour
 
 ![The list of reports on the Report Generator page in OJS, detailed below.](./assets/report-generator.png)
 
-The system generates reports that track the details associated with site usage and submissions over a given period of time. These reports can be broadly grouped into “usage” reports that contain usage metrics indicative of visitor readership and “content” reports that provide data on the respective item (eg. review information). Reports are generated in CSV format which requires a spreadsheet application to view. 
+The system generates reports that track the details associated with site usage and submissions over a given period of time. These reports can be broadly grouped into “usage” reports that contain usage metrics indicative of visitor readership and “content” reports that provide data on the respective item (eg. review information). Reports are generated in CSV format which requires a spreadsheet application to view.
 
 * PKP Usage Statistics Report: Provides granular daily usage metrics for all article, article file, issue and homepage views/downloads. Will include visitor country data, if that is being logged. See Usage Statistics Report below for more information and examples. (Usage)
 * Subscriptions Report: Provides information on any individual and institutional subscriptions. This report option is only available if subscriptions are enabled on the journal. (Content)
@@ -98,11 +98,11 @@ This report provides granular data on monthly views for the journal homepage, is
 
 **Example Data \(slightly edited for clarity\):**
 
-| **ID** | **Type** | **Title** | **Issue** | **Journal** | **Country** | **Month** | **Count** |
-| --- | --- | --- | --- |
-| 1 | Journal | Canadian Journal of Communication | CJC | CA | 201502 | 1678 |  |
-| 112 | Article | Toronto Star Fires Reporter Claire Hoy, Sues Him and TV Stations on Libel Charge | Vol 1, No 3 \(1974\) | CJC | CA | 201502 | 3 |
-| 112 | Article | Toronto Star Fires Reporter Claire Hoy, Sues Him and TV Stations on Libel Charge | Vol 1, No 3 \(1974\) | CJC | US | 201502 | 1 |
+| **ID** | **Type** | **Title**                                                                        | **Issue**              | **Journal** | **Country** | **Month** | **Count** |
+| ------ | -------- | -------------------------------------------------------------------------------- | ---------------------- | ----------- | ----------- | --------- | --------- |
+| 1      | Journal  | Canadian Journal of Communication                                                | CJC                    | CA          | 201502      | 1678      |           |
+| 112    | Article  | Toronto Star Fires Reporter Claire Hoy, Sues Him and TV Stations on Libel Charge | Vol 1, No 3 \(1974\) | CJC         | CA          | 201502    | 3         |
+| 112    | Article  | Toronto Star Fires Reporter Claire Hoy, Sues Him and TV Stations on Libel Charge | Vol 1, No 3 \(1974\) | CJC         | US          | 201502    | 1         |
 
 From the above example, we can see that in February 2015 the main CJC journal homepage was viewed 1,678 times, which the article “Toronto Star Fires Reporter …” was viewed 3 times from Canada and once from the United States.
 
@@ -116,10 +116,10 @@ In the sample below we can see that article 95, “The Making of the Canadian Me
 
 ****
 
-| **ID** | **Article Title** | **Issue** | **Date Published** | **Abstract** | **Total Galleys** | **HTML** | **PDF** |
-| --- | --- | --- |
-| 95 | The Making of the Canadian Media | Vol 6, No 1 \(1979\) | 1979-01-03 | 443 | 1476 |   | 1476 |
-| 1125 | Digital Networks | Vol 24, No 4 \(1999\) | 1999-04-01 | 1821 | 8478 | 2093 | 6385 |
+| **ID** | **Article Title**                | **Issue**               | **Date Published** | **Abstract** | **Total Galleys** | **HTML** | **PDF** |
+| ------ | -------------------------------- | ----------------------- | ------------------ | ------------ | ----------------- | -------- | ------- |
+| 95     | The Making of the Canadian Media | Vol 6, No 1 \(1979\)  | 1979-01-03         | 443          | 1476              |          | 1476    |
+| 1125   | Digital Networks                 | Vol 24, No 4 \(1999\) | 1999-04-01         | 1821         | 8478              | 2093     | 6385    |
 
 ### Generate Custom Report
 
@@ -192,7 +192,7 @@ This report will present a list of article titles (and the issues they come from
 
 !["Article" and "Issue" selected under the advanced options in the custom report generator.](./assets/custom-report-generator6.png)
 
-* Select “Submission Files” under object type and select all galley types you wish to include in the download count. 
+* Select “Submission Files” under object type and select all galley types you wish to include in the download count.
 
 ![The above described settings entered in OJS.](./assets/custom-report-generator7.png)
 
