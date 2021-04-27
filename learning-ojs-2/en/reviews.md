@@ -2,11 +2,11 @@
 
 You will first see a details summary of the submission you have been asked to review.
 
-![Review Assignment](images/chapter9/reviewer_3.png)  
+![Review Assignment](images/chapter9/reviewer_3.png)
 
 Next, you will see the **review schedule**, and the associated deadline.
 
-![Review Schedule](images/chapter9/reviewer_4.png)  
+![Review Schedule](images/chapter9/reviewer_4.png)
 
 Next, the Review process is divided into six or seven **Review Steps **(depending upon whether Reviewer Guidelines was set up in the Journal Setup; here they do not appear).
 
@@ -49,7 +49,7 @@ A recommendation is made for "Revisions Required".
 
 ![Recommendation Made](images/chapter9/reviewer_11.png)
 
-After the steps are complete, the Reviewer's work is finished.   
+After the steps are complete, the Reviewer's work is finished.
 
 Below is a completed review page *with* the addition of Reviewer Guidelines so you can see what the process looks like with 7 steps.
 
