@@ -1,6 +1,12 @@
+---
+book: translating-guide
+version: 3.1
+---
 
-# دليل الترجمة في مشروع المعرفة العامة
+# PKP Translating Guide
 
-إن برامجيات مشروع المعرفة العامة تتضمن تطبيقات مشهورة مثل نظام المجلات المفتوحة، Open Monograph Press، ونظام المؤتمرات المفتوحة. هذه التطبيقات يمكنها استعمال لغات متعددة لواجهة المستخدم، المراسلات الالكترونية، إلخ. نظام المجلات المفتوحة على وجه الخصوص قد تمت ترجمته إلى العديد من اللغات.بعض تلك الترجمات غير مكتمل، وتلك التطبيقات يجري تحديثها دورياً.
+PKP software includes popular applications like Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Conference Systems (OCS). These applications can use multiple languages for interfaces, emails to users, etc. Open Journal Systems in particular has been translated to many languages. Some of these translations are not complete, and the applications get updated constantly.
 
-المترجمون عبر العالم يساهمون معنا في مهمة كبيرة لتوفير النظام وأدبياته في تلك اللغات. إنهم من خلفيات متنوعة؛ وهذه الويقة تهدف إلى مساعدة المساهمين الحاليين والجدد على استعاب الكيفية التي تعمل بها الترجمات وكيف لهم أن يشاركوا فيها. فضلاً عن ذلك، الوثيقة تشير إلى موارد مفيدة أخرى.
+This guide explains how to translate OJS and OMP version 3.1 and earlier and OCS. For OJS and OMP 3.2, we use a new translation tool which is explained in the [new version of the PKP Translating Guide](https://docs.pkp.sfu.ca/translating-guide/en/). Please keep in mind that any translations you make to your OJS or OMP site using the older tools detailed in this guide may not be carried forward when you upgrade to OJS or OMP 3.2. If you would like to contribute to active current translation of the software, please use the new tools and [new guide](https://docs.pkp.sfu.ca/translating-guide/en/).
+
+Community translators are helping with the important task of localizing software and documentation. They come from many different backgrounds; this documentation is supposed to help old and new contributors to explain how the translation processes work and how they can contribute. In addition, the documentation points to additional resources.
