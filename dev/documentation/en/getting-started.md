@@ -6,8 +6,9 @@ title: Getting Started - Technical Documentation - OJS|OMP|OPS
 
 This section will describe how to install the application, contribute changes, and stay up-to-date with the latest changes.
 
-> This guide assumes that you know how to run a local server, work with git version control and run tools from the command line.
-{:.warning}
+> This guide assumes that you know how to run a local server, work with git version control and run tools from the command line. 
+> 
+> {:.warning}
 
 ## Technical Requirements
 
