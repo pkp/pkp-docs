@@ -24,23 +24,23 @@ Next, fill in the details, including a unique name, a description, cost, and cur
 
 Under the Subscription Policies heading you will enter information in several sections.
 
-* **Subscription Manager**: Add the contact information for the journal's Subscription Manager. This will appear on the About page.  
+* **Subscription Manager**: Add the contact information for the journal's Subscription Manager. This will appear on the About page.
 
 ![Subscription Manager](images/chapter5/sub_manager.png)
 
-* **Subscription Information**: The Subscription Types and fee structure will be automatically placed under Subscriptions on the About the Journal page, along with the name and contact information for the Subscription Manager. Additional information about subscriptions, such as methods of payment or support for subscribers in developing countries, can be added here.  
+* **Subscription Information**: The Subscription Types and fee structure will be automatically placed under Subscriptions on the About the Journal page, along with the name and contact information for the Subscription Manager. Additional information about subscriptions, such as methods of payment or support for subscribers in developing countries, can be added here.
 
 ![Subscription Information](images/chapter5/sub_info.png)
 
-* **Subscription Expiry**: Upon subscription expiry, readers may be denied access to all subscription content, or to those published after subscription expiry date. Useful reminders can be sent out to your subscribers, informing them of expiry dates. The Site Administrator will need to enable and configure `scheduled_tasks` within `config.inc.php`to allow for these options to be enabled.  
+* **Subscription Expiry**: Upon subscription expiry, readers may be denied access to all subscription content, or to those published after subscription expiry date. Useful reminders can be sent out to your subscribers, informing them of expiry dates. The Site Administrator will need to enable and configure `scheduled_tasks` within `config.inc.php`to allow for these options to be enabled.
 
 ![Subscription Expiry](images/chapter5/sub_expiry.png)
 
-* **Online Payment Notifications**: Use this option to allow for automatic notification of online payments for the Subscription Manager.  
+* **Online Payment Notifications**: Use this option to allow for automatic notification of online payments for the Subscription Manager.
 
 ![Online Payment Notifications](images/chapter5/sub_pay_notice.png)
 
-* **Delayed Open Access**: Although a journal may wish to limit their content to subscribers, it is also possible to allow for back issues to become openly accessible over time. You can set the number of months to pass before content is opened. It is also possible to send readers a notice when content becomes open, and to add a statement about delayed open access to your About the Journal page.  
+* **Delayed Open Access**: Although a journal may wish to limit their content to subscribers, it is also possible to allow for back issues to become openly accessible over time. You can set the number of months to pass before content is opened. It is also possible to send readers a notice when content becomes open, and to add a statement about delayed open access to your About the Journal page.
 
 ```
 ![Delayed Open Access](images/chapter5/sub_open_access.png)  
