@@ -45,7 +45,7 @@
   * [Users](./statistics.md#users)
   * [Report Generator](statistics.md#report-generator)
 * [Tools](./tools.md)
-  * [Import &amp; Export](./tools.md#importexport)
+  * [Import & Export](./tools.md#importexport)
   * [Permissions](./tools.md#permissions)
 * [Subscriptions](./subscriptions.md)
   * [Subscription Policies](./subscriptions.md#subscription-policies)
