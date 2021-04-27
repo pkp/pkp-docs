@@ -74,7 +74,7 @@ The **Filter** tool allows you to limit your browsing to specific conditions for
 
 - __Assigned editor(s):__ only journal managers have this filter options. Like sections, this is a textbox with auto-suggest
 
-- __Assigned issue:__ only journal managers can filter by unpublished issues, but editors and assistants will be able to filter by published issues. This field is case-sensitive and require exact match. For best results, search by year or title, rather than volume or number. This filter is mostly used if the assignment of a submission to an issue is done in an early phase of the editorial process. 
+- __Assigned issue:__ only journal managers can filter by unpublished issues, but editors and assistants will be able to filter by published issues. This field is case-sensitive and require exact match. For best results, search by year or title, rather than volume or number. This filter is mostly used if the assignment of a submission to an issue is done in an early phase of the editorial process.
 
 Some filters allow multiple selections; users can filter by more than one editor, section or issue. Filters are applied with OR conditions, so when a user selects to filter by Editor A and Editor B, all submissions will be returned that are assigned to editor A OR editor B.
 
@@ -140,8 +140,7 @@ For journals using anonymous review, the author and reviewer (if they were to up
 
 **Submission Status** Once an editor has recorded a decision in one stage of the workflow of OJS 3.2, the recorded decision will appear in place of the decision buttons. Editors will still have the ability to change the recorded decision by clicking, ‘Change Decision’ this will enable the 3 options once again.
 
-![](./assets/learning-ojs3.2_edflow_decisionstatus.png)
-*The screenshot above shows the decision button for MS# 425 prior to a decision being recorded. The screenshot below shows the notification of the recorded decision.*
+![](./assets/learning-ojs3.2_edflow_decisionstatus.png) *The screenshot above shows the decision button for MS# 425 prior to a decision being recorded. The screenshot below shows the notification of the recorded decision.*
 
 ![](./assets/learning-ojs3.2_edflow_decisionstatus2.png)
 
@@ -173,8 +172,7 @@ Use the Notes tab to also view or add any editorial notes.
 
 ### Granting Author permissions
 
-In OJS 3.2, editors can grant access to allow authors to make metadata changes.
-There are two ways editors can grant this type of access.
+In OJS 3.2, editors can grant access to allow authors to make metadata changes. There are two ways editors can grant this type of access.
 
 **Global permission**- will grant all users with the role ‘author’ permission to make metadata changes.
 
@@ -362,8 +360,7 @@ At this point, we could add additional Reviewers, and then wait for their recomm
 
 OJS is designed to accommodate different types of reviews and has built-in steps to ensure anonymity.
 
-All information will be visible to the journal managers and editors regardless of the type of review selected.
-The review type will be automatically selected based on what has been configured under _Settings_ > _Workflow_ > _Review_. The editors can change the review type when sending the review request. Editors/Section Editors must select the review type when sending the review request from the following options:
+All information will be visible to the journal managers and editors regardless of the type of review selected. The review type will be automatically selected based on what has been configured under _Settings_ > _Workflow_ > _Review_. The editors can change the review type when sending the review request. Editors/Section Editors must select the review type when sending the review request from the following options:
 
 * Anonymous Reviewer/Anonymous Author
 * Anonymous Reviewer/Disclosed Author
@@ -447,8 +444,7 @@ Review Details. It may be helpful to rename the file to the time of re-upload. T
 
 Click Complete and select the file you would like to use for the review.
 
-The file(s) will appear under the initial upload.
-When sending out the review request, ensure that the original manuscript is unselected from the ‘Files To Be Reviewed’.
+The file(s) will appear under the initial upload. When sending out the review request, ensure that the original manuscript is unselected from the ‘Files To Be Reviewed’.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon10.png)
 
@@ -502,8 +498,7 @@ Use the **Add Reviews** button to import the Reviewer's comments from the Editor
 
 ![](./assets/learning-ojs-3-ed-rev-req-revisions3.png)
 
-If there are any attachments, such as a marked up file created by a Reviewer, you can attach it here (as long as it has been anonymized).
-In OJS 3.1.2 and later, you can also upload a new file and add it as an attachment.
+If there are any attachments, such as a marked up file created by a Reviewer, you can attach it here (as long as it has been anonymized). In OJS 3.1.2 and later, you can also upload a new file and add it as an attachment.
 
 Hit the **Record Editorial Decision** button to send the message.
 
