@@ -15,7 +15,7 @@ All fields with an asterisk beside them (Username; Password; Repeat Password; Va
 
 Your username and your email address must be unique; furthermore, while you can change your email address at a later date, you will be unable to change your username.
 
-You may be able to register as a Reader, an Author and/or a Reviewer, depending on how the journal has been configured. Check the box next to each role available to Confirm Registration. If you register as a Reviewer, you can also supply your reviewing interests.  
+You may be able to register as a Reader, an Author and/or a Reviewer, depending on how the journal has been configured. Check the box next to each role available to Confirm Registration. If you register as a Reviewer, you can also supply your reviewing interests.
 
 
 
