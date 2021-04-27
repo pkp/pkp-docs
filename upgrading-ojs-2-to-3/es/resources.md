@@ -1,26 +1,26 @@
-# Recursos adicionales
+# Additional Resources
 
-## Recursos de OJS 3
+## OJS 3 resources
 
-- [Aprender OJS 3.1: una guía visual de Open Journal Systems](https://docs.pkp.sfu.ca/learning-ojs/) ofrece guías de usuario/a, información para desarrolladores/as y consejos de publicación para OJS 3.
-- [Demo de OJS 3](https://pkp.sfu.ca/ojs/ojs_demo/): explore cómo funciona OJS 3 probando los sitios de demostración y testeo alojados por PKP.
-- [PKP School](https://pkpschool.sfu.ca/) ofrece cursos en vídeo gratuitos para ayudar a los usuarios/as con diversos aspectos de OJS 3, tanto en inglés como en español. Deberá crear una cuenta gratuita e iniciar sesión en el sitio para poder participar. Los vídeos también están disponibles en el [canal de YouTube de PKP](https://www.youtube.com/user/PublicKnowledgeProj).
-- En las [notas de lanzamiento de OJS 3.1.2](https://github.com/pkp/ojs/blob/main/docs/release-notes/README-3.1.2) se enumeran nuevas características.
-- En [PKP Docs novedades en OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/introduction#whats-new-in-ojs-3) se describen los cambios en la interfaz para lectores/as y editores/as.
-- [Major New Features in Upcoming OJS 3](https://pkp.sfu.ca/2016/08/05/major-new-features-in-upcoming-ojs-3/) es una publicación del blog de prelanzamiento de 2016.
+-   [Learning OJS 3.1: A Visual Guide to Open Journal Systems](https://docs.pkp.sfu.ca/learning-ojs/) offers user guides, developer information, and publishing tips for OJS 3.
+-   [OJS 3 Demo](https://pkp.sfu.ca/ojs/ojs_demo/): Explore how OJS 3 works by trying out the demo and test drive sites hosted by PKP.
+-   [PKP School](https://pkpschool.sfu.ca/) offers free video courses to assist users with various aspects of OJS 3, in both English and Spanish. You will need to create a free account and log in to the site in order to participate. The videos are also available at [PKP’s YouTube channel](https://www.youtube.com/user/PublicKnowledgeProj).
+-   [OJS Release Notes](https://github.com/pkp/ojs/blob/main/docs/release-notes) lists new features.
+-   [PKP Docs What’s New in OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/introduction#whats-new-in-ojs-3) outlines interface changes for readers & editors.
+-   [Major New Features in Upcoming OJS 3](https://pkp.sfu.ca/2016/08/05/major-new-features-in-upcoming-ojs-3/) is a pre-release blog post from 2016.
 
-## Recursos de actualización
+## Upgrade resources
 
-- [Documentación de actualización](https://pkp.sfu.ca/ojs/UPGRADE) de OJS oficial de PKP.
-- [Vídeo resumen del proceso de actualización](https://youtu.be/LY4ZBdxLKDE) por el desarrollador principal de PKP, Alec Smecher.
-- [5 Steps to OJS 3: Upgrade Planning for Service Providers](https://pkp.sfu.ca/2018/07/11/5-steps-to-ojs-3-upgrade-planning-for-service-providers/) - Publicación del blog de PKP.
-- [Getting Ready for OJS 3.0: When Should I Upgrade?](https://pkp.sfu.ca/2016/08/29/getting-ready-for-ojs-3-0-when-should-i-upgrade/) - Publicación del blog de PKP.
-- [Making the Move to Open Journal Systems 3: Recommendations for a (mostly) painless upgrade](https://journal.code4lib.org/articles/14260) -  Este artículo analiza la planificación y el proceso de actualización, incluye un debate sobre algunas de las buenas prácticas para apoyar a los equipos de la revista a lo largo de la actualización, listas de verificación, consejos de solución de problemas técnicos y estrategias de soporte tras la actualización.
-- [Taking the Leap: Experiences Planning and Implementing a Migration to OJS 3](http://hdl.handle.net/1805/18140) - Presentación del Library Publishing Forum 2018.
-- [Instalación y migración a OJS 3](https://hackmd.io/@marcbria/install-migrate-ojs3#/) es una presentación en español sobre la actualización a OJS 3.
-- [Upgrade OJS2 a OJS3 (sobre CentOS)](https://hackmd.io/@marcbria/ojs2-ojs3-upgrade-centos) es una breve guía en español para actualizar a OJS 3 en un servidor que ejecuta CentOS y PHP 5.6.
+-   Official OJS [upgrade documentation](https://pkp.sfu.ca/ojs/UPGRADE) by PKP.
+-   [Video overview of the upgrade process](https://youtu.be/LY4ZBdxLKDE) by PKP Lead Developer Alec Smecher.
+-   [5 Steps to OJS 3: Upgrade Planning for Service Providers](https://pkp.sfu.ca/2018/07/11/5-steps-to-ojs-3-upgrade-planning-for-service-providers/) - PKP blog post.
+-   [Getting Ready for OJS 3.0: When Should I Upgrade?](https://pkp.sfu.ca/2016/08/29/getting-ready-for-ojs-3-0-when-should-i-upgrade/) - PKP blog post.
+-   [Making the Move to Open Journal Systems 3: Recommendations for a (mostly) painless upgrade](https://journal.code4lib.org/articles/14260) - this article discusses the upgrade planning and process, includes discussion of some best practices in supporting journal teams through the upgrade, checklists, technical troubleshooting tips, and post-upgrade support strategies.
+-   [Taking the Leap: Experiences Planning and Implementing a Migration to OJS 3](http://hdl.handle.net/1805/18140) - Library Publishing Forum 2018 presentation.
+-   [Instalación y migración a OJS 3](https://hackmd.io/@marcbria/install-migrate-ojs3#/) is a presentation in Spanish on upgrading to OJS 3.
+-   [Upgrade OJS2 a OJS3 (sobre CentOS)](https://hackmd.io/@marcbria/ojs2-ojs3-upgrade-centos) is a short guide in Spanish to upgrading to OJS 3 on a server running CentOS and PHP 5.6.
 
-## Recursos de soporte
+## Support resources
 
-- [Foro de la comunidad PKP:](https://forum.pkp.sfu.ca/) PKP ofrece soporte técnico gratuito a través del foro de soporte. Puede encontrar respuestas buscando cuestiones que ya se hayan publicado. Si no, no dude en publicar su pregunta.
-- [Servicios de publicación PKP](https://pkpservices.sfu.ca/): PKP ofrece un servicio de pago que proporciona el alojamiento del software PKP, copias de seguridad diarias de sus datos, aplicación de parches de seguridad, actualizaciones gratuitas y prioridad para responder sus preguntas de soporte. Si quiere más información visite el [sitio web de alojamiento de revistas PKP](https://pkpservices.sfu.ca/content/journal-hosting).
+-   [PKP Community Forum:](https://forum.pkp.sfu.ca/) PKP offers free technical support via the support forum. You may be able to find an answer by searching the questions that have already been posted, but if not, please feel free to post your question there.
+-   [PKP Publishing Services](https://pkpservices.sfu.ca/): PKP offers a fee-based service which provides the hosting of PKP software, daily backups of your data, applying security patches, free upgrades, and priority answering your support questions. More information is available on the [PKP Journal Hosting website](https://pkpservices.sfu.ca/content/journal-hosting).
