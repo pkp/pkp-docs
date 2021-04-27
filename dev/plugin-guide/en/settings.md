@@ -6,8 +6,9 @@ title: Plugin Settings - Plugin Guide for OJS and OMP
 
 Plugins can add settings so that an editor or admin can configure the plugin. Settings are accessed through the plugins list in the Website Settings area.
 
-> This section describes how to create a separate settings form for a plugin. In some cases, you will provide a better user experience if you add settings to the existing settings forms. Learn how to modify an existing form in the [custom field example](./examples-custom-field).
-{:.tip}
+> This section describes how to create a separate settings form for a plugin. In some cases, you will provide a better user experience if you add settings to the existing settings forms. Learn how to modify an existing form in the [custom field example](./examples-custom-field). 
+> 
+> {:.tip}
 
 Add a `getActions()` method to your plugin to add a settings action in the plugin list.
 
@@ -15,46 +16,46 @@ Add a `getActions()` method to your plugin to add a settings action in the plugi
 
 ```php
 class TutorialExamplePlugin extends GenericPlugin {
-	public function getActions($request, $actionArgs) {
+    public function getActions($request, $actionArgs) {
 
     // Get the existing actions
-		$actions = parent::getActions($request, $actionArgs);
-		if (!$this->getEnabled()) {
-			return $actions;
-		}
+        $actions = parent::getActions($request, $actionArgs);
+        if (!$this->getEnabled()) {
+            return $actions;
+        }
 
     // Create a LinkAction that will call the plugin's
     // `manage` method with the `settings` verb.
-		$router = $request->getRouter();
-		import('lib.pkp.classes.linkAction.request.AjaxModal');
-		$linkAction = new LinkAction(
-			'settings',
-			new AjaxModal(
-				$router->url(
-					$request,
-					null,
-					null,
-					'manage',
-					null,
-					array(
-						'verb' => 'settings',
-						'plugin' => $this->getName(),
-						'category' => 'generic'
-					)
-				),
-				$this->getDisplayName()
-			),
-			__('manager.plugins.settings'),
-			null
-		);
+        $router = $request->getRouter();
+        import('lib.pkp.classes.linkAction.request.AjaxModal');
+        $linkAction = new LinkAction(
+            'settings',
+            new AjaxModal(
+                $router->url(
+                    $request,
+                    null,
+                    null,
+                    'manage',
+                    null,
+                    array(
+                        'verb' => 'settings',
+                        'plugin' => $this->getName(),
+                        'category' => 'generic'
+                    )
+                ),
+                $this->getDisplayName()
+            ),
+            __('manager.plugins.settings'),
+            null
+        );
 
     // Add the LinkAction to the existing actions.
     // Make it the first action to be consistent with
     // other plugins.
-		array_unshift($actions, $linkAction);
+        array_unshift($actions, $linkAction);
 
-		return $actions;
-	}
+        return $actions;
+    }
 }
 ```
 
@@ -62,8 +63,8 @@ Add a `manage()` method to load a settings form when the `LinkAction` is clicked
 
 ```php
 class TutorialExamplePlugin extends GenericPlugin {
-	public function manage($args, $request) {
-		switch ($request->getUserVar('verb')) {
+    public function manage($args, $request) {
+        switch ($request->getUserVar('verb')) {
 
       // Return a JSON response containing the
       // settings form
@@ -71,9 +72,9 @@ class TutorialExamplePlugin extends GenericPlugin {
         $templateMgr = TemplateManager::getManager($request);
         $settingsForm = $templateMgr->fetch($this->getTemplateResource('settings.tpl'));
         return new JSONMessage(true, $settingsForm);
-		}
-		return parent::manage($args, $request);
-	}
+        }
+        return parent::manage($args, $request);
+    }
 }
 ```
 
@@ -92,8 +93,8 @@ Plugins can use the application's form handling system to load, validate and sav
 
 ```php
 class TutorialExamplePlugin extends GenericPlugin {
-	public function manage($args, $request) {
-		switch ($request->getUserVar('verb')) {
+    public function manage($args, $request) {
+        switch ($request->getUserVar('verb')) {
       case 'settings':
 
         // Load the custom form
@@ -104,7 +105,7 @@ class TutorialExamplePlugin extends GenericPlugin {
         // the user has tried to save it
         if (!$request->getUserVar('save')) {
           $form->initData();
-				  return new JSONMessage(true, $form->fetch($request));
+                  return new JSONMessage(true, $form->fetch($request));
         }
 
         // Validate and execute the form
@@ -113,9 +114,9 @@ class TutorialExamplePlugin extends GenericPlugin {
           $form->execute();
           return new JSONMessage(true);
         }
-		}
-		return parent::manage($args, $request);
-	}
+        }
+        return parent::manage($args, $request);
+    }
 }
 ```
 
@@ -128,16 +129,16 @@ class TutorialExampleSettingsForm extends Form {
   /** @var TutorialExamplePlugin  */
   public $plugin;
 
-	public function __construct($plugin) {
+    public function __construct($plugin) {
 
     // Define the settings template and store a copy of the plugin object
-		parent::__construct($plugin->getTemplateResource('settings.tpl'));
+        parent::__construct($plugin->getTemplateResource('settings.tpl'));
     $this->plugin = $plugin;
 
     // Always add POST and CSRF validation to secure your form.
-		$this->addCheck(new FormValidatorPost($this));
-		$this->addCheck(new FormValidatorCSRF($this));
-	}
+        $this->addCheck(new FormValidatorPost($this));
+        $this->addCheck(new FormValidatorCSRF($this));
+    }
 
   /**
    * Load settings already saved in the database
@@ -145,17 +146,17 @@ class TutorialExampleSettingsForm extends Form {
    * Settings are stored by context, so that each journal or press
    * can have different settings.
    */
-	public function initData() {
+    public function initData() {
     $contextId = Application::get()->getRequest()->getContext()->getId();
     $this->setData('secretKey', $this->plugin->getSetting($contextId, 'secretKey'));
     parent::initData();
-	}
+    }
 
   /**
    * Load data that was submitted with the form
    */
-	public function readInputData() {
-		$this->readUserVars(['secretKey']);
+    public function readInputData() {
+        $this->readUserVars(['secretKey']);
     parent::readInputData();
   }
 
@@ -166,7 +167,7 @@ class TutorialExampleSettingsForm extends Form {
    * initData() or readInputData() methods will be passed to the
    * template.
    */
-	public function fetch($request, $template = null, $display = false) {
+    public function fetch($request, $template = null, $display = false) {
 
     // Pass the plugin name to the template so that it can be
     // used in the URL that the form is submitted to
@@ -176,24 +177,24 @@ class TutorialExampleSettingsForm extends Form {
     return parent::fetch($request, $template, $display);
   }
 
-	/**
-	 * Save the settings
-	 */
-	public function execute() {
+    /**
+     * Save the settings
+     */
+    public function execute() {
     $contextId = Application::get()->getRequest()->getContext()->getId();
-		$this->plugin->updateSetting($contextId, 'secretKey', $this->getData('secretKey'));
+        $this->plugin->updateSetting($contextId, 'secretKey', $this->getData('secretKey'));
 
     // Tell the user that the save was successful.
-		import('classes.notification.NotificationManager');
-		$notificationMgr = new NotificationManager();
-		$notificationMgr->createTrivialNotification(
+        import('classes.notification.NotificationManager');
+        $notificationMgr = new NotificationManager();
+        $notificationMgr->createTrivialNotification(
       Application::get()->getRequest()->getUser()->getId(),
       NOTIFICATION_TYPE_SUCCESS,
       ['contents' => __('common.changesSaved')]
     );
 
-		return parent::execute();
-	}
+        return parent::execute();
+    }
 }
 ```
 
@@ -201,9 +202,9 @@ Update the `settings.tpl` template to submit the form to the plugin's `manage()`
 
 ```html
 <script>
-	$(function() {ldelim}
-		$('#tutorialExampleSettings').pkpHandler('$.pkp.controllers.form.AjaxFormHandler');
-	{rdelim});
+    $(function() {ldelim}
+        $('#tutorialExampleSettings').pkpHandler('$.pkp.controllers.form.AjaxFormHandler');
+    {rdelim});
 </script>
 
 <form
@@ -216,16 +217,16 @@ Update the `settings.tpl` template to submit the form to the plugin's `manage()`
 	{csrf}
 
   {fbvFormArea}
-		{fbvFormSection}
-			{fbvElement
+        {fbvFormSection}
+            {fbvElement
         type="text"
         id="secretKey"
         value=$secretKey
         label="plugins.generic.tutorialexample.secretKey"
       }
-		{/fbvFormSection}
+        {/fbvFormSection}
   {/fbvFormArea}
-	{fbvFormButtons submitText="common.save"}
+    {fbvFormButtons submitText="common.save"}
 </form>
 ```
 
