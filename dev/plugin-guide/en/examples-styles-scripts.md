@@ -25,15 +25,15 @@ Scripts and styles should be loaded in the plugin's `register` method.
 
 ```php
 class TutorialExamplePlugin extends GenericPlugin {
-	public function register($category, $path, $mainContextId = NULL) {
+    public function register($category, $path, $mainContextId = NULL) {
     $success = parent::register($category, $path);
-		if ($success && $this->getEnabled()) {
+        if ($success && $this->getEnabled()) {
       $request = Application::get()->getRequest();
       $url = $request->getBaseUrl() . '/' . $this->getPluginPath() . '/css/my-css.css';
       $templateMgr = TemplateManager::getManager($request);
       $templateMgr->addStyleSheet('tutorialExampleStyles', $url);
     }
-		return $success;
+        return $success;
   }
 }
 ```
