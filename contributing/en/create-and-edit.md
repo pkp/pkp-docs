@@ -16,7 +16,7 @@ If you want to edit existing documentation or add a section or chapter to existi
 
 ![](./assets/contrib-01.gif)
 
-If your edits requires you to replace or add images, see section on Adding/Replacing images. 
+If your edits requires you to replace or add images, see section on Adding/Replacing images.
 
 ## Create a Document
 
@@ -58,8 +58,7 @@ Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust dir
 2. Enter the name of the document folder and then /. This will automatically create the folder.
 - _Remember to follow naming conventions_. (e.g., if your document is a guide to ORCID, you could name it orcid-guide or orcid-plugin).
 3. Enter the name of the file `index.md`.
-- A document-wide `index.md` file should contain a description of the document. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page.
- - At the top of your indexing file, include the following:
+- A document-wide `index.md` file should contain a description of the document. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page. - At the top of your indexing file, include the following:
 
 ```
 ---
@@ -99,8 +98,7 @@ New assets can be added before working on a document or after it has been comple
 
 To add assets to a document and assets folder:
 
-1. Add image code in the part of the document you would like this to appear in. To link to an image in the assets folder you will need to type `“![](./assets/ image file name)”`
-    e.g., `![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
+1. Add image code in the part of the document you would like this to appear in. To link to an image in the assets folder you will need to type `“![](./assets/ image file name)”` e.g., `![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
 2. Repeat this step as many times as needed.
 3. Create a draft pull request rather than opening  a pull request yet
 4. Upload assets into the assets folder
@@ -129,9 +127,7 @@ First, take the new screenshot and update the link to the screenshot in the docu
     - `![](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)`
 4. Copy the part of the link that comes after the last / and before the file type extension - e.g., `learning-ojs3.2-jm-settings-workflow-comp`
 5. Go to the new screenshot you just took and save as. Paste the file name you copied in the last step and save the screenshot in a special folder on your desktop.
-6. Continue editing the document and save any additional screenshots you take in the same folder and naming them in the same way.
-Create a draft pull request rather than opening a pull request yet
-Once you are finishing editing the document, describe your changes at the bottom of the document and click Propose File Change. This will add your changes to a branch. The next page will show Comparing Changes. Create a draft pull request rather than opening  a pull request yet. You will upload your screenshot files to the new branch before making a pull request.
+6. Continue editing the document and save any additional screenshots you take in the same folder and naming them in the same way. Create a draft pull request rather than opening a pull request yet Once you are finishing editing the document, describe your changes at the bottom of the document and click Propose File Change. This will add your changes to a branch. The next page will show Comparing Changes. Create a draft pull request rather than opening  a pull request yet. You will upload your screenshot files to the new branch before making a pull request.
    - Go to the branch that has been created for this set of changes.
    - Open the document folder followed by the language folder (if applicable)
    - Open the Assets folder
