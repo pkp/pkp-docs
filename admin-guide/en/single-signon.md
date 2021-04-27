@@ -55,8 +55,7 @@ That said, there are several ways to get your LDAP users into your OxS database.
 
 By default, OJS and OCS append the username to the password before hashing. To change this behavior, modify the `encryptCredentials function in classes/security/Validation.inc.php`. If you change the password hashing behavior, you will have to reset all existing passwords in the database.
 
-I get this error when trying to connect to my LDAP server:
-```PHP fatal error: Call to undefined function ldap_connect()```
+I get this error when trying to connect to my LDAP server: `PHP fatal error: Call to undefined function ldap_connect()`
 
 PHP's LDAP extension is not included by default, and may have to be compiled. See [PHP Installation Guide](http://ca.php.net/manual/en/ldap.installation.php) for more information.
 
