@@ -21,25 +21,25 @@ use \PKP\components\forms\FormComponent;
 define('FORM_CONTACT', 'contact');
 
 class PKPContactForm extends FormComponent {
-	/** @copydoc FormComponent::$id */
-	public $id = FORM_CONTACT;
+    /** @copydoc FormComponent::$id */
+    public $id = FORM_CONTACT;
 
-	/** @copydoc FormComponent::$method */
-	public $method = 'PUT';
+    /** @copydoc FormComponent::$method */
+    public $method = 'PUT';
 
-	/**
-	 * Constructor
-	 *
-	 * @param $action string URL to submit the form to
-	 * @param $locales array Supported locales
-	 * @param $context Context Journal or Press to change settings for
-	 */
-	public function __construct($action, $locales, $context) {
-		$this->action = $action;
-		$this->locales = $locales;
+    /**
+     * Constructor
+     *
+     * @param $action string URL to submit the form to
+     * @param $locales array Supported locales
+     * @param $context Context Journal or Press to change settings for
+     */
+    public function __construct($action, $locales, $context) {
+        $this->action = $action;
+        $this->locales = $locales;
 
-		...
-	}
+        ...
+    }
 }
 ```
 
@@ -53,43 +53,44 @@ And add fields in the `__construct` method.
 
 ```php
 public function __construct($action, $locales, $context) {
-	$this->action = $action;
-	$this->locales = $locales;
+    $this->action = $action;
+    $this->locales = $locales;
 
-	$this->addField(new FieldText('contactName', [
-			'label' => __('common.name'),
-			'isRequired' => true,
-			'value' => $context->getData('contactName'),
-		]))
-		->addField(new FieldText('contactEmail', [
-			'label' => __('user.email'),
-			'isRequired' => true,
-			'value' => $context->getData('contactEmail'),
-		]));
+    $this->addField(new FieldText('contactName', [
+            'label' => __('common.name'),
+            'isRequired' => true,
+            'value' => $context->getData('contactName'),
+        ]))
+        ->addField(new FieldText('contactEmail', [
+            'label' => __('user.email'),
+            'isRequired' => true,
+            'value' => $context->getData('contactEmail'),
+        ]));
 }
 ```
 
-> Every form field in the [UI Library](/dev/ui-library/dev) has an equivalent PHP class in `\PKP\components\forms`.
-{:.tip}
+> Every form field in the [UI Library](/dev/ui-library/dev) has an equivalent PHP class in `\PKP\components\forms`. 
+> 
+> {:.tip}
 
 Forms will be created by a `PageHandler` and passed to the `TemplateManager` as state. First, create an instance of the form by passing the URL where it should be submitted and the locales supported by the current context.
 
 ```php
 // The URL where the form will be submitted
 $apiUrl = $request
-	->getDispacher()
-	->url(
-		$request,
-		ROUTE_API,
-		$context->getPath(),
-		'contexts/' . $context->getId()
-	);
+    ->getDispacher()
+    ->url(
+        $request,
+        ROUTE_API,
+        $context->getPath(),
+        'contexts/' . $context->getId()
+    );
 
 // Get a key/map of locale keys and names
 $supportedFormLocales = $context->getSupportedFormLocales();
 $localeNames = AppLocale::getAllLocales();
 $locales = array_map(function($localeKey) use ($localeNames) {
-	return ['key' => $localeKey, 'label' => $localeNames[$localeKey]];
+    return ['key' => $localeKey, 'label' => $localeNames[$localeKey]];
 }, $supportedFormLocales);
 
 // Create an instance of the contact form
@@ -101,9 +102,9 @@ Then use the `getConfig()` method to compile all of the required props and pass 
 ```php
 $templateMgr = TemplateManager::getManager($request);
 $templateMgr->setState([
-	'components' => [
-		FORM_CONTACT => $contactForm->getConfig(),
-	],
+    'components' => [
+        FORM_CONTACT => $contactForm->getConfig(),
+    ],
 ]);
 ```
 
@@ -113,10 +114,10 @@ Finally, bind the props to a `<pkp-form>` component in the template and use the 
 {extends file="layouts/backend.tpl"}
 
 {block name="page"}
-	<pkp-form
-		v-bind="components.{$smarty.const.FORM_CONTACT}"
-		@set="set"
-	/>
+    <pkp-form
+        v-bind="components.{$smarty.const.FORM_CONTACT}"
+        @set="set"
+    />
 {/block}
 ```
 
@@ -141,7 +142,7 @@ Then compile the locales into an array with the locale key and label.
 ```php
 $localeNames = AppLocale::getAllLocales();
 $locales = array_map(function($localeKey) use ($localeNames) {
-	return ['key' => $localeKey, 'label' => $localeNames[$localeKey]];
+    return ['key' => $localeKey, 'label' => $localeNames[$localeKey]];
 }, $supportedLocales);
 
 $contactForm = new PKP\components\forms\context\PKPContactForm($apiUrl, $locales, $context);
@@ -160,18 +161,18 @@ use \PKP\components\forms\FieldText;
 
 class ContextForm extends PKPContextForm {
 
-	/**
-	 * @copydoc PKPContextForm::__construct()
-	 */
-	public function __construct($action, $locales, $baseUrl, $context) {
-		parent::__construct($action, $locales, $baseUrl, $context);
+    /**
+     * @copydoc PKPContextForm::__construct()
+     */
+    public function __construct($action, $locales, $baseUrl, $context) {
+        parent::__construct($action, $locales, $baseUrl, $context);
 
-		$this->addField(new FieldText('abbreviation', [
-				'label' => __('manager.setup.journalAbbreviation'),
-				'isMultilingual' => true,
-				'value' => $context ? $context->getData('abbreviation') : null,
-			]), [FIELD_POSITION_AFTER, 'acronym']);
-	}
+        $this->addField(new FieldText('abbreviation', [
+                'label' => __('manager.setup.journalAbbreviation'),
+                'isMultilingual' => true,
+                'value' => $context ? $context->getData('abbreviation') : null,
+            ]), [FIELD_POSITION_AFTER, 'acronym']);
+    }
 }
 ```
 
@@ -180,23 +181,23 @@ Use the `Form::config::before` hook when a [plugin](http://localhost:4000/dev/pl
 ```php
 HookRegistry::register('Form::config::before', function($hookName, $form) {
 
-	// Only modify the metadata form
-	if (!defined('FORM_METADATA') || $form->id !== FORM_METADATA) {
-		return;
-	}
+    // Only modify the metadata form
+    if (!defined('FORM_METADATA') || $form->id !== FORM_METADATA) {
+        return;
+    }
 
-	$form->removeField('subjects');
+    $form->removeField('subjects');
 
-	$form->addField(new \PKP\components\forms\FieldSelect('subjects') {
-		'label' => __('common.subjects'),
-		'isMultilingual' => true,
-		'options' => [
-			['value' => 'geology', 'label' => __('subject.geology'),
-			['value' => 'physics', 'label' => __('subject.physics'),
-		],
-	});
+    $form->addField(new \PKP\components\forms\FieldSelect('subjects') {
+        'label' => __('common.subjects'),
+        'isMultilingual' => true,
+        'options' => [
+            ['value' => 'geology', 'label' => __('subject.geology'),
+            ['value' => 'physics', 'label' => __('subject.physics'),
+        ],
+    });
 
-	return false;
+    return false;
 }
 ```
 
@@ -212,36 +213,36 @@ use \PKP\components\forms\FieldText;
 define('FORM_MASTHEAD', 'masthead');
 
 class PKPMastheadForm extends FormComponent {
-	/** @copydoc FormComponent::$id */
-	public $id = FORM_MASTHEAD;
+    /** @copydoc FormComponent::$id */
+    public $id = FORM_MASTHEAD;
 
-	/** @copydoc FormComponent::$method */
-	public $method = 'PUT';
+    /** @copydoc FormComponent::$method */
+    public $method = 'PUT';
 
-	/**
-	 * Constructor
-	 *
-	 * @param $action string URL to submit the form to
-	 * @param $locales array Supported locales
-	 * @param $context Context Journal or Press to change settings for
-	 */
-	public function __construct($action, $locales, $context) {
-		$this->action = $action;
-		$this->locales = $locales;
+    /**
+     * Constructor
+     *
+     * @param $action string URL to submit the form to
+     * @param $locales array Supported locales
+     * @param $context Context Journal or Press to change settings for
+     */
+    public function __construct($action, $locales, $context) {
+        $this->action = $action;
+        $this->locales = $locales;
 
-		$this->addGroup([
-				'id' => 'identity',
-				'label' => __('manager.setup.identity'),
-			])
-			->addField(new FieldText('name', [
-				...
-				'groupId' => 'identity',
-			]))
-			->addField(new FieldText('acronym', [
-				...
-				'groupId' => 'identity',
-			]));
-	}
+        $this->addGroup([
+                'id' => 'identity',
+                'label' => __('manager.setup.identity'),
+            ])
+            ->addField(new FieldText('name', [
+                ...
+                'groupId' => 'identity',
+            ]))
+            ->addField(new FieldText('acronym', [
+                ...
+                'groupId' => 'identity',
+            ]));
+    }
 }
 ```
 
@@ -255,24 +256,24 @@ In the example below the `announcementsIntroduction` field will be hidden unless
 
 ```php
 $this->addField(new FieldOptions('enableAnnouncements', [
-		...
-	]))
-	->addField(new FieldRichTextarea('announcementsIntroduction', [
-		...
-		'showWhen' => 'enableAnnouncements',
-	]));
+        ...
+    ]))
+    ->addField(new FieldRichTextarea('announcementsIntroduction', [
+        ...
+        'showWhen' => 'enableAnnouncements',
+    ]));
 ```
 
 The `showWhen` argument can also be configured to react to an exact value. In the example below the `copyrightHolderOther` field will be hidden unless the `copyrightHolderType` has the exact value `other`.
 
 ```php
 $this->addField(new FieldRadioInput('copyrightHolderType', [
-		...
-	]))
-	->addField(new FieldText('copyrightHolderOther', [
-		...
-		'showWhen' => ['copyrightHolderType', 'other'],
-	]));
+        ...
+    ]))
+    ->addField(new FieldText('copyrightHolderOther', [
+        ...
+        'showWhen' => ['copyrightHolderType', 'other'],
+    ]));
 ```
 
 The UI Library includes an example of [conditional display](/dev/#/component/Form/with-conditional-display).
