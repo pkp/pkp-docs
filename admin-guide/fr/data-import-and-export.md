@@ -1,196 +1,209 @@
-# Importation et Exportation de Données
+# Data Import and Export
 
-Open Journal Systems offre une variété d'outils et de plugiciels qui vous permettent d'injecter et d'extraire des données d'OJS. Ce chapitre explique comment utiliser les outils et plugiciels d'importation et d'exportation. Plus d'informations sont disponibles dans la documentation de chaque plugiciel dans le répertoire plugiciel d'OJS (plugins/).
+Open Journal Systems offers a variety of tools and plugins which allow you to inject data into and extract data from OJS. This chapter explains how to use import and export tools and plugins. More information can be found in each plugin's documentation within OJS' plugin directory \(plugins/\).
 
-La plupart des fonctions d'importation et d'exportation peuvent être executées en vous connectant en tant que Directeur/trice de la Revue et en allant dans Outils > Importer/Exporter.
+Most import and export functions can be carried out by logging in as Journal Manager and going to Tools > Import/Export.
 
-![](./assets/import-export.png)
+![The OJS Tools menu showing Import/Export options in OJS.](./assets/import-export.png)
 
-Néanmoins, dans certains cas, les plugiciels d'importation/exportation doivent d'abord être installés ou activés sous Paramètres > Site Web > Plugiciels. Comment accéder et utiliser des plugiciels et des fonctions spécifiques est expliqué dans les sections ci-dessous.
+However, in some cases import/export plugins need to be installed or enabled first under Settings > Website > Plugins. How to access and use specific plugins and functions are explained in the sections below.
 
-![](./assets/plugins.png)
+![The plugins gallery where some import/export plugins can be enabled.](./assets/plugins.png)
 
-La fonctionnalité d'importation/exportation est également disponible en tant qu'outil de ligne de commande; voir `tools/importExport.php` et la section de ligne de commande pour plus d'informations.
+Import/export functionality is also available as a command-line tool; see `tools/importExport.php` and the command line section for more information.
 
-## Importer et exporter des articles et des publications
+## Import and export articles and issues
 
-Les articles et les publications peuvent être rapidement importés dans OJS à l'aide du plugiciel Quick Submit ou du plugiciel Native XML (plugiciel nommé auparavant XML Articles and Issues). Le plugiciel Quick Submit est un outil utile pour importer 5 à 10 articles, mais pour un plus grand nombre d'articles et de publications, ou si vous avez vos métadonnées dans un format transformable, vous souhaiterez peut-être utiliser le plugiciel Native XML.
+Articles and issues can be quickly imported into OJS using the Quick Submit Plugin or the Native XML Plugin \(formerly the Articles and Issues XML Plugin\). The Quick Submit Plugin is a useful tool for importing 5-10 articles, but for larger numbers of articles and issues, or if you have your metadata in a transformable format, you may wish to use the Native XML Plugin.
 
-### Plugiciel Quick Submit
+### Quick Submit
 
-Le plugiciel Quick Submit vous permet d'ajouter rapidement des soumissions complètes à une publication. Cela fournit un processus de soumission en une seule étape pour les éditeurs qui doivent contourner le processus traditionnel de soumission, de révision et d'édition. Voir [Apprendre OJS 3](/learning-ojs/fr/tools) pour plus de détails.
+The Quick Submit Plugin allows you to quickly add complete submissions to an issue. It provides a one-step submission process for editors needing to bypass the traditional submission, review, and editing process. See [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/tools) for more details.
 
-### Plugiciel Native XML
+### Native XML Plugin
 
-Le plugiciel Native XML d'OJS 3.x remplace le plugiciel XML Articles and Issues, qui était utilisé dans OJS 2 pour importer les métadonnées d'un article et d'une publication dans et hors d'OJS dans un fichier XML. Cela peut être utilisé pour importer et exporter un ou plusieures publications et/ou articles, y compris des métadonnées compréhensives. Cela peut être utilisé dans les cas suivants:
+The Native XML Plugin in OJS 3.x replaces the Articles and Issues XML Plugin, which was used in OJS 2 to import article and issue metadata into and out of OJS in an XML file.  It can be used to import and export single or multiple issues and/or articles, including comprehensive metadata. It can be used in the following cases:
 
-- Déplacement des métadonnées d'articles et de publications d'une revue OJS à une autre
-- Déplacement d'un grand nombre de publications et d'articles antérieurs dans OJS
+* Moving article and issue metadata from one OJS journal to another
+* Moving a large number of back issues and articles into OJS
 
-Pour utiliser ce plugiciel, vous aurez besoin de:
+To use this plugin you will need the following:
 
-- Une compréhension de base de XML
-- Être inscrit en tant que Directeur/trice de la revue dans la revue OJS
+* A basic understanding of XML
+* To be enrolled as a Journal Manager in the OJS journal
 
-Si vous importez des données, créez premièrement le fichier d'importation XML. Voici des liens vers des exemples de fichiers d'importation XML et de schémas XML:
+If you are importing data, first create the XML import file.  Here are links to sample XML import files and XML schemas:
 
-- Exemple de fichier XML pour les métadonnées d'article: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/sample.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/sample.xml)
-- Exemple de fichier XML pour les métadonnées de publication: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml)
-- Schéma XML à utiliser dans les applications logicielles PKP: [https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd](https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd)
-- Schéma XML à utiliser dans OJS: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd)
+* Sample XML file for article metadata: [https://github.com/pkp/ojs/blob/main/cypress/fixtures/export-issues.xml](https://github.com/pkp/ojs/blob/main/cypress/fixtures/export-issues.xml)
+* Sample XML file for issue metadata: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml)
+* XML schema for use across PKP software applications: [https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd](https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd)
+* XML schema for use in OJS: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd)
 
-* Veuillez noter que le format XML utilisé par le plugiciel Native XML pour OJS 3 est différent du format XML pour le plugiciel XML Articles and Issues utilisé dans OJS 2. Si vous exportez des données depuis OJS 2 et que vous voulez les importer dans OJS 3, vous devrez premièrement modifier le fichier XML. Notez également que le schéma est révisé périodiquement; si vous exportez à partir d'une version d'OJS et que vous importez dans une autre version, vous devrez peut-être ajuster légèrement le XML pour tenir compte de ces changements.
+\* Please note that the XML format used by the Native XML Plugin for OJS 3 is different from the XML format for the Articles and Issues XML Plugin used in OJS 2.  If you export data from OJS 2 and want to import it into OJS 3, you will have to edit the XML file first. Also note that the schema is revised periodically; if exporting from one version of OJS and importing into a different version, you may need to adjust the XML slightly to account for these changes.
 
-Voici des choses à considérer:
+Here are some things to consider:
 
-- Assurez-vous de bien définir le type de document à l'aide de `<!DOCTYPE...>`.
-- Votre fichier XML doit être encodé en UTF8.
-- Les dates doivent être spécifiées sous la forme AAAA-MM-JJ.
-- Pour importer un fichier, vous pouvez utiliser `<embed>` pour placer un fichier directement dans votre document XML, ou utilisez `<href>` pour créer un lien vers un fichier.
-- Si vous utilisez le `<embed>` tag, vous devrez encoder vos fichiers en base64. Utilisant `<embed>` avec un fichier encodé en base64 ressemblerait à ceci: [capture d'écran nécessaire]
-- Vous pouvez créer un lien vers des URL ainsi que des fichiers locaux en utilisant `<href>` . Un lien URL complet ressemblerait à ceci: [capture d'écran requise]
-- Vous pouvez utiliser la liaison locale si vos fichiers sont déjà stockées sur la machine de destination, mais dans ce cas, vous devez lancer l'importation depuis la ligne de commande. L'importation d'un fichier local ressemblerait à ceci: [ajouter une capture d'écran]
-- Certains éléments peuvent soutenir les tags HTML intégrées, tel que l'élément abstrait. Si vous intégrez du HTML dans votre document, n'oubliez pas de placer le HTML dans des tags <! [CDATA []]>.
-- Si votre revue prend en charge plusieurs lieux, vous pouvez inclure les termes traduits dans une entrée distincte: [capture d'écran]
-- Si vous faites des erreurs typographiques dans les données que vous essayez d'importer, vous risquez de vous retrouver avec des entrées dupliquées ou fractionnées: par exemple, si votre revue a déjà une section "Articles" avec les initiales ART, mais que vous faites un typo dans votre fichier XML, par exemple, `<abbrev locale="en\_US">` AR `</abbrev>` au lieu de `<abbrev locale="en\_US">` ART `</abbrev>` , une nouvelle section dans la revue avec les initiales AR sera créée, et cet article y sera ajouté. Cela peut être facilement corrigé avant l'importation, mais difficile à nettoyer après.
+* Be sure to define the document type appropriately using `<!DOCTYPE ...>`.
+* Your XML file should UTF8-encoded.
+* Dates should be specified as YYYY-MM-DD.
+* To import a file, you can use `<embed>` to place a file directly within your XML document, or use `<href>` to link to one.
+* If you use the `<embed>` tag you will have to base64-encode your files. Using `<embed>` with a base64-encoded file would look something like this: \[screenshot needed\]
+* You can link to full URLs as well as local files using `<href>`. A full URL link would look like the following: \[screenshot needed\]
+* You can use local linking if your galleys are already stored on the destination machine, but in this case you need to launch the import from the command line. Importing a local file would look like the following: \[add screenshot\]
+* Some elements can support embedded HTML tags, such as the abstract element. If you do embed HTML within your document, remember to wrap the HTML within `<![CDATA[]]>` tags.
+* If your journal supports more than one locale, you can include translated terms in a separate entry: \[screenshot\]
+* If you make any typographical errors in the data you are trying to import, you may end up with duplicate or split entries: for example, if your journal already has a section "Articles" with the initials ART, but you mistype in your XML file `<abbrev locale="en\_US">`AR`</abbrev>` instead of `<abbrev locale="en\_US">`ART`</abbrev>`, a new journal section with the initials AR will be created, and that one article will be added to it. This can be easily fixed pre-import, but difficult to clean up after.
 
-Vous devez valider votre fichier XML avant de l'importer. Si vous utilisez un outil d'édition XML, tel que Liquid XML Editor ou Oxygen XML, vous pouvez valider le fichier dans l'outil d'édition. Si le XML n'est pas valide, un message d'erreur s'affiche pour identifier les lignes contenant des erreurs.
+You should validate your XML file before importing it. If you are using an XML editor tool, such as Liquid XML Editor or Oxygen XML, you can validate the file there. If the XML is not valid an error message will display identifying what line\(s\) have errors.
 
-Dès que vous avez le fichier d'importation XML valide, vous pouvez l'importer:
+Once you have the valid XML import file, you can import it:
 
-1. Connectez-vous à OJS en tant que Directeur/trice de la revue
-2. Allez dans Outils > Importer/Exporter > Plugiciel Native XML
-3. Sous l'onglet Importer, cliquez sur Télécharger le fichier et sélectionnez votre fichier XML
-4. Cliquez sur Importer
-5. Vous serez informé si il y a une erreur ou si l'importation a réussi.
+1. Login to OJS as Journal Manager
+2. Go to Tools > Import/Export > Native XML Plugin
+3. Under the Import tab, click Upload File and select your XML file
+4. Click Import
+5. You will be notified of any errors, or if the import was successful.
 
-![](./assets/native-xml-plugin.png)
+![The XML file upload screen.](./assets/native-xml-plugin.png)
 
-Pour exporter un article et publier des métadonnées à l'aide du plugiciel Native XML:
+To export article and issue metadata using the Native XML Plugin:
 
-1. Connectez-vous à OJS en tant que Directeur/trice de la revue
-2. Allez dans Outils > Importer/Exporter> Plugiciel Native XML
-3. Selon que vous exportez des métadonnées d'article ou de publication, accédez à l'onglet Exporter des articles ou Exporter des publications.
-4. Sélectionnez les articles ou publications que vous souhaitez exporter en cochant la case à côté d'eux.
-5. Cliquez sur Exporter
-6. Les articles ou publications seront exportés sous format XML et peuvent être importés dans cette revue ou dans une autre
+1. Login to OJS as Journal Manager
+2. Go to Tools > Import/Export > Native XML Plugin
+3. Depending on whether you are exporting article or issue metadata, go to the Export Articles or Export Issues tab
+4. Select the articles or issues you wish to export by checking the box beside them.
+5. Click Export
+6. The articles or issues will be exported in XML format, and can be imported to this or another journal
 
-* Veuillez noter que l'utilisation de ce plugiciel pour exporter des articles et des publications exportera non seulement toutes les métadonnées pertinentes, mais inclura aussi tous les fichiers reliés à l'article (HTML, PDF, etc.) incorporés dans le document XML et encodé en Base64. Cela peut entraîner des fichiers XML volumineux et encombrants, en particulier lorsque plusieurs publications sont exportés à la fois. Leur ouverture dans un éditeur pour afficher ou modifier des données ou métadonnées XML peut être pénible pour votre ordinateur, et le téléchargement de ou vers serveur de ces fichiers peut prendre un certain temps, en fonction de votre connexion et des ressources du serveur source.
+\* Please note that using this plugin to export articles and issues will not only export all relevant metadata, but will include all article files \(HTML, PDF, etc.\) embedded within the XML document in Base64 encoding. This can result in large, cumbersome XML files, especially when multiple issues are exported at once. Opening them in an editor to view or change any XML data or metadata may be taxing for your computer, and it may take some time to download and/or upload said files, depending on your connection and the resources of the source server.
 
-![](./assets/native-xml-plugin-export.png)
+![The Export Articles tab under the Native XML Plugin.](./assets/native-xml-plugin-export.png)
 
-## Importer et exporter des utilisateurs
+## Import and export users
 
-Le plugiciel XML Users peut être utilisé pour importer et exporter des utilisateurs et leurs rôles. Il peut être utilisé dans les cas suivants:
+### Export users to XML
 
-- Déplacer des comptes utilisateurs d'une revue OJS à une autre
-- Déplacer des comptes d'utilisateurs d'un autre système vers OJS
-- Déplacer des comptes d'utilisateurs d'OJS vers un autre système
-- Exporter les données d'utilisateur depuis OJS, les modifier et les réimporter dans OJS
+The Users XML Plugin can be used to import and export users and their roles. It can be used in the following cases:
 
-Pour utiliser ce plugiciel, vous aurez besoin des éléments suivants:
+* Moving user accounts from one OJS journal to another
+* Moving user accounts from another system into OJS
+* Moving user accounts from OJS into another system
+* Exporting user data from OJS, modifying it, and importing it back into OJS
 
-- Une compréhension de base de XML
-- Être inscrit en tant que Directeur/trice de la revue dans la revue OJS
+To use this plugin you will need the following:
 
-Si vous importez des utilisateurs dans OJS, créez premièrement le fichier d'importation XML. Voici un exemple de fichier d'importation XML: [https://github.com/pkp/ojs/blob/main/plugins/importexport/users/sample.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/users/sample.xml)
+* A basic understanding of XML
+* To be enrolled as a Journal Manager in the OJS journal
 
-* Veuillez noter que le format XML utilisé par le plugiciel XML Users dans OJS 3 est différent du format XML utilisé par le plugiciel dans OJS 2. Si vous exportez des données depuis OJS 2 et que vous souhaitez les importer dans OJS 3, vous devrez d'abord modifier le fichier XML.
+If you are importing users into OJS, first create the XML import file.  Here is a sample XML import file: [https://github.com/pkp/ojs/blob/main/plugins/importexport/users/sample.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/users/sample.xml)
 
-Voici des choses à considérer:
+\* Please note that the XML format used by the Users XML Plugin in OJS 3 is different from the XML format used by the Plugin in OJS 2.  If you export data from OJS 2 and want to import it into OJS 3, you will have to edit the XML file first.
 
-- Assurez-vous de bien définir le type de document à l'aide de `<!DOCTYPE...>`.
-- Votre fichier XML doit être encodé en UTF8.
-- `<firstname>` , `<lastname>` et `<email>` sont obligatoires.
-- Si vous autorisez le système à générer des mots de passe pour les utilisateurs que vous téléchargez, vous avez l'option d'autoriser le système à envoyer un e-mail aux utilisateurs avec leurs informations d'identification de compte. Cette option se trouve sur la page du plugiciel Users XML ("Envoyer un e-mail de notification à chaque utilisateur importé contenant le nom et le mot de passe de l'utilisateur.").
-- Vous pouvez exiger de l'utilisateur de modifier son mot de passe lors de sa prochaine connexion en définissant l'attribut de mot de passe "change" sur "true": `<password must_change = "true">`myoldpassword`</password>`
-- Le cryptage par défaut du mot de passe est "plaintext" (c'est-à-dire aucun). Crypté suppose qu'il a été crypté par `Validation::encryptCredentials()` et utilise le même algorithme de cryptage utilisé par le système.
-- Si le fichier importé contient des noms d'utilisateur ou des adresses e-mail qui existent déjà dans le système, les données de ces utilisateurs ne seront pas importées et les nouveaux rôles à créer seront attribués aux utilisateurs existants.
+Here are some things to consider:
 
-Vous devez valider votre fichier XML avant de l'importer. Si vous utilisez un outil d'édition XML, tel que Liquid XML Editor ou Oxygen XML, vous pouvez valider le fichier dans l'outil d'édition. Si le XML n'est pas valide, un message d'erreur s'affiche pour identifier les lignes contenant des erreurs.
+* Be sure to define the document type appropriately using `<!DOCTYPE ...>`.
+* Your XML file should UTF8-encoded.
+* `<firstname>`, `<lastname>` and `<email>` are mandatory.
+* If you allow the system to generate passwords for the users you are uploading, you can optionally allow the system to email the users with their account credentials. This option can be found on the Users XML Plugin Page \("Send a notification email to each imported user containing the user's username and password."\).
+* You can require the user change their password when they next log in by setting the password attribute "change" to "true": `<password must\_change="true">`myoldpassword`</password>`
+* The default password encryption is "plaintext" \(ie., none\). Encrypted assumes it was encrypted by `Validation::encryptCredentials()` and is using the same encryption algorithm used by the system.
+* If the imported file contains any usernames or email addresses that already exist in the system, the user data for those users will not be imported and any new roles to be created will be assigned to the existing users.
 
-Dès que vous avez le fichier d'importation XML valide, vous pouvez l'importer:
+You should validate your XML file before importing it. If you are using an XML editor tool, such as Liquid XML Editor or Oxygen XML, you can validate the file there.  If the XML is not valid an error message will display identifying what line\(s\) have errors.
 
-1. Connectez-vous à OJS en tant que Directeur/trice de la revue
-2. Allez dans Outils > Importer/Exporter > Plugiciel Users XML
-3. Sous l'onglet Importer des utilisateurs, cliquez sur Télécharger le fichier et sélectionnez votre fichier XML
-4. Cliquez sur Importer des utilisateurs
-5. Vous serez informé si il y a une erreur ou si l'importation a réussi.
+Once you have the valid XML import file, you can import it:
 
-![](./assets/users-xml-plugin-import.png)
+1. Login to OJS as Journal Manager
+2. Go to Tools > Import/Export > Users XML Plugin
+3. Under the Import Users tab, click Upload File and select your XML file
+4. Click Import Users
+5. You will be notified of any errors, or if the import was successful.
 
-Pour exporter des comptes d'utilisateurs à l'aide du plugiciel Users XML:
+![The Users XML Plugin file uploader for importing users.](./assets/users-xml-plugin-import.png)
 
-1. Connectez-vous à OJS en tant que Directeur/trice de la revue
-2. Allez dans Outils > Importer/Exporter > Plugiciel Users XML
-3. Sélectionnez les comptes d'utilisateurs que vous souhaitez exporter en cochant la case à côté d'eux.
-4. Cliquez sur Exporter les utilisateurs
-5. Les comptes d'utilisateurs seront exportés au format XML et peuvent être importés dans cette revue ou dans une autre
+To export user accounts using the Users XML Plugin:
 
-![](./assets/users-xml-plugin-export.png)
+1. Login to OJS as Journal Manager
+2. Go to Tools > Import/Export > Users XML Plugin
+3. Select the user accounts you wish to export by checking the box beside them.
+4. Click Export Users
+5. The user accounts will be exported in XML format, and can be imported to this or another journal
 
-## Exporter les métadonnées vers des sites externes et des services d'indexation
+![The Export Users tab under Users XML Plugin.](./assets/users-xml-plugin-export.png)
 
-OJS a des plugiciels qui vous permettent d'exporter des métadonnées d'article vers des sites externes et des services d'indexation compatibles avec leur format.
+### Export users to CSV
 
-### Plugiciel PubMed XML Export
+Journal editors and managers can export the user database as a CSV file. The CSV format is easy to use with marketing and mailing list management tools, such as Mailchimp.
 
-Le plugiciel PubMed XML Export vous permet d'exporter les métadonnées d'article sous forme de fichier XML au format NLM PubMed/MEDLINE. Pour plus d'informations sur le plugiciel, consultez son fichier README: [https://github.com/pkp/ojs/tree/main/plugins/importexport/pubmed](https://github.com/pkp/ojs/tree/main/plugins/importexport/pubmed)
+To export users to a CSV file:
 
-### Plugiciel DataCite Export/Registration
+1. Navigate to **Statistics > Users**.
+2. Click on **Export**.
+3. Use checkboxes to select the group(s) of users you wish to export.
+4. Click **Export** again. This will generate a download, which may take several minutes to process depending on the size of your user database.
 
-Le plugiciel DataCite Export/Registration vous permet d'exporter des métadonnées de publication, d'article, et de fichiers supplémentaires au format DataCite et d'enregistrer les DOI avec DataCite. Pour plus d'informations sur le plugiciel, consultez son fichier README: [https://github.com/pkp/ojs/blob/main/plugins/importexport/datacite/README](https://github.com/pkp/ojs/blob/main/plugins/importexport/datacite/README)
+## Export metadata to external sites and indexing services
 
-### Plugiciel DOAJ Export
+OJS has plugins that allow you to export article metadata to external sites and indexing services that is compatible with their format.
 
-Si votre revue est indexée par le Directory of Open Access Journals (DOAJ), vous pouvez exporter votre revue de publication et les métadonnées de votre article vers DOAJ soit manuellement en utilisant le plugiciel DOAJ Export, soit automatiquement en utilisant l'API DOAJ.
+### PubMed XML Export Plugin
 
-Pour exporter les métadonnées de revue vers DOAJ automatiquement:
+The PubMed XML Export Plugin allows you to export article metadata as an XML file in NLM PubMed/MEDLINE format. For more information about the Plugin, see its README file: [https://github.com/pkp/ojs/tree/main/plugins/importexport/pubmed](https://github.com/pkp/ojs/tree/main/plugins/importexport/pubmed)
 
-1. Obtenez une clé API de DOAJ en allant sur [https://doaj.org/](https://doaj.org/), en vous connectant et en vérifiant votre numéro de membre.
-2. Connectez-vous à OJS en tant que Directeur/trice de la revue
-3. Allez dans Outils > Importer/Exporter > Plugiciel DOAJ Export
-4. Sous l'onglet Paramètres, entrez votre clé API DOAJ
-5. Cochez «OJS déposera automatiquement les articles au DOAJ. Veuillez noter que cette procédure peut prendre un peu de temps après la publication. Vous pouvez rechercher tous les articles non enregistrés. »
-6. Cliquez sur Enregistrer
+### DataCite Export/Registration Plugin
 
-Pour exporter les métadonnées d'article vers DOAJ manuellement:
+The DataCite Export/Registration Plugin allows you to export issue, article, galley, and supplementary file metadata in DataCite format and register DOIs with DataCite. For more information about the Plugin, see its README file: [https://github.com/pkp/ojs/blob/main/plugins/importexport/datacite/README](https://github.com/pkp/ojs/blob/main/plugins/importexport/datacite/README)
 
-1. Connectez-vous à OJS en tant que Directeur/trice de Revue
-2. Allez dans Outils > Importer / Exporter > Plugiciel DOAJ Export
-3. Allez dans l'onglet Articles
-4. Sélectionnez les articles que vous souhaitez exporter. Ils doivent être publiés.
-5. Cliquez sur Exporter
-6. Visitez [https://doaj.org/](https://doaj.org/) et connectez-vous pour télécharger le fichier XML qui a été créé lors du processus d'exportation
+### DOAJ Export Plugin
 
-### Plugiciel Crossref XML Export
+If your journal is indexed by the Directory of Open Access Journals \(DOAJ\), you can export your journal issue and article metadata to DOAJ either manually using the DOAJ Export Plugin or automatically using the DOAJ API.
 
-Le plugiciel Crossref XML Export vous permet d'exporter les métadonnées d'articles au format XML Crossref automatiquement et manuellement, afin de les déposer avec Crossref. Pour plus d'informations sur l'utilisation de ce plugiciel, consultez le manuel Crossref OJS: [http://docs.pkp.sfu.ca/crossref-ojs-manual/](http://docs.pkp.sfu.ca/crossref-ojs-manual/)
+To export journal metadata automatically to DOAJ:
 
-### Plugiciel mEDRA Export/Registration
+1. Obtain an API key from DOAJ by going to [https://doaj.org/](https://doaj.org/), logging in, and checking your membership number.
+2. Login to OJS as Journal Manager
+3. Go to Tools > Import/Export > DOAJ Export Plugin
+4. Under the Settings tab, enter your DOAJ API Key
+5. Check off “OJS will deposit articles automatically to DOAJ. Please note that this may take a short amount of time after publication to process. You can check for all unregistered articles.”
+6. Click Save
 
-Le plugiciel mEDRA Export/Registration vous permet d'exporter des métadonnées de publications, d'articles et de fichiers au format Onix for DOI (O4DOI) et d'enregistrer les DOI avec l'agence d'enregistrement mEDRA. Pour plus d'informations sur l'utilisation du plugiciel, consultez son fichier README: [https://github.com/pkp/medra/blob/main/README](https://github.com/pkp/medra/blob/main/README)
+To manually export article metadata to DOAJ:
 
-## Utiliser les plugiciels d'import/export depuis la ligne de commande
+1. Login to OJS as Journal Manager
+2. Go to Tools > Import/Export > DOAJ Export Plugin
+3. Go to the Articles tab
+4. Select the articles you want to export.  They must be published.
+5. Click Export
+6. Visit [https://doaj.org/](https://doaj.org/) and login to upload the XML file that was created during the export process
 
-Les plugiciels d'import/export peuvent normalement aussi être exécutés à partir de la ligne de commande. Vous pouvez afficher les noms de plugiciels applicables en exécutant la commande suivante:
+### Crossref XML Export Plugin
+
+The Crossref XML Export Plugin allows you to automatically and manually export article metadata in Crossref XML format for deposit with Crossref.  For information about how to use this plugin, see the Crossref OJS Manual: [http://docs.pkp.sfu.ca/crossref-ojs-manual/](http://docs.pkp.sfu.ca/crossref-ojs-manual/)
+
+### mEDRA Export/Registration Plugin
+
+The mEDRA Export/Registration Plugin allows you to export issue, article, and galley metadata in Onix for DOI \(O4DOI\) format and register DOIs with the mEDRA registration agency. For information about how to use the plugin, see its README file: [https://github.com/pkp/medra/blob/main/README](https://github.com/pkp/medra/blob/main/README)
+
+## Use import/export plugins from the command line
+
+Import/export plugins can normally also be run from the command line. You can view the applicable plugin names by running the following command:
 
 ```
 php tools/importExport.php list
 ```
 
-Vous pouvez voir les paramètres d'utilisation en exécutant la commande suivante:
+You can see usage parameters by running the following command:
 
 ```
 php tools/importExport.php \[PluginName\] usage
 ```
 
-## Résoudre les problèmes d'importation et d'exportation
+## Troubleshoot importing and exporting
 
-> *"J'ai importé mon fichier XML et je reçois un message d'erreur."*
+> _"I imported my XML file and I’m getting an error message."_
 
-Avez-vous validé votre fichier XML avant de l'importer? Si vous ne l'avez pas fait, exécutez-le via un validateur dans votre éditeur XML ou navigateur et le validateur indiquera ce qui ne va pas avec le fichier.
+Did you validate your XML file before importing it?  If you did not, run it through a validator in your XML editor or browser and the validator will indicate what is wrong with the file.
 
-> *"Quand je clique sur le bouton Exporter, j'obtiens une page blanche au lieu d'une liste de données à exporter."*
+> _"When I click on the Export button I get a blank page instead of a list of data to export."_
 
-Vous devriez vérifier le fichier error_log pour trouver ce qui ne va pas exactement.
+You should check the error\_log file to find what went wrong exactly.
