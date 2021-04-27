@@ -62,7 +62,7 @@ The following three forms (1.5, 1.6, 1.7) will add information to the About the 
 
 You can specify publisher information in the first form.
 
- 
+
 
 
 
@@ -75,7 +75,7 @@ You can specify publisher information in the first form.
 
 
 You can add information about any sponsoring organizations your journal might have in Step 1.6. Additional organizations can be added by clicking the "Add Sponsoring Organization" button
- 
+
 
 
 
@@ -123,7 +123,7 @@ This optional section will allow you to add hidden HTML metatags to your journal
 This section will display information about the history of your journal on the About page.
 
 
-  
+
 
 
 ![Search Engine Indexing](images/chapter5/five_steps/history.png)
