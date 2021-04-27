@@ -3,7 +3,7 @@
 
 At any point in the review and editing process, the Editor, Section Editor and Copyeditor assigned to the submission can access the submission's References page. This page contains the Citation Markup Assistant tool (configured in Journal Setup Step 3.7). This tool helps to edit article references, and allows approved citations to be exported in various formats (including NLM XML and a number of different citation styles) to be added to final article galleys.
 
-The first time you use the assistant, you will see an introductory text explaining how it can be used. 
+The first time you use the assistant, you will see an introductory text explaining how it can be used.
 
 ![Citation Markup Assistant: Introduction](images/chapter8/references_1.png)
 
