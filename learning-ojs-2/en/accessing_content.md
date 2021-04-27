@@ -9,9 +9,9 @@ For open access journals using OJS, accessing content is as simple as selecting 
 # Subscribing
 
 
-If a subscription is required to access content, you will need to register for a Reader account with the OJS journal. 
+If a subscription is required to access content, you will need to register for a Reader account with the OJS journal.
 
-![Register as Reader](images/chapter13/reader_register.png)  
+![Register as Reader](images/chapter13/reader_register.png)
 
 
 
