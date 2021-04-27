@@ -13,7 +13,7 @@ When an author completes a submission it automatically arrives in the Editor's U
 The Unassigned page contains links to the other queues (In Review, In Editing, Archives), a search function, and the list of submissions awaiting assignment to an Editor or Section Editor. Although the example below has only one unassigned submission, your journal may have hundreds, and the search feature will help you find the one you are looking for. To assign a submission, you must click the submission title. This will take you to the **submission record**.
 
 
-![Unassigned Submissions](images/chapter7/editor_3rev.png)  
+![Unassigned Submissions](images/chapter7/editor_3rev.png)
 
 
 
@@ -38,7 +38,7 @@ In addition to details about the submission (author, title, original files, etc.
 
 
 The Summary page also lists Author Fees. If your journal does not charge fees, this section will not appear. From here you can note if the fees have been paid, or you can choose to waive fees.
-  
+
 
 ![Submission Author Fees](images/chapter7/editor_5.png)
 
@@ -60,7 +60,7 @@ Next, from the **Editors** section you can assign either a Section Editor, anoth
 From here, use the **Assign** link to assign this user to the submission.
 
 
-![Assigning Editors](images/chapter7/editor_7.png)  
+![Assigning Editors](images/chapter7/editor_7.png)
 
 
 An email box will appear, addressed the assignee, from you, with text pulled from the appropriate email template.
@@ -95,7 +95,7 @@ Next, you can see the Status of the submission. If a Section Editor has been ass
 This will generate an email (based on an existing email template) to the author.
 
 
-![Sending Rejection Email](images/chapter7/editor_11rev.png)  
+![Sending Rejection Email](images/chapter7/editor_11rev.png)
 
 
 
@@ -111,7 +111,7 @@ The final section of the Summary page contains the submissions' Metadata. From h
 Using the Edit Metadata link allows you to make any necessary changes to the information supplied by the Author, including author information. You can add any additional authors using the Add Author button.
 
 
-![Authors](images/chapter7/editor_13.png)  
+![Authors](images/chapter7/editor_13.png)
 
 
 You can also modify the title and abstract.
@@ -121,7 +121,7 @@ You can also modify the title and abstract.
 The next section allows you to upload a small **Article Cover** image for the submission. This would appear with the article in the Table of Contents (and in the abstract view page) upon publication. This is an optional feature, but can serve to add some visual interest to your journal design.
 
 
-![Article Cover](images/chapter7/editor_14.png)  
+![Article Cover](images/chapter7/editor_14.png)
 
 
 You can also modify the **Indexing** information supplied by the author.
