@@ -3,7 +3,7 @@
 
 The [Bootstrap3 theme](https://github.com/NateWr/bootstrap3) is a community effort to provide a base theme built on these techniques. It implements an OJS journal theme using core bootstrap HTML markup, and provides a number of third-party styles for Bootstrap 3 out-of-the-box.
 
-The community Bootstrap3 theme is designed to be a base, not a final product. To ensure widespread compatibility with Bootstrap 3 resources, and to ease the introduction for developers accustomed to working with Bootstrap 3, this theme only provides markup using core components from the Bootstrap 3 framework. 
+The community Bootstrap3 theme is designed to be a base, not a final product. To ensure widespread compatibility with Bootstrap 3 resources, and to ease the introduction for developers accustomed to working with Bootstrap 3, this theme only provides markup using core components from the Bootstrap 3 framework.
 
 This means that, in most cases, you will need to do a little bit more work with a [Child Theme](child-themes.md) in order to polish off your site.
 
@@ -33,7 +33,7 @@ Several Bootstrap 3 "swatches" are bundled with the theme. These swatches provid
 Each of the swatches that are provided are released under a GPL-compatible license. There are thousands more Bootstrap 3 swatches (often called themes) that can be purchased from commercial websites.
 
 ## Exploring Bootstrap
-Since the Bootstrap theme is just a base, it will need a bit of work to fully implement a great looking theme. It is recommended that if you're working with these files that you be familiar with elements of both [Bootstrap 3](https://getbootstrap.com/docs/3.4/getting-started/) and [LESS](http://lesscss.org/features/). 
+Since the Bootstrap theme is just a base, it will need a bit of work to fully implement a great looking theme. It is recommended that if you're working with these files that you be familiar with elements of both [Bootstrap 3](https://getbootstrap.com/docs/3.4/getting-started/) and [LESS](http://lesscss.org/features/).
 
 To start, explore the base Bootstrap variables file:
 
@@ -49,7 +49,7 @@ And then it includes just a little bit of additional LESS code to tweak a few mo
 
 ## Child Theming the Bootstrap3 Theme
 
-Each of the bundled theme swatches work the same way. They override the core Bootstrap 3 files with their own values. You will probably want to make more customizations with your own theme. 
+Each of the bundled theme swatches work the same way. They override the core Bootstrap 3 files with their own values. You will probably want to make more customizations with your own theme.
 
 To do this, you'll want to create a [Child Theme](child-themes.md). If you're not familiar with this process, go back and follow that guide to build your own Child Theme and set the parent to `bootstrapthreethemeplugin`.
 
@@ -92,7 +92,7 @@ If you would like to base your Child Theme off of one of the bundled theme swatc
 ## Contributing a Community Swatch
 If you've created a great new theme swatch that you think should be bundled with the Bootstrap3 theme, you can contribute it by opening a pull request on the [development repository](https://github.com/NateWr/bootstrap3/).
 
-To add a new swatch to the Bootstrap3 theme, you need to set up all of the necessary files for your new swatch (e.g. `myswatch`). 
+To add a new swatch to the Bootstrap3 theme, you need to set up all of the necessary files for your new swatch (e.g. `myswatch`).
 
 This example will demonstrate how to use the `flatly` swatch as a basis for your new swatch.
 
@@ -107,8 +107,7 @@ plugins/themes/bootstrap3/bootstrap-themes/myswatch/variables.less
 4. Rename `bootswatch.less` to `myswatch.less`
 
 5. Copy the file `plugins/themes/bootstrap3/styles/flatly.less` to `plugins/themes/bootstrap3/styles/myswatch.less`
-6. Edit `plugins/themes/bootstrap3/styles/myswatch.less`:
-Modify the existing references to files in the `flatly` theme with references to your new myswatch.
+6. Edit `plugins/themes/bootstrap3/styles/myswatch.less`: Modify the existing references to files in the `flatly` theme with references to your new myswatch.
 ```
 @import "bootstrap.less";
 @import "../bootstrap-themes/myswatch/variables.less";
