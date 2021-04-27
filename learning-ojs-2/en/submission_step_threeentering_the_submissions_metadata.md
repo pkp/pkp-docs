@@ -4,7 +4,7 @@ The third step of the submission process serves to collect all relevant metadata
 
 
 ![Authors](images/chapter6/step3_1rev.png)
-  
+
 
 If there are multiple authors for the submission, their information can be added using the Add Author button. You can also re-order the list of authors, make one of the authors the principal contact with the editor, and delete any authors added in error.
 
@@ -23,7 +23,7 @@ You will then add **indexing** information. This will help others find your arti
 The next section allows you to enter the name of any organization that may have supported your research.
 
 
-![Supporting Agencies](images/chapter6/step3_4.png)  
+![Supporting Agencies](images/chapter6/step3_4.png)
 
 
 Depending on how the journal is configured, you may find an option to provide your list of **references** separately. This will allow the journal's Editors and Copyeditors to check your references using a Citation Markup Assistant. You should provide your list with each reference on a separate line.
