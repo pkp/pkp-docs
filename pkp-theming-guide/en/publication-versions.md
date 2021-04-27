@@ -6,13 +6,13 @@ Use the `getCurrentPublication()` method to get the most recently published vers
 
 ```html
 <h1>
-	{$submission->getCurrentPublication()->getLocalizedFullTitle()|escape}
+    {$submission->getCurrentPublication()->getLocalizedFullTitle()|escape}
 </h1>
 <div>
-	Published on
-	<time>
-		{$submission->getCurrentPublication()->getData('datePublished')|date_format:$dateFormatLong}
-	</time>
+    Published on
+    <time>
+        {$submission->getCurrentPublication()->getData('datePublished')|date_format:$dateFormatLong}
+    </time>
 </div>
 ```
 
@@ -21,12 +21,12 @@ The most recently published version should always be displayed in lists such as 
 ```html
 <h1>Articles</h1>
 {foreach from=$submissions item=$submission}
-	<article>
-		<h2>
-			{$submission->getCurrentPublication()->getLocalizedFullTitle()|escape}
-		</h2>
-		...
-	</article>
+    <article>
+        <h2>
+            {$submission->getCurrentPublication()->getLocalizedFullTitle()|escape}
+        </h2>
+        ...
+    </article>
 {/foreach}
 ```
 
@@ -34,7 +34,7 @@ The user may view older versions of an article or monograph. This request is pas
 
 ```html
 <h1>
-	{$publication->getLocalizedTitle|escape}
+    {$publication->getLocalizedTitle|escape}
 </h1>
 ```
 
@@ -42,10 +42,10 @@ Compare the `publication` to the `currentPublication` to determine if the reader
 
 ```html
 {if $currentPublication->getId() !== $publication->getId()}
-	<div role="alert">
-		You are viewing an old version of this article.
-		View the <a href="...">most recent version</a>.
-	</div>
+    <div role="alert">
+        You are viewing an old version of this article.
+        View the <a href="...">most recent version</a>.
+    </div>
 {/if}
 ```
 
@@ -59,6 +59,6 @@ Or get links to each version that has been published.
 
 ```html
 {foreach from=$article->getData('publications') item=$iPublication}
-	{url page="article" op="view" path=$article->getBestId()|to_array:"version":$iPublication->getId()}
+    {url page="article" op="view" path=$article->getBestId()|to_array:"version":$iPublication->getId()}
 {/foreach}
 ```
