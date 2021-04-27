@@ -94,9 +94,9 @@ Click the en folder to see all of the chapter files in the document. You will al
 
 ![](./assets/translating-guide-gitlocalize-chapter-files.png)
 
-The chapter files will be listed in alphabetical order. Start by translating the SUMMARY.md file. After that you can translate the files in any order you want, but it might be easier for you to translate the files in their logical order. If so, you can open the guide in the [Docs Hub](https://docs.pkp.sfu.ca/index.html) to see what order the chapters are in and follow that order. 
+The chapter files will be listed in alphabetical order. Start by translating the SUMMARY.md file. After that you can translate the files in any order you want, but it might be easier for you to translate the files in their logical order. If so, you can open the guide in the [Docs Hub](https://docs.pkp.sfu.ca/index.html) to see what order the chapters are in and follow that order.
 
-Starting with the SUMMARY.md file, open the file. You will see a split-view editor, with the original text on the left. GitLocalize breaks the files down into translatable segments, automatically links the translation with the version in the source language, highlighting the sections that are missing translations. 
+Starting with the SUMMARY.md file, open the file. You will see a split-view editor, with the original text on the left. GitLocalize breaks the files down into translatable segments, automatically links the translation with the version in the source language, highlighting the sections that are missing translations.
 
 If you click the text on the right, a text-editing box will appear with the original text in it. You can replace this text with translated text. Click **Submit** as you finish each part.
 
@@ -104,9 +104,9 @@ If you click the text on the right, a text-editing box will appear with the orig
 
 #### Machine translation
 
-You can also use the machine translation tool to get machine translation assistance. 
+You can also use the machine translation tool to get machine translation assistance.
 
-If you click the **Machine Translate** button below the text box, GitLocalize’s machine translation tool will enter a suggested translation into the text box, which you can then edit. 
+If you click the **Machine Translate** button below the text box, GitLocalize’s machine translation tool will enter a suggested translation into the text box, which you can then edit.
 
 Or if you click the **Machine Translate** button on the top right of the page, machine translations will be entered in all of the text boxes that have not already been translated. This will take a few seconds. You can then edit them manually.
 
@@ -114,12 +114,12 @@ You may find that the machine translator will skip some sections, which you will
 
 ![](./assets/translating-guide-gitlocalize-machine-translate.png)
 
-You will have to click **Submit** below each piece of text to confirm that the translation is complete. 
+You will have to click **Submit** below each piece of text to confirm that the translation is complete.
 
 #### Choose the right words
 
 When translating software documentation, it's important to use terminology that is consistent with the software application and is commonly understood by users. There are a number of ways you can check this:
-- Check an installation of the software that the guide is about (e.g., OJS) with the language you are translating the document into installed and enabled. PKP maintains test drive demo sites for [OJS](https://pkp.sfu.ca/ojs/ojs_demo/), [OMP](https://pkp.sfu.ca/omp/omp_demo/), and [OPS](https://pkp.sfu.ca/ops/demo/). If your language is not installed here and you need assistance accessing an installation in your language, you can [Contact PKP](https://pkp.sfu.ca/contact-us/). 
+- Check an installation of the software that the guide is about (e.g., OJS) with the language you are translating the document into installed and enabled. PKP maintains test drive demo sites for [OJS](https://pkp.sfu.ca/ojs/ojs_demo/), [OMP](https://pkp.sfu.ca/omp/omp_demo/), and [OPS](https://pkp.sfu.ca/ops/demo/). If your language is not installed here and you need assistance accessing an installation in your language, you can [Contact PKP](https://pkp.sfu.ca/contact-us/).
 - PKP software translators maintain glossaries on a per-language basis of standard translations of technical terms. You can check the glossaries in the [software translation tool](https://translate.pkp.sfu.ca/dictionaries/pkp-lib/) on the language page, and if you create a Weblate account you can add terms to the glossary.
 - You can post questions about terminology in the [PKP Community Forum](https://forum.pkp.sfu.ca/c/translations/12), which is a community discussion space for PKP translators. You will need to register to post a question.
 
@@ -131,13 +131,13 @@ You will see screenshots as you are translating, but you can ignore them. PKP is
 
 When you have finished translating the chapter and clicked **Submit** below each piece of text, the next step is to request a review of the translation to the language moderator.
 
-Click the Create Review Request button on the top left. This will open a form where you can leave comments about your translation. Note anything you were unsure about that you want the moderator to check in particular. Include any other comments that are relevant. 
+Click the Create Review Request button on the top left. This will open a form where you can leave comments about your translation. Note anything you were unsure about that you want the moderator to check in particular. Include any other comments that are relevant.
 
 Then click **Submit**.
 
 ![](./assets/translating-guide-gitlocalize-create-review-request.png)
 
-Now you will see a page where you can commit the changes, but you cannot actually take an action here unless you are a Moderator, so you are finished. 
+Now you will see a page where you can commit the changes, but you cannot actually take an action here unless you are a Moderator, so you are finished.
 
 ![](./assets/translating-guide-gitlocalize-commit.png)
 
@@ -147,19 +147,19 @@ Now you can translate another chapter! Click the language link to go back to the
 
 ## Maintain or Update a Document Translation
 
-After you complete a translation of a document, it is ideal if you can continue to maintain the translation as the document is changed and updated. Documents are updated when the software changes or when improvements and additions to the document are made. 
+After you complete a translation of a document, it is ideal if you can continue to maintain the translation as the document is changed and updated. Documents are updated when the software changes or when improvements and additions to the document are made.
 
-Once you translate a document, any time there is an update to that document it will get sent to GitLocalize and you will receive a notification of the update at the email address associated with your GitHub account. 
+Once you translate a document, any time there is an update to that document it will get sent to GitLocalize and you will receive a notification of the update at the email address associated with your GitHub account.
 
 You can also visit GitLocalize to see if there have been updates that need to be translated, even if you did not do the original translation. If a document shows a percentage un-translated, there is probably an update that needs to be translated.
 
 ![](./assets/translating-guide-gitlocalize-translation-update.png)
 
-If the document shows a status of "Conflict," like in the example below, it probably means the document was translated outside of GitLocalize and so the relationships between the original text and translated text have not been defined. See the section below on "Update a Document Translated Outside of GitLocalize" for further information. 
+If the document shows a status of "Conflict," like in the example below, it probably means the document was translated outside of GitLocalize and so the relationships between the original text and translated text have not been defined. See the section below on "Update a Document Translated Outside of GitLocalize" for further information.
 
 ![](./assets/translating-guide-gitlocalize-conflict.png)
 
-Usually updates will consist of small changes, such as a change to a paragraph, a new paragraph or section, and/or updated screenshots. Sometimes changes will be larger, like a new chapter or substantial changes to the text and/or screenshots. Usually if a document changes substantially, the DIG will release a new version of it and maintain the old version. 
+Usually updates will consist of small changes, such as a change to a paragraph, a new paragraph or section, and/or updated screenshots. Sometimes changes will be larger, like a new chapter or substantial changes to the text and/or screenshots. Usually if a document changes substantially, the DIG will release a new version of it and maintain the old version.
 
 To update the translation, open the guide and find the chapter that needs to be updated, which will not be 100% translated.
 
@@ -175,9 +175,9 @@ Click **Create Review Request** when you have finished translating the updates.
 
 ### Update a Document Translated Outside of GitLocalize
 
-Some PKP documents were translated before GitLocalize was adopted. These translations have been moved into GitLocalize but the translated segments of text need to be manually connected to the original segments of text. Until the segments are connected, the document will show as having "conflicts." 
+Some PKP documents were translated before GitLocalize was adopted. These translations have been moved into GitLocalize but the translated segments of text need to be manually connected to the original segments of text. Until the segments are connected, the document will show as having "conflicts."
 
-To update these translations you can follow the instructions above. Please note that because these documents were translated in the past, there may be a number of significant changes and new segments that need to be translated. 
+To update these translations you can follow the instructions above. Please note that because these documents were translated in the past, there may be a number of significant changes and new segments that need to be translated.
 
 In addition to updating the translation, you will need to connect any segment tinted red to its original segment. This includes screenshots.
 
@@ -192,11 +192,11 @@ Do this for the rest of the red segments on the page.
 
 ## Improve a Document Translation
 
-If a document has already been translated but you think the translation needs to be improved, you can edit an existing translation. 
+If a document has already been translated but you think the translation needs to be improved, you can edit an existing translation.
 
-Follow the instructions above under [Start Translating](#start-translating). The translated text will appear on the right. 
+Follow the instructions above under [Start Translating](#start-translating). The translated text will appear on the right.
 
-You can edit any section that needs improvement and click **Submit** as you finish the section. 
+You can edit any section that needs improvement and click **Submit** as you finish the section.
 
 When you are finished, follow the instructions under **Create Review Request**.
 
@@ -210,15 +210,15 @@ You can look at the structure of an already translated document, such as Learnin
 
 ## Review a Translation
 
-If you are a Language Moderator and a new translation in that language is completed in GitLocalize, you will receive a notification by email that there is a new translation to review. 
+If you are a Language Moderator and a new translation in that language is completed in GitLocalize, you will receive a notification by email that there is a new translation to review.
 
-Go to the [PKP Docs GitLocalize site](https://gitlocalize.com/repo/4035). You will be automatically logged in if you are logged in to GitHub. 
+Go to the [PKP Docs GitLocalize site](https://gitlocalize.com/repo/4035). You will be automatically logged in if you are logged in to GitHub.
 
 Go to the Review Request tab to see the open review request.
 
 ![](./assets/translating-guide-gitlocalize-review-review-request.png)
 
-Click on the review request to open it. The **Conversation** tab will show any comments the translator made. Go to the second **Translated Texts** tab to view the translation. 
+Click on the review request to open it. The **Conversation** tab will show any comments the translator made. Go to the second **Translated Texts** tab to view the translation.
 
 ![](./assets/translating-guide-gitlocalize-review-translated-texts.png)
 
