@@ -1,56 +1,68 @@
-# Capítulo 9: Números
+---
+book: learning-ojs
+version: 3.1
+---
 
-En el menú de la izquierda, seleccione Números para administrar todos los números de su revista.
+# Chapter 9: Issues
 
-![Captura de pantalla de números](./assets/image196.png)
+From the left menu, select Issues to manage all of the issues for your journal.
 
-## Próximos números
-Los próximos números son todos sus números inéditos. Puede crear tantos de estos como desee y programar los envíos a cualquiera de ellos.
+![Future Issues tab in Issues Setting.](./assets/learning-ojs3.1-jm-issues.png)
 
-![Captura de pantalla de próximos números](./assets/image114.png)
+## Future Issues
 
-## Crear número
-Para crear un nuevo número, utilice el enlace Crear número y rellene el formulario.
+Future Issues are all of your unpublished issues. You can create as many of these as you wish, and schedule submissions to any of them.
 
-![Captura de pantalla de crear número](./assets/image1.png)
+### Create Issue
 
-Hay espacios para agregar información de volumen, número, año y título (por ejemplo, Número Especial #1), así como una descripción y una imagen de portada (si es necesario).
+To create a new issue, use the **Create Issue** link and fill in the form.
 
-## Editar Número
-También puede editar un número futuro existente seleccionando la flecha azul a la izquierda de la entrada del número en la página Números futuros.
+![Form to create new Issue.](./assets/learning-ojs-3-issues-create.png)
 
-![Captura de pantalla de editar número](./assets/image135.png)
+There are spaces to add volume, number, year, and title information \(e.g., Special Issue \#1\), as well as a description and a cover image \(if needed\).
 
-Esto revelará un enlace Editar, que abrirá una nueva ventana de información.
+### Edit Issue
 
-![Captura de pantalla de gestión de número](./assets/image120.png)
+You can also edit an existing future issue by selecting the blue arrow to the left of the issue entry on the Future Issues page.
 
-**Tabla de Contenidos**: Para una nueva edición, esta estará vacía, pero para las ediciones que han tenido presentaciones programadas, se listarán aquí.
-Utilice la flecha azul al lado de cada presentación para revelar los enlaces para ir directamente al registro de presentación (más sobre esto en el Capítulo 10) o eliminarlo.
+![Additional drop-down menu options for issues.](./assets/learning-ojs3.1-jm-issues-edit.png)
 
-También puede utilizar el enlace Ordenar para re-ordenar las entradas.
+This will reveal an Edit link, which will open a new window of information.
 
-**Datos del número**: proporciona acceso a los datos de volumen, incidencia y número que introdujo al crear la incidencia por primera vez.
+![Issue Table of Contents.](./assets/learning-ojs-3-issues-details.png)
 
-**Galeradas de ediciones**: Esto le permite cargar la galerada de la edición completa, por ejemplo, un PDF que contiene todos los artículos. Esto será enlazado desde la página web de la edición.
+**Table of Contents**: For a new issue, this will be empty, but for issues that have had submissions scheduled, they will be listed here.
 
-**Identificadores**: Utilice este espacio para agregar un DOI para el problema, si de su revista admite identificadores de nivel de problema.
+Use the blue arrow next to each submission to reveal links to go directly to the submission record \(more about this in Chapter 10\) or remove it.
 
-## Vista previa del número
-Usando esa misma flecha azul también revelará un enlace de Vista Previa, permitiéndole ver el número antes de publicarlo.
+You can also use the Order link to reorder the entries.
 
-## Publicar número
-Una vez que esté satisfecho con el número, pulse el enlace Publicar número para publicarlo en el sitio web de su revista.
+**Issue Data**: This provides access to the volume, issue, number data you entered when first creating the issue.
 
-## Borrar número
-Puede utilizar el enlace Eliminar para eliminar el problema. Los artículos asignados volverán a su estado inédito.
+**Issue Galleys**: This allows you to upload galley of the complete issue -- e.g., one PDF containing all articles. This will be linked from the issue web page.
 
-# Números Anteriores
-En esta pestaña se enumeran todos los números publicados.
+**Identifiers**: Use this space to add a DOI for the issue, if your journal supports issue-level identifiers.
 
-![Captura de pantalla de números publicados](./assets/image53.png)
+### Preview Issue
 
-Al igual que con los números futuros, el uso de la flecha azul revelará opciones similares a las descritas anteriormente (Editar, Vista previa, etc.).
+Using that same blue arrow will also reveal a Preview link, letting you get a look at the issue before publishing it.
 
+### Publish Issue
 
+Once you are happy with the issue hit the Publish Issue link to publish it on your journal website.
 
+By default, all registered users will be notified via email when a new issue is published from the list of Future Issues. To not send a notification of a new issue published, uncheck the box beside “Send notification email to all registered users” before pressing OK.
+
+### Delete Issue
+
+You can use the Delete link to remove the issue. Any assigned articles will revert to their unpublished status.
+
+<hr />
+
+## Back Issues
+
+This tab lists all of your published issues.
+
+![Back Issues tab in Issues Setting.](./assets/learning-ojs3.1-jm-issues-back.png)
+
+As with Future Issues, using the blue arrow will reveal similar options as described above \(Edit, Preview, etc.\).
