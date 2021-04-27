@@ -1,42 +1,48 @@
-# الفصل 8: الأدوات
+---
+book: learning-ojs
+version: 3.1
+---
 
-مقطع الأدوات يمكن الوصول إليه من الشريط الجانبي الأيمن.
+# Chapter 11: Tools
 
-![](./assets/learning-ojs3.1-jm-users-tools.png)
+The Tools section can be accessed from the left sidebar menu.
 
-الأدوات تتضمن تبويب الاستيراد/التصدير وتبويب الاحصائيات.
+![Tools side menu options.](./assets/learning-ojs3.1-jm-users-tools.png)
 
-## الاستيراد/التصدير
+Tools consist of an Import/Export tab and a Report Generator tab (called Statistics in OJS 3.1.1 and earlier).
 
-الاستيراد/التصدير تتيح لك إدخال البيانات إلى نظام المجلات المفتوحة فضلاً عن إخراجها منه.
+## Import/Export
 
-![](./assets/learning-ojs3.1-jm-users-tools-import.png)
+Import/Export allows you to easily get data out of your OJS journal and get data into it.
 
-بعض الأدوات تسمح لك بالتصدير إلى  طرف ثالث من الأنظمة مثل PubMed أو DOAJ. وغيرها يسمح باستيراد وتصدير بيانات المستخدمين والمقالات.
+![List of Import/Export plugins available.](./assets/learning-ojs3.1-jm-users-tools-import.png)
 
-للحصول على تعليمات تفصيلية عن الاستيراد والتصدير، أنظر [دليل المشرف](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export).
+Some of the tools allow you to export to third-party systems, such as PubMed or the DOAJ. Others allow you to import or export user or article data.
 
-للمزيد من المعلومات عن إضافة التصدير Crossref XML، أنظر [دليل مشروع المعرفة العامة عن Crossref](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
+For detailed instructions on importing and exporting see the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export).
 
-## الإحصائيات
+For more information on the Crossref XML Export Plugin, see the [PKP Crossref Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
 
-صفحة الاحصائيات تتيح الوصول إلى العديد من التقارير لمجلتك.
+## Report Generator
 
-![](./assets/learning-ojs3.1-jm-users-tools-stats.png)
+The Report Generator page provides access to a variety of reports from your journal.
 
-يقوم النظام بإنشاء التقارير التي تتابع التفاصيل المتعلقة باستعمال الموقع وطلبات التقديم عبر فترة زمنية محددة.  يتم إنشاء التقارير بصيغة CSV والتي تتطلب تطبيقاً لمعالجة الجداول لمعاينتها.
+![List of Reports available.](./assets/learning-ojs3.1-jm-users-tools-stats.png)
 
-- **تقرير المعاينة**: توفر تقريراً عن معاينات اللوح الطباعي والملخص من قبل القراء \(أي، كم مرة تمت معاينة ملف PDF لمقالة معينة\).
-- **تقرير التحكيم**: توفر جدولاً عن كل نشاطات التحكيم.
-- **تقرير الاشتراكات**: توفر جدولاً عن نشاط الاشتراكات.
-- **تقارير COUNTER**: توفر بيانات COUNTER.
-- **تقرير المقالات**: توفر جدولاً عن كل المقالات المنشورة.
-- **تقرير إحصائيات استعمال مشروع المعرفة العامة**: توفر الإحصائيات الأساسية عن استعمال مجلتك.
+The system generates reports that track the details associated with site usage and submissions over a given period of time. Reports are generated in CSV format which requires a spreadsheet application to view.
 
-### إنشاء تقرير مخصص
+- **PKP Usage Statistics Report**: Provides basic usage statistics for your journal.
+- **View Report**: Provides a report on galley and abstract views by readers \(i.e., how many times a PDF for an article has been viewed\).
+- **Articles Report**: Provides a spreadsheet of all published articles.
+- **COUNTER Reports**: Provides COUNTER data.
+- **Subscriptions Report**: Provides a spreadsheet of subscription activity.
+- **Review Report**: Provides a spreadsheet of all review activity.
 
-إستعمل هذه الميزة لإنشاء تقاريرك الخاصة.
 
-![](./assets/learning-ojs3.1-jm-users-tools-stats-custom.png)
+### Generate Custom Report
 
-مزيد من المعلومات عن كيفية إنشاء وإدارة الاحصائيات في نظام المجلات المفتوحة تتوفر في [دليل المشرف](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
+Use this feature to build your own reports.
+
+![Sample custom report settings to generate Issue table of contents page preview aggregated by country and month for this current month.](./assets/learning-ojs3.1-jm-users-tools-stats-custom.png)
+
+More information on how to generate and manage statistics in OJS is provided in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
