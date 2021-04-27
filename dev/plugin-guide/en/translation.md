@@ -44,12 +44,12 @@ import('lib.pkp.classes.plugins.GenericPlugin');
 class TutorialExamplePlugin extends GenericPlugin {
 
   public function getDisplayName() {
-		return __('plugins.generic.tutorialExample.name');
-	}
+        return __('plugins.generic.tutorialExample.name');
+    }
 
-	public function getDescription() {
-		return __('plugins.generic.tutorialExample.description');
-	}
+    public function getDescription() {
+        return __('plugins.generic.tutorialExample.description');
+    }
 }
 ```
 
