@@ -18,8 +18,7 @@ In this guide we cover the general principles of creating universally accessible
 
 When it comes to online journals, two aspects of accessibility need to be addressed:
 
-1. **Website or platform accessibility**, i.e. accessibility of OJS itself. This ensures that readers, authors and editors can navigate OJS regardless of any impairments or assistive technologies they use.
-PKP is working on bringing OJS structure and themes up to the current web accessibility standards - for the status of that work or to contribute see this [update on the PKP website](https://pkp.sfu.ca/2020/05/21/is-your-journal-accessible-working-with-community-to-make-ojs-open-for-all/). Additionally, if you modify your journal’s theme yourself, make sure to follow the guidelines outlined in the [Inclusive and Accessible Theming](/designing-your-journal/en/inclusive-and-accessible-theming) chapter of the [Designing Your Journal Guide](/designing-your-journal/).
+1. **Website or platform accessibility**, i.e. accessibility of OJS itself. This ensures that readers, authors and editors can navigate OJS regardless of any impairments or assistive technologies they use. PKP is working on bringing OJS structure and themes up to the current web accessibility standards - for the status of that work or to contribute see this [update on the PKP website](https://pkp.sfu.ca/2020/05/21/is-your-journal-accessible-working-with-community-to-make-ojs-open-for-all/). Additionally, if you modify your journal’s theme yourself, make sure to follow the guidelines outlined in the [Inclusive and Accessible Theming](/designing-your-journal/en/inclusive-and-accessible-theming) chapter of the [Designing Your Journal Guide](/designing-your-journal/).
 
 2. **Content accessibility**, covered in this guide. Specifically, it applies to:
 
