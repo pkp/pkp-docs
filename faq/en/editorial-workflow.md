@@ -78,8 +78,7 @@ Problems may occur if:
 
 Additionally, you may be encountering problems due to malformed files. If you are having trouble having your HTML files recognized, you may want to run them through [HTML-Tidy](http://www.w3.org/People/Raggett/tidy/) or otherwise ensure that they are valid HTML. HTML files created by word processors in particular may have a hard time being recognized as HTML.
 
-You may also want to [search the forums](https://forum.pkp.sfu.ca/search?q=magic%20mime) for the keywords "magic mime" or for "mimetype" -- many users have had this problem, and there are several discussions on how to solve it.
-See also [this forum article](http://forum.pkp.sfu.ca/t/error-message-on-upload-no-file-uploaded-or-invalid-file-type/29606).
+You may also want to [search the forums](https://forum.pkp.sfu.ca/search?q=magic%20mime) for the keywords "magic mime" or for "mimetype" -- many users have had this problem, and there are several discussions on how to solve it. See also [this forum article](http://forum.pkp.sfu.ca/t/error-message-on-upload-no-file-uploaded-or-invalid-file-type/29606).
 
 ## How do I delete an article from OJS?
 
