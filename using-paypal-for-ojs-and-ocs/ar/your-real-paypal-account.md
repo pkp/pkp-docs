@@ -1,37 +1,12 @@
-تهيئة حساب دفع قياسي عبر موقع PayPal:
+# Use Your Real PayPal Account
 
-[https://www.paypal.com/us/cgi-bin/webscr?cmd=\_onboarding-list&getStarted=true](https://www.paypal.com/us/cgi-bin/webscr?cmd=_onboarding-list&getStarted=true)
+Once you’ve confirmed that payments from the pretend accounts are successful, you can now enable the PayPal Account.
 
-![](assets/Paypal1.png)
+First,  you’ll need to change your PayPal API app from Sandbox to Live API. To get Live API Credentials, go to Tools > Business Setup > Offer PayPal checkout on your website. Click **Set Up Online Payments** followed up **Get Your API Credentials**
 
-أنقر زر Go. إذا كان لديك مسبقاً حساب في PayPal، سجل دخولك الآن. إذا لم يكن، إختر بلدك:
+![Animation showing the user following the previously described process to get to the "Get Your API Credentials" page on PayPal.](assets/Paypal-API-Credentials.gif)
 
-![](assets/Paypal2.png)
+Next, you’ll need to update the PayPal information on your OJS distribution setting with live API credentials and unselect ‘Test Mode’
 
-قم بتعبئة النموذج الآتي:
+![A test payment received in the recent PayPal activity screen.](assets/Paypal-15.png)
 
-![](assets/Paypal3.png)
-
-عبئ كل النماذج ثم احفظ. بعدها أنشئ حساب الأعمال الخاص بك:
-
-![](assets/Paypal4.png)
-
-أكد تسجيلك مستعملاً بريدك الالكتروني:
-
-![](assets/Paypal5.png)
-
-![](assets/Paypal6.png)
-
-بمجرد تأكيدك لبريدك، إذهب إلى معاينة حسابك:
-
-![](assets/Paypal7.png)
-
-مستعملاً رابط "غير مؤكد"، إذهب مباشرة وتحقق من حسابك.
-
-بعدها، من معاينة حسابك، إختر رابط تعديل الملف الشخصي.
-
-في صفحة الملف الشخصي، إختر التفضيل المتعلق بالإشعار الفوري للدفع.
-
-إستعمل زر التعديل لتفعيل إشعار الدفع الفوري \(IPN\).
-
-ضع تأشيرة في خانة الاختيار ثم أضف الرابط أدناه \(ستجد هذا الرابط أيضاً عند تهيئة طرق الدفع في نظام المجلات المفتوحة أو نظام المؤتمرات المفتوحة\).
