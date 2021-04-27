@@ -1,69 +1,74 @@
-# الفصل 12: التحكيم
+---
+book: learning-ojs
+version: 3.3
+---
 
-بصفتك محكماً، ستتلقى التماساً للتحكيم عبر البريد الالكتروني أو عند مراجعتك للوحة القيادة:
+# Reviewing
 
-![](./assets/learning-ojs-3-rev-dashboard.png)
+As a reviewer, you will learn of the review request via email or by checking your dashboard:
 
-من قائمة مساراتي، إبحث عن العنوان ورابط التحكيم. لاحظ غياب أي معلومات إضافية في عملية التحكيم السري التي عادة ما تكون سرية من طرفي المؤلف والمحكم على حد سواء.
+![The assigned submissions queue in reviewer dashboard](./assets/learning-ojs-3-rev-dashboard.png)
 
-عند اختيارك لرابط التحكيم، ستذهب إلى الخطوة الأولى منه بالنسبة إلى طلب التقديم، والذي يكون بمحددات عرض بخلاف ما يراه المحرر، ما يجعله مقتصراً على معطيات قليلة جداً.
+From the My Assigned list, find the title and Review link. Notice the lack of any author information in this Anonymous Reviewer/Anonymous Author peer review process.
 
-![](./assets/learning-ojs-3-rev-step1.png)
+Selecting the Review link will take you to the first review step in the submission record, which is much more limited than the editor’s view, and contains no author information.
 
-هذه الخطوة الأولى تتضمن المقاطع الآتية:
+![A review request](./assets/learning-ojs-3-rev-step1.png)
 
-**إلتماس التحكيم**: تتضمن نصاً يدعوك لأخذ دور المحكم.
+This first step consists of the following sections:
 
-**عنوان المقالة**: يقدم لك عنوان المؤلَّف.
+**Request for Review**: provides some text inviting you to act as a reviewer.
 
-**الملخص**: يعرض لك نص الملخص.
+**Article Title**: provides the title of the article.
 
-مزيداً في أسفل النافذة، ستجد المزيد من المعلومات.
+**Abstract**: provides the abstract text.
 
-![](./assets/learning-ojs-3-rev-step1-3.png)
+Further down the screen, you will find additional information.
 
-إن رابط **معاينة كل تفاصيل طلب التقديم** سيفتح نافذة فيها معلومات إضافية، من ضمنها كل البيانات الوصفية للعمل ما عدا ما يختص بالمؤلف:
+![More of the review request screen](./assets/learning-ojs-3-rev-step1-3.png)
 
-![](./assets/learning-ojs-3-rev-step1-2.png)
+The **View All Submission Details** link will open a window with additional information, including all of the non-author metadata:
 
-لاحظ أن تلك الحقول جميعها غير قابلة للتعديل من قبل المحكم، وهي مقدمة لك فقط من أجل إعطائك فكرة متكاملة عن العمل.
+![The view all submission details screen](./assets/learning-ojs-3-rev-step1-2.png)
 
-أغلق هذه النافذة واستمر أكثر أسفل الشاشة. من هنا يمكنك معاينة جدولة التحكيم، بضمنها كل توقيتات الاستيجاب ذات الصلة.
+Note that none of these fields are editable by the reviewer, and are only provided to help you conduct a thorough review.
 
-من هنا يمكنك رفض التحكيم أو قبوله. إذا اعتذرت عنه، سيتم إقصاؤك من العملية. أما إذا قبلت المهمة، ستنتقل إلى الخطوة 2، وعندها ستكون قادراً على قراءة أي إرشادات تحكيم قد تقدمها لك المجلة.
+Close this window and move further down the screen. From here you can see the Review Schedule, including all of the relevant due dates.
 
-![](./assets/learning-ojs-3-rev-step2.png)
+From here, you can decline or accept the review. If you decline, you will be dropped from the process. If you accept, you will move to review step 2, where you would be able to read any reviewer guidelines provided by the journal.
 
-أنقر **إستمر** للتقدم إلى الخطوة 3. من هنا يمكنك تنزيل نسخة من ملفات التحكيم وإدخال تعليقاتك بشأنه. النافذة الأولى معدة للتعليقات الموجهة إلى المحرر والمؤلف على حد سواء; النافذة الثانية مخصصة إلى المحرر فقط.
+![The reviewer guidelines](./assets/learning-ojs-3-rev-step2.png)
 
-![](./assets/learning-ojs-3-rev-step3.png)
+Hit **Continue** to move to step 3. From here you can download a copy of the review files and enter your review comments. The first window is for comments to the editor and the author; the second window is just for the editor.
 
-بمجرد أن قرأت العمل وأدخلت تعليقاتك بصدده، استعرض إلى أسفل الصفحة حيث يمكنك إختيارياً رفع نسخة معلمة من ملف التحكيم \(تذكر أن تزيل منها أي معلومات شخصية قبل أن تبدأ برفعها\).
+![The download and review tab](./assets/learning-ojs-3-rev-step3.png)
 
-![](./assets/learning-ojs-3-rev-step3-1.png)
+Once you have read the paper and added your comments, scroll down the page to optionally upload a marked up copy of the review file (remember to strip any personal identification from the file before uploading it).
 
-بعدها، عليك أن تقدم توصياتك مستعملاً القائمة المنسدلة.
+![The upload reviewer files and review recommendation drop down](./assets/learning-ojs-3-rev-step3-1.png)
 
-إختياراتك تتضمن:
+Next, you must then make your recommendation using the dropdown menu.
 
-**قبول طلب التقديم**: هو جاهز للانتقال إلى عملية التدقيق كما هو.
+Your choices include:
 
-**التنقيحات مطلوبة**: يتطلب تعديلات طفيفة يمكن للمحرر مراجعتها وقبولها.
+**Accept Submission**: it is ready to go to Copyediting as is.
 
-**إعادة التقديم إلى التحكيم**: يتطلب تعديلات كبيرة وجولة تحكيم أخرى.
+**Revisions Required**: it requires minor changes that can be reviewed and accepted by the editor.
 
-**التقديم في مكان آخر**: لا يبدو أنه يتناسب مع توجهات المجلة ومجال تخصصها.
+**Resubmit for Review**: it requires major changes and another round of peer review.
 
-**رفض طلب التقديم**: فيه من الضعف ما يحول دون قبوله.
+**Resubmit Elsewhere**: it doesn’t seem like a good fit for the focus and scope of this journal.
 
-**أنظر التعليقات**: إذا لم يكن أي من التوصيات أعلاه متوافقاً مع رأيك، يمكنك أن تترك للمحرر تعليقاً توضح فيه بالتفصيل ما يجول في خاطرك.
+**Decline Submission**: it has too many weakness to ever be accepted.
 
-أخيراً، أنقر على زر تقديم التحكيم لإكمال مهمتك. ستتم مطالبتك بتأكيد ذلك.
+**See Comments**: if none of the above recommendations make sense, you can leave a comment for the editor detailing your concerns.
 
-![](./assets/learning-ojs-3-rev-step3-2.png)
+Finally, hit the Submit Review button to complete your task. You’ll be asked to confirm.
 
-أنقر تمام. سيتم أخذك إلى نافذة التأكيد الأخيرة التي ستشكر لك مساهمتك في إنجاح عمل المجلة.
+![The confirmation screen to submit review](./assets/learning-ojs-3-rev-step3-2.png)
 
-![](./assets/learning-ojs-3-rev-step4.png)
+Hit OK. You will be taken to the final confirmation screen thanking you for your work.
 
-هذا كل شيء! مهمة التحكيم قد انتهت بالنسبة لك.
+![The review submitted completion screen](./assets/learning-ojs-3-rev-step4.png)
+
+That's it! The review is now complete.
