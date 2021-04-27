@@ -18,8 +18,9 @@ Each entity is described in a schema file and is represented in the application 
 
 A `DataObject` class offers a simple API to get and set data for an object.
 
-> **Tip:** `DataObject`s perform the role of `Model`s in the MVC (Model-View-Controller) application architecture.
-{:.tip}
+> **Tip:** `DataObject`s perform the role of `Model`s in the MVC (Model-View-Controller) application architecture. 
+> 
+> {:.tip}
 
 Create a new object.
 
@@ -52,8 +53,9 @@ When you omit the locale parameter it will return the value for the currently ac
 $name = $journal->getLocalizedData('name');
 ```
 
-> The `Submission` object works differently. It will fall back to the submission's locale, not the journal's primary locale.
-{:.notice}
+> The `Submission` object works differently. It will fall back to the submission's locale, not the journal's primary locale. 
+> 
+> {:.notice}
 
 Set localized data by passing all locales at once.
 
@@ -112,8 +114,9 @@ A simple schema with two properties, `id` and `title`, would look like this.
 
 The json-schema syntax is documented in [these examples](http://json-schema.org/learn/getting-started-step-by-step.html).
 
-> **Tip:** JSON is a stricter syntax than JavaScript. Use [JSONLint](https://jsonlint.com/) to identify errors in your schema.
-{:.tip}
+> **Tip:** JSON is a stricter syntax than JavaScript. Use [JSONLint](https://jsonlint.com/) to identify errors in your schema. 
+> 
+> {:.tip}
 
 ### Schema extensions
 
@@ -172,8 +175,9 @@ The application will expect to interact with this property as though it were a l
 
 Any validation rules will be applied to each locale value in the set.
 
-> Data described as an object in json-schema is expected to be an associative array in PHP.
-{:.warning}
+> Data described as an object in json-schema is expected to be an associative array in PHP. 
+> 
+> {:.warning}
 
 ### App properties
 
@@ -183,13 +187,13 @@ When a property should be added to an entity in one application but not another,
 
 ```json
 {
-	"title": "Context",
-	"description": "A journal or press.",
-	"type": "object",
-	"properties": {
-		"about": {
-			"type": "string",
-			"multilingual": true
+    "title": "Context",
+    "description": "A journal or press.",
+    "type": "object",
+    "properties": {
+        "about": {
+            "type": "string",
+            "multilingual": true
     }
   }
 }
@@ -199,12 +203,12 @@ When a property should be added to an entity in one application but not another,
 
 ```json
 {
-	"title": "Journal",
-	"description": "A journal.",
-	"properties": {
-		"abbreviation": {
-			"type": "string",
-			"multilingual": true
+    "title": "Journal",
+    "description": "A journal.",
+    "properties": {
+        "abbreviation": {
+            "type": "string",
+            "multilingual": true
     }
   }
 }
@@ -228,15 +232,15 @@ Add an `institutionalHome` property to the `Context` entity.
 
 ```php
 HookRegistry::register('Schema::get::context', function($hookName, $args) {
-	$schema = $args[0];
-	$schema->properties->institutionalHome = (object) [
-		'type' => 'string',
-		'apiSummary' => true,
-		'multilingual' => true,
-		'validation' => ['nullable']
-	];
+    $schema = $args[0];
+    $schema->properties->institutionalHome = (object) [
+        'type' => 'string',
+        'apiSummary' => true,
+        'multilingual' => true,
+        'validation' => ['nullable']
+    ];
 
-	return false;
+    return false;
 });
 ```
 
@@ -244,13 +248,13 @@ Require a journal acronym to be 3 characters or less.
 
 ```php
 HookRegistry::register('Schema::get::context', function($hookName, $args) {
-	$schema = $args[0];
+    $schema = $args[0];
   if (!property_exists($schema->properties, 'acronym')) {
     return;
   }
-	$schema->properties->acronym->validation = ['max:3'];
+    $schema->properties->acronym->validation = ['max:3'];
 
-	return false;
+    return false;
 });
 ```
 
