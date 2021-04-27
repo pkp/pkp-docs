@@ -8,13 +8,13 @@
 To access detailed system information, from the Site Administration page, under the Administrative Functions menu, click the **System Information** link.
 
 
-  
 
-  
+
+
 ![System Information](images/chapter4/system_info.png)
 
-  
-  
+
+
 OJS Version information shows which version is currently installed, and your version history including any upgrades. You can click the **Check for updates** link to see if you are using the most recent version of OJS.
 
 The OJS Configuration section displays all of the configuration options and their values as they are in config.inc.php. You can find more information about config.inc.php configuration parameters in the file itself.
