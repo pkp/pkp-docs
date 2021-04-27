@@ -1,5 +1,10 @@
-# موسوعة مشروع المعرفة العامة والترجمات
+---
+book: translating-guide
+version: 3.1
+---
 
-إن موسوعة مشروع المعرفة العامة تتضمن معلومات عن أعمال تطوير في المشروع. هذاالأمر مهم أيضاً بالنسبة إلى المترجمين الذين يرغبون في فهم استعمال مشروع المعرفة العامة لتقنيات git وموقع Github.
+# The PKP wiki and translations
 
-الموسوعة تم استعمالها لتوفير معلومات عن اللغات المتوفرة في المشروع. هناك تعريف بالمترجمين مع ربوابط للمزيد من الموارد (كالقواميس، العبارات الدارجة، نماذج من المجلات). 
+The PKP wiki contains information on PKP development work. This is also important for translators who want to understand PKP's use of git and Github.
+
+The wiki is being used to hold information on available locales. It credits translators and links to additional resources (like dictionaries, common phrases, journal examples). 
