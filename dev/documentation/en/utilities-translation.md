@@ -6,8 +6,9 @@ title: Translation - Technical Documentation - OJS|OMP|OPS
 
 PKP's applications support multilingual publishing. This means the application can be translated into any language. It also means that each journal, press or preprint server can publish material in more than one language. This chapter will describe how to use translations and work with multilingual data.
 
-> This guide describes how to work with translations when coding for PKP applications. Visit the [translating guide](./translating) to create or edit a translation of PKP software.
-{:.notice}
+> This guide describes how to work with translations when coding for PKP applications. Visit the [translating guide](./translating) to create or edit a translation of PKP software. 
+> 
+> {:.notice}
 
 ## Translations
 
@@ -46,8 +47,9 @@ msgstr "Completed: {$dateCompleted}"
 $label = __('common.completed.date', ['dateCompleted' => $dateCompleted]);
 ```
 
-> Never combine two localized phrases together. Every language has its own grammar and the order of words and sentences may change. Instead of `"View: " . $name` include the param in the localized string: `"View: {$name}"`.
-{:.warning}
+> Never combine two localized phrases together. Every language has its own grammar and the order of words and sentences may change. Instead of `"View: " . $name` include the param in the localized string: `"View: {$name}"`. 
+> 
+> {:.warning}
 
 Locale strings are divided into separate files and each file is loaded when it is needed. If the application is asked to translate a locale key that is contained within a locale file that has not been loaded, it will return the locale key untranslated and wrapped in `##` so that it can be identified and fixed.
 
@@ -80,8 +82,9 @@ Pass named parameters to the `{translate}` function to replace variables in the 
 
 A journal, press or preprint server may publish in more than one language. For that reason, all data objects and forms must be built to accept content in more than one language.
 
-> The Entities chapter describes how to [get multilingual data in the DataObject class](/dev/documentation/en/architecture-entities#dataobject-class) and how to [define multilingual properties in the schema](/dev/documentation/en/architecture-entities#multilingual).
-{:.notice}
+> The Entities chapter describes how to [get multilingual data in the DataObject class](/dev/documentation/en/architecture-entities#dataobject-class) and how to [define multilingual properties in the schema](/dev/documentation/en/architecture-entities#multilingual). 
+> 
+> {:.notice}
 
 Each journal, press, or preprint server can enable a locale in the UI, forms and submissions.
 
