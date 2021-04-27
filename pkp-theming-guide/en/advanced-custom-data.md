@@ -12,30 +12,30 @@ The following example will make a new Smarty variable, `{$myCustomData}`, availa
 
 ```php
 class DocsThemePlugin extends ThemePlugin {
-	/**
-	 * Initialize the theme
-	 */
-	public function init() {
-		HookRegistry::register ('TemplateManager::display', array($this, 'loadTemplateData'));
-	}
+    /**
+     * Initialize the theme
+     */
+    public function init() {
+        HookRegistry::register ('TemplateManager::display', array($this, 'loadTemplateData'));
+    }
 
-	/**
-	 * Fired when the `TemplateManager::display` hook is called.
-	 *
-	 * @param string $hookname
-	 * @param array $args [$templateMgr, $template, $sendContentType, $charset, $output]
-	 */
-	public function loadTemplateData($hookName, $args) {
+    /**
+     * Fired when the `TemplateManager::display` hook is called.
+     *
+     * @param string $hookname
+     * @param array $args [$templateMgr, $template, $sendContentType, $charset, $output]
+     */
+    public function loadTemplateData($hookName, $args) {
 
-		// Retrieve the TemplateManager
-		$templateMgr = $args[0];
+        // Retrieve the TemplateManager
+        $templateMgr = $args[0];
 
-		// Attach a custom piece of data to the TemplateManager
-		$myCustomData = 'This is my custom data. It could be any PHP variable.';
-		$templateMgr->assign('myCustomData', $myCustomData);
+        // Attach a custom piece of data to the TemplateManager
+        $myCustomData = 'This is my custom data. It could be any PHP variable.';
+        $templateMgr->assign('myCustomData', $myCustomData);
 
-		return false;
-	}
+        return false;
+    }
 }
 ```
 
@@ -43,35 +43,35 @@ Perhaps you want to display your latest announcement in the footer of your site,
 
 ```php
 class DocsThemePlugin extends ThemePlugin {
-	/**
-	 * Initialize the theme
-	 */
-	public function init() {
-		HookRegistry::register ('TemplateManager::display', array($this, 'loadTemplateData'));
-	}
+    /**
+     * Initialize the theme
+     */
+    public function init() {
+        HookRegistry::register ('TemplateManager::display', array($this, 'loadTemplateData'));
+    }
 
-	/**
-	 * Fired when the `TemplateManager::display` hook is called.
-	 *
-	 * @param string $hookname
-	 * @param array $args [$templateMgr, $template, $sendContentType, $charset, $output]
-	 */
-	public function loadTemplateData($hookName, $args) {
+    /**
+     * Fired when the `TemplateManager::display` hook is called.
+     *
+     * @param string $hookname
+     * @param array $args [$templateMgr, $template, $sendContentType, $charset, $output]
+     */
+    public function loadTemplateData($hookName, $args) {
 
-		// Retrieve the TemplateManager
-		$templateMgr = $args[0];
+        // Retrieve the TemplateManager
+        $templateMgr = $args[0];
 
-		// Attach the latest 3 announcements if they're enabled for this journal
-		$request = Application::get()->getRequest();
-		$journal = $request->getJournal();
-		if ($journal && $journal->getSetting('enableAnnouncements') {
-			$announcementDao = DAORegistry::getDAO('AnnouncementDAO');
-			$announcements =& $announcementDao->getNumAnnouncementsNotExpiredByAssocId(ASSOC_TYPE_JOURNAL, $journal->getId(), 3);
-			$templateMgr->assign('announcements', $announcements->toArray());
-		}
+        // Attach the latest 3 announcements if they're enabled for this journal
+        $request = Application::get()->getRequest();
+        $journal = $request->getJournal();
+        if ($journal && $journal->getSetting('enableAnnouncements') {
+            $announcementDao = DAORegistry::getDAO('AnnouncementDAO');
+            $announcements =& $announcementDao->getNumAnnouncementsNotExpiredByAssocId(ASSOC_TYPE_JOURNAL, $journal->getId(), 3);
+            $templateMgr->assign('announcements', $announcements->toArray());
+        }
 
-		return false;
-	}
+        return false;
+    }
 }
 ```
 
@@ -82,41 +82,41 @@ We can check the `$template` that's being called before deciding to attach the a
 
 ```php
 class DocsThemePlugin extends ThemePlugin {
-	/**
-	 * Initialize the theme
-	 */
-	public function init() {
-		HookRegistry::register ('TemplateManager::display', array($this, 'loadTemplateData'));
-	}
+    /**
+     * Initialize the theme
+     */
+    public function init() {
+        HookRegistry::register ('TemplateManager::display', array($this, 'loadTemplateData'));
+    }
 
-	/**
-	 * Fired when the `TemplateManager::display` hook is called.
-	 *
-	 * @param string $hookname
-	 * @param array $args [$templateMgr, $template, $sendContentType, $charset, $output]
-	 */
-	public function loadTemplateData($hookName, $args) {
+    /**
+     * Fired when the `TemplateManager::display` hook is called.
+     *
+     * @param string $hookname
+     * @param array $args [$templateMgr, $template, $sendContentType, $charset, $output]
+     */
+    public function loadTemplateData($hookName, $args) {
 
-		// Retrieve the TemplateManager and the template filename
-		$templateMgr = $args[0];
-		$template = $args[1];
+        // Retrieve the TemplateManager and the template filename
+        $templateMgr = $args[0];
+        $template = $args[1];
 
-		// Don't do anything if we're not loading the right template
-		if ($template != 'frontend/pages/article.tpl') {
-			return false;
-		}
+        // Don't do anything if we're not loading the right template
+        if ($template != 'frontend/pages/article.tpl') {
+            return false;
+        }
 
-		// Attach the latest 3 announcements if they're enabled for this journal
-		$request = Application::get()->getRequest();
-		$journal = $request->getJournal();
-		if ($journal && $journal->getSetting('enableAnnouncements')) {
-			$announcementDao = DAORegistry::getDAO('AnnouncementDAO');
-			$announcements =& $announcementDao->getNumAnnouncementsNotExpiredByAssocId(ASSOC_TYPE_JOURNAL, $journal->getId(), 3);
-			$templateMgr->assign('announcements', $announcements->toArray());
-		}
+        // Attach the latest 3 announcements if they're enabled for this journal
+        $request = Application::get()->getRequest();
+        $journal = $request->getJournal();
+        if ($journal && $journal->getSetting('enableAnnouncements')) {
+            $announcementDao = DAORegistry::getDAO('AnnouncementDAO');
+            $announcements =& $announcementDao->getNumAnnouncementsNotExpiredByAssocId(ASSOC_TYPE_JOURNAL, $journal->getId(), 3);
+            $templateMgr->assign('announcements', $announcements->toArray());
+        }
 
-		return false;
-	}
+        return false;
+    }
 }
 ```
 
