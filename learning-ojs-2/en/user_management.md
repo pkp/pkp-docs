@@ -7,8 +7,7 @@ In addition to managing the journal web site, the Journal Manager is also respon
 
 
 
-To see a list of all of your journal's registered users, select **Users Enrolled in this Journal.
-**
+To see a list of all of your journal's registered users, select **Users Enrolled in this Journal. **
 
 ![Users Enrolled in this Journal](images/chapter5/jm_users_2.png)
 
