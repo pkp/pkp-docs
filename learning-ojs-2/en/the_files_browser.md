@@ -6,7 +6,7 @@ The Files Browser is an advanced feature that allows the files and directories a
 
 > **Note**  
 > 
-> The Files Browser does not currently allow access to the journal's ```public```/ directory.  
+> The Files Browser does not currently allow access to the journal's `public`/ directory.
 
 
 To access Files Browser, select the link from the Journal Management Pages.
