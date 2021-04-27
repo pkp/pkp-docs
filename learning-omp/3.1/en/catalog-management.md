@@ -2,6 +2,7 @@
 book: learning-omp
 version: 3.1
 ---
+
 # Catalog Management
 
 This chapter is about managing your press’ catalog, or the grouping of books that are available in various formats to the reading public located off the press home page, and displaying your published content for easy reader access.
@@ -14,7 +15,7 @@ Authors may also assign their original submissions to various categories and ser
 
 You can create a new entry from the list of submissions in Catalog > All Monographs by clicking ‘Add Entry’ on the main panel submenu.
 
-![Red arrow pointing to the Add Entry button on the right of the main panel submenu.]](./assets/learning_omp-catalog-managment_add-entry.png)
+!\[Red arrow pointing to the Add Entry button on the right of the main panel submenu.]\](./assets/learning_omp-catalog-managment_add-entry.png)
 
 Select the submission(s) you want to add to the catalog and click ‘Add Selected to Catalog.’
 
