@@ -15,11 +15,11 @@ This section provides a number of options for access to your journal's content.
 ![Access to Journal Content](images/chapter5/five_steps/access_security.png)
 
 
-  
-* **Additional Site and Article Access Restrictions:** You can further restrict site- and article-level access through the use of user registration, and decide how users are allowed to register themselves. The advantage of selecting these options is that anyone wanted to read your content will need to register, providing you with reliable readership statistics (especially in the absence of subscriptions). The disadvantage, however, is that some potential readers will simply click away from your site rather than creating yet another user account.  
+
+* **Additional Site and Article Access Restrictions:** You can further restrict site- and article-level access through the use of user registration, and decide how users are allowed to register themselves. The advantage of selecting these options is that anyone wanted to read your content will need to register, providing you with reliable readership statistics (especially in the absence of subscriptions). The disadvantage, however, is that some potential readers will simply click away from your site rather than creating yet another user account.
 
 
-![Additional Site and Article Access Restrictions](images/chapter5/five_steps/add_access.png)   
+![Additional Site and Article Access Restrictions](images/chapter5/five_steps/add_access.png)
 
 
 
@@ -28,26 +28,26 @@ This section provides a number of options for access to your journal's content.
 * **User Registration:** Select these options to allow visitors to enroll themselves as Authors, Reviewers, or Readers.
 
 ![User Registration](images/chapter5/five_steps/user_reg.png)
-  
-    
+
+
 
 ### 4.2 Publication Scheduling
 
 
 
-OJS allows you to set the publication schedule that is best for your journal.    
+OJS allows you to set the publication schedule that is best for your journal.
 
 
 ![Publichation Scheduling](images/chapter5/pub_sched_rev.png)
-  
-  
+
+
 
 
 ### 4.3 Identification of Journal Content
 
 
 
-Digital Object Identifiers are becoming increasingly common for online journals, and OJS supports them. You can visit [The DOI System](http://doi.org/) to learn more about registering for a Digital Object Identifier for your journal. A page number option is also available for journals. This is often useful for print journals that are going online.  
+Digital Object Identifiers are becoming increasingly common for online journals, and OJS supports them. You can visit [The DOI System](http://doi.org/) to learn more about registering for a Digital Object Identifier for your journal. A page number option is also available for journals. This is often useful for print journals that are going online.
 
 
 ![Identification of Journal Content](images/chapter5/five_steps/unique.png)
@@ -77,7 +77,7 @@ The Copyeditor edits submissions to improve grammar and clarity, works with auth
 
 
 
-  
+
 ### 4.6 Layout Editors
 
 
@@ -90,17 +90,17 @@ The Layout Editor transforms the copyedited versions of the submission into gall
 
 **Further options in this section include:**
 
- * **Layout Instructions:** The instructions will be made available to layout editors and section editors on the Editing page of each submission.  
+ * **Layout Instructions:** The instructions will be made available to layout editors and section editors on the Editing page of each submission.
 
 ![Layout Instructions](images/chapter5/five_steps/layout_instructions.png)
 
 
 
- * **Layout Templates:** These templates can be created in any file format (e.g., Microsoft Word) and be used by the Layout Editor to ensure a consistent design.  
+ * **Layout Templates:** These templates can be created in any file format (e.g., Microsoft Word) and be used by the Layout Editor to ensure a consistent design.
 
 
 
-![Layout Templates](images/chapter5/five_steps/layout_templates.png)  
+![Layout Templates](images/chapter5/five_steps/layout_templates.png)
 
 
 
@@ -109,14 +109,14 @@ The Layout Editor transforms the copyedited versions of the submission into gall
 
 
 
-![Reference Linking](images/chapter5/five_steps/reference_linking.png)  
+![Reference Linking](images/chapter5/five_steps/reference_linking.png)
 
 
 
-### 4.7 Proofreaders  
+### 4.7 Proofreaders
 
 
-![Proofreaders](images/chapter5/five_steps/proofreaders.png)  
+![Proofreaders](images/chapter5/five_steps/proofreaders.png)
 
 
 The Proofreader carefully reads over the galleys in the various formats in which the journal publishes (as does the author). The Proofreader (and the Author) records any typographic and formatting errors for the Layout Editor to fix. If you have individuals to act as proofreaders, select the first option. If your editors will be acting as proofreaders, select the second option. The instructions will be made available to proofreaders, authors, layout editors, and section editors in the Submission Editing stage.
