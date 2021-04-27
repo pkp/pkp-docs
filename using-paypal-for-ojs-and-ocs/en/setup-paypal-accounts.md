@@ -20,7 +20,7 @@ Fill in the fields and save to create your business account.
 
 ![The PayPal business account registration screen filled in with sample login and business contact information.](./assets/Paypal-4.png)
 
-You will need to enter the type of business from the list provided in the dropbox. This will prompt you to add additional information about your business including Product or Service keyword, estimated total sale, date business was established, and website information. 
+You will need to enter the type of business from the list provided in the dropbox. This will prompt you to add additional information about your business including Product or Service keyword, estimated total sale, date business was established, and website information.
 
 ![PayPal's dropdown list of business types.](./assets/Paypal-5.png)
 
@@ -28,11 +28,11 @@ It will then ask you to complete the Account Holder Info.
 
 ![The personal details fields from the PayPal business account registration process.](./assets/Paypal-6.png)
 
-You should receive an email from Paypal requesting to verify your Paypal account. 
+You should receive an email from Paypal requesting to verify your Paypal account.
 
 ![A verification email from PayPal including a link to confirm the registered email account.](./assets/Paypal-7.png)
 
-Once you have verified your account, you can then set up your payment information in your Account Settings > Business Profile. 
+Once you have verified your account, you can then set up your payment information in your Account Settings > Business Profile.
 
 ![The Settings menu dropdown from the PayPal homepage.](./assets/Paypal-8.png)
 
@@ -46,7 +46,7 @@ Enter your journal's homepage URL and enable Instant Payment Notification (IPN).
 
 We recommend that you set up a PayPal sandbox account in order to test receiving payments by PayPal before using a real account. You can switch to the real PayPal website only after the sandbox account interactions with your journal are working well. This section describes the sandbox-related setup process.
 
-Before we start, let’s clarify the types of accounts, as PayPal's names are a bit confusing. Paypal has two types of accounts that live on the sandbox website. You should distinguish between the developer account and pretend accounts. You first create one and only one developer account. This developer account, in turn, allows you to create pretend accounts with monopoly money. When logging into the [sandbox website](https://www.sandbox.paypal.com/), you may log in either to your real developer account or to one of the many pretend accounts that you have created. 
+Before we start, let’s clarify the types of accounts, as PayPal's names are a bit confusing. Paypal has two types of accounts that live on the sandbox website. You should distinguish between the developer account and pretend accounts. You first create one and only one developer account. This developer account, in turn, allows you to create pretend accounts with monopoly money. When logging into the [sandbox website](https://www.sandbox.paypal.com/), you may log in either to your real developer account or to one of the many pretend accounts that you have created.
 
 1. Go to https://developer.paypal.com/developer/accounts/create
 2. **Create a New Account**. This account has nothing to do with your real PayPal account. It is also not even the test account that you will be using to test Paypal with your site. Instead, it is the PayPal developer account that will allow you, in turn, to create pretend accounts. It is these pretend accounts that you will use to test PayPal interaction with your journal.
