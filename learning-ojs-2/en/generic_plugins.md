@@ -107,7 +107,7 @@ Editors can add new books available for review by clicking the Create Book for R
 Additionally, a book cover image can be uploaded; an Author can be assigned to complete the review at the outset; or the Editor can associate the book to a current submission, in the case that an Author has already submitted the review for consideration.
 
 > **Note**
->
+> 
 > "Books for review" as entered into the system by Editors are distinct from Author submissions; but they must eventually be tied to an Author submission, which is in the end the review itself. Think of the book for review that the Editor enters into the system as a book entity in and of itself, which must eventually be attached to the review of it.
 
 Any book that the Editor has listed for review, and which has not yet been assigned, is available from a new Books for Review link on the topmost navigation bar, and from an Available Books link in the Author's User Home page. Authors can request to review the book by clicking the Request This Book for Review link, which will send a notification request email to the Editor.
