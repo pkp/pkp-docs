@@ -1,289 +1,316 @@
 ---
-book: apprendre-ojs
-version: 3.2
+book: learning-ojs
+version: 3.3
 ---
 
-# Paramètres du flux des travaux
+# Workflow Settings
 
-Les paramètres de flux des travaux vous permettent de configurer diverses parties du flux des travaux éditoriaux de la revue. Le paramètre du flux des travaux comporte 4 onglets principaux.
+The Workflow Settings allow you to configure various parts of the journal's editorial workflow. The workflow setting has 5 main tabs.
 
-## Soumission
+## Submission
 
-Utilisez cette section pour configurer le processus de soumission.
+Use this section to configure the submission process.
 
-### Métadonnées
+### Disable Submissions
 
-Cette section détermine les types de métadonnées qui seront collectées pendant le processus de soumission, telles que les mots-clés et les références.
+A journal manager will be able to disable submissions for the entire section or disable submissions to a specific section or for the journal as a whole.
 
-### Éléments
+Once the setting is enabled, a notification is displayed indicating that submissions have been disabled. When this setting is enabled, users will no longer be able to make submissions in the journal.
 
-Les éléments sont les types de fichiers que les auteurs peuvent téléverser sur le site. En règle générale, un fichier sera le texte de l'article, et d'autres peuvent inclure des transcriptions d'entrevue, des données, des images, etc. Les éléments disponibles pour l'auteur au moment de sa soumission sont répertoriés ici.
+![OJS 3.3 disable submission menu.](./assets/learning-ojs3.3-workflow-disable-submissions.png)
 
-![](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)
+![OJS 3.3 notice about the journal not accepting submissions.](./assets/learning-ojs3.3-workflow-disable-submissions-notification.png)
 
-En utilisant les liens fournis, vous pouvez modifier l' **ordre** des éléments (comment ils seront répertoriés pour l'auteur soumissionnaire), **ajouter un élément** (si quelque chose dont vous avez besoin n'est pas inclus par défaut - par exemple, vidéo), ou **restaurer les valeurs par défaut** ( si quelqu'un a fait trop de modifications et que vous voulez simplement tout réinitialiser).
+### Metadata
 
-#### Modifier un élément
+This section determines what types of metadata will be collected during the submission process, such as keywords and references.
 
-Vous pouvez également modifier chaque élément en sélectionnant la flèche bleue à gauche du nom de l'élément. Cela révélera un lien pour Modifier et un lien pour Supprimer.
+### Components
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-comp-edit.png)
+Components are the file types authors may upload to the site. Typically, one file will be the article text, and others can include interview transcripts, data, images, etc. The components available for the author to choose from when making their submission are listed here.
 
-- **Nom** : il s'agit du nom de l'élément, tel que présenté à l'auteur.
+![OJS 3.3 article components menu.](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)
 
-- **Options** : choisissez comment les fichiers associés à cet élément seront traités et affichés. Tout ce qui est marqué comme fichier dépendant ne sera pas publié.
+Using the links provided, you can change the **Order** of the components \(how they will be listed to the submitting author\), **Add a Component** \(if something you need is not included by default -- e.g., Video\), or **Restore the Defaults** \(if someone has made too many modifications and you just want to reset everything\).
 
-- **Groupement par type de fichier** : déterminez si cet élément est associé au document de soumission, à l'illustration ou s'il s'agit d'un fichier supplémentaire.
+#### Edit Component
 
-- **Clé** : symbole court facultatif pour l'élément.
+You can also edit each component by selecting the blue arrow to the left of the component name. This will reveal an Edit link and a Delete link.
 
-### Liste de vérifications
+![OJS 3.3 component editing menu.](./assets/learning-ojs3.3-jm-settings-workflow-comp-edit.png)
 
-Dans la liste de vérifications  pour la préparation des soumissions, les auteurs doivent cocher leur accord avec chaque élément de cette liste. Utilisez le lien *Commander* pour modifier l'ordre des articles, utilisez le lien *Ajouter un article* pour créer un nouvel article et utilisez la flèche bleue à gauche du nom de l'article pour *modifier* un article existant.
+- **Name**: This is the name of the component, as presented to the author.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
+- **File Type**: Choose how the files associated with this component will be treated and displayed. Anything that is marked as a Dependent file will not be published.
 
-### Directives aux auteurs-es
+- **File Metadata**: Select the type of metadata that these files may receive. Document should be selected for the main publication files, such as the downloadable PDF, so that these files inherit their metadata from the publication. Otherwise, choose Supplementary Content for most file types. Artwork is appropriate for files which require distinct credit, caption and licensing metadata.
 
-Utilisez ce champ pour ajouter des informations pour vos auteurs qui seront utiles pendant le processus de soumission. Ces informations seront affichées sur le site Web de la revue.
+- **Key**: Optional short symbol for the component.
 
-- Directives aux auteurs: Les directives recommandées incluent les types de fichiers requis pour le document de soumission, le format de citation préféré ou tout élément qui devrait être présent dans la soumission.
+### Checklist
 
-- Avis de droit d'auteur: Il s'agit de l'accord de droit d'auteur entre l'auteur et la revue, et l'auteur accepte ces conditions au moment de la soumission.
+In the Submission Preparation Checklist, Authors must check off that they agree with each item on this list. Use the _Order_ link to change the order of the items, use the _Add Item_ link to create a new item, and use the blue arrow to the left of the item name to _Edit_ an existing item.
 
-## Évaluation
+![OJS 3.3 submission checklist editing menu.](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
 
-Cet onglet vous permet de configurer le processus d'évaluation  de votre revue.
+### Author Guidelines
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-review.png)
+Use this field to add information for your authors that will be useful during the submission process. This information will be displayed on the journal website.
 
-### Configuration
+- Author Guidelines: Recommended guidelines include required file types for the submission document, the preferred citation format, or any elements that should be present in the submission.
+- Copyright Notice: This is the author copyright agreement between the author and the journal, and the author agrees to these terms at the time of submission.
 
-**Mode d'évaluation par défaut** : indiquez si votre revue suivra un processus d'évaluation en double aveugle, en simple aveugle ou ouverte.
+## Review
 
-**Restreindre l'accès aux fichiers** : cochez cette option si vous souhaitez que d'évaluateur-trice réponde à la demande avant d'accéder aux fichiers de soumission.
+This tab allows you to configure your journal's review process.
 
-**Activer l'accès en un clic pour l'évaluateur-trice** : activez (par défaut) la première option pour fournir aux réviseurs un accès en un clic à la révision, en évitant d'avoir à accéder au site Web, à se connecter et à trouver la soumission. Pour des raisons de sécurité avec cette option, les éditeurs ne sont pas en mesure de modifier les adresses e-mail ou d'ajouter des CC ou des CCI avant d'envoyer des invitations aux évaluateurs-trices.
+![OJS 3.3 review configuration editing menu.](./assets/learning-ojs3.1-jm-settings-workflow-review.png)
 
-**Délai de réponse par défaut** : indiquez combien de temps les évaluateurs-trices ont pour décider d'accepter ou de refuser une demande d'évaluation de l'éditeur, et combien de temps ils ont pour faire une recommandation.
+### Setup
 
-**Rappels automatisés par e-mail** : les évaluateurs seront automatiquement informés lorsqu'ils seront affectés à un examen; cependant, vous pouvez activer ou désactiver les e-mails de rappel pour les évaluateurs. Utilisez le menu déroulant pour sélectionner le nombre de jours ou "Ne jamais rappeler" sous "Envoyer un rappel si un évaluateur n'a pas répondu à une demande d'examen dans le délai (jours) suivant la date d'échéance de la réponse" pour définir le nombre de jours qui peut passer après la date d'échéance avant que les évaluateurs ne soient rappelés d'accepter ou de rejeter une demande d'examen.
+**Default Review Mode**: Select whether your journal will follow an anonymous reviewer/anonymous author, anonymous reviewer/disclosed author, or open review process.
 
-Utilisez le menu déroulant pour sélectionner le nombre de jours ou "Ne jamais rappeler" sous "Envoyer un rappel si un évaluateur n'a pas répondu à une demande d'examen dans le délai (jours) suivant la date d'échéance de la réponse" pour définir le nombre de jours qui peut passer après la date d'échéance avant que les examinateurs ne soient rappelés de faire une recommandation pour une soumission.
+**Restrict File Access**:Check this off if you want the reviewer to respond to the request before accessing the submission files.
 
-Appuyez sur le bouton **Enregistrer** pour enregistrer vos modifications.
+**One-click Reviewer Access**: Enable (default) the first option to provide reviewers with one-click access to the review, bypassing the need to go to the website, login, and find the submission. For security reasons with this option, editors are not able to modify email addresses or add CCs or BCCs prior to sending invitations to reviewers.
 
-![](./assets/learning-ojs3.1-jm-settings-review-reminders.png)
+**Default Review Deadlines**: Indicate how long reviewers have to decide to accept or decline a review request from the editor, and how long they have to make a recommendation.
 
-Notez que certains paramètres du système doivent être configurés par l'administrateur du site pour être en mesure d'envoyer des emails .Consultez le [Guide de l'Administrateur ](/admin-guide/fr/email) pour plus d'information.
+**Automated Email Reminders**: Reviewers will automatically be notified when they are assigned to a review; however, you may wish to enable or disable reminder emails for reviewers. Use the drop down menu to select either the number of days or “Never Remind” under “Send a reminder if a reviewer has not responded to a review request within the following time (days) after response due date” to set the number of days that can pass after the due date before reviewers will be reminded to accept or reject a review request.
 
-### Conseils pour l'évaluation
+Use the drop down menu to select either the number of days or “Never Remind” under “Send a reminder if a reviewer has not responded to a review request within the following time (days) after response due date” to set the number of days that can pass after the due date before reviewers will be reminded to make a recommendation for a submission.
 
-**Directives pour l'évaluation** : fournissez à vos évaluateurs des critères pour juger de l'aptitude d'une soumission à être publiée dans la presse, qui peuvent inclure des instructions pour préparer une évaluation efficace et utile.
+Hit the **Save** button to record your changes.
 
-**Intérêts divergents** : ajoutez votre déclaration de politique de divulgation des intérêts divergents ici.
+![OJS 3.3 notification of author submission screen.](./assets/learning-ojs3.1-jm-settings-review-reminders.png)
 
-### Formulaire d'évaluation
+Note that some system settings must be configured by the Site Administrator to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
 
-Les formulaires d'évaluation fournissent aux évaluateurs un ensemble de questions auxquelles répondre. Cela peut aider à concentrer leurs commentaires de manière plus utile pour vous.
+### Review Guidance
 
-**Créer un formulaire d'évaluation** : utilisez le lien "Créer un formulaire de révision" pour créer un nouveau formulaire.
+**Review Guidelines**: Provide your reviewers with criteria for judging a submission's suitability for publication in the press, which may include instructions for preparing an effective and helpful review.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-create.png)
+**Competing Interests**: Add your competing interest disclosure policy statement here.
 
-La section "Description et instructions" fournit des informations sur le formulaire et quand l'utiliser pour les gestionnaires de journaux et les éditeurs. Ce contenu n'est pas inclus dans le formulaire que voient les évaluateurs. Vous pouvez ajouter des instructions et des directives pour les évaluateurs dans la section "Directives de révision" (ci-dessous).
+### Review Forms
 
-De retour à la page "Examiner les formulaires", sélectionnez la flèche bleue à gauche du nom du formulaire pour afficher le lien Modifier.
+Review forms provide reviewers with a set of questions to respond to. This can help focus their feedback in ways that is more useful to you.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-edit1.png)
+**Create Review Form**: Use the Create Review Form link to make a new form.
 
-Sélectionnez le lien "Modifier" et remplissez le formulaire.
+![OJS 3.3 new review form creation menu.](./assets/learning-ojs-3-settings-workflow-settings-review-create.png)
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-create-items.png)
+The Description and Instructions provide information about the form and when to use it for Journal Managers and Editors. This content is not included on the form that reviewers see. You can add instructions and guidelines for reviewers under Review Guidelines \(below\).
 
-**Les éléments de formulaire** sont des questions de formulaire.
+Back at the Review Forms page, select the blue arrow to the left of the form name to reveal the Edit link.
 
-Vous pouvez choisir de rendre la question obligatoire pour les évaluateurs et visible par l'auteur.
+![OJS 3.3 review forms with edit menu expanded.](./assets/learning-ojs-3-settings-workflow-settings-review-edit1.png)
 
-Vous pouvez ensuite choisir le type de réponse, notamment:
+Select the Edit link and complete the form.
 
-- case de saisi pour un seul mot
-- zone de texte simple ligne
-- zone de texte élargie  (pour des réponses plus longues)
-- cases à cocher (dans lesquelles le réviseur peut sélectionner plusieurs réponses possibles)
-- boutons radio (où l'évaluateur ne peut sélectionner qu'une seule réponse possible)
-- case déroulante (également dans lequel les évaluateurs ne peuvent sélectionner qu'une seule réponse possible)
+![OJS 3.3 review form edit menu and response options.](./assets/learning-ojs-3-settings-workflow-settings-review-create-items.png)
 
-**Options de réponse** sont les sélections que vous rendez disponibles pour les cases à cocher, les boutons radio ou les cases déroulantes. Un bon exemple de réponse pour une case à cocher est une [échelle de Likert](https://en.wikipedia.org/wiki/Likert_scale) , où l'évaluateur ne doit choisir qu'une seule option: par exemple, bon, neutre, mauvais.
+**Form Items** are form questions.
 
-N'oubliez pas de cliquer sur le bouton **Enregistrer** pour enregistrer vos modifications.
+You can choose whether to make the question mandatory for reviewers and visible to the author.
 
-Utilisez l'onglet **Prévisualiser ** pour tester le formulaire.
+You can then choose the type of response, including:
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review-preview.png)
+* a single word text box
+* a single line text box
+* an extended text box \(for longer answers\)
+* checkboxes \(where the reviewer can select multiple possible responses\)
+* radio buttons \(where the reviewer can only select one possible answer\)
+* dropdown menu \(also where reviewers can only select one possible answer\)
 
-Une fois que vous avez envoyé le formulaire à un évaluateur, vous ne pourrez plus le modifier car cela modifierait l'enregistrement des évaluations existants à l'aide de ce formulaire. Si vous souhaitez apporter des modifications au formulaire d'évaluation à ce stade, vous pouvez copier le formulaire existant et créer une nouvelle version mise à jour.
+**Response Options** are the selections you make available for the checkboxes, radio buttons, or dropdown menus. A good example of a checkbox response is a [Likert scale](https://en.wikipedia.org/wiki/Likert_scale), where the reviewer must choose only one option: E.g., Good, Neutral, Bad.
 
-**Evaluation à l'aveugle** : cochez cette case pour afficher un lien vers des instructions permettant de garantir que tous les fichiers de soumission sont anonymisés.
+Remember to hit the **Save** button to record your changes.
 
-![](./assets/learning-ojs-3-settings-workflow-settings-review2.png)
+Use the **Preview** tab to test out the form.
 
-## Bibliothèque de l'éditeur
+![OJS 3.3 review form preview and response options.](./assets/learning-ojs-3-settings-workflow-settings-review-preview.png)
 
-Le/la dirécteur-trice de la revue et les rédacteurs peuvent télécharger des documents qu'ils aimeraient partager avec les autres utilisateurs de la bibliothèque de l'éditeur. Tout document ajouté dans cette zone sera visible dans la bibliothèque de documents d'un utilisateur dans la bibliothèque de soumission de son manuscrit.
+Once you send the form to a reviewer you will no longer be able to edit it because that would change the record for existing reviews using that form. If you want to make changes to the review form at that point you can copy the existing form and create a new updated version.
 
-Vous pouvez également télécharger ici un fichier que vous souhaitez rendre accessible au public via une URL, vers lequel vous pouvez créer un lien à partir d'autres parties de votre site, y compris les directives de l'auteur, la liste de contrôle de soumission ou une page statique.
+**Anonymous Reviewer/Disclosed Author**: Check this box to display a link for instructions on ensuring all submission files are anonymized.
 
-Les formulaires suggérés qui peuvent être téléversé dans cette zone peuvent inclure le formulaire d'approbation de l'épreuve , la page de couverture des documents supplémentaires et d'autres formulaires liés au flux de travail de vos revues.
+![OJS 3.3 checkbox to display submission anonymization instructions.](./assets/learning-ojs-3-settings-workflow-settings-review2.png)
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-publib1.png)
+## Publisher Library
 
-Pour ajouter un fichier ici, cliquez sur "Ajouter un fichier" dans le coin supérieur droit de la zone Bibliothèque de l'éditeur.
+The Journal Manager and Editors may upload documents that they would like to share with the other users in the Publisher Library. Any document added in this area will be visible within a user’s Document Library in their manuscript’s Submission Library.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-publib2.png)
+You can also upload a file here that you would like to be publicly accessible via a URL, which you can link to from other parts of your site, including the author guidelines, submission checklist, or a static page.
 
-**Nom** : titre du document que vous souhaitez voir apparaître à l'utilisateur
+Suggested forms that can be uploaded in this area can include the galley approval form, supplemental material cover page, and other forms related to your journals workflow.
 
-**Type** : Sélectionnez Marketing, Permission, Rapports, Autre
+![OJS 3.3 publisher library menu.](./assets/learning-ojs3.1-jm-settings-workflow-publib1.png)
 
-**Accès public** : l'activation de cette option permettra aux utilisateurs de télécharger ce fichier à l'aide du lien hypertexte fourni s'il est associé à un lien hypertexte dans d'autres parties de votre site de revue.
+To add a file here, click ‘Add a file’ on the top right corner of the Publisher Library box.
 
-## Courriels
+![OJS 3.3 add a file to the publisher library.](./assets/learning-ojs3.1-jm-settings-workflow-publib2.png)
 
-### Configuration
+**Name**: Title of Document you want to appear to the user
 
-La section vous permet de configurer les courriels envoyés depuis le système.
+**Type**: Select Marketing, Permission, Reports, Other
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-emails.png)
+**Public Access**: Enabling this will allow users to download this file using the hyperlink provided if it is hyperlinked in other parts of your journal site.
 
-**Signature** : Les informations de ce champ seront ajoutées au bas de chaque courriel envoyé par le système.
+## Emails
 
-**Adresse de courriel pour les messages non remis** : une notification sera envoyée à cette adresse e-mail pour tout e-mail envoyé par le système qui ne parvient pas à être livré, par exemple lorsque l'adresse e-mail ciblée n'est plus valide.
+### Email Setup
 
-### Modèles de courriel
+The section allows you to configure the emails that are sent out from the system.
 
-OJS facilites la communication du flux des travaux via l'utilisation de courriels préparés. Vous pouvez voir et modifier ces modèles due courriel préparé ici. Notez que certaines configurations sont obligatoires pour envoyer un e-mail. Voir le [Guide de l'Administrateur](/admin-guide/fr/email) pour plus d'information.
+![OJS 3.3 emails menu.](./assets/learning-ojs3.1-jm-settings-workflow-emails.png)
 
-#### Modifier les modèles de courriel
+**Signature**: The information in this field will be added to the bottom of every email sent out by the system.
 
-Lorsque vous modifiez un modèle de courriel, vous modifiez ce qu'il dit à chaque fois qu'il est utilisé. Pour les courriels envoyés volontairement, comme un message envoyé à un évaluateur lui demandant d'évaluer une soumission, vous pouvez également modifier le contenu du message au moment de son envoi. Cela modifie le contenu de ce message uniquement.
+**Bounce Address**: A notice will be sent to this email address of any system-sent emails that fail to deliver, such as when the targeted email address is no longer valid.
 
-Pour modifier un modèle:
+### Email Templates
 
-1. Accédez aux Paramètres de flux de travail> Courriel> Modèles de courriel préparés
-2. Cliquez sur la flèche bleue à côté du nom du modèle pour afficher les liens en dessous
-3. Cliquez sur Modifier
-4. Apportez des modifications au sujet et au corps du texte. Veillez à ne pas supprimer aucune balise telle que "{$ authorName}:" qui insèrent automatiquement le contenu d'une soumission.
-5. Lorsque vous avez terminé les modifications, cliquez sur Enregistrer.
+OJS facilitates work flow communication through the use of prepared email messages. Please note, some configuration is required to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-email-templates.png)
+You can view and modify the prepared email templates here. You will see a list of email templates under the Emails tab. The title and summary of each email template is displayed in the list.
 
-#### Désactiver les modèles de courriel
+![OJS 3.3 emails templates.](./assets/learning-ojs3.3-jm-settings-workflow-email-templates.png)
 
-Tous les modèles sont activés par défaut lorsque vous installez OJS, mais vous pouvez désactiver certains modèles en cliquant sur le bouton Désactiver. La plupart des modèles qui peuvent être désactivés sont des messages envoyés automatiquement par OJS. La désactivation du modèle signifie que la notification automatique ne sera pas envoyée.
+If you click the arrow beside each email template you can view the message subject and contents and who is the default sender and recipient of the message.
 
-Pour désactiver un modèle:
+![OJS 3.3 editorial assignment template editing screen.](./assets/learning-ojs3.3-jm-settings-workflow-email-template-view.png)
 
-1. Accédez aux Paramètres du flux de travail> Courriel> Modèles de courriel préparés
-2. Cliquez sur la flèche bleue à côté du nom du modèle pour afficher les liens en dessous
-3. Cliquez sur Désactiver (si le bouton n'apparaît pas, ce modèle ne peut pas être désactivé)
+You can search for an email template by keyword by typing something in to the **Search** box.
 
-#### Recharger les modèles de courriel par défaut
+You can click **Filters** to reveal options to filter the templates by status, sent from, sent to, and which workflow stage it is used during. These filters can help you find templates you want to edit.
 
-Si vous avez modifié des modèles de courriel mais que vous souhaitez annuler les modifications et les restaurer à leur contenu par défaut, vous pouvez les réinitialiser:
+![OJS 3.3 email template filtering options.](./assets/learning-ojs3.3-jm-settings-workflow-email-template-filters.png)
 
-1. Accédez aux Paramètres du flux de travail> Courriels> Modèles de courriel préparés
-2. Cliquez sur Réinitialiser tous les modèles
-3. Lorsque le message de confirmation apparaît, cliquez sur OK.
+See [Template Descriptions](#template-descriptions) at the end of this chapter for a table of all email templates and their sender, recipient, and workflow stage.
 
-#### Ajouter un modèle de courriel
+#### Edit email templates
 
-Cliquez sur le bouton **Ajouter un modèle de courriel** pour créer un modèle de courriel personnalisé que vous pouvez utiliser lors de la notification d'un utilisateur ou de l'ajout d'un participant à une soumission. Notez que dans les versions antérieures à OJS 3.1.2, vous pouvez créer un modèle de courriel personnalisé, mais il ne pourra être utilisé à aucun stade du flux de travail.
+When you edit an email template, you change what it will say every time it is used.  For emails that are sent voluntarily, such as a message sent to a reviewer asking them to review a submission, you can also change the contents of the message at the time of sending it. This changes the contents for that message only.
 
-#### Filtres
+To edit a template:
 
-Cliquez ici pour filtrer les modèles de courriel en fonction des éléments suivants: Activé, Désactivé, Modèle personnalisé. Vous pouvez également filtrer les modèles de courriel en fonction de la personne à partir de laquelle ils ont été envoyés et à qui ils sont envoyés.
+1. Go to Workflow Settings > Emails > Prepared Email Templates
+2. Click the blue arrow next to the template name to reveal links below it
+3. Click Edit
+4. Make changes to the subject and the body text. Be careful to not delete any tags such as “{$authorName}:,” which automatically insert content from a submission.
+5. When you’re finished editing, click Save.
 
-#### Ajouter une pièce jointe à un courriel
+#### Disable email templates
 
-Il n'y a pas d'option de pièce jointe directe à un courriel dans OJS 3, mais vous pouvez téléverser et partager des fichiers publics via la Bibliothèque de l'éditeur:
+All of the templates are enabled by default when you install OJS, but you can disable some templates by clicking the Disable button. Most of the templates that can be disabled are messages that are sent automatically by OJS. Disabling the template will mean that the automatic notification will not be sent.
 
-1. Dans Paramètres> Flux des Travaux> Bibliothèque de l'éditeur> Ajouter un fichier, téléverser votre document et cochez la case "Accès public"
-2. Cliquez sur "OK" pour l'URL à générer
-3. Insérez l'URL dans votre courriel
+To disable a template:
 
-Vous pouvez également choisir de modifier un modèle de courriel existant avec cette URL ou de le partager publiquement sur le site Web.
+1. Go to Workflow Settings > Emails > Prepared Email Templates
+2. Click the blue arrow next to the template name to reveal links below it
+3. Click Disable (if the button does not appear, then this template can't be disabled)
 
-#### Descriptions des modèles
+#### Reload default email templates
 
-OJS 3.2 fournit maintenant une description pour chaque modèle décrivant l'expéditeur et le destinataire, étape du flux de travail.
+If you have edited email templates but want to reverse the edits and restore them to their default contents, you can reset them:
 
-Le tableau ci-dessous donne un aperçu des modèles de courriel préparés dans OJS 3.2. Notez que "Rédacteur" fait référence à tout type de rédacteur (par exemple rédacteur de journal, rédacteur de production, etc.). Les colonnes suivantes apparaissent dans le tableau:
+1. Go to Workflow Settings > Emails > Prepared Email Templates
+2. Click Reset All Templates
+3. When the confirmation message appears, click OK.
 
-- **Modèle** : le nom du modèle de courriel.
-- **Description** : une description du modèle.
-- **Expéditeur** : le nom ou la signature qui apparaîtra à la fin du message. Dans certains cas, le système envoie le message automatiquement mais l'expéditeur apparaît comme un utilisateur particulier.
-- **Destinataire** : à qui le courriel peut être envoyé.
-- Étape du **flux des travaux** : l'étape du flux des travaux dans laquelle ce modèle est utilisé.
+#### Add email template
 
-Modèle | Description | Expéditeur | Destinataire | Flux de travail
---- | --- | --- | --- | ---
-CITATION_EDITOR_AUTHOR_QUERY | Cet e-mail permet aux réviseurs de demander des informations supplémentaires sur les références des auteurs. | Réviseur | Author | Révision
-COPYEDIT_REQUEST | Cet e-mail est envoyé par un rédacteur de rubrique au rédacteur d'une soumission pour lui demander de commencer le processus de révision. Il fournit des informations sur la soumission et comment y accéder. | Rédacteur de rubrique | Réviseur | Révision
-EDITOR_ASSIGN | Ce courriel informe un rédacteur de rubrique quelle rédacteur lui a confié la tâche de superviser une soumission tout au long du processus d'édition. Il fournit des informations sur la soumission et comment accéder au site de la revue. | Rédacteur | Rédacteur de rubrique | Soumission
-EDITOR_DECISION_ACCEPT | Cet e-mail du rédacteur ou du rédacteur de rubrique à un auteur les informe d'une décision finale «d'accepter la soumission» concernant leur soumission. | Rédacteur/Rédacteur de rubrique | Auteur | Évaluation
-EDITOR_DECISION_DECLINE | Cet e-mail du rédacteur ou du rédacteur de rubrique à un auteur les informe d'une décision finale de «refus» concernant leur soumission. | Rédacteur/Rédacteur de rubrique | Auteur | Évaluation
-EDITOR_DECISION_INITIAL_DECLINE | Cet e-mail est envoyé à l'auteur si le rédacteur refuse sa soumission dans un premier temps, avant l'étape d'évaluation | Rédacteur/Rédacteur de rubrique | Auteur | Soumission
-EDITOR_DECISION_RESUBMIT | Cet e-mail du rédacteur ou du rédacteur de rubrique à un auteur les informe d'une décision finale de "re-soumettre" concernant leur soumission. | Rédacteur/Rédacteur de rubrique | Auteur | Évaluation
-EDITOR_DECISION_REVISIONS | Cet e-mail du rédacteur ou du rédacteur de rubrique à un auteur les notifie d'une décision finale de «révisions requises» concernant leur soumission. | Rédacteur/Rédacteur de rubrique | Auteur | Évaluation
-EDITOR_DECISION_SEND_TO_EXTERNAL | Cet e-mail du rédacteur ou du rédacteur de rubrique à un auteur l'informe que sa soumission est envoyée à une évaluation externe. | Rédacteur/Rédacteur de rubrique | Auteur | Évaluation
-EDITOR_DECISION_SEND_TO_PRODUCTION | Cet e-mail du rédacteur ou du rédacteur de rubrique à un auteur l'informe que sa soumission est envoyée en production. | Rédacteur/Rédacteur de rubrique | Auteur | Production
-EDITOR_RECOMMENDATION | Cet e-mail du rédacteur de recommandation ou du rédacteur de rubrique aux rédacteurs décisionnaires ou aux rédacteurs de rubrique les notifie d'une recommandation finale concernant la soumission. | Rédacteur/Rédacteur de rubrique de recommendation | Rédacteur/Rédacteur de rubrique | Évaluation
-EMAIL_LINK | Ce modèle de courriel offre à un lecteur inscrit la possibilité d'envoyer des informations sur un article à quelqu'un qui pourrait être intéressé. Il est disponible via les outils de lecture et doit être activé par le/la directeur-trice de la revue dans la page d'administration des outils de lecture. | Directeur/trice de la Revue | Lecteur/trice |
-LAYOUT_COMPLETE | Cet e-mail du rédacteur de mise en page aux rédacteurs de rubrique les informe que le processus de mise en page est terminé. | Éditeur de Mise en Page | Rédacteur | Production
-LAYOUT_REQUEST | Cet e-mail du rédacteur de rubrique aux rédacteurs de mise en page les informe qu'ils ont reçu la tâche de modifier la mise en page d'une soumission. Il fournit des informations sur la soumission et comment y accéder. | Rédacteur | Éditeur de Mise en Page | Production
-LOCKSS_EXISTING_ARCHIVE | Cet e-mail demande au détenteur d'une archive LOCKSS d'envisager d'inclure cette revue dans ses archives. Il fournit l'URL du manifeste de l'éditeur LOCKSS de la revue. | LOCKSS | Directeur/trice de la Revue | Post-production / indexation
-LOCKSS_NEW_ARCHIVE | Cet e-mail encourage le destinataire à participer à l'initiative LOCKSS et à inclure cette revue dans les archives. Il fournit des informations sur l'initiative LOCKSS et les moyens de s'impliquer. | LOCKSS | Directeur/trice de la Revue | Post-production / indexation
-MANUAL_PAYMENT_NOTIFICATION | Ce modèle de courriel est utilisé pour informer un directeur de revue qu'un paiement manuel a été demandé. | Auteur | Directeur/trice de la Revue |
-NOTIFICATION | L'e-mail est envoyé aux utilisateurs enregistrés qui ont choisi de recevoir ce type de notification par e-mail. | Système | Utilisateur enregistré |
-NOTIFICATION_CENTER_DEFAULT | Le message par défaut (vide) utilisé dans le générateur de liste de messages du centre de notifications. |  |  |
-OFR_CANCEL_RESERVATION | Ce modèle de courriel est utilisé pour notifier au rédacteur une réservation d'article OFR annulée. | Évaluateur | Rédacteur | Évaluation
-OFR_NEW_RESERVATION | Ce modèle d'e-mail est utilisé pour notifier le rédacteur d'un article OFR réservé. | Évaluateur | Rédacteur | Évaluation
-OPEN_ACCESS_NOTIFY | Cet e-mail est envoyé aux lecteurs enregistrés qui ont demandé à recevoir un e-mail de notification lorsqu'un problème devient en libre accès. | Évaluateur inscrit | Système | Publier
-ORCID_COLLECT_AUTHOR_ID | Ce modèle de courriel est utilisé pour collecter les identifiants ORCID des auteurs. | Directeur/trice de la Revue/Système | Auteur | Soumission
-ORCID_REQUEST_AUTHOR_AUTHORIZATION | Ce modèle de courriel est utilisé pour demander l'accès aux enregistrements ORCID aux auteurs. | Directeur/trice de la Revue/Système | Auteur | Submission
-PASSWORD_RESET | Cet e-mail est envoyé à un utilisateur enregistré lorsqu'il a réussi à réinitialiser son mot de passe en suivant le processus décrit dans l'e-mail PASSWORD_RESET_CONFIRM. | Système | Utilisateur enregistré |
-PASSWORD_RESET_CONFIRM | Cet e-mail est envoyé à un utilisateur enregistré lorsqu'il indique qu'il a oublié son mot de passe ou ne parvient pas à se connecter. Il fournit une URL qu'ils peuvent suivre pour réinitialiser leur mot de passe. | Système | Utilisateur enregistré |
-New Issue Published | Cet e-mail est envoyé aux lecteurs enregistrés via le lien «Notifier les utilisateurs» dans la page d'accueil du rédacteur . Il informe les lecteurs d'un nouveau numéro et les invite à visiter la revue à une URL fournie. | Système | Utilisateurs enregistrés | Publier
-REVIEWER_REGISTER | Cet e-mail est envoyé à un évaluateur nouvellement inscrit pour l'accueillir dans le système et lui fournir un enregistrement de son nom d'utilisateur et de son mot de passe. | Système | Évaluateur |
-REVIEW_ACK | Cet e-mail est envoyé par un rédacteur de rubrique pour confirmer la réception d'une évaluation terminée et remercier l'évaluateur pour ses contributions. | Rédacteur de rubrique/ Rédacteur | Évaluateur | Évaluation
-REVIEW_CANCEL | Cet e-mail est envoyé par le rédacteur de rubrique à un évaluateur dont la soumission est en cours pour l'informer que l'évaluation a été annulée. | Évaluateur | Rédacteur/Rédacteur de rubrique | Évaluation
-REVIEW_CONFIRM | Cet e-mail est envoyé par un évaluateur au rédacteur de rubrique en réponse à une demande d'évaluation pour informer le rédacteur de rubrique que la demande d'évaluation a été acceptée et sera complétée à la date spécifiée. | Évaluateur | Rédacteur/Rédacteur de rubrique | Évaluation
-REVIEW_DECLINE | Cet e-mail est envoyé par un évaluateur au rédacteur de rubrique en réponse à une demande d'évaluation pour informer le rédacteur de rubrique que la demande de évaluation a été refusée. | Évaluateur | Rédacteur/Rédacteur de rubrique | Évaluation
-REVIEW_REINSTATE | Cet e-mail est envoyé par le rédacteur de rubrique à un évaluateur qui a une évaluation de soumission en cours pour l'informer qu'une évaluation annulée a été rétablie. | Rédacteur/Rédacteur de rubrique | Évaluateur | Évaluation
-REVIEW_REMIND | Cet e-mail est envoyé par un rédacteur de rubrique pour rappeler à un évaluateur que son évaluation est due. | Rédacteur/Rédacteur de rubrique | Évaluateur | Évaluation
-REVIEW_REMIND_AUTO | Cet e-mail est automatiquement envoyé lorsque la date d'échéance d'un évaluateur est écoulée (voir Options d'évaluation  sous Paramètres> Flux des travaux> Évaluation) et que l'accès en un clic est désactivé. Les tâches planifiées doivent être activées et configurées (voir le fichier de configuration du site). | Système | Évaluateur | Évaluation
-REVIEW_REMIND_AUTO_ONECLICK | Cet e-mail est automatiquement envoyé lorsque la date d'échéance d'un évaluateur est écoulée (voir Options d'évaluation  sous Paramètres> Flux des travaux> Évaluation) et que l'accès en un clic est désactivé. Les tâches planifiées doivent être activées et configurées (voir le fichier de configuration du site). | Système | Évaluateur | Évaluation
-REVIEW_REMIND_ONECLICK | Cet e-mail est envoyé par un rédacteur de rubrique pour rappeler à un évaluateur que son évaluation est due. | Rédacteur/Rédacteur de rubrique | Évaluateur | Évaluation
-REVIEW_REQUEST | Cet e-mail envoyé par le rédacteur de rubrique à un évaluateur demande à l'évaluateur d'accepter ou de refuser la tâche d'évaluation d'une soumission. Il fournit des informations sur la soumission telles que le titre et le résumé, une date d'échéance de la révision et comment accéder à la soumission elle-même. Ce message est utilisé lorsque le processus d'évaluation standard est sélectionné dans Gestion> Paramètres> Flux des Travaux> Évaluation. (Sinon, voir REVIEW_REQUEST_ATTACHED.) | Rédacteur/Rédacteur de rubrique | Évaluateur | Évaluation
-REVIEW_REQUEST_ATTACHED | Cet e-mail est envoyé par le rédacteur de rubrique à un évaluateur pour lui demander d'accepter ou de refuser la tâche d'évaluation d'une soumission. Il comprend la soumission en pièce jointe. Ce message est utilisé lorsque le processus d'évaluation des pièces jointes aux e-mails est sélectionné dans Gestion> Paramètres> Flux des travaux>Évaluation. (Sinon, consultez REVIEW_REQUEST.) | Rédacteur/Rédacteur de rubrique | Évaluateur | Évaluation
-REVIEW_REQUEST_ATTACHED_SUBSEQUENT | Cet e-mail est envoyé par le rédacteur de rubrique à un évaluateur pour lui demander d'accepter ou de refuser la tâche de évaluation d'une soumission pour un deuxième cycle de révision ou plus. Il comprend la soumission en pièce jointe. Ce message est utilisé lorsque le processus d'évaluation des pièces jointes aux e-mails est sélectionné dans Gestion> Paramètres> Flux des travaux> Évaluation. (Sinon, consultez REVIEW_REQUEST_SUBSEQUENT.) | Rédacteur/Rédacteur de rubrique | Évaluateur | Évaluation
-REVIEW_REQUEST_ONECLICK | Cet e-mail envoyé par le rédacteur de rubrique à un évaluateur demande à l'évaluateur d'accepter ou de refuser la tâche d'évaluation d'une soumission. Il fournit des informations sur la soumission telles que le titre et le résumé, une date d'échéance de l'évaluation et comment accéder à la soumission elle-même. Ce message est utilisé lorsque le processus d'évaluation standard est sélectionné dans Gestion> Paramètres> Flux des Travaux> Évaluation et que l'accès de l'évaluateur en un clic est activé. | Rédacteur/Rédacteur de rubrique | Évaluateur |
-REVIEW_REQUEST_ONECLICK_SUBSEQUENT | Cet e-mail du rédacteur de rubrique adressé à un évaluateur demande à l'évaluateur d'accepter ou de refuser la tâche d'évaluation d'une soumission pour un deuxième cycle de révision ou plus. Il fournit des informations sur la soumission telles que le titre et le résumé, une date d'échéance de l'évaluation et comment accéder à la soumission elle-même. Ce message est utilisé lorsque le processus d'évaluation standard est sélectionné dans Gestion> Paramètres>Flux des travaux> Évaluation et que l'accès de l'évaluateur en un clic est activé. | Rédacteur/Rédacteur de rubrique | Évaluateur | Évaluation
-REVIEW_REQUEST_REMIND_AUTO | Cet e-mail est automatiquement envoyé lorsque la date d'échéance de la confirmation d'un évaluateur est écoulée (voir Options de révision sous Paramètres> Flux des travaux> Évaluation) et que l'accès de l'évaluateur en un clic est désactivé. Les tâches planifiées doivent être activées et configurées (voir le fichier de configuration du site). | Système | Évaluateur | Évaluation
-REVIEW_REQUEST_REMIND_AUTO_ONECLICK | Cet e-mail est automatiquement envoyé lorsque la date d'échéance de la confirmation d'un évaluateur est écoulée (voir Options de révision sous Paramètres> Flux des Travaux> Évaluateur) et que l'accès en un clic de l'évaluateur est activé. Les tâches planifiées doivent être activées et configurées (voir le fichier de configuration du site). | Système | Évaluateur | Évaluation
-REVIEW_REQUEST_SUBSEQUENT | Cet e-mail du rédacteur de rubrique adressé à un évaluateur demande à l'évaluateur d'accepter ou de refuser la tâche d'evaluation  d'une soumission pour un deuxième cycle de révision ou plus. Il fournit des informations sur la soumission telles que le titre et le résumé, une date d'échéance de la révision et comment accéder à la soumission elle-même. Ce message est utilisé lorsque le processus de révision standard est sélectionné dans Gestion> Paramètres> Flux des Travaux> Évaluation. (Sinon, consultez REVIEW_REQUEST_ATTACHED_SUBSEQUENT.) | Rédacteur/Rédacteur de rubrique | Évaluateur | Évaluation
-REVISED_VERSION_NOTIFY | Cet e-mail est automatiquement envoyé au rédacteur affecté lorsque l'auteur télécharge une version révisée d'un article. | System | Rédacteur/Rédacteur de rubrique | Évaluation
-STATISTICS_REPORT_NOTIFICATION | Cet e-mail est automatiquement envoyé tous les mois aux rédacteurs  et aux directeurs de la revue pour leur fournir un aperçu de l'intégrité du système. | Système | Redacteur/Directeur/trice de la Revue |
-SUBMISSION_ACK | Cet e-mail, lorsqu'il est activé, est automatiquement envoyé à un auteur lorsqu'il termine le processus de soumission d'un manuscrit à la revue. Il fournit des informations sur le suivi de la soumission tout au long du processus et remercie l'auteur pour la soumission. | Système | Auteur | Soumission
-SUBMISSION_ACK_NOT_USER | Cet e-mail, lorsqu'il est activé, est automatiquement envoyé aux autres auteurs qui ne sont pas des utilisateurs dans OJS spécifié lors du processus de soumission. | Système | Auteur (non enregistré dans OJS) | Soumission
-SUBSCRIPTION_AFTER_EXPIRY | Cet e-mail informe un abonné que son abonnement a expiré. Il fournit l'URL du journal ainsi que les instructions d'accès. | Système | Abonné |
-SUBSCRIPTION_AFTER_EXPIRY_LAST | Cet e-mail informe un abonné que son abonnement a expiré. Il fournit l'URL du journal ainsi que les instructions d'accès. | Système | Abonné |
-SUBSCRIPTION_BEFORE_EXPIRY | Cet e-mail informe un abonné que son abonnement va bientôt expirer. Il fournit l'URL du journal ainsi que les instructions d'accès. | Système | Abonné |
-SUBSCRIPTION_NOTIFY | Cet e-mail informe un lecteur inscrit que le Manager a créé un abonnement pour lui. Il fournit l'URL du journal ainsi que les instructions d'accès. | System | Abonné |
-SUBSCRIPTION_PURCHASE_INDL | Cet e-mail informe le responsable des abonnements qu'un abonnement individuel a été acheté en ligne. Il fournit des informations récapitulatives sur l'abonnement et un lien d'accès rapide à l'abonnement acheté. | Système | Responsable des abonnements |
-SUBSCRIPTION_PURCHASE_INSTL | Cet e-mail informe le responsable des abonnements qu'un abonnement individuel a été acheté en ligne. Il fournit des informations récapitulatives sur l'abonnement et un lien d'accès rapide à l'abonnement acheté. | Système | Responsable des abonnements |
-SUBSCRIPTION_RENEW_INDL | Cet e-mail informe le gestionnaire d'abonnements qu'un abonnement individuel a été renouvelé en ligne. Il fournit des informations récapitulatives sur l'abonnement et un lien d'accès rapide à l'abonnement renouvelé. | System | Responsable des abonnements |
-SUBSCRIPTION_RENEW_INSTL | Cet e-mail informe le gestionnaire d'abonnements qu'un abonnement individuel a été renouvelé en ligne. Il fournit des informations récapitulatives sur l'abonnement et un lien d'accès rapide à l'abonnement renouvelé. | Système | Responsable des abonnements |
-USER_REGISTER | Cet e-mail est envoyé à un utilisateur nouvellement enregistré pour l'accueillir dans le système et lui fournir un enregistrement de son nom d'utilisateur et de son mot de passe. | Système | Utilisateur |
-USER_VALIDATE | Cet e-mail est envoyé à un utilisateur nouvellement enregistré pour valider son compte de messagerie. | Système | Utilisateur | 
+Click the button **Add Email Template** to create a custom email template that you can use when notifying a user or adding a participant to a submission. Note that in versions earlier than OJS 3.1.2, you can create a custom email templates but it will not be available to use at any stage in the workflow.
+
+#### Filters
+
+Click here to filter email templates based on the following: Enabled, Disabled, Custom Template. You can also filter email templates based on who it was sent from and who it is sent to.
+
+#### Add email attachment
+
+There is no direct email attachment option in OJS 3, but you can upload and share public files via the Publisher Library:
+
+1. In Settings > Workflow > Publisher Library > Add a file, upload your document and tick the “Public Access” checkbox
+2. Click "OK" for the URL to be generated
+3. Insert the URL in your email
+
+You can also choose to modify an existing email template with this URL, or share it publicly on the website.
+
+#### Template descriptions
+
+OJS 3.2 now provides a description for every template outlining the sender and recipient, stage of workflow.
+
+The table below provides an overview of the prepared email templates found in OJS 3.2. Note that "Editor" refers to any type of editor (e.g. journal editor, production editor, etc.). The following columns appear in the table:
+
+- **Template**: The name of the email template.
+- **Description**: A description of the template.
+- **Sender**: The name or signature that will appear at the end of the message. In some cases, the system sends the message automatically but the sender appears as a particular user.
+- **Recipient**: Who the email can be sent to.
+- **Workflow** stage: The workflow stage that this template is used in.
+
+| Template                                                                        | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | Sender                             | Recipient                      | Workflow                 |
+| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ------------------------------ | ------------------------ |
+| Announcement - ANNOUNCEMENT                                                     | This email is used to notify users of a new announcement posted by the journal.                                                                                                                                                                                                                                                                                                                                                                                                          | System                             | Registered Users               |                          |
+| Citation Editing - CITATION_EDITOR_AUTHOR_QUERY                               | This email allows copyeditors to request additional information about references from authors.                                                                                                                                                                                                                                                                                                                                                                                           | Copyeditor                         | Author                         | Copyediting              |
+| Copyediting Request - COPYEDIT_REQUEST                                          | This email is sent by a Section Editor to a submission's Copyeditor to request that they begin the copyediting process. It provides information about the submission and how to access it.                                                                                                                                                                                                                                                                                               | Section Editor                     | Copyeditor                     | Copyediting              |
+| Editorial Assignment - EDITOR_ASSIGN                                            | This email notifies a Section Editor that the Editor has assigned them the task of overseeing a submission through the editing process. It provides information about the submission and how to access the journal site.                                                                                                                                                                                                                                                                 | Editor                             | Section Editor                 | Submission               |
+| Editor Decision - EDITOR_DECISION_ACCEPT                                      | This email from the Editor or Section Editor to an Author notifies them of a final "accept submission" decision regarding their submission.                                                                                                                                                                                                                                                                                                                                              | Editor/Section Editor              | Author                         | Review                   |
+| Editor Decision - EDITOR_DECISION_DECLINE                                     | This email from the Editor or Section Editor to an Author notifies them of a final "decline" decision regarding their submission.                                                                                                                                                                                                                                                                                                                                                        | Editor/Section Editor              | Author                         | Review                   |
+| Editor Decision - EDITOR_DECISION_INITIAL_DECLINE                             | This email is send to the author if the editor declines his submission initially, before the review stage                                                                                                                                                                                                                                                                                                                                                                                | Editor/Section Editor              | Author                         | Submission               |
+| Editor Decision - EDITOR_DECISION_RESUBMIT                                    | This email from the Editor or Section Editor to an Author notifies them of a final "resubmit" decision regarding their submission.                                                                                                                                                                                                                                                                                                                                                       | Editor/Section Editor              | Author                         | Review                   |
+| Editor Decision - EDITOR_DECISION_REVISIONS                                   | This email from the Editor or Section Editor to an Author notifies them of a final "revisions required" decision regarding their submission.                                                                                                                                                                                                                                                                                                                                             | Editor/Section Editor              | Author                         | Review                   |
+| Editor Decision - EDITOR_DECISION_SEND_TO_EXTERNAL                          | This email from the Editor or Section Editor to an Author notifies them that their submission is being sent to an external review.                                                                                                                                                                                                                                                                                                                                                       | Editor/Section Editor              | Author                         | Review                   |
+| Editor Decision - EDITOR_DECISION_SEND_TO_PRODUCTION                        | This email from the Editor or Section Editor to an Author notifies them that their submission is being sent to production.                                                                                                                                                                                                                                                                                                                                                               | Editor/Section Editor              | Author                         | Production               |
+| Editor Recommendation - EDITOR_RECOMMENDATION                                   | This email from the recommending Editor or Section Editor to the decision making Editors or Section Editors notifies them of a final recommendation regarding the submission.                                                                                                                                                                                                                                                                                                            | Recommending Editor/Section Editor | Editor/Section Editor          | Review                   |
+| Article of Possible Interest - EMAIL_LINK                                       | This email template provides a registered reader with the opportunity to send information about an article to somebody who may be interested. It is available via the Reading Tools and must be enabled by the Journal Manager in the Reading Tools Administration page.                                                                                                                                                                                                                 | Journal Manager                    | Reader                         |                          |
+| Galleys Complete - LAYOUT_COMPLETE                                              | This email from the Layout Editor to the Section Editor notifies them that the layout process has been completed.                                                                                                                                                                                                                                                                                                                                                                        | Layout Editor                      | Editor                         | Production               |
+| Request Galleys - LAYOUT_REQUEST                                                | This email from the Section Editor to the Layout Editor notifies them that they have been assigned the task of performing layout editing on a submission. It provides information about the submission and how to access it.                                                                                                                                                                                                                                                             | Editor                             | Layout Editor                  | Production               |
+| Archiving Request for {$contextName} - LOCKSS_EXISTING_ARCHIVE                | This email requests the keeper of a LOCKSS archive to consider including this journal in their archive. It provides the URL to the journal's LOCKSS Publisher Manifest.                                                                                                                                                                                                                                                                                                                  | LOCKSS                             | Journal Manager                | Post-Production/Indexing |
+| Archiving Request for {$contextName} - LOCKSS_NEW_ARCHIVE                     | This email encourages the recipient to participate in the LOCKSS initiative and include this journal in the archive. It provides information about the LOCKSS initiative and ways to become involved.                                                                                                                                                                                                                                                                                    | LOCKSS                             | Journal Manager                | Post-Production/Indexing |
+| Article Indexing Error - LUCENE_ARTICLE_INDEXING_ERROR_NOTIFICATION         | This email template is used to notify the technical contact of a journal that an error occurred during article indexing.                                                                                                                                                                                                                                                                                                                                                                 | Lucene search plugin               | Journal Manager                | Post-Production/Indexing |
+| Journal Indexing Error - LUCENE_JOURNAL_INDEXING_ERROR_NOTIFICATION         | This email template is used to notify the technical contact of a journal that an error occurred during journal indexing.                                                                                                                                                                                                                                                                                                                                                                 | Lucene search plugin               | Journal Manager                | Post-Production/Indexing |
+| Journal Search Service Error - LUCENE_SEARCH_SERVICE_ERROR_NOTIFICATION     | This email template is used to notify the technical contact of a journal that an error occurred while trying to access the Solr search                                                                                                                                                                                                                                                                                                                                                   | Lucene search plugin               | Journal Manager                | Post-Production/Indexing |
+| Manual Payment Notification - MANUAL_PAYMENT_NOTIFICATION                     | This email template is used to notify a journal manager contact that a manual payment was requested.                                                                                                                                                                                                                                                                                                                                                                                     | Author                             | Journals Manager               |                          |
+| New notification from {$siteTitle} - NOTIFICATION                               | The email is sent to registered users that have selected to have this type of notification emailed to them. This includes notifications of announcements and new issues published.                                                                                                                                                                                                                                                                                                       | System                             | Registered User                |                          |
+| A message regarding {$contextName} - NOTIFICATION_CENTER_DEFAULT              | The default (blank) message used in the Notification Center Message Listbuilder.                                                                                                                                                                                                                                                                                                                                                                                                         |                                    |                                |                          |
+| Welcome to the the {$siteTitle} mailing list! - NOTIFICATION_MAILLIST_WELCOME | This email is sent to an unregistered user who just registered with the notification mailing list.                                                                                                                                                                                                                                                                                                                                                                                       | System                             | Registered User                |                          |
+| Issue Now Open Access - OPEN_ACCESS_NOTIFY                                    | This email is sent to registered readers who have requested to receive a notification email when an issue becomes open access.                                                                                                                                                                                                                                                                                                                                                           | Registered Reviewer                | System                         | Publish                  |
+| Submission ORCID - ORCID_COLLECT_AUTHOR_ID                                    | This email template is used to collect the ORCID id's from authors.                                                                                                                                                                                                                                                                                                                                                                                                                      | Journals Manager/System            | Author                         | Submission               |
+| Requesting ORCID record access - ORCID_REQUEST_AUTHOR_AUTHORIZATION           | This email template is used to request ORCID record access from authors.                                                                                                                                                                                                                                                                                                                                                                                                                 | Journals Manager/System            | Author                         | Submission               |
+| Password Reset - PASSWORD_RESET                                                 | This email is sent to a registered user when they have successfully reset their password following the process described in the PASSWORD_RESET_CONFIRM email.                                                                                                                                                                                                                                                                                                                          | System                             | Registered User                |                          |
+| Password Reset Confirmation - PASSWORD_RESET_CONFIRM                          | This email is sent to a registered user when they indicate that they have forgotten their password or are unable to login. It provides a URL they can follow to reset their password.                                                                                                                                                                                                                                                                                                    | System                             | Registered User                |                          |
+| New Issue Published - PUBLISH_NOTIFY                                            | This email is not yet used in OJS 3.                                                                                                                                                                                                                                                                                                                                                                                                                                                     | System                             | Registered Users               | Publish                  |
+| Registration as Reviewer with {$contextName} - REVIEWER_REGISTER                | This email is sent to a newly registered reviewer to welcome them to the system and provide them with a record of their username and password.                                                                                                                                                                                                                                                                                                                                           | System                             | Reviewer                       |                          |
+| Article Review Acknowledgement - REVIEW_ACK                                     | This email is sent by a Section Editor to confirm receipt of a completed review and thank the reviewer for their contributions.                                                                                                                                                                                                                                                                                                                                                          | Section Editor/Editor              | Reviewer                       | Review                   |
+| Request for Review Cancelled - REVIEW_CANCEL                                    | This email is sent by the Section Editor to a Reviewer who has a submission review in progress to notify them that the review has been cancelled.                                                                                                                                                                                                                                                                                                                                        | Reviewer                           | Editor/Section Editor          | Review                   |
+| Able to Review - REVIEW_CONFIRM                                                 | This email is sent by a Reviewer to the Section Editor in response to a review request to notify the Section Editor that the review request has been accepted and will be completed by the specified date.                                                                                                                                                                                                                                                                               | Reviewer                           | Editor/Section Editor          | Review                   |
+| Unable to Review - REVIEW_DECLINE                                               | This email is sent by a Reviewer to the Section Editor in response to a review request to notify the Section Editor that the review request has been declined.                                                                                                                                                                                                                                                                                                                           | Reviewer                           | Editor/Section Editor          | Review                   |
+| REVIEW_REINSTATE                                                                | This email is sent by the Section Editor to a Reviewer who has a submission review in progress to notify them that a cancelled review has been reinstated.                                                                                                                                                                                                                                                                                                                               | Editor/Section Editor              | Reviewer                       | Review                   |
+| Submission Review Reminder - REVIEW_REMIND                                      | This email is sent by a Section Editor to remind a reviewer that their review is due.                                                                                                                                                                                                                                                                                                                                                                                                    | Editor/Section Editor              | Reviewer                       | Review                   |
+| Automated Submission Review Reminder - REVIEW_REMIND_AUTO                     | This email is automatically sent when a reviewer's due date elapses (see Review Options under Settings > Workflow > Review) and one-click reviewer access is disabled. Scheduled tasks must be enabled and configured (see the site configuration file).                                                                                                                                                                                                                                 | System                             | Reviewer                       | Review                   |
+| Automated Submission Review Reminder - REVIEW_REMIND_AUTO_ONECLICK            | This email is automatically sent when a reviewer's due date elapses (see Review Options under Settings > Workflow > Review) and one-click reviewer access is enabled. Scheduled tasks must be enabled and configured (see the site configuration file).                                                                                                                                                                                                                                  | System                             | Reviewer                       | Review                   |
+| Submission Review Reminder - REVIEW_REMIND_ONECLICK                           | This email is sent by a Section Editor to remind a reviewer that their review is due.                                                                                                                                                                                                                                                                                                                                                                                                    | Editor/Section Editor              | Reviewer                       | Review                   |
+| Article Review Request - REVIEW_REQUEST                                         | This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management > Settings > Workflow > Review. (Otherwise see REVIEW_REQUEST_ATTACHED.)                                                    | Editor/Section Editor              | Reviewer                       | Review                   |
+| Article Review Request - REVIEW_REQUEST_ATTACHED                              | This email is sent by the Section Editor to a Reviewer to request that they accept or decline the task of reviewing a submission. It includes the submission as an attachment. This message is used when the Email-Attachment Review Process is selected in Management > Settings > Workflow > Review. (Otherwise see REVIEW_REQUEST.)                                                                                                                                                   | Editor/Section Editor              | Reviewer                       | Review                   |
+| Article Review Request - REVIEW_REQUEST_ATTACHED_SUBSEQUENT                   | This email is sent by the Section Editor to a Reviewer to request that they accept or decline the task of reviewing a submission for a second or greater round of review. It includes the submission as an attachment. This message is used when the Email-Attachment Review Process is selected in Management > Settings > Workflow > Review. (Otherwise see REVIEW_REQUEST_SUBSEQUENT.)                                                                                              | Editor/Section Editor              | Reviewer                       | Review                   |
+| Article Review Request - REVIEW_REQUEST_ONECLICK                              | This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management > Settings > Workflow > Review, and one-click reviewer access is enabled.                                                     | Editor/Section Editor              | Reviewer                       |                          |
+| Article Review Request - REVIEW_REQUEST_ONECLICK_SUBSEQUENT                   | This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission for a second or greater round of review. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management > Settings > Workflow > Review, and one-click reviewer access is enabled.             | Editor/Section Editor              | Reviewer                       | Review                   |
+| Article Review Request - REVIEW_REQUEST_REMIND_AUTO                           | This email is automatically sent when a reviewer's confirmation due date elapses (see Review Options under Settings > Workflow > Review) and one-click reviewer access is disabled. Scheduled tasks must be enabled and configured (see the site configuration file).                                                                                                                                                                                                                    | System                             | Reviewer                       | Review                   |
+| Article Review Request - REVIEW_REQUEST_REMIND_AUTO_ONECLICK                | This email is automatically sent when a reviewer's confirmation due date elapses (see Review Options under Settings > Workflow > Review) and one-click reviewer access is enabled. Scheduled tasks must be enabled and configured (see the site configuration file).                                                                                                                                                                                                                     | System                             | Reviewer                       | Review                   |
+| Article Review Request - REVIEW_REQUEST_SUBSEQUENT                            | This email from the Section Editor to a Reviewer requests that the reviewer accept or decline the task of reviewing a submission for a second or greater round of review. It provides information about the submission such as the title and abstract, a review due date, and how to access the submission itself. This message is used when the Standard Review Process is selected in Management > Settings > Workflow > Review. (Otherwise see REVIEW_REQUEST_ATTACHED_SUBSEQUENT.) | Editor/Section Editor              | Reviewer                       | Review                   |
+| Revised Version Uploaded - REVISED_VERSION_NOTIFY                             | This email is automatically sent to the assigned editor when author uploads a revised version of an article.                                                                                                                                                                                                                                                                                                                                                                             | System                             | Editor/Section Editor          | Review                   |
+| STATISTICS_REPORT_NOTIFICATION                                                | This email is automatically sent monthly to editors and journal managers to provide them a system health overview.                                                                                                                                                                                                                                                                                                                                                                       | System                             | Editor/Journals Manager        |                          |
+| Submission Acknowledgement - SUBMISSION_ACK                                     | This email, when enabled, is automatically sent to an author when he or she completes the process of submitting a manuscript to the journal. It provides information about tracking the submission through the process and thanks the author for the submission.                                                                                                                                                                                                                         | System                             | Author                         | Submission               |
+| Submission Acknowledgement - SUBMISSION_ACK_NOT_USER                          | This email, when enabled, is automatically sent to the other authors who are not users within OJS specified during the submission process.                                                                                                                                                                                                                                                                                                                                               | System                             | Author (not registered in OJS) | Submission               |
+| Submission Unsuitable - SUBMISSION_UNSUITABLE                                   | This email sends a message to an author who makes an unsuitable submission to the journal and recommends they submit elsewhere.                                                                                                                                                                                                                                                                                                                                                          | Editor                             | Author                         | Submission               |
+| Subscription Expired - SUBSCRIPTION_AFTER_EXPIRY                              | This email notifies a subscriber that their subscription has expired. It provides the journal's URL along with instructions for access.                                                                                                                                                                                                                                                                                                                                                  | System                             | Subscriber                     |                          |
+| Subscription Expired - Final Reminder - SUBSCRIPTION_AFTER_EXPIRY_LAST        | This email notifies a subscriber that their subscription has expired. It provides the journal's URL along with instructions for access.                                                                                                                                                                                                                                                                                                                                                  | System                             | Subscriber                     |                          |
+| Notice of Subscription Expiry - SUBSCRIPTION_BEFORE_EXPIRY                    | This email notifies a subscriber that their subscription will soon expire. It provides the journal's URL along with instructions for access.                                                                                                                                                                                                                                                                                                                                             | System                             | Subscriber                     |                          |
+| Subscription Notification - SUBSCRIPTION_NOTIFY                                 | This email notifies a registered reader that the Manager has created a subscription for them. It provides the journal's URL along with instructions for access.                                                                                                                                                                                                                                                                                                                          | System                             | Subscriber                     |                          |
+| Subscription Purchase: Individual - SUBSCRIPTION_PURCHASE_INDL                | This email notifies the Subscription Manager that an individual subscription has been purchased online. It provides summary information about the subscription and a quick access link to the purchased subscription.                                                                                                                                                                                                                                                                    | System                             | Subscription Manager           |                          |
+| Subscription Purchase: Institutional - SUBSCRIPTION_PURCHASE_INSTL            | This email notifies the Subscription Manager that an institutional subscription has been purchased online. It provides summary information about the subscription and a quick access link to the purchased subscription.                                                                                                                                                                                                                                                                 | System                             | Subscription Manager           |                          |
+| Subscription Renewal: Individual - SUBSCRIPTION_RENEW_INDL                    | This email notifies the Subscription Manager that an individual subscription has been renewed online. It provides summary information about the subscription and a quick access link to the renewed subscription.                                                                                                                                                                                                                                                                        | System                             | Subscription Manager           |                          |
+| Subscription Renewal: Institutional - SUBSCRIPTION_RENEW_INSTL                | This email notifies the Subscription Manager that an institutional subscription has been renewed online. It provides summary information about the subscription and a quick access link to the renewed subscription.                                                                                                                                                                                                                                                                     | System                             | Subscription Manager           |                          |
+| Journal Registration - USER_REGISTER                                            | This email is sent to a newly registered user to welcome them to the system and provide them with a record of their username and password.                                                                                                                                                                                                                                                                                                                                               | System                             | User                           |                          |
+| Validate Your Account - USER_VALIDATE                                           | This email is sent to a newly registered user to validate their email account.                                                                                                                                                                                                                                                                                                                                                                                                           | System                             | User                           |                          |
