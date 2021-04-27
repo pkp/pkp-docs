@@ -9,7 +9,7 @@ Cookies are used to authenticate a user session against a registered `User`. You
 ```php
 $currentUser = $request->getUser();
 if (!$currentUser) {
-	// user is not logged in
+    // user is not logged in
 }
 ```
 
@@ -37,9 +37,9 @@ When Page Handlers receive `POST`, `PUT` or `DELETE` requests, any form data sho
 
 ```php
 class ExampleForm extends Form {
-	function __construct(...) {
-		$this->addCheck(new FormValidatorCSRF($this));
-	}
+    function __construct(...) {
+        $this->addCheck(new FormValidatorCSRF($this));
+    }
 }
 ```
 
@@ -49,11 +49,11 @@ Controllers must check the CSRF token for any op that receives a `POST`, `PUT` o
 
 ```php
 class IssueGridHandler {
-	function deleteIssue($args, $request) {
-		if (!$request->checkCSRF()) {
-			return new JSONMessage(false);
-		}
-	}
+    function deleteIssue($args, $request) {
+        if (!$request->checkCSRF()) {
+            return new JSONMessage(false);
+        }
+    }
 }
 ```
 
