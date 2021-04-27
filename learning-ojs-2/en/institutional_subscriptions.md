@@ -10,7 +10,7 @@ From the Subscriptions Summary page, Select **Institutional Subscriptions** to c
 ![Subscription Summary](images/chapter5/sub_institution_1.png)
 
 
-On the resulting page, you can view/edit any existing **Institutional Subscriptions**, or use the **Create New Subscription** link to create a new one.  
+On the resulting page, you can view/edit any existing **Institutional Subscriptions**, or use the **Create New Subscription** link to create a new one.
 
 
 ![Institutional Subscription](images/chapter5/sub_institution_2.png)
@@ -20,7 +20,7 @@ In the same way as in Individual Subscriptions, you will have the option to sele
 
 
 
-![Select Subscription Contact](images/chapter5/sub_institution_3.png)  
+![Select Subscription Contact](images/chapter5/sub_institution_3.png)
 
 
 
@@ -31,7 +31,7 @@ If there is no current account holder, use **Create New User** to make one. This
 
 Once completed, this new user can then be selected as a new institutional subscriber.
 
-![Select Subscription Contact](images/chapter5/sub_institution_5.png)  
+![Select Subscription Contact](images/chapter5/sub_institution_5.png)
 
 
 
