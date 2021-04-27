@@ -1,0 +1,7 @@
+# Introduction
+
+PKP periodically makes new releases of OJS available. Most of these are minor releases and include bug fixes, improvements in functionality, and the addition of new features. Some differences between the previous version and the next minor release are so unobtrusive to the user experience that you may not notice the change; other minor releases will require familiarizing yourself with the changes and perhaps incorporating them into your workflow. However, generally they do not create a major disturbance for the journal.
+
+A major release, on the other hand, is a significant change to the software that will be noticeable to all users. OJS 3, released in August 2016, represented a major release of OJS and introduced a new user interface, more flexible publishing workflow, and other significant changes and improvements.
+
+You may want to upgrade to OJS 3 for the increased security, to take advantage of new features, and to keep up with publishing trends and user needs and expectations. These improvements have a major impact on the OJS software, and as a result they will have a major impact on your journal site and workflow. In this guide, we describe some of the changes between OJS 2 and OJS 3 and suggest steps for planning and completing your migration. This guide will be useful for multi-journal installations, a single journal, various kinds of institutions, and publishers. This is a general guide, and the upgrade process may vary by publisher.
