@@ -8,13 +8,11 @@ generateHeadingToc: true
 
 Open Journal Systems offers a variety of tools and Import/Export plugins which allow the Journal Manager to inject data into and extract data from OJS. More information can be found for each plugin's documentation within OJS' plugin directory (`plugins/`).
 
-Import/export functionality is also available as a command-line tool; see `tools/importExport.php` and the command line section for more
-information.
+Import/export functionality is also available as a command-line tool; see `tools/importExport.php` and the command line section for more information.
 
 ## Using the Quick Submit Plugin
 
-The easiest way to import existing data into OJS is by using the Quick Submit plugin. This is used by journals that have a set of
-"ready-to-publish" files (usually PDFs), which need to be uploaded for immediate reader access.
+The easiest way to import existing data into OJS is by using the Quick Submit plugin. This is used by journals that have a set of "ready-to-publish" files (usually PDFs), which need to be uploaded for immediate reader access.
 
 Use cases include:
 
@@ -45,8 +43,7 @@ Next, enter all of the required fields:
 -   Title
 -   Abstract (not always required)
 
-You may need to copy this data directly out of the "ready-to-publish" file and paste into the form. You can also fill in any of the
-non-required fields as necessary for your journal.
+You may need to copy this data directly out of the "ready-to-publish" file and paste into the form. You can also fill in any of the non-required fields as necessary for your journal.
 
 Finally, hit the Save and Continue button (if you are just doing one file) or the Save and Create Another button if you have more to do.
 
@@ -58,8 +55,7 @@ In addition to the Quick Submit plugin, there is another way to expedite the sub
 
 First, make sure you are logged in as a user who is enrolled as both an Editor and an Author. From your User Home, choose the Author Role, and start a submission. Fill out the first two steps of the Author Submission Process as you normally would, keeping in mind that you may need to modify the author metadata information if you are not the original author.
 
-When you reach Step 3 of the submission Process ("Uploading the Submission"), you should upload a galley file, as the file you upload
-here will appear in the final copyediting queue as both an Initial Copyedit file, and as a Galley file. You will still be able to edit, add and remove any galley files at a later step, however. Please note, if you do not upload a file at this point, you will not have the option of expediting the submission process once you are done.
+When you reach Step 3 of the submission Process ("Uploading the Submission"), you should upload a galley file, as the file you upload here will appear in the final copyediting queue as both an Initial Copyedit file, and as a Galley file. You will still be able to edit, add and remove any galley files at a later step, however. Please note, if you do not upload a file at this point, you will not have the option of expediting the submission process once you are done.
 
 Finish the rest of the submission process as normal. If you have uploaded a file, upon completion of Step 5 you will be presented with the option to move the submission directly to the last step of the Editing Queue. Clicking that link will take you from the submission process to the Editing queue.
 
@@ -77,20 +73,19 @@ Please note that there is another way to expedite the submission process and pub
 
 ### Creating the XML Import File
 
-The Articles and Issues XML Plugin is the primary method for batch importing and exporting article-level content. It can be used to import and export single or multiple issues and/or articles, including comprehensive metadata. You can view the complete DTD here: `plugins/importexport/native/native.dtd`. The DTD supports the following as root elements: ``<article>``, ``<articles>``, ``<issue>`` and ``<issues>``.
+The Articles and Issues XML Plugin is the primary method for batch importing and exporting article-level content. It can be used to import and export single or multiple issues and/or articles, including comprehensive metadata. You can view the complete DTD here: `plugins/importexport/native/native.dtd`. The DTD supports the following as root elements: `<article>`, `<articles>`, `<issue>` and `<issues>`.
 
-You can view a sample XML article import file in your OJS installation:
-``plugins/importexport/native/sample.xml``.
+You can view a sample XML article import file in your OJS installation: `plugins/importexport/native/sample.xml`.
 
 There are a handful of things you should be mindful of when importing data.
 
--   Be sure to define the document type appropriately using ``<!DOCTYPE ...>``
+-   Be sure to define the document type appropriately using `<!DOCTYPE ...>`
 -   Your XML file should UTF8-encoded.
 -   Your XML file must validate. Most \*nix systems have access to the [xmllint](http://xmlsoft.org/xmllint.html) program for validation; there are also a number online XML validators, such as [Validome](http://www.validome.org/xml/); and many XML editing tools such as [Liquid XML Editor](http://www.liquid-technologies.com/xml-editor.aspx/), [Oxygen XML](http://www.oxygenxml.com/) and [XMLspy](http://www.altova.com/) can also validate XML files.
 -   Dates should be specified as YYYY-MM-DD.
--   To import a file, you can use ``<embed>`` to place a file directly within your XML document, or use ``<href>`` to link to one.
+-   To import a file, you can use `<embed>` to place a file directly within your XML document, or use `<href>` to link to one.
 
-If you use the ``<embed>`` tag you will have to base64-encode your files. Using ``<embed>`` with a base64-encoded file would look something like this:
+If you use the `<embed>` tag you will have to base64-encode your files. Using `<embed>` with a base64-encoded file would look something like this:
 
 ```
 <galley>
@@ -102,7 +97,7 @@ If you use the ``<embed>`` tag you will have to base64-encode your files. Using 
 </galley>
 ```
 
-You can link to full URLs as well as local files using ``<href>``. A full URL link would look like the following:
+You can link to full URLs as well as local files using `<href>`. A full URL link would look like the following:
 
 ```
 <galley>
@@ -113,8 +108,7 @@ You can link to full URLs as well as local files using ``<href>``. A full URL li
 </galley>
 ```
 
-You can use local linking if your galleys are already stored on the destination machine, but in this case you need to launch the import
-from the command line<!-- (#Using_the_Plugins_from_the_Command_Line "wikilink")-->. Importing a local file would look like the following:
+You can use local linking if your galleys are already stored on the destination machine, but in this case you need to launch the import from the command line<!-- (#Using_the_Plugins_from_the_Command_Line "wikilink")-->. Importing a local file would look like the following:
 
 ```
 <galley>
@@ -125,8 +119,8 @@ from the command line<!-- (#Using_the_Plugins_from_the_Command_Line "wikilink")-
 </galley>
 ```
 
--   For importing HTML galleys, use the ``<htmlgalley>`` element. Otherwise, use the ``<galley>`` element (ie., for PDF/Postscript, audio, video and other files).
--   Some elements can support embedded HTML tags, such as the  abstract element. If you do embed HTML within your document, remember to wrap the HTML within ``<![CDATA[]]>`` tags.
+-   For importing HTML galleys, use the `<htmlgalley>` element. Otherwise, use the `<galley>` element (ie., for PDF/Postscript, audio, video and other files).
+-   Some elements can support embedded HTML tags, such as the  abstract element. If you do embed HTML within your document, remember to wrap the HTML within `<![CDATA[]]>` tags.
 -   To add empty data to required fields, you can add anything, for example a single space, so that the field is not null. See the following example, where Jane Doe does not have an email address:
 
 ```
@@ -159,8 +153,7 @@ from the command line<!-- (#Using_the_Plugins_from_the_Command_Line "wikilink")-
 
 ### Importing Articles and Issues From the Web
 
-The Articles and Issues XML Plugin can be used from the web, from the
-Journal Manager's User Home:
+The Articles and Issues XML Plugin can be used from the web, from the Journal Manager's User Home:
 
 -   Login as the Journal Manager and from your User Home choose Import/Export Data.
 -   Then, choose the Articles and Issues XML Plugin link.
@@ -176,12 +169,11 @@ You can export either single or multiple articles and/or issues from the Journal
 -   Then, choose the Articles and Issues XML Plugin link.
 -   You will be provided with the options to Export Issues or Export Articles. Depending on what you choose, you will be able to export either single or multiple articles, or single or multiple issues at a time. These will be exported in XML format, and can be imported to this or another journal at a later date.
 
-> **Note:** Please note that using this plugin to export articles and issues will not only export all relevant metadata, but will include all article files (HTML, PDF, etc.) embedded within the XML document in Base64 encoding. This can result in large, cumbersome XML files,
-especially when multiple issues are exported at once. Opening them in an editor to view or change any XML data or metadata may be taxing for your computer, and it may take some time to download and/or upload said files, depending on your connection and the resources of the source server.
+> **Note:** Please note that using this plugin to export articles and issues will not only export all relevant metadata, but will include all article files (HTML, PDF, etc.) embedded within the XML document in Base64 encoding. This can result in large, cumbersome XML files, especially when multiple issues are exported at once. Opening them in an editor to view or change any XML data or metadata may be taxing for your computer, and it may take some time to download and/or upload said files, depending on your connection and the resources of the source server.
 
 ## Users XML Plugin
 
-The Users XML Plugin can be used to import and export users and their roles. See the XML DTD in ``plugins/importexport/users/users.dtd`` for more information, as well as the sample file in ``plugins/importexport/users/sample.xml`` and in Appendix B.
+The Users XML Plugin can be used to import and export users and their roles. See the XML DTD in `plugins/importexport/users/users.dtd` for more information, as well as the sample file in `plugins/importexport/users/sample.xml` and in Appendix B.
 
 ### Importing Users
 
@@ -193,21 +185,18 @@ You can import single or multiple users from the Journal Manager's User Home:
 
 ### Creating the Import Users XML File
 
-The Users XML Plugin can be used to import and export single or multiple users. You can view the complete DTD here:
-``plugins/importexport/users/users.dtd``. The root element is ``<users>``.
+The Users XML Plugin can be used to import and export single or multiple users. You can view the complete DTD here: `plugins/importexport/users/users.dtd`. The root element is `<users>`.
 
-You can view a sample XML user import file in Appendix B, and also in your OJS installation at ``plugins/importexport/users/sample.xml``.
+You can view a sample XML user import file in Appendix B, and also in your OJS installation at `plugins/importexport/users/sample.xml`.
 
 There are a handful of things you should be mindful of when importing user data.
 
--   Be sure to define the document type appropriately using ``<!DOCTYPE ...>``
+-   Be sure to define the document type appropriately using `<!DOCTYPE ...>`
 -   Your XML file should UTF8-encoded.
 -   Your XML file must validate. Most \*nix systems have access to the xmllint program for validation; there are also a number online XML validators, such as Validome; and many XML editing tools such as Oxygen XML and XMLspy can also validate XML files.
--   ``<firstname>``, ``<lastname>`` and ``<email>`` are mandatory.
+-   `<firstname>`, `<lastname>` and `<email>` are mandatory.
 -   Usernames and passwords are optional, and will be generated automatically if omitted.
--   If you allow the system to generate usernames and passwords for the  users you are uploading, you can optionally allow the system to
-    email the users with their account credentials. This option can be  found on the Users XML Plugin Page ("Send a notification email to
-    each imported user containing the user's username and password.").  You can require the user change their password when they next log in  by setting the password attribute "change" to "true": ``<password change="true">myoldpassword</password>``
+-   If you allow the system to generate usernames and passwords for the  users you are uploading, you can optionally allow the system to email the users with their account credentials. This option can be  found on the Users XML Plugin Page ("Send a notification email to each imported user containing the user's username and password.").  You can require the user change their password when they next log in  by setting the password attribute "change" to "true": `<password change="true">myoldpassword</password>`
 -   The default password encryption is "plaintext" (ie., none). Encrypted assumes it was encrypted by Validation::encryptCredentials() and is using the same encryption algorithm used by the system.
 -   If the imported file contains any usernames or email addresses that already exist in the system, the user data for those users will not be imported and any new roles to be created will be assigned to the existing users.
 
@@ -235,9 +224,7 @@ The Erudit XML Plugin can be used from the web, from the Journal Manager's User 
 
 ## PubMed XML Export Plugin
 
-The PubMed XML Export Plugin provides an import/export plugin to generate bibliographic information for articles in PubMed standard
-publisher data format XML for indexing in NLM PubMed/MEDLINE. Details on the XML format and data requirements is available at:
-http://www.ncbi.nlm.nih.gov/entrez/query/static/spec.html. More information on this plugin can be found in `plugins/importexport/pubmed`.
+The PubMed XML Export Plugin provides an import/export plugin to generate bibliographic information for articles in PubMed standard publisher data format XML for indexing in NLM PubMed/MEDLINE. Details on the XML format and data requirements is available at: http://www.ncbi.nlm.nih.gov/entrez/query/static/spec.html. More information on this plugin can be found in `plugins/importexport/pubmed`.
 
 ### Exporting Pubmed Information From the Web
 
@@ -249,8 +236,7 @@ The Pubmed XML Plugin can be used from the web, from the Journal Manager's User 
 
 ## Using the Plugins from the Command Line
 
-Import/export plugins can normally also be run from the command line. You can view the applicable plugin names by running the following
-command:
+Import/export plugins can normally also be run from the command line. You can view the applicable plugin names by running the following command:
 
 `php tools/importExport.php list`
 
