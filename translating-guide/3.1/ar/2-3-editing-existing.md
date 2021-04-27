@@ -1,61 +1,66 @@
-## تعديل ترجمة حالية
+---
+book: translating-guide
+version: 3.1
+---
 
-### العمل على ملفات XML
+## Edit an existing translation
+
+### Working with XML files
 
 
+Using the Translation Plugin Tool
+---------------------------------
 
-إنشاء ترجمة يدوية
------------------
+OJS 2.x and OJS/OMP 3.x comes with a translation plugin that makes the task of updating incomplete translations much easier. You can also start a new translation from scratch, although this takes a bit more work initially.
 
-### العثور على الملفات لترجمتها
+### Installation
 
-من أجل ترجمة نظامي المجلات والمؤتمرات المفتوحة إلى لغة أخرى يدوياً، أولاً، عليك بتنزيل النسخة الأخيرة من نظام المجلات المفتوحة أو نظام المؤتمرات  المفتوحة إلى الحاسبة (والتي لا يشترط بها أن تكون ملقم لمواقع الإنترنت: هذا قد يكون عند سطح المكتب) ومن ثم استقطاع الملفات لأغراض الترجمة فقط.
+#### OJS/OMP 3.x
 
-ستحتاج برنامجاً مثل 7-Zip لفك ضغط الملف (وليكن ojs-2.2.3.tar.gz).
+To enable the plugin, log in as a Manager, then select Settings, Website, and Plugins; you'll find the Translator plugin listed with the generic plugins. Enable the plugin. Reload the Website Settings page to find a newly-available <em>Translate</em> link.
 
-عندما تفتح الملف المضغوط ببرنامج فك الضغط ستحصل على مجلد في حاسبتك اسمه يتبع الملف المضغوط (مثلاً ojs-2.2). ضمن ذلك المجلد ستجد المجلدات الفرعية الآتية، حيث تتوضع ملفات XML التي بحاجة إلى ترجمة (الإتجليزية الأمريكية en\_US هي اللغة الافتراضية في النظامين، وعلى هذا الأساس، فهي أكثر اللغات المتوفرة في الحزمة الأصلية اكتمالاً؛ لذلك سنستعملها كلغة الأساس للترجمة):
+#### OJS 2.x
 
-#### ملفات OxS 2.2
+To enable the plugin, log in as a Journal Manager and go to User Home and then System Plugins; you'll find the Translator plugin listed with the generic plugins. Click on the plugin's <em>Enable</em> link. To access the plugin, return to the System Plugin page, scroll down to the plugin, and click the newly-available <em>Translate</em> link.
 
--   locale/en\_US: هذا المجلد يحتوي على ملف اللغة الرئيسي مع
-    أغلب نصوص نظام المجلات المفتوحة.
--   dbscripts/xml/data/locale/en\_US: هذا المجلد يحتوي بيانات
-    قاعدة البيانات، مثل قوالب المراسلات الالكترونية.
--   help/en\_US: هذا المجلد يحتوي ملفات المساعدة لنظام المجلات المفتوحة.
--   registry/locale/en\_US: هذاالمجلد يحتوي نصوص اللغة الإضافية
-    مثل قائمة الدول.
--   rt/en\_US: هذا المجلد يحتوي نصوص أدوات القراءة.
--   plugins/\[plugin category\]/\[plugin name\]/locale، حيثما وُجد:
-    هذه المجلدات تحتوي نصوص اللغة الخاصة بالإضافات.
+You'll now see a list of available (already-installed) locales, and three available actions: <em>Check</em>, <em>Edit</em> and <em>Export</em>.
 
-#### ملفات OxS 2.3+
+### Checking a Translation
 
-بدءً من نظام المجلات المفتوحة 2.3، صار ملف اللغة الرئيسي locale/en\_US مجزءً إلى عدد من الملفات؛ وكذلك الحال مع ملف قوالب المراسلات الذي تم نقله من dbscripts إلى المجلد locale/en\_US directory ؛وأيضاً تم نقل الملفات من registry/locale/en\_US.
+The plugin will show you a list of missing locale files and keys missing from existing locale files.    Using the <em>Check</em> link in the plugin for 2.x will also show extra (unneeded) keys, suspicious key lengths (if your translated key value is substantially longer than the English default), and missing or extra system emails.
 
--   locale/en\_US: هذا المجلد يحتوي عدداً من ملفات اللغة، بضمنها الملف emailTemplates.xml. كل تلك الملفات ينبغي ترجمتها.
--   lib/pkp/locale/en\_US: هذا المجلد يحتوي ملفات اللغة ذات المفاتيح التي تطبق عبر عموم تطبيقات مشروع المعرفة العامة. كل تلك الملفات لا بد من ترجمتها. قد يصدف أن يقوم مترجم آخر يعمل على تطبيق ثانٍ بإنجاز الترجمة لتلك الملفات من جهته؛ تأكد من كون تلك الملفات قد خضعت للترجمة أولاً وباللغة التي تريد إضافتها إلى النظام.
--   help/en\_US: هذا المجلد يحتوي ملفات المساعدة لنظام المجلات المفتوحة.
--   rt/en\_US: هذا المجلد يحتوي أدوات القراءة.
--   plugins/\[plugin category\]/\[plugin name\]/locale، حيثما وُجد: هذه المجلدات تحتوي نصوص اللغة الخاصة بالإضافات.
+If you are missing a locale file, the plugin will allow you to create one and translate the key values from the English default by entering new values against old values into relevant fields. In the plugin for 2.x, any other error will display the error message, plus the offending key value in an editable field.
 
-### تعديل الملفات
+### Editing a Translation
 
-عند فتح ملفات XML، ستجد ملامح مشتركة بينها: أمور توضيحية عبر تعليقات في مطلعها (كلما يظهر بعلامات أول الأسطر) حيث يمكنك تجاهلها بأمان، ثم بعدها أنواع متعددة من معلمات XML. قد تكون هناك أيضاً تعليمات خاصة بكل ملف لغة، موضوعة في حقل التعليقات.
+If you already know where an error is, you can click the <em>Edit</em> link beside the language name you need to fix, and then click the <em>Edit</em> link next to the specific locale file.  In 2.x, clicking the locale filename itself will link you directly to the locale file, which is downloadable.
 
-المكون الآتي بلغة XML موجود في بعض، وليس كل ملفات XML التي يمكنك ترجمتها:
+You will be presented with a list of all keys in that locale file, with their English values alongside your translation values. You can edit your translation values directly here, and save your results, by clicking in the translation value field and making any necessary changes.
+
+In 2.x, if you know the specific key you want to change (say "navigation.journalHelp") enter the key into the search field at the top of the table and press Search: you will be taken to the appropriate page, with the key/value highlighted in yellow.
+
+The "delete" and "add" functions are experimental.
+
+Creating a Manual Translation
+-----------------------------
+
+### Editing the Files
+
+On opening the XML files, you will notice commonalities between each file: Commented-out topmatter (anything appearing in tags) which you can safely ignore, and then various types of XML tags. There may also be instructions for each locale file, placed in a comments field.
+
+The following XML entity exists in some, but not all of the XML files that you can translate:
 
 ```
 <locale name="en_US" full_name="U.S. English">
 ```
 
-هذا ينبغي تعديله إلى اللغة التي أنت بصدد الترجمة إليها، مثل.
-الفرنسية:
+This should be change to the language you are translating to, eg. French:
 
 ```
 <locale name="fr_FR" full_name="Français">
 ```
 
-بعدها ستصل إلى زبدة ملفات اللغة، ألا وهي مفاتيح العبارات، وقيمها. على سبيل المثال، النص الذي عليك ترجمته في النسخة الإنجليزية `locale/en_US/locale.xml` يبدأ هكذا:
+Next you will encounter the meat of the locale files, the message keys and their corresponding values. For example, the text that is to be translated in `locale/en_US/locale.xml` begins like this:
 
 ```
 <message key="common.and">and</message>
@@ -63,36 +68,10 @@
 ...
 ```
 
-وفقط النص المحصور بين معلمات XML هو ما يحتاج إلى الترجمة. هنا، يمكنك معاينة كيف تتم ترجمته إلى الفرنسية، بعد أن يجري حفظ الملف بتسمية `locale/fr_CA/locale.xml`:
+Only the text that sits between the XML tags is in need of translation. Here you can see how that text has been translated into French, after which it has been saved in a file named `locale/fr_CA/locale.xml`:
 
 ```
 <message key="common.and">et</message>
 <message key="common.between">entre</message>
 ...
 ```
-
-### استعمال أداة الترجمة
-
-نظام المجلات المفتوحة 2.2 ونظام المؤتمرات المفتوحة 2.1 وما بعدهما يأتيان بإضافة من شأنها أن تجعل مهمة التحديث على ترجمة غير مكتملة أمراً أسهل بكثير. يمكنك أيضاً الشروع بالترجمة من الصفر، على الرغم من أن ذلك يتطلب القليل من العمل الإضافي عند البدء.
-
-لتمكين إضافة الترجمة، سجل دخولك بصلاحيات رئيس التحرير ثم اذهب إلى صفحة المستخدم الرئيسية، ومن ثم إلى إضافات النظام؛ ستجد أن إضافة الترجمة مدرجة ضمن الإضافات العامة. أنقر على الرابط <em>تمكين</em>. للوصول إلى موضع تشغيل الإضافة، عُد إلى صفحة إضافات النظام، استعرض إلى موضع الإضافة في الأسفل، وانقر على الرابط <em>الترجمة</em> الجديد الذي سيظهر.
-
-ستجد الآن قائمة باللغات (المنصبة مسبقاً)، مع ثلاثة وظائف متاحة: <em>التحقق</em>، <em>التعديل</em> و <em>التصدير</em>.
-
-
-#### التحقق من الترجمة
-
-يمكنك التحقق من اكتمال الترجمة عبر النقر على رابط <em>التحقق</em>: هذا من شأنه إظهار قائمة بالملفات المفقودة للغة؛ المفاتيح المفقودة من الملفات الموجودة فعلياً؛ المفاتيح الزائدة (التي انتفت الحاجة إليها)؛ أطوال المفاتيح المشكوك بأمرها (إذا كان النص الذي يمثل قيمة المفتاح أطول  كثيراً من النص الإنجليزي الأصلي الذي يقابله)؛ مع قوالب الرسائل المفقودة أو الإضافية.
-
-إذا كنت تفتقد ملفاً للغة، فإن الإضافة تسمح لك بإنشائه وترجمة قيم المفاتيح من اللغة الإنجليزية عبر إدخال قيم مناظرة لها باللغة المقصودة. أي أخطاء أخرى ستظهر لك رسائل بها، مع إبراز قيمة المفتاح المعطوب في حقل قابل للتعديل.
-
-
-#### تعديل الترجمة
-
-إذا كنت تعرف مسبقاً موضع الخطأ، يمكنك النقر على رابط <em>التعديل</em> المجاور لاسم اللغة التي تريد إصلاحها، ومن ثم النقر مجدداً على رابط <em>التعديل</em> المجاور لملف اللغة المحدد (لطفاً لاحظ: أن النقر على اسم الملف نفسه سيربطك مباشرة مع ملف اللغة، والذي يكون قابلاً للتنزيل من الموقع).
-
-ستُعرض أمامك قائمة بكل المفاتيح في ملف اللغة هذا، مع قيمها بالإنجليزية بمحاذاة القيم باللغة التي تقصدها. يمكنك تعديل العبارات المترجمة بشكل مباشر هنا، ومن ثم حفظ النتائج بعد النقر على أي حقل تريد تعديله وإجراء ذلك التعديل.
-
-إذا كنت تعرف المفتاح الذي تقصده (وليكن مثلاً "navigation.journalHelp")، فأدخل تسمية المفتاح في حقل البحث عند رأس الجدول واضغط زر البحث: ستذهب مباشرة إلى الصفحة التي تتضمن المفتاح وقيمته معلمان باللون الأصفر.
-
-يمكنك أيضاً حذف أي مفتاح من ملف اللغة عبر النقر على رابط <em>الحذف</em> المجاور له. لطفاً لاحظ، أنه مع ذلك، فإن إضافة اللغة لا تسمح لك بإضافة مفاتيح جديدة إلى ملف اللغة، مما يعني أنك لو حذفت مفتاحاً ما ثم أردت استرجاعه لاحقاً، فعليك القيام بذلك يدوياً (عبر تعديل ملف اللغة نفسه واستبداله مع النسخة التي في الملقم).
