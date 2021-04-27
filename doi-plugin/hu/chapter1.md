@@ -1,0 +1,31 @@
+# Digital Object Identifiers
+
+## What Are DOIs?
+
+A "Digital Object Identifier" (DOI) is a **globally unique identifier** for digital objects. In the OJS context such objects are journals, journal issues, journal articles and supplementary files. DOIs are used for the global, persistent identification of such objects. For example, a DOI in a citation would provide the user with a persistent link to the object cited. DOIs are associated with one or several URLs that can be resolved through a persistent URL at a global re-direction domain ([http://dx.doi.org/some-doi](http://dx.doi.org/some-doi)) Additional metadata about certain types of digital objects can be stored in databases of specialized DOI registration agencies. This enables discovery of these objects through the websites of the **registration agencies** or their partners (e.g. scientific search engines).
+
+## What are Registration Agencies (Crossref, mEDRA and DataCite)?
+
+DOIs can be used for a very broad range of digital objects. The only common denominator of such objects is that they have a URL assigned, through which they can be located. DOIs do not impose a single metadata format. Digital objects can have specialized metadata assigned that is specific to the content and format of that object. That's where DOI registration agencies like Crossref, mEDRA, and DataCite come in. These specialized registration agencies accept only certain types of digital objects and define mandatory and optional metadata fields to be delivered when registering a DOI. DOI agencies require that metadata be delivered in well-defined metadata formats. Usually the agency defines their own metadata format or adapt an existing standard to their purpose.
+
+[Crossref](https://www.crossref.org/) is the official DOI link Registration Agency for the International DOI Foundation. It was founded as a cooperative effort by journal publishers to enable cross-publisher citation linking for online academic journals.
+
+[mEDRA](https://www.medra.org/) is the multilingual European DOI Registration Agency. It registers documents of many European Union institutions but is also open to private and public institutions world-wide for registration of serial publications, serial publication issues and serial articles. In OJS language these are journal issues, articles and galleys.
+
+[DataCite](https://www.datacite.org/) is an international not-for-profit association of several research institutions. DataCite was originally founded to make DOI registration available for primary research data. Nowadays DataCite registers a broad range of publication objects. In the OJS context these are journal issues, articles, galleys and supplementary files.
+
+## How does the DOI system work?
+
+DOIs are composed of a **prefix** and a **suffix** which are separated by a slash (e.g. "10.1234/cdb2011-01-bio234"). Organizations that want to participate in the DOI system have to apply for an account at a registration agency which will assign a unique DOI prefix to the organization (e.g. "10.1234"). The organization can then assign arbitrary suffixes to their digital objects as long as they guarantee that no suffix will be repeated (e.g. "cdb2011-01-bio234" in the above example). Sometimes several organizations share a DOI prefix to reduce the cost of DOI registration.
+
+Once a prefix has been obtained and a suffix assigned to a publication object, the DOI composed of prefix and suffix has to be registered with the registration agency. The publishing organization formats metadata corresponding to the publication object into the metadata format specific to the registration agency. The resulting XML file will then be transmitted to the registration agency together with the DOI and the corresponding URL of the publication object.
+
+The format and exact registration procedure are different for the registration agencies.
+
+Crossref created their own XML schema for DOI registration known as the [Crossref Deposit Schema](https://support.crossref.org/hc/en-us#deposit_schema). You can find extensive documentation on the most recent version of this XSD on their [support pages](https://support.crossref.org/hc/en-us). There are extensions for supplemental metadata such as CrossMark, FundRef, or citations. The schema also supports MathML. Currently, registration for Crossref requires OJS users to export their metadata using the Crossref XML Export Plugin and then submit it to Crossref's [backend system](https://doi.crossref.org/servlet/useragent) using credentials assigned to Crossref registrants.
+
+mEDRA uses a special configuration of the ONIX format called ONIX for DOI (O4DOI). This is a simplified version of the ONIX for Serials format with additional fields specific to the DOI registration use case. Detailed documentation of the format can be found on the mEDRA home page. mEDRA supports registration of OJS issues, articles and galleys but not supplementary files. mEDRA provides an asynchronous web service for automated DOI registration that is integrated into OJS. The asynchronous nature of the mEDRA registration service means that registration success or error messages are delivered via email. In the (unlikely) case of a registration failure, some manual work is necessary to synchronize the OJS registration state with that of the mEDRA database, see "Reset DOI registration state" below.
+
+DataCite developed their own XML format for DOI registration that is loosely coupled to the Dublin Core format but imposes a stronger specification than the DC format. The format is relatively easy to read for non-technical users. DataCite offers a synchronous web service for automated DOI registration that is integrated into OJS. The synchronous nature of the DataCite registration service means that the OJS registration state can easily be kept in sync with the DataCite database. Other than in the case of mEDRA, manual synchronization of the registration state in OJS is therefore not necessary.
+
+OJS' implementation of the Crossref, O4DOI and DataCite formats has been optimized for maximum information content and data quality. OJS has co-operated directly with these three registration agencies to make sure that their formats and protocols are correctly implemented and that the agencies can make best use of your data.
