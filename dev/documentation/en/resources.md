@@ -10,8 +10,9 @@ A collection of resources that may help you while coding with OJS and OMP.
 
 This plugin will [clear the template and CSS cache](https://github.com/NateWr/cacheBuster) with every request. Enable it so that you don't have to manually clear the cache every time you make a change.
 
-> Be careful not to enable this on a production site. Recompiling templates and CSS is a time-intensive task.
-{:.warning}
+> Be careful not to enable this on a production site. Recompiling templates and CSS is a time-intensive task. 
+> 
+> {:.warning}
 
 ## Postman API
 
