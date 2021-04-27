@@ -2,6 +2,7 @@
 book: learning-omp
 version: 3.3
 ---
+
 # User Accounts
 
 A monograph publishing workflow will involve various users with various roles. OMP offers a flexible role management system that allows the Press Manager to control which roles have access to a given task and/or stage of the workflow.
@@ -84,7 +85,7 @@ The Author is able to track the submission through the review and editorial proc
 
 ## Creating new roles
 
-OMP allows for the creation of new roles if the default ones do not fit your needs. 
+OMP allows for the creation of new roles if the default ones do not fit your needs.
 
 To create a new role, go to Users & Roles > Roles. On the top-right corner of the Current Roles box, click ‘Create New Role.'
 
@@ -106,8 +107,7 @@ Once you have sent your message, there will be a status notification indicating 
 
 When using this function, please note that there will be no record in your press of the emails that have been sent using this. Although you could opt to cc the main Press contact on the email.
 
-![List of Roles in Press you can notify](./assets/learning-omp3.3-notify-user-1.png)
-![Message box for Notify user function](./assets/learning-omp3.3-notify-user-2.png)
+![List of Roles in Press you can notify](./assets/learning-omp3.3-notify-user-1.png) ![Message box for Notify user function](./assets/learning-omp3.3-notify-user-2.png)
 
 
 
