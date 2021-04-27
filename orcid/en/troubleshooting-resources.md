@@ -20,7 +20,7 @@ Check to ensure that authors are using the current link and not a previous link 
 
 ## Videos
 
-- OJS and ORCID introduction: [https://www.youtube.com/watch?v=YgJw9HW-JEg](https://www.youtube.com/watch?v=YgJw9HW-JEg )
+- OJS and ORCID introduction: [https://www.youtube.com/watch?v=YgJw9HW-JEg](https://www.youtube.com/watch?v=YgJw9HW-JEg)
 - Set up the plugin: [https://vimeo.com/374414746](https://vimeo.com/374414746)
 - User authorization: [https://vimeo.com/374415404](https://vimeo.com/374415404)
 - Co-authors: [https://vimeo.com/374416189](https://vimeo.com/374416189)
