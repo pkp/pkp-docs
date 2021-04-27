@@ -1,6 +1,6 @@
 # Reading Tools
 
-The Reading Tools are designed to assist experienced and novice readers by providing a rich context of related materials from a wide variety of largely open access sources. These optional tools use an author's keywords to automatically search a relevant open access database for related materials which are presented to the reader in another window. Readers have a choice of tools, and within each tool a choice of databases, along with access to information about the database. 
+The Reading Tools are designed to assist experienced and novice readers by providing a rich context of related materials from a wide variety of largely open access sources. These optional tools use an author's keywords to automatically search a relevant open access database for related materials which are presented to the reader in another window. Readers have a choice of tools, and within each tool a choice of databases, along with access to information about the database.
 
 
 ## Configuring the Reading Tools
@@ -13,7 +13,7 @@ By default, the Reading Tools are disabled. To activate and configure them:
 
 
 
-![Journal Management Page: Reading Tools](images/chapter5/jm_reading_tools.png)  
+![Journal Management Page: Reading Tools](images/chapter5/jm_reading_tools.png)
 
 
 * Choose Reading Tool Options.
@@ -68,12 +68,12 @@ Here are the options for each subject area found by selecting **Contexts** (exam
 
 ![Contexts](images/chapter5/rt_contexts.png)
 
-The Up and Down arrows allow you to reposition the contexts -- or you can click on the item in the Title or Abbrev column and drag the entry to a new position (this is easier than using the up and down arrows!). 
+The Up and Down arrows allow you to reposition the contexts -- or you can click on the item in the Title or Abbrev column and drag the entry to a new position (this is easier than using the up and down arrows!).
 
-The **Metadata** link within Contexts allows you to rename tools and set options. 
+The **Metadata** link within Contexts allows you to rename tools and set options.
 
 
-![Metadata](images/chapter5/rt_metadata.png)    
+![Metadata](images/chapter5/rt_metadata.png)
 
 
 
@@ -101,22 +101,22 @@ You may need to contact the search service directly to find out the appropriate 
 
 Returning to the Reading Tools menu, you can now choose **Validate URLs for Reading Tools** under the Management heading to test all of the Reading Tool URLs. This can take a few minutes, as all of the URLs are tested. Use the configuration options outlined previously to fix any broken URLs (and delete any non-function search services).
 
-![Validating URLs for Reading Tools](images/chapter5/rt_validate_urls.png)   
+![Validating URLs for Reading Tools](images/chapter5/rt_validate_urls.png)
 
 
 ## Sharing the Reading Tools
 
-This option will allow you to add social networking links (Facebook, Delicious) to your Reading Tools via the [AddThis](http://addthis.com) service. 
+This option will allow you to add social networking links (Facebook, Delicious) to your Reading Tools via the [AddThis](http://addthis.com) service.
 
 * First, under Sharing select Configure AddThis.
 
 ![Sharing](images/chapter5/rt_sharing.png)
-  
-  
-* Next, fill in the form with your AddThis information (you will need to visit their site and create an account first).
-  
 
-![Share Settings](images/chapter5/rt_share_settings.png)  
+
+* Next, fill in the form with your AddThis information (you will need to visit their site and create an account first).
+
+
+![Share Settings](images/chapter5/rt_share_settings.png)
 
 Once this is saved, the sharing image/link will appear in your sidebar.
 
