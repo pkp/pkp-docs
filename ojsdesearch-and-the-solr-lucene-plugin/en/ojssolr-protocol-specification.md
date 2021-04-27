@@ -20,9 +20,7 @@ As we've seen above, articles can be pushed or pulled. In the “push” configu
 Changes to an article trigger the following actions:
 
 1. Whenever an aspect of an article changes \(article meta-data, galleys, supplementary file meta-data or files\), the OJS core code will call the indexing API marking the article as "changed". We therefore recommend renaming the update...\(\), index...\(\) and delete...\(\) methods of the ArticleSearchIndex class to article\(Metadata\|File\|Files\|\)Changed\(\)/suppFileMetadataChanged\(\)/articleFileDeleted\(\). The action of these functions for legacy SQL indexing does not have to change. This is a mere rename to document the changed intent of the call. This leaves it up to the indexing implementation whether it wants to implement the "dirty" pattern or not.
-2. When all changes to an article are done then the core OJS code will inform the indexing API that all changes are done. We recommend introducing an "articleChangesFinished\(\)" method to the ArticleSearchIndex class. Indexing implementations that do not implement the "dirty" pattern will simply ignore that call. Plugins that implement the "dirty" pattern will now collect all changes and update the index accordingly. In the case of the solr plug-in this means that an XML document with all article meta-data, including the corresponding galley and supplementary file meta-data, of all "dirty" articles is sent over HTTP POST to the OJS DIH request handler
-   .../solr/ojs/dih
-   that is part of the recommended default solr configuration.
+2. When all changes to an article are done then the core OJS code will inform the indexing API that all changes are done. We recommend introducing an "articleChangesFinished\(\)" method to the ArticleSearchIndex class. Indexing implementations that do not implement the "dirty" pattern will simply ignore that call. Plugins that implement the "dirty" pattern will now collect all changes and update the index accordingly. In the case of the solr plug-in this means that an XML document with all article meta-data, including the corresponding galley and supplementary file meta-data, of all "dirty" articles is sent over HTTP POST to the OJS DIH request handler .../solr/ojs/dih that is part of the recommended default solr configuration.
 3. To keep the HTTP call as light as possible, the XML does not contain galleys or supplementary files but only contains links to full text documents. DIH asynchronously pulls these documents from the OJS server for extraction and preprocessing.
 4. OJS will only mark an article as "clean" if the response given by solr indicates indexing success. To keep the implementation as simple as possible, the first implementation will be synchronous. If this turns out to make the OJS client unresponsive then the existing processing framework can be used to implement asynchronous indexing.
 5. If processing returned an error then a notification will be provided to OJS technical administrators so that they can correct the error. The indexing status of the articles will not be changed to "clean". The next update will either occur when another article changes or when the admin triggers a manual refresh, either through the plug-in home page or through an additional switch of the rebuildSearchIndex.php script.
@@ -81,14 +79,13 @@ Fortunately the required OJS/solr XML date exchange format is quite simple. A sa
 
 Description of the embedded galley XML:
 
-* &lt;galleyList&gt;...&lt;/galleyList&gt;: Wraps a list of galleys. This is the root element of the XML file embedded in &lt;galley-xml&gt;...&lt;
-  /galley-xml&gt;.
+* &lt;galleyList&gt;...&lt;/galleyList&gt;: Wraps a list of galleys. This is the root element of the XML file embedded in &lt;galley-xml&gt;...&lt; /galley-xml&gt;.
   * &lt;galley locale=”...” mimetype=”...” url=”...” /&gt;: An element representing a single galley. It has no sub-elements. The mimetype attribute is the MIME type as stored in OJS' File class. The url attribute points to the URL of the full text file. DIH will pull the file from there over the network and extract its content.
 
 Description of the embedded supplementary file XML:
 
 * &lt;suppFileList&gt;...&lt;/suppFileList&gt;: Wraps a list of supplementary files. This is the root element of the XML file embedded in
-  &lt;suppFile-xml&gt;...&lt;/suppFile-xml&gt;.
+&lt;suppFile-xml&gt;...&lt;/suppFile-xml&gt;.
   * &lt;suppFile locale=”...” mimetype=”...” url=”...”&gt;...&lt;/suppFile&gt;: An element representing a single supplementary file. It contains further sub-elements with some supplementary file meta-data. See the &lt;galley&gt; element above definition of the mimetype and url attributes. OJS has to make sure that the locale is one of the valid OJS locales or “unknown”. This requires internal transformation of the supplementary file language to the OJS 5-letter locale format if possible.
     * &lt;titleList&gt;&lt;title locale=”...”&gt;...&lt;/title&gt;...&lt;/titleList&gt;: A supplementary files localized title information.
     * &lt;creatorList&gt;&lt;creator locale=”...”&gt;...&lt;/creator&gt;...&lt;/creatorList&gt;: Supplementary file creators.
