@@ -16,7 +16,7 @@ To begin the review process, select **Review** from the top of the submission re
 
 The first part consists of basic submission information, and a review version of the submission (automatically generated from the original submission file).
 
-![Submission Review](images/chapter8/section_5rev.png)  
+![Submission Review](images/chapter8/section_5rev.png)
 
 
 
@@ -34,7 +34,7 @@ Assigning Peer Reviewers is an important part of a Section Manager's role. You c
 
 
 
-From the resulting screen, you can choose from your list of enrolled Reviewers. If there are many to choose from, you can use the search tool to narrow your choices such as search for matching review interests. This list may grow as will more details about reviewing interests and the number of articles reviewed to date by each reviewer. If you know of an existing user in the journal that is not currently enrolled as a Reviewer, this can be quickly done using the Enroll An Existing User As Reviewer link. You can also use the Create New Reviewer to enroll someone who is not currently an existing user. 
+From the resulting screen, you can choose from your list of enrolled Reviewers. If there are many to choose from, you can use the search tool to narrow your choices such as search for matching review interests. This list may grow as will more details about reviewing interests and the number of articles reviewed to date by each reviewer. If you know of an existing user in the journal that is not currently enrolled as a Reviewer, this can be quickly done using the Enroll An Existing User As Reviewer link. You can also use the Create New Reviewer to enroll someone who is not currently an existing user.
 
 To assign a **Reviewer** select **Assign**.
 
@@ -53,7 +53,7 @@ Notice the addition of **Reviewer A** (your first selection). You can remove thi
 Use the Request icon to send an **email** to the Reviewer (using an email template), asking them to take on the task.
 
 
-![Request Email](images/chapter8/section_9.png)  
+![Request Email](images/chapter8/section_9.png)
 
 
 By default, Reviewers will be provided with an extended text box to type in their comments. However, the Journal Manager can setup [Review Forms](https://docs.pkp.sfu.ca/learning-ojs-2/en/review_forms) allowing for more focused questions. Use the **Assign** **Review Form** link to provide a review form to this Reviewer.
@@ -64,7 +64,7 @@ By default, Reviewers will be provided with an extended text box to type in thei
 If there are several Review Forms to choose from, use the **Preview** link to take a quick look at each.
 
 
-![Preview Review Form](images/chapter8/section_11.png)  
+![Preview Review Form](images/chapter8/section_11.png)
 
 
 
