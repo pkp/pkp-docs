@@ -2,6 +2,7 @@
 book: crossref-ojs-manual
 version: 3.2
 ---
+
 # Crossmark
 
 Crossmark gives Crossref members the ability to add a clickable widget to their content to show readers if it’s been updated, corrected, or retracted. This shows researchers and journal readers that they are committed to maintaining their content as well as giving researchers the information they need to check that they are using the most recent and reliable versions of a work.
