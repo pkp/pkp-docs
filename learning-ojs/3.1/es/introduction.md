@@ -1,82 +1,82 @@
-# Capítulo 1: Introducción
+---
+book: learning-ojs
+version: 3.1
+---
 
-Open Journal Systems (OJS) es una solución de código abierto para la gestión y publicación de revistas académicas en línea. OJS es un sistema de gestión y publicación de revistas altamente flexible, operado por un editor, que puede descargarse gratuitamente e instalarse en un servidor web local.
+# Chapter 1: Introduction
 
-Ha sido diseñado para reducir el tiempo y la energía dedicados a las tareas administrativas y de gestión asociadas con la edición de una revista, al tiempo que mejora el mantenimiento de registros y la eficiencia de los procesos editoriales. Su objetivo es mejorar la calidad académica y pública de la publicación de revistas a través de una serie de innovaciones, entre las que se incluyen la mejora de la experiencia del lector, la transparencia de las políticas de las revistas y la mejora de la indización.
+Open Journal Systems \(OJS\) is an open source solution to managing and publishing scholarly journals online. OJS is a highly flexible editor-operated journal management and publishing system that can be downloaded for free and installed on a local Web server.
 
-Este libro cubre la versión 3.1 de OJS, publicada en octubre de 2017, y presenta mejoras significativas con respecto a las versiones anteriores del software. Esperamos que le resulte útil para sus proyectos editoriales.
+It has been designed to reduce the time and energy devoted to the clerical and managerial tasks associated with editing a journal, while improving the record-keeping and efficiency of editorial processes. It seeks to improve the scholarly and public quality of journal publishing through a number of innovations, including enhancing the reader experience, making journal policies more transparent, and improving indexing.
 
-## Antecedentes
+This book covers OJS version 3.1, released in October 2017, and features significant enhancements over the previous versions of the software. We hope you find it helpful for your publishing projects.
 
-_OJS es un sistema de gestión y publicación de revistas y sitios web._ OJS cubre todos los aspectos de la publicación de revistas en línea, desde el establecimiento de un sitio web de la revista hasta las tareas operativas tales como el proceso de envío del autor, la revisión por pares, la edición, la publicación, el archivo y la indexación de la revista. OJS también ayuda a manejar los aspectos personales de la organización de una revista, incluyendo el seguimiento del trabajo de editores, revisores y autores, notificando a los lectores y ayudando con la correspondencia.
+## Background
 
-_OJS es flexible y escalable._ Una sola instalación de OJS puede soportar la operación de una o varias revistas. Cada revista tiene su propio URL único, así como su propio aspecto. OJS puede permitir que un solo editor gestione todos los aspectos de una revista y el sitio web de la revista, o bien, OJS dará soporte a un equipo internacional de editores con diversas responsabilidades para las múltiples secciones de una revista.
+*OJS is a journal/web site management/publishing system*. OJS covers all aspects of online journal publishing, from establishing a journal website to operational tasks such as the author's submission process, peer review, editing, publication, archiving, and indexing of the journal. OJS also helps to manage the people aspects of organizing a journal, including keeping track of the work of editors, reviewers, and authors, notifying readers, and assisting with the correspondence.
 
-_OJS apoya el principio de ampliar el acceso._ Este sistema no sólo pretende ayudar a la publicación de revistas, sino también demostrar cómo se pueden reducir los costes de la publicación de revistas hasta el punto de que proporcionar a los lectores un "acceso abierto" a los contenidos de la revista se convierta en una opción viable. Los argumentos a favor del acceso abierto se exponen en una amplia serie de artículos derivados de este proyecto que están disponibles gratuitamente en el sitio web del Proyecto Investigación > Publicaciones en la página web del Proyecto de Conocimiento Público.
+*OJS is flexible and scalable*. A single installation of OJS can support the operation of one or many journals. Each journal has its own unique URL as well as its own look and feel. OJS can enable a single editor to manage all aspects of a journal and the journal's website, or OJS will support an international team of editors with diverse responsibilities for a journal's multiple sections.
 
-_Los orígenes de OJS._ El sistema fue lanzado por primera vez en 2001 como una iniciativa de investigación y desarrollo en la Universidad de Columbia Británica, con el apoyo del Consejo de Investigación en Ciencias Sociales y Humanidades de Canadá, la Fundación Max Bell, la Pacific Press Endowment y la Fundación MacArthur. En la actualidad, la Biblioteca de la Universidad Simon Fraser supervisa su desarrollo continuo. Para obtener más información, visite el sitio web del Proyecto de Conocimiento Público.
+*OJS supports the principle of extending access*. This system is intended not only to assist with journal publishing, but to demonstrate how the costs of journal publishing can be reduced to the point where providing readers with "open access" to the contents of the journal becomes a viable option. The case for open access is spelled out over a wide series of articles stemming from this project which are freely available under Research > Publications on the [Public Knowledge Project](https://pkp.sfu.ca/) website.
 
-## Características de OJS
+*The origins of OJS*. The system was first released in 2001 as a research and development initiative at the University of British Columbia, with the support of the Social Sciences and Humanities Research Council of Canada, the Max Bell Foundation, the Pacific Press Endowment, and the MacArthur Foundation. Its continuing development is currently overseen by the Simon Fraser University Library. For more information, see the [Public Knowledge Project website](http://pkp.sfu.ca).
 
-OJS incluye las siguientes características:
+<hr />
 
-1. OJS se instala localmente y se controla localmente
-2. Los editores configuran requisitos, secciones, proceso de revisión, etc.
-3. Envío en línea, revisión doble ciego y administración de todo el contenido
-4. Amplia indexación del contenido
-5. Interfaz de lectura con capacidad de respuesta y temática
-6. Notificación por correo electrónico para los lectores
-7. Soporte para cargos de procesamiento de artículos, suscripciones y pagos en línea
-8. Completo soporte de ayuda en línea sensible al contexto
-9. Soporte multilingüe
+## OJS Features
 
-## Novedades en OJS 3.1
+OJS includes the following features:
+1. OJS is installed locally and controlled locally
+2. Editors configure requirements, sections, review process, etc.
+3. Online submission, double-blind review, and management of all content
+4. Comprehensive indexing of content
+5. Responsive, themable reader interface
+6. Email notification for readers
+7. Support for article-processing charges, subscriptions, and online payments
+8. Complete context-sensitive online Help support
+9. Multilingual support
 
-El OJS 3.1 se basa en los cambios introducidos con el OJS 3, y es significativamente diferente de su predecesor, el OJS 2. Incluye mejoras y nuevas características desarrolladas a partir de los comentarios de la comunidad, extensas pruebas de usabilidad y nuevas capacidades de diseño de software.
+## What's New in OJS 3
 
-## Interfaz de Lector
+OJS 3 is significantly different than its predecessor, OJS 2. It includes enhancements and new features developed from community feedback, extensive usability testing, and new software design capabilities.
 
-Por defecto, Open Journal Systems se instala con una interfaz de usuario muy simple y funcional. Esto incluye un encabezado superior, una barra de navegación, bloques de navegación a la derecha y un bloque de contenido principal en el centro de la página.
+## Reader Interface
 
-La siguiente imagen es una captura de pantalla de un Índice de la revista de Demostración de OJS.
+By default, Open Journal Systems is installed with a very simple, functional user interface. This includes a top header, navigation bar, navigation blocks to the right, and a main content block in the middle of the page.
 
-![An Index of the OJS Demonstration magazine](./assets/image5.png)
+The following image is a screenshot of an OJS Demonstration Journal Table of Contents.
 
-Puedes ver en la captura de pantalla que las funciones de usuario ahora existen en el menú de tu perfil en la parte superior derecha de la pantalla. Esto aleja el contenido de gestión en OJS 3.x de la vista general del usuario. La información de la barra lateral está claramente desglosada, así como la barra de navegación superior con menús plegables para las funciones "Acerca de". Al igual que OJS 2, cada artículo tiene un título enlazado para ver los metadatos y resúmenes de los objetos, y ahora las galerías están claramente etiquetadas debajo de los títulos con logotipos más claros.
+![](./assets/learning-ojs-3-ojs3-interface.png)
 
-## Interfaz Editorial
+You can see from the screenshot that the user functions now exist from your profile menu at the top right of the screen. This takes the managerial content in OJS 3.x away from general user view. Side bar information is clearly broken out, as well as your top navigation bar with collapsible menus for the "About" functions. Like OJS 2, each article has a linked title for viewing object metadata and abstracts, and galleys are now clearly labeled below the titles with clearer logos.
 
-_alias El Tablero_
+## Editorial Interface
 
-OJS 3.x ahora tiene una interfaz separada cada vez que inicie sesión en el sistema editorial. Esto no sólo facilita la personalización de la interfaz de lectura, sino que también proporciona una experiencia consistente a los usuarios de OJS de diferentes revistas.
+_AKA "The Dashboard"_
 
-![Captura de pantalla de la interfaz editorial](./assets/image100.png)
+OJS 3.x now has a separate interface once you log into the editorial system. This not only makes it easier to customize the reader interface, but also provides OJS users of different journals a consistent experience.
 
-La interfaz editorial se conoce como su **panel de control** y consta de los siguientes elementos:
+![The main OJS dashboard](./assets/learning-ojs3.1-ed-dashboard.png)
 
-1. **Barra de navegación superior:** A la izquierda, encontrará el nombre de la revista con la que está trabajando actualmente (por ejemplo, Journal of Public Knowledge). Si está inscrito en más de una revista en esta instalación de OJS, puede utilizarla para cambiar de revista. Junto a esto están sus Tareas (artículos que necesitan atención inmediata). A la derecha, puede cambiar de idioma si la revista es multilingüe, ver la interfaz de lectura o hacer clic en su nombre de usuario para ver su perfil o cerrar la sesión.
+The editorial interface is known as your **dashboard** and consists of the following elements:
 
-2. **Panel del menú izquierdo:** Estas son las secciones principales del panel, incluyendo los envíos, la administración de números, la administración de suscripciones (si está ejecutando una revista con suscripciones), la configuración, la administración de usuarios y funciones, y las herramientas. Los usuarios con menos permisos (por ejemplo, Autores, Revisores, Copiadores, etc.) verán menos enlaces aquí.
+1. **Top Navigation Bar**: To the left, you will find the name of the journal you are currently working with \(e.g., Journal of Public Knowledge\). If you are enrolled in more than one journal on this OJS installation, you can use this to switch between journals. Next to that are your Tasks \(items needing immediate attention\). To the right, you can switch languages if the journal is multilingual, view the reader interface, or click on your username to view [your profile](./viewing_and_changing_your_profile.md) or logout.
+2. **Left Menu Panel**: These are the major sections of the dashboard, including the submissions, issue management, subscription management \(if you are running a journal using subscriptions\), settings, user and role management, and tools. Users with fewer permissions \(e.g., Authors, Reviewers, Copyeditors, etc.\) will see fewer links here.
+3. **Blue Navigation Bar**: These menu choices are specific to the different sections of the editorial workflow. Metadata, Editorial History, and Submission Library are all part of the submission record visible below.
+4. **Main Panel**: In the main panel you will see the current work area. In the image above, you are looking at a submission record in the Production stage.
+5. **Main Panel Sub-Menus**: Within the Main Panel, you will often see tabs that allow you to view different information about the content being worked on. In this example, the submission record is broken into four sections \(Submission, Review, Copyediting, Production\). Notice the Help tab to the right, which provides context-sensitive help for the page you are currently viewing.
+6. **Right Panel**: From here, you can see the action buttons, such as Schedule for Publication. Different pages have different action buttons. Below the action buttons is the Participants table, which lists everyone \(except Reviewers\) involved in the submission.
 
-3. **Barra de navegación azul:**** Estas opciones de menú son específicas para las diferentes secciones del flujo de trabajo editorial. Los metadatos, el historial editorial y la biblioteca de envíos forman parte del registro de envíos que se muestra a continuación.
+## Community Contributions
 
-4. **Panel principal:** En el panel principal verá el área de trabajo actual. En la imagen de arriba, usted está viendo un registro de sumisión en la etapa de Producción.
+The OJS team encourages contributions from the developer community. If you are interested in getting involved in making OJS even better, we welcome your participation.
 
-5. **Submenús del Panel Principal:** Dentro del Panel Principal, a menudo verá pestañas que le permiten ver información diferente sobre el contenido en el que se está trabajando. En este ejemplo, el registro de envío se divide en cuatro secciones (Envío, Revisión, Edición, Producción). Fíjese en la pestaña Ayuda a la derecha, que proporciona ayuda sensible al contexto para la página que está viendo actualmente.
- 
-6. **Panel derecho:** Desde aquí, puede ver los botones de acción, como Schedule for Publication. Diferentes páginas tienen diferentes botones de acción. Debajo de los botones de acción se encuentra la tabla Participantes, que enumera a todos los participantes (excepto a los Revisores) involucrados en el envío.
+Excellent examples of community contributions include the vast array of languages that OJS is available in; and third-party plugins posted to the [community forum](https://forum.pkp.sfu.ca/) and the archived forum page.
 
-## Contribuciones de la Comunidad
+We also welcome software testing and bug reporting contributions.
 
-El equipo de OJS fomenta las contribuciones de la comunidad de desarrolladores. Si usted está interesado en involucrarse en hacer que OJS sea aún mejor, le damos la bienvenida a su participación.
+## Support
 
-Excelentes ejemplos de contribuciones de la comunidad incluyen la amplia gama de idiomas en los que OJS está disponible; y plugins de terceros publicados en el foro de la comunidad y en la página archivada del foro.
+A [community forum](https://forum.pkp.sfu.ca/) and [issue reporting system](https://github.com/pkp/pkp-lib/#issues) for technical issues can be accessed via the [PKP web site](https://pkp.sfu.ca).
 
-También agradecemos las contribuciones a las pruebas de software y a los informes de errores.
-
-## Soporte
-
-Se puede acceder a un foro comunitario y a un sistema de reporte de problemas técnicos a través del sitio web de PKP.
-
-Si tiene preguntas sobre un sitio de revista en particular, como los requisitos de envío, póngase en contacto directamente con esa revista, utilizando la información de contacto que aparece en la página **Acerca** de la revista.
-
+For questions about a particular journal site, such as submission requirements, contact that journal directly, using the contact information listed on the journal's **About** page.
