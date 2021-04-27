@@ -1,741 +1,759 @@
-# الفصل 11: المخطط الانسيابي للتحرير
+---
+book: learning-ojs
+version: 3.3
+---
 
-في هذا الفصل، ستتابع سيرة طلب التقديم خلال مجريات عمليات التحرير وانتهاءً بالنشر.
+# Editorial Workflow
 
-المخطط الانسيابي مقسم إلى أربعة مراحل:
+In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
 
-**التقديم**: حيث تحط طلبات التقديم ويتم تعيينها إلى محرر القسم من أجل الشروع بمرحلة التحكيم.
+The workflow is divided into 4 stages:
 
-بعض طلبات التقديم قد تكون غير مناسبة بشكل واضح، وبالتالي فهي لا تتعدى هذه المرحلة.
+**Submission**: This is where new submissions land while being assigned to Section Editors and considered for moving into the Review stage.
 
-**التحكيم**: هنا يجري التحكيم المناظر، فضلاً عن أي تنقيحات مطلوبة من المؤلف.
+Some submissions are clearly inappropriate and never make it beyond this stage.
 
-بعض الطلبات لن تجتاز مرحلة التحكيم لتقف عند هذه المرحلة. الطلبات التي يتم قبولها تتابع طريقها قدماً إلى المرحلة الآتية.
+**Review**: This is where the peer review happens, as well as any revisions required by the author.
 
-**التدقيق**: المقالات المقبولة تصل إلى هذه المرحلة، حيث يتم تحسينها بجهود المدقق. يمكن منح المؤلفين الفرصة لتنقيح التصحيحات.
+Some submission will not pass review and end here. Those that are accepted move to the next stage.
 
-**الإنتاج**: بمجرد إكتمال التصحيحات والمصادقة عليها، ينتقل العمل إلى هذه المرحلة. عند الإنتاج، الملفات المدققة يجري تحويلها إلى ألواح طباعية بتنسيقات - HTML، XML، PDF، إلخ. أيضاً، للمؤلف فرصة مراجعة تلك الألواح. بمجرد أن يكون الجميع راضين عن النتيجة، تتم جدولة العمل للنشر في أحد الأعداد القادمة.
+**Copyediting**: Accepted articles move to this stage, where they are improved by the work of a copyeditor. Authors can be given the opportunity to review the copyedits.
+
+**Production**: Once the copyedits are completed and approved, the submission moves to this stage. In Production, the copyedited files are converted to galleys -- HTML, XML, PDF, etc. Again the author has the opportunity to proofread the galleys. Once everyone is satisfied, the submission is scheduled for publication in a future issue.
 
 <hr />
 
-## المهام
+## Tasks
 
-مهامك متوفرة في القائمة العلوية اليمنى من لوحة القيادة. لاحظ الرقم "1" في الصورة أدناه. هذا يشير إلى وجود مهمة واحدة حالياً في قائمتك.
+Your Tasks are available from the top left menu of your Dashboard. Note the number "1" in the image below. This indicates that there is currently 1 task in your list.
 
 ![](./assets/learning-ojs3.1-ed-tasks.png)
 
-المهام تعطي نظرة سريعة على الفقرات التي تتطلب الاطلاع عليها. المدخلات الغامقة هي غير المقروءة، والعادية هي ما سبقت لك قراءته.
+Tasks provide a quick look at items that need your attention. Bold entries are unread, and unbold entries have been read.
 
-إستعمل خانات الاختيار لتحديد المهام التي تريد حذفها \(رابط الحذف موجود عند نهاية القائمة\).
+Use the checkbox to mark tasks for deletion \(the link is available at the bottom of the list\).
 
 <hr />
 
-## طلبات التقديم
+## Submission Notifications
 
-عندما يقدم مؤلفٌ طلباً جديداً إلى مجلتك، يتم إشعار مدير التحرير تلقائياً عبر البريد الالكتروني. عندما تسجل دخولك إلى لوحة القيادة، يمكنك العثور عليه إما عبر معاينة المهام، أو ضمن أحد الطوابير \(مساراتي، غير المعينة، كل ما هو نشط، والمحفوظات\).
+When an author makes a new submission to your journal, the editor is automatically emailed a notification and the author will receive an email acknowledging their submission. You can also configure OJS so that a copy of the notification email is sent to the journal’s primary contact set in Journal Settings, or to another address.
 
-![](./assets/learning-ojs3.1-ed-dashboard-active.png)
+To enable copies of submission acknowledgment email to be sent to the primary contact or another address:
 
-### مساراتي
+1. In the Journal Manager’s dashboard, go to Settings > Workflow > Submissions
+2. Scroll down to Notification of Author Submissions
+3. Check off the box next to “Send a copy to the primary contact, identified in the Journal Settings.” if you wish for a copy to be sent to the primary contact email, and/or
+4. Enter the email you would like to have a copy sent to in the text field.
 
-**المعينة لي**: هذه اللوحة تتضمن طلبات التقديم المضافة إلى أي من الأقسام التي تقع ضمن مسؤولياتك كمحرر قسم أو ضمن طلباتك أنت إذا كنت مؤلفاً في تلك المجلة.
+![](./assets/learning-ojs3.1-configure-submission-notification.png)
 
-إن أداة **البحث** في كل طابور قد تكون مفيدة لتتبع التقديمات والوصول إليها بسرعة.
+If you want to disable submission acknowledgement emails entirely, you can do so by disabling the *Submission Ack* email template from the list of prepared email templates. To learn more about disabling and enabling email templates, refer to *Disable email templates* in the [Workflow Settings chapter](./settings-workflow).
 
-أداة **التصفية** تتيح لك حصر نتائج بحثك ضمن إطار معين \(مثلاً، غير مكتملة، مستوجبة\) أو حسب المراحل \(التقديم، التحكيم، التدقيق، الإنتاج\)، أو الأقسام \(مثلاً، المقالات، المراجعات\) لأغراض تسريع عمليات البحث.
+Users can also change their individual notification settings from their own profile under View Profile > Notifications.
 
-![](./assets/learning-ojs3.1-ed-dashboard-filter.png)
+## Submission Dashboard
 
-لاحظ أن بإمكانك استعمال السهم الأزرق عند يمين أي طلب تقديم لكشف المزيد من التفاصيل، بضمنها عدد التحكيمات الجارية، المناقشات الجديدة، وما شابه ذلك. كما أن ذلك يكشف أزراراً لتأخذك إلى سجل التقديم، معاينة سجل الوقوعات، والملاحظات، إضافة إلى حذف التقديم.
+When you log into your Dashboard, you can find active submissions either from your Tasks, or from one of the queues (My Queue, Unassigned, All Active, and Archives). The counter gives you an overview of how many total items are in each queue.
 
-![](./assets/learning-ojs3.1-ed-dashboard-active-details.png)
+![](./assets/learning-ojs3.2-ed-dashboard-active.png)
 
-### غير المعينة
+### My Queue
 
-هذه اللوحة تتضمن طلبات التقديم المحولة إلى أقسام ليس فيها محررو أقسام.
+**My Assigned**: This panel includes submissions added to sections where you are a section editor or to your own submissions if you are also an author with this journal.
+
+The **Search** tool for each queue can sometimes be helpful in tracking down submissions.
+
+The **Filter** tool allows you to limit your browsing to specific conditions for faster searching. Depending on their role, editorial roles will be able to filter by the following:
+
+- __Status:__ select from _incomplete_, _overdue_, and _inactive for 30 days_
+
+- __Stages:__ select from _submission_, _review_, _copyediting_, and _production_
+
+- __Sections:__ this option is only available if more than 5 sections exist. After you begin entering text, the filter will auto-suggest. For example, filter by _articles_ or _reviews_
+
+- __Assigned editor(s):__ only journal managers have this filter options. Like sections, this is a textbox with auto-suggest
+
+- __Assigned issue:__ only journal managers can filter by unpublished issues, but editors and assistants will be able to filter by published issues. This field is case-sensitive and require exact match. For best results, search by year or title, rather than volume or number. This filter is mostly used if the assignment of a submission to an issue is done in an early phase of the editorial process.
+
+Some filters allow multiple selections; users can filter by more than one editor, section or issue. Filters are applied with OR conditions, so when a user selects to filter by Editor A and Editor B, all submissions will be returned that are assigned to editor A OR editor B.
+
+When using multiple filters, the AND condition will be applied between filters. For example, when filtering by Review Stage AND Editor A, only submissions assigned to Editor A in the review stage will be returned.
+
+![](./assets/learning-ojs3.2-ed-dashboard-filter.png)
+
+Note that you can use the blue arrows to the right of each submission to reveal more details, including how many reviews are outstanding, new discussions, and more. It also reveals buttons to take you to the submission record, view the activity log and notes, and to delete the submission.
+
+![](./assets/learning-ojs3.2-ed-dashboard-active-details.png)
+
+### Unassigned
+
+This panel includes submissions added to sections without section editors.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-unassigned.png)
 
-في المثال أعلاه، ليس هناك طلبات تقديم غير معينة، ولذلك فالوحة خالية.
+In the above example, there are no unassigned submissions, so the panel is empty.
 
-### كل ما هو نشط
+### All Active
 
-هذا المقطع يتضمن كل طلبات التقديم بدون تنظيمها في طوابير.
+This section includes a list of all submissions, without being organized into queues.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-all-active.png)
 
-### المحفوظات
+### Archives
 
-هذا المقطع يتضمن طلبات التقديم المرفوضة أو التي سبق نشرها من قبل المجلة.
+This section includes a list of all submissions either declined or already published by the journal. Declined submissions may be deleted from the list of archived submissions. Deleting a declined submission will completely remove the submission and all submission files from your journal.
 
-![](./assets/learning-ojs3.1-ed-dashboard-archive.png)
+![The list of archived submissions with the option to delete submissions.](./assets/ojs-3.3-sub-delete.png)
 
-### استعراض طلب تقديم
+### Demonstration Submission
 
-لأغراض العرض، نحن نبحث عن طلب التقديم الخاص بكل من سامح الأزهري وعمار القريشي، المعنون _دراسة عن استبيان يتعلق بالتعليم الالكتروني_. يمكن العثور عليه في الطابور **مساراتي**، وكذلك ضمن طابور **كل ما هو نشط**.
+For this demonstration, we are looking at the Cerpa submission, entitled _A Review of Object Oriented Database Concepts and their Implementation_. It can be found at the top of the **My Assigned** queue, as well as in the **All Active** queue.
 
-![](./assets/learning-ojs3.1-ed-dashboard-active.png)
+![The My Assigned queue on the OJS Submissions Dashboard, with the example article by Cerpa at the top of the queue.](./assets/learning-ojs3.3-submission-queue.png)
 
-بمجرد عثورك على طلب التقديم، يمكنك استعمال السهم الأزرق لكشف الخيارات الأخرى من أجل معرفة فيما كانت هناك أي مناقشات \(لا يوجد أي منها\)، فضلاً عن معاينة طلب التقديم، معاينة سجل الوقوعات والملاحظات، أو لحذف طلب التقديم.
+Once you find the submission, you can use the view button to view the submission, or use the blue arrow to reveal options and see if there are any open discussions (there are none in this case), the number of production galleys, and access the activity log & notes.
 
-![](./assets/learning-ojs3.1-ed-submission-details.png)
+![A submission with the options menu expanded.](./assets/learning-ojs3.3-submission-options.png)
 
-**حذف** سيقوم بنقل طلب التقديم إلى المحفوظات وعليه فإن **سجل الوقوعات والملاحظات** هما من سيحتفظ بالأحداث السابقة لطلب التقديم.
+**Activity Log & Notes** will bring up the submission's history.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-log.png)
 
-### سجل طلب التقديم
+### Submission Record
 
-لمعاينة طلب التقديم بمزيد من التفصيل، إختر زر **معاينة طلب التقديم**. هذا من شأنه أخذك إلى سجله.
+To view the submission in more detail, select **View Submission** button. This will take you to the submission record.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-record.png)
 
-من هنا يمكنك معاينة:
+From here, you can see:
 
-**ملفات المؤلَّف**: هذه اللوحة تدرج الملفات التي سبق تقديمها. في هذا العرض، هناك ملف واحد فقط، لكن يمكن تقديم عدة ملفات مع بعض.
+**Submission Files**: This panel lists the files that have been submitted. In this view, there is just one file, but multiple files could have been submitted. Submission files will now retain the original names when downloaded.
 
-**مناقشات ما قبل التحكيم**: هذه اللوحة تسمح للمحرر بالتواصل مع المؤلف أو مع الآخرين في طاقم التحرير. على سبيل المثال، لمطالبة المؤلف بمزيد من المعلومات، أو لتوجيه أحد محرري القسم بتولي مهمة طلب التقديم هذا.
+For journals using anonymous review, the author and reviewer (if they were to upload any document) are still removed. An example filename structure for files downloaded by Reviewers will be `ojs-review-assignment-1-article-text-8.docx` The numeric number corresponds with the manuscript number of assignment.
 
-**أزرار الإجراءات**: هذه تتضمن الإرسال إلى التحكيم، القبول وتخطي التحكيم، ورفض طلب التقديم.
+**Pre-Review Discussions**: This panel allows the editor to communicate with the author, or with others on the editorial team. For example, to ask the author for some additional information, or to ask a section editor to take responsibility for this submission.
 
-> ملاحظة: إذا لم تكن قادراً على مشاهدة هذه الأزرار، فمن المرجح أنك لم تعين طلب التقديم بعد إلى أي محرر.
+**Action Buttons**: These include Send to Review, Accept and Skip Review, and Decline Submission.
 
-**المشاركون**: هذه اللوحة التي تشاهد فيها قائمة المشاركين في أعمال طلب التقديم، بضمنهم مدير التحرير، محررو القسم، والمؤلف. الأفراد الآخرون \(المدققون، المحررون الطباعيون، إلخ.\) سيظهرون هنا بمجرد إضافتهم خلال المراحل اللاحقة.
+> Note: If you don't see these buttons, you likely have not yet assigned the submission to an editor.
 
-إضافة إلى ذلك، ضمن الشريط الأزرق في الأعلى يمكنك مشاهدة:
+**Submission Status** Once an editor has recorded a decision in one stage of the workflow of OJS 3.2, the recorded decision will appear in place of the decision buttons. Editors will still have the ability to change the recorded decision by clicking, ‘Change Decision’ this will enable the 3 options once again.
 
-**البيانات الوصفية**: حيث يمكنك معاينة البيانات الوصفية لطلب التقديم وتنقيحها.
+![](./assets/learning-ojs3.2_edflow_decisionstatus.png) *The screenshot above shows the decision button for MS# 425 prior to a decision being recorded. The screenshot below shows the notification of the recorded decision.*
 
-![](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
+![](./assets/learning-ojs3.2_edflow_decisionstatus2.png)
 
-إستعمل علامة تبويب المعرفات لمعاينتها وإضافة المعرف الفريد فيها.
+**Participants**: This panel is where you will see the list of participants involved in the submission, including the editor, section editors, and author. Other names (copyeditors, layout editors, etc.) will appear here as they are added in subsequent steps.
 
-![](./assets/learning-ojs-3-ed-submissions-identifiers.png)
+In addition, in the blue bar along the top, you can see:
 
-**أحداث ووقوعات التحرير**: حيث يمكنك معاينة النشاطات التحريرية السابقة وأي ملاحظات تتعلق بطلب التقديم.
+**Activity Log**: Where you can view the history and any notes about the submission.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-log.png)
 
-إستعمل علامة تبويب الملاحظات لمعاينة تلك الملاحظات أو إضافة المزيد منها.
+Use the Notes tab to also view or add any editorial notes.
 
 ![](./assets/learning-ojs-3-ed-submissions-notes.png)
 
-**مكتبة المؤلَّف**: حيث يمكنك إضافة أي مستندات ذات صلة بطلب التقديم.
+**Submission Library**: The Submission Library is a general storage area for documents that may include conflict-of-interest forms, galley approval forms, etc. A user can upload the completed form for their manuscript in their Submission Library. The uploaded forms will also be available to other participants (with the exception of Reviewers) assigned throughout the editorial or production workflow to edit or re-upload new versions.
 
-![](./assets/learning-ojs-3-ed-submissions-sub-library.png)
+**Document Library**: Users throughout the editorial workflow will be able to access all the files in the Publisher Library (see [Workflow Settings chapter](./settings-workflow.md)) made available by the Journal Manager or Editor through opening the Submission Library and clicking "View Document Library".
 
-### تعيين طلب التقديم
+![](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
 
-إعتماداً على الكيفية التي جرى فيها تعريف أقسام مجلتك، قد تكون بعض طلبات التقديم غير معينة لأي من المحررين. في تلك الحالة، الخطوة الآتية هي تعيين أحد المحررين أو محرري الأقسام لهذا التقديم. للقيام بذلك، إختر رابط _التعيين_ في لوحة **المشاركين**.
+**Preview**:  See how the submission will look when published with its current metadata and Galley files by clicking Preview.
+
+![The preview feature that shows how an article will look when published](./assets/learning-ojs-3-ed-preview.png)
+
+**Metadata**: Where you can view and revise the submission metadata. In OJS 3.2 and later, users can be granted permission to revise certain submission metadata at any stage of the workflow.
+
+![](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
+
+### Granting Author permissions
+
+In OJS 3.2, editors can grant access to allow authors to make metadata changes. There are two ways editors can grant this type of access.
+
+**Global permission**- will grant all users with the role ‘author’ permission to make metadata changes.
+
+To enable this, go to Users & Roles > Roles. Click the blue arrow beside the ‘Author’ then click edit.
+
+![](./assets/learning-ojs3.2-editorial-workflow-author-edit.png)
+
+Under Role Options, enable ‘Permit submission metadata edit.’ then click OK.
+
+![](./assets/learning-ojs3.2-editorial-workflow-author-editmenu.png)
+
+**Limited Permission** - will grant registered authors (typically a single author) permission to only make changes at certain stages of the editorial workflow.
+
+To allow an author to change the metadata at a specific stage of the workflow, click on the workflow stage (ie., Submission, Review, Copyediting, or Production).
+
+Under the participant’s list, click the arrow beside the author’s name followed by Edit.
+
+![](./assets/learning-ojs3.2-editorial-workflow-edit-participant.png)
+
+Under Permissions, enable ‘Allow this person to edit publication details.’ followed by OK.
+
+![](./assets/learning-ojs3.2-editorial-workflow-edit-grantpermission.png)
+
+Once the author has been granted access to made edits they will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors, and Metadata.
+
+![](./assets/learning-ojs3.2-editorial-workflow-edit-publicationmenu.png)
+
+### Assigning the Submission
+
+Depending on how you have your sections configured, some new submissions may come in unassigned. If this is the case, the next step is to assign an editor or section editor. To do so, select the _Assign_ link in the **Participants** panel.
 
 ![](./assets/learning-ojs-3-ed-submissions-add-participant.png)
 
-سيكون لك خيار تحديد المستخدمين حسب أدوارهم. إختر أحدهم، وأرسل له رسالة تلتمس فيها إبداء المساعدة.
+You will have the option to locate a user by role, choose an individual, and send them a message requesting their assistance.
 
-> ملاحظة: إن كنت غير متأكد من أسماء محرري الأقسام، ببساطة إختر ذلك الدور من القائمة المنسدلة، ومن ثم أنقر زر البحث. كل محرري الأقسام سيكونون مدرجين أمامك وجاهزين لاختيار أحدهم.
+> Note: If you aren't sure of the names of the section editors, simply choose that role from the dropdown menu and then hit the Search button. All Section Editors will be displayed and available for selection.
 
-أنقر زر **تمام** لإجراء التعيين وإرسال الرسالة.
+Hit the **OK** button to make the assignment and send the message.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-record-assign.png)
 
-> لاحظ مناقشة ما قبل التحكيم التي تمت إضافتها تلقائياً كجزء من عملية التعيين.
+> Note the new Pre-Review Discussion that was automatically created as part of the assignment.
 
-يمكنك الآن ملاحظة أن محرر القسم قد تمت إضافته إلى قائمة المشاركين، وأن أزرار الإجراءات صارت جاهزة له:
+You can now see that the Section Editor is listed under Participants, and the Action buttons are available:
 
-**الإرسال إلى التحكيم**: نقل طلب التقديم إلى الخطوة التالية.
+**Send to Review**: Moves the submission on to the next stage.
 
-**القبول وتخطي التحكيم**: تخطي مرحلة التحكيم ونقل طلب التقديم مباشرة إلى مرحلة التدقيق.
+**Accept and Skip Review**: Skips the Review Stage and moves the submission directly into Copyediting.
 
-**رفض طلب التقديم**: رفض طلب التقديم قبل تمريره إلى عملية التحكيم. هذا الطلب سيتم حفظه في الأرشيف.
+**Decline Submission**: Rejects the submission before going through the review process. The submission would then be archived. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active.
 
-في مثالنا هذا، رغم أن مدير التحرير قد عين محرر قسم، سيكون من الممكن له أيضاً تعيين نفسه لطلب التقديم.
+Although in this example, the editor assigned a section editor, it would also be possible for the editor to assign themselves to the submission.
 
-### محرر القسم
+Once the editor has selected an action, the submission status will change and the action buttons will be disabled.
 
-الآن وبعد تعيين محرر القسم، فبإمكانه تسجيل الدخول إلى الموقع ومعاينة لوحة القيادة. طلب التقديم يمكن العثور عليه في قائمة مساراتي.
+![](./assets/learning-ojs3.2_edflow_decisionstatus2.png)
+
+### Section Editor
+
+Now that the Section Editor has been assigned, they can login and view their dashboard. The submission can be found at the top of the My Assigned queue.
 
 ![](./assets/learning-ojs3.1-se-dashboard.png)
 
-النقر على عنوان التقديم يفتح سجله بالكامل.
+Clicking on the article title opens the full submission record.
 
 ![](./assets/learning-ojs3.1-se-record.png)
 
-#### قبول التعيين
+#### Accepting the Assignment
 
-ولو أن ذلك ليس ضرورياً، فبإمكان محرر القسم الرد على رسالة مناقشة ما قبل التحكيم لإبلاغ مدير التحرير بقبوله للمهمة وأنه مستعد للمضي بها قدماً.
+It is not required, but the Section Editor could reply to the Pre-Review Discussion to inform the editor that they will be proceeding with the assignment.
 
-#### التواصل مع المؤلف
+#### Communicating with the Author
 
-إذا كانت لدى محرر القسم أية استفسارات، فبإمكانه مراسلة المؤلف عبر مناقشات ما قبل التحكيم.
+If the Section Editor has any questions for the author, they can use the Pre-Review Discussions.
 
-#### الإرسال إلى التحكيم
+#### Sending to Review
 
-بمجرد أن يكون محرر القسم مطمئناً إلى كون طلب التقديم ملائم للمجلة، فله أن يختار زر **الإرسال إلى التحكيم** لتمرير التقديم إلى المرحلة التالية.
+Once the Section Editor is satisfied that the submission is appropriate for the journal, they can select the **Send to Review** button to move the submission to the next stage.
 
 ![](./assets/learning-ojs3.1-se-record-sendReview.png)
 
-أبق الملفات التي من المفترض تحكيمها مؤشرة.
+Keep the files that are to be reviewed checked off.
 
 <hr />
 
-## التحكيم
+## Review
 
-عندما يدخل طلب التقديم مرحلة التحكيم، سيظهر إشعار للإشارة إلى ضرورة انتخاب المحكمين.
+When the submission enters the Review Stage, a notification indicates that Reviewers need to be assigned.
 
 ![](./assets/learning-ojs3.1-se-record-revstage.png)
 
-> ملاحظة: في اللقطة أعلاه، نحن نشاهد ما يشاهده محرر القسم. لاحظ أن أزرار الإجراءات مقننة \(تقديم توصيات هو المتاح منها فقط\). لو سجلنا دخولنا بصفة مدير التحرير، سنرى المزيد من أزرار الإجراءات \(إلتماس التنقيحات، التقديم إلى التحكيم، الإرسال إلى التدقيق، رفض طلب التقديم\).
+> Note: In the screenshot above, we see the Section Editor's view. Notice the limited Action buttons \(only Make Recommendation is available\). If we were logged in as an Editor, we would see more Action buttons \(Request Revision, Accept Submission, Decline Submission\).
 
-من قائمة المحكمين، يمكنك اختيار إضافة محكم لتعيين محكم جديد.
+From the Reviewers panel, you can select Add Reviewer to assign a new Reviewer.
 
-هذا سيفتح نافذة جديدة حيث يتم إدراج المحكمين في قائمة ويمكن منها انتخاب أحدهم.
+This opens a new window, where Reviewers are listed and can be selected one at a time.
 
-![](./assets/learning-ojs-3-ed-rev-add.png)
+![Locate reviewer screenshot OJS 3.1.2](./assets/learning-ojs-3.1.2-locate-reviewer.png)
 
-لاحظ التفاصيل المتاحة عن المحكمين، بضمنها اهتماماتهم، ماضيهم التحكيمي، إلخ.
+Clicking on the blue arrow reveals more information about their review history, including how many active reviews they are currently assigned, how many reviews they have completed or declined, etc. If the user has added a Biography or Reviewing Interests, this information will be displayed here.
 
-في إصدارات نظام المجلات المفتوحة 3.0 إلى 3.1.0، لا يمكنك تعيين أي مستخدم بمثابة محكم إذا كان في نفس الوقت محرراً لنفس طلب التقديم. إذا فعلت ذلك، لن يكون المحرر قادراً على الوصول إلى طلب التقديم بعد إكمال المحكمين لأعمالهم، وهذا كله من أجل الالتزام بمبادئ التحكيم السري. مع ذلك، وبدءً من الإصدار 3.1.1 من نظام المجلات المفتوحة، فبإمكانك تعيين مستخدم لإجراء أعمال التحكيم حتى وإن كان له دور محرر لنفس الطلب.
+Additionally, a Journal Editor can add an Editorial Note about the reviewer in their profile under Users & Roles > Users. This note will appear in the reviewer details on the Add Reviewer screen, but will not be visible to the reviewer or to the public.
 
-عند أسفل هذا النموذج، سترى الخيارات الآتية:
+![Reviewer details screenshot OJS 3.1.2](./assets/learning-ojs-3.1.2-add-reviewer.png)
 
-**إختيار المحكم**: إستعمل ذلك لتأكيد رغبتك في تعيين المحكم الذي اخترته من القائمة.
+In OJS releases 3.0 to 3.1.0, you cannot assign a user to review a submission if they are also an editor of the submission.  If you do, the editor will no longer be able to access the submission after they submit their review, in order to maintain the principles of anonymous peer review. However, starting with OJS 3.1.1, you can assign a user to review a submission if they are also an editor of the submission.
 
-**إنشاء محكم جديد**: إذا لم يكن أي من المحكمين مناسباً للمهمة، يمكنك استعمال هذا الزر لإنشاء محكم جديد. سيكون هذا عبر إنشاء حساب مستخدم جديد في النظام.
+At the bottom of this form, you will see options to:
 
-**تعيين مستخدم موجود**: إذا لم يكن أي من المحكمين مناسباً، يمكنك تعيين أحد المسجلين في النظام لتولي مهمة التحكيم.
+**Select Reviewer**: Use this to confirm your selection once you have picked a Reviewer from the list.
 
-![](./assets/learning-ojs-3-ed-rev-add-2.png)
+**Create New Reviewer**: If none of the Reviewers are suitable, you can use this button to create a new Reviewer. This is a new account in the system.
 
-لأغراض هذا العرض، سنقوم باختيار حمزة عبد الجليل كمحكم، ومن ثم النقر على زر **إختيار المحكم**.
+**Enroll Existing User**: If none of the Reviewers are suitable, you can enroll an existing user as a Reviewer.
 
-هذا سيأتي بنافذة جديدة فيها رسالة إلى المحكم.
+For this demonstration, we will pick Adela as our Reviewer and hit the **Select Reviewer** button.
+
+This initiates a new window with a message for the Reviewer.
 
 ![](./assets/learning-ojs3.1-se-record-revstage-revreq.png)
 
-يمكنك تنقيح ما تريده من نصها.
+You can revise any of the prepared text.
 
-إذا كنت تستعمل طريقة التحكيم السري، تأكد أولاً بأن الملفات التي سترسلها إلى المحكم منزوعة من أي معلومات تشير إلى هوية المؤلف.
+If you are using an Anonymous Review method, ensure that the files you send to the Reviewer are stripped of any identifying information about the Author. Additional instruction for this is provided in the [Understanding Anonymous Review](#understanding-anonymous-review) and [Removing Identifying Information](#removing-identifying-information) sections.
 
-عند أسفل النموذج، ستشاهد التفاصيل الأخرى التي ستذهب إلى المحكم، بضمنها العنوان، الملخص، التواريخ الهامة، مع رابط إلى الملفات المطلوب تحكيمها.
+Further down the form, you will see the additional details that are sent to the Reviewer including title, abstract, important dates, and a link to the files to be reviewed.
 
 ![](./assets/learning-ojs-3-ed-rev-add-4.png)
 
-إفتراضياً، سيتم تجهيز المحكمين بمربع نص موسع ليقدموا فيه ملاحظاتهم. مع ذلك، يمكن لمدير التحرير إنشاء نماذج ضمن [**إعدادات المخطط الانسيابي،  التحكيم**](./journal-setup.md#التحكيم) لمطالبة المحكم بالإجابة على أسئلة أكثر تحديداً. إذا أردت من المحكم إملاء نموذج تحكيم، إختره من **نموذج التحكيم**.
+By default, Reviewers will be provided with an extended text box to type in their comments. However, the Journal Manager can create Review Forms in [**Workflow Settings &gt; Review**](./settings-workflow#review) to ask more focused questions. If you would like the Reviewer to fill out a review form, select it under **Review Form**.
 
-أنقر زر **إضافة المحكم** لإرسال الرسالة وتعيين المحكم.
+Hit the **Add Reviewer** button to send the message and assign the Reviewer.
 
-عوداً إلى مرحلة التحكيم، يمكننا مشاهدة أن المحكم قد تم إدراجه في القائمة.
+Back on the Review Stage, we can see the Reviewer is now listed.
 
 ![](./assets/learning-ojs-3-ed-rev-reviewer-added.png)
 
-يمكنك إجراء المزيد من التعديلات مستعملاً الزر الأزرق المجاور لاسم المحكم.
+You can make additional changes using the blue arrow toggle next to the Reviewer's name.
 
 ![](./assets/learning-ojs-3-ed-rev-reviewer-added-2.png)
 
-**تفاصيل التحكيم**: تقدم تفاصيلاً عن عملية التحكيم.
+**Review Details**: Provides details on the review.
 
 ![](./assets/learning-ojs-3-ed-rev-reviewer-review-details.png)
 
-**مراسلة المحكم**: تسمح لك بإرسال رسالة إلى المحكم.
+**Email Reviewer**: Allows you to send a message to the Reviewer.
 
 ![](./assets/learning-ojs-3-ed-rev-reviewer-email-reviewer.png)
 
-**تعديل التحكيم**: تسمح لك بتعديل تواريخ التحكيم وملفاته.
+**Edit Review**: Allows you to change the review dates and files.
 
 ![](./assets/learning-ojs-3-ed-rev-reviewer-edit-review.png)
 
-**إزالة المحكم**: تسمح لك بإلغاء تعيين المحكم.
+**Unassign Reviewer**: Allows you to unassign the Reviewer.
 
-**الماضي**: تقدم سرداً تأريخياً لسيرة التحكيم.
+**Cancel Review Request**: Starting in OJS 3.2, you can cancel a review request. This may be necessary when a reviewer has not responded to a review request or accepted to do a review but never delivered.
+
+![Cancel reviewer option](./assets/learning-ojs-3.2-cancel-reviewer.png)
+
+Cancelling a review request will permit you to send a template email to the reviewer. The request will then show up in the editor's reviewer list as "cancelled".
+
+![Request cancelled](./assets/learning-ojs-3.2-reviewer-cancelled.png)
+
+Cancelled review will be recorded in reviewer stats that you can see when selecting a reviewer.
+
+![Cancelled requests in reviewer stats](./assets/learning-ojs-3.2-cancelled-reviews-tracker.png)
+
+**Review Discussion**: Review Discussion is another way for you to contact a reviewer. In a review discussion, you have the option to attach files.
+
+To start a discussion, click ‘Add Discussion.’
+
+![](./assets/learning-ojs3.2-rev-contact2.png)
+
+You will then select the reviewer(s) you would like to start a discussion with.
+
+![](./assets/learning-ojs3.2-rev-contact3.png)
+
+**History**: Provides a brief history of the review.
 
 ![](./assets/learning-ojs-3-ed-rev-review-history.png)
 
-في هذا الوقت، يمكننا تعيين المزيد من المحكمين، ومن ثم انتظار توصياتهم.
+At this point, we could add additional Reviewers, and then wait for their recommendations to come in.
 
-### الاستجابة إلى التحكيمات
+### Understanding Anonymous Review
 
-بمجرد إكمال المحكمين لأعمالهم، يمكن لمحرر القسم معاينة النتائج في لوحة القيادة. هناك ستظهر إشعارات بورود التحكيمات وما إذا كانت قد وردت جميعاً.
+OJS is designed to accommodate different types of reviews and has built-in steps to ensure anonymity.
+
+All information will be visible to the journal managers and editors regardless of the type of review selected. The review type will be automatically selected based on what has been configured under _Settings_ > _Workflow_ > _Review_. The editors can change the review type when sending the review request. Editors/Section Editors must select the review type when sending the review request from the following options:
+
+* Anonymous Reviewer/Anonymous Author
+* Anonymous Reviewer/Disclosed Author
+* Open
+
+**Anonymous Reviewer/Anonymous Author**: The identity of both the author and the reviewer is kept hidden.
+
+The author or editor must ensure that metadata from the manuscript file is removed in Anonymous Reviewer/Anonymous Author. See [Removing Identifying Information](#removing-identifying-information) for more information.
+
+*Reviewer*: The reviewer will not be able to see the author(s) in their reviewer’s queue if the editor has selected Anonymous Reviewer/Anonymous Author. All identifying information in the metadata of the submission details is automatically removed by the system.
+
+![](./assets/learning-ojs3.1-ed-rev-anon1.png)
+
+At the end of a review, if a reviewer chooses to upload a review file they should remove all identifying information before uploading it to the system. See [Removing Identifying Information](#removing-identifying-information) for more information.
+
+*Author*: No identifying information regarding the reviewer will be visible to the author within their manuscript view.
+
+![](./assets/learning-ojs3.1-ed-rev-anon2.png)
+
+*Editors Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
+
+![](./assets/learning-ojs3.1-ed-rev-anon3.png)
+
+**Anonymous Reviewer/Disclosed Author**: Reviewer identity is kept anonymous from the author(s). The reviewers can see the author details.
+
+*Reviewer*: The reviewer is able will see full the metadata entered by the author by clicking _View All Submission Details_ in the request tab of the manuscript. The authors’ name will also appear in the reviewer's queue.
+
+*Author*: No identifying information regarding the reviewer will be available within their manuscript view.
+
+![](./assets/learning-ojs3.1-ed-rev-anon2.png)
+
+*Editors Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
+
+![](./assets/learning-ojs3.1-ed-rev-anon3.png)
+
+### Removing Identifying Information
+
+While OJS has a number of built-in functions for anonymous reviews, additional steps may need to be taken outside of the platform to ensure Anonymous Reviewer/Anonymous Author. A submission file may have information that could identify the authors' identity within the document properties.
+
+![](./assets/learning-ojs3.1-ed-rev-anon4.png)
+
+Authors may also include their name within the article, footnotes, or references, in which case the editor will have to remove it prior to sending for review. Alternatively, authors can be asked to redact their names from the submission file, with "Author" and year used in the references and footnotes instead of the authors' name, article title, etc., prior to submission.
+
+#### Microsoft Word for Windows
+
+1. Go to _File_
+2. Select _Info_
+3. Click on _Check for Issues_
+4. Click on _Inspect Document_
+5. In the _Document Inspector_ dialog box, select the check boxes to choose the types of hidden content that you want to be inspected
+6. Click _Remove All_
+7. Click _Close_
+8. Save the document
+
+#### Microsoft Word for MacOS
+
+1. Go to _Tools_
+2. Click _Protect Document_
+3. Select _Remove personal information from this file on save_
+4. Click _OK_ and save the file
+
+![](./assets/learning-ojs3.1-ed-rev-anon5.png)
+
+### Re-uploading the Document
+
+The Journal Managers and Editors are able to re-upload the anonymized document in the Review files by clicking **Upload/Select Files** in the _Review Files_ box.
+
+![](./assets/learning-ojs3.1-ed-rev-anon6.png)
+
+Click **Upload Review File**.
+
+![](./assets/learning-ojs3.1-ed-rev-anon7.png)
+
+Identify the article component and upload the file.
+
+![](./assets/learning-ojs3.1-ed-rev-anon8.png)
+
+Review Details. It may be helpful to rename the file to the time of re-upload. The file can also be renamed by clicking the arrow on the left side of the file name.
+
+![](./assets/learning-ojs3.1-ed-rev-anon9.png)
+
+Click Complete and select the file you would like to use for the review.
+
+The file(s) will appear under the initial upload. When sending out the review request, ensure that the original manuscript is unselected from the ‘Files To Be Reviewed’.
+
+![](./assets/learning-ojs3.1-ed-rev-anon10.png)
+
+Select the Review File(s) and click **OK**.
+
+### Responding to Reviews
+
+Once the Reviewers have completed their work, the Section Editor can see the results in their dashboard. Here they will see notifications that new reviews have been submitted and whether all reviews are in.
 
 ![](./assets/learning-ojs-3-ed-rev-responding.png)
 
-إستعمل رابط _قراءة التحكيم_ في لوحة المحكمين لقراءة تعليقاتهم، بضمنها ما كانت معنونة إلى المحرر والمؤلف أو المعنونة إلى المحرر فقط
+Use the _Read Review_ link in the Reviewers panel to read the comments from the Reviewers, including those for both the Author and Editor as well as for the Editor only.
 
 ![](./assets/learning-ojs-3-ed-rev-read-reviews.png)
 
-إختر رابط _التأكيد_ عند أسفل الشاشة.
+Select the _Confirm_ link at the bottom of the screen.
 
 ![](./assets/learning-ojs-3-ed-rev-thank.png)
 
-عند لوحة المحكمين، يمكنك الآن معاينة رابط _شكر المحكم_. إختره لتقديم الشكر والعرفان للمحكم.
+In the Reviewers panel, you can now see a _Thank Reviewer_ link. Choose that to thank the Reviewer.
 
 ![](./assets/learning-ojs-3-ed-rev-thank2.png)
 
-أنقر زر **شكر المحكم** لإرسال رسالة الشكر.
+Hit the **Thank Reviewer** button to send the message.
 
-### اتخاذ القرار
+### Making the Decision
 
-استناداً إلى توصيات المحكمين، يمكنك استعمال أزرار الإجراءات لاتخاذ القرار المناسب.
+Based on the Reviewer recommendations, you can use the action buttons to make a decision.
 
 ![](./assets/learning-ojs-3-ed-rev-decision.png)
 
-الخيارات تتضمن:
+Options include:
 
-**إلتماس التنقيحات**: هذا يعني مطالبة المؤلف بإجراء تعديلات طفيفة، دون الحاجة إلى معاودة التحكيم السري.
+**Request Revisions**: This will require the Author to make minor changes, the editor has the option to select whether another round of review will be required.
 
-**إعادة التقديم للتحكيم**: هذا يعني مطالبة المؤلف بتعديلات رئيسية مع الحاجة إلى تمرير العمل مجدداً إلى دورة تحكيم أخرى.
+**Accept Submission**: This means the submission is accepted without revisions and can proceed to the Copyediting stage.
 
-**الإرسال إلى التدقيق**: معناه قبول العمل بشكله الحالي وأن بإمكانه الانتقال إلى مرحلة التدقيق.
+**Decline Submission**: This means that the submission has not passed peer review and is unsuitable for further consideration. The submission would then move to the Archives. Only declined submissions in the Archives can be deleted. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active.
 
-**رفض طلب التقديم**: هذا معناه أن طلب التقديم فشل في عبور مرحلة التحكيم وأنه غير مناسب للنظر فيه مجدداً. طلب التقديم سينتقل تلقائياً إلى قائمة المحفوظات.
+### Request Revisions
 
-### إلتماس التنقيحات
+In this demonstration, we are going to request that the Author make some minor revisions before acceptance.
 
-في عرضنا هذا، سنقوم بمطالبة المؤلف بإجراء تعديلات طفيفة قبل الموافقة على عمله.
-
-للقيام بذلك، إختر زر **إلتماس التنقيحات**. هذا سيفتح نافذة رسالة جديدة.
+To do so, select the **Request Revisions** button. This results in a new message window.
 
 ![](./assets/learning-ojs-3-ed-rev-req-revisions.png)
 
-يمكنك تعديل ما تريده في النص قبل إرسال الرسالة.
+You can modify any of the text before sending the message.
 
-إستعمل زر **إضافة التحكيمات** لاستيراد تعليقات المحكم الموجهة إلى المحرر والمؤلف. التعليقات المعنونة إلى المحرر حصراً لن يتم استيرادها هنا.
+Use the **Add Reviews** button to import the Reviewer's comments from the Editor and Author field. Comments in the Editor only field will not be displayed.
 
-![](./assets/learning-ojs-3-ed-rev-req-revisions2.png)
+![](./assets/learning-ojs-3-ed-rev-req-revisions3.png)
 
-إذا كانت هناك أي مرفقات، مثل الملفات المعلمة والمقدمة من قبل المحكم، يمكنك إرفاقها هنا أيضاً \(طالما أنها منزوعة من البيانات الشخصية\).
+If there are any attachments, such as a marked up file created by a Reviewer, you can attach it here (as long as it has been anonymized). In OJS 3.1.2 and later, you can also upload a new file and add it as an attachment.
 
-أنقر زر **تسجيل قرار التحرير** لإرسال الرسالة.
+Hit the **Record Editorial Decision** button to send the message.
 
-لا بد لك الآن من انتظار ما سيأتي من المؤلف كرد.
+You must now wait for the Author to respond with their revisions.
 
-### إجابة المؤلف
+### Author Responds
 
-بمجرد قيام المؤلف بالتنقيحات، لا بد أن تتلقى منه رسالة \(عبر البريد الالكتروني، وتظهر لك في لوحة القيادة أيضاً\).
+Once the Author has made the revisions, you should receive a message (via email and the Review Discussions panel).
 
 ![](./assets/learning-ojs-3-ed-discussion-panel.png)
 
-ستشاهد الملف المنقح أيضاً في لوحة التنقيحات.
+You will also see the revised file in the Revisions panel.
 
-عندها، يمكنك تنزيل الملف المعدل، التحقق من كونه صار جاهزاً، والتواصل مع المؤلف عبر لوحة مناقشات التحكيم.
+At this point, you can download the revised file, check to make sure it is ready, and communicate with the Author using the Review Discussions panel.
 
-في مثالنا الحالي، سنقوم بإبلاغ المؤلف بقبولنا لعمله. للقيام بذلك، أنقر على عنوان المناقشة. هذا سيفتح نافذة المراسلة.
+In this case, we're going to inform the Author that we are accepting the revisions. To do so, click on the linked title of the discussion. This will open the discussion box.
 
 ![](./assets/learning-ojs-3-ed-discussion-window.png)
 
-إستعمل زر **إضافة رسالة** للرد.
+Use the **Add Message** button to reply.
 
 ![](./assets/learning-ojs-3-ed-discussion-window-reply.png)
 
-لديك خيار آخر يتمثل بالمطالبة بالمزيد من التنقيحات، ولكننا حالياً جاهزون للمتابعة.
+Another option would be to ask for further revisions, but at this point, we're ready to move on.
 
-### الانتقال إلى مرحلة التدقيق
+### Additional Round of Review
 
-طلب التقديم جاهز حالياً لينتقل إلى التدقيق. للقيام بذلك، إستعمل زر **قبول طلب النشر** الأزرق.
+If you would like to put the revised article through another round of review, you can start a second (or third or subsequent) review round after the author revisions have been received.
+
+It is best to start a new round of review **after** an author uploads revised files on the previous round. Creating a New Round of review before the author has uploaded their files could create some confusion as their dashboard (and yours) will default to the new round. The author will, however, be able to switch back to Round 1 to upload their files.
+
+![](./assets/learning-ojs-3-new-round-0.png)
+
+This will also result in having to download the uploaded file from Round 1 and upload it into Round 2 if you opt to go this route.
+
+A new round should **not** be started if you are experiencing any issues with the current round (i.e., unable to record decision, re-invite a declined or removed reviewer).
+
+To start an additional round of review after revised files have been received, click the **New Review Round** tab in the review tab of the manuscript.
+
+![](./assets/learning-ojs-3-new-round-1.png)
+
+This will open another menu for you to select which files (provided by the author) to include for the new round of review.
+
+![](./assets/learning-ojs-3-new-round-2.png)
+
+If there are any additional files you want to make available again from the previous round, this can be done by clicking **Upload/Select Files**. Click **Show files from all accessible workflow stages**.
+
+![](./assets/learning-ojs-3-new-round-3.png)
+
+The files available from Round 1 should appear under Submission. The files that appear under Review will only show files uploaded by the author from the previous round (i.e., revised files from Round 1). If you are on Round 3 (and onwards) and require files from Round 1 or 2, you will need to download these to your local desktop and re-upload them using **Upload/Select Files**.
+
+![](./assets/learning-ojs-3-new-round-4.png)
+
+Similarly, if there are any additional files authors provide after they upload the resubmission, you can upload them using **Upload/Select Files**.
+
+Once you’re ready to start the new round of review, assign Reviewers as you did in the previous round. You can assign the same reviewers or different reviewers.
+
+Reviewers from previous rounds will not have access to comments they've made the round before. If a reviewer has requested their comments from the previous round, the editor could copy this from Round 1 - Review Details and start a discussion in Round 2. Alternatively, the journal may choose to encourage the submission of Response to Reviewer as part of the resubmission.
+
+These steps can be repeated until a final decision to accept or decline the manuscript has been reached.
+
+### Moving to Copyediting
+
+The submission is now ready to be moved to copyediting. To do so, use the blue **Accept Submission** button.
 
 ![](./assets/learning-ojs-3-ed-send-to-copyediting.png)
 
-هذا سيفتح نافذة جديدة.
+This will open a new window.
 
 ![](./assets/learning-ojs-3-ed-accept.png)
 
-أنقر زر **تسجيل قرار التحرير** عند أسفل النافذة.
+Note that if the journal has enabled an article processing charge (APC) to be charged to authors, the option will appear at this stage to notify the author that the payment is due. Selecting "Request publication fee" will prompt a payment notification email to be sent to the author with payment instructions. For information about enabling author fees, please see the [Subscriptions chapter > Payment Types](./subscriptions#payment-types) and [Distribution settings > Enable Payments](./settings-distribution#enable-payments).
 
-طلب التقديم سينتقل تلقائياً إلى مرحلة التدقيق.
+![](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
+
+Hit the **Record Editorial Decision** button at the bottom of the window.
+
+The submission is automatically moved to the Copyediting stage.
+
+Back on the review tab, you will notice that the status now indicates the submission has been accepted.
+
+![](./assets/learning-ojs3.2_edflow_decisionstatus_accept.png)
 
 <hr />
 
-## التدقيق
+## Copyediting
 
-عندما يجتاز طلب التقديم مرحلة التحكيم، سينتقل إلى مرحلة التدقيق.
+When a submission is accepted in the Review Stage, it will automatically move to the Copyediting stage.
 
 ![](./assets/learning-ojs-3-ed-copyediting.png)
 
-### إضافة المدقق
+### Adding a Copyeditor
 
-عندما يدخل طلب التقديم إلى مرحلة التدقيق، سيظهر إشعار بضرورة تعيين المدقق. يمكن تعيين أي من هؤلاء عبر رابط *التعيين* في لوحة المشاركين.
+When the submission enters the Copyediting Stage, a notification indicates that a Copyeditor needs to be assigned. Copyeditors can be assigned using the *Add* link on the Participants panel.
 
-هذا سيفتح نافذة جديدة.
+This will open a new window.
 
 ![](./assets/learning-ojs-3-ed-copyediting-add.png)
 
-يمكنك استعمال قائمة الأدوار المنسدلة واختيار مدقق، والنقر على زر **بحث**. هذا سيعرض قائمة بكل المدققين المتاحين.
+You can use the role dropdown to choose Copyeditor and hit the **Search** button. This will bring up all Copyeditors.
 
-إختر أحدهم ليتولى العمل على طلب التقديم.
+Select one of the Copyeditors for this submission.
 
-إختر رسالة محضرة.
+Choose a prepared message.
 
-قم بأي تعديلات تريدها على الرسالة.
+Make any changes needed to the message.
 
-أنقر **إرسال**.
+Hit **Send**.
 
-يمكنك الآن معاينة الإشعار الجديد بأن طلب التقديم ينتظر التدقيق، وأن المدقق قد ظهر اسمه ضمن قائمة المشاركين. إلتماس التدقيق صار ظاهراً ضمن مناقشات التدقيق.
+You can now see the new notification that the submission is awaiting copyedits, the Copyeditor is now included in the Participants list, and the request is visible in the Copyediting Discussions.
 
 ![](./assets/learning-ojs-3-ed-copyediting-add-dash.png)
 
-يمكنك الآن انتظار قيام المدقق بعمله.
+You can now wait for the Copyeditor to do their work.
 
-### المدقق
+### Copyeditor
 
-سيتلقى المدقق رسالة الكترونية من محرر القسم تتضمن إلتماساً بتدقيق العمل المقدم إلى المجلة.
+The Copyeditor will receive an email message from the Section Editor requesting them to take on the submission.
 
-للشروع في ذلك، عليه تسجيل دخوله إلى الموقع والوصول إلى طلب التقديم عبر لوحة القيادة.
+To get started, they must login and find the submission from their dashboard.
 
 ![](./assets/learning-ojs-3-ce-dash.png)
 
-عندها، يمكن النقر على رابط التدقيق المجاور لعنوان طلب التقديم. هذا سيأخذه مباشرة إلى مرحلة التدقيق الخاصة به.
+Then, they can click the Copyediting link next to the submission name. This will take them directly to the Copyediting stage for this submission.
 
 ![](./assets/learning-ojs-3-ce-submission.png)
 
-من هنا، يمكنه معاينة الملفات التي تتطلب التدقيق. النقر على العنوان سيؤدي إلى تنزيل الملف إلى حاسبته.
+From here, they can see the Draft Files. These are the files that require copyediting. Clicking on the linked title will download the file to their desktop.
 
-خارج نظام المجلات المفتوحة، سيقوم المدقق بمهمته.
+Outside of OJS, they will do the copyediting work.
 
-للتحقق من البيانات الوصفية لطلب التقديم، إستعمل رابط البيانات الوصفية عند الشريط الأزرق في الأعلى.
+To check the submission metadata, click from the Workflow tab to the Production tab.
 
-![](./assets/learning-ojs-3-ce-copyediting-metadata.png)
+![An article record's Publication tab with metadata fields](./assets/learning-ojs-3-ce-copyediting-metadata.png)
 
-هذا سيتضمن تدقيق عنوان المؤلَّف، الملخص، أسماء المؤلفين، الكلمات المفتاحية، إلخ.
+This would include checking the article title, abstract, contributor names, keywords, etc.
 
-![](./assets/learning-ojs-3-ce-copyediting-metadata2.png)
+If any changes are made, hit the **Save** button before exiting this window.
 
-إذا قمت بإجراء أي تعديلات، أنقر زر **حفظ** قبل الخروج من هذه النافذة.
+You can Preview how the Abstract page would look if published with the current metadata by clicking on the Preview button in the top-right portion of the page.
 
-#### استشارة المؤلف
+#### Consult with the Author
 
-بمجرد إكمال التدقيق، سيتم تمرير النتائج إلى المؤلف عبر لوحة المناقشة، بالنقر على رابط *إضافة مناقشة*.
+Once they have finished copyediting, they will run the changes past the Author by adding a new discussion, using the Copyediting Discussions panel's *Add discussion* link.
 
-من النافذة الناتجة، على المدقق اختيار المؤلف وإضافة سطر الموضوع ثم متن الرسالة.
+From the Add Discussion window, they must choose the Author and add a subject line and message.
 
 ![](./assets/learning-ojs-3-ce-add-discussion.png)
 
-كذلك، وعند أسفل تلك النافذة، على المدقق رفع نسخة من الملف المنجز.
+Further down that same window, they must upload a copy of the copyedited file.
 
 ![](./assets/learning-ojs-3-ce-add-discussion2.png)
 
-للقيام بذلك، إستعمل رابط *رفع ملف*. هذا سيفتح نافذة جديدة حيث عليك اختيار *مكون المؤلَّف* (مثلاً، نص المقالة) ثم ارفع الملف.
+To do so, use the *Upload File* link. This will open a new window where you must choose the *Article Component* (e.g., article text) and upload the file.
 
 ![](./assets/learning-ojs-3-ce-upload1.png)
 
-أنقر **إستمر** للمتابعة.
+Hit **Continue** to proceed.
 
-هذا من شأنه فتح الطريق أمام الخطوة الآتية، حيث يمكنك تعديل اسم الملف لو تطلب الأمر.
+This will open the next step, where you can edit the filename if needed.
 
 ![](./assets/learning-ojs-3-ce-upload2.png)
 
-لاحقاً، يمكنك رفع المزيد من الملفات حسب الضرورة، أو النقر على **أكمل**.
+Next, you can upload more files if necessary, or hit **Complete**.
 
 ![](./assets/learning-ojs-3-ce-upload3.png)
 
-عوداً إلى نافذة الإضافة، يمكنك الآن معاينة الملف المرفق.
+Back on the Add window, you can now see the attached file.
 
 ![](./assets/learning-ojs-3-ce-upload4.png)
 
-أنقر **تمام** لإرسال الرسالة إلى المؤلف.
+Hit **OK** to send the message to the author.
 
-هي الآن متاحة ضمن مناقشات التدقيق.
+It is now visible in the Copyediting Discussions.
 
 ![](./assets/learning-ojs-3-ce-discussion.png)
 
-يمكنك الآن أن تنتظر رد المؤلف عليها.
+You can now wait for the author's response.
 
-### استجابة المؤلف
+### Author Replies
 
-بمجرد أن حصلت على إجابة المؤلف، يمكنك مراجعة رأيه عبر التحقق منه في لوحة المناقشات.
+Once you hear back from the author, you can review their feedback by checking the discussion reply.
 
 ![](./assets/learning-ojs-3-se-author-copyedits.png)
 
-من هنا، يمكنك إدراك أنه لا حاجة إلى مزيد من التعديلات.
+From here, you can see no further changes are required.
 
 ![](./assets/learning-ojs-3-se-author-copyedits-reply.png)
 
+### The Final Copyedited File
 
-### الملف المدقق النهائي
-
-يمكنك الآن المضي قدماً ورفع النسخة النهائية المدققة إلى لوحة التدقيق، عند نهاية الشاشة.
+Now you can go ahead and upload the final copyedited version to the Copyedited panel, near the bottom of the screen.
 
 ![](./assets/learning-ojs-3-ce-copyedited.png)
 
-إستعمل رابط رفع/اختيار الملفات لرفع النسخة المدققة النهائية.
+Use the Upload/Select Files link to upload the final copyedited version.
 
 ![](./assets/learning-ojs-3-ce-copyedited-upload-select.png)
 
-من المهم أن تلاحظ هنا أن لديك بعض الخيارات.
+It is important to note here that you have a few choices.
 
-1. يمكنك استعمال رابط رفع الملفات لرفع ملف جديد (مثلاً، ملف فيه بعض التعديلات الأخيرة بعد أن أرسلته إلى المؤلف).
-2. يمكنك اختيار نسخة المؤلف الأصلية (غير مرجح).
-3. يمكنك اختيار النسخة المدققة، وهي النسخة التي أرسلتها إلى المؤلف (فيما لو لم تقم بأي تعديلات إضافية، إختر هذه).
+1. You can use the Upload File link to upload a new file (e.g., a file with some recent changes since you showed it to the author).
+2. You can select the Author's original version (unlikely).
+3. You can select the Copyeditor version, which is the version you sent to the author (if you made no further changes, choose this one).
 
-لأغراض هذا العرض، سنختار النسخة المدققة **عبر تأشير خانة التأشير** المحاذية لذلك الملف.
+For this demonstration, we will select the Copyeditor version **by checking the box** to the left of that file.
 
-أنقر **تمام**.
+Hit **OK**.
 
-الملف الآن ظاهر في لوحة *المدقق* (قرب نهاية الشاشة)، ما يعني بالنسبة إلى مدير التحرير بأن هذه هي النسخة النهائية، والتي صارت جاهزة لدخول مرحلة الإنتاج.
+The file is now visible in the *Copyedited* panel (near the bottom of the screen), indicating to the editor that this is the final version, which is ready for the Production stage.
 
 ![](./assets/learning-ojs-3-ce-copyedited2.png)
 
-### إبلاغ محرر القسم
+### Inform the Section Editor
 
-الخطوة الأخيرة بالنسبة لك هي إبلاغ محرر القسم بأن عملية التدقيق قد اكتملت.
+The final step is for you to inform the Section Editor that the copyediting is complete.
 
-للقيام بذلك، إبدأ مناقشة جديدة ضمن مناقشات التدقيق عبر استعمال رابط *إضافة مناقشة*.
+To do so, start a new Copyediting Discussion by using the *Add Discussion* link.
 
 ![](./assets/learning-ojs-3-ce-copyedited-final.png)
 
-في نافذة المناقشة، أضف محرر القسم، الموضوع، ونص الرسالة.
+In the discussion window, add the Section Editor, a subject line, and a message.
 
 ![](./assets/learning-ojs-3-ce-copyedited-discussion.png)
 
-أنقر **تمام** لإرسال الرسالة.
+Hit **OK** to send the message.
 
-بالعودة إلى مرحلة التدقيق، يمكنك مشاهدة الرسالة وقد ظهرت في اللوحة.
+Returning to the Copyediting stage, you can see the message is posted.
 
 ![](./assets/learning-ojs-3-ce-copyedited-done.png)
 
-عملك بصفة مدقق قد اكتمل الآن!
+Your work as the Copyeditor is now complete!
 
-### الانتقال إلى الإنتاج
+### Moving to Production
 
-محرر القسم سيتلقى رسالة الكترونية تخبره بأن التدقيق قد اكتمل، كما سيشاهد إشعاراً بذلك في لوحة القيادة.
+The Section Editor will receive an email that the copyediting is complete, and see a notification in the discussions.
 
 ![](./assets/learning-ojs-3-se-copyedited-dash.png)
 
-يمكنك تنزيل ومراجعة النسخة المدققة النهائية من لوحة التدقيق.
+You can download and review the final copyedited version from the Copyedited panel.
 
 ![](./assets/learning-ojs-3-se-copyedited-files.png)
 
-في ذلك الوقت، يمكنك التواصل مع المدقق، أو إذا كنت راضياً، الانتقال إلى مرحلة الإنتاج.
+At this point you could communicate further with the Copyeditor, or, if you are satisfied, move the submission to the Production stage.
 
-للقيام بذلك، إختر الزر **الإرسال إلى الإنتاج** الأزرق.
+To do so, select the blue **Send to Production** button.
 
-هذا من شأنه توليد إشعار رسمي إلى المؤلفين بأن عملهم يتابع مسيرته إلى المرحلة التالية.
+This will generate an official notice to the Authors that the submission is moving to the next stage.
 
 ![](./assets/learning-ojs-3-se-send-to-production.png)
 
-لاحظ بأن الملفات الصحيحة، من لوحة التدقيق، قد جرى تضمينها لتذهب تلقائياً إلى مرحلة الإنتاج.
+Notice that the appropriate file, from the Copyedited panel, is included and will be automatically transferred to Production.
 
-أنقر **تسجيل قرار التحرير** للمتابعة.
+Hit **Record Editorial Decision** to proceed.
 
-مرحلة التدقيق قد اكتملت الآن.
+The Copyediting stage is now complete and the submission status will be updated. The next chapter covers the Production and Publication stage.
 
-<hr />
-
-## الإنتاج
-
-بعد إكمال مرحلة التدقيق، ينتقل طلب التقديم الآن إلى مرحلة الإنتاج. من هنا، الملفات المدققة \(عادة ما تكون بصيغة Microsoft Word\) سيتم تحويلها إلى صيغ قابلة للنشر \(مثل، PDF، HTML\) ثم تخضع للقراءة التصحيحية قبل النشر.
-
-للشروع بالإنتاج، على محرر القسم تسجيل دخوله إلى النظام واختيار طلب التقديم من لوحة القيادة.
-
-![](./assets/learning-ojs-3-se-production-submissions.png)
-
-إختيار رابط الإنتاج سيفتح سجل ملف التقديم.
-
-![](./assets/learning-ojs-3-se-production.png)
-
-ستشاهد أن الملفات المدققة موجودة في لوحة _الملفات الجاهزة للانتاج_.
-
-شريط الإشعار سيخبرك أيضاً بضرورة قيامك بتعيين أحدهم لإنشاء ملفات الألواح الطباعية \(أي ملفات PDF، HTML، إلخ.\) من تلك الملفات الجاهزة للإنتاج.
-
-هذا الأمر قد يتباين ما بين مجلة وأخرى - قد يكون لديك مصممين طباعيين أو مساعدي إنتاج للقيام بهذا العمل.
-
-لتعيين أحدهم، إستعمل رابط _التعيين_ في قائمة المشاركين. هذا سيفتح نافذة جديدة.
-
-![](./assets/learning-ojs-3-se-production-participants-add.png)
-
-إستعمل منتقِ الأدوار للبحث عن المستخدمين المناسبين، إختر واحداً منهم، إختر الرسالة المحضرة، ثم انقر على زر **تمام** لإرسالها.
-
-المستخدم إياه سيتلقى إشعاراً عبر البريد الالكتروني وعبر لوحة القيادة.
-
-![](./assets/learning-ojs-3-se-production-participants-added.png)
-
-لاحظ بأن هناك إشعاراً بأن طلب التقديم "ينتظر التصميم الطباعي". يمكنك مشاهدة المصمم الطباعي ضمن قائمة المشاركين، وكذلك الالتماس الموجه إليه في لوحة مناقشات الإنتاج.
-
-يمكنك الآن انتظار المصمم الطباعي ليكمل عمله.
-
-### التصميم الطباعي
-
-بصفتك المصمم الطباعي، ستتلقى رسالة تدعوك إلى المساهمة عبر إنشاء الألواح الطباعية لهذا العمل.
-
-للبدء، سجل دخولك إلى النظام واذهب إلى لوحة القيادة.
-
-![](./assets/learning-ojs-3-le-dashboard.png)
-
-من هنا، إبحث عن طلب التقديم واختر رابط الإنتاج.
-
-هذا سيأخذك إلى سجل طلب التقديم.
-
-![](./assets/learning-ojs-3-le-submission.png)
-
-من لوحة الملفات الجاهزة للإنتاج، قم بتنزيل الملفات إلى حاسبتك لتعمل عليها خارج نظام المجلات المفتوحة من أجل تحويلها إلى الصيغ الملائمة للنشر في المجلة \(مثلاً، HTML، PDF، إلخ.\).
-
-> ملاحظة: مشروع المعرفة العامة يعمل حالياً على إنشاء برمجيات من شأنها أتمتة تحويل ملفات Microsoft Word إلى صيغ أخرى، بضمنها XML، HTML، PDF، EPUB، إلخ. ترقب التحديثات لاحقاً.
-
-### اتخاذ القرار بشأن صيغ ملفات المقال
-
-المجلات التي تنشر عبر الإنترنت هذه الأيام تقدم مقالاتها بصيغ متعددة. أكثرها شهرة هي صيغ PDF و HTML، ولكن صيغ أخرى يجري استعمالها بشكل متزايد، مثل ePub، MP3، و XML.
-
-أغلب طلبات تقديم المؤلفين تأتي بصيغة مستندات Microsoft Word \(.doc أو .docx\)، وتتابع طريقها في المخطط الانسيابي لنظام المجلات المفتوحة \(التحكيم، التنقيح، التدقيق\) بهذه الصيغة. الصيغ الأخرى قد تشمل ملفات النصوص \(.txt\)، صيغة rich text \(.rtf\)، أو ملفات Open Office \(.odt\). كل تلك الصيغ غير مناسبة للنشر النهائي، ومن أجل ذلك تأتي ضرورة تحويلها إلى صيغ ملائمة للقراءة.
-
-#### العمل بالقوالب
-
-يستدعي ذلك أن تكون كل طلبات التقديم مستعملة لقالب محضر سلفاً يحاكي تنسيقات النشر في المجلة \(أي، نوع الخط، حجم الخط، التضخيم، التموضع، إلخ. مسافات الرأس والتذييل، المتن، إلخ.\) فإن ذلك سيجعل مهمة تحويل المستندات أسهل بكثير.
-
-شركة Microsoft توفر شرحاً وافياً عن كيفية صناعة القوالب [هنا](https://support.office.com/en-us/article/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb).
-
-بمجرد صناعتك للقالب المحاكي لأنماط إخراج مجلتك، عليك وضع رابط له ضمن صفحة دليل المؤلف جنباً إلى جنب توضيح مقنع عن أسباب استعماله. هذا من شأنه أن يضمن أن كل التقديمات الموجهة إلى مجلتك ستكون مسبقة التنسيق، مما يوفر على المصمم الطباعي الكثير من الوقت والجهد.
-
-إليك نموذج من مجلة تعمل بنظام المجلات المفتوحة تلزم مؤلفيها بتنزيل القالب واستعماله: [Paideusis](https://journals.sfu.ca/pie/index.php/pie#authorGuidelines).
-
-نموذجياً، لا بد لقالبك من استعمال الأنماط بدلاً من التنسيق المباشر. هذا لا يضمن التكاملية على امتداد الملف فحسب، بل هو سيساعد عند التحويل إلى الصيغ الأخرى أيضاً \(مثل HTML\). إليك [توضيحاً عن الفرق ما بين الأنماط والتنسيق المباشر في ملفات Word](https://support.office.com/en-us/article/Style-basics-in-Word-d382f84d-5c38-4444-98a5-9cbb6ede1ba4?CorrelationId=1b00844c-a9dc-4d62-98df-a966f30d4b20&ui=en-US&rs=en-US&ad=US&ocmsassetID=HA010230882).
-
-#### إنشاء ملفات PDF
-
-إن صيغة ملف PDF هي أسهل صيغة يمكن إنشاؤها من مستند Word. النسخ الحالية من Microsoft Word \(وغيره من معالجات النصوص\) تسمح لك ببساطة أن تحفظ الملف بصيغة PDF عبر استعمال "الحفظ باسم". الغالبية العظمى من المجلات العاملة بنظام المجلات المفتوحة تنشر مقالاتها بصيغة PDF.
-
-صيغة PDF شائعة أيضاً مع العديد من برامج القراءة، حيث أنها غالباً ما تقوم بإعادة إنشاء الصفحة الطباعية. مع ذلك، فإن صيغة PDF عادة ما تكون غير مرنة في الأجهزة المحمولة ولا تدعم أحياناً الروابط أو الوسائط المضمنة \(كملفات الأفلام والصوتيات\) بشكل جيد. مع التصاعد المستمر في أهمية الأجهزة المحمولة، فإن إيجاد ضمانات لتحسين تعاطي جمهورك الذي يستعمل الأجهزة المحمولة مع المحتوى الذي تنشره أمر تزداد أهميته حالياً.
-
-مثال \(أنظر رابط PDF عند نهاية الصفحة\): [Irish Journal of Technology Enhanced Learning](http://www.journal.ilta.ie/index.php/telji/article/view/22/51)
-
-#### إنشاء ملفات HTML
-
-ملفات HTML لديها ميزة المرونة. هي تتعاطى مع الروابط ومتعددات الوسائط بشكل جيد، ويمكنها ملائمة أي شاشة عرض تقريباً - بضمنها الهواتف الذكية واللوحيات. مع ذلك، هي تبدو مختلفة عن الصفحة المطبوعة، لذلك فإن بعض القراء لا زالوا يفضلون صيغة PDF. الوضع النموذجي هو في توفير كل من الصيغتين من أجل تلبية أفضل لحاجات المستخدمين.
-
-لقد تبين لنا من المقطع السابق بإن إنشاء ملفات PDF من ملف Word أمر يسير. مع الأسف، إنشاء ملفات HTML قد يكون مهمة تتطلب وقتاً أكبر. معالجات النصوص لا تتضمن الأدوات الفاعلة من أجل "الحفظ باسم" HTML. يحاول Microsoft Word القيام بذلك، لكن النتائج غير ملائمة للاستعمال من قبل نظام المجلات المفتوحة. عوضاً عن ذلك، حاول اتباع الخطوات الآتية:
-
-1. حول مستند Word. يمكنك استعمال هذه [الأداة المجانية](https://word2cleanhtml.com/) لإجراء تحويل أولي.
-2. إفتح ملفات HTML الناتجة بمعالج نصوص \(مثل، NotePad في Windows\) أو محرر HTML \(مثل، Adobe Dreamweaver\). من هنا، ستكون بحاجة إلى إجراء تنقية نهائية أو تنسيقات. الأمر يتطلب دراية بأساسيات لغة HTML. هذا ليس صعباً، وهناك العديد من [الدروس التكميلية](https://www.w3schools.com/html/)، ولكن الأمر يستغرق وقتاً.
-3. أبق على تنسيقات HTML بشكلها المبسط. ليكن تركيزك على الفقرات، فواصل الأسطر، العناوين، والروابط. لا تقلق بشأن الخطوط، الألوان، أو غيرها من عناصر التنسيق - نظام المجلات المفتوحة سيقوم بمعالجة ذلك تلقائياً كجزء من التصميم العام لمحتوى المجلة.
-4. إرفع الملف إلى نظام المجلات المفتوحة بمثابة لوح طباعي بصيغة HTML.
-
-مثال \(أنظر رابط HTML عند نهاية الصفحة\): [Forum Qualitative Sozialforschung](http://www.qualitative-research.net/index.php/fqs/article/view/2577)
-
-#### إنشاء ملفات ePUB
-
-بشكل يشابه ملفات HTML، فإن ملفات ePub نموذجية للأجهزة المحمولة، لكنها تتطلب برمجة متخصصة لإنشائها. أدوات التحويل متوفرة، مثل [Calibre](https://calibre-ebook.com/). المزيد من المعلومات عن كيفية إنشاء ملفات ePub [تتوفر هنا](https://www.wikihow.com/Convert-a-Word-Document-to-Epub).
-
-كما هو الحال مع ملفات HTML، بعض التنظيفات النهائية قد تكون ضرورية بعد التحويل و [تتطلب بعض المعرفة](http://www.jedisaber.com/eBooks/Introduction.shtml) بأساسيات هذه الصيغة من الملفات.
-
-مثال \(أنظر رابط EPUB عند نهاية الصفحة\): [International Review of Research in Open and Distance Learning](http://www.irrodl.org/index.php/irrodl/article/view/2895)
-
-#### إنشاء ملفات صوتية
-
-رغم أن ذلك غير شائع، فإن بعض المجلات تنشر محتوى صوتي لمقالاتها، للسماح للمستخدمين بالاستماع له. هذا مفيد بشكل خاص للمعاقين بصرياً، لكن قد يكون الآخرون مفضلين لذلك وبخاصة لمن يستمع لمحتوى الكتب خلال السفر أو خلال إنجاز أعمالهم اليومية.
-
-إنشاء الملفات الصوتية قد يمكن إنجازه يدوياً عبر الاستعانة بشخص ما مستعد لقراءة المقالات وتسجيل قراءته بمسجل صوتي، أو تلقائياً عبر الاستعانة ببرامج تحويل النصوص إلى أصوات.
-
-مثال \(أنظر رابط MP3 عند نهاية الصفحة\): [International Review of Research in Open and Distance Learning](http://www.irrodl.org/index.php/irrodl/article/view/3279)
-
-#### إنشاء ملفات XML
-
-إنشاء ملفات XML طريقة فعالة جداً للنشر بصيغ متعددة. عندما تُنشئ ملف XML، يمكنك بعدها تلقائياً إنشاء الصيغ PDF، HTML، ePub، وغيرها. إن مشروع المعرفة العامة يقوم بتطوير أداة تحويل ذاتية إلى صيغة XML تسمى [Open Typesetting Stack](https://pkp.sfu.ca/open-typesetting-stack/)، والتي تتوفر حالياً بشكلها التجريبي. يمكنك أيضاً أن تتعلم كيفية إنشاء ملفات XML بنفسك. [دروس ممتازة](https://www.w3schools.com/xml/) تتوفر عبر الإنترنت، لكن عليك استثمار وقت طويل لتكتسب خبرات المحترفين.
-
-مثال \(أنظر رابط XML في أعلى يسار الصفحة\): [Journal of Medical Research and Innovation](https://jmri.org.in/jmri/article/view/e000084)
-
-### الاتصال بالمؤلف
-
-بعدها، قد ترغب بمشاركة ملف PDF مع المؤلف ليأخذ نظرة نهائية عليه ويقر به.
-
-للقيام بذلك، إستعمل رابط _إضافة مناقشة_ في لوحة مناقشات الإنتاج. هذا سيفتح نافذة جديدة.
-
-![](./assets/learning-ojs-3-le-production-add-participant.png)
-
-تذكر أن تضيف المؤلف في أعلى النافذة، ومن ثم أضف الموضوع ومتن الرسالة.
-
-بعد الإرسال، لك أن ترفق نسخة من ملف PDF مستعملاً رابط _رفع ملف_. هذا سيجعله متاحاً للمؤلف.
-
-![](./assets/learning-ojs-3-le-production-add-participant-upload.png)
-
-تذكر أن تختار مكون المقالة الصحيح، ومن ثم ارفع ملف PDF.
-
-أنقر **إستمر**.
-
-بعدها، أجر أي تعديلات تريدها على اسم الملف \(غالباً، لا تحتاج إلى القيام بأي شيء هنا\).
-
-![](./assets/learning-ojs-3-le-production-add-participant-upload2.png)
-
-وبعدها، يمكنك رفع ملفات إضافية، إذا لزم الأمر.
-
-![](./assets/learning-ojs-3-le-production-add-participant-upload3.png)
-
-بمجرد إكمالك، أنقر **أكمل**.
-
-الملف الآن مرفق، ويمكنك إرسال الرسالة مستعملاً زر **تمام**.
-
-![](./assets/learning-ojs-3-le-production-add-participant2.png)
-
-لقد تم الآن إشعار المؤلف ويمكنك انتظار الرد منه.
-
-### استجابة المؤلف
-
-بمجرد أن أتيحت للمؤلف فرصة معاينة الألواح الطباعية وقدم لك رده، ستتلقى رسالة الكترونية كما ستجد إدخالاً لها في لوحة مناقشات الإنتاج.
-
-![](./assets/learning-ojs-3-au-production-message-reply.png)
-
-### إضافة الألواح الطباعية
-
-الآن وبعد أن قام المؤلف بالقراءة التصحيحية للألواح الطباعية، يمكنك إجراء أي تعديلات نهائية، ومن ثم رفعها إلى لوحة الألواح الطباعية.
-
-![](./assets/learning-ojs-3-au-production-galleys.png)
-
-للقيام بذلك، إستعمل رابط _إضافة لوح طباعي_، والذي سيفتح نافذة جديدة.
-
-![](./assets/learning-ojs-3-au-production-galleys-upload1.png)
-
-أضف ملصقاً مناسباً \(أي ملفات PDF، HTML، إلخ.\) ثم أنقر **حفظ**.
-
-![](./assets/learning-ojs-3-au-production-galleys-upload2.png)
-
-من هذه النافذة، إختر مكون المقالة الصحيح \(مثلاً، نص المقالة\) ومن ثم ارفع ملف اللوح الطباعي. أنقر **إستمر**.
-
-![](./assets/learning-ojs-3-au-production-galleys-upload3.png)
-
-إذا لزم الأمر، غير اسم الملف. أنقر **إستمر**.
-
-![](./assets/learning-ojs-3-au-production-galleys-upload4.png)
-
-إذا كان لديك المزيد من الملفات، قم برفعها الآن. وإلا، أنقر **تمام**.
-
-يمكنك الآن معاينة الألواح الطباعية في لوحة الألواح الطباعية.
-
-![](./assets/learning-ojs-3-au-production-galleys-uploaded.png)
-
-يمكنك إجراء تعديلات على ما قمت برفعه عبر اختيار السهم الأزرق المحاذي لملصق اللوح الطباعي، الذي سيكشف خيارات التعديل، تغيير الملف، والحذف.
-
-### إبلاغ محرر القسم
-
-أخيراً، سيكون عليك إبلاغ محرر القسم بأن الألواح الطباعية قد اكتملت. للقيام بذلك، إستعمل لوحة مناقشات الإنتاج واختر رابط _إضافة مناقشة_.
-
-![](./assets/learning-ojs-3-au-production-galleys-complete.png)
-
-أضف محرر القسم إلى أعلى النافذة، وضع للرسالة موضوعاً ومتناً. أنقر **تمام** لإرسال الرسالة.
-
-يمكنك الآن مشاهدة هذه المناقشة الأخيرة في اللوحة.
-
-![](./assets/learning-ojs-3-au-production-galleys-discussions.png)
-
-### محرر القسم يبلغ مدير التحرير
-
-في هذا الوقت، محرر القسم يتلقى الإشعار من المصمم الطباعي ويراجع ملفات اللوح الطباعي.
-
-يمكنه إما مطالبة المصمم الطباعي بإجراء المزيد من التعديلات \(مستعملاً مناقشات الإنتاج\) أو إبلاغ مدير التحرير بأن الألواح الطباعية جاهزة للنشر.
-
-لإبلاغ مدير التحرير، إستعمل لوحة مناقشات الإنتاج عبر الرابط _إضافة مناقشة_.
-
-### الجدولة للنشر
-
-عند استلام الإشعار بإكمال الألواح الطباعية، يقوم مدير التحرير بتسجيل دخوله إلى النظام ويبحث عن سجل طلب التقديم، ثم يدقق ملفات الألواح الطباعية.
-
-إذا كانت تبدو جاهزة، يمكن لمدير التحرير النقر على زر الإجراء الأزرق **جدوله للنشر**.
-
-![](./assets/learning-ojs-3-ed-production-schedule.png)
-
-النقر على هذا الزر يفتح نافذة النشر.
-
-![](./assets/learning-ojs-3-ed-production-publish.png)
-
-إستعملها لإضافة طلب التقديم إلى أي عدد تريده من أعداد المجلة.
-
-لديك أيضاً خيار إضافة أرقام الصفحات، الصلاحيات، ومعلومات الترخيص.
-
-النقر على **إحفظ** يعني نشر المؤلَّف ضمن العدد المحدد. إذا سبق لهذا العدد وأن تم نشره، فإن المقالة ستكون ظاهرة للقراء بشكل فوري.
-
-تهانينا! لقد وصلت إلى نهاية مجريات عملية التحرير.
+![](./assets/learning-ojs3.2_edflow_decisionstatus_copyedit.png)
