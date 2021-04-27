@@ -5,8 +5,7 @@
 Most documentation is updated continually by contributors as needed. In the event of a major software release that might make older docs irrelevant (e.g., OJS 3.1 -> OJS 3.2), PKP strives to update the materials before or as-close-to release as possible.
 
 When making changes related to minor software releases (e.g., OJS 3.1.1 -> 3.1.2), it is generally best to explain differences between versions explicitly in the document. For example:
-
->“In OJS releases 3.0 to 3.1.0, you cannot assign a user to review a submission if they are also an editor of the submission. However, starting with OJS 3.1.1, you can assign a user to review a submission if they are also an editor of the submission.”
+> “In OJS releases 3.0 to 3.1.0, you cannot assign a user to review a submission if they are also an editor of the submission. However, starting with OJS 3.1.1, you can assign a user to review a submission if they are also an editor of the submission.”
 
 Older versions of the documentation are accessible – via GitHub branches – for major-version documents in the Documentation Hub.
 
@@ -64,5 +63,5 @@ You can learn more about writing good docs with these resources:
 - If you make a mistake, just pause and continue. You can cut out the mistake later during editing.
 - After recording, use annotation tools in your screencasting program to add captions, arrows, animation, or highlighting. This can help direct your viewer’s eyes, highlight important things, or further explain things.
 - Give the video a clear, accurate title and an informative description
-- Add captions to the video, which are text versions of the audio content, synchronized with the video. Captions help make the video accessible to people who are deaf or hard of hearing and they can improve comprehension for viewers with less fluency in the video's language. 
+- Add captions to the video, which are text versions of the audio content, synchronized with the video. Captions help make the video accessible to people who are deaf or hard of hearing and they can improve comprehension for viewers with less fluency in the video's language.
 - Include an accurate transcript, such as an .srt file. YouTube automates this, but it does require some manual improvement. This will allow translators to more easily make subtitles in other languages.
