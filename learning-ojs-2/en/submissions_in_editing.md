@@ -9,17 +9,17 @@ The first section provides basic submission information (authors, title, section
 
 The Editing process comprises 4 sections:
 
-* 
+*
 ### [Copyediting](https://docs.pkp.sfu.ca/learning-ojs-2/en/in_editing_copyediting)
 
 
-* 
+*
 ### [Scheduling](https://docs.pkp.sfu.ca/learning-ojs-2/en/scheduling)
 
 
-* 
-### [Layout Editing](https://docs.pkp.sfu.ca/learning-ojs-2/en/layout_editing) 
+*
+### [Layout Editing](https://docs.pkp.sfu.ca/learning-ojs-2/en/layout_editing)
 
 
-* 
+*
 ### [Proofreading](https://docs.pkp.sfu.ca/learning-ojs-2/en/in_editing_proofreading)
