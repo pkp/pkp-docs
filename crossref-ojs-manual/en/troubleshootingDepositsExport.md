@@ -2,6 +2,7 @@
 book: crossref-ojs-manual
 version: 3.2
 ---
+
 # Troubleshooting Deposits from XML Export
 
 When you submit your DOIs via [Crossref's interface](http://doi.crossref.org), a report on the success of your submissions will be emailed to the address labeled under Technical Support Contact for your journal.  You can change the email of the depositor within the `<head>` parent element in your XML.
