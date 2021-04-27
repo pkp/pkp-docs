@@ -20,9 +20,9 @@ For an overview of features you can look forward to seeing in OJS 3, see our [OJ
 
 There is a new interface for readers and editors, including a separate editorial interface that is visually distinct from the journal. Users with multiple roles are no longer required to select a role from their user homepage in order to access certain settings or administrative features; all the available options can be located in the new dashboard. This also allows for seamless switching between tasks associated with different roles. The new interface is illustrated below and explained in [What’s New in OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/introduction#whats-new-in-ojs-3).
 
-![](./assets/ojs-2-settings.png) | ![](./assets/ojs-3-dashboard.png)
-:---: | :---:
-OJS 2 settings menu after selecting the Site Administrator Role | OJS 3 Dashboard with settings menus on the left panel
+|                ![](./assets/ojs-2-settings.png)                 |           ![](./assets/ojs-3-dashboard.png)           |
+|:---------------------------------------------------------------:|:-----------------------------------------------------:|
+| OJS 2 settings menu after selecting the Site Administrator Role | OJS 3 Dashboard with settings menus on the left panel |
 
 ## OJS 3 workflow
 
