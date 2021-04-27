@@ -1,3 +1,6 @@
-# Aprendiendo OJS 3.1: Una Guía Visual para Sistemas de Revistas Abiertas
+---
+book: learning-ojs
+version: 3.1
+---
 
-Traducido al español por Patricio Pastor con apoyo de la herramienta Deepl
+# Learning OJS 3.1: A Visual Guide to Open Journal Systems
