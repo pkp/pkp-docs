@@ -1,207 +1,195 @@
 ---
-book: apprendre-ojs
-version: 3.2
+book: learning-ojs
+version: 3.3
 ---
 
-# Chapitre 15: Production et Publication
+# Chapter 15: Production and Publication
 
-Une fois la phase de révision terminée, la soumission passe maintenant à la production. À partir de là, les fichiers copiés seront convertis en formats publiables sous forme de fichiers épreuves (par exemple, PDF, HTML) et relus avant publication. Un nouveau numéro de revue sera créé et l'article sera publié dans le numéro. Ce chapitre explique les étapes de ce processus, ainsi que la façon d'utiliser la fonction de contrôle de version d'OJS 3.2 pour publier une nouvelle version d'un article si des modifications importantes sont apportées.
+With the completion of the Copyediting stage, the submission now moves to Production. From here, the copyedited files will be converted to publishable formats in the form of galley files (e.g., PDF, HTML) and proofread before publishing. A new journal issue will be created and the article will be scheduled for publication in the issue. This chapter explains the steps in that process, as well as how to use the versioning feature (first introduced in OJS 3.2) to publish a new version of an article if significant changes are made.
 
-OJS offre également un moyen simple de contourner le flux de travail éditorial décrit dans le chapitre précédent et de soumettre le contenu directement en production, où il peut être ajouté à un numéro et publié. Vous pouvez le faire via le plugiciel Soumission Rapide. Consultez les [Instructions détaillées du plugiciel Soumission Rapide dans le chapitre Importation et Exportation de Données](./tools.md#importerexporter)
+OJS also offers a straightforward way to bypass the editorial workflow described in the previous chapter and submit content directly into production, where it can be added to an issue and published. You can do this via Quick Submit plugin. See the detailed [Quick Submit plugin instructions under the Data Import & Export chapter](./tools.md#importexport).
 
-Pour commencer le travail de Production, le/la rédacteur-trice de la rubrique ou le/la rédacteur-trice de la revue doit se connecter au système et choisir la soumission dans son tableau de bord.
+To start working in Production, the Section Editor or Journal Editor must login to the system and choose the submission from their dashboard.
 
-Cliquez sur l'article afin d'ouvrir le dossier de soumission.
+Clicking on the article will open the submission record.
 
-![](./assets/learning-ojs-3.2-se-production.png)
+![Production tab in the editorial workflow of a manuscript.](./assets/learning-ojs-3.2-se-production.png)
 
-Vous verrez que les fichiers copiés sont désormais disponibles dans le panneau **Fichiers prêts pour la production** .
+You will see the copyedited files are now available in the **Production Ready Files** panel.
 
-Dans l'onglet **Production**, vous pouvez affecter des participants (comme un/une rédacteur-trice de mise en page) à l'étape de production du flux de travaux et communiquer avec les participants dans le panneau **Discussions sur la production** .
+In the **Production** tab, you can assign participants (such as a Layout Editor) to the Production stage of the workflow and communicate with participants in the **Production Discussions** panel.
 
-## Onglets de Publication
+## Publication Tabs
 
-Tout ce qui concerne la publication d'une soumission se fait sous l'onglet Publication. L'onglet Publication vous permet de modifier ou d'ajouter des informations sur la soumission, y compris les contributeurs, les métadonnées et les identifiants. C'est également là que vous téléverserez les fichiers finaux épreuves pour la publication dans la revue.
+Everything related to publishing a submission is done under the Publication tab. The Publication tab allows you to edit or add information about the submission, including contributors, metadata, and identifiers. It is also where you will upload the final Galley files for publication in the journal.
 
-![](./assets/learning-ojs-3.2-production-publication-tab.png)
+![Publication tab that displays metadata information of a manuscript.](./assets/learning-ojs-3.2-production-publication-tab.png)
 
-Voici un aperçu de ce à quoi servent les différents onglets de cette section. Des instructions détaillées sur certains d'entre eux sont disponibles plus loin dans le chapitre.
+Here is an overview of what the different tabs in this section are for. Detailed instructions on some of these are available later in the chapter.
 
-**Titre et résumé**
-Utilisez cet onglet pour modifier le titre, le sous-titre et le résumé de l'article.
+**Title & Abstract** Use this tab to edit the article title, subtitle, and abstract.
 
-Si des modifications sont apportées, cliquez sur Enregistrer avant de quitter cette fenêtre.
+If any changes are made, click Save before exiting this window.
 
-**Contributeurs-trices**
-Utilisez cet onglet pour ajouter, modifier ou supprimer des contributeurs-trices à l'article.
+**Contributors** Use this tab to add, edit, or remove article contributors.
 
-**Métadonnées**
-Utilisez cet onglet pour ajouter ou modifier des mots-clés d'article.
+**Metadata** Use this tab to add or edit article keywords.
 
-Si des modifications sont apportées, cliquez sur Enregistrer avant de quitter cette fenêtre.
+If any changes are made, click Save before exiting this window.
 
-**Références**
-Utilisez l'onglet références pour afficher ou ajouter une référence unique, tel qu'un DOI. Plus d'informations sur l'attribution et la gestion des DOI sont disponibles dans le [Guide du plugiciel DOI](/doi-plugin/) .
+**Identifiers** Use the Identifiers tab to view or add a unique identifier, such as a DOI. More information about assigning and managing DOIs is available in the [DOI Plugin Guide](/doi-plugin/).
 
-**Épreuves**
-Utilisez l'onglet Épreuves pour téléverser le fichier final pour la publication. Ceci est expliqué ci-dessous.
+**Galleys** Use the Galleys tab to upload the final file for publication. This is explained below.
 
-**Autorisations et divulgation**
-Incluez des détails sur le titulaire du droit d'auteur et un lien vers la licence de l'article, le cas échéant. Celui-ci sera automatiquement renseigné en fonction de vos [Paramètres de Distribution](./settings-distribution.md).
+**Permissions & Disclosure** Include details about the copyright holder and link to the article license, if applicable. This will be automatically filled in according to your [Distribution Settings](./settings-distribution.md).
 
-**Numéro**
-Utilisez l'onglet Numéro pour affecter l'article à un numéro de revue. Ceci est expliqué ci-dessous.
+**Issues** Use the Issues tab to assign the article to a journal issue. This is explained below.
 
-### Soumissions Multilingues
+### Multilingual Submissions
 
-Les onglets Titre et résumé, Métadonnées, Autorisations et divulgation et Numéro ont des options pour ajouter et modifier des métadonnées dans plusieurs langues. Les langues doivent d'abord être activées dans Paramètres du Site Web -> Configuration -> Langues.
+The Title & Abstract, Metadata, Permissions & Disclosure, and Issue tabs have options for adding and editing metadata in multiple languages. Languages must first be turned on in Website Settings -> Setup -> Languages.
 
-Sélectionnez l'onglet de langue souhaitée sous le bouton «Calendrier de production» et remplissez les champs de métadonnées dans la langue sélectionnée.
+Select the desired language tab below the “Schedule for Production” button, and complete the metadata fields in the selected language.
 
-![](./assets/learning-ojs3.2-ed-prod-metadata-lang.png)
+![Multilingual button and text fields for French (Canada) in the metadata subtab within Publication.](./assets/learning-ojs3.2-ed-prod-metadata-lang.png)
 
-L'onglet «Numéro» vous permet de téléverser plusieurs images de couverture dans les langues sélectionnées.
+The “Issue” tab allows you to upload multiple cover images in selected languages.
 
-![](./assets/learning-ojs3.2-ed-prod-issue-languages.png)
+![Multilingual button and upload field for an issue cover image for French (Canada) in the Issue subtab within Publication.](./assets/learning-ojs3.2-ed-prod-issue-languages.png)
 
-## Format d'Article pour la Publication
+## Format Article for Publication
 
-### Attribuer un/une Rédacteur-trice de mis en page
+### Assign Layout Editor
 
-Une bannière de notification indique que vous devez désigner quelqu'un pour créer les fichiers épreuves (par exemple, les PDF, HTML, etc.) à partir des fichiers prêts pour la production.
+A notification banner indicates that you must assign someone to create the galley files (e.g., the PDFs, HTML, etc.) from the production ready files.
 
-Cela peut varier d'une revue à l'autre - vous pouvez avoir des rédacteurs-trices de mise en page ou des adjoints-tes de production pour faire ce travail. Certaines revues utilisent un service de conception graphique ou de composition externe. Si vous souhaitez communiquer avec votre rédacteur-trice de mise en page, adjoint de production, graphiste ou compositeur via OJS et gérer le processus de production avec eux dans OJS, assurez-vous qu'ils ont un compte utilisateur et ajoutez-les en tant que participant à la soumission.
+This can vary from journal to journal – you may have layout editors or production assistants to do this work. Some journals use an external graphic design or typesetting service. If you would like to communicate with your layout editor, production assistant, graphic designer, or typesetter through OJS and manage the production process with them in OJS, ensure they have a user account and add them as a participant to the submission.
 
-Pour effectuer l'affectation, utilisez le lien **Assigner** dans la liste des participants. Cela ouvrira une nouvelle fenêtre.
+To make the assignment, use the **Assign** link in the Participants list. This will open a new window.
 
-![](./assets/learning-ojs-3.2-se-production-participants-add.png)
+![New window to assign participants such as Layout Editor.](./assets/learning-ojs-3.2-se-production-participants-add.png)
 
-Utilisez le sélecteur de rôle et le bouton de recherche pour trouver les utilisateurs appropriés. Sélectionnez l'utilisateur et choisissez un message prédéfini, puis cliquez sur **OK** pour envoyer.
+Use the role selector and search button to find appropriate users. Select the user and choose a predefined message, then click **OK** to send.
 
-L'utilisateur a maintenant été averti par courriel et dans le tableau de bord.
+The user has now been notified via email and in the dashboard.
 
-![](./assets/learning-ojs-3.2-se-production-participants-added.png)
+![Manuscript dashboard after additional participants have been assigned.](./assets/learning-ojs-3.2-se-production-participants-added.png)
 
-Vous pouvez maintenant voir le/la Rédacteur-trice de Mise en Page dans la liste des Participants et vous pouvez voir l'avis de demande dans le Panneau Discussions sur la production.
-Vous pouvez maintenant attendre que le/la rédacteur-trice de mise en page termine ses tâches.
+You can now see the Layout Editor in the Participants list, and you can see the request notice in the Production Discussions panel. You can now wait for the Layout Editor to complete their tasks.
 
-### Rédaction de la mise en page
+### Layout Editing
 
-En tant que rédacteur-trice de mise en page, vous aurez reçu un message vous invitant à créer les épreuves pour la soumission.
-Pour commencer, connectez-vous au système et accédez à votre tableau de bord.
+As a Layout Editor, you will have received a message inviting you to create the galleys for the submission. To get started, login to the system and go to your dashboard.
 
 ![](./assets/learning-ojs-3.2-le-dashboard.png)
 
-À partir de là, recherchez la soumission et sélectionnez le lien **Production** . Cela vous mènera au dossier de soumission.
+From here, find the submission and select the **Production** link. This will take you to the submission record.
 
 ![](./assets/learning-ojs-3.2-le-submission.png)
 
-Depuis le panneau Fichiers prêts pour la production, téléchargez les fichiers sur votre bureau et travaillez en dehors d'OJS pour les convertir en fichiers épreuves. La section suivante explique les formats et la préparation des fichiers épreuves.
+From the Production Ready Files panel, download the files to your desktop and work outside of OJS to convert them to galley files. The next section explains galley file formats and preparation.
 
-> Remarque: PKP travaille actuellement sur un projet d'automatisation de la conversion de documents Microsoft Word dans d'autres formats, notamment XML, HTML, PDF, EPUB, etc. Gardez un œil sur notre blog pour les mises à jour.
+> Note: PKP is currently working on a project to automate the conversion of Microsoft Word documents into other formats, including XML, HTML, PDF, EPUB, etc. Keep an eye on our blog for updates.
 
-### Préparer et Ajouter des Fichiers Épreuves
+### Prepare and Add Galley Files
 
-Une Épreuve est le fichier final, prêt pour la publication qui a été préparé pour les lecteurs et sera publié sur la page de l'article. Les épreuves doivent être dans un format stable non modifiable (par exemple, HTML, PDF, ePub ou XML) des versions de l'article en texte intégral. Les fichiers Épreuves peuvent également inclure des éléments supplémentaires tels que des fichiers multimédias et des données de recherche. Vous pouvez publier un fichier épreuve pour un article et pour un numéro entier.
+A Galley is the final publication-ready file that has been prepared for readers and will be published on the article page. Galleys should be in a stable non-editable format (e.g., HTML, PDF, ePub, or XML) versions of the full-text article. Galley files can also include supplementary material such as multimedia files and research data. You can publish a galley file for an article and for an entire issue.
 
-#### Éléments de Fichiers Épreuves
+#### Galley file component types
 
-Lorsque vous téléversez un fichier épreuve, vous devrez sélectionner un **Type d'Élement** . Ce sont les mêmes types d'élements que ceux que les auteurs-es sélectionnent lorsqu'ils téléversent des fichiers de soumission. Vous pouvez configurer les types d'élements sous Paramètres de flux de travaux > Soumission > Éléments, selon que vous souhaitez que le type d'éléments soit publié et que vous souhaitiez qu'un lien vers celui-ci apparaisse sur la page de destination de l'article ou dans la table de matières.
+When you upload a galley file, you will need to select a **Component Type**. These are the same component types that authors select from when they upload submission files. You can configure component types under Workflow Settings > Submission > Components, according to whether you want the component type to be published and whether you want a link to it to appear on the article landing page or in the table of contents.
 
-Les configurations sont les suivantes:
+The configurations are as follows:
 
-- Relié: le lien n'apparaîtra pas du tout avec le contenu publié
-- Supplémentaire: le lien apparaîtra sur la page de destination de l'article
-- Ni supplémentaire ni relié: le lien apparaîtra sur la page de destination de l'article et dans la table des matières
+* Dependent: the link will not appear with published content at all
+* Supplementary: The link will appear on the article landing page
+* Neither supplementary nor dependent: The link will appear on the article landing page and in the table of contents
 
-Par exemple, si vous souhaitez incorporer des fichiers multimédias dans des fichiers HTML et les faire apparaître sur la page de destination, la page du numéro et la page de soumission, vous devez configurer les paramètres de la façon suivante:
+For example, if you want to embed multimedia files in HTML files and have these appear on the landing page, the issue page, and the submission page, you would configure the settings as follows:
 
-- Accédez à Paramètres > Flux de travaux > Soumission > onglet **Éléments**
-- Cliquez sur la flèche bleue à côté de la **Feuille de Style HTML** et **Modifier**
-- Décochez «Marquer les fichiers de ce type en tant que fichiers reliés» et «Marquer les fichiers de ce type en tant que fichiers supplémentaires». Cliquez sur **Enregistrer** .
-- Cliquez sur la flèche bleue à côté de **Multimédia** et **Modifier**
-- Décochez "Marquer les fichiers de ce type en tant que fichiers supplémentaires". Laissez «Fichiers reliés» coché. Cliquez sur **Enregistrer** .
+* Go to Settings > Workflow > Submission > **Components** tab
+* Click the blue arrow next to **HTML Stylesheet** and **Edit**
+* Uncheck “Mark files of this type as dependent files” and “Mark files of this type as supplementary files”. Click **Save**.
+* Click the blue arrow next to **Multimedia** and **Edit**
+* Uncheck “Mark files of this type as supplementary files”. Leave “Dependent files” checked off. Click **Save**.
 
-#### Formats de Fichiers Épreuves
+#### Galley file formats
 
-Les revues en ligne publient leurs articles dans divers types de fichiers. Les plus courants sont le PDF et le HTML, mais de plus en plus de formats supplémentaires sont utilisés, tels que ePub, MP3 et XML.
+Online journals publish their articles in a variety of file types. The most common are PDF and HTML, but increasingly additional formats are being used, such as ePub, MP3, and XML.
 
-Les plugiciels d'OJS permettent d'afficher ou de télécharger des fichiers PDF, HTML et XML dans un navigateur Web. Si les fichiers sont téléchargés au lieu d'être affichés dans le navigateur, vous devrez peut-être activer l'un de ces plugiciels sous Paramètres de Site Web > Plugiciels:
+Plugins in OJS allow PDF, HTML, and XML files to be viewed in a web browser or downloaded. If the files are being downloaded instead of displayed in the browser, you may need to enable one of these plugins under Website Settings > Plugins:
 
-- Le lecteur PDF.JS PDF fournit un support de rendu pour les fichiers d'article PDF.
-- Le lecteur d'article eLife Lens fournit une prise en charge du rendu pour les fichiers d'article XML JATS à l'aide d'eLife Lens.
-- Le plugiciel mise en page pour HTML fournit un support de rendu pour les mise en pages d'article sous forme de fichiers HTML.
+* PDF.JS PDF Viewer provides rendering support for PDF Article files.
+* eLife Lens Article Viewer provides rendering support for JATS XML Article files using eLife Lens.
+* HTML Article Galley plugin provides rendering support for HTML Article files.
 
-D'autres formats peuvent nécessiter des plugiciels supplémentaires ou peuvent être téléchargés directement. Vous pouvez également héberger le contenu en texte intégral sur une plateforme différente et intégrer une URL distante en cochant la case: "Cette épreuve sera disponible sur un Site Web distinct."
+Other formats may require additional plugins or can be downloaded directly. Alternatively, you may host the full-text content on a different platform and embed a remote URL by choosing the checkbox: “This galley will be available at a separate website.”
 
-#### Utiliser des Modèles
+#### Using templates
 
-Exiger que toutes les soumissions utilisent un modèle de document préformaté avec les styles de publication de votre journal (par exemple, la police, la taille de police, les caractères gras, l'emplacement, etc., de l'en-tête, du corps, des pieds de page, etc.) peut rendre la conversion de votre document beaucoup plus facile.
-[Microsoft fournit un bref aperçu de la création de modèles dans MS Word](https://support.office.com/en-us/article/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb) .
+Requiring all submissions to use a document template that is pre-formatted with your journal’s publication styles (e.g., the font face, font size, boldness, placement, etc., of the header, body, footers, etc.) can make your document conversion much easier. [Microsoft provides a brief overview for creating templates in MS Word](https://support.microsoft.com/en-us/topic/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb?ui=en-us&rs=en-us&ad=us).
 
-Une fois que vous avez créé un modèle qui correspond au style de votre revue, il peut être utile pour la soumission d'auteurs-es, de rédacteurs-trices de mise en page ou d'autres utilisateurs.
-Voici un exemple de revue OJS qui oblige les auteurs-es à télécharger et à utiliser un fichier modèle: [Paideusis](https://journals.sfu.ca/pie/index.php/pie#authorGuidelines) .
+Once you’ve created a template that matches your journal style, it may be useful for submitting authors, layout editors, or other users. Here’s an example of an OJS journal that requires authors to download and use a template file: [Paideusis](https://journals.sfu.ca/pie/index.php/pie/about/submissions).
 
-Idéalement, votre modèle doit être créé à l'aide de styles plutôt que d'un formatage direct. Cela garantit non seulement la cohérence de tous vos documents, mais aidera également toutes les conversions vers d'autres formats (par exemple, HTML). Voici une [explication de la différence entre les styles et la mise en forme directe dans Word](https://support.office.com/en-us/article/Style-basics-in-Word-d382f84d-5c38-4444-98a5-9cbb6ede1ba4?CorrelationId=1b00844c-a9dc-4d62-98df-a966f30d4b20&ui=en-US&rs=en-US&ad=US&ocmsassetID=HA010230882)
+Ideally, your template should be created using styles rather than direct formatting. This not only ensures consistency throughout your documents, but will also aid in any conversions to other formats (e.g., HTML). Here’s an [explanation of the difference between styles and direct formatting in Word](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563?redirectSourcePath=%252fen-us%252farticle%252fStyle-basics-in-Word-d382f84d-5c38-4444-98a5-9cbb6ede1ba4&ui=en-US&rs=en-US&ad=US)
 
-#### Fichiers PDF
+#### PDF files
 
-Un PDF est le type de fichier le plus simple à créer à partir d'un document Word. Les versions actuelles de Microsoft Word (et d'autres traitements de texte) vous permettent «d'enregistrer sous» ou «d'exporter sous» un PDF. La majorité des revues OJS publient leurs articles au format PDF.
+A PDF is the easiest type of file to create from a Word document. Current versions of Microsoft Word (and other word processors) let you “Save As” or “Export As” a PDF. The majority of OJS journals publish their articles as PDFs.
 
-Les fichiers PDF sont également populaires auprès de nombreux lecteurs car ils recréent le plus fidèlement la page imprimée. Cependant, les PDF sont souvent moins flexibles sur les appareils mobiles et ne gèrent pas toujours très bien les liens ou les supports intégrés (tels que les fichiers audio ou vidéo). Avec l'utilisation généralisée des appareils mobiles, il est de plus en plus important de s'assurer que votre public peut lire vos articles sur leurs téléphones ou tablettes.
+PDFs are also popular with many readers as they most closely recreate the printed page. However, PDFs are often less flexible on mobile devices and do not always handle links or embedded media (such as sound or video files) particularly well. With the widespread usage of mobile devices, ensuring your audience can read your articles on their phones or tablets is increasingly important.
 
-Exemple (voir lien PDF au bas de la page): [Irish Journal of Technology Enhanced Learning](http://www.journal.ilta.ie/index.php/telji/article/view/22/51)
+Example (see PDF link at bottom of page): [Irish Journal of Technology Enhanced Learning](http://www.journal.ilta.ie/index.php/telji/article/view/22/51)
 
-#### Fichiers HTML
+#### HTML Files
 
-Les fichiers HTML ont plus de flexibilité. Ils gèrent très bien les liens et les multimédia et peuvent s'adapter à presque tous les écrans, y compris les téléphones et les tablettes. Cependant, ils ont un aspect différent d'une page imprimée, de sorte que certains lecteurs préfèrent un PDF. La situation idéale est de fournir à la fois des fichiers PDF et HTML pour répondre au mieux aux besoins des différents utilisateurs.
+HTML files have the advantage of flexibility. They handle linking and multimedia very well, and can fit on just about any screen - including phones and tablets. They do, however, look different than a printed page, so some readers prefer a PDF. The ideal situation is to provide both PDF and HTML files to best meet the needs of different users.
 
-La création d'un fichier HTML peut exiger plus de temps et d'efforts que la création de fichiers PDF. Les traitements de texte ne disposent pas d'outils efficaces pour effectuer un «Enregistrer sous» au format HTML. Microsoft Word essaie de le faire, mais les résultats ne sont pas utiles pour le téléversement vers OJS. Au lieu de cela, essayez de suivre ce flux de travaux:
+Creating an HTML file can require more time and effort than creating PDF files. Word processors do not have effective tools for doing a “Save As” to HTML. Microsoft Word tries to do this, but the results are not useful for uploading to OJS. Instead, try following this workflow:
 
-- Convertissez le document Word. Vous pouvez utiliser [cet outil en ligne gratuit](https://word2cleanhtml.com/) pour effectuer une première conversion.
-- Ouvrez les fichiers HTML résultants dans un éditeur de texte (par exemple, NotePad sur Windows) ou un éditeur HTML (par exemple, Adobe Dreamweaver). À partir de là, vous devrez effectuer un nettoyage ou un formatage final. Comprendre les bases du HTML est nécessaire. Il existe de nombreux [tutoriels gratuits](https://www.w3schools.com/html/) , mais cela prend du temps.
-- Gardez le formatage HTML basique. Concentrez-vous simplement sur les paragraphes, les sauts de ligne, les titres et les liens. Ne vous inquiétez pas des polices, des couleurs ou d'autres éléments de conception - OJS se chargera de tout cela automatiquement dans le cadre de la conception globale de la revue.
-- Téléversez vers OJS en tant que fichier épreuve HTML
-- Le lecteur HTML restitue les fichiers HTML dans une iframe, ce qui peut affecter la navigation vers des pages Web contenant des hyperliens. Vous pouvez contourner cette fonctionnalité en ouvrant des hyperliens dans un nouvel onglet de navigateur, en ajoutant l'attribut `target="_blank"` à vos balises href.
+* Convert the Word document. You can use [this free online tool](https://word2cleanhtml.com/) to do an initial conversion.
+* Open the resulting HTML files in a text editor (e.g., NotePad in Windows) or HTML editor (e.g., Adobe Dreamweaver). From here, you will need to make any final clean up or formatting. Understanding the basics of HTML is required. There are many [free tutorials](https://www.w3schools.com/html/), but it does take some time.
+* Keep the HTML formatting basic. Just focus on paragraphs, line breaks, headings, and links. Don’t worry about fonts, colours, or other design elements - OJS will take care of all of that automatically as part of the overall journal design.
+* Upload to OJS as an HTML galley file
+* The HTML viewer renders HTML files within an iframe, which may affect navigation to hyperlinked web pages. You can bypass this feature by opening hyperlinks in a new browser tab, by adding the `target="_blank"` attribute to your href tags.
 
-Quelques exemples de modèles HTML peuvent être trouvés et adaptés à partir de ces sources:
+A few example HTML templates can be found and adapted from these sources:
 
-- [Ressource par U of A](https://drive.google.com/file/d/1mCP0tguFJf7jJn_CNceEwvRn5eCJrvxP/view) - Licence: CC0 1.0 Universal (CC0 1.0)
+* [Resource by U of A](https://drive.google.com/file/d/1mCP0tguFJf7jJn_CNceEwvRn5eCJrvxP/view) - License: CC0 1.0 Universal (CC0 1.0)
 
-Exemples (voir lien HTML en bas de page):
+Examples (see HTML link at bottom of the page):
 
-- [Anthropologie culturelle](https://journal.culanth.org/index.php/ca/article/view/4434)
-- [Bibliothèque factuelle et pratique d'information](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621)
+* [Cultural Anthropology](https://journal.culanth.org/index.php/ca/article/view/4434)
+* [Evidence Based Library & Information Practice](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621)
 
-##### Styliser des fichiers épreuves HTML
+##### Style HTML galley files
 
-Il est possible de styliser la conception de vos fichiers épreuves HTML en masse ou sur une base individuelle par article. Styliser en masse ne peut être effectué que si vous utilisez un thème personnalisé.
+It is possible to style the design of your HTML galley files in bulk or on an individual per-article basis. Styling in bulk can only be done if you are using a custom theme.
 
-Afin de styliser un fichier épreuve HTML individuel:
+To style an individual HTML galley file:
 
-- Lors de la création du fichier épreuve HTML, assurez-vous qu'il inclut une référence à la feuille de style dans la section `<head>` , par exemple `<link rel="stylesheet" href="./article_styles.css" type="text/css" />`
-- Téléversez le fichier épreuve HTML (voir ci-dessous pour savoir comment **ajouter des fichiers épreuves**)
-- Modifier le fichier épreuve
-- Téléversez les feuilles de style CSS avec le **type d'élément - feuille de style HTML** approprié.
+* While creating the HTML galley file, ensure that it includes a reference to the stylesheet in the `<head>` section, e.g. `<link rel="stylesheet" href="./article_styles.css" type="text/css" />`
+* Upload the HTML galley file (see below for instructions on how to **Add Galley Files**)
+* Edit the galley file
+* Upload the CSS stylesheets with the appropriate **Component Type - HTML Stylesheet**
 
-Pour styliser tous les fichiers épreuves HTML:
-Si vous utilisez un plugiciel de thème personnalisé, vous pouvez écrire une ligne de code pour inclure un style personnalisé pour toutes les épreuves HTML. Cela ne s'appliquera qu'aux fichiers épreuve HTML qui n'ont pas de style appliqué individuellement. Plus d'informations sur le thème personnalisé sont disponibles dans le [guide sur les thème PKP](/pkp-theming-guide/) .
+To style all HTML galley files: If you are using a custom theme plugin, you can write a line of code to include a custom style for all HTML galleys. This will only apply to HTML galley files that do not have a style applied individually. More information on custom theming is available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
-##### Ajoutez des images et du multimédia à une épreuve HTML
+##### Add images and multimedia to an HTML Galley
 
-Si vous souhaitez inclure des images ou des fichiers multimédias dans un fichier épreuve HTML, vous pouvez les téléverser en tant que fichiers reliés dans la soumission, et créer un lien vers eux dans le fichier pour les afficher.
+If you would like to include images or multimedia files in an HTML galley file, you can upload them as Dependent Files to the submission, and link to them within the file to display them.
 
-Avant de commencer de téléverser l'élément, vous aurez besoin d'une page HTML contenant l'un des éléments suivants:
+Before beginning the item upload, you will need an HTML page containing one of the following:
 
-- Élément `<audio controls>` (pour MP3)
-- Élément `<video>` (pour MP4), ou
-- `<img src=”imagename”>` pour les images
+* `<audio controls>` element (for MP3)
+* `<video>` element (for MP4), or
+* `<img src=”imagename”>` tag for images
 
-La page HTML doit également contenir le nom exact du fichier auquel vous vous connectez.
+The HTML page should also contain the exact name of the file you are connecting to.
 
-Vous devrez enregistrer le fichier audio/vidéo/image au format MP3/MP4/JPEG/GIF en utilisant le nom dans la page HTML.
+You will need to save the audio/video/image file in MP3/MP4/JPEG/GIF format using the name in the HTML page.
 
-Votre fichier HTML devra contenir le code minimum suivant (pour les fichiers audio). Pour le code vidéo ou du fichier image associé, veuillez consulter les instructions de w3schools sur l'incorporation de vidéo en HTML ou les instructions sur l'incorporation d'images en HTML.
+Your HTML file will need to contain the following minimum code (for audio files). For the related video or image file code, please see the w3schools instructions on [embedding video in HTML](https://www.w3schools.com/html/html5_video.asp) or instructions on [embedding images in HTML](https://www.w3schools.com/html/html_images.asp).
 
 ```html
 <html>
@@ -217,432 +205,436 @@ Your browser does not support the audio element.
 </html>
 ```
 
-Dans OJS, vous devrez configurer les paramètres de vos types d'éléments avant d'ajouter des fichiers multimédia. Voir **Types d'éléments de fichiers épreuves** ci-dessus pour plus de détails sur l'ajustement de ces paramètres.
+In OJS you will need to configure the settings for your Component Types before adding multimedia files. See **Galley File Component Types** above for details about adjusting these settings.
 
-Assurez-vous que les fichiers «Multimédia» et/ou «Image» sont configurés comme «fichiers reliés» dans les paramètres sur les types d'éléments.
+Make sure you have “Multimedia” and/or “Image” files configured as “dependent files” in the Component Type settings.
 
 ![](./assets/learning-ojs3.2-ed-prod-multimedia-component-edit.png)
 
-Revenez maintenant à la soumission pour téléverser une feuille de style HTML pour afficher votre fichier multimédia. Voir ci-dessous pour savoir comment **ajouter des fichiers épreuves** . De plus, lorsque vous téléversez le fichier:
+Now go back to the submission to upload an HTML stylesheet to display your multimedia file. See below for instructions on how to **Add  Galley Files**. In addition, when you upload the file:
 
-- Étiquetez l'épreuve en fonction du type de fichier multimédia (par exemple, MP3, MP4, Image)
-- Sélectionnez **Feuille de style HTML** dans la liste déroulante **Éléments d'article** .
-- Téléversez le fichier HTML que vous avez préparé avec au moins le code minimum (instructions ci-dessus)
-- Cliquez sur **Continuer**
-- Dans l'onglet **Examiner les détails**, vous pouvez téléverser des fichiers reliés. C'est ici que vous téléversez le fichier MP3/MP4/image.
+* Label the galley according to the multimedia file type (e.g., MP3, MP4, Image)
+* Select **HTML Stylesheet** from the **Article Component** dropdown
+* Upload the HTML file you prepared with at least the minimum code (instructions above)
+* Click **Continue**
+* In the **Review Details** tab you can upload Dependent Files. This is where you will upload the MP3/MP4/image file.
 
 ![](./assets/learning-ojs3.2-ed-prod-multimed-dep-file.png)
 
-Sélectionnez **Multimédia** ou **Image** dans le menu déroulant **Éléments d'Article**, puis importez le fichier MP3, MP4 ou l'image.
+Select **Multimedia** or **Image** from the **Article Component** drop-down menu, and upload the MP3, MP4, or image file.
 
 ![](./assets/learning-ojs3.2-ed-prod-upload-multimedia.png)
 
-Lors du téléversement d'un fichier image, il vous sera demandé d'ajouter une Légende, un Crédit, un Propriétaire du Droit d'Auteur et des Conditions d'Autorisation, quand c'est valable.
+When uploading an image file you will be asked to add a Caption, Credit, Copyright Owner, and Permission Terms, as applicable.
 
 ![](./assets/learning-ojs3.2-ed-prod-image-details.png)
 
-Cliquez sur **Continuer** pour terminer le téléversement, vérifiez les détails et confirmez. Votre fichier multimédia a maintenant été ajouté en tant que fichier relié avec le HTML, et sera incorporé dans le HTML lorsque l'objet sera publié.
+Click **Continue** to complete the upload, review the details, and confirm. Your multimedia file has now been added as a dependent file along with the HTML, and will be embedded in the HTML when the item is published.
 
 ![](./assets/learning-ojs3.2-ed-prod-upload-video-dependent.png)
 
-#### Fichiers ePUB
+#### ePUB Files
 
-Semblables aux fichiers HTML, les fichiers ePub sont idéaux pour les appareils mobiles mais nécessitent un codage spécialisé pour leur création. Des outils de conversion sont disponibles, tels que [Calibre](https://calibre-ebook.com/). Des instructions plus détaillées pour créer des fichiers ePub sont [disponibles ici](https://www.wikihow.com/Convert-a-Word-Document-to-Epub).
+Similar to HTML files, ePub files are ideal for mobile devices but require specialized coding to create. Conversion tools are available, such as [Calibre](https://calibre-ebook.com/). More detailed HOW TO instructions for creating ePub files are [available here](https://www.wikihow.com/Convert-a-Word-Document-to-Epub).
 
-Comme les fichiers HTML, un nettoyage supplémentaire peut être nécessaire après la conversion et [nécessite une certaine connaissance](http://www.jedisaber.com/eBooks/Introduction.shtml) du format.
+Like HTML files, some additional cleanup may be required after conversion and [require some knowledge](http://www.jedisaber.com/eBooks/Introduction.shtml) of the format.
 
-Exemple (voir le lien EPUB au bas de la page): [Revue Internationale de Recherche sur l'Enseignement Ouvert et à Distance](http://www.irrodl.org/index.php/irrodl/article/view/2895)
+Example (see EPUB link at bottom of the page): [International Review of Research in Open and Distance Learning](http://www.irrodl.org/index.php/irrodl/article/view/2895)
 
-#### Fichiers XML
+#### XML Files
 
-Les fichiers XML sont des fichiers structurés dans lesquels chaque partie de l'article est étiquetée comme un composant distinct. Cela permet au lecteur de naviguer facilement et d'accéder aux figures, images, métadonnées, références et parties du texte de l'article. La création de fichiers XML est un moyen très efficace de publier dans plusieurs formats. Lorsque vous créez un fichier XML, vous pouvez ensuite générer automatiquement des PDF, HTML, ePub et d'autres formats.
+XML files are structured files in which each part of the article is tagged as a distinct element. This allows the reader to easily navigate through and access figures, images, metadata, references, and parts of the article text. Creating XML files is a very efficient way to publish in multiple formats. When you create an XML file, you can then automatically generate PDFs, HTML, ePub, and other formats.
 
 ![](./assets/learning-ojs3.2-ed-prod-xmlgalley.png)
 
-PKP développe des outils qui vous permettront de créer, convertir et rédiger des fichiers XML dans OJS. Actuellement, vous devez créer et modifier les fichiers en dehors d'OJS. Si vous souhaitez produire des fichiers XML pour votre revue, vous pouvez utiliser les services d'un graphiste ou d'un compositeur, ou si vous avez une certaine expertise XML, vous pouvez créer les fichiers vous-même. W3schools propose d'excellents tutoriels sur XML.
+PKP is developing tools that will allow you to create, convert, and edit XML files within OJS. Currently you need to create and edit the files outside of OJS. If you want to produce XML galley files for your journal, you can use the services of a graphic designer or typesetter, or if you have some XML expertise you can create the files yourself. W3schools has excellent tutorials on XML.
 
-Exemple: [Recherche sur les Aliments et la Nutrition](https://foodandnutritionresearch.net/index.php/fnr/article/view/3609/10173)
+Example [Food and Nutrition Research](https://foodandnutritionresearch.net/index.php/fnr/article/view/3609/10173)
 
-#### Fichiers Multimédias
+#### Multimedia files
 
-Il est de plus en plus populaire pour les revues de publier du contenu multimodal, y compris des fichiers audio et vidéo, en plus d'articles textuels. En plus de fournir des formats audio et visuels pour les articles textuels, ce qui peut aider à accroître l'accessibilité du contenu des revues, le contenu multimodal est de plus en plus [valorisé comme une forme alternative de recherche](https://www.tandfonline.com/doi/full/10.1080/07294360.2017.1389857?casa_token=QlJ8xBTQUEMAAAAA%3AWDkOV6R-qfZxJBimLv_Jv4iB3o2XYeA-Cym7uxHoCww9THLVmZFVfKmRP3dtqq098HvYG6kqTl_v) qui représente et reflète différents modes d'expression et de savoir. Les revues qui choisissent de créer des versions audio d'articles textuels peuvent choisir de le faire manuellement, en demandant à quelqu'un de lire l'article dans un enregistreur vocal, ou en utilisant automatiquement le logiciel Text to Speech.
+It is becoming increasingly popular for journals to publish multimodal content, including audio and video files, in addition to text-based articles. In addition to providing audio and visual formats for text-based articles, which can help to increase the accessibility of journal content, multimodal content is increasingly [valued as an alternative form of scholarship](https://www.tandfonline.com/doi/full/10.1080/07294360.2017.1389857?casa_token=QlJ8xBTQUEMAAAAA%3AWDkOV6R-qfZxJBimLv_Jv4iB3o2XYeA-Cym7uxHoCww9THLVmZFVfKmRP3dtqq098HvYG6kqTl_v) which represents and reflects different modes of expression and ways of knowing. Journals that choose to create audio versions of text-based articles may choose to do so manually, by having someone read the article into a voice recorder, or automatically using Text to Speech software.
 
-Les fichiers multimédias peuvent être intégrés à la page de l'article sur votre site de revue, ou peuvent être liés à partir d'un site externe, tel que YouTube ou SoundCloud. Si vous utilisez un site externe, la qualité peut être meilleure, mais les statistiques ne seront pas collectées sur les vues ou les téléchargements d'épreuve, et la préservation du contenu dépend du site externe.
+Multimedia files can be embedded into the article page on your journal site, or can be linked to  from an external site, such as YouTube or SoundCloud. If you use an external site, the quality may be better, but statistics will not be collected on galley views or downloads, and preservation of the content is dependent on the external site.
 
-Lors du téléversement d'un fichier multimédia, vous pouvez sélectionner «texte de l'article» dans la liste d'éléments et téléverser directement le fichier (MP3, MP4, fichier image, etc.). Cela permettra à l'utilisateur d'accéder au fichier à l'aide du logiciel de visualisation d'images ou du logiciel de lecture audio/vidéo installé sur son appareil.
+When uploading a multimedia file, you can select “article text” from the component list and upload the file (MP3, MP4, image file, etc) directly. This will allow the user to access the file using the image viewing software or the audio/video playing software installed on their device.
 
-Exemple (voir le lien MP3 dans le menu latéral en bas de la page): [Revue Internationale de Recherche sur l'Enseignement Ouvert et à Distance](http://www.irrodl.org/index.php/irrodl/article/view/3279)
+Example (see MP3 link in side menu at bottom of the page): [International Review of Research in Open and Distance Learning](http://www.irrodl.org/index.php/irrodl/article/view/3279)
 
-Vous pouvez également intégrer le fichier audio, vidéo ou image dans une page HTML afin que les utilisateurs puissent afficher le fichier directement dans leur navigateur. Voir **Ajouter des images et du multimédia à une épreuve HTML** ci-dessus pour obtenir des instructions sur la façon de procéder.
+Alternatively, you can embed the audio, video, or image file in an HTML page so that users can view the file directly in their browser. See **Add images and multimedia to an HTML galley** above for instructions on how to do this.
 
-Exemple: [Apocalypse intersectionnelle](https://journals.lib.sfu.ca/index.php/ifj/article/view/673)
+Example: [Intersectional Apocalypse](https://journals.lib.sfu.ca/index.php/ifj/article/view/673)
 
-##### Téléverser un fichier multimédia lié depuis un site externe
+##### Upload a multimedia file linked from an external site
 
-Téléversez le fichier épreuve multimédia à l'étape de production du flux de travaux. Voir ci-dessous pour savoir comment **Ajouter des fichiers Épreuves** . De plus, lorsque vous téléversez le fichier:
+Upload the multimedia galley file in the Production stage of the workflow. See below for instructions on how to **Add Galley Files**. In addition, when you upload the file:
 
-- Étiquetez l'épreuve en fonction du type de fichier multimédia (par exemple, MP3/MP4)
-- Cochez la case indiquant "Cette épreuve sera disponible sur un site web distinct"
+* Label the galley according to the multimedia file type (e.g., MP3/MP4)
+* Check the box indicating “This galley will be available at a separate website”
 
 ![](./assets/learning-ojs3.2-ed-prod-upload-video-youtube.png)
 
-Pour obtenir l'URL, recherchez la vidéo ou l'audio sur YouTube, SoundCloud, etc., puis cliquez sur **Partager** et copiez l'URL.
+To get the URL, locate the video or audio in YouTube, SoundCloud, etc., then click **Share** and copy the URL.
 
 ![](./assets/learning-ojs3.2-ed-prod-share-youtube.png)
 
-Collez l'URL dans le champ de l'épreuve distante et cliquez sur **Enregistrer** .
+Paste the URL into the remote galley field and click **Save**.
 
-La vidéo devrait maintenant apparaître dans la soumission publiée.
+The video should now appear in the published submission.
 
-### Contactez l'Auteur-e
+### Contact the Author
 
-Ensuite, vous voudrez partager le PDF avec l'auteur-e pour un dernier regard et vous déconnecter. Pour ce faire, utilisez le lien **Ajouter une discussion** dans le panneau Discussion sur la production. Cela ouvrira une nouvelle fenêtre.
+Next, you will want to share the PDF with the author for a final look and sign off. To do so, use the **Add Discussion** link in the Production Discussion panel. This will open a new window.
 
 ![](./assets/learning-ojs-3-le-production-add-participant.png)
 
-N'oubliez pas d'ajouter l'auteur-e en haut de la fenêtre puis ajoutez un sujet et un message.
+Remember to add the author at the top of the window and then add a subject and a message.
 
-Avant l'envoi, joignez une copie du fichier PDF à l'aide du lien **Téléverser un fichier** . Cela le rendra disponible à l'auteur-e.
+Before sending, attach a copy of the PDF file using the **Upload File** link. This will make it available to the author.
 
 ![](./assets/learning-ojs-3-le-production-add-participant-upload.png)
 
-N'oubliez pas de sélectionner l'élément d'article approprié, puis téléversez le PDF.
+Remember to select the correct Article Component and then upload the PDF.
 
-Cliquez sur **Continuer** .
+Click **Continue**.
 
-Ensuite, modifiez le nom du fichier (généralement, vous n'avez rien à faire ici).
+Next, make any changes to the file name (usually you don’t need to do anything here).
 
 ![](./assets/learning-ojs-3-le-production-add-participant-upload2.png)
 
-Ensuite, vous pouvez téléverser des fichiers supplémentaires, si nécessaire.
+Then, you can upload additional files, if necessary.
 
 ![](./assets/learning-ojs-3-le-production-add-participant-upload3.png)
 
-Une fois que vous avez terminé, appuyez sur **Terminé** .
+Once you are done, hit **Complete**.
 
-Le fichier est maintenant joint et vous pouvez envoyer le message en utilisant le bouton **OK** .
+The file is now attached and you can send the message using the **OK** button.
 
 ![](./assets/learning-ojs-3-le-production-add-participant2.png)
 
-L'auteur-e a maintenant été notifié et vous pouvez attendre sa réponse.
+The Author has now been notified and you can await their response.
 
-### Réponse de l'Auteur-e
+### Author Response
 
-Une fois que l'auteur-e a eu la chance de revoir les épreuves et d'y répondre, vous recevrez une notification par courriel et verrez une réponse dans les discussions sur la production.
+Once the author has had a chance to review the galleys and respond, you will receive an email notification and will see a reply in the Production Discussions.
 
 ![](./assets/learning-ojs-3-au-production-message-reply.png)
 
-### Ajouter des Fichiers Épreuves
+### Add Galley Files
 
-Maintenant que l'auteur-e a relu les épreuves, vous pouvez apporter les modifications finales, puis les téléverser dans la soumission. Pour téléverser des épreuves, allez dans l'onglet Publication, puis Épreuves.
+Now that the Author has proofread the galleys, you can make any final changes, and then upload them to the submission. To upload galleys, go to the Publication tab, then Galleys.
 
 ![](./assets/learning-ojs-3.2-au-production-galleys.png)
 
-Cliquez ensuite sur **Ajouter des épreuves** , ce qui ouvrira une nouvelle fenêtre.
+Then click **Add galley**, which will open a new window.
 
 ![](./assets/learning-ojs-3-au-production-galleys-upload1.png)
 
-Ajoutez un libellé approprié (par exemple, PDF, HTML, etc.) et cliquez sur **Enregistrer** .
+Add an appropriate label (e.g., PDF, HTML, etc.) and click **Save**.
 
 ![](./assets/learning-ojs-3-au-production-galleys-upload2.png)
 
-Dans cette fenêtre, choisissez l'élément d'article approprié (par exemple, le texte de l'article) et téléversez le fichier épreuve. Cliquez sur **Continuer** .
+From this window, choose the appropriate article component (e.g., article text) and upload the galley file. Click **Continue**.
 
 ![](./assets/learning-ojs-3-au-production-galleys-upload3.png)
 
-Si nécessaire, modifiez le nom du fichier. Cliquez sur **Continuer** .
+If necessary, change the filename. Click **Continue**.
 
 ![](./assets/learning-ojs-3-au-production-galleys-upload4.png)
 
-Si vous avez plus de fichiers, téléversez-les maintenant. Sinon, cliquez sur **Terminer** .
+If you have more files, upload them now. Otherwise click **Complete**.
 
-Vous pouvez maintenant voir les épreuves dans le panneau Épreuve.
+You can now see the galleys in the Galley panel.
 
 ![](./assets/learning-ojs-3.2-au-production-galleys-uploaded.png)
 
-Vous pouvez apporter des modifications au téléversement en sélectionnant la flèche bleue à gauche du libellé de l'épreuve, qui révèle des options pour modifier, changer le fichier ou le supprimer.
+You can make changes to the upload by selecting the blue arrow to the left of the galley label, which reveals options to edit, change the file, or delete.
 
-### Modifier les Fichiers Épreuves
+### Edit Galley Files
 
-Si vous souhaitez modifier un fichier épreuve ou un libellé de fichier épreuve après son téléversement, vous pouvez le modifier. Veuillez noter que si l'article a déjà été publié, pour apporter une modification au fichier épreuve, vous devrez d'abord annuler la publication de l'article ou créer une nouvelle version (voir Versionnage des articles ci-dessous). Mais avant la publication de l'article, vous pouvez facilement éditer le fichier épreuve.
+If you want to make a change to a galley file or galley file label after it has been uploaded, you can edit it. Please note that if the article has already been published, to make a change to the galley file you will first have to un-publish the article or create a new version (see Versioning of Articles below). But before the article is published, you can edit the galley file easily.
 
-1. Ouvrez la soumission à partir du tableau de bord de soumission
-2. Allez dans l'onglet Publication puis Épreuves
-3. Cliquez sur la flèche bleue à côté du fichier que vous souhaitez modifier
-4. Si vous souhaitez modifier le libellé de l'épreuve, cliquez sur le bouton Modifier qui apparaît et changez le libellé de l'épreuve
-5. Si vous souhaitez modifier le fichier, cliquez sur Modifier le fichier et téléversez un nouveau fichier
-6. Lorsque vous avez terminé les modifications, cliquez sur Enregistrer
+1. Open the submission from the submission dashboard
+2. Go to the Publication tab and Galleys
+3. Click the blue arrow next to the file you want to edit
+4. If you would like to edit the galley label, click the Edit button that appears and change the Galley Label
+5. If you would like to change the file, click Change File and upload a new file
+6. When you are finished editing, click Save
 
 ![](./assets/learning-ojs-3.2-au-production-galleys-edit.png)
 
-### Informer le/la Rédacteur-trice de la Rubrique
+### Inform the Section Editor
 
-Enfin, vous devrez informer le rédacteur de la rubrique que les épreuves sont terminées. Pour ce faire, utilisez le panneau Discussion sur la Production et choisissez le lien **Ajouter une discussion** .
+Finally, you will need to inform the Section Editor that the galleys have been completed. To do so, use the Production Discussion panel and choose the **Add Discussion** link.
 
 ![](./assets/learning-ojs-3-au-production-galleys-complete.png)
 
-Ajoutez le rédacteur de la rubrique au haut de la page, puis incluez une ligne d'objet et un message. Cliquez sur **OK** pour envoyer le message.
+Add the Section Editor to the top of the page, and then include a subject line and message. Click **OK** to send the message.
 
-Vous pouvez désormais voir la discussion finale.
+You can now see the final discussion.
 
 ![](./assets/learning-ojs-3-au-production-galleys-discussions.png)
 
-### Le/La Rédacteur-trice de la Rubrique Informe Le/La Rédacteur-trice
+### Section Editor Informs Editor
 
-À ce stade, le/la rédacteur-trice de la rubrique reçoit la notification du/de la rédacteur-trice de mise en page et examine les fichiers épreuves.
+At this point, the Section Editor receives the notification from the Layout Editor and reviews the galley files.
 
-Ils peuvent demander au/à la rédacteur-trice de mise en page d'apporter des modifications supplémentaires (en utilisant les discussions de production) ou informer le/la rédacteur-trice que les épreuves sont prêtes pour la publication.
+They can either ask the Layout Editor to make additional changes \(using the Production Discussions\) or inform the Editor that the galleys are ready for publication.
 
-Pour informer le/la rédacteur-trice, utilisez le lien **Ajouter une discussion** du panneau Production Discussion.
+To inform the Editor, use the Production Discussion panel's **Add Discussion** link.
 
-La prochaine étape de la publication de la soumission consiste à vérifier et à finaliser les métadonnées.
+The next step in publishing the submission is to check and finalize the metadata.
 
-## Finaliser les Métadonnées
+## Finalize Metadata
 
-Avant de publier la soumission, vous devez vérifier que les métadonnées de l'article sont complètes et exactes dans OJS et correspondent aux métadonnées du PDF. Ceci est important pour garantir que le contenu est indexé par Google Scholar, détectable par d'autres services et accessible aux lecteurs.
+Before publishing the submission, you should check that the metadata for the article is complete and accurate in OJS and matches the metadata on the PDF. This is important for ensuring that the content is indexed by Google Scholar, discoverable by other services, and accessible to readers.
 
-Vous pouvez vérifier les métadonnées de la soumission en accédant à **Soumissions** , en ouvrant la soumission, en accédant à l'onglet **Publication** et en vérifiant les onglets **Titre** , **Contributeurs** et **Métadonnées** .
+You can check the metadata for the submission by going to **Submissions**, opening the submission, going to the **Publication** tab, and checking the **Title**, **Contributors**, and **Metadata** tabs.
 
-À ce stade, vous pouvez également ajouter l'article à une catégorie pour l'afficher sur une page de catégorie thématique de votre site et extraire et enregistrer les références (si ce n'est déjà fait).
+At this point you can also add the article to a category to display it on a thematic category page on your site and extract and save references (if you have not already).
 
-### Ajouter l'Article à une Catégorie
+### Add the Article to a Category
 
-Les catégories peuvent être utilisées pour organiser vos articles en collections thématiques. Si vous utilisez des catégories dans votre revue, vous pouvez éventuellement ajouter l'article à une ou plusieurs catégories. Pour savoir comment créer des catégories, consultez le [Chapitre sur les Paramètres de la Revue](./journalsetup.md). Vous pouvez ajouter l'article à une catégorie en modifiant ses métadonnées.
+Categories can be used to organize your articles into thematic collections. If you use categories in your journal, you can optionally add the article to a category or categories. For instructions on how to create categories see the [Journal Settings chapter](./journal-setup). You can add the article to a category by editing its metadata.
 
-- Dans la soumission d'article, allez dans l'onglet **Publication**
-- Cliquez sur **Numéro**
-- Dans la zone **Catégories** , cochez la ou les catégories auxquelles vous souhaitez ajouter l'article
-- Cliquez sur **Enregistrer**
+* In the article submission, go to the **Publication** tab
+* Click **Issue**
+* In the **Categories** box, check the category or categories that you want to add the article to
+* Click **Save**
 
 ![](./assets/learning-ojs3.2-ed-prod-add-to-category.png)
 
-### Extraire et Enregistrer les Références
+### Extract and Save References
 
-Si vous souhaitez afficher les références bibliographiques de l'article sur la page de l'article avec les DOI liés et soumettre les références à Crossref avec le reste des métadonnées de l'article, vous pouvez utiliser la fonction «Extraire et enregistrer les références». Cette fonctionnalité ne peut être utilisée que si vous utilisez le plugiciel DOI et le plugiciel Crossref pour exporter vos métadonnées vers Crossref. La fonctionnalité stockera chaque référence dans la base de données en tant que référence distincte et ajoutera le DOI à la référence sur la page de l'article. Cela facilitera également l'indexation des services, tels que Google Scholar, à identifier et à indexer les citations de l'article.
+If you would like to display the article’s bibliographic references on the article page with linked DOIs, and submit the references to Crossref with the rest of the article’s metadata, you can use the “Extract and save references” feature. This feature can only be used if you’re using the DOI plugin and the Crossref plugin to export your metadata to Crossref. The feature will store each reference in the database as a separate reference and add the DOI to the reference on the article page. It will also make it easier for indexing services, such as Google Scholar, identify and index the article’s citations.
 
-La première chose à faire est d'activer les références en tant que champ de métadonnées de soumission.
+The first thing you must do is enable References as a submission metadata field.
 
-1. Accédez à Paramètres du flux de travaux > Soumission > Métadonnées
-2. Faites défiler jusqu'à **Références** et cochez **Activer la métadonnée « Références »**
-3. De nouvelles options apparaîtront ci-dessous et vous pouvez choisir entre
-   - Ne pas demander de références à l'auteur-e pendant la soumission - le champ Références ne sera pas sur le formulaire de soumission et à la place des références peuvent être ajoutées par un/une rédacteur-trice
-   - Demander à l'auteur-e de fournir des références pendant la soumission - le champ Références sera sur le formulaire de soumission et les auteurs-es peuvent éventuellement y ajouter leurs références, ou un/une rédacteur-trice peut ajouter des références à la soumission plus tard
-   - Obliger l'auteur-e à fournir des références avant d'accepter sa soumission - le champ Références sera sur le formulaire de soumission et les auteurs-es devront y ajouter leurs références
-4. Cliquez sur **Enregistrer**
+1. Go to Workflow Settings > Submission > Metadata
+2. Scroll down to **References** and check off **Enable references metadata**
+3. New options will appear below and you can select to either
+  * do not request references from the author during submission - the References field will not be on the submission form and instead references can be added by an editor
+  * ask the author to provide references during submission - the References field will be on the submission form and authors can optionally add their references to it, or an editor can add references to the submission later
+  * require the author to provide references before accepting their submission - the References field will be on the submission form and authors will be required to add their references to it
+4. Click **Save**
 
 ![](./assets/learning-ojs3.2-ed-prod-enable-references.png)
 
-Maintenant, si vous allez dans l'onglet **Publication** d'un enregistrement de soumission, vous verrez un onglet **Références** ci-dessous. Un/une rédacteur-trice peut ouvrir l'onglet et copier-coller les références de l'article dans le champ. De plus, si vous avez coché la deuxième ou la troisième option ci-dessus, il y aura un champ **Références** lorsqu'un/une auteur-e soumet une soumission et l'auteur-e pourra y ajouter ses références.
+Now if you go to a submission record’s **Publication** tab you will see a **References** tab below. An editor can open the tab and copy and paste the article's references into the field. In addition, if you checked the second or third option above, there will be a **References** field when an author makes a submission and the author will be able to add their references to it.
 
-Chaque référence doit figurer sur une ligne distincte et vous devez vous assurer que le texte que vous collez dans le champ n'est pas formaté et ne comporte aucun saut de ligne ou espace supplémentaire. Supprimez tous les DOI des références si vous prévoyez de les ajouter plus tard avec le plugiciel de liaison de références Crossref.
+Each reference should be on a separate line and you should sure the text you paste into the field is unformatted and has no extra line breaks or spaces. Remove any DOIs in the references if you plan to add them later with the Crossref Reference Linking plugin.
 
-Lorsque l'article est publié, les références apparaîtront sur la page de l'article et les références seront soumises à CrossRef.
+When the article is published, the references will appear on the article page and the references will be submitted to CrossRef.
 
-Après avoir exporté les métadonnées de l'article vers Crossref, vous pouvez insérer les DOI pour les références d'article à partir de Crossref si vous utilisez le plugiciel de liaison de références Crossref. Des instructions sur l'utilisation du plugiciel sont disponibles dans le [Guide du plugiciel Crossref](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references) .
+After you have exported the article’s metadata to Crossref, you can insert the DOIs for the article references from Crossref if you use the Crossref Reference Linking plugin. Instructions on how to use the plugin are available in the [Crossref Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references).
 
-Une fois que vous avez configuré le plugiciel et que vous avez exporté les métadonnées de l'article vers Crossref, vous pouvez réinsérer les DOI de Crossref dans les références:
+Once you have the plugin set up and have exported the article's metadata to Crossref, you can insert the DOIs from Crossref back into the references:
 
-1. Ouvrez la soumission
-2. Accédez à l'onglet **Publication** et **Références**
-3. Cliquez sur **Verifier les DOIs Crossref**
-4. Certains DOI seront désormais ajoutés aux références
+1. Open the submission
+2. Go to the **Publication** tab and **References**
+3. Click **Check Crossref DOIs**
+4. Some DOIs will now be added to the references
 
-## Créer un numéro
+## Create Issue
 
-Lorsque vous êtes prêt à publier l'article, vous devez d'abord créer un numéro pour le publier. Ensuite, vous planifierez la publication d'articles dans le numéro. Les articles ne seront pas publiés tant que vous n'aurez pas publié le numéro dans son ensemble. Cette section explique comment créer et modifier des numéros.
+When you are ready to publish the article, you have to create an issue to publish it in first. Then you will schedule articles for publication in the issue. The articles will not be published until you publish the issue as a whole. This section explains how to create and edit issues.
 
-Dans le menu de gauche, sélectionnez Numéros pour gérer tous les numéros de votre revue.
+From the left menu, select Issues to manage all of the issues for your journal.
 
 ![](./assets/learning-ojs3.1-jm-issues.png)
 
-Vous verrez des onglets pour les Numéros à Venir et les Numéros Précédents.
+You will see tabs for Future Issues and Back Issues.
 
-**Numéros à Venir** sont tous vos numéros non publiés. Vous pouvez en créer autant que vous le souhaitez et planifier des soumissions à n'importe lequel d'entre eux.
+**Future Issues** are all of your unpublished issues. You can create as many of these as you wish, and schedule submissions to any of them.
 
-**Numéros Précédents** répertorie tous vos numéros publiés.
+**Back Issues** lists all of your published issues.
 
 ![](./assets/learning-ojs3.1-jm-issues-back.png)
 
-Pour créer un nouveau numéro, utilisez le lien **Créer un Numéro** et remplissez le formulaire.
+To create a new issue, use the **Create Issue** link and fill in the form.
 
 ![](./assets/learning-ojs-3-issues-create.png)
 
-Il y a des espaces pour ajouter de l'informations sur le volume, le numéro, l'année et le titre (par exemple, numéro spécial n ° 1), ainsi qu'une description, une image de couverture et une URL personnalisée. L'image de couverture et la description apparaîtront en haut de la page du numéro sur votre site, si vous les ajoutez. Si vous avez coché le volume, le numéro et le titre ci-dessous, vous devrez remplir quelque chose dans chaque champ.
+There are spaces to add volume, number, year, and title information (e.g., Special Issue #1), as well as a description, cover image, and custom URL. The cover image and description will appear at the top of the issue page on your site, if you add them. If you have volume, number, and title checked off below, you will be required to fill something into each field.
 
-Lorsque vous avez terminé, cliquez sur **Enregistrer** .
+When you’re finished, click **Save**.
 
-### Modifier le Numéro
+### Edit Issue
 
-Vous pouvez également modifier un Numéro à Venir existant en sélectionnant la flèche bleue à gauche de l'entrée du numéro sur la page Numéros à Venir.
+You can also edit an existing future issue by selecting the blue arrow to the left of the issue entry on the Future Issues page.
 
 ![](./assets/learning-ojs3.1-jm-issues-edit.png)
 
-Cela révélera un lien **Modifier** , qui ouvrira une nouvelle fenêtre d'informations.
+This will reveal an **Edit** link, which will open a new window of information.
 
 ![](./assets/learning-ojs-3-issues-details.png)
 
-**Table des Matières** : pour un nouveau numéro, ce sera vide, mais pour les numéros pour lesquels des soumissions ont été planifiées, ils seront répertoriés ici.
+**Table of Contents**: For a new issue, this will be empty, but for issues that have had submissions scheduled, they will be listed here.
 
-Utilisez la flèche bleue à côté de chaque soumission pour révéler des liens pour accéder directement à l'enregistrement de soumission (plus à ce sujet dans le chapitre 10) ou supprimez-le.
+Use the blue arrow next to each submission to reveal links to go directly to the submission record (more about this in Chapter 10) or remove it.
 
-**Données du Numéro** : cela permet d'accéder aux données de volume, de numéro et de chiffres que vous avez saisies lors de la création initiale du numéro.
+**Issue Data**: This provides access to the volume, issue, number data you entered when first creating the issue.
 
-**Épreuves du Numéro** : Cela vous permet de téléverser une épreuve du numéro complet - par exemple, un fichier PDF contenant tous les articles. Ce sera lié à partir de la page web du numéro.
+**Issue Galleys**: This allows you to upload galley of the complete issue – e.g., one PDF containing all articles. This will be linked from the issue web page.
 
-**Identificateurs** : utilisez cet espace pour ajouter un DOI pour le numéro, si votre revue prend en charge les identificateurs au niveau du numéro.
+**Identifiers**: Use this space to add a DOI for the issue, if your journal supports issue-level identifiers.
 
-### Commander les Rubriques et les Articles
+### Order Sections and Articles
 
-Lorsque vous publiez un numéro, les articles seront affichés dans les rubriques de votre revue.
+When you publish an issue, articles will be displayed under your journal’s sections.
 
-Si vous allez dans Paramètres de la Revue > Rubriques de la revue et modifiez une rubrique, vous pouvez configurer la façon dont elle apparaîtra sur la page de votre numéro publié, y compris si le titre de la rubrique est affiché.
+If you go to Journal Settings > Sections and edit a section, you can configure how it will appear on your published issue page, including whether the title of the section is displayed.
 
-Vous pouvez également faire glisser et déposer les rubriques pour modifier leur ordre d'apparition sur votre numéro publié.
+You can also drag and drop the sections to change the order of how they will appear on your published issue.
 
-Si vous souhaitez modifier l'ordre des rubriques par numéro ou l'ordre des articles dans une rubrique:
+If you want to change the order of sections on a per issue basis or the order of articles within a section:
 
-- Accédez à **Numéros** et ouvrez le numéro que vous souhaitez modifier
-- Cliquez sur **Trier**
-- Faites glisser et déposez les rubriques et les articles où vous le souhaitez
-- Cliquez sur **Terminé** lorsque vous avez terminé
+* Go to **Issues** and open the issue you want to edit
+* Click **Order**
+* Drag and drop the sections and articles where you want them
+* Click **Done** when you are finished
 
-### Aperçu du Numéro et des Articles
+### Preview Issue and Articles
 
-Si vous souhaitez voir à quoi ressemblera votre numéro et les articles qu'il contient sur votre site avant de le publier, vous pouvez utiliser la fonction Aperçu:
+If you want to see what your articles will look like prior to publication, click on the Preview button on the Publication tab of the submission record. Users with the permission to preview will see this button from the Copyediting stage forward.
 
-- Cliquez sur la flèche bleue à côté du numéro á venir
-- Cliquez sur **Aperçu**
-- La page d'aperçu du numéro s'ouvre. Pour afficher un aperçu d'un article, cliquez sur le titre de l'article dans la table des matières.
+![](./assets/learning-ojs-3.3-ed-production-publish-preview-article.png)
+
+If you want to see what your articles will look like in the context of an issue before publishing it, you can use the Issue Preview feature:
+
+* Click the blue arrow next to the future issue
+* Click **Preview**
+* The issue preview page will open. To preview an article, click the article title in the table of contents.
 
 ![](./assets/learning-ojs-3.2-ed-production-publish-issue.png)
 
-### Publier le Numéro
+### Publish Issue
 
-Une fois que vous êtes satisfait du numéro, cliquez sur le lien **Publier le Numéro** pour le publier sur le site web de votre revue.
+Once you are happy with the issue hit the **Publish Issue** link to publish it on your journal website.
 
-### Notifier les Lecteurs
+### Notify Readers
 
-Vous aurez la possibilité d'envoyer une notification aux utilisateurs concernant le nouveau numéro.
+You will have the option to send a notification to users about the new issue.
 
-Pour ne pas envoyer de notification d'un nouveau numéro publié, décochez la case "Envoyer un courriel de notification à tous les utilisateurs enregistrés" avant d'appuyer sur **OK** .
+To not send a notification of a new issue published, uncheck the box beside “Send notification email to all registered users” before pressing **OK**.
 
 ![](./assets/learning-ojs-3.2-ed-production-reader-notify.png)
 
-Le contenu de l'annonce est généré automatiquement et ne peut pas être modifié. Vous pouvez également utiliser la fonction [Annonces](./settings-website.md#annonces) pour envoyer une annonce de publication avec un contenu personnalisé.
+The content of the announcement is generated automatically and cannot be edited. You can alternatively use the [Announcements](./settings-website.md#announcements) feature to send a publication announcement with customized content.
 
-### Dépublier un Numéro
+### Unpublish Issue
 
-Utilisez le lien **Dépublier le numéro** pour supprimer la question et tout son contenu de la vue du public. Le numéro reviendra à l'onglet Numéros à Venir.
+Use the **Unpublish Issue** link to remove the issue and all of its content from public view. The issue will revert to the Future Issues tab.
 
-### Supprimer un Numéro
+### Delete Issue
 
-Vous pouvez utiliser le lien **Supprimer** pour supprimer complètement le numéro. Non seulement le numéro ne sera pas publié, mais la structure organisationnelle et toutes les métadonnées du numéro seront également supprimées. Tous les articles attribués retrouveront leur statut non publié.
+You can use the **Delete** link to remove the issue entirely. Not only will the issue be unpublished, the organizational structure and any issue metadata will also be removed. Any assigned articles will revert to their unpublished status.
 
-## Ajouter l'Article à un Numéro
+## Add the Article to an Issue
 
-Maintenant que vous avez créé un numéro, vous pouvez y ajouter l'article. Veuillez noter que l'article ne sera pas publié tant que le numéro ne sera pas publié. Dans cette étape, vous affectez l'article à un numéro.
+Now that you have created an issue, you can add the article to it. Please note that the article will not be published until the issue is published. In this step you are assigning the article to an issue.
 
-- Revenir aux **Soumissions**
-- Recherchez et ouvrez la soumission que vous souhaitez publier
-- Allez dans l'onglet **Publication** > **Numéro**
-- Dans le champ **Numéro** , sélectionnez le numéro dans lequel vous souhaitez publier l'article
-- La **Rubriques de la revue** sera remplie automatiquement en fonction des métadonnées de soumission, mais vous pouvez la modifier si nécessaire
-- Vous pouvez sélectionner une **Catégorie** si vous ne l'avez pas déjà fait (expliqué ci-dessus)
-- Si vous souhaitez qu'une image apparaisse sur la page de l'article, téléversez-la sous **Image de Couverture**
-- Vous pouvez ajouter des **Numéros de Page** , qui seront inclus dans les métadonnées et sur la table des matières
-- La **Date de Publication** sera définie automatiquement lors de la publication du numéro. N'entrez pas de date de publication à moins que l'article n'ait déjà été publié ailleurs et que vous ayez besoin de le mettre à jour.
-- Cliquez sur **Enregistrer** lorsque vous avez terminé
+* Go back to **Submissions**
+* Find and open the submission you want to publish
+* Go to the **Publication** tab > **Issue**
+* In the **Issue** field, select the issue you want to publish the article in
+* The **Section** will be filled in automatically based on the submission metadata but you can change it if needed
+* You can select a **Category** if you haven’t already done so (explained above)
+* If you want an image to appear on the article page, upload it under **Cover Image**
+* You can add **Page Numbers**, which will be included in the metadata and on the table of contents
+* **Date Published** will be set automatically when the issue is published. Do not enter a publication date unless the article was previously published elsewhere and you need to backdate it.
+* Click **Save** when you are finished
 
 ![](./assets/learning-ojs3.2-ed-prod-add-to-issue.png)
 
-### Publication Continue
+### Continuous Publishing
 
-OJS est actuellement conçu pour un modèle d'édition traditionnel où les articles sont publiés dans des numéros. Cependant, la publication continue est un moyen alternatif populaire de publier des recherches savantes, dans lesquelles les articles sont publiés au fur et à mesure qu'ils sont prêts. Vous pouvez utiliser un modèle de publication continue dans OJS.
+OJS is currently designed for a traditional publishing model where articles are published in issues. However, continuous publishing is a popular alternative way to publish scholarly research, in which articles are published as they are ready. You can use a continuous publishing model within OJS.
 
-Vous pouvez créer un numéro avec un titre tel que «Publications Actuelles», le publier et y ajouter des articles dès qu'ils sont disponibles. Les articles seront publiés immédiatement sur la page de publication actuelle de votre site.
+You can create an issue with a title like “Current Publications,” publish it, and add articles to it as they become available. The articles will be published immediately on the current issue page of your site.
 
-Lorsque le numéro «Publications Actuelles» est plein, vous pouvez le renommer avec un chiffre de numéro (par exemple, Vol 1, Numéro 2) et créer un nouveau numéro «Publications Actuelles» pour le prochain lot de nouveaux articles.
+When the “Current Publications” issue gets full, you can rename it with an issue number (e.g., Vol 1, Issue 2) and create a new “Current Publications” issue for the next batch of new articles.
 
-Si vous souhaitez informer vos lecteurs de la publication de chaque nouvel article, vous devrez créer une **Annonce** individuelle, car le message de notification automatique pour une nouvelle publication ne peut être envoyé que lorsqu'un nouveau numéro est publié. Consultez le [chapitre Paramètres du site web](./settings-website.md#annonces) pour plus d'informations sur les annonces.
+If you would like to notify your readers when each new article is published, you will have to create an individual **Announcement**, as the automatic notification message for a new publication can only be sent when a new issue is published. See the [Website Settings chapter](./settings-website.md#announcements) for information about Announcements.
 
-## Calendrier de Publication
+## Schedule for Publication
 
-L'étape suivante consiste à planifier la publication de l'article. Bien que l'article ne sera pas publié tant que le numéro auquel il est affecté ne sera pas publié, l'étape Planifier la Publication est la dernière étape pour confirmer que l'article est prêt à être publié.
+The next step is to schedule the article for publication. Although the article will not be published until the issue it is assigned to is published, the Schedule for Publication step is the final step in confirming that the article is ready to be published.
 
-Seul un/une rédacteur-trice de la revue peut planifier la publication d'un article, pas un/une rédacteur-trice de rubrique ou un/une rédacteur-trice invité.
+Only a Journal Editor can schedule an article for publication, not a Section Editor or Guest Editor.
 
-L'article doit avoir été affecté à un numéro et avoir passé l'étape d'évaluation pour pouvoir planifier sa publication.
+The article must have been assigned to an issue and passed the Review stage in order to be able to schedule it for publication.
 
-Lorsque vous êtes prêt à publier l'article:
+When you are ready to publish the article:
 
-- Ouvrez la soumission
-- Allez dans l'onglet **Publication**
-- Cliquez sur le bouton bleu **Calendrier de publication**.
+* Open the submission
+* Go to the **Publication** tab
+* Click the blue **Schedule for Publication** button.
 
 ![](./assets/learning-ojs3.2-ed-prod-schedule-for-pub.png)
 
-Un message apparaîtra pour confirmer que vous souhaitez planifier la publication de l'article. Cliquez sur **Publier**.
+A message will pop up that confirms you want to schedule the article for publication. Click **Publish**.
 
-### Calendrier des publications individuelles
+### Schedule for Individual Publications
 
-Dans les versions précédentes d'OJS, un article était attribué à un numéro et était publié lorsque ce numéro serait publié. Dans OJS 3.2, il est désormais possible de fixer une date de publication spécifique pour chaque publication.
+In previous versions of OJS, an article would be assigned to an issue and would be published when that issue was published. In OJS 3.2, it is now possible to set a specific publication date for each publication.
 
-Pour ce faire, sous l'onglet **Publication** du manuscrit, accédez à **Numéros**.
+To do this, under the **Publication** tab of the manuscript, go to **Issues**.
 
-Sous **Date de publication,** vous pouvez entrer la date de publication si elle est différente de la date de publication du numéro. Sinon, laissez ce champ vide.
+Under **Date Published** you can enter the publication date if it is different from the issue publication date. If not, leave this blank.
 
 ![](./assets/learning-ojs-3.2-ed-production-schedule-individual.png)
 
-Afin de planifier une publication individuelle, elle doit être affectée à un numéro et avoir passé l'étape d'évaluation.
+In order to schedule an individual publication, it must be assigned to an issue and have passed the review stage.
 
-Si la date est définie sur une date future, la publication doit être publiée lorsque la tâche planifiée s'exécute pour cette date.
+If the date is set to a future date, the publication should be published when the scheduled task runs for that date.
 
-Si le manuscrit programmé n'est pas programmé depuis le numéro, la date programmée précédemment ne doit pas changer.
+If the scheduled manuscript is unscheduled from the issue, the previously scheduled date should not change.
 
-## Gestion des Versions d'Articles
+## Versioning of Articles
 
-La possibilité de publier des versions d'articles est l'une des principales nouvelles fonctionnalités d'OJS 3.2. Cette fonctionnalité prend en charge la publication pré-imprimée et la publication de nouvelles versions d'articles lorsqu'une correction ou un changement important a été apporté. Avec la fonction de contrôle de version, vous pouvez gérer différentes versions d'article et indiquer clairement quelle est la plus récente.
+An ability to publish versions of articles is one of the major new features in OJS 3.2. This feature supports preprint publication and publishing new versions of articles when a correction or significant change has been made. With the versioning feature you can manage different versions of an article and clearly indicate which is the most current.
 
-Une fois qu'un article est publié, ni les métadonnées ni les épreuves ne peuvent être modifiés. Lorsqu'une révision d'un article publié ou de métadonnées est nécessaire, elle peut être effectuée de deux manières:
+Once an article is published, neither metadata nor galleys can be edited. When a revision of a published article or metadata is necessary, it can be done in one of two ways:
 
 ![](./assets/learning-ojs-3.2-ed-production-versioning-ways.png)
 
-**Option 1: Dépublier et Republier**
+**Option 1: Unpublish and republish**
 
-La suppression de la publication d'un article vous permet d'apporter des modifications sans créer de nouvelle version. Après l'annulation de la publication, vous pouvez mettre à jour les métadonnées et/ou remplacer le fichier épreuve et planifier à nouveau la publication de l'article. S'il est programmé dans un numéro publié, il sera disponible immédiatement. Aucune notification ne sera envoyée aux lecteurs, puisque la notification est envoyée lorsqu'un numéro est publié, pas pour un article individuel.
+Unpublishing an article allows you to make changes without creating a new version. After unpublishing, you can update metadata and/or replace the galley file and schedule the article for publication again. If scheduled into a published issue, it will become available right away. No notification will be sent to readers, since the notification is sent when an issue is published, not for an individual article.
 
-**Option 2: Créer une nouvelle version**
+**Option 2: Create new version**
 
-Lors de la création d'une nouvelle version, vous pourrez apporter des modifications aux métadonnées et/ou aux fichiers épreuves. Assurez-vous de cliquer sur **Enregistrer** en bas à droite pour enregistrer les modifications.
+When creating a new version, you will be able to make changes to the metadata and/or galley files. Make sure to click **Save** on the bottom right to record the changes.
 
-Vous pouvez suivre les mises à jour de version sous **Toutes les Versions** . Chaque version est marquée par un numéro et une date de publication. La version en cours de mise à jour est marquée par un numéro et **Non publiée** .
+You can keep track of version updates under **All Versions**. Each version is marked by a number and date published. The version currently being updated is marked by a number and **Unpublished**.
 
 ![](./assets/learning-ojs-3.2-ed-production-all-versions.png)
 
-Une fois vos modifications terminées, vous pouvez publier la nouvelle version en cliquant sur **Publier** en haut à droite. S'il est programmé dans un numéro publié, il sera disponible immédiatement. Aucune notification ne sera envoyée aux lecteurs puisque la notification est envoyée lorsqu'un numéro est publié, pas pour un article individuel.
+Once your changes are completed, you can publish the new version by clicking **Publish** on the top right. If scheduled into a published issue, it will become available right away. No notification will be sent to readers since the notification is sent when an issue is published, not for an individual article.
 
-La liste des versions antérieures et les dates de mise à jour seront répertoriées sur la page de l'article publié.
+The list of prior versions and update dates will be listed on the published article page.
 
 ![](./assets/learning-ojs-3.2-ed-production-published-versions.png)
 
-Les lecteurs pourront accéder aux versions précédentes. Ils verront un message sur l'article et les pages d'épreuve les informant qu'il s'agit d'une version obsolète et les pointant vers la version la plus récente.
+Readers will be able to access previous versions. They will see a message on the article and galley pages advising them that it is an outdated version and pointing them to the most recent version.
 
-Exemple de message de version obsolète sur la page de l'article:
+Example of an outdated version message on the article page:
 
 ![](./assets/learning-ojs-3.2-ed-production-outdated-version.png)
 
-Exemple de message de version obsolète sur la page épreuve PDF:
+Example of an outdated version message on the PDF galley page:
 
 ![](./assets/learning-ojs-3.2-ed-production-outdated-pdf.png)
 
-L'URL de l'article pointera toujours vers la version la plus récente, les versions antérieures étant disponibles à la même URL avec la version à la fin de l'URL (par exemple/version/1234/).
+The article URL will always point to the most recent version, with earlier versions being available at the same URL with the version at the end of the URL (e.g. /version/1234/).
 
-### DOI et Indexation de Versions
+### DOIs and Indexing of Versions
 
-Lorsqu'un DOI a été attribué à la version originale, il ne sera pas modifié automatiquement. Les métadonnées CrossRef précédemment déposées ne seront pas automatiquement mises à jour. Si les métadonnées d'article ont été modifiées, nous vous recommandons de mettre à jour les métadonnées CrossRef dans le plugiciel d'exportation XML CrossRef en déposant manuellement l'article mis à jour. Pour savoir comment déposer manuellement un article, consultez le [Guide du Plugiciel CrossRef - Dépôts Manuels](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits) de PKP.
+Where a DOI was assigned to the original version, it will not be changed automatically. Previously deposited CrossRef metadata will not be automatically updated. If article metadata was changed, we recommend updating CrossRef metadata in the CrossRef XML Export Plugin by manually depositing the updated article. For instructions on how to manually deposit an article see the PKP’s [CrossRef Plugin Guide - Manual Deposits](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits).
 
-Les services d'indexation et les référentiels qui utilisent OAI pour récolter les métadonnées devront à nouveau récolter les métadonnées de l'article afin de mettre à jour vers la nouvelle version.
+Indexing services and repositories that use OAI to harvest metadata will need to harvest the article metadata again in order to update to the new version.
 
-La nouvelle version sera correctement balisée pour être reconnue et mise à jour par l'index de Google Scholar, mais le moissonneur devra visiter à nouveau votre site afin de trouver la nouvelle version.
+The new version will be tagged properly to be recognized and updated by Google Scholar's index, but the harvester will need to visit your site again in order to find the new version.
 
-Il est préférable de vérifier avec un référentiel ou un index particulier pour savoir quel est leur processus et ce dont ils ont besoin.
+It is best to check with a particular repository or index to learn what their process is and what they require.
