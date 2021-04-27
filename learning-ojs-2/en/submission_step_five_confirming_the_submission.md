@@ -2,9 +2,9 @@
 
 This final step provides a summary of your submission.
 
-![Confirming the Submission](images/chapter6/step5_1rev.png)  
+![Confirming the Submission](images/chapter6/step5_1rev.png)
 
-![Fees](images/chapter6/step5_1 copy.png)
+!\[Fees\](images/chapter6/step5_1 copy.png)
 
 
 If the journal charges submission, fast-track review, or publication fees, your required payment will also be detailed here. If you paid previously, use the checkbox to indicate that you have. If you require a fee waiver to be considered, check that box and an provide an explanation (required).
