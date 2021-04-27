@@ -1,4 +1,4 @@
-# What Data Do PKP Applications Process? 
+# What Data Do PKP Applications Process?
 
 
 PKP applications process personal data as a fundamental part of their operations. Most data is only provided by consent, ie. through manual user registration, though some visitation data (eg. cookies, usage logs) may also be recorded.
