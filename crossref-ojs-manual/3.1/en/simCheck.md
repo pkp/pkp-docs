@@ -2,6 +2,7 @@
 book: crossref-ojs-manual
 version: 3.1
 ---
+
 # Similarity Check
 
 OJS 3.1.2 includes support for iThenticate plagiarism check the Crossref Similarity Check service.
