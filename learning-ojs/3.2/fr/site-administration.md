@@ -1,140 +1,140 @@
 ---
-book: apprendre-ojs
+book: learning-ojs
 version: 3.2
 ---
 
-# Administration du Site
+# Site Administration
 
-Dans le cadre de l'installation d'OJS, vous aurez créé un compte d'Administrateur de Site. Lorsque vous vous connectez à OJS avec ce compte, vous aurez accès aux paramètres d'Administrateur/trice du Site à partir du Tableau de Bord.
+As part of installing OJS, you will have created a Site Administrator user account. When you log into OJS with that account you will have access to Site Administrator settings from the Dashboard.
 
-Vous serez en mesure de créer de nouvelles copies hébergées de la revue, de gérer la prise en charge des langues sur votre système, et d'exécuter d'autres fonctions administratives.
+You will be able to create new hosted journal instances, manage language support across your system, and perform other administrative functions.
 
-Des informations supplémentaires à propos de l'administration d'un site <br>OJS, y compris les mises à niveau, les emails, les statistics, et l'import et export, sont disponibles dans le [Guide d'Administrateur](/admin-guide/).
+More technical information about administering an OJS site, including upgrades, email, statistics, and importing and exporting, is available in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/).
 
-## Gestion du Site
+## Site Management
 
-Pour accéder à la Gestion du Site, connectez-vous en tant qu'Administrateur du Site et choisissez Administration dans le menu à gauche.
+To get to Site Management, login as the Site Administrator, and choose Administration from the left menu.
 
-![](./assets/learning-ojs3.1-sa-site-admin.png)
+![OJS site admin main menu with 2 options: site management and administrative functions.](./assets/learning-ojs3.1-sa-site-admin.png)
 
-### Revues Hébergées
+### Hosted Journals
 
-À partir de là, choisissez Revues Hébergées. Sur la page résultante, vous verrez toutes les revues de cette installation OJS. Dans l'exemple ci-dessous, il n'y en a qu'une.
+From here, choose Hosted Journals. On the resulting page, you will see all of the journals in this OJS installation. In the example, below, there is only one.
 
-![](./assets/learning-ojs3.1-sa-hosted-journals.png)
+![OJS hosted journals menu with 1 existing journal.](./assets/learning-ojs3.1-sa-hosted-journals.png)
 
-Pour modifier la revue existante, cliquez sur la flèche bleue à gauche du nom de la revue. Vous verrez des options pour modifier, supprimer ou mettre à jour les paramètres.
+To edit the existing journal, click on the blue arrow to the left of the journal name. You will see options to edit, remove, or update the settings.
 
-![](./assets/learning-ojs3.1-sa-hosted-journals-edit.png)
+![Existing journal editing options: edit, remove, settings wizard, users.](./assets/learning-ojs3.1-sa-hosted-journals-edit.png)
 
-**Modifier** vous permettra de modifier le titre, la description, ou le chemin.
+**Edit** will let you change the title, description, or path.
 
-![](./assets/learning-ojs-3-ch4-hosted-journals-edit-modal.png)
+![Existing journal editing screen with title, description and path fields available to edit.](./assets/learning-ojs-3-ch4-hosted-journals-edit-modal.png)
 
-**Supprimer** vous permettra de supprimer la revue de l'installation. Vous devrez confirmer que vous voulez vraiment supprimer la revue, car c'est irréversible.
+**Remove** will let you delete the journal from the installation. You will be asked to confirm that you really do want to do this, as it is irreversible.
 
-![](./assets/learning-ojs-3-ch4-hosted-journals-remove.png)
+![Confirmation screen for journal deletion.](./assets/learning-ojs-3-ch4-hosted-journals-remove.png)
 
-**Assistant de Paramétrage** vous amènera aux différentes options de paramétrage de cette revue. Nous expliquerons ces paramètres en détail dans les chapitres Paramètres.
+**Settings Wizard** will take you to the various settings options for that journal. We'll go over these settings in detail in the Settings chapters.
 
-![](./assets/learning-ojs-3-ch4-hosted-journals-settings-wiz.png)
+![Settings wizard screen with the masthead tab selected.](./assets/learning-ojs-3-ch4-hosted-journals-settings-wiz.png)
 
-**Utilisateurs** vous permettra d'ajouter et de gérer les utilisateurs associés à cette revue.
+**Users** will allow you to add and manage users associated with this journal.
 
-![](./assets/learning-ojs3.1-sa-hosted-journals-users.png)
+![Users tab with a list of current users.](./assets/learning-ojs3.1-sa-hosted-journals-users.png)
 
-De retour sur la page Revues hébergées, vous pouvez utiliser le lien Créer une Revue pour ajouter une nouvelle revue à cette installation OJS. Ensuite, Remplissez les champs du formulaire résultant avec les nouvelles informations.
+Back on the Hosted Journals page, you can use the Create Journal link to add a new journal to this OJS installation. From the resulting form, fill in the fields with the new information.
 
-![](./assets/learning-ojs-3-ch4-hosted-journals-create.png)
+![Create journal screen with title, description and path fields available to fill out.](./assets/learning-ojs-3-ch4-hosted-journals-create.png)
 
-> Remarque: Si vous ne souhaitez pas que la nouvelle revue soit encore visible, décochez la case *Activer cette revue pour qu'elle apparaisse publiquement sur le site* .
+> Note: If you do not want the new journal to be visible yet, uncheck the _Enable this journal to appear publicly on the site_ box.
 
-### Paramètres du Site
+### Site Settings
 
-Cette section apparaîtra si vous avez deux ou plusieurs revues, et vous permettra d'ajouter des informations concernant votre installation OJS globale, et non concernant des revues individuelles.
+This section will appear if you have two or more journals, and allow you to add information regarding your overall OJS installation, not individual journals.
 
-#### Configuration du Site
+#### Site Setup
 
-Cela inclut le nom de votre site, un logo de site, un texte d'introduction à votre site, un pied de page de site, une option de redirection (si vous ne prévoyez d'avoir qu'une seule revue sur cette installation), vos coordonnées, une longueur de mot de passe minimum pour les utilisateurs enregistrés, les options de feuille de style et de thème, et la gestion de la barre latérale.
+This includes the name of your site, a site logo, an introductory statement about your site, a site footer, a redirect option (if you only plan to have one journal on this installation), contact information, a minimum password length for registered users, style sheet and theme options, and sidebar management.
 
-Vous aurez la possibilité de fournir des détails sur vos revues à un stade ultérieur.
+You will have the opportunity to provide details about your individual journal(s) at a later stage.
 
-![](./assets/learning-ojs3.1-sa-site-settings.png)
+![OJS admin menu with site setup tab selected.](./assets/learning-ojs3.1-sa-site-settings.png)
 
-#### Langues
+#### Languages
 
-OJS est conçu pour être un système multilingue, permettant aux revues prenant en charge une grande variété de langues d'être hébergées sur un seul site. Lorsque vous installez OJS, vous pouvez sélectionner une ou plusieurs langues pour votre site.
+OJS is designed to be a multilingual system, allowing journals supporting a wide variety of languages to be hosted under a single site. When you install OJS, you can select one or more languages for your site.
 
-L'Administrateur du Site peut définir la langue par défaut du site et installer des Paramètres Régionaux additionnels pour que d'autres langues soit disponibles à l'utilisateur. Les Directeurs de Revue peuvent gérer leurs propres paramètres de langue sous Paramètres du Site Web > Langues. Voir le [Chapitre Paramètres du Site Web](./settings-website) pour plus de détails.
+The Site Administrator can set the default language of the site and install additional locales to make other languages available for use by journals. Journal Managers can then manage their own language settings under Website Settings > Languages. See the [Website Settings chapter](./settings-website) for details.
 
-Sous Administration > Paramètres du Site> Langues, vous pouvez voir une liste des langues installées sur votre site, activer les langues, et définir n'importe quelle langue comme langue par défaut de votre site à travers les Paramètres Régionaux, ce qui signifie que c'est la langue que les utilisateurs verront la première fois qu'ils visitent le site.
+Under Administration > Site Settings > Languages you can see a list of languages that are installed on your site, enable languages, and set any language as the Default Locale, which means it is the language that users will first see when first visiting the site.
 
-![](./assets/learning-ojs3.1-sa-languages.png)
+![OJS admin menu with languages tab selected.](./assets/learning-ojs3.1-sa-languages.png)
 
-Pour ajouter une autre langue:
+To add another language:
 
-1. Cliquez sur Installer les Paramètres Régionaux
-2. Cochez les Paramètres Régionaux que vous souhaitez installer
-3. Cliquez sur Enregistrer
+1. Click Install Locale
+2. Check off the locales you would like to install
+3. Click Save
 
-Après l'installation de nouveaux Paramètres Régionaux, vous devrez les activer sur la page Paramétres du Site > Langues. Une configuration supplémentaire de la disponibilité de la langue sur le site peut être effectuée sous Paramètres du Site Web > Langues par Directeur/trice de Revue. Voir le [Chapitre Paramètres du Site Web](./settings-website) pour plus de détails.
+After installing the new locale, you will have to enable it on the Site Settings > Languages page.  Further configuration of the language’s availability on the site can be done under Website Settings > Languages by a Journal Manager. See the [Website Settings chapter](./settings-website) for details.
 
-OJS 3.1 n'a pas encore autant de traductions que OJS 2, mais nous nous attendons à avoir plus contribué au fil du temps. Les contributions sont toujours les bienvenues.
+OJS 3.1 doesn't yet have as many translations as OJS 2, but we expect to have more contributed over time. Contributions are always welcome.
 
-#### Plugiciels
+#### Plugins
 
-D'ici, vous pouvez choisir d'activer ou de désactiver divers plugiciels, les rendant disponibles (ou non) à toutes les revues sur cette installation OJS.
+From here, you can choose to enable or disable various plugins, making them available (or not) to all of the journals on this OJS installation.
 
-![](./assets/learning-ojs3.1-sa-plugins.png)
+![OJS admin menu with plugins tab selected.](./assets/learning-ojs3.1-sa-plugins.png)
 
-#### Menus de Navigation
+#### Navigation Menus
 
-Utilisez cette section pour modifier les menus de votre site. Vous pouvez en savoir plus sur la configuration des menus dans le chapitre Paramètres du Site Web.
+Use this section to modify your site-wide menus. You can learn more about configuring menus in the Website Settings chapter.
 
-![](./assets/learning-ojs3.1-sa-menus.png)
+![OJS admin menu with navigation menus tab selected.](./assets/learning-ojs3.1-sa-menus.png)
 
-### Étapes Suivantes
+### Next Steps
 
-Une fois que vous avez créé un journal et configuré les paramètres du site, vous souhaiterez peut-être créer un compte d'utilisateur pour le/la directeur/trice ou l'éditeur/trice de la revue - voir le [Chapitre Utilisateurs et Rôles](./users-and-roles.md) pour plus de détails.
+Once you've created a journal and configured the site settings, you may want to create a user account for the Journal Manager or Editor -- see the [Users and Roles chapter](./users-and-roles.md) for details.
 
-<hr>
+<hr />
 
-## Fonctions Administratives
+## Administrative Functions
 
-Cette section fournit des informations détaillées sur le serveur sur lequel votre installation OJS s'exécute.
+This section provides detailed information about the server on which your OJS installation is running.
 
-![](./assets/learning-ojs3.1-sa-admin-functions.png)
+![OJS site admin main menu with 2 options: site management and administrative functions.](./assets/learning-ojs3.1-sa-admin-functions.png)
 
-### Informations Système
+### System Information
 
-Utilisez cette section pour obtenir des détails sur le serveur exécutant votre installation.
+Use this section to find out details about the server running your installation.
 
-![](./assets/learning-ojs3.1-sa-sysinfo.png)
+![System information screen displaying current version, version history and server information.](./assets/learning-ojs3.1-sa-sysinfo.png)
 
-Les informations de version d'OJS indiquent la version actuellement installée et l'historique de vos versions, y compris les mises à niveau. Vous pouvez cliquer sur le lien Vérifier les mises à jour pour voir si vous utilisez la version la plus récente d'OJS.
+OJS Version information shows which version is currently installed, and your version history including any upgrades. You can click the Check for updates link to see if you are using the most recent version of OJS.
 
-Les informations sur le serveur fournissent des détails sur l'environnement du serveur hébergeant votre installation OJS.
+The Server Information provides details about the server environment hosting your OJS installation.
 
-La section Configuration OJS affiche toutes les options de configuration et leurs valeurs telles qu'elles sont dans *config.inc.php* .
+The OJS Configuration section displays all of the configuration options and their values as they are in _config.inc.php_.
 
-Vous pouvez trouver plus d'informations sur les paramètres de configuration de *config.inc.php* dans le fichier lui-même.
+You can find more information about _config.inc.php_ configuration parameters in the file itself.
 
-La dernière section de cette page affiche des informations supplémentaires sur le serveur: votre système d'exploitation, la version PHP, le serveur, et la base de données. Vous pouvez également afficher plus d'informations PHP en cliquant sur le lien Informations PHP Étendues (cela affiche le résultat de `phpinfo()` )
+The final section on this page displays additional server information: your operating system, PHP version, server and database information. You can also view extended PHP information by clicking the Extended PHP information link (this displays the output of `phpinfo()`)
 
-Toutes ces informations peuvent être utiles lorsque vous essayez de résoudre un problème.
+All of this information can be useful when trying to troubleshoot a problem.
 
-### Expirer les Sessions d'Utilisateur
+### Expire User Sessions
 
-Cliquer sur *Expirer les Sessions d'Utilisateur* ferme immédiatement toutes les sessions d'utilisateur actives dans le système, obligeant tout utilisateur actuellement connecté à se reconnecter au système. Cela peut être utile avant une mise à niveau, pour s'assurer que tous les utilisateurs sont déconnectés.
+Clicking _Expire User Sessions_ immediately clears all active user sessions in the system, requiring any user that is currently logged in to sign in to the system again. This can be useful before an upgrade, to ensure all users are logged out.
 
-### Effacer les Données sur Cache
+### Clear Data Caches
 
-Cliquer sur *Effacer les Données sur Cache* efface toutes les données mises en cache, y compris les informations locales, le cache d'aide, et le cache de recherche. Cette fonction peut être utile pour forcer le rechargement des données une fois que des personnalisations ont été effectuées.
+Clicking _Clear Data Caches_ clears all cached data, including locale information, help cache, and search cache. This function may be useful to force data to be reloaded after customizations have been made.
 
-### Effacer le Cache de Modèles
+### Clear Template Cache
 
-Cliquez sur *Effacer le Cache de Modèles* pour effacer toutes les versions mises en cache des modèles HTML. Cette fonction peut être utile pour forcer le rechargement des modèles une fois que des personnalisations ont été effectuées.
+Clicking _Clear Template Cache_ clears all cached versions of HTML templates. This function may be useful to force templates to be reloaded after customizations have been made.
 
-### Effacer les Journaux d'Exécution des Tâches Planifiées
+### Clear Scheduled Task Execution Logs
 
-Si les tâches planifiées ont été activées pour votre revue, cliquer sur *Effacer les Journaux d'Exécution des Tâches Planifiées* supprimera de votre serveur les fichiers de journaux d'exécution des tâches. Les fichiers de journaux d'exécution comprennent des dates qui correspondent aux tâches planifiées précédemment terminées (par exemple, l'envoi automatique d'emails de rappels d'évaluation).
+If scheduled tasks have been enabled for your journal, clicking _Clear Scheduled Task Execution Logs_ will delete the task execution log files from your server. The execution log files include dates that correspond to previously completed scheduled tasks (e.g. sending automatic email review reminders).
