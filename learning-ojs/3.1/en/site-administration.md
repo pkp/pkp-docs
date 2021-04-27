@@ -2,6 +2,7 @@
 book: learning-ojs
 version: 3.1
 ---
+
 # Chapter 4: Site Administration
 
 As part of installing OJS, you will have created a Site Administrator user account. When you log into OJS with that account you will have access to Site Administrator settings from the Dashboard.
@@ -117,7 +118,7 @@ The OJS Configuration section displays all of the configuration options and thei
 
 You can find more information about _config.inc.php_ configuration parameters in the file itself.
 
-The final section on this page displays additional server information: your operating system, PHP version, server and database information. You can also view extended PHP information by clicking the Extended PHP information link (this displays the output of ``phpinfo()``)
+The final section on this page displays additional server information: your operating system, PHP version, server and database information. You can also view extended PHP information by clicking the Extended PHP information link (this displays the output of `phpinfo()`)
 
 All of this information can be useful when trying to troubleshoot a problem.
 
