@@ -27,30 +27,23 @@ Everything related to publishing a submission is done under the Publication tab.
 
 Here is an overview of what the different tabs in this section are for. Detailed instructions on some of these are available later in the chapter.
 
-**Title & Abstract**
-Use this tab to edit the article title, subtitle, and abstract.
+**Title & Abstract** Use this tab to edit the article title, subtitle, and abstract.
 
 If any changes are made, click Save before exiting this window.
 
-**Contributors**
-Use this tab to add, edit, or remove article contributors.
+**Contributors** Use this tab to add, edit, or remove article contributors.
 
-**Metadata**
-Use this tab to add or edit article keywords.
+**Metadata** Use this tab to add or edit article keywords.
 
 If any changes are made, click Save before exiting this window.
 
-**Identifiers**
-Use the Identifiers tab to view or add a unique identifier, such as a DOI. More information about assigning and managing DOIs is available in the [DOI Plugin Guide](/doi-plugin/).
+**Identifiers** Use the Identifiers tab to view or add a unique identifier, such as a DOI. More information about assigning and managing DOIs is available in the [DOI Plugin Guide](/doi-plugin/).
 
-**Galleys**
-Use the Galleys tab to upload the final file for publication. This is explained below.
+**Galleys** Use the Galleys tab to upload the final file for publication. This is explained below.
 
-**Permissions & Disclosure**
-Include details about the copyright holder and link to the article license, if applicable. This will be automatically filled in according to your [Distribution Settings](./settings-distribution.md).
+**Permissions & Disclosure** Include details about the copyright holder and link to the article license, if applicable. This will be automatically filled in according to your [Distribution Settings](./settings-distribution.md).
 
-**Issues**
-Use the Issues tab to assign the article to a journal issue. This is explained below.
+**Issues** Use the Issues tab to assign the article to a journal issue. This is explained below.
 
 ### Multilingual Submissions
 
@@ -82,13 +75,11 @@ The user has now been notified via email and in the dashboard.
 
 ![Manuscript dashboard after additional participants have been assigned.](./assets/learning-ojs-3.2-se-production-participants-added.png)
 
-You can now see the Layout Editor in the Participants list, and you can see the request notice in the Production Discussions panel.
-You can now wait for the Layout Editor to complete their tasks.
+You can now see the Layout Editor in the Participants list, and you can see the request notice in the Production Discussions panel. You can now wait for the Layout Editor to complete their tasks.
 
 ### Layout Editing
 
-As a Layout Editor, you will have received a message inviting you to create the galleys for the submission.
-To get started, login to the system and go to your dashboard.
+As a Layout Editor, you will have received a message inviting you to create the galleys for the submission. To get started, login to the system and go to your dashboard.
 
 ![](./assets/learning-ojs-3.2-le-dashboard.png)
 
@@ -136,11 +127,9 @@ Other formats may require additional plugins or can be downloaded directly. Alte
 
 #### Using templates
 
-Requiring all submissions to use a document template that is pre-formatted with your journal’s publication styles (e.g., the font face, font size, boldness, placement, etc., of the header, body, footers, etc.) can make your document conversion much easier.
-[Microsoft provides a brief overview for creating templates in MS Word](https://support.office.com/en-us/article/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb).
+Requiring all submissions to use a document template that is pre-formatted with your journal’s publication styles (e.g., the font face, font size, boldness, placement, etc., of the header, body, footers, etc.) can make your document conversion much easier. [Microsoft provides a brief overview for creating templates in MS Word](https://support.office.com/en-us/article/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb).
 
-Once you’ve created a template that matches your journal style, it may be useful for submitting authors, layout editors, or other users.
-Here’s an example of an OJS journal that requires authors to download and use a template file: [Paideusis](https://journals.sfu.ca/pie/index.php/pie#authorGuidelines).
+Once you’ve created a template that matches your journal style, it may be useful for submitting authors, layout editors, or other users. Here’s an example of an OJS journal that requires authors to download and use a template file: [Paideusis](https://journals.sfu.ca/pie/index.php/pie#authorGuidelines).
 
 Ideally, your template should be created using styles rather than direct formatting. This not only ensures consistency throughout your documents, but will also aid in any conversions to other formats (e.g., HTML). Here’s an [explanation of the difference between styles and direct formatting in Word](https://support.office.com/en-us/article/Style-basics-in-Word-d382f84d-5c38-4444-98a5-9cbb6ede1ba4?CorrelationId=1b00844c-a9dc-4d62-98df-a966f30d4b20&ui=en-US&rs=en-US&ad=US&ocmsassetID=HA010230882)
 
@@ -184,8 +173,7 @@ To style an individual HTML galley file:
 * Edit the galley file
 * Upload the CSS stylesheets with the appropriate **Component Type - HTML Stylesheet**
 
-To style all HTML galley files:
-If you are using a custom theme plugin, you can write a line of code to include a custom style for all HTML galleys. This will only apply to HTML galley files that do not have a style applied individually. More information on custom theming is available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+To style all HTML galley files: If you are using a custom theme plugin, you can write a line of code to include a custom style for all HTML galleys. This will only apply to HTML galley files that do not have a style applied individually. More information on custom theming is available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
 ##### Add images and multimedia to an HTML Galley
 
@@ -424,7 +412,7 @@ The first thing you must do is enable References as a submission metadata field.
 
 1. Go to Workflow Settings > Submission > Metadata
 2. Scroll down to **References** and check off **Enable references metadata**
-3. New options will appear below and you can select to either 
+3. New options will appear below and you can select to either
   * do not request references from the author during submission - the References field will not be on the submission form and instead references can be added by an editor
   * ask the author to provide references during submission - the References field will be on the submission form and authors can optionally add their references to it, or an editor can add references to the submission later
   * require the author to provide references before accepting their submission - the References field will be on the submission form and authors will be required to add their references to it
