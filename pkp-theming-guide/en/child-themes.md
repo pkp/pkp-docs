@@ -25,52 +25,52 @@ Once you have a theme setup, you can use a little bit of extra code to designate
 import('lib.pkp.classes.plugins.ThemePlugin');
 class TutorialThemePlugin extends ThemePlugin {
 
-	/**
-	 * Load the custom styles for our theme
-	 * @return null
-	 */
-	public function init() {
+    /**
+     * Load the custom styles for our theme
+     * @return null
+     */
+    public function init() {
         $this->addStyle('stylesheet', 'styles/index.less');
-	}
+    }
 
-	/**
-	 * Get the display name of this theme
-	 * @return string
-	 */
-	function getDisplayName() {
-		return 'Tutorial Theme';
-	}
+    /**
+     * Get the display name of this theme
+     * @return string
+     */
+    function getDisplayName() {
+        return 'Tutorial Theme';
+    }
 
-	/**
-	 * Get the description of this plugin
-	 * @return string
-	 */
-	function getDescription() {
-		return 'An example theme for OJS or OMP built with our amazing documentation.';
-	}
+    /**
+     * Get the description of this plugin
+     * @return string
+     */
+    function getDescription() {
+        return 'An example theme for OJS or OMP built with our amazing documentation.';
+    }
 }
 ```
 
 Let's focus on the `init()` method.
 
 ```php
-	/**
-	 * Load the custom styles for our theme
-	 * @return null
-	 */
-	public function init() {
+    /**
+     * Load the custom styles for our theme
+     * @return null
+     */
+    public function init() {
         $this->addStyle('stylesheet', 'styles/index.less');
-	}
+    }
 ```
 
 You can set a Parent Theme for this theme using the `setParent()` method. Let's make this theme a Child Theme of the Default Theme that ships with OJS 3.0+.
 
 ```php
-	/**
-	 * Load the custom styles for our theme
-	 * @return null
-	 */
-	public function init() {
+    /**
+     * Load the custom styles for our theme
+     * @return null
+     */
+    public function init() {
 
         // Use the parent theme's unique plugin slug
         $this->setParent('defaultthemeplugin');
@@ -79,7 +79,7 @@ You can set a Parent Theme for this theme using the `setParent()` method. Let's 
         // `child-stylesheet`. This ensures that it
         // won't clash with the parent's stylesheet.
         $this->addStyle('child-stylesheet', 'styles/index.less');
-	}
+    }
 ```
 
 Now, when the theme is loaded, it will automatically call the parent theme's `init()` method. That means any scripts or styles registered in that theme will get loaded.
@@ -93,14 +93,14 @@ So now your child theme will compile and load two stylesheets. The Parent's styl
 However, in many cases, you may want to add styles to the Parent's stylesheet instead of loading your own separate stylesheet. You can automatically compile your own styles together with the Parent theme's styles by using the `modifyStyle()` method.
 
 ```php
-	/**
-	 * Load the custom styles for our theme
-	 * @return null
-	 */
-	public function init() {
+    /**
+     * Load the custom styles for our theme
+     * @return null
+     */
+    public function init() {
         $this->setParent('defaultthemeplugin');
         $this->modifyStyle('stylesheet', array('addLess' => array('styles/index.less')));
-	}
+    }
 ```
 
 This is useful when you want to share mix-ins or modify variables in a Parent theme. The default theme uses a number of variables to define colors, typography, spacing and more.
