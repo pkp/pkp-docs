@@ -40,13 +40,13 @@ Have you made a document about PKP software that is specific to your local insti
 
 ### Identify documentation that is missing or needs improvement
 
-If you notice something that there should be documentation for or existing documentation that needs to be corrected, updated, or explained more clearly, we want to know. You can send your suggestion via our [feedback form](https://pkp.sfu.ca/documentation-feedback) or file an issue in the [GitHub PKP Docs repository](https://github.com/pkp/pkp-docs). To file an issue in the repository, you first have to create a GitHub account and sign in. If you want to edit a document directly, you can click the *Improve this page* link on any page in the Documentation Hub. 
+If you notice something that there should be documentation for or existing documentation that needs to be corrected, updated, or explained more clearly, we want to know. You can send your suggestion via our [feedback form](https://pkp.sfu.ca/documentation-feedback) or file an issue in the [GitHub PKP Docs repository](https://github.com/pkp/pkp-docs). To file an issue in the repository, you first have to create a GitHub account and sign in. If you want to edit a document directly, you can click the *Improve this page* link on any page in the Documentation Hub.
 
 Members of the DIG review suggestions and add them to lists of potential tasks. Please provide as much detail as possible in your suggestion.
 
 ## Find a Documentation Task
 
-PKP keeps track of documentation that needs to be created, updated, and reviewed on a [shared spreadsheet](https://docs.google.com/spreadsheets/d/1bo0etXPjDxC_xdmOGCdwAtdXv85ojdqRdNr3sfMD2aU/) that's maintained by the DIG. If you're looking for a task, the spreadsheet is an excellent place to start. You can also add new tasks to the spreadsheet. 
+PKP keeps track of documentation that needs to be created, updated, and reviewed on a [shared spreadsheet](https://docs.google.com/spreadsheets/d/1bo0etXPjDxC_xdmOGCdwAtdXv85ojdqRdNr3sfMD2aU/) that's maintained by the DIG. If you're looking for a task, the spreadsheet is an excellent place to start. You can also add new tasks to the spreadsheet.
 
 Tasks are categorized by role and listed on different worksheets according to roles. You can look for tasks that match your role or experience with PKP software. The roles are as follows:
 
@@ -66,10 +66,10 @@ For each task you can see the following information:
 
 1. Select a task based on your role, interests, and experience with PKP software.
 2. Email the DIG at [documentation@publicknowledgeproject.org](mailto:documentation@publicknowledgeproject.org) to tell them what task you want to do. The DIG will update the spreadsheet with the information you send. This will ensure that 2 people don’t work on the same task and that you get all the information and resources you need for the task. Include the following information in your message:
-	- A description of the task you’re going to do
-	- Your name and contact information
-	- The date you plan to finish the task
-	- Any questions you have about the task or process
+    - A description of the task you’re going to do
+    - Your name and contact information
+    - The date you plan to finish the task
+    - Any questions you have about the task or process
 3. If you have questions or need help while you’re working on your task, you can email [documentation@publicknowledgeproject.org](mailto:documentation@publicknowledgeproject.org) , post on the PKP Documentation Slack channel or email list, or attend a virtual documentation sprint.
 4. Once your documentation task is complete, submit it to the DIG in an appropriate format, following the instructions in this guide. If the deadline passes the DIG may contact you to ask how the task is going.
 
