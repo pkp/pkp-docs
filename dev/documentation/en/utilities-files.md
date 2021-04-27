@@ -64,7 +64,7 @@ Check if a file exists.
 ```php
 $file = Services::get('file')->get($fileId);
 if (Services::get('file')->fs->has($file->path)) {
-	...
+    ...
 }
 ```
 
@@ -101,8 +101,9 @@ Read more about working with [Submission Files](./submission-files).
 
 ## Public Files
 
-> The public files directory is deprecated and should not be used for new features.
-{:.warning}
+> The public files directory is deprecated and should not be used for new features. 
+> 
+> {:.warning}
 
 Public files are accessible to anyone and may include files uploaded to a user signature or bio. These files are stored in a public directory inside the web root, so that they can be accessed directly by HTTP request.
 
