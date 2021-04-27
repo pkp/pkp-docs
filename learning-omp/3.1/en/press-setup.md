@@ -2,6 +2,7 @@
 book: learning-omp
 version: 3.1
 ---
+
 # Setting up and Maintaining Your Press
 
 There are a number of components to your press found in the Settings menu on the left navigation bar. All of the site configuration options are under Settings > Press. The options you find here control every aspect of the press, including press information, how your press looks, workflow settings, and how the publication and distribution processes work. This section will go in-depth on your Press and Workflow Settings. Please refer to the [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/) for information regarding the Website and Distribution that will be applicable in your OMP installation.
@@ -10,7 +11,7 @@ There are a number of components to your press found in the Settings menu on the
 
 In the Press Settings section, you can configure information about your press that will be displayed for readers, such as your press name, editorial team, and contact information. You can also set up and configure series and categories, which are used to display and organize your published monographs.
 
-You can find the Settings in the left menu panel when you are logged in as a user with Press Manager permissions. This section contains most of the information that you provided when originally creating your press (and which can be modified at any time). 
+You can find the Settings in the left menu panel when you are logged in as a user with Press Manager permissions. This section contains most of the information that you provided when originally creating your press (and which can be modified at any time).
 
 ![The Press settings screen.](./assets/learning_omp-press_setup.png)
 
@@ -35,7 +36,7 @@ Series can be used to help organize your publications. A series represents a spe
 To add a series, click **Add Series**  on the right corner of the Series table and fill in the following fields:
 
 * Description: Use this field to add details regarding the series, editor, editor information, etc.
-* ISSN: The 8-digit code to identify your print and/or online series 
+* ISSN: The 8-digit code to identify your print and/or online series
 * Order Monograph: The order in which you would like monographs within the series to be displayed
 
 ![List of display order options.](./assets/learning_omp-press_setup-mono_order.png)
@@ -50,11 +51,11 @@ You can modify a series by clicking on the blue arrow to the left of the series 
 
 #### Order Series
 
-To order your series, click **Order** on the right corner of the series box. 
+To order your series, click **Order** on the right corner of the series box.
 
 ![The drag & drop interface found after clicking Order.](./assets/learning_omp-press_setup-order_series.png)
 
-Using the double arrow beside the Series title, drag the series in order and click Done once you have completed ordering your series. 
+Using the double arrow beside the Series title, drag the series in order and click Done once you have completed ordering your series.
 
 #### Add books to series
 
@@ -98,16 +99,16 @@ See the Catalog and Displaying Content chapter for instructions on how to add bo
 
 ## Website Settings
 
-Please refer to the [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on Website Setting applicable to OMP. 
+Please refer to the [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on Website Setting applicable to OMP.
 
 Please note that some plugins for OJS are not available for OMP.
 
 ## Workflow Settings
 
-Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes. 
+Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes.
 
 
-This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library. 
+This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library.
 
 Under Production, you will enter all the information required to generate your ONIX metadata.
 
