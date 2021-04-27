@@ -1,52 +1,42 @@
-## مشاركة ترجماتك
+---
+book: translating-guide
+version: 3.1
+---
 
-1. إحفظ ملفاتك.
-2. إقترح تضمين ملفاتك في مشروع المعرفة العامة
-3. ...
+## Share your translations
 
-### حفظ الملفات ووضعها في أماكنها الصحيحة
+1. Save and place your files
+2. Suggest inclusion of the files to PKP
 
-بمجرد ترجمتك لملفات XML الضرورية، ينبغي وضعها في مجلدات
-ذات تسميات صحيحة، باستعمال الترمز الدولي ISO للغات والدول
-(مثلاً الملفات في `locale/en_US` مترجمة إلى الفرنسية
-ومحفوظة في مجلد اسمه `locale/fr_CA`).
+### Saving and Properly Placing the Files
 
-الملفات الملحة التي لا بد من ترجمتها أولاً ليعمل النظام
-بصورة صحيحة تتواجد في `locale/en_US`، `dbscripts/xml/data/locale/en_US`
-(في النسخ الأقدم من 2.3 للنظامين فقط)، و `registry/locale/en_US` (أيضاً،
-في النسخ الأقدم من 2.3).
+Once you have translated the necessary XML files, they will need to be placed in an appropriately named subdirectories, using the ISO locale codes for your language and country (e.g., the files in `locale/en_US` are translated into French and saved in a subdirectory named `locale/fr_CA`).  See [XML files](2-2-xml-files) for location details.
 
-اللغات الجديدة لابد من إضافة إدخال لها ضمن الملف `registry/locales.xml`، وبعدها
-سيتسنى تنصيبها في النظام عبر واجهة المشرف على الموقع.
+New locales must also be added to the file `registry/locales.xml`, after which they can be installed in the system through the site administration web interface.
 
 
-### إيداع ترجماتك 
+### Commit your translations
 
-موقع GitHub وآلية "pull request" أو ما يعرف بالتماس التضمين هي
-الطريقة المثلى لتقديم ترجماتك إلى مشروع المعرفة العامة.
+GitHub "pull request" is the preferred method to submit your translations to PKP.
 
-ستجد أن الرابط الآتي مفيداً جداً من أجل إنشاء مستودعك المحلي
-لتقديم التعديلات الصادرة منك كما هو موضح في [أدبيات Github للمساهمين في مشروع المعرفة العامة](http://pkp.sfu.ca/wiki/index.php?title=Github_Documentation_for_PKP_Contributors) (موسوعة مشروع المعرفة العامة).
+You will find this link extremely helpful to create your local repository and submit your changes like described in [Github Documentation for PKP Contributors](http://pkp.sfu.ca/wiki/index.php?title=Github_Documentation_for_PKP_Contributors) (PKP wiki).
 
-بمجرد تهيئتك لمستودعك المحلي، وحصولك على على المستودع المتفرع من أي من مستودعات مشروع المعرفة العامة، ستحتاج
-إلى تقديم تعديلاتك إلى مستودعك العلوي المتفرع ("origin") كما هو مقترح في
-[معلومات للمطورين](http://pkp.sfu.ca/wiki/index.php?title=Information_for_Developers#PKP_library_submodule_changes) (موسوعة مشروع المعرفة العامة).
+Once you have setup you local and origin forked repository, you will need to submit your changes to your remote github repository ("origin") as is suggested in [Information for Developers](http://pkp.sfu.ca/wiki/index.php?title=Information_for_Developers#PKP_library_submodule_changes) (PKP wiki).
 
-لاحظ بأنه ما دامت ملفات الترجمة متوضعة في المجلد الرئيسي، فضلاً عن كونها متواجدة ضمن الوحدة الفرعية، مجلد "lib/pkp"، فستحتاج إلى إجراء عمليتي دمج: إحداهما للمستودع الرئيسي للنظامين، والأخرى للوحدة الفرعية المشتركة بينهما "pkp-lib".
+Notice that, as far as translation files are in root but also in the submodule "lib/pkp" folder, you will need TWO pushes: One for the main "OxS" repository and the other for the submodule "pkp-lib".
 
-بإيجاز، إليك ما يجب عليك اتباعه من خطوات:
+In summary this is the process you need to follow:
 
-1.  خذ تفريعك من مستودعي النظامين ومن المستودع "lib-pkp" إلى حسابك الخاص على موقع github.
-2.  إنسخ تفريعاتك إلى مستودعاتك المحلية في حاسبتك.
-3.  أجر كل التعديلات والترجمات في الحاسبة.
-4.  إرفع الملفات المعدلة و/أو المضافة للمستودع "lib-pkp" أولاً، ومن ثم للنظامين (بشكل منفصل)
-    إلى مستودعاتك المتفرعة.
-5.  أطلب إلتماسين مستقلين للدمج "pull request" (عبر واجهة موقع github).
+1.  Fork "oxs" and "lib-pkp" repositories to your own github account.
+2.  Clone your fork to your local repository.
+3.  Make your local modifications.
+4.  Push first "lib-pkp" and then "oxs" (separately) to your remote repository.
+5.  Make 2 separate "pull requests" (github interface).
 
-بشيء من التفصيل، هذه هي التعليمات المحددة التي عليك تنفيذها بعد تفريع مستودعيك من المستودعين الأصليين لمشروع المعرفة العامة:
+In detail those are the specific instructions that you need to run after forking both repositories:
 
 ```
-# إختر الفرع المناسب ضمن مستودعك (مثلاً: ojs-dev_2_4)، متضمناً الوحدات الفرعية.
+# Check out your base repository (pe: ojs-dev_2_4), including submodules.
 git checkout ojs-dev_2_4
 git submodule update --init --recursive\
 cd lib/pkp
@@ -55,7 +45,7 @@ cd ../..
 ```
 
 ```
-# أنشئ فرعاً جديداً ليضم ترجماتك (لكل من النظامين والمستودع "pkp-lib")
+# Create a branch with your new translations (both, in "OxS" and "pkp-lib")
 git checkout -b tra-es_ES-245 origin/ojs-dev-2_4
 cd lib/pkp
 git checkout -b tra-es_ES-245 origin/ojs-dev-2_4
@@ -63,12 +53,12 @@ cd ../..
 ```
 
 ```
-# إذاكنت تعمل مستعيناً بأدوات خارجية (مثل: أدوات CAT التي تنشئ ملفات XML جديدة) إنسخ ملفاتك فوق ما موجود منها.
+# If you worked with external tools (pe: CAT tools that generate new XMLs) copy your source files over the existing ones.
 cp origen/* . -a
 ```
 
 ```
-# أودع تعديلات (أولاً في الفرع الجديد التابع لك)
+# Commit your changes (first in your submodule)
 cd lib/pkp
 git add .
 git commit -a
@@ -78,7 +68,7 @@ git commit -a
 ```
 
 ```
-# أرسل تعديلاتك إلى مستودعك الخاص بك على موقع github.
+# Send your changes to your own github repository.
 git push -u origin tra-es_ES-243
 cd lib/pkp
 git push -u origin tra-es_ES-243
@@ -86,41 +76,36 @@ cd ../..
 ```
 
 ```
-# أطلب إلتماس الدمج "pull request" لترسل عملك إلى المستودع الرسمي لمشروع المعرفة العامة (أولاً الوحدة الثانوية المشتركة، ومن ثم المجلد الرئيسي).
+# Make a "pull request" and send your work to the official PKP repository (first submodule, then root).
 ```
 
-### بعض التلميحات
+### Some tips
 
-إضافة مشروع فرعي:
+Adding a subproject:
 
 ```
 git submodule add [git://github.com/marcbria/adminlocker](git://github.com/marcbria/adminlocker) plugins/generic/adminLocker
 ```
 
-تغيير مستودعك البعيد (مثلاً: من git إلى https)
+Change your remote repository (pe: from git to https)
 
 ```
 git remote set-url origin https://github.com/marcbria/pkp-lib.git
 ```
 
-إضافة معلومات الألوان:
+Add color information:
 
 ```
 git config --global --add color.ui true
 ```
 
-رسم التفريعات:
+Draw branches:
 
 ```
 git log --graph --oneline --all https://github.com/pkp/ojs/network
 ```
 
-### تصدير الترجمة
+### Exporting a Translation
 
-يمكنك تصدير الترجمة عبر النقر على رابط <em>التصدير</em> المحاذي
-لاسم اللغة ضمن صفحة إضافة الترجمة: سيقوم النظام بضغط
-كل ملفات اللغة لتلك الترجمة ليجعلها بشكل ملف قابل
-للتنزيل بصيغة tar.gz. هذا مفيد بشكل خاص إذا أردت نقل ترجمات مضافة حديثاً
-إلى موقع آخر يعمل بنظام المجلات المفتوحة أو نظام المؤتمرات المفتوحة،
-أو إذا أردت المساهمة بملفاتك مباشرة إلى مشروع المعرفة العامة.
+*(OJS 2.x plugin only)* You can export a translation by clicking the <em>Export</em> link across from the language name on the Translator plugin page: the system will compress all locale files for that one translation to a downloadable tar.gz package. This is especially useful if you need to migrate a newly-translated language to another OJS or OCS environment, or if you would like to contribute your changes back to the PKP.
 
