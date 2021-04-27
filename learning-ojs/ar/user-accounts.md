@@ -1,51 +1,85 @@
-# الفصل 3: حسابات المستخدمين
+---
+book: learning-ojs
+version: 3.3
+---
 
-نظام المجلات المفتوحة يستعمل نظام أدوار شامل لتوزيع الأعمال بين المستخدمين، توجيه انسيابية العمل، وتقنين صلاحيات الوصول إلى أجزاء النظام.
+# User Account Management
 
-بما أن تنصيباً واحداً لنظام المجلات المفتوحة يمكنه استضافة عدة مجلات، يمكن أن يكون للمستخدمين أدوار متباينة عبر تلك المجلات. على سبيل المثال، يمكن لمستخدم واحد أن يكون محرراً ومؤلفاً ضمن نفس المجلة، مع كونه مؤلفاً فقط ضمن مجلة أخرى، ومحكماً في ثالثة، ومحرراً في رابعة... وهكذا.
+When a user log into the system, they will be taken to their Dashboard. From here, users can change their profile information or account settings, as well as see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow. More information about roles and permissions levels is available in the [Users and Roles chapter](./users-and-roles.md).
 
-عندما يقوم المستخدم بتسجيل دخوله إلى النظام، يأخذه الأخير إلى لوحة القيادة. من هنا، سيقدم له النظام كل الوظائف المتاحة له. على سبيل المثال، المحكم يستطيع معاينة طلبات التقديم التي تم تعيينه لها حصراً، بينما المحرر يستطيع رؤية كل طلبات التقديم ضمن مجريات أعمال التحرير.
+## Registering with a Journal
 
-## التسجيل في مجلة
+Unregistered visitors to a journal can normally register as a Reader, Author, and/or Reviewer. Journal Managers are able to remove the ability for visitors to self-register, in which case a notice will appear stating that registration is currently closed (see Journal Settings), but Journal Managers can always register users at any time, and for any role.
 
-الزوار غير المسجلين في موقع المجلة يمكنهم بطبيعة الحال التسجيل بصفة قراء، مؤلفين، و/أو محكمين. رئيس التحرير يمكنه منع الزوار من ميزة التسجيل الذاتي، وعند ذلك، ستظهر على الموقع ملحوظة تشير إلى أن التسجيل فيه معلق حالياً (أنظر إعدادات المجلة)، لكن يمكن لرؤساء التحرير تسجيل المستخدمين دائماً وفي أي وقت ومنحهم أي أدوار.
-
-للتسجيل في مجلة، أنقر رابط التسجيل في الزاوية العليا اليسرى.
+To register with a journal, click the Register link on the upper right corner.
 
 ![](./assets/learning-ojs-3-registration.png)
 
-هذا من شأنه أن يفتح نموذج التسجيل لإكمال ما يتضمنه من حقول.
+This will open the Registration Form for you to complete with all required information.
 
 ![](./assets/learning-ojs-3-registration-form.png)
 
-كل الحقول المعلمة بنجمة هي حقول إجبارية (الاسم الأول، الاسم الأخير، الانتماء، البلد، البريد الالكتروني، اسم المستخدم، كلمة المرور مع إعادتها). إذا كانت المجلة متعددة اللغات، سيكون عليك اختيار لغتك المفضلة.
+All fields with an asterisk (First Name, Last Name, Affiliation, Country, Email, Username, Password, Repeat Password) are mandatory. If the journal is multilingual, you will need to select your preferred language.
 
-سيتم تسجيلك تلقائياً بمثابة قارئ ومؤلف. سيكون لك خيار التسجيل بمثابة محكم أيضاً.
+You will be automatically registered as a Reader and an Author. You will be given the option to register as a Reviewer as well.
 
-لكن لن يكون متاحاً لك التسجيل في أدوار التحرير (أي، مدير التحرير، محرر القسم، المدقق، المحرر الطباعي، المصحح، أو رئيس التحرير). إذا كنت تريد الحصول على أدوار من هذا المستوى، راسل رئيس التحرير الحالي للمجلة أو المشرف على موقعها.
+You will not be able to self-register for an Editorial Role (e.g., Editor, Section Editor, Copyeditor, Layout Editor, Proofreader, or Journal Manager). If you need to be enrolled at that level, contact a current Journal Manager or Site Administrator.
 
 <hr />
 
-## معاينة ملفك الشخصي وتعديله
+## Viewing and Changing your Profile
 
-لمعاينة ملفك الشخصي وتعديله، سجل دخولك في الموقع وانقر على رابط اسم المستخدم في الزاوية العليا اليسرى. إختر رابط معاينة الملف الشخصي.
+To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
 
 ![](./assets/learning-ojs3.1-ed-view-profile.png)
 
-من هنا، وعبر التنقل بين علامات التبويب المختلفة، يمكنك تعديل معلوماتك الشخصية، معلومات الاتصال، تغيير أدوارك، إضافة صورتك الشخصية \(حيث أن بعض المجلات تقوم بنشرها مع أعمالك أو ضمن قائمة المحررين\)، تحديد إعدادات إشعاراتك، أو تغيير كلمة مرورك.
+From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image (which some journals may publish along with your article or on a list of editors), determine your notification settings, or update your password.
 
-إن علامة التبويب API ضمن صفحة الملف الشخصي تسمح للمستخدم في نظام المجلات المفتوحة بالاستفادة من خدمة REST API للتعامل مع تطبيقات خارجية. مع ذلك، معظم المستخدمين لن يبادروا إلى استعمال API ويمكن لهم تجاهل علامة التبويب تلك.
+Under **Notifications**, you can configure what kinds of notifications you receive from the journal when events occur, such as a new journal issue is published or there is activity on a submission you're involved in.
 
-## إعادة تعيين كلمة مرورك
+* Check off "Enable these types of notifications" if you want to see a notification of this event on your dashboard when you log in to the site
+* Check off "Do not send me an email for these types of notifications" if you do not want to receive an email notification about this event
 
-يمكنك إعادة تعيين كلمة مرورك عبر:
+![](./assets/learning-ojs-3-user-notifications.png)
 
-1. تسجيل الدخول إلى الموقع
-2. إختيار اسم دخولك ومعاينة ملفك الشخصي من الزاوية العليا اليسرى من الشاشة
-3. إختيار علامة التبويب الخاصة بكلمة المرور
-4. إدخال كلمة مرورك الحالية، من ثم كلمة المرور الجديدة مرتين
-5. النقر على حفظ
+The **API tab** on the user profile allows you to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
+
+## Resetting your Password
+
+You can reset your password by:
+
+1. Logging into the journal
+2. Selecting your username and View Profile from the upper right corner of the screen
+3. Choosing the Password tab
+4. Entering your current password and then your new password twice
+5. Hitting Save
 
 ![](./assets/learning-ojs3.1-ed-change-pw.png)
 
-كلمة مرورك قد تغيرت الآن.
+Your password is now changed.
+
+### If you forgot your password
+
+Retrieving your password is a three-step process:
+
+First you need to request a new password:
+
+1. Click the **Login** link at the top-right corner of the navigation bar
+2. Click the **Forgot your Password** link on the following page
+3. Enter your email address
+4. Click **Reset Password**
+
+Then you need to check your email account and confirm your request:
+
+1. Open your email account
+2. Open the confirmation email message from the journal (you may need to check your Spam folder)
+3. Click the link to confirm that you did indeed request your password to be reset. You will be taken back to the journal in question, and the system will email you a new password.
+
+Now you can retrieve you new temporary password and log in:
+
+1. Go back to your email account
+2. Open the email message containing your temporary password (you may need to check your Spam folder)
+3. Log in to the journal with your temporary password
+4. Fill in a new password when prompted by the journal
+
+If you need further assistance, contact the journal's editorial team. A list of contacts should be available on the **About** page.
