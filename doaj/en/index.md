@@ -142,8 +142,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 * Select "Yes" or "No".
 * Answer Yes only if you include the CC license in the full text PDFs. If "Yes", please include the URL of a recent example article in the box that appears once "Yes" is selected.
-* Select the Creative Commons license you will use in:
-Settings > Distribution > Permissions. See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
+* Select the Creative Commons license you will use in: Settings > Distribution > Permissions. See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
 * If you wish to embed license information for articles, you must add it to all PDF galley files you upload to submissions during the Production stage.
 
 #### Copyright
@@ -151,8 +150,7 @@ Settings > Distribution > Permissions. See [Chapter 8: Distribution Settings](ht
 **For all the licenses you have indicated above, do authors retain the copyright and full publishing rights without restrictions?** \[**S**\]
 
 * Select "Yes" or "No". Answer No if authors transfer copyright or assign any exclusive rights to the publisher (including commercial rights).
-* In OJS you can select the designated copyright holder for the article metadata as the Author, Journal, or Other. To select the Author as the designated copyright holder, go to:
-Settings > Distribution > Permissions
+* In OJS you can select the designated copyright holder for the article metadata as the Author, Journal, or Other. To select the Author as the designated copyright holder, go to: Settings > Distribution > Permissions
 
 **Where can we find this information?**  \[**D**\]
 
@@ -323,8 +321,7 @@ During the application process, you can be awarded the DOAJ SEAL if these 7 crit
 
 This demonstrates that the journal ensures the long-term availability and preservation of published content for the future. The DOAJ will accept preservation service providers registered in the [Keepers Registry](https://keepers.issn.org/keepers) (e.g., LOCKSS/CLOCKSS. Portico, British Library, etc.), Internet Archive, and/or PubMed Central. Please note that institutional servers and repositories do not qualify as long term archival preservation.
 
-If you are a member of LOCKSS or CLOCKSS, enable this here:
-Settings > Website > Archiving
+If you are a member of LOCKSS or CLOCKSS, enable this here: Settings > Website > Archiving
 
 See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving) for more details.
 
@@ -358,8 +355,7 @@ In OJS select the Creative Commons license you will use in Settings > Distributi
 
 To ensure readers (users) know and understand what they are permitted to do with the content, license information must be embedded into each published article, in all its outputs - e.g. on the HTML article webpage, in the XML/metadata and PDF version.
 
-OJS offers the Creative Commons license options that are acceptable for the DOAJ seal: CC BY, CC BY-SA, CC BY-NC, or CC BY-NC-SA. This license will be embedded in the metadata of published items and displayed on the item’s webpage.
-Select the Creative Commons license you will use in Settings > Distribution > Permissions
+OJS offers the Creative Commons license options that are acceptable for the DOAJ seal: CC BY, CC BY-SA, CC BY-NC, or CC BY-NC-SA. This license will be embedded in the metadata of published items and displayed on the item’s webpage. Select the Creative Commons license you will use in Settings > Distribution > Permissions
 
 See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) for more details.
 
