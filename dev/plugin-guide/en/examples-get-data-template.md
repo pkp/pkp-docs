@@ -33,14 +33,14 @@ However, you first need to retrieve the `issueInternalId` from the plugin settin
 ```php
 class InternalIssueIdPlugin extends GenericPlugin {
 
-	public function register($category, $path, $mainContextId = null) {
-		$success = parent::register($category, $path, $mainContextId);
-		if ($success && $this->getEnabled()) {
+    public function register($category, $path, $mainContextId = null) {
+        $success = parent::register($category, $path, $mainContextId);
+        if ($success && $this->getEnabled()) {
 
       // 1. Hook in before the template is displayed...
       HookRegistry::register('TemplateManager::display',array(&$this, 'addIssueInternalId'));
-		}
-		return $success;
+        }
+        return $success;
   }
 
   public function addIssueInternalId($hookName, $args) {
@@ -60,9 +60,9 @@ class InternalIssueIdPlugin extends GenericPlugin {
     $internalIssueId = $this->getSetting($contextId, 'issueInternalId' . $issue->getId());
 
     // 4. Assign the internal issue id for use in the template.
-		$templateMgr->assign('internalIssueId', $internalIssueId);
+        $templateMgr->assign('internalIssueId', $internalIssueId);
 
-		return false;
+        return false;
   }
 }
 ```
