@@ -60,21 +60,22 @@ $templateMgr->display($this->getTemplateResource('settings/index.tpl'));
 
 By default, a template file in a theme plugin that matches the path of a template file in the application will override it. You can grant this ability to any plugin.
 
-> Learn more about [template overrides](/pkp-theming-guide/en/html-smarty).
-{:.notice}
+> Learn more about [template overrides](/pkp-theming-guide/en/html-smarty). 
+> 
+> {:.notice}
 
 Add a hook during registration to allow a plugin's templates to override templates in the application.
 
 ```php
 import('lib.pkp.classes.plugins.GenericPlugin');
 class TemplateOverrideExamplePlugin extends GenericPlugin {
-	public function register($category, $path, $mainContextId = NULL) {
-		$success = parent::register($category, $path);
- 		if ($success && $this->getEnabled()) {
-			HookRegistry::register('TemplateResource::getFilename', array($this, '_overridePluginTemplates'));
-		}
-		return $success;
-	}
+    public function register($category, $path, $mainContextId = NULL) {
+        $success = parent::register($category, $path);
+        if ($success && $this->getEnabled()) {
+            HookRegistry::register('TemplateResource::getFilename', array($this, '_overridePluginTemplates'));
+        }
+        return $success;
+    }
 }
 ```
 
