@@ -1,3 +1,3 @@
-# Actualizar de OJS 2 a OJS 3
+# Upgrading from OJS 2 to OJS 3
 
-En esta guía describimos algunos de los cambios entre OJS 2 y OJS 3 y sugerimos pasos para planificar y completar la migración. Esta guía será útil para instalaciones de varias revistas, una sola revista, varios tipos de instituciones y editoriales. Esta es una guía general, el proceso de actualización puede variar según la editorial.
+In this guide, we describe some of the changes between OJS 2 and OJS 3 and suggest steps for planning and completing your migration. This guide will be useful for multi-journal installations, a single journal, various kinds of institutions, and publishers. This is a general guide, and the upgrade process may vary by publisher.
