@@ -1,43 +1,43 @@
 ---
-book: apprendre-ojs
-version: 3.2
+book: learning-ojs
+version: 3.3
 ---
 
-# Paramètres de Distribution
+# Distribution Settings
 
-Les paramètres de distribution se concentrent sur l'accès et la visibilité de votre revue. Les onglets comprennent Licence, Rechercher Indexation, Paiements, Accès, et Archivage.
+The Distribution Settings focus on access to and visibility of your journal. The tabs consist of License, Search Indexing, Payments, Access, and Archiving.
 
-Veuillez noter que si votre journal est multilingue et que les formulaires sont activés pour plusieurs langues dans les paramètres de langue, vous devrez configurer certaines de ces informations pour chaque langue. Vous pouvez passer à une autre langue en sélectionnant la langue sous le lien Aide en haut à droite.
+Please note that if your journal is multilingual and you have Forms enabled for multiple languages in the language settings, you will have to configure some of this information for each language. You can switch to another languages by selecting the language under the Help link on the top right.
 
-## Licence
+## License
 
-Dans cette section, vous pouvez configurer les conditions des droits d'auteur et de licence pour le contenu de votre revue.
+In this section you can configure copyright and licensing terms for your journal's content.
 
-![](./assets/learning-ojs3.2-jm-settings-dist-permissions.png)
+![Distribution settings license tab showing copyright holder, license and copyright year options.](./assets/learning-ojs3.2-jm-settings-dist-permissions.png)
 
-**Titulaire des Droits d'Auteur**: sélectionnez qui détient les droits d'auteur des articles publiés par votre revue. La tendance dans la publication en accès ouvert est de permettre aux auteurs de conserver les droits d'auteur de leur travail.
+**Copyright Holder**: Select who holds copyright to the articles published by your journal. The trend in open access publishing is to allow authors to retain copyright of their work.
 
-**Licence** : sélectionnez la licence de votre journal. CC Attribution 4.0 est une licence largement utilisée pour les revues en accès ouvert, permettant un partage et une réutilisation maximum. Pour les définitions des différentes licences Creative Commons, consultez le [site Web Creative Commons](https://creativecommons.org/) .
+**License**: Select the license for your journal. CC Attribution 4.0 is a widely used license for open access journals, allowing for maximum sharing and reuse. For definitions of different Creative Commons licenses, see the [Creative Commons website](https://creativecommons.org/).
 
-La licence que vous sélectionnez sera automatiquement ajoutée aux métadonnées de chaque article et affichée sur la page d'article de chaque article publié.
+The license you select will be automatically added to each article's metadata and displayed on the article page of each published article.
 
-**Année du copyright**: indiquez si vous souhaitez que l'année du droit d'auteur provienne par défaut de la date de publication de l'article ou de la date de publication du numéro.
+**Copyright Year**: Select whether you want the copyright year to come by default from the article's publication date or the issue's publication date.
 
-Si vous utilisez un modèle de publication continue, sélectionnez la date de publication de l'article. Si vous utilisez un modèle de publication traditionnel basé sur les numéros, sélectionnez la date de publication du numéro.
+If you use a continuous publishing model, select the article's publication date. If you use a traditional, issue-based publishing model, select the issue's publication date.
 
-Ces paramètres par défaut peuvent être remplacée au cas par cas.
+This default can be overridden on a case-by-case basis.
 
-**Termes de la Licence**: saisissez les conditions de licence supplémentaires que vous souhaitez afficher à côté de la licence sélectionnée ci-dessus sur la page de l'article publié.
+**License Terms**: Enter any additional license terms you would like to display alongside the license selected above on the published article page.
 
-## Indexation par les moteurs de recherche
+## Search Indexing
 
-Cette section vous aide à améliorer l'optimisation de votre moteur de recherche et à rendre votre contenu plus visible.
+This section helps you enhance your search engine optimization and make your content more discoverable.
 
-![](./assets/learning-ojs3.2-jm-settings-dist-index.png)
+![Distribution settings search indexing tab showing description and custom tags options.](./assets/learning-ojs3.2-jm-settings-dist-index.png)
 
-Utilisez **Description** pour fournir une brève description de votre revue aux moteurs de recherche.
+Use **Description** to provide a brief description of your journal for search engines.
 
-Utilisez **Balises Personnalisées** pour ajouter des balises d'en-tête HTML personnalisées à l'en-tête de chaque page de votre revue, ce qui peut aider votre site à être indexé par les moteurs de recherche. Les balises doivent être ajoutées en tant qu'éléments HTML. Si vous entrez simplement des mots, ils apparaîtront en haut de chaque page de votre site plutôt que dans les métadonnées du site. Voici un exemple de texte qui pourrait être saisi dans ce champ:
+Use **Custom Tags** to add custom HTML header tags to the header of every page of your journal, which can help your site get indexed by search engines. Tags need to be added as HTML elements. If you simply enter words they will appear at the top of every page of your site instead of in the site's metadata. Here is an example of text that could be entered in this field:
 
 ```html
 <meta name="description" content="The Journal of Public Knowledge. Publication of the Public Knowledge Project - PKP and Simon Fraser University - SFU" />
@@ -47,70 +47,72 @@ Utilisez **Balises Personnalisées** pour ajouter des balises d'en-tête HTML pe
 <meta name="revisit-after" content="3 month">
 ```
 
-## Paiements
+## Payments
 
-OJS offre la possibilité de collecter des paiements en ligne et de gérer les abonnements et les paiements des frais d'auteur.
+OJS provides the ability to collect online payments and manage subscriptions and author fee payments.
 
-En utilisant le plugiciel PayPal, vous pouvez accepter les paiements via PayPal, ou vous pouvez accepter les paiements manuels (comme les chèques, les virements par e-mail, etc.), mais ils doivent être effectués en dehors d'OJS et ne sont pas automatiquement enregistrés dans OJS. Si vous souhaitez utiliser un autre service de paiement, vous devrez créer votre propre plugiciel.
+Using the PayPal plugin, you can accept payments through PayPal, or you can accept manual payments (such as cheque, email transfer, etc.), but they must be made outside of OJS and are not automatically recorded in OJS.  If you would like to use a different payment service you will have to create your own plugin.
 
-### Activer les Paiements
+### Enable Payments
 
-Pour utiliser les fonctionnalités de paiement et d'abonnement, vous devez d'abord activer les paiements sous cet onglet. Après avoir coché **Activer**, des paramètres de configuration supplémentaires apparaissent ci-dessous.
+To use payments and subscriptions features, you first have to enable payments under this tab. After you check off **Enable**, additional configuration settings will appear below.
 
-![](./assets/learning-ojs3.2-jm-settings-dist-pay.png)
+![Distribution settings payments tab showing enable payments, currency and payment plugins options.](./assets/learning-ojs3.2-jm-settings-dist-pay.png)
 
-Sélectionnez la devise que vous utiliserez.
+Select the currency you will use.
 
-Sélectionnez le mode de paiement des frais que vous utiliserez sous **Plugiciels de Paiement** .
+Select the fee payment method you will use under **Payment Plugins**.
 
-Si vous sélectionnez **Paiement des Frais par PayPal** , des champs supplémentaires apparaîtront.
+If you select **PayPal Fee Payment**, additional fields will appear.
 
-Pour accepter des paiement PayPal, vous devrez allez à Paramètres Site Web > Plugiciels et activer le Plugiciel PayPal, puis effectuez l'installation et la configuration supplémentaires expliquées dans le [Guide de Plugiciel PayPal](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/). Grâce à ce processus, vous obtiendrez les valeurs des champs **Nom de Compte**, **ID du Client**, et **Clé secrète**.
+To accept PayPal payments, you will need to go to Website Settings > Plugins and enable the PayPal Plugin, then do additional setup and configuration explained in the [PayPal Plugin Guide](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/). Through this process you will get the values for the **Account Name**, **Client ID**, and **Secret** fields.
 
-![](./assets/learning-ojs3.2-jm-settings-dist-paypalsettings.png)
+![Paypal fee payment screen showing test mode enable option, account name, client ID and secret fields.](./assets/learning-ojs3.2-jm-settings-dist-paypalsettings.png)
 
-Si vous sélectionnez **Paiement Manuel des Frais** sous **Plugiciels de Paiement**, un champ apparaîtra dans lequel vous pourrez saisir des instructions qui apparaîtront aux utilisateurs qui effectuent un paiement manuel. Par exemple, «Envoyez un chèque à l'ordre de Public Knowledge Project» à «______».
+If you select **Manual Fee Payment** under **Payment Plugins**, a field will appear where you can enter instructions that will appear to users who are making a manual payment.  For example, “Send a cheque payable to the Public Knowledge Project” to ______.”
 
-![](./assets/learning-ojs3.2-jm-settings-manual-payments.png)
+![Manual fee payment screen showing manual payment instructions field.](./assets/learning-ojs3.2-jm-settings-manual-payments.png)
 
-Vous devrez également activer le Plugiciel de Paiement Manuel sous Paramètres du site Web > Plugiciels pour accepter les paiements manuels.
+You will also need to enable the Manual Payment Plugin under Website Settings > Plugins to accept manual payments.
 
-Cliquez sur **Enregistrer** .
+Click **Save**.
 
-Un nouvel élément de menu apparaîtra dans le menu principal du tableau de bord appelé **Paiements** .
+A new menu item will appear on the main dashboard menu called **Payments**.
 
-Accédez au [Chapitre Abonnements](./subscriptions.md) pour obtenir des instructions supplémentaires sur la gestion des abonnements et des paiements.
+Go to the [Subscriptions Chapter](./subscriptions.md) for further instructions on managing subscriptions and payments.
 
-Si vous prévoyez de rendre votre revue ou vos articles disponibles par abonnement, accédez à Paramètres de Distribution > Accès et cochez "La revue nécessitera des abonnements pour accéder à tout ou just une partie de son contenu."
+If you plan to make your journal or articles available by subscription, go to Distribution Settings > Access and check off “The journal will require subscriptions to access some or all of its contents.”
 
-![](./assets/learning-ojs3.2-jm-settings-dist-access.png)
+![Distribution settings access tab showing publishing mode options.](./assets/learning-ojs3.2-jm-settings-dist-access.png)
 
-### Dons
+### Donations
 
-Dans OJS 3.x, il n'y a pas d'option pour configurer un type de paiement pour les dons, pour gérer les dons avec le module Paiements, ou pour utiliser le plugiciel PayPal pour accepter les dons. Vous pouvez ajouter le bloc Dons à votre barre latérale, mais il devra être lié à un site externe où les paiements de dons peuvent être effectués.
+In OJS 3.x there is not an option to set up a payment type for donations, to manage donations with the Payments module, or to use the PayPal plugin to accept donations. You can add the Donations block to your sidebar, but it will have to link to an external site where donation payments can be made.
 
-## Accès
+## Access
 
-Sous l'onglet Accès, vous pouvez configurer si vous souhaitez que le contenu de votre revue soit en accès ouvert, disponible par abonnement, ou une combinaison. Par défaut, l'option d'accès ouvert est sélectionnée. Cependant, si vous souhaitez utiliser OJS pour un abonnement de revue, choisissez la deuxième option (voir la section ci-dessus sur les paiements pour plus d'informations). La sélection de la deuxième option vous permettra de retarder davantage l'accès ouvert de différentes périodes.
+Under the Access tab you can configure whether you want your journal contents to be open access, available by subscription, or a combination. By default, the open access option is selected. However, if you wish to use OJS for a subscription journal, choose the second option (see above section on Payments for further information). Selecting the second option will allow you to further delay open access by different periods of time.
 
-![](./assets/learning-ojs3.2-jm-settings-dist-access-delayed.png)
+![Distribution settings access tab showing publishing mode and delayed open access options.](./assets/learning-ojs3.2-jm-settings-dist-access-delayed.png)
 
-Si vous n'utilisez OJS que pour gérer votre flux des travaux de soumission et ne pas publier votre contenu, vous pouvez sélectionner «OJS ne sera pas utilisé pour publier le contenu de la revue en ligne».
+If you are only using OJS to manage your submission workflow and not publish your content, you can select "OJS will not be used to publish the journal's contents online."
 
-OJS vous permet de configurer comment et quand le contenu peut être consulté au niveau d'un article et d'un numéro. Lorsque vous créez un numéro, il existe un onglet appelé **Accès** sous lequel vous pouvez définir le **Statut d'Accès** sur **Abonnement** ou **Accès Ouvert** .
+OJS allows you to configure how and when content can be accessed at an article and issue level. When you create an issue, there is a tab called **Access** under which you can set the **Access Status** as **Subscription** or **Open Access**.
 
-Si vous le définissez comme **Abonnement**, en dessous, une boîte apparaîtra dans laquelle vous pouvez éventuellement entrer une **Date d'Accès Ouvert**, à laquelle le contenu aura un accès ouvert.
+If you set it as **Subscription**, underneath that a box will appear where you can optionally enter an **Open Access Date**, at which the content will become open access.
 
-Une fois que vous l'avez défini comme **Abonnement**, dans l'onglet **Table des Matières**, une case à cocher apparaîtra à côté de chaque article sous **Accès Ouvert**, où vous pouvez éventuellement définir des articles individuels en accès ouvert, même si le reste du numéro reste disponible par abonnement.
+Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbox will appear beside each article under **Open Access**, where you can optionally set individual articles as open access, even if the rest of the issue remains available by subscription.
 
-**Activer OAI** sera activé par défaut, car il s'agit d'un protocole important utilisé par les services d'indexation et d'autres applications pour récolter les métadonnées de votre journal. Cependant, si vous n'utilisez pas OJS pour publier le contenu de votre revue, vous pouvez désactiver l'OAI.
+**Enable OAI** will be enabled by default, as this is an important protocol used by indexing services and other applications to harvest your journal's metadata. However, if you are not using OJS to publish your journal's content you may want to disable OAI.
 
-![](./assets/learning-ojs3.2-jm-settings-dist-oai.png)
+![Enable OAI screen with enable and disable options.](./assets/learning-ojs3.2-jm-settings-dist-oai.png)
 
-## Archivage
+## Archiving
 
-Si vous êtes membre d'un réseau LOCKSS ou CLOCKSS, utilisez cet onglet pour activer votre revue. Le plugiciel PKP PN, qui dépose votre contenu dans le PKP Preservation Network, n'est pas encore disponible pour OJS 3.
+If you are a member of a LOCKSS or CLOCKSS network, use this tab to activate your journal. The PKP PN Plugin, which deposits your content in the PKP Preservation Network(PN), is available for OJS 3.1.2 or newer.
 
-Si vous utilisez un autre réseau, l'activer ici rendra votre contenu disponible sur le réseau, mais vous devrez également contacter le réseau pour lui faire connaître votre revue.
+For instructions on enabling the PKP PN, see the [PKP Preservation Network Guide](https://docs.pkp.sfu.ca/pkp-pn/).
 
-![](./assets/learning-ojs3.2-jm-settings-web-archive.png)
+If you use another network, enabling it here will make your content available to the network, but you will also need to contact the network to make it aware of your journal.
+
+![Distribution settings acrhiving tab showing LOCKSS and CLOCKSS options.](./assets/learning-ojs3.2-jm-settings-web-archive.png)
