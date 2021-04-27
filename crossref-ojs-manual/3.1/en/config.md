@@ -2,6 +2,7 @@
 book: crossref-ojs-manual
 version: 3.1
 ---
+
 # Crossref XML Export Plugin (OJS 3.1.2+)
 
 The Crossref XML Export Plugin  can deposit DOIs to Crossref for registration in a variety of ways:
@@ -38,7 +39,7 @@ Manual deposits are always enabled in OJS 3.1.2.
 1. Navigate to the Crossref XML Export Plugin
 2. Click the "Articles" sub-heading.
 3. Click the checkbox next to the articles you want to deposit.
-	- If you want to deposit specific issues, use the search function in the upper right corner of the plugin window to filter which articles will display.
+    - If you want to deposit specific issues, use the search function in the upper right corner of the plugin window to filter which articles will display.
 4. Scroll to the bottom of the page and click the "*deposit*" button.
 
 *Validate XML* will, when checked, confirm validation of your XML before submission to Crossref. It will inform you of potential submission issues. It is, however, not suitable for large deposits and may time out. It is best used to troubleshoot smaller deposits.
