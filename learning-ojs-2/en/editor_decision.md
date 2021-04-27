@@ -24,7 +24,7 @@ Once you've selected a decision from the dropdown menu, hit the Record Decision 
 
 **Important Note**: The Section Editor must use the **Notify Author **icon to generate an email to the Author, informing them of your decision. Until this is done, no further work can be done with the submission.
 
-Use the Import Peer Reviews button on the email form to pull the anonymous reviewer comments (or form results) into the body of the email. Hitting the Send button delivers the message. The option to upload attachments gives the Section Editor the opportunity to share a copy of the reviewer's edited manuscript with the author. Be sure the edited manuscript is stripped of any personal information. 
+Use the Import Peer Reviews button on the email form to pull the anonymous reviewer comments (or form results) into the body of the email. Hitting the Send button delivers the message. The option to upload attachments gives the Section Editor the opportunity to share a copy of the reviewer's edited manuscript with the author. Be sure the edited manuscript is stripped of any personal information.
 
 ![Author Email](images/chapter8/section_14.png)
 
@@ -36,8 +36,7 @@ Using OJS the Section Editor is able to record the decision about the submission
 
 Summary of Decision Options and any next steps:
 
-**Accept Submission
-**If the decision is to Accept, select the appropriate version (i.e., Review Version, Author Version, or Editor Version) and hit the Send button to move the submission from the "In Review" queue to the "In Editing" queue.
+**Accept Submission **If the decision is to Accept, select the appropriate version (i.e., Review Version, Author Version, or Editor Version) and hit the Send button to move the submission from the "In Review" queue to the "In Editing" queue.
 
 Another important note here is for the Section Editor to select the version of the submission headed for Copyediting. Use the radio button to choose for example, the Editor Version and click "Send to Copyediting".
 
@@ -48,16 +47,11 @@ Another important note here is for the Section Editor to select the version of t
 
 
 
-**Revisions Required
-**If the decision is Revisions Required, the Author will need to make the required changes and upload them for you to view. Once this is done, you will receive an email and will be able to access the revised file by clicking on the Author Version link.
-If the revisions are not complete, use the Notify Author link to send another email with further instructions.
+**Revisions Required **If the decision is Revisions Required, the Author will need to make the required changes and upload them for you to view. Once this is done, you will receive an email and will be able to access the revised file by clicking on the Author Version link. If the revisions are not complete, use the Notify Author link to send another email with further instructions.
 
 
-**Resubmit for Review
-**If the decision is Resubmit for Review, the Author will need to upload a significantly revised version of the submission. You will receive an email when this is ready.
+**Resubmit for Review **If the decision is Resubmit for Review, the Author will need to upload a significantly revised version of the submission. You will receive an email when this is ready.
 
-You can access the revised author submission file using the Author Version link. To send it for another round of review, select it using the radio button, and hit the Resubmit button.
-This will allow you to select Reviewers for a second round of review.
+You can access the revised author submission file using the Author Version link. To send it for another round of review, select it using the radio button, and hit the Resubmit button. This will allow you to select Reviewers for a second round of review.
 
-**Decline Submission
-**If the decision is to Decline, the submission automatically moves from the "In Review" queue to the "Archive" queue upon notifying the Author.
+**Decline Submission **If the decision is to Decline, the submission automatically moves from the "In Review" queue to the "Archive" queue upon notifying the Author.
