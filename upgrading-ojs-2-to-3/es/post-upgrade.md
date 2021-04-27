@@ -1,29 +1,26 @@
-# Después de la actualización
+# Post-upgrade
 
-Este capítulo trata sobre lo que puede hacer después de la actualización para preparar su nuevo sitio OJS 3 y enseñarle al equipo de la revista cómo usarlo.
+This chapter covers what you can do post-upgrade to get your new OJS 3 site ready and teach your journal team how to use it.
 
-## Reingreso de datos
+## Data re-entry
+With respect to journal data, editors can be assured that all articles published in OJS 2.x as well as all submissions, peer reviews, and user accounts (including usernames and passwords) will remain in place in OJS 3 after the upgrade.
 
-Con respecto a los datos de la revista, los editores/as pueden estar seguros de que todos los artículos publicados en OJS 2.x, así como todos los envíos, revisiones por pares y cuentas de usuario/a (incluidos los nombres de usuario/a y contraseñas) permanecerán inalterados en OJS 3 después de la actualización.
+However, because of the form data field changes, some information may need to be saved in order to be reentered post-upgrade, such as Masthead and About the Journal sections. Additionally some plugins may need to be re-enabled.
 
-Sin embargo, debido a los cambios en el campo de datos del formulario, es posible que sea necesario guardar cierta información para volver a introducirla después de la actualización, como las secciones "Cabecera" y "Acerca de la revista". Además, algunos módulos pueden necesitar volver a habilitarse.
+## Troubleshooting
+Even with thorough pre-upgrade testing, issues and bugs may surface post-upgrade, so it is important to set aside time and support resources for troubleshooting.
 
-## Solución de problemas
+PKP’s [Community Support Forum](https://forum.pkp.sfu.ca/) is a great resource to research such issues. Additionally you will find it helpful to manage your OJS code with git so you can pull in small code changes from the PKP repository, use RSS to stay on top of major releases, and [Zapier](https://zapier.com/apps/github/integrations/email/11485/get-emails-with-new-github-commits) integrated with GitHub to monitor commits to the branch of OJS that you’re actively using.
 
-Incluso tras pruebas exhaustivas previas a la actualización, pueden surgir problemas y errores posteriores a la actualización, por lo que es importante reservar tiempo y recursos de soporte para la resolución de problemas.
+## Training and support
+Because OJS 3 is quite different than OJS 2, it is recommended that you plan for and schedule training on OJS 3 for your Journal Managers and Editors and ensure that support is available while they learn the new system.
 
-El [Foro de ayuda comunitario](https://forum.pkp.sfu.ca/) de PKP es un gran recurso para investigar estos temas. Además, le resultará útil administrar su código OJS con git para poder introducir pequeños cambios de código desde el repositorio PKP y usar RSS para estar al tanto de las versiones principales. [Zapier](https://zapier.com/apps/github/integrations/email/11485/get-emails-with-new-github-commits) se integró con GitHub para monitorear las entregas a la rama de OJS que esté usando activamente.
+Training can be offered before or after the upgrade and may be most useful or in demand immediately after the upgrade.
 
-## Formación y soporte
+PKP has a number of training resources that can be used by Journal Managers and Editors to learn OJS 3, listed in the Additional Resources section at the end of this guide.
 
-Debido a que OJS 3 es bastante diferente de OJS 2, se recomienda que planifique y programe formación en OJS 3 para sus gestores/as y editores/as de revistas. Asegúrese también de que reciban soporte mientras aprenden el nuevo sistema.
+You can also arrange group workshops and/or one-on-one training and consultation, depending on the size and needs of your editorial team. We recommend 1-2 hours on journal setup and 1-2 hours on the submission workflow. You may also want to cover special topics relevant to your team, such as theming.
 
-La formación se puede ofrecer antes o después de la actualización y puede ser más útil o necesaria inmediatamente después de la actualización.
+While authors and reviewers may also find submitting and reviewing articles in OJS 3 to be different than 2, their tasks are simple enough that it is unlikely they will need training on the new version. There is documentation in the above-mentioned resources specific to authors and reviewers that can be shared with them if needed.
 
-PKP tiene una serie de recursos de formación que pueden ser utilizados por los gestores/as y editores/as de revistas para aprender OJS 3, enumerados en la sección "Recursos adicionales" al final de esta guía.
-
-También puede organizar talleres grupales y/o formación y consultas individuales, dependiendo del tamaño y las necesidades de su equipo editorial. Recomendamos 1-2 horas acerca de la configuración de la revista y 1-2 horas sobre el flujo de trabajo de envío. También es posible que desee cubrir temas especiales relevantes para su equipo, como el "theming".
-
-Si bien los autores/as y revisores/as también pueden percatarse de que enviar y revisar artículos en OJS 3 es diferente a OJS 2, sus tareas son lo suficientemente simples como para que sea poco probable que necesiten formación de la nueva versión. Hay documentación en los recursos mencionados anteriormente específica para autores/as y revisores/as que se puede compartir con ellos si es necesario.
-
-También debería anticipar que las necesidades de soporte de su equipo editorial serán mayores de lo habitual en los primeros meses después de la actualización y asegurarse de contar con los recursos adecuados para satisfacerlas.
+You should also anticipate that your editorial team’s support needs will be higher than usual in the initial few months after the upgrade and ensure you have adequate resources to meet them. 
