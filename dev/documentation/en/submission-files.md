@@ -4,24 +4,25 @@ title: Submission Files - Technical Documentation - OJS|OMP|OPS
 
 # Submission Files
 
-> Read and understand how [Files](./utilities-files) are handled before continuing.
-{:.tip}
+> Read and understand how [Files](./utilities-files) are handled before continuing. 
+> 
+> {:.tip}
 
 Submission files are used to track the progress of a file through the editorial workflow. For example, a file might be uploaded by the author during submission, promoted to the review stage by an editor, revised again by the author, and downloaded by a copyeditor.
 
 Each `SubmissionFile` represents a file at one of these file stages. For example, when an editor promotes a file from the Submission stage to the Review stage, there are two `SubmissionFile` objects which refer to the same file.
 
-| submission_file_id | file_id | file_stage                  |
-| ------------------ | ------- | --------------------------- |
-| 1                  | 82      | SUBMISSION_FILE_SUBMISSION  |
-| 2                  | 82      | SUBMISSION_FILE_REVIEW_FILE |
+| submission_file_id | file_id | file_stage                    |
+| -------------------- | ------- | ----------------------------- |
+| 1                    | 82      | SUBMISSION_FILE_SUBMISSION  |
+| 2                    | 82      | SUBMISSION_FILE_REVIEW_FILE |
 
 Submission files can be revised. For example, the file in the Review stage may need to be anonymized before it can be sent for review. When the editor uploads a modified copy as a revision, the `file_id` is changed but a new `SubmissionFile` is not created.
 
-| submission_file_id | file_id | file_stage                  |
-| ------------------ | ------- | --------------------------- |
-| 1                  | 82      | SUBMISSION_FILE_SUBMISSION  |
-| 2                  | 83      | SUBMISSION_FILE_REVIEW_FILE |
+| submission_file_id | file_id | file_stage                    |
+| -------------------- | ------- | ----------------------------- |
+| 1                    | 82      | SUBMISSION_FILE_SUBMISSION  |
+| 2                    | 83      | SUBMISSION_FILE_REVIEW_FILE |
 
 Editors and assistants can access all revisions of a file in the submission file's activity log.
 
@@ -73,11 +74,11 @@ Use the [File Service](./utilities-files) to create a file. Then assign the `fil
 ```php
 $fileId = Services::get('file')->add($source, $destination);
 $submissionFile = Services::get('submissionFile')->edit(
-	$submissionFile,
-	[
-		'fileId' => $fileId,
-		'uploaderUserId' => Application::get()->getRequest()->getUser()->getId(),
-	]
+    $submissionFile,
+    [
+        'fileId' => $fileId,
+        'uploaderUserId' => Application::get()->getRequest()->getUser()->getId(),
+    ]
 );
 ```
 
@@ -86,13 +87,13 @@ Submission files can not be created without required properties.
 ```php
 $submissionFile = DAORegistry::getDao('SubmissionFileDAO')->newDataObject();
 $submissionFile->setAllData([
-	'fileStage' => SUBMISSION_FILE_REVIEW_FILE,
-	'fileId' => $fileId,
-	'name' => [
-		$primaryLocale => 'my-filename.txt',
-	],
-	'submissionId' => $submissionId,
-	'uploaderUserId' => $userId,
+    'fileStage' => SUBMISSION_FILE_REVIEW_FILE,
+    'fileId' => $fileId,
+    'name' => [
+        $primaryLocale => 'my-filename.txt',
+    ],
+    'submissionId' => $submissionId,
+    'uploaderUserId' => $userId,
 ]);
 ```
 
@@ -100,19 +101,19 @@ Validate the submission file before it is added or edited.
 
 ```php
 $params = [
-	'fileStage' => SUBMISSION_FILE_REVIEW_FILE,
-	'fileId' => $fileId,
-	'name' => [
-		$primaryLocale => 'my-filename.txt',
-	],
-	'submissionId' => $submissionId,
-	'uploaderUserId' => $userId,
+    'fileStage' => SUBMISSION_FILE_REVIEW_FILE,
+    'fileId' => $fileId,
+    'name' => [
+        $primaryLocale => 'my-filename.txt',
+    ],
+    'submissionId' => $submissionId,
+    'uploaderUserId' => $userId,
 ];
 $errors = Services::get('submissionFile')->validate(VALIDATE_ACTION_ADD, $params, $allowedLocales, $primaryLocale);
 if (empty($errors)) {
-	$submissionFile = DAORegistry::getDao('SubmissionFileDAO')->newDataObject();
-	$submisssionFile->setAllData($params);
-	$submissionFile = Services::get('submissionFile')->add($submissionFile, $request);
+    $submissionFile = DAORegistry::getDao('SubmissionFileDAO')->newDataObject();
+    $submisssionFile->setAllData($params);
+    $submissionFile = Services::get('submissionFile')->add($submissionFile, $request);
 }
 ```
 
@@ -146,18 +147,18 @@ Use the `QueryDAO` to check if a user can access a discussion file.
 
 ```php
 if (
-	$submissionFile->getData('fileStage') === SUBMISSION_FILE_QUERY &&
-	$submissionFile->getData('assocType') === ASSOC_TYPE_NOTE
+    $submissionFile->getData('fileStage') === SUBMISSION_FILE_QUERY &&
+    $submissionFile->getData('assocType') === ASSOC_TYPE_NOTE
 ) {
-	$queryDao = DAORegistry::getDAO('QueryDAO'); /* @var $queryDao QueryDAO */
-	$noteDao = DAORegistry::getDAO('NoteDAO'); /* @var $noteDao NoteDAO */
+    $queryDao = DAORegistry::getDAO('QueryDAO'); /* @var $queryDao QueryDAO */
+    $noteDao = DAORegistry::getDAO('NoteDAO'); /* @var $noteDao NoteDAO */
 
-	$user = Application::get()->getRequest()->getUser();
-	$note = $noteDao->getById($submissionFile->getData('assocId'));
+    $user = Application::get()->getRequest()->getUser();
+    $note = $noteDao->getById($submissionFile->getData('assocId'));
 
-	if ($queryDao->getParticipantIds($note->getAssocId(), $user->getId())) {
-		// User can access this submission file
-	}
+    if ($queryDao->getParticipantIds($note->getAssocId(), $user->getId())) {
+        // User can access this submission file
+    }
 }
 ```
 
