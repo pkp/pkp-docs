@@ -57,15 +57,11 @@ If you are creating a document via the Acrobat Tab in MS Office, make sure that 
 
 Save your Word Document as a PDF using the “Save As” function. This may not preserve all accessibility features, such as tagging, so it’s best to use Acrobat Pro if you have it.
 
-On Windows:
-Select **File > Save As**. Select “PDF” from the list of drop-down files.
-Click “Options” and make sure **“Document structure tags for accessibility”** is checked, then save the file.
+On Windows: Select **File > Save As**. Select “PDF” from the list of drop-down files. Click “Options” and make sure **“Document structure tags for accessibility”** is checked, then save the file.
 
 ![The MS Word on Windows file save option with the checked checkbox Document structure tags for accessibility](./assets/11_a11y-guide-saveas-pdf1.png)
 
-On Mac:
-Open the **File** application menu and select **Save As…**
-Under **File Format**, select “PDF”. Then choose the **Best for electronic distribution and accessibility** (**uses Microsoft online service**) radio button, then **Export**.
+On Mac: Open the **File** application menu and select **Save As…** Under **File Format**, select “PDF”. Then choose the **Best for electronic distribution and accessibility** (**uses Microsoft online service**) radio button, then **Export**.
 
 ![The MS Word on Mac file save option in PDF with the checked checkbox Best for electronic distribution and accessibility](./assets/12_a11y-guide-saveas-pdf2.png)
 
