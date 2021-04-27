@@ -2,6 +2,7 @@
 book: learning-omp
 version: 3.1
 ---
+
 # Editorial Interface
 
 ![The editorial interface of OMP.](./assets/learning_omp-editorial-interface.png)
