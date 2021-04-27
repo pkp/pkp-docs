@@ -71,11 +71,11 @@ This script expects an accompanying parameter in the form of a pointer to an XML
 
 **Commands to be run**
 
-| **Process** | **Command** |
-| --- | --- | --- | --- |
-| OJS log files | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasks.xml |
-| OJS log files with automated staging process | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksAutoStage.xml |
-| External log files | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
+| **Process**                                  | **Command**                                                                                   |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| OJS log files                                | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasks.xml                 |
+| OJS log files with automated staging process | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksAutoStage.xml        |
+| External log files                           | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
 
 After you configure either the Acron plugin or a cron job, your statistics should start processing. They only process at set times: once every 24 hours if using the Acron plugin and at whatever frequency set in the cron job, if that is being used. Wait for that amount of time, and then check to see if stats are now available. If they aren’t, proceed to the Troubleshooting section.
 
@@ -85,7 +85,7 @@ The Usage Statistics plugin can also track regional data, including visitor coun
 
 In order to track this information:
 
-1. Register for a GeoIP account obtain the required .dat file by following the instructions on the [GeoIP website](https://dev.maxmind.com/geoip/geoip-direct-downloads/). 
+1. Register for a GeoIP account obtain the required .dat file by following the instructions on the [GeoIP website](https://dev.maxmind.com/geoip/geoip-direct-downloads/).
 2. The Usage Statistics Plugin must have the Region and City options enabled as described above.
 3. The following server-side configuration must also be in place. This step requires command-line access to the server, and country and region information will not work unless this has been done.
    1. Open a shell prompt on the server.
@@ -122,11 +122,11 @@ The file loader is a scheduled task tool, which can be periodically invoked usin
 
 **File loader task processes:**
 
-| **\#** | **Process** | **Command** |
-| --- | --- | --- | --- |
-| 1 | OJS log files | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasks.xml |
-| 2 | OJS log files with automated staging process | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksAutoStage.xml |
-| 3 | External log files | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
+| **\#** | **Process**                                  | **Command**                                                                                   |
+| -------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| 1        | OJS log files                                | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasks.xml                 |
+| 2        | OJS log files with automated staging process | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksAutoStage.xml        |
+| 3        | External log files                           | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
 
 This should be executed from the OJS installation base directory.
 
@@ -264,10 +264,10 @@ See [Processing Log Files](#processing-log-files).
 
 If your journal still uses OJS 2 or was upgraded to OJS 3 from OJS 2, you will have access to legacy reports (primarily the Timed Views report), which is described in this section. This section also contains an explanation of changes to the statistics methodology in OJS, as well as some information specific to statistics in OJS 2.
 
-### OJS Stats Methodology: Some History 
+### OJS Stats Methodology: Some History
 OJS has recorded article usage since the beginning of the launch of OJS 2. The methodology used to count metrics has undergone one significant change between then and now. That change is key to understanding how to review and manage historical statistical data.
 
-#### Metrics the Old Way: OJS 2.0 -> 2.4.3: 
+#### Metrics the Old Way: OJS 2.0 -> 2.4.3:
 Versions of OJS prior to OJS 2.4.3 count views in a very rudimentary manner: they record page views and file downloads for article landing pages and galley files only and do not filter out bot views/downloads, multiple clicks, and so on. These views are recorded in a simple database table and represented in OJS 2.4.2 and below via a “View” report. Metrics are only available for abstract/landing pages and galley downloads and only track one facet: whether the item was viewed or downloaded. These counts are considered accurate though possibly misrepresentative of actual readership, as bot views, crawler indexing, and potential author or visitor abuse (eg. multi-clicking) are not filtered out.
 
 #### Metrics the New Way: OJS 2.4.3+ and 3.0+
@@ -299,8 +299,8 @@ The following describes the data to which users of various iterations of OJS hav
     - All metrics will be available from the User Dashboard, via Tools &gt; Statistics.
     - NOTES FOR UPGRADED JOURNALS:
         - If your use of OJS 3 is an upgrade of an OJS instance that had legacy View Report data \(that is: your install began prior to OJS 2.4.2\), the legacy View Report data will no longer be available for download. You should download and store this data before upgrading.
-		
-###  Legacy Report: Timed Views Report
+
+### Legacy Report: Timed Views Report
 
 **Availability: OJS 2 only**
 
@@ -322,10 +322,10 @@ The following describes the data to which users of various iterations of OJS hav
 In the sample below, which was generated for the date span March 29 2017 - March 30 2017 \(i.e., 1 day\), we can see that the article “Amusing Ourselves to Death” was quite highly viewed, with 2 abstract views and 11 total galley views \(3 PDF and 8 HTML\). The “Comobility” article only had its abstract viewed once.
 ****
 
-| **ID** | **Article Title** | **Authors** | **Issue** | **Date Published** | **Abstract** | **Total Galley** | **PDF** | **HTML** |
-| --- | --- | --- |
-| **2**508 | "Amusing Ourselves to Death?" Social Media, Political Satire, and the 2011 Election | Ian Reilly | Vol 36, No 3 \(2011\): Canadian Fascinations | 2011-09-13 22:11 | 2 | 11 | 3 | 8 |
-| 2512 | Comobility: How Proximity and Distance Travel Together in Locative Media | Jen Southern | Vol 37, No 1 \(2012\): Media Arts Revisited \(MARs\) | 2012-04-13 9:38 | 1 |  **** |  **** |  **** |
+| **ID**   | **Article Title**                                                                   | **Authors**  | **Issue**                                                | **Date Published** | **Abstract** | **Total Galley** | **PDF** | **HTML** |
+| -------- | ----------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------- | ------------------ | ------------ | ---------------- | ------- | -------- |
+| **2**508 | "Amusing Ourselves to Death?" Social Media, Political Satire, and the 2011 Election | Ian Reilly   | Vol 36, No 3 \(2011\): Canadian Fascinations           | 2011-09-13 22:11   | 2            | 11               | 3       | 8        |
+| 2512     | Comobility: How Proximity and Distance Travel Together in Locative Media            | Jen Southern | Vol 37, No 1 \(2012\): Media Arts Revisited \(MARs\) | 2012-04-13 9:38    | 1            | ****             | ****    | ****     |
 
 
 <hr />
