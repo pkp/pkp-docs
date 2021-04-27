@@ -1,122 +1,153 @@
-# Capítulo 3: Cuentas de usuario
-OJS utiliza un sistema completo de roles para dividir el trabajo entre los usuarios, asignar flujos de trabajo y limitar el acceso a diferentes partes del sistema.
+---
+book: learning-ojs
+version: 3.1
+---
 
-Dado que una instalación de OJS puede alojar varias revistas, los usuarios pueden inscribirse en diferentes funciones para más de una revista. Por ejemplo, una persona podría ser editora y autora de la misma revista, además de ser sólo autora en una revista, revisora en otra y editora en una tercera.
+# Chapter 3: User Accounts
 
-Cuando un usuario inicia sesión en el sistema, será llevado a su Tablero de Control. Desde aquí, verán todas las funciones del sistema al que tienen acceso. Por ejemplo, un Revisor sólo verá el envío que se le ha asignado, mientras que un Editor verá todos los envíos en el flujo de trabajo editorial.
+OJS uses a comprehensive roles system to divide work between users, assign workflows, and limit access to different parts of the system.
 
-## Roles en OJS
-El flujo de trabajo de OJS gira en torno a diferentes roles para diferentes usuarios, permitiéndoles el acceso a diferentes partes del flujo de trabajo, y diferentes permisos y responsabilidades.
+Since one installation of OJS can host multiple journals, users can be enrolled in different roles for more than one journal. For example, one person could be both an editor and author for the same journal, as well as being only an author in one journal, a reviewer in another, and an editor in a third.
 
-Los roles principales incluyen Administrador de Sitio, Administrador de la revista, Editor, Editor de Sección, Autor, Revisor, Copiador, Editor de Maquetación, Corrector y Lector.
+When a user logs into the system, they will be taken to their Dashboard. From here, they will see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow.
 
-OJS 3 también incluye funciones adicionales como traductor y diseñador. También puede crear nuevos roles o renombrar los existentes. Más información sobre la configuración de roles está disponible en el Capítulo 7.
+## Roles in OJS
 
-### Administrador del Sitio
-El Administrador del Sitio es responsable de la instalación general de OJS, asegurándose de que la configuración del servidor sea correcta, añadiendo archivos de idioma y creando nuevas revistas en la instalación. La cuenta del Administrador del Sitio se crea como parte del proceso de instalación. A diferencia de todas las demás funciones de OJS, sólo puede haber un Administrador del Sitio.
+The OJS workflow revolves around different roles for different users, allowing them access to different parts of the workflow, and different permissions and responsibilities.
 
-Consulte el Capítulo 4: Administración del sitio para obtener más detalles.
+Major roles include Site Administrator, Journal Manager, Editor, Section Editor, Author, Reviewer, Copyeditor, Layout Editor, Proofreader, and Reader.
 
-### Administrador de la revista
-El Administrador de la revista es responsable de configurar el sitio web de la revista, configurar las opciones del sistema y administrar las cuentas de usuario. Esto no implica ningún conocimiento técnico avanzado, sino que implica rellenar formularios basados en la web y subir archivos.
+OJS 3 also includes additional roles such as Translator and Designer. You can also create new roles or rename existing ones. More information on configuring roles is available in the [Users and Roles chapter](./users-and-roles.md).
 
-El Administrador de la revista también inscribe a los Editores, Editores de Sección, Editores de Copiado, Editores de Maquetación, Correctores, Autores y Revisores.
+### Site Administrator
+The Site Administrator is responsible for the overall OJS installation, ensuring the server settings are accurate, adding language files, and creating any new journals on the installation. The Site Administrator account is created as part of the installation process. Unlike all other OJS roles, there can only be one Site Administrator.
 
-El Administrador de la revista también tiene acceso a otras funciones de administración de la revista y puede crear nuevas secciones para la revista, configurar formularios de revisión, editar los mensajes de correo electrónico predeterminados, administrar las herramientas de lectura, ver estadísticas e informes y mucho más.
+See [Chapter 4: Site Administration](./site-administration.md) for more details.
 
-Muchos administradores de revistas también se inscriben como editores, lo que les permite administrar fácilmente tanto la configuración de la revista como los envíos en el flujo de trabajo editorial.
+### Journal Manager
+The Journal Manager is responsible for setting up the journal web site, configuring the system options, and managing the user accounts. This does not involve any advanced technical skills, but entails filling out web-based forms and uploading files.
 
-> Aunque el Administrador de revistas es una función específica de una revista, los administradores de revistas deben ser considerados generalmente como usuarios de confianza en todo el sistema, ya que tienen la capacidad de asumir las identidades de otros usuarios que pueden estar inscritos en otras revistas.
+The Journal Manager also enrolls the Editors, Section Editors, Copyeditors, Layout Editors, Proofreaders, Authors, and Reviewers.
 
-Consulte el Capítulo 5: Configuración de una revista para obtener más detalles.
-### Autor
-Los autores pueden enviar los manuscritos a la revista directamente a través del sitio web de la revista. Se pide al autor que cargue los archivos de envío y que proporcione metadatos o información de indexación (los metadatos mejoran la capacidad de búsqueda para la investigación en línea y para la revista). El Autor puede cargar múltiples archivos, en forma de conjuntos de datos, instrumentos de investigación o textos fuente que enriquecerán el artículo, así como también contribuir a formas más abiertas y robustas de investigación y erudición.
+The Journal Manager also has access to the journal's other management features, and can create new Sections for the journal, set up Review Forms, edit the default Emails, view statistics and reports, import and export data, and access the editorial workflow and all journal submissions.
 
-El autor puede hacer un seguimiento de la presentación a través del proceso de revisión y redacción, así como participar en la edición y corrección de las presentaciones aceptadas para su publicación, iniciando sesión en el sitio web de la revista.
+See the Settings chapters for more details.
 
-Consulte el Capítulo 10: Autoría para obtener más detalles.
+### Author
+
+Authors are able to submit manuscripts to the journal directly through the journal's website. The Author is asked to upload submission files and to provide metadata or indexing information (the metadata improves the search capacity for research online and for the journal). The Author can upload multiple files, in the form of data sets, research instruments, or source texts that will enrich the item, as well as contribute to more open and robust forms of research and scholarship.
+
+The Author is able to track the submission through the review and editorial process — as well as participate in the copyediting and proofreading of submissions accepted for publication — by logging in to the journal's website.
+
+See the [Authoring chapter](./authoring.md) for more details.
 
 ### Editor
-El Editor supervisa todo el proceso de revisión, edición y publicación. El Editor, trabajando con el Administrador de la Revista, típicamente establece las políticas y procedimientos para la revista.
 
-En el proceso editorial, el Editor asigna las presentaciones a los Editores de Sección para ver a través de la Revisión de las Presentaciones y la Edición de las Presentaciones. El Editor mantiene un ojo en el progreso de la presentación y ayuda con cualquier dificultad.
+The Editor oversees the entire review, editing and publishing process. The Editor, working with the Journal Manager, typically establishes the policies and procedures for the journal.
 
-Una vez que se ha completado la revisión, el Editor típicamente ve el envío a través del proceso de Edición (incluyendo la corrección de estilo, producción y revisión) aunque en algunas revistas esto sigue siendo responsabilidad del Editor de Sección a cargo del proceso de revisión del envío.
+In the editorial process, the Editor assigns submissions to the Section Editors to see through Submission Review and Submission Editing. The Editor keeps an eye on the submission's progress and assists with any difficulties.
 
-El Editor también crea los números de la revista, programa los envíos para su publicación, organiza el Índice y publica el número como parte del Proceso de Publicación. El Editor puede restaurar los envíos archivados en las listas En revisión o En edición.
+Once review is completed, the Editor typically sees the submission through the Editing process (including copyediting, production, and proofreading) although in some journals this remains the responsibility of the Section Editor in charge of the submission's review process.
 
-Muchos editores también se inscriben como gestores de revistas, lo que les permite gestionar fácilmente tanto el flujo de trabajo editorial como la configuración de la revista.
+The Editor also creates the journal issues, schedules submissions for publication, arranges the Table of Contents, and publishes the issue as part of the Publishing Process. The Editor can restore archived submissions to the active In Review or In Editing lists.
 
-Consulte el Capítulo 11: Flujo de trabajo editorial para obtener más detalles.
+Editors can also access journal settings, users and roles, and tools.
 
-### Editor de sección
-El Editor de la Sección gestiona la revisión y edición de los envíos a los que han sido asignados. En algunos casos, un Editor de Sección que es asignado para ver los envíos a través del Proceso de Revisión también será responsable de ver los envios que son aceptados a través del proceso de Edición (es decir, a través de la edición, producción y corrección).
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
-A menudo, sin embargo, los Editores de Sección sólo trabajan con el proceso de revisión, y un Editor, actuando en el papel de Editor de Sección, ve las presentaciones a través del proceso de Edición. La revista tendrá una política sobre cómo se dividen las tareas.
+### Section Editor
 
-Consulte el Capítulo 11: Flujo de trabajo editorial para obtener más detalles.
+The Section Editor manages the review and editing of submissions to which they have been assigned. In some cases, a Section Editor who is assigned to see submissions through the Review Process will also be responsible for seeing the submissions that are accepted through the Editing process (that is, through copyediting, production, and proofreading).
 
-### Revisor
-El Revisor es seleccionado por el Editor o el Editor de Sección para revisar un envío. Se pide a los revisores que envíen sus reseñas al sitio web de la revista y pueden subir archivos adjuntos para uso del Editor y el Autor. Los revisores pueden ser calificados por los Editores de Sección, de nuevo dependiendo de las políticas de esta revista.
+Often, however, Section Editors only work with the review process, and an Editor, acting in the role of Section Editor, sees the submissions through the Editing process. The journal will have a policy on how the tasks are divided.
 
-Consulte el Capítulo 8: Revisión para obtener más detalles.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
-### Corrector
-El corrector edita las presentaciones para mejorar la gramática y la claridad, trabaja con los autores para asegurar que todo esté en su lugar, garantiza la estricta adhesión al estilo bibliográfico y textual de la revista y produce una copia limpia y editada para que un editor de maquetación o asistente de producción la convierta en las galeras que estarán en el formato publicado de la revista.
+### Reviewer
 
-Algunas revistas tienen un editor o un editor de sección que desempeña este rol.
+The Reviewer is selected by the Editor or Section Editor to review a submission. Reviewers are asked to submit reviews to the journal's website and are able to upload attachments for the use of the Editor and Author. Reviewers may be rated by Section Editors, again depending on the policies for this journal.
 
-Consulte el Capítulo 11: Flujo de trabajo editorial para obtener más detalles.
-### Editor de maquetas
-El Editor de Maquetación transforma las versiones corregidas de la presentación en galeradas en HTML, PDF, XML, etc., archivos que la revista ha decidido utilizar para su publicación en línea.
+See the [Reviewing chapter](./reviewing.md) for more details.
 
-> OJS no proporciona actualmente software para la conversión automática de documentos procesados por palabras a formatos de galeradas (aunque un proyecto está en desarrollo), por lo que el editor de maquetas debería tener acceso y poder utilizar paquetes de software de terceros para la creación de galeradas.
+### Copyeditor
 
-En algunos casos, el Editor o Editor de Sección también actuará como Editor de Maquetación.
+The Copyeditor edits submissions to improve grammar and clarity, works with authors to ensure everything is in place, ensures strict adherence to the journal's bibliographic and textual style, and produces a clean, edited copy for a Layout Editor or Production Assistant to turn into the galleys that will be in the published format of the journal.
 
-Consulte el Capítulo 11: Flujo de trabajo editorial para obtener más detalles.
-### Corrector de pruebas
-El corrector lee atentamente las galeras en los diversos formatos en los que la revista publica (al igual que el autor). El Corrector (y el Autor) registran cualquier error tipográfico y de formato para que el Editor de Maquetación lo corrija.
+Some journals have an Editor or Section Editor play this role.
 
-En el caso de algunas revistas, el Editor o Editor de Sección también actuará como Corrector.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
-Consulte el Capítulo 11: Flujo de trabajo editorial para obtener más detalles.
-### Lector
-El rol Lector es el rol más simple en OJS, y tiene menos capacidades. Los lectores reciben un correo electrónico de notificación con la publicación de cada número, que incluye la Tabla de Contenidos para ese número en particular.
+### Layout Editor
 
-## Registro en una revista
-Los visitantes no registrados de una revista normalmente pueden registrarse como Lectores, Autores y/o Revisores. Los administradores de revistas pueden eliminar la posibilidad de que los visitantes se registren por sí mismos, en cuyo caso aparecerá un aviso que indica que el registro está actualmente cerrado (consulte Configuración de revistas), pero los administradores de revistas siempre pueden registrar usuarios en cualquier momento y para cualquier función.
+The Layout Editor transforms the copyedited versions of the submission into galleys in HTML, PDF, XML, etc. -- files which the journal has elected to use for online publication.
+> Note
+> 
+> OJS does not currently provide software for automatically converting word processed documents to galley formats (although a project is in development), so the Layout Editor should have access to and be able to use third-party software packages for creating galleys.
 
-Para registrarse en una revista, haga clic en el enlace **Registrar** en la esquina superior derecha.
+In some cases, the Editor or Section Editor will also serve as Layout Editor.
 
-![Captura de pantalla 1 del registro](./assets/image187.png)
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
-Esto abrirá el Formulario de Inscripción para que usted complete con toda la información requerida.
+### Proofreader
 
-![Captura de pantalla 2 del registro](./assets/image147.png)
+The Proofreader carefully reads over the galleys in the various formats in which the journal publishes (as does the author). The Proofreader (and the Author) record any typographic and formatting errors for the Layout Editor to fix.
 
-Todos los campos marcados con un asterisco (Nombre, Apellido, Afiliación, País, Correo electrónico, Nombre de usuario, Contraseña, Repetir contraseña) son obligatorios. Si la revista es multilingüe, deberá seleccionar el idioma que prefiera.
+In the case of some journals, the Editor or Section Editor will also serve as Proofreader.
 
-Usted se registrará automáticamente como Lector y Autor. También tendrá la opción de registrarse como Revisor.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
-Usted no podrá auto-registrarse para un rol editorial (por ejemplo, Editor, Editor de Sección, Copiador, Editor de Maquetación, Corrector, o Gerente de Revista). Si necesita inscribirse en ese nivel, póngase en contacto con un administrador de Revista o un administrador del sitio actual.
+### Reader
 
-## Cómo ver y cambiar su perfil
-Para ver y editar tu perfil, inicia sesión y haz clic en el enlace de tu nombre de usuario en la esquina superior derecha. Seleccione el enlace **Ver perfil**.
+The Reader role is the simplest role in OJS, and has the fewest capabilities. Readers receive a notification email with the publication of each issue, which includes the Table of Contents for that particular issue.
 
+<hr />
 
-![captura de perfil](./assets/image35.png)
-Desde aquí, seleccionando las diferentes pestañas, puede actualizar sus datos personales, información de contacto, cambiar sus funciones, añadir una imagen personal (que algunas revistas pueden publicar junto con su artículo o en una lista de editores), determinar su configuración de notificación o actualizar su contraseña.
+## Registering with a Journal
 
-## Restablecimiento de la contraseña
-Puede restablecer su contraseña mediante:
+Unregistered visitors to a journal can normally register as a Reader, Author, and/or Reviewer. Journal Managers are able to remove the ability for visitors to self-register, in which case a notice will appear stating that registration is currently closed (see Journal Settings), but Journal Managers can always register users at any time, and for any role.
 
-* Inicio de sesión en la revista
-* Seleccionando su nombre de usuario y Ver perfil en la esquina superior derecha de la pantalla
-* Selección de la ficha Contraseña
-* Introducir la contraseña actual y luego la nueva dos veces
-* Presionando Guardar
+To register with a journal, click the Register link on the upper right corner.
 
-![captura de pantalla de restablecimiento de contraseña](./assets/image50.png)
+![](./assets/learning-ojs-3-registration.png)
 
-Su clave está cambiada.
+This will open the Registration Form for you to complete with all required information.
+
+![](./assets/learning-ojs-3-registration-form.png)
+
+All fields with an asterisk (First Name, Last Name, Affiliation, Country, Email, Username, Password, Repeat Password) are mandatory. If the journal is multilingual, you will need to select your preferred language.
+
+You will be automatically registered as a Reader and an Author. You will be given the option to register as a Reviewer as well.
+
+You will not be able to self-register for an Editorial Role (e.g., Editor, Section Editor, Copyeditor, Layout Editor, Proofreader, or Journal Manager). If you need to be enrolled at that level, contact a current Journal Manager or Site Administrator.
+
+<hr />
+
+## Viewing and Changing your Profile
+
+To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
+
+![](./assets/learning-ojs3.1-ed-view-profile.png)
+
+From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image \(which some journals may publish along with your article or on a list of editors\), determine your notification settings, or update your password.
+
+Under **Notifications**, you can configure what kinds of notifications you receive from the journal when events occur, such as a new journal issue is published or there is activity on a submission you're involved in.
+* Check off "Enable these types of notifications" if you want to see a notification of this event on your dashboard when you log in to the site
+* Check off "Do not send me an email for these types of notifications" if you do not want to receive an email notification about this event
+
+![](./assets/learning-ojs-3-user-notifications.png)
+
+The **API tab** on the user profile allows you to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
+
+## Resetting your Password
+
+You can reset your password by:
+
+1. Logging into the journal
+2. Selecting your username and View Profile from the upper right corner of the screen
+3. Choosing the Password tab
+4. Entering your current password and then your new password twice
+5. Hitting Save
+
+![](./assets/learning-ojs3.1-ed-change-pw.png)
+
+Your password is now changed.
