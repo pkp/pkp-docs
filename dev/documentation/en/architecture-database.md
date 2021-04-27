@@ -6,8 +6,9 @@ title: Database - Technical Documentation - OJS|OMP|OPS
 
 A Database Access Object (`DAO`) is responsible for executing database queries to read and write information from the database.
 
-> PKP applications support MySQL and PostgreSQL.
-{:.notice}
+> PKP applications support MySQL and PostgreSQL. 
+> 
+> {:.notice}
 
 ## DAOs
 
