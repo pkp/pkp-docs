@@ -16,10 +16,10 @@ The router will look for a file at `/pages/issue/index.php` or `/lib/pkp/pages/i
 
 ```php
 switch ($op) {
-	case 'view':
-		define('HANDLER_CLASS', 'IssueHandler');
-		import('pages.issue.IssueHandler');
-		break;
+    case 'view':
+        define('HANDLER_CLASS', 'IssueHandler');
+        import('pages.issue.IssueHandler');
+        break;
 }
 ```
 
@@ -27,14 +27,14 @@ All ops for a page are usually managed by the same `Handler`. However, it is pos
 
 ```php
 switch ($op) {
-	case 'view':
-		define('HANDLER_CLASS', 'IssueHandler');
-		import('pages.issue.IssueHandler');
-		break;
-	case 'archive':
-		define('HANDLER_CLASS', 'ArchiveHandler');
-		import('pages.issue.ArchiveHandler');
-		break;
+    case 'view':
+        define('HANDLER_CLASS', 'IssueHandler');
+        import('pages.issue.IssueHandler');
+        break;
+    case 'archive':
+        define('HANDLER_CLASS', 'ArchiveHandler');
+        import('pages.issue.ArchiveHandler');
+        break;
 }
 ```
 
