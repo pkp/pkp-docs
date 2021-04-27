@@ -196,9 +196,7 @@ Advantages of Tika:
 * Tika is easier to use and install than the current OJS solution. No additional 3rd-party tools have to be installed as is now the case \(except for solr itself of course\). Plain text, HTML, MS Word \(97 and 2010\), ePub and PDF documents are supported out-of-the-box by the code that comes with the standard solr distribution. Caution: Tika does not convert PostScript files!
 * Can be deployed independently on the search server and does not need an OJS installation to work. In scenarios S3 and S4 this means considerably less infrastructure to be deployed on OJS nodes.
 * Very well tested and maintained.
-* Enables indexing of several additional source file types out-of-the-box, see [https://tika.apache.org/1.0/formats.html](https://tika.apache.org/1.0/formats.html)
-  and [https://svn.apache.org/repos/asf/tika/trunk/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml](https://svn.apache.org/repos/asf/tika/trunk/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml)
-  .
+* Enables indexing of several additional source file types out-of-the-box, see [https://tika.apache.org/1.0/formats.html](https://tika.apache.org/1.0/formats.html) and [https://svn.apache.org/repos/asf/tika/trunk/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml](https://svn.apache.org/repos/asf/tika/trunk/tika-core/src/main/resources/org/apache/tika/mime/tika-mimetypes.xml) .
 
 The only real disadvantage of Tika with respect to our requirements is that it does not support conversion of PS files. PS could be supported indirectly by first converting it to PDF locally and then submitting PDF to the solr server. It is however not clear, whether nowadays there exist OJS installations with an interest in solr that actually use Postscript as a publishing format. The advantage of solr being able to support the ePub format seems more important than the missing PS support.
 
