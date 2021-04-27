@@ -1,61 +1,68 @@
-# الفصل 6: الأعداد
+---
+book: learning-ojs
+version: 3.1
+---
 
-من القائمة اليمنى، إختر الأعداد لإدارة كل أعداد مجلتك.
+# Chapter 9: Issues
 
-![](./assets/learning-ojs3.1-jm-issues.png)
+From the left menu, select Issues to manage all of the issues for your journal.
 
-## الأعداد القادمة
+![Future Issues tab in Issues Setting.](./assets/learning-ojs3.1-jm-issues.png)
 
-الإعداد القادمة هي كل الأعداد التي لم تنشر بعد. بإمكانك إنشاء ما تريده منها لتجدول طلبات النشر إلى أي منها.
+## Future Issues
 
-### إنشاء عدد
+Future Issues are all of your unpublished issues. You can create as many of these as you wish, and schedule submissions to any of them.
 
-لإنشاء عدد جديد، استعمل رابط **إنشاء عدد** وإملأ حقول النموذج.
+### Create Issue
 
-![](./assets/learning-ojs-3-issues-create.png)
+To create a new issue, use the **Create Issue** link and fill in the form.
 
-هناك ستقوم بتحديد المجلد، رقم العدد، السنة، والعنوان \(مثلاً، العدد الخاص \#1\)، فضلاً عن الوصف وصورة الغلاف \(إن لزم الأمر\).
+![Form to create new Issue.](./assets/learning-ojs-3-issues-create.png)
 
-### تعديل العدد
+There are spaces to add volume, number, year, and title information \(e.g., Special Issue \#1\), as well as a description and a cover image \(if needed\).
 
-يمكنك تعديل أي عدد مستقبلي عبر اختيار السهم الأزرق على يمين سطر العدد من صفحة الأعداد القادمة.
+### Edit Issue
 
-![](./assets/learning-ojs3.1-jm-issues-edit.png)
+You can also edit an existing future issue by selecting the blue arrow to the left of the issue entry on the Future Issues page.
 
-هذا سيظهر رابط التعديل، حيث سيفتح نافذة جديدة من المعلومات.
+![Additional drop-down menu options for issues.](./assets/learning-ojs3.1-jm-issues-edit.png)
 
-![](./assets/learning-ojs-3-issues-details.png)
+This will reveal an Edit link, which will open a new window of information.
 
-**جدول المحتويات**: بالنسبة للعدد المنشأ حديثاً، سيكون فارغاً، ولكن بالنسبة إلى الأعداد التي تضم مقالات مجدولة للنشر، سيكون متضمناً لقائمة بها.
+![Issue Table of Contents.](./assets/learning-ojs-3-issues-details.png)
 
-استعمل السهم الأزرق المجاور لكل طلب نشر لكشف روابط تذهب بك مباشرة إلى بيانات الطلب \(المزيد عن ذلك تجده في الفصل 10\) أو لحذفه.
+**Table of Contents**: For a new issue, this will be empty, but for issues that have had submissions scheduled, they will be listed here.
 
-بإمكانك أيضاً استعمال رابط الفرز لإعادة فرز إدخالات الجدول.
+Use the blue arrow next to each submission to reveal links to go directly to the submission record \(more about this in Chapter 10\) or remove it.
 
-**بيانات العدد**: هذا يوصلك إلى المجلد، رقم العدد، وغيرها من البيانات التي أنشأت بها العدد.
+You can also use the Order link to reorder the entries.
 
-**الألواح الطباعية للعدد**: هذا يتيح لك رفع ملف اللوح الطباعي الكامل للعدد - أي ملف PDF واحد يضم كل المقالات. سيظهر له رابط على صفحة العدد.
+**Issue Data**: This provides access to the volume, issue, number data you entered when first creating the issue.
 
-**المعرفات**: إستعمل هذا الموضع لإضافة معرف المكون الرقمي DOI للعدد، إذا كانت مجلتك تدعم المعرفات على مستوى الأعداد.
+**Issue Galleys**: This allows you to upload galley of the complete issue -- e.g., one PDF containing all articles. This will be linked from the issue web page.
 
-### معاينة العدد
+**Identifiers**: Use this space to add a DOI for the issue, if your journal supports issue-level identifiers.
 
-مستعملاً نفس السهم الأزرق ستتوصل إلى رابط المعاينة، حيث يمكنك الاطلاع على العدد قبل نشره.
+### Preview Issue
 
-### نشر العدد
+Using that same blue arrow will also reveal a Preview link, letting you get a look at the issue before publishing it.
 
-إذا كنت راضياً عن ذلك العدد، أنقر رابط نشره على موقع مجلتك.
+### Publish Issue
 
-### حذف العدد
+Once you are happy with the issue hit the Publish Issue link to publish it on your journal website.
 
-يمكنك استعمال رابط الحذف للتخلص من العدد. كل المقالات المخصصة له ستعود إلى حالة انتظار النشر.
+By default, all registered users will be notified via email when a new issue is published from the list of Future Issues. To not send a notification of a new issue published, uncheck the box beside “Send notification email to all registered users” before pressing OK.
+
+### Delete Issue
+
+You can use the Delete link to remove the issue. Any assigned articles will revert to their unpublished status.
 
 <hr />
 
-## الأعداد السابقة
+## Back Issues
 
-هذا التبويب يدرج كل أعدادك المنشورة.
+This tab lists all of your published issues.
 
-![](./assets/learning-ojs3.1-jm-issues-back.png)
+![Back Issues tab in Issues Setting.](./assets/learning-ojs3.1-jm-issues-back.png)
 
-كما في الأعداد القادمة، استعمال السهم الأزرق سيكشف خيارات مماثلة لما سبق توضيحه أعلاه \(التعديل، المعاينة... إلخ.\).
+As with Future Issues, using the blue arrow will reveal similar options as described above \(Edit, Preview, etc.\).
