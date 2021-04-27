@@ -2,6 +2,7 @@
 book: learning-ojs
 version: 3.2
 ---
+
 # Journal Settings
 
 The Settings section allows you to configure your OJS installation to best meet your publishing needs.
@@ -80,7 +81,7 @@ From here, you can change the name or abbreviation of the section.
 
 **Word Count**: Use this to limit the number of words for abstracts in this section.
 
-**Section Options**: Each section can have different settings, including whether it is indexed, peer-reviewed, accepts unsolicited submission, or listed in the table of contents. 
+**Section Options**: Each section can have different settings, including whether it is indexed, peer-reviewed, accepts unsolicited submission, or listed in the table of contents.
 
 For example, an Editorial section will not typically be peer-reviewed.
 
