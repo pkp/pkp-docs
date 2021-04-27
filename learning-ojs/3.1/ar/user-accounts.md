@@ -1,152 +1,153 @@
-# الفصل 3: حسابات المستخدمين
+---
+book: learning-ojs
+version: 3.1
+---
 
-نظام المجلات المفتوحة يستعمل نظام أدوار شامل لتوزيع الأعمال بين المستخدمين، توجيه انسيابية العمل، وتقنين صلاحيات الوصول إلى أجزاء النظام.
+# Chapter 3: User Accounts
 
-بما أن تنصيباً واحداً لنظام المجلات المفتوحة يمكنه استضافة عدة مجلات، يمكن أن يكون للمستخدمين أدوار متباينة عبر تلك المجلات. على سبيل المثال، يمكن لمستخدم واحد أن يكون محرراً ومؤلفاً ضمن نفس المجلة، مع كونه مؤلفاً فقط ضمن مجلة أخرى، ومحكماً في ثالثة، ومحرراً في رابعة... وهكذا.
+OJS uses a comprehensive roles system to divide work between users, assign workflows, and limit access to different parts of the system.
 
-عندما يقوم المستخدم بتسجيل دخوله إلى النظام، يأخذه الأخير إلى لوحة القيادة. من هنا، سيقدم له النظام كل الوظائف المتاحة له. على سبيل المثال، المحكم يستطيع معاينة طلبات التقديم التي تم تعيينه لها حصراً، بينما المحرر يستطيع رؤية كل طلبات التقديم ضمن مجريات أعمال التحرير.
+Since one installation of OJS can host multiple journals, users can be enrolled in different roles for more than one journal. For example, one person could be both an editor and author for the same journal, as well as being only an author in one journal, a reviewer in another, and an editor in a third.
 
-## أدوار النظام
+When a user logs into the system, they will be taken to their Dashboard. From here, they will see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow.
 
-المخطط الانسيابي لنظام المجلات المفتوحة يتداول أدواراً مختلفة لطيف من المستخدمين، مما يسمح لهم بالوصول إلى أجزاء متباينة من ذلك المخطط، مع صلاحيات ومسؤوليات مختلفة أيضاً.
+## Roles in OJS
 
-الأدوار الرئيسية تشمل المشرف على الموقع، رئيس التحرير، مدير التحرير، محرر القسم، المؤلف، المحكم، المدقق، المحرر الطباعي، مصحح القراءة، والقارئ.
+The OJS workflow revolves around different roles for different users, allowing them access to different parts of the workflow, and different permissions and responsibilities.
 
-نظام المجلات المفتوحة 3 يحتوي أيضاً على أدوار إضافية مثل: المترجم والمصمم. بإمكانك أيضاً إنشاء أدوار جديدة أو تعديل تسمية ما موجود منها. المزيد من المعلومات عن تعريف الأدوار تتوفر في [الفصل 5](./journal-setup.md).
+Major roles include Site Administrator, Journal Manager, Editor, Section Editor, Author, Reviewer, Copyeditor, Layout Editor, Proofreader, and Reader.
 
-### المشرف على الموقع
-إن المشرف هو المسؤول عن التنصيب العام لنظام المجلات المفتوحة، ومن مسؤوليته ضمان صحة إعدادات الملقم، إضافة حزم اللغات، وإنشاء أي مجلات جديدة في ذلك التنصيب. حساب المشرف على الموقع يتم إنشاؤه كجزء من عملية التنصيب. بخلاف جميع الأدوار الأخرى في نظام المجلات المفتوحة، لا يمكن أن يكون للموقع أكثر من مشرف واحد.
+OJS 3 also includes additional roles such as Translator and Designer. You can also create new roles or rename existing ones. More information on configuring roles is available in the [Users and Roles chapter](./users-and-roles.md).
 
-أنظر [الفصل 4: الإشراف على الموقع](./site-administration.md) للمزيد من التفاصيل.
+### Site Administrator
+The Site Administrator is responsible for the overall OJS installation, ensuring the server settings are accurate, adding language files, and creating any new journals on the installation. The Site Administrator account is created as part of the installation process. Unlike all other OJS roles, there can only be one Site Administrator.
 
-### رئيس التحرير
-رئيس التحرير في المجلة مسؤول عن تهيئة موقعها، تحديد خيارات التشغيل المناسبة لها، وإدارة حسابات المستخدمين. هذا لا يتطلب أي مهارات تقنية متقدمة، بل يقتصر على تعبئة بعض النماذج ورفع بعض الملفات.
+See [Chapter 4: Site Administration](./site-administration.md) for more details.
 
-رئيس التحرير يقوم أيضاً بمنح الأدوار لمدير التحرير، ومحرري الأقسام، المدققين، المصممين الطباعيين، مصححي القراءة، المؤلفين، وأخيراً المحكمين.
+### Journal Manager
+The Journal Manager is responsible for setting up the journal web site, configuring the system options, and managing the user accounts. This does not involve any advanced technical skills, but entails filling out web-based forms and uploading files.
 
-يكون لرئيس التحرير أيضاً صلاحية الوصول إلى بعض المزايا الإدارية في المجلة، كما يمكنه إنشاء أقسام جديدة لها، تهيئة نماذج التحكيم، تعديل قوالب الرسائل البريدية المحضرة، إدارة أدوات القراءة، معاينة الإحصائيات والتقارير، وغير ذلك.
+The Journal Manager also enrolls the Editors, Section Editors, Copyeditors, Layout Editors, Proofreaders, Authors, and Reviewers.
 
-العديد من رؤساء التحرير ينخرطون في العمل بمثابة مدراء تحرير، مما يسمح لهم بسهولة التعامل مع إعدادات المجلة وكذلك معالجة طلبات التقديم ضمن مجريات أعمال التحرير.
+The Journal Manager also has access to the journal's other management features, and can create new Sections for the journal, set up Review Forms, edit the default Emails, view statistics and reports, import and export data, and access the editorial workflow and all journal submissions.
 
+See the Settings chapters for more details.
 
-> **ملاحظة**
->
-> على الرغم من كون دور رئيس التحرير لمجلة معينة هو دور مختص بتلك المجلة، إلا أن رؤساء تحرير المجلات في الموقع يعتبرون مستخدمين موثوقين على مستوى الموقع بالكامل، بما أن لهم قابلية التكهن بهوية المستخدمين الآخرين الذين قد تكون لهم أدوار في تلك المجلات.
->
+### Author
 
-أنظر [الفصل 5: تهيئة المجلة](./journal-setup.md) للمزيد من التفاصيل.
+Authors are able to submit manuscripts to the journal directly through the journal's website. The Author is asked to upload submission files and to provide metadata or indexing information (the metadata improves the search capacity for research online and for the journal). The Author can upload multiple files, in the form of data sets, research instruments, or source texts that will enrich the item, as well as contribute to more open and robust forms of research and scholarship.
 
-### المؤلف
+The Author is able to track the submission through the review and editorial process — as well as participate in the copyediting and proofreading of submissions accepted for publication — by logging in to the journal's website.
 
-المؤلفون يمكنهم تقديم المؤلفات إلى المجلة بشكل مباشر عبر موقعها. تتم مطالبة المؤلف برفع ملفات التقديم فضلاً عن توفير البيانات الوصفية أو معلومات الفهرسة لها (البيانات الوصفية تعزز إمكانيات البحث عن الأبحاث والمقالات المنشورة على الإنترنت بالنسبة إلى المجلة). يمكن للمؤلف رفع ملفات متعددة، وبشكل جداول بيانات، أدوات بحثية، أو مصادر نصية من شأنها إغناء مقالته، وكل ذلك من أجل الإسهام بنتاج علمي وبحثي يتميز بالأصالة والانفتاح.
+See the [Authoring chapter](./authoring.md) for more details.
 
-يمكن للمؤلف تتبع طلبه خلال مرحلتي التحكيم والتحرير — كما له أن يشارك في أعمال التدقيق والقراءة التصحيحية لأعماله المقبولة للنشر — عبر تسجيل دخوله إلى موقع المجلة.
+### Editor
 
-أنظر [الفصل 10: التأليف](./authoring.md) للمزيد من التفاصيل.
+The Editor oversees the entire review, editing and publishing process. The Editor, working with the Journal Manager, typically establishes the policies and procedures for the journal.
 
-### مدير التحرير
+In the editorial process, the Editor assigns submissions to the Section Editors to see through Submission Review and Submission Editing. The Editor keeps an eye on the submission's progress and assists with any difficulties.
 
-مدير التحرير لديه نظرة شمولية على مهام التحكيم، التحرير، والنشر. إنه يعمل مع رئيس التحرير لوضع السياسات ورسم ملامح الإجراءات في المجلة.
+Once review is completed, the Editor typically sees the submission through the Editing process (including copyediting, production, and proofreading) although in some journals this remains the responsibility of the Section Editor in charge of the submission's review process.
 
-خلال عملية التحرير، يقوم مدير التحرير بتعيين طلبات التقديم إلى محرري الأقسام في المجلة لتمشية متعلقات التحكيم وما بعدها من متعلقات التحرير. مدير التحرير يراقب تطورات العمل عن كثب ويقدم العون حيثما تطرأ المشاكل والمعوقات.
+The Editor also creates the journal issues, schedules submissions for publication, arranges the Table of Contents, and publishes the issue as part of the Publishing Process. The Editor can restore archived submissions to the active In Review or In Editing lists.
 
-بمجرد إكتمال التحكيم، يتولى مدير التحرير متابعة طلب النشر في مراحل التحرير اللاحقة (بضمنها التدقيق، الإنتاج، والقراءة التصحيحية) رغم أن تلك المهام في بعض المجلات قد تبقى على عاتق محرري الأقسام المسؤولين عن طلبات التقديم المعينين لها.
+Editors can also access journal settings, users and roles, and tools.
 
-يقوم مدير التحرير أيضاً بإنشاء أعداد المجلة، جدولة طلبات التقديم للنشر، إعداد جدول المحتويات، وأخيراً نشر العدد باعتباره جزءً من عملية التحرير. يمكن لمدير التحرير أيضاً استعادة طلبات النشر المحفوظة وإدراجها ضمن طابور التحكيم أو التحرير.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
-العديد من مدراء التحرير يكونون أيضاً رؤساء تحرير في مجلاتهم، مما يتيح لهم بسهولة إدارة مجريات التحرير والتحكم بإعدادت المجلة في آنٍ واحد.
+### Section Editor
 
-أنظر [الفصل 11: المخطط الانسيابي للتحرير](./editorial-workflow.md) للمزيد من التفاصيل.
+The Section Editor manages the review and editing of submissions to which they have been assigned. In some cases, a Section Editor who is assigned to see submissions through the Review Process will also be responsible for seeing the submissions that are accepted through the Editing process (that is, through copyediting, production, and proofreading).
 
-### محرر القسم
+Often, however, Section Editors only work with the review process, and an Editor, acting in the role of Section Editor, sees the submissions through the Editing process. The journal will have a policy on how the tasks are divided.
 
-محرر القسم يدير متعلقات التحكيم وأمور التحرير بالنسبة إلى طلبات التقديم التي يجري تعيينه لها. في بعض الأحيان، محرر القسم الذي يتولى متابعة إجراءات التحكيم سيكون متكفلاً أيضاً بأعمال التحرير اللاحقة فيما لو حصل الطلب على القبول (أي خلال مراحل التدقيق، الإنتاج والقراءة التصحيحية).
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
-مع ذلك، عادة ما يعمل محررو الأقسام ضمن مرحلة التحكيم، بينما يتكفل مدير التحرير بباقي الإجراءات ضمن عملية التحرير. بالطبع، الأمر تابع لسياسة توزيع المهام على طاقم التحرير في المجلة.
+### Reviewer
 
-أنظر [الفصل 11: المخطط الانسيابي للتحرير](./editorial-workflow.md) للمزيد من التفاصيل.
+The Reviewer is selected by the Editor or Section Editor to review a submission. Reviewers are asked to submit reviews to the journal's website and are able to upload attachments for the use of the Editor and Author. Reviewers may be rated by Section Editors, again depending on the policies for this journal.
 
-### المحكم
+See the [Reviewing chapter](./reviewing.md) for more details.
 
-المحكم يتم انتخابه من قبل مدير التحرير أو محرر القسم لتحكيم طلب التقديم. المحكمون يطلب منهم تقديم توصياتهم عبر موقع المجلة وينبغي أن يكونوا قادرين على رفع المرفقات لصالح المحرر والمؤلف. قد يصار إلى تقييم المحكمين من قبل محرري الأقسام، أيضاً بالاعتماد على سياسات عمل المجلة.
+### Copyeditor
 
-أنظر [الفصل 12: التحكيم](./reviewing.md) للمزيد من التفاصيل.
+The Copyeditor edits submissions to improve grammar and clarity, works with authors to ensure everything is in place, ensures strict adherence to the journal's bibliographic and textual style, and produces a clean, edited copy for a Layout Editor or Production Assistant to turn into the galleys that will be in the published format of the journal.
 
-### المدقق
+Some journals have an Editor or Section Editor play this role.
 
-المدقق يراجع المقالات لتحسين محتواها قواعدياً وبلاغياً، وهو يعمل مع المؤلف ليضمن بقاء كل شيء في محله، مع الحرص على اتباع المنحى النصي الخاص بالمجلة، من أجل الخروج بنسخة نظيفة قابلة للتعديل لصالح المحرر الطباعي أو مساعد الإنتاج، وبالتالي تحويل المؤلَّف إلى ألواح طباعية وفقاً للتنسيق الذي تتبعه المجلة عند النشر.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
-بعض المجلات يقوم فيها مدير التحرير أو محرر القسم بلعب هذا الدور.
+### Layout Editor
 
-أنظر [الفصل 11: المخطط الانسيابي للتحرير](./editorial-workflow.md) للمزيد من التفاصيل.
+The Layout Editor transforms the copyedited versions of the submission into galleys in HTML, PDF, XML, etc. -- files which the journal has elected to use for online publication.
+> Note
+> 
+> OJS does not currently provide software for automatically converting word processed documents to galley formats (although a project is in development), so the Layout Editor should have access to and be able to use third-party software packages for creating galleys.
 
-### المحرر الطباعي
+In some cases, the Editor or Section Editor will also serve as Layout Editor.
 
-هو من يقوم بتحويل النسخة المدققة من العمل إلى ألواح طباعية بصيغ ملفات HTML، PDF، XML... إلخ. - والتي عادة ما تنتخبها المجلات لأغراض النشر عبر الإنترنت.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
->ملاحظة
->
->نظام المجلات المفتوحة لا يمتلك حالياً البرنامج الذي يقوم تلقائياً بتحويل ملفات بصيغة مستندات word إلى ألواح طباعية بصيغ أخرى، (إلا أن هناك مشروعاً جارياً بهذا الصدد)، ولهذا لا بد لمصمم الألواح الطباعية من الوصول إلى تلك الملفات واستعمال برامجيات خارجية لصناعتها.
->
+### Proofreader
 
-في بعض الأحيان، يمكن للمحرر أو لمحرر القسم أن يتوليا مهمة المحرر الطباعي.
+The Proofreader carefully reads over the galleys in the various formats in which the journal publishes (as does the author). The Proofreader (and the Author) record any typographic and formatting errors for the Layout Editor to fix.
 
-أنظر [الفصل 11: المخطط الانسيابي للتحرير](./editorial-workflow.md) للمزيد من التفاصيل.
+In the case of some journals, the Editor or Section Editor will also serve as Proofreader.
 
-### المصحح
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
-المصحح يقرأ الألواح الطباعية بعناية وبصيغها المختلفة التي تنشرها المجلة (كما يفعل ذلك المؤلف). يسجل المصحح (والمؤلف) أي أخطاء طباعية أو تنسيقية من أجل أن يقوم المحرر الطباعي بتصحيحها.
+### Reader
 
-في بعض المجلات، يقوم مدير التحرير أو محرر القسم بتأدية مهمة المصحح.
-
-أنظر [الفصل 11: المخطط الانسيابي للتحرير](./editorial-workflow.md) للمزيد من التفاصيل.
-
-### القارئ
-
-دور القارئ هو أبسط الأدوار في نظام المجلات المفتوحة، ولديه أقل الإمكانيات المتاحة. يتلقى القراء إشعارات بريدية عند نشر أي عدد، تتضمن جدول المحتويات الخاص بذلك العدد.
+The Reader role is the simplest role in OJS, and has the fewest capabilities. Readers receive a notification email with the publication of each issue, which includes the Table of Contents for that particular issue.
 
 <hr />
 
-## التسجيل في مجلة
+## Registering with a Journal
 
-الزوار غير المسجلين في موقع المجلة يمكنهم بطبيعة الحال التسجيل بصفة قراء، مؤلفين، و/أو محكمين. رئيس التحرير يمكنه منع الزوار من ميزة التسجيل الذاتي، وعند ذلك، ستظهر على الموقع ملحوظة تشير إلى أن التسجيل فيه معلق حالياً (أنظر إعدادات المجلة)، لكن يمكن لرؤساء التحرير تسجيل المستخدمين دائماً وفي أي وقت ومنحهم أي أدوار.
+Unregistered visitors to a journal can normally register as a Reader, Author, and/or Reviewer. Journal Managers are able to remove the ability for visitors to self-register, in which case a notice will appear stating that registration is currently closed (see Journal Settings), but Journal Managers can always register users at any time, and for any role.
 
-للتسجيل في مجلة، أنقر رابط التسجيل في الزاوية العليا اليسرى.
+To register with a journal, click the Register link on the upper right corner.
 
 ![](./assets/learning-ojs-3-registration.png)
 
-هذا من شأنه أن يفتح نموذج التسجيل لإكمال ما يتضمنه من حقول.
+This will open the Registration Form for you to complete with all required information.
 
 ![](./assets/learning-ojs-3-registration-form.png)
 
-كل الحقول المعلمة بنجمة هي حقول إجبارية (الاسم الأول، الاسم الأخير، الانتماء، البلد، البريد الالكتروني، اسم المستخدم، كلمة المرور مع إعادتها). إذا كانت المجلة متعددة اللغات، سيكون عليك اختيار لغتك المفضلة.
+All fields with an asterisk (First Name, Last Name, Affiliation, Country, Email, Username, Password, Repeat Password) are mandatory. If the journal is multilingual, you will need to select your preferred language.
 
-سيتم تسجيلك تلقائياً بمثابة قارئ ومؤلف. سيكون لك خيار التسجيل بمثابة محكم أيضاً.
+You will be automatically registered as a Reader and an Author. You will be given the option to register as a Reviewer as well.
 
-لكن لن يكون متاحاً لك التسجيل في أدوار التحرير (أي، مدير التحرير، محرر القسم، المدقق، المحرر الطباعي، المصحح، أو رئيس التحرير). إذا كنت تريد الحصول على أدوار من هذا المستوى، راسل رئيس التحرير الحالي للمجلة أو المشرف على موقعها.
+You will not be able to self-register for an Editorial Role (e.g., Editor, Section Editor, Copyeditor, Layout Editor, Proofreader, or Journal Manager). If you need to be enrolled at that level, contact a current Journal Manager or Site Administrator.
 
 <hr />
 
-## معاينة ملفك الشخصي وتعديله
+## Viewing and Changing your Profile
 
-لمعاينة ملفك الشخصي وتعديله، سجل دخولك في الموقع وانقر على رابط اسم المستخدم في الزاوية العليا اليسرى. إختر رابط معاينة الملف الشخصي.
+To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
 
 ![](./assets/learning-ojs3.1-ed-view-profile.png)
 
-من هنا، وعبر التنقل بين علامات التبويب المختلفة، يمكنك تعديل معلوماتك الشخصية، معلومات الاتصال، تغيير أدوارك، إضافة صورتك الشخصية \(حيث أن بعض المجلات تقوم بنشرها مع أعمالك أو ضمن قائمة المحررين\)، تحديد إعدادات إشعاراتك، أو تغيير كلمة مرورك.
+From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image \(which some journals may publish along with your article or on a list of editors\), determine your notification settings, or update your password.
 
-إن علامة التبويب API ضمن صفحة الملف الشخصي تسمح للمستخدم في نظام المجلات المفتوحة بالاستفادة من خدمة REST API للتعامل مع تطبيقات خارجية. مع ذلك، معظم المستخدمين لن يبادروا إلى استعمال API ويمكن لهم تجاهل علامة التبويب تلك.
+Under **Notifications**, you can configure what kinds of notifications you receive from the journal when events occur, such as a new journal issue is published or there is activity on a submission you're involved in.
+* Check off "Enable these types of notifications" if you want to see a notification of this event on your dashboard when you log in to the site
+* Check off "Do not send me an email for these types of notifications" if you do not want to receive an email notification about this event
 
-## إعادة تعيين كلمة مرورك
+![](./assets/learning-ojs-3-user-notifications.png)
 
-يمكنك إعادة تعيين كلمة مرورك عبر:
+The **API tab** on the user profile allows you to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
 
-1. تسجيل الدخول إلى الموقع
-2. إختيار اسم دخولك ومعاينة ملفك الشخصي من الزاوية العليا اليسرى من الشاشة
-3. إختيار علامة التبويب الخاصة بكلمة المرور
-4. إدخال كلمة مرورك الحالية، من ثم كلمة المرور الجديدة مرتين
-5. النقر على حفظ
+## Resetting your Password
+
+You can reset your password by:
+
+1. Logging into the journal
+2. Selecting your username and View Profile from the upper right corner of the screen
+3. Choosing the Password tab
+4. Entering your current password and then your new password twice
+5. Hitting Save
 
 ![](./assets/learning-ojs3.1-ed-change-pw.png)
 
-كلمة مرورك قد تغيرت الآن.
+Your password is now changed.
