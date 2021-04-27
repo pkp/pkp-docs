@@ -1,3 +1,3 @@
-# Manuel pour Administrateur de PKP
+# PKP Administrator Guide
 
-Le guide de l'administrateur PKP fournit des conseils sur l'administration des applications PKP, dont Open Journal Systems (OJS), Open Monograph Press (OMP) et Open Conference Systems (OCS). Il est écrit  par et pour les administrateurs de système - ceux qui sont responsables de l'installation, la mise à niveau et la maintenance générale du système.
+The PKP Administrator Guide provides guidance for administering PKP applications, including Open Journal Systems \(OJS\), Open Monograph Press \(OMP\) and Open Conference Systems \(OCS\). It is written by and for systems administrators - those who are responsible for the installation, upgrading and general maintenance of the system.
