@@ -104,10 +104,8 @@ To reset an Administrator’s password, follow these steps:
 
 * Determine the user ID.
   * A user ID can be fetched from the database using one of the following SQL statements:
-    * If you have an email address for the user (e.g. pkpsupport@sfu.ca):
-    `SELECT user_id FROM users WHERE email = 'pkp-support@sfu.ca';`
-    * If you have a username (e.g. admin):
-    `SELECT user_id FROM users WHERE username = 'admin';`
+    * If you have an email address for the user (e.g. pkpsupport@sfu.ca): `SELECT user_id FROM users WHERE email = 'pkp-support@sfu.ca';`
+    * If you have a username (e.g. admin): `SELECT user_id FROM users WHERE username = 'admin';`
 * Determine the password encryption method. See the encryption setting in the `[security]` section of the config.inc.php configuration file. This will be sha1 or md5.
 * Execute the following SQL to reset the password. For example, for user ID 15 with md5 encryption, to reset the password to “newPasswordHere”: `UPDATE users SET password=MD5(CONCAT(username, 'newPasswordHere')) WHERE user_id = 15;`
 
