@@ -30,7 +30,7 @@ The Peer Review section is split into different components:
 
 * **Review Guidelines**: These instructions will be available to reviewers at the time of review. They should be clear, detailed step-by-step instructions for your reviewers.
 
-**Figure: Review Guidelines**  
+**Figure: Review Guidelines**
 
 
 ![Review Guidelines](images/chapter5/five_steps/guidelines.png)
@@ -84,9 +84,9 @@ Check this box to add all co-authors to the include list when an Editor sends a 
 
 
 
-If you wish to add more information to the "About the Journal" section, this section allows you to enter content. Multiple entries are permitted, using the Add About Item button.  
+If you wish to add more information to the "About the Journal" section, this section allows you to enter content. Multiple entries are permitted, using the Add About Item button.
 
-  
+
 
 ![Add Item](images/chapter5/five_steps/add_item.png)
 
