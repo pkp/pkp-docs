@@ -4,7 +4,7 @@ Additional metadata standards can be implemented using Metadata plugins.
 
 NLM, OpenURL, Dublin Core and MODS are installed with OJS.
 
-![Metadata Plugin](images/chapter5/plugin_metadata.png)  
+![Metadata Plugin](images/chapter5/plugin_metadata.png)
 
 
 
