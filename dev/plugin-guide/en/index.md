@@ -11,8 +11,9 @@ This document describes how to create your own plugins for OJS and OMP. It is wr
 
 Plugins add features by hooking in and modifying how the application responds to requests. Plugins can add fields to forms, change templates, save new information, modify authentication procedures, create new pages or change existing screens in the application.
 
-> If you want to make a new design for your journal or press, please consult the [Theming Guide](/pkp-theming-guide/en).
-{:.notice}
+> If you want to make a new design for your journal or press, please consult the [Theming Guide](/pkp-theming-guide/en). 
+> 
+> {:.notice}
 
 Plugins keep your customizations isolated from the main application code. When you update OJS or OMP, your plugin's code will not be modified. This makes it easier to maintain customizations over time.
 
