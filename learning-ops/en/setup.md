@@ -2,6 +2,7 @@
 book: learning-ops
 version: 3.3
 ---
+
 # Setting up and Maintaining Your Server
 
 ## Server Settings
@@ -28,7 +29,7 @@ The **Description** provides an overview of the preprint server and appears on t
 
 ![](./assets/learning-ops-server-settings-server-team.png)
 
-Note that the terminology may be different for OPS, with some slight modifications. For example, a Moderator would be the equivalent of a Journal Manager and a Preprint server library is equivalent to the Publisher Library. 
+Note that the terminology may be different for OPS, with some slight modifications. For example, a Moderator would be the equivalent of a Journal Manager and a Preprint server library is equivalent to the Publisher Library.
 
 ### Contact
 
@@ -134,8 +135,7 @@ This section helps you enhance your search engine optimization and make your con
 
 ![](./assets/learning-ops-distribution-settings-search-indexing.png)
 
-Use **Description** to provide a brief description of your server for search engines.
-Use **Custom Tags** to add custom HTML header tags to the header of every page of your server, which can help your site get indexed by search engines. Tags need to be added as HTML elements. If you simply enter words they will appear at the top of every page of your site instead of in the site’s metadata. Here is an example of text that could be entered in this field:
+Use **Description** to provide a brief description of your server for search engines. Use **Custom Tags** to add custom HTML header tags to the header of every page of your server, which can help your site get indexed by search engines. Tags need to be added as HTML elements. If you simply enter words they will appear at the top of every page of your site instead of in the site’s metadata. Here is an example of text that could be entered in this field:
 
 ```xml
 <meta name="description" content="Public Knowledge Preprint Server" />
