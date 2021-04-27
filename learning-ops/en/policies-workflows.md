@@ -2,6 +2,7 @@
 book: learning-ops
 version: 3.3
 ---
+
 # Developing Policies and Workflows
 
 Before setting up your preprint server, it is recommended that you decide what policies and workflows you want to use. This will determine how you configure the settings and what you communicate to authors and readers. This chapter outlines the areas to consider in establishing policies and workflows.
