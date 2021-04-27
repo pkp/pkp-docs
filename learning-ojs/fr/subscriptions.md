@@ -1,132 +1,150 @@
 ---
-book: apprendre-ojs
-version: 3.2
+book: learning-ojs
+version: 3.3
 ---
 
-# Abonnements
+# Subscriptions
 
-OJS vous permet de restreindre l'accés à tout ou juste une partie de votre contenu aux abonnés. Pour activer les Abonnements, accédez d'abord à [Paramètres > Distribution > Accès](./settings-distribution.md) .
+OJS allows you to restrict some or all of your content to subscribers. To enable Subscriptions, first go to [Settings > Distribution > Access](./settings-distribution.md).
 
-## Politiques d'abonnement
+## Subscription Policies
 
-Remplissez les détails de vos politiques d'abonnement sur cette page.
+Fill in details about your subscription policies on this page.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-policies.png)
 
-- **Responsable des Abonnements**: ajoutez les détails personnels de la personne responsable.
-- **Renseignement sur l' Abonnement**: ajoutez des détails des règles à afficher sur le site Web de la revue.
-- **Échéance de l'Abonnement**: déterminez si les anciens abonnés doivent continuer à avoir accès au contenu plus ancien.
-- **Rappel de l'échéance de l''Abonnement**: configurez des rappels de renouvellement automatisés.
-- **Avis de Paiement en Ligne**: tenez le/la Directeur/trice d'Abonnement informé-e des activités de paiement.
-- **Options pour le libre accès pour les revues sous abonnement**: Sélectionnez le nombre de mois actuels pour lesquels vous souhaitez restreindre l'accès. Le contenu plus ancien sera automatiquement ouvert.
+- **Subscription Manager**: Add personal details for the responsible person.
+- **Subscription Information**: Add policy details to display on the journal website.
+- **Subscription Expiry**: Determine whether past subscribers should continue to have access to older content.
+- **Subscription Expiry Reminder**: Configure automated renewal reminders.
+- **Online Payment Notifications**: Keep the Subscription Manager informed of payment activities.
+- **Open Access Options for Subscription Journals**: If appropriate select the number of current months for restricting access. Older content will be automatically made open.
 
-## Types d'Abonnement
+## Subscription Types
 
-La prochaine étape de la configuration de la gestion des abonnements consiste à désigner les types d'abonnements proposés par la revue.
+The next step in setting up subscription management is to designate the types of subscriptions the journal offers.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-types.png)
 
-Les revues proposent généralement les prix pour des abonnements individuels et des abonnements institutionnels. Certaines revues peuvent proposer des offres spéciales aux membres d'une organisation ou aux étudiants. OJS soutiendra la gestion des abonnements imprimés et/ou en ligne. Plus d'un type d'abonnement peut être créé pour couvrir des périodes plus longues (12 mois, 36 mois).
+Journals typically offer individual subscription and institutional subscription rates. Some journals may have special offers for members of an organization or students. OJS will support the management of print and/or online subscriptions. More than one type of subscription can be created to cover longer periods of time (12 months, 36 months).
 
-Sélectionnez **Créer un Nouveau Type d'Abonnement** pour en ajouter un nouveau.
+Select **Create New Subscription Type** to add a new one.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-types-create.png)
 
-- **Nom du Type**: donnez à ce nouveau type d'abonnement un nom unique (par exemple, étudiant).
-- **Description**: Fournissez une brève description qui apparaîtra sur le site Web.
-- **Coût**: sélectionnez le type de devise et le montant.
-- **Format** : choisissez le format approprié (par exemple, en ligne).
-- **Durée**: entrez le nombre de mois que ce type d'abonnement couvrira (par exemple, 12).
-- **Abonnements**: indiquez si ce type couvre les individus ou les institutions.
-- **Options** : sélectionnez les options appropriées (si il y en a).
+- **Name of Type**: Give this new subscription type a unique name (e.g., Student).
+- **Description**: Provide a brief description that will appear on the website.
+- **Cost**: Select the currency type and amount.
+- **Format**: Choose the appropriate format (e.g., Online).
+- **Duration**: Enter the number of months this type of subscription will cover (e.g., 12).
+- **Subscriptions**: Indicate whether this type covers individuals or institutions.
+- **Options**: Select the appropriate options (if any).
 
-## Types de Paiement
+## Payment Types
 
-Si vous ne l'avez pas déjà fait, allez dans [Paramètres > Distribution > Paiements](./settings-distribution.md) et définissez la devise et le mode de paiement appropriés (par exemple, PayPal).
+If you haven't already done so, go to [Settings > Distribution > Payments](./settings-distribution.md) and set the appropriate currency and payment method (e.g., PayPal).
 
-Utilisez cette page pour définir les montants facturés pour différents types de frais.
+Use this page to set the amounts charged for various types of fees.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-paytypes.png)
 
-### Frais de publication pour un article
+### Author Fees
 
-Si vous souhaitez facturer des frais de traitement d'article (Article Processing Charge -- APC) aux auteurs, saisissez le montant ici. Activer les frais d'auteur vous permettra de demander des frais de traitement d'article une fois le processus d'évaluation terminé. Lorsque l'article est accepté par l'éditeur/trice, l'éditeur/trice aura la possibilité d'exiger un paiement. Cela entraînera la réception d'une notification par l'auteur dans OJS et d'un email, qui le dirigera tout au long du processus de paiement.
+If you want to charge an article processing charge (APC) to authors, enter the amount here. Enable Author Fees will allow you to request an article processing charge after the review process has been completed. When the article is accepted by the editor, the editor will have the option to require payment. This will result in the author receiving a notification in OJS and an email, which will direct them through the payment process.
+
+Note that the option to notify authors about the Author Fee will appear only when the payment details (PayPal account details or manual PayPal instructions) have been completed in [Settings > Distribution > Payments](./settings-distribution#payments).
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
 
-### Frais de Lecture
+Authors will be required to login to the journal before being directed to PayPal to process payment.
 
-Si vous souhaitez facturer des frais pour accéder à des articles et numéros individuels, vous pouvez saisir ici les prix des articles et numéros.
+### Reader Fees
 
-Vous pouvez appliquer les frais aux fichiers PDF uniquement en cochant " Limiter l'accès uniquement aux articles et numéros en format PDF".
+If you want to charge fees to access individual articles and issues, you can enter the prices for articles and issues here.
 
-Notez que pour vendre l'accès à un numéro, vous devrez télécharger une épreuve de numéros.
+You can apply the fees to PDF files only by checking off "Only Restrict Access to PDF version of issues and articles".
 
-### Frais Généraux
+Note that in order to sell access to an issue, you will need to upload an issue galley.
 
-Utilisez cela pour facturer d'autres frais, tels que les adhésions.
+### General Fees
 
-## Paiements
+Use this to charge other fees, such as memberships.
 
-Au fur et à mesure que divers paiements sont reçus, ils seront répertoriés sous cet onglet.
+## Payments
 
-<hr>
+As various payments are received, they will be listed under this tab.
 
-## Abonnements Individuels
+Only payments made through PayPal will be recorded here.
 
-Tous les types d'abonnements individuels apparaîtront ici.
+## Individual Subscriptions
+
+All types of individual subscriptions will appear here.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-indiv.png)
 
-Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un Nouvel Abonnement. Cependant, vous devrez d'abord créer un nouveau compte pour cette personne sous Utilisateurs et Rôles (voir le [Chapitre Comptes d'Utilisateurs](./user-accounts) ). Une fois que cela est fait, vous pouvez rechercher le compte ici et appliquer les différentes configurations.
+You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for that person under Users & Roles (see [the User Accounts chapter](./user-accounts)). Once that is done, you can search for the account here, and apply the different configurations.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-indiv-create.png)
 
-**Type d'Abonnement**: sélectionnez le type approprié pour ce nouvel abonné (par exemple, étudiant) et son statut (par exemple, actif).
+**Subscription Type**: Select the appropriate type for this new subscriber (e.g., Student) and its status (e.g., Active).
 
-> Les Types d'Abonnement ont été configurés plus tôt dans ce chapitre.
+> Subscription Types were configured earlier in this chapter.
 
-**Date**: définissez les dates de début et de fin de cet abonnement.
+**Date**: Set the start and end dates for this subscription.
 
-**Adhésion**: si l'abonné est associé à des adhésions pertinentes, ajoutez ces informations ici (facultatif).
+**Membership**: If the subscriber is associated with any relevant memberships, add that information here (optional).
 
-**Numéro de Référence**: si l'abonnement est associé à un numéro de référence pertinent (tel qu'un numéro de facture pour le paiement), ajoutez ces informations ici (facultatif).
+**Reference Number**: If the subscribe is associated with any relevant reference number (such as an invoice number for payment), add that information here (optional).
 
-**Notes**: Si vous avez des notes pertinentes à ajouter, enregistrez-les ici (facultatif).
+**Notes**: If you have any relevant notes to add, record that information here (optional).
 
-<hr>
+## Institutional Subscriptions
 
-## Abonnements Institutionnels
-
-Tous les types d'abonnements institutionnels apparaîtront ici.
+All types of institutional subscriptions will appear here.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-instit.png)
 
-Les abonnements institutionnels sont gérés de la même manière que les abonnements individuels, mais sont utilisés pour les bibliothèques, les instituts de recherche et autres organisations qui s'abonnent à votre revue.
+Institutional subscriptions are managed similarly to individual subscriptions, but are used for libraries, research institutes, and other organizes that subscribe to your journal.
 
-Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un nouvel abonnement. Cependant, vous devrez d'abord créer un nouveau compte pour la personne qui le point de contact avec l'institution sous Utilisateurs et Rôles (voir le [Chapitre Comptes d'Utilisateurs](./user-accounts) ). Une fois que cela est fait, vous pouvez rechercher le compte ici et appliquer les différentes configurations.
+You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for the institution's contact person under Users & Roles (see [the User Accounts chapter](./user-accounts)). Once that is done, you can search for the account here, and apply the different configurations.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-instit-create.png)
 
-- **Type d'Abonnement**: sélectionnez le type approprié pour ce nouvel abonné (par exemple, Bibliothèque) et son statut (par exemple, Actif). (Les types d'abonnement ont été configurés plus tôt dans ce chapitre.)
-- **Date**: définissez les dates de début et de fin de cet abonnement.
-- **Nom de l'Institution**: Ajoutez le nom de l'institution pour cet abonnement (par exemple, Bibliothèque de l'Université Simon Fraser).
-- **Adresse de Courrier**: ajoutez l'adresse de l'institution.
-- **Domaine**: les lecteurs provenant d'un ordinateur avec ce domaine recevront automatiquement l'accès (par exemple, sfu.ca). Cela s'appliquera aux utilisateurs sur le campus.
-- **Plage d'Adresses IP**: l'établissement peut vous fournir des gammes d'adresses IP. Les lecteurs utilisant un ordinateur dans cette gamme d'adresses IP recevront automatiquement l'accès. Chaque gamme IP doit être saisie comme une nouvelle ligne.
+- **Subscription Type**: Select the appropriate type for this new subscriber (e.g., Library) and its status (e.g., Active). (Subscription Types were configured earlier in this chapter.)
+- **Date**: Set the start and end dates for this subscription.
+- **Institution**: Add the name of the institution for this subscription (e.g., Simon Fraser University Library).
+- **Mailing Address**: Add the address of the institution.
+- **Domain**: Readers coming from a computer with this domain will automatically receive access (e.g., sfu.ca). This will apply to on-campus users.
+- **IP Ranges**: The institution may provide you with IP ranges. Readers using a computer in this IP range will automatically receive access. Each IP range should be entered as a new line.
 
 ![](./assets/learning-ojs3.2-jm-subscriptions-instit-IP.png)
 
-- **Notes**: Si vous avez des notes pertinentes à ajouter, enregistrez-les ici (facultatif).
+- **Notes**: If you have any relevant notes to add, record that information here (optional).
 
-## Bloc d'Abonnement
+## Payment Notifications
 
-Lorsqu'un utilisateur a accès à un site ou à son contenu via un abonnement, les informations de l'abonné fournissant l'accès peuvent être affichées dans la barre latérale. La fonction de Bloc d'Abonnement doit être sélectionnée pour être affichée dans Paramètres du Site Web > Apparence > Gestion de la barre latérale.
+### Manual payment notifications
 
-## Définir les Articles à Accès Ouvert
+With a manual payment notification, once this information is filled out the subscription manager is notified via email that a manual payment has been made. Since the sandbox is restricted from sending emails any tests that you would do would not send an email as it normally does.
 
-Si vous souhaitez définir certains articles comme Accès Ouvert, cela peut être fait en allant à **Numéros** dans le menu de gauche. Si vous souhaitez cela définir avant de publier le numéro, cliquez sur l'onglet Futur suivi de la flèche bleue à côté du numéro.
+These manual subscriptions will also be recorded in the Payment > Individual or Institutional tab. The example below shows a test subscription.
 
-Sous la Table des Matières, cochez les articles qui seront définis comme Accès Ouvert.
+From here the subscription manager can update the status as needed based on your workflow.
+
+![](./assets/learning-ojs3.2-subs-manual-notification.png)
+
+### PayPal payment notifications
+
+When a payment has been processed through PayPal the account administrator for your PayPal account will receive notification of payment. The payment will also be recorded in the Payment tab in Payments > Payment.
+
+## Subscription Block
+
+When a user is being provided access to a site or its content via a subscription, the information of the subscriber providing access can be displayed in the sidebar. The Subscription Block feature must be selected for display in Website Settings > Appearance > Sidebar Management.
+
+## Setting Articles as Open Access
+
+If you would like to set certain articles as Open Access, this can be done by going to **Issues** on the left menu. If you would like to set it before publishing the issue, click the Future tab followed by the blue arrow beside the Issue.
+
+Under the Table of Contents, check off the articles that will be set as Open Access.
 
 ![](./assets/learning-ojs3.2-jm-subscriptions-single-article.png)
