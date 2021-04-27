@@ -2,6 +2,7 @@
 book: crossref-ojs-manual
 version: 3.2
 ---
+
 # PKP as Sponsoring Organization
 
 As a Crossref Sponsoring Organization, PKP can also act as sponsor and representative for other journals to join Crossref through PKP. Journals from low-income countries may be eligible for sponsorship, allowing these journals to become Crossref members and deposit DOIs into the Crossref system at no cost.
@@ -58,7 +59,7 @@ Organizations from the following countries (who are in the [Low Income Country](
 - Zambia (LMC)
 - Zimbabwe (LIC)
 
-For further eligibility criteria and any other information, [contact us](mailto:pkp.contact@gmail.com). If you believe your journal meets the PKP Sponsorship requirements and you'd like to submit an eligibility form, you can [click here to fill one out](http://goo.gl/forms/2mme6t19OBp79ezp2). If your journal does not meet these criteria, please review Crossref's [list of sponsors](https://www.crossref.org/membership/about-sponsors/ ) to locate a sponsor that might be a better fit.
+For further eligibility criteria and any other information, [contact us](mailto:pkp.contact@gmail.com). If you believe your journal meets the PKP Sponsorship requirements and you'd like to submit an eligibility form, you can [click here to fill one out](http://goo.gl/forms/2mme6t19OBp79ezp2). If your journal does not meet these criteria, please review Crossref's [list of sponsors](https://www.crossref.org/membership/about-sponsors/) to locate a sponsor that might be a better fit.
 
 ## PKP Publishing Services clients
 
