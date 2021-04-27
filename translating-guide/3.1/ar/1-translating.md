@@ -1,193 +1,117 @@
-مقدمة
-=====
+---
+book: translating-guide
+version: 3.1
+---
 
-نظام المجلات المفتوحة ونظام المؤتمرات المفتوحة هما نظامان متعددا اللغات، مما يسمح للمجلات والمؤتمرات بإدارة النشر بلغات متعددة. إن مشروع المعرفة العامة يهدف إلى دعم الترجمات باللغات الإنجليزية، الفرنسية، الإسبانية، والبرتغالية لكل من نظام المجلات المفتوحة ونظام المؤتمرات المفتوحة. فضلاً عن ذلك، المزيد من حزم الترجمات ولكلا النظامين قد أضيفت إليهما من قبل مساهمات المجتمع، ونحن نرحب بها في أي وقت.
-
-كل النص الذي تراه في واجهة النظامين في في الواقع مستخلص عبر برامجيات خاصة تسترجع النصوص من ملفات متعددة بصيغة XML متخصصة بكل لغة. هذه الملفات يمكن أن تتواجد في مجلدات مسماة وفقاً لترميزات متوافقة مع التسميات القياسية لمنظمة ISO (حسب [قائمة ترميز اللغات](http://www.loc.gov/standards/iso639-2/php/code_list.php) متبوعة برمز من [قائمة رموز الدول](http://www.iso.org/iso/country_codes/iso_3166_code_lists/english_country_names_and_code_elements.htm))، فعلى سبيل المثال، `ar_IQ` يمثل الإنجليزية الأمريكية، و `pt_BR` يمثل البرتغالية البرازيلية. هذه الوثيقة ستخاطبكم بالعربية `ar_IQ`.
-
-مجلدات اللغة هذه ستضم عادة ملفات بصيغة XML تحتوي قائمة من مفاتيح العبارات المكتوبة فيها: هذه المفاتيح وقيمها المقابلة تتعلق بقوالب ثابتة مستعملة في كتابة النصوص البرمجية للنظام نفسه. المجموعة أدناه من مفاتيح العبارات مستقاة من الملف `locale/ar_IQ/locale.xml`:
-
-```
-<message key="navigation.journalHelp">المساعدة</message>
-<message key="navigation.home">الصفحة الرئيسية</message>
-<message key="navigation.about">عن</message>
-<message key="navigation.userHome">الرئيسية للمستخدم</message>
-<message key="navigation.login">تسجيل الدخول</message>
-<message key="navigation.register">التسجيل</message>
-```
-
-عندما يريد النظام عرض نص معين، عليه أولاً تحديد
-اللغة التي عليه استعمالها. أول مكان يتحقق منه هو التعرف
-اللغة المقرر لها أن تكون لغة الموقع إفتراضياً من قبل
-المشرف. إذا كان المستخدم يتعامل حالياً مع مجلة معينة، فإن النظام
-بدلاً من ذلك، يتحقق من اللغة التي قررها رئيس تحرير المجلة بمثابة
-اللغة الافتراضية. وأخيراً، إذا تم تنصيب لغات متعددة، فإنه
-يتحقق فيما لو أن المستخدم نفسه قد اختار لغة أخرى لتكون
-بديلاً عن اللغة الإفتراضية. المزيد من المعلومات عن إدارة اللغات
-يمكن العثور عليها في مقطع التحقق عن توفرية اللغة.
-
-بمجرد معرفة النظام للغة التي عليه استعمالها للمستخدم، فإنه
-يقبض على مفتاح العبارة من الملف العائد للغة المعنية:
-أي، إذا تطلب الأمر عرض العبارة المقابلة للمفتاح
-`message key="navigation.journalHelp"` من المثال أعلاه، وتبين له أن عليه
-إظهارها بالعربية، فإنه سيبحث في الملف
-`locale/ar_IQ/locale.xml` عن القيمة المقابلة لهذا المفتاح، والتي
-في مثالنا ستكون "المساعدة". لو كان مفتاح العبارة غير موجود (إن كان ملف اللغة
-مفتقداً لمفتاح معين، أو غير موجود في النظام من الأساس)،
-فإنه سيعرض تسمية المفتاح نفسه محاطاً برموز مربعات مزدوجة:
-كما في: `##navigation.journalHelp##`
-
-إذا صادفك يوماً هذا النمط من العبارات في نظام المجلات المفتوحة أو نظام المؤتمرات المفتوحة، فاعلم
-بأن الترجمة هنا غير مكتملة. يمكنك أخذ نظرة على المقطع الخاص بالترجمة
-لتتعلم كيف يمكنك إكمالها.
-
-التحقق عن توفرية اللغة
-======================
-
-يُنصح أولاً بالتحقق من وجود اللغة فعلياً لنسختك من
-نظام المؤتمرات المفتوحة أو نظام المجلات المفتوحة. إن كانت اللغة التي تريدها
-غير مدرجة، فعليك مراجعة موقعنا للتحقق من توافرها أصلاً.
-
-فحص النظام بشأن اللغات المتاحة فيه
------------------------------------
-
-أول موضع للتحقق منه بشأن توفرية اللغة، هو
-من التنصيب نفسه.
-
-لكل من نظام المجلات المفتوحة ونظام المؤتمرات المفتوحة: إن كانت لديك صلاحيات المشرف،
-سجل دخولك ثم اذهب إلى الصفحة الرئيسية للمستخدم، وانقر على رابط
-<em>اللغات</em>، حيث سيأخذك هذا إلى صفحة إدارة اللغات على مستوى
-الموقع. هذه الصفحة فيها مقطعان رئيسيان:
-
--   ضمن <em>إعدادات اللغة</em> ستشاهد قائمة منسدلة مخصصة
-    للغتك الرئيسية: هذا يحدد اللغة الإفتراضية عبر عموم
-    الموقع؛ حيث سيواجه المستخدمون تلك اللغة إفتراضياً،
-    حتى يقوموا بتعديل لغتهم المفضلة على الصعيد الشخصي.\
-    \
-    كما أنك ستشاهد قائمة باللغات المدعومة، مع خانات اختيار
-    محاذية لكل منها. اللغات المنتخبة ستكون متاحة للاستعمال من قبل
-    كل المجلات المستضافة في الموقع، كما أنها ستظهر في قائمة
-    اختيار اللغات على كل صفحة في الموقع (هذا يمكن تخطيه في صفحات
-    معينة في النظام). إذا لم يتم تأشير أكثر من لغة ضمن التنصيب،
-    فإن قائمة تبديل اللغات لن تظهر، وكذلك الإعدادات الموسعة الخاصة
-    بها، هي الأخرى لن تكون متاحة للمجلات أو المؤتمرات.
--   عند صفحة إدارة اللغات، ستشاهد قائمة باللغات المنصبة،
-    وكذلك قائمة أخرى باللغات الأخرى التي لم يتم تنصيبها.\
-    \
-    محاذياً لكل لغة منصبة، ستشاهد: رابطاً <em>إعادة تحميل اللغة</em>،
-    وهو مفيد إذا سبق لك إجراء تعديلات على ملفات تلك اللغة،
-    كما أن هناك رابط <em>إلغاء تنصيب اللغة</em>، والذي لن يزيلها
-    من التنصيب الحالي لنظامك، بل سيرفعها من قائمة اللغات
-    المدعومة والمتاحة لمجلاتك أو مؤتمراتك.\
-    \
-    عند أسفل النافذة، وجوار كل لغة لم يتم تنصيبها بعد،
-    ستشاهد خانة اختيار. لتنصيب تلك اللغة، فقط أشر على الخانة
-    المحاذية لاسمها، ثم انقر <em>تنصيب</em>. سيتم تنشيط الصفحة
-    واللغة المعنية ستظهر ضمن <em>إدارة اللغات</em>.\
-    \
-    إذا كانت اللغة منصبة من قبل المشرف عبر صفحة
-    <em>اللغات</em>، فعليك أيضاً إتاحتها لمجلاتك
-    أو مؤتمراتك من أجل أن تكون ظاهرة أمام المستخدمين.
-    سجل دخولة بصفة رئيس التحرير أو المشرف على المؤتمر،
-    وعبر صفحتك الرئيسية أنقر على <em>اللغات</em> لتذهب
-    إلى صفحة إدارتها ضمن المجلة - أو المؤتمر -.
-    هنا يمكنك تعيين اللغة الافتراضية لمجلتك
-    أو مؤتمرك، وعلى نفس الغرار، تمكين اللغات المدعومة
-    لأن تكون متاحة للمجلات - المؤتمرات - في عموم الموقع. إذا قمت بتمكين
-    أكثر من لغة واحدة، سيكون بإمكان المستخدمين التنقل بينها عبر قائمة
-    منسدلة تظهر في الشريط الجانبي.
-
-التحقق من توافر اللغات في موقع مشروع المعرفة العامة
----------------------------------------------------
-
-إن مشروع المعرفة العامة يحتفظ بقائمة محدثة من اللغات والمساهمين بها
-ضمن صفحة خاصة في موقع المشروع.
-
--   [قائمة لغات نظام المجلات المفتوحة](http://pkp.sfu.ca/ojs-languages)
-
--   [قائمة لغات نظام المؤتمرات المفتوحة](http://pkp.sfu.ca/ocs-languages)
-
-المعلومات منظمة في جدول، مع رقم نسخة البرنامج في
-المحور الأفقي مع قائمة اللغات في المحور الصادي. النقر
-على اسم اللغة سيأخذك إلى صفحتها، حيث يعرض أسماء آخر
-المساهمين، مع أي معلومات ذات صلة.
-
-جميع اللغات تقع ضمن الأصناف الآتية:
-
--   **مكتملة:** سواءً مضمنة في تلك النسخة بعينها من نظام المؤتمرات المفتوحة أو
-    نظام المجلات المفتوحة، أو بخلاف ذلك، جاهزة للتنزيل من القائمة.
-
--   **بحاجة إلى تحديث:** هذه الملفات مضمنة في النسخة التي تستعملها
-    (الجدول سيشير إلى ذلك) لكنها غير مكتملة لسبب ما
-    (قد تكون نسخة متقادمة لكنها لا تزال تعتبر مؤدية لعملها؛ أو
-    قد تكون منقوصة عن نسبة 100% في المقام الأول). 
-    إذا كانت مدرجة على أنها غير مضمنة في نسخة النظام
-    الذي تستعمله، يمكنك مراسلة آخر من يتولى إدامتها
-    من المترجمين لمعرفة فيما لو كانت لديهم أي ملفات حديثة.
-
-إذا لم تشاهد اللغة/اللغات التي تتطلع إليها مدرجة في
-كلا القائمتين، لطفاً، نتطلع إلى أن تنهض بمهمة الترجمة بنفسك.
-إذا كنت مهمتماً بمساهمة من هذا النوع، [راسلنا]
-(http://pkp.sfu.ca/contact) للنصيحة، أو استعن بما تجده
-في هذه الوثيقة.
-
-تنصيب اللغة
+Introduction
 ============
 
-حزم اللغات تتوفر بشكل ملفات بصيغة tar.gz، ويمكن تنصيبها
-عبر اتباع الخطوات الآتية (ستحتاج إلى برنامج مثل
-7-Zip لفك ضغط الحزمة):
+OJS, OCS, and OMP are multilingual systems, allowing journals and conferences to publish in a variety of languages. The Public Knowledge Project aims to support English, French, Spanish and Portuguese translations each application. In addition, translations of each software package have been completed by the community, and we welcome contributions at any time.
 
--   ضع الأرشيف في منبع ملفات نظام المجلات المفتوحة أو نظام المؤتمرات المفتوحة ضمن الملقم:
-    هذا من شأنه وضع ملفات الترجمة لتلك اللغة في المجلدات الصحيحة.
--   أضف إدخالاً جديداً في الملف `registry/locales.xml` مستعملاً الصيغة الآنية:
+All text you see in a typical fresh install has been abstracted from the system code, and has in fact been retrieved from one of a number of XML locale files. These files can be found in folders using appropriate ISO locale codes (the [Language Code Listing](http://www.loc.gov/standards/iso639-2/php/code_list.php) followed by the [Country Code Listing](http://www.iso.org/iso/country_codes/iso_3166_code_lists/english_country_names_and_code_elements.htm)), for example `en_US` for American English, or `pt_BR` for Brazilian Portuguese. This document will use `en_US` for its examples.
+
+These locale directories will typically have XML files containing lists of message keys written in them: these message keys and their corresponding values correspond to template lines in the system code itself. The following set of message keys are taken from `locale/en_US/locale.xml`:
+
+```
+<message key="navigation.journalHelp">Journal Help</message>
+<message key="navigation.home">Home</message>
+<message key="navigation.about">About</message>
+<message key="navigation.userHome">User Home</message>
+<message key="navigation.login">Log In</message>
+<message key="navigation.register">Register</message>
+```
+
+When the system needs to display a piece of text, it first determines which language should be displayed. The language used comes from, in order of preference:
+* The language the user has selected within the UI, if multiple options are enabled.
+* The default language of the journal/press/confernce context
+* The detault language of the site
+
+Once the system knows which language to display to the user it grabs the message key value from the locale file that belongs to that specific translation: that is, if it needs to display the text relevant to `message key="navigation.journalHelp"` from the above example, and knows that it should display this in English, it will look in `locale/en_US/locale.xml` for the appropriate key value, in this case "Journal Help". If the message key doesn't exist (if the locale file is missing that particular key, or doesn't exist on the system in the first place), the system will display the raw message key surrounded by hash marks: `##navigation.journalHelp##`
+
+If you ever see that kind of code on page, you know that the translation is incomplete. You can take a look at the section on translating to see how to complete it.
+
+Checking Language Availability
+==============================
+
+You are advised to first check which languages are available from your version of OCS, OJS or OMP. If the language you want isn't listed, then check our website for availability.
+
+Checking Your Software for Available Languages
+----------------------------------------------
+
+The first place to check on language availability is from within the software installation itself.
+
+### OJS/OMP 3.x
+
+-   If you have more than one context (journal or press) installed, the Site Administrator controls what languages are available for to each context.  Navigate to Administration, Settings, and Languages.  Installed languages are listed here with an checkbox option to enable or disable the language sitewide.
+
+-   For each journal or press context, the Manager controls the settings within that context by navigating to Settings, Website, and Languages.  Each language can be enabled for the UI, for Forms, and for Submissions.
+
+    -    UI: Controls the user interface languages available in the front-end and in the back end.  Enabling a language for the UI will allow users to select the language of the application interface.  For example, buttons, page titles, and on-screen messages will be in the user's selected language.
+
+    -    Forms: Controls the data entry forms for the application.  Enabling a language for forms will allow text boxes to support multilingual data entry.  For example, configuration settings and metadata can be entered in multiple languages.
+
+    -    Submissions: Controls what languages are accepted for submission of manuscripts to the system.  Enabling a language for Submissions will allow the author to select that language as representing the uploaded submission document.
+
+### OJS/OCS 2.x
+
+For both OJS and OCS: If you have System Administrator access, log in and go to the System Administrator User Home, and click the
+<em>Languages</em> link, which will take you to the site-wide languages administration page. This page has two main sections:
+
+-   Under <em>Language Settings</em> you will find a drop-down box for your Primary Locale: this sets the default language across the entire site; users will be presented with this language by default, until they change their own language preference.
+
+    You will also see a list of supported locales, with checkboxes next to them. The selected locales will be available for use by all journals hosted on the site, and will also appear in a language select menu on each site page (which can be overridden on journal-specific pages). If multiple locales are not selected, the language toggle menu will not appear and extended language settings will not be available to journals.
+-   Under Manage Locales you will find a list of installed locales, as well as a list of new locales that haven't been installed.
+
+    Beside each installed locale you will see: a link to <em>reload
+    locale</em>, useful if you have made any changes to any locale files; and a link to <em>uninstall locale</em>, which will not remove locale files from your server but will remove them from the list of supported locales.
+
+    At the very bottom, beside each locale that hasn't yet been installed, you will see a checkbox. To install a language, check the box next to its name and click <em>Install</em>. The page will reload and the locale will appear under <em>Manage Locales</em>.
+
+    If a language is listed as available and installed from the Site Administrator's <em>Languages</em> administration page, you will still have to enable it for your journal or conference for it to be available to users. Log in as a Journal Manager or Conference Manager, and from your User Home click on <em>Languages</em> to visit the journal- or conference-specific language administration page. Here you will be able to set the primary locale for your journal or conference, and likewise enable supported languages to be used journal- or conference-wide. If you enable more than one language, users will be able to toggle between them via a drop-down menu on the sidebar.
+
+
+Checking the PKP Website for Available Languages
+------------------------------------------------
+
+The PKP keeps an up-to-date list of languages and contributors from the relevant project page.
+
+-   [OJS Languages List](http://pkp.sfu.ca/ojs-languages)
+
+-   [OCS Languages List](http://pkp.sfu.ca/ocs-languages)
+
+If you don't see the language(s) you are looking for listed on either of these lists, please consider undertaking the translation yourself. If you are interested in contributing in such a way, [contact us](http://pkp.sfu.ca/contact) for advice, or consult the rest of this document.
+
+Installing a Language
+=====================
+
+Language packs may be available in tar.gz archive format, and can be installed by following these steps (You will require software such as 7-Zip to decompress the downloaded file):
+
+-   Untar the archive to your installation root directory on the server: this will place the translated locale files into the appropriate directories;
+-   Add the locale to `registry/locales.xml` using the following syntax:
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locales SYSTEM "../dbscripts/xml/dtd/locales.dtd">
+<!DOCTYPE locales SYSTEM ""../lib/pkp/dtd/locales.dtd"">
 <locales>
-    <locale key="ar_IQ" name="Arabic"/>
-    <locale key="de_DE" name="Deutsch (Deutschland)"/>
-    <locale key="en_US" name="English"/>
-    <locale key="es_ES" name="Español (España)"/>
-    <locale key="fr_CA" name="Français (Canada)"/>
+    <locale key="de_DE" name="Deutsch (Deutschland)" ... />
+    <locale key="en_US" name="English" ... />
+    <locale key="es_ES" name="Español (España)" ... />
+    <locale key="fr_CA" name="Français (Canada)" ... />
     (... and so on)
 </locales>
 ```
 
--   سجل دخولك إلى النظام بصلاحيات المشرف، ثم اذهب إلى صفحة اللغات؛
--   ضع تأشرة في خانة التأشير المجاورة للغة المضافة تحت باب
-    اللغات المنصبة حديثاً، ثم انقر <em>تنصيب</em>;
--   بعد إعادة تحميل الصفحة، ضع تأشيرة في خانة التأشير المجاورة
-    للغة المنصبة تواً ضمن باب اللغات المدعومة، ثم انقر
-    <em>حفظ</em>.
+-   Log into your system as a System Administrator, and go to your Languages page;
+-   Check the checkbox beside the newly-registered locale under Install New Locales and click <em>Install</em>;
+-   After the page reloads, check the checkbox beside the newly-installed locale beside Supported Locales and click
+    <em>Save</em>.
 
-عند ذلك، قد يتطلب الأمر أن تستعرض كل مؤتمر أو مجلة لديك صلاحية
-إدارتها، لتفعيل اللغة هناك عبر صفحة إدارة اللغات في
-المؤتمر/المجلة. يمكنك القيام بهذا عبر تأشير خانة التأشير المحاذية
-للغات المدعومة، ومن ثم النقر على <em>حفظ</em>.
+You will then need to either visit each conference, journal, or press you are administering and activate the language from the Language page. You can do this by checking the box beside Supported Locales and clicking <em>Save</em>.
 
-**تحذير:** قم بزيارة صفحة معلومات النظام لديك
-(http://<your-site>/index.php/index/admin/systemInfo) وقم بمراجعة المتغير
-"registry\_dir" للتأكد من كونك تعدل ملف locales.xml الصحيح
+**OJS/OCS 2.x Warning:** Visit your system information page (http://<your-site>/index.php/index/admin/systemInfo) and review your "registry\_dir" variable to be sure you are editing the right locales.xml
 
 
-مدراء الترجمات
-===============
-
-يعتبر المساهمون بتقديم حزم الترجمات الجاهزة إلى مشروع المعرفة العامة
-قد أخذوا على عاتقهم مهمة إدامة الترجمات التي قدموها للمشروع
-ولذلك فهم المرجع الأول لنا عندما تطرأ تحديثات هامة أو كثيرة
-على التطبيقات المعنية. بلا شك، بماأن عملهم قائم على أساس تطوعي،
-فقد يصدف أن يعتذر البعض منهم عن إدامة نسخته من الترجمة، مما يضطرنا
-إلى قبول مساهمات الآخرين لاحقاً، حرصاً منا على تقديم التطبيقات
-إلى أكبر طيف من الجمهور المشتغل بالتعليم أو البحث العلمي.
-
-
-الترجمات حسب التطبيق
+Translation Managers
 ====================
 
-ستجد معلومات إضافية عن الترجمات، بضمنها المساهمين
-وملاحظات الترجمة، أدناه. نحث المساهمين على [مراساتنا]
-(mailto:pkp.contact@gmail.com) للحصول على حسابات الدخول من أجل
-إدامة صفحات الترجمة الخاصة بهم.
+Volunteer translation managers help PKP to keep translations up-to-date. These translation managers coordinate and review translations to ensure that terminology is used consistently within the application.  Note that these managers don't necessarily translate each application, but they do have oversight of the PKP application suite as a whole.  Please [contact us](http://pkp.sfu.ca/contact) to connect with a translation manager.
