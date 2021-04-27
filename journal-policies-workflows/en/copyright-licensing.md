@@ -59,16 +59,13 @@ For more examples of copyright and license policies from university and library 
 
 ## Creative Commons licenses
 
-If you publish an OA journal, it is not sufficient to simply make articles public. To facilitate scholarly sharing and re-use it is important to clarify how materials can be re-used. Creative Commons (CC) licenses provide such clarification in a human-readable (license text & logo) and machine-readable (metadata for indexing) formats.
-Creative Commons licenses determine what readers may do with the journals’ content, and how copyright holders wish their content to be used. There are several licenses to choose from with various levels of “openness” and limitations for reuse, and the choice depends on what the journal thinks is best for its authors and its readership.
-Here is an overview of the various CC licenses:
+If you publish an OA journal, it is not sufficient to simply make articles public. To facilitate scholarly sharing and re-use it is important to clarify how materials can be re-used. Creative Commons (CC) licenses provide such clarification in a human-readable (license text & logo) and machine-readable (metadata for indexing) formats. Creative Commons licenses determine what readers may do with the journals’ content, and how copyright holders wish their content to be used. There are several licenses to choose from with various levels of “openness” and limitations for reuse, and the choice depends on what the journal thinks is best for its authors and its readership. Here is an overview of the various CC licenses:
 
 ![Graph of license types arranged from the most free to the least free.](./assets/journal-policies-cc-licenses.png)
 
 Source: Adapted  from [“How to attribute Creative Commons Photos”](https://resources.creativecommons.org/how-to-attribute-creative-commons-photos/) by Foter. Licensed under a [CC-BY-SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0/).
 
-If you receive funding, be sure to check whether the funding policy requires distribution under a particular CC license.
-For more information on CC licenses, see [Getting Found Staying Found Guide - Creative Commons Licenses](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-increasing-impact#creative-commons-licenses) and [Creative Commons FAQs](https://creativecommons.org/faq/).
+If you receive funding, be sure to check whether the funding policy requires distribution under a particular CC license. For more information on CC licenses, see [Getting Found Staying Found Guide - Creative Commons Licenses](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-increasing-impact#creative-commons-licenses) and [Creative Commons FAQs](https://creativecommons.org/faq/).
 
 ## Where to add copyright and licensing information in OJS?
 
@@ -76,8 +73,7 @@ There are 3 places in OJS where you can add the above information, depending on 
 
 **1: Designate the copyright holder and add license terms that will appear on the article page.**
 
-Enter this information under **Settings > Distribution > License**.
-For additional details about this section see  [Learning OJS 3: Distributions Settings - License](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#license).
+Enter this information under **Settings > Distribution > License**. For additional details about this section see  [Learning OJS 3: Distributions Settings - License](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#license).
 
 ![The OJS 3.2 Distribution Settings.](./assets/journal-policies-distribution-settings.png)
 
