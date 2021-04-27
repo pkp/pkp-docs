@@ -2,6 +2,7 @@
 book: learning-ojs
 version: 3.1
 ---
+
 # Chapter 14: Editorial Workflow
 
 In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
@@ -144,7 +145,7 @@ Use the Notes tab to also view or add any editorial notes.
 
 **Submission Library**: The Submission Library is a general storage area for documents that may include conflict-of-interest forms, galley approval forms, etc. A user can upload the completed form for their manuscript in their Submission Library. The uploaded forms will also be available to other participants (with the exception of Reviewers) assigned throughout the editorial or production workflow to edit or re-upload new versions.
 
-**Document Library**: Users throughout the editorial workflow will be able to access all the files in the Publisher Library (see [Workflow Settings chapter](./settings-workflow.md)) made available by the Journal Manager or Editor through opening the Submission Library and clicking "View Document Library." 
+**Document Library**: Users throughout the editorial workflow will be able to access all the files in the Publisher Library (see [Workflow Settings chapter](./settings-workflow.md)) made available by the Journal Manager or Editor through opening the Submission Library and clicking "View Document Library."
 
 ![](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
 
@@ -282,8 +283,7 @@ At this point, we could add additional Reviewers, and then wait for their recomm
 
 OJS is designed to accommodate different types of reviews and has built-in steps to ensure anonymity.
 
-All information will be visible to the journal managers and editors regardless of the type of review selected.
-The review type will be automatically selected based on what has been configured under _Settings_ > _Workflow_ > _Review_. The editors can change the review type when sending the review request. Editors/Section Editors must select the review type when sending the review request from the following options:
+All information will be visible to the journal managers and editors regardless of the type of review selected. The review type will be automatically selected based on what has been configured under _Settings_ > _Workflow_ > _Review_. The editors can change the review type when sending the review request. Editors/Section Editors must select the review type when sending the review request from the following options:
 
 * Double-Blind
 * Blind
@@ -367,8 +367,7 @@ Review Details. It may be helpful to rename the file to the time of re-upload. T
 
 Click Complete and select the file you would like to use for the review.
 
-The file(s) will appear under the initial upload.
-When sending out the review request, ensure that the original manuscript is unselected from the ‘Files To Be Reviewed’.
+The file(s) will appear under the initial upload. When sending out the review request, ensure that the original manuscript is unselected from the ‘Files To Be Reviewed’.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon10.png)
 
@@ -424,8 +423,7 @@ Use the **Add Reviews** button to import the Reviewer's comments from the Editor
 
 ![](./assets/learning-ojs-3-ed-rev-req-revisions3.png)
 
-If there are any attachments, such as a marked up file created by a Reviewer, you can attach it here \(as long as it has been anonymized\).
-In OJS 3.1.2 and later, you can also upload a new file and add it as an attachment.
+If there are any attachments, such as a marked up file created by a Reviewer, you can attach it here \(as long as it has been anonymized\). In OJS 3.1.2 and later, you can also upload a new file and add it as an attachment.
 
 Hit the **Record Editorial Decision** button to send the message.
 
