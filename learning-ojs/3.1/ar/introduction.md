@@ -1,77 +1,82 @@
-# الفصل 1: المقدمة
+---
+book: learning-ojs
+version: 3.1
+---
 
-نظام المجلات المفتوحة \(OJS\) هو برنامج مفتوح المصدر لإدارة ونشر الإنتاج العلمي على الإنترنت. هذا النظام يمتاز بالمرونة العالية فيما يتعلق بأعمال هيئة التحرير ويمكن تنزيله مجاناً وتنصيبه على ملقم محلي.
+# Chapter 1: Introduction
 
-لقد تم تصميم النظام لتقليل الوقت والجهد المصاحبين للأعمال المكتبية والإدارية من طرف هيئة التحرير، مع تحسين إمكانيات حفظ السجلات وتعزيز كفاءة عمليات التحرير. إنه يهدف إلى رفع كفاءة ومستوى الناتج العلمي الذي تنشره المجلة عبر عدد من التجديدات، من ضمنها تحسين الخدمات المقدمة للقراء، جعل سياسات المجلة أكثر شفافية، وتحسين الفهرسة.
+Open Journal Systems \(OJS\) is an open source solution to managing and publishing scholarly journals online. OJS is a highly flexible editor-operated journal management and publishing system that can be downloaded for free and installed on a local Web server.
 
-هذا الكتيب يغطي متعلقات نظام المجلات المفتوحة بنسخته الثالثة، والتي تم إطلاقها في تشرين الأول/أكتوبر 2017، وهذه النسخة تشتمل على تحسينات هائلة قياساً بالنسخ السابقة من النظام. نحن نأمل أن تجدوها ملائمة لمشاريع النشر الخاصة بكم.
+It has been designed to reduce the time and energy devoted to the clerical and managerial tasks associated with editing a journal, while improving the record-keeping and efficiency of editorial processes. It seeks to improve the scholarly and public quality of journal publishing through a number of innovations, including enhancing the reader experience, making journal policies more transparent, and improving indexing.
 
-## خلفية النظام
+This book covers OJS version 3.1, released in October 2017, and features significant enhancements over the previous versions of the software. We hope you find it helpful for your publishing projects.
 
-*نظام المجلات المفتوحة هو نظام مخصص للإدارة/النشر للمجلات التي تصدر على الإنترنت*. هذا النظام يتكفل بكل جوانب النشر على الإنترنت، بدءً من تأسيس موقع المجلة إلى المهام التشغيلية مثل عملية تقديم طلبات النشر من قبل المؤلفين، التحكيم المناظر، التحرير، النشر، الحفظ، والفهرسة لمحتوى المجلة. يساعد النظام أيضاً في تنظيم جوانب عمل القائمين على تشغيل المجلة، مثل متابعة أعمال المحررين، المحكمين، والمؤلفين، إشعار القراء، مع تقديم العون للجميع حيثما تطلب ذلك.
+## Background
 
-*نظام المجلات المفتوحة مرن وقابل للتوسع*. تنصيب واحد من نظام المجلات المفتوحة يمكنه أن يدعم تشغيل مجلات عديدة. لكل مجلة رابطها الفريد ومظهرها الخاص. يمكن لمحرر واحد يستعمل نظام المجلات المفتوحة أن يقوم بكل أعباء إدارة المجلة وموقعها، أو أن يتمكن فريق من المحررين الدوليين تتوزع بينهم مهام التحرير المختلفة من تشغيل أقسام متنوعة في المجلة.
+*OJS is a journal/web site management/publishing system*. OJS covers all aspects of online journal publishing, from establishing a journal website to operational tasks such as the author's submission process, peer review, editing, publication, archiving, and indexing of the journal. OJS also helps to manage the people aspects of organizing a journal, including keeping track of the work of editors, reviewers, and authors, notifying readers, and assisting with the correspondence.
 
-*نظام المجلات المفتوحة يدعم مبدأ تعدد طرق الوصول*. هذا النظام لا يهدف إلى المساعدة في نشر المجلة فحسب، بل إلى الاسهام في تقليل نفقات عملية النشر إلى الحد الذي يمكنها فيه من تقديم محتواها العلمي مجاناً إلى القراء وجعل ذلك خياراً مهماً. مبدأ الوصول المفتوح موضح في طيف واسع من المقالات النابعة من هذا المشروع والتي يمكن الحصول عليها مجاناً عبر زيارة Research > Publications في موقع [Public Knowledge Project](https://pkp.sfu.ca/).
+*OJS is flexible and scalable*. A single installation of OJS can support the operation of one or many journals. Each journal has its own unique URL as well as its own look and feel. OJS can enable a single editor to manage all aspects of a journal and the journal's website, or OJS will support an international team of editors with diverse responsibilities for a journal's multiple sections.
 
-*أصل نظام المجلات المفتوحة*. تم إطلاقه لأول مرة عام 2001 كمبادرة بحثية في جامعة British Columbia، بدعم من مجلس العلوم الاجتماعية والبحوث الإنسانية في كندا، مؤسسة Max Bell، منحة Pacific Press، ومؤسسة MacArthur. التطوير المستمر للنظام تتكفل به حالياً مكتبة جامعة Simon Fraser. للمزيد من المعلومات، أنظر [موقع مشروع المعرفة العامة](http://pkp.sfu.ca).
+*OJS supports the principle of extending access*. This system is intended not only to assist with journal publishing, but to demonstrate how the costs of journal publishing can be reduced to the point where providing readers with "open access" to the contents of the journal becomes a viable option. The case for open access is spelled out over a wide series of articles stemming from this project which are freely available under Research > Publications on the [Public Knowledge Project](https://pkp.sfu.ca/) website.
+
+*The origins of OJS*. The system was first released in 2001 as a research and development initiative at the University of British Columbia, with the support of the Social Sciences and Humanities Research Council of Canada, the Max Bell Foundation, the Pacific Press Endowment, and the MacArthur Foundation. Its continuing development is currently overseen by the Simon Fraser University Library. For more information, see the [Public Knowledge Project website](http://pkp.sfu.ca).
 
 <hr />
 
-## مزايا نظام المجلات المفتوحة
+## OJS Features
 
-نظام المجلات المفتوحة يتضمن المزايا الآتية:
-1. نظام المجلات المفتوحة يمكن تنصيبه والسيطرة عليه محلياً.
-2. المحررون يحددون المتطلبات، الأقسام، عملية التحكيم... إلخ.
-3. التقديم عبر الإنترنت، التحكيم السري على الطرفين، مع إدارة المحتوى بالكامل.
-4. فهرسة شاملة للمحتوى.
-5. واجهة متجاوبة متعددة الأنماط للقراء.
-6. إشعارات بريدية للقراء.
-7. يدعم رسوم معالجة المؤلفات، الاشتراكات، والدفع عبر الإنترنت.
-8. إرشادات متكاملة عبر الإنترنت وحسب سياق العمل.
-9. يدعم الظهور بلغات عديدة.
+OJS includes the following features:
+1. OJS is installed locally and controlled locally
+2. Editors configure requirements, sections, review process, etc.
+3. Online submission, double-blind review, and management of all content
+4. Comprehensive indexing of content
+5. Responsive, themable reader interface
+6. Email notification for readers
+7. Support for article-processing charges, subscriptions, and online payments
+8. Complete context-sensitive online Help support
+9. Multilingual support
 
-## ما الجديد في الإصدار 3.1
+## What's New in OJS 3
 
-نظام المجلات المفتوحة 3.1 مبني على التعديلات المضافة إلى  نظام المجلات المفتوحة 3، وهو مغاير تماماً لسابقه، نظام المجلات المفتوحة 2. فهو يتضمن تحسينات مع مزايا جديدة تم تطويرها استناداً إلى آراء المجتمع، إختبارات الأداء المكثفة، فضلاً عن إمكانيات برامجيات حديثة التصميم.
+OJS 3 is significantly different than its predecessor, OJS 2. It includes enhancements and new features developed from community feedback, extensive usability testing, and new software design capabilities.
 
-## واجهة القارئ
+## Reader Interface
 
-إفتراضياً، نظام المجلات المفتوحة يظهر بعد تنصيبه بواجهة وظائف بسيطة جداً. هي تشتمل على رأس علوي، شريط تنقل، كتل تنقل على اليسار، مع كتلة محتوى رئيسية وسط الصفحة.
+By default, Open Journal Systems is installed with a very simple, functional user interface. This includes a top header, navigation bar, navigation blocks to the right, and a main content block in the middle of the page.
 
-الصورة الآتية هي لقطة تمثل استعراضاً لجدول المحتويات في موقع يعمل بنظام المجلات المفتوحة.
+The following image is a screenshot of an OJS Demonstration Journal Table of Contents.
 
 ![](./assets/learning-ojs-3-ojs3-interface.png)
 
-يمكن لك أن تشاهد بأن وظائف المستخدم موجودة حالياً في قائمة ملفك الشخصي على الزاوية العليا اليسرى من الشاشة. هذا من شأنه أن يبعد المحتوى القابل للإدارة في نظام المجلات المفتوحة 3.x بعيداً عن أنظار المستخدم الخارجي. معلومات الشريط الجانبي مفصلة بشكل واضح، مع شريط التنقل العلوي حيث توجد قوائم قابلة للطي مخصصة لوظائف مثل "عن". وكما في نظام المجلات المفتوحة 2, لكل مقالة رابط في عنوانها لمعاينة بياناتها الوصفية وملخصها، كما أن الألواح الطباعية حالياً معلمة بوضوح تحت العناوين مع شعارات أكثر وضوحاً.
+You can see from the screenshot that the user functions now exist from your profile menu at the top right of the screen. This takes the managerial content in OJS 3.x away from general user view. Side bar information is clearly broken out, as well as your top navigation bar with collapsible menus for the "About" functions. Like OJS 2, each article has a linked title for viewing object metadata and abstracts, and galleys are now clearly labeled below the titles with clearer logos.
 
-## واجهة التحرير
+## Editorial Interface
 
-_أو ما يعرف بـ "لوحة القيادة"_
+_AKA "The Dashboard"_
 
-نظام المجلات المفتوحة 3.x حالياً لديه واجهة مختلفة بمجرد الدخول إلى نظام التحرير. هذا لا يجعله قادراً على تخصيص واجهة زوار الموقع فحسب، وإنما يمكنه من أن يقدم لمستعملي مجلات مختلفة، انطباعات متمايزة لكل منها.
+OJS 3.x now has a separate interface once you log into the editorial system. This not only makes it easier to customize the reader interface, but also provides OJS users of different journals a consistent experience.
 
-![](./assets/learning-ojs3.1-ed-dashboard.png)
+![The main OJS dashboard](./assets/learning-ojs3.1-ed-dashboard.png)
 
-واجهة التحرير تعرف بأنها **لوحة القيادة** وتتضمن المكونات الآتية:
+The editorial interface is known as your **dashboard** and consists of the following elements:
 
-1. **شريط التنقل العلوي**: على اليمين، ستجد اسم المجلة التي تعمل بها حالياً \(مثلاً، مجلة مشروع المعرفة العامة\). إن كنت مرتبطاً بأكثر من مجلة، ضمن هذا التنصيب من نظام المجلات المفتوحة، بإمكانك استعمال تلك القائمة للتنقل فيما بين المجلات. في الجانب الآخر من هذا الشريط تجد مهامك \(الفقرات التي تتطلب معالجة حالياً\). كذلك، وعلى الجانب الأيسر، يمكنك التبديل ما بين اللغات إذا كانت المجلة مصممة لتظهر بلغات متعددة، معاينة واجهة القراء، أو النقر على اسم دخولك لمعاينة [ملفك الشخصي](./user-accounts.md#معاينة-ملفك-الشخصي-وتعديله) أو حتى تسجيل الخروج.
-2. **لوحة القائمة اليمنى**: هذه هي المقاطع الرئيسية في لوحة القيادة، والتي تضم طلبات التقديم، إدارة الأعداد، إدارة الاشتراكات \(إذا كنت تدير مجلة تستعمل الاشتراكات\)، الإعدادات، إدارة المستخدمين والأدوار، والأدوات. المستخدمون الذين لديهم صلاحيات أقل \(مثل المؤلفين، المحكمين، المدققين... إلخ.\) سيعاينون روابط أقل هنا.
-3. **شريط التنقل الأزرق**: خيارات القائمة هذه مخصصة لمقاطع مختلفة ضمن المخطط الانسيابي لعملية التحرير. البيانات الوصفية، عمليات التحرير السابقة، ومكتبة طلبات التقديم صارت جميعها جزءً من سجلات التقديمات الظاهرة أدناه.
-4. **اللوحة الرئيسية**: في هذه اللوحة ستعاين مساحة العمل الحالي. في الصورة أعلاه، ترى سجلاً لطلب تقديم وصل إلى مرحلة الإنتاج.
-5. **القوائم الفرعية للوحة الرئيسية**: ضمن اللوحة الرئيسية، غالباً ما سترى علامات تبويب تتيح لك معاينة معلومات مختلفة عن المحتوى الذي تعمل عليه. في هذا المثال، سجل التقديم مجزأ إلى أربعة مقاطع \(التقديم، التحكيم، التدقيق، الإنتاج\). لاحظ علامة التبويب "المساعدة" على اليسار، والتي تقدم شروحات مساعدة ذات صلة بالصفحة التي أنت فيها حالياً.
-6. **اللوحة اليمنى**: من هنا، يمكنك معاينة أزرار الوظائف، مثلاً، الجدولة للنشر. تختلف أزرار الوظائف باختلاف الصفحات. تحت أزرار الوظائف يوجد جدول المساهمين والذي يدرج أسماء الجميع \(ما عدا المحكمين\) ذوي العلاقة بطلب التقديم.
+1. **Top Navigation Bar**: To the left, you will find the name of the journal you are currently working with \(e.g., Journal of Public Knowledge\). If you are enrolled in more than one journal on this OJS installation, you can use this to switch between journals. Next to that are your Tasks \(items needing immediate attention\). To the right, you can switch languages if the journal is multilingual, view the reader interface, or click on your username to view [your profile](./viewing_and_changing_your_profile.md) or logout.
+2. **Left Menu Panel**: These are the major sections of the dashboard, including the submissions, issue management, subscription management \(if you are running a journal using subscriptions\), settings, user and role management, and tools. Users with fewer permissions \(e.g., Authors, Reviewers, Copyeditors, etc.\) will see fewer links here.
+3. **Blue Navigation Bar**: These menu choices are specific to the different sections of the editorial workflow. Metadata, Editorial History, and Submission Library are all part of the submission record visible below.
+4. **Main Panel**: In the main panel you will see the current work area. In the image above, you are looking at a submission record in the Production stage.
+5. **Main Panel Sub-Menus**: Within the Main Panel, you will often see tabs that allow you to view different information about the content being worked on. In this example, the submission record is broken into four sections \(Submission, Review, Copyediting, Production\). Notice the Help tab to the right, which provides context-sensitive help for the page you are currently viewing.
+6. **Right Panel**: From here, you can see the action buttons, such as Schedule for Publication. Different pages have different action buttons. Below the action buttons is the Participants table, which lists everyone \(except Reviewers\) involved in the submission.
 
-## مساهمات المجتمع
+## Community Contributions
 
-إن فريق عمل نظام المجلات المفتوحة يشجع مساهمات مجتمع المطورين. إذا كنت مهتماً بجعل نظام المجلات المفتوحة أفضل، نحن نرحب بمساهماتك.
+The OJS team encourages contributions from the developer community. If you are interested in getting involved in making OJS even better, we welcome your participation.
 
-أفضل مثال على مساهمات المجتمع يظهر في الطيف الواسع من اللغات التي يزخر بها نظام المجلات المفتوحة، والإضافات المنسوبة إلى أطراف ثالثة والمقدمة إلى [منتدى المجتمع](https://forum.pkp.sfu.ca/) مع صفحة المنتدى المؤرشف.
+Excellent examples of community contributions include the vast array of languages that OJS is available in; and third-party plugins posted to the [community forum](https://forum.pkp.sfu.ca/) and the archived forum page.
 
-نحن نرحب أيضاً بإجراء اختبارات التشغيل والإبلاغات عن المشاكل والأخطاء.
+We also welcome software testing and bug reporting contributions.
 
-## الدعم
+## Support
 
-يمكن الوصول إلى [منتدى المجتمع](https://forum.pkp.sfu.ca/) و [نظام الإبلاغ عن المشاكل](https://github.com/pkp/pkp-lib/#issues) والمخصص للمشاكل التقنية من [موقع مشروع المعرفة العامة](https://pkp.sfu.ca).
+A [community forum](https://forum.pkp.sfu.ca/) and [issue reporting system](https://github.com/pkp/pkp-lib/#issues) for technical issues can be accessed via the [PKP web site](https://pkp.sfu.ca).
 
-للحصول على إجابات بشأن موقع مجلة معين، مثل متطلبات التقديم، راسل تلك المجلة مباشرة مستعملاً بيانات الاتصال المدرجة ضمن صفحة **عن**.
+For questions about a particular journal site, such as submission requirements, contact that journal directly, using the contact information listed on the journal's **About** page.
