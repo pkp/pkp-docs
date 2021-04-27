@@ -37,7 +37,7 @@
 
 If you have not configured the plugin to deposit DOIs automatically, you can register them manually yourself by using the "Register" button on the **Unregistered Articles**, **All Issues** or **All Articles** page. For best results, register a small amount of DOIs at a time. Registration can take a while for large uploads to Crossref servers. Large batch uploads are likely better performed via XML Export.
 
-If your DOIs fail to properly register or you get confusing feedback from the plugin, please read the [troubleshooting](troubleshooting.md) documentation for guidance.  
+If your DOIs fail to properly register or you get confusing feedback from the plugin, please read the [troubleshooting](troubleshooting.md) documentation for guidance.
 
 # Depositing DOIs with Crossref via XML Export
 
