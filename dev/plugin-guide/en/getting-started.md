@@ -6,8 +6,9 @@ title: Getting Started - Plugin Guide for OJS and OMP
 
 In this guide, we will create a generic plugin that we will call the Tutorial Example.
 
-> Download a working example of [the plugin](https://github.com/pkp/tutorialExample) we will build in this tutorial from GitHub.
-{:.notice}
+> Download a working example of [the plugin](https://github.com/pkp/tutorialExample) we will build in this tutorial from GitHub. 
+> 
+> {:.notice}
 
 A plugin stores all of its files in one directory in OJS or OMP. Our example plugin will be a `generic` plugin, so we put it in that directory. Every plugin requires three files.
 
@@ -24,8 +25,9 @@ ojs
 │     └── version.xml
 ```
 
-> The directory name must be letters and numbers. No spaces, `-`, or `_` characters are allowed.
-{:.tip}
+> The directory name must be letters and numbers. No spaces, `-`, or `_` characters are allowed. 
+> 
+> {:.tip}
 
 ## version.xml
 
@@ -35,12 +37,12 @@ The `version.xml` provides information required to load the plugin.
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
 <version>
-	<application>tutorialExample</application>
-	<type>plugins.generic</type>
-	<release>0.1.0.0</release>
-	<date>2019-05-15</date>
-	<lazy-load>1</lazy-load>
-	<class>TutorialExamplePlugin</class>
+    <application>tutorialExample</application>
+    <type>plugins.generic</type>
+    <release>0.1.0.0</release>
+    <date>2019-05-15</date>
+    <lazy-load>1</lazy-load>
+    <class>TutorialExamplePlugin</class>
 </version>
 ```
 
@@ -54,17 +56,17 @@ Every plugin must have a class which registers and runs the plugin.
 <?php
 import('lib.pkp.classes.plugins.GenericPlugin');
 class TutorialExamplePlugin extends GenericPlugin {
-	public function register($category, $path, $mainContextId = NULL) {
+    public function register($category, $path, $mainContextId = NULL) {
 
     // Register the plugin even when it is not enabled
     $success = parent::register($category, $path);
 
-		if ($success && $this->getEnabled()) {
+        if ($success && $this->getEnabled()) {
       // Do something when the plugin is enabled
     }
 
-		return $success;
-	}
+        return $success;
+    }
 
   /**
    * Provide a name for this plugin
@@ -72,19 +74,19 @@ class TutorialExamplePlugin extends GenericPlugin {
    * The name will appear in the plugins list where editors can
    * enable and disable plugins.
    */
-	public function getDisplayName() {
-		return 'Tutorial Example';
-	}
+    public function getDisplayName() {
+        return 'Tutorial Example';
+    }
 
-	/**
+    /**
    * Provide a description for this plugin
    *
    * The description will appear in the plugins list where editors can
    * enable and disable plugins.
    */
-	public function getDescription() {
-		return 'This plugin is an example created for a tutorial on how to create a plugin.';
-	}
+    public function getDescription() {
+        return 'This plugin is an example created for a tutorial on how to create a plugin.';
+    }
 }
 ```
 
