@@ -8,8 +8,9 @@ A `Service` class is a container for storing reusable methods. It coordinates [E
 
 Service classes isolate the business logic of actions taken in the application from the handlers which receive and respond to the request. It should be possible to use a service class method from a `PageHandler`, `APIHandler`, or even a CLI command.
 
-> Services are new to the application and are not yet available for all entities. Read about the [refactor strategy](#refactor-strategy).
-{:.notice}
+> Services are new to the application and are not yet available for all entities. Read about the [refactor strategy](#refactor-strategy). 
+> 
+> {:.notice}
 
 ## Using a Service
 
@@ -103,10 +104,10 @@ To check if no results have been returned, use `count()` instead of `!empty()`.
 ```php
 $contextsIterator = Services::get('contexts')->getMany(['isEnabled' => true]);
 if (!empty($contextsIterator)) {
-	// This will always be true
+    // This will always be true
 }
 if (count($contextsIterator)) {
-	// Only true if one or more contexts were found
+    // Only true if one or more contexts were found
 }
 ```
 
@@ -210,11 +211,11 @@ This will return an associative array.
 
 ```
 [
-	'name' => [
-		'en_US' => 'Journal of Public Knowledge'
-	]
+    'name' => [
+        'en_US' => 'Journal of Public Knowledge'
+    ]
   'path' => 'publicKnowledge',
-	'url' => 'http://localhost:8000/publicknowledge'
+    'url' => 'http://localhost:8000/publicknowledge'
 ]
 ```
 
