@@ -1,441 +1,162 @@
-# الفصل 5: الإعدادات
+---
+book: learning-ojs
+version: 3.3
+---
 
-مقطع الإعدادات يسمح لك بتهيئة خيارات نسختك المنصبة من نظام المجلات المفتوحة لتلبي متطلبات عملك بالشكل الأمثل.
+# Journal Settings
 
-يمكنك العثور على الإعدادات في لوحة القائمة اليمنى عندما تسجل دخولك إلى الموقع بصلاحيات رئيس تحرير المجلة أو مدير تحريرها.
+The Settings section allows you to configure your OJS installation to best meet your publishing needs.
 
-![](./assets/learning-ojs3.1-jm-settings-journal.png)
+You can find the Settings in the left menu panel when you are logged in as a user with Journal Manager permissions.
 
-هي تتضمن: إعدادات المجلة, إعدادات الموقع, إعدادات المخطط الانسيابي، وإعدادات التوزيع، وجميعها ستتم تغطيتها في هذا الفصل.
+![OJS dashboard View for Journal Managers with links to Settings menu and its submenus in left-hand sidebar.](./assets/learning-ojs3.1-jm-settings-journal.png)
 
-## إعدادات المجلة
+It consists of Journal Settings, Website Settings, Workflow Settings, and Distribution Settings, which will be covered in the next 4 chapters.
 
-صفحة إعدادات المجلة تتضمن تفاصيل عن المجلة.
+The Journal Settings page includes details about the journal.
 
-إستعمل علامات التبويب للتنقل إلى المقاطع المختلفة من إعدادات المجلة: طاقم المجلة، عنوان الاتصال، الأقسام.
+Use the tabs to navigate to the different sections of Journal Settings: Masthead, Contact, Sections.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-page.png)
+![OJS dashboard view of Journal Settings with navigation tabs for the Settings submenus across top portion of page content.](./assets/learning-ojs3.2-jm-settings-journal-page.png)
 
-### طاقم المجلة
+## Masthead
 
-**اسم المجلة** هو اسم مجلتك. مثلاً، مجلة الوثائق التأريخية لتطور الحضارة.
+**Journal title** is the name of your journal. E.g., Journal of Software Documentation
 
-**الحروف الأولى** هي الحروف الأولى من اسم مجلتك. مثلاً، JSD.
+**Journal initials** are the initials of the journal. E.g., JSD.
 
-**مختصر المجلة** هو اختصار لاسم مجلتك. مثلاً، وث تط حض.
+**Journal Abbreviation** is the abbreviation of your journal name. E.g., JSoftDoc.
 
-**الناشر** اسم المنظمة التي تصدر مجلتك.
+**Publisher** is the name of the organization publishing the journal.
 
-**ISSN** \(الرقم التسلسلي القياسي العالمي International Standard Serial Number\) هو رقم من ثمان مراتب يهدف إلى تعريف المجلات عبر العالم. إنه يدار من قبل شبكة ممتدة عبر العالم من مراكز وطنية ينسق أعمالها مركز عالمي موجود في باريس، ومدعوم من قبل اليونسكو والحكومة الفرنسية. يمكن الحصول على هذا الرقم لمجلتك عبر [موقع ISSN](http://www.issn.org/). يمكن إجراء ذلك في أي وقت خلال تشغيل المجلة.
+Note that the publisher name entered here is used for metadata but will not be displayed on your site. To show the publisher name on your site you can enter it under Journal Settings > Contact > Mailing Address. You can also add it under About the Journal below.
 
-عادة ما يكون للمجلات العاملة بنظام المجلات المفتوحة المعرف الرقمي online ISSN، غير أن بعضها قد ينشر بصورة طباعية أيضاً، مما يتطلب الحصول على رقمISSN آخر.
+**ISSN** \(International Standard Serial Number\) is an eight-digit number which identifies journals. It is managed by a world wide network of National Centres coordinated by an International Centre based in Paris, backed by Unesco and the French Government. A number can be obtained from the [ISSN web site](http://www.issn.org/). This can be done at any point in operating the journal.
 
-**موجز المجلة** هو وصف موجز لمجلتك. إذا كنت تعمل ضمن تنصيب لنظام المجلات المفتوحة يضم عدة مجلات، فهذا الوصف سيظهر عند إدراج مجلتك في الموقع ضمن قائمة المجلات المستضافة فيه.
+OJS journals will typically have an online ISSN, but some may also publish a print version, which requires a different print ISSN.
 
-**هيئة التحرير** تسمح لك بإضافة أسماء فريق التحرير أو أي آخرين تريد ذكرهم. هذا سيظهر على الموقع ضمن باب عن في فقرة هيئة التحرير.
+Please note that the ISSN entered here is used for metadata but will not be displayed on your site. It's recommended that you also add the ISSN to the footer of your site. You can do this under Website Settings > Appearance > Footer.
 
-**عن المجلة** هو موضع إضافة أي معلومات عن مجلتك من شأنها أن تكون مفيدة للقراء، المؤلفين، أو المحكمين.
+**Journal Summary** is a brief description of your journal. If you are on an OJS installation with multiple journals, this text will appear with your journal listing. You can also choose to add the journal summary to the journal homepage in the Website Settings.
 
-قد يشمل ذلك سياسة الوصول إلى المحتوى، مجال تركيز عمل المجلة واهتماماتها، متعلقات الحقوق الفكرية، الإفصاح عن الجهات الراعية لها، سيرة المجلة، بيان الخصوصية، وفيما لو كانت منضمة إلى أنظمة LOCKSS أو CLOCKSS لحفظ محتوياتها.
+**Editorial Team** allows you to add the names of your editorial team or anyone else you wish to mention. This will appear on the public website under About &gt; Editorial Team.
 
-أنقر زر **حفظ** لحفظ خياراتك.
+**About the Journal** is a space to add any information about your journal which may be of interest to readers, authors, or reviewers.
 
-### عنوان الاتصال
+This could include your open access policy, the focus and scope of the journal, copyright notice, sponsorship disclosure, history of the journal, a privacy statement, and inclusion in any LOCKSS or CLOCKSS archival system.
 
-إستعمل هذا المقطع لإضافة عناوين الاتصال بمجلتك.
+Hit the **Save** button to save your changes.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-contact.png)
+## Contact
 
-**عنوان المراسلة**: أضف عنوان صندوق البريد الرسمي لمجلتك هنا. هذا سيظهر على صفحة المراسلة مع مجلتك.
+Use this section to add journal contacts.
 
-**عنوان الاتصال الرئيسي**: أضف معلومات الاتصال الخاصة بالمسؤول الرئيسي في المجلة هنا.
+![OJS dashboard view of Journal Settings submenu Contact where information can be added in text fields.](./assets/learning-ojs3.2-jm-settings-journal-contact.png)
 
-**عنوان اتصال الدعم الفني**: أضف معلومات الاتصال بالشخص المعني عن الدعم الفني في مجلتك هنا. هذه المعلومة ستظهر على صفحة المراسلة مع مجلتك فضلاً عن مواضع أخرى ضمن مجريات العمل من أجل تقديم الدعم إلى المستخدمين.
+**Principal Contact**: Add contact information for the journal's main contact person, including name, email, phone, affiliation, and mailing address for the journal. This will appear on the journal's Contact page.
 
-أنقر زر **حفظ** لحفظ تعديلاتك.
+**Technical Support Contact**: Add contact information for the journal's technical support person. This information will appear on the journal's Contact page and also in different points in the workflow to offer assistance to users.
 
-### الأقسام
+Hit the **Save** button to save your changes.
 
-إستعمل هذه الصفحة لتحديد الأقسام المختلفة في مجلتك. مثلاً، المقالات، للمحررين، المراجعات، التعليقات، إلخ.
+## Sections
 
-كل ما موجود عندك من أقسام سيظهر هنا. نظام المجلات المفتوحة يتطلب وجود قسم واحد على الأقل، لذلك سينشئ قسم "المقالات" إفتراضياً.
+Use this page to configure the different sections of your journal. E.g., Articles, Editorials, Reviews, Commentary, etc.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-sections.png)
+All of your existing sections will appear here. OJS requires at least one section, and creates an "Articles" section by default.
 
-يمكنك تعديل الأقسام عبر النقر على السهم الأزرق المحاذي لاسم القسم. هذا سيظهر خيارات تسمح بتعديل القسم أو حذفه.
+![OJS dashboard view of Journal Settings submenu Sections with links for Order and Create Section and editable list of current sections.](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
 
-#### تعديل القسم
+Submissions can also be disabled for individual sections. This can be done in instances where a section is no longer being used, in order to prevent articles from being submitted to a particular section.
 
-عند اختيار رابط التعديل، ستُفتح نافذة تتضمن خيارات تهيئة مختلفة.
+A section can be marked as “Inactive” in the section settings:
 
-![](./assets/learning-ojs-3-settings-website-settings-sections-edit-1.png)
+![View of Joural Sections in the OJS dashboard. Red box surrounding checkbox next to the section Articles indicates where to mark it inactive.](./assets/learning-ojs3.3-section-setting-inactive.png)
 
-من هنا، يمكنك تغيير اسم القسم أو مختصره.
+You can modify sections by clicking on the blue arrow to the left of the section name. This will reveal options to edit or delete the section.
 
-**سياسة القسم**: إستعمل هذا الحقل لإضافة تفاصيل هامة عن متطلبات التقديم إلى هذا القسم، منهجية التحكيم المناظر فيه، وغيرها مما قد تجده مهماً.
+### Edit a Section
 
-**عدد الكلمات**: إستعمله لتحديد عدد كلمات الملخصات للأعمال المقدمة إلى هذا القسم.
+Selecting the edit link will open a new window with different configuration options.
 
-**نموذج التحكيم**: يمكنك تحديد نماذج تحكيم معينة لكل قسم. تعلم المزيد عن نماذج التحكيم [هنا](./editorial-workflow.md#التحكيم).
+![New window displaying a section's current settings that is editable.](./assets/learning-ojs-3.2-settings-website-settings-sections-edit-1.png)
 
-**الفهرسة**: كل قسم يمكن أن تكون له إعدادات فهرسة مختلفة. على سبيل المثال، القسم المخصص لأعضاء هيئة التحرير لن يخضع للتحكيم المناظر بطبيعة الحال.
+From here, you can change the name or abbreviation of the section.
 
-**عرّف الفقرات المنشورة في هذا القسم على أنها**: هذا مستعمل من قبل بعض أنظمة الفهرسة. لاحظ أن هذا الحقل ليس حقلاً إجبارياً.
+**Section Policy**: Use this field to add important details such as submission requirements, peer review, etc.
 
-أنقر زر **حفظ** لحفظ تعديلاتك والعودة إلى صفحة الأقسام.
+**Word Count**: Use this to limit the number of words for abstracts in this section.
 
-#### إنشاء قسم
+**Section Options**: Each section can have different settings, including whether it is indexed, peer-reviewed, accepts unsolicited submission, or listed in the table of contents.
 
-من صفحة الأقسام، إختر رابط إنشاء قسم لفتح نافذة فارغة مماثلة للنافذة المستعملة لتعديل القسم والموصوفة أعلاه.
+For example, an Editorial section will not typically be peer-reviewed.
 
-![](./assets/learning-ojs-3-settings-website-settings-sections-create.png)
+Submissions can also be disabled for individual sections. This can be done in instances where a section is no longer being used, in order to prevent articles from being submitted to a particular section.
 
-إملأ التفاصيل ثم انقر زر حفظ لتسجيل المعلومات.
+You can check off "Will not be included in the indexing of the journal" for sections that contain front matter, back matter, and anything else that might clutter the search index unnecessarily.
 
-#### ترتيب الأقسام
+![A window for entering Word Count, Review Form, and Section Options.](./assets/learning-ojs3.3-section-options.png)
 
-عندما يكون عندك أكثر من قسم، ستشاهد رابط الفرز. إستعمله للتحكم في الترتيب الذي تريد أن تظهر به الأقسام على موقع مجلتك.
+**Identify items published in this section as a\(n\)**: This is used by some systems. Note that it is not a required field.
 
-![](./assets/learning-ojs3.1-jm-settings-journal-sections-order.png)
+**Section Editors**: If you have editors enrolled in your journal, you will see them listed here and can assign one of them to the section. This means any submissions made to the section are automatically assigned to the editor, saving you from manually assigning an editor.
 
-أنقر زر **الحفظ** عندما تنتهي من الإدخال.
+Hit the **Save** button to save your changes and return to the Sections page.
 
-<hr />
+### Create Section
 
-## إعدادات الموقع
+From the sections page, select the Create Section link to open a blank window, exactly the same as the window used for editing a section described above.
 
-إن إعدادات الموقع تتيح لك تعريف الكيفية التي تريد بها لمجلتك الظهور والعمل. إنها تتضمن علامات تبويب للمظهر، المعلومات، الحفظ، اللغات، الإضافات، الإعلانات، وقوائم التنقل.
+![A new window for entering section information in text fields and selecting section options.](./assets/learning-ojs-3.2-settings-website-settings-sections-create.png)
 
-![](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
+Fill in the details and hit Save to record your work.
 
-### المظهر
+### Restrict Section Submitters
 
-**الشعار**: إستعمله لرفع صورة شعار المجلة إلى الجانب العلوي الأيمن من واجهة القارئ.
+Each section allows to restrict submissions by checking the "Items can only be submitted by Editors and Section Editors" checkbox.
 
-**تذييل الصفحة**: هذا يسمح لك بوضع نص معين أسفل كل صفحة من صفحات موقعك.
+![The list of options for restricting a section. Items can be selected from list by checking the box to the left of the item.](./assets/learning-ojs3.2-jm-settings-journal-sections-restrict.png)
 
-**النمط**: يحدد التصميم العام أو التخطيط الذي سيظهر به الموقع. إنه يسمح لك بتمكين ما تشاء من الأنماط وتجربتها دون تغيير محتوى الموقع أو إعداداته الأخرى.
+If this checkbox is checked for all sections, authors will not be able to submit to the journals. Authors who select New Submission from their dashboards will now see the message "This journal is not accepting submissions at this time."
 
-أولاً، تأكد من كون كل الأنماط المتاحة ممكنة في موقعك.
-1. إذهب إلى تبويب الإضافات ضمن إعدادات الموقع.
-2. إستعرض إلى النهاية لتجد إضافات الأنماط.
-3. ضع تأشيرة بجوار كل إضافة أنماط لتمكينها.
+![Screenshot example of message displayed on a journal New Submission page.](./assets/learning-ojs3.1-jm-settings-journal-not-accepting-submissions.png)
 
-بإمكانك التحري عن وجود المزيد من الأنماط في معرض الإضافات، ومن ثم تنصيبها وتمكينها.
+### Order Sections
 
-الآن وقد صارت لديك كل الأنماط المتاحة، عليك العودة إلى تبويب المظهر لتجربة نمط آخر... وهكذا.
-1. تحت حقل النمط ستشاهد قائمة منسدلة من تلك الأنماط، إختر أحدها.
-2. أنقر حفظ عند نهاية الصفحة.
-3. قد يكون لذلك النمط أنماط فرعية أخرى أو خيارات تهيئة إضافية. لجعلها تظهر، قم بتنشيط الصفحة في مستعرض الإنترنت.
-4. إذا اخترت نمطاً فرعياً مختلفاً، أجريت تعديلاً على المخطط اللوني أو غيرها من مزايا التصميم، أنقر زر الحفظ أسفل الصفحة مرة أخرى.
-5. إفتح الصفحة الرئيسية لموقعك في تبويب جديد أو صفحة جديدة من متصفحك لمعاينة كيف يظهر النمط الجديد مع إعداداته الفرعية المختلفة.
-6. إذا لم تشاهد أي تغييرات طرأت على الموقع، قد تحتاج إلى تصفير المخزون المخفي عبر قائمة [الوظائف الإدارية](./site-administration.md#الوظائف-الإدارية).
+When you have more than one section created, you will see an Order link. Use that to reorder how those sections display on your journal website.
 
-إذا أرد إجراء تعديلات طفيفة على تصميم موقعك وتخطيطه، يمكنك رفع **ملف أنماط**.
+![A list of available sections from top to bottom of page in OJS dashboard.](./assets/learning-ojs3.2-jm-settings-journal-sections-order.png)
 
-إذا كنت ترغب بإجراء المزيد من التعديلات الهامة على التصميم، أو إعطاء موقعك شكلاً فريداً بالكامل، يمكنك تطوير النمط الخاص بك أو حتى النمط الفرعي. تجد تعليمات مفصلة عن ذلك في [دليل أنماط مشروع المعرفة العامة](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+Hit the **Done** button when you are finished.
 
-**أنماط الطباعة**: بشكل سريع، إختر نوع الخط لمجلتك.
+## Categories
 
-**اللون**: بشكل سريع، يغير لك لون رأس صفحة مجلتك.
+In OJS 3 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production). This section explains how to create and edit categories.
 
-**ملف أنماط المجلة**: إستعمله لرفع ملف أنماط فريد لمجلتك.
+![OJS dashboard view of Journal Settings submenu Categories with links for Order and Add a Category and editable list of current categories.](./assets/learning-ojs3.1-categories-menu.png)
 
-**إدارة الشريط الجانبي**: هذا يسمح لك بتحريك الكتل المختلفة وإضافة/إزالة أي منها، تلك الكتل ستظهر على الشريط الجانبي لواجهة القارئ.
+To create a new category:
 
-**صورة الصفحة الرئيسية**: عند رفع صورة هنا، ستظهر على الصفحة الرئيسية لمجلتك.
+* Click Add Category
+* Enter a name for your category that will be displayed to readers
+* Enter a path for the category’s URL on your site
+* Enter a description which will appear above the list of articles in the category
+* You can optionally change the order of the articles by date or title
+* Optionally add an image which will appear at the top of the category’s page
+* Click Save
 
-**الرمز المفضل للمجلة**: أضف [الإيقونة المفضلة](https://en.wikipedia.org/wiki/Favicon) لتظهر على شريط العنوان في المستعرض الذي يستعمله زائر الموقع.
+![A new window for entering category information in text fields and selecting category options.](./assets/learning-ojs3.1-create-category.png)
 
-**المحتوى الإضافي**: أي نص تدخله هنا سيظهر على صفحتك الرئيسية.
+To edit a category:
 
-**القوائم**: حدد عدد فقرات القوائم \(على سبيل المثال، طلبات التقديم، المستخدمون، أو مهام التحرير\) التي تظهر ضمن أي قائمة، وما تليها من فقرات ستظهر ضمن تكملة القائمة في الصفحة التالية. أيضاً، تحدد عدد الروابط التي ستظهر للصفحات التالية من القائمة.
+* Click the name of the category you want to edit
+* Make the changes
+* Click OK
 
-**مصغر المجلة**: إرفع صورة شعار صغير أو صورة تمثل المجلة ليتم استعمالها ضمن قائمة المجلات المستضافة في هذا التنصيب من نظام المجلات المفتوحة. هذا سيظهر فقط إذا كانت لديك أكثر من مجلة مستضافة في الموقع.
+To remove a category:
 
-أنقر **حفظ** لتسجيل تعديلاتك.
+* Click the blue arrow next to the category you want to remove
+* Click the Remove button that appears below
+* Confirm that you want to remove the category
 
-### المعلومات
-
-إستعمل هذه الحقول لتعديل النص المخصص للقراء، المؤلفين، أو أمناء المكتبات ضمن الصفحات المخصصة لكل منهم على موقع المجلة.
-
-![](./assets/learning-ojs3.1-jm-settings-web-info.png)
-
-تذكر النقر على **حفظ** لتسجيل تعديلاتك.
-
-### الحفظ
-
-إذا كنت عضواً ضمن شبكة LOCKSS أو CLOCKSS، إستعمل هذه الصفحة لتفعيل مجلتك في تلك المستوعبات.
-
-![](./assets/learning-ojs3.1-jm-settings-web-archive.png)
-
-### اللغات
-
-إستعمل هذه الصفحة لتهيئة اللغات المستعملة من قبل مجلتك على موقعها.
-
-![](./assets/learning-ojs3.1-jm-settings-web-lang.png)
-
-**اللغة الأولية**: لا بد من ضبط لغة واحدة بمثابة اللغة الرئيسية.
-
-**واجهة المستخدم**: هذا سيمكن كل اللغات المعنية من الظهور على واجهة المستخدم.
-
-**طلبات التقديم**: هذا سيمكن كل اللغات المعنية من أن تكون لغة التقديم التي يختارها المؤلف.
-
-**النماذج**: هذا سيمكن كل اللغات المعنية من أن تظهر بها النماذج التي يجري إملاؤها على الإنترنت.
-
-إذا كانت اللغة التي تريدها غير متوفرة في هذه الصفحة، إتصل بالمشرف على الموقع ليضيفها لك. أنظر الإشراف على الموقع لمزيد من التفاصيل ضمن الفصل 4.
-
-### الإضافات
-
-إستعمل هذه الصفحة لمعاينة كل الإضافات المنصبة وإيجاد المزيد منها.
-
-#### الإضافات المنصبة
-
-كل الإضافات المدرجة هنا متوفرة في التنصيب الحالي من نظام المجلات المفتوحة. إستعمل التأشيرة لتمكينها.
-
-![](./assets/learning-ojs3.1-jm-settings-web-plugins.png)
-
-ستلاحظ أن بعض الإضافات مطلوبة من قبل النظام ولا يمكن تعطيلها.
-
-#### معرض الإضافات
-
-معرض الإضافات يتيح الوصول إلى إضافات مطورة خارج النظام، وهي قد لا تكون ضمن حزمته الأساسية، ولكنها متاحة للتنزيل والتفعيل. يمكن للمشرف على الموقع لوحده تنصيب الإضافات.
-
-![](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery.png)
-
-اختيار عنوان الإضافة سيقدم المزيد من التفاصيل عنها، بضمنها المؤلف، الحالة، الوصف، والتوافقية.
-
-![](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery-hypo.png)
-
-### الإعلانات
-
-هذا المقطع يسمح لك بإنشاء وعرض الأخبار والإعلانات على موقع المجلة.
-
-![](./assets/learning-ojs3.1-jm-settings-web-announce.png)
-
-**الإعلانات**: لضبط كيفية ظهور الإعلانات على موقع مجلتك.
-
-**أنواع الإعلانات**: يمكنك إنشاء أنواع متعددة من الإعلانات \(مثل، الأخبار، تنبيهات صدور العدد الجديد، إلخ.\). إستعمل رابط _أضف نوعية إعلان_ لإنشائها.
-
-**الإعلانات**: إستعمل رابط _إضافة إعلان_ لإنشاء إعلان جديد ليظهر على صفحة الإعلانات.
-
-#### قوائم التنقل
-
-هذا المقطع يسمح لك بإعداد قوائم التنقل، وإضافة المزيد من الروابط إليها.
-
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu.png)
-
-**قوائم التنقل**: إعداد قوائم المستخدم \(والتي تضم اللغة، معاينة الموقع، واسم المستخدم\) أو القائمة الرئيسية \(على الصفحة الرئيسية للمجلة، وتضم الحالي، المحفوظات، عن، إلخ.\).
-
-**عناصر قائمة التنقل**: هذه عبارة عن روابط معدة لتظهر على أي من القائمتين أعلاه. إذا أردت وضع رابط إلى قائمة التنقل الرئيسية \(مثلاً، "مجتمعنا"\)، أضفها هنا مستعملاً رابط _إضافة عنصر_.
-
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.png)
-
-ستظهر الآن مع عناصر قائمة التنقل. بعدها، إذهب إلى قائمة التنقل المعنية \(ولتكن الرئيسية\)، إستعمل السهم الأزرق لكشف الخيارات، واختر التعديل. الآن يمكنك سحبها من العناصر غير المستعملة وإفلاتها ضمن العناصر المستعملة وبالموضع الذي ترغب به.
-
-![](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.png)
-
-أنقر حفظ لتسجيل التعديلات.
-
-<hr />
-
-## إعدادات المخطط الانسيابي
-
-إعدادات المخطط الانسيابي تسمح لك بإعداد الأجزاء المختلفة لمجريات أعمال التحرير في المجلة. تبويباتها تتضمن، المكونات، التقديمات، التحكيم، المكتبة الناشرة، والرسائل المحضرة.
-
-### المكونات
-
-عندما يقوم المؤلف بتقديم طلب نشر، يمكنه رفع عدة ملفات. عادة، واحد منها يمثل النص الرئيسي، وغيرها قد يضم توثيق المقابلات، جداول البيانات، الصور، إلخ. كل من هذه الملفات هو **مكون** من مكونات طلب التقديم. المكونات المتاحة للمؤلف ليختار منها عند تقديم طلبه مدرجة هنا.
-
-![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)
-
-باستعمال الروابط المتاحة، يمكنك تعديل **ترتيب** هذه المكونات \(كيفية عرضها أمام المؤلف\)، **أضف مكون** \(إذا كان هناك مكون غير مدرج ضمن القائمة وتريد إتاحته للمؤلف - مثلاً، فلم\)، أو **استعادة القائمة الافتراضية** \(إذا قام أحدهم بإجراء العديد من التعديلات وتريد إرجاع الأمور إلى ما كانت عليه\).
-
-#### تعديل المكون
-
-يمكنك أيضاً تعديل أي مكون عبر اختيار السهم الأزرق المحاذي لاسمه. هذا سيكشف رابطي التعديل والحذف.
-
-![](./assets/learning-ojs3.1-jm-settings-workflow-comp-edit.png)
-
-**الاسم**: هذه تسمية المكون كما ستظهر للمؤلف.
-
-**الخيارات**: إختر كيف ستتم معاملة الملفات المعرفة بهذا المكون وعرضها. أي شيء ستجعله ملفاً مستقلاً لن يتم نشره.
-
-**التجميع حسب نوع الملف**: حدد فيما لو أن هذا المكون مرتبط بمستند طلب التقديم، عمل فني، أو ملفاً تكميلياً.
-
-### التقديم
-
-إستعمل هذا المقطع لإعداد عملية التقديم.
-
-![](./assets/learning-ojs3.1-jm-settings-workflow-submission.png)
-
-**إرشادات المؤلف**: إستعمل هذا الحقل لإضافة إرشادات للمؤلفين. هذه المعلومات سيتم عرضها على موقع المجلة.
-
-**قائمة متطلبات التقديم**: على المؤلفين التأشير تباعاً على هذه الفقرات للإعراب عن موافقتهم على كل منها. إستعمل رابط  _الفرز_ لتغيير ترتيب الفقرات، إستعمل رابط _إضافة فقرة_ لإنشاء فقرة جديدة، واستعمل السهم الأزرق المحاذي للفقرة من أجل _تعديلها_.
-
-![](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
-
-**إشعار تقديم المؤلف**: أضف عنوان بريد الكتروني هنا ليرسل له النظام تلقائياً رسالة كلما تم تقديم طلب نشر جديد.
-
-**البيانات الوصفية لطلب التقديم**: هذا المقطع يسمح لك بتحديد حقول البيانات الوصفية التي تريد استعمالها في مجلتك.
-
-![](./assets/learning-ojs-3-settings-workflow-settings-submission-submission-metadata.png)
-
-كل إدخال هو نوع معلومة وصفية مختلف، وسيكون متاحاً لكل مقالة في مجلتك.
-
-بعض المجلات قد ترغب بتفعيلها جميعاً، لكن العديد منها قد يرغب بإبقاء الأمور على أبسط صورة والاكتفاء بالكلمات المفتاحية.
-
-إذا اخترت _ممكنة_، فإن هذا الحقل سيكون متوفراً لكل المؤلفات ضمن المجلة.
-
-إذا اخترت _نموذج التقديم_، فإن هذا الحقل سيكون متاحاً أيضاً إلى المؤلفين لتعبئته عند تقديم طلباتهم.
-
-تذكر أن تنقر على زر **حفظ** لتسجيل تعديلاتك في هذه الصفحة.
-
-**بيان الخصوصية**: النص الافتراضي لبيان الخصوصية يمكن تعديله إذا أردت.
-
-### التحكيم
-
-هذا التبويب يسمح لك بإعداد عملية التحكيم في مجلتك.
-
-![](./assets/learning-ojs3.1-jm-settings-workflow-review.png)
-
-**فترة استيجاب التحكيم**: تشير إلى الفترة المتاحة للمحكم ليقرر فيما لو أنه سيوافق على إجراء التحكيم أم لا، وكم هي الفترة المتاحة له لإرجاع توصياته بشأن طلب التقديم.
-
-**رسائل التذكيرالآلية**: تهيئة رسائل البريد الالكتروني الآلية التي سيرسلها النظام إلى المحكمين المتأخرين. لاحظ أن على المشرف توفير بعض الإعدادات في النظام قبل استعمال هذه الميزة. أنظر [إرشادات المشرف](https://docs.pkp.sfu.ca/admin-guide/en/email) للمزيد من المعلومات.
-
-**نماذج التحكيم**: نماذج التحكيم تتضمن مجموعة من الأسئلة الموجهة إلى المحكمين ليجيبوا عليها. هذا من شأنه أن يجعل استجابتهم أكثر تركيزاً ودقة بالنسبة لك.
-
-**إنشاء نموذج تحكيم**: إستعمل هذا الرابط لإنشاء نموذج تحكيم جديد.
-
-![](./assets/learning-ojs-3-settings-workflow-settings-review-create.png)
-
-حقل الوصف والملاحظات يوفر معلومات عن النموذج وظروف استعماله من قبل رؤساء التحرير والمحررين. هذا النص لا يتم تضمينه وعرضه مع النموذج عندما يشاهده المحكمون في الموقع. بإمكانك وضع إرشادتك إلى المحكمين ضمن باب دليل التحكيم \(أدناه\).
-
-عوداً إلى صفحة نموذج التحكيم، إختر السهم الأزرق المحاذي لاسم النموذج لكشف رابط التعديل.
-
-![](./assets/learning-ojs-3-settings-workflow-settings-review-edit1.png)
-
-إختر تعديل النموذج ثم أكمله.
-
-![](./assets/learning-ojs-3-settings-workflow-settings-review-create-items.png)
-
-**الفقرات** هي أسئلة النموذج.
-
-بإمكانك أن تختار فيما لو كان السؤال إجبارياً، كما لك أن تختار جعل إجابته متاحة للمؤلف.
-
-بعدها عليك تحديد نوع الإجابة، من عدة خيارات:
-
-* مربع نص لكلمة واحدة.
-* مربع نص لسطر واحد.
-* مربع نص موسع \(للإجابات الطويلة\).
-* خانات اختيار \(حيث يمكن للمحكم أن يختار واحد أو أكثر من الخيارات المتاحة\)
-* أزرار اختيار \(حيث يمكن للمحكم اختيار فقرة واحدة من الخيارات المتاحة\).
-* قائمة منسدلة \(أيضاً يمكن للمحكم اختيار فقرة واحدة فقط من بين مجموعة فقرات متاحة\).
-
-**خيارات الإجابة** هي الإختيارات التي تجعلها متاحة لخانات التأشير، أزرار الاختيار، أو القوائم المنسدلة. إليك مثالاً جيداً على إجابة من نوع أزرار الاختيار [Likert scale](https://en.wikipedia.org/wiki/Likert_scale)، حيث على المحكم أن يختار واحداً فقط من الخيارات المتاحة: جيد، متوسط، رديء.
-
-تذكر النقر على زر **حفظ** لتسجيل تعديلاتك.
-
-إستعمل التبويب **معاينة** لاختبار النموذج.
-
-![](./assets/learning-ojs-3-settings-workflow-settings-review-preview.png)
-
-بمجرد إرسال النموذج إلى محكم، لن يكون بإمكانك التعديل عليه لأن ذلك من شأنه تغيير متعلقات التحكيم التي استعملت ذلك النموذج. إذا أردت القيام بتعديلات على النموذج، عليك إنشاء نسخة منه ثم إجراء التعديلات على تلك النسخة وإطلاقها بعد ذلك بمثابة نموذج التحكيم الجديد.
-
-**التحكيم السري**: ضع تأشيرة هنا ليتم عرض رابط إلى الإرشادات المتعلقة بضمان التحكيم السري عبر رفع البيانات الشخصية من الملفات المتداولة خلال عملية التحكيم.
-
-![](./assets/learning-ojs-3-settings-workflow-settings-review2.png)
-
-**المصالح المتضاربة**: أضف سياستك عن الإفصاح عن المصالح المتضاربة هنا.
-
-**بيان المصالح المتضاربة للمحكم**: أضف خانة تأشير موجهة إلى المحكم يعترف عبرها بإقراره ببيان المصالح المتضاربة.
-
-**دليل التحكيم** زود محكميك بالمعايير التي عليهم اتباعها عند الحكم على مدى مناسبة طلبات التقديم للنشر في المجلة، والتي قد تتضمن دليلاً لمساعدتهم على إعداد توصيات جيدة وفعالة.
-
-**خيارات التحكيم**: إختر فيما لو أن المجلة ستتبع سياسة التحكيم السري من جهتين، من جهة واحدة، أو التحكيم المفتوح.
-
-**صلاحية وصول المحكم**: قم بتمكين الخيار الأول لتسمح للمحكم بالوصول إلى الملفات التي سيعمل عليها عبر نقرة واحدة، متجاوزاً الحاجة إلى تسجيل الدخول إلى الموقع. إستعمل هذا الخيار لأغراض الأمان، حيث لن يكون بإمكان المحرر تعديل عناوين البريد الالكتروني أو إضافة نسخ إضافية أو نسخ مخفية في رسالة التماس التحكيم المعنونة إلى المحكم.
-
-تمكين الإختيار الثاني سيمنع المحكم من الوصول إلى ملفات طلب التقديم إلا بعد موافقته على إجرائه.
-
-أنقر زر **حفظ** لتسجيل تعديلاتك.
-
-### مكتبة الناشر
-
-إستعمل مكتبة الناشر لخزن الوثائق الهامة، مثل خطة تسويق مجلتك، لمشاركتها مع فريق التحرير.
-
-![](./assets/learning-ojs3.1-jm-settings-workflow-publib.png)
-
-### الرسائل الالكترونية
-
-هذا المقطع يسمح لك بتهيئة الرسائل الالكترونية التي يرسلها النظام.
-
-![](./assets/learning-ojs3.1-jm-settings-workflow-emails.png)
-
-**التوقيع**: بيانات هذا الحقل ستتم إضافتها في تذييل الرسائل الالكترونية المرسلة من قبل النظام.
-
-**عنوان الارتداد**: إشعار سيتم إرساله إلى هذا العنوان إذا ما حدث أي فشل في إيصال رسائل النظام، كما في حالة أن العنوان المستهدف لم يعد صحيحاً.
-
-**قوالب الرسائل المحضرة**: الرسائل مسبقة التحضير هي جزء مهم من نظام المجلات المفتوحة. ستشاهدها كلها هنا، ويمكنك استعمال رابط التعديل \(كما هو الحال دوماً، عبر اختيار السهم الأزرق المحاذي لاسم القالب\) لإجراء أي تعديلات عليه. ليست كل هذه القوالب مستعملة في النسخة الثالثة من نظام المجلات المفتوحة. عند استعمال رابط "إضافة قالب رسالة"، ستتمكن من إنشاء قالب جديد ولكنه لن يكون متاحاً للاستعمال ضمن أي مرحلة من مراحل العمل.
-
-هناك بعض الإعدادات المطلوبة من المشرف على الموقع لتمكين النظام من إرسال الرسائل تلقائياً. أنظر [دليل المشرف](https://docs.pkp.sfu.ca/admin-guide/en/email) للمزيد من المعلومات.
-
-<hr />
-
-## إعدادات التوزيع
-
-تركز إعدادات التوزيع على المساعدة في الترويج لمجلتك. التبويبات هنا تضم الفهرسة، الوصول، المدفوعات، والصلاحيات.
-
-### الفهرسة
-
-هذا المقطع يساعدك على تحسين الأمثلية مع محركات البحث.
-
-![](./assets/learning-ojs3.1-jm-settings-dist-index.png)
-
-إستعمل **الوصف** لتقديم وصف موجز عن مجلتك إلى محركات البحث.
-
-إستعمل **العلامات المخصصة** لإضافة نصوص HTML مخصصة عند رأس كل صفحة من مجلتك \(مثلاً، علامات META التي من شأنها مساعدة محركات البحث في فهرسة الموقع\). لا بد من إضافة العلامات بشكل عناصر HTML. إذا قمت بإدخال كلمات مباشرة، فستظهر عند أعلى كل صفحة من الموقع بدلاً من البيانات الوصفية للموقع. إليك مثالاً عن النص الذي يمكن لك وضعه في هذا الحقل:
-
-```
-<meta name="description" content="The Journal of Public Knowledge. Publication of the Public Knowledge Project - PKP and Simon Fraser University - SFU" /><meta name="keywords" content="open access, scholarly publishing, open source software, non-profit organizations, scholarly journals, free software" /><meta name="author" content="metatags generator"><meta name="robots" content="index, follow"><meta name="revisit-after" content="3 month">
-```
-
-### الوصول
-
-نظام المجلات المفتوحة يتوافر على عدد من الخيارات المتعلقة بالأمان والتي بالإمكان استعمالها لتقييد الوصول إلى محتويات المجلة، وتقديم المزيد من المعلومات عن طلبات التقديم لأغراض رقابية.
-
-![](./assets/learning-ojs3.1-jm-settings-dist-access.png)
-
-إفتراضياً، خيار الوصول المفتوح هو المنتخب. مع ذلك، إذا أردت استعمال نظام المجلات المفتوحة لإدارة مجلة ذات اشتراكات، فانتقل إلى الخيار الثاني. هذا من شأنه أيضاً تمكين مقطع الاشتراكات عند الشريط الجانبي الأيمن \(هناك المزيد عن إدارة الاشتراكات في الفصل القادم\).
-
-أما لو كنت تريد من استعمال النظام إدارة مهام التحرير وليس أغراض النشر، فانتقل إلى الخيار الأخير.
-
-### المدفوعات
-
-نظام المجلات المفتوحة يتيح إمكانية جمع أموال المدفوعات عبر الإنترنت. إستعمل هذا المقطع لتحديد **العملة** الافتراضية \(كأن تكون الدينار العراقي، الجنيه المصري، إلخ.\) و **طريقة الدفع** \(مثلاً، عبر Paypal\).
-
-![](./assets/learning-ojs3.1-jm-settings-dist-pay.png)
-
-إن اختيار **دفع الرسوم يدوياً** سيسمح لك بوضع بعض التعليمات للمستخدمين \(مثل، لمن يجب تحرير الصكوك\).
-
-أما اختيار **دفع الرسوم عبر Paypal** سيتيح بعض الإعدادات الإضافية الأخرى حيث يمكنك وضع تفاصيل حسابك في Paypal.
-
-![](./assets/learning-ojs3.1-jm-settings-dist-pay-paypalsettings.png)
-
-### الصلاحيات
-
-هذا المقطع يغطي متعلقات الحقوق الفكرية في مجلتك.
-
-![](./assets/learning-ojs3.1-jm-settings-dist-permissions.png)
-
-**بيان الحقوق الفكرية**: أضف بيان مجلتك عن الحقوق الفكرية هنا. سيظهر ذلك على موقع المجلة.
-
-ضع تأشيرة في خانة التأشير لمطالبة المؤلف بالموافقة على بيان الحقوق الفكرية.
-
-**بناء سنة الحقوق الفكرية للمؤلفات**: إختر فيما لو أن سنة الحقوق الفكرية ستبنى على أساس صدور العدد \(حسب نمط النشر التقليدي المبني على الأعداد\) أم حسب المقالة \(حسب نمط النشر المستمر\).
-
-**مالك الحقوق الفكرية**: حدد من يملك الحقوق الفكرية للمقالات المنشورة في مجلتك. السياق الشائع في نزعة النشر المفتوح هو السماح للمؤلفين بالاحتفاظ بالحقوق الفكرية لأعمالهم.
-
-**الرخصة**: إختر رخصة مجلتك. CC Attribution 4.0 هي رخصة مستعملة على نطاق واسع في مجلات الوصول المفتوح، مما يسمح بأكبر قدر من المشاركة والتداول.
-
-**إعادة تعيين صلاحيات المؤلفات**: إذا غيرت مجلتك لاحقاً سياستها بشأن الرخص، إستعمل هذا الزر لإعادة ضبط الحقوق الفكرية لكل المحتوى المنشور فيها.
+To display categories on your website you can go to Website Settings > Sidebar Management and place the Browse block on your sidebar.
