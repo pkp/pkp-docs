@@ -49,24 +49,24 @@ In the Item box, type in the question. You can then select whether or not to mak
 
 
 
- 
-   
-![Adding Form Item Selections](images/chapter5/adding_form_items.png)  
 
-  
-  
+
+![Adding Form Item Selections](images/chapter5/adding_form_items.png)
+
+
+
 All created items can be edited, deleted or reordered. Additional items (i.e., questions) can be added by clicking on Create New Item. Notice that you can also copy the question to another Review Form if you have more than one.
 
 
 
-![View Form Items](images/chapter5/view_new_items.png)  
+![View Form Items](images/chapter5/view_new_items.png)
 
 
 Selecting **Preview Form** allows you to view the review form before activating it.
 
 
 
-![Preview Form](images/chapter5/preview_form.png)  
+![Preview Form](images/chapter5/preview_form.png)
 
 
 
@@ -74,13 +74,13 @@ To return to the main Review Form menu, select **Review Forms** from the breadcr
 
 
 
-![Return to Review Forms](images/chapter5/return_to_review_form.png)  
+![Return to Review Forms](images/chapter5/return_to_review_form.png)
 
 
-Back at the main Review Forms page, you can create another form (perhaps for your Book Review section), or edit, activate, preview, delete, or re-order existing forms. Once a review form is activated, it is ready to be used by editors when assigning a reviewer.  
+Back at the main Review Forms page, you can create another form (perhaps for your Book Review section), or edit, activate, preview, delete, or re-order existing forms. Once a review form is activated, it is ready to be used by editors when assigning a reviewer.
 
 
-  
+
 
 
 ![Activate Review Form](images/chapter5/activate_form.png)
