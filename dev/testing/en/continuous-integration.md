@@ -36,8 +36,9 @@ git commit -m "Submodule update ##NateWr/i123_example##"
 
 For the tests to run correctly against this commit, the changes must be in a branch named `i123_example` in _both repositories_.
 
-> In most cases, your work will be spread across multiple repositories. Use the same branch name across each repository to keep track of them. For example, work on issue 5421 might be in a branch named `i5421_function` in `ojs` and `pkp-lib`.
-{:.tip}
+> In most cases, your work will be spread across multiple repositories. Use the same branch name across each repository to keep track of them. For example, work on issue 5421 might be in a branch named `i5421_function` in `ojs` and `pkp-lib`. 
+> 
+> {:.tip}
 
 Sometimes changes are made to `pkp-lib` that do not require changes to OJS or OMP. In such cases, the tests must still be run. Create a branch in OJS or OMP, add the submodule commit, and create a pull request to OJS or OMP to run the tests.
 
