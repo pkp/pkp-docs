@@ -6,7 +6,7 @@ As a Journal Manager, you can decide which plugins to add to your journal, and w
 
 Currently included plugins include an alternative user authentication system (LDAP), imports and exports, an indexing tool for Google Scholar, themes, block plugins for UI extensions, and more.
 
-To see all of the available plugins, select **System Plugins** from the Journal's Management pages.  
+To see all of the available plugins, select **System Plugins** from the Journal's Management pages.
 
 
 
