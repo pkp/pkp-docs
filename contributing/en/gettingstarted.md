@@ -126,6 +126,7 @@ Now that you've committed your changes, you can push your changes back to the re
 
 This document is, necessarily, a brief introduction to using GitHub. GitHub has a tremendous amount of documentation on its use, however. If you want to read more about GitHub basics, read ["Hello, World"](https://guides.github.com/activities/hello-world/).
 
+
 <!---
 Include this in internal Documentation Procedures instead
 ## Modify cards and site layout
