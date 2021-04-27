@@ -1,0 +1,15 @@
+# Summary
+
+* [Introduction](.)
+* [Getting Started](./getting-started)
+  * [Configure Your Environment](./getting-started#configure-your-environment)
+  * [Run Integration Tests](./getting-started#run-integration-tests)
+  * [Run PHP Unit Tests](./getting-started#run-php-unit-tests)
+* [Continuous Integration](./continuous-integration)
+  * [Tests for Pull Requests](./continuous-integration#tests-for-pull-requests)
+* [Writing Tests](./writing-tests)
+  * [Commands](./writing-tests#commands)
+* [Debug Test Failures](./debug)
+  * [Local](./debug#debug-locally)
+  * [Continuous Integration](./debug#debug-ci)
+* [Plugins and Themes](./plugins-themes)
