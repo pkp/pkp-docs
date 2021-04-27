@@ -1,8 +1,7 @@
-# الملخص
+# Summary
 
-* [مقدمة](.)
-* [إنشاء حساب تجريبي من Paypal](chapter1.md)
-* [تهيئة حساب دفع قياسي عبر موقع PayPal](your-real-paypal-account.md)
-* [تهيئة نظام المجلات المفتوحة](configure-ojs.md)
-* [تهيئة نظام المؤتمرات المفتوحة](configure-ocs.md)
-* [معاينة المدفوعات](view-payments-made.md)
+* [Introduction](.)
+* [Set up PayPal accounts](setup-paypal-accounts.md)
+* [Test the PayPal plugin in OJS](configure-ojs.md)
+* [Use Your Real PayPal Account](your-real-paypal-account.md)
+* [Manage PayPal Payments](view-payments-made.md)
