@@ -15,8 +15,8 @@ A `Submission`'s publication details are stored in `Publication` objects and can
 ```php
 // Get the title of the current version
 $title = $submission
-	->getCurrentPublication()
-	->getLocalizedFullTitle();
+    ->getCurrentPublication()
+    ->getLocalizedFullTitle();
 ```
 
 The current publication refers to the most recently published version. If the submission has not been published yet, the current publication will be the most recently created version.
@@ -28,20 +28,20 @@ A publication can not be edited after it has been published. To make changes, a 
 ```php
 // Create a new version
 $newPublication = Services::get('publication')->version(
-	$submission->getCurrentPublication(),
-	$request
+    $submission->getCurrentPublication(),
+    $request
 );
 
 // Edit the new version
 $newPublication = Services::get('publication')->edit(
-	$newPublication,
-	['datePublished' => '2020-01-15'],
-	$request
+    $newPublication,
+    ['datePublished' => '2020-01-15'],
+    $request
 );
 
 // Publish the new version
 $newPublication = Services::get('publication')->publish(
-	$newPublication
+    $newPublication
 );
 ```
 
@@ -78,10 +78,10 @@ When displaying a list of the submission's versions in the UI, they should be id
 
 ```php
 foreach ($submission->getData('publications') as $publication) {
-	echo __('submission.versionIdentity', [
-		'datePublished' => $publication->getData('datePublished'),
-		'version' => $publication->getData('version'),
-	]);
+    echo __('submission.versionIdentity', [
+        'datePublished' => $publication->getData('datePublished'),
+        'version' => $publication->getData('version'),
+    ]);
 }
 // Produces the following:
 // 2019-11-13 (1)
@@ -102,6 +102,6 @@ Use the following code instead.
 
 ```php
 $title = $submission
-	->getCurrentPublication()
-	->getLocalizedFullTitle();
+    ->getCurrentPublication()
+    ->getLocalizedFullTitle();
 ```
