@@ -47,7 +47,7 @@ When including JavaScript in your theme, do not use the `escape` modifier becaus
 
 ```
 <script>
-	alert({$userMessage|json_encode|default:""});
+    alert({$userMessage|json_encode|default:""});
 </script>
 ```
 
