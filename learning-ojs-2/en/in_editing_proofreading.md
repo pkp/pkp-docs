@@ -38,7 +38,7 @@ If you as the Section Editor are acting as Proofreader, follow these steps:
 * Download the corrected Layout Versions, make any final changes, upload as revised galleys, and hit the Complete link to indicate that you have finished your proofreading.
 
 
-![Completing Proofreading as Layout Editor](images/chapter8/editor_proof_6.png)  
+![Completing Proofreading as Layout Editor](images/chapter8/editor_proof_6.png)
 
 
 * Repeat these editorial steps for each submission. Once you have scheduled all of the submissions to the issue, you can [Publish](https://docs.pkp.sfu.ca/learning-ojs-2/en/issues) the issue and make it available on your journal web site.
@@ -62,7 +62,7 @@ Select a Proofreader from the resulting list using the Assign link. If no Proofr
 The Section Editor then sends the Request email to the Author to begin the Proofreading process using the Request icon.
 
 
-![Contacting the Author](images/chapter8/proof_3.png)  
+![Contacting the Author](images/chapter8/proof_3.png)
 
 
 This will generate an email message, which includes detailed instructions for the Author.
