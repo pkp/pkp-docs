@@ -1,100 +1,150 @@
-# الفصل 9: الاشتراكات
+---
+book: learning-ojs
+version: 3.3
+---
 
-نظام المجلات المفتوحة 3.1 يسمح لك بأن تجعل بعضاً أو كلاً من محتوى المجلة مقتصراً على المشتركين فيها. لتمكين الاشتراكات، إذهب أولاً إلى [الإعدادات، ثم التوزيع، ثم الوصول](./journal-setup.md#الوصول).
+# Subscriptions
 
-## سياسات الاشتراك
+OJS allows you to restrict some or all of your content to subscribers. To enable Subscriptions, first go to [Settings > Distribution > Access](./settings-distribution.md).
 
-إملأ تفاصيل سياسات الاشتراكات في هذه الصفحة.
+## Subscription Policies
+
+Fill in details about your subscription policies on this page.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-policies.png)
 
-- **مدير الاشتراكات**: أضف بعض البيانات الشخصية عن الشخص المسؤول.
-- **معلومات الاشتراكات**: أضف تفاصيل تتعلق بسياسة الاشتراكات لتظهر على موقع المجلة.
-- **انتهاء صلاحية الاشتراك**: حدد فيما لو أن الاشتراكات السابقة ستكون لها صلاحيات الوصول إلى المحتوى القديم في المجلة.
-- **التذكيرات بانتهاء صلاحيات الاشتراكات**: قم بتهيئة رسائل وإشعارات التذكير التلقائي بشأن قرب انتهاء صلاحية الاشتراكات.
-- **إشعارات الدفع عبر الإنترنت**: أبق مدير الاشتراكات على علم بفعاليات الدفع عبر الإنترنت.
-- **خيارات الوصول المفتوح بالنسبة إلى المجلات العاملة بالاشتراكات**: حسب ما تراه مناسباً، حدد عدد الأشهر التي يستمر بها تقييد الوصول المفتوح وجعله مقتصراً على المشتركين في المجلة، على اعتبار أن المحتوى الأقدم سيصير متاحاً للعامة بشكل تلقائي.
+- **Subscription Manager**: Add personal details for the responsible person.
+- **Subscription Information**: Add policy details to display on the journal website.
+- **Subscription Expiry**: Determine whether past subscribers should continue to have access to older content.
+- **Subscription Expiry Reminder**: Configure automated renewal reminders.
+- **Online Payment Notifications**: Keep the Subscription Manager informed of payment activities.
+- **Open Access Options for Subscription Journals**: If appropriate select the number of current months for restricting access. Older content will be automatically made open.
 
-## أنواع الاشتراكات
+## Subscription Types
 
-الخطوة التالية في إدارة الاشتراكات هي تعريف أنواع الاشتراكات التي تقدمها المجلة.
+The next step in setting up subscription management is to designate the types of subscriptions the journal offers.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-types.png)
 
-عادة ما توفر المجلات اشتراكات فردية وأخرى مؤسساتية. بعض المجلات قد تقدم عروضاً خاصة لأعضاء منظمات معينة أو للطلبة. نظام المجلات المفتوحة سيدعم إدارة الاشتراكات بشكليها الورقي والتي على الإنترنت. يمكن إنشاء أكثر من نوع واحد من الاشتراكات لتغطية فترات زمنية أطول \(12 شهراً، 36 شهراً\).
+Journals typically offer individual subscription and institutional subscription rates. Some journals may have special offers for members of an organization or students. OJS will support the management of print and/or online subscriptions. More than one type of subscription can be created to cover longer periods of time (12 months, 36 months).
 
-إختر **إنشاء نوع اشتراك جديد** لإضافته إلى أنواع الاشتراكات.
+Select **Create New Subscription Type** to add a new one.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-types-create.png)
 
-- **تسمية النوع**: أعط نوع الاشتراك هذا اسماً فريداً \(مثلاً، للطلبة\).
-- **الوصف**: أعط وصفاً موجزاً ليظهر على الموقع.
-- **الكلفة**: إختر نوع العملة ومقدار المبلغ.
-- **الصيغة**: إختر الكيفية المعنية \(مثلاً، عبر الإنترنت\)
-- **الفترة**: أدخل عدد الأشهر التي سيغطيها هذا النوع \(مثلاً، 12\).
-- **صنف الاشتراك**: يحدد فيما لو كان هذا النوع مخصصاً للأفراد أم للمؤسسات.
-- **الخيارات**: إختر الخيارات المناسبة \(إذا توفرت\).
+- **Name of Type**: Give this new subscription type a unique name (e.g., Student).
+- **Description**: Provide a brief description that will appear on the website.
+- **Cost**: Select the currency type and amount.
+- **Format**: Choose the appropriate format (e.g., Online).
+- **Duration**: Enter the number of months this type of subscription will cover (e.g., 12).
+- **Subscriptions**: Indicate whether this type covers individuals or institutions.
+- **Options**: Select the appropriate options (if any).
 
-## طرق الدفع
+## Payment Types
 
-إذا لم يسبق لك القيام بذلك، إذهب إلى [الإعدادات، ثم التوزيع، ثم المدفوعات](./journal-setup.md#المدفوعات) وحدد العملة المناسبة وطريقة الدفع \(مثلاً، Paypal\).
+If you haven't already done so, go to [Settings > Distribution > Payments](./settings-distribution.md) and set the appropriate currency and payment method (e.g., PayPal).
 
-إستعمل هذه الصفحة لتعريف المبالغ المستحقة إزاء كل من الرسوم التي تعمل بها المجلة.
+Use this page to set the amounts charged for various types of fees.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-paytypes.png)
 
-- **خيارات عامة**: أشر هناك للسماح بجمع المدفوعات.
-- **رسوم المؤلف**: حدد المبلغ المستحق لقاء معالجة طلب التقديم \(APC\).
-- **رسوم القراء**: استعمل ذلك لمطالبة القراء برسوم مغايرة لرسوم الاشتراكات.
-- **رسوم عامة**: إستعملها لفرض رسوم إضافية، مثل رسوم العضوية.
+### Author Fees
 
-## المدفوعات
+If you want to charge an article processing charge (APC) to authors, enter the amount here. Enable Author Fees will allow you to request an article processing charge after the review process has been completed. When the article is accepted by the editor, the editor will have the option to require payment. This will result in the author receiving a notification in OJS and an email, which will direct them through the payment process.
 
-كلما تم استحصال مبالغ المدفوعات، سيتم إدراجها ضمن هذا التبويب.
+Note that the option to notify authors about the Author Fee will appear only when the payment details (PayPal account details or manual PayPal instructions) have been completed in [Settings > Distribution > Payments](./settings-distribution#payments).
 
-<hr />
+![](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
 
-## الاشتراكات الفردية
+Authors will be required to login to the journal before being directed to PayPal to process payment.
 
-كل أنواع الاشتراكات الفردية سيتم إدراجها هنا.
+### Reader Fees
+
+If you want to charge fees to access individual articles and issues, you can enter the prices for articles and issues here.
+
+You can apply the fees to PDF files only by checking off "Only Restrict Access to PDF version of issues and articles".
+
+Note that in order to sell access to an issue, you will need to upload an issue galley.
+
+### General Fees
+
+Use this to charge other fees, such as memberships.
+
+## Payments
+
+As various payments are received, they will be listed under this tab.
+
+Only payments made through PayPal will be recorded here.
+
+## Individual Subscriptions
+
+All types of individual subscriptions will appear here.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-indiv.png)
 
-بإمكانك إنشاء اشتراك فردي جديد عبر استعمال رابط إنشاء اشتراك جديد. أولاً، لا بد لك أن تقوم بإنشاء حساب مستخدم لذلك الشخص ضمن [باب المستخدمون، ثم الأدوار](./user-accounts.md#أدوار-النظام). بمجرد إكمال ذلك، يمكنك البحث عن ذلك الحساب هنا وتطبيق باقي الإعدادات عليه.
+You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for that person under Users & Roles (see [the User Accounts chapter](./user-accounts)). Once that is done, you can search for the account here, and apply the different configurations.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-indiv-create.png)
 
-**نوع الاشتراك**: إختر النوع المناسب لهذا المشترك الجديد \(مثلاً، للطلبة\) وحالته \(مثلا، فعال\).
+**Subscription Type**: Select the appropriate type for this new subscriber (e.g., Student) and its status (e.g., Active).
 
-> أنواع الاشتراكات تم تبيانها سلفاً في هذا الفصل.
+> Subscription Types were configured earlier in this chapter.
 
-**التأريخ**: حدد يومي بدء الاشتراك وانتهائه.
+**Date**: Set the start and end dates for this subscription.
 
-**العضوية**: إذا كان المشترك مرتبطاً بأي عضوية ذات صلة، أضف تلك المعلومة هنا \(إختياري\).
+**Membership**: If the subscriber is associated with any relevant memberships, add that information here (optional).
 
-**الرقم المرجعي**: إذا كان هذا الاشتراك مرتبطاً بأي رقم مرجعي \(مثل رقم فاتورة الدفع\)، أضف تلك المعلومة هنا \(إختياري\).
+**Reference Number**: If the subscribe is associated with any relevant reference number (such as an invoice number for payment), add that information here (optional).
 
-**ملاحظات**: إذا كانت لديك أي ملاحظات ذات صلة، أدرجها هنا \(إختياري\).
+**Notes**: If you have any relevant notes to add, record that information here (optional).
 
-<hr />
+## Institutional Subscriptions
 
-## الاشتراكات المؤسساتية
-
-كل أنواع الاشتراكات المؤسساتية سيتم إدراجها هنا.
+All types of institutional subscriptions will appear here.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-instit.png)
 
-تتم إدارة الاشتراكات المؤسساتية بشكل مماثل للاشتراكات الفردية، ولكنها عادة ما تخصص للمكتبات، المؤسسات البحثية، وغيرها من المنظمات التي تشترك في مجلتك.
+Institutional subscriptions are managed similarly to individual subscriptions, but are used for libraries, research institutes, and other organizes that subscribe to your journal.
 
-يمكنك إنشاء اشتراك مؤسساتي جديد عبر استعمال رابط إنشاء اشتراك جديد. أولاً، لا بد لك أن تقوم بإنشاء حساب مستخدم للشخص المعني بالاتصال في تلك المؤسسة ضمن [باب المستخدمون، ثم الأدوار](./user-accounts.md#أدوار-النظام). بمجرد إكمال ذلك، يمكنك البحث عن ذلك الحساب هنا وتطبيق باقي الإعدادات عليه.
+You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for the institution's contact person under Users & Roles (see [the User Accounts chapter](./user-accounts)). Once that is done, you can search for the account here, and apply the different configurations.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-instit-create.png)
 
-- **نوع الاشتراك**: إختر النوع المناسب لهذا المشترك الجديد \(مثلاً، مكتبة\) وحالته \(مثلاً، فعال\).
-> (أنواع الاشتراكات تم تبيانها سلفاً في هذا الفصل.)
-- **التأريخ**: حدد يومي بدء الاشتراك وانتهائه.
--  **المؤسسة**: أضف اسم المؤسسة المخصص لها هذا الاشتراك \(مثلاً، مكتبة جامعة الصراط المستقيم\).
-- **عنوان المراسلة البريدية**: أضف عنوان مراسلة المؤسسة.
-- **المجال**: القراء الذين سيدخلون إلى النظام عبر مجال بهذه التسمية، سيحصلون تلقائياً على صلاحية الوصول \(مثلاً، sfu.ca\). هذا سيشمل المستخدمين المقيمين في المجمع.
-- **مدى عنوان IP**: قد تقدم لك المؤسسة مديات من عناوين IP. القراء الذين يدخلون من شبكات تستعمل تلك المديات، سيحصلون تلقائياً على صلاحية الوصول.
-- **ملاحظات**: إذا كانت لديك أي ملاحظات ذات صلة، أدرجها هنا \(إختياري\).
+- **Subscription Type**: Select the appropriate type for this new subscriber (e.g., Library) and its status (e.g., Active). (Subscription Types were configured earlier in this chapter.)
+- **Date**: Set the start and end dates for this subscription.
+- **Institution**: Add the name of the institution for this subscription (e.g., Simon Fraser University Library).
+- **Mailing Address**: Add the address of the institution.
+- **Domain**: Readers coming from a computer with this domain will automatically receive access (e.g., sfu.ca). This will apply to on-campus users.
+- **IP Ranges**: The institution may provide you with IP ranges. Readers using a computer in this IP range will automatically receive access. Each IP range should be entered as a new line.
+
+![](./assets/learning-ojs3.2-jm-subscriptions-instit-IP.png)
+
+- **Notes**: If you have any relevant notes to add, record that information here (optional).
+
+## Payment Notifications
+
+### Manual payment notifications
+
+With a manual payment notification, once this information is filled out the subscription manager is notified via email that a manual payment has been made. Since the sandbox is restricted from sending emails any tests that you would do would not send an email as it normally does.
+
+These manual subscriptions will also be recorded in the Payment > Individual or Institutional tab. The example below shows a test subscription.
+
+From here the subscription manager can update the status as needed based on your workflow.
+
+![](./assets/learning-ojs3.2-subs-manual-notification.png)
+
+### PayPal payment notifications
+
+When a payment has been processed through PayPal the account administrator for your PayPal account will receive notification of payment. The payment will also be recorded in the Payment tab in Payments > Payment.
+
+## Subscription Block
+
+When a user is being provided access to a site or its content via a subscription, the information of the subscriber providing access can be displayed in the sidebar. The Subscription Block feature must be selected for display in Website Settings > Appearance > Sidebar Management.
+
+## Setting Articles as Open Access
+
+If you would like to set certain articles as Open Access, this can be done by going to **Issues** on the left menu. If you would like to set it before publishing the issue, click the Future tab followed by the blue arrow beside the Issue.
+
+Under the Table of Contents, check off the articles that will be set as Open Access.
+
+![](./assets/learning-ojs3.2-jm-subscriptions-single-article.png)
