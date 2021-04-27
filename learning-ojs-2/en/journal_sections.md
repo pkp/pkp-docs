@@ -7,7 +7,7 @@ To create a new section:
 * Go to Management Pages and select Journal Sections:
 
 
-    
+
  ![Management Pages: Journal Sections](images/chapter5/jm_man_sections.png)
 
 
