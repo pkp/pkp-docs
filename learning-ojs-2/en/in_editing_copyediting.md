@@ -46,7 +46,7 @@ Once the Author has uploaded any revisions, be sure to use the Acknowledge icon 
 
 If your journal is configured to use separate Copyeditors, you must first select one for the submission using the Assign Copyeditor link.
 
-![Assigning Copyeditor](images/chapter8/copyeditor_assign_1.png)  
+![Assigning Copyeditor](images/chapter8/copyeditor_assign_1.png)
 
 On the resulting screen, select an available Copyeditor by clicking **Assign**. If there isn't one, ask your Journal Manager to enroll one.
 
@@ -58,7 +58,7 @@ Use the **Request** mail icon to ask the Copyeditor to undertake the assignment.
 
 This will generate with prepared email template text automatically provided.
 
-![Send Email](images/chapter8/copyeditor_assign_4.png)  
+![Send Email](images/chapter8/copyeditor_assign_4.png)
 
 
 For details on the Copyeditor's tasks and the order in which they are performed, see Chapter 10: [Copyeditors](https://docs.pkp.sfu.ca/learning-ojs-2/en/copyeditors).
@@ -73,7 +73,7 @@ Use the Request icon in Step 3 to ask the Copyeditor to make the final revisions
 Once the Copyeditor is finished with the final revisions, you will receive an email notification. Returning to the submission record, you will see the final copy (e.g.2-25-4.CE.DOCX) and be able to use the Acknowledge icon to thank them for their work. This file will now automatically become the first layout file.
 
 
-![Acknowledging Final Copyedits](images/chapter8/copyeditor_assign_6.png)      
+![Acknowledging Final Copyedits](images/chapter8/copyeditor_assign_6.png)
 
 
 At any time in the editing process, an editor or section editor can view the **History** of a submission which includes an Event Log, Email Log and any Submission Notes on the article.
