@@ -1,310 +1,280 @@
-# Luku 10: Kirjoittajat
+---
+book: learning-ojs
+version: 3.1
+---
 
-Tässä luvussa kerrotaan OJS3-järjestelmän toiminnoista kirjoittajan näkykulmasta.
+# Chapter 13: Authoring
 
-## Rekisteröityminen julkaisuun
+In this chapter, you will learn about how an author works in OJS 3.1 from registration through to proofreading the final galley.
 
-Käsikirjoituksen lähettämiseksi tarvitset käyttäjätilin OJS-järjestelmään. \(katso [Rekisteröityminen julkaisuun](./user-accounts#Rekisteröityminen)\).  Lehden ylläpito voi kytkeä rekisteröitymistoiminnon pois päältä, jolloin järjestelmä ilmoittaa, että rekisteröityminen on suljettu.
+## Registering with the Journal
 
-Aloita rekisteröityminen valitsemalla Rekisteröidy-linkki, joka löytyy tavallisesti julkaisun kotisivun oikeasta yläkulmasta.
+To make a submission to an OJS 3.1 journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
 
-Tilin luomisen jälkeen voit kirjatua sisään järjestelmään ja pääset omaan Hallintapaneeliin.
+![Submissions queue in author dashboard](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
-![](./assets/learning-ojs3.1-au-dashboard-empty2.png)
-
-Näkymä on tällä hetkellä tyhjä, koska käyttäjätilillä ei ole lähetetty aiemmin käsikirjoituksia.
+It is currently empty as you have made no submissions.
 
 <hr />
 
-## Käsikirjoituksen lähetys
+## Submitting an Article
 
-Julkaisun sivuilla pääset lähettämään käsikirjoitusta valitsemalla "Lähetä käsikirjoitus" yläpalkista tai menemällä valikkoon "Tietoa" => "Käsikirjoitukset", josta valitset toiminnon "Lähetä uusi käsikirjoitus". Joidenkin julkaisujen kotisivuilla voi olla myös vaihtoehtoisia polkuja.
+Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to Step 1 of a 5-Step process to upload and describe your submission.
 
-Mikäli olet jo siirtynyt Hallintapaneeliin, aloita käsikirjoituksen lähetys valitsemalla **Uusi käsikirjoitus** näkymän oikeasta reunasta.
+![Author submission queue with new submission button](./assets/learning-ojs3.1-au-dashboard-new.png)
 
-Toiminto avaa viisiportaisen lomakkeen, jossa käsikirjoitus lähetetään ja kuvaillaan.
+### Step 1
 
-![](./assets/learning-ojs3.1-au-dashboard-empty2.png)
+In **Step 1** you will provide preliminary information about your submission.
 
-### Vaihe 1
+![Article submission start screen](./assets/learning-ojs3.1-au-dashboard-new-1.png)
 
-Ensimmäisessä vaiheessa täytetään käsikirjoituksen luokitteluun liittyviä perustietoja. Sivulla näkyvät kohdat riippuvat osittain lehden asetuksista, eli kaikkia alla mainittuja kohtia ei välttämättä ole julkaisussa, johon olet lähettämässä käsikirjoitusta.
+To begin select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-s1.png)
+Read and agree to the statements in the submission checklist by checking each box. Include any comments for the editor, read the journal’s privacy statement, and then click the **Save and Continue** button to move to **Step 2**.
 
-Valitse käsikirjoituksen kieli vetovalikosta.
+### Step 2
 
-Valitse käsikirjoitukselle sopiva osasto. Jos et ole varma valinnastasi, niin valitse sopivin. Toimituskunta pääsee vaihtamaan osastoa vielä useaan kertaan prosessin aikana.
+On **Step 2**, a window will open allowing you to upload your submission file.
 
-Lue ja hyväksy tarkistuslistassa olevat kohdat. Mikäli käsikirjoituksesi ei täytä ehtoja, tee tarvittavat korjaukset ennen etenemistä.
+![File upload screen](./assets/learning-ojs-3-author-submission-step2.png)
 
-Lisää tarvittaessa kommentteja toimittajalle.
+First, you MUST select an Article Component. This lets the system know whether the file is the body of the manuscript, an image, a data set, etc. **This must be selected before your file will upload**.
 
-Valitse tarvittaessa oikea kirjoittajarooli. Tavallisesti julkaisussa on vain yksi kirjoittajille tarkoitettu käyttäjärooli.
+![Select article component](./assets/learning-ojs-3-author-submission-step2-2.png)
 
-Lue ja hyväksy tekijänoikeuksiin liittyvät ehdot.
+Once you’ve made that selection, you can then upload your first file. It is important to note that you can only upload **one** file at a time. Additional files can be uploaded later in the process. Typically, this first file will be the body of your manuscript. Hit the **Continue** button once the file uploads.
 
-Lue ja hyväksy tietosuojaseloste.
+![Review submission details](./assets/learning-ojs-3-author-submission-step2-3.png)
 
-Valitse **Tallenna ja jatka**, jolloin siirryt seuraavaan vaiheeseen.
+After uploading the file, you will be asked to review the name of the file. Use the Edit link to make any changes.
 
-### Vaihe 2
+Click the **Continue** button.
 
-Toisessa vaiheessa pääset lisämään käsikirjoitukseen liittyviä tiedostoja. Ruudulle avautuu uusi pieni ikkuna, joka sisältää kolmiportaisen lomakkeen.
+Next, you have the option to repeat the process to upload additional files \(e.g., a data set or an image\).
 
-Käsikirjoitustiedostojen tulee tavallisesti olla anonymisoituja, eli niissä ei saa mainita kirjoittajien omia nimiä.
+Once you have finished uploading all of your files, click **Complete**; this will close the upload window.
 
-![](./assets/learning-ojs-3-author-submission-step2.png)
+![Complete upload](./assets/learning-ojs-3-author-submission-step2-4.png)
 
-Valitse ensin Artikkelin osa. Valinnalla määritetään, että onko kyse varsinaisesta käsikirjoitustiedostosta vai mahdollisesti jostakin liitetiedostosta. **Pääset lataamaan tiedostoa vasta valinnan jälkeen**. Tavallisesti oikea vaihtoehto on "Artikkelin teksti".
+You will be brought back to the _Submit an Article_ screen where you will see the files you’ve uploaded. If you need to make changes, expand the blue arrow to the left of your file and make any changes using the _Edit_ link.
 
-![](./assets/learning-ojs-3-author-submission-step2-2.png)
+Click ‘Save and Continue’ to move to Step 3.
 
-Valinnan tehtyäsi pääset lataamaan ensimmäisen tiedoston. Huomaa, että voit ladata vain yhden tiedoston kerralla. Valitse **Lataa tiedosto** ja etsi oikea tiedosto tietokoneeltasi. Kun tiedosto on siirtynyt, valitse **Jatka**. 
+### Step 3
 
-![](./assets/learning-ojs-3-author-submission-step2-3.png)
+On **Step 3**, you will be asked to add more information about the submission, including the title of the submission \(broken down into prefix, title, and subtitle\), the abstract, and scrolling down...
 
-Tiedoston siirron jälkeen voit nimetä sen halutessasi uudelleen, mutta tavallisesti oletuksena annettu nimi riittää. Mikäli olet lisäämässä liitetiedostoa, näkymässä on lomake, johon voit tarvittaessa täyttää tiedoston kuvailutiedot.
+![Enter metadata](./assets/learning-ojs3.1-au-dashboard-new-3.png)
 
-Valitse **Jatka**.
+...any additional contributors.
 
-Ensimmäisen tiedoston lisäys on nyt valmis. Voit lisätä uusia tiedostoja valitsemalla **Lisää toinen tiedosto**. Kun olet lisännyt kaikki tiedostot, valitse **Suorita**, jolloin ikkuna sulkeutuu.
+![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
-![](./assets/learning-ojs-3-author-submission-step2-4.png)
+You can add more contributors \(e.g., co-authors\), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
 
-Näkyville tulee lomakkeen toinen vaihe, jossa on nyt listattuna kaikki lisäämäsi tiedostot. Mikäli sinun pitää tehdä tiedostoihin muutoksia, voit painaa tiedoston nimen edessä olevaa sinistä kolmiota, josta pääset joko muokkaamaan tai poistamaan ko. tiedoston. Huomaa, että muokkaus koskee vain tiedoston kuvailutietoja. Voit myös jatkaa tiedostojen lataamista valitsemalla **Lataa tiedosto**.
+![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
 
-![](./assets/learning-ojs-3-author-submission-step2-5.png)
+Hit **Save**, and the new contributor will appear on the screen.
 
-Valitse **Tallenna ja jatka**, jolloin siirryt lomakkeen kolmanteen vaiheeseen.
+![List with new contributors added](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
-### Vaihe 3
+Depending on the journal you are submitting to, you may see additional fields to complete, such as keywords.
 
-Kolmannessa vaiheessa täytetään käsikirjoituksen kuvailutiedot. **Muista täyttää käsikirjoituksen kuvailutiedot huolellisesti**.
+![Enter keywords](./assets/learning-ojs-3-author-submission-step3-4.png)
 
-Täytä käsikirjoituksen otsikko (kolmessa osassa, joista prefiksi koskee vain joitakin kieliä) sekä abstrakti.
+To enter keyword, simply type the word or phrase and hit your Enter key. The word or phrase will be formatted as a keyword.
 
-Mikäli lehti on monikielinen, myös kuvailutiedot voi täyttää usealla kielellä. Tällöin esimerkiksi otsikko-kenttää painaessa avautuu jokaiselle kieliversiolle oma tekstikenttä, johon voi kirjoittaa otsikon.
+Click **Save and Continue** to move forward.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3b.png)
+### Step 4
 
-Absraktin alapuolella on tekijäluettelo. Oletuksena käsikirjoitusta lähettävän kirjoittajan tiedot näkyvät valmiina.
+On Step 4, you will be asked to confirm that you are happy with your submission.
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3-contribb.png)
+Click **Finish Submission**.
 
-Mikäli tarvitaan muita tekijöitä, valitse kohta **Lisää tekijä**. Tämä toiminto avaa uuden lomakkeen, johon tekijän tiedot täytetään. Huomaa, että tarvitset henkilöiden sähköpostiosoitteet. Lomakkeen pakolliset kentät on merkitty punaisella tähdellä.
+![Finish submission screen](./assets/learning-ojs3.1-au-dashboard-new-4.png)
 
-![](./assets/learning-ojs-3-author-submission-step3-2b.png)
+A box will pop up asking you to confirm you are finished. Click **OK**.
 
-Valitse **Tallenna** ja uusi tekijä lisätään luetteloon.
+![Confirm submission screen](./assets/learning-ojs-3-author-submission-step4-1.png)
 
-![](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-newb.png)
+### Step 5
 
-Riippuen julkaisun asetuksista ja kirjoittajaohjeista voit nähdä tekijäluettelon alla myös muita kuvailutietoja koskevia kenttiä, kuten avainsanat.
+![Next steps submission screen](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
-![](./assets/learning-ojs-3-author-submission-step3-4b.png)
+Your submission is now complete! The editor has been notified of your submission. At this point, you can follow the links to:
 
-Avainsanojen tapaisten kenttien kohdalla erota annettavat sanat painamalla aina enter-nappia sanan jokaisen kirjoittamisen jälkeen. Mikäli järjestelmä ehdottaa sanoja kirjoitettaessa, voit valita sanan klikkaamalla sitä.
+* Review this submission
+* Create a new submission
+* Return to your dashboard
 
-Kun kuvailutiedot on tarkistettu valitse **Tallenna ja jatka**.
+Once you complete a submission, you cannot make changes to it.  If you want to replace the file you submitted or make other changes to the submission, you will need to contact the editor through the Pre-Review Discussions tool.
 
-### Vaihe 4
+### Dashboard
 
-Neljännessä vaiheessa sinua pyydetään varmistamaan, että olet valmis lähettämään käsikirjoituksen.
+And here is your submission in your Dashboard. You can see that it is currently in the _Submission_ stage.
 
-Valitse **Suorita lähetys**.
+![Submission in author dashboard](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
-![](./assets/learning-ojs3.1-au-dashboard-new-4b.png)
-
-Varmistus kysytään vielä uudelleen avautuvassa ikkunassa. Valitse **OK**.
-
-![](./assets/learning-ojs-3-author-submission-step4-1b.png)
-
-### Vaihe 5
-
-![](./assets/learning-ojs3.1-au-dashboard-new-5b.png)
-
-Käsikirjoitus on nyt lähetetty! Toimittajat ovat saaneet tiedon uudesta käsikirjoituksesta.
-
-### Hallintapaneeli
-
-Käsikirjoituksesi näkyy nyt Hallintapaneelissa kohdassa **Oma jononi**. Käsikirjoituksen otsikon perässä näkyy käsikirjoituksen työvaihe ja otsikkoa painamalla pääset katsomaan toimitusprosessia koskevaa näkymää kirjoittajan näkökulmasta. Klikkaamalla otsikon oikeassa reunassa oleva sinistä nuolta, näet lisätietoja käsikirjoitukseen liittyen.
-
-![](./assets/learning-ojs3.1-au-dashboard-new-subb.png)
-
-Käsikirjoitus etenee toimitusprosessissa ja toimittajat ovat sinuun yhteydessä järjestelmän kautta. 
+Over the coming days, it will move into the Review stage, and if accepted, into the Copyediting and Production stages before being published.
 
 <hr />
 
-## Vertaisarviointiin vastaaminen
+## Responding to a Review
 
-Kun artikkelia koskeva vertaisarviointi on valmis, toimittaja ilmoittaa sinulle sähköpostitse päätöksestä.
+Once the review process has completed, you will be notified via email by the editor of their decision.
 
-Sähköpostin saatuasi siirry lehden sivuille ja kirjaudu omaan Hallintapaneeliisi.
+After receiving the email, login to your dashboard.
 
-![](./assets/learning-ojs-3.1-au-responding-revisions.png)
+![Submission dashboard with items in review](./assets/learning-ojs-3-auth-responding-revisions.png)
 
-Listauksesta näkyy, että käsikirjoitukseen on pyydetty korjauksia. Siirry käsikikirjoitukseen klikkaamalla sen otsikkoa.
+Select the *Review* link next to your submission to view the decision.
 
-![](./assets/learning-ojs-3.1-au-responding-revisions2.png)
+![Review tab of manuscript](./assets/learning-ojs-3-auth-responding-revisions2.png)
 
-Siirryt käsikirjoituksesi työnkulkuun, jossa olet parhaillaan arviointivaiheessa. Näkymän yläosassa lukee toimittajan päätös ja siinä oleva linkki johtaa toimittajan lähettämään viestiin, jossa annetaan tarkemmat ohjeet.
+From here, you can see the decision (revisions requested) and a link to the editor's notification.
 
-![](./assets/learning-ojs-3.1-au-responding-revisions3.png)
+![Editor decision notification](./assets/learning-ojs-3-auth-responding-revisions3.png)
 
-Tee lähettämääsi käsikirjoitukseen toimittajan ja arvioijien esittämät muutokset. Muista pitää käsikirjoitusta anonymisoituna.
+Based on the information in the editor's message, you must now prepare your revisions.
 
-### Uuden version lähetys
+### Uploading the Revised File
 
-Kun muokattu käsikirjoitus on valmis, siirry lehden sivuille ja kirjaudu Hallintapaneeliin. Klikkaa käsikirjoituksesi otsikkoa.
+By scrolling down the page, you will find a panel for **Revisions**.
 
-Avautuvalta sivulta, Arviointi-välilehdeltä, löydät laatikon, joka on otsikoitu **Korjaukset**.
+![Revisions panel](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
-![](./assets/learning-ojs-3.1-au-responding-revisions4.png)
+Use the *Upload a File* link to upload your revised manuscript.
 
-Valitse *Lataa tiedosto*.
+![Upload review file](./assets/learning-ojs-3-auth-responding-upload.png)
 
-![](./assets/learning-ojs-3-auth-responding-upload.png)
+Use the dropdown menu to choose that you are uploading a revision of an existing file.
 
-Valitse vetovalikosta se tiedosto, jonka uutta versiota olet lisäämässä. 
+Then upload the revised file and hit **Continue**.
 
-Lataa tämän jälkeen uusi tiedosto koneeltasi.
+![Review file details and continue](./assets/learning-ojs-3-auth-responding-upload2.png)
 
-![](./assets/learning-ojs-3-auth-responding-upload1.png)
+Check the file details and hit **Continue** again.
 
-Kun tiedosto on siirretty, valitse **Jatka**.
+![Add another file or complete upload](./assets/learning-ojs-3-auth-responding-upload3.png)
 
-![](./assets/learning-ojs-3-auth-responding-upload2.png)
+If you have any additional files to upload, do so now. Otherwise, hit **Complete**.
 
-Tarkista tiedoston nimi ja valitse uudelleen **Jatka**. Tavallisesti nimeä ei tarvitse muuttaa.
+Your revised file is now visible in the Revisions panel.
 
-![](./assets/learning-ojs-3-auth-responding-upload3.png)
+![Revised file now in revisions panel](./assets/learning-ojs-3-auth-responding-upload4.png)
 
-Voit halutessasi ladata myös muita uusia tiedostoja. Kun olet valmis, valitse **Suorita**.
+### Inform the Editor
 
-Korjattu käsikirjoitustiedostosi on nyt Korjaukset-laatikossa. Suluissa oleva numero kertoo, että tiedostosta on olemassa nyt kaksi versiota. Ensimmäinen versio on arvioinnissa ollut käsikirjoitus ja toinen versio juuri lataamasi uusi tiedosto.
+The editor will receive a notification about the new file(s) being uploaded. Additionally you can inform the editor via the Review Discussion panel as explained below.
 
-![](./assets/learning-ojs-3-auth-responding-upload4.png)
+![Review discussions panel](./assets/learning-ojs-3-auth-responding-discussion.png)
 
-### Ilmoita toimittajalle
+From there, select the *Add Discussion* link.
 
-On suositeltavaa ilmoittaa toimittajalle erillisellä viestillä korjatun käsikirjoituksen lähettämisestä. 
+![Add discussion and add user](./assets/learning-ojs-3-auth-responding-discussion-add.png)
 
-Avoinna olevalla sivulla näkyy Keskustelut-laatikko.
+Use the *Add User* link to add the editor.
 
-![](./assets/learning-ojs-3-auth-responding-discussion.png)
+Add a subject line and a message.
 
-Valitse **Lisää keskustelu**.
+Hit **OK** to send the message.
 
-![](./assets/learning-ojs-3-auth-responding-discussion-add.png)
+An email has now been sent to the editor and you (and the editor) can see the message in the Review Discussions panel.
 
-Valitse vastaanottavan toimittajan nimi.
+![Message in review discussions panel](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
 
-Anna otsikko ja kirjoita viesti, jossa ilmoitat uuden käsikirjoituksen lähettämisestä. Tarvittaessa voit myös kertoa, miten olet ottanut tehdyt muutosehdotukset huomioon.
+At this point, the author needs to wait to hear back from the editor as to whether the revisions are acceptable.
 
-Valitse **OK** viestin lähettämiseksi.
+### Revisions Accepted
 
-Toimittaja saa nyt keskustelusta uuden viestin ja voi tarvittaessa vastata siihen. Keskinäisen keskustelunne viestit näkyvät arviointivaiheen keskustelulaatikossa.
+You will receive an email that your revisions have been accepted.
 
-![](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
+In addition, notifications will appear on your dashboard.
 
-Tässä vaiheessa jäät odottamaan toimittajan vastausta ja arviota siitä, ovatko tehdyt muutokset riittäviä.
+![Notifications in dashboard](./assets/learning-ojs-3-au-notifications.png)
 
-Päätös voi olla esimerkiksi uuden arviointikierroksen käynnistyminen, jolloin jäät odottamaan uusia arvioita. Joissain tilanteissa käsittely saattaa myös päättyä tässä vaiheessa käsikirjoituksen hylkäykseen.
+The later notification is the current one. Click on it to open the message (which is the same as the email you would have also received).
 
-### Muutokset hyväksytty
+![Notification message](./assets/learning-ojs-3-au-notifications2.png)
 
-Kun toimittaja on hyväksynyt käsikirjoituksesi julkaistavaksi, saat uuden toimittajan tekemän päätöksen sähköpostitse. Hallintapaneelista näet, että käsikirjoitus on siirtynyt teknisen toimittamisen vaiheeseen ja voit jäädä odottamaan lisäohjeita.
+Use the **X** in the upper right corner to close the window.
 
-![](./assets/learning-ojs-3-au-copyedits.png)
+Further down your dashboard, you will also see a discussion reply from the editor.
 
-Kun siirryt käsikirjoituksen työnkulkuun klikkaamalla sen otsikkoa, voit vielä katsoa toimittajan päätöstä valitsemalla Arvionti-välilehden.
+![Discussion reply in review discussion panel](./assets/learning-ojs-3-au-rev-discussions.png)
 
-![](./assets/learning-ojs-3-au-notifications.png)
+Clicking the discussion title will open it up.
 
-Jälkimmäinen päätös on viimeisin. Voit avata sen painamalla päätöksen otsikkoa. Sieltä löytyvä teksti on sama kuin sähköpostissa.
+![Review discussion message](./assets/learning-ojs-3-au-rev-discussions2.png)
 
-![](./assets/learning-ojs-3-au-notifications2.png)
-
-Alempana keskustelulaatikossa saatat myös nähdä täydentävän viestin toimittajalta.
+Congratulations! You've been accepted and your submission file is moving on to the Copyedit stage.
 
 <hr />
 
-## Käsikirjoituksen lähettäminen toiselle arviointikierrokselle
+## Resubmitting for Review
 
-Mikäli toimittaja pyytää lähettämään käsikirjoituksen toiselle arviointikierrokselle, lähetä uusi versio käsikirjoituksesta edellisen luvun ohjeiden mukaisesti, eli:
-- Mene omassa hallintapaneelissa käsikirjoituksen arviointivaiheeseen ja lataa muokattu käsikirjoitus Korjaukset-laatikkoon.
-- Lähetä vielä keskustelutoiminnon kautta viesti toimittajalle.
+If the editor’s decision is to resubmit for review, you will need to log in and select the article in your submissions page. The resubmission is done in the review stage, there is no need to start a new submission.
 
-Toimittaja käynnistää uuden arviointikierroksen käsikirjoituksen saatuaan. Tällöin myös sinulle näkyvään arviointivaiheeseen tulee esille kaksi välilehteä arvioinnin ensimmäiselle ja toiselle kierrokselle. Uuden kierroksen päätökset näkyvät välilehdellä, joka on otsikoitu "Kierros 2".
+At the review stage you will need to do two things to resubmit once you have revised your document:
 
-Uuden arviokierroksen päätyttyä saat tiedon tehdystä päätöksestä samalla tavalla kuin ensimmäisellä kierroksella.
+Upload the new file in the revisions section. To upload a new file click on ‘Upload file.’ A new window will open allowing you to upload your file(s). Select the appropriate option from the dropdown menu to indicate you are submitting a revision of an existing file.
 
-<hr />
+Add a discussion to notify the editor that you have re-submitted.
 
-## Vastaaminen teknistä toimittamista koskevaan pyyntöön
-
-Teknisen toimittamisen työvaiheen eteneminen voi vaihdella julkaisun toimituskunnan työtavoista riippuen.
-
-Voit saada valmiiksi teknisesti toimitetun käsikirjoituksen tarkistettavaksi tai vastaavasti toimittaja voi pyytää sinua tekemään joitakin korjauksia heti työvaiheen alkuvaiheessa. Joidenkin julkaisujen tapauksessa sinuun saattaa olla yhteydessä erikseen määrätty julkaisun tekninen toimittaja.
-
-Näissä tapauksissa toimittaja on yhteydessä kirjoittajaan keskustelutoiminnon välityksellä. Keskusteluviestit näkyvät vain teknistä toimittamista koskevassa työvaiheessa, eli viestit eivät näy esimerkiksi arviointivaiheen keskusteluissa.
-
-Saat uusista keskusteluviesteistä sähköpostin. Siirry lehden sivuille ja kirjaudu sisään hallintapaneeliin.
-
-![](./assets/learning-ojs-3-au-copyedits.png)
-
-Näet käsikirjoituksesi hallintapaneelin listauksissa. Klikkaa käsikirjoituksen otsikkoa ja siirryt käsikirjoituksessasi oikeaan työvaiheeseen, josta keskustelu löytyy.
-
-![](./assets/learning-ojs-3-au-copyedits-notice.png)
-
-Paina keskustelun otsikkoa avataksesi viestin. Olet todennäköisesti saanut toimittajalta ohjeita sekä liitetiedostona olevan käsikirjoituksen.
-
-![](./assets/learning-ojs-3-au-copyedits-message.png)
-
-Mikäli sinua on pyydetty vain tarkistamaan käsikirjoitus, voit sen luettuasi vastata toimittajan keskusteluviestiin. Vaihtoehtoisesti palaat tekemään käsikirjoitukseen pyydettyjä muutoksia ja palaat myöhemmin lataamaan uuden version.
-
-Voit vastata viestiin painamalla **Lisää viesti**. Kirjoita vastaus toimittajalta saatujen ohjeiden perusteella. 
-
-Mikäli sinua on pyydetty lataamaan korjattu versio käsikirjoituksesta, valitse kohdasta **Liitetyt tiedosto** linkki **Lataa tiedosto**. Linkistä avautuu jo aiemmista vaiheista tuttu tiedostojen lataukseen käytettävä lomake. Lataa muokattu käsikirjoitus.
-
-![](./assets/learning-ojs-3-au-copyedits-reply.png)
-
-Paina lopuksi **OK**.
-
-Näet nyt keskustelutoiminnosta, että olet viimeinen keskusteluun vastannut henkilö.
-
-![](./assets/learning-ojs-3-au-copyedits-final-dash.png)
-
-Mahdollisesti käsikirjoitusta tarkistetaan ja korjataan vielä uudestaan ja tällöin kommunikointi tapahtuu edelleen keskustelutoiminnon kautta, johon voit palata vastaamaan toimittajan viesteihin.
-
-Kun käsikirjoitus on valmis taitettavaksi, se siirtyy tuotantovaiheeseen, mistä saat ilmoituksen toimittajalta.
+The peer review process will be repeated, and you will likely receive additional revisions to make. Once these are completed and accepted, you will then be moved to the next stage.
 
 <hr />
 
-## Vastaaminen oikolukua koskevaan pyyntöön
+## Responding to a Copyediting Request
 
-Jotkin julkaisut voivat pyytää kirjoittajaa oikolukemaan oman käsikirjoituksensa taitetun version. Tämä tarkoittaa käytännössä pienten kirjoitusvirheiden jne. etsimistä, eli ei varsinaisia sisältöön liittyviä muutoksia. On myös lehtiä, jotka oikolukevat artikkelit itse, jolloin kirjoittaja ei enää osallistu käsikirjoituksen käsittelyyn.
+The next step in the workflow is to inspect your submission files that have been copyedited.
 
-Mikäli lehti pyytää oikolukua, toimittaja on yhteydessä keskustelutoiminnon välityksellä samaan tapaan kuin teknisen toimittamisen työvaiheessa. Keskusteluviestit näkyvät vain tuotantoa koskeva työvaiheessa, eli viestit eivät näy esimerkiksi arviointivaiheen keskusteluissa. Joidenkin julkaisujen tapauksessa sinuun saattaa olla yhteydessä erikseen määrätty julkaisun taittaja tai julkaisun oikolukija.
+You will receive an email indicating that files are available. To see them, login to the journal and go to your dashboard.
 
-Saat viestin, jossa kerrotaan oikoluettavien tiedostojen olevan valmiina. Siirry lehden sivuille ja kirjaudu sisään hallintapaneeliin.
+![Author submission dashboard](./assets/learning-ojs-3-au-copyedits.png)
 
-![](./assets/learning-ojs-3-au-production-dashboard.png)
+You can see your entry in the My Authored panel. Select the Copyediting link to go to the full submission record, including the notification in the Copyediting Discussions panel.
 
-Näet käsikirjoituksesi hallintapaneelin listauksissa. Klikkaa käsikirjoituksen otsikkoa ja siirryt käsikirjoituksessasi oikeaan työvaiheeseen.
+![Copyediting section of author dashboard](./assets/learning-ojs-3-au-copyedits-notice.png)
 
-![](./assets/learning-ojs-3-au-production-record.png)
+Click on the linked discussion to open it, read the message, and open the attached file.
 
-Paina keskustelun otsikkoa avataksesi viestin. Olet todennäköisesti saanut  ohjeita sekä liitetiedostona olevan käsikirjoituksen.
+![Copyediting check discussion message](./assets/learning-ojs-3-au-copyedits-message.png)
 
-![](./assets/learning-ojs-3-au-production-message.png)
+Once you have read the attached file, you can respond to the copyeditor indicating any required changes or your approval.
 
-Tarkistettuasi käsikirjoituksen, voit vastata keskusteluviestiin ja ilmoittaa mahdolliset korjauspyynnöt. Valitse **Lisää viesti** ja kirjoita viesti. Paina lopuksi **OK**.
+![Respond to copyediting check message](./assets/learning-ojs-3-au-copyedits-reply.png)
 
-![](./assets/learning-ojs-3-au-production-message2.png)
+If needed, you could attach a revision, but for this example we will simply approve the changes and hit **OK**.
 
-Oikoluvun jälkeen oma osuutesi käsikirjoituksen käsittelyssä on valmis. Lopullinen julkaistava käsikirjoitus ilmestyy kohtaan "Julkaistavat tiedostot", kun se on valmis.
+On your dashboard, you can see that you were the last person to reply to the message.
 
+![[Dashboard showing copyediting discussions](./assets/learning-ojs-3-au-copyedits-final-dash.png)
 
+Your role in the copyediting process is now complete and you can wait for the request to proofread the final galleys (e.g., PDFs, HTML, etc.) before publication.
 
+<hr />
+
+## Responding to a Proofreading Request
+
+The next step in the workflow is to inspect your submission files that have been converted into galleys (e.g., PDF, HTML, etc.).
+
+You will receive an email indicating that files are available. To see them, login to the journal and go to your dashboard.
+
+![Author submission dashboard](./assets/learning-ojs-3-au-production-dashboard.png)
+
+You can see your entry in the My Authored panel. Select the Production link to go to the full submission record, including the notification in the Production Discussions panel.
+
+![Production section of author dashboard](./assets/learning-ojs-3-au-production-record.png)
+
+Click on the linked discussion to open it, read the message, and open the attached file.
+
+![Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message.png)
+
+Once you have read the attached file, you can respond to the Layout Editor indicating any required changes or your approval.
+
+![Respond to Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message2.png)
+
+That's it! Your role in the editorial workflow is now completed.
