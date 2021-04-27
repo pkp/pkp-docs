@@ -16,8 +16,7 @@ Many external services, including indexing services such as the [Directory of Op
 
 An ISSN can be obtained free of charge from a [local ISSN Centre](http://www.issn.org/services/requesting-an-issn/).
 
-![LAC ISSN](assets/chapter1/lac-issn.png)
-_An example of an ISSN application from Library and Archives Canada_
+![LAC ISSN](assets/chapter1/lac-issn.png) _An example of an ISSN application from Library and Archives Canada_
 
 ISSNs should be displayed on the journal’s website where it can be easily located, such as the footer or sidebar. If the publication has both a print and online edition there is typically one for each. In OJS, you will be asked to enter your ISSN as part of the Journal Settings. This is used for metadata purposes and is not shown to readers. To make the ISSN visible in the journal footer, type it into the footer text field in the Website Settings. To make the ISSN visible in the sidebar, create a custom block.
 
@@ -190,8 +189,7 @@ Those seeking maximum exposure for journals are advised to pursue inclusion in a
 
 It is strategic to target indexes for your journal that address the needs of the scholarly community engaging with your publication. These vary from one discipline to the next. Journal editors are advised to consult [Ulrichs Web Global Serials Directory](https://ulrichsweb.serialssolutions.com/), a commercial service for which institutional libraries may have a subscription. A common strategy is to look up related journals in your subject area within Ulrichs and explore their abstracting & indexing affiliations. This figure shows a tab that be expanded within a respective journal’s description page within Ulrichs.
 
-![Ulrichs](assets/chapter1/ulrichs.png)
-_A screenshot from Ulrichs Web Global Serials Directory_
+![Ulrichs](assets/chapter1/ulrichs.png) _A screenshot from Ulrichs Web Global Serials Directory_
 
 This provides an ideal starting point for identifying services to approach. [SPARC also provides a broader list of indexes to consider](http://sparc.arl.org/resources/papers-guides/journal-indexing).
 
@@ -263,11 +261,7 @@ PubMed  is one of the most recognized and respected open indexes. As with commer
 
 Journals in life sciences, medicine, or biomedicine fields that use the Open Journal Systems platform should endeavour to be included in PubMed. To facilitate this, OJS includes an exporting tool, which produces a file of all of your journal’s metadata suitable for sending directly to PubMed. Some open indexes, such as BioMed Central or Chemistry Central, only include their own published content. For journals not published by BioMed Central or Chemistry Central, it is not an option. Examples of other open indexes include [Agricola](https://agricola.nal.usda.gov/) from the U.S. National Agriculture Library and [ERIC](https://eric.ed.gov/) sponsored by the U.S. Department of Education, Institute of Education Sciences.
 
-*Further reading:*
-[Medline journal selection FAQ:](https://wayback.archive-it.org/org-350/20180312141547/https://www.nlm.nih.gov/pubs/factsheets/j_sel_faq.html)
-[Medline online application:](https://wwwcf.nlm.nih.gov/lstrc/lstrcform/med/index.html)
-[PubMed Central FAQ for publishers:](https://www.ncbi.nlm.nih.gov/pmc/about/faq-pub/)
-[PubMed Central online application:](https://www.ncbi.nlm.nih.gov/pmc/pub/addjournal/)
+*Further reading:* [Medline journal selection FAQ:](https://wayback.archive-it.org/org-350/20180312141547/https://www.nlm.nih.gov/pubs/factsheets/j_sel_faq.html) [Medline online application:](https://wwwcf.nlm.nih.gov/lstrc/lstrcform/med/index.html) [PubMed Central FAQ for publishers:](https://www.ncbi.nlm.nih.gov/pmc/about/faq-pub/) [PubMed Central online application:](https://www.ncbi.nlm.nih.gov/pmc/pub/addjournal/)
 
 ### Knowledge Bases and ERM
 
