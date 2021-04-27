@@ -1,8 +1,8 @@
 ---
-book: apprendre-ojs
-version: 3.2
+book: learning-ojs
+version: 3.3
 ---
 
-# Apprendre OJS 3.2: Un guide visuel de Open Journal Systems
+# Learning OJS 3.3: A Visual Guide to Open Journal Systems
 
-Apprendre OJS 3 est un guide d'utilisation d'Open Journal Systems (OJS), un logiciel pour la gestion et la publication de revues savantes. Ce guide explique comment configurer une revue, gérer les rôles et les autorisations, publier des articles et des editions et les afficher sur le site Web de votre revue.
+Learning OJS 3 is a guide for how to use Open Journal Systems (OJS), an open source software application for managing and publishing scholarly journals. This guide explains how to set up a journal, manage roles and permissions, publish articles and issues, and display them on your journal website.
