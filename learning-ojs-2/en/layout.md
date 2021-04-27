@@ -2,11 +2,11 @@
 
 On the resulting page, you will see the layout version of the submission, which has been prepared by the Copyeditor according to the journal's standards. Click on the linked file name (e.g., 8-24-1-LE.DOCX) to download a copy of the file. You will need to use third party-software to prepare the galley files (e.g., Adobe Acrobat, Microsoft Word or Open Office). Here, the Journal Manager has made a set of Layout and Reference Linking instructions and a Layout Template available to assist in properly formatting the files for publication.
 
-![Layout Editing](images/chapter11/layout_3.png)  
+![Layout Editing](images/chapter11/layout_3.png)
 
 Clicking on **Layout Instructions**, for example, will open the instructions set out by the Journal Manager.
 
-![Layout Instructions](images/chapter11/layout_10.png)  
+![Layout Instructions](images/chapter11/layout_10.png)
 
 
 Once you have created the HTML or PDF files, upload them as galleys using the file upload tool (e.g., 8-24-1-LE.pdf). Be sure to change the radio button to Galley.
@@ -31,11 +31,11 @@ If the Author has uploaded any Supplementary Files, such as data sets, they will
 
 When you have completed uploading the galley files, use the **Complete** mail icon to generate an email message to the Section Editor.
 
-![Send Email](images/chapter11/layout_11.png)    
+![Send Email](images/chapter11/layout_11.png)
 
 You will see a date has been entered under "complete" once the email has been sent.
 
-![Completed Layout](images/chapter11/layout_8.png) 
+![Completed Layout](images/chapter11/layout_8.png)
 
 
 You have now completed the first phase of layout editing and must now wait for the Author and Proofreader to make any necessary changes.
