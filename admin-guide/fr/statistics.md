@@ -1,703 +1,339 @@
-# Statistiques
+# Statistics
 
-Ce chapitre du Guide de l'administrateur fournit un aperçu général des statistiques dans Open Journal Systems (OJS) et par extension dans Open Monograph Press (OMP). Il contient des directives générales d'utilisation pour des scénarios courants, que les rédacteurs-trices et les directeurs-trices de la revue peuvent utiliser. Il contient également pas mal de détails techniques adaptés aux administrateurs de système. Dans la mesure du possible, nous avons essayé de faire la distinction entre les deux domaines d'expertise.
+This chapter of the Administrator’s Guide provides a general overview of statistics in Open Journal Systems (OJS), and by extension in Open Monograph Press (OMP) and Open Preprint Systems (OPS), as they pertain to System Administrators. If you are looking for a specific description of the various types of reports available and how to generate custom reports, please read the [section on Statistics in the Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/statistics).
 
-Le genre de statistiques disponibles dans OJS 3.2 et dans des versions ultérieures sont les Articles, l'Activité Rédactionnelle et les Utilisateurs-trices. Il existe également une section Générateur de Rapports pour produire divers rapports à partir de certaines des données disponibles.
+The statistics features of OJS, OMP and OPS allow you to view different numbers that indicate the activity, access, and downloads of various aspects of your site, including article and abstract views, editorial activity, and user counts separate by role. This guide provides information on the statistics framework used, various statistics-related configurations, log files, and legacy information for OJS 2 statistics and the OJS 2 statistics methodology.
 
-L'élaboration de ce chapitre a été financée par le gouvernement du Canada grâce à une subvention du Patrimoine Canadien et par l'Association Canadienne des Revues Savantes / Canadian Association of Learned Journals. Public Knowledge Project a fourni une aide en nature supplémentaire pour le développement de ce projet.
+The development of this chapter has been funded by the Government of Canada via a grant from Canadian Heritage and by the Canadian Association of Learned Journals / Association canadienne des revues savantes. Public Knowledge Project provided additional in-kind assistance toward the development of this project.
+
 
 ![](https://lh5.googleusercontent.com/roq7_6Ck6BNqkpPKetR8zxiRaRljhCR5Z240OzY6l7ZC61st_8AT8VNAYfMY7S8mZceMF0sJjrtu-h0E3FhYQ9PiwCKvjzJzNAPR6fCEmjMMEv7JaF8oaiuYmjNj68bgbPGnCM2w)
 
-## Définitions
 
-Afin d'utiliser au mieux ce document, il est nécessaire de comprendre les définitions suivantes en ce qui concerne l'Open Journal Systems (OJS).
+## Introduction to the Statistics Framework
 
-- **Page de résumé:** la page de destination d'un article, contenant le titre, les informations sur l'auteur, le résumé, le DOI et les liens vers les galeries de texte intégral de tout article. Également appelée "page d'article" ou "page de destination". Cette page est normalement utilisée comme point d'enregistrement pour l'article pour les DOI ou d'autres liens hypertexte: les DOI Crossref se résolvent à des pages de résumé d'article, par opposition aux fichiers épreuves, par exemple, comme le feraient la plupart des autres services d'indexation.
-- **Consultation d'Article:** dans le cadre des statistiques, toute référence à une «consultation d'article» signifie une consultation singulière et unique de la page du résumé d'article par un visiteur. Il ne s'agit pas d'un décompte global de toutes les consultations d'articles et d'épreuves - il se réfère uniquement aux consultations de la page de résumé.
-- **Consultation d'Épreuve:** dans le cadre des statistiques, toute référence à une «consultation d'épreuve» signifie une consultation unique ou un téléchargement unique d'un fichier épreuve spécifique par un visiteur. Aussi connu sous le nom de "téléchargement d'épreuves". Ce n'est pas un décompte global de toutes les consultations d'épreuve - s'il existe plusieurs épreuves pour un article (par exemple, un fichier HTML, un fichier PDF, etc.), chacune aura son propre décompte de consultation d'épreuves. OJS ne fait pas de distinction entre les téléchargements d'épreuves et les consultations dans le tableau de métriques; les téléchargements sont comptés comme des consultations d'épreuve.
-- **Multi-clics:** le processus (accidentel ou néfaste) d'augmentation de l'utilisation compte en cliquant sur une page de résumé ou un fichier épreuve plusieurs fois de suite. OJS identifie et supprime ces tentatives de ses métriques d'utilisation, conformément au Code de Bonnes Pratiques du Project COUNTER.
-- **Code de Bonnes Pratiques du Projet COUNTER:** un ensemble de pratiques développées par COUNTER pour établir un moyen de rendre compte, de manière cohérente, des mesures d'utilisation des ressources électroniques. Le Code fournit des règles sur ce qui doit être considéré comme une consultation, y compris des règles spécifiques pour l'utilisation du robot et les abus multi-clics. OJS filtre les métriques à travers ces règles. Il convient également de noter que PKP fait partie du groupe de travail COUNTER Bots and Crawlers.
-- **Robots internet:** visiteurs non humains du site qui peuvent encore consulter et télécharger des données d'articles. Celles-ci sont généralement identifiées comme telles auprès du serveur, et OJS ne les compte pas dans ses métriques d'utilisation, conformément au Code de Bonnes Pratiques du Project COUNTER.
+“What counts as a view” can seem like a straightforward enough question when considering article use metrics, but there are any number of ways to provide - or complicate - the answer. Answering this question depends on which counting mechanism is being used \(e.g., Google Analytics vs. log file hits vs. filtered metrics\), whether attempting to review historical data spans different methodologies, and whether these methodologies have been configured correctly or not.
 
-## Introduction au Cadre des Statistiques
+This handbook mainly serves to explain, in some detail, how to configure, use, and troubleshoot PKP’s Usage Statistics Framework. It also contains some information on other statistics-gathering methods that are supported by OJS.
 
-«Qu'est ce qui compte comme une consultation» semble être une question assez simple lorsqu'on considère les métriques d'utilisation d'articles, mais il existe de nombreuses façons de fournir - ou de compliquer - la réponse. La réponse à cette question dépend du mécanisme de comptage utilisé (par exemple, Google Analytics vs hits de fichiers journaux vs métriques filtrées), si la tentative d'examen des données historiques couvre différentes méthodologies et si ces méthodologies ont été configurées correctement ou pas.
 
-Ce manuel sert principalement à expliquer, en détail, comment configurer, utiliser et dépanner le Cadre de Statistiques d'Utilisation de PKP. Il contient également des informations sur d'autres méthodes de collecte de statistiques prises en charge par OJS.
+## Configure the Statistics Framework
 
-### OJS et les Statistiques: Un Peu d'Histoire
+In most cases, the Statistics Framework should “just work,” in particular with fresh installs. Just the same, there are a number of configuration options available to you, and they should be reviewed after installation or upgrade. You also need to put in place some sort of mechanism to run scheduled tasks so that usage stats are processed regularly.
 
-OJS a enregistré l'utilisation d'articles depuis le début du lancement d'OJS 2. La méthodologie utilisée pour compter les métriques a subi un changement important depuis lors. Ce changement est essentiel pour comprendre comment examiner et gérer les données statistiques historiques.
+**Note for Journal Managers and Editors:** Most of the following steps would be considered expert level and should only be undertaken by Site Administrators and systems administrators. If you have questions about the more advanced issues presented here, consult with your service provider. The main exception to this is the Statistics Display option described in the next section. If you want to publicly display article usage statistics on article abstract pages, you can enable this option.
 
-#### Métriques à l'Ancienne: OJS 2.0 -> 2.4.3:
+There are three configuration steps that you will have to consider: configuring the usage statistics plugin, configuring scheduled tasks, and configuring regional data tracking, if you want to track regional data. \(OJS can track country, region, and city data.\)
 
-Les versions d'OJS antérieures à OJS 2.4.3 comptent les consultations de manière très rudimentaire: elles enregistrent les consultations de pages et les téléchargements de fichiers pour les pages de destination d'articles et les fichiers d'épreuve uniquement, et ne filtrent pas les consultations/téléchargements de bot, les clics multiples, etc. Ces consultations sont enregistrées dans un simple tableau de base de données et représentées dans OJS 2.4.2 et ci-dessous via un rapport de «Consultation». Les métriques ne sont disponibles que pour les résumés/pages de destination et les téléchargements d'épreuves et ne suivent qu'une seule facette: si l'élément a été consulté ou téléchargé. Ces décomptes sont considérés comme exacts, bien que probablement faussement représentatifs du lectorat réel, car les consultations de bot, l'indexation des robots d'exploration et les abus potentiels des auteurs ou des visiteurs (par exemple, plusieurs clics) ne sont pas filtrés.
+This section is only relevant to those using OJS 2.4.3+ and OJS 3.0+. Older versions of OJS do not have this framework and need no configuration.
 
-#### Métriques à l'Ancienne: OJS 2.4.3+ et 3.0+
 
-Depuis la version 2.4.3, Open Journal Systems utilise une nouvelle structure pour collecter des statistiques et générer des rapports. Ces métriques comptent les consultations de résumé et d'épreuves, la date de consultation et les informations régionales telles que le pays et la ville (si elles sont correctement configurées). Au-delà des métriques d'article, les consultations de numéros et de la page d'accueil sont également incluses. Enfin, ces métriques sont filtrées selon les règles de traitement du Projet COUNTER afin que les clics multiples et les consultations de bot soient filtrés par défaut.
+### Configure the Usage Statistics Plugin
 
-#### Comprendre ce que vous avez: Points Clés à Retenir
+OJS 2.4.3+ and 3+ include a generic Usage Statistics Plugin that is responsible for how these statistics are logged and recorded in the system. The plugin’s default configurations are reasonable and work for most use cases, though you will want to review them after you install or upgrade OJS.  To enable the collection of usage data, make sure that this plugin is enabled.
 
-Ce qui suit décrit les données auxquelles les utilisateurs-trices de diverses itérations d'OJS ont accès. La version OJS peut être déterminée par un membre du personnel de la revue en visitant À Propos > À Propos du Système de Publication (OJS 2).
+The plugin settings can be found in OJS 2 by going to User Home &gt; Journal Manager &gt; System Plugins &gt; Generic Plugins &gt; Usage Statistics Plugin &gt; Settings.
 
-- OJS 2.4.2 ou version antérieure:
-    - Les métriques sont basées sur l'ancienne méthode des métriques. Seuls les décomptes de consultation d'articles simples sont enregistrés pour chaque consultation de résumé ou d'épreuve. Celles-ci ne sont filtrées par aucune des règles de filtrage du Projet COUNTER.
-    - Ceux-ci sont disponibles à partir d'un rapport de consultation sous Direction de la Revue > Statistiques et Rapports.
-    - Vous pouvez également avoir accès à un rapport rudimentaire de Consultations Programmées. Ce rapport, s'il est disponible dans une installation antérieure à OJS 2.4.2 ou plus ancienne, doit être considéré comme bogué et imprévisible. Il ne doit pas être utilisé.
-    - La mise à niveau est conseillée afin que de meilleures métriques puissent être collectées à l'avenir. (Notez que la mise à niveau ne vous fournira pas de meilleures statistiques antérieures à la date de mise à jour, du moins par défaut. Consultez la section FAQ pour plus d'informations sur le retraitement des anciennes statistiques.)
-- OJS 2.4.3 ou plus récent:
-    - Les métriques sont basées sur la nouvelle méthode de métriques décrite ci-dessus.
-    - Si cette instance OJS a été mise à niveau à un moment donné par rapport à la version antérieure à OJS 2.4.3, vous aurez également accès à un Rapport de Consultation hérité (pour les données collectées lorsque vous utilisiez des versions antérieures).
-    - Tous les rapports sont disponibles dans l'onglet Direction de la Revue > Statistiques et Rapports.
-    - REMARQUES POUR LES REVUES MISES À JOUR:
-        - Le Rapport de Consultation hérité est à des fins d'archivage uniquement. Il fournit un enregistrement de l'utilisation avant l'adoption du 2.4.3. Il n'enregistre pas de nouvelles consultation après l'adoption de l'OJS 2.4.3.
-        - Les nouveaux rapports (le rapport Consultations Programmées, le Générateur de Rapports Personnalisés, etc.) qui utilisent la nouvelle méthode de métriques n'incluront que les métriques à partir de la date de mise à niveau.
-        - Afin de parvenir à une compréhension complète du nombre de consultations pour votre contenu, vous devrez prendre en compte à la fois les anciens et les nouveaux rapports.
-    - REMARQUES IMPORTANTES SUR LES BOGUES:
-        - Il y avait un bogue dans OJS 2.4.5 qui a entraîné le doublement du nombre de métriques. Consultez les sections FAQ et Problèmes Fréquemment Rencontrés pour plus d'informations.
-        - Il y avait un bogue dans OJS 2.4.8.0 qui entraînait que certaines consultations de fichiers n'étaient pas correctement enregistrées. Consultez les sections FAQ et Problèmes Fréquemment Rencontrés pour plus d'informations.
-        - Si votre instance OJS est actuellement sur l'une ou l'autre version, nous vous recommandons fortement de mettre à niveau (et, éventuellement, de retraiter vos statistiques - voir Annexe B: Traitement des Fichiers Journaux).
-- 3.0 ou plus récent:
-    - Vous aurez des métriques basées sur la nouvelle méthode de métriques définie ci-dessus.
-    - Toutes les mesures seront disponibles à partir du Tableau De Bord Utilisateur, via Outils> Statistiques.
-    - REMARQUES POUR LES REVUES MISES À JOUR:
-        - Si votre utilisation d'OJS 3 est une mise à niveau d'une instance OJS contenant des données de Rapport de Consultations héritées (c'est-à-dire que votre installation a commencé avant OJS 2.4.2), ces données ne seront plus disponibles au téléchargement. Vous devez télécharger et stocker ces données avant la mise à niveau.
+The plugin settings can be found in OJS 3 by going to Dashboard &gt; Settings &gt; Website &gt; Plugins &gt; Generic Plugins &gt; Usage Statistics Plugin &gt; Settings.
 
-## Types de Rapports
+We won’t go into detail for every single configuration option for the plugin, but we do suggest the following as a reasonable setup:
 
-Les rapports d'OJS peuvent être regroupés en gros en rapports «d'utilisation» qui contiennent des mesures d'utilisation indiquant le lectorat des visiteurs et des rapports de «contenu» qui fournissent des données sur l'élément respectif (par exemple, des informations sur l'abonné). Certains de ces rapports contiennent également des informations héritées, à condition que votre installation OJS ait été créée à un moment donné avant OJS 2.4.3. OJS 3 a abandonné la prise en charge des rapports hérités.
+* If it is not already enabled, check the box to the right of the plugin name.
+* Click the blue arrow next to the plugin and then click **Settings**.
+* Enable “Create Log Files” if it isn’t enabled already.
+* Leave the “Parse Log File Regex” option alone unless you know what you are doing.
+* Leave the “Compress Archives” option disabled unless server space is a consideration \(see the Troubleshooting section below\).
+* Leave the “Data Privacy Option disabled unless you can follow the instructions provided.
+* Enable the “City” and “Region” options and follow the section on Configuring Regional Data Tracking below.
+* If available in your OJS install, consider enabling the Statistics Display Options if you want basic abstract and galley views to be available on article landing pages. See the above section Display Usage Statistics for more information.
 
-Afin de générer des rapports dans OJS 3.x, connectez-vous en tant que Directeur-trice de la Revue et allez dans Outils > Statistiques.
+### Configure Scheduled Tasks
 
-Afin de générer des rapports dans OJS 2.x, connectez-vous en tant que Directeur-trice de la Revue et accédez à l'Accueil Utilisateur > Statistiques et Rapports.
+Once the Usage Statistics plugin has been enabled, you need to ensure that statistics are logged and processed as part of OJS’ “scheduled tasks." There are two ways to do this:
 
-Le tableau suivant est une aide-mémoire rapide et un outil de comparaison pour chaque rapport; des descriptions plus détaillées de chaque rapport suivent.
+#### 1. Enable the OJS Acron plugin
 
-### Tableau de comparaison de tous les rapports d'utilisation OJS
+The plugin can be found in OJS 2 by going to User Home &gt; Journal Manager &gt; System Plugins &gt; Generic Plugins &gt; Acron Plugin.
 
-Nom | Description | Contenu | Héritage | OJS 2 | OJS 3
---- | --- | --- | --- | --- | ---
-Consultations Programmées | Fournit des consultations d'articles et d'épreuves par période. Peut être utilisé pour récupérer des données héritées ou actuelles. | Utilisation | O/N | O | N
-Consultation | Fournit le décompte d'utilisation global pour les téléchargements de résumé/page de destination et d'épreuves, par article. | Utilisation | O | O | N
-Statistiques d'Utilisation | Fournit des mesures d'utilisation quotidienne et granulaires pour toutes les consultations/téléchargements d'articles, de fichiers d'article, de numéros et de pages d'accueil. Inclura les données du pays des visiteurs, si elles sont enregistrées. | Utilisation | N | O | O
-Générateur de Rapports Personnalisés | Version personnalisable du rapport Statistiques d'Utilisation, où diverses facettes peuvent être sélectionnées et des périodes spécifiques peuvent être définies. | Utilisation | N | O | O
-COUNTER | Fournit des rapports COUNTER pour toutes les revues sur l'application OJS. Fournit des décomptes agrégés mensuels et cumulatifs pour les consultations de résumé et d'épreuve. | Utilisation | N | O | O
+The plugin can be found in OJS 3 by going to Dashboard &gt; Settings &gt; Website &gt; Plugins &gt; Generic Plugins &gt; Acron Plugin.
 
-### Tableau de Comparaison de Tous les Rapports de Contenu OJS
+Once enabled, this plugin should result in the processing of log files \(along with other scheduled tasks, such as review and subscription reminders\).
 
-| Articles | Fournit des informations générales sur tous les articles du système, incl. Titre, résumé, auteurs, décision du/de la rédacteur-trice et statut. | Contenu | N | O | O 
- --- | --- | --- | --- | --- | --- 
-Abonnements | Fournit des informations sur les abonnements individuels et institutionnels. | Contenu | N | O | O 
-Revue | Fournit des informations de revue sur tous les articles du système, incl. noms, avis et recommandations des évaluateurs-trices. | Contenu | N | O | O 
+#### 2. Configure a server-side cron job
 
-### Rapport sur les Consultations Programmées
-
-**Disponibilité: OJS 2 uniquement**
-
-**Format: CSV**
-
-**Description:** Ce rapport fournit des mesures générales d'utilisation pour les consultations d'articles et celles des épreuves. Une  période en terme de dates doit être spécifiée. Il a un mode hérité et non-hérité disponible. C'est le seul rapport qui fonctionne de cette manière.
-
-**Utiliser pour**: télécharger des données de consultations programmées héritées ou non-héritées.
-
-**Ne Pas Utiliser pour**: télécharger des données dans OJS 3.0+, car elles n'existent plus. À la place, utilisez le Générateur de Rapports Personnalisés.
-
-**Remarques Spéciales:**
-
-- Étant donné la façon dont OJS traite les métriques, le rapport n'inclura presque certainement pas les données de la date d'aujourd'hui, donc essayer de rapporter uniquement à la date d'aujourd'hui renverra probablement un rapport vide.
-- Ce rapport peut éventuellement fournir des données héritées pour les installations pré-OJS 2.4.3. Si vous recherchez des données de consultations programmées antérieures à une mise à niveau OJS 2.4.3, sélectionnez l'option «inclure les données héritées».
-
-**Exemple de Données (modifiées pour plus de clarté):**
-
-Dans l'exemple ci-dessous, qui a été généré pour la période du 29 mars 2017 au 30 mars 2017 (soit 1 jour), nous pouvons voir que l'article «Amusing Ourselves to Death» a été très apprécié, avec 2 consultations de résumé et 11 consultations d'épreuve (3 PDF et 8 HTML). L'article «Comobility» n'a vu son résumé qu'une seule fois.
-
----
-
-| **ID** | **Titre de l'article** | **Auteurs** | **Numéro** | **Date de Publication** | **Résumé** | **Épreuve Totale** | **PDF** | **HTML** 
- --- | --- | --- | --- | --- | --- | --- | --- | --- 
- **2** 508 | "S'Amuser à Mort?" Réseaux Sociaux, Satire Politique et l'Élection de 2011 | Ian Reilly | Vol 36, No 3 (2011): Fascinations Canadiennes | 2011-09-13 22:11 | 2 | 11 | 3 | 8 
- 2512 | Comobility: Comment la Proximité et la Distance Voyagent Ensemble dans les Médias Locatifs | Jen Southern | Vol 37, No 1 (2012): Les Arts Médiatiques Revisités (MARs) | 13/04/2012 9:38 | 1 | **** | **** | **** 
-
-### Rapport de Consultation
-
-**Disponibilité:** OJS 2 uniquement
-
-**Format:** CSV
-
-**Description:** Ce rapport fournit des consultations de résumé par article et des consultations/téléchargements d'épreuve. Il s'agit d'un ancien rapport pré-OJS 2.4.3; utilisez-le uniquement pour récupérer des métriques d'utilisation de base à partir de journaux qui utilisent ou ont utilisé OJS avant la version OJS 2.4.3.
-
-**Utiliser pour:** données de consultation héritées uniquement.
-
-**Ne Pas Utiliser pour:** les métriques d'utilisation actuelles, sauf si vous êtes toujours sur OJS <2.4.3.
-
-**Remarques Spéciales:**
-
-- Il s'agit d'un rapport hérité qui n'inclura pas de nouvelles métriques d'utilisation si votre installation OJS a été mise à niveau vers la version OJS 2.4.3+.
-- Ces métriques d'utilisation ne sont pas filtrées pour les multi-clics ou l'activité de robots/ robots d'exploration et peuvent donc sembler gonflées par rapport aux statistiques plus récentes.
-- Ce rapport n'est plus disponible dans OJS 3.
-
-**Exemple de Données (légèrement modifiées pour plus de clarté):**
-
-Dans l'exemple ci-dessous, nous pouvons voir que l'article 95, «La Création des Médias Canadiens», a eu 443 consultations de résumé et 1476 consultations d'épreuve au total. Les consultations PDF et le Totale des consultations d'Épreuve sont les mêmes car il n'y avait pas de consultation HTML. Avec l'article 1125, «Réseaux Numériques», le résumé a été consulté 1821 fois et le nombre total de consultations d'épreuve est de 8478, soit la somme des consultations HTML et PDF.
-
----
-
-| **ID** | **Titre de l'article** | **Numéro** | **Date de Publication** | **Résumé** | **Épreuves Totales** | **HTML** | **PDF** | 
-| --- | --- | --- | --- | --- | --- | --- | --- | 
-| 95 | La Création des Médias Canadiens | Vol 6, n ° 1 (1979) | 1979-01-03 | 443 | 1476 | | 1476 | 
-| 1125 | Réseaux Numériques | Vol 24, n ° 4 (1999) | 1999-04-01 | 1821 | 8478 | 2093 | 6385 |
-
-### Rapport sur les Statistiques d'Utilisation
-
-**Disponibilité:** OJS 2 et 3
-
-**Format:** CSV
-
-**Description:** Ce rapport fournit des données granulaires sur les consultations mensuelles pour la page d'accueil de la revue, les tables de matières des numéros, les résumés d'articles/pages de destination et les consultations de fichiers. Il fournit des informations sur le pays (si configuré). Chaque ligne fournit un nombre total de consultations mensuelles pour un objet particulier (page d'accueil du journal, page de résumé d'article, épreuve d'articles ou table de matières du numéro). Il prend en compte cela par pays si le support par pays a été activé et correctement configuré.
-
-**Utiliser pour:** générer une consultation d'ensemble multiforme de l'utilisation du contenu d'un mois à l'autre. Il répertorie le nombre de consultations mensuelles pour tous les articles, les téléchargements de fichiers d'article, les consultations de la table de matières des émissions et les consultations de la page d'accueil du journal pour la période spécifiée. Une manipulation manuelle supplémentaire du rapport résultant doit être effectuée pour obtenir des résultats globaux.
-
-**Ne Pas Utiliser pour:** tenter d'obtenir un instantané d'utilisation rapide, une utilisation héritée ou des journaux qui ont un très grand ensemble de données de métriques (en raison de la longue histoire, du lectorat élevé ou de la profondeur de la granularité des métriques). Utilisez plutôt le Générateur de Rapports Personnalisés.
-
-**Remarques Spéciales:**
-
-- Ce rapport tente de capturer l'historique d'utilisation complet pour: la page d'accueil de la revue, tous les résumés d'articles, toutes les épreuves d'articles et la table de matières de tous les numéros.
-- **OJS version 3.1.1 ou installations antérieures** : pour réduire le risque de dépassement des délais de téléchargement, ce rapport ne fournit que 5 000 enregistrements. Si vous avez beaucoup de données à déclarer, ce rapport ne les rapportera probablement pas toutes. Si tel est le cas, le plugiciel du Générateur de Rapports Personnalisés doit être utilisé à la place, en utilisant des périodes plus petites. (Cette restriction a été supprimée dans OJS 3.1.2.)
-
-**Exemple de Données (légèrement modifiées pour plus de clarté):**
-
-| **ID** | **Type** | **Titre** | **Numéro** | **Journal** | **Pays** | **Mois** | **Compte** | 
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Journal | Journal Canadien de la Communication | CJC | CA | 201502 | 1678 |
-| 112 | Article | La Star de Toronto Congédie la Journaliste Claire Hoy, le Poursuit et des Chaînes de Télévision pour Diffamation | Vol 1, n ° 3 (1974) | CJC | CA | 201502 | 3 |
-| 112 | Article | La Star de Toronto Congédie la Journaliste Claire Hoy, le Poursuit et des Chaînes de Télévision pour Diffamation | Vol 1, n ° 3 (1974) | CJC | US | 201502 | 1 |
-
-D'après l'exemple ci-dessus, nous pouvons voir qu'en Février 2015, la page d'accueil principale de la revue CJC a été consultée 1 678 fois, et l'article «T La Star de Toronto ...» a été consulté 3 fois au Canada et une fois aux États-Unis.
-
-### Générateur de Rapports Personnalisés
-
-**Disponibilité:** OJS 2 et 3
-
-**Format:** CSV
-
-**Description:** Ce rapport fournit des données granulaires sur les consultations quotidiennes du journal à l'aide de l'ensemble de données de métriques complet. Vous pouvez regrouper les résultats en:
-
-- Pays
-- Région
-- Ville
-- Mois
-- Jour
-
-**Les métriques sont suivies par rapport à des types d’éléments spécifiques (également appelées «objets»):**
-
-- Téléchargements de Fichiers
-- Consultations de la page de Résumé
-- Consultations de la Table de Matières du Numéro
-- Consultations de la Page d'Accueil de la Revue
-
-Vous pouvez également limiter les résultats à des périodes spécifiques. Il s'agit de l'option de rapport la plus flexible disponible dans OJS et peut fournir une quantité très détaillée de données. Pour plus d'informations, reportez-vous à l'annexe C, Générateur de Rapports OJS: Exemples et Astuces.
-
-**Utilisé pour:** créer des rapports sur mesure très spécifiques pour de nouvelles données
-
-**Ne Pas Utiliser pour:** des données héritées
-
-**Remarques Spéciales:**
-
-- Il s'agit d'un outil très flexible, mais également très complexe, qui doit être correctement configuré afin de fournir des résultats utiles.
-- En fonction de la quantité de données dans votre système, des facettes que vous choisissez de récupérer et de la période que vous choisissez, le système peut ne pas générer un rapport complet sans délai. Si vous rencontrez ce problème, essayez de réduire la période demandée.
-- **OJS version 3.1.1 ou installations antérieures** : Pour réduire le risque de dépassement des délais de téléchargement, ce rapport ne fournit que 5 000 enregistrements. Si vous avez beaucoup de données à déclarer, ce rapport ne les rapportera probablement pas toutes. Si tel est le cas, le plugiciel du Générateur de Rapports Personnalisés doit être utilisé à la place, en utilisant des périodes plus petites. (Cette restriction a été supprimée dans OJS 3.1.2.)
-- Si vous générez un rapport personnalisé, le rapport vous fournira également une URL de rapport que vous pouvez enregistrer pour l'utiliser pour répéter le processus de rapport identique.
-- Si vous créez un rapport qui rapporte «hier» ou «mois en cours», l'URL du rapport qui en résulte utilisera toujours «hier» ou «mois en cours» par rapport au jour où vous l'exécutez. Donc, si vous créiez un rapport sur «hier» il y a un an et que vous le diffusiez aujourd'hui, il ferait rapport sur hier. Cependant, si vous spécifiez une période spécifique, par exemple du 1er Avril au 15 Avril 2018, l'URL du rapport qui en résulte indiquera toujours les mesures pour cette période spécifique.
-
-**Exemple de Données (légèrement modifiées pour plus de clarté):**
-
-L'exemple suivant nous fournira les décomptes des consultations de résumé d'article et celle d'épreuve répartis en colonnes quotidiennes, mensuelles et par pays pour le mois en cours. Pour ce faire, nous définissons les paramètres suivants:
-
-- Modèles de Rapport par Défaut: laissés tels quels;
-- Sélectionnez la Période du Rapport: laissé tel quel;
-- Colonnes: laissées telles quelles sur le mois en cours;
-- Filtres: pour le Type d'Objet, l'Article et l'Épreuve sélectionnés afin de récupérer toutes les consultations d'article (résumé) et d'épreuve (fichier d'épreuve);
-- Trier par: laissé tel quel.
-
-Dans les données ci-dessous, nous pouvons voir que le résumé de l'article «La Star de Toronto Congédie la Journaliste» a été téléchargé une fois le 4 mars 2018, tandis que l'article «Faire Exploser la Marque» a été téléchargé quatre fois en l'Allemagne le 22 mars 2018 et deux fois aux le États-Unis, le 4 mars 2018. (Notez la différence entre un type "Article", qui fait référence à la consultation du résumé, et le type "Épreuve ", qui fait référence à la consultation ou au téléchargement du fichier d'épreuve.)
-
-| **Type** | **Article** | **Numéro** | **Pays** | **Jour** | **Mois** | **Compte** | 
-| --- | --- | --- | --- | --- | --- | --- |
-| Article | La Star de Toronto Congédie la Journaliste Claire Hoy, le Poursuit et des Chaînes de Télévision pour Diffamation | Vol 1, n ° 3 (1974) | US | 20180304 | 201803 | 1 | 
-| Épreuve | Faire Exploser la Marque: Perspectives Critiques sur la Culture Promotionnelle | Vie Numérique | DE | 20180322 | 201803 | 4 |
-| Épreuve | Faire Exploser la Marque: Perspectives Critiques sur la Culture Promotionnelle | Vie Numérique | US | 20180304 | 201803 | 2 |
-
-## Générer des Rapports: Exemples et Astuces
-
-Cette section a été soumise à l'origine par Andrea Kosavic de la bibliothèque de l'Université York et a été légèrement révisée (principalement avec les mises à jour OJS 3).
-
-Le Générateur de Rapports se trouve dans OJS 2 à la Page d'Accueil> Utilisateur> Gestion du Journal> Statistiques et Rapports> Générer un Rapport Personnalisé
-
-Le Générateur de Rapports se trouve dans OJS 3, sous le Tableau de Bord> Outils> Statistiques> Générer un Rapport Personnalisé
-
-### Quelques astuces pour utiliser le Générateur de Rapports
-
-- Notez que les données du jour en cours ne seront disponibles que le lendemain.
-- Le générateur fonctionne comme un entonnoir pour les données. L'astuce consiste à restreindre les éléments les plus importants (tels que la période), à sélectionner ce qui vous intéresse à partir de là (numéros, articles, etc.), puis à modifier les données à la fin (c.-à-d., Trier par nombre de téléchargements) .
-- Le Générateur de Rapports est plus utile si vous utilisez les options avancées. Tous les exemples ci-dessous utilisent les options avancées.
-- Le Générateur de Rapports crache une URL tout en bas qui vous permet de réexécuter votre requête à tout moment! Assurez-vous de copier et d'enregistrer l'URL quelque part afin de pouvoir relancer votre recherche plus tard (elle disparaîtra une fois la page rechargée).
-- Cette section dans la recherche simple ...
-
-![](https://lh3.googleusercontent.com/zZgY3vgUHtOhTkLnfTsXOjWit7hn3dOkv14m0eCa7mz1oYb04KeV68mIJ4RC7TzDlA1l0nRrOQtyMr_VOzLlEDe0qEDqNtYweS9LgW5kbFeSJVskOJQGY6L7C1QMa617BTeXNkKi)
-
-... est en fait répété dans la section «Colonnes» ci-dessous ... avec un certain nombre d'autres options. (Visible dans les options avancées.)
-
-![](https://lh4.googleusercontent.com/ZGkhfw8uSwd9Ovktc4GpTmHQIBnOg68tzRt6cBdLrelT3JMNrs4rskSw9Ezi4L_n42jeDRJ-WdpCgobnAamGH4fZUwrGU03wHCK2nd_-y6OGxJ1ihT8mfK2gLpYr1WcZ10uMLUNp)
-
-### Exemple de Rapport: Dans quelle mesure un numéro particulier (c'est-à-dire le plus récent) s'est-il sorti au cours des derniers mois?
-
-Cette requête particulière vous donnera un décompte mensuel du nombre d'épreuves en texte intégral qui ont été téléchargées à partir d'un numéro particulier. Vous aurez une colonne pour le mois et le compte total pour le mois et une ligne distincte pour chaque mois.
-
-- Sous «Modèles de rapport par défaut», sélectionnez «Téléchargements de fichiers d'article» dans la liste déroulante.
-- Décochez toutes les cases dans "Regrouper les statistiques par".
-- Cliquez sur le bouton radio "Mois" et entrez la période sous "Ou sélectionnez la période par".
-
-![](https://lh4.googleusercontent.com/x_CTGtrDYmxR_U5U9DQGu0RQ5JXxILPH7AJgmPwOag0Q7N5C2FEoWBlKcklp4Wdxm07NE7kxa3VzT6d3pg-kP3Bf5yKEpc9Jg-UBTz2BqKeOVIIe5X01Q-efifC518d7dEj9-qLZ)
-
-- Sélectionnez uniquement "Mois" sous Colonnes
-
-![](https://lh5.googleusercontent.com/UhAJbSjqNzSJpEOFoh0ySLvWbIOaJXUcr-3XMViX5d4Ul6iaHdjvM_WZvaPmFcK-4TjAhPIxVnzn76tD3lXCHn6UmdHKfO3ixLl54Th1W4ISE_e9yqFTxKCZvwMFLT7FeOwWOsjo)
-
-- Nous voulons seulement un filtrage très léger de nos données. Sélectionnez le problème qui vous intéresse, par exemple «Vol 6 (2004)» ici. Nous souhaitons également sélectionner uniquement "Épreuve" sous "Par type d'objet".
-
-![](https://lh5.googleusercontent.com/yWzDH3FA568s_zjORIGNOmcbsaOqXy5qKUkWCVtUGrpveiENZxpYlnojJQlq4UJII9vRJ725NdsA0Ray0SNg9Ums50eKDEH8A3MFOdGCQ3TmM2WZuveridRbjzFRK-srsI4mi6zF)
-
-- Ignorez les options "Par géolocalisation" et "Trier par", puis cliquez sur "Générer un rapport personnalisé".
-- Vous vous retrouverez avec un rapport mensuel très simple des téléchargements d'épreuve pour le seul numéro d'intérêt pour votre journal.
-
-![](https://lh3.googleusercontent.com/kJo1sgCOaiW1TzaSfEp-5QzE5J3tSizDUfenECMpOIK1LiCN5AV35tCiceFhUgXdv0JsgUUN25L9BfvRtt0TxyCIctLebk_KXtL76IelBE89YQtXq0wQ8LTydN6DnFgtCGuHjAZ8)
-
-Sauvegardez l'URL au bas de la page pour vos enregistrements!
-
-### Exemple de Rapport: Quels sont les articles les plus téléchargés au cours des 5 dernières années?
-
-Ce rapport présentera une liste des titres d'articles (et des numéros dont ils proviennent) classés par décroissant de téléchargements.
-
-- Sélectionnez «Téléchargements de fichiers d'article» dans la liste déroulante.
-- Décochez toutes les cases sous "Agréger les statistiques par".
-- Sélectionnez le bouton radio «Mois» et entrez une période.
-
-![](https://lh4.googleusercontent.com/x_CTGtrDYmxR_U5U9DQGu0RQ5JXxILPH7AJgmPwOag0Q7N5C2FEoWBlKcklp4Wdxm07NE7kxa3VzT6d3pg-kP3Bf5yKEpc9Jg-UBTz2BqKeOVIIe5X01Q-efifC518d7dEj9-qLZ)
-
-- Sélectionnez uniquement «Article» et «Numéro» sous Colonnes. Nous affinerons le type ultérieurement dans la requête.
-
-![](https://lh5.googleusercontent.com/lcw5NI5S3aTPRJpoA0GkrumGDnRrKcr-caDZRXcp4_fW33-kTffPN9btRPuG32sau7zKAAX7GW0Ds1t8sYqrEbEnisyXWn8pQWgAYWYrdI3G9ejDoO5WTJ3mwqol4Gy6hkLqsXv7)
-
-- Ignorez la zone "Par contexte", mais sélectionnez "Épreuve" sous "par type d'objet". Cela garantira que vous regardez tous les téléchargements d'articles possibles (pour tous les types d'épreuves).
-
-![](https://lh5.googleusercontent.com/6E5xYiT0ajIZsQVJbsxR0k9OOZUSoH-KMweOliR9PCGDKXfv9TkiRaqzedLcG5W8VvIqVYncrYBQmou3yZx3GjyPwjFGNs9FGTwKmlWRIBmCl31UJa5qdscAkzF-7aja-FEnj_an)
-
-- Ignorez «géolocalisation» (n'est pas illustré ici).
-- «Trier par» organisera vos articles par ordre décroissant en fonction du nombre de téléchargements. Pour ce faire, sélectionnez "Compte" dans la première liste déroulante, puis sélectionnez "Décroissant".
-
-![](https://lh5.googleusercontent.com/RCJkSf9IQuEaZkyCWTtYQTNcwe-OQdjkCy_KtE43C6UD6nlG5Z5eWvdZ0wX2P4D_V7UKeR5jpRmTuSID2lzBUQVjRI8NeRg4xgtbbrJquSR51wqimAqPePXKo-7HK57DycrBjU8H)
-
-- Le rapport résultant apparaîtra comme suit (tronqué):
-
-![](https://lh3.googleusercontent.com/AwRJrT9mRQemnW0F4O-y4W3V9-z_VA0HFEFK4hjqEM5nHadHemeB9yKRoVGKTPVkpgQUq-z0qwMveMHzjfFGiNwk2tHc36bMZqdnf7rW-P_4hm_3QMisqBqeZcMwwB6BFABbmVJY)
-
-- Enregistrez votre URL en bas de page!
-
-### Exemple: Quel est notre numéro le plus populaire?
-
-Cette requête affiche un nombre de téléchargements de texte intégral pour chaque numéro de journal et classe les résultats du plus élevé au plus bas.
-
-- Sélectionnez «Téléchargements de fichiers d'article» dans la liste déroulante.
-- Décochez toutes les cases sous "Agréger les statistiques par".
-- Sélectionnez le bouton radio «Mois» et entrez une période.
-
-![](https://lh4.googleusercontent.com/VF0ze4t7M2xgB5V_DGrGIfqO3aLE_N3etLxSxrYWGUPdVQNLSRMNqlObsXZ8DPBN_ygkqOGkh_6WWGvj4GBxNsepYzr8-hotDFNuocMXU0TPMDESMweOABbnQUJm6to23Q-er1YJ)
-
-- Sous les colonnes, cliquez sur "Numéro".
-
-![](https://lh3.googleusercontent.com/qDh2QsUsE8gzJJ7W0BLule0VbKI4MmiYfKWhRqbsQwbmG24au47Ax_cdL1PUfP9HS_0CWNbRrXgBj-nCGMaAj0AtAEjcT5pPIi7z2FQ3jtP6q5Is_w-VWyoaSSPE_YVg9iB8RzQG)
-
-- Sous "Filtres", ignorez "Par contexte" et sélectionnez "Épreuve" sous "Par type d'objet…"
-- Ignorez "Par géolocalisation".
-
-![](https://lh4.googleusercontent.com/4yXJ-ctenNxwwF7_vdIpbbdVHDwbfqA82LhvVK_p9i_SVgXMdJlASDcb5Os-28On6jKxG8cLsXCjaST_JDjd1g-txLrxBeaW3vBcmpu_hm3hKgmOVRd7u2wHGfFFVGu6FvnQKRIk)
-
-- Sous «Trier par», sélectionnez «Nombre» dans la liste déroulante de gauche et «Décroissant» dans la liste déroulante de droite.
-
-![](https://lh3.googleusercontent.com/h7XugMr8ws2cuht4_HoDDj07Aa8CQ9mYoePiOmp33XHW6qKKRBWphNU450bIyeKFajW2I0AF-buXDvLC_W9S2iTYf_Zj7a4jwfPYjElcuksLpVt0l_S7fNO5NfVouB_8YZiKReJl)
-
-- Exécutez votre rapport. Voici ce que vous obtiendrez:
-
-![](https://lh4.googleusercontent.com/7RMRaHCBbkV7xh8iq7RZfTNu1w7YxhO0b6mV2908s_-GsM__i64hw1dHp0RbquLtzj4_6oQydkWes8hs_2foMDkWQT8sYTe1qUrl0es1HLxbGyjkZVTjXHPP38c8x6RRmCzdWSDW)
-
-### Exemple: Quels pays téléchargent nos articles (pour un intervalle de date spécifique)?
-
-Cette requête affichera les décomptes agrégés des téléchargements de texte intégral par pays dans l'ordre décroissant. Notez qu'il faudra spécifier une période.
-
-- Sélectionnez «Téléchargements de fichiers d'article» dans la liste déroulante.
-- Décochez toutes les cases sous "Agréger les statistiques par".
-- Sélectionnez le bouton radio «Mois» et entrez une période.
-
-![](https://lh3.googleusercontent.com/OMryahCavInrr9VI6OhQ8sVQBsOW8QXQZ8ku_e-lOQKE3alP4HEuAYn0Tr4ec1FFWbiVk-zScwvkot-CPhr-dxrcoQVmGokphWTxdBBVtf4HslT6AX3cQIX3OGX7SGAGpuXO9CWl)
-
-- Sélectionnez uniquement «Journal» et «Pays» sous Colonnes. Nous affinerons le type ultérieurement dans la requête.
-
-![](https://lh6.googleusercontent.com/VWF3QtcmKOYz8EmkELIrThy31EqU0JJFo5KSUmbix_jQxVw8FyVcWQc5lo10ykj6Lp6BFKp9A0BuIgQ_pIqLTkUdDYO9nj1uQ7E90huN5CXL9K8J3On9k-I4tpmwBkSCjwLhyK77)
-
-- Ignorez la zone "Par contexte", mais sélectionnez "Épreuve" sous "par type d'objet". Cela garantira que vous regardez tous les téléchargements d'articles possibles (pour tous les types d'épreuves).
-
-![](https://lh4.googleusercontent.com/DEXxdA7mIl9Ydc3316HgqsuSTJzq17eFlvduGUft7HnXmJJt96ArXBFTf-W3OqV_X3bZJ3Vm0nXtKB9QBEV8k8AAyxmbLA1joiw6HufVqM2j0NAipJfyvrLLxw-hYK5X5PNGjHa-)
-
-- Sous «Trier par», sélectionnez «Nombre» dans la liste déroulante de gauche et «Décroissant» dans la liste déroulante de droite.
-
-![](https://lh5.googleusercontent.com/d_3qS0tmL2OL0TyOCNm93woC2KLCytRXoeIIs9BzcpJIU4pK_e6kk1L_SdXaJ1LIVz1CL7MZvg4mkTqsNu1A7F8RQA7YIrPn84Kjn65DFJHVfxycqQcPnQvaQGJ-8v-Kd8Fov-TH)
-
-- Exécutez le rapport ... voici ce que vous obtiendrez ...
-- N'oubliez pas d'enregistrer votre URL pour l'exécuter à une date ultérieure.
-
-![](https://lh4.googleusercontent.com/L1GghbRsng68WpYdY-SFbsTvcLc9MjdKfOXRzMHpCgiBzRxrATY_1dU2HVLWxJo1SdkTIgxhj1rHqjXhw8S5p6Mr3-_PvDlYn4JZbpM6kboSDQmcwgcUkuz3PeqcyOYSHTYzA15t)
-
-## Statistiques Visuelles sur l'Utilisation d'Article
-
-OJS 3.1.2 offre désormais aux Rédacteurs-trices et aux Directeurs-trices de la Revue la possibilité de visualiser des représentations graphiques et tabulaires de l'utilisation des articles, y compris des consultations de la page du résumé et des téléchargements de texte intégral.
-
-Les statistiques visuelles se trouvent sous **Statistiques** dans le panneau de menu de gauche, en cliquant sur **Articles** .
-
-![](./assets/Article-Usage-Visual-Statistics-1.png)
-
-Les statistiques des Articles présentent les consultations de la page du résumé des articles sous forme de graphique et de tableau. Le graphique visuel peut être modifié de la vue mensuelle à la vue quotidienne, et vice versa. Tandis que le format du tableau vous permettra de filtrer le total par ordre croissant ou décroissant.
-
-![](./assets/Article-Usage-Visual-Statistics-2.png)
-
-![](./assets/Article-Usage-Visual-Statistics-3.png)
-
-L'icône calendrier dans le coin supérieur droit de votre tableau de bord vous donne la possibilité de changer la consultation de l'article sur les 30 derniers jours, les 90 derniers jours, les 12 derniers mois, Toutes les dates ou une Période Personnalisée.
-
-![](./assets/Article-Usage-Visual-Statistics-4.png)
-
-L'icône filtre dans le coin supérieur droit de votre tableau de bord vous donne la possibilité de filtrer les articles par sections.
-
-![](./assets/Article-Usage-Visual-Statistics-5.png)
-
-Vous avez également la possibilité de rechercher les statistiques d'un article spécifique par titre, auteur ou ID de manuscrit en utilisant la fonction de recherche sous **Détails de l'Article** .
-
-![](./assets/Article-Usage-Visual-Statistics-6.png)
-
-## Afficher les Statistiques d'Utilisation pour les Lecteurs
-
-Dans OJS 3, vous pouvez afficher les statistiques d'utilisation d'un article pour l'année en cours sous forme de graphique sur la page de destination de l'article en utilisant le Plugiciel de Statistiques d'Utilisation, comme dans cette image.
-
-![](https://lh6.googleusercontent.com/SM0RR0kk7UBUSIvw86knRV116H97Lsg-X_gfGw_SMD5SSiDxmAsBIQs7XETrn5RzygL4Yp-2nzMlHR2cpfoVUnIAJ13XyLsyQWo5awNs9R0SVbS2ldtR-Ne3GuQcSqDUWDYNcN-M)
-
-Pour activer le Plugiciel Statistiques d'Utilisation:
-
-1. Accédez aux Paramètres> Site Web> Plugiciels
-2. Sous Plugiciels Génériques, recherchez le **Plugiciel de Statistiques d'Utilisation** .
-3. Cochez la case à droite de la description du plugiciel.
-
-Pour configurer le Plugiciel de Statistiques d'Utilisation:
-
-1. Accédez aux Paramètres> Site Web> Plugiciels
-2. Sous Plugiciels Génériques, recherchez le **Plugiciel de Statistiques d'Utilisation**
-3. Cliquez sur la flèche bleue à gauche du nom du plugiciel pour faire apparaître des liens sous le plugiciel.
-4. Cliquez sur **Paramètres** .
-5. Faites défiler vers le bas de la boîte de dialogue qui s'ouvre à la section **Options d'Affichage des Statistiques** .
-6. Cochez la case à côté de **Afficher le tableau des statistiques de soumission pour le lecteur** .
-7. Ci-dessous, vous pouvez sélectionner si vous souhaitez afficher les statistiques sous forme de graphique à barres ou à courbes et le nombre maximum de mois pour lesquels afficher l'utilisation.
-8. Cliquez sur **Enregistrer** .
-
-![](./assets/usage-stats-plugin-configuration-basic.png)
-
-Veuillez noter ce qui suit:
-
-- Les statistiques d'utilisation ne peuvent être affichées que pour l'année en cours. Le plugin est réinitialisé au début de chaque année.
-- Les statistiques affichées indiquent le nombre de fois qu'un article a été téléchargé.
-
-<hr>
-
-## Activité Éditoriale
-
-Cette section fournit des statistiques sur le flux de travail rédactionnel, telles que le nombre de soumissions reçues, les jours avant la première décision éditoriale et les taux d'acceptation et de rejet. Vous pouvez filtrer ces statistiques en utilisant une période personnalisée pour, par exemple, trouver le nombre d'articles acceptés au cours d'une période de 12 mois.
-
-![](./assets/editorial-activity.png)
-
-Il y a quelques points importants à noter lors de l'examen des données de ces rapports:
-
-- Les soumissions publiées dans une période ne comptent que la date de publication initiale et non les versions suivantes.
-- Les jours avant la décision utilisent un seuil de 80%, de sorte que les données répertoriées représentent les 80% des soumissions avec une décision en ont reçu une dans un délai de X jours.
-- Les taux d'acceptation et de refus ne comptent que les soumissions qui ont reçu une décision d'acceptation/de refus, de sorte qu'ils excluent les soumissions toujours dans la file d'attente.
-- Si une période est appliquée, elle ne compte que les soumissions qui ont été soumises ET acceptées/refusées dans cette période. Ainsi, par exemple, une soumission qui a été soumise avant la période mais qui a reçu une décision d'acceptation/de rejet dans la période ne sera pas comptée. Pour cette raison, il est préférable d'utiliser des périodes longues et plus anciennes pour obtenir des taux d'acceptation/de rejet précis.
-
-Un Rapport d'Activité Éditoriale sera généré mensuellement et peut être envoyé par courrier électronique aux rédacteurs-trices en chef et aux rédacteurs-trices de rubrique. Tous les responsables et les rédacteurs-trices de rubrique sont automatiquement exclus du rapport mensuel; Cependant, vous pouvez vous inscrire en accédant au Profil Utilisateur > Avis et en décochant la case qui désactive l'e-mail automatisé.
-
-## Utilisateurs-trices
-
-Cette section fournit des informations sur les inscriptions de nouveaux utilisateurs/rôles dans une période spécifiée. La colonne Total n'est pas un nombre total de comptes créés; il identifie le nombre d'utilisateurs qui ont actuellement ce rôle dans le système. Lorsqu'un(e) utilisateur-trice existant reçoit un nouveau rôle, tel qu'un auteur enregistré devenant un(e) évaluateur-trice, cet ajout au nombre total d'évaluateurs dans le système sera reflété dans les données par une augmentation du nombre d'évaluateurs mais pas de changement dans le nombre total d'utilisateurs.
-
-![](./assets/users.png)
-
-## Annexe B: Configurer le Cadre des Statistiques
-
-Cette section ne concerne que ceux qui utilisent OJS 2.4.3+ et OJS 3.0+. Les anciennes versions d'OJS n'ont pas ce cadre et n'ont pas besoin de configuration.
-
-Dans la plupart des cas, le Cadre des Statistiques devrait «simplement fonctionner», en particulier avec de nouvelles installations. De la même manière, un certain nombre d'options de configuration s'offrent à vous, et elles doivent être évaluées après l'installation ou la mise à niveau. Vous devez également mettre en place une sorte de mécanisme pour exécuter des tâches planifiées afin que les statistiques d'utilisation soient traitées régulièrement.
-
-**Remarque pour les Directeurs de Revue et les Rédacteurs: ** la plupart des étapes suivantes sont considérées comme du niveau expert et ne doivent être effectuées que par les administrateurs du site et ceux du système. Si vous avez des questions sur les problèmes plus avancés présentés ici, consultez votre fournisseur de services. La principale exception à cela est l'option d'Affichage des Statistiques décrite dans la section suivante. Si vous souhaitez afficher publiquement les statistiques d'utilisation des articles sur les pages de résumé d'article, vous pouvez activer cette option.
-
-Vous devrez prendre en compte trois étapes de configuration: la configuration du plugiciel de statistiques d'utilisation, la configuration des tâches planifiées et la configuration du suivi des données régionales, si vous souhaitez suivre les données régionales. (OJS peut suivre les données de pays, de région et de ville.)
-
-### Configurer le Plugiciel de Statistiques d'Utilisation
-
-OJS 2.4.3+ et 3+ incluent un Pugiciel de Statistiques d'Utilisation générique qui est responsable de la façon dont ces statistiques sont consignées et enregistrées dans le système. Les configurations par défaut du plugiciel sont raisonnables et fonctionnent pour la plupart des cas d'utilisation, bien que vous souhaitiez les revoir après avoir installé ou mis à niveau OJS. Pour activer la collecte des données d'utilisation, assurez-vous que ce plugiciel est activé.
-
-Les paramètres du plugiciel peuvent être trouvés dans OJS 2 en accédant à Accueil d'Utilisateur > Directeur-trice de la Revue > Plugiciels de Système > Plugiciels Génériques > Plugiciel de Statistiques d'Utilisation > Paramètres.
-
-Les paramètres du plugiciel peuvent être trouvés dans OJS 3 en allant dans Tableau de Bord > Paramètres > Site Web > Plugiciels > Plugiciels Génériques > Plugin de Statistiques d'Utilisation > Paramètres.
-
-Nous n'entrerons pas dans les détails pour chaque option de configuration du plugiciel, mais nous suggérons ce qui suit comme configuration raisonnable:
-
-- S'il n'est pas déjà activé, cochez la case à droite du nom du plugiciel.
-- Cliquez sur la flèche bleue à côté du plugiciel, puis sur **Paramètres** .
-- Activez «Créer des Fichiers Journaux» s'il n'est pas déjà activé.
-- Laissez l'option «Analyse du Fichier Journal en Expression Régulière» seule, sauf si vous savez ce que vous faites.
-- Laissez l'option «Compresser les archives» désactivée à moins que l'espace du serveur ne soit pris en considération (voir la section Dépannage ci-dessous).
-- Laissez l'option «Option de Confidentialité des Données» désactivée, sauf si vous pouvez suivre les instructions fournies.
-- Activez les options «Ville» et «Région» et suivez la section sur la Configuration du Suivi des Données Régionales ci-dessous.
-- Si elles sont disponibles dans votre installation OJS, envisagez d'activer les Options d'Affichage de Statistiques si vous souhaitez que les consultations de résumé et d'épreuve de base soient disponibles sur les pages de destination des articles. Voir la section ci-dessus Afficher les Statistiques d'Utilisation pour plus d'informations.
-
-### Configurer les Tâches Planifiées
-
-Une fois que le Plugiciel de Statistiques d'Utilisation a été activé, vous devez vous assurer que les statistiques sont consignées et traitées dans le cadre des «tâches planifiées» d'OJS. Il existe deux façons de procéder:
-
-#### 1. Activez le plugiciel OJS Acron
-
-Le plugiciel peut être trouvé dans OJS 2 en accédant à l'Accueil Utilisateur > Directeur-trice de la Revue > Plugiciels de Système > Plugiciels Génériques > Plugiciel Acron.
-
-Le plugiciel se trouve dans OJS 3 en accédant à Tableau de Bord > Paramètres > Site Web > Plugiciels > Plugiciels génériques > Plugiciel Acron.
-
-Une fois activé, ce plugiciel devrait entraîner le traitement des fichiers journaux (ainsi que d'autres tâches planifiées, telles que les rappels de révision et d'abonnement).
-
-#### 2. Configurer une tâche cron côté serveur
-
-Il s'agit d'une option plus avancée nécessitant un accès en ligne de commande au serveur et ne doit être configurée que par un administrateur de système expérimenté. Vous devrez créer une tâche cron qui déclenchera le script suivant dans votre répertoire de système OJS:
+This is a more advanced option requiring command-line access to the server and should only be configured by an experienced systems administrator. You will need to create a cron job that will trigger the following script in your OJS system directory:
 
 ```text
 tools/runScheduledTasks.php
 ```
 
-Ce script attend un paramètre d'accompagnement sous la forme d'un pointeur vers un fichier XML décrivant la tâche planifiée. Ce fichier diffère selon que vous utilisez des fichiers journaux OJS, des fichiers journaux externes (par exemple, des fichiers journaux Apache) ou des fichiers journaux OJS avec un processus de transfert automatisé. La plupart des revues utiliseront l'option simple «fichier journal OJS» (option 1 ci-dessous). L'emplacement de ces fichiers XML est légèrement différent selon que vous utilisez OJS 2 ou 3. Les commandes complètes sont les suivantes et devront être ajoutées au travail cron du serveur, idéalement pour qu'elles s'exécutent quotidiennement.
+This script expects an accompanying parameter in the form of a pointer to an XML file describing the scheduled task. This file will differ depending on whether you are using OJS log files, external log files \(eg. Apache log files\), or OJS log files with an automated staging process. Most journals will be using the simple “OJS log file” option \(option 1 below\). The full commands are as follows and will have to be added to the server cron job, ideally so that they run daily.
 
-**Commandes à exécuter (OJS 2)**
+**Commands to be run**
 
-| **Processus** | **Commande** | 
-| --- | --- |
-| Fichiers journaux OJS | php tools/runScheduledTasks.php plugins/generic/usageStats/schedulesTasks.xml |
-| Fichiers journaux OJS avec un processus de transfert automatisé | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksAutoStage.xml | 
-| Fichiers journaux externes | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
+| **Process**                                  | **Command**                                                                                   |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| OJS log files                                | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasks.xml                 |
+| OJS log files with automated staging process | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksAutoStage.xml        |
+| External log files                           | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
 
-**Commandes à exécuter (OJS 3)**
+After you configure either the Acron plugin or a cron job, your statistics should start processing. They only process at set times: once every 24 hours if using the Acron plugin and at whatever frequency set in the cron job, if that is being used. Wait for that amount of time, and then check to see if stats are now available. If they aren’t, proceed to the Troubleshooting section.
 
-| **Processus** | **Commande** |
-| --- | --- | 
-| Fichiers journaux OJS | php tools/runScheduledTasks.php lib/pkp/plugins/generic/usageStats/scheduledTasks.xml |
-| Fichiers journaux OJS avec un processus de transfert automatisé | php tools/runScheduledTasks.php lib/pkp/plugins/generic/usageStats/scheduledTasksAutoStage.xml | 
-| Fichiers journaux externes | php tools/runScheduledTasks.php lib/pkp/plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
+### Configure Regional Data Tracking
 
-Une fois que vous avez configuré le plugiciel Acron ou une tâche cron, vos statistiques devraient commencer le traitement. Ils ne traitent qu'à des heures définies: une fois toutes les 24 heures si vous utilisez le plugiciel Acron et à n'importe quelle fréquence définie dans le travail cron, si cela est utilisé. Attendez ce laps de temps, puis vérifiez si les statistiques sont maintenant disponibles. Si ce n'est pas le cas, passez à la section Dépannage.
+The Usage Statistics plugin can also track regional data, including visitor country, region, and city information. This is optional. When deciding whether to collect this information, consider that storing geographical data can take up a lot of space and can also increase processing time when generating reports. If you are running into space issues or are running into timeouts when attempting to generate reports, you may have to either increase disc or memory resources or disable geographic logging. If you don’t enable and configure geographic tracking immediately and decide to enable it at a later date, you will have to reprocess your old log files in order for this data to be available in older usage statistics.
 
-### Configurer le Suivi des Données Régionales
+In order to track this information:
 
-Le plugiciel de Statistiques d'Utilisation peut également suivre les données régionales, y compris les informations sur le pays, la région et la ville des visiteurs.
-
-**Remarque 1** : Il s'agit d'une étape entièrement facultative.
-
-**Remarque 2: le** Le stockage de données géographiques peut prendre beaucoup de place et peut également augmenter le temps de traitement lors de la génération de rapports. Si vous rencontrez des problèmes d'espace ou si vous rencontrez des délais d'attente lors de la tentative de génération de rapports, vous devrez peut-être augmenter les ressources de disque ou de mémoire ou désactiver l'enregistrement de données géographique.
-
-**Remarque 3:** Si vous n'activez et ne configurez pas le suivi géographique immédiatement et décidez de l'activer ultérieurement, vous devrez retraiter vos anciens fichiers journaux pour que ces données soient disponibles dans les anciennes statistiques d'utilisation.
-
-Afin de suivre ces informations:
-
-1. Le Plugiciel de Statistiques d'Utilisation doit avoir les options Région et Ville activées comme décrit ci-dessus.
-2. La configuration côté serveur suivante doit également être en place. Cette étape nécessite un accès en ligne de commande au serveur, et les informations sur le pays et la région ne fonctionneront que si cela a été fait.
-    1. Ouvrez une invite shell sur le serveur.
-    2. Allez dans le répertoire de base d'installation OJS.
-    3. Exécutez les commandes suivantes:
+1. Register for a GeoIP account obtain the required .dat file by following the instructions on the [GeoIP website](https://dev.maxmind.com/geoip/geoip-direct-downloads/).
+2. The Usage Statistics Plugin must have the Region and City options enabled as described above.
+3. The following server-side configuration must also be in place. This step requires command-line access to the server, and country and region information will not work unless this has been done.
+   1. Open a shell prompt on the server.
+   2. Go into the OJS installation base directory.
+   3. Execute the following commands using the URL obtained from GeoIP for the wget command:
 
 ```text
-$ wget http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+$ wget 'https://download.maxmind.com/app/geoip_download?edition_id=GeoIP2-City-CSV&license_key=YOUR_LICENSE_KEY&suffix=zip'
 $ gunzip GeoLiteCity.dat.gz
 $ mv GeoLiteCity.dat plugins/generic/usageStats
 ```
 
-<hr>
+<hr />
 
-## Annexe C: Traitement des Fichiers Journaux
+## Processing Log Files
 
-### De Base (par défaut)
+### Basic \(default\)
 
-OJS, par défaut, démarre automatiquement la journalisation des événements d'utilisation dans ses propres fichiers journaux d'accès. Il traite également automatiquement ces fichiers quotidiennement. Ainsi, par exemple, si vous avez installé OJS aujourd'hui à 14h00, le traitement des événements d'utilisation d'aujourd'hui commencerait demain à 14h00. Si vous ne modifiez aucun paramètre, cela se poursuivra sans aucune entrée.
+OJS, by default, automatically starts logging the usage events into its own access log files. It also automatically process those files on a daily basis. So, for example, if you installed OJS today at 2:00 pm, the processing of the usage events for today would start tomorrow at 2:00 pm. If you don’t change any setting, this will proceed without any input.
 
-### Avancé
+### Advanced
 
-Si vous voulez vraiment contrôler le traitement de vos statistiques, vous pouvez aller sur la page de gestion des Plugiciels dans la catégorie Plugiciels Génériques et rechercher le plugin Acron. S'il est désactivé, le traitement automatique s'arrêtera. Lisez les étapes suivantes pour comprendre comment déclencher manuellement le traitement.
+If you really want to control your stats processing, you can go to the Plugins management page in the Generic Plugins category and search for the Acron plugin. If disabled, automatic processing will stop. Read the following steps to understand how to manually trigger the processing.
 
-OJS doit traiter les fichiers pour pouvoir en extraire des données statistiques. Ce processus peut être effectué à l'aide de l'outil de tâche Chargeur de Fichiers, fourni avec le plugiciel de Statistiques d'Utilisation.
+OJS needs to process the files to be able to retrieve statistics data from them. This process can be done using the File Loader task tool, which comes with the Usage Statistics plugin.
 
-#### Chargeur de Fichiers
+#### File loader
 
-La tâche de chargement de fichiers implémente un processus pour gérer de manière fiable tout le traitement des fichiers. Il fonctionne avec 4 dossiers: mise en scène, traitement, archivage et rejet. Chaque fois que le chargeur de fichiers est exécuté, il recherchera les fichiers dans le dossier mise en scène. S'il y en a, il déplacera un fichier vers le dossier de traitement et commencera à travailler dessus. Si quelque chose ne va pas, il enverra un e-mail à l'administrateur de système avec des informations précieuses sur ce qui ne va pas et déplacera le fichier vers le dossier de rejet. Si le traitement s'est bien passé, il déplacera le fichier vers le dossier d'archive. Il continuera ce processus jusqu'à ce qu'il n'y ait plus de fichiers dans le dossier mis en scène.
+The file loader task implements a process to reliably handle all file processing. It works with 4 folders: stage, processing, archive, and reject. Every time the file loader is run, it will search for files inside the stage folder. If there are any, it will move one file to the processing folder and start working on it. If anything goes wrong, it will send an email to the system administrator with valuable information about what went wrong and will move the file to the reject folder. If the processing went well, then it will move the file to the archive folder. It will continue this process until there are no more files inside the stage folder.
 
-#### Processus
+#### Processes
 
-Le chargeur de fichiers est un outil de tâche planifiée, qui peut être périodiquement appelé à l'aide de [cron](https://help.ubuntu.com/community/CronHowto) ou d'un autre outil de gestion des tâches du système. La commande pour exécuter cette tâche dépend du processus que vous êtes prêt à utiliser:
+The file loader is a scheduled task tool, which can be periodically invoked using [cron](https://help.ubuntu.com/community/CronHowto) or another system task management tool. The command to run this task depends on which process are you willing to use:
 
-**Processus de tâche du chargeur de fichiers:**
+**File loader task processes:**
 
-| **#** | **Processus** | **Commande** | 
-| --- | --- | --- | 
-| 1 | Fichiers journaux OJS | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasks.xml | 
-| 2 | Fichiers journaux OJS avec un processus de transfert automatisé | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksAutoStage.xml | 
-| 3 | Fichiers journaux externes | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
+| **\#** | **Process**                                  | **Command**                                                                                   |
+| -------- | -------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| 1        | OJS log files                                | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasks.xml                 |
+| 2        | OJS log files with automated staging process | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksAutoStage.xml        |
+| 3        | External log files                           | php tools/runScheduledTasks.php plugins/generic/usageStats/scheduledTasksExternalLogFiles.xml |
 
-Cela doit être exécuté à partir du répertoire de base d'installation OJS.
+This should be executed from the OJS installation base directory.
 
-**NB: Pour OJS 3.x, les fichiers XML de la tâche planifiée ont été déplacés vers la bibliothèque partagée, par exemple lib/pkp/plugins/generic/usageStats/scheduledTasks.xml**
+Process 1 and 3 require files to be moved inside the stage folder \(regardless of whether it’s an apache log file or an OJS log file\). Process 2 already automatically moves OJS log files into stage folder, so the command only needs to be executed.
 
-Les processus 1 et 3 nécessitent que les fichiers soient déplacés dans le dossier mis en scène (qu'il s'agisse d'un fichier journal Apache ou d'un fichier journal OJS). Le processus 2 déplace déjà automatiquement les fichiers journaux OJS dans le dossier mis en scène, la commande n'a donc qu'à être exécutée.
+Everything else is handled by the file loader task. If this task isn't scheduled for automatic execution using cron or a similar mechanism, it will have to be run manually.
 
-Tout le reste est géré par la tâche du chargeur de fichiers. Si cette tâche n'est pas planifiée pour une exécution automatique à l'aide de cron ou d'un mécanisme similaire, elle devra être exécutée manuellement.
+Note that for any process you choose, you can move files into the stage folder anytime, even while the scheduled task is running. You can also move any number of files inside the stage directory. What determines the period of time that you will be moving files into the stage directory is mainly your necessity for updated statistics.
 
-Notez que pour tout processus que vous choisissez, vous pouvez déplacer des fichiers dans le dossier mis en scène à tout moment, même pendant l'exécution de la tâche planifiée. Vous pouvez également déplacer n'importe quel nombre de fichiers dans le répertoire de mis en scène. Ce qui détermine la période pendant laquelle vous déplacerez des fichiers dans le répertoire de mis en scène dépend de votre besoin de statistiques mises à jour.
+The only thing that is **not recommended** is to move a log file that is still being used by the system \(OJS or apache\) to log access. OJS already controls that for process 2, but for 1 and 3 you have to be careful. It is not recommended because you can waste processing time when you reprocess the same file. You can guarantee that you will not do that by paying attention to the apache log files rotation \(moving only the ones that were already rotated\) or, if you use OJS log files, not moving the file that has its filename with the current day.
 
-La seule chose qui n'est **pas recommandée** est de déplacer un fichier journal qui est toujours utilisé par le système (OJS ou apache) pour enregistrer l'accès. OJS contrôle déjà cela pour le processus 2, mais pour le 1 et le 3, vous devez faire attention. Cela n'est pas recommandé car vous pouvez perdre du temps de traitement lorsque vous retraitez le même fichier. Vous pouvez garantir que vous ne le ferez pas en faisant attention à la rotation des fichiers journaux apache (en ne déplaçant que ceux qui ont déjà été tournés) ou, si vous utilisez les fichiers journaux OJS, en ne déplaçant pas le fichier qui a son nom de fichier avec le jour en cours.
+If you really need updated statistics from the same day, you can still copy the files \(instead of moving\) so the system can continue logging more access into the same file. However, you will be able to process what has already been logged. The system can handle with files reprocessing \(see next topic\), as long as the filename is unchanged the final copied version of the file contains all access logging.
 
-Si vous avez vraiment besoin de statistiques mises à jour le même jour, vous pouvez toujours copier les fichiers (au lieu de les déplacer) afin que le système puisse continuer à enregistrer plus d'accès dans le même fichier. Cependant, vous pourrez traiter ce qui a déjà été enregistré. Le système peut gérer le retraitement des fichiers (voir la rubrique suivante), tant que le nom de fichier reste inchangé, la version finale copiée du fichier contient toute la journalisation des accès.
+#### Usage examples
 
-#### Exemples d'Utilisation
+Let’s imagine that we have the following scenarios, all three with a cron job calling the file loader task tool on a daily basis:
 
-Imaginons que nous ayons les scénarios suivants, tous les trois avec un travail cron appelant quotidiennement l'outil de tâche du chargeur de fichiers:
+1. Journal Manager using apache log files that rotate each week; the log files are named using the day in which the file rotation occurs \(e.g.: 20130929-access.log\); JM uses file loader task process 3.
+2. Journal Manager using OJS log files that rotate each day, having in their filenames the day that they were being used to log access; JM uses file loader task process 1.
+3. Same last scenario, but JM uses file loader task process 2.
 
-1. Directeur-trice de la Revue utilisant des fichiers journaux apache qui alternent chaque semaine; les fichiers journaux sont nommés en utilisant le jour où la rotation des fichiers a lieu (par exemple: 20130929-access.log); DR utilise le processus de tâche 3 du chargeur de fichiers.
-2. Directeur-trice de la Revue utilisant des fichiers journaux OJS qui alternent chaque jour, ayant dans leurs noms de fichiers le jour où ils étaient utilisés pour enregistrer l'accès; DR utilise le processus de tâche 1 du chargeur de fichiers.
-3. Même dernier scénario, mais DR utilise le processus de tâche du chargeur de fichiers 2.
+In scenario 1, if JM can’t configure the apache log files rotation to a smaller period of time, they can copy the 20130929-access.log file to the usageStats/stage directory every time they want new statistics to be processed. The system will, each time, delete all data that were processed for that file and reprocess everything again. That is why this process is not as efficient as an smaller period of log file rotation. At day 20131006 the log rotation will occur and JM can finally move or copy the 20130929-access.log file to the stage directory so the stats logged between the last time the file was staged and the log rotation can also be processed.
 
-Dans le scénario 1, si DR ne peut pas configurer la rotation des fichiers journaux apache sur une période plus courte, il peut copier le fichier 20130929-access.log dans le répertoire usageStats/stage chaque fois qu'il souhaite que de nouvelles statistiques soient traitées. Le système supprimera à chaque fois toutes les données traitées pour ce fichier et tout retraitera à nouveau. C'est pourquoi ce processus n'est pas aussi efficace qu'une période plus courte de rotation des fichiers journaux. Au jour 20131006, la rotation du journal aura lieu et DR pourra enfin déplacer ou copier le fichier 20130929-access.log dans le répertoire de mis en scène afin que les statistiques enregistrées entre la dernière mis en scène du fichier et la rotation du journal puissent également être traitées.
+In scenario 2, JM can move one file per day, always moving the file from the previous day. On Monday they can move two files at the same time \(from Saturday and Sunday\). They will have a small time between access and available statistics \(one day only, for most of the week\) and will avoid reprocessing same access log entries.
 
-Dans le scénario 2, DR peut déplacer un fichier par jour, en déplaçant toujours le fichier du jour précédent. Le lundi, ils peuvent déplacer deux fichiers en même temps (du samedi au dimanche). Ils disposeront d'un peu de temps entre l'accès et les statistiques disponibles (un jour seulement, pendant la majeure partie de la semaine) et éviteront de retraiter les mêmes entrées du journal d'accès.
+In scenario 3, JM does not have to move the files. Each time the file loader task is executed, the system will automatically grab the log files that were not processed yet avoiding the current day one, will stage them, and will start processing each one.
 
-Dans le scénario 3, DR n'a pas besoin de déplacer les fichiers. Chaque fois que la tâche du chargeur de fichiers est exécutée, le système récupère automatiquement les fichiers journaux qui n'ont pas encore été traités en évitant le premier jour en cours, les met en scène et commence à traiter chacun d'eux.
+In scenarios 1 and 2, if for some reason JM can’t move files for a whole week, in the next opportunity they can move all of them at once. The scheduled task will process one by one then until the stage directory is empty again.
 
-Dans les scénarios 1 et 2, si pour une raison quelconque, DR ne peut pas déplacer des fichiers pendant une semaine entière, à la prochaine occasion, ils peuvent tous les déplacer en même temps. La tâche planifiée sera traitée une par une jusqu'à ce que le répertoire de mis en scène soit à nouveau vide.
+### Reprocessing log files
 
-### Retraitement des fichiers journaux
+If you need to reprocess any log file \(if a new robot list or geolocation database is introduced or you fixed problems inside rejected files\) you can move them back to the stage process. Even if they were inside “rejected” or “archived” directories. They will be processed and any existing data from these logs will be replaced by reprocessed data.
 
-Si vous avez besoin de retraiter un fichier journal (si une nouvelle liste de robots ou une nouvelle base de données de géolocalisation est introduite ou si vous avez résolu des problèmes dans des fichiers rejetés), vous pouvez les replacer dans le processus de mis en scène. Même s'ils se trouvaient dans des répertoires «rejetés» ou «archivés». Ils seront traités et toutes les données existantes de ces journaux seront remplacées par des données retraitées.
+The important thing is that after a file is successfully processed and moved to the archive folder, its filename is preserved. The filename is used to keep track of statistics data and the file that it was retrieved from. For the same reason, it’s important that all log files have unique filenames. You don’t have to worry about this if you are using OJS log files. But if you are using apache access log files, ensure that you are using something unique such as dates in the filenames.
 
-L'important est qu'une fois qu'un fichier est traité avec succès et déplacé vers le dossier d'archive, son nom de fichier est conservé. Le nom du fichier est utilisé pour garder une trace des données statistiques et du fichier à partir duquel elles ont été extraites. Pour la même raison, il est important que tous les fichiers journaux aient des noms uniques. Vous n'avez pas à vous en préoccuper si vous utilisez des fichiers journaux OJS. Mais si vous utilisez des fichiers journaux d'accès apache, assurez-vous que vous utilisez quelque chose d'unique tel que des dates dans les noms de fichiers.
+<hr />
 
-<hr>
+## Frequently Asked Questions
 
-## Questions Fréquemment Posées
+These are the most frequently asked questions and answers concerning OJS and statistics. This isn’t an exhaustive list. If you are running into further questions for which you don’t have answers, notify your hosting service provider or take a look at the PKP Community Forum &lt;[https://forum.pkp.sfu.ca](https://forum.pkp.sfu.ca)&gt; to see if anyone else has run into the same thing.
 
-Voici les questions les plus fréquemment posées concernant l'OJS, les statistiques, et leurs réponses. Ce n'est pas une liste exhaustive. Si vous rencontrez d'autres questions pour lesquelles vous n'avez pas de réponses, informez votre fournisseur de services d'hébergement ou consultez le forum de la communauté PKP < [https://forum.pkp.sfu.ca](https://forum.pkp.sfu.ca) > pour voir si quelqu'un d'autre a rencontré la même chose.
+### What’s the best possible thing I can do to ensure accurate usage reporting?
 
-### Quelle est la meilleure chose que je puisse faire pour garantir des rapports d'utilisation précis?
+First, upgrade to the latest stable version of OJS 2 or 3. Optionally, also consider reprocessing your logs \(see the previous section **Processing Log Files**\).
 
-Tout d'abord, effectuez une mise à niveau vers la dernière version stable d'OJS 2 ou 3. Vous pouvez également envisager de retraiter vos journaux (voir la section précédente **Traitement des Fichiers Journaux**).
+Second, figure out what statistics you want and use the same method to get them each time. If you are using the Custom Report Generator, make sure you save the URL it provides to you so you can re-run that particular report.
 
-Deuxièmement, déterminez quelles statistiques vous voulez et utilisez la même méthode pour les obtenir à chaque fois. Si vous utilisez le Générateur de Rapports Personnalisés, assurez-vous d'enregistrer l'URL qu'il vous fournit afin de pouvoir réexécuter ce rapport particulier.
+### Do you have suggestions for which reports to use**?
 
-### Avez-vous des suggestions sur les rapports à utiliser **?
+It all depends on what kind of data you need. For legacy data \(i.e., data from pre-OJS 2.4.3\), the Views report gives a great overall snapshot of article usage and it’s the least complicated metric to understand.
 
-Tout dépend du type de données dont vous avez besoin. Pour les données héritées (c'est-à-dire les données antérieures à OJS 2.4.3), le rapport de Consultation donne un excellent aperçu général de l'utilisation des articles et c'est la métrique la moins compliquée à comprendre.
+For more recent data, we’d really recommend the Custom Report Generator. It’s quite complex, but it can provide a very wide range of data and uses the Statistics Framework to its fullest. Just make sure that you use it consistently! We have included a great set of tips and tricks, written by our colleague Andrea Kosavic at York University Library, at the end of this document that focuses specifically on the Custom Report Generator.
 
-Pour des données plus récentes, nous recommandons vraiment le Générateur de Rapports Personnalisés. C'est assez complexe, mais il peut fournir un éventail de données important et utilise au maximum le Cadre des Statistiques. Assurez-vous simplement de l'utiliser de manière cohérente! Nous avons inclus à la fin de ce document un ensemble d'astuces, rédigés par notre collègue Andrea Kosavic de la bibliothèque de l'Université York, qui se concentre spécifiquement sur le Générateur de Rapports Personnalisés.
+### I have recently upgraded from an old version of OJS, and I would like to use the improved Statistics Framework for visits from before the upgrade. Can I do this?
 
-### J'ai récemment mis à niveau une ancienne version d'OJS, et j'aimerais utiliser le cadre statistique amélioré pour les visites antérieures à la mise à niveau. Est-ce faisable?
+Yes, but only if you have web server logs from before the time that you upgraded. If you have these web server logs \(e.g., Apache access\_log files\) from before the upgrade, you can process these \(See Processing Log Files above\). If you don’t have these old logs, you are unfortunately out of luck.
 
-Oui, mais uniquement si vous disposez de journaux de serveur Web antérieurs à la mise à niveau. Si vous disposez de ces journaux de serveur Web (par exemple, des fichiers Apache access_log) d'avant la mise à niveau, vous pouvez les traiter (voir Annexe B: Traitement des Fichiers Journaux). Si vous ne disposez pas de ces anciens journaux, vous n'avez malheureusement pas de chance.
+If your log files are OJS2 log files you want to reprocess in an OJS3 installation, it will require some development work to rebuild the log files and append the file id to all of the metric URLs - there is no built in tool for this work in OJS. Finally, it's also important to mention that if you reprocess old log files, and the URL of your journal has changed between then and now, the URLs in the log file will not match the "base URL" for your OJS installation and those metrics will not count.  If you want to reprocess log files, have a look at the older log file and make sure that the URLs still match your journal.  This includes the protocol (http or https).  It must match **exactly** or the metric will not be counted.
 
-En outre, il convient de noter que vous pouvez toujours récupérer les anciennes métriques d'utilisation de base en utilisant les rapports hérités (dans OJS 2 uniquement - pas OJS 3). Ceux-ci ne sont pas aussi complets que les nouvelles métriques, et ils incluent également des visites de robots et des multi-clics, mais ils constituent toujours une bonne représentation de l'utilisation générale.
+Also, it’s worth noting that you can still retrieve the old, basic usage metrics using the legacy reports \(in OJS 2 only - not OJS 3\). These aren’t as comprehensive as the new metrics, and they have bot visits and multi-clicks included as well, but they are still a good representation of general usage.
 
-### J'ai vu des revues OJS qui affichent de jolies métriques d'utilisation d'articles sur les pages de destination des articles. Comment configurer cela?
+### I’ve seen some OJS journals that display nice-looking article usage metrics on article landing pages. How do I configure that?
 
-Cette option n'est disponible que pour OJS 3.x à l'aide du Plugiciel de Statistiques d'Utilisation. Pour savoir comment activer et configurer le Plugiciel, reportez-vous à la section précédente de ce document **Afficher les Statistiques d'Utilisation** .
+This option is only available for OJS 3.x using the Usage Statistics Plugin.  For instructions on how to enable and configure the Usage Statistics Plugin, see the previous section in this document, **Configure the Usage Statistics Plugin**.
 
-### Comment puis-je suivre l'utilisation par institution?
+### How can I track usage by institution?
 
-Malheureusement, ce n'est actuellement pas possible avec OJS mais cela changera dans le futur.
+This is not currently possible with OJS but will be available in the future.
 
-### Si je remplace un fichier d'épreuve pour l'article, le nombre de téléchargements sera-t-il réinitialisé à 0?
+### If I replace a galley file for the article, will the download count reset to 0?
 
-OJS recueille des statistiques basées sur les identifiants internes des numéros, articles et épreuves.
+OJS collects statistics based on the internal IDs of issues, articles, and galleys.
 
-Si vous remplacez un fichier PDF pour une épreuve, l'ID de l'épreuve ne changera pas. Cela signifie que les statistiques de téléchargement pour l'épreuve continueront de s'accumuler dans les deux versions du fichier.
+If you replace a PDF file for a galley, the galley ID will not change. This means download statistics for the galley will continue to accumulate across the two versions of the file.
 
-Si vous supprimez une épreuve d'article et ajoutez plus tard une nouvelle épreuve pour le même article, la nouvelle épreuve aura un nouvel ID. Les statistiques cumulées pour les consultations  d'articles resteront intact mais les statistiques d'utilisation du fichier épreuve recommenceront à 0. Les statistiques historiques de l'ancienne épreuve resteront dans les métriques, à moins que vous ne reconstruisiez les journaux d'accès dans de nouvelles métriques. De nouvelles statistiques seront collectées pour la nouvelle épreuve au fur et à mesure que l'accès se produira.
+If you remove a galley from an article and later add a new galley for the article, the new galley will have a new ID. The cumulative statistics for article views will be unchanged but the usage statistics for the galley file will start again at 0. Historic statistics for the old galley will remain in the metrics, unless you rebuild the access logs into new metrics. New statistics will be collected for the new galley as access happens over time.
 
-L'impact spécifique variera également d'un rapport à l'autre, car les rapports diffèrent selon l'informations qu'ils fournissent. Ils peuvent fournir de l'information sur des numéros, des articles, des épreuves ou une combinaison de ces éléments.
+The specific impact will also vary by report, as the reports differ as to whether they are giving information for issues, articles, galleys, or a combination of these items.
 
-<hr>
+<hr />
 
-## Problèmes de Statistiques Fréquemment Rencontrés
+## Frequently Encountered Statistics Problems
 
-Ce sont les problèmes les plus fréquemment rencontrés lors de la tentative de génération de rapports d'utilisation, avec quelques suggestions de solutions.
+These are the most frequently encountered problems when trying to generate usage reports, with some suggested solutions.
 
-### J'ai mis à niveau OJS depuis OJS <2.4.3 vers une version plus récente et maintenant mes statistiques d'utilisation semblent avoir baissé. Ils n'ont pas complètement disparu, mais ils semblent avoir une tendance à la baisse. Que se passe-t-il?
+### I’ve upgraded OJS from OJS &lt; 2.4.3 to a newer version and now my usage stats seem to have gone down. They haven’t disappeared entirely, but they seem to trend lower. What’s going on?
 
-Le Cadre de Statistiques filtre désormais les consultations conformément au code de conduite du Projet COUNTER. Plus précisément:
+The Statistics Framework now filters views as per the COUNTER Project code of conduct. Specifically:
 
-1. Si quelqu'un recharge une page ou télécharge un fichier plusieurs fois en 30 secondes, OJS n'enregistre qu'une seule consultation.
-2. OJS filtre les consultations connues de robots et de robots d'exploration.
+1. If someone reloads a page or downloads a file multiple times within 30 seconds, OJS only registers 1 view.
+2. OJS filters out known bot and crawler views.
 
-Cela entraînera une baisse des métriques d'utilisation globale. La baisse ne devrait pas être significative, même si elle peut être perceptible.
+This will result in lower overall usage metrics. The drop shouldn’t be significant, though it can be noticeable.
 
-Le Projet COUNTER ajoute toujours de nouveaux bots à leurs spécifications, et OJS suit cette spécification à chaque version.
+The COUNTER Project is always adding new bots to their specification, and OJS tracks this specification on each release.
 
-### J'ai généré un rapport, et il ne contient aucune donnée en dehors des titres de colonne.
+### I’ve generated a report, and it doesn’t contain any data besides column titles.
 
-Il y a de fortes chances qu'il y ait un problème avec votre configuration générale des statistiques. Vous devriez examiner ceci selon la section de configuration ci-dessous.
+Chances are, there is a problem with your general statistics configuration. You should review this as per the Configuration section below.
 
-### Lorsque je télécharge le Rapport des Consultations Programmées, il semble que mes Consultations Totales d'Épreuve sont en fait deux fois plus élevées qu'elles devraient l'être. Par exemple, si j'ai 2 téléchargements PDF et aucune autre épreuve, le Totale des Consultations d'Épreuve est de 4.
+### When I download the Timed Views report, it appears that my Total Galley Views are actually twice as much as they should be. For example, if I have 2 PDF downloads and no other galleys, the Total Galley Views has the value 4.
 
-C'est un bogue connu dans OJS 2.4.5. La solution consiste à mettre à niveau, ce qui résoudra le problème immédiatement. Vous ne devriez pas avoir besoin de retraiter les statistiques pour résoudre ce problème.
+That is a known bug in OJS 2.4.5. The solution is to upgrade, which will fix the problem immediately. You shouldn’t need to reprocess statistics to fix this problem.
 
-### Le nombre de consultations de page du résumé semble correct, mais certains téléchargements de fichiers d'épreuve récents semblent faibles ou inexistants.
+### Abstract view counts look OK, but some recent galley file downloads appear low or nonexistent.
 
-R: Si vous utilisez OJS 2.4.8.0, il s'agit d'un bogue. Pour résoudre ce problème, vous devrez passer à la version la plus récente d'OJS 2.4 ou OJS 3 et retraiter vos journaux.
+A: If you are using OJS 2.4.8.0, this is a bug. To solve this, you will have to upgrade to the most recent version of OJS 2.4, or OJS 3, and reprocess your logs.
 
-### Les rapports - en particulier le rapport de Consultation Programmé, le Rapport de Statistiques d'Utilisation et le Générateur de Rapports Personnalisés - contiennent des données, mais semblent s'arrêter à une date antérieure ou sont incomplets. Je sais que nous avons des décomptes de consultation plus récents, mais ils n'apparaissent pas.
+### The reports - in particular the Timed View report, the Usage Statistics Report, and the Custom Report Generator - have some data, but appear to stop at an older date or are otherwise incomplete. I know we have more recent view counts, but they aren’t appearing.
 
-Il y a deux causes probables à cela:
+There are two likely causes for this:
 
-**Cause 1:** À un moment donné, la tâche planifiée de traitement des statistiques a été arrêtée. Cela peut se produire si votre instance OJS a été migrée par un administrateur de système d'un serveur à un autre ou si OJS a été mis à niveau mais que sa configuration n'a pas été revue. Vous pouvez le confirmer de plusieurs manières (très techniques):
+**Cause 1:** At some point the statistics processing scheduled task was stopped. This can happen if your OJS instance has been migrated by a systems administrator from one server to another or if OJS has been upgraded but its configuration hasn’t been reviewed. You can confirm this in a few \(very technical\) ways:
 
-1. Jetez un œil au dossier usageStats dans votre files_dir. Si vous voyez un grand nombre de fichiers journaux dans `files/usageStats/usageEventLogs/` ou `files/usageStats/stage` , la tâche planifiée n'est pas en cours d'exécution.
-2. Jetez un œil à la table des `metrics` dans la base de données mysql. S'il est vide ou si les métriques semblent avoir été enregistrées mais s'arrêtent à une date particulière, la tâche planifiée n'est pas en cours d'exécution.
+1. Take a look at the usageStats folder in your files\_dir. If you see a large number of log files in `files/usageStats/usageEventLogs/` or `files/usageStats/stage`, the scheduled task isn’t running.
+2. Take a look at the `metrics` table in the mysql database. If it’s empty or if metrics seem to have been recorded but stop at a particular date, the scheduled task isn’t running.
 
-La solution à ce problème consiste à examiner votre configuration et à retraiter les statistiques, conformément à la section Configuration ci-dessous.
+The solution to this problem is to review your configuration and reprocess statistics, as per the Configuration section below.
 
-**Cause 2:** Le rapport atteint la limite de 5 000 lignes du plugiciel de rapport. Cela devrait être évident en regardant le rapport .csv: s'il s'arrête à ou autour de la ligne 5000 (généralement autour de la ligne 5006 en raison de quelques lignes supplémentaires en haut du rapport), le problème est déterminé. La solution ici consiste à réduire la quantité de données que vous essayez d'extraire, par exemple en limitant la période et en téléchargeant plusieurs rapports. Vous pouvez fusionner manuellement plusieurs rapports ensemble. **Remarque** : ce problème s'applique uniquement à OJS 3.1.1 ou aux version antérieure. La limite de 5 000 lignes a été supprimée dans OJS 3.1.2.
+**Cause 2:** The report is hitting the report plugin’s 5,000-row limit. This should be obvious by looking at the .csv report: if it stops at or around row 5,000 \(usually around row 5,006 due to some extra rows at the top of the report\), then this is the issue. The solution here is to shrink the amount of data you are trying to extract, for example by limiting the date span, and downloading multiple reports. You can manually merge multiple reports together. **Note**: This issue only applies to OJS 3.1.1 or older. The 5,000 row limit was removed in OJS 3.1.2.
 
-Q: J'essaie de télécharger des informations régionales à l'aide du Générateur de Rapports Personnalisés, mais je ne vois rien de tout cela dans mes rapports.
+Q: I’m trying to download regional information using the Custom Report Generator, but I’m not seeing any of this in my reports.
 
-R: Le suivi des données régionales n'a pas été correctement ou complètement configuré. Consultez la section Configuration ci-dessous.
+A: Regional Data tracking hasn’t been properly or completely configured. See the Configuration section below.
 
-### Lorsque j'essaye de télécharger un rapport, j'obtiens une page vierge, une erreur 500 ou une erreur de limite de mémoire PHP (par exemple, «Limite de mémoire épuisée…») au lieu d'un téléchargement de rapport.
+### When I try to download a report, I get a blank page, a 500 error, or a PHP memory limit error \(e.g., “Memory limit exhausted …”\) instead of a report download.
 
-Cela se produit lorsque la quantité de données que vous essayez de télécharger dépasse la capacité du serveur à les fournir. Cela peut être résolu soit en réduisant la quantité de données que vous essayez d'extraire en une seule fois (c'est-à-dire en téléchargeant des rapports sur plusieurs périodes) ou en augmentant la ressource du problème (par exemple les paramètres de PHP memory_limit ou max_execution_time). Ce dernier ne peut être réalisé que par un administrateur du système.
+This happens when the amount of data you are trying to download exceeds the server’s capacity to deliver it. This can be resolved either by shrinking the amount of data you are trying to extract in one go \(i.e., by downloading reports in multiple date spans\) or by increasing the problem resource \(e.g.. PHP’s memory\_limit or max\_execution\_time parameters\). The latter can only be undertaken by a systems administrator.
 
-### J'ai besoin de quelques conseils sur le traitement, le retraitement ou le dépannage des fichiers journaux.
+### I need some guidance on processing, re-processing, or troubleshooting log files.
 
-Voir l'[Annexe C: Traitement des Fichiers Journaux](#annexe-c-traitement-des-fichiers-journaux) .
+See [Processing Log Files](#processing-log-files).
 
-<hr>
+## Legacy Statistics & Statistics in OJS 2
 
-## Autres Ressources
+If your journal still uses OJS 2 or was upgraded to OJS 3 from OJS 2, you will have access to legacy reports (primarily the Timed Views report), which is described in this section. This section also contains an explanation of changes to the statistics methodology in OJS, as well as some information specific to statistics in OJS 2.
 
-Projet COUNTER: [https://www.projectcounter.org/](https://www.projectcounter.org/)
+### OJS Stats Methodology: Some History
+OJS has recorded article usage since the beginning of the launch of OJS 2. The methodology used to count metrics has undergone one significant change between then and now. That change is key to understanding how to review and manage historical statistical data.
 
-Utiliser Cron: [https://help.ubuntu.com/community/CronHowto](https://help.ubuntu.com/community/CronHowto)
+#### Metrics the Old Way: OJS 2.0 -> 2.4.3:
+Versions of OJS prior to OJS 2.4.3 count views in a very rudimentary manner: they record page views and file downloads for article landing pages and galley files only and do not filter out bot views/downloads, multiple clicks, and so on. These views are recorded in a simple database table and represented in OJS 2.4.2 and below via a “View” report. Metrics are only available for abstract/landing pages and galley downloads and only track one facet: whether the item was viewed or downloaded. These counts are considered accurate though possibly misrepresentative of actual readership, as bot views, crawler indexing, and potential author or visitor abuse (eg. multi-clicking) are not filtered out.
 
-Forum Communautaire PKP (pour des questions supplémentaires): [https://forum.pkp.sfu.ca](https://forum.pkp.sfu.ca)
+#### Metrics the New Way: OJS 2.4.3+ and 3.0+
+As of version 2.4.3, Open Journal Systems uses a new structure for collecting statistics and generating reports. These metrics count abstract and galley views, date viewed, and regional information like country and city (if properly configured). Beyond article metrics, issue and homepage views are also included. Finally, these metrics are filtered according to COUNTER Project processing rules so that multi-clicks and bot views are filtered by default.
+
+#### Understanding what you have: Key Takeaways
+
+The following describes the data to which users of various iterations of OJS have access. The OJS version can be determined by a journal staff member by visiting About &gt; About this Publication System \(OJS 2\).
+
+- OJS 2.4.2 or older:
+    - Metrics are based on the old metrics method. Only simple article view counts are recorded for each abstract or galley view. These are not filtered by any of the COUNTER Project filter rules.
+    - These are available from a View Report under Journal Management &gt; Stats and Reports.
+    - You may also have access to a rudimentary Timed Views Report. This report, if available in a pre- OJS 2.4.2 or older install, should be considered buggy and unpredictable. It should not be used.
+    - Upgrading is advised so that better metrics can be gathered going forward. \(Note that upgrading will not provide you with better metrics from before the upgrade date, at least by default. See the FAQ section for more information on reprocessing old metrics.\)
+- OJS 2.4.3 or newer:
+    - Metrics are based on the new metrics method described above.
+    - If this OJS instance has been at some point upgraded from pre-OJS 2.4.3, you will also have access to a legacy View Report \(for data collected when you were using earlier versions\).
+    - All reports are available from Journal Management &gt; Stats and Reports.
+    - NOTES FOR UPGRADED JOURNALS:
+        - The legacy View Report is for archival purposes only. It provides a record of usage prior to the adoption of 2.4.3. It does not record new views after the adoption of OJS 2.4.3.
+        - The new reports \(the Timed Views report, the Custom Report Generator, etc.\) that use the new metrics method will only include metrics from the date of upgrade onwards.
+        - In order to achieve a complete understanding of the view counts for your content, you will have to consider both legacy and new reports.
+    - IMPORTANT BUG NOTES:
+        - There was a bug in OJS 2.4.5 that resulted in some metrics counts being doubled. See the FAQ and Frequently Encountered Problems sections for more information.
+        - There was a bug in OJS 2.4.8.0 that resulted in some file views not being properly recorded. See the FAQ and Frequently Encountered Problems sections for more information.
+        - If your OJS instance is currently on either version, we strongly recommend upgrading \(and, optionally, reprocessing your statistics - see Appendix B: Processing Log Files\).
+- 3.0 or newer:
+    - You will have metrics based on the new metrics method defined above.
+    - All metrics will be available from the User Dashboard, via Tools &gt; Statistics.
+    - NOTES FOR UPGRADED JOURNALS:
+        - If your use of OJS 3 is an upgrade of an OJS instance that had legacy View Report data \(that is: your install began prior to OJS 2.4.2\), the legacy View Report data will no longer be available for download. You should download and store this data before upgrading.
+
+### Legacy Report: Timed Views Report
+
+**Availability: OJS 2 only**
+
+**Format: CSV**
+
+**Description:** This report provides overall usage metrics for articles and galley usage. A date span must be specified. It has a legacy and non-legacy mode available. It is the only report that operates in this way.
+
+**Use for**: downloading legacy or non-legacy timed view data.
+
+**Do Not Use for**: downloading data in OJS 3.0+, as it no longer exists. Instead, use the Custom Report Generator.
+
+**Special Notes:**
+
+* Due to the way OJS processes metrics, the report will almost certainly not include data from today’s date, so attempting to report on today’s date only will probably return an empty report.
+* This report can optionally provide legacy data for pre-OJS 2.4.3 installs. If you are looking for timed view data from before an OJS 2.4.3 upgrade, select the “include legacy data” option.
+
+**Example Data \(edited for clarity\):**
+
+In the sample below, which was generated for the date span March 29 2017 - March 30 2017 \(i.e., 1 day\), we can see that the article “Amusing Ourselves to Death” was quite highly viewed, with 2 abstract views and 11 total galley views \(3 PDF and 8 HTML\). The “Comobility” article only had its abstract viewed once.
+****
+
+| **ID**   | **Article Title**                                                                   | **Authors**  | **Issue**                                                | **Date Published** | **Abstract** | **Total Galley** | **PDF** | **HTML** |
+| -------- | ----------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------- | ------------------ | ------------ | ---------------- | ------- | -------- |
+| **2**508 | "Amusing Ourselves to Death?" Social Media, Political Satire, and the 2011 Election | Ian Reilly   | Vol 36, No 3 \(2011\): Canadian Fascinations           | 2011-09-13 22:11   | 2            | 11               | 3       | 8        |
+| 2512     | Comobility: How Proximity and Distance Travel Together in Locative Media            | Jen Southern | Vol 37, No 1 \(2012\): Media Arts Revisited \(MARs\) | 2012-04-13 9:38    | 1            | ****             | ****    | ****     |
+
+
+<hr />
+
+## Further Resources
+
+Project COUNTER:  [https://www.projectcounter.org/](https://www.projectcounter.org/)
+
+Using Cron:  [https://help.ubuntu.com/community/CronHowto](https://help.ubuntu.com/community/CronHowto)
+
+PKP Community Forum \(for follow-up questions\):  [https://forum.pkp.sfu.ca](https://forum.pkp.sfu.ca)
