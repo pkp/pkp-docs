@@ -8,16 +8,16 @@ Each `Handler` must define policies to prevent unauthorized access. These polici
 
 ```php
 class DashboardHandler extends Handler {
-	/**
-	 * @copydoc PKPHandler::authorize()
-	 */
-	public function authorize($request, &$args, $roleAssignments) {
+    /**
+     * @copydoc PKPHandler::authorize()
+     */
+    public function authorize($request, &$args, $roleAssignments) {
 
-		import('lib.pkp.classes.security.authorization.PKPSiteAccessPolicy');
-		$this->addPolicy(new PKPSiteAccessPolicy($request, null, $roleAssignments));
+        import('lib.pkp.classes.security.authorization.PKPSiteAccessPolicy');
+        $this->addPolicy(new PKPSiteAccessPolicy($request, null, $roleAssignments));
 
-		return parent::authorize($request, $args, $roleAssignments);
-	}
+        return parent::authorize($request, $args, $roleAssignments);
+    }
 }
 ```
 
@@ -25,19 +25,19 @@ More than one `Policy` can be applied.
 
 ```php
 class IssueHandler extends Handler {
-	/**
-	 * @copydoc PKPHandler::authorize()
-	 */
-	public function authorize($request, &$args, $roleAssignments) {
+    /**
+     * @copydoc PKPHandler::authorize()
+     */
+    public function authorize($request, &$args, $roleAssignments) {
 
-		import('lib.pkp.classes.security.authorization.ContextRequiredPolicy');
-		$this->addPolicy(new ContextRequiredPolicy($request));
+        import('lib.pkp.classes.security.authorization.ContextRequiredPolicy');
+        $this->addPolicy(new ContextRequiredPolicy($request));
 
-		import('classes.security.authorization.OjsJournalMustPublishPolicy');
-		$this->addPolicy(new OjsJournalMustPublishPolicy($request));
+        import('classes.security.authorization.OjsJournalMustPublishPolicy');
+        $this->addPolicy(new OjsJournalMustPublishPolicy($request));
 
-		return parent::authorize($request, $args, $roleAssignments);
-	}
+        return parent::authorize($request, $args, $roleAssignments);
+    }
 }
 ```
 
@@ -45,25 +45,25 @@ class IssueHandler extends Handler {
 
 ```php
 class WorkflowHandler extends Handler {
-	/**
-	 * @copydoc PKPHandler::authorize()
-	 */
-	public function authorize($request, &$args, $roleAssignments) {
+    /**
+     * @copydoc PKPHandler::authorize()
+     */
+    public function authorize($request, &$args, $roleAssignments) {
 
-		$submissionAccessPolicySet = new PolicySet(COMBINING_PERMIT_OVERRIDES);
+        $submissionAccessPolicySet = new PolicySet(COMBINING_PERMIT_OVERRIDES);
 
-		// Require that they are the author...
-		import('lib.pkp.classes.security.authorization.internal.SubmissionAuthorPolicy');
-		$submissionAccessPolicySet->addPolicy(new SubmissionAuthorPolicy($request));
+        // Require that they are the author...
+        import('lib.pkp.classes.security.authorization.internal.SubmissionAuthorPolicy');
+        $submissionAccessPolicySet->addPolicy(new SubmissionAuthorPolicy($request));
 
-		// ... OR that they are assigned to the submission.
-		import('lib.pkp.classes.security.authorization.internal.UserAccessibleWorkflowStageRequiredPolicy');
-		$submissionAccessPolicySet->addPolicy(new UserAccessibleWorkflowStageRequiredPolicy($request));
+        // ... OR that they are assigned to the submission.
+        import('lib.pkp.classes.security.authorization.internal.UserAccessibleWorkflowStageRequiredPolicy');
+        $submissionAccessPolicySet->addPolicy(new UserAccessibleWorkflowStageRequiredPolicy($request));
 
-		$this->addPolicy($submissionAccessPolicySet);
+        $this->addPolicy($submissionAccessPolicySet);
 
-		return parent::authorize($request, $args, $roleAssignments);
-	}
+        return parent::authorize($request, $args, $roleAssignments);
+    }
 }
 ```
 
@@ -71,25 +71,25 @@ Use `COMBINING_DENY_OVERRIDES` when you want to prevent access if any of the pol
 
 ```php
 class QueryHandler extends Handler {
-	/**
-	 * @copydoc PKPHandler::authorize()
-	 */
-	public function authorize($request, &$args, $roleAssignments) {
+    /**
+     * @copydoc PKPHandler::authorize()
+     */
+    public function authorize($request, &$args, $roleAssignments) {
 
-		$assistantAccessPolicySet = new PolicySet(COMBINING_DENY_OVERRIDES);
+        $assistantAccessPolicySet = new PolicySet(COMBINING_DENY_OVERRIDES);
 
-		// Require that they have the assistant role...
-		import('lib.pkp.classes.security.authorization.RoleBasedHandlerOperationPolicy');
-		$assistantAccessPolicySet->addPolicy(new RoleBasedHandlerOperationPolicy($request, ROLE_ID_ASSISTANT, $roleAssignments[ROLE_ID_ASSISTANT]));
+        // Require that they have the assistant role...
+        import('lib.pkp.classes.security.authorization.RoleBasedHandlerOperationPolicy');
+        $assistantAccessPolicySet->addPolicy(new RoleBasedHandlerOperationPolicy($request, ROLE_ID_ASSISTANT, $roleAssignments[ROLE_ID_ASSISTANT]));
 
-		// ... AND that they are assigned to this stage of the workflow.
-		import('lib.pkp.classes.security.authorization.QueryWorkflowStageAccessPolicy');
-		$assistantAccessPolicySet->addPolicy(new QueryWorkflowStageAccessPolicy($request, $args, $roleAssignments, 'submissionId', $stageId));
+        // ... AND that they are assigned to this stage of the workflow.
+        import('lib.pkp.classes.security.authorization.QueryWorkflowStageAccessPolicy');
+        $assistantAccessPolicySet->addPolicy(new QueryWorkflowStageAccessPolicy($request, $args, $roleAssignments, 'submissionId', $stageId));
 
-		$this->addPolicy($assistantAccessPolicySet);
+        $this->addPolicy($assistantAccessPolicySet);
 
-		return parent::authorize($request, $args, $roleAssignments);
-	}
+        return parent::authorize($request, $args, $roleAssignments);
+    }
 }
 ```
 
@@ -97,24 +97,24 @@ Create your own `PolicySet` class to define reusable rules.
 
 ```php
 class ExamplePolicy extends PolicySet {
-	public function __construct($request, $args, $roleAssignments, ...) {
-		parent::__construct($request);
+    public function __construct($request, $args, $roleAssignments, ...) {
+        parent::__construct($request);
 
-		$this->addPolicy(...);
-		$this->addPolicy(...);
+        $this->addPolicy(...);
+        $this->addPolicy(...);
 
-		$policySet = new PolicySet(...);
-		$policySet->addPolicy(...);
-		$policySet->addPolicy(...);
-		$this->addPolicy($policySet);
-	}
+        $policySet = new PolicySet(...);
+        $policySet->addPolicy(...);
+        $policySet->addPolicy(...);
+        $this->addPolicy($policySet);
+    }
 }
 
 class ExampleHandler extends Handler {
-	public function authorize($request, &$args, $roleAssignments) {
-		$this->addPolicy(new ExamplePolicy($request, $args, $roleAssignments, ...));
-		return parent::authorize($request, $args, $roleAssignments);
-	}
+    public function authorize($request, &$args, $roleAssignments) {
+        $this->addPolicy(new ExamplePolicy($request, $args, $roleAssignments, ...));
+        return parent::authorize($request, $args, $roleAssignments);
+    }
 }
 ```
 
@@ -122,17 +122,17 @@ Define distinct policies for each route in the `Handler` by checking the request
 
 ```php
 class DashboardHandler extends Handler {
-	public function authorize($request, &$args, $roleAssignments) {
+    public function authorize($request, &$args, $roleAssignments) {
 
-		$this->addPolicy(...);
+        $this->addPolicy(...);
 
-		$requestedOp = $request->getRouter()->getRequestedOp($request);
-		if ($requestedOp === 'adminStatistics') {
-			$this->addPolicy(...);
-		}
+        $requestedOp = $request->getRouter()->getRequestedOp($request);
+        if ($requestedOp === 'adminStatistics') {
+            $this->addPolicy(...);
+        }
 
-		return parent::authorize($request, $args, $roleAssignments);
-	}
+        return parent::authorize($request, $args, $roleAssignments);
+    }
 }
 ```
 
@@ -140,20 +140,20 @@ Check the route name when using an `APIHandler`.
 
 ```php
 class SubmissionHandler extends APIHandler {
-	/**
-	 * @copydoc PKPHandler::authorize()
-	 */
-	public function authorize($request, &$args, $roleAssignments) {
+    /**
+     * @copydoc PKPHandler::authorize()
+     */
+    public function authorize($request, &$args, $roleAssignments) {
 
-		$this->addPolicy(...);
+        $this->addPolicy(...);
 
-		$routeName = $this->getSlimRequest()->getAttribute('route');
-		if ($routeName === 'get') {
-			$this->addPolicy(...);
-		}
+        $routeName = $this->getSlimRequest()->getAttribute('route');
+        if ($routeName === 'get') {
+            $this->addPolicy(...);
+        }
 
-		return parent::authorize($request, $args, $roleAssignments);
-	}
+        return parent::authorize($request, $args, $roleAssignments);
+    }
 }
 ```
 
@@ -164,37 +164,37 @@ A `PageHandler` will define which roles can access its operations and apply the 
 ```php
 class ExampleHandler extends Handler {
 
-	public function __construct() {
-		parent::construct();
+    public function __construct() {
+        parent::construct();
 
-		$this->addRoleAssignment(
-			[ROLE_ID_AUTHOR],
-			['authorStatistics']
-		);
+        $this->addRoleAssignment(
+            [ROLE_ID_AUTHOR],
+            ['authorStatistics']
+        );
 
-		$this->addRoleAssignment(
-			[ROLE_ID_ADMIN, ROLE_ID_MANAGER]
-			['journalStatistics']
-		);
+        $this->addRoleAssignment(
+            [ROLE_ID_ADMIN, ROLE_ID_MANAGER]
+            ['journalStatistics']
+        );
 
-		$this->addRoleAssignment(
-			[ROLE_ID_ADMIN],
-			['adminStatistics']
-		);
-	}
+        $this->addRoleAssignment(
+            [ROLE_ID_ADMIN],
+            ['adminStatistics']
+        );
+    }
 
-	public function authorize($request, &$args, $roleAssignments) {
-		import('lib.pkp.classes.security.authorization.PolicySet');
-		$rolePolicy = new PolicySet(COMBINING_PERMIT_OVERRIDES);
+    public function authorize($request, &$args, $roleAssignments) {
+        import('lib.pkp.classes.security.authorization.PolicySet');
+        $rolePolicy = new PolicySet(COMBINING_PERMIT_OVERRIDES);
 
-		import('lib.pkp.classes.security.authorization.RoleBasedHandlerOperationPolicy');
-		foreach($roleAssignments as $role => $operations) {
-			$rolePolicy->addPolicy(new RoleBasedHandlerOperationPolicy($request, $role, $operations));
-		}
-		$this->addPolicy($rolePolicy);
+        import('lib.pkp.classes.security.authorization.RoleBasedHandlerOperationPolicy');
+        foreach($roleAssignments as $role => $operations) {
+            $rolePolicy->addPolicy(new RoleBasedHandlerOperationPolicy($request, $role, $operations));
+        }
+        $this->addPolicy($rolePolicy);
 
-		return parent::authorize($request, $args, $roleAssignments);
-	}
+        return parent::authorize($request, $args, $roleAssignments);
+    }
 }
 ```
 
@@ -203,35 +203,35 @@ An `APIHandler` will do the same when defining its routes.
 ```php
 class SubmissionsHandler extends APIHandler {
 
-	public function __construct() {
-		$this->_endpoints = [
-			'GET' => [
-				[
-					'pattern' => 'submissions/{id}',
-					'handler' => [$this, 'get'],
-					'roles' => [ROLE_ID_MANAGER, ROLE_ID_AUTHOR],
-				],
-				[
-					'pattern' => 'submissions/{id}/stats',
-					'handler' => [$this, 'getStats'],
-					'roles' => [ROLE_ID_MANAGER],
-				],
-			],
-		];
-	}
+    public function __construct() {
+        $this->_endpoints = [
+            'GET' => [
+                [
+                    'pattern' => 'submissions/{id}',
+                    'handler' => [$this, 'get'],
+                    'roles' => [ROLE_ID_MANAGER, ROLE_ID_AUTHOR],
+                ],
+                [
+                    'pattern' => 'submissions/{id}/stats',
+                    'handler' => [$this, 'getStats'],
+                    'roles' => [ROLE_ID_MANAGER],
+                ],
+            ],
+        ];
+    }
 
-	public function authorize($request, &$args, $roleAssignments) {
-		import('lib.pkp.classes.security.authorization.PolicySet');
-		$rolePolicy = new PolicySet(COMBINING_PERMIT_OVERRIDES);
+    public function authorize($request, &$args, $roleAssignments) {
+        import('lib.pkp.classes.security.authorization.PolicySet');
+        $rolePolicy = new PolicySet(COMBINING_PERMIT_OVERRIDES);
 
-		import('lib.pkp.classes.security.authorization.RoleBasedHandlerOperationPolicy');
-		foreach($roleAssignments as $role => $operations) {
-			$rolePolicy->addPolicy(new RoleBasedHandlerOperationPolicy($request, $role, $operations));
-		}
-		$this->addPolicy($rolePolicy);
+        import('lib.pkp.classes.security.authorization.RoleBasedHandlerOperationPolicy');
+        foreach($roleAssignments as $role => $operations) {
+            $rolePolicy->addPolicy(new RoleBasedHandlerOperationPolicy($request, $role, $operations));
+        }
+        $this->addPolicy($rolePolicy);
 
-		return parent::authorize($request, $args, $roleAssignments);
-	}
+        return parent::authorize($request, $args, $roleAssignments);
+    }
 }
 ```
 
@@ -242,24 +242,24 @@ When authorizing access to a submission, you must check what roles the user is a
 ```php
 class SubmissionFileHandler extends Handler {
 
-	public function authorize($request, &$args, $roleAssignments) {
-		// Users are assigned to specific stages of a submission's
-		// workflow. Check access to the stage, not the submission.
-		// In this example, the stage id is submitted as a query
-		// parameter with the request.
-		$stageId = $request->getUserVar('stageId');
+    public function authorize($request, &$args, $roleAssignments) {
+        // Users are assigned to specific stages of a submission's
+        // workflow. Check access to the stage, not the submission.
+        // In this example, the stage id is submitted as a query
+        // parameter with the request.
+        $stageId = $request->getUserVar('stageId');
 
-		// The submission ID should be submitted as a query
-		// parameter. Tell the policy what parameter to check for
-		// the submission id. In this example, we assume the URL
-		// used for the request included ?submissionId=1
-		$queryParam = 'submissionId';
+        // The submission ID should be submitted as a query
+        // parameter. Tell the policy what parameter to check for
+        // the submission id. In this example, we assume the URL
+        // used for the request included ?submissionId=1
+        $queryParam = 'submissionId';
 
-		import('lib.pkp.classes.security.authorization.WorkflowStageAccessPolicy');
-		$this->addPoliicy(new WorkflowStageAccessPolicy($request, $args, $roleAssignments, $queryParam, $stageId));
+        import('lib.pkp.classes.security.authorization.WorkflowStageAccessPolicy');
+        $this->addPoliicy(new WorkflowStageAccessPolicy($request, $args, $roleAssignments, $queryParam, $stageId));
 
-		return parent::authorize($request, $args, $roleAssignments);
-	}
+        return parent::authorize($request, $args, $roleAssignments);
+    }
 }
 ```
 
@@ -273,18 +273,18 @@ Store an authorized object when a `Policy` has retrieved it from the database an
 
 ```php
 class QueryRequiredPolicy extends Policy {
-	public function dataObjectEffect() {
+    public function dataObjectEffect() {
 
-		// Get the requested query and confirm that it exists
-		if (!$query) {
-			return AUTHORIZATION_DENY;
-		}
+        // Get the requested query and confirm that it exists
+        if (!$query) {
+            return AUTHORIZATION_DENY;
+        }
 
-		// Store the authorized object
-		$this->addAuthorizedContextObject(ASSOC_TYPE_QUERY, $query);
+        // Store the authorized object
+        $this->addAuthorizedContextObject(ASSOC_TYPE_QUERY, $query);
 
-		return AUTHORIZATION_PERMIT;
-	}
+        return AUTHORIZATION_PERMIT;
+    }
 }
 ```
 
@@ -293,19 +293,19 @@ Retrieve an authorized object in the `Handler`.
 ```php
 class ExampleHandler extends Handler {
 
-	public function authorize(...) {
-		// QueryRequiredPolicy stores the requested Query
-		// as an authorized object
-		$this->addPolicy(new QueryRequiredPolicy(...));
-		return parent::authorize(...);
-	}
+    public function authorize(...) {
+        // QueryRequiredPolicy stores the requested Query
+        // as an authorized object
+        $this->addPolicy(new QueryRequiredPolicy(...));
+        return parent::authorize(...);
+    }
 
-	public function readQuery(...) {
-		// Retrieve the authorized query object
-		$query = $this->getAuthorizedContextObject(ASSOC_TYPE_QUERY);
+    public function readQuery(...) {
+        // Retrieve the authorized query object
+        $query = $this->getAuthorizedContextObject(ASSOC_TYPE_QUERY);
 
-		...
-	}
+        ...
+    }
 }
 ```
 
@@ -314,15 +314,15 @@ You can access the current user's roles whenever the `RoleBasedHandlerOperationP
 ```php
 class ExampleHandler extends Handler {
 
-	public function authorize(...) {
-		$this->addPolicy(new RoleBasedHandlerOperationPolicy(...));
-		return parent::authorize(...);
-	}
+    public function authorize(...) {
+        $this->addPolicy(new RoleBasedHandlerOperationPolicy(...));
+        return parent::authorize(...);
+    }
 
-	public function readQuery(...) {
-		$userRoles = $this->getAuthorizedContextObject(ASSOC_TYPE_USER_ROLES);
-		...
-	}
+    public function readQuery(...) {
+        $userRoles = $this->getAuthorizedContextObject(ASSOC_TYPE_USER_ROLES);
+        ...
+    }
 }
 ```
 
@@ -331,16 +331,16 @@ You can access the current user's assigned role in the current submission when t
 ```php
 class ExampleHandler extends Handler {
 
-	public function authorize(...) {
-		$this->addPolicy(new WorkflowStageAccessPolicy(...));
-		return parent::authorize(...);
-	}
+    public function authorize(...) {
+        $this->addPolicy(new WorkflowStageAccessPolicy(...));
+        return parent::authorize(...);
+    }
 
-	public function readQuery(...) {
-		$currentSubmission = $this->getAuthorizedContextObject(ASSOC_TYPE_SUBMISSION);
-		$assignedRoles = $this->getAuthorizedContextObject(ASSOC_TYPE_ACCESSIBLE_WORKFLOW_STAGES);
-		...
-	}
+    public function readQuery(...) {
+        $currentSubmission = $this->getAuthorizedContextObject(ASSOC_TYPE_SUBMISSION);
+        $assignedRoles = $this->getAuthorizedContextObject(ASSOC_TYPE_ACCESSIBLE_WORKFLOW_STAGES);
+        ...
+    }
 }
 ```
 
