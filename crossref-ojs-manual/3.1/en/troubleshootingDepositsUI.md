@@ -2,6 +2,7 @@
 book: crossref-ojs-manual
 version: 3.1
 ---
+
 # Troubleshooting Deposits from UI/Plugin-based Registration
 
 In order to check on the status of a registration attempt, you can click on any displayed "status". Potential "status" options include:
@@ -31,7 +32,7 @@ The number next to the count represents the number of errors in the submission. 
 In this particular case you can see that the error says, "the content of element 'pages' is not complete", and there's a link to the Crossref Schema to explain what sort of page reference is necessary. This sort of error could mean one of the following issues is happening:
 
 - the page range for a submission is missing (fixable by going to the table of contents for that page and entering the page range for that article)
-- the page range for a submission is written in a way that the plugin cannot properly parse to send to crossref. (the best way to write a page range is ````first_page - last-page````, with particular emphasis here on the spacing before and after the dash)
+- the page range for a submission is written in a way that the plugin cannot properly parse to send to crossref. (the best way to write a page range is `first_page - last-page`, with particular emphasis here on the spacing before and after the dash)
 
 These errors should be relatively self-explanatory, and should at least point to the specific element missing from your article's metadata. Most deposit errors will come down to elements missing or misconfigured in your deposit XML. If you are seeing any XML validation errors when checking the status of a deposit, see if you can track the error back to eg. a missing component in your journal or plugin configurations, for example a missing ISSN.
 
@@ -41,4 +42,4 @@ These errors should be relatively self-explanatory, and should at least point to
 
 ### DOI Links Auto-direct to Journal Homepage
 
-This can happen if your old DOI links were prepended with ``http:`` but you have since moved to SSL with ``https:``. Updating your DOIs via the plugin or XML Export will solve this issue.
+This can happen if your old DOI links were prepended with `http:` but you have since moved to SSL with `https:`. Updating your DOIs via the plugin or XML Export will solve this issue.
