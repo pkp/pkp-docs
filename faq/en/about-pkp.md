@@ -34,7 +34,7 @@ PKP announces all valid security vulnerabilities, and their respective fixes whe
 
 ## How can I report a security vulnerability?
 
-Please send a detailed description of the vulnerability to our support email: [support@publicknowledgeproject.org](mailto:support@publicknowledgeproject.org). We will respond to you as quickly as possible with an evaluation of the vulnerability. 
+Please send a detailed description of the vulnerability to our support email: [support@publicknowledgeproject.org](mailto:support@publicknowledgeproject.org). We will respond to you as quickly as possible with an evaluation of the vulnerability.
 
 If it is in fact a vulnerability within our software (and not a hack due to a general server/software misconfiguration, a vulnerability in another software application, or something dressed up to look like a vulnerability, which we do see on occasion), we will proceed with next steps: identifying and publishing a fix, and then disclosing the issue and fix to the public.
 
