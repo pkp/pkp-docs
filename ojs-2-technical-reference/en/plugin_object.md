@@ -1,6 +1,6 @@
 # Plugin Object
 
-The plugin object encapsulates the plugin and generally will do most of the work. In this case, since this plugin will be in the generic category, the object must extend the ``GenericPlugin`` class:
+The plugin object encapsulates the plugin and generally will do most of the work. In this case, since this plugin will be in the generic category, the object must extend the `GenericPlugin` class:
 
 **Example 5.2. Plugin Object**
 
@@ -38,5 +38,5 @@ class ExamplePlugin extends GenericPlugin {
 ?>
 ````
 
-The above code illustrates a few of the most important parts of plugins: the ``register`` function, hook registration and callback, and plugin management.
+The above code illustrates a few of the most important parts of plugins: the `register` function, hook registration and callback, and plugin management.
 
