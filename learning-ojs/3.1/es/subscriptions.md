@@ -1,123 +1,113 @@
-# Capítulo 12: Suscripciones
-OJS 3.1 le permite restringir parte o todo su contenido a los suscriptores. Para habilitar las Suscripciones, vaya primero a Preferencias > Distribución > Pagos.
+---
+book: learning-ojs
+version: 3.1
+---
 
-![Captura de pantalla de cómo acceder a las suscripciones](./assets/image200.png)
+# Chapter 12: Subscriptions
 
-Una vez allí, en Opciones generales, debe dar un clic a la frase “Haga clic aqui para habilitar módulo de pagos...”
+OJS 3.1 allows you to restrict some or all of your content to subscribers. To enable Subscriptions, first go to [Settings &gt; Distribution &gt; Access](./settings-distribution.md).
 
-![Captura de pantalla de Opciones generales](./assets/image15.png)
+## Subscription Policies
 
-Luego, presione el botón Guardar. Aparecerá en el menú izquierdo de la pantalla, el enlace a Pagos
+Fill in details about your subscription policies on this page.
 
-![Captura de pantalla pagos](./assets/image207.png)
+![](./assets/learning-ojs3.1-jm-subscriptions-policies.png)
 
-Observe que el menú indica Pagos, pero los elementos a ver se refieren principalmente a suscripciones. Además la administración de tipos de pagos, figura no traducida. No se complique, es sólo un tema de traducción que se solucionará en un plazo breve de tiempo. La funcionalidad de cada opción no está afectada.
+- **Subscription Manager**: Add personal details for the responsible person.
+- **Subscription Information**: Add policy details to display on the journal website.
+- **Subscription Expiry**: Determine whether past subscribers should continue to have access to older content.
+- **Subscription Expiry Reminder**: Configure automated renewal reminders.
+- **Online Payment Notifications**: Keep the Subscription Manager informed of payment activities.
+- **Open Access Options for Subscription Journals**: If appropriate select the number of current months for restricting access. Older content will be automatically made open.
 
-## Políticas de suscripción
-Rellene los detalles sobre sus políticas de suscripción en esta página.
+## Subscription Types
 
-![Captura de subscriptions](./assets/image65.png)
+The next step in setting up subscription management is to designate the types of subscriptions the journal offers.
 
-**Administrador de suscripciones**: Agregue los datos personales de la persona responsable.
+![](./assets/learning-ojs3.1-jm-subscriptions-types.png)
 
-**Información de suscripción**: Agregue los detalles de la política para que se muestren en el sitio web de la revista.
+Journals typically offer individual subscription and institutional subscription rates. Some journals may have special offers for members of an organization or students. OJS will support the management of print and/or online subscriptions. More than one type of subscription can be created to cover longer periods of time \(12 months, 36 months\).
 
-**Vencimiento de la suscripción**: Determine si los suscriptores anteriores deben continuar teniendo acceso a contenido más antiguo.
+Select **Create New Subscription Type** to add a new one.
 
-**Recordatorio de vencimiento de suscripción**: Configure recordatorios de renovación automatizados.
+![](./assets/learning-ojs3.1-jm-subscriptions-types-create.png)
 
-**Notificaciones de pago en línea**: Mantenga informado al Administrador de suscripciones sobre las actividades de pago.
+- **Name of Type**: Give this new subscription type a unique name \(e.g., Student\).
+- **Description**: Provide a brief description that will appear on the website.
+- **Cost**: Select the currency type and amount.
+- **Format**: Choose the appropriate format \(e.g., Online\)
+- **Duration**: Enter the number of months this type of subscription will cover \(e.g., 12\).
+- **Subscriptions**: Indicate whether this type covers individuals or institutions.
+- **Options**: Select the appropriate options \(if any\).
 
-**Opciones de acceso abierto para revistas de suscripción**: Si es necesario, seleccione el número de meses en curso para restringir el acceso. El contenido anterior se abrirá automáticamente.
+## Payment Types
 
-## Tipos de suscripción
-El siguiente paso para configurar la administración de suscripciones es designar los tipos de suscripciones que ofrece la revista.
+If you haven't already done so, go to [Settings &gt; Distribution &gt; Payments](./settings-distribution.md) and set the appropriate currency and payment method \(e.g., Paypal\).
 
-![Captura de subscriptions](./assets/image48.png)
+Use this page to set the amounts charged for various types of fees.
 
-Las revistas suelen ofrecer tarifas de suscripción individual e institucional. Algunas revistas pueden tener ofertas especiales para miembros de una organización o estudiantes. OJS soportará la gestión de suscripciones impresas y/o en línea. Se puede crear más de un tipo de suscripción para cubrir períodos de tiempo más largos (12 meses, 36 meses).
+![](./assets/learning-ojs3.1-jm-subscriptions-paytypes.png)
 
-Seleccione **Crear nuevo tipo de suscripción** para agregar uno nuevo.
+- **General Options**: Check this to allow for payments to be collected.
+- **Author Fees**: Set the amount to charge for an article processing charge \(APC\).
+- **Reader Fees**: Use this to charge reader fees distinct from subscriptions.
+- **General Fees**: Use this to charge other fees, such as memberships.
 
-![Captura de subscriptions](./assets/image39.png)
+### Author Fees
 
-**Nombre del tipo de suscripción**: Dé a este nuevo tipo de suscripción un nombre único (por ejemplo, Estudiante).
+If you enable **Author Fees** you can request article processing charges after the review process has been completed. When the article is accepted by the editor, the editor will have the option to require payment. This will result in the author receiving a notification in OJS and an email, which will direct them through the payment process.
 
-**Descripción**: Proporcione una breve descripción que aparecerá en el sitio web.
+![](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
 
-**Coste**: Seleccione el tipo de moneda y el importe.
+## Payments
 
-**Formato**: Elija el formato apropiado (p. ej., En línea)
+As various payments are received, they will be listed under this tab.
 
-**Duración**: Introduzca el número de meses que cubrirá este tipo de suscripción (por ejemplo, 12).
+<hr />
 
-**Suscripciones**: Indique si este tipo cubre a individuos o instituciones.
+## Individual Subscriptions
 
-**Opciones**: Seleccione las opciones apropiadas (si las hay).
+All types of individual subscriptions will appear here.
 
-## Tipos de pago
-Si aún no lo ha hecho, vaya a Ajustes > Distribución > Pagos y establezca la moneda y el método de pago adecuados (por ejemplo, Paypal).
+![](./assets/learning-ojs3.1-jm-subscriptions-indiv.png)
 
-Utilice esta página para establecer los montos que se cobran por los distintos tipos de cargos.
+You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for that person under Users & Roles \(see the Users and Roles chapter\). Once that is done, you can search for the account here, and apply the different configurations.
 
-![Captura de subscriptions](./assets/image18.png)
+![](./assets/learning-ojs3.1-jm-subscriptions-indiv-create.png)
 
-**Opciones generales**: Marque esta opción para permitir que se cobren los pagos.
+**Subscription Type**: Select the appropriate type for this new subscriber \(e.g., Student\) and its status \(e.g., Active\).
 
-**Honorarios del autor**: Establezca la cantidad a cobrar por un cargo por procesamiento de artículo (APC).
+> Subscription Types were configured earlier in this chapter.
 
-**Tarifas del lector**: Utilice esta opción para cobrar tarifas de lector distintas a las de las suscripciones.
+**Date**: Set the start and end dates for this subscription.
 
-**Tarifas generales**: Utilícela para cobrar otras tarifas, como membresías.
+**Membership**: If the subscriber is associated with any relevant memberships, add that information here \(optional\).
 
-## Pagos
-A medida que se reciban varios pagos, se mostrarán en esta pestaña.
+**Reference Number**: If the subscribe is associated with any relevant reference number \(such as an invoice number for payment\), add that information here \(optional\).
 
-## Suscripciones individuales
-Todos los tipos de suscripciones individuales aparecerán aquí.
+**Notes**: If you have any relevant notes to add, record that information here \(optional\).
 
-![Captura de subscriptions](./assets/image132.png)
+<hr />
 
-Puede crear una nueva suscripción individual utilizando el enlace Crear nueva suscripción. Sin embargo, primero deberá crear una nueva cuenta para esa persona en Usuarios y funciones (consulte el Capítulo 7). Una vez hecho esto, puede buscar la cuenta aquí, y aplicar las diferentes configuraciones.
+## Institutional Subscriptions
 
-![Captura de subscriptions](./assets/image27.png)
+All types of institutional subscriptions will appear here.
 
-**Tipo de suscripción**: Seleccione el tipo apropiado para este nuevo suscriptor (por ejemplo, Estudiante) y su estado (por ejemplo, Activo).
+![](./assets/learning-ojs3.1-jm-subscriptions-instit.png)
 
-Los tipos de suscripción se configuraron anteriormente en este capítulo.
+Institutional subscriptions are managed similarly to individual subscriptions, but are used for libraries, research institutes, and other organizes that subscribe to your journal.
 
-**Fecha**: Establezca las fechas de inicio y fin de esta suscripción.
+You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for the institution's contact person under Users & Roles \(see the Users and Roles chapter\). Once that is done, you can search for the account here, and apply the different configurations.
 
-**Afiliación**: Si el suscriptor está asociado con alguna membresía relevante, agregue esa información aquí (opcional).
+![](./assets/learning-ojs3.1-jm-subscriptions-instit-create.png)
 
-**Número de referencia**: Si la suscripción está asociada a un número de referencia relevante (por ejemplo, un número de factura para el pago), añada esa información aquí (opcional).
+- **Subscription Type**: Select the appropriate type for this new subscriber \(e.g., Library\) and its status \(e.g., Active\). (Subscription Types were configured earlier in this chapter.)
+- **Date**: Set the start and end dates for this subscription.
+-  **Institution**: Add the name of the institution for this subscription \(e.g., Simon Fraser University Library\).
+- **Mailing Address**: Add the address of the institution.
+- **Domain**: Readers coming from a computer with this domain will automatically receive access \(e.g., sfu.ca\). This will apply to on-campus users.
+- **IP Ranges**: The institution may provide you with IP ranges. Readers coming from a computer from this IP range will automatically receive access.
+- **Notes**: If you have any relevant notes to add, record that information here \(optional\).
 
-**Notas**: Si tiene alguna nota relevante que agregar, anote esa información aquí (opcional).
-
-## Suscripciones institucionales
-Todos los tipos de suscripciones institucionales aparecerán aquí.
-
-![Captura de subscriptions](./assets/image183.png)
-
-Las suscripciones institucionales se gestionan de forma similar a las suscripciones individuales, pero se utilizan para bibliotecas, institutos de investigación y otras organizaciones que se suscriben a su revista.
-
-Puede crear una nueva suscripción individual utilizando el enlace Crear nueva suscripción. Sin embargo, primero deberá crear una nueva cuenta para la persona de contacto de la institución en Usuarios y funciones (consulte el Capítulo 7). Una vez hecho esto, puede buscar la cuenta aquí, y aplicar las diferentes configuraciones.
-
-![Captura de subscriptions](./assets/image192.png)
-
-**Tipo de suscripción**: Seleccione el tipo apropiado para este nuevo suscriptor (por ejemplo, Biblioteca) y su estado (por ejemplo, Activo).
-
-Los tipos de suscripción se configuraron anteriormente en este capítulo.
-
-**Fecha**: Establezca las fechas de inicio y fin de esta suscripción.
-
-**Institución**: Añada el nombre de la institución para esta suscripción (por ejemplo, Simon Fraser University Library).
-
-**Dirección Postal**: Agregue la dirección de la institución.
-
-**Dominio**: Los lectores que provengan de un ordenador con este dominio recibirán automáticamente acceso (por ejemplo, sfu.ca). Esto se aplicará a los usuarios en el campus.
-
-**Rangos de IP**: La institución puede proporcionarle rangos de IP. Los lectores procedentes de un ordenador de este rango de IP recibirán automáticamente acceso.
-
-**Notas**: Si tiene alguna nota relevante que agregar, anote esa información aquí (opcional).
-
+## Subscription Block
+When a user is being provided access to a site or its content via a subscription, the information of the subscriber providing access can be dispayed in the sidebar. The Subscription Block feature must be selected for display in Website Settings > Appearance > Sidebar Management.
