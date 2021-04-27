@@ -22,8 +22,7 @@ The Editor-in-chief is responsible for overseeing and coordinating the editorial
 
 #### Sample job description for Editor in Chief of an Open Access Journal
 
-[X journal] is seeking applications from students for the volunteer position of Editor in Chief for a 2-year term. [Description of journal taken from “About the Journal” page].
-[X journal] is a student-run, open access, peer-reviewed journal based at [x institution]
+[X journal] is seeking applications from students for the volunteer position of Editor in Chief for a 2-year term. [Description of journal taken from “About the Journal” page]. [X journal] is a student-run, open access, peer-reviewed journal based at [x institution]
 
 __Responsibilities__
 
@@ -153,10 +152,7 @@ Provide constructive feedback on the manuscript, including recommendations on wh
 
 __Responsibilities__
 
-The duties of the Peer Reviewers include:
-Provides constructive criticism of articles and recommendations on publication decisions
-Provides unbiased comments that should assist the author with revisions
-Maintains confidentiality of the review process during and after publication.
+The duties of the Peer Reviewers include: Provides constructive criticism of articles and recommendations on publication decisions Provides unbiased comments that should assist the author with revisions Maintains confidentiality of the review process during and after publication.
 
 __Benefits__
 
@@ -172,5 +168,4 @@ __Requirements__
 * Strong attention to detail
 * Familiarity with [citation style AND journal style].
 
-__Application procedure__
-Please apply with a current cover letter and resume to [email address] by the deadline of [date].
+__Application procedure__ Please apply with a current cover letter and resume to [email address] by the deadline of [date].
