@@ -2,6 +2,7 @@
 book: learning-omp
 version: 3.3
 ---
+
 # Editorial Interface
 
 ![Animation highlighting each of the editorial interface elements.](./assets/omp3.3_dashboard.gif)
