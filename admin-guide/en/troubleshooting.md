@@ -145,8 +145,7 @@ This problem shows up when users copy-and-paste fancy/smart quotes from MS Word 
 The following steps can be used to resolve this encoding issue:
 
 * Install on your local machine [ftfy](https://ftfy.readthedocs.io/en/latest/), as it is a python tool it will require python3 installed as well;
-* Edit the command-line ftfy executable cli.py (it may be in a different path depending on your environment.): 
-	`/usr/local/lib/python3.6/site-packages/ftfy/cli.py`
+* Edit the command-line ftfy executable cli.py (it may be in a different path depending on your environment.): `/usr/local/lib/python3.6/site-packages/ftfy/cli.py`
 * Around line 100 (`$ vim +100 cli.py`) add an extra parameter 'uncurl_quotes=False' to the fix_file function. It will like as follows:
 
 ```
@@ -156,8 +155,7 @@ for line in fix_file(file, encoding=encoding,
      uncurl_quotes=False):
 ```
 
-* Download to you local machine the DUMP file (i.e: client.orig.sql) and you will be able to run:
-	`$ ftfy --output=client.clean.sql client.orig.sql`
+* Download to you local machine the DUMP file (i.e: client.orig.sql) and you will be able to run: `$ ftfy --output=client.clean.sql client.orig.sql`
 
 #### Manual Workarounds (Last Resort)
 
