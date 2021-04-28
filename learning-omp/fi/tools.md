@@ -3,7 +3,7 @@ book: learning-omp
 version: 3.3
 ---
 
-# Tools
+# Luku 10: Kirjoittajat
 
 ## Import/Export
 
@@ -15,7 +15,7 @@ To export using the ONIX 3.0 Monograph Export Plugin, you need to ensure that al
 
 The Tab Delimited Content Import Plugin can only be used with the command line.
 
-## Statistics
+## Luku 9: Tilaukset
 
 This chapter of the Learning OMP 3.2 provides a general overview of statistics available in Open Monograph Press (OMP). For more detailed information on statistics and usage guidelines, please see the Statistics chapter on the [PKP Administrator’s Guide](/admin-guide/en/statistics).
 
