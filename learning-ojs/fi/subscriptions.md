@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.3
 ---
 
-# Subscriptions
+# Luku 11: Toimittajat
 
 OJS allows you to restrict some or all of your content to subscribers. To enable Subscriptions, first go to [Settings > Distribution > Access](./settings-distribution.md).
 
