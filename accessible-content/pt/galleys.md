@@ -1,109 +1,109 @@
-# Creating accessible galley files
+# Criando documentos para publicação acessíveis
 
-This section provides an overview of how to incorporate the accessible content principles listed above into specific galley formats your journal may be using.
+Esta seção apresenta uma visão geral de como incorporar os princípios de conteúdo acessível listados acima em formatos de publicação específicos provavelmente adotados pelo seu periódico.
 
-## How to check an MS Word document for accessibility
+## Como verificar a acessibilidade de um documento do MS Word
 
-The MS Word Accessibility Checker scans the file for common issues that may make a file less accessible for users with disabilities.
+O Verificador de Acessibilidade do MS Word verifica o arquivo em busca de problemas comuns que podem torná-lo menos acessível para usuários com necessidades especiais.
 
-Run the Accessibility Checker:
+Execute o Verificador de Acessibilidade:
 
-- Windows: File > Check for Issues > Check Accessibility
-- Mac: Review > "Check Accessibility"
+- Windows: Arquivo> Verificar problemas> Verificar acessibilidade
+- Mac: Avaliar> "Verificar acessibilidade"
 
-After running the Checker, the "Inspection Results" will display one or more of the following messages:
+Após a execução do Verificador, os "Resultados da inspeção" exibirão uma ou mais das seguintes mensagens:
 
-- **Error**: identifies content that makes a document difficult to read and understand
-- **Warning**: identifies content that in most cases, makes the document difficult to understand
-- **Tip**: identifies content that may not constitute an end user issue, but could be presented in a different way to optimize user experience
+- **Erro**: identifica o conteúdo que torna um documento difícil de ler e entender
+- **Aviso**: identifica o conteúdo que, na maioria dos casos, torna o documento difícil de entender
+- **Dica**: identifica o conteúdo que pode não constituir um problema para o leitor, mas pode ser apresentado de maneira diferente para otimizar a experiência de leitura
 
-Clicking an item in the "Inspection Results" list will take you directly to the issue – the item will be removed from the inspection results automatically once it is addressed. You do not need to re-run the checker.
+Clicar em um item na lista "Resultados da inspeção" levará diretamente ao problema - o item será removido dos resultados da inspeção automaticamente assim que for resolvido. Não é necessário executar o verificador novamente.
 
-For further support, see the MS Support resource [Improve Accessibility with the Accessibility Checker](https://support.office.com/en-us/article/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f#PickTab=Windows).
+Para obter mais suporte, consulte o recurso de Suporte da MS. [Melhorar a acessibilidade com o Verificador de acessibilidade](https://support.office.com/en-us/article/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f#PickTab=Windows) .
 
-## Labeling your galley files
+## Rotulando seus documentos para publicação
 
-Galleys should be labeled according to the type of file being published, such as PDF or HTML (see below for information on choosing which galley formats to use). Your galley files should also follow a common naming pattern and be consistent across all publications, so that all galleys of the same type (e.g. PDF) have the same label. Screen readers will read out the type followed by the title, like “PDF: Open badges as credentials in Open Education systems: Case studies from Greece and Europe”.
+As composições devem ser rotuladas de acordo com o tipo de arquivo que está sendo publicado, como PDF ou HTML (veja abaixo as informações sobre como escolher quais formatos de publicação usar). Suas composições também devem seguir um padrão de nomenclatura comum e consistente em todas as publicações, de modo que todas as composições do mesmo tipo (por exemplo, PDF) tenham o mesmo rótulo. Os leitores de tela lerão o tipo seguido pelo título, como “PDF: Crachás abertos como credenciais em sistemas de educação aberta: estudos de caso da Grécia e da Europa”.
 
-Supplementary galleys should have a label that describes the content. For example, “Supplemental Data” is not very descriptive. “Regional Income Data” or “Interview Transcripts” are more descriptive.
+Documentos complementares devem ter uma etiqueta que descreva o conteúdo. Por exemplo, “Dados Suplementares” não são muito descritivos. “Dados de renda regional” ou “Transcrições de entrevista” são mais descritivos.
 
-## Which galley formats to use?
+## Quais formatos de publicação usar?
 
-Online journals publish their articles in a variety of file types. The most common are PDF and HTML, but increasingly these additional formats are being used: ePub, MP3, and XML. As a general rule, more structured formats (those with tagging in place to indicate the features, such as headings, alt text, etc) are the most accessible. With all formats there are things you can do to maximize the accessibility and preserve the structure of the original document.
+Os periódicos on-line publicam seus artigos em uma variedade de formatos de arquivos. Os mais comuns são PDF e HTML, mas cada vez mais formatos diferentes estão sendo usados: ePub, MP3 e XML. Como regra geral, os formatos mais estruturados (aqueles com marcação para indicar os recursos, como cabeçalhos, texto alternativo etc.) são os mais acessíveis. Com todos os formatos, existem coisas que se pode fazer para maximizar a acessibilidade e preservar a estrutura do documento original.
 
 ### PDF
 
-PDF is the most common format for publishing articles, but can present a number of issues from an accessibility standpoint. One of the main issues is that a text document created with accessibility considerations in mind may lose some of these features when converted to PDF, such as tags, alt text, headings, etc. Here are the steps to follow to minimize these risks:
+O PDF é o formato mais comum para publicação de artigos, mas pode apresentar vários problemas do ponto de vista da acessibilidade. Um dos principais problemas é que um documento de texto criado com considerações de acessibilidade em mente pode perder alguns desses recursos ao ser convertido para PDF, como marcações, texto alternativo, cabeçalhos etc. A seguir apresentamos as etapas para minimizar esses riscos: Here are the steps to follow to minimize these risks:
 
-#### 1 - Ensure the source document is accessible
+#### 1 - Certifique-se de que o documento de origem seja acessível
 
-Follow the [General Principles](./principles.md) to create the source document with accessibility in mind. If you are using MS Word, use the [Accessibility Checker to validate it.](#how-to-check-an-ms-word-document-for-accessibility)
+Siga os [Princípios Gerais](./principles.md) para criar o documento de origem com acessibilidade em mente. Se você estiver usando o MS Word, use o [Verificador de Acessibilidade para validá-lo.](#como-verificar-a-acessibilidade-de-um-documento-do-ms-word)
 
-#### 2 - Convert the document into PDF
+#### 2 - Converta o documento para PDF
 
-The method you choose to export your Word Document to PDF will affect the preservation of the accessibility features that you have added to your document. For additional guidance see the [WebAIM PDF Accessibility Guide - Converting Documents to PDF](https://webaim.org/techniques/acrobat/converting).
+O método escolhido para exportar o Documento Word para PDF afetará a preservação de características de acessibilidade incluídas no original. Para orientações adicionais veja o [Guia de Acessibilidade para PDF da WebAIM - Convertendo documentos para PDF](https://webaim.org/techniques/acrobat/converting).
 
-##### Preferred Method (requires Adobe Acrobat Pro)
+##### Método recomendado (exige o Adobe Acrobat Pro)
 
-Export your Word Document by using “Create PDF” from a file in Adobe Acrobat Pro. Open Adobe Acrobat Pro > File > Create > PDF from File > Select desired document to convert.
+Exporte seu documento do Word usando “Criar PDF” a partir de um arquivo no Adobe Acrobat Pro. Abra Adobe Acrobat Pro> Arquivo> Criar> PDF do arquivo> Selecione o documento desejado para converter.
 
-![The Acrobat Pro DC menu option to create PDF from file.](./assets/9_a11y-guide-create-pdf-pro1.png)
+![Tela do menu de opções do Acrobat Pro DC para gerar um PDF a partir de um arquivo.](./assets/9_a11y-guide-create-pdf-pro1.png)
 
-If you are creating a document via the Acrobat Tab in MS Office, make sure that **Enable Accessibility and Reflow with tagged Adobe PDF** is checked.
+Caso esteja criando um documento por meio da aba Acrobat no MS Office, certifique-se de **Marcas estruturais do documento para acessibilidade** está habilitado.
 
-![The Acrobat PDFMaker with the checked checkbox to Enable Accessibility and Reflow with tagged Adobe PDF](./assets/10_a11y-guide-create-pdf-pro2.png)
+![Tela do Acrobat PDFMaker com a opção marcada para Habilitar a Acessibilidade e Formatação com Adobe PDF marcado](./assets/10_a11y-guide-create-pdf-pro2.png)
 
-##### Next Best Method (does not require Adobe Acrobat Pro)
+##### Próximo melhor método (não requer Adobe Acrobat Pro)
 
-Save your Word Document as a PDF using the “Save As” function. This may not preserve all accessibility features, such as tagging, so it’s best to use Acrobat Pro if you have it.
+Salve seu documento do Word como PDF usando a função “Salvar como”. Isso pode não preservar todos os recursos de acessibilidade, como marcações, portanto, é melhor usar o Acrobat Pro, caso esteja disponível.
 
-On Windows: Select **File > Save As**. Select “PDF” from the list of drop-down files. Click “Options” and make sure **“Document structure tags for accessibility”** is checked, then save the file.
+No Windows: Selecione **Arquivo> Salvar como**. Selecione “PDF” da lista de arquivos suspensos. Clique em “Opções” e certifique-se de que a opção **“Marcas estruturais do documento para acessibilidade”** esteja habilitada e salve o arquivo.
 
-![The MS Word on Windows file save option with the checked checkbox Document structure tags for accessibility](./assets/11_a11y-guide-saveas-pdf1.png)
+![Tela de opções para salvar arquivo do MS Word no Windows com a opção de Marcas de estrutura de documento para acessibilidade marcada.](./assets/11_a11y-guide-saveas-pdf1.png)
 
-On Mac: Open the **File** application menu and select **Save As…** Under **File Format**, select “PDF”. Then choose the **Best for electronic distribution and accessibility** (**uses Microsoft online service**) radio button, then **Export**.
+No Mac: Abra o menu do aplicativo **Arquivo** e selecione **Salvar como ...** Em **Formato de arquivo**, selecione “PDF”. Em seguida, escolha a opção **Melhor para distribuição eletrônica e acessibilidade** (**usa o serviço on-line da Microsoft**) e, em seguida, **Exportar**.
 
-![The MS Word on Mac file save option in PDF with the checked checkbox Best for electronic distribution and accessibility](./assets/12_a11y-guide-saveas-pdf2.png)
+![Tela de opções para salvar arquivo do MS Word no Windows com a opção de Marcas de estrutura de documento para acessibilidade marcada.](./assets/12_a11y-guide-saveas-pdf2.png)
 
-**IMPORTANT**: **never “Print to PDF”** when exporting a Word Document to PDF. A screen reader user may still be able to access the text of a PDF created in this way, but heading structure, alternative text, and any other tag structure will be lost.
+**IMPORTANTE** : **Nunca use “Imprimir para PDF”** ao exportar um documento do Word para PDF. Um usuário de leitor de tela ainda pode acessar o texto de um PDF criado dessa maneira, mas a estrutura do título, o texto alternativo e qualquer outra marca estrutural será perdida.
 
-#### 3 - Check a PDF document for accessibility
+#### 3 - Verifique a acessibilidade de um documento PDF
 
-If you are creating a document from MS Word, start by checking accessibility using the [MS Word Accessibility Checker](./galleys.md#how-to-check-an-ms-word-document-for-accessibility).
+Se estiver criando um documento no MS Word, comece verificando a acessibilidade usando o [Verificador de Acessibilidade do MS Word](#como-verificar-a-acessibilidade-de-um-documento-do-ms-word).
 
-After the document has been converted to PDF, it’s a good idea to check that accessibility features are preserved and nothing has been lost. This includes checking that tags are present and the reading order is correct for a screen reader.
+Após a conversão do documento para PDF, é importante verificar se os recursos de acessibilidade foram preservados e nada foi perdido. Isso inclui verificar se as marcas estruturais estão presentes e se a ordem de leitura está correta para um leitor de tela.
 
-This process requires Adobe Acrobat Pro and is described in detail in [WebAim’s PDF Accessibility Guide](https://webaim.org/techniques/acrobat/acrobat).
+Este processo requer o Adobe Acrobat Pro e é descrito em detalhes no [Guia de acessibilidade em PDF do WebAim](https://webaim.org/techniques/acrobat/acrobat).
 
-#### 4 - Remediate a PDF document
+#### 4 - Corrigir um documento PDF
 
-If you receive a PDF that is untagged, or where the tag structure is incomplete or incorrect, it is usually best to return to the source document, make the necessary accessibility repairs, and then re-create the PDF. If the source document is unavailable, you can use Acrobat to convert a PDF back to a Word, Excel, or PowerPoint file. Select File > Export To, then choose your desired format.
+Caso receba um PDF sem marcações ou marcado ou no qual as marcas estruturais estão incompletas ou incorretas, geralmente é melhor verificar o documento de origem, fazer os reparos de acessibilidade necessários e recriar o PDF. Caso o documento de origem não estiver disponível, é possível usar o Acrobat para converter um PDF de volta em um arquivo do Word, Excel ou PowerPoint. Selecione Arquivo > Exportar para e escolha o formato desejado.
 
-Remediating a document in PDF requires Adobe Acrobat Pro. For more details see the [WebAim’s PDF Accessibility Guide](https://webaim.org/techniques/acrobat/acrobat).
+A correção de um documento em PDF requer o Adobe Acrobat Pro. Para mais detalhes consulte o [Guia de acessibilidade em PDF do WebAim](https://webaim.org/techniques/acrobat/acrobat).
 
 ### HTML
 
-HTML is another popular galley format used by publishers. It offers more flexibility than PDF for adjusting to different screen sizes and accommodating multimedia. It has the potential to be more accessible than PDF as long as the document follows the [general principles of creating accessible content](./principles.md#headings-structure), such as structured headings, alt text, etc.
+HTML é outro formato popular de publicação usado por editores. Ele oferece mais flexibilidade que o PDF para se ajustar a diferentes tamanhos de tela e permitir o uso de multimídia. Tem o potencial de ser mais acessível que o PDF, desde que o documento siga os [princípios gerais de criação de conteúdo acessível](./principles.md#strutura-de-cabeçalhos-de-seções), como cabeçalhos estruturados, uso de texto alternativo etc.
 
-For instructions on how to create and style HTML galleys, add multimedia content, and upload HTML galleys to OJS, see the [Learning OJS 3 - Chapter 15: Production and Publication - HTML Files](/learning-ojs/en/production-publication#html-files).
+Para instruções sobre como criar e aplicar formatação acessível em documentos HTML, adicionar conteúdo multimídia e enviar composições HTML para publicação no OJS, consulte [Aprendendo o OJS 3 - Capítulo 15: Produção e publicação - Documentos HTML](/learning-ojs/en/production-publication#html-files).
 
 ### XML
 
-XML files have the potential to be very accessible. They contain extensible markup that divides them into elements (e.g., chapters, paragraphs, tables, lists, footnotes) and have document type definition (DTD) that defines the rules for the document, describes the structural elements and attributes, and tells computer systems (such as assistive technologies) how to interpret the data. XML files can be highly structured and tagged, which provides the opportunity to add context to images, figures, etc. Semantic tagging can improve navigation and logical reading order. For example, semantic tags can tell a screen-reader in which order to read the content.
+Arquivos XML tem o potencial de serem muito acessíveis. Eles contêm marcação extensível que os divide em elementos (por exemplo, capítulos, parágrafos, tabelas, listas, notas de rodapé) e têm definição de tipo de documento (DTD) que define as regras para o documento, descreve os elementos estruturais e atributos, e informa os sistemas de computador (como tecnologias assistivas) a forma de interpretar os dados. Os arquivos XML podem ser altamente estruturados e marcados, o que fornece a oportunidade de adicionar contexto a imagens, figuras etc. A marcação semântica pode melhorar a navegação e a ordem de leitura lógica. Semantic tagging can improve navigation and logical reading order. Por exemplo, as marcações semânticas podem informar a um leitor de tela a ordem de leitura do conteúdo.
 
-XML markup is structural and semantic, rather than having anything to do with how the text content should be presented, and the file can be processed automatically to create various formats. Many publishers use an “XML-first” publishing workflow, producing a master XML file that is used to generate HTML, PDF, EPUB, and other formats. This allows publishers to build in all accessibility features at the beginning of their workflow.
+A marcação XML é estrutural e semântica, em vez de ter qualquer relação com a forma como o conteúdo do texto deve ser apresentado, e o arquivo pode ser processado automaticamente para criar vários formatos. Muitos editores usam um fluxo de trabalho de publicação “primeiro em XML”, produzindo um arquivo XML mestre que é usado para gerar HTML, PDF, EPUB e outros formatos. Isso permite que os editores incluam todos os recursos de acessibilidade no início de seu fluxo de trabalho.
 
-For more information on XML publishing in OJS see [Learning OJS 3: Production and Publication - XML](/learning-ojs/en/production-publication#xml-files).
+Para mais informações sobre a publicação de XML no OJS, consulte [Aprendendo o OJS 3: Produção e Publicação - XML](/learning-ojs/en/production-publication#xml-files).
 
-The DAISY Digital Talking Book or DAISY XML is an XML-based e-book format that was developed by the DAISY Consortium as an accessible file format for people with print disabilities. It is a package of digital files that can include digital audio files, marked-up text files, synchronization files, and navigation files. Special DAISY players can play the audio, read the text using Text to Speech, and navigate through the book in an accessible way. [This tutorial](https://cynthiang.ca/2015/08/18/accessible-format-production-part-6-daisy-book/) explains how to make a DAISY Book.
+O DAISY Digital Talking Book ou DAISY XML é um formato de livro eletrônico baseado em XML que foi desenvolvido pelo Consórcio DAISY como um formato de arquivo acessível para pessoas com deficiências para a leitura de impressos. É um pacote de arquivos digitais que pode incluir arquivos de áudio digital, arquivos de texto marcados, arquivos de sincronização e arquivos de navegação. Aplicativos especiais DAISY podem reproduzir o áudio, ler o texto usando Text to Speech (de Texto para Fala) e navegar pelo livro de uma forma acessível. [Este tutorial](https://cynthiang.ca/2015/08/18/accessible-format-production-part-6-daisy-book/) explica como fazer um livro DAISY.
 
 ### EPUB
 
-Used commonly in eBook publishing, EPUB defines a means of representing, packaging and encoding structured and semantically enhanced Web content — including HTML5, CSS, SVG, images, and other resources — for distribution in a single-file format.
+Usado comumente na publicação de e-books, o EPUB define um meio de representar, empacotar e codificar conteúdo da Web estruturado e semanticamente aprimorado - incluindo HTML5, CSS, SVG, imagens e outros recursos - para distribuição em um formato de arquivo único.
 
-Below are some resources for accessible EPUB creation:
+A seguir apresentamos alguns recursos para a criação de EPUB acessível:
 
-- [Learning OJS 3: Production and Publication - EPUB](/learning-ojs/en/production-publication#epub-files) - how to create EPUB galleys
-- [EPUB - the DAISY Consortium](https://daisy.org/activities/standards/epub/) - EPUB packages and accessibility
-- [Top tips for creating accessible EPUB 3 files](http://diagramcenter.org/54-9-tips-for-creating-accessible-epub-3-files.html) - tips from Diagram Center
-- [EPUB Validation Process](https://kb.daisy.org/publishing/docs/epub/validation/overview.html) - EPUB accessibility checkers
+- [Aprendendo OJS 3: Produção e Publicação - EPUB](/learning-ojs/en/production-publication#epub-files) - como criar composições EPUB
+- [EPUB - o Consórcio DAISY](https://daisy.org/activities/standards/epub/) - pacotes EPUB e acessibilidade
+- [Principais dicas para criar arquivos EPUB 3 acessíveis](http://diagramcenter.org/54-9-tips-for-creating-accessible-epub-3-files.html) - dicas do Diagram Center
+- [Processo de validação EPUB](https://kb.daisy.org/publishing/docs/epub/validation/overview.html) - verificadores de acessibilidade EPUB
