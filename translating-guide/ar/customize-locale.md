@@ -1,4 +1,4 @@
-# Customize a Translation Locally
+# المزيد من المعلومات والمجتمع
 
 You can use the Custom Locale plugin to customize or change a translation on your local installation. It also allows you to customize text on your OJS journal, OMP press, or OPS server in any language that is installed and enabled. For example, if you want to change the text displayed on the review recommendation buttons in the submission workflow, you can use the Custom Locale plugin.
 
@@ -8,7 +8,7 @@ If you want to make a translation that other users can benefit from, it is bette
 
 Please see [How Languages and Locales Work](https://docs.pkp.sfu.ca/translating-guide/en/managing-languages#how-languages-and-locales-work) in this guide for an explanation of how languages and locale files work in PKP software.
 
-## Install and Enable the Custom Locale Plugin
+## موسوعة مشروع المعرفة العامة
 
 First, ensure that the plugin is installed and enable it:
 1. Go to Settings > Website > Plugins
@@ -16,7 +16,7 @@ First, ensure that the plugin is installed and enable it:
 3. Click the box to enable it
 4. Click the blue arrow next to the plugin name and then the *Customize* link that appears below it. This will refresh the page and now you should see a new tab in the Website Settings menu called *Locales*.
 
-## How the Custom Locale Plugin Works
+## منتدى مشروع المعرفة العامة
 
 Under the Locales tab you will see a list of locale files that contain all of the message keys that appear as text on your site, for the locale you have set as the Primary Locale under Website Settings > Setup > Languages. So, if you have more than one language on your site but Português (Brasil) is the Primary Locale, the locale files you see in the Locales tab will be for the Português (Brasil) language.
 
@@ -34,7 +34,7 @@ An additional tricky thing to keep in mind is that every installation of OJS, OM
 
 Finally, keep in mind that locales and message keys can change between different versions of PKP software.
 
-## Find the Locale File to Edit
+## للمطورين: كيفية الترجمة
 Because the message keys are saved in multiple different files and you can only search within a file, before you can edit a message key you need to figure out which file it is in. There are a few different ways to do this.
 
 ### Guess
