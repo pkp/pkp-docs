@@ -1,5 +1,5 @@
-# Creating Accessible Content: A Guide for Journal Editors and Authors
+# Como criar conteúdo acessível: um guia para editores de periódicos e autores
 
-The Creating Accessible Content guide covers the general principles of creating universally accessible content published on the web. It highlights techniques to address specific limitations or the use of assistive technologies, such as screen readers for people with visual impairment or sign language for those with auditory limitations. Finally, it gives specific tips on creating different galley formats in an accessible way.
+O guia "Como criar conteúdo acessível" contempla os princípios gerais da produção de conteúdo universalmente acessível publicados na web. Ressalta técnicas para a resolução de limitações específicas ou o uso de tecnologias assistivas, como leitores de telas para pessoas com deficiência visual ou língua de sinais para pessoas com limitações auditivas. Por fim, oferece dicas específicas sobre a produção de diferentes formatos de publicação de maneira acessível.
 
-This guide will be useful for authors in preparation of their manuscripts and for editors in formatting materials for publication and adding content to journal websites.
+Este guia será útil para autores na preparação de seus manuscritos e para editores na formatação de materiais para publicação e inclusão de conteúdo em sites de periódicos.
