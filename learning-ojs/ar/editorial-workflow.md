@@ -258,7 +258,7 @@ Keep the files that are to be reviewed checked off.
 
 <hr />
 
-## Review
+## الأعداد السابقة
 
 When the submission enters the Review Stage, a notification indicates that Reviewers need to be assigned.
 
