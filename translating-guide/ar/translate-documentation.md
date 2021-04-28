@@ -26,7 +26,7 @@ Anyone with fluency in multiple languages and some understanding of the software
 
 If you’re interested in being a Language Moderator for a particular language, please contact  [documentation@publicknowledgeproject.org](mailto:documentation@publicknowledgeproject.org). Language Moderators are required to make a minimum 2-year commitment to moderating the language. Language moderators should have excellent translation skills and knowledge of PKP software, as they are responsible for reviewing and approving translations. They should also have a relationship with and understanding of the user community for the language, so they can effectively coordinate and recruit translators.
 
-## Get Started
+## التطبيقات، المكتبات، والتفرعات
 
 To get started translating PKP software documentation, you can follow the instructions in this guide. If you have questions you can contact the Translation Coordinator or your Language Moderator. You can also talk to other PKP translators and ask questions in the [PKP Community Forum](https://forum.pkp.sfu.ca/c/translations/12).
 
@@ -190,7 +190,7 @@ In addition to updating the translation, you will need to connect any segment ti
 
 Do this for the rest of the red segments on the page.
 
-## Improve a Document Translation
+## مشاركة ترجماتك
 
 If a document has already been translated but you think the translation needs to be improved, you can edit an existing translation.
 
