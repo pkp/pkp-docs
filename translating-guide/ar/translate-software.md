@@ -3,7 +3,7 @@ book: translating-guide
 version: 3.2
 ---
 
-# Translate PKP Software
+# إعتبارات تقنية: كيف تتم
 
 Starting with OJS/OMP 3.2, we are using the web-based translation tool [Weblate](https://weblate.org) to manage translations of OJS and OMP.
 
@@ -13,7 +13,7 @@ PO files are used by many thousands of software projects worldwide to manage tra
 
 (If you want to use another translation tool, please go ahead — but please check with us first to make sure you coordinate your work with other translators, and that the tool you choose supports monolingual PO files.)
 
-## Get Started
+## التطبيقات، المكتبات، والتفرعات
 
 So you want to translate OJS or OMP into another language! The PKP community depends on volunteer efforts to keep the system working well in many languages and we appreciate your help.
 
@@ -50,7 +50,7 @@ Inside each **component**, you will see numerous **strings**. These are the actu
 
 ![](./assets/translating-guide-weblate-strings.png)
 
-## Update an Existing Translation
+## تعديل ترجمة حالية
 
 Once you have registered for an account and gotten access to the projects (see above), decide which projects you want to work on. See the previous section for information on which projects will be important to your work.
 
@@ -70,7 +70,7 @@ When you have finished translating the remaining strings for this component, con
 
 When all components are finished, please contact [Alec Smecher](mailto:alec@smecher.bc.ca) with the good news!
 
-## Begin a New Translation
+## الشروع بالترجمة من الصفر
 
 To begin a new translation, please create an account by following the instructions above. Be sure to specify that you want to start a new translation; this will take a little bit of set-up. When you receive confirmation that everything is ready, follow the instructions in **Update an Existing Translation** — the only difference will be that you will start with empty translation files.
 
