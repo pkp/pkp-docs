@@ -2,379 +2,379 @@
 generateHeadingToc: true
 ---
 
-# DOAJ Application Guide for OJS Journals
+# Guia DOAJ para periódicos do OJS
 
-Publishers who wish to have their journal included in the Directory of Open Access Journals (DOAJ) have to fill out an application form to indicate that the journal meets DOAJ's criteria. This appendix provides guidance for journals using Open Journal Systems (OJS) on how to represent and link to information in OJS that is relevant for DOAJ inclusion and the DOAJ application.
+Editores que desejem ter seu periódico incluído no Directory of Open Access Journals (DOAJ) devem preencher um extenso formulário de inscrição indicando que o periódico atende aos critérios do DOAJ. Este apêndice fornece orientações para periódicos, que usam o Open Journal Systems (OJS), em como representar e vincular a informações no OJS relevantes para a inscrição e a inclusão no DOAJ.
 
-## What is DOAJ and why should I apply?
+## O que é o DOAJ e por que devo me inscrever?
 
-DOAJ is a directory that indexes and provides access to high quality, open access, peer-reviewed journals. Open access journals from all countries and in all languages can apply for inclusion. There is no cost for journals to apply or be listed in DOAJ. The service aims to raise the reputation and visibility of open access journals from around the world. For more details on benefits for journals, see [(Why Index Your Journal in DOAJ?)](https://doaj.org/apply/why-index/)
+"O Directory of Open Access Journals (DOAJ) é um serviço que indexa periódicos e metadados de artigos de alta qualidade, avaliados por pares. Open access journals from all countries and in all languages can apply for inclusion. There is no cost for journals to apply or be listed in DOAJ. The service aims to raise the reputation and visibility of open access journals from around the world. For more details on benefits for journals, see [(Why Index Your Journal in DOAJ?)](https://doaj.org/apply/why-index/)
 
-## Before you apply (DOAJ readiness)
+## Antes de se candidatar (preparação para o DOAJ)
 
-Are you ready? Your journal must:
+Você está pronto? Seu periódico deve:
 
-1. Be online and fully open access.
-2. Have a confirmed journal title and [ISSN](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-visibility#issns).
-3. Have published at least 5 research articles in the last year.
-4. Have a Creative Commons or equivalent license applied to all articles. See [Copyright and Licensing](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-increasing-impact#copyright-and-licensing) and [Journal Policies and Workflows](https://docs.pkp.sfu.ca/journal-policies-workflows/) to learn more.
+1. Ser online e de acesso totalmente aberto.
+2. Ter título reconhecido e [ISSN](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-visibility#issns)
+3. Ter publicado ao menos 5 artigos de pesquisa no último ano.
+4. Ter uma licença Creative Commons ou equivalente aplicada a todos os artigos. Para maiores informações, consulte [Direitos autorais e licenciamento](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-increasing-impact#copyright-and-licensing).
 
 See [the DOAJ's Guide to Applying](https://doaj.org/apply/guide/) for a full list of DOAJ’s basic criteria for inclusion.
 
-## The DOAJ Application
+## A inscrição no DOAJ
 
-This section will help you to complete [the DOAJ application](https://doaj.org/apply/) for your OJS journal. You will be required to register an account with basic information (a name and email address) in order to use the online form.
+Esta seção o auxiliará a preencher [a inscrição no DOAJ](https://doaj.org/application/new) para seu periódico gerenciado no Open Journal Systems (OJS). You will be required to register an account with basic information (a name and email address) in order to use the online form.
 
-All of the questions must be answered in order for the application to be complete; however, some of the questions only provide supplemental information to DOAJ and are not required for acceptance to DOAJ. The questions that are required for acceptance to DOAJ are marked with the letter **D**. Some additional questions are required for being awarded the DOAJ Seal. These are marked with the letter **S**. Questions that are not marked should still be answered. You can save your form’s progress and return to complete it at a later date if needed.
+Todas as perguntas devem ser respondidas para que a inscrição seja concluída. No entanto, algumas perguntas fornecem apenas informações suplementares ao DOAJ e não são exigidas para o aceite no DOAJ. As perguntas exigidas para o aceite no DOAJ são indicadas com a letra **D.** Algumas perguntas adicionais, indicadas com a letra **S**, são necessárias para a concessão do Selo DOAJ. Some additional questions are required for being awarded the DOAJ Seal. **1. Mesmo as perguntas não indicadas devem ser respondidas. You can save your form’s progress and return to complete it at a later date if needed.</p>
 
-This list of items was adapted from the Library Publishing Coalition's [How-To Guide for Library Publishers: Directory of Open Access Journals Application](https://docs.google.com/document/d/1x1_JRbqX36wqSw7FlMiAqmAhrOzRW-q__XiEa4tvVdY).
+Para maiores informações sobre o significado das perguntas, consulte [o Guia LPC](https://docs.google.com/document/d/1x1_JRbqX36wqSw7FlMiAqmAhrOzRW-q__XiEa4tvVdY/) ou [a página de Informações para Editores do DOAJ](https://doaj.org/publishers) .
 
-Next to each item is information about how to enter this information in OJS and, where applicable, where to link to it on your OJS site.
+**1) Título do Periódico** [ **D** ]
 
-If you are looking for further explanation on what the questions mean, please refer to [the LPC Guide](https://docs.google.com/document/d/1x1_JRbqX36wqSw7FlMiAqmAhrOzRW-q__XiEa4tvVdY/) or the help text included alongside the online form.
+**2) URL** [ **D** ]
 
-### Open Access Compliance
+### Informações básicas do periódico
 
-**Does the journal adhere to DOAJ’s definition of open access?** \[**D**\]
+**44) Qual é a URL da declaração de acesso aberto do periódico?** [ **D** ]
 
 The DOAJ requires journals to adopt a form of Libre Open Access—a type of open access that not only removes price barriers to content but also relaxes limitations on users’ rights. The DOAJ recommends that copyright of articles be retained by authors, but will also accept journals where copyright is held in full or in part by the publisher, so long as articles are offered under an open license. [Read more about DOAJ’s definition of open access](https://blog.doaj.org/2020/11/17/what-does-doaj-define-as-open-access/).
 
 **The journal website must display its open access statement. Where can we find this information?** \[**D**\]
 
-* Enter this information in Journal Settings > Masthead > About the Journal. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
-* You may want to create a section in the text box for the Open Access statement.
-* An example of an acceptable OA statement is: _"This is an open access journal which means that all content is freely available without charge to the user or his/her institution. Users are allowed to read, download, copy, distribute, print, search, or link to the full texts of the articles, or use them for any other lawful purpose, without asking prior permission from the publisher or the author. "_
-* If your journal has a Creative Commons license, this Open Access statement is true of your journal. For instructions on where to add your CC license, see #14.
+* Insira esta informação em Configurações do periódico >  Equipe Editorial > Sobre o periódico. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* Você pode querer criar uma seção na caixa de texto para a Declaração de Acesso Aberto.
+* O exemplo de declaração de Acesso Aberto que o DOAJ fornece é: *"Este é um periódico de acesso aberto, o que significa que todo o conteúdo está disponível gratuitamente para o usuário ou sua instituição. Os usuários têm permissão para ler, baixar, copiar, distribuir, imprimir, pesquisar, ou fazer vincular artigos na íntegra, ou usá-los para qualquer outra finalidade legal, sem pedir permissão prévia do editor ou do autor. Isso está em conformidade com a definição de acesso aberto da Budapest Open Access Initiative (BOAI)."*
+* Se o seu periódico está licenciado sob uma licença Creative Commons, esta declaração de Acesso Aberto é válida para o seu periódico. Para obter instruções sobre onde adicionar sua licença CC, consulte o número 47.
 
-### About the Journal
+### Qualidade e Transparência do Processo Editorial
 
-**Journal Title** \[**D**\]
+**6) Editora** [ **D** ]
 
-* Add this at Journal Settings > Masthead. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* Adicione o título em Configurações do periódico > Equipe Editorial. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
 
-**Alternative title (including the translation of the title)** \[Optional\]
+**4) ISSN do Periódico (impresso)** (adicionar apenas se tiver) [ **D** ]
 
-* If the journal has an acronym or abbreviated title, or if your journal is multilingual and uses a translated title, include it here. This field can be left blank.
+* Se o periódico tiver uma sigla ou título abreviado, informe aqui. Este campo pode ser deixado em branco.
 
-**Link to the journal’s homepage** \[**D**\]
+**39) Qual é a URL para os objetivos e escopo do periódico.** [ **D** ]
 
-* Enter the URL for your journal
+* Insira a URL do seu periódico
 
-**Journal ISSN (print)** (only add if you have one) \[**D**\]
+**9) Nome do contato deste periódico** (alguém que o DOAJ possa entrar em contato sobre este periódico.) [ **D** ]
 
-* This information needs to be added in two places:
-  * Journal Settings > Masthead > ISSN. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
-  * Add to your journal footer for it to appear on your site. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
+* Esta informação precisa ser adicionada em dois locais:
+  * Configurações do periódico >  Equipe Editorial > ISSN. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
+  * Adicione ao rodapé do seu periódico para que apareça em seu site. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
 
-* The ISSN will appear on the footer on every page of your site.
+* O ISSN aparecerá no rodapé de todas as páginas do seu site.
 
-**ISSN (online)** \[**D**\]
+**10) Endereço de e-mail do contato** [ **D** ]
 
-* This information needs to be added in two places:
-  * Journal Settings > Masthead > ISSN. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
-  * Add to your journal footer for it to appear on your site. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
+* Esta informação precisa ser adicionada em dois locais:
+  * Configurações do periódico >  Equipe Editorial > ISSN. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
+  * Adicione ao rodapé do seu periódico para que ele apareça em seu site. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) .
 
-* The ISSN will appear on the footer on every page of your site.
+* O ISSN aparecerá no rodapé de todas as páginas do seu site.
 
 **Up to 6 subject keywords in English**
 
-* The keywords should describe the subject matter of the journal. They do not need to be entered in OJS. Do not enter terms like open access, peer reviewed, multidisciplinary etc.
+* As palavras-chave devem descrever o tema do periódico e não precisam ser inseridas no OJS. They do not need to be entered in OJS. Do not enter terms like open access, peer reviewed, multidisciplinary etc.
 
 * Languages in which the journal accepts manuscripts.**
 
-* You can select multiple languages.
+* Você pode selecionar vários idiomas.
 
 #### Publisher
 
-**Publisher's name** \[**D**\]
+**12) Em qual país está localizado o editor do periódico?** [ **D** ]
 
-* Enter this information in 2 places:
-  * Journal Settings > Masthead > Publisher (it will be supplied to 3rd party metadata services, but will not appear publicly on your site). See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
-  * Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ). See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
+* Insira essas informações em dois locais:
+  * Configurações do periódico >  Equipe Editorial > Editor (será fornecido aos serviços de metadados de terceiros, mas não aparecerá publicamente em seu site). Consulte o [Capítulo 5: Configurações do diário](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) .
+  * Configurações do periódico > Contato> Endereço para correspondência (o nome do editor aparecerá na página Contato do seu site, uma exigência do DOAJ). Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
 
-**Publisher's country** \[**D**\]
+**5) ISSN do periódico (eletrônico)** [ **D** ]
 
-* Enter this information at Journal Settings > Contact > Mailing Address. A full mailing address is preferred. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact).
-* The country will appear on the Contact page of your site.
+* Insira essas informações em Configurações do periódico > Contato> Endereço para correspondência. Por favor, informe o endereço de correspondência completo. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact) .
+* O nome do contato aparecerá na página Contato do seu site.
 
 #### Society or institution, if applicable \[Optional\]
 
-**Society or institution’s name**
+**7) Sociedade ou Instituição**
 
-**Society or institution’s country**
+**15/16) Se você respondeu "Sim" à pergunta 13, insira o valor e a moeda.**
 
-* Information about a society or institution that sponsors the journal can be entered in Journal Settings > Masthead > About the Journal. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
-* You may want to create a special section on the About the Journal page about a sponsoring organization. Both fields can be left blank.
+* As informações sobre uma sociedade ou instituição que financia o periódico podem ser inseridas em Configurações do periódico>  Equipe Editorial > Sobre o periódico. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
+* Uma seção especial sobre uma organização patrocinadora pode ser criada na página Sobre o periódico. Este campo pode ser deixado em branco.
 
-### Copyright & licensing
+### Até que ponto o periódico é aberto?
 
 #### Licensing
 
-**License(s) permitted by the journal** \[**D**\]\[**S**\]
+**52) O periódico permite que o(s) autor(es) detenham os direitos autorais sem restrições?** [ **S** ]
 
-* Choose from the following options:
+* Selecione uma das seguintes opções:
   * CC BY
   * CC BY-SA
   * CC BY-ND
   * CC BY-NC
   * CC BY-NC-SA
   * CC BY-NC-ND
-  * CC0
+  * ARK
   * Public domain
   * Publisher's own license
 
-* For more information see [the Creative Commons page on licenses](https://creativecommons.org/licenses/).
-* Enter this information in OJS at Distribution Settings > Permissions > License. See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
-* The license you select here will not be displayed on your site automatically. You can add it to your [About the Journal page](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead), to [the footer of your site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance), or another place.
-* You can also enter license information on a per article basis when you schedule an article for publication and it will be displayed on the article page. See [Chapter 14: Editorial Workflow](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#scheduling-for-publication).
+* Para maiores informações, consulte [a página sobre as licenças da Creative Commons](https://creativecommons.org/licenses/) .
+* Insira esta informação no OJS em Configurações de distribuição > Permissões > Licença. Consulte o [Capítulo 8: Configurações de distribuição](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) .
+* A licença que você selecionar aqui não será exibida automaticamente em seu site. Você pode adicioná-la à [página Sobre o Periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) , ao [rodapé do seu site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) ou em outro lugar.
+* Você também pode inserir informações de licença por artigo ao programar um artigo para publicação, as quais serão exibidas na página do artigo. Consulte o [Capítulo 14: Fluxo de trabalho editorial](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#scheduling-for-publication) .
 * If you allow more than one type of license, please select all licenses used by the journal.
 
-**Where can we find this information?** \[**D**\]\[**S**\]
+**18) Insira a URL onde essas informações podem ser encontradas** [ **D** ]
 
-* If you add this information to your About the Journal page (see question 14), you can link to it in About > About the Journal.
-* If you add this information to your footer you can provide a link to your home page.
-* If you include it elsewhere on your site, provide a link to that page.
-* This must be a link on your own site, not a link to Creative Commons.
+* Selecione "Sim" ou "Não".
+* Se você adicionar esta informação ao rodapé, você poderá fornecer um link para a sua página inicial.
+* Se você incluí-la em outro lugar em seu site, forneça um link para essa página.
+* Deve ser um link em seu próprio site, não um link da Creative Commons.
 
 #### Embedded licenses
 
-**Does the journal embed and/or display licensing information in its articles?** \[**S**\]
+**45) O periódico incorpora ou exibe informações de licenciamento em seus artigos?** [ **S** ]
 
-* Select "Yes" or "No".
-* Answer Yes only if you include the CC license in the full text PDFs. If "Yes", please include the URL of a recent example article in the box that appears once "Yes" is selected.
-* Select the Creative Commons license you will use in: Settings > Distribution > Permissions. See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
-* If you wish to embed license information for articles, you must add it to all PDF galley files you upload to submissions during the Production stage.
+* Selecione "Sim" ou "Não".
+* Responda Sim apenas se incluir a licença CC nos PDFs dos artigos. Inclua a URL de um artigo como exemplo no número 46.
+* Configurações> Site> Informações> Para autores. Consulte o [Capítulo 6: Configuração do site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) .
+* Se desejar incorporar informações de licença para artigos, você deve adicioná-las a todos os arquivos em PDF que vocês carregou em submissões durante o estágio de Produção.
 
 #### Copyright
 
-**For all the licenses you have indicated above, do authors retain the copyright and full publishing rights without restrictions?** \[**S**\]
+**21) Quantos artigos de pesquisa e revisão o periódico publicou no último ano?** [ **D** ]
 
-* Select "Yes" or "No". Answer No if authors transfer copyright or assign any exclusive rights to the publisher (including commercial rights).
-* In OJS you can select the designated copyright holder for the article metadata as the Author, Journal, or Other. To select the Author as the designated copyright holder, go to: Settings > Distribution > Permissions
+* Selecione "Sim" ou "Não". Responda "Não" se você também respondeu Não aos itens 13 e 17.
+* No OJS, você pode selecionar o detentor dos direitos autorais atribuído para os metadados do artigo como o Autor, o Periódico ou Outro. Para selecionar o Autor como o detentor dos direitos autorais, clique em Configurações > Distribuição > Permissões.
 
-**Where can we find this information?**  \[**D**\]
+**22) Insira a URL onde esta informação pode ser encontrada** [ **D** ]
 
-* Enter the URL of the journal's copyright statement.
-* You can enter your copyright statement in the Copyright Notice box. See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) and select the copyright holder (Author, Journal, or Other).
-* The Copyright Notice will be displayed with each published article. To provide a link to your statement, you can add it on the About the Journal page, in Journal Settings > Masthead > About the Journal. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* Insira a URL de um arquivo em PDF publicado em seu site.
+* Você pode inserir sua declaração de direitos autorais no quadro de aviso de direitos autorais. Consulte o [Capítulo 8: Configurações de distribuição](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) e selecione o detentor dos direitos autorais (autor, periódico ou outro).
+* O aviso de direitos autorais será exibido em cada artigo publicado. Para fornecer um link para a sua declaração, você pode adicioná-la na página Sobre o Periódico, em Configurações do periódico >  Equipe Editorial > Sobre o periódico. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
 
-### Editorial
+### Licenciamento de Conteúdo
 
 #### Peer Review
 
-**DOAJ only accepts peer-reviewed journals. Which type(s) of peer review does this journal use?** \[**D**\]
+**Para ser indexado no DOAJ, a resposta aqui deve ser "Sim"** . Se você tiver uma licença CC, esta licença determina quais são as finalidades legais para reutilização, por exemplo, apenas para uso não comercial. Um periódico que responda "Não" será rejeitado automaticamente. Which type(s) of peer review does this journal use?</strong> \[**D**\]
 
-* Choose from the following options:
+* Selecione todas as opções aplicáveis:
   * Editorial review
   * Peer review
   * Blind peer review (known as “anonymous review” on OJS)
   * Double blind peer review (known as “double anonymous” review on OJS)
   * Post-publication peer review
   * Open peer review
-  * Other
+  * Outros
 
-* The type of review must be clearly labeled and described. "Editorial Review" is only valid for journals in Arts or Humanities. Non-humanities journals may not use this option with the DOAJ.
-* Enter this information in Journal Settings > Masthead > About the Journal. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* O tipo de avaliação deve ser claramente categorizado e descrito. "Avaliação Editorial" só é válida para periódicos da área de Humanidades. Periódicos que não sejam da área de Humanas não podem usar esta opção com o DOAJ.
+* Insira esta informação em Configurações do periódico >  Equipe Editorial > Sobre o periódico. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
 * You may want to create a special section on the About the Journal page to describe the review process.
 
-**Where can we find this information?**  \[**D**\]
+**14) Insira a URL onde esta informação pode ser encontradal** [ **D** ]
 
-* Information entered following the instructions in #19 will appear publicly under About > About the Journal.
+* Os artigos publicados aparecem em seu site na página Arquivos.
 
 #### Plagiarism
 
-**Does the journal routinely screen article submissions for plagiarism?**
+**17) O periódico cobra taxas de submissão de artigos?**
 
-* Select "Yes" or "No".
-* If you use a plagiarism checking service please ensure this information is given online. It can be included in the peer review section. Currently plagiarism checking is not mandatory for inclusion in DOAJ.
+* Selecione "Sim" ou "Não".
+* Se você utiliza um serviço de verificação de plágio, certifique-se de que esta informação esteja disponibilizada online. Ela pode ser incluída na seção de avaliação por pares. Atualmente, a verificação de plágio não é obrigatória para inclusão no DOAJ.
 * If "Yes", please include the URL to the plagiarism policy in the box that appears once "Yes" is selected. If you included it in the peer review section, it will appear publicly under About > About the Journal.
 
 #### Editorial
 
-**Link to the journal’s Aims & Scope** \[**D**\]
+**40) Qual a URL das Diretrizes para Autores do periódico?** [ **D** ]
 
-* Enter this information in Journal Settings > Workflow > Submissions > Author Guidelines. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
-* You may want to create a section in the text box for the journal’s Aims & Scope. It will appear publicly on the About > About the Journal page.
+* Insira esta informação em Configurações do periódico > Fluxo de trabalho> Submissões > Diretrizes para Autores. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* Você pode querer criar uma seção na caixa de texto para os Objetivos e Escopo do periódico. Ele estará pública na página Sobre> Sobre o periódico.
 
-**Link to the journal’s Editorial board** \[**D**\]
+**36) Qual é a URL da página da Equipe Editorial?** [ **D** ]
 
-* Enter this information under Journal Settings > Masthead > Editorial Team. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
-* This will appear publicly under About > Editorial Team.
+* Insira esta informação em Configurações do periódico >  Equipe Editorial > Equipe Editorial. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
+* Isto aparecerá publicamente em Sobre > Equipe Editorial.
 
-**Link to the journal’s Instructions for authors** \[**D**\]
+**28) Quais identificadores de artigos o periódico utiliza?** [ **S** ]
 
-* Enter this information in Journal Settings > Workflow > Submission > Author Guidelines. See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
-* Information entered in Author Guidelines and Submission Preparation Checklist will appear publicly on the About > Submissions page.
+* Insira esta informação em Configurações do periódico > Fluxo de trabalho> Submissão > Diretrizes para Autores. Consulte o [Capítulo 7: Configurações do fluxo de trabalho](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) .
+* As informações inseridas nas Diretrizes para Autores e Lista de Verificação de Preparação de Submissões estarão públicas na página Sobre > Submissões.
 
-**Average number of weeks between article submission & publication**
+**43) Quantas semanas em média entre a submissão e a publicação?**
 
-* You should include a number here for the average number of weeks taken by your journal from submission of the paper to online publication.
+* Responda "sim" a menos que você tenha configurado seu site para não ser encontrado (o que é muito incomum).
 
-### Business Model
+### Direitos Autorais e Permissões
 
 #### Publication Fees
 
-**Does the journal charge fees for publishing an article (APCs)?** \[**D**\]
+**29) O periódico fornece ou pretende fornecer metadados em nível de artigo para o DOAJ?** [ **S** ]
 
-* Select "Yes" or "No".
+* Selecione "Sim" ou "Não".
 * If "Yes", please select the currency and amount for the highest fee charged by the journal in the fields that appear when "Yes" is selected.
-* Enter this information in two places:
-  * Settings > Website> Information > For Authors. See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information).
-  * Settings > Workflow > Submission > Submission Preparation Checklist. See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
+* Insira esta informação em dois locais:
+  * Configurações> Site> Informações> Para autores. Consulte o [Capítulo 6: Configuração do site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) .
+  * Configurações> Fluxo de trabalho> Envio> Lista de verificação de preparação de submissão. Consulte o [Capítulo 7: Configurações do fluxo de trabalho](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) .
 
-**Where can we find this information?** \[**D**\]
+**38) Digite a URL onde esta informação pode ser encontrada.** [ **D** ]
 
-* Article processing charges will appear on the About/Submissions page on your site and on the Information/Authors page on your site. DOAJ requires that you include information about charges even if they are zero.
+* As taxas de processamento do artigo aparecerão na página Sobre / Submissões e na página Informações / Autores em seu site. O DOAJ exige que você inclua informações sobre taxas, mesmo que sejam gratuitas.
 
 #### Publication Fee Waivers
 
-**Does the journal provide a waiver or discount on publication fees for authors?**
+**32) Volume completo, do primeiro ano, publicado online com texto completo em acesso aberto**
 
-* Select "Yes" or "No". Answer "No" if you have also answered No to Publication Fees.
-* Enter this information in two places:
-  * Settings > Website> Information > For Authors. See See [Chapter 6: Website Setting](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information).
-  * Settings > Workflow > Submission > Submission Preparation Checklist. See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
-* If "Yes", please enter the URL where the waiver policy can be found in the box that appears when "Yes" is selected. The waiver policy will appear on the About/Submissions page on your site and on the Information/Authors page on your site.
+* Selecione "Sim" ou "Não". Answer "No" if you have also answered No to Publication Fees.
+* Insira esta informação em dois locais:
+  * Configurações > Site > Informações > Para autores. Consulte o [Capítulo 6: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) .
+  * Configurações> Fluxo de trabalho> Envio> Lista de verificação de preparação de submissão. Consulte o [Capítulo 7: Configurações do fluxo de trabalho](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) .
+* If "Yes", please enter the URL where the waiver policy can be found in the box that appears when "Yes" is selected. A política de isenção aparecerá na página Sobre / Envios e na página Informações / Autores em seu site.
 
-#### Other Fees
+#### Outros
 
-**Does the journal charge any other fees to authors?**
+**33) Por favor, indique quais formatos de texto completo estão disponíveis**
 
-* Select "Yes" or "No".
-* If "Yes", please enter the URL where information on additional fees can be found in the box that appears when "Yes" is selected.
+* Insira uma URL para um artigo com estatísticas de uso exibidas aqui.
+* 31) Caso a sua resposta para a pergunta 30 seja “Sim”, informe a URL em que esta informação pode ser encontrada.
 
 ### Best Practices
 
-DOAJ recommends adoption of the following best practices, but these are not required for inclusion in DOAJ.
+**34) Adicione as palavras-chave que melhor descrevem o periódico** (delimitado por vírgulas)
 
 #### Archiving policy
 
-**Long-term preservation service(s) where the journal is currently archived?** \[**S**\]
+**25) Qual política de arquivamento digital o periódico utiliza?** [ **S** ]
 
-* Select all that apply from the following:
+* Selecione todas as opções aplicáveis:
   * CINES
   * CLOCKSS
   * LOCKSS
   * Internet Archive
-  * PKP PN
+  * ePUB
   * PubMed Central (PMC)
   * Portico
-  * A national library
-  * Other
+  * Uma biblioteca nacional
+  * Outros
   * The journal content isn’t archived with a long-term preservation service
 
-* Institutional archives and publishers' own online archives are not valid.
-* If you are a member of LOCKSS or CLOCKSS, enable this here in Settings > Website > Archiving. See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving).
-* The PKP PN is available as part of OJS. Please read the [PKP Preservation Network Guide](https://docs.pkp.sfu.ca/pkp-pn/) for more information.
-* If any service(s) are selected, you will be prompted to enter the URL with information on your preservation policy. If you are archiving your content in a LOCKSS network, this will not automatically be displayed on your OJS site. You can add your archiving policy to the About page or another page and link to it here.
+* Arquivos online institucionais e dos próprios editores não são válidos.
+* Se você é membro do LOCKSS ou CLOCKSS, habilite-o aqui em Configurações> Site> Arquivamento. Consulte o [Capítulo 6: Configurações do site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving).
+* The PKP PN is available as part of OJS. Para maiores informações, consulte o [manual Crossref OJS](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
+* If any service(s) are selected, you will be prompted to enter the URL with information on your preservation policy. Se o seu conteúdo estiver sendo arquivado em uma rede LOCKSS, isto não será exibido automaticamente em seu site OJS. Você pode adicionar sua política de arquivamento à página Sobre ou a outra página e criar um link para ela aqui.
 
 #### Repository policy
 
 **Does the journal have a policy allowing authors to deposit versions of their work in an institutional or other repository of their choice? Where is this policy recorded?** \[**S**\]
 
-* Select all that apply from the following:
-  * Sherpa/Romeo
+* Selecione todos os formatos aplicados
+  * PDF
   * Dulcinea
   * Héloïse
   * Diadorim
-  * Other
-  * The journal has no repository policy
+  * Outros
+  * Nenhuma política em vigor
 
-* In OJS, enter the journal’s Author Self-Archiving Policy in: Settings > Distribution > Permissions.
-* If any repository policy is selected, please enter the URL where the information can be found in the box that appears.
+* Arquivos de texto completo para artigos são transferidos durante o estágio de produção de submissão e são exibidos nas páginas de artigos e no sumário do seu site.
+* 24) Em caso afirmativo, insira a URL onde esta informação pode ser encontrada.
 
 #### Unique identifiers & structured data
 
-**Persistent article identifiers used by the journal** \[**S**\]
+**37) Por favor, selecione o processo de avaliação do artigo.** [ **D** ]
 
-* Select from the following:
-  * DOIs
+* Selecione todas as opções aplicáveis:
+  * DOI
   * ARKs
   * Handles
   * PURLs
-  * Other
+  * Outro
   * The journal does not use persistent article identifiers
 
-* OJS can generate DOIs as part of the metadata and allows deposit of those DOIs directly to CrossRef (you **must** be a member of CrossRef to register DOIs). Go to Tools > Import/Export > CrossRef XML Export Plugin. See [the Crossref OJS Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) for more details.
+* OJS pode gerar DOIs como parte dos metadados e permitir o depósito desses DOIs diretamente no CrossRef (você **tem** ser membro do CrossRef para registrar os DOIs). Clique em Ferramentas> Importar / Exportar> Plug-in de Exportação CrossRef XML. Para maiores detalhes, leia [o manual Crossref OJS](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
 
 **Does the journal allow for ORCID iDs to be present in article metadata?**
 
-* Select "Yes" or "No". See [https://orcid.org](https://orcid.org) for more information.
+* Selecione "Sim" ou "Não". See [https://orcid.org](https://orcid.org) for more information.
 
 **Does the journal comply with I4OC standards for open citations?**
 
-* Select "Yes" or "No". See https://i4oc.org for more information.
+* Selecione "Sim" ou "Não". See https://i4oc.org for more information.
 
 <hr />
 
-\[**D**\] This is a basic requirement for entry into DOAJ
+**11) Confirme o endereço de e-mail do contato** [ **D** ]
 
-\[**S**\] This is a DOAJ Seal requirement
+**48) Qual dos seguintes conteúdos é necessário?** (Caso tenha sido selecionado  'Outro' no número 47)
 
-## DOAJ SEAL
+## SELO DOAJ
 
-For journals following best practice in OA publishing. [Read more about the DOAJ Seal](https://doaj.org/apply/seal/)
+Para periódicos que seguem as melhores práticas de publicação em Acesso Aberto. [(O que é DOAJ?)](https://doaj.org/faq#whatis)
 
-During the application process, you can be awarded the DOAJ SEAL if these 7 criteria are all met. __A journal can be indexed in the DOAJ without meeting the DOAJ seal requirements.__
+Durante o processo de candidatura, você pode receber o Selo DOAJ se estes 7 critérios forem atendidos. **Um periódico pode ser indexado no DOAJ sem atender aos requisitos de selo do DOAJ.**
 
 ### 1. Digital preservation
 
-This demonstrates that the journal ensures the long-term availability and preservation of published content for the future. The DOAJ will accept preservation service providers registered in the [Keepers Registry](https://keepers.issn.org/keepers) (e.g., LOCKSS/CLOCKSS. Portico, British Library, etc.), Internet Archive, and/or PubMed Central. Please note that institutional servers and repositories do not qualify as long term archival preservation.
+O Selo DOAJ busca verificar como o periódico pode garantir a disponibilidade a longo prazo e a preservação do conteúdo publicado futuramente. O DOAJ aceitará alguns fornecedores de serviços de preservação (por exemplo, LOCKSS / CLOCKSS. Portico, PubMed Central), bem como algumas bibliotecas nacionais (por exemplo, Biblioteca Britânica, Biblioteca do Congresso). Lembre-se que servidores e repositórios institucionais não se qualificam como preservação arquivística de longo prazo.
 
-If you are a member of LOCKSS or CLOCKSS, enable this here: Settings > Website > Archiving
+Se você é um membro do LOCKSS ou CLOCKSS, habilite-o aqui: Configurações > Site > Arquivamento
 
-See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving) for more details.
+**47) O periódico permite a reutilização e a recombinação de conteúdo conforme uma licença Creative Commons ou outro tipo de licença com condições semelhantes (selecione 'Outro')?** [**D**] [**S**]
 
 ### 2. Persistent article identifiers
 
-These ensure articles may continue to be found even when URLs change. The most common form of persistent identifier is the Digital Object Identifier [DOI](https://dx.doi.org/), but there may be others in use for a journal.
+Certifique-se de que os artigos possam ser encontrados mesmo se  as URLs forem alteradas. A forma mais comum de identificador permanente é o Digital Object Identifier [DOI](https://dx.doi.org/) , mas pode-se usar outros para periódicos.
 
-OJS can generate DOIs as part of the metadata and allows deposit of those DOIs directly to CrossRef (you must be a member of CrossRef to register DOIs):
+**49) Insira a URL em seu site onde seus termos de licença são declarados** [ **D** ]
 
-Tools > Import/Export > CrossRef XML Export Plugin
+**50)  O periódico permite aos leitores ler, baixar, copiar, distribuir, imprimir, pesquisar ou vincular os artigos na íntegra e permite que os leitores os utilizem para qualquer outro propóstio legal?** (Da [Budapest Open Access Initiative's definition of Open Access](http://www.budapestopenaccessinitiative.org/read).) [**D**]
 
-See the [Crossref OJS Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) for more details.
+**51) Com qual diretório de políticas de depósito o periódico tem uma política de depósito registrada?** [ **S** ]
 
 ### 3. Metadata supply to DOAJ
 
-Provide greater visibility and discoverability of journal content by providing article-level metadata and links to the full text. Metadata must be provided to the DOAJ within 3 months via article-level xml file uploaded to the DOAJ interface or by the DOAJ API.
+Proporcione maior visibilidade e possibilidade de descoberta do conteúdo do periódico, fornecendo metadados no nível do artigo e links para o texto na íntegra. Os metadados devem ser fornecidos ao DOAJ dentro de 3 meses por meio do arquivo xml em nível de artigo ou pela DOAJ API .
 
-You can use the OJS DOAJ Import/Export Plugin at Tools > Import/Export > DOAJ Export Plugin.
+Você pode usar o Plug-in de Importação / Exportação OJS DOAJ em Ferramentas > Importar / Exportar > Plug-in de Exportação DOAJ.
 
-See [PKP Administrator Guide](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export) for more details.
+**54) O periódico permitirá que o(s) autor(es) mantenha(m) os direitos de publicação sem restrições?** [ **S** ]
 
 ### 4. License type
 
-To allow for generous reuse and remixing of the content. The DOAJ Seal allows for 4 of the Creative Commons licenses: CC-BY, CC-BY-SA, CC-BY-NC, CC-BY-NC-SA. The DOAJ Seal does not consider any of the Creative Commons licenses that restrict remixing or the creation of derivative products of the published content (e.g. CC-BY-ND, CC-BY-NC-ND).
+Para permitir a reutilização e recombinação generosa do conteúdo. O Selo DOAJ permite 4 das licenças Creative Commons: CC-BY, CC-BY-SA, CC-BY-NC, CC-BY-NC-SA. O Selo DOAJ não considera quaisquer licenças Creative Commons que restrinjam a recombinação ou a criação de produtos derivados do conteúdo publicado (por exemplo, CC-BY-ND, CC-BY-NC-ND).
 
-In OJS, when selecting the license to be embedded with the article metadata and displayed on its webpage, be certain to select one of the following license types: CC Attribution, CC Attribution-ShareAlike, or CC Attribution-Noncommercial.
+No OJS, ao selecionar a licença a ser incorporada aos metadados do artigo e exibida em seu site, certifique-se de selecionar um dos seguintes tipos de licença: CC Atribuição , CC Atribuição-CompartilhaIgual ou CC Atribuição-NãoComercial.
 
-In OJS select the Creative Commons license you will use in Settings > Distribution > Permissions
+[ **D** ] Este é um requisito básico para i ingresso no DOAJ
 
 ### 5. License information in articles
 
-To ensure readers (users) know and understand what they are permitted to do with the content, license information must be embedded into each published article, in all its outputs - e.g. on the HTML article webpage, in the XML/metadata and PDF version.
+[ **S** ] Este é um requisito do selo DOAJ
 
-OJS offers the Creative Commons license options that are acceptable for the DOAJ seal: CC BY, CC BY-SA, CC BY-NC, or CC BY-NC-SA. This license will be embedded in the metadata of published items and displayed on the item’s webpage. Select the Creative Commons license you will use in Settings > Distribution > Permissions
+***** OJS oferece as opções de licença Creative Commons que são aceitas pelo selo DOAJ: CC BY, CC BY-SA, CC BY-NC ou CC BY-NC-SA. Esta licença será incorporada nos metadados dos itens publicados e exibida no site. Selecione a licença Creative Commons que será utilizada em Configurações > Distribuição > Permissões
 
-See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) for more details.
+Para maiores informações, consulte o [Capítulo 8: Configurações de distribuição](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
 
 ### 6. Copyright and publishing rights
 
-The DOAJ Seal expects journals to allow copyright to be retained by the author and not be transferred to the journal or publisher. The journal and publisher must not obtain exclusive publishing rights to the content. DOAJ Best Practice recommends the terms of any license agreement should be made freely available to clarify author rights and what, if anything, authors are required to sign when submitting to the journal.
+O Selo DOAJ requer que os periódicos permitam que os direitos autorais sejam preservados pelo autor e não sejam transferidos para o periódico ou o editor. O periódico e o editor também não devem conservados os direitos exclusivos de publicação do conteúdo, mas sim o autor. É recomendado, pelas melhores práticas do DOAJ, que os termos de qualquer contrato de licença sejam disponibilizados gratuitamente para esclarecer os direitos do autor e, se houver, o que os autores devem assinar ao submeter contribuições ao periódico.
 
-In OJS you can select the designated copyright holder for the article metadata as the Author, Journal, or Other. To select the Author as the designated copyright holder, go to Settings > Distribution > Permissions.
+No OJS, você pode selecionar o detentor dos direitos autorais designados para os metadados do artigo como autor, periódico ou outro. Para selecionar o autor como o detentor dos direitos autorais designado, clique em: Configurações > Distribuição > Permissões
 
 ### 7. Self-archiving policy
 
-Provide information on authors' self-archiving rights, which should cover their rights to self-archive preprint, accepted, final publisher versions of the article, usually in places like their own website or institutional repository. For the Seal, authors must be permitted to deposit all versions of their paper in an institutional or subject repository and no embargo can be applied. DOAJ prefers a policy to be listed on services like [SHERPA/RoMEO](https://v2.sherpa.ac.uk/romeo/).
+Fornece informações sobre os direitos de autoarquivamento dos autores em uma declaração esclarecendo aos autores quais são seus direitos para autoarquivamento, que deve abranger seus direitos de autoarquivo preprint, versões aceitas e finais do artigo do editor, geralmente em locais como seu próprio site ou repositório institucional. For the Seal, authors must be permitted to deposit all versions of their paper in an institutional or subject repository and no embargo can be applied. O DOAJ exige que uma política seja listada para um periódico e verifica qual política está listada para o periódico em serviços como [SHERPA / RoMEO](https://v2.sherpa.ac.uk/romeo/).
 
-In OJS enter the journal’s Author Self-Archiving Policy in Settings > Distribution > Permissions
+Para maiores informações, consulte o [Capítulo 6: Configurações do site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving).
 
-## Upgrading from OJS 2 to 3
+## Atualizando o OJS 2 para OJS 3
 
-If you have upgraded from OJS 2 to OJS 3 after your DOAJ application was accepted, you will need to do the following:
+Se o OJS 2 foi atualizado para o OJS 3 após o aceite no DOAJ, será necessário fazer o seguinte:
 
-* Check that the journal information required in the application is still present on your journal website and in the same places. Information about the journal is included on different pages in OJS 2 and OJS 3.
-* Submit an update request to DOAJ where page URLs have changed (e.g. About, Contact, etc.).
-* If you send article metadata to DOAJ, check that [the DOAJ export plugin](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export) is enabled and the API key is entered.
+* Verifique se as informações exigidas do periódico na candidatura ainda estão presentes no site do seu periódico e nos mesmos locais. As informações sobre o periódico estão incluídas em diferentes páginas no OJS 2 e no OJS 3.
+* Envie uma solicitação de atualização para DOAJ em que as URLs da página foram alteradas (por exemplo, Sobre, Contato, etc.).
+* Você pode querer criar uma seção especial na página Sobre o Periódico para descrever o processo de avaliação.
