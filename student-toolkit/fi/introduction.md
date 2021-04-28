@@ -1,4 +1,4 @@
-# Introduction
+# Luku 1: Esittely
 
 So you’re thinking about creating a student journal or maybe joining the editorial board for one. But you have questions, such as how does peer review work? What do I need to know about copyright? Or you need some guidance on getting started.
 
