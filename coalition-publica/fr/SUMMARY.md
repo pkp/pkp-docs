@@ -1,6 +1,6 @@
-# Table of contents
+# Table des matières
 
-* [Coalition Publica OJS Integration Guide](.)
-* [Requirements](./requirements.md)
-* [Using JATS with OJS](./using-jats.md)
-* [Subsriptions and Non-Publishing Use of OJS](./subscriptions.md)
+* [Coalition Publica guide d'intégration d'application OJS](.)
+* [Requis techniques](./requirements.md)
+* [Utiliser JATS avec OJS](./using-jats.md)
+* [Abonnements et utilisation d’OJS sans publication](./subscriptions.md)
