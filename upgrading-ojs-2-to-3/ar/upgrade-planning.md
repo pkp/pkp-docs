@@ -63,7 +63,7 @@ Before proceeding with your upgrade it is strongly advised that you do an invent
 During the upgrade the following items will automatically be moved from OJS 2 to OJS 3:
 
 * Submissions
-* Users
+* المدفوعات
 * Roles/Permission setting
 * Announcements
 * Sections
@@ -75,7 +75,7 @@ Items that will need to be re-created once you’ve upgraded to OJS 3 include th
 * Journal Information - Masthead, Editorial Team, Permissions, etc.
 * Customizations - CSS, images, color codes
 * Journal setup settings and textual information
-* Plugins
+* إعدادات المخطط الانسيابي
 * Pages/ Menus
 * Links
 * Files
