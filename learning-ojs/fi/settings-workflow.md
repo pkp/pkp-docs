@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.3
 ---
 
-# Workflow Settings
+# Luku 6: Numerot
 
 The Workflow Settings allow you to configure various parts of the journal's editorial workflow. The workflow setting has 5 main tabs.
 
