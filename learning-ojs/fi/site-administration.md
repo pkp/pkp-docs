@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.3
 ---
 
-# Site Administration
+# Luku 3: Käyttäjätilit
 
 As part of installing OJS, you will have created a Site Administrator user account. When you log into OJS with that account you will have access to Site Administrator settings from the Dashboard.
 
@@ -11,7 +11,7 @@ You will be able to create new hosted journal instances, manage language support
 
 More technical information about administering an OJS site, including upgrades, email, statistics, and importing and exporting, is available in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/).
 
-## Site Management
+## Rekisteröityminen
 
 To get to Site Management, login as the Site Administrator, and choose Administration from the left menu.
 
@@ -115,7 +115,7 @@ Once you've created a journal and configured the site settings, you may want to 
 
 <hr />
 
-## Administrative Functions
+## Käyttäjäprofiilin muokkaus
 
 This section provides detailed information about the server on which your OJS installation is running.
 
