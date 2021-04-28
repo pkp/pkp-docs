@@ -1,6 +1,6 @@
-# Summary
+# الملخص
 
-* [Introduction](.)
+* [مقدمة](.)
 * [Alternative Uses of OJS](./alternative-uses.md)
 * [Journal Information](./journal-information.md)
 * [Open Access Policies](./oa-policies.md)
