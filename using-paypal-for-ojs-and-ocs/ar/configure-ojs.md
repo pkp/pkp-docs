@@ -1,6 +1,6 @@
-# Test PayPal plugin in OJS
+# تهيئة نظام المجلات المفتوحة
 
-Now that you have setup your PayPal account, you will need to activate your payment methods in OJS.
+الآن وقد أنشأت حسابك في PayPal، عليك تفعيل طريق الدفع لديك في نظام المجلات المفتوحة.
 
 ## OJS 3.x
 
@@ -14,11 +14,11 @@ Enter your credentials under the Paypal Payment Settings. Check the box for Test
 
 ![The Payments tab under Distribution Settings in OJS, with "Paypal Fee Payment" selected under payment method.](assets/Paypal-ojs3-2.png)
 
-For more information about payments in OJS 3 [see the Learning OJS 3 guide](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#payments).
+عندما يعمد القراء إلى النقر على رابط الهبات، سيذهب بهم الموقع إلى صفحة رسوم الدفع عبر PayPal:
 
 ## OJS 2.x
 
-Login as the Journal Manager, and select Payments. Under General Options, choose your currency:
+Login as the Journal Manager, and select Payments. ضمن الخيارات العامة، إختر العملة:
 
 ## Enable the PayPal plugin
 Go to Website Settings > Plugins > Installed Plugins and find the PayPal Fee Payment plugin. Check the box next to the plugin to enable it. If you also plan to collect manual fees you can enable the Manual Fee Payment plugin as well.
@@ -37,7 +37,7 @@ On OJS set up a test transaction that you can use to test whether payments are b
 
 ![An email notification to make Paypal payment](./assets/Paypal-14.png)
 
-Using one of the fake PayPal accounts, make test payments to the site. The successful payment will then appear on sandbox of your main PayPal Account Overview:
+Using one of the fake PayPal accounts, make test payments to the site. سجل الدفع سيظهر لك عند معاينة مدفوعات حسابك في PayPal:
 
 ![The PayPal sandbox activity page.](./assets/Paypal-13.png)
 
