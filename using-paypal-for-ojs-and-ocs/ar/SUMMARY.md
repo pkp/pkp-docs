@@ -1,7 +1,7 @@
-# Summary
+# الملخص
 
-* [Introduction](.)
-* [Set up PayPal accounts](setup-paypal-accounts.md)
-* [Test the PayPal plugin in OJS](configure-ojs.md)
-* [Use Your Real PayPal Account](your-real-paypal-account.md)
-* [Manage PayPal Payments](view-payments-made.md)
+* [مقدمة](.)
+* [إنشاء حساب تجريبي من Paypal](setup-paypal-accounts.md)
+* [تهيئة حساب دفع قياسي عبر موقع PayPal](configure-ojs.md)
+* [تهيئة نظام المجلات المفتوحة](your-real-paypal-account.md)
+* [تهيئة نظام المؤتمرات المفتوحة](view-payments-made.md)
