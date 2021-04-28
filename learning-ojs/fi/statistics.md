@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.3
 ---
 
-# Statistics
+# Luku 9: Tilaukset
 
 The statistics features of OJS allow you to view different numbers pertaining to the activity, access, and downloads of various aspects of your site, including article and abstract views, subscription activity, editorial and review activity, and user counts separate by role. There is also a Report Generator section for producing various reports from some of the available data.
 
