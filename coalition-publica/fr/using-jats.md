@@ -1,87 +1,87 @@
-# Using JATS with OJS
+# Utiliser JATS avec OJS
 
-Érudit collects metadata from your OJS installation in ​[JATS](https://jats.nlm.nih.gov/)​ XML. JATS is commonly used to publish or index journal articles. However, creating and using JATS effectively can be complex. There are several different ways to work with JATS using OJS.
+Érudit utilise le format XML standardisé ​[JATS](https://jats.nlm.nih.gov/)​ pour récupérer les articles de votre instance OJS. L’utilisation de JATS est répandue pour la publication et l’indexation d’articles de revue. Toutefois, la création et l’utilisation de JATS peut s’avérer complexe. Il y a plusieurs façons de travailler avec JATS dans le contexte d’OJS.
 
-This document assumes you are not already producing JATS XML for other reasons (e.g. indexing or presentation). If you already have JATS XML for your article content, please contact us.
+La présente documentation part du principe que vous ne produisez pas déjà de XML JATS dans d’autres contextes (par exemple, à des fins d’indexation ou d’affichage). Si au contraire vous avez déjà vos articles au format XML JATS, svp contactez-nous.
 
-You can configure OJS to automatically generate simple JATS documents for inclusion in Érudit. In order to do this you will need to install and enable two plugins. The process will involve these steps:
+Vous pouvez configurer OJS afin qu’il génère automatiquement des fichiers JATS simples permettant la diffusion sur Érudit. Il s’agit d’installer et activer deux ​*plugins*​. Voici les étapes à suivre :
 
-## Step 1. Install the JATS Template Plugin
+## Étape 1. Installer JATS Template Plugin
 
-Log into your OJS installation using your Site Administrator account.
+Connectez-vous à votre instance OJS avec les paramètres de connexion de votre compte Administrateur.
 
-Navigate to Settings > Website > Plugins.
+Allez dans Paramètres > Site Web > Modules externes
 
-Click on “Plugin Gallery”.
+Cliquez sur “Galerie de plugiciels”.
 
-This will show a list of available plugins for installation. Find “JATS Template Plugin”:
+Une liste des ​*plugins*​ disponibles pour installation sera affichée. Recherchez “JATS Template Plugin”:
 
 ![](./assets/jatsTemplatePlugin.png)
 
-Click on “JATS Template Plugin” to see more information about the plugin:
+Cliquez sur “JATS Template Plugin” pour afficher plus d’informations sur ce ​*plugin​*:
 
 ![](./assets/jatsTemplatePluginInfo.png)
 
-(Your version of the plugin may not be the same as the version indicated above. It’s always a good idea to use the latest available version of the plugin in the Plugin Gallery.)
+(Votre version du ​*plugin*​ pourrait être différente de celle indiqué ci-haut. Nous recommandons de toujours utiliser la dernière version du ​*plugin*​ disponible dans la Galerie de plugiciels.)
 
-Click the “Install” button to install the plugin. (If you do not see the “Install” button, make sure you are logged in as a Site Administrator.) Confirm that you wish to install the plugin.
+Cliquez sur le bouton “Installer” afin d’installer le *​plugin*​. (Si vous ne voyez pas le bouton “Installer”, assurez-vous d’être connecté en tant qu’Administrateur.) Confirmez que vous souhaitez bien installer le ​*plugin*.​
 
-You should see a confirmation of installation:
+Vous devriez voir une notification confirmant l’installation:
 
 ![](./assets/jatsTemplatePluginNotification.png)
 
 
-This will install the latest available version of the plugin. (When new versions of this plugin are released, you will be able to update them here. Again, the version number you see may not be the same as the screenshot above.)
+La dernière version disponible du ​*plugin*​ sera installée. (Lorsque de nouvelles versions du *plugin*​ seront disponibles, vous pourrez les mettre à jour de la même façon. Encore une fois, le numéro de version affiché pourrait différer de celle de la copie d’écran ci-haut.)
 
-In order to provide JATS content to Érudit, you must be running **JATS Template Plugin 1.0.1.0 or newer**​.
+Afin de fournir à Érudit des contenus au format JATS, vous devez avoir la version **JATS Template Plugin 1.0.1.0 ou plus récente​**.
 
-## Step 2. Install the OAI JATS Plugin
+## Étape 2. Installer OAI JATS Plugin
 
-Log into your OJS installation using your Site Administrator account.
+Connectez-vous à votre instance OJS avec les paramètres de connexion de votre compte Administrateur.
 
-Navigate to Settings > Website > Plugins.
+Allez dans Paramètres > Site Web > Modules externes.
 
-Click on “Plugin Gallery”.
+Une liste des ​*plugins*​ disponibles pour installation sera affichée.
 
-This will show a list of available plugins for installation. Find “OAI JATS Plugin”:
+This will show a list of available plugins for installation. Rechechez “OAI JATS Plugin”:
 
 ![](./assets/oaiJatsPlugin.png)
 
-Click on “OAI JATS Plugin” to see more information about the plugin:
+Cliquez sur “OAI JATS Plugin” pour afficher plus d’informations sur ce ​*plugin​*:
 
 ![](./assets/oaiJatsPluginInfo.png)
 
-(Your version of the plugin may not be the same as the version indicated above. It’s always a good idea to use the latest available version of the plugin in the Plugin Gallery.)
+(Votre version du ​*plugin*​ pourrait être différente de celle indiqué ci-haut. Nous recommandons de toujours utiliser la dernière version du ​*plugin​* disponible dans la Galerie de plugiciels.)
 
-Click the “Install” button to install the plugin. (If you do not see the “Install” button, make sure you are logged in as a Site Administrator.) Confirm that you wish to install the plugin.
+Cliquez sur le bouton “Installer” afin d’installer le ​*plugin*​. (Si vous ne voyez pas le bouton “Installer”, assurez-vous d’être connecté en tant qu’Administrateur.) Confirmez que vous souhaitez bien installer le ​*plugin​*.
 
-You should see a confirmation of installation:
+Vous devriez voir ce message confirmant l’installation:
 
 ![](./assets/oaiJatsPluginNotification.png)
 
-This will install the latest available version of the plugin. (When new versions are released, you will be able to upgrade here. Again, the version number you see may not be the same as the screenshot above.)
+La dernière version disponible du ​*plugin*​ sera installée. (Lorsque de nouvelles versions du *plugin*​ seront disponibles, vous pourrez les mettre à jour de la même façon. Encore une fois, le numéro de version affiché pourrait différer de celle de la copie d’écran ci-haut.)
 
-In order to provide JATS content to Érudit, you must be running **OAI JATS Plugin 1.0.1.0 or newer**.
+Afin de fournir à Érudit des contenus au format JATS, vous devez avoir la version **OAI JATS Plugin 1.0.1.0 ou plus récente​**.
 
-## Step 3. Enable the Plugins
+## Étape 3. Activer les plugins
 
-Now that you have installed both the JATS Template Plugin and OAI JATS Plugin, you will need to enable them.
+Un coup les *​plugins*​ JATS Template Plugin et OAI JATS Plugin installés, vous devez les activer.
 
-**This will need to be done once *for each journal* you wish to include in Érudit.**
+**Il faut activer les ​*plugins*​ une fois ​*pour chaque revue*​ que vous souhaitez inclure à Érudit.**
 
-Navigate to Settings > Website > Plugins.
+Allez dans Paramètres > Site Web > Modules externes.
 
-Click on “Installed Plugins”.
+Cliquez sur “Plugiciels installés”.
 
-Look in the plugin list for “JATS Template Plugin”:
+Cherchez “JATS Template Plugin” dans la liste des ​*plugins*:​
 
 ![](./assets/jatsTemplatePluginListing.png)
 
-Click the checkbox on the right to enable the plugin. You should receive a confirmation:
+Cochez aussi la case à droite pour l’activer. Vous devriez voir ce message de confirmation:
 
 ![](./assets/jatsTemplatePluginListingNotification.png)
 
-Now find the “JATS Metadata Format”:
+Cherchez ensuite “JATS Metadata Format”:
 
 ![](./assets/jatsMetadataFormatPluginListing.png)
 
@@ -89,50 +89,50 @@ Click the checkbox beside that to enable it as well. You should receive a confir
 
 ![](./assets/jatsMetadataFormatPluginListingNotification.png)
 
-Don’t forget to repeat these steps for any other journals you wish to include in Érudit.
+Répétez ces étapes pour chaque revue que vous souhaitez inclure à Érudit.
 
-## Step 4. Review your Journal Settings
+## Étape 4. Réviser les paramètres de revue
 
-There are several journal settings that should be properly configured in order for the data to be collected by Érudit. For each journal that you wish to include, make sure that:
+Plusieurs paramètres de revue doivent être correctement configurés afin de permettre la récupération des données par Érudit. Pour chaque revue que vous souhaitez inclure, assurez-vous que:
 
-* For each of your journal’s sections, the “Identify items published in this section as a(n)...” field is set to one of the [suggested JATS article-type values](https://jats.nlm.nih.gov/archiving/tag-library/1.1/attribute/article-type.html).
-* Your journal settings are complete, e.g.:
-    * An ISSN has been specified
-    * The journal title is the same as you have registered at [issn.org](https://www.issn.org)
-    * A publisher is specified in Settings > Journal > Masthead
-    * Copyright
-        * Make sure that the copyright holder of the articles (author, journal or other) is properly identified in Settings > Distribution > Permissions.
-        * Make sure, when you schedule an article for publication, to attach the permissions to it (copyright holder and copyright year).
+* Pour chacune des rubriques de la revue, le champ “Identifier les articles publiés dans cette rubrique en tant que un(e)” utilise une des ​[valeurs suggérées pour le JATS article-type](https://jats.nlm.nih.gov/archiving/tag-library/1.1/attribute/article-type.html)​.
+* Les paramètres de revue sont complets, ex.:
+    * Un ISSN est spécifié
+    * Le titre de la revue est le même que celui enregistré à ​[issn.org](https://www.issn.org/)
+    * Un éditeur est spécifié dans Paramètres > Revue > Bloc générique
+    * Droit d’auteur
+        * Assurez-vous que le titulaire du droit d’auteur des articles (“Auteur”, “Revue” ou “Autre”) soit adéquatement identifié dans Paramètres > Distribution > Autorisations.
+        * Assurez-vous, lorsque vous établissez le “Calendrier de publication” d’un article, d’y associer les autorisations (titulaire du droit d’auteur et année du droit d’auteur)
 
-## Step 5. Rebuild Your Search Index
+## Étape 5. Activer l’indexation des PDF
 
-This step may require the help of your system administrator, as it requires access to a file on the server on which OJS is installed.
-* Ensure that OJS knows about your server’s text extraction tools: check your `config.inc.php` file in the `[search]` section to make sure your server’s locations for these tools are specified.
-* If you had to modify your `config.inc.php` file to enable PDF indexing, you will also have to rebuild your search index. You can do this by running the following command on your server, in the OJS web root:
+Cette étape peut requérir l'aide de votre administrateur système puisqu'elle requiert l’accès à un fichier sur le serveur où votre instance OJS est installée.
+* Assurez-vous que votre instance OJS connaisse l’emplacement de vos outils d’extraction de texte sur vos serveurs : vérifiez la section ​`[search]`​ de votre fichier ​`config.inc.php`​ pour vous assurer que les emplacements serveur de ces outils sont spécifiés.
+* Si vous avez dû modifier votre fichier ​`config.inc.php`​ pour activer l’indexation PDF, vous devrez également reconstruire votre index de recherche. Vous pouvez le faire en exécutant la commande suivante sur votre serveur, dans la racine Web OJS:
 
 `php tools/rebuildSearchIndex.php`
 
-NOTE: This step is required only if you have recently enabled PDF indexing.
+REMARQUE: cette étape n’est requise que si vous avez récemment activé l’indexation PDF.
 
-* You can check that the index has been successfully rebuilt by searching for text that only appears in a PDF (ie. not in other submission metadata stored by OJS, such as title or abstract fields).
+* Vous pouvez vérifier que l’index a été correctement reconstruit en recherchant du texte qui n’apparaît que dans un PDF (c’est-à-dire pas dans d’autres métadonnées de soumission stockées par OJS, telles que des champs de titre ou de résumé).
 
-In addition to configuring your OJS for Coalition Publica, this step will also help OJS to index PDF documents for its own search indexing.
+En plus de configurer votre OJS pour Coalition Publica, cela permettra à OJS d’indexer les documents PDF pour son propre moteur de recherche.
 
-## Step 6. Check your Distribution Settings
+## Étape 6. Vérifier les paramètres de distribution
 
-Under Settings > Distribution > Access, you will see a series of settings:
+Sous Paramètres > Distribution > Accès, vous verrez un ensemble de paramètres:
 
 ![](./assets/journalSettings.png)
 
-Whichever of the first 3 access settings you choose for your journal, ensure that “Enable OAI access to content” is checked. Save the settings.
+Quel que soit votre choix pour votre revue parmi les 3 premiers paramètres d’accès, assurez-vous d’avoir coché “​*Enable OAI access to content*​”. Enregistrez les paramètres.
 
-If your access settings are configured
+Si vos paramètres d’accès sont configurés
 
-* to require subscriptions to access some or all of its contents, or
-* not to use OJS to publish the journal’s content online
+* pour exiger un abonnement pour accéder à une partie ou à l’intégralité de son contenu, ou
+* ne pas utiliser OJS pour publier le contenu de la revue en ligne
 
-... see specific instructions below, in Subscriptions and Non-Publishing Use of OJS section, for inclusion on Érudit.
+... suivre les instructions ci-dessous, à la section ​*Abonnements et utilisation d’OJS sans publication*,​ afin d’inclure ses contenus sur Érudit.
 
-## Step 7. Enable Inclusion
+## Étape 7. Activer l’inclusion
 
-Contact us to confirm that your OJS journal’s data can now be fetched for inclusion in Érudit, as part of Coalition Publica!
+Contactez-nous pour vous assurer que les données de votre revue sont récupérées pour une diffusion sur Érudit dans le cadre de Coalition Publica!
