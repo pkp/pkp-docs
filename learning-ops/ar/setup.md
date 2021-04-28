@@ -9,7 +9,7 @@ version: 3.3
 
 This area is composed of four sections: Masthead, Contact, Sections, and Categories.
 
-### Masthead
+### إدارة الموقع
 
 #### Preprint Server Identity
 
@@ -31,7 +31,7 @@ The **Description** provides an overview of the preprint server and appears on t
 
 Note that the terminology may be different for OPS, with some slight modifications. For example, a Moderator would be the equivalent of a Journal Manager and a Preprint server library is equivalent to the Publisher Library.
 
-### Contact
+### الوظائف الإدارية
 
 #### Principal and Technical Support Contacts
 
@@ -69,7 +69,7 @@ This is what will appear to the author during the submission process:
 
 ![](./assets/learning-ops-server-settings-author-select-category.png)
 
-## Website Settings
+## الفصل 5: الإعدادات
 
 The Website settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on website settings](/learning-ojs/en/settings-website).
 
@@ -81,7 +81,7 @@ Additionally, there is currently only one sidebar block available in the setting
 
 In the “Advanced settings” you can add several customizable options, such as a CSS stylesheet, a favicon, and additional content that will appear on the website. Please refer to the [Designing your Journal guide](/designing-your-journal/en/) for additional guidance on customizing the appearance of your OPS site.
 
-### Plugins
+### إعدادات المخطط الانسيابي
 
 The Plugins tab under Website Settings lists pre-installed plugins under Installed Plugins and additional plugins under Plugin Gallery. See [Learning OJS](/learning-ojs/en/settings-website#installed-plugins) for information about how to install and use plugins. The list below highlights the plugins that are especially useful for OPS.
 
@@ -103,7 +103,7 @@ The Plugins tab under Website Settings lists pre-installed plugins under Install
 
 **Returning Author Plugin**: Typically, all new submissions will be checked by a moderator before being published on the server (see the [Editorial Workflow section of this guide](./editorial-workflow)). The Returning Author Plugin will permit authors who already have at least one published submission to self-publish subsequent submissions, without the need for a moderator to confirm the submission.
 
-## Workflow Settings
+## الفصل 6: الأعداد
 
 The workflow settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on workflow settings](/learning-ojs/en/settings-workflow).
 
@@ -119,17 +119,17 @@ In OPS there is an option to enable standard Keyword Metadata and to additionall
 
 ![](./assets/learning-ops-workflow-settings-keywords.png)
 
-## Distribution Settings
+## الفصل 7: المستخدمون والأدوار
 
 The distribution settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on distribution settings](/learning-ojs/en/settings-distribution). OPS does not have the payment or archiving settings that you will find in OJS. The information provided below is what will be relevant to OPS.
 
-### License
+### المستخدمون
 
 In this section you can configure copyright and licensing terms for your server’s content. Copyright can be retained by authors, assigned to the server, or assigned elsewhere through a custom copyright statement. If you select a Custom copyright statement, a new field will appear for you to specify where or to whom the copyright will be assigned.
 
 ![](./assets/learning-ops-distribution-settings-license.png)
 
-### Search Indexing
+### الأدوار
 
 This section helps you enhance your search engine optimization and make your content more discoverable.
 
