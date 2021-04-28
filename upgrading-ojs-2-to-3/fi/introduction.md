@@ -1,4 +1,4 @@
-# Introduction
+# Luku 1: Esittely
 
 PKP periodically makes new releases of OJS available. Most of these are minor releases and include bug fixes, improvements in functionality, and the addition of new features. Some differences between the previous version and the next minor release are so unobtrusive to the user experience that you may not notice the change; other minor releases will require familiarizing yourself with the changes and perhaps incorporating them into your workflow. However, generally they do not create a major disturbance for the journal.
 
