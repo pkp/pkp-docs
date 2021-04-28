@@ -1,28 +1,28 @@
-# Accessible and inclusive publishing
+# Publicação acessível e inclusiva
 
-Online publishing grants publishers an unprecedented opportunity to reach readers around the globe. Accessible and inclusive publishing principles further ensures that online content is free of barriers for the broadest audience possible, regardless of their age, ability or disability.
+A publicação on-line concede aos editores uma oportunidade sem precedentes de alcançar leitores em todo o mundo. Princípios de publicação acessíveis e inclusivos garantem ainda mais que o conteúdo on-line esteja livre de barreiras para o maior público possível, independentemente de sua idade, habilidade ou deficiência.
 
-The [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG21/quickref/) provide an international set of guidelines that are used as a basis for this guide. Additional [national and international laws and standards](https://webaim.org/articles/laws/world/) exist. Depending on your jurisdiction, accessibility may be a legal obligation for your journal or institution.
+As [Diretrizes de Acessibilidade de Conteúdo da Web (WCAG)](https://www.w3.org/WAI/WCAG21/quickref/) fornecem um conjunto internacional de diretrizes usadas como base para este guia. Existem [leis e padrões nacionais e internacionais](https://webaim.org/articles/laws/world/) adicionais. Dependendo de sua jurisdição, a acessibilidade pode ser uma obrigação legal para seu periódico ou instituição.
 
-## Who benefits from accessible content?
+## Quem se beneficia com conteúdo acessível?
 
-Your audience may include a wide diversity of people and abilities. Some of these abilities can impact how people access and read your journal online. Consider limitations such as visual, auditory, speech, physical, cognitive, neurological, or their combination and how they may affect people perceiving your content.
+Seu público pode incluir uma grande diversidade de pessoas e habilidades. Algumas dessas habilidades podem afetar a forma como as pessoas acessam e leem seu periódico eletrônico. Considere as limitações visuais, auditivas, de fala, físicas, cognitivas, neurológicas ou suas combinações e como elas podem afetar as pessoas que leem seu conteúdo.
 
-Barrier-free content is crucial for people with disabilities, but its benefits extend to the larger audience. For example, providing alternative text for images benefits anyone who does not have access to graphics. Adding captions to a video makes it watchable by those in sound sensitive environments, such as a library or a noisy space.
+Conteúdo sem barreiras é crucial para pessoas com deficiência, mas seus benefícios se estendem a um público maior. Por exemplo, fornecer texto alternativo para imagens beneficia qualquer pessoa que não tenha acesso a gráficos. Adicionar legendas em um vídeo torna-o assistível por pessoas em ambientes sensíveis ao som, como uma biblioteca ou um lugar barulhento.
 
-These principles lie at the core of Universal Design. Universal Design benefits all ages and abilities and recognizes the diversity and different requirements of users.
+Estes princípios estão no cerne do Design Universal. O Design Universal beneficia todas as idades e habilidades e reconhece a diversidade e os diferentes requisitos dos diferentes públicos.
 
-In this guide we cover the general principles of creating universally accessible content. We also highlight techniques to address specific limitations or the use of assistive technologies, such as screen readers for people with visual impairment or sign language for those with auditory limitations.
+Neste guia, cobrimos os princípios gerais da criação de conteúdo universalmente acessível. Também destacamos técnicas para abordar limitações específicas ou o uso de tecnologias assistivas, como leitores de tela para pessoas com deficiência visual ou linguagem de sinais para pessoas com limitações auditivas.
 
-## Website accessibility vs content accessibility
+## Acessibilidade do site vs acessibilidade do conteúdo
 
-When it comes to online journals, two aspects of accessibility need to be addressed:
+Quando se trata de periódicos on-line, dois aspectos da acessibilidade precisam ser abordados:
 
-1. **Website or platform accessibility**, i.e. accessibility of OJS itself. This ensures that readers, authors and editors can navigate OJS regardless of any impairments or assistive technologies they use. PKP is working on bringing OJS structure and themes up to the current web accessibility standards - for the status of that work or to contribute see this [update on the PKP website](https://pkp.sfu.ca/2020/05/21/is-your-journal-accessible-working-with-community-to-make-ojs-open-for-all/). Additionally, if you modify your journal’s theme yourself, make sure to follow the guidelines outlined in the [Inclusive and Accessible Theming](/designing-your-journal/en/inclusive-and-accessible-theming) chapter of the [Designing Your Journal Guide](/designing-your-journal/).
+1. **Acessibilidade do site ou plataforma**, ou seja, a acessibilidade do próprio OJS. Isso garante que os leitores, autores e editores possam navegar no OJS independentemente de quaisquer deficiências ou tecnologias assistivas que utilizem. O PKP está trabalhando para ajustar a estrutura e os temas do OJS aos padrões atuais de acessibilidade da Web - para saber o situação desse trabalho ou para contribuir, consulte esta [atualização no site do PKP](https://pkp.sfu.ca/2020/05/21/is-your-journal-accessible-working-with-community-to-make-ojs-open-for-all/). Além disso, caso deseje fazer modificações no tema do seu periódico por conta própria, certifique-se de seguir as diretrizes descritas no capítulo [Temas inclusivos e acessíveis](/designing-your-journal/en/inclusive-and-accessible-theming) do [Guia de criação do seu periódico](/designing-your-journal/).
 
-2. **Content accessibility**, covered in this guide. Specifically, it applies to:
+2. **Acessibilidade de conteúdo**, abordada neste guia. Especificamente, se aplica a:
 
-- **Website content**, such as information you add when filling out OJS form fields, creating static pages, announcements, etc. It is usually created by the Journal Manager or the person responsible for website content.
-- **Published content**, including journal articles and other materials that are uploaded as galleys. Some of the principles below will need to be applied by copyeditors and production editors, others will need to be communicated by editors to the authors.
+- **Conteúdo do site**, como informações que incluídas ao preencher campos de formulários do OJS, criação de páginas estáticas, anúncios etc. Geralmente é criado pelo Editor Gerente ou pelo responsável pelo conteúdo do site. It is usually created by the Journal Manager or the person responsible for website content.
+- **Conteúdo publicado**, incluindo artigos de periódicos e outros materiais que são carregados como composições para publicação. Alguns dos princípios a aqui descritos deverão ser aplicados por revisores gramaticais e editores de produção, enquanto outros deverão ser comunicados pelos editores aos autores.
 
-In addition to following the standards and best practices outlined below, we recommend that you add a notice on your journal website directing readers to contact you about accessibility concerns or issues that need to be addressed.
+Além de seguir os padrões e melhores práticas descritos neste guia, recomendamos incluir um aviso no site da sua revista direcionando os leitores a contatá-lo sobre assuntos ou questões relacionados a acessibilidade que precisam ser abordados.
