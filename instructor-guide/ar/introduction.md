@@ -1,4 +1,4 @@
-# Introduction
+# مقدمة
 
 This is a guide for post-secondary course instructors interested in using Open Journal Systems (OJS) for the creation of course journals. Course journals are online, open access academic journals published as part of a for-credit class. Depending on the nature and goals of the course, students may write and provide peer review for journal content, or they may set up the journal, develop policies, and make decisions around the editorial practices.
 
