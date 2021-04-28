@@ -37,7 +37,7 @@ Another new editorial feature is the introduction of an internal discussion feat
 
 ![](./assets/ojs-3-discussions.png)
 
-## Statistics
+## الفصل 9: الاشتراكات
 
 The type of statistics reports available and the way they are generated is another key change between versions. If your journal makes use of statistics reports, read the [Statistics guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics), which explains the various types of reports available in each version and provides information on upgrading journals with legacy View Report data.
 
