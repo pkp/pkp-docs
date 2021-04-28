@@ -69,7 +69,7 @@ This is what will appear to the author during the submission process:
 
 ![](./assets/learning-ops-server-settings-author-select-category.png)
 
-## Website Settings
+## Luku 5: Julkaisun asetukset
 
 The Website settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on website settings](/learning-ojs/en/settings-website).
 
@@ -103,7 +103,7 @@ The Plugins tab under Website Settings lists pre-installed plugins under Install
 
 **Returning Author Plugin**: Typically, all new submissions will be checked by a moderator before being published on the server (see the [Editorial Workflow section of this guide](./editorial-workflow)). The Returning Author Plugin will permit authors who already have at least one published submission to self-publish subsequent submissions, without the need for a moderator to confirm the submission.
 
-## Workflow Settings
+## Luku 6: Numerot
 
 The workflow settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on workflow settings](/learning-ojs/en/settings-workflow).
 
@@ -119,7 +119,7 @@ In OPS there is an option to enable standard Keyword Metadata and to additionall
 
 ![](./assets/learning-ops-workflow-settings-keywords.png)
 
-## Distribution Settings
+## Luku 7: Käyttäjät ja roolit
 
 The distribution settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on distribution settings](/learning-ojs/en/settings-distribution). OPS does not have the payment or archiving settings that you will find in OJS. The information provided below is what will be relevant to OPS.
 
