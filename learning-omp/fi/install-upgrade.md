@@ -3,7 +3,7 @@ book: learning-omp
 version: 3.3
 ---
 
-# Installing and Upgrading
+# Luku 2: Asentaminen ja päivittäminen
 
 OMP 3 is a PHP web application with standardized install and upgrade processes. These processes are kept as simple as possible, although some general systems administration experience is recommended.
 
