@@ -117,13 +117,13 @@ If your Press will be using Public Identifiers such as DOI or URN, these will ne
 
 Once these have been enabled, you can click the blue arrow to configure the settings for both these.
 
-## Website Settings
+## Luku 5: Julkaisun asetukset
 
 Please refer to the [Learning OJS guide](/learning-ojs/en/) for information on Website Setting applicable to OMP.
 
 Please note that some plugins for OJS are not available for OMP.
 
-## Workflow Settings
+## Luku 6: Numerot
 
 Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes.
 
