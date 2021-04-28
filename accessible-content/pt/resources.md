@@ -1,51 +1,51 @@
-# Additional resources
+# Recursos adicionais
 
-A non-extensive list of additional resources on accessible content creation is provided below.
+Apresentamos a seguir uma lista não extensa de recursos adicionais sobre a criação de conteúdo acessível.
 
-- [Designing your Journal: Inclusive and Accessible Theming](https://docs.pkp.sfu.ca/designing-your-journal/en/inclusive-and-accessible-theming) - An introductory guide developed by PKP on how to create or modify your journal to make it more inclusive and accessible for more readers.
+- [Projetando sua revista: temas inclusivos e acessíveis](https://docs.pkp.sfu.ca/designing-your-journal/en/inclusive-and-accessible-theming) - Um guia introdutório desenvolvido por PKP sobre como criar ou modificar sua revista para torná-la mais inclusiva e acessível para mais leitores.
 
-- [Page Structure Web Accessibility Tutorial](https://www.w3.org/WAI/tutorials/page-structure/) - Section of W3C Web Accessible Tutorials on the concepts of Page Structure that is important for efficient navigation and processing.
+- [Tutorial de Acessibilidade na Web da Estrutura da Página](https://www.w3.org/WAI/tutorials/page-structure/) - Seção de tutoriais de acessibilidade Web da W3C sobre os conceitos de Estrutura da Página, que é importante para navegação e processamento eficientes.
 
-- [Inclusive Publishing](https://inclusivepublishing.org/) - A resource hub developed by DAISY Consortium initiative with articles, news, and free webinar events for inclusive publishing.
+- [Publicação inclusiva](https://inclusivepublishing.org/) - um centro de recursos desenvolvido pela iniciativa do Consórcio DAISY com artigos, notícias e eventos de webinar gratuitos para publicação inclusiva.
 
-- [Microsoft Word - Creating Accessible Documents](https://webaim.org/techniques/word/) - A free online guide developed by WebAim with information on how to create an accessible document using Microsoft Word.
+- [Microsoft Word - Criando Documentos Acessíveis](https://webaim.org/techniques/word/) - Guia online gratuito desenvolvido pela WebAim com informações sobre como criar um documento acessível usando o Microsoft Word.
 
-- [Accessible Word Document Training](http://mn.gov/mnit-accessibility/AccessibleDocs/Introduction/index.html) - A free introductory e-learning program on how to create fully accessible documents using Microsoft Word 2013 developed by the State of Minnesota Office of Accessibility.
+- [Treinamento para Documento Word Acessível](http://mn.gov/mnit-accessibility/AccessibleDocs/Introduction/index.html) - Um programa de e-learning introdutório gratuito sobre como criar documentos totalmente acessíveis usando o Microsoft Word 2013, desenvolvido pelo Escritório de Acessibilidade do Estado de Minnesota.
 
-- [PDF Accessibility](https://webaim.org/techniques/acrobat/) - A free online guide developed by WebAim with information on creating accessible PDF with instruction on creating tags and forms.
+- [Acessibilidade em PDF](https://webaim.org/techniques/acrobat/) - Um guia online gratuito desenvolvido pela WebAim com informações sobre como criar PDFs acessíveis contendo instruções para criar tags e formulários.
 
-- [How to Design Great Alt Text: An Introduction](https://www.deque.com/blog/great-alt-text-introduction/) - Introductory guide on the what is Alt Text how to use, and when it should be used.
+- [Como criar um ótimo texto alternativo: uma introdução](https://www.deque.com/blog/great-alt-text-introduction/) - guia introdutório sobre o que é o texto alternativo, como usar e quando deve ser usado.
 
-- [How to Write Alt Text and Image Descriptions for the visually impaired](https://www.perkinselearning.org/technology/blog/how-write-alt-text-and-image-descriptions-visually-impaired)  - Information on Alt Text and what information to include in the descriptions.
+- [Como escrever textos alternativos e descrições de imagens para deficientes visuais](https://www.perkinselearning.org/technology/blog/how-write-alt-text-and-image-descriptions-visually-impaired) - Informações sobre o texto alternativo e quais informações incluir nas descrições.
 
-- [Alt Text](https://moz.com/learn/seo/alt-text) - Information and examples of Alt Text.
+- [Alt Text](https://moz.com/learn/seo/alt-text) - Informações e exemplos de texto alternativo.
 
-- [Resources on Alt text writing and inclusive publishing](https://www.textboxdigital.com/soapbox) - Resource hub by soapBox with articles, news, and free webinar events.
+- [Recursos sobre escrever texto alternativo e publicação inclusiva](https://www.textboxdigital.com/soapbox) - Central de recursos da soapBox com artigos, notícias e eventos de webinar gratuitos.
 
-- [Web Accessibility Tutorials Guidance on how to create websites that meet WCAG](https://www.w3.org/WAI/tutorials/images/complex/) - Section of W3C Web Accessible Tutorials on the Complex Images (graphs, charts, maps, diagrams, illustrations).
+- [Guias Tutoriais de acessibilidade na Web sobre como criar sites que atendam à WCAG](https://www.w3.org/WAI/tutorials/images/complex/) - Seção de tutoriais acessíveis na Web do W3C sobre imagens complexas (gráficos, tabelas, mapas, diagramas, ilustrações).
 
-- [Accessibility and Usability at Penn State](https://accessibility.psu.edu/images/) - Information on making images accessible using Alt Text, and working with Complex images(graphs, charts, maps, diagrams, illustrations).
+- [Acessibilidade e usabilidade na Penn State](https://accessibility.psu.edu/images/) - Informações sobre como tornar as imagens acessíveis usando texto alternativo e como trabalhar com imagens complexas (gráficos, tabelas, mapas, diagramas, ilustrações).
 
-- [WebAIM Alternative Text](https://webaim.org/techniques/alttext/) - Information on the appropriate use of alternative text (Alt Text).
+- [WebAIM Alternative Text](https://webaim.org/techniques/alttext/) - Informações sobre o uso apropriado de texto alternativo (Alt Text).
 
-- [Writing for Web Accessibility](https://www.w3.org/WAI/tips/writing/) - Tips on the basic considerations for writing for web accessibility developed by W3C.
+- [Escrevendo para acessibilidade na web](https://www.w3.org/WAI/tips/writing/) - Dicas sobre as considerações básicas de como escrever para acessibilidade na web desenvolvidas pela W3C.
 
-- [Creating Accessible Documents in Microsoft Word](https://www.washington.edu/accessibility/documents/word/) - A online guide developed by the University of Washington with information on how to create an accessible document using Microsoft Word.
+- [Criando Documentos Acessíveis no Microsoft Word](https://www.washington.edu/accessibility/documents/word/) - Um guia online desenvolvido pela Universidade de Washington com informações sobre como criar um documento acessível usando o Microsoft Word.
 
-- [Creating Accessible Documents](https://www.washington.edu/accessibility/documents/) - General information developed by the University of Washington with information on creating accessible documents.
+- [Criação de documentos acessíveis](https://www.washington.edu/accessibility/documents/) - informações gerais desenvolvidas pela Universidade de Washington com informações sobre a criação de documentos acessíveis.
 
-- [Accessibility and Usability at Penn State](https://accessibility.psu.edu/) - An online guide developed by Penn State on how to ensure Web pages and online documents can be made usable for users with different disabilities.
+- [Acessibilidade e usabilidade na Penn State](https://accessibility.psu.edu/) - Um guia online desenvolvido pela Penn State sobre como garantir que páginas da Web e documentos online possam ser disponibilizados para usuários com diferentes deficiências.
 
-- [Accessibility Metadata](https://handbook.floeproject.org/AccessibilityMetadata.html) - Examples of Accessible Metadata by The Inclusive Learning Design Handbook.
+- [Metadados para acessibilidade](https://handbook.floeproject.org/AccessibilityMetadata.html) - exemplos de metadados acessíveis do The Inclusive Learning Design Handbook.
 
-- [Accessible Publishing Best Practice Guidelines for Publishers](https://www.accessiblebooksconsortium.org/publishing/en/accessible_best_practice_guidelines_for_publishers.html) - Guidelines as part of The Enabling Technologies Framework project funded by the World Intellectual Property Organization (WIPO).
+- [Diretrizes de Boas Práticas de Publicação Acessível para Editores](https://www.accessiblebooksconsortium.org/publishing/en/accessible_best_practice_guidelines_for_publishers.html) - Diretrizes como parte do projeto Enabling Technologies Framework, financiado pela Organização Mundial de Propriedade Intelectual (WIPO).
 
-- [Web Accessibility in Mind (WebAIM).ORG](https://webaim.org/techniques/css/invisiblecontent/) - Presents techniques for creating accessible content to screen reader technology, while keeping it hidden for sighted users, if necessary.
+- [Web Accessibility in Mind (WebAIM) .ORG](https://webaim.org/techniques/css/invisiblecontent/) - Apresenta técnicas para criar conteúdo acessível à tecnologia de leitor de tela, mantendo-o oculto para usuários com boa visão, caso seja necessário.
 
-- [Yale University Usability & Web Accessibility](https://usability.yale.edu/web-accessibility/articles/images) - Explains how people with disabilities interact with images and how to make them accessible.
+- [Usabilidade e acessibilidade da Web da Universidade Yale](https://usability.yale.edu/web-accessibility/articles/images) - explica como as pessoas com deficiência interagem com as imagens e como torná-las acessíveis.
 
-- [Tables / Accessible Publishing Knowledge Base](https://kb.daisy.org/publishing/docs/html/tables.html) - Explains how to create accessible html data tables, as “the correct tagging and description of data tables simplifies access and understanding for users who cannot see the data or need additional help understanding it”.
+- [Tabelas / Base de Conhecimento de Publicação Acessível](https://kb.daisy.org/publishing/docs/html/tables.html) - explica como criar tabelas de dados html acessíveis, já que “a marcação e descrição corretas das tabelas de dados simplificam o acesso e a compreensão para usuários que não podem ver os dados ou precisam de ajuda adicional para entendê-los”.
 
-- [HTML table advanced features and accessibility - Learn web development](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced) - Explains advanced features of HTML tables — such as captions/summaries and grouping your rows into table head, body and footer sections — as well as looking at the accessibility of tables for visually impaired users.
+- [Funcionalidades avançadas e acessibilidade de tabelas HTML - Aprenda desenvolvimento Web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Advanced) - Explica recursos avançados de tabelas HTML - como legendas/resumos e agrupamento de suas linhas em seções de cabeçalho, corpo e rodapé da tabela - e também analisa a acessibilidade de tabelas para usuários com deficiência visual.
 
-- [Create accessible tables in Microsoft Word](https://kb.iu.edu/d/aqjl) - Explains how to create accessible tables in Microsoft Word.
+- [Crie tabelas acessíveis no Microsoft Word](https://kb.iu.edu/d/aqjl) - explica como criar tabelas acessíveis no Microsoft Word.
