@@ -1,2 +1,0 @@
-# COUNTER Statistics
-
