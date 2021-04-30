@@ -12,23 +12,23 @@ OPS supports a number of ways to make the content on your Server discoverable to
 
 If categories have been created, users will be able to search by these from your Servers homepage.
 
-![](./assets/learning-ops-content-discovery-search-category.png)
+![The Servers search bar.](./assets/learning-ops-content-discovery-search-category.png)
 
 If  subcategories have been created, users will be able to search these by clicking on the parent category.
 
-![](./assets/learning-ops-content-discovery-search-subcategory.png)
+![A sample History category with a Cultural History subcategory.](./assets/learning-ops-content-discovery-search-subcategory.png)
 
 ### Advanced Search
 
 The advanced search provides you with a few more filters to find content. This includes having a specific date range or by author name.
 
-![](./assets/learning-ops-content-discovery-advanced-search.png)
+![The advanced search screen in OPS.](./assets/learning-ops-content-discovery-advanced-search.png)
 
 ### Publishing Mode
 
 Depending on policy established by your Server access to content can be configured accordingly in Settings > Distribution > Access.
 
-![](./assets/learning-ops-content-discovery-publishing-mode.png)
+![The publishing mode options in OPS for enabling and disabling access to content.](./assets/learning-ops-content-discovery-publishing-mode.png)
 
 ### Plugins
 
