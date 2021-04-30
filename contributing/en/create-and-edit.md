@@ -78,7 +78,7 @@ Unlike with a single-page document, you no longer need to add to index.md. The r
 
 1. Create a folder for the [language of your document](http://www.lingoes.net/en/translator/langcode.htm) (eg: en_US, en_CA, fr_CA, fr_FR).
 2. Create a file called `SUMMARY.md`
-    - `SUMMARY.md` is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file.
+    - `SUMMARY.md` is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file. You can fill in all of the chapter and section links after you have created the chapter files.
         - a chapter link would look like: `- [Statistics](statistics.md)`
         - a heading inside that chapter would look like: `- [Definitions](./statistics.md#definitions)`
 
@@ -127,7 +127,12 @@ Then add an H1 chapter title and your chapter content below. For any subheadings
 #### Update table of contents 
 Once you have created all of your chapters, you can add links to those files in the `SUMMARY.md` file, which essentially creates a table of contents for the document. Whereas your headers in single documents create the sidebar table of contents, in multi-page docs, you need to add the headers manually to the `SUMMARY.md` file.  
 
-In the SUMMARY.md file, add a link for each chapter title and H2 subheading links below the chapter links.
+In the SUMMARY.md file, add a link for each chapter title and H2 subheading links below the chapter links. 
+
+The first link should be for the Introduction in the README file: 
+```
+* [Introduction](.)
+```
 
 ![](./assets/contrib-summary-md-file.png)
 
