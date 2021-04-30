@@ -81,11 +81,11 @@ You can now see the Layout Editor in the Participants list, and you can see the 
 
 As a Layout Editor, you will have received a message inviting you to create the galleys for the submission. To get started, login to the system and go to your dashboard.
 
-![](./assets/learning-ojs-3.2-le-dashboard.png)
+![Layout Editor Dashboard showing list of assigned manuscripts.](./assets/learning-ojs-3.2-le-dashboard.png)
 
 From here, find the submission and select the **Production** link. This will take you to the submission record.
 
-![](./assets/learning-ojs-3.2-le-submission.png)
+![Production tab of on the assigned manuscript with 1 production ready file for the Layout Editor.](./assets/learning-ojs-3.2-le-submission.png)
 
 From the Production Ready Files panel, download the files to your desktop and work outside of OJS to convert them to galley files. The next section explains galley file formats and preparation.
 
@@ -209,7 +209,7 @@ In OJS you will need to configure the settings for your Component Types before a
 
 Make sure you have “Multimedia” and/or “Image” files configured as “dependent files” in the Component Type settings.
 
-![](./assets/learning-ojs3.2-ed-prod-multimedia-component-edit.png)
+![Form to add Multimedia as a dependent component type.](./assets/learning-ojs3.2-ed-prod-multimedia-component-edit.png)
 
 Now go back to the submission to upload an HTML stylesheet to display your multimedia file. See below for instructions on how to **Add  Galley Files**. In addition, when you upload the file:
 
@@ -219,19 +219,18 @@ Now go back to the submission to upload an HTML stylesheet to display your multi
 * Click **Continue**
 * In the **Review Details** tab you can upload Dependent Files. This is where you will upload the MP3/MP4/image file.
 
-![](./assets/learning-ojs3.2-ed-prod-multimed-dep-file.png)
+![Step 2 of uploading production ready files where users will go to upload their dependent files.](./assets/learning-ojs3.2-ed-prod-multimed-dep-file.png)
 
 Select **Multimedia** or **Image** from the **Article Component** drop-down menu, and upload the MP3, MP4, or image file.
 
-![](./assets/learning-ojs3.2-ed-prod-upload-multimedia.png)
+![Step 1 for uploading dependent files, dropdown bar lists Multimedia and Image as selection for Article components.](./assets/learning-ojs3.2-ed-prod-upload-multimedia.png)
 
 When uploading an image file you will be asked to add a Caption, Credit, Copyright Owner, and Permission Terms, as applicable.
 
-![](./assets/learning-ojs3.2-ed-prod-image-details.png)
+![Step 2 for uploading dependent files. Text fields to enter Caption, Credit, Copyright Owner, and Permission Terms.](./assets/learning-ojs3.2-ed-prod-image-details.png)
 
 Click **Continue** to complete the upload, review the details, and confirm. Your multimedia file has now been added as a dependent file along with the HTML, and will be embedded in the HTML when the item is published.
 
-![](./assets/learning-ojs3.2-ed-prod-upload-video-dependent.png)
 
 #### ePUB Files
 
@@ -245,7 +244,7 @@ Example (see EPUB link at bottom of the page): [International Review of Research
 
 XML files are structured files in which each part of the article is tagged as a distinct element. This allows the reader to easily navigate through and access figures, images, metadata, references, and parts of the article text. Creating XML files is a very efficient way to publish in multiple formats. When you create an XML file, you can then automatically generate PDFs, HTML, ePub, and other formats.
 
-![](./assets/learning-ojs3.2-ed-prod-xmlgalley.png)
+![XML preview of article with navigation menu options.](./assets/learning-ojs3.2-ed-prod-xmlgalley.png)
 
 PKP is developing tools that will allow you to create, convert, and edit XML files within OJS. Currently you need to create and edit the files outside of OJS. If you want to produce XML galley files for your journal, you can use the services of a graphic designer or typesetter, or if you have some XML expertise you can create the files yourself. W3schools has excellent tutorials on XML.
 
@@ -272,11 +271,11 @@ Upload the multimedia galley file in the Production stage of the workflow. See b
 * Label the galley according to the multimedia file type (e.g., MP3/MP4)
 * Check the box indicating “This galley will be available at a separate website”
 
-![](./assets/learning-ojs3.2-ed-prod-upload-video-youtube.png)
+![Pop-up window to add Video as an external Galley File.](./assets/learning-ojs3.2-ed-prod-upload-video-youtube.png)
 
 To get the URL, locate the video or audio in YouTube, SoundCloud, etc., then click **Share** and copy the URL.
 
-![](./assets/learning-ojs3.2-ed-prod-share-youtube.png)
+![Share Button on Youtube to generate external link for Galley File.](./assets/learning-ojs3.2-ed-prod-share-youtube.png)
 
 Paste the URL into the remote galley field and click **Save**.
 
@@ -286,13 +285,13 @@ The video should now appear in the published submission.
 
 Next, you will want to share the PDF with the author for a final look and sign off. To do so, use the **Add Discussion** link in the Production Discussion panel. This will open a new window.
 
-![](./assets/learning-ojs-3-le-production-add-participant.png)
+![Creating a discussion post in OJS to indicate that galley are ready for proofreading.](./assets/learning-ojs-3-le-production-add-participant.png)
 
 Remember to add the author at the top of the window and then add a subject and a message.
 
 Before sending, attach a copy of the PDF file using the **Upload File** link. This will make it available to the author.
 
-![](./assets/learning-ojs-3-le-production-add-participant-upload.png)
+![Step 1 of uploading galley file in discussion- uploading file.](./assets/learning-ojs-3-le-production-add-participant-upload.png)
 
 Remember to select the correct Article Component and then upload the PDF.
 
@@ -300,17 +299,17 @@ Click **Continue**.
 
 Next, make any changes to the file name (usually you don’t need to do anything here).
 
-![](./assets/learning-ojs-3-le-production-add-participant-upload2.png)
+![Step 2 of uploading galley file in discussion- confirming file name.](./assets/learning-ojs-3-le-production-add-participant-upload2.png)
 
 Then, you can upload additional files, if necessary.
 
-![](./assets/learning-ojs-3-le-production-add-participant-upload3.png)
+![Step 3 of uploading galley file in discussion- option to add additional file or complete.](./assets/learning-ojs-3-le-production-add-participant-upload3.png)
 
 Once you are done, hit **Complete**.
 
 The file is now attached and you can send the message using the **OK** button.
 
-![](./assets/learning-ojs-3-le-production-add-participant2.png)
+![Discussion box showing the uploaded galley file as attachment.](./assets/learning-ojs-3-le-production-add-participant2.png)
 
 The Author has now been notified and you can await their response.
 
@@ -318,35 +317,35 @@ The Author has now been notified and you can await their response.
 
 Once the author has had a chance to review the galleys and respond, you will receive an email notification and will see a reply in the Production Discussions.
 
-![](./assets/learning-ojs-3-au-production-message-reply.png)
+![List of Production related discussion on author account.](./assets/learning-ojs-3-au-production-message-reply.png)
 
 ### Add Galley Files
 
 Now that the Author has proofread the galleys, you can make any final changes, and then upload them to the submission. To upload galleys, go to the Publication tab, then Galleys.
 
-![](./assets/learning-ojs-3.2-au-production-galleys.png)
+![Galley subtab within the manuscript's Publication tab to add galley.](./assets/learning-ojs-3.2-au-production-galleys.png)
 
 Then click **Add galley**, which will open a new window.
 
-![](./assets/learning-ojs-3-au-production-galleys-upload1.png)
+![Creating new galley for with the galley label PDF and english as the language.](./assets/learning-ojs-3-au-production-galleys-upload1.png)
 
 Add an appropriate label (e.g., PDF, HTML, etc.) and click **Save**.
 
-![](./assets/learning-ojs-3-au-production-galleys-upload2.png)
+![Step 1 of uploading file. PDF file uploaded displays option to Change File, Continue, or Cancel.](./assets/learning-ojs-3-au-production-galleys-upload2.png)
 
 From this window, choose the appropriate article component (e.g., article text) and upload the galley file. Click **Continue**.
 
-![](./assets/learning-ojs-3-au-production-galleys-upload3.png)
+![Step 2 of uploading file. Displays option to edit file name, Continue, or Cancel.](./assets/learning-ojs-3-au-production-galleys-upload3.png)
 
 If necessary, change the filename. Click **Continue**.
 
-![](./assets/learning-ojs-3-au-production-galleys-upload4.png)
+![Step 3 of uploading file. Confirming file has been added. Displays option to Complete or Cancel.](./assets/learning-ojs-3-au-production-galleys-upload4.png)
 
 If you have more files, upload them now. Otherwise click **Complete**.
 
 You can now see the galleys in the Galley panel.
 
-![](./assets/learning-ojs-3.2-au-production-galleys-uploaded.png)
+![Galley subtab within the manuscript's Publication tab. Displays previously uploaded PDF.](./assets/learning-ojs-3.2-au-production-galleys-uploaded.png)
 
 You can make changes to the upload by selecting the blue arrow to the left of the galley label, which reveals options to edit, change the file, or delete.
 
@@ -361,19 +360,19 @@ If you want to make a change to a galley file or galley file label after it has 
 5. If you would like to change the file, click Change File and upload a new file
 6. When you are finished editing, click Save
 
-![](./assets/learning-ojs-3.2-au-production-galleys-edit.png)
+![Galley subtab within the manuscript's Publication tab. Blue arrow for PDF expanded to reveal additional option to Edit, Change File or Delete.](./assets/learning-ojs-3.2-au-production-galleys-edit.png)
 
 ### Inform the Section Editor
 
 Finally, you will need to inform the Section Editor that the galleys have been completed. To do so, use the Production Discussion panel and choose the **Add Discussion** link.
 
-![](./assets/learning-ojs-3-au-production-galleys-complete.png)
+![Creating a discussion post in OJS to indicate that galley files have been uoloaded.](./assets/learning-ojs-3-au-production-galleys-complete.png)
 
 Add the Section Editor to the top of the page, and then include a subject line and message. Click **OK** to send the message.
 
 You can now see the final discussion.
 
-![](./assets/learning-ojs-3-au-production-galleys-discussions.png)
+![List of Production related discussion Section Editor account.](./assets/learning-ojs-3-au-production-galleys-discussions.png)
 
 ### Section Editor Informs Editor
 
@@ -402,7 +401,7 @@ Categories can be used to organize your articles into thematic collections. If y
 * In the **Categories** box, check the category or categories that you want to add the article to
 * Click **Save**
 
-![](./assets/learning-ojs3.2-ed-prod-add-to-category.png)
+![Issue subtab within Manuscripts Publication tab. Shows options to assign Issue, Section, Categories.](./assets/learning-ojs3.2-ed-prod-add-to-category.png)
 
 ### Extract and Save References
 
@@ -418,7 +417,7 @@ The first thing you must do is enable References as a submission metadata field.
   * require the author to provide references before accepting their submission - the References field will be on the submission form and authors will be required to add their references to it
 4. Click **Save**
 
-![](./assets/learning-ojs3.2-ed-prod-enable-references.png)
+![Setting option to Eanble Reference metadata with additional options for authors during the time of submission.](./assets/learning-ojs3.2-ed-prod-enable-references.png)
 
 Now if you go to a submission record’s **Publication** tab you will see a **References** tab below. An editor can open the tab and copy and paste the article's references into the field. In addition, if you checked the second or third option above, there will be a **References** field when an author makes a submission and the author will be able to add their references to it.
 
@@ -441,7 +440,7 @@ When you are ready to publish the article, you have to create an issue to publis
 
 From the left menu, select Issues to manage all of the issues for your journal.
 
-![](./assets/learning-ojs3.1-jm-issues.png)
+![Future Issues tab in Issues. Displays Vol 1 No 3 (2018).](./assets/learning-ojs3.1-jm-issues.png)
 
 You will see tabs for Future Issues and Back Issues.
 
@@ -449,11 +448,11 @@ You will see tabs for Future Issues and Back Issues.
 
 **Back Issues** lists all of your published issues.
 
-![](./assets/learning-ojs3.1-jm-issues-back.png)
+![Back Issue tab in Issues. Displays Vol 1 No 2 (2018) and Vol 1 No 1 (2018).](./assets/learning-ojs3.1-jm-issues-back.png)
 
 To create a new issue, use the **Create Issue** link and fill in the form.
 
-![](./assets/learning-ojs-3-issues-create.png)
+![Form to create new issue.](./assets/learning-ojs-3-issues-create.png)
 
 There are spaces to add volume, number, year, and title information (e.g., Special Issue #1), as well as a description, cover image, and custom URL. The cover image and description will appear at the top of the issue page on your site, if you add them. If you have volume, number, and title checked off below, you will be required to fill something into each field.
 
@@ -463,11 +462,11 @@ When you’re finished, click **Save**.
 
 You can also edit an existing future issue by selecting the blue arrow to the left of the issue entry on the Future Issues page.
 
-![](./assets/learning-ojs3.1-jm-issues-edit.png)
+![Vol 1 No 3 (2018) in Future Issues with blue arrow expanded to show additional options to Edit, Preview, Publish Issue, or Delete.](./assets/learning-ojs3.1-jm-issues-edit.png)
 
 This will reveal an **Edit** link, which will open a new window of information.
 
-![](./assets/learning-ojs-3-issues-details.png)
+![Table of Contents for Vol 1 No 6 (2016): June 2016.](./assets/learning-ojs-3-issues-details.png)
 
 **Table of Contents**: For a new issue, this will be empty, but for issues that have had submissions scheduled, they will be listed here.
 
@@ -498,7 +497,7 @@ If you want to change the order of sections on a per issue basis or the order of
 
 If you want to see what your articles will look like prior to publication, click on the Preview button on the Publication tab of the submission record. Users with the permission to preview will see this button from the Copyediting stage forward.
 
-![](./assets/learning-ojs-3.3-ed-production-publish-preview-article.png)
+![Publication tab of Manuscipts shows subtab and option to Preview and Schedule Issue and language toggles to enter metadata in Espanol and English.](./assets/learning-ojs-3.3-ed-production-publish-preview-article.png)
 
 If you want to see what your articles will look like in the context of an issue before publishing it, you can use the Issue Preview feature:
 
@@ -506,7 +505,7 @@ If you want to see what your articles will look like in the context of an issue 
 * Click **Preview**
 * The issue preview page will open. To preview an article, click the article title in the table of contents.
 
-![](./assets/learning-ojs-3.2-ed-production-publish-issue.png)
+![[Vol 10 No 10 (2019) in Future Issues with blue arrow expanded to show additional options to Edit, Preview, Publish Issue, or Delete.](./assets/learning-ojs-3.2-ed-production-publish-issue.png)
 
 ### Publish Issue
 
@@ -518,7 +517,7 @@ You will have the option to send a notification to users about the new issue.
 
 To not send a notification of a new issue published, uncheck the box beside “Send notification email to all registered users” before pressing **OK**.
 
-![](./assets/learning-ojs-3.2-ed-production-reader-notify.png)
+![Option to notify readers upon issue publication.](./assets/learning-ojs-3.2-ed-production-reader-notify.png)
 
 The content of the announcement is generated automatically and cannot be edited. You can alternatively use the [Announcements](./settings-website.md#announcements) feature to send a publication announcement with customized content.
 
@@ -545,7 +544,7 @@ Now that you have created an issue, you can add the article to it. Please note t
 * **Date Published** will be set automatically when the issue is published. Do not enter a publication date unless the article was previously published elsewhere and you need to backdate it.
 * Click **Save** when you are finished
 
-![](./assets/learning-ojs3.2-ed-prod-add-to-issue.png)
+![Issue subtab in Manuscript Publication tab showing all options and fields related to Issue - Issue, Section, Categories, Cover Image, Page Number and Date Published.](./assets/learning-ojs3.2-ed-prod-add-to-issue.png)
 
 ### Continuous Publishing
 
@@ -571,7 +570,7 @@ When you are ready to publish the article:
 * Go to the **Publication** tab
 * Click the blue **Schedule for Publication** button.
 
-![](./assets/learning-ojs3.2-ed-prod-schedule-for-pub.png)
+![Publication tab of Manuscipts shows subtab and option to Preview and Schedule Issue and language toggles to enter metadata in Francais (Canada) and English.](./assets/learning-ojs3.2-ed-prod-schedule-for-pub.png)
 
 A message will pop up that confirms you want to schedule the article for publication. Click **Publish**.
 
@@ -583,7 +582,7 @@ To do this, under the **Publication** tab of the manuscript, go to **Issues**.
 
 Under **Date Published** you can enter the publication date if it is different from the issue publication date. If not, leave this blank.
 
-![](./assets/learning-ojs-3.2-ed-production-schedule-individual.png)
+![[Issue subtab with an Manuscripts Publication tab highlights the Date Published field.](./assets/learning-ojs-3.2-ed-production-schedule-individual.png)
 
 In order to schedule an individual publication, it must be assigned to an issue and have passed the review stage.
 
@@ -597,7 +596,7 @@ An ability to publish versions of articles is one of the major new features in O
 
 Once an article is published, neither metadata nor galleys can be edited. When a revision of a published article or metadata is necessary, it can be done in one of two ways:
 
-![](./assets/learning-ojs-3.2-ed-production-versioning-ways.png)
+![Publication tab of article highlighting options available after article has been published to Unpublish or Create New Version.](./assets/learning-ojs-3.2-ed-production-versioning-ways.png)
 
 **Option 1: Unpublish and republish**
 
@@ -609,23 +608,23 @@ When creating a new version, you will be able to make changes to the metadata an
 
 You can keep track of version updates under **All Versions**. Each version is marked by a number and date published. The version currently being updated is marked by a number and **Unpublished**.
 
-![](./assets/learning-ojs-3.2-ed-production-all-versions.png)
+![Publication tab of manuscript showing a list of all versions available for this article. Article crrently has 4 published version and 1 unpublished.](./assets/learning-ojs-3.2-ed-production-all-versions.png)
 
 Once your changes are completed, you can publish the new version by clicking **Publish** on the top right. If scheduled into a published issue, it will become available right away. No notification will be sent to readers since the notification is sent when an issue is published, not for an individual article.
 
 The list of prior versions and update dates will be listed on the published article page.
 
-![](./assets/learning-ojs-3.2-ed-production-published-versions.png)
+![List of dates for all versions for articlr that displays on the article abstract page on the front end.](./assets/learning-ojs-3.2-ed-production-published-versions.png)
 
 Readers will be able to access previous versions. They will see a message on the article and galley pages advising them that it is an outdated version and pointing them to the most recent version.
 
 Example of an outdated version message on the article page:
 
-![](./assets/learning-ojs-3.2-ed-production-outdated-version.png)
+![Warning notification of outdated version on article abstract page and prompt to read the most recent version.](./assets/learning-ojs-3.2-ed-production-outdated-version.png)
 
 Example of an outdated version message on the PDF galley page:
 
-![](./assets/learning-ojs-3.2-ed-production-outdated-pdf.png)
+![Warning notification of outdated version on PDF viewer and prompt to read the most recent version.](./assets/learning-ojs-3.2-ed-production-outdated-pdf.png)
 
 The article URL will always point to the most recent version, with earlier versions being available at the same URL with the version at the end of the URL (e.g. /version/1234/).
 
