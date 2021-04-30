@@ -6,22 +6,13 @@ To register with a journal, click the Register link on the topmost navigation ba
 
 All fields with an asterisk beside them (Username; Password; Repeat Password; Validation; First Name; Last Name; Email; Confirm Email) are mandatory. If the journal is multilingual, you will need to select your preferred language.
 
-
-
-
 ![Registration Form](images/chapter3/registration.png)
-
-
 
 Your username and your email address must be unique; furthermore, while you can change your email address at a later date, you will be unable to change your username.
 
 You may be able to register as a Reader, an Author and/or a Reviewer, depending on how the journal has been configured. Check the box next to each role available to Confirm Registration. If you register as a Reviewer, you can also supply your reviewing interests.  
 
-
-
-
 ![Selecting Roles](images/chapter3/selecting_roles.png)
-
 
 In some cases, the journal you are trying to register with may not be allowing registrations; if that is so, you will see a note to that effect.
 
@@ -29,7 +20,6 @@ If you want to register in another role within the same journal (for example, if
 
 If you want to unenroll yourself from a journal completely, all you have to do is visit your profile and uncheck all role checkboxes. If you are enrolled at an editorial level, you will have to ask the Journal Manager to unenroll you.
 
-
 > **Note**
-> 
+>
 > Please be aware that you can't completely delete your account from the system yourself. If you would like to delete your account you should contact the Journal Manager or take a look at the section on merging accounts.
