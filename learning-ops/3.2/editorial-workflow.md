@@ -23,7 +23,7 @@ This chapter explains the steps in the editorial workflow for Authors, Moderator
 All active and archived (published or declined) submissions for the preprint server will
 appear in the Submissions dashboard.
 
-![](./assets/learning-ops-submissions-dashboard.png)
+![The OPS submission dashboard as Preprint Manager.](./assets/learning-ops-submissions-dashboard.png)
 
 Which submissions are visible will depend on the role of the logged in user.
 
@@ -38,7 +38,7 @@ See [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#
 The editorial workflow in OPS starts when an author submits a new manuscript.
 How an author can make a submission is explained in [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/authoring). It is the same in OJS and OPS except that when the author makes a submission of a new preprint, they can choose a Category to submit to instead of a Section.
 
-![](./assets/learning-ops-make-submission-choose-category.png)
+![The Submission screen in OPS with language and category selection fields.](./assets/learning-ops-make-submission-choose-category.png)
 
 Depending on your preprint server policies, the preprint will be published immediately
 after submission or it will be screened by a Moderator. It is also possible to have moderation done by the research community after a preprint is posted and made public.
@@ -54,17 +54,17 @@ If your server chooses to assign moderators to screen submissions before they ar
 
 Selecting the arrow next to a user’s name shows the list of options, which include ‘Remove’, ‘Edit’, ‘Notify’ (this option will create a new Discussion), and ‘Login As’.
 
-![](./assets/learning-ops-editorial-workflow-participants.png)
+![The participants list highlighted on a submission's production tab.](./assets/learning-ops-editorial-workflow-participants.png)
 
 It’s possible to add a new participant to the submission by selecting the ‘Assign’ button. When assigning a moderator it’s possible to allow for them to view and edit submission metadata (this option is selected by default) and/or to only recommend an editorial decision, in which case a Server Manager or another Moderator needs to record the decision to either post or decline the submission.
 
-![](./assets/learning-ops-editorial-workflow-assign-participant.png)
+![The "Assign" button found next to the participants list.](./assets/learning-ops-editorial-workflow-assign-participant.png)
 
 If the Moderator wants to ask the author a question or have a discussion with the author, another moderator, the Preprint Server Manager, or another participant in the submission, they can Add a Discussion in the Production Discussions. How to create a response to a discussion is explained in [Learning OJS 3](/learning-ojs/en/editorial-workflow#consult-with-the-author).
 
 There are two possible editorial decisions, which are ‘Decline Submission’ or ‘Schedule for Publication’. Selecting ‘Decline Submission” will open a pop-up with the option to notify the author(s) or not, and selecting ‘Schedule for Publication’ will move the user to the Publication tab.
 
-![](./assets/learning-ops-editorial-workflow-editorial-decision.png)
+![The Post and Decline options for a submission.](./assets/learning-ops-editorial-workflow-editorial-decision.png)
 
 ## Publication
 
@@ -93,15 +93,15 @@ Only the bottom two relational status will appear on the abstract page if select
 * Preprint has been submitted for publication in a journal; or
 * Preprint has been published in a journal as an article.
 
-![](./assets/learning-ops-editorial-workflow-preprint-status.png)
+![The relations dropdown for a preprint.](./assets/learning-ops-editorial-workflow-preprint-status.png)
 
 Submission statuses can be updated even after a Preprint has been posted. Additionally, once the preprint has had its Version of Record (VoR) published in a journal, the DOI assigned to the published preprint can be added by going to the "Relations" button and selecting the last option, that will show a text box in which the user should add the VoR’s DOI link.
 
-![](./assets/learning-ops-editorial-workflow-relations.png)
+![The DOI entry field that appears when the "Preprint has been published in a journal" relation is selected.](./assets/learning-ops-editorial-workflow-relations.png)
 
 Once a DOI has been entered, it will appear publicly on the Preprint abstract page.
 
-![](./assets/learning-ops-editorial-workflow-abstract-page.png)
+![The entered DOI shown on the preprint abstract page.](./assets/learning-ops-editorial-workflow-abstract-page.png)
 
 ## Publish New Versions
 
@@ -109,7 +109,7 @@ Versioning is an important feature of preprint servers because it allows researc
 
 By default, only Server Managers can create new versions of a posted preprint. The **‘Create New Version’** button is available next to the **‘Unpublish’** button:
 
-![](./assets/learning-ops-editorial-workflow-create-new-version.png)
+![The Create New Version button found on the Publication tab.](./assets/learning-ops-editorial-workflow-create-new-version.png)
 
 Clicking **‘Create New Version’** will open a pop-up asking if you are sure you’d like to create a new version. It’s important to note that, once a new version is created, it’s not possible to delete it; OPS allows the user to unpublish a version and create new ones, but not to delete an existing record. Note that an unpublished version of a preprint is only visible to the Server Managers and Authors.
 
