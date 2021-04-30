@@ -6,7 +6,7 @@ version: 3.2
 
 OPS has 4 default roles that will be explained in more detail below. Users have the option of creating additional roles using the Create New Role function.
 
-![](./assets/learning-ops-users-and-roles-roles.png)
+![The Roles tab in OPS.](./assets/learning-ops-users-and-roles-roles.png)
 
 ## Preprint Server Manager
 
@@ -40,22 +40,22 @@ In OPS, the Preprint Server Manager can grant access to allow authors and Modera
 
 To enable this, go to Users & Roles > Roles. Click the blue arrow beside the ‘Author’ then click edit.
 
-![](./assets/learning-ops-users-and-roles-global-metadata-permission.png)
+![The Edit button's location under a role.](./assets/learning-ops-users-and-roles-global-metadata-permission.png)
 
 Under Role Options, enable **‘Permit submission metadata edit.’** then click OK.
 
-![](./assets/learning-ops-users-and-roles-edit-author-permission.png)
+![The "Permit submission metadata edit" option highlighted in the role edit screen.](./assets/learning-ops-users-and-roles-edit-author-permission.png)
 
 **Limited Permission**- will grant registered authors (typically a single author) permission to make one-time or short-term changes.To allow an author to make a change in the metadata, find their name under the participant list followed by Edit.
 
-![](./assets/learning-ops-users-and-roles-limited-metadata-permission.png)
+![The workflow screen with the list of participants.](./assets/learning-ops-users-and-roles-limited-metadata-permission.png)
 
 Under Permissions, enable **‘Allow this person to edit publication details.’** followed by OK.
 
-![](./assets/learning-ops-users-and-roles-edit-limited-metadata-permission.png)
+![The edit assignment screen.](./assets/learning-ops-users-and-roles-edit-limited-metadata-permission.png)
 
 Once the author has been granted access to make edits they will be able to make changes to the metadata mentioned in the box.
 
 Authors wishing to make changes to the relations field of their submission should contact the Server Manager.
 
-![](./assets/learning-ops-users-and-roles-authors-change-relation.png)
+![The relations list found next to the submission status.](./assets/learning-ops-users-and-roles-authors-change-relation.png)
