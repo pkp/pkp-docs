@@ -12,6 +12,6 @@ The system can also be set up to redirect visitors to a single journal, which is
 
 **Example of Single Journal Page**  
 
-![Single Journal Page](single_journal_page.png)
+![Single Journal Page](images/chapter2/single_journal_page.png)
 
 To navigate back to the Site level, users can click the **Other Journals** link on the right navigation bar in the Journal Content section, under Browse.
