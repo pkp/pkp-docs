@@ -1,46 +1,60 @@
-# Using the Plugin
+# Using the ORCID plugin
 
-Once you have configured the plugin and tested in the ORCID sandbox to make sure everything is working correctly, you are ready to move the plugin to production and start using it.
+Now that you have [obtained ORCID credentials, enabled and set up the plugin](./installation-setup.md), you can start using it in your journal / preprint server.
 
-## Obtain ORCID Production API Credentials
+## Inform your stakeholders
 
-To use the plugin in production, you will need to obtain production ORCID API credentials and replace your sandbox credentials with your production credentials in the plugin configuration. Obtaining production credentials will be done differently depending on whether you are using the Public or Member API.
+Once your ORCID plugin is enabled and in production, you might want to let your stakeholders (authors, journal editors, etc.) know that the ORCID plugin is now available, and make sure they know what ORCID is and how it can help them.  There are a variety of ways to do this. One such way is by using the OJS announcement feature to announce to registered users that the ORCID plugin is in use. As a part of such an announcement you may wish to point users to the [About the ORCID plugin page](./introduction.md) in case they are unfamiliar with ORCID. If your journal has a social media presence or newsletter you can also inform users through those means as well.
 
-**Please note**: If you are enabling the plugin for more than one journal or preprint server, you can repeat these steps and use the same Client ID and Client Secret for each, just make sure that the Client Name assigned to the credentials is broad enough to cover all journals or preprint servers, since the same Client Name will appear as the source of information for all the  journals when data is written to ORCID records. For example: the Client Name associated with API credentials used for multiple journals would need to be something like “ABC University journal hosting service,” whereas credentials used for a single journal can be the name of the journal. If you want to have different Client Names for each journal, you will need to use different API credentials for each journal. If you need help checking or changing your Client Name, contact support@orcid.org.)
+## Plugin functionality
 
-### Production Public API
+The ORCID plugin allows to perform the functions outlined below. Some of these will happen automatically once the plugin is enabled and set up. Others require an additional action on editors' or authors' part.
 
-Public ORCID API credentials are connected to an individual’s ORCID iD. If you are using the Public ORCID API, you can obtain your own production Public API credentials via your personal ORCID iD account. To obtain production Public API credentials, sign in to your ORCID record at [https://orcid.org/signin](https://orcid.org/signin), go to the “Developer tools” tab, and follow the instructions to [Register a public API client application](https://support.orcid.org/hc/en-us/articles/360006897174-Register-a-public-API-client-application). Once you complete the form and click Save, your production Client ID and Client Secret will be generated.
+### Authors can connect their ORCID iDs to their OJS accounts
 
-### Production Member API
+Users (including authors and contributors) can do this in 2 ways:
 
-Production Member API credentials are tied to member organizations. If you are using the Member ORCID API, you will need to schedule an integration review with ORCID to demo your plugin in the sandbox, following the instructions on [ORCID’s member API credentials checklist](https://members.orcid.org/api/member-api-credentials-check-list). Once the review is complete, you can obtain production API credentials from ORCID by completing the form to [Register a client application: Production Member API - Trusted Party](https://orcid.org/content/register-client-application-production-trusted-party). Once you submit the form, ORCID will email your production member Client ID and Client Secret to you.
+* During a new account registration by clicking “Create or Connect your ORCID iD”
 
-## Enable and Configure the ORCID Profile Plugin in OJS/OPS in Production
+![New account registration form with Create or Connect your ORCID iD button outlined.](./assets/Register_connect_ORCID.png)
 
-Once you have your ORCID production API credentials, you will need to go back to your ORCID plugin settings and replace the sandbox credentials with your production credentials. From there, the plugin will work with the live ORCID registry.
+* For existing accounts - by clicking “Create or Connect your ORCID iD” in the Profile > Public. For details, see this [video walkthrough of profile authentication](https://vimeo.com/374415404).
 
-### Inform your Stakeholders
+![User profile's public tab with Create or Connect your ORCID iD button outlined.](./assets/Profile_connect_ORCID.png)
 
-Once your ORCID plugin is enabled and in production, you might want to let your stakeholders (authors, journal managers, etc.) know that the ORCID plugin is now available, and make sure they know what ORCID is and how it can help them.  There are a variety of ways to do this. One such way is by using the OJS announcement feature to announce to registered users that the ORCID plugin is in use. As a part of such an announcement you may wish to point users to the ["What is ORCID” page](./introduction) in case users are unfamiliar with ORCID. If your journal has a social media presence or newsletter you can also inform users through those means as well.
+### Editors can invite contributors to connect their ORCID iDs to the publication
 
-## More tips for Journal Managers / Editors
+To invite co-authors/contributors to connect their ORCID iDs, check the checkbox "Send email to request ORCID authorization from contributor" from the Contributor’s Edit screen. For details, see this [video walkthrough of contributor invitation](https://vimeo.com/374416189).
 
-### Request ORCID authentication upon issue publication
+![Contributor edit screen with an outlined checkbox to send email to request ORCID authorization.](./assets/Request_ORCID_contributor.png)
 
-The Editor can do this at any point:
-You can configure the ORCID plugin settings to send an email automatically to authors requesting ORCID authorization when an article is published.
+### ORCID plugin can send automatic request to contributors to connect their ORCID iDs
 
-You can also request ORCID authorization from authors by doing the following:
+As an alternative to manually inviting contributors to connect their ORCID iDs, the Journal Manager/Administrator can configure the ORCID plugin to send out automatic emails to contributors. To do so, in the plugin email settings check the checkbox "Send email to request ORCID authorization from authors when an article is accepted".
 
-1. Open the metadata for the article at any stage of the submission workflow.
-2. Scroll down to contributors list.
-3. Click on the contributor name whose ORCID authorization you want to request. ORCID iDs added without authentication will display an authentication request message (In OJS 3 versions previous to 3.1.2, it was possible to add unauthenticated ORCID ids).
-4. Check off “Send email to request ORCID authorization from contributor.” This will send an automated email to the contributor asking them to authorize their ORCID iD.
+![ORCID plugin screen with the outlined checkbox to send email to request ORCID authentication from authors.](./assets/orcid_plugin_auto_emails.png)
 
-### Alter an Existing Article to Include an Existing ORCID iD
+### ORCID plugin will display contributors' ORCID iDs on publication page
 
-For a visual overview of this process, please see [this video](https://vimeo.com/374417678).
+Contributor’s authenticated ORCID iDs will be publicly displayed on the journal article or preprint page, which will link to the contributor’s ORCID record.
+
+![Article page displaying authenticated iDs under each of the three contributors' names.](./assets/orcid-id-example.png)
+
+### ORCID plugin will display article information in author’s ORCID record (Member API only)
+
+In addition to all of the above functionalities available in both Public and Member APIs, journals/preprint servers using ORCID Member API will automatically send article information to the author’s ORCID record upon publication. For details, see the [video walkthrough of article publication with ORCID Member API](https://vimeo.com/374417678).
+
+![Article information displayed in an author's ORCID record.](./assets/orcid_in_author_record.png)
+
+When a work is added to an ORCID record, the "source" is displayed as well. If a person adds a work to their own record, the "source" will be the person's name. If a work is added via API as in the case of OJS, the "source" will appear as whatever "client name" is entered when the ORCID API credentials are requested. If the ORCID plugin is being used for just a single journal, the source/client name is usually just the name of the journal. If the ORCID plugin is used for multiple journals on the same instance, then the source/client name would need to be something more broad, like "Univ. of XYZ Open Journals."
+
+![Article information and the source of an entry displayed in an author's ORCID record.](./assets/orcid-publication-source.png)
+
+*Please note:* that the information on the source of the publication does not currently work for OPS.
+
+### Alter an existing article to include an ORCID iD
+
+For a visual overview of this process, see the [video walkthrough of article publication.](https://vimeo.com/374417678).
 
 ### Remove an ORCID iD from a user account
 
