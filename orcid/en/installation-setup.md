@@ -1,35 +1,79 @@
-# Installation and Setup
+# Setup the ORCID plugin
 
-To use the plugin, you will first need to obtain either Public or Member ORCID API credentials (Client ID and Client Secret) and then configure the ORCID Profile Plugin in OJS/OPS with this information. **Please note**: do not enable the plugin until you have the credentials and are ready to setup the plugin.
+To use the plugin, you will first need to obtain either Public or Member ORCID API credentials (Client ID and Client Secret) and then configure the ORCID Profile Plugin in OJS/OPS with this information. 
 
-## Obtain ORCID Sandbox API Credentials
+This chapter explains how to obtain production (live) credentials and add them to the ORCID plugin in your OJS/OPS. We recommend that before using the live credentials, you test the plugin with Sandbox credentials first. For details on how to do that see the [Appendix: Testing the ORCID Sandbox](./appendix-testing-orcid-sandbox.md) chapter.
 
-You are strongly advised  to test the ORCID plugin in the ORCID Sandbox environment using Sandbox ORCID API credentials first to make sure that the OJS/OPS environment is configured  properly, before moving to the production environment and going live with the plugin functionality. The process for obtaining your Sandbox ORCID API credentials will vary depending on whether you are planning to use the ORCID Public API or the ORCID Member API. 
+**IMPORTANT: do not enable the plugin until you have the credentials and are ready to setup the plugin.**
 
-ORCID provides two different API endpoints for: sandbox (testing) and production (live) environments: the ORCID Member API, and the ORCID Public API:
+## Request Public API credentials
 
-### Public API
+### 1. Register for an ORCID iD
 
-Free and available to anyone, the Public API allows for ORCID iD authentication and reading public data from ORCID records.
+ORCID iD registration is free and only requires your name and email.
 
-Public API credentials are connected to an individual’s ORCID iD. To obtain Sandbox Public API credentials:
+If you already have an ORCID iD, skip to [2. Sign into your ORCID iD](#sign-into-your-orcid-id).
 
-1. Register for a Sandbox ORCID iD account at the [ORCID sandbox site](https://sandbox.orcid.org).
-2. Sign in to your Sandbox ORCID record.
-3. Go to the “Developer tools” tab, and follow the instructions to [register a public API client application](https://support.orcid.org/hc/en-us/articles/360006897174-Register-a-public-API-client-application). See the note on “ORCID Redirect URIs” below for guidance on what to enter for your Redirect URIs.
+1.  Navigate to [https://orcid.org/](https://orcid.org/)
+2.  Click on [SIGN IN / REGISTER](https://orcid.org/signin) menu on top right
+![ORCID homepage with sign in / register button pointed out.](./assets/orcid_signup.png)    
 
-### Member API
+3.  Create an account with your email or sign in with your institutional account (if your institution is set up for ORCID single sign on).
+    
+![ORCID sign in page with an emphasis on registration option.](./assets/orcid_signup_register.png)    
+  
+4.  If you need further registration guidance, the [Register your ORCID page](https://support.orcid.org/hc/en-us/articles/360006897454-Register-your-ORCID-iD) contains detailed step by step instructions.
+    
+### 2. Sign into your ORCID iD
 
-The ORCID Member API requires ORCID institutional membership. In addition to the functionalities of the Public API, the Member API allows for reading “trusted-parties” data from ORCID records, as well as adding/updating metadata on ORCID records. Consult the ORCID member directory to see if your organization is already an [ORCID member](https://orcid.org/members), or review [ORCID’s membership information](https://orcid.org/about/membership) if your organization is interested in becoming an ORCID member.
+1.  Navigate to [https://orcid.org/](https://orcid.org/)
+    
+2.  Click on [SIGN IN / REGISTER](https://orcid.org/signin) menu on top right
+    
+3.  Sign in with your existing email account or via your institutional credentials (if your institution is set up for ORCID single sign on)
+    
+![ORCID sign in page with email or ORCID iD and password fields emphasized.](./assets/orcid_signin.png)  
+ 
+### 3. Navigate to Developer Tools
 
-Member API credentials are connected to an ORCID member organization. Your organization must be an ORCID member to request Member API credentials. You may wish to check whether your organization belongs to a [local consortium](https://orcid.org/consortia), as you may be able to receive help from the consortium. To request Sandbox Member API credentials:
+Click on your name on top right and select “Developer Tools” from the drop-down.
+![ORCID record with account name dropdown expanded and Developer Tools selected.](./assets/orcid_dev_tools.png)  
 
-1. Complete the form on ORCID’s page to [Register a client application: Sandbox Member API](https://orcid.org/content/register-client-application-sandbox).
-2. ORCID will email you a Sandbox Client ID and Client Secret shortly after the form is submitted. See the note on “ORCID Redirect URIs” below for guidance on what to enter for your Redirect URIs and Client Name.
+### 4. Select to register for the Public API
 
-For those using the Member API, please note that before production credentials can be obtained, you will need to provide a demo showing the plugin working with the ORCID Sandbox. This helps ORCID confirm that you are following their [best practices](https://members.orcid.org/api/member-api-credentials-check-list). Guidance on how to test and make sure your plugin is working properly can be found below in the “Testing in the ORCID Sandbox” chapter of this guide.
+Click on the button “Register for the free ORCID public API”.
 
-### ORCID Redirect URIs
+You will be asked to read and consent to the terms of service.
+
+![ORCID Developer Tools page with the highlighted button Register for the free ORCID public API.](./assets/orcid_dev_tools_register.png)  
+
+### 5. Fill out the registration form
+
+ In the registration form, enter:
+
+* Your journal name
+* Your journal URL
+* A brief message about your journal - it will be displayed to your users when they connect their ORCID iDs
+* Redirect URI - this is the page your users will be taken to after they have authenticated their ORCID iDs. It must begin with “https://” and include the link to the journal. For details and examples see the [ORCID redirect URIs section](#orcid-redirect-uris) below. 
+![ORCID Developer Tools public API request form.](./assets/orcid_dev_tools_form.png)
+
+### 6. Save the form and receive your credentials
+
+1.  Click on the save icon on bottom right to save the form.
+    
+![ORCID Developer Tools public API request form with the save icon pointed out.](./assets/orcid_dev_tools_form_save.png)
+
+2.  Your credentials (Client ID and Client Secret) will be displayed right away. 
+Copy these credentials into the OJS/OPS ORCID Profile Plugin as explained below.
+![ORCID Developer Tools public API request form with Client ID and Secret displayed.](./assets/orcid_dev_tools_form_credentials.png)
+
+## Request Member API credentials
+
+Member API credentials are connected to an ORCID member organization. Your organization must be an ORCID member to request Member API credentials. If your journal is affiliated with an institution, contact the institution's library to ask about ORCID membership and API credentials. You may also wish to check whether your organization belongs to a [local consortium](https://orcid.org/consortia), as you may be able to receive help from the consortium. You can also contact ORCID directly at support@orcid.org.
+
+To request your Member API credentials, complete the form to [Register a client application: Production Member API - Trusted Party](https://orcid.org/content/register-client-application-production-trusted-party). Once you submit the form, ORCID will email your production member Client ID and Client Secret to you.
+
+### ORCID redirect URIs
 
 When you register for ORCID API credentials, you will need to enter at least one Redirect URI, which is the journal location that your users will be sent to after authorizing OJS/OPS to connect to their ORCID record, The URI must begin with “https://” and include the link to the journal as part of the URI. For example:
 
@@ -45,7 +89,7 @@ For more detail on Redirect URIs, see the ORCID support page for [Public APIs](h
 
 When registering for Sandbox or [Production Member API](https://orcid.org/content/register-client-application-production-trusted-party) credentials through ORCID, although there appears to be a limit of five redirects, you can add as many as you like to the ‘notes to ORCID’ section. If you ever need to adjust, add, or remove URIs, you can resubmit the form and indicate that it is for an existing application.
 
-## Enable and Configure the ORCID Profile Plugin in OJS/OPS
+## Enable and configure the ORCID Profile plugin in OJS/OPS
 
 After you have obtained your Client ID and Client Secret from ORCID, you can enable and configure the plugin in OJS/OPS.
 
@@ -66,13 +110,18 @@ If you want to enable the ORCID plugin for a single journal (OJS) or preprint se
 
 1. When logged in to OJS/OPS as an administrator, go to Settings > Website > Plugins
 2. Under Installed Plugins find the ORCID plugin
-3. Click the blue arrow to the left of the plugin name to make “Settings” appear, then open Settings. Enter information about your ORCID API credentials.
+3. Check the checkbox to enable to plugin
+4. Click the blue arrow to the left of the plugin name to make “Settings” appear, then open Settings. Enter information about your ORCID API credentials.
+
+![OJS ORCID plugin with client ID and secret entered.](./assets/orcid_plugin_setup.png)
+
+For a visual walkthrough see this [ORCID plugin setup video](https://vimeo.com/374414746).
 
 #### Email Settings
 
-Under “E-Mail Settings” you can tick the checkbox to “Send e-mail to request ORCID authorization from article authors on publication of a new issue.” If checked, OJS/OPS will send an email automatically to authors who have not already linked their ORCID iDs when the article is published asking them to link their iDs. This request will be sent using the “ORCID Collect Author Id” email template (public API) or “ORCID Request Author Authorization” (member API).
+Under “E-Mail Settings” you can tick the checkbox to “Send e-mail to request ORCID authorization from authors when an article is accepted.” If checked, OJS/OPS will send an email automatically to authors who have not already linked their ORCID iDs when the article is published asking them to link their iDs. This request will be sent using the “ORCID Collect Author Id” email template (Public API) or “ORCID Request Author Authorization” (Member API).
 
-![Image of plugin configuration](./assets/orcid-api-config.png)
+![OJS ORCID plugin with checkbox checked to send email to request ORCID authorization from authors.](./assets/orcid_plugin_auto_emails.png)
 
 ### Site-wide Setup
 
