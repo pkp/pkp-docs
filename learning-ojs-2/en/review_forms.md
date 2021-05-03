@@ -4,13 +4,9 @@ By default, Reviewers will have a text form to add their comments on the submiss
 
 To create a new Review Form, select **Review Forms** from the Management Pages menu.
 
-
-
 ![Management Pages: Review Forms](images/chapter5/jm_review_forms_.png)
 
 Click on **Create Review Form** link
-
-
 
 ![Review Forms](images/chapter5/review_forms_home.png)
 
