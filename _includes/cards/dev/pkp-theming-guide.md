@@ -5,4 +5,4 @@ An introduction to building custom themes for OJS and OMP, for web developers wh
 
 ---
 
-<span class='fa fa-language'></span> Available in [Português Brasileiro](/pkp-theming-guide/pt-br/).
+<span class='fa fa-language'></span> Available in [Português Brasileiro](/pkp-theming-guide/pt/).
