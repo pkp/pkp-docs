@@ -1,5 +1,5 @@
 ---
-book: learning-ojs
+book: apprendre-ojs
 version: 3.1
 ---
 
@@ -13,41 +13,41 @@ This section helps you enhance your search engine optimization.
 
 ![Distribution settings search indexing tab showing description and custom tags options.](./assets/learning-ojs3.1-jm-settings-dist-index.png)
 
-Use **Description** to provide a brief description of your journal for search engines.
+Utilisez **Description** pour fournir une brève description de votre revue aux moteurs de recherche.
 
-Use **Custom Tags** to add custom HTML header tags to the header of every page of your journal, which can help your site get indexed by search engines. Tags need to be added as HTML elements. If you simply enter words they will appear at the top of every page of your site instead of in the site's metadata. Here is an example of text that could be entered in this field:
+Utilisez **Balises Personnalisées** pour ajouter des balises d'en-tête HTML personnalisées à l'en-tête de chaque page de votre revue, ce qui peut aider votre site à être indexé par les moteurs de recherche. Les balises doivent être ajoutées en tant qu'éléments HTML. Si vous entrez simplement des mots, ils apparaîtront en haut de chaque page de votre site plutôt que dans les métadonnées du site. Voici un exemple de texte qui pourrait être saisi dans ce champ:
 
 ```
 <meta name="description" content="The Journal of Public Knowledge. Publication of the Public Knowledge Project - PKP and Simon Fraser University - SFU" /><meta name="keywords" content="open access, scholarly publishing, open source software, non-profit organizations, scholarly journals, free software" /><meta name="author" content="metatags generator"><meta name="robots" content="index, follow"><meta name="revisit-after" content="3 month">
 ```
 
-## Access
+## E-mails
 
-Under the Access tab you can configure whether you want your journal contents to be open access, available by subscription, or a combination. By default, the open access option is selected. However, if you wish to use OJS for a subscription journal, choose the second option (see next section on Payments for further information).
+Sous l'onglet Accès, vous pouvez configurer si vous souhaitez que le contenu de votre revue soit en accès ouvert, disponible par abonnement, ou une combinaison. Par défaut, l'option d'accès ouvert est sélectionnée. However, if you wish to use OJS for a subscription journal, choose the second option (see next section on Payments for further information).
 
 ![Distribution settings access tab showing access to journal content options.](./assets/learning-ojs3.1-jm-settings-dist-access.png)
 
-If you are only using OJS to manage your submission workflow and not publish your content, you can select "OJS will not be used to publish the journal's contents online."
+Si vous n'utilisez OJS que pour gérer votre flux des travaux de soumission et ne pas publier votre contenu, vous pouvez sélectionner «OJS ne sera pas utilisé pour publier le contenu de la revue en ligne».
 
-OJS allows you to configure how and when content can be accessed at an article and issue level. When you create an issue, there is a tab called **Access** under which you can set the **Access Status** as **Subscription** or **Open Access**.
+OJS vous permet de configurer comment et quand le contenu peut être consulté au niveau d'un article et d'un numéro. Lorsque vous créez un numéro, il existe un onglet appelé **Accès** sous lequel vous pouvez définir le **Statut d'Accès** sur **Abonnement** ou **Accès Ouvert** .
 
-If you set it as **Subscription**, underneath that a box will appear where you can optionally enter an **Open Access Date**, at which the content will become open access.
+Si vous le définissez comme **Abonnement**, en dessous, une boîte apparaîtra dans laquelle vous pouvez éventuellement entrer une **Date d'Accès Ouvert**, à laquelle le contenu aura un accès ouvert.
 
-Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbox will appear beside each article under **Open Access**, where you can optionally set individual articles as open access, even if the rest of the issue remains available by subscription.
+Une fois que vous l'avez défini comme **Abonnement**, dans l'onglet **Table des Matières**, une case à cocher apparaîtra à côté de chaque article sous **Accès Ouvert**, où vous pouvez éventuellement définir des articles individuels en accès ouvert, même si le reste du numéro reste disponible par abonnement.
 
-## Payments
+## Bibliothèque de l'éditeur
 
-OJS provides the ability to collect online payments and manage subscriptions and author fee payments.
+OJS offre la possibilité de collecter des paiements en ligne et de gérer les abonnements et les paiements des frais d'auteur.
 
-Using the Paypal plugin, you can accept payments through Paypal, or you can accept manual payments (such as cheque, email transfer, etc.), but they must be made outside of OJS and are not automatically recorded in OJS.  If you would like to use a different payment service you will have to create your own plugin.
+Using the Paypal plugin, you can accept payments through Paypal, or you can accept manual payments (such as cheque, email transfer, etc.), but they must be made outside of OJS and are not automatically recorded in OJS.  Si vous souhaitez utiliser un autre service de paiement, vous devrez créer votre propre plugiciel.
 
-### Enable Payments
+### Activer les Paiements
 
 To use payments and subscriptions features, you first have to enable payments.
 
 If you plan to accept Paypal and/or manual payments, go to Website Settings > Plugins and enable the Paypal Fee Payment Plugin and Manual Fee Payment Plugin.
 
-If you plan to make your journal or articles available by subscription, go to Distribution Settings > Access and check off “The journal will require subscriptions to access some or all of its contents.”
+Si vous prévoyez de rendre votre revue ou vos articles disponibles par abonnement, accédez à Paramètres de Distribution > Accès et cochez "La revue nécessitera des abonnements pour accéder à tout ou just une partie de son contenu."
 
 ![Distribution settings access tab showing access to journal content options.](./assets/learning-ojs3.1-jm-settings-dist-access.png)
 
@@ -55,7 +55,7 @@ Then go to Payments (the next tab) and check off “Payments will be enabled for
 
 ![Payment method and Paypal payment settings fields.](./assets/learning-ojs3.1-jm-settings-dist-pay.png)
 
-Select the currency you will use.
+Sélectionnez la devise que vous utiliserez.
 
 Select a fee payment method.
 
@@ -65,19 +65,19 @@ If you select Paypal Fee Payment, additional fields will appear.  You need to ge
 
 If you select Manual Fee Payment, a field will appear where you can enter instructions that will appear to users who are making a manual payment.  For example, “Send a cheque payable to the Public Knowledge Project” to )))))”
 
-Click Save.
+Cliquez sur Enregistrer.
 
 A new menu item will appear on the main dashboard menu called “Payments” (or “Subscriptions,” depending on which version of OJS you are using).
 
 ![OJS dashboard with Payments menu item on the left.](./assets/learning-ojs3.1-jm-settings-dist-payments-menu.png)
 
-Go to the [Subscriptions Chapter](./subscriptions.md) for further instructions on managing subscriptions and payments.
+Accédez au [Chapitre Abonnements](./subscriptions.md) pour obtenir des instructions supplémentaires sur la gestion des abonnements et des paiements.
 
-### Donations
+### Dons
 
-In OJS 3.x there is not an option to set up a payment type for donations, to manage donations with the Payments module, or to use the Paypal plugin to accept donations. You can add the Donations block to your sidebar, but it will have to link to an external site where donation payments can be made.
+In OJS 3.x there is not an option to set up a payment type for donations, to manage donations with the Payments module, or to use the Paypal plugin to accept donations. Vous pouvez ajouter le bloc Dons à votre barre latérale, mais il devra être lié à un site externe où les paiements de dons peuvent être effectués.
 
-## Permissions
+## Générateur de rapports
 
 This section covers copyright issues for your journal.
 
@@ -89,8 +89,8 @@ Check the box to require authors to agree to your copyright statement.
 
 **Base new article's copyright year on**: Choose whether the copyright date is based on the issue \(under a traditional, issue-based publishing model\) or on the article \(based on a continuous publishing model\).
 
-**Copyright Holder**: Select who holds copyright to the articles published by your journal. The trend in open access publishing is to allow authors to retain copyright of their work.
+**Titulaire des Droits d'Auteur**: sélectionnez qui détient les droits d'auteur des articles publiés par votre revue. La tendance dans la publication en accès ouvert est de permettre aux auteurs de conserver les droits d'auteur de leur travail.
 
-**License**: Select the license for your journal. CC Attribution 4.0 is a widely used license for open access journals, allowing for maximum sharing and reuse.
+**Licence** : sélectionnez la licence de votre journal. CC Attribution 4.0 est une licence largement utilisée pour les revues en accès ouvert, permettant un partage et une réutilisation maximum.
 
 **Reset Article Permissions**: If you journal later changes its licensing policy, use this button to reset the copyright on all published content.
