@@ -3,13 +3,13 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Distribution Settings
+# الفصل 7: المستخدمون والأدوار
 
 The Distribution Settings focus on access to and visibility of your journal. The tabs consist of License, Search Indexing, Payments, Access, and Archiving.
 
 Please note that if your journal is multilingual and you have Forms enabled for multiple languages in the language settings, you will have to configure some of this information for each language. You can switch to another languages by selecting the language under the Help link on the top right.
 
-## License
+## المستخدمون
 
 In this section you can configure copyright and licensing terms for your journal's content.
 
@@ -29,7 +29,7 @@ This default can be overridden on a case-by-case basis.
 
 **License Terms**: Enter any additional license terms you would like to display alongside the license selected above on the published article page.
 
-## Search Indexing
+## الأدوار
 
 This section helps you enhance your search engine optimization and make your content more discoverable.
 
@@ -47,7 +47,7 @@ Use **Custom Tags** to add custom HTML header tags to the header of every page o
 <meta name="revisit-after" content="3 month">
 ```
 
-## Payments
+## خيارات الوصول في الموقع
 
 OJS provides the ability to collect online payments and manage subscriptions and author fee payments.
 
