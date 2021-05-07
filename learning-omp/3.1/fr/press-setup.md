@@ -17,11 +17,11 @@ You can find the Settings in the left menu panel when you are logged in as a use
 
 ![The Press settings main panel with sample settings.](./assets/learning_omp-press_setup_2.png)
 
-### Masthead
+### Bloc Générique
 
 Enter and edit information about your press, including press name, editorial team, and about the press. All Masthead information will appear under pages in the About menu on your press website.
 
-### Contact
+### Coordonnées
 
 This section contains the primary contact information you provided when originally creating your press and includes a technical support contact option. You can also add a mailing address. All contact information will appear on the Contact page under the About menu on your press website.
 
@@ -61,33 +61,33 @@ Using the double arrow beside the Series title, drag the series in order and cli
 
 See the [Catalog and Displaying Content chapter](./catalog-management.md) for instructions on how to add books to series.
 
-### Categories
+### Catégories
 
 Categories can be used to group and display books according to the subject matter or themes — for example, economics, literature, and poetry. Categories may be nested within "parent" categories in a hierarchy. Categories can be displayed as a browse block on your press site, and readers can select a category to view all books in that category.
 
-You can place an article in a category by editing its metadata, which is explained in the Catalog and Displaying Content chapter. This section explains how to create and edit categories.
+You can place an article in a category by editing its metadata, which is explained in the Catalog and Displaying Content chapter. Cette section explique comment créer et modifier des catégories.
 
 #### Create a category
 
-1. Click Add Category
-2. Enter a name for your category that will be displayed to readers
-3. Enter a path for the category’s URL on your site
+1. Cliquez sur Ajouter une Catégorie
+2. Entrez un nom pour votre catégorie qui sera affiché aux lecteurs
+3. Entrez un chemin pour l'URL de la catégorie sur votre site
 4. Enter a description that will appear above the list of articles in the category
 5. Change the order of the articles by date or title (optional)
 6. Add an image that will appear at the top of the category’s page (optional)
-7. Click Save
+7. Visitez [https://doaj.org/](https://doaj.org/) et connectez-vous pour télécharger le fichier XML qui a été créé lors du processus d'exportation
 
 #### Edit a category
 
-1. Click the name of the category you want to edit
-2. Make the changes
-3. Click OK
+1. Cliquez sur le nom de la catégorie que vous souhaitez modifier
+2. Faites les changements
+3. Cliquez sur OK
 
 #### Remove a category
 
-1. Click the blue arrow next to the category you want to remove
-2. Click the Remove button that appears below
-3. Confirm that you want to remove the category
+1. Cliquez sur la flèche bleue à côté de la catégorie que vous souhaitez supprimer
+2. Cliquez sur le bouton Supprimer qui apparaît ci-dessous
+3. Confirmez que vous souhaitez supprimer la catégorie
 
 #### Display categories
 
@@ -97,13 +97,13 @@ To display categories on your website you can go to Website Settings > Appearanc
 
 See the Catalog and Displaying Content chapter for instructions on how to add books to categories.
 
-## Website Settings
+## Paramètres de la Revue
 
 Please refer to the [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on Website Setting applicable to OMP.
 
 Please note that some plugins for OJS are not available for OMP.
 
-## Workflow Settings
+## Paramètres du site Web
 
 Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes.
 
