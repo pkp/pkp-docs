@@ -10,8 +10,8 @@ En général, vous voulez que vos autorisations soient définies de manière à 
 
 Commencez par vérifier quelle API de serveur PHP utilise sur votre serveur. Si OJS, OMP ou OCS est déjà installé, connectez-vous en tant que Directeur/trice du Site, cliquez sur «Informations système», et au bas de la page, cliquez sur «Informations PHP étendues». Trouvez la ligne qui dit «API du serveur». Selon l'API que vous utilisez (mod_php / SAPI ou CGI / FastCGI), les autorisations doivent être définies comme suit.
 
-- mod_php / SAPI: Dans cette configuration, tous les scripts PHP sur le système s'exécutent généralement sous le même nom d'utilisateur (généralement les comptes "nobody" ou "www-data" d'Apache). Soyez averti que cela peut être non sécurisé sur un hôte partagé. Les répertoires files_dir (configuré dans config.inc.php), cache, public, ainsi que tous les contenus et sous-répertoires doivent être accessibles en écriture et en lecture par l'utilisateur du serveur Web. Le fichier de configuration config.inc.php doit être accessible en lecture par l'utilisateur du serveur Web.
-- CGI / FastCGI: Dans cette configuration, les scripts PHP s'exécuteront généralement sous votre compte utilisateur (quoique les configurations de serveur puissent varier). Cela peut être une configuration bien sécurisée. Le files_dir (configuré dans config.inc.php), le répertoire de cache, le répertoire public et tous les contenus et sous-répertoires doivent être accessibles en écriture et en lecture par ce compte utilisateur. Le fichier de configuration config.inc.php doit être accessible en lecture par ce compte.
+* mod_php / SAPI: Dans cette configuration, tous les scripts PHP sur le système s'exécutent généralement sous le même nom d'utilisateur (généralement les comptes "nobody" ou "www-data" d'Apache). Soyez averti que cela peut être non sécurisé sur un hôte partagé. Les répertoires files_dir (configuré dans config.inc.php), cache, public, ainsi que tous les contenus et sous-répertoires doivent être accessibles en écriture et en lecture par l'utilisateur du serveur Web. Le fichier de configuration config.inc.php doit être accessible en lecture par l'utilisateur du serveur Web.
+* CGI / FastCGI: Dans cette configuration, les scripts PHP s'exécuteront généralement sous votre compte utilisateur (quoique les configurations de serveur puissent varier). Cela peut être une configuration bien sécurisée. Le files_dir (configuré dans config.inc.php), le répertoire de cache, le répertoire public et tous les contenus et sous-répertoires doivent être accessibles en écriture et en lecture par ce compte utilisateur. Le fichier de configuration config.inc.php doit être accessible en lecture par ce compte.
 
 #### Comment est ce que Linux fait cela?
 
@@ -59,17 +59,17 @@ Cela est probablement dû au fait que votre serveur identifie votre fichier HTML
 
 OJS, OMP et OCS utilisent trois méthodes afin de déterminer un type de fichier, dans l'ordre suivant:
 
-- La fonction mime_content_type de PHP, qui utilise le fichier magic.mime de votre système (cette méthode est obsolète)
-- La suite de fonctions finfo _... de PHP (qui remplace mime_content_type comme méthode préférée)
-- L'outil "fichier" externe, en exécutant ce qui suit:
+* La fonction mime_content_type de PHP, qui utilise le fichier magic.mime de votre système (cette méthode est obsolète)
+* La suite de fonctions finfo _... de PHP (qui remplace mime_content_type comme méthode préférée)
+* L'outil "fichier" externe, en exécutant ce qui suit:
 
 `file -bi [filename here]`
 
 Des problèmes peuvent survenir si:
 
-- vous utilisez la première option mais votre fichier magic.mime ne contient pas assez d'informations sur le type de fichier que vous essayez d'identifier;
-- la configuration de votre serveur ne prend pas en charge les deux premières options;
-- vous n'avez pas des autorisations suffisantes pour exécuter un outil externe comme dans la troisième option.
+* vous utilisez la première option mais votre fichier magic.mime ne contient pas assez d'informations sur le type de fichier que vous essayez d'identifier;
+* la configuration de votre serveur ne prend pas en charge les deux premières options;
+* vous n'avez pas des autorisations suffisantes pour exécuter un outil externe comme dans la troisième option.
 
 Aditionellement, vous pouvez rencontrer des problèmes dus à des fichiers mal formés. Si vous avez des problèmes à reconnaître vos fichiers HTML, vous pouvez les exécuter via [HTML-Tidy](http://www.w3.org/People/Raggett/tidy/) ou autrement vous assurer qu'ils sont au format HTML. Les fichiers HTML créés par des traitements de texte en particulier peuvent avoir du mal à être reconnus comme HTML.
 
@@ -97,45 +97,42 @@ Le but de résoudre les problèmes d'encodage de caractère est de s'assurer que
 ### Introduction aux Ensembles de Caractères et aux Encodages
 
 Les articles suivants fournissent une bonne introduction aux ensembles de caractères et aux encodages:
-
-- [Encodages de Caractère: Concepts Essentiels](https://www.w3.org/International/articles/definitions-characters/)
-- [Le Minimum Absolu que tout Développeur de Logiciel doit Absolument et Positivement savoir sur l'Unicode et les Ensembles de Caractères (Sans Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+* [Encodages de Caractère: Concepts Essentiels](https://www.w3.org/International/articles/definitions-characters/)
+* [Le Minimum Absolu que tout Développeur de Logiciel doit Absolument et Positivement savoir sur l'Unicode et les Ensembles de Caractères (Sans Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
 ### Approche Générale
 
-- Vérifiez les paramètres de la base de données config.inc.php: client, connexion, ensembles de caractères de la base de données
-- Comparez les paramètres de la base de données config.inc.php avec les paramètres de la base de données, c.-à-d.
-- `show variables like 'char%'`
-- `show variables like 'collation%'`
-- Il y a souvent une incompatibilité entre 1. et 2. qui fournit les premiers indices d'incompatibilité
-- Générez deux décharges de base de données:
-- `mysqldump db --opt --default-character-set=latin1 result-file=latin1.sql`
-- `mysqldump db --opt --default-character-set=utf8 result-file=utf8.sql`
-- Explorez chaque fichier de décharge dans vim à l'aide de ses outils d'ecodage de caractère: [https://spin.atomicobject.com/2011/06/21/character-encoding-tricks-for-vim/](https://spin.atomicobject.com/2011/06/21/character-encoding-tricks-for-vim/)
+* Vérifiez les paramètres de la base de données config.inc.php: client, connexion, ensembles de caractères de la base de données
+* Comparez les paramètres de la base de données config.inc.php avec les paramètres de la base de données, c.-à-d.
+ * `show variables like 'char%'`
+ * `show variables like 'collation%'`
+* Il y a souvent une incompatibilité entre 1. et 2. qui fournit les premiers indices d'incompatibilité
+* Générez deux décharges de base de données:
+ * `mysqldump db --opt --default-character-set=latin1 result-file=latin1.sql`
+ * `mysqldump db --opt --default-character-set=utf8 result-file=utf8.sql`
+* Explorez chaque fichier de décharge dans vim à l'aide de ses outils d'ecodage de caractère: [https://spin.atomicobject.com/2011/06/21/character-encoding-tricks-for-vim/](https://spin.atomicobject.com/2011/06/21/character-encoding-tricks-for-vim/)
 
 #### Problème commun n° 1: définitions de table Latin1 avec des données UTF8
 
-Durant la migration depuis une autre institution, vous pouvez recevoir une décharge MySQL qui comprend des définitions de table qui sont définies sur latin1 (c'est-à-dire CREATE TABLE access_keys … DEFAULT CHARSET = latin1) même si les données actuelles enregistrées dans les tables sont UTF8. Vous pouvez config.inc.php sur le serveur d'origine pour confirmer si c'est le cas: si client_charset = utf-8 dans config.inc.php, donc les données seront stockées en UTF8 dans la base de données.
+Durant la migration depuis une autre institution, vous pouvez recevoir une décharge MySQL qui comprend des définitions de table qui sont définies sur latin1 (c'est-à-dire CREATE TABLE access_keys … CREATE TABLE access\_keys … DEFAULT CHARSET = latin1) même si les données actuelles enregistrées dans les tables sont UTF8. Vous pouvez config.inc.php sur le serveur d'origine pour confirmer si c'est le cas: si client_charset = utf-8 dans config.inc.php, donc les données seront stockées en UTF8 dans la base de données.
 
 Par défaut, les journaux sur nos serveurs sont correctement configurés pour utiliser les paramètres UTF8 dans toute la base de données et config.inc.php. L'importation d'une base de données incompatible avec des définitions de table Latin1 et des données UTF8 entraînera des problèmes d'affichage des caractères dans OJS.
 
 Les étapes de conversion et le processus d'importation suivants peuvent être utilisés pour résoudre ces problèmes:
 
 Étapes de conversion:
-
-- demander une décharge mysql latin1 avec `--default-character-encoding=latin1 --result-file=dump.latin1.sql`
-- ouvrez `dump.latin.sql` dans vim
-- supprimer 'SET NAMES latin1' du haut du fichier
-- remplacer les définitions de table latin1 par les définitions de table utf8 via `:%s/CHARSET=latin1/CHARSET=utf8/g`
-- définissez l'encodage du fichier pour le fichier sur utf8 via `:set fileencoding=utf8`
-- enregistrez le fichier sous un nouveau nom de fichier via `:w dump.utf8.sql`
+* demander une décharge mysql latin1 avec `--default-character-encoding=latin1 --result-file=dump.latin1.sql`
+* ouvrez `dump.latin.sql` dans vim
+* supprimer 'SET NAMES latin1' du haut du fichier
+* remplacer les définitions de table latin1 par les définitions de table utf8 via `:%s/CHARSET=latin1/CHARSET=utf8/g`
+* définissez l'encodage du fichier pour le fichier sur utf8 via `:set fileencoding=utf8`
+* enregistrez le fichier sous un nouveau nom de fichier via `:w dump.utf8.sql`
 
 Étapes d'importation:
-
-- créer une base de données utf8 propre: `CREATE DATABASE import\_ojs DEFAULT CHARSET utf8;`
-- changer vers la nouvelle base de données: `USE import\_ojs`
-- définissez tout sur utf8: `SET NAMES utf8;`
-- importez la décharge convertie: `SOURCE dump.utf8.sql;`
+* créer une base de données utf8 propre: `CREATE DATABASE import\_ojs DEFAULT CHARSET utf8;`
+* changer vers la nouvelle base de données: `USE import\_ojs`
+* définissez tout sur utf8: `SET NAMES utf8;`
+* importez la décharge convertie: `SOURCE dump.utf8.sql;`
 
 ... et ainsi de suite, en remplaçant "article_settings" par la table à nettoyer et "setting_value" par la colonne de la table à nettoyer.
 
@@ -147,9 +144,9 @@ Ce problème apparaît lorsque les utilisateurs copient et collent des guillemet
 
 Les étapes suivantes peuvent être utilisées pour résoudre ce problème d'encodage:
 
-- Installez sur votre machine locales [ftfy](https://ftfy.readthedocs.io/en/latest/), étant un outil python, cela va nécessiter que python3 soit installé aussi;
-- Modifiez l'exécutable ftfy en ligne de commande cli.py (cela peut être dans un chemin différent selon votre environnement.): `/usr/local/lib/python3.6/site-packages/ftfy/cli.py`
-- Autour de la ligne 100 ( `$ vim +100 cli.py` ), ajoutez un paramètre supplémentaire 'uncurl_quotes = False' à la fonction fix_file. Cela ressemblera à ce qui suit:
+* Installez sur votre machine locales [ftfy](https://ftfy.readthedocs.io/en/latest/), étant un outil python, cela va nécessiter que python3 soit installé aussi;
+* Modifiez l'exécutable ftfy en ligne de commande cli.py (cela peut être dans un chemin différent selon votre environnement.): `/usr/local/lib/python3.6/site-packages/ftfy/cli.py`
+* Autour de la ligne 100 ( `$ vim +100 cli.py` ), ajoutez un paramètre supplémentaire 'uncurl_quotes = False' à la fonction fix_file. Cela ressemblera à ce qui suit:
 
 ```
 for line in fix_file(file, encoding=encoding,
@@ -158,7 +155,7 @@ for line in fix_file(file, encoding=encoding,
      uncurl_quotes=False):
 ```
 
-- Téléchargez sur votre machine locale le fichier DUMP (ex: client.orig.sql) et vous pourrez exécuter: `$ ftfy --output=client.clean.sql client.orig.sql`
+* Téléchargez sur votre machine locale le fichier DUMP (ex: client.orig.sql) et vous pourrez exécuter: `$ ftfy --output=client.clean.sql client.orig.sql`
 
 #### Solutions de Contournement Manuelles (Dernier Recours)
 
@@ -260,13 +257,13 @@ Vous recevez probablement une erreur similaire à
 
 ... où la partie 'ojs' de l'erreur est le nom de votre base de données tel que spécifié lors de l'installation. Ce qui s'est probablement produit, c'est que vous avez tenté de créer votre base de données et que le programme d'installation a tenté de remplir cette base de données avec les données nécessaires, mais n'a pas pu le faire pour une raison quelconque. Des raisons possibles à cela incluent votre système de base de données (par exemple MySQL) ne permettant pas la création de base de données basée sur le Web; ou autrement ne permettant pas la création de table à grande échelle. La meilleure solution est de:
 
-- restaurez votre `config.inc.php` à l'original (la copie sur `config.TEMPLATE.php` fera cela);
-- créez votre base de données manuellement via phpMyAdmin, CPanel ou similaire, en fonction de ce que votre fournisseur de services fournit;
-- redémarrez le processus d'installation en rechargeant votre page OJS/OMP/OCS root;
-- remplissez tous les champs d'installation comme il convient, en vous assurant que vous écrivez le nom correct pour votre base de données nouvellement créée;
-- décochez l'option "Créer une nouvelle base de données";
-- cliquez sur l'option "Installation manuelle" tout en bas de la page d'installation.
-- copiez la requête de base de données à partir de la page résultante et exécutez-la sur votre base de données via phpMyAdmin ou similaire.
+* restaurez votre `config.inc.php` à l'original (la copie sur `config.TEMPLATE.php` fera cela);
+* créez votre base de données manuellement via phpMyAdmin, CPanel ou similaire, en fonction de ce que votre fournisseur de services fournit;
+* redémarrez le processus d'installation en rechargeant votre page OJS/OMP/OCS root;
+* remplissez tous les champs d'installation comme il convient, en vous assurant que vous écrivez le nom correct pour votre base de données nouvellement créée;
+* décochez l'option "Créer une nouvelle base de données";
+* cliquez sur l'option "Installation manuelle" tout en bas de la page d'installation.
+* copiez la requête de base de données à partir de la page résultante et exécutez-la sur votre base de données via phpMyAdmin ou similaire.
 
 Veuillez noter que lorsque vous cliquez sur le bouton Installation manuelle, la page résultante indiquera que l'installation OJS/OMP/OCS s'est terminée avec succès, mais ce n'est pas tout à fait vrai: vous devez toujours copier les instructions SQL et les ajouter à votre base de données manuellement.
 

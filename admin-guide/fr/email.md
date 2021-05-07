@@ -205,10 +205,10 @@ Pour éviter que cela ne se produise, l'équipe de développement de PKP a adopt
 
 Pour configurer cela correctement, nous suggérons ce qui suit:
 
-- Si vous n'êtes pas déjà sur OJS 2.4.6+, mettez à niveau.
-- Configurez l'adresse email qu'OJS utilisera pour envoyer tous les emails à l'aide du paramètre «Contact Principal» de l'Étape 1.2 de Configuration du Journal.
-    - Si possible, faites en sorte que votre adresse email de contact principal serve de point de contact général pour le journal et qu'elle corresponde au nom de domaine du journal. Par exemple, si votre nom de domaine est "hypothesisjournal.com", essayez d'utiliser une adresse email comme "editor@hypothesisjournal.com".
-- Fournissez un texte explicatif en utilisant le paramètre "En-tête d'Email" à l'Étape 1.4 de Configuration du Journal. Ce texte apparaîtra en haut de chaque email généré par le système. N'oubliez pas que ces emails sont généralement des notifications pour les utilisateurs et doivent être traités comme des emails de notification provenant d'autres systèmes. Nous recommandons le texte suivant:
+* Si vous n'êtes pas déjà sur OJS 2.4.6+, mettez à niveau.
+* Configurez l'adresse email qu'OJS utilisera pour envoyer tous les emails à l'aide du paramètre «Contact Principal» de l'Étape 1.2 de Configuration du Journal.
+  * Si possible, faites en sorte que votre adresse email de contact principal serve de point de contact général pour le journal et qu'elle corresponde au nom de domaine du journal. Par exemple, si votre nom de domaine est "hypothesisjournal.com", essayez d'utiliser une adresse email comme "editor@hypothesisjournal.com".
+* Fournissez un texte explicatif en utilisant le paramètre "En-tête d'Email" à l'Étape 1.4 de Configuration du Journal. Ce texte apparaîtra en haut de chaque email généré par le système. N'oubliez pas que ces emails sont généralement des notifications pour les utilisateurs et doivent être traités comme des emails de notification provenant d'autres systèmes. Nous recommandons le texte suivant:
 
 ```
 Vous recevez cet email de la part de <nom_du_journal>. En cas de demande de réponse, vous pouvez répondre directement à cet email.

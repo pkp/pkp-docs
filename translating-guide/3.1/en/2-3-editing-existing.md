@@ -2,6 +2,7 @@
 book: translating-guide
 version: 3.1
 ---
+
 ## Edit an existing translation
 
 ### Working with XML files
@@ -53,8 +54,7 @@ The following XML entity exists in some, but not all of the XML files that you c
 <locale name="en_US" full_name="U.S. English">
 ```
 
-This should be change to the language you are translating to, eg.
-French:
+This should be change to the language you are translating to, eg. French:
 
 ```
 <locale name="fr_FR" full_name="Français">

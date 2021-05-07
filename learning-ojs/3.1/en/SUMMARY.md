@@ -49,7 +49,7 @@
   * [Roles](./users-and-roles.md#roles)
   * [Site Access Options](./users-and-roles.md#site-access-options)
 * [Chapter 11: Tools](./tools.md)
-  * [Import &amp; Export](./tools.md#importexport)
+  * [Import & Export](./tools.md#importexport)
   * [Report Generator](./tools.md#report-generator)
 * [Chapter 12: Subscriptions](./subscriptions.md)
   * [Subscription Policies](./subscriptions.md#subscription-policies)

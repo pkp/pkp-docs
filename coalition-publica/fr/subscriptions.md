@@ -12,7 +12,7 @@ Connectez-vous en tant que Directeur de la revue ou Administrateur du site, dép
 
 Remplissez le formulaire et appuyez sur “Sauvegarder”. Bien que nous recommandions d’utiliser des informations réelles lors de la création des utilisateurs pour votre revue, ce n’est pas obligatoire. L’important est de remplir les champs obligatoires et de vous rappeler du nom d’utilisateur et du mot de passe que vous avez utilisés pour passer à la prochaine étape.
 
-La deuxième étape de la création d’un utilisateur consiste à lui attribuer un rôle. Dans la liste des “Rôles de l’utilisateur”, assurez-vous de cocher “Gestionnaire d’abonnement”. Sauvegardez.
+La deuxième étape de la création d’un utilisateur consiste à lui attribuer un rôle. Dans la liste des “Rôles de l’utilisateur”, assurez-vous de cocher “Gestionnaire d’abonnement”. Make sure you check “Subscription Manager”. Press “Save” to complete Step #2 of the user creation process.
 
 Ceci complète le processus de création d’un utilisateur. Rappelez-vous du nom d’utilisateur et du mot de passe que vous avez utilisés lors de la création du compte.
 
@@ -30,7 +30,9 @@ Un coup le paramètre renseigné, sauvegardez le fichier.
 
 Déconnectez-vous de votre instance OJS et connectez-vous de nouveau en utilisant les paramètres d’accès du compte Gestionnaire d’abonnement que vous avez créé à l’étape 2.
 
-Allez à votre Profil utilisateur (typiquement disponible dans le coin en haut à droite). Ouvrez l’onglet “​*API Key*”​:
+Allez à votre Profil utilisateur (typiquement disponible dans le coin en haut à droite).
+
+Open the “API Key” tab:
 
 ![](./assets/apiKey.png)
 

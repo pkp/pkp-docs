@@ -15,37 +15,43 @@ Des informations supplémentaires à propos de l'administration d'un site <br>OJ
 
 Pour accéder à la Gestion du Site, connectez-vous en tant qu'Administrateur du Site et choisissez Administration dans le menu à gauche.
 
-![](./assets/learning-ojs3.1-sa-site-admin.png)
+![OJS site admin main menu with 2 options: site management and administrative functions.](./assets/learning-ojs3.1-sa-site-admin.png)
 
 ### Revues Hébergées
 
 À partir de là, choisissez Revues Hébergées. Sur la page résultante, vous verrez toutes les revues de cette installation OJS. Dans l'exemple ci-dessous, il n'y en a qu'une.
 
-![](./assets/learning-ojs3.1-sa-hosted-journals.png)
+![OJS hosted journals menu with 1 existing journal.](./assets/learning-ojs3.1-sa-hosted-journals.png)
 
 Pour modifier la revue existante, cliquez sur la flèche bleue à gauche du nom de la revue. Vous verrez des options pour modifier, supprimer ou mettre à jour les paramètres.
 
-![](./assets/learning-ojs3.1-sa-hosted-journals-edit.png)
+![Existing journal editing options: edit, remove, settings wizard, users.](./assets/learning-ojs3.1-sa-hosted-journals-edit.png)
 
 **Modifier** vous permettra de modifier le titre, la description, ou le chemin.
 
-![](./assets/learning-ojs-3-ch4-hosted-journals-edit-modal.png)
+![Existing journal editing screen with title, description and path fields available to edit.](./assets/learning-ojs-3-ch4-hosted-journals-edit-modal.png)
 
 **Supprimer** vous permettra de supprimer la revue de l'installation. Vous devrez confirmer que vous voulez vraiment supprimer la revue, car c'est irréversible.
 
-![](./assets/learning-ojs-3-ch4-hosted-journals-remove.png)
-
-**Assistant de Paramétrage** vous amènera aux différentes options de paramétrage de cette revue. Nous expliquerons ces paramètres en détail dans les chapitres Paramètres.
-
-![](./assets/learning-ojs-3-ch4-hosted-journals-settings-wiz.png)
+![Confirmation screen for journal deletion.](./assets/learning-ojs-3-ch4-hosted-journals-remove.png)
 
 **Utilisateurs** vous permettra d'ajouter et de gérer les utilisateurs associés à cette revue.
 
-![](./assets/learning-ojs3.1-sa-hosted-journals-users.png)
+Restrict Bulk Emails allows the journal administrator to disable the ability to send bulk emails to certain roles. The bulk email feature can be enabled under [Site Settings > Bulk Emails](#bulk-emails). A journal manager will be unable to send bulk emails to any roles that you select under the “Disable Roles” setting. Use this setting to limit abuse of the email notification feature. For example, it may be safer to disable bulk emails to readers, authors, or other large user groups that have not consented to receive such emails.
+
+![Settings wizard screen with the restrict bulk emails tab selected.](./assets/learning-ojs3.3-admin-restrict-bulk-emails.png)
+
+Nous expliquerons ces paramètres en détail dans les chapitres Paramètres.
+
+![Settings wizard screen with the masthead tab selected.](./assets/learning-ojs-3-ch4-hosted-journals-settings-wiz.png)
+
+**Assistant de Paramétrage** vous amènera aux différentes options de paramétrage de cette revue.
+
+![Users tab with a list of current users.](./assets/learning-ojs3.1-sa-hosted-journals-users.png)
 
 De retour sur la page Revues hébergées, vous pouvez utiliser le lien Créer une Revue pour ajouter une nouvelle revue à cette installation OJS. Ensuite, Remplissez les champs du formulaire résultant avec les nouvelles informations.
 
-![](./assets/learning-ojs-3-ch4-hosted-journals-create.png)
+![Create journal screen with title, description and path fields available to fill out.](./assets/learning-ojs-3-ch4-hosted-journals-create.png)
 
 > Remarque: Si vous ne souhaitez pas que la nouvelle revue soit encore visible, décochez la case *Activer cette revue pour qu'elle apparaisse publiquement sur le site* .
 
@@ -59,7 +65,7 @@ Cela inclut le nom de votre site, un logo de site, un texte d'introduction à vo
 
 Vous aurez la possibilité de fournir des détails sur vos revues à un stade ultérieur.
 
-![](./assets/learning-ojs3.1-sa-site-settings.png)
+![OJS admin menu with site setup tab selected.](./assets/learning-ojs3.1-sa-site-settings.png)
 
 #### Langues
 
@@ -69,59 +75,69 @@ L'Administrateur du Site peut définir la langue par défaut du site et installe
 
 Sous Administration > Paramètres du Site> Langues, vous pouvez voir une liste des langues installées sur votre site, activer les langues, et définir n'importe quelle langue comme langue par défaut de votre site à travers les Paramètres Régionaux, ce qui signifie que c'est la langue que les utilisateurs verront la première fois qu'ils visitent le site.
 
-![](./assets/learning-ojs3.1-sa-languages.png)
+![OJS admin menu with languages tab selected.](./assets/learning-ojs3.1-sa-languages.png)
 
-Pour ajouter une autre langue:
+D'ici, vous pouvez choisir d'activer ou de désactiver divers plugiciels, les rendant disponibles (ou non) à toutes les revues sur cette installation OJS.
 
 1. Cliquez sur Installer les Paramètres Régionaux
 2. Cochez les Paramètres Régionaux que vous souhaitez installer
 3. Cliquez sur Enregistrer
 
-Après l'installation de nouveaux Paramètres Régionaux, vous devrez les activer sur la page Paramétres du Site > Langues. Une configuration supplémentaire de la disponibilité de la langue sur le site peut être effectuée sous Paramètres du Site Web > Langues par Directeur/trice de Revue. Voir le [Chapitre Paramètres du Site Web](./settings-website) pour plus de détails.
+Après l'installation de nouveaux Paramètres Régionaux, vous devrez les activer sur la page Paramétres du Site > Langues.  Une configuration supplémentaire de la disponibilité de la langue sur le site peut être effectuée sous Paramètres du Site Web > Langues par Directeur/trice de Revue. Voir le [Chapitre Paramètres du Site Web](./settings-website) pour plus de détails.
 
 OJS 3.1 n'a pas encore autant de traductions que OJS 2, mais nous nous attendons à avoir plus contribué au fil du temps. Les contributions sont toujours les bienvenues.
 
 #### Plugiciels
 
-D'ici, vous pouvez choisir d'activer ou de désactiver divers plugiciels, les rendant disponibles (ou non) à toutes les revues sur cette installation OJS.
+From here, you can choose to enable or disable various plugins, making them available (or not) to all of the journals on this OJS installation.
 
-![](./assets/learning-ojs3.1-sa-plugins.png)
+![OJS admin menu with plugins tab selected.](./assets/learning-ojs3.1-sa-plugins.png)
 
 #### Menus de Navigation
 
 Utilisez cette section pour modifier les menus de votre site. Vous pouvez en savoir plus sur la configuration des menus dans le chapitre Paramètres du Site Web.
 
-![](./assets/learning-ojs3.1-sa-menus.png)
+![OJS admin menu with navigation menus tab selected.](./assets/learning-ojs3.1-sa-menus.png)
+
+#### Bulk Emails
+
+OJS 3.3 has the option to allow bulk emails to be sent to several user groups in a journal at one time. See [Users and Roles > Email Users](./users-and-roles#email-users). As the site administrator, you can use the site settings to select the hosted journals that will be allowed to send bulk emails.
+
+Note that misuse of this figure to send unsolicited email may violate anti-spam laws in some jurisdictions and may result in your server’s emails being blocked as spam. Seek technical advice before enabling this feature and consider consulting with journal managers to ensure it is used appropriately.
+
+![OJS admin site settings with bulk emails tab selected.](./assets/learning-ojs3.3-site-settings-bulk-emails.png)
+
+It is possible to disable sending bulk emails to certain roles for individual journals under [Hosted Journals](#hosted-journals) > Settings Wizard.
 
 ### Étapes Suivantes
 
-Une fois que vous avez créé un journal et configuré les paramètres du site, vous souhaiterez peut-être créer un compte d'utilisateur pour le/la directeur/trice ou l'éditeur/trice de la revue - voir le [Chapitre Utilisateurs et Rôles](./users-and-roles.md) pour plus de détails.
+Les informations sur le serveur fournissent des détails sur l'environnement du serveur hébergeant votre installation OJS.
 
-<hr>
+<hr />
 
 ## Fonctions Administratives
 
-Cette section fournit des informations détaillées sur le serveur sur lequel votre installation OJS s'exécute.
+Vous pouvez trouver plus d'informations sur les paramètres de configuration de *config.inc.php* dans le fichier lui-même.
 
-![](./assets/learning-ojs3.1-sa-admin-functions.png)
+![OJS site admin main menu with 2 options: site management and administrative functions.](./assets/learning-ojs3.1-sa-admin-functions.png)
 
 ### Informations Système
 
-Utilisez cette section pour obtenir des détails sur le serveur exécutant votre installation.
+Toutes ces informations peuvent être utiles lorsque vous essayez de résoudre un problème.
 
-![](./assets/learning-ojs3.1-sa-sysinfo.png)
+![System information screen displaying current version, version history and server information.](./assets/learning-ojs3.1-sa-sysinfo.png)
 
 Les informations de version d'OJS indiquent la version actuellement installée et l'historique de vos versions, y compris les mises à niveau. Vous pouvez cliquer sur le lien Vérifier les mises à jour pour voir si vous utilisez la version la plus récente d'OJS.
 
-Les informations sur le serveur fournissent des détails sur l'environnement du serveur hébergeant votre installation OJS.
+Cette section fournit des informations détaillées sur le serveur sur lequel votre installation OJS s'exécute.
 
 La section Configuration OJS affiche toutes les options de configuration et leurs valeurs telles qu'elles sont dans *config.inc.php* .
 
-Vous pouvez trouver plus d'informations sur les paramètres de configuration de *config.inc.php* dans le fichier lui-même.
+You can find more information about _config.inc.php_ configuration parameters in the file itself.
 
 La dernière section de cette page affiche des informations supplémentaires sur le serveur: votre système d'exploitation, la version PHP, le serveur, et la base de données. Vous pouvez également afficher plus d'informations PHP en cliquant sur le lien Informations PHP Étendues (cela affiche le résultat de `phpinfo()` )
 
-Toutes ces informations peuvent être utiles lorsque vous essayez de résoudre un problème.
+All of this information can be useful when trying to troubleshoot a problem.
 
 ### Expirer les Sessions d'Utilisateur
 

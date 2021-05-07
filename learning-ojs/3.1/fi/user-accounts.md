@@ -1,135 +1,153 @@
-# Luku 3: Käyttäjätilit
+---
+book: learning-ojs
+version: 3.1
+---
 
-OJS-järjestelmän käyttäjätilit ovat aina sivustokohtaisia. Jos samalla sivustolla ylläpidetään useita julkaisuja, kelpaa sama käyttäjätunnus kaikkiin lehtiin, eli käyttäjän ei tarvitse rekisteröityä uudelleen.
+# Chapter 3: User Accounts
 
-OJS-järjestelmän käyttöoikeuksia ja pääsyä erilaisiin järjestelmän toimintoihin hallitaan käyttäjäroolien avulla. Sama käyttäjä voi olla kirjoittajan roolissa yhdessä julkaisussa ja samaan aikaan toimittajan roolissa toisessa julkaisussa. 
+OJS uses a comprehensive roles system to divide work between users, assign workflows, and limit access to different parts of the system.
 
-Kun käyttäjä on kirjautunut sisään järjestelmään ja siirtyy omaan Hallintapaneeliin, näkymä riippuu niistä rooleista, joita käyttäjälle on annettu.
+Since one installation of OJS can host multiple journals, users can be enrolled in different roles for more than one journal. For example, one person could be both an editor and author for the same journal, as well as being only an author in one journal, a reviewer in another, and an editor in a third.
 
-## Rekisteröityminen
+When a user logs into the system, they will be taken to their Dashboard. From here, they will see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow.
 
-Rekisteröityminen julkaisuun voi olla joissakin tilanteissa suljettu. Kun käyttäjä rekisteröityy OJS-järjestelmän johonkin julkaisuun, hän saa tavallisesti Lukija-roolin. Jotkin julkaisut antavat käyttäjälle mahdollisuuden tarjoutua myös arvioijaksi.
+## Roles in OJS
 
-Kirjoittaja-roolin käyttäjä saa, kun hän lähettää ensimmäisen käsikirjoituksen julkaisuun.
+The OJS workflow revolves around different roles for different users, allowing them access to different parts of the workflow, and different permissions and responsibilities.
 
-Rekisteröityminen julkaisuun alkaa painamalla kohtaa **Rekisteröidy**, joka löytyy tavallisesti lehden kotisivun oikeasta yläkulmasta.
+Major roles include Site Administrator, Journal Manager, Editor, Section Editor, Author, Reviewer, Copyeditor, Layout Editor, Proofreader, and Reader.
 
-![](./assets/learning-ojs-3-registration.png)
+OJS 3 also includes additional roles such as Translator and Designer. You can also create new roles or rename existing ones. More information on configuring roles is available in the [Users and Roles chapter](./users-and-roles.md).
 
-Linkistä avautuu rekisteröitymislomake, johon tulee täyttää pyydetyt tiedot.
+### Site Administrator
+The Site Administrator is responsible for the overall OJS installation, ensuring the server settings are accurate, adding language files, and creating any new journals on the installation. The Site Administrator account is created as part of the installation process. Unlike all other OJS roles, there can only be one Site Administrator.
 
-![](./assets/learning-ojs-3-registration-form-1.png)
+See [Chapter 4: Site Administration](./site-administration.md) for more details.
 
-Kaikki tähdellä merkityt kentät ovat pakollisia tietoja. Näitä ovat tavallisesti etunimi, sukunimi, affiliaatio, mmaa, sähköposti, käyttäjätunnus sekä salasana. Mikäli lehti on monikielinen, valitset lisäksi ensisijaisen kielen.
+### Journal Manager
+The Journal Manager is responsible for setting up the journal web site, configuring the system options, and managing the user accounts. This does not involve any advanced technical skills, but entails filling out web-based forms and uploading files.
 
-![](./assets/learning-ojs-3-registration-form-2.png)
+The Journal Manager also enrolls the Editors, Section Editors, Copyeditors, Layout Editors, Proofreaders, Authors, and Reviewers.
 
-Tämän julkaisun tapauksessa saat automaattisesti Lukija-roolin ja voit myös halutessaisi valita Arvioija-roolin. Lomakkeen kautta ei voi rekisteröityä muihin rooleihin. Mikäli tarvitse jonkin toisen roolin julkaisussa, ota yhteyttä lehden toimittajaan.
+The Journal Manager also has access to the journal's other management features, and can create new Sections for the journal, set up Review Forms, edit the default Emails, view statistics and reports, import and export data, and access the editorial workflow and all journal submissions.
 
-<hr />
+See the Settings chapters for more details.
 
-## Käyttäjäprofiilin muokkaus
+### Author
 
-Käyttäjätilin luomisen jälkeen voit muokata omaa profiilia kirjautumalla sisään järjestelmään ja viemällä hiiren oikeaan yläkulmaan oman käyttäjätunnuksen päälle. Valitse avautuvasta vetovalikosta **Näytä profiili**.
+Authors are able to submit manuscripts to the journal directly through the journal's website. The Author is asked to upload submission files and to provide metadata or indexing information (the metadata improves the search capacity for research online and for the journal). The Author can upload multiple files, in the form of data sets, research instruments, or source texts that will enrich the item, as well as contribute to more open and robust forms of research and scholarship.
 
-![](./assets/learning-ojs3.1-ed-view-profile1.png)
+The Author is able to track the submission through the review and editorial process — as well as participate in the copyediting and proofreading of submissions accepted for publication — by logging in to the journal's website.
 
-Välilehdistä löytyvät kohdat mm. henkilötiedoille, yhteystiedoille, roolivalinnoille, julkiselle profiilille, salasanan vaihdolle sekä järjestelmän lähettämien ilmoitusten hallinnalle.
-
-Rooleja ja ilmoituksia koskevat asetukset koskevat sitä lehteä, jonka sivuilla olet parhaillaan.
-
-## Salasanan vaihtaminen
-
-Jos unohdat salasanan, voit pyytää uuden valitsemalla lehden kotisivun oikeasta yläkulmasta linkin **Kirjaudu** ja avautuvalta sivulta linkin **Unohditko salasanasi?**. Avautuvaan lomakkeeseen annetaan oma sähköpostiosoite, johon järjestelmä lähettää uuden salasanan.
-
-Jos haluat muuttaa salasanaasi, kirjaudu sisään järjestelmään, siirry käyttäjäprofiiliin ja sieltä Salasana-välilehdelle. Anna lomakkeeseen nykyinen salasana ja tämän jälkeen uusi salasana kahdesti ja paina **Tallenna**.
-
-![](./assets/learning-ojs3.1-ed-change-pw1.png)
-
-<hr />
-
-## Roolit OJS-järjestelmässä
-
-OJS-järjestelmän käyttäjien käyttöoikeudet perustuvat käyttäjärooleihin.
-
-Järjestelmän keskeisimmät rooli ovat sivuston hallinnoija, julkaisun hallinnoija, toimittaja, osastotoimittaja, kirjoittaja, arvioija, tekninen toimittaja, taittaja, oikolukija ja lukija.
-
-Julkaisun ylläpitäjä voi luoda myös uusia rooleja omaan julkaisuun ja olemassaolevia rooleja voi nimetä uudelleen.
-
-### Sivuston hallinnoija
-Sivuston hallinnoija ylläpitää koko OJS-järjestelmän asennusta. Sivustolla on vain yksi hallinnoija.
-
-### Julkaisun hallinnoija
-Julkaisun hallinnoija vastaa yksittäisen julkaisun asetuksista ja käyttäjätilien ylläpidosta. Hallinnoija voi esimerkiksi luoda käyttäjätileja ja antaa rooleja oman julkaisun käyttäjille, muokata julkaisun osastoja, vaihtaa julkaisun kieliasetuksia, muokata sähköpostipohjia ja arviointilomakkeita sekä lukuisia muita julkaisun toimintaan liittyviä asetuksia.
-
-Julkaisun hallinnoijan käyttöoikeustaso on *Julkaisun Hallinnoija*.
-
-### Kirjoittaja
-
-Käyttäjä saa käsikirjoituksen lähetyksen yhteydessä Kirjoittaja-roolin. Kirjoittaja pääsee lähettämään käsikirjoitustiedostoja ja lisäämään käsikirjoitusta koskevia kuvailutietoja. Kirjoittaja toimii käsikirjoituksen lähetyksen jälkeen kontaktihenkilönä, jolle toimittaja lähettää tietoja käsikirjoituksen etenemisestä toimitusprosessissa OJS-järjestelmä kautta. Toimitusprosessin aikana kirjoittaja voi lähettää käsikirjoituksesta uusia versioita ja vastata erilaisiin toimituskunnan kysymyksiin käsikirjoitukseensa liittyen.
-
-Kirjoittajan käyttöoikeustaso on *Kirjoittaja*.
-
-Katso tarkemmin [Luku 10: Kirjoittaja](./editorial-workflow.md).
+See the [Authoring chapter](./authoring.md) for more details.
 
 ### Editor
 
-Toimittajilla on pääsy kaikkiin oman julkaisunsa käsikirjoituksiin ja niiden työnkulkuun. Toimittaja vastaa oman lehden toimituksellisesta linjasta määrittelemällä julkaisun asetukset yhteistyössä julkaisun hallinnoijan kanssa.
+The Editor oversees the entire review, editing and publishing process. The Editor, working with the Journal Manager, typically establishes the policies and procedures for the journal.
 
-Toimittaja voi osoittaa käsikirjoituksia osastotoimittajille tai voi toimia itse käsikirjoituksen vastaavana toimittajana. Toimittaja vastaa myös julkaisun numeroiden hallinnoinnista ja julkaisusta.
+In the editorial process, the Editor assigns submissions to the Section Editors to see through Submission Review and Submission Editing. The Editor keeps an eye on the submission's progress and assists with any difficulties.
 
-Toimittajan käyttöoikeustaso on *Julkaisun Hallinnoija*.
+Once review is completed, the Editor typically sees the submission through the Editing process (including copyediting, production, and proofreading) although in some journals this remains the responsibility of the Section Editor in charge of the submission's review process.
 
-Katso tarkemmin [Luku 11: Toimittajat](./editorial-workflow.md).
+The Editor also creates the journal issues, schedules submissions for publication, arranges the Table of Contents, and publishes the issue as part of the Publishing Process. The Editor can restore archived submissions to the active In Review or In Editing lists.
 
-### Osastotoimittaja
+Editors can also access journal settings, users and roles, and tools.
 
-Osastotoimittajat huolehtivat heille osoitettujen käsikirjoitusten toimitusprosessista. Joissakin julkaisuissa tämä koskee vain arviointivaihetta, mutta toisissa kaikkia vaiheita aina tuotantoon asti. Osastotoimittaja voi joissakin julkaisuissa antaa pelkästään ehdotuksia päätöksistä, jolloin toimittaja tekee kaikki lopulliset päätökset. Työtavat riippuvat lehden toimituksellisesta linjasta.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
-Osastotoimittajan käyttöoikeustaso on *Osastotoimittaja*.
+### Section Editor
 
-Katso tarkemmin [Luku 11: Toimittajat](./editorial-workflow.md).
+The Section Editor manages the review and editing of submissions to which they have been assigned. In some cases, a Section Editor who is assigned to see submissions through the Review Process will also be responsible for seeing the submissions that are accepted through the Editing process (that is, through copyediting, production, and proofreading).
 
-### Arvioija
+Often, however, Section Editors only work with the review process, and an Editor, acting in the role of Section Editor, sees the submissions through the Editing process. The journal will have a policy on how the tasks are divided.
 
-Käyttäjä voi päätyä arviojaksi joko ilmoittamalla halukkuutensa rekisteröitymisen yhteydessä tai saamalla kutsun julkaisun toimittajalta tai osastotoimittajalta. Arvioija pääsee lukemaan OJS-järjestelmän kautta arviotavan tekstin ja voi lähettää arviointilomakkeen kautta sitä koskevat kommentit. Arvioija voi myös lähettää arvioon liittyviä liitetiedostoja.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
-Jotkin julkaisut ylläpitävät tietokantaa, johon he keräävät tietoja saamiensa arvioiden laadusta. Tämä arvio esitetään yksinkertaisena tähtiarviointina, johon on pääsy ainoastaan lehden toimituskunnalla.
+### Reviewer
 
-Arvioijan käyttöoikeustaso on *Arvioija*.
+The Reviewer is selected by the Editor or Section Editor to review a submission. Reviewers are asked to submit reviews to the journal's website and are able to upload attachments for the use of the Editor and Author. Reviewers may be rated by Section Editors, again depending on the policies for this journal.
 
-Katso tarkemmin [Luku 12: Arvioijat](./reviewing.md).
+See the [Reviewing chapter](./reviewing.md) for more details.
 
-### Tekninen toimittaja
+### Copyeditor
 
-Tekniset toimittajat vastaavat käsikirjoituksen oikeinkirjoituksesta, selkeydestä sekä teknisistä yksityiskohdista, kuten viitteistä. Kun käsikirjoitus siirtyy teknisen toimituksen vaiheeseen, toimittaja kutsuu teknisen toimittajan hoitamaan omaa osuuttaan. Tekninen toimittaja ei pääse käsikirjoituksen muihin työvaiheisiin. Joissakin julkaisuissa toimittaja tai osastotoimittaja huolehtii itse teknisestä toimittamisesta.
+The Copyeditor edits submissions to improve grammar and clarity, works with authors to ensure everything is in place, ensures strict adherence to the journal's bibliographic and textual style, and produces a clean, edited copy for a Layout Editor or Production Assistant to turn into the galleys that will be in the published format of the journal.
 
-Teknisen toimittajan käyttöoikeustaso on *Avustaja*.
+Some journals have an Editor or Section Editor play this role.
 
-Katso tarkemmin [Luku 11: Toimittajat](./editorial-workflow.md).
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
-### Taittaja
+### Layout Editor
 
-Taittaja muuntaa teknisen toimituksen läpikäyneen käsikirjoitukseen siihen muotoon, jossa se halutaan julkaista. Tämä voi olla esimerkiksi HTML-, PDF- tai XML-tiedosto. Taittotyö tapahtuu OJS-järjestelmän ulkopuolella.
+The Layout Editor transforms the copyedited versions of the submission into galleys in HTML, PDF, XML, etc. -- files which the journal has elected to use for online publication.
+> Note
+> 
+> OJS does not currently provide software for automatically converting word processed documents to galley formats (although a project is in development), so the Layout Editor should have access to and be able to use third-party software packages for creating galleys.
 
-Kun käsikirjoitus siirtyy tuotantovaiheeseen, toimittaja kutsuu taittajan hoitamaan omaa osuuttaan. Taittaja ei pääse käsikirjoituksen muihin työvaiheisiin. Joissakin julkaisuissa toimittaja tai osastotoimittaja huolehtii itse taittamisesta.
+In some cases, the Editor or Section Editor will also serve as Layout Editor.
 
-Taittajan käyttöoikeustaso on *Avustaja*.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
-Katso tarkemmin [Luku 11: Toimittajat](./editorial-workflow.md).
+### Proofreader
 
-### Oikolukija
+The Proofreader carefully reads over the galleys in the various formats in which the journal publishes (as does the author). The Proofreader (and the Author) record any typographic and formatting errors for the Layout Editor to fix.
 
-Oikolukija tarkistaa taitettujen käsikirjoitusten oikeinkirjoituksen ja esittää korjauspyynnöt taittajalle tai toimittajalle. Joidenkin julkaisujen tapauksessa oikuluvun suorittaa kirjoittaja ja/tai toimittaja.
+In the case of some journals, the Editor or Section Editor will also serve as Proofreader.
 
-Oikolukijan käyttöoikeustaso on *Avustaja*.
+See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 
-Katso tarkemmin [Luku 11: Toimittajat](./editorial-workflow.md).
+### Reader
 
-### Lukija
-
-Lukija-rooli on OJS-järjestelmän perusrooli, joka ei sisällä suoranaisesti mitään käyttöoikeuksia. Rooli annetaan kuitenkin kaikille julkaisuun rekisteröityville käyttäjille. Roolin valinta toisessa julkaisussa mahdollistaa esimerkiksi kyseisen julkaisun julkisten tiedotteiden vastaanoton sähköpostitse. Samat ilmoitukset on mahdollista saada myös valitsemalla myös jokin toinen rooli julkaisussa.
-
-Lukijan käyttöoikeustaso on *Lukija*.
+The Reader role is the simplest role in OJS, and has the fewest capabilities. Readers receive a notification email with the publication of each issue, which includes the Table of Contents for that particular issue.
 
 <hr />
+
+## Registering with a Journal
+
+Unregistered visitors to a journal can normally register as a Reader, Author, and/or Reviewer. Journal Managers are able to remove the ability for visitors to self-register, in which case a notice will appear stating that registration is currently closed (see Journal Settings), but Journal Managers can always register users at any time, and for any role.
+
+To register with a journal, click the Register link on the upper right corner.
+
+![](./assets/learning-ojs-3-registration.png)
+
+This will open the Registration Form for you to complete with all required information.
+
+![](./assets/learning-ojs-3-registration-form.png)
+
+All fields with an asterisk (First Name, Last Name, Affiliation, Country, Email, Username, Password, Repeat Password) are mandatory. If the journal is multilingual, you will need to select your preferred language.
+
+You will be automatically registered as a Reader and an Author. You will be given the option to register as a Reviewer as well.
+
+You will not be able to self-register for an Editorial Role (e.g., Editor, Section Editor, Copyeditor, Layout Editor, Proofreader, or Journal Manager). If you need to be enrolled at that level, contact a current Journal Manager or Site Administrator.
+
+<hr />
+
+## Viewing and Changing your Profile
+
+To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
+
+![](./assets/learning-ojs3.1-ed-view-profile.png)
+
+From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image \(which some journals may publish along with your article or on a list of editors\), determine your notification settings, or update your password.
+
+Under **Notifications**, you can configure what kinds of notifications you receive from the journal when events occur, such as a new journal issue is published or there is activity on a submission you're involved in.
+* Check off "Enable these types of notifications" if you want to see a notification of this event on your dashboard when you log in to the site
+* Check off "Do not send me an email for these types of notifications" if you do not want to receive an email notification about this event
+
+![](./assets/learning-ojs-3-user-notifications.png)
+
+The **API tab** on the user profile allows you to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
+
+## Resetting your Password
+
+You can reset your password by:
+
+1. Logging into the journal
+2. Selecting your username and View Profile from the upper right corner of the screen
+3. Choosing the Password tab
+4. Entering your current password and then your new password twice
+5. Hitting Save
+
+![](./assets/learning-ojs3.1-ed-change-pw.png)
+
+Your password is now changed.

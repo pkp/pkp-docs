@@ -1,57 +1,96 @@
-# Capítulo 8: Configuración de la distribución
+---
+book: learning-ojs
+version: 3.1
+---
 
-La configuración de la distribución le ayuda a incrementar la visibilidad de su revista. Las pestañas incluyen Indización, Acceso, Pagos y Permisos.
+# Chapter 8: Distribution Settings
 
-## Indización
+The Distribution Settings focus on helping to raise the visibility of your journal. The tabs consist of Indexing, Access, Payments, and Permissions.
 
-Esta sección le ayuda a mejorar su optimización de los motores de búsqueda.
+## Indexing
 
-![](./assets/learning-ojs3.1-jm-settings-dist-index-ES.png)
+This section helps you enhance your search engine optimization.
 
-Utilice la opción **Descripción** para proporcionar una descripción breve de su revista para los motores de búsqueda.
+![Distribution settings search indexing tab showing description and custom tags options.](./assets/learning-ojs3.1-jm-settings-dist-index.png)
 
-Utilice **Etiquetas personalizadas** para agregar etiquetas de encabezado HTML personalizadas al encabezado de cada página de su revista, lo cual puede ayudar a que su sitio web sea indizado por los motores de búsqueda. Las pestañas deben añadirse como elementos HTML. Si simplemente introduce palabras, estas aparecerán en la parte superior de cada página de su sitio web en lugar de en los metadatos del sitio. Aquí está un ejemplo de texto que puede ser introducido en este campo:
+Use **Description** to provide a brief description of your journal for search engines.
+
+Use **Custom Tags** to add custom HTML header tags to the header of every page of your journal, which can help your site get indexed by search engines. Tags need to be added as HTML elements. If you simply enter words they will appear at the top of every page of your site instead of in the site's metadata. Here is an example of text that could be entered in this field:
 
 ```
 <meta name="description" content="The Journal of Public Knowledge. Publication of the Public Knowledge Project - PKP and Simon Fraser University - SFU" /><meta name="keywords" content="open access, scholarly publishing, open source software, non-profit organizations, scholarly journals, free software" /><meta name="author" content="metatags generator"><meta name="robots" content="index, follow"><meta name="revisit-after" content="3 month">
 ```
 
-## Acceso
+## Access
 
-OJS proporciona una serie de opciones relacionadas con la seguridad que pueden ser utilizadas para restringir el contenido de la revista y mantener información adicional acerca de las presentaciones para fines de auditoría.
+Under the Access tab you can configure whether you want your journal contents to be open access, available by subscription, or a combination. By default, the open access option is selected. However, if you wish to use OJS for a subscription journal, choose the second option (see next section on Payments for further information).
 
-![](./assets/learning-ojs3.1-jm-settings-dist-access-ES.png)
+![Distribution settings access tab showing access to journal content options.](./assets/learning-ojs3.1-jm-settings-dist-access.png)
 
-La opción de acceso abierto está seleccionada como la opción predeterminada. Sin embargo, si solo desea utilizar OJS para una revista de suscripción, elija la segunda opción. Esto también activará la sección de Suscripción en la barra lateral izquierda (se describirá información adicional sobre la Gestión de Suscripciones en un próximo capítulo).
+If you are only using OJS to manage your submission workflow and not publish your content, you can select "OJS will not be used to publish the journal's contents online."
 
-Para la gestión editorial y no para la publicación, seleccione la última opción.
+OJS allows you to configure how and when content can be accessed at an article and issue level. When you create an issue, there is a tab called **Access** under which you can set the **Access Status** as **Subscription** or **Open Access**.
 
-## Pagos
+If you set it as **Subscription**, underneath that a box will appear where you can optionally enter an **Open Access Date**, at which the content will become open access.
 
-OJS proporciona la capacidad de recolectar pagos en línea. Utilice esta sección para determinar el tipo de **moneda** predeterminada (por ejemplo, Dólares Canadienses, Euros, etc.) y el **método de pago** (por ejemplo, Paypal).
+Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbox will appear beside each article under **Open Access**, where you can optionally set individual articles as open access, even if the rest of the issue remains available by subscription.
 
-![](./assets/learning-ojs3.1-jm-settings-dist-pay-ES.png)
+## Payments
 
-La elección del **Pago manual de la cuota** le permitirá escribir algunas instrucciones para los usuarios (por ejemplo, dónde enviar un cheque por correo).
+OJS provides the ability to collect online payments and manage subscriptions and author fee payments.
 
-La elección de **Pago de Cuota con Paypal** le permitirá realizar algunos ajustes adicionales mediante los cuales usted puede agregar los detalles de su cuenta Paypal.
+Using the Paypal plugin, you can accept payments through Paypal, or you can accept manual payments (such as cheque, email transfer, etc.), but they must be made outside of OJS and are not automatically recorded in OJS.  If you would like to use a different payment service you will have to create your own plugin.
 
-![](./assets/learning-ojs3.1-jm-settings-dist-pay-paypalsettings-ES.png)
+### Enable Payments
 
-## Permisos
+To use payments and subscriptions features, you first have to enable payments.
 
-Esta sección cubre aspectos de derechos de autor para su revista.
+If you plan to accept Paypal and/or manual payments, go to Website Settings > Plugins and enable the Paypal Fee Payment Plugin and Manual Fee Payment Plugin.
 
-![](./assets/learning-ojs3.1-jm-settings-dist-permissions-ES.png)
+If you plan to make your journal or articles available by subscription, go to Distribution Settings > Access and check off “The journal will require subscriptions to access some or all of its contents.”
 
-**Aviso de Copyright**: Agregue aquí la declaración de derechos de autor de su revista. Esta declaración se mostrará en el sitio web de la revista.
+![Distribution settings access tab showing access to journal content options.](./assets/learning-ojs3.1-jm-settings-dist-access.png)
 
-Marque la casilla para pedir a los autores que declaren su acuerdo con su declaración de derechos de autor.
+Then go to Payments (the next tab) and check off “Payments will be enabled for this journal. Note that users will be required to log in to make payments.”
 
-**Base el año de los derechos de autor de un artículo nuevo en**: Elija si la fecha de derechos de autor se basa en el número de publicación (bajo un modelo de publicación tradicional basado en números de publicaciones) o en el artículo (basado en un modelo de publicación continua).
+![Payment method and Paypal payment settings fields.](./assets/learning-ojs3.1-jm-settings-dist-pay.png)
 
-**Titular de los derechos de autor**: Seleccione quién es el titular de los derechos de autor de los artículos publicados en su revista. La tendencia en la publicación de acceso libre es permitir a los autores conservar los derechos de autor de su trabajo.
+Select the currency you will use.
 
-**Licencia**: Seleccione la licencia para su revista. CC Attribution 4.0 es una licencia utilizada ampliamente para revistas de acceso libre, lo que permite maximizar la reutilización y el uso compartido.
+Select a fee payment method.
 
-**Restablecer los permisos del artículo**: Si su revista cambia su política de licencias posteriormente, utilice este botón para restablecer los derechos de autor de todo el contenido publicado.
+If you select Paypal Fee Payment, additional fields will appear.  You need to get this information from your Paypal account which you’ll set up on the Paypal website with the Paypal API. See the [Paypal Plugin Guide](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/) for more information.
+
+![Paypal fee payment screen showing test mode enable option, account name, client ID and secret fields.](./assets/learning-ojs3.1-jm-settings-dist-paypalsettings.png)
+
+If you select Manual Fee Payment, a field will appear where you can enter instructions that will appear to users who are making a manual payment.  For example, “Send a cheque payable to the Public Knowledge Project” to )))))”
+
+Click Save.
+
+A new menu item will appear on the main dashboard menu called “Payments” (or “Subscriptions,” depending on which version of OJS you are using).
+
+![OJS dashboard with Payments menu item on the left.](./assets/learning-ojs3.1-jm-settings-dist-payments-menu.png)
+
+Go to the [Subscriptions Chapter](./subscriptions.md) for further instructions on managing subscriptions and payments.
+
+### Donations
+
+In OJS 3.x there is not an option to set up a payment type for donations, to manage donations with the Payments module, or to use the Paypal plugin to accept donations. You can add the Donations block to your sidebar, but it will have to link to an external site where donation payments can be made.
+
+## Permissions
+
+This section covers copyright issues for your journal.
+
+![Distribution settings permissions tab showing copyright notice, year and holder options.](./assets/learning-ojs3.1-jm-settings-dist-permissions.png)
+
+**Copyright Notice**: Add your journal's copyright statement here. It will be visible on the journal website.
+
+Check the box to require authors to agree to your copyright statement.
+
+**Base new article's copyright year on**: Choose whether the copyright date is based on the issue \(under a traditional, issue-based publishing model\) or on the article \(based on a continuous publishing model\).
+
+**Copyright Holder**: Select who holds copyright to the articles published by your journal. The trend in open access publishing is to allow authors to retain copyright of their work.
+
+**License**: Select the license for your journal. CC Attribution 4.0 is a widely used license for open access journals, allowing for maximum sharing and reuse.
+
+**Reset Article Permissions**: If you journal later changes its licensing policy, use this button to reset the copyright on all published content.

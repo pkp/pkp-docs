@@ -22,7 +22,7 @@ Quando se trata de periódicos on-line, dois aspectos da acessibilidade precisam
 
 2. **Acessibilidade de conteúdo**, abordada neste guia. Especificamente, se aplica a:
 
-- **Conteúdo do site**, como informações que incluídas ao preencher campos de formulários do OJS, criação de páginas estáticas, anúncios etc. Geralmente é criado pelo Editor Gerente ou pelo responsável pelo conteúdo do site.
+- **Conteúdo do site**, como informações que incluídas ao preencher campos de formulários do OJS, criação de páginas estáticas, anúncios etc. Geralmente é criado pelo Editor Gerente ou pelo responsável pelo conteúdo do site. It is usually created by the Journal Manager or the person responsible for website content.
 - **Conteúdo publicado**, incluindo artigos de periódicos e outros materiais que são carregados como composições para publicação. Alguns dos princípios a aqui descritos deverão ser aplicados por revisores gramaticais e editores de produção, enquanto outros deverão ser comunicados pelos editores aos autores.
 
 Além de seguir os padrões e melhores práticas descritos neste guia, recomendamos incluir um aviso no site da sua revista direcionando os leitores a contatá-lo sobre assuntos ou questões relacionados a acessibilidade que precisam ser abordados.

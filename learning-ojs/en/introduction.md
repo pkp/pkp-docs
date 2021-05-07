@@ -130,7 +130,7 @@ Date and time formats can now be specified for each journal and locale/language.
 There is better support for languages that read right-to-left, such as Arabic, Farsi, and Hebrew, in the rich text editor that appears in many form fields in OJS.
 
 #### Remote URLs
-Navigation menu items with remote URLs can now have different remote URLs for each language. 
+Navigation menu items with remote URLs can now have different remote URLs for each language.
 
 ## Community Contributions
 

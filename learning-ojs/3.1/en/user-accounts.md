@@ -2,6 +2,7 @@
 book: learning-ojs
 version: 3.1
 ---
+
 # Chapter 3: User Accounts
 
 OJS uses a comprehensive roles system to divide work between users, assign workflows, and limit access to different parts of the system.
@@ -79,11 +80,9 @@ See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
 ### Layout Editor
 
 The Layout Editor transforms the copyedited versions of the submission into galleys in HTML, PDF, XML, etc. -- files which the journal has elected to use for online publication.
-
->Note
->
->OJS does not currently provide software for automatically converting word processed documents to galley formats (although a project is in development), so the Layout Editor should have access to and be able to use third-party software packages for creating galleys.
->
+> Note
+> 
+> OJS does not currently provide software for automatically converting word processed documents to galley formats (although a project is in development), so the Layout Editor should have access to and be able to use third-party software packages for creating galleys.
 
 In some cases, the Editor or Section Editor will also serve as Layout Editor.
 

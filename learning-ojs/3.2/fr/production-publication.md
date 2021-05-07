@@ -5,7 +5,7 @@ version: 3.2
 
 # Chapitre 15: Production et Publication
 
-Une fois la phase de révision terminée, la soumission passe maintenant à la production. À partir de là, les fichiers copiés seront convertis en formats publiables sous forme de fichiers épreuves (par exemple, PDF, HTML) et relus avant publication. Un nouveau numéro de revue sera créé et l'article sera publié dans le numéro. Ce chapitre explique les étapes de ce processus, ainsi que la façon d'utiliser la fonction de contrôle de version d'OJS 3.2 pour publier une nouvelle version d'un article si des modifications importantes sont apportées.
+Une fois la phase de révision terminée, la soumission passe maintenant à la production. À partir de là, les fichiers copiés seront convertis en formats publiables sous forme de fichiers épreuves (par exemple, PDF, HTML) et relus avant publication. Un nouveau numéro de revue sera créé et l'article sera publié dans le numéro. This chapter explains the steps in that process, as well as how to use the versioning feature in OJS 3.2 to publish a new version of an article if significant changes are made.
 
 OJS offre également un moyen simple de contourner le flux de travail éditorial décrit dans le chapitre précédent et de soumettre le contenu directement en production, où il peut être ajouté à un numéro et publié. Vous pouvez le faire via le plugiciel Soumission Rapide. Consultez les [Instructions détaillées du plugiciel Soumission Rapide dans le chapitre Importation et Exportation de Données](./tools.md#importerexporter)
 
@@ -13,7 +13,7 @@ Pour commencer le travail de Production, le/la rédacteur-trice de la rubrique o
 
 Cliquez sur l'article afin d'ouvrir le dossier de soumission.
 
-![](./assets/learning-ojs-3.2-se-production.png)
+![Production tab in the editorial workflow of a manuscript](./assets/learning-ojs-3.2-se-production.png)
 
 Vous verrez que les fichiers copiés sont désormais disponibles dans le panneau **Fichiers prêts pour la production** .
 
@@ -23,34 +23,27 @@ Dans l'onglet **Production**, vous pouvez affecter des participants (comme un/un
 
 Tout ce qui concerne la publication d'une soumission se fait sous l'onglet Publication. L'onglet Publication vous permet de modifier ou d'ajouter des informations sur la soumission, y compris les contributeurs, les métadonnées et les identifiants. C'est également là que vous téléverserez les fichiers finaux épreuves pour la publication dans la revue.
 
-![](./assets/learning-ojs-3.2-production-publication-tab.png)
+![Publication tab that displays metadata information of a manuscript.](./assets/learning-ojs-3.2-production-publication-tab.png)
 
 Voici un aperçu de ce à quoi servent les différents onglets de cette section. Des instructions détaillées sur certains d'entre eux sont disponibles plus loin dans le chapitre.
 
-**Titre et résumé**
-Utilisez cet onglet pour modifier le titre, le sous-titre et le résumé de l'article.
+**Titre et résumé** Utilisez cet onglet pour modifier le titre, le sous-titre et le résumé de l'article.
 
 Si des modifications sont apportées, cliquez sur Enregistrer avant de quitter cette fenêtre.
 
-**Contributeurs-trices**
-Utilisez cet onglet pour ajouter, modifier ou supprimer des contributeurs-trices à l'article.
+**Contributeurs-trices** Utilisez cet onglet pour ajouter, modifier ou supprimer des contributeurs-trices à l'article.
 
-**Métadonnées**
-Utilisez cet onglet pour ajouter ou modifier des mots-clés d'article.
+**Métadonnées** Utilisez cet onglet pour ajouter ou modifier des mots-clés d'article.
 
 Si des modifications sont apportées, cliquez sur Enregistrer avant de quitter cette fenêtre.
 
-**Références**
-Utilisez l'onglet références pour afficher ou ajouter une référence unique, tel qu'un DOI. Plus d'informations sur l'attribution et la gestion des DOI sont disponibles dans le [Guide du plugiciel DOI](/doi-plugin/) .
+**Références** Utilisez l'onglet références pour afficher ou ajouter une référence unique, tel qu'un DOI. Plus d'informations sur l'attribution et la gestion des DOI sont disponibles dans le [Guide du plugiciel DOI](/doi-plugin/) .
 
-**Épreuves**
-Utilisez l'onglet Épreuves pour téléverser le fichier final pour la publication. Ceci est expliqué ci-dessous.
+**Épreuves** Utilisez l'onglet Épreuves pour téléverser le fichier final pour la publication. Ceci est expliqué ci-dessous.
 
-**Autorisations et divulgation**
-Incluez des détails sur le titulaire du droit d'auteur et un lien vers la licence de l'article, le cas échéant. Celui-ci sera automatiquement renseigné en fonction de vos [Paramètres de Distribution](./settings-distribution.md).
+**Autorisations et divulgation** Incluez des détails sur le titulaire du droit d'auteur et un lien vers la licence de l'article, le cas échéant. Celui-ci sera automatiquement renseigné en fonction de vos [Paramètres de Distribution](./settings-distribution.md).
 
-**Numéro**
-Utilisez l'onglet Numéro pour affecter l'article à un numéro de revue. Ceci est expliqué ci-dessous.
+**Numéro** Utilisez l'onglet Numéro pour affecter l'article à un numéro de revue. Ceci est expliqué ci-dessous.
 
 ### Soumissions Multilingues
 
@@ -58,11 +51,11 @@ Les onglets Titre et résumé, Métadonnées, Autorisations et divulgation et Nu
 
 Sélectionnez l'onglet de langue souhaitée sous le bouton «Calendrier de production» et remplissez les champs de métadonnées dans la langue sélectionnée.
 
-![](./assets/learning-ojs3.2-ed-prod-metadata-lang.png)
+![Multilingual button and text fields for French(Canada)in the metadata subtab within Publication.](./assets/learning-ojs3.2-ed-prod-metadata-lang.png)
 
 L'onglet «Numéro» vous permet de téléverser plusieurs images de couverture dans les langues sélectionnées.
 
-![](./assets/learning-ojs3.2-ed-prod-issue-languages.png)
+![Multilingual button and upload field for an issue cover image for French(Canada)in the Issue subtab within Publication.](./assets/learning-ojs3.2-ed-prod-issue-languages.png)
 
 ## Format d'Article pour la Publication
 
@@ -74,27 +67,25 @@ Cela peut varier d'une revue à l'autre - vous pouvez avoir des rédacteurs-tric
 
 Pour effectuer l'affectation, utilisez le lien **Assigner** dans la liste des participants. Cela ouvrira une nouvelle fenêtre.
 
-![](./assets/learning-ojs-3.2-se-production-participants-add.png)
+![New window to assign participants such as Layout Editor.](./assets/learning-ojs-3.2-se-production-participants-add.png)
 
 Utilisez le sélecteur de rôle et le bouton de recherche pour trouver les utilisateurs appropriés. Sélectionnez l'utilisateur et choisissez un message prédéfini, puis cliquez sur **OK** pour envoyer.
 
 L'utilisateur a maintenant été averti par courriel et dans le tableau de bord.
 
-![](./assets/learning-ojs-3.2-se-production-participants-added.png)
+![Manuscript dashboard after additional participants have been assigned.](./assets/learning-ojs-3.2-se-production-participants-added.png)
 
-Vous pouvez maintenant voir le/la Rédacteur-trice de Mise en Page dans la liste des Participants et vous pouvez voir l'avis de demande dans le Panneau Discussions sur la production.
-Vous pouvez maintenant attendre que le/la rédacteur-trice de mise en page termine ses tâches.
+Vous pouvez maintenant voir le/la Rédacteur-trice de Mise en Page dans la liste des Participants et vous pouvez voir l'avis de demande dans le Panneau Discussions sur la production. Vous pouvez maintenant attendre que le/la rédacteur-trice de mise en page termine ses tâches.
 
 ### Rédaction de la mise en page
 
-En tant que rédacteur-trice de mise en page, vous aurez reçu un message vous invitant à créer les épreuves pour la soumission.
-Pour commencer, connectez-vous au système et accédez à votre tableau de bord.
+En tant que rédacteur-trice de mise en page, vous aurez reçu un message vous invitant à créer les épreuves pour la soumission. Pour commencer, connectez-vous au système et accédez à votre tableau de bord.
 
-![](./assets/learning-ojs-3.2-le-dashboard.png)
+![Layout Editor Dashboard showing list of assigned manuscripts.](./assets/learning-ojs-3.2-le-dashboard.png)
 
 À partir de là, recherchez la soumission et sélectionnez le lien **Production** . Cela vous mènera au dossier de soumission.
 
-![](./assets/learning-ojs-3.2-le-submission.png)
+![Production tab of on the assigned manuscript with 1 production ready file for the Layout Editor.](./assets/learning-ojs-3.2-le-submission.png)
 
 Depuis le panneau Fichiers prêts pour la production, téléchargez les fichiers sur votre bureau et travaillez en dehors d'OJS pour les convertir en fichiers épreuves. La section suivante explique les formats et la préparation des fichiers épreuves.
 
@@ -110,17 +101,17 @@ Lorsque vous téléversez un fichier épreuve, vous devrez sélectionner un **Ty
 
 Les configurations sont les suivantes:
 
-- Relié: le lien n'apparaîtra pas du tout avec le contenu publié
-- Supplémentaire: le lien apparaîtra sur la page de destination de l'article
-- Ni supplémentaire ni relié: le lien apparaîtra sur la page de destination de l'article et dans la table des matières
+* Relié: le lien n'apparaîtra pas du tout avec le contenu publié
+* Supplémentaire: le lien apparaîtra sur la page de destination de l'article
+* Ni supplémentaire ni relié: le lien apparaîtra sur la page de destination de l'article et dans la table des matières
 
 Par exemple, si vous souhaitez incorporer des fichiers multimédias dans des fichiers HTML et les faire apparaître sur la page de destination, la page du numéro et la page de soumission, vous devez configurer les paramètres de la façon suivante:
 
-- Accédez à Paramètres > Flux de travaux > Soumission > onglet **Éléments**
-- Cliquez sur la flèche bleue à côté de la **Feuille de Style HTML** et **Modifier**
-- Décochez «Marquer les fichiers de ce type en tant que fichiers reliés» et «Marquer les fichiers de ce type en tant que fichiers supplémentaires». Cliquez sur **Enregistrer** .
-- Cliquez sur la flèche bleue à côté de **Multimédia** et **Modifier**
-- Décochez "Marquer les fichiers de ce type en tant que fichiers supplémentaires". Laissez «Fichiers reliés» coché. Cliquez sur **Enregistrer** .
+* Accédez à Paramètres > Flux de travaux > Soumission > onglet **Éléments**
+* Cliquez sur la flèche bleue à côté de la **Feuille de Style HTML** et **Modifier**
+* Décochez «Marquer les fichiers de ce type en tant que fichiers reliés» et «Marquer les fichiers de ce type en tant que fichiers supplémentaires». Cliquez sur **Enregistrer** .
+* Cliquez sur la flèche bleue à côté de **Multimédia** et **Modifier**
+* Décochez "Marquer les fichiers de ce type en tant que fichiers supplémentaires". Laissez «Fichiers reliés» coché. Cliquez sur **Enregistrer** .
 
 #### Formats de Fichiers Épreuves
 
@@ -128,21 +119,19 @@ Les revues en ligne publient leurs articles dans divers types de fichiers. Les p
 
 Les plugiciels d'OJS permettent d'afficher ou de télécharger des fichiers PDF, HTML et XML dans un navigateur Web. Si les fichiers sont téléchargés au lieu d'être affichés dans le navigateur, vous devrez peut-être activer l'un de ces plugiciels sous Paramètres de Site Web > Plugiciels:
 
-- Le lecteur PDF.JS PDF fournit un support de rendu pour les fichiers d'article PDF.
-- Le lecteur d'article eLife Lens fournit une prise en charge du rendu pour les fichiers d'article XML JATS à l'aide d'eLife Lens.
-- Le plugiciel mise en page pour HTML fournit un support de rendu pour les mise en pages d'article sous forme de fichiers HTML.
+* Le lecteur PDF.JS PDF fournit un support de rendu pour les fichiers d'article PDF.
+* Le lecteur d'article eLife Lens fournit une prise en charge du rendu pour les fichiers d'article XML JATS à l'aide d'eLife Lens.
+* Le plugiciel mise en page pour HTML fournit un support de rendu pour les mise en pages d'article sous forme de fichiers HTML.
 
 D'autres formats peuvent nécessiter des plugiciels supplémentaires ou peuvent être téléchargés directement. Vous pouvez également héberger le contenu en texte intégral sur une plateforme différente et intégrer une URL distante en cochant la case: "Cette épreuve sera disponible sur un Site Web distinct."
 
 #### Utiliser des Modèles
 
-Exiger que toutes les soumissions utilisent un modèle de document préformaté avec les styles de publication de votre journal (par exemple, la police, la taille de police, les caractères gras, l'emplacement, etc., de l'en-tête, du corps, des pieds de page, etc.) peut rendre la conversion de votre document beaucoup plus facile.
-[Microsoft fournit un bref aperçu de la création de modèles dans MS Word](https://support.office.com/en-us/article/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb) .
+Exiger que toutes les soumissions utilisent un modèle de document préformaté avec les styles de publication de votre journal (par exemple, la police, la taille de police, les caractères gras, l'emplacement, etc., de l'en-tête, du corps, des pieds de page, etc.) peut rendre la conversion de votre document beaucoup plus facile. [Microsoft provides a brief overview for creating templates in MS Word](https://support.office.com/en-us/article/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb).
 
-Une fois que vous avez créé un modèle qui correspond au style de votre revue, il peut être utile pour la soumission d'auteurs-es, de rédacteurs-trices de mise en page ou d'autres utilisateurs.
-Voici un exemple de revue OJS qui oblige les auteurs-es à télécharger et à utiliser un fichier modèle: [Paideusis](https://journals.sfu.ca/pie/index.php/pie#authorGuidelines) .
+Une fois que vous avez créé un modèle qui correspond au style de votre revue, il peut être utile pour la soumission d'auteurs-es, de rédacteurs-trices de mise en page ou d'autres utilisateurs. Here’s an example of an OJS journal that requires authors to download and use a template file: [Paideusis](https://journals.sfu.ca/pie/index.php/pie#authorGuidelines).
 
-Idéalement, votre modèle doit être créé à l'aide de styles plutôt que d'un formatage direct. Cela garantit non seulement la cohérence de tous vos documents, mais aidera également toutes les conversions vers d'autres formats (par exemple, HTML). Voici une [explication de la différence entre les styles et la mise en forme directe dans Word](https://support.office.com/en-us/article/Style-basics-in-Word-d382f84d-5c38-4444-98a5-9cbb6ede1ba4?CorrelationId=1b00844c-a9dc-4d62-98df-a966f30d4b20&ui=en-US&rs=en-US&ad=US&ocmsassetID=HA010230882)
+Idéalement, votre modèle doit être créé à l'aide de styles plutôt que d'un formatage direct. Cela garantit non seulement la cohérence de tous vos documents, mais aidera également toutes les conversions vers d'autres formats (par exemple, HTML). Here’s an [explanation of the difference between styles and direct formatting in Word](https://support.office.com/en-us/article/Style-basics-in-Word-d382f84d-5c38-4444-98a5-9cbb6ede1ba4?CorrelationId=1b00844c-a9dc-4d62-98df-a966f30d4b20&ui=en-US&rs=en-US&ad=US&ocmsassetID=HA010230882)
 
 #### Fichiers PDF
 
@@ -158,20 +147,20 @@ Les fichiers HTML ont plus de flexibilité. Ils gèrent très bien les liens et 
 
 La création d'un fichier HTML peut exiger plus de temps et d'efforts que la création de fichiers PDF. Les traitements de texte ne disposent pas d'outils efficaces pour effectuer un «Enregistrer sous» au format HTML. Microsoft Word essaie de le faire, mais les résultats ne sont pas utiles pour le téléversement vers OJS. Au lieu de cela, essayez de suivre ce flux de travaux:
 
-- Convertissez le document Word. Vous pouvez utiliser [cet outil en ligne gratuit](https://word2cleanhtml.com/) pour effectuer une première conversion.
-- Ouvrez les fichiers HTML résultants dans un éditeur de texte (par exemple, NotePad sur Windows) ou un éditeur HTML (par exemple, Adobe Dreamweaver). À partir de là, vous devrez effectuer un nettoyage ou un formatage final. Comprendre les bases du HTML est nécessaire. Il existe de nombreux [tutoriels gratuits](https://www.w3schools.com/html/) , mais cela prend du temps.
-- Gardez le formatage HTML basique. Concentrez-vous simplement sur les paragraphes, les sauts de ligne, les titres et les liens. Ne vous inquiétez pas des polices, des couleurs ou d'autres éléments de conception - OJS se chargera de tout cela automatiquement dans le cadre de la conception globale de la revue.
-- Téléversez vers OJS en tant que fichier épreuve HTML
-- Le lecteur HTML restitue les fichiers HTML dans une iframe, ce qui peut affecter la navigation vers des pages Web contenant des hyperliens. Vous pouvez contourner cette fonctionnalité en ouvrant des hyperliens dans un nouvel onglet de navigateur, en ajoutant l'attribut `target="_blank"` à vos balises href.
+* Convertissez le document Word. Vous pouvez utiliser [cet outil en ligne gratuit](https://word2cleanhtml.com/) pour effectuer une première conversion.
+* Ouvrez les fichiers HTML résultants dans un éditeur de texte (par exemple, NotePad sur Windows) ou un éditeur HTML (par exemple, Adobe Dreamweaver). À partir de là, vous devrez effectuer un nettoyage ou un formatage final. Comprendre les bases du HTML est nécessaire. Il existe de nombreux [tutoriels gratuits](https://www.w3schools.com/html/) , mais cela prend du temps.
+* Gardez le formatage HTML basique. Concentrez-vous simplement sur les paragraphes, les sauts de ligne, les titres et les liens. Ne vous inquiétez pas des polices, des couleurs ou d'autres éléments de conception - OJS se chargera de tout cela automatiquement dans le cadre de la conception globale de la revue.
+* Téléversez vers OJS en tant que fichier épreuve HTML
+* Le lecteur HTML restitue les fichiers HTML dans une iframe, ce qui peut affecter la navigation vers des pages Web contenant des hyperliens. Vous pouvez contourner cette fonctionnalité en ouvrant des hyperliens dans un nouvel onglet de navigateur, en ajoutant l'attribut `target="_blank"` à vos balises href.
 
 Quelques exemples de modèles HTML peuvent être trouvés et adaptés à partir de ces sources:
 
-- [Ressource par U of A](https://drive.google.com/file/d/1mCP0tguFJf7jJn_CNceEwvRn5eCJrvxP/view) - Licence: CC0 1.0 Universal (CC0 1.0)
+* [Ressource par U of A](https://drive.google.com/file/d/1mCP0tguFJf7jJn_CNceEwvRn5eCJrvxP/view) - Licence: CC0 1.0 Universal (CC0 1.0)
 
 Exemples (voir lien HTML en bas de page):
 
-- [Anthropologie culturelle](https://journal.culanth.org/index.php/ca/article/view/4434)
-- [Bibliothèque factuelle et pratique d'information](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621)
+* [Anthropologie culturelle](https://journal.culanth.org/index.php/ca/article/view/4434)
+* [Bibliothèque factuelle et pratique d'information](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621)
 
 ##### Styliser des fichiers épreuves HTML
 
@@ -179,13 +168,12 @@ Il est possible de styliser la conception de vos fichiers épreuves HTML en mass
 
 Afin de styliser un fichier épreuve HTML individuel:
 
-- Lors de la création du fichier épreuve HTML, assurez-vous qu'il inclut une référence à la feuille de style dans la section `<head>` , par exemple `<link rel="stylesheet" href="./article_styles.css" type="text/css" />`
-- Téléversez le fichier épreuve HTML (voir ci-dessous pour savoir comment **ajouter des fichiers épreuves**)
-- Modifier le fichier épreuve
-- Téléversez les feuilles de style CSS avec le **type d'élément - feuille de style HTML** approprié.
+* Lors de la création du fichier épreuve HTML, assurez-vous qu'il inclut une référence à la feuille de style dans la section `<head>` , par exemple `<link rel="stylesheet" href="./article_styles.css" type="text/css" />`
+* Téléversez le fichier épreuve HTML (voir ci-dessous pour savoir comment **ajouter des fichiers épreuves**)
+* Modifier le fichier épreuve
+* Téléversez les feuilles de style CSS avec le **type d'élément - feuille de style HTML** approprié.
 
-Pour styliser tous les fichiers épreuves HTML:
-Si vous utilisez un plugiciel de thème personnalisé, vous pouvez écrire une ligne de code pour inclure un style personnalisé pour toutes les épreuves HTML. Cela ne s'appliquera qu'aux fichiers épreuve HTML qui n'ont pas de style appliqué individuellement. Plus d'informations sur le thème personnalisé sont disponibles dans le [guide sur les thème PKP](/pkp-theming-guide/) .
+Pour styliser tous les fichiers épreuves HTML: Si vous utilisez un plugiciel de thème personnalisé, vous pouvez écrire une ligne de code pour inclure un style personnalisé pour toutes les épreuves HTML. Cela ne s'appliquera qu'aux fichiers épreuve HTML qui n'ont pas de style appliqué individuellement. Plus d'informations sur le thème personnalisé sont disponibles dans le [guide sur les thème PKP](/pkp-theming-guide/) .
 
 ##### Ajoutez des images et du multimédia à une épreuve HTML
 
@@ -193,15 +181,15 @@ Si vous souhaitez inclure des images ou des fichiers multimédias dans un fichie
 
 Avant de commencer de téléverser l'élément, vous aurez besoin d'une page HTML contenant l'un des éléments suivants:
 
-- Élément `<audio controls>` (pour MP3)
-- Élément `<video>` (pour MP4), ou
-- `<img src=”imagename”>` pour les images
+* Élément `<audio controls>` (pour MP3)
+* Élément `<video>` (pour MP4), ou
+* `<img src=”imagename”>` pour les images
 
 La page HTML doit également contenir le nom exact du fichier auquel vous vous connectez.
 
 Vous devrez enregistrer le fichier audio/vidéo/image au format MP3/MP4/JPEG/GIF en utilisant le nom dans la page HTML.
 
-Votre fichier HTML devra contenir le code minimum suivant (pour les fichiers audio). Pour le code vidéo ou du fichier image associé, veuillez consulter les instructions de w3schools sur l'incorporation de vidéo en HTML ou les instructions sur l'incorporation d'images en HTML.
+Votre fichier HTML devra contenir le code minimum suivant (pour les fichiers audio). For the related video or image file code, please see the w3schools instructions on embedding video in HTML or instructions on embedding images in HTML.
 
 ```html
 <html>
@@ -221,29 +209,28 @@ Dans OJS, vous devrez configurer les paramètres de vos types d'éléments avant
 
 Assurez-vous que les fichiers «Multimédia» et/ou «Image» sont configurés comme «fichiers reliés» dans les paramètres sur les types d'éléments.
 
-![](./assets/learning-ojs3.2-ed-prod-multimedia-component-edit.png)
+![Form to add Multimedia as a dependent component type.](./assets/learning-ojs3.2-ed-prod-multimedia-component-edit.png)
 
 Revenez maintenant à la soumission pour téléverser une feuille de style HTML pour afficher votre fichier multimédia. Voir ci-dessous pour savoir comment **ajouter des fichiers épreuves** . De plus, lorsque vous téléversez le fichier:
 
-- Étiquetez l'épreuve en fonction du type de fichier multimédia (par exemple, MP3, MP4, Image)
-- Sélectionnez **Feuille de style HTML** dans la liste déroulante **Éléments d'article** .
-- Téléversez le fichier HTML que vous avez préparé avec au moins le code minimum (instructions ci-dessus)
-- Cliquez sur **Continuer**
-- Dans l'onglet **Examiner les détails**, vous pouvez téléverser des fichiers reliés. C'est ici que vous téléversez le fichier MP3/MP4/image.
+* Étiquetez l'épreuve en fonction du type de fichier multimédia (par exemple, MP3, MP4, Image)
+* Sélectionnez **Feuille de style HTML** dans la liste déroulante **Éléments d'article** .
+* Téléversez le fichier HTML que vous avez préparé avec au moins le code minimum (instructions ci-dessus)
+* Cliquez sur **Continuer**
+* Dans l'onglet **Examiner les détails**, vous pouvez téléverser des fichiers reliés. C'est ici que vous téléversez le fichier MP3/MP4/image.
 
-![](./assets/learning-ojs3.2-ed-prod-multimed-dep-file.png)
+![Step 2 of uploading production ready files where users will go to upload their dependent files.](./assets/learning-ojs3.2-ed-prod-multimed-dep-file.png)
 
 Sélectionnez **Multimédia** ou **Image** dans le menu déroulant **Éléments d'Article**, puis importez le fichier MP3, MP4 ou l'image.
 
-![](./assets/learning-ojs3.2-ed-prod-upload-multimedia.png)
+![Step 1 for uploading dependent files. The dropdown bar lists Multimedia and Image as selection for Article components.](./assets/learning-ojs3.2-ed-prod-upload-multimedia.png)
 
 Lors du téléversement d'un fichier image, il vous sera demandé d'ajouter une Légende, un Crédit, un Propriétaire du Droit d'Auteur et des Conditions d'Autorisation, quand c'est valable.
 
-![](./assets/learning-ojs3.2-ed-prod-image-details.png)
+![Step 2 for uploading dependent files. Text fields to enter Caption, Credit, Copyright Owner, and Permission Terms.](./assets/learning-ojs3.2-ed-prod-image-details.png)
 
 Cliquez sur **Continuer** pour terminer le téléversement, vérifiez les détails et confirmez. Votre fichier multimédia a maintenant été ajouté en tant que fichier relié avec le HTML, et sera incorporé dans le HTML lorsque l'objet sera publié.
 
-![](./assets/learning-ojs3.2-ed-prod-upload-video-dependent.png)
 
 #### Fichiers ePUB
 
@@ -257,7 +244,7 @@ Exemple (voir le lien EPUB au bas de la page): [Revue Internationale de Recherch
 
 Les fichiers XML sont des fichiers structurés dans lesquels chaque partie de l'article est étiquetée comme un composant distinct. Cela permet au lecteur de naviguer facilement et d'accéder aux figures, images, métadonnées, références et parties du texte de l'article. La création de fichiers XML est un moyen très efficace de publier dans plusieurs formats. Lorsque vous créez un fichier XML, vous pouvez ensuite générer automatiquement des PDF, HTML, ePub et d'autres formats.
 
-![](./assets/learning-ojs3.2-ed-prod-xmlgalley.png)
+![XML preview of article with navigation menu options.](./assets/learning-ojs3.2-ed-prod-xmlgalley.png)
 
 PKP développe des outils qui vous permettront de créer, convertir et rédiger des fichiers XML dans OJS. Actuellement, vous devez créer et modifier les fichiers en dehors d'OJS. Si vous souhaitez produire des fichiers XML pour votre revue, vous pouvez utiliser les services d'un graphiste ou d'un compositeur, ou si vous avez une certaine expertise XML, vous pouvez créer les fichiers vous-même. W3schools propose d'excellents tutoriels sur XML.
 
@@ -281,8 +268,8 @@ Exemple: [Apocalypse intersectionnelle](https://journals.lib.sfu.ca/index.php/if
 
 Téléversez le fichier épreuve multimédia à l'étape de production du flux de travaux. Voir ci-dessous pour savoir comment **Ajouter des fichiers Épreuves** . De plus, lorsque vous téléversez le fichier:
 
-- Étiquetez l'épreuve en fonction du type de fichier multimédia (par exemple, MP3/MP4)
-- Cochez la case indiquant "Cette épreuve sera disponible sur un site web distinct"
+* Étiquetez l'épreuve en fonction du type de fichier multimédia (par exemple, MP3/MP4)
+* Cochez la case indiquant "Cette épreuve sera disponible sur un site web distinct"
 
 ![](./assets/learning-ojs3.2-ed-prod-upload-video-youtube.png)
 
@@ -296,7 +283,7 @@ La vidéo devrait maintenant apparaître dans la soumission publiée.
 
 ### Contactez l'Auteur-e
 
-Ensuite, vous voudrez partager le PDF avec l'auteur-e pour un dernier regard et vous déconnecter. Pour ce faire, utilisez le lien **Ajouter une discussion** dans le panneau Discussion sur la production. Cela ouvrira une nouvelle fenêtre.
+Ensuite, vous voudrez partager le PDF avec l'auteur-e pour un dernier regard et vous déconnecter. Pour ce faire, utilisez le lien **Ajouter une discussion** dans le panneau Discussion sur la production. Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
 
 ![](./assets/learning-ojs-3-le-production-add-participant.png)
 
@@ -407,12 +394,12 @@ Vous pouvez vérifier les métadonnées de la soumission en accédant à **Soumi
 
 ### Ajouter l'Article à une Catégorie
 
-Les catégories peuvent être utilisées pour organiser vos articles en collections thématiques. Si vous utilisez des catégories dans votre revue, vous pouvez éventuellement ajouter l'article à une ou plusieurs catégories. Pour savoir comment créer des catégories, consultez le [Chapitre sur les Paramètres de la Revue](./journalsetup.md). Vous pouvez ajouter l'article à une catégorie en modifiant ses métadonnées.
+Les catégories peuvent être utilisées pour organiser vos articles en collections thématiques. Si vous utilisez des catégories dans votre revue, vous pouvez éventuellement ajouter l'article à une ou plusieurs catégories. For instructions on how to create categories see the [Journal Settings chapter](./journalsetup.md). Vous pouvez ajouter l'article à une catégorie en modifiant ses métadonnées.
 
-- Dans la soumission d'article, allez dans l'onglet **Publication**
-- Cliquez sur **Numéro**
-- Dans la zone **Catégories** , cochez la ou les catégories auxquelles vous souhaitez ajouter l'article
-- Cliquez sur **Enregistrer**
+* Dans la soumission d'article, allez dans l'onglet **Publication**
+* Cliquez sur **Numéro**
+* Dans la zone **Catégories** , cochez la ou les catégories auxquelles vous souhaitez ajouter l'article
+* Cliquez sur **Enregistrer**
 
 ![](./assets/learning-ojs3.2-ed-prod-add-to-category.png)
 
@@ -425,9 +412,9 @@ La première chose à faire est d'activer les références en tant que champ de 
 1. Accédez à Paramètres du flux de travaux > Soumission > Métadonnées
 2. Faites défiler jusqu'à **Références** et cochez **Activer la métadonnée « Références »**
 3. De nouvelles options apparaîtront ci-dessous et vous pouvez choisir entre
-   - Ne pas demander de références à l'auteur-e pendant la soumission - le champ Références ne sera pas sur le formulaire de soumission et à la place des références peuvent être ajoutées par un/une rédacteur-trice
-   - Demander à l'auteur-e de fournir des références pendant la soumission - le champ Références sera sur le formulaire de soumission et les auteurs-es peuvent éventuellement y ajouter leurs références, ou un/une rédacteur-trice peut ajouter des références à la soumission plus tard
-   - Obliger l'auteur-e à fournir des références avant d'accepter sa soumission - le champ Références sera sur le formulaire de soumission et les auteurs-es devront y ajouter leurs références
+  * Ne pas demander de références à l'auteur-e pendant la soumission - le champ Références ne sera pas sur le formulaire de soumission et à la place des références peuvent être ajoutées par un/une rédacteur-trice
+  * Demander à l'auteur-e de fournir des références pendant la soumission - le champ Références sera sur le formulaire de soumission et les auteurs-es peuvent éventuellement y ajouter leurs références, ou un/une rédacteur-trice peut ajouter des références à la soumission plus tard
+  * Obliger l'auteur-e à fournir des références avant d'accepter sa soumission - le champ Références sera sur le formulaire de soumission et les auteurs-es devront y ajouter leurs références
 4. Cliquez sur **Enregistrer**
 
 ![](./assets/learning-ojs3.2-ed-prod-enable-references.png)
@@ -501,30 +488,30 @@ Vous pouvez également faire glisser et déposer les rubriques pour modifier leu
 
 Si vous souhaitez modifier l'ordre des rubriques par numéro ou l'ordre des articles dans une rubrique:
 
-- Accédez à **Numéros** et ouvrez le numéro que vous souhaitez modifier
-- Cliquez sur **Trier**
-- Faites glisser et déposez les rubriques et les articles où vous le souhaitez
-- Cliquez sur **Terminé** lorsque vous avez terminé
+* Accédez à **Numéros** et ouvrez le numéro que vous souhaitez modifier
+* Cliquez sur **Trier**
+* Faites glisser et déposez les rubriques et les articles où vous le souhaitez
+* Cliquez sur **Terminé** lorsque vous avez terminé
 
 ### Aperçu du Numéro et des Articles
 
-Si vous souhaitez voir à quoi ressemblera votre numéro et les articles qu'il contient sur votre site avant de le publier, vous pouvez utiliser la fonction Aperçu:
+If you want to see what your issue and the articles in it will look like on your site before publishing it, you can use the Preview feature:
 
-- Cliquez sur la flèche bleue à côté du numéro á venir
-- Cliquez sur **Aperçu**
-- La page d'aperçu du numéro s'ouvre. Pour afficher un aperçu d'un article, cliquez sur le titre de l'article dans la table des matières.
+* Cliquez sur la flèche bleue à côté du numéro á venir
+* Cliquez sur **Aperçu**
+* La page d'aperçu du numéro s'ouvre. Pour afficher un aperçu d'un article, cliquez sur le titre de l'article dans la table des matières.
 
 ![](./assets/learning-ojs-3.2-ed-production-publish-issue.png)
 
 ### Publier le Numéro
 
-Une fois que vous êtes satisfait du numéro, cliquez sur le lien **Publier le Numéro** pour le publier sur le site web de votre revue.
+Pour ne pas envoyer de notification d'un nouveau numéro publié, décochez la case "Envoyer un courriel de notification à tous les utilisateurs enregistrés" avant d'appuyer sur **OK** .
 
 ### Notifier les Lecteurs
 
 Vous aurez la possibilité d'envoyer une notification aux utilisateurs concernant le nouveau numéro.
 
-Pour ne pas envoyer de notification d'un nouveau numéro publié, décochez la case "Envoyer un courriel de notification à tous les utilisateurs enregistrés" avant d'appuyer sur **OK** .
+To not send a notification of a new issue published, uncheck the box beside “Send notification email to all registered users” before pressing **OK**.
 
 ![](./assets/learning-ojs-3.2-ed-production-reader-notify.png)
 
@@ -542,16 +529,16 @@ Vous pouvez utiliser le lien **Supprimer** pour supprimer complètement le numé
 
 Maintenant que vous avez créé un numéro, vous pouvez y ajouter l'article. Veuillez noter que l'article ne sera pas publié tant que le numéro ne sera pas publié. Dans cette étape, vous affectez l'article à un numéro.
 
-- Revenir aux **Soumissions**
-- Recherchez et ouvrez la soumission que vous souhaitez publier
-- Allez dans l'onglet **Publication** > **Numéro**
-- Dans le champ **Numéro** , sélectionnez le numéro dans lequel vous souhaitez publier l'article
-- La **Rubriques de la revue** sera remplie automatiquement en fonction des métadonnées de soumission, mais vous pouvez la modifier si nécessaire
-- Vous pouvez sélectionner une **Catégorie** si vous ne l'avez pas déjà fait (expliqué ci-dessus)
-- Si vous souhaitez qu'une image apparaisse sur la page de l'article, téléversez-la sous **Image de Couverture**
-- Vous pouvez ajouter des **Numéros de Page** , qui seront inclus dans les métadonnées et sur la table des matières
-- La **Date de Publication** sera définie automatiquement lors de la publication du numéro. N'entrez pas de date de publication à moins que l'article n'ait déjà été publié ailleurs et que vous ayez besoin de le mettre à jour.
-- Cliquez sur **Enregistrer** lorsque vous avez terminé
+* Revenir aux **Soumissions**
+* Recherchez et ouvrez la soumission que vous souhaitez publier
+* Allez dans l'onglet **Publication** > **Numéro**
+* Dans le champ **Numéro** , sélectionnez le numéro dans lequel vous souhaitez publier l'article
+* La **Rubriques de la revue** sera remplie automatiquement en fonction des métadonnées de soumission, mais vous pouvez la modifier si nécessaire
+* Vous pouvez sélectionner une **Catégorie** si vous ne l'avez pas déjà fait (expliqué ci-dessus)
+* Si vous souhaitez qu'une image apparaisse sur la page de l'article, téléversez-la sous **Image de Couverture**
+* Vous pouvez ajouter des **Numéros de Page** , qui seront inclus dans les métadonnées et sur la table des matières
+* La **Date de Publication** sera définie automatiquement lors de la publication du numéro. N'entrez pas de date de publication à moins que l'article n'ait déjà été publié ailleurs et que vous ayez besoin de le mettre à jour.
+* Cliquez sur **Enregistrer** lorsque vous avez terminé
 
 ![](./assets/learning-ojs3.2-ed-prod-add-to-issue.png)
 
@@ -569,15 +556,15 @@ Si vous souhaitez informer vos lecteurs de la publication de chaque nouvel artic
 
 L'étape suivante consiste à planifier la publication de l'article. Bien que l'article ne sera pas publié tant que le numéro auquel il est affecté ne sera pas publié, l'étape Planifier la Publication est la dernière étape pour confirmer que l'article est prêt à être publié.
 
-Seul un/une rédacteur-trice de la revue peut planifier la publication d'un article, pas un/une rédacteur-trice de rubrique ou un/une rédacteur-trice invité.
+Lorsque vous êtes prêt à publier l'article:
 
 L'article doit avoir été affecté à un numéro et avoir passé l'étape d'évaluation pour pouvoir planifier sa publication.
 
-Lorsque vous êtes prêt à publier l'article:
+When you are ready to publish the article:
 
-- Ouvrez la soumission
-- Allez dans l'onglet **Publication**
-- Cliquez sur le bouton bleu **Calendrier de publication**.
+* Ouvrez la soumission
+* Allez dans l'onglet **Publication**
+* Cliquez sur le bouton bleu **Calendrier de publication**.
 
 ![](./assets/learning-ojs3.2-ed-prod-schedule-for-pub.png)
 
@@ -593,11 +580,11 @@ Sous **Date de publication,** vous pouvez entrer la date de publication si elle 
 
 ![](./assets/learning-ojs-3.2-ed-production-schedule-individual.png)
 
-Afin de planifier une publication individuelle, elle doit être affectée à un numéro et avoir passé l'étape d'évaluation.
+Si le manuscrit programmé n'est pas programmé depuis le numéro, la date programmée précédemment ne doit pas changer.
 
 Si la date est définie sur une date future, la publication doit être publiée lorsque la tâche planifiée s'exécute pour cette date.
 
-Si le manuscrit programmé n'est pas programmé depuis le numéro, la date programmée précédemment ne doit pas changer.
+If the scheduled manuscript is unscheduled from the issue, the previously scheduled date should not change.
 
 ## Gestion des Versions d'Articles
 
@@ -607,11 +594,11 @@ Une fois qu'un article est publié, ni les métadonnées ni les épreuves ne peu
 
 ![](./assets/learning-ojs-3.2-ed-production-versioning-ways.png)
 
-**Option 1: Dépublier et Republier**
+**Option 2: Créer une nouvelle version**
 
 La suppression de la publication d'un article vous permet d'apporter des modifications sans créer de nouvelle version. Après l'annulation de la publication, vous pouvez mettre à jour les métadonnées et/ou remplacer le fichier épreuve et planifier à nouveau la publication de l'article. S'il est programmé dans un numéro publié, il sera disponible immédiatement. Aucune notification ne sera envoyée aux lecteurs, puisque la notification est envoyée lorsqu'un numéro est publié, pas pour un article individuel.
 
-**Option 2: Créer une nouvelle version**
+**Option 2: Create new version**
 
 Lors de la création d'une nouvelle version, vous pourrez apporter des modifications aux métadonnées et/ou aux fichiers épreuves. Assurez-vous de cliquer sur **Enregistrer** en bas à droite pour enregistrer les modifications.
 
@@ -627,22 +614,22 @@ La liste des versions antérieures et les dates de mise à jour seront répertor
 
 Les lecteurs pourront accéder aux versions précédentes. Ils verront un message sur l'article et les pages d'épreuve les informant qu'il s'agit d'une version obsolète et les pointant vers la version la plus récente.
 
-Exemple de message de version obsolète sur la page de l'article:
+Exemple de message de version obsolète sur la page épreuve PDF:
 
 ![](./assets/learning-ojs-3.2-ed-production-outdated-version.png)
 
-Exemple de message de version obsolète sur la page épreuve PDF:
+L'URL de l'article pointera toujours vers la version la plus récente, les versions antérieures étant disponibles à la même URL avec la version à la fin de l'URL (par exemple/version/1234/).
 
 ![](./assets/learning-ojs-3.2-ed-production-outdated-pdf.png)
 
-L'URL de l'article pointera toujours vers la version la plus récente, les versions antérieures étant disponibles à la même URL avec la version à la fin de l'URL (par exemple/version/1234/).
+Les services d'indexation et les référentiels qui utilisent OAI pour récolter les métadonnées devront à nouveau récolter les métadonnées de l'article afin de mettre à jour vers la nouvelle version.
 
 ### DOI et Indexation de Versions
 
 Lorsqu'un DOI a été attribué à la version originale, il ne sera pas modifié automatiquement. Les métadonnées CrossRef précédemment déposées ne seront pas automatiquement mises à jour. Si les métadonnées d'article ont été modifiées, nous vous recommandons de mettre à jour les métadonnées CrossRef dans le plugiciel d'exportation XML CrossRef en déposant manuellement l'article mis à jour. Pour savoir comment déposer manuellement un article, consultez le [Guide du Plugiciel CrossRef - Dépôts Manuels](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits) de PKP.
 
-Les services d'indexation et les référentiels qui utilisent OAI pour récolter les métadonnées devront à nouveau récolter les métadonnées de l'article afin de mettre à jour vers la nouvelle version.
+Il est préférable de vérifier avec un référentiel ou un index particulier pour savoir quel est leur processus et ce dont ils ont besoin.
 
 La nouvelle version sera correctement balisée pour être reconnue et mise à jour par l'index de Google Scholar, mais le moissonneur devra visiter à nouveau votre site afin de trouver la nouvelle version.
 
-Il est préférable de vérifier avec un référentiel ou un index particulier pour savoir quel est leur processus et ce dont ils ont besoin.
+It is best to check with a particular repository or index to learn what their process is and what they require.

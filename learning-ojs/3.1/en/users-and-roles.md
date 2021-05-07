@@ -2,6 +2,7 @@
 book: learning-ojs
 version: 3.1
 ---
+
 # Chapter 10: Users and Roles
 
 This section provides access to all of the user accounts associated with your journal, as well as the opportunity to manage roles and permissions.
@@ -34,7 +35,7 @@ To send an email to a user that is unrelated to a submission:
 3. Click the blue arrow next to the user’s name to reveal links below it
 4. Click Email. A pop-up box will appear where you can type in your message and send it
 
-![Email pop-up box for emailing a user]](./assets/learning-ojs-3-users-email.png)
+!\[Email pop-up box for emailing a user]\](./assets/learning-ojs-3-users-email.png)
 
 You cannot email multiple users at the same time except by using the Announcements feature. See the [Workflow Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow) for instructions on how to send announcements. It is also not possible to send a message to all users in one role, such as all reviewers registered on your site.
 

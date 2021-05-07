@@ -1,64 +1,74 @@
-# Capítulo 15. Revisión
-Como revisor, usted se enterará de la solicitud de revisión por correo electrónico o revisando su panel de control:
+---
+book: learning-ojs
+version: 3.1
+---
 
-![Captura de pantalla de panel de control](./assets/image158.png)
+# Chapter 15: Reviewing
 
-En la lista **Mis asignados**, busque el título y el enlace Revisar. Note la falta de información del autor en este proceso de revisión por pares doble-ciego.
+As a reviewer, you will learn of the review request via email or by checking your dashboard:
 
-Al seleccionar el enlace **Revisar**, accederá al primer paso de revisión del registro de envío, que es mucho más limitado que la vista del editor y no contiene información del autor.
+![The assigned submissions queue in reviewer dashboard](./assets/learning-ojs-3-rev-dashboard.png)
 
-![...](./assets/image82.png)
+From the My Assigned list, find the title and Review link. Notice the lack of any author information in this double-blind peer review process.
 
-Este primer paso consiste en las siguientes secciones:
+Selecting the Review link will take you to the first review step in the submission record, which is much more limited than the editor’s view, and contains no author information.
 
-* **Solicitud de revisión**: proporciona un texto que le invita a actuar como revisor.
+![A review request](./assets/learning-ojs-3-rev-step1.png)
 
-* **Título del artículo**: proporciona el título del artículo.
+This first step consists of the following sections:
 
-* **Resumen**: proporciona el texto del resumen.
+**Request for Review**: provides some text inviting you to act as a reviewer.
 
-Más abajo en la pantalla, encontrará información adicional.
+**Article Title**: provides the title of the article.
 
-![...](./assets/image21.png)
+**Abstract**: provides the abstract text.
 
-El enlace **Ver todos los detalles del envío** abrirá una ventana con información adicional, incluyendo todos los metadatos de no-autores:
+Further down the screen, you will find additional information.
 
-![...](./assets/image208.png)
+![More of the review request screen](./assets/learning-ojs-3-rev-step1-3.png)
 
-Tenga en cuenta que ninguno de estos campos es editable por el revisor, y sólo se proporcionan para ayudarle a realizar una revisión exhaustiva.
+The **View All Submission Details** link will open a window with additional information, including all of the non-author metadata:
 
-Cierre esta ventana y desplácese más abajo en la pantalla. Desde aquí puede ver el Calendario de Revisión, incluyendo todas las fechas de vencimiento relevantes.
+![The view all submission details screen](./assets/learning-ojs-3-rev-step1-2.png)
 
-Desde aquí, puede rechazar o aceptar la revisión. Si lo rechaza, será eliminado del proceso. Si acepta, pasará al paso 2 de revisión, donde podrá leer cualquier guía para revisores proporcionada por la revista.
+Note that none of these fields are editable by the reviewer, and are only provided to help you conduct a thorough review.
 
-![...](./assets/image198.png)
+Close this window and move further down the screen. From here you can see the Review Schedule, including all of the relevant due dates.
 
-Presione **Continuar al paso 3**. Desde aquí puede descargar una copia de los archivos de revisión e introducir sus comentarios de revisión. La primera ventana es para comentarios al editor y al autor; la segunda ventana es sólo para el editor.
+From here, you can decline or accept the review. If you decline, you will be dropped from the process. If you accept, you will move to review step 2, where you would be able to read any reviewer guidelines provided by the journal.
 
-![...](./assets/image180.png)
+![The reviewer guidelines](./assets/learning-ojs-3-rev-step2.png)
 
-Una vez que haya leído el documento y agregado sus comentarios, desplácese hacia abajo por la página para cargar opcionalmente una copia marcada del archivo de revisión (recuerde quitar cualquier identificación personal del archivo antes de cargarlo).
+Hit **Continue** to move to step 3. From here you can download a copy of the review files and enter your review comments. The first window is for comments to the editor and the author; the second window is just for the editor.
 
-![...](./assets/image173.png)
+![The download and review tab](./assets/learning-ojs-3-rev-step3.png)
 
-A continuación, debe hacer su recomendación utilizando el menú desplegable.
+Once you have read the paper and added your comments, scroll down the page to optionally upload a marked up copy of the review file \(remember to strip any personal identification from the file before uploading it\).
 
+![The upload reviewer files and review recommendation drop down](./assets/learning-ojs-3-rev-step3-1.png)
 
-Sus opciones incluyen:
+Next, you must then make your recommendation using the dropdown menu.
 
-* **Aceptar Envío**: está listo para pasar a Edición tal cual.
-* **Revisiones Requeridas**: requiere cambios menores que pueden ser revisados y aceptados por el editor.
-* **Reenvío para revisión**: requiere cambios importantes y otra ronda de revisión por pares.
-* **Reenviar a otro lugar**: no parece ser una buena opción para el enfoque y alcance de esta revista.
-* **Declinar el Envío**: tiene demasiada debilidad para ser aceptada.
-* **Vea Comentarios**: si ninguna de las recomendaciones anteriores tiene sentido, puede dejar un comentario para el editor detallando sus preocupaciones.
+Your choices include:
 
-Por último, pulse el botón **Enviar revisión** para completar la tarea. Se le pedirá que lo confirme.
+**Accept Submission**: it is ready to go to Copyediting as is.
 
-![...](./assets/image159.png)
+**Revisions Required**: it requires minor changes that can be reviewed and accepted by the editor.
 
-Pulse **Ok** y aparecerá la pantalla de confirmación final agradeciéndole su trabajo.
+**Resubmit for Review**: it requires major changes and another round of peer review.
 
-![...](./assets/image164.png)
+**Resubmit Elsewhere**: it doesn’t seem like a good fit for the focus and scope of this journal.
 
-¡Eso es todo! La revisión ya está completa.
+**Decline Submission**: it has too many weakness to ever be accepted.
+
+**See Comments**: if none of the above recommendations make sense, you can leave a comment for the editor detailing your concerns.
+
+Finally, hit the Submit Review button to complete your task. You’ll be asked to confirm.
+
+![The confirmation screen to submit review](./assets/learning-ojs-3-rev-step3-2.png)
+
+Hit OK. You will be taken to the final confirmation screen thanking you for your work.
+
+![The review submitted completion screen](./assets/learning-ojs-3-rev-step4.png)
+
+That's it! The review is now complete.

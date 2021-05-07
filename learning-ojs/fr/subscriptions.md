@@ -52,29 +52,33 @@ Utilisez cette page pour définir les montants facturés pour différents types 
 
 Si vous souhaitez facturer des frais de traitement d'article (Article Processing Charge -- APC) aux auteurs, saisissez le montant ici. Activer les frais d'auteur vous permettra de demander des frais de traitement d'article une fois le processus d'évaluation terminé. Lorsque l'article est accepté par l'éditeur/trice, l'éditeur/trice aura la possibilité d'exiger un paiement. Cela entraînera la réception d'une notification par l'auteur dans OJS et d'un email, qui le dirigera tout au long du processus de paiement.
 
+Note that the option to notify authors about the Author Fee will appear only when the payment details (PayPal account details or manual PayPal instructions) have been completed in [Settings > Distribution > Payments](./settings-distribution#payments).
+
 ![](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
-
-### Frais de Lecture
-
-Si vous souhaitez facturer des frais pour accéder à des articles et numéros individuels, vous pouvez saisir ici les prix des articles et numéros.
 
 Vous pouvez appliquer les frais aux fichiers PDF uniquement en cochant " Limiter l'accès uniquement aux articles et numéros en format PDF".
 
-Notez que pour vendre l'accès à un numéro, vous devrez télécharger une épreuve de numéros.
+### Frais de Lecture
 
-### Frais Généraux
+Notez que pour vendre l'accès à un numéro, vous devrez télécharger une épreuve de numéros.
 
 Utilisez cela pour facturer d'autres frais, tels que les adhésions.
 
-## Paiements
-
 Au fur et à mesure que divers paiements sont reçus, ils seront répertoriés sous cet onglet.
 
-<hr>
+### Frais Généraux
+
+Use this to charge other fees, such as memberships.
+
+## Paiements
+
+Tous les types d'abonnements individuels apparaîtront ici.
+
+Only payments made through PayPal will be recorded here.
 
 ## Abonnements Individuels
 
-Tous les types d'abonnements individuels apparaîtront ici.
+All types of individual subscriptions will appear here.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-indiv.png)
 
@@ -82,23 +86,21 @@ Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un N
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-indiv-create.png)
 
-**Type d'Abonnement**: sélectionnez le type approprié pour ce nouvel abonné (par exemple, étudiant) et son statut (par exemple, actif).
+**Adhésion**: si l'abonné est associé à des adhésions pertinentes, ajoutez ces informations ici (facultatif).
 
 > Les Types d'Abonnement ont été configurés plus tôt dans ce chapitre.
-
-**Date**: définissez les dates de début et de fin de cet abonnement.
-
-**Adhésion**: si l'abonné est associé à des adhésions pertinentes, ajoutez ces informations ici (facultatif).
 
 **Numéro de Référence**: si l'abonnement est associé à un numéro de référence pertinent (tel qu'un numéro de facture pour le paiement), ajoutez ces informations ici (facultatif).
 
 **Notes**: Si vous avez des notes pertinentes à ajouter, enregistrez-les ici (facultatif).
 
-<hr>
+**Type d'Abonnement**: sélectionnez le type approprié pour ce nouvel abonné (par exemple, étudiant) et son statut (par exemple, actif).
+
+Tous les types d'abonnements institutionnels apparaîtront ici.
 
 ## Abonnements Institutionnels
 
-Tous les types d'abonnements institutionnels apparaîtront ici.
+All types of institutional subscriptions will appear here.
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-instit.png)
 
@@ -121,12 +123,28 @@ Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un n
 
 ## Bloc d'Abonnement
 
-Lorsqu'un utilisateur a accès à un site ou à son contenu via un abonnement, les informations de l'abonné fournissant l'accès peuvent être affichées dans la barre latérale. La fonction de Bloc d'Abonnement doit être sélectionnée pour être affichée dans Paramètres du Site Web > Apparence > Gestion de la barre latérale.
+### Manual payment notifications
+
+With a manual payment notification, once this information is filled out the subscription manager is notified via email that a manual payment has been made. Since the sandbox is restricted from sending emails any tests that you would do would not send an email as it normally does.
+
+These manual subscriptions will also be recorded in the Payment > Individual or Institutional tab. The example below shows a test subscription.
+
+From here the subscription manager can update the status as needed based on your workflow.
+
+![](./assets/learning-ojs3.2-subs-manual-notification.png)
+
+### PayPal payment notifications
+
+When a payment has been processed through PayPal the account administrator for your PayPal account will receive notification of payment. The payment will also be recorded in the Payment tab in Payments > Payment.
 
 ## Définir les Articles à Accès Ouvert
 
+Lorsqu'un utilisateur a accès à un site ou à son contenu via un abonnement, les informations de l'abonné fournissant l'accès peuvent être affichées dans la barre latérale. La fonction de Bloc d'Abonnement doit être sélectionnée pour être affichée dans Paramètres du Site Web > Apparence > Gestion de la barre latérale.
+
+## Sous la Table des Matières, cochez les articles qui seront définis comme Accès Ouvert.
+
 Si vous souhaitez définir certains articles comme Accès Ouvert, cela peut être fait en allant à **Numéros** dans le menu de gauche. Si vous souhaitez cela définir avant de publier le numéro, cliquez sur l'onglet Futur suivi de la flèche bleue à côté du numéro.
 
-Sous la Table des Matières, cochez les articles qui seront définis comme Accès Ouvert.
+Under the Table of Contents, check off the articles that will be set as Open Access.
 
 ![](./assets/learning-ojs3.2-jm-subscriptions-single-article.png)
