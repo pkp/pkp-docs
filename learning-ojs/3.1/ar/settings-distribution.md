@@ -35,7 +35,7 @@ If you set it as **Subscription**, underneath that a box will appear where you c
 
 Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbox will appear beside each article under **Open Access**, where you can optionally set individual articles as open access, even if the rest of the issue remains available by subscription.
 
-## Payments
+## خيارات الوصول في الموقع
 
 OJS provides the ability to collect online payments and manage subscriptions and author fee payments.
 
@@ -77,7 +77,7 @@ Go to the [Subscriptions Chapter](./subscriptions.md) for further instructions o
 
 In OJS 3.x there is not an option to set up a payment type for donations, to manage donations with the Payments module, or to use the Paypal plugin to accept donations. You can add the Donations block to your sidebar, but it will have to link to an external site where donation payments can be made.
 
-## Permissions
+## تقديم مقالة
 
 This section covers copyright issues for your journal.
 
