@@ -1,4 +1,7 @@
-# Contribute
+---
+title: Contribute - Guidelines for Contributing to PKP Documentation
+---
+# Contribute to PKP Documentation
 
 PKP software documentation is created and maintained by PKP staff, users, and developers. It’s coordinated by [the Documentation Interest Group (DIG)](https://pkp.sfu.ca/documentation-interest-group/), which is made up of PKP staff, users, and developers who are interested in documentation. The DIG is available to answer questions and offer assistance and guidance to others who want to contribute to documentation.
 
