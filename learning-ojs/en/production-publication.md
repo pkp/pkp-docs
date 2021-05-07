@@ -582,7 +582,7 @@ When you are ready to publish the article:
 * Go to the **Publication** tab
 * Click the blue **Schedule for Publication** button.
 
-![Publication tab of Manuscipts shows subtab and option to Preview and Schedule Issue and language toggles to enter metadata in Francais (Canada) and English.](./assets/learning-ojs3.2-ed-prod-schedule-for-pub.png)
+![Publication tab of Manuscripts shows subtab and option to Preview and Schedule Issue and language toggles to enter metadata in Francais (Canada) and English.](./assets/learning-ojs3.2-ed-prod-schedule-for-pub.png)
 
 A message will pop up that confirms you want to schedule the article for publication. Click **Publish**.
 
@@ -620,13 +620,13 @@ When creating a new version, you will be able to make changes to the metadata an
 
 You can keep track of version updates under **All Versions**. Each version is marked by a number and date published. The version currently being updated is marked by a number and **Unpublished**.
 
-![Publication tab of manuscript showing a list of all versions available for this article. Article crrently has 4 published version and 1 unpublished.](./assets/learning-ojs-3.2-ed-production-all-versions.png)
+![Publication tab of manuscript showing a list of all versions available for this article. Article currently has 4 published version and 1 unpublished.](./assets/learning-ojs-3.2-ed-production-all-versions.png)
 
 Once your changes are completed, you can publish the new version by clicking **Publish** on the top right. If scheduled into a published issue, it will become available right away. No notification will be sent to readers since the notification is sent when an issue is published, not for an individual article.
 
 The list of prior versions and update dates will be listed on the published article page.
 
-![List of dates for all versions for articlr that displays on the article abstract page on the front end.](./assets/learning-ojs-3.2-ed-production-published-versions.png)
+![List of dates for all versions for article that displays on the article abstract page on the front end.](./assets/learning-ojs-3.2-ed-production-published-versions.png)
 
 Readers will be able to access previous versions. They will see a message on the article and galley pages advising them that it is an outdated version and pointing them to the most recent version.
 
