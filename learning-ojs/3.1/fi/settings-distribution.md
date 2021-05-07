@@ -77,7 +77,7 @@ Go to the [Subscriptions Chapter](./subscriptions.md) for further instructions o
 
 In OJS 3.x there is not an option to set up a payment type for donations, to manage donations with the Payments module, or to use the Paypal plugin to accept donations. You can add the Donations block to your sidebar, but it will have to link to an external site where donation payments can be made.
 
-## Permissions
+## Käsikirjoituksen lähetys
 
 This section covers copyright issues for your journal.
 
