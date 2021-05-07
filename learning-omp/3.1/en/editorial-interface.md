@@ -4,7 +4,7 @@ version: 3.1
 ---
 # Editorial Interface
 
-![](./assets/learning_omp-editorial-interface.png)
+![The editorial interface of OMP.](./assets/learning_omp-editorial-interface.png)
 
 OMP 3.x has a separate interface once you log into the editorial system. This makes it easier to customize the reader interface.
 

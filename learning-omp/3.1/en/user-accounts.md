@@ -12,7 +12,7 @@ OMP has a number of default roles with associated permissions/access. These role
 
 There are six levels of permissions/access that a role can have: Press Manager, Press Assistant, Series Editor, Reviewer, Author, Reader. Permission determines to which parts of the dashboard the role has access. These permission levels cannot be changed once set. You can assign any number of roles to each workflow stage. Assigning a role to a workflow stage means that you will be able to include one or more persons with that role during that stage of the submission. For example, by default, the Marketing Coordinator is included in the editorial stage, the Layout Editor in the production stage, and the Author in all stages. You can add or remove any role from a workflow stage.
 
-![](./assets/learning_omp-user_accounts.png)
+![The roles and permissions screen in OMP.](./assets/learning_omp-user_accounts.png)
 
 __Press Managers__ can access the many Press Management pages, including content settings, press settings, and import/export tools and other plugins. The Press Manager(s) should configure the press via the Press Settings pages before any submissions are solicited. By default, the Press Editor, Production Editor, and Layout Editors all have "press manager" permissions. These four roles have limited customizable options in the OMP workflow.
 
@@ -88,8 +88,8 @@ OMP allows for the creation of new roles if the default ones do not fit your nee
 
 To create a new role, go to Users & Roles > Roles. On the top-right corner of the Current Roles box, click ‘Create New Role.'
 
-![](./assets/learning_omp-user_accounts_2.png)
+![The Create New Role button highlighted in the Roles screen.](./assets/learning_omp-user_accounts_2.png)
 
 Select the Permission level, enter the Role Name and Abbreviation, and select from the Role Options (as it applies).
 
-![](./assets/learning_omp-user-accounts_3.png)
+![The Permission level dropdown in the Role creation screen.](./assets/learning_omp-user-accounts_3.png)

@@ -12,9 +12,9 @@ In the Press Settings section, you can configure information about your press th
 
 You can find the Settings in the left menu panel when you are logged in as a user with Press Manager permissions. This section contains most of the information that you provided when originally creating your press (and which can be modified at any time). 
 
-![](./assets/learning_omp-press_setup.png)
+![The Press settings screen.](./assets/learning_omp-press_setup.png)
 
-![](./assets/learning_omp-press_setup_2.png)
+![The Press settings main panel with sample settings.](./assets/learning_omp-press_setup_2.png)
 
 ### Masthead
 
@@ -28,7 +28,7 @@ This section contains the primary contact information you provided when original
 
 Series can be used to help organize your publications. A series represents a special set of books devoted to a theme or topic. Visitors will be able to search and browse the press by series. In the Series tab of your Press Settings, you can create, edit, and order the series that will appear on your press website.
 
-![](./assets/learning_omp-press_setup-series.png)
+![The Series tab of the Press Settings screen.](./assets/learning_omp-press_setup-series.png)
 
 #### Add Series
 
@@ -38,7 +38,7 @@ To add a series, click **Add Series**  on the right corner of the Series table a
 * ISSN: The 8-digit code to identify your print and/or online series 
 * Order Monograph: The order in which you would like monographs within the series to be displayed
 
-![](./assets/learning_omp-press_setup-mono_order.png)
+![List of display order options.](./assets/learning_omp-press_setup-mono_order.png)
 
 * Category: The subject matter this series will be part of
 
@@ -46,13 +46,13 @@ To add a series, click **Add Series**  on the right corner of the Series table a
 
 You can modify a series by clicking on the blue arrow to the left of the series name. This will reveal options to edit or delete the series.
 
-![](./assets/learning_omp-press_setup-series.png)
+![The expanded edit options menu under a series.](./assets/learning_omp-press_setup-series.png)
 
 #### Order Series
 
 To order your series, click **Order** on the right corner of the series box. 
 
-![](./assets/learning_omp-press_setup-order_series.png)
+![The drag & drop interface found after clicking Order.](./assets/learning_omp-press_setup-order_series.png)
 
 Using the double arrow beside the Series title, drag the series in order and click Done once you have completed ordering your series. 
 
@@ -111,7 +111,7 @@ This section will focus on the Production tab of Workflow Settings, as these are
 
 Under Production, you will enter all the information required to generate your ONIX metadata.
 
-![](./assets/learning_omp-workflow_setting-ONIX.png)
+![The Production tab settings screen.](./assets/learning_omp-workflow_setting-ONIX.png)
 
 ## Distribution
 

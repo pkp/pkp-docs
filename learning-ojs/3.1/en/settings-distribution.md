@@ -10,7 +10,7 @@ The Distribution Settings focus on helping to raise the visibility of your journ
 
 This section helps you enhance your search engine optimization.
 
-![](./assets/learning-ojs3.1-jm-settings-dist-index.png)
+![Distribution settings search indexing tab showing description and custom tags options.](./assets/learning-ojs3.1-jm-settings-dist-index.png)
 
 Use **Description** to provide a brief description of your journal for search engines.
 
@@ -24,7 +24,7 @@ Use **Custom Tags** to add custom HTML header tags to the header of every page o
 
 Under the Access tab you can configure whether you want your journal contents to be open access, available by subscription, or a combination. By default, the open access option is selected. However, if you wish to use OJS for a subscription journal, choose the second option (see next section on Payments for further information).
 
-![](./assets/learning-ojs3.1-jm-settings-dist-access.png)
+![Distribution settings access tab showing access to journal content options.](./assets/learning-ojs3.1-jm-settings-dist-access.png)
 
 If you are only using OJS to manage your submission workflow and not publish your content, you can select "OJS will not be used to publish the journal's contents online."
 
@@ -48,11 +48,11 @@ If you plan to accept Paypal and/or manual payments, go to Website Settings > Pl
 
 If you plan to make your journal or articles available by subscription, go to Distribution Settings > Access and check off “The journal will require subscriptions to access some or all of its contents.”
 
-![](./assets/learning-ojs3.1-jm-settings-dist-access.png)
+![Distribution settings access tab showing access to journal content options.](./assets/learning-ojs3.1-jm-settings-dist-access.png)
 
 Then go to Payments (the next tab) and check off “Payments will be enabled for this journal. Note that users will be required to log in to make payments.”
 
-![](./assets/learning-ojs3.1-jm-settings-dist-pay.png)
+![Payment method and Paypal payment settings fields.](./assets/learning-ojs3.1-jm-settings-dist-pay.png)
 
 Select the currency you will use.
 
@@ -60,7 +60,7 @@ Select a fee payment method.
 
 If you select Paypal Fee Payment, additional fields will appear.  You need to get this information from your Paypal account which you’ll set up on the Paypal website with the Paypal API. See the [Paypal Plugin Guide](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/) for more information. 
 
-![](./assets/learning-ojs3.1-jm-settings-dist-paypalsettings.png)
+![Paypal fee payment screen showing test mode enable option, account name, client ID and secret fields.](./assets/learning-ojs3.1-jm-settings-dist-paypalsettings.png)
 
 If you select Manual Fee Payment, a field will appear where you can enter instructions that will appear to users who are making a manual payment.  For example, “Send a cheque payable to the Public Knowledge Project” to )))))”
 
@@ -68,7 +68,7 @@ Click Save.
 
 A new menu item will appear on the main dashboard menu called “Payments” (or “Subscriptions,” depending on which version of OJS you are using).
 
-![](./assets/learning-ojs3.1-jm-settings-dist-payments-menu.png)
+![OJS dashboard with Payments menu item on the left.](./assets/learning-ojs3.1-jm-settings-dist-payments-menu.png)
 
 Go to the [Subscriptions Chapter](./subscriptions.md) for further instructions on managing subscriptions and payments.
 
@@ -80,7 +80,7 @@ In OJS 3.x there is not an option to set up a payment type for donations, to man
 
 This section covers copyright issues for your journal.
 
-![](./assets/learning-ojs3.1-jm-settings-dist-permissions.png)
+![Distribution settings permissions tab showing copyright notice, year and holder options.](./assets/learning-ojs3.1-jm-settings-dist-permissions.png)
 
 **Copyright Notice**: Add your journal's copyright statement here. It will be visible on the journal website.
 

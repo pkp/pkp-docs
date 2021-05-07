@@ -4,7 +4,7 @@ version: 3.2
 ---
 # Editorial Interface
 
-![](./assets/learning-omp3.2-dashboard.gif)
+![Animation highlighting each of the editorial interface elements.](./assets/learning-omp3.2-dashboard.gif)
 
 OMP 3.2 has a separate interface once you log into the editorial system. This makes it easier to customize the reader interface.
 
