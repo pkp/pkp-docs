@@ -3,9 +3,9 @@ book: learning-omp
 version: 3.1
 ---
 
-# Tools
+# Outils
 
-## Import/Export
+## Importer/Exporter
 
 ![The list of import and export tools in OMP.](./assets/learning_omp-tools-import_export.png)
 
@@ -15,6 +15,6 @@ To export using the ONIX 3.0 Monograph Export Plugin, you need to ensure that al
 
 The Tab Delimited Content Import Plugin can only be used with the command line.
 
-## Statistics
+## Statistiques
 
 You can generate statistical reports for usage and reviews or create a custom report. For information on how to use and configure statistics in OMP see the [PKP Administrator’s Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
