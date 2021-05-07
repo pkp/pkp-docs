@@ -570,7 +570,7 @@ When you are ready to publish the article:
 * Allez dans l'onglet **Publication**
 * Cliquez sur le bouton bleu **Calendrier de publication**.
 
-![Publication tab of Manuscipts shows subtab and option to Preview and Schedule Issue and language toggles to enter metadata in Francais (Canada) and English.](./assets/learning-ojs3.2-ed-prod-schedule-for-pub.png)
+![Publication tab of Manuscripts shows subtab and option to Preview and Schedule Issue and language toggles to enter metadata in Francais (Canada) and English.](./assets/learning-ojs3.2-ed-prod-schedule-for-pub.png)
 
 Un message apparaîtra pour confirmer que vous souhaitez planifier la publication de l'article. Cliquez sur **Publier**.
 
@@ -608,13 +608,13 @@ Lors de la création d'une nouvelle version, vous pourrez apporter des modificat
 
 Vous pouvez suivre les mises à jour de version sous **Toutes les Versions** . Chaque version est marquée par un numéro et une date de publication. La version en cours de mise à jour est marquée par un numéro et **Non publiée** .
 
-![Publication tab of manuscript showing a list of all versions available for this article. Article crrently has 4 published version and 1 unpublished.](./assets/learning-ojs-3.2-ed-production-all-versions.png)
+![Publication tab of manuscript showing a list of all versions available for this article. Article currently has 4 published version and 1 unpublished.](./assets/learning-ojs-3.2-ed-production-all-versions.png)
 
 Une fois vos modifications terminées, vous pouvez publier la nouvelle version en cliquant sur **Publier** en haut à droite. S'il est programmé dans un numéro publié, il sera disponible immédiatement. Aucune notification ne sera envoyée aux lecteurs puisque la notification est envoyée lorsqu'un numéro est publié, pas pour un article individuel.
 
 La liste des versions antérieures et les dates de mise à jour seront répertoriées sur la page de l'article publié.
 
-![List of dates for all versions for articlr that displays on the article abstract page on the front end.](./assets/learning-ojs-3.2-ed-production-published-versions.png)
+![List of dates for all versions for article that displays on the article abstract page on the front end.](./assets/learning-ojs-3.2-ed-production-published-versions.png)
 
 Les lecteurs pourront accéder aux versions précédentes. Ils verront un message sur l'article et les pages d'épreuve les informant qu'il s'agit d'une version obsolète et les pointant vers la version la plus récente.
 
