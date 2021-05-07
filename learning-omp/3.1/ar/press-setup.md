@@ -17,11 +17,11 @@ You can find the Settings in the left menu panel when you are logged in as a use
 
 ![The Press settings main panel with sample settings.](./assets/learning_omp-press_setup_2.png)
 
-### Masthead
+### إدارة الموقع
 
 Enter and edit information about your press, including press name, editorial team, and about the press. All Masthead information will appear under pages in the About menu on your press website.
 
-### Contact
+### الوظائف الإدارية
 
 This section contains the primary contact information you provided when originally creating your press and includes a technical support contact option. You can also add a mailing address. All contact information will appear on the Contact page under the About menu on your press website.
 
@@ -97,13 +97,13 @@ To display categories on your website you can go to Website Settings > Appearanc
 
 See the Catalog and Displaying Content chapter for instructions on how to add books to categories.
 
-## Website Settings
+## الفصل 5: الإعدادات
 
 Please refer to the [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on Website Setting applicable to OMP.
 
 Please note that some plugins for OJS are not available for OMP.
 
-## Workflow Settings
+## الفصل 6: الأعداد
 
 Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes.
 
