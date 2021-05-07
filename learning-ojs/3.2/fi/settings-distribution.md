@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Distribution Settings
+# Luku 7: Käyttäjät ja roolit
 
 The Distribution Settings focus on access to and visibility of your journal. The tabs consist of License, Search Indexing, Payments, Access, and Archiving.
 
