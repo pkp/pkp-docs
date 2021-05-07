@@ -97,13 +97,13 @@ To display categories on your website you can go to Website Settings > Appearanc
 
 See the Catalog and Displaying Content chapter for instructions on how to add books to categories.
 
-## Website Settings
+## Luku 5: Julkaisun asetukset
 
 Please refer to the [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on Website Setting applicable to OMP.
 
 Please note that some plugins for OJS are not available for OMP.
 
-## Workflow Settings
+## Luku 6: Numerot
 
 Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes.
 
