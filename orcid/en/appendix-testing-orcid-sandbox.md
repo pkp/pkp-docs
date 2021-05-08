@@ -1,6 +1,6 @@
 # Appendix:  Testing the ORCID Sandbox
 
-You are strongly advised  to test the ORCID plugin in the ORCID Sandbox environment using Sandbox ORCID API credentials first to make sure that the OJS/OPS environment is configured  properly, before moving to the production environment and going live with the plugin functionality. 
+You are strongly advised  to test the ORCID plugin in the ORCID Sandbox environment using Sandbox ORCID API credentials first to make sure that the OJS/OPS environment is configured  properly, before moving to the production environment and going live with the plugin functionality. This chapter explains how to test the plugin.
 
 ## Obtain ORCID Sandbox API credentials
 
