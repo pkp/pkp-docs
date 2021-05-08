@@ -4,7 +4,7 @@ Now that you have [obtained ORCID credentials, enabled and set up the plugin](./
 
 ## Inform your stakeholders
 
-Once your ORCID plugin is enabled and in production, you might want to let your stakeholders (authors, journal editors, etc.) know that the ORCID plugin is now available, and make sure they know what ORCID is and how it can help them.  There are a variety of ways to do this. One such way is by using the OJS announcement feature to announce to registered users that the ORCID plugin is in use. As a part of such an announcement you may wish to point users to the [About the ORCID plugin page](./introduction.md) in case they are unfamiliar with ORCID. If your journal has a social media presence or newsletter you can also inform users through those means as well.
+Once your ORCID plugin is enabled and in production, you might want to let your stakeholders (authors, journal editors, etc.) know that the ORCID plugin is now available, and make sure they know what ORCID is and how it can help them.  There are a variety of ways to do this. One such way is by using the [OJS Announcements feature](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#announcements) to announce to registered users that the ORCID plugin is in use. As a part of such an announcement you may wish to point users to the [About the ORCID plugin page](./introduction.md) in case they are unfamiliar with ORCID. If your journal has a social media presence or newsletter you can also inform users through those means as well.
 
 ## Plugin functionality
 
@@ -54,7 +54,7 @@ When a work is added to an ORCID record, the "source" is displayed as well. If a
 
 ### Alter an existing article to include an ORCID iD
 
-For a visual overview of this process, see the [video walkthrough of article publication.](https://vimeo.com/374417678).
+For a visual overview of this process, see the [video walkthrough of article publication](https://vimeo.com/374417678).
 
 ### Remove an ORCID iD from a user account
 
