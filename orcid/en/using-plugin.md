@@ -22,6 +22,8 @@ Users (including authors and contributors) can do this in 2 ways:
 
 ![Click on Create or Connect your ORCID iD button in existing profile.](./assets/ORCID_connect_profile.gif)
 
+Please note that if an author has connected their ORCID record to their OJS/OPS account, future articles and preprints they submit will be automatically connected to ORCID, providing they login to the site using their existing author account. However, if an author is a contributor (or co-author) on a submission, their OJS/OPS user account will not be linked to the submission and they will need to be prompted to connect the submission to their ORCID record. 
+
 ### Editors can invite contributors to connect their ORCID iDs to the publication
 
 To invite co-authors/contributors to connect their ORCID iDs, check the checkbox "Send email to request ORCID authorization from contributor" from the Contributor’s Edit screen. For details, see this [video walkthrough of contributor invitation](https://vimeo.com/374416189).
@@ -36,7 +38,7 @@ As an alternative to manually inviting contributors to connect their ORCID iDs, 
 
 ### ORCID plugin will display contributors' ORCID iDs on publication page
 
-Contributor’s authenticated ORCID iDs will be publicly displayed on the journal article or preprint page, which will link to the contributor’s ORCID record.
+Authors' and contributors' authenticated ORCID iDs will be publicly displayed on the journal article or preprint page, which will link to the contributor’s ORCID record.
 
 ![Article page displaying authenticated iDs under each of the three contributors' names.](./assets/orcid-id-example.png)
 
