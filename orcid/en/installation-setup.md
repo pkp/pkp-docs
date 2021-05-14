@@ -1,8 +1,8 @@
 # Setup the ORCID plugin
 
-To use the plugin, you will first need to obtain either Public or Member ORCID API credentials (Client ID and Client Secret) and then configure the ORCID Profile Plugin in OJS/OPS with this information. 
+To use the plugin, you will first need to obtain either Public or Member ORCID API credentials (Client ID and Client Secret) and then configure the ORCID plugin in OJS/OPS with this information. 
 
-This chapter explains how to obtain production (live) credentials and add them to the ORCID plugin in your OJS/OPS. We recommend that before using the live credentials, you test the plugin with Sandbox credentials first. For details on how to do that see the [Appendix: Testing the ORCID Sandbox](./appendix-testing-orcid-sandbox.md) chapter.
+This chapter explains how to obtain production (live) credentials and add them to the ORCID plugin in your OJS/OPS. You can also test the plugin with Sandbox credentials first before using the live credentials. For details on how to test in the Sandbox and why you may want to, see the [Appendix: Testing the ORCID Sandbox](./appendix-testing-orcid-sandbox.md) chapter.
 
 **IMPORTANT: do not enable the plugin until you have the credentials and are ready to setup the plugin.**
 
