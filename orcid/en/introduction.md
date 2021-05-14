@@ -36,6 +36,6 @@ If your journal is affiliated with an institution, contact the institution's lib
 
 ## Sandbox vs production credentials
 
-The ORCID plugin provides you with an option to test your setup in the Sandbox (testing) environment before going live with the Production environment. You will need a different set of credentials for the Sandbox vs Production API. We recommend that you test the ORCID plugin in the ORCID Sandbox environment using Sandbox ORCID API credentials first to make sure that the OJS/OPS environment is configured properly, before moving to the production environment and going live with the plugin functionality.
+ORCID provides plugin users with an option to test how the plugin works with your installation in a Sandbox (testing) environment before going live with the Production environment. You will need a different set of credentials for the Sandbox vs Production API. 
 
-The process for obtaining your Sandbox ORCID API credentials will vary depending on whether you are planning to use the ORCID Public API or the ORCID Member API. It is explained further in the [Appendix: Testing the ORCID Sandbox](./appendix-testing-orcid-sandbox.md) chapter.
+How to obtain Sandbox credentials, how to test in the Sandbox, and the advantages of testing in the Sandbox are explained further in the [Appendix: Testing the ORCID Sandbox](./appendix-testing-orcid-sandbox.md) chapter.
