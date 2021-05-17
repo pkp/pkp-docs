@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Introduction
+# مقدمة
 
 Open Journal Systems \(OJS\) is an open source solution to managing and publishing scholarly journals online. OJS is a highly flexible editor-operated journal management and publishing system that can be downloaded for free and installed on a local Web server.
 
@@ -11,7 +11,7 @@ It has been designed to reduce the time and energy devoted to the clerical and m
 
 This guide covers OJS version 3.2, released in February 2020, and features significant enhancements over the previous versions of the software. We hope you find it helpful for your publishing projects.
 
-## Background
+## خلفية النظام
 
 *OJS is a journal/web site management/publishing system*. OJS covers all aspects of online journal publishing, from establishing a journal website to operational tasks such as the author's submission process, peer review, editing, publication, archiving, and indexing of the journal. OJS also helps to manage the people aspects of organizing a journal, including keeping track of the work of editors, reviewers, and authors, notifying readers, and assisting with the correspondence.
 
@@ -23,7 +23,7 @@ This guide covers OJS version 3.2, released in February 2020, and features signi
 
 <hr />
 
-## OJS Features
+## مزايا نظام المجلات المفتوحة
 
 OJS includes the following features:
 
@@ -68,7 +68,7 @@ The editorial interface is known as your **dashboard** and consists of the follo
 5. **Main Panel Sub-Menus**: Within the Main Panel, you will often see tabs that allow you to view different information about the content being worked on. In this example, the submission record is broken into four sections \(Submission, Review, Copyediting, Production\). Notice the Help tab to the right, which provides context-sensitive help for the page you are currently viewing.
 6. **Right Panel**: From here, you can see the action buttons, such as Send to Review. Different pages have different action buttons. Below the action buttons is the Participants table, which lists everyone \(except Reviewers\) involved in the submission.
 
-## Community Contributions
+## واجهة القارئ
 
 The OJS team encourages contributions from the developer community. If you are interested in getting involved in making OJS even better, we welcome your participation.
 
@@ -76,7 +76,7 @@ Excellent examples of community contributions include the vast array of language
 
 We also welcome software testing and bug reporting contributions.
 
-## Support
+## واجهة التحرير أو ما يعرف بلوحة القيادة
 
 A [community forum](https://forum.pkp.sfu.ca/) and [issue reporting system](https://github.com/pkp/pkp-lib/#issues) for technical issues can be accessed via the [PKP web site](https://pkp.sfu.ca).
 
