@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](.)
+* [Introdução](.)
 * [Chapter 1: Overview](overview.md)
   * [OJS Features](ojs_features.md)
   * [Viewing and Reading Overview](viewing_and_reading_overview.md)
