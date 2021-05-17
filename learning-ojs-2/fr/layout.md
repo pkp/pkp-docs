@@ -2,7 +2,7 @@
 
 On the resulting page, you will see the layout version of the submission, which has been prepared by the Copyeditor according to the journal's standards. Click on the linked file name (e.g., 8-24-1-LE.DOCX) to download a copy of the file. You will need to use third party-software to prepare the galley files (e.g., Adobe Acrobat, Microsoft Word or Open Office). Here, the Journal Manager has made a set of Layout and Reference Linking instructions and a Layout Template available to assist in properly formatting the files for publication.
 
-![Layout Editing](images/chapter11/layout_3.png)
+![Rédaction de la mise en page](images/chapter11/layout_3.png)
 
 Clicking on **Layout Instructions**, for example, will open the instructions set out by the Journal Manager.
 
