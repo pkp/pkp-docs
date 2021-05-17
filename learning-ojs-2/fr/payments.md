@@ -1,4 +1,4 @@
-# Payments
+# Bibliothèque de l'éditeur
 
 OJS includes a Payment module for charging various fees. Fees can be charged for author actions \(including fees for article submission, fast-track peer review, and article publication\); article access \(subscriptions and pay-per-view options\); and for donations and membership dues.
 
@@ -14,15 +14,15 @@ To enable the Payment Module, click on the **Payments** link listed under Manage
 
 Further down the page, you can enable and customize author fees for article submission, fast-track peer review, and article publication. Note the Waiver Policy. If filled in, this will display along with the Submission Checklist in article Submission Step One, and in About the Journal, under Submissions.
 
-![Author Fees](images/chapter5/pay_author.png)
+![Frais de publication pour un article](images/chapter5/pay_author.png)
 
 **Reader fees** can also be enabled for either subscriptions or pay-per-view purchases.
 
-![Reader Fees](images/chapter5/pay_reader.png)
+![Frais de Lecture](images/chapter5/pay_reader.png)
 
 **General Fees** for association membership and/or donations can also be added. The Association Membership information will appear in About the Journal under Policies, and the Donation link will appear above the search function in the right-hand frame \(it is a sidebar block that can be re-positioned -- see Journal Setup for details\).
 
-![General Fees](images/chapter5/pay_general.png)
+![Frais Généraux](images/chapter5/pay_general.png)
 
 **Gift** subscriptions can also be purchased through the Subscriptions page.
 
