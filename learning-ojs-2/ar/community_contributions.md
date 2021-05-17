@@ -1,4 +1,4 @@
-# Community Contributions
+# واجهة القارئ
 
 The OJS team encourages contributions from the developer community. If you are interested in getting involved in making OJS even better, we welcome your participation.
 
