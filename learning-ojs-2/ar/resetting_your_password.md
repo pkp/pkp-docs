@@ -1,4 +1,4 @@
-# Resetting your Password
+# إعادة تعيين كلمة مرورك
 
 Resetting your password is a simple process if you remember it and just want to change it to something else: log in, and from your User Home page click the Change Password link. You will have to enter your current password, and then your new password twice.
 
