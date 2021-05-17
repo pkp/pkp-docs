@@ -1,7 +1,7 @@
-# Summary
+# Índice
 
 * [Preface](.)
-* [Introduction](./introduction.md)
+* [Introducción](./introduction.md)
   * [Background](./introduction.md#background)
   * [OJS Features](./introduction.md#ojs-features)
   * [What's New in OJS 3](./introduction.md#whats-new-in-ojs-3)
@@ -18,12 +18,12 @@
 * [Journal Settings](./journal-setup.md)
   * [Masthead](./journal-setup.md#masthead)
   * [Contact](./journal-setup.md#contact)
-  * [Sections](./journal-setup.md#sections)
+  * [Secciones](./journal-setup.md#sections)
   * [Categories](./journal-setup.md#categories)
 * [Website Settings](./settings-website.md)
   * [Appearance](./settings-website.md#appearance)
   * [Setup](./settings-website.md#setup-1)
-  * [Plugins](./settings-website.md#plugins)
+  * [Módulos](./settings-website.md#plugins)
   * [Static Pages](./settings-website.md#static-pages)
 * [Workflow Settings](./settings-workflow.md)
   * [Submission](./settings-workflow.md#submission)
@@ -37,7 +37,7 @@
   * [Access](./settings-distribution.md#access)
   * [Archiving](./settings-distribution.md#archiving)
 * [Users and Roles](./users-and-roles.md)
-  * [Users](./users-and-roles.md#users)
+  * [Usuarios/as](./users-and-roles.md#users)
   * [Roles](./users-and-roles.md#permissions-and-roles-in-ojs)
   * [Site Access Options](./users-and-roles.md#site-access-options)
 * [Tools](./tools.md)
