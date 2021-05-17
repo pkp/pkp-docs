@@ -1,6 +1,6 @@
-# Summary
+# الملخص
 
-- [Introduction](.)
+- [مقدمة](.)
 - [Getting Started with DOIs](gettingStarted.md)
 - [PKP and Crossref](pkpcrossref.md)
    - [PKP and Crossref Sponsorship](pkpsponsor.md)
