@@ -53,7 +53,7 @@ Let's break these steps down one by one.
     - You'll also see one that says, "re-assign DOIs." **_Only click this if you have not registered any of your DOIs and made an error in prior suffix generation_**.
     - If you chose to assign DOIs manually as you publish, you could select that from the DOI Suffix options. Using this method, OJS does not create a DOI suffix automatically. Instead, you enter DOIs as part of article metadata.
 
-## Additional Resources
+## Recursos adicionales
 
 - [The DOI Handbook @ doi.org](https://www.doi.org/hb.html) – The DOI Handbook is a comprehensive guide to DOIs and their usage and is available in several languages.
 - [Crossref Curriculum](https://www.crossref.org/education/)
