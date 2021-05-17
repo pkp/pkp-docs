@@ -1,4 +1,4 @@
-# OJS Features
+# مزايا نظام المجلات المفتوحة
 
 OJS includes the following features:
 
