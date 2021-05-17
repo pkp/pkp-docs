@@ -1,6 +1,6 @@
 # Prepared Email
 
-OJS facilitates work flow communication through the use of prepared email messages. The wording of these messages has been added to get you started, but they can be easily modified.
+OJS facilites la communication du flux des travaux via l'utilisation de courriels préparés. The wording of these messages has been added to get you started, but they can be easily modified.
 
 * Go to Management Pages section and select **Prepared Emails**:
 
@@ -22,4 +22,4 @@ OJS facilitates work flow communication through the use of prepared email messag
 
 ![Edit Prepared Email](images/chapter5/edit_email.png)
 
-Some configuation is required to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
+Some configuation is required to send email. Voir le [Guide de l'Administrateur](/admin-guide/fr/email) pour plus d'information.
