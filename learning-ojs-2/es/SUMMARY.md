@@ -1,6 +1,6 @@
-# Summary
+# Índice
 
-* [Introduction](.)
+* [Introducción](.)
 * [Chapter 1: Overview](overview.md)
   * [OJS Features](ojs_features.md)
   * [Viewing and Reading Overview](viewing_and_reading_overview.md)
@@ -31,7 +31,7 @@
       * [Step Three: Submissions](step_three_submissions.md)
       * [Step Four: Management](step_four_management.md)
       * [Step Five: The Look](step_five_the_look.md)
-    * [Announcements](announcements.md)
+    * [Avisos](announcements.md)
     * [The Files Browser](the_files_browser.md)
     * [Journal Sections](journal_sections.md)
     * [Review Forms](review_forms.md)
@@ -81,7 +81,7 @@
       * [Submissions Editing Page](submissions_editing_page.md)
 * [Chapter 7: Editors](editors.md)
   * [Editor Home Page](editor_home_page.md)
-    * [Submissions](submissions.md)
+    * [Envíos](submissions.md)
     * [Searching Submissions](searching_submissions.md)
     * [Issues](issues.md)
 * [Chapter 8: Section Editors](section_editors.md)
@@ -97,7 +97,7 @@
     * [Submission References](submission_references.md)
     * [Submission Archives](submission_archives.md)
 * [Chapter 9: Reviewers](reviewers.md)
-  * [Submissions](reviwers_submissions.md)
+  * [Envíos](reviwers_submissions.md)
   * [Reviews](reviews.md)
 * [Chapter 10: Copyeditors](copyeditors.md)
   * [Copyediting](copyeditor_home_page.md)
