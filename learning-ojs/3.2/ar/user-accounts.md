@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.2
 ---
 
-# User Account Management
+# الفصل 12: التحكيم
 
 When a user log into the system, they will be taken to their Dashboard. From here, users can change their profile information or account settings, as well as see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow. More information about roles and permissions levels is available in the [Users and Roles chapter](./users-and-roles.md).
 
@@ -28,7 +28,7 @@ You will not be able to self-register for an Editorial Role (e.g., Editor, Secti
 
 <hr />
 
-## Viewing and Changing your Profile
+## معاينة ملفك الشخصي وتعديله
 
 To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
 
@@ -45,7 +45,7 @@ Under **Notifications**, you can configure what kinds of notifications you recei
 
 The **API tab** on the user profile allows you to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
 
-## Resetting your Password
+## إعادة تعيين كلمة مرورك
 
 You can reset your password by:
 
