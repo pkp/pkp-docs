@@ -1,4 +1,4 @@
-# Submissions
+# Envíos
 
 After logging in to the journal the Reviewer will arrive at the User Home page.
 
