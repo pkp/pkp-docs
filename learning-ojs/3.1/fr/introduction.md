@@ -1,40 +1,40 @@
 ---
-book: learning-ojs
+book: apprendre-ojs
 version: 3.1
 ---
 
 # Chapter 1: Introduction
 
-Open Journal Systems \(OJS\) is an open source solution to managing and publishing scholarly journals online. OJS is a highly flexible editor-operated journal management and publishing system that can be downloaded for free and installed on a local Web server.
+Open Journal Systems (OJS) est une solution open source pour gérer et publier des revues savantes en ligne. OJS est un système de gestion et de publication de revues très flexible, géré par un éditeur, qui peut être téléchargé gratuitement et installé sur un serveur Web local.
 
-It has been designed to reduce the time and energy devoted to the clerical and managerial tasks associated with editing a journal, while improving the record-keeping and efficiency of editorial processes. It seeks to improve the scholarly and public quality of journal publishing through a number of innovations, including enhancing the reader experience, making journal policies more transparent, and improving indexing.
+OJS a été conçu pour réduire le temps et l'énergie consacrés aux tâches de gestion associées à la rédaction d'une revue, tout en améliorant la tenue de registres et l'efficacité des processus éditoriaux. OJS vise à améliorer la qualité scientifique et publique de rédaction des revues grâce à un certain nombre d'innovations, notamment en améliorant l'expérience du lecteur, en rendant les normes des revues plus transparentes et en améliorant l'indexation.
 
-This book covers OJS version 3.1, released in October 2017, and features significant enhancements over the previous versions of the software. We hope you find it helpful for your publishing projects.
+This book covers OJS version 3.1, released in October 2017, and features significant enhancements over the previous versions of the software. Nous espérons que vous le trouverez utile pour vos projets d'édition.
 
-## Background
+## Contexte
 
-*OJS is a journal/web site management/publishing system*. OJS covers all aspects of online journal publishing, from establishing a journal website to operational tasks such as the author's submission process, peer review, editing, publication, archiving, and indexing of the journal. OJS also helps to manage the people aspects of organizing a journal, including keeping track of the work of editors, reviewers, and authors, notifying readers, and assisting with the correspondence.
+*OJS est un système de gestion/publication de revues/sites Web* . OJS couvre tous les aspects de l'édition de revues en ligne, de la création d'un site Web de revue aux tâches opérationnelles telles que le processus de soumission de l'auteur, l'évaluation par les pairs, la rédaction, la publication, l'archivage et l'indexation de la revue. OJS aide également à gérer les aspects humains de l'organisation d'une revue, y compris le suivi du travail des rédacteurs, des évaluateurs, et des auteurs, la notification des lecteurs et l'aide à la correspondance.
 
-*OJS is flexible and scalable*. A single installation of OJS can support the operation of one or many journals. Each journal has its own unique URL as well as its own look and feel. OJS can enable a single editor to manage all aspects of a journal and the journal's website, or OJS will support an international team of editors with diverse responsibilities for a journal's multiple sections.
+*OJS est flexible et évolutif*. Une seule installation d'OJS peut prendre en charge les opérations d'une ou de plusieurs revues. Chaque revue a sa propre URL unique ainsi que sa propre apparence. OJS peut permettre à un seul rédacteur de gérer tous les aspects d'une revue et le site Web de la revue, ou OJS soutiendra une équipe internationale de rédacteurs ayant des responsabilités diverses pour les multiples sections d'une revue.
 
-*OJS supports the principle of extending access*. This system is intended not only to assist with journal publishing, but to demonstrate how the costs of journal publishing can be reduced to the point where providing readers with "open access" to the contents of the journal becomes a viable option. The case for open access is spelled out over a wide series of articles stemming from this project which are freely available under Research > Publications on the [Public Knowledge Project](https://pkp.sfu.ca/) website.
+*OJS soutient le principe de l'extension de l'accès*. Ce système vise non seulement à aider à la publication de revues, mais aussi à démontrer comment les coûts de publication de revues peuvent être réduits au point où offrir aux lecteurs un «accès ouvert» au contenu de la revue devient une option viable. Les arguments en faveur de l'accès ouvert sont expliqués dans une large série d'articles issus de ce projet qui sont disponibles gratuitement sous Recherche > Publications sur le site Web du [Public Knowledge Project](https://pkp.sfu.ca/) .
 
-*The origins of OJS*. The system was first released in 2001 as a research and development initiative at the University of British Columbia, with the support of the Social Sciences and Humanities Research Council of Canada, the Max Bell Foundation, the Pacific Press Endowment, and the MacArthur Foundation. Its continuing development is currently overseen by the Simon Fraser University Library. For more information, see the [Public Knowledge Project website](http://pkp.sfu.ca).
+*Les origines d'OJS*. Le système a été lancé pour la première fois en 2001 en tant qu'initiative de recherche et développement à l'Université de British Columbia, avec le soutien du Conseil de recherches en sciences sociales et humaines du Canada, de la Max Bell Foundation, du Pacific Press Endowment et de la MacArthur Foundation. Son développement continu est actuellement supervisé par la Bibliothèque de l'Université Simon Fraser. For more information, see the [Public Knowledge Project website](http://pkp.sfu.ca).
 
 <hr />
 
-## OJS Features
+## Fonctionnalités OJS
 
-OJS includes the following features:
-1. OJS is installed locally and controlled locally
-2. Editors configure requirements, sections, review process, etc.
+OJS comprend les fonctionnalités suivantes:
+1. OJS est installé localement et contrôlé localement
+2. Les éditeurs configurent les exigences, les sections, le processus d'évaluation, etc.
 3. Online submission, double-blind review, and management of all content
-4. Comprehensive indexing of content
-5. Responsive, themable reader interface
-6. Email notification for readers
-7. Support for article-processing charges, subscriptions, and online payments
-8. Complete context-sensitive online Help support
-9. Multilingual support
+4. Indexation complète du contenu
+5. Interface de lecture réactive et thématique
+6. Notification par courriel pour les lecteurs
+7. Prise en charge des frais de traitement des articles, des abonnements et des paiements en ligne
+8. Prise en charge complète de l'aide en ligne contextuelle
+9. Support multilingue
 
 ## What's New in OJS 3
 
@@ -67,16 +67,16 @@ The editorial interface is known as your **dashboard** and consists of the follo
 5. **Main Panel Sub-Menus**: Within the Main Panel, you will often see tabs that allow you to view different information about the content being worked on. In this example, the submission record is broken into four sections \(Submission, Review, Copyediting, Production\). Notice the Help tab to the right, which provides context-sensitive help for the page you are currently viewing.
 6. **Right Panel**: From here, you can see the action buttons, such as Schedule for Publication. Different pages have different action buttons. Below the action buttons is the Participants table, which lists everyone \(except Reviewers\) involved in the submission.
 
-## Community Contributions
+## Interface de lecture
 
-The OJS team encourages contributions from the developer community. If you are interested in getting involved in making OJS even better, we welcome your participation.
+L'équipe OJS encourage les contributions de la communauté des développeurs. Si vous souhaitez vous impliquer dans l'amélioration de l'OJS, nous nous réjouissons de votre participation.
 
-Excellent examples of community contributions include the vast array of languages that OJS is available in; and third-party plugins posted to the [community forum](https://forum.pkp.sfu.ca/) and the archived forum page.
+D'excellents exemples de contributions de la communauté incluent le vaste éventail de langues dans lesquelles OJS est disponible; et les plugiciels tiers publiés sur le [forum de la communauté](https://forum.pkp.sfu.ca/) et la page du forum archivée.
 
-We also welcome software testing and bug reporting contributions.
+Nous apprécions également les tests de logiciels et les contributions aux rapports de bogues.
 
-## Support
+## Interface Éditoriale
 
 A [community forum](https://forum.pkp.sfu.ca/) and [issue reporting system](https://github.com/pkp/pkp-lib/#issues) for technical issues can be accessed via the [PKP web site](https://pkp.sfu.ca).
 
-For questions about a particular journal site, such as submission requirements, contact that journal directly, using the contact information listed on the journal's **About** page.
+Pour des questions sur un site de revue particulier, telles que les conditions de soumission, contactez directement cette revue, en utilisant les coordonnées figurant sur la page **À propos de** la revue.
