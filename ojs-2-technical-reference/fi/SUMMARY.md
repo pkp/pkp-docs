@@ -1,8 +1,8 @@
-# Summary
+# Sisällys
 
-* [Introduction](.)
-* [Preface](preface.md)
-   * Introduction
+* [Luku 1: Esittely](.)
+* [Alkusanat](preface.md)
+   * Luku 1: Esittely
        * [About Open Journal Systems](about_open_journal_systems.md)
    * About This Document
        * [Conventions](conventions.md)
@@ -14,7 +14,7 @@
        * [PHP Code](php_code.md)
        * [Database](database.md)
        * [Security](security.md)
-   * [Introduction](2_introduction.md)
+   * [Luku 1: Esittely](2_introduction.md)
    * Request Handling
        * [A Note on URLs](a_note_on_urls.md)
        * [Request Handling Example](request_handling_example.md)
