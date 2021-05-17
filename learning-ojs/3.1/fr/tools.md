@@ -1,29 +1,29 @@
 ---
-book: learning-ojs
+book: apprendre-ojs
 version: 3.1
 ---
 
 # Chapter 11: Tools
 
-The Tools section can be accessed from the left sidebar menu.
+La section Outils est accessible à partir du menu de la barre latérale gauche.
 
 ![Tools side menu options.](./assets/learning-ojs3.1-jm-users-tools.png)
 
 Tools consist of an Import/Export tab and a Report Generator tab (called Statistics in OJS 3.1.1 and earlier).
 
-## Import/Export
+## Importer/Exporter
 
-Import/Export allows you to easily get data out of your OJS journal and get data into it.
+Importer/Exporter vous permet d'extraire facilement des données de votre journal OJS et d'y insérer des données.
 
 ![List of Import/Export plugins available.](./assets/learning-ojs3.1-jm-users-tools-import.png)
 
-Some of the tools allow you to export to third-party systems, such as PubMed or the DOAJ. Others allow you to import or export user or article data.
+Quelques outils vous permettent d'exporter vers des systèmes tiers, tels que PubMed ou le DOAJ. Others allow you to import or export user or article data.
 
-For detailed instructions on importing and exporting see the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export).
+Pour plus d'informations sur le plugiciel Crossref XML Export, consultez le [Guide PKP Crossref](/crossref-ojs-manual/) .
 
-For more information on the Crossref XML Export Plugin, see the [PKP Crossref Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
+Pour des instructions détaillées sur l'importation et l'exportation voir le [Guide de l'Administrateur/trice](/admin-guide/fr/data-import-and-export).
 
-## Report Generator
+## ./tools.md#report-generator
 
 The Report Generator page provides access to a variety of reports from your journal.
 
