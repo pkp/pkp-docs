@@ -1,4 +1,4 @@
-# Subscriptions
+# الفصل 11: المخطط الانسيابي للتحرير
 
 If you have chosen the subscription option for your journal \(see Journal Setup [Step 4: Management](https://docs.pkp.sfu.ca/learning-ojs-2/en/step_four_management)\), a link to manage your subscriptions will appear on your Journal Management Pages menu.
 
@@ -8,19 +8,19 @@ After selecting **Subscriptions** from the menu, you will see an overview of the
 
 ![Subscriptions Summary](images/chapter5/sub_summary.png)
 
-### Subscription Types
+### طلبات التقديم
 
 The first step in setting up subscription management is to designate the types of subscriptions the journal offers. Journals typically offer individual subscription and institutional subscription rates. Some journals may have special offers for members of an organization or students. OJS will support the management of print and/or online subscriptions. More than one type of subscription can be created to cover longer periods of time \(e.g. 12 months, 36 months\).
 
 To begin, select **Subscription Type **and from the resulting page, click **Create New Subscription Type**.
 
-![Subscription Types](images/chapter5/sub_type.png)
+![طلبات التقديم](images/chapter5/sub_type.png)
 
 Next, fill in the details, including a unique name, a description, cost, and currency. You can also determine if it is for online, print, or online + print. You can also set the duration of the subscription, and whether it is individual \(login required\) or institutional \(access via IP address or domain name -- e.g., sfu.ca\). Lastly, you can require a membership for the subscription \(perhaps for a reduced fee\) and hide the subscription type from being published on the About page.
 
 ![Create New Subscription Type](images/chapter5/sub_create_new.png)
 
-### Subscription Policies
+### المهام
 
 Under the Subscription Policies heading you will enter information in several sections.
 
@@ -52,11 +52,11 @@ Under the Subscription Policies heading you will enter information in several se
 ![Author Self-Archiving Policy](images/chapter5/sub_author_policy.png)
 ```
 
-### Payments
+### خيارات الوصول في الموقع
 
 Returning to the Subscriptions Summary page you will see an option to select **Payments**.
 
-![Payments](images/chapter5/sub_pay.png)
+![خيارات الوصول في الموقع](images/chapter5/sub_pay.png)
 
 Selecting the **Payments** here will take you to the **Fee Payment Option** page configured in the [Payments](https://docs.pkp.sfu.ca/learning-ojs-2/en/payments) page in the previous section.
 
