@@ -1,4 +1,4 @@
-# Submitting an Article
+# Soumettre un article
 
 There are five steps for submitting an article in OJS.
 
