@@ -11,7 +11,7 @@ You will be able to create new hosted journal instances, manage language support
 
 More technical information about administering an OJS site, including upgrades, email, statistics, and importing and exporting, is available in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/).
 
-## Site Management
+## أدوار النظام
 
 To get to Site Management, login as the Site Administrator, and choose Administration from the left menu.
 
@@ -80,7 +80,7 @@ After installing the new locale, you will have to enable it on the Site Settings
 
 OJS 3.1 doesn't yet have as many translations as OJS 2, but we expect to have more contributed over time. Contributions are always welcome.
 
-#### Plugins
+#### إعدادات المخطط الانسيابي
 
 From here, you can choose to enable or disable various plugins, making them available \(or not\) to all of the journals on this OJS installation.
 
@@ -98,7 +98,7 @@ Once you've created a journal and configured the site settings, you may want to 
 
 <hr />
 
-## Administrative Functions
+## التسجيل في مجلة
 
 This section provides detailed information about the server on which your OJS installation is running.
 
