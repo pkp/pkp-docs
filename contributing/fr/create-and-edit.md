@@ -1,4 +1,8 @@
-# Edit and Create
+- - -
+title: Edit and Create Documentation - Guidelines for Contributing to PKP Documentation
+- - -
+
+# Edit and Create Documentation
 
 Now that you understand the basics of GitHub, this chapter explains how to add new documents and edit documents in the repository.
 
@@ -20,11 +24,14 @@ If your edits requires you to replace or add images, see section on Adding/Repla
 
 ## Create a Document
 
-When you create a new document, you need to decided whether to make it a _single page document_ or _multi-page document_, as they are significantly different.
+When you create a new document, you need to decided whether to make it a _single page document_ or _multi-page document_, as they are significantly different. Most guides in the Documentation Hub are multi-page documents, which means that each chapter is a different file. However, some short guides are single-page documents.
+
+* [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/) is an example of a multi-page document.
+* [Google Scholar Indexing](https://docs.pkp.sfu.ca/google-scholar/en/) is an example of a single-page document.
 
 ### Single Page Docs
 
-Single page documents are rendered fully from one markdown file. The table of contents on the side of the page is created using the header tags in markdown. For example:
+Single page documents are rendered fully from one markdown file. The table of contents on the side of the page is created using the header tags in markdown. Par exemple:
 
 ```
 ## The "Documentation Hub"
@@ -70,14 +77,61 @@ Unlike with a single-page document, you no longer need to add to index.md. The r
 
 1. Create a folder for the [language of your document](http://www.lingoes.net/en/translator/langcode.htm) (eg: en_US, en_CA, fr_CA, fr_FR).
 2. Create a file called `SUMMARY.md`
-    - `SUMMARY.md` is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file.
+    - `SUMMARY.md` is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file. You can fill in all of the chapter and section links after you have created the chapter files.
         - a chapter link would look like: `- [Statistics](statistics.md)`
         - a heading inside that chapter would look like: `- [Definitions](./statistics.md#definitions)`
-3. Create a file called `README.md` which should be a language specific version of the text you had in `index.md`.
-4. Create your chapters and write your links to those files in the `SUMMARY.md` file.
-    - Each full chapter of a multi-page document should be a single markdown file. Subheadings within those chapters can be linked in `SUMMARY.md` to allow for links to specific sections.
 
-> A note on formatting: whereas your headers in single documents create the sidebar TOC, in multi-page docs, this is handled by the `SUMMARY.md` file. As a result, you'll want each chapter title as an H1, with all subtitles ranging from H2 to H5. Since you can add to the TOC manually, you can include chapters there as you see fit.
+#### Create README file
+The next step is to create a README.md file in the language folder for the document. The README file is the main landing page of the document and should contain summary introduction information about the document, so users know what the document is about. It should also contain relevant keywords and descriptive metadata so that users can find the document by searching and the document ranks high in Google search results about the document topics.
+
+Add Title and Description front matter (metadata) to the document, with the Markdown formatting shown in the example below.
+- The Title should have the name of the guide in it and any main keywords that would be searched for the document.
+- The Description will usually be displayed in the search result, so should give the user a summary of the document and include main keywords that would be searched.
+
+Example:
+```
+---
+title: Technical Documentation - OJS|OMP|OPS
+description: A technical guide to the coding conventions and application architecture for Open Journal Systems and Open Monograph Press.
+---
+```
+
+Below the front matter, add the H1 title for the page. Since this will be the introduction chapter, the title should be "Introduction: [Document Title.]. Par exemple:
+```
+# Introduction: Technical Documentation for OJS, OMP, and OPS
+```
+
+Now you can add text to the README file. This will be the introduction chapter. It should start with a concise 1-paragraph summary of what the document is about. Then add up to 4 additional paragraphs that further summarize the document's content, including an explanation of who the guide is for and which software applications or versions it applies to. Make sure the text includes all main topics of the document and relevant keywords.
+
+If you want to include extensive background information about the guide or introductory content that exceeds 5 paragraphs or 300-500 words, create a separate chapter for this content with an appropriate title.
+
+Save the README file when it is complete.
+
+#### Create chapter files
+
+Next you can create a separate file for each chapter in the guide and add content to each chapter. Each full chapter of a multi-page document should be a single markdown file.
+
+Every chapter file should have Title front matter (metadata), which can include the document title. For example, if the document is "Designing Your OJS Journal" and the chapter is "Inclusive and Accessible Theming," the Title could be as follows:
+
+```
+---
+title: Inclusive and Accessible Themes - Designing Your OJS Journal
+---
+```
+
+You do not need to add Description front matter as well. However, you may choose to add it if the chapter text has little content or keywords that describe what the chapter is about.
+
+Then add an H1 chapter title and your chapter content below. For any subheadings use descending header tags (H2 to H5). Do not skip a level of header tag, as this affects accessibility.
+
+#### Update table of contents
+Once you have created all of your chapters, you can add links to those files in the `SUMMARY.md` file, which essentially creates a table of contents for the document. Whereas your headers in single documents create the sidebar table of contents, in multi-page docs, you need to add the headers manually to the `SUMMARY.md` file.
+
+In the SUMMARY.md file, add a link for each chapter title and H2 subheading links below the chapter links.
+
+The first link should be for the Introduction in the README file:
+```
+* [Introduction](.)
+```
 
 ![](./assets/contrib-summary-md-file.png)
 
