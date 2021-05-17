@@ -3,11 +3,11 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Subscriptions
+# الفصل 11: المخطط الانسيابي للتحرير
 
 OJS allows you to restrict some or all of your content to subscribers. To enable Subscriptions, first go to [Settings > Distribution > Access](./settings-distribution.md).
 
-## Subscription Policies
+## المهام
 
 Fill in details about your subscription policies on this page.
 
@@ -20,7 +20,7 @@ Fill in details about your subscription policies on this page.
 - **Online Payment Notifications**: Keep the Subscription Manager informed of payment activities.
 - **Open Access Options for Subscription Journals**: If appropriate select the number of current months for restricting access. Older content will be automatically made open.
 
-## Subscription Types
+## طلبات التقديم
 
 The next step in setting up subscription management is to designate the types of subscriptions the journal offers.
 
@@ -40,7 +40,7 @@ Select **Create New Subscription Type** to add a new one.
 - **Subscriptions**: Indicate whether this type covers individuals or institutions.
 - **Options**: Select the appropriate options (if any).
 
-## Payment Types
+## التحكيم
 
 If you haven't already done so, go to [Settings > Distribution > Payments](./settings-distribution.md) and set the appropriate currency and payment method (e.g., PayPal).
 
@@ -70,13 +70,13 @@ Note that in order to sell access to an issue, you will need to upload an issue 
 
 Use this to charge other fees, such as memberships.
 
-## Payments
+## خيارات الوصول في الموقع
 
 As various payments are received, they will be listed under this tab.
 
 Only payments made through PayPal will be recorded here.
 
-## Individual Subscriptions
+## الإنتاج
 
 All types of individual subscriptions will appear here.
 
@@ -98,7 +98,7 @@ You can create a new individual subscription by using the Create New Subscriptio
 
 **Notes**: If you have any relevant notes to add, record that information here (optional).
 
-## Institutional Subscriptions
+## الاشتراكات المؤسساتية
 
 All types of institutional subscriptions will appear here.
 
