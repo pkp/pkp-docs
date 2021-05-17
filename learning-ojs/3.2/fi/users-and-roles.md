@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Users and Roles
+# Luku 8: Työkalut
 
 This section provides access to all of the user accounts associated with your journal, as well as the opportunity to manage roles and permissions.
 
