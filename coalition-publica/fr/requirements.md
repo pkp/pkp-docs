@@ -1,3 +1,6 @@
+---
+indexed: exclude
+---
 # Requis techniques
 
 En premier lieu, vous devez opérer une instance **Open Journal Systems 3.1.0 ou plus récente**. Vous devez avoir les permissions requises pour installer les *plugins*, ce qui nécessite des accès au serveur ou un rôle Administrateur. (Si vous n’avez pas les permissions Administrateur vous pouvez demander à votre Administrateur ou hébergeur institutionnel d’installer les *plugins*.)

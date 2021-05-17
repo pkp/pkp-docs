@@ -1,3 +1,6 @@
+---
+indexed: exclude
+---
 # Using JATS with OJS
 
 Érudit collects metadata from your OJS installation in ​[JATS](https://jats.nlm.nih.gov/)​ XML. JATS is commonly used to publish or index journal articles. However, creating and using JATS effectively can be complex. There are several different ways to work with JATS using OJS.
