@@ -1,6 +1,6 @@
 # User Management
 
-In addition to managing the journal web site, the Journal Manager is also responsible for all of the user accounts in the system. From the Journal Manager's User Home page, you'll find the Users menu, which includes all possible user management options.
+En plus de gérer le site Web de la revue, le/la Directeur/trice de la Revue est également responsable de tous les comptes utilisateurs du système. From the Journal Manager's User Home page, you'll find the Users menu, which includes all possible user management options.
 
 
 ![Journal Management Pages: Users](images/chapter5/jm_users_1.png)
