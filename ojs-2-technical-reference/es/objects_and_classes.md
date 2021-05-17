@@ -2,7 +2,7 @@
 
 Plugins in OJS 2.x are object-oriented. Each plugin extends a class defining its category's functions and is responsible for implementing them.
 
-**Table 5.1. Plugins**
+**Table 5.1. Módulos**
 
 | Category       | Base Class                                                        |
 | -------------- | ----------------------------------------------------------------- |
