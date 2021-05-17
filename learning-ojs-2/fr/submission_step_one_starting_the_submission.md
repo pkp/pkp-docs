@@ -16,7 +16,7 @@ If the journal allows content to be submitted in more than one **language**, you
 If the journal charges **Author Fees**, these will be presented to the author. If the journal does not charge submission fees, this section will not appear.
 
 
-![Author Fees](images/chapter6/step1_3.png)
+![Frais de publication pour un article](images/chapter6/step1_3.png)
 
 Next, the author must check each of the items from the **Submission Checklist**. These items were established in [Journal Management Setup Step 3](https://docs.pkp.sfu.ca/learning-ojs-2/en/step_three_submissions).
 
