@@ -1,6 +1,6 @@
 # Summary
 
-- [Introduction](.)
+- [Introdução](.)
 - [Getting Started with DOIs](gettingStarted.md)
 - [PKP and Crossref](pkpcrossref.md)
    - [PKP and Crossref Sponsorship](pkpsponsor.md)
