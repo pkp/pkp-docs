@@ -1,4 +1,4 @@
-# Layout Editing
+# Rédaction de la mise en page
 
 Layout editing is another role that can be configured in different ways. A journal may have the section editor or copyeditor do the layout editing, or assign a separate layout editor. The journal must be configured by the Journal Manager in Step 4: Managing the Journal to accommodate a separate Layout Editor.
 
