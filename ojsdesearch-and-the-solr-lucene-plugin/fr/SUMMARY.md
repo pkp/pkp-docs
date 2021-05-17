@@ -1,4 +1,4 @@
-# Summary
+# Sommaire
 
 * [Introduction](.)
   * [Project Background](./project-background.md)
