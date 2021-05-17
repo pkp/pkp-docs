@@ -3,7 +3,7 @@ book: translating-guide
 version: 3.1
 ---
 
-Introduction
+Introducción
 ============
 
 OJS, OCS, and OMP are multilingual systems, allowing journals and conferences to publish in a variety of languages. The Public Knowledge Project aims to support English, French, Spanish and Portuguese translations each application. In addition, translations of each software package have been completed by the community, and we welcome contributions at any time.
