@@ -12,7 +12,7 @@ On the resulting submission record screen, you can see some of the details (Auth
 
 
 
-![Submission Record](images/chapter10/copyedit_3.png)
+![Enregistrement de Soumission](images/chapter10/copyedit_3.png)
 
  Below that is the **Copyediting** section, where you can begin working with the submission.
 
