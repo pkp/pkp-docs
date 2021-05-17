@@ -10,7 +10,7 @@ The Site Administrator is responsible for the overall OJS installation, ensuring
 See [Chapter 4: Site Administrator](https://docs.pkp.sfu.ca/learning-ojs-2/en/site_administrator) for more details.
 
 
-### Journal Manager
+### Éditeur de Mise en Page
 
 
 The Journal Manager is responsible for setting up the journal web site, configuring the system options, and managing the user accounts. This does not involve any advanced technical skills, but entails filling out web-based forms and uploading files. The Journal Manager also enrolls the Editors, Section Editors, Copyeditors, Layout Editors, Proofreaders, Authors, and Reviewers. Alternately, if the names and email addresses of potential users already exist in another database (e.g., a spreadsheet), they can be imported into the system. The Journal Manager also has access to the journal's other management features, and can create new Sections for the journal, set up Review Forms, edit the default Emails, manage the Reading Tools, view Statistics and Reports, and more.
@@ -31,7 +31,7 @@ See [Chapter 6: Authors](https://docs.pkp.sfu.ca/learning-ojs-2/en/authors) for 
 
 
 
-### Editor
+### Rédacteur/Rédacteur de rubrique
 
 
 
@@ -40,7 +40,7 @@ The Editor oversees the entire review, editing and publishing process. The Edito
 See [Chapter 7: Editors](https://docs.pkp.sfu.ca/learning-ojs-2/en/editors) for more details.
 
 
-### Section Editor
+### Rédacteur/trice de Section
 
 
 
@@ -49,7 +49,7 @@ The Section Editor manages the review and editing of submissions to which they h
 See [Chapter 8: Section Editors](https://docs.pkp.sfu.ca/learning-ojs-2/en/section_editors) for more details.
 
 
-### Reviewer
+### Rédacteur/Rédacteur de rubrique
 
 
 
@@ -58,7 +58,7 @@ The Reviewer is selected by the Section Editor to review a submission. Reviewers
 See [Chapter 9: Reviewers](https://docs.pkp.sfu.ca/learning-ojs-2/en/reviewers) for more details.
 
 
-### Copyeditor
+### Réviseur/euse
 
 
 
@@ -68,7 +68,7 @@ See [Chapter 10: Copyeditors](https://docs.pkp.sfu.ca/learning-ojs-2/en/copyedit
 
 
 
-### Layout Editor
+### Rédacteur
 
 
 
@@ -87,7 +87,7 @@ The Proofreader carefully reads over the galleys in the various formats in which
 See [Chapter 12: Proofreaders](https://docs.pkp.sfu.ca/learning-ojs-2/en/proofreaders) for more details.
 
 
-### Reader
+### Rédacteur
 
 
 
