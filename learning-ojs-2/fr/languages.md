@@ -1,4 +1,4 @@
-# Languages
+# Langues
 
 OJS can be made available to users in any of several supported languages. As well, OJS can operate as a multilingual system, providing users with an ability to toggle between languages on each page, and allowing Authors to submit content in any supported language. Here is an example of a Journal from Arizona publishing in both Spanish and English.
 
@@ -23,7 +23,7 @@ From here you will see all of the languages available for your journal. If you d
 
 **Figure: Languages**
 
-![Languages](images/chapter5/jm_languages.png)
+![Langues](images/chapter5/jm_languages.png)
 
 
 You will be able to enable any installed language to be used as part of the overall user interface; as an Author-selectable submission option; with user-filled web forms, or a mix of all three.
