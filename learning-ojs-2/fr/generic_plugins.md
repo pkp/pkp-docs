@@ -9,7 +9,7 @@ Generic Plugins cover a wide range of functionality. The more commonly-used ones
 This plugin allows you to create new OJS pages for additional content \(e.g., an Advertising page\).
 
 1. Enable the plugin by clicking Enable. An Edit/Add Content link will appear.
-2. Add a new page by clicking Add New Page. Fill in the form that opens with the content you want on the page. The Path will be used as part of the page URL and the Title will appear as the page title. After saving the form, you can view the page at the URL indicated.
+2. Add a new page by clicking Add New Page. Remplissez le formulaire qui s'ouvre avec le contenu que vous souhaitez avoir sur la page. The Path will be used as part of the page URL and the Title will appear as the page title. After saving the form, you can view the page at the URL indicated.
 3. To edit a page you created with the plugin, go to the list of Generic Plugins and click Edit/Add Content below the Static Pages Plugin. A list of static pages you created will appear. Click Edit next to the page you want to edit.
 
 ### Web Feed Plugin
