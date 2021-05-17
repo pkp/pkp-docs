@@ -9,7 +9,7 @@ The Website Settings allow you to configure how your journal's website looks and
 
 ![OJS dashboard view of website settings menu](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
 
-## Appearance
+## إعدادات المجلة
 
 **Logo**: Use this space to upload a journal logo to the upper left corner of your reader interface.
 
@@ -92,7 +92,7 @@ Under Website Settings > Languages you can see a list of languages or locales in
 
 If enabling multiple languages to appear in the UI, make sure that in Website Settings > Appearance > Sidebar Management the Language Toggle Block is selected to make that feature available to users.
 
-## Plugins
+## إعدادات المخطط الانسيابي
 
 Use this page to see all of the installed plugins and find new plugins.
 
