@@ -1,4 +1,4 @@
-# Categories
+# Catégories
 
 
 Creating categories can help organize large sets of journals hosted on a site.
