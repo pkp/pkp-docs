@@ -61,7 +61,7 @@ Use this section to add journal contacts.
 
 Hit the **Save** button to save your changes.
 
-## Sections
+## Secciones
 
 Use this page to configure the different sections of your journal. E.g., Articles, Editorials, Reviews, Commentary, etc.
 
