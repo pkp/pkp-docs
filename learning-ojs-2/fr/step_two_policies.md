@@ -65,7 +65,7 @@ The privacy statement will appear on the About the Journal section of your web s
 
 
 
-![Privacy Statement](images/chapter5/five_steps/privacy.png)
+![Déclaration de Confidentialité](images/chapter5/five_steps/privacy.png)
 
 
 ### 2.4 Editor Decision
