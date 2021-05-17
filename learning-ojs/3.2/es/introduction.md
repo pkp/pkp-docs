@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Introduction
+# Introducción
 
 Open Journal Systems \(OJS\) is an open source solution to managing and publishing scholarly journals online. OJS is a highly flexible editor-operated journal management and publishing system that can be downloaded for free and installed on a local Web server.
 
