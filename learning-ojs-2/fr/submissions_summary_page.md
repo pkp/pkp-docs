@@ -11,7 +11,7 @@ The Summary page contains several sections, including **Submission**, which disp
 The next section outlines any required **Author Fees**. If the journal does not charge author fees, this section will not appear.
 
 
-![Author Fees](images/chapter6/author_review_4rev.png)
+![Frais de publication pour un article](images/chapter6/author_review_4rev.png)
 
 
 
