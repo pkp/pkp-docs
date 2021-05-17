@@ -26,7 +26,7 @@ To create a catalog entry for a chapter:
 2. Scroll down to Chapters on the Monograph tab and click **Add Chapter**
 3. Enter the metadata for the chapter, including a Title
 4. Under Files select the file you uploaded for the chapter under **Publication Formats**
-5. Click **Save**
+5. Cliquez sur **Enregistrer**
 
 #### Create a catalog entry within a manuscript submission
 
@@ -100,7 +100,7 @@ To add a book to a series:
 1. Go to the book’s submission page and click **Metadata** in the top right. A form to view and edit the book’s metadata will open
 2. Scroll down to **Series** and select the series you want to add the book to from the drop-down list
 3. Fill in the **Series Position** field below if you want to indicate where the book fits into the series
-4. Click **Save**
+4. Cliquez sur **Enregistrer**
 
 ![The series selection dropdown and series position entry field location.](./assets/learning_omp-catalog_managment-series.png)
 
@@ -110,4 +110,4 @@ Categories can be used to organize your books into thematic collections and prov
 
 1. Go to the book’s submission page and click **Metadata** in the top right. A form to view and edit the book’s metadata will open
 2. Scroll down to the Categories section and check off the category or categories you want to add the book to
-3. Click Save
+3. Visitez [https://doaj.org/](https://doaj.org/) et connectez-vous pour télécharger le fichier XML qui a été créé lors du processus d'exportation
