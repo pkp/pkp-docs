@@ -1,72 +1,72 @@
 ---
-book: learning-ojs
+book: apprendre-ojs
 version: 3.1
 ---
 
 # Chapter 6: Website Settings
 
-The Website Settings allow you to configure how your journal's website looks and operates. It consists of tabs for Appearance, Information, Archiving, Languages, Plugins, Announcements, and Navigation Menus.
+Les Paramètres du Site Web vous permettent de configurer l'apparence et le fonctionnement du Site Web de votre revue. It consists of tabs for Appearance, Information, Archiving, Languages, Plugins, Announcements, and Navigation Menus.
 
 ![OJS dashboard view of website settings menu](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
 
-## Appearance
+## Apparence
 
 **Logo**: Use this space to upload a journal logo to the upper left corner of your reader interface.
 
 **Page Footer**: This allows you to display text at the bottom of each page of your website.
 
-**Theme**: The theme determines the overall design or layout of your site. Several different theme options are available and you can try them out without affecting your site's content or configuration.
+**Theme**: The theme determines the overall design or layout of your site. Plusieurs options de thème différentes sont disponibles et vous pouvez les essayer sans affecter le contenu ou la configuration de votre site.
 
-First you can ensure that all available themes have been enabled on your site.
-1. Go to the Plugins tab under Website Settings.
-2. Scroll to the bottom and find Theme Plugins.
-3. Check the box next to each plugin to enable it.
+Vous pouvez d'abord vous assurer que tous les thèmes disponibles ont été activés sur votre site.
+1. Accédez à l'onglet Plugiciels sous Paramètres du Site Web.
+2. Faites défiler vers le bas et recherchez les plugiciels de thème.
+3. Cochez la case à côté de chaque plugiciel pour l'activer.
 
-You can also look for additional themes in the Plugin Gallery and install and enable those.
+Vous pouvez également rechercher des thèmes supplémentaires dans la Galerie de Plugiciels et les installer et les activer.
 
-Now that you have all available themes, return to the Appearance tab to try out different themes.
-1. Under Theme you will see a drop-down list of themes. Select one.
-2. Scroll to the bottom of the page and click Save.
-3. The theme may have additional sub-themes or configuration options available. To make these appear, refresh the page in your browser.
-4. If you select a different sub-theme or change the colour scheme or other design features, click Save at the bottom of the page again.
-5. Open your site's home page in a new tab or window of your browser to see how the site looks with the new theme or sub-theme and with different configuration options.
-6. If you do not see the changes appear on your site, you may need to clear the cache under the Administration menu.
+Maintenant que vous avez tous les thèmes disponibles, revenez à l'onglet Apparence pour essayer différents thèmes.
+1. Sous Thème, vous verrez une liste déroulante de thèmes. Sélectionnez un.
+2. Faites défiler vers le bas de la page et cliquez sur Enregistrer.
+3. Le thème peut avoir des sous-thèmes supplémentaires ou des options de configuration disponibles. Pour les faire apparaître, actualisez la page dans votre navigateur.
+4. Si vous sélectionnez un autre sous-thème ou modifiez le jeu de couleurs ou d'autres fonctionnalités de conception, cliquez à nouveau sur Enregistrer en bas de la page.
+5. Ouvrez la page d'accueil de votre site dans un nouvel onglet ou une nouvelle fenêtre de votre navigateur pour voir à quoi ressemble le site avec le nouveau thème ou sous-thème et avec différentes options de configuration.
+6. Si vous ne voyez pas les modifications apparaître sur votre site, vous devrez peut-être vider le cache dans le menu Administration.
 
 If you would like to make minor changes to your site's design and layout, you can upload a **Journal Stylesheet**.
 
-If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+Si vous souhaitez apporter des modifications plus importantes à la conception ou donner à votre site un aspect tout à fait unique, vous pouvez développer votre propre thème ou thème enfant. Les instructions sont disponibles dans le [Guide de Thématisation PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) .
 
-**Typography**: Quickly choose the fonts for your journal.
+**Typographie**: choisissez rapidement les polices de votre revue.
 
-**Colour**: Quickly change the colour of your journal's header.
+**Couleur**: changez rapidement la couleur de l'en-tête de votre revue.
 
-**Journal Style Sheet**: Use this to upload a unique style sheet for your journal.
+**Feuille de Style de la Revue**: utilisez cette option pour télécharger une feuille de style unique pour votre revue.
 
 **Sidebar Management**: This allows you to move different blocks in or out of the sidebar in the reader interface.
 
-**Homepage Image**: Uploading an image here will will place it on your journal's home page.
+**Image de la Page d'Accueil**: le téléchargement d'une image ici la placera sur la page d'accueil de votre revue.
 
-**Journal Favicon**: Add a [favicon](https://en.wikipedia.org/wiki/Favicon) to display in the reader's browser address bar.
+**Favicon**: ajoutez un [favicon](https://en.wikipedia.org/wiki/Favicon) à afficher dans la barre d'adresse du navigateur du lecteur.
 
-**Additional Content**: Any text entered here will appear on your homepage.
+**Contenu Additionnel**: tout texte saisi ici apparaîtra sur votre page d'accueil.
 
-**Lists**: Limit the number of items \(for example, submissions, users, or editing assignments\) to show in a list before showing subsequent items in another page. Also, limit the number of links to display to subsequent pages of the list.
+**Lists**: Limit the number of items \(for example, submissions, users, or editing assignments\) to show in a list before showing subsequent items in another page. Limitez également le nombre de liens à afficher aux pages suivantes de la liste.
 
-**Journal thumbnail**: Upload a small logo or image representative of the journal that will be used in lists of journals on this OJS installation. This will only be used on OJS installations with multiple journals.
+**Vignette de la Revue**: téléchargez un petit logo ou une image représentative de la revue qui sera utilisée dans les listes de revues de cette installation OJS. Cela ne sera utilisé que sur les installations OJS avec plusieurs revues.
 
-Hit **Save** to record your changes.
+Appuyez sur **Enregistrer** pour enregistrer vos modifications.
 
 ## Information
 
-Use these fields to modify the text in the For Readers, For Authors, For Librarians pages on the journal website.
+Utilisez ces champs pour modifier le texte des pages Pour Lecteurs, Pour Auteurs, et Pour Bibliothécaires du site Web de la Revue.
 
 ![OJS dashboard view of Information menu with boiler plate text in the fields for readers and for authors.](./assets/learning-ojs3.1-jm-settings-web-info.png)
 
-Remember to hit **Save** to record any changes.
+N'oubliez pas de cliquer sur **Enregistrer** pour enregistrer les modifications.
 
-To remove these fields and their contents from displaying publicly on the website's user interface, deselect the Information Block in Website Settings > Appearance > Sidebar Management.
+Pour supprimer ces champs et leur contenu de l'affichage public sur l'interface utilisateur du site Web, désélectionnez le Bloc d'informations dans Paramètres du Site Web > Apparence > Gestion de la Barre Latérale.
 
-## Archiving
+## Archivage
 
 If you are a member of a LOCKSS or CLOCKSS network, use this page to activate your journal. The PKP PN Plugin, which deposits your content in the PKP Preservation Network, is not yet available for OJS 3.  When it is available and has been enabled, it will deposit your content directly in the Network.
 
@@ -74,60 +74,60 @@ If you use another network, enabling it here will make your content available to
 
 ![OJS dashboard view of Archiving page with an option to select PKP PN, LOCKSS or CLOCKSS networks.](./assets/learning-ojs3.1-jm-settings-web-archive.png)
 
-## Languages
+## Langues
 
-OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages on a single site or journal. When you install OJS, you can select one or more languages for your site.
+OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages on a single site or journal. Lorsque vous installez OJS, vous pouvez sélectionner une ou plusieurs langues pour votre site.
 
-Under Website Settings > Languages you can see a list of languages or locales installed on your site and configure how the languages are used in your journal. Additional languages can be installed on your site by an Administrator – see [Chapter 4](https://docs.pkp.sfu.ca/learning-ojs/en/site-administration) for details.
+Sous Paramètres du site Web > Langues, vous pouvez voir une liste des langues ou des paramètres régionaux installés sur votre site et configurer la façon dont les langues sont utilisées dans votre journal. Additional languages can be installed on your site by an Administrator – see [Chapter 4](https://docs.pkp.sfu.ca/learning-ojs/en/site-administration) for details.
 
 ![OJS dashboard view of Languages menu with English and French options, English option selected as primary locale.](./assets/learning-ojs3.1-jm-settings-web-lang.png)
 
-**Primary Locale**: One language must be set as the primary locale, which means the language the journal appears in by default.
+**Paramètres Régionaux Principaux**: une langue doit être définie comme paramètres régionaux principaux, ce qui signifie la langue dans laquelle le journal apparaît par défaut.
 
-**UI**: If you want the journal’s interface to be available in other languages, select them here.
+**Interface d'utilisateur** : si vous souhaitez que l'interface de la revue soit disponible dans d'autres langues, sélectionnez-les ici.
 
-**Submission**: If you want authors to be able to make submissions in other languages, select them here.
+**Soumission**: si vous voulez que les auteurs puissent soumettre des soumissions dans d'autres langues, sélectionnez-les ici.
 
-**Forms**: This will enable all selected languages to be available when filling in online forms.
+**Formulaires**: Cela permettra à toutes les langues sélectionnées d'être disponibles lors du remplissage des formulaires en ligne.
 
-If enabling multiple languages to appear in the UI, make sure that in Website Settings > Appearance > Sidebar Management the Language Toggle Block is selected to make that feature available to users.
+Cette section vous permet de configurer vos menus de navigation, par exemple pour inclure de nouveaux liens.
 
-## Plugins
+## Plugiciels
 
-Use this page to see all of the installed plugins and find new plugins.
+Utilisez cette page pour voir tous les plugiciels installés et trouver de nouveaux plugiciels.
 
-### Installed Plugins
+### Galerie de Plugiciels
 
-All of the plugins listed here are available in your OJS installation. Check the Enable link to use them.
+Tous les plugiciels répertoriés ici sont disponibles dans votre installation OJS. Cochez le lien Activer pour les utiliser.
 
 ![OJS dashboard view of Plugins menu with the tab for installed plugins selected.](./assets/learning-ojs3.1-jm-settings-web-plugins.png)
 
-You will notice that some plugins are required for the system and cannot be disabled.
+Vous remarquerez que certains plugiciels sont requis pour le système et ne peuvent pas être désactivés.
 
-Click the blue arrow next to the plugin name to reveal links to Delete, Upgrade, or Configure settings for the plugin.
+Parfois, les nouveaux plugiciels ou plugiciels développés par des personnes extérieures à PKP n'apparaissent pas dans la galerie des plugiciels et vous devez les installer séparément.
 
-### Plugin Gallery
+### Plugiciels Externes
 
-The Plugin Gallery provides access to externally-created plugins, that may not be included in your OJS installation, but are available for download and activation. Only an Administrator user can install a new plugin.
+La Galerie de Plugiciels donne accès à des plugiciels créés en externe, qui peuvent ne pas être inclus dans votre installation OJS, mais sont disponibles pour téléchargement et activation. Seul un utilisateur administrateur peut installer un nouveau plugiciel.
 
 ![OJS dashboard view of Plugins menu with the tab for plugin gallery selected.](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery.png)
 
-Selecting the plugin title will provide additional details, including the author, status, description, and compatibility.
+La sélection du titre du plugiciel fournira des détails supplémentaires, y compris l'auteur, le statut, la description et la compatibilité.
 
-![Hypothes.is plugin selected in the plugin gallery shows that it is installed and up-to-date.](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery-hypo.png)
+![Ce plugiciel peut être activé dans la galerie de plugiciels.](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery-hypo.png)
 
-### External Plugins
+### Plugiciels d'Amélioration du Contenu et de Découverte
 
-Sometimes new plugins or plugins that are developed by folks outside of PKP will not appear in the Plugin Gallery and you need to install them separately.
+Veuillez noter que vu que PKP ne gére pas de plugiciels tiers, nous ne pouvons pas garantir qu'il fonctionnera avec votre version d'OJS.
 1. Download the tar.gz file or .zip file of the plugin from its repository.
-2. Go to Installed Plugins tab.
-3. At top right, click Upload a New Plugin.
-4. Upload the plugin file.
-5. When it has finished uploading, click Save. Give it some time to install.
+2. Accédez à l'onglet Plugiciels Installés.
+3. En haut à droite, cliquez sur Télécharger un nouveau plugiciel.
+4. Téléverser le fichier du plugiciel.
+5. Une fois le téléversement terminé, cliquez sur Enregistrer. Donnez-lui un peu de temps pour l'installation.
 
-If upload fails you may get an error message that says, “The uploaded plugin archive does not contain a folder that corresponds to the plugin name.” Usually this means you have to change the name of the plugin folder inside the zipped folder to a more simple name. For example, change “translator-ojs-3_0_0-0” to “translator.”
+Si le téléchargement échoue, vous pouvez recevoir un message d'erreur indiquant: "L'archive du plugin téléchargé ne contient pas de dossier correspondant au nom du plugiciel." Habituellement, cela signifie que vous devez changer le nom du dossier du plugiciel dans le dossier zippé en un nom plus simple. Par exemple, remplacez «traducteur-ojs-3_0_0-0» par «traducteur».
 
-## Announcements
+## Annonces
 
 This section allows you to create and display news announcements on the journal's website.
 
@@ -139,7 +139,7 @@ This section allows you to create and display news announcements on the journal'
 
 **Announcements**: Use the _Add Announcement_ link to create a new announcement for your Announcements page.
 
-## Navigation Menus
+## Menus de Navigation
 
 This section allows you to configure your navigation menus, such as including new links.
 
@@ -147,18 +147,18 @@ This section allows you to configure your navigation menus, such as including ne
 
 **Navigation Menus**: Configure the User Menu \(which includes Language, View Site, and Username\) or the Primary Menu \(on the journal home page, including Current, Archive, About, etc.\).
 
-Some menu item types will only be displayed under certain conditions. For example, the Login menu item type will link to your login page, but it will only appear in the menu when your website visitor is logged out. Similarly, the Logout menu item type will only appear when a website visitor is logged in.
+Certains types d'éléments de menu ne seront affichés que sous certaines conditions. Par exemple, le type d'élément de menu Connexion sera lié à votre page de connexion, mais il n'apparaîtra dans le menu que lorsque le visiteur de votre site Web sera déconnecté. De même, le type d'élément de menu Déconnexion n'apparaîtra que lorsqu'un visiteur du site Web est connecté.
 
-When you assign a Menu Item with display conditions to a Menu, you will see an icon of an eye with a slash through it. You can click that icon to learn more about when it will be displayed or hidden.
+Lorsque vous attribuez à un élément de menu des conditions d'affichage à un menu, vous verrez une icône d' un œil avec une barre oblique en dessus. Vous pouvez cliquer sur cette icône pour en savoir plus sur le moment où l'élément sera affiché ou masqué.
 
-**Navigation Menu Items**: These are programmed links you can add to either menu above. If you wish to add a link to the Primary Menu \(e.g., "Our Society"\), add it here using the _Add Item_ link.
+**Éléments du Menu de Navigation**: Ce sont des liens programmés que vous pouvez ajouter à l'un des menus ci-dessus. If you wish to add a link to the Primary Menu \(e.g., "Our Society"\), add it here using the _Add Item_ link.
 
 ![Add item screen with item title and remote URL filled out.](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.png)
 
-It will now appear in the list of Navigation Menu Items. Next, go to the desired Navigation Menu \(e.g., Primary\), use the blue arrow to reveal the options, and choose Edit. You can now drag and drop it from Unassigned Menu Items to Assigned Menu Items and into the appropriate location on the menu.
+L'l'élément apparaîtra maintenant dans la liste des éléments du menu de navigation. Next, go to the desired Navigation Menu \(e.g., Primary\), use the blue arrow to reveal the options, and choose Edit. Vous pouvez maintenant le faire glisser et le déposer des éléments de menu non attribués vers les éléments de menu attribués et à l'emplacement approprié dans le menu.
 
 ![Primary navigation area with a list of assigned and unassigned menu items.](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.png)
 
-Hit Save to record the change.
+Cette section vous permet de créer et d'afficher des annonces de nouvelles sur le site Web de la revue.
 
 <hr />
