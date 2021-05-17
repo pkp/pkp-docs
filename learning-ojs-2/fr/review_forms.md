@@ -1,4 +1,4 @@
-# Review Forms
+# Configuration
 
 By default, Reviewers will have a text form to add their comments on the submission they are reviewing, with a text field for Authors and Editors, and a separate field for Editors only. By using the Review Forms, however, you can create web-based forms that include a variety of pre-set questions to guide your Reviewers and result in more consistent commentary. Setting up a new Review Form for the first time can be a little tricky, so follow these steps carefully.
 
@@ -12,7 +12,7 @@ Click on **Create Review Form** link
 
 
 
-![Review Forms](images/chapter5/review_forms_home.png)
+![Configuration](images/chapter5/review_forms_home.png)
 
 Fill in title and description for a review form, then press the Save button. Remember, you can have many Review Forms, targeting them to specific sections or even to specific reviewers. In this example, the review form titled "Articles Form" will be a review form for submissions to the Articles section.
 
