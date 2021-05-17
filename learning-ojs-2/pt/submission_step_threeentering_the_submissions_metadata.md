@@ -3,7 +3,7 @@
 The third step of the submission process serves to collect all relevant metadata from the author. The first section of metadata covers the authors. The submitting author will have their personal information automatically appear. Any additional information, such as Competing Interests should also be added at this time, if required.
 
 
-![Authors](images/chapter6/step3_1rev.png)
+![Autores](images/chapter6/step3_1rev.png)
 
 
 If there are multiple authors for the submission, their information can be added using the Add Author button. You can also re-order the list of authors, make one of the authors the principal contact with the editor, and delete any authors added in error.
