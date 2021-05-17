@@ -1,4 +1,4 @@
-# Hosted Journals
+# Revues Hébergées
 
 From the Hosted Journals page you can create, edit and delete hosted journal sites. You can also migrate old journals from earlier OJS installations and manually sort the order by which the journals are displayed on the main site page.
 
@@ -9,7 +9,7 @@ From the Site Administration menu, under the Site Management heading, choose **H
 
 
 
-![Hosted Journals](images/chapter4/hosted_journals.png)
+![Revues Hébergées](images/chapter4/hosted_journals.png)
 
 
 
