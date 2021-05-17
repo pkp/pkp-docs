@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Tools
+# Luku 10: Kirjoittajat
 
 The Tools section can be accessed from the left sidebar menu.
 
@@ -119,7 +119,7 @@ Use this feature to build your own reports.
 
 More information on how to generate and manage statistics in OJS is provided in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
 
-## Permissions
+## Käsikirjoituksen lähetys
 
 The Reset Article Permissions tool allows you to reset the copyright statement and license information on all published articles, and will revert it to your journal's current default settings. Take caution when using this tool and consult legal expertise if you are unsure what rights you hold over the articles published in your journal.
 
