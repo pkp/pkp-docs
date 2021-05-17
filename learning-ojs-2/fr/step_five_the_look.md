@@ -58,5 +58,5 @@ Each of these descriptions will appear on your journal's web site, on the right 
 
 You can control the number of items to appear on any given list on your site \(e.g., 100 items will appear 25 per page over 4 pages\), and the number of page links shown at the bottom of any list \(e.g., 1, 2, 3, 4, Next\).
 
-![Lists](images/chapter5/five_steps/lists.png)
+![Listes](images/chapter5/five_steps/lists.png)
 
