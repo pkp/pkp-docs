@@ -1,6 +1,6 @@
 # Summary
 
-* [Preface](.)
+* [Prefácio](.)
 * [Chapter 1: Introduction](./introduction.md)
   * [System Background](./introduction.md#background)
   * [OJS Features](./introduction.md#ojs-features)
