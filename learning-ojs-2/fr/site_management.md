@@ -1,3 +1,3 @@
-# Site Management
+# Rôles dans OJS
 
 The following sections will explain each option available from the Site Administration menu in detail.
