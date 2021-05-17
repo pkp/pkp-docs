@@ -85,7 +85,7 @@ This will prevent problems e.g. with right-to-left languages, and keep content m
 
 This will come out in the HTML source as "Statistics & Reports", thus the ampersand will be displayed correctly.
 
--   For large blocks of HTML, use `<![CDATA[ ... ]]>`. For example:
+-   For large blocks of HTML, use `<![CDATA[ ... ]]>`. Par exemple:
 
 ```
 <message key="some.big.html"><![CDATA[<p>This is a large block of content containing <em>HTML</em>.]]\></message>
