@@ -3,11 +3,11 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Users and Roles
+# الفصل 8: الأدوات
 
 This section provides access to all of the user accounts associated with your journal, as well as the opportunity to manage roles and permissions.
 
-## Managing Users
+## الاستيراد والتصدير
 
 In addition to managing the journal web site, the Journal Manager is also responsible for all of the user accounts in the system.
 
@@ -15,7 +15,7 @@ To view the user accounts, select Users & Roles from the left menu.
 
 ![Users and Roles screen with list of journal users](./assets/learning-ojs3.1-jm-users.png)
 
-### Users
+### المدفوعات
 
 Users are displayed in last name order.
 
