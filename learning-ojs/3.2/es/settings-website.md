@@ -118,7 +118,7 @@ It will now appear in the list of Navigation Menu Items. Next, go to the desired
 
 Hit Save to record the change.
 
-### Announcements
+### Avisos
 
 This section allows you to create and display news announcements on the journal's website.
 
@@ -136,7 +136,7 @@ Limit the number of items (for example, submissions, users, or editing assignmen
 
 Enter the privacy statement you want to appear on your site.
 
-## Plugins
+## Módulos
 
 Use this page to see all of the installed plugins and find new plugins.
 
