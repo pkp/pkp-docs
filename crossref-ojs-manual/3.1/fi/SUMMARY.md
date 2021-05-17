@@ -1,6 +1,6 @@
-# Summary
+# Sisällys
 
-- [Introduction](.)
+- [Luku 1: Esittely](.)
 - [PKP and Crossref](pkpcrossref.md)
    - [PKP and Crossref Sponsorship](pkpsponsor.md)
 - [Getting Started with DOIs](gettingStarted.md)
