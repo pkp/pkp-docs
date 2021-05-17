@@ -54,7 +54,7 @@ The Summary page also lists Author Fees. If your journal does not charge fees, t
 
 Next, from the **Editors** section you can assign either a Section Editor, another Editor, or yourself to guide this submission through the review and editing process. Clicking the Add Section Editor (or Add Editor) link will bring up a selection page. (Clicking the Add Self link will assign yourself to the submission and bring you to the submission's Review page.)
 
-![Editors](images/chapter7/editor_6.png)
+![Editores](images/chapter7/editor_6.png)
 
 
 From here, use the **Assign** link to assign this user to the submission.
@@ -111,7 +111,7 @@ The final section of the Summary page contains the submissions' Metadata. From h
 Using the Edit Metadata link allows you to make any necessary changes to the information supplied by the Author, including author information. You can add any additional authors using the Add Author button.
 
 
-![Authors](images/chapter7/editor_13.png)
+![Autores](images/chapter7/editor_13.png)
 
 
 You can also modify the title and abstract.
