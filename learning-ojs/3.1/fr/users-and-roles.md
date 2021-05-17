@@ -1,39 +1,39 @@
 ---
-book: learning-ojs
+book: apprendre-ojs
 version: 3.1
 ---
 
 # Chapter 10: Users and Roles
 
-This section provides access to all of the user accounts associated with your journal, as well as the opportunity to manage roles and permissions.
+Cette section donne accès à tous les comptes d'utilisateurs associés à votre revue, ainsi que la possibilité de gérer les rôles et les autorisations.
 
-## Users
+## Utilisateurs
 
-In addition to managing the journal web site, the Journal Manager is also responsible for all of the user accounts in the system.
+En plus de gérer le site Web de la revue, le/la Directeur/trice de la Revue est également responsable de tous les comptes utilisateurs du système.
 
-To view the user accounts, select Users & Roles from the left menu.
+Pour afficher les comptes d'utilisateurs, sélectionnez Utilisateurs et Rôles dans le menu de gauche.
 
 ![Users and Roles screen with list of journal users](./assets/learning-ojs3.1-jm-users.png)
 
-### Users
+### Utilisateurs
 
-Users are displayed in last name order.
+Vous pouvez modifier un compte utilisateur en sélectionnant la flèche bleue à gauche d'une entrée.
 
 You can edit a user account by selecting the blue arrow to the left of an entry.
 
 ![Blue arrow selected by a user's name with options to edit their account](./assets/learning-ojs3.1-jm-users-edit.png)
 
-This opens the options to Email, Edit User, Disable, Remove, Login As, Merge User.
+Cela ouvre les options Email, Modifier l'Utilisateur, Désactiver, Supprimer, connexion sous , Fusionner l'Utilisateur.
 
-#### Email Users
+#### Utilisateurs d'Email
 
-If you want to email a user about a particular submission, you can use the Discussion feature in the submission. This keeps all communication about a submission in one place.
+Si vous souhaitez envoyer un email à un utilisateur à propos d'une soumission particulière, vous pouvez utiliser la fonction Discussion dans la soumission. Cela garde toutes les communications concernant une soumission en un seul endroit.
 
-To send an email to a user that is unrelated to a submission:
-1. In the Journal Manager or Editor’s dashboard, go to Users & Roles > Users
-2. Find the user you want to email
-3. Click the blue arrow next to the user’s name to reveal links below it
-4. Click Email. A pop-up box will appear where you can type in your message and send it
+Pour envoyer un email à un utilisateur qui n'est pas lié à une soumission:
+1. Dans le tableau de bord du/de la directeur/trice de la revue ou du rédacteur, allez à Utilisateurs et Rôles > Utilisateurs
+2. Trouvez l'utilisateur à qui vous souhaitez envoyer un e-mail
+3. Cliquez sur la flèche bleue à côté du nom de l'utilisateur pour afficher les liens en dessous
+4. Cliquez sur Email. Une boîte de dialogue apparaîtra dans laquelle vous pouvez taper votre message et l'envoyer
 
 !\[Email pop-up box for emailing a user]\](./assets/learning-ojs-3-users-email.png)
 
@@ -41,36 +41,36 @@ You cannot email multiple users at the same time except by using the Announcemen
 
 If you want to email multiple users or all users in a single role on a regular basis, you can use an external email marketing application such as Mailchimp. User records can be exported in XML using Tools > Import/Export > Users XML Plugin or an Administrator can export them from the database in CSV.
 
-It is not currently possible to add cc or bcc addresses to messages or to add attachments to messages. To send attachments you can instead use the Discussion feature or the Submission Library.
+It is not currently possible to add cc or bcc addresses to messages or to add attachments to messages. Pour envoyer des pièces jointes, vous pouvez utiliser la fonction de Discussion ou la Bibliothèque de Soumission.
 
-**Edit User** allows you to make changes to that user's account.
+La fonction Fusionner l'Utilisateur vous permet de déplacer les aspects de ce compte d'utilisateur, y compris les soumissions ou affectations, vers un autre compte d'utilisateur sur votre système.
 
 ![Edit information about a user](./assets/learning-ojs-3-users-edit-user.png)
 
-**Disable** keeps the account in place, but blocks the user from accessing it.
+Pour fusionner des utilisateurs:
 
-**Remove** un-enrolls the user from all roles in the journal, but the user account remains in the system. The only way to actually remove a user account from your system is to **Merge Users** (see below).
+**Supprimer** désinscrit l'utilisateur de tous les rôles dans la revue, mais le compte utilisateur reste dans le système. La seule façon de supprimer réellement un compte utilisateur de votre système est de **Fusionner les Utilisateurs** (voir ci-dessous).
 
-**Login As** allows you to temporarily log in as that user, for example, to complete an outstanding task.
+**Connexion sous** vous permet de vous connecter temporairement en tant que cet utilisateur, par exemple, pour terminer une tâche en cours.
 
 **Merge User** lets you fold this user account, including any submissions or assignments, into another user account on your system.
 
-> **Note**: This is the only way to completely delete an account from the system.
+> **Remarque**: c'est le seul moyen de supprimer complètement un compte du système.
 
 You may want to create a dummy user account \(e.g., Deleted Users\), and use that to merge unwanted accounts into.
 
 To merge users:
-1. At Users & Roles > Users, find the user account you want to remove
-2. Click the blue arrow next to the username
-3. Click **Merge User** from the menu that appears below
-4. Find the user account that you want to merge this user account into (the user you want to maintain)
-5. Click the blue arrow next to username
-6. Click **Merge into this user**
-7. Press **OK** to confirm
+1. Dans Utilisateurs et Rôles > Utilisateurs, recherchez le compte d'utilisateur que vous souhaitez supprimer
+2. Cliquez sur la flèche bleue à côté du nom d'utilisateur
+3. Cliquez sur **Fusionner l'Utilisateur** dans le menu qui apparaît ci-dessous
+4. Recherchez le compte d'utilisateur dans lequel vous souhaitez fusionner ce compte utilisateur (l'utilisateur que vous souhaitez garder)
+5. Cliquez sur la flèche bleue à côté du nom d'utilisateur
+6. Cliquez sur **Fusionner avec cet utilisateur**
+7. Appuyez sur **OK** pour confirmer
 
-#### Search Users
+#### Rechercher des Utilisateurs
 
-When you have a large number of users, you will want to take advantage of the search feature.
+Lorsque vous avez un grand nombre d'utilisateurs, vous souhaiterez profiter de la fonction de recherche.
 
 ![Search for a user by name, email, and role](./assets/learning-ojs-3-users-search.png)
 
@@ -80,48 +80,48 @@ This can help you quickly find a user by first name, last name, or email address
 
 ![Search for all users with a given role](./assets/learning-ojs-3-users-search-roles.png)
 
-#### Add User
+#### Ajouter un Utilisateur
 
-To add a new user to your journal, select the Add User link. This will open a new window with a set of fields to fill in.
+Pour ajouter un nouvel utilisateur à votre revue, sélectionnez le lien Ajouter un Utilisateur. Cela ouvrira une nouvelle fenêtre avec un ensemble de champs à remplir.
 
 ![Add a user and enter their information](./assets/learning-ojs-3-users-add-new.png)
 
-Once these fields are completed and you hit _Save_, you will then be asked to assign roles to the new account. Use the _Add Role_ link to open the role selector.
+Une fois ces champs complétés et que vous cliquez sur *Enregistrer*, il vous sera alors demandé d'attribuer des rôles au nouveau compte. Utilisez le lien *Ajouter un Rôle* pour ouvrir le sélecteur de rôle.
 
 ![Assign a role to a new user's account](./assets/learning-ojs-3-users-add-new-roles1.png)
 
-Once you have added all of the roles, hit the **Save** button.
+Une fois que vous avez ajouté tous les rôles, cliquez sur le bouton **Enregistrer** .
 
-#### Register a User from Another Journal
+#### Enregistrer un-e Utilisateur/trice à partir d'une Autre Revue
 
-On multi-journal installations, an Administrator can register a user from Journal A as a user on Journal B.
+Les utilisateurs du système doivent avoir un ou plusieurs rôles.
 
-1. Log in to Journal B as an Administrator
-2. Go to Users & Roles > Users
-3. Search for the user from Journal A that you want to register on Journal B, checking off **Include users with no roles in this journal**
-4. When the user appears, click the blue arrow next to their name
-5. Click **Edit User**
-6. Scroll down to **User Roles** on the Edit User box that appears.
-7. Check off the role that you want the user to have on Journal B
-8. Click **Save** at the end of the form
+1. Connectez-vous à la revue B en tant qu'Administrateur/trice
+2. Allez dans Utilisateurs et rôles > Utilisateurs
+3. Recherchez l'utilisateur/trice dans la revue A que vous souhaitez enregistrer dans la revue B, en cochant la case **Inclure les utilisateurs sans rôle dans cette revue**
+4. Lorsque l'utilisateur/trice apparaît, cliquez sur la flèche bleue à côté de son nom
+5. Cliquez sur **Modifier l'Utilisateur/trice**
+6. Faites défiler jusqu'à **Rôles d'Utilisateur/trice** dans la zone Modifier l'Utilisateur/trice qui s'affiche.
+7. Cochez le rôle que vous souhaitez que l'utilisateur/trice ait sur la revue B
+8. Cliquez sur **Enregistrer** à la fin du formulaire
 
-#### If a User Can't Log In
+#### Si un-e Utilisateur/trice ne peut Pas se Connecter
 
-If a user can't log in to your journal site, tell them to select **Forgot your password** on the Login page. They will then receive a reset password link by email and will be able to reset their password.
+Si un-e utilisateur/trice ne peut pas se connecter à votre site de revue, dites-lui de sélectionner **Mot de passe oublié** sur la page de connexion. Ils recevront alors un lien de réinitialisation du mot de passe par e-mail et pourront réinitialiser leur mot de passe.
 
-If the user has further issues, a Journal Manager or Editor can do the following:
-1. Go to Users & Roles > Users
-2. Find the user who can't log in and click the blue arrow next to their name
-3. Click the **Edit User** button that appears below
-4. Enter a new password in the **Password** field, making note of what the password is
-5. Check off **User must change password on next log in**
-6. Click **Save** at the end of the form
-7. Send the new password to the user and instruct them to log in with it
+Un utilisateur peut avoir plusieurs rôles, par exemple, être un-e directeur/trice, un-e rédacteur/trice et un-e auteur dans la même revue.
+1. Allez dans Utilisateurs et Rôles > Utilisateurs
+2. Trouvez l'utilisateur/trice qui ne peut pas se connecter et cliquez sur la flèche bleue à côté de son nom
+3. Cliquez sur le bouton **Modifier l'Utilisateur/trice** qui apparaît ci-dessous
+4. Entrez un nouveau mot de passe dans le champ **Mot de passe**, en notant le mot de passe
+5. Cochez L'**utilisateur/trice doit changer le mot de passe lors de la prochaine connexion**
+6. Cliquez sur **Enregistrer** à la fin du formulaire
+7. Envoyez le nouveau mot de passe à l'utilisateur/trice et demandez-lui de se connecter avec ce mot de passe
 
-If the user still cannot log in, their account may have been disabled.  To re-enable it:
-1. Go to Users & Roles > Users
-2. Find the user who can't log in and click the blue arrow next to their name
-3. Look below their name for **Enable** or **Disable.**  If Disable appears, the account is already enabled. If Enable appears, click it to re-enable the account.
+Si l'utilisateur/trice ne parvient toujours pas à se connecter, son compte a peut-être été désactivé.  Pour le réactiver:
+1. Allez dans Utilisateurs et rôles > Utilisateurs
+2. Trouvez l'utilisateur qui ne peut pas se connecter et cliquez sur la flèche bleue à côté de son nom
+3. Regardez sous leur nom pour **Activer** ou **Désactiver.** Si Désactiver apparaît, le compte est déjà activé. Si Activer apparaît, cliquez dessus pour réactiver le compte.
 
 <hr />
 
@@ -137,49 +137,49 @@ OJS 3 has multiple roles available, each with different permission levels.
 
 ![Roles tab showing all current roles in the journal](./assets/learning-ojs3.1-jm-users-roles.png)
 
-From this page, you can see each role, and the editorial stage each role can access. A good example of this is the Copyeditor role, which can only access the copyediting stage. Copyeditors cannot jump to the Review stage to see what happened during the peer review process. See the Editorial Workflow chapter for more information about the different editorial stages.
+Sur cette page, vous pouvez voir chaque rôle et la phase éditoriale à laquelle chaque rôle peut accéder. Un bon exemple de ceci est le rôle de Réviseur/euse, qui ne peut accéder qu'à l'étape de révision. Les réviseurs ne peuvent pas passer à l'étape d'évaluation pour voir ce qui s'est passé pendant le processus d'évaluation par les pairs. Voir le chapitre Flux des Travaux éditorial pour plus d'informations sur les différentes étapes éditoriales.
 
-### Editing Roles
+### Modification des Rôles
 
-Unchecking a box removes access to that stage for users with that role.
+**Abréviation**: chaque rôle doit avoir une abréviation unique.
 
-Selecting the blue arrow to the left of the role name reveals the edit link. Clicking this opens the editing window.
+La sélection de la flèche bleue à gauche du nom du rôle révèle le lien de modification. Cliquez dessus pour ouvrir la fenêtre d'édition.
 
 ![Edit details of a role](./assets/learning-ojs3.1-jm-users-roles-edit.png)
 
-**Permission Level**: This indicates how much a user with this role can do in any stage.
+**Désactiver** maintient le compte en place, mais empêche l'utilisateur d'y accéder.
 
-The Journal Assistant level can communicate with other users and upload and revise files. In Journals where only one user has been assigned with an Assistant role, they will be automatically assigned to a new submission. Once a second person has been assigned this role, this action will stop.
+Le niveau Assistant-e de Revue peut communiquer avec d'autres utilisateurs et télécharger et réviser des fichiers. Dans les revues où un-e seul-e utilisateur/trice a reçu un rôle d'assistant-e, il/elle sera automatiquement affecté-e à une nouvelle soumission. Une fois qu'une deuxième personne a reçu ce rôle, cette action s'arrête.
 
 
-**Role Name**: You can use this field to easily rename any role.
+Utilisez le lien *Créer de Nouveaux Rôles* pour ouvrir une fenêtre dans laquelle vous pouvez créer un nouveau rôle pour votre revue, notamment en définissant les étapes auxquelles le rôle peut accéder et le niveau d'autorisation dont il doit disposer.
 
 **Abbreviation**: Each role must have a unique abbreviation.
 
-**Stage Assignment**: This allows you to determine which stage users with this role can access.
+Cette page vous permet de déterminer comment les lecteurs peuvent accéder à votre revue.
 
-**Role Options**: Use these checkboxes to show anyone with this role in the contributor list \(e.g., the author list\).
+**Options de Rôle**: utilisez ces cases à cocher pour afficher toute personne ayant ce rôle dans la liste des contributeurs (par exemple, la liste des auteurs).
 
-Use the second option to determine whether users can self-register in this role. Authors and Reviewers are good candidates for self-registration. You would definitely NOT want to allow users to self-register as Journal Managers or Editors!
+Utilisez la deuxième option pour déterminer si les utilisateurs peuvent s'inscrire eux-mêmes dans ce rôle. Les auteurs et les évaluateurs sont de bons candidats pour l'auto-inscription. Vous ne voudriez certainement PAS permettre aux utilisateurs de s'auto-enregistrer en tant que Directeurs ou Éditeurs de la Revue!
 
-The third option is useful for guest editors or possibly section editors, depending upon your preferred workflow and authority chain.
+**Inscription des Utilisateurs**: cette option vous permet de déterminer si les utilisateurs peuvent créer leurs propres comptes ou s'ils doivent être inscrits par un-e Directeur/trice de Revue.
 
-### Create New Roles
+### Créer de Nouveaux Rôles
 
 Use the _Create New Roles_ link to open a window where you can create a new role for your journal, including setting which stages it can access and how much permission it should have.
 
 <hr />
 
-## Site Access Options
+## Options d'Accès au Site
 
 This page allows you to determine how readers can access your journal.
 
 ![Site access options tab under Users and Roles](./assets/learning-ojs3.1-jm-users-siteoptions.png)
 
-**Additional Site and Article Access Restrictions**: Choose from these options to limit access.
+**Restrictions Supplémentaires d'Accès au Site et à l'Article**: choisissez parmi ces options pour limiter l'accès.
 
-> Keep in mind that while requiring registration to read open access content can be convenient for your tracking, it can dissuade some people from reading your content. Use with care.
+> Gardez à l'esprit que même si le fait d'exiger une inscription pour lire le contenu en libre accès peut être pratique pour votre suivi, cela peut dissuader certaines personnes de lire votre contenu. Utiliser avec précaution.
 
 **User Registration**: This option allows you to determine whether users can create their own accounts or must be enrolled by a Journal Manager.
 
-> Allowing users to register themselves, but only into Author, Reviewer, or Reader roles, is a good choice.
+> Permettre aux utilisateurs de s’enregistrer eux-mêmes, mais uniquement dans les rôles d’auteur, de évaluateur/trice ou de lecteur/trice, est un bon choix.
