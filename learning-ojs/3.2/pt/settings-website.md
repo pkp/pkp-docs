@@ -128,7 +128,7 @@ This section allows you to create and display news announcements on the journal'
   - **Introduction**: Enter any information you would like to appear on your announcements page.
   - **Display on Homepage**: Enter the number of announcements to be displayed on the homepage. If this is left blank, no announcements will be displayed.
 
-### Lists
+### Listas
 
 Limit the number of items (for example, submissions, users, or editing assignments) to show in a list before showing subsequent items on another page. Also, limit the number of links to display to subsequent pages of the list.
 
