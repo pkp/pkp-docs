@@ -73,7 +73,7 @@ The Up and Down arrows allow you to reposition the contexts -- or you can click 
 The **Metadata** link within Contexts allows you to rename tools and set options.
 
 
-![Metadata](images/chapter5/rt_metadata.png)
+![Éléments](images/chapter5/rt_metadata.png)
 
 
 
