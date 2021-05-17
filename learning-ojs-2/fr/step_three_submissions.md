@@ -9,7 +9,7 @@ These guidelines will appear on the About the Journal page and be available for 
 
 
 
-   ![Author Guidelines](images/chapter5/five_steps/3_1_author_guide.png)
+   ![Configuration](images/chapter5/five_steps/3_1_author_guide.png)
 
 
   You can also configure the Submission Preparation Checklist in this section. When submitting an article to your journal, authors will be asked to ensure certain conditions are met using this submission preparation checklist. Authors will not be able to proceed past the first submission step until they agree to all checklist conditions. Default items are provided, but you may add new ones or delete any that do not apply to your journal by using the Add Checklist Item or Delete buttons.
