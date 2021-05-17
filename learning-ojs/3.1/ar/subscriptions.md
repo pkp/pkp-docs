@@ -7,7 +7,7 @@ version: 3.1
 
 OJS 3.1 allows you to restrict some or all of your content to subscribers. To enable Subscriptions, first go to [Settings &gt; Distribution &gt; Access](./settings-distribution.md).
 
-## Subscription Policies
+## المهام
 
 Fill in details about your subscription policies on this page.
 
@@ -20,7 +20,7 @@ Fill in details about your subscription policies on this page.
 - **Online Payment Notifications**: Keep the Subscription Manager informed of payment activities.
 - **Open Access Options for Subscription Journals**: If appropriate select the number of current months for restricting access. Older content will be automatically made open.
 
-## Subscription Types
+## طلبات التقديم
 
 The next step in setting up subscription management is to designate the types of subscriptions the journal offers.
 
@@ -40,7 +40,7 @@ Select **Create New Subscription Type** to add a new one.
 - **Subscriptions**: Indicate whether this type covers individuals or institutions.
 - **Options**: Select the appropriate options \(if any\).
 
-## Payment Types
+## التحكيم
 
 If you haven't already done so, go to [Settings &gt; Distribution &gt; Payments](./settings-distribution.md) and set the appropriate currency and payment method \(e.g., Paypal\).
 
@@ -59,13 +59,13 @@ If you enable **Author Fees** you can request article processing charges after t
 
 ![](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
 
-## Payments
+## خيارات الوصول في الموقع
 
 As various payments are received, they will be listed under this tab.
 
 <hr />
 
-## Individual Subscriptions
+## الإنتاج
 
 All types of individual subscriptions will appear here.
 
@@ -89,7 +89,7 @@ You can create a new individual subscription by using the Create New Subscriptio
 
 <hr />
 
-## Institutional Subscriptions
+## الاشتراكات المؤسساتية
 
 All types of institutional subscriptions will appear here.
 
