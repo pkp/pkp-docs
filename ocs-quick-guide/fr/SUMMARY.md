@@ -1,4 +1,4 @@
-# Summary
+# Sommaire
 
 * [Introduction](.)
 * [Part One: Setting Up Your Conference](./setting-up-your-conference.md)
