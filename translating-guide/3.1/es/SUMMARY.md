@@ -1,6 +1,6 @@
-# Summary
+# Índice
 
-* [Introduction](.)
+* [Introducción](.)
 * [Translating PKP software](1-translating.md)
 * [Technical aspects: how to do it](2-technical.md)
    * [Locale XML files](2-2-xml-files.md)
