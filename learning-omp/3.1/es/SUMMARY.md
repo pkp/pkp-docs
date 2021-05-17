@@ -1,7 +1,7 @@
-# Summary
+# Índice
 
 * [Preface](.)
-* [Introduction](./introduction.md)
+* [Introducción](./introduction.md)
 * [Installing and Upgrading](./install-upgrade.md)
   * [Download](./install-upgrade.md#download)
   * [Hosted Solutions](./install-upgrade.md#hosted-solutions)
@@ -18,7 +18,7 @@
   * [Distribution](./press-setup.md#distribution)
 * [Tools](./tools.md)
   * [Import/Export](./tools.md#import-export)
-  * [Statistics](./tools.md#statistics)
+  * [Estadísticas](./tools.md#statistics)
 * [Role-specific Workflows](./role-specific-workflows.md)
   * [Author Workflow](./role-specific-workflows.md#author-workflow)
   * [Reviewer Workflow](./role-specific-workflows.md#reviewer-workflow)
