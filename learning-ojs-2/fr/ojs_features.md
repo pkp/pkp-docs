@@ -1,9 +1,9 @@
-# OJS Features
+# Fonctionnalités OJS
 
-OJS includes the following features:
+OJS comprend les fonctionnalités suivantes:
 
 1. OJS is installed locally and controlled locally.
-2. Editors configure requirements, sections, review process, etc.
+2. Les éditeurs configurent les exigences, les sections, le processus d'évaluation, etc.
 3. Online submission, double-blind review, and management of all content.
 4. Subscription module with delayed open access and non-open access options.
 5. Comprehensive indexing of content.
