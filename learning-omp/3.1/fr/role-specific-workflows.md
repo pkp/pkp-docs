@@ -95,7 +95,7 @@ The reviewer's option to accept or decline the review request will be at the bot
 
 The second tab will outline the press’ reviewer guidelines. The third tab will have the review file for download and text boxes for the reviewer to enter their comments to the author and editor or editor only. They can also upload files for the author or editor, as well as start discussions with the editor. The reviewer can submit the review at the bottom of this page. After the review has been submitted, the reviewer still has the option of starting a discussion with the editor.
 
-## Editorial Workflow
+## Production et publication
 
 ### Manuscript Review
 
@@ -212,7 +212,7 @@ To upload the file:
 1. Below the publication format, click **Change File**
 2. Select the component type for the file
 3. Upload the file
-4. Click **Continue**
+4. Cliquez sur **Continuer**
 5. Review details and click **Continue** again
 6. Click **Complete**
 
