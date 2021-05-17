@@ -4,11 +4,11 @@ OJS provides a number of statistical and reporting features for your journal. To
 
 ![Journal Management Pages: Stats & Reports](images/chapter5/jm_stats_reports.png)
 
-### Statistics
+### Estadísticas
 
 The Statistics section provides a summary of your journal's usage. You can use the checkboxes to make these statistics available to readers in About the Journal. If your journal has been running for several years you would be able to click through by year and see totals for issues and items published, and other powerful statistics.
 
-![Statistics](images/chapter5/stats_reports.png)
+![Estadísticas](images/chapter5/stats_reports.png)
 
 ### Reports
 
