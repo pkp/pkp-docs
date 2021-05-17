@@ -1,4 +1,4 @@
-# Summary
+# Sommaire
 
 * [Introduction](.)
 * [Translating PKP software](1-translating.md)
