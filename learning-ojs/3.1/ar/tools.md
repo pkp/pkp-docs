@@ -23,7 +23,7 @@ For detailed instructions on importing and exporting see the [Administrator's Gu
 
 For more information on the Crossref XML Export Plugin, see the [PKP Crossref Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
 
-## Report Generator
+## الاشتراكات الفردية
 
 The Report Generator page provides access to a variety of reports from your journal.
 
