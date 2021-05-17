@@ -1,4 +1,4 @@
-# Plugins
+# Módulos
 
 **Table of Contents**
 
