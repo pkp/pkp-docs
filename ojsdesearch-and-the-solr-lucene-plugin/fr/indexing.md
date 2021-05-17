@@ -354,7 +354,7 @@ It is one of the core requirements of this project to better support search in m
 
 There is no recommended default approach for dealing with multilingual content in solr/Lucene. The range of potential applications is so large that individual solutions have to be found for every use case. We'll therefore handle this question to a considerable amount of detail: First we'll list a few specific analysis requirements derived from the more general project requirements presented earlier. Then we'll discuss several approaches to multilingual analysis. Finally we'll recommend an individual solution for the use cases to be supported in this project.
 
-#### Requirements
+#### Requis techniques
 
 Requirements for the analysis process must above all be derived from expected user queries and the corresponding correctly ranked result lists. The following list of analysis requirements are therefore derived from properties specific to multilingual OJS search queries:
 
