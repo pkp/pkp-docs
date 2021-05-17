@@ -111,7 +111,7 @@ The final section of the Summary page contains the submissions' Metadata. From h
 Using the Edit Metadata link allows you to make any necessary changes to the information supplied by the Author, including author information. You can add any additional authors using the Add Author button.
 
 
-![Authors](images/chapter7/editor_13.png)
+![Titre de l'article](images/chapter7/editor_13.png)
 
 
 You can also modify the title and abstract.
