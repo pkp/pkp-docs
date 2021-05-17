@@ -1,7 +1,7 @@
 # Sitewide Language Settings
 
 
-OJS is designed to be a multilingual system, allowing journals supporting a wide variety of languages to be hosted under a single site. The Site Administrator can specify the default language of the site and install additional locales to make other languages available for use by journals. Journal Managers can then manage their own language settings.
+OJS est conçu pour être un système multilingue, permettant aux revues prenant en charge une grande variété de langues d'être hébergées sur un seul site. The Site Administrator can specify the default language of the site and install additional locales to make other languages available for use by journals. Journal Managers can then manage their own language settings.
 
 Additional language packages will typically be available for download from the Open Journal Systems [language page](https://pkp.sfu.ca/wiki/index.php?title=Translating_OxS#OJS_Languages) as user-contributed translations are received. These packages can be installed into an existing OJS system to make them available to journals.
 
