@@ -1,7 +1,7 @@
-# Summary
+# Sommaire
 
 * [Introduction](.)
-* [Preface](preface.md)
+* [Préface](preface.md)
    * Introduction
        * [About Open Journal Systems](about_open_journal_systems.md)
    * About This Document
@@ -39,14 +39,14 @@
        * [Session Management](session_management.md)
        * [Template Support](template_support.md)
        * [Paging Classes](paging_classes.md)
-       * [Plugins](plugins.md)
+       * [Plugiciels](plugins.md)
    * [Common Tasks](common_tasks.md)
        * [Sending Emails](sending_emails.md)
        * [Database Interaction with DAOs](database_interaction_with_daos.md)
 * [User Interface](user_interface2.md)
    * [Variables](variables.md)
    * [Functions & Modifiers](functions_and_modifiers.md)
-* [Plugins](plugins2.md)
+* [Plugiciels](plugins2.md)
    * [Objects & Classes](objects_and_classes.md)
    * [Sample Plugin](sample_plugin.md)
        * [Loader Stub](loader_stub.md)
