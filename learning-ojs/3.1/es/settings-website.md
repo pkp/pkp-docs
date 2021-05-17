@@ -92,7 +92,7 @@ Under Website Settings > Languages you can see a list of languages or locales in
 
 If enabling multiple languages to appear in the UI, make sure that in Website Settings > Appearance > Sidebar Management the Language Toggle Block is selected to make that feature available to users.
 
-## Plugins
+## Módulos
 
 Use this page to see all of the installed plugins and find new plugins.
 
@@ -127,7 +127,7 @@ Sometimes new plugins or plugins that are developed by folks outside of PKP will
 
 If upload fails you may get an error message that says, “The uploaded plugin archive does not contain a folder that corresponds to the plugin name.” Usually this means you have to change the name of the plugin folder inside the zipped folder to a more simple name. For example, change “translator-ojs-3_0_0-0” to “translator.”
 
-## Announcements
+## Avisos
 
 This section allows you to create and display news announcements on the journal's website.
 
