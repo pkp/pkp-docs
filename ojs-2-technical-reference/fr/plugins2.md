@@ -1,4 +1,4 @@
-# Plugins
+# Plugiciels
 
 **Table of Contents**
 
