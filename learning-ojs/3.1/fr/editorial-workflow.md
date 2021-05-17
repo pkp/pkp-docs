@@ -1,87 +1,87 @@
 ---
-book: learning-ojs
+book: apprendre-ojs
 version: 3.1
 ---
 
 # Chapter 14: Editorial Workflow
 
-In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
+Dans ce chapitre, vous suivrez une soumission tout au long du flux des travaux, de la première soumission à la publication finale.
 
-The workflow is divided into 4 stages:
+Le flux des travaux est divisé en 4 étapes:
 
-**Submission**: This is where new submissions land while being assigned to Section Editors and considered for moving into the Review stage.
+**Soumission** : C'est là que les nouvelles soumissions arrivent tout en étant affectées aux Rédacteurs de Section et considérées pour le passage à l'étape de d'Évaluation.
 
-Some submissions are clearly inappropriate and never make it beyond this stage.
+Certaines soumissions sont clairement inappropriées et ne dépassent jamais ce stade.
 
-**Review**: This is where the peer review happens, as well as any revisions required by the author.
+**Évaluation** : c'est là que se déroule l'évaluation par les pairs, ainsi que toutes révisions requises par l'auteur.
 
-Some submission will not pass review and end here. Those that are accepted move to the next stage.
+Certaines soumissions ne passeront pas le stade d'évaluation et se termineront ici. Celles qui sont acceptées passent à l'étape suivante.
 
-**Copyediting**: Accepted articles move to this stage, where they are improved by the work of a copyeditor. Authors can be given the opportunity to review the copyedits.
+**Révision** : les articles acceptés passent à ce stade, où ils sont améliorés par le travail d'un-e Réviseur/euse. Les auteurs ont la possibilité de changer la copie suivant les modifcations apportées par le/la réviseur/euse.
 
-**Production**: Once the copyedits are completed and approved, the submission moves to this stage. In Production, the copyedited files are converted to galleys -- HTML, XML, PDF, etc. Again the author has the opportunity to proofread the galleys. Once everyone is satisfied, the submission is scheduled for publication in a future issue.
+**Production** : Une fois que les révisions sont terminées et approuvées, la soumission passe à ce stade. En production, les fichiers révisés sont convertis en d'autres formats- HTML, XML, PDF, etc. Là encore, l'auteur a la possibilité de relire et corriger les épreuves. Une fois que tout le monde est satisfait, la soumission sera publiée dans une prochaine publication.
 
 <hr />
 
-## Tasks
+## Tâches
 
-Your Tasks are available from the top left menu of your Dashboard. Note the number "1" in the image below. This indicates that there is currently 1 task in your list.
+Vos tâches sont disponibles dans le menu en haut à gauche de votre tableau de bord. Notez le nombre "1" dans l'image ci-dessous. Cela indique qu'il y a actuellement 1 tâche dans votre liste.
 
 ![](./assets/learning-ojs3.1-ed-tasks.png)
 
-Tasks provide a quick look at items that need your attention. Bold entries are unread, and unbold entries have been read.
+Les tâches fournissent un aperçu rapide des éléments qui nécessitent votre attention. Les entrées en gras ne sont pas lues et les entrées qui ne sont pas en gras ont été lues.
 
-Use the checkbox to mark tasks for deletion \(the link is available at the bottom of the list\).
+Utilisez la case à cocher pour marquer les tâches à supprimer (le lien est disponible en bas de la liste).
 
 <hr />
 
-## Submission Notifications
+## Notifications de Soumission
 
-When an author makes a new submission to your journal, the editor is automatically emailed a notification and the author will receive an email acknowledging their submission. You can also configure OJS so that a copy of the notification email is sent to the journal’s primary contact set in Journal Settings, or to another address.
+Lorsqu'un auteur soumet une nouvelle soumission à votre revue, le/la Rédacteur/trice reçoit automatiquement une notification par email et l'auteur recevra un email confirmant sa soumission. Vous pouvez aussi configurer OJS pour qu'une copie de l'email de notification soit envoyée au contact principal de la revue défini dans Paramètres de Revue, ou à une autre adresse.
 
-To enable copies of submission acknowledgment email to be sent to the primary contact or another address:
-1. In the Journal Manager’s dashboard, go to Settings > Workflow > Submissions
-2. Scroll down to Notification of Author Submissions
-3. Check off the box next to “Send a copy to the primary contact, identified in the Journal Settings.” if you wish for a copy to be sent to the primary contact email, and/or
-4. Enter the email you would like to have a copy sent to in the text field.
+Pour permettre l'envoi de copies de l'email confirmant la soumission au contact principal ou à une autre adresse:
+1. Dans le tableau de bord du Directeur/trice de la Revue, accédez à Paramètres > Flux des travaux > Soumissions
+2. Faites défiler jusqu'à Notification des Soumissions d'Auteur
+3. Cochez la case "Envoyer une copie au contact principal, identifié dans les paramètres de revue." si vous souhaitez qu'une copie soit envoyée à l'adresse email du contact principal, et/ou
+4. Entrez l'email auquel vous souhaitez recevoir une copie dans le champ de texte.
 
 ![](./assets/learning-ojs3.1-configure-submission-notification.png)
 
-If you want to disable submission acknowledgement emails entirely, you can do so by disabling the *Submission Ack* email template from the list of prepared email templates. To learn more about disabling and enabling email templates, refer to *Disable email templates* in the [Workflow Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings).
+Si vous souhaitez désactiver l'envoi d'emails confirmant la soumission, vous pouvez faire cela en désactivant le modèle d'email *Acusé de Soumission* de la liste des modèles d'email préparés. To learn more about disabling and enabling email templates, refer to *Disable email templates* in the [Workflow Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings).
 
-Users can also change their individual notification settings from their own profile under View Profile > Notifications.
+Les utilisateurs peuvent aussi modifier leurs paramètres de notification individuels à partir de leur propre profil sous Afficher le Profil > Notifications.
 
-## Submission Dashboard
+## Tableau de Bord de Soumission
 
 When you log into your Dashboard, you can find active submissions either from your Tasks, or from one of the queues \(My Queue, Unassigned, All Active, and Archives\).
 
 ![](./assets/learning-ojs3.1-ed-dashboard-active.png)
 
-### My Queue
+### Mes Soumissions
 
-**My Assigned**: This panel includes submissions added to sections where you are a section editor or to your own submissions if you are also an author with this journal.
+**Soumissions qui me sont Assigné**: Ce panneau comprend des soumissions ajoutées aux sections où vous êtes un rédacteur de section ou à vos propres soumissions si vous êtes aussi un auteur de cette revue.
 
-The **Search** tool for each queue can sometimes be helpful in tracking down submissions.
+L'outil de **Recherche** pour chaque file de Mes Soumissions peut parfois être utile pour traquer les soumissions.
 
 The **Filter** tool allows you to limit your browsing to specific status \(e.g., incomplete, overdue\) stages \(submission, review, copyediting, production\), or sections \(e.g., articles, reviews\) for faster searching.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-filter.png)
 
-Note that you can use the blue arrows to the right of each submission to reveal more details, including how many reviews are outstanding, new discussions, and more. It also reveals buttons to take you to the submission record, view the activity log and notes, and to delete the submission.
+Notez que vous pouvez utiliser les flèches bleues à droite de chaque soumission pour révéler plus de détails, y compris le nombre d'évaluations exceptionnelles, les nouvelles discussions, etc. Elles révèlent aussi des boutons vous permettant d'accéder à l'enregistrement de soumission, d'afficher le journal d'activité et les notes, et de supprimer la soumission.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-active-details.png)
 
-### Unassigned
+### Non Affectées
 
-This panel includes submissions added to sections without section editors.
+Dans l'exemple ci-dessus, il n'y a pas de soumissions non affectées, le panneau est donc vide.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-unassigned.png)
 
 In the above example, there are no unassigned submissions, so the panel is empty.
 
-### All Active
+### Toutes Actives
 
-This section includes a list of all submissions, without being organized into queues.
+Cette section comprend une liste de toutes les soumissions soit rejetées ou déjà publiées par la revue.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-all-active.png)
 
@@ -91,9 +91,9 @@ This section includes a list of all submissions either rejected or already publi
 
 ![](./assets/learning-ojs3.1-ed-dashboard-archive.png)
 
-### Demonstration Submission
+### Soumission de Démonstration
 
-For this demonstration, we are looking for the Williamson and Serletis submission, entitled _The Official Knowledge and Adult Education Agents_. It can be found at the top of the **My Assigned** queue, as well as in the **All Active** queue.
+For this demonstration, we are looking for the Williamson and Serletis submission, entitled _The Official Knowledge and Adult Education Agents_. Elle se trouve en haut de la file d'attente **Soumissions qui me sont Assigné** , ainsi que dans la file **Toutes Actives** .
 
 ![](./assets/learning-ojs3.1-ed-dashboard-active.png)
 
@@ -103,31 +103,31 @@ Once you find the submission, you can use the blue arrow to reveal options to se
 
 **Delete** will completely remove the submission and all submission files from your journal. If you want to keep a record of the submission, it is better to **Decline** it, which will move the submission to the Archive.
 
-**Activity Log & Notes** will bring up the submission's history.
+**Envoyer pour Évaluation**: fait passer la soumission au stade suivant.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-log.png)
 
-### Submission Record
+### Enregistrement de Soumission
 
-To view the submission in more detail, select **View Submission** button. This will take you to the submission record.
+Pour afficher la soumission plus en détail, sélectionnez le bouton **Afficher la Soumission**. Cela vous mènera à l'enregistrement de la soumission.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-record.png)
 
-From here, you can see:
+De là, vous pouvez voir:
 
-**Submission Files**: This panel lists the files that have been submitted. In this view, there is just one file, but multiple files could have been submitted.
+**Fichiers de Soumission**: ce panneau liste les fichiers qui ont été soumis. Dans cette vue, il n'y a qu'un seul fichier, mais plusieurs fichiers pourraient avoir été soumis.
 
-**Pre-Review Discussions**: This panel allows the editor to communicate with the author, or with others on the editorial team. For example, to ask the author for some additional information, or to ask a section editor to take responsibility for this submission.
+**Discussions de Pré-Évaluation** : ce panneau permet au rédacteur/trice de communiquer avec l'auteur, ou avec d'autres membres de l'équipe éditoriale. Par exemple, pour demander à l'auteur des informations supplémentaires, ou pour demander à un-e Rédacteur/trice de section d'assumer la responsabilité de cette soumission.
 
-**Action Buttons**: These include Send to Review, Accept and Skip Review, and Decline Submission.
+**Boutons d'Action**: ils incluent Envoyer pour Évaluation, Accepter et Ignorer la l'Évaluation, et Refuser la Soumission.
 
-> Note: If you don't see these buttons, you likely have not yet assigned the submission to an editor.
+> Remarque: si vous ne voyez pas ces boutons, vous n'avez probablement pas encore affecté la soumission à un(e) rédacteur/trice.
 
-**Participants**: This panel is where you will see the list of participants involved in the submission, including the editor, section editors, and author. Other names \(copyeditors, layout editors, etc.\) will appear here as they are added in subsequent steps.
+**Participants** : Ce panneau est l'endroit où vous verrez la liste des participants impliqués dans la soumission, y compris le/la Rédacteur/trice, les rédacteurs de section, et l'auteur. Other names \(copyeditors, layout editors, etc.\) will appear here as they are added in subsequent steps.
 
-In addition, in the blue bar along the top, you can see:
+En plus, dans la barre bleue en haut, vous pouvez voir:
 
-**Metadata**: Where you can view and revise the submission metadata.
+**Métadonnées**: où vous pouvez afficher et réviser les métadonnées de soumission.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
 
@@ -139,107 +139,107 @@ Use the Identifiers tab to also view or add a unique identifier.
 
 ![](./assets/learning-ojs3.1-ed-dashboard-log.png)
 
-Use the Notes tab to also view or add any editorial notes.
+**Journal d'Activité**: où vous pouvez afficher l'historique et toutes les notes sur la soumission.
 
 ![](./assets/learning-ojs-3-ed-submissions-notes.png)
 
-**Submission Library**: The Submission Library is a general storage area for documents that may include conflict-of-interest forms, galley approval forms, etc. A user can upload the completed form for their manuscript in their Submission Library. The uploaded forms will also be available to other participants (with the exception of Reviewers) assigned throughout the editorial or production workflow to edit or re-upload new versions.
+**Bibliothèque de Soumission** : La Bibliothèque de Soumission est une zone de stockage générale pour les documents qui peuvent inclure des formulaires de conflit d'intérêts, des épreuves d'approbation de fichiers, etc. Un-e utilisateur/trice peut télécharger le formulaire rempli pour son manuscrit dans sa Bibliothèque de Soumission. Les formulaires téléchargés seront également disponibles pour les autres participants (à l'exception des Évaluateurs) affectés tout au long du flux des travaux éditoriaux ou de production pour modifier ou télécharger à nouveau de nouvelles versions.
 
 **Document Library**: Users throughout the editorial workflow will be able to access all the files in the Publisher Library (see [Workflow Settings chapter](./settings-workflow.md)) made available by the Journal Manager or Editor through opening the Submission Library and clicking "View Document Library."
 
 ![](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
 
-### Assigning the Submission
+### Affecter la Soumission
 
-Depending on how you have your sections configured, some new submissions may come in unassigned. If this is the case, the next step is to assign an editor or section editor. To do so, select the _Assign_ link in the **Participants** panel.
+Selon la façon dont vous avez configuré vos sections, quelques nouvelles soumissions peuvent être non affectées. Si tel est le cas, la prochaine étape consiste à affecter un(e) rédacteur/trice ou un(e) rédacteur/trice de section. Pour ce faire, sélectionnez le lien *Affecter* dans le panneau **Participants** .
 
 ![](./assets/learning-ojs-3-ed-submissions-add-participant.png)
 
-You will have the option to locate a user by role, choose an individual, and send them a message requesting their assistance.
+Vous aurez la possibilité de localiser un(e) utilisateur/trice par rôle, de choisir une personne, et de lui envoyer un message demandant son assistance.
 
-> Note: If you aren't sure of the names of the section editors, simply choose that role from the dropdown menu and then hit the Search button. All Section Editors will be displayed and available for selection.
+> Remarque: Si vous n'êtes pas sûr des noms des rédacteurs de section, choisissez simplement ce rôle dans le menu déroulant, puis cliquez sur le bouton Rechercher. Tous les rédacteurs de section seront affichés et disponibles pour la sélection.
 
-Hit the **OK** button to make the assignment and send the message.
+Vous pouvez maintenant voir que le/la Rédacteur/trice de section est listé sous Participants et que les boutons Action sont disponibles:
 
 ![](./assets/learning-ojs3.1-ed-dashboard-record-assign.png)
 
-> Note the new Pre-Review Discussion that was automatically created as part of the assignment.
+> Notez la nouvelle discussion de Pré-Évaluation qui a été automatiquement créée dans le cadre de l'affectation.
 
-You can now see that the Section Editor is listed under Participants, and the Action buttons are available:
+**Accepter et Ignorer l'Évaluation**: ignore le stade d'Évaluation et déplace la soumission directement au stade de Révision.
 
-**Send to Review**: Moves the submission on to the next stage.
+Appuyez sur **Envoyer** .
 
-**Accept and Skip Review**: Skips the Review Stage and moves the submission directly into Copyediting.
+Malgré que dans cet exemple, le/la Rédacteur/trice ait affecté un(e) Rédacteur/trice de section, il serait également possible pour le/la Rédacteur/trice de s'affecté eux-mêmes à la soumission.
 
-**Decline Submission**: Rejects the submission before going through the review process. The submission would then be archived.
+**Refuser la Soumission**: rejette la soumission avant de passer par le processus d'Évaluation. La soumission serait alors archivée.
 
 Although in this example, the editor assigned a section editor, it would also be possible for the editor to assign themselves to the submission.
 
-### Section Editor
+### Rédacteur/trice de Section
 
-Now that the Section Editor has been assigned, they can login and view their dashboard. The submission can be found at the top of the My Assigned queue.
+Maintenant que le/la Rédacteur/trice de Section a été affecté, ils peuvent se connecter et afficher leur tableau de bord. La soumission se trouve en haut de la file d'attente Soumissions qui me sont Assigné.
 
 ![](./assets/learning-ojs3.1-se-dashboard.png)
 
-Clicking on the article title opens the full submission record.
+Ceci n'est pas nécessaire, mais le/la Rédacteur/trice de section peut répondre à la Discussion de Pré-Évaluation pour informer le/la Rédacteur/trice qu'il va travailler sur l'affectation.
 
 ![](./assets/learning-ojs3.1-se-record.png)
 
-#### Accepting the Assignment
+#### Accepter l'Affectation
 
-It is not required, but the Section Editor could reply to the Pre-Review Discussion to inform the editor that they will be proceeding with the assignment.
+Une fois que le/la Rédacteur/trice de Section est satisfait(e) et convaincu(e) que la soumission est appropriée pour la revue, il/elle peut sélectionner le bouton **Envoyer pour Évaluation** pour faire passer la soumission au stade suivant.
 
-#### Communicating with the Author
+#### Communiquer avec l'Auteur
 
-If the Section Editor has any questions for the author, they can use the Pre-Review Discussions.
+Si le/la Rédacteur/trice de Section a des questions pour l'auteur, il peut utiliser les Discussions de Pré-Évaluation.
 
-#### Sending to Review
+#### Envoi pour Évaluation
 
-Once the Section Editor is satisfied that the submission is appropriate for the journal, they can select the **Send to Review** button to move the submission to the next stage.
+Gardez les fichiers à évaluer cochés.
 
 ![](./assets/learning-ojs3.1-se-record-sendReview.png)
 
-Keep the files that are to be reviewed checked off.
+Lorsque la soumission passe au Stade d'Évaluation, une notification indique que des Évaluateurs doivent être affectés.
 
 <hr />
 
-## Review
+## Évaluation
 
-When the submission enters the Review Stage, a notification indicates that Reviewers need to be assigned.
+Dans le panneau Évaluateurs, vous pouvez sélectionner Ajouter un-e Évaluateur/trice pour affecter un-e nouveau/velle Évaluateur/trice.
 
 ![](./assets/learning-ojs3.1-se-record-revstage.png)
 
-> Note: In the screenshot above, we see the Section Editor's view. Notice the limited Action buttons \(only Make Recommendation is available\). If we were logged in as an Editor, we would see more Action buttons \(Request Revisions, Resubmit for Review, Send to Copyediting, Decline Submission\).
+> Remarque: dans la capture d'écran ci-dessus, nous voyons la vue de le/la Rédacteur/trice de Section. Notez les boutons d'action limités (seul l'option Faire une Recommandation est disponible). If we were logged in as an Editor, we would see more Action buttons \(Request Revisions, Resubmit for Review, Send to Copyediting, Decline Submission\).
 
 From the Reviewers panel, you can select Add Reviewer to assign a new Reviewer.
 
-This opens a new window, where Reviewers are listed and can be selected one at a time.
+Cela ouvre une nouvelle fenêtre, où les Évaluateurs sont listés et peuvent être sélectionnés un par un.
 
 ![Locate reviewer screenshot OJS 3.1.2](./assets/learning-ojs-3.1.2-locate-reviewer.png)
 
-Clicking on the blue arrow reveals more information about their review history, including how many active reviews they are currently assigned, how many reviews they have completed or declined, etc. If the user has added a Biography or Reviewing Interests, this information will be displayed here.
+En cliquant sur la flèche bleue, vous obtiendrez plus d'informations sur l'historique de leurs Évaluations, y compris le nombre d'Évaluations actives qui leur sont actuellement affectées, le nombre d'Évaluations qu'ils ont terminées ou refusées, etc. Si l'utilisateur/trice a ajouté une biographie ou des centres d'intérêt d'Évaluation, ces informations seront affichées ici.
 
-Additionally, a Journal Editor can add an Editorial Note about the reviewer in their profile under Users & Roles > Users. This note will appear in the reviewer details on the Add Reviewer screen, but will not be visible to the reviewer or to the public.
+De plus, le/la Rédacteur/trice de la Revue peut ajouter une Note Éditoriale à propos de l'Évaluateur/trice dans son profil sous Utilisateurs et Rôles > Utilisateurs. Cette note apparaîtra dans les détails de l'Évaluateur/trice sur l'écran Ajouter un-e Évaluateur/trice, mais ne sera pas visible par l'Évaluateur/trice ni par le public.
 
 ![Reviewer details screenshot OJS 3.1.2](./assets/learning-ojs-3.1.2-add-reviewer.png)
 
-In OJS releases 3.0 to 3.1.0, you cannot assign a user to review a submission if they are also an editor of the submission.  If you do, the editor will no longer be able to access the submission after they submit their review, in order to maintain the principles of blind peer review. However, starting with OJS 3.1.1, you can assign a user to review a submission if they are also an editor of the submission.
+Dans les versions OJS 3.0 à 3.1.0, vous ne pouvez pas affecter un-e utilisateur/trice pour évaluer une soumission s'ils sont également un-e rédacteur/trice de la soumission.  If you do, the editor will no longer be able to access the submission after they submit their review, in order to maintain the principles of blind peer review. Cependant, à partir de OJS 3.1.1, vous pouvez affecter un-e utilisateur/trice pour réviser une soumission s'il/elle est également un-e rédacteur/trice de la soumission.
 
-At the bottom of this form, you will see options to:
+Au bas de ce formulaire, vous verrez des options pour:
 
-**Select Reviewer**: Use this to confirm your selection once you have picked a Reviewer from the list.
+**Inscrire un(e) Utilisateur/trice Existant(e)**: si aucun des Évaluateurs ne vous convient, vous pouvez inscrire un-e utilisateur/trice existant-e en tant qu'Évaluateur/trice.
 
-**Create New Reviewer**: If none of the Reviewers are suitable, you can use this button to create a new Reviewer. This is a new account in the system.
+**Créer un-e Nouveau/velle Évaluateur/trice**: si aucun des Évaluateurs ne vous convient, vous pouvez utiliser ce bouton pour créer un-e nouveau/velle Évaluateur/trice. Ceci crée un nouveau compte dans le système.
 
-**Enroll Existing User**: If none of the Reviewers are suitable, you can enroll an existing user as a Reviewer.
+Cela ouvre une nouvelle fenêtre avec un message pour la Évaluatrice.
 
-For this demonstration, we will pick Adela as our Reviewer and hit the **Select Reviewer** button.
+Pour cette démonstration, nous choisirons Adela comme notre Évaluatrice et cliquerons sur le bouton **Sélectionner un-e Évaluateur/trice** .
 
-This initiates a new window with a message for the Reviewer.
+Vous pouvez réviser n'importe quel texte préparé.
 
 ![](./assets/learning-ojs3.1-se-record-revstage-revreq.png)
 
-You can revise any of the prepared text.
+Plus bas dans le formulaire, vous verrez les détails supplémentaires qui sont envoyés à l'Évaluateur/trice, y compris le titre, le résumé, les dates importantes, et un lien vers les fichiers à évaluer.
 
 If you are using a Blind Review method, ensure that the files you send to the Reviewer are stripped of any identifying information about the Author. Additional instruction for this is provided in the [Understanding Blind Review](#understanding-blind-review) and [Removing Identifying Information](#removing-identifying-information) sections.
 
@@ -247,33 +247,33 @@ Further down the form, you will see the additional details that are sent to the 
 
 ![](./assets/learning-ojs-3-ed-rev-add-4.png)
 
-By default, Reviewers will be provided with an extended text box to type in their comments. However, the Journal Manager can create Review Forms in [**Workflow Settings &gt; Review**](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings) to ask more focused questions. If you would like the Reviewer to fill out a review form, select it under **Review Form**.
+Par défaut, les Évaluateur seront fournis d'une large zone de texte pour écrire leur commentaires. However, the Journal Manager can create Review Forms in [**Workflow Settings &gt; Review**](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings) to ask more focused questions. Si vous voulez que l'Évaluateur/trice remplisse un formulaire de Évaluation, sélectionnez cela sous **Formulaire d'Évaluation**.
 
-Hit the **Add Reviewer** button to send the message and assign the Reviewer.
+Cliquez sur le bouton **Ajouter un-e Évaluateur/trice** pour envoyer le message et affecter l'Évaluateur/trice.
 
-Back on the Review Stage, we can see the Reviewer is now listed.
+Vous pouvez apporter des modifications supplémentaires à l'aide de la flèche bleue à côté du nom de l'Évaluateur/trice.
 
 ![](./assets/learning-ojs-3-ed-rev-reviewer-added.png)
 
-You can make additional changes using the blue arrow toggle next to the Reviewer's name.
+**Détails d'Évaluation**: fournit des détails sur l'évaluation.
 
 ![](./assets/learning-ojs-3-ed-rev-reviewer-added-2.png)
 
-**Review Details**: Provides details on the review.
+**Envoyer un Email à l'Évaluateur/trice**: vous permet d'envoyer un message à l'Évaluateur/trice.
 
 ![](./assets/learning-ojs-3-ed-rev-reviewer-review-details.png)
 
-**Email Reviewer**: Allows you to send a message to the Reviewer.
+**Modifier l'Évaluation**: vous permet de modifier les dates et les fichiers de l'Évaluation.
 
 ![](./assets/learning-ojs-3-ed-rev-reviewer-email-reviewer.png)
 
-**Edit Review**: Allows you to change the review dates and files.
+**Annuler l'Affectation de l'Évaluateur/trice**: vous permet de supprimer l'affectation de l'Évaluateur/trice.
 
 ![](./assets/learning-ojs-3-ed-rev-reviewer-edit-review.png)
 
-**Unassign Reviewer**: Allows you to unassign the Reviewer.
+Utilisez le bouton **Ajouter un Message** pour répondre.
 
-**History**: Provides a brief history of the review.
+À ce point, nous pourrions ajouter des Évaluateurs supplémentaires, puis attendre que leurs recommandations arrivent.
 
 ![](./assets/learning-ojs-3-ed-rev-review-history.png)
 
@@ -281,37 +281,25 @@ At this point, we could add additional Reviewers, and then wait for their recomm
 
 ### Understanding Blind Review
 
-OJS is designed to accommodate different types of reviews and has built-in steps to ensure anonymity.
+**Évaluation en Double-Aveugle**: l'identité de l'auteur et de l'évaluateur/trice sont gardées cachées.
 
-All information will be visible to the journal managers and editors regardless of the type of review selected. The review type will be automatically selected based on what has been configured under _Settings_ > _Workflow_ > _Review_. The editors can change the review type when sending the review request. Editors/Section Editors must select the review type when sending the review request from the following options:
+Toutes les informations seront visibles pour les directeurs et rédacteurs de la revue quel que soit le type d'évaluation sélectionné. Le type d'évaluation sera automatiquement sélectionné en fonction de ce qui a été configuré sous *Paramètres* > *Flux des Travaux* > *Évaluation*. Les rédacteurs peuvent modifier le type d'évaluation lors de l'envoi de la demande d'évaluation. Les rédacteurs/rédacteurs de section doivent sélectionner le type d'évaluation lors de l'envoi de la demande d'évaluation parmis les options suivantes:
 
 * Double-Blind
 * Blind
-* Open
+* Ouvert
 
 **Double-Blind Review**: The identity of both the author and the reviewer is kept hidden.
 
-The author or editor must ensure that metadata from the manuscript file is removed in a Double-Blind review. See [Removing Identifying Information](#removing-identifying-information) for more information.
+The author or editor must ensure that metadata from the manuscript file is removed in a Double-Blind review. Voir [Supprimer les informations d'identification](#supprimer-les-informations-didentification) pour plus d'informations.
 
-*Reviewer*: The reviewer will not be able to see the author(s) in their reviewer’s queue if the editor has selected a double-blind review. All identifying information in the metadata of the submission details is automatically removed by the system.
+*Reviewer*: The reviewer will not be able to see the author(s) in their reviewer’s queue if the editor has selected a double-blind review. Toutes les informations d'identification dans les métadonnées des détails de soumission sont automatiquement supprimées par le système.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon1.png)
 
-At the end of a review, if a reviewer chooses to upload a review file they should remove all identifying information before uploading it to the system. See [Removing Identifying Information](#removing-identifying-information) for more information.
+À la fin d'une évaluation, si un-e évaluateur/trice choisit de télécharger un fichier d'évaluation, toutes les informations d'identification doivent être supprimées avant de le télécharger dans le système. Voir [Supprimer les informations d'identification](#supprimer-les-informations-didentification) pour plus d'informations.
 
-*Author*: No identifying information regarding the reviewer will be visible to the author within their manuscript view.
-
-![](./assets/learning-ojs3.1-ed-rev-anon2.png)
-
-*Editors Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
-
-![](./assets/learning-ojs3.1-ed-rev-anon3.png)
-
-**Blind Review**: Reviewer identity is kept anonymous from the author(s). The reviewers can see the author details.
-
-*Reviewer*: The reviewer is able will see full the metadata entered by the author by clicking _View All Submission Details_ in the request tab of the manuscript. The authors’ name will also appear in the reviewer's queue.
-
-*Author*: No identifying information regarding the reviewer will be available within their manuscript view.
+*Décision des Rédacteurs*: L'email de décision envoyé aux auteurs à la fin d'une évaluation aura les titres génériques des Évaluateurs.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon2.png)
 
@@ -319,41 +307,53 @@ At the end of a review, if a reviewer chooses to upload a review file they shoul
 
 ![](./assets/learning-ojs3.1-ed-rev-anon3.png)
 
-### Removing Identifying Information
+**Blind Review**: Reviewer identity is kept anonymous from the author(s). Les Évaluateurs peuvent voir les détails de l'auteur.
 
-While OJS has a number of built-in functions for blind reviews, additional steps may need to be taken outside of the platform to ensure a Double-Blind Review. A submission file may have information that could identify the authors' identity within the document properties.
+*Évaluateur/trice*: L'Évaluateur/trice sera capable de voir les métadonnées complètes fournies pas l'auteur en cliquant sur *Afficher Tous les Détails de la Soumission* dans l'onglet de demande du manuscrit. Le nom de l'auteur sera aussi affiché dans la file d'attente de l'Évaluateur/trice.
+
+*Décision des Rédacteurs*: L'email de décision envoyé aux auteurs à la fin d'une évaluation aura les titres génériques des évaluateurs.
+
+![](./assets/learning-ojs3.1-ed-rev-anon2.png)
+
+*Editors Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
+
+![](./assets/learning-ojs3.1-ed-rev-anon3.png)
+
+### Supprimer les Informations d'Identification
+
+While OJS has a number of built-in functions for blind reviews, additional steps may need to be taken outside of the platform to ensure a Double-Blind Review. Un fichier de soumission peut contenir des informations permettant d'identifier l'identité des auteurs dans les propriétés du document.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon4.png)
 
-Authors may also include their name within the article, footnotes, or references, in which case the editor will have to remove it prior to sending for review. Alternatively, authors can be asked to redact their names from the submission file, with "Author" and year used in the references and footnotes instead of the authors' name, article title, etc., prior to submission.
+Les auteurs peuvent aussi inclure leur nom dans l'article, les notes de bas de page, ou les références, auquel cas le/la rédacteur/trice devra supprimer cela avant d'envoyer la soumission pour évaluation. Comme alternatif, les auteurs peuvent être invités à remplacer leurs noms dans le fichier de soumission avec «Auteur», et remplacer l'année utilisée dans les références et les notes de bas de page au lieu du nom des auteurs, du titre de l'article, etc., avant la soumission.
 
-#### Microsoft Word for Windows
+#### Microsoft Word pour Windows
 
-1. Go to _File_
-2. Select _Info_
-3. Click on _Check for Issues_
-4. Click on _Inspect Document_
-5. In the _Document Inspector_ dialog box, select the check boxes to choose the types of hidden content that you want to be inspected
-6. Click _Remove All_
-7. Click _Close_
-8. Save the document
+1. Allez à *Fichier*
+2. Sélectionnez *Info*
+3. Cliquez sur *Vérifier les Problèmes*
+4. Cliquez sur *Inspecter le Document*
+5. Dans la boîte de dialogue *Inspecteur de Document* , cochez les cases pour choisir les types de contenu masqué que vous souhaitez inspecter
+6. Cliquez sur *Supprimer Tout*
+7. Cliquez sur *Fermer*
+8. Sauvegarder le document
 
-#### Microsoft Word for MacOS
+#### Microsoft Word pour MacOS
 
-1. Go to _Tools_
-2. Click _Protect Document_
-3. Select _Remove personal information from this file on save_
-4. Click _OK_ and save the file
+1. Aller à *outils*
+2. Cliquez sur *Protéger le Document*
+3. Sélectionnez *Supprimer les Informations Personnelles de ce Fichier lors de l'Enregistrement*
+4. Cliquez sur *OK* et enregistrez le fichier
 
 ![](./assets/learning-ojs3.1-ed-rev-anon5.png)
 
-### Re-uploading the Document
+### Retélécharger le Document
 
-The Journal Managers and Editors are able to re-upload the anonymized document in the Review files by clicking **Upload/Select Files** in the _Review Files_ box.
+Cliquez sur **Télécharger le Fichier d'Évaluation** .
 
 ![](./assets/learning-ojs3.1-ed-rev-anon6.png)
 
-Click **Upload Review File**.
+Identifiez le composant de l'article et téléchargez le fichier.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon7.png)
 
@@ -361,25 +361,25 @@ Identify the article component and upload the file.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon8.png)
 
-Review Details. It may be helpful to rename the file to the time of re-upload. The file can also be renamed by clicking the arrow on the left side of the file name.
+Détails d'Évaluation. Il peut être utile de renommer le fichier au moment de retéléchargement. Le fichier peut également être renommé en cliquant sur la flèche à gauche du nom du fichier.
 
 ![](./assets/learning-ojs3.1-ed-rev-anon9.png)
 
-Click Complete and select the file you would like to use for the review.
+Cliquez sur Terminer et sélectionnez le fichier que vous souhaitez utiliser pour l'Évaluation.
 
-The file(s) will appear under the initial upload. When sending out the review request, ensure that the original manuscript is unselected from the ‘Files To Be Reviewed’.
+Les fichiers apparaîtront sous le téléchargement initial. Lors de l'envoi de la demande d'Évaluation, assurez-vous que le manuscrit original n'est pas sélectionné dans les «Fichiers à Évaluer».
 
 ![](./assets/learning-ojs3.1-ed-rev-anon10.png)
 
-Select the Review File(s) and click **OK**.
+Sélectionnez les Fichiers d'Évaluation et cliquez sur **OK** .
 
-### Responding to Reviews
+### Répondre aux Évaluations
 
-Once the Reviewers have completed their work, the Section Editor can see the results in their dashboard. Here they will see notifications that new reviews have been submitted and whether all reviews are in.
+Une fois que les Évaluateurs ont terminé leur travail, le/la rédacteur/trice de section peut voir les résultats dans leur tableau de bord. Ici, ils verront les notifications indiquant que de nouvelles Évaluations ont été soumises et si toutes les Évaluations ont été soumises.
 
 ![](./assets/learning-ojs-3-ed-rev-responding.png)
 
-Use the _Read Review_ link in the Reviewers panel to read the comments from the Reviewers, including those for both the Author and Editor as well as for the Editor only.
+Sélectionnez le lien *Confirmer* au bas de l'écran.
 
 ![](./assets/learning-ojs-3-ed-rev-read-reviews.png)
 
@@ -387,19 +387,19 @@ Select the _Confirm_ link at the bottom of the screen.
 
 ![](./assets/learning-ojs-3-ed-rev-thank.png)
 
-In the Reviewers panel, you can now see a _Thank Reviewer_ link. Choose that to thank the Reviewer.
+Dans le panneau des Évaluateurs, vous pouvez maintenant voir un lien de *Remercier Évaluateur/trice*. Choisissez cela pour remercier l'Évaluateur/trice.
 
 ![](./assets/learning-ojs-3-ed-rev-thank2.png)
 
-Hit the **Thank Reviewer** button to send the message.
+Appuyez sur le bouton **Remercier Évaluateur/trice** pour envoyer le message.
 
-### Making the Decision
+### Prendre une Décision
 
-Based on the Reviewer recommendations, you can use the action buttons to make a decision.
+Les options comprennent:
 
 ![](./assets/learning-ojs-3-ed-rev-decision.png)
 
-Options include:
+**Accepter la Soumission**: cela signifie que la soumission est acceptée sans révisions et peut passer à l'étape de Révision.
 
 **Request Revisions**: This will require the Author to make minor changes, but no further peer review is required.
 
@@ -407,95 +407,95 @@ Options include:
 
 **Send to Copyediting**: This means the submission is accepted without revisions and can proceed to the Copyediting stage.
 
-**Decline Submission**: This means that the submission has not passed peer review and is unsuitable for further consideration. The submission would then move to the Archives.
+**Refuser la Soumission**: Cela signifie que la soumission n'a pas été soumise à une évaluation par les pairs et qu'elle ne convient pas pour une évaluation plus approfondie. La soumission serait ensuite transférée aux archives.
 
-### Request Revisions
+### Demande d'Évaluations
 
 In this demonstration, we are going to request that the Author make some minor revisions before acceptance.
 
-To do so, select the **Request Revisions** button. This results in a new message window.
+Pour ce faire, sélectionnez le bouton **Demande d'Évaluations**. Cela entraîne une nouvelle fenêtre de message.
 
 ![](./assets/learning-ojs-3-ed-rev-req-revisions.png)
 
-You can modify any of the text before sending the message.
+Vous pouvez modifier n'importe quel texte avant d'envoyer le message.
 
-Use the **Add Reviews** button to import the Reviewer's comments from the Editor and Author field. Comments in the Editor only field will not be displayed.
+Utilisez le bouton **Ajouter des Évaluations** pour importer les commentaires de l'Évaluateur/trice à partir du champ Rédacteur/trice et Auteur. Les commentaires du champ Rédacteur/trice uniquement ne seront pas affichés.
 
 ![](./assets/learning-ojs-3-ed-rev-req-revisions3.png)
 
-If there are any attachments, such as a marked up file created by a Reviewer, you can attach it here \(as long as it has been anonymized\). In OJS 3.1.2 and later, you can also upload a new file and add it as an attachment.
+If there are any attachments, such as a marked up file created by a Reviewer, you can attach it here \(as long as it has been anonymized\). Dans OJS 3.1.2 et versions ultérieures, vous pouvez également télécharger un nouveau fichier et l'ajouter en tant que pièce jointe.
 
-Hit the **Record Editorial Decision** button to send the message.
+Une fois que l'auteur a effectué les révisions, vous devriez recevoir un message (par email et via le panneau des Discussions d'Évaluation).
 
-You must now wait for the Author to respond with their revisions.
+Vous devez maintenant attendre que l'auteur réponde avec ses révisions.
 
-### Author Responds
+### L'Auteur Répond
 
 Once the Author has made the revisions, you should receive a message \(via email and the Review Discussions panel\).
 
 ![](./assets/learning-ojs-3-ed-discussion-panel.png)
 
-You will also see the revised file in the Revisions panel.
+Vous pouvez télécharger et consulter la version révisée finale à partir du panneau Révisé.
 
-At this point, you can download the revised file, check to make sure it is ready, and communicate with the Author using the Review Discussions panel.
+À ce point, vous pouvez télécharger le fichier révisé, vérifier qu'il est prêt et communiquer avec l'Auteur à l'aide du panneau Discussions d'Évaluation.
 
-In this case, we're going to inform the Author that we are accepting the revisions. To do so, click on the linked title of the discussion. This will open the discussion box.
+Dans ce cas, nous allons informer l'auteur que nous acceptons les révisions. Pour ce faire, cliquez sur le titre lié de la discussion. Cela ouvrira la boîte de discussion.
 
 ![](./assets/learning-ojs-3-ed-discussion-window.png)
 
-Use the **Add Message** button to reply.
+Une autre option serait de demander des révisions supplémentaires, mais à ce stade, nous sommes prêts à passer à autre chose.
 
 ![](./assets/learning-ojs-3-ed-discussion-window-reply.png)
 
 Another option would be to ask for further revisions, but at this point, we're ready to move on.
 
-### Moving to Copyediting
+### Passer à la Révision
 
-The submission is now ready to be moved to copyediting. To do so, use the blue **Send to Copyediting** button.
+La soumission est maintenant prête à être déplacée vers la Révision. To do so, use the blue **Send to Copyediting** button.
 
 ![](./assets/learning-ojs-3-ed-send-to-copyediting.png)
 
-This will open a new window.
+Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
 
 ![](./assets/learning-ojs-3-ed-accept.png)
 
-Hit the **Record Editorial Decision** button at the bottom of the window.
+Appuyez sur le bouton **Enregistrer la Décision Éditoriale** pour envoyer le message.
 
-The submission is automatically moved to the Copyediting stage.
+Lorsqu'une soumission est acceptée à l'Étape d'Évaluation, elle passe automatiquement à l'étape de Révision.
 
 <hr />
 
-## Copyediting
+## Révision
 
 When a submission is approved in the Review Stage, it will automatically move to the Copyediting stage.
 
 ![](./assets/learning-ojs-3-ed-copyediting.png)
 
-### Adding a Copyeditor
+### Ajout d'un-e Réviseur/euse
 
-When the submission enters the Copyediting Stage, a notification indicates that a Copyeditor needs to be assigned. Copyeditors can be assigned using the *Add* link on the Participants panel.
+Lorsque la soumission entre dans la phase de Révision, une notification indique qu'un-e Réviseur/euse doit être affecté. Les Réviseurs peuvent être attribués à l'aide du lien *Ajouter* sur le panneau Participants.
 
-This will open a new window.
+Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
 
 ![](./assets/learning-ojs-3-ed-copyediting-add.png)
 
-You can use the role dropdown to choose Copyeditor and hit the **Search** button. This will bring up all Copyeditors.
+Vous pouvez utiliser la liste déroulante des rôles pour choisir un-e Réviseur/euse et cliquer sur le bouton **Rechercher**. Cela fera apparaître tous les Réviseurs.
 
-Select one of the Copyeditors for this submission.
+Vous pouvez maintenant voir la nouvelle notification indiquant que la soumission est en attente de révisions, le/la réviseur/euse est maintenant inclus dans la liste des Participants et la demande est visible dans les Discussions de Révision.
 
 Choose a prepared message.
 
-Make any changes needed to the message.
+Vous pouvez maintenant attendre que le/la réviseur/euse fasse son travail.
 
-Hit **Send**.
+Le/la réviseur/euse recevra un e-mail de le/la Rédacteur/trice de la Rubrique lui demandant de prendre en charge la soumission.
 
-You can now see the new notification that the submission is awaiting copyedits, the Copyeditor is now included in the Participants list, and the request is visible in the Copyediting Discussions.
+Pour commencer, ils doivent se connecter et trouver la soumission à partir de leur tableau de bord.
 
 ![](./assets/learning-ojs-3-ed-copyediting-add-dash.png)
 
 You can now wait for the Copyeditor to do their work.
 
-### Copyeditor
+### Réviseur/euse
 
 The Copyeditor will receive an email message from the Section Editor requesting them to take on the submission.
 
@@ -503,13 +503,13 @@ To get started, they must login and find the submission from their dashboard.
 
 ![](./assets/learning-ojs-3-ce-dash.png)
 
-Then, they can click the Copyediting link next to the submission name. This will take them directly to the Copyediting stage for this submission.
+Ensuite, ils peuvent cliquer sur le lien Révision à côté du nom de la soumission. Cela les mènera directement à l'étape de Révision pour cette soumission.
 
 ![](./assets/learning-ojs-3-ce-submission.png)
 
-From here, they can see the Draft Files. These are the files that require copyediting. Clicking on the linked title will download the file to their desktop.
+De là, ils peuvent voir les Fichiers Brouillons. Ce sont les fichiers qui nécessitent une révision. Cliquez sur le titre lié pour télécharger le fichier sur leur bureau.
 
-Outside of OJS, they will do the copyediting work.
+En dehors d'OJS, ils effectueront le travail de révision.
 
 To check the submission metadata, use the Metadata link in the blue bar at the top.
 
@@ -519,31 +519,31 @@ This would include checking the article title, abstract, author names, keywords,
 
 ![](./assets/learning-ojs-3-ce-copyediting-metadata2.png)
 
-If any changes are made, hit the **Save** button before exiting this window.
+Cliquez sur le bouton **OK** pour compléter l'affectation et envoyer le message.
 
-#### Consult with the Author
+#### Consulter avec l'Auteur
 
-Once they have finished copyediting, they will run the changes past the Author by adding a new discussion, using the Copyediting Discussions panel's *Add discussion* link.
+Une fois la révision terminée, ils exécuteront les modifications au-delà de l'auteur en ajoutant une nouvelle discussion, en utilisant le lien *Ajouter une discussion* du panneau de Discussions de Révision.
 
-From the Add Discussion window, they must choose the Author and add a subject line and message.
+Dans la fenêtre de discussion, ajoutez le/la Rédacteur/trice de de la Rubrique, une ligne de sujet, et un message.
 
 ![](./assets/learning-ojs-3-ce-add-discussion.png)
 
-Further down that same window, they must upload a copy of the copyedited file.
+Appuyez sur **Continuer** pour continuer.
 
 ![](./assets/learning-ojs-3-ce-add-discussion2.png)
 
-To do so, use the *Upload File* link. This will open a new window where you must choose the *Article Component* (e.g., article text) and upload the file.
+Pour ce faire, utilisez le lien *Téléverser un Fichier*. Cela ouvrira une nouvelle fenêtre où vous devez choisir le *Component de l'Article* (par example, texte de l'article) et téléverser le fichier.
 
 ![](./assets/learning-ojs-3-ce-upload1.png)
 
-Hit **Continue** to proceed.
+Pour ce faire, sélectionnez le bouton bleu **Envoyer en Production** .
 
-This will open the next step, where you can edit the filename if needed.
+De retour dans la fenêtre Ajouter, vous pouvez maintenant voir le fichier joint.
 
 ![](./assets/learning-ojs-3-ce-upload2.png)
 
-Next, you can upload more files if necessary, or hit **Complete**.
+Appuyez sur **OK** pour envoyer le message à l'auteur.
 
 ![](./assets/learning-ojs-3-ce-upload3.png)
 
@@ -551,54 +551,54 @@ Back on the Add window, you can now see the attached file.
 
 ![](./assets/learning-ojs-3-ce-upload4.png)
 
-Hit **OK** to send the message to the author.
+Une fois que vous avez reçu une réponse de l'auteur, vous pouvez consulter ses commentaires en vérifiant la réponse à la discussion.
 
-It is now visible in the Copyediting Discussions.
+Le message est maintenant visible dans les Discussions de Révision.
 
 ![](./assets/learning-ojs-3-ce-discussion.png)
 
-You can now wait for the author's response.
+Vous pouvez maintenant attendre la réponse de l'auteur.
 
-### Author Responds
+### L'Auteur Répond
 
-Once you hear back from the author, you can review their feedback by checking the discussion reply.
+Vous pouvez maintenant télécharger la version révisée finale dans le panneau Révisé, près du bas de l'écran.
 
 ![](./assets/learning-ojs-3-se-author-copyedits.png)
 
-From here, you can see no further changes are required.
+Utilisez le lien Télécharger/Sélectionner des fichiers pour télécharger la version révisée finale.
 
 ![](./assets/learning-ojs-3-se-author-copyedits-reply.png)
 
 
-### The Final Copyedited File
+### Le Fichier Révisé Final
 
-Now you can go ahead and upload the final copyedited version to the Copyedited panel, near the bottom of the screen.
+Il est important de noter ici que vous avez quelques choix.
 
 ![](./assets/learning-ojs-3-ce-copyedited.png)
 
-Use the Upload/Select Files link to upload the final copyedited version.
+Appuyez sur **OK** .
 
 ![](./assets/learning-ojs-3-ce-copyedited-upload-select.png)
 
 It is important to note here that you have a few choices.
 
-1. You can use the Upload File link to upload a new file (e.g., a file with some recent changes since you showed it to the author).
-2. You can select the Author's original version (unlikely).
-3. You can select the Copyeditor version, which is the version you sent to the author (if you made no further changes, choose this one).
+1. Vous pouvez utiliser le lien Télécharger un Fichier pour télécharger un nouveau fichier (par exemple, un fichier avec quelques modifications récentes depuis que vous l'avez montré à l'auteur).
+2. Vous pouvez sélectionner la version originale de l'auteur (peu probable).
+3. Vous pouvez sélectionner la version du/de la Réviseur/euse, qui est la version que vous avez envoyée à l'auteur (si vous n'avez apporté aucune autre modification, choisissez celle-ci).
 
-For this demonstration, we will select the Copyeditor version **by checking the box** to the left of that file.
+L'étape finale consiste à informer le/la Rédacteur/trice de la Rubrique que la révision est terminée.
 
-Hit **OK**.
+Pour ce faire, démarrez une nouvelle Discussion de Révision en utilisant le lien *Ajouter une Discussion* .
 
-The file is now visible in the *Copyedited* panel (near the bottom of the screen), indicating to the editor that this is the final version, which is ready for the Production stage.
+Le fichier est maintenant visible dans le panneau *Révisé* (près du bas de l'écran), indiquant au rédacteur/trice qu'il s'agit de la version finale, qui est prête pour l'étape de Production.
 
 ![](./assets/learning-ojs-3-ce-copyedited2.png)
 
-### Inform the Section Editor
+### Informer le/le Rédacteur/trice de la Rubrique
 
 The final step is for you to inform the Section Editor that the copyediting is complete.
 
-To do so, start a new Copyediting Discussion by using the *Add Discussion* link.
+Appuyez sur **OK** pour envoyer le message.
 
 ![](./assets/learning-ojs-3-ce-copyedited-final.png)
 
@@ -606,27 +606,27 @@ In the discussion window, add the Section Editor, a subject line, and a message.
 
 ![](./assets/learning-ojs-3-ce-copyedited-discussion.png)
 
-Hit **OK** to send the message.
+Appuyez sur **OK** pour envoyer le message.
 
-Returning to the Copyediting stage, you can see the message is posted.
+Retournant vers l'étape de Révision, vous pouvez voir que le message est publié.
 
 ![](./assets/learning-ojs-3-ce-copyedited-done.png)
 
-Your work as the Copyeditor is now complete!
+Votre travail en tant que réviseur/euse est maintenant terminé!
 
-### Moving to Production
+### Passer à la Production
 
-The Section Editor will receive an email that the copyediting is complete, and see a notification in the discussions.
+À ce stade, vous pouvez communiquer davantage avec le/la Réviseur/euse ou, si vous êtes satisfait, déplacer la soumission vers l'étape de Production.
 
 ![](./assets/learning-ojs-3-se-copyedited-dash.png)
 
-You can download and review the final copyedited version from the Copyedited panel.
+Cela va générer un préavis officiel aux Auteurs indiquant que la soumission passe à l'étape suivante.
 
 ![](./assets/learning-ojs-3-se-copyedited-files.png)
 
-At this point you could communicate further with the Copyeditor, or, if you are satisfied, move the submission to the Production stage.
+Notez que le fichier approprié, du panneau Révisé, est inclus et sera automatiquement transféré vers la Production.
 
-To do so, select the blue **Send to Production** button.
+Cliquez sur **Enregistrer la Décision Éditoriale** pour continuer.
 
 This will generate an official notice to the Authors that the submission is moving to the next stage.
 
@@ -634,7 +634,7 @@ This will generate an official notice to the Authors that the submission is movi
 
 Notice that the appropriate file, from the Copyedited panel, is included and will be automatically transferred to Production.
 
-Hit **Record Editorial Decision** to proceed.
+**Sélectionner un-e Évaluateur/trice**: utilisez cette option pour confirmer votre sélection une fois que vous avez choisi un-e Évaluateur/trice de la liste.
 
 The Copyediting stage is now complete.
 
@@ -642,7 +642,7 @@ The Copyediting stage is now complete.
 
 ## Production
 
-With the completion of the Copyediting stage, the submission now moves to Production. From here, the copyedit files \(often Microsoft Word files\) will be converted to publishable formats in the form of galley files \(e.g., PDF, HTML\) and proofread before publishing.
+Une fois la phase de révision terminée, la soumission passe maintenant à la production. From here, the copyedit files \(often Microsoft Word files\) will be converted to publishable formats in the form of galley files \(e.g., PDF, HTML\) and proofread before publishing.
 
 To start working in Production, the Section Editor must login to the system and choose the submission from their dashboard.
 
@@ -658,37 +658,37 @@ A notification banner also indicates that you must assign someone to create the 
 
 This can vary from journal to journal -- you may have layout editors or production assistants to do this work.
 
-To make the assignment, use the _Add_ link in the Participants list. This will open a new window.
+To make the assignment, use the _Add_ link in the Participants list. Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
 
 ![](./assets/learning-ojs-3-se-production-participants-add.png)
 
 Use the role selector and search button to find appropriate users, select one, choose a predefined message, and hit **OK** to send.
 
-The user has now been notified via email and in the dashboard.
+L'utilisateur a maintenant été averti par courriel et dans le tableau de bord.
 
 ![](./assets/learning-ojs-3-se-production-participants-added.png)
 
 Notice that the notification now indicates the submission is "Awaiting Galleys". You can see the layout editor in the Participants list, and you can see the request notice in the Production Discussions panel.
 
-You can now wait for the Layout Editor to complete their tasks.
+Vous pouvez maintenant attendre que le/la rédacteur-trice de mise en page termine ses tâches.
 
-### Layout Editing
+### Rédaction de la mise en page
 
-As a Layout Editor, you will have received a message inviting you to create the galleys for the submission.
+En tant que rédacteur-trice de mise en page, vous aurez reçu un message vous invitant à créer les épreuves pour la soumission.
 
-To get started, login to the system and go to your dashboard.
+Pour commencer, connectez-vous au système et accédez à votre tableau de bord.
 
 ![](./assets/learning-ojs-3-le-dashboard.png)
 
 From here, find the submission and select the Production link.
 
-This will take you to the submission record.
+Cela vous mènera à l'enregistrement de la soumission.
 
 ![](./assets/learning-ojs-3-le-submission.png)
 
 From the Production Ready Files panel, download the files to your desktop and work outside of OJS to convert them to the formats appropriate for your journal \(e.g., HTML, PDF, etc.\).
 
-> Note: PKP is currently working on a project to automate the conversion of Microsoft Word documents into other formats, including XML, HTML, PDF, EPUB, etc. Keep an eye on our blog for updates.
+> Remarque: PKP travaille actuellement sur un projet d'automatisation de la conversion de documents Microsoft Word dans d'autres formats, notamment XML, HTML, PDF, EPUB, etc. Gardez un œil sur notre blog pour les mises à jour.
 
 ### Deciding on Article File Formats
 
@@ -706,11 +706,11 @@ Once you've created a template that matches your journal style, you should link 
 
 Here's an example of an OJS journal that requires authors to download and use a template file: [Paideusis](https://journals.sfu.ca/pie/index.php/pie#authorGuidelines).
 
-Ideally, your template should be created using styles rather than direct formatting. This not only ensures consistency throughout your documents, but will also aid in any conversions to other formats \(e.g., HTML\). Here's an [explanation of the difference between styles and direct formatting in Word](https://support.office.com/en-us/article/Style-basics-in-Word-d382f84d-5c38-4444-98a5-9cbb6ede1ba4?CorrelationId=1b00844c-a9dc-4d62-98df-a966f30d4b20&ui=en-US&rs=en-US&ad=US&ocmsassetID=HA010230882).
+Idéalement, votre modèle doit être créé à l'aide de styles plutôt que d'un formatage direct. This not only ensures consistency throughout your documents, but will also aid in any conversions to other formats \(e.g., HTML\). Here's an [explanation of the difference between styles and direct formatting in Word](https://support.office.com/en-us/article/Style-basics-in-Word-d382f84d-5c38-4444-98a5-9cbb6ede1ba4?CorrelationId=1b00844c-a9dc-4d62-98df-a966f30d4b20&ui=en-US&rs=en-US&ad=US&ocmsassetID=HA010230882).
 
 #### Creating PDF files
 
-A PDF is the easiest type of file to create from a Word document. Current versions of Microsoft Word \(and other word processors\) let you simply "Save As" a PDF. The majority of OJS journals publish their articles as PDFs.
+Un PDF est le type de fichier le plus simple à créer à partir d'un document Word. Current versions of Microsoft Word \(and other word processors\) let you simply "Save As" a PDF. La majorité des revues OJS publient leurs articles au format PDF.
 
 PDFs are also popular with many readers, as they most closely recreate the printed page. However, PDFs are often less flexible on mobile devices and do not always handle links or embedded media \(such as sound or video files\) particularly well. With the growing importance of mobile computing, ensuring your audience can easily read your articles on their phones or tablets is increasingly important.
 
@@ -718,22 +718,22 @@ Example \(see PDF link at bottom of page\): [Irish Journal of Technology Enhance
 
 #### Creating HTML Files
 
-HTML files have the advantage of flexibility. They handle linking and multimedia very well, and can fit on just about any screen - including phones and tablets. They do, however, look different than a printed page, so some readers continue to prefer a PDF. The ideal situation is to provide both PDF and HTML files to best meet the needs of your different users.
+Les fichiers HTML ont plus de flexibilité. Ils gèrent très bien les liens et les multimédia et peuvent s'adapter à presque tous les écrans, y compris les téléphones et les tablettes. They do, however, look different than a printed page, so some readers continue to prefer a PDF. The ideal situation is to provide both PDF and HTML files to best meet the needs of your different users.
 
-We saw in the previous section that creating a PDF from a submitted Word file is easy. Unfortunately, creating HTML files is a little more time consuming. Word processors do not have effective tools for doing a "Save As" to HTML. Microsoft Word tries to do this, but the results are not useful for uploading to OJS. Instead, try following this workflow:
+We saw in the previous section that creating a PDF from a submitted Word file is easy. Unfortunately, creating HTML files is a little more time consuming. Word processors do not have effective tools for doing a "Save As" to HTML. Microsoft Word essaie de le faire, mais les résultats ne sont pas utiles pour le téléversement vers OJS. Au lieu de cela, essayez de suivre ce flux de travaux:
 
-1. Convert the Word document. You can use this [free online tool](https://word2cleanhtml.com/) to do an initial conversion.
-2. Open the resulting HTML files in a text editor \(e.g., NotePad in Windows\) or HTML editor \(e.g., Adobe Dreamweaver\). From here, you will need to make any final clean up or formatting. Understanding the basics of HTML is required. Its not hard and there are many [free tutorials](https://www.w3schools.com/html/), but it does take some time.
-3. Keep the HTML formatting basic. Just focus on paragraphs, line breaks, headings, and links. Don't worry about fonts, colours, or other design elements - OJS will take care of all of that automatically as part of the overall journal design.
-4. Upload to OJS as an HTML galley file
+1. Convertissez le document Word. You can use this [free online tool](https://word2cleanhtml.com/) to do an initial conversion.
+2. Open the resulting HTML files in a text editor \(e.g., NotePad in Windows\) or HTML editor \(e.g., Adobe Dreamweaver\). À partir de là, vous devrez effectuer un nettoyage ou un formatage final. Comprendre les bases du HTML est nécessaire. Its not hard and there are many [free tutorials](https://www.w3schools.com/html/), but it does take some time.
+3. Gardez le formatage HTML basique. Concentrez-vous simplement sur les paragraphes, les sauts de ligne, les titres et les liens. Don't worry about fonts, colours, or other design elements - OJS will take care of all of that automatically as part of the overall journal design.
+4. Téléversez vers OJS en tant que fichier épreuve HTML
 
 Example \(see HTML link at bottom of the page\): [Forum Qualitative Sozialforschung](http://www.qualitative-research.net/index.php/fqs/article/view/2577)
 
 #### Creating ePUB Files
 
-Similar to HTML files, ePub files are ideal for mobile devices, but require specialized coding to create. Conversion tools are available, such as [Calibre](https://calibre-ebook.com/). More detailed HOW TO instructions for creating ePub files are [available here](https://www.wikihow.com/Convert-a-Word-Document-to-Epub).
+Similar to HTML files, ePub files are ideal for mobile devices, but require specialized coding to create. Des outils de conversion sont disponibles, tels que [Calibre](https://calibre-ebook.com/). Des instructions plus détaillées pour créer des fichiers ePub sont [disponibles ici](https://www.wikihow.com/Convert-a-Word-Document-to-Epub).
 
-Like HTML files, some additional cleanup may be required after conversion and [require some knowledge](http://www.jedisaber.com/eBooks/Introduction.shtml) of the format.
+Comme les fichiers HTML, un nettoyage supplémentaire peut être nécessaire après la conversion et [nécessite une certaine connaissance](http://www.jedisaber.com/eBooks/Introduction.shtml) du format.
 
 Example \(see EPUB link at bottom of the page\): [International Review of Research in Open and Distance Learning](http://www.irrodl.org/index.php/irrodl/article/view/2895)
 
@@ -747,21 +747,21 @@ Example \(see MP3 link at bottom of the page\): [International Review of Researc
 
 #### Creating XML Files
 
-Creating XML files is a very efficient way to publish in multiple formats. When you create an XML file, you can then automatically generate PDFs, HTML, ePub, and other formats. PKP is developing an XML conversion tool called the [Open Typesetting Stack](https://pkp.sfu.ca/open-typesetting-stack/), which is currently available in beta. You can also learn how to create XML files yourself. [Excellent tutorials](https://www.w3schools.com/xml/) are available online, but will require a significant time investment to become proficient.
+La création de fichiers XML est un moyen très efficace de publier dans plusieurs formats. Lorsque vous créez un fichier XML, vous pouvez ensuite générer automatiquement des PDF, HTML, ePub et d'autres formats. PKP is developing an XML conversion tool called the [Open Typesetting Stack](https://pkp.sfu.ca/open-typesetting-stack/), which is currently available in beta. You can also learn how to create XML files yourself. [Excellent tutorials](https://www.w3schools.com/xml/) are available online, but will require a significant time investment to become proficient.
 
 Example \(see XML link on top right of the page\): [Journal of Medical Research and Innovation](https://jmri.org.in/jmri/article/view/e000084)
 
-### Contact the Author
+### Contactez l'Auteur-e
 
 Next, you will want to share the PDF with the author for a final look and sign-off.
 
-To so, use the _Add Discussion_ link in the Production Discussion panel. This will open a new window.
+To so, use the _Add Discussion_ link in the Production Discussion panel. Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
 
 ![](./assets/learning-ojs-3-le-production-add-participant.png)
 
 Remember to add the author at the top of the window, and then add a subject and a message.
 
-Before sending, however, attach a copy of the PDF file using the _Upload File_ link. This will make it available to the author.
+Before sending, however, attach a copy of the PDF file using the _Upload File_ link. Cela le rendra disponible à l'auteur-e.
 
 ![](./assets/learning-ojs-3-le-production-add-participant-upload.png)
 
@@ -777,17 +777,17 @@ And then, you can upload additional files, if necessary.
 
 ![](./assets/learning-ojs-3-le-production-add-participant-upload3.png)
 
-Once you are done, hit **Complete**.
+Une fois que vous avez terminé, appuyez sur **Terminé** .
 
-The file is now attached and you can send the message using the **OK** button.
+Le fichier est maintenant joint et vous pouvez envoyer le message en utilisant le bouton **OK** .
 
 ![](./assets/learning-ojs-3-le-production-add-participant2.png)
 
-The Author has now been notified and you can await their response.
+L'auteur-e a maintenant été notifié et vous pouvez attendre sa réponse.
 
-### Author Response
+### Réponse de l'Auteur-e
 
-Once the author has had a chance to review the galleys and respond, you will receive an email notification and will see a reply in the Production Discussions.
+Une fois que l'auteur-e a eu la chance de revoir les épreuves et d'y répondre, vous recevrez une notification par courriel et verrez une réponse dans les discussions sur la production.
 
 ![](./assets/learning-ojs-3-au-production-message-reply.png)
 
@@ -809,17 +809,17 @@ From this window, choose the appropriate article componenet \(e.g., article text
 
 ![](./assets/learning-ojs-3-au-production-galleys-upload3.png)
 
-If necessary, change the filename. Hit **Continue**.
+Si nécessaire, modifiez le nom du fichier. Hit **Continue**.
 
 ![](./assets/learning-ojs-3-au-production-galleys-upload4.png)
 
-If you have more files, upload them now. Otherwise hit **Complete**.
+Si vous avez plus de fichiers, téléversez-les maintenant. Otherwise hit **Complete**.
 
-You can now see the galleys in the Galley panel.
+Vous pouvez maintenant voir les épreuves dans le panneau Épreuve.
 
 ![](./assets/learning-ojs-3-au-production-galleys-uploaded.png)
 
-You can make changes to the upload by selecting the blue arrow to the left of the galley label, which reveals options to edit, change the file, or delete.
+Vous pouvez apporter des modifications au téléversement en sélectionnant la flèche bleue à gauche du libellé de l'épreuve, qui révèle des options pour modifier, changer le fichier ou le supprimer.
 
 ### Add an Image to an HTML Galley
 
@@ -832,37 +832,37 @@ To upload the image file:
 4. Select **Image** as the **Article Component**
 5. Upload the image file
 6. Continue, review details, and confirm
-7. Click **Save**
+7. Cliquez sur **Enregistrer**
 
 To link to the image file you uploaded in the galley text, use the image tag with the file name - e.g., `<img src="filename.jpg">`. The HTML galley plugin should rewrite the address when the HTML document is shown.
 
-### Add the Article to a Category
+### Ajouter l'Article à une Catégorie
 
-If you use categories in your journal, you can optionally add the article to a category or categories. For instructions on how to create categories see [the Journal Settings chapter](./journal-setup.md). You can add the article to a category by editing its metadata.
+Si vous utilisez des catégories dans votre revue, vous pouvez éventuellement ajouter l'article à une ou plusieurs catégories. For instructions on how to create categories see [the Journal Settings chapter](./journal-setup.md). Vous pouvez ajouter l'article à une catégorie en modifiant ses métadonnées.
 
 1. Click Metadata from the top right menu.
 2. Scroll down to the Categories section and check off the categor(ies) you want to add the article to.
-3. Click Save.
+3. Cliquez sur Enregistrer.
 
 ![](./assets/learning-ojs3.1-add-to-category.png)
 
-### Inform the Section Editor
+### Informer le/le Rédacteur/trice de la Rubrique
 
-Finally, you will need to inform the Section Editor that the galleys have been completed. To do so, use the Production Discussion panel and choose the _Add Discussion_ link.
+Enfin, vous devrez informer le rédacteur de la rubrique que les épreuves sont terminées. To do so, use the Production Discussion panel and choose the _Add Discussion_ link.
 
 ![](./assets/learning-ojs-3-au-production-galleys-complete.png)
 
-Add the Section Editor to the top of the page, and then include a subject line and message. Hit **OK** to send the message.
+Ajoutez le rédacteur de la rubrique au haut de la page, puis incluez une ligne d'objet et un message. Appuyez sur **OK** pour envoyer le message.
 
-You can now see the final discussion.
+Vous pouvez désormais voir la discussion finale.
 
 ![](./assets/learning-ojs-3-au-production-galleys-discussions.png)
 
-### Section Editor Informs Editor
+### Le/La Rédacteur-trice de la Rubrique Informe Le/La Rédacteur-trice
 
-At this point, the Section Editor receives the notification from the Layout Editor and reviews the galley files.
+À ce stade, le/la rédacteur-trice de la rubrique reçoit la notification du/de la rédacteur-trice de mise en page et examine les fichiers épreuves.
 
-They can either ask the Layout Editor to make additional changes \(using the Production Discussions\) or inform the Editor that the galleys are ready for publication.
+Ils peuvent demander au/à la rédacteur-trice de mise en page d'apporter des modifications supplémentaires (en utilisant les discussions de production) ou informer le/la rédacteur-trice que les épreuves sont prêtes pour la publication.
 
 To inform the Editor, use the Production Discussion panel's _Add Discussion_ link.
 
@@ -886,4 +886,4 @@ You also have the option to add page numbers, permission, and licensing informat
 
 Hitting **Save** will publish the submission to the selected issue. If the issue is already published, the submission will be immediately available to readers. Otherwise the submission will not be published until the issue is published. See the [Issues chapter](./issues) for how to publish an issue.
 
-Congratulations! You have now come to the end of the editorial workflow.
+Toutes nos félicitations! You have now come to the end of the editorial workflow.
