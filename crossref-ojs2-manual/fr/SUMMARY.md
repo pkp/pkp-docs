@@ -1,4 +1,4 @@
-# Summary
+# Sommaire
 
 - [Introduction](.)
 - [Getting Started with DOIs](gettingStarted.md)
