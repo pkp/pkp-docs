@@ -122,7 +122,7 @@ You will not be able to self-register for an Editorial Role (e.g., Editor, Secti
 
 <hr />
 
-## Viewing and Changing your Profile
+## معاينة ملفك الشخصي وتعديله
 
 To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
 
@@ -138,7 +138,7 @@ Under **Notifications**, you can configure what kinds of notifications you recei
 
 The **API tab** on the user profile allows you to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
 
-## Resetting your Password
+## إعادة تعيين كلمة مرورك
 
 You can reset your password by:
 
