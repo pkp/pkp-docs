@@ -1,6 +1,6 @@
-# Summary
+# Sisällys
 
-* [Preface](.)
+* [Alkusanat](.)
 * [Chapter 1: Introduction](./introduction.md)
   * [System Background](./introduction.md#background)
   * [OJS Features](./introduction.md#ojs-features)
@@ -16,8 +16,8 @@
   * [Viewing and Changing your Profile](./user-accounts.md#viewing-and-changing-your-profile)
   * [Resetting your Password](./user-accounts.md#resetting-your-password)
 * [Chapter 4: Site Administration](./site-administration.md)
-  * [Site Management](./site-administration.md#site-management)
-  * [Administrative Functions](./site-administration.md#administrative-functions.md)
+  * [Rekisteröityminen](./site-administration.md#site-management)
+  * [Käyttäjäprofiilin muokkaus](./site-administration.md#administrative-functions.md)
 * [Chapter 5: Journal Settings](./journal-setup.md)
   * [Masthead](./journal-setup.md#masthead)
   * [Contact](./journal-setup.md#contact)
@@ -40,7 +40,7 @@
   * [Indexing](./settings-distribution.md#indexing)
   * [Access](./settings-distribution.md#access)
   * [Payments](./settings-distribution.md#payments)
-  * [Permissions](./settings-distribution.md#permissions)
+  * [Käsikirjoituksen lähetys](./settings-distribution.md#permissions)
 * [Chapter 9: Issues](./issues.md)
   * [Future Issues](./issues.md#future-issues)
   * [Back Issues](./issues.md#back-issues)
@@ -49,7 +49,7 @@
   * [Roles](./users-and-roles.md#roles)
   * [Site Access Options](./users-and-roles.md#site-access-options)
 * [Chapter 11: Tools](./tools.md)
-  * [Import & Export](./tools.md#importexport)
+  * [Rekisteröityminen julkaisuun](./tools.md#importexport)
   * [Report Generator](./tools.md#report-generator)
 * [Chapter 12: Subscriptions](./subscriptions.md)
   * [Subscription Policies](./subscriptions.md#subscription-policies)
