@@ -1,3 +1,6 @@
+- - -
+title: Style and Format - Guidelines for Contributing to PKP Documentation
+- - -
 # Style and Format
 
 ## Versioning and Updates
