@@ -1,4 +1,4 @@
-# Payments
+# خيارات الوصول في الموقع
 
 OJS includes a Payment module for charging various fees. Fees can be charged for author actions \(including fees for article submission, fast-track peer review, and article publication\); article access \(subscriptions and pay-per-view options\); and for donations and membership dues.
 
