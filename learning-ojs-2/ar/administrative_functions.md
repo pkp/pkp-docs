@@ -1,4 +1,4 @@
-# Administrative Functions
+# التسجيل في مجلة
 
 
 ### System Information
