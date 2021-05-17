@@ -56,7 +56,7 @@ Use the Request icon to send an **email** to the Reviewer (using an email templa
 ![Request Email](images/chapter8/section_9.png)
 
 
-By default, Reviewers will be provided with an extended text box to type in their comments. However, the Journal Manager can setup [Review Forms](https://docs.pkp.sfu.ca/learning-ojs-2/en/review_forms) allowing for more focused questions. Use the **Assign** **Review Form** link to provide a review form to this Reviewer.
+Par défaut, les Évaluateur seront fournis d'une large zone de texte pour écrire leur commentaires. However, the Journal Manager can setup [Review Forms](https://docs.pkp.sfu.ca/learning-ojs-2/en/review_forms) allowing for more focused questions. Use the **Assign** **Review Form** link to provide a review form to this Reviewer.
 
 
 ![Assign Review Form](images/chapter8/section_10.png)
