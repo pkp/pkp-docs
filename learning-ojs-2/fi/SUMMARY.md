@@ -1,6 +1,6 @@
-# Summary
+# Sisällys
 
-* [Introduction](.)
+* [Luku 1: Esittely](.)
 * [Chapter 1: Overview](overview.md)
   * [OJS Features](ojs_features.md)
   * [Viewing and Reading Overview](viewing_and_reading_overview.md)
@@ -22,7 +22,7 @@
   * [Sitewide Language Settings](sitewide_language_settings.md)
   * [Authentication Sources](authentication_sources.md)
   * [Categories](categories.md)
-  * [Administrative Functions](administrative_functions.md)
+  * [Käyttäjäprofiilin muokkaus](administrative_functions.md)
 * [Chapter 5: Journal Management](journal_management.md)
   * [Journal Management Pages](journal_management_pages.md)
     * [The Five-Step Setup Process](the_five_step_submission_process.md)
@@ -41,7 +41,7 @@
     * [Reading Tools](reading_tools.md)
     * [Statistics and Reports](statistics_and_reports.md)
     * [Payments](payments.md)
-    * [Subscriptions](subscriptions.md)
+    * [Luku 11: Toimittajat](subscriptions.md)
       * [Individual Subscriptions](individual_subscriptions.md)
       * [Institutional Subscriptions](institutional_subscriptions.md)
     * [System Plugins](system_plugins.md)
