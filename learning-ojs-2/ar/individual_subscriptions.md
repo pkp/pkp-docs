@@ -1,9 +1,9 @@
-# Individual Subscriptions
+# الإنتاج
 
 
 The Individual Subscriptions section allows you to see all individual subscribers, edit their accounts, and create new ones.
 
-![Individual Subscriptions](images/chapter5/sub_individual.png)
+![الإنتاج](images/chapter5/sub_individual.png)
 
 
 
