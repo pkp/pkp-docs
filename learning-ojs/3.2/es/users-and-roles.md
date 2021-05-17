@@ -15,7 +15,7 @@ To view the user accounts, select Users & Roles from the left menu.
 
 ![Users and Roles screen with list of journal users](./assets/learning-ojs3.1-jm-users.png)
 
-### Users
+### Usuarios/as
 
 Users are displayed in last name order.
 
