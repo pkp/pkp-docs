@@ -10,14 +10,14 @@ If your submission is In Editing, you can view its details in the Editing sectio
 ![Selecting Submission Editing](images/chapter6/author_editing_1.png)
 
 
-## Copyediting
+## Ajouter l'article à une édition
 
 
 
 In the next section, you can follow the copyediting process.
 
 
-![Copyediting](images/chapter6/author_editing_2.png)
+![Ajouter l'article à une édition](images/chapter6/author_editing_2.png)
 
 
   * Step 1: The journal's Copyeditor (Sarah Simpson) has made changes to the submission file. You can download a revised copy here from Initial Copyedit (e.g., 8-18-3-CE.DOCX).
@@ -29,7 +29,7 @@ In the next section, you can follow the copyediting process.
 
 
 
-## Layout Editing
+## Rédaction de la mise en page
 
 
 
