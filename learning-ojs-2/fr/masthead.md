@@ -1,4 +1,4 @@
-# Masthead
+# Bloc Générique
 
 The Masthead is used to list people associated with the journal. You can access this from the Journal Manager's Management Pages. The Masthead information will appear in About the Journal, under People.
 
@@ -19,7 +19,7 @@ To use the second option and choose which members display, on the Masthead page 
 
 
 
-![Masthead](images/chapter5/masthead.png)
+![Bloc Générique](images/chapter5/masthead.png)
 
 
 Next, select **Create a Position Title**. Fill out the title field; choose whether emails for this group will be publicly displayed; and choose whether the title will appear under the Editorial Team or under People on its own in About the Journal. It could be the position of a single person (e.g., Managing Editor) or of a group (e.g., Board Members).
