@@ -1,4 +1,4 @@
-# Subscriptions
+# Luku 11: Toimittajat
 
 If you have chosen the subscription option for your journal \(see Journal Setup [Step 4: Management](https://docs.pkp.sfu.ca/learning-ojs-2/en/step_four_management)\), a link to manage your subscriptions will appear on your Journal Management Pages menu.
 
