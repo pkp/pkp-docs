@@ -1,4 +1,4 @@
-# Plugins
+# إعدادات المخطط الانسيابي
 
 **Table of Contents**
 
