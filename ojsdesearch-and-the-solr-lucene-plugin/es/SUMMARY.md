@@ -1,6 +1,6 @@
-# Summary
+# Índice
 
-* [Introduction](.)
+* [Introducción](.)
   * [Project Background](./project-background.md)
   * [Structure of this Document](./structure-of-this-document.md)
 * [Project Requirements](./project-requirements.md)
