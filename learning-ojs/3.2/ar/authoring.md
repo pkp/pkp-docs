@@ -147,7 +147,7 @@ If you notice that the ‘Save’ button is grey and inactive, this means you wi
 
 <hr />
 
-## Responding to a Review
+## الاستجابة لالتماس التدقيق
 
 Once the review process has completed, you will be notified via email by the editor of their decision.
 
@@ -239,7 +239,7 @@ Congratulations! You've been accepted and your submission file is moving on to t
 
 <hr />
 
-## Resubmitting for Review
+## إعادة التقديم للتحكيم
 
 If the editor’s decision is to resubmit for review, you will need to log in and select the article in your submissions page. The resubmission is done in the review stage, there is no need to start a new submission.
 
@@ -253,7 +253,7 @@ The peer review process will be repeated, and you will likely receive additional
 
 <hr />
 
-## Responding to a Copyediting Request
+## الاستجابة لالتماس القراءة التصحيحية
 
 The next step in the workflow is to inspect your submission files that have been copyedited.
 
@@ -283,7 +283,7 @@ Your role in the copyediting process is now complete and you can wait for the re
 
 <hr />
 
-## Responding to a Proofreading Request
+## ./authoring.md#الاستجابة-لالتماس-التدقيق
 
 The next step in the workflow is to inspect your submission files that have been converted into galleys (e.g., PDF, HTML, etc.).
 
