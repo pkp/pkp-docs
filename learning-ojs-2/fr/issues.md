@@ -24,7 +24,7 @@ Finally, the Editor is the only person who can send out a notification email to 
 
 
 
-## Create Issue
+## Créer un numéro
 
 
 
@@ -32,7 +32,7 @@ Finally, the Editor is the only person who can send out a notification email to 
 
 To create an issue, you must select the Create Issue link. On the resulting page using the drop down menu, you will specify if you are creating a Current, Future or Back Issue.
 
-![Issue](images/chapter7/editor_issue_1.png)
+![Auteurs](images/chapter7/editor_issue_1.png)
 
 
 
@@ -57,7 +57,7 @@ The issue needs to be identified with the appropriate numbers and/or title, depe
 
 
 
-### Access
+### E-mails
 
 
 
