@@ -1,8 +1,8 @@
-# Summary
+# الملخص
 
-* [Introduction](.)
-* [Preface](preface.md)
-   * Introduction
+* [مقدمة](.)
+* [تمهيد](preface.md)
+   * مقدمة
        * [About Open Journal Systems](about_open_journal_systems.md)
    * About This Document
        * [Conventions](conventions.md)
@@ -14,7 +14,7 @@
        * [PHP Code](php_code.md)
        * [Database](database.md)
        * [Security](security.md)
-   * [Introduction](2_introduction.md)
+   * [مقدمة](2_introduction.md)
    * Request Handling
        * [A Note on URLs](a_note_on_urls.md)
        * [Request Handling Example](request_handling_example.md)
@@ -39,14 +39,14 @@
        * [Session Management](session_management.md)
        * [Template Support](template_support.md)
        * [Paging Classes](paging_classes.md)
-       * [Plugins](plugins.md)
+       * [إعدادات المخطط الانسيابي](plugins.md)
    * [Common Tasks](common_tasks.md)
        * [Sending Emails](sending_emails.md)
        * [Database Interaction with DAOs](database_interaction_with_daos.md)
 * [User Interface](user_interface2.md)
    * [Variables](variables.md)
    * [Functions & Modifiers](functions_and_modifiers.md)
-* [Plugins](plugins2.md)
+* [إعدادات المخطط الانسيابي](plugins2.md)
    * [Objects & Classes](objects_and_classes.md)
    * [Sample Plugin](sample_plugin.md)
        * [Loader Stub](loader_stub.md)
