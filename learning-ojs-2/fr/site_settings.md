@@ -1,7 +1,7 @@
-# Site Management
+# Rôles dans OJS
 
 
-# Site Settings
+# Paramètres du Site
 
 To change your site's title, any text on the home page, or your principal contact information, you will want to review your Site Settings.
 
@@ -12,12 +12,12 @@ From the Site Administration page, under the Site Management heading, choose **S
 
 ![Site Administration Menu](images/chapter4/site_admin.png)
 
-This will allow you to add information regarding your overall OJS installation, not individual journals. This includes the name of your site, an introductory statement about your site, a redirect option (leave this blank if you do not need to redirect users), a description of your site, contact information, a minimum password length for registered users, and indexing registration. You will have the opportunity to provide details about your individual journal(s) at a later stage.
+This will allow you to add information regarding your overall OJS installation, not individual journals. This includes the name of your site, an introductory statement about your site, a redirect option (leave this blank if you do not need to redirect users), a description of your site, contact information, a minimum password length for registered users, and indexing registration. Vous aurez la possibilité de fournir des détails sur vos revues à un stade ultérieur.
 
 
 
 
-![Site Settings](images/chapter4/sa_site_settings.png)
+![Paramètres du Site](images/chapter4/sa_site_settings.png)
 
 
 Below is a detailed breakdown of all options:
