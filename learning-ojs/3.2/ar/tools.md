@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Tools
+# الفصل 10: التأليف
 
 The Tools section can be accessed from the left sidebar menu.
 
@@ -97,7 +97,7 @@ To assign new DOIs to articles:
 3. Open Metadata on the top right and go to the Identifiers tab. You should see a preview of the DOI that will be assigned and a checked box next to "Assign the DOI to this article."
 4. Click Save and the DOI will be assigned.
 
-## Report Generator
+## الاشتراكات الفردية
 
 The Report Generator page provides access to a variety of reports from your journal.
 
@@ -119,7 +119,7 @@ Use this feature to build your own reports.
 
 More information on how to generate and manage statistics in OJS is provided in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
 
-## Permissions
+## تقديم مقالة
 
 The Reset Article Permissions tool allows you to reset the copyright statement and license information on all published articles, and will revert it to your journal's current default settings. Take caution when using this tool and consult legal expertise if you are unsure what rights you hold over the articles published in your journal.
 
