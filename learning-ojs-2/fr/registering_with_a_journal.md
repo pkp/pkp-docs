@@ -1,10 +1,10 @@
-# Registering with a Journal
+# Inscription à la Revue
 
-Unregistered visitors to a journal can normally register as a Reader, Author, and/or Reviewer. Journal Managers are able to remove the ability for visitors to self-register, in which case a notice will appear stating that registration is currently closed; see [Journal Setup Step 4](https://docs.pkp.sfu.ca/learning-ojs-2/en/step_four_management), but managers can always register users from the Journal Management Home page at any time, and for any role.
+Les visiteurs non enregistrés d'une revue peuvent normalement s'inscrire en tant que Lecteur/trice, Auteur et/ou Évaluateur/trice. Journal Managers are able to remove the ability for visitors to self-register, in which case a notice will appear stating that registration is currently closed; see [Journal Setup Step 4](https://docs.pkp.sfu.ca/learning-ojs-2/en/step_four_management), but managers can always register users from the Journal Management Home page at any time, and for any role.
 
 To register with a journal, click the Register link on the topmost navigation bar, select the journal you want to register with if asked, and fill out the ensuing **Registration Form**. You will not be able to self-register for an Editorial Role (Editor; Section Editor; Copyeditor; Layout Editor; Proofreader; Subscription Manager; or Journal Manager); if you need to be enrolled at that level, ask a current Journal Manager or Site Administrator.
 
-All fields with an asterisk beside them (Username; Password; Repeat Password; Validation; First Name; Last Name; Email; Confirm Email) are mandatory. If the journal is multilingual, you will need to select your preferred language.
+All fields with an asterisk beside them (Username; Password; Repeat Password; Validation; First Name; Last Name; Email; Confirm Email) are mandatory. Si le journal est multilingue, vous devrez sélectionner votre langue préférée.
 
 
 
