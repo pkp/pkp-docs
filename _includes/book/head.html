@@ -10,7 +10,7 @@
 {% if page.url %}
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 {% endif %}
-{% if page.indexed == "exclude" %}
+{% if page.noindex %}
 	<meta name="robots" content="noindex">
 {% endif %}
 <link type="text/css" href="/css/book.css" rel="stylesheet" media="all">

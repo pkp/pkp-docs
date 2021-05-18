@@ -1,5 +1,5 @@
 ---
-indexed: exclude
+noindex: true
 ---
 # Coalition Publica guide d'intégration d'application OJS
 

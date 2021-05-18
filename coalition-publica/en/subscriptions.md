@@ -1,5 +1,5 @@
 ---
-indexed: exclude
+noindex: true
 ---
 # Subscriptions and Non-Publishing Use of OJS
 

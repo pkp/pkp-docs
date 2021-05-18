@@ -1,5 +1,5 @@
 ---
-indexed: exclude
+noindex: true
 ---
 # Using JATS with OJS
 
