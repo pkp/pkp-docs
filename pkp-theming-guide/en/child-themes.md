@@ -63,7 +63,9 @@ Let's focus on the `init()` method.
 	}
 ```
 
-You can set a Parent Theme for this theme using the `setParent()` method. Let's make this theme a Child Theme of the Default Theme that ships with OJS 3.0+.
+You can set a Parent Theme for this theme using the `setParent()` method, which takes the plugin slug of the parent theme as an argument. The plugin slug is the parent theme's class, rendered in all lowercase. You can find the class in the parent theme's ```version.xml``` file.
+
+Let's make this theme a Child Theme of the Default Theme that ships with OJS 3.0+.
 
 ```php
 	/**
