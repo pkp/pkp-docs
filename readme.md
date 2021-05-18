@@ -123,6 +123,18 @@ The base URL, `/<any-book>/en`, should always be the current version so that any
 
 This structure doesn't yet support versioning separate language editions of documents. We can work on that when we need it.
 
+## Block search indexing
+
+To block indexing in search engines, add the following to the frontmatter in each `.md` file in a document:
+
+```
+---
+noindex: true
+---
+```
+
+This will add `<meta name="robots" content="noindex">` to each page.
+
 ## Generate REST API References
 
 The REST API references use [redoc](https://github.com/Redocly/redoc) to generate the human-readable documentation from an OpenAPI json file. To build the REST API references you will need a checkout of the application for the version you wish to generate a reference.
