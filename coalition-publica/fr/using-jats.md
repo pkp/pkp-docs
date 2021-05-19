@@ -1,3 +1,6 @@
+- - -
+noindex: true
+- - -
 # Utiliser JATS avec OJS
 
 Érudit utilise le format XML standardisé ​[JATS](https://jats.nlm.nih.gov/)​ pour récupérer les articles de votre instance OJS. L’utilisation de JATS est répandue pour la publication et l’indexation d’articles de revue. Toutefois, la création et l’utilisation de JATS peut s’avérer complexe. Il y a plusieurs façons de travailler avec JATS dans le contexte d’OJS.
@@ -39,11 +42,11 @@ Afin de fournir à Érudit des contenus au format JATS, vous devez avoir la vers
 
 Connectez-vous à votre instance OJS avec les paramètres de connexion de votre compte Administrateur.
 
-Allez dans Paramètres > Site Web > Modules externes.
+Allez dans Paramètres > Site Web > Modules externes
 
-Une liste des ​*plugins*​ disponibles pour installation sera affichée.
+Cliquez sur “Galerie de plugiciels”.
 
-This will show a list of available plugins for installation. Rechechez “OAI JATS Plugin”:
+Une liste des ​*plugins*​ disponibles pour installation sera affichée. Rechechez “OAI JATS Plugin”:
 
 ![](./assets/oaiJatsPlugin.png)
 
@@ -51,11 +54,11 @@ Cliquez sur “OAI JATS Plugin” pour afficher plus d’informations sur ce ​
 
 ![](./assets/oaiJatsPluginInfo.png)
 
-(Votre version du ​*plugin*​ pourrait être différente de celle indiqué ci-haut. Nous recommandons de toujours utiliser la dernière version du ​*plugin​* disponible dans la Galerie de plugiciels.)
+(Votre version du ​*plugin*​ pourrait être différente de celle indiqué ci-haut. Nous recommandons de toujours utiliser la dernière version du ​*plugin*​ disponible dans la Galerie de plugiciels.)
 
-Cliquez sur le bouton “Installer” afin d’installer le ​*plugin*​. (Si vous ne voyez pas le bouton “Installer”, assurez-vous d’être connecté en tant qu’Administrateur.) Confirmez que vous souhaitez bien installer le ​*plugin​*.
+Cliquez sur le bouton “Installer” afin d’installer le *​plugin*​. (Si vous ne voyez pas le bouton “Installer”, assurez-vous d’être connecté en tant qu’Administrateur.) Confirmez que vous souhaitez bien installer le ​*plugin*.​
 
-Vous devriez voir ce message confirmant l’installation:
+Vous devriez voir une notification confirmant l’installation:
 
 ![](./assets/oaiJatsPluginNotification.png)
 
@@ -69,7 +72,7 @@ Un coup les *​plugins*​ JATS Template Plugin et OAI JATS Plugin installés, 
 
 **Il faut activer les ​*plugins*​ une fois ​*pour chaque revue*​ que vous souhaitez inclure à Érudit.**
 
-Allez dans Paramètres > Site Web > Modules externes.
+Allez dans Paramètres > Site Web > Modules externes
 
 Cliquez sur “Plugiciels installés”.
 
@@ -85,7 +88,7 @@ Cherchez ensuite “JATS Metadata Format”:
 
 ![](./assets/jatsMetadataFormatPluginListing.png)
 
-Click the checkbox beside that to enable it as well. You should receive a confirmation:
+Click the checkbox beside that to enable it as well. Vous devriez voir ce message de confirmation:
 
 ![](./assets/jatsMetadataFormatPluginListingNotification.png)
 
@@ -106,7 +109,7 @@ Plusieurs paramètres de revue doivent être correctement configurés afin de pe
 
 ## Étape 5. Activer l’indexation des PDF
 
-Cette étape peut requérir l'aide de votre administrateur système puisqu'elle requiert l’accès à un fichier sur le serveur où votre instance OJS est installée.
+Cette étape peut requérir l’aide de votre administrateur système puisqu’elle requiert l’accès à un fichier sur le serveur où votre instance OJS est installée.
 * Assurez-vous que votre instance OJS connaisse l’emplacement de vos outils d’extraction de texte sur vos serveurs : vérifiez la section ​`[search]`​ de votre fichier ​`config.inc.php`​ pour vous assurer que les emplacements serveur de ces outils sont spécifiés.
 * Si vous avez dû modifier votre fichier ​`config.inc.php`​ pour activer l’indexation PDF, vous devrez également reconstruire votre index de recherche. Vous pouvez le faire en exécutant la commande suivante sur votre serveur, dans la racine Web OJS:
 
