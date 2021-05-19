@@ -31,6 +31,7 @@
   * [Translation](./utilities-translation)
   * Updates
   * [Validation](./utilities-validation)
+  * [Queues](./utilities-queues)
 * Other
   * [Email Templates](./email-templates)
   * [Publication Versions](./publication-versions)
