@@ -1,3 +1,6 @@
+- - -
+noindex: true
+- - -
 # Abonnements et utilisation d’OJS sans publication
 
 Si vous utilisez OJS pour publier du contenu requérant un abonnement ou si vous utilisez OJS pour la gestion éditoriale sans publier, une configuration supplémentaire est nécessaire afin de permettre à Érudit d’accéder à votre contenu. Il est également requis que votre instance OJS soit à la version ​**OJS 3.1.2-1 ou plus récente**​.
