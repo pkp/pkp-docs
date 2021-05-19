@@ -1,5 +1,6 @@
 ---
 isBookIndex: true
+noindex: true
 ---
 
 # Coalition Publica OJS Guide

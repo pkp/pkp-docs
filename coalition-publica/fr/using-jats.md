@@ -1,3 +1,6 @@
+---
+noindex: true
+---
 # Utiliser JATS avec OJS
 
 Érudit utilise le format XML standardisé ​[JATS](https://jats.nlm.nih.gov/)​ pour récupérer les articles de votre instance OJS. L’utilisation de JATS est répandue pour la publication et l’indexation d’articles de revue. Toutefois, la création et l’utilisation de JATS peut s’avérer complexe. Il y a plusieurs façons de travailler avec JATS dans le contexte d’OJS.

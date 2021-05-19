@@ -1,3 +1,6 @@
+---
+noindex: true
+---
 # Requirements
 
 In order to begin, you must be running ​**Open Journal Systems 3.1.0 or newer**, and preferably OJS 3.1.2+​. You must be able to install plugins, which requires server access or a Site Administrator role. (If you don’t have Site Administrator permissions, you can also request that the required plugins be installed by your Site Administrator or institutional service provider.)

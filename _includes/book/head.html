@@ -10,6 +10,9 @@
 {% if page.url %}
 	<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 {% endif %}
+{% if page.noindex %}
+	<meta name="robots" content="noindex">
+{% endif %}
 <link type="text/css" href="/css/book.css" rel="stylesheet" media="all">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Roboto+Mono:400,700" rel="stylesheet">
 <script defer src="https://unpkg.com/smooth-scroll@12.1.5/dist/js/smooth-scroll.polyfills.min.js"></script>
