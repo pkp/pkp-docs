@@ -15,7 +15,7 @@ Older versions of the documentation are accessible – via GitHub branches – f
 
 ## Images
 
-### Image format
+### Image Format
 
 Images are restricted to 848 pixels in width on display. Where possible, try to limit your file size by keeping your images below that width. The format should follow these guidelines:
 
@@ -30,6 +30,61 @@ When you take screenshots, do not include the menu and broader elements of the i
 ## Pronouns
 
 When using pronouns to refer to a generic user, use gender-neutral pronouns such as “they,” “their,” and “them.” Use “they” instead of “he” or “she.” Use “their” instead of “his” or “her.” Use “them” instead of “her” or “him.” Use “themselves” instead of “himself” or “herself.”
+
+## Accessible Hyperlinks
+
+Users who navigate using a screen reader must be able to unambiguously understand the purpose of the link and skip links they are not interested in. To achieve this, link text needs to be:
+
+- **Descriptive.** Provide URL text rather than adding plain URL. E.g.:
+
+    >Do not use: “Read about OJS plugins at [https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins)”.
+
+    >Use instead: “Read about OJS plugins in the [Learning OJS: plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins) section”.
+
+    When writing URL text, make sure it can be understood without additional context. E.g.:
+
+    >Do not use: “[Click here](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins) to read about OJS plugins”.
+
+    >Use instead: “More information is available in the [Learning OJS: plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins) section”.
+
+- **Concise.** Use keyword(s) as linked text rather than longer sentences. E.g.:
+
+    >Do not use: “More information is available in the [Learning OJS: plugins section which lists available OJS plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins)”.
+
+    >Use instead: “More information is available in the [Learning OJS: plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins) section”.
+
+- **Unique.** Avoid similarly named hyperlinks if they link to different places. E.g.:
+
+    >Do not use the generic “Learning OJS” for links referring to different sections of the guide.
+
+    >Use instead: “More information is available in the [Learning OJS: plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins) section”.
+
+## Order of Headings
+
+To facilitate navigation by tabbing or with a screen reader, headings should be used in hierarchical order, without skipping.
+Markdown headings correspond to HTML headings as follows:
+
+`<h1> = #`
+
+`<h2> = ##`
+
+`<h3> = ###`
+
+… etc.
+
+The headings are nested according to their rank or level. E.g. `<h1>` or `#` is the highest level in importance, followed by `<h2>` or `##` etc.
+
+Avoid skipping headings in a document structure to prevent confusion, even if you prefer the visual presentation. A `<h2>` must be followed by a `<h3>` as the next subheading in the same section. However, it is acceptable to have a `<h4>` followed directly by a `<h2>` when it opens a new section, as long as `<h4>` closes the previous one.
+
+Only one `<h1>` or `#` heading should be used per document, because it serves as the document title. Therefore most sections within a Docs Hub page will start with `<h2>` or `##`.
+
+## Linking to External Files
+
+When linking to external files not hosted in the Docs Hub, consider the following:
+
+- Where the license and file size allows, consider uploading the file to the Docs Hub and link to it there rather than to its external location, for continuity of access.
+- Where appropriate consider incorporating the external content into the Docs Hub page and citing the quote appropriately. This will improve accessibility and limit reliance on external pages.
+- If the external file format is not accessible, consider looking for an accessible alternative (e.g. a captioned video, etc.).
 
 ## Attribution
 
@@ -49,6 +104,7 @@ If documentation they contributed changes substantially over time, their names m
 - Try to anticipate problems and issues that the user might have. Explain how to overcome them.
 
 You can learn more about writing good docs with these resources:
+
 - [Documentation Guide by WritetheDocs](http://www.writethedocs.org/guide/)
 - [Mailchimp Content Style Guide](https://styleguide.mailchimp.com/writing-technical-content/)
 

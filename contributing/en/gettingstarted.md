@@ -13,35 +13,35 @@ If you don’t have a GitHub account already, begin by [creating an account](htt
 
 Each folder in the PKP Documentation Hub repository represents a document.
 
-![](./assets/Github-dash.png)
+![Docs hub folder structure in Github.](./assets/Github-dash.png)
 
 Short documents consist of a single markdown file and may have an “assets” folder of images. All content is contained in the `index.md` file and the table of contents on the side of the page is created using the header tags in markdown.
 
-![](./assets/index-file.png)
+![Index.md page of Starting a Journal document.](./assets/index-file.png)
 
 Longer documents consist of multiple chapter files, a README file, a SUMMARY file, and an assets folder. Content is stored in the chapter files and the README file acts as a summary page for the document. The SUMMARY file creates the table of contents.
 
 **All files created will need to have a .md ending**
 
-![](./assets/Github-dash-2.png)
+![Learning OJS guide folder structure.](./assets/Github-dash-2.png)
 
 If the document exists (or will exist) in more than one language, there will be a separate folder of these files for each language version.
 
-![](./assets/Github-dash-lang.png)
+![Learning OJS guide language folders.](./assets/Github-dash-lang.png)
 
 ### README File
 
 The README.md file should include a brief introduction regarding the document, a list of contributors, and a release date.
 
-![](./assets/Github-readme.png)
+![Readme file for the Using the Paypal Plugin guide.](./assets/Github-readme.png)
 
 ## Branches and Pull Requests
 
 A branch is a version of the repository that contains the changes you’ve proposed, uniquely. Since it is not part of "main", it won’t have an impact on the way the site is built in real-time.
 
-As most users will not have direct access to make changes to the PKP repository, they will need to create a branch to make changes. If you do not have full permission you will come across the message box below.
+As most users will not have direct access to make changes to the PKP repository, they will need to create a branch to make changes. If you do not have full permission you will come across the message box that says: "You're editing a file in a project you don't have write access to. Submitting a change to this file will write it to a new branch in your fork, so you can send a pull request".
 
-![](./assets/Github-notice.png)
+![Editing access warning message.](./assets/Github-notice.png)
 
 A branch can be created on your own repository or automatically generated when you try to make a change on the PKP repository.
 
@@ -85,7 +85,7 @@ Once you've installed GitHub desktop, you should have an option while viewing an
 2. Click on the green button on the right that says "Clone or Download."
 3. Select the "Open in Desktop" option.
 
-![](./assets/contrib-04.gif)
+![Press Clone or Download button and then Open in Desktop.](./assets/contrib-04.gif)
 
 GitHub desktop manages your commits and pull-requests locally. It's especially convenient if you're changing more than one file at once. If you have Atom installed, you can open your project with the editor directly from GitHub desktop.
 
@@ -93,11 +93,11 @@ GitHub desktop manages your commits and pull-requests locally. It's especially c
 2. Right click on the name of the repository in which you want to work.
 3. Select "Open in Atom."
 
-![](./assets/contrib-05.gif)
+![Open project from Github desktop.](./assets/contrib-05.gif)
 
 In Atom, the repository directory structure is accessible on the left-hand side in the "project window." Clicking on any title opens it in the editor and allow you to make changes. You'll notice labels next to the files as you work. Green indicates a new file you've added. Yellow indicates a file you've changed since the last time you pulled an update from the primary repository.
 
-![](./assets/contrib-06.png)
+![Folder structure in Atom.](./assets/contrib-06.png)
 
 If you are working on a project over time, you may want to regularly pull changes "from origin." You can do this in GitHub desktop by clicking on the "pull from origin" button near the top right of the window. It pulls changes since the last time you pulled them (or, since the time you cloned initially).
 
@@ -108,11 +108,11 @@ Once you make your edits with Atom and have a document you want to submit, you'l
 3. Write a concise name for your branch based on the doc you're submitting, with a single dash between words.
 4. Click "Create Branch."
 
-![](./assets/contrib-07.gif)
+![Create a branch menu in Github desktop.](./assets/contrib-07.gif)
 
 Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub desktop window, you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
 
-![](./assets/contrib-08.png)
+![Commit to master button in Github desktop.](./assets/contrib-08.png)
 
 The first field is for a very short descriptor of what you just changed. A few words should do the trick. Here are some examples:
 
