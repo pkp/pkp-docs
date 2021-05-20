@@ -56,10 +56,10 @@ Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust dir
 
 1. In the pkp-docs repository, click Create New File. You will create the new folder for the document as you create the file.
 2. Enter the name of the document folder and then /. This will automatically create the folder.
-- _Remember to follow naming conventions_. (e.g., if your document is a guide to ORCID, you could name it orcid-guide or orcid-plugin).
+   - _Remember to follow naming conventions_. (e.g., if your document is a guide to ORCID, you could name it orcid-guide or orcid-plugin).
 3. Enter the name of the file `index.md`.
-- A document-wide `index.md` file should contain a description of the document. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page.
- - At the top of your indexing file, include the following:
+   - A document-wide `index.md` file should contain a description of the document. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page.
+   - At the top of your indexing file, include the following:
 
 ```
 ---
@@ -99,13 +99,13 @@ New assets can be added before working on a document or after it has been comple
 
 To add assets to a document and assets folder:
 
-1. Add image code in the part of the document you would like this to appear in. To link to an image in the assets folder you will need to type `“![alt text](./assets/ image file name)”`
-    e.g., `![alt text](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
+1. Add image code in the part of the document you would like this to appear in, [including alt text](#alt-text-for-images). To link to an image in the assets folder you will need to type `“![alt text](./assets/ image file name)”`
+   - e.g., `![OJS 3.1 workflow settings components tab.](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
 2. Repeat this step as many times as needed.
 3. Create a draft pull request rather than opening  a pull request yet
 4. Upload assets into the assets folder
    - Go to the branch that has been created for this set of changes.
-   - Open the document folder followed by the language folder (if applicable)-
+   - Open the document folder followed by the language folder (if applicable)
    - Open the Assets folder
    - Click the Upload Files button
    - Click Choose Your Files
@@ -169,14 +169,11 @@ Informative images such as screenshots need to have alt text (“alternative tex
   
 ### Alt text good practices
 
--   Only add alt text for meaningful images, not for decorative ones (decorative images carry no information and serve no purpose other than aesthetics).
-    
--   Do not duplicate alt text if the same information is available in the image caption or right before/after the image.
-    
--   The recommended number of characters for alt text is 125 characters or less for compatibility with popular screen readers.
-- Don’t start alt-text with “Image of…” or “Screenshot of…”, as it’s usually apparent to the user that it’s an image and will be announced by their screen reader.   
-    
--   All alt text should end with a “.” so that the screen reader will pause after reading.   
+- Only add alt text for meaningful images, not for decorative ones (decorative images carry no information and serve no purpose other than aesthetics).
+- Do not duplicate alt text if the same information is available in the image caption or right before/after the image.
+- The recommended number of characters for alt text is 125 characters or less for compatibility with popular screen readers.
+- Don’t start alt-text with “Image of…” or “Screenshot of…”, as it’s usually apparent to the user that it’s an image and will be announced by their screen reader.
+- All alt text should end with a “.” so that the screen reader will pause after reading.
 
 For further instructions and examples see [WebAim’s Alternative Text guide](https://webaim.org/techniques/alttext/).
 
