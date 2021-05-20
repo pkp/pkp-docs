@@ -18,7 +18,7 @@ If you want to edit existing documentation or add a section or chapter to existi
 6. Click that button to open up a plain text editor for the document within GitHub itself.
 7. Edit the document.
 
-![](./assets/contrib-01.gif)
+![File edit menu in Github.](./assets/contrib-01.gif)
 
 If your edits requires you to replace or add images, see section on Adding/Replacing images.
 
@@ -63,9 +63,10 @@ Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust dir
 
 1. In the pkp-docs repository, click Create New File. You will create the new folder for the document as you create the file.
 2. Enter the name of the document folder and then /. This will automatically create the folder.
-- _Remember to follow naming conventions_. (e.g., if your document is a guide to ORCID, you could name it orcid-guide or orcid-plugin).
+   - _Remember to follow naming conventions_. (e.g., if your document is a guide to ORCID, you could name it orcid-guide or orcid-plugin).
 3. Enter the name of the file `index.md`.
-- A document-wide `index.md` file should contain a description of the document. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page. - At the top of your indexing file, include the following:
+   - A document-wide `index.md` file should contain a description of the document. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page.
+   - At the top of your indexing file, include the following:
 
 ```
 ---
@@ -133,7 +134,7 @@ The first link should be for the Introduction in the README file:
 * [Introduction](.)
 ```
 
-![](./assets/contrib-summary-md-file.png)
+![Summary file for the Learning OJS 3 guide.](./assets/contrib-summary-md-file.png)
 
 ## Adding/Replacing images
 
@@ -152,12 +153,13 @@ New assets can be added before working on a document or after it has been comple
 
 To add assets to a document and assets folder:
 
-1. Add image code in the part of the document you would like this to appear in. To link to an image in the assets folder you will need to type `“![](./assets/ image file name)”` e.g., `![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
+1. Add image code in the part of the document you would like this to appear in, [including alt text](#alt-text-for-images). To link to an image in the assets folder you will need to type `“![alt text](./assets/ image file name)”`
+   - e.g., `![OJS 3.1 workflow settings components tab.](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
 2. Repeat this step as many times as needed.
 3. Create a draft pull request rather than opening  a pull request yet
 4. Upload assets into the assets folder
    - Go to the branch that has been created for this set of changes.
-   - Open the document folder followed by the language folder (if applicable)-
+   - Open the document folder followed by the language folder (if applicable)
    - Open the Assets folder
    - Click the Upload Files button
    - Click Choose Your Files
@@ -166,7 +168,7 @@ To add assets to a document and assets folder:
    - Commit your changes directly to the branch you have been working in
    - Change the status of your draft pull request
 
-![](./assets/draft-PR.png)
+![This pull request is still a work in progress notice.](./assets/draft-PR.png)
 
 ### Replacing Images
 
@@ -176,9 +178,9 @@ First, take the new screenshot and update the link to the screenshot in the docu
 
 1. Take the new screenshot and save it
 2. Before you save the new screenshot, find the link in the document to the old screenshot. It may look something like this:
-   - `![](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
+   - `![alt text](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
 3. If you’re doing a version update, change the version number in the file name. You would change the above example link to say the following:
-    - `![](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)`
+    - `![alt text](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)`
 4. Copy the part of the link that comes after the last / and before the file type extension - e.g., `learning-ojs3.2-jm-settings-workflow-comp`
 5. Go to the new screenshot you just took and save as. Paste the file name you copied in the last step and save the screenshot in a special folder on your desktop.
 6. Continue editing the document and save any additional screenshots you take in the same folder and naming them in the same way. Create a draft pull request rather than opening a pull request yet Once you are finishing editing the document, describe your changes at the bottom of the document and click Propose File Change. This will add your changes to a branch. The next page will show Comparing Changes. Create a draft pull request rather than opening  a pull request yet. You will upload your screenshot files to the new branch before making a pull request.
@@ -192,21 +194,49 @@ First, take the new screenshot and update the link to the screenshot in the docu
    - Commit your changes directly to the branch you have been working in
    - Change the status of your draft pull request
 
-![](./assets/draft-PR.png)
+![This pull request is still a work in progress notice.](./assets/draft-PR.png)
 
 ### Deleting Images
 
 If you’ve replaced images and there is no longer a use for the previous saved asset, the old assets can now be deleted. Before deleting the old assets, look through the chapter to make sure that these are not being used in other sections of the document. If so, update the other links with the new file name. You can then delete the old assets from your branch and create a pull request.
 
+## Texto alternativo para imagens
+
+Informative images such as screenshots need to have alt text (“alternative text”). Alt text is a machine-readable tag that describes an image in words if the image cannot be viewed for any reason, including slow internet connection, error in the HTML code, or the use of assistive technology.
+
+### Alt text format
+
+`![alt text](./assets/ image file name)`
+
+#### Alt text example 1
+
+`![OJS 3.3 new article notification screen.](./assets/learning-ojs3.3-new-notification.png)` ![OJS 3.3 new article notification screen.](./assets/learning-ojs3.3-new-notification.png)
+
+#### Alt text example 2
+
+`![Creative Commons license types arranged from the most free to the least free.](./assets/journal-policies-cc-licenses.png)`
+
+![Creative Commons license types arranged from the most free to the least free.](./assets/journal-policies-cc-licenses.png)
+
+### Alt text good practices
+
+- Only add alt text for meaningful images, not for decorative ones (decorative images carry no information and serve no purpose other than aesthetics).
+- Do not duplicate alt text if the same information is available in the image caption or right before/after the image.
+- O número recomendado de caracteres para texto alternativo é 125 caracteres ou menos para compatibilidade com leitores de tela populares.
+- Don’t start alt-text with “Image of…” or “Screenshot of…”, as it’s usually apparent to the user that it’s an image and will be announced by their screen reader.
+- Todo texto alternativo deve terminar com “.” para que o leitor de tela faça uma pausa após a leitura.
+
+For further instructions and examples see [WebAim’s Alternative Text guide](https://webaim.org/techniques/alttext/).
+
 ## Creating Assets Folder
 
 To create an asset folder within the document branch, you will need to create a new file by clicking ‘Create new file’ in your repository.
 
-![](./assets/create-assets-folder.png)
+![Document screen with create new file button pointed out.](./assets/create-assets-folder.png)
 
 This will prompt you to another page where you can edit a new file. On the top you will see:
 
-![](./assets/create-file-name.png)
+![Name your file form field.](./assets/create-file-name.png)
 
 Here you will enter the main document folder and the subsequent folders. This will vary depending on whether you are creating an asset folder for a single on multi-page document.
 
@@ -214,41 +244,41 @@ Begin by entering the main folder name followed by ‘/’. You will do this unt
 
 Multi-page Example:
 
-![](./assets/create-file-name-multi.png)
+![Name your file form field for a multi-page document.](./assets/create-file-name-multi.png)
 
 For this example, I have created an assets folder within the en folder of learning-ojs.
 
 Single-page example:
 
-![](./assets/create-file-name-single.png)
+![Name your file form field for a single-page document.](./assets/create-file-name-single.png)
 
 As Github will not allow you to create a blank folder, you will need to create a document in the asset folder. Remember that document pages need to end with ‘.md’
 
 This can be labelled as anything, as it will be deleted after you’ve uploaded your assets. Enter some text into the textbox and commit the change to the file.
 
-![](./assets/create-file-holder.png)
+![Commit new file screen.](./assets/create-file-holder.png)
 
 You should find your newly created assets folder within the main document folder. Click upload files on the top right corner.
 
-![](./assets/create-file-upload.png)
+![Assets folder with the upload files button pointed out.](./assets/create-file-upload.png)
 
 Add your assets using drag and drop or by clicking ‘choose your files’
 
-![](./assets/create-file-upload2.png)
+![Files drag and drop screen.](./assets/create-file-upload2.png)
 
 Once you’ve uploaded assets into your assets folder you can go ahead and delete the holder document file you created, by clicking the file name followed by trash can icon on the top right corner.
 
-![](./assets/create-file-remove-holder.png)
+![Holder screen with the trash can icon pointed out.](./assets/create-file-remove-holder.png)
 
 ## Creating a Pull Request
 
 Once you’ve completed the made edits to the file, you will scroll down and fill the information in the text boxes and click ‘Propose file change’.
 
-![](./assets/create-PR-1.png)
+![Propose file change screen.](./assets/create-PR-1.png)
 
 This will bring you to another page that compares the changes you’ve made.
 
-![](./assets/create-PR-compare.png)
+![Comparing changes screen with compare:patch-16 button pointed out.](./assets/create-PR-compare.png)
 
 The fourth box (highlighted in red) is the branch that’s automatically created by Github.
 
@@ -256,7 +286,7 @@ Click ‘Create pull request.’
 
 This page is where you would enter a more detailed description of what you changed. You might want to do this if you need to justify your changes or need to let everyone else know that a change is significant.
 
-![](./assets/create-open-PR.png)
+![Open a pull request screen.](./assets/create-open-PR.png)
 
 In this final page, you also have the option to create your pull request or create a draft pull request. A pull request indicates that you have completed your changes and lets the PKP team members know to review your changes. Meanwhile, a draft pull request allows you to continue to make changes.
 
@@ -266,22 +296,22 @@ In this final page, you also have the option to create your pull request or crea
 
 Once you’ve created a draft pull request, you can continue making changes to the document you’re working on at any time. It will be important to note which branch is created for that particular document, especially if you have multiple branches in your repository.
 
-![](./assets/Github-dash-branch-menu.png)
+![Repository screen with switch branches drop-down open.](./assets/Github-dash-branch-menu.png)
 
 Again, the branch that has been created will be listed on the forth box in the Comparing changes page when generating a pull request.
 
-![](./assets/create-branch-name.png)
+![Comparing changes screen with compare:patch-16 button pointed out.](./assets/create-branch-name.png)
 
 You can also find out the branch by looking at the PKP Repository, pull request tab. Any active pull requests made can be found in the pkp repository page under pull request. Here you will find both draft pull requests and pull requests made.
 
-![](./assets/pkp-docs-PR.png)
+![Pull requests tab](./assets/pkp-docs-PR.png)
 
 From your own repository, you will want to select the correct branch and continue making the changes to the document. After making these changes and providing the details of the changes in the textbox. You will want to select the first option to ‘Commit directly to the branch’.
 
-![](./assets/PR-Commit-changes-to-branch.png)
+![Commit changes screen with commit directly to the branch option selected.](./assets/PR-Commit-changes-to-branch.png)
 
 You will repeat this step until you’ve complete making your changes.
 
 Once you’ve completed making the changes to your document. You can now go back to the draft pull request you created and click ‘Ready for Review.’
 
-![](./assets/PR-ready-review.png)
+![Pull requests tab with a pull request ready for review.](./assets/PR-ready-review.png)
