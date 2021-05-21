@@ -96,6 +96,8 @@ Note: Be cautious when deleting published items from your site. Once items are p
 
 You may want to disable submissions if your journal is no longer publishing or you only use OJS to publish your content.
 
-To disable new submissions to the journal, you will need to be in the Journal Manager role. You can do this by restricting section submitters, as described in the [Learning OJS 3 guide: Journal Settings > Sections](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#restrict-section-submitters).
+To disable new submissions to the journal, you will need to be in the Journal Manager role. 
 
-Improvements to the ability to close and control submissions will be available in OJS/OMP/OPS 3.3. See [the "Ability to disable submissions in OJS3" issue on GitHub for more details](https://github.com/pkp/pkp-lib/issues/5702).
+If you are using OJS 3.0, 3.1, or 3.2, you can do this by restricting section submitters, as described in the [Learning OJS 3 guide: Journal Settings > Sections](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#restrict-section-submitters).
+
+If you are using OJS 3.3 or newer you can more easily disable submissions to the journal as a whole and to particular sections. See [the Workflow Settings chapter of Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#disable-submissions).
