@@ -52,7 +52,7 @@ Only authenticated users can access the REST API endpoints. Authentication can b
 
 Cookie-based authentication can be used when you are making a request from the same domain name as the application. When a request is made from the user's browser, the browser will send the cookies to the server.
 
-A CSRF token must be sent with every `POST`, `PUT` or `DELETE` request when using cookie-based authentication. Read more about the [CSRF Token](http://localhost:4000/dev/ui-library/dev/#/pages/csrf).
+A CSRF token must be sent with every `POST`, `PUT` or `DELETE` request when using cookie-based authentication. Read more about the [CSRF Token](https://docs.pkp.sfu.ca/dev/documentation/en/architecture-authentication#csrf-tokens).
 
 ### API Token
 
