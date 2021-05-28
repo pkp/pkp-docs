@@ -1,4 +1,8 @@
-# Using the ORCID plugin
+---
+title: How to Use the ORCID Plugin in OJS and OPS
+---
+
+# Using the ORCID Plugin
 
 Now that you have [obtained ORCID credentials, enabled and set up the plugin](./installation-setup.md), you can start using it in your journal / preprint server.
 
