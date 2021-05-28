@@ -1,4 +1,8 @@
-# Set Up the ORCID plugin
+---
+title: How to Set Up the ORCID Plugin in OJS and OPS
+---
+
+# Set Up the ORCID Plugin
 
 To use the plugin, you will first need to obtain either Public or Member ORCID API credentials (Client ID and Client Secret) and then configure the ORCID plugin in OJS/OPS with this information. 
 
