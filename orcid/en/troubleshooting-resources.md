@@ -1,3 +1,7 @@
+---
+title: Troubleshooting the ORCID Plugin for OJS and OPS
+---
+
 # Troubleshooting
 
 ## Make sure your plugin is up to date
