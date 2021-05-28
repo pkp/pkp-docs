@@ -4,9 +4,9 @@ Please note that OJS 2 is no longer maintained or supported by PKP, but some res
 
 ## OJS 2 Resources
 
-The Open Journal Systems platform has a help document that is contextually embedded within itself, with the relevant pages displayed depending on the page you are currently viewing. You can find this context-sensitive help by clicking the Journal Help link (typically located on the right navigation bar).
+The Open Journal Systems platform has a help document that is contextually embedded within the application, with the relevant pages displayed depending on the page you are viewing. You can find this context-sensitive help by clicking the Journal Help link, typically located on the right navigation bar, within OJS 2.
 
-You will find relevant documentation on our [OJS Documentation](https://docs.pkp.sfu.ca) page. The [PKP School](http://pkpschool.sfu.ca/) offers self-paced courses for journal managers, editors, authors and reviewers, and many of these videos are also available on the [PKP YouTube](https://www.youtube.com/user/PublicKnowledgeProj/) page.
+You will find relevant documentation on our [Documentation Hub](https://docs.pkp.sfu.ca) page. The [PKP School](http://pkpschool.sfu.ca/) offers self-paced courses for journal managers, editors, authors and reviewers, and many of these videos are also available on the [PKP YouTube](https://www.youtube.com/user/PublicKnowledgeProj/) page.
 
 Our [support forum](https://forum.pkp.sfu.ca/) is a place you can search for past answers to questions. Please note that OJS 2 is no longer supported by the PKP team. The [old forum](http://wayback.archive-it.org/7100/20160819234652/https:/pkp.sfu.ca/support/forum/index.php) is also available as an archive.
 
