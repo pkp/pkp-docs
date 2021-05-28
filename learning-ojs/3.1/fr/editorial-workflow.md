@@ -27,7 +27,7 @@ Certaines soumissions ne passeront pas le stade d'évaluation et se termineront 
 
 Vos tâches sont disponibles dans le menu en haut à gauche de votre tableau de bord. Notez le nombre "1" dans l'image ci-dessous. Cela indique qu'il y a actuellement 1 tâche dans votre liste.
 
-![](./assets/learning-ojs3.1-ed-tasks.png)
+![The expanded Tasks menu in OJS.](./assets/learning-ojs3.1-ed-tasks.png)
 
 Les tâches fournissent un aperçu rapide des éléments qui nécessitent votre attention. Les entrées en gras ne sont pas lues et les entrées qui ne sont pas en gras ont été lues.
 
@@ -45,7 +45,7 @@ Pour permettre l'envoi de copies de l'email confirmant la soumission au contact 
 3. Cochez la case "Envoyer une copie au contact principal, identifié dans les paramètres de revue." si vous souhaitez qu'une copie soit envoyée à l'adresse email du contact principal, et/ou
 4. Entrez l'email auquel vous souhaitez recevoir une copie dans le champ de texte.
 
-![](./assets/learning-ojs3.1-configure-submission-notification.png)
+![The Notification of Author Submission settings in OJS.](./assets/learning-ojs3.1-configure-submission-notification.png)
 
 Si vous souhaitez désactiver l'envoi d'emails confirmant la soumission, vous pouvez faire cela en désactivant le modèle d'email *Acusé de Soumission* de la liste des modèles d'email préparés. To learn more about disabling and enabling email templates, refer to *Disable email templates* in the [Workflow Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings).
 
@@ -55,7 +55,7 @@ Les utilisateurs peuvent aussi modifier leurs paramètres de notification indivi
 
 When you log into your Dashboard, you can find active submissions either from your Tasks, or from one of the queues \(My Queue, Unassigned, All Active, and Archives\).
 
-![](./assets/learning-ojs3.1-ed-dashboard-active.png)
+![The submission dashboard in OJS.](./assets/learning-ojs3.1-ed-dashboard-active.png)
 
 ### Mes Soumissions
 
@@ -65,17 +65,17 @@ L'outil de **Recherche** pour chaque file de Mes Soumissions peut parfois être 
 
 The **Filter** tool allows you to limit your browsing to specific status \(e.g., incomplete, overdue\) stages \(submission, review, copyediting, production\), or sections \(e.g., articles, reviews\) for faster searching.
 
-![](./assets/learning-ojs3.1-ed-dashboard-filter.png)
+![A sample filter applied to the list of submissions.](./assets/learning-ojs3.1-ed-dashboard-filter.png)
 
 Notez que vous pouvez utiliser les flèches bleues à droite de chaque soumission pour révéler plus de détails, y compris le nombre d'évaluations exceptionnelles, les nouvelles discussions, etc. Elles révèlent aussi des boutons vous permettant d'accéder à l'enregistrement de soumission, d'afficher le journal d'activité et les notes, et de supprimer la soumission.
 
-![](./assets/learning-ojs3.1-ed-dashboard-active-details.png)
+![A sample of expanded submission details in the dashboard.](./assets/learning-ojs3.1-ed-dashboard-active-details.png)
 
 ### Non Affectées
 
 Dans l'exemple ci-dessus, il n'y a pas de soumissions non affectées, le panneau est donc vide.
 
-![](./assets/learning-ojs3.1-ed-dashboard-unassigned.png)
+![The Unassigned tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-unassigned.png)
 
 In the above example, there are no unassigned submissions, so the panel is empty.
 
@@ -83,35 +83,39 @@ In the above example, there are no unassigned submissions, so the panel is empty
 
 Cette section comprend une liste de toutes les soumissions soit rejetées ou déjà publiées par la revue.
 
-![](./assets/learning-ojs3.1-ed-dashboard-all-active.png)
+![The All Active tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-all-active.png)
 
-### Archived
+### Archivées
 
 This section includes a list of all submissions either rejected or already published by the journal.
 
-![](./assets/learning-ojs3.1-ed-dashboard-archive.png)
+![The Archives tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-archive.png)
 
 ### Soumission de Démonstration
 
 For this demonstration, we are looking for the Williamson and Serletis submission, entitled _The Official Knowledge and Adult Education Agents_. Elle se trouve en haut de la file d'attente **Soumissions qui me sont Assigné** , ainsi que dans la file **Toutes Actives** .
 
-![](./assets/learning-ojs3.1-ed-dashboard-active.png)
+![The submission dashboard in OJS.](./assets/learning-ojs3.1-ed-dashboard-active.png)
 
 Once you find the submission, you can use the blue arrow to reveal options to see if there are any open discussion \(there are none\), as well as to view the submission, view the activity logs and note, or to delete the submission.
 
-![](./assets/learning-ojs3.1-ed-submission-details.png)
+![The expanded options for a submission.](./assets/learning-ojs3.1-ed-submission-details.png)
 
 **Delete** will completely remove the submission and all submission files from your journal. If you want to keep a record of the submission, it is better to **Decline** it, which will move the submission to the Archive.
 
 **Envoyer pour Évaluation**: fait passer la soumission au stade suivant.
 
-![](./assets/learning-ojs3.1-ed-dashboard-log.png)
+![A sample activity log for a submission](./assets/learning-ojs3.1-ed-dashboard-log.png)
+
+**Journal d'Activité**: où vous pouvez afficher l'historique et toutes les notes sur la soumission.
+
+![The Notes tab of the Activity log.](./assets/learning-ojs-3-ed-submissions-notes.png)
 
 ### Enregistrement de Soumission
 
 Pour afficher la soumission plus en détail, sélectionnez le bouton **Afficher la Soumission**. Cela vous mènera à l'enregistrement de la soumission.
 
-![](./assets/learning-ojs3.1-ed-dashboard-record.png)
+![A sample submission record.](./assets/learning-ojs3.1-ed-dashboard-record.png)
 
 De là, vous pouvez voir:
 
@@ -129,31 +133,23 @@ En plus, dans la barre bleue en haut, vous pouvez voir:
 
 **Métadonnées**: où vous pouvez afficher et réviser les métadonnées de soumission.
 
-![](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
+![The Metadata tab of a submission.](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
 
 Use the Identifiers tab to also view or add a unique identifier.
 
-![](./assets/learning-ojs-3-ed-submissions-identifiers.png)
-
-**Editorial History**: Where you can view the history and any notes about the submission.
-
-![](./assets/learning-ojs3.1-ed-dashboard-log.png)
-
-**Journal d'Activité**: où vous pouvez afficher l'historique et toutes les notes sur la soumission.
-
-![](./assets/learning-ojs-3-ed-submissions-notes.png)
+![The Identifiers tab.](./assets/learning-ojs-3-ed-submissions-identifiers.png)
 
 **Bibliothèque de Soumission** : La Bibliothèque de Soumission est une zone de stockage générale pour les documents qui peuvent inclure des formulaires de conflit d'intérêts, des épreuves d'approbation de fichiers, etc. Un-e utilisateur/trice peut télécharger le formulaire rempli pour son manuscrit dans sa Bibliothèque de Soumission. Les formulaires téléchargés seront également disponibles pour les autres participants (à l'exception des Évaluateurs) affectés tout au long du flux des travaux éditoriaux ou de production pour modifier ou télécharger à nouveau de nouvelles versions.
 
 **Document Library**: Users throughout the editorial workflow will be able to access all the files in the Publisher Library (see [Workflow Settings chapter](./settings-workflow.md)) made available by the Journal Manager or Editor through opening the Submission Library and clicking "View Document Library."
 
-![](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
+![The location of the View Document Library button in the Submission Library panel.](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
 
 ### Affecter la Soumission
 
 Selon la façon dont vous avez configuré vos sections, quelques nouvelles soumissions peuvent être non affectées. Si tel est le cas, la prochaine étape consiste à affecter un(e) rédacteur/trice ou un(e) rédacteur/trice de section. Pour ce faire, sélectionnez le lien *Affecter* dans le panneau **Participants** .
 
-![](./assets/learning-ojs-3-ed-submissions-add-participant.png)
+![The Add Participants window.](./assets/learning-ojs-3-ed-submissions-add-participant.png)
 
 Vous aurez la possibilité de localiser un(e) utilisateur/trice par rôle, de choisir une personne, et de lui envoyer un message demandant son assistance.
 
@@ -161,7 +157,7 @@ Vous aurez la possibilité de localiser un(e) utilisateur/trice par rôle, de ch
 
 Vous pouvez maintenant voir que le/la Rédacteur/trice de section est listé sous Participants et que les boutons Action sont disponibles:
 
-![](./assets/learning-ojs3.1-ed-dashboard-record-assign.png)
+![The added participants name shown in the participants list.](./assets/learning-ojs3.1-ed-dashboard-record-assign.png)
 
 > Notez la nouvelle discussion de Pré-Évaluation qui a été automatiquement créée dans le cadre de l'affectation.
 
@@ -179,11 +175,11 @@ Although in this example, the editor assigned a section editor, it would also be
 
 Maintenant que le/la Rédacteur/trice de Section a été affecté, ils peuvent se connecter et afficher leur tableau de bord. La soumission se trouve en haut de la file d'attente Soumissions qui me sont Assigné.
 
-![](./assets/learning-ojs3.1-se-dashboard.png)
+![The My Assigned queue of a Section Editor with assigned submissions.](./assets/learning-ojs3.1-se-dashboard.png)
 
 Ceci n'est pas nécessaire, mais le/la Rédacteur/trice de section peut répondre à la Discussion de Pré-Évaluation pour informer le/la Rédacteur/trice qu'il va travailler sur l'affectation.
 
-![](./assets/learning-ojs3.1-se-record.png)
+![A sample submission record.](./assets/learning-ojs3.1-se-record.png)
 
 #### Accepter l'Affectation
 
@@ -197,7 +193,7 @@ Si le/la Rédacteur/trice de Section a des questions pour l'auteur, il peut util
 
 Gardez les fichiers à évaluer cochés.
 
-![](./assets/learning-ojs3.1-se-record-sendReview.png)
+![The Send to Review confirmation window.](./assets/learning-ojs3.1-se-record-sendReview.png)
 
 Lorsque la soumission passe au Stade d'Évaluation, une notification indique que des Évaluateurs doivent être affectés.
 
@@ -207,7 +203,7 @@ Lorsque la soumission passe au Stade d'Évaluation, une notification indique que
 
 Dans le panneau Évaluateurs, vous pouvez sélectionner Ajouter un-e Évaluateur/trice pour affecter un-e nouveau/velle Évaluateur/trice.
 
-![](./assets/learning-ojs3.1-se-record-revstage.png)
+![The "Waiting for reviewers to be assigned" notification.](./assets/learning-ojs3.1-se-record-revstage.png)
 
 > Remarque: dans la capture d'écran ci-dessus, nous voyons la vue de le/la Rédacteur/trice de Section. Notez les boutons d'action limités (seul l'option Faire une Recommandation est disponible). If we were logged in as an Editor, we would see more Action buttons \(Request Revisions, Resubmit for Review, Send to Copyediting, Decline Submission\).
 
@@ -215,13 +211,13 @@ From the Reviewers panel, you can select Add Reviewer to assign a new Reviewer.
 
 Cela ouvre une nouvelle fenêtre, où les Évaluateurs sont listés et peuvent être sélectionnés un par un.
 
-![Locate reviewer screenshot OJS 3.1.2](./assets/learning-ojs-3.1.2-locate-reviewer.png)
+![The Locate a Reviewer window listing all Reviewers.](./assets/learning-ojs-3.1.2-locate-reviewer.png)
 
 En cliquant sur la flèche bleue, vous obtiendrez plus d'informations sur l'historique de leurs Évaluations, y compris le nombre d'Évaluations actives qui leur sont actuellement affectées, le nombre d'Évaluations qu'ils ont terminées ou refusées, etc. Si l'utilisateur/trice a ajouté une biographie ou des centres d'intérêt d'Évaluation, ces informations seront affichées ici.
 
 De plus, le/la Rédacteur/trice de la Revue peut ajouter une Note Éditoriale à propos de l'Évaluateur/trice dans son profil sous Utilisateurs et Rôles > Utilisateurs. Cette note apparaîtra dans les détails de l'Évaluateur/trice sur l'écran Ajouter un-e Évaluateur/trice, mais ne sera pas visible par l'Évaluateur/trice ni par le public.
 
-![Reviewer details screenshot OJS 3.1.2](./assets/learning-ojs-3.1.2-add-reviewer.png)
+![A sample of expanded reviewer details with review history and notes.](./assets/learning-ojs-3.1.2-add-reviewer.png)
 
 Dans les versions OJS 3.0 à 3.1.0, vous ne pouvez pas affecter un-e utilisateur/trice pour évaluer une soumission s'ils sont également un-e rédacteur/trice de la soumission.  If you do, the editor will no longer be able to access the submission after they submit their review, in order to maintain the principles of blind peer review. Cependant, à partir de OJS 3.1.1, vous pouvez affecter un-e utilisateur/trice pour réviser une soumission s'il/elle est également un-e rédacteur/trice de la soumission.
 
@@ -237,7 +233,7 @@ Pour cette démonstration, nous choisirons Adela comme notre Évaluatrice et cli
 
 Vous pouvez réviser n'importe quel texte préparé.
 
-![](./assets/learning-ojs3.1-se-record-revstage-revreq.png)
+![The Add Reviewer screen with email notification template.](./assets/learning-ojs3.1-se-record-revstage-revreq.png)
 
 Plus bas dans le formulaire, vous verrez les détails supplémentaires qui sont envoyés à l'Évaluateur/trice, y compris le titre, le résumé, les dates importantes, et un lien vers les fichiers à évaluer.
 
@@ -245,7 +241,7 @@ If you are using a Blind Review method, ensure that the files you send to the Re
 
 Further down the form, you will see the additional details that are sent to the Reviewer including title, abstract, important dates, and a link to the files to be reviewed.
 
-![](./assets/learning-ojs-3-ed-rev-add-4.png)
+![Review details include type and due date settings.](./assets/learning-ojs-3-ed-rev-add-4.png)
 
 Par défaut, les Évaluateur seront fournis d'une large zone de texte pour écrire leur commentaires. However, the Journal Manager can create Review Forms in [**Workflow Settings &gt; Review**](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings) to ask more focused questions. Si vous voulez que l'Évaluateur/trice remplisse un formulaire de Évaluation, sélectionnez cela sous **Formulaire d'Évaluation**.
 
@@ -253,29 +249,29 @@ Cliquez sur le bouton **Ajouter un-e Évaluateur/trice** pour envoyer le message
 
 Vous pouvez apporter des modifications supplémentaires à l'aide de la flèche bleue à côté du nom de l'Évaluateur/trice.
 
-![](./assets/learning-ojs-3-ed-rev-reviewer-added.png)
+![The newly added Reviewer seen in the Review Stage.](./assets/learning-ojs-3-ed-rev-reviewer-added.png)
 
 **Détails d'Évaluation**: fournit des détails sur l'évaluation.
 
-![](./assets/learning-ojs-3-ed-rev-reviewer-added-2.png)
+![Expanded reviewer details and options.](./assets/learning-ojs-3-ed-rev-reviewer-added-2.png)
 
 **Envoyer un Email à l'Évaluateur/trice**: vous permet d'envoyer un message à l'Évaluateur/trice.
 
-![](./assets/learning-ojs-3-ed-rev-reviewer-review-details.png)
+![The Review Details window.](./assets/learning-ojs-3-ed-rev-reviewer-review-details.png)
 
 **Modifier l'Évaluation**: vous permet de modifier les dates et les fichiers de l'Évaluation.
 
-![](./assets/learning-ojs-3-ed-rev-reviewer-email-reviewer.png)
+![The Email Reviewer window.](./assets/learning-ojs-3-ed-rev-reviewer-email-reviewer.png)
 
 **Annuler l'Affectation de l'Évaluateur/trice**: vous permet de supprimer l'affectation de l'Évaluateur/trice.
 
-![](./assets/learning-ojs-3-ed-rev-reviewer-edit-review.png)
+![The Edit Review window.](./assets/learning-ojs-3-ed-rev-reviewer-edit-review.png)
 
 Utilisez le bouton **Ajouter un Message** pour répondre.
 
 À ce point, nous pourrions ajouter des Évaluateurs supplémentaires, puis attendre que leurs recommandations arrivent.
 
-![](./assets/learning-ojs-3-ed-rev-review-history.png)
+![The review History window.](./assets/learning-ojs-3-ed-rev-review-history.png)
 
 At this point, we could add additional Reviewers, and then wait for their recommendations to come in.
 
@@ -295,17 +291,17 @@ The author or editor must ensure that metadata from the manuscript file is remov
 
 *Reviewer*: The reviewer will not be able to see the author(s) in their reviewer’s queue if the editor has selected a double-blind review. Toutes les informations d'identification dans les métadonnées des détails de soumission sont automatiquement supprimées par le système.
 
-![](./assets/learning-ojs3.1-ed-rev-anon1.png)
+![A sample of the metadata a reviewer will see in a double anonymous review - no identifying information is included.](./assets/learning-ojs3.1-ed-rev-anon1.png)
 
 À la fin d'une évaluation, si un-e évaluateur/trice choisit de télécharger un fichier d'évaluation, toutes les informations d'identification doivent être supprimées avant de le télécharger dans le système. Voir [Supprimer les informations d'identification](#supprimer-les-informations-didentification) pour plus d'informations.
 
 *Décision des Rédacteurs*: L'email de décision envoyé aux auteurs à la fin d'une évaluation aura les titres génériques des Évaluateurs.
 
-![](./assets/learning-ojs3.1-ed-rev-anon2.png)
+![A sample of what the author will see after their submission is reviewed - no identifying information is included.](./assets/learning-ojs3.1-ed-rev-anon2.png)
 
-*Editors Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
+*Editor's Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
 
-![](./assets/learning-ojs3.1-ed-rev-anon3.png)
+![A sample decision email identifying the reviewer only as "Reviewer A".](./assets/learning-ojs3.1-ed-rev-anon3.png)
 
 **Blind Review**: Reviewer identity is kept anonymous from the author(s). Les Évaluateurs peuvent voir les détails de l'auteur.
 
@@ -313,17 +309,17 @@ The author or editor must ensure that metadata from the manuscript file is remov
 
 *Décision des Rédacteurs*: L'email de décision envoyé aux auteurs à la fin d'une évaluation aura les titres génériques des évaluateurs.
 
-![](./assets/learning-ojs3.1-ed-rev-anon2.png)
+![A sample of what the author will see after their submission is reviewed - no identifying information is included.](./assets/learning-ojs3.1-ed-rev-anon2.png)
 
 *Editors Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
 
-![](./assets/learning-ojs3.1-ed-rev-anon3.png)
+![A sample decision email identifying the reviewer only as "Reviewer A".](./assets/learning-ojs3.1-ed-rev-anon3.png)
 
 ### Supprimer les Informations d'Identification
 
 While OJS has a number of built-in functions for blind reviews, additional steps may need to be taken outside of the platform to ensure a Double-Blind Review. Un fichier de soumission peut contenir des informations permettant d'identifier l'identité des auteurs dans les propriétés du document.
 
-![](./assets/learning-ojs3.1-ed-rev-anon4.png)
+![A sample of a document whose author is visible within the document properties.](./assets/learning-ojs3.1-ed-rev-anon4.png)
 
 Les auteurs peuvent aussi inclure leur nom dans l'article, les notes de bas de page, ou les références, auquel cas le/la rédacteur/trice devra supprimer cela avant d'envoyer la soumission pour évaluation. Comme alternatif, les auteurs peuvent être invités à remplacer leurs noms dans le fichier de soumission avec «Auteur», et remplacer l'année utilisée dans les références et les notes de bas de page au lieu du nom des auteurs, du titre de l'article, etc., avant la soumission.
 
@@ -345,31 +341,31 @@ Les auteurs peuvent aussi inclure leur nom dans l'article, les notes de bas de p
 3. Sélectionnez *Supprimer les Informations Personnelles de ce Fichier lors de l'Enregistrement*
 4. Cliquez sur *OK* et enregistrez le fichier
 
-![](./assets/learning-ojs3.1-ed-rev-anon5.png)
+![The "Remove personal information from this file on save" option in Mac OS.](./assets/learning-ojs3.1-ed-rev-anon5.png)
 
 ### Retélécharger le Document
 
 Cliquez sur **Télécharger le Fichier d'Évaluation** .
 
-![](./assets/learning-ojs3.1-ed-rev-anon6.png)
+![The Upload/Select Files button under the Review Files section.](./assets/learning-ojs3.1-ed-rev-anon6.png)
 
 Identifiez le composant de l'article et téléchargez le fichier.
 
-![](./assets/learning-ojs3.1-ed-rev-anon7.png)
+![The Upload Review File button.](./assets/learning-ojs3.1-ed-rev-anon7.png)
 
 Identify the article component and upload the file.
 
-![](./assets/learning-ojs3.1-ed-rev-anon8.png)
+![The article component identification dropdown.](./assets/learning-ojs3.1-ed-rev-anon8.png)
 
 Détails d'Évaluation. Il peut être utile de renommer le fichier au moment de retéléchargement. Le fichier peut également être renommé en cliquant sur la flèche à gauche du nom du fichier.
 
-![](./assets/learning-ojs3.1-ed-rev-anon9.png)
+![The Edit button in the expanded menu under the list of review files.](./assets/learning-ojs3.1-ed-rev-anon9.png)
 
 Cliquez sur Terminer et sélectionnez le fichier que vous souhaitez utiliser pour l'Évaluation.
 
 Les fichiers apparaîtront sous le téléchargement initial. Lors de l'envoi de la demande d'Évaluation, assurez-vous que le manuscrit original n'est pas sélectionné dans les «Fichiers à Évaluer».
 
-![](./assets/learning-ojs3.1-ed-rev-anon10.png)
+![Options to toggle which files are included for review.](./assets/learning-ojs3.1-ed-rev-anon10.png)
 
 Sélectionnez les Fichiers d'Évaluation et cliquez sur **OK** .
 
@@ -377,19 +373,19 @@ Sélectionnez les Fichiers d'Évaluation et cliquez sur **OK** .
 
 Une fois que les Évaluateurs ont terminé leur travail, le/la rédacteur/trice de section peut voir les résultats dans leur tableau de bord. Ici, ils verront les notifications indiquant que de nouvelles Évaluations ont été soumises et si toutes les Évaluations ont été soumises.
 
-![](./assets/learning-ojs-3-ed-rev-responding.png)
+![Sample notification of completed reviews in the Section Editor's dashboard.](./assets/learning-ojs-3-ed-rev-responding.png)
 
 Sélectionnez le lien *Confirmer* au bas de l'écran.
 
-![](./assets/learning-ojs-3-ed-rev-read-reviews.png)
+![A sample review with comments.](./assets/learning-ojs-3-ed-rev-read-reviews.png)
 
 Select the _Confirm_ link at the bottom of the screen.
 
-![](./assets/learning-ojs-3-ed-rev-thank.png)
+![The Review Confirmed status applied to a review.](./assets/learning-ojs-3-ed-rev-thank.png)
 
 Dans le panneau des Évaluateurs, vous pouvez maintenant voir un lien de *Remercier Évaluateur/trice*. Choisissez cela pour remercier l'Évaluateur/trice.
 
-![](./assets/learning-ojs-3-ed-rev-thank2.png)
+![The Thank Reviewer window.](./assets/learning-ojs-3-ed-rev-thank2.png)
 
 Appuyez sur le bouton **Remercier Évaluateur/trice** pour envoyer le message.
 
@@ -397,7 +393,7 @@ Appuyez sur le bouton **Remercier Évaluateur/trice** pour envoyer le message.
 
 Les options comprennent:
 
-![](./assets/learning-ojs-3-ed-rev-decision.png)
+![The various action buttons for making a decision regarding a submission.](./assets/learning-ojs-3-ed-rev-decision.png)
 
 **Accepter la Soumission**: cela signifie que la soumission est acceptée sans révisions et peut passer à l'étape de Révision.
 
@@ -415,17 +411,17 @@ In this demonstration, we are going to request that the Author make some minor r
 
 Pour ce faire, sélectionnez le bouton **Demande d'Évaluations**. Cela entraîne une nouvelle fenêtre de message.
 
-![](./assets/learning-ojs-3-ed-rev-req-revisions.png)
+![The Request Revisions window.](./assets/learning-ojs-3-ed-rev-req-revisions.png)
 
 Vous pouvez modifier n'importe quel texte avant d'envoyer le message.
 
 Utilisez le bouton **Ajouter des Évaluations** pour importer les commentaires de l'Évaluateur/trice à partir du champ Rédacteur/trice et Auteur. Les commentaires du champ Rédacteur/trice uniquement ne seront pas affichés.
 
-![](./assets/learning-ojs-3-ed-rev-req-revisions3.png)
-
 If there are any attachments, such as a marked up file created by a Reviewer, you can attach it here \(as long as it has been anonymized\). Dans OJS 3.1.2 et versions ultérieures, vous pouvez également télécharger un nouveau fichier et l'ajouter en tant que pièce jointe.
 
 Une fois que l'auteur a effectué les révisions, vous devriez recevoir un message (par email et via le panneau des Discussions d'Évaluation).
+
+![A sample request for revisions with imported comments and options to share files.](./assets/learning-ojs-3-ed-rev-req-revisions3.png)
 
 Vous devez maintenant attendre que l'auteur réponde avec ses révisions.
 
@@ -433,7 +429,7 @@ Vous devez maintenant attendre que l'auteur réponde avec ses révisions.
 
 Once the Author has made the revisions, you should receive a message \(via email and the Review Discussions panel\).
 
-![](./assets/learning-ojs-3-ed-discussion-panel.png)
+![The author's revision found in the Review Discussions panel.](./assets/learning-ojs-3-ed-discussion-panel.png)
 
 Vous pouvez télécharger et consulter la version révisée finale à partir du panneau Révisé.
 
@@ -441,23 +437,21 @@ Vous pouvez télécharger et consulter la version révisée finale à partir du 
 
 Dans ce cas, nous allons informer l'auteur que nous acceptons les révisions. Pour ce faire, cliquez sur le titre lié de la discussion. Cela ouvrira la boîte de discussion.
 
-![](./assets/learning-ojs-3-ed-discussion-window.png)
+![An expanded discussion.](./assets/learning-ojs-3-ed-discussion-window.png)
 
-Une autre option serait de demander des révisions supplémentaires, mais à ce stade, nous sommes prêts à passer à autre chose.
+Use the **Add Message** button to reply, either requesting further revision or informing the author that the submission is ready to move on to the next stage.
 
-![](./assets/learning-ojs-3-ed-discussion-window-reply.png)
-
-Another option would be to ask for further revisions, but at this point, we're ready to move on.
+![A sample reply to an author's revisions.](./assets/learning-ojs-3-ed-discussion-window-reply.png)
 
 ### Passer à la Révision
 
 La soumission est maintenant prête à être déplacée vers la Révision. To do so, use the blue **Send to Copyediting** button.
 
-![](./assets/learning-ojs-3-ed-send-to-copyediting.png)
+![The "Send to Copyediting" button in a submission panel.](./assets/learning-ojs-3-ed-send-to-copyediting.png)
 
 Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
 
-![](./assets/learning-ojs-3-ed-accept.png)
+![The Send to Copyediting window including information about the notification of acceptance to be sent to the author.](./assets/learning-ojs-3-ed-accept.png)
 
 Appuyez sur le bouton **Enregistrer la Décision Éditoriale** pour envoyer le message.
 
@@ -469,7 +463,7 @@ Lorsqu'une soumission est acceptée à l'Étape d'Évaluation, elle passe automa
 
 When a submission is approved in the Review Stage, it will automatically move to the Copyediting stage.
 
-![](./assets/learning-ojs-3-ed-copyediting.png)
+![The Copyediting stage of a submission.](./assets/learning-ojs-3-ed-copyediting.png)
 
 ### Ajout d'un-e Réviseur/euse
 
@@ -477,7 +471,7 @@ Lorsque la soumission entre dans la phase de Révision, une notification indique
 
 Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
 
-![](./assets/learning-ojs-3-ed-copyediting-add.png)
+![The Add Participant window in the Copyediting stage.](./assets/learning-ojs-3-ed-copyediting-add.png)
 
 Vous pouvez utiliser la liste déroulante des rôles pour choisir un-e Réviseur/euse et cliquer sur le bouton **Rechercher**. Cela fera apparaître tous les Réviseurs.
 
@@ -491,7 +485,7 @@ Le/la réviseur/euse recevra un e-mail de le/la Rédacteur/trice de la Rubrique 
 
 Pour commencer, ils doivent se connecter et trouver la soumission à partir de leur tableau de bord.
 
-![](./assets/learning-ojs-3-ed-copyediting-add-dash.png)
+![The "Awaiting Copyediting" notification and updated participants list.](./assets/learning-ojs-3-ed-copyediting-add-dash.png)
 
 You can now wait for the Copyeditor to do their work.
 
@@ -501,11 +495,11 @@ The Copyeditor will receive an email message from the Section Editor requesting 
 
 To get started, they must login and find the submission from their dashboard.
 
-![](./assets/learning-ojs-3-ce-dash.png)
+![The Copyeditor's submission queue.](./assets/learning-ojs-3-ce-dash.png)
 
 Ensuite, ils peuvent cliquer sur le lien Révision à côté du nom de la soumission. Cela les mènera directement à l'étape de Révision pour cette soumission.
 
-![](./assets/learning-ojs-3-ce-submission.png)
+![The Copyediting stage as seen by an assigned Copyeditor.](./assets/learning-ojs-3-ce-submission.png)
 
 De là, ils peuvent voir les Fichiers Brouillons. Ce sont les fichiers qui nécessitent une révision. Cliquez sur le titre lié pour télécharger le fichier sur leur bureau.
 
@@ -513,11 +507,11 @@ En dehors d'OJS, ils effectueront le travail de révision.
 
 To check the submission metadata, use the Metadata link in the blue bar at the top.
 
-![](./assets/learning-ojs-3-ce-copyediting-metadata.png)
+![The Metadata tab as seen on the submission dashboard.](./assets/learning-ojs-3-ce-copyediting-metadata.png)
 
 This would include checking the article title, abstract, author names, keywords, etc.
 
-![](./assets/learning-ojs-3-ce-copyediting-metadata2.png)
+![The submission metadata editing window.](./assets/learning-ojs-3-ce-copyediting-metadata2.png)
 
 Cliquez sur le bouton **OK** pour compléter l'affectation et envoyer le message.
 
@@ -527,35 +521,35 @@ Une fois la révision terminée, ils exécuteront les modifications au-delà de 
 
 Dans la fenêtre de discussion, ajoutez le/la Rédacteur/trice de de la Rubrique, une ligne de sujet, et un message.
 
-![](./assets/learning-ojs-3-ce-add-discussion.png)
+![The Add Discussion window.](./assets/learning-ojs-3-ce-add-discussion.png)
 
 Appuyez sur **Continuer** pour continuer.
 
-![](./assets/learning-ojs-3-ce-add-discussion2.png)
+![The file upload area of the Add Discussion window.](./assets/learning-ojs-3-ce-add-discussion2.png)
 
 Pour ce faire, utilisez le lien *Téléverser un Fichier*. Cela ouvrira une nouvelle fenêtre où vous devez choisir le *Component de l'Article* (par example, texte de l'article) et téléverser le fichier.
 
-![](./assets/learning-ojs-3-ce-upload1.png)
+![The File Upload screen.](./assets/learning-ojs-3-ce-upload1.png)
 
 Pour ce faire, sélectionnez le bouton bleu **Envoyer en Production** .
 
 De retour dans la fenêtre Ajouter, vous pouvez maintenant voir le fichier joint.
 
-![](./assets/learning-ojs-3-ce-upload2.png)
+![The Edit option next to the file name.](./assets/learning-ojs-3-ce-upload2.png)
 
 Appuyez sur **OK** pour envoyer le message à l'auteur.
 
-![](./assets/learning-ojs-3-ce-upload3.png)
+![The Confirmation step of the file upload.](./assets/learning-ojs-3-ce-upload3.png)
 
 Back on the Add window, you can now see the attached file.
 
-![](./assets/learning-ojs-3-ce-upload4.png)
+![The newly upload file attached to the discussion.](./assets/learning-ojs-3-ce-upload4.png)
 
 Une fois que vous avez reçu une réponse de l'auteur, vous pouvez consulter ses commentaires en vérifiant la réponse à la discussion.
 
 Le message est maintenant visible dans les Discussions de Révision.
 
-![](./assets/learning-ojs-3-ce-discussion.png)
+![The discussion added to the Copyediting Discussions section.](./assets/learning-ojs-3-ce-discussion.png)
 
 Vous pouvez maintenant attendre la réponse de l'auteur.
 
@@ -563,22 +557,21 @@ Vous pouvez maintenant attendre la réponse de l'auteur.
 
 Vous pouvez maintenant télécharger la version révisée finale dans le panneau Révisé, près du bas de l'écran.
 
-![](./assets/learning-ojs-3-se-author-copyedits.png)
+![The previous Copyediting Discussion now containing a "1" in the reply column.](./assets/learning-ojs-3-se-author-copyedits.png)
 
 Utilisez le lien Télécharger/Sélectionner des fichiers pour télécharger la version révisée finale.
 
-![](./assets/learning-ojs-3-se-author-copyedits-reply.png)
-
+![A sample reply from an author approving the copyediting.](./assets/learning-ojs-3-se-author-copyedits-reply.png)
 
 ### Le Fichier Révisé Final
 
 Il est important de noter ici que vous avez quelques choix.
 
-![](./assets/learning-ojs-3-ce-copyedited.png)
+![The Upload/Select Files option can be found near the Copyedited section of the panel.](./assets/learning-ojs-3-ce-copyedited.png)
 
 Appuyez sur **OK** .
 
-![](./assets/learning-ojs-3-ce-copyedited-upload-select.png)
+![The Upload/Select Files window.](./assets/learning-ojs-3-ce-copyedited-upload-select.png)
 
 It is important to note here that you have a few choices.
 
@@ -592,7 +585,7 @@ Pour ce faire, démarrez une nouvelle Discussion de Révision en utilisant le li
 
 Le fichier est maintenant visible dans le panneau *Révisé* (près du bas de l'écran), indiquant au rédacteur/trice qu'il s'agit de la version finale, qui est prête pour l'étape de Production.
 
-![](./assets/learning-ojs-3-ce-copyedited2.png)
+![The selected file seen in the Copyedited panel.](./assets/learning-ojs-3-ce-copyedited2.png)
 
 ### Informer le/le Rédacteur/trice de la Rubrique
 
@@ -600,17 +593,17 @@ The final step is for you to inform the Section Editor that the copyediting is c
 
 Appuyez sur **OK** pour envoyer le message.
 
-![](./assets/learning-ojs-3-ce-copyedited-final.png)
+![The list of Copyediting Discussions ](./assets/learning-ojs-3-ce-copyedited-final.png)
 
 In the discussion window, add the Section Editor, a subject line, and a message.
 
-![](./assets/learning-ojs-3-ce-copyedited-discussion.png)
+![A sample message from the Copy Editor to the Section Editor](./assets/learning-ojs-3-ce-copyedited-discussion.png)
 
 Appuyez sur **OK** pour envoyer le message.
 
 Retournant vers l'étape de Révision, vous pouvez voir que le message est publié.
 
-![](./assets/learning-ojs-3-ce-copyedited-done.png)
+![The message added to the list of copyediting discussions.](./assets/learning-ojs-3-ce-copyedited-done.png)
 
 Votre travail en tant que réviseur/euse est maintenant terminé!
 
@@ -618,11 +611,11 @@ Votre travail en tant que réviseur/euse est maintenant terminé!
 
 À ce stade, vous pouvez communiquer davantage avec le/la Réviseur/euse ou, si vous êtes satisfait, déplacer la soumission vers l'étape de Production.
 
-![](./assets/learning-ojs-3-se-copyedited-dash.png)
+![The Copyediting Stage in the Section Editor's dashboard](./assets/learning-ojs-3-se-copyedited-dash.png)
 
 Cela va générer un préavis officiel aux Auteurs indiquant que la soumission passe à l'étape suivante.
 
-![](./assets/learning-ojs-3-se-copyedited-files.png)
+![The final copyedited version uploaded to the Copyedited panel. ](./assets/learning-ojs-3-se-copyedited-files.png)
 
 Notez que le fichier approprié, du panneau Révisé, est inclus et sera automatiquement transféré vers la Production.
 
@@ -630,7 +623,7 @@ Cliquez sur **Enregistrer la Décision Éditoriale** pour continuer.
 
 This will generate an official notice to the Authors that the submission is moving to the next stage.
 
-![](./assets/learning-ojs-3-se-send-to-production.png)
+![The Send to Production window with notification to the author.](./assets/learning-ojs-3-se-send-to-production.png)
 
 Notice that the appropriate file, from the Copyedited panel, is included and will be automatically transferred to Production.
 
@@ -646,11 +639,11 @@ Une fois la phase de révision terminée, la soumission passe maintenant à la p
 
 To start working in Production, the Section Editor must login to the system and choose the submission from their dashboard.
 
-![](./assets/learning-ojs-3-se-production-submissions.png)
+![The Section Editor's dashbord.](./assets/learning-ojs-3-se-production-submissions.png)
 
 Choosing the Production link will open the submission record.
 
-![](./assets/learning-ojs-3-se-production.png)
+![A sample submission record.](./assets/learning-ojs-3-se-production.png)
 
 You will see the copyedited files are now available in the _Production Ready Files_ panel.
 
@@ -660,13 +653,13 @@ This can vary from journal to journal -- you may have layout editors or producti
 
 To make the assignment, use the _Add_ link in the Participants list. Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
 
-![](./assets/learning-ojs-3-se-production-participants-add.png)
+![The Add Participant window.](./assets/learning-ojs-3-se-production-participants-add.png)
 
 Use the role selector and search button to find appropriate users, select one, choose a predefined message, and hit **OK** to send.
 
 L'utilisateur a maintenant été averti par courriel et dans le tableau de bord.
 
-![](./assets/learning-ojs-3-se-production-participants-added.png)
+![The added user as seen in the participants list.](./assets/learning-ojs-3-se-production-participants-added.png)
 
 Notice that the notification now indicates the submission is "Awaiting Galleys". You can see the layout editor in the Participants list, and you can see the request notice in the Production Discussions panel.
 
@@ -678,13 +671,13 @@ En tant que rédacteur-trice de mise en page, vous aurez reçu un message vous i
 
 Pour commencer, connectez-vous au système et accédez à votre tableau de bord.
 
-![](./assets/learning-ojs-3-le-dashboard.png)
+![The Layout Editor's dashboard.](./assets/learning-ojs-3-le-dashboard.png)
 
 From here, find the submission and select the Production link.
 
 Cela vous mènera à l'enregistrement de la soumission.
 
-![](./assets/learning-ojs-3-le-submission.png)
+![A sample submission record.](./assets/learning-ojs-3-le-submission.png)
 
 From the Production Ready Files panel, download the files to your desktop and work outside of OJS to convert them to the formats appropriate for your journal \(e.g., HTML, PDF, etc.\).
 
@@ -757,13 +750,13 @@ Next, you will want to share the PDF with the author for a final look and sign-o
 
 To so, use the _Add Discussion_ link in the Production Discussion panel. Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
 
-![](./assets/learning-ojs-3-le-production-add-participant.png)
+![The Add Discussion window.](./assets/learning-ojs-3-le-production-add-participant.png)
 
 Remember to add the author at the top of the window, and then add a subject and a message.
 
 Before sending, however, attach a copy of the PDF file using the _Upload File_ link. Cela le rendra disponible à l'auteur-e.
 
-![](./assets/learning-ojs-3-le-production-add-participant-upload.png)
+![The file upload window.](./assets/learning-ojs-3-le-production-add-participant-upload.png)
 
 Remember to select the correct Article Component, and then upload the PDF.
 
@@ -771,17 +764,17 @@ Hit **Continue**.
 
 Next, make any changes to the file name \(usually you don't need to do anything here\).
 
-![](./assets/learning-ojs-3-le-production-add-participant-upload2.png)
+![The edit filename option in the file upload window.](./assets/learning-ojs-3-le-production-add-participant-upload2.png)
 
 And then, you can upload additional files, if necessary.
 
-![](./assets/learning-ojs-3-le-production-add-participant-upload3.png)
+![The file upload confirmation screen.](./assets/learning-ojs-3-le-production-add-participant-upload3.png)
 
 Une fois que vous avez terminé, appuyez sur **Terminé** .
 
 Le fichier est maintenant joint et vous pouvez envoyer le message en utilisant le bouton **OK** .
 
-![](./assets/learning-ojs-3-le-production-add-participant2.png)
+![The message to be sent to the author.](./assets/learning-ojs-3-le-production-add-participant2.png)
 
 L'auteur-e a maintenant été notifié et vous pouvez attendre sa réponse.
 
@@ -789,35 +782,35 @@ L'auteur-e a maintenant été notifié et vous pouvez attendre sa réponse.
 
 Une fois que l'auteur-e a eu la chance de revoir les épreuves et d'y répondre, vous recevrez une notification par courriel et verrez une réponse dans les discussions sur la production.
 
-![](./assets/learning-ojs-3-au-production-message-reply.png)
+![The previous Production Discussion now containing a "1" in the reply column.](./assets/learning-ojs-3-au-production-message-reply.png)
 
 ### Add Galleys
 
 Now that the Author has proofread the galleys, you can make any final changes, and then upload them to the Galleys panel.
 
-![](./assets/learning-ojs-3-au-production-galleys.png)
+![The Add Galley button.](./assets/learning-ojs-3-au-production-galleys.png)
 
 To do so, use the _Add Galley_ link, which will open a new window.
 
-![](./assets/learning-ojs-3-au-production-galleys-upload1.png)
+![The Create New Galley window.](./assets/learning-ojs-3-au-production-galleys-upload1.png)
 
 Add an appropriate label \(e.g., PDF, HTML, etc.\) and Hit **Save**.
 
-![](./assets/learning-ojs-3-au-production-galleys-upload2.png)
+![The galley label field in the file upload window.](./assets/learning-ojs-3-au-production-galleys-upload2.png)
 
 From this window, choose the appropriate article componenet \(e.g., article text\) and upload the galley file. Hit **Continue**.
 
-![](./assets/learning-ojs-3-au-production-galleys-upload3.png)
+![The article identification prompt in the file upload window.](./assets/learning-ojs-3-au-production-galleys-upload3.png)
 
 Si nécessaire, modifiez le nom du fichier. Hit **Continue**.
 
-![](./assets/learning-ojs-3-au-production-galleys-upload4.png)
+![The edit filename button in the file upload window.](./assets/learning-ojs-3-au-production-galleys-upload4.png)
 
 Si vous avez plus de fichiers, téléversez-les maintenant. Otherwise hit **Complete**.
 
 Vous pouvez maintenant voir les épreuves dans le panneau Épreuve.
 
-![](./assets/learning-ojs-3-au-production-galleys-uploaded.png)
+![The galleys panel.](./assets/learning-ojs-3-au-production-galleys-uploaded.png)
 
 Vous pouvez apporter des modifications au téléversement en sélectionnant la flèche bleue à gauche du libellé de l'épreuve, qui révèle des options pour modifier, changer le fichier ou le supprimer.
 
@@ -844,19 +837,19 @@ Si vous utilisez des catégories dans votre revue, vous pouvez éventuellement a
 2. Scroll down to the Categories section and check off the categor(ies) you want to add the article to.
 3. Cliquez sur Enregistrer.
 
-![](./assets/learning-ojs3.1-add-to-category.png)
+![The category list in the Metadata window.](./assets/learning-ojs3.1-add-to-category.png)
 
 ### Informer le/le Rédacteur/trice de la Rubrique
 
 Enfin, vous devrez informer le rédacteur de la rubrique que les épreuves sont terminées. To do so, use the Production Discussion panel and choose the _Add Discussion_ link.
 
-![](./assets/learning-ojs-3-au-production-galleys-complete.png)
+![The Add Discussion window.](./assets/learning-ojs-3-au-production-galleys-complete.png)
 
 Ajoutez le rédacteur de la rubrique au haut de la page, puis incluez une ligne d'objet et un message. Appuyez sur **OK** pour envoyer le message.
 
 Vous pouvez désormais voir la discussion finale.
 
-![](./assets/learning-ojs-3-au-production-galleys-discussions.png)
+![The discussion in the Production Discussions section](./assets/learning-ojs-3-au-production-galleys-discussions.png)
 
 ### Le/La Rédacteur-trice de la Rubrique Informe Le/La Rédacteur-trice
 
@@ -874,11 +867,11 @@ Upon receiving notification of the completed galleys, the editor logs into the s
 
 If the galleys look ready, the editor can hit the blue **Schedule for Publication** action button.
 
-![](./assets/learning-ojs-3-ed-production-schedule.png)
+![The Schedule for Publication button.](./assets/learning-ojs-3-ed-production-schedule.png)
 
 Selecting this button opens a Publication window.
 
-![](./assets/learning-ojs-3-ed-production-publish.png)
+![The Publication window.](./assets/learning-ojs-3-ed-production-publish.png)
 
 Use this to add the submission to a future or back issue of the journal.
 
