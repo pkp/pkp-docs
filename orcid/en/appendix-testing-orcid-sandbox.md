@@ -1,3 +1,7 @@
+---
+title: Testing in the ORCID Sandbox - ORCID Plugin Guide for OJS and OPS
+---
+
 # Appendix:  Testing in the ORCID Sandbox
 
 ORCID provides the option to test the ORCID plugin in a Sandbox environment before using it in the live Production environment of your OJS journal or OPS server. Testing the plugin in the Sandbox will allow you to do the following: 
