@@ -20,11 +20,11 @@ Users (including authors and contributors) can do this in 2 ways:
 
 * During a new account registration by clicking “Create or Connect your ORCID iD”
 
-![Click on Create or Connect your ORCID iD button during new account registration.](./assets/ORCID_connect_registration.gif)
+![Click on Create or Connect your ORCID iD button during new account registration.](./assets/Register_connect_ORCID.png)
 
 * For existing accounts - by clicking “Create or Connect your ORCID iD” in the Profile > Public. For details, see this [video walkthrough of profile authentication](https://vimeo.com/374415404).
 
-![Click on Create or Connect your ORCID iD button in existing profile.](./assets/ORCID_connect_profile.gif)
+![Click on Create or Connect your ORCID iD button in existing profile.](./assets/Profile_connect_ORCID.png)
 
 Please note that if an author has connected their ORCID record to their OJS/OPS account, future articles and preprints they submit will be automatically connected to ORCID, providing they login to the site using their existing author account. However, if an author is a contributor (or co-author) on a submission, their OJS/OPS user account will not be linked to the submission and they will need to be prompted to connect the submission to their ORCID record. 
 
@@ -32,7 +32,7 @@ Please note that if an author has connected their ORCID record to their OJS/OPS 
 
 To invite co-authors/contributors to connect their ORCID iDs, check the checkbox "Send email to request ORCID authorization from contributor" from the Contributor’s Edit screen. For details, see this [video walkthrough of contributor invitation](https://vimeo.com/374416189).
 
-![Check the checkbox to send email to request ORCID authorization from contributor.](./assets/ORCID_invite_contributors.gif)
+![Check the checkbox to send email to request ORCID authorization from contributor.](./assets/Request_ORCID_contributor.png)
 
 ### ORCID plugin can send automatic request to contributors to connect their ORCID iDs
 
@@ -50,7 +50,7 @@ Authors' and contributors' authenticated ORCID iDs will be publicly displayed on
 
 In addition to all of the above functionalities available in both Public and Member APIs, journals/preprint servers using ORCID Member API will automatically send article information to the author’s ORCID record upon publication. For details, see the [video walkthrough of article publication with ORCID Member API](https://vimeo.com/374417678).
 
-![Click on ORCID iD to navigatt to the article information in an author's ORCID record.](./assets/ORCID_Member_API_push_article_metadata.gif)
+![Article information displayed in an author's ORCID record.](./assets/orcid_in_author_record.png)
 
 When a work is added to an ORCID record, the "source" is displayed as well. If a person adds a work to their own record, the "source" will be the person's name. If a work is added via API as in the case of OJS, the "source" will appear as whatever "client name" is entered when the ORCID API credentials are requested. If the ORCID plugin is being used for just a single journal, the source/client name is usually just the name of the journal. If the ORCID plugin is used for multiple journals on the same instance, then the source/client name would need to be something more broad, like "Univ. of XYZ Open Journals."
 
