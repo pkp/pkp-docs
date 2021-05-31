@@ -132,9 +132,10 @@ To view and edit your profile, log in and click your Username link from the uppe
 From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image \(which some journals may publish along with your article or on a list of editors\), determine your notification settings, or update your password.
 
 Under **Notifications**, you can configure what kinds of notifications you receive from the journal when events occur, such as a new journal issue is published or there is activity on a submission you're involved in.
+
 * Check off "Enable these types of notifications" if you want to see a notification of this event on your dashboard when you log in to the site
 * Check off "Do not send me an email for these types of notifications" if you do not want to receive an email notification about this event
-* 
+
 ![The Notifications tab where you can manage notifications.](./assets/learning-ojs-3-user-notifications.png)
 
 The **API tab** on the user profile allows you to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
