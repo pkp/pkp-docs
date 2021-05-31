@@ -108,11 +108,11 @@ Les visiteurs non enregistrés d'une revue peuvent normalement s'inscrire en tan
 
 To register with a journal, click the Register link on the upper right corner.
 
-![](./assets/learning-ojs-3-registration.png)
+![The Register link at the upper right corner of the journal site.](./assets/learning-ojs-3-registration.png)
 
 Pour vous inscrire à une revue, cliquez sur le lien S'inscrire dans le coin en haut à droite.
 
-![](./assets/learning-ojs-3-registration-form.png)
+![The Registration Form.](./assets/learning-ojs-3-registration-form.png)
 
 Tous les champs avec un astérisque (Prénom, Nom, Affiliation, Pays, Email, Nom d'utilisateur, Mot de passe, Répéter le mot de passe) sont obligatoires. Si le journal est multilingue, vous devrez sélectionner votre langue préférée.
 
@@ -126,15 +126,16 @@ Vous ne pourrez pas vous inscrire vous-même pour un rôle éditorial (par exemp
 
 Pour afficher et modifier votre profil, connectez-vous et cliquez sur votre lien Nom d'utilisateur dans le coin en haut à droite. Choisissez le lien Afficher le profil.
 
-![](./assets/learning-ojs3.1-ed-view-profile.png)
+![The View Profile menu.](./assets/learning-ojs3.1-ed-view-profile.png)
 
 From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image \(which some journals may publish along with your article or on a list of editors\), determine your notification settings, or update your password.
 
 Sous **Notifications**, vous pouvez configurer les types de notifications que vous recevez de la revue lorsque des événements se produisent, comme la publication d'un nouveau numéro de la revuel ou une activité sur une soumission dans laquelle vous êtes impliqué.
+
 * Cochez "Activer ces types de notifications" si vous souhaitez voir une notification de cet événement sur votre tableau de bord lorsque vous vous connectez au site
 * Cochez "Ne pas m'envoyer d'email pour ces types de notifications" si vous ne souhaitez pas recevoir de notification par email concernant cet événement
 
-![](./assets/learning-ojs-3-user-notifications.png)
+![The Notifications tab where you can manage notifications.](./assets/learning-ojs-3-user-notifications.png)
 
 L' **onglet API** du profil utilisateur vous permet d'utiliser l'API REST d'OJS pour interagir avec des applications externes.  Cependant, la plupart des utilisateurs n'utiliseront pas cet API et peuvent ignorer cet onglet.
 
@@ -148,6 +149,6 @@ Vous avez maintenant votre nouveau mot de passe temporaire et vous pouvez vous c
 4. Entrer votre mot de passe actuel puis votre nouveau mot de passe deux fois
 5. Cliquer sur Enregistrer
 
-![](./assets/learning-ojs3.1-ed-change-pw.png)
+![The password reset screen.](./assets/learning-ojs3.1-ed-change-pw.png)
 
 Vous pouvez réinitialiser votre mot de passe en:
