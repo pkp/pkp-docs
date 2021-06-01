@@ -77,8 +77,6 @@ Member API credentials are connected to an ORCID member organization. Your organ
 
 To request your Member API credentials, complete the form to [Register a client application: Production Member API - Trusted Party](https://orcid.org/content/register-client-application-production-trusted-party). Once you submit the form, ORCID will email your production member Client ID and Client Secret to you.
 
-![ORCID Member API form fill out process.](./assets/ORCID_Member_API_application.gif)
-
 ### ORCID redirect URIs
 
 When you register for ORCID API credentials, you will need to enter at least one Redirect URI, which is the journal location that your users will be sent to after authorizing OJS/OPS to connect to their ORCID record, The URI must begin with “https://” and include the link to the journal as part of the URI. For example:
@@ -119,9 +117,9 @@ If you want to enable the ORCID plugin for a single journal (OJS) or preprint se
 3. Check the checkbox to enable to plugin
 4. Click the blue arrow to the left of the plugin name to make “Settings” appear, then open Settings. Select your API type and enter your Client ID and Client Secret.
 
-![Setup for OJS ORCID plugin with Member client ID and secret entered.](./assets/ORCID_Member_API_plugin_setup.gif)
+![Setup for OJS ORCID plugin with Public client ID and secret entered.](./assets/orcid_plugin_setup.png)
 
-For another visual walkthrough see this [ORCID plugin setup video](https://vimeo.com/374414746).
+For a visual walkthrough see this [ORCID plugin setup video](https://vimeo.com/374414746).
 
 #### Email Settings
 
