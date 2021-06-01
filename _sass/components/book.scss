@@ -40,6 +40,14 @@
 		}
 	}
 
+	.video_container {
+		margin: 1rem 0;
+
+		video {
+			max-width: 100%;
+		}
+	}
+
 	> .alert:first-child {
 		margin-top: 0;
 	}
