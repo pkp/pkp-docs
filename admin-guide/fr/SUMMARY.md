@@ -24,7 +24,7 @@
   * [Problèmes de statistiques fréquemment rencontrés](./statistics.md#frequently-encountered-statistics-problems)
   * [Afficher les Statistiques d'Utilisation pour les Lecteurs](./statistics.md#legacy-statistics--statistics-in-ojs-2)
   * [Autres ressources](./statistics.md#further-resources)
-* [Email](email.md)
+* [E-mail](email.md)
   * [Envoi de mail](./email.md#sending-mail)
   * [Définition d'une adresse de rebond](./email.md#setting-a-bounce-address)
   * [E-mail et paramètres régionaux](./email.md#email-and-locale)
