@@ -46,7 +46,7 @@ Allez dans Paramètres > Site Web > Modules externes
 
 Cliquez sur “Galerie de plugiciels”.
 
-Une liste des ​*plugins*​ disponibles pour installation sera affichée. Rechechez “OAI JATS Plugin”:
+Une liste des ​*plugins*​ disponibles pour installation sera affichée. Recherchez “OAI JATS Plugin”:
 
 ![](./assets/oaiJatsPlugin.png)
 
