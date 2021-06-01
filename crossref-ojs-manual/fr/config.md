@@ -3,7 +3,7 @@ book: crossref-ojs-manual
 version: 3.2
 ---
 
-# Crossref XML Export Plugin (OJS 3.2+)
+# Plugiciel d'export XML Crossref (OJS 3.2+)
 
 The Crossref XML Export Plugin  can deposit DOIs to Crossref for registration in a variety of ways:
 
