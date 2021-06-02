@@ -16,7 +16,7 @@ This chapter explains how to obtain production (live) credentials and add them t
 
 ORCID iD registration is free and only requires your name and email.
 
-If you already have an ORCID iD, skip to [2. Sign into your ORCID iD](#sign-into-your-orcid-id).
+If you already have an ORCID iD, skip to [2. Sign into your ORCID iD](#2-sign-into-your-orcid-id).
 
 1. Navigate to [the ORCID website](https://orcid.org/)
 2. Click on the [SIGN IN / REGISTER](https://orcid.org/signin) menu on the top right

@@ -26,7 +26,7 @@ By integrating ORCID with OJS/OPS, you will be able to support publishing best p
 * Allowing authors to collect their published work in one reliable place
 * Distinguishing authors from others with a similar name, and keeping an up-to-date record regardless of changes in name or affiliation
 * Demonstrating a commitment to transparency and credibility by accurately attributing authors to their published works
-* Supporting the collection of accurate article metadata, including author information, by sharing publication details with CrossRef 
+* Supporting the collection of accurate article metadata, including author information, by sharing publication details with CrossRef
 
 ## Public vs Member API
 
