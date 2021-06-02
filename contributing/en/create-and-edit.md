@@ -18,13 +18,18 @@ If you want to edit existing documentation or add a section or chapter to existi
 6. Click that button to open up a plain text editor for the document within GitHub itself.
 7. Edit the document.
 
-![File edit menu in Github.](./assets/contrib-01.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/contrib-01.mp4" type="video/mp4">
+  </video>
+  <figcaption>File edit menu in Github.</figcaption>
+</figure>
 
-If your edits requires you to replace or add images, see section on Adding/Replacing images. 
+If your edits requires you to replace or add images, see section on Adding/Replacing images.
 
 ## Create a Document
 
-When you create a new document, you need to decided whether to make it a _single page document_ or _multi-page document_, as they are significantly different. Most guides in the Documentation Hub are multi-page documents, which means that each chapter is a different file. However, some short guides are single-page documents. 
+When you create a new document, you need to decided whether to make it a _single page document_ or _multi-page document_, as they are significantly different. Most guides in the Documentation Hub are multi-page documents, which means that each chapter is a different file. However, some short guides are single-page documents.
 
 * [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/) is an example of a multi-page document.
 * [Google Scholar Indexing](https://docs.pkp.sfu.ca/google-scholar/en/) is an example of a single-page document.
@@ -85,7 +90,7 @@ Unlike with a single-page document, you no longer need to add to index.md. The r
 #### Create README file
 The next step is to create a README.md file in the language folder for the document. The README file is the main landing page of the document and should contain summary introduction information about the document, so users know what the document is about. It should also contain relevant keywords and descriptive metadata so that users can find the document by searching and the document ranks high in Google search results about the document topics.
 
-Add Title and Description front matter (metadata) to the document, with the Markdown formatting shown in the example below. 
+Add Title and Description front matter (metadata) to the document, with the Markdown formatting shown in the example below.
 - The Title should have the name of the guide in it and any main keywords that would be searched for the document.
 - The Description will usually be displayed in the search result, so should give the user a summary of the document and include main keywords that would be searched.
 
@@ -124,12 +129,12 @@ You do not need to add Description front matter as well. However, you may choose
 
 Then add an H1 chapter title and your chapter content below. For any subheadings use descending header tags (H2 to H5). Do not skip a level of header tag, as this affects accessibility.
 
-#### Update table of contents 
-Once you have created all of your chapters, you can add links to those files in the `SUMMARY.md` file, which essentially creates a table of contents for the document. Whereas your headers in single documents create the sidebar table of contents, in multi-page docs, you need to add the headers manually to the `SUMMARY.md` file.  
+#### Update table of contents
+Once you have created all of your chapters, you can add links to those files in the `SUMMARY.md` file, which essentially creates a table of contents for the document. Whereas your headers in single documents create the sidebar table of contents, in multi-page docs, you need to add the headers manually to the `SUMMARY.md` file.
 
-In the SUMMARY.md file, add a link for each chapter title and H2 subheading links below the chapter links. 
+In the SUMMARY.md file, add a link for each chapter title and H2 subheading links below the chapter links.
 
-The first link should be for the Introduction in the README file: 
+The first link should be for the Introduction in the README file:
 ```
 * [Introduction](.)
 ```
@@ -220,7 +225,7 @@ Informative images such as screenshots need to have alt text (“alternative tex
 `![Creative Commons license types arranged from the most free to the least free.](./assets/journal-policies-cc-licenses.png)`
 
 ![Creative Commons license types arranged from the most free to the least free.](./assets/journal-policies-cc-licenses.png)
-  
+
 ### Alt text good practices
 
 - Only add alt text for meaningful images, not for decorative ones (decorative images carry no information and serve no purpose other than aesthetics).
