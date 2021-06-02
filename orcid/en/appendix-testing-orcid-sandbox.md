@@ -2,9 +2,10 @@
 title: Testing in the ORCID Sandbox - ORCID Plugin Guide for OJS and OPS
 ---
 
-# Appendix:  Testing in the ORCID Sandbox
+# Appendix: Testing in the ORCID Sandbox
 
-ORCID provides the option to test the ORCID plugin in a Sandbox environment before using it in the live Production environment of your OJS journal or OPS server. Testing the plugin in the Sandbox will allow you to do the following: 
+ORCID provides the option to test the ORCID plugin in a Sandbox environment before using it in the live Production environment of your OJS journal or OPS server. Testing the plugin in the Sandbox will allow you to do the following:
+
 * Check that the ORCID plugin works in your installation
 * Learn how to use the plugin and try all of its features without affecting any real ORCID IDs or sending real emails to researchers
 * Test the ORCID Member API to see how it works, even if you are not an ORCID member
@@ -13,7 +14,7 @@ This chapter explains how to test the plugin.
 
 ## Obtain ORCID Sandbox API credentials
 
-The process for obtaining your Sandbox ORCID API credentials will vary depending on whether you are planning to use the ORCID Public API or the ORCID Member API. 
+The process for obtaining your Sandbox ORCID API credentials will vary depending on whether you are planning to use the ORCID Public API or the ORCID Member API.
 
 ### Sandbox Public API
 
@@ -44,10 +45,10 @@ To test that the plugin is working correctly in the sandbox:
 
 For testing purposes, you will need to create a fake “sandbox” ORCID iD. To do this:
 
-1. Go to [https://sandbox.orcid.org/register](https://sandbox.orcid.org/register) and fill in the form. Make sure to use a made-up email address using `@mailinator.com` - for example: `test123@mailinator.com` Please note the sandbox only allows `@mailinator.com` addresses.
+1. Go to the [ORCID Sandbox registration page](https://sandbox.orcid.org/register) and fill in the form. Make sure to use a made-up email address using `@mailinator.com` - for example: `test123@mailinator.com` Please note the sandbox only allows `@mailinator.com` addresses.
 2. Write down the email address and password that you used to create the sandbox ORCID iD
-3. Go to [https://www.mailinator.com/](https://www.mailinator.com/) and in the “Enter Public Mailinator Inbox” box, type in your made-up email address and click “Go”
-4. You should be taken to the inbox where a confirmation email from ORCID should appear. Follow the prompts in the email to verify your sandbox ORCID iD account. You can now add information and make changes to your sandbox ORCID record. If your email does not appear in the mailinator.com mailbox, there can be several reasons for it. For example, your OJS/OPS  is not properly configured for sending emails, you have misspelled the credentials. Or you may have swapped the client id and secret.
+3. Go to [mailinator.com](https://www.mailinator.com/) and in the “Enter Public Mailinator Inbox” box, type in your made-up email address and click “Go”
+4. You should be taken to the inbox where a confirmation email from ORCID should appear. Follow the prompts in the email to verify your sandbox ORCID iD account. You can now add information and make changes to your sandbox ORCID record. If your email does not appear in the mailinator.com mailbox, there can be several reasons for it. For example, your OJS/OPS is not properly configured for sending emails, you have misspelled the credentials. Or you may have swapped the client id and secret.
 
 ### Connect your Sandbox ORCID iD with OJS/OPS & Submit a Test Publication
 

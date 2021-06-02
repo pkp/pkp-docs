@@ -4,7 +4,7 @@ title: About the ORCID Plugin Guide for OJS and OPS
 
 # About the ORCID Plugin
 
-[ORCID](https://orcid.org/) (Open Researcher and Contributor Identifier) is a persistent digital identifier that distinguishes individual researchers and supports automated links between researchers and their professional activities. For an overview of ORCID, please see [this introductory ORCID video](https://vimeo.com/97150912). 
+[ORCID](https://orcid.org/) (Open Researcher and Contributor Identifier) is a persistent digital identifier that distinguishes individual researchers and supports automated links between researchers and their professional activities. For an overview of ORCID, please see [this introductory ORCID video](https://vimeo.com/97150912).
 
 PKP partners with ORCID to enable the collection and display of authenticated ORCID iDs for contributors to article and preprints published with Open Journal Systems (OJS) and Open Preprint Systems (OPS) via the ORCID Profile Plugin.
 
