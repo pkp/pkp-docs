@@ -346,4 +346,4 @@ class ExampleHandler extends Handler {
 
 ---
 
-Now that the user has been authorized, learn how [Service classes are used to fulfil the request](./architecture-services).
+Now that the user has been authorized, learn how to [work with entities](./architecture-entities).
