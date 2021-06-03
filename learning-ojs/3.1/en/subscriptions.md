@@ -41,7 +41,7 @@ Select **Create New Subscription Type** to add a new one.
 
 ## Payment Types
 
-If you haven't already done so, go to [Settings &gt; Distribution &gt; Payments](./settings-distribution.md) and set the appropriate currency and payment method \(e.g., Paypal\).
+If you haven't already done so, go to [Settings &gt; Distribution &gt; Payments](./settings-distribution.md) and set the appropriate currency and payment method \(e.g., PayPal\).
 
 Use this page to set the amounts charged for various types of fees.
 
@@ -102,11 +102,12 @@ You can create a new individual subscription by using the Create New Subscriptio
 
 - **Subscription Type**: Select the appropriate type for this new subscriber \(e.g., Library\) and its status \(e.g., Active\). (Subscription Types were configured earlier in this chapter.)
 - **Date**: Set the start and end dates for this subscription.
--  **Institution**: Add the name of the institution for this subscription \(e.g., Simon Fraser University Library\).
+- **Institution**: Add the name of the institution for this subscription \(e.g., Simon Fraser University Library\).
 - **Mailing Address**: Add the address of the institution.
 - **Domain**: Readers coming from a computer with this domain will automatically receive access \(e.g., sfu.ca\). This will apply to on-campus users.
 - **IP Ranges**: The institution may provide you with IP ranges. Readers coming from a computer from this IP range will automatically receive access.
 - **Notes**: If you have any relevant notes to add, record that information here \(optional\).
 
 ## Subscription Block
-When a user is being provided access to a site or its content via a subscription, the information of the subscriber providing access can be dispayed in the sidebar. The Subscription Block feature must be selected for display in Website Settings > Appearance > Sidebar Management.
+
+When a user is being provided access to a site or its content via a subscription, the information of the subscriber providing access can be displayed in the sidebar. The Subscription Block feature must be selected for display in Website Settings > Appearance > Sidebar Management.
