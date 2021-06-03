@@ -662,7 +662,7 @@ It is now visible in the Copyediting Discussions.
 
 You can now wait for the author's response.
 
-### Author Responds
+### Author Response
 
 Once you hear back from the author, you can review their feedback by checking the discussion reply.
 
