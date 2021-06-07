@@ -33,6 +33,8 @@
   * [Configuring the System to use Gmail SMTP](./email.md#configuring-the-system-to-use-gmail-smtp)
   * [SPF and DMARC Issues](./email.md#spf-and-dmarc-issues)
   * [Troubleshooting Email Problems](./email.md#troubleshooting-email-problems)
+* [Queues](queues.md)
+  * [How to configure Queues](./queues.md#how-to-use)
 * [User Authentication and Single Sign-on](single-signon.md)
   * [LDAP](./single-signon.md#setting-up-ldap)
   * [Shibboleth](./single-signon.md#setting-up-shibboleth)
