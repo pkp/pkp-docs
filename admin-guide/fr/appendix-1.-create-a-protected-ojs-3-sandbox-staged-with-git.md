@@ -22,7 +22,7 @@ Ce README: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) a des instru
 
     ```
     cd <httpd-docs-folder>
-    BRANCH='stable-3_2_1'
+    BRANCH='stable-3_3_0'
     git clone -b $BRANCH --depth 1 https://github.com/pkp/ojs.git ./
     git branch --unset-upstream $BRANCH
     chmod -R 755 *
