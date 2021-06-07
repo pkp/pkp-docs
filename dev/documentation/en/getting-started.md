@@ -66,10 +66,10 @@ Load your browser and navigate to `http://localhost:8000` to install the applica
 
 ## Branches
 
-Published versions of the software can be found in branches in the git repository. For example, run the following command to check out version 3.1.2 of the software.
+Published versions of the software can be found in branches in the git repository. For example, run the following command to check out version 3.3.0 of the software.
 
 ```
-git checkout stable-3_1_2
+git checkout stable-3_3_0
 ```
 
 ## Remotes
