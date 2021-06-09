@@ -6,7 +6,7 @@ title: Data Access Objects (DAOs) - Technical Documentation - OJS|OMP|OPS
 
 Each entity has a `DAO` that converts between the entity's `DataObject` class and the data store where records are kept. The data store is usually the [database](./architecture-database), but some DAOs may interact with file storage, text files, or other data stores.
 
-> A DAO should only read and write its objects to the data store. A DAO should not log events, send emails, or coordinate other activities when interacting with the data store. A DAO should only interact with the tables necessary to read and write objects for its entity. Use a [Repository](./architecture-repositories) instead.
+> A DAO should only read and write its objects to the data store. A DAO should not log events, send emails, or coordinate other activities when interacting with the data store. A DAO should only interact with the tables necessary to read and write objects for its entity. Use a [Repository](./architecture-repositories) to perform these actions.
 {:.warning}
 
 Each entity `DAO` should extend the `EntityDAO` and set the properties which define the entity's schema and table structure.
@@ -26,6 +26,7 @@ class DAO extends EntityDAO
   public $primaryKeyColumns = [
     'id' => 'publication_id',
     'datePublished' => 'date_published',
+    ...
   ];
 }
 ```
@@ -81,7 +82,7 @@ class DAO extends EntityDAO
 }
 ```
 
-The `EntityDAO` knows how to use a schema file to read and write objects to its primary and settings tables. In some cases, it may be necessary for a DAO to interact with other tables. In the example below, the `DAO` for a `Publication` interacts with a separate table where keywords are stored.
+The `EntityDAO` knows how to use a schema file to read and write objects to its primary and settings tables. In some cases, it may be necessary for an entity to store some of its data in another table. In the example below, the `DAO` gets and stores keywords for a `Publication` in another table.
 
 ```php
 namespace PKP\publication;
