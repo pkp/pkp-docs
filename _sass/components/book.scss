@@ -89,9 +89,18 @@
 		border-left: 0.25em solid darken($bg-shade, 15%);
 		background: $bg-shade;
 
+		code {
+			border-color: transparent;
+			padding: 0;
+		}
+
 		&.tip {
 			background: #f8f2b2;
 			border-color: #e4d857;
+
+			code {
+				color: #847800;
+			}
 		}
 
 		&.notice {
