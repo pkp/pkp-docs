@@ -10,7 +10,9 @@ The entity's [DAO](./architecture-daos) is a "dumb" class that only knows how to
 
 A `Repository` may write logs, send emails, fire hooks, refresh cache, or schedule jobs when an object is modified.
 
-Always use the `Repository` class to get, add, edit or delete objects. This will ensure that hooks, email notifications or activity logs are not skipped when an action is taken.
+In rare cases, you may need to use the [DAO](./architecture-daos) to add or edit objects. For example, when importing a submission you may not want to add the object without writing logs, sending emails, or updating the modified date.
+
+In all other cases, use the `Repository` class to get, add, edit or delete objects. This will ensure that hooks, email notifications or activity logs are not skipped when an action is taken.
 
 Get the `Repository` for an entity from the `Repo` facade.
 
