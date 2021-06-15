@@ -39,12 +39,14 @@ Each entity has a `DataObject` class to work with objects in the application.
 > `DataObject`s perform the role of `Model`s in the MVC (Model-View-Controller) application architecture.
 {:.tip}
 
-Create a new object.
+Use the repository to get a new object.
 
 ```php
-use PKP\classes\publication\Publication;
+use APP\facades\Repo;
 
-$publication = new Publication();
+$publication = Repo::publication()->newDataObject();
+
+// $publication is an instance of PKP\classes\publication\Publication
 ```
 
 Set data on an object.
