@@ -177,9 +177,8 @@ class Repository
 
   public function deleteByContextId(int $contextId)
   {
-    $submissionIds = Repo::submission()->getIds(
-        Repo::submission()
-            ->getCollector()
+    $submissionIds = $this->getIds(
+        $this->getCollector()
             ->filterByContextIds([$contextId])
     );
     foreach ($submissionIds as $submissionId) {
