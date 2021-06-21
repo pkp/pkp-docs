@@ -24,13 +24,17 @@ PKP software applications provide a number of options for configuring queues to 
 ; Default queue driver to be used
 default_connection = "database"
 ; Default queue to be used if someone forgot to associate a queue during Queue::push();
-default_queue = null
-; Flag to enable the jobs to run at php shutdown
-run_jobs_at_shutdown = Off
+default_queue = "queue"
+; Flag to disable the jobs to run at php shutdown
+disable_jobs_run_at_shutdown = Off
 ```
 
-To enable queueing usage, you should change the `run_jobs_at_shutdown` value to `On`.
+To disable queueing usage, you should change the `disable_jobs_run_at_shutdown` value to `On`.
 
-Currently the only available value for the `default_connection` it is `database`.
+For `default_connection` value you could choose one from the below list.
 
-And for the `default_queue` you could choose any name.
+* `database`
+
+More options will be available in the next releases.
+
+The option `default_queue` will be used when none queue was choosed for you processing workers

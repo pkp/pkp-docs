@@ -12,7 +12,7 @@ The use of this methodology enables you to run your time-consuming processes in 
 
 Our native methodology to run queued processes is based on the usage of [`register_shutdown_function`](https://www.php.net/manual/en/function.register-shutdown-function.php), to call one queued job at each PHP engine process shutdown.
 
-To enable it you should set your configuration key `run_jobs_at_shutdown` as `On` at your config.inc.php.
+To enable it you should set your configuration key `disable_jobs_run_at_shutdown` as `Off` at your config.inc.php.
 
 # How to use it
 
