@@ -8,9 +8,6 @@ Currently included plugins include an alternative user authentication system (LD
 
 To see all of the available plugins, select **System Plugins** from the Journal's Management pages.  
 
-
-
-
 ![Journal Management Pages: System Plugins](images/chapter5/plugins_1.png)
 
 On the resulting page, you will see all categories of plugins.

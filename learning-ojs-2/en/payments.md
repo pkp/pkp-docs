@@ -2,7 +2,7 @@
 
 OJS includes a Payment module for charging various fees. Fees can be charged for author actions \(including fees for article submission, fast-track peer review, and article publication\); article access \(subscriptions and pay-per-view options\); and for donations and membership dues.
 
-### Payment Options
+## Payment Options
 
 To enable the Payment Module, click on the **Payments** link listed under Management Pages.
 
@@ -28,7 +28,7 @@ Further down the page, you can enable and customize author fees for article subm
 
 ![Gift Purchases](images/chapter5/pay_gift.png)
 
-### Payment Methods
+## Payment Methods
 
 You can edit fee payment options by clicking the Fee Payment Methods link at the top of the Fee Payment Options page.
 
@@ -43,11 +43,10 @@ If you choose the **PayPal Fee Payment** method, you must enter the appropriate 
 
 ![Fee Payment Methods: Paypal](images/chapter5/pay_paypal.png)
 
-### Payment Records
+## Payment Records
 
 The Payment module tracks system payments, and provides records on the Records page. You can access this page by clicking the Records link at the top of the Fee Payment Options page.
 
 ![Payment Records](images/chapter5/payment_record.png)
 
 You will be provided a list of users who have made payments to your journal, with payment type and timestamp listed. If you click on the Details link next to a listed item, you will see a more comprehensive summary of the payment record.
-

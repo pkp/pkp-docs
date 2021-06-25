@@ -1,2 +1,0 @@
-# Install a New Plugin
-

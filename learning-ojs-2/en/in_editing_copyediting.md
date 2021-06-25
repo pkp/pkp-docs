@@ -1,13 +1,6 @@
 # Copyediting
 
-
-
-
-
-
 ## The "Section Editor as Copyeditor" Process
-
-
 
 Copyediting consists of checking the submission for grammatical or stylistic errors. The journal has two options for the copyediting process. In [Chapter 5 ](https://docs.pkp.sfu.ca/learning-ojs-2/en/step_four_management)the Journal Manager can choose to have the Editor or Section Editor act as the Copyeditor, or allow the Editor or Section Editor to select a separate Copyeditor.
 
@@ -18,7 +11,6 @@ If you as the Section Editor are doing the copyediting, follow the 3 copyediting
     Note the link to Copyedit Instructions and the ability to make Copyedit Comments, shared by the Copyeditor, Section Editor, and Author.
 
 ![Copyediting Step 1](images/chapter8/editor_copyeditor_1.png)
-
 
 * **Step 2**: Having completed Step 1, you must now select the Request Email icon.
 
@@ -34,15 +26,11 @@ Once the Author has uploaded any revisions, be sure to use the Acknowledge icon 
 
 ![Copyediting Acknowledgement](images/chapter8/editor_copyeditor_4.png)
 
-
 * **Step 3**: Next, review the Author's latest file (available in Step 2 above). Make any final changes and upload the submission file (by selecting Step 3 and using the file upload tool). Hit the Complete link when this is done. The submission is now ready to move to Scheduling.
 
 ![Copyediting Step 3](images/chapter8/editor_copyeditor_5.png)
 
-
 ## The Separate Copyeditor Process
-
-
 
 If your journal is configured to use separate Copyeditors, you must first select one for the submission using the Assign Copyeditor link.
 
@@ -67,14 +55,11 @@ Once the Copyeditor has completed the first stage of copyediting, both you and t
 
 ![Acknowledge Copyeditor and Author](images/chapter8/copyeditor_assign_5.png)
 
-
 Use the Request icon in Step 3 to ask the Copyeditor to make the final revisions, incorporating changes from the Author (and from you, if you choose to upload your own revised version). Remember to review any Copyedit Comments located just under the upload tool.
 
 Once the Copyeditor is finished with the final revisions, you will receive an email notification. Returning to the submission record, you will see the final copy (e.g.2-25-4.CE.DOCX) and be able to use the Acknowledge icon to thank them for their work. This file will now automatically become the first layout file.
 
-
-![Acknowledging Final Copyedits](images/chapter8/copyeditor_assign_6.png)      
-
+![Acknowledging Final Copyedits](images/chapter8/copyeditor_assign_6.png)
 
 At any time in the editing process, an editor or section editor can view the **History** of a submission which includes an Event Log, Email Log and any Submission Notes on the article.
 
