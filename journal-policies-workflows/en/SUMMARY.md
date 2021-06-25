@@ -5,3 +5,4 @@
 * [Journal Information](./journal-information.md)
 * [Open Access Policies](./oa-policies.md)
 * [Copyright and Licensing](./copyright-licensing.md)
+* [Corrections and Retractions](./corrections-retractions.md)
