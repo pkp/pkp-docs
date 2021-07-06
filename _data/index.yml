@@ -10,6 +10,7 @@ apps:
       - path: starting-a-journal
       - path: learning-ojs-3
       - path: admin-guide
+      - path: upgrade-guide
       - path: developer-docs
         isDeveloper: true
       - path: upgrading-guide
