@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](./introduction.md)
+* [Introduction](.)
 * [Branding Your Journal](./branding.md)
   * [Colours](./branding.md#colours)
   * [Typography](./branding.md#typography)
