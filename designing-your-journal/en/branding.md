@@ -1,3 +1,7 @@
+---
+title: Branding Your Journal - Designing Your OJS Journal
+---
+
 # Branding Your Journal
 
 Before setting up your website’s appearance on the dashboard, it might be worth taking a moment to think about what makes your journal stand out from other journals in your field of study. A visually appealing and well-thought-out website can contribute to your journal’s credibility.
