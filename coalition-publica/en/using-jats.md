@@ -19,11 +19,11 @@ Click on “Plugin Gallery”.
 
 This will show a list of available plugins for installation. Find “JATS Template Plugin”:
 
-![](./assets/jatsTemplatePlugin.png)
+![JATS Template Plugin in the list of plugins.](./assets/jatsTemplatePlugin.png)
 
 Click on “JATS Template Plugin” to see more information about the plugin:
 
-![](./assets/jatsTemplatePluginInfo.png)
+![JATS Template Plugin with plugin information and an Upgrade button.](./assets/jatsTemplatePluginInfo.png)
 
 (Your version of the plugin may not be the same as the version indicated above. It’s always a good idea to use the latest available version of the plugin in the Plugin Gallery.)
 
@@ -31,7 +31,7 @@ Click the “Install” button to install the plugin. (If you do not see the “
 
 You should see a confirmation of installation:
 
-![](./assets/jatsTemplatePluginNotification.png)
+![Notification: Successfully upgraded to version 1.0.1.0.](./assets/jatsTemplatePluginNotification.png)
 
 
 This will install the latest available version of the plugin. (When new versions of this plugin are released, you will be able to update them here. Again, the version number you see may not be the same as the screenshot above.)
@@ -48,11 +48,11 @@ Click on “Plugin Gallery”.
 
 This will show a list of available plugins for installation. Find “OAI JATS Plugin”:
 
-![](./assets/oaiJatsPlugin.png)
+![OAI JATS Plugin in the list of plugins.](./assets/oaiJatsPlugin.png)
 
 Click on “OAI JATS Plugin” to see more information about the plugin:
 
-![](./assets/oaiJatsPluginInfo.png)
+![OAI JATS Plugin with plugin information and an Upgrade button.](./assets/oaiJatsPluginInfo.png)
 
 (Your version of the plugin may not be the same as the version indicated above. It’s always a good idea to use the latest available version of the plugin in the Plugin Gallery.)
 
@@ -60,7 +60,7 @@ Click the “Install” button to install the plugin. (If you do not see the “
 
 You should see a confirmation of installation:
 
-![](./assets/oaiJatsPluginNotification.png)
+![Notification: Successfully upgraded to version 1.0.1.0.](./assets/oaiJatsPluginNotification.png)
 
 This will install the latest available version of the plugin. (When new versions are released, you will be able to upgrade here. Again, the version number you see may not be the same as the screenshot above.)
 
@@ -78,19 +78,19 @@ Click on “Installed Plugins”.
 
 Look in the plugin list for “JATS Template Plugin”:
 
-![](./assets/jatsTemplatePluginListing.png)
+![JATS Template Plugin in the list of plugins with an unchecked checkbox next to it.](./assets/jatsTemplatePluginListing.png)
 
 Click the checkbox on the right to enable the plugin. You should receive a confirmation:
 
-![](./assets/jatsTemplatePluginListingNotification.png)
+![Notification: The plugin "JATS Template Plugin" has been enabled.](./assets/jatsTemplatePluginListingNotification.png)
 
 Now find the “JATS Metadata Format”:
 
-![](./assets/jatsMetadataFormatPluginListing.png)
+![JATS Metadata Format in the list of plugins with an unchecked checkbox next to it.](./assets/jatsMetadataFormatPluginListing.png)
 
 Click the checkbox beside that to enable it as well. You should receive a confirmation:
 
-![](./assets/jatsMetadataFormatPluginListingNotification.png)
+![Notification: The plugin "JATS Metadata Format" has been enabled.](./assets/jatsMetadataFormatPluginListingNotification.png)
 
 Don’t forget to repeat these steps for any other journals you wish to include in Érudit.
 
@@ -125,7 +125,7 @@ In addition to configuring your OJS for Coalition Publica, this step will also h
 
 Under Settings > Distribution > Access, you will see a series of settings:
 
-![](./assets/journalSettings.png)
+![Access to journal content settings with options to provide open access (selected), require subscription, not use OJS for publishing, and enable OAI access to content (selected).](./assets/journalSettings.png)
 
 Whichever of the first 3 access settings you choose for your journal, ensure that “Enable OAI access to content” is checked. Save the settings.
 
