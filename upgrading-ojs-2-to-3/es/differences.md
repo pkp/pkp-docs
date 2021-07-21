@@ -14,7 +14,7 @@ Aunque las características fundamentales de OJS son consistentes entre las vers
 
 Para ver un resumen de las características que puede esperar ver en OJS 3, vea nuestro [Actualización a OJS 3](https://youtu.be/DKYBlzoz-NU) video a continuación.
 
-[![Actualización a OJS 3](https://i9.ytimg.com/vi_webp/DKYBlzoz-NU/mqdefault.webp?v=60f733ec&sqp=CMzr3IcG&rs=AOn4CLAi_DqtwAUBakOVmHVCgeRyIpWPBg)](https://youtu.be/DKYBlzoz-NU)
+[![Actualización a OJS 3](https://img.youtube.com/vi/DKYBlzoz-NU/0.jpg)](https://youtu.be/DKYBlzoz-NU)
 
 ## Interfaz de OJS 3
 
