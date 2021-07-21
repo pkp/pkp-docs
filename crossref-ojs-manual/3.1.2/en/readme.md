@@ -1,6 +1,6 @@
 ---
 book: crossref-ojs-manual
-version: 3.1
+version: 3.1.2
 ---
 # Crossref | OJS 3.1.2+ Manual
 

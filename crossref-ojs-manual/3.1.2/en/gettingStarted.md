@@ -1,6 +1,6 @@
 ---
 book: crossref-ojs-manual
-version: 3.1
+version: 3.1.2
 ---
 # Getting Started with DOIs
 
@@ -44,9 +44,7 @@ Let's break these steps down one by one.
     - Technical Support Contact (name and email)
     - Publisher (Institution and URL)
 2. Enable and configure the "DOI" public identifier plugin at **Settings** > **Website** > **Plugins** > **DOI Plugin** (under the section "public identifier plugins").
-    - First, **Enable** the plugin by checking the box to the right of it; then configure the plugin by clicking its **Settings** link.
-    - For plugin settings, ensure that you have only _Articles_ checked for depositing journal content.
-    - You must include a DOI prefix which you get from Crossref and additionally must configure the DOI suffix. We **strongly recommend** using the default patterns if you are a new journal and have not previously had DOIs issued.
+   - Please read the [DOI Plugin documentation](/doi-plugin/). 
 3. Assign DOIs.
     - At the bottom of this page, you'll see two links for assigning DOIs en masse. One is "assign DOIs," which makes DOIs using the suffix pattern you set above. It assigns a DOI to anything that does not already have one.
     - You'll also see one that says, "re-assign DOIs." **_Only click this if you have not registered any of your DOIs and made an error in prior suffix generation_**.  
