@@ -1,5 +1,5 @@
 ---
-title: FAQ about Installing and Upgrading Open Journals Systems (OJS) and Other PKP Software
+title: FAQ about Installing and Upgrading Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
 ---
 
 # Installing and Upgrading
