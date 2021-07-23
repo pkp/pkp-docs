@@ -1,5 +1,5 @@
 ---
-title: FAQ about How to Get Started with Open Journal Systems (OJS) and Other PKP Software
+title: FAQ about How to Get Started with Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
 ---
 
 # Getting Started
