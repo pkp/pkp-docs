@@ -1,3 +1,7 @@
+---
+title: FAQ about Installing and Upgrading Open Journals Systems (OJS) and Other PKP Software
+---
+
 # Installing and Upgrading
 
 ## Where can I find help upgrading my site?
