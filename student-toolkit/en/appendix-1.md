@@ -1,5 +1,5 @@
 ---
-title: Appendix One: Why start a student journal?-Student Journal Toolkit
+title: Appendix One: Why start a student journal? - Student Journal Toolkit
 ---
 
 # Appendix One: Why start a student journal?
