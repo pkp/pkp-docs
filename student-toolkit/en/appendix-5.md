@@ -1,5 +1,5 @@
 ---
-title: Appendix Five: IPinCH Traditional Knowledge Fact Sheet- Student Journal Toolkit
+title: Appendix Five: IPinCH Traditional Knowledge Fact Sheet - Student Journal Toolkit
 ---
 # Appendix Five: IPinCH Traditional Knowledge Fact Sheet
 
