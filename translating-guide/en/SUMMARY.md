@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](introduction.md)
+* [Introduction](.)
 * [Manage Languages in PKP Software](managing-languages.md)
   * [How Languages and Locales Work](./managing-languages.md#how-languages-and-locales-work)
   * [Check Language Availability](./managing-languages.md#check-language-availability)
