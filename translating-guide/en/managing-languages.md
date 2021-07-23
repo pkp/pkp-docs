@@ -1,7 +1,9 @@
 ---
 book: translating-guide
 version: 3.2
+title: How to Manage Languages in Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
 ---
+
 # Manage Languages in PKP Software
 
 ## How Languages and Locales Work
