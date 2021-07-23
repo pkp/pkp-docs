@@ -1,3 +1,7 @@
+---
+title: FAQ about How to Get Started with Open Journal Systems (OJS) and Other PKP Software
+---
+
 # Getting Started
 
 ## How can I use OJS for my journal?
