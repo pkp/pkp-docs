@@ -1,3 +1,7 @@
+---
+title: Appendix Two: OA Journal Infographic- Student Journal Toolkit
+---
+
 # Appendix Two: OA Journal Infographic
 
 ![Infographic on starting an Open Access journal.](./assets/app-2-oa-infographic-1.png)
