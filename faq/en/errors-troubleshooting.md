@@ -1,3 +1,7 @@
+---
+title: Frequently Asked Questions (FAQ) about Errors and Troubleshooting in PKP Software
+---
+
 # Errors and Troubleshooting
 
 ## Why do I get an error message when I try to upload a file?
