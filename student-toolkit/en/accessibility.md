@@ -1,5 +1,5 @@
 ---
-title: Accessibility- Student Journal Toolkit
+title: Accessibility - Student Journal Toolkit
 ---
 # Accessibility
 
