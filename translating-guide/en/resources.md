@@ -1,7 +1,9 @@
 ---
 book: translating-guide
 version: 3.2
+title: Resources and Community for Translating PKP Software and Documentation
 ---
+
 # Translation Resources and Community
 
 If your question is about how to use Weblate, there is excellent documentation available [on the Weblate website](https://weblate.org).
