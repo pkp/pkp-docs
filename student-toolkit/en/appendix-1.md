@@ -1,3 +1,7 @@
+---
+title: Appendix One: Why start a student journal?-Student Journal Toolkit
+---
+
 # Appendix One: Why start a student journal?
 
 ## Benefits and challenges of publishing a student journal
