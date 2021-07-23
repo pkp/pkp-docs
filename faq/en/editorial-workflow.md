@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions (FAQ) about the Editorial Workflow in OJS
+title: FAQ about the Editorial Workflow in Open Journal Systems (OJS) and Open Monograph Press (OMP)
 ---
 
 # Editorial Workflow
