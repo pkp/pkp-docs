@@ -1,5 +1,5 @@
 ---
-title: Frequently Asked Questions (FAQ) about Errors and Troubleshooting in PKP Software
+title: FAQ about Errors and Troubleshooting in Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
 ---
 
 # Errors and Troubleshooting
