@@ -1,3 +1,7 @@
+---
+title: Frequently Asked Questions (FAQ) about the Editorial Workflow in OJS
+---
+
 # Editorial Workflow
 
 ## Can a reviewer change a recommendation they already submitted?
