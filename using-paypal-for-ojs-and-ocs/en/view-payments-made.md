@@ -1,3 +1,7 @@
+---
+title: View payments made - Using the PayPal Plugin for OJS and OMP
+---
+
 # View payments made
 
 To view completed payments made with PayPal:
