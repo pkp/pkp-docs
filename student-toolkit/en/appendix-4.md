@@ -1,5 +1,5 @@
 ---
-title: Appendix Four: Call for Papers, Cinema in Practice- Student Journal Toolkit
+title: Appendix Four: Call for Papers, Cinema in Practice - Student Journal Toolkit
 ---
 
 # Appendix Four: Call for Papers, Cinema in Practice
