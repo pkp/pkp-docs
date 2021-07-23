@@ -82,8 +82,12 @@ To start, go to Press Setting followed by the Categories tab.
 7. Add an image that will appear at the top of the category’s page (optional)
 8. Click Save
 
-![Animation of the steps mentioned above being performed.](./assets/learning-omp3.2-press-setting-categories-1.gif)
-
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/learning-omp3.2-press-setting-categories-1.mp4" type="video/mp4">
+  </video>
+  <figcaption>Video of the steps above being performed.</figcaption>
+</figure>
 
 #### Edit a category
 
@@ -91,7 +95,12 @@ To start, go to Press Setting followed by the Categories tab.
 2. Make the changes
 3. Click OK
 
-![Animation of the steps mentioned above being performed.](./assets/learning-omp3.2-press-setting-categories-2.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/learning-omp3.2-press-setting-categories-2.mp4" type="video/mp4">
+  </video>
+  <figcaption>Video of the steps above being performed.</figcaption>
+</figure>
 
 #### Remove a category
 
@@ -99,7 +108,12 @@ To start, go to Press Setting followed by the Categories tab.
 2. Click the Remove button that appears below
 3. Confirm that you want to remove the category
 
-![Animation of the steps mentioned above being performed.](./assets/learning-omp3.2-press-setting-categories-3.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/learning-omp3.2-press-setting-categories-3.mp4" type="video/mp4">
+  </video>
+  <figcaption>Video of the steps above being performed.</figcaption>
+</figure>
 
 #### Display categories
 
