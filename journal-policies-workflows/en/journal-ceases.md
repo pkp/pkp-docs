@@ -1,8 +1,28 @@
-# Journal ceases to publish
+# Journal changes publisher / platform or ceases to publish
 
-If your journal plans to cease publication for an extended period of time, it’s important to clearly indicate to users that the journal is not actively accepting submissions at this time. Disabling submissions and registrations on the journal site also protects it against security threats that can occur when the registration option is left open without anyone actively monitoring new accounts. If the journal decides to resume publication in the future, these steps can be reversed so that the journal can accept further submissions.
+If your journal undergoes a major change such as changing publisher or hosting platform, or if your plans to cease publication for an extended period of time, there are some important steps to consider to make sure this transition goes smoothly. 
+
+## Communicating to your readers, authors, and reviewers
+
+With any major changes such as a new platform or publisher, or when ceasing publication, it's important to inform your readers, authors, and reviewers with as much notice as possible, and provide them with key information about any impact to them and their work. 
+
+When changing publishers or platforms, users who take part of any workflow aspects such as Editorial Review, or any function that might be comparable to the workflow in OJS, ought to know how this will be impacted as part of this transition. If migrating from OJS to a new publishing system, give consideration to how users might be oriented and trained to a new system. If your journal is a subscription journal, your subscribers may need to know if there are steps that they will need to take within your new journal setup to ensure the continuity of their subscriptions. 
+
+When a journal is ceasing publication, users should be informed of how work published in the journal will continue to be made accessible (see archiving options, below).  
+
+In OJS 3.3, you can notify all users in the journal, or all users with a particular role, using the Notify feature under Users and Roles, providing this feature has been enabled by your journal administrator. See [Learning OJS 3 > Users and Roles > Email users](/learning-ojs/en/users-and-roles#email-users) for instructions on using this feature.  
+
+You can also notify users with the Announcements feature. This will create an announcement on the journal website and will (optionally) email all users who have not opted out of receiving email notifications. See [Learning OJS 3 > Website Settings > Announcements](/learning-ojs/en/settings-website#announcements) for information on this feature.
+
+## Indicating a publishing history (e.g., on Journal About page)
+In addition to notifying current users via an email or announcement, it's a good idea to place clear messaging in the journal's "About" statement to describe the history and current status of the journal. This can include information about the journal's affiliation with certain publishers and the relevant dates, or, in the case of a journal that has ceased publishing, details about the history of the journal and the fact that it is no longer publishing. For example: 
+
+“From 2010–2015, XYZ Journal was affiliated with ABC Publishers. From 2015–Present, XYZ Journal is published by XYZ Publisher.”
+"This journal published from 2010 to 2020. Since 2021 the journal site is an archive and is not currently accepting new submissions."
 
 ## Disabling submissions
+
+When a journal ceases publication for an extended period of time, it is important to clearly indicate to users that the journal is not actively accepting submissions. Disabling submissions and registrations on the journal site also protects it against security threats that can occur when the registration option is left open without anyone actively monitoring new accounts. If the journal decides to resume publication in the future, these steps can be reversed so that the journal can accept further submissions.
 
 To disable new submissions to the journal, you will need to be in the Journal Manager role. You can do it in two ways:
 
@@ -21,13 +41,13 @@ You can remove the Submissions page from the website by logging in as a journal 
 
 You may wish to disable new registrations on the journal site to avoid security issues that may occur from spam or bot accounts accessing the journal site. To do this, visit Users and Roles > Site Access Options, and select “The Journal Manager will register all user accounts. Editors or Section Editors may register user accounts for reviewers.” This will remove the “Register” option from the public-facing journal site but will still allow Journal Managers to create new accounts under Users and Roles > Users > Add user.
 
-## Communicating to your readers, authors, and reviewers
+## Exporting options
 
-It’s a good idea to inform your readers, authors, and reviewers that the journal is ceasing publication and let them know how work published in the journal will continue to be made accessible (see archiving options, below).  
+If migrating to a platform other than OJS, you may wish to investigate what formats OJS can export to that might be most appropriate for your needs. If migrating to a new platform or hosting provider, you may wish to consult with them on what the best options for migrating your content from OJS may be.
 
-In OJS 3.3, you can notify all users in the journal, or all users with a particular role, using the Notify feature under Users and Roles, providing this feature has been enabled by your journal administrator. See [Learning OJS 3 > Users and Roles > Email users](/learning-ojs/en/users-and-roles#email-users) for instructions on using this feature.  
+## Forwarding URL
 
-You can also notify users with the Announcements feature. This will create an announcement on the journal website and will (optionally) email all users who have not opted out of receiving email notifications. See [Learning OJS 3 > Website Settings > Announcements](/learning-ojs/en/settings-website#announcements) for information on this feature.
+If your journal changes names or you have the need for a change of domain name (e.g., change from journalxyz.com to journalabc.com), ensure that you set up domain forwarding with your old domain name to your new one. If your journal uses DOIs, you will need to redeposit/update the DOI metadata with CrossRef to ensure that they point to the updated URLs for articles.
 
 ## Archiving options
 
