@@ -1,3 +1,7 @@
+---
+generateHeadingToc: true
+---
+
 # OJS 3.3+ Default Theme Accessibility Statement
 
 ## Introduction
