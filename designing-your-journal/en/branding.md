@@ -1,3 +1,7 @@
+---
+title: Branding Your Journal - Designing Your OJS Journal
+---
+
 # Branding Your Journal
 
 Before setting up your website’s appearance on the dashboard, it might be worth taking a moment to think about what makes your journal stand out from other journals in your field of study. A visually appealing and well-thought-out website can contribute to your journal’s credibility.
@@ -12,7 +16,12 @@ OJS 3’s dashboard allows for some personalisation without having to alter the 
 
 ## Colours
 
-![Animation of a user accessing OJS appearance settings and selecting a pink accent under the "Colour" option.](./assets/website-settings-change-colours.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/website-settings-change-colours.mp4" type="video/mp4">
+  </video>
+  <figcaption>Animation of a user accessing OJS appearance settings and selecting a pink accent under the "Colour" option.</figcaption>
+</figure>
 
 When selecting the colour scheme for your journal, stick to simple palettes composed of grayscale with one or two accent colours. This will help your website look professional and uncluttered. Most default themes will only allow for one or two colours; make sure the chosen colours do not obstruct the text or any images on your website. It is possible to further customize your site’s colours with CSS, but we do not recommend this for beginners.
 
@@ -20,7 +29,12 @@ For more information about accessible colour choices and screenshot examples, se
 
 ## Typography
 
-![Animation of a user accessing OJS appearance settings and selecting a new font under the Typography option.](./assets/website-settings-change-typography.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/website-settings-change-typography.mp4" type="video/mp4">
+  </video>
+  <figcaption>Animation of a user accessing OJS appearance settings and selecting a new font under the Typography option.</figcaption>
+</figure>
 
 Different typefaces and fonts can convey different tones. The OJS 3 default theme offers a few pairing options, whereas other themes might give you the option to select your own. If you wish to customize this, you will have to [edit CSS stylesheets manually](./creating-stylesheet.md).
 

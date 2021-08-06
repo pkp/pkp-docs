@@ -22,8 +22,8 @@ The README here: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) has in
 
    ```
    cd <httpd-docs-folder>
-   BRANCH='stable-3_2_1'
-   git clone -b $BRANCH --single-branch https://github.com/pkp/ojs.git ./
+   BRANCH='stable-3_3_0'
+   git clone -b $BRANCH --depth 1 https://github.com/pkp/ojs.git ./
    git branch --unset-upstream $BRANCH
    chmod -R 755 *
    ```
@@ -31,7 +31,7 @@ The README here: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) has in
 3. Fetch corresponding PKP library and checkout stable branch from GitHub, making sure that the branch corresponds to the same branch referenced above:
 
    ```
-   git submodule update --init --recursive
+   git submodule update --init --recursive --depth 1
    ```
 
 4. Install composer:

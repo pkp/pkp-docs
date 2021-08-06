@@ -4,36 +4,17 @@ From the Hosted Journals page you can create, edit and delete hosted journal sit
 
 From the Site Administration menu, under the Site Management heading, choose **Hosted Journals**.
 
-
-
-
-
-  
 ![Hosted Journals](images/chapter4/hosted_journals.png)
-
-
-
 
 Your Hosted Journals page will look like this, and if you haven't created any journals yet, it will be empty.
 
-
-
-
-
 ![Hosted Journals Page](images/chapter4/sa_hosted_journals.png)
 
-
-### Creating a New Journal
-
-
+## Creating a New Journal
 
 To create a new journal, simply click the Create Journal link and fill out the following Journal Settings form.
 
-
-
-
 ![Creating a Journal](images/chapter4/sa_journal_settings.png)
-
 
 Form Options are as follows:
 
@@ -45,21 +26,14 @@ Form Options are as follows:
 
 Your new journal will be created once you have filled in all appropriate information and clicked the Save button. Additionally, you will have been enrolled as a Journal Manager for this new journal. At this point you will be the only registered user for that journal, and you should either register an appropriate Journal Manager for initial setup, or undertake initial setup yourself.
 
-
-### Editing, Deleting and Ordering Hosted Journals
-
+## Editing, Deleting and Ordering Hosted Journals
 
 Once you have created a journal you will have a hosted journal list.
 
 **Figure: Populated Hosted Journals Page**  
 
-
-
-
 ![Journal List](images/chapter4/journal_list.png)
-
 
 You will notice that the journal title is hyperlinked. Clicking it will take you to the journal's Journal Management pages, where you can complete basic journal setup, or enroll another Journal Manager to do so.
 
 To the right of the hyperlinked journal title you will also see Edit and Delete links. Clicking Edit will bring you back to the same page you saw when you created the journal, if you need to edit the journal's title, description, and other preferences. Clicking Delete will delete the journal and all of its contents permanently.
-

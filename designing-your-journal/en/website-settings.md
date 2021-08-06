@@ -1,3 +1,7 @@
+---
+title: Customize Your Journal through Website Settings - Designing Your OJS Journal
+---
+
 # Website Settings
 
 You can customize your website’s look and feel by selecting one of the several available themes under Settings > Website > Appearance. For the list of available themes with description and demo pages see the [PKP Theming Guide - Themes](https://docs.pkp.sfu.ca/pkp-theming-guide/en/themes). You can change other settings that affect the appearance of your journal under Settings > Website > Appearance. See [Learning OJS 3 - Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details on selecting a theme and configuring appearance settings.

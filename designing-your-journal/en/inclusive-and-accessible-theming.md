@@ -1,3 +1,7 @@
+---
+title: Inclusive and Accessible Theming - Designing Your OJS Journal
+---
+
 # Inclusive and Accessible Theming
 
 When making design changes, it is important to be mindful of the diversity of your readership and inclusive of users’ needs and circumstances. In addition to visual impairments, users may be affected by hearing, cognitive, and motor limitations when browsing a website; others may have a different social or cultural background that may alter their understanding of content. These circumstances may be permanent, as with colour vision deficiencies (CVD), or temporary, as with browsing on a smaller screen with a slow internet connection.
