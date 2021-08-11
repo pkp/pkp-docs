@@ -21,8 +21,8 @@ apps:
       - path: pkp-school
       - path: plugin-guides
       - path: publishing-resources
-      - path: gdpr
       - path: translation
+      - path: privacy-inclusivity-compliance
   - path: omp3
     title: Open Monograph Press
     titleShort: OMP
