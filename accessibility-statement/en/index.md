@@ -47,9 +47,9 @@ Access Changes Everything Inc. paid multiple testers with different disabilities
 * Apple VoiceOver Screen Reader in Safari with 40 Cell Braille Display (Mac)
 * Apple VoiceOver Screen Reader in Safari with 40 Cell Braille Display (iPad Pro)
 * Dragon Naturally Speaking Premium 13 (PC)
-* Access Changes Everything Inc. used Mac, PC and iPhone to test the site with Chrome and Firefox browsers. 
 
-Certain technologies were used in the audit:
+Access Changes Everything Inc. used Mac, PC and iPhone to test the site with Chrome and Firefox browsers. Certain technologies were used in the audit:
+
 * Browser magnification (100%-400%)
 * Colour contrast shifting
 * Voice control (iPhone only)
@@ -67,8 +67,7 @@ There remain some barriers that could not be fully eliminated. These are either 
 * reCAPTCHA. When enabled on the user registration page, reCAPTCHA presents a major barrier for screen reader users with braille devices and VoiceControl users on iPhone. Additionally reCAPTCHA is missing an iFrame title and a form label, so even those screen reader users who can use it, may encounter barriers.
 
 reCAPTCHA is a Captcha system and third party service developed by Google and integrated as an optional OJS feature which can be disabled. Alternatives exist, such as the [OJS Honeypot plugin](https://github.com/ulsdevteam/pkp-formHoneypot).
-* Content. Website content and published content created in a manner non-compliant with accessibility standards can present barriers for users. This may include, but not limited to: images uploaded with no alternative text, improperly structured headings, inaccessible hyperlinks, missing figures caption, and incorrect or incomplete data table structure. While these are out of scope for the Default Accessible Theme, PKP provides guidance for editors on 
-[Creating Accessible Content](https://docs.pkp.sfu.ca/accessible-content/).
+* Content. Website content and published content created in a manner non-compliant with accessibility standards can present barriers for users. This may include, but not limited to: images uploaded with no alternative text, improperly structured headings, inaccessible hyperlinks, missing figures caption, and incorrect or incomplete data table structure. While these are out of scope for the Default Accessible Theme, PKP provides guidance for editors on [Creating Accessible Content](https://docs.pkp.sfu.ca/accessible-content/).
 * Remaining barriers. The other remaining barriers are listed in the 
 [PKP Accessibility Github Project](https://github.com/pkp/pkp-lib/projects/16) that will continue to be updated as barriers are resolved.
 
