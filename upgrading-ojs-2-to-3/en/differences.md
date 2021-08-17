@@ -49,7 +49,6 @@ There are also some features from OJS 2 that are missing or still in development
 
 * Some plugins have not been ported to OJS 3, including Books for Review and Dataverse
 * Email template management and user notification management is still being refined
-* Payments and subscriptions functionality is less developed and some features are not available, including donations
 
 It is important to take an inventory of your useful and frequently used plugins and features and their availability for the newer version of OJS before deciding to upgrade.
 
