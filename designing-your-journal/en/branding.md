@@ -16,22 +16,19 @@ OJS 3’s dashboard allows for some personalisation without having to alter the 
 
 ## Colours
 
-When selecting the colour scheme for your journal, stick to simple palettes composed of grayscale with one or two accent colours. This will help your website look professional and uncluttered. Most default themes will only allow for one or two colours; make sure the chosen colours do not obstruct the text or any images on your website. 
+When selecting the colour scheme for your journal, stick to simple palettes composed of grayscale with one or two accent colours. This will help your website look professional and uncluttered. Most default themes will only allow for one or two colours; make sure the chosen colours do not obstruct the text or any images on your website.
 
 Theme colours in OJS can be edited under Website > Appearance > Theme. You can select a colour by using a slider or entering the HEX value for the colour (e.g. #10BECA). It is possible to further customize your site’s colours with CSS, but we do not recommend this for beginners.
 
-![Manuscript theme options with 2 colour selection screens - theme colour and accent colour.](/contributing/en/assets/OJS_3.3_manuscript_theme_colour_pick.png)
+![Manuscript theme options with 2 colour selection screens - theme colour and accent colour.](./assets/OJS_3.3_manuscript_theme_colour_pick.png)
 
 For more information about accessible colour choices and screenshot examples, see [Inclusive and Accessible Theming -- Colours](./inclusive-and-accessible-theming#colours).
-
-
-
 
 ## Typography
 
 Different typefaces and fonts can convey different tones. The OJS 3 default theme offers a few pairing options under Website > Appearance > Theme.
 
-![Default theme font combination options.](/contributing/en/assets/OJS_3.3_default_theme_fonts.png)
+![Default theme font combination options.](./assets/OJS_3.3_default_theme_fonts.png)
 
 To customize fonts in other themes, you will have to [edit CSS stylesheets manually](./creating-stylesheet.md).
 
