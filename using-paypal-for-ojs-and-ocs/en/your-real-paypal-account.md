@@ -1,3 +1,7 @@
+---
+title: Use Your Real PayPal Account - Using the PayPal Plugin for OJS and OMP
+---
+
 # Use Your Real PayPal Account
 
 Once you’ve confirmed that payments from the pretend accounts are successful, you can now enable the PayPal Account.

@@ -1,3 +1,6 @@
+---
+title: Preservation - Student Journal Toolkit
+---
 # Preservation
 
 The articles and other submissions of your journal add value to their area(s) of research, and having a preservation plan or policy will ensure they continue to do so.
