@@ -1,3 +1,7 @@
+---
+title: FAQ about Features and Uses of Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+---
+
 # Software Features
 
 ## How do I know if OJS / OMP / OPS is right for us?

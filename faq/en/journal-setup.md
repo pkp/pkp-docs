@@ -1,3 +1,7 @@
+---
+title: FAQ about How to Set Up and Manage a Journal in Open Journal Systems (OJS)
+---
+
 # Journal Setup and Management
 
 ## How can I create a unique look for my journal, press, or server website?

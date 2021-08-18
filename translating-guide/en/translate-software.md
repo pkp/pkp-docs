@@ -1,7 +1,9 @@
 ---
 book: translating-guide
 version: 3.2
+title: How to Translate PKP Software - Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
 ---
+
 # Translate PKP Software
 
 Starting with OJS/OMP 3.2, we are using the web-based translation tool [Weblate](https://weblate.org) to manage translations of OJS and OMP.

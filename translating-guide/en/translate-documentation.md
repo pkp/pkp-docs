@@ -1,3 +1,9 @@
+---
+book: translating-guide
+version: 3.2
+title: How to Translate PKP Software Documentation for Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+---
+
 # Translate PKP Documentation
 
 PKP uses a different tool for translating documentation called Crowdin, which is compatible with markdown - and so better suited for translating documentation than Weblate. This chapter explains how to use Crowdin, find documentation to translate, proofread documentation, and maintain translations.
