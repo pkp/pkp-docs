@@ -1,5 +1,5 @@
 ---
-title: Appendix Two: OA Journal Infographic - Student Journal Toolkit
+title: 'Appendix Two: OA Journal Infographic - Student Journal Toolkit'
 ---
 
 # Appendix Two: OA Journal Infographic

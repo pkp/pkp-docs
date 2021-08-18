@@ -1,5 +1,5 @@
 ---
-title: Appendix Three: OA Journal Canvas - Student Journal Toolkit
+title: 'Appendix Three: OA Journal Canvas - Student Journal Toolkit'
 ---
 
 # Appendix Three: OA Journal Canvas
