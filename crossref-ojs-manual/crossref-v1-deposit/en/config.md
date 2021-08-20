@@ -28,7 +28,7 @@ In OJS 3.1.x this can be completed by a user with the Journal Manager and/or Jou
 * Once you have selected the issue(s) or article(s) click 'Download XML'
 * Save a copy of the file on your local desktop
 * Navigate to [Crossref’s metadata quality check](https://www.crossref.org/02publishers/parser.html) and upload your file here first to check for any validation errors.
-* Login to your [Crossref Administrative Console](https://doi.crossref.org/servlet/useragent)
+* Login to your [Crossref Administration Console](https://doi.crossref.org/servlet/useragent)
 * Click on the Submissions tab
 * Click on “choose file” and select your XML export file. Make sure that “metadata” is selected below, and click upload
 
@@ -48,7 +48,7 @@ In OJS 2, the Journal Manager role  will be required to complete this step.
 * Once you have selected the issue(s) or article(s) click 'Download XML'
 * Save a copy of the file on your local desktop
 * Navigate to [Crossref’s metadata quality check](https://www.crossref.org/02publishers/parser.html) and upload your file here first to check for any validation errors.
-* Login to your [Crossref Administrative Console](https://doi.crossref.org/servlet/useragent)
+* Login to your [Crossref Administration Console](https://doi.crossref.org/servlet/useragent)
 * Click on the Submissions tab
 * Click on “choose file” and select your XML export file. Make sure that “metadata” is selected below, and click upload
 
