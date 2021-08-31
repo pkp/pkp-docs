@@ -60,9 +60,7 @@ Hit the **Save** button to save your changes.
 
 ## Sections
 
-Use this page to configure the different sections of your journal. E.g., Articles, Editorials, Reviews, Commentary, etc.
-
-All of your existing sections will appear here. OJS requires at least one section, and creates an "Articles" section by default.
+Use this page to configure the different sections of your journal. E.g., Articles, Editorials, Reviews, Commentary, etc. OJS requires at least one section, and creates an "Articles" section by default. You can create new sections, edit existing sections, or delete sections. The sections will appear for an author to select when they make a submission and they will be used to organize the articles in your published issues. You can also assign editors to specific sections. This part of the guide explains how you can configure sections.
 
 ![OJS dashboard view of Journal Settings submenu Sections with links for Order and Create Section and editable list of current sections.](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
 
@@ -127,6 +125,10 @@ When you have more than one section created, you will see an Order link. Use tha
 ![A list of available sections from top to bottom of page in OJS dashboard.](./assets/learning-ojs3.2-jm-settings-journal-sections-order.png)
 
 Hit the **Done** button when you are finished.
+
+### Delete Sections
+
+You can only delete a section if there are no articles assigned to it. If you want to delete a section that has articles assigned to it, you will need to move the articles to a different section first. Then click the blue arrow below the section name to reveal the **Delete** link, then click the link. OJS will ask if you want to permanently delete the section and you can click **Yes**.
 
 ## Categories
 
