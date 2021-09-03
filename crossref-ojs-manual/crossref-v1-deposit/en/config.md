@@ -57,3 +57,5 @@ You should receive an email to let you know the status of your submission, provi
 ![OJS 2.x Crossref plugin interface](./assets/crossref-v1-deposit-2.x.png)
 
 For further instructions on Crossref's Admin Tool, see Crossref's documentation - [Upload XML files using our admin tool](https://www.crossref.org/documentation/member-setup/direct-deposit-xml/admin-tool/).
+
+[Video instruction](https://www.screencast.com/t/9SO2kJtW) for Crossref XML Deposit for OJS 2 and 3.1x is also available.
