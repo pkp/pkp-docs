@@ -58,31 +58,23 @@ The Public Knowledge Project provides hosting services for journals as part of t
 
 ## Digital Preservation
 
-Ensuring the longevity of your publication involves more than just having appropriate hosting, backups and securing the OJS application. Taking measures to ensure appropriate digital preservation of your journal content is an important step for ensuring the longevity of your journal. The section that follows is not a comprehensive overview of the entirely of digital preservation, and is not intended to replace an overall organizational digital preservation plan or strategy, but instead offers some advice on digital preservation as it relates to online journals and OJS in particular.
+> Section contributed by Emily Zheng, Roger Gillis, and Kevin Stranack
+
+Ensuring the longevity of your publication involves more than just having appropriate hosting, backups and securing the OJS application. Taking measures to ensure appropriate digital preservation of your journal content is an important step for ensuring the longevity of your journal. The section that follows is not a comprehensive overview of the entirely of digital preservation, and is not intended to replace an overall organizational digital preservation plan or strategy, but instead offers some advice on digital preservation as it relates to online journals and OJS in particular and outlines some preservation options.
 
 ### Lots of Copies Keep Stuff Safe (LOCKSS)
 
-> Section contributed by Kevin Stranack
-
 Once your journal is set up on a secure and reliable server, you will still want to make sure you have an emergency preservation strategy in place. Unlike print publishing, where multiple copies are produced, distributed, and maintained by libraries, electronic journals often produce only a single electronic file (or set of files), which are accessed by multiple readers over the Internet. If this single file is lost, due to a system failure or human error, and no reliable backup exists, all of your work, and the work of your collaborators could simply disappear – permanently. To help online journal publishers overcome this potential disaster, Stanford University developed the open source LOCKSS project (Lots of Copies Keeps Stuff Safe). LOCKSS consists of geographically distributed servers maintained by libraries, the traditional experts in information storage and preservation. LOCKSS ensures that multiple copies of your content exists on a network of servers, that all of your latest content is collected and securely stored by a specialized web crawler (similar to those used by search engines), is continually examined for lost or damaged content, and makes any necessary repairs. Further details on how this system works is available on the [LOCKSS website](https://www.lockss.org/).
 
-## Public Knowledge Project Preservation Network (PKP PN)
+### Why Consider Preservation?
 
-> Section contributed by Bronwen Sprout
+Considering digital preservation is a key part of sustainability and future-proofing. In the event that a journal stops publishing and goes offline, the following options can offer ways to have continued long-term access to published content.
 
-In addition to backing up your journal content, you will also want to plan for long term preservation in the event that your journal ceases publication and your host/publisher no longer provides access to your content. PKP has developed a low barrier preservation option to digitally preserve OJS journals in the form of the [PKP Preservation Network (PKP PN)](https://pkp.sfu.ca/pkp-pn/). The PKP PN provides free preservation services for any OJS journal that meets a few minimum requirements. The PKP PN is a dark archive, meaning that end users will not have access to the preserved content until after a “trigger event” (notification by the journal manager or cessation of deposits into the PN after a period of inactivity). After a trigger event, PKP staff will approve the importing of the preserved content into one or more OJS instances hosted by PKP member institutions. Once loaded into these host OJS instances, the content will be openly accessible.
+Preservation is a requirement for initiatives such as the [Directory of Open Access Journals (DOAJ)’s](https://doaj.org/) Seal status, and [Plan S](https://www.coalition-s.org/addendum-to-the-coalition-s-guidance-on-the-implementation-of-plan-s/principles-and-implementation/). It may also be a requirement to apply for certain grants through national funding agencies.
 
-The PKP PN uses the LOCKSS (Lots of Copies Keep Stuff Safe) program, which offers decentralized and distributed preservation, seamless perpetual access, and preservation of the authentic original version of the content. This open source software is developed at Stanford University Library and enables libraries to preserve selected web journals by regularly polling registered journal websites for newly published content and archiving it. Each archive is continually validated against other library caches, and if content is found to be corrupted or lost, the other caches or the journal are used to restore it.
+### DOAJ and Digital Preservation/Archiving Policy
 
-There are a number of existing ejournal preservation programs in addition to the PKP PN, including the [Global LOCKSS Network](https://www.lockss.org/community/networks/), [CLOCKSS](https://clockss.org/), [Portico](https://www.portico.org/), and various national libraries. Many of these have an associated evaluation component and/or a fee for publisher participation. For example, the Global LOCKSS Network primarily preserves content from larger publishers and vendors. Private LOCKSS Networks are often country-based and preserve small numbers of OJS journals hosted by member libraries.
-
-Because OJS supports the LOCKSS system, it’s very easy to enable the PKP PN plugin, as well as other “flavours” of LOCKSS, from within the OJS interface. Depending on your journal’s arrangements, these alternatives to the PKP PN may or may not be relevant.
-
-## DOAJ and Digital Preservation/Archiving Policy
-
-> Section contributed by Roger Gillis
-
-Having a clear digital preservation and archiving strategy and making this explicit as part of a policy is a key component of the [DOAJ application process](/doaj/) policy and one of the criteria for being awarded the DOAJ Seal. If your journal is using OJS, you should consider enabling the PKP Preservation Network (PKP PN) plugin as noted in the previous section, which will fulfill the archiving component from DOAJ. Also, be sure to document and make your journal’s policy on archiving available. In OJS, this can be done as part of the setup process, and the policy will then appear on your journal’s “About” page.
+Having a clear digital preservation and archiving strategy and making this explicit as part of a policy is a key component of the [DOAJ application process](/doaj/) policy and one of the criteria for being awarded the DOAJ Seal. If your journal is using OJS, you should consider enabling the PKP Preservation Network (PKP PN) plugin, as noted below, which will fulfill the archiving component from DOAJ. Also, be sure to document and make your journal’s policy on archiving available. In OJS, this can be done as part of the setup process, and the policy will then appear on your journal’s “About” page.
 
 The following policy from _Current Oncology_ is an example of a clear and concise archiving policy:
 
@@ -90,7 +82,69 @@ The following policy from _Current Oncology_ is an example of a clear and concis
 
 Source: [Archiving Policy. Current Oncology Journal](https://www.current-oncology.com/index.php/oncology/about)
 
-DOAJ checks the Keepers Registry to confirm that a journal’s archiving arrangements are as stated in its application. The PKP PN provides data about its holdings to the Keepers Registry so your journal will appear in the registry once it has been archived.
+### Choosing Preservation Option(s)
+ 
+For journal editors, digital preservation can be difficult to navigate. A few factors can help you determine the best option for your journal.
+
+If your journal is associated with an institution, library, or publisher, your journal may already be eligible via an institutional partnership. And if your journal is disseminated through a service such as Scholars Portal or Érudit, your journal may already be preserved through one of them. 
+
+National regulation may require you to deposit published content into a central library. If you’re publishing in the UK, you should consider the arrangement between [Portico](https://www.portico.org/our-work/services/) and the British Library to support legal deposits into Portico’s long-term preservation system.
+
+If any of the above applies to your journal, consider reaching out to a digital preservation specialist, librarian, or publisher contact. You may also be eligible for multiple archiving options, and you should absolutely consider joining more than one.
+
+#### Public Knowledge Project Preservation Network (PKP PN)
+
+The [Public Knowledge Project Preservation Network (PKP PN)](https://pkp.sfu.ca/pkp-pn/#joining) offers a free-of-charge, low-barrier preservation through the global [LOCKSS Network](https://www.lockss.org/) for OJS journals. 
+
+The PKP PN deposits content using the LOCKSS Program, which offers decentralized and distributed preservation. This is a free preservation option for journals using OJS 3.1.2 and newer, which are not part of any other digital preservation service (such as CLOCKSS or Portico).
+
+The PKP PN functions as a “dark” archive, meaning that end-users will not have access to the preserved content until after a “trigger event”, such as cessation of publication. After a trigger event, PKP staff will import the preserved content into one or more OJS instances hosted by PKP member institutions. Once loaded into these host OJS instances, the content will be publicly accessible.
+
+Using the PKP PN only requires installing the PKP PN plugin in your OJS journal and agreeing to the terms of service. For information about the PKP PN, visit the (PKP Preservation Network Documenation)[https://docs.pkp.sfu.ca/pkp-pn/).
+
+#### CLOCKSS
+
+[CLOCKSS]((https://clockss.org/) is a community governed and supported digital preservation archive for scholarly content. It contains more than 46 million journal articles, 260,000 books, plus an array of newer content types and essential metadata such as DOIs.
+
+Its preservation approach is designed to be resilient to threats from potential technological, economic, environmental and political failures and provides a safe environment for the scholarly record. Mirror preservation nodes at 12 major academic institutions around the world guarantee long-term preservation and access. This network is built with proven LOCKSS open-source technology, and is a dark archive, meaning that content is not accessible to users unless it would otherwise disappear from the web. In this case it is made available open access under a creative commons license.
+
+CLOCKSS is a dark archive that assigns Creative Commons Open Access licenses to all triggered publications to ensure they always remain available and openly accessible to
+everyone.
+
+A collaboration between the world’s leading research libraries and academic publishers,
+CLOCKSS is a financially secure, independent non-profit 501(c)(3) organization, governed by its Board of libraries and publishers.
+
+There is an annual fee for using CLOCKSS, which can be paid by a library or an individual publisher. For further information, refer to [joining CLOCKSS](https://clockss.org/join-clockss/).
+
+#### Internet Archive
+
+Unlike dark archiving options, the [Internet Archive’s](https://archive.org/) web archiving program is more suitable for the preservation of a website. Not all methods will comprehensively preserve all published content and files.
+
+The Internet Archive is a non-profit digital library founded in 1996 with the mission to provide “Universal Access to all Knowledge.” The organization actively works in partnership with national libraries and archives, universities, governments, research institutions, publishers, NGOs, and other organizations across the world on large-scale digital preservation, digital library standards, open source software development, advocacy, and strategic programs for open and persistent access to the world’s knowledge. 
+
+The Internet Archive hosts the [Wayback Machine](https://archive.org/web/), a large web archive providing stable access to captured “snapshots” of web pages from past points in time. 
+
+Only publicly-accessible web pages that allow crawler access will be captured. Any function that requires logging in (including the editorial dashboard) will not be captured. It will be unable to bypass password protection for subscription-based OJS journals. OJS’s search function will also cease to work. 
+
+When planning to web archive OJS journals, it’s important to consider depth: Is it sufficient to only capture static pages (such as homepage, about & policies, and other information pages)? Are issue tables of content or article-level metadata important? Do you need every full-text galley (including PDFs)? 
+
+There are 3 main ways in which journals can be added to the archive, with varying levels of granularity and control:
+
+* Automated crawlers: Automated crawlers need to be made aware of the website’s existence. Typically, this means having a consistent URL for some time and being linked from already-archived web pages. Once awareness is established, the Wayback Machine’s web crawlers will periodically index data from public web pages. It is possible that your journal has already been indexed. A good first step is to search the [Wayback Machine](https://archive.org/web/) for your URL, to find out if it has been captured already, and how detailed the snapshots are. It is also possible to request exclusion from future automated crawls.
+
+* Save a webpage: Anyone can initiate a web crawl of a single page, at any time. The Wayback Machine will crawl the page and capture a new snapshot within a few minutes. However, this is limited to saving one page (unique URL) at a time. You can [request a new web page capture through an online form, or via a browser extension]( https://help.archive.org/hc/en-us/articles/360001513491-Save-Pages-in-the-Wayback-Machine). This tool is most useful for static informational pages, because it needs to be done manually.
+
+* Archive-It: [Archive-It](https://archive-it.org/) is a paid subscription service provided by Internet Archive that allows organizations to run crawling projects. It allows collecting organizations to exercise more control over the crawls: identifying which websites to crawl, and how often. It is possible to capture an entire domain with a root URL. If your OJS journal is associated with an institution or library, contact them to see if they have a subscription, and if your journal is eligible. To identify organizations, you can also search for [collecting organizations on Archive-It](https://archive-it.org/explore/?show=Organizations). While Archive-It offers more control, we strongly recommend that you work with someone with technical expertise. Skilled troubleshooting will likely be required to ensure that crawls capture OJS journals with sufficient granularity, especially when attempting to capture full-text galleys (especially PDFs).
+
+### Verifying Preservation Status
+
+The [Keeper’s Registry](https://keepers.issn.org/) provides the ISSN International Centre with metadata on their holdings. This metadata is then included in the ISSN Register, which is the information source for the ISSN Portal.
+
+The Keeper’s Registry is collecting data from a [number of participating archiving agencies](https://keepers.issn.org/keepers), including PKP PN. 
+
+To determine if your journal has been archived by one of the participating archiving agencies, search for the journal by Title or ISSN at the [ISSN Portal](https://portal.issn.org/). Visit the tab “Archival Status” to view the details and extent of coverage.
+
+Other services, such as the DOAJ, may check the Keeper's Registry to confirm a journal’s archiving arrangements
 
 **Further Reading:**
 
