@@ -8,4 +8,5 @@
 * [Ethics Statements and Policies](./ethics-statements.md)
 * [Editorial Workflow](./editorial-workflow-policies.md)
 * [Corrections and Retractions](./corrections-retractions.md)
+* [Sustainability Models and Revenue Sources](./sustainability.md)
 * [Journal Changes Publisher / Platform or Ceases to Publish](./journal-ceases.md)
