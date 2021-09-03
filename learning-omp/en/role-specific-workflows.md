@@ -239,6 +239,8 @@ If your manuscript contains different chapters, you can add the information in t
 
 __Note__: Chapter files can only be added by the Editor or Production Editor of the press.
 
+If you are uploading Galley files (including chapters) directly to the Publication Formats complete this step first before adding Chapter files. 
+
 To add a chapter after final galleys have been prepared, click __Add Chapter__.
 
 ![Highlighted location of Add Chapter link under the Chapters section.](./assets/learning-omp3.2-workflow-production-chapters-1.png)
@@ -281,13 +283,23 @@ Enter the format title, select format from the drop-down list and select the opt
 
 ##### Add Publication Format files
 
-Once you have added the publication formats, you can select the corresponding file by clicking __Select Files__.
+Once you have created the publication format(s), you can either select the corresponding file by clicking __Select Files__ if you have uploaded the final fines under the __Production Ready files__ or by uploading them directly in the __Publication Formats__.
+
+__Selecting from Publication Ready Files__
+
+If you’ve uploaded your Book and Chapter Manuscripts under the Publication Ready Files. Click Select Files to select all the relevant files from the Production Workflow.
+
 
 ![The Select Files link highlighted in the Publication Formats screen.](./assets/learning-omp3.2-workflow-production-formats-3.png)
 
-Select the file that corresponds with the publication format you’ve created.
-
 ![File selection window.](./assets/learning-omp3.2-workflow-production-formats-4.png)
+
+__Uploading directly under Publication Formats__
+
+For single file galleys (i.e., HTML, Full issue PDF) click ‘Select Files’ to upload the file. If you are uploading chapter files directly under Publication Formats you will need to click ‘Change File.’ 
+
+
+__Approving Publication Formats__
 
 Once Publication Formats have been created you can update the Completion and Availability by clicking the blue boxes beside the formats.
 
