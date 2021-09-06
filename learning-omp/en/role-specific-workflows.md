@@ -296,8 +296,13 @@ If you’ve uploaded your Book and Chapter Manuscripts under the Publication Rea
 
 __Uploading directly under Publication Formats__
 
-For single file galleys (i.e., HTML, Full issue PDF) click ‘Select Files’ to upload the file. If you are uploading chapter files directly under Publication Formats you will need to click ‘Change File.’ 
+For single file galleys (i.e., HTML, Full issue PDF) click ‘Select Files’ to upload the file. If you are uploading chapter files directly under Publication Formats you will need to click ‘__Change File__.’ 
 
+![Publication Format extended options for PDF.](./assets/learning-omp3.3-workflow-production-formats-5.png)
+
+In 1. Upload File  indicated in the drop down options ‘__This is not a revision of an existing file__’ then select the appropriate __Submission Component__ (e.g. Chapter vs. Book Manuscript). Upload the file and complete Steps 2 and 3. Repeat these steps until all Chapter files have been uploaded. 
+
+![Step 1 of Uploading a file Ready for Publication.](./assets/learning-omp3.3-workflow-production-formats-6.png)
 
 __Approving Publication Formats__
 
@@ -306,6 +311,8 @@ Once Publication Formats have been created you can update the Completion and Ava
 Once it has been approved and made available, the status bar will change accordingly.
 
 ![Status bar for an unapproved and unavailable format as well as an approved and available format.](./assets/learning-omp3.2-workflow-production-formats-6.png)
+
+Note: Any approved Publication Format files that have not been assigned to a Chapter will appear as a Galley Format under the cover image.
 
 #### Catalog Entry
 
