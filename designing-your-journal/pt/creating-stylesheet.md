@@ -1,3 +1,7 @@
+- - -
+title: Create a Stylesheet - Designing Your OJS Journal
+- - -
+
 # Create a Stylesheet
 
 > When customizing your journal with custom CSS styles, we strongly encourage you to involve technical and design experts to ensure that the changes you make do not adversely effect your journal. Changes to the CSS can effect your compliance with accessibility laws in your country, impact the usability of your journal on different devices, and cause other unforeseen consequences that a professional can help you avoid.<br/><br/>However, we understand that many journals do not have the funds to access these resources. The guide below is provided for those who want to try to write CSS customizations themselves. 
@@ -12,7 +16,7 @@ Most browsers will have several tools that can help you to inspect and test the 
 
 For example, you can right-click on a part of a webpage (Ctrl+click on Macs), and you should see an option to “Inspect element”. In both Firefox and Chrome, this will bring up a version of “Developer tools” (named differently in each browser), which will allow you to take a closer look at the contents of a page’s HTML and CSS.
 
-For example:
+Por exemplo:
 
 ![](./assets/browser-developer-tools.png)*A screenshot of an OJS website using Firefox developer tools*
 
