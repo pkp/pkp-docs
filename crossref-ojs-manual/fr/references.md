@@ -27,9 +27,9 @@ In order to have a consistent reference list for Crossref’s XML Export Plugin 
 
 Once you have the plugin set up and have exported the article’s metadata to Crossref, you can insert the DOIs from Crossref back into the references:
 
-1. Open the submission
+1. Ouvrez la soumission
 2. Go to the Publication tab and References
 3. Click Check Crossref DOIs
-4. Some DOIs will now be added to the references
+4. Certains DOI seront désormais ajoutés aux références
 
 For more information on Reference linking, please visit the [Crossref website](https://www.crossref.org/education/reference-linking/)
