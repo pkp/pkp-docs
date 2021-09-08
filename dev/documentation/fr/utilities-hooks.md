@@ -93,7 +93,7 @@ Dispatcher::dispatch
 APIHandler::endpoints
 ```
 
-## Plugins
+## Plugiciels
 
 Hooks are most commonly used in generic plugins. Calling hooks from other types of plugins may not work. The [plugin guide](/dev/plugin-guide/en) includes some [examples](/dev/plugin-guide/en/examples) that use hooks.
 
@@ -156,7 +156,7 @@ The hooks in the list below are available for any entity that has not been conve
 | `<dao>::getAdditionalFieldNames` | Modify the properties of an entity that are stored in its settings table. For example, use `SectionDAO::getAdditionalFieldNames` to modify the properties of a `Section`.                        |
 | `<dao>::getLocaleFieldNames`     | Modify the multilingual properties of an entity that are stored in its settings table. For example, use `SectionDAO::getLocaleFieldNames` to modify the multilingual  properties of a `Section`. |
 
-### Components
+### Liste de vérifications
 
 The following hooks allow plugins to intervene in the data passed to UI components. These hooks are only available for some components in the [UI Library](/dev/ui-library/dev).
 
