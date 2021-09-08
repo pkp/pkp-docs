@@ -99,7 +99,7 @@ La page Générateur de Rapports permet d'accéder à divers rapports de votre r
 3. Ouvrez les Métadonnées en haut à droite et accédez à l'onglet Identificateurs. Vous devriez voir un aperçu du DOI qui sera attribué et une case cochée à côté de «Attribuer le DOI à cet article».
 4. Cliquez sur Enregistrer et le DOI sera attribué.
 
-## Permissions
+## Générateur de rapports
 
 L'outil Réinitialiser les Autorisations d'Article vous permet de réinitialiser la déclaration des droits d'auteur et les informations de licence sur tous les articles publiés, et les rétablira aux paramètres par défaut actuels de votre revue. Soyez prudent lorsque vous utilisez cet outil et consultez une expertise juridique si vous ne savez pas quels droits vous détenez sur les articles publiés dans votre revue.
 
