@@ -6,20 +6,12 @@ The first section provides basic submission information (authors, title, section
 
 ![Submission Editing](images/chapter8/section_16.png)
 
-
 The Editing process comprises 4 sections:
 
-*
-### [Ajouter l'article à une édition](https://docs.pkp.sfu.ca/learning-ojs-2/en/in_editing_copyediting)
+* [Ajouter l'article à une édition](https://docs.pkp.sfu.ca/learning-ojs-2/en/in_editing_copyediting)
 
+* [Scheduling](https://docs.pkp.sfu.ca/learning-ojs-2/en/scheduling)
 
-*
-### [Scheduling](https://docs.pkp.sfu.ca/learning-ojs-2/en/scheduling)
+* [Rédaction de la mise en page](https://docs.pkp.sfu.ca/learning-ojs-2/en/layout_editing)
 
-
-*
-### [Rédaction de la mise en page](https://docs.pkp.sfu.ca/learning-ojs-2/en/layout_editing)
-
-
-*
-### [Proofreading](https://docs.pkp.sfu.ca/learning-ojs-2/en/in_editing_proofreading)
+* [Proofreading](https://docs.pkp.sfu.ca/learning-ojs-2/en/in_editing_proofreading)
