@@ -1,6 +1,6 @@
-# Summary
+# Sisällys
 
-* [Introduction](.)
+* [Luku 1: Esittely](.)
 * [Getting Started](./getting-started)
 * [Plugin Categories](./categories)
   * [Blocks](./categories#blocks)
