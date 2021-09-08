@@ -47,7 +47,7 @@ By default, Open Journal Systems is installed with a very simple, functional use
 
 The following image is a screenshot of an OJS Demonstration Journal Table of Contents.
 
-![](./assets/learning-ojs-3-ojs3-interface.png)
+![Table of Contents for a sample OJS journal.](./assets/learning-ojs-3-ojs3-interface.png)
 
 You can see from the screenshot that the user functions now exist from your profile menu at the top right of the screen. This takes the managerial content in OJS 3.x away from general user view. Side bar information is clearly broken out, as well as your top navigation bar with collapsible menus for the "About" functions. Like OJS 2, each article has a linked title for viewing object metadata and abstracts, and galleys are now clearly labeled below the titles with clearer logos.
 
@@ -57,7 +57,12 @@ _AKA "The Dashboard"_
 
 OJS 3.x has a separate interface once you log into the editorial system. This not only makes it easier to customize the reader interface, but also provides OJS users of different journals a consistent experience.
 
-![Animated GIF showing the main elements of the OJS dashboard](./assets/learning-ojs3.2-ed-dashboard.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/learning-ojs3.2-ed-dashboard.mp4" type="video/mp4">
+  </video>
+  <figcaption>Animated mp4 showing the main elements of the OJS dashboard.</figcaption>
+</figure>
 
 The editorial interface is known as your **dashboard** and consists of the following elements:
 
