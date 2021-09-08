@@ -1,6 +1,6 @@
-# Summary
+# Sisällys
 
-* [Introduction](.)
+* [Luku 1: Esittely](.)
 * [Getting Started](./getting-started)
 * [Architecture](./architecture)
   * [Request Lifecycle](./architecture-request)
@@ -31,7 +31,7 @@
 * Other
   * [Email Templates](./email-templates)
   * [Publication Versions](./publication-versions)
-  * [Statistics](./statistics)
+  * [Luku 9: Tilaukset](./statistics)
     * [Editorial Statistics](./statistics-editorial)
     * [Reader Statistics](./statistics-reader)
   * [Submission Files](./submission-files)
