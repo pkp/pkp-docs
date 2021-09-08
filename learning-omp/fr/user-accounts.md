@@ -111,23 +111,23 @@ When using this function, please note that there will be no record in your press
 
 
 
-## Granting Author permissions
+## Accorder des Autorisations d'Auteur
 
-As of OMP 3.2, editors can grant access to allow authors to make metadata changes. There are two ways editors can grant this type of access.
+As of OMP 3.2, editors can grant access to allow authors to make metadata changes. Il y a deux façons dont les rédacteurs peuvent accorder ce type d'accès.
 
 __Global permission__- will grant all users with the role ‘author’ permission to make metadata changes.
 
-To enable this, go to Users & Roles > Roles. Click the blue arrow beside the ‘Author’ then click edit.
+Pour activer cela, allez à Utilisateurs et Rôles > Rôles. Cliquez sur la flèche bleue à côté de «Auteur», puis sur modifier.
 
 ![The expanded Edit menu under the Author role.](./assets/learning-omp3.2-user-permission-1.png)
 
-Under Role Options, enable ‘Permit submission metadata edit.’ then click OK.
+**Autorisation Limitée**- accordera aux auteurs enregistrés (généralement un seul auteur) la permission d'apporter des modifications seulement à certains stades du flux des travaux éditoriaux.
 
 ![The ‘Permit submission metadata edit.’ checkbox highlighted in the role options screen.](./assets/learning-omp3.2-user-permission-2.png)
 
 __Limited Permission__ - will grant registered authors (typically a single author) permission to only make changes at certain stages of the editorial workflow.
 
-To allow an author to change the metadata at a specific stage of the workflow, click on the workflow stage (ie., Submission, Review, Copyediting, or Production).
+Pour permettre à un auteur de modifier les métadonnées à un stade spécific du flux des travaux, cliquez sur le stade du flux des travaux (c'est-à-dire, Soumission, Évaluation, Révision, ou Production).
 
 Under the participant’s list, click the arrow beside the author’s name followed by Edit.
 
@@ -135,7 +135,7 @@ Under the participant’s list, click the arrow beside the author’s name follo
 
 ![The expanded edit menu under the Author in the workflow screen.](./assets/learning-omp3.2-user-permission-4.png)
 
-Under Permissions, enable ‘Allow this person to edit publication details.’ followed by OK.
+Une fois que l'auteur a obtenu l'accès d'apporter des modifications, ils pourront apporter des modifications aux sections suivantes de l'onglet Publication: Titre et Abstract, Contributeurs, et Métadonnées.
 
 ![The edit assignment window with permissions options.](./assets/learning-omp3.2-user-permission-5.png)
 
