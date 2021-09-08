@@ -2,7 +2,7 @@
 title: Resources - Technical Documentation - OJS|OMP|OPS
 ---
 
-# Resources
+# Ressources
 
 A collection of resources that may help you while coding with OJS and OMP.
 
