@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](./introduction.md)
+* [Introducción](.)
 * [Branding Your Journal](./branding.md)
   * [Colours](./branding.md#colours)
   * [Typography](./branding.md#typography)
@@ -16,4 +16,4 @@
 * [Creating a Stylesheet](./creating-stylesheet.md)
   * [Identifying elements of CSS](./creating-stylesheet.md#identifying-elements-of-css)
   * [Create a basic CSS file using the default template](./creating-stylesheet.md#create-a-basic-css-file-using-the-default-template)
-* [Additional Resources](./resources.md)
+* [Recursos adicionales](./resources.md)
