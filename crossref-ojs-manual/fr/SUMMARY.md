@@ -1,4 +1,4 @@
-# Summary
+# Résumé
 
 - [Introduction](.)
 - [PKP and Crossref](pkpcrossref.md)
