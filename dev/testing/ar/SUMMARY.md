@@ -1,6 +1,6 @@
-# Summary
+# الملخص
 
-* [Introduction](.)
+* [مقدمة](.)
 * [Getting Started](./getting-started)
   * [Configure Your Environment](./getting-started#configure-your-environment)
   * [Run Integration Tests](./getting-started#run-integration-tests)
