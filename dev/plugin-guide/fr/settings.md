@@ -214,7 +214,7 @@ Update the `settings.tpl` template to submit the form to the plugin's `manage()`
   action="{url router=$smarty.const.ROUTE_COMPONENT op="manage" category="generic" plugin=$pluginName verb="settings" save=true}"
 >
   <!-- Always add the csrf token to secure your form -->
-	{csrf}
+    {csrf}
 
   {fbvFormArea}
         {fbvFormSection}
