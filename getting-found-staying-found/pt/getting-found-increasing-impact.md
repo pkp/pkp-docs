@@ -28,7 +28,7 @@ Commercial platforms such as ResearchGate and Academia.edu offer various service
 
 In advising authors about such services, it is important to be aware of the terms of use, which are typically subject to modification without prior consent and at the sole discretion of the service provider.
 
-For example:
+Por exemplo:
 
 * [Academia.edu](https://academia.edu)
 * [ResearchGate](https://researchgate.org)
