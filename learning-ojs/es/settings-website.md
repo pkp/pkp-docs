@@ -120,7 +120,7 @@ It will now appear in the list of Navigation Menu Items. Next, go to the desired
 
 Hit Save to record the change.
 
-### Announcements
+### Avisos
 
 This section allows you to create and display news announcements on the journal's website.
 
@@ -148,7 +148,7 @@ This option allows for the configuration of different format for dates and times
 
 ![OJS 3.3 Date and Time menu with an option to select long and short date formats.](./assets/learning-ojs3.3-date-and-time-setup.png)
 
-## Plugins
+## Módulos
 
 Use this page to see all of the installed plugins and find new plugins.
 
