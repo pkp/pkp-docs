@@ -35,7 +35,7 @@ There are two categories of updates, minor and major changes.
 
 While OJS currently does not provide Crossmark support, we do have plans to do so in the future. Users wishing to use Crossmark are able to do so by referring to the simplified steps below. For full details please see the [Crossref Guide](https://www.crossref.org/get-started/crossmark/)
 
-## Setup
+## إعدادات الموقع
 
 **Step 1: Create a Crossmark Policy Page and assign it a DOI**
 
