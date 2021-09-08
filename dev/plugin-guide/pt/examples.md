@@ -2,7 +2,7 @@
 title: Examples - Plugin Guide for OJS and OMP
 ---
 
-# Examples
+# Exemplos
 
 Plugins can be put to a wide variety of uses. The examples below show you how to do things that many plugins may need to do.
 
