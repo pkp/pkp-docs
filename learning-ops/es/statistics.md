@@ -3,7 +3,7 @@ book: learning-ops
 version: 3.3
 ---
 
-# Statistics
+# Estadísticas
 
 This chapter of Learning OPS provides a general overview of statistics available in Open Preprint Server (OPS). For more detailed information on statistics and usage guidelines, please see the Statistics chapter on the [Learning OJS](/learning-ojs/en/statistics).
 
@@ -23,7 +23,7 @@ The Editorial activity statistics provides a visual graph and trend table with a
 
 ![The OPS Editorial Activity Report](./assets/learning-ops3.3-statistics-editorial-report.png)
 
-## Users
+## Usuarios/as
 
 Provides a summary of the number of users registered in your server and by roles.
 
