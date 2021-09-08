@@ -3,13 +3,13 @@ book: learning-ojs
 version: 3.3
 ---
 
-# Statistics
+# Statistiques
 
 The statistics features of OJS allow you to view different numbers pertaining to the activity, access, and downloads of various aspects of your site, including article and abstract views, subscription activity, editorial and review activity, and user counts separate by role. There is also a Report Generator section for producing various reports from some of the available data.
 
 This section will describe the statistics report/visualization tools available in OJS and how to use them. If you are interested in how to manage statistics as a systems administrator, including configuring the statistics framework, managing legacy statistics and statistics in OJS 2, and troubleshooting statistics, please view [the PKP Administrator’s Guide’s documentation on statistics](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
 
-## Definitions
+## Définitions
 
 The following definitions may be helpful to you for understanding the variety of statistics tracked by OJS.
 
@@ -20,7 +20,7 @@ The following definitions may be helpful to you for understanding the variety of
 * **Project COUNTER Code of Practice:** a set of practices developed by COUNTER to establish a means to report on usage metrics for electronic resources in a consistent way. The Code provides rules on what should be counted as a view, including specific rules for robot usage and multi-click abuse. OJS filters metrics through these rules. It should also be noted that PKP is part of the COUNTER Bots and Crawlers Working Group.
 * **Robots, crawlers, bots:** nonhuman site visitors who may still view and download article data. These are usually identified as such to the server, and OJS does not count them in its usage metrics, as per the Project COUNTER Code of Practice.
 
-## Articles
+## Rôles
 
 OJS offers Editors and Journal Managers the option of viewing graph and table representations of article usage, including abstract views and full-text downloads.
 
@@ -46,7 +46,7 @@ You also have the option of searching the statistics of a specific article by ti
 
 ![The search bar for locating specific article statistics.](./assets/article-details-search.png)
 
-## Editorial Activity
+## Activité éditoriale
 
 This section provides statistics about the editorial workflow, such as number of submissions received, days to first editorial decision, and acceptance and rejection rates. You can filter these statistics using a custom date range to, e.g., find the number of articles accepted during a 12-month period.
 
@@ -61,13 +61,13 @@ There are some important things to note when considering the data in these repor
 
 An Editorial Activity Report will be generated monthly and can be sent by email to editors and section editors. All managers and section editors are automatically opted out of the monthly report; however, you can opt in by going to User Profile > Notifications and unchecking the box that disables the automated email.
 
-## Users
+## Utilisateurs
 
 This section provides information about new user/role registrations within a specified time period. The Total column is not a total number of accounts created; it identifies how many users have that role in the system right now. When an existing user receives a new role, such as a registered author becoming a reviewer, that addition to the total number of reviewers in the system will be reflected in the data by an increase in the number of reviewers but no change in the total number of users.
 
 ![Sample users statistics data.](./assets/users.png)
 
-## Report Generator
+## ./tools.md#report-generator
 
 The Report Generator page provides access to a variety of reports from your journal.
 
@@ -91,14 +91,14 @@ This report provides granular data on monthly views for the journal homepage, is
 
 **Do Not Use for:** attempting to get a quick usage snapshot, legacy usage, or journals that have a very large metrics dataset \(due to long history, high readership, or depth of metrics granularity\). Use the Custom Report Generator instead.
 
-**Special Notes:**
+**Remarques Spéciales:**
 
 * This report attempts to capture the entire usage history for: the journal home page, all article abstracts, all article galleys, and all issue table of contents.
 * **OJS version 3.1.1 or older installs**: To reduce the potential for exceeding time limits for downloads, this report only provides 5,000 records. If you have a lot of reportable data, this report will most likely not report it all. If this is the case, the Custom Report Generator plugin should be used instead, using smaller date ranges. (This restriction was removed in OJS 3.1.2.)
 
 **Example Data \(slightly edited for clarity\):**
 
-| **ID** | **Type** | **Title**                                                                        | **Issue**              | **Journal** | **Country** | **Month** | **Count** |
+| **ID** | **Type** | **Title**                                                                        | **Auteurs**            | **Journal** | **Country** | **Month** | **Count** |
 | ------ | -------- | -------------------------------------------------------------------------------- | ---------------------- | ----------- | ----------- | --------- | --------- |
 | 1      | Journal  | Canadian Journal of Communication                                                | CJC                    | CA          | 201502      | 1678      |           |
 | 112    | Article  | Toronto Star Fires Reporter Claire Hoy, Sues Him and TV Stations on Libel Charge | Vol 1, No 3 \(1974\) | CJC         | CA          | 201502    | 3         |
@@ -116,10 +116,10 @@ In the sample below we can see that article 95, “The Making of the Canadian Me
 
 ****
 
-| **ID** | **Article Title**                | **Issue**               | **Date Published** | **Abstract** | **Total Galleys** | **HTML** | **PDF** |
-| ------ | -------------------------------- | ----------------------- | ------------------ | ------------ | ----------------- | -------- | ------- |
-| 95     | The Making of the Canadian Media | Vol 6, No 1 \(1979\)  | 1979-01-03         | 443          | 1476              |          | 1476    |
-| 1125   | Digital Networks                 | Vol 24, No 4 \(1999\) | 1999-04-01         | 1821         | 8478              | 2093     | 6385    |
+| **ID** | **Titre de l'article**           | **Auteurs**             | **Numéro** | **Date de Publication** | **Total Galleys** | **HTML** | **PDF** |
+| ------ | -------------------------------- | ----------------------- | ---------- | ----------------------- | ----------------- | -------- | ------- |
+| 95     | The Making of the Canadian Media | Vol 6, No 1 \(1979\)  | 1979-01-03 | 443                     | 1476              |          | 1476    |
+| 1125   | Digital Networks                 | Vol 24, No 4 \(1999\) | 1999-04-01 | 1821                    | 8478              | 2093     | 6385    |
 
 ### Generate Custom Report
 
@@ -279,16 +279,16 @@ To configure the Usage Statistics Plugin:
 
 1. Go to Settings &gt; Website &gt; Plugins.
 2. Under Generic Plugins, find the **Usage Statistics Plugin**.
-3. Click the blue arrow to the left of the plugin name to make links appear below the plugin.
+3. Cliquez sur la flèche bleue à gauche du nom du plugiciel pour faire apparaître des liens en dessous du plugiciel.
 4. Click **Settings**.
 5. Scroll to the bottom of the pop-up box that opens to the section **Statistics Display Options**.
 6. Check the box beside **Display submission statistics chart for reader**.
-7. Below that you can select whether you would like to display the statistics as a bar or line graph and the maximum number of months to display usage for.
-8. Click **Save**.
+7. En dessous, vous pouvez sélectionner si vous souhaitez afficher les statistiques sous forme de graphique à barres ou à courbes et le nombre maximum de mois pour lesquels afficher l'utilisation.
+8. Cliquez sur **Enregistrer** .
 
 ![The optional statistic checkboxes where users can enable/disable city or regional data collection, and enable the statistics viewable to readers.](./assets/usage-stats-plugin-configuration-basic.png)
 
 Please note the following:
 
-* Usage statistics can only be displayed for the current year. The plugin is reset at the beginning of each year.
-* The statistics being displayed indicate the number of times an article was downloaded.
+* Les statistiques d'utilisation ne peuvent être affichées que pour l'année en cours. Le plugiciel est réinitialisé au début de chaque année.
+* Les statistiques affichées indiquent le nombre de fois qu'un article a été téléchargé.
