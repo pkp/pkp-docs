@@ -11,7 +11,7 @@ Before setting up your preprint server, it is recommended that you decide what p
 
 Similar to a journal, your preprint server can have a thematic or discipline focus. This can be conveyed in your Server Settings. If you want to post preprints in multiple disciplines and have different policies and workflows for the different collections, you could consider running multiple OPS servers on a single OPS installation. Otherwise, you can use Categories to organize the preprints into thematic collections on a single OPS server.
 
-## Submission
+## الأعداد القادمة
 
 Because preprints do not undergo a formal peer review process and are often posted with little moderation, it is important to define acceptance criteria for your preprint server and decide who can make a submission and how. Generally, the author has more control over the process than they would when submitting to a journal. You can decide whether authors can self-post the pre-print to the public site immediately upon submission, or if you will use a screening process. OPS has some special plugins which facilitate this. See the [Website Settings chapter](./setup#website-settings) for more information.
 
