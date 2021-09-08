@@ -32,7 +32,7 @@ Now that you have tested the sandbox upgrade and are satisfied with the results,
 
 If your OJS installation doesn’t already have the ‘files’ folder located outside of the web accessible OJS installation, please move it now. Failure to meet this requirement is the only significant security risk faced by OJS journals. See the “Recommended Configuration” section of the README document included in your OJS download files for details.
 
-## Troubleshooting
+## Dépannage
 
 ### Fatal error messages during the upgrade process
 This usually indicates that there was a data inconsistency in your OJS 2.x database; search the [PKP Community Forum](https://forum.pkp.sfu.ca/) for similar messages.
