@@ -1,19 +1,10 @@
 # Inscription à une revue
 
-
-### Informations Système
-
-
+## Informations Système
 
 To access detailed system information, from the Site Administration page, under the Administrative Functions menu, click the **System Information** link.
 
-
-
-
-
 ![Informations Système](images/chapter4/system_info.png)
-
-
 
 Les informations de version d'OJS indiquent la version actuellement installée et l'historique de vos versions, y compris les mises à niveau. You can click the **Check for updates** link to see if you are using the most recent version of OJS.
 
@@ -21,11 +12,7 @@ The OJS Configuration section displays all of the configuration options and thei
 
 The final section on this page displays server information: your operating system, PHP version, server and database information. You can also view extended PHP information by clicking the **Extended PHP information** link (this displays the output of [phpinfo()](https://www.php.net/phpinfo)). All of this information can be useful when trying to troubleshoot a problem.
 
-
-
-### Sessions and Caches
-
-
+## Sessions and Caches
 
 The Site Administrator has a final few administrative tools available: the Expire User Sessions, Clear Data Caches, Clear Template Cache options, Clear Scheduled Task Execution Logs, as well as the Merge Users feature (described below).
 
@@ -37,9 +24,6 @@ Clicking the **Clear Template Cache** link clears all cached versions of HTML te
 
 If scheduled tasks have been enabled for your journal, clicking the **Clear Scheduled Task Execution Logs** will delete the task execution log files from your server. Les fichiers de journaux d'exécution comprennent des dates qui correspondent aux tâches planifiées précédemment terminées (par exemple, l'envoi automatique d'emails de rappels d'évaluation).
 
-
-
-### Merging Users
-
+## Merging Users
 
 This page allows you to merge two or more user accounts into one, handy if a user has accidentally created two accounts, or if you have unused or spam accounts in your system. The first selected account will be subsumed into the second account. The Site Administrator can merge users across the whole site; Journal Managers can also merge users, but only those enrolled with their journal. Comprehensive information on merging users can be found in [Chapter 5: Journal Management](https://docs.pkp.sfu.ca/learning-ojs-2/en/merge_users).
