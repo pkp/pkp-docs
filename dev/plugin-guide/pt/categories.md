@@ -94,7 +94,7 @@ Block plugins can use any HTML code. However, if you want your block to blend in
     <span class="title"><!-- Add the title of your block here --></span>
     <div class="content">
     <!-- Add the main content for your block here -->
-	</div>
+    </div>
 </div>
 ```
 
@@ -257,7 +257,7 @@ class ExamplePlugin extends GenericPlugin {
 
 Generic plugins are very powerful and can use any hook in the application. Look at the [examples](./examples) for ideas and learn about the most [common hooks](/dev/documentation/en/utilities-hooks#common-hooks).
 
-## Other
+## Outros
 
 There are other plugin categories available that are not often used. The best way to learn about them is to read the source code of one of the existing plugins. These categories include:
 
