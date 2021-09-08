@@ -1,4 +1,8 @@
-# Further Resources
+- - -
+title: Further Resources - Student Journal Toolkit
+- - -
+
+# Autres ressources
 
 [5 ways academic journals can increase diversity in peer review](https://blog.scholasticahq.com/post/ways-academic-journals-can-increase-diversity-peer-review/). (2018, September 11). *Scholastica*.
 
