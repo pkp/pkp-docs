@@ -1,4 +1,8 @@
-# Installing and Upgrading
+- - -
+title: FAQ about Installing and Upgrading Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
+# Luku 2: Asentaminen ja päivittäminen
 
 ## Where can I find help upgrading my site?
 
