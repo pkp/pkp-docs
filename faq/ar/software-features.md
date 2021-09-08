@@ -1,3 +1,7 @@
+- - -
+title: FAQ about Features and Uses of Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
 # Software Features
 
 ## How do I know if OJS / OMP / OPS is right for us?
@@ -41,7 +45,9 @@ OJS was developed for peer-reviewed journal publishing, however, it can also be 
 
 ## Can I use OJS to publish conference proceedings? What happened to OCS?
 
-In 2018, [PKP froze development of OCS](https://pkp.sfu.ca/2018/05/04/ocs-update/), our original conference management software, in order to focus our development resources on OJS, OMP, and OPS. As an alternative to OCS, OJS can be used to accept conference submissions, manage the peer review process, and publish conference papers. The [CUB Research Institute’s site](https://ojs.journals.cz/index.php/CBUIC/index) is one example of how you can use OJS to publish conference proceedings. If you use OJS, a separate tool is required to manage conference registration and scheduling. You may also want to explore other free conference management systems, e.g., [Indico](https://getindico.io/).
+In 2018, [PKP froze development of OCS](https://pkp.sfu.ca/2018/05/04/ocs-update/), our original conference management software, in order to focus our development resources on OJS, OMP, and OPS. As an alternative to OCS, OJS can be used to accept conference submissions, manage the peer review process, and publish conference papers. If you use OJS, a separate tool is required to manage conference registration and scheduling. You may also want to explore other free conference management systems, e.g., [Indico](https://getindico.io/). Here are two examples of OJS sites that publish conference proceedings:
+* [CBU International Conference Proceedings](https://ojs.journals.cz/index.php/CBUIC/index)
+* [TIB's Business Information Systems conference](https://www.tib-op.org/ojs/index.php/bis/issue/view/2)
 
 ## Can I use OJS to publish books?
 
