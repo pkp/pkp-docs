@@ -3,7 +3,7 @@ book: learning-ops
 version: 3.3
 ---
 
-# Users and Roles
+# Utilisateurs et Rôles
 
 OPS has 4 default roles that will be explained in more detail below. Users have the option of creating additional roles using the Create New Role function.
 
@@ -27,19 +27,19 @@ Authors are able to submit manuscripts to the Server directly through the Server
 
 If permissions have been granted, the Author will be able to provide updates and make changes to the metadata provided during the submission.
 
-## Reader
+## Rédacteur
 
 The Reader role is the simplest role in OPS, and has the fewest capabilities. They will be able to access and read content if the Server provides online access to content in the distribution settings.
 
 ## Permission to Edit Metadata
 
-### Granting Author permissions
+### Accorder des Autorisations d'Auteur
 
-In OPS, the Preprint Server Manager can grant access to allow authors and Moderators to make metadata changes prior to the manuscript being posted. There are two ways editors can grant this type of access.
+In OPS, the Preprint Server Manager can grant access to allow authors and Moderators to make metadata changes prior to the manuscript being posted. Il y a deux façons dont les rédacteurs peuvent accorder ce type d'accès.
 
 **Global permission**- will grant all users with the role ‘author’ and/or ‘moderators’ permission to make metadata changes.
 
-To enable this, go to Users & Roles > Roles. Click the blue arrow beside the ‘Author’ then click edit.
+Pour activer cela, allez à Utilisateurs et Rôles > Rôles. Cliquez sur la flèche bleue à côté de «Auteur», puis sur modifier.
 
 ![The Edit button's location under a role.](./assets/learning-ops-users-and-roles-global-metadata-permission.png)
 
