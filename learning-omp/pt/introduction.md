@@ -3,7 +3,7 @@ book: learning-omp
 version: 3.3
 ---
 
-# Introduction
+# Introdução
 
 Open Monograph Press (OMP) is an open-source tool for managing and publishing monographs, edited volumes, and scholarly editions online. It is a highly flexible editor-operated book management and publishing system that can be downloaded for free and installed on most web servers. It has been designed to reduce the time and energy devoted to the clerical and managerial tasks associated with publishing books while improving the recordkeeping and efficiency of editorial processes. It seeks to improve the scholarly and public quality of publishing through a number of innovations and includes clear and intuitive workflows for every aspect of the manuscript submission, review, editing, and production processes.
 
