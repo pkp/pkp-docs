@@ -1,3 +1,7 @@
+- - -
+title: Test PayPal plugin in OJS - Using the PayPal Plugin for OJS and OMP
+- - -
+
 # تهيئة نظام المجلات المفتوحة
 
 الآن وقد أنشأت حسابك في PayPal، عليك تفعيل طريق الدفع لديك في نظام المجلات المفتوحة.
