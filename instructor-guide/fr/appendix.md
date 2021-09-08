@@ -1,6 +1,6 @@
 # Appendix: Disabling new submissions in OJS
 
-To disable new submissions to the journal, you will need to be in the Journal Manager role. You can do it in two ways:
+Pour désactiver les nouvelles soumissions dans le journal, vous devez être dans le rôle de directeur de journaul. Il y a deux façons de faire :
 
-- Disable submission per section [as described in the Learning OJS 3 guide](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#create-section)
+- Désactiver la soumission par section [comme décrit dans le guide d'apprentissage pour OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#create-section)
 - Remove the “Make a Submission Block” from the user interface in [Settings > Website > Appearance > Sidebar Management](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) and/or disable the “Make a Submission Block” in [Settings > Website > Plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#installed-plugins)
