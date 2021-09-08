@@ -19,11 +19,11 @@ Cliquez sur “Galerie de plugiciels”.
 
 Une liste des ​*plugins*​ disponibles pour installation sera affichée. Recherchez “JATS Template Plugin”:
 
-![](./assets/jatsTemplatePlugin.png)
+![JATS Template Plugin in the list of plugins.](./assets/jatsTemplatePlugin.png)
 
 Cliquez sur “JATS Template Plugin” pour afficher plus d’informations sur ce ​*plugin​*:
 
-![](./assets/jatsTemplatePluginInfo.png)
+![JATS Template Plugin with plugin information and an Upgrade button.](./assets/jatsTemplatePluginInfo.png)
 
 (Votre version du ​*plugin*​ pourrait être différente de celle indiqué ci-haut. Nous recommandons de toujours utiliser la dernière version du ​*plugin*​ disponible dans la Galerie de plugiciels.)
 
@@ -31,7 +31,7 @@ Cliquez sur le bouton “Installer” afin d’installer le *​plugin*​. (Si 
 
 Vous devriez voir une notification confirmant l’installation:
 
-![](./assets/jatsTemplatePluginNotification.png)
+![Notification: Successfully upgraded to version 1.0.1.0.](./assets/jatsTemplatePluginNotification.png)
 
 
 La dernière version disponible du ​*plugin*​ sera installée. (Lorsque de nouvelles versions du *plugin*​ seront disponibles, vous pourrez les mettre à jour de la même façon. Encore une fois, le numéro de version affiché pourrait différer de celle de la copie d’écran ci-haut.)
@@ -48,11 +48,11 @@ Cliquez sur “Galerie de plugiciels”.
 
 Une liste des ​*plugins*​ disponibles pour installation sera affichée. Recherchez “OAI JATS Plugin”:
 
-![](./assets/oaiJatsPlugin.png)
+![OAI JATS Plugin in the list of plugins.](./assets/oaiJatsPlugin.png)
 
 Cliquez sur “OAI JATS Plugin” pour afficher plus d’informations sur ce ​*plugin​*:
 
-![](./assets/oaiJatsPluginInfo.png)
+![OAI JATS Plugin with plugin information and an Upgrade button.](./assets/oaiJatsPluginInfo.png)
 
 (Votre version du ​*plugin*​ pourrait être différente de celle indiqué ci-haut. Nous recommandons de toujours utiliser la dernière version du ​*plugin*​ disponible dans la Galerie de plugiciels.)
 
@@ -60,7 +60,7 @@ Cliquez sur le bouton “Installer” afin d’installer le *​plugin*​. (Si 
 
 Vous devriez voir une notification confirmant l’installation:
 
-![](./assets/oaiJatsPluginNotification.png)
+![Notification: Successfully upgraded to version 1.0.1.0.](./assets/oaiJatsPluginNotification.png)
 
 La dernière version disponible du ​*plugin*​ sera installée. (Lorsque de nouvelles versions du *plugin*​ seront disponibles, vous pourrez les mettre à jour de la même façon. Encore une fois, le numéro de version affiché pourrait différer de celle de la copie d’écran ci-haut.)
 
@@ -78,19 +78,19 @@ Cliquez sur “Plugiciels installés”.
 
 Cherchez “JATS Template Plugin” dans la liste des ​*plugins*:​
 
-![](./assets/jatsTemplatePluginListing.png)
+![JATS Template Plugin in the list of plugins with an unchecked checkbox next to it.](./assets/jatsTemplatePluginListing.png)
 
 Cochez aussi la case à droite pour l’activer. Vous devriez voir ce message de confirmation:
 
-![](./assets/jatsTemplatePluginListingNotification.png)
+![Notification: The plugin "JATS Template Plugin" has been enabled.](./assets/jatsTemplatePluginListingNotification.png)
 
 Cherchez ensuite “JATS Metadata Format”:
 
-![](./assets/jatsMetadataFormatPluginListing.png)
+![JATS Metadata Format in the list of plugins with an unchecked checkbox next to it.](./assets/jatsMetadataFormatPluginListing.png)
 
 Click the checkbox beside that to enable it as well. Vous devriez voir ce message de confirmation:
 
-![](./assets/jatsMetadataFormatPluginListingNotification.png)
+![Notification: The plugin "JATS Metadata Format" has been enabled.](./assets/jatsMetadataFormatPluginListingNotification.png)
 
 Répétez ces étapes pour chaque revue que vous souhaitez inclure à Érudit.
 
@@ -125,7 +125,7 @@ En plus de configurer votre OJS pour Coalition Publica, cela permettra à OJS d�
 
 Sous Paramètres > Distribution > Accès, vous verrez un ensemble de paramètres:
 
-![](./assets/journalSettings.png)
+![Access to journal content settings with options to provide open access (selected), require subscription, not use OJS for publishing, and enable OAI access to content (selected).](./assets/journalSettings.png)
 
 Quel que soit votre choix pour votre revue parmi les 3 premiers paramètres d’accès, assurez-vous d’avoir coché “​*Enable OAI access to content*​”. Enregistrez les paramètres.
 
