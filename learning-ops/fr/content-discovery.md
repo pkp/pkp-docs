@@ -31,6 +31,6 @@ Depending on policy established by your Server access to content can be configur
 
 ![The publishing mode options in OPS for enabling and disabling access to content.](./assets/learning-ops-content-discovery-publishing-mode.png)
 
-### Plugins
+### Plugiciels
 
 There are also some plugins available on OPS that provide more ways for content to be discovered. See the Plugins section of the [Website Settings chapter](./setup.md#plugins) for details.
