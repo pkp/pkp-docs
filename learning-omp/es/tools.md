@@ -15,7 +15,7 @@ To export using the ONIX 3.0 Monograph Export Plugin, you need to ensure that al
 
 The Tab Delimited Content Import Plugin can only be used with the command line.
 
-## Statistics
+## Estadísticas
 
 This chapter of the Learning OMP 3.2 provides a general overview of statistics available in Open Monograph Press (OMP). For more detailed information on statistics and usage guidelines, please see the Statistics chapter on the [PKP Administrator’s Guide](/admin-guide/en/statistics).
 
@@ -31,7 +31,7 @@ The Editorial activity statistics provides a visual graph and trend table with a
 
 ![Sample editorial statistics graph and table.](./assets/learning-omp3.2-statistics-editorial.png)
 
-### Users
+### Usuarios/as
 
 Provides a summary of the number of users registered in your press and by roles.
 
