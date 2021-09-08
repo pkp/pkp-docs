@@ -276,7 +276,7 @@ To add publication formats, click __Add publication format__.
 
 Enter the format title, select format from the drop-down list and select the option that applies. Click OK to save.
 
-!\[Sample new publication format information entered in the upload form.\](./assets/learning-omp3.2-workflow-production-formats-2.p
+![Sample new publication format information entered in the upload form.](./assets/learning-omp3.2-workflow-production-formats-2.png)
 
 ##### Add Publication Format files
 
@@ -337,7 +337,7 @@ __Audience Range Qualifier__
 
 __Audience Range__
 
-##### Additional Resources
+##### Recursos adicionales
 
 * [How do Audience / Subject / Audience Range work together to help librarians and other professionals select products?](https://booknetcanada.atlassian.net/wiki/spaces/UserDocs/pages/16449595/How+do+Audience+Subject+Audience+Range+work+together+to+help+librarians+and+other+professionals+select+products)
 * [ONIX](https://booknetcanada.atlassian.net/wiki/spaces/UserDocs/pages/1378909/ONIX)
