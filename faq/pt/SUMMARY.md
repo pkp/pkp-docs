@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Introdução](.)
 * [Getting Started](./getting-started.md)
   * [How can I use OJS for my journal?](./getting-started.md#how-can-i-use-ojs-for-my-journal)
   * [How can I use OMP for my press?](./getting-started.md#how-can-i-use-omp-for-my-press)
