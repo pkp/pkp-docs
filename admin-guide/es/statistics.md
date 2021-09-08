@@ -1,4 +1,4 @@
-# Statistics
+# Estadísticas
 
 This chapter of the Administrator’s Guide provides a general overview of statistics in Open Journal Systems (OJS), and by extension in Open Monograph Press (OMP) and Open Preprint Systems (OPS), as they pertain to System Administrators. If you are looking for a specific description of the various types of reports available and how to generate custom reports, please read the [section on Statistics in the Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/statistics).
 
@@ -7,7 +7,7 @@ The statistics features of OJS, OMP and OPS allow you to view different numbers 
 The development of this chapter has been funded by the Government of Canada via a grant from Canadian Heritage and by the Canadian Association of Learned Journals / Association canadienne des revues savantes. Public Knowledge Project provided additional in-kind assistance toward the development of this project.
 
 
-![](https://lh5.googleusercontent.com/roq7_6Ck6BNqkpPKetR8zxiRaRljhCR5Z240OzY6l7ZC61st_8AT8VNAYfMY7S8mZceMF0sJjrtu-h0E3FhYQ9PiwCKvjzJzNAPR6fCEmjMMEv7JaF8oaiuYmjNj68bgbPGnCM2w)
+![Funded by the Government of Canada logo.](https://lh5.googleusercontent.com/roq7_6Ck6BNqkpPKetR8zxiRaRljhCR5Z240OzY6l7ZC61st_8AT8VNAYfMY7S8mZceMF0sJjrtu-h0E3FhYQ9PiwCKvjzJzNAPR6fCEmjMMEv7JaF8oaiuYmjNj68bgbPGnCM2w)
 
 
 ## Introduction to the Statistics Framework
