@@ -1,6 +1,6 @@
-# Summary
+# Índice
 
-* [Introduction](.)
+* [Introducción](.)
 * [What Is a Theme?](what-is-a-theme.md)
    * [CSS/LESS](css-less.md)
    * [HTML/Smarty Templates](html-smarty.md)
