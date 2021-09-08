@@ -1,6 +1,6 @@
-# Summary
+# Índice
 
-* [Introduction](.)
+* [Introducción](.)
 * [Getting Started](./getting-started)
 * [Architecture](./architecture)
   * [Request Lifecycle](./architecture-request)
@@ -11,7 +11,7 @@
   * [Services](./architecture-services)
   * [Entities](./architecture-entities)
   * [Database](./architecture-database)
-  * [Plugins](./architecture-plugins)
+  * [Módulos](./architecture-plugins)
 * [Frontend](./frontend)
   * [Pages](./frontend-pages)
   * [UI Library](./frontend-ui-library)
@@ -22,7 +22,7 @@
   * Application
   * Cache
   * Config
-  * [Files](./utilities-files)
+  * [Archivos](./utilities-files)
   * [Hooks](./utilities-hooks)
   * Notifications
   * [Translation](./utilities-translation)
@@ -31,7 +31,7 @@
 * Other
   * [Email Templates](./email-templates)
   * [Publication Versions](./publication-versions)
-  * [Statistics](./statistics)
+  * [Estadísticas](./statistics)
     * [Editorial Statistics](./statistics-editorial)
     * [Reader Statistics](./statistics-reader)
   * [Submission Files](./submission-files)
