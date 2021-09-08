@@ -23,7 +23,7 @@ For example, ownership of `apache:www` with permissions of `750` (`rwxr-x---`) m
 
 Generally, the ownership of `cache/`, `public/`, and other web-writable directories should be your web user and the web-user’s primary group, for example `apache:www-data`. Permissions should probably be `750`.
 
-The ownership of the other non-web-writable directories should be your user, with either the web user’s group, or with public execute permissions. For example:
+The ownership of the other non-web-writable directories should be your user, with either the web user’s group, or with public execute permissions. Por exemplo:
 
 `myuser:www-data` with `750`
 
