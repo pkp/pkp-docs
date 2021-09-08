@@ -1,3 +1,7 @@
+- - -
+title: FAQ about Errors and Troubleshooting in Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
 # Errors and Troubleshooting
 
 ## Why do I get an error message when I try to upload a file?
@@ -29,7 +33,7 @@ Please see the [PKP Administrator’s Guide - Managing Spam](https://docs.pkp.sf
 
 ## What does this confusing error message mean?
 
-When you get an error message on your site, it’s usually brief and doesn’t give much information. For example:
+When you get an error message on your site, it’s usually brief and doesn’t give much information. Par exemple:
 
 - 404 page not found
 - A database error has occurred
