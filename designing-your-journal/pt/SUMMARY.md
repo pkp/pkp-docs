@@ -1,8 +1,8 @@
-# Table of contents
+# Sumário
 
-* [Introduction](./introduction.md)
+* [Introdução](.)
 * [Branding Your Journal](./branding.md)
-  * [Colours](./branding.md#colours)
+  * [Cores;](./branding.md#colours)
   * [Typography](./branding.md#typography)
   * [Images](./branding.md#images)
 * [Inclusive and Accessible Theming](./inclusive-and-accessible-theming.md)
