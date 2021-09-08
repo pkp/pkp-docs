@@ -221,7 +221,7 @@ The heading hierarchy for documents on text editors should follow the same conce
 - Do not skip heading levels, e.g.: a *Heading 2* must be followed by a *Heading 3* then *Heading 4*, except when starting a new section
 - Headings should be unique to prevent any confusion while navigating, skimming or reading the whole document
 
-## Lists
+## Listes
 
 According to the content presented and how the content creator wants to organize it, there are three types of lists for web content. The type of list used depends on the kind of information that is being organized and its purpose.
 
@@ -253,7 +253,7 @@ This list is coded using `<ul>` for the main element and `<li>` for each item. E
 > - Researchers
 > - Students
 > - Editors
-> - Authors
+> - Titre de l'article
 
 ### Ordered list
 
@@ -300,11 +300,11 @@ Screen readers will announce the number of terms as well as the descriptions. Be
 
 **Rendered**
 > <dl>
->   <dt>Authors</dt>
+>   <dt>Titre de l'article</dt>
 >         <dd>John</dd>
 >         <dd>Kevin</dd>
 >         <dd>Juan</dd>
->     <dt>Editor</dt>
+>     <dt>Rédacteur/Rédacteur de rubrique</dt>
 >         <dd>James</dd>
 > </dl>
 **Multiple terms, one description**:
@@ -336,7 +336,7 @@ Screen readers will announce the number of terms as well as the descriptions. Be
 
 **Rendered**
 > <dl>
-> <dt>Authors</dt>
+> <dt>Titre de l'article</dt>
 > <dt>Editors</dt>
 >     <dd>James</dd>
 >     <dd>Michael</dd>
