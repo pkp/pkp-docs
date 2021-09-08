@@ -2,10 +2,10 @@
 book: journal-policies-workflows
 ---
 
-# Journal Policies and Workflows
+# Politiques et flux des travaux des journaux
 
-This guide provides an overview of common journal policies and workflows and how they can be applied within OJS. Relevant documentation is linked throughout the document to instruct on how these practices can be employed in OJS. Those starting out may wish to review [the Basic Steps for Starting a New Journal Guide](/starting-a-journal/), which outlines steps to be taken and considerations when starting a new journal.
+Ce guide donne un aperçu des politiques et des flux de travail courants des revues et de la façon dont elles peuvent être appliquées au sein de l'OJS. La documentation pertinente est liée dans tout le document pour expliquer comment ces pratiques peuvent être employées dans l'OJS. Les nouveaux utilisateurs peuvent vouloir consulter [les étapes de base pour démarrer un nouveau guide de journaux](/starting-a-journal/), qui décrit les mesures à prendre et les considérations à prendre lors du démarrage d'une nouvelle revue.
 
-## Contributors
+## Contributeurs
 
 Mariya Maistrovskaya, Amanda Stevens, Roger Gillis, Kate Shuttleworth
