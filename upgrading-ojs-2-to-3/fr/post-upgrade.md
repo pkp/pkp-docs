@@ -7,7 +7,7 @@ With respect to journal data, editors can be assured that all articles published
 
 However, because of the form data field changes, some information may need to be saved in order to be reentered post-upgrade, such as Masthead and About the Journal sections. Additionally some plugins may need to be re-enabled.
 
-## Troubleshooting
+## Dépannage
 Even with thorough pre-upgrade testing, issues and bugs may surface post-upgrade, so it is important to set aside time and support resources for troubleshooting.
 
 PKP’s [Community Support Forum](https://forum.pkp.sfu.ca/) is a great resource to research such issues. Additionally you will find it helpful to manage your OJS code with git so you can pull in small code changes from the PKP repository, use RSS to stay on top of major releases, and [Zapier](https://zapier.com/apps/github/integrations/email/11485/get-emails-with-new-github-commits) integrated with GitHub to monitor commits to the branch of OJS that you’re actively using.
