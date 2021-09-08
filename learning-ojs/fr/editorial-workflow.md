@@ -37,7 +37,13 @@ Utilisez la case à cocher pour marquer les tâches à supprimer (le lien est di
 
 ## Notifications de Soumission
 
-Lorsqu'un auteur soumet une nouvelle soumission à votre revue, le/la Rédacteur/trice reçoit automatiquement une notification par email et l'auteur recevra un email confirmant sa soumission. Vous pouvez aussi configurer OJS pour qu'une copie de l'email de notification soit envoyée au contact principal de la revue défini dans Paramètres de Revue, ou à une autre adresse.
+When an author makes a new submission to your journal, the author and all contributors will receive an email acknowledging their submission and an editor will be automatically emailed a notification of the new submission. In some cases an editor will be automatically assigned to the submission. Which editor(s) receive the notification or are automatically assigned will depend on how you have set up your journal.
+
+* If there is only one user assigned to an Editor or Journal Manager role, that user will be automatically assigned and notified.
+* If one or more Section Editors are assigned to the [section](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) the submission was made in, they will be automatically assigned to the submission and notified.
+* If one or more Section Editors are assigned to a [category](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#categories) the submission was made in, they will be automatically assigned to the submission and notified.
+
+Vous pouvez aussi configurer OJS pour qu'une copie de l'email de notification soit envoyée au contact principal de la revue défini dans Paramètres de Revue, ou à une autre adresse.
 
 Pour permettre l'envoi de copies de l'email confirmant la soumission au contact principal ou à une autre adresse:
 
