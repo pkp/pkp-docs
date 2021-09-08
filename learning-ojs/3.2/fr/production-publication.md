@@ -271,11 +271,11 @@ Téléversez le fichier épreuve multimédia à l'étape de production du flux d
 * Étiquetez l'épreuve en fonction du type de fichier multimédia (par exemple, MP3/MP4)
 * Cochez la case indiquant "Cette épreuve sera disponible sur un site web distinct"
 
-![](./assets/learning-ojs3.2-ed-prod-upload-video-youtube.png)
+![Pop-up window to add Video as an external Galley File.](./assets/learning-ojs3.2-ed-prod-upload-video-youtube.png)
 
 Pour obtenir l'URL, recherchez la vidéo ou l'audio sur YouTube, SoundCloud, etc., puis cliquez sur **Partager** et copiez l'URL.
 
-![](./assets/learning-ojs3.2-ed-prod-share-youtube.png)
+![Share Button on Youtube to generate external link for Galley File.](./assets/learning-ojs3.2-ed-prod-share-youtube.png)
 
 Collez l'URL dans le champ de l'épreuve distante et cliquez sur **Enregistrer** .
 
@@ -285,13 +285,13 @@ La vidéo devrait maintenant apparaître dans la soumission publiée.
 
 Ensuite, vous voudrez partager le PDF avec l'auteur-e pour un dernier regard et vous déconnecter. Pour ce faire, utilisez le lien **Ajouter une discussion** dans le panneau Discussion sur la production. Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
 
-![](./assets/learning-ojs-3-le-production-add-participant.png)
+![Creating a discussion post in OJS to indicate that galley are ready for proofreading.](./assets/learning-ojs-3-le-production-add-participant.png)
 
 N'oubliez pas d'ajouter l'auteur-e en haut de la fenêtre puis ajoutez un sujet et un message.
 
 Avant l'envoi, joignez une copie du fichier PDF à l'aide du lien **Téléverser un fichier** . Cela le rendra disponible à l'auteur-e.
 
-![](./assets/learning-ojs-3-le-production-add-participant-upload.png)
+![Step 1 of uploading galley file in discussion- uploading file.](./assets/learning-ojs-3-le-production-add-participant-upload.png)
 
 N'oubliez pas de sélectionner l'élément d'article approprié, puis téléversez le PDF.
 
@@ -299,17 +299,17 @@ Cliquez sur **Continuer** .
 
 Ensuite, modifiez le nom du fichier (généralement, vous n'avez rien à faire ici).
 
-![](./assets/learning-ojs-3-le-production-add-participant-upload2.png)
+![Step 2 of uploading galley file in discussion- confirming file name.](./assets/learning-ojs-3-le-production-add-participant-upload2.png)
 
 Ensuite, vous pouvez téléverser des fichiers supplémentaires, si nécessaire.
 
-![](./assets/learning-ojs-3-le-production-add-participant-upload3.png)
+![Step 3 of uploading galley file in discussion- option to add additional file or complete.](./assets/learning-ojs-3-le-production-add-participant-upload3.png)
 
 Une fois que vous avez terminé, appuyez sur **Terminé** .
 
 Le fichier est maintenant joint et vous pouvez envoyer le message en utilisant le bouton **OK** .
 
-![](./assets/learning-ojs-3-le-production-add-participant2.png)
+![Discussion box showing the uploaded galley file as attachment.](./assets/learning-ojs-3-le-production-add-participant2.png)
 
 L'auteur-e a maintenant été notifié et vous pouvez attendre sa réponse.
 
@@ -317,35 +317,35 @@ L'auteur-e a maintenant été notifié et vous pouvez attendre sa réponse.
 
 Une fois que l'auteur-e a eu la chance de revoir les épreuves et d'y répondre, vous recevrez une notification par courriel et verrez une réponse dans les discussions sur la production.
 
-![](./assets/learning-ojs-3-au-production-message-reply.png)
+![List of Production related discussion on author account.](./assets/learning-ojs-3-au-production-message-reply.png)
 
 ### Ajouter des Fichiers Épreuves
 
 Maintenant que l'auteur-e a relu les épreuves, vous pouvez apporter les modifications finales, puis les téléverser dans la soumission. Pour téléverser des épreuves, allez dans l'onglet Publication, puis Épreuves.
 
-![](./assets/learning-ojs-3.2-au-production-galleys.png)
+![Galley subtab within the manuscript's Publication tab to add galley.](./assets/learning-ojs-3.2-au-production-galleys.png)
 
 Cliquez ensuite sur **Ajouter des épreuves** , ce qui ouvrira une nouvelle fenêtre.
 
-![](./assets/learning-ojs-3-au-production-galleys-upload1.png)
+![Creating new galley for with the galley label PDF and english as the language.](./assets/learning-ojs-3-au-production-galleys-upload1.png)
 
 Ajoutez un libellé approprié (par exemple, PDF, HTML, etc.) et cliquez sur **Enregistrer** .
 
-![](./assets/learning-ojs-3-au-production-galleys-upload2.png)
+![Step 1 of uploading file. PDF file uploaded displays option to Change File, Continue, or Cancel.](./assets/learning-ojs-3-au-production-galleys-upload2.png)
 
 Dans cette fenêtre, choisissez l'élément d'article approprié (par exemple, le texte de l'article) et téléversez le fichier épreuve. Cliquez sur **Continuer** .
 
-![](./assets/learning-ojs-3-au-production-galleys-upload3.png)
+![Step 2 of uploading file. Displays option to edit file name, Continue, or Cancel.](./assets/learning-ojs-3-au-production-galleys-upload3.png)
 
 Si nécessaire, modifiez le nom du fichier. Cliquez sur **Continuer** .
 
-![](./assets/learning-ojs-3-au-production-galleys-upload4.png)
+![Step 3 of uploading file. Confirming file has been added. Displays option to Complete or Cancel.](./assets/learning-ojs-3-au-production-galleys-upload4.png)
 
 Si vous avez plus de fichiers, téléversez-les maintenant. Sinon, cliquez sur **Terminer** .
 
 Vous pouvez maintenant voir les épreuves dans le panneau Épreuve.
 
-![](./assets/learning-ojs-3.2-au-production-galleys-uploaded.png)
+![Galley subtab within the manuscript's Publication tab. Displays previously uploaded PDF.](./assets/learning-ojs-3.2-au-production-galleys-uploaded.png)
 
 Vous pouvez apporter des modifications au téléversement en sélectionnant la flèche bleue à gauche du libellé de l'épreuve, qui révèle des options pour modifier, changer le fichier ou le supprimer.
 
@@ -360,19 +360,19 @@ Si vous souhaitez modifier un fichier épreuve ou un libellé de fichier épreuv
 5. Si vous souhaitez modifier le fichier, cliquez sur Modifier le fichier et téléversez un nouveau fichier
 6. Lorsque vous avez terminé les modifications, cliquez sur Enregistrer
 
-![](./assets/learning-ojs-3.2-au-production-galleys-edit.png)
+![Galley subtab within the manuscript's Publication tab. Blue arrow for PDF expanded to reveal additional option to Edit, Change File or Delete.](./assets/learning-ojs-3.2-au-production-galleys-edit.png)
 
 ### Informer le/la Rédacteur-trice de la Rubrique
 
 Enfin, vous devrez informer le rédacteur de la rubrique que les épreuves sont terminées. Pour ce faire, utilisez le panneau Discussion sur la Production et choisissez le lien **Ajouter une discussion** .
 
-![](./assets/learning-ojs-3-au-production-galleys-complete.png)
+![Creating a discussion post in OJS to indicate that galley files have been uoloaded.](./assets/learning-ojs-3-au-production-galleys-complete.png)
 
 Ajoutez le rédacteur de la rubrique au haut de la page, puis incluez une ligne d'objet et un message. Cliquez sur **OK** pour envoyer le message.
 
 Vous pouvez désormais voir la discussion finale.
 
-![](./assets/learning-ojs-3-au-production-galleys-discussions.png)
+![List of Production related discussion Section Editor account.](./assets/learning-ojs-3-au-production-galleys-discussions.png)
 
 ### Le/La Rédacteur-trice de la Rubrique Informe Le/La Rédacteur-trice
 
@@ -401,7 +401,7 @@ Les catégories peuvent être utilisées pour organiser vos articles en collecti
 * Dans la zone **Catégories** , cochez la ou les catégories auxquelles vous souhaitez ajouter l'article
 * Cliquez sur **Enregistrer**
 
-![](./assets/learning-ojs3.2-ed-prod-add-to-category.png)
+![Issue subtab within Manuscripts Publication tab. Shows options to assign Issue, Section, Categories.](./assets/learning-ojs3.2-ed-prod-add-to-category.png)
 
 ### Extraire et Enregistrer les Références
 
@@ -417,7 +417,7 @@ La première chose à faire est d'activer les références en tant que champ de 
   * Obliger l'auteur-e à fournir des références avant d'accepter sa soumission - le champ Références sera sur le formulaire de soumission et les auteurs-es devront y ajouter leurs références
 4. Cliquez sur **Enregistrer**
 
-![](./assets/learning-ojs3.2-ed-prod-enable-references.png)
+![Setting option to Eanble Reference metadata with additional options for authors during the time of submission.](./assets/learning-ojs3.2-ed-prod-enable-references.png)
 
 Maintenant, si vous allez dans l'onglet **Publication** d'un enregistrement de soumission, vous verrez un onglet **Références** ci-dessous. Un/une rédacteur-trice peut ouvrir l'onglet et copier-coller les références de l'article dans le champ. De plus, si vous avez coché la deuxième ou la troisième option ci-dessus, il y aura un champ **Références** lorsqu'un/une auteur-e soumet une soumission et l'auteur-e pourra y ajouter ses références.
 
@@ -440,7 +440,7 @@ Lorsque vous êtes prêt à publier l'article, vous devez d'abord créer un num�
 
 Dans le menu de gauche, sélectionnez Numéros pour gérer tous les numéros de votre revue.
 
-![](./assets/learning-ojs3.1-jm-issues.png)
+![Future Issues tab in Issues. Displays Vol 1 No 3 (2018).](./assets/learning-ojs3.1-jm-issues.png)
 
 Vous verrez des onglets pour les Numéros à Venir et les Numéros Précédents.
 
@@ -448,11 +448,11 @@ Vous verrez des onglets pour les Numéros à Venir et les Numéros Précédents.
 
 **Numéros Précédents** répertorie tous vos numéros publiés.
 
-![](./assets/learning-ojs3.1-jm-issues-back.png)
+![Back Issue tab in Issues. Displays Vol 1 No 2 (2018) and Vol 1 No 1 (2018).](./assets/learning-ojs3.1-jm-issues-back.png)
 
 Pour créer un nouveau numéro, utilisez le lien **Créer un Numéro** et remplissez le formulaire.
 
-![](./assets/learning-ojs-3-issues-create.png)
+![Form to create new issue.](./assets/learning-ojs-3-issues-create.png)
 
 Il y a des espaces pour ajouter de l'informations sur le volume, le numéro, l'année et le titre (par exemple, numéro spécial n ° 1), ainsi qu'une description, une image de couverture et une URL personnalisée. L'image de couverture et la description apparaîtront en haut de la page du numéro sur votre site, si vous les ajoutez. Si vous avez coché le volume, le numéro et le titre ci-dessous, vous devrez remplir quelque chose dans chaque champ.
 
@@ -462,11 +462,11 @@ Lorsque vous avez terminé, cliquez sur **Enregistrer** .
 
 Vous pouvez également modifier un Numéro à Venir existant en sélectionnant la flèche bleue à gauche de l'entrée du numéro sur la page Numéros à Venir.
 
-![](./assets/learning-ojs3.1-jm-issues-edit.png)
+![Vol 1 No 3 (2018) in Future Issues with blue arrow expanded to show additional options to Edit, Preview, Publish Issue, or Delete.](./assets/learning-ojs3.1-jm-issues-edit.png)
 
 Cela révélera un lien **Modifier** , qui ouvrira une nouvelle fenêtre d'informations.
 
-![](./assets/learning-ojs-3-issues-details.png)
+![Table of Contents for Vol 1 No 6 (2016): June 2016.](./assets/learning-ojs-3-issues-details.png)
 
 **Table des Matières** : pour un nouveau numéro, ce sera vide, mais pour les numéros pour lesquels des soumissions ont été planifiées, ils seront répertoriés ici.
 
@@ -501,7 +501,7 @@ If you want to see what your issue and the articles in it will look like on your
 * Cliquez sur **Aperçu**
 * La page d'aperçu du numéro s'ouvre. Pour afficher un aperçu d'un article, cliquez sur le titre de l'article dans la table des matières.
 
-![](./assets/learning-ojs-3.2-ed-production-publish-issue.png)
+![Vol 10 No 10 (2019) in Future Issues with blue arrow expanded to show additional options to Edit, Preview, Publish Issue, or Delete.](./assets/learning-ojs-3.2-ed-production-publish-issue.png)
 
 ### Publier le Numéro
 
@@ -513,7 +513,7 @@ Vous aurez la possibilité d'envoyer une notification aux utilisateurs concernan
 
 To not send a notification of a new issue published, uncheck the box beside “Send notification email to all registered users” before pressing **OK**.
 
-![](./assets/learning-ojs-3.2-ed-production-reader-notify.png)
+![Option to notify readers upon issue publication.](./assets/learning-ojs-3.2-ed-production-reader-notify.png)
 
 Le contenu de l'annonce est généré automatiquement et ne peut pas être modifié. Vous pouvez également utiliser la fonction [Annonces](./settings-website.md#annonces) pour envoyer une annonce de publication avec un contenu personnalisé.
 
@@ -540,7 +540,7 @@ Maintenant que vous avez créé un numéro, vous pouvez y ajouter l'article. Veu
 * La **Date de Publication** sera définie automatiquement lors de la publication du numéro. N'entrez pas de date de publication à moins que l'article n'ait déjà été publié ailleurs et que vous ayez besoin de le mettre à jour.
 * Cliquez sur **Enregistrer** lorsque vous avez terminé
 
-![](./assets/learning-ojs3.2-ed-prod-add-to-issue.png)
+![Issue subtab in Manuscript Publication tab showing all options and fields related to Issue - Issue, Section, Categories, Cover Image, Page Number and Date Published.](./assets/learning-ojs3.2-ed-prod-add-to-issue.png)
 
 ### Publication Continue
 
@@ -566,7 +566,7 @@ When you are ready to publish the article:
 * Allez dans l'onglet **Publication**
 * Cliquez sur le bouton bleu **Calendrier de publication**.
 
-![](./assets/learning-ojs3.2-ed-prod-schedule-for-pub.png)
+![Publication tab of Manuscripts shows subtab and option to Preview and Schedule Issue and language toggles to enter metadata in Francais (Canada) and English.](./assets/learning-ojs3.2-ed-prod-schedule-for-pub.png)
 
 Un message apparaîtra pour confirmer que vous souhaitez planifier la publication de l'article. Cliquez sur **Publier**.
 
@@ -578,7 +578,7 @@ Pour ce faire, sous l'onglet **Publication** du manuscrit, accédez à **Numéro
 
 Sous **Date de publication,** vous pouvez entrer la date de publication si elle est différente de la date de publication du numéro. Sinon, laissez ce champ vide.
 
-![](./assets/learning-ojs-3.2-ed-production-schedule-individual.png)
+![Issue subtab with an Manuscripts Publication tab highlights the Date Published field.](./assets/learning-ojs-3.2-ed-production-schedule-individual.png)
 
 Si le manuscrit programmé n'est pas programmé depuis le numéro, la date programmée précédemment ne doit pas changer.
 
@@ -592,7 +592,7 @@ La possibilité de publier des versions d'articles est l'une des principales nou
 
 Une fois qu'un article est publié, ni les métadonnées ni les épreuves ne peuvent être modifiés. Lorsqu'une révision d'un article publié ou de métadonnées est nécessaire, elle peut être effectuée de deux manières:
 
-![](./assets/learning-ojs-3.2-ed-production-versioning-ways.png)
+![Publication tab of article highlighting options available after article has been published to Unpublish or Create New Version.](./assets/learning-ojs-3.2-ed-production-versioning-ways.png)
 
 **Option 2: Créer une nouvelle version**
 
@@ -604,23 +604,23 @@ Lors de la création d'une nouvelle version, vous pourrez apporter des modificat
 
 Vous pouvez suivre les mises à jour de version sous **Toutes les Versions** . Chaque version est marquée par un numéro et une date de publication. La version en cours de mise à jour est marquée par un numéro et **Non publiée** .
 
-![](./assets/learning-ojs-3.2-ed-production-all-versions.png)
+![Publication tab of manuscript showing a list of all versions available for this article. Article currently has 4 published version and 1 unpublished.](./assets/learning-ojs-3.2-ed-production-all-versions.png)
 
 Une fois vos modifications terminées, vous pouvez publier la nouvelle version en cliquant sur **Publier** en haut à droite. S'il est programmé dans un numéro publié, il sera disponible immédiatement. Aucune notification ne sera envoyée aux lecteurs puisque la notification est envoyée lorsqu'un numéro est publié, pas pour un article individuel.
 
 La liste des versions antérieures et les dates de mise à jour seront répertoriées sur la page de l'article publié.
 
-![](./assets/learning-ojs-3.2-ed-production-published-versions.png)
+![List of dates for all versions for article that displays on the article abstract page on the front end.](./assets/learning-ojs-3.2-ed-production-published-versions.png)
 
 Les lecteurs pourront accéder aux versions précédentes. Ils verront un message sur l'article et les pages d'épreuve les informant qu'il s'agit d'une version obsolète et les pointant vers la version la plus récente.
 
 Exemple de message de version obsolète sur la page épreuve PDF:
 
-![](./assets/learning-ojs-3.2-ed-production-outdated-version.png)
+![Warning notification of outdated version on article abstract page and prompt to read the most recent version.](./assets/learning-ojs-3.2-ed-production-outdated-version.png)
 
 L'URL de l'article pointera toujours vers la version la plus récente, les versions antérieures étant disponibles à la même URL avec la version à la fin de l'URL (par exemple/version/1234/).
 
-![](./assets/learning-ojs-3.2-ed-production-outdated-pdf.png)
+![Warning notification of outdated version on PDF viewer and prompt to read the most recent version.](./assets/learning-ojs-3.2-ed-production-outdated-pdf.png)
 
 Les services d'indexation et les référentiels qui utilisent OAI pour récolter les métadonnées devront à nouveau récolter les métadonnées de l'article afin de mettre à jour vers la nouvelle version.
 
