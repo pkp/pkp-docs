@@ -145,7 +145,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 * Select the Creative Commons license you will use in: Settings > Distribution > Permissions. See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
 * If you wish to embed license information for articles, you must add it to all PDF galley files you upload to submissions during the Production stage.
 
-#### Copyright
+#### Droit d’auteur
 
 **For all the licenses you have indicated above, do authors retain the copyright and full publishing rights without restrictions?** \[**S**\]
 
