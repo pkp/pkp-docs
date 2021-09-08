@@ -1,4 +1,4 @@
-# Summary
+# Résumé
 
 * [Introduction](.)
 * [Getting Started](./getting-started)
