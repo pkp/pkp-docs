@@ -1,4 +1,4 @@
-# Summary
+# Résumé
 
 * [Introduction](.)
 * [Getting Started](./getting-started)
@@ -11,7 +11,7 @@
   * [Services](./architecture-services)
   * [Entities](./architecture-entities)
   * [Database](./architecture-database)
-  * [Plugins](./architecture-plugins)
+  * [Plugiciels](./architecture-plugins)
 * [Frontend](./frontend)
   * [Pages](./frontend-pages)
   * [UI Library](./frontend-ui-library)
@@ -31,8 +31,8 @@
 * Other
   * [Email Templates](./email-templates)
   * [Publication Versions](./publication-versions)
-  * [Statistics](./statistics)
+  * [Statistiques](./statistics)
     * [Editorial Statistics](./statistics-editorial)
     * [Reader Statistics](./statistics-reader)
   * [Submission Files](./submission-files)
-* [Resources](./resources)
+* [Ressources](./resources)
