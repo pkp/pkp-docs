@@ -212,7 +212,7 @@ The Google Scholar indexing system has been trained to recognize the standard OJ
 
 https://SITENAME.COM/index.php/JOURNALABBREVIATION/article/view/SUBMISSION#
 
-For example:
+Par exemple:
 
 http://seer.unipampa.edu.br/index.php/agropampa/article/view/23142
 
