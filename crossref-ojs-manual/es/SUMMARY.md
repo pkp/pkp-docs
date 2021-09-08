@@ -1,12 +1,12 @@
-# Summary
+# Índice
 
-- [Introduction](.)
+- [Introducción](.)
 - [PKP and Crossref](pkpcrossref.md)
    - [PKP and Crossref Sponsorship](pkpsponsor.md)
 - [Getting Started with DOIs](gettingStarted.md)
     - [First Steps](./gettingStarted.md#first-steps)
     - [Configuring OJS](./gettingStarted.md#configuring-the-doi-plugin-for-ojs)
-    - [Additional Resources](./gettingStarted.md#additional-resources)
+    - [Recursos adicionales](./gettingStarted.md#additional-resources)
 - [Setting up the Crossref Plugin](config.md)
     - [Automatic Deposits](./config.md#automatic-deposits)
     - [Manual Deposits](./config.md#manual-deposits)
