@@ -1,4 +1,4 @@
-# Summary
+# Résumé
 
 * [Introduction](.)
 * [Set up PayPal accounts](setup-paypal-accounts.md)
