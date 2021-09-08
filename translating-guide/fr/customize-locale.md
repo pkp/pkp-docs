@@ -1,3 +1,7 @@
+- - -
+book: translating-guide version: 3.2 title: How to Use the Custom Locale Plugin for Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
 # Customize a Translation Locally
 
 You can use the Custom Locale plugin to customize or change a translation on your local installation. It also allows you to customize text on your OJS journal, OMP press, or OPS server in any language that is installed and enabled. For example, if you want to change the text displayed on the review recommendation buttons in the submission workflow, you can use the Custom Locale plugin.
@@ -11,7 +15,7 @@ Please see [How Languages and Locales Work](https://docs.pkp.sfu.ca/translating-
 ## Install and Enable the Custom Locale Plugin
 
 First, ensure that the plugin is installed and enable it:
-1. Go to Settings > Website > Plugins
+1. Allez dans Paramètres > Site Web > Plugiciels
 2. Find the Custom Locale Plugin in the list of Installed Plugins (if it is not listed with the Installed Plugins, check the Plugin Gallery and you may need to install it first)
 3. Click the box to enable it
 4. Click the blue arrow next to the plugin name and then the *Customize* link that appears below it. This will refresh the page and now you should see a new tab in the Website Settings menu called *Locales*.
