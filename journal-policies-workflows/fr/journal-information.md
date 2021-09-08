@@ -1,8 +1,8 @@
-# Journal information
+# Informations sur le journal
 
-## Journal title
+## Titre du journal
 
-The title of your journal will help you stand out and be discernible from other journals in your field. When brainstorming titles, it’s important to check existing journal titles to ensure that the title you choose will not be easily confused with other journals. If you have institutional access to [UlrichsWeb Global Serials Directory](http://ulrichsweb.serialssolutions.com/login), you can use this tool to search journal title ideas and see a complete list of existing titles. You can also search the [ISSN Portal](https://portal.issn.org/) and Google for existing journal titles to ensure that yours is unique.
+Le titre de votre journal vous aidera à vous démarquer et à être discernable des autres journaux dans votre domaine. Lorsque vous considérez des titres possibles, il est important de vérifier les titres de journaux existants pour vous assurer que le titre que vous choisissez ne sera pas facilement confondu avec les autres. Si vous avez un accès institutionnel à [UlrichsWeb Global Serials Directory](http://ulrichsweb.serialssolutions.com/login), vous pouvez utiliser cet outil pour rechercher des idées de titres de journal et voir une liste complète des titres existants. Vous pouvez également rechercher dans le [portail ISSN](https://portal.issn.org/) et Google des titres de journaux existants pour vous assurer que le vôtre est unique.
 
 ### When a journal title changes
 
@@ -47,9 +47,9 @@ It is generally safe to change your journal’s initials. However, if you assign
 
 ## Registering for an ISSN
 
-Your journal should apply for an **ISSN** (International Standard Serial Number), which is an eight-digit number used to identify a journal. ISSNs are managed by a world wide network of National Centres coordinated by an International Centre based in Paris, backed by Unesco and the French Government. You can request an ISSN by visiting the [ISSN web site](http://www.issn.org/) and locating your national centre’s ISSN portal. This can be done at any point in operating the journal.
+Your journal should apply for an **ISSN** (International Standard Serial Number), which is an eight-digit number used to identify a journal. ISSNs are managed by a world wide network of National Centres coordinated by an International Centre based in Paris, backed by Unesco and the French Government. You can request an ISSN by visiting the [ISSN web site](http://www.issn.org/) and locating your national centre’s ISSN portal. Cela peut être fait à tout moment de l'exploitation de la revue.
 
-OJS journals will typically have an online ISSN, but some may also publish a print version, which requires a different print ISSN.
+Les revues OJS ont généralement un ISSN en ligne, mais certaines peuvent également publier une version imprimée, ce qui nécessite un différent ISSN imprimé.
 
 Note that if your journal title changes, even slightly, you will need to apply for a new ISSN.
 
