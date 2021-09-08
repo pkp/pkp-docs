@@ -1,6 +1,6 @@
-# Summary
+# الملخص
 
-* [Introduction](.)
+* [مقدمة](.)
 * [Getting Started](./getting-started)
 * [Plugin Categories](./categories)
   * [Blocks](./categories#blocks)
