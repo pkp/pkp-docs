@@ -1,6 +1,6 @@
-# Summary
+# Índice
 
-* [Introduction](.)
+* [Introducción](.)
 * [Getting Started](./getting-started)
 * [Plugin Categories](./categories)
   * [Blocks](./categories#blocks)
