@@ -3,11 +3,11 @@ book: learning-ojs
 version: 3.3
 ---
 
-# Users and Roles
+# الفصل 8: الأدوات
 
 This section provides access to all of the user accounts associated with your journal, as well as the opportunity to manage roles and permissions.
 
-## Managing Users
+## الاستيراد والتصدير
 
 In addition to managing the journal web site, the Journal Manager is also responsible for all of the user accounts in the system.
 
@@ -17,7 +17,7 @@ To view the user accounts, select Users & Roles from the left menu.
 
 If you want to export a list of all registered users, you can find the option to export it as an XML file under the **Tools** menu. If you prefer your user data in a spreadsheet format, you can download it as a CSV file from **Statistics > Users**.
 
-### Users
+### المدفوعات
 
 Users are displayed in last name order.
 
@@ -141,7 +141,7 @@ If the user still cannot log in, their account may have been disabled. To re-ena
 
 <hr />
 
-## Permissions and Roles
+## الإحصائيات
 
 The OJS workflow revolves around different roles with different permissions and responsibilities for each user, allowing them access to different parts of the workflow. Users in the system must have at least one role. Users can also have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
 
