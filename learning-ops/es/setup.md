@@ -39,7 +39,7 @@ The information added here will be available publicly in the “Contact” page.
 
 ![Sample contact information entered into OPS.](./assets/learning-ops-server-settings-principal-contact.png)
 
-### Sections
+### Secciones
 
 This area allows the creation and management of sections. Sections are not used in OPS the way they are used in OJS because in OPS you do not publish issues and posted preprints are not organized by sections. Categories are used to organize preprints instead. However, a preprint server can still use sections to have different policies, rules and moderators for different collections of preprints.
 
@@ -81,7 +81,7 @@ Additionally, there is currently only one sidebar block available in the setting
 
 In the “Advanced settings” you can add several customizable options, such as a CSS stylesheet, a favicon, and additional content that will appear on the website. Please refer to the [Designing your Journal guide](/designing-your-journal/en/) for additional guidance on customizing the appearance of your OPS site.
 
-### Plugins
+### Módulos
 
 The Plugins tab under Website Settings lists pre-installed plugins under Installed Plugins and additional plugins under Plugin Gallery. See [Learning OJS](/learning-ojs/en/settings-website#installed-plugins) for information about how to install and use plugins. The list below highlights the plugins that are especially useful for OPS.
 
