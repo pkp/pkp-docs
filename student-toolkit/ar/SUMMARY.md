@@ -1,6 +1,6 @@
 # الملخص
 
-* [مقدمة](./introduction.md)
+* [مقدمة](.)
 * [Getting started](./getting-started.md)
   * [PKP School](./getting-started.md#pkp-school)
 * [Open Journal Systems](./ojs.md)
