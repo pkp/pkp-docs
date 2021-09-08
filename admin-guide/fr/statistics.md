@@ -7,7 +7,7 @@ The statistics features of OJS, OMP and OPS allow you to view different numbers 
 L'élaboration de ce chapitre a été financée par le gouvernement du Canada grâce à une subvention du Patrimoine Canadien et par l'Association Canadienne des Revues Savantes / Canadian Association of Learned Journals. Public Knowledge Project a fourni une aide en nature supplémentaire pour le développement de ce projet.
 
 
-![](https://lh5.googleusercontent.com/roq7_6Ck6BNqkpPKetR8zxiRaRljhCR5Z240OzY6l7ZC61st_8AT8VNAYfMY7S8mZceMF0sJjrtu-h0E3FhYQ9PiwCKvjzJzNAPR6fCEmjMMEv7JaF8oaiuYmjNj68bgbPGnCM2w)
+![Funded by the Government of Canada logo.](https://lh5.googleusercontent.com/roq7_6Ck6BNqkpPKetR8zxiRaRljhCR5Z240OzY6l7ZC61st_8AT8VNAYfMY7S8mZceMF0sJjrtu-h0E3FhYQ9PiwCKvjzJzNAPR6fCEmjMMEv7JaF8oaiuYmjNj68bgbPGnCM2w)
 
 
 ## Définitions
