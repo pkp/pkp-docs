@@ -6,8 +6,6 @@ As an Author, your tasks include submission; submitting revised copy; copyeditin
 
 To make a submission, you must have a user account and be enrolled as an Author. User accounts can either be created by the Journal Manager or, if journal policies allow, you can register yourself.
 
-Once you have an account, log in to the journal site and under **User Home **select the role of **Author**.
+Once you have an account, log in to the journal site and under **User Home** select the role of **Author**.
 
 ![Selecting Role of Author](images/chapter6/author_home.png)
-
-
