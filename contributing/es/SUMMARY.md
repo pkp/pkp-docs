@@ -1,5 +1,5 @@
-# Summary
-* [Introduction](.)
+# Índice
+* [Introducción](.)
 * [Contribute](./contribute.md)
   * [Ways to Contribute](./contribute.md#ways-to-contribute)
   * [Find a Documentation Task](./contribute.md#find-a-documentation-task)
