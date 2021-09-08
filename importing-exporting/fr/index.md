@@ -73,19 +73,19 @@ Please note that there is another way to expedite the submission process and pub
 
 ### Creating the XML Import File
 
-The Articles and Issues XML Plugin is the primary method for batch importing and exporting article-level content. It can be used to import and export single or multiple issues and/or articles, including comprehensive metadata. You can view the complete DTD here: `plugins/importexport/native/native.dtd`. The DTD supports the following as root elements: `<article>`, `<articles>`, `<issue>` and `<issues>`.
+The Articles and Issues XML Plugin is the primary method for batch importing and exporting article-level content. Cela peut être utilisé pour importer et exporter un ou plusieures publications et/ou articles, y compris des métadonnées compréhensives. You can view the complete DTD here: `plugins/importexport/native/native.dtd`. The DTD supports the following as root elements: `<article>`, `<articles>`, `<issue>` and `<issues>`.
 
 You can view a sample XML article import file in your OJS installation: `plugins/importexport/native/sample.xml`.
 
 There are a handful of things you should be mindful of when importing data.
 
 -   Be sure to define the document type appropriately using `<!DOCTYPE ...>`
--   Your XML file should UTF8-encoded.
+-   Votre fichier XML doit être encodé en UTF8.
 -   Your XML file must validate. Most \*nix systems have access to the [xmllint](http://xmlsoft.org/xmllint.html) program for validation; there are also a number online XML validators, such as [Validome](http://www.validome.org/xml/); and many XML editing tools such as [Liquid XML Editor](http://www.liquid-technologies.com/xml-editor.aspx/), [Oxygen XML](http://www.oxygenxml.com/) and [XMLspy](http://www.altova.com/) can also validate XML files.
--   Dates should be specified as YYYY-MM-DD.
--   To import a file, you can use `<embed>` to place a file directly within your XML document, or use `<href>` to link to one.
+-   Les dates doivent être spécifiées sous la forme AAAA-MM-JJ.
+-   Pour importer un fichier, vous pouvez utiliser `<embed>` pour placer un fichier directement dans votre document XML, ou utilisez `<href>` pour créer un lien vers un fichier.
 
-If you use the `<embed>` tag you will have to base64-encode your files. Using `<embed>` with a base64-encoded file would look something like this:
+Si vous utilisez le `<embed>` tag, vous devrez encoder vos fichiers en base64. Using `<embed>` with a base64-encoded file would look something like this:
 
 ```
 <galley>
@@ -97,7 +97,7 @@ If you use the `<embed>` tag you will have to base64-encode your files. Using `<
 </galley>
 ```
 
-You can link to full URLs as well as local files using `<href>`. A full URL link would look like the following:
+Vous pouvez créer un lien vers des URL ainsi que des fichiers locaux en utilisant `<href>` . A full URL link would look like the following:
 
 ```
 <galley>
@@ -120,7 +120,7 @@ You can use local linking if your galleys are already stored on the destination 
 ```
 
 -   For importing HTML galleys, use the `<htmlgalley>` element. Otherwise, use the `<galley>` element (ie., for PDF/Postscript, audio, video and other files).
--   Some elements can support embedded HTML tags, such as the  abstract element. If you do embed HTML within your document, remember to wrap the HTML within `<![CDATA[]]>` tags.
+-   Some elements can support embedded HTML tags, such as the  abstract element. Si vous intégrez du HTML dans votre document, n'oubliez pas de placer le HTML dans des tags <! [CDATA []]>.
 -   To add empty data to required fields, you can add anything, for example a single space, so that the field is not null. See the following example, where Jane Doe does not have an email address:
 
 ```
@@ -149,7 +149,7 @@ You can use local linking if your galleys are already stored on the destination 
 </indexing>
 ```
 
--   If you make any typographical errors in the data you are trying to  import, you may end up with duplicate or split entries: for example, if your journal already has a section "Articles" with the initials ART, but you mistype in your XML file ``<abbrev locale="en_US">`AR`</abbrev>`` instead of ``<abbrev locale="en_US">`ART`</abbrev>``, a new journal section with  the initials AR will be created, and that one article will be added to it. This can be easily fixed pre-import, but difficult to clean up after.
+-   If you make any typographical errors in the data you are trying to  import, you may end up with duplicate or split entries: for example, if your journal already has a section "Articles" with the initials ART, but you mistype in your XML file ``<abbrev locale="en_US">`AR`</abbrev>`` instead of ``<abbrev locale="en_US">`ART`</abbrev>``, a new journal section with  the initials AR will be created, and that one article will be added to it. Cela peut être facilement corrigé avant l'importation, mais difficile à nettoyer après.
 
 ### Importing Articles and Issues From the Web
 
@@ -159,7 +159,7 @@ The Articles and Issues XML Plugin can be used from the web, from the Journal Ma
 -   Then, choose the Articles and Issues XML Plugin link.
 -   Upload your XML file (e.g., `ojsV1N1.xml`).
 
-You will be notified of any errors, or if the import was successful.
+Vous serez informé si il y a une erreur ou si l'importation a réussi.
 
 ### Exporting Articles and Issues From the Web
 
@@ -169,11 +169,11 @@ You can export either single or multiple articles and/or issues from the Journal
 -   Then, choose the Articles and Issues XML Plugin link.
 -   You will be provided with the options to Export Issues or Export Articles. Depending on what you choose, you will be able to export either single or multiple articles, or single or multiple issues at a time. These will be exported in XML format, and can be imported to this or another journal at a later date.
 
-> **Note:** Please note that using this plugin to export articles and issues will not only export all relevant metadata, but will include all article files (HTML, PDF, etc.) embedded within the XML document in Base64 encoding. This can result in large, cumbersome XML files, especially when multiple issues are exported at once. Opening them in an editor to view or change any XML data or metadata may be taxing for your computer, and it may take some time to download and/or upload said files, depending on your connection and the resources of the source server.
+> **Note:** Please note that using this plugin to export articles and issues will not only export all relevant metadata, but will include all article files (HTML, PDF, etc.) embedded within the XML document in Base64 encoding. This can result in large, cumbersome XML files, especially when multiple issues are exported at once. Leur ouverture dans un éditeur pour afficher ou modifier des données ou métadonnées XML peut être pénible pour votre ordinateur, et le téléchargement de ou vers serveur de ces fichiers peut prendre un certain temps, en fonction de votre connexion et des ressources du serveur source.
 
 ## Users XML Plugin
 
-The Users XML Plugin can be used to import and export users and their roles. See the XML DTD in `plugins/importexport/users/users.dtd` for more information, as well as the sample file in `plugins/importexport/users/sample.xml` and in Appendix B.
+Le plugiciel XML Users peut être utilisé pour importer et exporter des utilisateurs et leurs rôles. See the XML DTD in `plugins/importexport/users/users.dtd` for more information, as well as the sample file in `plugins/importexport/users/sample.xml` and in Appendix B.
 
 ### Importing Users
 
@@ -192,13 +192,13 @@ You can view a sample XML user import file in Appendix B, and also in your OJS i
 There are a handful of things you should be mindful of when importing user data.
 
 -   Be sure to define the document type appropriately using `<!DOCTYPE ...>`
--   Your XML file should UTF8-encoded.
+-   Votre fichier XML doit être encodé en UTF8.
 -   Your XML file must validate. Most \*nix systems have access to the xmllint program for validation; there are also a number online XML validators, such as Validome; and many XML editing tools such as Oxygen XML and XMLspy can also validate XML files.
--   `<firstname>`, `<lastname>` and `<email>` are mandatory.
+-   `<firstname>` , `<lastname>` et `<email>` sont obligatoires.
 -   Usernames and passwords are optional, and will be generated automatically if omitted.
 -   If you allow the system to generate usernames and passwords for the  users you are uploading, you can optionally allow the system to email the users with their account credentials. This option can be  found on the Users XML Plugin Page ("Send a notification email to each imported user containing the user's username and password.").  You can require the user change their password when they next log in  by setting the password attribute "change" to "true": `<password change="true">myoldpassword</password>`
 -   The default password encryption is "plaintext" (ie., none). Encrypted assumes it was encrypted by Validation::encryptCredentials() and is using the same encryption algorithm used by the system.
--   If the imported file contains any usernames or email addresses that already exist in the system, the user data for those users will not be imported and any new roles to be created will be assigned to the existing users.
+-   Si le fichier importé contient des noms d'utilisateur ou des adresses e-mail qui existent déjà dans le système, les données de ces utilisateurs ne seront pas importées et les nouveaux rôles à créer seront attribués aux utilisateurs existants.
 
 ### Exporting Users From the Web
 
@@ -222,7 +222,7 @@ The Erudit XML Plugin can be used from the web, from the Journal Manager's User 
 -   Then, choose the <em>Erudit Article XML Export Plugin</em> link.
 -   You will then be presented with a list of published articles, and links to the XML export for each individual article galley. It is not currently possible to export whole articles or issues.
 
-## PubMed XML Export Plugin
+## Plugiciel DOAJ Export
 
 The PubMed XML Export Plugin provides an import/export plugin to generate bibliographic information for articles in PubMed standard publisher data format XML for indexing in NLM PubMed/MEDLINE. Details on the XML format and data requirements is available at: http://www.ncbi.nlm.nih.gov/entrez/query/static/spec.html. More information on this plugin can be found in `plugins/importexport/pubmed`.
 
@@ -236,7 +236,7 @@ The Pubmed XML Plugin can be used from the web, from the Journal Manager's User 
 
 ## Using the Plugins from the Command Line
 
-Import/export plugins can normally also be run from the command line. You can view the applicable plugin names by running the following command:
+Les plugiciels d'import/export peuvent normalement aussi être exécutés à partir de la ligne de commande. You can view the applicable plugin names by running the following command:
 
 `php tools/importExport.php list`
 
