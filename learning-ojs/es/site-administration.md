@@ -87,7 +87,7 @@ After installing the new locale, you will have to enable it on the Site Settings
 
 OJS 3 doesn't yet have as many translations as OJS 2, but we expect to have more contributed over time. Contributions are always welcome.
 
-#### Plugins
+#### Módulos
 
 From here, you can choose to enable or disable various plugins, making them available (or not) to all of the journals on this OJS installation.
 
