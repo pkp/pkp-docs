@@ -1,7 +1,7 @@
-# Summary
+# Índice
 
 * [Preface](.)
-* [Introduction](./introduction)
+* [Introducción](./introduction)
   * [OPS Features](./introduction#ops-features)
   * [What's New in This Version of OPS](./introduction#whats-new-in-this-version-of-ops)
   * [OPS Uses](./introduction#ops-uses)
@@ -31,12 +31,12 @@
   * [Moderation and Production](./editorial-workflow#moderation-and-production)
   * [Publication](./editorial-workflow#publication)
   * [Publishing New Versions](./editorial-workflow#publishing-new-versions)
-* [Statistics](./statistics)
+* [Estadísticas](./statistics)
   * [Preprints](./statistics#preprints)
   * [Editorial Activity](./statistics#editorial-activity)
-  * [Users](./statistics#users)
+  * [Usuarios/as](./statistics#users)
   * [Report Generator](./statistics#report-generator)
 * [Content Discovery](./content-discovery)
   * [Home Page](./content-discovery#home-page)
   * [Publishing Mode](./content-discovery#publishing-mode)
-  * [Plugins](./content-discovery#plugins)
+  * [Módulos](./content-discovery#plugins)
