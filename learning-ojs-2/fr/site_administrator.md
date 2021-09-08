@@ -4,9 +4,6 @@ Dans le cadre de l'installation d'OJS, vous aurez créé un compte d'Administrat
 
 To access Site Administration pages, log in as a Site Administrator and from your User Home Page, click the **Site Administrator** link.
 
-
-
-
 ![Site Administrator Home](images/chapter4/site_admin_home.png)
 
 Site Administration responsibilities fall into two categories: **Site Management** and **Administrative Functions**. The activities of both are described on the following pages.
@@ -14,4 +11,3 @@ Site Administration responsibilities fall into two categories: **Site Management
 Des informations supplémentaires à propos de l'administration d'un site <br>OJS, y compris les mises à niveau, les emails, les statistics, et l'import et export, sont disponibles dans le [Guide d'Administrateur](/admin-guide/).
 
 ![Site Administration Responsibilities](images/chapter4/site_admin_1.png)
-
