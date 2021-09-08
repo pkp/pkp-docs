@@ -1,4 +1,4 @@
-# Summary
+# Résumé
 
 * [Getting Found: Building Visibility](getting-found-visibility.md)
   * [Journal Standards and Identifiers](./getting-found-visibility.md#journal-standards-and-identifiers)
@@ -11,7 +11,7 @@
   * [Commercial Scholarly Networking Platforms](./getting-found-increasing-impact.md#commercial-scholarly-networking-platforms)
   * [Research Impact Metrics](./getting-found-increasing-impact.md#research-impact-metrics)
   * [Library Catalogues and Link Resolvers](./getting-found-increasing-impact.md#library-catalogues-and-link-resolvers)
-  * [Copyright and Licensing](./getting-found-increasing-impact.md#copyright-and-licensing)
+  * [Droits d'auteur et licence](./getting-found-increasing-impact.md#copyright-and-licensing)
   * [Further Reading](./getting-found-increasing-impact.md#further-reading)
 * [Staying Found: Ensuring Continuity](getting-found-staying-found.md)
   * [Server Environment](./getting-found-staying-found.md#server-environment)
