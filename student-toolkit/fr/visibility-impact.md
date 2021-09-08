@@ -1,3 +1,7 @@
+- - -
+title: Journal Visibility and Impact - Student Journal Toolkit
+- - -
+
 # Journal Visibility and Impact
 
 These two sections briefly summarize strategies for making your journal visible, and checking your impact. If you have any further questions, please contact your librarian for more assistance.
