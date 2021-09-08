@@ -164,21 +164,21 @@ if (
 
 The following table describes when users are granted access to submission files.
 
-| File Stage                                             | Manager | Subeditor<sup>1</sup> | Assistant<sup>1</sup> | Author          | Reviewer        |
-| ------------------------------------------------------ | ------- | --------------------- | --------------------- | --------------- | --------------- |
-| `SUBMISSION_FILE_SUBMISSION`                           | ✔       | ✔                     | ✔                     | ✔<sup>2</sup>   |                 |
-| `SUBMISSION_FILE_REVIEW_FILE`                          | ✔       | ✔                     | ✔                     | ✔<sup>4,8</sup> | ✔<sup>7,8</sup> |
-| `SUBMISSION_FILE_REVIEW_ATTACHMENT`                    | ✔       | ✔                     | ✔                     | ✔<sup>4</sup>   | ✔               |
-| `SUBMISSION_FILE_ATTACHMENT`                           | ✔       | ✔                     | ✔                     | ✔               |                 |
-| `SUBMISSION_FILE_REVIEW_REVISION`                      | ✔       | ✔                     | ✔                     | ✔<sup>3</sup>   |                 |
-| `SUBMISSION_FILE_INTERNAL_REVIEW_FILE`<sup>6</sup>     | ✔       | ✔                     | ✔                     | ✔<sup>4,8</sup> | ✔<sup>7,8</sup> |
-| `SUBMISSION_FILE_INTERNAL_REVIEW_REVISION`<sup>6</sup> | ✔       | ✔                     | ✔                     | ✔<sup>3</sup>   |                 |
-| `SUBMISSION_FILE_FINAL`                                | ✔       | ✔                     | ✔                     |                 |                 |
-| `SUBMISSION_FILE_COPYEDIT`                             | ✔       | ✔                     | ✔                     | ✔<sup>8</sup>   |                 |
-| `SUBMISSION_FILE_PRODUCTION_READY`                     | ✔       | ✔                     | ✔                     |                 |                 |
-| `SUBMISSION_FILE_PROOF`                                | ✔       | ✔                     | ✔                     | ✔<sup>8</sup>   |                 |
-| `SUBMISSION_FILE_DEPENDENT`<sup>9</sup>                | ?       | ?                     | ?                     | ?               | ?               |
-| `SUBMISSION_FILE_QUERY`<sup>5</sup>                    | ?       | ?                     | ?                     | ?               | ?               |
+| File Stage                                             | Manager | Subeditor<sup>1</sup> | Assistant<sup>1</sup> | Author          | Rédacteur/Rédacteur de rubrique |
+| ------------------------------------------------------ | ------- | --------------------- | --------------------- | --------------- | ------------------------------- |
+| `SUBMISSION_FILE_SUBMISSION`                           | ✔       | ✔                     | ✔                     | ✔<sup>2</sup>   |                                 |
+| `SUBMISSION_FILE_REVIEW_FILE`                          | ✔       | ✔                     | ✔                     | ✔<sup>4,8</sup> | ✔<sup>7,8</sup>                 |
+| `SUBMISSION_FILE_REVIEW_ATTACHMENT`                    | ✔       | ✔                     | ✔                     | ✔<sup>4</sup>   | ✔                               |
+| `SUBMISSION_FILE_ATTACHMENT`                           | ✔       | ✔                     | ✔                     | ✔               |                                 |
+| `SUBMISSION_FILE_REVIEW_REVISION`                      | ✔       | ✔                     | ✔                     | ✔<sup>3</sup>   |                                 |
+| `SUBMISSION_FILE_INTERNAL_REVIEW_FILE`<sup>6</sup>     | ✔       | ✔                     | ✔                     | ✔<sup>4,8</sup> | ✔<sup>7,8</sup>                 |
+| `SUBMISSION_FILE_INTERNAL_REVIEW_REVISION`<sup>6</sup> | ✔       | ✔                     | ✔                     | ✔<sup>3</sup>   |                                 |
+| `SUBMISSION_FILE_FINAL`                                | ✔       | ✔                     | ✔                     |                 |                                 |
+| `SUBMISSION_FILE_COPYEDIT`                             | ✔       | ✔                     | ✔                     | ✔<sup>8</sup>   |                                 |
+| `SUBMISSION_FILE_PRODUCTION_READY`                     | ✔       | ✔                     | ✔                     |                 |                                 |
+| `SUBMISSION_FILE_PROOF`                                | ✔       | ✔                     | ✔                     | ✔<sup>8</sup>   |                                 |
+| `SUBMISSION_FILE_DEPENDENT`<sup>9</sup>                | ?       | ?                     | ?                     | ?               | ?                               |
+| `SUBMISSION_FILE_QUERY`<sup>5</sup>                    | ?       | ?                     | ?                     | ?               | ?                               |
 
 1. Access is granted when the user group is assigned to the related workflow stage.
 2. Access is granted before submission is complete.
