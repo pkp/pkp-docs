@@ -19,11 +19,11 @@ In OMP 3.2, the Publisher information is now stored under the Press setting. You
 
 ![The Press settings main panel.](./assets/learning-omp3.2-press-setting-2.png)
 
-### Masthead
+### Bloc Générique
 
 Enter and edit information about your press, including press name, editorial team, and about the press. All Masthead information will appear under pages in the About menu on your press website.
 
-### Contact
+### Coordonnées
 
 This section contains the primary contact information you provided when originally creating your press and includes a technical support contact option. You can also add a mailing address. All contact information will appear on the Contact page under the About menu on your press website.
 
@@ -45,7 +45,6 @@ To add a series, click **Add Series**  on the right corner of the Series table a
 * __Category__: The subject matter this series will be part of
 * __Path__: What you want to use for the end of the URL
 
-
 #### Edit Series
 
 You can modify a series by clicking on the blue arrow to the left of the series name. This will reveal options to edit or delete the series.
@@ -58,48 +57,61 @@ To order your series, click Order on the right corner of the series box. Using t
 
 ![The drag & drop interface found after clicking Order.](./assets/learning-omp3.2-press-setting-series-4.png)
 
-
 #### Add books to series
 
 See the [Catalog and Displaying Content chapter](./catalog-management.md) for instructions on how to add books to series.
 
-### Categories
+### Catégories
 
 Categories can be used to group and display books according to the subject matter or themes — for example, economics, literature, and poetry. Categories may be nested within “parent” categories in a hierarchy. Categories can be displayed as a browse block on your press site, and readers can select a category to view all books in that category.
 
-You can place a book in a category by editing its metadata, which is explained in the Catalog and Displaying Content chapter. This section explains how to create and edit categories.
+You can place a book in a category by editing its metadata, which is explained in the Catalog and Displaying Content chapter. Cette section explique comment créer et modifier des catégories.
 
 To start, go to Press Setting followed by the Categories tab.
 
 #### Create a category
 
-1. Click Add Category
-2. Enter a name for your category that will be displayed to readers
+1. Cliquez sur Ajouter une Catégorie
+2. Entrez un nom pour votre catégorie qui sera affiché aux lecteurs
 3. Select a Parent Category (if applicable)
-4. Enter a path for the category’s URL on your site
+4. Entrez un chemin pour l'URL de la catégorie sur votre site
 5. Enter a description that will appear above the list of books in the category
 6. Change the order of the books by date or title (optional)
 7. Add an image that will appear at the top of the category’s page (optional)
-8. Click Save
+8. Visitez [https://doaj.org/](https://doaj.org/) et connectez-vous pour télécharger le fichier XML qui a été créé lors du processus d'exportation
 
-![Animation of the steps mentioned above being performed.](./assets/learning-omp3.3-press-setting-categories-1.gif)
-
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/learning-omp3.3-press-setting-categories-2.mp4" type="video/mp4">
+  </video>
+  <figcaption>Video of the steps above being performed.</figcaption>
+</figure>
 
 #### Edit a category
 
-1. Click the name of the category you want to edit
-2. Make the changes
-3. Click OK
+1. Cliquez sur le nom de la catégorie que vous souhaitez modifier
+2. Faites les changements
+3. Cliquez sur OK
 
-![Animation of the steps mentioned above being performed.](./assets/learning-omp3.3-press-setting-categories-2.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/learning-omp3.3-press-setting-categories-3.mp4" type="video/mp4">
+  </video>
+  <figcaption>Video of the steps above being performed.</figcaption>
+</figure>
 
 #### Remove a category
 
-1. Click the blue arrow next to the category you want to remove
-2. Click the Remove button that appears below
-3. Confirm that you want to remove the category
+1. Cliquez sur la flèche bleue à côté de la catégorie que vous souhaitez supprimer
+2. Cliquez sur le bouton Supprimer qui apparaît ci-dessous
+3. Confirmez que vous souhaitez supprimer la catégorie
 
-![Animation of the steps mentioned above being performed.](./assets/learning-omp3.3-press-setting-categories-3.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/learning-omp3.3-press-setting-categories-3.mp4" type="video/mp4">
+  </video>
+  <figcaption>Video of the steps above being performed.</figcaption>
+</figure>
 
 #### Display categories
 
@@ -117,18 +129,17 @@ If your Press will be using Public Identifiers such as DOI or URN, these will ne
 
 Once these have been enabled, you can click the blue arrow to configure the settings for both these.
 
-## Website Settings
+## Paramètres de la Revue
 
 Please refer to the [Learning OJS guide](/learning-ojs/en/) for information on Website Setting applicable to OMP.
 
 Please note that some plugins for OJS are not available for OMP.
 
-## Workflow Settings
+## Paramètres du site Web
 
 Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes.
 
 This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](/learning-ojs/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library.
-
 
 ## Distribution
 
