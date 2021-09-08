@@ -1,6 +1,6 @@
-# Summary
+# Índice
 
-* [Introduction](.)
+* [Introducción](.)
 * [Set up PayPal accounts](setup-paypal-accounts.md)
 * [Test the PayPal plugin in OJS](configure-ojs.md)
 * [Use Your Real PayPal Account](your-real-paypal-account.md)
