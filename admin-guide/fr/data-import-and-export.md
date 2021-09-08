@@ -85,9 +85,9 @@ Veuillez noter que l'utilisation de ce plugiciel pour exporter des articles et d
 
 Le plugiciel XML Users peut être utilisé pour importer et exporter des utilisateurs et leurs rôles. Il peut être utilisé dans les cas suivants:
 
-* Déplacer des comptes d'utilisateurs d'OJS vers un autre système
-* Moving user accounts from another system into OJS
-* Moving user accounts from OJS into another system
+* Déplacer des comptes utilisateurs d'une revue OJS à une autre
+* Déplacer des comptes d'utilisateurs d'un autre système vers OJS
+* Déplacement des comptes utilisateurs d'OJS vers un autre système
 * Exporting user data from OJS, modifying it, and importing it back into OJS
 
 Voici des choses à considérer:
@@ -99,7 +99,7 @@ Si vous importez des utilisateurs dans OJS, créez premièrement le fichier d'im
 
 Veuillez noter que le format XML utilisé par le plugiciel XML Users dans OJS 3 est différent du format XML utilisé par le plugiciel dans OJS 2.  Si vous exportez des données depuis OJS 2 et que vous souhaitez les importer dans OJS 3, vous devrez d'abord modifier le fichier XML.
 
-Here are some things to consider:
+Voici des choses à considérer:
 
 * Une compréhension de base de XML
 * Être inscrit en tant que Directeur/trice de la revue dans la revue OJS
@@ -140,7 +140,7 @@ Pour exporter les métadonnées de revue vers DOAJ automatiquement:
 1. Obtenez une clé API de DOAJ en allant sur [https://doaj.org/](https://doaj.org/), en vous connectant et en vérifiant votre numéro de membre.
 2. Connectez-vous à OJS en tant que Directeur/trice de la revue
 3. Allez dans Outils > Importer/Exporter > Plugiciel DOAJ Export
-4. Click **Export** again. This will generate a download, which may take several minutes to process depending on the size of your user database.
+4. Cliquez à nouveau sur **Exporter**. This will generate a download, which may take several minutes to process depending on the size of your user database.
 
 ## Exporter les métadonnées vers des sites externes et des services d'indexation
 
@@ -169,8 +169,8 @@ Vous pouvez voir les paramètres d'utilisation en exécutant la commande suivant
 
 To manually export article metadata to DOAJ:
 
-1. Login to OJS as Journal Manager
-2. Go to Tools > Import/Export > DOAJ Export Plugin
+1. Connectez-vous à OJS en tant que Directeur/trice de la revue
+2. Allez dans l'onglet Articles
 3. Go to the Articles tab
 4. Sélectionnez les articles que vous souhaitez exporter.  Ils doivent être publiés.
 5. Cliquez sur Exporter
