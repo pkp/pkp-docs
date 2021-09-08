@@ -99,9 +99,13 @@ If you are only using OJS to manage your submission workflow and not publish you
 
 OJS allows you to configure how and when content can be accessed at an article and issue level. When you create an issue, there is a tab called **Access** under which you can set the **Access Status** as **Subscription** or **Open Access**.
 
+![Issue settings access tab showing subscription and open access options.](./assets/learning-ojs3.2-issue-access.png)
+
 If you set it as **Subscription**, underneath that a box will appear where you can optionally enter an **Open Access Date**, at which the content will become open access.
 
 Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbox will appear beside each article under **Open Access**, where you can optionally set individual articles as open access, even if the rest of the issue remains available by subscription.
+
+![Issue table of contents showing open access checkboxes.](./assets/learning-OJS3.2-article-access.png)
 
 **Enable OAI** will be enabled by default, as this is an important protocol used by indexing services and other applications to harvest your journal's metadata. However, if you are not using OJS to publish your journal's content you may want to disable OAI.
 
