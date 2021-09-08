@@ -1,4 +1,4 @@
-# Troubleshooting
+# Solución de problemas
 
 ## Permissions, File Access, Etc.
 
