@@ -35,7 +35,7 @@ There are two categories of updates, minor and major changes.
 
 While OJS currently does not provide Crossmark support, we do have plans to do so in the future. Users wishing to use Crossmark are able to do so by referring to the simplified steps below. For full details please see the [Crossref Guide](https://www.crossref.org/get-started/crossmark/)
 
-## Setup
+## Installation
 
 **Step 1: Create a Crossmark Policy Page and assign it a DOI**
 
@@ -110,7 +110,7 @@ It is good practice to publish a notice of correction or retraction (with its ow
 - Retraction
 - Withdrawal
 
-## Resources
+## Ressources
 
 - [The Crossref Curriculum](https://www.crossref.org/education/crossmark/participating-in-crossmark/)
 - [Crossmark Presentation](https://www.youtube.com/watch?v=em0IVJf-UNo)
