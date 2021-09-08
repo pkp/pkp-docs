@@ -89,7 +89,7 @@ The reviewer's option to accept or decline the review request will be at the bot
 
 The second tab will outline the press’ reviewer guidelines. The third tab will have the review file for download and text boxes for the reviewer to enter their comments to the author and editor or editor only. They can also upload files for the author or editor, as well as start discussions with the editor. The reviewer can submit the review at the bottom of this page. After the review has been submitted, the reviewer still has the option of starting a discussion with the editor.
 
-## Editorial Workflow
+## Production et publication
 
 ### Manuscript Review
 
@@ -212,15 +212,15 @@ Alternatively, they can also be uploaded in the __Publication Formats__ in Publi
 
 If your press will be sending proofs to the author for approval, you can use the Notify function in the Participants tab. See [Learning OJS - Chapter 15](/learning-ojs/en/production-publication#contact-the-author) for more details.
 
-### Publication Tabs
+### Programmer une publication
 
 The Publication tab allows you to edit or add information about the submission, including contributors, metadata, and identifiers for the final publication. It is also where you will upload the final publication files for publication in the Press.
 
 ![Highlighted location of Contributors and Metadata in the Publication tab.](./assets/learning-omp3.2-workflow-production-meta.png)
 
-__Title & Abstract__: Use this tab to edit the book title, subtitle, and abstract. If any changes are made, click Save before exiting this window.
+__Title & Abstract__: Use this tab to edit the book title, subtitle, and abstract. Si des modifications sont apportées, cliquez sur Enregistrer avant de quitter cette fenêtre.
 
-__Contributors__: Use this tab to add, edit, or remove book contributors. If any changes are made, click Save before exiting this window.
+__Contributors__: Use this tab to add, edit, or remove book contributors. Si des modifications sont apportées, cliquez sur Enregistrer avant de quitter cette fenêtre.
 
 __Chapters__: Use this tab to add multiple chapter files (if applicable)
 
@@ -276,7 +276,7 @@ To add publication formats, click __Add publication format__.
 
 Enter the format title, select format from the drop-down list and select the option that applies. Click OK to save.
 
-!\[Sample new publication format information entered in the upload form.\](./assets/learning-omp3.2-workflow-production-formats-2.p
+![Sample new publication format information entered in the upload form.](./assets/learning-omp3.2-workflow-production-formats-2.png)
 
 ##### Add Publication Format files
 
@@ -369,7 +369,7 @@ This will enable an extra field for publication dates when adding chapter files.
 
 ![The publication date field found after enabling this option.](./assets/learning-omp3.2-workflow-production-pubdate-2.png)
 
-### Multilingual Submissions
+### Soumissions Multilingues
 
 For multilingual books, the Title & Abstract, Metadata, Chapter, and Permission & Disclosure tabs have options for adding and editing metadata in multiple languages. Languages must first be turned on in Website Settings > Setup > Languages.
 
@@ -377,7 +377,7 @@ For multilingual books, the Title & Abstract, Metadata, Chapter, and Permission 
 
 Under the ‘Publish’ button, select the desired language. In the example above, French and English are enabled. The French text boxes will appear beside the English when selected.
 
-### Publish
+### Évaluation
 
 Now that you’ve entered all the relevant information and proofs for your manuscript in the publication and marketing tabs, and are ready to click the **Publish** button. ![The Publish button.](./assets/learning-omp3.2-workflow-production-publish-1.png)
 
@@ -397,7 +397,7 @@ Once a book is published, neither metadata nor publication files can be edited w
 
 ![Highlighted Unpublish and Create New Version buttons.](./assets/learning-omp3.2-workflow-production-versioning-1.png)
 
-##### Option 1: Unpublish and republish
+##### Option 2: Créer une nouvelle version
 
 Unpublishing a book allows you to make changes without creating a new version. After unpublishing, you can update metadata and/or replace the publication file and schedule the book for publication again.
 
@@ -405,7 +405,7 @@ Unpublishing a book allows you to make changes without creating a new version. A
 
 When creating a new version, you will be able to make changes to the metadata and/or publication files. Make sure to click Save on the bottom right to record the changes.
 
-You can keep track of version updates under All Versions. Each version is marked by a number and date published. The version currently being updated is marked by a number and Unpublished.
+You can keep track of version updates under All Versions. Chaque version est marquée par un numéro et une date de publication. The version currently being updated is marked by a number and Unpublished.
 
 ![Expanded list of versions found under the All Versions link.](./assets/learning-omp3.2-workflow-production-versioning-2.png)
 
@@ -415,7 +415,7 @@ The list of prior versions and update dates will be listed on the publication pa
 
 ![The publication and update dates of a submission.](./assets/learning-omp3.2-workflow-production-versioning-3.png)
 
-Readers will be able to access previous versions. They will see a message on the book page and publication file advising them that it is an outdated version and pointing them to the most recent version.
+Les lecteurs pourront accéder aux versions précédentes. They will see a message on the book page and publication file advising them that it is an outdated version and pointing them to the most recent version.
 
 ![The notification displayed for older versions of a publication.](./assets/learning-omp3.2-workflow-production-versioning-4.png)
 
