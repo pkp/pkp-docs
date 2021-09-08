@@ -28,7 +28,7 @@ See section on adding [Chapter files](./role-specific-workflows.md#chapters).
 To create a catalog entry within the submission of a manuscript:
 1. Click Catalog entry on the left panel of the Publication tab
 2. Enter and select the necessary information for this manuscript
-3. Click Save.
+3. Cliquez sur Enregistrer.
 
 ![The Catalog Entry menu.](./assets/learning-omp3.2-catalog-management.png)
 
@@ -91,7 +91,7 @@ To add a book to a series:
 1. Go to the book’s submission page and click the Publication tab followed by Catalog Entry.
 2. In the Series, select which one you would like to add it to.
 3. Enter the Series Position information.
-4. Click Save.
+4. Cliquez sur Enregistrer.
 
 ![The series selection dropdown and series position entry field location under Catalog Entry in the Publication tab.](./assets/learning-omp3.2-catalog-managment_add-series.png)
 
@@ -101,6 +101,6 @@ Categories can be used to organize your books into thematic collections and prov
 
 1. Go to the book’s submission page and click the Publication tab followed by Catalog Entry
 2. Enable the categories this manuscript belongs to
-3. Click Save
+3. Visitez [https://doaj.org/](https://doaj.org/) et connectez-vous pour télécharger le fichier XML qui a été créé lors du processus d'exportation
 
 ![The category list under Catalog Entry in the Publication tab.](./assets/learning-omp3.2-catalog-add.png)
