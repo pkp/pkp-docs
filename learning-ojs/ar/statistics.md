@@ -3,13 +3,13 @@ book: learning-ojs
 version: 3.3
 ---
 
-# Statistics
+# الفصل 9: الاشتراكات
 
 The statistics features of OJS allow you to view different numbers pertaining to the activity, access, and downloads of various aspects of your site, including article and abstract views, subscription activity, editorial and review activity, and user counts separate by role. There is also a Report Generator section for producing various reports from some of the available data.
 
 This section will describe the statistics report/visualization tools available in OJS and how to use them. If you are interested in how to manage statistics as a systems administrator, including configuring the statistics framework, managing legacy statistics and statistics in OJS 2, and troubleshooting statistics, please view [the PKP Administrator’s Guide’s documentation on statistics](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
 
-## Definitions
+## سياسات الاشتراك
 
 The following definitions may be helpful to you for understanding the variety of statistics tracked by OJS.
 
@@ -20,7 +20,7 @@ The following definitions may be helpful to you for understanding the variety of
 * **Project COUNTER Code of Practice:** a set of practices developed by COUNTER to establish a means to report on usage metrics for electronic resources in a consistent way. The Code provides rules on what should be counted as a view, including specific rules for robot usage and multi-click abuse. OJS filters metrics through these rules. It should also be noted that PKP is part of the COUNTER Bots and Crawlers Working Group.
 * **Robots, crawlers, bots:** nonhuman site visitors who may still view and download article data. These are usually identified as such to the server, and OJS does not count them in its usage metrics, as per the Project COUNTER Code of Practice.
 
-## Articles
+## أنواع الاشتراكات
 
 OJS offers Editors and Journal Managers the option of viewing graph and table representations of article usage, including abstract views and full-text downloads.
 
@@ -46,7 +46,7 @@ You also have the option of searching the statistics of a specific article by ti
 
 ![The search bar for locating specific article statistics.](./assets/article-details-search.png)
 
-## Editorial Activity
+## طرق الدفع
 
 This section provides statistics about the editorial workflow, such as number of submissions received, days to first editorial decision, and acceptance and rejection rates. You can filter these statistics using a custom date range to, e.g., find the number of articles accepted during a 12-month period.
 
@@ -61,13 +61,13 @@ There are some important things to note when considering the data in these repor
 
 An Editorial Activity Report will be generated monthly and can be sent by email to editors and section editors. All managers and section editors are automatically opted out of the monthly report; however, you can opt in by going to User Profile > Notifications and unchecking the box that disables the automated email.
 
-## Users
+## المدفوعات
 
 This section provides information about new user/role registrations within a specified time period. The Total column is not a total number of accounts created; it identifies how many users have that role in the system right now. When an existing user receives a new role, such as a registered author becoming a reviewer, that addition to the total number of reviewers in the system will be reflected in the data by an increase in the number of reviewers but no change in the total number of users.
 
 ![Sample users statistics data.](./assets/users.png)
 
-## Report Generator
+## الاشتراكات الفردية
 
 The Report Generator page provides access to a variety of reports from your journal.
 
