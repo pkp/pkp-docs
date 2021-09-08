@@ -1,4 +1,4 @@
-# Table of contents
+# Sumário
 
 * [PKP Administrator's Guide](.)
 * [Managing the Server Environment](managing-the-environment.md)
