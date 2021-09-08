@@ -1,4 +1,4 @@
-# Table of contents
+# Table des matières
 
 * [GDPR Guidebook for PKP Users](.)
 * [Introduction](introduction.md)
