@@ -134,7 +134,7 @@ Once the Announcements setting is enabled, click "Save." An "Announcements" menu
 
 ![OJS 3.3 Announcements menu enabled in the sidebar with an option to add and edit announcements.](./assets/learning-ojs3.3-settings-website-announcements.png)
 
-### Lists
+### Listas
 
 Limit the number of items (for example, submissions, users, or editing assignments) to show in a list before showing subsequent items on another page. Also, limit the number of links to display to subsequent pages of the list.
 
