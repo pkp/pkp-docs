@@ -1,3 +1,7 @@
+- - -
+book: translating-guide version: 3.2 title: How to Use the Custom Locale Plugin for Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
 # المزيد من المعلومات والمجتمع
 
 You can use the Custom Locale plugin to customize or change a translation on your local installation. It also allows you to customize text on your OJS journal, OMP press, or OPS server in any language that is installed and enabled. For example, if you want to change the text displayed on the review recommendation buttons in the submission workflow, you can use the Custom Locale plugin.
