@@ -18,7 +18,12 @@ If you want to edit existing documentation or add a section or chapter to existi
 6. Click that button to open up a plain text editor for the document within GitHub itself.
 7. Edit the document.
 
-![File edit menu in Github.](./assets/contrib-01.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/contrib-01.mp4" type="video/mp4">
+  </video>
+  <figcaption>File edit menu in Github.</figcaption>
+</figure>
 
 If your edits requires you to replace or add images, see section on Adding/Replacing images.
 
