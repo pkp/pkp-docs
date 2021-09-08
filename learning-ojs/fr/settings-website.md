@@ -330,7 +330,7 @@ Après avoir configuré le plugiciel, si vous ouvrez l'une de vos pages d'articl
 
 Ce plugiciel ajoute l'intégration de Hypothes.is à la vue publique de l'article d'OJS, permettant l'annotation et les commentaires. Il prend actuellement en charge les commentaires sur les épreuves HTML.
 
-This plugin can be enabled from the Plugin Gallery.
+Pour configurer le plugiciel:
 
 Ce plugiciel affiche un nuage d'étiquettes de mots-clés qui peuvent être activés dans la barre latérale de votre journal ou de votre presse.
 
@@ -396,7 +396,7 @@ Une fois qu'il a été activé, aucune configuration supplémentaire n'est requi
 
 Pour configurer le plugiciel de statistiques d'utilisation, vous devez être un **Administrateur**:
 
-This plugin can be enabled in the Plugin Gallery.
+Ce plugiciel affiche le nombre de téléchargements d'un article sur la page de l'article.
 
 Veuillez noter que:
 
