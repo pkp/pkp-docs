@@ -29,7 +29,7 @@ Supplementary galleys should have a label that describes the content. For exampl
 
 ## Which galley formats to use?
 
-Online journals publish their articles in a variety of file types. The most common are PDF and HTML, but increasingly these additional formats are being used: ePub, MP3, and XML. As a general rule, more structured formats (those with tagging in place to indicate the features, such as headings, alt text, etc) are the most accessible. With all formats there are things you can do to maximize the accessibility and preserve the structure of the original document.
+Les revues en ligne publient leurs articles dans divers types de fichiers. The most common are PDF and HTML, but increasingly these additional formats are being used: ePub, MP3, and XML. As a general rule, more structured formats (those with tagging in place to indicate the features, such as headings, alt text, etc) are the most accessible. With all formats there are things you can do to maximize the accessibility and preserve the structure of the original document.
 
 ### PDF
 
