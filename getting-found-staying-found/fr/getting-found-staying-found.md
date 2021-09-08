@@ -42,7 +42,7 @@ A key consideration for any hosting service that you might want to consider is h
 
 Some additional considerations to take into account include: does the provider have a system in place for their own system failures, such as power loss or server crashes? Will they be able to have your site back online fast after such a crisis?
 
-### Support
+### Interface Éditoriale
 
 Technical support is another important factor to consider. If you need assistance, will there be someone available in a timely manner with the required expertise? Ask some technical questions, and see how long it takes to receive a response. If they can't answer your questions quickly now, will you be able to rely on them when you are facing a system crisis?
 
