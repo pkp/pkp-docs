@@ -3,7 +3,7 @@ book: learning-ops
 version: 3.3
 ---
 
-# Statistics
+# Statistiques
 
 This chapter of Learning OPS provides a general overview of statistics available in Open Preprint Server (OPS). For more detailed information on statistics and usage guidelines, please see the Statistics chapter on the [Learning OJS](/learning-ojs/en/statistics).
 
@@ -17,18 +17,18 @@ The Preprints section provides a visual display as well as a table format of pre
 
 There are also a number of filters that can be used including date range and section. The search bar under Preprint Details can be used to search for the activity of a specific preprint manuscript.
 
-## Editorial Activity
+## Activité éditoriale
 
 The Editorial activity statistics provides a visual graph and trend table with a summary of the editorial activity for your Server. This can be filtered for a specific date range.
 
 ![The OPS Editorial Activity Report](./assets/learning-ops3.3-statistics-editorial-report.png)
 
-## Users
+## Utilisateurs
 
 Provides a summary of the number of users registered in your server and by roles.
 
 ![The OPS User Report](./assets/learning-ops-statistics-users-report.png)
 
-## Report Generator
+## ./tools.md#report-generator
 
 You can generate statistical reports for usage and reviews or create a custom report. For information on how to use and configure statistics in OPS, see the relevant section in [Learning OJS](/learning-ojs/en/statistics#report-generator).
