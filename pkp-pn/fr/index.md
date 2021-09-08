@@ -35,7 +35,7 @@ To configure the plugin, you will need to be logged in as the Administrator.
 3. For users that have used PKP PN in the past, it may require you to update the plugin; if so, find the plugin on the Plugin Gallery page and click Update.
 4. For manual installation and configuration of the PKP Plugin, please refer to the [GitHub README](https://github.com/pkp/pln).
 5. Once the plugin has been updated or enabled, click Settings to review and accept the terms of use. The Journal Identifier will automatically be populated.
-6. Click Save
+6. Visitez [https://doaj.org/](https://doaj.org/) et connectez-vous pour télécharger le fichier XML qui a été créé lors du processus d'exportation
 
 ![The PKP PN Plugin Screen with Terms of Use checkboxes filled in, automatically populated Journal Identifier field, and Save button](./assets/pkp-pn-terms.png)
 
@@ -113,7 +113,7 @@ Please note, the Keepers Registry updates its holdings data from the PKP PN mont
 
 If you want to cease depositing your content in the PKP PN, simply disable the plugin. The content you already deposited will remain in the archive.
 
-## Troubleshooting
+## Dépannage
 
 ### I’ve enabled the plugin and the Terms of Use aren’t showing up after I click refresh
 
