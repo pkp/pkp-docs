@@ -94,11 +94,11 @@ Block plugins can use any HTML code. However, if you want your block to blend in
     <span class="title"><!-- Add the title of your block here --></span>
     <div class="content">
     <!-- Add the main content for your block here -->
-	</div>
+    </div>
 </div>
 ```
 
-## Import/Export
+## Importer/Exporter
 
 Import/export plugins provide tools for getting data into and out of OJS and OMP. They can be used when you are moving between our application and another platform to migrate users, submissions, back issues and more.
 
