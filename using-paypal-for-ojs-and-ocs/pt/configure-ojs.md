@@ -1,3 +1,7 @@
+- - -
+title: Test PayPal plugin in OJS - Using the PayPal Plugin for OJS and OMP
+- - -
+
 # Test PayPal plugin in OJS
 
 Now that you have setup your PayPal account, you will need to activate your payment methods in OJS.
