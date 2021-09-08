@@ -93,7 +93,7 @@ Dispatcher::dispatch
 APIHandler::endpoints
 ```
 
-## Plugins
+## Módulos
 
 Hooks are most commonly used in generic plugins. Calling hooks from other types of plugins may not work. The [plugin guide](/dev/plugin-guide/en) includes some [examples](/dev/plugin-guide/en/examples) that use hooks.
 
