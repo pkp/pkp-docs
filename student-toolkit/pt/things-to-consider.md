@@ -1,3 +1,7 @@
+- - -
+title: Things to Consider - Student Journal Toolkit
+- - -
+
 # Things to Consider
 
 This [blog post on the Hybrid Publishing Lab](./appendix-3) includes a worksheet or canvas that you can use when thinking of the following consideration for your journal.
@@ -47,7 +51,7 @@ One of the most important considerations for your journal will be creating a Pub
 
 Agreements vary by journal but typically include information on copyright, and author rights. We will discuss these in more detail in the [Copyright and Creative Commons section](./copyright). Check in with your librarian or copyright office for more assistance.
 
-### Examples
+### Exemplos
 
 -   [Publication Agreements](https://guides.lib.ku.edu/journal_editors/publication_agreements) (University of Kansas Libraries, Resources for Editors of Scholarly Journals)
 -   Coming Soon! PKP Library Publishing Policies course on PKP School
