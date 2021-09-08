@@ -19,11 +19,11 @@ In OMP 3.2, the Publisher information is now stored under the Press setting. You
 
 ![The Press settings main panel.](./assets/learning-omp3.2-press-setting-2.png)
 
-### Masthead
+### إدارة الموقع
 
 Enter and edit information about your press, including press name, editorial team, and about the press. All Masthead information will appear under pages in the About menu on your press website.
 
-### Contact
+### الوظائف الإدارية
 
 This section contains the primary contact information you provided when originally creating your press and includes a technical support contact option. You can also add a mailing address. All contact information will appear on the Contact page under the About menu on your press website.
 
@@ -45,7 +45,6 @@ To add a series, click **Add Series**  on the right corner of the Series table a
 * __Category__: The subject matter this series will be part of
 * __Path__: What you want to use for the end of the URL
 
-
 #### Edit Series
 
 You can modify a series by clicking on the blue arrow to the left of the series name. This will reveal options to edit or delete the series.
@@ -57,7 +56,6 @@ You can modify a series by clicking on the blue arrow to the left of the series 
 To order your series, click Order on the right corner of the series box. Using the double arrow beside the Series title, drag the series in order and click Done once you have completed ordering your series.
 
 ![The drag & drop interface found after clicking Order.](./assets/learning-omp3.2-press-setting-series-4.png)
-
 
 #### Add books to series
 
@@ -82,8 +80,12 @@ To start, go to Press Setting followed by the Categories tab.
 7. Add an image that will appear at the top of the category’s page (optional)
 8. Click Save
 
-![Animation of the steps mentioned above being performed.](./assets/learning-omp3.3-press-setting-categories-1.gif)
-
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/learning-omp3.3-press-setting-categories-2.mp4" type="video/mp4">
+  </video>
+  <figcaption>Video of the steps above being performed.</figcaption>
+</figure>
 
 #### Edit a category
 
@@ -91,7 +93,12 @@ To start, go to Press Setting followed by the Categories tab.
 2. Make the changes
 3. Click OK
 
-![Animation of the steps mentioned above being performed.](./assets/learning-omp3.3-press-setting-categories-2.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/learning-omp3.3-press-setting-categories-3.mp4" type="video/mp4">
+  </video>
+  <figcaption>Video of the steps above being performed.</figcaption>
+</figure>
 
 #### Remove a category
 
@@ -99,7 +106,12 @@ To start, go to Press Setting followed by the Categories tab.
 2. Click the Remove button that appears below
 3. Confirm that you want to remove the category
 
-![Animation of the steps mentioned above being performed.](./assets/learning-omp3.3-press-setting-categories-3.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/learning-omp3.3-press-setting-categories-3.mp4" type="video/mp4">
+  </video>
+  <figcaption>Video of the steps above being performed.</figcaption>
+</figure>
 
 #### Display categories
 
@@ -117,18 +129,17 @@ If your Press will be using Public Identifiers such as DOI or URN, these will ne
 
 Once these have been enabled, you can click the blue arrow to configure the settings for both these.
 
-## Website Settings
+## الفصل 5: الإعدادات
 
 Please refer to the [Learning OJS guide](/learning-ojs/en/) for information on Website Setting applicable to OMP.
 
 Please note that some plugins for OJS are not available for OMP.
 
-## Workflow Settings
+## الفصل 6: الأعداد
 
 Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes.
 
 This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](/learning-ojs/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library.
-
 
 ## Distribution
 
