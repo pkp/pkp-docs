@@ -1,3 +1,7 @@
+- - -
+title: Journal Administration - Student Journal Toolkit
+- - -
+
 # Journal Administration
 
 ## Editorial board
@@ -36,7 +40,7 @@ __Benefits__
 
 This is an excellent opportunity to gain experience in scholarly publishing, editing, web design, and project management while collaborating with a team of colleagues to enhance the [x] field by publishing quality work written by [students, etc].
 
-__Requirements__
+__Requis techniques__
 * Excellent organizational skills and the ability to prioritize tasks and manage deadlines
 * Ability to work in a highly collaborative environment with a team of volunteers
 * Strong written communication skills
@@ -69,7 +73,7 @@ __Benefits__
 
 This is an excellent opportunity to gain experience in scholarly publishing, editing, web design, and project management while collaborating with a team of colleagues to enhance the [x] field by publishing quality work written by [students, etc].
 
-__Requirements__
+__Requis techniques__
 
 * Excellent organizational skills and the ability to prioritize tasks and manage deadlines
 * Ability to work in a highly collaborative environment with a team of volunteers
@@ -99,7 +103,7 @@ __Benefits__
 
 This is an excellent opportunity to gain experience in scholarly publishing, editing, web design, and project management while collaborating with a team of colleagues to enhance the [x] field by publishing quality work written by [students, etc].
 
-__Requirements__
+__Requis techniques__
 
 * Ability to work in a highly collaborative environment with a team of volunteers
 * Strong written and verbal communication skills
@@ -131,7 +135,7 @@ __Benefits__
 
 This is an excellent opportunity to gain experience in scholarly publishing, editing, web design, and project management while collaborating with a team of colleagues to enhance the [x] field by publishing quality work written by [students, etc].
 
-__Requirements__
+__Requis techniques__
 
 * Familiarity with Open Journal Systems [or other content management software], Adobe InDesign, and [software] is an asset
 * Knowledge of manuscript layouts is an asset
@@ -158,7 +162,7 @@ __Benefits__
 
 This is an excellent opportunity to gain experience in scholarly publishing, editing, web design, and project management while collaborating with a team of colleagues to enhance the [x] field by publishing quality work written by [students, etc].
 
-__Requirements__
+__Requis techniques__
 
 * Strong written communication skills
 * Knowledge of current research trends in [x field]
