@@ -28,7 +28,7 @@ Commercial platforms such as ResearchGate and Academia.edu offer various service
 
 In advising authors about such services, it is important to be aware of the terms of use, which are typically subject to modification without prior consent and at the sole discretion of the service provider.
 
-For example:
+Par exemple:
 
 * [Academia.edu](https://academia.edu)
 * [ResearchGate](https://researchgate.org)
@@ -162,7 +162,7 @@ You can approach aggregators and indexing services for inclusion into their resp
 
 Link resolvers enable databases to connect to full-text journal articles. If a journal is indexed by another source, such as the DOAJ, or a commercial indexing service, then the journal may be included in link resolvers’ knowledge base as a source of full-text content. If not, journals can work with a local library to provide records.
 
-## Copyright and Licensing
+## Droits d'auteur et licence
 
 > Contributed by Roger Gillis
 
