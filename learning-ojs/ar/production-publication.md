@@ -505,7 +505,7 @@ If you want to see what your articles will look like in the context of an issue 
 * Click **Preview**
 * The issue preview page will open. To preview an article, click the article title in the table of contents.
 
-![[Vol 10 No 10 (2019) in Future Issues with blue arrow expanded to show additional options to Edit, Preview, Publish Issue, or Delete.](./assets/learning-ojs-3.2-ed-production-publish-issue.png)
+![Vol 10 No 10 (2019) in Future Issues with blue arrow expanded to show additional options to Edit, Preview, Publish Issue, or Delete.](./assets/learning-ojs-3.2-ed-production-publish-issue.png)
 
 ### Publish Issue
 
@@ -582,7 +582,7 @@ To do this, under the **Publication** tab of the manuscript, go to **Issues**.
 
 Under **Date Published** you can enter the publication date if it is different from the issue publication date. If not, leave this blank.
 
-![[Issue subtab with an Manuscripts Publication tab highlights the Date Published field.](./assets/learning-ojs-3.2-ed-production-schedule-individual.png)
+![Issue subtab with an Manuscripts Publication tab highlights the Date Published field.](./assets/learning-ojs-3.2-ed-production-schedule-individual.png)
 
 In order to schedule an individual publication, it must be assigned to an issue and have passed the review stage.
 
