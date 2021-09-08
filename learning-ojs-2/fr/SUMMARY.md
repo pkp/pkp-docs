@@ -97,7 +97,7 @@
     * [Submission References](submission_references.md)
     * [Submission Archives](submission_archives.md)
 * [Chapter 9: Reviewers](reviewers.md)
-  * [Submissions](reviwers_submissions.md)
+  * [Submissions](reviewers_submissions.md)
   * [Reviews](reviews.md)
 * [Chapter 10: Copyeditors](copyeditors.md)
   * [Ajouter l'article à une édition](copyeditor_home_page.md)
