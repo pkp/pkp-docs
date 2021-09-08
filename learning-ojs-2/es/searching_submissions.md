@@ -4,9 +4,6 @@ As an Editor you can search through all submissions from your Editor Home page. 
 
 ![Searching Submissions](images/chapter7/editor_19.png)
 
-
 All submissions matching search parameters will display together after clicking Search.
 
-
 ![Search Results](images/chapter7/editor_20rev.png)
- 
