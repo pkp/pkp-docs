@@ -115,7 +115,7 @@ For example, if you want to embed multimedia files in HTML files and have these 
 
 #### Galley file formats
 
-Online journals publish their articles in a variety of file types. The most common are PDF and HTML, but increasingly additional formats are being used, such as ePub, MP3, and XML.
+Os periódicos on-line publicam seus artigos em uma variedade de formatos de arquivos. The most common are PDF and HTML, but increasingly additional formats are being used, such as ePub, MP3, and XML.
 
 Plugins in OJS allow PDF, HTML, and XML files to be viewed in a web browser or downloaded. If the files are being downloaded instead of displayed in the browser, you may need to enable one of these plugins under Website Settings > Plugins:
 
@@ -505,7 +505,7 @@ If you want to see what your articles will look like in the context of an issue 
 * Click **Preview**
 * The issue preview page will open. To preview an article, click the article title in the table of contents.
 
-![[Vol 10 No 10 (2019) in Future Issues with blue arrow expanded to show additional options to Edit, Preview, Publish Issue, or Delete.](./assets/learning-ojs-3.2-ed-production-publish-issue.png)
+![Vol 10 No 10 (2019) in Future Issues with blue arrow expanded to show additional options to Edit, Preview, Publish Issue, or Delete.](./assets/learning-ojs-3.2-ed-production-publish-issue.png)
 
 ### Publish Issue
 
@@ -582,7 +582,7 @@ To do this, under the **Publication** tab of the manuscript, go to **Issues**.
 
 Under **Date Published** you can enter the publication date if it is different from the issue publication date. If not, leave this blank.
 
-![[Issue subtab with an Manuscripts Publication tab highlights the Date Published field.](./assets/learning-ojs-3.2-ed-production-schedule-individual.png)
+![Issue subtab with an Manuscripts Publication tab highlights the Date Published field.](./assets/learning-ojs-3.2-ed-production-schedule-individual.png)
 
 In order to schedule an individual publication, it must be assigned to an issue and have passed the review stage.
 
