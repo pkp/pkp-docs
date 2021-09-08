@@ -3,7 +3,7 @@ title: Testing - OJS/OMP
 description: A guide to writing and running tests for OJS, OMP and any of their plugins or themes.
 ---
 
-# Introduction
+# Luku 1: Esittely
 
 The [Public Knowledge Project](https://pkp.sfu.ca/) runs automated tests against its software to catch bugs in code before they are released. These tests step through the main functions of an application one by one to check if each feature still works as intended.
 
