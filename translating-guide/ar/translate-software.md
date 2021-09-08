@@ -1,6 +1,7 @@
 ---
 book: translating-guide
 version: 3.2
+title: How to Translate PKP Software - Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
 ---
 
 # إعتبارات تقنية: كيف تتم
