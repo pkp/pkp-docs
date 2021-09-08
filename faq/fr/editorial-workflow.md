@@ -1,4 +1,8 @@
-# Editorial Workflow
+- - -
+title: FAQ about the Editorial Workflow in Open Journal Systems (OJS) and Open Monograph Press (OMP)
+- - -
+
+# Flux des Travaux Éditoriaux
 
 ## Can a reviewer change a recommendation they already submitted?
 
@@ -70,13 +74,13 @@ If you have further issues, ask your Systems Administrator to check your server 
 - PHP's `finfo_...` suite of functions (which replaces `mime_content_type` as the preferred method)
 - The external "file" tool, by executing the following: `file -bi [filename here]`
 
-Problems may occur if:
+Des problèmes peuvent survenir si:
 
-- you are using the first option but your magic.mime file does not include enough information on the filetype you are attempting to identify;
-- your server configuration does not support the first two options;
+- vous utilisez la première option mais votre fichier magic.mime ne contient pas assez d'informations sur le type de fichier que vous essayez d'identifier;
+- la configuration de votre serveur ne prend pas en charge les deux premières options;
 - you do not have sufficient permissions to run an external tool as in the third
 
-Additionally, you may be encountering problems due to malformed files. If you are having trouble having your HTML files recognized, you may want to run them through [HTML-Tidy](http://www.w3.org/People/Raggett/tidy/) or otherwise ensure that they are valid HTML. HTML files created by word processors in particular may have a hard time being recognized as HTML.
+Aditionellement, vous pouvez rencontrer des problèmes dus à des fichiers mal formés. Si vous avez des problèmes à reconnaître vos fichiers HTML, vous pouvez les exécuter via [HTML-Tidy](http://www.w3.org/People/Raggett/tidy/) ou autrement vous assurer qu'ils sont au format HTML. Les fichiers HTML créés par des traitements de texte en particulier peuvent avoir du mal à être reconnus comme HTML.
 
 You may also want to [search the forums](https://forum.pkp.sfu.ca/search?q=magic%20mime) for the keywords "magic mime" or for "mimetype" -- many users have had this problem, and there are several discussions on how to solve it. See also [this forum article](http://forum.pkp.sfu.ca/t/error-message-on-upload-no-file-uploaded-or-invalid-file-type/29606).
 
@@ -95,7 +99,7 @@ Note: Be cautious when deleting published items from your site. Once items are p
 
 You may want to disable submissions if your journal is no longer publishing or you only use OJS to publish your content.
 
-To disable new submissions to the journal, you will need to be in the Journal Manager role.
+Pour désactiver les nouvelles soumissions dans le journal, vous devez être dans le rôle de directeur de journaul.
 
 If you are using OJS 3.0, 3.1, or 3.2, you can do this by restricting section submitters, as described in the [Learning OJS 3 guide: Journal Settings > Sections](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#restrict-section-submitters).
 
