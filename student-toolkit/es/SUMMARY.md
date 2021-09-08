@@ -1,6 +1,6 @@
-# Summary
+# Índice
 
-* [Introduction](./introduction.md)
+* [Introducción](.)
 * [Getting started](./getting-started.md)
   * [PKP School](./getting-started.md#pkp-school)
 * [Open Journal Systems](./ojs.md)
