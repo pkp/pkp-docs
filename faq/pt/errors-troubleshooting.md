@@ -1,3 +1,7 @@
+- - -
+title: FAQ about Errors and Troubleshooting in Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
 # Errors and Troubleshooting
 
 ## Why do I get an error message when I try to upload a file?
@@ -29,7 +33,7 @@ Please see the [PKP Administrator’s Guide - Managing Spam](https://docs.pkp.sf
 
 ## What does this confusing error message mean?
 
-When you get an error message on your site, it’s usually brief and doesn’t give much information. For example:
+When you get an error message on your site, it’s usually brief and doesn’t give much information. Por exemplo:
 
 - 404 page not found
 - A database error has occurred
@@ -71,7 +75,7 @@ Any message that begins with “PHP strict standards” or “PHP Deprecated” 
 
 ### Call to undefined function xml_parser_create
 
-Example:
+Exemplo:
 
 ```
 PHP Fatal error: Call to undefined function xml_parser_create() in /home/cimsur/ojs/lib/pkp/classes/xml/XMLParser.inc.php on line 271
@@ -81,7 +85,7 @@ A fatal error from `xml_parser_create` indicates that PHP does not have the [xml
 
 ### Permission denied
 
-Example:
+Exemplo:
 
 ```
 Warning: file_put_contents(/usr/share/ojs/ojs-3.0b1/cache/fc-locale-05afc2c4827ae11210c660d134ba1f01.php): failed to open stream: Permission denied in /usr/share/ojs/ojs-3.0b1/lib/pkp/classes/cache/FileCache.inc.php on line 90
@@ -91,7 +95,7 @@ This usually indicates the system is trying to write to a folder and permissions
 
 ### Call to a member function… on a non-object
 
-Example:
+Exemplo:
 
 ```
 Fatal error: Call to a member function getFullName() on a non-object in /home/ojsepw/public_html/cache/t_compile/%%B0^B03^B0335942%%copyedit.tpl.php on line 20
@@ -101,7 +105,7 @@ This error can indicate that a value is missing in your database.  For example, 
 
 ### File does not exist
 
-Example:
+Exemplo:
 
 ```
 Errors occurred during installation: The directory specified for uploaded files does not exist or is not writable.
@@ -111,7 +115,7 @@ This can happen during installation or when you’re trying to upload or access 
 
 ### Cannot use a scalar value as an array
 
-Example:
+Exemplo:
 
 ```
 WARNING: Cannot use a scalar value as an array in home/user/public_html/ojs/classes/journal/JournalSettingsDAO.inc.php at line 83
@@ -143,7 +147,7 @@ Then trigger the warning again (e.g. by reloading the page you saw it on before)
 
 ### Parse error: syntax error, unexpected
 
-Example:
+Exemplo:
 
 ```
 Parse error: syntax error, unexpected '[' in C:\inetpub\vve-site\api\vendor\nikic\fast-route\src\functions.php on line 12
