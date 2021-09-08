@@ -1,4 +1,8 @@
-# Troubleshooting
+- - -
+title: Troubleshooting the ORCID Plugin for OJS and OPS
+- - -
+
+# Diagnostic d'Anomalies
 
 ## Make sure your plugin is up to date
 
