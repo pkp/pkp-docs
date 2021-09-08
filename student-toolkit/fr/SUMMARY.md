@@ -1,6 +1,6 @@
-# Summary
+# Résumé
 
-* [Introduction](./introduction.md)
+* [Introduction](.)
 * [Getting started](./getting-started.md)
   * [PKP School](./getting-started.md#pkp-school)
 * [Open Journal Systems](./ojs.md)
@@ -32,7 +32,7 @@
 * [Journal Visibility and Impact](./visibility-impact.md)
   * [Visibility](./visibility-impact.md#visibility)
   * [Impact](./visibility-impact.md#impact)
-* [Further Resources](./resources.md)
+* [Autres ressources](./resources.md)
   * [Professional Associations](./resources.md#professional-associations)
 * [Appendix One: Why start a student journal?](./appendix-1.md)
   * [Benefits and challenges of publishing a student journal](./appendix-1.md#benefits-and-challenges-of-publishing-a-student-journal)
