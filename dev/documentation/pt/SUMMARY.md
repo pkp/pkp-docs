@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](.)
+* [Introdução](.)
 * [Getting Started](./getting-started)
 * [Architecture](./architecture)
   * [Request Lifecycle](./architecture-request)
@@ -28,7 +28,7 @@
   * [Translation](./utilities-translation)
   * Updates
   * [Validation](./utilities-validation)
-* Other
+* Outros
   * [Email Templates](./email-templates)
   * [Publication Versions](./publication-versions)
   * [Statistics](./statistics)
