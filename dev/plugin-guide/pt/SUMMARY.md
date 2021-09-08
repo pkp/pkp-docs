@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](.)
+* [Introdução](.)
 * [Getting Started](./getting-started)
 * [Plugin Categories](./categories)
   * [Blocks](./categories#blocks)
@@ -8,12 +8,12 @@
   * [Reports](./categories#reports)
   * [Themes](./categories#themes)
   * [Generic](./categories#generic)
-  * [Other](./categories#other)
+  * [Outros](./categories#other)
 * [Translation](./translation)
 * [Templates](./templates)
 * [Plugin Settings](./settings)
 * [Release a Plugin](./release)
-* [Examples](./examples)
+* [Exemplos](./examples)
   * [Plugin Template](https://github.com/pkp/pluginTemplate){:target="_blank"}
   * [Add Styles and Scripts](./examples-styles-scripts)
   * [Context and Site](./examples-context-site)
