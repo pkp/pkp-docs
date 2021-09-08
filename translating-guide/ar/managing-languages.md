@@ -1,6 +1,7 @@
 ---
 book: translating-guide
 version: 3.2
+title: How to Manage Languages in Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
 ---
 
 # ترجمة برامجيات مشروع المعرفة العامة
