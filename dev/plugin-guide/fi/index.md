@@ -3,7 +3,7 @@ title: Plugin Guide for OJS and OMP
 description: Learn how to create a plugin for Open Journal Systems and Open Monograph Press, to customize almost anything about the application to suit your needs.
 ---
 
-# Introduction
+# Luku 1: Esittely
 
 This document describes how to create your own plugins for OJS and OMP. It is written for software developers who want to extend the publishing platform to suit their needs.
 
