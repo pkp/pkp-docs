@@ -1,4 +1,8 @@
-# Site Administration
+- - -
+title: FAQ about How to Administer Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
+# Luku 3: Käyttäjätilit
 
 ## How can I create a backup of my site?
 
