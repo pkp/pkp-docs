@@ -1,45 +1,45 @@
-# Alternative uses of OJS
+# Autres utilisations d'OJS
 
-OJS can be used for the entire journal management process, from submissions through to final publication of issues. However, some journals choose to use OJS for only one stage of publishing - for example, to manage the submission workflow when publishing elsewhere on an external site, or to publish work on the OJS site when the workflow is managed outside of OJS. OJS can also be used to publish conference proceedings, and some journals choose to publish article-by-article, rather than collecting articles into an issue before publishing. We have outlined each of these use cases below.
+OJS peut être utilisé pour l'ensemble du processus de gestion des revues, des soumissions jusqu'à la publication finale des numéros. Cependant, certaines revues choisissent d'utiliser OJS pour une seule étape de publication - par exemple, pour gérer le flux des travaux des soumissions lors de la publication ailleurs sur un site externe, ou de publier des travaux sur le site OJS lorsque le flux des travaux est géré en dehors d'OJS. OJS peut également être utilisé pour publier les travaux de la conférence, et certaines revues choisissent de publier article par article plutôt que de collecter des articles dans un numéro avant la publication. Nous avons décrit chacun de ces cas d'utilisation ci-dessous.
 
-## Using OJS for submission workflow only
+## Utiliser OJS uniquement pour le flux des travaux des soumissions
 
-Your journal may choose to use OJS to manage the submission workflow and coordinate communications between editors and authors as work moves through submission, peer review, copyediting, and other aspects of the editorial and publishing workflow. If you are only using OJS to manage your submission workflow and not publish your content, you can do the following:
+Votre journal peut choisir d'utiliser OJS pour gérer le flux des travaux des soumissions et coordonner les communications entre les rédacteurs et les auteurs au fur et à mesure que le travail passe par la soumission, l'évaluation par pairs, la révision et d'autres aspects du flux de travail éditorial et de publication. Si vous utilisez uniquement OJS pour gérer votre flux de travail des soumissions et pas pour publier votre contenu, vous pouvez faire ce qui suit :
 
-1. In the **Settings** > **Distribution** > **Access** setting select “OJS will not be used to publish the journal’s contents online.”
-2. In the **Settings** > **Distribution** > **Access** disable OAI (Open Archives Initiative) to prevent indexing services from harvesting the journal metadata. 
+1. Dans le paramètre **Paramètres** > **Distribution** > **Accès** sélectionnez « OJS ne sera pas utilisé pour publier en ligne le contenu du journal».
+2. Dans les **Paramètres** > **Distribution** > **Accès** désactivez OAI (Open Archives Initiative) pour empêcher les services d'indexation de récolter les métadonnées du journal. 
 
-See [Learning OJS > Distribution Settings > Access](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#access) for more information and instructions for changing these settings.
+Voir [Apprendre OJS > Paramètres de distribution > Accès](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#access) pour plus d'informations et instructions pour modifier ces paramètres.
 
-Once these settings are enabled, you can proceed with the publication workflow.
+Une fois que ces paramètres sont activés, vous pouvez continuer avec le flux de travail de publication.
 
-It is recommended that even if you are not publishing your articles and issues on your OJS site, that you still “publish” them in OJS and complete the editorial workflow for each submission. This will record in OJS which issue an article was published in and create an internal indicator that all the articles in a single issue were published together, which is helpful for tracking and record-keeping. It will clear the submissions in the “active” queue and move them to the “archive,” which will prevent the “active” queue from becoming unmanageable as new submissions are added for the next issue.
+Il est recommandé que même si vous ne publiez pas vos articles ou numéros de revue sur votre site OJS, que vous les « publiez » toujours dans OJS et complétez le flux de travail éditorial pour chaque soumission. Cela enregistrera dans quel numéro l'article a été publié dans OJS créera un indicateur interne indiquant que tous les articles dans un seul numéro ont été publiés ensemble, qui est utile pour faire le suivi et la tenue des dossiers. Il effacera les soumissions dans la file d’attente « active » et les déplacera vers les « archives », ce qui empêchera la file d’attente « active » de devenir ingérable au fur et à mesure que de nouvelles soumissions seront ajoutées pour le prochain numéro.
 
-As well, if you are using a tool like the [ORCID Profile plugin](https://docs.pkp.sfu.ca/orcid/en/) or the [PKP PN](https://docs.pkp.sfu.ca/pkp-pn/), it will send the records to their respective external sources, as the sending action is triggered when an issue is published.
+De plus, si vous utilisez un outil comme le [Plugiciel ORCID Profile](https://docs.pkp.sfu.ca/orcid/en/) ou le [PKP PN](https://docs.pkp.sfu.ca/pkp-pn/), il enverra les enregistrements à leurs sources externes respectives, car l'action d'envoi est déclenchée lorsqu'un numéro est publié.
 
-## Using OJS for publishing only
+## Utiliser OJS uniquement pour la publication
 
-Your journal may choose to use OJS for the final journal publication while managing the editorial workflow outside of OJS.
+Votre journal peut choisir d'utiliser OJS pour la publication finale du journal tout en gérant le flux de travail éditorial en dehors d'OJS.
 
-You can bypass the workflow in OJS using the QuickSubmit plugin ([Learning OJS > Tools > Quick Submit Plugin](https://docs.pkp.sfu.ca/learning-ojs/en/tools#quick-submit-plugin)). This will allow you to upload publication-ready files straight through to an issue and hit “publish,” without sending each submission through the review, editing, and publication workflow stages.
+Vous pouvez contourner le flux de travail en OJS en utilisant le plugiciel QuickSubmit ([Apprendre OJS > Outils > Plugiciel Quick Submit](https://docs.pkp.sfu.ca/learning-ojs/en/tools#quick-submit-plugin)). Cela vous permettra de télécharger des fichiers prêts à la publication directement à un numéro et de cliquer sur « Publier » , sans envoyer chaque soumission à travers les étapes de l'évaluation, de la révision et de la production.
 
-You should also disable submissions on your OJS site to prevent authors from inadvertently submitting their work there. To disable new submissions to the journal, you will need to be in the Journal Manager role. You can do it in two ways:
+Vous devriez également désactiver les soumissions sur votre site OJS pour empêcher les auteurs d'y soumettre leur travail par inadvertance. Pour désactiver les nouvelles soumissions dans le journal, vous devez être dans le rôle de directeur de journaul. Il y a deux façons de faire :
 
-- Disable submission per section [as described in the Learning OJS 3 guide](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#create-section)
-- Remove the “Make a Submission Block” from the user interface in [Settings > Website > Appearance > Setup > Sidebar](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#setup) and/or disable the “Make a Submission Block” in [Settings > Website > Plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#installed-plugins)
+- Désactiver la soumission par section [comme décrit dans le guide d'apprentissage pour OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#create-section)
+- Retirez le « Créer un bloc de soumission» de l’interface utilisateur dans [Paramètres > Site Web > Apparence > Configuration > Barre latérale](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#setup) et/ou désactivez le bloc « Faire une soumission» dans [Paramètres > Site Web > Plugiciels](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#installed-plugins)
 
-## Using OJS to publish conference proceedings
+## Utiliser OJS pour publier les actes d'une conférence
 
-PKP froze development of Open Conference Systems (OCS), our original conference management software, in 2018, in order to focus our development resources on OJS, OMP, and OPS. OJS can be used to publish conference proceedings, although you will need to use a separate site to manage conference registration and scheduling. Please see our [FAQ question](https://docs.pkp.sfu.ca/faq/en/software-features#can-i-use-ojs-to-publish-conference-proceedings-what-happened-to-ocs) on this topic for more details.
+PKP a gelé le développement de Open Conference Systems (OCS), notre logiciel de gestion de conférence original, en 2018, afin de concentrer nos ressources de développement sur OJS, OMP et OPS. OJS peut être utilisé pour publier les aces d'une conférence, mais vous devrez utiliser un site séparé pour gérer l'enregistrement et la planification de la conférence. Pour plus de détails, veuillez consulter notre [FAQ](https://docs.pkp.sfu.ca/faq/en/software-features#can-i-use-ojs-to-publish-conference-proceedings-what-happened-to-ocs) sur ce sujet.
 
-Some considerations for publishing conference proceedings include:
+Parmi les considérations relatives à la publication des actes d'une conférence figurent :
 
-- Will you use OJS for peer review and editing of the conference proceedings, or just the final publication? See “Using OJS for publishing only” if you don’t plan to use the editorial workflow.
-- Will you publish video or audio recordings of the sessions, or just conference papers and / or PowerPoints? See our [OJS documentation on publishing multimedia files](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#multimedia-files) for information about publishing audio and video.
-- You may need to modify labels in the journal to indicate that the site is for a “conference” rather than a “journal.” You can use the [Custom Locale Plugin](https://docs.pkp.sfu.ca/translating-guide/en/customize-locale) to make customizations to the text displayed in the journal site.
+- Utiliserez-vous l'OJS pour l'évaluation par pairs et l'révision les acte de la conférence, ou simplement pour la publication finale? Voir « Utiliser OJS uniquement pour la publication » si vous ne prévoyez pas d’utiliser le flux de travail éditorial.
+- Allez-vous publier des enregistrements vidéo ou audio des sessions, ou simplement des articles de conférence et / ou PowerPoints? Consultez notre [documentation OJS sur la publication de fichiers multimédia](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#multimedia-files) pour des informations sur la publication de fichiers audio et vidéo.
+- Vous devrez peut-être modifier les étiquettes dans le journal pour indiquer que le site est pour une « conférence» plutôt que pour un « journal». Vous pouvez utiliser le [Plugiciel de localisation personnalisé](https://docs.pkp.sfu.ca/translating-guide/en/customize-locale) pour personnaliser le texte affiché dans le site du journal.
 
-## Continuous publishing
+## Publication Continue
 
-OJS is currently designed for a traditional publishing model where articles are published in issues. However, continuous publishing is a popular alternative way to publish scholarly research, in which articles are published as they are ready. You can use a continuous publishing model within OJS.
+OJS est actuellement conçu pour un modèle d'édition traditionnel où les articles sont publiés dans des numéros. Cependant, la publication continue est un moyen alternatif populaire de publier des recherches savantes, dans lesquelles les articles sont publiés au fur et à mesure qu'ils sont prêts. Vous pouvez utiliser un modèle de publication continue dans OJS.
 
-For information about setting up your journal for continuous publishing, see [Learning OJS > Production and Publication > Continuous Publishing](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#continuous-publishing)
+Pour plus d'informations sur la mise en place de votre journal pour une publication continue, voir [Apprendre OJS > Production et Publication > Publication continue](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#continuous-publishing)
