@@ -1,4 +1,4 @@
-# Summary
+# Résumé
 * [Introduction](.)
 * [Contribute](./contribute.md)
   * [Ways to Contribute](./contribute.md#ways-to-contribute)
@@ -30,4 +30,4 @@
   * [Attribution](./style-and-format.md#attribution)
   * [Tips for Writing Documentation](./style-and-format.md#tips-for-writing-documentation)
   * [Tips for Video Documentation](./style-and-format.md#tips-for-video-documentation)
-* [Copyright and Licensing](./copyright.md)
+* [Droits d'auteur et licence](./copyright.md)
