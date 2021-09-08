@@ -3,7 +3,7 @@ book: learning-omp
 version: 3.3
 ---
 
-# Tools
+# الفصل 10: التأليف
 
 ## Import/Export
 
@@ -15,7 +15,7 @@ To export using the ONIX 3.0 Monograph Export Plugin, you need to ensure that al
 
 The Tab Delimited Content Import Plugin can only be used with the command line.
 
-## Statistics
+## الفصل 9: الاشتراكات
 
 This chapter of the Learning OMP 3.2 provides a general overview of statistics available in Open Monograph Press (OMP). For more detailed information on statistics and usage guidelines, please see the Statistics chapter on the [PKP Administrator’s Guide](/admin-guide/en/statistics).
 
@@ -25,13 +25,13 @@ Similar to the [Article Usage visual statistics](/admin-guide/en/statistics#arti
 
 ![Sample data visualization in OMP.](./assets/learning-omp3.2-stastics-monograph.png)
 
-### Editorial Activity
+### طرق الدفع
 
 The Editorial activity statistics provides a visual graph and trend table with a summary of the editorial activity for your press. This can be filtered for a specific date range and/or series.
 
 ![Sample editorial statistics graph and table.](./assets/learning-omp3.2-statistics-editorial.png)
 
-### Users
+### المدفوعات
 
 Provides a summary of the number of users registered in your press and by roles.
 
@@ -43,6 +43,6 @@ To export users, navigate to **Statistics > Users**. Click on the button **Expor
 
 ![Sample user statistics summary.](./assets/learning-omp3.3-statistics-users.png)
 
-### Report Generator
+### الاشتراكات الفردية
 
 You can generate statistical reports for usage and reviews or create a custom report. For information on how to use and configure statistics in OMP see the [PKP Administrator’s Guide](/admin-guide/en/statistics).
