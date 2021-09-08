@@ -189,7 +189,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 * Se você utiliza um serviço de verificação de plágio, certifique-se de que esta informação esteja disponibilizada online. Ela pode ser incluída na seção de avaliação por pares. Atualmente, a verificação de plágio não é obrigatória para inclusão no DOAJ.
 * If "Yes", please include the URL to the plagiarism policy in the box that appears once "Yes" is selected. If you included it in the peer review section, it will appear publicly under About > About the Journal.
 
-#### Editorial
+#### Licenciamento de Conteúdo
 
 **40) Qual a URL das Diretrizes para Autores do periódico?** [ **D** ]
 
