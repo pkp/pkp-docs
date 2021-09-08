@@ -1,4 +1,4 @@
-# Summary
+# Résumé
 
 * [Introduction](./introduction.md)
 * [Differences between OJS 2 and 3](./differences.md)
