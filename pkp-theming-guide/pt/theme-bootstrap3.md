@@ -115,12 +115,12 @@ plugins/themes/bootstrap3/bootstrap-themes/myswatch/variables.less
 ```
 
 7. Edit `plugins/themes/bootstrap3/BootstrapThreeThemePlugin.inc.php` and add a new option entry for your child theme, e.g. `'mytheme' => 'plugins.themes.bootstrap3.options.bootstrapTheme.myswatch',`
-8. Edit `plugins/themes/bootstrap3/locale/en_US/locale.xml` and add a new locale entry for your new theme. For example:
+8. Edit `plugins/themes/bootstrap3/locale/en_US/locale.xml` and add a new locale entry for your new theme. Por exemplo:
 ```
 <message key="plugins.themes.bootstrap3.options.bootstrapTheme.myswatch">My Swatch</message>
 ```
 
-You may wish to alter the copyright and licensing information to your own specifications in the LESS file as well. For example:
+You may wish to alter the copyright and licensing information to your own specifications in the LESS file as well. Por exemplo:
 ```
 /**
  * @file plugins/themes/bootstrap3/myswatch.less
