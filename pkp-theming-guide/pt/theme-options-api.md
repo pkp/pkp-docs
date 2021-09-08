@@ -171,7 +171,7 @@ public function init() {
 }
 ```
 
-## Examples
+## Exemplos
 
 Add a theme option to select a font and load the custom font file based on the user's selection.
 
