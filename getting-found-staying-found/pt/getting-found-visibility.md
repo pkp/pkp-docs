@@ -273,7 +273,7 @@ A knowledge base in the context of electronic resource management refers to a da
 * Maintaining lists of journal titles that are searchable, are browsable, and that link to publisher platform
 * Populating unified / federated indexes of content for “discovery” by specific communities of users
 
-Knowledge bases and link resolvers, journal title lists, and discovery tools may be more or less interoperable, and may be open source projects, but are more frequently developed and maintained by commercial service providers. In either event, representation of title-level metadata in a knowledge base is prerequisite to link resolving, presence in user-facing journal lists, and indexing in discovery tools such as[Summon](https://www.proquest.com/products-services/The-Summon-Service.html), [EBSCO discovery service](https://www.ebscohost.com/discovery), and [Primo](http://www.exlibrisgroup.com/products/primo-library-discovery/).
+Knowledge bases and link resolvers, journal title lists, and discovery tools may be more or less interoperable, and may be open source projects, but are more frequently developed and maintained by commercial service providers. In either event, representation of title-level metadata in a knowledge base is prerequisite to link resolving, presence in user-facing journal lists, and indexing in discovery tools such as [Summon](https://www.proquest.com/products-services/The-Summon-Service.html), [EBSCO discovery service](https://www.ebscohost.com/discovery), and [Primo](http://www.exlibrisgroup.com/products/primo-library-discovery/).
 
 Frequently, participation in open indexes such as the DOAJ (as detailed above) will also achieve representation even in commercial knowledge bases, which often seek to include Open Access materials as value-added resources. However, the completeness and currency of open access title lists in knowledge bases varies, and it may be necessary to contact a knowledge base provider to request inclusion or an update to a title list that should include a journal but does not.
 
@@ -291,7 +291,7 @@ How you get journal included in a subject index will vary from one subject datab
 
 One important consideration is the ownership of intellectual property. Often, part of the agreements that some commercial organizations will ask journals to sign will include a clause requiring that the journals have the rights to be able to grant the right for the index to include the journal's content as part of the database. In order to do this, the journal must have had an appropriate policy that has assigned the journal the appropriate rights to redistribute this content. Journal managers may wish to consult the following document, which [provides guidance for working with commercial aggregators](http://goo.gl/98YgL).
 
-The actual steps involved to getting material included in commercial databases will differ. For commercial indexes (and many other indexes) they will make information available on how to go about getting indexed as a part of their databases. For example:
+The actual steps involved to getting material included in commercial databases will differ. For commercial indexes (and many other indexes) they will make information available on how to go about getting indexed as a part of their databases. Por exemplo:
 
 * [EBSCO publisher support](https://www.ebsco.com/publisher-support)
 * [Proquest publisher partnerships](http://www.proquest.com/about/publishers-partners/why-partner-with-proquest.html)
