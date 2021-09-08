@@ -1,7 +1,7 @@
 # Table of contents
 
 * [GDPR Guidebook for PKP Users](.)
-* [Introduction](introduction.md)
+* [الفصل 1: المقدمة](introduction.md)
 * [Key Terms](key-terms.md)
 * [What’s the Deal?](whats-the-deal.md)
 * [Scholarly Publishing, Data Privacy, and the Public Interest](scholarly-publishing.md)
