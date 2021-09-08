@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.3
 ---
 
-# Journal Settings
+# الفصل 4: الإشراف على الموقع
 
 The Settings section allows you to configure your OJS installation to best meet your publishing needs.
 
@@ -19,7 +19,7 @@ Use the tabs to navigate to the different sections of Journal Settings: Masthead
 
 ![OJS dashboard view of Journal Settings with navigation tabs for the Settings submenus across top portion of page content.](./assets/learning-ojs3.2-jm-settings-journal-page.png)
 
-## Masthead
+## إدارة الموقع
 
 **Journal title** is the name of your journal. E.g., Journal of Software Documentation
 
@@ -47,7 +47,7 @@ This could include your open access policy, the focus and scope of the journal, 
 
 Hit the **Save** button to save your changes.
 
-## Contact
+## الوظائف الإدارية
 
 Use this section to add journal contacts.
 
