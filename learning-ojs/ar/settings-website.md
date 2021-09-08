@@ -3,13 +3,13 @@ book: learning-ojs
 version: 3.3
 ---
 
-# Website Settings
+# الفصل 5: الإعدادات
 
 The Website Settings allow you to configure how your journal's website looks and operates. It consists of 3 main tabs for Appearance, Setup, and Plugins.
 
 ![OJS dashboard view of website settings menu.](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
 
-## Appearance
+## إعدادات المجلة
 
 ### Theme
 
@@ -42,7 +42,7 @@ If you would like to make minor changes to your site's design and layout, you ca
 
 - **Header Background Image**: Check this off if you if you want the uploaded homepage image to be shown as the header background.
 
-### Setup
+### إعدادات الموقع
 
 Where you can upload images (logo, thumbnail, homepage) to your sites main page, enter footer information, and configure your sidebar menu.
 
@@ -66,7 +66,7 @@ Where you can upload your journal stylesheet, Favicon, and Additional Content.
 
 Hit **Save** to record your changes.
 
-## Setup
+## إعدادات الموقع
 
 ### Information
 
@@ -148,7 +148,7 @@ This option allows for the configuration of different format for dates and times
 
 ![OJS 3.3 Date and Time menu with an option to select long and short date formats.](./assets/learning-ojs3.3-date-and-time-setup.png)
 
-## Plugins
+## إعدادات المخطط الانسيابي
 
 Use this page to see all of the installed plugins and find new plugins.
 
@@ -424,7 +424,7 @@ Please note that:
 * Usage statistics can only be displayed for the current year. The plugin is reset at the beginning of each year.
 * The statistics being displayed indicate the number of times an article was downloaded.
 
-## Static Pages
+## إعدادات التوزيع
 
 The **Static Pages plugin** allows you to create new pages on your journal website for additional content - for example, you could create a page that details your open access policies.
 
