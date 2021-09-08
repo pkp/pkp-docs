@@ -63,10 +63,10 @@ Before proceeding with your upgrade it is strongly advised that you do an invent
 During the upgrade the following items will automatically be moved from OJS 2 to OJS 3:
 
 * Submissions
-* Users
+* Utilisateurs
 * Roles/Permission setting
-* Announcements
-* Sections
+* Annonces
+* Rubriques de la Revue
 
 It is advisable that you **save a copy all the data** that appears on your journal pages to be re-entered into OJS 3. It might also be useful to have screenshots of all the Journal Setup from OJS 2 for reference.  You will notice that there have been a number of changes that were made between OJS 2 and OJS 3, so information entered in Setup in OJS 2 will need to be entered in different places within OJS 3.
 
@@ -75,7 +75,7 @@ Items that will need to be re-created once you’ve upgraded to OJS 3 include th
 * Journal Information - Masthead, Editorial Team, Permissions, etc.
 * Customizations - CSS, images, color codes
 * Journal setup settings and textual information
-* Plugins
+* Plugiciels
 * Pages/ Menus
 * Links
 * Files
