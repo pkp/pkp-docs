@@ -1,6 +1,6 @@
-# Summary
+# الملخص
 
-* [Introduction](.)
+* [مقدمة](.)
 * [Getting Started](./getting-started)
 * [Architecture](./architecture)
   * [Request Lifecycle](./architecture-request)
@@ -11,7 +11,7 @@
   * [Services](./architecture-services)
   * [Entities](./architecture-entities)
   * [Database](./architecture-database)
-  * [Plugins](./architecture-plugins)
+  * [إعدادات المخطط الانسيابي](./architecture-plugins)
 * [Frontend](./frontend)
   * [Pages](./frontend-pages)
   * [UI Library](./frontend-ui-library)
@@ -31,7 +31,7 @@
 * Other
   * [Email Templates](./email-templates)
   * [Publication Versions](./publication-versions)
-  * [Statistics](./statistics)
+  * [الفصل 9: الاشتراكات](./statistics)
     * [Editorial Statistics](./statistics-editorial)
     * [Reader Statistics](./statistics-reader)
   * [Submission Files](./submission-files)
