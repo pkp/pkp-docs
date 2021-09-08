@@ -7,7 +7,7 @@ The statistics features of OJS, OMP and OPS allow you to view different numbers 
 The development of this chapter has been funded by the Government of Canada via a grant from Canadian Heritage and by the Canadian Association of Learned Journals / Association canadienne des revues savantes. Public Knowledge Project provided additional in-kind assistance toward the development of this project.
 
 
-![](https://lh5.googleusercontent.com/roq7_6Ck6BNqkpPKetR8zxiRaRljhCR5Z240OzY6l7ZC61st_8AT8VNAYfMY7S8mZceMF0sJjrtu-h0E3FhYQ9PiwCKvjzJzNAPR6fCEmjMMEv7JaF8oaiuYmjNj68bgbPGnCM2w)
+![Funded by the Government of Canada logo.](https://lh5.googleusercontent.com/roq7_6Ck6BNqkpPKetR8zxiRaRljhCR5Z240OzY6l7ZC61st_8AT8VNAYfMY7S8mZceMF0sJjrtu-h0E3FhYQ9PiwCKvjzJzNAPR6fCEmjMMEv7JaF8oaiuYmjNj68bgbPGnCM2w)
 
 
 ## Introduction to the Statistics Framework
@@ -322,7 +322,7 @@ The following describes the data to which users of various iterations of OJS hav
 In the sample below, which was generated for the date span March 29 2017 - March 30 2017 \(i.e., 1 day\), we can see that the article “Amusing Ourselves to Death” was quite highly viewed, with 2 abstract views and 11 total galley views \(3 PDF and 8 HTML\). The “Comobility” article only had its abstract viewed once.
 ****
 
-| **ID**   | **Article Title**                                                                   | **Authors**  | **Issue**                                                | **Date Published** | **Abstract** | **Total Galley** | **PDF** | **HTML** |
+| **ID**   | **Article Title**                                                                   | **Autores**  | **Issue**                                                | **Date Published** | **Abstract** | **Total Galley** | **PDF** | **HTML** |
 | -------- | ----------------------------------------------------------------------------------- | ------------ | -------------------------------------------------------- | ------------------ | ------------ | ---------------- | ------- | -------- |
 | **2**508 | "Amusing Ourselves to Death?" Social Media, Political Satire, and the 2011 Election | Ian Reilly   | Vol 36, No 3 \(2011\): Canadian Fascinations           | 2011-09-13 22:11   | 2            | 11               | 3       | 8        |
 | 2512     | Comobility: How Proximity and Distance Travel Together in Locative Media            | Jen Southern | Vol 37, No 1 \(2012\): Media Arts Revisited \(MARs\) | 2012-04-13 9:38    | 1            | ****             | ****    | ****     |
