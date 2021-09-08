@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.3
 ---
 
-# Statistics
+# Estadísticas
 
 The statistics features of OJS allow you to view different numbers pertaining to the activity, access, and downloads of various aspects of your site, including article and abstract views, subscription activity, editorial and review activity, and user counts separate by role. There is also a Report Generator section for producing various reports from some of the available data.
 
@@ -61,7 +61,7 @@ There are some important things to note when considering the data in these repor
 
 An Editorial Activity Report will be generated monthly and can be sent by email to editors and section editors. All managers and section editors are automatically opted out of the monthly report; however, you can opt in by going to User Profile > Notifications and unchecking the box that disables the automated email.
 
-## Users
+## Usuarios/as
 
 This section provides information about new user/role registrations within a specified time period. The Total column is not a total number of accounts created; it identifies how many users have that role in the system right now. When an existing user receives a new role, such as a registered author becoming a reviewer, that addition to the total number of reviewers in the system will be reflected in the data by an increase in the number of reviewers but no change in the total number of users.
 
