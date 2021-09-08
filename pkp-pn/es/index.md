@@ -4,7 +4,7 @@ generateHeadingToc: true
 
 # PKP Preservation Network
 
-## Introduction
+## Introducción
 
 The PKP Preservation Network (PKP PN) allows publishers of OJS journals to digitally preserve their content. This means in the event that a journal stops publishing or goes offline, there will be a way to have continued long-term access to articles and issues.
 
@@ -113,7 +113,7 @@ Please note, the Keepers Registry updates its holdings data from the PKP PN mont
 
 If you want to cease depositing your content in the PKP PN, simply disable the plugin. The content you already deposited will remain in the archive.
 
-## Troubleshooting
+## Solución de problemas
 
 ### I’ve enabled the plugin and the Terms of Use aren’t showing up after I click refresh
 
