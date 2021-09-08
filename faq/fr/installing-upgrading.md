@@ -1,4 +1,8 @@
-# Installing and Upgrading
+- - -
+title: FAQ about Installing and Upgrading Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
+# Installation et Mise à Niveau
 
 ## Where can I find help upgrading my site?
 
@@ -8,7 +12,7 @@ PKP offers free technical support on the [PKP Community Forum](https://forum.pkp
 
 You are probably receiving an error similar to `DB Error: Table 'ojs.journals' doesn't exist`
 
-... where 'ojs' is the name of your database as specified during install. Most likely, you have attempted to create your OJS database and the installer has unsuccessfully attempted to fill that database with the necessary data. Possible reasons that it was unable to do so include your database system (eg. MySQL) not allowing web-based database creation; or not allowing large-scale table creation. The best solution is to:
+... where 'ojs' is the name of your database as specified during install. Most likely, you have attempted to create your OJS database and the installer has unsuccessfully attempted to fill that database with the necessary data. Possible reasons that it was unable to do so include your database system (eg. MySQL) not allowing web-based database creation; or not allowing large-scale table creation. La meilleure solution est de:
 
 * Restore your config.inc.php to the original (by copying over config.TEMPLATE.php);
 * Create your database manually via phpMyAdmin, CPanel, or similar, depending on what your service provider provides;
@@ -20,7 +24,7 @@ You are probably receiving an error similar to `DB Error: Table 'ojs.journals' d
 
 Please note that when you click the Manual Install button, the resulting page will say that the OJS Install has completed successfully, but this isn't quite true. You still have to copy the SQL statements and add them to your database manually.
 
-You may also be encountering a plugin bug, where plugins have attempted to access the "journals" table before the installer has created the table; these will result in a "Table 'ojs.journals' doesn't exist" message when someone attempts to load the installer page in the first place. In this case, you can narrow it down to a particular plugin by checking the stack trace.
+You may also be encountering a plugin bug, where plugins have attempted to access the "journals" table before the installer has created the table; these will result in a "Table 'ojs.journals' doesn't exist" message when someone attempts to load the installer page in the first place. Dans ce cas, vous pouvez réduire cela à un plugiciel particulier en vérifiant le stack trace.
 
 ## How should file permissions be set on my installation?
 
