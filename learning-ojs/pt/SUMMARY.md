@@ -1,7 +1,7 @@
 # Summary
 
-* [Preface](.)
-* [Introduction](./introduction.md)
+* [Prefácio](.)
+* [Introdução](./introduction.md)
   * [Background](./introduction.md#background)
   * [OJS Features](./introduction.md#ojs-features)
   * [What's New in This Version of OJS](./introduction.md#whats-new-in-this-version-of-ojs)
