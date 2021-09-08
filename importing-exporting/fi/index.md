@@ -4,7 +4,7 @@ generateHeadingToc: true
 
 # Importing and Exporting Data
 
-## Introduction
+## Luku 1: Esittely
 
 Open Journal Systems offers a variety of tools and Import/Export plugins which allow the Journal Manager to inject data into and extract data from OJS. More information can be found for each plugin's documentation within OJS' plugin directory (`plugins/`).
 
