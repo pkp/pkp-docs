@@ -32,7 +32,7 @@ These reports aren't particularly user friendly, but you should be able to read 
 - "success-count":1
 - "failure-count":1
 
-The number next to the count represents the number of errors in the submission. Below that, if the item failed, you'll be given the reason why a submission failed. For example:
+The number next to the count represents the number of errors in the submission. Below that, if the item failed, you'll be given the reason why a submission failed. Par exemple:
 
 ```JSON
 {"status":"failure","related-doi":null,"message":"Error: cvc-complex-type.2.4.b: The content of element 'pages' is not complete. One of '{\"http:\/\/www.crossref.org\/schema\/4.3.6\":first_page}' is expected. Error: cvc-complex-type.2.4.b: The content of element 'pages' is not complete. One of '{\"http:\/\/www.crossref.org\/schema\/4.3.6\":first_page}' is expected.","message-types":[]}]},"test":false,"owner":"tesl","batch-id":"abd48f64-c670-4569-b3d7-e6249927f917"}
