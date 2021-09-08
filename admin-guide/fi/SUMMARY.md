@@ -16,7 +16,7 @@
   * [Export metadata to external sites and indexing services](./data-import-and-export.md#export-metadata-to-external-sites-and-indexing-services)
   * [Use import/export plugins from the command line](./data-import-and-export.md#use-importexport-plugins-from-the-command-line)
   * [Troubleshoot importing and exporting](./data-import-and-export.md#troubleshoot-importing-and-exporting)
-* [Statistics](statistics.md)
+* [Luku 9: Tilaukset](statistics.md)
   * [Introduction to the Statistics Framework](./statistics.md#introduction-to-the-statistics-framework)
   * [Configure the Statistics Framework](./statistics.md#configure-the-statistics-framework)
   * [Processing Log Files](./statistics.md#processing-log-files)
