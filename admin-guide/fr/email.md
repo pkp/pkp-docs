@@ -1,4 +1,4 @@
-# Email
+# E-mail
 
 Ce chapitre explique comment les emails sont envoyés dans OJS, OMP et OCS; les options de configuration disponibles; et comment résoudre les problèmes de messagerie.
 
