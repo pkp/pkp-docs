@@ -1,6 +1,6 @@
-# Table of contents
+# Table des matières
 
-* [Introduction](./introduction.md)
+* [Introduction](.)
 * [Branding Your Journal](./branding.md)
   * [Colours](./branding.md#colours)
   * [Typography](./branding.md#typography)
@@ -12,7 +12,7 @@
   * [Descriptive URLs](./inclusive-and-accessible-theming.md#descriptive-urls)
   * [Page structure](./inclusive-and-accessible-theming.md#page-structure)
   * [Checking your website for accessibility](./inclusive-and-accessible-theming.md#checking-your-website-for-accessibility)
-* [Website Settings](./website-settings.md)
+* [Paramètres de la Revue](./website-settings.md)
 * [Creating a Stylesheet](./creating-stylesheet.md)
   * [Identifying elements of CSS](./creating-stylesheet.md#identifying-elements-of-css)
   * [Create a basic CSS file using the default template](./creating-stylesheet.md#create-a-basic-css-file-using-the-default-template)
