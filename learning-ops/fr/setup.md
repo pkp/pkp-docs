@@ -9,7 +9,7 @@ version: 3.3
 
 This area is composed of four sections: Masthead, Contact, Sections, and Categories.
 
-### Masthead
+### Bloc Générique
 
 #### Preprint Server Identity
 
@@ -31,7 +31,7 @@ The **Description** provides an overview of the preprint server and appears on t
 
 Note that the terminology may be different for OPS, with some slight modifications. For example, a Moderator would be the equivalent of a Journal Manager and a Preprint server library is equivalent to the Publisher Library.
 
-### Contact
+### Coordonnées
 
 #### Principal and Technical Support Contacts
 
@@ -39,7 +39,7 @@ The information added here will be available publicly in the “Contact” page.
 
 ![Sample contact information entered into OPS.](./assets/learning-ops-server-settings-principal-contact.png)
 
-### Sections
+### Rubriques de la Revue
 
 This area allows the creation and management of sections. Sections are not used in OPS the way they are used in OJS because in OPS you do not publish issues and posted preprints are not organized by sections. Categories are used to organize preprints instead. However, a preprint server can still use sections to have different policies, rules and moderators for different collections of preprints.
 
@@ -51,7 +51,7 @@ Instructions on how to create, edit, and manage sections is in [Learning OJS 3](
 
 ![The Create Section Window](./assets/learning-ops3.3-server-settings-create-section.png)
 
-### Categories
+### Catégories
 
 This area allows for the creation and management of categories, which is another way to classify and categorize preprints in OPS. One use case for categories is using them to classify preprints in different disciplines of knowledge. Unlike sections, there can be multiple categories associated with a submission/preprint.
 
@@ -69,7 +69,7 @@ This is what will appear to the author during the submission process:
 
 ![The Categories section as shown in a submission, with checkboxes for selecting relevant categories.](./assets/learning-ops-server-settings-author-select-category.png)
 
-## Website Settings
+## Paramètres de la Revue
 
 The Website settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on website settings](/learning-ojs/en/settings-website).
 
@@ -81,7 +81,7 @@ Additionally, there is currently only one sidebar block available in the setting
 
 In the “Advanced settings” you can add several customizable options, such as a CSS stylesheet, a favicon, and additional content that will appear on the website. Please refer to the [Designing your Journal guide](/designing-your-journal/en/) for additional guidance on customizing the appearance of your OPS site.
 
-### Plugins
+### Plugiciels
 
 The Plugins tab under Website Settings lists pre-installed plugins under Installed Plugins and additional plugins under Plugin Gallery. See [Learning OJS](/learning-ojs/en/settings-website#installed-plugins) for information about how to install and use plugins. The list below highlights the plugins that are especially useful for OPS.
 
@@ -103,7 +103,7 @@ The Plugins tab under Website Settings lists pre-installed plugins under Install
 
 **Returning Author Plugin**: Typically, all new submissions will be checked by a moderator before being published on the server (see the [Editorial Workflow section of this guide](./editorial-workflow)). The Returning Author Plugin will permit authors who already have at least one published submission to self-publish subsequent submissions, without the need for a moderator to confirm the submission.
 
-## Workflow Settings
+## Paramètres du site Web
 
 The workflow settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on workflow settings](/learning-ojs/en/settings-workflow).
 
@@ -119,23 +119,23 @@ In OPS there is an option to enable standard Keyword Metadata and to additionall
 
 ![The Keyword settings screen in OPS.](./assets/learning-ops-workflow-settings-keywords.png)
 
-## Distribution Settings
+## Paramètres du workflow
 
 The distribution settings in OPS are very comparable to OJS/OMP. For an overview of this, please consult the [Learning OJS guide section on distribution settings](/learning-ojs/en/settings-distribution). OPS does not have the payment or archiving settings that you will find in OJS. The information provided below is what will be relevant to OPS.
 
-### License
+### Soumission
 
 In this section you can configure copyright and licensing terms for your server’s content. Copyright can be retained by authors, assigned to the server, or assigned elsewhere through a custom copyright statement. If you select a Custom copyright statement, a new field will appear for you to specify where or to whom the copyright will be assigned.
 
 ![The License settings tab in OPS' Distribution Settings.](./assets/learning-ops-distribution-settings-license.png)
 
-### Search Indexing
+### Revision
 
-This section helps you enhance your search engine optimization and make your content more discoverable.
+Cette section vous aide à améliorer l'optimisation de votre moteur de recherche et à rendre votre contenu plus visible.
 
 ![The Search Indexing settings screen.](./assets/learning-ops-distribution-settings-search-indexing.png)
 
-Use **Description** to provide a brief description of your server for search engines. Use **Custom Tags** to add custom HTML header tags to the header of every page of your server, which can help your site get indexed by search engines. Tags need to be added as HTML elements. If you simply enter words they will appear at the top of every page of your site instead of in the site’s metadata. Here is an example of text that could be entered in this field:
+Use **Description** to provide a brief description of your server for search engines. Use **Custom Tags** to add custom HTML header tags to the header of every page of your server, which can help your site get indexed by search engines. Les balises doivent être ajoutées en tant qu'éléments HTML. If you simply enter words they will appear at the top of every page of your site instead of in the site’s metadata. Voici un exemple de texte qui pourrait être saisi dans ce champ:
 
 ```xml
 <meta name="description" content="Public Knowledge Preprint Server" />
@@ -145,7 +145,7 @@ Use **Description** to provide a brief description of your server for search eng
 <meta name="revisit-after" content="3 month">
 ```
 
-### Access
+### E-mails
 
 #### Publishing Mode
 
