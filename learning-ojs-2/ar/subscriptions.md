@@ -8,11 +8,11 @@ After selecting **Subscriptions** from the menu, you will see an overview of the
 
 ![Subscriptions Summary](images/chapter5/sub_summary.png)
 
-### طلبات التقديم
+## طلبات التقديم
 
 The first step in setting up subscription management is to designate the types of subscriptions the journal offers. Journals typically offer individual subscription and institutional subscription rates. Some journals may have special offers for members of an organization or students. OJS will support the management of print and/or online subscriptions. More than one type of subscription can be created to cover longer periods of time \(e.g. 12 months, 36 months\).
 
-To begin, select **Subscription Type **and from the resulting page, click **Create New Subscription Type**.
+To begin, select **Subscription Type** and from the resulting page, click **Create New Subscription Type**.
 
 ![طلبات التقديم](images/chapter5/sub_type.png)
 
@@ -20,7 +20,7 @@ Next, fill in the details, including a unique name, a description, cost, and cur
 
 ![Create New Subscription Type](images/chapter5/sub_create_new.png)
 
-### المهام
+## المهام
 
 Under the Subscription Policies heading you will enter information in several sections.
 
@@ -42,17 +42,13 @@ Under the Subscription Policies heading you will enter information in several se
 
 * **Delayed Open Access**: Although a journal may wish to limit their content to subscribers, it is also possible to allow for back issues to become openly accessible over time. You can set the number of months to pass before content is opened. It is also possible to send readers a notice when content becomes open, and to add a statement about delayed open access to your About the Journal page.
 
-```
-![Delayed Open Access](images/chapter5/sub_open_access.png)  
-```
+![Delayed Open Access](images/chapter5/sub_open_access.png)
 
 * **Author Self-Archiving Policy**: This section allows you to also post a statement about your journal's author self-archiving policy. A default statement is provided, but can be changed to best suit your needs.
 
-```
 ![Author Self-Archiving Policy](images/chapter5/sub_author_policy.png)
-```
 
-### خيارات الوصول في الموقع
+## خيارات الوصول في الموقع
 
 Returning to the Subscriptions Summary page you will see an option to select **Payments**.
 
@@ -62,7 +58,6 @@ Selecting the **Payments** here will take you to the **Fee Payment Option** page
 
 ![Fee Payment Options](images/chapter5/sub_pay_options.png)
 
-### Subscription Content
+## Subscription Content
 
 When you publish content in your journal that you want to be accessible only to subscribers, mark it as subscription-only in the Table of Contents.
-
