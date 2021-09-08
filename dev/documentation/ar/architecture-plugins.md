@@ -2,7 +2,7 @@
 title: Plugins - Technical Documentation - OJS|OMP|OPS
 ---
 
-# Plugins
+# إعدادات المخطط الانسيابي
 
 Plugins are independent modules that can be enabled and disabled to modify the application.
 
