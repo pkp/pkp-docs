@@ -1,3 +1,7 @@
+---
+title: Getting Started - Student Journal Toolkit
+---
+
 # Getting Started
 
 The infographic, [How to start an Open Access journal (Appendix 2)](./appendix-2), outlines the things to consider when planning a new journal. Similarly, Simon Fraser University has a similar [New Journal Checklist](https://www.lib.sfu.ca/help/publish/dp/new-journal-checklist). Take some time to view it or similar resources in these early planning stages.
