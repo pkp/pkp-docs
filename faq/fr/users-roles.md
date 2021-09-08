@@ -1,4 +1,8 @@
-# Users and Roles
+- - -
+title: FAQ about Users and Roles in Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
+# Utilisateurs et Rôles
 
 ## How do I prevent users from self-registering?
 
@@ -12,7 +16,7 @@ You can now select the radio button for “The Journal Manager will register all
 
 Please see instructions in [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#if-you-forgot-your-password).
 
-## A user can’t reset their password. What do I do?
+## A user can’t reset their password. Qu'est ce que je peux faire?
 
 You can refer them to the instructions in [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#if-you-forgot-your-password) on how to reset a password when you have forgotten the password. If the user is having issues, please see instructions under [Users and Roles > If a User Can’t Log In](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#if-a-user-cant-log-in).
 
