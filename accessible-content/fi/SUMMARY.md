@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Preface](.)
-* [Introduction](./introduction.md)
+* [Alkusanat](.)
+* [Luku 1: Esittely](./introduction.md)
 * [General principles for creating accessible content](./principles.md)
   * [Alt text for images](./principles.md#alt-text-for-images)
   * [Video and audio content](./principles.md#video-and-audio-content)
