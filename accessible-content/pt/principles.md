@@ -317,7 +317,7 @@ Leitores de tela anunciarão o número de termos, bem como as descrições. A se
 </dl>
 ```
 
-**Rendered**
+**Renderizado**
 > <dl>
 >   <dt>OJS</dt>
 >   <dt>OMP</dt>
@@ -334,7 +334,7 @@ Leitores de tela anunciarão o número de termos, bem como as descrições. A se
 </dl>
 ```
 
-**Rendered**
+**Renderizado**
 > <dl>
 > <dt>Autores</dt>
 > <dt>Editores</dt>
