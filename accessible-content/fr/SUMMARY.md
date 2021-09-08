@@ -1,6 +1,6 @@
-# Table of contents
+# Table des matières
 
-* [Preface](.)
+* [Préface](.)
 * [Introduction](./introduction.md)
 * [General principles for creating accessible content](./principles.md)
   * [Alt text for images](./principles.md#alt-text-for-images)
@@ -9,7 +9,7 @@
   * [Contrast and colour reliance](./principles.md#contrast-and-colour-reliance)
   * [Readability and legibility of writing](./principles.md#readability-and-legibility-of-writing)
   * [Headings structure](./principles.md#headings-structure)
-  * [Lists](./principles.md#lists)
+  * [Listes](./principles.md#lists)
   * [Columns](./principles.md#columns)
   * [Tables](./principles.md#tables)
   * [Document metadata](./principles.md#document-metadata)
