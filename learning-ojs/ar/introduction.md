@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.3
 ---
 
-# Introduction
+# مقدمة
 
 Open Journal Systems \(OJS\) is an open source solution to managing and publishing scholarly journals online. OJS is a highly flexible editor-operated journal management and publishing system that can be downloaded for free and installed on a local Web server.
 
@@ -11,7 +11,7 @@ It has been designed to reduce the time and energy devoted to the clerical and m
 
 This guide covers OJS version 3.3, released in February 2021, and features significant enhancements over the previous versions of the software. We hope you find it helpful for your publishing projects.
 
-## Background
+## خلفية النظام
 
 *OJS is a journal/web site management/publishing system*. OJS covers all aspects of online journal publishing, from establishing a journal website to operational tasks such as the author's submission process, peer review, editing, publication, archiving, and indexing of the journal. OJS also helps to manage the people aspects of organizing a journal, including keeping track of the work of editors, reviewers, and authors, notifying readers, and assisting with the correspondence.
 
@@ -23,7 +23,7 @@ This guide covers OJS version 3.3, released in February 2021, and features signi
 
 <hr />
 
-## OJS Features
+## مزايا نظام المجلات المفتوحة
 
 OJS includes the following features:
 
@@ -37,7 +37,7 @@ OJS includes the following features:
 8. Complete context-sensitive online Help support
 9. Multilingual support
 
-## What's New in This Version of OJS
+## ما الجديد في الإصدار الثالث
 
 OJS 3.3 has a simplified dashboard navigation menu and new features related to submission management, communicating with users, and accessibility. This section will outline the main changes so you know what to expect when you upgrade to OJS 3.3. You can also watch [a video that demonstrates new features in OJS 3.3](https://youtu.be/3D_hS4Bd-Y8), created by [PKP Publishing Services](https://pkpservices.sfu.ca).
 
@@ -73,7 +73,12 @@ The link from the dashboard to the public journal site home page has moved. A Jo
 
 During submission, Authors can upload multiple files at once as well as drag-and-drop files. They are no longer asked to enter metadata such as a description, license, etc. This information can be entered during the workflow, where the old file upload wizard is still in use. You can find further instructions in the [Authoring chapter](./authoring#step-2).
 
-![A short video that demonstrates how files can be uploaded in OJS 3.3](./assets/learning-ojs3.3-upload-submission-files.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/learning-ojs3.3-upload-submission-files.mp4" type="video/mp4">
+  </video>
+  <figcaption>A short video that demonstrates how files can be uploaded in OJS 3.3.</figcaption>
+</figure>
 
 #### Submission filters
 
@@ -132,7 +137,7 @@ There is better support for languages that read right-to-left, such as Arabic, F
 #### Remote URLs
 Navigation menu items with remote URLs can now have different remote URLs for each language.
 
-## Community Contributions
+## واجهة القارئ
 
 The OJS team encourages contributions from the developer community. If you are interested in getting involved in making OJS even better, we welcome your participation.
 
@@ -140,7 +145,7 @@ Excellent examples of community contributions include the vast array of language
 
 We also welcome software testing and bug reporting contributions.
 
-## Support
+## واجهة التحرير أو ما يعرف بلوحة القيادة
 
 PKP offers the following free support resources for OJS:
 
