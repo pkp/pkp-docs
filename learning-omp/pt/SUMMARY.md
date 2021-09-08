@@ -1,7 +1,7 @@
 # Summary
 
-* [Preface](.)
-* [Introduction](./introduction.md)
+* [Prefácio](.)
+* [Introdução](./introduction.md)
   * [OMP 3 Features](./introduction.md#omp-3-features)
 * [Installing and Upgrading](./install-upgrade.md)
   * [Download](./install-upgrade.md#download)
