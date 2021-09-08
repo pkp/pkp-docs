@@ -1,17 +1,54 @@
-# Appendix:  Testing the ORCID Sandbox
+- - -
+title: Testing in the ORCID Sandbox - ORCID Plugin Guide for OJS and OPS
+- - -
+
+# Appendix: Testing in the ORCID Sandbox
+
+ORCID provides the option to test the ORCID plugin in a Sandbox environment before using it in the live Production environment of your OJS journal or OPS server. Testing the plugin in the Sandbox will allow you to do the following:
+
+* Check that the ORCID plugin works in your installation
+* Learn how to use the plugin and try all of its features without affecting any real ORCID IDs or sending real emails to researchers
+* Test the ORCID Member API to see how it works, even if you are not an ORCID member
+
+This chapter explains how to test the plugin.
+
+## Obtain ORCID Sandbox API credentials
+
+The process for obtaining your Sandbox ORCID API credentials will vary depending on whether you are planning to use the ORCID Public API or the ORCID Member API.
+
+### Sandbox Public API
+
+Free and available to anyone, the Public API allows for ORCID iD authentication and reading public data from ORCID records.
+
+Public API credentials are connected to an individual’s ORCID iD. To obtain Sandbox Public API credentials:
+
+1. Register for a Sandbox ORCID iD account at the [ORCID sandbox site](https://sandbox.orcid.org).
+2. Sign in to your Sandbox ORCID record.
+3. Go to the “Developer tools” tab, and follow the instructions to [register a public API client application](https://support.orcid.org/hc/en-us/articles/360006897174-Register-a-public-API-client-application). See the note on “ORCID Redirect URIs” below for guidance on what to enter for your Redirect URIs.
+
+### Sandbox Member API
+
+The ORCID Member API requires ORCID institutional membership. In addition to the functionalities of the Public API, the Member API allows for reading “trusted-parties” data from ORCID records, as well as adding/updating metadata on ORCID records. Consult the ORCID member directory to see if your organization is already an [ORCID member](https://orcid.org/members), or review [ORCID’s membership information](https://orcid.org/about/membership) if your organization is interested in becoming an ORCID member.
+
+Member API credentials are connected to an ORCID member organization. Your organization must be an ORCID member to request Member API credentials. You may wish to check whether your organization belongs to a [local consortium](https://orcid.org/consortia), as you may be able to receive help from the consortium. To request Sandbox Member API credentials:
+
+1. Complete the form on ORCID’s page to [Register a client application: Sandbox Member API](https://orcid.org/content/register-client-application-sandbox).
+2. ORCID will email you a Sandbox Client ID and Client Secret shortly after the form is submitted. See the note on “ORCID Redirect URIs” below for guidance on what to enter for your Redirect URIs and Client Name.
 
 Once your Sandbox Client ID and Client Secret have been added to the configuration, you can to test the plugin in the ORCID sandbox environment. The sandbox allows the creation of test user ORCID iD accounts and use of the plugin without having to worry about affecting data on the live (production) ORCID Registry. Once the plugin works as expected in the ORCID sandbox environment, you can obtain credentials and move to the ORCID production environment and go live with the plugin.
 
+## Test your ORCID Sandbox
+
 To test that the plugin is working correctly in the sandbox:
 
-## Create a Sandbox ORCID iD
+### Create a Sandbox ORCID iD
 
 For testing purposes, you will need to create a fake “sandbox” ORCID iD. To do this:
 
-1. Go to [https://sandbox.orcid.org/register](https://sandbox.orcid.org/register) and fill in the form. Make sure to use a made-up email address using `@mailinator.com` - for example: `test123@mailinator.com` Please note the sandbox only allows `@mailinator.com` addresses.
+1. Go to the [ORCID Sandbox registration page](https://sandbox.orcid.org/register) and fill in the form. Make sure to use a made-up email address using `@mailinator.com` - for example: `test123@mailinator.com` Please note the sandbox only allows `@mailinator.com` addresses.
 2. Write down the email address and password that you used to create the sandbox ORCID iD
-3. Go to [https://www.mailinator.com/](https://www.mailinator.com/) and in the “Enter Public Mailinator Inbox” box, type in your made-up email address and click “Go”
-4. You should be taken to the inbox where a confirmation email from ORCID should appear. Follow the prompts in the email to verify your sandbox ORCID iD account. You can now add information and make changes to your sandbox ORCID record. If your email does not appear in the mailinator.com mailbox, there can be several reasons for it. For example, your OJS/OPS  is not properly configured for sending emails, you have misspelled the credentials. Or you may have swapped the client id and secret.
+3. Go to [mailinator.com](https://www.mailinator.com/) and in the “Enter Public Mailinator Inbox” box, type in your made-up email address and click “Go”
+4. You should be taken to the inbox where a confirmation email from ORCID should appear. Follow the prompts in the email to verify your sandbox ORCID iD account. You can now add information and make changes to your sandbox ORCID record. If your email does not appear in the mailinator.com mailbox, there can be several reasons for it. For example, your OJS/OPS is not properly configured for sending emails, you have misspelled the credentials. Or you may have swapped the client id and secret.
 
 ### Connect your Sandbox ORCID iD with OJS/OPS & Submit a Test Publication
 
