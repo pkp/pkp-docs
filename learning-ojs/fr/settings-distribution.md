@@ -99,9 +99,13 @@ Si vous n'utilisez OJS que pour gérer votre flux des travaux de soumission et n
 
 OJS vous permet de configurer comment et quand le contenu peut être consulté au niveau d'un article et d'un numéro. Lorsque vous créez un numéro, il existe un onglet appelé **Accès** sous lequel vous pouvez définir le **Statut d'Accès** sur **Abonnement** ou **Accès Ouvert** .
 
+![Issue settings access tab showing subscription and open access options.](./assets/learning-ojs3.2-issue-access.png)
+
 Si vous le définissez comme **Abonnement**, en dessous, une boîte apparaîtra dans laquelle vous pouvez éventuellement entrer une **Date d'Accès Ouvert**, à laquelle le contenu aura un accès ouvert.
 
 Une fois que vous l'avez défini comme **Abonnement**, dans l'onglet **Table des Matières**, une case à cocher apparaîtra à côté de chaque article sous **Accès Ouvert**, où vous pouvez éventuellement définir des articles individuels en accès ouvert, même si le reste du numéro reste disponible par abonnement.
+
+![Issue table of contents showing open access checkboxes.](./assets/learning-OJS3.2-article-access.png)
 
 **Activer OAI** sera activé par défaut, car il s'agit d'un protocole important utilisé par les services d'indexation et d'autres applications pour récolter les métadonnées de votre journal. Cependant, si vous n'utilisez pas OJS pour publier le contenu de votre revue, vous pouvez désactiver l'OAI.
 
