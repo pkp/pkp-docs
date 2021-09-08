@@ -37,7 +37,7 @@ Allez à votre Profil utilisateur (typiquement disponible dans le coin en haut �
 
 Open the “API Key” tab:
 
-![](./assets/apiKey.png)
+![Profile menu with API Key tab selected that has options to enable API access or generate a new API key.](./assets/apiKey.png)
 
 Il pourrait y avoir déjà du contenu dans la zone “​*API Key*”​ . Si c’est le cas, ignorez-le.
 
