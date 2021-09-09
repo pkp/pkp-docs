@@ -1,3 +1,7 @@
+- - -
+title: Frequently Asked Questions (FAQ) about the Public Knowledge Project (PKP)
+- - -
+
 # About PKP
 
 ## What is the Public Knowledge Project?
