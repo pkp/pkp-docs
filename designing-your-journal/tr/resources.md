@@ -1,3 +1,7 @@
+- - -
+title: Additional Resources - Designing Your OJS Journal
+- - -
+
 # Additional Resources
 
 - [CSS: Enhancing Website Graphics (Lynda.com)](https://www.lynda.com/CSS-tutorials/CSS-Enhancing-Website-Graphics/622090-2.html) - intro video course (1h 40m); access may be available via your institution or a public library
