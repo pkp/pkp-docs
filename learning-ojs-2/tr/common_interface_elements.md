@@ -2,17 +2,13 @@
 
 There are a number of common interface elements at the Site and Journal levels of any default OJS system.
 
-
-### Top Navigation Bar
-
-
+## Top Navigation Bar
 
 The topmost navigation bar includes Home, About, Login, Register and Search links. If you are logged in as a user, the Login and Register links are replaced with a User Home link.
 
 Top Navigation Bar, Site-level and Not Logged In:
 
 ![The Top Navigation Bar](images/chapter1/elements_2.png)
-
 
 Top Navigation Bar, Site-level and Logged In:
 
@@ -30,38 +26,23 @@ Top Navigation Bar, Site-level and Logged In:
 
 * If you have already logged in, you will see a User Home link rather than the Login and Register links. Clicking this will take you to your site or journal-specific User Home page.
 
-
-### The Breadcrumb
-
-
+## The Breadcrumb
 
 Directly under the topmost navigation bar you will find a series of breadcrumb links, one for the the site- or journal-level homepage, and one for each subpage that you have navigated to, leading to one for the page you are on, which is highlighted in bold. Each link will bring you back to that specific subpage.
 
-
 ![The Breadcrumb](images/chapter1/elements_3.png)
-
 
 In this example, the Editor is logged in and viewing the Editing page for Submission #10. You can return to any of these pages by clicking the relevant breadcumb link.
 
-
-
-### The Sidebar
-
-
+## The Sidebar
 
 The right sidebar actually consists of a set of "blocks", described below.
-
-
 
 > **Note**
 > 
 > By default, these sidebar blocks are placed on the right. However, a Journal Manager can move any of these blocks to the left to create a new sidebar, and can also prevent any block from displaying entirely. The Journal Manager can also reorder the vertical position of these blocks. For more information on arranging blocks, see [Step 5: The Look](https://docs.pkp.sfu.ca/learning-ojs-2/en/step_five_the_look) in the Journal Management pages of Chapter 5. Journal Managers can also create their own blocks, enter any content they wish, and add them to the sidebar. For more information, see the section on [System Plugins](https://docs.pkp.sfu.ca/learning-ojs-2/en/system_plugins) in Chapter 5.
 
-
-
- ![The Sidebar](images/chapter1/elements_4.png)
-
-
+![The Sidebar](images/chapter1/elements_4.png)
 
 * The top block is the  **Developed By** block, which provides a link to the Public Knowledge Project website.
 
@@ -74,4 +55,3 @@ The right sidebar actually consists of a set of "blocks", described below.
 * The **Journal Content** block allows you to search journal content. You can search all fields, or you can pick a particular field (for example, authors) to search against. If you are browsing at the site level, you can search against all journals; if you are browsing a specific journal, you will only be able to search against that particular journal.
 
 * The **Font Size** block allows you to increase or decrease the entire website's font size.
-
