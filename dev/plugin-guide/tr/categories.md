@@ -94,7 +94,7 @@ Block plugins can use any HTML code. However, if you want your block to blend in
     <span class="title"><!-- Add the title of your block here --></span>
     <div class="content">
     <!-- Add the main content for your block here -->
-	</div>
+    </div>
 </div>
 ```
 
