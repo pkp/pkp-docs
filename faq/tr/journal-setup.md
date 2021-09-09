@@ -1,3 +1,7 @@
+- - -
+title: FAQ about How to Set Up and Manage a Journal in Open Journal Systems (OJS)
+- - -
+
 # Journal Setup and Management
 
 ## How can I create a unique look for my journal, press, or server website?
@@ -39,18 +43,22 @@ Every multi-journal site has a URL for a site-wide search at [yourdomain]/index/
 
 ## How can I use a continuous publishing model in OJS, where articles are published as soon as they are ready?
 
-It is possible to do continuous publishing in OJS, where articles are published as soon as they are ready. However, you must assign an article to an issue before it can be published. You can publish articles as they are ready by doing the following:
+It is possible to do continuous publishing in OJS, where articles are published as soon as they are ready. However, you must assign an article to an issue before it can be published. Another option is to use the Forthcoming Plugin, which is explained below.
+
+You can publish articles as they are ready by doing the following:
 
 1. Create and publish an issue called “New Research” or whatever title is appropriate for your journal.
-2. Add articles to the issue as they become available
+2. Add articles to the issue as they become available. They will immediately be published and posted on your journal homepage.
 3. When the issue is full, remove the title and assign the issue an issue and volume number
-4. Create a new issue called “New Research” and add new articles to it.
+4. Create a new issue called “New Research” and add new articles to it as they are ready.
 
 Note that if you change issue names in the future and are minting DOIs through Crossref, you will need to [update the metadata for your articles with Crossref](/crossref-ojs-manual/en/config#updating-dois).
 
 If you have enabled [the Citation Style Language plugin](/learning-ojs/en/settings-website#citation-style-language-plugin) in your journal, this plugin should be disabled as you will have incorrect citations in the "How to Cite" block on your articles due to changing issue numbers.
 
 See [Learning OJS 3 - Production and Publication](/learning-ojs/en/production-publication#continuous-publishing) for more information.
+
+The [Forthcoming Articles Plugin](https://github.com/ajnyga/forthcoming) is a third-party plugin that was developed by the [Federation of Finnish Learned Societies](https://tsv.fi/en/) for OJS 3.1.2 and above. The plugin allows journals to preview single articles on their website before an entire issue is published. The article can be assigned a DOI and included in usage statistics. To download the plugin and learn more about it, visit [its Github repository](https://github.com/ajnyga/forthcoming).
 
 ## How can I start using DOIs?
 
