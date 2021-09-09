@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](introduction.md)
+* [Introduction](.)
 * [Manage Languages in PKP Software](managing-languages.md)
   * [How Languages and Locales Work](./managing-languages.md#how-languages-and-locales-work)
   * [Check Language Availability](./managing-languages.md#check-language-availability)
@@ -20,10 +20,11 @@
   * [PKP Documentation](./translate-documentation.md#pkp-documentation)
   * [Documentation Translation Workflow](./translate-documentation.md#documentation-translation-workflow)
   * [Get Started](./translate-documentation.md#get-started)
+  * [Translating in Crowdin](./translate-documentation.md#translating-in-crowdin)
+  * [Proofreading Documentation Translation](./translate-documentation.md#proofreading-documentation-translation)
   * [Maintain or Update a Document Translation](./translate-documentation.md#maintain-or-update-a-document-translation)
   * [Improve a Document Translation](./translate-documentation.md#improve-a-document-translation)
-  * [Translate without GitLocalize](./translate-documentation.md#translate-without-gitlocalize)
-  * [Review a Translation](./translate-documentation.md#review-a-translation)
+  * [Translate without Crowdin](./translate-documentation.md#translate-without-crowdin)
 * [Localization for Developers](coders.md)
   * [Locale Files](./coders.md#locale-files)
 * [Translation Resources and Community](resources.md)
