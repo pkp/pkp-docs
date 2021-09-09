@@ -15,19 +15,19 @@ This area is composed of four sections: Masthead, Contact, Sections, and Categor
 
 This section allows configuring basic information about your preprint server, such as the title, initials, abbreviation and sponsoring information, if any.
 
-![](./assets/learning-ops-server-settings-server-identity.png)
+![Sample basic server information entered into OPS.](./assets/learning-ops-server-settings-server-identity.png)
 
 #### Key Information
 
 The **Key Information** field allows you to provide a description of your server, such as what particular disciplinary areas your server’s preprints are focused in, as well as another field on the key participants for your preprints (e.g. editors, support contacts, etc.). The information added in the “Server Summary” box will only appear in the home page if you are running a multiple server site. If you are running a single server site, this information is irrelevant.
 
-![](./assets/learning-ops-server-settings-key-information.png)
+![A sample summary entered into OPS.](./assets/learning-ops-server-settings-key-information.png)
 
 The **Description** provides an overview of the preprint server and appears on the Public About page, providing your server’s visitors with a concise description of your preprint server.
 
-![](./assets/learning-ops-server-settings-server-description.png)
+![A sample description entered into OPS.](./assets/learning-ops-server-settings-server-description.png)
 
-![](./assets/learning-ops-server-settings-server-team.png)
+![Sample server team information entered into OPS.](./assets/learning-ops-server-settings-server-team.png)
 
 Note that the terminology may be different for OPS, with some slight modifications. For example, a Moderator would be the equivalent of a Journal Manager and a Preprint server library is equivalent to the Publisher Library.
 
@@ -37,7 +37,7 @@ Note that the terminology may be different for OPS, with some slight modificatio
 
 The information added here will be available publicly in the “Contact” page. It can also be used to populate email templates, using the email tag `{$editorialContactSignature}`
 
-![](./assets/learning-ops-server-settings-principal-contact.png)
+![Sample contact information entered into OPS.](./assets/learning-ops-server-settings-principal-contact.png)
 
 ### Sections
 
@@ -61,13 +61,13 @@ Instructions on how to create, edit, and manage categories is in [Learning OJS 3
 
 Another difference between sections and categories is the ability of having sub-categories associated to a parent category, as seen below:
 
-![](./assets/learning-ops-server-settings-subcategories.png)
+![The Categories screen in OPS with subcategories expanded.](./assets/learning-ops-server-settings-subcategories.png)
 
 OPS is flexible enough to allow a preprint server to work with a combination of multiple Sections and Categories or singularly work using only sections or only categories, depending on your editorial policies and workflow.
 
 This is what will appear to the author during the submission process:
 
-![](./assets/learning-ops-server-settings-author-select-category.png)
+![The Categories section as shown in a submission, with checkboxes for selecting relevant categories.](./assets/learning-ops-server-settings-author-select-category.png)
 
 ## Website Settings
 
@@ -89,7 +89,7 @@ The Plugins tab under Website Settings lists pre-installed plugins under Install
 
 **Browse Plugin**: This plugin adds the ability to browse by Categories and sub-categories through the Servers homepage. To configure this plugin, please refer to [Plugin Section of OPS]().
 
-![](./assets/learning-ops-website-settings-browse-plugin.png)
+![An instance of OPS with the Browse plugin enabled.](./assets/learning-ops-website-settings-browse-plugin.png)
 
 **Crossref Deposit Plugin**: This plugin is necessary to register preprints DOIs at Crossref. When enabled, it will automatically deposit the Preprint DOI during the post action.
 
@@ -117,7 +117,7 @@ The Checklist and the Author Guidelines tabs should be populated with details ab
 
 In OPS there is an option to enable standard Keyword Metadata and to additionally configure whether the author can provide or must provide their own keywords during submission.
 
-![](./assets/learning-ops-workflow-settings-keywords.png)
+![The Keyword settings screen in OPS.](./assets/learning-ops-workflow-settings-keywords.png)
 
 ## Distribution Settings
 
@@ -127,13 +127,13 @@ The distribution settings in OPS are very comparable to OJS/OMP. For an overview
 
 In this section you can configure copyright and licensing terms for your server’s content. Copyright can be retained by authors, assigned to the server, or assigned elsewhere through a custom copyright statement. If you select a Custom copyright statement, a new field will appear for you to specify where or to whom the copyright will be assigned.
 
-![](./assets/learning-ops-distribution-settings-license.png)
+![The License settings tab in OPS' Distribution Settings.](./assets/learning-ops-distribution-settings-license.png)
 
 ### Search Indexing
 
 This section helps you enhance your search engine optimization and make your content more discoverable.
 
-![](./assets/learning-ops-distribution-settings-search-indexing.png)
+![The Search Indexing settings screen.](./assets/learning-ops-distribution-settings-search-indexing.png)
 
 Use **Description** to provide a brief description of your server for search engines. Use **Custom Tags** to add custom HTML header tags to the header of every page of your server, which can help your site get indexed by search engines. Tags need to be added as HTML elements. If you simply enter words they will appear at the top of every page of your site instead of in the site’s metadata. Here is an example of text that could be entered in this field:
 
@@ -155,4 +155,4 @@ Under publishing mode you can indicate whether the content on the preprint serve
 
 Enable OAI will be enabled by default, as this is an important protocol used by indexing services and other applications to harvest your server’s metadata. If you are not publishing content online, you may want to disable this.
 
-![](./assets/learning-ops-distribution-settings-oai.png)
+![The OAI settings located under the Access tab in OPS.](./assets/learning-ops-distribution-settings-oai.png)
