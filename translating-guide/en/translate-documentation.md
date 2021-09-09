@@ -34,7 +34,7 @@ If you’re interested in being a Language Moderator for a particular language, 
 
 To get started translating PKP software documentation, you can follow the instructions in this guide. If you have questions you can contact the Translation Coordinator or your Language Moderator. You can also talk to other PKP translators and ask questions in the [PKP Community Forum](https://forum.pkp.sfu.ca/c/translations/12).
 
-Our documentation translation is done at [pkp-documentation.crowdin.com](https://pkp-documentation.crowdin.com/). You will first need to [register an account](https://pkp-documentation.crowdin.com/u/signup?hash=03d75ea501c07e5fd5ae238d4a4e5f5564).
+Our documentation translation is done at [pkp-documentation.crowdin.com](https://pkp-documentation.crowdin.com/). You will first need to [register an account](https://pkp-documentation.crowdin.com/u/signup?hash=b474e82e87e7052ee7c99c1f3234584a43).
 
 Once you have registered, you can select the language you are interested in translating from the Project Home screen. From there, you can select the folder containing the files of the documentation you wish to translate. The relevant markdown files are located in the “en” folder under each guide.
 
