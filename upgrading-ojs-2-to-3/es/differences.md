@@ -20,7 +20,7 @@ También hay algunas características de OJS 2 que se han descartado o que aún 
 
 Hay una nueva interfaz para lectores/as y editores/as que incluye una interfaz editorial distinta visualmente a la de la revista. Los usuarios/as con múltiples roles ya no están obligados a seleccionar un rol desde el área personal de su página de inicio para acceder a ciertas configuraciones o funciones administrativas. Todas las opciones disponibles se pueden localizar en el nuevo panel de instrumentos. Esto también permite un cambio continuo entre tareas asociadas a diferentes roles. La nueva interfaz se muestra a continuación y se explica en [Novedades de OJS 3](https://docs.pkp.sfu.ca/learning-ojs/es/introduction#novedades-en-ojs-31) .
 
-|                 ![Dashboard menu in OJS 2.](./assets/ojs-2-settings.png)                  |    ![Dashboard menu in OJS 3.](./assets/ojs-3-dashboard.png)    |
+|                 ![Menú del panel en OJS 2.](./assets/ojs-2-settings.png)                  |    ![Menú del panel en OJS 3.](./assets/ojs-3-dashboard.png)    |
 |:-----------------------------------------------------------------------------------------:|:---------------------------------------------------------------:|
 | Menú de configuración de OJS 2 después de seleccionar el rol de administrador/a del sitio | Panel de OJS 3 con menús de configuración en el panel izquierdo |
 
@@ -35,7 +35,7 @@ El flujo de trabajo editorial de OJS 3 se ha mejorado significativamente para qu
 
 Otra nueva característica editorial es la introducción de una función de discusión interna para cada etapa editorial (Envío, Revisión, Edición, Producción). Estas discusiones funcionan de manera muy similar a un foro en línea: un usuario/a crea un tema de discusión, invita a otras personas a participar y les envía un mensaje con archivos adjuntos relevantes.
 
-![Copyediting discussion menu with one copyediting request.](./assets/ojs-3-discussions.png)
+![Menú de discusión de corrección de estilo con una solicitud de corrección.](./assets/ojs-3-discussions.png)
 
 ## Estadísticas
 
