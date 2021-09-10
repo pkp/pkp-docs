@@ -76,4 +76,4 @@ A auditoria do Tema Padrão do OJS encontrou várias barreiras e a maioria foi e
 
 ## Aviso legal
 
-To the maximum extent permitted by applicable law, in no event will Simon Fraser University or any of its affiliates, or any of their respective governors, directors, employees, or agents, be liable for the failure of any content on applications implementing this theme to meet these accessibility standards, to the extent that such content was submitted or uploaded by a third party.
+Até a extensão máxima permitida pela legislação aplicável, em nenhum caso a Universidade Simon Fraser ou quaisquer uma de suas afiliadas, ou de seus respectivos representantes, diretores, funcionários ou agentes, serão responsáveis pela falha de qualquer conteúdo ou publicação nas aplicações que implementem este tema e falhem em atender a padrões de acessibilidade, na medida em que tal conteúdo foi enviado ou criado por terceiros.
