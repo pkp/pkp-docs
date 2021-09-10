@@ -65,27 +65,27 @@ Haga clic en 'Guardar y continuar' para ir al Paso 3.
 
 ### Paso 3
 
-On **Step 3**, you will be asked to add more information about the submission, including the title of the submission (broken down into prefix, title, and subtitle), and the abstract. If the journal allows submissions in multiple languages, clicking on each metadata field will reveal the option to enter the metadata in the other languages that are enabled, allowing you to enter the title, subtitle and abstract in the other language(s).  Scrolling down...
+En el **Paso 3**se le pedirá que añada más información sobre el envío, incluyendo el título del envío (desglosado en prefijo, título y subtítulo) y el resumen. Si la revista permite envíos en varios idiomas, haciendo clic en los campos de metadatos revelará la opción de introducir los metadatos en otros idiomas previamente habilitados, permitiéndole introducir el título, subtítulo y resumen en el otro idioma(s).  Desplazándose hacia abajo...
 
 ![Enter title metadata in another language](./assets/learning-ojs3.2-au-dashboard-new-3.png)
 
-...you are able to add any additional contributors.
+...puede agregar cualquier colaborador adicional.
 
 ![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
-You can add more contributors \(e.g., co-authors\), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
+Puede añadir más colaboradores \(p.ej. coautores\), haciendo clic en el enlace **Añadir colaboradores**. Esto abrirá una nueva ventana con campos para introducir sus datos.
 
 ![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
 
-Hit **Save**, and the new contributor will appear on the screen.
+Presione **Guardar**y el nuevo colaborador aparecerá en la pantalla.
 
 ![List with new contributors added](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
-If the categories are enabled in the journal you are submitting to, you will be able to select a category for the manuscript submission, if it applies.
+Si las categorías están habilitadas en la revista a la que está realizando un envío, podrá seleccionar una categoría para el manuscrito, si aplica.
 
 ![Select a category](./assets/learning-ojs-authoring-category.png)
 
-You may also see additional fields to complete, such as keywords. If additional languages are enabled for the journal, you can enter the metadata in these languages. Clicking on the metadata field will reveal the fields for other languages enabled in the journal.
+También puede ver campos adicionales para rellenar, tales como palabras clave. Si hay idiomas adicionales habilitados en la revista, puede introducir los metadatos en esos idiomas. Clicking on the metadata field will reveal the fields for other languages enabled in the journal.
 
 ![Enter keywords](./assets/learning-ojs-3.2-author-submission-step3-4.png)
 
