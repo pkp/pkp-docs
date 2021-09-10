@@ -5,7 +5,7 @@ version: 3.3
 
 # Authoring
 
-In this chapter, you will learn about how an author works in OJS from registration through to proofreading the final galley.
+Neste capítulo, você vai saber mais sobre como um autor trabalha com OJS de registro até a revisão da composição final.
 
 ## Registering with the Journal
 
