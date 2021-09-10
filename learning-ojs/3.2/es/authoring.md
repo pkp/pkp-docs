@@ -127,97 +127,97 @@ En los próximos días, pasará a la fase de Revisión y, si se acepta, a las fa
 
 <hr />
 
-## Editing Metadata
+## Editar Metadatos
 
-In OJS 3.2, you may edit your own metadata at different stages of the editorial workflow. This will be dependent on settings granted by the Journal. You may either have global permission to make edits or have to send a request to the Editor to do so.
+En OJS 3.2, puede editar sus propios metadatos en diferentes etapas del flujo de trabajo editorial. Esto dependerá de la configuración concedida por la Revista. Es posible que tenga permisos globales para realizar ediciones o que tenga que enviar una solicitud al Editor para hacerlo.
 
-Changes might include updated abstracts, correcting spelling errors, or adding additional contributors.
+Los cambios pueden incluir resúmenes actualizados, correcciones de errores ortográficos o adición de colaboradores adicionales.
 
-To make edits to your submitted manuscript, click on the publication tab of your submission.
+Para realizar ediciones al manuscrito enviado, haga clic en la pestaña de publicación de su envío.
 
 ![Submission publication tab](./assets/learning-ojs3.2-auth-dashboard-publication.png)
 
-You will be able to make changes to any of the sub-menus on the left by clicking to those tabs. If multiple languages are enabled for the journal, you will be able to edit metadata in those languages by clicking on the language tab in the top right. Click ‘Save’ once you’re done making your changes.
+Podrá hacer cambios en cualquiera de los submenús de la izquierda haciendo clic en esas pestañas. Si hay varios idiomas habilitados en la revista, podrá editar metadatos en esos idiomas haciendo clic en la pestaña de idioma de la parte superior derecha. Haga clic en 'Guardar' una vez que haya terminado de hacer sus cambios.
 
 ![Publication menu items](./assets/learning-ojs3.2-auth-dashboard-publication2-language.png)
 
-When granted permission, you will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors, and Metadata. While Galleys is listed as an option on the side menu, you will not be able to upload or make changes in this section.
+Cuando se le conceda permiso, podrá hacer cambios en las siguientes secciones de la pestaña Publicación: Título, Resumen, Colaboradores y Metadatos. Mientras Galeradas aparezca como una opción en el menú lateral no podrá subir ni hacer cambios en esta sección.
 
-If you notice that the ‘Save’ button is grey and inactive, this means you will have to request permission from the Editor to make changes to your submission or ask them to make the changes for you.
+Si nota que el botón 'Guardar' es gris y está inactivo, significa que tendrá que solicitar permiso al Editor para hacer cambios en su envío o pedirles que hagan los cambios por usted.
 
 <hr />
 
-## Responding to a Review
+## Respondiendo a una revisión
 
-Once the review process has completed, you will be notified via email by the editor of their decision.
+Una vez finalizado el proceso de revisión, el editor le notificará por correo electrónico su decisión.
 
-After receiving the email with the decision, login to your dashboard. Select the manuscript you have been notified about.
+Después de recibir el correo electrónico con la decisión, inicie sesión en su panel de control. Seleccione el manuscrito sobre el que ha sido notificado.
 
 ![Submission dashboard with items in review](./assets/learning-ojs-3.2-auth-responding-revisions.png)
 
-Within the Review tab of the manuscript, you will also see a copy of the Editorial Decision under Notifications. Depending on the type of peer review the journal uses, you may see less information on the Review tab of the journal. The example below shows an open peer review which allows authors to see who the reviewer was.
+Dentro de la pestaña Revisión del manuscrito, también verá una copia de la Decisión Editorial bajo Notificaciones. Dependiendo del tipo de revisión por pares que utilice el diario, podrá ver menos información en la pestaña Revisión de la revista. El ejemplo a continuación muestra una revisión por pares abierta que permite a los autores ver quién era el revisor.
 
 ![Review tab of manuscript](./assets/learning-ojs-3.2-auth-responding-revisions2.png)
 
-To view the Editorial decision, click the link under notifications.
+Para ver la decisión Editorial, haga clic en el enlace debajo de las notificaciones.
 
 ![Editor decision notification](./assets/learning-ojs-3.2-auth-responding-revisions3.png)
 
-Based on the information in the editor's message, you must now prepare your revisions.
+Basándose en la información contenida en el mensaje del editor, usted debe ahora preparar sus revisiones.
 
-### Uploading the Revised File
+### Subiendo el Archivo Revisado
 
-Once you’re ready to upload the revised file, scroll down the page and find the panel for **Revisions**.
+Una vez que esté listo para cargar el archivo revisado, desplácese hacia abajo en la página y encuentre el panel de **Revisiones**.
 
 ![Revisions panel](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
-Use the *Upload a File* link to upload your revised manuscript.
+Utilice el enlace *Subir un archivo* para subir su manuscrito revisado.
 
 ![Upload review file](./assets/learning-ojs-3-auth-responding-upload.png)
 
-Use the dropdown menu to choose that you are uploading a revision of an existing file.
+Utilice el menú desplegable para seleccionar que está subiendo una revisión de un archivo existente.
 
-Then upload the revised file and hit **Continue**.
+A continuación, suba el archivo revisado y pulse **Continuar**.
 
 ![Review file details and continue](./assets/learning-ojs-3-auth-responding-upload2.png)
 
-Check the file details and hit **Continue** again.
+Compruebe los detalles del archivo y presione **Continuar** de nuevo.
 
 ![Add another file or complete upload](./assets/learning-ojs-3-auth-responding-upload3.png)
 
-If you have any additional files to upload, do so now. Otherwise, hit **Complete**.
+Si tiene algún archivo adicional para subir, hágalo ahora. De lo contrario, pulse **Completar**.
 
-Your revised file is now visible in the Revisions panel.
+Su archivo revisado ahora es visible en el panel Revisiones.
 
 ![Revised file now in revisions panel](./assets/learning-ojs-3-auth-responding-upload4.png)
 
-### Inform the Editor
+### Informar al Editor
 
-The editor will receive a notification about the new file(s) being uploaded. Additionally you can inform the editor via the Review Discussion panel as explained below.
+El editor recibirá una notificación sobre el(los) archivo(s) nuevo(s) que se están subiendo. Adicionalmente, puede informar al editor a través del panel de Discusión de Revisión como se explica a continuación.
 
 ![Review discussions panel](./assets/learning-ojs-3-auth-responding-discussion.png)
 
-From there, select the *Add Discussion* link.
+Desde ahí, seleccione el enlace *Añadir Discusión*.
 
-Select the users you want to notify under Participants.
+Seleccione los usuarios que desea notificar bajo Participantes.
 
 ![Add discussion and select participants](./assets/learning-ojs-3.2-auth-responding-discussion-add.png)
 
-Add a subject line and a message.
+Añada una línea de asunto y un mensaje.
 
-Hit **OK** to send the message.
+Pulse **OK** para enviar el mensaje.
 
-An email has now been sent to the editor and you (and the editor) can see the message in the Review Discussions panel.
+Un correo electrónico ha sido enviado al editor, y usted y el editor pueden ver el mensaje en el panel Discusiones de Revisión.
 
 ![Message in review discussions panel](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
 
-At this point, the author needs to wait to hear back from the editor as to whether the revisions are acceptable.
+En este punto, el autor tiene que esperar respuesta del editor sobre si las revisiones son aceptables o no.
 
-### Revisions Accepted
+### Revisiones Aceptadas
 
-You will receive an email that your revisions have been accepted.
+Recibirá un correo electrónico que sus revisiones han sido aceptadas.
 
-In addition, notifications will appear on your dashboard.
+Además, las notificaciones aparecerán en su panel de control.
 
 ![Notifications in dashboard](./assets/learning-ojs-3.2-au-notifications.png)
 
