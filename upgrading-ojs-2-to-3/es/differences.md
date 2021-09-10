@@ -45,7 +45,7 @@ Es importante hacer un inventario de sus módulos y características más útile
 
 ## Características descartadas
 
-There are also some features from OJS 2 that are missing or still in development for OJS 3, including the following:
+Hay algunas características de OJS 2 que faltan o están aún en desarrollo en OJS 3, entre otras:
 
 * Algunos módulos no se han portado a OJS 3, entre ellos Books for Review y Dataverse
 * La administración de plantillas de correo electrónico y la administración de notificaciones de usuario/a aún se están perfeccionando
@@ -54,4 +54,4 @@ Para obtener recursos adicionales sobre las diferencias entre OJS 2 y OJS 3, con
 
 Por último, las actualizaciones y desarrollos de OJS 3 siguen en curso. Si no está seguro sobre el estado de una característica o módulo en OJS 3, busque en el [Foro de la comunidad](https://forum.pkp.sfu.ca/) y en el [repositorio Github de PKP](https://github.com/pkp/pkp-lib/issues) para ver si se está trabajando activamente en ello. También puede solicitar nuevas funciones o cambios en funciones ya existentes, que mejorarán OJS.
 
-For additional resources on the differences between OJS 2 and 3 see the Additional Resources section at the end of this guide.
+Para obtener información adicional sobre las diferencias entre OJS 2 y 3 consulte la sección Recursos Adicionales al final de esta guía.
