@@ -3,15 +3,15 @@ book: learning-ojs
 version: 3.1
 ---
 
-# Chapter 9: Issues
+# Bölüm 9: Sayılar
 
-From the left menu, select Issues to manage all of the issues for your journal.
+Derginizin tüm sayılarını yönetmek için sol menüden Sayılar'ı seçin.
 
 ![Future Issues tab in Issues Setting.](./assets/learning-ojs3.1-jm-issues.png)
 
-## Future Issues
+## Gelecek Sayılar
 
-Future Issues are all of your unpublished issues. You can create as many of these as you wish, and schedule submissions to any of them.
+Yayınlanmamış sayılarınızdan olan gelecek sayıların tümü. You can create as many of these as you wish, and schedule submissions to any of them.
 
 ### Create Issue
 
