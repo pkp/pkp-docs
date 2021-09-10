@@ -15,19 +15,19 @@ Yayınlanmamış sayılarınızdan olan gelecek sayıların tümü. Bunlardan di
 
 ### Sayı Oluştur
 
-To create a new issue, use the **Create Issue** link and fill in the form.
+Yeni bir sayı oluşturmak için **Sayı Oluştur** bağlantısını kullanın ve formu doldurun.
 
 ![Form to create new Issue.](./assets/learning-ojs-3-issues-create.png)
 
-There are spaces to add volume, number, year, and title information \(e.g., Special Issue \#1\), as well as a description and a cover image \(if needed\).
+Cilt, sayı, yıl ve başlık bilgilerini \(Ör. Özel Sayı \#1\) ve ayrıca bir açıklama ve bir kapak resmi \(gerekirse\) eklemek için boşluklar vardır.
 
-### Edit Issue
+### Sayı Düzenle
 
-You can also edit an existing future issue by selecting the blue arrow to the left of the issue entry on the Future Issues page.
+Gelecekteki Sayılar sayfasındaki sayı girişinin solundaki mavi oku seçerek mevcut bir gelecek sayıyı da düzenleyebilirsiniz.
 
 ![Additional drop-down menu options for issues.](./assets/learning-ojs3.1-jm-issues-edit.png)
 
-This will reveal an Edit link, which will open a new window of information.
+Bu, yeni bir bilgi penceresi açacak olan bir Düzenle bağlantısını ortaya çıkaracaktır.
 
 ![Issue Table of Contents.](./assets/learning-ojs-3-issues-details.png)
 
@@ -43,23 +43,23 @@ You can also use the Order link to reorder the entries.
 
 **Identifiers**: Use this space to add a DOI for the issue, if your journal supports issue-level identifiers.
 
-### Preview Issue
+### Sayı Ön İzleme
 
 Using that same blue arrow will also reveal a Preview link, letting you get a look at the issue before publishing it.
 
-### Publish Issue
+### Sayı Yayınla
 
 Once you are happy with the issue hit the Publish Issue link to publish it on your journal website.
 
 By default, all registered users will be notified via email when a new issue is published from the list of Future Issues. To not send a notification of a new issue published, uncheck the box beside “Send notification email to all registered users” before pressing OK.
 
-### Delete Issue
+### Sayı Sil
 
 You can use the Delete link to remove the issue. Any assigned articles will revert to their unpublished status.
 
 <hr />
 
-## Back Issues
+## Eski Sayılar
 
 This tab lists all of your published issues.
 
