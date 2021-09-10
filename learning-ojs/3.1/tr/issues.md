@@ -11,9 +11,9 @@ Derginizin tüm sayılarını yönetmek için sol menüden Sayılar'ı seçin.
 
 ## Gelecek Sayılar
 
-Yayınlanmamış sayılarınızdan olan gelecek sayıların tümü. You can create as many of these as you wish, and schedule submissions to any of them.
+Yayınlanmamış sayılarınızdan olan gelecek sayıların tümü. Bunlardan dilediğiniz kadar oluşturabilir ve herhangi biri için gönderi planlayabilirsiniz.
 
-### Create Issue
+### Sayı Oluştur
 
 To create a new issue, use the **Create Issue** link and fill in the form.
 
