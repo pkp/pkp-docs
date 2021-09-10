@@ -31,9 +31,9 @@ Bu, yeni bir bilgi penceresi açacak olan bir Düzenle bağlantısını ortaya �
 
 ![Issue Table of Contents.](./assets/learning-ojs-3-issues-details.png)
 
-**Table of Contents**: For a new issue, this will be empty, but for issues that have had submissions scheduled, they will be listed here.
+**İçindekiler**: Yeni bir sayı için boş olacaktır, ancak planlanmış gönderiler burada listelenecektir.
 
-Use the blue arrow next to each submission to reveal links to go directly to the submission record \(more about this in Chapter 10\) or remove it.
+Doğrudan gönderi kaydına gitmek için her gönderinin yanındaki mavi oku kullanın \(bununla ilgili daha fazla bilgi için bkz. Bölüm 10\) veya kaldırın.
 
 You can also use the Order link to reorder the entries.
 
