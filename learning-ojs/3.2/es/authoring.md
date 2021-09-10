@@ -3,67 +3,67 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Authoring
+# Autores
 
-In this chapter, you will learn about how an author works in OJS 3.2 from registration through to proofreading the final galley.
+En este capítulo, aprenderá cómo trabaja un autor en OJS 3.2 desde el registro hasta la revisión de la galerada final.
 
-## Registering with the Journal
+## Registrándose en la revista
 
-To make a submission to an OJS 3.2 journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
+Para realizar un envío a una revista en OJS 3, primero tendrá que registrar una cuenta de usuario en una revista e iniciar sesión \(vea [Registrándose en una revista](./user-accounts#registering-with-a-journal)\). Tras esto, cuando inicie sesión, será llevado a su Panel de Control.
 
 ![Submissions queue in author dashboard](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
-It is currently empty as you have made no submissions.
+Actualmente está vacío, ya que aún no ha realizado envíos.
 
 <hr />
 
-## Submitting an Article
+## Enviar un artículo
 
-Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to Step 1 of a 5-Step process to upload and describe your submission.
+Comience un nuevo envío haciendo clic en el botón **Nuevo envío** al lado derecho de la pantalla. Se le llevará al paso 1 de un proceso de 5 pasos para subir y describir su envío.
 
 ![Author submission queue with new submission button](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
-### Step 1
+### Paso 1
 
-In **Step 1** you will provide preliminary information about your submission.
+En el **Paso 1** proporcionará información preliminar sobre su envío.
 
 ![Article submission start screen](./assets/learning-ojs3.2-au-dashboard-new-1.png)
 
-If the journal allows submissions in multiple languages, you can select the language of your submission from the drop-down menu. Languages can be enabled in Website Settings -> Setup -> Language.
+Si la revista permite envíos en varios idiomas, puede seleccionar el idioma de su envío en el menú desplegable. Los idiomas pueden activarse en la configuración del sitio web -> Configuración -> Idioma.
 
-Select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
+Seleccione la sección apropiada para su envío \(artículo, revisión, etc.\). Si no está seguro de qué sección es la apropiada, haga la mejor conjetura posible.
 
-Read and agree to the statements in the submission checklist by checking each box. Include any comments for the editor, read the journal’s privacy statement, and then click the **Save and Continue** button to move to **Step 2**.
+Lea y acepte las declaraciones en la lista de verificación de envíos marcando cada casilla. Incluya cualquier comentario para el editor, lea la declaración de privacidad de la revista, y luego haga clic en el botón **Guardar y Continuar** para moverse al **Paso 2**.
 
-### Step 2
+### Paso 2
 
-On **Step 2**, a window will open allowing you to upload your submission file.
+En el **Paso 2** se le abrirá una ventana que le permitirá subir su archivo.
 
 ![File upload screen](./assets/learning-ojs-3-author-submission-step2.png)
 
-First, you MUST select an Article Component. This lets the system know whether the file is the body of the manuscript, an image, a data set, etc. **This must be selected before your file will upload**.
+Primero, DEBE seleccionar un componente de artículo. Esto permite que el sistema sepa si el archivo es el propio manuscrito, una imagen, un conjunto de datos, etc. **Esto debe ser seleccionado antes de que el archivo se suba**.
 
 ![Select Article Component](./assets/learning-ojs-3-author-submission-step2-2.png)
 
-Once you’ve made that selection, you can then upload your first file. It is important to note that you can only upload **one** file at a time. Additional files can be uploaded later in the process. Typically, this first file will be the body of your manuscript. Hit the **Continue** button once the file uploads.
+Una vez hecha esta selección, puede subir su primer archivo. Es importante tener en cuenta que solo puede subir **un único** archivo a la vez. Los archivos adicionales pueden ser subidos más tarde durante el proceso. Por lo general, este primer archivo será el cuerpo de su manuscrito. Haga clic en el botón **Continuar** una vez que el archivo suba.
 
 ![Review submission details](./assets/learning-ojs-3-author-submission-step2-3.png)
 
-After uploading the file, you will be asked to review the name of the file. Use the Edit link to make any changes.
+Después de subir el archivo, se le pedirá que revise el nombre del archivo. Utilice el enlace Editar para realizar cualquier cambio.
 
-Click the **Continue** button.
+Haga clic en el botón **Continuar**.
 
-Next, you have the option to repeat the process to upload additional files \(e.g., a data set or an image\).
+A continuación, tiene la opción de repetir el proceso para subir archivos adicionales \(p. ej. un conjunto de datos o una imagen\).
 
-Once you have finished uploading all of your files, click **Complete**; this will close the upload window.
+Una vez que haya terminado de subir todos sus archivos, haga clic en **Completar**; esto cerrará la ventana de subida de archivos.
 
 ![Finish submission screen](./assets/learning-ojs-3-author-submission-step2-4.png)
 
-You will be brought back to the _Submit an Article_ screen where you will see the files you’ve uploaded. If you need to make changes, expand the blue arrow to the left of your file and make any changes using the _Edit_ link.
+Será redirigido a la pantalla _Enviar un artículo_, donde verá los archivos que ha subido. Si necesita realizar cambios, expanda la flecha azul a la izquierda de su archivo y haga cualquier cambio usando el enlace _Editar_.
 
-Click ‘Save and Continue’ to move to Step 3.
+Haga clic en 'Guardar y continuar' para ir al Paso 3.
 
-### Step 3
+### Paso 3
 
 On **Step 3**, you will be asked to add more information about the submission, including the title of the submission (broken down into prefix, title, and subtitle), and the abstract. If the journal allows submissions in multiple languages, clicking on each metadata field will reveal the option to enter the metadata in the other languages that are enabled, allowing you to enter the title, subtitle and abstract in the other language(s).  Scrolling down...
 
