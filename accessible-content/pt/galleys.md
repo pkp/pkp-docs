@@ -33,7 +33,7 @@ Os periódicos on-line publicam seus artigos em uma variedade de formatos de arq
 
 ### PDF
 
-O PDF é o formato mais comum para publicação de artigos, mas pode apresentar vários problemas do ponto de vista da acessibilidade. Um dos principais problemas é que um documento de texto criado com considerações de acessibilidade em mente pode perder alguns desses recursos ao ser convertido para PDF, como marcações, texto alternativo, cabeçalhos etc. A seguir apresentamos as etapas para minimizar esses riscos: Here are the steps to follow to minimize these risks:
+O PDF é o formato mais comum para publicação de artigos, mas pode apresentar vários problemas do ponto de vista da acessibilidade. Um dos principais problemas é que um documento de texto criado com considerações de acessibilidade em mente pode perder alguns desses recursos ao ser convertido para PDF, como marcações, texto alternativo, cabeçalhos etc. A seguir apresentamos as etapas para minimizar esses riscos: Aqui estão os passos a seguir para minimizar esses riscos:
 
 #### 1 - Certifique-se de que o documento de origem seja acessível
 
