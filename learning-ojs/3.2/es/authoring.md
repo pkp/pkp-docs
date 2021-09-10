@@ -77,7 +77,7 @@ Puede añadir más colaboradores \(p.ej. coautores\), haciendo clic en el enlace
 
 ![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
 
-Presione **Guardar**y el nuevo colaborador aparecerá en la pantalla.
+Presione **Guardar** y el nuevo colaborador aparecerá en la pantalla.
 
 ![List with new contributors added](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
@@ -85,45 +85,45 @@ Si las categorías están habilitadas en la revista a la que está realizando un
 
 ![Select a category](./assets/learning-ojs-authoring-category.png)
 
-También puede ver campos adicionales para rellenar, tales como palabras clave. Si hay idiomas adicionales habilitados en la revista, puede introducir los metadatos en esos idiomas. Clicking on the metadata field will reveal the fields for other languages enabled in the journal.
+También puede ver campos adicionales para rellenar, tales como palabras clave. Si hay idiomas adicionales habilitados en la revista, puede introducir los metadatos en esos idiomas. Al hacer clic en el campo del metadato se mostrarán los campos para otros idiomas habilitados en la revista.
 
 ![Enter keywords](./assets/learning-ojs-3.2-author-submission-step3-4.png)
 
-To enter keyword, simply type the word or phrase and hit your Enter key. The word or phrase will be formatted as a keyword.
+Para introducir una palabra clave, simplemente escriba la palabra o frase y pulse su tecla Intro. La palabra o frase será formateada como palabra clave.
 
-Click **Save and Continue** to move forward.
+Haga clic en **Guardar y continuar** para avanzar.
 
-### Step 4
+### Paso 4
 
-On Step 4, you will be asked to confirm that you are happy with your submission.
+En el paso 4, se le pedirá que confirme que está satisfecho con su envío.
 
-Click **Finish Submission**.
+Haga clic en **Finalizar envío**.
 
 ![Finish submission screen](./assets/learning-ojs3.1-au-dashboard-new-4.png)
 
-A box will pop up asking you to confirm you are finished. Click **OK**.
+Aparecerá una caja que te pedirá que confirmes que has finalizado. Haga clic en **OK**.
 
 ![Confirm submission screen](./assets/learning-ojs-3-author-submission-step4-1.png)
 
-### Step 5
+### Paso 5
 
 ![Next steps submission screen](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
-Your submission is now complete! The editor has been notified of your submission. At this point, you can follow the links to:
+¡Su envío ha sido completado! El editor ha sido notificado de su envío. En este punto, puedes seguir los enlaces para:
 
-* Review this submission
-* Create a new submission
-* Return to your dashboard
+* Revisar este envío
+* Crear un nuevo envío
+* Regresar al panel de control
 
-Once you complete a submission, you cannot make changes to it.  If you want to replace the file you submitted or make other changes to the submission, you will need to contact the editor through the Pre-Review Discussions tool.
+Una vez que complete un envío, no podrá realizar cambios en el mismo.  Si desea reemplazar el archivo que ha enviado o hacer otros cambios al envío, necesitará ponerse en contacto con el editor a través de la herramienta Discusiones.
 
-### Dashboard
+### Panel de control
 
-And here is your submission in your Dashboard. You can see that it is currently in the _Submission_ stage.
+Y aquí está su envío en su Panel de Control. Puede ver que actualmente está en la etapa de _Envío_.
 
 ![Submission in author dashboard](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
-Over the coming days, it will move into the Review stage, and if accepted, into the Copyediting and Production stages before being published.
+En los próximos días, pasará a la fase de Revisión y, si se acepta, a las fases de Corrección y Producción antes de ser publicadas.
 
 <hr />
 
