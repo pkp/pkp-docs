@@ -1,24 +1,24 @@
-# Differences between OJS 2 and 3
+# OJS 2 ve 3 arasındaki farklılıklar
 
 Although the fundamental features of OJS are consistent between versions, there are some significant changes and improvements in OJS 3. New features in OJS 3 include the following, some of which are explained in more detail below:
 
 * Responsive, mobile-friendly design
-* New themes
-* Flexible editorial workflow
+* Yeni temalar
+* Esnek editoryal iş akışı
 * Plugin integration with with ORCID, iThenticate, Publons, and other external services
-* Simplified user registration
-* Customizable roles and permissions
-* Expanded internal and usage statistics reports
-* Multilingual author name support
-* Support for thematic collections or categories of articles
+* Basitleştirilmiş kullanıcı kaydı
+* Özelleştirilebilir roller ve izinler
+* Genişletilmiş dahili ve kullanım istatistikleri raporları
+* Çok dilli yazar adı desteği
+* Tematik koleksiyonlar veya makale kategorileri için destek
 
 For an overview of features you can look forward to seeing in OJS 3, see our [OJS 3 Features Overview](https://www.youtube.com/watch?feature=player_embedded&v=UFkEj2kXd-0&list=PLg358gdRUrDX7Ai8HcN2vqPM1g0HHG7nu) video below.
 
 [![OJS 3 Features Overview](https://img.youtube.com/vi/UFkEj2kXd-0/0.jpg)](https://www.youtube.com/watch?feature=player_embedded&v=UFkEj2kXd-0&list=PLg358gdRUrDX7Ai8HcN2vqPM1g0HHG7nu)
 
-## OJS 3 interface
+## OJS 3 arayüzü
 
-There is a new interface for readers and editors, including a separate editorial interface that is visually distinct from the journal. Users with multiple roles are no longer required to select a role from their user homepage in order to access certain settings or administrative features; all the available options can be located in the new dashboard. This also allows for seamless switching between tasks associated with different roles. The new interface is illustrated below and explained in [What’s New in OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/introduction#whats-new-in-ojs-3).
+Dergiden görsel olarak farklı olan ayrı bir editoryal arayüz de dahil olmak üzere okuyucular ve editörler için yeni bir arayüzü vardır. Birden çok rolü olan kullanıcıların, belirli ayarlara veya yönetim özelliklerine erişmek için kullanıcı ana sayfalarından bir rol seçmelerine artık gerek yoktur; mevcut tüm seçenekler yeni kontrol panelinde bulunabilir. Bu aynı zamanda farklı rollerle ilişkili görevler arasında sorunsuz geçiş yapılmasına da olanak tanır. Yeni arayüz aşağıda gösterilmiştir ve [OJS 3'teki Yenilikler](https://docs.pkp.sfu.ca/learning-ojs/en/introduction#whats-new-in-ojs-3) bölümünde açıklanmıştır.
 
 |    ![Dashboard menu in OJS 2.](./assets/ojs-2-settings.png)     | ![Dashboard menu in OJS 3.](./assets/ojs-3-dashboard.png) |
 |:---------------------------------------------------------------:|:---------------------------------------------------------:|
@@ -37,13 +37,13 @@ Another new editorial feature is the introduction of an internal discussion feat
 
 ![Copyediting discussion menu with one copyediting request.](./assets/ojs-3-discussions.png)
 
-## Statistics
+## İstatistikler
 
 The type of statistics reports available and the way they are generated is another key change between versions. If your journal makes use of statistics reports, read the [Statistics guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics), which explains the various types of reports available in each version and provides information on upgrading journals with legacy View Report data.
 
 OJS 3 has new statistics features such as a visual dashboard of usage statistics for editors and journal managers and the ability to display an article’s usage statistics on the reader front end.
 
-## Missing features
+## Eksik özellikler
 
 There are also some features from OJS 2 that are missing or still in development for OJS 3, including the following:
 
