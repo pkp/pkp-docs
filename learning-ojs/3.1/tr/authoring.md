@@ -3,11 +3,11 @@ book: learning-ojs
 version: 3.1
 ---
 
-# Chapter 13: Authoring
+# Bölüm 13: Yazarlık
 
-In this chapter, you will learn about how an author works in OJS 3.1 from registration through to proofreading the final galley.
+Bu bölümde, bir yazarın ADS 3.1'de kayıttan son dizgiyi düzeltme dahil nasıl çalıştığını öğreneceksiniz.
 
-## Registering with the Journal
+## Dergiye Kayıt
 
 To make a submission to an OJS 3.1 journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
 
