@@ -31,97 +31,97 @@ Ekranın sağ tarafındaki **Yeni Gönderi** düğmesini tıklayarak yeni bir g�
 
 Gönderiye başlamak için uygun bir bölümü seçin \(Ör. makale, inceleme vb.\). Hangi bölümün uygun olduğundan emin değilseniz, uygun olduğunu düşündüğünüz bölümü seçiniz.
 
-Her bir kutuyu işaretleyerek gönderi kontrol listesindeki ifadeleri okuyun ve kabul edin. Include any comments for the editor, read the journal’s privacy statement, and then click the **Save and Continue** button to move to **Step 2**.
+Her bir kutuyu işaretleyerek gönderi kontrol listesindeki ifadeleri okuyun ve kabul edin. Editöre iletilecek tüm yorumları ekleyin, derginin gizlilik bildirimini okuyun ve ardından **2. Adım'a** geçmek için **Kaydet ve Devam Et** düğmesini tıklayın.
 
-### Step 2
+### 2. Adım
 
-On **Step 2**, a window will open allowing you to upload your submission file.
+**2. Adım**'da, gönderi dosyanızı yüklemenize izin veren bir pencere açılacaktır.
 
 ![File upload screen](./assets/learning-ojs-3-author-submission-step2.png)
 
-First, you MUST select an Article Component. This lets the system know whether the file is the body of the manuscript, an image, a data set, etc. **This must be selected before your file will upload**.
+İlk olarak, bir Makale Bileşeni seçmelisiniz ZORUNLU'dur. Bu, sistemin makale metninin, bir resim, bir veri seti vb. olup olmadığını bilmesini sağlar. **Dosya yüklenmeden önce bu seçilmelidir**.
 
 ![Select article component](./assets/learning-ojs-3-author-submission-step2-2.png)
 
-Once you’ve made that selection, you can then upload your first file. It is important to note that you can only upload **one** file at a time. Additional files can be uploaded later in the process. Typically, this first file will be the body of your manuscript. Hit the **Continue** button once the file uploads.
+Bu seçimi yaptıktan sonra ilk dosyanızı yükleyebilirsiniz. Bir seferde yalnızca **bir** dosya yükleyebileceğinizi unutmayın. Ek dosyalar daha sonra yüklenebilir. Tipik olarak, bu ilk dosya makale metni olacaktır. Dosya yüklendikten sonra **Devam** düğmesine basın.
 
 ![Review submission details](./assets/learning-ojs-3-author-submission-step2-3.png)
 
-After uploading the file, you will be asked to review the name of the file. Use the Edit link to make any changes.
+Dosyayı yükledikten sonra, dosyanın adını gözden geçirmeniz istenecektir. Herhangi bir değişiklik yapmak için Düzenle bağlantısını kullanın.
 
-Click the **Continue** button.
+**Devam** düğmesini tıklayın.
 
-Next, you have the option to repeat the process to upload additional files \(e.g., a data set or an image\).
+Ardından, ek dosyalar \(Ör., bir veri kümesi veya bir görüntü\) yüklemek için işlemi tekrarlama seçeneğiniz vardır.
 
-Once you have finished uploading all of your files, click **Complete**; this will close the upload window.
+Tüm dosyalarınızı yüklemeyi bitirdikten sonra, **Tamamla**'yı tıklayın; bu yükleme penceresini kapatacaktır.
 
 ![Complete upload](./assets/learning-ojs-3-author-submission-step2-4.png)
 
-You will be brought back to the _Submit an Article_ screen where you will see the files you’ve uploaded. If you need to make changes, expand the blue arrow to the left of your file and make any changes using the _Edit_ link.
+Yüklediğiniz dosyaları göreceğiniz _Makale Gönder_ ekranına geri döndürüleceksiniz. Değişiklik yapmanız gerekiyorsa, dosyanızın solundaki mavi oku genişletin ve _Düzenle_ bağlantısını kullanarak tüm değişiklikleri yapın.
 
-Click ‘Save and Continue’ to move to Step 3.
+3. Adıma geçmek için 'Kaydet ve Devam Et'i tıklayın.
 
-### Step 3
+### 3. Adım
 
-On **Step 3**, you will be asked to add more information about the submission, including the title of the submission \(broken down into prefix, title, and subtitle\), the abstract, and scrolling down...
+**3. Adım**'da, gönderi başlığı \(ön ek, başlık ve alt başlık olarak ayrılmış\) dahil olmak üzere gönderi hakkında ekranı aşağı kaydırarak özet dahil daha fazla bilgi eklemeniz istenecektir...
 
 ![Enter metadata](./assets/learning-ojs3.1-au-dashboard-new-3.png)
 
-...any additional contributors.
+...ek katkıda bulunanlar.
 
 ![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
-You can add more contributors \(e.g., co-authors\), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
+**Katkıda Bulunan Ekle** bağlantısını tıklayarak daha fazla katkıda bulunan \(Örneğin, ortak yazarlar\) ekleyebilirsiniz. Bu, bilgilerini girmek için alanlar içeren yeni bir pencere açacaktır.
 
 ![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
 
-Hit **Save**, and the new contributor will appear on the screen.
+**Kaydet**'e tıkladığınızda yeni katılımcı ekranda görünecektir.
 
 ![List with new contributors added](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
-Depending on the journal you are submitting to, you may see additional fields to complete, such as keywords.
+Gönderdiğiniz dergiye bağlı olarak, anahtar kelimeler gibi doldurulması gereken ek alanlar görebilirsiniz.
 
 ![Enter keywords](./assets/learning-ojs-3-author-submission-step3-4.png)
 
-To enter keyword, simply type the word or phrase and hit your Enter key. The word or phrase will be formatted as a keyword.
+Anahtar kelimeyi girmek için, kelimeyi veya kelime öbeğini yazıp Enter tuşuna basmanız yeterlidir. Kelime veya kelime öbeği, anahtar kelime olarak biçimlendirilecektir.
 
-Click **Save and Continue** to move forward.
+İlerlemek için **Kaydet ve Devam Et**'i tıklayın.
 
-### Step 4
+### 4. Adım
 
-On Step 4, you will be asked to confirm that you are happy with your submission.
+4. Adımda, gönderi verilerini incelemeniz ve onaylamanız istenecektir.
 
-Click **Finish Submission**.
+**Gönderimi Bitir**'i tıklayın.
 
 ![Finish submission screen](./assets/learning-ojs3.1-au-dashboard-new-4.png)
 
-A box will pop up asking you to confirm you are finished. Click **OK**.
+Bitirdiğinizi onaylamanızı isteyen bir kutu açılacaktır. **Tamam**'ı tıklayın.
 
 ![Confirm submission screen](./assets/learning-ojs-3-author-submission-step4-1.png)
 
-### Step 5
+### 5. Adım
 
 ![Next steps submission screen](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
-Your submission is now complete! The editor has been notified of your submission. At this point, you can follow the links to:
+Gönderiniz tamamlandı! Editör, gönderiniz hakkında bilgilendirildi. Bu noktada aşağıdaki bağlantıları takip edebilirsiniz:
 
-* Review this submission
-* Create a new submission
-* Return to your dashboard
+* Gönderiyi inceleyin
+* Yeni bir gönderi oluştur
+* Kontrol paneline dönün
 
-Once you complete a submission, you cannot make changes to it.  If you want to replace the file you submitted or make other changes to the submission, you will need to contact the editor through the Pre-Review Discussions tool.
+Bir gönderiyi tamamladıktan sonra üzerinde değişiklik yapamazsınız.  Gönderdiğiniz dosyayı değiştirmek veya gönderide başka değişiklikler yapmak istiyorsanız, Ön İnceleme Tartışmaları aracı aracılığıyla editörle iletişime geçmeniz gerekir.
 
-### Dashboard
+### Kontrol Paneli
 
-And here is your submission in your Dashboard. You can see that it is currently in the _Submission_ stage.
+Panonuzdaki gönderiniz. Şu anda _Gönderi_ aşamasında olduğunu görebilirsiniz.
 
 ![Submission in author dashboard](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
-Over the coming days, it will move into the Review stage, and if accepted, into the Copyediting and Production stages before being published.
+Önümüzdeki günlerde, Değerlendirme aşamasına ve kabul edilirse yayınlanmadan önce Kopya Düzenleme ve Üretim aşamalarına geçecektir.
 
 <hr />
 
-## Responding to a Review
+## Bir Değerlendirmeye Yanıt Verme
 
 Once the review process has completed, you will be notified via email by the editor of their decision.
 
