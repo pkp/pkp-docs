@@ -9,29 +9,29 @@ Bu bölümde, bir yazarın ADS 3.1'de kayıttan son dizgiyi düzeltme dahil nas�
 
 ## Dergiye Kayıt
 
-To make a submission to an OJS 3.1 journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
+Bir OJS 3.1 dergisine gönderi yapmak için, önce bir dergiye kullanıcı hesabı açmanız ve giriş yapmanız gerekir (bkz. [Bir Dergiye Kayıt Olma](./user-accounts#registering-with-a-journal)\). Giriş yaptığınızda, Kontrol Paneline yönlendirileceksiniz.
 
 ![Submissions queue in author dashboard](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
-It is currently empty as you have made no submissions.
+Hiçbir gönderi yapmadığınız için şu anda boş.
 
 <hr />
 
-## Submitting an Article
+## Makale Gönderme
 
-Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to Step 1 of a 5-Step process to upload and describe your submission.
+Ekranın sağ tarafındaki **Yeni Gönderi** düğmesini tıklayarak yeni bir gönderi başlatabilirsiniz. Gönderi yüklemek, üstveri girişi yapmak ve açıklama için 5 Adımlı bir sürecin 1. Adımına yönlendirileceksiniz.
 
 ![Author submission queue with new submission button](./assets/learning-ojs3.1-au-dashboard-new.png)
 
-### Step 1
+### 1. Adım
 
-In **Step 1** you will provide preliminary information about your submission.
+**1. Adım**'da, gönderiniz hakkında ön bilgi vereceksiniz.
 
 ![Article submission start screen](./assets/learning-ojs3.1-au-dashboard-new-1.png)
 
-To begin select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
+Gönderiye başlamak için uygun bir bölümü seçin \(Ör. makale, inceleme vb.\). Hangi bölümün uygun olduğundan emin değilseniz, uygun olduğunu düşündüğünüz bölümü seçiniz.
 
-Read and agree to the statements in the submission checklist by checking each box. Include any comments for the editor, read the journal’s privacy statement, and then click the **Save and Continue** button to move to **Step 2**.
+Her bir kutuyu işaretleyerek gönderi kontrol listesindeki ifadeleri okuyun ve kabul edin. Include any comments for the editor, read the journal’s privacy statement, and then click the **Save and Continue** button to move to **Step 2**.
 
 ### Step 2
 
