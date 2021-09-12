@@ -82,62 +82,62 @@ Daha fazla ayrıntı için [Editoryal İş Akışı bölümüne](./editorial-wor
 Mizanpaj Düzenleyicisi, gönderinin kopyalanmış sürümlerini HTML, PDF, XML, vb. dosyalara dönüştürür -- derginin çevrimiçi yayın için kullanmayı seçtiği format.
 > Not
 > 
-> OJS does not currently provide software for automatically converting word processed documents to galley formats (although a project is in development), so the Layout Editor should have access to and be able to use third-party software packages for creating galleys.
+> OJS şu anda kelime işlemli belgeleri otomatik olarak dizgi formatlarına (bir proje geliştirilme aşamasında olmasına rağmen) dönüştürmek için yazılım sağlamamaktadır, bu nedenle Mizanpaj Düzenleyicisi, dizgi oluşturmak için üçüncü taraf yazılım paketlerine erişebilmeli ve bunları kullanabilmelidir.
 
-In some cases, the Editor or Section Editor will also serve as Layout Editor.
+Bazı durumlarda Editör veya Bölüm Editörü Mizanpaj Editörü olarak da görev yapacaktır.
 
-See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
+Daha fazla ayrıntı için [Editoryal İş Akışı bölümüne](./editorial-workflow.md) bakınız.
 
 ### Düzeltmen
 
-The Proofreader carefully reads over the galleys in the various formats in which the journal publishes (as does the author). The Proofreader (and the Author) record any typographic and formatting errors for the Layout Editor to fix.
+Düzletmen, derginin yayınladığı çeşitli formatlardaki dizgileri dikkatle okur (yazarın yaptığı gibi). Düzeltmen (ve Yazar), Mizanpaj Düzenleyicisinin düzeltmesi için tüm tipografik ve biçimlendirme hatalarını kaydeder.
 
-In the case of some journals, the Editor or Section Editor will also serve as Proofreader.
+Bazı dergilerde Editör veya Bölüm Editörü aynı zamanda Düzeltmen olarak da görev yapacaktır.
 
-See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
+Daha fazla ayrıntı için [Editoryal İş Akışı bölümüne](./editorial-workflow.md) bakınız.
 
 ### Okuyucu
 
-The Reader role is the simplest role in OJS, and has the fewest capabilities. Readers receive a notification email with the publication of each issue, which includes the Table of Contents for that particular issue.
+Okuyucu rolü, OJS'deki en basit roldür ve en az kapasiteye sahiptir. Okuyucular, her sayının yayınlandığı ve o sayının İçindekiler bölümünü içeren bir bildirim e-postası alırlar.
 
 <hr />
 
 ## Dergiye Kayıt
 
-Unregistered visitors to a journal can normally register as a Reader, Author, and/or Reviewer. Journal Managers are able to remove the ability for visitors to self-register, in which case a notice will appear stating that registration is currently closed (see Journal Settings), but Journal Managers can always register users at any time, and for any role.
+Bir dergiye kayıtlı olmayan ziyaretçiler normalde Okuyucu, Yazar ve/veya Hakem olarak kayıt olabilirler. Dergi Yöneticileri, ziyaretçilerin kendi kendine kayıt olma özelliğini kaldırabilir, bu durumda kayıt sırasında kapalı olduğunu belirten bir bildirim görünür (bkz. Dergi Ayarları), ancak Dergi Yöneticileri her zaman ve herhangi bir rol için kullanıcıları kaydedebilir.
 
-To register with a journal, click the Register link on the upper right corner.
+Bir dergiye kayıt olmak için sağ üst köşedeki Kayıt ol linkine tıklayınız.
 
-![The Register link at the upper right corner of the journal site.](./assets/learning-ojs-3-registration.png)
+![Dergi sitesinin sağ üst köşesindeki Kayıt ol bağlantısı.](./assets/learning-ojs-3-registration.png)
 
-This will open the Registration Form for you to complete with all required information.
+Bu, gerekli bilgileri doldurmanız için Kayıt Formunu açacaktır.
 
 ![Kayıt Formu.](./assets/learning-ojs-3-registration-form.png)
 
-All fields with an asterisk (First Name, Last Name, Affiliation, Country, Email, Username, Password, Repeat Password) are mandatory. If the journal is multilingual, you will need to select your preferred language.
+Yıldızlı tüm alanlar (Ad, Soyadı, Kurum Bilgisi, Ülke, E-posta, Kullanıcı Adı, Şifre, Şifre Tekrarı) zorunludur. Dergi çok dilliyse, tercih ettiğiniz dili seçmeniz gerekecektir.
 
-You will be automatically registered as a Reader and an Author. You will be given the option to register as a Reviewer as well.
+Varsayılan olarak Okuyucu ve Yazar olarak kaydedileceksiniz. Size ayrıca bir Gözden Geçiren olarak kayıt olma seçeneği sunulacaktır.
 
-You will not be able to self-register for an Editorial Role (e.g., Editor, Section Editor, Copyeditor, Layout Editor, Proofreader, or Journal Manager). If you need to be enrolled at that level, contact a current Journal Manager or Site Administrator.
+Bir Editoryal Rol (Ör. Editör, Bölüm Editörü, Kopya Editörü, Mizanpaj Editörü, Son Okuyucu veya Dergi Yöneticisi) için kendi kendinize kayıt yaptıramazsınız. Bu seviyede kaydolmanız gerekiyorsa, mevcut bir Dergi Yöneticisi veya Sistem Yöneticisi ile iletişime geçin.
 
 <hr />
 
-## Viewing and Changing your Profile
+## Profil Görüntüleme ve Düzeltme
 
-To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
+Profilinizi görüntülemek ve düzenlemek için giriş yapın ve sağ üst köşedeki Kullanıcı Adı bağlantısına tıklayın. Profili Görüntüle bağlantısını seçin.
 
-![The View Profile menu.](./assets/learning-ojs3.1-ed-view-profile.png)
+![Profili Görüntüle menüsü.](./assets/learning-ojs3.1-ed-view-profile.png)
 
-From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image \(which some journals may publish along with your article or on a list of editors\), determine your notification settings, or update your password.
+Buradan farklı sekmeleri seçerek kişisel bilgilerinizi, iletişim bilgilerinizi güncelleyebilir, rollerinizi değiştirebilir, kişisel bir resim ekleyebilir \(bazı dergiler makalenizle birlikte veya editör listesinde yayınlayabilir\), bildiriminizi belirleyebilir, ayarları veya şifrenizi güncelleyebilirsiniz.
 
-Under **Notifications**, you can configure what kinds of notifications you receive from the journal when events occur, such as a new journal issue is published or there is activity on a submission you're involved in.
+**Bildirimler** altında, yeni bir dergi sayısının yayınlanması veya gönderdiğiniz bir gönderide etkinlik olması gibi olaylar meydana geldiğinde dergiden ne tür bildirimler alacağınızı yapılandırabilirsiniz.
 
-* Check off "Enable these types of notifications" if you want to see a notification of this event on your dashboard when you log in to the site
-* Check off "Do not send me an email for these types of notifications" if you do not want to receive an email notification about this event
+* Siteye giriş yaptığınızda kontrol panelinizde bu durumla ilgili bir bildirim görmek istiyorsanız "Bu tür bildirimleri etkinleştir" seçeneğini işaretleyin
+* Bu etkinlikle ilgili bir e-posta bildirimi almak istemiyorsanız "Bu tür bildirimler için bana e-posta gönderme" seçeneğini işaretleyin
 
-![The Notifications tab where you can manage notifications.](./assets/learning-ojs-3-user-notifications.png)
+![Bildirimleri yönetebileceğiniz Bildirimler sekmesi.](./assets/learning-ojs-3-user-notifications.png)
 
-The **API tab** on the user profile allows you to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
+Kullanıcı profilindeki **API sekmesi**, harici uygulamalarla etkileşim kurmak için AOJS'nin REST API'sini kullanmanıza olanak tanır.  Ancak çoğu kullanıcı API'yi kullanmaz ve bu sekmeyi görmezden gelebilir.
 
 ## Şifrenizi Sıfırlayın
 
