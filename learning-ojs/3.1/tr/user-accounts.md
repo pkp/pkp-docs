@@ -25,9 +25,9 @@ Sistem Yöneticisi, genel OJS kurulumundan, sunucu ayarlarının doğru olmasın
 Daha fazla ayrıntı için [Bölüm 4: Sistem Yönetimi](./site-administration.md)'ne bakınız.
 
 ### Dergi Yöneticisi
-The Journal Manager is responsible for setting up the journal web site, configuring the system options, and managing the user accounts. This does not involve any advanced technical skills, but entails filling out web-based forms and uploading files.
+Dergi Yöneticisi, dergi web sitesinin kurulmasından, sistem seçeneklerinin yapılandırılmasından ve kullanıcı hesaplarının yönetiminden sorumludur. Bu, herhangi bir ileri teknik beceri gerektirmez, ancak web tabanlı formların doldurulmasını ve dosyaların yüklenmesini gerektirir.
 
-The Journal Manager also enrolls the Editors, Section Editors, Copyeditors, Layout Editors, Proofreaders, Authors, and Reviewers.
+Dergi Yöneticisi ayrıca Editörler, Bölüm Editörleri, Kopya Editörleri, Mizanpaj Editörleri, Düzelticiler, Yazarlar ve Hakemleri de kaydeder.
 
 The Journal Manager also has access to the journal's other management features, and can create new Sections for the journal, set up Review Forms, edit the default Emails, view statistics and reports, import and export data, and access the editorial workflow and all journal submissions.
 
