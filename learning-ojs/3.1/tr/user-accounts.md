@@ -29,57 +29,57 @@ Dergi Yöneticisi, dergi web sitesinin kurulmasından, sistem seçeneklerinin ya
 
 Dergi Yöneticisi ayrıca Editörler, Bölüm Editörleri, Kopya Editörleri, Mizanpaj Editörleri, Düzelticiler, Yazarlar ve Hakemleri de kaydeder.
 
-The Journal Manager also has access to the journal's other management features, and can create new Sections for the journal, set up Review Forms, edit the default Emails, view statistics and reports, import and export data, and access the editorial workflow and all journal submissions.
+Dergi Yöneticisi ayrıca derginin diğer yönetim özelliklerine de erişebilir ve dergi için yeni Bölümler oluşturabilir, Değerlendirme Formları oluşturabilir, varsayılan E-postaları düzenleyebilir, istatistikleri ve raporları görüntüleyebilir, verileri içe ve dışa aktarabilir ve editoryal iş akışına ve dergilere yapılan tüm gönderilere erişebilir.
 
-See the Settings chapters for more details.
+Daha fazla ayrıntı için Ayarlar bölümlerine bakın.
 
 ### Yazar
 
-Authors are able to submit manuscripts to the journal directly through the journal's website. The Author is asked to upload submission files and to provide metadata or indexing information (the metadata improves the search capacity for research online and for the journal). The Author can upload multiple files, in the form of data sets, research instruments, or source texts that will enrich the item, as well as contribute to more open and robust forms of research and scholarship.
+Yazarlar, makalelerini doğrudan derginin web sitesi aracılığıyla dergiye gönderebilirler. Yazardan gönderi dosyalarını yüklemesi ve üstveri veya indeksleme bilgisi sağlaması istenir (üstveri, çevrimiçi araştırma ve dergi için arama kapasitesini geliştirir). Yazar, gönderiyi zenginleştirecek ve daha açık ve sağlam araştırma ve akademik biçimlerine katkıda bulunacak veri setleri, araştırma araçları veya kaynak metinler biçiminde birden fazla dosya yükleyebilir.
 
-The Author is able to track the submission through the review and editorial process — as well as participate in the copyediting and proofreading of submissions accepted for publication — by logging in to the journal's website.
+Yazar, derginin web sitesine giriş yaparak, değerlendirme ve editörlük süreci boyunca gönderiyi izleyebilir - ayrıca yayınlanmak üzere kabul edilen gönderilerin kopya düzenleme ve düzeltme okumalarına katılabilir.
 
-See the [Authoring chapter](./authoring.md) for more details.
+Daha fazla ayrıntı için [Yazma bölümüne](./authoring.md) bakınız.
 
 ### Editör
 
-The Editor oversees the entire review, editing and publishing process. The Editor, working with the Journal Manager, typically establishes the policies and procedures for the journal.
+Editör, tüm inceleme, düzenleme ve yayınlama sürecini denetler. Dergi Yöneticisi ile birlikte çalışan Editör, genellikle dergi için politika ve prosedürleri belirler.
 
-In the editorial process, the Editor assigns submissions to the Section Editors to see through Submission Review and Submission Editing. The Editor keeps an eye on the submission's progress and assists with any difficulties.
+Editörlük sürecinde, Editör, Gönderi değerlendirme ve Gönderi Düzenleme işlemleri için gönderileri Bölüm Editörlerine atar. Editör, gönderinin ilerlemesini takip eder ve herhangi bir zorlukta yardımcı olur.
 
-Once review is completed, the Editor typically sees the submission through the Editing process (including copyediting, production, and proofreading) although in some journals this remains the responsibility of the Section Editor in charge of the submission's review process.
+Değerlendirme tamamlandıktan sonra, Editör genellikle gönderiyi Düzenleme süreci (kopya düzenleme, üretim ve son okuma dahil) aracılığıyla görür, ancak bazı dergilerde bu, gönderinin değerlendirme sürecinden sorumlu Bölüm Editörünün sorumluluğunda kalır.
 
-The Editor also creates the journal issues, schedules submissions for publication, arranges the Table of Contents, and publishes the issue as part of the Publishing Process. The Editor can restore archived submissions to the active In Review or In Editing lists.
+Editör ayrıca dergi sayılarını oluşturur, gönderileri yayın için planlar, İçindekiler Tablosunu düzenler ve Sayıyı Yayınlama Sürecinin bir parçası olarak yayınlar. Editör, arşivlenen gönderileri etkin değerlendirmede veya Düzenlemede listelerine geri yükleyebilir.
 
-Editors can also access journal settings, users and roles, and tools.
+Editörler ayrıca dergi ayarlarına, kullanıcılara ve rollere ve araçlara da erişebilir.
 
-See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
+Daha fazla ayrıntı için [Editoryal İş Akışı bölümüne](./editorial-workflow.md) bakınız.
 
 ### Bölüm Editörü
 
-The Section Editor manages the review and editing of submissions to which they have been assigned. In some cases, a Section Editor who is assigned to see submissions through the Review Process will also be responsible for seeing the submissions that are accepted through the Editing process (that is, through copyediting, production, and proofreading).
+Bölüm Editörü, atandıkları gönderilerin gözden geçirilmesini ve düzenlenmesini yönetir. Bazı durumlarda, Gözden Geçirme Süreci aracılığıyla gönderileri görmek üzere atanan bir Bölüm Editörü, Düzenleme süreci (yani, kopya düzenleme, üretim ve düzeltme okuma) yoluyla kabul edilen gönderileri görmekten de sorumlu olacaktır.
 
-Often, however, Section Editors only work with the review process, and an Editor, acting in the role of Section Editor, sees the submissions through the Editing process. The journal will have a policy on how the tasks are divided.
+Bununla birlikte, genellikle Bölüm Editörleri yalnızca inceleme süreciyle çalışır ve Bölüm Editörü rolünde hareket eden bir Editör, Gönderileri Düzenleme süreci boyunca görür. Dergi, görevlerin nasıl bölündüğü konusunda bir politikaya sahip olacaktır.
 
-See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
+Daha fazla ayrıntı için [Editoryal İş Akışı bölümüne](./editorial-workflow.md) bakınız.
 
 ### Hakem
 
-The Reviewer is selected by the Editor or Section Editor to review a submission. Reviewers are asked to submit reviews to the journal's website and are able to upload attachments for the use of the Editor and Author. Reviewers may be rated by Section Editors, again depending on the policies for this journal.
+Hakem, bir gönderiyi gözden geçirmek için Editör veya Bölüm Editörü tarafından seçilir. Hakemlerden derginin web sitesine değerlendirme göndermeleri istenir ve Editör ve Yazarın kullanımı için ek dosya yükleyebilirler. Hakemler, yine bu derginin politikalarına bağlı olarak Bölüm Editörleri tarafından derecelendirilebilir.
 
-See the [Reviewing chapter](./reviewing.md) for more details.
+Daha fazla ayrıntı için [İnceleme bölümüne](./reviewing.md) bakınız.
 
-### Copyeditor
+### Kopya Editörü
 
-The Copyeditor edits submissions to improve grammar and clarity, works with authors to ensure everything is in place, ensures strict adherence to the journal's bibliographic and textual style, and produces a clean, edited copy for a Layout Editor or Production Assistant to turn into the galleys that will be in the published format of the journal.
+Kopya Editörü, dilbilgisini ve anlaşılırlığı geliştirmek için gönderileri düzenler, her şeyin yerinde olduğundan emin olmak için yazarlarla birlikte çalışır, derginin bibliyografik ve metinsel stiline sıkı sıkıya bağlı kalmayı sağlar ve bir Mizanpaj Editörü veya Prodüksiyon Asistanının galeriye dönüşmesi için temiz, derginin yayımlanmış formatında düzenlenmiş bir kopya üretir.
 
-Some journals have an Editor or Section Editor play this role.
+Bazı dergilerin bu rol için bir Editör veya Bölüm Editörü vardır.
 
-See the [Editorial Workflow chapter](./editorial-workflow.md) for more details.
+Daha fazla ayrıntı için [Editoryal İş Akışı bölümüne](./editorial-workflow.md) bakınız.
 
 ### Tasarım Editörü
 
-The Layout Editor transforms the copyedited versions of the submission into galleys in HTML, PDF, XML, etc. -- files which the journal has elected to use for online publication.
+Mizanpaj Düzenleyicisi, gönderinin kopyalanmış sürümlerini HTML, PDF, XML, vb. dosyalara dönüştürür -- derginin çevrimiçi yayın için kullanmayı seçtiği format.
 > Not
 > 
 > OJS does not currently provide software for automatically converting word processed documents to galley formats (although a project is in development), so the Layout Editor should have access to and be able to use third-party software packages for creating galleys.
