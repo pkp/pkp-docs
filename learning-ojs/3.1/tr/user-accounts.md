@@ -9,20 +9,20 @@ OJS, işi kullanıcılar arasında bölmek, iş akışları atamak ve sistemin f
 
 OJS'nin bir kurulumu birden fazla dergiyi barındırabileceğinden, kullanıcılar birden fazla dergi için farklı rollere kaydolabilir. Örneğin, bir kişi aynı dergide hem editör hem de yazar olabileceği gibi, bir dergide yalnızca yazar, diğerinde hakem ve üçüncü bir dergide editör olabilir.
 
-When a user logs into the system, they will be taken to their Dashboard. From here, they will see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow.
+Bir kullanıcı sisteme giriş yaptığında, Kontrol Paneline yönlendirilecektir. Buradan erişim sağladıkları sistemin tüm fonksiyonlarını göreceklerdir. Örneğin, bir Hakem yalnızca incelemesi için atandığı gönderiyi görürken, Editör editoryal iş akışındaki tüm gönderileri görür.
 
 ## OJS'de Roller
 
-The OJS workflow revolves around different roles for different users, allowing them access to different parts of the workflow, and different permissions and responsibilities.
+OJS iş akışı, farklı kullanıcılar için farklı roller etrafında döner ve iş akışının farklı bölümlerine ve farklı izin ve sorumluluklara erişmelerine olanak tanır.
 
-Major roles include Site Administrator, Journal Manager, Editor, Section Editor, Author, Reviewer, Copyeditor, Layout Editor, Proofreader, and Reader.
+Başlıca roller Site Yöneticisi, Dergi Yöneticisi, Editör, Bölüm Editörü, Yazar, Hakem, Kopya Editörü, Mizanpaj Editörü, Son Okuyucu ve Okuyucudur.
 
-OJS 3 also includes additional roles such as Translator and Designer. Ayrıca yeni roller oluşturabilir veya mevcut olanları yeniden adlandırabilirsiniz. More information on configuring roles is available in the [Users and Roles chapter](./users-and-roles.md).
+OJS 3, ayrıca Çevirmen ve Tasarımcı gibi ek roller içerir. Ayrıca yeni roller oluşturabilir veya mevcut olanları yeniden adlandırabilirsiniz. Rolleri yapılandırma konusunda daha fazla bilgiyi [Kullanıcılar ve Roller bölümünde](./users-and-roles.md) bulabilirsiniz.
 
 ### Sistem Yöneticisi
-The Site Administrator is responsible for the overall OJS installation, ensuring the server settings are accurate, adding language files, and creating any new journals on the installation. The Site Administrator account is created as part of the installation process. Unlike all other OJS roles, there can only be one Site Administrator.
+Sistem Yöneticisi, genel OJS kurulumundan, sunucu ayarlarının doğru olmasını sağlamaktan, dil dosyalarını eklemekten ve kurulumda yeni dergiler oluşturmaktan sorumludur. Sistem Yöneticisi hesabı, yükleme işleminin bir parçası olarak oluşturulur. Diğer tüm OJS rollerinden farklı olarak, yalnızca bir Site Yöneticisi olabilir.
 
-See [Chapter 4: Site Administration](./site-administration.md) for more details.
+Daha fazla ayrıntı için [Bölüm 4: Sistem Yönetimi](./site-administration.md)'ne bakınız.
 
 ### Dergi Yöneticisi
 The Journal Manager is responsible for setting up the journal web site, configuring the system options, and managing the user accounts. This does not involve any advanced technical skills, but entails filling out web-based forms and uploading files.
