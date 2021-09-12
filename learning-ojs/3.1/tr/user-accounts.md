@@ -5,13 +5,13 @@ version: 3.1
 
 # Bölüm 3: Kullanıcı Hesapları
 
-OJS uses a comprehensive roles system to divide work between users, assign workflows, and limit access to different parts of the system.
+OJS, işi kullanıcılar arasında bölmek, iş akışları atamak ve sistemin farklı bölümlerine erişimi sınırlamak için kapsamlı bir rol sistemi kullanır.
 
-Since one installation of OJS can host multiple journals, users can be enrolled in different roles for more than one journal. For example, one person could be both an editor and author for the same journal, as well as being only an author in one journal, a reviewer in another, and an editor in a third.
+OJS'nin bir kurulumu birden fazla dergiyi barındırabileceğinden, kullanıcılar birden fazla dergi için farklı rollere kaydolabilir. Örneğin, bir kişi aynı dergide hem editör hem de yazar olabileceği gibi, bir dergide yalnızca yazar, diğerinde hakem ve üçüncü bir dergide editör olabilir.
 
 When a user logs into the system, they will be taken to their Dashboard. From here, they will see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow.
 
-## Roles in OJS
+## OJS'de Roller
 
 The OJS workflow revolves around different roles for different users, allowing them access to different parts of the workflow, and different permissions and responsibilities.
 
@@ -141,13 +141,13 @@ The **API tab** on the user profile allows you to use OJS’s REST API to intera
 
 ## Şifrenizi Sıfırlayın
 
-You can reset your password by:
+Şifrenizi şu şekilde sıfırlayabilirsiniz:
 
-1. Logging into the journal
-2. Selecting your username and View Profile from the upper right corner of the screen
-3. Choosing the Password tab
-4. Entering your current password and then your new password twice
-5. Hitting Save
+1. Dergiye giriş
+2. Ekranın sağ üst köşesinden kullanıcı adınızı ve Profili Görüntüle'yi seçin
+3. Şifre sekmesini seçme
+4. Mevcut şifrenizi ve ardından yeni şifrenizi iki kez giriniz
+5. Kaydet tuşuna basınız
 
 ![Şifre sıfırlama ekranı.](./assets/learning-ojs3.1-ed-change-pw.png)
 
