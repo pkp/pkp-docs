@@ -215,19 +215,19 @@ En este punto, el autor tiene que esperar respuesta del editor sobre si las revi
 
 ### Revisiones Aceptadas
 
-Recibirá un correo electrónico que sus revisiones han sido aceptadas.
+Recibirá un correo electrónico diciendo que sus revisiones han sido aceptadas.
 
 Además, las notificaciones aparecerán en su panel de control.
 
 ![Notifications in dashboard](./assets/learning-ojs-3.2-au-notifications.png)
 
-The notifications show up in order of date, meaning the most recent one will be on the bottom. Click on it to open the message (which is the same as the email you would have also received).
+Las notificaciones se muestran en orden de fecha, lo que significa que la más reciente estará en la parte inferior. Haga clic para abrir el mensaje (que es el mismo que el correo electrónico que también habrá recibido).
 
 ![Notification message](./assets/learning-ojs-3-au-notifications2.png)
 
-Use the **X** in the upper right corner to close the window.
+Use la **X** en la esquina superior derecha para cerrar la ventana.
 
-Further down your dashboard, you will also see a discussion reply from the editor.
+Bajo su panel de control, también verá la respuesta del editor.
 
 ![Discussion reply in review discussion panel](./assets/learning-ojs-3-au-rev-discussions.png)
 
