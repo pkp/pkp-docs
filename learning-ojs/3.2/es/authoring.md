@@ -11,7 +11,7 @@ En este capítulo, aprenderá cómo trabaja un autor en OJS 3.2 desde el registr
 
 Para realizar un envío a una revista en OJS 3, primero tendrá que registrar una cuenta de usuario en una revista e iniciar sesión \(vea [Registrándose en una revista](./user-accounts#registering-with-a-journal)\). Tras esto, cuando inicie sesión, será llevado a su Panel de Control.
 
-![Submissions queue in author dashboard](./assets/learning-ojs3.1-au-dashboard-empty.png)
+![Cola de envíos en el panel del autor](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
 Actualmente está vacío, ya que aún no ha realizado envíos.
 
@@ -21,13 +21,13 @@ Actualmente está vacío, ya que aún no ha realizado envíos.
 
 Comience un nuevo envío haciendo clic en el botón **Nuevo envío** al lado derecho de la pantalla. Se le llevará al paso 1 de un proceso de 5 pasos para subir y describir su envío.
 
-![Author submission queue with new submission button](./assets/learning-ojs3.1-au-dashboard-empty.png)
+![Cola de envío del autor con el nuevo botón de envío](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
 ### Paso 1
 
 En el **Paso 1** proporcionará información preliminar sobre su envío.
 
-![Article submission start screen](./assets/learning-ojs3.2-au-dashboard-new-1.png)
+![Pantalla de inicio del artículo](./assets/learning-ojs3.2-au-dashboard-new-1.png)
 
 Si la revista permite envíos en varios idiomas, puede seleccionar el idioma de su envío en el menú desplegable. Los idiomas pueden activarse en la configuración del sitio web -> Configuración -> Idioma.
 
@@ -39,15 +39,15 @@ Lea y acepte las declaraciones en la lista de verificación de envíos marcando 
 
 En el **Paso 2** se le abrirá una ventana que le permitirá subir su archivo.
 
-![File upload screen](./assets/learning-ojs-3-author-submission-step2.png)
+![Pantalla de subida de archivos](./assets/learning-ojs-3-author-submission-step2.png)
 
 Primero, DEBE seleccionar un componente de artículo. Esto permite que el sistema sepa si el archivo es el propio manuscrito, una imagen, un conjunto de datos, etc. **Esto debe ser seleccionado antes de que el archivo se suba**.
 
-![Select Article Component](./assets/learning-ojs-3-author-submission-step2-2.png)
+![Seleccionar componente del artículo](./assets/learning-ojs-3-author-submission-step2-2.png)
 
 Una vez hecha esta selección, puede subir su primer archivo. Es importante tener en cuenta que solo puede subir **un único** archivo a la vez. Los archivos adicionales pueden ser subidos más tarde durante el proceso. Por lo general, este primer archivo será el cuerpo de su manuscrito. Haga clic en el botón **Continuar** una vez que el archivo suba.
 
-![Review submission details](./assets/learning-ojs-3-author-submission-step2-3.png)
+![Revisar los detalles del envío](./assets/learning-ojs-3-author-submission-step2-3.png)
 
 Después de subir el archivo, se le pedirá que revise el nombre del archivo. Utilice el enlace Editar para realizar cualquier cambio.
 
@@ -57,7 +57,7 @@ A continuación, tiene la opción de repetir el proceso para subir archivos adic
 
 Una vez que haya terminado de subir todos sus archivos, haga clic en **Completar**; esto cerrará la ventana de subida de archivos.
 
-![Finish submission screen](./assets/learning-ojs-3-author-submission-step2-4.png)
+![Finalizar la pantalla de envío](./assets/learning-ojs-3-author-submission-step2-4.png)
 
 Será redirigido a la pantalla _Enviar un artículo_, donde verá los archivos que ha subido. Si necesita realizar cambios, expanda la flecha azul a la izquierda de su archivo y haga cualquier cambio usando el enlace _Editar_.
 
@@ -67,27 +67,27 @@ Haga clic en 'Guardar y continuar' para ir al Paso 3.
 
 En el **Paso 3**se le pedirá que añada más información sobre el envío, incluyendo el título del envío (desglosado en prefijo, título y subtítulo) y el resumen. Si la revista permite envíos en varios idiomas, haciendo clic en los campos de metadatos revelará la opción de introducir los metadatos en otros idiomas previamente habilitados, permitiéndole introducir el título, subtítulo y resumen en el otro idioma(s).  Desplazándose hacia abajo...
 
-![Enter title metadata in another language](./assets/learning-ojs3.2-au-dashboard-new-3.png)
+![Introduzca los metadatos del título en otro idioma](./assets/learning-ojs3.2-au-dashboard-new-3.png)
 
 ...puede agregar cualquier colaborador adicional.
 
-![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
+![Lista completa de colaboradores](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
 Puede añadir más colaboradores \(p.ej. coautores\), haciendo clic en el enlace **Añadir colaboradores**. Esto abrirá una nueva ventana con campos para introducir sus datos.
 
-![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
+![Añadir colaboradores](./assets/learning-ojs-3-author-submission-step3-2.png)
 
 Presione **Guardar** y el nuevo colaborador aparecerá en la pantalla.
 
-![List with new contributors added](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
+![Lista con nuevos colaboradores añadida](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
 Si las categorías están habilitadas en la revista a la que está realizando un envío, podrá seleccionar una categoría para el manuscrito, si aplica.
 
-![Select a category](./assets/learning-ojs-authoring-category.png)
+![Seleccione una categoría](./assets/learning-ojs-authoring-category.png)
 
 También puede ver campos adicionales para rellenar, tales como palabras clave. Si hay idiomas adicionales habilitados en la revista, puede introducir los metadatos en esos idiomas. Al hacer clic en el campo del metadato se mostrarán los campos para otros idiomas habilitados en la revista.
 
-![Enter keywords](./assets/learning-ojs-3.2-author-submission-step3-4.png)
+![Introduzca palabras clave](./assets/learning-ojs-3.2-author-submission-step3-4.png)
 
 Para introducir una palabra clave, simplemente escriba la palabra o frase y pulse su tecla Intro. La palabra o frase será formateada como palabra clave.
 
@@ -99,15 +99,15 @@ En el paso 4, se le pedirá que confirme que está satisfecho con su envío.
 
 Haga clic en **Finalizar envío**.
 
-![Finish submission screen](./assets/learning-ojs3.1-au-dashboard-new-4.png)
+![Finalizar la pantalla de envío](./assets/learning-ojs3.1-au-dashboard-new-4.png)
 
 Aparecerá una caja que te pedirá que confirmes que has finalizado. Haga clic en **OK**.
 
-![Confirm submission screen](./assets/learning-ojs-3-author-submission-step4-1.png)
+![Confirmar pantalla de envío](./assets/learning-ojs-3-author-submission-step4-1.png)
 
 ### Paso 5
 
-![Next steps submission screen](./assets/learning-ojs3.1-au-dashboard-new-5.png)
+![Pantalla de envío de siguientes pasos](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
 ¡Su envío ha sido completado! El editor ha sido notificado de su envío. En este punto, puedes seguir los enlaces para:
 
@@ -121,7 +121,7 @@ Una vez que complete un envío, no podrá realizar cambios en el mismo.  Si dese
 
 Y aquí está su envío en su Panel de Control. Puede ver que actualmente está en la etapa de _Envío_.
 
-![Submission in author dashboard](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
+![Envío en el panel de autores](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
 En los próximos días, pasará a la fase de Revisión y, si se acepta, a las fases de Corrección y Producción antes de ser publicadas.
 
@@ -135,11 +135,11 @@ Los cambios pueden incluir resúmenes actualizados, correcciones de errores orto
 
 Para realizar ediciones al manuscrito enviado, haga clic en la pestaña de publicación de su envío.
 
-![Submission publication tab](./assets/learning-ojs3.2-auth-dashboard-publication.png)
+![Pestaña de publicación de envío](./assets/learning-ojs3.2-auth-dashboard-publication.png)
 
 Podrá hacer cambios en cualquiera de los submenús de la izquierda haciendo clic en esas pestañas. Si hay varios idiomas habilitados en la revista, podrá editar metadatos en esos idiomas haciendo clic en la pestaña de idioma de la parte superior derecha. Haga clic en 'Guardar' una vez que haya terminado de hacer sus cambios.
 
-![Publication menu items](./assets/learning-ojs3.2-auth-dashboard-publication2-language.png)
+![Elementos del menú de publicación](./assets/learning-ojs3.2-auth-dashboard-publication2-language.png)
 
 Cuando se le conceda permiso, podrá hacer cambios en las siguientes secciones de la pestaña Publicación: Título, Resumen, Colaboradores y Metadatos. Mientras Galeradas aparezca como una opción en el menú lateral no podrá subir ni hacer cambios en esta sección.
 
@@ -283,24 +283,24 @@ Su papel en el proceso de Corrección ya está completo y puede esperar a la sol
 
 <hr />
 
-## Responding to a Proofreading Request
+## Respuesta a una solicitud de Maquetación
 
-The next step in the workflow is to inspect your submission files that have been converted into galleys (e.g., PDF, HTML, etc.).
+El siguiente paso en el flujo de trabajo es revisar sus archivos de envío que se han convertido en galeradas (por ejemplo, PDF, HTML, etc.).
 
-You will receive an email indicating that files are available. To see them, login to the journal and go to your dashboard.
+Recibirá un correo electrónico indicando que los archivos están disponibles. Para verlos, inicie sesión en la revista y vaya a su panel de control.
 
 ![Author submission dashboard](./assets/learning-ojs-3-au-production-dashboard.png)
 
-You can see your entry in the My Authored panel. Select the Production link to go to the full submission record, including the notification in the Production Discussions panel.
+Puede ver su envío en el panel Mis archivos. Seleccione el enlace para ir al registro completo de envíos, incluyendo la notificación en el panel de discusión.
 
 ![Production section of author dashboard](./assets/learning-ojs-3-au-production-record.png)
 
-Click on the linked discussion to open it, read the message, and open the attached file.
+Haga clic en la discusión relacionada para abrirla, leer el mensaje y abrir el archivo adjunto.
 
 ![Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message.png)
 
-Once you have read the attached file, you can respond to the Layout Editor indicating any required changes or your approval.
+Una vez que haya leído el archivo adjunto, puede responder al Maquetador indicando los cambios necesarios o su aprobación.
 
 ![Respond to Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message2.png)
 
-That's it! Your role in the editorial workflow is now completed.
+¡Eso es todo! Su papel en el flujo de trabajo editorial se ha completado.
