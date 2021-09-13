@@ -1,30 +1,30 @@
-# Data Import and Export
+# Importar e exportar dados
 
-Open Journal Systems offers a variety of tools and plugins which allow you to inject data into and extract data from OJS. This chapter explains how to use import and export tools and plugins. More information can be found in each plugin's documentation within OJS' plugin directory \(plugins/\).
+Open Journal Systems oferece uma variedade de ferramentas e plugins que permitem inserir e extrair dados do OJS. Este capítulo explicará como usar as ferramentas e plugins de importação e exportação. Informações adicionais podem ser encontradas na documentação de cada plugin, no diretório de plugins do OJS (plugins/).
 
-Most import and export functions can be carried out by logging in as Journal Manager and going to Tools > Import/Export.
+A maioria das funções de importação e exportação pode ser realizada entrando no sistema como Editor Gerente e acessando Ferramentas > Importar/Exportar.
 
 ![The OJS Tools menu showing Import/Export options in OJS.](./assets/import-export.png)
 
-However, in some cases import/export plugins need to be installed or enabled first under Settings > Website > Plugins. How to access and use specific plugins and functions are explained in the sections below.
+No entanto, em alguns casos plugins de importação/exportação precisam ser instalados ou habilitados primeiro em Configurações > Website > Plugins. Como acessar e usar plugins e funções específicas será explicado a seguir.
 
 ![The plugins gallery where some import/export plugins can be enabled.](./assets/plugins.png)
 
-Import/export functionality is also available as a command-line tool; see `tools/importExport.php` and the command line section for more information.
+Funcionalidades de importação/exportação também estão disponíveis via linha de comando; veja `tools/importExport.php` e a seção sobre linha de comando para mais informações.
 
-## Import and export articles and issues
+## Importar e exportar artigos e edições
 
-Articles and issues can be quickly imported into OJS using the Quick Submit Plugin or the Native XML Plugin \(formerly the Articles and Issues XML Plugin\). The Quick Submit Plugin is a useful tool for importing 5-10 articles, but for larger numbers of articles and issues, or if you have your metadata in a transformable format, you may wish to use the Native XML Plugin.
+Artigos e edições podem ser importadas rapidamente para o OJS usando o plugin de Submissão rápida ou o Plugin XML nativo \(antigamente chamado de Plugin XML de Artigos e Edições\). O plugin de submissão rápida é útil para importar de cinco a dez artigos, mas para quantidades maiores de artigos e edições, ou caso possua os metadados em formato tratável, pode ser mais interessante usar o plugin XML nativo.
 
-### Quick Submit
+### Submissão rápida
 
-The Quick Submit Plugin allows you to quickly add complete submissions to an issue. It provides a one-step submission process for editors needing to bypass the traditional submission, review, and editing process. See [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/tools) for more details.
+O plugin de submissão rápida permite incluir rapidamente uma submissão a uma edição. Ele oferece um processo em uma etapa para editores precisando ignorar os processos tradicionais de submissão, avaliação e edição. Veja [Aprendendo o OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/tools) para mais detalhes.
 
-### Native XML Plugin
+### Plugin XML nativo
 
-The Native XML Plugin in OJS 3.x replaces the Articles and Issues XML Plugin, which was used in OJS 2 to import article and issue metadata into and out of OJS in an XML file.  It can be used to import and export single or multiple issues and/or articles, including comprehensive metadata. It can be used in the following cases:
+O plugin de XML nativo no OJS 3.x substitui o Plugin XML de Artigos e Edições. usado no OJS 2 para importar e exportar metadados de artigos e edições de e para um OJS via arquivo XML.  O plugin pode ser usado para importar e exportar uma ou várias edições e/ou artigos, incluindo os metadados. Pode ser usado nos seguintes casos:
 
-* Moving article and issue metadata from one OJS journal to another
+* Transferindo metadados de artigos e edições de uma revista OJS para outra
 * Moving a large number of back issues and articles into OJS
 
 To use this plugin you will need the following:
