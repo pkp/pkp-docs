@@ -1,5 +1,5 @@
 ---
-generateHeadingToc: verdadeiro
+generateHeadingToc: true
 ---
 
 # Declaração de Acessibilidade para o Tema Padrão do OJS 3.3+
