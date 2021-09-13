@@ -231,55 +231,55 @@ Bajo su panel de control, también verá la respuesta del editor.
 
 ![Discussion reply in review discussion panel](./assets/learning-ojs-3-au-rev-discussions.png)
 
-Clicking the discussion title will open it up.
+Al hacer clic en el título de la discusión ésta se abrirá.
 
 ![Review discussion message](./assets/learning-ojs-3-au-rev-discussions2.png)
 
-Congratulations! You've been accepted and your submission file is moving on to the Copyedit stage.
+¡Felicidades! Su envío ha sido aceptado y su archivo está pasando a la fase Corrección.
 
 <hr />
 
-## Resubmitting for Review
+## Volver a enviar a revisión
 
-If the editor’s decision is to resubmit for review, you will need to log in and select the article in your submissions page. The resubmission is done in the review stage, there is no need to start a new submission.
+Si la decisión del editor es volver a enviar a revisión, tendrá que iniciar sesión y seleccionar el artículo en su página de envíos. El nuevo envío se realiza en la fase de revisión, no hay necesidad de iniciar un nuevo envío.
 
-At the review stage you will need to do two things to resubmit once you have revised your document:
+En la fase de revisión tendrá que hacer dos cosas para reenviar su documento una vez lo haya revisado:
 
-Upload the new file in the revisions section. To upload a new file click on ‘Upload file.’ A new window will open allowing you to upload your file(s). Select the appropriate option from the dropdown menu to indicate you are submitting a revision of an existing file.
+Suba el nuevo archivo en la sección de revisiones. Para subir un nuevo archivo, haga clic en 'Subir archivo'. Se abrirá una nueva ventana que le permitirá cargar su(s) archivo(s). Seleccione la opción apropiada en el menú desplegable para indicar que está enviando una revisión de un archivo existente.
 
-Add a discussion to notify the editor that you have re-submitted.
+Añada un comentario para notificar al editor que ha vuelto a enviar un archivo.
 
-The peer review process will be repeated, and you will likely receive additional revisions to make. Once these are completed and accepted, you will then be moved to the next stage.
+El proceso de revisión por pares se repetirá, y posiblemente recibirá nuevas revisiones para realizar correcciones. Una vez que estos hayan sido completados y aceptados, se continuará con la siguiente etapa.
 
 <hr />
 
-## Responding to a Copyediting Request
+## Respuesta a una solicitud de Corrección
 
-The next step in the workflow is to inspect your submission files that have been copyedited.
+El siguiente paso en el flujo de trabajo es inspeccionar sus archivos de envío que ya han sido corregidos.
 
-You will receive an email indicating that files are available. To see them, login to the journal and go to your dashboard.
+Recibirá un correo electrónico indicando que los archivos están disponibles. Para verlos, inicia sesión en la revista y vaya a su panel de control.
 
 ![Author submission dashboard](./assets/learning-ojs-3-au-copyedits.png)
 
-You can see your entry in the My Authored panel. Select the Copyediting link to go to the full submission record, including the notification in the Copyediting Discussions panel.
+Puede ver su envío en el panel Mis archivos. Seleccione el enlace Corregir para ir al registro completo de envíos, incluyendo la notificación en el panel de discusión de Corrección.
 
 ![Copyediting section of author dashboard](./assets/learning-ojs-3-au-copyedits-notice.png)
 
-Click on the linked discussion to open it, read the message, and open the attached file.
+Haga clic en la discusión para abrirla, leer el mensaje y abrir el archivo adjunto.
 
 ![Copyediting check discussion message](./assets/learning-ojs-3-au-copyedits-message.png)
 
-Once you have read the attached file, you can respond to the copyeditor indicating any required changes or your approval.
+Una vez que haya leído el archivo adjunto, puede responder al Corrector indicando los cambios necesarios o su aprobación.
 
 ![Respond to copyediting check message](./assets/learning-ojs-3-au-copyedits-reply.png)
 
-If needed, you could attach a revision, but for this example we will simply approve the changes and hit **OK**.
+Si es necesario, puede adjuntar una revisión, pero para este ejemplo simplemente aprobaremos los cambios y pulsaremos **OK**.
 
-On your dashboard, you can see that you were the last person to reply to the message.
+En su panel de control, puede ver que usted fue la última persona en responder al mensaje.
 
 ![Dashboard showing copyediting discussions](./assets/learning-ojs-3-au-copyedits-final-dash.png)
 
-Your role in the copyediting process is now complete and you can wait for the request to proofread the final galleys (e.g., PDFs, HTML, etc.) before publication.
+Su papel en el proceso de Corrección ya está completo y puede esperar a la solicitud de revisión de las galeradas finales (PDFs, HTML, etc.) antes de la publicación.
 
 <hr />
 
