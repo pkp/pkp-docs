@@ -1,12 +1,12 @@
-# Appendix A: Create a Protected OJS 3 Sandbox Staged with Git
+# Apêndice A: Criando um ambiente de teste protegido e preparado com o Git
 
-The following document describes a general workflow for creating a git-based sandbox of a production journal that is not currently on git. It provides instructions on how to limit accidental access, outgoing email, etc. YMMV. Adapt for your own environment; use at your own risk.
+O documento a seguir descreve um fluxo de trabalho geral para a criação de um ambiente de teste baseado no git, para uma revista que não está atualmente no git. São apresentadas instruções sobre como limitar o acesso acidental, envio de e-mail etc. YMMV. Adapte ao seu próprio ambiente; use por sua conta e risco.
 
-## Prepare the Git environment
+## Preparando o ambiente Git
 
-The README here: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) has instructions on installing from git. What we do is as follows:
+O README disponível aqui: [ https://github.com/pkp/ojs ](https://github.com/pkp/ojs) contém instruções sobre como instalar a partir do git. Execute as seguintes instruções:
 
-1. Create a MySQL or PostgreSQL OJS user and database. The command we use is as follows; it may be different for you depending on your environment, access to root, etc.:
+1. Crie um usuário e banco de dados MySQL ou PostgreSQL para o OJS. The command we use is as follows; it may be different for you depending on your environment, access to root, etc.:
 
    **MySQL**
    ```
