@@ -32,41 +32,41 @@ Para usar este plugin será necessário:
 * Conhecimentos básicos de XML
 * Estar cadastrado como Editor Gerente em uma revista OJS
 
-Caso esteja importando dados, crie primeiro o arquivo de importação em XML.  Here are links to sample XML import files and XML schemas:
+Caso esteja importando dados, crie primeiro o arquivo de importação em XML.  Apresentamos a seguir alguns exemplos de arquivos de importação e esquemas em XLM:
 
-* Sample XML file for article metadata: [https://github.com/pkp/ojs/blob/main/cypress/fixtures/export-issues.xml](https://github.com/pkp/ojs/blob/main/cypress/fixtures/export-issues.xml)
-* Sample XML file for issue metadata: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml)
-* XML schema for use across PKP software applications: [https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd](https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd)
-* XML schema for use in OJS: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd)
+* Exemplo de arquivo XML para metadados de artigo: [https://github.com/pkp/ojs/blob/main/cypress/fixtures/export-issues.xml](https://github.com/pkp/ojs/blob/main/cypress/fixtures/export-issues.xml)
+* Exemplo de arquivo XML para os metadados da edição: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml)
+* Esquema XML para uso em aplicações de software do PKP: [https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd](https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd)
+* Esquema XML para uso no OJS: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd)
 
-\* Please note that the XML format used by the Native XML Plugin for OJS 3 is different from the XML format for the Articles and Issues XML Plugin used in OJS 2.  If you export data from OJS 2 and want to import it into OJS 3, you will have to edit the XML file first. Also note that the schema is revised periodically; if exporting from one version of OJS and importing into a different version, you may need to adjust the XML slightly to account for these changes.
+\* Note que o formato XML usado pelo plugin XML nativo para o OJS 3 é diferente do formato XML para o pluing de artigos e edições em XML usado no OJS 2.  Caso exporte dados de um OJS 2 e deseje importar em um OJS 3, será necessário editar o arquivo XML primeiro. Note também que o esquema é atualizado periodicamente; caso esteja exportando de uma versão OJS para outra versão diferente, pode ser necessário ajustar o XML minimamente para levar em consideração as mudanças.
 
-Here are some things to consider:
+Outras questões a considerar são:
 
-* Be sure to define the document type appropriately using `<!DOCTYPE ...>`.
-* Your XML file should UTF8-encoded.
-* Dates should be specified as YYYY-MM-DD.
-* To import a file, you can use `<embed>` to place a file directly within your XML document, or use `<href>` to link to one.
-* If you use the `<embed>` tag you will have to base64-encode your files. Using `<embed>` with a base64-encoded file would look something like this: \[screenshot needed\]
-* You can link to full URLs as well as local files using `<href>`. A full URL link would look like the following: \[screenshot needed\]
-* You can use local linking if your galleys are already stored on the destination machine, but in this case you need to launch the import from the command line. Importing a local file would look like the following: \[add screenshot\]
-* Some elements can support embedded HTML tags, such as the abstract element. If you do embed HTML within your document, remember to wrap the HTML within `<![CDATA[]]>` tags.
-* If your journal supports more than one locale, you can include translated terms in a separate entry: \[screenshot\]
-* If you make any typographical errors in the data you are trying to import, you may end up with duplicate or split entries: for example, if your journal already has a section "Articles" with the initials ART, but you mistype in your XML file `<abbrev locale="en\_US">`AR`</abbrev>` instead of `<abbrev locale="en\_US">`ART`</abbrev>`, a new journal section with the initials AR will be created, and that one article will be added to it. This can be easily fixed pre-import, but difficult to clean up after.
+* Certifique-se de definir o tipo de documento apropriado usando `<!DOCTYPE ...>`.
+* Seu arquivo XML deve ser codificado em UTF8.
+* Datas devem ser especificadas como AAAA-MM-DD.
+* Para importar um arquivo, pode-se usar o `<embed>` para embutir um arquivo diretamente no seu documento XML, ou use `<href>` para criar um vínculo.
+* Caso a tag `<embed>` seja usada, será necessário codificar seus arquivos com base64. Usar `<embed>` com um arquivo codificado em base64 seria algo como: \[captura de tela necessária\]
+* Vínculos podem ser feitos tanto para URLs completas como para arquivos locais, usando `<href>`. Um link de URL completo seria algo semelhante a: \[captura de tela necessária\]
+* Vínculos locais podem ser usados se as composições já estiverem armazenadas na máquina de destino, mas neste caso será necessário executar a importação via linha de comando. Importar um arquivo local seria algo como: \[add screenshot\]
+* Alguns elementos suportam tags HTML embutidas, como o elemento abstract. Caso incorpore HTML em seu documento, lembre-se de encapsular o HTML dentro de `<![CDATA[]]>`.
+* Caso a revista use mais de um idioma, inclua termos traduzidos em um registro separado: \[screenshot\]
+* Caso cometa algum erro de digitação nos dados que está tentando importar, podem ocorrer registros duplicados ou divididos: por exemplo, se a revista já tiver uma seção "Artigos" com as iniciais ART, mas digitou no arquivo XML por engano `<abbrev locale="en\_US">`AR`</abbrev>` em vez de `<abbrev locale="en\_US">`ART`</abbrev>`, uma nova seção da revista com as iniciais AR será criada, e um artigo será incluído nessa seção. Este tipo de erro pode ser corrigido facilmente antes da importação, mas muito difícil de limpar depois.
 
-You should validate your XML file before importing it. If you are using an XML editor tool, such as Liquid XML Editor or Oxygen XML, you can validate the file there. If the XML is not valid an error message will display identifying what line\(s\) have errors.
+O arquivo XML deve ser sempre validado antes de ser importado. Caso use algum editor XML, como o editor Liquid XML ou Oxygen XML, o arquivo pode ser validado no próprio editor. Caso o XML não seja válido, uma mensagem de erro será exibida com a identificação de linha\(s\) com erros.
 
-Once you have the valid XML import file, you can import it:
+O arquivo XML pode ser importado assim que for um arquivo válido:
 
-1. Login to OJS as Journal Manager
-2. Go to Tools > Import/Export > Native XML Plugin
-3. Under the Import tab, click Upload File and select your XML file
-4. Click Import
-5. You will be notified of any errors, or if the import was successful.
+1. Entre no OJS como Editor Gerente
+2. Clique em Ferramentas > Importar/Exportar > Plugin de XML nativo
+3. Na guia Importar, clique em enviar arquivo e escolha o arquivo XML
+4. Clique em Importar
+5. Uma notificação será exibida tanto para erros durante o processo, quanto para o sucesso na importação.
 
 ![The XML file upload screen.](./assets/native-xml-plugin.png)
 
-To export article and issue metadata using the Native XML Plugin:
+Para exportar metadados de artigos e edições uando o plugin XML nativo:
 
 1. Login to OJS as Journal Manager
 2. Go to Tools > Import/Export > Native XML Plugin
