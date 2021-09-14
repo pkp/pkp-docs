@@ -145,27 +145,27 @@ Sayfayı aşağı kaydırdığınızda, **Revizyonlar** için bir panel bulacaks
 
 ![Revisions panel](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
-Use the *Upload a File* link to upload your revised manuscript.
+Gözden geçirilmiş makaleyi yüklemek için *Bir Dosya Yükle* bağlantısını kullanın.
 
 ![Upload review file](./assets/learning-ojs-3-auth-responding-upload.png)
 
-Use the dropdown menu to choose that you are uploading a revision of an existing file.
+Mevcut bir dosyanın revizyonunu yüklemek için açılır menüyü kullanın.
 
-Then upload the revised file and hit **Continue**.
+Ardından gözden geçirilmiş dosyayı yükleyin ve **Devam**'a basın.
 
 ![Review file details and continue](./assets/learning-ojs-3-auth-responding-upload2.png)
 
-Check the file details and hit **Continue** again.
+Dosya ayrıntılarını kontrol edin ve tekrar **Devam**'a basın.
 
 ![Add another file or complete upload](./assets/learning-ojs-3-auth-responding-upload3.png)
 
-If you have any additional files to upload, do so now. Otherwise, hit **Complete**.
+Yüklenecek başka dosyalarınız varsa, şimdi yapın. Aksi takdirde, **Tamamla**'ya basın.
 
-Your revised file is now visible in the Revisions panel.
+Gözden geçirilmiş dosyanız artık Düzeltmeler panelinde görünecektir.
 
 ![Revised file now in revisions panel](./assets/learning-ojs-3-auth-responding-upload4.png)
 
-### Inform the Editor
+### Editörü Bilgilendir
 
 The editor will receive a notification about the new file(s) being uploaded. Additionally you can inform the editor via the Review Discussion panel as explained below.
 
