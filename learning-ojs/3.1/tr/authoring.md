@@ -123,25 +123,25 @@ Panonuzdaki gönderiniz. Şu anda _Gönderi_ aşamasında olduğunu görebilirsi
 
 ## Bir Değerlendirmeye Yanıt Verme
 
-Once the review process has completed, you will be notified via email by the editor of their decision.
+Değerlendirme süreci tamamlandıktan sonra, editör tarafından karar e-posta yoluyla size bildirilecektir.
 
-After receiving the email, login to your dashboard.
+E-postayı aldıktan sonra kontrol paneline giriş yapınız.
 
 ![Submission dashboard with items in review](./assets/learning-ojs-3-auth-responding-revisions.png)
 
-Select the *Review* link next to your submission to view the decision.
+Kararı görüntülemek için gönderinin yanındaki *İncele* bağlantısını seçiniz.
 
 ![Review tab of manuscript](./assets/learning-ojs-3-auth-responding-revisions2.png)
 
-From here, you can see the decision (revisions requested) and a link to the editor's notification.
+Burada kararı (istenen revizyonlar) ve editörün bildirim bağlantısını görebilirsiniz.
 
 ![Editor decision notification](./assets/learning-ojs-3-auth-responding-revisions3.png)
 
-Based on the information in the editor's message, you must now prepare your revisions.
+Editörün mesajındaki isteklere göre revizyonları hazırlamalısınız.
 
-### Uploading the Revised File
+### Güncellenmiş Dosyayı Yükleme
 
-By scrolling down the page, you will find a panel for **Revisions**.
+Sayfayı aşağı kaydırdığınızda, **Revizyonlar** için bir panel bulacaksınız.
 
 ![Revisions panel](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
