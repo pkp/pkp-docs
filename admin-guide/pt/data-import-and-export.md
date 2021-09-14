@@ -24,15 +24,15 @@ O plugin de submissão rápida permite incluir rapidamente uma submissão a uma 
 
 O plugin de XML nativo no OJS 3.x substitui o Plugin XML de Artigos e Edições. usado no OJS 2 para importar e exportar metadados de artigos e edições de e para um OJS via arquivo XML.  O plugin pode ser usado para importar e exportar uma ou várias edições e/ou artigos, incluindo os metadados. Pode ser usado nos seguintes casos:
 
-* Transferindo metadados de artigos e edições de uma revista OJS para outra
-* Moving a large number of back issues and articles into OJS
+* Transferir metadados de artigos e edições de uma revista OJS para outra
+* Mover grande volume de edições anteriores e artigos para o OJS
 
-To use this plugin you will need the following:
+Para usar este plugin será necessário:
 
-* A basic understanding of XML
-* To be enrolled as a Journal Manager in the OJS journal
+* Conhecimentos básicos de XML
+* Estar cadastrado como Editor Gerente em uma revista OJS
 
-If you are importing data, first create the XML import file.  Here are links to sample XML import files and XML schemas:
+Caso esteja importando dados, crie primeiro o arquivo de importação em XML.  Here are links to sample XML import files and XML schemas:
 
 * Sample XML file for article metadata: [https://github.com/pkp/ojs/blob/main/cypress/fixtures/export-issues.xml](https://github.com/pkp/ojs/blob/main/cypress/fixtures/export-issues.xml)
 * Sample XML file for issue metadata: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml)
