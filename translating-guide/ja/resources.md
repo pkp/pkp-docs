@@ -1,6 +1,7 @@
 ---
 book: translating-guide
 version: 3.2
+title: Resources and Community for Translating PKP Software and Documentation
 ---
 
 # Translation Resources and Community
