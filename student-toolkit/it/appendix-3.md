@@ -1,3 +1,7 @@
+- - -
+title: 'Appendix Three: OA Journal Canvas - Student Journal Toolkit'
+- - -
+
 # Appendix Three: OA Journal Canvas
 
 ![Blank Open Access Journal planning sheet.](./assets/app-3-oa-canvas.png)
