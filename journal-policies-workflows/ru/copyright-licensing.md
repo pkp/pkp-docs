@@ -105,6 +105,6 @@ Depending on the jurisdiction, a copyright transfer may need to be formally sign
 
 It is important to display copyright and licensing information on the article document itself, so anyone who may read, save or share it would still know how it can be used.
 
-![The Creative Commons License source information in a PDF Galley](./assets/journal-policies-agree-copyright-statement.png)
+![The Creative Commons License source information in a PDF Galley](./assets/journal-policies-cc-by-example.png)
 
 Source: McCormick, A., Adams, S. A., Dunbar, H., & Mclean-Plunkett, S. (2020). Teaching Copyright Law through Participatory Involvement in an Unconference Setting. *Journal of Copyright in Education & Librarianship*, 4(1). [https://doi.org/10.17161/jcel.v4i1.13283](https://doi.org/10.17161/jcel.v4i1.13283)
