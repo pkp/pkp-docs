@@ -46,7 +46,7 @@ Every page template for the editorial backend must use the backend layout to ens
 ```html
 {extends file="layouts/backend.tpl"}
 {block name="page"}
-	<!-- Add page content here -->
+    <!-- Add page content here -->
 {/block}
 ```
 
@@ -122,10 +122,12 @@ Use the `{translate}` function to get a localized string.
 It is sometimes necessary to use a variable inside of a localized string.
 
 ```html
-<span>{translate key="common.lessThan value="29"}</span><!--
+<span>{translate key="common.lessThan value="29"}</span>
+<!--
     localized string: "{$value} or less"
     result: 29 or less
--->```
+-->
+```
 
 Use the `$smarty` variable to access a PHP constant.
 
