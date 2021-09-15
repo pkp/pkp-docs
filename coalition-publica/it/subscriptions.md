@@ -1,3 +1,6 @@
+- - -
+noindex: true
+- - -
 # Subscriptions and Non-Publishing Use of OJS
 
 If you are using OJS to publish content that requires subscription, or if you are using OJS for workflow but not publishing, some additional configuration is required to allow Érudit to access your content. You will also need to be running **OJS 3.1.2.1 or newer**.
@@ -34,7 +37,7 @@ Navigate to your user’s Profile (typically available in the top-right corner).
 
 Open the “API Key” tab:
 
-![](./assets/apiKey.png)
+![Profile menu with API Key tab selected that has options to enable API access or generate a new API key.](./assets/apiKey.png)
 
 There may already be content in the “API Key” box. If so, ignore it.
 
