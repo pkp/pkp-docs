@@ -1,3 +1,7 @@
+- - -
+title: Journal Administration - Student Journal Toolkit
+- - -
+
 # Journal Administration
 
 ## Editorial board
