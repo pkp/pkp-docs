@@ -1,24 +1,16 @@
 # Site Management
 
-
-# Site Settings
+## Site Settings
 
 To change your site's title, any text on the home page, or your principal contact information, you will want to review your Site Settings.
 
 From the Site Administration page, under the Site Management heading, choose **Site Settings**.
 
-
-
-
 ![Site Administration Menu](images/chapter4/site_admin.png)
 
 This will allow you to add information regarding your overall OJS installation, not individual journals. This includes the name of your site, an introductory statement about your site, a redirect option (leave this blank if you do not need to redirect users), a description of your site, contact information, a minimum password length for registered users, and indexing registration. You will have the opportunity to provide details about your individual journal(s) at a later stage.
 
-
-
-
 ![Site Settings](images/chapter4/sa_site_settings.png)
-
 
 Below is a detailed breakdown of all options:
 
@@ -47,10 +39,3 @@ Below is a detailed breakdown of all options:
 * **Security**: The Site Administrator can have exclusive control over plugins by selecting this option.
 
 * **Register Site for Indexing** (Metadata Harvesting): Information is provided that will allow you to register your site with the PKP's demo harvester, though you are encouraged to register with any/all relevant OAI-compliant harvesters you can find. If you register with an OAI-compliant harvester using the site URLs included on this page, every journal on your site will be harvested.
-
-
-
-
-
-
-
