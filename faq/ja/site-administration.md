@@ -1,3 +1,7 @@
+- - -
+title: FAQ about How to Administer Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
 # Site Administration
 
 ## How can I create a backup of my site?
