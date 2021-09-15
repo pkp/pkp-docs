@@ -276,7 +276,7 @@ To add publication formats, click __Add publication format__.
 
 Enter the format title, select format from the drop-down list and select the option that applies. Click OK to save.
 
-!\[Sample new publication format information entered in the upload form.\](./assets/learning-omp3.2-workflow-production-formats-2.p
+![Sample new publication format information entered in the upload form.](./assets/learning-omp3.2-workflow-production-formats-2.png)
 
 ##### Add Publication Format files
 
