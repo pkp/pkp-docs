@@ -12,5 +12,4 @@ Apply any changes to the galley files, upload them again to the layout section. 
 
 ![Send Email](images/chapter11/layout_proof_3.png)
 
-
 As Layout Editor, you have now completed your layout editing responsibilities.
