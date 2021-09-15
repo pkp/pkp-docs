@@ -45,7 +45,12 @@ On **Step 2**, a window will open allowing you to upload your submission file.
 
 In OJS 3.3 authors can upload multiple files at once, as well as drag-and-drop files.
 
-![OJS 3.3 drag and drop multiple files](./assets/submission3.3-files.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/submission3.3-files.mp4" type="video/mp4">
+  </video>
+  <figcaption>OJS 3.3 drag and drop multiple files.</figcaption>
+</figure>
 
 Once you've uploaded all your files you can indicate the file type for each from a single menu panel, and metadata such as a description or license can be entered during the workflow.
 
