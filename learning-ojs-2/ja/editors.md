@@ -8,10 +8,6 @@ The Editor can also play the role of Section Editor in the Editing process, seei
 
 The Editor also schedules submissions for publication, arranges the Table of Contents and publishes the issue, as part of the Publishing Process.
 
-
-
-> ### Note
+> ## Note
 > 
 > The Editor and Section Editor may share many responsibilities. While the **Review** and **Editing** processes alike can be handled by both roles, they are only discussed in [Chapter 8: Section Editors](https://docs.pkp.sfu.ca/learning-ojs-2/en/section_editors). Pages unique to the Editor only are here in Chapter 7.
-
-
