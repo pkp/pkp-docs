@@ -6,15 +6,15 @@ By default, OCS provides you with a complete peer review system for submissions.
 
 Login as the Conference Manager, and under Current Conferences, choose Setup:
 
-![](./assets/image013.png)
+![List of current conferences with Setup option highlighted.](./assets/image013.png)
 
 In Setup Step 1, fill in the details about the conference, such as an Overview, description, contacts, etc.:
 
-![](./assets/image014.png)
+![Scheduled Conferences Setup page with 1.Details option highlighted.](./assets/image014.png)
 
 In Setup Step 2.1, you must decide how you wish to accept submissions:
 
-![](./assets/image015.png)
+![2.1 Submission Process menu with submission materials radio button options: Abstract (selected), Full Proposal, Abstract and Proposal Together, Abstract Followed by Presentation.](./assets/image015.png)
 
 The first option (Abstract) will allow authors to submit an abstract only. No further documents can be submitted. If you plan to judge a submission by its abstract alone, and only post the abstract to the web site, this is the best option.
 
@@ -32,27 +32,27 @@ To complete Setup Step 2, review the appropriate section of [OCS in an Hour](htt
 
 In Setup Step 3, under Review Policy, you may want to state that papers will be reviewed by a team of expert directors (as opposed to blind reviewers):
 
-![](./assets/image016.png)
+![3.1 Review Policy menu with an empty text box.](./assets/image016.png)
 
 Since you will have no non-director “reviewers”, section 3.2 is not necessary and can be bypassed:
 
-![](./assets/image017.png)
+![3.2 Peer Review menu with an empty text box.](./assets/image017.png)
 
 Finally, check off the Director Decision box in step 3.3, to keep all authors informed of your decision:
 
-![](./assets/image018.png)
+![3.3 Director Decision menu with an option checked to include co-authors when notifying the author of the decision.](./assets/image018.png)
 
 Next, from the Conference Manager menu, choose Conference Tracks:
 
-![](./assets/image019.png)
+![Current Conferences menu with Conference Tracks selected.](./assets/image019.png)
 
 This will take you to the Conference Track page:
 
-![](./assets/image020.png)
+![Conference Tracks page with Create Track option highlighted.](./assets/image020.png)
 
 Use the Create Track link to create a new track for your conference:
 
-![](./assets/image021.png)
+![Create Track page with fields: Track Title, Abbreviation, Track Policy, Indexing, Restrictions, About, and a menu to select Track Directors.](./assets/image021.png)
 
 Fill in the form, and assign an existing Track Director to this track (for details on creating users and enrolling them as Track Directors, see [OCS in an Hour](https://pkp.sfu.ca/files/OCSinanHour.pdf)).
 
@@ -62,15 +62,15 @@ At this point, continue filling in the configuration options (e.g., Conference T
 
 Now that your site has been successfully setup, submissions will start coming in (review [OCS in an Hour](https://pkp.sfu.ca/files/OCSinanHour.pdf) for information on how authors make their submissions). Your Track Directors will receive an email when a new one comes into their track, and they will login to OCS as a Track Director to manage them (for details on enrolling yourself and others as Directors or Track Directors, see [OCS in an Hour](https://pkp.sfu.ca/files/OCSinanHour.pdf)):
 
-![](./assets/image022.png)
+![User Home menu with Open Access Foundation conference.](./assets/image022.png)
 
 Then, they’ll see the new submission:
 
-![](./assets/image023.png)
+![Submissions in Review menu with In Review tab selected.](./assets/image023.png)
 
 Click on the linked title to go to the submission record:
 
-![](./assets/image024.png)
+![#2 Abstract Review page with submission metadata.](./assets/image024.png)
 
 From here, the Track Director will read the abstract, ignore the Abstract Review section (as this is a Director-based review – see [OCS in an Hour](https://pkp.sfu.ca/files/OCSinanHour.pdf) for the normal review process), and make their decision.
 
@@ -82,25 +82,25 @@ If the decision is to reject, the author will be informed that their abstract do
 
 Once the decision is made, the Notify Author button must be used to inform the author of the decision:
 
-![](./assets/image025.png)
+![Send Email menu with recepient details and prefilled email template.](./assets/image025.png)
 
 Note: Because we decided to post abstracts upon acceptance on page 10 above, the abstract will now automatically appear on the web site, under Presentations and Authors:
 
-![](./assets/image026.png)
+![Presentations and Authors page with one abstract posted.](./assets/image026.png)
 
 At this point, if accepted, the author will be able to upload their final paper or presentation file. Once this is done, it will be available for the Track Director to post:
 
-![](./assets/image027.png)
+![Director Decision menu with a drop-down to select and record decision.](./assets/image027.png)
 
 Click on the link (2-2-1-RV.DOC) to download the file and review it. If it is acceptable, format it into a PDF (if necessary), using software such as Adobe Acrobat or CutePDF.
 
 Once you have the PDF or Powerpoint file ready to post, scroll down to the Layout section, and upload it as a Galley, using the upload tool:
 
-![](./assets/image028.png)
+![Layout section with an option to upload a galley file or supplementary file.](./assets/image028.png)
 
 The file will now appear alongside the abstract on the web site:
 
-![](./assets/image029.png)
+![Sample abstract page with PDF available below the abstract.](./assets/image029.png)
 
 That completes the submission, director-based review, acceptance, and posting of the paper/presentation
 
