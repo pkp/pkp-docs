@@ -73,7 +73,12 @@ The link from the dashboard to the public journal site home page has moved. A Jo
 
 During submission, Authors can upload multiple files at once as well as drag-and-drop files. They are no longer asked to enter metadata such as a description, license, etc. This information can be entered during the workflow, where the old file upload wizard is still in use. You can find further instructions in the [Authoring chapter](./authoring#step-2).
 
-![A short video that demonstrates how files can be uploaded in OJS 3.3](./assets/learning-ojs3.3-upload-submission-files.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/learning-ojs3.3-upload-submission-files.mp4" type="video/mp4">
+  </video>
+  <figcaption>A short video that demonstrates how files can be uploaded in OJS 3.3.</figcaption>
+</figure>
 
 #### Submission filters
 
