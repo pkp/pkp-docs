@@ -3,11 +3,11 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Editorial Workflow
+# Flujo de trabajo Editorial
 
-In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
+En este capítulo seguirá un envío a través del flujo de trabajo, desde el primer envío hasta su publicación definitiva.
 
-The workflow is divided into 4 stages:
+El flujo de trabajo se divide en 4 etapas:
 
 **Submission**: This is where new submissions land while being assigned to Section Editors and considered for moving into the Review stage.
 
