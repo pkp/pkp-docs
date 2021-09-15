@@ -153,15 +153,15 @@ Una vez finalizado el proceso de revisión, el editor le notificará por correo 
 
 Después de recibir el correo electrónico con la decisión, inicie sesión en su panel de control. Seleccione el manuscrito sobre el que ha sido notificado.
 
-![Submission dashboard with items in review](./assets/learning-ojs-3.2-auth-responding-revisions.png)
+![Panel de control de envíos con elementos en revisión](./assets/learning-ojs-3.2-auth-responding-revisions.png)
 
 Dentro de la pestaña Revisión del manuscrito, también verá una copia de la Decisión Editorial bajo Notificaciones. Dependiendo del tipo de revisión por pares que utilice el diario, podrá ver menos información en la pestaña Revisión de la revista. El ejemplo a continuación muestra una revisión por pares abierta que permite a los autores ver quién era el revisor.
 
-![Review tab of manuscript](./assets/learning-ojs-3.2-auth-responding-revisions2.png)
+![Pestaña de revisión del manuscrito](./assets/learning-ojs-3.2-auth-responding-revisions2.png)
 
 Para ver la decisión Editorial, haga clic en el enlace debajo de las notificaciones.
 
-![Editor decision notification](./assets/learning-ojs-3.2-auth-responding-revisions3.png)
+![Notificación de decisión del editor](./assets/learning-ojs-3.2-auth-responding-revisions3.png)
 
 Basándose en la información contenida en el mensaje del editor, usted debe ahora preparar sus revisiones.
 
@@ -169,39 +169,39 @@ Basándose en la información contenida en el mensaje del editor, usted debe aho
 
 Una vez que esté listo para cargar el archivo revisado, desplácese hacia abajo en la página y encuentre el panel de **Revisiones**.
 
-![Revisions panel](./assets/learning-ojs-3-auth-responding-revisions4.png)
+![Panel de revisiones](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
 Utilice el enlace *Subir un archivo* para subir su manuscrito revisado.
 
-![Upload review file](./assets/learning-ojs-3-auth-responding-upload.png)
+![Subir archivo de revisión](./assets/learning-ojs-3-auth-responding-upload.png)
 
 Utilice el menú desplegable para seleccionar que está subiendo una revisión de un archivo existente.
 
 A continuación, suba el archivo revisado y pulse **Continuar**.
 
-![Review file details and continue](./assets/learning-ojs-3-auth-responding-upload2.png)
+![Revisar detalles del archivo y continuar](./assets/learning-ojs-3-auth-responding-upload2.png)
 
 Compruebe los detalles del archivo y presione **Continuar** de nuevo.
 
-![Add another file or complete upload](./assets/learning-ojs-3-auth-responding-upload3.png)
+![Añadir otro archivo o completar la subida](./assets/learning-ojs-3-auth-responding-upload3.png)
 
 Si tiene algún archivo adicional para subir, hágalo ahora. De lo contrario, pulse **Completar**.
 
 Su archivo revisado ahora es visible en el panel Revisiones.
 
-![Revised file now in revisions panel](./assets/learning-ojs-3-auth-responding-upload4.png)
+![Archivo revisado ahora en el panel de revisiones](./assets/learning-ojs-3-auth-responding-upload4.png)
 
 ### Informar al Editor
 
 El editor recibirá una notificación sobre el(los) archivo(s) nuevo(s) que se están subiendo. Adicionalmente, puede informar al editor a través del panel de Discusión de Revisión como se explica a continuación.
 
-![Review discussions panel](./assets/learning-ojs-3-auth-responding-discussion.png)
+![Panel de revisión de discusiones](./assets/learning-ojs-3-auth-responding-discussion.png)
 
 Desde ahí, seleccione el enlace *Añadir Discusión*.
 
 Seleccione los usuarios que desea notificar bajo Participantes.
 
-![Add discussion and select participants](./assets/learning-ojs-3.2-auth-responding-discussion-add.png)
+![Añadir discusión y seleccionar participantes](./assets/learning-ojs-3.2-auth-responding-discussion-add.png)
 
 Añada una línea de asunto y un mensaje.
 
@@ -209,7 +209,7 @@ Pulse **OK** para enviar el mensaje.
 
 Un correo electrónico ha sido enviado al editor, y usted y el editor pueden ver el mensaje en el panel Discusiones de Revisión.
 
-![Message in review discussions panel](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
+![Mensaje en el panel de discusión de revisiones](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
 
 En este punto, el autor tiene que esperar respuesta del editor sobre si las revisiones son aceptables o no.
 
@@ -219,21 +219,21 @@ Recibirá un correo electrónico diciendo que sus revisiones han sido aceptadas.
 
 Además, las notificaciones aparecerán en su panel de control.
 
-![Notifications in dashboard](./assets/learning-ojs-3.2-au-notifications.png)
+![Notificaciones en el panel de control](./assets/learning-ojs-3.2-au-notifications.png)
 
 Las notificaciones se muestran en orden de fecha, lo que significa que la más reciente estará en la parte inferior. Haga clic para abrir el mensaje (que es el mismo que el correo electrónico que también habrá recibido).
 
-![Notification message](./assets/learning-ojs-3-au-notifications2.png)
+![Mensaje de Notificación](./assets/learning-ojs-3-au-notifications2.png)
 
 Use la **X** en la esquina superior derecha para cerrar la ventana.
 
 Bajo su panel de control, también verá la respuesta del editor.
 
-![Discussion reply in review discussion panel](./assets/learning-ojs-3-au-rev-discussions.png)
+![Respuesta a la discusión en el panel de discusión de revisión](./assets/learning-ojs-3-au-rev-discussions.png)
 
 Al hacer clic en el título de la discusión ésta se abrirá.
 
-![Review discussion message](./assets/learning-ojs-3-au-rev-discussions2.png)
+![Mensaje de revisión de discusión](./assets/learning-ojs-3-au-rev-discussions2.png)
 
 ¡Felicidades! Su envío ha sido aceptado y su archivo está pasando a la fase Corrección.
 
@@ -259,11 +259,11 @@ El siguiente paso en el flujo de trabajo es inspeccionar sus archivos de envío 
 
 Recibirá un correo electrónico indicando que los archivos están disponibles. Para verlos, inicia sesión en la revista y vaya a su panel de control.
 
-![Author submission dashboard](./assets/learning-ojs-3-au-copyedits.png)
+![Panel de control de envíos del autor](./assets/learning-ojs-3-au-copyedits.png)
 
 Puede ver su envío en el panel Mis archivos. Seleccione el enlace Corregir para ir al registro completo de envíos, incluyendo la notificación en el panel de discusión de Corrección.
 
-![Copyediting section of author dashboard](./assets/learning-ojs-3-au-copyedits-notice.png)
+![Sección de corrección del panel de control del autor](./assets/learning-ojs-3-au-copyedits-notice.png)
 
 Haga clic en la discusión para abrirla, leer el mensaje y abrir el archivo adjunto.
 
