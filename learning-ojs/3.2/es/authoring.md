@@ -267,17 +267,17 @@ Puede ver su envío en el panel Mis archivos. Seleccione el enlace Corregir para
 
 Haga clic en la discusión para abrirla, leer el mensaje y abrir el archivo adjunto.
 
-![Copyediting check discussion message](./assets/learning-ojs-3-au-copyedits-message.png)
+![Mensaje de discusión sobre la revisión de la corrección](./assets/learning-ojs-3-au-copyedits-message.png)
 
 Una vez que haya leído el archivo adjunto, puede responder al Corrector indicando los cambios necesarios o su aprobación.
 
-![Respond to copyediting check message](./assets/learning-ojs-3-au-copyedits-reply.png)
+![Respuesta al mensaje de revisión de corrección](./assets/learning-ojs-3-au-copyedits-reply.png)
 
 Si es necesario, puede adjuntar una revisión, pero para este ejemplo simplemente aprobaremos los cambios y pulsaremos **OK**.
 
 En su panel de control, puede ver que usted fue la última persona en responder al mensaje.
 
-![Dashboard showing copyediting discussions](./assets/learning-ojs-3-au-copyedits-final-dash.png)
+![Panel de control con discusiones sobre correcciones](./assets/learning-ojs-3-au-copyedits-final-dash.png)
 
 Su papel en el proceso de Corrección ya está completo y puede esperar a la solicitud de revisión de las galeradas finales (PDFs, HTML, etc.) antes de la publicación.
 
@@ -289,18 +289,18 @@ El siguiente paso en el flujo de trabajo es revisar sus archivos de envío que s
 
 Recibirá un correo electrónico indicando que los archivos están disponibles. Para verlos, inicie sesión en la revista y vaya a su panel de control.
 
-![Author submission dashboard](./assets/learning-ojs-3-au-production-dashboard.png)
+![Panel de control de envíos del autor](./assets/learning-ojs-3-au-production-dashboard.png)
 
 Puede ver su envío en el panel Mis archivos. Seleccione el enlace para ir al registro completo de envíos, incluyendo la notificación en el panel de discusión.
 
-![Production section of author dashboard](./assets/learning-ojs-3-au-production-record.png)
+![Sección de producción del panel de control del autor](./assets/learning-ojs-3-au-production-record.png)
 
 Haga clic en la discusión relacionada para abrirla, leer el mensaje y abrir el archivo adjunto.
 
-![Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message.png)
+![Mensaje de galerada lista para revisión de maquetación](./assets/learning-ojs-3-au-production-message.png)
 
 Una vez que haya leído el archivo adjunto, puede responder al Maquetador indicando los cambios necesarios o su aprobación.
 
-![Respond to Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message2.png)
+![Mensaje de respuesta a Galerada lista para revisión de maquetación](./assets/learning-ojs-3-au-production-message2.png)
 
 ¡Eso es todo! Su papel en el flujo de trabajo editorial se ha completado.
