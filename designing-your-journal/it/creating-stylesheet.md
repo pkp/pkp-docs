@@ -1,3 +1,7 @@
+- - -
+title: Create a Stylesheet - Designing Your OJS Journal
+- - -
+
 # Create a Stylesheet
 
 > When customizing your journal with custom CSS styles, we strongly encourage you to involve technical and design experts to ensure that the changes you make do not adversely effect your journal. Changes to the CSS can effect your compliance with accessibility laws in your country, impact the usability of your journal on different devices, and cause other unforeseen consequences that a professional can help you avoid.<br/><br/>However, we understand that many journals do not have the funds to access these resources. The guide below is provided for those who want to try to write CSS customizations themselves. 
