@@ -1,16 +1,18 @@
+- - -
+book: translating-guide version: 3.2 title: How to Translate PKP Software Documentation for Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
 # Translate PKP Documentation
 
-PKP uses a different tool for translating documentation called GitLocalize, which is compatible with markdown files, integrated with GitHub, and designed for translating longer pieces of text - and so better suited for translating documentation than Weblate. This chapter explains how to use GitLocalize, find documentation to translate, translate documentation, and maintain translations.
+PKP uses a different tool for translating documentation called Crowdin, which is compatible with markdown - and so better suited for translating documentation than Weblate. This chapter explains how to use Crowdin, find documentation to translate, proofread documentation, and maintain translations.
 
-You can translate documentation directly in GitHub without using GitLocalize and the section “Translate without GitLocalize” explains how to do that, but we still recommend reading this chapter to understand how documentation translation works as a whole.
+You can translate documentation directly in GitHub without using Crowdin and the section “Translate without Crowdin” explains how to do that, but we still recommend reading this chapter to understand how documentation translation works as a whole.
 
 ## PKP Documentation
 
-PKP creates and maintains many different guides on using, administering, and developing PKP software applications, as well as other guides about scholarly publishing. Our published documentation can be found in the [PKP Docs Hub](https://docs.pkp.sfu.ca).
+First of all, thank you for considering contributing your time to translating PKP’s documentation! PKP creates and maintains many different guides on using, administering, and developing PKP software applications, as well as other guides about scholarly publishing. Our published documentation can be found in the [PKP Docs Hub](https://docs.pkp.sfu.ca/).
 
 Documentation is coordinated, created, and maintained by the Documentation Interest Group, as well as other PKP staff and community members. We are always improving documentation - from creating new guides to updating documentation as the software and its features change.
-
-All of our documentation is created and updated in the [pkp-docs GitHub repository](https://github.com/pkp/pkp-docs) in markdown files and rendered into web pages in the Docs Hub using a tool called Jekyll. You do not need to have any knowledge of these tools to translate documentation.
 
 Most of our documentation is created in English and then translated into other languages, but original documentation in other languages is welcome. If you would like to create and update documentation or are just interested in learning more about how documentation works, check out our [Guidelines for Contributing to PKP Documentation](/contributing/en/) or contact us at documentation@publicknowledgeproject.org.
 
@@ -20,7 +22,7 @@ Documentation translation is integrated with PKP software translation, and the w
 
 PKP has a Translation Coordinator who coordinates translators and translations and approves and merges translations.
 
-Larger language groups have a Language Moderator who coordinates translators and translations in that language and reports to the Translation Coordinator. The smaller language groups are coordinated directly by the Translation Coordinator.
+Larger language groups may have a Language Moderator who coordinates translators and translations in that language and reports to the Translation Coordinator. The smaller language groups are coordinated directly by the Translation Coordinator.
 
 Anyone with fluency in multiple languages and some understanding of the software and scholarly publishing context is welcome to contribute to translation. We especially appreciate translators who can commit to maintaining a translation over the long term. If you have multilingual fluency but no experience with our software, please use the documentation resources noted above to learn about our software before you start translating. Additional resources are noted below under **Choose the Right Words**.
 
@@ -30,19 +32,11 @@ If you’re interested in being a Language Moderator for a particular language, 
 
 To get started translating PKP software documentation, you can follow the instructions in this guide. If you have questions you can contact the Translation Coordinator or your Language Moderator. You can also talk to other PKP translators and ask questions in the [PKP Community Forum](https://forum.pkp.sfu.ca/c/translations/12).
 
-To use GitLocalize for translation, you need to have a GitHub account and be logged in. If you do not already have an account, register on GitHub.
+Our documentation translation is done at [pkp-documentation.crowdin.com](https://pkp-documentation.crowdin.com/). You will first need to [register an account](https://pkp-documentation.crowdin.com/u/signup?hash=b474e82e87e7052ee7c99c1f3234584a43).
 
-Once you are logged into GitHub, go to the [PKP Docs GitLocalize site](https://gitlocalize.com/repo/4035). You will need to give GitLocalize access to your GitHub account.
+Once you have registered, you can select the language you are interested in translating from the Project Home screen. From there, you can select the folder containing the files of the documentation you wish to translate. The relevant markdown files are located in the “en” folder under each guide.
 
-On the homepage, you will see a list of languages.
-
-![](./assets/translating-guide-gitlocalize-homepage.png)
-
-Click on the language that you want to translate into. In this example, it is Portuguese.
-
-![](./assets/translating-guide-gitlocalize-language-page.png)
-
-On the language page you will see a list of documents, and beside each document name, the percentage of the document that has been translated. The next step is to decide which document to translate.
+If your language is not yet available on Crowdin, please contact [documentation@publicknowledgeproject.org](mailto:documentation@publicknowledgeproject.org).
 
 ### Choose a translation project
 
@@ -62,168 +56,148 @@ Documents vary in size. A few documents, like Learning OJS, have more than 10 ch
 
 Translation is done in chapter files and paragraphs, so you can choose to only translate a chapter or even only a few paragraphs in a chapter. You may find a document that is mostly translated and only needs a small part of it translated. However, if there is an entirely un-translated document, it is best if you can commit to translating the whole document or at least a thematic section of it. The translation will not be published until the entire document (all files/chapters) have been translated.
 
-You can open each document to see how long it is and what parts of it need to be translated. When you first open the document, you will see the “en” folder and an index file.
+You will see various folders with the titles of the documentation accompanied by progress bars. The blue part of the progress bar represents the translation progress, while green represents proofreading progress. You can hover over any progress bar in Crowdin to see the word count for the folder or file.
 
-![](./assets/translating-guide-gitlocalize-language-folder.png)
+![The list of project folders in Crowdin.](./assets/translating-guide-crowdin-folder-list.png)
 
-Click the en folder to see all of the chapter files in the document.
+You can check the size of an individual chapter or documentation component by opening the folder, and then opening the "en" folder to see the individual markdown files and their progress.
 
-![](./assets/translating-guide-gitlocalize-chapter-files.png)
+![The list of files under a project folder in Crowdin.](./assets/translating-guide-crowdin-file-list.png)
 
-Then open a chapter folder to see how long the chapter is and what parts need to be translated.
-
-In this example you can see that the guide has not been translated yet.
-
-![](./assets/translating-guide-gitlocalize-document-to-translate.png)
-
-In this example the guide has been translated.
-
-![](./assets/translating-guide-gitlocalize-document-translated.png)
-
-If there is a document that is completely or mostly untranslated, you can also open it in the [Docs Hub](https://docs.pkp.sfu.ca/index.html) to see how long it is and what content it contains.
-
-### Start Translating
+## Translating in Crowdin
 
 Once you decide on a project, you can start translating.
 
-In GitLocalize, go to the folder for the language that you are translating into. Find the guide that you want to translate and open it.
+After you've selected your language from the project home and navigate to the guide/chapter you would like to translate, you can click on the .md file you wish to translate to launch the editor. The chap1ter files are listed in alphabetical order. We recommend that you start by translating the SUMMARY.md file. After that you can translate the files in any order you want, but it may be easier for you to translate the files in their logical order. If so, you can open the guide in the [Docs Hub](https://docs.pkp.sfu.ca/) to see what order the chapters are in and follow that order.
 
-![](./assets/translating-guide-gitlocalize-language-folder.png)
+Starting with the SUMMARY.md file, open the file. This will launch the Editor mode, which contains a three-panel interface.
 
-Click the en folder to see all of the chapter files in the document. You will also need to translate the **Index** file in the main folder.
+![The three-panel user interface of the Crowdin editor.](./assets/translating-guide-crowdin-three-panels.png)
 
-![](./assets/translating-guide-gitlocalize-chapter-files.png)
+**Left panel**: The panel on the left shows the formatted text and translation status for each string.
 
-The chapter files will be listed in alphabetical order. Start by translating the SUMMARY.md file. After that you can translate the files in any order you want, but it might be easier for you to translate the files in their logical order. If so, you can open the guide in the [Docs Hub](https://docs.pkp.sfu.ca/index.html) to see what order the chapters are in and follow that order.
+Translated strings are highlighted in green, with the translation shown in the context of the document.
 
-Starting with the SUMMARY.md file, open the file. You will see a split-view editor, with the original text on the left. GitLocalize breaks the files down into translatable segments, automatically links the translation with the version in the source language, highlighting the sections that are missing translations.
+The string actively being worked on and shown in the translation panel in the center is highlighted in yellow.
 
-If you click the text on the right, a text-editing box will appear with the original text in it. You can replace this text with translated text. Click **Submit** as you finish each part.
+Red highlighted strings are untranslated.
 
-![](./assets/translating-guide-gitlocalize-translate-text-box.png)
+Please be sure to scroll all the way down to “Hidden Texts”, which will include strings used for alt text tags necessary for screen readers.
 
-#### Machine translation
+![The “hidden texts” section of the left panel containing alt text strings.](./assets/translating-guide-crowdin-hidden-texts.png)
 
-You can also use the machine translation tool to get machine translation assistance.
+**Center panel**: Your main translation workspace will be in the center panel, where you can enter your translations.
 
-If you click the **Machine Translate** button below the text box, GitLocalize’s machine translation tool will enter a suggested translation into the text box, which you can then edit.
+![The center panel translation interface in Crowdin.](./assets/translating-guide-crowdin-center-panel.png)
 
-Or if you click the **Machine Translate** button on the top right of the page, machine translations will be entered in all of the text boxes that have not already been translated. This will take a few seconds. You can then edit them manually.
+View the translation status of the source string at the top of the panel, and use the arrow icons (or Ctrl+Up and Ctrl+Down) to move forward or backward through source strings.
 
-You may find that the machine translator will skip some sections, which you will have to translate manually or use an external machine translation tool.
+Hover over underlined words in the source string to see suggested translations or glossary entries related to the selected word.
 
-![](./assets/translating-guide-gitlocalize-machine-translate.png)
+Enter your translation in the space immediately below the source string.
 
-You will have to click **Submit** below each piece of text to confirm that the translation is complete.
+You can copy the source (Ctrl+Shift+C) or clear any entered translations (Ctrl+D) using the icons beneath the translation area or the keyboard shortcuts.
 
-#### Choose the right words
+After saving, Crowdin will provide automatic QA feedback. If you want to ignore a spell check issue, simply click the word under QA Issues to dismiss it.
 
-When translating software documentation, it's important to use terminology that is consistent with the software application and is commonly understood by users. There are a number of ways you can check this:
+Beneath the QA Issues section is the Translation Memory and Machine Translation suggestion area. This will show all past translations saved to the string, as well as suggestions from Crowdin's Machine Translation feature.
+
+Double-click to insert a suggestion into the translation field.
+
+If you wish to select and copy only part of a translation suggestion, click the "Text Selection" icon found beside the Copy Source (box with arrow) and Clear icons (trash can).
+
+**Right panel**: The right panel contains three tabs indicated by icons, from left to right: Comments, Search TM, and Glossaries. Each of these functions will be described in more detail below.
+
+You may also want to review [Crowdin’s excellent documentation](https://support.crowdin.com/online-editor/) for further information on the Editor interface.
+
+### Right Panel Functions
+
+#### Comments and Questions
+
+If you are unsure about the context or meaning of a source string, unsure of your own translation, have questions about terminology, etc., it is highly recommended that you leave a comment. Even if you are currently the only translator for your language, commenting to record any of your doubts and concerns can be helpful to future translators looking to understand translation decisions.
+
+Simply access the comments tab from the “speech bubble” icon in the right panel. From there, enter and save your comment. You can also reply to existing comments, including using the @ symbol to tag other users in the discussion.
+
+![Sample comment and reply in Crowdin.](./assets/translating-guide-crowdin-commenting.png)
+
+You can also flag something as an issue when you leave a comment. This is particularly useful for notifying our team if you notice something incorrect in the source (English) documentation - a typo, missing or duplicated words, or unclear/incorrect/misleading information, but you may also choose to use this feature to highlight other issues preventing progress in the translation.
+
+![Dropdown of issue types for comments flagged as an issue in Crowdin.](./assets/translating-guide-crowdin-issue-flagging.png)
+
+#### Search TM
+
+Click the “open book” middle icon on the right panel to open the Search TM (Translation Memory) window. Here, you can search past translations to see how terms and phrases have previously been translated.
+
+Crowdin will show you the most common translation for your search keywords (press the arrow beside "Previous Translations" to expand this list as needed), as well as strings containing exact or near matches to your search.
+
+![Sample TM search showing French suggestions for the search “galley files”.](./assets/translating-guide-crowdin-suggestions.png)
+
+This can be useful for reducing your workload when translating similar strings and keeping consistency throughout the translation.
+
+#### Glossaries
+
+When translating software documentation, it's important to use terminology that is consistent with the software application and is commonly understood by users. Using the glossary function is a way to keep consistency between different translators, different guides, and even between the guides and the software's interface.
+
+Glossary terms can be referenced or added into Crowdin while working in the editor from the Terms tab of the right hand panel, or from Resources > Glossaries in the project view.
+
+![The terms tab in the right hand panel of the editor.](./assets/translating-guide-crowdin-terms-tab.png)
+
+To add a new glossary term, simply click the "Add Term" icon with the + symbol beside the "Search Terms" box and fill out the relevant information. You are not obligated to add any terms to the glossary, but it can be very helpful, especially when trying to match terminology used in the localized version of OJS, OMP, etc.
+
+![A sample glossary entry.](./assets/translating-guide-crowdin-terms-tab.png)
+
+If the term you are looking for is not yet in the glossary, there are a few resources for finding existing translations of the term:
+
 - Check an installation of the software that the guide is about (e.g., OJS) with the language you are translating the document into installed and enabled. PKP maintains test drive demo sites for [OJS](https://pkp.sfu.ca/ojs/ojs_demo/), [OMP](https://pkp.sfu.ca/omp/omp_demo/), and [OPS](https://pkp.sfu.ca/ops/demo/). If your language is not installed here and you need assistance accessing an installation in your language, you can [Contact PKP](https://pkp.sfu.ca/contact-us/).
 - PKP software translators maintain glossaries on a per-language basis of standard translations of technical terms. You can check the glossaries in the [software translation tool](https://translate.pkp.sfu.ca/dictionaries/pkp-lib/) on the language page, and if you create a Weblate account you can add terms to the glossary.
 - You can post questions about terminology in the [PKP Community Forum](https://forum.pkp.sfu.ca/c/translations/12), which is a community discussion space for PKP translators. You will need to register to post a question.
 
-#### Screenshots
+## Proofreading Documentation Translation
 
-You will see screenshots as you are translating, but you can ignore them. PKP is developing an automatic process to generate screenshots for translations.
+The proofreading step is optional, but it is recommended when there are non-native translators, larger teams, student translators, or other situations where feedback is feasible, desirable, and/or helpful. All registered users are registered as both translators and proofreaders; however, proofreading should be done by language moderators or a person designated by the language moderator.
 
-### Create Review Request
+You can switch between the translation and proofreading stages by clicking on the arrow beside the “Translate” button in the project view.
 
-When you have finished translating the chapter and clicked **Submit** below each piece of text, the next step is to request a review of the translation to the language moderator.
+![The stage selection menu located beside each file’s progress bar in the Project view.](./assets/translating-guide-crowdin-stage-selection.png)
 
-Click the Create Review Request button on the top left. This will open a form where you can leave comments about your translation. Note anything you were unsure about that you want the moderator to check in particular. Include any other comments that are relevant.
+Alternatively, if you already have the editor open, you can click the menu in the upper left corner and select “Workflow” to choose your desired stage.
 
-Then click **Submit**.
+![The workflow stage selection menu in the Editor menu.](./assets/translating-guide-crowdin-editor-stage.png)
 
-![](./assets/translating-guide-gitlocalize-create-review-request.png)
+Crowdin's proofreading interface will provide you with various QA warnings. You can click spellcheck suggestions to ignore them throughout the document, or add any necessary corrections directly to the string.
 
-Now you will see a page where you can commit the changes, but you cannot actually take an action here unless you are a Moderator, so you are finished.
+![A sample of QA errors seen in Crowdin’s proofreading mode.](./assets/translating-guide-crowdin-qa-warnings.png)
 
-![](./assets/translating-guide-gitlocalize-commit.png)
+Click any string to edit it if it requires a correction.
 
-After the review has been completed and your translation merged, you will receive an email notification. The moderator may have questions or suggestions for your translation, in which case you will also receive an email notification.
+![The string editor in Crowdin’s proofreading mode.](./assets/translating-guide-crowdin-proof-string.png)
 
-Now you can translate another chapter! Click the language link to go back to the language folder and follow the steps above again, creating a new review request as you finish each chapter.
+When you want to approve a string, click the checkmark button to the right of the string. The status of the string will update from “TODO” to “DONE”.
+
+![An approved string in Crowdin with the “DONE” status](./assets/translating-guide-crowdin-proof-approved.png) An approved string in Crowdin with the “DONE” status.
+
+The filtering feature located next to the "Search in file" bar is particularly useful for proofreading as it will allow you to quickly locate unapproved strings or strings with comments, etc.
+
+![The filter menu in the proofreading editor](./assets/translating-guide-crowdin-proof-filters.png)
+
+Features available in the right panel of the editor and described in the translation stage of this documentation such as commenting, and translation memory/glossary searching are available in the proofreading stage as well, so please refer to them as needed.
 
 ## Maintain or Update a Document Translation
 
 After you complete a translation of a document, it is ideal if you can continue to maintain the translation as the document is changed and updated. Documents are updated when the software changes or when improvements and additions to the document are made.
 
-Once you translate a document, any time there is an update to that document it will get sent to GitLocalize and you will receive a notification of the update at the email address associated with your GitHub account.
-
-You can also visit GitLocalize to see if there have been updates that need to be translated, even if you did not do the original translation. If a document shows a percentage un-translated, there is probably an update that needs to be translated.
-
-![](./assets/translating-guide-gitlocalize-translation-update.png)
-
-If the document shows a status of "Conflict," like in the example below, it probably means the document was translated outside of GitLocalize and so the relationships between the original text and translated text have not been defined. See the section below on "Update a Document Translated Outside of GitLocalize" for further information.
-
-![](./assets/translating-guide-gitlocalize-conflict.png)
-
-Usually updates will consist of small changes, such as a change to a paragraph, a new paragraph or section, and/or updated screenshots. Sometimes changes will be larger, like a new chapter or substantial changes to the text and/or screenshots. Usually if a document changes substantially, the DIG will release a new version of it and maintain the old version.
-
-To update the translation, open the guide and find the chapter that needs to be updated, which will not be 100% translated.
-
-![](./assets/translating-guide-gitlocalize-translation-update-chapters.png)
-
-On the right you will see text in the document’s original language that needs to be translated.
-
-![](./assets/translating-guide-gitlocalize-update-section.png)
-
-Translate that text, using machine translation tools as desired, and click **Submit** below the section when finished.
-
-Click **Create Review Request** when you have finished translating the updates.
-
-### Update a Document Translated Outside of GitLocalize
-
-Some PKP documents were translated before GitLocalize was adopted. These translations have been moved into GitLocalize but the translated segments of text need to be manually connected to the original segments of text. Until the segments are connected, the document will show as having "conflicts."
-
-To update these translations you can follow the instructions above. Please note that because these documents were translated in the past, there may be a number of significant changes and new segments that need to be translated.
-
-In addition to updating the translation, you will need to connect any segment tinted red to its original segment. This includes screenshots.
-
-![](./assets/translating-guide-gitlocalize-segment-conflict.png)
-
-1. Click on the segment highlighted in red
-2. You will see a message that says "A source segment for this translation is missing. Please link to a segment on the left or delete this translation if it is outdated." and a button below it to "Link to a segment."
-3. Click the **Link to a segment** button. A line will appear.
-4. Move to the line to the segment on the left that is the original text of the translated text on the right. Click in the original text segment.
-
-Do this for the rest of the red segments on the page.
+If the translation progress bar for a previously completed document falls below 100%, it is likely that it has been updated and that the translation needs to be updated as well. Notifications will also be posted to Crowdin about known large updates to documentation in order to inform translators.
 
 ## Improve a Document Translation
 
 If a document has already been translated but you think the translation needs to be improved, you can edit an existing translation.
 
-Follow the instructions above under [Start Translating](#start-translating). The translated text will appear on the right.
+Follow the instructions above under [Proofreading Documentation Translation](#proofreading-documentation-translation) to make direct changes and suggestions.
 
-You can edit any section that needs improvement and click **Submit** as you finish the section.
+## Translate without Crowdin
 
-When you are finished, follow the instructions under **Create Review Request**.
-
-## Translate without GitLocalize
-
-If you do not want to use GitLocalize to translate PKP documentation, your other option is to translate the markdown files, maintaining markdown formatting, and submit your translation directly in the [pkp-docs repository](https://github.com/pkp/pkp-docs) in GitHub. Please note, this method is less preferred because the translation will need to be pulled into GitLocalize and the Translation Coordinator or a future translator will have to manually associate each translated segment of text with the original text.
+If you do not want to use Crowdin to translate PKP documentation, your other option is to translate the markdown files, maintain markdown formatting, and submit your translation directly in the [pkp-docs repository](https://github.com/pkp/pkp-docs) in GitHub. Please note, this method is less preferred because the translation will need to be pulled into GitLocalize and the Translation Coordinator or a future translator will have to manually associate each translated segment of text with the original text.
 
 To understand how documents in pkp-docs are structured and how to create and edit documents, read the [Guidelines for Contributing to PKP Documentation](/contributing/en/).
 
 You can look at the structure of an already translated document, such as Learning OJS, to see how a GitHub-based translation will work.
-
-## Review a Translation
-
-If you are a Language Moderator and a new translation in that language is completed in GitLocalize, you will receive a notification by email that there is a new translation to review.
-
-Go to the [PKP Docs GitLocalize site](https://gitlocalize.com/repo/4035). You will be automatically logged in if you are logged in to GitHub.
-
-Go to the Review Request tab to see the open review request.
-
-![](./assets/translating-guide-gitlocalize-review-review-request.png)
-
-Click on the review request to open it. The **Conversation** tab will show any comments the translator made. Go to the second **Translated Texts** tab to view the translation.
-
-![](./assets/translating-guide-gitlocalize-review-translated-texts.png)
-
-If you want to suggest changes to the translator or ask a question, reply in the Conversation tab. If you are happy with the translation, you can go back to the Conversation tab and click Send Pull Request. You will be asked to enter a Title and Description for your pull request. The title should include the name of the file or files that are included in the translation pull request and the language that they were translated into. For example, "French translation of Learning OJS - Website Settings." The Description can be the same or you can add further information as needed.
-
-This will send a pull request to the pkp-docs GitHub repository, to be merged. You will receive an email notification once it is merged. The translation will be available in the Docs Hub the next time the website is built, which could be in a few days or a week.
-
-There is a bug in GitLocalize that will sometimes display a link to "Create Review Request" after you have gone through all of the above steps and there is nothing new to review. If you encounter this, please ignore it.
