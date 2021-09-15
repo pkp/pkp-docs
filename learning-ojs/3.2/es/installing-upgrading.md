@@ -10,15 +10,15 @@ OJS 3 es una aplicación web de PHP con procesos estandarizados de instalación 
 Los requerimientos del sistema OJS actualizados, así como las instrucciones de instalación, actualización y configuración pueden encontrarse en las siguientes ubicaciones:
 
 * en el paquete descargado desde la [página de descarga de OJS](https://pkp.sfu.ca/ojs/ojs_download/) (dentro del directorio `docs/`);
-* directly in the online [README](https://pkp.sfu.ca/ojs/README) or [UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE) documents;
-* in the PKP [Administrator's Guide](/admin-guide).
+* directamente en los documentos en línea [README](https://pkp.sfu.ca/ojs/README) o [UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE);
+* en la [Guía del Administrador de PKP](/admin-guide).
 
-For those who want to install from source via Git, instructions can be found directly on [GitHub](https://github.com/pkp/ojs).
+Para aquellos que quieran instalar desde el código fuente a través de Git, las instrucciones se pueden encontrar directamente en [GitHub](https://github.com/pkp/ojs).
 
-## Download
+## Descarga
 
-OJS can be downloaded from the [Public Knowledge Project web site](https://pkp.sfu.ca).
+OJS se puede descargar desde el [sitio web de Public Knowledge Project](https://pkp.sfu.ca).
 
-## Hosted Solutions
+## Soluciones Alojadas
 
-If you do not have the expertise, staff or desire to install and manage OJS on your own, PKP Publishing Services provides complete hosting solutions at a number of price points. For more information, see the [PKP Publishing Services website](https://pkpservices.sfu.ca).
+Si no tiene la experiencia, el personal o el deseo de instalar y administrar OJS por su cuenta, PKP Publishing Services proporciona soluciones completas de alojamiento con distintos precios. Para obtener más información, consulte el [sitio web de los Servicios de Publicación de PKP](https://pkpservices.sfu.ca).
