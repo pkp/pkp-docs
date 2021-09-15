@@ -1,3 +1,7 @@
+- - -
+title: Open Journal Systems - Student Journal Toolkit
+- - -
+
 # Open Journal Systems
 
 Before you get started, you will need to consider how and where you will host and manage your journal content. For example, where will the content be published, how will you receive submissions, and how will those be reviewed? Your institution's library may be able to provide hosting support for your journal through journal management software such as [Open Journal Systems (OJS)](https://pkp.sfu.ca/ojs/). OJS is a free, open source journal management and publishing system developed by the [Public Knowledge Project](https://pkp.sfu.ca/) (PKP). OJS is used globally by thousands of journals. Many libraries host OJS themselves, and PKP also offers fee-based [publishing services](https://pkpservices.sfu.ca/) for those who prefer to have the hosting taken care of outside their organization.
