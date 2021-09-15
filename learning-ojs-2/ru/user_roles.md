@@ -1,6 +1,6 @@
 # Chapter 3: User Roles
 
-# About User Roles
+## About User Roles
 
 OJS uses a comprehensive roles system to divide work between users, assign workflows, and limit access to different parts of the system. Since one installation of OJS can host multiple journals, users can be enrolled in different roles for more than one journal.
 
