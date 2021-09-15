@@ -3,13 +3,13 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Installing and Upgrading
+# Instalar y Actualizar
 
-OJS 3 is a PHP web application with standardized install and upgrade processes. These processes are kept as simple as possible, though some general systems administration experience is recommended.
+OJS 3 es una aplicación web de PHP con procesos estandarizados de instalación y actualización. Estos procesos se mantienen lo más sencillos posible, aunque se recomienda cierta experiencia general en la administración de sistemas.
 
-Up to date OJS system requirements, as well as installation, upgrade, and configuration instructions can be found in the following locations:
+Los requerimientos del sistema OJS actualizados, así como las instrucciones de instalación, actualización y configuración pueden encontrarse en las siguientes ubicaciones:
 
-* in the package you downloaded from the [OJS download page](https://pkp.sfu.ca/ojs/ojs_download/) (look in the `docs/` directory);
+* en el paquete descargado desde la [página de descarga de OJS](https://pkp.sfu.ca/ojs/ojs_download/) (dentro del directorio `docs/`);
 * directly in the online [README](https://pkp.sfu.ca/ojs/README) or [UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE) documents;
 * in the PKP [Administrator's Guide](/admin-guide).
 
