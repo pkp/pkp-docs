@@ -1,6 +1,7 @@
 ---
 book: learning-ops
 version: 3.3
+title: Statistics - Learning OPS
 ---
 # Statistics
 
