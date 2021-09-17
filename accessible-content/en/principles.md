@@ -1,3 +1,7 @@
+---
+title: General principles for creating accessible content - Creating Accessible Content Guide
+--- 
+
 # General principles for creating accessible content
 
 ## Alt text for images
