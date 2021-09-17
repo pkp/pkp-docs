@@ -1,3 +1,8 @@
+---
+title: Creating Accessible Content: A Guide for Journal Editors and Authors
+description: A guide for journal on preparing accessible content for submission and publication.
+---
+
 # Creating Accessible Content: A Guide for Journal Editors and Authors
 
 The Creating Accessible Content guide covers the general principles of creating universally accessible content published on the web. It highlights techniques to address specific limitations or the use of assistive technologies, such as screen readers for people with visual impairment or sign language for those with auditory limitations. Finally, it gives specific tips on creating different galley formats in an accessible way.
