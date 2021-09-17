@@ -17,23 +17,23 @@ Esta guía cubre la versión 3.2 de OJS, publicada en febrero de 2020, y contien
 
 *OJS es flexible y escalable*. Una sola instalación de OJS puede soportar el funcionamiento de una o varias revistas. Cada revista tiene su propia URL única, así como su propia apariencia y estilo. OJS puede permitir a un único editor gestionar todos los aspectos de una revista y el sitio web de la misma, o apoyar a un equipo internacional de editores con diversas responsabilidades para las múltiples secciones de la revista.
 
-*OJS apoya el principio de extender el acceso*. This system is intended not only to assist with journal publishing, but to demonstrate how the costs of journal publishing can be reduced to the point where providing readers with "open access" to the contents of the journal becomes a viable option. The case for open access is spelled out over a wide series of articles stemming from this project which are freely available under Research > Publications on the [Public Knowledge Project](https://pkp.sfu.ca/) website.
+*OJS apoya el principio de extender el acceso*. Este sistema está destinado no sólo a ayudar con la publicación de revistas, pero para demostrar cómo los costos de la publicación de revistas pueden reducirse a tal punto de que proporcionar a los lectores "acceso abierto" al contenido de la revista se convierta en una opción viable. El apoyo al acceso abierto se describe en una amplia serie de artículos derivados de este proyecto que están disponibles libremente en Investigación > Publicaciones en el sitio web de [Public Knowledge Project](https://pkp.sfu.ca/).
 
-*The origins of OJS*. The system was first released in 2001 as a research and development initiative at the University of British Columbia, with the support of the Social Sciences and Humanities Research Council of Canada, the Max Bell Foundation, the Pacific Press Endowment, and the MacArthur Foundation. Its continuing development is currently overseen by the Simon Fraser University Library. For more information, see the [Public Knowledge Project website](https://pkp.sfu.ca).
+*Los orígenes de OJS*. El sistema fue lanzado por primera vez en 2001 como una iniciativa de investigación y desarrollo en la Universidad de British Columbia, con el apoyo del Consejo de Investigación de Ciencias Sociales y Humanidades de Canadá, la Fundación Max Bell, el Pacific Press Endowment y la Fundación MacArthur. Su continuo desarrollo está actualmente supervisado por la Biblioteca de la Universidad Simon Fraser. Para obtener más información, consulte el [sitio web de Public Knowledge Project](https://pkp.sfu.ca).
 
 <hr />
 
-## OJS Features
+## Características de OJS
 
-OJS includes the following features:
+OJS incluye las siguientes características:
 
-1. OJS is installed locally and controlled locally
-2. Editors configure requirements, sections, review process, etc.
-3. Online submission, double-blind review, and management of all content
-4. Comprehensive indexing of content
-5. Responsive, themable reader interface
-6. Email notification for readers
-7. Support for article-processing charges, subscriptions, and online payments
+1. OJS se instala y se controla localmente
+2. Los editores configurar los requisitos, las secciones, el proceso de revisión, etc.
+3. Envío en línea, revisión doble ciega y gestión de todo el contenido
+4. Indexación integral del contenido
+5. Interfaz de lector responsiva y modificable
+6. Notificaciones por correo electrónico para lectores
+7. Soporte para cargos de procesamiento de artículos, suscripciones y pagos en línea
 8. Complete context-sensitive online Help support
 9. Multilingual support
 
