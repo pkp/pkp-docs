@@ -1,7 +1,7 @@
 ---
 book: learning-ops
 version: 3.3
-title: Learning OPS- About OPS
+title: About OPS - Learning OPS 
 ---
 
 # About OPS
