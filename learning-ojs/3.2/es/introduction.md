@@ -34,10 +34,10 @@ OJS incluye las siguientes características:
 5. Interfaz de lector responsiva y modificable
 6. Notificaciones por correo electrónico para lectores
 7. Soporte para cargos de procesamiento de artículos, suscripciones y pagos en línea
-8. Complete context-sensitive online Help support
-9. Multilingual support
+8. Soporte completo de ayuda en línea sensible al contexto
+9. Soporte Multilingüe
 
-## What's New in OJS 3
+## Qué hay de nuevo en OJS
 
 OJS 3 is significantly different than its predecessor, OJS 2. It includes enhancements and new features developed from community feedback, extensive usability testing, and new software design capabilities.
 
