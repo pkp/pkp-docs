@@ -108,12 +108,7 @@ To start, go to Press Setting followed by the Categories tab.
 2. Click the Remove button that appears below
 3. Confirm that you want to remove the category
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="./assets/learning-omp3.2-press-setting-categories-3.mp4" type="video/mp4">
-  </video>
-  <figcaption>Video of the steps above being performed.</figcaption>
-</figure>
+![Category edit options with Remove button highlighted.](./assets/learning_OMP_press_settings_remove_category.png)
 
 #### Display categories
 
