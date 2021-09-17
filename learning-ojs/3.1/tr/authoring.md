@@ -167,49 +167,49 @@ Gözden geçirilmiş dosyanız artık Düzeltmeler panelinde görünecektir.
 
 ### Editörü Bilgilendirme
 
-Editör, yüklenmekte olan yeni dosya(lar) hakkında bir bildirim alacaktır. Additionally you can inform the editor via the Review Discussion panel as explained below.
+Editör, yüklenmekte olan yeni dosya(lar) hakkında bir bildirim alacaktır. Ayrıca aşağıda açıklandığı gibi Değerlendirme Tartışma paneli aracılığıyla editöre bilgi verebilirsiniz.
 
 ![Review discussions panel](./assets/learning-ojs-3-auth-responding-discussion.png)
 
-From there, select the *Add Discussion* link.
+Buradan, *Tartışma Ekle* bağlantısını seçin.
 
 ![Add discussion and add user](./assets/learning-ojs-3-auth-responding-discussion-add.png)
 
-Use the *Add User* link to add the editor.
+Editörü eklemek için *Kullanıcı Ekle* bağlantısını kullanın.
 
-Add a subject line and a message.
+Bir konu satırı ve bir mesaj ekleyin.
 
-Hit **OK** to send the message.
+Mesajı göndermek için **Tamam**'a basın.
 
-An email has now been sent to the editor and you (and the editor) can see the message in the Review Discussions panel.
+Böylece editöre bir e-posta gönderildi ve siz (ve editör) mesajı Değerlendirme Tartışma panelinde görebilirsiniz.
 
 ![Message in review discussions panel](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
 
-At this point, the author needs to wait to hear back from the editor as to whether the revisions are acceptable.
+Bu noktada, yazarın düzeltmelerin kabul edilebilir olup olmadığı konusunda editörden haber beklemesi gerekir.
 
-### Revisions Accepted
+### Kabul Edilen Revizyonlar
 
-You will receive an email that your revisions have been accepted.
+Revizyonlarınızın kabul edildiğine dair bir e-posta alacaksınız.
 
-In addition, notifications will appear on your dashboard.
+Ayrıca yönetim panelinde bildirimler görünecektir.
 
 ![Notifications in dashboard](./assets/learning-ojs-3-au-notifications.png)
 
-The later notification is the current one. Click on it to open the message (which is the same as the email you would have also received).
+Sonraki bildirim güncel olanıdır. Mesajı açmak için üzerine tıklayın (bu, alacağınız e-posta ile aynıdır).
 
 ![Notification message](./assets/learning-ojs-3-au-notifications2.png)
 
-Use the **X** in the upper right corner to close the window.
+Pencereyi kapatmak için sağ üst köşedeki **X**'i kullanın.
 
-Further down your dashboard, you will also see a discussion reply from the editor.
+Yönetim panelinizin daha aşağısında, editörden bir tartışma yanıtı da göreceksiniz.
 
 ![Discussion reply in review discussion panel](./assets/learning-ojs-3-au-rev-discussions.png)
 
-Clicking the discussion title will open it up.
+Tartışma başlığına tıklamak tartışmayı açacaktır.
 
 ![Review discussion message](./assets/learning-ojs-3-au-rev-discussions2.png)
 
-Congratulations! You've been accepted and your submission file is moving on to the Copyedit stage.
+Tebrikler! Kabul edildiniz ve gönderim dosyanız Kopya Düzenleme aşamasına geçiyor.
 
 <hr />
 
