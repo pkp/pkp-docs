@@ -165,9 +165,9 @@ Gözden geçirilmiş dosyanız artık Düzeltmeler panelinde görünecektir.
 
 ![Revised file now in revisions panel](./assets/learning-ojs-3-auth-responding-upload4.png)
 
-### Editörü Bilgilendir
+### Editörü Bilgilendirme
 
-The editor will receive a notification about the new file(s) being uploaded. Additionally you can inform the editor via the Review Discussion panel as explained below.
+Editör, yüklenmekte olan yeni dosya(lar) hakkında bir bildirim alacaktır. Additionally you can inform the editor via the Review Discussion panel as explained below.
 
 ![Review discussions panel](./assets/learning-ojs-3-auth-responding-discussion.png)
 
