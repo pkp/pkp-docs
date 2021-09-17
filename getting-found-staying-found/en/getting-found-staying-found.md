@@ -4,7 +4,7 @@ Once your journal has developed a loyal readership, and established itself with 
 
 In this section we delve into some specific and more technical aspects of running the OJS software. If you’re running your own instance of OJS some of this may be more applicable to technical staff that may be running your OJS software. Having someone working with you who is knowledgeable about web security and systems administration can be of significant benefit to your journal. If possible, it is important to seek out someone with the necessary skills to be able to assist you with these matters.  The section that follows provides a brief overview of different considerations that you should take for hosting and ensuring the ongoing availability of your online journal. For specific, aspects of running OJS in particular, you may wish to consult some of our other [documentation](https://docs.pkp.sfu.ca), and, in particular the [Administrator's guide](https://docs.pkp.sfu.ca/admin-guide/) for more of an in-depth guide.
 
-## Server environment
+## Server Environment
 
 > Contributed by Roger Gillis
 
@@ -20,7 +20,7 @@ And, lastly, you’ll want to consider support, in terms of what type of assista
 
 Like many open source platforms, OJS is undergoing continuous development with new features being added and bugs being fixed. As a part of this, it is necessary to keep on top of upgrading the version of OJS that runs on your server as new versions of OJS get released. Another consideration to take into account is whether or not you have resources and/or expertise at your disposal to be able to carry out upgrades as the software grows. If you are looking to an outside host to host your publication/journal such as a university library, [PKP Publishing Services](https://pkpservices.sfu.ca/), or a commercial host, you should inquire if this is something that they assist with, how often they may upgrade your OJS installation, and if there are any costs involved.
 
-### Shared hosting vs. Dedicated Server Hosting
+### Shared Hosting vs. Dedicated Server Hosting
 
 If you are considering hosting OJS on your own, there are several factors to take into consideration. One key consideration is what type of hosting you are seeking out. Many commercial webhosting operations now offer a variety of webhosting options, and it's important to know what the pros and cons of each are and how they might impact you hosting OJS on your own.
 
@@ -32,7 +32,7 @@ In this arrangement, the server that hosts your website will also be hosting oth
 
 In this hosting arrangement, a virtualized server devoted to your needs is provided. This is a “middle-of-the road” option and can be affordable, but is usually not as cheap as shared hosting. In this hosting environment often different resources can be scaled up and applied should you need them (usually at an additional cost). For example, if your site experiences a rise in traffic, you may be able to pay more to dedicate additional bandwidth for a period of time or on an ongoing basis. Some popular commercial virtual private server hosting include: [Digital Ocean](https://www.digitalocean.com/), [Amazon Web Services](https://aws.amazon.com), and [Linode](https://www.linode.com/), to name a few.
 
-### Dedicated server
+### Dedicated Server
 
 In this situation, an entire piece of physical hardware (i.e. a server) may be dedicated to your use. This is the most expensive of these three options and idea for very high traffic websites or larger operations that might have more complex needs.
 
@@ -74,7 +74,7 @@ Preservation is a requirement for initiatives such as the [Directory of Open Acc
 
 ### DOAJ and Digital Preservation/Archiving Policy
 
-Having a clear digital preservation and archiving strategy and making this explicit as part of a policy is a key component of the [DOAJ application process](/doaj/) policy and one of the criteria for being awarded the DOAJ Seal. If your journal is using OJS, you should consider enabling the PKP Preservation Network (PKP PN) plugin, as noted below, which will fulfill the archiving component from DOAJ. Also, be sure to document and make your journal’s policy on archiving available. In OJS, this can be done as part of the setup process, and the policy will then appear on your journal’s “About” page.
+Having a clear digital preservation and archiving strategy and making this explicit as part of a policy is a key component of being awarded the [DOAJ Seal](https://doaj.org/apply/guide/). If your journal is using OJS, you should consider enabling the PKP Preservation Network (PKP PN) plugin, as noted below, which will fulfill the archiving component from DOAJ once the Keeper's Registry (also explained below) shows that archiving in the PKP PN is active and ongoing. Also, be sure to document and make your journal’s policy on archiving available. In OJS, this can be done as part of the setup process, and the policy will then appear on your journal’s “About” page.
 
 The following policy from _Current Oncology_ is an example of a clear and concise archiving policy:
 
@@ -148,6 +148,6 @@ Other services, such as the DOAJ, may check the Keeper's Registry to confirm a j
 
 **Further Reading:**
 
-[Digital Preservation initiatives](https://en.wikipedia.org/wiki/List_of_digital_preservation_initiatives)
-
-For more information on the DOAJ application process, please see [the DOAJ Application Guide](/doaj/).
+* [Digital Preservation initiatives](https://en.wikipedia.org/wiki/List_of_digital_preservation_initiatives)
+* [Project JASPER](https://doaj.org/preservation/) is a partnership between DOAJ, PKP, CLOCKSS, Internet Archive, and the Keepers Registry to preserve open access journals
+* The [DOAJ Application Guide](/doaj/) explains the DOAJ application process and OJS
