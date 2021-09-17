@@ -1,7 +1,7 @@
 ---
 book: learning-ops
 version: 3.3
-title: Learning OPS - Content Discovery
+title: Content Discovery - Learning OPS
 ---
 # Content Discovery
 
