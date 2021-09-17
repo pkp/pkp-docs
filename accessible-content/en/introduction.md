@@ -1,5 +1,5 @@
 ---
-title: Accessible and inclusive publishing - Creating Accessible Content
+title: Accessible and inclusive publishing - Creating Accessible Content Guide
 ---
 
 # Accessible and inclusive publishing
