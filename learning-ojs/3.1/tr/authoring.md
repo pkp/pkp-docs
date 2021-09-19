@@ -217,21 +217,21 @@ Tebrikler! Kabul edildiniz ve gönderim dosyanız Kopya Düzenleme aşamasına g
 
 Editörün kararı değerlendirme için yeniden göndermekse, oturum açmanız ve gönderiler sayfanızdan makaleyi seçmeniz gerekecektir. Yeniden gönderim, değerlendirme aşamasında yapılır; yeni bir gönderim başlatmaya gerek yoktur.
 
-At the review stage you will need to do two things to resubmit once you have revised your document:
+Değerlendirme aşamasında, belgenizi revize ettikten sonra yeniden göndermek için iki şey yapmanız gerekecektir:
 
-Upload the new file in the revisions section. To upload a new file click on ‘Upload file.’ A new window will open allowing you to upload your file(s). Select the appropriate option from the dropdown menu to indicate you are submitting a revision of an existing file.
+Yeni dosyayı revizyonlar bölümünde yükleyin. Yeni bir dosya yüklemek için 'Dosya yükle'yi tıklayın. Dosya(ları)nızı yüklemenize izin veren yeni bir pencere açılacaktır. Mevcut bir dosyanın revizyonunu gönderdiğinizi belirtmek için açılır menüden uygun seçeneği seçin.
 
-Add a discussion to notify the editor that you have re-submitted.
+Yeniden gönderdiğinizi editöre bildirmek için bir tartışma ekleyin.
 
-The peer review process will be repeated, and you will likely receive additional revisions to make. Once these are completed and accepted, you will then be moved to the next stage.
+Hakem değerlendirmesi süreci tekrarlanacak ve muhtemelen yapmanız gereken ek revizyonlar alacaksınız. Bunlar tamamlandıktan ve kabul edildikten sonra bir sonraki aşamaya geçeceksiniz.
 
 <hr />
 
-## Responding to a Copyediting Request
+## Kopya Düzenleme İsteğine Yanıt Verme
 
-The next step in the workflow is to inspect your submission files that have been copyedited.
+İş akışındaki bir sonraki adım, kopyası düzenlenmiş gönderim dosyalarınızı incelemektir.
 
-You will receive an email indicating that files are available. To see them, login to the journal and go to your dashboard.
+Dosyaların mevcut olduğunu belirten bir e-posta alacaksınız. To see them, login to the journal and go to your dashboard.
 
 ![Author submission dashboard](./assets/learning-ojs-3-au-copyedits.png)
 
