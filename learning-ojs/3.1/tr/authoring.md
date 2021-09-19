@@ -213,9 +213,9 @@ Tebrikler! Kabul edildiniz ve gönderim dosyanız Kopya Düzenleme aşamasına g
 
 <hr />
 
-## Resubmitting for Review
+## Değerlendirme İçin Yeniden Gönderme
 
-If the editor’s decision is to resubmit for review, you will need to log in and select the article in your submissions page. The resubmission is done in the review stage, there is no need to start a new submission.
+Editörün kararı değerlendirme için yeniden göndermekse, oturum açmanız ve gönderiler sayfanızdan makaleyi seçmeniz gerekecektir. Yeniden gönderim, değerlendirme aşamasında yapılır; yeni bir gönderim başlatmaya gerek yoktur.
 
 At the review stage you will need to do two things to resubmit once you have revised your document:
 
