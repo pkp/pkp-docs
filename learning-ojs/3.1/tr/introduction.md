@@ -3,13 +3,13 @@ book: learning-ojs
 version: 3.1
 ---
 
-# Chapter 1: Introduction
+# Bölüm 1: Giriş
 
-Open Journal Systems \(OJS\) is an open source solution to managing and publishing scholarly journals online. OJS is a highly flexible editor-operated journal management and publishing system that can be downloaded for free and installed on a local Web server.
+Open Journal Systems \(OJS\), bilimsel dergileri çevrimiçi olarak yönetmek ve yayınlamak için açık kaynaklı bir çözümdür. OJS; ücretsiz olarak indirilebilen ve yerel bir Web sunucusuna kurulabilen, editör tarafından işletilen, oldukça esnek bir dergi yönetim ve yayıncılık sistemidir.
 
-It has been designed to reduce the time and energy devoted to the clerical and managerial tasks associated with editing a journal, while improving the record-keeping and efficiency of editorial processes. It seeks to improve the scholarly and public quality of journal publishing through a number of innovations, including enhancing the reader experience, making journal policies more transparent, and improving indexing.
+OJS, bir derginin düzenlenmesiyle ilgili yazım ve yönetim görevlerine ayrılan zaman ve enerjiyi azaltırken, kayıt tutma ve editoryal süreçlerin verimliliğini artırmak için tasarlanmıştır. Okuyucu deneyimini geliştirmek, dergi politikalarını daha şeffaf hale getirmek ve indekslemeyi geliştirmek de dahil olmak üzere bir dizi yenilik yoluyla dergi yayıncılığının bilimsel ve kamusal kalitesini iyileştirmeyi amaçlamaktadır.
 
-This book covers OJS version 3.1, released in October 2017, and features significant enhancements over the previous versions of the software. We hope you find it helpful for your publishing projects.
+Bu kitap, Ekim 2017'de yayınlanan OJS 3.1 sürümünü kapsar ve yazılımın önceki sürümlerine göre önemli geliştirmeler içerir. Bunu yayıncılık projeleriniz için yararlı bulacağınızı umuyoruz.
 
 ## Background
 
@@ -23,11 +23,11 @@ This book covers OJS version 3.1, released in October 2017, and features signifi
 
 <hr />
 
-## OJS Features
+## OJS Özellikleri
 
-OJS includes the following features:
-1. OJS is installed locally and controlled locally
-2. Editors configure requirements, sections, review process, etc.
+OJS aşağıdaki özellikleri içerir:
+1. OJS yerel olarak kurulur ve yerel olarak kontrol edilir
+2. Editörler gereksinimleri, bölümleri, inceleme sürecini vb. yapılandırır
 3. Online submission, double-blind review, and management of all content
 4. Comprehensive indexing of content
 5. Responsive, themable reader interface
@@ -67,13 +67,13 @@ The editorial interface is known as your **dashboard** and consists of the follo
 5. **Main Panel Sub-Menus**: Within the Main Panel, you will often see tabs that allow you to view different information about the content being worked on. In this example, the submission record is broken into four sections \(Submission, Review, Copyediting, Production\). Notice the Help tab to the right, which provides context-sensitive help for the page you are currently viewing.
 6. **Right Panel**: From here, you can see the action buttons, such as Schedule for Publication. Different pages have different action buttons. Below the action buttons is the Participants table, which lists everyone \(except Reviewers\) involved in the submission.
 
-## Community Contributions
+## Topluluk Katkıları
 
-The OJS team encourages contributions from the developer community. If you are interested in getting involved in making OJS even better, we welcome your participation.
+OJS ekibi, geliştirici topluluğun katkılarını teşvik eder. OJS'yi daha da iyi hale getirmekle ilgileniyorsanız, katılımınızı memnuniyetle karşılıyoruz.
 
 Excellent examples of community contributions include the vast array of languages that OJS is available in; and third-party plugins posted to the [community forum](https://forum.pkp.sfu.ca/) and the archived forum page.
 
-We also welcome software testing and bug reporting contributions.
+Ayrıca yazılım testi ve hata raporlama katkılarını da memnuniyetle karşılıyoruz.
 
 ## Support
 
