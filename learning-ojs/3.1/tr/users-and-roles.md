@@ -3,13 +3,13 @@ book: learning-ojs
 version: 3.1
 ---
 
-# Chapter 10: Users and Roles
+# Bölüm 10: Kullanıcılar ve Roller
 
-This section provides access to all of the user accounts associated with your journal, as well as the opportunity to manage roles and permissions.
+Bu bölüm, derginizle ilişkili tüm kullanıcı hesaplarına erişimin yanı sıra rolleri ve izinleri yönetme fırsatı sağlar.
 
-## Users
+## Kullanıcılar
 
-In addition to managing the journal web site, the Journal Manager is also responsible for all of the user accounts in the system.
+Dergi Yöneticisi, dergi web sitesini yönetmenin yanı sıra sistemdeki tüm kullanıcı hesaplarından da sorumludur.
 
 To view the user accounts, select Users & Roles from the left menu.
 
@@ -17,15 +17,15 @@ To view the user accounts, select Users & Roles from the left menu.
 
 ### Users
 
-Users are displayed in last name order.
+Kullanıcılar soyadı sırasına göre görüntülenir.
 
-You can edit a user account by selecting the blue arrow to the left of an entry.
+Bir girişin solundaki mavi oku seçerek bir kullanıcı hesabını düzenleyebilirsiniz.
 
 ![Blue arrow selected by a user's name with options to edit their account](./assets/learning-ojs3.1-jm-users-edit.png)
 
-This opens the options to Email, Edit User, Disable, Remove, Login As, Merge User.
+Bu; E-posta, Kullanıcıyı Düzenle, Devre Dışı Bırak, Kaldır, Farklı Oturum Aç, Kullanıcıyı Birleştir seçeneklerini açar.
 
-#### Email Users
+#### E-posta Kullanıcıları
 
 If you want to email a user about a particular submission, you can use the Discussion feature in the submission. This keeps all communication about a submission in one place.
 
