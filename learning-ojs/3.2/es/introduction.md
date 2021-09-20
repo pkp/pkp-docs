@@ -39,7 +39,7 @@ OJS incluye las siguientes características:
 
 ## Qué hay de nuevo en OJS
 
-OJS 3 is significantly different than its predecessor, OJS 2. It includes enhancements and new features developed from community feedback, extensive usability testing, and new software design capabilities.
+OJS 3 es significativamente diferente de su predecesor, OJS 2. It includes enhancements and new features developed from community feedback, extensive usability testing, and new software design capabilities.
 
 ## Reader Interface
 
