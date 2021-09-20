@@ -3,27 +3,27 @@ book: learning-ojs
 version: 3.1
 ---
 
-# Chapter 14: Editorial Workflow
+# Bölüm 14: Editoryal İş Akışı
 
-In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
+Bu bölümde, ilk gönderiden yayınlanma sürecinin son aşamasına kadar bir gönderinin tüm iş akış süreçlerini göreceksiniz.
 
-The workflow is divided into 4 stages:
+İş akışı 4 aşamaya ayrılmıştır:
 
-**Submission**: This is where new submissions land while being assigned to Section Editors and considered for moving into the Review stage.
+**Gönderi**: Burası, Bölüm Editörlerine atanan ve Değerlendirme aşamasına geçmek için dikkate alınan yeni gönderilerin geldiği yerdir.
 
-Some submissions are clearly inappropriate and never make it beyond this stage.
+Belirgin olarak uygun olmayan gönderiler asla bu aşamanın ötesine geçemez.
 
-**Review**: This is where the peer review happens, as well as any revisions required by the author.
+**Değerlendirme**: Burası, yazar tarafından gerekli görülen revizyonların yanı sıra hakem değerlendirmesinin gerçekleştiği yerdir.
 
-Some submission will not pass review and end here. Those that are accepted move to the next stage.
+Bazı gönderiler değerlendirmeyi geçmeyecek ve süreci burada tamamlanacaktır. Kabul edilen gönderiler bir sonraki aşamaya geçer.
 
-**Copyediting**: Accepted articles move to this stage, where they are improved by the work of a copyeditor. Authors can be given the opportunity to review the copyedits.
+**Kopya Düzenleme**: Kabul edilen gönderiler, kopya düzenleme sürecinden sonra bu aşamaya taşınır. Yazarlara kopyaları gözden geçirme fırsatı verilebilir.
 
-**Production**: Once the copyedits are completed and approved, the submission moves to this stage. In Production, the copyedited files are converted to galleys -- HTML, XML, PDF, etc. Again the author has the opportunity to proofread the galleys. Once everyone is satisfied, the submission is scheduled for publication in a future issue.
+**Üretim**: Kopya düzenlemeleri tamamlanıp onaylandıktan sonra, gönderi bu aşamaya geçer. Üretimde, kopyalanan dosyalar dizgileri yapılarak yayınlanacak biçime dönüştürülür - HTML, XML, PDF, vb. Yazar, dizgileri yapılmış kopyayı düzeltme fırsatına sahiptir. İlgili kişiler uygun gördüğünde, gönderinin gelecekteki bir sayıda yayınlanması planlanır.
 
 <hr />
 
-## Tasks
+## Görevler
 
 Your Tasks are available from the top left menu of your Dashboard. Note the number "1" in the image below. This indicates that there is currently 1 task in your list.
 
