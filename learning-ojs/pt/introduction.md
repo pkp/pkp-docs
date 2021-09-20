@@ -57,15 +57,15 @@ Gerentes, editores, pareceristas, autores e outros usuários da revista logados 
 
 Um usuário pode acessar seu perfil e selecionar uma ou mais línguas clicando no ícone do canto superior à direita.
 
-![The dashboard that Authors see when logged in](./assets/learning-ojs-3.3-navigation-menu-dashboard-author.png)
+![O painel que os Autores veem quando estão logados](./assets/learning-ojs-3.3-navigation-menu-dashboard-author.png)
 
 Um usuário agora pode acessar seu perfil de usuário e selecionar um idioma em periódicos multilíngues clicando no ícone do usuário no canto superior direito.
 
-![The menu where users can edit their profile and select a language](./assets/learning-ojs-3.3-navigation-menu-dashboard-user-menu.png)
+![O menu onde os usuários podem editar o seu perfil e selecionar um idioma](./assets/learning-ojs-3.3-navigation-menu-dashboard-user-menu.png)
 
 O link do painel para acesso público mudou. O Gerente ou Editor da revista agora pode ver o site público clicando no nome do periódico que aparece no símbolo do mapa do site, no canto esquerdo da página. Para instalações com várias revistas, pode-se clicar no mapa do site, no canto esquerdo da página, que a lista de instalação aparece e pode-se selecionar o site público da revista.
 
-![The link to view the public journal site](./assets/learning-ojs-3.3-navigation-menu-dashboard-view-journal.png)
+![O link para visualizar o site público do periódico](./assets/learning-ojs-3.3-navigation-menu-dashboard-view-journal.png)
 
 ### Fluxo Editorial
 
@@ -147,7 +147,7 @@ Também aceitamos testes de software e contribuições de relatos de bugs.
 
 ## Suporte
 
-PKP offers the following free support resources for OJS:
+O PKP oferece os seguintes recursos de suporte grátis para OJS:
 
 * [PKP Docs Hub](https://docs.pkp.sfu.ca/): guias do usuário, documentação do desenvolvedor e dicas de publicação para todos os nossos softwares. Também inclui links para vídeos desenvolvidos pela comunidade.
 * [Fórum da comunidade PKP](https://forum.pkp.sfu.ca/): um fórum de discussão on-line onde você pode fazer e responder perguntas, além de compartilhar ideias.
