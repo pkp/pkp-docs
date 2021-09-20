@@ -35,11 +35,11 @@ Her bir kutuyu işaretleyerek gönderi kontrol listesindeki ifadeleri okuyun ve 
 
 ### 2. Adım
 
-**2. Adım**'da, gönderi dosyanızı yüklemenize izin veren bir pencere açılacaktır.
+**2. Adım**'da gönderi dosyanızı yüklemenize izin veren bir pencere açılacaktır.
 
 ![File upload screen](./assets/learning-ojs-3-author-submission-step2.png)
 
-İlk olarak, bir Makale Bileşeni seçmelisiniz ZORUNLU'dur. Bu, sistemin makale metninin, bir resim, bir veri seti vb. olup olmadığını bilmesini sağlar. **Dosya yüklenmeden önce bu seçilmelidir**.
+İlk olarak, ZORUNLU olarak bir Makale Bileşeni seçmelisiniz. Bu seçim, sistemin makale metninin, bir resim, bir veri seti vb. olup olmadığını bilmesini sağlar. **Dosya yüklenmeden önce bu seçim yapılmalıdır**.
 
 ![Select article component](./assets/learning-ojs-3-author-submission-step2-2.png)
 
@@ -57,7 +57,7 @@ Tüm dosyalarınızı yüklemeyi bitirdikten sonra, **Tamamla**'yı tıklayın; 
 
 ![Complete upload](./assets/learning-ojs-3-author-submission-step2-4.png)
 
-Yüklediğiniz dosyaları göreceğiniz _Makale Gönder_ ekranına geri döndürüleceksiniz. Değişiklik yapmanız gerekiyorsa, dosyanızın solundaki mavi oku genişletin ve _Düzenle_ bağlantısını kullanarak tüm değişiklikleri yapın.
+Yüklediğiniz dosyaları göreceğiniz _Makale Gönder_ ekranına geri döndürüleceksiniz. Değişiklik yapmanız gerekiyorsa, dosyanızın solundaki mavi oka tıklayın ve _Düzenle_ bağlantısını kullanarak tüm değişiklikleri yapın.
 
 3. Adıma geçmek için 'Kaydet ve Devam Et'i tıklayın.
 
@@ -91,7 +91,7 @@ Anahtar kelimeyi girmek için, kelimeyi veya kelime öbeğini yazıp Enter tuşu
 
 4. Adımda, gönderi verilerini incelemeniz ve onaylamanız istenecektir.
 
-**Gönderimi Bitir**'i tıklayın.
+**Gönderiyi Bitir**'i tıklayın.
 
 ![Finish submission screen](./assets/learning-ojs3.1-au-dashboard-new-4.png)
 
@@ -105,15 +105,15 @@ Bitirdiğinizi onaylamanızı isteyen bir kutu açılacaktır. **Tamam**'ı tık
 
 Gönderiniz tamamlandı! Editör, gönderiniz hakkında bilgilendirildi. Bu noktada aşağıdaki bağlantıları takip edebilirsiniz:
 
-* Gönderiyi inceleyin
+* Gönderiyi incele
 * Yeni bir gönderi oluştur
-* Kontrol paneline dönün
+* Kontrol paneline dön
 
-Bir gönderiyi tamamladıktan sonra üzerinde değişiklik yapamazsınız.  Gönderdiğiniz dosyayı değiştirmek veya gönderide başka değişiklikler yapmak istiyorsanız, Ön İnceleme Tartışmaları aracı aracılığıyla editörle iletişime geçmeniz gerekir.
+Bir gönderiyi tamamladıktan sonra üzerinde değişiklik yapamazsınız.  Gönderdiğiniz dosyayı değiştirmek veya gönderide başka değişiklikler yapmak istiyorsanız, Ön İnceleme Tartışmaları seçeneği aracılığıyla editörle iletişime geçmeniz gerekir.
 
 ### Kontrol Paneli
 
-Panonuzdaki gönderiniz. Şu anda _Gönderi_ aşamasında olduğunu görebilirsiniz.
+Yönetim Panelindeki gönderiniz. Şu anda _Gönderi_ aşamasında olduğunu görebilirsiniz.
 
 ![Submission in author dashboard](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
@@ -123,7 +123,7 @@ Panonuzdaki gönderiniz. Şu anda _Gönderi_ aşamasında olduğunu görebilirsi
 
 ## Bir Değerlendirmeye Yanıt Verme
 
-Değerlendirme süreci tamamlandıktan sonra, editör tarafından karar e-posta yoluyla size bildirilecektir.
+Değerlendirme süreci tamamlandıktan sonra, değerlendirme sonucu editör tarafından e-posta yoluyla size bildirilecektir.
 
 E-postayı aldıktan sonra kontrol paneline giriş yapınız.
 
@@ -201,23 +201,23 @@ Sonraki bildirim güncel olanıdır. Mesajı açmak için üzerine tıklayın (b
 
 Pencereyi kapatmak için sağ üst köşedeki **X**'i kullanın.
 
-Yönetim panelinizin daha aşağısında, editörden bir tartışma yanıtı da göreceksiniz.
+Yönetim panelinizin daha aşağısında, editörün oluşturduğu bir tartışma yanıtı da göreceksiniz.
 
 ![Discussion reply in review discussion panel](./assets/learning-ojs-3-au-rev-discussions.png)
 
-Tartışma başlığına tıklamak tartışmayı açacaktır.
+Tartışma başlığına tıklayarak tartışmayı açabilirsiniz.
 
 ![Review discussion message](./assets/learning-ojs-3-au-rev-discussions2.png)
 
-Tebrikler! Kabul edildiniz ve gönderim dosyanız Kopya Düzenleme aşamasına geçiyor.
+Tebrikler! Kabul edildiniz ve gönderi dosyanız Kopya Düzenleme aşamasına geçiyor.
 
 <hr />
 
 ## Değerlendirme İçin Yeniden Gönderme
 
-Editörün kararı değerlendirme için yeniden göndermekse, oturum açmanız ve gönderiler sayfanızdan makaleyi seçmeniz gerekecektir. Yeniden gönderim, değerlendirme aşamasında yapılır; yeni bir gönderim başlatmaya gerek yoktur.
+Editörün kararı değerlendirme için yeniden göndermekse, oturum açmanız ve gönderiler sayfanızdan makaleyi seçmeniz gerekecektir. Yeniden gönderi, değerlendirme aşamasında yapılır; yeni bir gönderi başlatmaya gerek yoktur.
 
-Değerlendirme aşamasında, belgenizi revize ettikten sonra yeniden göndermek için iki şey yapmanız gerekecektir:
+Değerlendirme aşamasında, çalışmanızı revize ettikten sonra yeniden göndermek için iki şey yapmanız gerekecektir:
 
 Yeni dosyayı revizyonlar bölümünde yükleyin. Yeni bir dosya yüklemek için 'Dosya yükle'yi tıklayın. Dosya(ları)nızı yüklemenize izin veren yeni bir pencere açılacaktır. Mevcut bir dosyanın revizyonunu gönderdiğinizi belirtmek için açılır menüden uygun seçeneği seçin.
 
@@ -229,31 +229,31 @@ Hakem değerlendirmesi süreci tekrarlanacak ve muhtemelen yapmanız gereken ek 
 
 ## Kopya Düzenleme İsteğine Yanıt Verme
 
-İş akışındaki bir sonraki adım, kopyası düzenlenmiş gönderim dosyalarınızı incelemektir.
+İş akışındaki bir sonraki adım, kopyası düzenlenmiş gönderi dosyalarınızı incelemektir.
 
-Dosyaların mevcut olduğunu belirten bir e-posta alacaksınız. To see them, login to the journal and go to your dashboard.
+Dosyaların mevcut olduğunu belirten bir e-posta alacaksınız. Bunları görmek için dergi sistemine giriş yapın ve yönetim paneline gidin.
 
 ![Author submission dashboard](./assets/learning-ojs-3-au-copyedits.png)
 
-You can see your entry in the My Authored panel. Select the Copyediting link to go to the full submission record, including the notification in the Copyediting Discussions panel.
+Gönderiyi Yazar panelinde görebilirsiniz. Kopya Düzenleme Tartışmaları panelindeki bildirim de dahil olmak üzere tam gönderim kaydına gitmek için Kopya Düzenleme bağlantısını seçin.
 
 ![Copyediting section of author dashboard](./assets/learning-ojs-3-au-copyedits-notice.png)
 
-Click on the linked discussion to open it, read the message, and open the attached file.
+Açmak için bağlantılı tartışmaya tıklayın, mesajı okuyun ve ekli dosyayı açın.
 
 ![Copyediting check discussion message](./assets/learning-ojs-3-au-copyedits-message.png)
 
-Once you have read the attached file, you can respond to the copyeditor indicating any required changes or your approval.
+Ekli dosyayı okuduktan sonra, gerekli değişiklikleri veya onayınızı belirterek kopya düzenleyene yanıt verebilirsiniz.
 
 ![Respond to copyediting check message](./assets/learning-ojs-3-au-copyedits-reply.png)
 
-If needed, you could attach a revision, but for this example we will simply approve the changes and hit **OK**.
+Gerekirse bir revizyon ekleyebilirsiniz, ancak bu örnek için değişiklikleri onaylayıp **Tamam**'a basmalısınız.
 
-On your dashboard, you can see that you were the last person to reply to the message.
+Yönetim panelinizde, mesaja cevap veren son kişi olduğunuzu görebilirsiniz.
 
-![[Dashboard showing copyediting discussions](./assets/learning-ojs-3-au-copyedits-final-dash.png)
+![[Yönetim paneli Kopya düzenleme tartışmalarını gösteriyor](./assets/learning-ojs-3-au-copyedits-final-dash.png)
 
-Your role in the copyediting process is now complete and you can wait for the request to proofread the final galleys (e.g., PDFs, HTML, etc.) before publication.
+Kopya düzenleme sürecindeki rolünüz artık tamamlandı ve talebin yayınlanmadan önce son dizgileri (Ör., PDF, HTML, vb.) düzeltmesini bekleyebilirsiniz.
 
 <hr />
 
