@@ -39,21 +39,21 @@ OJS incluye las siguientes características:
 
 ## Qué hay de nuevo en OJS
 
-OJS 3 es significativamente diferente de su predecesor, OJS 2. It includes enhancements and new features developed from community feedback, extensive usability testing, and new software design capabilities.
+OJS 3 es significativamente diferente de su predecesor, OJS 2. Incluye mejoras y nuevas características desarrolladas a partir de retroalimentación comunitaria, pruebas de usabilidad extensivas y nuevas capacidades de diseño de software.
 
-## Reader Interface
+## Interfaz de Lector
 
-By default, Open Journal Systems is installed with a very simple, functional user interface. This includes a top header, navigation bar, navigation blocks to the right, and a main content block in the middle of the page.
+De forma predeterminada, Open Journal Systems se instala con una interfaz de usuario muy sencilla y funcional. Esto incluye un encabezado superior, barra de navegación, bloques de navegación a la derecha y un bloque de contenido principal en el centro de la página.
 
-The following image is a screenshot of an OJS Demonstration Journal Table of Contents.
+La siguiente imagen es una captura de pantalla de la Tabla de Contenidos de una revista de demostración en OJS.
 
 ![Table of Contents for a sample OJS journal.](./assets/learning-ojs-3-ojs3-interface.png)
 
-You can see from the screenshot that the user functions now exist from your profile menu at the top right of the screen. This takes the managerial content in OJS 3.x away from general user view. Side bar information is clearly broken out, as well as your top navigation bar with collapsible menus for the "About" functions. Like OJS 2, each article has a linked title for viewing object metadata and abstracts, and galleys are now clearly labeled below the titles with clearer logos.
+Se puede ver en la captura de pantalla que las funciones del usuario ahora existen en el menú de perfil en la parte superior derecha de la pantalla. Esto aleja el contenido administrativo de OJS 3.x de la vista general del usuario. La información de la barra lateral está claramente separada, así como la barra de navegación superior con menús colapsables para las funciones "Acerca de". Al igual que en OJS 2, cada artículo tiene un título vinculado para ver metadatos y resúmenes del objeto, y las galeradas ahora están claramente etiquetadas debajo de los títulos con logotipos más claros.
 
-## Editorial Interface
+## Interfaz Editorial
 
-_AKA "The Dashboard"_
+_Alias "El Panel de Control"_
 
 OJS 3.x has a separate interface once you log into the editorial system. This not only makes it easier to customize the reader interface, but also provides OJS users of different journals a consistent experience.
 
