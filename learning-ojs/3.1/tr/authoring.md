@@ -11,7 +11,7 @@ Bu bölümde, bir yazarın OJS 3.1'de kayıttan son dizgiyi düzeltme dahil nas�
 
 OJS 3.1 kullanan bir dergiye gönderi yapmak için, önce bir dergiye kullanıcı hesabı açmanız ve giriş yapmanız gerekir (bkz. [Bir Dergiye Kayıt Olma](./user-accounts#registering-with-a-journal)\). Giriş yaptığınızda, Kontrol Paneline yönlendirileceksiniz.
 
-![Submissions queue in author dashboard](./assets/learning-ojs3.1-au-dashboard-empty.png)
+![Yazar panosundaki gönderiler kuyruğu](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
 Hiçbir gönderi yapmadığınız için şu anda boş.
 
@@ -257,24 +257,24 @@ Kopya düzenleme sürecindeki rolünüz artık tamamlandı ve talebin yayınlanm
 
 <hr />
 
-## Responding to a Proofreading Request
+## Düzeltme İsteğine Yanıt Verme
 
-The next step in the workflow is to inspect your submission files that have been converted into galleys (e.g., PDF, HTML, etc.).
+İş akışındaki bir sonraki adım, dizgileri dönüştürülmüş gönderi dosyalarınızı (ör. PDF, HTML, vb.) incelemektir.
 
-You will receive an email indicating that files are available. To see them, login to the journal and go to your dashboard.
+Dosyaların mevcut olduğunu belirten bir e-posta alacaksınız. Bunları görmek için dergiye giriş yapın ve yönetim paneline gidin.
 
 ![Author submission dashboard](./assets/learning-ojs-3-au-production-dashboard.png)
 
-You can see your entry in the My Authored panel. Select the Production link to go to the full submission record, including the notification in the Production Discussions panel.
+Dosyayı Yazar panelinde görebilirsiniz. Üretim Tartışmaları panelindeki bildirim de dahil olmak üzere tam gönderi kaydına gitmek için Üretim bağlantısını seçin.
 
 ![Production section of author dashboard](./assets/learning-ojs-3-au-production-record.png)
 
-Click on the linked discussion to open it, read the message, and open the attached file.
+Açmak için bağlantılı tartışmaya tıklayın, mesajı okuyun ve ekli dosyayı açın.
 
 ![Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message.png)
 
-Once you have read the attached file, you can respond to the Layout Editor indicating any required changes or your approval.
+Ekli dosyayı okuduktan sonra, gerekli değişiklikleri veya onayınızı belirterek Mizanpaj Düzenleyicisine yanıt verebilirsiniz.
 
 ![Respond to Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message2.png)
 
-That's it! Your role in the editorial workflow is now completed.
+Hepsi bu kadar! Editoryal iş akışındaki rolünüz artık tamamlandı.
