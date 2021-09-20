@@ -3,160 +3,160 @@ book: learning-ojs
 version: 3.3
 ---
 
-# Journal Settings
+# Configurações da Revista
 
-The Settings section allows you to configure your OJS installation to best meet your publishing needs.
+A seção Configurações permite que você configure a sua instalação OJS para melhor atender as suas necessidades editoriais.
 
-You can find the Settings in the left menu panel when you are logged in as a user with Journal Manager permissions.
+Você pode encontrar as Configurações no menu esquerdo do Painel quando estiver logado como o usuário com permissãões de Gerente da Revista.
 
-![OJS dashboard View for Journal Managers with links to Settings menu and its submenus in left-hand sidebar.](./assets/learning-ojs3.1-jm-settings-journal.png)
+![Visão do painel OJS para gerentes de periódicos com links para o menu Configurações e seus submenus na barra lateral esquerda.](./assets/learning-ojs3.1-jm-settings-journal.png)
 
-It consists of Journal Settings, Website Settings, Workflow Settings, and Distribution Settings, which will be covered in the next 4 chapters.
+Essa seção subdivide-se em Configurações da Revista, Configurações do Website, Fluxo Editorial e Distribuição, seções que serão abordadas nos próximos quatro capítulos.
 
-The Journal Settings page includes details about the journal.
+A página de Configurações da Revista inclui detalhes sobre o periódico.
 
-Use the tabs to navigate to the different sections of Journal Settings: Masthead, Contact, Sections.
+Possui guias, usadas para navegar entre as diferentes seções que a constituem: Equipe Editorial, Contato, Seções e Categorias.
 
-![OJS dashboard view of Journal Settings with navigation tabs for the Settings submenus across top portion of page content.](./assets/learning-ojs3.2-jm-settings-journal-page.png)
+![Visualização do painel OJS das Configurações da revista com guias de navegação para os submenus de Configurações na parte superior do conteúdo da página.](./assets/learning-ojs3.2-jm-settings-journal-page.png)
 
-## Masthead
+## Equipe Editorial
 
-**Journal title** is the name of your journal. E.g., Journal of Software Documentation
+**Título** é o nome do periódico. Exemplo: Journal of Software Documentation.
 
-**Journal initials** are the initials of the journal. E.g., JSD.
+**Sigla** são as iniciais do periódico. Exemplo: JSD.
 
-**Journal Abbreviation** is the abbreviation of your journal name. E.g., JSoftDoc.
+**Abreviatura** é a abreviação do periódico. Exemplo: JSoftDoc.
 
-**Publisher** is the name of the organization publishing the journal.
+**Editora** é o nome da organização que publica o periódico.
 
-Note that the publisher name entered here is used for metadata but will not be displayed on your site. To show the publisher name on your site you can enter it under Journal Settings > Contact > Mailing Address. You can also add it under About the Journal below.
+Observe que aqui o nome da Editora é utilizado para os metadados e não será exibido no site. Para mostrar o nome da editora no site, coloque-o no caminho Configurações da Revista > Contato > Endereço Postal. Você também pode incluir a informação em Sobre a Revista, logo abaixo.
 
-**ISSN** \(International Standard Serial Number\) is an eight-digit number which identifies journals. It is managed by a world wide network of National Centres coordinated by an International Centre based in Paris, backed by Unesco and the French Government. A number can be obtained from the [ISSN web site](http://www.issn.org/). This can be done at any point in operating the journal.
+O **ISSN** (International Standard Serial Number) é um número de 8 dígitos que identifica revistas. É gerido pela rede mundial de Centros Nacionais, coordenados por um Centro Internacional sediado em Paris, apoiado pela Unesco e pelo Governo Francês. O número pode ser obtido pelo [website do ISSN](http://www.issn.org/). Isso pode ser feito em qualquer etapa da existência da revista.
 
-OJS journals will typically have an online ISSN, but some may also publish a print version, which requires a different print ISSN.
+Tipicamente, as revistas geridas pelo OJS têm o ISSN eletrônico, mas algumas poderão também publicar a versão impressa, que requer um ISSN impresso diferente.
 
-Please note that the ISSN entered here is used for metadata but will not be displayed on your site. It's recommended that you also add the ISSN to the footer of your site. You can do this under Website Settings > Appearance > Footer.
+Note que o ISSN incluído aqui é utilizado para metadados e não será exibido no site. Recomenda-se que o ISSN também seja incluído no rodapé do site. Você pode fazer isso no caminho Configurações do Website > Configurar > Rodapé.
 
-**Journal Summary** is a brief description of your journal. If you are on an OJS installation with multiple journals, this text will appear with your journal listing. You can also choose to add the journal summary to the journal homepage in the Website Settings.
+**Resumo da Revista** é uma breve descrição do seu periódico. Se você tiver uma instalação com múltiplos periódicos, esse texto aparecerá junto à listagem das revistas. Você pode optar por adicionar o resumo à página inicial da revista em Configurações do Website.
 
-**Editorial Team** allows you to add the names of your editorial team or anyone else you wish to mention. This will appear on the public website under About &gt; Editorial Team.
+**Equipe editorial** permite adicionar os nomes do corpo editorial ou qualquer outra pessoa que você queira mencionar. Isso aparecerá no website público, mais especificamente em Sobre &gt; Equipe Editorial.
 
-**About the Journal** is a space to add any information about your journal which may be of interest to readers, authors, or reviewers.
+**Sobre a Revista** é um espaço para acrescentar qualquer informação sobre o periódico que possa ser de interesse dos leitores, autores e avaliadores.
 
-This could include your open access policy, the focus and scope of the journal, copyright notice, sponsorship disclosure, history of the journal, a privacy statement, and inclusion in any LOCKSS or CLOCKSS archival system.
+Nessa seção, podem ser incluídos dados como: política de acesso aberto, foco e escopo do periódico, informações sobre direitos autorais, patrocínio, histórico da revista, declaração de privacidade e inclusão do sistema de arquivamento LOCKSS ou CLOKSS.
 
-Hit the **Save** button to save your changes.
+Clique em **Salvar** para gravar as alterações.
 
-## Contact
+## Contato
 
-Use this section to add journal contacts.
+Utilize essa seção para incluir informações de contato do periódico.
 
-![OJS dashboard view of Journal Settings submenu Contact where information can be added in text fields.](./assets/learning-ojs3.2-jm-settings-journal-contact.png)
+![Visão do painel OJS do submenu Contato das Configurações da revista, onde as informações podem ser adicionadas nos campos de texto.](./assets/learning-ojs3.2-jm-settings-journal-contact.png)
 
-**Principal Contact**: Add contact information for the journal's main contact person, including name, email, phone, affiliation, and mailing address for the journal. This will appear on the journal's Contact page.
+**Contato principal**: inclua informações de contato principal da revista, incluindo nome, e-mail, telefone, filiação e endereço postal do periódico. Estas informações ficarão visíveis na página Contato da revista.
 
-**Technical Support Contact**: Add contact information for the journal's technical support person. This information will appear on the journal's Contact page and also in different points in the workflow to offer assistance to users.
+**Contato de Apoio Técnico**: inclua informações da pessoa responsável pelo suporte técnico. Essa informação aparecerá na página de Contato da revista e em outros lugares do site para oferecer assistência aos usuários.
 
-Hit the **Save** button to save your changes.
+Clique em **Salvar** para gravar as alterações.
 
-## Sections
+## Seções
 
-Use this page to configure the different sections of your journal. E.g., Articles, Editorials, Reviews, Commentary, etc.
+Use essa página para configurar as diferentes seções do periódico. Exemplos: artigos, editoriais, revisões, comentários, etc.
 
-All of your existing sections will appear here. OJS requires at least one section, and creates an "Articles" section by default.
+Todas as seções existentes aparecerão aqui. O OJS exige pelo menos uma seção e cria automaticamente a seção “Artigos”.
 
 ![OJS dashboard view of Journal Settings submenu Sections with links for Order and Create Section and editable list of current sections.](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
 
-Submissions can also be disabled for individual sections. This can be done in instances where a section is no longer being used, in order to prevent articles from being submitted to a particular section.
+As submissões também podem ser desativadas individualmente em cada seção. Isso pode ser feito no caso de uma seção não estar mais sendo utilizada, a fim de evitar que artigos sejam submetidos a uma determinada seção.
 
-A section can be marked as “Inactive” in the section settings:
+A seção pode ser marcada como “Inativa” nas definições das seções:
 
 ![View of Joural Sections in the OJS dashboard. Red box surrounding checkbox next to the section Articles indicates where to mark it inactive.](./assets/learning-ojs3.3-section-setting-inactive.png)
 
-You can modify sections by clicking on the blue arrow to the left of the section name. This will reveal options to edit or delete the section.
+É possível modificar seções clicando na seta azul à esquerda do nome da seção. Essa ação revelará opções de editar ou deletar a seção.
 
-### Edit a Section
+### Editar a seção
 
-Selecting the edit link will open a new window with different configuration options.
+Selecionando a opção de edição, uma nova janela abrirá com diferentes opções de configuração.
 
 ![New window displaying a section's current settings that is editable.](./assets/learning-ojs-3.2-settings-website-settings-sections-edit-1.png)
 
-From here, you can change the name or abbreviation of the section.
+Aberta a janela, você pode alterar o nome ou a abreviatura da seção.
 
-**Section Policy**: Use this field to add important details such as submission requirements, peer review, etc.
+**Política da seção**: use esse campo para incluir detalhes importantes, como requisitos de submissão, avaliação por pares, etc.
 
-**Word Count**: Use this to limit the number of words for abstracts in this section.
+**Contar palavras**: use esse campo para limitar a quantidade de palavras do resumo para essa seção.
 
-**Section Options**: Each section can have different settings, including whether it is indexed, peer-reviewed, accepts unsolicited submission, or listed in the table of contents.
+**Opções da seção**: cada seção pode ter diferentes configurações, incluindo indexação, revisão por pares, aceite de submissões sem solicitação, ou dados que revelem a listagem dos itens no sumário da edição.
 
-For example, an Editorial section will not typically be peer-reviewed.
+A título de exemplo, a seção Editorial normalmente não é avaliada por pares.
 
-Submissions can also be disabled for individual sections. This can be done in instances where a section is no longer being used, in order to prevent articles from being submitted to a particular section.
+As submissões também podem ser desativadas individualmente em cada seção. Isso pode ser feito no caso de uma seção não estar mais sendo utilizada, a fim de evitar que artigos sejam submetidos a uma determinada seção.
 
-You can check off "Will not be included in the indexing of the journal" for sections that contain front matter, back matter, and anything else that might clutter the search index unnecessarily.
+Você pode desmarcar “Itens desta seção NÃO serão incluídos para indexação do periódico” para seções que incluem prefácio, posfácio e qualquer outra coisa que possa desorganizar desnecessariamente o sumário.
 
 ![A window for entering Word Count, Review Form, and Section Options.](./assets/learning-ojs3.3-section-options.png)
 
-**Identify items published in this section as a\(n\)**: This is used by some systems. Note that it is not a required field.
+**Identifique os itens publicados nesta seção como\(n\)**: isto é usado por alguns sistemas. Note que esse campo não é obrigatório.
 
-**Section Editors**: If you have editors enrolled in your journal, you will see them listed here and can assign one of them to the section. This means any submissions made to the section are automatically assigned to the editor, saving you from manually assigning an editor.
+**Editores atribuídos**: se existem editores cadastrados no periódico, você os verá listados aqui e poderá selecionar um deles para a seção. Isso significa que qualquer submissão feita nessa seção será automaticamente atribuída ao editor, poupando o trabalho de designar manualmente um editor.
 
-Hit the **Save** button to save your changes and return to the Sections page.
+Clique em **Salvar** para gravar as alterações e retornar à página de Seções.
 
-### Create Section
+### Criar Seção
 
-From the sections page, select the Create Section link to open a blank window, exactly the same as the window used for editing a section described above.
+A partir da página de Seções, selecione a opção Criar Seção para abrir uma nova página com exatamente as mesmas informações descritas acima.
 
 ![A new window for entering section information in text fields and selecting section options.](./assets/learning-ojs-3.2-settings-website-settings-sections-create.png)
 
-Fill in the details and hit Save to record your work.
+Preencha as informações e clique em Salvar para gravar as alterações.
 
-### Restrict Section Submitters
+### Restringir submissões
 
-Each section allows to restrict submissions by checking the "Items can only be submitted by Editors and Section Editors" checkbox.
+Cada seção permite restringir submissões marcando a caixa “Itens desta seção NÃO serão incluídos para indexação do periódico“.
 
 ![The list of options for restricting a section. Items can be selected from list by checking the box to the left of the item.](./assets/learning-ojs3.2-jm-settings-journal-sections-restrict.png)
 
-If this checkbox is checked for all sections, authors will not be able to submit to the journals. Authors who select New Submission from their dashboards will now see the message "This journal is not accepting submissions at this time."
+Se essa caixa estiver marcada, os autores não poderão submeter artigos ao periódico. Autores que selecionem Nova submissão em seus painéis de controle, receberão a mensagem “Esta revista não está aceitando submissões neste momento”.
 
 ![Screenshot example of message displayed on a journal New Submission page.](./assets/learning-ojs3.1-jm-settings-journal-not-accepting-submissions.png)
 
-### Order Sections
+### Ordenar Seções
 
-When you have more than one section created, you will see an Order link. Use that to reorder how those sections display on your journal website.
+Quando tiver mais de uma seção criada, você verá a opção Ordenar. Use-a para reordenar como as seções aparecem no website da revista.
 
 ![A list of available sections from top to bottom of page in OJS dashboard.](./assets/learning-ojs3.2-jm-settings-journal-sections-order.png)
 
-Hit the **Done** button when you are finished.
+Clique no botão **Concluído** ao finalizar.
 
-## Categories
+## Categorias
 
-In OJS 3 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production). This section explains how to create and edit categories.
+No OJS 3 é possível adicionar Categorias para organizar os artigos em coleções temáticas e fornecer outra forma de acesso ao conteúdo aos leitores. As categorias podem ser exibidas como um bloco de navegação no site da revista e os leitores podem selecionar a categoria para visualizar todos os artigos que a compõem. É possível incluir um artigo em uma categoria editando os metadados, que são explicados no capítulo [Produção e Publicação](./production). Essa seção explica como criar e editar categorias.
 
 ![OJS dashboard view of Journal Settings submenu Categories with links for Order and Add a Category and editable list of current categories.](./assets/learning-ojs3.1-categories-menu.png)
 
-To create a new category:
+Para criar uma nova categoria:
 
-* Click Add Category
-* Enter a name for your category that will be displayed to readers
-* Enter a path for the category’s URL on your site
-* Enter a description which will appear above the list of articles in the category
-* You can optionally change the order of the articles by date or title
-* Optionally add an image which will appear at the top of the category’s page
-* Click Save
+* Clique em Incluir categoria;
+* Adicione o nome da categoria que aparecerá para os leitores;
+* Inclua caminho URL da categoria no website;
+* Insira descrição que aparecerá acima da lista de artigos da categoria;
+* Altere (essa ação é opcional) a ordem dos artigos por data ou título;
+* Adicione (essa ação também é opcional) uma imagem que aparecerá no topo da página da categoria;
+* Clique em Ok
 
 ![A new window for entering category information in text fields and selecting category options.](./assets/learning-ojs3.1-create-category.png)
 
-To edit a category:
+Para editar a Categoria
 
-* Click the name of the category you want to edit
-* Make the changes
-* Click OK
+* Clique no nome da categoria que deseja modificar;
+* Faça as alterações;
+* Clique em Ok.
 
-To remove a category:
+Para remover uma categoria:
 
-* Click the blue arrow next to the category you want to remove
-* Click the Remove button that appears below
-* Confirm that you want to remove the category
+* Clique na seta azul ao lado da categoria que será excluída;
+* Clique no botão Remover que aparece abaixo;
+* Confirme a exclusão da categoria.
 
-To display categories on your website you can go to Website Settings > Sidebar Management and place the Browse block on your sidebar.
+Para exibir as categorias no website, basta seguir o caminho Configurações > Website > Configurar > Barra Lateral e habilitar o Bloco de Navegação
