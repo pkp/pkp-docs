@@ -5,11 +5,11 @@ version: 3.1
 
 # Bölüm 13: Yazarlık
 
-Bu bölümde, bir yazarın ADS 3.1'de kayıttan son dizgiyi düzeltme dahil nasıl çalıştığını öğreneceksiniz.
+Bu bölümde, bir yazarın OJS 3.1'de kayıttan son dizgiyi düzeltme dahil nasıl çalıştığını öğreneceksiniz.
 
 ## Dergiye Kayıt
 
-Bir OJS 3.1 dergisine gönderi yapmak için, önce bir dergiye kullanıcı hesabı açmanız ve giriş yapmanız gerekir (bkz. [Bir Dergiye Kayıt Olma](./user-accounts#registering-with-a-journal)\). Giriş yaptığınızda, Kontrol Paneline yönlendirileceksiniz.
+OJS 3.1 kullanan bir dergiye gönderi yapmak için, önce bir dergiye kullanıcı hesabı açmanız ve giriş yapmanız gerekir (bkz. [Bir Dergiye Kayıt Olma](./user-accounts#registering-with-a-journal)\). Giriş yaptığınızda, Kontrol Paneline yönlendirileceksiniz.
 
 ![Submissions queue in author dashboard](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
