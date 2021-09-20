@@ -11,7 +11,7 @@ Bu bölümde, bir yazarın OJS 3.1'de kayıttan son dizgiyi düzeltme dahil nas�
 
 OJS 3.1 kullanan bir dergiye gönderi yapmak için, önce bir dergiye kullanıcı hesabı açmanız ve giriş yapmanız gerekir (bkz. [Bir Dergiye Kayıt Olma](./user-accounts#registering-with-a-journal)\). Giriş yaptığınızda, Kontrol Paneline yönlendirileceksiniz.
 
-![Yazar panosundaki gönderiler kuyruğu](./assets/learning-ojs3.1-au-dashboard-empty.png)
+![Yazar panosunda gönderiler kuyruğu](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
 Hiçbir gönderi yapmadığınız için şu anda boş.
 
@@ -21,13 +21,13 @@ Hiçbir gönderi yapmadığınız için şu anda boş.
 
 Ekranın sağ tarafındaki **Yeni Gönderi** düğmesini tıklayarak yeni bir gönderi başlatabilirsiniz. Gönderi yüklemek, üstveri girişi yapmak ve açıklama için 5 Adımlı bir sürecin 1. Adımına yönlendirileceksiniz.
 
-![Author submission queue with new submission button](./assets/learning-ojs3.1-au-dashboard-new.png)
+![Yeni gönderi düğmesi ile yazar gönderi kuyruğu](./assets/learning-ojs3.1-au-dashboard-new.png)
 
 ### 1. Adım
 
 **1. Adım**'da, gönderiniz hakkında ön bilgi vereceksiniz.
 
-![Article submission start screen](./assets/learning-ojs3.1-au-dashboard-new-1.png)
+![Makale gönderisi başlangıç ekranı](./assets/learning-ojs3.1-au-dashboard-new-1.png)
 
 Gönderiye başlamak için uygun bir bölümü seçin \(Ör. makale, inceleme vb.\). Hangi bölümün uygun olduğundan emin değilseniz, uygun olduğunu düşündüğünüz bölümü seçiniz.
 
@@ -37,15 +37,15 @@ Her bir kutuyu işaretleyerek gönderi kontrol listesindeki ifadeleri okuyun ve 
 
 **2. Adım**'da gönderi dosyanızı yüklemenize izin veren bir pencere açılacaktır.
 
-![File upload screen](./assets/learning-ojs-3-author-submission-step2.png)
+![Dosya yükleme ekranı](./assets/learning-ojs-3-author-submission-step2.png)
 
 İlk olarak, ZORUNLU olarak bir Makale Bileşeni seçmelisiniz. Bu seçim, sistemin makale metninin, bir resim, bir veri seti vb. olup olmadığını bilmesini sağlar. **Dosya yüklenmeden önce bu seçim yapılmalıdır**.
 
-![Select article component](./assets/learning-ojs-3-author-submission-step2-2.png)
+![Makale bileşeni seçin](./assets/learning-ojs-3-author-submission-step2-2.png)
 
 Bu seçimi yaptıktan sonra ilk dosyanızı yükleyebilirsiniz. Bir seferde yalnızca **bir** dosya yükleyebileceğinizi unutmayın. Ek dosyalar daha sonra yüklenebilir. Tipik olarak, bu ilk dosya makale metni olacaktır. Dosya yüklendikten sonra **Devam** düğmesine basın.
 
-![Review submission details](./assets/learning-ojs-3-author-submission-step2-3.png)
+![Gönderi ayrıntılarını inceleyin](./assets/learning-ojs-3-author-submission-step2-3.png)
 
 Dosyayı yükledikten sonra, dosyanın adını gözden geçirmeniz istenecektir. Herhangi bir değişiklik yapmak için Düzenle bağlantısını kullanın.
 
@@ -55,7 +55,7 @@ Ardından, ek dosyalar \(Ör., bir veri kümesi veya bir görüntü\) yüklemek 
 
 Tüm dosyalarınızı yüklemeyi bitirdikten sonra, **Tamamla**'yı tıklayın; bu yükleme penceresini kapatacaktır.
 
-![Complete upload](./assets/learning-ojs-3-author-submission-step2-4.png)
+![Yüklemeyi tamamla](./assets/learning-ojs-3-author-submission-step2-4.png)
 
 Yüklediğiniz dosyaları göreceğiniz _Makale Gönder_ ekranına geri döndürüleceksiniz. Değişiklik yapmanız gerekiyorsa, dosyanızın solundaki mavi oka tıklayın ve _Düzenle_ bağlantısını kullanarak tüm değişiklikleri yapın.
 
@@ -65,23 +65,23 @@ Yüklediğiniz dosyaları göreceğiniz _Makale Gönder_ ekranına geri döndür
 
 **3. Adım**'da, gönderi başlığı \(ön ek, başlık ve alt başlık olarak ayrılmış\) dahil olmak üzere gönderi hakkında ekranı aşağı kaydırarak özet dahil daha fazla bilgi eklemeniz istenecektir...
 
-![Enter metadata](./assets/learning-ojs3.1-au-dashboard-new-3.png)
+![Üstveri gir](./assets/learning-ojs3.1-au-dashboard-new-3.png)
 
 ...ek katkıda bulunanlar.
 
-![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
+![Katkıda bulunanların listesi](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
 **Katkıda Bulunan Ekle** bağlantısını tıklayarak daha fazla katkıda bulunan \(Örneğin, ortak yazarlar\) ekleyebilirsiniz. Bu, bilgilerini girmek için alanlar içeren yeni bir pencere açacaktır.
 
-![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
+![Katılımcı ekle](./assets/learning-ojs-3-author-submission-step3-2.png)
 
 **Kaydet**'e tıkladığınızda yeni katılımcı ekranda görünecektir.
 
-![List with new contributors added](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
+![Yeni katkıda bulunanların eklendiği liste](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
 Gönderdiğiniz dergiye bağlı olarak, anahtar kelimeler gibi doldurulması gereken ek alanlar görebilirsiniz.
 
-![Enter keywords](./assets/learning-ojs-3-author-submission-step3-4.png)
+![Anahtar kelimeleri girin](./assets/learning-ojs-3-author-submission-step3-4.png)
 
 Anahtar kelimeyi girmek için, kelimeyi veya kelime öbeğini yazıp Enter tuşuna basmanız yeterlidir. Kelime veya kelime öbeği, anahtar kelime olarak biçimlendirilecektir.
 
@@ -93,15 +93,15 @@ Anahtar kelimeyi girmek için, kelimeyi veya kelime öbeğini yazıp Enter tuşu
 
 **Gönderiyi Bitir**'i tıklayın.
 
-![Finish submission screen](./assets/learning-ojs3.1-au-dashboard-new-4.png)
+![Gönderi ekranı sonu](./assets/learning-ojs3.1-au-dashboard-new-4.png)
 
 Bitirdiğinizi onaylamanızı isteyen bir kutu açılacaktır. **Tamam**'ı tıklayın.
 
-![Confirm submission screen](./assets/learning-ojs-3-author-submission-step4-1.png)
+![Gönderi ekranını onaylayın](./assets/learning-ojs-3-author-submission-step4-1.png)
 
 ### 5. Adım
 
-![Next steps submission screen](./assets/learning-ojs3.1-au-dashboard-new-5.png)
+![Sonraki adımlar gönderi ekranı](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
 Gönderiniz tamamlandı! Editör, gönderiniz hakkında bilgilendirildi. Bu noktada aşağıdaki bağlantıları takip edebilirsiniz:
 
@@ -115,7 +115,7 @@ Bir gönderiyi tamamladıktan sonra üzerinde değişiklik yapamazsınız.  Gön
 
 Yönetim Panelindeki gönderiniz. Şu anda _Gönderi_ aşamasında olduğunu görebilirsiniz.
 
-![Submission in author dashboard](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
+![Yazar yönetim panelinde gönderi](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
 Önümüzdeki günlerde, Değerlendirme aşamasına ve kabul edilirse yayınlanmadan önce Kopya Düzenleme ve Üretim aşamalarına geçecektir.
 
@@ -127,15 +127,15 @@ Değerlendirme süreci tamamlandıktan sonra, değerlendirme sonucu editör tara
 
 E-postayı aldıktan sonra kontrol paneline giriş yapınız.
 
-![Submission dashboard with items in review](./assets/learning-ojs-3-auth-responding-revisions.png)
+![İncelenen öğelerle birlikte gönderi paneli](./assets/learning-ojs-3-auth-responding-revisions.png)
 
 Kararı görüntülemek için gönderinin yanındaki *İncele* bağlantısını seçiniz.
 
-![Review tab of manuscript](./assets/learning-ojs-3-auth-responding-revisions2.png)
+![Makale değerlendirme sekmesi](./assets/learning-ojs-3-auth-responding-revisions2.png)
 
 Burada kararı (istenen revizyonlar) ve editörün bildirim bağlantısını görebilirsiniz.
 
-![Editor decision notification](./assets/learning-ojs-3-auth-responding-revisions3.png)
+![Editör karar bildirimi](./assets/learning-ojs-3-auth-responding-revisions3.png)
 
 Editörün mesajındaki isteklere göre revizyonları hazırlamalısınız.
 
@@ -143,37 +143,37 @@ Editörün mesajındaki isteklere göre revizyonları hazırlamalısınız.
 
 Sayfayı aşağı kaydırdığınızda, **Revizyonlar** için bir panel bulacaksınız.
 
-![Revisions panel](./assets/learning-ojs-3-auth-responding-revisions4.png)
+![Revizyonlar paneli](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
 Gözden geçirilmiş makaleyi yüklemek için *Bir Dosya Yükle* bağlantısını kullanın.
 
-![Upload review file](./assets/learning-ojs-3-auth-responding-upload.png)
+![İnceleme dosyası yükle](./assets/learning-ojs-3-auth-responding-upload.png)
 
 Mevcut bir dosyanın revizyonunu yüklemek için açılır menüyü kullanın.
 
 Ardından gözden geçirilmiş dosyayı yükleyin ve **Devam**'a basın.
 
-![Review file details and continue](./assets/learning-ojs-3-auth-responding-upload2.png)
+![Dosya ayrıntılarını inceleyin ve devam edin](./assets/learning-ojs-3-auth-responding-upload2.png)
 
 Dosya ayrıntılarını kontrol edin ve tekrar **Devam**'a basın.
 
-![Add another file or complete upload](./assets/learning-ojs-3-auth-responding-upload3.png)
+![Başka bir dosya ekleyin veya yüklemeyi tamamlayın](./assets/learning-ojs-3-auth-responding-upload3.png)
 
 Yüklenecek başka dosyalarınız varsa, şimdi yapın. Aksi takdirde, **Tamamla**'ya basın.
 
 Gözden geçirilmiş dosyanız artık Düzeltmeler panelinde görünecektir.
 
-![Revised file now in revisions panel](./assets/learning-ojs-3-auth-responding-upload4.png)
+![Revize edilmiş dosya şimdi revizyonlar panelinde](./assets/learning-ojs-3-auth-responding-upload4.png)
 
 ### Editörü Bilgilendirme
 
 Editör, yüklenmekte olan yeni dosya(lar) hakkında bir bildirim alacaktır. Ayrıca aşağıda açıklandığı gibi Değerlendirme Tartışma paneli aracılığıyla editöre bilgi verebilirsiniz.
 
-![Review discussions panel](./assets/learning-ojs-3-auth-responding-discussion.png)
+![Tartışma panelini inceleyin](./assets/learning-ojs-3-auth-responding-discussion.png)
 
 Buradan, *Tartışma Ekle* bağlantısını seçin.
 
-![Add discussion and add user](./assets/learning-ojs-3-auth-responding-discussion-add.png)
+![Tartışma ve kullanıcı ekle](./assets/learning-ojs-3-auth-responding-discussion-add.png)
 
 Editörü eklemek için *Kullanıcı Ekle* bağlantısını kullanın.
 
@@ -183,7 +183,7 @@ Mesajı göndermek için **Tamam**'a basın.
 
 Böylece editöre bir e-posta gönderildi ve siz (ve editör) mesajı Değerlendirme Tartışma panelinde görebilirsiniz.
 
-![Message in review discussions panel](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
+![İnceleme tartışmaları panelindeki mesaj](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
 
 Bu noktada, yazarın düzeltmelerin kabul edilebilir olup olmadığı konusunda editörden haber beklemesi gerekir.
 
@@ -193,21 +193,21 @@ Revizyonlarınızın kabul edildiğine dair bir e-posta alacaksınız.
 
 Ayrıca yönetim panelinde bildirimler görünecektir.
 
-![Notifications in dashboard](./assets/learning-ojs-3-au-notifications.png)
+![Kontrol panelindeki bildirimler](./assets/learning-ojs-3-au-notifications.png)
 
 Sonraki bildirim güncel olanıdır. Mesajı açmak için üzerine tıklayın (bu, alacağınız e-posta ile aynıdır).
 
-![Notification message](./assets/learning-ojs-3-au-notifications2.png)
+![Bildirim mesajı](./assets/learning-ojs-3-au-notifications2.png)
 
 Pencereyi kapatmak için sağ üst köşedeki **X**'i kullanın.
 
 Yönetim panelinizin daha aşağısında, editörün oluşturduğu bir tartışma yanıtı da göreceksiniz.
 
-![Discussion reply in review discussion panel](./assets/learning-ojs-3-au-rev-discussions.png)
+![İnceleme tartışma panelinde tartışma yanıtı](./assets/learning-ojs-3-au-rev-discussions.png)
 
 Tartışma başlığına tıklayarak tartışmayı açabilirsiniz.
 
-![Review discussion message](./assets/learning-ojs-3-au-rev-discussions2.png)
+![Tartışma mesajını inceleyin](./assets/learning-ojs-3-au-rev-discussions2.png)
 
 Tebrikler! Kabul edildiniz ve gönderi dosyanız Kopya Düzenleme aşamasına geçiyor.
 
@@ -233,19 +233,19 @@ Hakem değerlendirmesi süreci tekrarlanacak ve muhtemelen yapmanız gereken ek 
 
 Dosyaların mevcut olduğunu belirten bir e-posta alacaksınız. Bunları görmek için dergi sistemine giriş yapın ve yönetim paneline gidin.
 
-![Author submission dashboard](./assets/learning-ojs-3-au-copyedits.png)
+![Yazar gönderi paneli](./assets/learning-ojs-3-au-copyedits.png)
 
 Gönderiyi Yazar panelinde görebilirsiniz. Kopya Düzenleme Tartışmaları panelindeki bildirim de dahil olmak üzere tam gönderim kaydına gitmek için Kopya Düzenleme bağlantısını seçin.
 
-![Copyediting section of author dashboard](./assets/learning-ojs-3-au-copyedits-notice.png)
+![Yazar panosunda kopya düzenleme bölümü](./assets/learning-ojs-3-au-copyedits-notice.png)
 
 Açmak için bağlantılı tartışmaya tıklayın, mesajı okuyun ve ekli dosyayı açın.
 
-![Copyediting check discussion message](./assets/learning-ojs-3-au-copyedits-message.png)
+![Kopya düzenleme kontrol tartışma mesajı](./assets/learning-ojs-3-au-copyedits-message.png)
 
 Ekli dosyayı okuduktan sonra, gerekli değişiklikleri veya onayınızı belirterek kopya düzenleyene yanıt verebilirsiniz.
 
-![Respond to copyediting check message](./assets/learning-ojs-3-au-copyedits-reply.png)
+![Kopya düzenleme kontrol mesajına yanıt ver](./assets/learning-ojs-3-au-copyedits-reply.png)
 
 Gerekirse bir revizyon ekleyebilirsiniz, ancak bu örnek için değişiklikleri onaylayıp **Tamam**'a basmalısınız.
 
@@ -263,18 +263,18 @@ Kopya düzenleme sürecindeki rolünüz artık tamamlandı ve talebin yayınlanm
 
 Dosyaların mevcut olduğunu belirten bir e-posta alacaksınız. Bunları görmek için dergiye giriş yapın ve yönetim paneline gidin.
 
-![Author submission dashboard](./assets/learning-ojs-3-au-production-dashboard.png)
+![Yazar gönderi paneli](./assets/learning-ojs-3-au-production-dashboard.png)
 
 Dosyayı Yazar panelinde görebilirsiniz. Üretim Tartışmaları panelindeki bildirim de dahil olmak üzere tam gönderi kaydına gitmek için Üretim bağlantısını seçin.
 
-![Production section of author dashboard](./assets/learning-ojs-3-au-production-record.png)
+![Yazar paneli üretim bölümü](./assets/learning-ojs-3-au-production-record.png)
 
 Açmak için bağlantılı tartışmaya tıklayın, mesajı okuyun ve ekli dosyayı açın.
 
-![Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message.png)
+![Dizgi mesajı düzeltmeye hazır](./assets/learning-ojs-3-au-production-message.png)
 
 Ekli dosyayı okuduktan sonra, gerekli değişiklikleri veya onayınızı belirterek Mizanpaj Düzenleyicisine yanıt verebilirsiniz.
 
-![Respond to Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message2.png)
+![Düzeltme mesajı için Dizgi'ye yanıt verin](./assets/learning-ojs-3-au-production-message2.png)
 
 Hepsi bu kadar! Editoryal iş akışındaki rolünüz artık tamamlandı.
