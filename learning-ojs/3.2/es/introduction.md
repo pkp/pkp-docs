@@ -55,18 +55,18 @@ Se puede ver en la captura de pantalla que las funciones del usuario ahora exist
 
 _Alias "El Panel de Control"_
 
-OJS 3.x has a separate interface once you log into the editorial system. This not only makes it easier to customize the reader interface, but also provides OJS users of different journals a consistent experience.
+OJS 3.x tiene una interfaz separada una vez que ingresa al sistema editorial. Esto no sólo facilita la personalización de la interfaz de lectores, sino que también proporciona a los usuarios de diferentes revistas una experiencia consistente.
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
     <source src="./assets/learning-ojs3.2-ed-dashboard.mp4" type="video/mp4">
   </video>
-  <figcaption>Animated mp4 showing the main elements of the OJS dashboard.</figcaption>
+  <figcaption>Mp4 animado que muestra los elementos principales del panel de control de OJS.</figcaption>
 </figure>
 
-The editorial interface is known as your **dashboard** and consists of the following elements:
+La interfaz editorial es conocida como su **panel de control** y consta de los siguientes elementos:
 
-1. **Top Navigation Bar**: To the left, you will find the name of the journal you are currently working with \(e.g., Journal of Public Knowledge\). If you are enrolled in more than one journal on this OJS installation, you can use this to switch between journals. Next to that are your Tasks \(items needing immediate attention\). To the right, you can switch languages if the journal is multilingual, view the reader interface, or click on your username to [view your profile](./user-accounts#viewing-and-changing-your-profile) or logout.
+1. **Barra de navegación superior**: A la izquierda, encontrará el nombre de la revista con la que estás trabajando actualmente \(ej., Journal of Public Knowledge\). If you are enrolled in more than one journal on this OJS installation, you can use this to switch between journals. Next to that are your Tasks \(items needing immediate attention\). To the right, you can switch languages if the journal is multilingual, view the reader interface, or click on your username to [view your profile](./user-accounts#viewing-and-changing-your-profile) or logout.
 2. **Left Menu Panel**: These are the major sections of the dashboard, including the submissions, issue management, subscription management (if you are running a journal using subscriptions), settings, user and role management, and tools. Users with fewer permissions (e.g., Authors, Reviewers, Copyeditors, etc.) will see fewer links here.
 3. **Metadata Bar**: This shows information about the submission. On the left are the submission ID, author, and title. On the right are additional buttons that will allow you to preview the published submission page, as well as the activity log and document library.
 4. **Main Panel**: In the main panel you will see the current work area. In the image above, you are looking at a submission record in the Submission stage.
