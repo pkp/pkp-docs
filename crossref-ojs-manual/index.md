@@ -1,5 +1,5 @@
 ---
-isBookIndex: true
+isBookIndex: true 
 ---
 # Crossref | OJS 3.2 Manual
 
