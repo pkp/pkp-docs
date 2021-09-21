@@ -31,37 +31,37 @@ Görevlerinize Kontrol Panelinizin sol üst menüsünden ulaşabilirsiniz. Aşa�
 
 Görevler, ilgilenmeniz gereken öğelere hızlı bir bakış sağlar. Koyu girişler okunmadı ve açık olan girişler okundu.
 
-Use the checkbox to mark tasks for deletion \(the link is available at the bottom of the list\).
+Görevleri silinmek üzere işaretlemek için onay kutusunu kullanın \(bağlantı listenin altındadır\).
 
 <hr />
 
-## Submission Notifications
+## Gönderi Bildirimleri
 
-When an author makes a new submission to your journal, the editor is automatically emailed a notification and the author will receive an email acknowledging their submission. You can also configure OJS so that a copy of the notification email is sent to the journal’s primary contact set in Journal Settings, or to another address.
+Bir yazar derginize yeni bir gönderi yaptığında, editöre otomatik olarak bir bildirim e-postası gönderilir ve yazara gönderisini onaylayan bir e-posta gönderilir. OJS'de, bildirim e-postasının bir kopyasını derginin Dergi Ayarları kısmında birincil iletişim grubuna veya başka bir adrese gönderilmesi için de yapılandırabilirsiniz.
 
-To enable copies of submission acknowledgment email to be sent to the primary contact or another address:
-1. In the Journal Manager’s dashboard, go to Settings > Workflow > Submissions
-2. Scroll down to Notification of Author Submissions
-3. Check off the box next to “Send a copy to the primary contact, identified in the Journal Settings.” if you wish for a copy to be sent to the primary contact email, and/or
-4. Enter the email you would like to have a copy sent to in the text field.
+Gönderi onay e-posta kopyalarının birincil ilgili kişiye veya başka bir adrese gönderilmesini sağlamak için:
+1. Dergi Yöneticisi panelinde Ayarlar > İş akışı > Gönderiler
+2. Yazar Gönderi Bildirimleri'ne ilerleyin
+3. Bir kopyasının birincil iletişim e-postasına gönderilmesini istiyorsanız "Dergi Ayarlarında tanımlanan birincil ilgili kişiye bir kopyasını gönderin"in yanındaki kutuyu işaretleyin
+4. Metin alanına bir kopyasının gönderilmesini istediğiniz e-postayı girin.
 
 ![The Notification of Author Submission settings in OJS.](./assets/learning-ojs3.1-configure-submission-notification.png)
 
-If you want to disable submission acknowledgement emails entirely, you can do so by disabling the *Submission Ack* email template from the list of prepared email templates. To learn more about disabling and enabling email templates, refer to *Disable email templates* in the [Workflow Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings).
+Gönderi onayı e-postalarını tamamen devre dışı bırakmak istiyorsanız, hazırlanan e-posta şablonları listesinden *Gönderi Onayı* e-posta şablonunu devre dışı bırakarak bunu yapabilirsiniz. E-posta şablonlarını devre dışı bırakma ve etkinleştirme hakkında daha fazla bilgi için, [İş Akışı Ayarları bölümündeki](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings) *E-posta şablonlarını devre dışı bırak* kısmına bakın.
 
-Users can also change their individual notification settings from their own profile under View Profile > Notifications.
+Kullanıcılar ayrıca kendi profillerinden Profili Görüntüle > Bildirimler.
 
-## Submission Dashboard
+## Gönderi Paneli
 
-When you log into your Dashboard, you can find active submissions either from your Tasks, or from one of the queues \(My Queue, Unassigned, All Active, and Archives\).
+Yönetim Panelinizde oturum açtığınızda, Görevlerinizden veya \(İş Kuyrukları, Atanmamış, Aktif Görevler ve Arşivler\) iş kuyruklarından birinde etkin gönderileri bulabilirsiniz.
 
 ![The submission dashboard in OJS.](./assets/learning-ojs3.1-ed-dashboard-active.png)
 
-### My Queue
+### İş Kuyrukları
 
-**My Assigned**: This panel includes submissions added to sections where you are a section editor or to your own submissions if you are also an author with this journal.
+**Atanan Görevler**: Bu panel, bölüm editörü olduğunuz bölümlere veya bu dergide yazarsanız kendi gönderilerinize eklenen gönderileri içerir.
 
-The **Search** tool for each queue can sometimes be helpful in tracking down submissions.
+**Arama** aracı bazen gönderilerin her birini izlenmesinde yardımcı olabilir.
 
 The **Filter** tool allows you to limit your browsing to specific status \(e.g., incomplete, overdue\) stages \(submission, review, copyediting, production\), or sections \(e.g., articles, reviews\) for faster searching.
 
