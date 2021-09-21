@@ -25,11 +25,11 @@ Bazı gönderiler değerlendirmeyi geçmeyecek ve süreci burada tamamlanacaktı
 
 ## Görevler
 
-Your Tasks are available from the top left menu of your Dashboard. Note the number "1" in the image below. This indicates that there is currently 1 task in your list.
+Görevlerinize Kontrol Panelinizin sol üst menüsünden ulaşabilirsiniz. Aşağıda verilen resimdeki "1" rakamına dikkat edin. Bu, listenizde şu anda 1 görev olduğunu gösterir.
 
 ![The expanded Tasks menu in OJS.](./assets/learning-ojs3.1-ed-tasks.png)
 
-Tasks provide a quick look at items that need your attention. Bold entries are unread, and unbold entries have been read.
+Görevler, ilgilenmeniz gereken öğelere hızlı bir bakış sağlar. Koyu girişler okunmadı ve açık olan girişler okundu.
 
 Use the checkbox to mark tasks for deletion \(the link is available at the bottom of the list\).
 
