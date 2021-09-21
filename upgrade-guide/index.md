@@ -2,7 +2,7 @@
 isBookIndex: true
 ---
 
-# OJS Upgrade Guide
+# OJS Technical Upgrade Guide
 
 * [English](./en)
 
