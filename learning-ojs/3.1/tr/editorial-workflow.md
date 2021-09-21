@@ -63,71 +63,71 @@ Yönetim Panelinizde oturum açtığınızda, Görevlerinizden veya \(İş Kuyru
 
 **Arama** aracı bazen gönderilerin her birini izlenmesinde yardımcı olabilir.
 
-The **Filter** tool allows you to limit your browsing to specific status \(e.g., incomplete, overdue\) stages \(submission, review, copyediting, production\), or sections \(e.g., articles, reviews\) for faster searching.
+**Filtre** aracı, göz atmanızı belirli durum \(örneğin, eksik, süresi geçmiş\) aşamaları \(gönderim, inceleme, kopya düzenleme, üretim\) veya bölümlerle sınırlandırmanıza olanak tanır. Daha hızlı arama için \(örn. makaleler, incelemeler\).
 
 ![A sample filter applied to the list of submissions.](./assets/learning-ojs3.1-ed-dashboard-filter.png)
 
-Note that you can use the blue arrows to the right of each submission to reveal more details, including how many reviews are outstanding, new discussions, and more. It also reveals buttons to take you to the submission record, view the activity log and notes, and to delete the submission.
+Öne çıkan yorum sayısı, yeni tartışmalar ve daha fazlası dahil olmak üzere daha fazla ayrıntıyı ortaya çıkarmak için her gönderinin sağındaki mavi okları kullanabileceğinizi unutmayın. Ayrıca sizi gönderi kaydına götürmek, etkinlik günlüğünü ve notları görüntülemek ve gönderiyi silmek için düğmeler gösterir.
 
 ![A sample of expanded submission details in the dashboard.](./assets/learning-ojs3.1-ed-dashboard-active-details.png)
 
-### Unassigned
+### Atanmamış
 
-This panel includes submissions added to sections without section editors.
+Bu panel, bölüm düzenleyicileri olmayan bölümlere eklenen gönderileri içerir.
 
 ![The Unassigned tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-unassigned.png)
 
-In the above example, there are no unassigned submissions, so the panel is empty.
+Yukarıdaki örnekte, atanmamış gönderi olmadığından panel boştur.
 
-### All Active
+### Aktif Görevler
 
-This section includes a list of all submissions, without being organized into queues.
+Bu bölüm, iş kuyrukları halinde düzenlenmeden tüm gönderilerin bir listesini içerir.
 
 ![The All Active tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-all-active.png)
 
-### Archives
+### Arşivler
 
-This section includes a list of all submissions either rejected or already published by the journal.
+Bu bölüm, dergi tarafından reddedilen veya halihazırda yayınlanmış tüm gönderilerin bir listesini içerir.
 
 ![The Archives tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-archive.png)
 
-### Demonstration Submission
+### Demo Gönderisi
 
-For this demonstration, we are looking for the Williamson and Serletis submission, entitled _The Official Knowledge and Adult Education Agents_. It can be found at the top of the **My Assigned** queue, as well as in the **All Active** queue.
+Bu demo için Çelik ve Buğan'ın _Açık Dergi Sistemleri: Açık kaynak kodlu dergi yönetim ve yayımlama sistemi._ başlıklı makalesini arıyoruz. **Atananlar** iş kuyruğunun en üstünde ve **Aktif Görevler** kuyruğunda bulunabilir.
 
 ![The submission dashboard in OJS.](./assets/learning-ojs3.1-ed-dashboard-active.png)
 
-Once you find the submission, you can use the blue arrow to reveal options to see if there are any open discussion \(there are none\), as well as to view the submission, view the activity logs and note, or to delete the submission.
+Gönderiyi bulduktan sonra, açık tartışma olup olmadığını görmek için mavi oku kullanabilirsiniz \(hiçbiri yok\) ve ayrıca gönderiyi görüntülemek, etkinlik günlüklerini ve notu görüntülemek veya gönderi silmek dahil.
 
 ![The expanded options for a submission.](./assets/learning-ojs3.1-ed-submission-details.png)
 
-**Delete** will completely remove the submission and all submission files from your journal. If you want to keep a record of the submission, it is better to **Decline** it, which will move the submission to the Archive.
+**Sil**, gönderi ve tüm gönderi dosyalarını derginizden tamamen kaldıracaktır. Gönderinin kaydını tutmak istiyorsanız, **Reddet** seçeneğini kullanmak daha iyidir; bu seçenek, gönderiyi Arşive taşıyacaktır.
 
-**Activity Log & Notes** will bring up the submission's history.
+**Etkinlik Günlüğü & Notlar**, gönderinin geçmişini tutar.
 
 ![A sample activity log for a submission](./assets/learning-ojs3.1-ed-dashboard-log.png)
 
-Use the Notes tab to also view or add any editorial notes.
+Düzenleme notlarını da görüntülemek veya eklemek için Notlar sekmesini kullanın.
 
 ![The Notes tab of the Activity log.](./assets/learning-ojs-3-ed-submissions-notes.png)
 
-### Submission Record
+### Gönderi Kaydı
 
-To view the submission in more detail, select **View Submission** button. This will take you to the submission record.
+Gönderiyi daha ayrıntılı olarak görüntülemek için **Gönderiyi Görüntüle** düğmesini seçin. Bu sizi gönderi kaydına götürecektir.
 
 ![A sample submission record.](./assets/learning-ojs3.1-ed-dashboard-record.png)
 
-From here, you can see:
+Burda şunları görebilirsiniz:
 
-**Submission Files**: This panel lists the files that have been submitted. In this view, there is just one file, but multiple files could have been submitted.
+**Gönderi Dosyaları**: Bu panel, gönderilen dosyaları listeler. Bu görünümde yalnızca bir dosya vardır, ancak birden fazla dosya gönderilmiş olabilir.
 
-**Pre-Review Discussions**: This panel allows the editor to communicate with the author, or with others on the editorial team. For example, to ask the author for some additional information, or to ask a section editor to take responsibility for this submission.
+**Ön İnceleme Tartışmaları**: Bu panel, editörün yazarla veya editör ekibindeki diğer kişilerle iletişim kurmasını sağlar. Örneğin, yazardan bazı ek bilgiler veya bir bölüm editöründen bu gönderi için sorumluluk almasını istemek.
 
-**Action Buttons**: These include Send to Review, Accept and Skip Review, and Decline Submission.
+**İşlem Düğmeleri**: Bunlar, Değerlendirmeye Gönder, Değerlendirmeyi Kabul Et ve Atla veya Gönderiyi Reddet'i içerir.
 
-> Note: If you don't see these buttons, you likely have not yet assigned the submission to an editor.
+> Not: Bu düğmeleri görmüyorsanız, gönderiyi henüz bir editöre atamamış olabilirsiniz.
 
-**Participants**: This panel is where you will see the list of participants involved in the submission, including the editor, section editors, and author. Other names \(copyeditors, layout editors, etc.\) will appear here as they are added in subsequent steps.
+**Katılımcılar**: Bu panel, editör, bölüm editörleri ve yazar dahil olmak üzere gönderiye katılan katılımcıların listesini göreceğiniz yerdir. Other names \(copyeditors, layout editors, etc.\) will appear here as they are added in subsequent steps.
 
 In addition, in the blue bar along the top, you can see:
 
