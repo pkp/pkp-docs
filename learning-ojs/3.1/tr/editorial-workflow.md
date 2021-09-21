@@ -153,31 +153,31 @@ Bölümlerinizi nasıl yapılandırdığınıza bağlı olarak, bazı yeni gönd
 
 Bir kullanıcıyı role göre bulma, bireysel bir seçim ve onlara yardımlarını isteyen bir mesaj gönderme seçeneğine sahip olacaksınız.
 
-> Note: If you aren't sure of the names of the section editors, simply choose that role from the dropdown menu and then hit the Search button. All Section Editors will be displayed and available for selection.
+> Not: Bölüm editörlerinin adlarından emin değilseniz, açılır menüden o rolü seçin ve ardından Ara düğmesine basın. Tüm Bölüm Editörleri görüntülenecek ve seçime imkanı olacaktır.
 
-Hit the **OK** button to make the assignment and send the message.
+Atamayı yapmak ve mesajı göndermek için **Tamam** düğmesine basın.
 
 ![The added participants name shown in the participants list.](./assets/learning-ojs3.1-ed-dashboard-record-assign.png)
 
-> Note the new Pre-Review Discussion that was automatically created as part of the assignment.
+> Atamanın bir parçası olarak otomatik olarak oluşturulan yeni Ön Değerlendirme Tartışmasına dikkat edin.
 
-You can now see that the Section Editor is listed under Participants, and the Action buttons are available:
+Artık Bölüm Editörünün Katılımcılar altında listelendiğini ve Eylem düğmelerinin mevcut olduğunu görebilirsiniz:
 
-**Send to Review**: Moves the submission on to the next stage.
+**Değerlendirmeye Gönder**: Gönderiyi bir sonraki aşamaya taşır.
 
-**Accept and Skip Review**: Skips the Review Stage and moves the submission directly into Copyediting.
+**Kabul Et ve Değerlendirmeyi Atla**: Değerlendirme Aşamasını atlar ve gönderiyi doğrudan Kopya Düzenlemeye taşır.
 
-**Decline Submission**: Rejects the submission before going through the review process. The submission would then be archived.
+**Gönderiyi Reddet**: Değerlendirme sürecinden geçmeden gönderiyi reddeder. Gönderi daha sonra arşivlenecektir.
 
-Although in this example, the editor assigned a section editor, it would also be possible for the editor to assign themselves to the submission.
+Bu örnekte editör bir bölüm editörü olarak atamış olsa da, kendisini gönderiye ataması mümkün olacaktır.
 
-### Section Editor
+### Bölüm Editörü
 
-Now that the Section Editor has been assigned, they can login and view their dashboard. The submission can be found at the top of the My Assigned queue.
+Artık Bölüm Editörü atandığına göre, oturum açabilir ve kontrol panellerini görüntüleyebilir. Gönderi, Atananlar sırasının en üstünde bulunabilir.
 
 ![The My Assigned queue of a Section Editor with assigned submissions.](./assets/learning-ojs3.1-se-dashboard.png)
 
-Clicking on the article title opens the full submission record.
+Makale başlığına tıklamak gönderi kaydını açar.
 
 ![A sample submission record.](./assets/learning-ojs3.1-se-record.png)
 
