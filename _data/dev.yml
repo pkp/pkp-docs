@@ -21,6 +21,10 @@ cards:
         isDeveloper: true
       - path: omp-reference
         isDeveloper: true
+      - path: admin-guide
+        isDeveloper: true
+      - path: tech-upgrade-guide
+        isDeveloper: true
   - path: ojs2
     title: Open Journal Systems 2
     description: "Documentation for developers who are still working with OJS 2."

@@ -1,10 +1,10 @@
 ---
 generateHeadingToc: true
-title: OJS Technical Upgrade Guide
+title: Technical Upgrade Guide
 description: A general (version non-specific) Open Journal Systems upgrade guide for technical staff.
 ---
 
-# OJS Technical Upgrade Guide
+# Technical Upgrade Guide
 
 ## Introduction
 
