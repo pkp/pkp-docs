@@ -127,31 +127,31 @@ Burda şunları görebilirsiniz:
 
 > Not: Bu düğmeleri görmüyorsanız, gönderiyi henüz bir editöre atamamış olabilirsiniz.
 
-**Katılımcılar**: Bu panel, editör, bölüm editörleri ve yazar dahil olmak üzere gönderiye katılan katılımcıların listesini göreceğiniz yerdir. Other names \(copyeditors, layout editors, etc.\) will appear here as they are added in subsequent steps.
+**Katılımcılar**: Bu panel, editör, bölüm editörleri ve yazar dahil olmak üzere gönderiye katılan katılımcıların listesini göreceğiniz yerdir. Diğer adlar \(kopya düzenleyiciler, mizanpajcılar, vb.\) sonraki adımlarda eklendikçe burada görünecektir.
 
-In addition, in the blue bar along the top, you can see:
+Ayrıca, üst kısımdaki mavi çubukta şunları görebilirsiniz:
 
-**Metadata**: Where you can view and revise the submission metadata.
+**Üstveriler**: Gönderi üst verilerini görüntüleyebililir ve düzenleyebilirsiniz.
 
 ![The Metadata tab of a submission.](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
 
-Use the Identifiers tab to also view or add a unique identifier.
+Benzersiz bir tanımlayıcı görüntülemek veya eklemek için Tanımlayıcılar sekmesini kullanın.
 
 ![The Identifiers tab.](./assets/learning-ojs-3-ed-submissions-identifiers.png)
 
-**Submission Library**: The Submission Library is a general storage area for documents that may include conflict-of-interest forms, galley approval forms, etc. A user can upload the completed form for their manuscript in their Submission Library. The uploaded forms will also be available to other participants (with the exception of Reviewers) assigned throughout the editorial or production workflow to edit or re-upload new versions.
+**Gönderi Kitaplığı**: Gönderi Kitaplığı, çıkar çatışması formları, dizgi onay formları vb. içerebilecek belgeler için genel bir depolama alanıdır. Bir kullanıcı, makalesi için doldurulmuş formu Gönderi Kitaplığı'na yükleyebilir. Yüklenen formlar, editoryal veya üretim iş akışı boyunca yeni sürümleri düzenlemek veya yeniden yüklemek için atanan diğer katılımcılara da (Hakemler hariç) sunulacaktır.
 
-**Document Library**: Users throughout the editorial workflow will be able to access all the files in the Publisher Library (see [Workflow Settings chapter](./settings-workflow.md)) made available by the Journal Manager or Editor through opening the Submission Library and clicking "View Document Library."
+**Belge Kitaplığı**: Düzenleme iş akışındaki kullanıcılar, Yayıncı Kitaplığı'ndaki tüm dosyalara erişebilir (bkz. [ İş Akışı Ayarları bölümü](./settings-workflow.md)), Dergi Yöneticisi veya Editör tarafından Gönderi Kitaplığı'nı açarak ve "Belge Kitaplığını Görüntüle"yi tıklatarak kullanıma sunulur
 
 ![The location of the View Document Library button in the Submission Library panel.](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
 
-### Assigning the Submission
+### Gönderi Atama
 
-Depending on how you have your sections configured, some new submissions may come in unassigned. If this is the case, the next step is to assign an editor or section editor. To do so, select the _Assign_ link in the **Participants** panel.
+Bölümlerinizi nasıl yapılandırdığınıza bağlı olarak, bazı yeni gönderiler atanmamış olarak gelebilir. Bu durumda, bir sonraki adım bir editör veya bölüm editörü atamaktır. Bunu yapmak için **Katılımcılar** panelinde _Ata_ bağlantısını seçin.
 
 ![The Add Participants window.](./assets/learning-ojs-3-ed-submissions-add-participant.png)
 
-You will have the option to locate a user by role, choose an individual, and send them a message requesting their assistance.
+Bir kullanıcıyı role göre bulma, bireysel bir seçim ve onlara yardımlarını isteyen bir mesaj gönderme seçeneğine sahip olacaksınız.
 
 > Note: If you aren't sure of the names of the section editors, simply choose that role from the dropdown menu and then hit the Search button. All Section Editors will be displayed and available for selection.
 
