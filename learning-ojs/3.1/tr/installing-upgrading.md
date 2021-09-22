@@ -3,22 +3,22 @@ book: learning-ojs
 version: 3.1
 ---
 
-# Chapter 2: Installing and Upgrading
+# Bölüm 2: Kurulum ve Sürüm Yükseltme
 
-OJS 3 is a PHP web application with standardized install and upgrade processes. These processes are kept as simple as possible, though some general systems administration experience is recommended.
+OJS 3, standartlaştırılmış yükleme ve sürüm yükseltme işlemlerine sahip bir PHP web uygulamasıdır. Bazı genel sistem yönetimi deneyimi tavsiye edilse de, bu işlemler mümkün olduğunca basit tutulur.
 
-Up to date OJS system requirements, as well as installation, upgrade, and configuration instructions can be found in the following locations:
+Güncel OJS sistem gereksinimlerinin yanı sıra kurulum, sürüm yükseltme ve yapılandırma talimatları aşağıdaki konumlarda bulunabilir:
 
-* in the package you downloaded from the [OJS download page](https://pkp.sfu.ca/ojs/ojs_download/) (look in the `docs/` directory);
-* directly in the online [README](https://pkp.sfu.ca/ojs/README) or [UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE) documents;
-* in the PKP [Administrator's Guide](/admin-guide).
+* [OJS indirme sayfasından](https://pkp.sfu.ca/ojs/ojs_download/) indirdiğiniz paketteki (`docs/` dizinine bakın);
+* doğrudan çevrimiçi [README](https://pkp.sfu.ca/ojs/README) veya [UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE) belgeleri;
+* PKP [Yönetici Kılavuzu](/admin-guide).
 
-For those who want to install from source via Git, instructions can be found directly on [GitHub](https://github.com/pkp/ojs).
+Git sistemini kullanarak kaynaktan yüklemek isteyenler için talimatlar [GitHub](https://github.com/pkp/ojs) adresinde bulunabilir.
 
-### Download
+### İndir
 
-OJS can be downloaded from the [Public Knowledge Project web site](http://pkp.sfu.ca).
+OJS, [Kamu Bilgi Projesi web sitesinden](http://pkp.sfu.ca) indirilebilir.
 
-### Hosted Solutions
+### Barındırılan Dergiler
 
-If you do not have the expertise, staff or desire to install and manage OJS on your own, PKP Publishing Services provides complete hosting solutions at a number of price points. For more information, see the [PKP Publishing Services website](https://pkpservices.sfu.ca). 
+OJS'yi kendi başınıza kurmak ve yönetmek için uzmanlığa veya personele sahip değilseniz, PKP Yayıncılık Hizmetleri, çeşitli barındırma çözümlerini ücretli sunar. Daha fazla bilgi için [PKP Yayıncılık Hizmetleri web sitesine](https://pkpservices.sfu.ca) bakınız. 
