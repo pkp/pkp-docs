@@ -181,9 +181,9 @@ Makale başlığına tıklamak gönderi kaydını açar.
 
 ![A sample submission record.](./assets/learning-ojs3.1-se-record.png)
 
-#### Accepting the Assignment
+#### Görevi Kabul Et
 
-It is not required, but the Section Editor could reply to the Pre-Review Discussion to inform the editor that they will be proceeding with the assignment.
+Bu zorunlu değildir, ancak Bölüm Editörü, atamaya devam edeceklerini editöre bildirmek için Ön Değerlendirme Tartışmasına yanıt verebilir.
 
 #### Communicating with the Author
 
