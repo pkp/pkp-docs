@@ -185,21 +185,21 @@ Makale başlığına tıklamak gönderi kaydını açar.
 
 Bu zorunlu değildir, ancak Bölüm Editörü, atamaya devam edeceklerini editöre bildirmek için Ön Değerlendirme Tartışmasına yanıt verebilir.
 
-#### Communicating with the Author
+#### Yazarla İletişim
 
-If the Section Editor has any questions for the author, they can use the Pre-Review Discussions.
+Bölüm Editörünün yazara herhangi bir sorusu varsa, Ön Değerlendirme Tartışmalarını kullanabilirler.
 
-#### Sending to Review
+#### Değerlendirmeye Gönder
 
-Once the Section Editor is satisfied that the submission is appropriate for the journal, they can select the **Send to Review** button to move the submission to the next stage.
+Bölüm Editörü gönderinin dergi için uygun olduğundan karar verdiğinde, gönderiyi bir sonraki aşamaya taşımak için **Değerlendirmeye Gönder** düğmesini seçebilir.
 
 ![The Send to Review confirmation window.](./assets/learning-ojs3.1-se-record-sendReview.png)
 
-Keep the files that are to be reviewed checked off.
+Değerlendirilecek dosyaları işaretleyin.
 
 <hr />
 
-## Review
+## Değerlendirme
 
 When the submission enters the Review Stage, a notification indicates that Reviewers need to be assigned.
 
