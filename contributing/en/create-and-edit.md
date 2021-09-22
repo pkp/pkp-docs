@@ -130,6 +130,7 @@ You do not need to add Description front matter as well. However, you may choose
 Then add an H1 chapter title and your chapter content below. For any subheadings use descending header tags (H2 to H5). Do not skip a level of header tag, as this affects accessibility.
 
 #### Update table of contents
+
 Once you have created all of your chapters, you can add links to those files in the `SUMMARY.md` file, which essentially creates a table of contents for the document. Whereas your headers in single documents create the sidebar table of contents, in multi-page docs, you need to add the headers manually to the `SUMMARY.md` file.
 
 In the SUMMARY.md file, add a link for each chapter title and H2 subheading links below the chapter links.
@@ -161,7 +162,7 @@ To add assets to a document and assets folder:
 1. Add image code in the part of the document you would like this to appear in, [including alt text](#alt-text-for-images). To link to an image in the assets folder you will need to type `“![alt text](./assets/ image file name)”`
    - e.g., `![OJS 3.1 workflow settings components tab.](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
 2. Repeat this step as many times as needed.
-3. Create a draft pull request rather than opening  a pull request yet
+3. Create a draft pull request rather than opening a pull request yet
 4. Upload assets into the assets folder
    - Go to the branch that has been created for this set of changes.
    - Open the document folder followed by the language folder (if applicable)
@@ -171,7 +172,7 @@ To add assets to a document and assets folder:
    - Open the special folder where you saved all of your screenshots
    - Select all of the files and click Open
    - Commit your changes directly to the branch you have been working in
-   - Change the status of your draft pull request
+   - Change the status of your draft pull request to ready
 
 ![This pull request is still a work in progress notice.](./assets/draft-PR.png)
 
@@ -188,9 +189,7 @@ First, take the new screenshot and update the link to the screenshot in the docu
     - `![alt text](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)`
 4. Copy the part of the link that comes after the last / and before the file type extension - e.g., `learning-ojs3.2-jm-settings-workflow-comp`
 5. Go to the new screenshot you just took and save as. Paste the file name you copied in the last step and save the screenshot in a special folder on your desktop.
-6. Continue editing the document and save any additional screenshots you take in the same folder and naming them in the same way.
-Create a draft pull request rather than opening a pull request yet
-Once you are finishing editing the document, describe your changes at the bottom of the document and click Propose File Change. This will add your changes to a branch. The next page will show Comparing Changes. Create a draft pull request rather than opening  a pull request yet. You will upload your screenshot files to the new branch before making a pull request.
+6. Continue editing the document and save any additional screenshots you take in the same folder and name them in the same way. Once you are finished editing the document, describe your changes at the bottom of the document and click Propose File Change. This will add your changes to a branch. The next page will show Comparing Changes. Create a draft pull request rather than opening a pull request yet. You will upload your screenshot files to the new branch before making a pull request.
    - Go to the branch that has been created for this set of changes.
    - Open the document folder followed by the language folder (if applicable)
    - Open the Assets folder
@@ -199,7 +198,7 @@ Once you are finishing editing the document, describe your changes at the bottom
    - Open the special folder where you saved all of your screenshots
    - Select all of the files and click Open
    - Commit your changes directly to the branch you have been working in
-   - Change the status of your draft pull request
+   - Change the status of your draft pull request to ready
 
 ![This pull request is still a work in progress notice.](./assets/draft-PR.png)
 
@@ -218,6 +217,7 @@ Informative images such as screenshots need to have alt text (“alternative tex
 #### Alt text example 1
 
 `![OJS 3.3 new article notification screen.](./assets/learning-ojs3.3-new-notification.png)`
+
 ![OJS 3.3 new article notification screen.](./assets/learning-ojs3.3-new-notification.png)
 
 #### Alt text example 2

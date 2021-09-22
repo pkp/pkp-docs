@@ -76,7 +76,7 @@ Note that you can use the blue arrows to the right of each submission to reveal 
 
 This panel includes submissions added to sections without section editors.
 
-![](./assets/learning-ojs3.1-ed-dashboard-unassigned.png)
+![The Unassigned tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-unassigned.png)
 
 In the above example, there are no unassigned submissions, so the panel is empty.
 

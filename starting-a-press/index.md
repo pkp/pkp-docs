@@ -4,11 +4,11 @@ isBookIndex: true
 
 # Steps for Starting a New Monograph Press with OMP
 
-Here are the main steps in setting up your Press with OMP. The steps are split between steps for getting started and additional steps for when you have published content. 
+Here are the main steps in setting up your press with OMP. The steps are split between steps for getting started and additional steps for when you have published content. 
 
 ## Getting Started
-1. Start by reviewing standards in professional publishing. Guides such as the [Principles of Transparency and Best Practice in Scholarly Publishing (Open Access Scholarly Publishing Association)](https://oaspa.org/principles-of-transparency-and-best-practice-in-scholarly-publishing/) can help ensure your planned publication(s) meet professional standards
-2. Determine the aim of your monograph series. What is the focus, scope and target audience for your press?
+1. Start by reviewing standards in professional publishing. Guides such as the [Principles of Transparency and Best Practice in Scholarly Publishing (Open Access Scholarly Publishing Association)](https://oaspa.org/principles-of-transparency-and-best-practice-in-scholarly-publishing/) can help ensure your planned publication(s) meet professional standards.
+2. Determine the aim of your monograph series. What is the focus, scope, and target audience for your press?
 3. Determine your [author licensing and copyright policy](https://library.queensu.ca/help-services/publishing-support/copyright-authors-rights), taking into account [legal concerns](https://fra1.digitaloceanspaces.com/oapen/0b15bc6dffd247418dc23c005e0f828f.pdf)
 4. Determine your editorial guidelines and policies, such as peer review policy, copyright, guidelines for authors, and guidelines for reviewers
     * Read [Best Practices for Peer Review](https://peerreview.up.hcommons.org/)
@@ -31,7 +31,7 @@ Here are the main steps in setting up your Press with OMP. The steps are split b
 12. [Get your content indexed](https://docs.pkp.sfu.ca/getting-found-staying-found/en/)
     * Read Measuring monographs: A quantitative method to assess scientific impact and societal relevance
     * Consider applying to [Book Citation Index](https://support.clarivate.com/ScientificandAcademicResearch/s/article/Web-of-Science-Core-Collection-Book-Citation-Index---Coverage-is-of-the-full-book-and-not-selective-chapters?language=en_US)  > [Selection Process](https://clarivate.com/webofsciencegroup/essays/selection-process-book-citation-index-web-science/)
-    * Consider applying to [Directory of Open Access Bools (DOAB)](https://www.doabooks.org/)
+    * Consider applying to [Directory of Open Access Books (DOAB)](https://www.doabooks.org/)
 
 ## Additional Resources:
 * [Towards an Open Monograph Ecosystem (TOME)](https://www.openmonographs.org/resource/)

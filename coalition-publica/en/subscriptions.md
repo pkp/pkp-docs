@@ -37,7 +37,7 @@ Navigate to your user’s Profile (typically available in the top-right corner).
 
 Open the “API Key” tab:
 
-![](./assets/apiKey.png)
+![Profile menu with API Key tab selected that has options to enable API access or generate a new API key.](./assets/apiKey.png)
 
 There may already be content in the “API Key” box. If so, ignore it.
 

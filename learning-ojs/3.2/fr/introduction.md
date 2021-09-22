@@ -57,7 +57,11 @@ Vous pouvez voir sur la capture d'écran que les fonctions utilisateur existent 
 
 OJS 3.x a une interface distincte une fois que vous vous connectez au système éditorial. Cela facilite non seulement la personnalisation de l'interface du lecteur, mais offre également aux utilisateurs OJS de différentes revues une expérience cohérente.
 
-![](./assets/learning-ojs3.2-ed-dashboard.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/learning-ojs3.2-ed-dashboard.mp4" type="video/mp4">
+  </video>
+</figure>
 
 L'interface éditoriale est appelée votre **tableau de bord** et se compose des éléments suivants:
 

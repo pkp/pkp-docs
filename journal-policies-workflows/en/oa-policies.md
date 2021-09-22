@@ -33,3 +33,11 @@ Increasingly, many funding agencies have recognized the value of OA and have req
 An OA statement should state a journal’s commitment to OA. For example, the Journal of Copyright in Education and Librarianship’s OA statement reads:
 
 “JCEL provides immediate open access to published content in support of the idea that free access to research helps support the exchange of knowledge and ideas. All articles will be published under [Creative Commons](https://creativecommons.org/) licenses. In order to lower barriers to publication for authors, JCEL does not charge any form of author fees. JCEL is published through the support of our generous sponsors.”
+
+### Self-archiving policies
+
+Self-archiving is the act of an author depositing a copy of their publication into an open access repository or open archive. Self-archiving improves the discoverability of open access articles. A self-archiving policy specifies the conditions under which authors can deposit open versions of their publications. This policy can be added to the [Sherpa Romeo](https://v2.sherpa.ac.uk/romeo/), an online resource that aggregates publisher policies. Use the [Suggest a New Publisher Policy form](https://forms.sherpa.ac.uk/new-publisher-policy.php?service-identifier=romeo2) to propose the addition of your journal’s self-archiving policy to Sherpa-Romeo.
+
+### Data sharing policies
+
+Journals may require the underlying research data to be made openly accessible for research, peer review, or reader usage. This data can be shared alongside the article, or in a data repository, such as Dataverse or Figshare. For examples of data sharing policies see the [UTL Research Data Management website](https://onesearch.library.utoronto.ca/researchdata/journal-policies).  

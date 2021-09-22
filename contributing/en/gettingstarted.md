@@ -85,7 +85,12 @@ Once you've installed GitHub desktop, you should have an option while viewing an
 2. Click on the green button on the right that says "Clone or Download."
 3. Select the "Open in Desktop" option.
 
-![Press Clone or Download button and then Open in Desktop.](./assets/contrib-04.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/contrib-04.mp4" type="video/mp4">
+  </video>
+  <figcaption>Press Clone or Download button and then Open in Desktop.</figcaption>
+</figure>
 
 GitHub desktop manages your commits and pull-requests locally. It's especially convenient if you're changing more than one file at once. If you have Atom installed, you can open your project with the editor directly from GitHub desktop.
 
@@ -93,7 +98,12 @@ GitHub desktop manages your commits and pull-requests locally. It's especially c
 2. Right click on the name of the repository in which you want to work.
 3. Select "Open in Atom."
 
-![Open project from Github desktop.](./assets/contrib-05.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/contrib-05.mp4" type="video/mp4">
+  </video>
+  <figcaption>Open project from Github desktop.</figcaption>
+</figure>
 
 In Atom, the repository directory structure is accessible on the left-hand side in the "project window." Clicking on any title opens it in the editor and allow you to make changes. You'll notice labels next to the files as you work. Green indicates a new file you've added. Yellow indicates a file you've changed since the last time you pulled an update from the primary repository.
 
@@ -108,7 +118,12 @@ Once you make your edits with Atom and have a document you want to submit, you'l
 3. Write a concise name for your branch based on the doc you're submitting, with a single dash between words.
 4. Click "Create Branch."
 
-![Create a branch menu in Github desktop.](./assets/contrib-07.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/contrib-07.mp4" type="video/mp4">
+  </video>
+  <figcaption>Create a branch menu in Github desktop.</figcaption>
+</figure>
 
 Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub desktop window, you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
 

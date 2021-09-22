@@ -1,3 +1,7 @@
+---
+title: Set up PayPal Accounts - Using the PayPal Plugin for OJS and OMP
+---
+
 # Set up PayPal Accounts
 
 To use the PayPal plugin you will need to have a PayPal Website Payments Standard Account and a Sandbox Developer Account. This chapter explains how to set up these accounts.

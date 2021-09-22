@@ -1,3 +1,6 @@
+---
+title: 'Appendix Five: IPinCH Traditional Knowledge Fact Sheet - Student Journal Toolkit'
+---
 # Appendix Five: IPinCH Traditional Knowledge Fact Sheet
 
 ![Traditional knowledge infographic.](./assets/app-5-tk-1.png)

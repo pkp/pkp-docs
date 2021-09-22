@@ -73,7 +73,12 @@ State can be accessed in templates by using the [Vue.js template syntax](https:/
 
 Use the Vue.js dev tools for [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/vue-js-devtools/) or [Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en) to toggle state and see how the template changes.
 
-![Video showing changing state in the browser](../img/state.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="../img/state.mp4" type="video/mp4">
+  </video>
+  <figcaption>Video showing changing state in the browser.</figcaption>
+</figure>
 
 State should only be used when data changes the UI must update to reflect that change without reloading the page. It is not always easy to determine which data should be managed by Vue.js as state and which data should be managed by Smarty.
 

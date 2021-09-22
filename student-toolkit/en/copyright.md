@@ -1,3 +1,7 @@
+---
+title: Copyright and Creative Commons - Student Journal Toolkit
+---
+
 # Copyright and Creative Commons
 
 Your journal content should be licensed with a Creative Commons or [equivalent license](https://pressbooks.bccampus.ca/facultyoertoolkit/chapter/creative-commons-alternatives/), which grants users the right to download, share, and distribute the work without seeking permission from the author or publisher in accordance with the specific license you choose. For example, the most open kind of license, the [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/legalcode), allows users to use and adapt the work any way they like, providing they give proper credit to the author. Other licenses prevent users from using the work for any commercial purpose ([CC BY NC](https://creativecommons.org/licenses/by-nc/4.0/)) or creating derivative works ([CC BY ND](https://creativecommons.org/licenses/by-nd/4.0/)) but still allow for reuse of the work without permission, providing credit is given to the author. There are [six CC licenses](https://creativecommons.org/share-your-work/licensing-examples/) to choose from, and you can assign a Creative Commons license to all articles in your journal or allow authors to [choose their own license](https://creativecommons.org/choose/).
