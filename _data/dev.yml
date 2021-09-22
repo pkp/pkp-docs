@@ -5,6 +5,10 @@ cards:
     cards:
       - path: documentation
         isDeveloper: true
+      - path: admin-guide
+        isDeveloper: true
+      - path: tech-upgrade-guide
+        isDeveloper: true
       - path: pkp-theming-guide
         isDeveloper: true
       - path: plugin-guide
@@ -20,10 +24,6 @@ cards:
       - path: ojs-reference
         isDeveloper: true
       - path: omp-reference
-        isDeveloper: true
-      - path: admin-guide
-        isDeveloper: true
-      - path: tech-upgrade-guide
         isDeveloper: true
   - path: ojs2
     title: Open Journal Systems 2

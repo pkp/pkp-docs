@@ -1,4 +1,4 @@
 
 ### [Technical Upgrade Guide](/upgrade-guide/en/)
 
-This guide is a general (version non-specific) Open Journal Systems upgrade guide for technical staff. [View Now](/upgrade-guide/en/)
+A guide to help technical staff upgrade OJS and other PKP software (OMP, OPS). [View Now](/upgrade-guide/en/)
