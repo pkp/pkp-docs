@@ -1,4 +1,4 @@
-# Summary
+# Содержание
 
 * [Preface](.)
 * [Chapter 1: Introduction](./introduction.md)
@@ -9,7 +9,7 @@
   * [Editorial Interface aka the Dashboard](./introduction.md#editorial-interface)
   * [Community Contributions](./introduction.md#community-contributions)
   * [Support](./introduction.md#support.md)
-* [Chapter 2: Installing and Upgrading](./installing-upgrading.md)
+* [Глава 2: Установка и обновление](./installing-upgrading.md)
 * [Chapter 3: User Accounts](./user-accounts.md)
   * [Roles in OJS](./user-accounts.md#roles-in-ojs)
   * [Registering with a Journal](./user-accounts.md#registering-with-a-journal)
