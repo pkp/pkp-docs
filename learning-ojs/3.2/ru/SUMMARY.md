@@ -1,4 +1,4 @@
-# Summary
+# Содержание
 
 * [Preface](.)
 * [Introduction](./introduction.md)
@@ -9,9 +9,9 @@
   * [Editorial Interface](./introduction.md#editorial-interface)
   * [Community Contributions](./introduction.md#community-contributions)
   * [Support](./introduction.md#support.md)
-* [Installing and Upgrading](./installing-upgrading.md)
-  * [Download](./installing-upgrading.md#download)
-  * [Hosted Solutions](./installing-upgrading.md#hosted-solutions)
+* [Установка и обновление](./installing-upgrading.md)
+  * [Скачивание](./installing-upgrading.md#download)
+  * [Решения с хостингом](./installing-upgrading.md#hosted-solutions)
 * [Site Administration](./site-administration.md)
   * [Site Management](./site-administration.md#site-management)
   * [Administrative Functions](./site-administration.md#administrative-functions.md)
