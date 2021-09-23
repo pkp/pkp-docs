@@ -209,85 +209,85 @@ Gönderi Değerlendirme Aşamasına geçildiğinde, bir bildirim Hakemlerin atan
 
 Hakem panelinden, yeni bir Hakem atamak için Hakem Ekle'yi seçebilirsiniz.
 
-This opens a new window, where Reviewers are listed and can be selected one at a time.
+Bu, Hakemlerin listelendiği ve birer birer seçilebildiği yeni bir pencere açar.
 
 ![The Locate a Reviewer window listing all Reviewers.](./assets/learning-ojs-3.1.2-locate-reviewer.png)
 
-Clicking on the blue arrow reveals more information about their review history, including how many active reviews they are currently assigned, how many reviews they have completed or declined, etc. If the user has added a Biography or Reviewing Interests, this information will be displayed here.
+Mavi oka tıklamak, o anda atanan aktif değerlendirme sayısı, tamamladığı veya reddettiği değerlendirme sayısı vb. dahil olmak üzere değerlendirme geçmişi hakkında daha fazla bilgi gösterir. Kullanıcı bir Biyografi veya İlgi Alanlarını eklediyse, bu bilgi burada görüntülenecektir.
 
-Additionally, a Journal Editor can add an Editorial Note about the reviewer in their profile under Users & Roles > Users. This note will appear in the reviewer details on the Add Reviewer screen, but will not be visible to the reviewer or to the public.
+Ek olarak, bir Dergi Editörü, profillerine Kullanıcılar & Roller > Kullanıcılar altında hakem hakkında bir Editoryal Not ekleyebilir. Bu not, Hakem Ekle ekranında gözden geçiren ayrıntılarında görünecek, ancak hakeme veya herkese görünmeyecektir.
 
 ![A sample of expanded reviewer details with review history and notes.](./assets/learning-ojs-3.1.2-add-reviewer.png)
 
-In OJS releases 3.0 to 3.1.0, you cannot assign a user to review a submission if they are also an editor of the submission.  If you do, the editor will no longer be able to access the submission after they submit their review, in order to maintain the principles of blind peer review. However, starting with OJS 3.1.1, you can assign a user to review a submission if they are also an editor of the submission.
+OJS 3.0'dan 3.1.0'a kadar olan sürümlerde, bir kullanıcı aynı zamanda gönderinin editörü ise, bu kullanıcıyı o gönderiyi incelemesi için atayamazsınız.  Bunu yaparsanız, editör, kör hakemlik değerlendirmesi ilkelerini sürdürmek için incelemesini gönderdikten sonra gönderiye artık erişemez. Ancak, OJS 3.1.1'den başlayarak, bir kullanıcı aynı zamanda gönderinin editörü ise, o gönderiyi incelemesi için atayabilirsiniz.
 
-At the bottom of this form, you will see options to:
+Bu formun alt kısmında şu seçenekleri göreceksiniz:
 
-**Select Reviewer**: Use this to confirm your selection once you have picked a Reviewer from the list.
+**Hakem Seç**: Listeden bir Hakem seçtikten sonra seçiminizi onaylamak için bunu kullanın.
 
-**Create New Reviewer**: If none of the Reviewers are suitable, you can use this button to create a new Reviewer. This is a new account in the system.
+**Yeni Hakem Oluştur**: Hakemlerin hiçbiri uygun değilse, yeni bir Hakem oluşturmak için bu düğmeyi kullanabilirsiniz. Bu, sistemde yeni bir oluşturur.
 
-**Enroll Existing User**: If none of the Reviewers are suitable, you can enroll an existing user as a Reviewer.
+**Mevcut Kullanıcıyı Yetkilendir**: Hakemlerin hiçbiri uygun değilse, mevcut bir kullanıcıyı Hakem olarak yetkilendirebilirsiniz.
 
-For this demonstration, we will pick Adela as our Reviewer and hit the **Select Reviewer** button.
+Bu demo için, Sönmez Çelik'i Hakem olarak seçeceğiz ve **Hakem Seç** düğmesine basacağız.
 
-This initiates a new window with a message for the Reviewer.
+Bu, Hakem için mesaj içeren yeni bir pencere açacaktır.
 
 ![The Add Reviewer screen with email notification template.](./assets/learning-ojs3.1-se-record-revstage-revreq.png)
 
-You can revise any of the prepared text.
+Hazırlanan metinlerden herhangi birini revize edebilirsiniz.
 
-If you are using a Blind Review method, ensure that the files you send to the Reviewer are stripped of any identifying information about the Author. Additional instruction for this is provided in the [Understanding Blind Review](#understanding-blind-review) and [Removing Identifying Information](#removing-identifying-information) sections.
+Kör Değerlendirme yöntemi kullanıyorsanız, Hakem'e gönderdiğiniz dosyaların Yazar hakkında herhangi bir tanımlayıcı bilgi içermediğinden emin olun. Bunun için ek talimat, [Kör İncelemeyi Anlama](#understanding-blind-review) ve [Tanımlayıcı Bilgileri Kaldırma](#removing-identifying-information) bölümlerinde verilmektedir.
 
-Further down the form, you will see the additional details that are sent to the Reviewer including title, abstract, important dates, and a link to the files to be reviewed.
+Formun devamında, başlık, özet, önemli tarihler ve incelenecek dosyalara bağlantı dahil olmak üzere Hakem'e gönderilen ek ayrıntıları göreceksiniz.
 
 ![Review details include type and due date settings.](./assets/learning-ojs-3-ed-rev-add-4.png)
 
-By default, Reviewers will be provided with an extended text box to type in their comments. However, the Journal Manager can create Review Forms in [**Workflow Settings &gt; Review**](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings) to ask more focused questions. If you would like the Reviewer to fill out a review form, select it under **Review Form**.
+Varsayılan olarak, Hakemlere yorumlarını yazmaları için genişletilmiş bir metin kutusu sağlanacaktır. Ancak Dergi Yöneticisi, daha detaylı sorular sormak için [**İş Akışı Ayarları &gt; Değerlendirme**](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#workflow-settings) adresinde Değerlendirme Formları oluşturabilir. Hakemin bir değerlendirme formu doldurmasını istiyorsanız, bunu **Değerlendirme Formu** altında seçin.
 
-Hit the **Add Reviewer** button to send the message and assign the Reviewer.
+Mesajı göndermek ve Hakemi atamak için **Hakem Ekle** düğmesine basın.
 
-Back on the Review Stage, we can see the Reviewer is now listed.
+Değerlendirme Aşamasına geri döndüğümüzde, Hakemin artık listelendiğini görebiliriz.
 
 ![The newly added Reviewer seen in the Review Stage.](./assets/learning-ojs-3-ed-rev-reviewer-added.png)
 
-You can make additional changes using the blue arrow toggle next to the Reviewer's name.
+Hakem adının yanındaki mavi ok geçişini kullanarak ek değişiklikler yapabilirsiniz.
 
 ![Expanded reviewer details and options.](./assets/learning-ojs-3-ed-rev-reviewer-added-2.png)
 
-**Review Details**: Provides details on the review.
+**Değerlendirme Ayrıntıları**: Değerlendirmeyle ilgili ayrıntıları sağlar.
 
 ![The Review Details window.](./assets/learning-ojs-3-ed-rev-reviewer-review-details.png)
 
-**Email Reviewer**: Allows you to send a message to the Reviewer.
+**Hakem'e E-posta**: Hekem'e bir mesaj göndermenizi sağlar.
 
 ![The Email Reviewer window.](./assets/learning-ojs-3-ed-rev-reviewer-email-reviewer.png)
 
-**Edit Review**: Allows you to change the review dates and files.
+**Değerlendirmeyi Düzenle**: Değerlendirme tarihlerini ve dosyalarını değiştirmenize olanak tanır.
 
 ![The Edit Review window.](./assets/learning-ojs-3-ed-rev-reviewer-edit-review.png)
 
-**Unassign Reviewer**: Allows you to unassign the Reviewer.
+**Hakem Atamasını Kaldır**: Hakem atamasını kaldırmanıza olanak tanır.
 
-**History**: Provides a brief history of the review.
+**Geçmiş**: Değerlendirmenin kısa bir geçmişini sağlar.
 
 ![The review History window.](./assets/learning-ojs-3-ed-rev-review-history.png)
 
-At this point, we could add additional Reviewers, and then wait for their recommendations to come in.
+Bu noktada, ek Hakemler ekleyebilir ve ardından önerilerinin gelmesini bekleyebiliriz.
 
-### Understanding Blind Review
+### Kör Hakemliği Anlamak
 
-OJS is designed to accommodate different types of reviews and has built-in steps to ensure anonymity.
+OJS, farklı değerlendirme türlerini barındıracak şekilde tasarlanmıştır ve anonimliği sağlamak için yerleşik adımlara sahiptir.
 
-All information will be visible to the journal managers and editors regardless of the type of review selected. The review type will be automatically selected based on what has been configured under _Settings_ > _Workflow_ > _Review_. The editors can change the review type when sending the review request. Editors/Section Editors must select the review type when sending the review request from the following options:
+Seçilen değerlendirme türünden bağımsız olarak tüm bilgiler dergi yöneticileri ve editörler tarafından görülebilir. Değerlendirme türü, _Ayarlar_ > altında yapılandırılanlara göre otomatik olarak seçilecektir; _İş Akışı_ > _Değerlendirme_. Editörler, değerlendirme isteği gönderirken inceleme türünü değiştirebilir. Editörler/Bölüm Editörleri, değerlendirme talebini gönderirken aşağıdaki seçeneklerden inceleme türünü seçmelidir:
 
-* Double-Blind
-* Blind
-* Open
+* Çift-Kör
+* Kör
+* Açık
 
-**Double-Blind Review**: The identity of both the author and the reviewer is kept hidden.
+**Çift Kör Hakemlik**: Hem yazarın hem de gözden geçirenin kimliği gizli tutulur.
 
-The author or editor must ensure that metadata from the manuscript file is removed in a Double-Blind review. See [Removing Identifying Information](#removing-identifying-information) for more information.
+Yazar veya editör, bir Kör-Hakem Değerlendirmesinde makale dosyasındaki üstverilerin kaldırılmasını sağlamalıdır. Daha fazla bilgi için [Kimlik Bilgilerini Kaldırma](#removing-identifying-information) konusuna bakın.
 
 *Reviewer*: The reviewer will not be able to see the author(s) in their reviewer’s queue if the editor has selected a double-blind review. All identifying information in the metadata of the submission details is automatically removed by the system.
 
