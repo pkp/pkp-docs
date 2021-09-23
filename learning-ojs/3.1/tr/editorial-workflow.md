@@ -201,13 +201,13 @@ Değerlendirilecek dosyaları işaretleyin.
 
 ## Değerlendirme
 
-When the submission enters the Review Stage, a notification indicates that Reviewers need to be assigned.
+Gönderi Değerlendirme Aşamasına geçildiğinde, bir bildirim Hakemlerin atanması gerektiğini belirtir.
 
 ![The "Waiting for reviewers to be assigned" notification.](./assets/learning-ojs3.1-se-record-revstage.png)
 
-> Note: In the screenshot above, we see the Section Editor's view. Notice the limited Action buttons \(only Make Recommendation is available\). If we were logged in as an Editor, we would see more Action buttons \(Request Revisions, Resubmit for Review, Send to Copyediting, Decline Submission\).
+> Not: Yukarıdaki ekran görüntüsünde Bölüm Editörünün görünümünü görüyoruz. Sınırlı Eylem düğmelerine dikkat edin \(yalnızca Öneri Yap kullanılabilir\). Editör olarak oturum açmış olsaydık, daha fazla Eylem düğmesi \(Revizyon İste, Değerlendirme İçin Yeniden Gönder, Kopya Düzenlemeye Gönder, Gönderyi Reddet\) seçeneklerini görürdük.
 
-From the Reviewers panel, you can select Add Reviewer to assign a new Reviewer.
+Hakem panelinden, yeni bir Hakem atamak için Hakem Ekle'yi seçebilirsiniz.
 
 This opens a new window, where Reviewers are listed and can be selected one at a time.
 
