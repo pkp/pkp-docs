@@ -3,4 +3,4 @@ book: learning-ojs
 version: 3.1
 ---
 
-# Learning OJS 3.1: A Visual Guide to Open Journal Systems
+# Изучаем OJS 3.1: Визуальное руководство по Open Journal Systems
