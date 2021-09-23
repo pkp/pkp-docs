@@ -3,9 +3,9 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Reviewing
+# Рецензирование
 
-As a reviewer, you will learn of the review request via email or by checking your dashboard:
+Как рецензент, вы узнаете о запросе на рецензию по электронной почте или проверив ваш личный кабинет:
 
 ![The assigned submissions queue in reviewer dashboard](./assets/learning-ojs-3-rev-dashboard.png)
 
