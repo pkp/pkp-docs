@@ -3,9 +3,9 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Installing and Upgrading
+# Установка и обновление
 
-OJS 3 is a PHP web application with standardized install and upgrade processes. These processes are kept as simple as possible, though some general systems administration experience is recommended.
+OJS 3 — это веб-приложение на PHP со стандартизированными процессами установки и обновления. These processes are kept as simple as possible, though some general systems administration experience is recommended.
 
 Up to date OJS system requirements, as well as installation, upgrade, and configuration instructions can be found in the following locations:
 
