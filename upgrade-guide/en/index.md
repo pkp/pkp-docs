@@ -13,7 +13,6 @@ This guide will help you upgrade Open Journal Systems (OJS). It describes the kn
 
 The instructions below describe how to upgrade OJS when it is running on a LAMP (Linux, Apache, MySQL, PHP) stack. However, these steps can be adapted to upgrade other PKP software (OMP, OPS) as well as perform upgrades in different server environments.
 
-
 ## Required Knowledge and Tools
 
 > **Do not proceed** if you do not have experience with the items listed below. A mistake during upgrade can lead to unrecoverable errors.
@@ -24,7 +23,6 @@ In order to use this guide, you will need experience with basic system administr
 - Basic GNU/Linux administration skills
 - Server credentials, including database credentials
 - Knowledge of your server stack (this guide assumes a LAMP stack)
-- A [release package](https://pkp.sfu.ca/ojs/ojs_download) of OJS in `.tar.gz` or `.zip` format.
 - The ability to access your server's terminal (SSH)
 
 ### A Note on Versions
@@ -52,7 +50,6 @@ It is not always possible to upgrade from 2.x to any version of 3.x. When perfor
 | `2.4.8-x` | `3.2.1-x` | You can not upgrade to 3.3.x or later from 2.x                                     |
 | `3.2.1-x` | `3.3+`    | Upgrade from `3.2.1-x` to any version 3.3 or later.                                |
 
-
 ## Upgrade Tutorial
 
 The following tutorial provides a recommended step-by-step process to safely upgrade OJS. However, each installation is different and your server environment might differ substantially. In all cases, you should review and understand the commands before executing them.
@@ -77,7 +74,7 @@ The tutorial below uses the following variables to simplify the terminal command
 | OJS_BACKUP_PATH | `/srv/backup/ojs` | Folder to store your backups   |
 | OJS_VERSION     | `ojs-3.3.0-8`     | Version as in the ojs filename |
 
-Rewrite the command below to set  up these variables with the correct values for your installation.
+Rewrite the command below to set up these variables with the correct values for your installation.
 
 ```bash
 $ SERVERNAME="localhost" && \
@@ -99,7 +96,7 @@ OJS_PRIVATE_PATH="$OJS_ROOT/files"
 
 Before beginning the migration, you should put the site into maintenance mode to ensure that visitors do not see error messages and there are no changes to the database or files while backups are being made. Maintenance mode should prevent all requests from being sent to the application.
 
-> OJS does not suppoort a maintenance mode yet, but we [plan to support it](https://github.com/pkp/pkp-lib/issues/3263).
+> OJS does not support a maintenance mode yet, but we [plan to support it](https://github.com/pkp/pkp-lib/issues/3263).
 {:.notice}
 
 Modify your Apache `VirtualHost` directive or place an `.htaccess` file in the `OJS_WEB_PATH` with the following content.
@@ -131,7 +128,7 @@ The steps below will backup the following folders and files.
 | Private files                 | `/var/www/files`                | `OJS_PRIVATE_PATH` |
 | `config.inc.php`              | `/var/www/html/config.inc.php`  |                    |
 | `.htaccess` or vhost (if any) | `/var/www/html/.htaccess`       |                    |
-| plugins                       | `/var/www/html/plugins `        |                    |
+| plugins                       | `/var/www/html/plugins`         |                    |
 | local customizations          | locale files, custom code, etc. |                    |
 
 Backup the database.
@@ -193,10 +190,10 @@ In addition, you will want to perform the following checks.
 Backup the application files.
 
 ```bash
-$ mv "/$OJS_WEB_PATH" "/$OJS_BACKUP_PATH"
+$ mv "$OJS_WEB_PATH" "$OJS_BACKUP_PATH"
 ```
 
-Extract release package.
+Extract the release package.
 
 ```bash
 $ mkdir "$OJS_WEB_PATH"
@@ -218,7 +215,7 @@ $ cp "$OJS_BACKUP_PATH/.htaccess" "$OJS_WEB_PATH"
 Run the following command to compare your configuration file with the template of the new release. Add or remove any configuration options as necessary.
 
 ```bash
-$ diff $OJS_BACKUP_PATH/config.inc.php" $OJS_WEB_PATH/config.TEMPLATE.inc.php"
+$ diff "$OJS_BACKUP_PATH/config.inc.php" "$OJS_WEB_PATH/config.TEMPLATE.inc.php"
 ```
 
 > You can review `docs/release-notes` to learn about important changes introduced in each version. The `config.TEMPLATE.inc.php` includes a description for most configuration parameters.
@@ -252,15 +249,9 @@ If the server is running under [SElinux](https://en.wikipedia.org/wiki/Security-
 (RHEL)$ sudo restorecon -R /var/www/html/
 ```
 
-Remove the original copy of the old installation:
-
-```bash
-$ sudo rm -fR /tmp/html/
-```
-
 ### 8. Run the Upgrade
 
-> An upgrade may take a few minutes up to several hours depending on the size of your site.
+> An upgrade may take from a few minutes up to several hours depending on the size of your site.
 {:.notice}
 
 Confirm the version numbers match your expectations.
@@ -269,7 +260,7 @@ Confirm the version numbers match your expectations.
 $ php tools/upgrade.php check
 ```
 
-In the screenshot below, we can see that the we are currently running `3.2.1-4` and will be upgrading to `3.3.0-6`.
+In the screenshot below, we can see that we are currently running `3.2.1-4` and will be upgrading to `3.3.0-6`.
 
 ![An example of running the PHP upgrade check in the command-line.](./assets/upgrade-check.png)
 
@@ -311,7 +302,13 @@ Check the progress of the upgrade.
 $ tail -f $OJS_ROOT_PATH/upgrade.log
 ```
 
-### 9. Test the Upgrade
+### 9. Restore Custom Plugins
+
+Use the Plugin Gallery to restore any custom plugins that were installed.
+
+If you have installed custom plugins which are not in the Plugin Gallery, check with the plugin distributor for an update which is compatible with your upgraded version.
+
+### 10. Test the Upgrade
 
 It's important to test the site after an upgrade. Any core functions for your journals should be tested, as well as custom plugins or themes.
 
@@ -335,7 +332,7 @@ The following is a short checklist that covers common use cases.
      - Register an author
      - Get a registration email
      - Login with the new user
-5. Complete the edotiral workflow
+5. Complete the editorial workflow
     - As a Journal Manager:
         - Create a new testing journal
         - Register your new user as an author in the testing journal
@@ -356,11 +353,13 @@ The following is a short checklist that covers common use cases.
         - Remove the new user by merging it to your admin account
 7. Additional testing of common tasks
 
-### 10. Restore Custom Plugins
+### 11. Cleanup Backup Files
 
-Use the Plugin Gallery to restore any custom plugins that were installed.
+You may wish to retain your backup files, but if you don't, you can remove them.
 
-If you have installed custom plugins which are not in the Plugin Gallery, check with the plugin distributor for an update which is compatible with your upgraded version.
+```bash
+$ sudo rm -fR "$OJS_BACKUP_PATH/*"
+```
 
 ## Troubleshooting
 
