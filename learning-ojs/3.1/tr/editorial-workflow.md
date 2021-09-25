@@ -289,21 +289,21 @@ Seçilen değerlendirme türünden bağımsız olarak tüm bilgiler dergi yönet
 
 Yazar veya editör, bir Kör-Hakem Değerlendirmesinde makale dosyasındaki üstverilerin kaldırılmasını sağlamalıdır. Daha fazla bilgi için [Kimlik Bilgilerini Kaldırma](#removing-identifying-information) konusuna bakın.
 
-*Reviewer*: The reviewer will not be able to see the author(s) in their reviewer’s queue if the editor has selected a double-blind review. All identifying information in the metadata of the submission details is automatically removed by the system.
+*Hakem*: Editör çift kör bir değerlendirme seçtiyse, hakem kendi hakem iş kuyruğundaki yazar(lar)ı göremeyecektir. Gönderi detaylarının üstverilerindeki tüm tanımlayıcı bilgiler sistem tarafından otomatik olarak kaldırılır.
 
 ![A sample of the metadata a reviewer will see in a double anonymous review - no identifying information is included.](./assets/learning-ojs3.1-ed-rev-anon1.png)
 
-At the end of a review, if a reviewer chooses to upload a review file they should remove all identifying information before uploading it to the system. See [Removing Identifying Information](#removing-identifying-information) for more information.
+Bir değerlendirmenin sonunda, bir hakem bir değerlendirme dosyası yüklemeyi seçerse, sisteme yüklemeden önce tüm tanımlayıcı bilgileri kaldırmalıdır. Daha fazla bilgi için [Kimlik Bilgilerini Kaldırma](#removing-identifying-information) konusuna bakın.
 
-*Author*: No identifying information regarding the reviewer will be visible to the author within their manuscript view.
+*Yazar*: Yazar, makale görünümünde gözden geçirenle ilgili tanımlayıcı hiçbir bilgi görmeyecek.
 
 ![A sample of what the author will see after their submission is reviewed - no identifying information is included.](./assets/learning-ojs3.1-ed-rev-anon2.png)
 
-*Editor's Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
+*Editör Kararı*: Bir değerlendirmenin sonunda yazar(lar)a gönderilen karar e-postasında, hakemlerin genel başlıkları olacaktır.
 
 ![A sample decision email identifying the reviewer only as "Reviewer A".](./assets/learning-ojs3.1-ed-rev-anon3.png)
 
-**Blind Review**: Reviewer identity is kept anonymous from the author(s). The reviewers can see the author details.
+**Kör Değerlendirme**: Hakem kimliği yazar(lar) için anonim olarak tutulur. Hakemler yazar ayrıntılarını görebilir.
 
 *Reviewer*: The reviewer is able will see full the metadata entered by the author by clicking _View All Submission Details_ in the request tab of the manuscript. The authors’ name will also appear in the reviewer's queue.
 
