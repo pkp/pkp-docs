@@ -31,7 +31,6 @@ apps:
         - path: starting-a-press
         - path: learning-omp
         - path: learning-omp-1
-        - path: admin-guide
         - path: developer-docs
           isDeveloper: true
         - path: designing-your-journal
@@ -45,7 +44,6 @@ apps:
     description: Usage guides and documentation for our preprint publishing software.
     cards:
         - path: learning-ops
-        - path: admin-guide
         - path: developer-docs
           isDeveloper: true
         - path: designing-your-journal
