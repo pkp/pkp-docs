@@ -1,6 +1,7 @@
 ---
 book: learning-ops
 version: 3.3
+title: Setting up and Maintaining Your Server - Learning OPS
 ---
 
 # Setting up and Maintaining Your Server
