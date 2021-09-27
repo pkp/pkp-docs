@@ -1,12 +1,12 @@
 # Sisällys
 
 * [Alkusanat](.)
-* [Luku 1: Esittely](./introduction)
-  * [OPS Features](./introduction#ops-features)
-  * [What's New in This Version of OPS](./introduction#whats-new-in-this-version-of-ops)
-  * [OPS Uses](./introduction#ops-uses)
-  * [Terminology](./introduction#terminology)
-  * [Support and Community Resources](./introduction#support-and-community-resources)
+* [About OPS](./about-ops)
+  * [OPS Features](./about-ops#ops-features)
+  * [What's New in This Version of OPS](./about-ops#whats-new-in-this-version-of-ops)
+  * [OPS Uses](./about-ops#ops-uses)
+  * [Terminology](./about-ops#terminology)
+  * [Support and Community Resources](./about-ops#support-and-community-resources)
 * [Developing Policies and Workflows](./policies-workflows)
   * [Theme or Discipline](./policies-workflows#theme-or-discipline)
   * [Submission](./policies-workflows#submission)
