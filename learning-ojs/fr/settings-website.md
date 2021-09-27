@@ -88,11 +88,11 @@ Sous Paramètres du site Web > Langues, vous pouvez voir une liste des langues o
 
 - **Paramètres Régionaux Principaux**: une langue doit être définie comme paramètres régionaux principaux, ce qui signifie la langue dans laquelle le journal apparaît par défaut.
 
-- **Interface d'utilisateur** : si vous souhaitez que l'interface de la revue soit disponible dans d'autres langues, sélectionnez-les ici.
+- **UI**: If you want the journal’s front end and back end interface to be available in other languages, select them here. Enabling a language for the UI will allow users to select the language of the application interface. For example, buttons, page titles, and on-screen messages will be in the user's selected language.
 
-- **Formulaires**: Cela permettra à toutes les langues sélectionnées d'être disponibles lors du remplissage des formulaires en ligne. Cela permettra d'ajouter des métadonnées dans les langues sélectionnées dans l'onglet Publication.
+- **Formulaires**: Cela permettra à toutes les langues sélectionnées d'être disponibles lors du remplissage des formulaires en ligne. Enabling a language for forms will allow text boxes to support multilingual data entry, including the Publication tab for submissions. For example, configuration settings and metadata can be entered in multiple languages.
 
-- **Soumission**: si vous voulez que les auteurs puissent soumettre des soumissions dans d'autres langues, sélectionnez-les ici. Cela permettra aux auteurs d'ajouter des métadonnées dans les langues sélectionnées lors du téléversement de leur soumission.
+- **Soumission**: si vous voulez que les auteurs puissent soumettre des soumissions dans d'autres langues, sélectionnez-les ici. This will allow authors to select a language when they make a submission and add metadata in selected languages when uploading their submission.
 
 Si vous activez l'affichage de plusieurs langues dans l'interface utilisateur, assurez-vous que dans Paramètres du site Web > Apparence > Gestion de la Barre Latérale, le Bloc Toggle de Langue est sélectionné pour rendre cette fonctionnalité disponible aux utilisateurs.
 
