@@ -62,7 +62,6 @@ The tutorial below uses the following variables to simplify the terminal command
 
 | VARIABLE        | Default           | Description                    |
 | --------------- | ----------------- | ------------------------------ |
-| SERVERNAME      | `localhost`       | Host's name                    |
 | WEB_USER        | `www-data`        | Webserver user                 |
 | WEB_GROUP       | `www-data`        | Webserver user's group         |
 | OJS_ROOT_PATH   | `/var/www`        | OJS root folder                |
@@ -77,8 +76,7 @@ The tutorial below uses the following variables to simplify the terminal command
 Rewrite the command below to set up these variables with the correct values for your installation.
 
 ```bash
-$ SERVERNAME="localhost" && \
-WEB_USER="www-data" && \
+$ WEB_USER="www-data" && \
 WEB_GROUP="www-data" && \
 OJS_ROOT_PATH="/var/www" && \
 OJS_WEB_PATH="/var/www/html" && \
@@ -230,23 +228,23 @@ $ cp -r "$OJS_BACKUP_PATH/html/public/*" "$OJS_PUBLIC_PATH"
 Set the permissions of new files as required by your server configuration.
 
 ```bash
-(Debian)$ sudo chown -R nobody:www-data /var/www/html/public/ /var/www/html/cache/
+(Debian)$ sudo chown -R $WEB_USER:$WEB_GROUP "$OJS_PUBLIC_PATH" "$OJS_WEB_PATH/cache/"
 
-(RHEL)$ sudo chown -R apache:apache /var/www/html/public/ /var/www/html/cache/
+(RHEL)$ sudo chown -R apache:apache "$OJS_PUBLIC_PATH" "$OJS_WEB_PATH/cache/"
 ```
 
 Set the permissions for the plugin directories as required.
 
 ```bash
-(Debian)$ sudo chown -R nobody:www-data/var/www/html/plugins/
+(Debian)$ sudo chown -R $WEB_USER:$WEB_GROUP "$OJS_WEB_PATH/plugins/"
 
-(RHEL)$ sudo chown -R apache:apache /var/www/html/plugins/
+(RHEL)$ sudo chown -R apache:apache "$OJS_WEB_PATH/plugins/"
 ```
 
 If the server is running under [SElinux](https://en.wikipedia.org/wiki/Security-Enhanced_Linux), reset the file contexts.
 
 ```bash
-(RHEL)$ sudo restorecon -R /var/www/html/
+(RHEL)$ sudo restorecon -R "$OJS_WEB_PATH/"
 ```
 
 ### 8. Run the Upgrade
@@ -277,7 +275,7 @@ If the upgrade is successful, you will see the message below informing you that 
 When the upgrade is complete, remove the maintenance mode previously configured.
 
 ```bash
-$ cd /var/www/html/
+$ cd "$OJS_WEB_PATH/"
 $ mv .htaccess .htaccess.disabled
 ```
 
@@ -366,6 +364,6 @@ $ sudo rm -fR "$OJS_BACKUP_PATH/*"
 Consult the following resources if you encounter any problems.
 
 * [PKP Forum](https://forum.pkp.sfu.ca/) - Questions and answers in the support forum
-* [FAQ](https://docs.pkp.sfu.ca/faq/en/) - The [Errors and Troubleshooting](https://docs.pkp.sfu.ca/faq/en/errors-troubleshooting) section may be helpful
-* [Admin Guide - Troubleshooting](https://docs.pkp.sfu.ca/admin-guide) - See the [Troubleshooting](https://docs.pkp.sfu.ca/admin-guide/en/troubleshooting) section
+* [FAQ](/faq/en/) - The [Errors and Troubleshooting](/faq/en/errors-troubleshooting) section may be helpful
+* [Admin Guide - Troubleshooting](/admin-guide/) - See the [Troubleshooting](/admin-guide/en/troubleshooting) section
 * [GitHub Issues](https://github.com/pkp/pkp-lib/issues) - Review known issues reported against versions of the software
