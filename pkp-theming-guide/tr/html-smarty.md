@@ -1,54 +1,54 @@
-# HTML/Smarty Templates
+# HTML/Akıllı Şablonlar
 
-OJS and OMP use the [Smarty](http://www.smarty.net/) templating system to compile HTML templates. Smarty is a lightweight syntax which allows you to use simple PHP-like logic within HTML templates.
+OJS ve OMP, HTML şablonlarını derlemek için [Smarty](http://www.smarty.net/) şablonlama sistemini kullanır. Smarty, HTML şablonlarında PHP benzeri basit mantık kullanmanıza izin veren hafif bir sözdizimidir.
 
-## Locating the Frontend Templates
+## Ön Uç Şablonları Konumlandırma
 
-Every template file used for the frontend, public-facing journal or press website will be found in a special directory that is kept separate from the template files used to power the application's backend, editorial interface. This allows you to more safely customize the frontend without effecting the backend, and significantly reduces the amount of work you must do to build a custom theme.
+Ön uç, halka açık dergi veya basın web sitesi için kullanılan her şablon dosyası, uygulamanın arka ucunu, editoryal arayüzü güçlendirmek için kullanılan şablon dosyalarından ayrı tutulan özel bir dizinde bulunacaktır. Bu, arka ucu etkilemeden ön ucu daha güvenli bir şekilde özelleştirmenize olanak tanır ve özel bir tema oluşturmak için yapmanız gereken iş miktarını önemli ölçüde azaltır.
 
-Every frontend template can be found at one of a few places.
+Her ön uç şablonu birkaç yerden birinde bulunabilir.
 
-1. Any templates specific to your OJS or OMP application will be found under `templates/frontend/` in the application directory.
-2. Any templates common to both applications, such as user registration and announcements, will be found under `lib/pkp/templates/frontend`.
-3. Any templates that your theme has overridden will be found under `plugins/themes/<your-theme-name>/templates/frontend`.
+1. OJS veya OMP uygulamanıza özel tüm şablonlar, uygulama dizininde `şablonlar/ön uç/` altında bulunacaktır.
+2. Kullanıcı kaydı ve duyurular gibi her iki uygulamada ortak olan tüm şablonlar `lib/pkp/templates/frontend` altında bulunabilir.
+3. Temanızın geçersiz kıldığı tüm şablonlar `eklentiler/temalar/<your-theme-name>/templates/frontend` altında bulunur.
 
 
-### The Frontend Template Structure
-Each of these directories is split into three subdirectories, which store specific types of templates.
+### Ön Uç Şablon Yapısı
+Bu dizinlerin her biri, belirli şablon türlerini depolayan üç alt dizine bölünmüştür.
 
 `/templates/frontend/pages`
 
-This directory contains all of the top-level template files that are called by the application. Each of these template files represents an entire page request.
+Bu dizin, uygulama tarafından çağrılan tüm üst düzey şablon dosyalarını içerir. Bu şablon dosyalarının her biri, tam bir sayfa isteğini temsil eder.
 
-For instance, a request to the homepage loads `/pages/index.tpl`. A request to an announcement loads `/pages/announcement.tpl`.
+Örneğin, ana sayfaya yapılan bir istek `/pages/index.tpl` dosyasını çağırır. Duyuru isteği `/pages/announcement.tpl` dosyasını çağırır.
 
 `/templates/frontend/objects`
 
-This directory contains template files which map to a particular data object. In OJS, you’ll find templates for an Issue and Article object. In OMP, you’ll find templates for a Monograph object.
+Bu dizin, belirli bir veri nesnesiyle eşleşen şablon dosyalarını içerir. OJS'de bir Sayı ve Makale nesnesi için şablonlar bulacaksınız. OMP'de bir Monograph nesnesi için şablonlar bulacaksınız.
 
-Each of these template files represents a particular view of the data object. You will find `article_summary.tpl` for displaying a summary of an Article in an Issue's table of contents. And you will find `article_details.tpl` for displaying a complete view of an Article.
+Bu şablon dosyalarının her biri, veri nesnesinin belirli bir görünümünü temsil eder. Bir Sayının içindekiler tablosunda bir Makalenin özetini görüntülemek için `article_summary.tpl` dosyasını bulacaksınız. Ve bir Makalenin tam görünümünü görüntülemek için `article_details.tpl` dosyasını bulacaksınız.
 
 `/templates/frontend/components`
 
-This directory contains template files which handle specific UI components or templates that don’t fit into other places, such as breadcrumb navigation and search forms.
+Bu dizin, belirli UI bileşenlerini işleyen şablon dosyaları veya içerik haritası gezintisi ve arama formları gibi başka yerlere sığmayan şablonlar içerir.
 
-### Understanding Template Overrides
+### Şablonu Geçersiz Yapmayı Anlama
 
-The **Default Theme** uses all of the templates from the core application. But you can override any template in the system by including a file with the same name in your theme.
+**Varsayılan Tema**, çekirdek uygulamadaki tüm şablonları kullanır. Ancak temanıza aynı ada sahip bir dosya ekleyerek sistemdeki herhangi bir şablonu geçersiz kılabilirsiniz.
 
-For example, if you wanted to override the `/templates/frontend/pages/article.tpl` template in your theme, you would add a file to `/plugins/themes/<your-theme>/templates/frontend/pages/article.tpl`.
+Örneğin, temanızdaki `/templates/frontend/pages/article.tpl` şablonunu geçersiz kılmak isterseniz, `/plugins/themes/<your-theme>/templates/frontend/pages/article.tpl`'ye bir dosya eklemelisiniz.
 
-Using this technique, you can override only the specific templates you want to override. Or you can replace every single template in the system with your own.
+Bu tekniği kullanarak, yalnızca geçersiz kılmak istediğiniz belirli şablonları geçersiz kılabilirsiniz. Veya sistemdeki her bir şablonu kendi şablonunuzla değiştirebilirsiniz.
 
-When OJS or OMP loads a template, it searches in the following order.
+OJS veya OMP bir şablon yüklediğinde aşağıdaki sırayla arama yapar.
 
-1. The current theme template directory.
-2. The OJS or OMP template directory.
-3. The `lib/pkp/templates/` directory within the application.
+1. Geçerli tema şablonu dizini.
+2. OJS veya OMP şablon dizini.
+3. Uygulama içindeki `lib/pkp/templates/` dizini.
 
-If it fails to find a template at (1), it searches in (2), and so-on.
+(1)'de bir şablon bulamazsa, (2)'de arama yapar ve bu şekilde devam eder.
 
-*This section describes editing the frontend templates. We recommend you **never modify the backend templates**, but if you wish to do so, you can learn more about [theming the editorial backend](theme-backend.md).*
+*Bu bölüm, ön uç şablonlarının düzenlenmesini açıklar. We recommend you **never modify the backend templates**, but if you wish to do so, you can learn more about [theming the editorial backend](theme-backend.md).*
 
 ## Using Smarty Data in Templates
 
