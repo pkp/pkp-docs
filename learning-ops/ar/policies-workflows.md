@@ -1,6 +1,7 @@
 ---
 book: learning-ops
 version: 3.3
+title: Developing Policies and Workflows - Learning OJS
 ---
 
 # Developing Policies and Workflows
