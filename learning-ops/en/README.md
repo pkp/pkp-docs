@@ -1,6 +1,8 @@
 ---
 book: learning-ops
 version: 3.3
+title: 'Learning OPS 3.3: A User Guide to Open Preprint Systems'
+description: A guide for how to use Open Preprint Systems (OPS)
 ---
 
 # Learning OPS 3.3: A User Guide to Open Preprint Systems
