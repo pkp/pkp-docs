@@ -305,30 +305,30 @@ Bir değerlendirmenin sonunda, bir hakem bir değerlendirme dosyası yüklemeyi 
 
 **Kör Değerlendirme**: Hakem kimliği yazar(lar) için anonim olarak tutulur. Hakemler yazar ayrıntılarını görebilir.
 
-*Reviewer*: The reviewer is able will see full the metadata entered by the author by clicking _View All Submission Details_ in the request tab of the manuscript. The authors’ name will also appear in the reviewer's queue.
+*Hakem*: Hakem, makale istek sekmesindeki _Tüm Gönderi Ayrıntılarını Görüntüle_'yi tıklayarak yazar tarafından girilen üstverilerin tamamını görebilir. Yazarların adı hakem iş kuyruğunda görünecektir.
 
-*Author*: No identifying information regarding the reviewer will be available within their manuscript view.
+*Yazar*: Makale görünümünde hakeme ilişkin tanımlayıcı bilgiler bulunmayacaktır.
 
 ![A sample of what the author will see after their submission is reviewed - no identifying information is included.](./assets/learning-ojs3.1-ed-rev-anon2.png)
 
-*Editors Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
+*Editör Kararı*: Bir değerlendirmenin sonunda yazar(lar) a gönderilen karar e-postasında, hakemlerin genel başlıkları olacaktır.
 
 ![A sample decision email identifying the reviewer only as "Reviewer A".](./assets/learning-ojs3.1-ed-rev-anon3.png)
 
-### Removing Identifying Information
+### Tanımlayıcı Bilgilerin Kaldırılması
 
-While OJS has a number of built-in functions for blind reviews, additional steps may need to be taken outside of the platform to ensure a Double-Blind Review. A submission file may have information that could identify the authors' identity within the document properties.
+OJS, kör değerlendirme için bir dizi yerleşik işleve sahip olsa da, Çift Kör İnceleme sağlamak için platformun dışında ek adımlar atılması gerekebilir. Bir gönderi dosyası, belge özellikleri içinde yazarların kimliğini tanımlayabilecek bilgilere sahip olabilir.
 
 ![A sample of a document whose author is visible within the document properties.](./assets/learning-ojs3.1-ed-rev-anon4.png)
 
-Authors may also include their name within the article, footnotes, or references, in which case the editor will have to remove it prior to sending for review. Alternatively, authors can be asked to redact their names from the submission file, with "Author" and year used in the references and footnotes instead of the authors' name, article title, etc., prior to submission.
+Yazarlar ayrıca adlarını makale, dipnotlar veya referanslara dahil edebilir, bu durumda editörün değerlendirmeye göndermeden önce bunları kaldırması gerekecektir. Alternatif olarak, yazarlardan göndermeden önce kaynak ve dipnotlarda yazar adı, makale başlığı vb. yerine "Yazar" ve yıl kullanılarak gönderi dosyasından adlarını düzeltmeleri istenebilir.
 
-#### Microsoft Word for Windows
+#### Windows için Microsoft Word
 
-1. Go to _File_
-2. Select _Info_
-3. Click on _Check for Issues_
-4. Click on _Inspect Document_
+1. _Dosya_menüsüne gidin
+2. _Bilgi_ seçeneğini seçin
+3. _Sorunları Kontrol Et_'i tıklayın
+4. _Belgeyi İncele_'yi tıklayın
 5. In the _Document Inspector_ dialog box, select the check boxes to choose the types of hidden content that you want to be inspected
 6. Click _Remove All_
 7. Click _Close_
