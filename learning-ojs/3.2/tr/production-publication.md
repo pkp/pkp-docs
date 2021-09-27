@@ -5,99 +5,99 @@ version: 3.2
 
 # Bölüm 15: Üretim ve Yayın
 
-With the completion of the Copyediting stage, the submission now moves to Production. From here, the copyedited files will be converted to publishable formats in the form of galley files (e.g., PDF, HTML) and proofread before publishing. A new journal issue will be created and the article will be scheduled for publication in the issue. This chapter explains the steps in that process, as well as how to use the versioning feature in OJS 3.2 to publish a new version of an article if significant changes are made.
+Kopya Düzenleme aşamasının tamamlanmasıyla, gönderi artık Üretim'e taşınır. Burada, kopyalanan dosyalar, dizigi dosyaları (Ön. PDF, HTML) biçiminde yayınlanabilir biçimlere dönüştürülecek ve yayınlanmadan önce düzeltilecektir. Yeni bir dergi sayısı oluşturulacak ve makale bu sayıda yayınlanmak üzere planlanacaktır. Bu bölüm, bu süreçteki adımların yanı sıra, önemli değişiklikler yapılırsa bir makalenin yeni bir sürümünü yayınlamak için OJS 3.2'deki sürüm oluşturma özelliğinin nasıl kullanılacağını açıklar.
 
-OJS also offers a straightforward way to bypass the editorial workflow described in the previous chapter and submit content directly into production, where it can be added to an issue and published. You can do this via Quick Submit plugin. See the detailed [Quick Submit plugin instructions under the Data Import & Export chapter](./tools.md#importexport).
+OJS ayrıca önceki bölümde açıklanan editoryal iş akışını atlamak ve içeriği doğrudan bir sayıya eklenebileceği ve yayınlanabileceği üretime göndermek için basit bir yol sunar. Bunu Hızlı Gönder eklentisi ile yapabilirsiniz. Detay için [Veri İçe Aktarma & Dışa Aktarma bölümü](./tools.md#importexport) altındaki Hızlı Gönderi eklentisi talimatlarına bakın.
 
-To start working in Production, the Section Editor or Journal Editor must login to the system and choose the submission from their dashboard.
+Üretimde çalışmaya başlamak için Bölüm Editörü veya Dergi Editörü sisteme giriş yapmalı ve panolarından gönderiyi seçmelidir.
 
-Clicking on the article will open the submission record.
+Makaleye tıklamak, gönderi kaydını açacaktır.
 
 ![Production tab in the editorial workflow of a manuscript](./assets/learning-ojs-3.2-se-production.png)
 
-You will see the copyedited files are now available in the **Production Ready Files** panel.
+Kopyalanmış dosyaların artık **Üretime Hazır Dosyalar** panelinde mevcut olduğunu göreceksiniz.
 
-In the **Production** tab, you can assign participants (such as a Layout Editor) to the Production stage of the workflow and communicate with participants in the **Production Discussions** panel.
+**Üretim** sekmesinde, iş akışının Üretim aşamasına katılımcıları (örneğin bir Mizanpajcı) atayabilir ve **Üretim Tartışmaları** panelinde katılımcılarla iletişim kurabilirsiniz.
 
-## Publication Tabs
+## Yayın Sekmeleri
 
-Everything related to publishing a submission is done under the Publication tab. The Publication tab allows you to edit or add information about the submission, including contributors, metadata, and identifiers. It is also where you will upload the final Galley files for publication in the journal.
+Gönderinin yayınlanmasıyla ilgili her şey Yayın sekmesi altında yapılır. Yayın sekmesi, katkıda bulunanlar, üstveriler ve tanımlayıcılar dahil olmak üzere gönderiyle ilgili bilgileri düzenlemenize veya eklemenize olanak tanır. Ayrıca dergide yayınlanmak üzere son Dizgi dosyalarını yükleyeceğiniz yerdir.
 
 ![Publication tab that displays metadata information of a manuscript.](./assets/learning-ojs-3.2-production-publication-tab.png)
 
-Here is an overview of what the different tabs in this section are for. Detailed instructions on some of these are available later in the chapter.
+Burada, bu bölümdeki farklı sekmelerin ne için olduğuna ilişkin bir genel bakış yer almaktadır. Bunlardan bazıları hakkında ayrıntılı talimatlar bölümün ilerleyen kısımlarında mevcuttur.
 
-**Title & Abstract** Use this tab to edit the article title, subtitle, and abstract.
+**Başlık & Özet** Makale başlığını, alt başlığını ve özeti düzenlemek için bu sekmeyi kullanın.
 
-If any changes are made, click Save before exiting this window.
+Herhangi bir değişiklik yapılırsa, bu pencereden çıkmadan önce Kaydet'e tıklayın.
 
-**Contributors** Use this tab to add, edit, or remove article contributors.
+**Katkıda Bulunanlar** Makaleye katkıda bulunanları eklemek, düzenlemek veya kaldırmak için bu sekmeyi kullanın.
 
-**Metadata** Use this tab to add or edit article keywords.
+**Metaveriler** Makaleye anahtar kelime eklemek veya düzenlemek için bu sekmeyi kullanın.
 
-If any changes are made, click Save before exiting this window.
+Herhangi bir değişiklik yapılırsa, bu pencereden çıkmadan önce Kaydet'e tıklayın.
 
-**Identifiers** Use the Identifiers tab to view or add a unique identifier, such as a DOI. More information about assigning and managing DOIs is available in the [DOI Plugin Guide](/doi-plugin/).
+**Tanımlayıcılar** DOI gibi benzersiz bir tanımlayıcıyı görüntülemek veya eklemek için Tanımlayıcılar sekmesini kullanın. DOI atama ve yönetme hakkında daha fazla bilgiyi [DOI Eklenti Kılavuzu](/doi-plugin/)'nda bulabilirsiniz.
 
-**Galleys** Use the Galleys tab to upload the final file for publication. This is explained below.
+**Dizgi** Yayınlanmak üzere son dosyayı yüklemek için Dizgiler sekmesini kullanın. Bu aşağıda açıklanmıştır.
 
-**Permissions & Disclosure** Include details about the copyright holder and link to the article license, if applicable. This will be automatically filled in according to your [Distribution Settings](./settings-distribution.md).
+**İzinler & Açıklama** Varsa, telif hakkı sahibiyle ilgili ayrıntıları ve makale lisansına bağlantı ekleyin. Bu, [Dağıtım Ayarlarınıza](./settings-distribution.md) göre otomatik olarak doldurulacaktır.
 
-**Issues** Use the Issues tab to assign the article to a journal issue. This is explained below.
+**Sayılar** Makaleyi bir dergi sayısına atamak için Sayılar sekmesini kullanın. Bu aşağıda açıklanmıştır.
 
-### Multilingual Submissions
+### Çok Dilli Gönderiler
 
-The Title & Abstract, Metadata, Permissions & Disclosure, and Issue tabs have options for adding and editing metadata in multiple languages. Languages must first be turned on in Website Settings -> Setup -> Languages.
+Başlık & Özet, Üstveriler, İzinler & Açıklama ve Sayı sekmelerinde birden çok dilde üstveri ekleme ve düzenleme seçenekleri bulunur. Diller önce Web Sitesi Ayarları -> Kurulum -> Diller'de açılmalıdır.
 
-Select the desired language tab below the “Schedule for Production” button, and complete the metadata fields in the selected language.
+“Üretim Programı” düğmesinin altında istediğiniz dil sekmesini seçin ve seçilen dilde üstveri alanlarını doldurun.
 
 ![Multilingual button and text fields for French(Canada)in the metadata subtab within Publication.](./assets/learning-ojs3.2-ed-prod-metadata-lang.png)
 
-The “Issue” tab allows you to upload multiple cover images in selected languages.
+"Sayı" sekmesi, seçilen dillerde birden fazla kapak resmi yüklemenize olanak tanır.
 
 ![Multilingual button and upload field for an issue cover image for French(Canada)in the Issue subtab within Publication.](./assets/learning-ojs3.2-ed-prod-issue-languages.png)
 
-## Format Article for Publication
+## Yayın İçin Makale Biçimlendirme
 
-### Assign Layout Editor
+### Mizanpajcı Ata
 
-A notification banner indicates that you must assign someone to create the galley files (e.g., the PDFs, HTML, etc.) from the production ready files.
+Bir bildirim başlığı, üretime hazır dosyalardan dizgi dosyalarını (örn. PDF'ler, HTML, vb.) oluşturmak için birini atamanız gerektiğini belirtir.
 
-This can vary from journal to journal – you may have layout editors or production assistants to do this work. Some journals use an external graphic design or typesetting service. If you would like to communicate with your layout editor, production assistant, graphic designer, or typesetter through OJS and manage the production process with them in OJS, ensure they have a user account and add them as a participant to the submission.
+Bu, dergiden dergiye değişebilir – bu işi yapmak için mizanpaj editörleriniz veya üretim asistanlarınız olabilir. Bazı dergiler harici bir grafik tasarım veya dizgi hizmeti kullanır. Mizanpaj düzenleyiciniz, yapım asistanınız, grafik tasarımcınız veya dizgiciniz ile OJS üzerinden iletişim kurmak ve üretim sürecini OJS'de onlarla yönetmek istiyorsanız, bir kullanıcı hesabına sahip olduklarından emin olun ve onları gönderiye katılımcı olarak ekleyin.
 
-To make the assignment, use the **Assign** link in the Participants list. This will open a new window.
+Görevi yapmak için Katılımcılar listesindeki **Ata** bağlantısını kullanın. Bu yeni bir pencere açacaktır.
 
 ![New window to assign participants such as Layout Editor.](./assets/learning-ojs-3.2-se-production-participants-add.png)
 
-Use the role selector and search button to find appropriate users. Select the user and choose a predefined message, then click **OK** to send.
+Uygun kullanıcıları bulmak için rol seçi ve arama düğmesini kullanın. Kullanıcıyı seçin ve önceden tanımlanmış bir mesaj seçin, ardından göndermek için **Tamam**'ı tıklayın.
 
-The user has now been notified via email and in the dashboard.
+Kullanıcı artık e-posta yoluyla ve kontrol panelinde bilgilendirildi.
 
 ![Manuscript dashboard after additional participants have been assigned.](./assets/learning-ojs-3.2-se-production-participants-added.png)
 
-You can now see the Layout Editor in the Participants list, and you can see the request notice in the Production Discussions panel. You can now wait for the Layout Editor to complete their tasks.
+Artık Katılımcılar listesinde Mizanpajcıyı görebilir ve Üretim Tartışmaları panelinde istek bildirimini görebilirsiniz. Artık Mizanpaj Düzenleyicisinin görevlerini tamamlamasını bekleyebilirsiniz.
 
-### Layout Editing
+### Tasarım Editörü
 
-As a Layout Editor, you will have received a message inviting you to create the galleys for the submission. To get started, login to the system and go to your dashboard.
+Bir Mizanpaj Editörü olarak, sizi gönderi için dizgiler oluşturmaya davet eden bir mesaj almış olacaksınız. Başlamak için sisteme giriş yapın ve kontrol panelinize gidin.
 
 ![Layout Editor Dashboard showing list of assigned manuscripts.](./assets/learning-ojs-3.2-le-dashboard.png)
 
-From here, find the submission and select the **Production** link. This will take you to the submission record.
+Burada gönderiyi bulun ve **Üretim** bağlantısını seçin. Bu sizi gönderi kaydına götürecektir.
 
 ![Production tab of on the assigned manuscript with 1 production ready file for the Layout Editor.](./assets/learning-ojs-3.2-le-submission.png)
 
-From the Production Ready Files panel, download the files to your desktop and work outside of OJS to convert them to galley files. The next section explains galley file formats and preparation.
+Üretime Hazır Dosyalar panelinden dosyaları masaüstünüze indirin ve onları galeri dosyalarına dönüştürmek için OJS dışında çalışın. Bir sonraki bölüm, dizgi dosya formatlarını ve hazırlamayı açıklar.
 
-> Note: PKP is currently working on a project to automate the conversion of Microsoft Word documents into other formats, including XML, HTML, PDF, EPUB, etc. Keep an eye on our blog for updates.
+> Not: PKP şu anda Microsoft Word belgelerinin XML, HTML, PDF, EPUB vb. dahil olmak üzere diğer biçimlere dönüştürülmesini otomatikleştirmek için bir proje üzerinde çalışıyor. Güncellemeler için blogumuzu takip edin.
 
-### Prepare and Add Galley Files
+### Dizgi Dosyaları Hazırlama ve Ekleme
 
-A Galley is the final publication-ready file that has been prepared for readers and will be published on the article page. Galleys should be in a stable non-editable format (e.g., HTML, PDF, ePub, or XML) versions of the full-text article. Galley files can also include supplementary material such as multimedia files and research data. You can publish a galley file for an article and for an entire issue.
+Dizgi, okuyucular için hazırlanmış ve makale sayfasında yayınlanacak olan yayına hazır son dosyadır. Dizgi'ler, tam metin makalenin sabit, düzenlenemez bir biçimde (ör. HTML, PDF, ePub veya XML) sürümlerinde olmalıdır. Dizgi dosyaları, multimedya dosyaları ve araştırma verileri gibi ek materyalleri de içerebilir. Bir makale ve tüm sayı için bir dizgi dosyası yayınlayabilirsiniz.
 
-#### Galley file component types
+#### Dizgi dosyası bileşen türleri
 
-When you upload a galley file, you will need to select a **Component Type**. These are the same component types that authors select from when they upload submission files. You can configure component types under Workflow Settings > Submission > Components, according to whether you want the component type to be published and whether you want a link to it to appear on the article landing page or in the table of contents.
+Bir dizgi dosyası yüklediğinizde, bir **Bileşen Türü** seçmeniz gerekecektir. Bunlar, yazarların gönderi dosyalarını yüklediklerinde seçtikleri bileşen türlerinin aynısıdır. You can configure component types under Workflow Settings > Submission > Components, according to whether you want the component type to be published and whether you want a link to it to appear on the article landing page or in the table of contents.
 
 The configurations are as follows:
 
