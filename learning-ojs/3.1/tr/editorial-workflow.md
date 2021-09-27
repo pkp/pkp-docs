@@ -325,27 +325,27 @@ Yazarlar ayrıca adlarını makale, dipnotlar veya referanslara dahil edebilir, 
 
 #### Windows için Microsoft Word
 
-1. _Dosya_menüsüne gidin
+1. _Dosya_'yı gidin
 2. _Bilgi_ seçeneğini seçin
-3. _Sorunları Kontrol Et_'i tıklayın
+3. _Sorunları Denetle_'yi seçin
 4. _Belgeyi İncele_'yi tıklayın
-5. In the _Document Inspector_ dialog box, select the check boxes to choose the types of hidden content that you want to be inspected
-6. Click _Remove All_
-7. Click _Close_
-8. Save the document
+5. _Belge Denetçisi_ iletişim kutusunda, denetlenmesini istediğiniz gizli içerik türlerini seçmek için onay kutularını seçin
+6. _Tümünü Kaldır_'ı tıklayın
+7. _Kapat_'ı tıklayın
+8. Belgeyi kaydet
 
-#### Microsoft Word for MacOS
+#### MacOS için Microsoft Word
 
-1. Go to _Tools_
+1. _Araçlar_'a gidin
 2. Click _Protect Document_
-3. Select _Remove personal information from this file on save_
-4. Click _OK_ and save the file
+3. _Kaydetme sırasında bu dosyadan kişisel bilgileri kaldır_'ı seçin
+4. _Tamam_'ı tıklayın ve dosyayı kaydedin
 
 ![The "Remove personal information from this file on save" option in Mac OS.](./assets/learning-ojs3.1-ed-rev-anon5.png)
 
-### Re-uploading the Document
+### Belgeyi Yeniden Yükleme
 
-The Journal Managers and Editors are able to re-upload the anonymized document in the Review files by clicking **Upload/Select Files** in the _Review Files_ box.
+Dergi Yöneticileri ve Editörleri, _Değerlendirme Dosyaları_ kutusundaki **Dosyaları Yükle/Seç** seçeneğine tıklayarak değerlendirme dosyalarındaki anonimleştirilmiş belgeyi yeniden yükleyebilirler.
 
 ![The Upload/Select Files button under the Review Files section.](./assets/learning-ojs3.1-ed-rev-anon6.png)
 
