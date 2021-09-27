@@ -89,11 +89,11 @@ Under Website Settings > Languages you can see a list of languages or locales in
 
 - **Primary Locale**: One language must be set as the primary locale, which means the language the journal appears in by default.
 
-- **UI**: If you want the journal’s interface to be available in other languages, select them here.
+- **UI**: If you want the journal’s front end and back end interface to be available in other languages, select them here. Enabling a language for the UI will allow users to select the language of the application interface. For example, buttons, page titles, and on-screen messages will be in the user's selected language.
 
-- **Forms**: This will enable all selected languages to be available when filling in online forms. This will allow metadata to be added in selected languages in the Publication tab.
+- **Forms**: This will enable all selected languages to be available when filling in online forms. Enabling a language for forms will allow text boxes to support multilingual data entry, including the Publication tab for submissions. For example, configuration settings and metadata can be entered in multiple languages. 
 
-- **Submission**: If you want authors to be able to make submissions in other languages, select them here. This will allow authors to add metadata in selected languages when uploading their submission.
+- **Submission**: If you want authors to be able to make submissions in other languages, select them here. This will allow authors to select a language when they make a submission and add metadata in selected languages when uploading their submission.
 
 Additional languages can be installed on your site by an Administrator – see [Chapter 4](./site-administration) for details.
 
