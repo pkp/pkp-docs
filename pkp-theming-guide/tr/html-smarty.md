@@ -48,29 +48,29 @@ OJS veya OMP bir şablon yüklediğinde aşağıdaki sırayla arama yapar.
 
 (1)'de bir şablon bulamazsa, (2)'de arama yapar ve bu şekilde devam eder.
 
-*Bu bölüm, ön uç şablonlarının düzenlenmesini açıklar. We recommend you **never modify the backend templates**, but if you wish to do so, you can learn more about [theming the editorial backend](theme-backend.md).*
+*Bu bölüm, ön uç şablonlarının düzenlenmesini açıklar. **Arka uç şablonlarını asla değiştirmemenizi** öneririz, ancak bunu yapmak isterseniz, [yazım arka ucunu temalandırma](theme-backend.md) hakkında daha fazla bilgi edinebilirsiniz.*
 
-## Using Smarty Data in Templates
+## Şablonlarda Smarty Verilerini Kullanma
 
-Each application delivers data to a template file before loading it. Every template file receives a `$siteTitle` variable which includes the name of the site being visited.
-
-```html
-<p>Welcome to {$siteTitle}!</p>
-```
-
-Some of the data passed to templates allow you to access object settings. You will find the current journal or press under the `$currentContext` variable.
+Her uygulama, verileri yüklemeden önce bir şablon dosyasına iletir. Her şablon dosyası, ziyaret edilen sitenin adını içeren bir `$siteTitle` değişkeni alır.
 
 ```html
-<p>Welcome to {$currentContext->getLocalizedName()}</p>
+<p>{$siteTitle} sitesine hoş geldiniz!</p>
 ```
 
-Some of the data is specific to certain templates. The `/frontend/pages/article.tpl` template receives an `$article` variable which can be used to access data about that article.
+Şablonlara iletilen verilerin bir kısmı, nesne ayarlarına erişmenize izin verir. `$currentContext` altında güncel dergiyi bulacaksınız veya değişkenin altına basın.
+
+```html
+<p>{$currentContext->getLocalizedName()}'a hoş geldiniz</p>
+```
+
+Bazı veriler belirli şablonlara özeldir. `/frontend/pages/article.tpl` şablonu, o makaleyle ilgili verilere erişmek için kullanılabilecek bir `$article` değişkeni alır.
 
 ```html
 <h1 class="article-title">{$article->getLocalizedTitle()}</h1>
 ```
 
-All of the frontend templates include information about which variables it makes use of in the header of the template. You'll find this information under the `@uses` prefix.
+Tüm ön uç şablonları, şablonun başlığında hangi değişkenleri kullandığı hakkında bilgi içerir. Bu bilgiyi `@uses` öneki altında bulacaksınız.
 
 ```smarty
 {**
@@ -78,8 +78,7 @@ All of the frontend templates include information about which variables it makes
  *
  * Copyright (c) 2014-2016 Simon Fraser University Library
  * Copyright (c) 2003-2016 John Willinsky
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
- *
+ * Distributed under the GNU GPL v2. Tüm koşullar için docs/COPYING dosyasına bakın.
  * @brief Display the page to view an article with all of it's details.
  *
  * @uses $article Article This article
@@ -89,4 +88,4 @@ All of the frontend templates include information about which variables it makes
  *}
 ```
 
-*Please note that not every variable is listed here. Only those variables used by this template are listed. But there are many [common template variables](template-variables.md) available to you. You can also load [custom data](advanced-custom-data.md).*
+*Lütfen her değişkenin burada listelenmediğini unutmayın. Yalnızca bu şablon tarafından kullanılan değişkenler listelenir. Ancak kullanabileceğiniz birçok [ortak şablon değişkeni](template-variables.md) vardır. [özel verileri](advanced-custom-data.md) de yükleyebilirsiniz.*
