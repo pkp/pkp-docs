@@ -1,6 +1,6 @@
 ---
-title: Creating Accessible Content: A Guide for Journal Editors and Authors
-description: A guide for journal on preparing accessible content for submission and publication.
+title: 'Creating Accessible Content: A Guide for Journal Editors and Authors'
+description: A guide for journal editors and authors on preparing accessible content for submission and publication.
 ---
 
 # Creating Accessible Content: A Guide for Journal Editors and Authors
