@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Chapter 15: Production and Publication
+# Bölüm 15: Üretim ve Yayın
 
 With the completion of the Copyediting stage, the submission now moves to Production. From here, the copyedited files will be converted to publishable formats in the form of galley files (e.g., PDF, HTML) and proofread before publishing. A new journal issue will be created and the article will be scheduled for publication in the issue. This chapter explains the steps in that process, as well as how to use the versioning feature in OJS 3.2 to publish a new version of an article if significant changes are made.
 
@@ -141,55 +141,55 @@ PDFs are also popular with many readers as they most closely recreate the printe
 
 Example (see PDF link at bottom of page): [Irish Journal of Technology Enhanced Learning](http://www.journal.ilta.ie/index.php/telji/article/view/22/51)
 
-#### HTML Files
+#### HTML Dosyaları
 
-HTML files have the advantage of flexibility. They handle linking and multimedia very well, and can fit on just about any screen - including phones and tablets. They do, however, look different than a printed page, so some readers prefer a PDF. The ideal situation is to provide both PDF and HTML files to best meet the needs of different users.
+HTML dosyaları esneklik avantajına sahiptir. Bağlantı ve multimedyayı çok iyi idare ederler ve telefonlar ve tabletler dahil olmak üzere hemen hemen her ekrana sığabilirler. Ancak, basılı bir sayfadan farklı görünürler, bu nedenle bazı okuyucular PDF'yi tercih eder. İdeal durum, farklı kullanıcıların ihtiyaçlarını en iyi şekilde karşılamak için hem PDF hem de HTML dosyalarını sağlamaktır.
 
-Creating an HTML file can require more time and effort than creating PDF files. Word processors do not have effective tools for doing a “Save As” to HTML. Microsoft Word tries to do this, but the results are not useful for uploading to OJS. Instead, try following this workflow:
+Bir HTML dosyası oluşturmak, PDF dosyaları oluşturmaktan daha fazla zaman ve çaba gerektirebilir. Kelime işlemcilerin HTML'ye "Farklı Kaydet" yapmak için etkili araçları yoktur. Microsoft Word bunu yapmaya çalışır, ancak sonuçlar OJS'ye yüklemek için kullanışlı değildir. Bunun yerine, şu iş akışını izlemeyi deneyin:
 
-* Convert the Word document. You can use [this free online tool](https://word2cleanhtml.com/) to do an initial conversion.
-* Open the resulting HTML files in a text editor (e.g., NotePad in Windows) or HTML editor (e.g., Adobe Dreamweaver). From here, you will need to make any final clean up or formatting. Understanding the basics of HTML is required. There are many [free tutorials](https://www.w3schools.com/html/), but it does take some time.
-* Keep the HTML formatting basic. Just focus on paragraphs, line breaks, headings, and links. Don’t worry about fonts, colours, or other design elements - OJS will take care of all of that automatically as part of the overall journal design.
-* Upload to OJS as an HTML galley file
-* The HTML viewer renders HTML files within an iframe, which may affect navigation to hyperlinked web pages. You can bypass this feature by opening hyperlinks in a new browser tab, by adding the `target="_blank"` attribute to your href tags.
+* Word belgesini dönüştürün. İlk dönüşümü yapmak için [bu ücretsiz çevrimiçi aracı](https://word2cleanhtml.com/) kullanabilirsiniz.
+* Ortaya çıkan HTML dosyalarını bir metin düzenleyicide (ör. Windows'ta NotePad) veya HTML düzenleyicide (ör. Adobe Dreamweaver) açın. Buradan, herhangi bir son temizlik veya biçimlendirme yapmanız gerekecektir. HTML'nin temellerini anlamak gereklidir. Birçok [ücretsiz öğretici](https://www.w3schools.com/html/) vardır, ancak bu biraz zaman alır.
+* HTML biçimlendirmesini temel alın. Sadece paragraflara, satır sonlarına, başlıklara ve bağlantılara odaklanın. Yazı tipleri, renkler veya diğer tasarım öğeleri hakkında endişelenmeyin - OJS, genel dergi tasarımının bir parçası olarak tüm bunları otomatik olarak yapacaktır.
+* OJS'ye HTML dizgi dosyası olarak yükleyin
+* HTML görüntüleyici, HTML dosyalarını bir iframe içinde işler ve bu, köprü bağlantılı web sayfalarına navigasyonu etkileyebilir. Bu özelliği, href etiketlerinize `target="_blank"` özniteliğini ekleyerek yeni bir tarayıcı sekmesinde köprüler açarak atlayabilirsiniz.
 
-A few example HTML templates can be found and adapted from these sources:
+Bu kaynaklardan birkaç örnek HTML şablonu bulunabilir ve uyarlanabilir:
 
-* [Resource by U of A](https://drive.google.com/file/d/1mCP0tguFJf7jJn_CNceEwvRn5eCJrvxP/view) - License: CC0 1.0 Universal (CC0 1.0)
+* [U'dan A'ya Kaynak](https://drive.google.com/file/d/1mCP0tguFJf7jJn_CNceEwvRn5eCJrvxP/view) - License: CC0 1.0 Universal (CC0 1.0)
 
-Examples (see HTML link at bottom of the page):
+Örnekler (sayfanın altındaki HTML bağlantısına bakın):
 
-* [Cultural Anthropology](https://journal.culanth.org/index.php/ca/article/view/4434)
-* [Evidence Based Library & Information Practice](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621)
+* [Kültürel antropoloji](https://journal.culanth.org/index.php/ca/article/view/4434)
+* [Kanıta Dayalı Kütüphane & Bilgi Uygulaması](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621)
 
-##### Style HTML galley files
+##### Stil HTML dizgi dosyaları
 
-It is possible to style the design of your HTML galley files in bulk or on an individual per-article basis. Styling in bulk can only be done if you are using a custom theme.
+HTML dizgi dosyalarınızın tasarımını toplu olarak veya makale bazında ayrı ayrı biçimlendirmek mümkündür. Toplu şekillendirme yalnızca özel bir tema kullanıyorsanız yapılabilir.
 
-To style an individual HTML galley file:
+Tek bir HTML dizgi dosyasına stil vermek için:
 
-* While creating the HTML galley file, ensure that it includes a reference to the stylesheet in the `<head>` section, e.g. `<link rel="stylesheet" href="./article_styles.css" type="text/css" />`
-* Upload the HTML galley file (see below for instructions on how to **Add Galley Files**)
-* Edit the galley file
-* Upload the CSS stylesheets with the appropriate **Component Type - HTML Stylesheet**
+* HTML galeri dosyasını oluştururken, `<head>` bölümündeki stil sayfasına bir referans içerdiğinden emin olun, ör. `<link rel="stylesheet" href="./article_styles.css" type="text/css" />`
+* HTML dizgi dosyasını yükleyin (**Dizgi Dosyalarını Ekleme** ile ilgili talimatlar için aşağıya bakın)
+* Dizgi dosyasını düzenleyin
+* Uygun **Bileşen Türü - HTML Stil Sayfası** ile CSS stil sayfalarını yükleyin
 
-To style all HTML galley files: If you are using a custom theme plugin, you can write a line of code to include a custom style for all HTML galleys. This will only apply to HTML galley files that do not have a style applied individually. More information on custom theming is available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+Tüm HTML dizgi dosyalarına stil vermek için: Özel bir tema eklentisi kullanıyorsanız, tüm HTML galerileri için özel bir stil eklemek üzere bir kod satırı yazabilirsiniz. Bu, yalnızca ayrı ayrı uygulanan bir stili olmayan HTML dizgi dosyaları için geçerli olacaktır. Özel tema oluşturma hakkında daha fazla bilgiyi [PKP Tema Kılavuzu](https://docs.pkp.sfu.ca/pkp-theming-guide/en/)'nda bulabilirsiniz.
 
-##### Add images and multimedia to an HTML Galley
+##### HTML Dizgi'ye resim ve multimedya ekleyin
 
-If you would like to include images or multimedia files in an HTML galley file, you can upload them as Dependent Files to the submission, and link to them within the file to display them.
+Görüntüleri veya multimedya dosyalarını bir HTML dizgi dosyasına dahil etmek isterseniz, bunları Bağımlı Dosyalar olarak gönderiye yükleyebilir ve görüntülemek için dosya içinde bunlara bağlantı verebilirsiniz.
 
-Before beginning the item upload, you will need an HTML page containing one of the following:
+Öğe yüklemeye başlamadan önce, aşağıdakilerden birini içeren bir HTML sayfasına ihtiyacınız olacak:
 
-* `<audio controls>` element (for MP3)
-* `<video>` element (for MP4), or
-* `<img src=”imagename”>` tag for images
+* `<audio controls>` öğe (MP3 için)
+* `<video>` öğe (MP4) için, veya
+* `<img src=”imagename”>` resimler için etiket
 
-The HTML page should also contain the exact name of the file you are connecting to.
+HTML sayfası, bağlandığınız dosyanın tam adını da içermelidir.
 
-You will need to save the audio/video/image file in MP3/MP4/JPEG/GIF format using the name in the HTML page.
+Ses/video/görüntü dosyasını HTML sayfasındaki adı kullanarak MP3/MP4/JPEG/GIF formatında kaydetmeniz gerekecektir.
 
-Your HTML file will need to contain the following minimum code (for audio files). For the related video or image file code, please see the w3schools instructions on embedding video in HTML or instructions on embedding images in HTML.
+HTML dosyanızın aşağıdaki minimum kodu içermesi gerekir (ses dosyaları için). İlgili video veya resim dosyası kodu için lütfen w3schools'un HTML'ye video gömme talimatlarına veya HTML'ye resim gömme talimatlarına bakın.
 
 ```html
 <html>
@@ -199,37 +199,37 @@ Your HTML file will need to contain the following minimum code (for audio files)
 <body>
 <audio controls>
   <source src="filename.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
+Tarayıcınız ses öğesini desteklemiyor.
 </audio>
 </body>
 </html>
 ```
 
-In OJS you will need to configure the settings for your Component Types before adding multimedia files. See **Galley File Component Types** above for details about adjusting these settings.
+OJS'de multimedya dosyaları eklemeden önce Bileşen Türleriniz için ayarları yapılandırmanız gerekecektir. Bu ayarların yapılmasıyla ilgili ayrıntılar için yukarıdaki **Dizgi Dosya Bileşeni Türleri**'ne bakın.
 
-Make sure you have “Multimedia” and/or “Image” files configured as “dependent files” in the Component Type settings.
+Bileşen Türü ayarlarında "bağımlı dosyalar" olarak yapılandırılmış "Multimedya" ve/veya "Görüntü" dosyalarına sahip olduğunuzdan emin olun.
 
 ![Form to add Multimedia as a dependent component type.](./assets/learning-ojs3.2-ed-prod-multimedia-component-edit.png)
 
-Now go back to the submission to upload an HTML stylesheet to display your multimedia file. See below for instructions on how to **Add  Galley Files**. In addition, when you upload the file:
+Şimdi multimedya dosyanızı görüntülemek üzere bir HTML stil sayfası yüklemek için gönderime geri dönün. **Dizgi Dosyaları Ekleme** ile ilgili talimatlar için aşağıya bakın. Ayrıca dosyayı yüklediğinizde:
 
-* Label the galley according to the multimedia file type (e.g., MP3, MP4, Image)
-* Select **HTML Stylesheet** from the **Article Component** dropdown
-* Upload the HTML file you prepared with at least the minimum code (instructions above)
-* Click **Continue**
-* In the **Review Details** tab you can upload Dependent Files. This is where you will upload the MP3/MP4/image file.
+* Dizigiyi multimedya dosya türüne göre etiketleyin (ör. MP3, MP4, Görüntü)
+* **Makale Bileşeni** açılır menüsünden **HTML Stil Sayfası**'nı seçin
+* Hazırladığınız HTML dosyasını en az minimum kodla yükleyin (yukarıdaki talimatlar)
+* **Devam**’a tıklayın
+* **Ayrıntıları İncele** sekmesinde Bağımlı Dosyaları yükleyebilirsiniz. MP3/MP4/image dosyasını yükleyeceğiniz yer burasıdır.
 
 ![Step 2 of uploading production ready files where users will go to upload their dependent files.](./assets/learning-ojs3.2-ed-prod-multimed-dep-file.png)
 
-Select **Multimedia** or **Image** from the **Article Component** drop-down menu, and upload the MP3, MP4, or image file.
+**Makale Bileşeni**'i açılır menüsünden **Multimedya** veya **Resim**'i seçin ve MP3, MP4 veya görüntü dosyasını yükleyin.
 
 ![Step 1 for uploading dependent files. The dropdown bar lists Multimedia and Image as selection for Article components.](./assets/learning-ojs3.2-ed-prod-upload-multimedia.png)
 
-When uploading an image file you will be asked to add a Caption, Credit, Copyright Owner, and Permission Terms, as applicable.
+Bir resim dosyası yüklerken, uygun olduğu şekilde bir Altyazı, Telif Hakkı Sahibi ve İzin Koşulları eklemeniz istenecektir.
 
 ![Step 2 for uploading dependent files. Text fields to enter Caption, Credit, Copyright Owner, and Permission Terms.](./assets/learning-ojs3.2-ed-prod-image-details.png)
 
-Click **Continue** to complete the upload, review the details, and confirm. Your multimedia file has now been added as a dependent file along with the HTML, and will be embedded in the HTML when the item is published.
+Yüklemeyi tamamlamak, ayrıntıları gözden geçirmek ve onaylamak için **Devam**'ı tıklayın. Multimedya dosyanız artık HTML ile birlikte bağımlı bir dosya olarak eklenmiştir ve öğe yayınlandığında HTML'ye gömülecektir.
 
 
 #### ePUB Files
