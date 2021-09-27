@@ -48,6 +48,8 @@ context. Navigate to Administration > Settings > Languages. Installed languages 
 
 For each context, the Manager controls the settings within that context by navigating to Settings > Website > Setup > Languages. Each language can be enabled for the UI, for Forms, and for Submissions.
 
+Consider carefully how you want to configure and use languages on your site because significant problems can occur if you change the settings later.
+
 * UI: Controls the user interface languages available in the front-end and in the back end. Enabling a language for the UI will allow users to select the language of the application interface. For example, buttons, page titles, and on-screen messages will be in the user's selected language.
 
 * Forms: Controls the data entry forms for the application. Enabling a language for forms will allow text boxes to support multilingual data entry. For example, configuration settings and metadata can be entered in multiple languages.
