@@ -1,3 +1,7 @@
+---
+title: Accessible and inclusive publishing - Creating Accessible Content Guide
+---
+
 # Accessible and inclusive publishing
 
 Online publishing grants publishers an unprecedented opportunity to reach readers around the globe. Accessible and inclusive publishing principles further ensures that online content is free of barriers for the broadest audience possible, regardless of their age, ability or disability.
