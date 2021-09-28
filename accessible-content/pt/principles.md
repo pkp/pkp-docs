@@ -1,3 +1,7 @@
+---
+title: General principles for creating accessible content - Creating Accessible Content Guide
+---
+
 # Princípios gerais para a criação de conteúdo acessível
 
 ## Texto alternativo para imagens
@@ -164,7 +168,7 @@ Parágrafos mais curtos facilitarão a leitura do texto em telas pequenas e ajud
 
 [O guia de escrita clara e simples do WebAim](https://webaim.org/techniques/writing/) contém outras dicas úteis para que os autores alcancem clareza e simplicidade. Além disso, ferramentas como o [aplicativo Hemingway](http://www.hemingwayapp.com/) podem ajudar a avaliar a complexidade do texto e sugerir maneiras de melhorar sua legibilidade geral.
 
-## Estrutura de cabeçalhos de seções
+## Estrutura de cabeçalhos
 
 Os cabeçalhos de seções, ou títulos de seções, ajudam os leitores a entender como o conteúdo de uma página é organizado. Além disso, fornecem navegação dentro da página que é usada por navegadores da Web, plug-ins e tecnologias assistivas. Ao criar conteúdo para a Web, o uso da hierarquia de títulos em ordem de classificação ajudará os leitores a navegar no documento com mais facilidade.
 
