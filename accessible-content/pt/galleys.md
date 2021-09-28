@@ -1,3 +1,7 @@
+- - -
+title: Creating accessible galley files- Creating Accessible Content Guide
+- - -
+
 # Criando documentos para publicação acessíveis
 
 Esta seção apresenta uma visão geral de como incorporar os princípios de conteúdo acessível listados acima em formatos de publicação específicos provavelmente adotados pelo seu periódico.
