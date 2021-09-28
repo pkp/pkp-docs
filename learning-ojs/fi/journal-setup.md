@@ -131,7 +131,7 @@ Hit the **Done** button when you are finished.
 
 ## Categories
 
-In OJS 3 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production). This section explains how to create and edit categories.
+In OJS 3 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production-publication). This section explains how to create and edit categories.
 
 ![OJS dashboard view of Journal Settings submenu Categories with links for Order and Add a Category and editable list of current categories.](./assets/learning-ojs3.1-categories-menu.png)
 
