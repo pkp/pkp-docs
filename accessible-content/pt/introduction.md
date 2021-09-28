@@ -1,3 +1,7 @@
+- - -
+title: Accessible and inclusive publishing - Creating Accessible Content Guide
+- - -
+
 # Publicação acessível e inclusiva
 
 A publicação on-line concede aos editores uma oportunidade sem precedentes de alcançar leitores em todo o mundo. Princípios de publicação acessíveis e inclusivos garantem ainda mais que o conteúdo on-line esteja livre de barreiras para o maior público possível, independentemente de sua idade, habilidade ou deficiência.
