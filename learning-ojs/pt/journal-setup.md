@@ -131,7 +131,7 @@ Clique no botão **Concluído** ao finalizar.
 
 ## Categorias
 
-No OJS 3 é possível adicionar Categorias para organizar os artigos em coleções temáticas e fornecer outra forma de acesso ao conteúdo aos leitores. As categorias podem ser exibidas como um bloco de navegação no site da revista e os leitores podem selecionar a categoria para visualizar todos os artigos que a compõem. É possível incluir um artigo em uma categoria editando os metadados, que são explicados no capítulo [Produção e Publicação](./production). Essa seção explica como criar e editar categorias.
+No OJS 3 é possível adicionar Categorias para organizar os artigos em coleções temáticas e fornecer outra forma de acesso ao conteúdo aos leitores. As categorias podem ser exibidas como um bloco de navegação no site da revista e os leitores podem selecionar a categoria para visualizar todos os artigos que a compõem. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production-publication). Essa seção explica como criar e editar categorias.
 
 ![OJS dashboard view of Journal Settings submenu Categories with links for Order and Add a Category and editable list of current categories.](./assets/learning-ojs3.1-categories-menu.png)
 
