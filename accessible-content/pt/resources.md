@@ -1,3 +1,7 @@
+---
+title: Additional resources - Creating Accessible Content Guide
+---
+
 # Recursos adicionais
 
 Apresentamos a seguir uma lista não extensa de recursos adicionais sobre a criação de conteúdo acessível.
