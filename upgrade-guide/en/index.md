@@ -24,6 +24,13 @@ In order to use this guide, you will need experience with basic system administr
 - Server credentials, including database credentials
 - Knowledge of your server stack (this guide assumes a LAMP stack)
 - The ability to access your server's terminal (SSH)
+- An identified OJS release package to upgrade to (downloaded in step 5)
+
+### Preparing to Upgrade
+
+Before starting your upgrade, you can review `docs/release-notes` and the [release notebook](/dev/release-notebooks/) for your upgrade version to learn about important changes introduced in each version. The `config.TEMPLATE.inc.php` includes a description for most configuration parameters.
+
+Note that an upgrade may take from a few minutes up to several hours depending on the size of your site.
 
 ### A Note on Versions
 
@@ -218,9 +225,6 @@ Run the following command to compare your configuration file with the template o
 $ diff "$OJS_BACKUP_PATH/config.inc.php" "$OJS_WEB_PATH/config.TEMPLATE.inc.php"
 ```
 
-> You can review `docs/release-notes` to learn about important changes introduced in each version. The `config.TEMPLATE.inc.php` includes a description for most configuration parameters.
-{:.tip}
-
 Restore the public files.
 
 ```bash
@@ -250,9 +254,6 @@ If the server is running under [SElinux](https://en.wikipedia.org/wiki/Security-
 ```
 
 ### 8. Run the Upgrade
-
-> An upgrade may take from a few minutes up to several hours depending on the size of your site.
-{:.notice}
 
 Confirm the version numbers match your expectations.
 
