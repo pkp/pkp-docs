@@ -97,8 +97,11 @@ Le but de résoudre les problèmes d'encodage de caractère est de s'assurer que
 ### Introduction aux Ensembles de Caractères et aux Encodages
 
 Les articles suivants fournissent une bonne introduction aux ensembles de caractères et aux encodages:
+
 * [Encodages de Caractère: Concepts Essentiels](https://www.w3.org/International/articles/definitions-characters/)
 * [Le Minimum Absolu que tout Développeur de Logiciel doit Absolument et Positivement savoir sur l'Unicode et les Ensembles de Caractères (Sans Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+* [The Ultimate Guide To UTF-8 and MySQL](https://jonisalonen.com/2012/ultimate-guide-to-utf8-and-mysql)
+* [Breaking out from the MySQL character-set hell](https://manish-demblani.medium.com/breaking-out-from-the-mysql-character-set-hell-24c6a306e1e5)
 
 ### Approche Générale
 
