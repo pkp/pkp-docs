@@ -24,6 +24,7 @@
   * Application
   * Cache
   * Config
+  * [Email](./utilities-email)
   * [Files](./utilities-files)
   * [Hooks](./utilities-hooks)
   * Notifications
