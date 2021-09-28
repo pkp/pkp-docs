@@ -97,8 +97,11 @@ The goal of fixing character encoding problems is to ensure that the data stored
 ### Introduction to Character Sets and Encodings
 
 The following articles provide a good introduction to character sets and encodings:
+
 * [Character Encodings: Essential Concepts](https://www.w3.org/International/articles/definitions-characters/)
 * [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+* [The Ultimate Guide To UTF-8 and MySQL](https://jonisalonen.com/2012/ultimate-guide-to-utf8-and-mysql)
+* [Breaking out from the MySQL character-set hell](https://manish-demblani.medium.com/breaking-out-from-the-mysql-character-set-hell-24c6a306e1e5)
 
 ### General Approach
 
