@@ -60,18 +60,19 @@ During the tutorial, you will see commands for [Debian](https://www.debian.org/)
 
 The tutorial below uses the following variables to simplify the terminal commands.
 
-| VARIABLE        | Default           | Description                    |
-| --------------- | ----------------- | ------------------------------ |
-| WEB_USER        | `www-data`        | Webserver user                 |
-| WEB_GROUP       | `www-data`        | Webserver user's group         |
-| OJS_ROOT_PATH   | `/var/www`        | OJS root folder                |
-| OJS_WEB_PATH    | `/var/www/html`   | OJS web root folder            |
-| OJS_DB_HOST     | `db`              | Database host's name           |
-| OJS_DB_USER     | `ojs`             | Database user                  |
-| OJS_DB_PASSWORD | `ojsPwd`          | Database password              |
-| OJS_DB_NAME     | `ojs`             | Database name                  |
-| OJS_BACKUP_PATH | `/srv/backup/ojs` | Folder to store your backups   |
-| OJS_VERSION     | `ojs-3.3.0-8`     | Version as in the ojs filename |
+| VARIABLE        | Default             | Description                      |
+| --------------- | ------------------- | -------------------------------- |
+| WEB_USER        | `www-data`          | Webserver user                   |
+| WEB_GROUP       | `www-data`          | Webserver user's group           |
+| OJS_ROOT_PATH   | `/var/www`          | OJS root folder                  |
+| OJS_WEB_PATH    | `/var/www/html`     | OJS web root folder              |
+| OJS_DB_HOST     | `db`                | Database host's name             |
+| OJS_DB_USER     | `ojs`               | Database user                    |
+| OJS_DB_PASSWORD | `ojsPwd`            | Database password                |
+| OJS_DB_NAME     | `ojs`               | Database name                    |
+| OJS_BACKUP_PATH | `/srv/backup/ojs`   | Folder to store your backups     |
+| OJS_VERSION     | `ojs-3.3.0-8`       | Version as in the ojs filename   |
+| DATE            | `YYYYMMDD-HH:MM:SS` | The current system date and time |
 
 Rewrite the command below to set up these variables with the correct values for your installation.
 
@@ -87,7 +88,8 @@ OJS_DB_NAME="ojs" && \
 OJS_BACKUP_PATH="/srv/backup/ojs" && \
 OJS_VERSION="ojs-3.3.0-8" && \
 OJS_PUBLIC_PATH="$OJS_WEB/public" && \
-OJS_PRIVATE_PATH="$OJS_ROOT/files"
+OJS_PRIVATE_PATH="$OJS_ROOT/files" && \
+DATE=$(date "+%Y%m%d-%H:%M:%S)"
 ```
 
 ### 2. Enter Maintenance Mode
@@ -132,7 +134,7 @@ The steps below will backup the following folders and files.
 Backup the database.
 
 ```bash
-$ mysqldump --host="OJS_DB_HOST" -u $OJS_DB_USER -p$OJS_DB_PASSWORD $OJS_DB_NAME --result-file="$OJS_BACKUP_PATH/backupDB-date.sql"
+$ mysqldump --host="OJS_DB_HOST" -u $OJS_DB_USER -p$OJS_DB_PASSWORD $OJS_DB_NAME --result-file="$OJS_BACKUP_PATH/backupDB-$DATE.sql"
 ```
 
 > Character encodings are a common source of database problems during upgrades. Read more in the [Admin Guide](/admin-guide/en/troubleshooting#character-encoding)
@@ -141,13 +143,13 @@ $ mysqldump --host="OJS_DB_HOST" -u $OJS_DB_USER -p$OJS_DB_PASSWORD $OJS_DB_NAME
 Backup the private file directory.
 
 ```bash
-$ tar cvzf "$OJS_BACKUP_PATH/private-date.tgz" "$OJS_PRIVATE_PATH"
+$ tar cvzf "$OJS_BACKUP_PATH/private-$DATE.tgz" "$OJS_PRIVATE_PATH"
 ```
 
 Backup the public files directory.
 
 ```bash
-$ tar cvzf "$OJS_BACKUP_PATH/ojsfiles-date.tgz" "$OJS_WEB_PATH"
+$ tar cvzf "$OJS_BACKUP_PATH/ojsfiles-$DATE.tgz" "$OJS_WEB_PATH"
 ```
 
 Backup any other customizations you have  made to the software, such as custom plugins or locale files.
