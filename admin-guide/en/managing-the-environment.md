@@ -30,7 +30,7 @@ Details on general system requirements, configuration recommendations and genera
 
 ## Upgrading
 
-For more information about upgrading your system, see the [Technical Upgrade guide](/upgrade-guide/). Other upgrade instructions can be found in the following locations:
+For more information about upgrading your system, see the [Technical Upgrade guide](/dev/upgrade-guide/). Other upgrade instructions can be found in the following locations:
 
 * OJS: [https://pkp.sfu.ca/ojs/UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE)
 * OMP: [https://pkp.sfu.ca/omp/UPGRADE](https://pkp.sfu.ca/omp/UPGRADE)
