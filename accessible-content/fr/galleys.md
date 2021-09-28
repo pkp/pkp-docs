@@ -1,3 +1,7 @@
+- - -
+title: Creating accessible galley files- Creating Accessible Content Guide
+- - -
+
 # Creating accessible galley files
 
 This section provides an overview of how to incorporate the accessible content principles listed above into specific galley formats your journal may be using.
