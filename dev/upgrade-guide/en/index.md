@@ -303,13 +303,7 @@ Check the progress of the upgrade.
 $ tail -f $OJS_ROOT_PATH/upgrade.log
 ```
 
-### 9. Restore Custom Plugins
-
-Use the Plugin Gallery to restore any custom plugins that were installed.
-
-If you have installed custom plugins which are not in the Plugin Gallery, check with the plugin distributor for an update which is compatible with your upgraded version.
-
-### 10. Test the Upgrade
+### 9. Test the Upgrade
 
 It's important to test the site after an upgrade. Any core functions for your journals should be tested, as well as custom plugins or themes.
 
@@ -353,6 +347,12 @@ The following is a short checklist that covers common use cases.
         - Change new user's profile data and password
         - Remove the new user by merging it to your admin account
 7. Additional testing of common tasks
+
+### 10. Restore Custom Plugins
+
+Use the Plugin Gallery to restore any custom plugins that were installed.
+
+If you have installed custom plugins which are not in the Plugin Gallery, check with the plugin distributor for an update which is compatible with your upgraded version.
 
 ### 11. Cleanup Backup Files
 
