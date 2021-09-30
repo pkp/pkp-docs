@@ -34,7 +34,7 @@ Note that an upgrade may take from a few minutes up to several hours depending o
 
 ### A Note on Versions
 
-All PKP applications use a variant of [Semantic Versioning](https://semver.org) (see the [Admin Guide](/admin-guide)) described as `major.minor.revision-build`. Each point of the version number describes the kind of changes you can expect.
+All PKP applications use a variant of [Semantic Versioning](https://semver.org) described as `major.minor.revision-build`. Each point of the version number describes the kind of changes you can expect.
 
 | Type     | Example    | Description                                                                                                 |
 | -------- | ---------- | ----------------------------------------------------------------------------------------------------------- |
@@ -159,7 +159,7 @@ Backup the public files directory.
 $ tar cvzf "$OJS_BACKUP_PATH/ojsfiles-$DATE.tgz" "$OJS_WEB_PATH"
 ```
 
-Backup any other customizations you have  made to the software, such as custom plugins or locale files.
+Backup any other customizations you have made to the software, such as custom plugins or locale files.
 
 ### 4. Create Sandbox
 
@@ -275,14 +275,16 @@ If the upgrade is successful, you will see the message below informing you that 
 
 ![An example of the "Successfully upgraded" message in the command-line.](./assets/successful-upgrade.png)
 
-When the upgrade is complete, remove the maintenance mode previously configured.
+When the upgrade is complete, remove the maintenance mode previously configured by modifying your Apache `VirtualHost` directive or updating your `.htaccess` file.
 
 ```bash
 $ cd "$OJS_WEB_PATH/"
 $ mv .htaccess .htaccess.disabled
 ```
 
-And reload the apache server to apply the changes.
+If your PHP timeouts and/or memory limit were adjusted, restore their original values.
+
+Reload the apache server to apply the changes.
 
 ```bash
 (Debian)$ service apache2 reload
@@ -305,7 +307,7 @@ $ tail -f $OJS_ROOT_PATH/upgrade.log
 
 ### 9. Test the Upgrade
 
-It's important to test the site after an upgrade. Any core functions for your journals should be tested, as well as custom plugins or themes.
+It's important to test the site after an upgrade. Any core functions for your journals should be tested, as well as custom plugins or themes once they have been reinstalled.
 
 The following is a short checklist that covers common use cases.
 
@@ -320,14 +322,11 @@ The following is a short checklist that covers common use cases.
 2. Database
     - Charset and collation on database, tables and fields
     - Database engine is innoDB for database and all tables (MariaDB/MySQL only)
-3. Web server
-    - Remove the temporary vhost redirection
-    - Restore original PHP timeouts and memory limits
-4. Register a new user account and login
+3. Register a new user account and login
      - Register an author
      - Get a registration email
      - Login with the new user
-5. Complete the editorial workflow
+4. Complete the editorial workflow
     - As a Journal Manager:
         - Create a new testing journal
         - Register your new user as an author in the testing journal
@@ -341,12 +340,12 @@ The following is a short checklist that covers common use cases.
         - Publish the issue
         - Download the published article
         - Unpublish the article and remove the issue
-6. User management
+5. User management
     - As a Journal manager:
         - Assign new roles to the new user
         - Change new user's profile data and password
         - Remove the new user by merging it to your admin account
-7. Additional testing of common tasks
+6. Additional testing of common tasks
 
 ### 10. Restore Custom Plugins
 
