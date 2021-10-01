@@ -1,3 +1,7 @@
+---
+title: Key Terms - GDPR Guidebook for PKP Users
+---
+
 # Key Terms
 **Consent**: the agreement of a data subject to share personal data. In order to satisfy GDPR, consent must be unambiguous (and in the case of sensitive personal data must be explicit, i.e. “opt-in”), and must be able to be withdrawn. 
 
