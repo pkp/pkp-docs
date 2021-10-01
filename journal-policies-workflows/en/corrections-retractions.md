@@ -1,3 +1,7 @@
+---
+title: Corrections and Retractions - Journal Policies and Workflows
+---
+
 # Corrections and Retractions
 
 While errors in the publication record should be avoided if possible prior to publishing, journals should be proactive about implementing a policy to address potential corrections or retractions.
