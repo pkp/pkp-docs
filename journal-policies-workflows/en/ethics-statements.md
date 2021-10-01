@@ -1,3 +1,7 @@
+---
+title: Ethics Statements and Policies - Journal Policies and Workflows
+---
+
 # Ethics Statements and Policies
 
 Your journal should have policies in place for ensuring that ethical research practices are followed, including practices to prevent and deal with allegations of misconduct such as plagiarism, data falsification, conflicts of interest, and other ethical breaches.
