@@ -1,3 +1,6 @@
+---
+title: Editorial workflow - Journal Policies and Workflows
+---
 # Editorial workflow
 
 ## Editorial team and roles
