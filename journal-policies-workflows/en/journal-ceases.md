@@ -1,3 +1,7 @@
+---
+title: Journal changes publisher / platform or ceases to publish - Journal Policies and Workflows
+---
+
 # Journal changes publisher / platform or ceases to publish
 
 If your journal undergoes a major change such as changing publisher or hosting platform, or if your plans to cease publication for an extended period of time, there are some important steps to consider to make sure this transition goes smoothly. 
