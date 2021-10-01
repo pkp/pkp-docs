@@ -10,7 +10,7 @@ In this guide we will focus on visual impairments specifically, but it is always
 
 ## Accessibility of Themes
 
-As of OJS/OMP/OPS 3.3, the Default Theme has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. Note that changes made to the theme may impact accessibility.
+As of OJS/OMP/OPS 3.3, the Default Theme has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. [PKP Accessibility Statement](https://docs.pkp.sfu.ca/accessibility-statement/) contains further details. Note that changes made to the theme may impact accessibility.
 
 ## Colour
 
@@ -74,7 +74,7 @@ When writing web content, ensure that:
 
 ## Document accessibility
 
-Non-HTML content, such as documents you upload, should be accessible as well. When creating journal documentation, such as author guidelines, style guides, etc., consider presenting them as static HTML pages rather than uploading PDFs to the website. If using PDFs, ensure that they are appropriately tagged to be screen-reader friendly.
+Non-HTML content, such as documents you upload, should be accessible as well. When creating journal documentation, such as author guidelines, style guides, etc., consider presenting them as static HTML pages rather than uploading PDFs to the website. If using PDFs, ensure that they are appropriately tagged to be screen-reader friendly. PKP's guide [Creating Accessible Content: A Guide for Journal Editors and Authors](https://docs.pkp.sfu.ca/accessible-content/) contains further details and resources.
 
 ## Checking your website for accessibility
 
