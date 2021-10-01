@@ -1,3 +1,6 @@
+---
+title: FAQ - GDPR Guidebook for PKP Users
+---
 # FAQ
 
 _What about data collected prior to May 25 2018?_
