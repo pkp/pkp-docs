@@ -1,3 +1,6 @@
+---
+title: What's the Deal? - GDPR Guidebook for PKP Users
+---
 # What's the Deal?
 
 The EU has developed and, on May 25, 2018, will be making active, a comprehensive set of regulations dictating how personal data is to be managed. These regulations dictate the rights that individuals have over their own personal data. 
