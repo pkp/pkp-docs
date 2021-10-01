@@ -1,3 +1,7 @@
+---
+title: Configuration Recommendations for GDPR Compliance - GDPR Guidebook for PKP Users
+---
+
 # Configuration Recommendations for GDPR Compliance
 
 The following practices will provide a higher level of data privacy support, and are recommended as part of a reasonable attempt to fulfil GDPR requirements.
