@@ -1,3 +1,7 @@
+---
+title: What Policies Should Publishers Provide and Where? - GDPR Guidebook for PKP Users
+---
+
 # What Policies Should Publishers Provide and Where?
 
 The following policies should be provided in clear and plain language. Most policies can - and should - be added to the journal’s About page. In the case where there is a dedicated field to do this (eg. the journal’s Privacy Statement in OJS 2, and OJS/OMP 3), do so there. If there isn’t a dedicated field, these policies can be added like so: 
