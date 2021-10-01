@@ -1,11 +1,12 @@
 ---
 book: learning-ojs
 version: 3.3
+title: Learning Open Journal Systems 3.3 - Users and Roles 
 ---
 
 # Users and Roles
 
-This section provides access to all of the user accounts associated with your journal, as well as the opportunity to manage roles and permissions.
+This section provides information on accessing all of user accounts associated with your journal, as well as managing roles and permissions.
 
 ## Managing Users
 
