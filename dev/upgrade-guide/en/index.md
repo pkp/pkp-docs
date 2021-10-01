@@ -361,6 +361,12 @@ You may wish to retain your backup files, but if you don't, you can remove them.
 $ sudo rm -fR "$OJS_BACKUP_PATH/*"
 ```
 
+### 12. Celebrate
+
+**Your upgrade is done. Congratulations!**
+
+The upgrade process can be complex, but the PKP team is working on improvements. See [the "Upgrades" GitHub project](https://github.com/pkp/pkp-lib/projects/23) for more information.
+
 ## Troubleshooting
 
 Consult the following resources if you encounter any problems.
