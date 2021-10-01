@@ -79,31 +79,21 @@ Here are three guides for writing markdown:
 
 If you're working on a large piece of documentation and you're not comfortable using either the command line or the web interface for GitHub, consider using [GitHub Desktop](https://desktop.github.com/) and the [Atom](https://atom.io/) text editor. With this workflow, you can "clone" a copy of the docs repository to your computer, make your edits locally (and even build a version of the Documentation Hub using Ruby, if you like) and create a pull request with your changes once you're finished.
 
-Once you've installed GitHub desktop, you should have an option while viewing any GitHub repository to "Clone or Download" and "Open in Desktop".
+Once you've installed GitHub desktop, you should have an option while viewing any GitHub repository to "Code" and "Open in Desktop".
 
 1. Navigate to the repository you want to clone.
-2. Click on the green button on the right that says "Clone or Download."
+2. Click on the green button on the right that says "Code."
 3. Select the "Open in Desktop" option.
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="./assets/contrib-04.mp4" type="video/mp4">
-  </video>
-  <figcaption>Press Clone or Download button and then Open in Desktop.</figcaption>
-</figure>
+![Press Code button and then Open in Desktop.](./assets/contrib-04.gif)
 
-GitHub desktop manages your commits and pull-requests locally. It's especially convenient if you're changing more than one file at once. If you have Atom installed, you can open your project with the editor directly from GitHub desktop.
+GitHub desktop manages your commits and pull-requests locally. It's especially convenient if you're changing more than one file at once. If you have Atom installed, you can open your project with the editor directly from GitHub Desktop.
 
 1. Open GitHub desktop.
 2. Right click on the name of the repository in which you want to work.
 3. Select "Open in Atom."
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="./assets/contrib-05.mp4" type="video/mp4">
-  </video>
-  <figcaption>Open project from Github desktop.</figcaption>
-</figure>
+![Open project from Github Desktop.](./assets/contrib-05.gif)
 
 In Atom, the repository directory structure is accessible on the left-hand side in the "project window." Clicking on any title opens it in the editor and allow you to make changes. You'll notice labels next to the files as you work. Green indicates a new file you've added. Yellow indicates a file you've changed since the last time you pulled an update from the primary repository.
 
