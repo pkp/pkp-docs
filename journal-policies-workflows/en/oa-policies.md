@@ -1,3 +1,7 @@
+---
+title: Open access policies - Journal Policies and Workflows
+---
+
 # Open access policies
 
 ## Open access vs subscription journals
