@@ -3,6 +3,6 @@ book: learning-ojs
 version: 3.3
 ---
 
-# Learning OJS 3.3: A Visual Guide to Open Journal Systems
+# Изучаем OJS 3.3: Визуальное руководство по Open Journal Systems
 
-Learning OJS 3 is a guide for how to use Open Journal Systems (OJS), an open source software application for managing and publishing scholarly journals. This guide explains how to set up a journal, manage roles and permissions, publish articles and issues, and display them on your journal website.
+«Изучаем OJS 3» — это руководство по использованию Open Journal Systems (OJS), программного обеспечения с открытым исходным кодом для управления и публикации научных журналов. В этом руководстве объясняется, как создавать журнал, управлять ролями и правами, публиковать статьи и выпуски, а также отображать их на сайте журнала.
