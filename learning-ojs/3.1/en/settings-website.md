@@ -31,7 +31,7 @@ Now that you have all available themes, return to the Appearance tab to try out 
 5. Open your site's home page in a new tab or window of your browser to see how the site looks with the new theme or sub-theme and with different configuration options.
 6. If you do not see the changes appear on your site, you may need to clear the cache under the Administration menu.
 
-If you would like to make minor changes to your site's design and layout, you can upload a **Journal Stylesheet**.
+If you would like to make minor changes to your site's design and layout, you can upload a **Journal Stylesheet**. For further theme customization options, consult the [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/) guide. 
 
 If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
