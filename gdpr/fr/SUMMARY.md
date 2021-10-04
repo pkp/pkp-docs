@@ -1,7 +1,6 @@
 # Table des matières
 
-* [GDPR Guidebook for PKP Users](.)
-* [Introduction](introduction.md)
+* [Introduction](.)
 * [Key Terms](key-terms.md)
 * [What’s the Deal?](whats-the-deal.md)
 * [Scholarly Publishing, Data Privacy, and the Public Interest](scholarly-publishing.md)
