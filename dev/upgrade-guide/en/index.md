@@ -265,7 +265,7 @@ In the screenshot below, we can see that we are currently running `3.2.1-4` and 
 
 ![An example of running the PHP upgrade check in the command-line.](./assets/upgrade-check.png)
 
-Finally, when you are ready, run the upgrade script, which may take several hours to complete.
+Finally, when you are ready, run the upgrade script, which may take several hours to complete. You may also wish to [log the output](#log-the-output).
 
 ```bash
 $ php tools/upgrade.php upgrade
