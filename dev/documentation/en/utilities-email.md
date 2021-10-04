@@ -65,7 +65,7 @@ $emailTemplate = Repo::emailTemplates()->getByKey(
     SubmissionReceived::EMAIL_KEY
 );
 
-$mailable = new SubmissionReceived($context, $submission);
+$mailable = new SubmissionReceived();
 $mailable->from('nate@example.com')
     ->to('vitaliy@example.com')
     ->subject($emailTemplate->getLocalizedData('subject'))
