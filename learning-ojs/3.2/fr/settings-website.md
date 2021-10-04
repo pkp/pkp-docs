@@ -42,6 +42,8 @@ Si vous souhaitez apporter des modifications mineures à la conception et à la 
 
 - **Image d'Arrière-Plan de l'En-Tête**: cochez cette option si vous souhaitez que l'image de la page d'accueil téléchargée soit affichée comme arrière-plan de l'en-tête.
 
+For further theme customization options, consult the [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/) guide.
+
 ### Installation
 
 Où vous pouvez télécharger des images (logo, vignette, page d'accueil) vers la page principale de votre site, saisir des informations de pied de page et configurer le menu de votre barre latérale.
@@ -58,7 +60,9 @@ Où vous pouvez télécharger des images (logo, vignette, page d'accueil) vers l
 
 Où vous pouvez télécharger votre feuille de style de la revu, Favicon et contenu supplémentaire.
 
-- **Feuille de Style de la Revue**: utilisez cette option pour télécharger une feuille de style unique pour votre revue. Si vous souhaitez apporter des modifications plus importantes à la conception ou donner à votre site un aspect tout à fait unique, vous pouvez développer votre propre thème ou thème enfant. Les instructions sont disponibles dans le [Guide de Thématisation PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) .
+- **Feuille de Style de la Revue**: utilisez cette option pour télécharger une feuille de style unique pour votre revue. Instructions on modifying the CSS are available in the [Designing Your Journal: Creating a Stylesheet](https://docs.pkp.sfu.ca/designing-your-journal/en/creating-stylesheet) guide.
+
+Si vous souhaitez apporter des modifications plus importantes à la conception ou donner à votre site un aspect tout à fait unique, vous pouvez développer votre propre thème ou thème enfant. Les instructions sont disponibles dans le [Guide de Thématisation PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) .
 
 - **Favicon**: ajoutez un [favicon](https://en.wikipedia.org/wiki/Favicon) à afficher dans la barre d'adresse du navigateur du lecteur.
 
@@ -386,7 +390,7 @@ Pour configurer le plugiciel de statistiques d'utilisation, vous devez être un 
 
 Ce plugiciel affiche le nombre de téléchargements d'un article sur la page de l'article.
 
-Veuillez noter que:
+Une fois qu'il a été activé, aucune configuration supplémentaire n'est requise.
 
 #### Plugiciel Statistiques d'Utilisation
 
