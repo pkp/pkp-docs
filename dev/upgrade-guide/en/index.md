@@ -267,22 +267,8 @@ In the screenshot below, we can see that we are currently running `3.2.1-4` and 
 
 Finally, when you are ready, run the upgrade script, which may take several hours to complete.
 
-The upgrade script will print a lot of information to the terminal. We recommend sending the output to a log file. This will help you troubleshoot if the upgrade fails.
-
-```bash
-$ nohup php tools/upgrade.php upgrade > $OJS_ROOT_PATH/upgrade.log &
-```
-
-You can also run the upgrade without the log file.
-
 ```bash
 $ php tools/upgrade.php upgrade
-```
-
-If you are using the log file, check the progress of the upgrade.
-
-```bash
-$ tail -f $OJS_ROOT_PATH/upgrade.log
 ```
 
 If the upgrade is successful, you will see the message below informing you that the upgrade was successful.
@@ -304,6 +290,19 @@ Reload the apache server to apply the changes.
 (Debian)$ service apache2 reload
 
 (RHEL)$ systemctl restart httpd
+```
+
+#### Log the Output
+
+The upgrade script will print a lot of information to the terminal. We recommend sending the output to a log file. This will help you troubleshoot if the upgrade fails.
+
+```bash
+$ nohup php tools/upgrade.php upgrade > $OJS_ROOT_PATH/upgrade.log &
+```
+
+Check the progress of the upgrade.
+```bash
+$ tail -f $OJS_ROOT_PATH/upgrade.log
 ```
 
 ### 9. Test the Upgrade
