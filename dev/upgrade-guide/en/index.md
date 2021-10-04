@@ -275,6 +275,21 @@ If the upgrade is successful, you will see the message below informing you that 
 
 ![An example of the "Successfully upgraded" message in the command-line.](./assets/successful-upgrade.png)
 
+#### Log the Output
+
+The upgrade script will print a lot of information to the terminal. We recommend sending the output to a log file. This will help you troubleshoot if the upgrade fails.
+
+```bash
+$ nohup php tools/upgrade.php upgrade > $OJS_ROOT_PATH/upgrade.log &
+```
+
+Check the progress of the upgrade.
+```bash
+$ tail -f $OJS_ROOT_PATH/upgrade.log
+```
+
+### 9. Remove Maintenance Mode
+
 When the upgrade is complete, remove the maintenance mode previously configured by modifying your Apache `VirtualHost` directive or updating your `.htaccess` file.
 
 ```bash
@@ -292,20 +307,7 @@ Reload the apache server to apply the changes.
 (RHEL)$ systemctl restart httpd
 ```
 
-#### Log the Output
-
-The upgrade script will print a lot of information to the terminal. We recommend sending the output to a log file. This will help you troubleshoot if the upgrade fails.
-
-```bash
-$ nohup php tools/upgrade.php upgrade > $OJS_ROOT_PATH/upgrade.log &
-```
-
-Check the progress of the upgrade.
-```bash
-$ tail -f $OJS_ROOT_PATH/upgrade.log
-```
-
-### 9. Test the Upgrade
+### 10. Test the Upgrade
 
 It's important to test the site after an upgrade. Any core functions for your journals should be tested, as well as custom plugins or themes once they have been reinstalled.
 
@@ -347,13 +349,13 @@ The following is a short checklist that covers common use cases.
         - Remove the new user by merging it to your admin account
 6. Additional testing of common tasks
 
-### 10. Restore Custom Plugins
+### 11. Restore Custom Plugins
 
 Use the Plugin Gallery to restore any custom plugins that were installed.
 
 If you have installed custom plugins which are not in the Plugin Gallery, check with the plugin distributor for an update which is compatible with your upgraded version.
 
-### 11. Cleanup Backup Files
+### 12. Cleanup Backup Files
 
 You may wish to retain your backup files, but if you don't, you can remove them.
 
@@ -361,7 +363,7 @@ You may wish to retain your backup files, but if you don't, you can remove them.
 $ sudo rm -fR "$OJS_BACKUP_PATH/*"
 ```
 
-### 12. Celebrate
+### 13. Celebrate
 
 **Your OJS instance has been successfully upgraded. Congratulations!**
 
