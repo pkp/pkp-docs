@@ -32,6 +32,8 @@ Maintenant que vous avez tous les thèmes disponibles, revenez à l'onglet Appar
 5. Ouvrez la page d'accueil de votre site dans un nouvel onglet ou une nouvelle fenêtre de votre navigateur pour voir à quoi ressemble le site avec le nouveau thème ou sous-thème et avec différentes options de configuration.
 6. Si vous ne voyez pas les modifications apparaître sur votre site, vous devrez peut-être vider le cache dans le menu Administration.
 
+As of OJS/OMP/OPS 3.3, the **Default Theme** has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. [PKP Accessibility Statement](https://docs.pkp.sfu.ca/accessibility-statement/) contains further details.
+
 Si vous souhaitez apporter des modifications mineures à la conception et à la mise en page de votre site, vous pouvez télécharger une **Feuille de Style de la Revue** dans Paramètres du Site Web > Apparence > Avancé
 
 - **Typographie**: choisissez rapidement les polices de votre revue. Cette option peut être disponible ou non selon le thème sélectionné.
@@ -41,6 +43,8 @@ Si vous souhaitez apporter des modifications mineures à la conception et à la 
 - **Résumé de la Revue** : cochez cette option pour afficher le résumé de la Revue sur la page d'accueil. Vous pouvez ajouter le résumé de votre revue sous Paramètres de la Revue > Masthead. Cette option peut être disponible ou non selon le thème sélectionné.
 
 - **Image d'Arrière-Plan de l'En-Tête**: cochez cette option si vous souhaitez que l'image de la page d'accueil téléchargée soit affichée comme arrière-plan de l'en-tête.
+
+For further theme customization options, consult the [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/) guide. Note that changes made to the themes may impact journal accessibility.
 
 ### Installation
 
@@ -58,7 +62,9 @@ Où vous pouvez télécharger des images (logo, vignette, page d'accueil) vers l
 
 Où vous pouvez télécharger votre feuille de style de la revu, Favicon et contenu supplémentaire.
 
-- **Feuille de Style de la Revue**: utilisez cette option pour télécharger une feuille de style unique pour votre revue. Si vous souhaitez apporter des modifications plus importantes à la conception ou donner à votre site un aspect tout à fait unique, vous pouvez développer votre propre thème ou thème enfant. Les instructions sont disponibles dans le [Guide de Thématisation PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) .
+- **Feuille de Style de la Revue**: utilisez cette option pour télécharger une feuille de style unique pour votre revue. Instructions on modifying the CSS are available in the [Designing Your Journal: Creating a Stylesheet](https://docs.pkp.sfu.ca/designing-your-journal/en/creating-stylesheet) guide.
+
+Si vous souhaitez apporter des modifications plus importantes à la conception ou donner à votre site un aspect tout à fait unique, vous pouvez développer votre propre thème ou thème enfant. Les instructions sont disponibles dans le [Guide de Thématisation PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/) .
 
 - **Favicon**: ajoutez un [favicon](https://en.wikipedia.org/wiki/Favicon) à afficher dans la barre d'adresse du navigateur du lecteur.
 
@@ -198,7 +204,7 @@ Please note that as PKP does not maintain 3rd party plugins, we cannot guarantee
 
 [AddThis](https://www.addthis.com/) permet un partage facile des réseaux sociaux en intégrant des outils pour plusieurs plates-formes dans un ensemble compact de boutons configurables. Le plugiciel intègre AddThis dans OJS/OMP pour un partage rapide du contenu publié.
 
-Ceci est un plugiciel installé et devra être activé sous Paramètres du site Web > Plugiciels > Plugiciels installés.
+Pour configurer le plugiciel:
 
 ![Social media sharing icons displayed on an article page by the AddThis plugin.](./assets/learning-ojs-settings-plugin-addthis.png)
 
@@ -390,7 +396,7 @@ Ce plugiciel peut être activé dans la galerie de plugiciels.
 
 Ce plugiciel affiche le nombre de téléchargements d'un article sur la page de l'article.
 
-Une fois qu'il a été activé, aucune configuration supplémentaire n'est requise.
+Veuillez noter que:
 
 #### Plugiciel Recommander des Articles Similaires
 
