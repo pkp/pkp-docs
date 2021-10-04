@@ -32,6 +32,8 @@ Now that you have all available themes, return to the Appearance tab to try out 
 5. Open your site's home page in a new tab or window of your browser to see how the site looks with the new theme or sub-theme and with different configuration options.
 6. If you do not see the changes appear on your site, you may need to clear the cache under the Administration menu.
 
+As of OJS/OMP/OPS 3.3, the **Default Theme** has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. [PKP Accessibility Statement](https://docs.pkp.sfu.ca/accessibility-statement/) contains further details.
+
 If you would like to make minor changes to your site's design and layout, you can upload a **Journal Stylesheet** in Website Settings > Appearance > Advanced.
 
 - **Typography**: Quickly choose the fonts for your journal. This option may or may not be available depending on the selected theme.
@@ -41,6 +43,8 @@ If you would like to make minor changes to your site's design and layout, you ca
 - **Journal Summary**: Check this off to show the journal summary on the homepage. You can add your journal summary under Journal Settings > Masthead. This option may or may not be available depending on the selected theme.
 
 - **Header Background Image**: Check this off if you if you want the uploaded homepage image to be shown as the header background.
+
+For further theme customization options, consult the [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/) guide. Note that changes made to the themes may impact journal accessibility.
 
 ### Setup
 
@@ -58,7 +62,9 @@ Where you can upload images (logo, thumbnail, homepage) to your sites main page,
 
 Where you can upload your journal stylesheet, Favicon, and Additional Content.
 
-- **Journal Style Sheet**: Use this to upload a unique style sheet for your journal. If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+- **Journal Style Sheet**: Use this to upload a unique style sheet for your journal. Instructions on modifying the CSS are available in the [Designing Your Journal: Creating a Stylesheet](https://docs.pkp.sfu.ca/designing-your-journal/en/creating-stylesheet) guide.
+
+If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
 - **Journal Favicon**: Add a [favicon](https://en.wikipedia.org/wiki/Favicon) to display in the reader's browser address bar.
 
@@ -80,7 +86,7 @@ To remove these fields and their contents from displaying publicly on the websit
 
 ### Languages
 
-OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages and authors can make submissions in one or more languages on a single site or journal. When you install OJS, you can select one or more languages for your site.
+OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages and authors can make submissions in one or more languages on a single site or journal. Assim, ao instalar o OJS, você pode selecionar um ou mais idiomas para o seu site.
 
 Under Website Settings > Languages you can see a list of languages or locales installed on your site and configure how the languages are used in your journal. Consider carefully how you want to configure and use languages in your journal because significant problems can occur if you change the settings later.
 
