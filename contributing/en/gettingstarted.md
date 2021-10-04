@@ -85,7 +85,7 @@ Once you've installed GitHub desktop, you should have an option while viewing an
 2. Click on the green button on the right that says "Code."
 3. Select the "Open in Desktop" option.
 
-![Press Code button and then Open in Desktop.](./assets/contrib-04.gif)
+![Press Code button and then Open in Desktop.](./assets/contrib-04.png)
 
 GitHub desktop manages your commits and pull-requests locally. It's especially convenient if you're changing more than one file at once. If you have Atom installed, you can open your project with the editor directly from GitHub Desktop.
 
@@ -93,7 +93,7 @@ GitHub desktop manages your commits and pull-requests locally. It's especially c
 2. Right click on the name of the repository in which you want to work.
 3. Select "Open in Atom."
 
-![Open project from Github Desktop.](./assets/contrib-05.gif)
+![Open project from Github Desktop.](./assets/contrib-05.png)
 
 In Atom, the repository directory structure is accessible on the left-hand side in the "project window." Clicking on any title opens it in the editor and allow you to make changes. You'll notice labels next to the files as you work. Green indicates a new file you've added. Yellow indicates a file you've changed since the last time you pulled an update from the primary repository.
 
