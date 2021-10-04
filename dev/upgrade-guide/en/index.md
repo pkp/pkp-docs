@@ -364,9 +364,7 @@ $ sudo rm -fR "$OJS_BACKUP_PATH/*"
 
 ### 12. Celebrate
 
-**Your upgrade is done. Congratulations!**
-
-The upgrade process can be complex, but the PKP team is working on improvements. See [the "Upgrades" GitHub project](https://github.com/pkp/pkp-lib/projects/23) for more information.
+**Your OJS instance has been successfully upgraded. Congratulations!**
 
 ## Troubleshooting
 
