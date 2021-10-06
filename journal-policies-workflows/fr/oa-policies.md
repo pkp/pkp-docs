@@ -1,3 +1,7 @@
+- - -
+title: Open access policies - Journal Policies and Workflows
+- - -
+
 # Conditions de libre accès
 
 ## Journaux en libre accès vs les journaux sous abonnement
