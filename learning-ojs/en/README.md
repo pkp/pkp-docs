@@ -1,7 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
-title: Learning OJS 3.3: A Visual Guide to Open Journal Systems
+title: 'Learning OJS 3.3: A Visual Guide to Open Journal Systems'
 description: A comprehensive visual guide to all basic functions and configurations related to publishing scholarly articles in Open Journal Systems (OJS).
 ---
 
