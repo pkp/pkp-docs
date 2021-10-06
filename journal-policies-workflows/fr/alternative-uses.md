@@ -1,3 +1,7 @@
+- - -
+title: Alternative uses of OJS - Journal Policies and Workflows
+- - -
+
 # Autres utilisations d'OJS
 
 OJS peut être utilisé pour l'ensemble du processus de gestion des revues, des soumissions jusqu'à la publication finale des numéros. Cependant, certaines revues choisissent d'utiliser OJS pour une seule étape de publication - par exemple, pour gérer le flux des travaux des soumissions lors de la publication ailleurs sur un site externe, ou de publier des travaux sur le site OJS lorsque le flux des travaux est géré en dehors d'OJS. OJS peut également être utilisé pour publier les travaux de la conférence, et certaines revues choisissent de publier article par article plutôt que de collecter des articles dans un numéro avant la publication. Nous avons décrit chacun de ces cas d'utilisation ci-dessous.
