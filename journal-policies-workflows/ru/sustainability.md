@@ -1,3 +1,7 @@
+- - -
+title: Sustainability Models and Revenue Sources - Journal Policies and Workflows
+- - -
+
 # Sustainability Models and Revenue Sources
 
 Financial sustainability is crucial for a journal’s success, and various models exist for journals, whether they are fully open access (with or without Article Processing Charges), partially open access (with embargoes or a hybrid OA / subscription model), or fully subscription-based.
