@@ -1,5 +1,7 @@
 ---
 book: journal-policies-workflows
+title: Politiques et flux des travaux des journaux
+description: Ce guide donne un aperçu des politiques et des flux de travail courants des revues et de la façon dont elles peuvent être appliquées au sein de l'OJS.
 ---
 
 # Politiques et flux des travaux des journaux
