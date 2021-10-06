@@ -1,3 +1,7 @@
+- - -
+title: Journal information - Journal Policies and Workflows
+- - -
+
 # Informations sur le journal
 
 ## Titre du journal
