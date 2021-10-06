@@ -1,3 +1,7 @@
+- - -
+title: Journal information - Journal Policies and Workflows
+- - -
+
 # Journal information
 
 ## Journal title
@@ -47,9 +51,9 @@ It is generally safe to change your journal’s initials. However, if you assign
 
 ## Registering for an ISSN
 
-Your journal should apply for an **ISSN** (International Standard Serial Number), which is an eight-digit number used to identify a journal. ISSNs are managed by a world wide network of National Centres coordinated by an International Centre based in Paris, backed by Unesco and the French Government. You can request an ISSN by visiting the [ISSN web site](http://www.issn.org/) and locating your national centre’s ISSN portal. This can be done at any point in operating the journal.
+Your journal should apply for an **ISSN** (International Standard Serial Number), which is an eight-digit number used to identify a journal. ISSNs are managed by a world wide network of National Centres coordinated by an International Centre based in Paris, backed by Unesco and the French Government. You can request an ISSN by visiting the [ISSN web site](http://www.issn.org/) and locating your national centre’s ISSN portal. Isso pode ser feito em qualquer etapa da existência da revista.
 
-OJS journals will typically have an online ISSN, but some may also publish a print version, which requires a different print ISSN.
+Tipicamente, as revistas geridas pelo OJS têm o ISSN eletrônico, mas algumas poderão também publicar a versão impressa, que requer um ISSN impresso diferente.
 
 Note that if your journal title changes, even slightly, you will need to apply for a new ISSN.
 
