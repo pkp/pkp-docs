@@ -38,10 +38,10 @@ All PKP applications use a variant of [Semantic Versioning](https://semver.org) 
 
 | Type     | Example    | Description                                                                                                 |
 | -------- | ---------- | ----------------------------------------------------------------------------------------------------------- |
-| major    | `3.x.x.x`  | Comprehensive breaking changes that may effect plugins, server configuration and all parts of the software. |
-| minor    | `3.3.x.x`  | Breaking changes that may effect plugins and server configuration.                                          |
-| revision | `3.3.3.x.` | New features may be added but breaking changes are kept to a minimum.                                       |
-| build    | `3.3.3.3`  | No breaking changes or database migrations.                                                                 |
+| major    | `3.x.x-x`  | Comprehensive breaking changes that may effect plugins, server configuration and all parts of the software. |
+| minor    | `3.3.x-x`  | Breaking changes that may effect plugins and server configuration.                                          |
+| revision | `3.3.3-x`  | New features may be added but breaking changes are kept to a minimum.                                       |
+| build    | `3.3.3-3`  | No breaking changes or database migrations.                                                                 |
 
 In order to understand the upgrade process, you should first determine the size of the upgrade "jump". A jump from version `3.3.0-6` to `3.3.0-7` can likely be done with minimal down time. However, a jump from version `2.4` to `3.2` will be a long, complex process with a higher risk of introducing problems.
 
@@ -55,7 +55,7 @@ It is not always possible to upgrade from 2.x to any version of 3.x. When perfor
 | --------- | --------- | ---------------------------------------------------------------------------------- |
 | `< 2.4.8` | `2.4.8-x` | Before upgrading to 3.x, make sure you are upgraded to the latest `2.4.8-x` build. |
 | `2.4.8-x` | `3.2.1-x` | You can not upgrade to 3.3.x or later from 2.x                                     |
-| `3.2.1-x` | `3.3+`    | Upgrade from `3.2.1-x` to any version 3.3 or later.                                |
+| `3.2.1-x` | `3.3 >=`  | Upgrade from `3.2.1-x` to any version 3.3 or later.                                |
 
 ## Upgrade Tutorial
 
@@ -129,14 +129,14 @@ Reload the apache server to apply the changes:
 
 The steps below will backup the following folders and files.
 
-| Description                   | Common Path                     | Variable           |
-| ----------------------------- | ------------------------------- | ------------------ |
-| Public files                  | `/var/www/html/public`          | `OJS_PUBLIC_PATH`  |
-| Private files                 | `/var/www/files`                | `OJS_PRIVATE_PATH` |
-| `config.inc.php`              | `/var/www/html/config.inc.php`  |                    |
-| `.htaccess` or vhost (if any) | `/var/www/html/.htaccess`       |                    |
-| plugins                       | `/var/www/html/plugins`         |                    |
-| local customizations          | locale files, custom code, etc. |                    |
+| Common Path                     | Description                   | VARIABLE           |
+| ------------------------------- | ----------------------------- | ------------------ |
+| `/var/www/html/public`          | Public files                  | `OJS_PUBLIC_PATH`  |
+| `/var/www/files`                | Private files                 | `OJS_PRIVATE_PATH` |
+| `/var/www/html/config.inc.php`  | `config.inc.php`              |                    |
+| `/var/www/html/.htaccess`       | `.htaccess` or vhost (if any) |                    |
+| `/var/www/html/plugins`         | plugins                       |                    |
+| locale files, custom code, etc. | local customizations          |                    |
 
 Backup the database.
 
@@ -144,7 +144,8 @@ Backup the database.
 $ mysqldump --host="OJS_DB_HOST" -u $OJS_DB_USER -p$OJS_DB_PASSWORD $OJS_DB_NAME --result-file="$OJS_BACKUP_PATH/backupDB-$DATE.sql"
 ```
 
-> Character encodings are a common source of database problems during upgrades. Read more in the [Admin Guide](/admin-guide/en/troubleshooting#character-encoding)
+> Character encodings are a common source of database problems during upgrades. <br>
+> Read more in the [Admin Guide](/admin-guide/en/troubleshooting#character-encoding).
 {:.tip}
 
 Backup the private file directory.
@@ -167,7 +168,7 @@ Use your backup to create a sandbox environment and test the upgrade in that san
 
 Once the test is complete, you can run any automated or manual tests you have configured to ensure the upgrade did not introduce regressions.
 
-Only perform the next steps on your live, production environment if you have already completed a test upgrade in your sandbox environment.
+**Only perform the next steps on your live, production environment if you have already completed a test upgrade in your sandbox environment.**
 
 ### 5. Download Release Package
 
@@ -213,16 +214,16 @@ Restore the `config.inc.php` file.
 $ cp "$OJS_BACKUP_PATH/html/config.inc.php" "$OJS_WEB_PATH"
 ```
 
-Restore the `.htaccess` file if it exists.
-
-```bash
-$ cp "$OJS_BACKUP_PATH/.htaccess" "$OJS_WEB_PATH"
-```
-
 Run the following command to compare your configuration file with the template of the new release. Add or remove any configuration options as necessary.
 
 ```bash
 $ diff "$OJS_BACKUP_PATH/config.inc.php" "$OJS_WEB_PATH/config.TEMPLATE.inc.php"
+```
+
+Restore the `.htaccess` file if it exists.
+
+```bash
+$ cp "$OJS_BACKUP_PATH/.htaccess" "$OJS_WEB_PATH"
 ```
 
 Restore the public files.
