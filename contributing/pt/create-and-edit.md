@@ -88,13 +88,17 @@ Unlike with a single-page document, you no longer need to add to index.md. The r
         - a heading inside that chapter would look like: `- [Definitions](./statistics.md#definitions)`
 
 #### Create README file
+
 The next step is to create a README.md file in the language folder for the document. The README file is the main landing page of the document and should contain summary introduction information about the document, so users know what the document is about. It should also contain relevant keywords and descriptive metadata so that users can find the document by searching and the document ranks high in Google search results about the document topics.
 
 Add Title and Description front matter (metadata) to the document, with the Markdown formatting shown in the example below.
+
 - The Title should have the name of the guide in it and any main keywords that would be searched for the document.
 - The Description will usually be displayed in the search result, so should give the user a summary of the document and include main keywords that would be searched.
+- If either the title or description contain a `:`, they should be put into quotes.
 
 Exemplo:
+
 ```
 ---
 title: Technical Documentation - OJS|OMP|OPS
@@ -102,7 +106,17 @@ description: A technical guide to the coding conventions and application archite
 ---
 ```
 
+Example with quotes:
+
+```
+---
+title: 'Learning OJS 3.3: A Visual Guide to Open Journal Systems'
+description: A comprehensive visual guide to all basic functions and configurations related to publishing scholarly articles in Open Journal Systems (OJS).
+---
+```
+
 Below the front matter, add the H1 title for the page. Since this will be the introduction chapter, the title should be "Introduction: [Document Title.]. Por exemplo:
+
 ```
 # Introduction: Technical Documentation for OJS, OMP, and OPS
 ```
@@ -125,6 +139,14 @@ title: Inclusive and Accessible Themes - Designing Your OJS Journal
 ---
 ```
 
+If the title contains a `:` character, then the title should be put into quotes, for example:
+
+```
+---
+title: 'Learning OJS 3.3: A Visual Guide to Open Journal Systems'
+---
+```
+
 You do not need to add Description front matter as well. However, you may choose to add it if the chapter text has little content or keywords that describe what the chapter is about.
 
 Then add an H1 chapter title and your chapter content below. For any subheadings use descending header tags (H2 to H5). Do not skip a level of header tag, as this affects accessibility.
@@ -133,7 +155,7 @@ Then add an H1 chapter title and your chapter content below. For any subheadings
 
 Once you have created all of your chapters, you can add links to those files in the `SUMMARY.md` file, which essentially creates a table of contents for the document. Whereas your headers in single documents create the sidebar table of contents, in multi-page docs, you need to add the headers manually to the `SUMMARY.md` file.
 
-In the SUMMARY.md file, add a link for each chapter title and H2 subheading links below the chapter links.
+In the `SUMMARY.md` file, add a link for each chapter title and H2 subheading links below the chapter links.
 
 The first link should be for the Introduction in the README file:
 ```
