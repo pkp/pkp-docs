@@ -30,7 +30,7 @@ Les détails sur la configuration système requise, les recommandations de confi
 
 ## Mise à jour
 
-Les instructions sur la mise à jour se trouvent aux emplacements suivants:
+For more information about upgrading your system, see the [Technical Upgrade guide](/dev/upgrade-guide/). Other upgrade instructions can be found in the following locations:
 
 * OJS: [https://pkp.sfu.ca/ojs/UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE)
 * OMP: [https://pkp.sfu.ca/omp/UPGRADE](https://pkp.sfu.ca/omp/UPGRADE)
