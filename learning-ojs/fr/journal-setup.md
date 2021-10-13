@@ -61,9 +61,7 @@ Appuyez sur le bouton **Enregistrer** pour enregistrer vos modifications.
 
 ## Rubriques de la Revue
 
-Utilisez cette page pour configurer les différentes sections de votre Revue. Par exemple, Articles, Éditoriaux, Évaluations, Commentaires, etc.
-
-Toutes vos sections existantes apparaîtront ici. OJS nécessite au moins une section et crée une section "Articles" par défaut.
+Utilisez cette page pour configurer les différentes sections de votre Revue. Par exemple, Articles, Éditoriaux, Évaluations, Commentaires, etc. OJS nécessite au moins une section et crée une section "Articles" par défaut. You can create new sections, edit existing sections, or delete sections. The sections will appear for an author to select when they make a submission and they will be used to organize the articles in your published issues. You can also assign editors to specific sections. This part of the guide explains how you can configure sections.
 
 ![OJS dashboard view of Journal Settings submenu Sections with links for Order and Create Section and editable list of current sections.](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
 
@@ -128,6 +126,10 @@ Lorsque vous avez créé plus d'une rubrique, vous verrez un lien Trier. Utilise
 ![A list of available sections from top to bottom of page in OJS dashboard.](./assets/learning-ojs3.2-jm-settings-journal-sections-order.png)
 
 Appuyez sur le bouton **OK** lorsque vous avez terminé.
+
+### Delete Sections
+
+You can only delete a section if there are no articles assigned to it. If you want to delete a section that has articles assigned to it, you will need to move the articles to a different section first. Then click the blue arrow below the section name to reveal the **Delete** link, then click the link. OJS will ask if you want to permanently delete the section and you can click **Yes**.
 
 ## Catégories
 
