@@ -61,9 +61,7 @@ Clique em **Salvar** para gravar as alterações.
 
 ## Seções
 
-Use essa página para configurar as diferentes seções do periódico. Exemplos: artigos, editoriais, revisões, comentários, etc.
-
-Todas as seções existentes aparecerão aqui. O OJS exige pelo menos uma seção e cria automaticamente a seção “Artigos”.
+Use essa página para configurar as diferentes seções do periódico. Exemplos: artigos, editoriais, revisões, comentários, etc. O OJS exige pelo menos uma seção e cria automaticamente a seção “Artigos”. You can create new sections, edit existing sections, or delete sections. The sections will appear for an author to select when they make a submission and they will be used to organize the articles in your published issues. You can also assign editors to specific sections. This part of the guide explains how you can configure sections.
 
 ![OJS dashboard view of Journal Settings submenu Sections with links for Order and Create Section and editable list of current sections.](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
 
@@ -128,6 +126,10 @@ Quando tiver mais de uma seção criada, você verá a opção Ordenar. Use-a pa
 ![A list of available sections from top to bottom of page in OJS dashboard.](./assets/learning-ojs3.2-jm-settings-journal-sections-order.png)
 
 Clique no botão **Concluído** ao finalizar.
+
+### Delete Sections
+
+You can only delete a section if there are no articles assigned to it. If you want to delete a section that has articles assigned to it, you will need to move the articles to a different section first. Then click the blue arrow below the section name to reveal the **Delete** link, then click the link. OJS will ask if you want to permanently delete the section and you can click **Yes**.
 
 ## Categorias
 
