@@ -1,5 +1,6 @@
 # Sisällys
 
+* [Luku 1: Esittely](.)
 * [Getting Found: Building Visibility](getting-found-visibility.md)
   * [Journal Standards and Identifiers](./getting-found-visibility.md#journal-standards-and-identifiers)
   * [Search Engines](./getting-found-visibility.md#search-engines)
