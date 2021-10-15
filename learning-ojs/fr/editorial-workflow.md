@@ -1,6 +1,8 @@
 ---
 book: apprendre-ojs
 version: 3.2
+title: Learning Open Journal Systems 3.3 - Editorial Workflow
+description: How to manage an article manuscript through the OJS workflow, from submission to publication.
 ---
 
 # Flux des Travaux Éditoriaux
