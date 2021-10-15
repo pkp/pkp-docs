@@ -1,6 +1,7 @@
 ---
 book: learning-omp
 version: 3.3
+title: Learning OMP (Open Monograph Press) - Installing and Upgrading
 ---
 
 # Luku 2: Asentaminen ja päivittäminen
