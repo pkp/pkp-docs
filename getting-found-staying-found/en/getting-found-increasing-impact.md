@@ -1,3 +1,7 @@
+---
+title: Getting Found, Staying Found - Increasing Impact
+---
+
 # Increasing Impact
 
 Another method of building professional recognition is through the use of different techniques for measuring the use and impact of your journal. This will provide clear evidence of the success of your journal and allow you to regularly evaluate your progress.
