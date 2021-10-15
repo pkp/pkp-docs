@@ -1,7 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
-title: User Account Management
+title: Learning Open Journal Systems 3.3 - User Account Management
 description: A guide for registering and managing your Open Journal Systems (OJS) account.
 ---
 
