@@ -1,6 +1,7 @@
 ---
 book: apprendre-ojs
 version: 3.2
+title: Learning Open Journal Systems 3.3 - Workflow Settings
 ---
 
 # Paramètres du flux des travaux
