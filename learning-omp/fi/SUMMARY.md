@@ -1,8 +1,6 @@
 # Sisällys
 
-* [Alkusanat](.)
-* [Luku 1: Esittely](./introduction.md)
-  * [OMP 3 Features](./introduction.md#omp-3-features)
+* [Luku 1: Esittely](.)
 * [Luku 2: Asentaminen ja päivittäminen](./install-upgrade.md)
   * [Download](./install-upgrade.md#download)
   * [Hosted Solutions](./install-upgrade.md#hosted-solutions)
