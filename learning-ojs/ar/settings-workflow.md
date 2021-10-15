@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+title: Learning Open Journal Systems 3.3 - Workflow Settings
 ---
 
 # الفصل 6: الأعداد
