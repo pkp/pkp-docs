@@ -1,11 +1,9 @@
 # Summary
 
-* [Preface](.)
-* [Introduction](./introduction.md)
-  * [OMP 3 Features](./introduction.md#omp-3-features)
+* [Introduction](.)
 * [Installing and Upgrading](./install-upgrade.md)
-  * [Download](./install-upgrade.md#download)
-  * [Hosted Solutions](./install-upgrade.md#hosted-solutions)
+  * [İndir](./install-upgrade.md#download)
+  * [Barındırılan Dergiler](./install-upgrade.md#hosted-solutions)
   * [Creating a Press](./install-upgrade.md#creating-a-press)
 * [Editorial Interface](./editorial-interface.md)
 * [User Accounts](./user-accounts.md)
@@ -21,7 +19,7 @@
   * [Distribution](./press-setup.md#distribution)
 * [Tools](./tools.md)
   * [Import/Export](./tools.md#importexport)
-  * [Statistics](./tools.md#statistics)
+  * [İstatistikler](./tools.md#statistics)
 * [Role-specific Workflows](./role-specific-workflows.md)
   * [Author Workflow](./role-specific-workflows.md#author-workflow)
   * [Reviewer Workflow](./role-specific-workflows.md#reviewer-workflow)
