@@ -79,13 +79,19 @@ Here are three guides for writing markdown:
 
 If you're working on a large piece of documentation and you're not comfortable using either the command line or the web interface for GitHub, consider using [GitHub Desktop](https://desktop.github.com/) and the [Atom](https://atom.io/) text editor. With this workflow, you can "clone" a copy of the docs repository to your computer, make your edits locally (and even build a version of the Documentation Hub using Ruby, if you like) and create a pull request with your changes once you're finished.
 
-Once you've installed GitHub desktop, you should have an option while viewing any GitHub repository to "Code" and "Open in Desktop".
+Once you've installed GitHub desktop, you should have an option while viewing any GitHub repository to "Code" and "Open with GitHub Desktop".
 
 1. Navigate to the repository you want to clone.
 2. Click on the green button on the right that says "Code."
-3. Select the "Open in Desktop" option.
+3. Select the "Open with GitHub Desktop" option.
 
 ![Press Code button and then Open in Desktop.](./assets/contrib-04.png)
+
+You'll be prompted to choose a download location for your copy of the repository. If you're happy with the default, click the blue "Clone" button.
+
+![Click Clone button to download the repository.](./assets/contrib-04a.png)
+
+It'll take a few minutes for all the files to download.
 
 GitHub desktop manages your commits and pull-requests locally. It's especially convenient if you're changing more than one file at once. If you have Atom installed, you can open your project with the editor directly from GitHub Desktop.
 
@@ -95,31 +101,41 @@ GitHub desktop manages your commits and pull-requests locally. It's especially c
 
 ![Open project from Github Desktop.](./assets/contrib-05.png)
 
-In Atom, the repository directory structure is accessible on the left-hand side in the "project window." Clicking on any title opens it in the editor and allow you to make changes. You'll notice labels next to the files as you work. Green indicates a new file you've added. Yellow indicates a file you've changed since the last time you pulled an update from the primary repository.
+In Atom, the repository directory structure is accessible on the left-hand side in the "project window." Clicking on any title opens it in the editor and allow you to make changes. You'll notice the colors of the filenames change as you work. Green indicates a new file you've added. Yellow indicates a file you've changed since the last time you pulled an update from the primary repository.
 
-![Folder structure in Atom.](./assets/contrib-06.png)
+If you are working on a project over time, you may want to regularly pull changes "from origin." You can do this in GitHub desktop by clicking the "Fetch origin" button at the top of the window. It pulls changes since the last time you pulled them (or, since the time you cloned initially).
 
-If you are working on a project over time, you may want to regularly pull changes "from origin." You can do this in GitHub desktop by clicking on the "pull from origin" button near the top right of the window. It pulls changes since the last time you pulled them (or, since the time you cloned initially).
+![Fetch origin updates from GitHub.](./assets/contrib-06a.png)
 
-Once you make your edits with Atom and have a document you want to submit, you'll want to contribute it back as a "branch."
+Make sure you've saved your changes in Atom. Then you'll see a list of your changed files in GitHub Desktop. A green plus sign indicates a file you're adding; an orange dot denotes a file you've modified.
 
-1. In GitHub desktop, click on the "Current Branch" button.
+In the bottom left-hand corner, you'll see a warning that you don't have write access to pkp-docs. GitHub Desktop invites you to create a fork by clicking on the hyperlink.
+
+![Create a fork of the repository.](./assets/contrib-07a.png)
+
+On the popup message, click the **Fork this Repository** button. GitHub then asks how you're planning to use this repository. Choose **To contribute to the parent project** and then click the blue **Continue** button.
+
+![Contribute to the parent project.](./assets/contrib-07b.png)
+
+Once you've finished making your edits with Atom and have a document you want to submit, you'll need to contribute it back as a "branch."
+
+1. In GitHub Desktop, click on the "Current Branch" button.
 2. Click "New Branch"
-3. Write a concise name for your branch based on the doc you're submitting, with a single dash between words.
+3. Write a concise name for your branch based on the document you're submitting, with a single dash between words.
 4. Click "Create Branch."
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
     <source src="./assets/contrib-07.mp4" type="video/mp4">
   </video>
-  <figcaption>Create a branch menu in Github desktop.</figcaption>
+  <figcaption>Create a branch menu in GitHub Desktop.</figcaption>
 </figure>
 
-Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub desktop window, you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
+Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub Desktop window, you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
 
 ![Commit to master button in Github desktop.](./assets/contrib-08.png)
 
-The first field is for a very short descriptor of what you just changed. A few words should do the trick. Here are some examples:
+The Summary field is for a very short descriptor of what you just changed. A few words should do the trick. Here are some examples:
 
 - Updated `filename.md`
 - Migrated `filename.md`
