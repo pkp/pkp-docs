@@ -152,13 +152,6 @@ Now you've committed your changes, you can push your changes back to the reposit
 
 This document is, necessarily, a brief introduction to using GitHub. GitHub has a tremendous amount of documentation on its use, however. If you want to read more about GitHub basics, read ["Hello, World"](https://guides.github.com/activities/hello-world/).
 
-<!---
-Include this in internal Documentation Procedures instead
-## Modify cards and site layout
-
-Please read [Orientation to file structure](./README.md#orientation-to-file-structure) for guidance on how to configure the layout of the documentation hub. It is recommended that edits in this space be cleared via Git Issue or pull request.
---->
-
 ## Contribute in Other Formats
 
 We encourage users and community members to write and edit documentation in markdown and contribute through GitHub. However, contributed documentation can be created or edited in any format you want to work in, including a .doc or .odt text document, a Google doc, or an email, and the DIG will convert the documentation to markdown. Do not contribute documentation in PDF, HTML, or LaTeX format.
