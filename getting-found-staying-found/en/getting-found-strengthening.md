@@ -1,3 +1,7 @@
+---
+title: Getting Found, Staying Found - Strengthening Your Journal Publishing Efforts
+---
+
 # Strengthening Your Journal Publishing Efforts
 
 ## Publication Ethics
