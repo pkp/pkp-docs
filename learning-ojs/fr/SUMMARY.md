@@ -1,12 +1,12 @@
 # Sommaire
 
 * [Préface](.)
-* [Introduction](./introduction.md)
-  * [Contexte](./introduction.md#background)
-  * [Fonctionnalités OJS](./introduction.md#ojs-features)
-  * [Quoi de neuf dans OJS 3](./introduction.md#whats-new-in-this-version-of-ojs)
-  * [Interface de lecture](./introduction.md#community-contributions)
-  * [Interface Éditoriale](./introduction.md#support.md)
+* [About Open Journal Systems](./about-ojs.md)
+  * [Contexte](./about-ojs.md#background)
+  * [Fonctionnalités OJS](./about-ojs.md#ojs-features)
+  * [Quoi de neuf dans OJS 3](./about-ojs.md#whats-new-in-this-version-of-ojs)
+  * [Interface de lecture](./about-ojs.md#community-contributions)
+  * [Interface Éditoriale](./about-ojs.md#support.md)
 * [Installation et mise à niveau](./installing-upgrading.md)
   * [Télécharger](./installing-upgrading.md#download)
   * [Solutions d'hébergement](./installing-upgrading.md#hosted-solutions)
