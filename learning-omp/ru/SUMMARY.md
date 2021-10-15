@@ -1,11 +1,9 @@
 # Summary
 
-* [Preface](.)
-* [Introduction](./introduction.md)
-  * [OMP 3 Features](./introduction.md#omp-3-features)
-* [Installing and Upgrading](./install-upgrade.md)
-  * [Download](./install-upgrade.md#download)
-  * [Hosted Solutions](./install-upgrade.md#hosted-solutions)
+* [Introduction](.)
+* [Установка и обновление](./install-upgrade.md)
+  * [Скачивание](./install-upgrade.md#download)
+  * [Решения с хостингом](./install-upgrade.md#hosted-solutions)
   * [Creating a Press](./install-upgrade.md#creating-a-press)
 * [Editorial Interface](./editorial-interface.md)
 * [User Accounts](./user-accounts.md)
