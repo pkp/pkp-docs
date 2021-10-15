@@ -1,12 +1,12 @@
 # الملخص
 
 * [تمهيد](.)
-* [الفصل 1: المقدمة](./introduction.md)
-  * [خلفية النظام](./introduction.md#background)
-  * [مزايا نظام المجلات المفتوحة](./introduction.md#ojs-features)
-  * [ما الجديد في الإصدار الثالث](./introduction.md#whats-new-in-this-version-of-ojs)
-  * [واجهة القارئ](./introduction.md#community-contributions)
-  * [واجهة التحرير أو ما يعرف بلوحة القيادة](./introduction.md#support.md)
+* [About Open Journal Systems](./about-ojs.md)
+  * [خلفية النظام](./about-ojs.md#background)
+  * [مزايا نظام المجلات المفتوحة](./about-ojs.md#ojs-features)
+  * [ما الجديد في الإصدار الثالث](./about-ojs.md#whats-new-in-this-version-of-ojs)
+  * [واجهة القارئ](./about-ojs.md#community-contributions)
+  * [واجهة التحرير أو ما يعرف بلوحة القيادة](./about-ojs.md#support.md)
 * [الفصل 2: التنصيب والترقية](./installing-upgrading.md)
   * [التنصيب](./installing-upgrading.md#download)
   * [الترقية](./installing-upgrading.md#hosted-solutions)
