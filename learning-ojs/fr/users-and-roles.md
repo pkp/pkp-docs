@@ -1,11 +1,12 @@
 ---
 book: apprendre-ojs
 version: 3.2
+title: Learning Open Journal Systems 3.3 - Users and Roles
 ---
 
 # Utilisateurs et Rôles
 
-Cette section donne accès à tous les comptes d'utilisateurs associés à votre revue, ainsi que la possibilité de gérer les rôles et les autorisations.
+This section provides information on accessing all of user accounts associated with your journal, as well as managing roles and permissions.
 
 ## Utilisateurs
 
