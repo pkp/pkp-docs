@@ -1,3 +1,7 @@
+- - -
+title: Getting Found, Staying Found - Increasing Impact
+- - -
+
 # Increasing Impact
 
 Another method of building professional recognition is through the use of different techniques for measuring the use and impact of your journal. This will provide clear evidence of the success of your journal and allow you to regularly evaluate your progress. Under the traditional subscription/print model, the number of subscribers often formed the basis for understanding the usage of an individual journal. For open access journals, without a subscriber base to point to, this can be a challenge. OJS, however, does provide the option of requiring readers to register. A fee is not necessarily required for this registration, but does allow the journal to develop a better understanding of its audience. Some statistical analysis and reports are available to the OJS Journal Manager, including reporting on the number of registered users. The reporting and statistics capabilities of OJS are available in the [OJS statistics documentation](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
