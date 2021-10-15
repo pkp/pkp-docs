@@ -1,4 +1,6 @@
 ---
+title: Learning OMP (Open Monograph Press) - Press Setup
+description: A guide to configuring the settings for the website, workflow, display, and distribution (including payment) of an OMP press.
 book: learning-omp
 version: 3.3
 ---
