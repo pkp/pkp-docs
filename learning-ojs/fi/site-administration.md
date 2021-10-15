@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+title: Learning Open Journal Systems 3.3 - Site Administration
 ---
 
 # Luku 3: Käyttäjätilit
