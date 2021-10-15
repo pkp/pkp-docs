@@ -1,9 +1,11 @@
 ---
 book: apprendre-ojs
 version: 3.2
+title: Learning Open Journal Systems 3.3 - Production and Publication
+description: Detailed instructions for the Production stage of the OJS workflow.
 ---
 
-# Chapitre 15: Production et Publication
+# Production and Publication
 
 Une fois la phase de révision terminée, la soumission passe maintenant à la production. À partir de là, les fichiers copiés seront convertis en formats publiables sous forme de fichiers épreuves (par exemple, PDF, HTML) et relus avant publication. Un nouveau numéro de revue sera créé et l'article sera publié dans le numéro. Ce chapitre explique les étapes de ce processus, ainsi que la façon d'utiliser la fonction de contrôle de version d'OJS 3.2 pour publier une nouvelle version d'un article si des modifications importantes sont apportées.
 
