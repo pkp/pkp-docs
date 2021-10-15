@@ -1,6 +1,7 @@
 ---
 book: learning-omp
 version: 3.3
+title: Learning OMP (Open Monograph Press) - Installing and Upgrading
 ---
 
 # الفصل 2: التنصيب والترقية
