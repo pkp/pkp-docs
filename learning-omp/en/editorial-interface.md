@@ -1,4 +1,6 @@
 ---
+title: Learning OMP (Open Monograph Press) - Editorial Interface
+description: A guide to understanding the layout and functions in OMP's edtorial interface.
 book: learning-omp
 version: 3.3
 ---
