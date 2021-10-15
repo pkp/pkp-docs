@@ -1,8 +1,6 @@
 # الملخص
 
-* [تمهيد](.)
-* [الفصل 1: المقدمة](./introduction.md)
-  * [OMP 3 Features](./introduction.md#omp-3-features)
+* [مقدمة](.)
 * [الفصل 2: التنصيب والترقية](./install-upgrade.md)
   * [التنصيب](./install-upgrade.md#download)
   * [الترقية](./install-upgrade.md#hosted-solutions)
