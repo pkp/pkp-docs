@@ -1,1 +1,1 @@
-# A Summary of Better Practices for Journal Metadata
+# Summary of Better Practices for Journal Metadata
