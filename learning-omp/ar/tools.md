@@ -1,6 +1,8 @@
 ---
 book: learning-omp
 version: 3.3
+title: Learning OMP (Open Monograph Press) - Tools
+description: A guide to understanding the import/export and statistics tools in OMP.
 ---
 
 # الفصل 10: التأليف
