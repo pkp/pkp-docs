@@ -11,11 +11,11 @@ Learning OMP 3 is a guide for how to use Open Monograph Press (OMP), an open sou
 
 This guide can be used alongside [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/), which has information about how to use OMP that is common to both OMP and Open Journal Systems (OJS) – a similar open source software application for publishing scholarly journals.
 
-# About OMP
+## About OMP
 
 Open Monograph Press (OMP) is an open-source tool for managing and publishing monographs, edited volumes, and scholarly editions online. It is a highly flexible editor-operated book management and publishing system that can be downloaded for free and installed on most web servers. It has been designed to reduce the time and energy devoted to the clerical and managerial tasks associated with publishing books while improving the recordkeeping and efficiency of editorial processes. It seeks to improve the scholarly and public quality of publishing through a number of innovations and includes clear and intuitive workflows for every aspect of the manuscript submission, review, editing, and production processes.
 
-## OMP 3 Features
+### OMP 3 Features
 
 Among the many features of OMP is its ability to...
 
