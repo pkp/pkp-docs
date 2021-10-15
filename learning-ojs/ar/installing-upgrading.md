@@ -1,6 +1,8 @@
 ---
 book: learning-ojs
 version: 3.3
+title: 'الفصل 2: التنصيب والترقية'
+description: A basic resource for finding more information on installing or upgrading OJS, or locating an OJS host.
 ---
 
 # الفصل 2: التنصيب والترقية
