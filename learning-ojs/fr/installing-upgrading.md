@@ -1,6 +1,8 @@
 ---
 book: apprendre-ojs
 version: 3.2
+title: Installation et mise à niveau
+description: A basic resource for finding more information on installing or upgrading OJS, or locating an OJS host.
 ---
 
 # Installation et Mise à Niveau
