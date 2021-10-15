@@ -1,8 +1,6 @@
 # Résumé
 
-* [Préface](.)
-* [Introduction](./introduction.md)
-  * [OMP 3 Features](./introduction.md#omp-3-features)
+* [Introduction](.)
 * [Installation et mise à niveau](./install-upgrade.md)
   * [Télécharger](./install-upgrade.md#download)
   * [Solutions d'hébergement](./install-upgrade.md#hosted-solutions)
