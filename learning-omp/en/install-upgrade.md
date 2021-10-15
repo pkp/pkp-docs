@@ -1,7 +1,7 @@
 ---
-title: Learning OMP (Open Monograph Press) - Installing and Upgrading
 book: learning-omp
 version: 3.3
+title: Learning OMP (Open Monograph Press) - Installing and Upgrading
 ---
 # Installing and Upgrading
 

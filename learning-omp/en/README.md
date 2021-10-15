@@ -1,7 +1,7 @@
 ---
-title: Learning Open Monograph Press (OMP) 3.3 - A Guide to Using OMP
 book: learning-omp
 version: 3.3
+title: Learning Open Monograph Press (OMP) 3.3 - A Guide to Using OMP
 description: A guide for how to use Open Monograph Press (OMP), an open source tool for managing and publishing monographs, for press managers and editors.
 ---
 
