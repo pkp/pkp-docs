@@ -1,3 +1,7 @@
+- - -
+title: Getting Found, Staying Found - Ensuring Continuity
+- - -
+
 # Staying found: Ensuring Continuity
 
 Once your journal has developed a loyal readership, and established itself with a variety of indexes, databases, and other venues, you will need to be able to maintain these relationships. One of the fastest ways to undermine confidence in your publication is if your content becomes regularly unavailable, or worse, disappears completely. For print journals, reliable access is helped by the production of many physical copies of the journal, and their widespread distribution. If one copy is lost or misplaced, it can easily be replaced by a copy of another.For online content, there is the danger of there being only a single copy, which is shared electronically among all readers over the internet. If that single copy is lost, it is irreplaceable, and the results can be catastrophic for your project.
