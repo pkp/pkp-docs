@@ -1,9 +1,11 @@
 ---
 book: learning-ojs
 version: 3.3
+title: Learning Open Journal Systems 3.3 - Production and Publication
+description: Detailed instructions for the Production stage of the OJS workflow.
 ---
 
-# Chapter 15: Production and Publication
+# Production and Publication
 
 With the completion of the Copyediting stage, the submission now moves to Production. From here, the copyedited files will be converted to publishable formats in the form of galley files (e.g., PDF, HTML) and proofread before publishing. A new journal issue will be created and the article will be scheduled for publication in the issue. This chapter explains the steps in that process, as well as how to use the versioning feature (first introduced in OJS 3.2) to publish a new version of an article if significant changes are made.
 
