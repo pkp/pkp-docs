@@ -1,6 +1,8 @@
 ---
 book: learning-omp
 version: 3.3
+title: Learning OMP (Open Monograph Press) - Catalog Management
+description: A guide to organizing and displaying published content in OMP in the catalog.
 ---
 # Catalog Management
 
