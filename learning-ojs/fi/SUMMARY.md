@@ -1,12 +1,12 @@
 # Sisällys
 
 * [Alkusanat](.)
-* [Luku 1: Esittely](./introduction.md)
-  * [Background](./introduction.md#background)
-  * [OJS Features](./introduction.md#ojs-features)
-  * [What's New in This Version of OJS](./introduction.md#whats-new-in-this-version-of-ojs)
-  * [Community Contributions](./introduction.md#community-contributions)
-  * [Support](./introduction.md#support.md)
+* [About Open Journal Systems](./about-ojs.md)
+  * [Background](./about-ojs.md#background)
+  * [OJS Features](./about-ojs.md#ojs-features)
+  * [What's New in This Version of OJS](./about-ojs.md#whats-new-in-this-version-of-ojs)
+  * [Community Contributions](./about-ojs.md#community-contributions)
+  * [Support](./about-ojs.md#support.md)
 * [Luku 2: Asentaminen ja päivittäminen](./installing-upgrading.md)
   * [Download](./installing-upgrading.md#download)
   * [Hosted Solutions](./installing-upgrading.md#hosted-solutions)
