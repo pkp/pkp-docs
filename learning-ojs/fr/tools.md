@@ -1,6 +1,8 @@
 ---
 book: apprendre-ojs
 version: 3.2
+title: Learning Open Journal Systems 3.3 - Tools
+description: A guide to using the Tools menu in OJS, including Import/Export functions and QuickSubmit.
 ---
 
 # Outils
