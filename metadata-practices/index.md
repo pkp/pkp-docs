@@ -9,18 +9,18 @@ Better Practices in Journal Metadata explains how to create accurate journal tit
 
 ## Contributors
 
-Issued by the Coalition Publica Metadat Working Group: 
-* Lise Brin | Canadian Association of Research Libraries
-* Haiyun Cao | York University
-* Jessica Clark | Coalition Publica
-* Bart Kawula | Scholars Portal
-* Inba Kehoe | University of Victoria
-* Pierre Lasou | Université Laval
-* Tomasz Mrozewski | York University
-* Mike Nason (Chair) | University of New Brunswick
-* Mathieu Pigeon | Érudit
-* Brianne Selman | University of Winnipeg
-* Sarah Severson | University of Alberta
+Issued by the Coalition Publica Metadata Working Group:
 
-Adapted and published by the Public Knowledge Project’s Documentation Interest Group
+* Lise Brin - Canadian Association of Research Libraries
+* Haiyun Cao - York University
+* Jessica Clark - Coalition Publica
+* Bart Kawula - Scholars Portal
+* Inba Kehoe - University of Victoria
+* Pierre Lasou - Université Laval
+* Tomasz Mrozewski - York University
+* Mike Nason (Chair) - University of New Brunswick
+* Mathieu Pigeon - Érudit
+* Brianne Selman - University of Winnipeg
+* Sarah Severson - University of Alberta
 
+Adapted and published by the Public Knowledge Project’s Documentation Interest Group.

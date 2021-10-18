@@ -1,12 +1,17 @@
+---
+title: Summary of Better Practices for Journal Metadata - Better Practices in Journal Metadata
+---
+
 # Summary of Better Practices for Journal Metadata
 
-Metadata is an essential aspect of academic publishing. It ensures accurate identification of a journal’s content and can improve discoverability, access, dissemination, preservation, and, arguably, research impact. The most important step to better metadata is due diligence. 
+Metadata is an essential aspect of academic publishing. It ensures accurate identification of a journal’s content and can improve discoverability, access, dissemination, preservation, and, arguably, research impact. The most important step to better metadata is due diligence.
 
-For best results, OJS journals should: 
-* Regularly review journal-level metadata and settings. Make sure to check all your settings but, in particular, review: 
+For best results, OJS journals should:
+
+* Regularly review journal-level metadata and settings. Make sure to check all your settings but, in particular, review:
   * Administration > Site Settings > Languages
   * Settings > Journal > Masthead and Sections
-  * Settings > Workflow > Metadata 
+  * Settings > Workflow > Metadata
 * Provide as much information about your journal as you can in the About the Journal section.
 * Review About the Journal regularly to keep it up to date.
 * Remember that metadata describes the articles in your publication. It is not a way to manipulate the design or layout of your journal website.
