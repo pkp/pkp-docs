@@ -22,3 +22,21 @@ Coalition Publica established the Metadata Working Group in the winter of 2019 w
 3. Provide recommendations to Coalition Publica’s Operations Team towards improving metadata within PKP’s and Érudit’s platforms and encouraging the production of better metadata production.
 
 This document is the result of objectives one and two above. It provides documentation and advice to hosting providers, journal managers, and journal editors on properly configuring instances of the Open Journal Systems (OJS) software, at the journal, issue, and article level, to deliver quality metadata to Érudit (or any other organizations with OAI access to your content).
+
+### Contributors
+
+Issued by the Coalition Publica Metadata Working Group:
+
+* Lise Brin - Canadian Association of Research Libraries
+* Haiyun Cao - York University
+* Jessica Clark - Coalition Publica
+* Bart Kawula - Scholars Portal
+* Inba Kehoe - University of Victoria
+* Pierre Lasou - Université Laval
+* Tomasz Mrozewski - York University
+* Mike Nason (Chair) - University of New Brunswick
+* Mathieu Pigeon - Érudit
+* Brianne Selman - University of Winnipeg
+* Sarah Severson - University of Alberta
+
+Adapted and published by the Public Knowledge Project’s Documentation Interest Group.
