@@ -3,13 +3,13 @@ book: learning-ojs
 version: 3.1
 ---
 
-# Chapter 13: Authoring
+# Capítulo 13: Autores
 
-In this chapter, you will learn about how an author works in OJS 3.1 from registration through to proofreading the final galley.
+En este capítulo, aprenderá cómo trabaja un autor en OJS 3.1 desde el registro de usuario hasta la revisión de la galerada final.
 
-## Registering with the Journal
+## Registrándose en la revista
 
-To make a submission to an OJS 3.1 journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
+Para realizar un envío a una revista en OJS 3, primero tendrá que registrar una cuenta de usuario en una revista e iniciar sesión \(vea [Registrándose en una revista](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
 
 ![Submissions queue in author dashboard](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
