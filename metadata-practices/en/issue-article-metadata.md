@@ -171,7 +171,7 @@ You can ask authors to add their references to the References field when they ma
 
 There are a few additional options for article-level metadata you can add. You can configure which additional fields you include in your journal and whether that metadata will be collected during the submissions process (optional or required), or only added by an editor later. These metadata elements can be added and configured under **Workflow Settings > Submission > Metadata**.
 
-![Additional metadata options found in OJS' workflow settings](./assets/metadata-workflow.png)
+![Additional metadata options found in OJS' workflow settings.](./assets/metadata-workflow.png)
 
 If you ask authors to submit metadata, you will have to pay careful attention and update or correct it as necessary during review, copyediting, and production. Alternatively, you can restrict the fields available during submission and have editors add the metadata during the production process. This option requires more effort by the journal team but can simplify the submission process and reduce metadata errors.
 

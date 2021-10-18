@@ -25,7 +25,7 @@ You can find your site-wide language settings when logged in as the **administra
 3. Enable all languages in which you want to record your metadata, noting your primary locale selection.
 4. If a language isn't installed, click **Install Locale** and select the necessary language from the link. (Make sure that you've enabled the new language after installing the locale)
 
-![Screenshot of the Languages Settings as the administrator in OJS.](./assets/metadata-site-lang-settings.png)
+![The Languages Settings as the administrator in OJS.](./assets/metadata-site-lang-settings.png)
 
 These languages will be available site-wide. If you are hosting multiple journals in your OJS install, you'll only need to set this up once to have these languages available to all journals for that installation. If each of your hosted journals is on its own install or virtual machine, you'll need to enable the required languages for each of them.
 
@@ -38,7 +38,7 @@ To find your journal's language settings:
 3. Click **Setup** on the top navigation bar.
 4. Click **Languages** from the left sidebar.
 
-![Screenshot of the Languages setting at the journal-/title-level.](./assets/metadata-journal-lang-settings.png)
+![The Languages setting at the journal-/title-level.](./assets/metadata-journal-lang-settings.png)
 
 **Primary locale** represents the default language of your journal. It's the language the site will load in for external viewers and also the language in which metadata will, without any user intervention, be recorded.
 

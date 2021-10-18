@@ -18,7 +18,7 @@ This happens frequently when multilingual journals want multilingual metadata to
 
 This is the displayed information for the Journal of New Brunswick Studies (JNBS) at the University of New Brunswick (UNB) Libraries:
 
-![Screenshot of the journal name and description of the Journal of New Brunswick Studies hosted at UNB Libraries. Note that the English and French titles and acronyms have been added to the same field.](./assets/metadata-bilingualjournal.png)
+![The journal name and description of the Journal of New Brunswick Studies hosted at UNB Libraries. English and French titles and acronyms have been added to the same field.](./assets/metadata-bilingualjournal.png)
 
 JNBS is a bilingual journal. There are two discrete titles for the publication identified here, and also both English and French acronyms in their "about" information.
 
@@ -26,11 +26,11 @@ This journal has properly configured both languages for their journal and has cr
 
 Let's take a look at the **same metadata with the UI language set to French**:
 
-![Screenshot of the journal listing in French for JNBS, hosted by UNB Libraries.](./assets/metadata-bilingualjournal.png)
+![The journal listing in French for JNBS, hosted by UNB Libraries.](./assets/metadata-bilingualjournal.png)
 
 Let's take a look at the title-level settings of the journal:
 
-![Screenshot of the "Journal Identity" metadata for JNBS.](./assets/metadata-titleleveljournalsettings.png)
+![The "Journal Identity" metadata for JNBS.](./assets/metadata-titleleveljournalsettings.png)
 
 Although OJS supports both English and French, the application of bilingual titles in JNBS highlights a few common problems. The journal has bilingual metadata, but, because the editors want to make its bilingual identity more explicit, they have put both languages in the English field. This is understandable! New Brunswick is a bilingual province, and the journal wants that identity to be upfront.
 
@@ -67,7 +67,7 @@ Small variations in publication title might not seem like a problem, but inconsi
 
 OJS is both customizable and easily styled, even by journals with limited resources. *The Journal of New Brunswick Studies* can (and does) use a custom header image to represent its bilingual identity.
 
-![Screenshot of the custom header image for JNBS.](./assets/metadata-bilingualtitleinheader.png)
+![The custom header image for JNBS.](./assets/metadata-bilingualtitleinheader.png)
 
 An image can display both French and English titles without abusing the journal's title-metadata field.
 
