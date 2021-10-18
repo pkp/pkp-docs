@@ -6,13 +6,13 @@ title: Common Metadata Errors - Better Practices in Journal Metadata
 
 This chapter highlights some common metadata errors and reasons behind metadata errors.
 
-## Confusing metadata with style or design
+## Confusing Metadata With Style or Design
 
 The vast majority of metadata issues in OJS stem from a single problem: *a misunderstanding of the role of metadata and how OJS displays that metadata*. Often, this has to do with users trying to get the website to look a certain way at the expense of the accuracy of the metadata they've recorded. The user will add text in a certain field because they want it to be displayed in a certain way, without realizing that the text is going to be read as metadata and appear in other sources. Metadata is supposed to be descriptive, not stylistic.
 
 For example, a publisher wants to display the credentials of an author so they put the author’s degree in the Preferred Name field. Then the author’s preferred name is read as “PhD (Agr).”
 
-## Combining multilingual metadata in a single field
+## Combining Multilingual Metadata in a Single Field
 
 This happens frequently when multilingual journals want multilingual metadata to appear on one article page, so they combine multilingual metadata in a single field instead of using the separate fields in OJS. Let's look at a typical example in Canadian publishing that we'll also address in the [Journal Settings](./journal-metadata) section.
 
@@ -63,7 +63,7 @@ These citations are not only different, they also don't accurately reflect the j
 
 Small variations in publication title might not seem like a problem, but inconsistent citations will make it harder to track metrics and citation data for authors and the journal. Search engine indexing may be less consistent. If that metadata is propagated by DOIs or otherwise absorbed into the open infrastructure of academic publishing, it will provide inaccurate information much more broadly.
 
-### Potential Solutions for multilingual metadata
+### Potential Solutions for Multilingual Metadata
 
 OJS is both customizable and easily styled, even by journals with limited resources. *The Journal of New Brunswick Studies* can (and does) use a custom header image to represent its bilingual identity.
 
@@ -75,21 +75,21 @@ Many of the ways in which users abuse metadata to make their website look a cert
 
 PKP maintains two critical documents on customizing the look of OJS. For design-specific solutions, you can view the [Designing Your Journal](/designing-your-journal/en/) guide. For situations where you may want to display hidden metadata or simultaneously display two locales (i.e. languages), you'll need to modify your theme templates. You can learn more about modifying your theme templates with the [PKP Theming Guide](/pkp-theming-guide/en/).
 
-## Inconsistent metadata in different sources
+## Inconsistent Metadata in Different Sources
 
 Indexing services, such as Google Scholar, will often read metadata from multiple sources in the journal and reject content if the metadata in different sources is inconsistent.
 
-### Publication year in the article and issue
+### Publication Year in the Article and Issue
 
 It is recommended that the publication year in an article record and the issue that it is published in are the same. An issue publication date is assigned automatically in OJS when you publish an issue. A year can also be entered manually as part of the issue identification information if you have selected Year as an identification element to include. The article’s publication date is set automatically when the issue is published or you can manually enter a date in the article’s submission record under the Publication tab and Issue metadata. A manual date should only be entered if the article was published previously.
 
-### Article and PDF file
+### Article and PDF File
 
 If you publish your full-text articles as PDF files, the PDF files will usually contain metadata about the article, such as article title, authors, and publication date. The metadata on the PDF file should match the metadata in the article record in OJS exactly, including capitalization and spelling.
 
 If you publish full text articles in other formats, ensure that the metadata is consistent in all of these files.
 
-## Unknown or misfit metadata
+## Unknown or Misfit Metadata
 
 Not all problems with OJS metadata are due to a style-centric approach to the platform. Sometimes OJS does not have options for the metadata you wish to enter. For example, OJS didn't always have a single string field for "Preferred Public Name." Often, users with just a single-word, legal name couldn't submit forms without faking metadata. OJS also requires email addresses for submissions, but many users have discovered that not all authors have (or had) email addresses, requiring journal managers or editors to fake one to get past a submission screen.
 
