@@ -191,11 +191,3 @@ You may add the following Dublin Core metadata items:
 These fields can be disabled, made optional for authors on submission, or required for authors on submission. Most of these are quite granular and are only recommended if there is sufficient time to vet metadata.
 
 It is highly recommended to keep these options as simple as you need for your journal. The more information that unsure users have to populate, the more likely it is they will fill things out with filler or inaccurate information.
-
-## Further Resources
-
-To learn more about metadata and OJS, you can consult the following resources:
-
-* [Google Scholar Indexing guide](/google-scholar/)
-* [DOAJ Application Guide](/doaj/)
-* [Crossref Curriculum - Descriptive Metadata](https://www.crossref.org/education/content-registration/descriptive-metadata/)
