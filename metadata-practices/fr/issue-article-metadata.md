@@ -30,7 +30,7 @@ To find your issue-level settings:
 
 You will see some metadata fields here and, below them, a checkbox next to volume, number, year, and title. These checkboxes determine whether or not the entered metadata will display on the site view. However, it is worth noting that the metadata within these fields will be available via OAI or metadata export regardless of display choice, so your issue metadata must still be accurate.
 
-## Issue Title
+### Issue Title
 
 The intention for the Issue Title field in OJS is as a "special issue title" or as something aside from existing volume, number and year metadata. Easily, the most common metadata problem with issue metadata is a misunderstanding about the purpose of the "issue-title" field. Users sometimes turn off the display for the volume, number, and year fields in order to write out the issue information as a single string. For example, instead of "**Vol. 56 No. 2 (2020)**" (the OJS default rendering), they'll write in something like "**Volume 56, Number II, Spring 2020**". Users do this sort of write-in title for all kinds of reasons, for example:
 
@@ -43,7 +43,7 @@ The one exception to this is season (ex: Spring, Fall), since there is no specif
 
 Additionally, some of these issues could be solved by editing OJS templates, but many of OJS hosting providers (in particular, multi-site OJS instances hosted at universities) are likely to shy away from template edits to solve unique display issues.
 
-## Description
+### Description
 
 Similarly, it's not terribly uncommon for users to put custom content in the "issue description" field. This is less problematic, but generally discouraged.
 
@@ -187,11 +187,3 @@ You may add the following Dublin Core metadata items:
 These fields can be disabled, made optional for authors on submission, or required for authors on submission. Most of these are quite granular and are only recommended if there is sufficient time to vet metadata.
 
 It is highly recommended to keep these options as simple as you need for your journal. The more information that unsure users have to populate, the more likely it is they will fill things out with filler or inaccurate information.
-
-## Autres ressources
-
-To learn more about metadata and OJS, you can consult the following resources:
-
-* [Google Scholar Indexing guide](/google-scholar/)
-* [DOAJ Application Guide](/doaj/)
-* [Crossref Curriculum - Descriptive Metadata](https://www.crossref.org/education/content-registration/descriptive-metadata/)
