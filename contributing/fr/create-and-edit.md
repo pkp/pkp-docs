@@ -131,11 +131,12 @@ Save the README file when it is complete.
 
 Next you can create a separate file for each chapter in the guide and add content to each chapter. Each full chapter of a multi-page document should be a single markdown file.
 
-Every chapter file should have Title front matter (metadata), which can include the document title. For example, if the document is "Designing Your OJS Journal" and the chapter is "Inclusive and Accessible Theming," the Title could be as follows:
+Every chapter file should have Title front matter (metadata), which can include the document title, and Description front matter, which should give a summary of the document and include main keywords that would be searched. For example, if the document is "Designing Your OJS Journal" and the chapter is "Inclusive and Accessible Theming," the Title could be as follows:
 
 ```
 ---
 title: Inclusive and Accessible Themes - Designing Your OJS Journal
+description: How to develop inclusive and accessible themes for OJS, including colour, alt text, URLs, and page structure
 ---
 ```
 
@@ -146,8 +147,6 @@ If the title contains a `:` character, then the title should be put into quotes,
 title: 'Learning OJS 3.3: A Visual Guide to Open Journal Systems'
 ---
 ```
-
-You do not need to add Description front matter as well. However, you may choose to add it if the chapter text has little content or keywords that describe what the chapter is about.
 
 Then add an H1 chapter title and your chapter content below. For any subheadings use descending header tags (H2 to H5). Do not skip a level of header tag, as this affects accessibility.
 
