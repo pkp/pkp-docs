@@ -133,6 +133,10 @@ A solução para ambos problemas é usar o idioma do texto completo que está no
 
 No OJS 3.2, é possível habilitar vários idiomas para o seu periódico e adicionar metadados nesses idiomas em campos separados. Isso evita os problemas de indexação que podem resultar de inconsistências com o idioma dos metadados que não correspondem ao idioma do texto do artigo ou da combinação de vários idiomas no mesmo campo de metadados. Observe que você ainda deve garantir que o [idioma principal da submissão](/learning-ojs/en/authoring#step-1) corresponda ao idioma do texto completo do artigo e que os metadados sejam inseridos no idioma do texto completo do artigo, independentemente da inclusão ou não metadados em outros idiomas.
 
+> If an article is published in multiple languages, Google Scholar will only index the primary language. 
+> 
+> {:.notice}
+
 Consulte o guia Aprendendo sobre o OJS 3.2 em [Configurações do site - Idiomas](/learning-ojs/en/settings-website#languages) para maiores detalhes sobre como habilitar vários idiomas em seu jornal. Consulte Produção e Publicação - [Submissões Multilíngues](/learning-ojs/en/production-publication#multilingual-submissions) para maiores detalhes sobre como adicionar metadados em vários idiomas.
 
 ### Certifique-se de que os nomes dos autores sejam formatados de forma consistente
