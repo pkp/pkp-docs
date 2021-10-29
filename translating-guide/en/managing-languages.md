@@ -93,7 +93,9 @@ If the language is new, you will also have to add an entry for it to the file in
 
 ## Default Translation Plugin
 
-While you're in the process of translating the software, you can avoid having untranslated locale keys displayed on your site (like ##plugins.generic.customLocale.customLocaleFiles##) by using the Default Translation plugin. This plugin will automatically display the English translation if the site is set to another language but a translation of a message key does not exist in that language.
+While you're in the process of translating the software or if you're using an incomplete translation, you can avoid having untranslated locale keys displayed on your site (like ##plugins.generic.customLocale.customLocaleFiles##) by using the Default Translation plugin. This plugin will automatically display the English translation if the site is set to another language but a translation of a message key does not exist in that language. 
+
+Please note this plugin not apply to email template locale files. If a translation of an email template is missing and you try to use a template in that language, a blank email will be sent.
 
 To use the plugin
 1. Go to Website Settings > Plugins > Plugin Gallery
