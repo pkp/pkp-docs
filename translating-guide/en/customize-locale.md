@@ -101,7 +101,7 @@ Now that you have determined which locale file the message key is in, you can ed
 
 Now you can visit the part of your site where the customized text appears and check that the change has been made. 
 
-## Example: Customize the reviewer recommendations
+## Example: Customize Reviewer Recommendations
 
 A commonly requested customization that can be done with the Custom Locale plugin is customizing the reviewer recommendation options. The default options are Accept, Revisions Required, Resubmit for Review, Resubmit Elsewhere, Decline, and See Comments. With the Custom Locale plugin you can change these options but you cannot add or remove an option. This section will explain how to customize the options. Make sure the Custom Locale plugin is installed and enabled before you begin these steps.
 
@@ -118,8 +118,8 @@ You will now see the review recommendation options, each as a separate key.
 
 ![Reviewer recommendation locale keys with custom text.](./assets/translating-guide-custom-reviewer-recommendations.png)
 
-5. Once you have added custom text for the options you want to customize, click **Save and Continue.**
-6. Click **Cancel** to close the editing box.
+4. Once you have added custom text for the options you want to customize, click **Save and Continue.**
+5. Click **Cancel** to close the editing box.
 
 Now you can log in as a reviewer and check the review submission form to see the new options.
 
