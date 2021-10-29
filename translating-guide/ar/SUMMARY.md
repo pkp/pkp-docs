@@ -16,6 +16,7 @@
   * [منتدى مشروع المعرفة العامة](customize-locale.md#how-the-custom-locale-plugin-works)
   * [للمطورين: كيفية الترجمة](customize-locale.md#find-the-locale-file-to-edit)
   * [Edit the Message Key](customize-locale.md#edit-the-message-key)
+  * [Example: Customize Reviewer Recommendations](customize-locale.md#example-customize-reviewer-recommendations)
 * [Translate PKP Documentation](translate-documentation.md)
   * [PKP Documentation](./translate-documentation.md#pkp-documentation)
   * [Documentation Translation Workflow](./translate-documentation.md#documentation-translation-workflow)
