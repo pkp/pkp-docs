@@ -1,3 +1,7 @@
+- - -
+title: Other options beyond OJS - Instructor Guide for Course Journals
+- - -
+
 # Other options beyond OJS
 
 [OJS](https://pkp.sfu.ca/ojs/) is a longstanding and reliable solution. It also has the benefits of scholarly discovery that are part of OJS 3 with XML harvesting and Google Scholar metatags, etc. However, there are many other open source publishing options and it is worth examining the pros and cons before you commit to one platform. Below we list a few other options to consider.
