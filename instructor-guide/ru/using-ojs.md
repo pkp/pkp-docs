@@ -1,3 +1,7 @@
+- - -
+title: How can you use OJS? - Instructor Guide for Course Journals
+- - -
+
 # How can you use OJS?
 
 A typical use case for course journals is to create smaller assignments relating to  participation in the setup and decision-making for the journal, and one major assignment published in the journal. We recommend these projects for upper-year undergraduate or graduate courses where students have experience producing quality written or multimedia assignments. It is beneficial to have an experienced instructor or technical assistant on hand to help students troubleshoot.
