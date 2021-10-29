@@ -443,7 +443,7 @@ To [create accessible tables in Microsoft Word](https://kb.iu.edu/d/aqjl):
 
 ## Document metadata
 
-Adding metadata to your document increases its searchability. It also allows software applications and adaptive technologies to give the users the key information about the document, so they can easily find the desired document and determine if it is what they need.
+Adding metadata to your document increases its searchability. It also allows software applications and adaptive technologies to give the users the key information about the document, so they can easily find the desired document and determine if it is what they need. To learn more, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
 
 ### Filename
 
