@@ -24,7 +24,7 @@ Begin by [registering for an account](https://translate.pkp.sfu.ca).
 
 Once you have registered and logged in, go to “Browse All Projects.” You will see a list of projects at the Weblate site:
 
-![](./assets/translating-guide-weblate-projects.png)
+![A list of projects on the Weblate site.](./assets/translating-guide-weblate-projects.png)
 
 ## How Content is Organized in Weblate
 
@@ -37,19 +37,19 @@ The most important projects are:
 
 There will be other projects, for example for commonly-used plugins.
 
+![A list of projects, which includes Custom Header Plugin, Open Journal Systems, Open Monograph Press, and PKP Web Application Library.](./assets/translating-guide-weblate-components.png)
+
 If you are translating Open Journal Systems, then you will **need** to work with both “Open Journal Systems” and “PKP Web Application Library” projects.
 
 Inside each **Project**, you may see many **Components**. Each file corresponds to a single .po file, which contains a set of translations of some aspect of the system. For example, for the “Open Journal Systems” project:
 
-![](./assets/translating-guide-weblate-components.png)
+![A list of components in the project Open Journal Systems.](./assets/translating-guide-weblate-update-translation.png)
 
 The component name gives you some information about the context where those strings will be used. For example, “admin” relates to the site administration interface; “blocks-information” relates to the information block plugin. (You can get more context by looking at the strings in the component.)
 
 For a complete translation of the “Open Journal Systems” project, **all** of the components must be completely translated. However, it’ll be possible to use the system without a 100% complete translation — certain parts will simply not be fully translated. (In place of the missing translations, you will see codes like `##author.submit.nextSteps##` where the translated text would appear.)
 
 Inside each **component**, you will see numerous **strings**. These are the actual pieces of the application that will need to be translated:
-
-![](./assets/translating-guide-weblate-strings.png)
 
 ## Update an Existing Translation
 
@@ -59,13 +59,13 @@ For each project, click the project’s name to get a list of components. **All 
 
 Click on a component’s title to get started. You should see a list of languages along with an indication of the translation’s completeness:
 
-![](./assets/translating-guide-weblate-update-translation.png)
+![The Open Journal systems Author file, which shows different languages it has been translated into and their completeness.](./assets/translating-guide-weblate-strings.png)
 
 To begin working, click the Translate button next to your language. (If your language is not listed, see the next section **Begin a new translation**.)
 
 Weblate will automatically step you through each of the each string that needs to be checked, corrected, or translated:
 
-![](./assets/translating-guide-weblate-translate-string.png)
+![The strings in a file, showing the source text and translated text.](./assets/translating-guide-weblate-translate-string.png)
 
 When you have finished translating the remaining strings for this component, continue to the next.
 
