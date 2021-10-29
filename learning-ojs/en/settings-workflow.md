@@ -9,6 +9,8 @@ The Workflow Settings allow you to configure various parts of the journal's edit
 
 ## Submission
 
+[![Video demonstrating Submissions](https://img.youtube.com/vi/_I2-IpEWu9E/0.jpg)](https://youtu.be/_I2-IpEWu9E)
+
 Use this section to configure the submission process.
 
 ### Disable Submissions
@@ -26,6 +28,8 @@ Once the setting is enabled, a notification is displayed indicating that submiss
 This section determines what types of metadata will be collected during the submission process, such as keywords and references.
 
 ### Components
+
+[![Video demonstrating Components](https://img.youtube.com/vi/UkmvhHjP5V0/0.jpg)](https://youtu.be/UkmvhHjP5V0)
 
 Components are the file types authors may upload to the site. Typically, one file will be the article text, and others can include interview transcripts, data, images, etc. The components available for the author to choose from when making their submission are listed here.
 
@@ -61,6 +65,8 @@ Use this field to add information for your authors that will be useful during th
 - Copyright Notice: This is the author copyright agreement between the author and the journal, and the author agrees to these terms at the time of submission.
 
 ## Review
+
+[![Video demonstrating the Review process](https://img.youtube.com/vi/1adbIbQM6E/0.jpg)](https://youtu.be/1adbIbQM6E0)
 
 This tab allows you to configure your journal's review process.
 
@@ -139,6 +145,8 @@ Once you send the form to a reviewer you will no longer be able to edit it becau
 
 ## Publisher Library
 
+[![Video demonstrating the Publisher Library](https://img.youtube.com/vi/QhOJjxW0_Rw/0.jpg)](https://youtu.be/QhOJjxW0_Rw)
+
 The Journal Manager and Editors may upload documents that they would like to share with the other users in the Publisher Library. Any document added in this area will be visible within a user’s Document Library in their manuscript’s Submission Library.
 
 You can also upload a file here that you would like to be publicly accessible via a URL, which you can link to from other parts of your site, including the author guidelines, submission checklist, or a static page.
@@ -158,6 +166,8 @@ To add a file here, click ‘Add a file’ on the top right corner of the Publis
 **Public Access**: Enabling this will allow users to download this file using the hyperlink provided if it is hyperlinked in other parts of your journal site.
 
 ## Emails
+
+[![Video demonstrating Emails](https://img.youtube.com/ZK-Nb7wfHew/0.jpg)](https://youtu.be/ZK-Nb7wfHew)
 
 ### Email Setup
 
