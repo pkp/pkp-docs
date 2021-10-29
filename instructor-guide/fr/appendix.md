@@ -1,3 +1,7 @@
+- - -
+title: 'Appendix: Disabling new submissions in OJS - Instructor Guide for Course Journals'
+- - -
+
 # Appendix: Disabling new submissions in OJS
 
 Pour désactiver les nouvelles soumissions dans le journal, vous devez être dans le rôle de directeur de journaul. Il y a deux façons de faire :
