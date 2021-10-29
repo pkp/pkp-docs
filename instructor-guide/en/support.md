@@ -1,3 +1,7 @@
+---
+title: Support for your course journal - Instructor Guide for Course Journals
+---
+
 # Support for your course journal
 
 Support for your journal may be available from various institutional partners, such as the library, research office, or the teaching and learning centre.
