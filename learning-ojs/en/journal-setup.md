@@ -21,6 +21,8 @@ Use the tabs to navigate to the different sections of Journal Settings: Masthead
 
 ## Masthead
 
+[![Video demonstrating Masthead setup](https://img.youtube.com/vi/DMi6izQ7Pyw/0.jpg)](https://youtu.be/DMi6izQ7Pyw)
+
 **Journal title** is the name of your journal. E.g., Journal of Software Documentation
 
 **Journal initials** are the initials of the journal. E.g., JSD.
@@ -49,6 +51,8 @@ Hit the **Save** button to save your changes.
 
 ## Contact
 
+[![Video demonstrating Contacts](https://img.youtube.com/vi/HTDZRG7XEqw/0.jpg)](https://youtu.be/HTDZRG7XEqw)
+
 Use this section to add journal contacts.
 
 ![OJS dashboard view of Journal Settings submenu Contact where information can be added in text fields.](./assets/learning-ojs3.2-jm-settings-journal-contact.png)
@@ -60,6 +64,8 @@ Use this section to add journal contacts.
 Hit the **Save** button to save your changes.
 
 ## Sections
+
+[![Video demonstrating Sections](https://img.youtube.com/vi/IMotkKrDZyc/0.jpg)](https://youtu.be/IMotkKrDZyc)
 
 Use this page to configure the different sections of your journal. E.g., Articles, Editorials, Reviews, Commentary, etc. OJS requires at least one section, and creates an "Articles" section by default. You can create new sections, edit existing sections, or delete sections. The sections will appear for an author to select when they make a submission and they will be used to organize the articles in your published issues. You can also assign editors to specific sections. This part of the guide explains how you can configure sections.
 
@@ -132,6 +138,8 @@ Hit the **Done** button when you are finished.
 You can only delete a section if there are no articles assigned to it. If you want to delete a section that has articles assigned to it, you will need to move the articles to a different section first. Then click the blue arrow below the section name to reveal the **Delete** link, then click the link. OJS will ask if you want to permanently delete the section and you can click **Yes**.
 
 ## Categories
+
+[![Video demonstrating Categories](https://img.youtube.com/vi/Y97U1icfEPw/0.jpg)](https://youtu.be/Y97U1icfEPw)
 
 In OJS 3 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production-publication). This section explains how to create and edit categories.
 
