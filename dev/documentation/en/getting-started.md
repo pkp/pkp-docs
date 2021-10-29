@@ -39,14 +39,14 @@ Open the `config.inc.php` file, find the database settings, and update them to m
 Install dependencies with [composer](https://getcomposer.org/).
 
 ```
-composer --working-dir=lib/pkp update
-composer --working-dir=plugins/paymethod/paypal update
+composer --working-dir=lib/pkp install
+composer --working-dir=plugins/paymethod/paypal install
 ```
 
 Run the following command if you are installing OJS.
 
 ```
-composer --working-dir=plugins/generic/citationStyleLanguage update
+composer --working-dir=plugins/generic/citationStyleLanguage install
 ```
 
 Install dependencies with [NPM](https://www.npmjs.com/).
