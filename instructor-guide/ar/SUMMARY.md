@@ -1,6 +1,6 @@
 # الملخص
 
-* [مقدمة](./introduction.md)
+* [مقدمة](.)
 * [How can you use OJS?](./using-ojs.md)
 * [Scoping your project](./scoping.md)
 * [Support for your course journal](./support.md)
