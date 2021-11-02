@@ -90,7 +90,7 @@ A new editorial action allows Editors to reverse a declined decision in the subm
 
 #### Delete only declined submissions
 
-Only declined submissions can be deleted from the submissions list. You can find further instructions in the [Editorial Workflow chapter](./editorial-workflow#archived).
+Only declined submissions can be deleted from the submissions list. You can find further instructions in the [Editorial Workflow chapter](./editorial-workflow#archives).
 
 #### Review type terminology
 
