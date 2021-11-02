@@ -13,6 +13,10 @@ The Tools section can be accessed from the left sidebar menu.
 
 Tools consist of an Import/Export tab, a Report Generator tab (called Statistics in OJS 3.1.1 and earlier), and a Permissions tab.
 
+For a video walkthrough of tools in OJS 3.3, see our [Setting up a journal in OJS 3.3. Module 14: Tools](https://www.youtube.com/watch?v=v3zjjVFYAyc&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY) video below.
+
+[![Setting up a journal in OJS 3.3. Module 14: Tools](https://img.youtube.com/vi/v3zjjVFYAyc/0.jpg)](https://www.youtube.com/watch?v=v3zjjVFYAyc&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
+
 ## Import/Export
 
 Import/Export allows you to easily get data out of your OJS journal and get data into it.
