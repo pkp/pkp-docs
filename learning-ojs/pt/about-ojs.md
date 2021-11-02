@@ -90,7 +90,7 @@ Uma nova ação editorial permite aos editores reverterem uma decisão declinada
 
 #### Excluir apenas submissão rejeitadas
 
-Somente submissões rejeitadas podem ser excluídas da lista de submissões. Para mais instruções, acesse o [Capítulo do Fluxo Editorial](./editorial-workflow#submission-dashboard).
+Somente submissões rejeitadas podem ser excluídas da lista de submissões. You can find further instructions in the [Editorial Workflow chapter](./editorial-workflow#archives).
 
 #### Terminologia do tipo de avaliação
 
