@@ -13,6 +13,10 @@ The Tools section can be accessed from the left sidebar menu.
 
 Tools consist of an Import/Export tab, a Report Generator tab (called Statistics in OJS 3.1.1 and earlier), and a Permissions tab.
 
+For a video walkthrough of tools in OJS 3.3, see our [Setting up a journal in OJS 3.3. Module 14: Tools](https://www.youtube.com/watch?v=v3zjjVFYAyc&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY) video below.
+
+[![Setting up a journal in OJS 3.3. Module 14: Tools](https://img.youtube.com/vi/v3zjjVFYAyc/0.jpg)](https://www.youtube.com/watch?v=v3zjjVFYAyc&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
+
 ## Import/Export
 
 Import/Export allows you to easily get data out of your OJS journal and get data into it.
@@ -29,7 +33,7 @@ For more information on the Crossref XML Export Plugin, see the [PKP Crossref Gu
 
 ### Quick Submit Plugin
 
-The Quick Submit Plugin allows you to quickly add complete submissions to an issue. It provides a one-step submission process for editors needing to bypass the traditional submission, review, and editing process.
+O plugin de submissão rápida permite incluir rapidamente uma submissão a uma edição. Ele oferece um processo em uma etapa para editores precisando ignorar os processos tradicionais de submissão, avaliação e edição.
 
 The Quick Submit Plugin can be used in the following cases:
 
