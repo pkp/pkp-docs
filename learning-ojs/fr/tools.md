@@ -13,6 +13,10 @@ La section Outils est accessible à partir du menu de la barre latérale gauche.
 
 Les Outils consistent d'un onglet Import/Export, d'un onglet Générateur de Rapports (appelé Statistiques dans OJS 3.1.1 et versions antérieures) et d'un onglet Autorisations.
 
+For a video walkthrough of tools in OJS 3.3, see our [Setting up a journal in OJS 3.3. Module 14: Tools](https://www.youtube.com/watch?v=v3zjjVFYAyc&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY) video below.
+
+[![Setting up a journal in OJS 3.3. Module 14: Tools](https://img.youtube.com/vi/v3zjjVFYAyc/0.jpg)](https://www.youtube.com/watch?v=v3zjjVFYAyc&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
+
 ## Importer/Exporter
 
 Importer/Exporter vous permet d'extraire facilement des données de votre journal OJS et d'y insérer des données.
@@ -29,7 +33,7 @@ Pour des instructions détaillées sur l'importation et l'exportation voir le [G
 
 ### Plugiciel Quick Submit
 
-Le Plugiciel Quick Submit vous permet d'ajouter rapidement des soumissions complètes à un numéro. Il fournit un processus de soumission en une étape pour les éditeurs qui doivent contourner le processus traditionnel de soumission, d'évaluation et d'édition.
+Le plugiciel Quick Submit vous permet d'ajouter rapidement des soumissions complètes à une publication. Cela fournit un processus de soumission en une seule étape pour les éditeurs qui doivent contourner le processus traditionnel de soumission, de révision et d'édition.
 
 Pour utiliser ce plugiciel, vous aurez besoin des éléments suivants:
 
