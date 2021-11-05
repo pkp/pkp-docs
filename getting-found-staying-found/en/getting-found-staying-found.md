@@ -94,7 +94,7 @@ If your journal is associated with an institution, library, or publisher, your j
 
 If your journal is using OJS, you should consider enabling the PKP Preservation Network (PKP PN) plugin. This will fulfill the archiving component from DOAJ once the Keeper's Registry (explained below) shows that archiving in the PKP PN is active and ongoing. 
 
-National regulation may require you to deposit published content into a central library. If you’re publishing in the UK, for example, you need to ensure a copy of your publication is sent to the British Library and other legal deposit libraries. An arrangement between the British Library and Portico](https://www.portico.org/our-work/services/) may help . 
+National regulation may require you to deposit published content into a central library. If you’re publishing in the UK, for example, you need to ensure a copy of your publication is sent to the British Library and other legal deposit libraries. An arrangement between the British Library and [Portico](https://www.portico.org/our-work/services/) may help . 
 
 If any of the above applies to your journal, consider reaching out to a digital preservation specialist, librarian, or publisher contact. You may also be eligible for multiple archiving options, and you should absolutely consider joining more than one. Good practice recommends that content is preserved in three separate services to be considered safe.
 
@@ -102,17 +102,17 @@ Below are some service providers that may be helpful to you.
 
 #### Public Knowledge Project Preservation Network (PKP PN)
 
-The [Public Knowledge Project Preservation Network (PKP PN)](https://pkp.sfu.ca/pkp-pn/#joining) offers a free-of-charge, low-barrier preservation through the global [LOCKSS Network](https://www.lockss.org/) for OJS journals. 
+The [Public Knowledge Project Preservation Network (PKP PN)](https://pkp.sfu.ca/pkp-pn/#joining) offers a free-of-charge, low-barrier preservation through the global LOCKSS Network for OJS journals. 
 
 The PKP PN deposits content using the LOCKSS Program, which offers decentralized and distributed preservation. This is a free preservation option for journals using OJS 3.1.2 and newer, which are not part of any other digital preservation service (such as CLOCKSS or Portico).
 
 The PKP PN functions as a “dark” archive, meaning that end-users will not have access to the preserved content until after a “trigger event”, such as cessation of publication. After a trigger event, PKP staff will import the preserved content into one or more OJS instances hosted by PKP member institutions. Once loaded into these host OJS instances, the content will be publicly accessible.
 
-Using the PKP PN only requires installing the PKP PN plugin in your OJS journal and agreeing to the terms of service. For information about the PKP PN, visit the (PKP Preservation Network Documenation)[https://docs.pkp.sfu.ca/pkp-pn/).
+Using the PKP PN only requires installing the PKP PN plugin in your OJS journal and agreeing to the terms of service. For information about the PKP PN, visit the [PKP Preservation Network Documentation](https://docs.pkp.sfu.ca/pkp-pn/).
 
 #### CLOCKSS 
 
-[CLOCKSS]((https://clockss.org/) is a community governed and supported digital preservation archive for scholarly content. It contains more than 46 million journal articles, 260,000 books, plus an array of newer content types and essential metadata such as DOIs.
+[CLOCKSS](https://clockss.org/) is a community governed and supported digital preservation archive for scholarly content. It contains more than 46 million journal articles, 260,000 books, plus an array of newer content types and essential metadata such as DOIs.
 
 Its preservation approach is designed to be resilient to threats from potential technological, economic, environmental, and political failures and provides a safe environment for the scholarly record. This network is built with proven LOCKSS open source technology and is a dark archive, meaning that content is not accessible to users unless it would otherwise disappear from the web. In this case it is made available open access under a Creative Commons License to ensure it remains available and openly accessible to
 everyone. Mirror preservation nodes at 12 major academic institutions around the world guarantee long-term preservation and access. 
