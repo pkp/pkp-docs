@@ -11,8 +11,9 @@ OMP 3 is a PHP web application with standardized install and upgrade processes. 
 Up-to-date OMP system requirements, as well as installation, upgrade, and configuration instructions, can be found in the following locations:
 
 * In the package you downloaded from the [OMP download page](https://pkp.sfu.ca/omp/omp_download/). (Look in the docs/ directory);
-* Directly in the online [README file](https://pkp.sfu.ca/omp/README) or [UPGRADE](https://pkp.sfu.ca/omp/UPGRADE) documents; and
-* In the [PKP Administrator’s Guide](/admin-guide/)
+* Directly in the online [README file](https://pkp.sfu.ca/omp/README) or [UPGRADE](https://pkp.sfu.ca/omp/UPGRADE) documents;
+* In the [PKP Administrator’s Guide](/admin-guide/); and
+* In the technical [How to Upgrade Guide](/dev/upgrade-guide/).
 
 For those who want to install from source via Git, instructions can be found directly on [GitHub](https://github.com/pkp/omp).
 
