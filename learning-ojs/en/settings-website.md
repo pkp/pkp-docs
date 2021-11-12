@@ -12,6 +12,10 @@ The Website Settings allow you to configure how your journal's website looks and
 
 ## Appearance
 
+{% include video id="4i5uRgzFHfg" provider="youtube" %}
+
+This PKP School video explains how to configure the appearance of your journal. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 ### Theme
 
 The theme determines the overall design or layout of your site. Several different theme options are available and you can try them out without affecting your site's content or configuration.
@@ -77,6 +81,10 @@ Hit **Save** to record your changes.
 
 ### Information
 
+{% include video id="48qU18uqqkg" provider="youtube" %}
+
+This PKP School video explains how to configure the information blocks. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 Use these fields to modify the text in the For Readers, For Authors, For Librarians pages on the journal website.
 
 ![OJS dashboard view of Information menu with boiler plate text in the fields for readers and for authors.](./assets/learning-ojs3.1-jm-settings-web-info.png)
@@ -86,6 +94,10 @@ Remember to hit **Save** to record any changes.
 To remove these fields and their contents from displaying publicly on the website's user interface, deselect the Information Block in Website Settings > Appearance > Sidebar Management.
 
 ### Languages
+
+{% include video id="VU5kAPOqNPc" provider="youtube" %}
+
+This PKP School video explains how to configure the language settings for your journal. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages and authors can make submissions in one or more languages on a single site or journal. When you install OJS, you can select one or more languages for your site.
 
@@ -106,6 +118,10 @@ Additional languages can be installed on your site by an Administrator – see [
 If enabling multiple languages to appear in the UI, make sure that in Website Settings > Appearance > Sidebar Management the Language Toggle Block is selected to make that feature available to users.
 
 ### Navigation
+
+{% include video id="OJL-XEgzhYU" provider="youtube" %}
+
+This PKP School video explains how to configure your navigation menus. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 This section allows you to configure your navigation menus, such as including new links.
 
@@ -129,6 +145,10 @@ Hit Save to record the change.
 
 ### Announcements
 
+{% include video id="OmiDQGX4SGs" provider="youtube" %}
+
+This PKP School video explains how to create and display news announcements. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 This section allows you to create and display news announcements on the journal's website.
 
 ![OJS dashboard view of Announcements menu with an option to enable and display announcements.](./assets/learning-ojs3.1-jm-settings-web-announce.png)
@@ -140,6 +160,10 @@ This section allows you to create and display news announcements on the journal'
 Once the Announcements setting is enabled, click "Save." An "Announcements" menu item now appears in the main navigation on the left hand side. Click on this menu item and select "Add Announcement." Here you can include the title of the announcement, a short description and / or full text of the announcement, and an (optional) expiry date. If you wish to send an email notification to all users (who have not opted out of email notifications), select "Send notification email to all registered users." The announcement should now appear on an "Announcements" tab on the public-facing journal site.
 
 ![OJS 3.3 Announcements menu enabled in the sidebar with an option to add and edit announcements.](./assets/learning-ojs3.3-settings-website-announcements.png)
+
+{% include video id="3vAR6lu-4DE" provider="youtube" %}
+
+This PKP School video explains how to configure lists, set up your privacy statement, and choose the date and time format. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 ### Lists
 
@@ -156,6 +180,10 @@ This option allows for the configuration of different format for dates and times
 ![OJS 3.3 Date and Time menu with an option to select long and short date formats.](./assets/learning-ojs3.3-date-and-time-setup.png)
 
 ## Plugins
+
+{% include video id="PMAsXY_tLMU" provider="youtube" %}
+
+This PKP School video explains how to work with plugins. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 Use this page to see all of the installed plugins and find new plugins.
 
