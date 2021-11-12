@@ -88,7 +88,7 @@ The Plugins tab under Website Settings lists pre-installed plugins under Install
 
 **AddThis**: This plugin allows adding social media sharing buttons to the preprint landing page. For a better usage, it is recommended to register an account at AddThis.
 
-**Browse Plugin**: This plugin adds the ability to browse by Categories and sub-categories through the Servers homepage. To configure this plugin, please refer to [Plugin Section of OPS]().
+**Browse Plugin**: This plugin adds the ability to browse by Categories and sub-categories through the Servers homepage.
 
 ![An instance of OPS with the Browse plugin enabled.](./assets/learning-ops-website-settings-browse-plugin.png)
 
