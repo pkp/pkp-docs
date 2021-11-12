@@ -9,6 +9,9 @@ description: A guide on how to submit a manuscript to an OJS journal as an autho
 
 In this chapter, you will learn about how an author works in OJS from registration through to proofreading the final galley.
 
+{% include video id="AJwDWdAu8BQ" provider="youtube" %}
+Write this text below the video link: This PKP School video explains how to register for a journal and submit an article. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 ## Registering with the Journal
 
 To make a submission to an OJS journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
@@ -143,6 +146,7 @@ If you notice that the ‘Save’ button is grey and inactive, this means you wi
 <hr />
 
 ## Responding to a Review
+
 
 Once the review process has completed, you will be notified via email by the editor of their decision.
 
