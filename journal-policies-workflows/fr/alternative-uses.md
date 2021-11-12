@@ -11,7 +11,7 @@ OJS peut être utilisé pour l'ensemble du processus de gestion des revues, des 
 Votre journal peut choisir d'utiliser OJS pour gérer le flux des travaux des soumissions et coordonner les communications entre les rédacteurs et les auteurs au fur et à mesure que le travail passe par la soumission, l'évaluation par pairs, la révision et d'autres aspects du flux de travail éditorial et de publication. Si vous utilisez uniquement OJS pour gérer votre flux de travail des soumissions et pas pour publier votre contenu, vous pouvez faire ce qui suit :
 
 1. Dans le paramètre **Paramètres** > **Distribution** > **Accès** sélectionnez « OJS ne sera pas utilisé pour publier en ligne le contenu du journal».
-2. Dans les **Paramètres** > **Distribution** > **Accès** désactivez OAI (Open Archives Initiative) pour empêcher les services d'indexation de récolter les métadonnées du journal. 
+2. Dans les **Paramètres** > **Distribution** > **Accès** désactivez OAI (Open Archives Initiative) pour empêcher les services d'indexation de récolter les métadonnées du journal.
 
 Voir [Apprendre OJS > Paramètres de distribution > Accès](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#access) pour plus d'informations et instructions pour modifier ces paramètres.
 
