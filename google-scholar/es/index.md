@@ -71,7 +71,7 @@ If you notice that Google Scholar has not indexed or ceased indexing your journa
 
 - Authors listed in a different order in metatags than the author order in the gallery
 
-Follow the steps below to check for consistency in your journal's metadata. If the metadata seems to be correct but your journal's articles do not appear in Google Scholar search results, it may take some time before the changes show up in the Google Scholar site, as once Google Scholar has indexed an article, any changes will not be reflected until Google Scholar makes changes to its' index (which occurs twice yearly). Should the changes still not appear, contact your site administrator for further support for further troubleshooting (see the 'Troubleshooting Google Scholar indexing problems" for site administrators' section, below).
+Follow the steps below to check for consistency in your journal's metadata. If the metadata seems to be correct but your journal's articles do not appear in Google Scholar search results, it may take some time before the changes show up in the Google Scholar site, as once Google Scholar has indexed an article, any changes will not be reflected until Google Scholar makes changes to its' index (which occurs twice yearly). Should the changes still not appear, contact your site administrator for further support for further troubleshooting (see the ['Troubleshooting for Site Administrators' section](#troubleshooting-for-site-administrators)). To learn more about metadata practices, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
 
 ### Check for consistency in the publication date
 
@@ -153,7 +153,7 @@ To troubleshoot and fix these errors, you will want to compare the names in the 
 
 If you notice that Google Scholar has not indexed or ceased indexing your journal, there are a few potential causes. Google Scholar will stop indexing a journal if:
 
-- There are high numbers of metadata errors (see the Google Scholar indexing for Journal Managers section of this guide for details)
+- There are high numbers of metadata errors (see the [Troubleshooting for Journal Managers and Editors section](#troubleshooting-for-journal-managers-and-editors) for details)
 - The metatags are missing entirely (a known bug for upgrades to some versions of OJS)
 - The HTTPS certificate is invalid or expired
 - There are frequent site downtimes
