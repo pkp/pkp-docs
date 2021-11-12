@@ -9,11 +9,12 @@ description: A basic resource for finding more information on installing or upgr
 
 OJS 3 est une application Web PHP avec des processus d'installation et de mise à niveau standardisés. Ces processus sont aussi simples que possible, même si une certaine expérience générale en administration de systèmes est recommandée.
 
-Une configuration système OJS à jour requise, ainsi que les instructions d'installation, de mise à niveau et de configuration sont disponibles aux emplacements suivants:
+Up-to-date OJS system requirements, as well as installation, upgrade, and configuration instructions can be found in the following locations:
 
 * dans le paquet que vous avez téléchargé depuis [la page de téléchargement OJS](https://pkp.sfu.ca/ojs/ojs_download/) (regardez dans le répertoire `docs/` );
+* in the technical [How to Upgrade Guide](/dev/upgrade-guide/);
 * directement dans les documents en ligne [README](https://pkp.sfu.ca/ojs/README) ou [UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE) ;
-* dans le [Guide de l'Administrateur](/admin-guide) PKP.
+* in the PKP [Administrator's Guide](/admin-guide/).
 
 Pour ceux qui souhaitent installer à partir des sources via Git, les instructions peuvent être trouvées directement sur [GitHub](https://github.com/pkp/ojs) .
 
