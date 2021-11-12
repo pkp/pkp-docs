@@ -71,7 +71,7 @@ Se você perceber que o Google Acadêmico não indexou ou parou de indexar seu p
 
 - Autores listados em ordem diferente nas metatags e na publicação
 
-Siga as etapas abaixo para verificar a consistência nos metadados de seu periódico. Se os metadados parecerem estar corretos, mas os artigos do seu periódico não estiverem sendo exibidos nos resultados da busca do Google Acadêmico, pode ser que leve algum tempo para que as alterações apareçam no site do Google Acadêmico, já que uma vez que o Google Acadêmico tenha indexado um artigo, nenhuma alteração será refletida em seu site até que o Google Acadêmico faça alterações em seu índice (o que ocorre duas vezes por ano). Se ainda assim as alterações não aparecerem, entre em contato com o administrador do site para obter apoio suplementar para solução de problemas (consulte abaixo a seção 'Solucionando problemas de indexação do Google Acadêmico" para administradores de site).
+Siga as etapas abaixo para verificar a consistência nos metadados de seu periódico. Se os metadados parecerem estar corretos, mas os artigos do seu periódico não estiverem sendo exibidos nos resultados da busca do Google Acadêmico, pode ser que leve algum tempo para que as alterações apareçam no site do Google Acadêmico, já que uma vez que o Google Acadêmico tenha indexado um artigo, nenhuma alteração será refletida em seu site até que o Google Acadêmico faça alterações em seu índice (o que ocorre duas vezes por ano). Should the changes still not appear, contact your site administrator for further support for further troubleshooting (see the ['Troubleshooting for Site Administrators' section](#troubleshooting-for-site-administrators)). To learn more about metadata practices, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
 
 ### Verifique a consistência na data de publicação
 
@@ -153,7 +153,7 @@ Para solucionar e corrigir esses erros, você deve comparar os nomes nas metatag
 
 Caso você note que o Google Acadêmico não indexou ou parou de indexar seu periódico, saiba que há algumas causas potenciais para que isto ocorra. O Google Acadêmico deixará de indexar um periódico se:
 
-- Há um grande número de erros de metadados (consulte a seção Indexação do Google Acadêmico para Gestores de Periódicos deste guia para obter detalhes)
+- There are high numbers of metadata errors (see the [Troubleshooting for Journal Managers and Editors section](#troubleshooting-for-journal-managers-and-editors) for details)
 - As metatags estão totalmente ausentes (um bug conhecido para atualizações de algumas versões do OJS)
 - O certificado HTTPS é inválido ou expirou
 - Há frequentes períodos de inatividade do site
