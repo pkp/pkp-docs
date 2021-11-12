@@ -388,7 +388,7 @@ La prochaine étape de la publication de la soumission consiste à vérifier et 
 
 ## Finaliser les Métadonnées
 
-Avant de publier la soumission, vous devez vérifier que les métadonnées de l'article sont complètes et exactes dans OJS et correspondent aux métadonnées du PDF. Ceci est important pour garantir que le contenu est indexé par Google Scholar, détectable par d'autres services et accessible aux lecteurs.
+Avant de publier la soumission, vous devez vérifier que les métadonnées de l'article sont complètes et exactes dans OJS et correspondent aux métadonnées du PDF. Ceci est important pour garantir que le contenu est indexé par Google Scholar, détectable par d'autres services et accessible aux lecteurs. To learn more, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
 
 Vous pouvez vérifier les métadonnées de la soumission en accédant à **Soumissions** , en ouvrant la soumission, en accédant à l'onglet **Publication** et en vérifiant les onglets **Titre** , **Contributeurs** et **Métadonnées** .
 
