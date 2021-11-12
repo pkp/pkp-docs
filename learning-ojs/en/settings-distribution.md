@@ -12,6 +12,10 @@ Please note that if your journal is multilingual and you have Forms enabled for 
 
 ## License
 
+{% include video id="qfzvbN4a-bM" provider="youtube" %}
+
+This PKP School video explains how to configure the license settings. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
 In this section you can configure copyright and licensing terms for your journal's content.
 
 ![Distribution settings license tab showing copyright holder, license and copyright year options.](./assets/learning-ojs3.2-jm-settings-dist-permissions.png)
