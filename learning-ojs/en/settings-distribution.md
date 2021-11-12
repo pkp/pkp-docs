@@ -36,6 +36,10 @@ This default can be overridden on a case-by-case basis.
 
 ## Search Indexing
 
+{% include video id="qf_5sTlDXM0" provider="youtube" %}
+
+This PKP School video explains how to configure the index settings. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
 This section helps you enhance your search engine optimization and make your content more discoverable.
 
 ![Distribution settings search indexing tab showing description and custom tags options.](./assets/learning-ojs3.2-jm-settings-dist-index.png)
@@ -53,6 +57,10 @@ Use **Custom Tags** to add custom HTML header tags to the header of every page o
 ```
 
 ## Payments
+
+{% include video id="9r0mRqtNVuU" provider="youtube" %}
+
+This PKP School video explains how to configure the payment settings. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 OJS provides the ability to collect online payments and manage subscriptions and author fee payments.
 
@@ -96,6 +104,10 @@ In OJS 3.x there is not an option to set up a payment type for donations, to man
 
 ## Access
 
+{% include video id="RlKVwF3h_PM" provider="youtube" %}
+
+This PKP School video explains how to configure the access settings. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
 Under the Access tab you can configure whether you want your journal contents to be open access, available by subscription, or a combination. By default, the open access option is selected. However, if you wish to use OJS for a subscription journal, choose the second option (see above section on Payments for further information). Selecting the second option will allow you to further delay open access by different periods of time.
 
 ![Distribution settings access tab showing publishing mode and delayed open access options.](./assets/learning-ojs3.2-jm-settings-dist-access-delayed.png)
@@ -117,6 +129,10 @@ Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbo
 ![Enable OAI screen with enable and disable options.](./assets/learning-ojs3.2-jm-settings-dist-oai.png)
 
 ## Archiving
+
+{% include video id="ohHaj-MSLNA" provider="youtube" %}
+
+This PKP School video explains how to configure the archiving settings. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 If you are a member of a LOCKSS or CLOCKSS network, use this tab to activate your journal. The PKP PN Plugin, which deposits your content in the PKP Preservation Network(PN), is available for OJS 3.1.2 or newer.
 
