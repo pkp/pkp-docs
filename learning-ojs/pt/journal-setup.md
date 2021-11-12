@@ -32,7 +32,7 @@ Possui guias, usadas para navegar entre as diferentes seções que a constituem:
 
 Observe que aqui o nome da Editora é utilizado para os metadados e não será exibido no site. Para mostrar o nome da editora no site, coloque-o no caminho Configurações da Revista > Contato > Endereço Postal. Você também pode incluir a informação em Sobre a Revista, logo abaixo.
 
-O **ISSN** (International Standard Serial Number) é um número de 8 dígitos que identifica revistas. É gerido pela rede mundial de Centros Nacionais, coordenados por um Centro Internacional sediado em Paris, apoiado pela Unesco e pelo Governo Francês. O número pode ser obtido pelo [website do ISSN](http://www.issn.org/). Isso pode ser feito em qualquer etapa da existência da revista.
+**ISSN** (International Standard Serial Number) is an eight-digit number which identifies journals. É gerido pela rede mundial de Centros Nacionais, coordenados por um Centro Internacional sediado em Paris, apoiado pela Unesco e pelo Governo Francês. O número pode ser obtido pelo [website do ISSN](http://www.issn.org/). Isso pode ser feito em qualquer etapa da existência da revista.
 
 Tipicamente, as revistas geridas pelo OJS têm o ISSN eletrônico, mas algumas poderão também publicar a versão impressa, que requer um ISSN impresso diferente.
 
