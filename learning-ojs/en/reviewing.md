@@ -7,6 +7,9 @@ descriptions: Detailed instructions for managing assigned reviews as a peer revi
 
 # Reviewing
 
+{% include video id="CINhUa35Jic" provider="youtube" %}
+This PKP School video explains how to review an article in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 As a reviewer, you will learn of the review request via email or by checking your dashboard:
 
 ![The assigned submissions queue in reviewer dashboard](./assets/learning-ojs-3-rev-dashboard.png)
