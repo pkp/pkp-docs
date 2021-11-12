@@ -68,7 +68,7 @@ Après avoir terminé de téléverser tous vos fichiers, cliquez sur **Terminer*
 
 ![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
-Vous pouvez ajouter d'autres contributeurs (par exemple, des co-auteurs) en cliquant sur le lien **Ajouter un-e contributeur-trice** . Cela ouvrira une nouvelle fenêtre avec des champs pour saisir leurs informations.
+You can add more contributors (e.g., co-authors), by clicking the **Add Contributors** link. Cela ouvrira une nouvelle fenêtre avec des champs pour saisir leurs informations.
 
 ![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
 
