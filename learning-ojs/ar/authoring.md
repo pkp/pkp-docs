@@ -68,7 +68,7 @@ On **Step 3**, you will be asked to add more information about the submission, i
 
 ![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
-You can add more contributors \(e.g., co-authors\), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
+You can add more contributors (e.g., co-authors), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
 
 ![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
 
