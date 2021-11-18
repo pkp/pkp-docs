@@ -1,18 +1,18 @@
-# Securing Your System
+# Asegurando su Sistema
 
-## The Basics
+## Lo Básico
 
-Please see [https://pkp.sfu.ca/ojs/README](https://pkp.sfu.ca/ojs/README), [https://pkp.sfu.ca/omp/README](https://pkp.sfu.ca/omp/README), or [https://pkp.sfu.ca/ocs/README](https://pkp.sfu.ca/ocs/README) to ensure that the software install directory and file storage area (`files_dir` in `config.inc.php`) are configured securely on your server.
+Por favor lea [https://pkp.sfu.ca/ojs/README](https://pkp.sfu.ca/ojs/README), [https://pkp.sfu.ca/omp/README](https://pkp.sfu.ca/omp/README), o [https://pkp.sfu. a/ocs/README](https://pkp.sfu.ca/ocs/README) para asegurar que el directorio de instalación del software y el área de almacenamiento de archivos (`files_dir` en `config.inc.php`) estén configuradas de forma segura en su servidor.
 
-In general, the `files_dir` should not be web accessible and should be placed outside of the main software install directory. The software application will manage access to private submission files based on user roles and permissions \(i.e. Editors will have access to all submission files, whereas authors will only be able to access their own submission files\).
+En general, el directorio `files_dir` no debería ser accesible desde la web y debería colocarse fuera del directorio principal de instalación del software. La aplicación de software administrará el acceso a archivos privados de envío basado en roles y permisos de usuario \(por ejemplo: Los editores tendrán acceso a todos los archivos enviados, mientras que los autores sólo podrán acceder a sus propios archivos\).
 
-In addition, to ensure security the `files_dir` folder should not be readable by other users on the server. Only the webserver should have the necessary read/write permissions so that OJS, OMP, or OCS can read existing files and add new files to the folder, e.g.
+Además, para garantizar la seguridad el directorio `files_dir` no debería ser legible por otros usuarios en el servidor. Sólo el servidor web debería tener los permisos necesarios de lectura/escritura para que OJS, OMP, u OCS pueden leer archivos existentes y añadir nuevos archivos a la carpeta, p.ej.
 
-`drwxrwx---    6 ojs www 204B 11 Sep  2017 files/`
+`drwxrwx---   6 ojs www 204B 11 sep 2017 archivos/`
 
-The exact details of file permissions will depend on how your web server runs PHP scripts (this is called the "server API" or "SAPI"). For example, if it uses `mod_php`, all PHP scripts will run as the `www-data` user or similar (this is inherently not 100% secure on a multi-user server). If it uses CGI, FastCGI, FPM, or a similar mechanism, it will likely run under your user account.
+Los detalles exactos de los permisos de archivo dependerán de cómo su servidor web ejecute scripts PHP (esto se llama "API de servidor" o "SAPI"). Por ejemplo, si utiliza `mod_php`, todos los scripts PHP se ejecutarán como el usuario `www-data` o similar (esto no es inherentemente 100% seguro en un servidor multiusuario). Si utiliza CGI, FastCGI, FPM, o un mecanismo similar, probablemente correrá bajo su cuenta de usuario.
 
-It is recommended that you install an SSL certificate for your OJS, OMP, or OCS install and ensure that your site always uses the HTTPS protocol to manage user registration, login, and to present content to readers. Once your SSL certificate has been installed and is confirmed to be working \(i.e. you can access your site via [https://myjournal.org](https://myjournal.org/)\) you can configure your site to always use HTTPS by using the following setting in `config.inc.php`:
+Se recomienda que instale un certificado SSL para su instalación OJS, OMP, u OCS y asegurarse de que su sitio siempre utiliza el protocolo HTTPS para administrar el registro de usuarios, iniciar sesión y presentar contenido a los lectores. Once your SSL certificate has been installed and is confirmed to be working \(i.e. you can access your site via [https://myjournal.org](https://myjournal.org/)\) you can configure your site to always use HTTPS by using the following setting in `config.inc.php`:
 
 `; Force SSL connections site-wide
 force_ssl = On`
