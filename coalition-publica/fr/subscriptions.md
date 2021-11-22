@@ -7,21 +7,13 @@ Si vous utilisez OJS pour publier du contenu requérant un abonnement ou si vous
 
 **Ces étapes ne sont pas requises si vous utilisez OJS pour publier une revue en libre accès.**
 
-## Étape 1. Créer un Responsable des abonnements
+## System Administrator Steps
 
-Lors de cette étape, vous allez configurer un nouvel utilisateur qui aura un rôle de Responsable des abonnements. Si le rôle de Responsable des abonnements existe déjà sur votre instance, vous pouvez utiliser ce compte et sauter cette étape. Notez que pour des raisons de sécurité, il est toutefois déconseillé d’utiliser un compte lié à un rôle autre que celui de Responsable des abonnements (il vaut mieux que ce compte n’ait qu’un rôle, celui de Responsable des abonnements). Par la suite, vous permettrez à Érudit d’utiliser ce rôle lors de la récupération du contenu de votre instance OJS en lui fournissant le ​*API key secret*​ associé à ce compte utilisateur.
+The following step requires back-end access to OJS by a system administrator. You may need to contact your hosting provider or technical lead to perform this step.
 
-Connectez-vous en tant que Directeur de la revue ou Administrateur du site, déplacez-vous sous “Utilisateurs et Rôles > Utilisateurs”. Utilisez le bouton “Ajouter un utilisateur” pour créer un nouveau compte utilisateur.
+### Étape 1. S’assurer d’avoir saisi un API key secret
 
-Remplissez le formulaire et appuyez sur “Sauvegarder”. Bien que nous recommandions d’utiliser des informations réelles lors de la création des utilisateurs pour votre revue, ce n’est pas obligatoire. L’important est de remplir les champs obligatoires et de vous rappeler du nom d’utilisateur et du mot de passe que vous avez utilisés pour passer à la prochaine étape.
-
-La deuxième étape de la création d’un utilisateur consiste à lui attribuer un rôle. Dans la liste des “Rôles de l’utilisateur”, assurez-vous de cocher “Gestionnaire d’abonnement”. Make sure you check “Subscription Manager”. Press “Save” to complete Step #2 of the user creation process.
-
-Ceci complète le processus de création d’un utilisateur. Rappelez-vous du nom d’utilisateur et du mot de passe que vous avez utilisés lors de la création du compte.
-
-## Étape 2. S’assurer d’avoir saisi un API key secret
-
-Cette étape peut requérir l’aide de votre administrateur système puisqu’elle requiert l’accès à un fichier sur le serveur où votre instance OJS est installée.
+This step requires access to a file on the server on which OJS is installed and must be performed by a system administrator.
 
 Dans votre fichier de configuration OJS (​`config.inc.php`​ dans le répertoire d’installation de votre OJS) vous trouverez une directive appelée “`api_key_secret`​”. Par défaut, ce paramètre est vide. Si c’est le cas, modifiez-le pour qu’il contienne une séquence de 32 caractères ou plus (n’importe quelle lettres et symboles). Votre instance OJS en sera plus sécurisée lors de l’utilisation des ​*API keys​*.
 
@@ -29,11 +21,27 @@ Vous n’aurez pas à mémoriser la valeur de ce paramètre, mais si vous le per
 
 Un coup le paramètre renseigné, sauvegardez le fichier.
 
+## Site Administrator Steps
+
+The following steps can be performed within OJS by users with the Journal Manager or Site Administrator role.
+
+## Étape 2. Créer un Responsable des abonnements
+
+Lors de cette étape, vous allez configurer un nouvel utilisateur qui aura un rôle de Responsable des abonnements. Si le rôle de Responsable des abonnements existe déjà sur votre instance, vous pouvez utiliser ce compte et sauter cette étape. Notez que pour des raisons de sécurité, il est toutefois déconseillé d’utiliser un compte lié à un rôle autre que celui de Responsable des abonnements (il vaut mieux que ce compte n’ait qu’un rôle, celui de Responsable des abonnements). Par la suite, vous permettrez à Érudit d’utiliser ce rôle lors de la récupération du contenu de votre instance OJS en lui fournissant le ​*API key secret*​ associé à ce compte utilisateur.
+
+Connectez-vous en tant que Directeur de la revue ou Administrateur du site, déplacez-vous sous “Utilisateurs et Rôles > Utilisateurs”. Utilisez le bouton “Ajouter un utilisateur” pour créer un nouveau compte utilisateur.
+
+Remplissez le formulaire et appuyez sur “Sauvegarder”. While we recommend using legitimate contact credentials for your journal, it does not matter what user details you use, as long as the required form fields are complete and you are able to remember the username and password for the next step.
+
+Next, you will be presented with a list of User Roles. Make sure you check “Subscription Manager”. Press “Save” to complete  the user creation process.
+
+Ceci complète le processus de création d’un utilisateur. Rappelez-vous du nom d’utilisateur et du mot de passe que vous avez utilisés lors de la création du compte.
+
 ## Étape 3. Générer une API Key
 
 Déconnectez-vous de votre instance OJS et connectez-vous de nouveau en utilisant les paramètres d’accès du compte Gestionnaire d’abonnement que vous avez créé à l’étape 2.
 
-Allez à votre Profil utilisateur (typiquement disponible dans le coin en haut à droite).
+Navigate to your user Profile (typically available in the top-right corner).
 
 Open the “API Key” tab:
 
@@ -46,7 +54,7 @@ Utilisez ce formulaire de la manière suivante:
 1. Cochez la case “​*Enable external applications with the API key to access this account*”​.
 2. Cochez la case “​*Generate new API key*”​.
 3. Appuyez sur le bouton “​*Save*”​.
+4. Uncheck the “Generate new API key” checkbox.
+5. Appuyez sur le bouton “​*Save*”​.
 
-Ceci fait, la zone “​*API Key*​” devrait maintenant avoir une longue chaîne de lettres et chiffres. Copiez celle-ci et fournissez-la par courriel à votre contact Coalition Publica.
-
-C’est tout ce qu’il fallait! Ces étapes permettront à Érudit d’effectuer des actions avec cet utilisateur nouvellement créé -- soit, étant donné que l’utilisateur a un rôle de Responsable des abonnements, de télécharger des contenus sous embargo (accessibles seulement par abonnement) ou non publié sur le site web OJS et par conséquent inaccessibles publiquement.
+With this, the “API Key” box should contain a long string of numbers and letters. This key will allow Érudit to perform actions as this newly-created user and download embargoed or unpublished content. Copiez celle-ci et fournissez-la par courriel à votre contact Coalition Publica. **Please be sure to uncheck the “Generate new API key” checkbox to prevent the key you share with Coalition Publica from inadvertently being overwritten.**
