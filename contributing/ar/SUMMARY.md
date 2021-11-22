@@ -1,4 +1,5 @@
 # الملخص
+
 * [مقدمة](.)
 * [Contribute](./contribute.md)
   * [Ways to Contribute](./contribute.md#ways-to-contribute)
@@ -17,6 +18,7 @@
   * [Create a Document](./create-and-edit.md#create-a-document)
   * [Adding/Replacing Images](./create-and-edit.md#addingreplacing-images)
   * [Alt Text for Images](./create-and-edit.md#alt-text-for-images)
+  * [Embedding Videos](./create-and-edit.md#embedding-videos)
   * [Creating Assets Folder](./create-and-edit.md#creating-assets-folder)
   * [Creating a Pull Request](./create-and-edit.md#creating-a-pull-request)
   * [Save and Continue Edits to Branch](./create-and-edit.md#save-and-continue-edits-to-branch)
