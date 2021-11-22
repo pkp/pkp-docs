@@ -3,7 +3,7 @@ noindex: true
 ---
 # Initial Setup
 
-Érudit collects metadata from your OJS installation in ​[JATS](https://jats.nlm.nih.gov/)​ XML. JATS is commonly used to publish or index journal articles. 
+Érudit collects metadata from your OJS installation in ​[JATS](https://jats.nlm.nih.gov/)​ XML. JATS is commonly used to publish or index journal articles.
 
 You can configure OJS to automatically generate simple JATS documents for inclusion in Érudit. In order to do this you will need to install and enable two plugins. The process will involve these steps:
 
@@ -69,7 +69,7 @@ In order to provide JATS content to Érudit, you must be running the latest vers
 
 ### Step 3. Enabling and Upgrading the Plugins
 
-#### Enabling the Plugins 
+#### Enabling the Plugins
 
 Now that you have installed both the JATS Template Plugin and OAI JATS Plugin, you will need to enable them.
 
@@ -105,7 +105,7 @@ Following any upgrade to your OJS, ensure that your plugins are updated to the l
 
 First, navigate to Settings > Website > Plugins. Switch to the “Plugin Gallery” tab.
 
-Navigate to the relevant plugin and click its name to open this window. 
+Navigate to the relevant plugin and click its name to open this window.
 
 ![OAI JATS Plugin with plugin information and an Upgrade button.](./assets/oaiJatsPluginInfo.png)
 
@@ -152,6 +152,7 @@ The following step requires back-end access to OJS by a system administrator. Yo
 ### Step 6. Rebuild Your Search Index
 
 This step may require the help of your system administrator, as it requires back-end access to a file on the server on which OJS is installed.
+
 * Ensure that OJS knows about your server’s text extraction tools: check your `config.inc.php` file in the `[search]` section to make sure your server’s locations for these tools are specified.
 * If you had to modify your `config.inc.php` file to enable PDF indexing, you will also have to rebuild your search index. You can do this by running the following command on your server, in the OJS web root:
 

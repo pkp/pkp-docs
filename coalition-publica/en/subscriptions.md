@@ -31,7 +31,7 @@ In this step, you will create a new user with a Subscription Manager role. If yo
 
 As a Journal Manager or Site Administrator, go to Users & Roles > Users. Use the “Add User” link to create a new user account.
 
-Fill in the form and press “Save”. While we recommend using legitimate contact credentials for your journal, it does not matter what user details you use, as long as the required form fields are complete and you are able to remember the username and password for the next step. 
+Fill in the form and press “Save”. While we recommend using legitimate contact credentials for your journal, it does not matter what user details you use, as long as the required form fields are complete and you are able to remember the username and password for the next step.
 
 Next, you will be presented with a list of User Roles. Make sure you check “Subscription Manager”. Press “Save” to complete  the user creation process.
 
