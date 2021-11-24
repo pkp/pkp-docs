@@ -12,17 +12,17 @@ Además, para garantizar la seguridad el directorio `files_dir` no debería ser 
 
 Los detalles exactos de los permisos de archivo dependerán de cómo su servidor web ejecute scripts PHP (esto se llama "API de servidor" o "SAPI"). Por ejemplo, si utiliza `mod_php`, todos los scripts PHP se ejecutarán como el usuario `www-data` o similar (esto no es inherentemente 100% seguro en un servidor multiusuario). Si utiliza CGI, FastCGI, FPM, o un mecanismo similar, probablemente correrá bajo su cuenta de usuario.
 
-Se recomienda que instale un certificado SSL para su instalación OJS, OMP, u OCS y asegurarse de que su sitio siempre utiliza el protocolo HTTPS para administrar el registro de usuarios, iniciar sesión y presentar contenido a los lectores. Once your SSL certificate has been installed and is confirmed to be working \(i.e. you can access your site via [https://myjournal.org](https://myjournal.org/)\) you can configure your site to always use HTTPS by using the following setting in `config.inc.php`:
+Se recomienda que instale un certificado SSL para su instalación OJS, OMP, u OCS y asegurarse de que su sitio siempre utiliza el protocolo HTTPS para administrar el registro de usuarios, iniciar sesión y presentar contenido a los lectores. Una vez que el certificado SSL ha sido instalado y se confirma que funciona \(por ejemplo, se puede acceder al sitio a través de [https://myjournal.org](https://myjournal.org/)\) puede configurar su sitio para que siempre use HTTPS usando la siguiente configuración en `config.inc.php`:
 
 `; Force SSL connections site-wide
 force_ssl = On`
 
-You should also set the base URL to use the HTTPS version of your journal, press, or conference:
+También debería utilizar la versión HTTPS para la URL base de su revista, prensa o conferencia:
 
 `; The canonical URL to the OJS installation
 base_url = "https://myjournal.org"`
 
-To ensure that password reset requests from users produce random, secure passwords, ensure that you set a long, random salt in `config.inc.php`:
+Para asegurar que las solicitudes de restablecimiento de contraseña de los usuarios generen contraseñas seguras y aleatorias, asegúrese de establecer una salt aleatoria y larga en `config.inc.php`:
 
 `; The unique salt to use for generating password reset hashes
 salt = "sdlkjfhleiqwrfgbksdlkjgbelruywoeiyt7384gdqlywqvlwjf"`
