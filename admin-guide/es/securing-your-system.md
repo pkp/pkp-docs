@@ -27,24 +27,24 @@ Para asegurar que las solicitudes de restablecimiento de contraseña de los usua
 `; The unique salt to use for generating password reset hashes
 salt = "sdlkjfhleiqwrfgbksdlkjgbelruywoeiyt7384gdqlywqvlwjf"`
 
-## Deploying PKP Software Securely
+## Desplegando software PKP de forma segura
 
-> Section Contributed by Kenton Good
+> Sección Contribuída por Kenton Good
 
-A secure deployment of PKP software can be best achieved by using the following recommendations, which are described in docs/README in every download of the software:
+Un despliegue seguro de software PKP se puede mejorar utilizando las siguientes recomendaciones, que se describen en docs/README en cada descarga del software:
 
-* Dedicate a database to OJS, OMP, and OCS; use unique credentials to access it. Configure this database to perform automated backups on a regular basis. Perform a manual backup when upgrading or performing maintenance. If you do not have access to your database contact your system administrator and ensure that database backups are taking place for your OJS.
-* Configure the software (`config.inc.php`) to use SHA1 hashing rather than MD5.
-* Enable captcha or recaptcha in your `config.inc.php` file, and test that they are working. This will prevent most spam user registrations.
-* Configure the software (`config.inc.php`) to use `force_login_ssl` so that authenticated users communicate with the server via HTTPS. (You will also have to properly create and configure an SSL certificate to do this properly.)
-* Install the software so that the files directory is NOT a subdirectory of the OJS, OMP, or OCS installation and cannot be accessed directly via the web server.
-* Restrict file permissions as much as possible.
-* Deploy and test a proper backup mechanism. The backup mechanism should back up the database, the system files, and the file storage area (the `files_dir` parameter in `config.inc.php`). Ideally, you should make both on-site and off-site backups.
-* Ensure that your web server environment is regularly updated, in particular with any and all security patches.
+* Dedicar una base de datos a OJS, OMP y OCS; usar credenciales únicas para acceder a ella. Configure esta base de datos para realizar copias de seguridad automatizadas de forma regular. Realice una copia de seguridad manual al actualizar o realizar mantenimiento. Si no tiene acceso a su base de datos póngase en contacto con el administrador del sistema y asegúrese de que las copias de seguridad de la base de datos de su OJS se están realizando.
+* Configurar el software (`config.inc.php`) para que use el hashing SHA1 en lugar de MD5.
+* Activar captcha o recaptcha en `config.inc.php` y probar que estén funcionando. Esto evitará la mayoría de los registros de usuarios spam.
+* Configurar el software (`config.inc.php`) para que use `force_login_ssl` de manera que los usuarios autenticados se comuniquen con el servidor a través de HTTPS. (Deberá crear y configurar correctamente un certificado SSL para que esto funcione correctamente.)
+* Instalar el software de manera que el directorio de archivos NO sea un subdirectorio de la instalación de OJS, OMP, u OCS y no se pueda acceder al mismo directamente a través del servidor web.
+* Restringir los permisos de archivo tanto como sea posible.
+* Despliegar y pruebar un mecanismo de copia de seguridad adecuado. El mecanismo de copia de seguridad debe hacer una copia de seguridad de la base de datos, los archivos del sistema, y el área de almacenamiento de archivos (el parámetro `files_dir` en `config.inc.php`). Idealmente, debe hacer copias de seguridad tanto en el servidor como fuera del mismo.
+* Asegurar que el entorno del servidor web se actualiza regularmente, en particular con cualquiera y todos los parches de seguridad.
 
-If these steps are followed, you will substantially reduce the risk of falling prey to common hacking techniques. If already running OJS, OMP, or OCS, we strongly urge you to review your existing configurations and ensure these steps have been followed.
+Si se siguen estos pasos, se reducirá sustancialmente el riesgo de ser víctima de técnicas comunes de piratería. Si ya está ejecutando OJS, OMP u OCS, le recomendamos encarecidamente que revise sus configuraciones existentes y se asegure de que se han seguido estos pasos.
 
-### Secure File Management
+### Gestión Segura de Archivos
 
 Authors, reviewers, and editors deal with submission files from people they don’t know on a daily basis, and there are some basic precautions that you will want to take to mitigate the possibility of being compromised via one of these files. These steps don’t differ from how you would deal with email or other daily life on the internet, but are worth outlining in general form here.
 
