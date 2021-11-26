@@ -22,7 +22,7 @@ If you want to edit existing documentation or add a section or chapter to existi
   <video controls="true" allowfullscreen="true">
     <source src="./assets/contrib-01.mp4" type="video/mp4">
   </video>
-  <figcaption>File edit menu in Github.</figcaption>
+  <figcaption>File edit menu in GitHub.</figcaption>
 </figure>
 
 If your edits requires you to replace or add images, see section on Adding/Replacing images.
@@ -157,6 +157,7 @@ Once you have created all of your chapters, you can add links to those files in 
 In the `SUMMARY.md` file, add a link for each chapter title and H2 subheading links below the chapter links.
 
 The first link should be for the Introduction in the README file:
+
 ```
 * [Introduction](.)
 ```
@@ -257,6 +258,33 @@ Informative images such as screenshots need to have alt text (“alternative tex
 
 For further instructions and examples see [WebAim’s Alternative Text guide](https://webaim.org/techniques/alttext/).
 
+## Embedding Videos
+
+### YouTube Videos
+
+To embed a YouTube video in a Markdown file, you can use the following formatting, replacing the `id` with your video's id (found in the URL of your video) and the `title` with the title of your video. Unlike images, you should include "Video of..." in your title so a screen reader announces that it is a video.
+
+```
+{% raw %}
+{% include video.html id="ny0pue6MKek" provider="youtube" title="Video of how to create a new role in OJS"%}
+{% endraw %}
+```
+
+### Video Files
+
+If you have a video file that you want to embed in a document, you will need to upload the file to the `assets` folder for your document, similar to the steps in [the image upload process](#adding-images).
+
+Once you have uploaded the video file, you can embed it by adding a `<figure>` in your Markdown file similar to the example below, replacing the filename and caption with your own. Unlike images, you should include "Video of..." in your caption so a screen reader announces that it is a video.
+
+```html
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/contrib-01.mp4" type="video/mp4">
+  </video>
+  <figcaption>Video of the file edit menu in GitHub.</figcaption>
+</figure>
+```
+
 ## Creating Assets Folder
 
 To create an asset folder within the document branch, you will need to create a new file by clicking ‘Create new file’ in your repository.
@@ -281,7 +309,7 @@ Single-page example:
 
 ![Name your file form field for a single-page document.](./assets/create-file-name-single.png)
 
-As Github will not allow you to create a blank folder, you will need to create a document in the asset folder. Remember that document pages need to end with ‘.md’
+As GitHub will not allow you to create a blank folder, you will need to create a document in the asset folder. Remember that document pages need to end with ‘.md’
 
 This can be labelled as anything, as it will be deleted after you’ve uploaded your assets. Enter some text into the textbox and commit the change to the file.
 
@@ -309,7 +337,7 @@ This will bring you to another page that compares the changes you’ve made.
 
 ![Comparing changes screen with compare:patch-16 button pointed out.](./assets/create-PR-compare.png)
 
-The fourth box (highlighted in red) is the branch that’s automatically created by Github.
+The fourth box (highlighted in red) is the branch that’s automatically created by GitHub.
 
 Click ‘Create pull request.’
 
@@ -319,7 +347,7 @@ This page is where you would enter a more detailed description of what you chang
 
 In this final page, you also have the option to create your pull request or create a draft pull request. A pull request indicates that you have completed your changes and lets the PKP team members know to review your changes. Meanwhile, a draft pull request allows you to continue to make changes.
 
-*If you are a member of the PKP team, you’ll see the ability to commit directly to the main branch*. It’s important to note that these changes are immediate, but they are also unreviewed. Please do not commit directly to main. We recommend that you always commit code via pull request.
+*If you are a member of the PKP team, you’ll see the ability to commit directly to the main branch*. It’s important to note that these changes are immediate, but they are also unreviewed. Please do not commit directly to main. We recommend that you always commit code via pull request and have someone else review it.
 
 ## Save and Continue Edits to Branch
 

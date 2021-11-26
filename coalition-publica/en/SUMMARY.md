@@ -2,5 +2,5 @@
 
 * [Coalition Publica OJS Integration Guide](.)
 * [Requirements](./requirements.md)
-* [Using JATS with OJS](./using-jats.md)
-* [Subsriptions and Non-Publishing Use of OJS](./subscriptions.md)
+* [Initial Setup](./initial-setup.md)
+* [Subscriptions and Non-Publishing Use of OJS](./subscriptions.md)
