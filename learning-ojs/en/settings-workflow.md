@@ -9,6 +9,8 @@ The Workflow Settings allow you to configure various parts of the journal's edit
 
 ## Submission
 
+This PKP School video explains how to configure the submission process in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
 {% include video.html id="_I2-IpEWu9E" provider="youtube" title="Video of how to configure the submission process in OJS"%}
 
 Use this section to configure the submission process.
@@ -28,6 +30,8 @@ Once the setting is enabled, a notification is displayed indicating that submiss
 This section determines what types of metadata will be collected during the submission process, such as keywords and references.
 
 ### Components
+
+This PKP School video explains how to manage Components in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="UkmvhHjP5V0" provider="youtube" title="Video of how to manage components in OJS"%}
 
@@ -66,7 +70,9 @@ Use this field to add information for your authors that will be useful during th
 
 ## Review
 
-{% include video.html id="1adbIbQM6E" provider="youtube" title="Video of Review process demonstration in OJS"%}
+This PKP School video demonstrates how to configure the Review process in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="1adbIbQM6E" provider="youtube" title="Video of how to configure the Review process in OJS"%}
 
 This tab allows you to configure your journal's review process.
 
@@ -145,7 +151,9 @@ Once you send the form to a reviewer you will no longer be able to edit it becau
 
 ## Publisher Library
 
-{% include video.html id="QhOJjxW0_Rw" provider="youtube" title="Video of OJS Publisher Library demonstration"%}
+This PKP School video explains how to use the Publisher Library in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="QhOJjxW0_Rw" provider="youtube" title="Video of the Publisher Library in OJS"%}
 
 The Journal Manager and Editors may upload documents that they would like to share with the other users in the Publisher Library. Any document added in this area will be visible within a user’s Document Library in their manuscript’s Submission Library.
 
@@ -167,8 +175,9 @@ To add a file here, click ‘Add a file’ on the top right corner of the Publis
 
 ## Emails
 
-{% include video.html id="ZK-Nb7wfHew" provider="youtube" title="Video of how to configure emails in OJS"%}
+This PKP School video explains how to configure emails in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
+{% include video.html id="ZK-Nb7wfHew" provider="youtube" title="Video of how to configure emails in OJS"%}
 
 ### Email Setup
 
