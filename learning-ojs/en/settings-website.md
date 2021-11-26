@@ -11,7 +11,7 @@ The Website Settings allow you to configure how your journal's website looks and
 
 ## Appearance
 
-[![Video demonstrating Appearance settings](https://img.youtube.com/vi/4i5uRgzFHfg/0.jpg)](https://youtu.be/4i5uRgzFHfg)
+{% include video.html id="4i5uRgzFHfg" provider="youtube" title="Video of how to configure your journal's appearance in OJS"%}
 
 ### Theme
 
@@ -78,7 +78,7 @@ Hit **Save** to record your changes.
 
 ### Information
 
-[![Video demonstrating Information settings](https://img.youtube.com/vi/48qU18uqqkg/0.jpg)](https://youtu.be/48qU18uqqkg)
+{% include video.html id="48qU18uqqkg" provider="youtube" title="Video of OJS Information settings demonstration"%}
 
 Use these fields to modify the text in the For Readers, For Authors, For Librarians pages on the journal website.
 
@@ -90,7 +90,7 @@ To remove these fields and their contents from displaying publicly on the websit
 
 ### Languages
 
-[![Video demonstrating Language settings](https://img.youtube.com/vi/VU5kAPOqNPc/0.jpg)](https://youtu.be/VU5kAPOqNPc)
+{% include video.html id="VU5kAPOqNPc" provider="youtube" title="Video of OJS language settings demonstration"%}
 
 OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages and authors can make submissions in one or more languages on a single site or journal. When you install OJS, you can select one or more languages for your site.
 
@@ -112,7 +112,7 @@ If enabling multiple languages to appear in the UI, make sure that in Website Se
 
 ### Navigation
 
-[![Video demonstrating Navigation settings](https://img.youtube.com/vi/OJL-XEgzhYU/0.jpg)](https://youtu.be/OJL-XEgzhYU)
+{% include video.html id="OJL-XEgzhYU" provider="youtube" title="Video of OJS navigation settings demonstration"%}
 
 This section allows you to configure your navigation menus, such as including new links.
 
@@ -136,7 +136,7 @@ Hit Save to record the change.
 
 ### Announcements
 
-[![Video demonstrating Navigation settings](https://img.youtube.com/vi/OmiDQGX4SGs/0.jpg)](https://youtu.be/OmiDQGX4SGs)
+{% include video.html id="OmiDQGX4SGs" provider="youtube" title="Video of OJS navigation settings demonstration"%}
 
 This section allows you to create and display news announcements on the journal's website.
 
@@ -150,7 +150,8 @@ Once the Announcements setting is enabled, click "Save." An "Announcements" menu
 
 ![OJS 3.3 Announcements menu enabled in the sidebar with an option to add and edit announcements.](./assets/learning-ojs3.3-settings-website-announcements.png)
 
-[![Video demonstrating other website settings](https://img.youtube.com/vi/3vAR6lu-4DE/0.jpg)](https://youtu.be/3vAR6lu-4DE)
+{% include video.html id="3vAR6lu-4DE" provider="youtube" title="Video of OJS website settings demonstration"%}
+
 
 ### Lists
 
@@ -168,7 +169,7 @@ This option allows for the configuration of different format for dates and times
 
 ## Plugins
 
-[![Video demonstrating plugin settings](https://img.youtube.com/vi/PMAsXY_tLMU/0.jpg)](https://youtu.be/PMAsXY_tLMU)
+{% include video.html id="PMAsXY_tLMU" provider="youtube" title="Video of OJS plugin settings demonstration"%}
 
 Use this page to see all of the installed plugins and find new plugins.
 

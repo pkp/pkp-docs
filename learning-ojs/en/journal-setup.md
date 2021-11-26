@@ -21,7 +21,7 @@ Use the tabs to navigate to the different sections of Journal Settings: Masthead
 
 ## Masthead
 
-[![Video demonstrating Masthead setup](https://img.youtube.com/vi/DMi6izQ7Pyw/0.jpg)](https://youtu.be/DMi6izQ7Pyw)
+{% include video.html id="DMi6izQ7Pyw" provider="youtube" title="Video of how to set up Masthead in OJS"%}
 
 **Journal title** is the name of your journal. E.g., Journal of Software Documentation
 
@@ -51,7 +51,7 @@ Hit the **Save** button to save your changes.
 
 ## Contact
 
-[![Video demonstrating Contacts](https://img.youtube.com/vi/HTDZRG7XEqw/0.jpg)](https://youtu.be/HTDZRG7XEqw)
+{% include video.html id="HTDZRG7XEqw" provider="youtube" title="Video of how to add journal contacts in OJS"%}
 
 Use this section to add journal contacts.
 
@@ -65,7 +65,7 @@ Hit the **Save** button to save your changes.
 
 ## Sections
 
-[![Video demonstrating Sections](https://img.youtube.com/vi/IMotkKrDZyc/0.jpg)](https://youtu.be/IMotkKrDZyc)
+{% include video.html id="IMotkKrDZyc" provider="youtube" title="Video of how to configure sections in OJS"%}
 
 Use this page to configure the different sections of your journal. E.g., Articles, Editorials, Reviews, Commentary, etc. OJS requires at least one section, and creates an "Articles" section by default. You can create new sections, edit existing sections, or delete sections. The sections will appear for an author to select when they make a submission and they will be used to organize the articles in your published issues. You can also assign editors to specific sections. This part of the guide explains how you can configure sections.
 
@@ -139,7 +139,7 @@ You can only delete a section if there are no articles assigned to it. If you wa
 
 ## Categories
 
-[![Video demonstrating Categories](https://img.youtube.com/vi/Y97U1icfEPw/0.jpg)](https://youtu.be/Y97U1icfEPw)
+{% include video.html id="Y97U1icfEPw" provider="youtube" title="Video of how to create categories in OJS"%}
 
 In OJS 3 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production-publication). This section explains how to create and edit categories.
 

@@ -9,7 +9,7 @@ The Workflow Settings allow you to configure various parts of the journal's edit
 
 ## Submission
 
-[![Video demonstrating Submissions](https://img.youtube.com/vi/_I2-IpEWu9E/0.jpg)](https://youtu.be/_I2-IpEWu9E)
+{% include video.html id="_I2-IpEWu9E" provider="youtube" title="Video of how to configure the submission process in OJS"%}
 
 Use this section to configure the submission process.
 
@@ -29,7 +29,7 @@ This section determines what types of metadata will be collected during the subm
 
 ### Components
 
-[![Video demonstrating Components](https://img.youtube.com/vi/UkmvhHjP5V0/0.jpg)](https://youtu.be/UkmvhHjP5V0)
+{% include video.html id="UkmvhHjP5V0" provider="youtube" title="Video of how to manage components in OJS"%}
 
 Components are the file types authors may upload to the site. Typically, one file will be the article text, and others can include interview transcripts, data, images, etc. The components available for the author to choose from when making their submission are listed here.
 
@@ -66,7 +66,7 @@ Use this field to add information for your authors that will be useful during th
 
 ## Review
 
-[![Video demonstrating the Review process](https://img.youtube.com/vi/1adbIbQM6E/0.jpg)](https://youtu.be/1adbIbQM6E0)
+{% include video.html id="1adbIbQM6E" provider="youtube" title="Video of Review process demonstration in OJS"%}
 
 This tab allows you to configure your journal's review process.
 
@@ -145,7 +145,7 @@ Once you send the form to a reviewer you will no longer be able to edit it becau
 
 ## Publisher Library
 
-[![Video demonstrating the Publisher Library](https://img.youtube.com/vi/QhOJjxW0_Rw/0.jpg)](https://youtu.be/QhOJjxW0_Rw)
+{% include video.html id="QhOJjxW0_Rw" provider="youtube" title="Video of OJS Publisher Library demonstration"%}
 
 The Journal Manager and Editors may upload documents that they would like to share with the other users in the Publisher Library. Any document added in this area will be visible within a user’s Document Library in their manuscript’s Submission Library.
 
@@ -167,7 +167,8 @@ To add a file here, click ‘Add a file’ on the top right corner of the Publis
 
 ## Emails
 
-[![Video demonstrating Emails](https://img.youtube.com/ZK-Nb7wfHew/0.jpg)](https://youtu.be/ZK-Nb7wfHew)
+{% include video.html id="ZK-Nb7wfHew" provider="youtube" title="Video of how to configure emails in OJS"%}
+
 
 ### Email Setup
 
