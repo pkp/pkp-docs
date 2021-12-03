@@ -4,21 +4,6 @@ title: FAQ about How to Set Up and Manage a Journal in Open Journal Systems (OJS
 
 # Journal Setup and Management
 
-For additional questions and answers, see the [source-code FAQ](https://raw.githubusercontent.com/pkp/ojs/main/docs/FAQ).
-
-## How can I remove "index.php" from the URLs in OJS?
-
-OJS uses a REST-style URL syntax for all of its links.  To force OJS to remove the "index.php" portion of all URLs, edit config.inc.php and set "restful_urls" to "On".
-   
-In addition, your server will have to support URL rewriting in order to recognize the new URLs.  Apache servers use the mod_rewrite plugin, which must be enabled in your httpd.conf, and the following section added to the correct section of either your httpd.conf or an .htaccess file (preferred) in your OJS root directory (the same location as config.inc.php):
-   
-  <IfModule mod_rewrite.c>
-   RewriteEngine on
-   RewriteCond %{REQUEST_FILENAME} !-d
-   RewriteCond %{REQUEST_FILENAME} !-f
-   RewriteRule ^(.*)$ index.php/$1 [QSA,L]
-  </IfModule>
-
 ## How can I create a unique look for my journal, press, or server website?
 
 OJS 3 includes a number of free themes that you can use for your journal. You can view them on [PKP’s demo site](https://demo.publicknowledgeproject.org/ojs3/demo/).
