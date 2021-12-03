@@ -26,4 +26,4 @@ Among the many features of OMP is its ability to...
 * Create document libraries for submissions, recording contracts, permissions, etc.;
 * Manage thumbnail covers in Catalog, as well as Spotlight features.
 
-For a detailed description of new features in OMP 3.3, see [What's New in This Version of OJS in the Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/introduction#whats-new-in-this-version-of-ojs). The new features include the following:
+For a detailed description of new features in OMP 3.3, see [What's New in This Version of OJS in the Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/about-ojs#whats-new-in-this-version-of-ojs). The new features include the following:
