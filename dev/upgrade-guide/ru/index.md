@@ -96,8 +96,8 @@ OJS_DB_PASSWORD="ojsPwd" && \
 OJS_DB_NAME="ojs" && \
 OJS_BACKUP_PATH="/srv/backup/ojs" && \
 OJS_VERSION="ojs-3.3.0-8" && \
-OJS_PUBLIC_PATH="$OJS_WEB/public" && \
-OJS_PRIVATE_PATH="$OJS_ROOT/files" && \
+OJS_PUBLIC_PATH="$OJS_WEB_PATH/public" && \
+OJS_PRIVATE_PATH="$OJS_ROOT_PATH/files" && \
 DATE=$(date "+%Y%m%d-%H:%M:%S)"
 ```
 
