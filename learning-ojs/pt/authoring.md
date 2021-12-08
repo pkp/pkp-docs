@@ -2,50 +2,50 @@
 book: learning-ojs
 version: 3.3
 title: Learning Open Journal Systems 3.3 - Authoring
-description: A guide on how to submit a manuscript to an OJS journal as an author.
+description: Um guia sobre como enviar um manuscrito para um periódico OJS como autor.
 ---
 
-# Authoring
+# Autoria
 
-Neste capítulo, você vai saber mais sobre como um autor trabalha com OJS de registro até a revisão da composição final.
+Neste capítulo, você aprenderá como um autor trabalha no OJS, desde o registro até a revisão da versão final.
 
-## Registering with the Journal
+## Cadastrando-se na Revista
 
-To make a submission to an OJS journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
+Para fazer uma submissão a uma revista que utiliza o OJS, primeiro você precisa criar uma conta de usuário na revista e fazer o login \(consulte [Registrando em uma revista](./user-accounts#registering-with-a-journal)\). Depois disso, ao fazer o login, você será levado à aba de submissão.
 
 ![Submissions queue in author dashboard](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
-It is currently empty as you have made no submissions.
+No momento, ela estará vazia porque você não fez nenhuma submissão.
 
 <hr />
 
-## Submitting an Article
+## Submissão de um Artigo
 
-Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to Step 1 of a 5-Step process to upload and describe your submission.
+Comece uma nova submissão clicando no botão **Nova submissão** localizado no lado direito da tela. Você será direcionado para a Etapa 1 de um processo de 5 etapas, para fazer o upload e descrever o manuscrito submetido.
 
 ![Author submission queue with new submission button](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
-### Step 1
+### Etapa 1
 
-In **Step 1** you will provide preliminary information about your submission.
+Na **Etapa 1**, você fornecerá informações preliminares sobre a sua submissão.
 
 ![Article submission start screen](./assets/learning-ojs3.3-au-dashboard-new-1.png)
 
-If the journal allows submissions in multiple languages, you can select the language of your submission from the drop-down menu. Languages can be enabled in Website Settings -> Setup -> Language.
+Se a revista permite inscrições em vários idiomas, você pode selecionar o idioma do manuscrito que será submetido no menu suspenso. Os idiomas podem ser ativados em Configurações do site -> Configuração -> Idioma.
 
-If the journal has Categories enabled and setup, you can select the categories your submission from the list. Categories can be setup in Journal > Categories.
+Se o periódico tiver categorias habilitadas e configuradas, você pode selecionar as categorias de sua submissão na lista. As categorias podem ser configuradas em Configurações da Revista> Categorias.
 
-Select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
+Selecione a seção apropriada para sua submissão (por exemplo, artigo, revisão, etc.). Se você não tiver certeza de qual seção é apropriada, dê seu melhor palpite.
 
-Read and agree to the statements in the submission checklist by checking each box. Include any comments for the editor, read the journal’s privacy statement, and then click the **Save and Continue** button to move to **Step 2**.
+Leia e concorde com as afirmações na lista de verificação de envio da submissão, marcando cada caixa. Inclua quaisquer comentários para o Editor, leia a declaração de privacidade do periódico e clique no botão **Salvar e continuar** para ir à **Etapa 2**.
 
-### Step 2
+### Etapa 2
 
-On **Step 2**, a window will open allowing you to upload your submission file.
+Na **Etapa 2**, uma janela será aberta, permitindo que você carregue seu arquivo de submissão.
 
 ![File upload screen](./assets/learning-ojs-3.3-author-submission-step2.png)
 
-In OJS 3.3 authors can upload multiple files at once, as well as drag-and-drop files.
+No OJS 3.3, os autores podem fazer upload de vários arquivos de uma vez, bem como arrastar e soltar arquivos.
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
@@ -54,248 +54,248 @@ In OJS 3.3 authors can upload multiple files at once, as well as drag-and-drop f
   <figcaption>OJS 3.3 drag and drop multiple files.</figcaption>
 </figure>
 
-Once you've uploaded all your files you can indicate the file type for each from a single menu panel, and metadata such as a description or license can be entered during the workflow.
+Depois de fazer upload de todos os seus arquivos, você pode indicar, em um único painel de menu, o tipo de arquivo para cada um. Além disso, metadados, como descrição ou licença, podem ser inseridos durante o fluxo de trabalho.
 
-Once you have finished uploading and labelling all of your files, click the **Save and Continue** button to move to **Step 3**.
+Depois de terminar de enviar e nomear todos os seus arquivos, clique no **botão Salvar e continuar** para ir à **Etapa 3**.
 
-### Step 3
+### Etapa 3
 
-On **Step 3**, you will be asked to add more information about the submission, including the title of the submission (broken down into prefix, title, and subtitle), and the abstract. If the journal allows submissions in multiple languages, clicking on each metadata field will reveal the option to enter the metadata in the other languages that are enabled, allowing you to enter the title, subtitle and abstract in the other language(s). Scrolling down...
+Na **Etapa 3**, você será solicitado a adicionar mais informações sobre a submissão, incluindo o título da submissão (dividido em prefixo, título e subtítulo) e o resumo. Se a revista permitir submissões em vários idiomas, clicar em cada campo de metadados revelará a opção de inserir metadados nos demais idiomas habilitados, tais como título, subtítulo e resumo no(s) outro(s) idioma(s). Rolando para baixo…
 
 ![Enter title metadata in another language](./assets/learning-ojs3.2-au-dashboard-new-3.png)
 
-...you are able to add any additional contributors.
+... você pode adicionar quaisquer contribuidores adicionais.
 
-![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
+![Lista de contribuidores](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
-You can add more contributors (e.g., co-authors), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
+Você pode adicionar mais colaboradores (por exemplo, co-autores), clicando no link **Adicionar colaboradores**. ssa ação abrirá uma nova janela com campos para inserir suas informações.
 
-![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
+![Adicionar contribuidores](./assets/learning-ojs-3-author-submission-step3-2.png)
 
-Hit **Save**, and the new contributor will appear on the screen.
+Clique em **Salvar** e o novo colaborador aparecerá na tela.
 
-![List with new contributors added](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
+![Lista com novos contribuidores adicionados](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
-If the categories are enabled in the journal you are submitting to, you will be able to select a category for the manuscript submission, if it applies.
+Se as categorias estiverem habilitadas na revista em que  está submetendo, você poderá selecionar uma categoria para a submissão do manuscrito, se aplicável.
 
-![Select a category](./assets/learning-ojs-authoring-category.png)
+![Selecione uma categoria](./assets/learning-ojs-authoring-category.png)
 
-You may also see additional fields to complete, such as keywords. If additional languages are enabled for the journal, you can enter the metadata in these languages. Clicking on the metadata field will reveal the fields for other languages enabled in the journal.
+Você também pode ver campos adicionais para preencher, como palavras-chave. Se idiomas adicionais estiverem habilitados para o periódico, é possível inserir os metadados nesses idiomas. Clicar no campo de metadados revelará os campos para outros idiomas habilitados na revista.
 
-![Enter keywords](./assets/learning-ojs-3.2-author-submission-step3-4.png)
+![Introduza Palavras-Chave](./assets/learning-ojs-3.2-author-submission-step3-4.png)
 
-To enter keyword, simply type the word or phrase and hit your Enter key. The word or phrase will be formatted as a keyword.
+Para inserir a palavra-chave, simplesmente digite a palavra ou frase e pressione a tecla Enter. A palavra ou frase será formatada como uma palavra-chave.
 
-Click **Save and Continue** to move forward.
+Clique em **Salvar e continue** para avançar.
 
-### Step 4
+### Etapa 4
 
-On Step 4, you will be asked to confirm that you are happy with your submission.
+Na Etapa  4, você será solicitado a confirmar se está satisfeito com o seu envio.
 
-Click **Finish Submission**.
+Clique em **Concluir Submissão**.
 
-![Finish submission screen](./assets/learning-ojs3.1-au-dashboard-new-4.png)
+![Tela de finalização da submissão](./assets/learning-ojs3.1-au-dashboard-new-4.png)
 
-A box will pop up asking you to confirm you are finished. Click **OK**.
+Uma caixa aparecerá solicitando que você confirme que terminou. Clique **OK**.
 
-![Confirm submission screen](./assets/learning-ojs-3-author-submission-step4-1.png)
+![Tela de confirmação da submissão](./assets/learning-ojs-3-author-submission-step4-1.png)
 
-### Step 5
+### Etapa 5
 
-![Next steps submission screen](./assets/learning-ojs3.1-au-dashboard-new-5.png)
+![Tela de próximos passos da submissão](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
-Your submission is now complete! The editor has been notified of your submission. At this point, you can follow the links to:
+O envio do arquivo agora está completo! O Editor foi notificado de sua submissão. Neste ponto, você pode seguir os links para:
 
-* Review this submission
-* Create a new submission
-* Return to your dashboard
+* Revise esta submissão
+* Crie uma nova submissão
+* Retorne ao seu painel
 
-Once you complete a submission, you cannot make changes to it.  If you want to replace the file you submitted or make other changes to the submission, you will need to contact the editor through the Pre-Review Discussions tool.
+Depois de concluir uma submissão, você não pode fazer alterações nela.  Se desejar substituir o arquivo enviado ou fazer outras alterações na submissão, precisará entrar em contato com o Editor por meio da ferramenta de Discussão Pré-revisão.
 
-### Dashboard
+### Painel
 
-And here is your submission in your Dashboard. You can see that it is currently in the _Submission_ stage.
+E aqui está a submissão em seu painel. Você pode ver que ela está atualmente no estágio de _Submissão_.
 
-![Submission in author dashboard](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
+![Submissão no painel do autor](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
-Over the coming days, it will move into the Review stage, and if accepted, into the Copyediting and Production stages before being published.
-
-<hr />
-
-## Editing Metadata
-
-In OJS 3.2, you may edit your own metadata at different stages of the editorial workflow. This will be dependent on settings granted by the Journal. You may either have global permission to make edits or have to send a request to the Editor to do so.
-
-Changes might include updated abstracts, correcting spelling errors, or adding additional contributors.
-
-To make edits to your submitted manuscript, click on the publication tab of your submission.
-
-![Submission publication tab](./assets/learning-ojs3.2-auth-dashboard-publication.png)
-
-You will be able to make changes to any of the sub-menus on the left by clicking to those tabs. If multiple languages are enabled for the journal, you will be able to edit metadata in those languages by clicking on the language tab in the top right. Click ‘Save’ once you’re done making your changes.
-
-![Publication menu items](./assets/learning-ojs3.2-auth-dashboard-publication2-language.png)
-
-When granted permission, you will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors, and Metadata. While Galleys is listed as an option on the side menu, you will not be able to upload or make changes in this section.
-
-If you notice that the ‘Save’ button is grey and inactive, this means you will have to request permission from the Editor to make changes to your submission or ask them to make the changes for you.
+Nos próximos dias, passará para o estágio de Revisão e, se for aceito, passará aos estágios de Edição e Produção antes de ser publicado.
 
 <hr />
 
-## Responding to a Review
+## Editando Metadados
 
-Once the review process has completed, you will be notified via email by the editor of their decision.
+No OJS 3.2, você pode editar seus próprios metadados em diferentes estágios do fluxo de trabalho editorial. Isso dependerá das configurações concedidas pela Revista. Você pode ter permissão global para fazer edições ou enviar uma solicitação ao Editor para fazê-las.
 
-After receiving the email with the decision, login to your dashboard. Select the manuscript you have been notified about.
+As alterações podem incluir resumos atualizados, correção de erros ortográficos ou adição de colaboradores.
 
-![Submission dashboard with items in review](./assets/learning-ojs-3.2-auth-responding-revisions.png)
+Para fazer edições em seu manuscrito submetido, clique na guia de publicação de sua submissão.
 
-Within the Review tab of the manuscript, you will also see a copy of the Editorial Decision under Notifications. Depending on the type of peer review the journal uses, you may see less information on the Review tab of the journal. The example below shows an open peer review which allows authors to see who the reviewer was.
+![Aba de publicação da submissão](./assets/learning-ojs3.2-auth-dashboard-publication.png)
+
+Você poderá fazer alterações em qualquer um dos submenus à esquerda clicando nessas guias. Se vários idiomas estiverem habilitados para a revista, você poderá editar os metadados nesses idiomas clicando na guia de idiomas, no canto superior direito. Clique em 'Salvar' quando terminar de fazer as alterações.
+
+![Itens do menu de publicação](./assets/learning-ojs3.2-auth-dashboard-publication2-language.png)
+
+Quando a permissão for concedida, você poderá fazer alterações nas seguintes seções na guia Publicação: Título e Resumo, Colaboradores e Metadados. Embora Composição final esteja listada como uma opção no menu lateral, você não poderá fazer upload ou alterações nesta seção.
+
+e você notar que o botão 'Salvar' está cinza e inativo, isso significa que terá que solicitar permissão do Editor para fazer alterações em sua submissão ou pedir-lhe que faça as alterações para você.
+
+<hr />
+
+## Respondendo a uma revisão
+
+Assim que o processo de revisão for concluído, você será notificado por e-mail pelo Editor sobre sua decisão.
+
+Após receber o e-mail com a decisão, faça o login no seu painel. Selecione o manuscrito sobre o qual você foi notificado.
+
+![Painel de submissão com itens em avaliação](./assets/learning-ojs-3.2-auth-responding-revisions.png)
+
+Na guia Revisão do manuscrito, você também verá uma cópia da Decisão Editorial em Notificações. Dependendo do tipo de revisão por pares que o periódico usa, você pode ver menos informações na guia Revisão do periódico. O exemplo abaixo mostra uma revisão por pares aberta que permite aos autores ver quem foi o revisor.
 
 ![Review tab of manuscript](./assets/learning-ojs-3.2-auth-responding-revisions2.png)
 
-To view the Editorial decision, click the link under notifications.
+Para visualizar a decisão editorial, clique no link abaixo de notificações.
 
 ![Editor decision notification](./assets/learning-ojs-3.2-auth-responding-revisions3.png)
 
-Based on the information in the editor's message, you must now prepare your revisions.
+Com base nas informações da mensagem do Editor, agora você deve preparar suas revisões.
 
-### Uploading the Revised File
+### Enviando o arquivo revisado
 
-Once you’re ready to upload the revised file, scroll down the page and find the panel for **Revisions**.
+Quando estiver pronto para carregar o arquivo revisado, role a página para baixo e encontre o painel de **Revisões**.
 
 ![Revisions panel](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
-Use the *Upload a File* link to upload your revised manuscript.
+Use o link *Carregar um Arquivo* para carregar seu manuscrito revisado.
 
 ![Upload review file](./assets/learning-ojs-3-auth-responding-upload.png)
 
-Use the dropdown menu to choose that you are uploading a revision of an existing file.
+Use o menu suspenso para escolher se você está enviando a revisão de um arquivo existente.
 
-Then upload the revised file and hit **Continue**.
+Em seguida, carregue o arquivo revisado e clique em **Continuar**.
 
 ![Review file details and continue](./assets/learning-ojs-3-auth-responding-upload2.png)
 
-Check the file details and hit **Continue** again.
+Verifique os detalhes do arquivo e clique em **Continuar** novamente.
 
 ![Add another file or complete upload](./assets/learning-ojs-3-auth-responding-upload3.png)
 
-If you have any additional files to upload, do so now. Otherwise, hit **Complete**.
+Se você tiver arquivos adicionais para enviar, faça-o agora. Caso contrário, clique em **Concluir**.
 
-Your revised file is now visible in the Revisions panel.
+Seu arquivo revisado agora está visível no painel Revisões.
 
 ![Revised file now in revisions panel](./assets/learning-ojs-3-auth-responding-upload4.png)
 
-### Inform the Editor
+### Informe o Editor
 
-The editor will receive a notification about the new file(s) being uploaded. Additionally you can inform the editor via the Review Discussion panel as explained below.
+O Editor receberá uma notificação sobre o(s) novo(s) arquivo(s) sendo carregado(s). Além disso, você pode informá-lo do envio por meio do painel Revisar Discussão, conforme explicado abaixo.
 
 ![Review discussions panel](./assets/learning-ojs-3-auth-responding-discussion.png)
 
-From there, select the *Add Discussion* link.
+A partir daí, selecione o link *Adicionar discussão*.
 
-Select the users you want to notify under Participants.
+Selecione os usuários que deseja notificar em Participantes.
 
 ![Add discussion and select participants](./assets/learning-ojs-3.2-auth-responding-discussion-add.png)
 
-Add a subject line and a message.
+Adicione uma linha de assunto e uma mensagem.
 
-Hit **OK** to send the message.
+Clique em **OK** para enviar a mensagem.
 
-An email has now been sent to the editor and you (and the editor) can see the message in the Review Discussions panel.
+Um e-mail é enviado ao Editor e tanto você quanto ele podem ver a mensagem no painel Revisar Discussões.
 
 ![Message in review discussions panel](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
 
-At this point, the author needs to wait to hear back from the editor as to whether the revisions are acceptable.
+Neste ponto, o Autor precisa esperar para receber a notificação  do Editor de que as revisões foram aceitas.
 
-### Revisions Accepted
+### Revisões aceitas
 
-You will receive an email that your revisions have been accepted.
+Você receberá um e-mail informando que suas revisões foram aceitas.
 
-In addition, notifications will appear on your dashboard.
+Além disso, as notificações aparecerão em seu painel.
 
 ![Notifications in dashboard](./assets/learning-ojs-3.2-au-notifications.png)
 
-The notifications show up in order of date, meaning the most recent one will be on the bottom. Click on it to open the message (which is the same as the email you would have also received).
+As notificações aparecem em ordem de data, o que significa que a mais recente estará na parte inferior. Clique nele para abrir a mensagem (que é igual ao e-mail que você também recebeu).
 
 ![Notification message](./assets/learning-ojs-3-au-notifications2.png)
 
-Use the **X** in the upper right corner to close the window.
+Use o **X** no canto superior direito para fechar a janela.
 
-Further down your dashboard, you will also see a discussion reply from the editor.
+Mais abaixo em seu painel, você também verá uma resposta do Editor para a discussão.
 
 ![Discussion reply in review discussion panel](./assets/learning-ojs-3-au-rev-discussions.png)
 
-Clicking the discussion title will open it up.
+Cique no título da discussão para abri-lo.
 
 ![Review discussion message](./assets/learning-ojs-3-au-rev-discussions2.png)
 
-Congratulations! You've been accepted and your submission file is moving on to the Copyedit stage.
+Parabéns! Sua revisão foi aceita e seu arquivo de envio está avançando para o estágio de edição.
 
 <hr />
 
-## Resubmitting for Review
+## Reenviando para revisão.
 
-If the editor’s decision is to resubmit for review, you will need to log in and select the article in your submissions page. The resubmission is done in the review stage, there is no need to start a new submission.
+Se a decisão do Editor for reenviar para revisão, você precisará fazer o login e selecionar o artigo na página de submissões. O reenvio é feito na fase de revisão, não havendo necessidade de iniciar um novo envio.
 
-At the review stage you will need to do two things to resubmit once you have revised your document:
+Na fase de revisão, você precisará fazer duas coisas para reenviar depois de revisar seu documento:
 
-Upload the new file in the revisions section. To upload a new file click on ‘Upload file.’ A new window will open allowing you to upload your file(s). Select the appropriate option from the dropdown menu to indicate you are submitting a revision of an existing file.
+Carregue o novo arquivo na seção de revisões. Para enviar um novo arquivo, clique em 'Enviar arquivo'. Uma nova janela será aberta, permitindo que você carregue seu(s) arquivo(s). Selecione a opção apropriada no menu suspenso para indicar que você está enviando uma revisão de um arquivo existente.
 
-Add a discussion to notify the editor that you have re-submitted.
+Adicione uma discussão para notificar o Editor de que você reenviou o arquivo.
 
-The peer review process will be repeated, and you will likely receive additional revisions to make. Once these are completed and accepted, you will then be moved to the next stage.
+O processo de revisão por pares será repetido e você provavelmente receberá revisões adicionais para fazer. Assim que forem concluídas e aceitas, você será movido para o próximo estágio.
 
 <hr />
 
-## Responding to a Copyediting Request
+## Respondendo a uma solicitação de edição de texto
 
-The next step in the workflow is to inspect your submission files that have been copyedited.
+A próxima etapa no fluxo de trabalho é inspecionar os arquivos de envio que foram editados.
 
-You will receive an email indicating that files are available. To see them, login to the journal and go to your dashboard.
+Você receberá um e-mail indicando que os arquivos estão disponíveis. Para vê-los, faça o login no Periódico e vá ao seu painel.
 
 ![Author submission dashboard](./assets/learning-ojs-3-au-copyedits.png)
 
-You can see your entry in the My Authored panel. Select the Copyediting link to go to the full submission record, including the notification in the Copyediting Discussions panel.
+Você pode ver sua submissão no painel Minha Autoria. Selecione o link de edição de texto (Copyediting) para acessar o registro de envio completo, incluindo a notificação no painel Discussões de edição de texto.
 
 ![Copyediting section of author dashboard](./assets/learning-ojs-3-au-copyedits-notice.png)
 
-Click on the linked discussion to open it, read the message, and open the attached file.
+Clique no link da discussão para abri-lo, ler a mensagem e abrir o arquivo anexado.
 
 ![Copyediting check discussion message](./assets/learning-ojs-3-au-copyedits-message.png)
 
-Once you have read the attached file, you can respond to the copyeditor indicating any required changes or your approval.
+Depois de ler o arquivo anexado, você pode responder ao revisor, indicando as alterações necessárias ou sua aprovação.
 
 ![Respond to copyediting check message](./assets/learning-ojs-3-au-copyedits-reply.png)
 
-If needed, you could attach a revision, but for this example we will simply approve the changes and hit **OK**.
+Se necessário, você pode anexar uma revisão, mas, para este exemplo, as alterações serão simplesmente aprovadas, clicando em **OK**.
 
-On your dashboard, you can see that you were the last person to reply to the message.
+No seu painel, é possível ver quem foi a última pessoa a responder à mensagem.
 
 ![Dashboard showing copyediting discussions](./assets/learning-ojs-3-au-copyedits-final-dash.png)
 
-Your role in the copyediting process is now complete and you can wait for the request to proofread the final galleys (e.g., PDFs, HTML, etc.) before publication.
+Sua função no processo de edição de texto agora está concluída e você pode aguardar a solicitação para revisar as provas finais (por exemplo, PDFs, HTML, etc.) antes da publicação.
 
 <hr />
 
-## Responding to a Proofreading Request
+## Respondendo a uma solicitação de revisão
 
-The next step in the workflow is to inspect your submission files that have been converted into galleys (e.g., PDF, HTML, etc.).
+A próxima etapa no fluxo de trabalho é inspecionar seus arquivos de submissão que foram convertidos em outros formatos (por exemplo, PDF, HTML, etc.).
 
-You will receive an email indicating that files are available. To see them, login to the journal and go to your dashboard.
+Você receberá um e-mail indicando que os arquivos estão disponíveis. Para vê-los, faça o login na Revista e vá ao seu painel.
 
 ![Author submission dashboard](./assets/learning-ojs-3-au-production-dashboard.png)
 
-You can see your entry in the My Authored panel. Select the Production link to go to the full submission record, including the notification in the Production Discussions panel.
+Você pode ver sua entrada no painel Minha Autoria. Selecione o link Produção para acessar o registro de envio completo, incluindo a notificação no painel Discussões de produção.
 
 ![Production section of author dashboard](./assets/learning-ojs-3-au-production-record.png)
 
-Click on the linked discussion to open it, read the message, and open the attached file.
+Clique no link da discussão para abri-lo, ler a mensagem e abrir o arquivo anexado.
 
 ![Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message.png)
 
-Once you have read the attached file, you can respond to the Layout Editor indicating any required changes or your approval.
+Depois de ler o arquivo anexado, você pode responder ao Editor de Layout, indicando as alterações necessárias ou sua aprovação.
 
 ![Respond to Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message2.png)
 
-That's it! Your role in the editorial workflow is now completed.
+É isso! Sua função no fluxo de trabalho editorial agora está concluída.
