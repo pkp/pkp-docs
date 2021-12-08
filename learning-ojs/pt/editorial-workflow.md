@@ -25,7 +25,7 @@ Algumas submissões não são aprovadas na avaliação e não passam desse está
 
 <hr />
 
-## Fila (Minhas Submissões Designadas)
+## Tarefas
 
 Suas tarefas estão disponíveis no menu superior esquerdo do seu painel. Observe o número “1” na imagem abaixo. Isso indica que há, no momento, uma tarefa em sua lista.
 
@@ -33,21 +33,21 @@ Suas tarefas estão disponíveis no menu superior esquerdo do seu painel. Observ
 
 As tarefas fornecem uma visão rápida dos itens que precisam de sua atenção. Entradas em negrito não foram lidas e entradas sem negrito foram lidas.
 
-Quando um autor faz uma nova submissão ao seu periódico, o editor recebe automaticamente uma notificação por e-mail e o autor recebe um e-mail agradecendo pela submissão.
+Use a caixa de seleção para marcar tarefas para exclusão (o link está disponível na parte inferior da lista).
 
 <hr />
 
-## Submissões Não Designadas
+## Notificações de submissão
 
-When an author makes a new submission to your journal, the author and all contributors will receive an email acknowledging their submission and an editor will be automatically emailed a notification of the new submission. In some cases an editor will be automatically assigned to the submission. Which editor(s) receive the notification or are automatically assigned will depend on how you have set up your journal.
+Quando um autor faz uma nova submissão ao seu periódico, o autor e todos os colaboradores receberão um e-mail reconhecendo a sua submissão e um editor receberá automaticamente uma notificação da nova submissão. Em alguns casos, um editor será automaticamente atribuído à submissão. Qual editor (s) recebe a notificação ou é automaticamente atribuído dependerá de como você configurou o seu periódico.
 
-* If there is only one user assigned to an Editor or Journal Manager role, that user will be automatically assigned and notified.
-* If one or more Section Editors are assigned to the [section](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) the submission was made in, they will be automatically assigned to the submission and notified.
-* If one or more Section Editors are assigned to a [category](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#categories) the submission was made in, they will be automatically assigned to the submission and notified.
+* Se houver apenas um usuário atribuído a um papel de editor ou gerente de periódico, esse usuário será atribuído e notificado automaticamente.
+* Se um ou mais editores de seção forem atribuídos à [seção](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) a qual a submissão foi feita, eles serão automaticamente atribuídos a esta submissão e notificados.
+* Se um ou mais editores de seção são atribuídos a uma [categoria](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#categories) que a submissão foi feita, eles serão automaticamente atribuídos a esta submissão e notificados.
 
 Você também pode configurar o OJS para que uma cópia do e-mail de notificação seja enviada ao contato principal do periódico, definido nas Configurações do periódico, ou para outro endereço.
 
-Atenção: essa opção não está disponível no OJS 3.3.
+Para habilitar cópias do e-mail de confirmação de submissão a ser enviado para o contato primário ou outro endereço:
 
 1. No painel de controle, vá a Configurações> Fluxo de trabalho> submissões;
 2. Role para baixo até Notificação de submissão do autor;
@@ -60,25 +60,25 @@ Se você quiser desativar os e-mails de Agradecimento pela Submissão, pode faz�
 
 Os usuários também podem alterar suas configurações de notificação individuais em seu próprio perfil, acessando Perfil> Notificações.
 
-## Ativos
+## Painel de submissões
 
 Ao fazer login em seu painel, você pode encontrar submissões ativas de suas tarefas ou de uma das filas (Fila, Submissões Não Designadas, Ativos e Arquivos). O contador oferece uma visão geral de quantos itens, no total, existem em cada fila.
 
 ![learning-ojs3.1-ed-dashboard-unassigned.png](./assets/learning-ojs3.2-ed-dashboard-active.png)
 
-### Aceitando a designação
+### Minha Fila
+
+**Minhas Submissões Designadas**: Esse painel inclui submissões adicionadas a seções onde você é um editor de seção ou as suas próprias submissões, se você também for um autor desse periódico.
 
 A ferramenta **Buscar**, para cada fila, pode, às vezes, ser útil para rastrear as submissões.
-
-**Cancelar avaliador**: permite cancelar a atribuição do avaliador.
 
 A ferramenta **Filtro** permite limitar sua navegação a um status específico, a fim de se realizar uma pesquisa mais rápida. Dependendo de seu papel, as funções editoriais serão capazes de filtrar:
 
 - **Status**: selecione entre *incompleto*, *atrasado* e *inativo por 30 dias*
 
-- **Estágios**: selecione entre *submissão*, *avaliação*, *edição de texto* e *editoração*
+- **Estágios**: selecione entre _submissão_, _avaliação_, _edição de texto_ e _editoração_
 
-- **Seções**: essa opção só está disponível se houver mais de 5 seções. Depois de começar a inserir o texto, o filtro irá sugerir ações automaticamente. Por exemplo, filtre por *artigos ou resenhas*
+- __Seções__: essa opção só está disponível se houver mais de 5 seções. Após começar a inserir o texto, o filtro irá sugerir ações automaticamente. Por exemplo, filtre por _artigos_ ou _resenhas_
 
 - **Editor(es) atribuído(s)**: apenas os gerentes de periódicos têm essas opções de filtro. Como as seções, esta é uma caixa de texto com sugestão automática de ações;
 
