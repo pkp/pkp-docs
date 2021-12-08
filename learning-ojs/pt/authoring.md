@@ -152,11 +152,11 @@ Após receber o e-mail com a decisão, faça o login no seu painel. Selecione o 
 
 Na guia Revisão do manuscrito, você também verá uma cópia da Decisão Editorial em Notificações. Dependendo do tipo de revisão por pares que o periódico usa, você pode ver menos informações na guia Revisão do periódico. O exemplo abaixo mostra uma revisão por pares aberta que permite aos autores ver quem foi o revisor.
 
-![Review tab of manuscript](./assets/learning-ojs-3.2-auth-responding-revisions2.png)
+![Aba de avaliação do manuscrito](./assets/learning-ojs-3.2-auth-responding-revisions2.png)
 
 Para visualizar a decisão editorial, clique no link abaixo de notificações.
 
-![Editor decision notification](./assets/learning-ojs-3.2-auth-responding-revisions3.png)
+![Notificação de decisão do editor](./assets/learning-ojs-3.2-auth-responding-revisions3.png)
 
 Com base nas informações da mensagem do Editor, agora você deve preparar suas revisões.
 
@@ -164,39 +164,39 @@ Com base nas informações da mensagem do Editor, agora você deve preparar suas
 
 Quando estiver pronto para carregar o arquivo revisado, role a página para baixo e encontre o painel de **Revisões**.
 
-![Revisions panel](./assets/learning-ojs-3-auth-responding-revisions4.png)
+![Painel de revisões](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
 Use o link *Carregar um Arquivo* para carregar seu manuscrito revisado.
 
-![Upload review file](./assets/learning-ojs-3-auth-responding-upload.png)
+![Enviar arquivo de revisão](./assets/learning-ojs-3-auth-responding-upload.png)
 
 Use o menu suspenso para escolher se você está enviando a revisão de um arquivo existente.
 
 Em seguida, carregue o arquivo revisado e clique em **Continuar**.
 
-![Review file details and continue](./assets/learning-ojs-3-auth-responding-upload2.png)
+![Revise os detalhes do arquivo e continue](./assets/learning-ojs-3-auth-responding-upload2.png)
 
 Verifique os detalhes do arquivo e clique em **Continuar** novamente.
 
-![Add another file or complete upload](./assets/learning-ojs-3-auth-responding-upload3.png)
+![Adicionar outro arquivo ou concluir o envio](./assets/learning-ojs-3-auth-responding-upload3.png)
 
 Se você tiver arquivos adicionais para enviar, faça-o agora. Caso contrário, clique em **Concluir**.
 
 Seu arquivo revisado agora está visível no painel Revisões.
 
-![Revised file now in revisions panel](./assets/learning-ojs-3-auth-responding-upload4.png)
+![Arquivo revisado agora no painel de revisões](./assets/learning-ojs-3-auth-responding-upload4.png)
 
 ### Informe o Editor
 
 O Editor receberá uma notificação sobre o(s) novo(s) arquivo(s) sendo carregado(s). Além disso, você pode informá-lo do envio por meio do painel Revisar Discussão, conforme explicado abaixo.
 
-![Review discussions panel](./assets/learning-ojs-3-auth-responding-discussion.png)
+![Painel de discussões de avaliação](./assets/learning-ojs-3-auth-responding-discussion.png)
 
 A partir daí, selecione o link *Adicionar discussão*.
 
 Selecione os usuários que deseja notificar em Participantes.
 
-![Add discussion and select participants](./assets/learning-ojs-3.2-auth-responding-discussion-add.png)
+![Adicionar a discussão e selecionar participantes](./assets/learning-ojs-3.2-auth-responding-discussion-add.png)
 
 Adicione uma linha de assunto e uma mensagem.
 
@@ -204,7 +204,7 @@ Clique em **OK** para enviar a mensagem.
 
 Um e-mail é enviado ao Editor e tanto você quanto ele podem ver a mensagem no painel Revisar Discussões.
 
-![Message in review discussions panel](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
+![Mensagem no painel de discussões da avaliação](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
 
 Neste ponto, o Autor precisa esperar para receber a notificação  do Editor de que as revisões foram aceitas.
 
@@ -214,17 +214,17 @@ Você receberá um e-mail informando que suas revisões foram aceitas.
 
 Além disso, as notificações aparecerão em seu painel.
 
-![Notifications in dashboard](./assets/learning-ojs-3.2-au-notifications.png)
+![Notificações no Painel](./assets/learning-ojs-3.2-au-notifications.png)
 
 As notificações aparecem em ordem de data, o que significa que a mais recente estará na parte inferior. Clique nele para abrir a mensagem (que é igual ao e-mail que você também recebeu).
 
-![Notification message](./assets/learning-ojs-3-au-notifications2.png)
+![Mensagem de notificação](./assets/learning-ojs-3-au-notifications2.png)
 
 Use o **X** no canto superior direito para fechar a janela.
 
 Mais abaixo em seu painel, você também verá uma resposta do Editor para a discussão.
 
-![Discussion reply in review discussion panel](./assets/learning-ojs-3-au-rev-discussions.png)
+![Responder à discussão no painel de discussão de avaliação](./assets/learning-ojs-3-au-rev-discussions.png)
 
 Cique no título da discussão para abri-lo.
 
@@ -254,7 +254,7 @@ A próxima etapa no fluxo de trabalho é inspecionar os arquivos de envio que fo
 
 Você receberá um e-mail indicando que os arquivos estão disponíveis. Para vê-los, faça o login no Periódico e vá ao seu painel.
 
-![Author submission dashboard](./assets/learning-ojs-3-au-copyedits.png)
+![Painel de submissão do autor](./assets/learning-ojs-3-au-copyedits.png)
 
 Você pode ver sua submissão no painel Minha Autoria. Selecione o link de edição de texto (Copyediting) para acessar o registro de envio completo, incluindo a notificação no painel Discussões de edição de texto.
 
