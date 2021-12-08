@@ -1,8 +1,8 @@
 ---
 book: learning-ojs
 version: 3.3
-title: Learning Open Journal Systems 3.3 - Editorial Workflow
-description: How to manage an article manuscript through the OJS workflow, from submission to publication.
+title: Aprendendo Open Journal Systems 3.3 - Fluxo Editorial
+description: Como gerenciar um artigo manuscrito através do fluxo de trabalho OJS, da submissão a publicação.
 ---
 
 # Fluxo de Trabalho Editorial
