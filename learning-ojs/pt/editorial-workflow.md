@@ -82,7 +82,7 @@ A ferramenta **Filtro** permite limitar sua navegação a um status específico,
 
 - **Editor(es) atribuído(s)**: apenas os gerentes de periódicos têm essas opções de filtro. Como as seções, esta é uma caixa de texto com sugestão automática de ações;
 
-- **Edição atribuída**: apenas gerentes de periódicos podem filtrar por fascículos não publicados, mas editores e assistentes poderão filtrar por fascículos publicados. Esse campo diferencia maiúsculas de minúsculas e requer correspondência exata. Para obter melhores resultados, pesquise por ano ou título, em vez de volume ou número. Esse filtro é usado principalmente se a atribuição de uma submissão a uma edição for feita em uma fase inicial do processo editorial.
+- __Edição atribuída__: apenas gerentes de periódicos podem filtrar por fascículos não publicados, mas editores e assistentes poderão filtrar por fascículos publicados. Esse campo diferencia maiúsculas de minúsculas e requer correspondência exata. Para obter melhores resultados, pesquise por ano ou título, em vez de volume ou número. Esse filtro é usado principalmente se a atribuição de uma submissão a uma edição for feita em uma fase inicial do processo editorial.
 
 Alguns filtros permitem várias seleções. Os usuários podem filtrar por mais de um editor, uma seção ou edição. Os filtros são aplicados com condições OU, portanto, quando um usuário selecionar filtrar pelo Editor A e Editor B, todas as submissões que são atribuídas ao editor A ou ao editor B serão retornadas.
 
@@ -94,33 +94,33 @@ Observe que você pode usar as setas azuis à direita de cada submissão para re
 
 ![A sample of expanded submission details in the dashboard.](./assets/learning-ojs3.2-ed-dashboard-active-details.png)
 
-### Comunicando-se com o autor
+### Submissões não designadas
 
 Esse painel inclui submissões adicionadas a seções sem editores de seção.
 
 ![The Unassigned tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-unassigned.png)
 
-Esse painel inclui uma lista de todas as submissões, sem ser organizada em filas.
+No exemplo acima, não há submissões não designadas, então o painel está vazio.
 
-### Enviando para avaliação
+### Ativos
 
-This section includes a list of all submissions, without being organized into queues.
+Essa seção inclui uma lista de todas as submissões, sem ser organizada em filas.
 
 ![learning-ojs3.1-ed-dashboard-all-active.png](./assets/learning-ojs3.1-ed-dashboard-all-active.png)
 
-### Consulte o autor
+### Arquivos
 
-Esse painel inclui uma lista de todas as submissões rejeitadas ou já publicadas pela revista. As submissões rejeitadas ​​podem ser excluídas da lista de submissões arquivadas. A exclusão de uma submissão rejeitada removerá completamente a submissão e todos os arquivos de submissão de sua revista.
+Essa seção inclui uma lista de todas as submissões rejeitadas ou já publicadas pela revista. As submissões rejeitadas ​​podem ser excluídas da lista de submissões arquivadas. A exclusão de uma submissão rejeitada removerá completamente a submissão e todos os arquivos de submissão de sua revista.
 
 ![The list of archived submissions with the option to delete submissions.](./assets/ojs-3.3-sub-delete.png)
 
-### Notificações de submissão
+### Submissão de demonstração
 
 Para esta demonstração, estamos procurando a submissão de Williamson e Serletis, intitulada *Os Agentes Oficiais de Conhecimento e Educação de Adultos*. Ela pode ser encontrada no topo de **Fila (Minhas Submissões Designadas)**, bem como em **Ativos**.
 
 ![The My Assigned queue on the OJS Submissions Dashboard, with the example article by Cerpa at the top of the queue.](./assets/learning-ojs3.3-submission-queue.png)
 
-Depois de encontrar a submissão, você pode usar o botão visualizar, para ver a submissão, ou usar a seta azul, para revelar opções e ver se há alguma discussão aberta (não há nenhuma neste caso), o número de composições finais criadas e acesso ao registro de atividades e anotações.
+Após encontrar a submissão, você pode usar o botão visualizar, para ver a submissão, ou usar a seta azul, para revelar opções e ver se há alguma discussão aberta (não há nenhuma neste caso), o número de composições finais criadas e acesso ao registro de atividades e anotações.
 
 ![A submission with the options menu expanded.](./assets/learning-ojs3.3-submission-options.png)
 
@@ -134,7 +134,7 @@ Use a guia Notas para também visualizar ou adicionar quaisquer notas editoriais
 
 ### Registro de submissão
 
-To view the submission in more detail, select **View Submission** button. This will take you to the submission record.
+Para ver a submissão com mais detalhes, selecione o botão ***Ver Submissão**. Isso levará você ao registro de submissão.
 
 ![A sample submission record.](./assets/learning-ojs3.1-ed-dashboard-record.png)
 
