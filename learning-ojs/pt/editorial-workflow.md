@@ -152,19 +152,19 @@ Para periódicos que usam avaliação anônima, os dados do autor e do avaliador
 
 **Status da submissão**: uma vez que um editor registrou uma decisão em um estágio do fluxo de trabalho, a partir do OJS 3.2, a decisão registrada aparecerá no lugar dos botões de decisão. Os editores ainda terão a capacidade de alterar a decisão registrada clicando em 'Alterar decisão', isso habilitará as 3 opções mais uma vez.
 
-![The Change Decision button in the submission status.](./assets/learning-ojs3.2_edflow_decisionstatus2.png) A captura de tela acima mostra o botão de decisão para o MS # 425 antes de uma decisão ser registrada. A captura de tela abaixo mostra a notificação da decisão registrada.
+![The Change Decision button in the submission status.](./assets/learning-ojs3.2_edflow_decisionstatus2.png) *A captura de tela acima mostra o botão de decisão para o MS# 425 antes de uma decisão ser registrada. A captura de tela abaixo mostra a notificação da decisão registrada.*
 
 ![learning-ojs3.2_edflow_decisionstatus_accept.png](./assets/learning-ojs3.2_edflow_decisionstatus_accept.png)
 
 **Participantes**: nesse painel, você verá a lista de participantes envolvidos na submissão, incluindo o editor, editores de seção e autor. Outros nomes (editores de texto, editores de layout, etc.) aparecerão aqui à medida que forem adicionados nas etapas subsequentes.
 
-**Biblioteca da Submissão**: a Biblioteca da Submissão é uma área de armazenamento geral de documentos, que podem incluir formulários de conflito de interesses, formulários de aprovação de composição final, etc. Um usuário pode carregar o formulário preenchido para seu manuscrito em sua Biblioteca da Submissão. A user can upload the completed form for their manuscript in their Submission Library. Os formulários carregados também estarão disponíveis para outros participantes (com exceção dos avaliadores) atribuídos ao longo do fluxo de trabalho editorial ou de produção, para editar ou recarregar novas versões.
+**Biblioteca da Submissão**: a Biblioteca da Submissão é uma área de armazenamento geral de documentos, que podem incluir formulários de conflito de interesses, formulários de aprovação de composição final, etc. Um usuário pode carregar o formulário preenchido para seu manuscrito em sua Biblioteca da Submissão. Um usuário pode enviar o formulário preenchido para seu manuscrito na sua Biblioteca de Submissões. Os formulários carregados também estarão disponíveis para outros participantes (com exceção dos avaliadores) atribuídos ao longo do fluxo de trabalho editorial ou de produção, para editar ou recarregar novas versões.
 
 **Biblioteca da revista**: os usuários, em todo o fluxo de trabalho editorial, poderão acessar todos os arquivos na Biblioteca da revista (consulte [o capítulo Configurações do fluxo de trabalho](https://github.com/pkp/pkp-docs/blob/main/learning-ojs/en/settings-workflow.md)), disponibilizados pelo Gerente da revista ou Editor, abrindo a Biblioteca da Submissão e clicando em “Ver Biblioteca da Revista”.
 
 ![learning-ojs3.1-jm-settings-workflow-sublib1.png](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
 
-**Visualização** : mostra como a submissão ficará quando publicada, com seus metadados e arquivos de composição final atuais, clicando em Visualizar.
+**Pré-visualização**: mostra como a submissão ficará quando publicada, com seus metadados e arquivos de composição final atuais, clicando em Visualizar.
 
 ![learning-ojs-3-ed-preview.png](./assets/learning-ojs-3-ed-preview.png)
 
@@ -204,7 +204,7 @@ Assim que o autor tiver acesso às edições feitas, ele poderá fazer alteraç�
 
 ### Designando a Submissão
 
-Dependendo de como você configurou suas seções, algumas novas submissões podem vir sem designação. Se for esse o caso, a próxima etapa é designar um editor ou editor de seção. Para fazer isso, selecione o link *Designar*, no painel **Participantes**.
+Dependendo de como você configurou suas seções, algumas novas submissões podem vir sem designação. Se for esse o caso, a próxima etapa é designar um editor ou editor de seção. Para fazer isso, selecione o link _Designar_, no painel **Participantes**.
 
 ![learning-ojs-3-ed-submissions-add-participant.png](./assets/learning-ojs-3-ed-submissions-add-participant.png)
 
@@ -242,15 +242,15 @@ Clicar em Visualizar abre o registro de submissão completo.
 
 ![learning-ojs3.1-se-record.png](./assets/learning-ojs3.1-se-record.png)
 
-#### Microsoft Word para Windows
+#### Aceitando a designação
 
 Não é obrigatório, mas o Editor de Seção pode responder à Discussão da Pré-avaliação para informar ao editor que dará continuidade ao trabalho.
 
-#### Microsoft Word para MacOS
+#### Comunicando-se com o autor
 
 Se o Editor de Seção tiver alguma pergunta ao autor, pode usar as Discussões de pré-avaliação.
 
-#### Respondendo a comentários
+#### Enviando para avaliação
 
 Uma vez que o Editor de Seção esteja satisfeito com a submissão apropriada ao periódico, ele pode selecionar o botão **Enviar para Avaliação** para mover a submissão ao próximo estágio.
 
@@ -260,7 +260,7 @@ Mantenha os arquivos que serão revisados ​​desmarcados.
 
 <hr />
 
-## Arquivos
+## Comentário
 
 Quando a submissão entra no Estágio de Avaliação, uma notificação indica que os Avaliadores precisam ser atribuídos.
 
@@ -274,7 +274,7 @@ Essa ação abrirá uma janela para você selecionar quais arquivos (fornecidos 
 
 ![The Locate a Reviewer window listing all Reviewers.](./assets/learning-ojs-3.1.2-locate-reviewer.png)
 
-Clicar na seta azul revela mais informações sobre seu histórico de avaliação, incluindo quantas avaliações ativas estão atualmente atribuídas, quantas avaliações estão concluídas ou foram recusadas, etc. Se o usuário adicionou uma biografia ou avaliação de interesses, essas informações serão exibidas aqui. If the user has added a Biography or Reviewing Interests, this information will be displayed here.
+Clicar na seta azul revela mais informações sobre seu histórico de avaliação, incluindo quantas avaliações ativas estão atualmente atribuídas, quantas avaliações estão concluídas ou foram recusadas, etc. Se o usuário adicionou uma biografia ou avaliação de interesses, essas informações serão exibidas aqui.
 
 Além disso, o Editor da Revista pode adicionar uma Nota Editorial sobre o avaliador em seu perfil por meio de Usuários & Papéis> Usuários. Essa nota aparece nos detalhes do avaliador na tela Adicionar avaliador, mas não estará visível para o avaliador ou para o público.
 
@@ -282,15 +282,15 @@ Além disso, o Editor da Revista pode adicionar uma Nota Editorial sobre o avali
 
 Nos releases 3.0 a 3.1.0 do OJS, você não pode designar um usuário para revisar uma submissão, se ele também for um editor da submissão.  Se você fizer isso, o editor não poderá mais acessar a submissão após enviar sua avaliação, a fim de manter os princípios da avaliação por pares anônima. No entanto, a partir do OJS 3.1.1, você pode designar um usuário para revisar uma submissão, se ele também for um editor da submissão.
 
-**Selecionar avaliador**: use para confirmar sua seleção depois de escolher um avaliador da lista.
+Na parte inferior desse formulário, você verá opções para:
 
-Selecione o(s) arquivo(s) de avaliação e clique em **OK**.
+**Selecionar avaliador**: use para confirmar sua seleção depois de escolher um avaliador da lista.
 
 **Criar novo avaliador**: se nenhum dos avaliadores for adequado, você pode usar esse botão para criar um novo avaliador. Essa é uma nova conta no sistema.
 
-Para esta demonstração, escolhemos Adela como nosso avaliador e clicamos no botão **Selecionar avaliador**.
+**Designar usuário existente**: se nenhum dos avaliadores for adequado, você pode inscrever um usuário existente como avaliador.
 
-Essa ação inicia uma nova janela com uma mensagem para o Avaliador.
+Para esta demonstração, escolhemos Adela como nosso avaliador e clicamos no botão **Selecionar avaliador**.
 
 Essa ação abrirá uma nova janela.
 
@@ -306,7 +306,7 @@ Mais adiante, no formulário, é possível ver os detalhes adicionais que são e
 
 É uma ação padrão, os avaliadores receberem uma caixa de texto estendida para digitar seus comentários. No entanto, o Editor Gerente pode criar formulários de avaliação em [Configurações> Fluxo de trabalho> Avaliação](https://github.com/pkp/pkp-docs/blob/main/learning-ojs/en/settings-workflow#review) para fazer perguntas mais específicas. Se desejar que o avaliador preencha um formulário de avaliação, selecione-o em **Formulário de avaliação**.
 
-De volta ao estágio de avaliação, podemos ver que o avaliador agora está listado.
+Em seguida, clique no botão **Adicionar avaliador**, para enviar a mensagem e atribuir o avaliador.
 
 Voltando ao estágio de edição de texto, é possível ver que a mensagem foi postada.
 
@@ -328,7 +328,7 @@ Você pode fazer alterações adicionais, alternando a seta azul ao lado do nome
 
 ![The Edit Review window.](./assets/learning-ojs-3-ed-rev-reviewer-edit-review.png)
 
-**Designar usuário existente** : se nenhum dos avaliadores for adequado, você pode inscrever um usuário existente como avaliador.
+**Cancelar avaliador**: permite cancelar a atribuição do avaliador.
 
 **Dispensar avaliador**: a partir do OJS 3.2, você pode cancelar uma solicitação de avaliação. Isso pode ser necessário quando um avaliador não respondeu a uma solicitação de avaliação ou aceitou fazer uma avaliação, mas nunca a entregou.
 
@@ -356,19 +356,19 @@ Em seguida, selecione o(s) avaliador(es) com quem gostaria de iniciar uma discus
 
 ![The review History window.](./assets/learning-ojs-3-ed-rev-review-history.png)
 
-O OJS foi projetado para acomodar diferentes tipos de avaliações e possui etapas integradas para garantir o anonimato.
+Nesse ponto, é possível adicionar avaliadores adicionais e, em seguida, aguardar a chegada de suas recomendações.
 
 ### Compreendendo a avaliação anônima
 
-OJS is designed to accommodate different types of reviews and has built-in steps to ensure anonymity.
+O OJS foi projetado para acomodar diferentes tipos de avaliações e possui etapas integradas para garantir o anonimato.
 
 Todas as informações ficarão visíveis para os gerentes e editores da revista, independentemente do tipo de avaliação selecionada. O tipo de avaliação será selecionado automaticamente com base no que foi configurado em *Configurações > Fluxo de trabalho > Avaliação*. Os editores podem alterar o tipo de avaliação ao enviar a solicitação de avaliação. Editores/Editores de Seção devem selecionar o tipo de avaliação ao enviar a solicitação de avaliação, dentre as seguintes opções:
 
-* Duplo cega (Avaliador Anônimo/Autor Anônimo);
-* Cega (Avaliador Anônimo/Autor Divulgado);
+* Avaliador Anônimo/Autor Anônimo
+* Avaliador Anônimo/Autor Divulgado
 * Abrir.
 
-**Duplo Cega (Avaliador Anônimo/Autor Anônimo)**: a identidade do autor e do avaliador é mantida oculta.
+**Avaliador Anônimo/Autor Anônimo**: a identidade do autor e do avaliador é mantida oculta.
 
 O autor ou editor deve garantir que os metadados do arquivo do manuscrito sejam removidos na Duplo cega  (avaliador Anônimo/Autor Anônimo). Consulte [Removendo informações de identificação](https://github.com/pkp/pkp-docs/blob/main/learning-ojs/en/editorial-workflow.md#removing-identifying-information) para obter mais informações.
 
@@ -386,7 +386,7 @@ No final de uma avaliação, se um avaliador decidir fazer upload de um arquivo 
 
 ![A sample decision email identifying the reviewer only as "Reviewer A".](./assets/learning-ojs3.1-ed-rev-anon3.png)
 
-**Cega (Avaliador Anônimo/Autor Divulgado)**: a identidade do avaliador é mantida no anonimato para o(s) autor(es). Os avaliadores podem ver os detalhes do autor.
+**Avaliador Anônimo/Autor Divulgado**: a identidade do avaliador é mantida no anonimato para o(s) autor(es). Os avaliadores podem ver os detalhes do autor.
 
 *Avaliador*: o avaliador pode ver todos os metadados inseridos pelo autor, clicando em *Exibir todos os detalhes da submissão* na guia de solicitação do manuscrito. O nome dos autores também aparecerá na fila do avaliador.
 
@@ -406,13 +406,13 @@ Embora o OJS tenha várias funções integradas para revisões anônimas, etapas
 
 Os autores também podem incluir seu nome no artigo, notas de rodapé e referências. Nesse caso, o editor terá que remover tais informações antes de enviar para avaliação. Alternativamente, os autores podem ser solicitados a redigir seus nomes do arquivo de submissão, com “Autor” e ano usados ​​nas referências e notas de rodapé ao invés do nome dos autores, título do artigo, etc., antes da submissão.
 
-#### Microsoft Word for Windows
+#### Microsoft Word para Windows
 
-1. Vá ao *arquivo*
-2. Selecione i*nformações*
-3. Clique em *Verificar Problemas*
-4. Clique em *Inspecionar Documento*
-5. Na caixa de diálogo *Inspetor de Documento* , marque as caixas de seleção para escolher os tipos de conteúdo oculto que deseja inspecionar
+1. Vá em _Arquivo_
+2. Selecione _Informações_
+3. Clique em _Verificar Problemas_
+4. Clique em _Inspecionar Documento_
+5. Na caixa de diálogo _Inspetor de Documento_, marque as caixas de seleção para escolher os tipos de conteúdo oculto que deseja inspecionar
 6. Clique em *Remover tudo*
 7. Clique em *Fechar*
 8. Salve o documento
