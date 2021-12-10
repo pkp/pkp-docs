@@ -13,9 +13,9 @@ The Tools section can be accessed from the left sidebar menu.
 
 Tools consist of an Import/Export tab, a Report Generator tab (called Statistics in OJS 3.1.1 and earlier), and a Permissions tab.
 
-For a video walkthrough of tools in OJS 3.3, see our [Setting up a journal in OJS 3.3. Module 14: Tools](https://www.youtube.com/watch?v=v3zjjVFYAyc&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY) video below.
+{% include video.html id="v3zjjVFYAyc" provider="youtube" title="Setting up a journal in OJS 3.3. Module 14: Tools"%}
+This PKP School video explains how to access and use Import/Export tools. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-[![Setting up a journal in OJS 3.3. Module 14: Tools](https://img.youtube.com/vi/v3zjjVFYAyc/0.jpg)](https://www.youtube.com/watch?v=v3zjjVFYAyc&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 ## Import/Export
 
@@ -32,6 +32,9 @@ For detailed instructions on importing and exporting see the [Administrator's Gu
 For more information on the Crossref XML Export Plugin, see the [PKP Crossref Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
 
 ### Quick Submit Plugin
+
+{% include video.html id="_nm1dGIZS8Y" provider="youtube" title="Setting up a journal in OJS 3.3. Module 18: Plugins- QuickSubmit"%}
+This PKP School video explains how to use the Quick Submit Plugin to add complete submissions to an issue. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 The Quick Submit Plugin allows you to quickly add complete submissions to an issue. It provides a one-step submission process for editors needing to bypass the traditional submission, review, and editing process.
 
