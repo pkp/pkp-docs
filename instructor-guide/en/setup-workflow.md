@@ -1,3 +1,7 @@
+---
+title: Journal setup & workflow basics - Instructor Guide for Course Journals
+---
+
 # Journal setup & workflow basics
 
 The basic steps for starting a new journal are found in [Getting Started](https://docs.pkp.sfu.ca/starting-a-journal/). Of particular interest are the sections [Install OJS](https://docs.pkp.sfu.ca/learning-ojs/en/installing-upgrading#installation) and [Configure OJS](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup).

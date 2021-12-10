@@ -34,7 +34,7 @@ Para obtener recursos adicionales que describan las nuevas funcionalidades en OJ
 
 ## Decida a qué versión de OJS 3 quiere actualizar
 
-Generalmente, debería actualizar a la última versión de OJS. Sin embargo, si la última versión es una nueva versión mayor (por ejemplo, OJS 3.1.0, OJS 3.2.0), es posible que prefiera esperar hasta que la siguiente versión menor esté disponible (por ejemplo, OJS 3.1.0-1; OJS 3.2. 0-1) porque habitualmente una nueva versión principal tiene algunos errores inesperados que se solucionarán en la primera versión menor que sigue. Consulte el [https://pkp.sfu.ca/category/news/](sitio web de PKP) para obtener noticias sobre los lanzamientos y tomar esta decisión.
+Generalmente, debería actualizar a la última versión de OJS. Sin embargo, si la última versión es una nueva versión mayor (por ejemplo, OJS 3.1.0, OJS 3.2.0), es posible que prefiera esperar hasta que la siguiente versión menor esté disponible (por ejemplo, OJS 3.1.0-1; OJS 3.2. 0-1) porque habitualmente una nueva versión principal tiene algunos errores inesperados que se solucionarán en la primera versión menor que sigue. Consulte el [sitio web de PKP](https://pkp.sfu.ca/category/news/) para obtener noticias sobre los lanzamientos y tomar esta decisión.
 
 ## Planifique su actualización
 
