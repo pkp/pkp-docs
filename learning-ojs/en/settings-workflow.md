@@ -72,7 +72,7 @@ Use this field to add information for your authors that will be useful during th
 
 This PKP School video demonstrates how to configure the Review process in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="1adbIbQM6E" provider="youtube" title="Video of how to configure the Review process in OJS"%}
+{% include video.html id="1adbIbQM6E0" provider="youtube" title="Video of how to configure the Review process in OJS"%}
 
 This tab allows you to configure your journal's review process.
 
