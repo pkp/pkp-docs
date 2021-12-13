@@ -6,7 +6,7 @@ title: GDPR Guidebook for PKP Users description: This guide provides advice for 
 
 __Version 1.0, Published April 30 2018__
 
-This guide provides advice for users of PKP applications on how to approach the EU General Data Protection Regulation ([GDPR](https://www.eugdpr.org/)), which went into effect on May 25, 2018. It provides guidance on how to best configure OJS to be GDPR-compliant, and includes information on some of the policies that those using OJS with EU clients will want to consider.
+This guide provides advice for users of PKP applications on how to approach the EU General Data Protection Regulation ([GDPR](https://gdpr-info.eu/)), which went into effect on May 25, 2018. It provides guidance on how to best configure OJS to be GDPR-compliant, and includes information on some of the policies that those using OJS with EU clients will want to consider.
 
 PKP’s approach to the GDPR is an ongoing engagement, and will include code changes within PKP applications, and revisions to this guide, over time. Some information on near-term application changes are included at the end of this document but should not be considered exhaustive.
 
