@@ -12,6 +12,10 @@ Veuillez noter que si votre journal est multilingue et que les formulaires sont 
 
 ## Licence
 
+This PKP School video explains how to configure copyright and licensing terms in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="qfzvbN4a-bM" provider="youtube" title="Video of how to configure copyright and licensing terms in OJS"%}
+
 Dans cette section, vous pouvez configurer les conditions des droits d'auteur et de licence pour le contenu de votre revue.
 
 ![Distribution settings license tab showing copyright holder, license and copyright year options.](./assets/learning-ojs3.2-jm-settings-dist-permissions.png)
@@ -32,6 +36,10 @@ Ces paramètres par défaut peuvent être remplacée au cas par cas.
 
 ## Indexation par les moteurs de recherche
 
+This PKP School video explains how to enhance search indexing in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="qf_5sTlDXM0" provider="youtube" title="Video of how to enhance search indexing in OJS"%}
+
 Cette section vous aide à améliorer l'optimisation de votre moteur de recherche et à rendre votre contenu plus visible.
 
 ![Distribution settings search indexing tab showing description and custom tags options.](./assets/learning-ojs3.2-jm-settings-dist-index.png)
@@ -49,6 +57,10 @@ Utilisez **Balises Personnalisées** pour ajouter des balises d'en-tête HTML pe
 ```
 
 ## Paiements
+
+This PKP School video explains how to configure the Payments settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="9r0mRqtNVuU" provider="youtube" title="Video of how to configure payments in OJS"%}
 
 OJS offre la possibilité de collecter des paiements en ligne et de gérer les abonnements et les paiements des frais d'auteur.
 
@@ -92,6 +104,10 @@ Dans OJS 3.x, il n'y a pas d'option pour configurer un type de paiement pour les
 
 ## Accès
 
+This PKP School video explains how to configure the Access settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="RlKVwF3h_PM" provider="youtube" title="Video of how to configure access settings in OJS"%}
+
 Sous l'onglet Accès, vous pouvez configurer si vous souhaitez que le contenu de votre revue soit en accès ouvert, disponible par abonnement, ou une combinaison. Par défaut, l'option d'accès ouvert est sélectionnée. Cependant, si vous souhaitez utiliser OJS pour un abonnement de revue, choisissez la deuxième option (voir la section ci-dessus sur les paiements pour plus d'informations). La sélection de la deuxième option vous permettra de retarder davantage l'accès ouvert de différentes périodes.
 
 ![Distribution settings access tab showing publishing mode and delayed open access options.](./assets/learning-ojs3.2-jm-settings-dist-access-delayed.png)
@@ -113,6 +129,10 @@ Une fois que vous l'avez défini comme **Abonnement**, dans l'onglet **Table des
 ![Enable OAI screen with enable and disable options.](./assets/learning-ojs3.2-jm-settings-dist-oai.png)
 
 ## Archivage
+
+This PKP School video explains how to enable archiving in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="ohHaj-MSLNA" provider="youtube" title="Video of how to enable archiving in OJS"%}
 
 Si vous êtes membre d'un réseau LOCKSS ou CLOCKSS, utilisez cet onglet pour activer votre revue. Le plugiciel PKP PN, qui dépose votre contenu dans le PKP Preservation Network, n'est pas encore disponible pour OJS 3.
 
