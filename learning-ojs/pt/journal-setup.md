@@ -22,6 +22,10 @@ Possui guias, usadas para navegar entre as diferentes seções que a constituem:
 
 ## Equipe Editorial
 
+This PKP School video explains how to configure the Masthead in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="DMi6izQ7Pyw" provider="youtube" title="Video of how to configure the Masthead in OJS"%}
+
 **Título** é o nome do periódico. Exemplo: Journal of Software Documentation.
 
 **Sigla** são as iniciais do periódico. Exemplo: JSD.
@@ -50,6 +54,10 @@ Clique em **Salvar** para gravar as alterações.
 
 ## Contato
 
+This PKP School video explains how to add journal contacts in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="HTDZRG7XEqw" provider="youtube" title="Video of how to add journal contacts in OJS"%}
+
 Utilize essa seção para incluir informações de contato do periódico.
 
 ![Visão do painel OJS do submenu Contato das Configurações da revista, onde as informações podem ser adicionadas nos campos de texto.](./assets/learning-ojs3.2-jm-settings-journal-contact.png)
@@ -62,6 +70,10 @@ Clique em **Salvar** para gravar as alterações.
 
 ## Seções
 
+This PKP School video explains how to configure Sections in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="IMotkKrDZyc" provider="youtube" title="Video of how to configure sections in OJS"%}
+
 Use essa página para configurar as diferentes seções do periódico. Exemplos: artigos, editoriais, revisões, comentários, etc. O OJS exige pelo menos uma seção e cria automaticamente a seção “Artigos”. You can create new sections, edit existing sections, or delete sections. The sections will appear for an author to select when they make a submission and they will be used to organize the articles in your published issues. You can also assign editors to specific sections. This part of the guide explains how you can configure sections.
 
 ![OJS dashboard view of Journal Settings submenu Sections with links for Order and Create Section and editable list of current sections.](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
@@ -70,7 +82,7 @@ As submissões também podem ser desativadas individualmente em cada seção. Is
 
 A seção pode ser marcada como “Inativa” nas definições das seções:
 
-![View of Joural Sections in the OJS dashboard. Red box surrounding checkbox next to the section Articles indicates where to mark it inactive.](./assets/learning-ojs3.3-section-setting-inactive.png)
+![View of Journal Sections in the OJS dashboard. Red box surrounding checkbox next to the section Articles indicates where to mark it inactive.](./assets/learning-ojs3.3-section-setting-inactive.png)
 
 É possível modificar seções clicando na seta azul à esquerda do nome da seção. Essa ação revelará opções de editar ou deletar a seção.
 
@@ -133,6 +145,10 @@ Clique no botão **Concluído** ao finalizar.
 You can only delete a section if there are no articles assigned to it. If you want to delete a section that has articles assigned to it, you will need to move the articles to a different section first. Then click the blue arrow below the section name to reveal the **Delete** link, then click the link. OJS will ask if you want to permanently delete the section and you can click **Yes**.
 
 ## Categorias
+
+This PKP School video explains how to create categories in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="Y97U1icfEPw" provider="youtube" title="Video of how to create categories in OJS"%}
 
 No OJS 3 é possível adicionar Categorias para organizar os artigos em coleções temáticas e fornecer outra forma de acesso ao conteúdo aos leitores. As categorias podem ser exibidas como um bloco de navegação no site da revista e os leitores podem selecionar a categoria para visualizar todos os artigos que a compõem. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production-publication). Essa seção explica como criar e editar categorias.
 
