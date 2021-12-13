@@ -10,6 +10,10 @@ Les paramètres de flux des travaux vous permettent de configurer diverses parti
 
 ## Apparence
 
+This PKP School video explains how to configure the submission process in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="_I2-IpEWu9E" provider="youtube" title="Video of how to configure the submission process in OJS"%}
+
 Utilisez cette section pour configurer le processus de soumission.
 
 ### Métadonnées
@@ -27,6 +31,10 @@ Once the setting is enabled, a notification is displayed indicating that submiss
 This section determines what types of metadata will be collected during the submission process, such as keywords and references.
 
 ### Liste de vérifications
+
+This PKP School video explains how to manage Components in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="UkmvhHjP5V0" provider="youtube" title="Video of how to manage components in OJS"%}
 
 Les éléments sont les types de fichiers que les auteurs peuvent téléverser sur le site. En règle générale, un fichier sera le texte de l'article, et d'autres peuvent inclure des transcriptions d'entrevue, des données, des images, etc. Les éléments disponibles pour l'auteur au moment de sa soumission sont répertoriés ici.
 
@@ -62,6 +70,10 @@ Utilisez ce champ pour ajouter des informations pour vos auteurs qui seront util
 - Avis de droit d'auteur: Il s'agit de l'accord de droit d'auteur entre l'auteur et la revue, et l'auteur accepte ces conditions au moment de la soumission.
 
 ## Évaluation
+
+This PKP School video demonstrates how to configure the Review process in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="1adbIbQM6E0" provider="youtube" title="Video of how to configure the Review process in OJS"%}
 
 Cet onglet vous permet de configurer le processus d'évaluation  de votre revue.
 
@@ -140,6 +152,10 @@ Les formulaires suggérés qui peuvent être téléversé dans cette zone peuven
 
 ## Bibliothèque de l'éditeur
 
+This PKP School video explains how to use the Publisher Library in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="QhOJjxW0_Rw" provider="youtube" title="Video of the Publisher Library in OJS"%}
+
 Le/la dirécteur-trice de la revue et les rédacteurs peuvent télécharger des documents qu'ils aimeraient partager avec les autres utilisateurs de la bibliothèque de l'éditeur. Tout document ajouté dans cette zone sera visible dans la bibliothèque de documents d'un utilisateur dans la bibliothèque de soumission de son manuscrit.
 
 Vous pouvez également télécharger ici un fichier que vous souhaitez rendre accessible au public via une URL, vers lequel vous pouvez créer un lien à partir d'autres parties de votre site, y compris les directives de l'auteur, la liste de contrôle de soumission ou une page statique.
@@ -159,6 +175,10 @@ Vous pouvez également télécharger ici un fichier que vous souhaitez rendre ac
 **Adresse de courriel pour les messages non remis** : une notification sera envoyée à cette adresse e-mail pour tout e-mail envoyé par le système qui ne parvient pas à être livré, par exemple lorsque l'adresse e-mail ciblée n'est plus valide.
 
 ## Courriels
+
+This PKP School video explains how to configure emails in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="ZK-Nb7wfHew" provider="youtube" title="Video of how to configure emails in OJS"%}
 
 ### Modèles de courriel
 
