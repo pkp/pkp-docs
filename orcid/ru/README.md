@@ -6,6 +6,10 @@ title: ORCID Plugin Guide for OJS and OPS description: A guide on how to set up 
 
 The ORCID Plugin Guide explains how to use and configure the ORCID Profile Plugin for Open Journal Systems (OJS) and Open Preprint Systems (OPS), how to obtain ORCID membership and API credentials, and how to connect ORCID iDs with works published with OJS and OPS. This document provides step-by-step instructions for Journal Managers and Administrators on how to use and configure the ORCID Profile Plugin in OJS/OPS and how authors can register with ORCID and connect their ORCID iD with works published with OJS/OPS.
 
+{% include video.html id="ny0pue6MKek" provider="youtube" title="Video of setting up the ORCID Plugin in OJS"%}
+
+This video is for OJS administrators at ORCID member institutions, such as academic librarians, who are interested in enabling the ORCID plugin in OJS so that authors can connect their ORCID profile with their published research.
+
 ## Software compatibility
 
 The ORCID Profile Plugin is supported in OJS 3.1.2 and above and OPS 3.1.2 and above. Previous versions of the ORCID Profile Plugin vary in functionality. Both OJS and OPS share the same basic platform and therefore the instructions presented in this document apply for both journals using OJS and preprint servers using OPS.
