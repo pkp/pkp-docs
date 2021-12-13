@@ -22,7 +22,7 @@ You will see the copyedited files are now available in the **Production Ready Fi
 In the **Production** tab, you can assign participants (such as a Layout Editor) to the Production stage of the workflow and communicate with participants in the **Production Discussions** panel.
 
 {% include video.html id="-VRKdBQPdn4" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 9: Production."%}
-This PKP School video explains The steps the Section Editor, Production Editor and/or Designer will take in the Production stage and the Publication tab. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+This PKP School video explains the steps the Section Editor, Production Editor and/or Designer will take in the Production stage and the Publication tab. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 
 ## Publication Tabs
