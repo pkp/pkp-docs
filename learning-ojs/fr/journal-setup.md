@@ -22,6 +22,10 @@ Utilisez les onglets pour accéder aux différentes sections des Paramètres de 
 
 ## Bloc Générique
 
+This PKP School video explains how to configure the Masthead in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="DMi6izQ7Pyw" provider="youtube" title="Video of how to configure the Masthead in OJS"%}
+
 **Le Titre de la Revue** est le nom de votre revue. Par exemple, Revue de la Documentation de Logiciel
 
 **Abréviations de la Revue** sont les initiales de la revue. Par exemple, RDL.
@@ -50,6 +54,10 @@ Appuyez sur le bouton **Enregistrer** pour enregistrer vos modifications.
 
 ## Coordonnées
 
+This PKP School video explains how to add journal contacts in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="HTDZRG7XEqw" provider="youtube" title="Video of how to add journal contacts in OJS"%}
+
 Utilisez cette section pour ajouter des coordonnées à la revue.
 
 ![OJS dashboard view of Journal Settings submenu Contact where information can be added in text fields.](./assets/learning-ojs3.2-jm-settings-journal-contact.png)
@@ -62,6 +70,10 @@ Appuyez sur le bouton **Enregistrer** pour enregistrer vos modifications.
 
 ## Rubriques de la Revue
 
+This PKP School video explains how to configure Sections in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="IMotkKrDZyc" provider="youtube" title="Video of how to configure sections in OJS"%}
+
 Utilisez cette page pour configurer les différentes sections de votre Revue. Par exemple, Articles, Éditoriaux, Évaluations, Commentaires, etc. OJS nécessite au moins une section et crée une section "Articles" par défaut. You can create new sections, edit existing sections, or delete sections. The sections will appear for an author to select when they make a submission and they will be used to organize the articles in your published issues. You can also assign editors to specific sections. This part of the guide explains how you can configure sections.
 
 ![OJS dashboard view of Journal Settings submenu Sections with links for Order and Create Section and editable list of current sections.](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
@@ -70,7 +82,7 @@ Submissions can also be disabled for individual sections. This can be done in in
 
 La sélection du lien d'édition ouvrira une nouvelle fenêtre avec différentes options de configuration.
 
-![View of Joural Sections in the OJS dashboard. Red box surrounding checkbox next to the section Articles indicates where to mark it inactive.](./assets/learning-ojs3.3-section-setting-inactive.png)
+![View of Journal Sections in the OJS dashboard. Red box surrounding checkbox next to the section Articles indicates where to mark it inactive.](./assets/learning-ojs3.3-section-setting-inactive.png)
 
 Vous pouvez modifier les sections en cliquant sur la flèche bleue à gauche du nom de la section. Cela révélera des options pour modifier ou supprimer la section.
 
@@ -133,6 +145,10 @@ Appuyez sur le bouton **OK** lorsque vous avez terminé.
 You can only delete a section if there are no articles assigned to it. If you want to delete a section that has articles assigned to it, you will need to move the articles to a different section first. Then click the blue arrow below the section name to reveal the **Delete** link, then click the link. OJS will ask if you want to permanently delete the section and you can click **Yes**.
 
 ## Catégories
+
+This PKP School video explains how to create categories in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="Y97U1icfEPw" provider="youtube" title="Video of how to create categories in OJS"%}
 
 Dans OJS 3.1.2, vous pouvez créer des catégories pour organiser vos articles en collections thématiques et fournir un autre moyen pour les lecteurs d'accéder à votre contenu. Les catégories peuvent être affichées sous forme de bloc de navigation sur votre site de revue et les lecteurs peuvent sélectionner une catégorie pour afficher tous les articles de cette catégorie. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production-publication). Cette section explique comment créer et modifier des catégories.
 
