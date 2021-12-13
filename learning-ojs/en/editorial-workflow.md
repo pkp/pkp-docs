@@ -8,8 +8,7 @@ description: How to manage an article manuscript through the OJS workflow, from 
 # Editorial Workflow
 
 In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
-
-{% include video id="K-qjxN7rOJs" provider="youtube" %}
+{% include video.html id="K-qjxN7rOJs" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 2: Editorial Workflow Overview"%}
 This PKP School video provides an overview of the editorial workflow in OJS 3.3. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 
@@ -19,8 +18,8 @@ The workflow is divided into 4 stages:
 
 Some submissions are clearly inappropriate and never make it beyond this stage.
 
-{% include video id="9rx-AahCU10" provider="youtube" %}
-This PKP School video explains the steps the Editor takes to assing a new submission to a Section Editor. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+{% include video.html id="9rx-AahCU10" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 4: Responding to a submission"%}
+This PKP School video explains the steps the Editor takes to assign a new submission to a Section Editor. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 
 
@@ -33,7 +32,7 @@ Some submission will not pass review and end here. Those that are accepted move 
 
 **Production**: Once the copyedits are completed and approved, the submission moves to this stage. In Production, the copyedited files are converted to galleys -- HTML, XML, PDF, etc. Again the author has the opportunity to proofread the galleys. Once everyone is satisfied, the submission is scheduled for publication in a future issue.
 
-{% include video id="-VRKdBQPdn4" provider="youtube" %}
+{% include video.html id="-VRKdBQPdn4" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 9: Production."%}
 This PKP School video explains the Production stage. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 <hr />
@@ -276,8 +275,7 @@ Keep the files that are to be reviewed checked off.
 <hr />
 
 ## Review
-
-{% include video id="5Hwkqj4Jvew" provider="youtube" %}
+{% include video.html id="5Hwkqj4Jvew" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 5: Assigning a reviewer."%}
 
 This PKP School video explains the steps the Section Editor takes to assign reviewers to the submission. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
@@ -474,7 +472,7 @@ When sending out the review request, ensure that the original manuscript is unse
 Select the Review File(s) and click **OK**.
 
 ### Responding to Reviews
-{% include video id="LR_1BmmSTek" provider="youtube" %}
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 7: Responding to the reviews"%}
 This PKP School video explains the steps the Section Editor and the author take once the reviews are complete. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 
@@ -511,9 +509,6 @@ Options include:
 **Decline Submission**: This means that the submission has not passed peer review and is unsuitable for further consideration. The submission would then move to the Archives. Only declined submissions in the Archives can be deleted. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active.
 
 ### Request Revisions
-{% include video id="LR_1BmmSTek" provider="youtube" %}
-
-This PKP School video explains the steps the Section Editor takes to respond to the review and request revisions, as well as the process for the author to upload revisions. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 In this demonstration, we are going to request that the Author make some minor revisions before acceptance.
 
@@ -613,7 +608,7 @@ Back on the review tab, you will notice that the status now indicates the submis
 <hr />
 
 ## Copyediting
-{% include video id="uc272bhGfeU" provider="youtube" %}
+{% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 8: Copyediting."%}
 This PKP School video explains the Copyediting stage. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 
