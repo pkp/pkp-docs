@@ -21,6 +21,10 @@ Vous verrez que les fichiers copiés sont désormais disponibles dans le panneau
 
 Dans l'onglet **Production**, vous pouvez affecter des participants (comme un/une rédacteur-trice de mise en page) à l'étape de production du flux de travaux et communiquer avec les participants dans le panneau **Discussions sur la production** .
 
+{% include video.html id="-VRKdBQPdn4" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 9: Production."%}
+
+This PKP School video explains the steps the Section Editor, Production Editor and/or Designer will take in the Production stage and the Publication tab. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 ## Onglets de Publication
 
 Tout ce qui concerne la publication d'une soumission se fait sous l'onglet Publication. L'onglet Publication vous permet de modifier ou d'ajouter des informations sur la soumission, y compris les contributeurs, les métadonnées et les identifiants. C'est également là que vous téléverserez les fichiers finaux épreuves pour la publication dans la revue.
@@ -67,7 +71,7 @@ Une bannière de notification indique que vous devez désigner quelqu'un pour cr
 
 Cela peut varier d'une revue à l'autre - vous pouvez avoir des rédacteurs-trices de mise en page ou des adjoints-tes de production pour faire ce travail. Certaines revues utilisent un service de conception graphique ou de composition externe. Si vous souhaitez communiquer avec votre rédacteur-trice de mise en page, adjoint de production, graphiste ou compositeur via OJS et gérer le processus de production avec eux dans OJS, assurez-vous qu'ils ont un compte utilisateur et ajoutez-les en tant que participant à la soumission.
 
-Pour effectuer l'affectation, utilisez le lien **Assigner** dans la liste des participants. Cela ouvrira une nouvelle fenêtre.
+Pour effectuer l'affectation, utilisez le lien **Assigner** dans la liste des participants. Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
 
 ![New window to assign participants such as Layout Editor.](./assets/learning-ojs-3.2-se-production-participants-add.png)
 
@@ -85,7 +89,7 @@ En tant que rédacteur-trice de mise en page, vous aurez reçu un message vous i
 
 ![Layout Editor Dashboard showing list of assigned manuscripts.](./assets/learning-ojs-3.2-le-dashboard.png)
 
-À partir de là, recherchez la soumission et sélectionnez le lien **Production** . Cela vous mènera au dossier de soumission.
+À partir de là, recherchez la soumission et sélectionnez le lien **Production** . Cela vous mènera à l'enregistrement de la soumission.
 
 ![Production tab of on the assigned manuscript with 1 production ready file for the Layout Editor.](./assets/learning-ojs-3.2-le-submission.png)
 
@@ -232,7 +236,6 @@ Lors du téléversement d'un fichier image, il vous sera demandé d'ajouter une 
 ![Step 2 for uploading dependent files. Text fields to enter Caption, Credit, Copyright Owner, and Permission Terms.](./assets/learning-ojs3.2-ed-prod-image-details.png)
 
 Cliquez sur **Continuer** pour terminer le téléversement, vérifiez les détails et confirmez. Votre fichier multimédia a maintenant été ajouté en tant que fichier relié avec le HTML, et sera incorporé dans le HTML lorsque l'objet sera publié.
-
 
 #### Fichiers ePUB
 
@@ -437,6 +440,10 @@ Une fois que vous avez configuré le plugiciel et que vous avez exporté les mé
 4. Certains DOI seront désormais ajoutés aux références
 
 ## Créer un numéro
+
+{% include video.html id="opvVBWYnHho" provider="youtube" title="Video of Setting up a journal in OJS 3.3. Module 7: Issues"%}
+
+This PKP School video explains how to create, edit, publish, and manage Issues. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 Lorsque vous êtes prêt à publier l'article, vous devez d'abord créer un numéro pour le publier. Ensuite, vous planifierez la publication d'articles dans le numéro. Les articles ne seront pas publiés tant que vous n'aurez pas publié le numéro dans son ensemble. Cette section explique comment créer et modifier des numéros.
 
