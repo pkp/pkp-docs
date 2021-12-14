@@ -9,11 +9,19 @@ description: How to manage an article manuscript through the OJS workflow, from 
 
 In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
 
+{% include video.html id="K-qjxN7rOJs" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 2: Editorial Workflow Overview"%}
+
+This PKP School video provides an overview of the editorial workflow in OJS 3.3. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 The workflow is divided into 4 stages:
 
 **Submission**: This is where new submissions land while being assigned to Section Editors and considered for moving into the Review stage.
 
 Some submissions are clearly inappropriate and never make it beyond this stage.
+
+{% include video.html id="9rx-AahCU10" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 4: Responding to a submission"%}
+
+This PKP School video explains the steps the Editor takes to assign a new submission to a Section Editor. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 **Review**: This is where the peer review happens, as well as any revisions required by the author.
 
@@ -22,6 +30,10 @@ Some submission will not pass review and end here. Those that are accepted move 
 **Copyediting**: Accepted articles move to this stage, where they are improved by the work of a copyeditor. Authors can be given the opportunity to review the copyedits.
 
 **Production**: Once the copyedits are completed and approved, the submission moves to this stage. In Production, the copyedited files are converted to galleys -- HTML, XML, PDF, etc. Again the author has the opportunity to proofread the galleys. Once everyone is satisfied, the submission is scheduled for publication in a future issue.
+
+{% include video.html id="-VRKdBQPdn4" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 9: Production."%}
+
+This PKP School video explains the Production stage. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 <hr />
 
@@ -262,6 +274,10 @@ Keep the files that are to be reviewed checked off.
 
 ## الأعداد السابقة
 
+{% include video.html id="5Hwkqj4Jvew" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 5: Assigning a reviewer."%}
+
+This PKP School video explains the steps the Section Editor takes to assign reviewers to the submission. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 When the submission enters the Review Stage, a notification indicates that Reviewers need to be assigned.
 
 ![The "Waiting for reviewers to be assigned" notification.](./assets/learning-ojs3.1-se-record-revstage.png)
@@ -454,6 +470,10 @@ Select the Review File(s) and click **OK**.
 
 ### Responding to Reviews
 
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 7: Responding to the reviews"%}
+
+This PKP School video explains the steps the Section Editor and the author take once the reviews are complete. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 Once the Reviewers have completed their work, the Section Editor can see the results in their dashboard. Here they will see notifications that new reviews have been submitted and whether all reviews are in.
 
 ![Sample notification of completed reviews in the Section Editor's dashboard.](./assets/learning-ojs-3-ed-rev-responding.png)
@@ -585,6 +605,10 @@ Back on the review tab, you will notice that the status now indicates the submis
 <hr />
 
 ## Copyediting
+
+{% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 8: Copyediting."%}
+
+This PKP School video explains the Copyediting stage. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 When a submission is accepted in the Review Stage, it will automatically move to the Copyediting stage.
 
