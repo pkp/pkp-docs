@@ -21,6 +21,10 @@ You will see the copyedited files are now available in the **Production Ready Fi
 
 In the **Production** tab, you can assign participants (such as a Layout Editor) to the Production stage of the workflow and communicate with participants in the **Production Discussions** panel.
 
+{% include video.html id="-VRKdBQPdn4" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 9: Production."%}
+
+This PKP School video explains the steps the Section Editor, Production Editor and/or Designer will take in the Production stage and the Publication tab. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 ## Publication Tabs
 
 Everything related to publishing a submission is done under the Publication tab. The Publication tab allows you to edit or add information about the submission, including contributors, metadata, and identifiers. It is also where you will upload the final Galley files for publication in the journal.
@@ -67,7 +71,7 @@ A notification banner indicates that you must assign someone to create the galle
 
 This can vary from journal to journal – you may have layout editors or production assistants to do this work. Some journals use an external graphic design or typesetting service. If you would like to communicate with your layout editor, production assistant, graphic designer, or typesetter through OJS and manage the production process with them in OJS, ensure they have a user account and add them as a participant to the submission.
 
-To make the assignment, use the **Assign** link in the Participants list. This will open a new window.
+To make the assignment, use the **Assign** link in the Participants list. Ao fazer isso, será aberta uma nova janela.
 
 ![New window to assign participants such as Layout Editor.](./assets/learning-ojs-3.2-se-production-participants-add.png)
 
@@ -85,7 +89,7 @@ As a Layout Editor, you will have received a message inviting you to create the 
 
 ![Layout Editor Dashboard showing list of assigned manuscripts.](./assets/learning-ojs-3.2-le-dashboard.png)
 
-From here, find the submission and select the **Production** link. This will take you to the submission record.
+From here, find the submission and select the **Production** link. Isso levará você ao registro de submissão.
 
 ![Production tab of on the assigned manuscript with 1 production ready file for the Layout Editor.](./assets/learning-ojs-3.2-le-submission.png)
 
@@ -233,7 +237,6 @@ When uploading an image file you will be asked to add a Caption, Credit, Copyrig
 
 Click **Continue** to complete the upload, review the details, and confirm. Your multimedia file has now been added as a dependent file along with the HTML, and will be embedded in the HTML when the item is published.
 
-
 #### ePUB Files
 
 Similar to HTML files, ePub files are ideal for mobile devices but require specialized coding to create. Conversion tools are available, such as [Calibre](https://calibre-ebook.com/). More detailed HOW TO instructions for creating ePub files are [available here](https://www.wikihow.com/Convert-a-Word-Document-to-Epub).
@@ -285,7 +288,7 @@ The video should now appear in the published submission.
 
 ### Contact the Author
 
-Next, you will want to share the PDF with the author for a final look and sign off. To do so, use the **Add Discussion** link in the Production Discussion panel. This will open a new window.
+Next, you will want to share the PDF with the author for a final look and sign off. To do so, use the **Add Discussion** link in the Production Discussion panel. Ao fazer isso, será aberta uma nova janela.
 
 ![Creating a discussion post in OJS to indicate that galley are ready for proofreading.](./assets/learning-ojs-3-le-production-add-participant.png)
 
@@ -437,6 +440,10 @@ Once you have the plugin set up and have exported the article's metadata to Cros
 4. Some DOIs will now be added to the references
 
 ## Create Issue
+
+{% include video.html id="opvVBWYnHho" provider="youtube" title="Video of Setting up a journal in OJS 3.3. Module 7: Issues"%}
+
+This PKP School video explains how to create, edit, publish, and manage Issues. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 When you are ready to publish the article, you have to create an issue to publish it in first. Then you will schedule articles for publication in the issue. The articles will not be published until you publish the issue as a whole. This section explains how to create and edit issues.
 
