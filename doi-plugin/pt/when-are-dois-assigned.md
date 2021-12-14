@@ -2,7 +2,7 @@
 
 It is important to understand when DOIs will be assigned because **DOI registration is irreversible**. Once an article or issue is published and your DOI has been registered with an agency, you cannot change it. This is due to the nature of permanent IDs: they are meant to be assigned once and only once and then never change again.
 
-Broadly speaking, DOIs are assigned by OJS when you schedule them for publication in an issue. If you push an article to an already-published issue, the DOI will be assigned immediately.
+Broadly speaking, DOIs are assigned by OJS when you _schedule them for publication in an issue_. If you push an article to an already-published issue, the DOI will be assigned immediately.
 
 This assignment logic is slightly different for the different suffix generation strategies
 
@@ -18,4 +18,11 @@ The logic is slightly different to support selective DOI assignment. In this cas
 
 ## DOI Preview/Assignment
 
-Whatever suffix generation strategy you choose, you'll be able to preview/create the DOI from that submission's _publication_ workflow, provided that the object has not yet been published. You'll find the DOI on the left sidebar under the "Identifiers" menu.  While you _can_ assign a DOI before scheduling it for an issue, if your suffix pattern includes volumes or issues, you'll want to schedule it first. 
+Whatever suffix generation strategy you choose, you'll be able to preview/create the DOI from that submission's _publication_ workflow, provided that the object has not yet been published. You'll find the DOI on the left sidebar under the "Identifiers" menu.  While you _can_ assign a DOI before scheduling it for an issue, if your suffix pattern includes volumes or issues, you'll want to schedule it for publication in an issue first.
+
+Once an article has been scheduled for an issue, you can see what the DOI will be by going to:
+
+1. The _submission_ page for an article.
+2. The _publication_ tab for that submission.
+3. Clicking _identifiers_ on the left sidebar.
+4. OJS will show you the DOI that the suffix generator has produced and will be assigned to your DOI. 
