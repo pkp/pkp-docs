@@ -1,7 +1,6 @@
 ---
 book: learning-ojs
 version: 3.3
-title: Learning Open Journal Systems 3.3 - Website Settings
 ---
 
 # Website Settings
@@ -11,6 +10,10 @@ The Website Settings allow you to configure how your journal's website looks and
 ![OJS dashboard view of website settings menu.](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
 
 ## Appearance
+
+This PKP School video explains how to configure your journal's appearance in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="4i5uRgzFHfg" provider="youtube" title="Video of how to configure your journal's appearance in OJS"%}
 
 ### Theme
 
@@ -33,7 +36,7 @@ Now that you have all available themes, return to the Appearance tab to try out 
 5. Open your site's home page in a new tab or window of your browser to see how the site looks with the new theme or sub-theme and with different configuration options.
 6. If you do not see the changes appear on your site, you may need to clear the cache under the Administration menu.
 
-As of OJS/OMP/OPS 3.3, the **Default Theme** has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. [PKP Accessibility Statement](https://docs.pkp.sfu.ca/accessibility-statement/) contains further details. 
+As of OJS/OMP/OPS 3.3, the **Default Theme** has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. [PKP Accessibility Statement](https://docs.pkp.sfu.ca/accessibility-statement/) contains further details.
 
 If you would like to make minor changes to your site's design and layout, you can upload a **Journal Stylesheet** in Website Settings > Appearance > Advanced.
 
@@ -77,6 +80,10 @@ Hit **Save** to record your changes.
 
 ### Information
 
+This PKP School video explains how to configure the Information settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="48qU18uqqkg" provider="youtube" title="Video of how to configure Information settings in OJS"%}
+
 Use these fields to modify the text in the For Readers, For Authors, For Librarians pages on the journal website.
 
 ![OJS dashboard view of Information menu with boiler plate text in the fields for readers and for authors.](./assets/learning-ojs3.1-jm-settings-web-info.png)
@@ -86,6 +93,10 @@ Remember to hit **Save** to record any changes.
 To remove these fields and their contents from displaying publicly on the website's user interface, deselect the Information Block in Website Settings > Appearance > Sidebar Management.
 
 ### Languages
+
+This PKP School video explains how to configure the Language settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="VU5kAPOqNPc" provider="youtube" title="Video of how to configure the language settings in OJS"%}
 
 OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages and authors can make submissions in one or more languages on a single site or journal. When you install OJS, you can select one or more languages for your site.
 
@@ -97,7 +108,7 @@ Under Website Settings > Languages you can see a list of languages or locales in
 
 - **UI**: If you want the journal’s front end and back end interface to be available in other languages, select them here. Enabling a language for the UI will allow users to select the language of the application interface. For example, buttons, page titles, and on-screen messages will be in the user's selected language.
 
-- **Forms**: This will enable all selected languages to be available when filling in online forms. Enabling a language for forms will allow text boxes to support multilingual data entry, including the Publication tab for submissions. For example, configuration settings and metadata can be entered in multiple languages. 
+- **Forms**: This will enable all selected languages to be available when filling in online forms. Enabling a language for forms will allow text boxes to support multilingual data entry, including the Publication tab for submissions. For example, configuration settings and metadata can be entered in multiple languages.
 
 - **Submission**: If you want authors to be able to make submissions in other languages, select them here. This will allow authors to select a language when they make a submission and add metadata in selected languages when uploading their submission.
 
@@ -106,6 +117,10 @@ Additional languages can be installed on your site by an Administrator – see [
 If enabling multiple languages to appear in the UI, make sure that in Website Settings > Appearance > Sidebar Management the Language Toggle Block is selected to make that feature available to users.
 
 ### Navigation
+
+This PKP School video explains how to configure the Navigation settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="OJL-XEgzhYU" provider="youtube" title="Video of how to configure navigation settings in OJS"%}
 
 This section allows you to configure your navigation menus, such as including new links.
 
@@ -129,6 +144,10 @@ Hit Save to record the change.
 
 ### Announcements
 
+This PKP School video explains how to configure the Announcements settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="OmiDQGX4SGs" provider="youtube" title="Video of how to configure announcements settings in OJS"%}
+
 This section allows you to create and display news announcements on the journal's website.
 
 ![OJS dashboard view of Announcements menu with an option to enable and display announcements.](./assets/learning-ojs3.1-jm-settings-web-announce.png)
@@ -136,10 +155,14 @@ This section allows you to create and display news announcements on the journal'
 - **Announcements**: Check this off if you want to have announcements in your website
   - **Introduction**: Enter any general information you would like to appear on your announcements page.
   - **Display on Homepage**: Enter the number of announcements to be displayed on the homepage. If this is left blank, no announcements will be displayed.
-  
+
 Once the Announcements setting is enabled, click "Save." An "Announcements" menu item now appears in the main navigation on the left hand side. Click on this menu item and select "Add Announcement." Here you can include the title of the announcement, a short description and / or full text of the announcement, and an (optional) expiry date. If you wish to send an email notification to all users (who have not opted out of email notifications), select "Send notification email to all registered users." The announcement should now appear on an "Announcements" tab on the public-facing journal site.
 
 ![OJS 3.3 Announcements menu enabled in the sidebar with an option to add and edit announcements.](./assets/learning-ojs3.3-settings-website-announcements.png)
+
+This PKP School video explains how to configure the Website settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="3vAR6lu-4DE" provider="youtube" title="Video of how to configure website settings in OJS"%}
 
 ### Lists
 
@@ -156,6 +179,10 @@ This option allows for the configuration of different format for dates and times
 ![OJS 3.3 Date and Time menu with an option to select long and short date formats.](./assets/learning-ojs3.3-date-and-time-setup.png)
 
 ## Plugins
+
+This PKP School video explains how to configure Plugins in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="PMAsXY_tLMU" provider="youtube" title="Video of how to configure plugins in OJS"%}
 
 Use this page to see all of the installed plugins and find new plugins.
 

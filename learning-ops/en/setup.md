@@ -29,7 +29,7 @@ The **Description** provides an overview of the preprint server and appears on t
 
 ![Sample server team information entered into OPS.](./assets/learning-ops-server-settings-server-team.png)
 
-Note that the terminology may be different for OPS, with some slight modifications. For example, a Moderator would be the equivalent of a Journal Manager and a Preprint server library is equivalent to the Publisher Library. 
+Note that the terminology may be different for OPS, with some slight modifications. For example, a Moderator would be the equivalent of a Journal Manager and a Preprint server library is equivalent to the Publisher Library.
 
 ### Contact
 
@@ -87,7 +87,7 @@ The Plugins tab under Website Settings lists pre-installed plugins under Install
 
 **AddThis**: This plugin allows adding social media sharing buttons to the preprint landing page. For a better usage, it is recommended to register an account at AddThis.
 
-**Browse Plugin**: This plugin adds the ability to browse by Categories and sub-categories through the Servers homepage. To configure this plugin, please refer to [Plugin Section of OPS]().
+**Browse Plugin**: This plugin adds the ability to browse by Categories and sub-categories through the Servers homepage.
 
 ![An instance of OPS with the Browse plugin enabled.](./assets/learning-ops-website-settings-browse-plugin.png)
 
