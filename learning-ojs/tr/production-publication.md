@@ -21,41 +21,45 @@ You will see the copyedited files are now available in the **Production Ready Fi
 
 In the **Production** tab, you can assign participants (such as a Layout Editor) to the Production stage of the workflow and communicate with participants in the **Production Discussions** panel.
 
+{% include video.html id="-VRKdBQPdn4" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 9: Production."%}
+
+This PKP School video explains the steps the Section Editor, Production Editor and/or Designer will take in the Production stage and the Publication tab. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 ## Publication Tabs
 
-Everything related to publishing a submission is done under the Publication tab. The Publication tab allows you to edit or add information about the submission, including contributors, metadata, and identifiers. It is also where you will upload the final Galley files for publication in the journal.
+Gönderinin yayınlanmasıyla ilgili her şey Yayın sekmesi altında yapılır. Yayın sekmesi, katkıda bulunanlar, üstveriler ve tanımlayıcılar dahil olmak üzere gönderiyle ilgili bilgileri düzenlemenize veya eklemenize olanak tanır. Ayrıca dergide yayınlanmak üzere son Dizgi dosyalarını yükleyeceğiniz yerdir.
 
 ![Publication tab that displays metadata information of a manuscript.](./assets/learning-ojs-3.2-production-publication-tab.png)
 
-Here is an overview of what the different tabs in this section are for. Detailed instructions on some of these are available later in the chapter.
+Burada, bu bölümdeki farklı sekmelerin ne için olduğuna ilişkin bir genel bakış yer almaktadır. Bunlardan bazıları hakkında ayrıntılı talimatlar bölümün ilerleyen kısımlarında mevcuttur.
 
-**Title & Abstract** Use this tab to edit the article title, subtitle, and abstract.
+**Başlık & Özet** Makale başlığını, alt başlığını ve özeti düzenlemek için bu sekmeyi kullanın.
 
-If any changes are made, click Save before exiting this window.
+Herhangi bir değişiklik yapılırsa, bu pencereden çıkmadan önce Kaydet'e tıklayın.
 
-**Contributors** Use this tab to add, edit, or remove article contributors.
+**Katkıda Bulunanlar** Makaleye katkıda bulunanları eklemek, düzenlemek veya kaldırmak için bu sekmeyi kullanın.
 
-**Metadata** Use this tab to add or edit article keywords.
+**Metaveriler** Makaleye anahtar kelime eklemek veya düzenlemek için bu sekmeyi kullanın.
 
-If any changes are made, click Save before exiting this window.
+Herhangi bir değişiklik yapılırsa, bu pencereden çıkmadan önce Kaydet'e tıklayın.
 
-**Identifiers** Use the Identifiers tab to view or add a unique identifier, such as a DOI. More information about assigning and managing DOIs is available in the [DOI Plugin Guide](/doi-plugin/).
+**Tanımlayıcılar** DOI gibi benzersiz bir tanımlayıcıyı görüntülemek veya eklemek için Tanımlayıcılar sekmesini kullanın. DOI atama ve yönetme hakkında daha fazla bilgiyi [DOI Eklenti Kılavuzu](/doi-plugin/)'nda bulabilirsiniz.
 
-**Galleys** Use the Galleys tab to upload the final file for publication. This is explained below.
+**Dizgi** Yayınlanmak üzere son dosyayı yüklemek için Dizgiler sekmesini kullanın. This is explained below.
 
-**Permissions & Disclosure** Include details about the copyright holder and link to the article license, if applicable. This will be automatically filled in according to your [Distribution Settings](./settings-distribution.md).
+**İzinler & Açıklama** Varsa, telif hakkı sahibiyle ilgili ayrıntıları ve makale lisansına bağlantı ekleyin. Bu, [Dağıtım Ayarlarınıza](./settings-distribution.md) göre otomatik olarak doldurulacaktır.
 
-**Issues** Use the Issues tab to assign the article to a journal issue. This is explained below.
+**Sayılar** Makaleyi bir dergi sayısına atamak için Sayılar sekmesini kullanın. Bu aşağıda açıklanmıştır.
 
 ### Multilingual Submissions
 
-The Title & Abstract, Metadata, Permissions & Disclosure, and Issue tabs have options for adding and editing metadata in multiple languages. Languages must first be turned on in Website Settings -> Setup -> Languages.
+Başlık & Özet, Üstveriler, İzinler & Açıklama ve Sayı sekmelerinde birden çok dilde üstveri ekleme ve düzenleme seçenekleri bulunur. Diller önce Web Sitesi Ayarları -> Kurulum -> Diller'de açılmalıdır.
 
-Select the desired language tab below the “Schedule for Production” button, and complete the metadata fields in the selected language.
+“Üretim Programı” düğmesinin altında istediğiniz dil sekmesini seçin ve seçilen dilde üstveri alanlarını doldurun.
 
 ![Multilingual button and text fields for French (Canada) in the metadata subtab within Publication.](./assets/learning-ojs3.2-ed-prod-metadata-lang.png)
 
-The “Issue” tab allows you to upload multiple cover images in selected languages.
+"Sayı" sekmesi, seçilen dillerde birden fazla kapak resmi yüklemenize olanak tanır.
 
 ![Multilingual button and upload field for an issue cover image for French (Canada) in the Issue subtab within Publication.](./assets/learning-ojs3.2-ed-prod-issue-languages.png)
 
@@ -63,43 +67,43 @@ The “Issue” tab allows you to upload multiple cover images in selected langu
 
 ### Assign Layout Editor
 
-A notification banner indicates that you must assign someone to create the galley files (e.g., the PDFs, HTML, etc.) from the production ready files.
+Bir bildirim başlığı, üretime hazır dosyalardan dizgi dosyalarını (örn. PDF'ler, HTML, vb.) oluşturmak için birini atamanız gerektiğini belirtir.
 
-This can vary from journal to journal – you may have layout editors or production assistants to do this work. Some journals use an external graphic design or typesetting service. If you would like to communicate with your layout editor, production assistant, graphic designer, or typesetter through OJS and manage the production process with them in OJS, ensure they have a user account and add them as a participant to the submission.
+Bu, dergiden dergiye değişebilir – bu işi yapmak için mizanpaj editörleriniz veya üretim asistanlarınız olabilir. Bazı dergiler harici bir grafik tasarım veya dizgi hizmeti kullanır. Mizanpaj düzenleyiciniz, yapım asistanınız, grafik tasarımcınız veya dizgiciniz ile OJS üzerinden iletişim kurmak ve üretim sürecini OJS'de onlarla yönetmek istiyorsanız, bir kullanıcı hesabına sahip olduklarından emin olun ve onları gönderiye katılımcı olarak ekleyin.
 
-To make the assignment, use the **Assign** link in the Participants list. This will open a new window.
+Görevi yapmak için Katılımcılar listesindeki **Ata** bağlantısını kullanın. Bu yeni bir pencere açacaktır.
 
 ![New window to assign participants such as Layout Editor.](./assets/learning-ojs-3.2-se-production-participants-add.png)
 
-Use the role selector and search button to find appropriate users. Select the user and choose a predefined message, then click **OK** to send.
+Uygun kullanıcıları bulmak için rol seçi ve arama düğmesini kullanın. Kullanıcıyı seçin ve önceden tanımlanmış bir mesaj seçin, ardından göndermek için **Tamam**'ı tıklayın.
 
-The user has now been notified via email and in the dashboard.
+Kullanıcı artık e-posta yoluyla ve kontrol panelinde bilgilendirildi.
 
 ![Manuscript dashboard after additional participants have been assigned.](./assets/learning-ojs-3.2-se-production-participants-added.png)
 
-You can now see the Layout Editor in the Participants list, and you can see the request notice in the Production Discussions panel. You can now wait for the Layout Editor to complete their tasks.
+Artık Katılımcılar listesinde Mizanpajcıyı görebilir ve Üretim Tartışmaları panelinde istek bildirimini görebilirsiniz. Artık Mizanpaj Düzenleyicisinin görevlerini tamamlamasını bekleyebilirsiniz.
 
 ### Layout Editing
 
-As a Layout Editor, you will have received a message inviting you to create the galleys for the submission. To get started, login to the system and go to your dashboard.
+Bir Mizanpaj Editörü olarak, sizi gönderi için dizgiler oluşturmaya davet eden bir mesaj almış olacaksınız. Başlamak için sisteme giriş yapın ve kontrol panelinize gidin.
 
 ![Layout Editor Dashboard showing list of assigned manuscripts.](./assets/learning-ojs-3.2-le-dashboard.png)
 
-From here, find the submission and select the **Production** link. This will take you to the submission record.
+Burada gönderiyi bulun ve **Üretim** bağlantısını seçin. Bu sizi gönderi kaydına götürecektir.
 
 ![Production tab of on the assigned manuscript with 1 production ready file for the Layout Editor.](./assets/learning-ojs-3.2-le-submission.png)
 
-From the Production Ready Files panel, download the files to your desktop and work outside of OJS to convert them to galley files. The next section explains galley file formats and preparation.
+Üretime Hazır Dosyalar panelinden dosyaları masaüstünüze indirin ve onları galeri dosyalarına dönüştürmek için OJS dışında çalışın. Bir sonraki bölüm, dizgi dosya formatlarını ve hazırlamayı açıklar.
 
 > Note: PKP is currently working on a project to automate the conversion of Microsoft Word documents into other formats, including XML, HTML, PDF, EPUB, etc. Keep an eye on our blog for updates.
 
 ### Prepare and Add Galley Files
 
-A Galley is the final publication-ready file that has been prepared for readers and will be published on the article page. Galleys should be in a stable non-editable format (e.g., HTML, PDF, ePub, or XML) versions of the full-text article. Galley files can also include supplementary material such as multimedia files and research data. You can publish a galley file for an article and for an entire issue.
+Dizgi, okuyucular için hazırlanmış ve makale sayfasında yayınlanacak olan yayına hazır son dosyadır. Dizgi'ler, tam metin makalenin sabit, düzenlenemez bir biçimde (ör. HTML, PDF, ePub veya XML) sürümlerinde olmalıdır. Dizgi dosyaları, multimedya dosyaları ve araştırma verileri gibi ek materyalleri de içerebilir. Bir makale ve tüm sayı için bir dizgi dosyası yayınlayabilirsiniz.
 
 #### Galley file component types
 
-When you upload a galley file, you will need to select a **Component Type**. These are the same component types that authors select from when they upload submission files. You can configure component types under Workflow Settings > Submission > Components, according to whether you want the component type to be published and whether you want a link to it to appear on the article landing page or in the table of contents.
+Bir dizgi dosyası yüklediğinizde, bir **Bileşen Türü** seçmeniz gerekecektir. Bunlar, yazarların gönderi dosyalarını yüklediklerinde seçtikleri bileşen türlerinin aynısıdır. You can configure component types under Workflow Settings > Submission > Components, according to whether you want the component type to be published and whether you want a link to it to appear on the article landing page or in the table of contents.
 
 The configurations are as follows:
 
@@ -145,9 +149,9 @@ Example (see PDF link at bottom of page): [Irish Journal of Technology Enhanced 
 
 #### HTML Files
 
-HTML files have the advantage of flexibility. They handle linking and multimedia very well, and can fit on just about any screen - including phones and tablets. They do, however, look different than a printed page, so some readers prefer a PDF. The ideal situation is to provide both PDF and HTML files to best meet the needs of different users.
+HTML dosyaları esneklik avantajına sahiptir. Bağlantı ve multimedyayı çok iyi idare ederler ve telefonlar ve tabletler dahil olmak üzere hemen hemen her ekrana sığabilirler. Ancak, basılı bir sayfadan farklı görünürler, bu nedenle bazı okuyucular PDF'yi tercih eder. İdeal durum, farklı kullanıcıların ihtiyaçlarını en iyi şekilde karşılamak için hem PDF hem de HTML dosyalarını sağlamaktır.
 
-Creating an HTML file can require more time and effort than creating PDF files. Word processors do not have effective tools for doing a “Save As” to HTML. Microsoft Word tries to do this, but the results are not useful for uploading to OJS. Instead, try following this workflow:
+Bir HTML dosyası oluşturmak, PDF dosyaları oluşturmaktan daha fazla zaman ve çaba gerektirebilir. Kelime işlemcilerin HTML'ye "Farklı Kaydet" yapmak için etkili araçları yoktur. Microsoft Word bunu yapmaya çalışır, ancak sonuçlar OJS'ye yüklemek için kullanışlı değildir. Bunun yerine, şu iş akışını izlemeyi deneyin:
 
 * Convert the Word document. You can use [this free online tool](https://word2cleanhtml.com/) to do an initial conversion.
 * Open the resulting HTML files in a text editor (e.g., NotePad in Windows) or HTML editor (e.g., Adobe Dreamweaver). From here, you will need to make any final clean up or formatting. Understanding the basics of HTML is required. There are many [free tutorials](https://www.w3schools.com/html/), but it does take some time.
@@ -155,43 +159,43 @@ Creating an HTML file can require more time and effort than creating PDF files. 
 * Upload to OJS as an HTML galley file
 * The HTML viewer renders HTML files within an iframe, which may affect navigation to hyperlinked web pages. You can bypass this feature by opening hyperlinks in a new browser tab, by adding the `target="_blank"` attribute to your href tags.
 
-A few example HTML templates can be found and adapted from these sources:
+Bu kaynaklardan birkaç örnek HTML şablonu bulunabilir ve uyarlanabilir:
 
 * [Resource by U of A](https://drive.google.com/file/d/1mCP0tguFJf7jJn_CNceEwvRn5eCJrvxP/view) - License: CC0 1.0 Universal (CC0 1.0)
 
-Examples (see HTML link at bottom of the page):
+Örnekler (sayfanın altındaki HTML bağlantısına bakın):
 
 * [Cultural Anthropology](https://journal.culanth.org/index.php/ca/article/view/4434)
 * [Evidence Based Library & Information Practice](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621)
 
 ##### Style HTML galley files
 
-It is possible to style the design of your HTML galley files in bulk or on an individual per-article basis. Styling in bulk can only be done if you are using a custom theme.
+HTML dizgi dosyalarınızın tasarımını toplu olarak veya makale bazında ayrı ayrı biçimlendirmek mümkündür. Toplu şekillendirme yalnızca özel bir tema kullanıyorsanız yapılabilir.
 
-To style an individual HTML galley file:
+Tek bir HTML dizgi dosyasına stil vermek için:
 
 * While creating the HTML galley file, ensure that it includes a reference to the stylesheet in the `<head>` section, e.g. `<link rel="stylesheet" href="./article_styles.css" type="text/css" />`
 * Upload the HTML galley file (see below for instructions on how to **Add Galley Files**)
 * Edit the galley file
 * Upload the CSS stylesheets with the appropriate **Component Type - HTML Stylesheet**
 
-To style all HTML galley files: If you are using a custom theme plugin, you can write a line of code to include a custom style for all HTML galleys. This will only apply to HTML galley files that do not have a style applied individually. More information on custom theming is available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+Tüm HTML dizgi dosyalarına stil vermek için: Özel bir tema eklentisi kullanıyorsanız, tüm HTML galerileri için özel bir stil eklemek üzere bir kod satırı yazabilirsiniz. Bu, yalnızca ayrı ayrı uygulanan bir stili olmayan HTML dizgi dosyaları için geçerli olacaktır. Özel tema oluşturma hakkında daha fazla bilgiyi [PKP Tema Kılavuzu](https://docs.pkp.sfu.ca/pkp-theming-guide/en/)'nda bulabilirsiniz.
 
 ##### Add images and multimedia to an HTML Galley
 
-If you would like to include images or multimedia files in an HTML galley file, you can upload them as Dependent Files to the submission, and link to them within the file to display them.
+Görüntüleri veya multimedya dosyalarını bir HTML dizgi dosyasına dahil etmek isterseniz, bunları Bağımlı Dosyalar olarak gönderiye yükleyebilir ve görüntülemek için dosya içinde bunlara bağlantı verebilirsiniz.
 
-Before beginning the item upload, you will need an HTML page containing one of the following:
+Öğe yüklemeye başlamadan önce, aşağıdakilerden birini içeren bir HTML sayfasına ihtiyacınız olacak:
 
 * `<audio controls>` element (for MP3)
 * `<video>` element (for MP4), or
 * `<img src=”imagename”>` tag for images
 
-The HTML page should also contain the exact name of the file you are connecting to.
+HTML sayfası, bağlandığınız dosyanın tam adını da içermelidir.
 
-You will need to save the audio/video/image file in MP3/MP4/JPEG/GIF format using the name in the HTML page.
+Ses/video/görüntü dosyasını HTML sayfasındaki adı kullanarak MP3/MP4/JPEG/GIF formatında kaydetmeniz gerekecektir.
 
-Your HTML file will need to contain the following minimum code (for audio files). For the related video or image file code, please see the w3schools instructions on [embedding video in HTML](https://www.w3schools.com/html/html5_video.asp) or instructions on [embedding images in HTML](https://www.w3schools.com/html/html_images.asp).
+HTML dosyanızın aşağıdaki minimum kodu içermesi gerekir (ses dosyaları için). For the related video or image file code, please see the w3schools instructions on [embedding video in HTML](https://www.w3schools.com/html/html5_video.asp) or instructions on [embedding images in HTML](https://www.w3schools.com/html/html_images.asp).
 
 ```html
 <html>
@@ -207,13 +211,13 @@ Your browser does not support the audio element.
 </html>
 ```
 
-In OJS you will need to configure the settings for your Component Types before adding multimedia files. See **Galley File Component Types** above for details about adjusting these settings.
+OJS'de multimedya dosyaları eklemeden önce Bileşen Türleriniz için ayarları yapılandırmanız gerekecektir. Bu ayarların yapılmasıyla ilgili ayrıntılar için yukarıdaki **Dizgi Dosya Bileşeni Türleri**'ne bakın.
 
-Make sure you have “Multimedia” and/or “Image” files configured as “dependent files” in the Component Type settings.
+Bileşen Türü ayarlarında "bağımlı dosyalar" olarak yapılandırılmış "Multimedya" ve/veya "Görüntü" dosyalarına sahip olduğunuzdan emin olun.
 
 ![Form to add Multimedia as a dependent component type.](./assets/learning-ojs3.2-ed-prod-multimedia-component-edit.png)
 
-Now go back to the submission to upload an HTML stylesheet to display your multimedia file. See below for instructions on how to **Add  Galley Files**. In addition, when you upload the file:
+Şimdi multimedya dosyanızı görüntülemek üzere bir HTML stil sayfası yüklemek için gönderime geri dönün. **Dizgi Dosyaları Ekleme** ile ilgili talimatlar için aşağıya bakın. Ayrıca dosyayı yüklediğinizde:
 
 * Label the galley according to the multimedia file type (e.g., MP3, MP4, Image)
 * Select **HTML Stylesheet** from the **Article Component** dropdown
@@ -223,16 +227,15 @@ Now go back to the submission to upload an HTML stylesheet to display your multi
 
 ![Step 2 of uploading production ready files where users will go to upload their dependent files.](./assets/learning-ojs3.2-ed-prod-multimed-dep-file.png)
 
-Select **Multimedia** or **Image** from the **Article Component** drop-down menu, and upload the MP3, MP4, or image file.
+**Makale Bileşeni**'i açılır menüsünden **Multimedya** veya **Resim**'i seçin ve MP3, MP4 veya görüntü dosyasını yükleyin.
 
 ![Step 1 for uploading dependent files, dropdown bar lists Multimedia and Image as selection for Article components.](./assets/learning-ojs3.2-ed-prod-upload-multimedia.png)
 
-When uploading an image file you will be asked to add a Caption, Credit, Copyright Owner, and Permission Terms, as applicable.
+Bir resim dosyası yüklerken, uygun olduğu şekilde bir Altyazı, Telif Hakkı Sahibi ve İzin Koşulları eklemeniz istenecektir.
 
 ![Step 2 for uploading dependent files. Text fields to enter Caption, Credit, Copyright Owner, and Permission Terms.](./assets/learning-ojs3.2-ed-prod-image-details.png)
 
-Click **Continue** to complete the upload, review the details, and confirm. Your multimedia file has now been added as a dependent file along with the HTML, and will be embedded in the HTML when the item is published.
-
+Yüklemeyi tamamlamak, ayrıntıları gözden geçirmek ve onaylamak için **Devam**'ı tıklayın. Multimedya dosyanız artık HTML ile birlikte bağımlı bir dosya olarak eklenmiştir ve öğe yayınlandığında HTML'ye gömülecektir.
 
 #### ePUB Files
 
@@ -268,7 +271,7 @@ Example: [Intersectional Apocalypse](https://journals.lib.sfu.ca/index.php/ifj/a
 
 ##### Upload a multimedia file linked from an external site
 
-Upload the multimedia galley file in the Production stage of the workflow. See below for instructions on how to **Add Galley Files**. In addition, when you upload the file:
+Upload the multimedia galley file in the Production stage of the workflow. See below for instructions on how to **Add Galley Files**. Ayrıca dosyayı yüklediğinizde:
 
 * Label the galley according to the multimedia file type (e.g., MP3/MP4)
 * Check the box indicating “This galley will be available at a separate website”
@@ -285,7 +288,7 @@ The video should now appear in the published submission.
 
 ### Contact the Author
 
-Next, you will want to share the PDF with the author for a final look and sign off. To do so, use the **Add Discussion** link in the Production Discussion panel. This will open a new window.
+Next, you will want to share the PDF with the author for a final look and sign off. To do so, use the **Add Discussion** link in the Production Discussion panel. Bu yeni bir pencere açacaktır.
 
 ![Creating a discussion post in OJS to indicate that galley are ready for proofreading.](./assets/learning-ojs-3-le-production-add-participant.png)
 
@@ -438,21 +441,25 @@ Once you have the plugin set up and have exported the article's metadata to Cros
 
 ## Create Issue
 
+{% include video.html id="opvVBWYnHho" provider="youtube" title="Video of Setting up a journal in OJS 3.3. Module 7: Issues"%}
+
+This PKP School video explains how to create, edit, publish, and manage Issues. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
 When you are ready to publish the article, you have to create an issue to publish it in first. Then you will schedule articles for publication in the issue. The articles will not be published until you publish the issue as a whole. This section explains how to create and edit issues.
 
-From the left menu, select Issues to manage all of the issues for your journal.
+Derginizin tüm sayılarını yönetmek için sol menüden Sayılar'ı seçin.
 
 ![Future Issues tab in Issues. Displays Vol 1 No 3 (2018).](./assets/learning-ojs3.1-jm-issues.png)
 
 You will see tabs for Future Issues and Back Issues.
 
-**Future Issues** are all of your unpublished issues. You can create as many of these as you wish, and schedule submissions to any of them.
+**Future Issues** are all of your unpublished issues. Bunlardan dilediğiniz kadar oluşturabilir ve herhangi biri için gönderi planlayabilirsiniz.
 
 **Back Issues** lists all of your published issues.
 
 ![Back Issue tab in Issues. Displays Vol 1 No 2 (2018) and Vol 1 No 1 (2018).](./assets/learning-ojs3.1-jm-issues-back.png)
 
-To create a new issue, use the **Create Issue** link and fill in the form.
+Yeni bir sayı oluşturmak için **Sayı Oluştur** bağlantısını kullanın ve formu doldurun.
 
 ![Form to create new issue.](./assets/learning-ojs-3-issues-create.png)
 
@@ -462,7 +469,7 @@ When you’re finished, click **Save**.
 
 ### Edit Issue
 
-You can also edit an existing future issue by selecting the blue arrow to the left of the issue entry on the Future Issues page.
+Gelecekteki Sayılar sayfasındaki sayı girişinin solundaki mavi oku seçerek mevcut bir gelecek sayıyı da düzenleyebilirsiniz.
 
 ![Vol 1 No 3 (2018) in Future Issues with blue arrow expanded to show additional options to Edit, Preview, Publish Issue, or Delete.](./assets/learning-ojs3.1-jm-issues-edit.png)
 
@@ -470,15 +477,15 @@ This will reveal an **Edit** link, which will open a new window of information.
 
 ![Table of Contents for Vol 1 No 6 (2016): June 2016.](./assets/learning-ojs-3-issues-details.png)
 
-**Table of Contents**: For a new issue, this will be empty, but for issues that have had submissions scheduled, they will be listed here.
+**İçindekiler**: Yeni bir sayı için boş olacaktır, ancak planlanmış gönderiler burada listelenecektir.
 
 Use the blue arrow next to each submission to reveal links to go directly to the submission record (more about this in Chapter 10) or remove it.
 
-**Issue Data**: This provides access to the volume, issue, number data you entered when first creating the issue.
+**Sayı Verisi**: Bu, sayıyı oluştururken girdiğiniz cilt, sayı, tarih sayı verilerine erişim sağlar.
 
-**Issue Galleys**: This allows you to upload galley of the complete issue – e.g., one PDF containing all articles. This will be linked from the issue web page.
+**Issue Galleys**: This allows you to upload galley of the complete issue – e.g., one PDF containing all articles. Bu, sayı web sayfasında bağlantılandırılacaktır.
 
-**Identifiers**: Use this space to add a DOI for the issue, if your journal supports issue-level identifiers.
+**Tanımlayıcılar**: Derginiz sayı düzeyinde tanımlayıcıları destekliyorsa, sayı için bir DOI eklemek için bu alanı kullanın.
 
 ### Order Sections and Articles
 
@@ -529,7 +536,7 @@ Use the **Unpublish Issue** link to remove the issue and all of its content from
 
 ### Delete Issue
 
-You can use the **Delete** link to remove the issue entirely. Not only will the issue be unpublished, the organizational structure and any issue metadata will also be removed. Any assigned articles will revert to their unpublished status.
+You can use the **Delete** link to remove the issue entirely. Not only will the issue be unpublished, the organizational structure and any issue metadata will also be removed. Atanan makaleler yayınlanmamış durumuna döner.
 
 ## Add the Article to an Issue
 
