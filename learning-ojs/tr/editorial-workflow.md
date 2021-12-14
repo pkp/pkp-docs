@@ -9,31 +9,43 @@ description: How to manage an article manuscript through the OJS workflow, from 
 
 In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
 
-The workflow is divided into 4 stages:
+{% include video.html id="K-qjxN7rOJs" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 2: Editorial Workflow Overview"%}
 
-**Submission**: This is where new submissions land while being assigned to Section Editors and considered for moving into the Review stage.
+This PKP School video provides an overview of the editorial workflow in OJS 3.3. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-Some submissions are clearly inappropriate and never make it beyond this stage.
+İş akışı 4 aşamaya ayrılmıştır:
 
-**Review**: This is where the peer review happens, as well as any revisions required by the author.
+**Gönderi**: Burası, Bölüm Editörlerine atanan ve Değerlendirme aşamasına geçmek için dikkate alınan yeni gönderilerin geldiği yerdir.
 
-Some submission will not pass review and end here. Those that are accepted move to the next stage.
+Belirgin olarak uygun olmayan gönderiler asla bu aşamanın ötesine geçemez.
 
-**Copyediting**: Accepted articles move to this stage, where they are improved by the work of a copyeditor. Authors can be given the opportunity to review the copyedits.
+{% include video.html id="9rx-AahCU10" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 4: Responding to a submission"%}
 
-**Production**: Once the copyedits are completed and approved, the submission moves to this stage. In Production, the copyedited files are converted to galleys -- HTML, XML, PDF, etc. Again the author has the opportunity to proofread the galleys. Once everyone is satisfied, the submission is scheduled for publication in a future issue.
+This PKP School video explains the steps the Editor takes to assign a new submission to a Section Editor. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
+**Değerlendirme**: Burası, yazar tarafından gerekli görülen revizyonların yanı sıra hakem değerlendirmesinin gerçekleştiği yerdir.
+
+Bazı gönderiler değerlendirmeyi geçmeyecek ve süreci burada tamamlanacaktır. Kabul edilen gönderiler bir sonraki aşamaya geçer.
+
+**Kopya Düzenleme**: Kabul edilen gönderiler, kopya düzenleme sürecinden sonra bu aşamaya taşınır. Yazarlara kopyaları gözden geçirme fırsatı verilebilir.
+
+**Üretim**: Kopya düzenlemeleri tamamlanıp onaylandıktan sonra, gönderi bu aşamaya geçer. Üretimde, kopyalanan dosyalar dizgileri yapılarak yayınlanacak biçime dönüştürülür - HTML, XML, PDF, vb. Yazar, dizgileri yapılmış kopyayı düzeltme fırsatına sahiptir. İlgili kişiler uygun gördüğünde, gönderinin gelecekteki bir sayıda yayınlanması planlanır.
+
+{% include video.html id="-VRKdBQPdn4" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 9: Production."%}
+
+This PKP School video explains the Production stage. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 <hr />
 
 ## Tasks
 
-Your Tasks are available from the top left menu of your Dashboard. Note the number "1" in the image below. This indicates that there is currently 1 task in your list.
+Görevlerinize Kontrol Panelinizin sol üst menüsünden ulaşabilirsiniz. Aşağıda verilen resimdeki "1" rakamına dikkat edin. Bu, listenizde şu anda 1 görev olduğunu gösterir.
 
 ![The expanded Tasks menu in OJS.](./assets/learning-ojs3.1-ed-tasks.png)
 
-Tasks provide a quick look at items that need your attention. Bold entries are unread, and unbold entries have been read.
+Görevler, ilgilenmeniz gereken öğelere hızlı bir bakış sağlar. Koyu girişler okunmadı ve açık olan girişler okundu.
 
-Use the checkbox to mark tasks for deletion \(the link is available at the bottom of the list\).
+Görevleri silinmek üzere işaretlemek için onay kutusunu kullanın \(bağlantı listenin altındadır\).
 
 <hr />
 
@@ -45,9 +57,9 @@ When an author makes a new submission to your journal, the author and all contri
 * If one or more Section Editors are assigned to the [section](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) the submission was made in, they will be automatically assigned to the submission and notified.
 * If one or more Section Editors are assigned to a [category](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#categories) the submission was made in, they will be automatically assigned to the submission and notified.
 
-You can also configure OJS so that a copy of the notification email is sent to the journal’s primary contact set in Journal Settings, or to another address.
+OJS'de, bildirim e-postasının bir kopyasını derginin Dergi Ayarları kısmında birincil iletişim grubuna veya başka bir adrese gönderilmesi için de yapılandırabilirsiniz.
 
-To enable copies of submission acknowledgment email to be sent to the primary contact or another address:
+Gönderi onay e-posta kopyalarının birincil ilgili kişiye veya başka bir adrese gönderilmesini sağlamak için:
 
 1. In the Journal Manager’s dashboard, go to Settings > Workflow > Submissions
 2. Scroll down to Notification of Author Submissions
@@ -56,9 +68,9 @@ To enable copies of submission acknowledgment email to be sent to the primary co
 
 ![The Notification of Author Submission settings in OJS.](./assets/learning-ojs3.1-configure-submission-notification.png)
 
-If you want to disable submission acknowledgement emails entirely, you can do so by disabling the *Submission Ack* email template from the list of prepared email templates. To learn more about disabling and enabling email templates, refer to *Disable email templates* in the [Workflow Settings chapter](./settings-workflow).
+Gönderi onayı e-postalarını tamamen devre dışı bırakmak istiyorsanız, hazırlanan e-posta şablonları listesinden *Gönderi Onayı* e-posta şablonunu devre dışı bırakarak bunu yapabilirsiniz. To learn more about disabling and enabling email templates, refer to *Disable email templates* in the [Workflow Settings chapter](./settings-workflow).
 
-Users can also change their individual notification settings from their own profile under View Profile > Notifications.
+Kullanıcılar ayrıca kendi profillerinden Profili Görüntüle > Bildirimler.
 
 ## Submission Dashboard
 
@@ -68,9 +80,9 @@ When you log into your Dashboard, you can find active submissions either from yo
 
 ### My Queue
 
-**My Assigned**: This panel includes submissions added to sections where you are a section editor or to your own submissions if you are also an author with this journal.
+**Atanan Görevler**: Bu panel, bölüm editörü olduğunuz bölümlere veya bu dergide yazarsanız kendi gönderilerinize eklenen gönderileri içerir.
 
-The **Search** tool for each queue can sometimes be helpful in tracking down submissions.
+**Arama** aracı bazen gönderilerin her birini izlenmesinde yardımcı olabilir.
 
 The **Filter** tool allows you to limit your browsing to specific conditions for faster searching. Depending on their role, editorial roles will be able to filter by the following:
 
@@ -90,21 +102,21 @@ When using multiple filters, the AND condition will be applied between filters. 
 
 ![A sample filter applied to the list of submissions.](./assets/learning-ojs3.2-ed-dashboard-filter.png)
 
-Note that you can use the blue arrows to the right of each submission to reveal more details, including how many reviews are outstanding, new discussions, and more. It also reveals buttons to take you to the submission record, view the activity log and notes, and to delete the submission.
+Öne çıkan yorum sayısı, yeni tartışmalar ve daha fazlası dahil olmak üzere daha fazla ayrıntıyı ortaya çıkarmak için her gönderinin sağındaki mavi okları kullanabileceğinizi unutmayın. Ayrıca sizi gönderi kaydına götürmek, etkinlik günlüğünü ve notları görüntülemek ve gönderiyi silmek için düğmeler gösterir.
 
 ![A sample of expanded submission details in the dashboard.](./assets/learning-ojs3.2-ed-dashboard-active-details.png)
 
 ### Unassigned
 
-This panel includes submissions added to sections without section editors.
+Bu panel, bölüm düzenleyicileri olmayan bölümlere eklenen gönderileri içerir.
 
 ![The Unassigned tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-unassigned.png)
 
-In the above example, there are no unassigned submissions, so the panel is empty.
+Yukarıdaki örnekte, atanmamış gönderi olmadığından panel boştur.
 
 ### All Active
 
-This section includes a list of all submissions, without being organized into queues.
+Bu bölüm, iş kuyrukları halinde düzenlenmeden tüm gönderilerin bir listesini içerir.
 
 ![The All Active tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-all-active.png)
 
@@ -116,7 +128,7 @@ This section includes a list of all submissions either declined or already publi
 
 ### Demonstration Submission
 
-For this demonstration, we are looking at the Cerpa submission, entitled _A Review of Object Oriented Database Concepts and their Implementation_. It can be found at the top of the **My Assigned** queue, as well as in the **All Active** queue.
+For this demonstration, we are looking at the Cerpa submission, entitled _A Review of Object Oriented Database Concepts and their Implementation_. **Atananlar** iş kuyruğunun en üstünde ve **Aktif Görevler** kuyruğunda bulunabilir.
 
 ![The My Assigned queue on the OJS Submissions Dashboard, with the example article by Cerpa at the top of the queue.](./assets/learning-ojs3.3-submission-queue.png)
 
@@ -124,29 +136,29 @@ Once you find the submission, you can use the view button to view the submission
 
 ![A submission with the options menu expanded.](./assets/learning-ojs3.3-submission-options.png)
 
-**Activity Log & Notes** will bring up the submission's history.
+**Etkinlik Günlüğü & Notlar**, gönderinin geçmişini tutar.
 
 ![A sample activity log for a submission](./assets/learning-ojs3.1-ed-dashboard-log.png)
 
-Use the Notes tab to also view or add any editorial notes.
+Düzenleme notlarını da görüntülemek veya eklemek için Notlar sekmesini kullanın.
 
 ![The Notes tab of the Activity log.](./assets/learning-ojs-3-ed-submissions-notes.png)
 
 ### Submission Record
 
-To view the submission in more detail, select **View Submission** button. This will take you to the submission record.
+Gönderiyi daha ayrıntılı olarak görüntülemek için **Gönderiyi Görüntüle** düğmesini seçin. Bu sizi gönderi kaydına götürecektir.
 
 ![A sample submission record.](./assets/learning-ojs3.1-ed-dashboard-record.png)
 
-From here, you can see:
+Burda şunları görebilirsiniz:
 
-**Submission Files**: This panel lists the files that have been submitted. In this view, there is just one file, but multiple files could have been submitted. Submission files will now retain the original names when downloaded.
+**Gönderi Dosyaları**: Bu panel, gönderilen dosyaları listeler. Bu görünümde yalnızca bir dosya vardır, ancak birden fazla dosya gönderilmiş olabilir. Submission files will now retain the original names when downloaded.
 
 For journals using anonymous review, the author and reviewer (if they were to upload any document) are still removed. An example filename structure for files downloaded by Reviewers will be `ojs-review-assignment-1-article-text-8.docx` The numeric number corresponds with the manuscript number of assignment.
 
-**Pre-Review Discussions**: This panel allows the editor to communicate with the author, or with others on the editorial team. For example, to ask the author for some additional information, or to ask a section editor to take responsibility for this submission.
+**Ön İnceleme Tartışmaları**: Bu panel, editörün yazarla veya editör ekibindeki diğer kişilerle iletişim kurmasını sağlar. Örneğin, yazardan bazı ek bilgiler veya bir bölüm editöründen bu gönderi için sorumluluk almasını istemek.
 
-**Action Buttons**: These include Send to Review, Accept and Skip Review, and Decline Submission.
+**İşlem Düğmeleri**: Bunlar, Değerlendirmeye Gönder, Değerlendirmeyi Kabul Et ve Atla veya Gönderiyi Reddet'i içerir.
 
 > Note: If you don't see these buttons, you likely have not yet assigned the submission to an editor.
 
@@ -156,9 +168,9 @@ For journals using anonymous review, the author and reviewer (if they were to up
 
 ![The "Submission accepted" status of a submission.](./assets/learning-ojs3.2_edflow_decisionstatus_accept.png)
 
-**Participants**: This panel is where you will see the list of participants involved in the submission, including the editor, section editors, and author. Other names (copyeditors, layout editors, etc.) will appear here as they are added in subsequent steps.
+**Katılımcılar**: Bu panel, editör, bölüm editörleri ve yazar dahil olmak üzere gönderiye katılan katılımcıların listesini göreceğiniz yerdir. Other names (copyeditors, layout editors, etc.) will appear here as they are added in subsequent steps.
 
-**Submission Library**: The Submission Library is a general storage area for documents that may include conflict-of-interest forms, galley approval forms, etc. A user can upload the completed form for their manuscript in their Submission Library. The uploaded forms will also be available to other participants (with the exception of Reviewers) assigned throughout the editorial or production workflow to edit or re-upload new versions.
+**Gönderi Kitaplığı**: Gönderi Kitaplığı, çıkar çatışması formları, dizgi onay formları vb. içerebilecek belgeler için genel bir depolama alanıdır. Bir kullanıcı, makalesi için doldurulmuş formu Gönderi Kitaplığı'na yükleyebilir. Yüklenen formlar, editoryal veya üretim iş akışı boyunca yeni sürümleri düzenlemek veya yeniden yüklemek için atanan diğer katılımcılara da (Hakemler hariç) sunulacaktır.
 
 **Document Library**: Users throughout the editorial workflow will be able to access all the files in the Publisher Library (see [Workflow Settings chapter](./settings-workflow.md)) made available by the Journal Manager or Editor through opening the Submission Library and clicking "View Document Library".
 
@@ -168,7 +180,7 @@ For journals using anonymous review, the author and reviewer (if they were to up
 
 ![The preview feature that shows how an article will look when published](./assets/learning-ojs-3-ed-preview.png)
 
-**Metadata**: Where you can view and revise the submission metadata. In OJS 3.2 and later, users can be granted permission to revise certain submission metadata at any stage of the workflow.
+**Üstveriler**: Gönderi üst verilerini görüntüleyebililir ve düzenleyebilirsiniz. In OJS 3.2 and later, users can be granted permission to revise certain submission metadata at any stage of the workflow.
 
 ![The Metadata tab of a submission.](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
 
@@ -204,29 +216,29 @@ Once the author has been granted access to made edits they will be able to make 
 
 ### Assigning the Submission
 
-Depending on how you have your sections configured, some new submissions may come in unassigned. If this is the case, the next step is to assign an editor or section editor. To do so, select the _Assign_ link in the **Participants** panel.
+Bölümlerinizi nasıl yapılandırdığınıza bağlı olarak, bazı yeni gönderiler atanmamış olarak gelebilir. Bu durumda, bir sonraki adım bir editör veya bölüm editörü atamaktır. Bunu yapmak için **Katılımcılar** panelinde _Ata_ bağlantısını seçin.
 
 ![The Add Participants window.](./assets/learning-ojs-3-ed-submissions-add-participant.png)
 
-You will have the option to locate a user by role, choose an individual, and send them a message requesting their assistance.
+Bir kullanıcıyı role göre bulma, bireysel bir seçim ve onlara yardımlarını isteyen bir mesaj gönderme seçeneğine sahip olacaksınız.
 
 > Note: If you aren't sure of the names of the section editors, simply choose that role from the dropdown menu and then hit the Search button. All Section Editors will be displayed and available for selection.
 
-Hit the **OK** button to make the assignment and send the message.
+Atamayı yapmak ve mesajı göndermek için **Tamam** düğmesine basın.
 
 ![The added participants name shown in the participants list.](./assets/learning-ojs3.1-ed-dashboard-record-assign.png)
 
 > Note the new Pre-Review Discussion that was automatically created as part of the assignment.
 
-You can now see that the Section Editor is listed under Participants, and the Action buttons are available:
+Artık Bölüm Editörünün Katılımcılar altında listelendiğini ve Eylem düğmelerinin mevcut olduğunu görebilirsiniz:
 
-**Send to Review**: Moves the submission on to the next stage.
+**Değerlendirmeye Gönder**: Gönderiyi bir sonraki aşamaya taşır.
 
-**Accept and Skip Review**: Skips the Review Stage and moves the submission directly into Copyediting.
+**Kabul Et ve Değerlendirmeyi Atla**: Değerlendirme Aşamasını atlar ve gönderiyi doğrudan Kopya Düzenlemeye taşır.
 
-**Decline Submission**: Rejects the submission before going through the review process. The submission would then be archived. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active.
+**Gönderiyi Reddet**: Değerlendirme sürecinden geçmeden gönderiyi reddeder. Gönderi daha sonra arşivlenecektir. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active.
 
-Although in this example, the editor assigned a section editor, it would also be possible for the editor to assign themselves to the submission.
+Bu örnekte editör bir bölüm editörü olarak atamış olsa da, kendisini gönderiye ataması mümkün olacaktır.
 
 Once the editor has selected an action, the submission status will change and the action buttons will be disabled.
 
@@ -234,101 +246,105 @@ Once the editor has selected an action, the submission status will change and th
 
 ### Section Editor
 
-Now that the Section Editor has been assigned, they can login and view their dashboard. The submission can be found at the top of the My Assigned queue.
+Artık Bölüm Editörü atandığına göre, oturum açabilir ve kontrol panellerini görüntüleyebilir. Gönderi, Atananlar sırasının en üstünde bulunabilir.
 
 ![The My Assigned queue of a Section Editor with assigned submissions.](./assets/learning-ojs3.1-se-dashboard.png)
 
-Clicking on the article title opens the full submission record.
+Makale başlığına tıklamak gönderi kaydını açar.
 
 ![A sample submission record.](./assets/learning-ojs3.1-se-record.png)
 
 #### Accepting the Assignment
 
-It is not required, but the Section Editor could reply to the Pre-Review Discussion to inform the editor that they will be proceeding with the assignment.
+Bu zorunlu değildir, ancak Bölüm Editörü, atamaya devam edeceklerini editöre bildirmek için Ön Değerlendirme Tartışmasına yanıt verebilir.
 
 #### Communicating with the Author
 
-If the Section Editor has any questions for the author, they can use the Pre-Review Discussions.
+Bölüm Editörünün yazara herhangi bir sorusu varsa, Ön Değerlendirme Tartışmalarını kullanabilirler.
 
 #### Sending to Review
 
-Once the Section Editor is satisfied that the submission is appropriate for the journal, they can select the **Send to Review** button to move the submission to the next stage.
+Bölüm Editörü gönderinin dergi için uygun olduğundan karar verdiğinde, gönderiyi bir sonraki aşamaya taşımak için **Değerlendirmeye Gönder** düğmesini seçebilir.
 
 ![The Send to Review confirmation window.](./assets/learning-ojs3.1-se-record-sendReview.png)
 
-Keep the files that are to be reviewed checked off.
+Değerlendirilecek dosyaları işaretleyin.
 
 <hr />
 
 ## Review
 
-When the submission enters the Review Stage, a notification indicates that Reviewers need to be assigned.
+{% include video.html id="5Hwkqj4Jvew" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 5: Assigning a reviewer."%}
+
+This PKP School video explains the steps the Section Editor takes to assign reviewers to the submission. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
+Gönderi Değerlendirme Aşamasına geçildiğinde, bir bildirim Hakemlerin atanması gerektiğini belirtir.
 
 ![The "Waiting for reviewers to be assigned" notification.](./assets/learning-ojs3.1-se-record-revstage.png)
 
 > Note: In the screenshot above, we see the Section Editor's view. Notice the limited Action buttons \(only Make Recommendation is available\). If we were logged in as an Editor, we would see more Action buttons \(Request Revision, Accept Submission, Decline Submission\).
 
-From the Reviewers panel, you can select Add Reviewer to assign a new Reviewer.
+Hakem panelinden, yeni bir Hakem atamak için Hakem Ekle'yi seçebilirsiniz.
 
-This opens a new window, where Reviewers are listed and can be selected one at a time.
+Bu, Hakemlerin listelendiği ve birer birer seçilebildiği yeni bir pencere açar.
 
 ![The Locate a Reviewer window listing all Reviewers.](./assets/learning-ojs-3.1.2-locate-reviewer.png)
 
-Clicking on the blue arrow reveals more information about their review history, including how many active reviews they are currently assigned, how many reviews they have completed or declined, etc. If the user has added a Biography or Reviewing Interests, this information will be displayed here.
+Mavi oka tıklamak, o anda atanan aktif değerlendirme sayısı, tamamladığı veya reddettiği değerlendirme sayısı vb. dahil olmak üzere değerlendirme geçmişi hakkında daha fazla bilgi gösterir. Kullanıcı bir Biyografi veya İlgi Alanlarını eklediyse, bu bilgi burada görüntülenecektir.
 
-Additionally, a Journal Editor can add an Editorial Note about the reviewer in their profile under Users & Roles > Users. This note will appear in the reviewer details on the Add Reviewer screen, but will not be visible to the reviewer or to the public.
+Ek olarak, bir Dergi Editörü, profillerine Kullanıcılar & Roller > Kullanıcılar altında hakem hakkında bir Editoryal Not ekleyebilir. Bu not, Hakem Ekle ekranında gözden geçiren ayrıntılarında görünecek, ancak hakeme veya herkese görünmeyecektir.
 
 ![A sample of expanded reviewer details with review history and notes.](./assets/learning-ojs-3.1.2-add-reviewer.png)
 
-In OJS releases 3.0 to 3.1.0, you cannot assign a user to review a submission if they are also an editor of the submission.  If you do, the editor will no longer be able to access the submission after they submit their review, in order to maintain the principles of anonymous peer review. However, starting with OJS 3.1.1, you can assign a user to review a submission if they are also an editor of the submission.
+OJS 3.0'dan 3.1.0'a kadar olan sürümlerde, bir kullanıcı aynı zamanda gönderinin editörü ise, bu kullanıcıyı o gönderiyi incelemesi için atayamazsınız.  If you do, the editor will no longer be able to access the submission after they submit their review, in order to maintain the principles of anonymous peer review. Ancak, OJS 3.1.1'den başlayarak, bir kullanıcı aynı zamanda gönderinin editörü ise, o gönderiyi incelemesi için atayabilirsiniz.
 
-At the bottom of this form, you will see options to:
+Bu formun alt kısmında şu seçenekleri göreceksiniz:
 
-**Select Reviewer**: Use this to confirm your selection once you have picked a Reviewer from the list.
+**Hakem Seç**: Listeden bir Hakem seçtikten sonra seçiminizi onaylamak için bunu kullanın.
 
-**Create New Reviewer**: If none of the Reviewers are suitable, you can use this button to create a new Reviewer. This is a new account in the system.
+**Yeni Hakem Oluştur**: Hakemlerin hiçbiri uygun değilse, yeni bir Hakem oluşturmak için bu düğmeyi kullanabilirsiniz. Bu, sistemde yeni bir oluşturur.
 
-**Enroll Existing User**: If none of the Reviewers are suitable, you can enroll an existing user as a Reviewer.
+**Mevcut Kullanıcıyı Yetkilendir**: Hakemlerin hiçbiri uygun değilse, mevcut bir kullanıcıyı Hakem olarak yetkilendirebilirsiniz.
 
-For this demonstration, we will pick Adela as our Reviewer and hit the **Select Reviewer** button.
+Bu demo için, Sönmez Çelik'i Hakem olarak seçeceğiz ve **Hakem Seç** düğmesine basacağız.
 
-This initiates a new window with a message for the Reviewer.
+Bu, Hakem için mesaj içeren yeni bir pencere açacaktır.
 
 ![The Add Reviewer screen with email notification template.](./assets/learning-ojs3.1-se-record-revstage-revreq.png)
 
-You can revise any of the prepared text.
+Hazırlanan metinlerden herhangi birini revize edebilirsiniz.
 
 If you are using an Anonymous Review method, ensure that the files you send to the Reviewer are stripped of any identifying information about the Author. Additional instruction for this is provided in the [Understanding Anonymous Review](#understanding-anonymous-review) and [Removing Identifying Information](#removing-identifying-information) sections.
 
-Further down the form, you will see the additional details that are sent to the Reviewer including title, abstract, important dates, and a link to the files to be reviewed.
+Formun devamında, başlık, özet, önemli tarihler ve incelenecek dosyalara bağlantı dahil olmak üzere Hakem'e gönderilen ek ayrıntıları göreceksiniz.
 
 ![Review details include type and due date settings.](./assets/learning-ojs-3-ed-rev-add-4.png)
 
-By default, Reviewers will be provided with an extended text box to type in their comments. However, the Journal Manager can create Review Forms in [**Workflow Settings &gt; Review**](./settings-workflow#review) to ask more focused questions. If you would like the Reviewer to fill out a review form, select it under **Review Form**.
+Varsayılan olarak, Hakemlere yorumlarını yazmaları için genişletilmiş bir metin kutusu sağlanacaktır. However, the Journal Manager can create Review Forms in [**Workflow Settings &gt; Review**](./settings-workflow#review) to ask more focused questions. Hakemin bir değerlendirme formu doldurmasını istiyorsanız, bunu **Değerlendirme Formu** altında seçin.
 
-Hit the **Add Reviewer** button to send the message and assign the Reviewer.
+Mesajı göndermek ve Hakemi atamak için **Hakem Ekle** düğmesine basın.
 
-Back on the Review Stage, we can see the Reviewer is now listed.
+Değerlendirme Aşamasına geri döndüğümüzde, Hakemin artık listelendiğini görebiliriz.
 
 ![The newly added Reviewer seen in the Review Stage.](./assets/learning-ojs-3-ed-rev-reviewer-added.png)
 
-You can make additional changes using the blue arrow toggle next to the Reviewer's name.
+Hakem adının yanındaki mavi ok geçişini kullanarak ek değişiklikler yapabilirsiniz.
 
 ![Expanded reviewer details and options.](./assets/learning-ojs-3-ed-rev-reviewer-added-2.png)
 
-**Review Details**: Provides details on the review.
+**Değerlendirme Ayrıntıları**: Değerlendirmeyle ilgili ayrıntıları sağlar.
 
 ![The Review Details window.](./assets/learning-ojs-3-ed-rev-reviewer-review-details.png)
 
-**Email Reviewer**: Allows you to send a message to the Reviewer.
+**Hakem'e E-posta**: Hekem'e bir mesaj göndermenizi sağlar.
 
 ![The Email Reviewer window.](./assets/learning-ojs-3-ed-rev-reviewer-email-reviewer.png)
 
-**Edit Review**: Allows you to change the review dates and files.
+**Değerlendirmeyi Düzenle**: Değerlendirme tarihlerini ve dosyalarını değiştirmenize olanak tanır.
 
 ![The Edit Review window.](./assets/learning-ojs-3-ed-rev-reviewer-edit-review.png)
 
-**Unassign Reviewer**: Allows you to unassign the Reviewer.
+**Hakem Atamasını Kaldır**: Hakem atamasını kaldırmanıza olanak tanır.
 
 **Cancel Review Request**: As of OJS 3.2, you can cancel a review request. This may be necessary when a reviewer has not responded to a review request or accepted to do a review but never delivered.
 
@@ -352,17 +368,17 @@ You will then select the reviewer(s) you would like to start a discussion with.
 
 ![The list of reviewers to select for discussion.](./assets/learning-ojs3.2-rev-contact3.png)
 
-**History**: Provides a brief history of the review.
+**Geçmiş**: Değerlendirmenin kısa bir geçmişini sağlar.
 
 ![The review History window.](./assets/learning-ojs-3-ed-rev-review-history.png)
 
-At this point, we could add additional Reviewers, and then wait for their recommendations to come in.
+Bu noktada, ek Hakemler ekleyebilir ve ardından önerilerinin gelmesini bekleyebiliriz.
 
 ### Understanding Anonymous Review
 
-OJS is designed to accommodate different types of reviews and has built-in steps to ensure anonymity.
+OJS, farklı değerlendirme türlerini barındıracak şekilde tasarlanmıştır ve anonimliği sağlamak için yerleşik adımlara sahiptir.
 
-All information will be visible to the journal managers and editors regardless of the type of review selected. The review type will be automatically selected based on what has been configured under _Settings_ > _Workflow_ > _Review_. The editors can change the review type when sending the review request. Editors/Section Editors must select the review type when sending the review request from the following options:
+Seçilen değerlendirme türünden bağımsız olarak tüm bilgiler dergi yöneticileri ve editörler tarafından görülebilir. Değerlendirme türü, _Ayarlar_ > altında yapılandırılanlara göre otomatik olarak seçilecektir; _İş Akışı_ > _Değerlendirme_. Editörler, değerlendirme isteği gönderirken inceleme türünü değiştirebilir. Editörler/Bölüm Editörleri, değerlendirme talebini gönderirken aşağıdaki seçeneklerden inceleme türünü seçmelidir:
 
 * Anonymous Reviewer/Anonymous Author
 * Anonymous Reviewer/Disclosed Author
@@ -370,41 +386,41 @@ All information will be visible to the journal managers and editors regardless o
 
 **Anonymous Reviewer/Anonymous Author**: The identity of both the author and the reviewer is kept hidden.
 
-The author or editor must ensure that metadata from the manuscript file is removed in Anonymous Reviewer/Anonymous Author. See [Removing Identifying Information](#removing-identifying-information) for more information.
+The author or editor must ensure that metadata from the manuscript file is removed in Anonymous Reviewer/Anonymous Author. Daha fazla bilgi için [Kimlik Bilgilerini Kaldırma](#removing-identifying-information) konusuna bakın.
 
 *Reviewer*: The reviewer will not be able to see the author(s) in their reviewer’s queue if the editor has selected Anonymous Reviewer/Anonymous Author. All identifying information in the metadata of the submission details is automatically removed by the system, as seen in the example below.
 
 ![A sample of the metadata a reviewer will see in a double anonymous review - no identifying information is included.](./assets/learning-ojs3.1-ed-rev-anon1.png)
 
-At the end of a review, if a reviewer chooses to upload a review file they should remove all identifying information before uploading it to the system. See [Removing Identifying Information](#removing-identifying-information) for more information.
+Bir değerlendirmenin sonunda, bir hakem bir değerlendirme dosyası yüklemeyi seçerse, sisteme yüklemeden önce tüm tanımlayıcı bilgileri kaldırmalıdır. Daha fazla bilgi için [Kimlik Bilgilerini Kaldırma](#removing-identifying-information) konusuna bakın.
 
-*Author*: No identifying information regarding the reviewer will be visible to the author within their manuscript view.
+*Yazar*: Yazar, makale görünümünde gözden geçirenle ilgili tanımlayıcı hiçbir bilgi görmeyecek.
 
 ![A sample of what the author will see after their submission is reviewed - no identifying information is included.](./assets/learning-ojs3.1-ed-rev-anon2.png)
 
-*Editor's Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
+*Editör Kararı*: Bir değerlendirmenin sonunda yazar(lar)a gönderilen karar e-postasında, hakemlerin genel başlıkları olacaktır.
 
 ![A sample decision email identifying the reviewer only as "Reviewer A".](./assets/learning-ojs3.1-ed-rev-anon3.png)
 
-**Anonymous Reviewer/Disclosed Author**: Reviewer identity is kept anonymous from the author(s). The reviewers can see the author details.
+**Anonymous Reviewer/Disclosed Author**: Reviewer identity is kept anonymous from the author(s). Hakemler yazar ayrıntılarını görebilir.
 
-*Reviewer*: The reviewer is able will see full the metadata entered by the author by clicking _View All Submission Details_ in the request tab of the manuscript. The authors’ name will also appear in the reviewer's queue.
+*Hakem*: Hakem, makale istek sekmesindeki _Tüm Gönderi Ayrıntılarını Görüntüle_'yi tıklayarak yazar tarafından girilen üstverilerin tamamını görebilir. Yazarların adı hakem iş kuyruğunda görünecektir.
 
-*Author*: No identifying information regarding the reviewer will be available within their manuscript view.
+*Yazar*: Makale görünümünde hakeme ilişkin tanımlayıcı bilgiler bulunmayacaktır.
 
 ![A sample of what the author will see after their submission is reviewed - no identifying information is included.](./assets/learning-ojs3.1-ed-rev-anon2.png)
 
-*Editors Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
+*Editör Kararı*: Bir değerlendirmenin sonunda yazar(lar) a gönderilen karar e-postasında, hakemlerin genel başlıkları olacaktır.
 
 ![A sample decision email identifying the reviewer only as "Reviewer A".](./assets/learning-ojs3.1-ed-rev-anon3.png)
 
 ### Removing Identifying Information
 
-While OJS has a number of built-in functions for anonymous reviews, additional steps may need to be taken outside of the platform to ensure Anonymous Reviewer/Anonymous Author. A submission file may have information that could identify the authors' identity within the document properties.
+While OJS has a number of built-in functions for anonymous reviews, additional steps may need to be taken outside of the platform to ensure Anonymous Reviewer/Anonymous Author. Bir gönderi dosyası, belge özellikleri içinde yazarların kimliğini tanımlayabilecek bilgilere sahip olabilir.
 
 ![A sample of a document whose author is visible within the document properties.](./assets/learning-ojs3.1-ed-rev-anon4.png)
 
-Authors may also include their name within the article, footnotes, or references, in which case the editor will have to remove it prior to sending for review. Alternatively, authors can be asked to redact their names from the submission file, with "Author" and year used in the references and footnotes instead of the authors' name, article title, etc., prior to submission.
+Yazarlar ayrıca adlarını makale, dipnotlar veya referanslara dahil edebilir, bu durumda editörün değerlendirmeye göndermeden önce bunları kaldırması gerekecektir. Alternatif olarak, yazarlardan göndermeden önce kaynak ve dipnotlarda yazar adı, makale başlığı vb. yerine "Yazar" ve yıl kullanılarak gönderi dosyasından adlarını düzeltmeleri istenebilir.
 
 #### Microsoft Word for Windows
 
@@ -428,7 +444,7 @@ Authors may also include their name within the article, footnotes, or references
 
 ### Re-uploading the Document
 
-The Journal Managers and Editors are able to re-upload the anonymized document in the Review files by clicking **Upload/Select Files** in the _Review Files_ box.
+Dergi Yöneticileri ve Editörleri, _Değerlendirme Dosyaları_ kutusundaki **Dosyaları Yükle/Seç** seçeneğine tıklayarak değerlendirme dosyalarındaki anonimleştirilmiş belgeyi yeniden yükleyebilirler.
 
 ![The Upload/Select Files button under the Review Files section.](./assets/learning-ojs3.1-ed-rev-anon6.png)
 
@@ -453,6 +469,10 @@ The file(s) will appear under the initial upload. When sending out the review re
 Select the Review File(s) and click **OK**.
 
 ### Responding to Reviews
+
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 7: Responding to the reviews"%}
+
+This PKP School video explains the steps the Section Editor and the author take once the reviews are complete. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 Once the Reviewers have completed their work, the Section Editor can see the results in their dashboard. Here they will see notifications that new reviews have been submitted and whether all reviews are in.
 
@@ -566,7 +586,7 @@ The submission is now ready to be moved to copyediting. To do so, use the blue *
 
 ![The "Send to Copyediting" button in a submission panel.](./assets/learning-ojs-3-ed-send-to-copyediting.png)
 
-This will open a new window.
+Bu yeni bir pencere açacaktır.
 
 ![The Send to Copyediting window including information about the notification of acceptance to be sent to the author.](./assets/learning-ojs-3-ed-accept.png)
 
@@ -586,6 +606,10 @@ Back on the review tab, you will notice that the status now indicates the submis
 
 ## Copyediting
 
+{% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 8: Copyediting."%}
+
+This PKP School video explains the Copyediting stage. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 When a submission is accepted in the Review Stage, it will automatically move to the Copyediting stage.
 
 ![The Copyediting stage of a submission.](./assets/learning-ojs-3-ed-copyediting.png)
@@ -594,7 +618,7 @@ When a submission is accepted in the Review Stage, it will automatically move to
 
 When the submission enters the Copyediting Stage, a notification indicates that a Copyeditor needs to be assigned. Copyeditors can be assigned using the *Add* link on the Participants panel.
 
-This will open a new window.
+Bu yeni bir pencere açacaktır.
 
 ![The Add Participant window in the Copyediting stage.](./assets/learning-ojs-3-ed-copyediting-add.png)
 
@@ -724,7 +748,7 @@ In the discussion window, add the Section Editor, a subject line, and a message.
 
 ![A sample message from the Copy Editor to the Section Editor](./assets/learning-ojs-3-ce-copyedited-discussion.png)
 
-Hit **OK** to send the message.
+Mesajı göndermek için **Tamam**'a basın.
 
 Returning to the Copyediting stage, you can see the message is posted.
 
