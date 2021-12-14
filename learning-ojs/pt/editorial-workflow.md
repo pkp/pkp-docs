@@ -9,11 +9,19 @@ description: Como gerenciar um artigo manuscrito através do fluxo de trabalho O
 
 Neste capítulo, você acompanhará todo o fluxo de trabalho de uma submissão, desde a primeira submissão até a publicação final.
 
+{% include video.html id="K-qjxN7rOJs" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 2: Editorial Workflow Overview"%}
+
+This PKP School video provides an overview of the editorial workflow in OJS 3.3. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 O fluxo de trabalho é dividido em 4 estágios:
 
 **Submissão**: nesta etapa, estão localizadas as novas submissões enquanto esperam pela atribuição aos Editores de Seção, que verificarão se têm condições de passar para o estágio de Avaliação.
 
 Algumas submissões são claramente inadequadas e nunca passam desse estágio.
+
+{% include video.html id="9rx-AahCU10" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 4: Responding to a submission"%}
+
+This PKP School video explains the steps the Editor takes to assign a new submission to a Section Editor. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 **Avaliação**: etapa em que ocorre a avaliação por pares, bem como quaisquer revisões exigidas pelo autor (no caso do autor discordar de alterações propostas pelo(s) avaliador(es), por exemplo).
 
@@ -22,6 +30,10 @@ Algumas submissões não são aprovadas na avaliação e não passam desse está
 **Edição de texto**: nesse estágio, os artigos aceitos são aprimorados pelo trabalho de um revisor. Os autores podem ter a oportunidade de revisar as edições.
 
 **Editoração**: após a conclusão e aprovação das edições de texto, a submissão segue para essa fase. Na editoração, os textos editados são convertidos em provas (por exemplo, HTML, XML, PDF, etc.). Novamente, o autor tem a oportunidade de revisar as provas. Assim que todos estiverem satisfeitos, a submissão é agendada para publicação em uma edição futura.
+
+{% include video.html id="-VRKdBQPdn4" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 9: Production."%}
+
+This PKP School video explains the Production stage. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 <hr />
 
@@ -136,7 +148,7 @@ Use a guia Notas para também visualizar ou adicionar quaisquer notas editoriais
 
 Para ver a submissão com mais detalhes, selecione o botão ***Ver Submissão**. Isso levará você ao registro de submissão.
 
-![A sample submission record.](./assets/learning-ojs3.1-ed-dashboard-record.png)
+![learning-ojs3.1-se-record.png](./assets/learning-ojs3.1-ed-dashboard-record.png)
 
 A partir daqui, você pode ver:
 
@@ -224,7 +236,7 @@ Agora, você pode ver que o Editor de Seção está listado em Participantes e o
 
 **Aceitar e enviar para Edição de texto**: ignora o estágio de avaliação e move a submissão diretamente para a edição de texto.
 
-**Rejeitar Submissão**: Rejeita a submissão antes de passar pelo processo de avaliação, a submissão seria então arquivada. The submission would then be archived. No OJS 3.3, agora existe a opção de reverter uma decisão de recusa na fase de submissão e avaliação. Isso pode ser feito clicando em **Alterar decisão** e, em seguida, em **Reverter Decisão**. Depois que uma decisão de rejeitar é revertida, a submissão é restaurada ao estágio anterior e a rodada de avaliação se ativa.
+**Rejeitar Submissão**: Rejeita a submissão antes de passar pelo processo de avaliação, a submissão seria então arquivada. The submission would then be archived. No OJS 3.3, agora existe a opção de reverter uma decisão de Rejeitar Submissão na fase de Submissão e Avaliação. Isso pode ser feito clicando em **Alterar decisão** e, em seguida, em **Reverter recusa**. Depois que uma decisão declinada for revertida, a submissão é restaurada ao estágio prévio e a rodada de revisão torna-se ativa.
 
 Embora, no exemplo que demos, o editor tenha designado um editor de seção, também seria possível que o editor se designasse para a submissão.
 
@@ -261,6 +273,10 @@ Mantenha os arquivos que serão revisados ​​desmarcados.
 <hr />
 
 ## Comentário
+
+{% include video.html id="5Hwkqj4Jvew" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 5: Assigning a reviewer."%}
+
+This PKP School video explains the steps the Section Editor takes to assign reviewers to the submission. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 Quando a submissão entra no Estágio de Avaliação, uma notificação indica que os Avaliadores precisam ser atribuídos.
 
@@ -392,7 +408,7 @@ No final de uma avaliação, se um avaliador decidir fazer upload de um arquivo 
 
 *Author*: No identifying information regarding the reviewer will be available within their manuscript view.
 
-![A sample of what the author will see after their submission is reviewed - no identifying information is included.](./assets/learning-ojs3.1-ed-rev-anon2.png)
+![<em x-id="3">Autor</em>: nenhuma informação de identificação sobre o avaliador estará disponível na visualização do manuscrito.](./assets/learning-ojs3.1-ed-rev-anon2.png)
 
 *Decisão Editorial*: o e-mail de decisão enviado ao(s) autor(es) ao final da avaliação terá títulos genéricos dos avaliadores.
 
@@ -454,6 +470,10 @@ Clique em **OK**.
 
 ### Solicitar revisões
 
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 7: Responding to the reviews"%}
+
+This PKP School video explains the steps the Section Editor and the author take once the reviews are complete. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 Assim que os avaliadores concluírem seu trabalho, o Editor de Seção pode ver os resultados em seu painel. Nesse espaço, eles verão notificações de que novos comentários foram enviados e se todos os comentários foram enviados.
 
 ![O Editor de Seção receberá um email informando que a edição de texto foi concluída e verá uma notificação nas discussões.](./assets/learning-ojs-3-ed-rev-responding.png)
@@ -484,7 +504,7 @@ As opções incluem:
 
 Use o botão **Adicionar mensagem** para responder, seja solicitando uma revisão adicional seja informando ao autor que a submissão está pronta para avançar à próxima etapa.
 
-**Rejeitar submissão** : quer dizer que a submissão não foi aprovada na avaliação por pares e não é adequada a análise posterior. A apresentação seria então transferida para os Arquivos. Apenas as submissões recusadas ​​nos Arquivos podem ser excluídas. No OJS 3.3, agora existe a opção de reverter uma decisão de Rejeitar Submissão na fase de Submissão e Avaliação. Isso pode ser feito clicando em **Alterar decisão** e, em seguida, em **Reverter recusa**. Depois que uma decisão recusada é revertida, a submissão é restaurada ao estágio anterior e a rodada de avaliação torna-se ativa.
+**Rejeitar submissão** : quer dizer que a submissão não foi aprovada na avaliação por pares e não é adequada a análise posterior. A apresentação seria então transferida para os Arquivos. Apenas as submissões recusadas ​​nos Arquivos podem ser excluídas. No OJS 3.3, agora existe a opção de reverter uma decisão de Rejeitar Submissão na fase de Submissão e Avaliação. Isso pode ser feito clicando em **Alterar decisão** e, em seguida, em **Reverter recusa**. Depois que uma decisão declinada for revertida, a submissão é restaurada ao estágio prévio e a rodada de revisão torna-se ativa.
 
 ### Request Revisions
 
@@ -580,11 +600,15 @@ De volta à guia de revisão, você notará que o status agora indica que a subm
 
 Back on the review tab, you will notice that the status now indicates the submission has been accepted.
 
-![The "Submission accepted" status of a submission.](./assets/learning-ojs3.2_edflow_decisionstatus_accept.png)
+![learning-ojs3.2_edflow_decisionstatus_accept.png](./assets/learning-ojs3.2_edflow_decisionstatus_accept.png)
 
 <hr />
 
 ## Submissão de demonstração
+
+{% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 8: Copyediting."%}
+
+This PKP School video explains the Copyediting stage. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 Quando uma submissão é aceita no estágio de avaliação, ela passa automaticamente ao estágio de edição de texto.
 
@@ -594,7 +618,7 @@ Quando uma submissão é aceita no estágio de avaliação, ela passa automatica
 
 Quando a submissão entra no Estágio de Edição de Texto, uma notificação indica que um Editor de Texto precisa ser atribuído. A atribuição de Editores de texto pode ser feita por meio do link *Designar*, no painel Participantes.
 
-This will open a new window.
+Ao fazer isso, será aberta uma nova janela.
 
 ![The Add Participant window in the Copyediting stage.](./assets/learning-ojs-3-ed-copyediting-add.png)
 
@@ -724,7 +748,7 @@ In the discussion window, add the Section Editor, a subject line, and a message.
 
 ![A sample message from the Copy Editor to the Section Editor](./assets/learning-ojs-3-ce-copyedited-discussion.png)
 
-Clique em **OK**.
+Clique em **OK** para enviar a mensagem.
 
 Nesse ponto, você pode se comunicar melhor com o Editor de Texto ou, se estiver satisfeito, mover a submissão para o estágio de Editoração.
 
