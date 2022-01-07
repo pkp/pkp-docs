@@ -10,7 +10,7 @@ The Crossref XML Export Plugin  can deposit DOIs to Crossref for registration in
 - manually, from plugin interface;
 - manually, via Crossref XML Export and upload via the Crossref admin tool at doi.crossref.org.
 
-You can also register your content with Crossref entirely outside of OJS using the Crossref metadata manager, though the plugin can save you having to input metadata by hand.
+You can also register your content with Crossref entirely outside of OJS using Crossref's Web Deposit Form, though the plugin can save you having to input metadata by hand.
 
 You can find the Crossref Plugin from your dashboard by navigating to **Tools** > **Import/Export** > **Crossref XML Export Plugin**.
 
