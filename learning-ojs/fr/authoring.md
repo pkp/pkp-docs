@@ -9,6 +9,9 @@ description: A guide on how to submit a manuscript to an OJS journal as an autho
 
 Dans ce chapitre, vous apprendrez comment un auteur interagit avec OJS 3.2, depuis l'inscription jusqu'à la correction des épreuves finales.
 
+{% include video.html id="AJwDWdAu8BQ" provider="youtube" title="Video of Submitting an Article in OJS"%}
+This PKP School video explains how an author can register for a journal and submit an article. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 ## S'inscrire à la revue
 
 Pour soumettre une soumission à une revue OJS 3.2, vous devez d'abord créer un compte utilisateur auprès d'une revue et vous connecter (voir [Inscription à une revue](./user-accounts#inscription-à-une-revue) ). Après cela, une fois connecté, vous serez redirigé vers votre tableau de bord.
@@ -144,6 +147,9 @@ Les modifications peuvent inclure des résumés mis à jour, la correction des f
 
 ## Répondre à une Revue
 
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Responding to Reviews in OJS"%}
+This PKP School video explains how an editor responds to a review and how an author can upload revisions. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 Une fois le processus d'examen terminé, vous serez informé par e-mail par le rédacteur de sa décision.
 
 Après avoir reçu le courriel avec la décision, connectez-vous à votre tableau de bord. Sélectionnez le manuscrit dont vous avez été informé.
@@ -249,6 +255,9 @@ Le processus d'évaluation par ses collègues sera répété et vous recevrez pr
 <hr />
 
 ## Répondre à une Demande de Révision
+
+{% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Copyediting in OJS"%}
+This PKP School video explains the copyediting process, including how an editor can respond to a copyediting or proofreading request. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 L'étape suivante du flux de travail consiste à inspecter vos fichiers de soumission qui ont été révisés.
 
