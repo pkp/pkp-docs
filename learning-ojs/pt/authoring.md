@@ -9,6 +9,9 @@ description: Um guia sobre como enviar um manuscrito para um periódico OJS como
 
 Neste capítulo, você aprenderá como um autor trabalha no OJS, desde o registro até a revisão da versão final.
 
+{% include video.html id="AJwDWdAu8BQ" provider="youtube" title="Video of Submitting an Article in OJS"%}
+This PKP School video explains how an author can register for a journal and submit an article. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 ## Cadastrando-se na Revista
 
 Para fazer uma submissão a uma revista que utiliza o OJS, primeiro você precisa criar uma conta de usuário na revista e fazer o login \(consulte [Registrando em uma revista](./user-accounts#registering-with-a-journal)\). Depois disso, ao fazer o login, você será levado à aba de submissão.
@@ -144,6 +147,9 @@ e você notar que o botão 'Salvar' está cinza e inativo, isso significa que te
 
 ## Respondendo a uma revisão
 
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Responding to Reviews in OJS"%}
+This PKP School video explains how an editor responds to a review and how an author can upload revisions. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 Assim que o processo de revisão for concluído, você será notificado por e-mail pelo Editor sobre sua decisão.
 
 Após receber o e-mail com a decisão, faça o login no seu painel. Selecione o manuscrito sobre o qual você foi notificado.
@@ -250,6 +256,9 @@ O processo de revisão por pares será repetido e você provavelmente receberá 
 
 ## Respondendo a uma solicitação de edição de texto
 
+{% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Copyediting in OJS"%}
+This PKP School video explains the copyediting process, including how an editor can respond to a copyediting or proofreading request. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 A próxima etapa no fluxo de trabalho é inspecionar os arquivos de envio que foram editados.
 
 Você receberá um e-mail indicando que os arquivos estão disponíveis. Para vê-los, faça o login no Periódico e vá ao seu painel.
@@ -282,11 +291,11 @@ Sua função no processo de edição de texto agora está concluída e você pod
 
 A próxima etapa no fluxo de trabalho é inspecionar seus arquivos de submissão que foram convertidos em outros formatos (por exemplo, PDF, HTML, etc.).
 
-Você receberá um e-mail indicando que os arquivos estão disponíveis. Para vê-los, faça o login na Revista e vá ao seu painel.
+Você receberá um e-mail indicando que os arquivos estão disponíveis. Para vê-los, faça o login no Periódico e vá ao seu painel.
 
-![Author submission dashboard](./assets/learning-ojs-3-au-production-dashboard.png)
+![Painel de submissão do autor](./assets/learning-ojs-3-au-production-dashboard.png)
 
-Você pode ver sua entrada no painel Minha Autoria. Selecione o link Produção para acessar o registro de envio completo, incluindo a notificação no painel Discussões de produção.
+Você pode ver sua submissão no painel Minha Autoria. Selecione o link Produção para acessar o registro de envio completo, incluindo a notificação no painel Discussões de produção.
 
 ![Production section of author dashboard](./assets/learning-ojs-3-au-production-record.png)
 
