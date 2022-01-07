@@ -9,6 +9,9 @@ description: A guide on how to submit a manuscript to an OJS journal as an autho
 
 In this chapter, you will learn about how an author works in OJS from registration through to proofreading the final galley.
 
+{% include video.html id="AJwDWdAu8BQ" provider="youtube" title="Video of Submitting an Article in OJS"%}
+This PKP School video explains how an author can register for a journal and submit an article. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 ## Registering with the Journal
 
 To make a submission to an OJS journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
@@ -144,6 +147,9 @@ If you notice that the ‘Save’ button is grey and inactive, this means you wi
 
 ## الاستجابة لالتماس التدقيق
 
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Responding to Reviews in OJS"%}
+This PKP School video explains how an editor responds to a review and how an author can upload revisions. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 Once the review process has completed, you will be notified via email by the editor of their decision.
 
 After receiving the email with the decision, login to your dashboard. Select the manuscript you have been notified about.
@@ -249,6 +255,9 @@ The peer review process will be repeated, and you will likely receive additional
 <hr />
 
 ## الاستجابة لالتماس القراءة التصحيحية
+
+{% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Copyediting in OJS"%}
+This PKP School video explains the copyediting process, including how an editor can respond to a copyediting or proofreading request. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 The next step in the workflow is to inspect your submission files that have been copyedited.
 
