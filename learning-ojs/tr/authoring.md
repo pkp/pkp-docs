@@ -9,41 +9,44 @@ description: A guide on how to submit a manuscript to an OJS journal as an autho
 
 In this chapter, you will learn about how an author works in OJS from registration through to proofreading the final galley.
 
+{% include video.html id="AJwDWdAu8BQ" provider="youtube" title="Video of Submitting an Article in OJS"%}
+This PKP School video explains how an author can register for a journal and submit an article. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
 ## Registering with the Journal
 
-To make a submission to an OJS journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
+To make a submission to an OJS journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). Giriş yaptığınızda, Kontrol Paneline yönlendirileceksiniz.
 
-![Submissions queue in author dashboard](./assets/learning-ojs3.1-au-dashboard-empty.png)
+![Yazar panosunda gönderiler kuyruğu](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
-It is currently empty as you have made no submissions.
+Hiçbir gönderi yapmadığınız için şu anda boş.
 
 <hr />
 
 ## Submitting an Article
 
-Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to Step 1 of a 5-Step process to upload and describe your submission.
+Ekranın sağ tarafındaki **Yeni Gönderi** düğmesini tıklayarak yeni bir gönderi başlatabilirsiniz. Gönderi yüklemek, üstveri girişi yapmak ve açıklama için 5 Adımlı bir sürecin 1. Adımına yönlendirileceksiniz.
 
-![Author submission queue with new submission button](./assets/learning-ojs3.1-au-dashboard-empty.png)
+![Yeni gönderi düğmesi ile yazar gönderi kuyruğu](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
 ### Step 1
 
-In **Step 1** you will provide preliminary information about your submission.
+**1. Adım**'da, gönderiniz hakkında ön bilgi vereceksiniz.
 
-![Article submission start screen](./assets/learning-ojs3.3-au-dashboard-new-1.png)
+![Makale gönderisi başlangıç ekranı](./assets/learning-ojs3.3-au-dashboard-new-1.png)
 
 If the journal allows submissions in multiple languages, you can select the language of your submission from the drop-down menu. Languages can be enabled in Website Settings -> Setup -> Language.
 
 If the journal has Categories enabled and setup, you can select the categories your submission from the list. Categories can be setup in Journal > Categories.
 
-Select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
+Select the appropriate section for your submission \(e.g., article, review, etc.\). Hangi bölümün uygun olduğundan emin değilseniz, uygun olduğunu düşündüğünüz bölümü seçiniz.
 
-Read and agree to the statements in the submission checklist by checking each box. Include any comments for the editor, read the journal’s privacy statement, and then click the **Save and Continue** button to move to **Step 2**.
+Her bir kutuyu işaretleyerek gönderi kontrol listesindeki ifadeleri okuyun ve kabul edin. Editöre iletilecek tüm yorumları ekleyin, derginin gizlilik bildirimini okuyun ve ardından **2. Adım'a** geçmek için **Kaydet ve Devam Et** düğmesini tıklayın.
 
 ### Step 2
 
-On **Step 2**, a window will open allowing you to upload your submission file.
+**2. Adım**'da gönderi dosyanızı yüklemenize izin veren bir pencere açılacaktır.
 
-![File upload screen](./assets/learning-ojs-3.3-author-submission-step2.png)
+![Dosya yükleme ekranı](./assets/learning-ojs-3.3-author-submission-step2.png)
 
 In OJS 3.3 authors can upload multiple files at once, as well as drag-and-drop files.
 
@@ -66,15 +69,15 @@ On **Step 3**, you will be asked to add more information about the submission, i
 
 ...you are able to add any additional contributors.
 
-![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
+![Katkıda bulunanların listesi](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
-You can add more contributors (e.g., co-authors), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
+You can add more contributors (e.g., co-authors), by clicking the **Add Contributors** link. Bu, bilgilerini girmek için alanlar içeren yeni bir pencere açacaktır.
 
-![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
+![Katılımcı ekle](./assets/learning-ojs-3-author-submission-step3-2.png)
 
-Hit **Save**, and the new contributor will appear on the screen.
+**Kaydet**'e tıkladığınızda yeni katılımcı ekranda görünecektir.
 
-![List with new contributors added](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
+![Yeni katkıda bulunanların eklendiği liste](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
 If the categories are enabled in the journal you are submitting to, you will be able to select a category for the manuscript submission, if it applies.
 
@@ -82,43 +85,43 @@ If the categories are enabled in the journal you are submitting to, you will be 
 
 You may also see additional fields to complete, such as keywords. If additional languages are enabled for the journal, you can enter the metadata in these languages. Clicking on the metadata field will reveal the fields for other languages enabled in the journal.
 
-![Enter keywords](./assets/learning-ojs-3.2-author-submission-step3-4.png)
+![Anahtar kelimeleri girin](./assets/learning-ojs-3.2-author-submission-step3-4.png)
 
-To enter keyword, simply type the word or phrase and hit your Enter key. The word or phrase will be formatted as a keyword.
+Anahtar kelimeyi girmek için, kelimeyi veya kelime öbeğini yazıp Enter tuşuna basmanız yeterlidir. Kelime veya kelime öbeği, anahtar kelime olarak biçimlendirilecektir.
 
-Click **Save and Continue** to move forward.
+İlerlemek için **Kaydet ve Devam Et**'i tıklayın.
 
 ### Step 4
 
-On Step 4, you will be asked to confirm that you are happy with your submission.
+4. Adımda, gönderi verilerini incelemeniz ve onaylamanız istenecektir.
 
-Click **Finish Submission**.
+**Gönderiyi Bitir**'i tıklayın.
 
-![Finish submission screen](./assets/learning-ojs3.1-au-dashboard-new-4.png)
+![Gönderi ekranı sonu](./assets/learning-ojs3.1-au-dashboard-new-4.png)
 
-A box will pop up asking you to confirm you are finished. Click **OK**.
+Bitirdiğinizi onaylamanızı isteyen bir kutu açılacaktır. **Tamam**'ı tıklayın.
 
-![Confirm submission screen](./assets/learning-ojs-3-author-submission-step4-1.png)
+![Gönderi ekranını onaylayın](./assets/learning-ojs-3-author-submission-step4-1.png)
 
 ### Step 5
 
-![Next steps submission screen](./assets/learning-ojs3.1-au-dashboard-new-5.png)
+![Sonraki adımlar gönderi ekranı](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
-Your submission is now complete! The editor has been notified of your submission. At this point, you can follow the links to:
+Gönderiniz tamamlandı! Editör, gönderiniz hakkında bilgilendirildi. Bu noktada aşağıdaki bağlantıları takip edebilirsiniz:
 
 * Review this submission
 * Create a new submission
 * Return to your dashboard
 
-Once you complete a submission, you cannot make changes to it.  If you want to replace the file you submitted or make other changes to the submission, you will need to contact the editor through the Pre-Review Discussions tool.
+Bir gönderiyi tamamladıktan sonra üzerinde değişiklik yapamazsınız.  Gönderdiğiniz dosyayı değiştirmek veya gönderide başka değişiklikler yapmak istiyorsanız, Ön İnceleme Tartışmaları seçeneği aracılığıyla editörle iletişime geçmeniz gerekir.
 
 ### Dashboard
 
-And here is your submission in your Dashboard. You can see that it is currently in the _Submission_ stage.
+Yönetim Panelindeki gönderiniz. Şu anda _Gönderi_ aşamasında olduğunu görebilirsiniz.
 
-![Submission in author dashboard](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
+![Yazar yönetim panelinde gönderi](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
-Over the coming days, it will move into the Review stage, and if accepted, into the Copyediting and Production stages before being published.
+Önümüzdeki günlerde, Değerlendirme aşamasına ve kabul edilirse yayınlanmadan önce Kopya Düzenleme ve Üretim aşamalarına geçecektir.
 
 <hr />
 
@@ -144,158 +147,164 @@ If you notice that the ‘Save’ button is grey and inactive, this means you wi
 
 ## Responding to a Review
 
-Once the review process has completed, you will be notified via email by the editor of their decision.
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Responding to Reviews in OJS"%}
+This PKP School video explains how an editor responds to a review and how an author can upload revisions. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+
+Değerlendirme süreci tamamlandıktan sonra, değerlendirme sonucu editör tarafından e-posta yoluyla size bildirilecektir.
 
 After receiving the email with the decision, login to your dashboard. Select the manuscript you have been notified about.
 
-![Submission dashboard with items in review](./assets/learning-ojs-3.2-auth-responding-revisions.png)
+![İncelenen öğelerle birlikte gönderi paneli](./assets/learning-ojs-3.2-auth-responding-revisions.png)
 
 Within the Review tab of the manuscript, you will also see a copy of the Editorial Decision under Notifications. Depending on the type of peer review the journal uses, you may see less information on the Review tab of the journal. The example below shows an open peer review which allows authors to see who the reviewer was.
 
-![Review tab of manuscript](./assets/learning-ojs-3.2-auth-responding-revisions2.png)
+![Makale değerlendirme sekmesi](./assets/learning-ojs-3.2-auth-responding-revisions2.png)
 
 To view the Editorial decision, click the link under notifications.
 
-![Editor decision notification](./assets/learning-ojs-3.2-auth-responding-revisions3.png)
+![Editör karar bildirimi](./assets/learning-ojs-3.2-auth-responding-revisions3.png)
 
-Based on the information in the editor's message, you must now prepare your revisions.
+Editörün mesajındaki isteklere göre revizyonları hazırlamalısınız.
 
 ### Uploading the Revised File
 
 Once you’re ready to upload the revised file, scroll down the page and find the panel for **Revisions**.
 
-![Revisions panel](./assets/learning-ojs-3-auth-responding-revisions4.png)
+![Revizyonlar paneli](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
-Use the *Upload a File* link to upload your revised manuscript.
+Gözden geçirilmiş makaleyi yüklemek için *Bir Dosya Yükle* bağlantısını kullanın.
 
-![Upload review file](./assets/learning-ojs-3-auth-responding-upload.png)
+![İnceleme dosyası yükle](./assets/learning-ojs-3-auth-responding-upload.png)
 
-Use the dropdown menu to choose that you are uploading a revision of an existing file.
+Mevcut bir dosyanın revizyonunu yüklemek için açılır menüyü kullanın.
 
-Then upload the revised file and hit **Continue**.
+Ardından gözden geçirilmiş dosyayı yükleyin ve **Devam**'a basın.
 
-![Review file details and continue](./assets/learning-ojs-3-auth-responding-upload2.png)
+![Dosya ayrıntılarını inceleyin ve devam edin](./assets/learning-ojs-3-auth-responding-upload2.png)
 
-Check the file details and hit **Continue** again.
+Dosya ayrıntılarını kontrol edin ve tekrar **Devam**'a basın.
 
-![Add another file or complete upload](./assets/learning-ojs-3-auth-responding-upload3.png)
+![Başka bir dosya ekleyin veya yüklemeyi tamamlayın](./assets/learning-ojs-3-auth-responding-upload3.png)
 
-If you have any additional files to upload, do so now. Otherwise, hit **Complete**.
+Yüklenecek başka dosyalarınız varsa, şimdi yapın. Aksi takdirde, **Tamamla**'ya basın.
 
-Your revised file is now visible in the Revisions panel.
+Gözden geçirilmiş dosyanız artık Düzeltmeler panelinde görünecektir.
 
-![Revised file now in revisions panel](./assets/learning-ojs-3-auth-responding-upload4.png)
+![Revize edilmiş dosya şimdi revizyonlar panelinde](./assets/learning-ojs-3-auth-responding-upload4.png)
 
 ### Inform the Editor
 
-The editor will receive a notification about the new file(s) being uploaded. Additionally you can inform the editor via the Review Discussion panel as explained below.
+Editör, yüklenmekte olan yeni dosya(lar) hakkında bir bildirim alacaktır. Ayrıca aşağıda açıklandığı gibi Değerlendirme Tartışma paneli aracılığıyla editöre bilgi verebilirsiniz.
 
-![Review discussions panel](./assets/learning-ojs-3-auth-responding-discussion.png)
+![Tartışma panelini inceleyin](./assets/learning-ojs-3-auth-responding-discussion.png)
 
-From there, select the *Add Discussion* link.
+Buradan, *Tartışma Ekle* bağlantısını seçin.
 
 Select the users you want to notify under Participants.
 
 ![Add discussion and select participants](./assets/learning-ojs-3.2-auth-responding-discussion-add.png)
 
-Add a subject line and a message.
+Bir konu satırı ve bir mesaj ekleyin.
 
-Hit **OK** to send the message.
+Mesajı göndermek için **Tamam**'a basın.
 
-An email has now been sent to the editor and you (and the editor) can see the message in the Review Discussions panel.
+Böylece editöre bir e-posta gönderildi ve siz (ve editör) mesajı Değerlendirme Tartışma panelinde görebilirsiniz.
 
-![Message in review discussions panel](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
+![İnceleme tartışmaları panelindeki mesaj](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
 
-At this point, the author needs to wait to hear back from the editor as to whether the revisions are acceptable.
+Bu noktada, yazarın düzeltmelerin kabul edilebilir olup olmadığı konusunda editörden haber beklemesi gerekir.
 
 ### Revisions Accepted
 
-You will receive an email that your revisions have been accepted.
+Revizyonlarınızın kabul edildiğine dair bir e-posta alacaksınız.
 
-In addition, notifications will appear on your dashboard.
+Ayrıca yönetim panelinde bildirimler görünecektir.
 
-![Notifications in dashboard](./assets/learning-ojs-3.2-au-notifications.png)
+![Kontrol panelindeki bildirimler](./assets/learning-ojs-3.2-au-notifications.png)
 
-The notifications show up in order of date, meaning the most recent one will be on the bottom. Click on it to open the message (which is the same as the email you would have also received).
+The notifications show up in order of date, meaning the most recent one will be on the bottom. Mesajı açmak için üzerine tıklayın (bu, alacağınız e-posta ile aynıdır).
 
-![Notification message](./assets/learning-ojs-3-au-notifications2.png)
+![Bildirim mesajı](./assets/learning-ojs-3-au-notifications2.png)
 
-Use the **X** in the upper right corner to close the window.
+Pencereyi kapatmak için sağ üst köşedeki **X**'i kullanın.
 
-Further down your dashboard, you will also see a discussion reply from the editor.
+Yönetim panelinizin daha aşağısında, editörün oluşturduğu bir tartışma yanıtı da göreceksiniz.
 
-![Discussion reply in review discussion panel](./assets/learning-ojs-3-au-rev-discussions.png)
+![İnceleme tartışma panelinde tartışma yanıtı](./assets/learning-ojs-3-au-rev-discussions.png)
 
-Clicking the discussion title will open it up.
+Tartışma başlığına tıklayarak tartışmayı açabilirsiniz.
 
-![Review discussion message](./assets/learning-ojs-3-au-rev-discussions2.png)
+![Tartışma mesajını inceleyin](./assets/learning-ojs-3-au-rev-discussions2.png)
 
-Congratulations! You've been accepted and your submission file is moving on to the Copyedit stage.
+Tebrikler! Kabul edildiniz ve gönderi dosyanız Kopya Düzenleme aşamasına geçiyor.
 
 <hr />
 
 ## Resubmitting for Review
 
-If the editor’s decision is to resubmit for review, you will need to log in and select the article in your submissions page. The resubmission is done in the review stage, there is no need to start a new submission.
+Editörün kararı değerlendirme için yeniden göndermekse, oturum açmanız ve gönderiler sayfanızdan makaleyi seçmeniz gerekecektir. Yeniden gönderi, değerlendirme aşamasında yapılır; yeni bir gönderi başlatmaya gerek yoktur.
 
-At the review stage you will need to do two things to resubmit once you have revised your document:
+Değerlendirme aşamasında, çalışmanızı revize ettikten sonra yeniden göndermek için iki şey yapmanız gerekecektir:
 
-Upload the new file in the revisions section. To upload a new file click on ‘Upload file.’ A new window will open allowing you to upload your file(s). Select the appropriate option from the dropdown menu to indicate you are submitting a revision of an existing file.
+Yeni dosyayı revizyonlar bölümünde yükleyin. Yeni bir dosya yüklemek için 'Dosya yükle'yi tıklayın. Dosya(ları)nızı yüklemenize izin veren yeni bir pencere açılacaktır. Mevcut bir dosyanın revizyonunu gönderdiğinizi belirtmek için açılır menüden uygun seçeneği seçin.
 
-Add a discussion to notify the editor that you have re-submitted.
+Yeniden gönderdiğinizi editöre bildirmek için bir tartışma ekleyin.
 
-The peer review process will be repeated, and you will likely receive additional revisions to make. Once these are completed and accepted, you will then be moved to the next stage.
+Hakem değerlendirmesi süreci tekrarlanacak ve muhtemelen yapmanız gereken ek revizyonlar alacaksınız. Bunlar tamamlandıktan ve kabul edildikten sonra bir sonraki aşamaya geçeceksiniz.
 
 <hr />
 
 ## Responding to a Copyediting Request
 
-The next step in the workflow is to inspect your submission files that have been copyedited.
+{% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Copyediting in OJS"%}
+This PKP School video explains the copyediting process, including how an editor can respond to a copyediting or proofreading request. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-You will receive an email indicating that files are available. To see them, login to the journal and go to your dashboard.
+İş akışındaki bir sonraki adım, kopyası düzenlenmiş gönderi dosyalarınızı incelemektir.
 
-![Author submission dashboard](./assets/learning-ojs-3-au-copyedits.png)
+Dosyaların mevcut olduğunu belirten bir e-posta alacaksınız. Bunları görmek için dergi sistemine giriş yapın ve yönetim paneline gidin.
 
-You can see your entry in the My Authored panel. Select the Copyediting link to go to the full submission record, including the notification in the Copyediting Discussions panel.
+![Yazar gönderi paneli](./assets/learning-ojs-3-au-copyedits.png)
 
-![Copyediting section of author dashboard](./assets/learning-ojs-3-au-copyedits-notice.png)
+Gönderiyi Yazar panelinde görebilirsiniz. Kopya Düzenleme Tartışmaları panelindeki bildirim de dahil olmak üzere tam gönderim kaydına gitmek için Kopya Düzenleme bağlantısını seçin.
 
-Click on the linked discussion to open it, read the message, and open the attached file.
+![Yazar panosunda kopya düzenleme bölümü](./assets/learning-ojs-3-au-copyedits-notice.png)
 
-![Copyediting check discussion message](./assets/learning-ojs-3-au-copyedits-message.png)
+Açmak için bağlantılı tartışmaya tıklayın, mesajı okuyun ve ekli dosyayı açın.
 
-Once you have read the attached file, you can respond to the copyeditor indicating any required changes or your approval.
+![Kopya düzenleme kontrol tartışma mesajı](./assets/learning-ojs-3-au-copyedits-message.png)
 
-![Respond to copyediting check message](./assets/learning-ojs-3-au-copyedits-reply.png)
+Ekli dosyayı okuduktan sonra, gerekli değişiklikleri veya onayınızı belirterek kopya düzenleyene yanıt verebilirsiniz.
 
-If needed, you could attach a revision, but for this example we will simply approve the changes and hit **OK**.
+![Kopya düzenleme kontrol mesajına yanıt ver](./assets/learning-ojs-3-au-copyedits-reply.png)
 
-On your dashboard, you can see that you were the last person to reply to the message.
+Gerekirse bir revizyon ekleyebilirsiniz, ancak bu örnek için değişiklikleri onaylayıp **Tamam**'a basmalısınız.
+
+Yönetim panelinizde, mesaja cevap veren son kişi olduğunuzu görebilirsiniz.
 
 ![Dashboard showing copyediting discussions](./assets/learning-ojs-3-au-copyedits-final-dash.png)
 
-Your role in the copyediting process is now complete and you can wait for the request to proofread the final galleys (e.g., PDFs, HTML, etc.) before publication.
+Kopya düzenleme sürecindeki rolünüz artık tamamlandı ve talebin yayınlanmadan önce son dizgileri (Ör., PDF, HTML, vb.) düzeltmesini bekleyebilirsiniz.
 
 <hr />
 
 ## Responding to a Proofreading Request
 
-The next step in the workflow is to inspect your submission files that have been converted into galleys (e.g., PDF, HTML, etc.).
+İş akışındaki bir sonraki adım, dizgileri dönüştürülmüş gönderi dosyalarınızı (ör. PDF, HTML, vb.) incelemektir.
 
-You will receive an email indicating that files are available. To see them, login to the journal and go to your dashboard.
+Dosyaların mevcut olduğunu belirten bir e-posta alacaksınız. Bunları görmek için dergi sistemine giriş yapın ve yönetim paneline gidin.
 
-![Author submission dashboard](./assets/learning-ojs-3-au-production-dashboard.png)
+![Yazar gönderi paneli](./assets/learning-ojs-3-au-production-dashboard.png)
 
-You can see your entry in the My Authored panel. Select the Production link to go to the full submission record, including the notification in the Production Discussions panel.
+Gönderiyi Yazar panelinde görebilirsiniz. Üretim Tartışmaları panelindeki bildirim de dahil olmak üzere tam gönderi kaydına gitmek için Üretim bağlantısını seçin.
 
-![Production section of author dashboard](./assets/learning-ojs-3-au-production-record.png)
+![Yazar paneli üretim bölümü](./assets/learning-ojs-3-au-production-record.png)
 
-Click on the linked discussion to open it, read the message, and open the attached file.
+Açmak için bağlantılı tartışmaya tıklayın, mesajı okuyun ve ekli dosyayı açın.
 
-![Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message.png)
+![Dizgi mesajı düzeltmeye hazır](./assets/learning-ojs-3-au-production-message.png)
 
-Once you have read the attached file, you can respond to the Layout Editor indicating any required changes or your approval.
+Ekli dosyayı okuduktan sonra, gerekli değişiklikleri veya onayınızı belirterek Mizanpaj Düzenleyicisine yanıt verebilirsiniz.
 
-![Respond to Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message2.png)
+![Düzeltme mesajı için Dizgi'ye yanıt verin](./assets/learning-ojs-3-au-production-message2.png)
 
-That's it! Your role in the editorial workflow is now completed.
+Hepsi bu kadar! Editoryal iş akışındaki rolünüz artık tamamlandı.
