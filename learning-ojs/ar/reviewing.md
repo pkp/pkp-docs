@@ -2,10 +2,13 @@
 book: learning-ojs
 version: 3.3
 title: Learning Open Journal Systems 3.3 - Reviewing
-descriptions: Detailed instructions for managing assigned reviews as a peer reviewer in OJS.
+descriptions: Instructions for managing assigned reviews as a peer reviewer in OJS.
 ---
 
 # Reviewing
+
+{% include video.html id="CINhUa35Jic" provider="youtube" title="Video of the Reviewer's Steps in OJS"%}
+This PKP School video explains how to review an article in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 As a reviewer, you will learn of the review request via email or by checking your dashboard:
 
