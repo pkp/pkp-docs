@@ -43,6 +43,10 @@ Sélectionnez **Créer un Nouveau Type d'Abonnement** pour en ajouter un nouveau
 
 ## Types de Paiement
 
+{% include video.html id="9r0mRqtNVuU" provider="youtube" title="Module 11: Distribution. Unit 3: Payments"%}
+
+This PKP School video explains how to set up different payment types in your journal. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
 Si vous ne l'avez pas déjà fait, allez dans [Paramètres > Distribution > Paiements](./settings-distribution.md) et définissez la devise et le mode de paiement appropriés (par exemple, PayPal).
 
 Utilisez cette page pour définir les montants facturés pour différents types de frais.
@@ -107,7 +111,7 @@ All types of institutional subscriptions will appear here.
 
 Les abonnements institutionnels sont gérés de la même manière que les abonnements individuels, mais sont utilisés pour les bibliothèques, les instituts de recherche et autres organisations qui s'abonnent à votre revue.
 
-Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un nouvel abonnement. Cependant, vous devrez d'abord créer un nouveau compte pour la personne qui le point de contact avec l'institution sous Utilisateurs et Rôles (voir le [Chapitre Comptes d'Utilisateurs](./user-accounts) ). Une fois que cela est fait, vous pouvez rechercher le compte ici et appliquer les différentes configurations.
+Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un Nouvel Abonnement. Cependant, vous devrez d'abord créer un nouveau compte pour la personne qui le point de contact avec l'institution sous Utilisateurs et Rôles (voir le [Chapitre Comptes d'Utilisateurs](./user-accounts) ). Une fois que cela est fait, vous pouvez rechercher le compte ici et appliquer les différentes configurations.
 
 ![The Create New Subscription window.](./assets/learning-ojs3.1-jm-subscriptions-instit-create.png)
 
