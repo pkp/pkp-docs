@@ -68,6 +68,7 @@ Pour pouvoir fournir du contenu JATS à Érudit, vous devez installer la **derni
 L'étape suivante montre comment activer et mettre à niveau les plugins afin de les maintenir à jour.
 
 ### Étape 3. Activation et mise à jour des plugins
+
 #### Activer les plugins
 
 Un coup les ​plugins​ JATS Template Plugin et OAI JATS Plugin installés, vous devez les activer.
@@ -79,7 +80,6 @@ Allez dans Paramètres > Site Web > Modules externes.
 Cliquez sur “Plugiciels installés”.
 
 Cherchez “JATS Template Plugin” dans la liste des ​plugins :​
-
 
 ![JATS Template Plugin dans la liste des plugins avec une case à cocher non cochée à côté.](./assets/jatsTemplatePluginListing.png)
 
@@ -145,7 +145,6 @@ Si vos paramètres d’accès sont configurés
 
 ... suivre les instructions ci-dessous, à la section ​*Abonnements et utilisation d’OJS sans publication*,​ afin d’inclure ses contenus sur Érudit.
 
-
 ## Étapes de l'administrateur système
 
 L'étape suivante nécessite un accès *backend* à OJS par un administrateur système. Vous devrez peut-être contacter votre fournisseur d'hébergement ou votre responsable technique pour effectuer cette étape.
@@ -153,10 +152,13 @@ L'étape suivante nécessite un accès *backend* à OJS par un administrateur sy
 ### Étape 6. Activer l’indexation des PDF
 
 Cette étape peut requérir l'aide de votre administrateur système puisqu'elle requiert l’accès à un fichier sur le serveur où votre instance OJS est installée.
+
 * Assurez-vous que votre instance OJS connaisse l’emplacement de vos outils d’extraction de texte sur vos serveurs : vérifiez la section ​`[search]`​ de votre fichier ​`config.inc.php`​ pour vous assurer que les emplacements serveur de ces outils sont spécifiés.
 * Si vous avez dû modifier votre fichier ​`config.inc.php`​ pour activer l’indexation PDF, vous devrez également reconstruire votre index de recherche. Vous pouvez le faire en exécutant la commande suivante sur votre serveur, dans la racine Web OJS:
 
-`php tools/rebuildSearchIndex.php`
+```
+php tools/rebuildSearchIndex.php
+```
 
 REMARQUE: cette étape n’est requise que si vous avez récemment activé l’indexation PDF.
 

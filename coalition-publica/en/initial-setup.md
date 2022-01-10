@@ -156,7 +156,9 @@ This step may require the help of your system administrator, as it requires back
 * Ensure that OJS knows about your server’s text extraction tools: check your `config.inc.php` file in the `[search]` section to make sure your server’s locations for these tools are specified.
 * If you had to modify your `config.inc.php` file to enable PDF indexing, you will also have to rebuild your search index. You can do this by running the following command on your server, in the OJS web root:
 
-`php tools/rebuildSearchIndex.php`
+```
+php tools/rebuildSearchIndex.php
+```
 
 NOTE: This step is required only if you have recently enabled PDF indexing.
 

@@ -7,7 +7,6 @@ Si vous utilisez OJS pour publier du contenu requérant un abonnement ou si vous
 
 **Ces étapes ne sont pas requises si vous utilisez OJS pour publier une revue en libre accès.**
 
-
 ## Étapes de l'administrateur système
 
 L'étape suivante nécessite un accès *backend* à OJS par un administrateur système. Vous devrez peut-être contacter votre fournisseur d'hébergement ou votre responsable technique pour effectuer cette étape.
@@ -55,6 +54,5 @@ Utilisez ce formulaire de la manière suivante:
 3. Appuyez sur le bouton “​*Save*”​.
 4. Décochez la case “Generate new API key”.
 5. Appuyez sur le bouton “​*Save*”​.
-
 
 Ceci fait, la zone “​*API Key*​” devrait maintenant avoir une longue chaîne de lettres et chiffres.  Cette clé permettra à Érudit d'effectuer des actions en tant que cet utilisateur nouvellement créé et de télécharger du contenu sous embargo ou non publié. Copiez celle-ci et fournissez-la par courriel à votre contact Coalition Publica. **Veillez à décocher la case "Générer une nouvelle clé API" pour éviter que la clé que vous partagez avec Coalition Publica ne soit écrasée par inadvertance.**
