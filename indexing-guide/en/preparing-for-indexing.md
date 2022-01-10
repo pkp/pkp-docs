@@ -1,4 +1,5 @@
 # Preparing your OJS journal for indexing applications
+
 Most journal indexes have common requirements for transparency and clarification around journal information and policies. It’s a good idea to prepare for your application by ensuring that your journal is following these guidelines:
 
 * **Name of journal** - The journal name should be clear, unique, and not misleading or confusing. The name should be clearly displayed on the journal homepage either as text or in the logo image, as well as in the journal summary (Settings > Journal).  
