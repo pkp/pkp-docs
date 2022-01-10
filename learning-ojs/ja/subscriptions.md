@@ -43,6 +43,10 @@ Select **Create New Subscription Type** to add a new one.
 
 ## Payment Types
 
+{% include video.html id="9r0mRqtNVuU" provider="youtube" title="Module 11: Distribution. Unit 3: Payments"%}
+
+This PKP School video explains how to set up different payment types in your journal. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
 If you haven't already done so, go to [Settings > Distribution > Payments](./settings-distribution.md) and set the appropriate currency and payment method (e.g., PayPal).
 
 Use this page to set the amounts charged for various types of fees.
