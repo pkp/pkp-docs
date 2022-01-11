@@ -80,3 +80,12 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php/$1 [QSA,L]
 </IfModule>
 ```
+nginx.conf
+```
+location / {
+   if (!-e $request_filename) { 
+      rewrite ^/(.*) /index.php/$1 last;
+      break; 
+   }
+}
+```
