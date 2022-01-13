@@ -1,6 +1,7 @@
 ---
 book: translating-guide
 version: 3.2
+title: Localization for Developers of Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
 ---
 
 # Localization for Developers
