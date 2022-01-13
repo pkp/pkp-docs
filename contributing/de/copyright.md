@@ -1,3 +1,6 @@
+- - -
+title: Copyright and Licensing - Guidelines for Contributing to PKP Documentation
+- - -
 # Copyright and Licensing
 
 All PKP documentation is licensed under a [Creative Commons BY license](https://creativecommons.org/licenses/by/4.0/). Contributors are acknowledged for contributions that they make, but the documents are owned by the Public Knowledge Project and Simon Fraser University Library.
