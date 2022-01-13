@@ -1,17 +1,20 @@
 ---
 book: learning-ojs
 version: 3.3
+title: Installing and Upgrading
+description: A basic resource for finding more information on installing or upgrading OJS, or locating an OJS host.
 ---
 
 # Installing and Upgrading
 
 OJS 3 is a PHP web application with standardized install and upgrade processes. These processes are kept as simple as possible, though some general systems administration experience is recommended.
 
-Up to date OJS system requirements, as well as installation, upgrade, and configuration instructions can be found in the following locations:
+Up-to-date OJS system requirements, as well as installation, upgrade, and configuration instructions can be found in the following locations:
 
 * in the package you downloaded from the [OJS download page](https://pkp.sfu.ca/ojs/ojs_download/) (look in the `docs/` directory);
+* in the technical [How to Upgrade Guide](/dev/upgrade-guide/);
 * directly in the online [README](https://pkp.sfu.ca/ojs/README) or [UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE) documents;
-* in the PKP [Administrator's Guide](/admin-guide).
+* in the PKP [Administrator's Guide](/admin-guide/).
 
 For those who want to install from source via Git, instructions can be found directly on [GitHub](https://github.com/pkp/ojs).
 
