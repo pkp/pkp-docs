@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+title: Learning Open Journal Systems 3.3 - Journal Settings
 ---
 
 # Journal Settings
@@ -21,6 +22,10 @@ Use the tabs to navigate to the different sections of Journal Settings: Masthead
 
 ## Masthead
 
+This PKP School video explains how to configure the Masthead in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="DMi6izQ7Pyw" provider="youtube" title="Video of how to configure the Masthead in OJS"%}
+
 **Journal title** is the name of your journal. E.g., Journal of Software Documentation
 
 **Journal initials** are the initials of the journal. E.g., JSD.
@@ -31,7 +36,7 @@ Use the tabs to navigate to the different sections of Journal Settings: Masthead
 
 Note that the publisher name entered here is used for metadata but will not be displayed on your site. To show the publisher name on your site you can enter it under Journal Settings > Contact > Mailing Address. You can also add it under About the Journal below.
 
-**ISSN** \(International Standard Serial Number\) is an eight-digit number which identifies journals. It is managed by a world wide network of National Centres coordinated by an International Centre based in Paris, backed by Unesco and the French Government. A number can be obtained from the [ISSN web site](http://www.issn.org/). This can be done at any point in operating the journal.
+**ISSN** (International Standard Serial Number) is an eight-digit number which identifies journals. It is managed by a world wide network of National Centres coordinated by an International Centre based in Paris, backed by Unesco and the French Government. A number can be obtained from the [ISSN web site](http://www.issn.org/). This can be done at any point in operating the journal.
 
 OJS journals will typically have an online ISSN, but some may also publish a print version, which requires a different print ISSN.
 
@@ -49,6 +54,10 @@ Hit the **Save** button to save your changes.
 
 ## Contact
 
+This PKP School video explains how to add journal contacts in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="HTDZRG7XEqw" provider="youtube" title="Video of how to add journal contacts in OJS"%}
+
 Use this section to add journal contacts.
 
 ![OJS dashboard view of Journal Settings submenu Contact where information can be added in text fields.](./assets/learning-ojs3.2-jm-settings-journal-contact.png)
@@ -61,9 +70,11 @@ Hit the **Save** button to save your changes.
 
 ## Sections
 
-Use this page to configure the different sections of your journal. E.g., Articles, Editorials, Reviews, Commentary, etc.
+This PKP School video explains how to configure Sections in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-All of your existing sections will appear here. OJS requires at least one section, and creates an "Articles" section by default.
+{% include video.html id="IMotkKrDZyc" provider="youtube" title="Video of how to configure sections in OJS"%}
+
+Use this page to configure the different sections of your journal. E.g., Articles, Editorials, Reviews, Commentary, etc. OJS requires at least one section, and creates an "Articles" section by default. You can create new sections, edit existing sections, or delete sections. The sections will appear for an author to select when they make a submission and they will be used to organize the articles in your published issues. You can also assign editors to specific sections. This part of the guide explains how you can configure sections.
 
 ![OJS dashboard view of Journal Settings submenu Sections with links for Order and Create Section and editable list of current sections.](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
 
@@ -71,7 +82,7 @@ Submissions can also be disabled for individual sections. This can be done in in
 
 A section can be marked as “Inactive” in the section settings:
 
-![View of Joural Sections in the OJS dashboard. Red box surrounding checkbox next to the section Articles indicates where to mark it inactive.](./assets/learning-ojs3.3-section-setting-inactive.png)
+![View of Journal Sections in the OJS dashboard. Red box surrounding checkbox next to the section Articles indicates where to mark it inactive.](./assets/learning-ojs3.3-section-setting-inactive.png)
 
 You can modify sections by clicking on the blue arrow to the left of the section name. This will reveal options to edit or delete the section.
 
@@ -129,9 +140,17 @@ When you have more than one section created, you will see an Order link. Use tha
 
 Hit the **Done** button when you are finished.
 
+### Delete Sections
+
+You can only delete a section if there are no articles assigned to it. If you want to delete a section that has articles assigned to it, you will need to move the articles to a different section first. Then click the blue arrow below the section name to reveal the **Delete** link, then click the link. OJS will ask if you want to permanently delete the section and you can click **Yes**.
+
 ## Categories
 
-In OJS 3 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production). This section explains how to create and edit categories.
+This PKP School video explains how to create categories in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="Y97U1icfEPw" provider="youtube" title="Video of how to create categories in OJS"%}
+
+In OJS 3 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production-publication). This section explains how to create and edit categories.
 
 ![OJS dashboard view of Journal Settings submenu Categories with links for Order and Add a Category and editable list of current categories.](./assets/learning-ojs3.1-categories-menu.png)
 
