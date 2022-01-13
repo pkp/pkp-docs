@@ -1,6 +1,7 @@
 ---
 book: translating-guide
 version: 3.2
+title: How to Manage Languages in Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
 ---
 
 # Manage Languages in PKP Software
@@ -46,6 +47,8 @@ If you have more than one context (journal, server or press) installed, the Site
 
 For each context, the Manager controls the settings within that context by navigating to Settings > Website > Setup > Languages. Each language can be enabled for the UI, for Forms, and for Submissions.
 
+Consider carefully how you want to configure and use languages on your site because significant problems can occur if you change the settings later.
+
 * UI: Controls the user interface languages available in the front-end and in the back end. Enabling a language for the UI will allow users to select the language of the application interface. For example, buttons, page titles, and on-screen messages will be in the user's selected language.
 
 * Forms: Controls the data entry forms for the application. Enabling a language for forms will allow text boxes to support multilingual data entry. For example, configuration settings and metadata can be entered in multiple languages.
@@ -89,7 +92,9 @@ If the language is new, you will also have to add an entry for it to the file in
 
 ## Default Translation Plugin
 
-While you're in the process of translating the software, you can avoid having untranslated locale keys displayed on your site (like ##plugins.generic.customLocale.customLocaleFiles##) by using the Default Translation plugin. This plugin will automatically display the English translation if the site is set to another language but a translation of a message key does not exist in that language.
+While you're in the process of translating the software or if you're using an incomplete translation, you can avoid having untranslated locale keys displayed on your site (like ##plugins.generic.customLocale.customLocaleFiles##) by using the Default Translation plugin. This plugin will automatically display the English translation if the site is set to another language but a translation of a message key does not exist in that language.
+
+Please note this plugin not apply to email template locale files. If a translation of an email template is missing and you try to use a template in that language, a blank email will be sent.
 
 To use the plugin
 1. Go to Website Settings > Plugins > Plugin Gallery
