@@ -1,5 +1,6 @@
 # Table of Contents
 
+* [Introduction](.)
 * [Getting Started](./getting-started.md)
   * [How can I use OJS for my journal?](./getting-started.md#how-can-i-use-ojs-for-my-journal)
   * [How can I use OMP for my press?](./getting-started.md#how-can-i-use-omp-for-my-press)
@@ -61,6 +62,7 @@
   * [How can I create a backup of my site?](site-administration.md#how-can-i-create-a-backup-of-my-site)
   * [How can I move an installation to a different server?](site-administration.md#how-can-i-move-an-installation-to-a-different-server)
   * [How do I know what version of the software I’m using?](site-administration.md#how-do-i-know-what-version-of-the-software-im-using)
+  * [How can I remove "index.php" from the URLs in OJS?](site-administration.md#how-can-i-remove-indexphp-from-the-urls-in-ojs)
 * [Errors and Troubleshooting](./errors-troubleshooting.md)
   * [Why do I get an error message when I try to upload a file?](./errors-troubleshooting.md#why-do-i-get-an-error-message-when-i-try-to-upload-a-file)
   * [How do I fix this strange text on my site that looks like ##navigation.journalHelp##?](./errors-troubleshooting.md#how-do-i-fix-this-strange-text-on-my-site-that-looks-like--navigationjournalhelp)
