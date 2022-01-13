@@ -1,11 +1,18 @@
 ---
 book: learning-omp
 version: 3.3
+title: Learning OMP (Open Monograph Press) - Editorial Interface
+description: A guide to understanding the layout and functions in OMP's edtorial interface.
 ---
 
 # Editorial Interface
 
-![Animation highlighting each of the editorial interface elements.](./assets/omp3.3_dashboard.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/learning-omp3.3-dashboard.mp4" type="video/mp4">
+  </video>
+  <figcaption>Video highlighting each of the editorial interface elements.</figcaption>
+</figure>
 
 OMP 3 has a separate interface once you log into the editorial system. This makes it easier to customize the reader interface.
 
