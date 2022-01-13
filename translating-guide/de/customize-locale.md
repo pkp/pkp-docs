@@ -1,10 +1,14 @@
+- - -
+book: translating-guide version: 3.2 title: How to Use the Custom Locale Plugin for Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
 # Customize a Translation Locally
 
 You can use the Custom Locale plugin to customize or change a translation on your local installation. It also allows you to customize text on your OJS journal, OMP press, or OPS server in any language that is installed and enabled. For example, if you want to change the text displayed on the review recommendation buttons in the submission workflow, you can use the Custom Locale plugin.
 
 The Custom Locale is only reliably available and operational for OJS/OMP/OPS 3.2.0 and newer.
 
-If you want to make a translation that other users can benefit from, it is better to translate in Weblate. But there are some situations in which customizing a translation on your local installation is preferred, and the Custom Locale plugin allows you to do this. This chapter explains how to use the plugin.
+If you want to update or contribute to a translation, it is best to [translate in Weblate](./translate-software). However, there are some situations in which customizing a translation on your local installation is preferred, and the Custom Locale plugin allows you to do this. This chapter explains how to use the plugin.
 
 Please see [How Languages and Locales Work](https://docs.pkp.sfu.ca/translating-guide/en/managing-languages#how-languages-and-locales-work) in this guide for an explanation of how languages and locale files work in PKP software.
 
@@ -20,11 +24,11 @@ First, ensure that the plugin is installed and enable it:
 
 Under the Locales tab you will see a list of locale files that contain all of the message keys that appear as text on your site, for the locale you have set as the Primary Locale under Website Settings > Setup > Languages. So, if you have more than one language on your site but Português (Brasil) is the Primary Locale, the locale files you see in the Locales tab will be for the Português (Brasil) language.
 
-![](./assets/translating-guide-custom-locale-localefiles.png)
+![A list of locale files that can be edited.](./assets/translating-guide-custom-locale-localefiles.png)
 
 If you want to edit the locale files for a different language installed on your site, you will need to temporarily set it as the Primary Locale and then change the Primary Locale when you’re finished editing the locales.
 
-![](./assets/translating-guide-primary-locale.png)
+![Page under Website Settings where you can configure the Language settings.](./assets/translating-guide-primary-locale.png)
 
 You can open a file, find a message key in it, and enter a custom value to change how that piece of text appears on your site.  These files correspond to the locale files in the locale folders of your site installation.  The plugin provides a way to access these files directly.
 
@@ -57,7 +61,7 @@ If you don’t find the text in the pkp-lib repository, try searching in the [oj
 
 In your list of search results, refine the results to **Code** and find the right locale file in the results.
 
-![](./assets/translating-guide-github-locale-keys-search-results.png)
+![Search results in Github repository, refined by Code.](./assets/translating-guide-github-locale-keys-search-results.png)
 
 Note of the locale file name so you can find it in the Custom Locale Plugin interface. Skip to the section _____ below.
 
@@ -82,12 +86,36 @@ Now that you have determined which locale file the message key is in, you can ed
 4. Click **Edit** next to the locale file name to open it
 5. Enter the message key you want to customize in the **Search** box and click **Search**
 
-![](./assets/translating-guide-search-locale-file.png)
+![Interface to edit a message key.](./assets/translating-guide-search-locale-file.png)
 
 6. In the empty box, enter what you would like the customized text to say. It will turn yellow as you type, to indicate you are making a customization.
 
-![](./assets/translating-guide-customize-locale-key.png)
+![The edited message key, displayed next to the default text.](./assets/translating-guide-customize-locale-key.png)
 
 7. Click **Save and Continue**
 
-Now you can visit the part of your site where the customized text appears and check that the change has been made. 
+Now you can visit the part of your site where the customized text appears and check that the change has been made.
+
+## Example: Customize Reviewer Recommendations
+
+A commonly requested customization that can be done with the Custom Locale plugin is customizing the reviewer recommendation options. The default options are Accept, Revisions Required, Resubmit for Review, Resubmit Elsewhere, Decline, and See Comments. With the Custom Locale plugin you can change these options but you cannot add or remove an option. This section will explain how to customize the options. Make sure the Custom Locale plugin is installed and enabled before you begin these steps.
+
+**Open the locale file to edit
+
+1. On your OJS journal site, logged in to the dashboard as a Journal Manager, Editor, or Administrator, go to Website Settings > Locales.
+2. Click **Edit** next to the file locale/en_US/locale.po and search for reviewer.article.decision in the Search box.
+
+![List of locale keys in the locale.po file, filtered by a search for reviewer.article.decision.](./assets/translating-guide-search-locale-keys.png)
+
+You will now see the review recommendation options, each as a separate key.
+
+3. Enter the custom text that you would like to replace the default text in the blank box.
+
+![Reviewer recommendation locale keys with custom text.](./assets/translating-guide-custom-reviewer-recommendations.png)
+
+4. Once you have added custom text for the options you want to customize, click **Save and Continue.**
+5. Click **Cancel** to close the editing box.
+
+Now you can log in as a reviewer and check the review submission form to see the new options.
+
+![Review submission form, showing the custom reviewer recommendation options.](./assets/translating-guide-custom-reviewer-recommendations-changed.png)
