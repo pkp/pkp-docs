@@ -1,3 +1,7 @@
+- - -
+title: 'Appendix: Disabling new submissions in OJS - Instructor Guide for Course Journals'
+- - -
+
 # Appendix: Disabling new submissions in OJS
 
 To disable new submissions to the journal, you will need to be in the Journal Manager role. You can do it in two ways:
