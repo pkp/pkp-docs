@@ -1,3 +1,7 @@
+- - -
+title: Editing and Peer Review - Student Journal Toolkit
+- - -
+
 # Editing and Peer Review
 
 ## Style
