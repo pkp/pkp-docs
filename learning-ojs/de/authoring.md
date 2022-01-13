@@ -1,11 +1,16 @@
 ---
 book: learning-ojs
 version: 3.3
+title: Learning Open Journal Systems 3.3 - Authoring
+description: A guide on how to submit a manuscript to an OJS journal as an author.
 ---
 
 # Authoring
 
 In this chapter, you will learn about how an author works in OJS from registration through to proofreading the final galley.
+
+{% include video.html id="AJwDWdAu8BQ" provider="youtube" title="Video of Submitting an Article in OJS"%}
+This PKP School video explains how an author can register for a journal and submit an article. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 ## Registering with the Journal
 
@@ -45,7 +50,12 @@ On **Step 2**, a window will open allowing you to upload your submission file.
 
 In OJS 3.3 authors can upload multiple files at once, as well as drag-and-drop files.
 
-![OJS 3.3 drag and drop multiple files](./assets/submission3.3-files.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/submission3.3-files.mp4" type="video/mp4">
+  </video>
+  <figcaption>OJS 3.3 drag and drop multiple files.</figcaption>
+</figure>
 
 Once you've uploaded all your files you can indicate the file type for each from a single menu panel, and metadata such as a description or license can be entered during the workflow.
 
@@ -61,7 +71,7 @@ On **Step 3**, you will be asked to add more information about the submission, i
 
 ![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
-You can add more contributors \(e.g., co-authors\), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
+You can add more contributors (e.g., co-authors), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
 
 ![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
 
@@ -136,6 +146,9 @@ If you notice that the ‘Save’ button is grey and inactive, this means you wi
 <hr />
 
 ## Responding to a Review
+
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Responding to Reviews in OJS"%}
+This PKP School video explains how an editor responds to a review and how an author can upload revisions. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 Once the review process has completed, you will be notified via email by the editor of their decision.
 
@@ -242,6 +255,9 @@ The peer review process will be repeated, and you will likely receive additional
 <hr />
 
 ## Responding to a Copyediting Request
+
+{% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Copyediting in OJS"%}
+This PKP School video explains the copyediting process, including how an editor can respond to a copyediting or proofreading request. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 The next step in the workflow is to inspect your submission files that have been copyedited.
 
