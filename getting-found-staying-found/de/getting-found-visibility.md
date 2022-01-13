@@ -1,3 +1,7 @@
+- - -
+title: Getting Found, Staying Found - Building Visibility
+- - -
+
 # Getting Found: Building Visibility
 
 The success of your journal depends on developing a regular readership, who will become part of your scholarly community, cite your content in their own work, and tell others about the value of your publication. To do this, however, they will first need to be able to find you. This section examines a variety of ways to increase the “findability‟ of your journal through the use of commercial indexes, open databases, libraries, the media, professional networks, and professional recognition.
@@ -273,7 +277,7 @@ A knowledge base in the context of electronic resource management refers to a da
 * Maintaining lists of journal titles that are searchable, are browsable, and that link to publisher platform
 * Populating unified / federated indexes of content for “discovery” by specific communities of users
 
-Knowledge bases and link resolvers, journal title lists, and discovery tools may be more or less interoperable, and may be open source projects, but are more frequently developed and maintained by commercial service providers. In either event, representation of title-level metadata in a knowledge base is prerequisite to link resolving, presence in user-facing journal lists, and indexing in discovery tools such as[Summon](https://www.proquest.com/products-services/The-Summon-Service.html), [EBSCO discovery service](https://www.ebscohost.com/discovery), and [Primo](http://www.exlibrisgroup.com/products/primo-library-discovery/).
+Knowledge bases and link resolvers, journal title lists, and discovery tools may be more or less interoperable, and may be open source projects, but are more frequently developed and maintained by commercial service providers. In either event, representation of title-level metadata in a knowledge base is prerequisite to link resolving, presence in user-facing journal lists, and indexing in discovery tools such as [Summon](https://www.proquest.com/products-services/The-Summon-Service.html), [EBSCO discovery service](https://www.ebscohost.com/discovery), and [Primo](http://www.exlibrisgroup.com/products/primo-library-discovery/).
 
 Frequently, participation in open indexes such as the DOAJ (as detailed above) will also achieve representation even in commercial knowledge bases, which often seek to include Open Access materials as value-added resources. However, the completeness and currency of open access title lists in knowledge bases varies, and it may be necessary to contact a knowledge base provider to request inclusion or an update to a title list that should include a journal but does not.
 
