@@ -1,8 +1,12 @@
+- - -
+title: Frequently Asked Questions (FAQ) about the Public Knowledge Project (PKP)
+- - -
+
 # About PKP
 
 ## What is the Public Knowledge Project?
 
-PKP is an academic project supported by Simon Fraser University (Canada) and Stanford University (USA). We develop (free) open source software, conduct research, and provide services to improve the quality and reach of scholarly publishing. To learn more, read our latest [Annual Report](https://pkp.sfu.ca/annual-report/2019/).
+PKP is an academic project supported by Simon Fraser University (Canada) and Stanford University (USA). We develop (free) open source software, conduct research, and provide services to improve the quality and reach of scholarly publishing. To learn more, read our latest [Annual Report](https://pkp.sfu.ca/annual-report/2020/).
 
 ## Is your software really free?
 
