@@ -73,7 +73,13 @@ When all components are finished, please contact [Alec Smecher](mailto:alec@smec
 
 ## Begin a New Translation
 
-To begin a new translation, please create an account by following the instructions above. Be sure to specify that you want to start a new translation; this will take a little bit of set-up. When you receive confirmation that everything is ready, follow the instructions in **Update an Existing Translation** — the only difference will be that you will start with empty translation files.
+To begin a new translation, please create an account by following the instructions above. 
+
+Open any component you wish to translate and click the "Start New Translation" button located at the end of the page.
+
+![The Start New Translation button found at the end of a component page.](./assets/translating-guide-weblate-strings.png)
+
+Choose your language, and click "Start New Translation". The language will then be available for you to begin translating. Repeat this for any components you wish to translate.
 
 ### Use Your New Translation
 
