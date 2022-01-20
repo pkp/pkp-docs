@@ -4,49 +4,49 @@ version: 3.3
 title: Learning Open Journal Systems 3.3 - Distribution Settings
 ---
 
-# Distribution Settings
+# Configurações da Distribuição
 
-The Distribution Settings focus on access to and visibility of your journal. The tabs consist of License, Search Indexing, Payments, Access, and Archiving.
+Os ajustes de distribuição enfocam o acesso e a visibilidade da sua revista. As abas consistem em Licença, Indexação para mecanismos de busca, Pagamentos, Acesso e Arquivamento.
 
-Please note that if your journal is multilingual and you have Forms enabled for multiple languages in the language settings, you will have to configure some of this information for each language. You can switch to another languages by selecting the language under the Help link on the top right.
+Observe que, se sua revista for multilíngue e você tiver, nos ajustes de idioma, o formato habilitado para vários idiomas, será necessário configurar algumas dessas informações para cada idioma. Você pode alternar para outros idiomas, selecionando o idioma no link Ajuda, no canto superior direito.
 
-## License
+## Licença
 
-This PKP School video explains how to configure copyright and licensing terms in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como configurar os termos de direitos autorais e licenciamento no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="qfzvbN4a-bM" provider="youtube" title="Video of how to configure copyright and licensing terms in OJS"%}
 
-In this section you can configure copyright and licensing terms for your journal's content.
+Nessa seção você pode configurar termos de direitos autorais e licenciamento para o conteúdo do seu periódico.
 
 ![Distribution settings license tab showing copyright holder, license and copyright year options.](./assets/learning-ojs3.2-jm-settings-dist-permissions.png)
 
-**Copyright Holder**: Select who holds copyright to the articles published by your journal. The trend in open access publishing is to allow authors to retain copyright of their work.
+Em **Detentor dos Copyright**, selecione quem detém os direitos autorais dos artigos publicados por sua revista. A tendência, na publicação em acesso aberto, é permitir que os autores mantenham os direitos autorais de seus trabalhos.
 
-**License**: Select the license for your journal. CC Attribution 4.0 is a widely used license for open access journals, allowing for maximum sharing and reuse. For definitions of different Creative Commons licenses, see the [Creative Commons website](https://creativecommons.org/).
+No campo **Licença**, selecione a licença do seu periódico. CC Attribution 4.0 é uma licença amplamente usada para periódicos de acesso aberto, permitindo o máximo de compartilhamento e reutilização. Para obter as definições das diferentes licenças Creative Commons, consulte o [Creative Commons website](https://creativecommons.org/).
 
-The license you select will be automatically added to each article's metadata and displayed on the article page of each published article.
+A licença selecionada será adicionada automaticamente aos metadados de cada artigo e exibida na página de cada artigo publicado.
 
-**Copyright Year**: Select whether you want the copyright year to come by default from the article's publication date or the issue's publication date.
+Em **Direitos autorais (ano)**, selecione se você deseja que o ano dos direitos autorais venha, como padrão, a partir da data de publicação do artigo ou da data de publicação da edição.
 
-If you use a continuous publishing model, select the article's publication date. If you use a traditional, issue-based publishing model, select the issue's publication date.
+Se você usa um modelo de publicação contínua, selecione a data de publicação do artigo. Caso você use um modelo de publicação tradicional, baseado em questões, selecione a data de publicação da edição.
 
-This default can be overridden on a case-by-case basis.
+Esse padrão pode ser substituído caso a caso.
 
-**License Terms**: Enter any additional license terms you would like to display alongside the license selected above on the published article page.
+Em **Termos de licença**, insira quaisquer termos de licença adicionais que você gostaria de exibir junto à licença selecionada acima, na página do artigo publicado.
 
-## Search Indexing
+## Indexação de pesquisa
 
-This PKP School video explains how to enhance search indexing in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como aprimorar a indexação de pesquisa no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="qf_5sTlDXM0" provider="youtube" title="Video of how to enhance search indexing in OJS"%}
 
-This section helps you enhance your search engine optimization and make your content more discoverable.
+Essa seção ajuda a aprimorar a otimização do mecanismo de pesquisa e tornar o conteúdo mais detectável.
 
 ![Distribution settings search indexing tab showing description and custom tags options.](./assets/learning-ojs3.2-jm-settings-dist-index.png)
 
-Use **Description** to provide a brief description of your journal for search engines.
+Use **Descrição** para fornecer uma breve descrição de seu periódico aos mecanismos de pesquisa.
 
-Use **Custom Tags** to add custom HTML header tags to the header of every page of your journal, which can help your site get indexed by search engines. Tags need to be added as HTML elements. If you simply enter words they will appear at the top of every page of your site instead of in the site's metadata. Here is an example of text that could be entered in this field:
+Use **Tags personalizadas** para adicionar tags de cabeçalho HTML personalizadas ao cabeçalho em cada página de seu periódico, o que pode ajudar seu website a ser indexado por mecanismos de pesquisa. As tags precisam ser adicionadas como elementos HTML. Se você simplesmente inserir palavras, elas aparecerão no topo de todas as páginas do seu website, em vez de aparecerem nos metadados da página. Aqui está um exemplo de texto que pode ser inserido nesse campo:
 
 ```html
 <meta name="description" content="The Journal of Public Knowledge. Publication of the Public Knowledge Project - PKP and Simon Fraser University - SFU" />
@@ -56,88 +56,88 @@ Use **Custom Tags** to add custom HTML header tags to the header of every page o
 <meta name="revisit-after" content="3 month">
 ```
 
-## Payments
+## Pagamentos
 
-This PKP School video explains how to configure the Payments settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo do PKP School explica como definir as configurações de Pagamentos no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="9r0mRqtNVuU" provider="youtube" title="Video of how to configure payments in OJS"%}
 
-OJS provides the ability to collect online payments and manage subscriptions and author fee payments.
+O OJS oferece a possibilidade de coletar pagamentos on-line e gerenciar assinaturas e pagamentos de taxas de autoria.
 
-Using the PayPal plugin, you can accept payments through PayPal, or you can accept manual payments (such as cheque, email transfer, etc.), but they must be made outside of OJS and are not automatically recorded in OJS.  If you would like to use a different payment service you will have to create your own plugin.
+Usando o plugin do PayPal, você pode aceitar pagamentos através desta plataforma ou pode aceitar pagamentos manuais (como cheque, transferência de e-mail, etc.), mas eles devem ser feitos fora do OJS e não são registrados automaticamente nesse sistema.  Se desejar usar um serviço de pagamento diferente, você terá que criar seu próprio plugin.
 
-### Enable Payments
+### Habilitar Pagamentos
 
-To use payments and subscriptions features, you first have to enable payments under this tab. After you check off **Enable**, additional configuration settings will appear below.
+Para usar os recursos de pagamentos e assinaturas, primeiro você deve habilitar os pagamentos nessa aba. Depois de desmarcar **Habilitar**, as configurações adicionais serão exibidas abaixo.
 
 ![Distribution settings payments tab showing enable payments, currency and payment plugins options.](./assets/learning-ojs3.2-jm-settings-dist-pay.png)
 
-Select the currency you will use.
+Selecione a moeda corrente que você utilizará.
 
-Select the fee payment method you will use under **Payment Plugins**.
+Selecione o método de pagamento da taxa que você usará em **Plugins de Pagamento**.
 
-If you select **PayPal Fee Payment**, additional fields will appear.
+Se você selecionar o **Pagamento de Taxa do PayPal**, campos adicionais serão exibidos.
 
-To accept PayPal payments, you will need to go to Website Settings > Plugins and enable the PayPal Plugin, then do additional setup and configuration explained in the [PayPal Plugin Guide](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/). Through this process you will get the values for the **Account Name**, **Client ID**, and **Secret** fields.
+Para aceitar pagamentos no Paypal, você precisará ir a configurações da página > plugins, habilitar o plugin do PayPal e, em seguida, fazer a instalação e configuração adicionais, conforme explicação no [PayPal Plugin Guide](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/). Por meio desse processo, você obterá os valores dos campos **Nome da conta**, **ID do cliente** e **Campo confidencial**.
 
 ![Paypal fee payment screen showing test mode enable option, account name, client ID and secret fields.](./assets/learning-ojs3.2-jm-settings-dist-paypalsettings.png)
 
-If you select **Manual Fee Payment** under **Payment Plugins**, a field will appear where you can enter instructions that will appear to users who are making a manual payment.  For example, “Send a cheque payable to the Public Knowledge Project” to ______.”
+Se você selecionar **Taxas manuais de Pagamento** em **Plugins de Pagamento**, aparecerá um campo onde você pode inserir instruções que aparecerão para os usuários que estão fazendo um pagamento manual.  Por exemplo, “Envie um cheque a ser pago ao Projeto de Conhecimento Público para __. ”
 
 ![Manual fee payment screen showing manual payment instructions field.](./assets/learning-ojs3.2-jm-settings-manual-payments.png)
 
-You will also need to enable the Manual Payment Plugin under Website Settings > Plugins to accept manual payments.
+Você também precisará habilitar o plugin de pagamento manual em **Configurações do site**> **plugins** para aceitar pagamentos manuais.
 
-Click **Save**.
+Clique em **Salvar**.
 
-A new menu item will appear on the main dashboard menu called **Payments**.
+Um novo item aparecerá no menu do painel principal chamado **Pagamentos**.
 
-Go to the [Subscriptions Chapter](./subscriptions.md) for further instructions on managing subscriptions and payments.
+Vá para o [Capítulo Assinaturas](./subscriptions.md) para obter mais instruções sobre como gerenciar assinaturas e pagamentos.
 
-If you plan to make your journal or articles available by subscription, go to Distribution Settings > Access and check off “The journal will require subscriptions to access some or all of its contents.”
+Se você planeja disponibilizar seu periódico ou seus artigos por assinatura, vá a **Configurações de Distribuição**> **Acesso** e marque a opção “O periódico exigirá assinaturas para acessar parte ou todo o seu conteúdo”.
 
 ![Distribution settings access tab showing publishing mode options.](./assets/learning-ojs3.2-jm-settings-dist-access.png)
 
-### Donations
+### Doações
 
-In OJS 3.x there is not an option to set up a payment type for donations, to manage donations with the Payments module, or to use the PayPal plugin to accept donations. You can add the Donations block to your sidebar, but it will have to link to an external site where donation payments can be made.
+No OJS 3.x não há a opção de configurar pagamento com a finalidade de realizar doações, gerenciar doações com o módulo de Pagamentos ou usar o plugin do PayPal para aceitar doações. Você pode adicionar o acesso a Doações à sua barra lateral, mas terá que ter um link para um site externo, onde pode ser feito o pagamento de doações.
 
-## Access
+## Acesso
 
-This PKP School video explains how to configure the Access settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo do PKP School explica como definir as configurações de acesso no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="RlKVwF3h_PM" provider="youtube" title="Video of how to configure access settings in OJS"%}
 
-Under the Access tab you can configure whether you want your journal contents to be open access, available by subscription, or a combination. By default, the open access option is selected. However, if you wish to use OJS for a subscription journal, choose the second option (see above section on Payments for further information). Selecting the second option will allow you to further delay open access by different periods of time.
+Na guia Acesso, você pode configurar se deseja que o conteúdo do seu periódico seja de acesso aberto, disponível por assinatura ou uma combinação de ambos. Automaticamente, a opção de acesso aberto é selecionada. No entanto, se você deseja usar o OJS para uma assinatura, escolha a segunda opção (consulte a seção acima sobre Pagamentos para obter mais informações). Selecionar a segunda opção permitirá que você atrase ainda mais o canal de acesso aberto durante diferentes períodos de tempo.
 
 ![Distribution settings access tab showing publishing mode and delayed open access options.](./assets/learning-ojs3.2-jm-settings-dist-access-delayed.png)
 
-If you are only using OJS to manage your submission workflow and not publish your content, you can select "OJS will not be used to publish the journal's contents online."
+Se você estiver usando o OJS apenas para gerenciar seu fluxo de trabalho de submissão e não para publicar seu conteúdo, pode selecionar “O OJS não será usado para publicar o conteúdo da revista online”.
 
-OJS allows you to configure how and when content can be accessed at an article and issue level. When you create an issue, there is a tab called **Access** under which you can set the **Access Status** as **Subscription** or **Open Access**.
+OJS permite que você configure como e quando o conteúdo de um artigo pode ser acessado e o nível de acesso à edição. Quando você cria um problema, há uma guia chamada **Acesso** na qual você pode definir o **Status de Acesso** como **Assinatura** ou **Acesso Aberto**.
 
 ![Issue settings access tab showing subscription and open access options.](./assets/learning-ojs3.2-issue-access.png)
 
-If you set it as **Subscription**, underneath that a box will appear where you can optionally enter an **Open Access Date**, at which the content will become open access.
+Se você defini-lo como **Assinatura**, abaixo aparecerá uma caixa onde você pode, opcionalmente, inserir uma **Data de Acesso Aberto**, na qual o conteúdo se tornará acesso aberto.
 
-Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbox will appear beside each article under **Open Access**, where you can optionally set individual articles as open access, even if the rest of the issue remains available by subscription.
+Depois de definir como **Assinatura**, na aba **Índice**, uma caixa de seleção aparecerá ao lado de cada artigo em **Acesso aberto**, onde você tem a opção de definir, individualmente, os artigos como acesso aberto, mesmo que o resto da edição permaneça disponível por assinatura.
 
 ![Issue table of contents showing open access checkboxes.](./assets/learning-OJS3.2-article-access.png)
 
-**Enable OAI** will be enabled by default, as this is an important protocol used by indexing services and other applications to harvest your journal's metadata. However, if you are not using OJS to publish your journal's content you may want to disable OAI.
+O **OAI será habilitado automaticamente**. Trata-se de um protocolo importante, usado por serviços de indexação e outros aplicativos para coletar os metadados do seu periódico. No entanto, se você não estiver usando o OJS para publicar o conteúdo do seu periódico, pode desabilitar o OAI.
 
 ![Enable OAI screen with enable and disable options.](./assets/learning-ojs3.2-jm-settings-dist-oai.png)
 
-## Archiving
+## Arquivamento
 
-This PKP School video explains how to enable archiving in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como habilitar o arquivamento no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="ohHaj-MSLNA" provider="youtube" title="Video of how to enable archiving in OJS"%}
 
-If you are a member of a LOCKSS or CLOCKSS network, use this tab to activate your journal. The PKP PN Plugin, which deposits your content in the PKP Preservation Network(PN), is available for OJS 3.1.2 or newer.
+Se você for membro de uma rede LOCKSS ou CLOCKSS, use essa guia para ativar seu diário. O plugin PKP PN, que deposita seu conteúdo na Rede de Preservação PKP (PN), está disponível para a versão OJS 3.1.2 ou mais recente.
 
-For instructions on enabling the PKP PN, see the [PKP Preservation Network Guide](https://docs.pkp.sfu.ca/pkp-pn/).
+Para obter instruções sobre como ativar o PKP PN, consulte o [Guia da Rede de Preservação PKP](https://docs.pkp.sfu.ca/pkp-pn/).
 
-If you use another network, enabling it here will make your content available to the network, but you will also need to contact the network to make it aware of your journal.
+Se você usar outra rede, ao habilitá-lo, tornará o seu conteúdo disponível para a rede, mas também precisará entrar em contato com a rede para informá-la sobre o seu periódico.
 
 ![Distribution settings acrhiving tab showing LOCKSS and CLOCKSS options.](./assets/learning-ojs3.2-jm-settings-web-archive.png)
