@@ -4,212 +4,212 @@ version: 3.3
 title: Learning Open Journal Systems 3.3 - Users and Roles
 ---
 
-# Users and Roles
+# Usuários e Papéis
 
-This section provides information on accessing all of user accounts associated with your journal, as well as managing roles and permissions.
+Esta seção fornece acesso a todas as contas de usuário associadas à sua revista, assim como a possibilidade de gerenciar funções e permissões.
 
-## Managing Users
+## Administração de Usuários
 
-In addition to managing the journal web site, the Journal Manager is also responsible for all of the user accounts in the system.
+Além de gerenciar o site da revista, o Gerente da Revista também é responsável por todas as contas dos usuários no sistema.
 
-To view the user accounts, select Users & Roles from the left menu.
+Para visualizá-las, selecione Usuários e Papéis no menu à esquerda..
 
 ![Users and Roles screen with list of journal users](./assets/learning-ojs3.1-jm-users.png)
 
-If you want to export a list of all registered users, you can find the option to export it as an XML file under the **Tools** menu. If you prefer your user data in a spreadsheet format, you can download it as a CSV file from **Statistics > Users**.
+Se quiser exportar uma lista de todos os usuários registrados, você pode encontrar tal opção como um arquivo XML no menu **Ferramentas**. Se preferir seus dados de usuário em formato de planilha, você pode baixá-los como um arquivo CSV em **Estatísticas > Usuários**.
 
-### Users
+### Usuários
 
-Users are displayed in last name order.
+Os usuários são exibidos por ordem de sobrenome.
 
-You can edit a user account by selecting the blue arrow to the left of an entry.
+Você pode editar a conta de um usuário selecionando-o com seta azul, localizada no lado esquerdo do nome do usuário.
 
 ![Blue arrow selected by a user's name with options to edit their account](./assets/learning-ojs3.1-jm-users-edit.png)
 
-This opens the options to Email, Edit User, Disable, Remove, Login As, Merge User.
+Tal ação abre as opções de e-mail, editar usuário, desativar, remover, fazer login e mesclar usuários.
 
-#### Email Users
+#### Usuário de e-mail
 
-If you want to email a user about a particular submission, you can use the Discussion feature in the submission. This keeps all communication about a submission in one place.
+Se quiser enviar e-mail a um usuário sobre determinada submissão, pode-se usar o recurso de Discussão na submissão. Isto mantém toda a comunicação sobre a submissão em um único lugar.
 
-To send an email to a user that is unrelated to a submission:
+Para enviar e-mail a um usuário que não esteja relacionado a uma submissão, siga os seguintes passos:
 
-1. In the Journal Manager or Editor’s dashboard, go to Users & Roles > Users
-2. Find the user you want to email
-3. Click the blue arrow next to the user’s name to reveal links below it
-4. Click Email. A pop-up box will appear where you can type in your message and send it
+1. No painel de controle do periódico ou no painel do editor, vá para Usuários e Papéis > Usuários;
+2. Encontre o usuário a que você deseja enviar um e-mail;
+3. Clique na seta azul ao lado do nome do usuário para revelar opções;
+4. Clique em E-mail. Uma caixa pop-up aparecerá, e você poderá digitar uma mensagem e enviá-la.
 
 ![Email pop-up box for emailing a user](./assets/learning-ojs-3-users-email.png)
 
-In OJS 3.3 you can email multiple users at the same time using the Notify tab. This feature will need to be enabled for each journal by the journal administrator under Site Settings > Bulk Emails. The site administrator can also disable certain roles in the journal from receiving bulk emails under Hosted Journals > Settings Wizard.
+No OJS 3.3, é possível  enviar um e-mail a vários usuários ao mesmo tempo usando a guia Notificar. Tal recurso deverá ser habilitado para cada revista pelo administrador da revista em Configurações do Website > E-mails em massa. O administrador do portal também pode desabilitar certas funções do periódico de receber e-mails em massa, acessando a área Revistas Hospedadas > Configurações do Portal.
 
-If enabled for the journal by the site administrator, emails can be sent to all users in one or more role, such as all journal managers and / or all section editors, etc. See [Site Administration > Site Settings](./site-administration#site-settings) for instructions on enabling this feature.
+Se ativado para o periódico pelo Administrador do portal, os e-mails podem ser enviados a todos os usuários em uma ou mais funções, como todos os gerentes de periódicos e/ou editores de seção. Consulte a [Site Administration > Site Settings](./site-administration#site-settings) para obter instruções de como habilitar o recurso.
 
-In the Notify tab, select the user roles that you would like to email. Type your subject and email message. You have the option to send a copy of the email to your own email address. You will receive a status notification indicating that the message was sent successfully.
+Na guia Notificar, selecione as funções do usuário que você gostaria de enviar por e-mail. Digite o assunto e a mensagem. Você tem a opção de enviar uma cópia para seu próprio endereço de e-mail, além de receber uma notificação de status indicando que a mensagem foi enviada com sucesso. You will receive a status notification indicating that the message was sent successfully.
 
 ![OJS 3.3 selecting multiple users to notify with an email message](./assets/learning-ojs3.3-users-roles-notify.png)
 
-This email feature can be used to send practical, core service emails to users who are actively working on the journal. For example, you might send an email to all copy editors reminding them of the “house style” for a particular word use or spelling. Avoid using this feature to notify large numbers of readers; the Announcement feature is preferable for large broadcast emails. See [Website Settings > Setup > Announcements](./settings-website#announcements) for details about this feature.
+Tal recurso pode ser usado para enviar e-mails práticos e essenciais de serviço aos usuários que estão trabalhando na revista. Por exemplo, pode-se enviar e-mail a todos os editores de texto lembrando-os do "estilo da casa" para um determinado uso de palavras. Em todo caso, deve-se evitar usar o recurso para notificar um grande número de leitores, pois nesses casos o recurso de Notícias é preferível. Vá em [Website Settings > Setup > Announcements](./settings-website#announcements) para obter detalhes.
 
-If several recipients flag your message as spam, it could result in all emails from the journal being sent to the spam folder. Care must be taken not to abuse this feature by sending excessive, unwanted emails. Become familiar with anti-spam and email privacy laws in your region, such as CASL in Canada and GDPR in the EU and UK. Note that there is no “unsubscribe” option available for users who receive these emails.
+Se vários destinatários marcarem sua mensagem como spam, isso pode resultar no envio de todos os e-mails da revista para essa pasta. Deve-se tomar cuidado para não abusar de tal recurso, enviando e-mails em excesso. Familiarize-se com as leis anti-spam e de privacidade de e-mail em sua região, como CASL no Canadá e GDPR na UE e no Reino Unido. Note-se que não há a opção "desinscrever" para os usuários.
 
-It is not possible to add cc or bcc addresses other than your own, or to add attachments to messages. To send attachments you can instead use the Discussion feature or the Submission Library.
+Não é possível adicionar endereços cc ou bcc além dos seus próprios ou anexos às mensagens. Para enviar anexos, você pode se servir do recurso de Discussão ou da Biblioteca de Submissão.
 
-**Edit User** allows you to make changes to that user's account.
+**Editar usuário** permite que você faça alterações na conta desse usuário.
 
 ![Edit information about a user](./assets/learning-ojs-3-users-edit-user.png)
 
-**Disable** keeps the account in place, but blocks the user from accessing it.
+**Desabilitar** mantém a conta no lugar, mas bloqueia o acesso do usuário.
 
-**Remove** un-enrolls the user from all roles in the journal, but the user account remains in the system. The only way to actually remove a user account from your system is to **Merge Users** (see below).
+**Remover** faz com que o usuário seja retirado de todas as funções no periódico, mas sua conta permanecerá no sistema. O único modo de removê-la é por meio da opção **Mesclar Usuários** (ver abaixo).
 
-**Login As** allows you to temporarily log in as that user, for example, to complete an outstanding task.
+**Acessar Como** permite fazer login temporariamente como esse usuário e completar uma tarefa pendente.
 
-#### Merge User
+#### Mesclar usuário
 
-The Merge User feature lets you fold this user account, including any submissions or assignments, into another user account on your system.
+O recurso Mesclar Usuário permite vincular a conta de usuário, incluindo quaisquer submissões ou atribuições, a outra conta do sistema.
 
-> **Note**: This is the only way to completely delete an account from the system.
+> **Nota**: Esta é a única maneira de excluir completamente uma conta.
 
-You may want to create a dummy user account (e.g., Deleted Users), and use that to merge unwanted accounts into.
+Você pode criar uma conta fictícia (por exemplo, Usuários Excluídos) e usá-la para fundir as indesejadas.
 
-To merge users:
+Para mesclar usuários:
 
-1. At Users & Roles > Users, find the user account you want to remove
-2. Click the blue arrow next to the username
-3. Click **Merge User** from the menu that appears below
-4. Find the user account that you want to merge this user account into (the user you want to maintain)
-5. Click the blue arrow next to username
-6. Click **Merge into this user**
-7. Press **OK** to confirm
+1. Em Usuários e Papéis > Usuários, encontre a conta que você deseja remover;
+2. Clique na seta azul, ao lado do nome de usuário;
+3. Clique em **Mesclar Usuário**, no menu que aparece abaixo;
+4. Encontre a conta que você deseja unificar (o usuário a ser mantido);
+5. Clique na seta azul, ao lado do nome de usuário;
+6. Clique em **Mesclar neste usuário**
+7. Pressione **OK** para confirmar.
 
-#### Search Users
+#### Buscar Usuários
 
-When you have a large number of users, you will want to take advantage of the search feature.
+Quando a revista tem um grande número de usuários, essa ferramenta é bastante útil.
 
 ![Search for a journal user by name, email, and role](./assets/learning-ojs-3-users-search.png)
 
-This can help you quickly find a user by first name, last name, or email address, or to see all users in a particular role.
+Isto pode ajudar a encontrar rapidamente um usuário pelo nome, sobrenome ou endereço de e-mail, ou a ver todos de determinada função.
 
-**Note**: If you leave the Search field blank, select a Role, and hit Search, you will get a list of all users in that role (e.g., all copyeditors).
+**Nota**: Se você deixar o campo Pesquisar em branco, selecionar um Papel e clicar em Pesquisar, receberá uma lista de todos os usuários dessa função (por exemplo, todos os editores de texto).
 
 ![Search for all users with a given role](./assets/learning-ojs-3-users-search-roles.png)
 
-#### Add User
+#### Adicionar usuário
 
-To add a new user to your journal, select the Add User link. This will open a new window with a set of fields to fill in.
+Para adicionar novo usuário ao seu periódico, selecione o link Incluir usuário. Isto abrirá uma nova janela com campos a serem preenchidos.
 
 ![Add a user and enter their information](./assets/learning-ojs-3-users-add-new.png)
 
-Once these fields are completed and you hit _Save_, you will then be asked to assign roles to the new account. Use the _Add Role_ link to open the role selector.
+Depois que esses campos forem preenchidos e você clicar em _Salvar_, será solicitado que você atribua funções à nova conta. Use o link _Adiconar função_ para abrir o seletor de função.
 
 ![Assign a role to a new user's account](./assets/learning-ojs-3-users-add-new-roles1.png)
 
-Once you have added all of the roles, hit the **Save** button.
+Depois de adicionar todas as funções, clique no botão **Salvar**.
 
-#### Register a User from Another Journal
+#### Registrar um usuário de outro periódico
 
-On multi-journal installations, an Administrator can register a user from Journal A as a user on Journal B.
+Em instalações com vários periódicos, o Administrador pode registrar um usuário do periódico A como usuário no B.
 
-1. Log in to Journal B as an Administrator
-2. Go to Users & Roles > Users
-3. Search for the user from Journal A that you want to register on Journal B, checking off **Include users with no roles in this journal**
-4. When the user appears, click the blue arrow next to their name
-5. Click **Edit User**
-6. Scroll down to **User Roles** on the Edit User box that appears.
-7. Check off the role that you want the user to have on Journal B
-8. Click **Save** at the end of the form
+1. Entrar no periódico B como Administrador;
+2. Ir para Usuários e Papéis > Usuários;
+3. Procure o usuário da Revista A que você deseja registrar na Revista B, marcando a caixa de seleção **Incluir usuários sem funções nesta revista**;
+4. Quando o usuário aparecer, clique na seta azul, ao lado do nome dele;
+5. Clique em **Editar usuário**;
+6. Role para baixo até **Papéis**;
+7. Marque a função que você quer que o usuário tenha no Periódico B;
+8. Clique em **Salvar** no final do formulário.
 
-#### If a User Can't Log In
+#### Se um usuário não consegue fazer o login
 
-If a user can't log in to your journal site, tell them to select **Forgot your password** on the Login page. They will then receive a reset password link by email and will be able to reset their password.
+Se um usuário não conseguir acessar o periódico, ele deverá utilizar a opção **Esqueci minha senha** e receberá, então, um link para redefinir a senha por e-mail. They will then receive a reset password link by email and will be able to reset their password.
 
-If the user has further issues, a Journal Manager or Editor can do the following:
+Se o usuário encontrar outras dificuldades, um Gerente ou Editor da Revista poderá fazer o seguinte:
 
-1. Go to Users & Roles > Users
-2. Find the user who can't log in and click the blue arrow next to their name
-3. Click the **Edit User** button that appears below
-4. Enter a new password in the **Password** field, making note of what the password is
-5. Check off **User must change password on next log in**
-6. Click **Save** at the end of the form
-7. Send the new password to the user and instruct them to log in with it
+1. Ir para Usuários e Papéis > Usuários;
+2. Encontrar o usuário que não consegue fazer login e clicar na seta azul, ao lado de seu nome;
+3. Clicar no botão **Editar usuário**, que aparece abaixo;
+4. Digitar uma nova senha no campo **Senha**;
+5. Selecione a caixa **" Usuário deverá alterar senha no próximo acesso"**;
+6. Clique em **Salvar**, no final do formulário;
+7. Enviar a nova senha para o usuário e instruí-lo a entrar com ela.
 
-If the user still cannot log in, their account may have been disabled. To re-enable it:
+Se o usuário ainda não conseguir fazer o login, sua conta pode ter sido desativada. Para reativá-la deve-se:
 
-1. Go to Users & Roles > Users
-2. Find the user who can't log in and click the blue arrow next to their name
-3. Look below their name for **Enable** or **Disable.**  If Disable appears, the account is already enabled. If Enable appears, click it to re-enable the account.
+1. Ir para Usuários e Papéis > Usuários;
+2. Encontrar o usuário que não consegue fazer login e clicar na seta azul, ao lado de seu nome;
+3. Observar, abaixo do nome do usuário, se uma das opções está ativa: **Habilitar** ou **Desabilitar**. Se a opção Desativar aparecer, a conta já está habilitada. Se Habilitar aparecer, deve-se clicar nela para reativar a conta.
 
 <hr />
 
-## Permissions and Roles
+## Permissões e Papéis
 
-The OJS workflow revolves around different roles with different permissions and responsibilities for each user, allowing them access to different parts of the workflow. Users in the system must have at least one role. Users can also have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
+O fluxo de trabalho do OJS diz respeito a diferentes papéis com diferentes permissões e responsabilidades para cada usuário, o que os permite acesso a diferentes partes do fluxo de trabalho. Users in the system must have at least one role. Os usuários do sistema devem ter pelo menos uma função, podendo executar mais de uma, como, por exemplo, ser um Gerente de Revista, Editor e Autor da mesma revista.
 
-Each role is first assigned a permission level, which will broadly define what level of access a user has to a particular journal. Roles are then further customized by providing a position name, and granting or restricting access to various stages of the Editorial Workflow.
+A cada função é primeiramente atribuído um nível de permissão, que irá definir amplamente o nível de acesso que um usuário tem a um determinado periódico. As funções são então personalizadas, fornecendo um nome para o cargo e concedendo ou restringindo o acesso a várias etapas do fluxo de trabalho editorial.
 
-There are a number of predefined roles that you can use and edit in OJS. Read in-depth about these predefined roles organized by their permissions level. Italicized roles are new in OJS 3.
+Há uma série de funções predefinidas que você pode usar e editar no OJS. Leia sobre as pré-definidas, organizadas por seu nível de permissão. Os papéis em _itálico_ são novos no OJS 3.
 
-* The **Site Administrator** is a single user responsible for administration of the entire OJS installation. This permissions level will not appear in user lists or in role settings.
-* **Journal Managers** have access to the entire Editorial Workflow, as well as all other journal settings. Available predefined Journal Manager roles: Journal Manager, Journal Editor (formerly “Editor” in OJS 2), Production Manager
-* **Section Editors** have access to the entire Editorial Workflow, but cannot make any changes to journal settings. Available predefined Section Editor roles: Section Editor, *Guest Editor*
-* **Assistants** can access only the parts of the Editorial Workflow assigned to their role. Available predefined Assistant roles and their assigned editorial workflow stages:
-    * Submission & Review stages: *Funding coordinator*
-    * Copyediting stage: Copyeditor, *Marketing and sales coordinator*
-    * Production Stage: *Designer*, *Indexer*, Layout Editor, Proofreader
-* **Reviewers** are users who appear when you're assigning reviews in the Editorial Workflow and have access to that stage when they're assigned.
-* **Authors** can make new submissions.
-* **Readers** can access the reader-facing website. This is the minimum permissions level granted to all users.
-* **Subscription Managers** can edit site access settings as well as settings related to subscriptions. This is a new permissions level in OJS 3, with one predefined role, *Subscription Manager*.
+* O **Administrador do Portal** é o único usuário responsável pela administração de toda a instalação do OJS. Este nível de permissão não aparecerá nas listas de usuários ou nas configurações de papéis.
+* Os **Gerentes da Revista** têm acesso a todo o fluxo de trabalho editorial, assim como a todas as outras configurações de revistas. Possibilidade de funções pré-definidas de Gerenciador da Revista: Gerente de Revista, Editor da Revista (anteriormente "Editor" no OJS 2) e Gerente de Produção.
+* Os **Editores de Seção** têm acesso a todo o Fluxo de Trabalho Editorial, mas não podem fazer nenhuma alteração nas configurações do periódico. Funções de Editor de Seção pré-definidas disponíveis: Editor de seção e **Editor convidado**.
+* Os **Assistentes de edição** podem acessar apenas as partes do Fluxo de Trabalho Editorial atribuídas à sua função. Já os assistentes de fluxo de trabalho editorial têm suas funções atribuídas do seguinte modo:
+    * Etapas de submissão e revisão: *Coordenador de financiamento.*
+    * Fase de edição de texto: *Editor de texto, coordenador de marketing e vendas.*
+    * Estágio de editoração: *Designer*, *Indexador*, Editor de Layout, Leitor de prova.
+* Os **Avaliadores** são usuários que aparecem quando você está atribuindo revisões no Fluxo de Trabalho Editorial. Eles têm acesso a essa etapa do fluxo editorial.
+* Os **Autores** podem fazer novas submissões.
+* Os **Leitores** podem acessar o site voltado para eles. Este é o nível mínimo de permissões concedidas a todos os usuários.
+* Os **Gerentes de Assinaturas** podem editar as configurações de acesso ao site, bem como as configurações relacionadas às assinaturas. É um novo nível de permissões no OJS 3, com uma função pré-definida, *Gerente de Assinaturas*.
 
-Predefined and custom roles can be checked from the Roles tab.
+Funções pré-definidas e personalizadas podem ser verificadas na guia Papéis.
 
 ![Roles tab showing all current roles in the journal](./assets/learning-ojs3.1-jm-users-roles.png)
 
-From this page, you can see each role, and the editorial stage each role can access. A good example of this is the Copyeditor role, which can only access the copyediting stage. Copyeditors cannot jump to the Review stage to see what happened during the peer review process. See the Editorial Workflow chapter for more information about the different editorial stages.
+Nessa página, o usuário logado tem acesso a cada papel e a etapa editorial que cada um pode acessar. Um bom exemplo disso é o Editor de Texto, que só pode acessar a fase de revisão. Os editores de texto não podem pular para a etapa de revisão para ver o que aconteceu durante o processo. Consulte o capítulo Fluxo de Trabalho Editorial para mais informações.
 
-In addition to assigning and editing the predefined roles, Site Administrators and Journal Managers can also create new roles or rename existing ones.
+Além de atribuir e editar as funções predefinidas, os Administradores do Portal e Gerentes da Revista também podem criar novas funções ou renomear as existentes.
 
-### Editing Roles
+### Editando Papéis
 
-Unchecking a box removes access to that stage for users with that role.
+Desmarcar uma caixa removerá o acesso da etapa para os usuários dessa função.
 
-Selecting the blue arrow to the left of the role name reveals the edit link. Clicking this opens the editing window.
+A seleção da seta azul à esquerda do nome da função revela a opção de editar. Clicando nela, abre-se a janela de edição.
 
 ![Edit details of a role](./assets/learning-ojs3.1-jm-users-roles-edit.png)
 
-**Permission Level**: This indicates how much a user with this role can do in any stage.
+**Nível de permissão**: Indica o que um usuário dessa função pode fazer em qualquer etapa.
 
-The Journal Assistant level can communicate with other users and upload and revise files. In Journals where only one user has been assigned with an Assistant role, they will be automatically assigned to a new submission. Once a second person has been assigned this role, this action will stop.
+O Assistente de Edição pode se comunicar com outros usuários e fazer upload e revisão de arquivos. Em Revistas onde apenas um usuário foi designado com a função de Assistente, ele será automaticamente designado para uma nova submissão. Uma vez que uma segunda pessoa tenha sido designada para a função a ação será interrompida.
 
-**Role Name**: You can use this field to easily rename any role.
+**Nome da função**: Você pode usar esse campo para renomear qualquer função.
 
-**Abbreviation**: Each role must have a unique abbreviation.
+**Abreviação**: Cada função deve ter uma abreviação única.
 
-**Stage Assignment**: This allows you to determine which stage users with this role can access.
+**Designação de estágio**: Isto permite determinar quais usuários com a função podem acessar determinado processo no fluxo editorial.
 
-**Role Options**: Use these checkboxes to show anyone with this role in the contributor list \(e.g., the author list\). As of OJS 3.2, roles can be assigned permission to edit submission metadata by enabling the checkbox.
+**Opções de papéis**: Use as caixas de seleção para mostrar a qualquer pessoa com a função na lista de colaboradores \(por exemplo, a lista de autores\). A partir do OJS 3.2, as funções podem receber permissão para editar metadados de submissão ativando a caixa de seleção.
 
-Use the second option to determine whether users can self-register in this role. Authors and Reviewers are good candidates for self-registration. You would definitely NOT want to allow users to self-register as Journal Managers or Editors!
+Use a segunda opção para determinar se os usuários podem se autorregistrar na função. Os autores e revisores são bons candidatos ao autorregistro. Certamente, você não gostaria de permitir que os usuários se autorregistrem como Gerentes ou Editores de Periódicos.
 
-The third option is useful for guest editors or possibly section editors, depending upon your preferred workflow and authority chain.
+A terceira opção é útil para editores convidados ou, possivelmente, editores de seção, dependendo de seu fluxo de trabalho preferido e da cadeia de autoridade.
 
-### Create New Roles
+### Criar novo Papel
 
-Use the _Create New Roles_ link to open a window where you can create a new role for your journal, including setting which stages it can access and how much permission it should have.
+Use o link _Incluir Papel_ para abrir a janela onde você pode criar um novo papel para sua revista, incluindo a definição de quais etapas poderão ser acessadas e quanta permissão se deve ter.
 
 <hr />
 
-## Site Access Options
+## Opções de Acesso ao Site
 
-This page allows you to determine how readers can access your journal.
+Esta página permite que você determine como os leitores podem acessar sua revista.
 
 ![Site access options tab under Users and Roles](./assets/learning-ojs3.1-jm-users-siteoptions.png)
 
-**Additional Site and Article Access Restrictions**: Choose from these options to limit access.
+**Restrições adicionais de acesso ao site e aos artigos**: Escolha entre as opções para limitar o acesso.
 
-> Keep in mind that while requiring registration to read open access content can be convenient for your tracking, it can dissuade some people from reading your content. Use with care.
+> Tenha em mente que, embora exigir registro a fim de ler o conteúdo de acesso aberto possa ser conveniente para seu rastreamento, isso pode dissuadir algumas pessoas de fazê-lo. Use com cuidado!
 
-**User Registration**: This option allows you to determine whether users can create their own accounts or must be enrolled by a Journal Manager.
+**Registro do usuário**: opção permite que você determine se os usuários podem criar suas próprias contas ou se devem ser cadastrados por um Gerente da Revista.
 
-> Allowing users to register themselves, but only into Author, Reviewer, or Reader roles, is a good choice.
+> Permitir que os usuários se registrem, mas somente nas funções de Autor, Revisor ou Leitor, é uma boa opção.
