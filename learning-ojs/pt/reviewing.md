@@ -52,21 +52,21 @@ Depois de ler o artigo e adicionar seus comentários, role a página para baixo 
 
 ![The upload reviewer files and review recommendation drop down](./assets/learning-ojs-3-rev-step3-1.png)
 
+Em seguida, você deve fazer suas recomendações usando o menu suspenso.
+
 As recomendações a serem feitas incluem:
 
 **Aceitar**: o manuscrito está pronto para ir à edição.
 
 **Correções obrigatórias**: o texto requer pequenas alterações que podem ser revisadas e aceitas pelo editor.
 
+**Reenviar para Revisão**: requer grandes alterações e outra etapa de revisão por pares.
+
 **Submeter a outra revista**: o manuscrito não parece se ajustar ao foco e escopo do periódico.
 
 **Rejeitar**: o manuscrito tem muitos pontos fracos para ser aceito.
 
 **Ver comentários**: se nenhuma das recomendações acima fizerem sentido, é possível deixar um comentário para o editor, detalhando suas preocupações.
-
-**Decline Submission**: it has too many weakness to ever be accepted.
-
-**See Comments**: if none of the above recommendations make sense, you can leave a comment for the editor detailing your concerns.
 
 Por fim, clique no botão "Enviar Avaliação" para concluir a tarefa. Antes de concluir definitivamente, será solicitada a sua confirmação.
 
@@ -76,4 +76,4 @@ Clique em OK. Você será direcionado para a tela de confirmação final, que ag
 
 ![The review submitted completion screen](./assets/learning-ojs-3-rev-step4.png)
 
-É isso! The review is now complete.
+É isso! A revisão está completa.
