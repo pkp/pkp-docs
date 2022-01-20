@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.3
 ---
 
-# Website Settings
+# Configurações do Site
 
 As Configurações do Website permitem configurar o aspecto e funcionamento do website da revista. É composto por 3 guias principais para Aparência, Configuração e Plugins.
 
@@ -48,7 +48,7 @@ Se desejar fazer pequenas alterações no design e layout do seu site, pode carr
 
 - **Imagem de fundo do cabeçalho**: habilite essa função se você quiser que a imagem da página inicial carregada seja mostrada como fundo de cabeçalho.
 
-For further theme customization options, consult the [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/) guide. Note that changes made to the themes may impact journal accessibility.
+Para mais opções de personalização de temas, consulte o [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/). Observe que as alterações feitas nos temas podem afetar a acessibilidade dos periódicos.
 
 ### Configurar
 
