@@ -6,7 +6,7 @@ title: Learning Open Journal Systems 3.3 - Users and Roles
 
 # Usuários e Papéis
 
-Esta seção fornece acesso a todas as contas de usuário associadas à sua revista, assim como a possibilidade de gerenciar funções e permissões.
+Esta seção fornece informações sobre o acesso a todas as contas de usuário associadas a sua revista, bem como sobre o gerenciamento de funções e permissões.
 
 ## Administração de Usuários
 
@@ -45,7 +45,7 @@ No OJS 3.3, é possível  enviar um e-mail a vários usuários ao mesmo tempo us
 
 Se ativado para o periódico pelo Administrador do portal, os e-mails podem ser enviados a todos os usuários em uma ou mais funções, como todos os gerentes de periódicos e/ou editores de seção. Consulte a [Site Administration > Site Settings](./site-administration#site-settings) para obter instruções de como habilitar o recurso.
 
-Na guia Notificar, selecione as funções do usuário que você gostaria de enviar por e-mail. Digite o assunto e a mensagem. Você tem a opção de enviar uma cópia para seu próprio endereço de e-mail, além de receber uma notificação de status indicando que a mensagem foi enviada com sucesso. You will receive a status notification indicating that the message was sent successfully.
+Na guia Notificar, selecione as funções do usuário que você gostaria de enviar por e-mail. Digite o assunto e a mensagem. Você tem a opção de enviar uma cópia para seu próprio endereço de e-mail, além de receber uma notificação de status indicando que a mensagem foi enviada com sucesso. Você receberá uma notificação de status indicando que a mensagem foi enviada com sucesso.
 
 ![OJS 3.3 selecting multiple users to notify with an email message](./assets/learning-ojs3.3-users-roles-notify.png)
 
@@ -122,7 +122,7 @@ Em instalações com vários periódicos, o Administrador pode registrar um usu�
 
 #### Se um usuário não consegue fazer o login
 
-Se um usuário não conseguir acessar o periódico, ele deverá utilizar a opção **Esqueci minha senha** e receberá, então, um link para redefinir a senha por e-mail. They will then receive a reset password link by email and will be able to reset their password.
+Se um usuário não conseguir acessar o periódico, ele deverá utilizar a opção **Esqueci minha senha** e receberá, então, um link para redefinir a senha por e-mail. Em seguida, eles receberão um link de redefinição da senha por e-mail e poderão redefinir sua senha.
 
 Se o usuário encontrar outras dificuldades, um Gerente ou Editor da Revista poderá fazer o seguinte:
 
@@ -144,7 +144,7 @@ Se o usuário ainda não conseguir fazer o login, sua conta pode ter sido desati
 
 ## Permissões e Papéis
 
-O fluxo de trabalho do OJS diz respeito a diferentes papéis com diferentes permissões e responsabilidades para cada usuário, o que os permite acesso a diferentes partes do fluxo de trabalho. Users in the system must have at least one role. Os usuários do sistema devem ter pelo menos uma função, podendo executar mais de uma, como, por exemplo, ser um Gerente de Revista, Editor e Autor da mesma revista.
+O fluxo de trabalho OJS gira em torno de diferentes funções com diferentes permissões e responsabilidades para cada usuário, permitindo que eles acessem diferentes partes do fluxo de trabalho. Os usuários no sistema devem ter pelo menos uma função. Os usuários também podem ter mais de uma função, por exemplo, ser Gerente de Revista, Editor e Autor na mesma revista.
 
 A cada função é primeiramente atribuído um nível de permissão, que irá definir amplamente o nível de acesso que um usuário tem a um determinado periódico. As funções são então personalizadas, fornecendo um nome para o cargo e concedendo ou restringindo o acesso a várias etapas do fluxo de trabalho editorial.
 
