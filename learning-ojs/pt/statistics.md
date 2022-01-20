@@ -4,7 +4,7 @@ version: 3.3
 title: Learning Open Journal Systems 3.3 - Statistics
 ---
 
-# Statistics
+# Instalação e Atualização
 
 The statistics features of OJS allow you to view different numbers pertaining to the activity, access, and downloads of various aspects of your site, including article and abstract views, subscription activity, editorial and review activity, and user counts separate by role. There is also a Report Generator section for producing various reports from some of the available data.
 
@@ -14,7 +14,7 @@ For a video walkthrough of Statistics in OJS, see our [Setting up a journal in O
 
 [![Setting up a journal in OJS 3.3. Module 13: Statistics](https://img.youtube.com/vi/fU1orCK7GSM/0.jpg)](https://www.youtube.com/watch?v=fU1orCK7GSM&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
-## Definitions
+## Download
 
 The following definitions may be helpful to you for understanding the variety of statistics tracked by OJS.
 
@@ -25,7 +25,7 @@ The following definitions may be helpful to you for understanding the variety of
 * **Project COUNTER Code of Practice:** a set of practices developed by COUNTER to establish a means to report on usage metrics for electronic resources in a consistent way. The Code provides rules on what should be counted as a view, including specific rules for robot usage and multi-click abuse. OJS filters metrics through these rules. It should also be noted that PKP is part of the COUNTER Bots and Crawlers Working Group.
 * **Robots, crawlers, bots:** nonhuman site visitors who may still view and download article data. These are usually identified as such to the server, and OJS does not count them in its usage metrics, as per the Project COUNTER Code of Practice.
 
-## Articles
+## Soluções de hospedagem
 
 OJS offers Editors and Journal Managers the option of viewing graph and table representations of article usage, including abstract views and full-text downloads.
 
