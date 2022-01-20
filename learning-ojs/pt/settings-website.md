@@ -5,158 +5,158 @@ version: 3.3
 
 # Website Settings
 
-The Website Settings allow you to configure how your journal's website looks and operates. It consists of 3 main tabs for Appearance, Setup, and Plugins.
+As Configurações do Website permitem configurar o aspecto e funcionamento do website da revista. É composto por 3 guias principais para Aparência, Configuração e Plugins.
 
 ![OJS dashboard view of website settings menu.](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
 
-## Appearance
+## Aparência
 
 This PKP School video explains how to configure your journal's appearance in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="4i5uRgzFHfg" provider="youtube" title="Video of how to configure your journal's appearance in OJS"%}
 
-### Theme
+### Tema
 
-The theme determines the overall design or layout of your site. Several different theme options are available and you can try them out without affecting your site's content or configuration.
+O tema determina o design geral ou o layout do seu site. Estão disponíveis várias opções de temas diferentes e é possível experimentá-los sem afetar o conteúdo ou a configuração do seu sítio.
 
-First you can ensure that all available themes have been enabled on your site.
+Primeiro, é necessário se assegurar de que todos os temas disponíveis foram ativados no site.
 
-1. Go to the Plugins tab under Website Settings.
-2. Scroll to the bottom and find Theme Plugins.
-3. Check the box next to each plugin to enable it.
+1. Vá até a aba de Plugins em Configurações do Website;
+2. Desça até o final da página, chegando aos Plugins de Visual;
+3. Selecione todas as caixas de temas para habilitá-los.
 
-You can also look for additional themes in the Plugin Gallery and install and enable those.
+Você também pode procurar temas adicionais na Galeria de Plugins, instalá-los e ativá-los.
 
-Now that you have all available themes, return to the Appearance tab to try out different themes.
+Agora, com os temas disponíveis, volte à guia Aparência e experimente os diferentes temas.
 
-1. Under Theme you will see a drop-down list of themes. Select one.
-2. Scroll to the bottom of the page and click Save.
-3. The theme may have additional sub-themes or configuration options available. To make these appear, refresh the page in your browser.
-4. If you select a different sub-theme or change the colour scheme or other design features, click Save at the bottom of the page again.
-5. Open your site's home page in a new tab or window of your browser to see how the site looks with the new theme or sub-theme and with different configuration options.
-6. If you do not see the changes appear on your site, you may need to clear the cache under the Administration menu.
+1. Em Tema você verá a lista de temas. Selecione um;
+2. Deslize até o final da página e clique em Salvar;
+3. O tema pode incluir subtemas adicionais ou opções de configuração específicas. Para fazê-los aparecerem, atualize a página do navegador;
+4. Se selecionar um subtema diferente ou fizer alguma mudança no esquema de cores ou nas características do design, clique novamente em Salvar, na parte inferior da página;
+5. Abra a página inicial do site em uma nova aba ou guia do navegador para ver como o site se apresenta com o novo tema e diferentes configurações;
+6. Se as alterações não estiverem ativas, talvez seja necessário limpar o cache no menu Administração.
 
 As of OJS/OMP/OPS 3.3, the **Default Theme** has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. [PKP Accessibility Statement](https://docs.pkp.sfu.ca/accessibility-statement/) contains further details.
 
-If you would like to make minor changes to your site's design and layout, you can upload a **Journal Stylesheet** in Website Settings > Appearance > Advanced.
+Se desejar fazer pequenas alterações no design e layout do seu site, pode carregar uma folha de estilo de jornal em Definições do site > Aspecto > Avançado.
 
-- **Typography**: Quickly choose the fonts for your journal. This option may or may not be available depending on the selected theme.
+- **Tipografia**: escolha rapidamente as fontes para sua revista. Essa opção pode ou não estar disponível, dependendo do tema selecionado.
 
-- **Colour**: Quickly change the colour of your journal's header. This option may or may not be available depending on the selected theme.
+- **Cor**: mude rapidamente a cor do cabeçalho do seu periódico. Essa opção pode ou não estar disponível, dependendo do tema selecionado.
 
-- **Journal Summary**: Check this off to show the journal summary on the homepage. You can add your journal summary under Journal Settings > Masthead. This option may or may not be available depending on the selected theme.
+- **Resumo da revista**: habilite para mostrar o resumo da revista na página inicial. Você pode adicionar o resumo do periódico em Configurações da Revista> Equipe Editorial. Essa opção pode ou não estar disponível, dependendo do tema selecionado.
 
-- **Header Background Image**: Check this off if you if you want the uploaded homepage image to be shown as the header background.
+- **Imagem de fundo do cabeçalho**: habilite essa função se você quiser que a imagem da página inicial carregada seja mostrada como fundo de cabeçalho.
 
 For further theme customization options, consult the [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/) guide. Note that changes made to the themes may impact journal accessibility.
 
-### Setup
+### Configurar
 
-Where you can upload images (logo, thumbnail, homepage) to your sites main page, enter footer information, and configure your sidebar menu.
+Em Configurar, você pode carregar imagens (logotipo, miniatura, homepage) na página principal de seu site, inserir informações no rodapé e configurar seu menu da barra lateral.
 
-- **Journal thumbnail**: Upload a small logo or image representative of the journal that will be used in lists of journals on this OJS installation. This will only be used on OJS installations with multiple journals.
+- **Miniatura da publicação**: permite carregar um pequeno logotipo ou imagem representativa da revista, que será utilizado(a) nas listas de periódicos nessa instalação do OJS. Essa função só será usada nas instalações do OJS com vários periódicos.
 
-- **Homepage Image**: Uploading an image here will will place it on your journal's home page.
+- **Imagem da página Inicial**: permite carregar uma imagem para colocá-la na página inicial de sua revista.
 
-- **Page Footer**: Enter any images, text or HTML code that you'd like to appear at the bottom of your website.
+- **Rodapé**: função que permite incluir qualquer imagem, texto ou código HTML que você gostaria de ver na parte inferior de seu site.
 
-- **Sidebar**: This allows you to move different blocks in or out of the sidebar in the reader interface. You can also create a custom block using the [Custom Block plugin](./settings-website.md#custom-block-plugin)
+- **Barra Lateral**: função que permite mover diferentes blocos para dentro ou para fora da barra lateral na interface de leitura. Também possibilita criar um bloco personalizado a partir do [Custom Block plugin](./settings-website.md#custom-block-plugin).
 
-### Advanced
+### Avançado
 
-Where you can upload your journal stylesheet, Favicon, and Additional Content.
+Em Avançado, você pode carregar sua folha de estilo de revista, Favicon e Conteúdo Adiciona por meio das seguintes funções:
 
-- **Journal Style Sheet**: Use this to upload a unique style sheet for your journal. Instructions on modifying the CSS are available in the [Designing Your Journal: Creating a Stylesheet](https://docs.pkp.sfu.ca/designing-your-journal/en/creating-stylesheet) guide.
+- **Folha de estilos da revista**: essa função deve ser usada para carregar uma folha de estilo única para seu periódico. Instructions on modifying the CSS are available in the [Designing Your Journal: Creating a Stylesheet](https://docs.pkp.sfu.ca/designing-your-journal/en/creating-stylesheet) guide.
 
-If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+Se quiser fazer mudanças mais significativas no design ou dar ao seu site um visual inteiramente único, você pode desenvolver seu próprio tema ou subtema. As instruções estão disponíveis no [Guia de Temas PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
-- **Journal Favicon**: Add a [favicon](https://en.wikipedia.org/wiki/Favicon) to display in the reader's browser address bar.
+- **Favicon**: essa função permite adicionar um [favicon](https://en.wikipedia.org/wiki/Favicon) a ser exibido na barra de endereços do navegador do leitor.
 
-- **Additional Content**: Any text entered here will appear on your homepage.
+- **Conteúdo Adicional**: função que exibe o que for digitado em seu espaço na página inicial do site.
 
-Hit **Save** to record your changes.
+Clique em **Salvar** para armazenar as alterações.
 
-## Setup
+## Configurar
 
-### Information
+### Informação
 
 This PKP School video explains how to configure the Information settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="48qU18uqqkg" provider="youtube" title="Video of how to configure Information settings in OJS"%}
 
-Use these fields to modify the text in the For Readers, For Authors, For Librarians pages on the journal website.
+Use esses campos para modificar o texto nas páginas Para Leitores, Para Autores e Para Bibliotecários no site da revista.
 
 ![OJS dashboard view of Information menu with boiler plate text in the fields for readers and for authors.](./assets/learning-ojs3.1-jm-settings-web-info.png)
 
-Remember to hit **Save** to record any changes.
+Lembre-se de clicar em **Salvar** para registrar quaisquer mudanças.
 
-To remove these fields and their contents from displaying publicly on the website's user interface, deselect the Information Block in Website Settings > Appearance > Sidebar Management.
+Para remover esses campos e seu conteúdo da exibição pública na interface do usuário do site, desmarque o bloco de informações em Configurações do Website > Aparência >Configurar> Barra Lateral.
 
-### Languages
+### Idiomas
 
 This PKP School video explains how to configure the Language settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="VU5kAPOqNPc" provider="youtube" title="Video of how to configure the language settings in OJS"%}
 
-OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages and authors can make submissions in one or more languages on a single site or journal. Assim, ao instalar o OJS, você pode selecionar um ou mais idiomas para o seu site.
+O OJS é multilíngue, o que significa que a interface, os e-mails e o conteúdo publicado podem estar disponíveis em vários idiomas e os autores podem fazer envios em um ou mais idiomas em um único site ou periódico. Ao instalar o OJS, você pode selecionar um ou mais idiomas para seu site.
 
-Under Website Settings > Languages you can see a list of languages or locales installed on your site and configure how the languages are used in your journal. Consider carefully how you want to configure and use languages in your journal because significant problems can occur if you change the settings later.
+Em Configurações do Website > Idiomas você pode ver uma lista de idiomas instalados em seu site e configurar como os idiomas são usados em sua revista. Analise cuidadosamente como você deseja configurar e usar os idiomas em seu periódico, pois podem ocorrer problemas significativos, caso as configurações sejam alteradas mais tarde.
 
 ![OJS dashboard view of Languages menu with English and French options, English option selected as primary locale.](./assets/learning-ojs3.1-jm-settings-web-lang.png)
 
-- **Primary Locale**: One language must be set as the primary locale, which means the language the journal appears in by default.
+- **Idioma principal**: função necessária à definição do idioma principal do periódico.
 
-- **UI**: If you want the journal’s front end and back end interface to be available in other languages, select them here. Enabling a language for the UI will allow users to select the language of the application interface. For example, buttons, page titles, and on-screen messages will be in the user's selected language.
+- **UI**: Se você quiser que a interface frontal e traseira da revista esteja disponível em outros idiomas, selecione-os aqui. Habilitando um idioma para a interface do usuário permitirá que os usuários selecionem o idioma da interface do aplicativo. Por exemplo, botões, títulos da página e mensagens na tela estarão no idioma selecionado pelo usuário.
 
-- **Forms**: This will enable all selected languages to be available when filling in online forms. Enabling a language for forms will allow text boxes to support multilingual data entry, including the Publication tab for submissions. For example, configuration settings and metadata can be entered in multiple languages.
+- **Formulários**: trata-se da permissão para que todos os idiomas selecionados estejam disponíveis para o preenchimento dos formulários on-line. Enabling a language for forms will allow text boxes to support multilingual data entry, including the Publication tab for submissions. Por exemplo, as configurações e os metadados de configuração podem ser inseridos em vários idiomas.
 
-- **Submission**: If you want authors to be able to make submissions in other languages, select them here. This will allow authors to select a language when they make a submission and add metadata in selected languages when uploading their submission.
+- **Submissões**: função que permite autorizar os autores a fazerem submissões em outros idiomas. Caso você acione essa função, permitirá que os autores adicionem metadados nos idiomas selecionados ao fazerem o upload de sua submissão.
 
-Additional languages can be installed on your site by an Administrator – see [Chapter 4](./site-administration) for details.
+Idiomas adicionais podem ser instalados em seu site por um Administrador. Para obter informações detalhadas, consulte o [Chapter 4](./site-administration).
 
-If enabling multiple languages to appear in the UI, make sure that in Website Settings > Appearance > Sidebar Management the Language Toggle Block is selected to make that feature available to users.
+Atenção: se permitir que vários idiomas apareçam na interface de usuário, certifique-se de que, em Configurações do site > Aparência > Configurar> Barra lateral> Alteração de idioma. Somente assim, tornará esse recurso disponível aos usuários.
 
-### Navigation
+### Menus de navegação
 
 This PKP School video explains how to configure the Navigation settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="OJL-XEgzhYU" provider="youtube" title="Video of how to configure navigation settings in OJS"%}
 
-This section allows you to configure your navigation menus, such as including new links.
+Esta seção permite que você configure seus menus de navegação, tais como a inclusão de novas guias.
 
 ![OJS dashboard view of Navigation Menu with user and primary menus and an option to add or edit navigation menu items.](./assets/learning-ojs3.1-jm-settings-web-navmenu.png)
 
-- **Navigation Menus**: Configure the User Menu and/or the Primary Menu.
+- **Menus de navegação**: configure o Menu do usuário e/ou o Menu principal.
 
-Some menu item types will only be displayed under certain conditions. For example, the Login menu item type will link to your login page, but it will only appear in the menu when your website visitor is logged out. Similarly, the Logout menu item type will only appear when a website visitor is logged in.
+Alguns tipos de itens do menu só serão exibidos sob certas condições. Por exemplo:  o item Login irá levá-lo para sua página de login, mas ele só aparecerá no menu quando o visitante de seu site estiver desconectado. Da mesma forma, o item Logout só aparecerá quando um visitante do site estiver logado.
 
-When you assign a Menu Item with display conditions to a Menu, you will see an icon of an eye with a slash through it. You can click that icon to learn more about when it will be displayed or hidden.
+Quando você atribuir um item do menu com condições de exibição em um menu, verá um ícone parecido com um olho e uma barra através dele. É possível clicar nesse ícone para saber mais sobre quando ele será exibido ou escondido.
 
-- **Navigation Menu Items**: These are programmed links you can add to either menu above. If you wish to add a link to the Primary Menu (e.g., "Our Society"), add it here using the _Add Item_ link.
+- **Itens do menu de navegação**: são links programados que você pode adicionar a qualquer um dos menus acima. Se deseja adicionar um link ao Menu Principal (por exemplo, "Nossa Sociedade"), adicione-o nesse espaço por meio do link _Adicionar Item_.
 
 ![Add item screen with item title and remote URL filled out.](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.png)
 
-It will now appear in the list of Navigation Menu Items. Next, go to the desired Navigation Menu (e.g., Primary), use the blue arrow to reveal the options, and choose Edit. You can now drag and drop it from Unassigned Menu Items to Assigned Menu Items and into the appropriate location on the menu.
+O novo link agora aparecerá na lista de Itens do Menu de Navegação. A seguir, vá ao Menu de Navegação desejado (por exemplo, Primário) use a seta azul para revelar as opções e escolha Editar. Através da função Editar, você poderá arrastar o novo link dos Itens do Menu Não Atribuídos e soltá-lo nos Itens do Menu Atribuídos e no local apropriado no menu.
 
 ![Primary navigation area with a list of assigned and unassigned menu items.](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.png)
 
-Hit Save to record the change.
+Clique em Salvar para gravar as mudanças.
 
-### Announcements
+### Notícias
 
 This PKP School video explains how to configure the Announcements settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="OmiDQGX4SGs" provider="youtube" title="Video of how to configure announcements settings in OJS"%}
 
-This section allows you to create and display news announcements on the journal's website.
+Esta seção permite a você criar e exibir notícias no website da revista.
 
 ![OJS dashboard view of Announcements menu with an option to enable and display announcements.](./assets/learning-ojs3.1-jm-settings-web-announce.png)
 
-- **Announcements**: Check this off if you want to have announcements in your website
-  - **Introduction**: Enter any general information you would like to appear on your announcements page.
-  - **Display on Homepage**: Enter the number of announcements to be displayed on the homepage. If this is left blank, no announcements will be displayed.
+- **Interface do usuário**: por meio dessa função, você pode disponibilizar outros idiomas na interface do periódico.
+  - **Introdução**: digite qualquer informação geral que você gostaria que aparecesse em sua página de anúncios;
+  - **Exibir na página inicial**: digite o número de anúncios a serem exibidos na homepage. Se essa opção for deixada em branco, nenhum anúncio será exibido.
 
-Once the Announcements setting is enabled, click "Save." An "Announcements" menu item now appears in the main navigation on the left hand side. Click on this menu item and select "Add Announcement." Here you can include the title of the announcement, a short description and / or full text of the announcement, and an (optional) expiry date. If you wish to send an email notification to all users (who have not opted out of email notifications), select "Send notification email to all registered users." The announcement should now appear on an "Announcements" tab on the public-facing journal site.
+Uma vez ativado o ajuste de Notícias, clique em "Salvar". Um item do menu "Notícias" aparecerá na navegação principal, no lado esquerdo. Click on this menu item and select "Add Announcement." Clique nesse item de menu, selecione "Incluir notícia" e inclua (se quiser) o título do notícia, uma breve descrição e/ou texto completo do anúncio e uma data (opcional) de expiração. Se deseja enviar uma notificação por e-mail a todos os usuários (que não optaram por não receber notificações por e-mail), selecione "Enviar e-mail de notificação para todos os usuários registrados". O anúncio aparecerá em uma guia "Notícias", no site do periódico, voltado ao público.
 
 ![OJS 3.3 Announcements menu enabled in the sidebar with an option to add and edit announcements.](./assets/learning-ojs3.3-settings-website-announcements.png)
 
@@ -166,15 +166,15 @@ This PKP School video explains how to configure the Website settings in OJS. To 
 
 ### Listas
 
-Limit the number of items (for example, submissions, users, or editing assignments) to show in a list before showing subsequent items on another page. Also, limit the number of links to display to subsequent pages of the list.
+Essa função serve para limitar o número de itens (por exemplo, envios, usuários ou tarefas de edição) a ficarem visíveis em uma lista antes de serem mostrados os itens subsequentes em outra página. Além disso, limita o número de links a serem mostrados nas páginas subsequentes da lista.
 
-### Privacy Statement
+### Declaração de Privacidade
 
-Enter the privacy statement you want to appear on your site.
+Digite a declaração de privacidade que você deseja que apareça em seu site.
 
-### Date and Time
+### Data e hora
 
-This option allows for the configuration of different format for dates and times for each journal and locale, which could previously only be set up in the 'config.inc.php' file. Note that the `config.inc.php` file can still be used to set the time and format across multiple journals, and the settings for the primary locale will be the default for other locales, unless otherwise configured.  A custom format can be entered using the [special format characters](https://www.php.net/manual/en/function.strftime.php#refsect1-function.strftime-parameters).
+Essa opção permite a configuração de diferentes formatos de datas e horários para cada revista e traduções, que anteriormente só podiam ser configurados no arquivo 'config.inc.php'. Observe que o arquivo `config.inc.php` ainda pode ser usado para definir a hora e o formato em vários periódicos, e as configurações primárias serão as padrão para outros locais, a menos que configurado de outra forma.  Um formato personalizado pode ser inserido por meio do uso de caracteres do formato especial.
 
 ![OJS 3.3 Date and Time menu with an option to select long and short date formats.](./assets/learning-ojs3.3-date-and-time-setup.png)
 
@@ -184,306 +184,306 @@ This PKP School video explains how to configure Plugins in OJS. To watch other v
 
 {% include video.html id="PMAsXY_tLMU" provider="youtube" title="Video of how to configure plugins in OJS"%}
 
-Use this page to see all of the installed plugins and find new plugins.
+Use essa página para ver todos os plugins instalados e encontrar novos plugins.
 
-### Installed Plugins
+### Plugins instalados
 
-All of the plugins listed here are available in your OJS installation. Check the Enable link to use them.
+Todos os plugins listados aqui estão disponíveis em sua instalação OJS. Verifique se estão habilitados no link Habilitar para usá-los.
 
 ![OJS dashboard view of Plugins menu with the tab for installed plugins selected.](./assets/learning-ojs3.1-jm-settings-web-plugins.png)
 
-You will notice that some plugins are required for the system and cannot be disabled.
+Você notará que alguns plugins são necessários ao sistema e não podem ser desativados.
 
-Click the blue arrow next to the plugin name to reveal links to Delete, Upgrade, or Configure settings for the plugin.
+Clique na seta azul ao lado do nome do plugin para Exibir detalhes, Excluir, Atualizar ou Configurar configurações para o plugin.
 
-### Plugin Gallery
+### Galeria de plugins
 
-The Plugin Gallery provides access to externally-created plugins, that may not be included in your OJS installation, but are available for download and activation. Only an Administrator user can install a new plugin.
+A Galeria de Plugins fornece acesso a plugins criados externamente, que podem não estar incluídos em sua instalação OJS, mas que estão disponíveis para download e ativação. Somente um usuário Administrador pode instalar um novo plugin.
 
 ![OJS dashboard view of Plugins menu with the tab for plugin gallery selected.](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery.png)
 
-Selecting the plugin title will provide additional details, including the author, status, description, and compatibility.
+A seleção do título do plugin fornecerá detalhes adicionais, incluindo autor, status, descrição e compatibilidade.
 
 ![Hypothes.is plugin selected in the plugin gallery shows that it is installed and up-to-date.](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery-hypo.png)
 
-### External Plugins
+### Plugins de Terceiros
 
-Sometimes new plugins or plugins that are developed by folks outside of PKP will not appear in the Plugin Gallery and you need to install them separately.
+Às vezes, novos plugins ou plugins que são desenvolvidos por pessoas fora do PKP não aparecerão na Galeria de Plugins. Nesse caso, você precisará instalá-los separadamente.
 
-1. Download the tar.gz file of the plugin from its repository under the Releases tab.
-2. Go to Installed Plugins tab.
-3. At top right, click Upload a New Plugin.
-4. Upload the plugin file.
-5. When it has finished uploading, click Save. Give it some time to install.
+1. Baixe o arquivo tar.gz do plugin de seu repositório sob a guia Releases;
+2. Vá à aba Plugins Instalados;
+3. No canto superior direito, clique em Enviar novo plugin;
+4. Carregue o arquivo do plugin;
+5. Quando terminar de fazer o upload, clique em Salvar. Dê um tempo para instalar.
 
-If upload fails you may get an error message that says, “The uploaded plugin archive does not contain a folder that corresponds to the plugin name.” Usually this means you have to change the name of the plugin folder inside the zipped folder to a more simple name. For example, change “translator-ojs-3_0_0-0” to “translator.”
+Se o upload falhar, você pode receber uma mensagem de erro que diz: "O arquivo de plugins carregados não contém uma pasta que corresponda ao nome do plugin". Normalmente isso significa que é preciso mudar o nome da pasta do plugin dentro da pasta zipada para um nome mais simples. Por exemplo, mudar "tradutor-ojs-3_0_0-0" para "tradutor".
 
-Remember to hit Save to record the change.
+Lembre-se de clicar em Salvar para gravar a modificação.
 
-### Content Enhancement and Discovery Plugins
+### Melhoria de conteúdo e Descoberta de Plugins
 
-OJS 3 has a number of plugins that you can enable to help enhance the user experience and discoverability of your content and journal. This section will outline the different plugins available in OJS and how to configure and use them.
+O OJS 3 tem uma série de plugins que você pode habilitar para ajudar a melhorar a experiência do usuário e a capacidade de descoberta de seu conteúdo e periódico. Esta seção definirá os diferentes plugins disponíveis no OJS e como configurá-los e utilizá-los.
 
-As some of the plugins below are 3rd party plugins, it may require that you download the zip file from GitHub and upload it to your journal. For general information on plugins and how to install and enable plugins, please see [Learning OJS 3 - Plugins](./settings-website#plugins).
+Como alguns dos plugins abaixo são plugins de terceiros, pode ser necessário baixar o arquivo zip do GitHub e carregá-lo em seu periódico. Para informações gerais sobre plugins e como instalá-los e ativá-los, consulte [Learning OJS 3 - Plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins).
 
-Please note that as PKP does not maintain 3rd party plugins, we cannot guarantee that it will work with your version of OJS.
+Observe que como o PKP não mantém plugins de terceiros, não podemos garantir que ele funcionará com sua versão do OJS.
 
 #### AddThis Plugin
 
-[AddThis](https://www.addthis.com/) permits easy social media sharing by integrating tools for several platforms into a compact set of configurable buttons. The plugin integrates AddThis into OJS/OMP for quick sharing of published content.
+O [AddThis](https://www.addthis.com/) permite o fácil compartilhamento em mídias sociais ao integrar ferramentas para várias plataformas em um conjunto compacto de botões configuráveis. O plugin integra o AddThis no OJS/OMP para compartilhamento rápido do conteúdo publicado.
 
-This plugin can be enabled from the Plugin Gallery.
+Esse plugin pode ser ativado a partir da Galeria de plugins.
 
 ![Social media sharing icons displayed on an article page by the AddThis plugin.](./assets/learning-ojs-settings-plugin-addthis.png)
 
-You can configure the social media icons and get statistics by clicking on the Setting button of the Plugin.
+Você pode configurar os ícones das mídias sociais e obter estatísticas clicando no botão Configurar do Plugin.
 
 ![AddThis plugin settings button.](./assets/learning-ojs-settings-plugin-addthis-2.png)
 
-In order to get statistics from this plugin, you will need to register for an [AddThis account](https://www.addthis.com/).
+Para obter estatísticas a partir desse plugin, será preciso se registrar em [AddThis account](https://www.addthis.com/).
 
 ![AddThis plugin settings expanded with different display options.](./assets/learning-ojs-settings-plugin-addthis-3.png)
 
-#### Browse Plugin
+#### Bloco de Navegação
 
-This plugin implements a block plugin that allows the user to navigate content by categories. The browse block appears on the journal's sidebar.
+Esse plugin implementa um plugin de bloco que permite ao usuário navegar pelo conteúdo por categorias. O bloco de navegação aparece na barra lateral da revista.
 
-This plugin can be enabled from the Plugin Gallery.
+Além disso, esse plugin pode ser ativado a partir da Galeria de Plugins.
 
 ![Browse plugin with categories for Summer, Fall, Spring, Winter.](./assets/learning-ojs-settings-plugin-browse.png)
 
-#### Citation Style Language Plugin
+#### Linguagem de Estilo de Citação
 
-The Citation Style Language plugin adds a “How to Cite” block to the article page that contains a citation for the article in the format of your choice, with an option below to generate the citation in another format.
+O plugin  Linguagem de Estilo de Citação adiciona um bloco "Como Citar" à página do artigo que contém uma citação para o artigo no formato de sua escolha, com uma opção abaixo para gerar a citação em outro formato.
 
 ![Example of a citation on an article page under How to Cite added by the Citation Style Language Plugin.](./assets/learning-ojs-settings-plugin-citation.png)
 
-This is an Installed Plugin and will need to be enabled under Website Settings > Plugins > Installed Plugins.
+Esse é um Plugin Instalado e precisará ser ativado em Configurações do Website > Plugins > Plugins Instalados.
 
-To configure the plugin:
+Para configurar o plugin:
 
-* Click the blue arrow next to the plugin name
-* Click the **Settings** link that appears below.
+* Clique na seta azul ao lado do nome do plugin;
+* Clique na opção **Configurações**, que aparece abaixo;
 
 ![Citation Style Language Plugin settings button.](./assets/learning-ojs-settings-plugin-citation-2.png)
 
-* Select the Primary citation format you would like to use from the first list, followed by the other citation formats you * would like to be available from the second list
-* Next, you can optionally select a downloadable format to make available to readers to export to bibliography management software
-* You can also add the location of your publication/publisher for citations that require it
-* Click **OK** when you have finished configuring
+* Selecione o formato de citação primária que gostaria de usar da primeira lista, seguido pelos outros formatos de citação que gostaria que estivesse disponível a partir da segunda lista;
+* Em seguida, é possível, opcionalmente, selecionar um formato para download, a ser disponibilizado aos leitores, com a finalidade de exportar dados para o software de gerenciamento de bibliografia;
+* Há ainda a possibilidade de adicionar o local de sua publicação/edição para citações que o exijam;
+* Clique em **OK** quando terminar a configuração.
 
-Now the How to Cite block will appear on every article page in your journal.
+Agora, o bloco Como Citar aparecerá em cada página de artigo em sua revista.
 
-*Please note: The citation style formats are generated by an external library. If you notice an error in a citation format you can file an issue in [the Citation Style Language styles repository on GitHub](https://github.com/citation-style-language/styles).*
+*Observação: Os formatos de estilo de citação são gerados por uma biblioteca externa. Se você notar um erro no formato de citação, pode reportar o problema no repositório de estilos de linguagem, em [Citation Style Language styles repository on GitHub](https://github.com/citation-style-language/styles).*
 
-*You can also add a custom citation style with custom coding.*
+*Você também pode adicionar um estilo de citação personalizado, com codificação personalizada.*
 
-#### Custom Block Plugin
+#### Administração de blocos personalizados
 
-To configure and add custom blocks:
+Para configurar e adicionar blocos personalizados:
 
-* Click Manage Custom Blocks below the plugin name
-* From this screen, click Add Block to create a new block or click Edit or Delete under the block name to manage existing blocks.
-* When adding a new block, enter a name for your block (without spaces or non-alphanumeric characters) and the content to be shown in the sidebar.(**Please note**: this is a required field)
-* The display and order of blocks can be edited from the Sidebar Management section of Dashboard > Settings > Website > Appearance > Setup.
+* Clique em Gerenciar Blocos personalizados, que fica abaixo do nome do plugin;
+* A partir dessa tela, clique em Adicionar bloco, para criar um novo bloco, ou clique em Editar ou Excluir sob o nome do bloco, para gerenciar os blocos existentes;
+* Ao adicionar um novo bloco, digite um nome para ele (sem espaços ou caracteres não alfanuméricos) e o conteúdo a ser mostrado na barra lateral (Observe que este é um campo obrigatório);
+* A exibição e a ordem dos blocos podem ser editadas na seção Gerenciamento da Barra lateral do Painel > Configurar > Website > Aparência > Configurar.
 
-#### Custom Header Plugin
+#### Plugin de Cabeçalho Personalizado
 
-The Custom Header plugin can be used to add custom JavaScript to a header or block. JavaScript is often required to link your site with outside services but cannot be added directly to a field for security reasons.
+O Plugin de Cabeçalho Personalizado pode ser usado para adicionar JavaScript personalizado a um cabeçalho ou bloco. O JavaScript é frequentemente necessário para vincular seu site a serviços externos, mas não pode ser adicionado diretamente a um campo, por razões de segurança.
 
-The plugin can be installed from the Plugin Gallery.
+O plugin pode ser instalado a partir da Galeria de Plugins.
 
-**Example: Use the Custom Header plugin to add a Twitter feed to your sidebar**
+**Como exemplo, use o Plugin de Cabeçalho Personalizado para adicionar um feed do Twitter à sua barra lateral.**
 
-You can add a Twitter feed for your journal, press, or organization to the sidebar of OJS or OMP.
+Você pode adicionar um feed do Twitter para seu jornal, imprensa ou organização na barra lateral do OJS ou OMP.
 
-First, you need to enable and configure the Custom Header plugin, which allows you to add JavaScript code to a custom block:
+Primeiro, você precisa habilitar e configurar o Plugin de Cabeçalho Personalizado, que permite adicionar código JavaScript a um bloco personalizado. Em seguida:
 
-1. Go to Website Settings > Plugins and ensure the Custom Header plugin is installed and enabled
-2. Click the blue arrow next to the plugin name and click the **Settings** button that appears below
-3. Paste the following into the Header Content field:
+1. Vá a Configurações do Website > Plugins e garanta que o plugin de Cabeçalho Personalizado esteja instalado e habilitado;
+2. Clique na seta azul ao lado do nome do plugin e, depois, no botão **Configurações**, que aparece abaixo,
+3. Cole o seguinte no campo Conteúdo do Cabeçalho:
 ```html
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
-4. Click **OK** to save it
+4. Clique em **OK** para salvar.
 
-Next, you need to create a custom block:
+Em seguida, você precisa criar um bloco personalizado:
 
-1. Go to the Installed Plugins again and enable the Custom Block Manager plugin
-2. Click the blue arrow next to the plugin name and click **Manage Custom Blocks** below it
-3. Click **Add Block**
-4. Give the block a name, such as “Twitter”
-5. Above the **Content** field, click the **Source Code** button
-6. In the pop-up box that appears, paste the following content - except use your own Twitter account link and name:
+1. Vá aos Plugins Instalados novamente e ative o plugin Administração de blocos personalizados;
+2. Clique na seta azul ao lado do nome do plugin e, na sequência, em **Gerenciar Blocos Personalizados** abaixo dele;
+3. Clique em **Adicionar bloco**;
+4. Dê um nome ao bloco, como "Twitter";
+5. Acima do campo **Conteúdo**, clique no botão **Código Fonte**;
+6. Na caixa pop-up que aparece, cole o seguinte conteúdo (não use seu próprio link e nome de conta no Twitter):
 ```html
 <a class="twitter-timeline" href="https://twitter.com/asmecher?ref_src=twsrc%5Etfw">Tweets by asmecher</a>
 ```
-7. Additional custom timeline parameters can be added if you want, e.g:
+7. Os parâmetros de linha do tempo personalizados adicionais podem ser adicionados, se você quiser, por exemplo:
 ````html
 <a class="twitter-timeline" "data-tweet-limit="3" ...
 ````
-8. Click **Save**
+8. Clique em **Salvar**.
 
-Finally, you have to add the custom block you just created to your sidebar.
+Por fim, você tem que adicionar o bloco personalizado que acabou de criar à sua barra lateral.
 
-1. Go to Website Settings > Appearance and scroll down to **Sidebar Management**
-2. You should see the Twitter block under **Unselected**
-3. Drag and drop the block over to **Sidebar**. You can drag and drop all your blocks in the desired order.
+1. Vá a Configurações do Website> Aparência e desça para Gerenciamento da **Barra Lateral**;
+2. Veja o bloco do Twitter com a caixa de seleção **vazia**;
+3. Arraste e solte o bloco na **Barra Lateral**. Você pode arrastar e soltar todos os seus blocos na ordem desejada.
 
-Another option is to use the [Twitter sidebar plugin](https://github.com/RBoelter/ojs3-twitter-sidebar). This plugin makes Twitter block for the sidebar.
+Outra opção é usar o plugin da barra lateral do Twitter. Esse [plugin](https://github.com/RBoelter/twitterBlock) leva o bloco Twitter para a barra lateral.
 
 #### Disqus plugin
 
-The [Disqus plugin](https://github.com/ajnyga/disqus) integrates with [Disqus](https://disqus.com) and allows users to add comments to the article pages.
+O plugin [Disqus](https://github.com/ajnyga/disqus) se integra com [Disqus](https://disqus.com) e permite aos usuários adicionar comentários às páginas do artigo.
 
-The Disqus plugin is a third-party plugin and must be installed from its Github repository.
+O plugin Disqus é um plugin de terceiros e deve ser instalado a partir de seu repositório Github.
 
-After you install and enable the plugin, you must register for a Disqus account on the [Disqus website](https://disqus.com). When you register, choose the option to use Disqus on your website. Disqus offers free and paid plans and you must choose a plan when you register.
+Depois de instalar e ativar o plugin, você deve se registrar para criar uma conta Disqus no site [Disqus](https://disqus.com). Ao registrar-se, escolha a opção de usar Disqus em seu site. O Disqus oferece planos gratuitos e pagos, e você deve escolher um deles quando se registrar.
 
-When asked to register your **Website Name**, create a name based on your journal name. This will show up in Disqus feeds, email notifications, and your Community tab. For example, "pkpworkshopsjournal."
+Quando solicitado a registrar seu **nome no website**, crie um baseado no nome de sua revista. Isso aparecerá nos feeds Disqus, nas notificações por e-mail e em sua aba Comunidade. Por exemplo, "pkpworkshopsjournal."
 
-Skip the **Install Disqus** step and go to **Configure Disqus**. Enter your journal url in the **Website URL** field. Enter your comments policy as applicable.
+Pule o passo **Instalar Disqus** e vá a **Configurar Disqus**. Digite a url de seu periódico no campo **URL do site**. Digite sua política de comentários, conforme aplicável.
 
 ![Configure Disqus menu on the Disqus website.](./assets/learning-ojs-3.2-settings-plugin-disqus-configure-disqus.png)
 
-Now you can configure the Disqus plugin on your journal site:
+Agora, você pode configurar o plugin Disqus em seu site de periódico:
 
-1. Go to Website Settings > Plugins
-2. Find the Disqus plugin
-3. Click the blue arrow next to the plugin name and **Settings** that will appear below
-4. Enter the Website Name from your Disqus account in the **Disqus forum's shortname** field
-5. Click **OK**
+1. Vá a Configurações do Website > Plugins;
+2. Encontre o plugin Disqus;
+3. Clique na seta azul ao lado do nome do plugin e das **configurações** que aparecerão abaixo;
+4. Digite o nome do site de sua conta Disqus no campo **Abreviação do fórum Disqus**;
+5. Clique em **OK**.
 
 ![OJS Disqus plugin settings menu with an option to enter a forum's shortname.](./assets/learning-ojs-3.2-settings-plugin-disqus-configure-plugin.png)
 
-After configuring the plugin, if you open one of your article pages, you should see Disqus comments at the bottom. Your users will have to register with Disqus to use the feature.
+Após configurar o plugin, ao abrir uma das páginas de seu artigo, você deverá ver os comentários de Disqus na parte inferior. Seus usuários terão que se registrar em Disqus para usar o recurso.
 
 ![Example of an article page with Disqus comment field at the bottom.](./assets/learning-ojs-3.2-settings-plugin-disqus-comment-on-article.png)
 
 #### Hypothes.is plugin
 
-This plugin adds Hypothes.is integration to the public article view of OJS, permitting annotation and commenting. It currently supports commenting on HTML galleys.
+Esse plugin acrescenta Hypothes.is integração à visão pública do artigo OJS, permitindo anotações e comentários. Atualmente, ele suporta comentar sobre as HTML galleys.
 
-This plugin can be enabled from the Plugin Gallery.
+O hypothes.is pode ser ativado a partir da Galeria de Plugins.
 
-Once enabled, readers will see the hypothes.is tools on the right side of the HTML galley.
+Uma vez habilitado, os leitores verão as ferramentas hypothes.is no lado direito da galeria HTML.
 
 ![Hypothesis view next to an HTML galley with sample text.](./assets/learning-ojs-settings-plugin-hypothesis.png)
 
-You will need a free hypothes.is account in order to participate in public commenting. Specific/Private commenting groups can also be set up. [See hypothes.is](https://web.hypothes.is/help/how-to-create-a-private-group/) for instructions.
+Você precisará de uma conta gratuita em hypothes.is para participar dos comentários do público. Grupos de comentários específicos/privados também podem ser criados. Veja o site [hypothes.is](https://web.hypothes.is/help/how-to-create-a-private-group/) para instruções.
 
-Public annotations and highlights will be visible (if any) once you are signed in.
+As anotações e destaques públicos (se houver) somente serão visíveis se você estiver inscrito.
 
 ![Hypothesis view next to an HTML galley with portions of the sample text highlighted.](./assets/learning-ojs-settings-plugin-hypothesis-2.png)
 
-#### Keyword Cloud plugin
+#### Plugin Nuvem de palavras-chave
 
-This plugin displays a tag cloud of keywords that can be enabled on the sidebar of your journal or press.
+Esse plugin exibe uma nuvem de palavras-chave que podem ser habilitadas na barra lateral de seu periódico ou da editora.
 
 ![Keyword cloud displayed in a journal sidebar.](./assets/learning-ojs-settings-plugin-keyword.png)
 
-This is a 3rd party plugin that will need to be [downloaded from GitHub](https://github.com/lepidus/keywordCloud).
+Trata-se de um plugin de terceiros que deverá ser baixado no repositório do [GitHub](https://github.com/lepidus/keywordCloud).
 
-Once you’ve downloaded the file from GitHub, upload it to your journal and enable it. This will make the keyword cloud available as a block that you can add to the sidebar of your journal.
+Uma vez que você tenha baixado o arquivo do GitHub, carregue-o em seu periódico e ative-o. Essa ação tornará a nuvem de palavras-chave disponível como um bloco que você pode adicionar à barra lateral de seu periódico.
 
-To add the keyword cloud display to your sidebar:
+Para adicionar a nuvem de palavras-chave à sua barra lateral:
 
-1. Go to Settings > Website > Appearance > Sidebar Management
-2. Drag the Keyword Cloud block from the **Unselected** column to the **Sidebar column**
-3. Rearrange the order of the blocks as needed
-4. Click **Save**
+1. Vá a Configurações > Website > Aparência > Gerenciamento da barra lateral;
+2. Arraste a nuvem de palavras-chave da coluna **não selecionada** para a coluna da **Barra Lateral**;
+3. Reorganize a ordem dos blocos conforme necessário;
+4. Clique em **Salvar**.
 
-The cloud will should now appear on the sidebar of your journal site.
+Feito isso, a nuvem deverá aparecer na barra lateral do site de sua revista.
 
-#### Most Read Plugin
+#### Plugin Mais lidos
 
-This plugin creates a “most read articles” section in the journal’s sidebar with the 5 most viewed articles (with links) in the last week, along with the number of views per article.
+Esse plugin cria uma seção "artigos mais lidos" na barra lateral da revista, composta dos 5 artigos mais vistos (com os respectivos links) na última semana  e do número de pontos de visita a cada artigo.
 
 ![Most read of the week list with article titles and links displayed in a journal sidebar.](./assets/learning-ojs-settings-plugin-most-read.png)
 
-This is a 3rd party plugin and the file will need to be [downloaded from GitHub](https://github.com/ajnyga/mostRead).
+O Mais lidos  é um plugin de terceiros que deverá ser baixado no repositório do [GitHub](https://github.com/ajnyga/mostRead).
 
-*This plugin is compatible with OJS version 3.1.2 or higher. It is currently being adapted for OJS 3.2.*
+*Cabe esclarecer que esse plugin é compatível com OJS versão 3.1.2 ou superior e está, atualmente, sendo adaptado para OJS 3.2. Atualmente está sendo adaptado para OJS 3.2.*
 
-Once you’ve downloaded the file from GitHub, upload it to your Journal and enable it. This will create a “Most Read” block that you can add to the sidebar of your journal.
+Tendo baixado o arquivo do GitHub, carregue-o em seu periódico e ative-o. Desse modo, será criado um bloco "Mais Lidos", que você pode adicionar à barra lateral de seu periódico.
 
-To add the Most Read block to your sidebar:
+Para adicionar o bloco "Mais Lidos" à sua barra lateral:
 
-1. Go to Settings > Website > Appearance > Sidebar Management
-2. Drag the Most Read block from the **Unselected** column to the **Sidebar** column
-3. Rearrange the order of the blocks as needed
-4. Click **Save**
+1. Vá a Configurações > Website > Aparência > Gerenciamento da barra lateral;
+2. Arraste o bloco “Mais Lido” da coluna **Não Selecionado** para a coluna **Barra Lateral**;
+3. Reorganize a ordem dos blocos conforme necessário;
+4. Clique em **Salvar**.
 
-The block will now appear on the sidebar of your journal site.
+O bloco agora aparecerá na barra lateral do site de sua revista.
 
-#### Recommend Articles by Author Plugin
+#### Artigos recomendados por Autor
 
-This plugin inserts a list of articles by the same author (with appropriate links) on an article’s abstract page.
+Esse plugin insere uma lista de artigos do mesmo autor (com links apropriados) na página de resumo de um artigo.
 
 ![Most read articles by the same author(s) with a sample article and link.](./assets/learning-ojs-settings-plugin-author-rec.png)
 
-This plugin can be enabled in the Plugin Gallery.
+Esse plugin pode ser habilitado na Galeria de Plugins.
 
-Once it has been enabled, there is no additional configuration required.
+Uma vez ativado, não há necessidade de configuração adicional.
 
-#### Recommend Similar Articles Plugin
+#### Recomendar artigos semelhantes
 
-This plugin inserts a list of similar articles to the article abstract page.
+Esse plugin insere uma lista de artigos similares na página de resumo do artigo.
 
-This plugin can be enabled in the Plugin Gallery.
+Esse plugin pode ser habilitado na Galeria de Plugins.
 
-Once it has been enabled, there is no additional configuration required.
+Uma vez ativado, não há necessidade de configuração adicional.
 
-#### Usage Statistics Plugin
+#### Estatísticas de uso
 
-This plugin displays the number of downloads of an article on the article page.
+Esse plugin exibe o número de downloads de um artigo na página do artigo.
 
 ![Bar graph of article downloads displayed on an artilce page by the Usage Statistics plugin.](./assets/learning-ojs-settings-plugin-usage-stats.png)
 
-To configure the Usage Statistics Plugin, you must be an **Administrator**:
+Para configurar o Plugin de Estatísticas de Uso, você deve ser um **Administrador**:
 
-1. Go to Settings > Website > Plugins.
-2. Under Generic Plugins, find the Usage Statistics Plugin.
-3. Click the blue arrow to the left of the plugin name to make links appear below the plugin.
-4. Click Settings.
-5. Scroll to the bottom of the pop-up box that opens to the section Statistics Display Options.
-6. Check the box beside the Display submission statistics chart for the reader.
-7. Below that you can select whether you would like to display the statistics as a bar or line graph and the maximum number of months to display usage for.
-8. Click Save.
+1. Vá a Configurações > Website > Plugins;
+2. Em Plugins Genéricos, encontre o Plugin de Estatísticas de Uso;
+3. Clique na seta azul à esquerda do nome do plugin para que os links apareçam abaixo do plugin;
+4. Clique em Configurações;
+5. Vá até a parte inferior da caixa pop-up que se abre para a seção Opções de Exibição de Estatísticas;
+6. Marque a caixa ao lado do gráfico Exibir estatísticas de submissão para o leitor;
+7. Abaixo, você pode selecionar se deseja exibir as estatísticas como uma barra ou gráfico de linha e o número máximo de meses para exibir o uso;
+8. Clique em Salvar.
 
 ![Usage Statistics plugin settings with statistics display options.](./assets/learning-ojs-settings-plugin-usage-stats-2.png)
 
-Please note that:
+Por favor, observe que:
 
-* Usage statistics can only be displayed for the current year. The plugin is reset at the beginning of each year.
-* The statistics being displayed indicate the number of times an article was downloaded.
+* As estatísticas de uso só podem ser exibidas para o ano corrente. O plugin é reinicializado no início de cada ano;
+* As estatísticas exibidas indicam o número de vezes que um artigo foi baixado.
 
 ## Static Pages
 
-The **Static Pages plugin** allows you to create new pages on your journal website for additional content - for example, you could create a page that details your open access policies.
+O plugin **Páginas estáticas**  permite que você crie novas páginas em seu website para conteúdo adicional - por exemplo, você poderia criar uma página que detalha suas políticas de acesso aberto.
 
-To use the Static Pages plugin:
+Para usar o plugin Páginas estáticas:
 
-* Go to Website Settings > Plugins and find the Static Pages plugin
-* Enable the plugin by checking the box beside it
-* Refresh the page in your browser. Now you should see a new tab next to **Plugins** called **Static Pages**.
-* Click the **Static Pages** tab
+* Vá a Configurações do site > Plugins e encontrar o plugin de Páginas Estáticas;
+* Habilite o plugin, marcando a caixa ao lado;
+* Atualize a página em seu navegador. Essa ação permitirá ver uma nova aba ao lado de **Plugins**, chamada **Páginas Estáticas**;
+* Clique na aba **Páginas estáticas**;
 
 ![Static Pages tab in the Website Settings menu.](./assets/learning-ojs3.2-website-settings-static-pages-plugin.png)
 
-* Add a new page by clicking **Add Static Page**.
-* Fill in the form that opens with the content you want on the page. The **Path** will be used as part of the page URL and the **Title** will appear as the page title.
+* Adicione uma nova página clicando em **Adicionar página estática**;
+* Preencha o formulário que abre com o conteúdo que você deseja na página. O **Caminho** será usado como parte da URL da página e o **Título** aparecerá como o título da página.
 
 ![Add Static Page menu with a page title and path entered.](./assets/learning-ojs3.2-website-settings-add-static-page.png)
 
-* You can preview the page as you’re working by clicking the **Preview** link at the bottom of the form
-* When you’re finished creating the page, click **Save**
+* Você pode visualizar a página enquanto trabalha clicando no link **Pré-visualização**, na parte inferior do formulário.
+* Quando terminar de criar a página, clique em **Salvar**.
 
-After you create the page you will want to add it to your menu.  Instructions on how to do that are in the above section on **Navigation Menus**.
+Depois de criar a página, é necessário adicioná-la ao seu menu.  As instruções sobre como fazer isso estão na seção acima, sobre **Menus de Navegação**.
 
-To edit a page you created with the plugin:
+Para editar uma página que você criou com o plugin, é preciso:
 
-* Go to Website Settings > Static Pages
-* Click **Edit** next to the page you want to edit
-* You can preview the page as you’re working by clicking the **Preview** link at the bottom of the form
-* When you’re finished editing the page, click **Save**
+* Ir a Configurações do site > Páginas Estáticas;
+* Clicar em **Editar** ao lado da página que você deseja modificar
+* Clicar no link **Pré-visualização**, na parte inferior do formulário, para visualizar a página enquanto trabalha;
+* Clicar em **Salvar** quando você terminar de editar a página.
