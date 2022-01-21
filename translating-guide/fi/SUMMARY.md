@@ -17,6 +17,7 @@
   * [Find the Locale File to Edit](customize-locale.md#find-the-locale-file-to-edit)
   * [Edit the Message Key](customize-locale.md#edit-the-message-key)
   * [Example: Customize Reviewer Recommendations](customize-locale.md#example-customize-reviewer-recommendations)
+  * [Example: Customize the "Current Issue" label on homepage](customize-locale.md#example-customize-the-current-issue-label-on-homepage)
 * [Translate PKP Documentation](translate-documentation.md)
   * [PKP Documentation](./translate-documentation.md#pkp-documentation)
   * [Documentation Translation Workflow](./translate-documentation.md#documentation-translation-workflow)
