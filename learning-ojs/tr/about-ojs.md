@@ -13,6 +13,10 @@ This guide covers OJS version 3.3, released in February 2021, and features signi
 
 ## Background
 
+This PKP School video explains the background on PKP and OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="SQfFGwIK2wI" provider="youtube" title="Video of background on PKP and OJS"%}
+
 *OJS is a journal/web site management/publishing system*. OJS covers all aspects of online journal publishing, from establishing a journal website to operational tasks such as the author's submission process, peer review, editing, publication, archiving, and indexing of the journal. OJS also helps to manage the people aspects of organizing a journal, including keeping track of the work of editors, reviewers, and authors, notifying readers, and assisting with the correspondence.
 
 *OJS is flexible and scalable*. A single installation of OJS can support the operation of one or many journals. Each journal has its own unique URL as well as its own look and feel. OJS can enable a single editor to manage all aspects of a journal and the journal's website, or OJS will support an international team of editors with diverse responsibilities for a journal's multiple sections.
@@ -25,7 +29,7 @@ This guide covers OJS version 3.3, released in February 2021, and features signi
 
 ## OJS Features
 
-OJS includes the following features:
+OJS aşağıdaki özellikleri içerir:
 
 1. OJS is installed locally and controlled locally
 2. Editors configure requirements, sections, review process, etc.
@@ -139,11 +143,11 @@ Navigation menu items with remote URLs can now have different remote URLs for ea
 
 ## Community Contributions
 
-The OJS team encourages contributions from the developer community. If you are interested in getting involved in making OJS even better, we welcome your participation.
+OJS ekibi, geliştirici topluluğun katkılarını teşvik eder. OJS'yi daha da iyi hale getirmekle ilgileniyorsanız, katılımınızı memnuniyetle karşılıyoruz.
 
 Excellent examples of community contributions include the vast array of languages that OJS is available in; and third-party plugins posted to the [community forum](https://forum.pkp.sfu.ca/) and the archived forum page.
 
-We also welcome software testing and bug reporting contributions.
+Ayrıca yazılım testi ve hata raporlama katkılarını da memnuniyetle karşılıyoruz.
 
 ## Support
 
