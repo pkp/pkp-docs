@@ -13,6 +13,10 @@ Este guia cobre o OJS versão 3.3, liberado em fevereiro de 2021, e apresenta me
 
 ## Antecedentes
 
+This PKP School video explains the background on PKP and OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="SQfFGwIK2wI" provider="youtube" title="Video of background on PKP and OJS"%}
+
 *OJS is a journal/web site management/publishing system*. *O OJS é um periódico/site de gerenciamento/sistema de publicação* que cobre todos os aspectos da publicação de um periódico on-line, desde a implementação do site da revista até as tarefas operacionais, como o processo de submissão do artigo pelo autor, a revisão pelos pares, edição, publicação, arquivamento e indexação do periódico. O OJS também ajuda a gerenciar dados pessoais da organização da revista, incluindo o acompanhamento do trabalho dos editores, pareceristas e autores, notificando leitores por meio do auxílio da correspondência.
 
 *OJS é flexível e escalável*. Uma única instalação do OJS pode suportar a operação de uma ou mais revistas. Cada periódico tem seu próprio endereço (URL), assim como a sua aparência. O OJS pode permitir que um único editor gerencie todos os tópicos da revista e seu website, ou apoiar um grupo de editores internacionais com diversas responsabilidades em uma revista de múltiplas seções.
