@@ -8,9 +8,9 @@ descriptions: Instructions for managing assigned reviews as a peer reviewer in O
 # Revisando
 
 {% include video.html id="CINhUa35Jic" provider="youtube" title="Video of the Reviewer's Steps in OJS"%}
-This PKP School video explains how to review an article in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+Este vídeo da PKP School explica como revisar um artigo no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-As a reviewer, you will learn of the review request via email or by checking your dashboard:
+Como revisor, você ficará sabendo da solicitação de revisão por e-mail ou verificando seu painel:
 
 ![The assigned submissions queue in reviewer dashboard](./assets/learning-ojs-3-rev-dashboard.png)
 
@@ -38,7 +38,7 @@ Por meio do link **Ver todos os detalhes da submissão**, uma janela com informa
 
 Observe que nenhum desses campos pode ser editado pelo Avaliador e são fornecidos apenas para ajudá-lo a realizar uma revisão completa.
 
-Close this window and move further down the screen. Feche essa janela e prossiga para baixo na tela, onde consta o cronograma de revisão, incluindo todas as datas relevantes.
+Feche esta janela e mova mais para baixo a tela. A partir daqui, você pode ver o cronograma de revisão, incluindo todas as datas de vencimento relevantes.
 
 A partir desse ponto, você pode recusar ou aceitar a revisão. Se recusar, será excluído do processo. Se aceitar, passará à etapa 2 de revisão, na qual poderá ler todas as diretrizes para avaliadores fornecidas pela revista.
 
