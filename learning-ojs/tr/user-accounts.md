@@ -7,48 +7,60 @@ description: A guide for registering and managing your Open Journal Systems (OJS
 
 # User Account Management
 
-When a user log into the system, they will be taken to their Dashboard. From here, users can change their profile information or account settings, as well as see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow. More information about roles and permissions levels is available in the [Users and Roles chapter](./users-and-roles.md).
+This PKP School video explains the user dashboard in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of the user dashboard in OJS"%}
+
+When a user log into the system, they will be taken to their Dashboard. From here, users can change their profile information or account settings, as well as see all of the functions of the system to which they have access. Örneğin, bir Hakem yalnızca incelemesi için atandığı gönderiyi görürken, Editör editoryal iş akışındaki tüm gönderileri görür. More information about roles and permissions levels is available in the [Users and Roles chapter](./users-and-roles.md).
 
 ## Registering with a Journal
 
-Unregistered visitors to a journal can normally register as a Reader, Author, and/or Reviewer. Journal Managers are able to remove the ability for visitors to self-register, in which case a notice will appear stating that registration is currently closed (see Journal Settings), but Journal Managers can always register users at any time, and for any role.
+This PKP School video explains how to register and log in to a journal in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-To register with a journal, click the Register link on the upper right corner.
+{% include video.html id="kQUTzi2JKiQ" provider="youtube" title="Video of how to register and log in to a journal in OJS"%}
 
-![The Register link at the upper right corner of the journal site.](./assets/learning-ojs-3-registration.png)
+Bir dergiye kayıtlı olmayan ziyaretçiler normalde Okuyucu, Yazar ve/veya Hakem olarak kayıt olabilirler. Dergi Yöneticileri, ziyaretçilerin kendi kendine kayıt olma özelliğini kaldırabilir, bu durumda kayıt sırasında kapalı olduğunu belirten bir bildirim görünür (bkz. Dergi Ayarları), ancak Dergi Yöneticileri her zaman ve herhangi bir rol için kullanıcıları kaydedebilir.
 
-This will open the Registration Form for you to complete with all required information.
+Bir dergiye kayıt olmak için sağ üst köşedeki Kayıt ol linkine tıklayınız.
 
-![The Registration Form.](./assets/learning-ojs-3-registration-form.png)
+![Dergi sitesinin sağ üst köşesindeki Kayıt ol bağlantısı.](./assets/learning-ojs-3-registration.png)
 
-All fields with an asterisk (First Name, Last Name, Affiliation, Country, Email, Username, Password, Repeat Password) are mandatory. If the journal is multilingual, you will need to select your preferred language.
+Bu, gerekli bilgileri doldurmanız için Kayıt Formunu açacaktır.
 
-You will be automatically registered as a Reader and an Author. You will be given the option to register as a Reviewer as well.
+![Kayıt Formu.](./assets/learning-ojs-3-registration-form.png)
 
-You will not be able to self-register for an Editorial Role (e.g., Editor, Section Editor, Copyeditor, Layout Editor, Proofreader, or Journal Manager). If you need to be enrolled at that level, contact a current Journal Manager or Site Administrator.
+Yıldızlı tüm alanlar (Ad, Soyadı, Kurum Bilgisi, Ülke, E-posta, Kullanıcı Adı, Şifre, Şifre Tekrarı) zorunludur. Dergi çok dilliyse, tercih ettiğiniz dili seçmeniz gerekecektir.
+
+Varsayılan olarak Okuyucu ve Yazar olarak kaydedileceksiniz. Size ayrıca bir Gözden Geçiren olarak kayıt olma seçeneği sunulacaktır.
+
+Bir Editoryal Rol (Ör. Editör, Bölüm Editörü, Kopya Editörü, Mizanpaj Editörü, Son Okuyucu veya Dergi Yöneticisi) için kendi kendinize kayıt yaptıramazsınız. Bu seviyede kaydolmanız gerekiyorsa, mevcut bir Dergi Yöneticisi veya Sistem Yöneticisi ile iletişime geçin.
 
 <hr />
 
 ## Viewing and Changing your Profile
 
-To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
+This PKP School video explains how to manage a user profile in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-![The View Profile menu.](./assets/learning-ojs3.1-ed-view-profile.png)
+{% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of how to manage a user profile in OJS"%}
+
+Profilinizi görüntülemek ve düzenlemek için giriş yapın ve sağ üst köşedeki Kullanıcı Adı bağlantısına tıklayın. Profili Görüntüle bağlantısını seçin.
+
+![Profili Görüntüle menüsü.](./assets/learning-ojs3.1-ed-view-profile.png)
 
 From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image (which some journals may publish along with your article or on a list of editors), determine your notification settings, or update your password.
 
-Under **Notifications**, you can configure what kinds of notifications you receive from the journal when events occur, such as a new journal issue is published or there is activity on a submission you're involved in.
+**Bildirimler** altında, yeni bir dergi sayısının yayınlanması veya gönderdiğiniz bir gönderide etkinlik olması gibi olaylar meydana geldiğinde dergiden ne tür bildirimler alacağınızı yapılandırabilirsiniz.
 
 * Check off "Enable these types of notifications" if you want to see a notification of this event on your dashboard when you log in to the site
 * Check off "Do not send me an email for these types of notifications" if you do not want to receive an email notification about this event
 
-![The Notifications tab where you can manage notifications.](./assets/learning-ojs-3-user-notifications.png)
+![Bildirimleri yönetebileceğiniz Bildirimler sekmesi.](./assets/learning-ojs-3-user-notifications.png)
 
-The **API tab** on the user profile allows you to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
+Kullanıcı profilindeki **API sekmesi**, harici uygulamalarla etkileşim kurmak için AOJS'nin REST API'sini kullanmanıza olanak tanır.  Ancak çoğu kullanıcı API'yi kullanmaz ve bu sekmeyi görmezden gelebilir.
 
 ## Resetting your Password
 
-You can reset your password by:
+Şifrenizi şu şekilde sıfırlayabilirsiniz:
 
 1. Logging into the journal
 2. Selecting your username and View Profile from the upper right corner of the screen
@@ -56,9 +68,9 @@ You can reset your password by:
 4. Entering your current password and then your new password twice
 5. Hitting Save
 
-![The password reset screen.](./assets/learning-ojs3.1-ed-change-pw.png)
+![Şifre sıfırlama ekranı.](./assets/learning-ojs3.1-ed-change-pw.png)
 
-Your password is now changed.
+Şifreniz değiştirildi.
 
 ### If you forgot your password
 
