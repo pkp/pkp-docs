@@ -5,83 +5,83 @@ title: Learning Open Journal Systems 3.3 - User Account Management
 description: A guide for registering and managing your Open Journal Systems (OJS) account.
 ---
 
-# User Account Management
+# Gerenciamento de conta de usuário
 
-When a user log into the system, they will be taken to their Dashboard. From here, users can change their profile information or account settings, as well as see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow. More information about roles and permissions levels is available in the [Users and Roles chapter](./users-and-roles.md).
+Quando um usuário loga no sistema, ele é direcionado para seu painel. A partir desse ponto, os usuários podem mudar as informações de perfil ou as configurações da conta, além de visualizar todas as funções do sistema a que tem acesso. A título de exemplo, um Revisor verá apenas as submissões que foram atribuídas a ele, enquanto um Editor verá todas as submissões no fluxo editorial. Mais informações a respeito dos papéis e níveis de permissão estão disponíveis no capítulo [capítulo Usuários e Papéis](./users-and-roles.md).
 
-## Registering with a Journal
+## Cadastrando em um Periódico
 
-Unregistered visitors to a journal can normally register as a Reader, Author, and/or Reviewer. Journal Managers are able to remove the ability for visitors to self-register, in which case a notice will appear stating that registration is currently closed (see Journal Settings), but Journal Managers can always register users at any time, and for any role.
+Visitantes não registrados de um periódico normalmente se cadastram como Leitor, Autor ou Avaliador. Os gerentes de periódicos podem remover a capacidade de auto-registro, e, nesse caso, é exibida uma notícia informando que o  cadastro está atualmente encerrado (ver Configurações de Periódicos), mas os gerentes de periódico sempre podem registrar usuários em qualquer momento, e para qualquer papel.
 
-To register with a journal, click the Register link on the upper right corner.
+Para se cadastrar em um periódico, clique no link “Cadastro”, no canto superior direito.
 
 ![The Register link at the upper right corner of the journal site.](./assets/learning-ojs-3-registration.png)
 
-This will open the Registration Form for you to complete with all required information.
+Isso abrirá o Formulário de Cadastro a ser preenchido com as informações necessárias.
 
 ![The Registration Form.](./assets/learning-ojs-3-registration-form.png)
 
-All fields with an asterisk (First Name, Last Name, Affiliation, Country, Email, Username, Password, Repeat Password) are mandatory. If the journal is multilingual, you will need to select your preferred language.
+Todos os campos com asterisco (Primeiro Nome, Sobrenome, Afiliação, País, E-mail, Nome de Usuário, Senha, Repetir Senha) são obrigatórios. Caso o periódico seja multilíngue, será necessário selecionar a língua de preferência.
 
-You will be automatically registered as a Reader and an Author. You will be given the option to register as a Reviewer as well.
+O usuário é cadastrado automaticamente como Leitor e Autor. Também será dada a opção de se registrar como Avaliador.
 
-You will not be able to self-register for an Editorial Role (e.g., Editor, Section Editor, Copyeditor, Layout Editor, Proofreader, or Journal Manager). If you need to be enrolled at that level, contact a current Journal Manager or Site Administrator.
+Não é permitido ao usuário se registrar para um papel editorial (como Editor, Editor de seção, Editor de Texto, Editor de layout, Revisor ou Gerente de periódico). Se for preciso se inscrever nesse nível, o atual Gerente da Revista ou Administrador do portal deve ser contatado.
 
 <hr />
 
-## Viewing and Changing your Profile
+## Visualizando e alterando seu perfil
 
-To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
+Para visualizar e editar seu perfil, faça login e clique no link de seu nome de usuário no canto superior direito. Escolha a opção “Perfil”.
 
 ![The View Profile menu.](./assets/learning-ojs3.1-ed-view-profile.png)
 
-From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image (which some journals may publish along with your article or on a list of editors), determine your notification settings, or update your password.
+A partir desse ponto, ao escolher as diferentes abas, você pode atualizar detalhes pessoais, informações de contato, mudar seus papéis, adicionar imagem pessoal (publicado por alguns periódicos junto ao artigo ou em uma lista de editores), determinar as configurações de notificação ou atualizar sua senha.
 
-Under **Notifications**, you can configure what kinds of notifications you receive from the journal when events occur, such as a new journal issue is published or there is activity on a submission you're involved in.
+Em **Notificações**, você pode configurar que tipos de notificações receberá do periódico na ocorrência de eventos, como a publicação de uma nova edição de periódico ou a ocorrência de atividade em uma submissão na qual você está envolvido.
 
-* Check off "Enable these types of notifications" if you want to see a notification of this event on your dashboard when you log in to the site
-* Check off "Do not send me an email for these types of notifications" if you do not want to receive an email notification about this event
+* Marque “Habilitar esses tipos de notificações”, se quiser ver  a notificação do evento no seu painel quando fizer login no site.
+* Marque “Não me mande um email para esse tipo de notificação” se você não quiser receber uma notificação por e-mail a respeito do evento.
 
 ![The Notifications tab where you can manage notifications.](./assets/learning-ojs-3-user-notifications.png)
 
-The **API tab** on the user profile allows you to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
+A **aba de API**, no perfil do usuário, permite que você use a API REST do OJS para interagir com aplicações externas.  Entretanto, a maioria dos usuários não usa a API e pode ignorar essa aba.
 
-## Resetting your Password
+## Alterando sua senha
 
-You can reset your password by:
+Você pode alterar sua senha da seguinte forma:
 
-1. Logging into the journal
-2. Selecting your username and View Profile from the upper right corner of the screen
-3. Choosing the Password tab
-4. Entering your current password and then your new password twice
-5. Hitting Save
+1. Faça login no periódico;
+2. Selecione seu nome de usuário e “Visualizar Perfil” no canto superior direito da tela;
+3. Selecione a aba “Senha”;
+4. Insira a sua senha atual e em seguida a nova senha, duas vezes;
+5. Clique em “Salvar”.
 
 ![The password reset screen.](./assets/learning-ojs3.1-ed-change-pw.png)
 
-Your password is now changed.
+Sua senha agora foi alterada.
 
-### If you forgot your password
+### Se você esquecer sua senha
 
-Retrieving your password is a three-step process:
+Recuperar sua senha é um processo de três passos:
 
-First you need to request a new password:
+Primeiro você precisa solicitar uma nova senha:
 
-1. Click the **Login** link at the top-right corner of the navigation bar
-2. Click the **Forgot your Password** link on the following page
-3. Enter your email address
-4. Click **Reset Password**
+1. Clique no link de **Login** , no canto superior direito da barra de navegação;
+2. Clique no link **Esqueci a senha**, na página seguinte;
+3. Insira seu endereço de e-mail;
+4. Clique em **Alterar senha**
 
-Then you need to check your email account and confirm your request:
+Em seguida, você deve verificar sua conta de e-mail e confirmar sua solicitação:
 
-1. Open your email account
-2. Open the confirmation email message from the journal (you may need to check your Spam folder)
-3. Click the link to confirm that you did indeed request your password to be reset. You will be taken back to the journal in question, and the system will email you a new password.
+1. Abra sua conta de e-mail;
+2. Abra a mensagem do e-mail de confirmação do periódico (talvez precise checar o diretório de Spam);
+3. Clique no link para confirmar que você de fato solicitou a redefinição de senha. Você será redirecionado de volta ao periódico em questão, e o sistema enviará ao seu e-mail uma nova senha.
 
-Now you can retrieve you new temporary password and log in:
+Agora você pode recuperar sua nova senha temporária e fazer login:
 
-1. Go back to your email account
-2. Open the email message containing your temporary password (you may need to check your Spam folder)
-3. Log in to the journal with your temporary password
-4. Fill in a new password when prompted by the journal
+1. Volte à sua conta de e-mail;
+2. Abra a mensagem de e-mail que contém sua senha temporária (talvez precise checar o diretório de Spam);
+3. Faça login no periódico com sua senha temporária;
+4. Faça login no periódico com sua senha temporária;
 
-If you need further assistance, contact the journal's editorial team. A list of contacts should be available on the **About** page.
+Se precisar de mais assistência, contate a equipe editorial do periódico. Uma lista de contatos deve estar disponível na página **Sobre**.
