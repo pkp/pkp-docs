@@ -11,7 +11,7 @@ As Configurações do Website permitem configurar o aspecto e funcionamento do w
 
 ## Aparência
 
-This PKP School video explains how to configure your journal's appearance in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo do PKP School explica como configurar a aparência do seu diário no OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="4i5uRgzFHfg" provider="youtube" title="Video of how to configure your journal's appearance in OJS"%}
 
@@ -36,7 +36,7 @@ Agora, com os temas disponíveis, volte à guia Aparência e experimente os dife
 5. Abra a página inicial do site em uma nova aba ou guia do navegador para ver como o site se apresenta com o novo tema e diferentes configurações;
 6. Se as alterações não estiverem ativas, talvez seja necessário limpar o cache no menu Administração.
 
-As of OJS/OMP/OPS 3.3, the **Default Theme** has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. [PKP Accessibility Statement](https://docs.pkp.sfu.ca/accessibility-statement/) contains further details.
+A partir do OJS/OMP/OPS 3.3, o **Tema Padrão** foi auditado externamente para acessibilidade e adere às práticas recomendadas, como contraste de cores, navegação pelo teclado e foco de formulário/link. [PKP Accessibility Statement](https://docs.pkp.sfu.ca/accessibility-statement/) contém mais detalhes.
 
 Se desejar fazer pequenas alterações no design e layout do seu site, pode carregar uma folha de estilo de jornal em Definições do site > Aspecto > Avançado.
 
@@ -66,7 +66,7 @@ Em Configurar, você pode carregar imagens (logotipo, miniatura, homepage) na p�
 
 Em Avançado, você pode carregar sua folha de estilo de revista, Favicon e Conteúdo Adiciona por meio das seguintes funções:
 
-- **Folha de estilos da revista**: essa função deve ser usada para carregar uma folha de estilo única para seu periódico. Instructions on modifying the CSS are available in the [Designing Your Journal: Creating a Stylesheet](https://docs.pkp.sfu.ca/designing-your-journal/en/creating-stylesheet) guide.
+- **Folha de estilos da revista**: essa função deve ser usada para carregar uma folha de estilo única para seu periódico. Instruções sobre como modificar o CSS estão disponíveis no guia [Projetando seu diário: criando uma folha de estilo](https://docs.pkp.sfu.ca/designing-your-journal/en/creating-stylesheet).
 
 Se quiser fazer mudanças mais significativas no design ou dar ao seu site um visual inteiramente único, você pode desenvolver seu próprio tema ou subtema. As instruções estão disponíveis no [Guia de Temas PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
@@ -80,7 +80,7 @@ Clique em **Salvar** para armazenar as alterações.
 
 ### Informação
 
-This PKP School video explains how to configure the Information settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo PKP School explica como definir as configurações de informações no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="48qU18uqqkg" provider="youtube" title="Video of how to configure Information settings in OJS"%}
 
@@ -94,7 +94,7 @@ Para remover esses campos e seu conteúdo da exibição pública na interface do
 
 ### Idiomas
 
-This PKP School video explains how to configure the Language settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como definir as configurações de idioma no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="VU5kAPOqNPc" provider="youtube" title="Video of how to configure the language settings in OJS"%}
 
@@ -108,7 +108,7 @@ Em Configurações do Website > Idiomas você pode ver uma lista de idiomas inst
 
 - **UI**: Se você quiser que a interface frontal e traseira da revista esteja disponível em outros idiomas, selecione-os aqui. Habilitando um idioma para a interface do usuário permitirá que os usuários selecionem o idioma da interface do aplicativo. Por exemplo, botões, títulos da página e mensagens na tela estarão no idioma selecionado pelo usuário.
 
-- **Formulários**: trata-se da permissão para que todos os idiomas selecionados estejam disponíveis para o preenchimento dos formulários on-line. Enabling a language for forms will allow text boxes to support multilingual data entry, including the Publication tab for submissions. Por exemplo, as configurações e os metadados de configuração podem ser inseridos em vários idiomas.
+- **Formulários**: trata-se da permissão para que todos os idiomas selecionados estejam disponíveis para o preenchimento dos formulários on-line. Ativar um idioma para formulários permitirá que as caixas de texto ofereçam suporte à entrada de dados multilíngue, incluindo a guia Publicação para envios. Por exemplo, as configurações e os metadados de configuração podem ser inseridos em vários idiomas.
 
 - **Submissões**: função que permite autorizar os autores a fazerem submissões em outros idiomas. Caso você acione essa função, permitirá que os autores adicionem metadados nos idiomas selecionados ao fazerem o upload de sua submissão.
 
@@ -118,7 +118,7 @@ Atenção: se permitir que vários idiomas apareçam na interface de usuário, c
 
 ### Menus de navegação
 
-This PKP School video explains how to configure the Navigation settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo PKP School explica como definir as configurações de navegação no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="OJL-XEgzhYU" provider="youtube" title="Video of how to configure navigation settings in OJS"%}
 
@@ -144,7 +144,7 @@ Clique em Salvar para gravar as mudanças.
 
 ### Notícias
 
-This PKP School video explains how to configure the Announcements settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo do PKP School explica como definir as configurações de anúncios no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="OmiDQGX4SGs" provider="youtube" title="Video of how to configure announcements settings in OJS"%}
 
@@ -156,7 +156,7 @@ Esta seção permite a você criar e exibir notícias no website da revista.
   - **Introdução**: digite qualquer informação geral que você gostaria que aparecesse em sua página de anúncios;
   - **Exibir na página inicial**: digite o número de anúncios a serem exibidos na homepage. Se essa opção for deixada em branco, nenhum anúncio será exibido.
 
-Uma vez ativado o ajuste de Notícias, clique em "Salvar". Um item do menu "Notícias" aparecerá na navegação principal, no lado esquerdo. Click on this menu item and select "Add Announcement." Clique nesse item de menu, selecione "Incluir notícia" e inclua (se quiser) o título do notícia, uma breve descrição e/ou texto completo do anúncio e uma data (opcional) de expiração. Se deseja enviar uma notificação por e-mail a todos os usuários (que não optaram por não receber notificações por e-mail), selecione "Enviar e-mail de notificação para todos os usuários registrados". O anúncio aparecerá em uma guia "Notícias", no site do periódico, voltado ao público.
+Uma vez ativado o ajuste de Notícias, clique em "Salvar". Um item do menu "Notícias" aparecerá na navegação principal, no lado esquerdo. Clique neste item de menu e selecione "Adicionar anúncio". Aqui você pode incluir o título do anúncio, uma breve descrição e/ou texto completo do anúncio e uma data de expiração (opcional). Se deseja enviar uma notificação por e-mail a todos os usuários (que não optaram por não receber notificações por e-mail), selecione "Enviar e-mail de notificação para todos os usuários registrados". O anúncio aparecerá em uma guia "Notícias", no site do periódico, voltado ao público.
 
 ![OJS 3.3 Announcements menu enabled in the sidebar with an option to add and edit announcements.](./assets/learning-ojs3.3-settings-website-announcements.png)
 
