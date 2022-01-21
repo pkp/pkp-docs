@@ -15,6 +15,7 @@ Please see [How Languages and Locales Work](https://docs.pkp.sfu.ca/translating-
 ## Install and Enable the Custom Locale Plugin
 
 First, ensure that the plugin is installed and enable it:
+
 1. Go to Settings > Website > Plugins
 2. Find the Custom Locale Plugin in the list of Installed Plugins (if it is not listed with the Installed Plugins, check the Plugin Gallery and you may need to install it first)
 3. Click the box to enable it
@@ -39,15 +40,18 @@ An additional tricky thing to keep in mind is that every installation of OJS, OM
 Finally, keep in mind that locales and message keys can change between different versions of PKP software.
 
 ## Find the Locale File to Edit
+
 Because the message keys are saved in multiple different files and you can only search within a file, before you can edit a message key you need to figure out which file it is in. There are a few different ways to do this.
 
 ### Guess
+
 Thinking about the above information about how locale files are organized, you can make a guess about which file the message key is in. Find the locale file in the list under the Locales tab and then follow the instructions below on how to edit the message key.
 
 You may need to search in more than one file before you find the message key. And you may not be able to find it by guessing and have to use another method.
 
-### Search the locale files in Github
-PKP’s Github repository contains sets of all of the locale files that are in your installation. So you can search the repository for the message key, identify which file it is in, and then search for the message key in the file on your installation.
+### Search the locale files in GitHub
+
+PKP’s GitHub repository contains sets of all of the locale files that are in your installation. So you can search the repository for the message key, identify which file it is in, and then search for the message key in the file on your installation.
 
 As explained above, the relevant locale file may be in the pkp-lib repository or the ojs/omp/ops repository.
 
@@ -55,26 +59,34 @@ Go to the [pkp-lib repository](https://github.com/pkp/pkp-lib) and search for th
 
 So, if you want to customize the English text for “Decline Submission,” you can do the following search: “decline submission” locale
 
-You can also use the search tools to make a more specific search query.  For example, if you are searching for the message key “current issue” in an English locale file you could go to https://github.com and do the following search: org:pkp "Current Issue" path:locale/en_US language:"Gettext Catalog"
+You can also use the search tools to make a more specific search query.  For example, if you are searching for the message key “current issue” in an English locale file you could go to [GitHub](https://github.com) and do the following search:
+
+org:pkp "Current Issue" path:locale/en_US language:"Gettext Catalog"
 
 If you don’t find the text in the pkp-lib repository, try searching in the [ojs repository](https://github.com/pkp/ojs)
 
 In your list of search results, refine the results to **Code** and find the right locale file in the results.
 
-![Search results in Github repository, refined by Code.](./assets/translating-guide-github-locale-keys-search-results.png)
+![Search results in GitHub repository, refined by Code.](./assets/translating-guide-github-locale-keys-search-results.png)
 
-Note of the locale file name so you can find it in the Custom Locale Plugin interface. Skip to the section _____ below.
+Note the locale file name so you can find it in the Custom Locale Plugin interface. Find out more about the plugin [in the section below](#how-the-custom-locale-plugin-works).
 
 ### Search with command-line tools
 
 You can also search using command-line tools on your server (or development machine).
 
 For example, if you are searching for the message key “current issue” in an English locale file you could use the following command:
-```
+
+```bash
 $ find . -name \*.po -exec fgrep -l "\"Current Issue\"" "{}" ";"
 ```
 
-You would get the following result, which would indicate the text could appear in those two files: ./locale/en_US/editor.po ./locale/en_US/locale.po
+You would get the following result, which would indicate the text could appear in those two files:
+
+```
+./locale/en_US/editor.po
+./locale/en_US/locale.po
+```
 
 ## Edit the Message Key
 
@@ -84,14 +96,8 @@ Now that you have determined which locale file the message key is in, you can ed
 2. Go to Website Settings > Locales
 3. Find the locale file you identified in the previous search exercise
 4. Click **Edit** next to the locale file name to open it
-5. Enter the message key you want to customize in the **Search** box and click **Search**
-
-![Interface to edit a message key.](./assets/translating-guide-search-locale-file.png)
-
-6. In the empty box, enter what you would like the customized text to say. It will turn yellow as you type, to indicate you are making a customization.
-
-![The edited message key, displayed next to the default text.](./assets/translating-guide-customize-locale-key.png)
-
+5. Enter the message key you want to customize in the **Search** box and click **Search** ![Interface to edit a message key.](./assets/translating-guide-search-locale-file.png)
+6. In the empty box, enter what you would like the customized text to say. It will turn yellow as you type, to indicate you are making a customization. ![The edited message key, displayed next to the default text.](./assets/translating-guide-customize-locale-key.png)
 7. Click **Save and Continue**
 
 Now you can visit the part of your site where the customized text appears and check that the change has been made.
@@ -100,22 +106,26 @@ Now you can visit the part of your site where the customized text appears and ch
 
 A commonly requested customization that can be done with the Custom Locale plugin is customizing the reviewer recommendation options. The default options are Accept, Revisions Required, Resubmit for Review, Resubmit Elsewhere, Decline, and See Comments. With the Custom Locale plugin you can change these options but you cannot add or remove an option. This section will explain how to customize the options. Make sure the Custom Locale plugin is installed and enabled before you begin these steps.
 
-**Open the locale file to edit
-
-1. On your OJS journal site, logged in to the dashboard as a Journal Manager, Editor, or Administrator, go to Website Settings > Locales.
-2. Click **Edit** next to the file locale/en_US/locale.po and search for reviewer.article.decision in the Search box.
-
-![List of locale keys in the locale.po file, filtered by a search for reviewer.article.decision.](./assets/translating-guide-search-locale-keys.png)
-
-You will now see the review recommendation options, each as a separate key.
-
-3. Enter the custom text that you would like to replace the default text in the blank box.
-
-![Reviewer recommendation locale keys with custom text.](./assets/translating-guide-custom-reviewer-recommendations.png)
-
+1. On your OJS journal site, logged in to the dashboard as a Journal Manager, Editor, or Administrator, go to **Website Settings > Locales**.
+2. Click **Edit** next to the file **locale/en_US/locale.po** and search for **reviewer.article.decision** in the Search box. ![List of locale keys in the locale.po file, filtered by a search for reviewer.article.decision.](./assets/translating-guide-search-locale-keys.png) You will now see the review recommendation options, each as a separate key.
+3. Enter the custom text that you would like to replace the default text in the blank box. ![Reviewer recommendation locale keys with custom text.](./assets/translating-guide-custom-reviewer-recommendations.png)
 4. Once you have added custom text for the options you want to customize, click **Save and Continue.**
 5. Click **Cancel** to close the editing box.
 
 Now you can log in as a reviewer and check the review submission form to see the new options.
 
 ![Review submission form, showing the custom reviewer recommendation options.](./assets/translating-guide-custom-reviewer-recommendations-changed.png)
+
+## Example: Customize the "Current Issue" label on homepage
+
+Changing the "Current Issue" label on homepage to "Current Articles" or "Current Publications" is a common request by journals that use OJS for continuous publishing.
+
+This section will explain how to customize this label. Make sure the Custom Locale plugin is installed and enabled before you begin these steps.
+
+1. On your OJS journal site, logged in to the dashboard as a Journal Manager, Editor, or Administrator, go to **Website Settings > Locales**.
+2. Click **Edit** next to the file **locale/en_US/locale.po** and search for **journal.currentIssue** in the Search box.
+3. Enter your preferred custom label to replace the default text in the blank box, for example "Current Publications". ![Current issue label changed to Current Publications.](./assets/Custom_locale_plugin_edit_current_issue.png)
+4. Once you have added custom text, click **Save and Continue.**
+5. Click **Cancel** to close the editing box.
+
+Your changes should be reflected on the journal's homepage. To revert the changes, remove the custom text you added above.
