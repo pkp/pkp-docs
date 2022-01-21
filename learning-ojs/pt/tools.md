@@ -15,7 +15,7 @@ Ferramentas é constituída das abas Importação/Exportação, Gerador de Relat
 
 {% include video.html id="_nm1dGIZS8Y" provider="youtube" title="Video of setting up a journal in OJS 3.3. Module 18: Plugins- QuickSubmit"%}
 
-This PKP School video explains how to use the Quick Submit Plugin to add complete submissions to an issue. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to use the Quick Submit Plugin to add complete submissions to an issue. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 ## Importar/Exportar
 
@@ -35,7 +35,7 @@ Para mais informações sobre o Plugin de Exportação Crossref XML, veja o [Gui
 
 {% include video.html id="_nm1dGIZS8Y" provider="youtube" title="Video of setting up a journal in OJS 3.3. Module 18: Plugins- QuickSubmit"%}
 
-This PKP School video explains how to use the Quick Submit Plugin to add complete submissions to an issue. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo do PKP School explica como usar o plug-in de envio rápido para adicionar envios completos a um problema. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 O Plugin Submissão Rápida permite adicionar rapidamente submissões completas a um número. Ele fornece um processo de submissão de uma etapa para editores que estão precisando desviar a submissão tradicional, revisão, e processo de edição.
 
