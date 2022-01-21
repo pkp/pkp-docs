@@ -105,10 +105,8 @@ Now you can visit the part of your site where the customized text appears and ch
 
 A commonly requested customization that can be done with the Custom Locale plugin is customizing the reviewer recommendation options. The default options are Accept, Revisions Required, Resubmit for Review, Resubmit Elsewhere, Decline, and See Comments. With the Custom Locale plugin you can change these options but you cannot add or remove an option. This section will explain how to customize the options. Make sure the Custom Locale plugin is installed and enabled before you begin these steps.
 
-**Open the locale file to edit
-
-1. On your OJS journal site, logged in to the dashboard as a Journal Manager, Editor, or Administrator, go to Website Settings > Locales.
-2. Click **Edit** next to the file locale/en_US/locale.po and search for reviewer.article.decision in the Search box.
+1. On your OJS journal site, logged in to the dashboard as a Journal Manager, Editor, or Administrator, go to **Website Settings > Locales**.
+2. Click **Edit** next to the file **locale/en_US/locale.po** and search for **reviewer.article.decision** in the Search box.
 
 ![List of locale keys in the locale.po file, filtered by a search for reviewer.article.decision.](./assets/translating-guide-search-locale-keys.png)
 
@@ -124,3 +122,21 @@ You will now see the review recommendation options, each as a separate key.
 Now you can log in as a reviewer and check the review submission form to see the new options.
 
 ![Review submission form, showing the custom reviewer recommendation options.](./assets/translating-guide-custom-reviewer-recommendations-changed.png)
+
+## Example: Customize the "Current Issue" label on homepage
+
+Changing the "Current Issue" label on homepage to "Current Articles" or "Current Publications" is a common request by journals that use OJS for continuous publishing.
+
+This section will explain how to customize this label. Make sure the Custom Locale plugin is installed and enabled before you begin these steps.
+
+1. On your OJS journal site, logged in to the dashboard as a Journal Manager, Editor, or Administrator, go to **Website Settings > Locales**.  
+2. Click **Edit** next to the file **locale/en_US/locale.po** and search for **journal.currentIssue** in the Search box.
+
+3. Enter your preferred custom label to replace the default text in the blank box, for example "Current Publications".
+
+![Current issue label changed to Current Publications.](./assets/Custom_locale_plugin_edit_current_issue.png)
+
+4. Once you have added custom text, click **Save and Continue.**  
+5. Click **Cancel** to close the editing box.
+
+Your changes should be reflected on the journal's homepage. To revert the changes, remove the custom text you added above.
