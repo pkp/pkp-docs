@@ -7,9 +7,17 @@ description: A guide for registering and managing your Open Journal Systems (OJS
 
 # Gerenciamento de conta de usuário
 
+This PKP School video explains the user dashboard in OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of the user dashboard in OJS"%}
+
 Quando um usuário loga no sistema, ele é direcionado para seu painel. A partir desse ponto, os usuários podem mudar as informações de perfil ou as configurações da conta, além de visualizar todas as funções do sistema a que tem acesso. A título de exemplo, um Revisor verá apenas as submissões que foram atribuídas a ele, enquanto um Editor verá todas as submissões no fluxo editorial. Mais informações a respeito dos papéis e níveis de permissão estão disponíveis no capítulo [capítulo Usuários e Papéis](./users-and-roles.md).
 
 ## Cadastrando em um Periódico
+
+This PKP School video explains how to register and log in to a journal in OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="kQUTzi2JKiQ" provider="youtube" title="Video of how to register and log in to a journal in OJS"%}
 
 Visitantes não registrados de um periódico normalmente se cadastram como Leitor, Autor ou Avaliador. Os gerentes de periódicos podem remover a capacidade de auto-registro, e, nesse caso, é exibida uma notícia informando que o  cadastro está atualmente encerrado (ver Configurações de Periódicos), mas os gerentes de periódico sempre podem registrar usuários em qualquer momento, e para qualquer papel.
 
@@ -30,6 +38,10 @@ Não é permitido ao usuário se registrar para um papel editorial (como Editor,
 <hr />
 
 ## Visualizando e alterando seu perfil
+
+This PKP School video explains how to manage a user profile in OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of how to manage a user profile in OJS"%}
 
 Para visualizar e editar seu perfil, faça login e clique no link de seu nome de usuário no canto superior direito. Escolha a opção “Perfil”.
 
