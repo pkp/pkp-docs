@@ -81,7 +81,7 @@ A página Gerador de relatórios (Report Generator) fornece acesso a uma varieda
 O sistema gera relatórios que rastreiam os detalhes associados ao uso do site e envios durante um determinado período de tempo. Esses relatórios podem ser amplamente agrupados em relatórios de “uso”, que contêm métricas de uso indicativas de leitores visitantes, e relatórios de “conteúdo”, que fornecem dados sobre o respectivo item (por exemplo, informações de revisão). Os relatórios são gerados em formato CSV, que requer um aplicativo de planilha para visualização.
 
 * Relatório de estatísticas de uso de PKP: fornece métricas granulares de uso diário para todos os artigos, arquivos de artigos, edições e visualizações/downloads da página inicial. Incluirá os dados do país do visitante, se estiverem sendo registrados. Consulte o Relatório de estatísticas de uso abaixo para obter mais informações e exemplos. (Uso)
-* Relatório de assinaturas: fornece informações sobre quaisquer assinaturas individuais e institucionais. Esta opção de relatório só está disponível se as assinaturas estiverem habilitadas no periódico. (Content)
+* Relatório de assinaturas: fornece informações sobre quaisquer assinaturas individuais e institucionais. Esta opção de relatório só está disponível se as assinaturas estiverem habilitadas no periódico. (Conteúdo)
 * Relatório de artigos: fornece uma planilha de todos os artigos publicados. (Contente)
 * Relatórios COUNTER: fornece relatórios COUNTER para todos os periódicos no aplicativo OJS. Também fornece contagens agregadas mensais e anuais para visualização de resumo e artigos. (Uso)
 * Relatório de revisão: fornece informações de revisão sobre todos os artigos do sistema, incluindo nomes de revisores, revisões e recomendações. (Conteúdo)
@@ -130,10 +130,10 @@ No exemplo abaixo, é possível ver que o artigo 95, “The Making of the Canadi
 
 Use este recurso para produzir seus próprios relatórios. Esses relatórios fornecem dados granulares, em visualizações diárias, para o periódico, usando o conjunto de dados de métricas completo. Você pode agregar resultados por:
 
-* Country
+* País
 * Região
 * Cidade
-* Month
+* Mês
 * Dia
 
 As métricas são rastreadas em relação aos tipos de itens específicos (AKA "objetos"):
