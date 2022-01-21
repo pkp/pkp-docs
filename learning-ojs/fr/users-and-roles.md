@@ -10,6 +10,10 @@ This section provides information on accessing all of user accounts associated w
 
 ## Utilisateurs
 
+This PKP School video explains how to manage users in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="_AAtxnFEodQ" provider="youtube" title="Video of how to manage users in OJS"%}
+
 En plus de gérer le site Web de la revue, le/la Directeur/trice de la Revue est également responsable de tous les comptes utilisateurs du système.
 
 Pour afficher les comptes d'utilisateurs, sélectionnez Utilisateurs et Rôles dans le menu de gauche.
@@ -144,6 +148,10 @@ Si l'utilisateur/trice ne parvient toujours pas à se connecter, son compte a pe
 
 ## Rôles
 
+This PKP School video explains how to manage roles in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="3sqD41OKuFs" provider="youtube" title="Video of how to manage roles in OJS"%}
+
 The OJS workflow revolves around different roles with different permissions and responsibilities for each user, allowing them access to different parts of the workflow. Users in the system must have at least one role. Users can also have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
 
 Each role is first assigned a permission level, which will broadly define what level of access a user has to a particular journal. Roles are then further customized by providing a position name, and granting or restricting access to various stages of the Editorial Workflow.
@@ -201,6 +209,10 @@ Use the _Create New Roles_ link to open a window where you can create a new role
 <hr />
 
 ## Options d'Accès au Site
+
+This PKP School video explains how to configure site options in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="lqf4GmA01PA" provider="youtube" title="Video of how to configure site access options in OJS"%}
 
 This page allows you to determine how readers can access your journal.
 
