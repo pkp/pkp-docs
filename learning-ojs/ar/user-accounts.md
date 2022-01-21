@@ -7,9 +7,17 @@ description: A guide for registering and managing your Open Journal Systems (OJS
 
 # الفصل 12: التحكيم
 
+This PKP School video explains the user dashboard in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of the user dashboard in OJS"%}
+
 When a user log into the system, they will be taken to their Dashboard. From here, users can change their profile information or account settings, as well as see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow. More information about roles and permissions levels is available in the [Users and Roles chapter](./users-and-roles.md).
 
 ## Registering with a Journal
+
+This PKP School video explains how to register and log in to a journal in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="kQUTzi2JKiQ" provider="youtube" title="Video of how to register and log in to a journal in OJS"%}
 
 Unregistered visitors to a journal can normally register as a Reader, Author, and/or Reviewer. Journal Managers are able to remove the ability for visitors to self-register, in which case a notice will appear stating that registration is currently closed (see Journal Settings), but Journal Managers can always register users at any time, and for any role.
 
@@ -30,6 +38,10 @@ You will not be able to self-register for an Editorial Role (e.g., Editor, Secti
 <hr />
 
 ## معاينة ملفك الشخصي وتعديله
+
+This PKP School video explains how to manage a user profile in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of how to manage a user profile in OJS"%}
 
 To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
 
