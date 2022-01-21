@@ -160,7 +160,7 @@ Uma vez ativado o ajuste de Notícias, clique em "Salvar". Um item do menu "Not�
 
 ![OJS 3.3 Announcements menu enabled in the sidebar with an option to add and edit announcements.](./assets/learning-ojs3.3-settings-website-announcements.png)
 
-This PKP School video explains how to configure the Website settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como definir as configurações do site no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="3vAR6lu-4DE" provider="youtube" title="Video of how to configure website settings in OJS"%}
 
@@ -180,7 +180,7 @@ Essa opção permite a configuração de diferentes formatos de datas e horário
 
 ## Plugins
 
-This PKP School video explains how to configure Plugins in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo do PKP School explica como configurar Plugins no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="PMAsXY_tLMU" provider="youtube" title="Video of how to configure plugins in OJS"%}
 
@@ -228,7 +228,7 @@ Como alguns dos plugins abaixo são plugins de terceiros, pode ser necessário b
 
 Observe que como o PKP não mantém plugins de terceiros, não podemos garantir que ele funcionará com sua versão do OJS.
 
-#### AddThis Plugin
+#### Adicionar Este Plugin
 
 O [AddThis](https://www.addthis.com/) permite o fácil compartilhamento em mídias sociais ao integrar ferramentas para várias plataformas em um conjunto compacto de botões configuráveis. O plugin integra o AddThis no OJS/OMP para compartilhamento rápido do conteúdo publicado.
 
@@ -332,7 +332,7 @@ Por fim, você tem que adicionar o bloco personalizado que acabou de criar à su
 
 Outra opção é usar o plugin da barra lateral do Twitter. Esse [plugin](https://github.com/RBoelter/twitterBlock) leva o bloco Twitter para a barra lateral.
 
-#### Disqus plugin
+#### Plugin Disqus
 
 O plugin [Disqus](https://github.com/ajnyga/disqus) se integra com [Disqus](https://disqus.com) e permite aos usuários adicionar comentários às páginas do artigo.
 
@@ -360,7 +360,7 @@ Após configurar o plugin, ao abrir uma das páginas de seu artigo, você dever�
 
 ![Example of an article page with Disqus comment field at the bottom.](./assets/learning-ojs-3.2-settings-plugin-disqus-comment-on-article.png)
 
-#### Hypothes.is plugin
+#### Plugin Hypothes.is
 
 Esse plugin acrescenta Hypothes.is integração à visão pública do artigo OJS, permitindo anotações e comentários. Atualmente, ele suporta comentar sobre as HTML galleys.
 
@@ -458,7 +458,7 @@ Por favor, observe que:
 * As estatísticas de uso só podem ser exibidas para o ano corrente. O plugin é reinicializado no início de cada ano;
 * As estatísticas exibidas indicam o número de vezes que um artigo foi baixado.
 
-## Static Pages
+## Páginas estáticas
 
 O plugin **Páginas estáticas**  permite que você crie novas páginas em seu website para conteúdo adicional - por exemplo, você poderia criar uma página que detalha suas políticas de acesso aberto.
 
