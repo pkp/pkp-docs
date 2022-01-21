@@ -5,112 +5,112 @@ title: Learning Open Journal Systems 3.3 - Tools
 description: A guide to using the Tools menu in OJS, including Import/Export functions and QuickSubmit.
 ---
 
-# Tools
+# Ferramentas
 
-The Tools section can be accessed from the left sidebar menu.
+A seção ferramentas pode ser acessada do menu da barra lateral esquerda.
 
-![Tools side menu options](./assets/learning-ojs3.2-jm-users-tools.png)
+![learning-ojs3.2-jm-users-tools.png](./assets/learning-ojs3.2-jm-users-tools.png)
 
-Tools consist of an Import/Export tab, a Report Generator tab (called Statistics in OJS 3.1.1 and earlier), and a Permissions tab.
-
-{% include video.html id="v3zjjVFYAyc" provider="youtube" title="Video of setting up a journal in OJS 3.3. Module 14: Tools"%}
-
-This PKP School video explains how to access and use Import/Export tools. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
-
-## Import/Export
-
-Import/Export allows you to easily get data out of your OJS journal and get data into it.
-
-![List of Import/Export plugins available](./assets/learning-ojs3.2-jm-users-tools-import.png)
-
-Some of the tools allow you to export to third-party systems, such as PubMed or the DOAJ. Others allow you to import or export article data.
-
-If you want to export user data, you can find the option to export it as an XML file here. If you prefer your user data in a spreadsheet format, you can download it as a CSV file from **Statistics > Users**.
-
-For detailed instructions on importing and exporting see the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export).
-
-For more information on the Crossref XML Export Plugin, see the [PKP Crossref Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
-
-### Quick Submit Plugin
+Ferramentas é constituída das abas Importação/Exportação, Gerador de Relatórios (denominada Estatísticas no OJS 3.1.1 e anterior) e Permissões.
 
 {% include video.html id="_nm1dGIZS8Y" provider="youtube" title="Video of setting up a journal in OJS 3.3. Module 18: Plugins- QuickSubmit"%}
 
 This PKP School video explains how to use the Quick Submit Plugin to add complete submissions to an issue. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-O plugin de submissão rápida permite incluir rapidamente uma submissão a uma edição. Ele oferece um processo em uma etapa para editores precisando ignorar os processos tradicionais de submissão, avaliação e edição.
+## Importar/Exportar
 
-The Quick Submit Plugin can be used in the following cases:
+Importação/Exportação permite que você obtenha dados da sua revista/periódico OJS facilmente e insira dados nele.
 
-* Journals who are using OJS to display and publish their content without using the editorial workflow
-* Journals that were published using another platform and are migrating to OJS, when a conversion tool for that platform is not available
-* Journals that were originally published in print and have since been digitized
+![learning-ojs3.2-jm-users-tools-import.png](./assets/learning-ojs3.2-jm-users-tools-import.png)
 
-To use this plugin, you will need the following:
+Algumas ferramentas permitem que você exporte para sistemas de terceiros, como a PubMed ou o DOAJ. Outras permitem importar ou exportar dados do artigo.
 
-* To be enrolled as an Editor or Journal Manager
-* A set of ready-to-publish files (e.g., PDFs)
-* All of the metadata for the files (e.g., author names, titles, abstracts, etc.)
+Se você quiser exportar dados do usuário, pode encontrar a opção para exportar como um arquivo de XML. Se preferir seus dados de usuário em formato de planilha, pode baixá-los como arquivo CSV em **Estatísticas > Usuários**.
 
-First, ensure that the Quick Submit Plugin has been installed and enabled for your journal.  You will need to have the Journal Manager role to enable the plugin and the Administrator role to install the plugin.
+Para instruções detalhadas sobre importação e exportação veja o [Guia do Administrador](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export).
+
+Para mais informações sobre o Plugin de Exportação Crossref XML, veja o [Guia Crossref PKP](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
+
+### Dentro de Plugins instalados, procure o Plugin Submissão Rápida;
+
+{% include video.html id="_nm1dGIZS8Y" provider="youtube" title="Video of setting up a journal in OJS 3.3. Module 18: Plugins- QuickSubmit"%}
+
+This PKP School video explains how to use the Quick Submit Plugin to add complete submissions to an issue. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+O Plugin Submissão Rápida permite adicionar rapidamente submissões completas a um número. Ele fornece um processo de submissão de uma etapa para editores que estão precisando desviar a submissão tradicional, revisão, e processo de edição.
+
+O Plugin de Submissão Rápida pode ser usado nos seguintes casos:
+
+* Periódicos que estão usando OJS para exibir e publicar seus conteúdos sem usar o fluxo de trabalho editorial;
+* Periódicos que tenham publicado utilizando outra plataforma e estão migrando para o OJS, quando a ferramenta conversão para esta plataforma não está disponível;
+* Periódicos que foram originalmente publicados impressos e, desde então, têm sido digitalizados.
+
+Para usar esse plugin, você vai precisar do seguinte:
+
+* Estar cadastrado como Editor ou Gerente de periódico;
+* Ter um conjunto de arquivos prontos para publicar (exemplo, PDF);
+* Ter todos os metadados para os arquivos (exemplo, nomes de autores, títulos, resumos, etc.).
+
+Primeiro, assegure que o Plugin Submissão Rápida foi instalado e habilitado no seu periódico.  Você vai precisar ter o papel de gerente do periódico para habilitar o plugin e o papel administrador para instalar o plugin.
 
 ![Settings side menu options with the option for Website selected.](./assets/find-plugins.png)
 
-1. Go to Settings > Website > Plugins
-2. Under Installed Plugins, look for the Quick Submit Plugin.  If you see it listed, skip to step 8.
-3. If you do not see the Quick Submit Plugin under Installed Plugins, go to the Plugin Gallery tab.
-4. Click on Quick Submit. A popup box will open.
-5. Click on Install.  If you do not see the Install button, you will need to ask the Administrator of your site to install the plugin for you.
-6. A popup box will open and ask “Are you sure you wish to install this plugin?”  Click OK and wait a few minutes while the installation completes.
-7. After the plugin has been installed, go back to the Installed Plugins tab and find the Quick Submit Plugin.
-8. Check the box to the right of the plugin name and description to enable the plugin.
+1. Ir a Configurações > Website > Plugins;
+2. Dentro de Plugins instalados, procure o Plugin Submissão Rápida.  Se você ver na lista, pule para a etapa 8.
+3. Caso você não veja o Plugin Submissão Rápida dentro de Plugins instalados, vá à aba Galeria de Plugins;
+4. Clique em Submissão Rápida. Uma caixa pop-up se abrirá;
+5. Clique em Instalar.  Caso não veja o botão Instalar, precisará pedir ao administrador do seu site que instale o plugin para você;
+6. A caixa pop-up se abrirá e perguntará: “Você tem certeza de que deseja instalar esse plugin?”  Clique em OK e espere alguns minutos enquanto completa a instalação;
+7. Depois que o plugin for instalado, volte à aba Plugins instalados e encontre o Plugin Submissão Rápida;
+8. Marque a caixa à direita com a descrição e o nome do plugin para ativá-lo.
 
 ![List of Import/Export plugins from the Installed Plugin tab in Website settings.](./assets/enabled-import-plugins.png)
 
-Next, you will need to create the issues (or issue) that will contain the new articles you are importing.
+Depois, você precisará criar os volumes (ou números) que conterão o novo artigo que está importando.
 
-1. Go to Issues > Future issues and select Create Issue.
-2. Enter metadata for the issue
-3. If the issue is already published you can check off "Published"
-4. Click Save.
-5. Do this for all of the issues you are uploading articles for.
+1. Vá a Edições > Edições Futuras e selecione criar número;
+2. Insira metadados para o número;
+3. Se o número já estiver publicado, você pode marcar “Publicado”;
+4. Clique em Salvar;
+5. Faça isso em todos os volumes para os quais você estiver enviando artigos.
 
 ![Volume 1 Number 1, 2017 issue titled From below created under Future Issue.](./assets/create-issue.png)
 
-Next you can import each article with the Plugin.
+Depois, você pode importar cada artigo com o Plugin:
 
 ![Tools side menu options with Import/Export selected.](./assets/import-plugins.png)
 
-1. Go to Tools > Import/Export and select Quick Submit Plugin.
-2. Upload a cover image if you have one.  This field is optional and can be ignored.
-3. Choose the section of the journal that the article will appear in from the drop-down list in the Section field.
-4. Enter the metadata for the article in the other fields. If you do not see all of the metadata fields you want, go to Workflow Settings > Submission > Submission Metadata to configure what fields should be included in submissions.
-5. Under List of Contributors, click Add Contributor to enter the names of authors and other contributors to the article.
-6. Under Galleys, click Add Galley to upload a PDF file of the article.  A popup box will open where you can enter the Galley Label and language of the galley.  Once you click Save, another box will open where you can select the Article Component and upload the file.
-7. At the end of the Quick Submit Plugin form, you can select whether you want the article you are adding to be published immediately or unpublished if you wish to publish it later. If you select **Published**, you will have to select the issue you would like to publish it in and enter the **Date Published**. You can also optionally enter page numbers and permissions information.
-8. When you have finished entering all data for the article, click Save.
+1. Vá a Ferramentas > Importar/Exportar e selecione Plugin Submissão Rápida;
+2. Faça o upload da imagem da capa, se tiver uma.  Este campo é opcional e pode ser ignorado;
+3. No campo Seção, escolha a seção do periódico em que o artigo aparecerá na lista suspensa;
+4. Insira os metadados do artigo nos outros campos. Caso não veja todos os campos de metadados que deseja, vá a Configurações do fluxo de trabalho > Submissão > Metadados de submissão para configurar quais campos devem ser incluídos nas submissões;
+5. Na Lista de Colaboradores/Coautores, clique em Adicionar/Incluir Colaborador/Coautor para inserir os nomes dos autores e outros colaboradores do artigo;
+6. Em Composição Final, clique em Adicionar Composição Final para fazer o upload do arquivo do artigo em PDF.  Uma caixa pop-up se abrirá para que você insira o Rótulo do formato do arquivo e selecione o Idioma do Rótulo.  Depois de clicar em Salvar, outra caixa se abrirá para que você possa selecionar o Componente do Artigo e carregar o arquivo;
+7. No final do formulário de Submissão Rápida, você pode selecionar se deseja que o artigo que está adicionando seja publicado imediatamente ou não publicado, isto é, se deseja publicá-lo posteriormente. Caso selecione Publicado, terá que selecionar a edição em que gostaria de publicá-lo e inserir a Data de Publicação. Você também pode inserir números de páginas e informações de permissões;
+8. Quando terminar de inserir todos os dados do artigo, clique em Salvar.
 
 ![Submission form on QuickSubmit.](./assets/quick-submit-plugin-2.png)
 
-DOIs are not added with the QuickSubmit Plugin. Instead, you have to add them separately.
+DOIs não são adicionados com o plugin da Submissão Rápida. Em vez disso, você deve adicioná-los separadamente.
 
-To add existing DOIs to articles that have already been assigned:
+Para adicionar DOIs existentes a artigos que já foram atribuídos:
 
-1. Enable and configure the DOI plugin so that you need to "Enter an individual DOI suffix for each published item."
-2. After you finish uploading the article with the QuickSubmit plugin, click “Go to Submission” to go to the article’s submission record. Or go to the article's submission record through the Submissions dashboard.
-3. Open Metadata on the top right and go to the Identifiers tab
-4. Enter the DOI suffix for the article.
-5. Click Save and then Save again to assign the DOI
-6. If you normally assign DOIs using a default pattern, re-configure the DOI plugin for this after you have finished adding DOIs to articles you uploaded with the QuickSubmit plugin
+1. Habilite e configure o plugin DOI para que seja necessário “Inserir um sufixo DOI individual para cada item publicado”;
+2. Depois de terminar de enviar o artigo com o plugin Submissão Rápida, clique em “Ir à submissão” para ir ao registo de submissão do artigo. Você também pode acessar o registro de submissão do artigo por meio do painel de Submissão;
+3. Abra Metadados no canto superior direito e vá à guia Identificadores;
+4. Digite o sufixo DOI para o artigo;
+5. Clique em Salvar e em Salvar novamente para atribuir o DOI;
+6. Se você normalmente atribui DOIs usando uma padronização, reconfigure o plugin DOI para isso depois de terminar de adicionar DOIs aos artigos carregados com o plugin de Submissão Rápida.
 
-To assign new DOIs to articles:
+Para atribuir novos DOIs a artigos:
 
-1. Ensure that the DOI plugin is enabled and configured
-2. After you finish uploading the article with the QuickSubmit plugin, click “Go to Submission” to go to the article’s submission record. Or go to the article's submission record through the Submissions dashboard.
-3. Open Metadata on the top right and go to the Identifiers tab. You should see a preview of the DOI that will be assigned and a checked box next to "Assign the DOI to this article."
-4. Click Save and the DOI will be assigned.
+1. Certifique-se de que o plugin DOI está habilitado e configurado.
+2. Depois de terminar de enviar o artigo com o plugin Submissão Rápida, clique em “Ir à submissão” para ir ao registo de submissão do artigo. Você também pode acessar o registro de submissão do artigo por meio do painel de Submissão;
+3. Abra Metadados no canto superior direito e vá ao guia de Identificadores. Você deve ver uma prévia do DOI que será atribuído e uma caixa marcada ao lado de “Atribuir o DOI a este artigo”.
+4. Clique em Salvar e o DOI será atribuído.
 
-## Permissions
+## Permissões
 
-The Reset Article Permissions tool allows you to reset the copyright statement and license information on all published articles, and will revert it to your journal's current default settings. Take caution when using this tool and consult legal expertise if you are unsure what rights you hold over the articles published in your journal.
+A ferramenta Redefinir Permissões do Artigo permite redefinir a declaração de direitos autorais e as informações de licença em todos os artigos publicados e revertê-los para as configurações padrão atuais de seu periódico. Tome cuidado ao usar esta ferramenta e consulte um especialista jurídico, se não tiver certeza de quais direitos você detém sobre os artigos publicados em seu periódico.
 
 ![Option to reset artile permission in the Tools Permissions tab.](./assets/learning-ojs3.2-jm-users-tools-permissions.png)
