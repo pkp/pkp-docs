@@ -10,6 +10,10 @@ Esta seção fornece informações sobre o acesso a todas as contas de usuário 
 
 ## Administração de Usuários
 
+This PKP School video explains how to manage users in OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="_AAtxnFEodQ" provider="youtube" title="Video of how to manage users in OJS"%}
+
 Além de gerenciar o site da revista, o Gerente da Revista também é responsável por todas as contas dos usuários no sistema.
 
 Para visualizá-las, selecione Usuários e Papéis no menu à esquerda..
@@ -144,6 +148,10 @@ Se o usuário ainda não conseguir fazer o login, sua conta pode ter sido desati
 
 ## Permissões e Papéis
 
+This PKP School video explains how to manage roles in OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="3sqD41OKuFs" provider="youtube" title="Video of how to manage roles in OJS"%}
+
 O fluxo de trabalho OJS gira em torno de diferentes funções com diferentes permissões e responsabilidades para cada usuário, permitindo que eles acessem diferentes partes do fluxo de trabalho. Os usuários no sistema devem ter pelo menos uma função. Os usuários também podem ter mais de uma função, por exemplo, ser Gerente de Revista, Editor e Autor na mesma revista.
 
 A cada função é primeiramente atribuído um nível de permissão, que irá definir amplamente o nível de acesso que um usuário tem a um determinado periódico. As funções são então personalizadas, fornecendo um nome para o cargo e concedendo ou restringindo o acesso a várias etapas do fluxo de trabalho editorial.
@@ -201,6 +209,10 @@ Use o link _Incluir Papel_ para abrir a janela onde você pode criar um novo pap
 <hr />
 
 ## Opções de Acesso ao Site
+
+This PKP School video explains how to configure site options in OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="lqf4GmA01PA" provider="youtube" title="Video of how to configure site access options in OJS"%}
 
 Esta página permite que você determine como os leitores podem acessar sua revista.
 
