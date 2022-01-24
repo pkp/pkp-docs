@@ -80,9 +80,11 @@
 	}
 
 	ol ul,
-	ul ul {
-		margin-top: 1em;
-		margin-bottom: 1em;
+	ul ul,
+	ol ol,
+	ul ol {
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
 	}
 
 	li {
@@ -90,7 +92,7 @@
 	}
 
 	li + li {
-		margin-top: 1em;
+		margin-top: 0.5rem;
 	}
 
 	blockquote {
