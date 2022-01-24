@@ -318,7 +318,6 @@ It's important to test the site after an upgrade. Any core functions for your jo
 
 The following is a short checklist that covers common use cases.
 
-```
 1. Reader interface
     - The homepage loads
     - The theme loads correctly
@@ -354,7 +353,6 @@ The following is a short checklist that covers common use cases.
         - Change new user's profile data and password
         - Remove the new user by merging it to your admin account
 6. Additional testing of common tasks
-```
 
 ### 11. Restore Custom Plugins
 
