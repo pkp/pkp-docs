@@ -4,6 +4,8 @@ version: 3.2
 title: How to Manage Languages in Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
 ---
 
+Note: instructions for configuring the site languages can be found at the [Site Administration guide](https://docs.pkp.sfu.ca/learning-ojs/en/site-administration#languages).
+
 # Manage Languages in PKP Software
 
 ## How Languages and Locales Work
