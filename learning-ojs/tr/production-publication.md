@@ -479,7 +479,7 @@ This will reveal an **Edit** link, which will open a new window of information.
 
 **İçindekiler**: Yeni bir sayı için boş olacaktır, ancak planlanmış gönderiler burada listelenecektir.
 
-Use the blue arrow next to each submission to reveal links to go directly to the submission record (more about this in Chapter 10) or remove it.
+Use the blue arrow next to each submission to reveal links to go directly to the submission record or remove it.
 
 **Sayı Verisi**: Bu, sayıyı oluştururken girdiğiniz cilt, sayı, tarih sayı verilerine erişim sağlar.
 
