@@ -479,7 +479,7 @@ Cela révélera un lien **Modifier** , qui ouvrira une nouvelle fenêtre d'infor
 
 **Table des Matières** : pour un nouveau numéro, ce sera vide, mais pour les numéros pour lesquels des soumissions ont été planifiées, ils seront répertoriés ici.
 
-Utilisez la flèche bleue à côté de chaque soumission pour révéler des liens pour accéder directement à l'enregistrement de soumission (plus à ce sujet dans le chapitre 10) ou supprimez-le.
+Use the blue arrow next to each submission to reveal links to go directly to the submission record or remove it.
 
 **Données du Numéro** : cela permet d'accéder aux données de volume, de numéro et de chiffres que vous avez saisies lors de la création initiale du numéro.
 
