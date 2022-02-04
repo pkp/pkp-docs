@@ -89,7 +89,7 @@ A correção de um documento em PDF requer o Adobe Acrobat Pro. Para mais detalh
 
 HTML é outro formato popular de publicação usado por editores. Ele oferece mais flexibilidade que o PDF para se ajustar a diferentes tamanhos de tela e permitir o uso de multimídia. Tem o potencial de ser mais acessível que o PDF, desde que o documento siga os [princípios gerais de criação de conteúdo acessível](./principles.md#strutura-de-cabeçalhos-de-seções), como cabeçalhos estruturados, uso de texto alternativo etc.
 
-Para instruções sobre como criar e aplicar formatação acessível em documentos HTML, adicionar conteúdo multimídia e enviar composições HTML para publicação no OJS, consulte [Aprendendo o OJS 3 - Capítulo 15: Produção e publicação - Documentos HTML](/learning-ojs/en/production-publication#html-files).
+For instructions on how to create and style HTML galleys, add multimedia content, and upload HTML galleys to OJS, see [Learning OJS 3: Production and Publication - HTML Files](/learning-ojs/en/production-publication#html-files).
 
 ### XML
 
