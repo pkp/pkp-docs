@@ -9,6 +9,8 @@ description: A guide to translating PKP software and documentation, including Op
 
 The PKP Translating Guide is for users who want to create or edit a translation of a Public Knowledge Project (PKP) software application or PKP software documentation. It explains how languages and locales work, how to create new translations and edit existing translations, how to customize a translation locally, and how to work with the translation community.
 
+Instructions for configuring site languages in PKP software can be found in the [Site Administration section of the Learning OJS guide](/learning-ojs/en/site-administration#languages).
+
 Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS) are multilingual. This allows the software interface to be available in different languages and allows journals, presses, and preprint servers to publish in a variety of languages. PKP aims to support English, French, Spanish, and Portuguese translations for OJS. Community members have translated OJS, OMP, and OPS into many additional languages and we welcome contributions at any time. Translations need to be updated each time a new version of the software is released.
 
 Starting with OJS/OMP 3.2, PKP is using Weblate to manage and do translations of OJS and OMP. Previously PKP used the Translator Plugin and direct editing of the XML locale files. [The previous version of the PKP Translating Guide](/translating-guide/3.1/en/) explains how to translate with these tools. This guide explains how to use Weblate, as well as how to customize a translation locally using the Custom Locale Plugin.
