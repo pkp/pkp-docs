@@ -112,7 +112,7 @@ Em Configurações do Website > Idiomas você pode ver uma lista de idiomas inst
 
 - **Submissões**: função que permite autorizar os autores a fazerem submissões em outros idiomas. Caso você acione essa função, permitirá que os autores adicionem metadados nos idiomas selecionados ao fazerem o upload de sua submissão.
 
-Idiomas adicionais podem ser instalados em seu site por um Administrador. Para obter informações detalhadas, consulte o [Chapter 4](./site-administration).
+Additional languages can be installed on your site by an Administrator – see [the Site Administration chapter](./site-administration) for details.
 
 Atenção: se permitir que vários idiomas apareçam na interface de usuário, certifique-se de que, em Configurações do site > Aparência > Configurar> Barra lateral> Alteração de idioma. Somente assim, tornará esse recurso disponível aos usuários.
 
