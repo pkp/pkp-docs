@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Bölüm 15: Üretim ve Yayın
+# Production and Publication
 
 Kopya Düzenleme aşamasının tamamlanmasıyla, gönderi artık Üretim'e taşınır. Burada, kopyalanan dosyalar, dizigi dosyaları (Ön. PDF, HTML) biçiminde yayınlanabilir biçimlere dönüştürülecek ve yayınlanmadan önce düzeltilecektir. Yeni bir dergi sayısı oluşturulacak ve makale bu sayıda yayınlanmak üzere planlanacaktır. Bu bölüm, bu süreçteki adımların yanı sıra, önemli değişiklikler yapılırsa bir makalenin yeni bir sürümünü yayınlamak için OJS 3.2'deki sürüm oluşturma özelliğinin nasıl kullanılacağını açıklar.
 
@@ -470,7 +470,7 @@ This will reveal an **Edit** link, which will open a new window of information.
 
 **Table of Contents**: For a new issue, this will be empty, but for issues that have had submissions scheduled, they will be listed here.
 
-Use the blue arrow next to each submission to reveal links to go directly to the submission record (more about this in Chapter 10) or remove it.
+Use the blue arrow next to each submission to reveal links to go directly to the submission record or remove it.
 
 **Issue Data**: This provides access to the volume, issue, number data you entered when first creating the issue.
 
