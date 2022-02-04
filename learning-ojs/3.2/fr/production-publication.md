@@ -3,7 +3,7 @@ book: apprendre-ojs
 version: 3.2
 ---
 
-# Chapitre 15: Production et Publication
+# Production and Publication
 
 Une fois la phase de révision terminée, la soumission passe maintenant à la production. À partir de là, les fichiers copiés seront convertis en formats publiables sous forme de fichiers épreuves (par exemple, PDF, HTML) et relus avant publication. Un nouveau numéro de revue sera créé et l'article sera publié dans le numéro. This chapter explains the steps in that process, as well as how to use the versioning feature in OJS 3.2 to publish a new version of an article if significant changes are made.
 
@@ -470,7 +470,7 @@ Cela révélera un lien **Modifier** , qui ouvrira une nouvelle fenêtre d'infor
 
 **Table des Matières** : pour un nouveau numéro, ce sera vide, mais pour les numéros pour lesquels des soumissions ont été planifiées, ils seront répertoriés ici.
 
-Utilisez la flèche bleue à côté de chaque soumission pour révéler des liens pour accéder directement à l'enregistrement de soumission (plus à ce sujet dans le chapitre 10) ou supprimez-le.
+Use the blue arrow next to each submission to reveal links to go directly to the submission record or remove it.
 
 **Données du Numéro** : cela permet d'accéder aux données de volume, de numéro et de chiffres que vous avez saisies lors de la création initiale du numéro.
 
