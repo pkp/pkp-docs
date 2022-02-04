@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Chapter 15: Production and Publication
+# Editoração e Publicação
 
 With the completion of the Copyediting stage, the submission now moves to Production. From here, the copyedited files will be converted to publishable formats in the form of galley files (e.g., PDF, HTML) and proofread before publishing. A new journal issue will be created and the article will be scheduled for publication in the issue. This chapter explains the steps in that process, as well as how to use the versioning feature in OJS 3.2 to publish a new version of an article if significant changes are made.
 
@@ -470,7 +470,7 @@ This will reveal an **Edit** link, which will open a new window of information.
 
 **Table of Contents**: For a new issue, this will be empty, but for issues that have had submissions scheduled, they will be listed here.
 
-Use the blue arrow next to each submission to reveal links to go directly to the submission record (more about this in Chapter 10) or remove it.
+Use the blue arrow next to each submission to reveal links to go directly to the submission record or remove it.
 
 **Issue Data**: This provides access to the volume, issue, number data you entered when first creating the issue.
 
