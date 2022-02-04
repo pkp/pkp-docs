@@ -86,7 +86,7 @@ Pour supprimer ces champs et leur contenu de l'affichage public sur l'interface 
 
 OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages on a single site or journal. Lorsque vous installez OJS, vous pouvez sélectionner une ou plusieurs langues pour votre site.
 
-Sous Paramètres du site Web > Langues, vous pouvez voir une liste des langues ou des paramètres régionaux installés sur votre site et configurer la façon dont les langues sont utilisées dans votre journal. Si vous activez l'affichage de plusieurs langues dans l'interface utilisateur, assurez-vous que dans Paramètres du site Web > Apparence > Gestion de la Barre Latérale, le Bloc Toggle de Langue est sélectionné pour rendre cette fonctionnalité disponible aux utilisateurs.
+Sous Paramètres du site Web > Langues, vous pouvez voir une liste des langues ou des paramètres régionaux installés sur votre site et configurer la façon dont les langues sont utilisées dans votre journal. Additional languages can be installed on your site by an Administrator – see [the Site Administration chapter](./site-administration) for details.
 
 ![OJS dashboard view of Languages menu with English and French options, English option selected as primary locale.](./assets/learning-ojs3.1-jm-settings-web-lang.png)
 
