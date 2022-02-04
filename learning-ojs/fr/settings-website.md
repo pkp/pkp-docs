@@ -112,7 +112,7 @@ Sous Paramètres du site Web > Langues, vous pouvez voir une liste des langues o
 
 - **Soumission**: si vous voulez que les auteurs puissent soumettre des soumissions dans d'autres langues, sélectionnez-les ici. This will allow authors to select a language when they make a submission and add metadata in selected languages when uploading their submission.
 
-Si vous activez l'affichage de plusieurs langues dans l'interface utilisateur, assurez-vous que dans Paramètres du site Web > Apparence > Gestion de la Barre Latérale, le Bloc Toggle de Langue est sélectionné pour rendre cette fonctionnalité disponible aux utilisateurs.
+Additional languages can be installed on your site by an Administrator – see [the Site Administration chapter](./site-administration) for details.
 
 Cette section vous permet de configurer vos menus de navigation, par exemple pour inclure de nouveaux liens.
 
