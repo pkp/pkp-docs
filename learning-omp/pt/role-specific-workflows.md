@@ -212,7 +212,7 @@ Alternatively, they can also be uploaded in the __Publication Formats__ in Publi
 
 #### Contacting Author
 
-If your press will be sending proofs to the author for approval, you can use the Notify function in the Participants tab. See [Learning OJS - Chapter 15](/learning-ojs/en/production-publication#contact-the-author) for more details.
+If your press will be sending proofs to the author for approval, you can use the Notify function in the Participants tab. See [Learning OJS - Production and Publication](/learning-ojs/en/production-publication#contact-the-author) for more details.
 
 ### Publication Tabs
 
