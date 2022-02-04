@@ -89,7 +89,7 @@ Remediating a document in PDF requires Adobe Acrobat Pro. For more details see t
 
 HTML, yayıncılar tarafından kullanılan bir başka popüler galeri biçimidir. Farklı ekran boyutlarına uyum sağlamak ve multimedyayı barındırmak için PDF'den daha fazla esneklik sunar. Belge, yapılandırılmış başlıklar, alternatif metin vb. gibi [erişilebilir içerik oluşturmanın genel ilkelerine](./principles.md#headings-structure) uyduğu sürece PDF'den daha erişilebilir olma potansiyeline sahiptir.
 
-HTML dizgileri oluşturma ve stil oluşturma, multimedya içeriği ekleme ve HTML dizgilerini OJS'ye yükleme ile ilgili talimatlar için [Öğrenme ADS 3 - Bölüm 15: Üretim ve Yayın - HTML Dosyaları](/learning-ojs/en/production-publication#html-files)'na bakın.
+For instructions on how to create and style HTML galleys, add multimedia content, and upload HTML galleys to OJS, see [Learning OJS 3: Production and Publication - HTML Files](/learning-ojs/en/production-publication#html-files).
 
 ### XML
 
