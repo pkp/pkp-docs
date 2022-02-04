@@ -41,7 +41,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 **The journal website must display its open access statement. Where can we find this information?** \[**D**\]
 
-* Insira esta informação em Configurações do periódico >  Equipe Editorial > Sobre o periódico. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* Insira esta informação em Configurações do periódico >  Equipe Editorial > Sobre o periódico. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 * Você pode querer criar uma seção na caixa de texto para a Declaração de Acesso Aberto.
 * O exemplo de declaração de Acesso Aberto que o DOAJ fornece é: *"Este é um periódico de acesso aberto, o que significa que todo o conteúdo está disponível gratuitamente para o usuário ou sua instituição. Os usuários têm permissão para ler, baixar, copiar, distribuir, imprimir, pesquisar, ou fazer vincular artigos na íntegra, ou usá-los para qualquer outra finalidade legal, sem pedir permissão prévia do editor ou do autor. Isso está em conformidade com a definição de acesso aberto da Budapest Open Access Initiative (BOAI)."*
 * Se o seu periódico está licenciado sob uma licença Creative Commons, esta declaração de Acesso Aberto é válida para o seu periódico. Para obter instruções sobre onde adicionar sua licença CC, consulte o número 47.
@@ -50,7 +50,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 **6) Editora** [ **D** ]
 
-* Adicione o título em Configurações do periódico > Equipe Editorial. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
+* Adicione o título em Configurações do periódico > Equipe Editorial. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 
 **4) ISSN do Periódico (impresso)** (adicionar apenas se tiver) [ **D** ]
 
@@ -63,16 +63,16 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 **9) Nome do contato deste periódico** (alguém que o DOAJ possa entrar em contato sobre este periódico.) [ **D** ]
 
 * Esta informação precisa ser adicionada em dois locais:
-  * Configurações do periódico >  Equipe Editorial > ISSN. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
-  * Adicione ao rodapé do seu periódico para que apareça em seu site. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
+  * Configurações do periódico >  Equipe Editorial > ISSN. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+  * Adicione ao rodapé do seu periódico para que apareça em seu site. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
 
 * O ISSN aparecerá no rodapé de todas as páginas do seu site.
 
 **10) Endereço de e-mail do contato** [ **D** ]
 
 * Esta informação precisa ser adicionada em dois locais:
-  * Configurações do periódico >  Equipe Editorial > ISSN. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
-  * Adicione ao rodapé do seu periódico para que ele apareça em seu site. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) .
+  * Configurações do periódico >  Equipe Editorial > ISSN. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+  * Adicione ao rodapé do seu periódico para que ele apareça em seu site. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
 
 * O ISSN aparecerá no rodapé de todas as páginas do seu site.
 
@@ -89,12 +89,12 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 **12) Em qual país está localizado o editor do periódico?** [ **D** ]
 
 * Insira essas informações em dois locais:
-  * Configurações do periódico >  Equipe Editorial > Editor (será fornecido aos serviços de metadados de terceiros, mas não aparecerá publicamente em seu site). Consulte o [Capítulo 5: Configurações do diário](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) .
-  * Configurações do periódico > Contato> Endereço para correspondência (o nome do editor aparecerá na página Contato do seu site, uma exigência do DOAJ). Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
+  * Configurações do periódico >  Equipe Editorial > Editor (será fornecido aos serviços de metadados de terceiros, mas não aparecerá publicamente em seu site). See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
+  * Configurações do periódico > Contato> Endereço para correspondência (o nome do editor aparecerá na página Contato do seu site, uma exigência do DOAJ). See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
 
 **5) ISSN do periódico (eletrônico)** [ **D** ]
 
-* Insira essas informações em Configurações do periódico > Contato> Endereço para correspondência. Por favor, informe o endereço de correspondência completo. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact) .
+* Insira essas informações em Configurações do periódico > Contato> Endereço para correspondência. Por favor, informe o endereço de correspondência completo. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact).
 * O nome do contato aparecerá na página Contato do seu site.
 
 #### Society or institution, if applicable \[Optional\]
@@ -103,7 +103,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 **15/16) Se você respondeu "Sim" à pergunta 13, insira o valor e a moeda.**
 
-* As informações sobre uma sociedade ou instituição que financia o periódico podem ser inseridas em Configurações do periódico>  Equipe Editorial > Sobre o periódico. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
+* As informações sobre uma sociedade ou instituição que financia o periódico podem ser inseridas em Configurações do periódico>  Equipe Editorial > Sobre o periódico. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 * Uma seção especial sobre uma organização patrocinadora pode ser criada na página Sobre o periódico. Este campo pode ser deixado em branco.
 
 ### Até que ponto o periódico é aberto?
@@ -124,9 +124,9 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
   * Publisher's own license
 
 * Para maiores informações, consulte [a página sobre as licenças da Creative Commons](https://creativecommons.org/licenses/) .
-* Insira esta informação no OJS em Configurações de distribuição > Permissões > Licença. Consulte o [Capítulo 8: Configurações de distribuição](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) .
+* Insira esta informação no OJS em Configurações de distribuição > Permissões > Licença. See [Learning OJS: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
 * A licença que você selecionar aqui não será exibida automaticamente em seu site. Você pode adicioná-la à [página Sobre o Periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) , ao [rodapé do seu site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) ou em outro lugar.
-* Você também pode inserir informações de licença por artigo ao programar um artigo para publicação, as quais serão exibidas na página do artigo. Consulte o [Capítulo 14: Fluxo de trabalho editorial](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#scheduling-for-publication) .
+* Você também pode inserir informações de licença por artigo ao programar um artigo para publicação, as quais serão exibidas na página do artigo. See [Learning OJS: Editorial Workflow](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#scheduling-for-publication).
 * If you allow more than one type of license, please select all licenses used by the journal.
 
 **18) Insira a URL onde essas informações podem ser encontradas** [ **D** ]
@@ -142,7 +142,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 * Selecione "Sim" ou "Não".
 * Responda Sim apenas se incluir a licença CC nos PDFs dos artigos. Inclua a URL de um artigo como exemplo no número 46.
-* Configurações> Site> Informações> Para autores. Consulte o [Capítulo 6: Configuração do site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) .
+* Configurações> Site> Informações> Para autores. See [Learning OJS: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
 * Se desejar incorporar informações de licença para artigos, você deve adicioná-las a todos os arquivos em PDF que vocês carregou em submissões durante o estágio de Produção.
 
 #### Copyright
@@ -155,8 +155,8 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 **22) Insira a URL onde esta informação pode ser encontrada** [ **D** ]
 
 * Insira a URL de um arquivo em PDF publicado em seu site.
-* Você pode inserir sua declaração de direitos autorais no quadro de aviso de direitos autorais. Consulte o [Capítulo 8: Configurações de distribuição](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) e selecione o detentor dos direitos autorais (autor, periódico ou outro).
-* O aviso de direitos autorais será exibido em cada artigo publicado. Para fornecer um link para a sua declaração, você pode adicioná-la na página Sobre o Periódico, em Configurações do periódico >  Equipe Editorial > Sobre o periódico. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
+* Você pode inserir sua declaração de direitos autorais no quadro de aviso de direitos autorais. See [Learning OJS: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) and select the copyright holder (Author, Journal, or Other).
+* O aviso de direitos autorais será exibido em cada artigo publicado. Para fornecer um link para a sua declaração, você pode adicioná-la na página Sobre o Periódico, em Configurações do periódico >  Equipe Editorial > Sobre o periódico. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 
 ### Licenciamento de Conteúdo
 
@@ -174,7 +174,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
   * Outros
 
 * O tipo de avaliação deve ser claramente categorizado e descrito. "Avaliação Editorial" só é válida para periódicos da área de Humanidades. Periódicos que não sejam da área de Humanas não podem usar esta opção com o DOAJ.
-* Insira esta informação em Configurações do periódico >  Equipe Editorial > Sobre o periódico. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
+* Insira esta informação em Configurações do periódico >  Equipe Editorial > Sobre o periódico. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 * You may want to create a special section on the About the Journal page to describe the review process.
 
 **14) Insira a URL onde esta informação pode ser encontradal** [ **D** ]
@@ -193,17 +193,17 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 **40) Qual a URL das Diretrizes para Autores do periódico?** [ **D** ]
 
-* Insira esta informação em Configurações do periódico > Fluxo de trabalho> Submissões > Diretrizes para Autores. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* Insira esta informação em Configurações do periódico > Fluxo de trabalho> Submissões > Diretrizes para Autores. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 * Você pode querer criar uma seção na caixa de texto para os Objetivos e Escopo do periódico. Ele estará pública na página Sobre> Sobre o periódico.
 
 **36) Qual é a URL da página da Equipe Editorial?** [ **D** ]
 
-* Insira esta informação em Configurações do periódico >  Equipe Editorial > Equipe Editorial. Consulte o [Capítulo 5: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead) .
+* Insira esta informação em Configurações do periódico >  Equipe Editorial > Equipe Editorial. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 * Isto aparecerá publicamente em Sobre > Equipe Editorial.
 
 **28) Quais identificadores de artigos o periódico utiliza?** [ **S** ]
 
-* Insira esta informação em Configurações do periódico > Fluxo de trabalho> Submissão > Diretrizes para Autores. Consulte o [Capítulo 7: Configurações do fluxo de trabalho](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) .
+* Insira esta informação em Configurações do periódico > Fluxo de trabalho> Submissão > Diretrizes para Autores. See [Learning OJS: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
 * As informações inseridas nas Diretrizes para Autores e Lista de Verificação de Preparação de Submissões estarão públicas na página Sobre > Submissões.
 
 **43) Quantas semanas em média entre a submissão e a publicação?**
@@ -219,8 +219,8 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 * Selecione "Sim" ou "Não".
 * If "Yes", please select the currency and amount for the highest fee charged by the journal in the fields that appear when "Yes" is selected.
 * Insira esta informação em dois locais:
-  * Configurações> Site> Informações> Para autores. Consulte o [Capítulo 6: Configuração do site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) .
-  * Configurações> Fluxo de trabalho> Envio> Lista de verificação de preparação de submissão. Consulte o [Capítulo 7: Configurações do fluxo de trabalho](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) .
+  * Configurações> Site> Informações> Para autores. See [Learning OJS: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information).
+  * Configurações> Fluxo de trabalho> Envio> Lista de verificação de preparação de submissão. See [Learning OJS: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
 
 **38) Digite a URL onde esta informação pode ser encontrada.** [ **D** ]
 
@@ -232,8 +232,8 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 * Selecione "Sim" ou "Não". Answer "No" if you have also answered No to Publication Fees.
 * Insira esta informação em dois locais:
-  * Configurações > Site > Informações > Para autores. Consulte o [Capítulo 6: Configurações do periódico](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information) .
-  * Configurações> Fluxo de trabalho> Envio> Lista de verificação de preparação de submissão. Consulte o [Capítulo 7: Configurações do fluxo de trabalho](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission) .
+  * Configurações > Site > Informações > Para autores. See See [Learning OJS: Website Setting](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information).
+  * Configurações> Fluxo de trabalho> Envio> Lista de verificação de preparação de submissão. See [Learning OJS: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
 * If "Yes", please enter the URL where the waiver policy can be found in the box that appears when "Yes" is selected. A política de isenção aparecerá na página Sobre / Envios e na página Informações / Autores em seu site.
 
 #### Outros
@@ -264,7 +264,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
   * The journal content isn’t archived with a long-term preservation service
 
 * Arquivos online institucionais e dos próprios editores não são válidos.
-* Se você é membro do LOCKSS ou CLOCKSS, habilite-o aqui em Configurações> Site> Arquivamento. Consulte o [Capítulo 6: Configurações do site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving).
+* Se você é membro do LOCKSS ou CLOCKSS, habilite-o aqui em Configurações> Site> Arquivamento. See [Learning OJS: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving).
 * The PKP PN is available as part of OJS. Para maiores informações, consulte o [manual Crossref OJS](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
 * If any service(s) are selected, you will be prompted to enter the URL with information on your preservation policy. Se o seu conteúdo estiver sendo arquivado em uma rede LOCKSS, isto não será exibido automaticamente em seu site OJS. Você pode adicionar sua política de arquivamento à página Sobre ou a outra página e criar um link para ela aqui.
 
@@ -323,7 +323,7 @@ O Selo DOAJ busca verificar como o periódico pode garantir a disponibilidade a 
 
 Se você é um membro do LOCKSS ou CLOCKSS, habilite-o aqui: Configurações > Site > Arquivamento
 
-**47) O periódico permite a reutilização e a recombinação de conteúdo conforme uma licença Creative Commons ou outro tipo de licença com condições semelhantes (selecione 'Outro')?** [**D**] [**S**]
+See [Learning OJS: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving) for more details.
 
 ### 2. Persistent article identifiers
 
@@ -357,7 +357,7 @@ No OJS, ao selecionar a licença a ser incorporada aos metadados do artigo e exi
 
 ***** OJS oferece as opções de licença Creative Commons que são aceitas pelo selo DOAJ: CC BY, CC BY-SA, CC BY-NC ou CC BY-NC-SA. Esta licença será incorporada nos metadados dos itens publicados e exibida no site. Selecione a licença Creative Commons que será utilizada em Configurações > Distribuição > Permissões
 
-Para maiores informações, consulte o [Capítulo 8: Configurações de distribuição](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
+See [Learning OJS: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) for more details.
 
 ### 6. Copyright and publishing rights
 
