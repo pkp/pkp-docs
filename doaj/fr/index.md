@@ -41,7 +41,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 **The journal website must display its open access statement. Where can we find this information?** \[**D**\]
 
-* Enter this information in Journal Settings > Masthead > About the Journal. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* Enter this information in Journal Settings > Masthead > About the Journal. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 * You may want to create a section in the text box for the Open Access statement.
 * An example of an acceptable OA statement is: _"This is an open access journal which means that all content is freely available without charge to the user or his/her institution. Users are allowed to read, download, copy, distribute, print, search, or link to the full texts of the articles, or use them for any other lawful purpose, without asking prior permission from the publisher or the author. "_
 * If your journal has a Creative Commons license, this Open Access statement is true of your journal. For instructions on where to add your CC license, see #14.
@@ -50,7 +50,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 **Journal Title** \[**D**\]
 
-* Add this at Journal Settings > Masthead. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* Add this at Journal Settings > Masthead. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 
 **Alternative title (including the translation of the title)** \[Optional\]
 
@@ -63,16 +63,16 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 **Journal ISSN (print)** (only add if you have one) \[**D**\]
 
 * This information needs to be added in two places:
-  * Journal Settings > Masthead > ISSN. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
-  * Add to your journal footer for it to appear on your site. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
+  * Journal Settings > Masthead > ISSN. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+  * Add to your journal footer for it to appear on your site. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
 
 * The ISSN will appear on the footer on every page of your site.
 
 **ISSN (online)** \[**D**\]
 
 * This information needs to be added in two places:
-  * Journal Settings > Masthead > ISSN. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
-  * Add to your journal footer for it to appear on your site. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
+  * Journal Settings > Masthead > ISSN. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+  * Add to your journal footer for it to appear on your site. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
 
 * The ISSN will appear on the footer on every page of your site.
 
@@ -89,12 +89,12 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 **Publisher's name** \[**D**\]
 
 * Enter this information in 2 places:
-  * Journal Settings > Masthead > Publisher (it will be supplied to 3rd party metadata services, but will not appear publicly on your site). See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
-  * Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ). See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
+  * Journal Settings > Masthead > Publisher (it will be supplied to 3rd party metadata services, but will not appear publicly on your site). See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
+  * Journal Settings > Contact > Mailing Address (the Publisher name will appear on the Contact page of your site, which is required by DOAJ). See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance).
 
 **Publisher's country** \[**D**\]
 
-* Enter this information at Journal Settings > Contact > Mailing Address. A full mailing address is preferred. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact).
+* Enter this information at Journal Settings > Contact > Mailing Address. A full mailing address is preferred. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#contact).
 * The country will appear on the Contact page of your site.
 
 #### Society or institution, if applicable \[Optional\]
@@ -103,7 +103,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 **Society or institution’s country**
 
-* Information about a society or institution that sponsors the journal can be entered in Journal Settings > Masthead > About the Journal. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* Information about a society or institution that sponsors the journal can be entered in Journal Settings > Masthead > About the Journal. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 * You may want to create a special section on the About the Journal page about a sponsoring organization. Both fields can be left blank.
 
 ### Copyright & licensing
@@ -124,9 +124,9 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
   * Publisher's own license
 
 * For more information see [the Creative Commons page on licenses](https://creativecommons.org/licenses/).
-* Enter this information in OJS at Distribution Settings > Permissions > License. See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
+* Enter this information in OJS at Distribution Settings > Permissions > License. See [Learning OJS: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
 * The license you select here will not be displayed on your site automatically. You can add it to your [About the Journal page](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead), to [the footer of your site](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance), or another place.
-* You can also enter license information on a per article basis when you schedule an article for publication and it will be displayed on the article page. See [Chapter 14: Editorial Workflow](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#scheduling-for-publication).
+* You can also enter license information on a per article basis when you schedule an article for publication and it will be displayed on the article page. See [Learning OJS: Editorial Workflow](https://docs.pkp.sfu.ca/learning-ojs/en/editorial-workflow#scheduling-for-publication).
 * If you allow more than one type of license, please select all licenses used by the journal.
 
 **Where can we find this information?** \[**D**\]\[**S**\]
@@ -142,7 +142,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 * Select "Yes" or "No".
 * Answer Yes only if you include the CC license in the full text PDFs. If "Yes", please include the URL of a recent example article in the box that appears once "Yes" is selected.
-* Select the Creative Commons license you will use in: Settings > Distribution > Permissions. See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
+* Select the Creative Commons license you will use in: Settings > Distribution > Permissions. See [Learning OJS: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions).
 * If you wish to embed license information for articles, you must add it to all PDF galley files you upload to submissions during the Production stage.
 
 #### Droit d’auteur
@@ -155,8 +155,8 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 **Where can we find this information?**  \[**D**\]
 
 * Enter the URL of the journal's copyright statement.
-* You can enter your copyright statement in the Copyright Notice box. See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) and select the copyright holder (Author, Journal, or Other).
-* The Copyright Notice will be displayed with each published article. To provide a link to your statement, you can add it on the About the Journal page, in Journal Settings > Masthead > About the Journal. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* You can enter your copyright statement in the Copyright Notice box. See [Learning OJS: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) and select the copyright holder (Author, Journal, or Other).
+* The Copyright Notice will be displayed with each published article. To provide a link to your statement, you can add it on the About the Journal page, in Journal Settings > Masthead > About the Journal. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 
 ### Editorial
 
@@ -174,7 +174,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
   * Other
 
 * The type of review must be clearly labeled and described. "Editorial Review" is only valid for journals in Arts or Humanities. Non-humanities journals may not use this option with the DOAJ.
-* Enter this information in Journal Settings > Masthead > About the Journal. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* Enter this information in Journal Settings > Masthead > About the Journal. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 * You may want to create a special section on the About the Journal page to describe the review process.
 
 **Where can we find this information?**  \[**D**\]
@@ -193,17 +193,17 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 **Link to the journal’s Aims & Scope** \[**D**\]
 
-* Enter this information in Journal Settings > Workflow > Submissions > Author Guidelines. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* Enter this information in Journal Settings > Workflow > Submissions > Author Guidelines. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 * You may want to create a section in the text box for the journal’s Aims & Scope. It will appear publicly on the About > About the Journal page.
 
 **Link to the journal’s Editorial board** \[**D**\]
 
-* Enter this information under Journal Settings > Masthead > Editorial Team. See [Chapter 5: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+* Enter this information under Journal Settings > Masthead > Editorial Team. See [Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 * This will appear publicly under About > Editorial Team.
 
 **Link to the journal’s Instructions for authors** \[**D**\]
 
-* Enter this information in Journal Settings > Workflow > Submission > Author Guidelines. See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
+* Enter this information in Journal Settings > Workflow > Submission > Author Guidelines. See [Learning OJS: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
 * Information entered in Author Guidelines and Submission Preparation Checklist will appear publicly on the About > Submissions page.
 
 **Average number of weeks between article submission & publication**
@@ -219,8 +219,8 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 * Select "Yes" or "No".
 * If "Yes", please select the currency and amount for the highest fee charged by the journal in the fields that appear when "Yes" is selected.
 * Enter this information in two places:
-  * Settings > Website> Information > For Authors. See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information).
-  * Settings > Workflow > Submission > Submission Preparation Checklist. See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
+  * Settings > Website> Information > For Authors. See [Learning OJS: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information).
+  * Settings > Workflow > Submission > Submission Preparation Checklist. See [Learning OJS: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
 
 **Where can we find this information?** \[**D**\]
 
@@ -232,8 +232,8 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 * Select "Yes" or "No". Answer "No" if you have also answered No to Publication Fees.
 * Enter this information in two places:
-  * Settings > Website> Information > For Authors. See See [Chapter 6: Website Setting](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information).
-  * Settings > Workflow > Submission > Submission Preparation Checklist. See [Chapter 7: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
+  * Settings > Website> Information > For Authors. See See [Learning OJS: Website Setting](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#information).
+  * Settings > Workflow > Submission > Submission Preparation Checklist. See [Learning OJS: Workflow Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#submission).
 * If "Yes", please enter the URL where the waiver policy can be found in the box that appears when "Yes" is selected. The waiver policy will appear on the About/Submissions page on your site and on the Information/Authors page on your site.
 
 #### Other Fees
@@ -264,7 +264,7 @@ DOAJ recommends adoption of the following best practices, but these are not requ
   * The journal content isn’t archived with a long-term preservation service
 
 * Institutional archives and publishers' own online archives are not valid.
-* If you are a member of LOCKSS or CLOCKSS, enable this here in Settings > Website > Archiving. See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving).
+* If you are a member of LOCKSS or CLOCKSS, enable this here in Settings > Website > Archiving. See [Learning OJS: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving).
 * The PKP PN is available as part of OJS. Please read the [PKP Preservation Network Guide](https://docs.pkp.sfu.ca/pkp-pn/) for more information.
 * If any service(s) are selected, you will be prompted to enter the URL with information on your preservation policy. If you are archiving your content in a LOCKSS network, this will not automatically be displayed on your OJS site. You can add your archiving policy to the About page or another page and link to it here.
 
@@ -323,7 +323,7 @@ This demonstrates that the journal ensures the long-term availability and preser
 
 If you are a member of LOCKSS or CLOCKSS, enable this here: Settings > Website > Archiving
 
-See [Chapter 6: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving) for more details.
+See [Learning OJS: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving) for more details.
 
 ### 2. Persistent article identifiers
 
@@ -357,7 +357,7 @@ To ensure readers (users) know and understand what they are permitted to do with
 
 OJS offers the Creative Commons license options that are acceptable for the DOAJ seal: CC BY, CC BY-SA, CC BY-NC, or CC BY-NC-SA. This license will be embedded in the metadata of published items and displayed on the item’s webpage. Select the Creative Commons license you will use in Settings > Distribution > Permissions
 
-See [Chapter 8: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) for more details.
+See [Learning OJS: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#permissions) for more details.
 
 ### 6. Copyright and publishing rights
 
