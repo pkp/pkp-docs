@@ -93,7 +93,7 @@ Remediating a document in PDF requires Adobe Acrobat Pro. For more details see t
 
 HTML is another popular galley format used by publishers. It offers more flexibility than PDF for adjusting to different screen sizes and accommodating multimedia. It has the potential to be more accessible than PDF as long as the document follows the [general principles of creating accessible content](./principles.md#headings-structure), such as structured headings, alt text, etc.
 
-For instructions on how to create and style HTML galleys, add multimedia content, and upload HTML galleys to OJS, see the [Learning OJS 3 - Chapter 15: Production and Publication - HTML Files](/learning-ojs/en/production-publication#html-files).
+For instructions on how to create and style HTML galleys, add multimedia content, and upload HTML galleys to OJS, see [Learning OJS 3: Production and Publication - HTML Files](/learning-ojs/en/production-publication#html-files).
 
 ### XML
 
