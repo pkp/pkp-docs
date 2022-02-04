@@ -478,7 +478,7 @@ When you’re finished, click **Save**.
 
 **Identificadores**: use este espaço para adicionar um DOI para a edição, se a sua revista oferecer suporte a identificadores de nível de edição.
 
-Quando você publica uma edição, os artigos são exibidos nas seções da sua revista.
+Use the blue arrow next to each submission to reveal links to go directly to the submission record or remove it.
 
 Se você for a Configurações da Revista> Seções e editar uma seção, poderá configurar o modo como ela aparecerá na página da edição publicada, incluindo a exibição ou não do título da seção.
 
