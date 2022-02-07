@@ -112,7 +112,7 @@ Under Website Settings > Languages you can see a list of languages or locales in
 
 - **Submission**: If you want authors to be able to make submissions in other languages, select them here. This will allow authors to select a language when they make a submission and add metadata in selected languages when uploading their submission.
 
-Additional languages can be installed on your site by an Administrator – see [Chapter 4](./site-administration) for details.
+Additional languages can be installed on your site by an Administrator – see [the Site Administration chapter](./site-administration) for details.
 
 If enabling multiple languages to appear in the UI, make sure that in Website Settings > Appearance > Sidebar Management the Language Toggle Block is selected to make that feature available to users.
 
