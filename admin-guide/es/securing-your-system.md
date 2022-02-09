@@ -52,7 +52,7 @@ Los autores, revisores y editores trabajan con archivos de personas que no conoc
 * Asegúrese de que su sistema operativo y todo el software (especialmente Word y Excel) se mantienen actualizados, idealmente activando cualquier característica de actualización automática disponible
 * Asegúrese de que tiene un sistema de copia de seguridad disponible para sus computadoras de trabajo
 * Practique una buena gestión de contraseñas: no use el mismo nombre de usuario/contraseña en OJS, OMP, o OCS como lo haría para cualquier otra cuenta en línea, y no utilice una contraseña fácil de adivinar
-* Treat everything that you get online with the knowledge that you received it from someone you don’t know, and act likewise. If a submission appears to be suspicious for any reason (strange email address, suspiciously generic title or abstract, etc.), treat the included files with an additional level of diligence.
+* Trate todo lo que reciba desde Internet sabiendo que lo ha recibido de parte de alguien que no conoce y actúe en consecuencia. Si un envío parece sospechoso por cualquier razón (dirección de correo electrónico extraña, título genérico sospechoso o abstracto, etc.), trate los archivos incluidos con un nivel adicional de precaución.
 
 ## Encryption
 
