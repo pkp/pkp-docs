@@ -46,12 +46,12 @@ Si se siguen estos pasos, se reducirá sustancialmente el riesgo de ser víctima
 
 ### Gestión Segura de Archivos
 
-Authors, reviewers, and editors deal with submission files from people they don’t know on a daily basis, and there are some basic precautions that you will want to take to mitigate the possibility of being compromised via one of these files. These steps don’t differ from how you would deal with email or other daily life on the internet, but are worth outlining in general form here.
+Los autores, revisores y editores trabajan con archivos de personas que no conocen y hay algunas precauciones básicas que querrá tomar para reducir la posibilidad de verse comprometido a través de uno de estos archivos. Estos pasos no difieren de la forma en que se trabaja con el correo electrónico u otras actividades en Internet, pero vale la pena remarcarlos en forma general aquí.
 
-* Make sure you have antivirus software installed, and that it is up to date
-* Make sure your operating system and all software (especially Word and Excel) are kept up to date, ideally by turning on any auto-update features available to you
-* Make sure you have a backup solution available for your work computers
-* Practice good password management: don’t use the same username/password in OJS, OMP, or OCS as you would for any other online account, and don’t use an easy to guess password
+* Asegúrese de que tiene instalado un software antivirus y de que está actualizado
+* Asegúrese de que su sistema operativo y todo el software (especialmente Word y Excel) se mantienen actualizados, idealmente activando cualquier característica de actualización automática disponible
+* Asegúrese de que tiene un sistema de copia de seguridad disponible para sus computadoras de trabajo
+* Practique una buena gestión de contraseñas: no use el mismo nombre de usuario/contraseña en OJS, OMP, o OCS como lo haría para cualquier otra cuenta en línea, y no utilice una contraseña fácil de adivinar
 * Treat everything that you get online with the knowledge that you received it from someone you don’t know, and act likewise. If a submission appears to be suspicious for any reason (strange email address, suspiciously generic title or abstract, etc.), treat the included files with an additional level of diligence.
 
 ## Encryption
