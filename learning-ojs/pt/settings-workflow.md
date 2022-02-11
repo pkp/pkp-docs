@@ -87,7 +87,7 @@ Esta aba permite configurar o processo de Avaliação do seu periódico.
 
 **Habilitar acesso 1-clique**: ative (padrão) a primeira opção para fornecer aos avaliadores acesso com um clique à Avaliação, evitando a necessidade de ir ao site, fazer login e localizar o submissão. Por motivos de segurança, esta opção não possibilita que os editores modifiquem os endereços de e-mail ou adicionem CCs ou BCCs antes de enviar convites aos avaliadores.
 
-**Default Review Deadlines**: Indicate how long reviewers have to decide to accept or decline a review request from the editor, and how long they have to make a recommendation. These dates are calculated from the date the review is sent.
+**Prazos de Resposta Padrão:** indicam quanto tempo os avaliadores têm para decidir aceitar ou utilizar uma solicitação de Avaliação do editor e quanto tempo eles têm para realizar uma recomendação. These dates are calculated from the date the review is sent.
 
 **Lembretes de e-mail automatizados**: os revisores serão notificados automaticamente quando forem atribuídos a uma revisão; no entanto, você pode habilitar ou desabilitar emails de lembrete para revisores. Use o menu suspenso para selecionar o número de dias ou "Nunca lembrar" em "Enviar um lembrete se um revisor não tiver respondido a uma solicitação de revisão dentro do seguinte tempo (dias) após a data de vencimento da resposta" para definir o número de dias que pode passar após a data de vencimento antes que os revisores sejam lembrados de aceitar ou rejeitar uma solicitação de revisão.
 
