@@ -58,11 +58,11 @@ Los autores, revisores y editores trabajan con archivos de personas que no conoc
 
 > Section Contributed by Kenton Good
 
-Using SSL/TLS encryption to secure your site brings advantages in security, privacy, censorship protection, search engine optimization, and data integrity.
+Utilizando la encriptación SSL/TLS para asegurar su sitio ofrece ventajas en seguridad, privacidad, protección de censura, optimización de motores de búsqueda e integridad de datos.
 
-### Security and Privacy Advantages
+### Ventajas de Seguridad y Privacidad
 
-* Web browsers have started to display warnings about insecure sites for those web sites still served under http. Users seeing such a message when they visit your site can make a site seem illegitimate, or potentially malicious.
+* Los navegadores web han comenzado a mostrar advertencias sobre sitios inseguros para aquellos sitios web que todavía se sirven bajo http. Que los usuarios vean este mensaje cuando visitan su sitio pueden hacer que parezca ilegítimo, o potencialmente malicioso.
 * Without encryption, admin and user logins are passed clear text, potentially exposing these credentials to anybody scanning the network.
 * Without encryption, you are not protecting what your users are accessing or searching for within your site. Anybody scanning the network can see these queries.
 
