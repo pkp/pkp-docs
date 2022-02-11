@@ -4,7 +4,7 @@ title: Queues - Technical Documentation - OJS|OMP|OPS
 
 # Queues
 
-If you have a time-consuming sub-process in the middle of a process, but the result of it is not necessary to allow users to finish the flow, you should take a look into Queueing processes.
+If you have a time-consuming process in the middle of a process, but the result of it is not necessary to allow users to finish the flow, you should take a look into queueing it.
 
 The use of this methodology enables you to run your time-consuming processes in a asynchronous way.
 
@@ -39,29 +39,6 @@ use PKP\Support\Jobs\BaseJob;
 class ExampleJob extends BaseJob
 {
     /**
-     * The name of the connection the job should be sent to.
-     *
-     * @var string|null
-     */
-    public $connection;
-
-    /**
-     * The queue's name where the job will be consumed
-     * @var string
-     */
-    public $queue;
-
-    /**
-     * Create a new job instance.
-     *
-     */
-    public function __construct()
-    {
-        $this->connection = Config::getVar('queues', 'default_connection', 'sync');
-        $this->queue = Config::getVar('queues', 'default_queue', null);
-    }
-
-    /**
      * Execute the job.
      *
      */
@@ -88,3 +65,13 @@ use PKP\Jobs\Example\ExampleJob;
 
 dispatch(new ExampleJob());
 ```
+
+# Retrying
+
+Your job could be re-run a couple times (according to the [`Job::DEFAULT_MAX_ATTEMPTS`](https://github.com/pkp/pkp-lib/blob/main/Domains/Jobs/Job.php#L34) constant value), but remember, after each run, his property `attempts` will be increase.
+
+# Failures
+
+In case of a Job keeps failing multiple times (according to the [`Job::DEFAULT_MAX_ATTEMPTS`](https://github.com/pkp/pkp-lib/blob/main/Domains/Jobs/Job.php#L34) constant value), he will be moved to the `failed_jobs` table, with additional data about the failure.
+
+You could retrieve them from database and debugging as needed.

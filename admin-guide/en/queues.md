@@ -38,3 +38,39 @@ For `default_connection` value you could choose one from the below list.
 More options will be available in the next releases.
 
 The option `default_queue` will be used when none queue was choosed for you processing workers
+
+## Checking queues
+
+As an administrator, you have a few ways to check yours queues health.
+
+### Web Interface
+
+On your application domain, you could access a web interface to check how many jobs are queued in your system, acessing `index.php/index/admin/jobs`. Currently, this interface it's a read-only option, if you want to manipulate your queued jobs, you could use the [Command Line Interface](#cli).
+
+### <a name="cli"></a>Command Line Interface
+
+If you want, you could use the Command Line Interface to manipulate your queued jobs.
+
+From your root installation, you could call it using `php lib/pkp/tools/jobs.php`.
+
+We have the following parameters to be used:
+
+* `list`
+* `purge`
+* `test`
+* `total`
+* `help`
+* `usage`
+
+#### Lists
+List all queued jobs
+#### Purge
+Delete queued jobs. You have the possibility to purge all queued jobs with this parameter too.
+#### Test
+Create a test queued job on queue `queuedTestJob`
+#### Total
+List queued jobs quantity
+#### Help
+Displays the help message
+#### Usage
+Displays the usage message
