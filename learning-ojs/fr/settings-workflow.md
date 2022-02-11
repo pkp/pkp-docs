@@ -87,7 +87,7 @@ Utilisez le menu déroulant pour sélectionner le nombre de jours ou "Ne jamais 
 
 **Activer l'accès en un clic pour l'évaluateur-trice** : activez (par défaut) la première option pour fournir aux réviseurs un accès en un clic à la révision, en évitant d'avoir à accéder au site Web, à se connecter et à trouver la soumission. Pour des raisons de sécurité avec cette option, les éditeurs ne sont pas en mesure de modifier les adresses e-mail ou d'ajouter des CC ou des CCI avant d'envoyer des invitations aux évaluateurs-trices.
 
-**Default Review Deadlines**: Indicate how long reviewers have to decide to accept or decline a review request from the editor, and how long they have to make a recommendation. These dates are calculated from the date the review is sent.
+**Délai de réponse par défaut** : indiquez combien de temps les évaluateurs-trices ont pour décider d'accepter ou de refuser une demande d'évaluation de l'éditeur, et combien de temps ils ont pour faire une recommandation. These dates are calculated from the date the review is sent.
 
 **Rappels automatisés par e-mail** : les évaluateurs seront automatiquement informés lorsqu'ils seront affectés à un examen; cependant, vous pouvez activer ou désactiver les e-mails de rappel pour les évaluateurs. Utilisez le menu déroulant pour sélectionner le nombre de jours ou "Ne jamais rappeler" sous "Envoyer un rappel si un évaluateur n'a pas répondu à une demande d'examen dans le délai (jours) suivant la date d'échéance de la réponse" pour définir le nombre de jours qui peut passer après la date d'échéance avant que les évaluateurs ne soient rappelés d'accepter ou de rejeter une demande d'examen.
 
