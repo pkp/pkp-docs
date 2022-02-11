@@ -54,16 +54,16 @@ Los autores, revisores y editores trabajan con archivos de personas que no conoc
 * Practique una buena gestión de contraseñas: no use el mismo nombre de usuario/contraseña en OJS, OMP, o OCS como lo haría para cualquier otra cuenta en línea, y no utilice una contraseña fácil de adivinar
 * Trate todo lo que reciba desde Internet sabiendo que lo ha recibido de parte de alguien que no conoce y actúe en consecuencia. Si un envío parece sospechoso por cualquier razón (dirección de correo electrónico extraña, título genérico sospechoso o abstracto, etc.), trate los archivos incluidos con un nivel adicional de precaución.
 
-## Encryption
+## Encriptación
 
-> Section Contributed by Kenton Good
+> Sección contribuída por Kenton Good
 
 Utilizando la encriptación SSL/TLS para asegurar su sitio ofrece ventajas en seguridad, privacidad, protección de censura, optimización de motores de búsqueda e integridad de datos.
 
 ### Ventajas de Seguridad y Privacidad
 
 * Los navegadores web han comenzado a mostrar advertencias sobre sitios inseguros para aquellos sitios web que todavía se sirven bajo http. Que los usuarios vean este mensaje cuando visitan su sitio pueden hacer que parezca ilegítimo, o potencialmente malicioso.
-* Without encryption, admin and user logins are passed clear text, potentially exposing these credentials to anybody scanning the network.
+* Sin encriptación, las contraseñas de administrador y usuarios se pasan en texto claro, exponiendo potencialmente estas credenciales a cualquiera que escanee la red.
 * Without encryption, you are not protecting what your users are accessing or searching for within your site. Anybody scanning the network can see these queries.
 
 ### Search Engine Optimization (SEO) Advantages
