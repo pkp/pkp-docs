@@ -83,7 +83,7 @@ Comprar un certificado también puede ser una opción disponible para usted. Las
 * Sólo se ofrecen certificados DV (Validación de Dominio)
 * Un poco más técnico, si su proveedor de alojamiento no los soporta todavía tendrá que generarlos desde el shell
 
-### Enabling SSL (requires shell access):
+### Habilitando SSL (requiere acceso al shell):
 
 #### Generating CSR (Certificate Signing Request)
 
