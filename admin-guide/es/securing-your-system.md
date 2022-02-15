@@ -74,14 +74,14 @@ Google anunció en 2014 que https [se trataría como una señal de clasificació
 
 Un certificado permite una conexión segura desde el navegador web del usuario al servidor que aloja su sitio.  La instalación de un certificado para su sitio web no se puede hacer dentro del OJS, OMP, o OCS y requerirá experiencia técnica o asistencia a nivel del servidor.  Al considerar un host de software, determinar su nivel de soporte de certificados es una consideración importante.
 
-A good start is asking your hosting service provider if they have an existing solution for supporting TLS or SSL certificates -- Your hosting provider may be able to create/issue an TLS or SSL certificate for you. If you do not have shell access to your installation this may be the only way to go about adding SSL/TLS protection for your site.
+Un buen comienzo es preguntar a su proveedor de servicios de alojamiento si tienen una solución existente con soporte para certificados TLS o SSL -- Su proveedor de alojamiento puede ser capaz de crear/emitir un certificado TLS o SSL para usted. Si no tiene acceso de shell a su instalación, esta puede ser la única forma de añadir protección SSL/TLS a su sitio.
 
-Purchasing a certificate may be an option available to you as well. Commercial businesses that provide certificates are called [Certificate Authorities](https://en.wikipedia.org/wiki/Certificate_authority) (CA). Wikipedia provides a listing of [CA providers](https://en.wikipedia.org/wiki/Certificate_authority#Providers) by market share. In addition to providing certificates that enable encryption, traditional CA issued certificates offer several advantages including customer vetting to help validate customer identity, and wildcard certificates. Depending on what features you select with your purchase, CA issued certificates can cost $100s per year and must be renewed before expiry.
+Comprar un certificado también puede ser una opción disponible para usted. Las empresas comerciales que proporcionan certificados se llaman [Autoridades de Certificación](https://en.wikipedia.org/wiki/Certificate_authority) (CA). Wikipedia proporciona una lista de [proveedores CA](https://en.wikipedia.org/wiki/Certificate_authority#Providers) por cuota de mercado. Además de proporcionar certificados que permiten la encriptación, los certificados tradicionales emitidos por CA ofrecen varias ventajas, incluida la selección de clientes para ayudar a validar la identidad del cliente y los certificados comodín. Dependiendo de las características que seleccione con su compra, los certificados emitidos por CA pueden costar $100 por año y deben ser renovados antes de su vencimiento.
 
-[Let’s Encrypt](https://letsencrypt.org/) is a popular option for obtaining subscription as well. Let’s Encrypt is a free, automated, and open certificate authority (CA), run for the public’s benefit. It is a service provided by the Internet Security Research Group (ISRG). Certificates are provided for free, with some limitations:
+[Let’s Encrypt](https://letsencrypt.org/) también es una opción popular para obtener suscripción. Let’s Encrypt es una autoridad certificadora (CA) gratuita, automatizada y abierta, que funciona en beneficio del público. Es un servicio prestado por el Grupo de Investigación de Seguridad de Internet (ISRG). Los certificados se proporcionan de forma gratuita, con algunas limitaciones:
 
-* Only DV (Domain Validation) certificates are offered
-* Slightly more technical, if your hosting provider does not already support you will need to generate from shell
+* Sólo se ofrecen certificados DV (Validación de Dominio)
+* Un poco más técnico, si su proveedor de alojamiento no los soporta todavía tendrá que generarlos desde el shell
 
 ### Enabling SSL (requires shell access):
 
