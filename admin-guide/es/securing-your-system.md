@@ -64,15 +64,15 @@ Utilizando la encriptación SSL/TLS para asegurar su sitio ofrece ventajas en se
 
 * Los navegadores web han comenzado a mostrar advertencias sobre sitios inseguros para aquellos sitios web que todavía se sirven bajo http. Que los usuarios vean este mensaje cuando visitan su sitio pueden hacer que parezca ilegítimo, o potencialmente malicioso.
 * Sin encriptación, las contraseñas de administrador y usuarios se pasan en texto claro, exponiendo potencialmente estas credenciales a cualquiera que escanee la red.
-* Without encryption, you are not protecting what your users are accessing or searching for within your site. Anybody scanning the network can see these queries.
+* Sin encriptación, usted no está protegiendo lo que sus usuarios están accediendo o buscando dentro de su sitio. Cualquiera que escanee la red puede ver estas consultas.
 
-### Search Engine Optimization (SEO) Advantages
+### Ventajas de la Optimización de Motores de Búsqueda (SEO)
 
-Google announced in 2014 that https [would be treated as a ranking signal](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html) meaning web sites that are served under https will be more findable within the Google index than those served under http.
+Google anunció en 2014 que https [se trataría como una señal de clasificación](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html) lo que significa que los sitios web que se sirven bajo https serán más encontrables dentro del índice de Google que los servidos bajo http.
 
-### Getting a Certificate
+### Obteniendo un Certificado
 
-A certificate enables a secure connection from the user's Web browser to the server hosting your site.  Installing a certificate for your site can not be done within the OJS, OMP, or OCS software and will require technical expertise or assistance at the server level.  When considering a software host, determining their level of certificate support is an important consideration.
+Un certificado permite una conexión segura desde el navegador web del usuario al servidor que aloja su sitio.  La instalación de un certificado para su sitio web no se puede hacer dentro del OJS, OMP, o OCS y requerirá experiencia técnica o asistencia a nivel del servidor.  Al considerar un host de software, determinar su nivel de soporte de certificados es una consideración importante.
 
 A good start is asking your hosting service provider if they have an existing solution for supporting TLS or SSL certificates -- Your hosting provider may be able to create/issue an TLS or SSL certificate for you. If you do not have shell access to your installation this may be the only way to go about adding SSL/TLS protection for your site.
 
