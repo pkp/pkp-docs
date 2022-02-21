@@ -99,15 +99,15 @@ Cuando usted compra un certificado a una CA, el mismo durará normalmente entre 
 
 ## Gestionando el Spam
 
-There are a number of configuration steps you can take to combat SPAM and other forms of malicious registration activity on your site.
+Hay una serie de pasos de configuración que puede tomar para combatir el SPAM y otras formas de actividad de registro malicioso en su sitio.
 
 ### CAPTCHA/ReCAPTCHA
 
-Configure a CAPTCHA and enable it for user registration, notifications and commenting. We strongly advise using [Google’s ReCAPTCHA](https://www.google.com/recaptcha/intro/). \(Older OJS 2 versions include a PHP captcha, but that has proven to be less secure than ReCaptcha.\)
+Configurar un CAPTCHA y habilitarlo para el registro de usuarios, notificaciones y comentarios. Recomendamos encarecidamente usar [ReCAPTCHA de Google](https://www.google.com/recaptcha/intro/). \(Las versiones anteriores de OJS 2 incluyen un captcha PHP, pero eso ha demostrado ser menos seguro que ReCaptcha.\)
 
-If you are using OJS older than 2.4.8-3, you will not be able to use the most recent version of ReCAPTCHA \(v2\), and your ReCAPTCHA will not work properly after March 31 2018. **Upgrading is strongly recommended**.
+Si está utilizando un OJS más antiguo que 2.4.8-3, no podrá utilizar la versión más reciente de ReCAPTCHA \(v2\), y su ReCAPTCHA no funcionará correctamente después del 31 de marzo de 2018. **Se recomienda encarecidamente actualizar**.
 
-To configure ReCAPTCHA:
+Para configurar ReCAPTCHA:
 
 1. Register an account and create a “property” for your website here: [https://www.google.com/recaptcha/intro/](https://www.google.com/recaptcha/intro/)
 2. Ensure that the relevant lines for enabling captcha are uncommented in `config.inc.php`
