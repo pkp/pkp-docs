@@ -85,19 +85,19 @@ Comprar un certificado también puede ser una opción disponible para usted. Las
 
 ### Habilitando SSL (requiere acceso al shell):
 
-#### Generating CSR (Certificate Signing Request)
+#### Generando CSR (Solicitud de Firma de Certificación)
 
-Required step to generate a certificate if you are going to be purchasing a certificate from a CA that is not Let’s Encrypt. In terms of how to do this, this varies from one Linux distribution to the next, some common Linux examples can be found here:
+Paso necesario para generar un certificado si va a comprar un certificado de una CA que no es Let's Encrypt. La forma de hacer esto varía de una distribución Linux a otra. Algunos ejemplos comunes de Linux se pueden encontrar aquí:
 * [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-create-a-ssl-certificate-on-apache-for-ubuntu-14-04)
 * [CentOS/RHEL 7](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-centos-7)
-* [Generating LetsEncrypt certificate using Certbot via Shell](https://certbot.eff.org/) (provides customized directions depending on hosting environment Apache, Nginx, etc.)
-* [Guide to generating a .CSR in Apache](https://www.alphassl.com/support/create-csr/apache.html)
+* [Generar certificado LetsEncrypt usando Certbot a través de línea de comandos](https://certbot.eff.org/) (proporciona instrucciones personalizadas dependiendo del entorno de alojamiento Apache, Nginx, etc.)
+* [Guía para generar un .CSR en Apache](https://www.alphassl.com/support/create-csr/apache.html)
 
-#### Maintaining your Certificates
+#### Manteniendo sus certificados
 
-When you purchase a certificate from a CA, you will typically purchase a certificate that lasts between 1 to 3 years. Certificates are set to expire and will need to be renewed resulting in a new expense at the time of renewal. Let’s Encrypt certificates expire every 90 days. The Let’s Encrypt software (certbot) can be configured to automatically renew certificates before they expire. Meaning once installed you should have minimal maintenance moving forward. Automation is done with `cron` or `systemd`.
+Cuando usted compra un certificado a una CA, el mismo durará normalmente entre 1 y 3 años. Los certificados están configuurados para caducar y tendrán que renovarse, dando lugar a un nuevo gasto en el momento de la renovación. Los certificados de Let’s Encrypt caducan cada 90 días. El software de Let’s Encrypt (certbot) puede configurarse para renovar automáticamente los certificados antes de que caduquen. Lo que significa que, una vez instalado, debería tener un mantenimiento mínimo en el futuro. La automatización se realiza mediante `cron` o `systemd`.
 
-## Managing Spam
+## Gestionando el Spam
 
 There are a number of configuration steps you can take to combat SPAM and other forms of malicious registration activity on your site.
 
