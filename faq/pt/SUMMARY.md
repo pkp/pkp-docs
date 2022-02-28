@@ -76,3 +76,5 @@
   * [How much does your software cost to develop?](./about-pkp.md#how-much-does-your-software-cost-to-develop)
   * [Can I modify your code?](./about-pkp.md#can-i-modify-your-code)
   * [How can I contribute to development or develop a plugin?](./about-pkp.md#how-can-i-contribute-to-development-or-develop-a-plugin)
+  * [Where do you announce security vulnerabilities?](./about-pkp.md#where-do-you-announce-security-vulnerabilities)
+  * [How can I report a security vulnerability?](./about-pkp.md#how-can-i-report-a-security-vulnerability)
