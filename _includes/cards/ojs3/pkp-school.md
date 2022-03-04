@@ -3,7 +3,7 @@
 
 PKP School is a guided series of training videos on setting up a journal and editorial workflow in OJS 3.1, available in English and Spanish. Additional multilingual video tutorials made by users are available on PKP's YouTube channel.
 
-- [PKP School](http://pkpschool.sfu.ca/)
+- [PKP School](https://pkpschool.sfu.ca/)
 - [Editorial workflow videos](https://www.youtube.com/playlist?list=PLg358gdRUrDUH0A7bCsDhpfgFKzq5Xl8T)
 - [Journal setup videos](https://www.youtube.com/playlist?list=PLg358gdRUrDXu-2mS5nRj_EoOueYBVN11)
 - [What's New in OJS 3.3](https://youtu.be/3D_hS4Bd-Y8)

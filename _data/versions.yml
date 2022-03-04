@@ -1,25 +1,25 @@
 api:
   ojs:
-    3.2: /dev/api/ojs/3.2
-    3.1: /dev/api/ojs/3.1
+    3.2: /dev/api/ojs/3.2/
+    3.1: /dev/api/ojs/3.1/
 crossref-ojs-manual:
-  3.2: /crossref-ojs-manual/en
-  3.1.2: /crossref-ojs-manual/3.1.2/en
-  < 3.1: /crossref-ojs-manual/crossref-v1-deposit/en
+  3.2: /crossref-ojs-manual/en/
+  3.1.2: /crossref-ojs-manual/3.1.2/en/
+  < 3.1: /crossref-ojs-manual/crossref-v1-deposit/en/
 importing-exporting:
-  current: /importing-exporting/en
-  3.0: /importing-exporting/3.0/en
+  current: /importing-exporting/en/
+  3.0: /importing-exporting/3.0/en/
 learning-ojs:
-  3.3: /learning-ojs
-  3.2: /learning-ojs/3.2
-  3.1: /learning-ojs/3.1
+  3.3: /learning-ojs/
+  3.2: /learning-ojs/3.2/
+  3.1: /learning-ojs/3.1/
 learning-omp:
-  3.3: /learning-omp
-  3.2: /learning-omp/3.2
-  3.1: /learning-omp/3.1
+  3.3: /learning-omp/
+  3.2: /learning-omp/3.2/
+  3.1: /learning-omp/3.1/
 learning-ops:
-  3.3: /learning-ops
-  3.2: /learning-ops/3.2
+  3.3: /learning-ops/
+  3.2: /learning-ops/3.2/
 translating-guide:
-  3.2: /translating-guide
-  3.1: /translating-guide/3.1
+  3.2: /translating-guide/
+  3.1: /translating-guide/3.1/
