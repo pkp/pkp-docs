@@ -129,4 +129,4 @@ For more information on versioning and editing a posted preprint, check the [Ver
 
 It is currently not possible to withdraw a posted preprint. There are ongoing discussions to integrate an option for this for future release. In this case, it’s recommended that the Preprint Manager replace the existing PDF with a "placeholder" PDF indicating that it has been withdrawn and the reason.
 
-In the future, it should be possible for authors to submit their posted preprints for publication in a journal via OPS, using the [SWORD protocol](http://swordapp.org/).
+In the future, it should be possible for authors to submit their posted preprints for publication in a journal via OPS, using the [SWORD protocol](https://sword.cottagelabs.com/).
