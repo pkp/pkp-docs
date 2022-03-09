@@ -32,6 +32,7 @@
   * Updates
   * [Validation](./utilities-validation)
 * Other
+  * [Decisions](./decisions)
   * [Email Templates](./email-templates)
   * [Publication Versions](./publication-versions)
   * [Statistics](./statistics)
