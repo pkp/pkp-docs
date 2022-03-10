@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Reader Statistics - Technical Documentation - OJS|OMP|OPS
 ---
 

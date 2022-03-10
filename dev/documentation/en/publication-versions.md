@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Publication Versions - Technical Documentation - OJS|OMP|OPS
 ---
 

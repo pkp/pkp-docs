@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Email - Technical Documentation - OJS|OMP|OPS
 ---
 

@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Authentication - Technical Documentation - OJS|OMP|OPS
 ---
 

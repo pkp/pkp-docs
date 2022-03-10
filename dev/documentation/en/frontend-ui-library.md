@@ -1,5 +1,7 @@
 ---
-title: UI Library - Frontend - Technical Documentation - OJS/OMP
+book: dev-documentation
+version: 3.4
+title: UI Library - Frontend - Technical Documentation - OJS|OMP|OPS 3.3
 ---
 
 # UI Library
