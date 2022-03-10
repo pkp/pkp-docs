@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Decisions - Technical Documentation - OJS|OMP|OPS
 ---
 
@@ -50,7 +52,7 @@ if (!empty($errors)) {
 
 ## Decision Types
 
-Each decision type extends the `DecisionType` [[source](https://github.com/pkp/pkp-lib/blob/main/classes%2Fdecision%2FDecisionType.inc.php)] class. Every decision type must specify the decision identifier, such as `Decision::DECLINE` or `Decision::ACCEPT`, and the stage of the workflow that this decision may be taken in.
+Each decision type extends the `DecisionType` class [[source](https://github.com/pkp/pkp-lib/blob/main/classes%2Fdecision%2FDecisionType.inc.php)]. Every decision type must specify the decision identifier, such as `Decision::DECLINE` or `Decision::ACCEPT`, and the stage of the workflow that this decision may be taken in.
 
 ```php
 namespace PKP\decision\types;
@@ -106,7 +108,7 @@ class ExampleAccept extends DecisionType
 }
 ```
 
-Read the code to understand all of the methods that must be defined to configure a `DecisionType` ([sour[e](https://github.com/pkp/pkp-lib/blob/main/classes%2Fdecision%2FDecisionType.inc.php).
+Read the code to understand all of the methods that must be defined to configure a `DecisionType` [[source](https://github.com/pkp/pkp-lib/blob/main/classes%2Fdecision%2FDecisionType.inc.php).
 ]
 ## Actions
 
