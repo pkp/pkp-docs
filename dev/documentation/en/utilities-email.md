@@ -40,9 +40,8 @@ class SubmissionReceived extends Mailable
     /**
      * One or more of the GROUP_ constants
      *
-     * This is used to group email messages together in the UI
-     * where an editor will find and modify the email templates
-     * used in their journal.
+     * This is used to organize mailables in the email management
+     * UI shown to journal managers.
      */
     protected static array $groupIds = [
         self::GROUP_SUBMISSION,
@@ -110,20 +109,26 @@ class SubmissionReceived extends Mailable
 }
 ```
 
-A description of the supported variables is automatically derived from the dependencies passed to the constructor.
+The objects passed to the constructor will be transformed into data for the variables.
 
 ```php
+use PKP\facades\Locale;
 use PKP\mail\mailables\SubmissionReceived;
 
-$variables = SubmissionReceived::getVariables();
+$currentLocale = Locale::getLocale();
+$mailable = new SubmissionReceived($context, $submission);
 
-// [
-//     'journalName' => 'Journal of Public Knowledge',
-//     'journalUrl' => 'https://journal.com',
-//     'submissionTitle' => 'Yam diseases and its management in Nigeria',
-//     'submissionUrl' => 'https://journal.com/workflow/access/15',
-//     ...
-// ];
+print_r($mailable->getData($currentLocale));
+```
+
+```
+[
+    'journalName' => 'Journal of Public Knowledge',
+    'journalUrl' => 'https://journal.com',
+    'submissionTitle' => 'Yam diseases and its management in Nigeria',
+    'submissionUrl' => 'https://journal.com/workflow/access/15',
+    ...
+];
 ```
 
 Use the variables in an email's subject and body.
@@ -145,22 +150,37 @@ $mailable->from('nate@example.com')
 Mail::send($mailable);
 ```
 
-All variables assigned to a Mailable can be retrieved from the `viewData` property.
+```
+FROM: nate@example.com
+TO: vitaliy@example.com
+SUBJECT: New submission to Journal of Public Knowledge
+
+A new submission is ready to review: Yam diseases and its management in Nigeria
+```
+
+Get a description of the variables supported by a `Mailable`.
 
 ```php
 use PKP\mail\mailables\SubmissionReceived;
 
-$mailable = new SubmissionReceived($context, $submission);
-echo $mailable->viewData['journalName'];
+$supportedVariables = SubmissionReceived::getDataDescriptions();
 
-// outputs: Journal of Public Knowledge
+print_r($supportedVariables);
 ```
 
-Not all objects passed to a Mailable's constructor will produce email variables. The supported classes are defined at `Mailable::templateVariablesMap()`.
+```
+[
+    'journalName' => 'The name of the journal',
+    'journalUrl' => 'The URL to the journal',
+    'submissionTitle' => 'The title of the submission',
+    'submissionUrl' => 'The URL to the editorial workflow for this submission',
+    ...
+];
+```
 
 ### Sender and Recipients
 
-Mailables provide common variables for the sender and recipients, such as `{$senderName}` and `{$recipientsName}`. Add the `Sender` or `Recipient` traits to a Mailable class to use these variables.
+Mailables provide common variables for the sender and recipients, such as `{$senderName}` and `{$recipientName}`. Add the `Recipient` or `Sender` traits to a Mailable class to use these variables.
 
 ```php
 namespace PKP\mail\mailables;
@@ -178,7 +198,7 @@ class SubmissionReceived extends Mailable
 }
 ```
 
-Use the `setRecipients()` and `setSender()` methods instead of the `from()` and `to()` methods.
+Use the `sender()` and `recipients()` methods instead of the `from()` and `to()` methods.
 
 ```php
 use APP\facades\Repo;
@@ -188,8 +208,8 @@ use PKP\mail\mailables\SubmissionReceived;
 $recipients = Repo::users()->getMany($collector);
 
 $mailable = new SubmissionReceived($context, $submission);
-$mailable->setSender($request->getUser())
-    ->setRecipients($recipients)
+$mailable->sender($request->getUser())
+    ->recipients($recipients)
     ->subject($subject)
     ->body($body);
 
@@ -198,52 +218,45 @@ Mail::send($mailable);
 
 ### Custom Variables
 
-A Mailable may require variables that can not be generated automatically from the dependencies defined in the constructor. These variables can be passed to the Mailable before it is sent.
-
-```php
-use Illuminate\Support\Facades\Mail;
-use PKP\mail\mailables\SubmissionReceived;
-
-$mailable = new SubmissionReceived($context, $submission);
-
-$mailable->addVariables([
-        'section' => $section->getLocalizedTitle(),
-    ])
-    ->setSender($request->getUser())
-    ->setRecipients($recipients)
-    ->subject($subject)
-    ->body('A submission was made to {$section}.');
-
-Mail::send($mailable);
-```
-
-Variables added in this way need to be added to the Mailable class, so that an editor will know this variable can be used when they customize the email template.
+A `Mailable` may require variables that are not generated automatically. Add custom variables to a `Mailable` by extending the data and description functions.
 
 ```php
 namespace PKP\mail\mailables;
 
+use APP\decision\Decision;
+use APP\submission\Submission;
+use PKP\context\Context;
 use PKP\mail\Mailable;
-use PKP\mail\mailables\Recipient;
-use PKP\mail\mailables\Sender;
+use PKP\mail\traits\Recipient;
+use PKP\mail\traits\Sender;
 
-class SubmissionReceived extends Mailable
+class Example extends Mailable
 {
-    /* ... */
+    use Recipient;
+    use Sender;
 
-    public const VARIABLE_SECTION = 'section';
+    public const AUTHOR_GUIDELINES = 'authorGuidelines';
 
-    /**
-     * Extend the getVariables method to add the
-     * variable with a localized description of
-     * it's value.
-     */
-    public static function getVariables(): array
+    protected Context $context;
+
+    public function __construct(Context $context)
     {
-        $variables = parent::getVariables();
-        $variables[
-            self::VARIABLE_SECTION => __('submission.received.section.description'),
-        ];
+        $this->context = $context;
+        parent::__construct(func_get_args());
+    }
+
+    public static function getDataDescriptions(): array
+    {
+        $variables = parent::getDataDescriptions();
+        $variables[self::AUTHOR_GUIDELINES] = 'The author guidelines configured by this journal.';
+
         return $variables;
+    }
+
+    public function setData(?string $locale = null)
+    {
+        parent::setData($locale);
+        $this->viewData[self::AUTHOR_GUIDELINES] = $this->context->getData('authorGuidelines', $locale);
     }
 }
 ```
