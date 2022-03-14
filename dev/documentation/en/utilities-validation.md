@@ -16,6 +16,8 @@ Data can be validated using the [entity schemas](./architecture-entities#schemas
 The `ValidatorFactory` class is a wrapper for Laravel's [Validator](https://laravel.com/docs/5.5/validation). It mimics Laravel's `make` method to create a validator.
 
 ```php
+use PKP\validation\ValidatorFactory;
+
 $validator = ValidatorFactory::make($props, $rules);
 ```
 
@@ -30,6 +32,8 @@ if ($validator->fails()) {
 Validate a single value.
 
 ```php
+use PKP\validation\ValidatorFactory;
+
 $props = ['contactEmail' => $userEmail];
 $rules = ['contactEmail' => ['email_or_localhost']];
 $validator = ValidatorFactory::make($props, $rules);
@@ -38,13 +42,15 @@ $validator = ValidatorFactory::make($props, $rules);
 Or validate more than one value at a time.
 
 ```php
+use PKP\validation\ValidatorFactory;
+
 $props = [
-  'contactEmail' => $userEmail,
-  'contactUsername' => $userName,
+    'contactEmail' => $userEmail,
+    'contactUsername' => $userName,
 ];
 $rules = [
-  'contactEmail' => ['email_or_localhost'],
-  'contactUsername' => ['alpha_num'],
+    'contactEmail' => ['email_or_localhost'],
+    'contactUsername' => ['alpha_num'],
 ];
 $validator = ValidatorFactory::make($props, $rules);
 ```
@@ -52,6 +58,8 @@ $validator = ValidatorFactory::make($props, $rules);
 The validator will return helpful errors when a value does not validate. If you want, you can customize these messages by passing an additional argument.
 
 ```php
+use PKP\validation\ValidatorFactory;
+
 $props = ['contactUsername' => $userName];
 $rules = ['contactUsername' => ['min:6', 'alpha_num']];
 $messages = ['contactUsername.min' => 'The journal contact username must be at least 6 characters.'];
@@ -99,50 +107,50 @@ An entity's [Repository](./architecture-repositories) should implement a `valida
 ```php
 namespace PKP\context;
 
+use PKP\context\Context;
 use PKP\services\PKPSchemaService;
 use PKP\validation\ValidatorFactory;
 
-class Repository {
+class Repository
+{
+    protected PKPSchemaService $schemaService;
 
-  /** @var PKPSchemaService $schemaService */
-  protected $schemaService;
+    public function __construct(PKPSchemaService $schemaService)
+    {
+        $this->schemaService = $schemaService;
+    }
 
-  public function __construct(PKPSchemaService $schemaService)
-  {
-    $this->schemaService = $schemaService;
-  }
+    public function validate(?Context $context, array $props, array $allowedLocales, string $primaryLocale): array
+    {
+        $errors = [];
 
-  public function validate(?Context $context, array $props, array $allowedLocales, string $primaryLocale): array
-  {
-    $validator = ValidatorFactory::make(
-      $props,
-      $this->schemaService->getValidationRules(PKPSchemaService::SCHEMA_CONTEXT, $allowedLocales)
-    );
-  }
+        // Validate the $props against the entity's
+        // schema file
+        $validator = ValidatorFactory::make(
+            $props,
+            $this->schemaService->getValidationRules(PKPSchemaService::SCHEMA_CONTEXT, $allowedLocales)
+        );
+
+        // Validate the $props against the required fields
+        // in the entity's schema file
+        ValidatorFactory::required(
+            $validator,
+            $submission,
+            $this->schemaService->getRequiredProps(PKPSchemaService::SCHEMA_CONTEXT),
+            $this->schemaService->getMultilingualProps(PKPSchemaService::SCHEMA_CONTEXT),
+            $primaryLocale,
+            $allowedLocales
+        );
+
+        // Validate the $props against the locales supported
+        // by this context.
+        ValidatorFactory::allowedLocales(
+            $validator,
+            $this->schemaService->getMultilingualProps(SCHEMA_CONTEXT),
+            $allowedLocales
+        );
+    }
 }
-```
-
-The `SchemaService` includes a helper method to validate required fields.
-
-```php
-ValidatorFactory::required(
-  $validator,
-  $submission,
-  $this->schemaService->getRequiredProps(PKPSchemaService::SCHEMA_CONTEXT),
-  $this->schemaService->getMultilingualProps(PKPSchemaService::SCHEMA_CONTEXT),
-  $primaryLocale,
-  $allowedLocales
-);
-```
-
-The `allowedLocales` helper method will throw an error if values are provided for any locales which are not supported by the journal or press.
-
-```php
-ValidatorFactory::allowedLocales(
-  $validator,
-  $this->schemaService->getMultilingualProps(SCHEMA_CONTEXT),
-  $allowedLocales
-);
 ```
 
 Some validation rules can not be described in the schema. This is the case when validation requires checking the database. For example, a context can not have a `urlPath` if another context exists with that `urlPath`.
@@ -150,34 +158,49 @@ Some validation rules can not be described in the schema. This is the case when 
 In such cases, the [Repository's](./architecture-repositories) `validate` method should be used to extend the validation check.
 
 ```php
-public function validate(?Context $context, array $props, array $allowedLocales, string $primaryLocale): array
+namespace PKP\context;
+
+use PKP\context\Context;
+use PKP\services\PKPSchemaService;
+use PKP\validation\ValidatorFactory;
+
+class Repository
 {
-  $validator = ValidatorFactory::make(
-    $props,
-    $this->schemaService->getValidationRules(PKPSchemaService::SCHEMA_CONTEXT, $allowedLocales)
-  );
+    protected PKPSchemaService $schemaService;
 
-  ...
-
-  // Ensure that a urlPath, if provided, does not already exist
-  $validator->after(function($validator) use ($action, $props) {
-    if (isset($props['urlPath']) && !$validator->errors()->get('urlPath')) {
-      $contextDao = Application::getContextDAO();
-      $contextWithPath = $contextDao->getByPath($props['urlPath']);
-      if ($contextWithPath) {
-        if (!(!is_null($context) && isset($props['id'])
-            && (int) $contextWithPath->getId() === $props['id'])) {
-          $validator->errors()->add('urlPath', __('admin.contexts.form.pathExists'));
-        }
-      }
+    public function __construct(PKPSchemaService $schemaService)
+    {
+        $this->schemaService = $schemaService;
     }
-  });
 
-  ...
+    public function validate(?Context $context, array $props, array $allowedLocales, string $primaryLocale): array
+    {
+        $errors = [];
 
-  if ($validator->fails()) {
-    ...
-  }
+        $validator = ValidatorFactory::make(
+            $props,
+            $this->schemaService->getValidationRules(PKPSchemaService::SCHEMA_CONTEXT, $allowedLocales)
+        );
+
+        ...
+
+        // Ensure that a urlPath, if provided, does not already exist
+        $validator->after(function($validator) use ($action, $props) {
+            if (isset($props['urlPath']) && !$validator->errors()->get('urlPath')) {
+                if (/* urlPath is duplicate */) {
+                    $validator->errors()->add('urlPath', __('admin.contexts.form.pathExists'));
+                }
+            }
+        });
+
+        ...
+
+        if ($validator->fails()) {
+            $errors = $this->schemaService->formatValidationErrors($validator->errors());
+        }
+
+        return $errors;
+    }
 }
 ```
 

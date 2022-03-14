@@ -12,32 +12,32 @@ Get a count of submissions received by one journal.
 
 ```php
 $received = Services::get('editorialStats')
-	->countSubmissionsReceived([
-		'contextIds' => [1]
-	]);
+    ->countSubmissionsReceived([
+        'contextIds' => [1]
+    ]);
 ```
 
 Get a count of submissions received by one journal in January, 2020.
 
 ```php
 $received = Services::get('editorialStats')
-	->countSubmissionsReceived([
-		'contextIds' = [1],
-		'dateStart' => '2020-01-01',
-		'dateEnd' => '2020-01-31',
-	]);
+    ->countSubmissionsReceived([
+        'contextIds' = [1],
+        'dateStart' => '2020-01-01',
+        'dateEnd' => '2020-01-31',
+    ]);
 ```
 
 Get a count of submissions accepted by one journal.
 
 ```php
 $accepted = Services::get('editorialStats')
-	->countByDecisions(
-		SUBMISSION_EDITOR_DECISION_ACCEPT,
-		[
-			'contextIds' = [1],
-		]
-	);
+    ->countByDecisions(
+        SUBMISSION_EDITOR_DECISION_ACCEPT,
+        [
+            'contextIds' = [1],
+        ]
+    );
 ```
 
 Pass one or more `SUBMISSION_EDITOR_DECISION_` constants to count submissions that have been desk rejected or rejected after peer review.
@@ -49,8 +49,8 @@ Use `countByDecisionsForSubmittedDate()` to calculate acceptance and rejection r
 
 ```php
 $args = ['contextIds' => [1]];
-$accepted = $this->countByDecisionsForSubmittedDate(SUBMISSION_EDITOR_DECISION_ACCEPT, $args);
-$declined = $this->countByDecisionsForSubmittedDate([SUBMISSION_EDITOR_DECISION_INITIAL_DECLINE, SUBMISSION_EDITOR_DECISION_DECLINE], $args);
+$accepted = Services::get('editorialStats')->countByDecisionsForSubmittedDate(SUBMISSION_EDITOR_DECISION_ACCEPT, $args);
+$declined = Services::get('editorialStats')->countByDecisionsForSubmittedDate([SUBMISSION_EDITOR_DECISION_INITIAL_DECLINE, SUBMISSION_EDITOR_DECISION_DECLINE], $args);
 $total = $accepted + $declined;
 
 $acceptanceRate = $accepted / $total;
@@ -60,12 +60,12 @@ $rejectionRate = $declined / $total;
 Get the number of days it took for each accepted submission to reach its final decision.
 
 ```php
-$acceptDays = $this->getDaysToDecisions(
-	[
-		SUBMISSION_EDITOR_DECISION_SEND_TO_PRODUCTION,
-		SUBMISSION_EDITOR_DECISION_ACCEPT
-	],
-	['contextIds' => [1]]
+$acceptDays = Services::get('editorialStats')->getDaysToDecisions(
+    [
+        SUBMISSION_EDITOR_DECISION_SEND_TO_PRODUCTION,
+        SUBMISSION_EDITOR_DECISION_ACCEPT
+    ],
+    ['contextIds' => [1]]
 );
 ```
 
@@ -80,7 +80,7 @@ Or calculate an acceptance rate which allows you to report more meaningful stati
 ```php
 // 80% of accepted submissions receive this decision within
 // <$rate> number of days.
-$rate = $this->calculateDaysToDecisionRate($acceptDays, 0.8);
+$rate = Services::get('editorialStats')->calculateDaysToDecisionRate($acceptDays, 0.8);
 ```
 
 The `PKPStatsEditorialService` class includes methods to count submissions by status or workflow stage.

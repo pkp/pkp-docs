@@ -1,6 +1,4 @@
 ---
-book: dev-documentation
-version: 3.4
 title: Data Access Objects (DAOs) - Technical Documentation - OJS|OMP|OPS
 ---
 
@@ -21,15 +19,15 @@ use PKP\services\PKPSchemaService;
 
 class DAO extends EntityDAO
 {
-  public $schema = PKPSchemaService::SCHEMA_PUBLICATION;
-  public $table = 'publications';
-  public $settingsTable = 'publication_settings';
-  public $primaryKeyColumn = 'publication_id';
-  public $primaryKeyColumns = [
-    'id' => 'publication_id',
-    'datePublished' => 'date_published',
-    ...
-  ];
+    public $schema = PKPSchemaService::SCHEMA_PUBLICATION;
+    public $table = 'publications';
+    public $settingsTable = 'publication_settings';
+    public $primaryKeyColumn = 'publication_id';
+    public $primaryKeyColumns = [
+        'id' => 'publication_id',
+        'datePublished' => 'date_published',
+        ...
+    ];
 }
 ```
 
@@ -53,34 +51,34 @@ use PKP\services\PKPSchemaService;
 
 class DAO extends EntityDAO
 {
-  public $schema = PKPSchemaService::SCHEMA_PUBLICATION;
-  public $table = 'publications';
-  public $settingsTable = 'publication_settings';
-  public $primaryKeyColumn = 'publication_id';
-  public $primaryKeyColumns = [
-    'id' => 'publication_id',
-    'datePublished' => 'date_published',
-  ];
+    public $schema = PKPSchemaService::SCHEMA_PUBLICATION;
+    public $table = 'publications';
+    public $settingsTable = 'publication_settings';
+    public $primaryKeyColumn = 'publication_id';
+    public $primaryKeyColumns = [
+        'id' => 'publication_id',
+        'datePublished' => 'date_published',
+    ];
 
-  public function get(int $publicationId) : Publication
-  {
-    return parent::get($publicationId);
-  }
+    public function get(int $publicationId) : Publication
+    {
+        return parent::get($publicationId);
+    }
 
-  public function insert(Publication $publication) : int
-  {
-    return parent::_insert($publication);
-  }
+    public function insert(Publication $publication) : int
+    {
+        return parent::_insert($publication);
+    }
 
-  public function update(Publication $publication)
-  {
-    return parent::_update($publication);
-  }
+    public function update(Publication $publication)
+    {
+        return parent::_update($publication);
+    }
 
-  public function delete(Publication $publication)
-  {
-    return parent::_delete($publication);
-  }
+    public function delete(Publication $publication)
+    {
+        return parent::_delete($publication);
+    }
 }
 ```
 
@@ -96,53 +94,53 @@ use stdClass;
 
 class DAO extends EntityDAO
 {
-  protected $keywordDao;
+    protected $keywordDao;
 
-  public function __construct(SubmissionKeywordDAO $keywordDao)
-  {
-    $this->keywordDao = $keywordDao;
-  }
-
-  /**
-    * Get the keywords from another table
-    * when a publication is fetched from
-    * the data store.
-    */
-  public function fromRow(stdClass $row) : Publication
-  {
-    $publication = parent::fromRow($row);
-
-    $publication->setData(
-      'keywords',
-      $this->keywordDao->getKeywords($publication->getId())
-    );
-
-    return $publication;
-  }
-
-  /**
-    * Write the keywords to another table
-    * when a publication is added to the
-    * data store.
-    */
-  public function insert(Publication $publication) : int
-  {
-    // Extract keywords from the data set so they are not
-    // automatically saved to the settings table
-    if (isset($publication->_data['keywords'])) {
-      $keywords = $publication->getData('keywords');
-      unset($publication->_data['keywords']);
+    public function __construct(SubmissionKeywordDAO $keywordDao)
+    {
+        $this->keywordDao = $keywordDao;
     }
 
-    $publicationId = parent::_insert($publication);
+    /**
+        * Get the keywords from another table
+        * when a publication is fetched from
+        * the data store.
+        */
+    public function fromRow(stdClass $row) : Publication
+    {
+        $publication = parent::fromRow($row);
 
-    // Save keywords to another table
-    if (isset($keywords)) {
-      $this->keywordDao->insertKeywords($keywords, $publicationId);
+        $publication->setData(
+            'keywords',
+            $this->keywordDao->getKeywords($publication->getId())
+        );
+
+        return $publication;
     }
 
-    return $publicationId;
-  }
+    /**
+        * Write the keywords to another table
+        * when a publication is added to the
+        * data store.
+        */
+    public function insert(Publication $publication) : int
+    {
+        // Extract keywords from the data set so they are not
+        // automatically saved to the settings table
+        if (isset($publication->_data['keywords'])) {
+            $keywords = $publication->getData('keywords');
+            unset($publication->_data['keywords']);
+        }
+
+        $publicationId = parent::_insert($publication);
+
+        // Save keywords to another table
+        if (isset($keywords)) {
+            $this->keywordDao->insertKeywords($keywords, $publicationId);
+        }
+
+        return $publicationId;
+    }
 }
 ```
 
@@ -156,21 +154,21 @@ use PKP\core\EntityDAO;
 
 class DAO extends EntityDAO
 {
-  /**
-   * Get the submission id by its url path
-   */
-  public function getIdByUrlPath(string $urlPath, int $contextId): ?int
-  {
-    $publication = DB::table('publications as p')
-      ->leftJoin('submissions as s', 's.submission_id', '=', 'p.submission_id')
-      ->where('s.context_id', '=', $contextId)
-      ->where('p.url_path', '=', $urlPath)
-      ->first();
+    /**
+     * Get the submission id by its url path
+     */
+    public function getIdByUrlPath(string $urlPath, int $contextId): ?int
+    {
+        $publication = DB::table('publications as p')
+            ->leftJoin('submissions as s', 's.submission_id', '=', 'p.submission_id')
+            ->where('s.context_id', '=', $contextId)
+            ->where('p.url_path', '=', $urlPath)
+            ->first();
 
-    return $publication
-      ? $publication->submission_id
-      : null;
-  }
+        return $publication
+            ? $publication->submission_id
+            : null;
+    }
 }
 ```
 
@@ -185,11 +183,11 @@ use PKP\submission\reviewRound\ReviewRoundDAO;
 
 $reviewRoundDAO = new ReviewRoundDAO();
 $result = $reviewRoundDao->retrieve(
-  'SELECT * FROM review_rounds WHERE review_round_id = ?',
-  [$reviewRoundId]
+    'SELECT * FROM review_rounds WHERE review_round_id = ?',
+    [$reviewRoundId]
 );
 if ($result->RecordCount()) {
-  $reviewRound = $reviewRoundDao->_fromRow($result->GetRowAssoc(false));
+    $reviewRound = $reviewRoundDao->_fromRow($result->GetRowAssoc(false));
 }
 ```
 
@@ -209,9 +207,9 @@ use PKP\submission\reviewRound\ReviewRoundDAO;
 
 $reviewRoundDAO = new ReviewRoundDAO();
 $result = $reviewRoundDao->retrieveRange(
-  'SELECT * FROM review_rounds WHERE submission_id = ?',
-  [$submissionId],
-  new DBRange($count, $pageNumber)
+    'SELECT * FROM review_rounds WHERE submission_id = ?',
+    [$submissionId],
+    new DBRange($count, $pageNumber)
 );
 $resultFactory = new DAOResultFactory($result, $reviewRoundDao, '_fromRow');
 ```
@@ -220,7 +218,7 @@ Iterate over a `DAOResultFactory` to access each result in the set.
 
 ```php
 while ($reviewRound = $resultFactory->next()) {
-  echo 'Review Round: ' . $reviewRound->getData('round');
+    echo 'Review Round: ' . $reviewRound->getData('round');
 }
 ```
 
@@ -230,14 +228,14 @@ Use the `update` method to insert or update records.
 use PKP\query\QueryDAO;
 $queryDao = new QueryDAO();
 $queryDao->update(
-  'UPDATE queries
-    SET closed = 1
-    WHERE assoc_type = ?
-      AND assoc_id = ?',
-  [
-    ASSOC_TYPE_SUBMISSION,
-    $submissionId,
-  ]
+    'UPDATE queries
+        SET closed = 1
+        WHERE assoc_type = ?
+            AND assoc_id = ?',
+    [
+        ASSOC_TYPE_SUBMISSION,
+        $submissionId,
+    ]
 );
 ```
 
@@ -264,8 +262,8 @@ use PKP\submission\DAO;
 
 $collector = new Collector();
 $collector
-  ->filterByContextIds([$contextId])
-  ->limit(30);
+    ->filterByContextIds([$contextId])
+    ->limit(30);
 
 $dao = new DAO();
 $submissionsInContext = $dao->getMany($collector);
@@ -279,11 +277,11 @@ use PKP\submission\PKPSubmission;
 
 $collector = new Collector();
 $collector
-  ->filterByStatus([PKPSubmission::STATUS_QUEUED])
-  ->filterByStageIds([WORKFLOW_STAGE_ID_EXTERNAL_REVIEW])
-  ->assignedTo([$currentUserId])
-  ->searchPhrase('traditions and trends')
-  ->limit(30);
+    ->filterByStatus([PKPSubmission::STATUS_QUEUED])
+    ->filterByStageIds([WORKFLOW_STAGE_ID_EXTERNAL_REVIEW])
+    ->assignedTo([$currentUserId])
+    ->searchPhrase('traditions and trends')
+    ->limit(30);
 ```
 
 Every `Collector` must have a `getQueryBuilder` method that returns a Laravel [Query Builder](https://laravel.com/docs/8.x/queries) with the configured parameters.
@@ -293,12 +291,12 @@ use PKP\submission\Collector;
 
 $collector = new Collector();
 $queryBuilder = $collector
-  ->filterByContextIds([$contextId])
-  ->getQueryBuilder();
+    ->filterByContextIds([$contextId])
+    ->getQueryBuilder();
 
 $earliestDatePublished = $queryBuilder
-  ->orderBy('date_published', 'asc')
-  ->first('date_published');
+    ->orderBy('date_published', 'asc')
+    ->first('date_published');
 ```
 
 Most `DAO`s implement three methods that accept a `Collector`.
@@ -309,7 +307,7 @@ use PKP\submission\DAO;
 
 $collector = new Collector();
 $collector
-  ->filterByContextIds([$contextId]);
+    ->filterByContextIds([$contextId]);
 
 $dao = new DAO();
 

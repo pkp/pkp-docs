@@ -14,35 +14,43 @@ Hooks allow plugins, themes, and third-party code to intervene in the applicatio
 Use `HookRegistry` to create a hook.
 
 ```php
+use PKP\plugins\HookRegistry;
+
 HookRegistry::call('Context::delete', [$context]);
 ```
 
 Register a callback function to the hook from anywhere in the code, including a third-party plugin. The example below sends an email whenever a journal, press or pre-print server is deleted.
 
 ```php
+use Illuminate\Support\Facades\Mail;
+use PKP\mail\Mailable;
+use PKP\plugins\HookRegistry;
+
 HookRegistry::register('Context::delete', function($hookName, $args) {
-	$context = $args[0];
+    $context = $args[0];
 
-	// Code below is for demonstration and does not work
-	Email::send('admin@admin.com', 'The journal ' . $context->getLocalizedName() . ' was deleted.');
+    $mailable = new PKP\mail\Mailable();
+    $mailable->to('admin@example.com')
+        ->from('editor@example.com')
+        ->subject('The journal ' . $context->getLocalizedName() . ' was deleted.');
 
-	return false;
+    Mail::send($mailable);
+
+    return false;
 });
 ```
 
 It's also possible to use a hook to modify data. In the example below, every new journal that is created is assigned a default `publisherInstitution`.
 
 ```php
-HookRegistry::call('Context::add', [$context, $request]);
-```
+use PKP\plugins\HookRegistry;
 
-```php
 HookRegistry::register('Context::add', function($hookName, $args) {
-	$context = $args[0];
+    $context = $args[0];
 
-	$context->setData('publisherInstitution', 'Public Knowledge Project');
+    $context->setData('publisherInstitution', 'Public Knowledge Project');
 
-	return false;
+    return false;
 });
 ```
 
@@ -55,12 +63,12 @@ HookRegistry::call('Deposit::xml', [&$xml]);
 
 ```php
 HookRegistry::register('Deposit::xml', function($hookName, $args) {
-	$xml =& $args[0];
+    $xml =& $args[0];
 
-	// $xml is now a reference to the same string instead of a copy
-	// so changes made here will effect the original variable
+    // $xml is now a reference to the same string instead of a copy
+    // so changes made here will effect the original variable
 
-	return false;
+    return false;
 });
 ```
 
@@ -68,9 +76,9 @@ More than one callback can be registered to each hook. They are fired in the ord
 
 ```php
 HookRegistry::register('Crossref::deposit', function($hookName, $args) {
-	// ...
+    // ...
 
-	return false;
+    return false;
 }, HOOK_SEQUENCE_LATE);
 ```
 
@@ -78,7 +86,7 @@ Return a truthy value from the callback function to prevent other callbacks from
 
 ```php
 HookRegistry::register('Crossref::deposit', function($hookName, $args) {
-	return true;
+    return true;
 }, HOOK_SEQUENCE_CORE);
 ```
 

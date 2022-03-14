@@ -27,6 +27,8 @@
   * [Email](./utilities-email)
   * [Files](./utilities-files)
   * [Hooks](./utilities-hooks)
+  * Jobs
+  * Migrations
   * Notifications
   * [Translation](./utilities-translation)
   * Updates

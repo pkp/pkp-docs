@@ -66,7 +66,7 @@ Check if a file exists.
 ```php
 $file = Services::get('file')->get($fileId);
 if (Services::get('file')->fs->has($file->path)) {
-	...
+    ...
 }
 ```
 

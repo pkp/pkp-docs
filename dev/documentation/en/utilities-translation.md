@@ -15,7 +15,7 @@ PKP's applications support multilingual publishing. This means the application c
 
 Every word or phrase used in the application is stored in a `.po` file. The `.po` files are stored in a `locales` directory and look like the example below.
 
-```
+```po
 # locale/en_US/common.po
 
 msgid "common.cancel"
@@ -48,22 +48,22 @@ msgstr "Completed: {$dateCompleted}"
 $label = __('common.completed.date', ['dateCompleted' => $dateCompleted]);
 ```
 
-> Never combine two localized phrases together. Every language has its own grammar and the order of words and sentences may change. Instead of `"View: " . $name` include the param in the localized string: `"View: {$name}"`.
-{:.warning}
+Never combine two localized phrases together. Every language has its own grammar and the order of words and sentences may change. Always include the param in the localized string:
 
-Locale strings are divided into separate files and each file is loaded when it is needed. If the application is asked to translate a locale key that is contained within a locale file that has not been loaded, it will return the locale key untranslated and wrapped in `##` so that it can be identified and fixed.
+```po
+msgid "view"
+msgstr "View"
 
-```php
-echo __('admin.hostedContexts');
-// result --> ##admin.hostedContexts##
+msgid "view.withName"
+msgstr "View: {$name}"
 ```
 
-Use the `AppLocale` class to load the required locale file.
-
 ```php
-AppLocale::requireComponents(LOCALE_COMPONENT_PKP_ADMIN, LOCALE_COMPONENT_APP_ADMIN);
-echo __('admin.hostedContexts');
-// result --> Hosted Journals
+// Do this:
+$goodLabel = __('view.example', ['name' => $name]);
+
+// Do not do this:
+$badLabel = __('view') . ": $name";
 ```
 
 Use the `{translate}` function when working with a Smarty template.

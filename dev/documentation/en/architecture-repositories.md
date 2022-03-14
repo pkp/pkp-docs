@@ -6,15 +6,11 @@ title: Repositories - Technical Documentation - OJS|OMP|OPS
 
 # Repositories
 
-A `Repository` provides a public API to interact with an entity. The `Repository` relies on the [DAO](./architecture-daos) to insert, update and delete records. It combines these actions with other business requirements.
+A `Repository` provides a public API to interact with an entity. The `Repository` relies on the [DAO](./architecture-daos) to insert, update and delete records. It combines these actions with other business requirements. When a `Repository` modifies an object, it may write logs, send emails, fire hooks, refresh cache, or schedule jobs when an object is modified.
 
-The entity's [DAO](./architecture-daos) is a "dumb" class that only knows how to read and write data for that entity. However, a `Repository` is a "smart" class that coordinates that entity's relationships with other entities in the application.
+In special cases, you may want to add, edit or delete an object without writing logs, sending emails, or updating the modified date. For example, when importing data. In such cases, you can use the [DAO](./architecture-daos) directly. In all other cases, use the `Repository` class to get, add, edit or delete objects. This will ensure that hooks, email notifications or activity logs are not skipped when an action is taken.
 
-A `Repository` may write logs, send emails, fire hooks, refresh cache, or schedule jobs when an object is modified.
-
-In rare cases, you may need to use the [DAO](./architecture-daos) to add or edit objects. For example, when importing a submission you may not want to add the object without writing logs, sending emails, or updating the modified date.
-
-In all other cases, use the `Repository` class to get, add, edit or delete objects. This will ensure that hooks, email notifications or activity logs are not skipped when an action is taken.
+Think of an entity's [DAO](./architecture-daos) as a "dumb" class that only knows how to read and write data for that entity. The `Repository` is a "smart" class that coordinates that entity's relationships with other entities in the application.
 
 Get the `Repository` for an entity from the `Repo` facade.
 
@@ -43,9 +39,9 @@ Get many objects.
 
 ```php
 $publications = Repo::publication()->getMany(
-  Repo::publication()
-    ->getCollector()
-    ->filterBySubmissionIds([$submissionId])
+    Repo::publication()
+        ->getCollector()
+        ->filterBySubmissionIds([$submissionId])
 );
 ```
 
@@ -53,8 +49,8 @@ Add an object.
 
 ```php
 $publication = Repo::publication()->newDataObject([
-  'sectionId' => $sectionId,
-  'submissionId' => $submissionId,
+    'sectionId' => $sectionId,
+    'submissionId' => $submissionId,
 ]);
 $publicationId = Repo::publication()->add($publication);
 ```
@@ -66,7 +62,7 @@ $props = ['sectionId' => 3];
 $publication = Repo::publication()->get($id);
 $errors = Repo::validate($publication, $props, ...);
 if (!$errors) {
-  Repo::edit($publication, $props);
+    Repo::edit($publication, $props);
 }
 ```
 
@@ -85,37 +81,37 @@ use APP\publication\DAO;
 
 class Repository
 {
-  /** @var DAO */
-  public $dao;
+    /** @var DAO */
+    public $dao;
 
-  public function __construct(DAO $dao)
-  {
-    $this->dao = $dao;
-  }
+    public function __construct(DAO $dao)
+    {
+        $this->dao = $dao;
+    }
 
-  /** @copydoc DAO::get() */
-  public function get(int $id): ?Publication
-  {
-    return $this->dao->get($id);
-  }
+    /** @copydoc DAO::get() */
+    public function get(int $id): ?Publication
+    {
+        return $this->dao->get($id);
+    }
 
-  /** @copydoc DAO::getCount() */
-  public function getCount(Collector $collector): ?Publication
-  {
-    return $this->dao->getCount($collector);
-  }
+    /** @copydoc DAO::getCount() */
+    public function getCount(Collector $collector): ?Publication
+    {
+        return $this->dao->getCount($collector);
+    }
 
-  /** @copydoc DAO::getIds() */
-  public function getIds(Collector $collector): ?Publication
-  {
-    return $this->dao->getIds($collector);
-  }
+    /** @copydoc DAO::getIds() */
+    public function getIds(Collector $collector): ?Publication
+    {
+        return $this->dao->getIds($collector);
+    }
 
-  /** @copydoc DAO::getMany() */
-  public function getMany(Collector $collector): ?Publication
-  {
-    return $this->dao->getMany($collector);
-  }
+    /** @copydoc DAO::getMany() */
+    public function getMany(Collector $collector): ?Publication
+    {
+        return $this->dao->getMany($collector);
+    }
 }
 ```
 
@@ -128,35 +124,34 @@ use APP\publication\DAO;
 
 class Repository
 {
-  /** @var DAO */
-  public $dao;
+    /** @var DAO */
+    public $dao;
 
-  public function __construct(DAO $dao)
-  {
-    $this->dao = $dao;
-  }
+    public function __construct(DAO $dao)
+    {
+        $this->dao = $dao;
+    }
 
-  /** @copydoc DAO::insert() */
-  public function add(Publication $publication): int
-  {
+    /** @copydoc DAO::insert() */
+    public function add(Publication $publication): int
+    {
+        // Set the publication's last modified date before it is saved.
+        $publication->stampModified();
 
-    // Set the publication's last modified date before it is saved.
-    $publication->stampModified();
+        // Use the DAO method to insert the record.
+        $publicationId = $this->dao->insert($publication);
 
-    // Use the DAO method to insert the record.
-    $publicationId = $this->dao->insert($publication);
+        // Allow plugins to hook into the action
+        HookRegistry::call('Publication::add', [$publication]);
 
-    // Allow plugins to hook into the action
-    HookRegistry::call('Publication::add', [$publication]);
+        // Log the event
+        SubmissionLog::logEvent(...);
 
-    // Log the event
-    SubmissionLog::logEvent(...);
+        // Refresh a cached count of unpublished versions
+        Cache::refreshPendingVersions(...);
 
-    // Refresh a cached count of unpublished versions
-    Cache::refreshPendingVersions(...);
-
-    return $publicationId;
-  }
+        return $publicationId;
+    }
 }
 ```
 
@@ -169,24 +164,24 @@ use APP\submission\DAO;
 
 class Repository
 {
-  /** @var DAO */
-  public $dao;
+    /** @var DAO */
+    public $dao;
 
-  public function __construct(DAO $dao)
-  {
-    $this->dao = $dao;
-  }
-
-  public function deleteByContextId(int $contextId)
-  {
-    $submissionIds = $this->getIds(
-        $this->getCollector()
-            ->filterByContextIds([$contextId])
-    );
-    foreach ($submissionIds as $submissionId) {
-      $this->dao->deleteById($submissionId);
+    public function __construct(DAO $dao)
+    {
+        $this->dao = $dao;
     }
-  }
+
+    public function deleteByContextId(int $contextId)
+    {
+        $submissionIds = $this->getIds(
+                $this->getCollector()
+                        ->filterByContextIds([$contextId])
+        );
+        foreach ($submissionIds as $submissionId) {
+            $this->dao->deleteById($submissionId);
+        }
+    }
 }
 ```
 
@@ -201,16 +196,16 @@ use PKP\core\PKPRequest;
 
 class Repository
 {
-  public $dao;
-  public $schemaService;
-  public $request;
+    public $dao;
+    public $schemaService;
+    public $request;
 
-  public function __construct(DAO $dao, PKPSchemaService $schemaService, PKPRequest $request)
-  {
-    $this->dao = $dao;
-    $this->schemaService = $schemaService;
-    $this->request = $request;
-  }
+    public function __construct(DAO $dao, PKPSchemaService $schemaService, PKPRequest $request)
+    {
+        $this->dao = $dao;
+        $this->schemaService = $schemaService;
+        $this->request = $request;
+    }
 }
 ```
 
@@ -221,12 +216,12 @@ namespace PKP\core;
 
 class AppServiceProvider extends ServiceProvider
 {
-  public function register()
-  {
-    $this->app->singleton(PKPRequest::class, function ($app) {
-      return Application::get()->getRequest();
-    });
-  }
+    public function register()
+    {
+        $this->app->singleton(PKPRequest::class, function ($app) {
+            return Application::get()->getRequest();
+        });
+    }
 }
 ```
 
