@@ -10,7 +10,7 @@ Every request to a [PageHandler](./architecture-handlers#page-handlers) returns 
 
 ```php
 class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
+	public function distribution(array $args, Request $request) {
 		$templateMgr = TemplateManager::getManager($request);
 		return $templateMgr->display('path/to/template.tpl');
 	}
@@ -21,7 +21,7 @@ Templates are located in the `/templates` and `lib/pkp/templates` directories. I
 
 ```php
 class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
+	public function distribution(array $args, Request $request) {
 		$templateMgr = TemplateManager::getManager($request);
 
 		// Searches for a template in the following directories:
@@ -60,7 +60,7 @@ Assign variables to a template in the `PageHandler`.
 
 ```php
 class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
+	public function distribution(array $args, Request $request) {
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->assign([
 			'description' => 'This is an example description.',
@@ -84,7 +84,7 @@ Use conditional expressions and loops.
 
 ```php
 class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
+	public function distribution(array $args, Request $request) {
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->assign([
 			'items' => ['a', 'b', 'c'],
@@ -172,7 +172,7 @@ Every page in the editorial backend should set the page title.
 
 ```php
 class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
+	public function distribution(array $args, Request $request) {
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->assign([
 			'pageTitle' => __('manager.distribution.title'),

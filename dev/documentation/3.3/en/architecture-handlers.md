@@ -25,7 +25,7 @@ class IssueHandler extends Handler {
 	/**
 	 * Display the table of contents for the current issue
 	 */
-	public function current(Array $args, Request $request) {
+	public function current(array $args, Request $request) {
 		return '<html>...</html>';
 	}
 }
@@ -43,7 +43,7 @@ class IssueHandler extends Handler {
 	/**
 	 * Display a list of all issues
 	 */
-	public function index(Array $args, Request $request) {
+	public function index(array $args, Request $request) {
 		return '<html>...</html>';
 	}
 }
@@ -68,7 +68,7 @@ Any URL fragments that are appended after the op will be passed to the `Handler`
 
 ```php
 class IssueHandler extends Handler {
-	public function view(Array $args, Request $request) {
+	public function view(array $args, Request $request) {
 		$issueId = isset($args[0]) ? (int) $args[0] : null;
 		return '<html>...</html>';
 	}
@@ -79,7 +79,7 @@ Return a `404` error when page arguments request an entity that does not exist.
 
 ```php
 class IssueHandler extends Handler {
- public function view(Array $args, Request $request) {
+ public function view(array $args, Request $request) {
 	 $issueId = isset($args[0]) ? (int) $args[0] : null;
 	 if (/* issue not found */) {
 		 $this->getDispatcher()->handle404();
@@ -95,7 +95,7 @@ Page Handlers return HTML code using the `TemplateManager`.
 
 ```php
 class IssueHandler extends Handler {
-	public function current(Array $args, Request $request) {
+	public function current(array $args, Request $request) {
 		$templateMgr = TemplateManager::getManager($request);
 		return $templateMgr->display('/path/to/template.tpl');
 	}

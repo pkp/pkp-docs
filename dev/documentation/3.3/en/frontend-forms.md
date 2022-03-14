@@ -15,7 +15,7 @@ Each form extends the `FormComponent` class.
  * @file classes/components/form/context/PKPContactForm.inc.php
  */
 namespace PKP\components\forms\context;
-use \PKP\components\forms\FormComponent;
+use PKP\components\forms\FormComponent;
 
 /**
  * Each form should have a unique ID defined in a constant
@@ -48,7 +48,7 @@ class PKPContactForm extends FormComponent {
 Add fields to the form by using one of the available `FieldXXXX` component types. Include a `use` statement at the top of the file to import the field class.
 
 ```php
-use \PKP\components\forms\FieldText;
+use PKP\components\forms\FieldText;
 ```
 
 And add fields in the `__construct` method.
@@ -157,8 +157,8 @@ Use an extended form class when an application needs to modify a form shared by 
 
 ```php
 namespace APP\components\forms\context;
-use \PKP\components\forms\context\PKPContextForm;
-use \PKP\components\forms\FieldText;
+use PKP\components\forms\context\PKPContextForm;
+use PKP\components\forms\FieldText;
 
 class ContextForm extends PKPContextForm {
 
@@ -208,8 +208,8 @@ Fields can be grouped together to provide a shared label and description.
 
 ```php
 namespace PKP\components\forms\context;
-use \PKP\components\forms\FormComponent;
-use \PKP\components\forms\FieldText;
+use PKP\components\forms\FormComponent;
+use PKP\components\forms\FieldText;
 
 define('FORM_MASTHEAD', 'masthead');
 

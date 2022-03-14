@@ -48,7 +48,7 @@ Initialize state on the server by using the `setState` method to pass data to th
 
 ```php
 class WorkflowHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
+	public function distribution(array $args, Request $request) {
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->setState([
 			'isPublished' => $publication->getData('status') === STATUS_PUBLISHED,
@@ -99,7 +99,7 @@ State is passed down to these components as `props`.
 
 ```php
 class WorkflowHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
+	public function distribution(array $args, Request $request) {
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->setState([
 			'formId' => 'exampleForm',
@@ -130,7 +130,7 @@ In such cases, `Page` components make use of events to manage state for these co
 
 ```php
 class WorkflowHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
+	public function distribution(array $args, Request $request) {
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->setState([
 			'components' => [
