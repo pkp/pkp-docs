@@ -8,8 +8,10 @@
   * [Handlers](./architecture-handlers)
   * [Authentication](./architecture-authentication)
   * [Authorization](./architecture-authorization)
-  * [Services](./architecture-services)
   * [Entities](./architecture-entities)
+  * [DAOs](./architecture-daos)
+  * [Repositories](./architecture-repositories)
+  * [Maps](./architecture-maps)
   * [Database](./architecture-database)
   * [إعدادات المخطط الانسيابي](./architecture-plugins)
 * [Frontend](./frontend)
@@ -22,13 +24,17 @@
   * Application
   * Cache
   * Config
+  * [Email](./utilities-email)
   * [Files](./utilities-files)
   * [Hooks](./utilities-hooks)
+  * Jobs
+  * Migrations
   * Notifications
   * [Translation](./utilities-translation)
   * Updates
   * [Validation](./utilities-validation)
 * Other
+  * [Decisions](./decisions)
   * [Email Templates](./email-templates)
   * [Publication Versions](./publication-versions)
   * [الفصل 9: الاشتراكات](./statistics)
