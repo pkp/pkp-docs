@@ -1,5 +1,7 @@
 ---
-title: UI Library - Frontend - Technical Documentation - OJS/OMP
+book: dev-documentation
+version: 3.4
+title: UI Library - Frontend - Technical Documentation - OJS|OMP|OPS
 ---
 
 # UI Library
@@ -45,14 +47,21 @@ Data that may change after the page is loaded is called state. For example, when
 Initialize state on the server by using the `setState` method to pass data to the `Page` component.
 
 ```php
-class WorkflowHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
-		$templateMgr->setState([
-			'isPublished' => $publication->getData('status') === STATUS_PUBLISHED,
-		]);
-		return $templateMgr->display('/workflow.tpl');
-	}
+use APP\submission\Submission;
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class WorkflowHandler extends Handler
+{
+    public function distribution(array $args, Request $request)
+	{
+        $templateMgr = TemplateManager::getManager($request);
+        $templateMgr->setState([
+            'isPublished' => $publication->getData('status') === Submission::STATUS_PUBLISHED,
+        ]);
+        return $templateMgr->display('/workflow.tpl');
+    }
 }
 ```
 
@@ -96,8 +105,14 @@ The `Page` component sometimes manages state that should be passed down to a com
 State is passed down to these components as `props`.
 
 ```php
-class WorkflowHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class WorkflowHandler extends Handler
+{
+	public function distribution(array $args, Request $request)
+	{
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->setState([
 			'formId' => 'exampleForm',
@@ -127,8 +142,14 @@ This leads to a problem when a field's value changes. The `Form` component can n
 In such cases, `Page` components make use of events to manage state for these components. The component's props are added to a `components` object in the state.
 
 ```php
-class WorkflowHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class WorkflowHandler extends Handler
+{
+	public function distribution(array $args, Request $request)
+	{
 		$templateMgr = TemplateManager::getManager($request);
 		$templateMgr->setState([
 			'components' => [
@@ -235,13 +256,15 @@ window.pkp = Object.assign(PkpLoad, {
 Finally, the `PageHandler` must assign the `pageComponent` variable to the template and pass the correct state
 
 ```php
+use APP\template\TemplateManager;
+
 $templateMgr = TemplateManager::getManager($request);
 $templateMgr->assign([
-	'pageComponent' => 'SettingsPage',
+    'pageComponent' => 'SettingsPage',
 ]);
 $templateMgr->setState([
-	'announcementLabel' => __('announcement.announcements'),
-	'announcementsUrl' => $request->getRouter()->url($request, null, 'management', 'settings', 'announcements'),
+    'announcementLabel' => __('announcement.announcements'),
+    'announcementsUrl' => $request->getRouter()->url($request, null, 'management', 'settings', 'announcements'),
 ])
 ```
 

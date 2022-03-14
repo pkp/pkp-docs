@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Files - Technical Documentation - OJS|OMP|OPS
 ---
 
@@ -64,7 +66,7 @@ Check if a file exists.
 ```php
 $file = Services::get('file')->get($fileId);
 if (Services::get('file')->fs->has($file->path)) {
-	...
+    ...
 }
 ```
 

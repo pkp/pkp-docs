@@ -1,5 +1,7 @@
 ---
-title: Pages - Frontend - Technical Documentation - OJS/OMP
+book: dev-documentation
+version: 3.4
+title: Pages - Frontend - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Pages
@@ -7,26 +9,38 @@ title: Pages - Frontend - Technical Documentation - OJS/OMP
 Every request to a [PageHandler](./architecture-handlers#page-handlers) returns the HTML code for a complete webpage. The `TemplateManager` is used to load and render a template.
 
 ```php
-class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
-		return $templateMgr->display('path/to/template.tpl');
-	}
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class SettingsHandler extends Handler
+{
+    public function distribution(array $args, Request $request)
+    {
+        $templateMgr = TemplateManager::getManager($request);
+        return $templateMgr->display('path/to/template.tpl');
+    }
 }
 ```
 
 Templates are located in the `/templates` and `lib/pkp/templates` directories. If a template does not exist in the application directory it will look for the equivalent template in the PKP library.
 
 ```php
-class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
+use APP\template\TemplateManager;
 
-		// Searches for a template in the following directories:
-		// - templates/distribution.tpl
-		// - lib/pkp/templates/distribution.tpl
-		return $templateMgr->display('distribution.tpl');
-	}
+import('classes.handler.Handler');
+
+class SettingsHandler extends Handler
+{
+    public function distribution(array $args, Request $request)
+    {
+        $templateMgr = TemplateManager::getManager($request);
+
+        // Searches for a template in the following directories:
+        // - templates/distribution.tpl
+        // - lib/pkp/templates/distribution.tpl
+        return $templateMgr->display('distribution.tpl');
+    }
 }
 ```
 
@@ -34,9 +48,12 @@ A `PageHandler` for the editorial backend must set a class property to identify 
 
 
 ```php
-class SettingsHandler extends Handler {
+import('classes.handler.Handler');
 
-	public $_isBackendPage = true;
+class SettingsHandler extends Handler
+{
+
+    public $_isBackendPage = true;
 
 }
 ```
@@ -57,14 +74,20 @@ Page templates are rendered by the [Smarty](https://www.smarty.net/) templating 
 Assign variables to a template in the `PageHandler`.
 
 ```php
-class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
-		$templateMgr->assign([
-			'description' => 'This is an example description.',
-		]);
-		return $templateMgr->display('path/to/template.tpl');
-	}
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class SettingsHandler extends Handler
+{
+    public function distribution(array $args, Request $request)
+    {
+        $templateMgr = TemplateManager::getManager($request);
+        $templateMgr->assign([
+            'description' => 'This is an example description.',
+        ]);
+        return $templateMgr->display('path/to/template.tpl');
+    }
 }
 ```
 
@@ -81,14 +104,20 @@ Use the variable in the template.
 Use conditional expressions and loops.
 
 ```php
-class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
-		$templateMgr->assign([
-			'items' => ['a', 'b', 'c'],
-		]);
-		return $templateMgr->display('path/to/template.tpl');
-	}
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class SettingsHandler extends Handler
+{
+    public function distribution(array $args, Request $request)
+    {
+        $templateMgr = TemplateManager::getManager($request);
+        $templateMgr->assign([
+            'items' => ['a', 'b', 'c'],
+        ]);
+        return $templateMgr->display('path/to/template.tpl');
+    }
 }
 ```
 
@@ -129,14 +158,22 @@ It is sometimes necessary to use a variable inside of a localized string.
 -->
 ```
 
-Use the `$smarty` variable to access a PHP constant.
+Use fully-qualified class names to access class constants.
+
+```html
+{if $status === \APP\submission\Submission::STATUS_PUBLISHED}
+	✔ Published
+{/if}
+```
+
+Use the `$smarty` variable to access a global PHP constant.
 
 ```php
-define('STATUS_PUBLISHED', 3);
+define('WORKFLOW_STAGE_ID_SUBMISSION', 1);
 ```
 ```html
-{if $submissionStatus === $smarty.const.STATUS_PUBLISHED}
-	✔ This submission is published
+{if $stageId === WORKFLOW_STAGE_ID_SUBMISSION}
+	Stage: Submission
 {/if}
 ```
 
@@ -169,14 +206,20 @@ Information that includes HTML should use the `strip_unsafe_html` modifier. This
 Every page in the editorial backend should set the page title.
 
 ```php
-class SettingsHandler extends Handler {
-	public function distribution(Array $args, Request $request) {
-		$templateMgr = TemplateManager::getManager($request);
-		$templateMgr->assign([
-			'pageTitle' => __('manager.distribution.title'),
-		]);
-		return $templateMgr->display('distribution.tpl');
-	}
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class SettingsHandler extends Handler
+{
+    public function distribution(array $args, Request $request)
+    {
+        $templateMgr = TemplateManager::getManager($request);
+        $templateMgr->assign([
+            'pageTitle' => __('manager.distribution.title'),
+        ]);
+        return $templateMgr->display('distribution.tpl');
+    }
 }
 ```
 
@@ -189,7 +232,7 @@ It is sometimes necessary to retrieve a variable that has already been assigned 
 ```php
 $status = $templateMgr->getTemplateVars('status');
 $templateMgr->assign([
-	'isPublished' => $status === STATUS_PUBLISHED
+    'isPublished' => $status === STATUS_PUBLISHED
 ]);
 ```
 

@@ -1,5 +1,7 @@
 ---
-title: Services - Technical Documentation - OJS|OMP|OPS
+book: dev-documentation
+version: 3.3
+title: Services - Technical Documentation - OJS|OMP|OPS 3.3
 ---
 
 # Services

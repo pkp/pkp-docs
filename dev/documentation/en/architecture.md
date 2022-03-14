@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Architecture - Technical Documentation - OJS|OMP|OPS
 ---
 
@@ -72,9 +74,11 @@ $journal = $request->getJournal();
 A single instance of OJS can run many journals. It is important to restrict requests for submissions, users and other objects in the system by the context.
 
 ```php
-$submissions = Services::get('submission')->getMany([
-  'contextId' => $request->getContext()->getId(),
-]);
+$context = $request->getContext();
+$collector = Repo::submission()
+  ->getCollector()
+  ->filterByContextIds([$context->getId()]);
+$submissions = Repo::submission()->getMany($collector);
 ```
 
 Failure to pass a context or context id to many methods will return objects for all contexts.

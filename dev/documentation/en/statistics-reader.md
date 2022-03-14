@@ -1,10 +1,12 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Reader Statistics - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Reader Statistics
 
-OJS and OMP offer [Service](architecture-services.md) classes to help you retrieve and calculate statistics about your installation.
+OJS and OMP offer service classes to help you retrieve and calculate statistics about your installation.
 
 Reader statistics refer to the activity of users visiting the reader-facing website of a journal or press. Daily and monthly totals of visitors are stored for each context, section, article landing page and article galley.
 
@@ -16,10 +18,10 @@ Get all the records related to an article landing page for one journal during th
 
 ```php
 $records = Services::get('stats')->getRecords([
-	'contextIds' => [1],
-	'dateEnd' => '2020-03-31',
-	'dateStart' => '2020-01-01',
-	'assocTypes' => [ASSOC_TYPE_SUBMISSION],
+    'contextIds' => [1],
+    'dateEnd' => '2020-03-31',
+    'dateStart' => '2020-01-01',
+    'assocTypes' => [ASSOC_TYPE_SUBMISSION],
 ]);
 ```
 
@@ -27,9 +29,9 @@ Add up the records to get a total count for all submissions.
 
 ```php
 $views = array_reduce(
-	$records,
-	[Services::get('stats'), 'sumMetric'],
-	0
+    $records,
+    [Services::get('stats'), 'sumMetric'],
+    0
 );
 ```
 
@@ -39,10 +41,10 @@ Get all records for one article's PDF galleys.
 
 ```php
 $records = Services::get('stats')->getRecords([
-	'contextIds' => [1],
-	'submissionIds' => [1],
-	'assocTypes' => [ASSOC_TYPE_SUBMISSION_FILE],
-	'fileTypes' => [STATISTICS_FILE_TYPE_PDF],
+    'contextIds' => [1],
+    'submissionIds' => [1],
+    'assocTypes' => [ASSOC_TYPE_SUBMISSION_FILE],
+    'fileTypes' => [STATISTICS_FILE_TYPE_PDF],
 ]);
 ```
 
@@ -50,9 +52,9 @@ And add them up.
 
 ```php
 $views = array_reduce(
-	$records,
-	[Services::get('stats'), 'sumMetric'],
-	0
+    $records,
+    [Services::get('stats'), 'sumMetric'],
+    0
 );
 ```
 
@@ -60,9 +62,9 @@ Or get all the records for any of the article's galleys.
 
 ```php
 $records = Services::get('stats')->getRecords([
-	'contextIds' => [1],
-	'submissionIds' => [1],
-	'assocTypes' => [ASSOC_TYPE_SUBMISSION_FILE],
+    'contextIds' => [1],
+    'submissionIds' => [1],
+    'assocTypes' => [ASSOC_TYPE_SUBMISSION_FILE],
 ]);
 ```
 
@@ -90,15 +92,15 @@ Get a list of the top 10 articles by total visits to its landing page and galley
 
 ```php
 $topSubmissions = Services::get('stats')->getOrderedObjects(
-	STATISTICS_DIMENSION_SUBMISSION_ID,
-	STATISTICS_ORDER_DESC,
-	[
-		'contextIds' => [1],
-		'dateEnd' => '2020-03-31',
-		'dateStart' => '2020-03-01',
-		'count' => 10,
-		'offset' = 0,
-	]
+    STATISTICS_DIMENSION_SUBMISSION_ID,
+    STATISTICS_ORDER_DESC,
+    [
+        'contextIds' => [1],
+        'dateEnd' => '2020-03-31',
+        'dateStart' => '2020-03-01',
+        'count' => 10,
+        'offset' = 0,
+    ]
 );
 ```
 
@@ -106,16 +108,16 @@ This will return an associative array.
 
 ```
 [
-	['id' => 213, 'total' => 2314],
-	['id' => 431, 'total' => 2139],
-	['id' => 132, 'total' => 2002],
-	['id' => 321, 'total' => 1987],
-	['id' => 753, 'total' => 1932],
-	['id' => 642, 'total' => 1845],
-	['id' => 243, 'total' => 1653],
-	['id' => 532, 'total' => 1652],
-	['id' => 120, 'total' => 1420],
-	['id' => 193, 'total' => 1201],
+    ['id' => 213, 'total' => 2314],
+    ['id' => 431, 'total' => 2139],
+    ['id' => 132, 'total' => 2002],
+    ['id' => 321, 'total' => 1987],
+    ['id' => 753, 'total' => 1932],
+    ['id' => 642, 'total' => 1845],
+    ['id' => 243, 'total' => 1653],
+    ['id' => 532, 'total' => 1652],
+    ['id' => 120, 'total' => 1420],
+    ['id' => 193, 'total' => 1201],
 ]
 ```
 
@@ -123,12 +125,12 @@ Get a list of the top 10 journals by total visits to any article associated with
 
 ```php
 $topContexts =  Services::get('stats')->getOrderedObjects(
-	STATISTICS_DIMENSION_CONTEXT_ID,
-	STATISTICS_ORDER_DESC,
-	[
-		'count' => 10,
-		'offset' = 0,
-	]
+    STATISTICS_DIMENSION_CONTEXT_ID,
+    STATISTICS_ORDER_DESC,
+    [
+        'count' => 10,
+        'offset' = 0,
+    ]
 );
 ```
 
@@ -140,13 +142,13 @@ Get a monthly count of visits to all article landing pages in a journal.
 
 ```php
 $timeline =  Services::get('stats')->getTimeline(
-	STATISTICS_DIMENSION_MONTH,
-	[
-		'contextIds' => [1],
-		'assocTypes' = [ASSOC_TYPE_SUBMISSION],
-		'dateEnd' => '2020-12-31',
-		'dateStart' => '2020-01-01',
-	]
+    STATISTICS_DIMENSION_MONTH,
+    [
+        'contextIds' => [1],
+        'assocTypes' = [ASSOC_TYPE_SUBMISSION],
+        'dateEnd' => '2020-12-31',
+        'dateStart' => '2020-01-01',
+    ]
 );
 ```
 
@@ -154,22 +156,22 @@ This will return an associative array.
 
 ```
 [
-	[
-		'date' => '2020-01',
-		'label' => 'January, 2020',
-		'value' => 5313,
-	],
-	[
-		'date' => '2020-02',
-		'label' => 'February, 2020',
-		'value' => 4364,
-	],
-	[
-		'date' => '2020-03',
-		'label' => 'March, 2020',
-		'value' => 6301,
-	],
-	...
+    [
+        'date' => '2020-01',
+        'label' => 'January, 2020',
+        'value' => 5313,
+    ],
+    [
+        'date' => '2020-02',
+        'label' => 'February, 2020',
+        'value' => 4364,
+    ],
+    [
+        'date' => '2020-03',
+        'label' => 'March, 2020',
+        'value' => 6301,
+    ],
+    ...
 ]
 ```
 
@@ -177,14 +179,14 @@ Get a daily count of visits to one article's landing page.
 
 ```php
 $timeline =  Services::get('stats')->getTimeline(
-	STATISTICS_DIMENSION_DAY,
-	[
-		'contextIds' => [1],
-		'submissionIds' => [21],
-		'assocTypes' = [ASSOC_TYPE_SUBMISSION],
-		'dateEnd' => '2020-01-31',
-		'dateStart' => '2020-01-01',
-	]
+    STATISTICS_DIMENSION_DAY,
+    [
+        'contextIds' => [1],
+        'submissionIds' => [21],
+        'assocTypes' = [ASSOC_TYPE_SUBMISSION],
+        'dateEnd' => '2020-01-31',
+        'dateStart' => '2020-01-01',
+    ]
 );
 ```
 

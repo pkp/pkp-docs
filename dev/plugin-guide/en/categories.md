@@ -199,11 +199,12 @@ import('lib.pkp.classes.plugins.ReportPlugin');
 class ArticleReportPlugin extends ReportPlugin {
   public function display($args, $request) {
 
-    // Get all submissions (or 5,000 if there are more than that)
-    $submissions = Services::get('submissions')->getMany([
-      'count' => 5000,
-      'context' => $request->getContext()->getId(),
-    ]);
+    // Get the first 100 submissions
+    $collector = Repo::submission()
+      ->getCollector()
+      ->filterByContextIds([$context->getId()])
+      ->limit(100);
+    $submissions = Repo::submission()->getMany($collector);
 
     // Return a CSV file
     header('content-type: text/comma-separated-values');
