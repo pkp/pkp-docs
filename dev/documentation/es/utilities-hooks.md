@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Hooks - Technical Documentation - OJS|OMP|OPS
 ---
 
@@ -13,17 +15,27 @@ Hooks allow plugins, themes, and third-party code to intervene in the applicatio
 Use `HookRegistry` to create a hook.
 
 ```php
+use PKP\plugins\HookRegistry;
+
 HookRegistry::call('Context::delete', [$context]);
 ```
 
 Register a callback function to the hook from anywhere in the code, including a third-party plugin. The example below sends an email whenever a journal, press or pre-print server is deleted.
 
 ```php
+use Illuminate\Support\Facades\Mail;
+use PKP\mail\Mailable;
+use PKP\plugins\HookRegistry;
+
 HookRegistry::register('Context::delete', function($hookName, $args) {
     $context = $args[0];
 
-    // Code below is for demonstration and does not work
-    Email::send('admin@admin.com', 'The journal ' . $context->getLocalizedName() . ' was deleted.');
+    $mailable = new PKP\mail\Mailable();
+    $mailable->to('admin@example.com')
+        ->from('editor@example.com')
+        ->subject('The journal ' . $context->getLocalizedName() . ' was deleted.');
+
+    Mail::send($mailable);
 
     return false;
 });
@@ -32,10 +44,8 @@ HookRegistry::register('Context::delete', function($hookName, $args) {
 It's also possible to use a hook to modify data. In the example below, every new journal that is created is assigned a default `publisherInstitution`.
 
 ```php
-HookRegistry::call('Context::add', [$context, $request]);
-```
+use PKP\plugins\HookRegistry;
 
-```php
 HookRegistry::register('Context::add', function($hookName, $args) {
     $context = $args[0];
 
