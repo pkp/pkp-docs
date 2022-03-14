@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Submission Files - Technical Documentation - OJS|OMP|OPS
 ---
 
@@ -12,17 +14,17 @@ Submission files are used to track the progress of a file through the editorial 
 
 Each `SubmissionFile` represents a file at one of these file stages. For example, when an editor promotes a file from the Submission stage to the Review stage, there are two `SubmissionFile` objects which refer to the same file.
 
-| submission_file_id | file_id | file_stage                    |
-| -------------------- | ------- | ----------------------------- |
-| 1                    | 82      | SUBMISSION_FILE_SUBMISSION  |
-| 2                    | 82      | SUBMISSION_FILE_REVIEW_FILE |
+| SubmissionFile::submission_file_id | file_id | file_stage                                    |
+| ------------------------------------ | ------- | --------------------------------------------- |
+| 1                                    | 82      | SubmissionFile::SUBMISSION_FILE_SUBMISSION  |
+| 2                                    | 82      | SubmissionFile::SUBMISSION_FILE_REVIEW_FILE |
 
 Submission files can be revised. For example, the file in the Review stage may need to be anonymized before it can be sent for review. When the editor uploads a modified copy as a revision, the `file_id` is changed but a new `SubmissionFile` is not created.
 
-| submission_file_id | file_id | file_stage                    |
-| -------------------- | ------- | ----------------------------- |
-| 1                    | 82      | SUBMISSION_FILE_SUBMISSION  |
-| 2                    | 83      | SUBMISSION_FILE_REVIEW_FILE |
+| SubmissionFile::submission_file_id | file_id | file_stage                                    |
+| ------------------------------------ | ------- | --------------------------------------------- |
+| 1                                    | 82      | SubmissionFile::SUBMISSION_FILE_SUBMISSION  |
+| 2                                    | 83      | SubmissionFile::SUBMISSION_FILE_REVIEW_FILE |
 
 Editors and assistants can access all revisions of a file in the submission file's activity log.
 
@@ -32,35 +34,35 @@ All submission files are assigned to one file stage. File stages overlap with th
 
 Most file stages correspond to a list of files in the submission workflow, such as the Review Files, Copyedited Files, or Production Ready Files. Other file stages are used to identify submission files that are attached to discussions, review assignments and galleys or publication formats.
 
-| File Stage                                 | Description                                                                                                                                                                                                                   |
-| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `SUBMISSION_FILE_SUBMISSION`               | Files uploaded during submission.                                                                                                                                                                                             |
-| `SUBMISSION_FILE_REVIEW_FILE`              | Files to be sent for peer review.                                                                                                                                                                                             |
-| `SUBMISSION_FILE_REVIEW_ATTACHMENT`        | Files uploaded by a reviewer.                                                                                                                                                                                                 |
-| `SUBMISSION_FILE_ATTACHMENT`               | Files attached by an editor to the email requesting revisions. These files are not displayed in the author dashboard.                                                                                                         |
-| `SUBMISSION_FILE_REVIEW_REVISION`          | Revisions uploaded by the author after peer review.                                                                                                                                                                           |
-| `SUBMISSION_FILE_INTERNAL_REVIEW_FILE`     | Files to be sent for internal review. Only used in OMP.                                                                                                                                                                       |
-| `SUBMISSION_FILE_INTERNAL_REVIEW_REVISION` | Revisions uploaded by the author after peer review. Only used in OMP.                                                                                                                                                         |
-| `SUBMISSION_FILE_FINAL`                    | Files to be copyedited.                                                                                                                                                                                                       |
-| `SUBMISSION_FILE_COPYEDIT`                 | Files that have been copyedited.                                                                                                                                                                                              |
-| `SUBMISSION_FILE_PRODUCTION_READY`         | Files ready to be typeset. For example, a file that is ready to be converted to PDF.                                                                                                                                          |
-| `SUBMISSION_FILE_PROOF`                    | Files attached to a galley (OJS/OPS) or publication format (OMP).                                                                                                                                                             |
-| `SUBMISSION_FILE_DEPENDENT`                | Files that are never downloaded directly but are attached to another file. For example, a CSS file uploaded as a dependent file to a HTML file. Dependent files are uploaded separately when an HTML or XML file is detected. |
-| `SUBMISSION_FILE_QUERY`                    | Files uploaded to a discussion.                                                                                                                                                                                               |
-| `SUBMISSION_FILE_NOTE`                     | This file stage is not used.                                                                                                                                                                                                  |
+| File Stage                                                 | Description                                                                                                                                                                                                                   |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `SubmissionFile::SUBMISSION_FILE_SUBMISSION`               | Files uploaded during submission.                                                                                                                                                                                             |
+| `SubmissionFile::SUBMISSION_FILE_REVIEW_FILE`              | Files to be sent for peer review.                                                                                                                                                                                             |
+| `SubmissionFile::SUBMISSION_FILE_REVIEW_ATTACHMENT`        | Files uploaded by a reviewer.                                                                                                                                                                                                 |
+| `SubmissionFile::SUBMISSION_FILE_ATTACHMENT`               | Files attached by an editor to the email requesting revisions. These files are not displayed in the author dashboard.                                                                                                         |
+| `SubmissionFile::SUBMISSION_FILE_REVIEW_REVISION`          | Revisions uploaded by the author after peer review.                                                                                                                                                                           |
+| `SubmissionFile::SUBMISSION_FILE_INTERNAL_REVIEW_FILE`     | Files to be sent for internal review. Only used in OMP.                                                                                                                                                                       |
+| `SubmissionFile::SUBMISSION_FILE_INTERNAL_REVIEW_REVISION` | Revisions uploaded by the author after peer review. Only used in OMP.                                                                                                                                                         |
+| `SubmissionFile::SUBMISSION_FILE_FINAL`                    | Files to be copyedited.                                                                                                                                                                                                       |
+| `SubmissionFile::SUBMISSION_FILE_COPYEDIT`                 | Files that have been copyedited.                                                                                                                                                                                              |
+| `SubmissionFile::SUBMISSION_FILE_PRODUCTION_READY`         | Files ready to be typeset. For example, a file that is ready to be converted to PDF.                                                                                                                                          |
+| `SubmissionFile::SUBMISSION_FILE_PROOF`                    | Files attached to a galley (OJS/OPS) or publication format (OMP).                                                                                                                                                             |
+| `SubmissionFile::SUBMISSION_FILE_DEPENDENT`                | Files that are never downloaded directly but are attached to another file. For example, a CSS file uploaded as a dependent file to a HTML file. Dependent files are uploaded separately when an HTML or XML file is detected. |
+| `SubmissionFile::SUBMISSION_FILE_QUERY`                    | Files uploaded to a discussion.                                                                                                                                                                                               |
+| `SubmissionFile::SUBMISSION_FILE_NOTE`                     | This file stage is not used.                                                                                                                                                                                                  |
 
 Files assigned to the review file or revision stages must be associated with a review round.
 
 ```php
-$submissionFile->setData('fileStage', SUBMISSION_FILE_REVIEW_FILE);
+$submissionFile->setData('fileStage', SubmissionFile::SUBMISSION_FILE_REVIEW_FILE);
 $submissionFile->setData('assocType', ASSOC_TYPE_REVIEW_ROUND);
 $submissionFile->setData('assocId', $reviewRoundId);
 ```
 
-Files assigned to the `SUBMISSION_FILE_QUERY` file stage must be associated with a query note.
+Files assigned to the `SubmissionFile::SUBMISSION_FILE_QUERY` file stage must be associated with a query note.
 
 ```php
-$submissionFile->setData('fileStage', SUBMISSION_FILE_QUERY);
+$submissionFile->setData('fileStage', SubmissionFile::SUBMISSION_FILE_QUERY);
 $submissionFile->setData('assocType', ASSOC_TYPE_NOTE);
 $submissionFile->setData('assocId', $noteId);
 ```
@@ -87,7 +89,7 @@ Submission files can not be created without required properties.
 ```php
 $submissionFile = DAORegistry::getDao('SubmissionFileDAO')->newDataObject();
 $submissionFile->setAllData([
-    'fileStage' => SUBMISSION_FILE_REVIEW_FILE,
+    'fileStage' => SubmissionFile::SUBMISSION_FILE_REVIEW_FILE,
     'fileId' => $fileId,
     'name' => [
         $primaryLocale => 'my-filename.txt',
@@ -101,7 +103,7 @@ Validate the submission file before it is added or edited.
 
 ```php
 $params = [
-    'fileStage' => SUBMISSION_FILE_REVIEW_FILE,
+    'fileStage' => SubmissionFile::SUBMISSION_FILE_REVIEW_FILE,
     'fileId' => $fileId,
     'name' => [
         $primaryLocale => 'my-filename.txt',
@@ -133,7 +135,7 @@ Use the `Services::getAssignedFileStages()` method to determine what file stages
 
 ```php
 $stageAssignments = $this->getAuthorizedContextObject(ASSOC_TYPE_ACCESSIBLE_WORKFLOW_STAGES);
-$assignedFileStages = Services::get('submissionFile')->getAssignedFileStages($stageAssignments, SUBMISSION_FILE_ACCESS_READ);
+$assignedFileStages = Services::get('submissionFile')->getAssignedFileStages($stageAssignments, SubmissionFile::SUBMISSION_FILE_ACCESS_READ);
 ```
 
 Use the `ReviewFilesDAO` to check if a reviewer can access a file.
@@ -147,7 +149,7 @@ Use the `QueryDAO` to check if a user can access a discussion file.
 
 ```php
 if (
-    $submissionFile->getData('fileStage') === SUBMISSION_FILE_QUERY &&
+    $submissionFile->getData('fileStage') === SubmissionFile::SUBMISSION_FILE_QUERY &&
     $submissionFile->getData('assocType') === ASSOC_TYPE_NOTE
 ) {
     $queryDao = DAORegistry::getDAO('QueryDAO'); /* @var $queryDao QueryDAO */
@@ -164,21 +166,21 @@ if (
 
 The following table describes when users are granted access to submission files.
 
-| File Stage                                             | Manager | Subeditor<sup>1</sup> | Assistant<sup>1</sup> | Author          | Rédacteur/Rédacteur de rubrique |
-| ------------------------------------------------------ | ------- | --------------------- | --------------------- | --------------- | ------------------------------- |
-| `SUBMISSION_FILE_SUBMISSION`                           | ✔       | ✔                     | ✔                     | ✔<sup>2</sup>   |                                 |
-| `SUBMISSION_FILE_REVIEW_FILE`                          | ✔       | ✔                     | ✔                     | ✔<sup>4,8</sup> | ✔<sup>7,8</sup>                 |
-| `SUBMISSION_FILE_REVIEW_ATTACHMENT`                    | ✔       | ✔                     | ✔                     | ✔<sup>4</sup>   | ✔                               |
-| `SUBMISSION_FILE_ATTACHMENT`                           | ✔       | ✔                     | ✔                     | ✔               |                                 |
-| `SUBMISSION_FILE_REVIEW_REVISION`                      | ✔       | ✔                     | ✔                     | ✔<sup>3</sup>   |                                 |
-| `SUBMISSION_FILE_INTERNAL_REVIEW_FILE`<sup>6</sup>     | ✔       | ✔                     | ✔                     | ✔<sup>4,8</sup> | ✔<sup>7,8</sup>                 |
-| `SUBMISSION_FILE_INTERNAL_REVIEW_REVISION`<sup>6</sup> | ✔       | ✔                     | ✔                     | ✔<sup>3</sup>   |                                 |
-| `SUBMISSION_FILE_FINAL`                                | ✔       | ✔                     | ✔                     |                 |                                 |
-| `SUBMISSION_FILE_COPYEDIT`                             | ✔       | ✔                     | ✔                     | ✔<sup>8</sup>   |                                 |
-| `SUBMISSION_FILE_PRODUCTION_READY`                     | ✔       | ✔                     | ✔                     |                 |                                 |
-| `SUBMISSION_FILE_PROOF`                                | ✔       | ✔                     | ✔                     | ✔<sup>8</sup>   |                                 |
-| `SUBMISSION_FILE_DEPENDENT`<sup>9</sup>                | ?       | ?                     | ?                     | ?               | ?                               |
-| `SUBMISSION_FILE_QUERY`<sup>5</sup>                    | ?       | ?                     | ?                     | ?               | ?                               |
+| File Stage                                                             | Manager | Subeditor<sup>1</sup> | Assistant<sup>1</sup> | Author          | Rédacteur/Rédacteur de rubrique |
+| ---------------------------------------------------------------------- | ------- | --------------------- | --------------------- | --------------- | ------------------------------- |
+| `SubmissionFile::SUBMISSION_FILE_SUBMISSION`                           | ✔       | ✔                     | ✔                     | ✔<sup>2</sup>   |                                 |
+| `SubmissionFile::SUBMISSION_FILE_REVIEW_FILE`                          | ✔       | ✔                     | ✔                     | ✔<sup>4,8</sup> | ✔<sup>7,8</sup>                 |
+| `SubmissionFile::SUBMISSION_FILE_REVIEW_ATTACHMENT`                    | ✔       | ✔                     | ✔                     | ✔<sup>4</sup>   | ✔                               |
+| `SubmissionFile::SUBMISSION_FILE_ATTACHMENT`                           | ✔       | ✔                     | ✔                     | ✔               |                                 |
+| `SubmissionFile::SUBMISSION_FILE_REVIEW_REVISION`                      | ✔       | ✔                     | ✔                     | ✔<sup>3</sup>   |                                 |
+| `SubmissionFile::SUBMISSION_FILE_INTERNAL_REVIEW_FILE`<sup>6</sup>     | ✔       | ✔                     | ✔                     | ✔<sup>4,8</sup> | ✔<sup>7,8</sup>                 |
+| `SubmissionFile::SUBMISSION_FILE_INTERNAL_REVIEW_REVISION`<sup>6</sup> | ✔       | ✔                     | ✔                     | ✔<sup>3</sup>   |                                 |
+| `SubmissionFile::SUBMISSION_FILE_FINAL`                                | ✔       | ✔                     | ✔                     |                 |                                 |
+| `SubmissionFile::SUBMISSION_FILE_COPYEDIT`                             | ✔       | ✔                     | ✔                     | ✔<sup>8</sup>   |                                 |
+| `SubmissionFile::SUBMISSION_FILE_PRODUCTION_READY`                     | ✔       | ✔                     | ✔                     |                 |                                 |
+| `SubmissionFile::SUBMISSION_FILE_PROOF`                                | ✔       | ✔                     | ✔                     | ✔<sup>8</sup>   |                                 |
+| `SubmissionFile::SUBMISSION_FILE_DEPENDENT`<sup>9</sup>                | ?       | ?                     | ?                     | ?               | ?                               |
+| `SubmissionFile::SUBMISSION_FILE_QUERY`<sup>5</sup>                    | ?       | ?                     | ?                     | ?               | ?                               |
 
 1. Access is granted when the user group is assigned to the related workflow stage.
 2. Access is granted before submission is complete.
