@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Validation - Technical Documentation - OJS|OMP|OPS
 ---
 
@@ -15,6 +17,8 @@ Data can be validated using the [entity schemas](./architecture-entities#schemas
 The `ValidatorFactory` class is a wrapper for Laravel's [Validator](https://laravel.com/docs/5.5/validation). It mimics Laravel's `make` method to create a validator.
 
 ```php
+use PKP\validation\ValidatorFactory;
+
 $validator = ValidatorFactory::make($props, $rules);
 ```
 
@@ -29,6 +33,8 @@ if ($validator->fails()) {
 Validate a single value.
 
 ```php
+use PKP\validation\ValidatorFactory;
+
 $props = ['contactEmail' => $userEmail];
 $rules = ['contactEmail' => ['email_or_localhost']];
 $validator = ValidatorFactory::make($props, $rules);
@@ -37,13 +43,15 @@ $validator = ValidatorFactory::make($props, $rules);
 Or validate more than one value at a time.
 
 ```php
+use PKP\validation\ValidatorFactory;
+
 $props = [
-  'contactEmail' => $userEmail,
-  'contactUsername' => $userName,
+    'contactEmail' => $userEmail,
+    'contactUsername' => $userName,
 ];
 $rules = [
-  'contactEmail' => ['email_or_localhost'],
-  'contactUsername' => ['alpha_num'],
+    'contactEmail' => ['email_or_localhost'],
+    'contactUsername' => ['alpha_num'],
 ];
 $validator = ValidatorFactory::make($props, $rules);
 ```
@@ -51,6 +59,8 @@ $validator = ValidatorFactory::make($props, $rules);
 The validator will return helpful errors when a value does not validate. If you want, you can customize these messages by passing an additional argument.
 
 ```php
+use PKP\validation\ValidatorFactory;
+
 $props = ['contactUsername' => $userName];
 $rules = ['contactUsername' => ['min:6', 'alpha_num']];
 $messages = ['contactUsername.min' => 'The journal contact username must be at least 6 characters.'];
@@ -73,7 +83,7 @@ Validation rules can be defined in an entity's [schema](./architecture-entities#
 }
 ```
 
-These rules will be applied when the entity's [Service](./architecture-services) class validates user input that contains a `numAnnouncementsHomepage` prop. See the [Service Validation](#service-validation) section below.
+These rules will be applied when the entity's [Repository](./architecture-repositories) validates user input that contains a `numAnnouncementsHomepage` prop. See the [Repository Validation](#repository-validation) section below.
 
 Every property that can be empty or null must have the `nullable` validation rule assigned, or it will throw an error when it is empty.
 
@@ -92,104 +102,122 @@ Every property that can be empty or null must have the `nullable` validation rul
 > 
 > {:.notice}
 
-## Service Validation
+## Repository Validation
 
-An entity's [Service](./architecture-services) class should implement a `validate` method which validates props against the schema. Use the `SchemaService` to access helper methods for working with the schema.
+An entity's [Repository](./architecture-repositories) should implement a `validate` method which validates props against the schema. Use the `SchemaService` to access helper methods for working with the schema.
 
 ```php
-class PKPContextService implements EntityWriteInterface {
-    /**
-     * @copydoc \PKP\Services\EntityProperties\EntityWriteInterface::validate()
-     */
-    public function validate($action, $props, $allowedLocales, $primaryLocale) {
-        $schemaService = Services::get('schema');
-        import('lib.pkp.classes.validation.ValidatorFactory');
-        $validator = \ValidatorFactory::make(
+namespace PKP\context;
+
+use PKP\context\Context;
+use PKP\services\PKPSchemaService;
+use PKP\validation\ValidatorFactory;
+
+class Repository
+{
+    protected PKPSchemaService $schemaService;
+
+    public function __construct(PKPSchemaService $schemaService)
+    {
+        $this->schemaService = $schemaService;
+    }
+
+    public function validate(?Context $context, array $props, array $allowedLocales, string $primaryLocale): array
+    {
+        $errors = [];
+
+        // Validate the $props against the entity's
+        // schema file
+        $validator = ValidatorFactory::make(
             $props,
-      $schemaService->getValidationRules(SCHEMA_CONTEXT, $allowedLocales)
-    );
-  }
+            $this->schemaService->getValidationRules(PKPSchemaService::SCHEMA_CONTEXT, $allowedLocales)
+        );
+
+        // Validate the $props against the required fields
+        // in the entity's schema file
+        ValidatorFactory::required(
+            $validator,
+            $submission,
+            $this->schemaService->getRequiredProps(PKPSchemaService::SCHEMA_CONTEXT),
+            $this->schemaService->getMultilingualProps(PKPSchemaService::SCHEMA_CONTEXT),
+            $primaryLocale,
+            $allowedLocales
+        );
+
+        // Validate the $props against the locales supported
+        // by this context.
+        ValidatorFactory::allowedLocales(
+            $validator,
+            $this->schemaService->getMultilingualProps(SCHEMA_CONTEXT),
+            $allowedLocales
+        );
+    }
 }
-```
-
-The `SchemaService` includes a helper method to validate required fields.
-
-```php
-if ($action === VALIDATE_ACTION_ADD) {
-  \ValidatorFactory::required(
-    $validator,
-    $schemaService->getRequiredProps(SCHEMA_CONTEXT),
-    $schemaService->getMultilingualProps(SCHEMA_CONTEXT),
-    $primaryLocale
-  );
-}
-```
-
-The `allowedLocales` helper method will throw an error if values are provided for any locales which are not supported by the journal or press.
-
-```php
-\ValidatorFactory::allowedLocales(
-  $validator,
-  $schemaService->getMultilingualProps(SCHEMA_CONTEXT),
-  $allowedLocales
-);
-```
-
-The `requirePrimaryLocale` helper method will validate props that should be required in the primary locale, but not required in other locales.
-
-
-```php
-// Require a journal name to be provided in the primary locale
-\ValidatorFactory::requirePrimaryLocale(
-  $validator,
-  ['name'],
-  $props,
-  $allowedLocales,
-  $primaryLocale
-);
 ```
 
 Some validation rules can not be described in the schema. This is the case when validation requires checking the database. For example, a context can not have a `urlPath` if another context exists with that `urlPath`.
 
-In such cases, the [Service](./architecture-services) class's `validate` method should be used to extend the validation check.
+In such cases, the [Repository's](./architecture-repositories) `validate` method should be used to extend the validation check.
 
 ```php
-function validate($action, $props, $allowedLocales, $primaryLocale) {
-  $schemaService = Services::get('schema');
-  import('lib.pkp.classes.validation.ValidatorFactory');
-  $validator = \ValidatorFactory::make(
-    $props,
-    $schemaService->getValidationRules(SCHEMA_CONTEXT, $allowedLocales)
-  );
+namespace PKP\context;
 
-  ...
+use PKP\context\Context;
+use PKP\services\PKPSchemaService;
+use PKP\validation\ValidatorFactory;
 
-  // Ensure that a urlPath, if provided, does not already exist
-  $validator->after(function($validator) use ($action, $props) {
-    if (isset($props['urlPath']) && !$validator->errors()->get('urlPath')) {
-      $contextDao = Application::getContextDAO();
-      $contextWithPath = $contextDao->getByPath($props['urlPath']);
-      if ($contextWithPath) {
-        if (!($action === VALIDATE_ACTION_EDIT
-            && isset($props['id'])
-            && (int) $contextWithPath->getId() === $props['id'])) {
-          $validator->errors()->add('urlPath', __('admin.contexts.form.pathExists'));
-        }
-      }
+class Repository
+{
+    protected PKPSchemaService $schemaService;
+
+    public function __construct(PKPSchemaService $schemaService)
+    {
+        $this->schemaService = $schemaService;
     }
-  });
 
-  ...
+    public function validate(?Context $context, array $props, array $allowedLocales, string $primaryLocale): array
+    {
+        $errors = [];
 
-  if ($validator->fails()) {
-    ...
-  }
+        $validator = ValidatorFactory::make(
+            $props,
+            $this->schemaService->getValidationRules(PKPSchemaService::SCHEMA_CONTEXT, $allowedLocales)
+        );
+
+        ...
+
+        // Ensure that a urlPath, if provided, does not already exist
+        $validator->after(function($validator) use ($action, $props) {
+            if (isset($props['urlPath']) && !$validator->errors()->get('urlPath')) {
+                if (/* urlPath is duplicate */) {
+                    $validator->errors()->add('urlPath', __('admin.contexts.form.pathExists'));
+                }
+            }
+        });
+
+        ...
+
+        if ($validator->fails()) {
+            $errors = $this->schemaService->formatValidationErrors($validator->errors());
+        }
+
+        return $errors;
+    }
 }
 ```
 
 ## Custom Rules
 
-OJS and OMP have added custom validation rules for ISSNs, ORCIDs and more. These rules can be applied in the schema.
+OJS and OMP have added the following custom validation rules.
+
+| Rule                 | Descrição                                                           |
+| -------------------- | ------------------------------------------------------------------- |
+| `email_or_localhost` | Extends Laravel's `email` validation to accept emails `@localhost`. |
+| `issn`               | Require a valid [ISSN](https://www.issn.org/).                      |
+| `orcid`              | Require a valid [ORCID](https://orcid.org/).                        |
+| `currency`           | Require a valid currency code.                                      |
+
+These rules can be applied in the schema.
 
 ```json
 {
@@ -202,10 +230,3 @@ OJS and OMP have added custom validation rules for ISSNs, ORCIDs and more. These
   }
 }
 ```
-
-The following rules have been added:
-
-- `email_or_localhost` - Extends Laravel's `email` validation to accept emails `@localhost`.
-- `issn` - Require a valid [ISSN](https://www.issn.org/).
-- `orcid` - Require a valid [ORCID](https://orcid.org/).
-- `currency` - Require a valid currency code.
