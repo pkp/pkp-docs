@@ -31,11 +31,11 @@ When PKP documentation has been created or updated, it goes through a review pro
 
 ### Translate
 
-PKP software users live all over the world and speak many different languages. PKP software has been translated into [over 35 languages](https://pkp.sfu.ca/developers/translation/). Most documentation is written in English initially and needs translation into other languages. If you are a fluent reader of English and fluent writer of another language, translating documentation into the other language is a valuable contribution to the documentation project. <!-- note here on how translations are managed -->
+PKP software users live all over the world and speak many different languages. PKP software has been translated into [over 35 languages](https://pkp.sfu.ca/developers/translation/). Most documentation is written in English initially and needs translation into other languages. If you are a fluent reader of English and fluent writer of another language, translating documentation into the other language is a valuable contribution to the documentation project. More information is available in our [translating guide](/translating-guide/).
 
 ### Make an instructional video or screencast
 
-PKP has a set of videos called [PKP School](http://pkpschool.sfu.ca/) on how to use OJS and contribute to OJS journals, and we are building a collection of other videos about PKP software. If you’re interested in making video tutorials on using PKP software, you can volunteer to help make PKP School videos, or you can make your own video on how to carry out a task or set of tasks in one of the PKP software tools. To assist with PKP School videos, [contact us](mailto:documentation@publicknowledgeproject.org). Tips for making videos in [Style and Format](./style-and-format#tips-for-video-documentation).
+PKP has a set of videos called [PKP School](http://pkpschool.sfu.ca/) on how to use OJS and contribute to OJS journals, and we are building a collection of other videos about PKP software. If you’re interested in making video tutorials on using PKP software, you can volunteer to help make PKP School videos, or you can make your own video on how to carry out a task or set of tasks in one of the PKP software tools. To assist with PKP School videos, [contact us](mailto:documentation@publicknowledgeproject.org). Tips for making videos are available in [Style and Format](./style-and-format#tips-for-video-documentation).
 
 ### Share your local documentation with the PKP user community
 
