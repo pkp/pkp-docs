@@ -179,49 +179,13 @@ SEO can be intimidating and take time, practice, and experience to do properly. 
 
 ## Indexes and Databases
 
-Indexes and databases are online, searchable collections of information. Sometimes they only include metadata (author names, article titles, subjects, keywords, etc.) and sometimes they contain the full-text. Some of them are freely available, and some of them require individual or institutional subscriptions to access. They are typically curated for relevance and quality and will have some set of criteria for what is included. For your journal, three important questions to ask are: is this database relevant to my journal? What are the criteria for being included? How do I submit my journal’s content?
+> Contributed by Andrea Kosavic, Andrea Pritt, and Roger Gillis
 
-### An introduction to indexing services
+Indexes and databases are online, searchable collections of information. Sometimes they only include metadata (author names, article titles, subjects, keywords, etc.) and sometimes they contain the full-text. Some of them are freely available, and some of them require individual or institutional subscriptions to access. They are typically curated for relevance and quality and will have some set of criteria for what is included. Indexing services ensure that scholarly content is discoverable and accessible to the broadest possible audience. It is strategic for a journal’s content to be visible where researchers in the field are conducting their research, and this is achievable by targeting indexes favoured by scholars in a given area of study. This includes any number of open and commercial indexing services and universal indexes like [Google Scholar](https://scholar.google.com).
 
-> Contributed by Andrea Kosavic
+Indexes can broadly be categorized as commercial and open. Both have their advantages and disadvantages and are explored in further detail in the sections that follow. It is important to note that commercial products are not Open Access products. They are designed to provide access to a limited audience, and as such limit your publication's exposure. It is important to broaden one’s indexing strategy beyond commercial indexes and take advantage of multiple different indexes -- both commercial and noncommercial -- to seek the maximum exposure of your journal or publication to a wide variety of audiences.
 
-Indexing services ensure that scholarly content is discoverable and accessible to the broadest possible audience. It is strategic for a journal’s content to be visible where researchers in the field are conducting their research, and this is achievable by targeting indexes favoured by scholars in a given area of study. This includes any number of open and commercial indexing services and universal indexes like [Google Scholar](https://scholar.google.com).
-
-Indexes can broadly be categorized as commercial and open. Both have their advantages and disadvantages and are explored in further detail in the sections that follow.
-
-Those seeking maximum exposure for journals are advised to pursue inclusion in as many indexes as is appropriate and possible. It is prudent to bear in mind the significant [documented advantages of publishing in an open access format in terms of usage and impact](http://sparceurope.org/what-we-do/open-access/sparc-europe-open-access-resources/open-access-citation-advantage-service-oaca/oaca-list/). These advantages are magnified by indexing with open indexes.
-
-It is strategic to target indexes for your journal that address the needs of the scholarly community engaging with your publication. These vary from one discipline to the next. Journal editors are advised to consult [Ulrichs Web Global Serials Directory](https://ulrichsweb.serialssolutions.com/), a commercial service for which institutional libraries may have a subscription. A common strategy is to look up related journals in your subject area within Ulrichs and explore their abstracting & indexing affiliations. This figure shows a tab that be expanded within a respective journal’s description page within Ulrichs.
-
-![Ulrichs](assets/chapter1/ulrichs.png) _A screenshot from Ulrichs Web Global Serials Directory_
-
-This provides an ideal starting point for identifying services to approach. [SPARC also provides a broader list of indexes to consider](http://sparc.arl.org/resources/papers-guides/journal-indexing).
-
-### The indexing process
-
-Different indexes will have varying criteria for including your publication's content in their index. Depending on the index, the indexing process may require manual intervention. As an example, regular exports of metadata from your journal, sometimes in particular formats, may be required.
-
-Some organizations may provide guidelines and their requirements for publishers providing content to them. This can include (but is not limited to):
-
-* Delivery mechanism (e.g., via File transfer protocol or web upload)
-* Acceptable file formats (e.g., PDF, HTML)
-* Provision of metadata -- (e.g., JATS/NLM XML)
-
-Also, bear in mind that some indexes may require that you meet certain criteria before being included in their indexes, such as reaching a minimum number of published articles or publishing a certain category of scholarly outputs (e.g., articles vs. reviews).
-
-In OJS, there are many data export utilities, such as plugins that export to DOAJ and PubMed, that will facilitate providing some of the necessary contents and metadata to certain indexes.
-
-Most often, when an independently published publication such as a journal seeks to partner with a commercial indexing service for inclusion with a particular commercial database or index, they will often be presented with a legal agreement.
-
-If at all possible, it is advisable to seek legal counsel, or advice from those knowledgeable in electronic licensing, to review this document to ensure that it is in the best interest of your journal/publication.
-
-Some things to be wary of:
-
-If the commercial index asks for “exclusive” rights to index your publication, this is problematic. This means that you may not be free to provide other entities (commercial or noncommercial)  with the ability to index your content. Granting the indexing organization “nonexclusive” rights is much better because it frees your journal to seek out other indexing partnerships and not be limited to indexing in just one database or with one commercial vendor.
-
-The amount of time between the provision of your content to the vendor (e.g., PDF files and article metadata) may vary from one subject index to the next. The vendor will typically provide some mechanism for correction of errors in the guidelines for providing them with content.
-
-It is important to note that commercial products are not Open Access products. They are designed to provide access to a limited audience, and as such limit your publication's exposure. It is important to broaden one’s indexing strategy beyond commercial indexes and take advantage of multiple different indexes -- both commercial and noncommercial -- to seek the maximum exposure of your journal or publication to a wide variety of audiences.
+Those seeking maximum exposure for journals are advised to pursue inclusion in as many indexes as is appropriate and possible. A strategic approach is to target indexes for your journal that address the needs of the scholarly community engaging with your publication. These vary from one discipline to the next. For more information about choosing indexes, see PKP's [Indexing Application Guide](https://docs.pkp.sfu.ca/indexing-guide/en/).
 
 ### Open indexes
 
@@ -231,45 +195,23 @@ Many open indexes are also more willing to include content from new journals, pl
 
 Like commercial indexes, open indexes are also looking for high-quality content, peer review, compatible subject matter, and evidence of stability and sustainability. Some, however, may be willing to accept submissions from new journals lacking an established history of publication. If you do not know the best open indexes for your journal, contact your library. They will be able to guide you in the appropriate direction.
 
-### Directory of Open Access Journals (DOAJ)
+Some popular open indexes include the [Directory of Open Access Journals (DOAJ)](https://doaj.org), [PubMed/MedLine](https://pubmed.ncbi.nlm.nih.gov/), and [Google Scholar](https://scholar.google.com/). In fact, Google Scholar [recommends OJS as a publishing system for journals seeking to get their articles discovered online](https://scholar.google.ca/intl/en/scholar/inclusion.html). See these PKP guides for more information about applying for these indexes:
 
-> Contributed by Andrea Pritt
+* [Directory of Open Access Journals (DOAJ) Application Guide](/doaj/en/)
+* [Google Scholar Indexing Guide](/google-scholar/)
+* [PubMed Central and MedLine indexing guide](https://docs.pkp.sfu.ca/indexing-guide/en/pubmed-central-medline)
 
-The [Directory of Open Access Journals (DOAJ)](/doaj/en/) is an online, community-curated list of open access journals, which aims to be the starting point for researchers looking for quality peer-reviewed open access resources. As stated on the DOAJ website: “the aim of the DOAJ is to increase the visibility and ease of use of open access scientific and scholarly journals, thereby promoting their increased usage and impact”[(Directory of Open Access Journals [DOAJ], 2018)](https://doaj.org). The DOAJ's mission is to increase the visibility, accessibility, reputation, usage and impact of quality, peer-reviewed, open access scholarly research journals globally, regardless of discipline, geography or language."[DOAJ, “Mission” 2018](https://doaj.org/about). As of this writing, DOAJ claims to have approximately 11,000+ journals included as part of its index [(DOAJ, 2018)](https://doaj.org).
+### Commercial indexes and aggregators
 
-Having your journal included in DOAJ can have significant benefits for your journal’s reputation, usage, and impact. The DOAJ has established itself as a key index for high-quality open access journals worldwide. It is becoming the defacto “white list” of non-predatory open access journals, so you definitely want to be part of it. Including your journal in DOAJ will bring significant visibility to your journal -- libraries include DOAJ journals as part of their catalogs, which will mean that your journal's content will be included when thousands of students, faculty, and other researchers are looking for content. DOAJ is also a very common resource for authors looking for open access journals to publish in, which will also serve to raise the profile of your journal and assert its legitimacy. To help authors identify potential journals for submission by subject, DOAJ includes a "Browse Subjects" feature.
+Commercial indexes and aggregators are collections of journal citation details (such as author names, article title, journal title, volume and issue numbers, abstracts, etc. – also known as “metadata”) maintained in a central, searchable database. As commercial services, these indexes are only available with a paid subscription and are often accessed by readers through their library. Significant portions of many academic library budgets go toward making these commercial products freely available to their faculty and students. One of the most influential indexes is [Clarivate Analytics](https://clarivate.com/) (previously Thomson Reuters) [Web of Science](https://clarivate.com/products/web-of-science/).
 
-DOAJ determines quality and acceptance into the directory through an extensive application process. In March 2014, new criteria guidelines were established. DOAJ provides guidance for journals for its application process. Journals may also be removed from the index if they do not meet DOAJ’s requirements. More information about inclusion and removal of journals can be found at the [DOAJ FAQ list](https://doaj.org/faq#list). For guidance in applying for inclusion in DOAJ, please see [the DOAJ Application Guide](/doaj/).
+Some indexes may be focused on a single discipline, such as [PsycInfo](https://www.apa.org/pubs/databases/psycinfo) for psychology, whereas others are multidisciplinary, such as Elsevier’s [Scopus](https://www.elsevier.com/solutions/scopus). Some combine information from hundreds of journals, and others may only include the metadata from a few. Some indexes are produced by scholarly societies or nonprofit organizations, and others are produced by for-profit businesses. Commercial indexes are often an  important way for readers to find your content, and getting included in one or more of them is important for your journal’s success.
 
-### Google Scholar
+One important consideration is the ownership of intellectual property. Often, part of the agreements that some commercial organizations will ask journals to sign will include a clause requiring that the journals have the rights to be able to grant the right for the index to include the journal’s content as part of the database. In order to do this, the journal must have had an appropriate policy that has assigned the journal the appropriate rights to redistribute this content. Journal managers may wish to consult [this document that provides guidance for working with commercial aggregators](http://goo.gl/98YgL).
 
-> Contributed by  Roger Gillis and Andrea Kosavic
-
-Google Scholar is a search engine for scholarly literature that has grown quite popular since it launched in 2004. It provides a simple search interface allowing users to search across many disciplines and sources for scholarly material such as articles, theses, books, abstracts, and court opinions and includes material from academic publishers, professional societies, online repositories, universities, and other web sites. [Google Scholar “About” 2018](https://scholar.google.ca/intl/en/scholar/about.html). The [Google Scholar Guide](/google-scholar/) provides a detailed guide for using and troubleshooting Google Scholar.
-
-Google scholar is used by many people to access scholarly research, including researchers themselves, so having your journal included in its search results can provide great exposure for your journal.
-
-OJS interacts very well with Google Scholar. In fact, Google Scholar [recommends OJS as a publishing system for journals seeking to get their articles discovered online](https://scholar.google.ca/intl/en/scholar/inclusion.html). In order to expedite indexing in Google Scholar you can also use [Google Webmaster Tools](https://www.google.com/webmasters/). And, see [the Google Scholar Indexing Guide](/google-scholar/) for detailed guidance relating to troubleshooting indexing with Google Scholar.
-
-Google Scholar has as part of its criteria, that your content feature primarily scholarly articles. Additionally, at a minimum, the abstracts will need to be made freely available in order that they may be viewed in Google Scholar search results.
-
-To be crawled by Google Scholar, the articles that your journal publishes need to be in either the HTML or PDF format. If publishing in PDF, the text must be searchable. To configure searchable text in OJS ensure that the appropriate search settings are enabled in the OJS `config.inc.php` file. You can read more about this in the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/managing-the-environment).
-
-Google Scholar requires that particular technical specifications be followed to ensure proper indexing. OJS users can take comfort in the knowledge that Google Scholar recognizes OJS as meeting its specifications but should take care to read the [indexing guidelines](https://scholar.google.ca/intl/en/scholar/inclusion.html) to ensure their content is optimized for inclusion.
-
-### PubMed/Medline inclusion resources
-
-> Contributed by Andrea Kosavic
-
-PubMed  is one of the most recognized and respected open indexes. As with commercial indexes, PubMed collects metadata from various journals (all in the field of life sciences and biomedicine) and combines them into a single searchable database.
-
-Journals in life sciences, medicine, or biomedicine fields that use the Open Journal Systems platform should endeavour to be included in PubMed. To facilitate this, OJS includes an exporting tool, which produces a file of all of your journal’s metadata suitable for sending directly to PubMed. Some open indexes, such as BioMed Central or Chemistry Central, only include their own published content. For journals not published by BioMed Central or Chemistry Central, it is not an option. Examples of other open indexes include [Agricola](https://agricola.nal.usda.gov/) from the U.S. National Agriculture Library and [ERIC](https://eric.ed.gov/) sponsored by the U.S. Department of Education, Institute of Education Sciences.
-
-*Further reading:* [Medline journal selection FAQ:](https://wayback.archive-it.org/org-350/20180312141547/https://www.nlm.nih.gov/pubs/factsheets/j_sel_faq.html) [Medline online application:](https://wwwcf.nlm.nih.gov/lstrc/lstrcform/med/index.html) [PubMed Central FAQ for publishers:](https://www.ncbi.nlm.nih.gov/pmc/about/faq-pub/) [PubMed Central online application:](https://www.ncbi.nlm.nih.gov/pmc/pub/addjournal/)
+See PKP’s [Index Application Guide](https://docs.pkp.sfu.ca/indexing-guide/en/) for guidance on applying for Web of Science and Scopus.
 
 ### Knowledge Bases and ERM
-
-> Contributed by Andrea Kosavic
 
 A knowledge base in the context of electronic resource management refers to a database of metadata about online journals and other online formats. The information about online journals in a knowledge base is frequently organized by publisher/provider and lists of related titles or titles in a product and is used to facilitate user-facing discovery services such as:
 
@@ -279,39 +221,7 @@ A knowledge base in the context of electronic resource management refers to a da
 
 Knowledge bases and link resolvers, journal title lists, and discovery tools may be more or less interoperable, and may be open source projects, but are more frequently developed and maintained by commercial service providers. In either event, representation of title-level metadata in a knowledge base is prerequisite to link resolving, presence in user-facing journal lists, and indexing in discovery tools such as [Summon](https://www.proquest.com/products-services/The-Summon-Service.html), [EBSCO discovery service](https://www.ebscohost.com/discovery), and [Primo](http://www.exlibrisgroup.com/products/primo-library-discovery/).
 
-Frequently, participation in open indexes such as the DOAJ (as detailed above) will also achieve representation even in commercial knowledge bases, which often seek to include Open Access materials as value-added resources. However, the completeness and currency of open access title lists in knowledge bases varies, and it may be necessary to contact a knowledge base provider to request inclusion or an update to a title list that should include a journal but does not.
-
-## Commercial indexes and aggregators
-
-> Contributed by Andrea Kosavic and Roger Gillis
-
-Commercial indexes and aggregators are collections of journal citation details (such as author names, article title, journal title, volume and issue numbers, abstracts, etc. – also known as “metadata”) maintained in a central, searchable database. As commercial services, these indexes are only available with a paid subscription and are often accessed by readers through their library. Significant portions of many academic library budgets go toward making these commercial products freely available to their faculty and students. One of the most influential indexes is [Clarivate Analytics](https://clarivate.com/) (previously Thomson Reuters) [Web of Science](https://clarivate.com/products/web-of-science/).
-
-Some indexes may be focused on a single discipline, such as [PsycInfo](https://www.apa.org/pubs/databases/psycinfo) for psychology, whereas others are multidisciplinary, such as Elsevier’s [Scopus](https://www.elsevier.com/solutions/scopus). Some combine information from hundreds of journals, and others may only include the metadata from a few. Some indexes are produced by scholarly societies or nonprofit organizations, and others are produced by for-profit businesses. Commercial indexes are often an  important way for readers to find your content, and getting included in one or more of them is important for your journal’s success.
-
-### Listing your journal with commercial indexes
-
-How you get journal included in a subject index will vary from one subject database to the next. It’s possible that your journal may be approached by commercial index organizations such as ProQuest and EBSCO.
-
-One important consideration is the ownership of intellectual property. Often, part of the agreements that some commercial organizations will ask journals to sign will include a clause requiring that the journals have the rights to be able to grant the right for the index to include the journal's content as part of the database. In order to do this, the journal must have had an appropriate policy that has assigned the journal the appropriate rights to redistribute this content. Journal managers may wish to consult the following document, which [provides guidance for working with commercial aggregators](http://goo.gl/98YgL).
-
-The actual steps involved to getting material included in commercial databases will differ. For commercial indexes (and many other indexes) they will make information available on how to go about getting indexed as a part of their databases. For example:
-
-* [EBSCO publisher support](https://www.ebsco.com/publisher-support)
-* [Proquest publisher partnerships](http://www.proquest.com/about/publishers-partners/why-partner-with-proquest.html)
-
-### Web of Science inclusion resources
-
-> Contributed by Andrea Kosavic
-
-Web of Science is another popular commercial index that many journals wish to get indexed in. Editors will first want to consult the master journal list to see if the journal is included, and ensure that their publication is in alignment with the selection criteria.
-
-*Web of Science Resources*
-
-* [Web of Science master journal list](http://ip-science.thomsonreuters.com/mjl/?utm_source=false&utm_medium=false&utm_campaign=false)
-* [Selection process: FAQs](http://wokinfo.com/essays/journal-selection-process/)
-* [Submission form](http://ip-science.thomsonreuters.com/info/journalsubmission-front/?utm_source=false&utm_medium=false&utm_campaign=false)
-* [Evaluation status update request](http://ip-science.thomsonreuters.com/info/jrneval-status/)
+Frequently, participation in open indexes such as the DOAJ will also achieve representation even in commercial knowledge bases, which often seek to include Open Access materials as value-added resources. However, the completeness and currency of open access title lists in knowledge bases varies, and it may be necessary to contact a knowledge base provider to request inclusion or an update to a title list that should include a journal but does not.
 
 ## Promotion and Marketing
 
