@@ -28,6 +28,7 @@
   * [Pronouns](./style-and-format.md#pronouns)
   * [Accessible Hyperlinks](./style-and-format.md#accessible-hyperlinks)
   * [Order of Headings](./style-and-format.md#order-of-headings)
+  * [Blockquote Styles](./style-and-format.md#blockquote-styles)
   * [External Files](./style-and-format.md#linking-to-external-files)
   * [Attribution](./style-and-format.md#attribution)
   * [Tips for Writing Documentation](./style-and-format.md#tips-for-writing-documentation)
