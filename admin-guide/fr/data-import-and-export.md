@@ -148,15 +148,15 @@ Pour exporter les métadonnées d'article vers DOAJ manuellement:
 
 ### Plugiciel DOAJ Export
 
-Le plugiciel PubMed XML Export vous permet d'exporter les métadonnées d'article sous forme de fichier XML au format NLM PubMed/MEDLINE. Pour plus d'informations sur le plugiciel, consultez son fichier README: [https://github.com/pkp/ojs/tree/main/plugins/importexport/pubmed](https://github.com/pkp/ojs/tree/main/plugins/importexport/pubmed)
+Le plugiciel PubMed XML Export vous permet d'exporter les métadonnées d'article sous forme de fichier XML au format NLM PubMed/MEDLINE. For more information about the Plugin, see [its README file](https://github.com/pkp/ojs/tree/main/plugins/importexport/pubmed).
 
 ### Plugiciel Crossref XML Export
 
-Le plugiciel DataCite Export/Registration vous permet d'exporter des métadonnées de publication, d'article, et de fichiers supplémentaires au format DataCite et d'enregistrer les DOI avec DataCite. Pour plus d'informations sur le plugiciel, consultez son fichier README: [https://github.com/pkp/ojs/blob/main/plugins/importexport/datacite/README](https://github.com/pkp/ojs/blob/main/plugins/importexport/datacite/README)
+Le plugiciel DataCite Export/Registration vous permet d'exporter des métadonnées de publication, d'article, et de fichiers supplémentaires au format DataCite et d'enregistrer les DOI avec DataCite. For more information about the Plugin, see [its README file](https://github.com/pkp/ojs/blob/main/plugins/generic/datacite/README).
 
 ### Plugiciel mEDRA Export/Registration
 
-Si votre revue est indexée par le Directory of Open Access Journals (DOAJ), vous pouvez exporter votre revue de publication et les métadonnées de votre article vers DOAJ soit manuellement en utilisant le plugiciel DOAJ Export, soit automatiquement en utilisant l'API DOAJ.
+If your journal is indexed by the Directory of Open Access Journals (DOAJ), you can export your journal issue and article metadata to DOAJ either manually using the DOAJ Export Plugin or automatically using the DOAJ API.
 
 Vous pouvez voir les paramètres d'utilisation en exécutant la commande suivante:
 
