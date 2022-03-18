@@ -52,7 +52,9 @@ Users who navigate using a screen reader must be able to unambiguously understan
 
 ## Order of Headings
 
-To facilitate navigation by tabbing or with a screen reader, headings should be used in hierarchical order, without skipping. Markdown headings correspond to HTML headings as follows:
+To facilitate navigation by tabbing or with a screen reader, headings should be used in hierarchical order, without skipping.
+
+Markdown headings correspond to HTML headings as follows:
 
 `<h1> = #`
 
@@ -67,6 +69,49 @@ The headings are nested according to their rank or level. E.g. `<h1>` or `#` is 
 Avoid skipping headings in a document structure to prevent confusion, even if you prefer the visual presentation. A `<h2>` must be followed by a `<h3>` as the next subheading in the same section. However, it is acceptable to have a `<h4>` followed directly by a `<h2>` when it opens a new section, as long as `<h4>` closes the previous one.
 
 Only one `<h1>` or `#` heading should be used per document, because it serves as the document title. Therefore most sections within a Docs Hub page will start with `<h2>` or `##`.
+
+## Blockquote Styles
+
+When creating documentation in Markdown, you have the option of using coloured content blocks to highlight information for the reader. There are three options available: a "tip" block, a "notice" block, and a "warning" block. This will not add any semantic markup to the text blocks, and will only add coloured backgrounds to visually highlight the text.
+
+We recommend using each style for the following types of content:
+
+- Tip (yellow): Content that you want to highlight that may be helpful to the reader.
+- Notice (blue): Content that is important for the reader to know.
+- Warning (red): Essential content for the reader to understand before they continue.
+
+### Syntax
+
+To add a blockquote style to a section of text, use the blockquote Markdown styling by starting a section of text with a `>` character. Then, add the styling on the line after the text you are highlighting in braces. You can include other Markdown formatting, like bold text or links, in these blockquotes as well.
+
+For example, if you wanted a block of text to have the warning style, you would use the following syntax:
+
+```
+> Documentation for the REST APIs in OMP and OPS is not yet available. These applications share many of the same endpoints as OJS, but the documentation has not yet been prepared.
+{:.notice}
+```
+
+### Examples
+
+The examples below demonstrate what each style will look like in the documentation hub.
+
+#### Tip
+
+> All of the form field components can be seen in the [UI Library](/dev/ui-library/dev). 
+> 
+> {:.tip}
+
+#### Notice
+
+> Documentation for the REST APIs in OMP and OPS is not yet available. These applications share many of the same endpoints as OJS, but the documentation has not yet been prepared. 
+> 
+> {:.notice}
+
+#### Warning
+
+> **Do not skip this step.** An upgrade can fail for many reasons. Without a backup you may permanently lose data. 
+> 
+> {:.warning}
 
 ## Linking to External Files
 
