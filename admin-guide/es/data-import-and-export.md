@@ -148,15 +148,15 @@ OJS has plugins that allow you to export article metadata to external sites and 
 
 ### PubMed XML Export Plugin
 
-The PubMed XML Export Plugin allows you to export article metadata as an XML file in NLM PubMed/MEDLINE format. For more information about the Plugin, see its README file: [https://github.com/pkp/ojs/tree/main/plugins/importexport/pubmed](https://github.com/pkp/ojs/tree/main/plugins/importexport/pubmed)
+The PubMed XML Export Plugin allows you to export article metadata as an XML file in NLM PubMed/MEDLINE format. For more information about the Plugin, see [its README file](https://github.com/pkp/ojs/tree/main/plugins/importexport/pubmed).
 
 ### DataCite Export/Registration Plugin
 
-The DataCite Export/Registration Plugin allows you to export issue, article, galley, and supplementary file metadata in DataCite format and register DOIs with DataCite. For more information about the Plugin, see its README file: [https://github.com/pkp/ojs/blob/main/plugins/importexport/datacite/README](https://github.com/pkp/ojs/blob/main/plugins/importexport/datacite/README)
+The DataCite Export/Registration Plugin allows you to export issue, article, galley, and supplementary file metadata in DataCite format and register DOIs with DataCite. For more information about the Plugin, see [its README file](https://github.com/pkp/ojs/blob/main/plugins/generic/datacite/README).
 
 ### DOAJ Export Plugin
 
-If your journal is indexed by the Directory of Open Access Journals \(DOAJ\), you can export your journal issue and article metadata to DOAJ either manually using the DOAJ Export Plugin or automatically using the DOAJ API.
+If your journal is indexed by the Directory of Open Access Journals (DOAJ), you can export your journal issue and article metadata to DOAJ either manually using the DOAJ Export Plugin or automatically using the DOAJ API.
 
 To export journal metadata automatically to DOAJ:
 
