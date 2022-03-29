@@ -54,7 +54,7 @@ No OJS 3.3, os autores podem fazer upload de vários arquivos de uma vez, bem co
   <video controls="true" allowfullscreen="true">
     <source src="./assets/submission3.3-files.mp4" type="video/mp4">
   </video>
-  <figcaption>OJS 3.3 drag and drop multiple files.</figcaption>
+  <figcaption>OJS 3.3 arrastar e soltar vários arquivos.</figcaption>
 </figure>
 
 Depois de fazer upload de todos os seus arquivos, você pode indicar, em um único painel de menu, o tipo de arquivo para cada um. Além disso, metadados, como descrição ou licença, podem ser inseridos durante o fluxo de trabalho.
@@ -147,8 +147,8 @@ e você notar que o botão 'Salvar' está cinza e inativo, isso significa que te
 
 ## Respondendo a uma revisão
 
-{% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Responding to Reviews in OJS"%}
-This PKP School video explains how an editor responds to a review and how an author can upload revisions. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Vídeo sobre Respondendo uma avaliação no OJS"%}
+Este vídeo da Escola do PKP explica como um editor responde a uma avaliação e como um autor pode fazer upload de revisões. Para assistir a outros vídeos desta série, visite o [canal da PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 Assim que o processo de revisão for concluído, você será notificado por e-mail pelo Editor sobre sua decisão.
 
@@ -166,7 +166,7 @@ Para visualizar a decisão editorial, clique no link abaixo de notificações.
 
 Com base nas informações da mensagem do Editor, agora você deve preparar suas revisões.
 
-### Enviando o arquivo revisado
+### Enviando o Arquivo Revisado
 
 Quando estiver pronto para carregar o arquivo revisado, role a página para baixo e encontre o painel de **Revisões**.
 
