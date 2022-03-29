@@ -9,8 +9,8 @@ description: Um guia sobre como enviar um manuscrito para um periódico OJS como
 
 Neste capítulo, você aprenderá como um autor trabalha no OJS, desde o registro até a revisão da versão final.
 
-{% include video.html id="AJwDWdAu8BQ" provider="youtube" title="Video of Submitting an Article in OJS"%}
-This PKP School video explains how an author can register for a journal and submit an article. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+{% include video.html id="AJwDWdAu8BQ" provider="youtube" title="Vídeo Submetendo um artigo no OJS"%}
+Este vídeo da Escola do PKP explica como um autor pode se registrar em um periódico e enviar um artigo. Para assistir a outros vídeos desta série, visite o [canal da PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 ## Cadastrando-se na Revista
 
