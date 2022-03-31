@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.3
 ---
 
-# About Open Journal Systems (OJS)
+# Sobre o Open Journal Systems (OJS)
 
 Open Journal Systems \(OJS\) é uma solução de código aberto para o gerenciamento e publicação de periódicos acadêmicos online. OJS é um sistema de gerenciamento e publicação operado por editor, altamente flexível, que pode ser baixado gratuitamente e instalado em um servidor web local.
 
