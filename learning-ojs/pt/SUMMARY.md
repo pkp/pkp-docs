@@ -1,9 +1,9 @@
-# Summary
+# Sumário
 
 * [Prefácio](.)
-* [About Open Journal Systems](./about-ojs.md)
+* [Sobre o Open Journal Systems](./about-ojs.md)
   * [Background](./about-ojs.md#background)
-  * [OJS Features](./about-ojs.md#ojs-features)
+  * [Funcionalidades do OJS](./about-ojs.md#ojs-features)
   * [What's New in This Version of OJS](./about-ojs.md#whats-new-in-this-version-of-ojs)
   * [Community Contributions](./about-ojs.md#community-contributions)
   * [Support](./about-ojs.md#support.md)
