@@ -9,9 +9,9 @@ description: Como gerenciar um artigo manuscrito através do fluxo de trabalho O
 
 Neste capítulo, você acompanhará todo o fluxo de trabalho de uma submissão, desde a primeira submissão até a publicação final.
 
-{% include video.html id="K-qjxN7rOJs" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 2: Editorial Workflow Overview"%}
+{% include video.html id="K-qjxN7rOJs" provider="youtube" title="Vídeo do fluxo editorial em OJS 3.3. Módulo 2: Visão geral do Fluxo de Trabalho Editorial"%}
 
-This PKP School video provides an overview of the editorial workflow in OJS 3.3. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+Este vídeo da Escola do PKP fornece uma visão geral do fluxo de trabalho editorial em OJS 3.3. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 O fluxo de trabalho é dividido em 4 estágios:
 
