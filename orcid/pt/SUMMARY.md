@@ -1,8 +1,8 @@
-# SUMMARY
+# Sumário
 
 * [Introdução](.)
-* [About the ORCID Plugin](./introduction.md)
-* [Set Up the Plugin](./installation-setup.md)
-* [Using the Plugin](./using-plugin.md)
-* [Troubleshooting & Resources](./troubleshooting-resources.md)
-* [Appendix: Testing in the ORCID Sandbox](./appendix-testing-orcid-sandbox.md)
+* [Sobre o Plugin ORCID](./introduction.md)
+* [Configurar o Plugin](./installation-setup.md)
+* [Usando o Plugin](./using-plugin.md)
+* [Solução de problemas & Recursos](./troubleshooting-resources.md)
+* [Apêndice: Testando na Sandbox ORCID](./appendix-testing-orcid-sandbox.md)
