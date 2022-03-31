@@ -60,7 +60,7 @@ Alt text (“texto alternativo”) é uma marcação (tag) legível por máquina
   * Ilustrações ou diagramas;
   * Mapas ou outras imagens geográficas ou topográficas.
 * A alternativa recomendada para escrever sobre imagens complexas é escrever uma descrição curta e uma longa:
-  * A descrição curta em texto alternativo primeiro identifica a imagem e, em seguida, indica a localização da descrição longa. E.g. Por exemplo, `alt="Gráfico trimestral de alterações climáticas. Discussão disponível abaixo."`.
+  * A descrição curta em texto alternativo primeiro identifica a imagem e, em seguida, indica a localização da descrição longa. Ex. Por exemplo, `alt="Gráfico trimestral de alterações climáticas. Discussão disponível abaixo."`.
   * A longa descrição na página contém as informações essenciais transmitidas pela imagem.
 
 ### Posicionamento de imagem para leitores de tela
