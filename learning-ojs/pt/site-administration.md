@@ -1,7 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
-title: Learning Open Journal Systems 3.3 - Site Administration
+title: Aprendendo Open Journal Systems 3.3 - Administração do Site
 ---
 
 # Administração do Portal
@@ -16,7 +16,7 @@ Mais informações técnicas sobre como administrar um site OJS, incluindo atual
 
 Para chegar à Administração do Portal, efetue login como Administrador do Portal e escolha Administração no menu à esquerda.
 
-![OJS site admin main menu with 2 options: site management and administrative functions.](./assets/learning-ojs3.1-sa-site-admin.png)
+![Administrador do site OJS com 2 opções: gerenciamento de site e funções administrativas.](./assets/learning-ojs3.1-sa-site-admin.png)
 
 ### Revistas Hospedadas
 
