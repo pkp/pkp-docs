@@ -1,10 +1,10 @@
 ---
 book: learning-ojs
 version: 3.3
-title: Learning Open Journal Systems 3.3 - Subscriptions
+title: Aprendendo Open Journal Systems 3.3 - Subscrições
 ---
 
-# Assinaturas
+# Subscrições
 
 O OJS permite que você restrinja parte do seu conteúdo, ou o conteúdo todo, aos assinantes. Para habilitar assinaturas, primeiro vá a [Settings > Distribution > Access](./settings-distribution.md).
 
