@@ -4,11 +4,19 @@ title: Theme Features and Design Elements - Designing Your OJS Journal
 
 # Theme Features and Design Elements
 ## Introduction
+
+You can customize your website’s look and feel by selecting one of the several available themes under Settings > Website > Appearance. For the list of available themes with description and demo pages see the [PKP Theming Guide - Themes](https://docs.pkp.sfu.ca/pkp-theming-guide/en/themes). You can change other settings that affect the appearance of your journal under Settings > Website > Appearance. See [Learning OJS 3 - Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) for more details on selecting a theme and configuring appearance settings.
+
+With some themes you can change the colours under Website Settings > Appearance. The colour settings will appear after you select the theme. To adjust it to match a specific colour, e.g., your logo, use a colour-picker tool (via browser developer tools or browser extension) and copy the hex value (looks like #1e6292) into the drop-down box. For details on how to identify elements on a page, see the section [Identifying Elements of CSS](https://docs.pkp.sfu.ca/designing-your-journal/en/creating-stylesheet.html#identifying-elements).
+
+In OJS you can use special plugins to add custom blocks to your site, including Twitter feeds, keyword clouds, and a list of most-read articles. [Learning OJS 3 - Website Settings] (https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) explains how to do this.
+
 The below tables can be used when selecting a theme based on the features and design elements available with each. The three tables compare image settings, colour and font options, and other features for 6 major themes available in OJS. 
 
 Unique features relevant to specific themes are indicated by numbers in the table which correspond to detailed explanations below.
 
 Click on the name of each theme in the table headers to see a sample journal using each theme.
+
 
 ## Images
 
@@ -30,7 +38,6 @@ This table compares image settings between the various themes, including the way
 This table compares the colour and font customization options between the various themes.
 
 | Features                                                                             	| [Default Theme](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/demojournal/index) 	| [Pragma](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/pragma/index)       	| [Manuscript](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/manuscript/index)   	| [Health Science](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/health-sciences/index) 	| [Immersion](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/immersion/index) (3)     	| [Classic](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/classic/index)      	|
-
 |------------------------------    |---------------    |--------    |-------------    |-------------------------------------------------------------------------------------------    |-------------------------------------------------------    |----------------------------------------------------------------------------    |
 | Ability to customize colours     |          		 |   		 |        		 |                                                                                      		 |                                                  		 |                                                                       		 |
 | – Background            		 | N/A      		 | Yes   	 | No     		 | Yes (“Primary color”: affects galley buttons, section headings, submenu background color)     | Yes (for Journal Description & Announcement sections)     | Yes (“Primary color”: affects footer and menu item hover background color)     |
@@ -43,12 +50,11 @@ This table compares display settings between the various themes, including how j
 
 
 | Features                                                                             	| [Default Theme](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/demojournal/index) 	| [Pragma](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/pragma/index)       	| [Manuscript](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/manuscript/index)   	| [Health Science](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/health-sciences/index) 	| [Immersion](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/immersion/index)     	| [Classic](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/classic/index)      	|
-
 |------------------------------    |----------------------    |------------------------------    |----------------------    |-----------------    |---------------------------------------------------------    |-----------    |
 | Journal summary on homepage 	 | Optional        		 | Yes                     		 | Optional        		 | Yes        		 | Optional (setting is called “Show journal description”)     | Optional (1)     |
 | Placement of sidebar blocks 	 | Sidebar         		 | Footer                  		 | Sidebar         		 | Footer     		 | Footer                                             		 | Footer   	 |
 | Author Affiliation      		 | Displayed by default     | Togglable               		 | Displayed by default     | Togglable  		 | Togglable                                          		 | Togglable     |
-| Other features          		 |                 		 | Monochromatic homepage image     |                 		 |            		 | Color-blockingShow section description             		 |      		 |
+| Other features          		 |                 		 | Monochromatic homepage image     |                 		 |            		 | Color-blocking, Show section description             		 |      		 |
 | Accessible*             		 | Yes             		 | Untested                		 | Untested        		 | Untested   		 | Untested                                           		 | Untested 	 |
 
 ## Unique features to be aware of for specific themes
