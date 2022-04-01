@@ -26,6 +26,10 @@ Images are restricted to 848 pixels in width on display. Where possible, try to 
 
 When you take screenshots, do not include the menu and broader elements of the interface unless it is necessary. This lessens the need to replace screenshots when the software interface changes.
 
+## Spelling
+
+PKP's documentation uses Canadian spelling. For example, use "centre" instead of "center."
+
 ## Pronouns
 
 When using pronouns to refer to a generic user, use gender-neutral pronouns such as “they,” “their,” and “them.” Use “they” instead of “he” or “she.” Use “their” instead of “his” or “her.” Use “them” instead of “her” or “him.” Use “themselves” instead of “himself” or “herself.”
