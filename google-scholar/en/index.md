@@ -138,6 +138,8 @@ In OJS 3.2, it is possible to enable multiple languages for your journal and add
 
 See the Learning OJS 3.2 guide under [Website settings - Languages](/learning-ojs/en/settings-website#languages) for details on enabling multiple languages for your journal. See Production and Publication - [Multilingual Submissions](/learning-ojs/en/production-publication#multilingual-submissions) for details on adding metadata in multiple languages.
 
+If you publish multilingual content and use DOIs from Crossref, also consider their [recommendation about journal titles](https://www.crossref.org/documentation/content-registration/verify-your-registration/troubleshooting-submissions/#00634): “if your journal is in more than one language, you need to choose one version of the title as the master entry”.  [In other words](https://community.crossref.org/t/parallel-titles-for-a-given-issn/2183/4): “you need to pick one journal title and stick with it. And, the language of the journal title does not need to match the language of the article title.” Otherwise, having a different journal title for each language may will cause an error when submitting the DOIs for registration.
+
 ### Ensure that authors’ names are formatted consistently
 
 Common formatting errors could include incorrect/inconsistent “first name, last name: format, incomplete names, spelling errors or capitalization, and discrepancies between metatags and published PDF.
