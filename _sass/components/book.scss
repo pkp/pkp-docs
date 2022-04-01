@@ -38,6 +38,10 @@
 		th {
 			font-weight: $bold;
 		}
+		
+		a {
+			word-break: unset;
+		}
 	}
 
 	.video_container {
