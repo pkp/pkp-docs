@@ -55,7 +55,7 @@ This table compares display settings between the various themes, including how j
 | Placement of sidebar blocks 	 | Sidebar         		 | Footer                  		 | Sidebar         		 | Footer     		 | Footer                                             		 | Footer   	 |
 | Author Affiliation      		 | Displayed by default     | Togglable               		 | Displayed by default     | Togglable  		 | Togglable                                          		 | Togglable     |
 | Other features          		 |                 		 | Monochromatic homepage image     |                 		 |            		 | [Colour-blocking](./theme-features-design-elements.md#color-blocking), Show section description             		 |      		 |
-| Accessible*             		 | Yes             		 | Untested                		 | Untested        		 | Untested   		 | Untested                                           		 | Untested 	 |
+| Accessible ([See more](./theme-features-design-elements.md#note-about-accessibility))             		 | Yes             		 | Untested                		 | Untested        		 | Untested   		 | Untested                                           		 | Untested 	 |
 
 ## Unique features to be aware of for specific themes
 
