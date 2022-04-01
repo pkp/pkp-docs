@@ -25,6 +25,7 @@
 * [Style and Format](./style-and-format.md)
   * [Versioning and Updates](./style-and-format.md#versioning-and-updates)
   * [Images](./style-and-format.md#images)
+  * [Spelling](./style-and-format.md#spelling)
   * [Pronouns](./style-and-format.md#pronouns)
   * [Accessible Hyperlinks](./style-and-format.md#accessible-hyperlinks)
   * [Order of Headings](./style-and-format.md#order-of-headings)
