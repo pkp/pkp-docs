@@ -16,7 +16,7 @@ Este vídeo da Escola do PKP explica como um autor pode se registrar em um peri�
 
 Para fazer uma submissão a uma revista que utiliza o OJS, primeiro você precisa criar uma conta de usuário na revista e fazer o login \(consulte [Registrando em uma revista](./user-accounts#registering-with-a-journal)\). Depois disso, ao fazer o login, você será levado à aba de submissão.
 
-![Submissions queue in author dashboard](./assets/learning-ojs3.1-au-dashboard-empty.png)
+![Fila de Submissões no painel do autor](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
 No momento, ela estará vazia porque você não fez nenhuma submissão.
 
@@ -256,8 +256,8 @@ O processo de revisão por pares será repetido e você provavelmente receberá 
 
 ## Respondendo a uma solicitação de edição de texto
 
-{% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Copyediting in OJS"%}
-This PKP School video explains the copyediting process, including how an editor can respond to a copyediting or proofreading request. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+{% include video.html id="uc272bhGfeU" provider="youtube" title="Vídeo sobre a Edição de Texto no OJS"%}
+This PKP School video explains the copyediting process, including how an editor can respond to a copyediting or proofreading request. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 A próxima etapa no fluxo de trabalho é inspecionar os arquivos de envio que foram editados.
 
