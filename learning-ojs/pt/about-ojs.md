@@ -49,7 +49,7 @@ Para se ter acesso a um sumário das mudanças ocorridas na versão OJS 3.3, que
 
 Caso esteja atualizando a versão OJS 2 e queira ver a uma explicação sobre as mudanças do OJS 3. X, acesse [O que tem de novo no OJS 3, na versão anterior deste guia](https://docs.pkp.sfu.ca/learning-ojs/3.1/en/introduction#whats-new-in-ojs-3), e o guia PKP [Atualizando do OJS 2 para OJS 3](https://docs.pkp.sfu.ca/upgrading-ojs-2-to-3/). No entanto, será necessário primeiramente atualizar da versão OJS 2 para a OJS 3.2 e, em seguida, para a versão OJS 3.3.
 
-For a summary of changes in OJS 3.3 that are relevant to developers and development, please see the [Release Notebook for OJS OJS/OMP/OPS v3.3](https://docs.pkp.sfu.ca/dev/release-notebooks/en/3.3-release-notebook)
+Para um resumo de mudanças no OJS 3.3 relevantes para desenvolvedores e desenvolvimento, consulte as [Notas de lançamento para o OJS/OMP/OPS v3.3](https://docs. pkp. sfu. ca/dev/release-notebooks/en/3.3-release-notebook)
 
 ### A Interface do Painel e Menus de Navegação
 
@@ -94,7 +94,7 @@ Uma nova ação editorial permite aos editores reverterem uma decisão declinada
 
 #### Excluir apenas submissão rejeitadas
 
-Somente submissões rejeitadas podem ser excluídas da lista de submissões. You can find further instructions in the [Editorial Workflow chapter](./editorial-workflow#archives).
+Somente submissões rejeitadas podem ser excluídas da lista de submissões. Para mais instruções, acesse o [Capítulo do Fluxo Editorial](./editorial-workflow#archives).
 
 #### Terminologia do tipo de avaliação
 
