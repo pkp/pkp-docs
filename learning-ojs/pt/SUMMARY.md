@@ -2,7 +2,7 @@
 
 * [Prefácio](.)
 * [Sobre o Open Journal Systems](./about-ojs.md)
-  * [Background](./about-ojs.md#background)
+  * [Antecedentes](./about-ojs.md#background)
   * [Funcionalidades do OJS](./about-ojs.md#ojs-features)
   * [What's New in This Version of OJS](./about-ojs.md#whats-new-in-this-version-of-ojs)
   * [Community Contributions](./about-ojs.md#community-contributions)
