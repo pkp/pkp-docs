@@ -26,13 +26,13 @@ No momento, ela estará vazia porque você não fez nenhuma submissão.
 
 Comece uma nova submissão clicando no botão **Nova submissão** localizado no lado direito da tela. Você será direcionado para a Etapa 1 de um processo de 5 etapas, para fazer o upload e descrever o manuscrito submetido.
 
-![Author submission queue with new submission button](./assets/learning-ojs3.1-au-dashboard-empty.png)
+![Fila de submissões do autor com o botão de nova submissão](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
 ### Etapa 1
 
 Na **Etapa 1**, você fornecerá informações preliminares sobre a sua submissão.
 
-![Article submission start screen](./assets/learning-ojs3.3-au-dashboard-new-1.png)
+![Tela inicial de envio do artigo](./assets/learning-ojs3.3-au-dashboard-new-1.png)
 
 Se a revista permite inscrições em vários idiomas, você pode selecionar o idioma do manuscrito que será submetido no menu suspenso. Os idiomas podem ser ativados em Configurações do site -> Configuração -> Idioma.
 
@@ -46,7 +46,7 @@ Leia e concorde com as afirmações na lista de verificação de envio da submis
 
 Na **Etapa 2**, uma janela será aberta, permitindo que você carregue seu arquivo de submissão.
 
-![File upload screen](./assets/learning-ojs-3.3-author-submission-step2.png)
+![Tela de envio de arquivo](./assets/learning-ojs-3.3-author-submission-step2.png)
 
 No OJS 3.3, os autores podem fazer upload de vários arquivos de uma vez, bem como arrastar e soltar arquivos.
 
@@ -65,7 +65,7 @@ Depois de terminar de enviar e nomear todos os seus arquivos, clique no **botão
 
 Na **Etapa 3**, você será solicitado a adicionar mais informações sobre a submissão, incluindo o título da submissão (dividido em prefixo, título e subtítulo) e o resumo. Se a revista permitir submissões em vários idiomas, clicar em cada campo de metadados revelará a opção de inserir metadados nos demais idiomas habilitados, tais como título, subtítulo e resumo no(s) outro(s) idioma(s). Rolando para baixo…
 
-![Enter title metadata in another language](./assets/learning-ojs3.2-au-dashboard-new-3.png)
+![Inserir metadados do título em outro idioma](./assets/learning-ojs3.2-au-dashboard-new-3.png)
 
 ... você pode adicionar quaisquer contribuidores adicionais.
 
@@ -234,7 +234,7 @@ Mais abaixo em seu painel, você também verá uma resposta do Editor para a dis
 
 Cique no título da discussão para abri-lo.
 
-![Review discussion message](./assets/learning-ojs-3-au-rev-discussions2.png)
+![Mensagem de discussão de avaliação](./assets/learning-ojs-3-au-rev-discussions2.png)
 
 Parabéns! Sua revisão foi aceita e seu arquivo de envio está avançando para o estágio de edição.
 
@@ -267,21 +267,21 @@ Você receberá um e-mail indicando que os arquivos estão disponíveis. Para v�
 
 Você pode ver sua submissão no painel Minha Autoria. Selecione o link de edição de texto (Copyediting) para acessar o registro de envio completo, incluindo a notificação no painel Discussões de edição de texto.
 
-![Copyediting section of author dashboard](./assets/learning-ojs-3-au-copyedits-notice.png)
+![Seção de Edição de Texto do painel do autor](./assets/learning-ojs-3-au-copyedits-notice.png)
 
 Clique no link da discussão para abri-lo, ler a mensagem e abrir o arquivo anexado.
 
-![Copyediting check discussion message](./assets/learning-ojs-3-au-copyedits-message.png)
+![Mensagem de discussão de Edição de Texto](./assets/learning-ojs-3-au-copyedits-message.png)
 
 Depois de ler o arquivo anexado, você pode responder ao revisor, indicando as alterações necessárias ou sua aprovação.
 
-![Respond to copyediting check message](./assets/learning-ojs-3-au-copyedits-reply.png)
+![Respondendo a mensagem de verificação de Edição de Texto](./assets/learning-ojs-3-au-copyedits-reply.png)
 
 Se necessário, você pode anexar uma revisão, mas, para este exemplo, as alterações serão simplesmente aprovadas, clicando em **OK**.
 
 No seu painel, é possível ver quem foi a última pessoa a responder à mensagem.
 
-![Dashboard showing copyediting discussions](./assets/learning-ojs-3-au-copyedits-final-dash.png)
+![Painel mostrando discussões de Edição de Texto](./assets/learning-ojs-3-au-copyedits-final-dash.png)
 
 Sua função no processo de edição de texto agora está concluída e você pode aguardar a solicitação para revisar as provas finais (por exemplo, PDFs, HTML, etc.) antes da publicação.
 
@@ -297,14 +297,14 @@ Você receberá um e-mail indicando que os arquivos estão disponíveis. Para v�
 
 Você pode ver sua submissão no painel Minha Autoria. Selecione o link Produção para acessar o registro de envio completo, incluindo a notificação no painel Discussões de produção.
 
-![Production section of author dashboard](./assets/learning-ojs-3-au-production-record.png)
+![Seção Produção do painel do autor](./assets/learning-ojs-3-au-production-record.png)
 
 Clique no link da discussão para abri-lo, ler a mensagem e abrir o arquivo anexado.
 
-![Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message.png)
+![Composição pronta para mensagem de revisão de provas](./assets/learning-ojs-3-au-production-message.png)
 
 Depois de ler o arquivo anexado, você pode responder ao Editor de Layout, indicando as alterações necessárias ou sua aprovação.
 
-![Respond to Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message2.png)
+![Respondendo mensagem de Composição pronta para revisão de provas](./assets/learning-ojs-3-au-production-message2.png)
 
 É isso! Sua função no fluxo de trabalho editorial agora está concluída.
