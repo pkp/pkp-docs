@@ -16,7 +16,7 @@ This repository is one of PKP's community spaces and all activities here are gui
 gem install bundler
 ```
 
-Install Jekyll to build or serve the site.
+Access the `pkp-docs` root folder and install Jekyll to build or serve the site.
 
 ```
 bundle install
