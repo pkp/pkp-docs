@@ -1,45 +1,45 @@
 ---
-title: About the ORCID Plugin Guide for OJS and OPS
+title: Sobre o Guia do Plugin ORCID para OJS e OPS
 ---
 
 # Sobre o Plugin ORCID
 
-[ORCID](https://orcid.org/) (Open Researcher and Contributor Identifier) is a persistent digital identifier that distinguishes individual researchers and supports automated links between researchers and their professional activities. For an overview of ORCID, please see [this introductory ORCID video](https://vimeo.com/97150912).
+[ORCID](https://orcid.org/) (Open Researcher and Contributor Identifier) é um identificador digital persistente que distingue pesquisadores individuais e suporta links automatizados entre pesquisadores e suas atividades profissionais. Para uma visão geral da ORCID, consulte [este vídeo introdutório ORCID](https://vimeo.com/97150912).
 
-PKP partners with ORCID to enable the collection and display of authenticated ORCID iDs for contributors to article and preprints published with Open Journal Systems (OJS) and Open Preprint Systems (OPS) via the ORCID Profile Plugin.
+Parceiros PKP com ORCID permitem a coleta e exibição de iDs ORCID autenticados para contribuidores de artigos e pré-impressos publicados com Open Journal Systems (OJS) e Open Preprint Systems (OPS) através do Plugin de Perfil ORCID.
 
-## What does the ORCID plugin do?
+## O que faz o plugin ORCID?
 
-The ORCID Profile Plugin for OJS/OPS versions 3.1.2 and above allows an OJS journal and an OPS preprint server to:
+O Plugin de Perfil ORCID para as versões de OJS/OPS 3.1.2 e acima permite um diário OJS e um servidor de pré-impressão OPS para:
 
-* Collect and authenticate a contributor’s ORCID iD
-* Automatically send an email to contributors requesting their ORCID iD authentication
-* Display a contributor’s authenticated ORCID iD on the journal article or preprint page, which will link to the contributor’s ORCID record
-* Additionally for the Member API only - Automatically send publication details to a contributor’s ORCID record once their work has been published in OJS/OPS
+* Coletar e autenticar o ID ORCID de um colaborador
+* Enviar automaticamente um e-mail para os colaboradores solicitando sua autenticação iD ORCID
+* Exibe o ID do ORCID autenticado de um colaborador na página de pré-impressão ou artigo, que irá vincular ao registro ORCID do colaborador
+* Além disso apenas para API de Membro- Enviar automaticamente os detalhes de publicação para o registro ORCID de um colaborador uma vez que seu trabalho tenha sido publicado em OJS/OPS
 
-For more details on each of these functions, see the [Using the ORCID plugin](./using-plugin.md) chapter.
+Para obter mais detalhes sobre cada uma dessas funções, consulte o [Usando o plugin ORCID](./using-plugin.md) capítulo.
 
-## Why should you use the ORCID plugin?
+## Por que você deve usar o plugin ORCID?
 
-By integrating ORCID with OJS/OPS, you will be able to support publishing best practices by:
+Ao integrar ORCID com OJS/OPS, você será capaz de suportar a publicação das melhores práticas por:
 
-* Allowing authors to collect their published work in one reliable place
-* Distinguishing authors from others with a similar name, and keeping an up-to-date record regardless of changes in name or affiliation
-* Demonstrating a commitment to transparency and credibility by accurately attributing authors to their published works
-* Supporting the collection of accurate article metadata, including author information, by sharing publication details with CrossRef
+* Permitir que os autores coletem seu trabalho publicado em um só lugar confiável
+* Distinguindo autores de outros com um nome semelhante e mantendo um registro atualizado independente das mudanças de nome ou afiliação
+* Demonstrando um compromisso com a transparência e credibilidade atribuindo com precisão os autores a suas obras publicadas
+* Suportando a coleção de metadados precisos do artigo, incluindo informações do autor, compartilhando detalhes da publicação com CrossRef
 
-## Public vs Member API
+## API pública vs. membro
 
-ORCID provides two different API endpoints for the ORCID Public API and the ORCID Member API.
+ORCID oferece dois endpoints de API diferentes para a API pública ORCID e o membro da API ORCID.
 
-The **Public API** is free and available to anyone. It allows for ORCID iD authentication and reading public data from ORCID records. It allows the journal to have contributors' ORCID iDs authenticated and displayed on article/preprint pages. Its main difference from the Member API is that it will not automatically send pulication details to a contributor’s ORCID record upon publication.
+A **API Pública** é gratuita e disponível para qualquer pessoa. Ela permite a autenticação e leitura de dados públicos de registros ORCID em ORCID. Ela permite que o diário tenha os iDs ORCID dos colaboradores autenticados e exibidos nas páginas de artigo/pré-impressão. A sua principal diferença em relação à API do membro é que não enviará automaticamente os detalhes de pulicação para o registo ORCID de um contribuinte após a publicação.
 
-The **Member API** requires ORCID institutional membership. In addition to the functionalities of the Public API, the Member API allows for reading “trusted-parties” data from ORCID records, as well as automatically adding/updating metadata on ORCID records.
+A **API de membros** requer participação institucional ORCID. Além das funcionalidades da API pública, a API do membro permite a leitura de dados de "grupos confiáveis" de registros ORCID, Além de adicionar/atualizar automaticamente os metadados nos registros ORCID.
 
-If your journal is affiliated with an institution, contact the institution's library to ask about ORCID membership and API credentials. You can also consult the ORCID member directory to see if your organization is already an [ORCID member](https://orcid.org/members), or review [ORCID’s membership information](https://orcid.org/about/membership) if your organization is interested in becoming an ORCID member. You can also contact ORCID directly at support@orcid.org.
+Se o seu diário estiver associado a uma instituição, entre em contato com a biblioteca da instituição para perguntar sobre a filiação ORCID e as credenciais API. Você também pode consultar o diretório de membros do ORCID para ver se sua organização já é um [membro ORCID](https://orcid.org/members), ou revise [ORCID, as informações de participação](https://orcid.org/about/membership) se sua organização estiver interessada em se tornar um membro ORCID. Você também pode contatar o ORCID diretamente em support@orcid.org.
 
-## Sandbox vs production credentials
+## Sandbox versus credenciais de produção
 
-ORCID provides plugin users with an option to test how the plugin works with your installation in a Sandbox (testing) environment before going live with the Production environment. You will need a different set of credentials for the Sandbox vs Production API.
+O ORCID fornece aos usuários de plugin uma opção para testar como o plugin funciona com sua instalação em um ambiente Sandbox (teste) antes de entrar em ambiente de produção. Você precisará de um conjunto diferente de credenciais para a Sandbox vs API de produção.
 
-How to obtain Sandbox credentials, how to test in the Sandbox, and the advantages of testing in the Sandbox are explained further in the [Appendix: Testing the ORCID Sandbox](./appendix-testing-orcid-sandbox.md) chapter.
+Como obter as credenciais da Sandbox, como testar na Sandbox, e as vantagens de testar na Sandbox são mais explicadas no [Apêndice: Testando o capítulo](./appendix-testing-orcid-sandbox.md) ORCID Sandbox.
