@@ -22,7 +22,7 @@ Possui guias, usadas para navegar entre as diferentes seções que a constituem:
 
 ## Equipe Editorial
 
-This PKP School video explains how to configure the Masthead in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como definir as configurações principais da revista no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="DMi6izQ7Pyw" provider="youtube" title="Video of how to configure the Masthead in OJS"%}
 
@@ -36,7 +36,7 @@ This PKP School video explains how to configure the Masthead in OJS. To watch ot
 
 Observe que aqui o nome da Editora é utilizado para os metadados e não será exibido no site. Para mostrar o nome da editora no site, coloque-o no caminho Configurações da Revista > Contato > Endereço Postal. Você também pode incluir a informação em Sobre a Revista, logo abaixo.
 
-**ISSN** (International Standard Serial Number) is an eight-digit number which identifies journals. É gerido pela rede mundial de Centros Nacionais, coordenados por um Centro Internacional sediado em Paris, apoiado pela Unesco e pelo Governo Francês. A number can be obtained from the [ISSN web site](https://www.issn.org/). Isso pode ser feito em qualquer etapa da existência da revista.
+O **ISSN** (Número Internacional Normalizado) é um código de 8 dígitos utilizado para identificar as revistas que possuem publicações seriadas. É gerido pela rede mundial de Centros Nacionais, coordenados por um Centro Internacional sediado em Paris, apoiado pela Unesco e pelo Governo Francês. O ISSN pode ser solicitado em [site ISSN](https://www.issn.org/). Esse pedido pode ser realizado em qualquer etapa da existência da revista.
 
 Tipicamente, as revistas geridas pelo OJS têm o ISSN eletrônico, mas algumas poderão também publicar a versão impressa, que requer um ISSN impresso diferente.
 
@@ -70,7 +70,7 @@ Clique em **Salvar** para gravar as alterações.
 
 ## Seções
 
-This PKP School video explains how to configure Sections in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como configurar as seções no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="IMotkKrDZyc" provider="youtube" title="Video of how to configure sections in OJS"%}
 
