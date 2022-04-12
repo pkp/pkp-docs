@@ -1,31 +1,31 @@
 - - -
-title: Troubleshooting the ORCID Plugin for OJS and OPS
+Como usar o plugin ORCID em OJS e OPS
 - - -
 
-# Troubleshooting
+# Resolução de Problemas
 
-## Make sure your plugin is up to date
+## Verifique se o seu plugin está atualizado
 
-Most troubleshooting issues can be resolved by upgrading the ORCID plugin. If you run into any issues, try upgrading the plugin first. You should also check periodically to make sure your ORCID plugin remains up to date.
+A maioria das questões de solução de problemas pode ser resolvida atualizando o plugin ORCID. Se você tiver quaisquer problemas, tente atualizar o plugin primeiro. Você também deve verificar periodicamente para certificar-se de que o seu plugin ORCID permanece atualizado.
 
-To update the plugin:
+Para atualizar o plugin:
 
-1. Go to Settings > Website > Plugins > Plugin Gallery
-2. Scroll to the ORCID plugin listing
-3. Check to make sure the note next to the ORCID plugin says “up to date”. If there is an update available, install the update by clicking "Update".
+1. Vá para Configurações > Website > Plugins > Galeria de Plugins
+2. Rolar para a listagem de plugin ORCID
+3. Marque para certificar-se de que a nota ao lado do plugin ORCID diz "atualizada". Se houver uma atualização disponível, instale a atualização clicando em "Atualizar".
 
-## Authors receive ORCID invitation links but cannot login
+## Autores recebem links de convite ORCID, mas não podem fazer login
 
-Ensure  that your ORCID plugin is actually configured and not just enabled; don't enable it unless you are ready to configure it.
+Certifique-se de que seu plugin ORCID esteja realmente configurado e não apenas habilitado; não habilite a menos que esteja pronto para configurá-lo.
 
-## ORCID is configured but authors who click the link receive an error message
+## ORCID é configurado, mas autores que clicam no link recebem uma mensagem de erro
 
-Check to ensure that authors are using the current link and not a previous link from the sandbox. If you are on OJS 3.2 it may also be this bug in ORCID email template for authors - [https://github.com/pkp/orcidProfile/issues/122](https://github.com/pkp/orcidProfile/issues/122) (which is resolved in 3.2-1-3 and 3.3)
+Verificar para garantir que os autores estão usando o link atual e não um link anterior do sandbox. Se você estiver em OJS 3.2 também pode ser este bug no modelo de e-mail do ORCID para autores - [https://github. om/pkp/orcidProfile/issues/122](https://github.com/pkp/orcidProfile/issues/122) (que é resolvido em 3.2-1-3 e 3.3)
 
-## Videos
+## Vídeos
 
-- OJS and ORCID introduction: [https://www.youtube.com/watch?v=YgJw9HW-JEg](https://www.youtube.com/watch?v=YgJw9HW-JEg)
-- Set up the plugin: [https://vimeo.com/374414746](https://vimeo.com/374414746)
-- User authorization: [https://vimeo.com/374415404](https://vimeo.com/374415404)
-- Co-authors: [https://vimeo.com/374416189](https://vimeo.com/374416189)
-- Article publication: [https://vimeo.com/374417678](https://vimeo.com/374417678)
+- Introdução ao OJS e ORCID: [https://www.youtube.com/watch?v=YgJw9HW-JEg](https://www.youtube.com/watch?v=YgJw9HW-JEg)
+- Configure o plugin: [https://vimeo.com/374414746](https://vimeo.com/374414746)
+- Autorização de usuário: [https://vimeo.com/374415404](https://vimeo.com/374415404)
+- Co-autores: [https://vimeo.com/374416189](https://vimeo.com/374416189)
+- Publicação de artigo: [https://vimeo.com/374417678](https://vimeo.com/374417678)
