@@ -24,10 +24,18 @@ msgstr "Cancel"
 msgid "common.cancelled"
 msgstr "Cancelled"
 
-msgid "common.submissionsCount"
-msgstr[0] "{$param} = one submission"
-msgstr[1] "{$param} = zero or more than one submission"
-msgstr[2] "This entry isn't needed, English just have two plural forms"
+msgid "common.pendingMessages"
+msgstr[0] "You have one message pending."
+msgstr[1] "You have {$messageCount} messages pending."
+```
+
+The latest example showed us how to setup a pluralized translation for an English locale, other languages however might have more variants according to the quantity, such as Polish, which has 3 variants:
+
+```po
+msgid "comments"
+msgstr[0] "%d Komentarz"
+msgstr[1] "%d Komentarze"
+msgstr[2] "%d Komentarzy"
 ```
 
 Use the `__()` function to get a string from a locale file.
@@ -50,13 +58,17 @@ $label = __('common.completed.date', ['dateCompleted' => $dateCompleted]);
 Use the `__p()` function to work with pluralized locale keys.
 
 ```php
-// 1 = one submission
-$submissions = __p('common.submissionsCount', 1, ['param' => 1]);
-// 10 = zero or more than one submission
-$submissions = __p('common.submissionsCount', 10, ['param' => 10]);
+// You have one message pending.
+$submissions = __p('common.pendingMessages', 1, ['messageCount' => 1]);
+// You have 10 messages pending.
+$submissions = __p('common.pendingMessages', 10, ['messageCount' => 10]);
 ```
 
 Both the `__()` and `__p()` support specifying a different locale than the current.
+
+```php
+$cancelInItalian = __('common.cancel', [], 'it_IT');
+```
 
 Never combine two localized phrases together. Every language has its own grammar and the order of words and sentences may change. Always include the param in the localized string:
 
@@ -83,7 +95,7 @@ Simple translation:
 {translate key="common.cancel"}
 
 Pluralized translation requires the count parameter:
-{translate key="common.submissionsCount" count="10" param="10"}
+{translate key="common.pendingMessages" count="10" messageCount="10"}
 ```
 
 Pass named parameters to the `{translate}` function to replace variables in the locale string.
