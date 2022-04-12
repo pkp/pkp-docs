@@ -1,7 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
-title: Learning Open Journal Systems 3.3 - Users and Roles
+title: Aprendendo o Open Journal Systems 3.3 - Usuários e Papéis
 ---
 
 # Usuários e Papéis
@@ -10,7 +10,7 @@ Esta seção fornece informações sobre o acesso a todas as contas de usuário 
 
 ## Administração de Usuários
 
-This PKP School video explains how to manage users in OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como gerenciar usuários no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="_AAtxnFEodQ" provider="youtube" title="Video of how to manage users in OJS"%}
 
