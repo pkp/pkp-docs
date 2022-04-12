@@ -1,86 +1,86 @@
 - - -
-title: Testing in the ORCID Sandbox - ORCID Plugin Guide for OJS and OPS
+título: Testando no ORCID Sandbox - ORCID Plugin Guide para OJS e OPS
 - - -
 
-# Appendix: Testing in the ORCID Sandbox
+# Apêndice: Testando na Sandbox ORCID
 
-ORCID provides the option to test the ORCID plugin in a Sandbox environment before using it in the live Production environment of your OJS journal or OPS server. Testing the plugin in the Sandbox will allow you to do the following:
+O ORCID fornece a opção de testar o plugin ORCID em um ambiente Sandbox antes de usá-lo no ambiente Live Production de seu diário OJS ou servidor OPS. Testar o plugin na Sandbox permitirá que você faça o seguinte:
 
-* Check that the ORCID plugin works in your installation
-* Learn how to use the plugin and try all of its features without affecting any real ORCID IDs or sending real emails to researchers
-* Test the ORCID Member API to see how it works, even if you are not an ORCID member
+* Verifique se o plugin ORCID funciona na sua instalação
+* Aprenda a usar o plugin e experimente todos os seus recursos sem afetar nenhum ID ORCID real ou enviar e-mails reais para pesquisadores
+* Teste a API de membros ORCID para ver como funciona, mesmo que você não seja um membro ORCID
 
-This chapter explains how to test the plugin.
+Este capítulo explica como testar o plugin.
 
-## Obtain ORCID Sandbox API credentials
+## Obter credenciais de API da ORCID Sandbox
 
-The process for obtaining your Sandbox ORCID API credentials will vary depending on whether you are planning to use the ORCID Public API or the ORCID Member API.
+O processo para obter suas credenciais de API do ORCID Sandbox irá variar dependendo se você planeja usar a API pública ORCID ou a API do membro ORCID.
 
-### Sandbox Public API
+### Sandbox da API Pública
 
-Free and available to anyone, the Public API allows for ORCID iD authentication and reading public data from ORCID records.
+Grátis e disponível para todos, a API pública permite a autenticação iD ORCID e leitura de dados públicos de registros ORCID.
 
-Public API credentials are connected to an individual’s ORCID iD. To obtain Sandbox Public API credentials:
+Credenciais públicas de API estão conectadas ao ORCID de um indivíduo. Para obter as credenciais da Sandbox da API pública:
 
-1. Register for a Sandbox ORCID iD account at the [ORCID sandbox site](https://sandbox.orcid.org).
-2. Sign in to your Sandbox ORCID record.
-3. Go to the “Developer tools” tab, and follow the instructions to [register a public API client application](https://support.orcid.org/hc/en-us/articles/360006897174-Register-a-public-API-client-application). See the note on “ORCID Redirect URIs” below for guidance on what to enter for your Redirect URIs.
+1. Registre uma conta Sandbox ORCID iD no [site ORCID sandbox](https://sandbox.orcid.org).
+2. Acesse seu registro Sandbox ORCID.
+3. Vá para a guia "Ferramentas de Desenvolvedor" e siga as instruções para [registrar uma aplicação pública do cliente API](https://support.orcid.org/hc/en-us/articles/360006897174-Register-a-public-API-client-application). Consulte a nota sobre "URIs de redirecionamento ORCID" abaixo para obter orientações sobre o que inserir para seus URIs de redirecionamento.
 
-### Sandbox Member API
+### API de membros Sandbox
 
-The ORCID Member API requires ORCID institutional membership. In addition to the functionalities of the Public API, the Member API allows for reading “trusted-parties” data from ORCID records, as well as adding/updating metadata on ORCID records. Consult the ORCID member directory to see if your organization is already an [ORCID member](https://orcid.org/members), or review [ORCID’s membership information](https://orcid.org/about/membership) if your organization is interested in becoming an ORCID member.
+A API de membros requer participação institucional ORCID. Somando às funcionalidades da API pública, a API do membro permite a leitura de dados de "grupos confiáveis" de registros ORCID, além de adicionar/atualizar automaticamente os metadados nos registros ORCID. Você também pode consultar o diretório de membros do ORCID para ver se sua organização já é um [membro ORCID](https://orcid.org/members), ou revise [ORCID, as informações de participação](https://orcid.org/about/membership) se sua organização estiver interessada em se tornar um membro ORCID.
 
-Member API credentials are connected to an ORCID member organization. Your organization must be an ORCID member to request Member API credentials. You may wish to check whether your organization belongs to a [local consortium](https://orcid.org/consortia), as you may be able to receive help from the consortium. To request Sandbox Member API credentials:
+As credenciais de membro da API estão conectadas a uma organização membro do ORCID. Sua organização deve ser um membro ORCID para solicitar as credenciais de API do membro. Você também pode querer verificar se sua organização pertence a um [consórcio local](https://orcid.org/consortia), assim como você pode receber ajuda do consórcio. Solicitar credenciais de API pública:
 
-1. Complete the form on ORCID’s page to [Register a client application: Sandbox Member API](https://orcid.org/content/register-client-application-sandbox).
-2. ORCID will email you a Sandbox Client ID and Client Secret shortly after the form is submitted. See the note on “ORCID Redirect URIs” below for guidance on what to enter for your Redirect URIs and Client Name.
+1. Preencha o formulário na página do ORCID para [Registre um aplicativo do cliente: sandbox API](https://orcid.org/content/register-client-application-sandbox).
+2. O ORCID irá enviar por e-mail um ID de Cliente Sandbox e um Segredo do Cliente pouco tempo depois de o formulário ser enviado. Consulte a nota sobre "URIs de redirecionamento ORCID" abaixo para obter orientações sobre o que inserir para seus URIs de redirecionamento.
 
-Once your Sandbox Client ID and Client Secret have been added to the configuration, you can to test the plugin in the ORCID sandbox environment. The sandbox allows the creation of test user ORCID iD accounts and use of the plugin without having to worry about affecting data on the live (production) ORCID Registry. Once the plugin works as expected in the ORCID sandbox environment, you can obtain credentials and move to the ORCID production environment and go live with the plugin.
+Uma vez que o seu Sandbox Client ID e Client Secret forem adicionados à configuração, você pode testar o plugin no ambiente ORCID sandbox. O sandbox permite a criação de contas iD de usuário ORCID de teste e uso do plugin sem ter que se preocupar em afetar os dados do Registro ORCID ao vivo (produção) de teste. Uma vez que o plugin funciona como esperado no ambiente do sandbox ORCID, você pode obter credenciais e mover para o ambiente de produção ORCID e entrar ao vivo com o plugin.
 
-## Test your ORCID Sandbox
+## Teste sua Sandbox ORCID
 
-To test that the plugin is working correctly in the sandbox:
+Para testar se o plugin está funcionando corretamente na sandbox:
 
-### Create a Sandbox ORCID iD
+### Crie um iD Sandbox ORCID
 
-For testing purposes, you will need to create a fake “sandbox” ORCID iD. To do this:
+Para fins de teste, você precisará criar um ORCID "sandbox" falso. Não faça isso:
 
-1. Go to the [ORCID Sandbox registration page](https://sandbox.orcid.org/register) and fill in the form. Make sure to use a made-up email address using `@mailinator.com` - for example: `test123@mailinator.com` Please note the sandbox only allows `@mailinator.com` addresses.
-2. Write down the email address and password that you used to create the sandbox ORCID iD
-3. Go to [mailinator.com](https://www.mailinator.com/) and in the “Enter Public Mailinator Inbox” box, type in your made-up email address and click “Go”
-4. You should be taken to the inbox where a confirmation email from ORCID should appear. Follow the prompts in the email to verify your sandbox ORCID iD account. You can now add information and make changes to your sandbox ORCID record. If your email does not appear in the mailinator.com mailbox, there can be several reasons for it. For example, your OJS/OPS is not properly configured for sending emails, you have misspelled the credentials. Or you may have swapped the client id and secret.
+1. Vá para a [página de registro do ORCID Sandbox](https://sandbox.orcid.org/register) e preencha o formulário. Certifique-se de usar um endereço de e-mail inventado usando `@mailinator.com` - por exemplo: `test123@mailinator. om` Por favor, note que o sandbox só permite `@mailinator.com` endereços.
+2. Anote o endereço de e-mail e a senha que você usou para criar a sandbox ORCID iD
+3. Vá para [mailinator.com](https://www.mailinator.com/) e na caixa "Enter Public Mailinator Inbox", digite seu endereço de e-mail inventado e clique em "Ir"
+4. Você deve ser levado para a caixa de entrada onde um email de confirmação do ORCID deve aparecer. Siga as instruções no e-mail para verificar sua conta iD da sandbox. Agora você pode adicionar informações e fazer alterações no seu registro sandbox ORCID. Se o seu e-mail não aparecer na caixa de correio mailinator.com, pode haver vários motivos para isso. Por exemplo, o seu OJS/OPS não está configurado corretamente para enviar e-mails, você não deve devidamente as credenciais. Ou você pode ter trocado o ID do cliente e o secreto.
 
-### Connect your Sandbox ORCID iD with OJS/OPS & Submit a Test Publication
+### Conecte seu Sandbox ORCID iD com OJS/OPS & Envie uma publicação de teste
 
-There are multiple different ways that an author can connect their ORCID iD with their works in OJS/OPS. The method by which an author’s ORCID iD is connected to their publication in OJS will depend on the number of authors and who is submitting the article. For testing, you will want to follow the instructions below depending on the scenarios that apply to your journal(s) or preprint server(s). If you plan to test more than one scenario, it is recommended to register for multiple sandbox ORCID iD accounts following the instructions above, and use a different sandbox ORCID iD to test the different scenarios below:
+Há várias maneiras diferentes pelas quais um autor pode conectar seu ORCID iD com suas obras em OJS/OPS. O método pelo qual o ORCID iD de um autor está conectado à sua publicação em OJS dependerá do número de autores e quem está enviando o artigo. Para o teste, você vai querer seguir as instruções abaixo dependendo dos cenários que se aplicam ao seu(s) diário(s) ou servidor de pré-impressão. Se você planeja testar mais de um cenário, é recomendado registrar-se em várias contas iD da sandbox com ORCID seguindo as instruções acima e use um iD diferente do sandbox ORCID para testar os diferentes cenários abaixo:
 
-#### Scenario 1: Any author can connect their authenticated ORCID iD to their OJS profile during their OJS account creation
+#### Cenário 1: Qualquer autor pode conectar o iD do ORCID autenticado ao seu perfil OJS durante a criação da conta OJS
 
-1. If an author does not yet have an OJS/OPS user account, they can connect their ORCID iD at the registration step.
-2. When on the OJS/OPS register page, click the button to “Create or Connect your ORCID iD” - you will be prompted to sign in to your ORCID record (make sure to use your sandbox ORCID email address and password) and “authorize” OJS/OPS to access your ORCID iD and ORCID record.
-3. Some of the information in the registration form (e.g., name) will be automatically populated based on the information set to public visibility in the user’s ORCID Record.
-4. Once registered and logged in, the user can go to their Profile and click on the Public tab to see their authenticated ORCID iD. **Please Note:** There is currently [a bug associated with this feature](https://github.com/pkp/orcidProfile/issues/158). Once you submit a publication and the publication gets published, the ORCID iD should appear on the publication in OJS/OPS. If you are using the Member API, the publication should also appear on the ORCID Record in the works section once your article is published (please note: this does not currently work with OPS).
+1. Se um autor ainda não tiver uma conta de usuário OJS/OPS, ele pode conectar seu ORCID iD na etapa de registro.
+2. Quando na página de registro OJS/OPS clique no botão para "Create or Connect your ORCID iD" - você será solicitado a fazer login no seu registro ORCID (certifique-se de usar seu endereço de e-mail e senha ORCID da sandbox) e "authorize" OJS/OPS para acessar seu registro ORCID e ORCID.
+3. Algumas das informações no formulário de registro (por exemplo, nome) será automaticamente preenchido com base nas informações configuradas como visibilidade pública no registro ORCID do usuário.
+4. Uma vez registrado e logado, o usuário pode ir ao seu perfil e clicar na aba pública para ver seu ID ORCID autenticado. **Por favor Nota:** Atualmente há [um bug associado a esse recurso](https://github.com/pkp/orcidProfile/issues/158). Depois de enviar uma publicação e a publicação for publicada, o ORCID iD deve aparecer na publicação do OJS/OPS. Se você estiver usando a API do membro, a publicação também deve aparecer no registro ORCID na seção de trabalho uma vez que seu artigo é publicado (note: isso atualmente não funciona com OPS).
 
-#### Scenario 2: An article with one author is submitted by the author while logged in to their OJS/OPS author account
+#### Cenário 2: um artigo com um autor é submetido pelo autor enquanto está logado para sua conta de autor OJS/OPS
 
-1. If an author has an OJS/OPS user account where they are identified as an author, and can sign in to OJS/OPS, their ORCID iD can be connected to OJS/OPS via their OJS/OPS user profile:
-2. When logged in to OJS/OPS, go to your Profile and click on the Public tab
-3. Click the button to “Create or Connect your ORCID iD” - you will be prompted to sign in to your ORCID record (make sure to use your sandbox ORCID email address and password) and “authorize” OJS/OPS to access your ORCID iD and ORCID record.
-4. Your authenticated ORCID iD should then appear.
-5. Once you submit a publication and the publication gets published, the ORCID iD should appear on the publication in OJS/OPS. If you are using the Member API, the publication should also appear on the ORCID record in the works section once your article is published (please note: this does not currently work with OPS).
+1. Se um autor tiver uma conta de usuário OJS/OPS onde ele é identificado como um autor, e pode fazer login em OJS/OPS, seu iD ORCID pode ser conectado ao OJS/OPS através do seu perfil de usuário OJS/OPS:
+2. Quando estiver logado em OJS/OPS, vá para seu Perfil e clique na aba Pública
+3. Clique no botão para "Criar ou Conectar seu ORCID iD" - você será solicitado a entrar no seu registro ORCID (certifique-se de usar seu endereço de e-mail e senha ORCID da sandbox) e "autorizar" OJS/OPS para acessar seu registro ORCID e ORCID.
+4. Seu ID ORCID autenticado deve aparecer em seguida.
+5. Depois de enviar uma publicação e a publicação for publicada, o ORCID iD deve aparecer na publicação do OJS/OPS. Se você estiver usando a API do membro, a publicação também deve aparecer no registro ORCID na seção de trabalho uma vez que seu artigo é publicado (note: isso atualmente não funciona com OPS).
 
-#### Scenario 3: An article with multiple authors is submitted by one author while logged in to their OJS/OPS author account
+#### Cenário 3: um artigo com um autor é submetido pelo autor enquanto está logado para sua conta de autor OJS/OPS
 
-1. The author who is submitting the article can connect their own ORCID iD in their OJS/OPS profile by following the instructions listed in Scenario 1.
-2. To request authenticated ORCID iDs for the other authors/contributors, follow the steps in Scenario 4.
+1. O autor que está enviando o artigo pode conectar seu próprio iD ORCID em seu perfil OJS/OPS seguindo as instruções listadas no Scenario 1.
+2. Para solicitar iDs ORCID autenticados para os outros autores/colaboradores, siga as etapas no Cenário 4.
 
-#### Scenario 4: An article with one or more authors is submitted by an administrator or other individual who is not one of the authors
+#### Cenário 4: Um artigo com um ou mais autores é submetido por um administrador ou outro indivíduo que não é um dos autores
 
-1. During the article submission process, when you get to step 3 “Enter Metadata,” there is a section to add contributors.
-2. For each contributor, click “Add Contributor” and enter the information for each author. For the purposes of testing in the sandbox, you will want to make sure to use the `@mailinator.com` email address that you used to create your sandbox ORCID iD.
-3. Towards the bottom of the “Add Contributor” form, in the “ORCID” section, you will need to check the box to Send e-mail to request ORCID authorization from contributor. Then click Save. ![Image of ORCID contributor authorization](./assets/orcid-contributor-authorization.png)
-4. Then, go back to [mailinator.com](https://www.mailinator.com) and go to your email inbox. You should see an email from OJS asking you to connect your ORCID iD. Follow the prompts in the email to connect your ORCID iD.
-5. Once the article is published, the ORCID iD should appear on the article if the ORCID iD for each contributor has been connected.
-6. If you are using the Member API, once the article is published, the work should then appear on your sandbox ORCID record in the works section.
+1. Durante o processo de submissão do artigo, quando você chegar à etapa 3 "Metadados", há uma seção para adicionar colaboradores.
+2. Para cada contribuinte, clique em “Adicionar colaborador” e digite a informação para cada autor. Para fins de teste na sandbox, você pode querer se certificar de usar o endereço de e-mail `@mailinator. om`que você usou para criar o seu sandbox ORCID iD.
+3. No final do formulário "Adicionar Colaborador", na seção "ORCID", você precisará marcar a caixa para enviar e-mail para solicitar autorização ORCID do contribuidor. Em seguida, clique em Salvar. ![Imagem de autorização do colaborador ORCID](./assets/orcid-contributor-authorization.png)
+4. Em seguida, volte para o [mailinator.com](https://www.mailinator.com) e vá para a sua caixa de e-mail. Você deve ver um e-mail do OJS pedindo para você conectar seu ORCID iD. Siga as instruções no e-mail para conectar o seu ORCID iD.
+5. Uma vez que o artigo é publicado, o ID ORCID deve aparecer no artigo se o ORCID iD para cada colaborador tiver sido conectado.
+6. Se você estiver usando a API do membro, uma vez que o artigo é publicado, o trabalho deve então aparecer no registro ORCID do sandbox na seção de trabalho.
 
-The result for all scenarios should be that when the article is published, the ORCID iD icon should appear next to the author name(s) on the publication. If you are using the Member API, you should also look at your Sandbox ORCID iD record to verify that the publication information was added to the “Works” section of your ORCID record for you. Currently OJS/OPS article metadata is sent to ORCID only when the article is published. Therefore, if an author’s ORCID iD is added to an article after it has been published, the author’s ORCID profile will not contain the article information. To trigger this manually, the article has to be unpublished and re-published in order for the article to appear on the author’s ORCID profile.
+O resultado para todos os cenários deve ser que quando o artigo é publicado, o ícone iD ORCID deve aparecer ao lado do(s) nome(s) do autor na publicação. Se você estiver usando a API do membro, você deve também consultar o registro iD do seu Sandbox ORCID para verificar se as informações da publicação foram adicionadas à seção "Works" do seu registro de ORCID para você. Atualmente os metadados de artigo OJS/OPS são enviados para ORCID somente quando o artigo é publicado. Portanto, se o ID ORCID de um autor for adicionado a um artigo após ter sido publicado, o perfil ORCID do autor não conterá as informações do artigo. Para acionar isso manualmente, o artigo precisa ser inédito e republicado para que o artigo apareça no perfil ORCID do autor.
