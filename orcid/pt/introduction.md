@@ -4,16 +4,16 @@ title: Sobre o Guia do Plugin ORCID para OJS e OPS
 
 # Sobre o Plugin ORCID
 
-[ORCID](https://orcid.org/) (Open Researcher and Contributor Identifier) é um identificador digital persistente que distingue pesquisadores individuais e suporta links automatizados entre pesquisadores e suas atividades profissionais. Para uma visão geral da ORCID, consulte [este vídeo introdutório ORCID](https://vimeo.com/97150912).
+[ORCID](https://orcid.org/) (Open Researcher and Contributor Identifier) é um identificador digital persistente que distingue pesquisadores individuais e suporta links automatizados entre pesquisadores e as suas atividades profissionais. Para uma visão geral da ORCID, consulte este [vídeo introdutório sobre o ORCID](https://vimeo.com/97150912).
 
-Parceiros PKP com ORCID permitem a coleta e exibição de iDs ORCID autenticados para contribuidores de artigos e pré-impressos publicados com Open Journal Systems (OJS) e Open Preprint Systems (OPS) através do Plugin de Perfil ORCID.
+Parceiros PKP com ORCID permitem a coleta e exibição de iDs ORCID autenticados para contribuidores de artigos e preprints publicados com Open Journal Systems (OJS) e Open Preprint Systems (OPS) através do Plugin de Perfil ORCID.
 
 ## O que faz o plugin ORCID?
 
-O Plugin de Perfil ORCID para as versões de OJS/OPS 3.1.2 e acima permite um diário OJS e um servidor de pré-impressão OPS para:
+O Plugin de Perfil ORCID para as versões de OJS/OPS 3.1.2 e acima permite que uma revista OJS e um servidor preprint OPS:
 
-* Coletar e autenticar o ID ORCID de um colaborador
-* Enviar automaticamente um e-mail para os colaboradores solicitando sua autenticação iD ORCID
+* Coletar e autenticar o ID ORCID de um(a) colaborador(a)
+* Enviar automaticamente um e-mail para os colaboradores solicitando a autenticação de sua iD ORCID
 * Exibe o ID do ORCID autenticado de um colaborador na página de pré-impressão ou artigo, que irá vincular ao registro ORCID do colaborador
 * Além disso apenas para API de Membro- Enviar automaticamente os detalhes de publicação para o registro ORCID de um colaborador uma vez que seu trabalho tenha sido publicado em OJS/OPS
 
@@ -40,6 +40,6 @@ Se o seu diário estiver associado a uma instituição, entre em contato com a b
 
 ## Sandbox versus credenciais de produção
 
-O ORCID fornece aos usuários de plugin uma opção para testar como o plugin funciona com sua instalação em um ambiente Sandbox (teste) antes de entrar em ambiente de produção. Você precisará de um conjunto diferente de credenciais para a Sandbox vs API de produção.
+O ORCID fornece aos usuários de plugin uma opção para testar como o plugin funciona com sua instalação em um ambiente Sandbox (de testes) antes de entrar em ambiente de produção. Você precisará de um conjunto diferente de credenciais para a Sandbox vs API de produção.
 
 Como obter as credenciais da Sandbox, como testar na Sandbox, e as vantagens de testar na Sandbox são mais explicadas no [Apêndice: Testando o capítulo](./appendix-testing-orcid-sandbox.md) ORCID Sandbox.
