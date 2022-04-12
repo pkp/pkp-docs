@@ -257,7 +257,7 @@ O processo de revisão por pares será repetido e você provavelmente receberá 
 ## Respondendo a uma solicitação de edição de texto
 
 {% include video.html id="uc272bhGfeU" provider="youtube" title="Vídeo sobre a Edição de Texto no OJS"%}
-This PKP School video explains the copyediting process, including how an editor can respond to a copyediting or proofreading request. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+Este vídeo da PKP School explica o processo de edição de texto, incluindo como um editor pode responder a uma edição de texto ou solicitação de revisão. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 A próxima etapa no fluxo de trabalho é inspecionar os arquivos de envio que foram editados.
 
