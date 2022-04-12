@@ -1,126 +1,126 @@
 - - -
-title: How to Set Up the ORCID Plugin in OJS and OPS
+Como usar o plugin ORCID em OJS e OPS
 - - -
 
-# Set Up the ORCID Plugin
+# Sobre o Plugin ORCID
 
-To use the plugin, you will first need to obtain either Public or Member ORCID API credentials (Client ID and Client Secret) and then configure the ORCID plugin in OJS/OPS with this information.
+Para usar o plugin, você primeiro precisará obter credenciais de API de ORCID públicas ou de membro (Client ID e Client Secret) e, em seguida, configurar o plugin ORCID em OJS/OPS com estas informações.
 
-This chapter explains how to obtain production (live) credentials and add them to the ORCID plugin in your OJS/OPS. You can also test the plugin with Sandbox credentials first before using the live credentials. For details on how to test in the Sandbox and why you may want to, see the [Appendix: Testing the ORCID Sandbox](./appendix-testing-orcid-sandbox.md) chapter.
+Este capítulo explica como obter credenciais de produção (ao vivo) e adicioná-las ao plugin ORCID em seu OJS/OPS. Você também pode testar o plugin com credenciais Sandbox primeiro antes de usar as credenciais ao vivo. Para mais detalhes sobre como testar no Sandbox e por que você pode querer, consulte o [Apêndice: Testando o capítulo](./appendix-testing-orcid-sandbox.md) ORCID Sandbox.
 
-**IMPORTANT: do not enable the plugin until you have the credentials and are ready to setup the plugin.**
+**IMPORTANTE: não ative o plugin até que você tenha as credenciais e esteja pronto para configurar o plugin.**
 
-## Request Public API credentials
+## Solicitar credenciais de API pública
 
-### 1. Register for an ORCID iD
+### 1. Registre-se para um ORCID iD
 
-ORCID iD registration is free and only requires your name and email.
+O registro iD ORCID é gratuito e só requer o seu nome e e-mail.
 
-If you already have an ORCID iD, skip to [2. Sign into your ORCID iD](#2-sign-into-your-orcid-id).
+Se você já tiver um ORCID iD, pule para [2. Entre no seu ORCID iD](#2-sign-into-your-orcid-id).
 
-1. Navigate to [the ORCID website](https://orcid.org/)
-2. Click on the [SIGN IN / REGISTER](https://orcid.org/signin) menu on the top right ![ORCID homepage with sign in / register button pointed out.](./assets/orcid_signup.png)
-3. Create an account with your email or sign in with your institutional account (if your institution is set up for ORCID single sign on). ![ORCID sign in page with an emphasis on registration option.](./assets/orcid_signup_register.png)
-4. If you need further registration guidance, the [Register your ORCID page](https://support.orcid.org/hc/en-us/articles/360006897454-Register-your-ORCID-iD) contains detailed step-by-step instructions.
+1. Navegue até [o site ORCID](https://orcid.org/)
+2. Clique no menu [INICIAR / REGISTRAR](https://orcid.org/signin) no canto superior direito ![Página inicial do ORCID com o botão de login / registro apontada.](./assets/orcid_signup.png)
+3. Crie uma conta com o seu e-mail ou entre com a sua conta institucional (se a sua instituição estiver configurada para uma conta única ORCID). ![O ORCID entra na página com ênfase na opção de registo.](./assets/orcid_signup_register.png)
+4. Se precisar de instruções adicionais para registro, a [Registre sua página ORCID](https://support.orcid.org/hc/en-us/articles/360006897454-Register-your-ORCID-iD) contém instruções detalhadas passo a passo.
 
-### 2. Sign into your ORCID iD
+### 2. Entre no seu ORCID iD
 
-1. Navigate to [the ORCID website](https://orcid.org/)
-2. Click on the [SIGN IN / REGISTER](https://orcid.org/signin) menu on the top right
-3. Sign in with your existing email account or via your institutional credentials (if your institution is set up for ORCID single sign on)
+1. Navegue até [o site ORCID](https://orcid.org/)
+2. Clique no menu [INICIAR / REGISTRAR](https://orcid.org/signin) no canto superior direito
+3. Entre com sua conta de e-mail existente ou através de suas credenciais institucionais (se a sua instituição estiver configurada para uma assinatura única ORCID)
 
-![ORCID sign in page with email or ORCID iD and password fields emphasized.](./assets/orcid_signin.png)
+![O ORCID entrou na página com campos enfatizados de e-mail ou ORCID iD e senha.](./assets/orcid_signin.png)
 
-### 3. Navigate to Developer Tools
+### 3. Navegar para Ferramentas de Desenvolvedor
 
-Click your name on the top right and select “Developer Tools” from the drop-down.
+Clique no seu nome no canto superior direito e selecione "Ferramentas de Desenvolvedor" na caixa de seleção.
 
-![ORCID record with account name dropdown expanded and Developer Tools selected.](./assets/orcid_dev_tools.png)
+![Registro ORCID com o nome de conta suspenso expandido e Ferramentas de Desenvolvedor selecionado.](./assets/orcid_dev_tools.png)
 
-### 4. Select to register for the Public API
+### 4. Selecione para registrar para a API pública
 
-Click on the button “Register for the free ORCID public API”.
+Clique no botão "Registre-se para a API pública do ORCID gratuita".
 
-You will be asked to read and consent to the terms of service.
+Ser-lhe-á pedido que leia e dê o seu consentimento aos termos do serviço.
 
-![ORCID Developer Tools page with the highlighted button Register for the free ORCID public API.](./assets/orcid_dev_tools_register.png)
+![Página Ferramentas de Desenvolvedor ORCID com o botão realçado Registrar-se para a API pública ORCID gratuita.](./assets/orcid_dev_tools_register.png)
 
-### 5. Fill out the registration form
+### 5. Preencha o formulário de registro
 
-In the registration form, enter:
+No formulário de cadastro, digite:
 
-* Your journal name
-* Your journal URL
-* A brief message about your journal - it will be displayed to your users when they connect their ORCID iDs
-* Redirect URI - this is the page your users will be taken to after they have authenticated their ORCID iDs. It must begin with “https://” and include the link to the journal. For details and examples see the [ORCID redirect URIs section](#orcid-redirect-uris) below.
+* Nome do seu periódico
+* Sua URL do periódico
+* Uma breve mensagem sobre o seu diário - ele será exibido aos usuários quando eles conectarem seus iDs ORCID
+* URI de redirecionamento - esta é a página para a qual os seus usuários serão levados depois de eles terem autenticado seus iDs ORCID. Deve começar com "https://" e incluir o link para o diário. Para detalhes e exemplos, veja a [seção de redirecionamento ORCID](#orcid-redirect-uris) abaixo.
 
-![ORCID Developer Tools public API request form.](./assets/orcid_dev_tools_form.png)
+![Formulário de solicitação da API pública do desenvolvedor ORCID.](./assets/orcid_dev_tools_form.png)
 
-### 6. Save the form and receive your credentials
+### 6. Salve o formulário e receba suas credenciais
 
-1. Click on the save icon on bottom right to save the form. ![ORCID Developer Tools public API request form with the save icon pointed out.](./assets/orcid_dev_tools_form_save.png)
-2. Your credentials (Client ID and Client Secret) will be displayed right away. Copy these credentials into the OJS/OPS ORCID Profile Plugin as explained below. ![ORCID Developer Tools public API request form with Client ID and Secret displayed.](./assets/orcid_dev_tools_form_credentials.png)
+1. Clique no ícone de salvar na parte inferior direita para salvar o formulário. ![Formulário de solicitação de desenvolvedor ORCID para ferramentas públicas API com o ícone de salvar apontado.](./assets/orcid_dev_tools_form_save.png)
+2. Suas credenciais (Client ID e Client Secret) serão exibidas imediatamente. Copie essas credenciais no Plugin de Perfil ORCID OJS/OPS ORCID conforme explicado abaixo. ![Formulário de solicitação de desenvolvedores ORCID e ferramentas públicas API com ID de Cliente e Segredo exibido.](./assets/orcid_dev_tools_form_credentials.png)
 
-## Request Member API credentials
+## Solicitar credenciais de API pública
 
-Member API credentials are connected to an ORCID member organization. Your organization must be an ORCID member to request Member API credentials. If your journal is affiliated with an institution, contact the institution's library to ask about ORCID membership and API credentials. You may also wish to check whether your organization belongs to a [local consortium](https://orcid.org/consortia), as you may be able to receive help from the consortium. You can also contact ORCID directly at support@orcid.org.
+As credenciais de membro da API estão conectadas a uma organização membro do ORCID. Sua organização deve ser um membro ORCID para solicitar as credenciais de API do membro. Se o seu diário estiver associado a uma instituição, entre em contato com a biblioteca da instituição para perguntar sobre a filiação ORCID e as credenciais API. Você também pode querer verificar se sua organização pertence a um [consórcio local](https://orcid.org/consortia), conforme você pode receber ajuda do consórcio. Você também pode contatar o ORCID diretamente em support@orcid.org.
 
-To request your Member API credentials, complete the form to [Register a client application: Production Member API - Trusted Party](https://orcid.org/content/register-client-application-production-trusted-party). Once you submit the form, ORCID will email your production member Client ID and Client Secret to you.
+Para solicitar as credenciais de membro da API, preencha o formulário para [cadastrar uma aplicação de cliente: API de membro de produção - festa confiável](https://orcid.org/content/register-client-application-production-trusted-party). Depois de enviar o formulário, ORCID enviará um e-mail para o seu cliente de produção ID e Segredo do Cliente para você.
 
-### ORCID redirect URIs
+### URIs de redirecionamento ORCID
 
-When you register for ORCID API credentials, you will need to enter at least one Redirect URI, which is the journal location that your users will be sent to after authorizing OJS/OPS to connect to their ORCID record, The URI must begin with “https://” and include the link to the journal as part of the URI. Por exemplo:
+Quando você se registrar para as credenciais de API do ORCID, você precisará inserir pelo menos uma URI de redirecionamento, que é o local do diário para o qual seus usuários serão enviados após autorizar OJS/OPS a se conectar ao seu registro ORCID. O URI deve começar com "https://" e incluir o link para o diário como parte do URI. Por exemplo:
 
-* This works (for example, for a multi-journal installation): https://example.com
-* This works (for a single journal): https://example.com/index.php/testJournal
-* This does NOT work: https://example.com/index.php/testJournal/index
+* Isto funciona (por exemplo, para uma instalação de multi-diário): https://exemplo.com
+* Isso funciona (para um único diário): https://example.com/index.php/testJournal
+* Isso NÃO funciona: https://example.com/index.php/testJournal/index
 
-The host option allows any URI under that host to be used as a Redirect URI. In multiple journal instances, make sure you choose the base url of your domain and not individual journals to avoid redirect errors. For individual journals it is important to use the journal path (typically something like “index.php/testJournal”, without any trailing information, as per above). Any additional information in the URI will cause the redirect to not work.
+A opção de host permite que qualquer URI sob esse host seja usado como um URI de redirecionamento. Em várias instâncias de periódicos, certifique-se de escolher a URL base do seu domínio e não o diário individual para evitar o redirecionamento de erros. Para periódicos individuais é importante usar o caminho do diário (normalmente algo como "index.php/testJournal", sem qualquer informação no final como acima). Qualquer informação adicional no URI fará com que o redirecionamento não funcione.
 
-For more detail on Redirect URIs, see the ORCID support page for [Public APIs](https://support.orcid.org/hc/en-us/articles/360006897174-Register-a-public-API-client-application) and [Member APIs](https://support.orcid.org/hc/en-us/articles/360006973913), respectively, and the [Redirect URI thread on PKP Forum](https://forum.pkp.sfu.ca/t/orcid-oauth2-redirect-uris-or-callback-urls-for-ojs).
+Para mais detalhes sobre URIs de redirecionamento, consulte a página de suporte do ORCID para [APIs públicas](https://support.orcid.org/hc/en-us/articles/360006897174-Register-a-public-API-client-application) e [membros APIs](https://support.orcid.org/hc/en-us/articles/360006973913), respectivamente e a [thread de redirecionamento de URI no Fórum PKP](https://forum.pkp.sfu.ca/t/orcid-oauth2-redirect-uris-or-callback-urls-for-ojs).
 
-**Please note**: When registering to receive Member API credentials, organizations are required to indicate the "Client Name" along with the Redirect URI(s). When working with multiple journals as part of an OJS instance, the Client Name used must be broad enough to serve as a source for all of the journals hosted on its instance(s), as the Client Name is what will appear as the "source" of data when a work from OJS is written to an ORCID record (e.g. “ABC University journal hosting service”). However, if you plan to install only one journal in your domain and use ORCID for that journal, then the Client Name can be indicated as the name of the journal.
+**Atenção**: ao se registrar para receber as credenciais API dos membros, as organizações são obrigadas a indicar o "Nome do Cliente" juntamente com o(s) URI(s) de redirecionamento(s). Ao trabalhar com vários diários como parte de uma instância OJS, o Nome do Cliente usado deve ser amplo o suficiente para servir como fonte para todos os periódicos hospedados em sua(s) instância(s), como Nome do Cliente é o que aparecerá como "fonte" de dados quando uma obra do OJS for escrita em um registro ORCID (e.. “Serviço de hospedagem de periódicos da Universidade ABC”). No entanto, se você planeja instalar apenas um diário do seu domínio e usar ORCID para esse diário, então o nome do cliente pode ser indicado como o nome do diário.
 
-When registering for Sandbox or [Production Member API](https://orcid.org/content/register-client-application-production-trusted-party) credentials through ORCID, although there appears to be a limit of five redirects, you can add as many as you like to the ‘notes to ORCID’ section. If you ever need to adjust, add, or remove URIs, you can resubmit the form and indicate that it is for an existing application.
+Ao se registrar na Sandbox ou credenciais de [Produção API do membro](https://orcid.org/content/register-client-application-production-trusted-party) através de ORCID, embora pareça haver um limite de cinco redirecionamentos, você pode adicionar o máximo que quiser à secção "Notas para ORCID". Se você precisar ajustar, adicionar ou remover URIs, você pode reenviar o formulário e indicar que ele é para uma aplicação existente.
 
-## Enable and configure the ORCID Profile plugin in OJS/OPS
+## Habilitar e configurar a extensão de Perfil ORCID em OJS/OPS
 
-After you have obtained your Client ID and Client Secret from ORCID, you can enable and configure the plugin in OJS/OPS.
+Depois de obter seu Client ID e Client Secret de ORCID, você pode ativar e configurar o plugin em OJS/OPS.
 
-First, enable the ORCID plugin for each journal (OJS) or preprint server (OPS) on your installation:
+Primeiro, ative o plugin ORCID para cada diário (OJS) ou servidor de pré-impressão (OPS) na sua instalação:
 
-1. When logged in to OJS/OPS as an administrator, go to Settings > Website > Plugins
-2. Click on Plugin Gallery and select ORCID Profile from the list
+1. Quando estiver logado em OJS/OPS como administrador, vá em Configurações > Site > Plugins
+2. Clique na Galeria de Plugins e selecione o perfil ORCID da lista
 
-There are three potential scenarios for configuring the plugin, based on your use case:
+Existem três cenários possíveis para a configuração do plugin, com base no seu caso de uso:
 
-1. If you have a single journal or preprint server installation, configure the plugin following the instructions below under Per Journal/Preprint Server Setup.
-2. If you have a multi-journal or multi-preprint server installation, but you do not want to enable the ORCID plugin for all, configure each journal or preprint server separately following the instructions below under Per Journal/Preprint Server Setup, using the same ORCID API credentials (Client ID and Client Secret) for each.
-3. If you have a multi-journal or multi-preprint server installation and want to enable the ORCID plugin for all site-wide, follow the [instructions below under Site-wide Setup](#site-wide-setup).
+1. Se você tem um único diário ou instalação de servidor de pré-impressão, configure o plugin seguindo as instruções abaixo sob a Configuração de Servidor de Per Journal/Preprint.
+2. Se você tem uma instalação de servidor multi-periódicos ou multi-pré-impressão, mas não quer ativar o plugin ORCID para todos, configurare cada servidor de diário ou pré-impressão separadamente seguindo as instruções abaixo sob a configuração do servidor de Per Journal/Preprint, usando as mesmas credenciais ORCID API (Client ID e Segredo do Cliente) para cada um.
+3. Se você tem uma instalação de servidor multi-periódicos ou multi-pré-impressão e deseja ativar o plugin ORCID em todo o site, siga as [instruções abaixo na configuração do site](#site-wide-setup).
 
-### Per Journal/Preprint Server Setup
+### Por Diário/Servidor de Predefinições
 
-If you want to enable the ORCID plugin for a single journal (OJS) or preprint server (OPS):
+Se você quiser ativar o plugin ORCID para um único diário (OJS) ou servidor de pré-impressão (OPS):
 
-1. When logged in to OJS/OPS as an administrator, go to Settings > Website > Plugins
-2. Under Installed Plugins find the ORCID plugin
-3. Check the checkbox to enable to plugin
-4. Click the blue arrow to the left of the plugin name to make “Settings” appear, then open Settings. Select your API type and enter your Client ID and Client Secret.
+1. Quando estiver logado em OJS/OPS como administrador, vá em Configurações > Site > Plugins
+2. Em Plugins instalados localizam o plugin ORCID
+3. Marque a caixa de seleção para ativar para o plugin
+4. Clique na seta azul para a esquerda do nome do plugin para fazer "Configurações", então abra as Configurações. Selecione o seu tipo de API e digite o seu ID de Cliente e Segredo do Cliente.
 
-![Setup for OJS ORCID plugin with Public client ID and secret entered.](./assets/orcid_plugin_setup.png)
+![Instalação para o plugin OJS ORCID com ID de cliente público e secreto inserido.](./assets/orcid_plugin_setup.png)
 
-For a visual walkthrough see this [ORCID plugin setup video](https://vimeo.com/374414746).
+Para passo a passo visual, veja este [vídeo de configuração do plugin ORCID](https://vimeo.com/374414746).
 
-#### Email Settings
+#### Configurações de e-mail
 
-Under “E-Mail Settings” you can tick the checkbox to “Send e-mail to request ORCID authorization from authors when an article is accepted.” If checked, OJS/OPS will send an email automatically to authors who have not already linked their ORCID iDs when the article is published asking them to link their iDs. This request will be sent using the “ORCID Collect Author Id” email template (Public API) or “ORCID Request Author Authorization” (Member API).
+Para fazer isso, nas configurações de email do plugin marque a caixa "Enviar email para solicitar autorização ORCID dos autores quando um artigo é aceito.” Se marcado, O OJS/OPS enviará um e-mail automaticamente para autores que não tenham vinculado seus iDs ORCID quando o artigo for publicado, pedindo-lhes que vinculem seus iDs. Esta solicitação será enviada usando o modelo de e-mail "ORCID Collect Author Id" (API ublicada) ou "ORCID Request Author Authorization" (API de membro).
 
-![OJS ORCID plugin with checkbox checked to send email to request ORCID authorization from authors.](./assets/orcid_plugin_auto_emails.png)
+![Tela do plugin ORCID com a caixa de seleção delineada para enviar e-mail para requisitar autenticação ORCID dos autores.](./assets/orcid_plugin_auto_emails.png)
 
-### Site-wide Setup
+### Configuração do site
 
-For multi-journal and multi-preprint server installations the plugin can be set site-wide in `config.inc.php` to enable the ORCID plugin for all journals. Note that site-wide settings through `config.inc.php` override any existing individual plugin settings. However, the plugin can be enabled/disabled on an individual basis for journals, and each journal can manage their own email settings as described above. Adding credentials in the config.inc.php hides the Client Secret from Journal/Server Managers, which may be preferred if you have institutional credentials for ORCID. Add the following section to your `config.inc.php` file:
+Para instalações de servidores multi-periódicos e multi-pré-impressão, o plugin pode ser todo configurado no site em `config.inc.php` para habilitar o plugin ORCID para todos os diários. Observe que as configurações de todo o site através do `config.inc.php` substituem quaisquer configurações individuais existentes do plugin. No entanto, o plugin pode ser habilitado/desabilitado individualmente para periódicos, e cada diário pode gerenciar suas próprias configurações de e-mail conforme descrito acima. Adicionar credenciais no config.inc.php esconde o Segredo do Cliente de Gerentes de Journal/Servidor, o que pode ser preferido se você tiver credenciais institucionais para ORCID. Adicione a seção seguinte ao seu arquivo `config.inc.php`:
 
-![Config settings in the OJS config file](./assets/orcid-config-inc-php-settings.png)
+![Configurações do arquivo de configuração OJS](./assets/orcid-config-inc-php-settings.png)
 
-Note that the `api_url` needs to end with a slash.
+Observe que a `api_url` precisa terminar com uma barra.
