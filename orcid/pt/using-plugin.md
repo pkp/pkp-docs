@@ -1,14 +1,14 @@
 ---
-title: How to Use the ORCID Plugin in OJS and OPS
+title: Como usar o plugin ORCID em OJS e OPS
 ---
 
-# Using the ORCID Plugin
+# Usando o Plugin ORCID
 
-Now that you have [obtained ORCID credentials, enabled and set up the plugin](./installation-setup.md), you can start using it in your journal / preprint server.
+Agora que você tem [as credenciais ORCID obtidas, ativou e configurou o plugin](./installation-setup.md), você pode começar a usá-lo no servidor de pré-impressão de seu diário.
 
-## Inform your stakeholders
+## Informar seus interessados
 
-Once your ORCID plugin is enabled and in production, you might want to let your stakeholders (authors, journal editors, etc.) know that the ORCID plugin is now available, and make sure they know what ORCID is and how it can help them. There are a variety of ways to do this. One such way is by using the [OJS Announcements feature](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#announcements) to announce to registered users that the ORCID plugin is in use. As a part of such an announcement you may wish to point users to the [About the ORCID plugin page](./introduction.md) in case they are unfamiliar with ORCID. If your journal has a social media presence or newsletter you can also inform users through those means as well.
+Uma vez que o seu plugin ORCID está ativado e em produção, você pode querer deixar seus stakeholders (autores, editores de periódicos, etc.) saberem que o plugin ORCID está disponível agora, e certifique-se de que eles sabem o que é ORCID e como ele pode ajudá-los. Há várias maneiras de o fazer. Uma dessas maneiras é utilizando o [recurso de Anúncios OJS](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#announcements) para anunciar aos usuários registrados que o plugin ORCID está em uso. Como parte de tal anúncio, você pode querer apontar usuários para a página do plugin [Sobre a página do plugin ORCID](./introduction.md) caso eles não estejam familiarizados com ORCID. Se o seu diário tem uma presença nas redes sociais ou uma newsletter você também pode informar os usuários por meio desses meios.
 
 ## Plugin functionality
 
