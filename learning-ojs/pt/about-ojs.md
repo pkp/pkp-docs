@@ -5,7 +5,7 @@ version: 3.3
 
 # Sobre o Open Journal Systems (OJS)
 
-Open Journal Systems \(OJS\) é uma solução de código aberto para o gerenciamento e publicação de periódicos acadêmicos online. OJS é um sistema de gerenciamento e publicação operado por editor, altamente flexível, que pode ser baixado gratuitamente e instalado em um servidor web local.
+Open Journal Systems \(OJS\) é uma solução de código aberto para o gerenciamento e publicação de periódicos acadêmicos online. O OJS é um sistema altamente flexível de editoração para gerenciamento e publicação de revistas acadêmicas que pode ser baixado gratuitamente e instalado em um servidor Web local.
 
 Foi projetado para reduzir o tempo e a energia dedicados às tarefas rotineiras e de gestão associadas à edição de um periódico, ao mesmo tempo, melhorando a manutenção de registo e a eficiência dos processos editoriais. Procura aumentar a qualidade acadêmica e de publicação dos periódicos por meio de uma série de inovações, incluindo o aprimoramento da experiência do leitor, o que torna mais transparentes as políticas das revistas e melhora a indexação.
 
@@ -13,7 +13,7 @@ Este guia cobre o OJS versão 3.3, liberado em fevereiro de 2021, e apresenta me
 
 ## Antecedentes
 
-Este vídeo da Escola do PKP explica o plano de fundo do PKP e do OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da Escola do PKP explica o plano de fundo do PKP e do OJS. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="SQfFGwIK2wI" provider="youtube" title="Vídeo de fundo sobre o PKP e o OJS"%}
 
