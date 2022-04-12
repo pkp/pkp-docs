@@ -12,7 +12,7 @@ Esta seção fornece informações sobre o acesso a todas as contas de usuário 
 
 Este vídeo da PKP School explica como gerenciar usuários no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="_AAtxnFEodQ" provider="youtube" title="Video of how to manage users in OJS"%}
+{% include video.html id="_AAtxnFEodQ" provider="youtube" title="Vídeo sobre como gerenciar os usuários no OJS"%}
 
 Além de gerenciar o site da revista, o Gerente da Revista também é responsável por todas as contas dos usuários no sistema.
 
