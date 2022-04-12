@@ -1,12 +1,12 @@
 - - -
-título: Guia de plugins ORCID para descrição do OJS e OPS: Um guia sobre como configurar e usar o plugin ORCID em Open Journal Systems e Open Monograph Press.
+title: Guia de plugins ORCID para o OJS e OPS: Um guia sobre como configurar e utilizar o plugin ORCID em Open Journal Systems e Open Monograph Press.
 - - -
 
 # Apresentação: Guia de Plugins ORCID
 
 O Guia de Plugins ORCID explica como usar e configurar o Plugin de Perfil ORCID para Open Journal Systems (OJS) e Open Preprint Systems (OPS), como obter inscrição ORCID e credenciais API e como conectar iDs ORCID com trabalhos publicados com OJS e OPS. Este documento fornece instruções passo-a-passo para Administradores de Jornal e Administradores sobre como usar e configurar o Plugin de Perfil ORCID em OJS/OPS e como autores podem se registrar com ORCID e conectar seu ORCID iD com trabalhos publicados com OJS/OPS.
 
-{% include video.html id="ny0pue6MKek" provider="youtube" title="Video of setting up the ORCID Plugin in OJS"%}
+{% include video.html id="ny0pue6MKek" provider="youtube" title="Vídeo de configuração do Plugin ORCID no OJS"%}
 
 Este vídeo é para administradores de OJS em instituições de membros do ORCID, como bibliotecários acadêmicos, que estão interessados em habilitar o plugin ORCID em OJS para que os autores possam conectar seu perfil ORCID com sua pesquisa publicada.
 
