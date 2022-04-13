@@ -25,6 +25,7 @@ msgid "common.cancelled"
 msgstr "Cancelled"
 
 msgid "common.pendingMessages"
+msgid_plural "common.pendingMessages"
 msgstr[0] "You have one message pending."
 msgstr[1] "You have {$messageCount} messages pending."
 ```
@@ -33,6 +34,7 @@ The latest example showed us how to setup a pluralized translation for an Englis
 
 ```po
 msgid "comments"
+msgid_plural "comments"
 msgstr[0] "%d Komentarz"
 msgstr[1] "%d Komentarze"
 msgstr[2] "%d Komentarzy"
