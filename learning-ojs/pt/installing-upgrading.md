@@ -2,19 +2,19 @@
 book: learning-ojs
 version: 3.3
 title: Instalação e Atualização
-description: A basic resource for finding more information on installing or upgrading OJS, or locating an OJS host.
+description: Um recurso básico para encontrar mais informações sobre instalar ou atualizar OJS, ou localizar um host OJS.
 ---
 
 # Instalação e Atualização
 
 OJS 3 é um aplicativo PHP web com processos padronizados de atualização e instalação. Estes processos são mantidos tão simples quanto possível, embora seja recomendável alguma experiência geral com administração de sistemas.
 
-Up-to-date OJS system requirements, as well as installation, upgrade, and configuration instructions can be found in the following locations:
+Os requisitos de sistema atualizados do OJS, assim como as instruções de instalação, atualização e configuração, podem ser encontrados nos seguintes locais:
 
 * No pacote baixado da [página de download do OJS](https://pkp.sfu.ca/ojs/ojs_download/) (procure no diretório `docs/`);
-* in the technical [How to Upgrade Guide](/dev/upgrade-guide/);
+* Em [Como atualizar o guia](/dev/upgrade-guide/);
 * Diretamente nos documentos on-line [README](https://pkp.sfu.ca/ojs/README) ou [UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE);
-* in the PKP [Administrator's Guide](/admin-guide/).
+* No [Guia do Administrador](/admin-guide/) do PKP.
 
 Para aqueles que querem instalar via GIT pelo uso do código-fonte, as instruções podem ser encontradas diretamente no [GitHub](https://github.com/pkp/ojs).
 
