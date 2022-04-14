@@ -96,7 +96,7 @@ OJS_BACKUP_PATH="/srv/backup/ojs" && \
 OJS_VERSION="ojs-3.3.0-8" && \
 OJS_PUBLIC_PATH="$OJS_WEB_PATH/public" && \
 OJS_PRIVATE_PATH="$OJS_ROOT_PATH/files" && \
-DATE=$(date "+%Y%m%d-%H:%M:%S)"
+DATE=$(date "+%Y%m%d-%H:%M:%S")
 ```
 
 ### 2. Enter Maintenance Mode
@@ -141,7 +141,7 @@ The steps below will backup the following folders and files.
 Backup the database.
 
 ```bash
-$ mysqldump --host="OJS_DB_HOST" -u $OJS_DB_USER -p$OJS_DB_PASSWORD $OJS_DB_NAME --result-file="$OJS_BACKUP_PATH/backupDB-$DATE.sql"
+$ mysqldump --host="$OJS_DB_HOST" -u $OJS_DB_USER -p$OJS_DB_PASSWORD $OJS_DB_NAME --result-file="$OJS_BACKUP_PATH/backupDB-$DATE.sql"
 ```
 
 > Character encodings are a common source of database problems during upgrades. <br>
