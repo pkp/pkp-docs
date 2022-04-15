@@ -153,17 +153,6 @@ Supported submission locales include languages for which the journal, press or p
 $locales = $context->getSupportedSubmissionLocales();
 ```
 
-## Locale Conversion
-
-PKP adopted a variation of the ISO/IEC 15897 format (without the `codeset` portion) to specify its locales, which is basically defined as `[language[_TERRITORY][@modifier]]` (e.g. `sr_RS@cyrillic`). When it's needed to convert between locale formats, the class `PKP\i18n\LocaleConversion` might be handy, it provides methods for the following formats: ISO 639-1, ISO 639-2b and ISO/IEC 15897.
-
-```php
-// en
-$iso639_1 = PKP\i18n\LocaleConversion::getIso1FromLocale('en_US');
-// pt_BR or pt_PT, due to the ambiguity the return will depend on the primary locale/supported locales of the journal
-$iso15897 = PKP\i18n\LocaleConversion::getLocaleFrom3LetterIso('por');
-```
-
 ## Other Localization Features
 
 The PKP's locale class implements the [Laravel's Translator contract](https://github.com/illuminate/contracts/blob/9.x/Translation/Translator.php), therefore the methods get, choice, getLocale and setLocale are available:
