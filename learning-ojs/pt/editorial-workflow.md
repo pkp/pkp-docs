@@ -276,7 +276,7 @@ Mantenha os arquivos que serão revisados ​​desmarcados.
 
 {% include video.html id="5Hwkqj4Jvew" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 5: Assigning a reviewer."%}
 
-Este vídeo da PKP School explica as etapas que o Editor de Seção leva para atribuir revisores para o envio. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+Este vídeo da PKP School explica as etapas que o Editor de Seção leva para atribuir avaliadiores para o envio. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 Quando a submissão entra no Estágio de Avaliação, uma notificação indica que os Avaliadores precisam ser atribuídos.
 
