@@ -54,7 +54,7 @@ Clique em **Salvar** para gravar as alterações.
 
 ## Contato
 
-This PKP School video explains how to add journal contacts in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da Escola do PKP explica como adicionar contatos de periódicos em OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="HTDZRG7XEqw" provider="youtube" title="Video of how to add journal contacts in OJS"%}
 
@@ -74,7 +74,7 @@ Este vídeo da PKP School explica como configurar as seções no OJS. Para assis
 
 {% include video.html id="IMotkKrDZyc" provider="youtube" title="Video of how to configure sections in OJS"%}
 
-Use essa página para configurar as diferentes seções do periódico. Exemplos: artigos, editoriais, revisões, comentários, etc. O OJS exige pelo menos uma seção e cria automaticamente a seção “Artigos”. You can create new sections, edit existing sections, or delete sections. The sections will appear for an author to select when they make a submission and they will be used to organize the articles in your published issues. You can also assign editors to specific sections. This part of the guide explains how you can configure sections.
+Use essa página para configurar as diferentes seções do periódico. Exemplos: artigos, editoriais, revisões, comentários, etc. O OJS exige pelo menos uma seção e cria automaticamente a seção “Artigos”. Você pode criar novas seções, editar seções existentes, ou excluir seções. As seções aparecerão para um autor selecionar quando eles fizerem uma submissão e serão usadas para organizar os artigos de suas edições publicadas. Você também pode atribuir editores para seções específicas. Esta parte do guia explica como você pode configurar seções.
 
 ![OJS dashboard view of Journal Settings submenu Sections with links for Order and Create Section and editable list of current sections.](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
 
