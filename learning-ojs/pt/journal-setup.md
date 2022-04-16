@@ -140,9 +140,9 @@ Quando tiver mais de uma seção criada, você verá a opção Ordenar. Use-a pa
 
 Clique no botão **Concluído** ao finalizar.
 
-### Delete Sections
+### Excluir a secção
 
-You can only delete a section if there are no articles assigned to it. If you want to delete a section that has articles assigned to it, you will need to move the articles to a different section first. Then click the blue arrow below the section name to reveal the **Delete** link, then click the link. OJS will ask if you want to permanently delete the section and you can click **Yes**.
+Só é possível excluir uma seção se não houver artigos atribuídos a ela. If you want to delete a section that has articles assigned to it, you will need to move the articles to a different section first. Then click the blue arrow below the section name to reveal the **Delete** link, then click the link. OJS will ask if you want to permanently delete the section and you can click **Yes**.
 
 ## Categorias
 
