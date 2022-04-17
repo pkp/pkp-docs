@@ -142,7 +142,7 @@ Clique no botão **Concluído** ao finalizar.
 
 ### Excluir a secção
 
-Só é possível excluir uma seção se não houver artigos atribuídos a ela. If you want to delete a section that has articles assigned to it, you will need to move the articles to a different section first. Then click the blue arrow below the section name to reveal the **Delete** link, then click the link. OJS will ask if you want to permanently delete the section and you can click **Yes**.
+Só é possível excluir uma seção se não houver artigos atribuídos a ela. Se você deseja excluir uma seção com artigos atribuídos a ela, você precisará mover os artigos para uma seção diferente primeiro. Em seguida, clique na seta azul abaixo do nome da seção para revelar o **Excluir** link, em seguida, clique no link. OJS irá perguntar se você deseja excluir permanentemente a seção e você pode clicar em **Sim**.
 
 ## Categorias
 
