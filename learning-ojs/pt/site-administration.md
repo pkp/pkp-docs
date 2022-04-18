@@ -1,7 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
-title: Aprendendo Open Journal Systems 3.3 - Administração do Site
+title: Aprendendo Open Journal Systems 3.3 - Administração do Portal
 ---
 
 # Administração do Portal
@@ -22,29 +22,29 @@ Para chegar à Administração do Portal, efetue login como Administrador do Por
 
 A partir daqui, escolha as revistas hospedadas. Na página resultante, você verá todos os periódicos dessa instalação do OJS. No exemplo abaixo, existe apenas um.
 
-![OJS hosted journals menu with 1 existing journal.](./assets/learning-ojs3.1-sa-hosted-journals.png)
+![Menu de periódicos hospedados no OJS com apenas 1 periódico existente.](./assets/learning-ojs3.1-sa-hosted-journals.png)
 
 Para editar os periódicos existentes, clique na seta azul à esquerda do nome do periódico. Você verá opções para editar, remover ou atualizar as configurações.
 
-![Existing journal editing options: edit, remove, settings wizard, users.](./assets/learning-ojs3.1-sa-hosted-journals-edit.png)
+![Opções de edição de diário existentes: editar, remover, assistente de configurações, usuários.](./assets/learning-ojs3.1-sa-hosted-journals-edit.png)
 
 A opção **Editar** permitirá que você altere o título, a descrição ou o caminho.
 
-![Existing journal editing screen with title, description and path fields available to edit.](./assets/learning-ojs-3-ch4-hosted-journals-edit-modal.png)
+![Tela de edição de periódico existente com campos de título, descrição e caminho disponíveis para edição.](./assets/learning-ojs-3-ch4-hosted-journals-edit-modal.png)
 
 A opção **Remover** permitirá que você exclua o periódico  da instalação. Você será solicitado a confirmar se realmente deseja fazer isso, pois é irreversível.
 
-![Confirmation screen for journal deletion.](./assets/learning-ojs-3-ch4-hosted-journals-remove.png)
+![Tela de confirmação para exclusão da revista.](./assets/learning-ojs-3-ch4-hosted-journals-remove.png)
 
 A opção **Assistente de configuração** levará você às várias opções de configuração desse periódico.
 
 A opção Restringir e-mails em Massa permite que o administrador do periódico desative a capacidade de enviar e-mails em massa para determinados papéis. O recurso de e-mail em massa pode ser habilitado em Configuração do site > E-mails em massa. Um gerente do periódico não poderá enviar e-mails em massa para nenhum papel que você selecionar na configuração “Desativar Papéis”. Use esta configuração para limitar o abuso do recurso de notificação por e-mail. Por exemplo, pode ser mais seguro desativar e-mails em massa para leitores, autores ou outros grandes grupos de usuários que não consentiram em receber esses e-mails.
 
-![Settings wizard screen with the restrict bulk emails tab selected.](./assets/learning-ojs3.3-admin-restrict-bulk-emails.png)
+![Tela do assistente de configurações com a guia restringir emails em massa selecionada.](./assets/learning-ojs3.3-admin-restrict-bulk-emails.png)
 
 Veremos as configurações restantes em detalhes nos capítulos sobre Configurações.
 
-![Settings wizard screen with the masthead tab selected.](./assets/learning-ojs-3-ch4-hosted-journals-settings-wiz.png)
+![Tela do assistente de configurações com a guia de cabeçalho selecionada.](./assets/learning-ojs-3-ch4-hosted-journals-settings-wiz.png)
 
 **Usuários** permitirá que você adicione e gerencie usuários associados a este periódico.
 
