@@ -1,7 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
-title: Learning Open Journal Systems 3.3 - Statistics
+title: Aprendendo Open Journal Systems 3.3 - Estatísticas
 ---
 
 # Estatísticas
