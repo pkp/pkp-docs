@@ -1,8 +1,8 @@
 ---
 book: learning-ojs
 version: 3.3
-title: Learning Open Journal Systems 3.3 - Tools
-description: A guide to using the Tools menu in OJS, including Import/Export functions and QuickSubmit.
+title: Aprendendo Open Journal Systems 3.3 - Estatísticas
+description: Um guia sobre como usar o menu Ferramentas no OJS, incluindo as funções Importar/Exportar e Submissão rápida.
 ---
 
 # Ferramentas
@@ -13,9 +13,9 @@ A seção ferramentas pode ser acessada do menu da barra lateral esquerda.
 
 Ferramentas é constituída das abas Importação/Exportação, Gerador de Relatórios (denominada Estatísticas no OJS 3.1.1 e anterior) e Permissões.
 
-{% include video.html id="_nm1dGIZS8Y" provider="youtube" title="Video of setting up a journal in OJS 3.3. Module 18: Plugins- QuickSubmit"%}
+{% include video.html id="opvVBWYnHho" provider="youtube" title="Vídeo de Configuração de um periódico no OJS 3.3. Módulo 18: Plugins- Subissão rápida"%}
 
-This PKP School video explains how to use the Quick Submit Plugin to add complete submissions to an issue. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da Escola do PKP explica como acessar e usar ferramentas de Importação/Exportação. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 ## Importar/Exportar
 
@@ -33,7 +33,7 @@ Para mais informações sobre o Plugin de Exportação Crossref XML, veja o [Gui
 
 ### Dentro de Plugins instalados, procure o Plugin Submissão Rápida;
 
-{% include video.html id="_nm1dGIZS8Y" provider="youtube" title="Video of setting up a journal in OJS 3.3. Module 18: Plugins- QuickSubmit"%}
+{% include video.html id="opvVBWYnHho" provider="youtube" title="Vídeo de Configuração de um periódico no OJS 3.3. Módulo 18: Plugins- Submissão rápida"%}
 
 Este vídeo do PKP School explica como usar o plug-in de envio rápido para adicionar envios completos a um problema. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -53,7 +53,7 @@ Para usar esse plugin, você vai precisar do seguinte:
 
 Primeiro, assegure que o Plugin Submissão Rápida foi instalado e habilitado no seu periódico.  Você vai precisar ter o papel de gerente do periódico para habilitar o plugin e o papel administrador para instalar o plugin.
 
-![Settings side menu options with the option for Website selected.](./assets/find-plugins.png)
+![Opções do menu lateral Configurações com a opção para o site selecionado.](./assets/find-plugins.png)
 
 1. Ir a Configurações > Website > Plugins;
 2. Dentro de Plugins instalados, procure o Plugin Submissão Rápida.  Se você ver na lista, pule para a etapa 8.
@@ -64,7 +64,7 @@ Primeiro, assegure que o Plugin Submissão Rápida foi instalado e habilitado no
 7. Depois que o plugin for instalado, volte à aba Plugins instalados e encontre o Plugin Submissão Rápida;
 8. Marque a caixa à direita com a descrição e o nome do plugin para ativá-lo.
 
-![List of Import/Export plugins from the Installed Plugin tab in Website settings.](./assets/enabled-import-plugins.png)
+![Lista de plugins Importar/Exportar na guia Plugin Instalado nas configurações do site.](./assets/enabled-import-plugins.png)
 
 Depois, você precisará criar os volumes (ou números) que conterão o novo artigo que está importando.
 
@@ -74,11 +74,11 @@ Depois, você precisará criar os volumes (ou números) que conterão o novo art
 4. Clique em Salvar;
 5. Faça isso em todos os volumes para os quais você estiver enviando artigos.
 
-![Volume 1 Number 1, 2017 issue titled From below created under Future Issue.](./assets/create-issue.png)
+![Problema de volume 1 número 1, 2017 intitulado Abaixo criado sob a Ediçao futura.](./assets/create-issue.png)
 
 Depois, você pode importar cada artigo com o Plugin:
 
-![Tools side menu options with Import/Export selected.](./assets/import-plugins.png)
+![Ferramentas opções de menu lateral com importação/exportação selecionada.](./assets/import-plugins.png)
 
 1. Vá a Ferramentas > Importar/Exportar e selecione Plugin Submissão Rápida;
 2. Faça o upload da imagem da capa, se tiver uma.  Este campo é opcional e pode ser ignorado;
@@ -89,7 +89,7 @@ Depois, você pode importar cada artigo com o Plugin:
 7. No final do formulário de Submissão Rápida, você pode selecionar se deseja que o artigo que está adicionando seja publicado imediatamente ou não publicado, isto é, se deseja publicá-lo posteriormente. Caso selecione Publicado, terá que selecionar a edição em que gostaria de publicá-lo e inserir a Data de Publicação. Você também pode inserir números de páginas e informações de permissões;
 8. Quando terminar de inserir todos os dados do artigo, clique em Salvar.
 
-![Submission form on QuickSubmit.](./assets/quick-submit-plugin-2.png)
+![Formulário de envio na Submissão rápida.](./assets/quick-submit-plugin-2.png)
 
 DOIs não são adicionados com o plugin da Submissão Rápida. Em vez disso, você deve adicioná-los separadamente.
 
