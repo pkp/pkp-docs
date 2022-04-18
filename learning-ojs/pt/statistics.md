@@ -35,27 +35,27 @@ As estatísticas visuais podem ser encontradas no painel do menu esquerdo, clica
 
 As estatísticas de artigos mostram as visualizações dos resumos em formato de gráfico e tabela. O gráfico visual pode ser alterado para visualização mensal ou diária. O formato da tabela permitirá que você filtre o total em ordem crescente ou decrescente.
 
-![Sample of a graph of abstract views produced by the Articles statistics tool.](./assets/abstract-views.png)
+![Exemplo de um gráfico de visualizações abstratas produzidas pela ferramenta de estatísticas dos artigos.](./assets/abstract-views.png)
 
-![Sample article details table produced by the Articles statistics tool.](./assets/article-details.png)
+![Exemplo de tabela de detalhes do artigo produzido pela ferramenta de estatísticas dos artigos.](./assets/article-details.png)
 
 O ícone de calendário, no canto superior direito do painel, oferece a opção de alterar a visualização do artigo para os últimos 30, 90 ou 365 dias, todas as datas ou um intervalo personalizado.
 
-![The calendar used for selecting date ranges in the Articles statistics tool.](./assets/calendar-range-articles.png)
+![O calendário usado para selecionar intervalos de datas na ferramenta de estatísticas dos artigos.](./assets/calendar-range-articles.png)
 
 O ícone de filtro, no canto superior direito do painel, oferece a opção de filtrar os artigos por seções.
 
-![The calendar used for selecting date ranges in the Articles statistics tool.](./assets/article-filters.png)
+![O calendário usado para selecionar intervalos de datas na ferramenta de estatísticas dos artigos.](./assets/article-filters.png)
 
 Você também tem a opção de pesquisar as estatísticas de um artigo específico por título, autor ou ID do manuscrito usando a função de pesquisa em Detalhes do artigo.
 
-![The search bar for locating specific article statistics.](./assets/article-details-search.png)
+![A barra de pesquisa para localizar estatísticas de artigos específicos.](./assets/article-details-search.png)
 
 ## Atividade editorial
 
 Esta seção fornece estatísticas sobre o fluxo de trabalho editorial, como número de submissões recebidas, dias para a primeira decisão editorial e taxas de aceitação e rejeição. Você pode filtrá-las usando um intervalo de datas personalizado para encontrar o número de artigos aceitos durante um período de 12 meses.
 
-![Sample of editorial statistics.](./assets/editorial-activity.png)
+![Exemplo de estatísticas editoriais.](./assets/editorial-activity.png)
 
 Há alguns detalhes a serem observados ao se considerar os dados dos relatórios:
 
@@ -70,13 +70,13 @@ Um Relatório de Atividade Editorial será gerado mensalmente e pode ser enviado
 
 Esta seção fornece informações sobre novos registros de usuário/função em um período de tempo especificado. A coluna Total não é um número total de contas criadas; ele identifica quantos usuários têm essa função no sistema agora. Quando um usuário existente recebe uma nova função, como um autor registrado, tornando-se um revisor, essa adição ao número total de revisores no sistema será refletida nos dados tendo em vista um aumento no número de revisores, mas nenhuma mudança no número total de usuários.
 
-![Sample users statistics data.](./assets/users.png)
+![Exemplo de dados estatísticos de usuários.](./assets/users.png)
 
 ## Gerador de relatórios
 
 A página Gerador de relatórios (Report Generator) fornece acesso a uma variedade de relatórios de sua revista.
 
-![The list of reports on the Report Generator page in OJS, detailed below.](./assets/report-generator.png)
+![Lista de relatórios sobre a página de Gerador de Relatórios no OJS, detalhada abaixo.](./assets/report-generator.png)
 
 O sistema gera relatórios que rastreiam os detalhes associados ao uso do site e envios durante um determinado período de tempo. Esses relatórios podem ser amplamente agrupados em relatórios de “uso”, que contêm métricas de uso indicativas de leitores visitantes, e relatórios de “conteúdo”, que fornecem dados sobre o respectivo item (por exemplo, informações de revisão). Os relatórios são gerados em formato CSV, que requer um aplicativo de planilha para visualização.
 
@@ -143,7 +143,7 @@ As métricas são rastreadas em relação aos tipos de itens específicos (AKA "
 * Emissão de visualizações de sumário;
 * Visualizações da página inicial da revista.
 
-![The custom report generator interface in OJS.](./assets/custom-report-generator1.png)
+![A interface personalizada de gerador de relatório no OJS.](./assets/custom-report-generator1.png)
 
 Você também pode limitar os resultados a intervalos de datas específicas.
 
@@ -166,20 +166,20 @@ Essa consulta específica fornecerá uma contagem mensal de quantas versões de 
 * Desmarque todas as caixas em “Agregar estatísticas por”;
 * Clique no botão de opção “Mês” e insira o intervalo de datas em “Ou selecione o intervalo por;
 
-![The custom report generator with the above described settings entered in OJS.](./assets/custom-report-generator10.png)
+![O gerador de relatórios personalizado com as configurações acima descritas inseridas no OJS.](./assets/custom-report-generator10.png)
 
 * Abra “Opções Avançadas” e selecione apenas “Mês” em Colunas;
 
-!["Month" selected under the advanced options in the custom report generator.](./assets/custom-report-generator3.png)
+!["Mês" selecionado sob as opções avançadas no gerador de relatório personalizado.](./assets/custom-report-generator3.png)
 
 * Este exercício busca  apenas uma filtragem muito leve de nossos dados. Sendo assim, selecione os arquivos de envio e, em seguida, os formatos de arquivos que deseja incluir em seu relatório. Este exemplo seleciona apenas PDF, mas você pode selecionar PDF e HTML, se sua revista também oferecer downloads de artigos HTML de texto completo. Use Ctrl + Clique ou Command + Clique para selecionar vários tipos. Em ID do objeto, insira o ID do objeto da edição na qual você está interessado, que estará localizado na URL da mesma. Por exemplo, uma edição com a URL publicknowledgeproject.org/journal/index.php/journal/issue/view/ 24 tem o ID de objeto 24;
 
-![A sample issue ID entered into the custom report generator.](./assets/custom-report-generator4.png)
+![Um exemplo de ID de problema inserido no gerador de relatório personalizado.](./assets/custom-report-generator4.png)
 
 * Ignore as opções “Por localização geográfica” e “Ordenar por”, e clique em “Gerar relatório personalizado”;
 * Assim, você obterá um relatório mensal muito simples dos downloads dos arquivos de leitura de prova para o volume do periódico;
 
-![Results in .csv format returned from the above custom report.](./assets/custom-report-generator5.png)
+![Resultados no formato .csv retornados do relatório personalizado acima.](./assets/custom-report-generator5.png)
 
 * Salve a URL na parte inferior da página para seus registros!
 
@@ -191,24 +191,24 @@ Este relatório apresentará uma lista de títulos de artigos (e os problemas de
 * Desmarque todas as caixas em “Agregar estatísticas por;”
 * Selecione o botão de opção “Mês” e insira um intervalo de datas;
 
-![The custom report generator with the above described settings entered in OJS.](./assets/custom-report-generator10.png)
+![O gerador de relatórios personalizado com as configurações acima descritas inseridas no OJS.](./assets/custom-report-generator10.png)
 
 * Selecione apenas “Artigo” e “Emissão” em Colunas. Dessa forma,  o tipo será restringido em um ponto posterior da consulta;
 
-!["Article" and "Issue" selected under the advanced options in the custom report generator.](./assets/custom-report-generator6.png)
+!["Artigo" e "Edição" selecionado sob as opções avançadas no gerador de relatório personalizado.](./assets/custom-report-generator6.png)
 
 * Selecione “Arquivos de envio” sob o tipo de objeto e selecione todos os tipos de formatos que deseja incluir na contagem de download;
 
-![The above described settings entered in OJS.](./assets/custom-report-generator7.png)
+![As configurações acima descritas inseridas no OJS.](./assets/custom-report-generator7.png)
 
 * Ignore a “localização geográfica” (não mostrada aqui);
 * “Ordenar por” organizará seus artigos em ordem decrescente por número de downloads. Para fazer isso, selecione "Contar" na primeira caixa suspensa e selecione "Decrescente".
 
-![Arrows pointing to the first two drop downs in the Order by section, with "Count" and "Descending" selected.](./assets/custom-report-generator8.png)
+![Setas apontando para as duas primeiras opções de lista suspensa por seção, com "Contagem" e "Ordem Descendente" selecionados.](./assets/custom-report-generator8.png)
 
 * O relatório resultante aparecerá da seguinte forma (truncado):
 
-![Results in .csv format returned from the above custom report.](./assets/custom-report-generator9.png)
+![Resultados no formato .csv retornados do relatório personalizado acima.](./assets/custom-report-generator9.png)
 
 * Salve seu URL na parte inferior da página!
 
@@ -220,24 +220,24 @@ Esta consulta exibe uma contagem de downloads de texto completo para cada ediç�
 * Desmarque todas as caixas em “Agregar estatísticas por”;
 * Selecione o botão de opção “Mês” e insira um intervalo de datas;
 
-![The custom report generator with the above described settings entered in OJS.](./assets/custom-report-generator10.png)
+![O gerador de relatórios personalizado com as configurações acima descritas inseridas no OJS.](./assets/custom-report-generator10.png)
 
 * Nas colunas, clique em “Número”;
 
-!["Issue" selected under the advanced options in the custom report generator.](./assets/custom-report-generator11.png)
+!["Edição" selecionado sob as opções avançadas no gerador de relatório personalizado.](./assets/custom-report-generator11.png)
 
 * Em “Filtros”, selecione “Arquivos de envio” em Tipo de objeto e selecione o(s) tipo(s) de arquivo usado(s) pela sua revista (use Ctrl + Clique ou Command + Clique para selecionar vários tipos);
 
-![The above described settings entered in OJS.](./assets/custom-report-generator7.png)
+![As configurações acima descritas inseridas no OJS.](./assets/custom-report-generator7.png)
 
 * Ignore a “localização geográfica” (não mostrada aqui);
 * “Ordenar por” organizará seus artigos em ordem decrescente por número de downloads. Para fazer isso, selecione "Contar" na primeira caixa suspensa e selecione "Decrescente".
 
-![Arrows pointing to the first two drop downs in the Order by section, with "Count" and "Descending" selected.](./assets/custom-report-generator8.png)
+![Setas apontando para as duas primeiras opções de lista suspensa por seção, com "Contagem" e "Ordem Descendente" selecionados.](./assets/custom-report-generator8.png)
 
 * Execute seu relatório. Aqui está o que você obterá:
 
-![Results in .csv format returned from the above custom report.](./assets/custom-report-generator12.png)
+![Resultados no formato .csv retornados do relatório personalizado acima.](./assets/custom-report-generator12.png)
 
 * Não se esqueça de salvar sua URL para exibi-lo posteriormente.
 
@@ -249,30 +249,30 @@ Esta consulta exibirá contagens agregadas para downloads de texto completo por 
 * Desmarque todas as caixas em “Agregar estatísticas por”;
 * Selecione o botão de opção “Mês” e insira um intervalo de datas;
 
-![The custom report generator with the above described settings entered in OJS.](./assets/custom-report-generator10.png)
+![O gerador de relatórios personalizado com as configurações acima descritas inseridas no OJS.](./assets/custom-report-generator10.png)
 
 * Selecione apenas “Revista” e “País” em Colunas. Você pode usar Ctrl + Click ou Command + Click para selecionar vários itens. Dessa forma, o tipo será restringido em um ponto posterior da consulta.
 
-!["Journal" and "Country" selected under the advanced options in the custom report generator.](./assets/custom-report-generator13.png)
+!["Periódico" e "País" selecionado sob as opções avançadas no gerador de relatório personalizado.](./assets/custom-report-generator13.png)
 
 * Em “Filtros”, selecione “Arquivos de envio” em Tipo de objeto e, em seguida, selecione o(s) tipo(s) de arquivo usado(s) pela sua revista (use Ctrl + Clique ou Command + Clique para selecionar vários tipos);
 
-![The above described settings entered in OJS.](./assets/custom-report-generator7.png)
+![As configurações acima descritas inseridas no OJS.](./assets/custom-report-generator7.png)
 
 * A aba “Ordenar por” organizará seus artigos em ordem decrescente por número de downloads. Para fazer isso, selecione "Contar" na primeira caixa suspensa e selecione "Decrescente";
 
-![Arrows pointing to the first two drop downs in the Order by section, with "Count" and "Descending" selected.](./assets/custom-report-generator8.png)
+![Setas apontando para as duas primeiras opções de lista suspensa por seção, com "Contagem" e "Ordem Descendente" selecionados.](./assets/custom-report-generator8.png)
 
 * Execute o relatório.
 * Não se esqueça de salvar sua URL para exibi-lo posteriormente.
 
-![Results in .csv format returned from the above custom report.](./assets/custom-report-generator14.png)
+![Resultados no formato .csv retornados do relatório personalizado acima.](./assets/custom-report-generator14.png)
 
 ### Exibir estatísticas de uso para leitores
 
 Na página de destino do artigo, no OJS 3, você pode exibir as estatísticas de uso de um artigo no ano atual em forma de gráfico. Para isso, deverá usar o plugin de estatísticas de uso, conforme mostrado nesta imagem.
 
-![A sample article with a graph of monthly downloads shown under the abstract.](./assets/reader-statistics.png)
+![Um exemplo de artigo com um gráfico de downloads mensais exibidos em baixo do resumo.](./assets/reader-statistics.png)
 
 Para ativar o plugin de estatísticas de uso:
 
@@ -291,7 +291,7 @@ Para configurar o plugin de estatísticas de uso:
 7. Abaixo disso, você pode selecionar se deseja exibir as estatísticas como um gráfico de barras ou linhas e o número máximo de meses para exibir o uso.
 8. Clique em **Salvar**.
 
-![The optional statistic checkboxes where users can enable/disable city or regional data collection, and enable the statistics viewable to readers.](./assets/usage-stats-plugin-configuration-basic.png)
+![As caixas de seleção de estatísticas opcionais onde os usuários podem ativar/desativar a cidade ou coleta de dados regionais e ativar as estatísticas visíveis aos leitores.](./assets/usage-stats-plugin-configuration-basic.png)
 
 Por favor observe o seguinte:
 
