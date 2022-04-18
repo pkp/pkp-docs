@@ -1,7 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
-title: Learning Open Journal Systems 3.3 - Workflow Settings
+title: Aprendendo Open Journal Systems 3.3 - Configurações do fluxo de trabalho
 ---
 
 # Configurações do fluxo de trabalho
@@ -22,9 +22,9 @@ Um  gerente de revista poderá desabilitar as submissões para uma específica o
 
 Depois que a configuração é habilitada, uma notificação é exibida indicando que as submissões foram desabilitadas. Quando esta configuração está ativa, os usuários não poderão mais realizar submissões à revista.
 
-![OJS 3.3 disable submission menu.](./assets/learning-ojs3.3-workflow-disable-submissions.png)
+![OJS 3.3 desativa o menu de envio.](./assets/learning-ojs3.3-workflow-disable-submissions.png)
 
-![OJS 3.3 notice about the journal not accepting submissions.](./assets/learning-ojs3.3-workflow-disable-submissions-notification.png)
+![Aviso OJS 3.3 sobre o periódico não aceitar submissões.](./assets/learning-ojs3.3-workflow-disable-submissions-notification.png)
 
 ### Metadados
 
@@ -38,7 +38,7 @@ Este vídeo da PKP School explica como gerenciar Componentes no OJS. Para assist
 
 Componentes são os tipos de arquivos que os autores podem enviar para o site. Normalmente, um arquivo será o texto do artigo e outros podem incluir transcrições de entrevistas, dados, imagens, etc.  Os componentes disponíveis para que o autor escolha ao fazer suas submissões estão listados aqui.
 
-![OJS 3.3 article components menu.](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)
+![Menu de componentes do artigo OJS 3.3.](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)
 
 Utilizando as setas abaixo dos componentes, você pode alterar a **Ordem** deles (como eles serão listados para o autor que os enviou), **incluir um Componente** (se algo de que você precisa não estiver incluído por padrão - por exemplo, Vídeo), ou **Restaurar Padrões** (se alguém fez muitas modificações e você apenas deseja redefinir tudo).
 
@@ -46,7 +46,7 @@ Utilizando as setas abaixo dos componentes, você pode alterar a **Ordem** deles
 
 Você também pode editar cada componente selecionando a seta azul à esquerda do nome do componente. Isso revelará a opção de editar ou excluir o componente.
 
-![OJS 3.3 component editing menu.](./assets/learning-ojs3.3-jm-settings-workflow-comp-edit.png)
+![Menu de edição de componentes OJS 3.3.](./assets/learning-ojs3.3-jm-settings-workflow-comp-edit.png)
 
 - **Nome**: é o nome do componente, conforme apresentado ao autor.
 
@@ -60,7 +60,7 @@ Você também pode editar cada componente selecionando a seta azul à esquerda d
 
 Na Lista de Verificação de Preparação da Submissão, os Autores devem marcar se concordam com cada item desta lista. Use o link _Order_ para alterar a ordem dos itens, use o link _Add Item_ para criar um novo item e use a seta azul à esquerda do nome do item para _Edit_ um item existente.
 
-![OJS 3.3 submission checklist editing menu.](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
+![Menu de edição da lista de verificação de submissão do OJS 3.3.](./assets/learning-ojs-3-settings-workflow-settings-components-edit-item-edit.png)
 
 ### Diretrizes do autor
 
@@ -77,7 +77,7 @@ Este vídeo do PKP School demonstra como configurar o processo de Revisão no OJ
 
 Esta aba permite configurar o processo de Avaliação do seu periódico.
 
-![OJS 3.3 review configuration editing menu.](./assets/learning-ojs3.1-jm-settings-workflow-review.png)
+![OJS 3.3 revisa o menu de edição de configuração.](./assets/learning-ojs3.1-jm-settings-workflow-review.png)
 
 ### Configuração
 
@@ -87,7 +87,7 @@ Esta aba permite configurar o processo de Avaliação do seu periódico.
 
 **Habilitar acesso 1-clique**: ative (padrão) a primeira opção para fornecer aos avaliadores acesso com um clique à Avaliação, evitando a necessidade de ir ao site, fazer login e localizar o submissão. Por motivos de segurança, esta opção não possibilita que os editores modifiquem os endereços de e-mail ou adicionem CCs ou BCCs antes de enviar convites aos avaliadores.
 
-**Prazos de Resposta Padrão:** indicam quanto tempo os avaliadores têm para decidir aceitar ou utilizar uma solicitação de Avaliação do editor e quanto tempo eles têm para realizar uma recomendação. These dates are calculated from the date the review is sent.
+**Prazos de Resposta Padrão:** indicam quanto tempo os avaliadores têm para decidir aceitar ou utilizar uma solicitação de Avaliação do editor e quanto tempo eles têm para realizar uma recomendação. Essas datas são calculadas a partir da data do envio do convite para avaliação.
 
 **Lembretes de e-mail automatizados**: os revisores serão notificados automaticamente quando forem atribuídos a uma revisão; no entanto, você pode habilitar ou desabilitar emails de lembrete para revisores. Use o menu suspenso para selecionar o número de dias ou "Nunca lembrar" em "Enviar um lembrete se um revisor não tiver respondido a uma solicitação de revisão dentro do seguinte tempo (dias) após a data de vencimento da resposta" para definir o número de dias que pode passar após a data de vencimento antes que os revisores sejam lembrados de aceitar ou rejeitar uma solicitação de revisão.
 
@@ -95,7 +95,7 @@ Use o menu suspenso para selecionar o número de dias ou "Nunca lembrar" em "Env
 
 Clique no botão **Salvar** para registrar suas alterações.
 
-![OJS 3.3 notification of author submission screen.](./assets/learning-ojs3.1-jm-settings-review-reminders.png)
+![OJS 3.3 notificação da tela de submissão do autor.](./assets/learning-ojs3.1-jm-settings-review-reminders.png)
 
 Observe que algumas configurações do sistema devem ser definidas pelo Administrador do Site para enviar e-mail. Consulte o [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) para obter mais informações.
 
@@ -111,17 +111,17 @@ Os formulários de avaliação fornecem aos avaliadores um conjunto de perguntas
 
 **Criar formulário de Avaliação**: clique no link Criar formulário de Avaliação para iniciar um novo formulário.
 
-![OJS 3.3 new review form creation menu.](./assets/learning-ojs-3-settings-workflow-settings-review-create.png)
+![Novo menu de criação de formulário de revisão do OJS 3.3.](./assets/learning-ojs-3-settings-workflow-settings-review-create.png)
 
 A descrição e as instruções fornecem informações sobre o formulário e quando utilizá-lo, para gerentes e editores da revista. Este conteúdo não está incluído no formulário que os avaliadores veem. Você pode adicionar instruções e diretrizes para avaliadores em Diretrizes de Avaliação (abaixo).
 
 De volta à página Formulários para Avaliação, selecione a seta azul à esquerda do nome do formulário para revelar a opção ”editar”.
 
-![OJS 3.3 review forms with edit menu expanded.](./assets/learning-ojs-3-settings-workflow-settings-review-edit1.png)
+![Formulários de revisão do OJS 3.3 com menu de edição expandido.](./assets/learning-ojs-3-settings-workflow-settings-review-edit1.png)
 
 Clique em “editar” e preencha o formulário.
 
-![OJS 3.3 review form edit menu and response options.](./assets/learning-ojs-3-settings-workflow-settings-review-create-items.png)
+![OJS 3.3 revisão do menu de edição do formulário e opções de resposta.](./assets/learning-ojs-3-settings-workflow-settings-review-create-items.png)
 
 Os **itens do formulário** são perguntas do formulário.
 
@@ -142,13 +142,13 @@ Lembre-se de clicar no botão **Salvar** para registrar suas alterações.
 
 Utilize a guia **Pré-visualizar** para testar o formulário.
 
-![OJS 3.3 review form preview and response options.](./assets/learning-ojs-3-settings-workflow-settings-review-preview.png)
+![Visualização do formulário de revisão OJS 3.3 e opções de resposta.](./assets/learning-ojs-3-settings-workflow-settings-review-preview.png)
 
 Depois de enviar o formulário a um avaliador, você não poderá mais editá-lo, pois isso mudaria o registro de revisões existentes utilizando esse formulário. Se deseja alterar informações no Formulário de Avaliação nesse ponto, você pode copiar o formulário existente e criar uma nova versão atualizada.
 
 **Avaliador anônimo/autor divulgado:** Marque esta caixa para exibir um link com instruções sobre como garantir que todos os arquivos enviados sejam anônimos.
 
-![OJS 3.3 checkbox to display submission anonymization instructions.](./assets/learning-ojs-3-settings-workflow-settings-review2.png)
+![Caixa de seleção OJS 3.3 para exibir instruções de anonimização de envio.](./assets/learning-ojs-3-settings-workflow-settings-review2.png)
 
 ## Biblioteca da revista
 
@@ -162,11 +162,11 @@ Você também pode fazer upload de um arquivo que gostaria de ter acesso públic
 
 Os formulários sugeridos que podem ser carregados nesta área podem incluir o formulário de aprovação da composição final, a página de capa do material suplementar e outros formulários relacionados ao fluxo de trabalho de seus periódicos.
 
-![OJS 3.3 publisher library menu.](./assets/learning-ojs3.1-jm-settings-workflow-publib1.png)
+![Menu da biblioteca do editor OJS 3.3.](./assets/learning-ojs3.1-jm-settings-workflow-publib1.png)
 
 Para adicionar um arquivo aqui, clique em “incluir arquivo” no canto superior direito da caixa Biblioteca da Revista.
 
-![OJS 3.3 add a file to the publisher library.](./assets/learning-ojs3.1-jm-settings-workflow-publib2.png)
+![OJS 3.3 adiciona um arquivo à biblioteca do editor.](./assets/learning-ojs3.1-jm-settings-workflow-publib2.png)
 
 **Nome:** título do documento que você deseja que apareça para o usuário
 
@@ -184,7 +184,7 @@ Este vídeo do PKP School explica como configurar emails no OJS. Para assistir a
 
 Esta seção permite configurar os e-mails que serão enviados do sistema.
 
-![OJS 3.3 emails menu.](./assets/learning-ojs3.1-jm-settings-workflow-emails.png)
+![Menu de e-mails do OJS 3.3.](./assets/learning-ojs3.1-jm-settings-workflow-emails.png)
 
 **Assinatura:** as informações deste campo serão adicionadas ao final de todos os e-mails enviados pelo sistema.
 
@@ -196,17 +196,17 @@ O OJS facilita a comunicação do fluxo de trabalho por meio do uso de mensagens
 
 Você pode visualizar e modificar os modelos de e-mail pré-estabelecidos. Você visualizará uma lista na guia “Modelos de E-mail”. O título e o resumo de cada um são exibidos na lista.
 
-![OJS 3.3 emails templates.](./assets/learning-ojs3.3-jm-settings-workflow-email-templates.png)
+![Modelos de e-mail OJS 3.3.](./assets/learning-ojs3.3-jm-settings-workflow-email-templates.png)
 
 Se clicar na seta ao lado de cada modelo você acessará o assunto e o conteúdo da mensagem e quem é o remetente e destinatário padrão da mensagem.
 
-![OJS 3.3 editorial assignment template editing screen.](./assets/learning-ojs3.3-jm-settings-workflow-email-template-view.png)
+![Tela de edição do modelo de atribuição editorial do OJS 3.3.](./assets/learning-ojs3.3-jm-settings-workflow-email-template-view.png)
 
 Você poderá pesquisar um modelo de e-mail por palavras-chave, digitando algo na caixa **Buscar**.
 
 Você pode clicar em **Filtros** para revelar opções para filtragem dos modelos por status, enviado de, enviado e em qual estágio do fluxo de trabalho ele é utilizado. Esses filtros podem ajudar você a encontrar os modelos que deseja editar.
 
-![OJS 3.3 email template filtering options.](./assets/learning-ojs3.3-jm-settings-workflow-email-template-filters.png)
+![Opções de filtragem de modelo de e-mail OJS 3.3.](./assets/learning-ojs3.3-jm-settings-workflow-email-template-filters.png)
 
 Consulte [as descrições do modelo](#template-descriptions) no final deste capítulo para obter uma tabela de todos os modelos de e-mail e seu remetente, destinatário e estágio do fluxo de trabalho.
 
