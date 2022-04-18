@@ -7,7 +7,7 @@ version: 3.3
 
 As Configurações do Website permitem configurar o aspecto e funcionamento do website da revista. É composto por 3 guias principais para Aparência, Configuração e Plugins.
 
-![OJS dashboard view of website settings menu.](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
+![Visualização do painel OJS do menu de configurações do site.](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
 
 ## Aparência
 
@@ -86,7 +86,8 @@ Este vídeo PKP School explica como definir as configurações de informações 
 
 Use esses campos para modificar o texto nas páginas Para Leitores, Para Autores e Para Bibliotecários no site da revista.
 
-![OJS dashboard view of Information menu with boiler plate text in the fields for readers and for authors.](./assets/learning-ojs3.1-jm-settings-web-info.png)
+![
+Visualização do painel OJS do menu Informações com texto de nos campos para leitores e autores.](./assets/learning-ojs3.1-jm-settings-web-info.png)
 
 Lembre-se de clicar em **Salvar** para registrar quaisquer mudanças.
 
@@ -102,7 +103,7 @@ O OJS é multilíngue, o que significa que a interface, os e-mails e o conteúdo
 
 Em Configurações do Website > Idiomas você pode ver uma lista de idiomas instalados em seu site e configurar como os idiomas são usados em sua revista. Analise cuidadosamente como você deseja configurar e usar os idiomas em seu periódico, pois podem ocorrer problemas significativos, caso as configurações sejam alteradas mais tarde.
 
-![OJS dashboard view of Languages menu with English and French options, English option selected as primary locale.](./assets/learning-ojs3.1-jm-settings-web-lang.png)
+![Visualização do painel OJS do menu Idiomas com opções em inglês e francês, opção em inglês selecionada como localidade principal.](./assets/learning-ojs3.1-jm-settings-web-lang.png)
 
 - **Idioma principal**: função necessária à definição do idioma principal do periódico.
 
@@ -112,7 +113,7 @@ Em Configurações do Website > Idiomas você pode ver uma lista de idiomas inst
 
 - **Submissões**: função que permite autorizar os autores a fazerem submissões em outros idiomas. Caso você acione essa função, permitirá que os autores adicionem metadados nos idiomas selecionados ao fazerem o upload de sua submissão.
 
-Additional languages can be installed on your site by an Administrator – see [the Site Administration chapter](./site-administration) for details.
+Idiomas adicionais podem ser instalados em sua revista por um administrador - consulte [o capítulo Administração do site](./site-administration) para obter detalhes.
 
 Atenção: se permitir que vários idiomas apareçam na interface de usuário, certifique-se de que, em Configurações do site > Aparência > Configurar> Barra lateral> Alteração de idioma. Somente assim, tornará esse recurso disponível aos usuários.
 
@@ -124,7 +125,7 @@ Este vídeo PKP School explica como definir as configurações de navegação no
 
 Esta seção permite que você configure seus menus de navegação, tais como a inclusão de novas guias.
 
-![OJS dashboard view of Navigation Menu with user and primary menus and an option to add or edit navigation menu items.](./assets/learning-ojs3.1-jm-settings-web-navmenu.png)
+![Visualização do painel OJS do Menu de Navegação com menus de usuários e primários e uma opção para adicionar ou editar itens do menu de navegação.](./assets/learning-ojs3.1-jm-settings-web-navmenu.png)
 
 - **Menus de navegação**: configure o Menu do usuário e/ou o Menu principal.
 
@@ -134,11 +135,11 @@ Quando você atribuir um item do menu com condições de exibição em um menu, 
 
 - **Itens do menu de navegação**: são links programados que você pode adicionar a qualquer um dos menus acima. Se deseja adicionar um link ao Menu Principal (por exemplo, "Nossa Sociedade"), adicione-o nesse espaço por meio do link _Adicionar Item_.
 
-![Add item screen with item title and remote URL filled out.](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.png)
+![Adicionar tela de item com título do item e URL remoto preenchidos.](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.png)
 
 O novo link agora aparecerá na lista de Itens do Menu de Navegação. A seguir, vá ao Menu de Navegação desejado (por exemplo, Primário) use a seta azul para revelar as opções e escolha Editar. Através da função Editar, você poderá arrastar o novo link dos Itens do Menu Não Atribuídos e soltá-lo nos Itens do Menu Atribuídos e no local apropriado no menu.
 
-![Primary navigation area with a list of assigned and unassigned menu items.](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.png)
+![Área de navegação principal com uma lista de itens de menu atribuídos e não atribuídos.](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.png)
 
 Clique em Salvar para gravar as mudanças.
 
@@ -150,7 +151,7 @@ Este vídeo do PKP School explica como definir as configurações de anúncios n
 
 Esta seção permite a você criar e exibir notícias no website da revista.
 
-![OJS dashboard view of Announcements menu with an option to enable and display announcements.](./assets/learning-ojs3.1-jm-settings-web-announce.png)
+![Visualização do painel OJS do menu Anúncios com uma opção para ativar e exibir anúncios.](./assets/learning-ojs3.1-jm-settings-web-announce.png)
 
 - **Interface do usuário**: por meio dessa função, você pode disponibilizar outros idiomas na interface do periódico.
   - **Introdução**: digite qualquer informação geral que você gostaria que aparecesse em sua página de anúncios;
@@ -158,7 +159,7 @@ Esta seção permite a você criar e exibir notícias no website da revista.
 
 Uma vez ativado o ajuste de Notícias, clique em "Salvar". Um item do menu "Notícias" aparecerá na navegação principal, no lado esquerdo. Clique neste item de menu e selecione "Adicionar anúncio". Aqui você pode incluir o título do anúncio, uma breve descrição e/ou texto completo do anúncio e uma data de expiração (opcional). Se deseja enviar uma notificação por e-mail a todos os usuários (que não optaram por não receber notificações por e-mail), selecione "Enviar e-mail de notificação para todos os usuários registrados". O anúncio aparecerá em uma guia "Notícias", no site do periódico, voltado ao público.
 
-![OJS 3.3 Announcements menu enabled in the sidebar with an option to add and edit announcements.](./assets/learning-ojs3.3-settings-website-announcements.png)
+![Menu de anúncios do OJS 3.3 habilitado na barra lateral com opção de adicionar e editar anúncios.](./assets/learning-ojs3.3-settings-website-announcements.png)
 
 Este vídeo da PKP School explica como definir as configurações do site no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -176,7 +177,7 @@ Digite a declaração de privacidade que você deseja que apareça em seu site.
 
 Essa opção permite a configuração de diferentes formatos de datas e horários para cada revista e traduções, que anteriormente só podiam ser configurados no arquivo 'config.inc.php'. Observe que o arquivo `config.inc.php` ainda pode ser usado para definir a hora e o formato em vários periódicos, e as configurações primárias serão as padrão para outros locais, a menos que configurado de outra forma.  Um formato personalizado pode ser inserido por meio do uso de caracteres do formato especial.
 
-![OJS 3.3 Date and Time menu with an option to select long and short date formats.](./assets/learning-ojs3.3-date-and-time-setup.png)
+![Menu Data e Hora do OJS 3.3 com opção para selecionar formatos de data longos e curtos.](./assets/learning-ojs3.3-date-and-time-setup.png)
 
 ## Plugins
 
@@ -190,7 +191,7 @@ Use essa página para ver todos os plugins instalados e encontrar novos plugins.
 
 Todos os plugins listados aqui estão disponíveis em sua instalação OJS. Verifique se estão habilitados no link Habilitar para usá-los.
 
-![OJS dashboard view of Plugins menu with the tab for installed plugins selected.](./assets/learning-ojs3.1-jm-settings-web-plugins.png)
+![Visualização do painel OJS do menu Plugins com a guia para plugins instalados selecionada.](./assets/learning-ojs3.1-jm-settings-web-plugins.png)
 
 Você notará que alguns plugins são necessários ao sistema e não podem ser desativados.
 
@@ -200,11 +201,11 @@ Clique na seta azul ao lado do nome do plugin para Exibir detalhes, Excluir, Atu
 
 A Galeria de Plugins fornece acesso a plugins criados externamente, que podem não estar incluídos em sua instalação OJS, mas que estão disponíveis para download e ativação. Somente um usuário Administrador pode instalar um novo plugin.
 
-![OJS dashboard view of Plugins menu with the tab for plugin gallery selected.](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery.png)
+![Visualização do painel OJS do menu Plugins com a guia da galeria de plugins selecionada.](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery.png)
 
 A seleção do título do plugin fornecerá detalhes adicionais, incluindo autor, status, descrição e compatibilidade.
 
-![Hypothes.is plugin selected in the plugin gallery shows that it is installed and up-to-date.](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery-hypo.png)
+![O plugin Hypothes.is selecionado na galeria de plugins mostra que está instalado e atualizado.](./assets/learning-ojs3.1-jm-settings-web-plugins-gallery-hypo.png)
 
 ### Plugins de Terceiros
 
@@ -234,15 +235,15 @@ O [AddThis](https://www.addthis.com/) permite o fácil compartilhamento em mídi
 
 Esse plugin pode ser ativado a partir da Galeria de plugins.
 
-![Social media sharing icons displayed on an article page by the AddThis plugin.](./assets/learning-ojs-settings-plugin-addthis.png)
+![Ícones de compartilhamento de mídia social exibidos em uma página de artigo pelo plugin AddThis.](./assets/learning-ojs-settings-plugin-addthis.png)
 
 Você pode configurar os ícones das mídias sociais e obter estatísticas clicando no botão Configurar do Plugin.
 
-![AddThis plugin settings button.](./assets/learning-ojs-settings-plugin-addthis-2.png)
+![Adicionar este botão de configurações do plug-in.](./assets/learning-ojs-settings-plugin-addthis-2.png)
 
 Para obter estatísticas a partir desse plugin, será preciso se registrar em [AddThis account](https://www.addthis.com/).
 
-![AddThis plugin settings expanded with different display options.](./assets/learning-ojs-settings-plugin-addthis-3.png)
+![As configurações do plug-in AddThis foram expandidas com diferentes opções de exibição.](./assets/learning-ojs-settings-plugin-addthis-3.png)
 
 #### Bloco de Navegação
 
@@ -250,13 +251,13 @@ Esse plugin implementa um plugin de bloco que permite ao usuário navegar pelo c
 
 Além disso, esse plugin pode ser ativado a partir da Galeria de Plugins.
 
-![Browse plugin with categories for Summer, Fall, Spring, Winter.](./assets/learning-ojs-settings-plugin-browse.png)
+![Navegue pelo plugin com categorias para verão, outono, primavera, inverno.](./assets/learning-ojs-settings-plugin-browse.png)
 
 #### Linguagem de Estilo de Citação
 
 O plugin  Linguagem de Estilo de Citação adiciona um bloco "Como Citar" à página do artigo que contém uma citação para o artigo no formato de sua escolha, com uma opção abaixo para gerar a citação em outro formato.
 
-![Example of a citation on an article page under How to Cite added by the Citation Style Language Plugin.](./assets/learning-ojs-settings-plugin-citation.png)
+![Exemplo de uma citação em uma página de artigo em Como Citar adicionado pelo plug-in Citation Style Language.](./assets/learning-ojs-settings-plugin-citation.png)
 
 Esse é um Plugin Instalado e precisará ser ativado em Configurações do Website > Plugins > Plugins Instalados.
 
@@ -265,7 +266,7 @@ Para configurar o plugin:
 * Clique na seta azul ao lado do nome do plugin;
 * Clique na opção **Configurações**, que aparece abaixo;
 
-![Citation Style Language Plugin settings button.](./assets/learning-ojs-settings-plugin-citation-2.png)
+![Botão de configurações do plug-in de idioma de estilo de citação.](./assets/learning-ojs-settings-plugin-citation-2.png)
 
 * Selecione o formato de citação primária que gostaria de usar da primeira lista, seguido pelos outros formatos de citação que gostaria que estivesse disponível a partir da segunda lista;
 * Em seguida, é possível, opcionalmente, selecionar um formato para download, a ser disponibilizado aos leitores, com a finalidade de exportar dados para o software de gerenciamento de bibliografia;
@@ -344,7 +345,7 @@ Quando solicitado a registrar seu **nome no website**, crie um baseado no nome d
 
 Pule o passo **Instalar Disqus** e vá a **Configurar Disqus**. Digite a url de seu periódico no campo **URL do site**. Digite sua política de comentários, conforme aplicável.
 
-![Configure Disqus menu on the Disqus website.](./assets/learning-ojs-3.2-settings-plugin-disqus-configure-disqus.png)
+![Configure o menu Disqus no site Disqus.](./assets/learning-ojs-3.2-settings-plugin-disqus-configure-disqus.png)
 
 Agora, você pode configurar o plugin Disqus em seu site de periódico:
 
@@ -354,11 +355,11 @@ Agora, você pode configurar o plugin Disqus em seu site de periódico:
 4. Digite o nome do site de sua conta Disqus no campo **Abreviação do fórum Disqus**;
 5. Clique em **OK**.
 
-![OJS Disqus plugin settings menu with an option to enter a forum's shortname.](./assets/learning-ojs-3.2-settings-plugin-disqus-configure-plugin.png)
+![Menu de configurações do plugin OJS Disqus com uma opção para inserir o nome abreviado de um fórum.](./assets/learning-ojs-3.2-settings-plugin-disqus-configure-plugin.png)
 
 Após configurar o plugin, ao abrir uma das páginas de seu artigo, você deverá ver os comentários de Disqus na parte inferior. Seus usuários terão que se registrar em Disqus para usar o recurso.
 
-![Example of an article page with Disqus comment field at the bottom.](./assets/learning-ojs-3.2-settings-plugin-disqus-comment-on-article.png)
+![Exemplo de página de artigo com campo de comentários do Disqus na parte inferior.](./assets/learning-ojs-3.2-settings-plugin-disqus-comment-on-article.png)
 
 #### Plugin Hypothes.is
 
@@ -368,19 +369,19 @@ O hypothes.is pode ser ativado a partir da Galeria de Plugins.
 
 Uma vez habilitado, os leitores verão as ferramentas hypothes.is no lado direito da galeria HTML.
 
-![Hypothesis view next to an HTML galley with sample text.](./assets/learning-ojs-settings-plugin-hypothesis.png)
+![Exibição Hypothesis ao lado de uma galley HTML com texto de exemplo.](./assets/learning-ojs-settings-plugin-hypothesis.png)
 
 Você precisará de uma conta gratuita em hypothes.is para participar dos comentários do público. Grupos de comentários específicos/privados também podem ser criados. Veja o site [hypothes.is](https://web.hypothes.is/help/how-to-create-a-private-group/) para instruções.
 
 As anotações e destaques públicos (se houver) somente serão visíveis se você estiver inscrito.
 
-![Hypothesis view next to an HTML galley with portions of the sample text highlighted.](./assets/learning-ojs-settings-plugin-hypothesis-2.png)
+![Exibição Hypothesis ao lado de uma galley HTML com partes do texto de exemplo destacadas.](./assets/learning-ojs-settings-plugin-hypothesis-2.png)
 
 #### Plugin Nuvem de palavras-chave
 
 Esse plugin exibe uma nuvem de palavras-chave que podem ser habilitadas na barra lateral de seu periódico ou da editora.
 
-![Keyword cloud displayed in a journal sidebar.](./assets/learning-ojs-settings-plugin-keyword.png)
+![Nuvem de palavras-chave exibida em uma barra lateral de diário.](./assets/learning-ojs-settings-plugin-keyword.png)
 
 Trata-se de um plugin de terceiros que deverá ser baixado no repositório do [GitHub](https://github.com/lepidus/keywordCloud).
 
@@ -399,7 +400,7 @@ Feito isso, a nuvem deverá aparecer na barra lateral do site de sua revista.
 
 Esse plugin cria uma seção "artigos mais lidos" na barra lateral da revista, composta dos 5 artigos mais vistos (com os respectivos links) na última semana  e do número de pontos de visita a cada artigo.
 
-![Most read of the week list with article titles and links displayed in a journal sidebar.](./assets/learning-ojs-settings-plugin-most-read.png)
+![Lista de mais lidos da semana com títulos de artigos e links exibidos em uma barra lateral do periódico.](./assets/learning-ojs-settings-plugin-most-read.png)
 
 O Mais lidos  é um plugin de terceiros que deverá ser baixado no repositório do [GitHub](https://github.com/ajnyga/mostRead).
 
@@ -420,7 +421,7 @@ O bloco agora aparecerá na barra lateral do site de sua revista.
 
 Esse plugin insere uma lista de artigos do mesmo autor (com links apropriados) na página de resumo de um artigo.
 
-![Most read articles by the same author(s) with a sample article and link.](./assets/learning-ojs-settings-plugin-author-rec.png)
+![A maioria lê artigos do(s) mesmo(s) autor(es) com um artigo de amostra e link.](./assets/learning-ojs-settings-plugin-author-rec.png)
 
 Esse plugin pode ser habilitado na Galeria de Plugins.
 
@@ -438,7 +439,7 @@ Uma vez ativado, não há necessidade de configuração adicional.
 
 Esse plugin exibe o número de downloads de um artigo na página do artigo.
 
-![Bar graph of article downloads displayed on an artilce page by the Usage Statistics plugin.](./assets/learning-ojs-settings-plugin-usage-stats.png)
+![Gráfico de barras de downloads de artigos exibidos em uma página de artigo pelo plug-in Usage Statistics.](./assets/learning-ojs-settings-plugin-usage-stats.png)
 
 Para configurar o Plugin de Estatísticas de Uso, você deve ser um **Administrador**:
 
@@ -451,7 +452,7 @@ Para configurar o Plugin de Estatísticas de Uso, você deve ser um **Administra
 7. Abaixo, você pode selecionar se deseja exibir as estatísticas como uma barra ou gráfico de linha e o número máximo de meses para exibir o uso;
 8. Clique em Salvar.
 
-![Usage Statistics plugin settings with statistics display options.](./assets/learning-ojs-settings-plugin-usage-stats-2.png)
+![Configurações do plug-in Estatísticas de uso com opções de exibição de estatísticas.](./assets/learning-ojs-settings-plugin-usage-stats-2.png)
 
 Por favor, observe que:
 
@@ -469,12 +470,12 @@ Para usar o plugin Páginas estáticas:
 * Atualize a página em seu navegador. Essa ação permitirá ver uma nova aba ao lado de **Plugins**, chamada **Páginas Estáticas**;
 * Clique na aba **Páginas estáticas**;
 
-![Static Pages tab in the Website Settings menu.](./assets/learning-ojs3.2-website-settings-static-pages-plugin.png)
+![Guia Páginas estáticas no menu Configurações do site.](./assets/learning-ojs3.2-website-settings-static-pages-plugin.png)
 
 * Adicione uma nova página clicando em **Adicionar página estática**;
 * Preencha o formulário que abre com o conteúdo que você deseja na página. O **Caminho** será usado como parte da URL da página e o **Título** aparecerá como o título da página.
 
-![Add Static Page menu with a page title and path entered.](./assets/learning-ojs3.2-website-settings-add-static-page.png)
+![Adicionar menu de página estática com um título de página e caminho inserido.](./assets/learning-ojs3.2-website-settings-add-static-page.png)
 
 * Você pode visualizar a página enquanto trabalha clicando no link **Pré-visualização**, na parte inferior do formulário.
 * Quando terminar de criar a página, clique em **Salvar**.
