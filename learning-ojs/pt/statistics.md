@@ -121,10 +121,10 @@ No exemplo abaixo, é possível ver que o artigo 95, “The Making of the Canadi
 
 ****
 
-| **ID** | **Título do Artigo**             | **Edição**              | **Data de publicação** | **Resumo** | **Total Galleys** | **HTML** | **PDF** |
-| ------ | -------------------------------- | ----------------------- | ---------------------- | ---------- | ----------------- | -------- | ------- |
-| 95     | The Making of the Canadian Media | Vol 6, No 1 \(1979\)  | 1979-01-03             | 443        | 1476              |          | 1476    |
-| 1125   | Digital Networks                 | Vol 24, No 4 \(1999\) | 1999-04-01             | 1821       | 8478              | 2093     | 6385    |
+| **ID** | **Título do Artigo**             | **Edição**              | **Data de publicação** | **Resumo** | **Total de composição final** | **HTML** | **PDF** |
+| ------ | -------------------------------- | ----------------------- | ---------------------- | ---------- | ----------------------------- | -------- | ------- |
+| 95     | The Making of the Canadian Media | Vol 6, No 1 \(1979\)  | 1979-01-03             | 443        | 1476                          |          | 1476    |
+| 1125   | Digital Networks                 | Vol 24, No 4 \(1999\) | 1999-04-01             | 1821       | 8478                          | 2093     | 6385    |
 
 ### Gerar relatório personalizado
 
