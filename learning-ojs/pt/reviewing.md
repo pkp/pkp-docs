@@ -7,7 +7,7 @@ descriptions: Instruções para gerenciar revisões atribuídas como revisor no 
 
 # Revisando
 
-{% include video.html id="CINhUa35Jic" provider="youtube" title="Video of the Reviewer's Steps in OJS"%}
+{% include video.html id="CINhUa35Jic" provider="youtube" title=" Vídeo dos Passos do Revisor no OJS"%}
 Este vídeo da PKP School explica como revisar um artigo no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 Como revisor, você ficará sabendo da solicitação de revisão por e-mail ou verificando seu painel:
