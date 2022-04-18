@@ -2,7 +2,7 @@
 book: learning-ojs
 version: 3.3
 title: Aprendendo Open Journal Systems 3.3 - Fluxo Editorial
-description: Como gerenciar um artigo manuscrito através do fluxo de trabalho OJS, da submissão à publicação.
+description: Como gerenciar uma submissão através do fluxo de trabalho OJS, da submissão à publicação.
 ---
 
 # Fluxo de Trabalho Editorial
@@ -606,7 +606,7 @@ De volta à guia de revisão, você notará que o status agora indica que a subm
 
 ## Submissão de demonstração
 
-{% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 8: Copyediting."%}
+{% include video.html id="uc272bhGfeU" provider="youtube" title="Vídeo do Fluxo Editorial no OJS 3.3. Módulo 8: Editor de Texto."%}
 
 Este vídeo da Escola do PKP explica o estágio de produção. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
@@ -702,7 +702,7 @@ Agora você pode ir em frente e carregar a versão final da edição editada par
 
 Use o link Enviar/Selecionar arquivos para carregar a versão final com o texto editado.
 
-### Author Replies
+### Retorno do Autor
 
 Assim que você tiver retorno do autor, você pode rever os seus comentários, verificando a resposta da discussão.
 
