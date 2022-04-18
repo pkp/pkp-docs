@@ -113,4 +113,4 @@ Para atribuir novos DOIs a artigos:
 
 A ferramenta Redefinir Permissões do Artigo permite redefinir a declaração de direitos autorais e as informações de licença em todos os artigos publicados e revertê-los para as configurações padrão atuais de seu periódico. Tome cuidado ao usar esta ferramenta e consulte um especialista jurídico, se não tiver certeza de quais direitos você detém sobre os artigos publicados em seu periódico.
 
-![Option to reset artile permission in the Tools Permissions tab.](./assets/learning-ojs3.2-jm-users-tools-permissions.png)
+![Opção para redefinir as permissões na guia Permissões/Ferramentas.](./assets/learning-ojs3.2-jm-users-tools-permissions.png)
