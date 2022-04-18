@@ -24,7 +24,7 @@ Possui guias, usadas para navegar entre as diferentes seções que a constituem:
 
 Este vídeo da PKP School explica como definir as configurações principais da revista no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="DMi6izQ7Pyw" provider="youtube" title="Video of how to configure the Masthead in OJS"%}
+{% include video.html id="_AAtxnFEodQ" provider="youtube" title="Vídeo sobre como configurar a Equipe Editorial em OJS"%}
 
 **Título** é o nome do periódico. Exemplo: Journal of Software Documentation.
 
@@ -56,7 +56,7 @@ Clique em **Salvar** para gravar as alterações.
 
 Este vídeo da Escola do PKP explica como adicionar contatos de periódicos em OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="HTDZRG7XEqw" provider="youtube" title="Video of how to add journal contacts in OJS"%}
+{% include video.html id="SQfFGwIK2wI" provider="youtube" title="Vídeo de como adicionar contatos do periódico em OJS"%}
 
 Utilize essa seção para incluir informações de contato do periódico.
 
@@ -72,7 +72,7 @@ Clique em **Salvar** para gravar as alterações.
 
 Este vídeo da PKP School explica como configurar as seções no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="IMotkKrDZyc" provider="youtube" title="Video of how to configure sections in OJS"%}
+{% include video.html id="_AAtxnFEodQ" provider="youtube" title="Vídeo sobre como configurar sessões em OJS"%}
 
 Use essa página para configurar as diferentes seções do periódico. Exemplos: artigos, editoriais, revisões, comentários, etc. O OJS exige pelo menos uma seção e cria automaticamente a seção “Artigos”. Você pode criar novas seções, editar seções existentes, ou excluir seções. As seções aparecerão para um autor selecionar quando eles fizerem uma submissão e serão usadas para organizar os artigos de suas edições publicadas. Você também pode atribuir editores para seções específicas. Esta parte do guia explica como você pode configurar seções.
 
@@ -148,7 +148,7 @@ Só é possível excluir uma seção se não houver artigos atribuídos a ela. S
 
 Este vídeo escolar do PKP explica como criar categorias em OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="Y97U1icfEPw" provider="youtube" title="Video of how to create categories in OJS"%}
+{% include video.html id="_AAtxnFEodQ" provider="youtube" title="Vídeo sobre como criar categorias em OJS"%}
 
 No OJS 3 é possível adicionar Categorias para organizar os artigos em coleções temáticas e fornecer outra forma de acesso ao conteúdo aos leitores. As categorias podem ser exibidas como um bloco de navegação no site da revista e os leitores podem selecionar a categoria para visualizar todos os artigos que a compõem. É possível incluir um artigo em uma categoria editando os metadados, que são explicados no capítulo [Produção e Publicação](./production-publication). Essa seção explica como criar e editar categorias.
 
