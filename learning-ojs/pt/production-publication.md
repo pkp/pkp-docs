@@ -21,7 +21,7 @@ Você verá que os arquivos editados agora estão disponíveis no painel **Arqui
 
 Na aba **Publicação**, você pode atribuir participantes (como um Editor de Layout) ao estágio de Editoração do fluxo de trabalho e se comunicar com os participantes no painel de **Discussões de Editoração**.
 
-{% include video.html id="-VRKdBQPdn4" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 9: Production."%}
+{% include video.html id="-VRKdBQPdn4" provider="youtube" title="Vídeo do Fluxo Editorial no OJS 3.3. Módulo 9: Editoração."%}
 
 Este vídeo da Escola do PKP explica os passos que o Editor de Seção ou Editor de Layout tomará na fase de Editoração e na aba Publicação. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
@@ -61,7 +61,7 @@ A aba "Edição" permite carregar várias imagens de capa em idiomas selecionado
 
 Um banner de notificação indica que você deve atribuir alguém para criar os arquivos de leitura de prova (por exemplo, os PDFs, HTML, etc.) a partir dos arquivos prontos para Publicação.
 
-![Multilingual button and upload field for an issue cover image for French (Canada) in the Issue subtab within Publication.](./assets/learning-ojs3.2-ed-prod-issue-languages.png)
+![Botão multilíngue e campo de upload para uma imagem de capa de edição em francês (Canadá) na subguia Edição em Publicação.](./assets/learning-ojs3.2-ed-prod-issue-languages.png)
 
 ## Designar editor de layout
 
@@ -73,13 +73,13 @@ Isso pode variar de periódico para periódico – você pode ter Editores de la
 
 Para realizar a tarefa, use o link  **Designar** Participantes. Isso abrirá uma nova janela.
 
-![New window to assign participants such as Layout Editor.](./assets/learning-ojs-3.2-se-production-participants-add.png)
+![Nova aba para atribuir participantes, como o Editor de Layout.](./assets/learning-ojs-3.2-se-production-participants-add.png)
 
 Use o filtro de papéis e o botão de pesquisa para encontrar usuários apropriados. Selecione o usuário e escolha uma mensagem predefinida. Clique em **OK** para enviar.
 
 O usuário agora foi notificado por e-mail e no painel.
 
-![Manuscript dashboard after additional participants have been assigned.](./assets/learning-ojs-3.2-se-production-participants-added.png)
+![Painel de submissão após a atribuição de participantes adicionais.](./assets/learning-ojs-3.2-se-production-participants-added.png)
 
 Você pode ver o Editor de Layout na lista de Participantes e o aviso de solicitação no painel Discussão da Edição. Agora, você pode esperar que o Editor de Layout complete suas tarefas.
 
@@ -91,7 +91,8 @@ Como Editor de layout, você receberá uma mensagem convidando-o a criar os arqu
 
 A partir daqui, encontre a submissão e selecione o link **Publicação**. Isso vai levá-lo para o registro de submissão.
 
-![Production tab of on the assigned manuscript with 1 production ready file for the Layout Editor.](./assets/learning-ojs-3.2-le-submission.png)
+![
+Aba Editoração da submissão atribuído com 1 arquivo pronto para produção para o Editor de Layout.](./assets/learning-ojs-3.2-le-submission.png)
 
 No painel Arquivos prontos para editoração, baixe os arquivos para sua área de trabalho e trabalhe fora do OJS para convertê-los em arquivos de leitura de prova. A próxima seção explica os formatos e a preparação dos arquivos de leitura de prova.
 
@@ -232,7 +233,7 @@ Ao carregar um arquivo de imagem, você será solicitado a adicionar um Termo de
 
 Ao carregar um arquivo de imagem, você será solicitado a adicionar uma Legenda, Crédito, Proprietário de Direitos Autorais e Permissão, conforme a aplicabilidade.
 
-![Step 2 for uploading dependent files. Text fields to enter Caption, Credit, Copyright Owner, and Permission Terms.](./assets/learning-ojs3.2-ed-prod-image-details.png)
+![Etapa 2 para fazer upload de arquivos dependentes. Campos de texto para inserir Legenda, Crédito, Proprietário de direitos autorais e Termos de permissão.](./assets/learning-ojs3.2-ed-prod-image-details.png)
 
 Clique em **Continuar**, para concluir o upload, revise os detalhes e confirme. Seu arquivo multimídia agora foi adicionado como um arquivo dependente junto ao HTML e será incorporado ao HTML quando o item for publicado.
 
@@ -248,7 +249,7 @@ Exemplo (ver link EPUB na parte inferior da página): [Revisão Internacional de
 
 Os arquivos XML são arquivos estruturados nos quais cada parte do artigo é marcada como um elemento distinto. Isso permite ao leitor navegar e acessar facilmente figuras, imagens, metadados, referências e partes do texto do artigo. Criar arquivos XML é uma maneira muito eficiente de publicar em vários formatos. Ao criar um arquivo XML, você pode gerar PDFs, HTML, ePub e outros formatos automaticamente.
 
-![XML preview of article with navigation menu options.](./assets/learning-ojs3.2-ed-prod-xmlgalley.png)
+![Visualização XML do artigo com opções do menu de navegação.](./assets/learning-ojs3.2-ed-prod-xmlgalley.png)
 
 PKP está desenvolvendo ferramentas que lhe permitirão criar, converter e editar arquivos XML dentro do OJS. Atualmente, você precisa criar e editar os arquivos fora do OJS. Se deseja produzir arquivos XML de leitura de prova para a sua revista, pode usar os serviços de um designer gráfico ou tipógrafo ou, se tiver algum conhecimento em XML, pode criar os arquivos você mesmo. O W3schools tem excelentes tutoriais sobre XML.
 
@@ -279,7 +280,7 @@ Faça upload do arquivo de leitura de prova multimídia no estágio de Editoraç
 
 Cole a URL no campo de prova remota e clique em **Salvar**.
 
-![Share Button on Youtube to generate external link for Galley File.](./assets/learning-ojs3.2-ed-prod-share-youtube.png)
+![Botão Compartilhar no Youtube para gerar link externo para arquivo de Leitura de Prova.](./assets/learning-ojs3.2-ed-prod-share-youtube.png)
 
 Clique em **Continuar**.
 
@@ -289,13 +290,13 @@ O vídeo agora deve aparecer na submissão publicada.
 
 Em seguida, você desejará compartilhar o PDF com o autor para um olhar final e confirmação de autoria. Para fazer isso, use o link **Adicionar discussão** no painel Discussão de editoração Essa ação abrirá uma nova janela. Ao fazer isso, será aberta uma nova janela.
 
-![Creating a discussion post in OJS to indicate that galley are ready for proofreading.](./assets/learning-ojs-3-le-production-add-participant.png)
+![Criando uma discussão no OJS para indicar que a Leitura de Prova está pronta para revisão.](./assets/learning-ojs-3-le-production-add-participant.png)
 
 Lembre-se de adicionar o autor na parte superior da janela e, em seguida, adicione um assunto e uma mensagem.
 
 Antes de enviar, anexe uma cópia do arquivo PDF usando o link **Carregar arquivo**. Isso o tornará disponível para o autor.
 
-![Step 1 of uploading galley file in discussion- uploading file.](./assets/learning-ojs-3-le-production-add-participant-upload.png)
+![Etapa 1 do upload do arquivo da Leitura de Prova na discussão.](./assets/learning-ojs-3-le-production-add-participant-upload.png)
 
 Em seguida, faça quaisquer alterações no nome do arquivo (normalmente, você não precisa fazer nada nessa fase).
 
@@ -307,13 +308,13 @@ Na sequência, você pode carregar arquivos adicionais, se necessário.
 
 Quando terminar, clique em **Concluir**.
 
-![Step 3 of uploading galley file in discussion- option to add additional file or complete.](./assets/learning-ojs-3-le-production-add-participant-upload3.png)
+![Etapa 3 do upload do arquivo da Leitura de Prova na discussão - opção para adicionar arquivo adicional ou concluir.](./assets/learning-ojs-3-le-production-add-participant-upload3.png)
 
 Em seguida, clique em **Adicionar Prova**, que abrirá uma nova janela.
 
 O autor já foi notificado e você pode aguardar sua resposta.
 
-![Discussion box showing the uploaded galley file as attachment.](./assets/learning-ojs-3-le-production-add-participant2.png)
+![Caixa de discussão mostrando o arquivo da Leitura de Prova foi carregado como anexo.](./assets/learning-ojs-3-le-production-add-participant2.png)
 
 O autor agora foi notificado e você pode aguardar sua resposta.
 
@@ -335,21 +336,21 @@ Adicione um rótulo apropriado (por exemplo, PDF, HTML etc.) e clique em **Salva
 
 O arquivo agora está anexado e você pode enviar a mensagem usando o botão **OK**.
 
-![Step 1 of uploading file. PDF file uploaded displays option to Change File, Continue, or Cancel.](./assets/learning-ojs-3-au-production-galleys-upload2.png)
+![Etapa 1 do upload do arquivo. Arquivo PDF carregado exibe a opção Alterar arquivo, Continuar ou Cancelar.](./assets/learning-ojs-3-au-production-galleys-upload2.png)
 
 Nessa janela, escolha o componente de artigo apropriado (por exemplo, texto do artigo) e carregue o arquivo de prova. Clique em **Continuar**.
 
-![Step 2 of uploading file. Displays option to edit file name, Continue, or Cancel.](./assets/learning-ojs-3-au-production-galleys-upload3.png)
+![Etapa 2 do upload do arquivo. Exibe a opção de editar o nome do arquivo, Continuar ou Cancelar.](./assets/learning-ojs-3-au-production-galleys-upload3.png)
 
 Se necessário, altere o nome do arquivo. Clique em **Continuar**.
 
-![Step 3 of uploading file. Confirming file has been added. Displays option to Complete or Cancel.](./assets/learning-ojs-3-au-production-galleys-upload4.png)
+![Etapa 3 do upload do arquivo. Confirmação do envio do arquivo.  Exibe a opção de Concluir ou Cancelar.](./assets/learning-ojs-3-au-production-galleys-upload4.png)
 
 Se você tiver mais arquivos, envie-os neste momento. Caso contrário, clique em **Concluir**.
 
 Você pode fazer alterações no upload selecionando a seta azul à esquerda do rótulo da prova, que revela opções para editar, alterar o arquivo ou excluir.
 
-![Galley subtab within the manuscript's Publication tab. Displays previously uploaded PDF.](./assets/learning-ojs-3.2-au-production-galleys-uploaded.png)
+![Subguia da Leitura de Prova dentro da aba de Publicação do manuscrito. Exibe o PDF carregado anteriormente.](./assets/learning-ojs-3.2-au-production-galleys-uploaded.png)
 
 Você pode fazer alterações no upload selecionando a seta azul à esquerda do rótulo da prova, que exibirá as opções para editar, alterar o arquivo ou excluir.
 
@@ -364,13 +365,13 @@ Se quiser fazer uma alteração em um arquivo de leitura de prova ou rótulo de 
 5. Se desejar alterar o arquivo, clique em Alterar arquivo e carregue um novo arquivo
 6. Quando terminar de editar, clique em Salvar.
 
-![Galley subtab within the manuscript's Publication tab. Blue arrow for PDF expanded to reveal additional option to Edit, Change File or Delete.](./assets/learning-ojs-3.2-au-production-galleys-edit.png)
+![Subguia da Leitura de Prova dentro da aba de Publicação do manuscrito. Clicar na seta azul ao lado do PDF para exibir as opções adicionais para Editar, Alterar arquivo ou Excluir.](./assets/learning-ojs-3.2-au-production-galleys-edit.png)
 
 ### Entre em contato com o autor
 
 Finalmente, você precisará informar ao Editor de Seção que as leituras de prova foram concluídas. Para fazer isso, use o painel Discussão de Editoração e escolha o link **Adicionar Discussão**.
 
-![Creating a discussion post in OJS to indicate that galley files have been uoloaded.](./assets/learning-ojs-3-au-production-galleys-complete.png)
+![Criando uma discussão no OJS para indicar que os arquivos da Leitura de Prova foram carregados.](./assets/learning-ojs-3-au-production-galleys-complete.png)
 
 Adicione o Editor de Seção ao topo da página e, a seguir, inclua uma linha de assunto e uma mensagem. Clique em **OK** para enviar a mensagem.
 
@@ -405,7 +406,7 @@ As categorias podem ser usadas para organizar seus artigos em coleções temáti
 * Na caixa **Categorias**, marque a categoria ou categorias às quais deseja adicionar o artigo
 * Clique em **Salvar**.
 
-![Issue subtab within Manuscripts Publication tab. Shows options to assign Issue, Section, Categories.](./assets/learning-ojs3.2-ed-prod-add-to-category.png)
+![Subguia Edição na guia Publicação de Manuscritos. Mostra opções para atribuir Edições, Seção, Categorias.](./assets/learning-ojs3.2-ed-prod-add-to-category.png)
 
 ### Extrair e salvar referências
 
@@ -421,7 +422,7 @@ A primeira coisa que você deve fazer é habilitar Referências como um campo de
   * Exigir que o autor forneça as Referências no momento da submissão - o campo Referências estará disponível no formulário de submissão como item obrigatório aos autores no momento da submissão.
 4. Clique em **Salvar** quando terminar
 
-![Setting option to Eanble Reference metadata with additional options for authors during the time of submission.](./assets/learning-ojs3.2-ed-prod-enable-references.png)
+![Opção de configuração para Habilitar os metadados adicionais  para autores durante o momento do envio.](./assets/learning-ojs3.2-ed-prod-enable-references.png)
 
 Neste momento, se você acessar a aba **Publicação** de um registro de submissão, verá uma aba **Referências** abaixo. Um editor pode abri-la e copiar e colar as referências do artigo no campo. Além disso, se você marcou a segunda ou terceira opção acima, haverá um campo **Referências** quando um autor fizer uma submissão e o autor poderá adicionar suas referências a ela.
 
@@ -440,7 +441,7 @@ No menu à esquerda, selecione Edições para gerenciar todas as edições da su
 
 ## Preparar e adicionar arquivos de leitura de prova
 
-{% include video.html id="opvVBWYnHho" provider="youtube" title="Video of Setting up a journal in OJS 3.3. Module 7: Issues"%}
+{% include video.html id="opvVBWYnHho" provider="youtube" title="Vídeo de Configuração de uma revista no OJS 3.3. Módulo 7: Edições"%}
 
 Este vídeo da PKP School explica como criar, editar, publicar e gerenciar Edições. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -448,7 +449,8 @@ Quando você estiver pronto para publicar o artigo, deve criar uma edição para
 
 **Edições anteriores**, lista todas as edições publicadas.
 
-![Future Issues tab in Issues. Displays Vol 1 No 3 (2018).](./assets/learning-ojs3.1-jm-issues.png)
+![Guia de Edições Futuras em Edições. Exibir Vol 1 No 3 (2018).
+](./assets/learning-ojs3.1-jm-issues.png)
 
 Para criar uma nova edição, use o link **Incluir edição** e preencha o formulário.
 
@@ -456,7 +458,8 @@ Para criar uma nova edição, use o link **Incluir edição** e preencha o formu
 
 **Edições anteriores** são todas as edições já publicadas.
 
-![Back Issue tab in Issues. Displays Vol 1 No 2 (2018) and Vol 1 No 1 (2018).](./assets/learning-ojs3.1-jm-issues-back.png)
+![Guia Edições Anteriores em Edições. Exibir Vol 1 No 2 (2018) e Vol 1 No 1 (2018).
+](./assets/learning-ojs3.1-jm-issues-back.png)
 
 Você também pode editar uma edição futura existente selecionando a seta azul à esquerda da entrada da edição na página Edições Futuras.
 
@@ -470,11 +473,11 @@ Quando finalizar, clique em **Salvar**.
 
 **Sumário**: Para uma nova edição, esta janela estará vazia, mas para as edições que tiveram submissões agendadas, elas serão listadas aqui.
 
-![Vol 1 No 3 (2018) in Future Issues with blue arrow expanded to show additional options to Edit, Preview, Publish Issue, or Delete.](./assets/learning-ojs3.1-jm-issues-edit.png)
+![Vol 1 No 3 (2018) em Edições Futuras com a seta azul selecionada para mostrar opções adicionais para Editar, Visualizar, Publicar Problema ou Excluir.](./assets/learning-ojs3.1-jm-issues-edit.png)
 
 **Dados da Edição**: fornece acesso aos dados de volume, edição e número que você inseriu ao criar a edição pela primeira vez.
 
-![Table of Contents for Vol 1 No 6 (2016): June 2016.](./assets/learning-ojs-3-issues-details.png)
+![Índice para Vol 1 No 6 (2016): junho de 2016.](./assets/learning-ojs-3-issues-details.png)
 
 **Identificadores**: use este espaço para adicionar um DOI para a edição, se a sua revista oferecer suporte a identificadores de nível de edição.
 
@@ -505,7 +508,7 @@ Se você deseja alterar a ordem das seções por edição ou a ordem dos artigos
 
 Se você quiser ver como seus artigos ficarão antes da publicação, clique no botão Visualizar na aba Publicação do registro de submissão. Os usuários com permissão para visualizar verão este botão da fase de Edição de texto.
 
-![Publication tab of Manuscipts shows subtab and option to Preview and Schedule Issue and language toggles to enter metadata in Espanol and English.](./assets/learning-ojs-3.3-ed-production-publish-preview-article.png)
+![Aba da Publicação da submissão mostra a subguia e a opção de Visualização e Agendamento para Publicação e troca de idiomas para inserir metadados em espanhol e inglês.](./assets/learning-ojs-3.3-ed-production-publish-preview-article.png)
 
 Para não enviar uma notificação de uma nova edição publicada, desmarque a caixa ao lado de “Enviar e-mail de notificação para todos os usuários registrados” antes de pressionar **OK**.
 
@@ -525,7 +528,7 @@ Você terá a opção de enviar uma notificação aos usuários sobre a nova edi
 
 Para não notificar os usuários sobre uma nova edição publicada, desmarque a caixa ao lado de “ Enviar e-mail de notificação para todos os usuários registrados” antes de clicar em **OK**.
 
-![Option to notify readers upon issue publication.](./assets/learning-ojs-3.2-ed-production-reader-notify.png)
+![Opção para notificar os leitores sobre a publicação da edição.](./assets/learning-ojs-3.2-ed-production-reader-notify.png)
 
 O conteúdo do anúncio é gerado automaticamente e não pode ser editado. Você também pode usar o recurso [Notícias](https://github.com/pkp/pkp-docs/blob/main/learning-ojs/en/settings-website.md#announcements) para enviar um anúncio de publicação com conteúdo personalizado.
 
@@ -552,7 +555,7 @@ Neste momento em que você criou uma edição, pode adicionar o artigo a ela. Ob
 * A **data de publicação** será definida automaticamente quando a edição for publicada. Não insira uma data de publicação, a menos que o artigo tenha sido publicado anteriormente em outro lugar e você precise retroceder
 * Quando terminar, clique em **Salvar**.
 
-![Issue subtab in Manuscript Publication tab showing all options and fields related to Issue - Issue, Section, Categories, Cover Image, Page Number and Date Published.](./assets/learning-ojs3.2-ed-prod-add-to-issue.png)
+![Aba da Edição na guia Publicação da submissão mostrando todas as opções e campos relacionados à Edição - Edição, Seção, Categorias, Imagem de Capa, Número da Página e Data de Publicação.](./assets/learning-ojs3.2-ed-prod-add-to-issue.png)
 
 ### Publicação Contínua
 
@@ -578,7 +581,7 @@ Para fazer isso, na aba **Publicação** do manuscrito, vá a **Edições**.
 * Encontre e abra a submissão que deseja publicar
 * Vá à aba **Publicação**> **Edição**
 
-![Publication tab of Manuscripts shows subtab and option to Preview and Schedule Issue and language toggles to enter metadata in Francais (Canada) and English.](./assets/learning-ojs3.2-ed-prod-schedule-for-pub.png)
+![Aba da Publicação da submissão mostra a subguia e a opção de Visualização e Agendamento para Publicação e troca de idiomas para inserir metadados em Francês (Canada) e Inglês.](./assets/learning-ojs3.2-ed-prod-schedule-for-pub.png)
 
 Uma mensagem aparecerá confirmando que você deseja agendar o artigo para publicação. Clique em **Publicar**.
 
@@ -590,7 +593,7 @@ Se a data for definida como futura, a publicação deve ser publicada na data fu
 
 Em **Data de Publicação**, você pode inserir a data de publicação, se for diferente da data de publicação da edição. Se não, deixe em branco.
 
-![Issue subtab with an Manuscripts Publication tab highlights the Date Published field.](./assets/learning-ojs-3.2-ed-production-schedule-individual.png)
+![A aba Edição em Publicação mostra o campo Data de Publicação.](./assets/learning-ojs-3.2-ed-production-schedule-individual.png)
 
 Para agendar uma submissão para publicação, ela deve ser atribuída a uma edição e ter passado a etapa de Edição de Texto e Editoração.
 
@@ -616,13 +619,13 @@ Ao criar uma nova versão, você poderá fazer alterações nos metadados e/ou a
 
 Você pode acompanhar as atualizações de versão em **Todas as versões**. Cada versão é marcada por um número e data de publicação. A versão atual que está sendo atualizada é marcada por um número e também como **Não publicada**.
 
-![Publication tab of manuscript showing a list of all versions available for this article. Article currently has 4 published version and 1 unpublished.](./assets/learning-ojs-3.2-ed-production-all-versions.png)
+![Aba Publicação da submissão mostra uma lista de todas as versões disponíveis para este artigo. O artigo possui atualmente 4 versões publicadas e 1 não publicada.](./assets/learning-ojs-3.2-ed-production-all-versions.png)
 
 Assim que suas alterações forem concluídas, você pode publicar a nova versão clicando em **Publicar**, no canto superior direito. Se programado para uma edição publicada, ele estará disponível imediatamente. Nenhuma notificação será enviada aos leitores, pois a notificação é enviada quando uma edição é publicada, não quando se trata de um artigo individual.
 
 A lista de versões anteriores e datas de atualização serão listadas na página do artigo publicado.
 
-![List of dates for all versions for article that displays on the article abstract page on the front end.](./assets/learning-ojs-3.2-ed-production-published-versions.png)
+![Lista de datas para todas as versões do artigo exibida na página de resumo do artigo.](./assets/learning-ojs-3.2-ed-production-published-versions.png)
 
 Os leitores ainda poderão acessar as versões anteriores. Eles verão uma mensagem no artigo e nas páginas da prova, avisando-os de que se trata de uma versão desatualizada e apontando-lhes a versão mais recente.
 
@@ -632,7 +635,7 @@ Os serviços de indexação e repositórios que usam OAI para coletar metadados 
 
 É melhor verificar, junto a um determinado repositório ou índice, qual é o seu processo e o que eles exigem.
 
-![Warning notification of outdated version on PDF viewer and prompt to read the most recent version.](./assets/learning-ojs-3.2-ed-production-outdated-pdf.png)
+![Notificação de aviso de versão desatualizada no visualizador de PDF e solicitação para ler a versão mais recente.](./assets/learning-ojs-3.2-ed-production-outdated-pdf.png)
 
 A URL do artigo sempre apontará para a versão mais recente, estando as versões anteriores disponíveis na mesma URL com a versão no final da URL (por exemplo, /versão/1234/).
 
