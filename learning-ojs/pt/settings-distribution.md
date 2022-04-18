@@ -1,7 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
-title: Learning Open Journal Systems 3.3 - Distribution Settings
+title: Aprendendo Open Journal Systems 3.3 - Configurações da Distribuição
 ---
 
 # Configurações da Distribuição
@@ -18,7 +18,7 @@ Este vídeo da PKP School explica como configurar os termos de direitos autorais
 
 Nessa seção você pode configurar termos de direitos autorais e licenciamento para o conteúdo do seu periódico.
 
-![Distribution settings license tab showing copyright holder, license and copyright year options.](./assets/learning-ojs3.2-jm-settings-dist-permissions.png)
+![Guia de licença de configurações de distribuição mostrando opções de detentor de direitos autorais, licença e ano de direitos autorais.](./assets/learning-ojs3.2-jm-settings-dist-permissions.png)
 
 Em **Detentor dos Copyright**, selecione quem detém os direitos autorais dos artigos publicados por sua revista. A tendência, na publicação em acesso aberto, é permitir que os autores mantenham os direitos autorais de seus trabalhos.
 
@@ -42,7 +42,7 @@ Este vídeo da PKP School explica como aprimorar a indexação de pesquisa no OJ
 
 Essa seção ajuda a aprimorar a otimização do mecanismo de pesquisa e tornar o conteúdo mais detectável.
 
-![Distribution settings search indexing tab showing description and custom tags options.](./assets/learning-ojs3.2-jm-settings-dist-index.png)
+![Guia de indexação de pesquisa de configurações de distribuição mostrando opções de descrição e tags personalizadas.](./assets/learning-ojs3.2-jm-settings-dist-index.png)
 
 Use **Descrição** para fornecer uma breve descrição de seu periódico aos mecanismos de pesquisa.
 
@@ -70,7 +70,7 @@ Usando o plugin do PayPal, você pode aceitar pagamentos através desta platafor
 
 Para usar os recursos de pagamentos e assinaturas, primeiro você deve habilitar os pagamentos nessa aba. Depois de desmarcar **Habilitar**, as configurações adicionais serão exibidas abaixo.
 
-![Distribution settings payments tab showing enable payments, currency and payment plugins options.](./assets/learning-ojs3.2-jm-settings-dist-pay.png)
+![Aba de pagamentos de configurações de distribuição mostrando opções de pagamentos, moeda e plugins de pagamento.](./assets/learning-ojs3.2-jm-settings-dist-pay.png)
 
 Selecione a moeda corrente que você utilizará.
 
@@ -80,11 +80,11 @@ Se você selecionar o **Pagamento de Taxa do PayPal**, campos adicionais serão 
 
 Para aceitar pagamentos no Paypal, você precisará ir a configurações da página > plugins, habilitar o plugin do PayPal e, em seguida, fazer a instalação e configuração adicionais, conforme explicação no [PayPal Plugin Guide](https://docs.pkp.sfu.ca/using-paypal-for-ojs-and-ocs/en/). Por meio desse processo, você obterá os valores dos campos **Nome da conta**, **ID do cliente** e **Campo confidencial**.
 
-![Paypal fee payment screen showing test mode enable option, account name, client ID and secret fields.](./assets/learning-ojs3.2-jm-settings-dist-paypalsettings.png)
+![Tela de pagamento de taxa do Paypal mostrando a opção de habilitação do modo de teste, nome da conta, ID do cliente e campos secretos.](./assets/learning-ojs3.2-jm-settings-dist-paypalsettings.png)
 
 Se você selecionar **Taxas manuais de Pagamento** em **Plugins de Pagamento**, aparecerá um campo onde você pode inserir instruções que aparecerão para os usuários que estão fazendo um pagamento manual.  Por exemplo, “Envie um cheque a ser pago ao Projeto de Conhecimento Público para __. ”
 
-![Manual fee payment screen showing manual payment instructions field.](./assets/learning-ojs3.2-jm-settings-manual-payments.png)
+![Tela de pagamento manual de taxas mostrando o campo de instruções de pagamento manual.](./assets/learning-ojs3.2-jm-settings-manual-payments.png)
 
 Você também precisará habilitar o plugin de pagamento manual em **Configurações do site**> **plugins** para aceitar pagamentos manuais.
 
@@ -96,7 +96,7 @@ Vá para o [Capítulo Assinaturas](./subscriptions.md) para obter mais instruç�
 
 Se você planeja disponibilizar seu periódico ou seus artigos por assinatura, vá a **Configurações de Distribuição**> **Acesso** e marque a opção “O periódico exigirá assinaturas para acessar parte ou todo o seu conteúdo”.
 
-![Distribution settings access tab showing publishing mode options.](./assets/learning-ojs3.2-jm-settings-dist-access.png)
+![Guia de acesso às configurações de distribuição mostrando as opções do modo de publicação.](./assets/learning-ojs3.2-jm-settings-dist-access.png)
 
 ### Doações
 
@@ -110,23 +110,24 @@ Este vídeo do PKP School explica como definir as configurações de acesso no O
 
 Na guia Acesso, você pode configurar se deseja que o conteúdo do seu periódico seja de acesso aberto, disponível por assinatura ou uma combinação de ambos. Automaticamente, a opção de acesso aberto é selecionada. No entanto, se você deseja usar o OJS para uma assinatura, escolha a segunda opção (consulte a seção acima sobre Pagamentos para obter mais informações). Selecionar a segunda opção permitirá que você atrase ainda mais o canal de acesso aberto durante diferentes períodos de tempo.
 
-![Distribution settings access tab showing publishing mode and delayed open access options.](./assets/learning-ojs3.2-jm-settings-dist-access-delayed.png)
+![Guia de acesso às configurações de distribuição mostrando o modo de publicação e as opções de acesso aberto atrasado.](./assets/learning-ojs3.2-jm-settings-dist-access-delayed.png)
 
 Se você estiver usando o OJS apenas para gerenciar seu fluxo de trabalho de submissão e não para publicar seu conteúdo, pode selecionar “O OJS não será usado para publicar o conteúdo da revista online”.
 
 OJS permite que você configure como e quando o conteúdo de um artigo pode ser acessado e o nível de acesso à edição. Quando você cria um problema, há uma guia chamada **Acesso** na qual você pode definir o **Status de Acesso** como **Assinatura** ou **Acesso Aberto**.
 
-![Issue settings access tab showing subscription and open access options.](./assets/learning-ojs3.2-issue-access.png)
+![Guia de acesso às configurações do problema mostrando opções de assinatura e acesso aberto.](./assets/learning-ojs3.2-issue-access.png)
 
 Se você defini-lo como **Assinatura**, abaixo aparecerá uma caixa onde você pode, opcionalmente, inserir uma **Data de Acesso Aberto**, na qual o conteúdo se tornará acesso aberto.
 
 Depois de definir como **Assinatura**, na aba **Índice**, uma caixa de seleção aparecerá ao lado de cada artigo em **Acesso aberto**, onde você tem a opção de definir, individualmente, os artigos como acesso aberto, mesmo que o resto da edição permaneça disponível por assinatura.
 
-![Issue table of contents showing open access checkboxes.](./assets/learning-OJS3.2-article-access.png)
+![Emitir índice mostrando caixas de seleção de acesso aberto.](./assets/learning-OJS3.2-article-access.png)
 
 O **OAI será habilitado automaticamente**. Trata-se de um protocolo importante, usado por serviços de indexação e outros aplicativos para coletar os metadados do seu periódico. No entanto, se você não estiver usando o OJS para publicar o conteúdo do seu periódico, pode desabilitar o OAI.
 
-![Enable OAI screen with enable and disable options.](./assets/learning-ojs3.2-jm-settings-dist-oai.png)
+![
+Ative a tela OAI com as opções de ativação e desativação.](./assets/learning-ojs3.2-jm-settings-dist-oai.png)
 
 ## Arquivamento
 
@@ -140,4 +141,4 @@ Para obter instruções sobre como ativar o PKP PN, consulte o [Guia da Rede de 
 
 Se você usar outra rede, ao habilitá-lo, tornará o seu conteúdo disponível para a rede, mas também precisará entrar em contato com a rede para informá-la sobre o seu periódico.
 
-![Distribution settings acrhiving tab showing LOCKSS and CLOCKSS options.](./assets/learning-ojs3.2-jm-settings-web-archive.png)
+![Aba de criação de configurações de distribuição mostrando as opções LOCKSS e CLOCKSS.](./assets/learning-ojs3.2-jm-settings-web-archive.png)
