@@ -92,7 +92,7 @@ A ferramenta **Filtro** permite limitar sua navegação a um status específico,
 
 - __Seções__: essa opção só está disponível se houver mais de 5 seções. Após começar a inserir o texto, o filtro irá sugerir ações automaticamente. Por exemplo, filtre por _artigos_ ou _resenhas_
 
-- __Assigned editor(s):__ only Journal Managers and Journal Editors have this filter option. Like sections, this is a textbox which will auto-suggest a Section Editor, Journal Editor, or Guest Editor's name as you start to type it, then display all articles assigned to the editor.
+- __Editor(es) atribuído(s):__ apenas os Gerentes da Revista e Editores da Revista têm esta opção de filtro. Assim como as seções, esta é uma caixa de texto que irá sugerir automaticamente o nome de um Editor de Seção, Editor de Revista ou Editor Convidado quando você começar a digitar o nome do editor e, em seguida, exibir todos os artigos atribuídos ao editor.
 
 - __Edição atribuída__: apenas gerentes de periódicos podem filtrar por fascículos não publicados, mas editores e assistentes poderão filtrar por fascículos publicados. Esse campo diferencia maiúsculas de minúsculas e requer correspondência exata. Para obter melhores resultados, pesquise por ano ou título, em vez de volume ou número. Esse filtro é usado principalmente se a atribuição de uma submissão a uma edição for feita em uma fase inicial do processo editorial.
 
