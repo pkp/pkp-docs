@@ -1,8 +1,8 @@
 ---
 book: learning-ojs
 version: 3.3
-title: Learning Open Journal Systems 3.3 - Production and Publication
-description: Detailed instructions for the Production stage of the OJS workflow.
+title: Aprendendo Open Journal Systems 3.3 - Editoração e Publicação
+description: Instruções detalhadas para o estágio de editoração do fluxo de trabalho OJS.
 ---
 
 # Editoração e Publicação
@@ -23,13 +23,13 @@ Na aba **Publicação**, você pode atribuir participantes (como um Editor de La
 
 {% include video.html id="-VRKdBQPdn4" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 9: Production."%}
 
-This PKP School video explains the steps the Section Editor, Production Editor and/or Designer will take in the Production stage and the Publication tab. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+Este vídeo da Escola do PKP explica os passos que o Editor de Seção ou Editor de Layout tomará na fase de Editoração e na aba Publicação. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 ## Submissões multilíngues
 
 Todos os aspectos relacionados à publicação de uma submissão são feitos na aba Publicação. A aba Publicação permite editar ou adicionar informações sobre a submissão, incluindo colaboradores, metadados e identificadores. É também onde você fará o upload dos arquivos finais de prova para publicação na revista.
 
-![Publication tab that displays metadata information of a manuscript.](./assets/learning-ojs-3.2-production-publication-tab.png)
+![Aba Publicação exibe os metadados associados a submissão. ](./assets/learning-ojs-3.2-production-publication-tab.png)
 
 Aqui, tem-se  uma visão geral da finalidade das diferentes abas desta seção. Instruções detalhadas sobre algumas delas estarão disponíveis posteriormente neste capítulo.
 
@@ -47,7 +47,7 @@ Se alguma alteração for feita, clique em Salvar antes de sair dessa janela.
 
 **Leitura de Prova**: Use a aba Leitura de Prova para carregar o arquivo final para publicação. Isso é explicado a seguir.
 
-**Permissões & Divulgação**: inclusão de detalhes sobre o detentor dos direitos autorais, além de um link para a licença do artigo, se aplicável, que será preenchido automaticamente, de acordo com suas [Configurações de Distribuição](https://github.com/pkp/pkp-docs/blob/main/learning-ojs/en/settings-distribution.md). This will be automatically filled in according to your [Distribution Settings](./settings-distribution.md).
+**Permissões & Divulgação**: inclusão de detalhes sobre o detentor dos direitos autorais, além de um link para a licença do artigo, se aplicável, que será preenchido automaticamente, de acordo com suas [Configurações de Distribuição](https://github.com/pkp/pkp-docs/blob/main/learning-ojs/en/settings-distribution.md). A licença será automaticamente preenchida de acordo com suas [Configurações de Distribuição](./settings-distribution. md).
 
 **Edição**: Use a aba Edição para atribuir o artigo a uma edição de periódico. Isso é explicado a seguir.
 
@@ -95,7 +95,7 @@ A partir daqui, encontre a submissão e selecione o link **Publicação**. Isso 
 
 No painel Arquivos prontos para editoração, baixe os arquivos para sua área de trabalho e trabalhe fora do OJS para convertê-los em arquivos de leitura de prova. A próxima seção explica os formatos e a preparação dos arquivos de leitura de prova.
 
-> Nota: A PKP está atualmente trabalhando em um projeto para automatizar a conversão de documentos do Microsoft Word em outros formatos, incluindo XML, HTML, PDF, EPUB, etc. Fique de olho em nosso blog para atualizações. Keep an eye on our blog for updates.
+> Nota: A PKP está atualmente trabalhando em um projeto para automatizar a conversão de documentos do Microsoft Word em outros formatos, incluindo XML, HTML, PDF, EPUB, etc. Fique de olho em nosso blog para atualizações. Fique de olho em nosso blog para novidades.
 
 ### Arquivos PDF
 
@@ -103,7 +103,7 @@ A prova é o arquivo final, pronto para publicação, que foi preparado para os 
 
 #### Estilos HTML arquivos de leitura de prova
 
-Quando você carregar um arquivo de leitura de prova, precisará selecionar um **Tipo de componente**, que concerne aos mesmos tipos de componentes que os autores selecionam ao fazer upload dos arquivos de envio. These are the same component types that authors select from when they upload submission files. Você pode configurar os tipos de componentes em Configurações do fluxo de trabalho> Envio> Componentes, de acordo com o tipo de componente que deseja que seja publicado, e se desejar que um link apareça na página inicial do artigo ou no sumário.
+Quando você carregar um arquivo de leitura de prova, precisará selecionar um **Tipo de componente**, que concerne aos mesmos tipos de componentes que os autores selecionam ao fazer upload dos arquivos de envio. Estes são os mesmos tipos de componentes que os autores selecionam quando carregam arquivos de submissão. Você pode configurar os tipos de componentes em Configurações do fluxo de trabalho> Envio> Componentes, de acordo com o tipo de componente que deseja que seja publicado, e se desejar que um link apareça na página inicial do artigo ou no sumário.
 
 As configurações são as seguintes:
 
@@ -139,7 +139,7 @@ Depois de criar um modelo que corresponda ao estilo da sua revista, ele pode ser
 
 Idealmente, seu modelo deve ser criado usando estilos em vez de formatação direta. Isso não apenas garante a consistência em todos os seus documentos, mas também ajuda em quaisquer conversões para outros formatos (por exemplo, HTML). Aqui está uma [explicação da diferença entre estilos e formatação direta no Word](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563?redirectSourcePath=%252fen-us%252farticle%252fStyle-basics-in-Word-d382f84d-5c38-4444-98a5-9cbb6ede1ba4&ui=en-US&rs=en-US&ad=US).
 
-#### PDF files
+#### Arquivo em PDF
 
 O PDF é o tipo de arquivo mais fácil de criar a partir de um documento do Word. As versões atuais do Microsoft Word (e outros processadores de texto) permitem “Salvar como” ou “Exportar como” um PDF. A maioria das revistas OJS publica seus artigos como PDFs.
 
@@ -147,7 +147,7 @@ Os PDFs também são populares com muitos leitores, pois recriam de forma mais p
 
 Exemplo: [Irish Journal of Technology Enhanced Learning](http://www.journal.ilta.ie/index.php/telji/article/view/22/51).
 
-#### HTML Files
+#### Arquivos HTML
 
 Os arquivos HTML têm a vantagem da flexibilidade. Eles lidam muito bem com links e multimídia e podem caber em praticamente qualquer tela - incluindo telefones e tablets. No entanto, eles têm uma aparência diferente de uma página impressa, portanto, alguns leitores preferem PDF. A situação ideal é fornecer arquivos PDF e HTML para melhor atender às necessidades dos diferentes usuários.
 
@@ -168,7 +168,7 @@ Para definir o estilo de um arquivo individual de leitura de prova HTML:
 * [[Cultural Anthropology](https://journal.culanth.org/index.php/ca/article/view/4434);](https://journal.culanth.org/index.php/ca/article/view/4434)
 * [[Evidence Based Library & Information Practice](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621).](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621)
 
-##### Style HTML galley files
+##### Estilizar arquivos em HTML
 
 É possível definir o estilo do design de seus arquivos de leitura de prova HTML em massa ou individualmente, por artigo. O estilo em massa só pode ser feito se você estiver usando um tema personalizado.
 
@@ -191,9 +191,9 @@ Você precisará salvar o arquivo de áudio/vídeo/imagem no formato MP3/MP4/JPE
 * `<video>` elemento para MP4; ou
 * `<img src=”imagename”>` tag para imagens
 
-The HTML page should also contain the exact name of the file you are connecting to.
+O arquivo HTML também deve conter o nome exato do arquivo que você está se conectando.
 
-You will need to save the audio/video/image file in MP3/MP4/JPEG/GIF format using the name in the HTML page.
+Você precisará salvar o arquivo de áudio/vídeo/imagem no formato MP3/MP4/JPEG/GIF usando o nome no arquivo HTML.
 
 Seu arquivo HTML deverá conter o seguinte código mínimo (para arquivos de áudio). Para o vídeo relacionado ou o código do arquivo de imagem, por favor, veja as instruções da w3schools sobre a [incorporação de vídeo em HTML](https://www.w3schools.com/html/html5_video.asp) ou as instruções sobre a [incorporação de imagens em HTML](https://www.w3schools.com/html/html_images.asp).
 
@@ -230,13 +230,13 @@ Ao carregar um arquivo de imagem, você será solicitado a adicionar um Termo de
 
 ![learning-ojs3.2-ed-prod-image-details.png](./assets/learning-ojs3.2-ed-prod-upload-multimedia.png)
 
-When uploading an image file you will be asked to add a Caption, Credit, Copyright Owner, and Permission Terms, as applicable.
+Ao carregar um arquivo de imagem, você será solicitado a adicionar uma Legenda, Crédito, Proprietário de Direitos Autorais e Permissão, conforme a aplicabilidade.
 
 ![Step 2 for uploading dependent files. Text fields to enter Caption, Credit, Copyright Owner, and Permission Terms.](./assets/learning-ojs3.2-ed-prod-image-details.png)
 
 Clique em **Continuar**, para concluir o upload, revise os detalhes e confirme. Seu arquivo multimídia agora foi adicionado como um arquivo dependente junto ao HTML e será incorporado ao HTML quando o item for publicado.
 
-#### ePUB Files
+#### Arquivos ePUB
 
 Semelhante aos arquivos HTML, os arquivos ePub são ideais para dispositivos móveis, mas requerem codificação especializada para serem criados. Ferramentas de conversão estão disponíveis, como [Calibre](https://calibre-ebook.com/). Instruções mais detalhadas de COMO FAZER para criar arquivos ePub estão [disponíveis aqui](https://www.wikihow.com/Convert-a-Word-Document-to-Epub).
 
@@ -244,7 +244,7 @@ Como arquivos HTML, alguma limpeza adicional pode ser necessária após a conver
 
 Exemplo (ver link EPUB na parte inferior da página): [Revisão Internacional de Pesquisa em Ensino Aberto e a Distância](http://www.irrodl.org/index.php/irrodl/article/view/2895).
 
-#### XML Files
+#### Arquivos XML
 
 Os arquivos XML são arquivos estruturados nos quais cada parte do artigo é marcada como um elemento distinto. Isso permite ao leitor navegar e acessar facilmente figuras, imagens, metadados, referências e partes do texto do artigo. Criar arquivos XML é uma maneira muito eficiente de publicar em vários formatos. Ao criar um arquivo XML, você pode gerar PDFs, HTML, ePub e outros formatos automaticamente.
 
@@ -254,7 +254,7 @@ PKP está desenvolvendo ferramentas que lhe permitirão criar, converter e edita
 
 Exemplo [Food and Nutrition Research](https://foodandnutritionresearch.net/index.php/fnr/article/view/3609/10173).
 
-#### Multimedia files
+#### Arquivos multimídia
 
 Está se tornando cada vez mais popular para as revistas publicar conteúdo multimodal, incluindo arquivos de áudio e vídeo, além de artigos baseados em texto. Mais do que fornecer formatos audiovisuais e visuais para artigos baseados em texto, o que pode ajudar a aumentar a acessibilidade do conteúdo de revistas, o conteúdo multimodal é cada vez mais [valorizado como forma alternativa de bolsa de estudos](https://www.tandfonline.com/doi/full/10.1080/07294360.2017.1389857?casa_token=QlJ8xBTQUEMAAAAA%3AWDkOV6R-qfZxJBimLv_Jv4iB3o2XYeA-Cym7uxHoCww9THLVmZFVfKmRP3dtqq098HvYG6kqTl_v) que representa e reflete diferentes modos de expressão e formas de saber. Os periódicos que optarem por criar versões em áudio de artigos baseados em texto podem optar por fazê-lo manualmente, tendo alguém lendo o artigo em um gravador de voz ou usando automaticamente o software Texto para fala.
 
@@ -266,9 +266,9 @@ Exemplo: [Intersectional Apocalypse](https://journals.lib.sfu.ca/index.php/ifj/a
 
 Como alternativa, você pode incorporar o arquivo de áudio, vídeo ou imagem em uma página HTML para que os usuários possam visualizar o arquivo diretamente em seu navegador. Consulte **Adicionar imagens e multimídia a uma prova HTML** acima para obter instruções sobre como fazer isso.
 
-Example: [Intersectional Apocalypse](https://journals.lib.sfu.ca/index.php/ifj/article/view/673)
+Exemplo: Intersectional Apocalypse
 
-##### Upload a multimedia file linked from an external site
+##### Carregar um arquivo multimídia vinculado a um site externo
 
 Faça upload do arquivo de leitura de prova multimídia no estágio de Editoração do fluxo de trabalho. Veja abaixo as instruções sobre como **adicionar arquivos de leitura de prova**. Além disso, ao fazer upload do arquivo:
 
@@ -315,7 +315,7 @@ O autor já foi notificado e você pode aguardar sua resposta.
 
 ![Discussion box showing the uploaded galley file as attachment.](./assets/learning-ojs-3-le-production-add-participant2.png)
 
-The Author has now been notified and you can await their response.
+O autor agora foi notificado e você pode aguardar sua resposta.
 
 ### Arquivos ePUB
 
@@ -351,7 +351,7 @@ Você pode fazer alterações no upload selecionando a seta azul à esquerda do 
 
 ![Galley subtab within the manuscript's Publication tab. Displays previously uploaded PDF.](./assets/learning-ojs-3.2-au-production-galleys-uploaded.png)
 
-You can make changes to the upload by selecting the blue arrow to the left of the galley label, which reveals options to edit, change the file, or delete.
+Você pode fazer alterações no upload selecionando a seta azul à esquerda do rótulo da prova, que exibirá as opções para editar, alterar o arquivo ou excluir.
 
 ### Arquivos multimídia
 
@@ -392,7 +392,7 @@ Você pode verificar os metadados da submissão acessando Envios, abrindo o envi
 
 Antes de publicar a submissão, você deve verificar se os metadados do artigo estão completos e precisos no OJS, e se correspondem aos metadados no PDF. Isso é importante para garantir que o conteúdo seja indexado pelo Google Scholar, detectável por outros serviços e acessível aos leitores. Para saber mais, veja [o guia de melhores práticas em metadados de periódicos](https://github.com/pkp/pkp-docs/blob/main/metadata-practices/en).
 
-You can check the metadata for the submission by going to **Submissions**, opening the submission, going to the **Publication** tab, and checking the **Title**, **Contributors**, and **Metadata** tabs.
+Você pode verificar os metadados da submissão acessando as **Submissões**, abrindo a submissão que será publicada, indo para a aba **Publicação**, e verificando as guias de **Título e Resumo**, **Contribuidores** e **Metadados**.
 
 Neste ponto, você também pode adicionar o artigo a uma categoria para exibi-lo em uma página de categoria temática em seu site e extrair e salvar as referências (se ainda não o fez).
 
@@ -416,9 +416,9 @@ A primeira coisa que você deve fazer é habilitar Referências como um campo de
 1. Vá a Configurações de fluxo de trabalho> Submissão > Metadados
 2. Role para baixo até **Referências** e marque **Ativar metadados de referências**
 3. Novas opções aparecerão abaixo e você pode selecionar uma das opções
-  * do not request references from the author during submission - the References field will not be on the submission form and instead references can be added by an editor
+  * não solicitar as Referências ao autor durante o processo de submissão - o campo Referências não estará disponível no formulário de submissão e, em vez disso, as Referências poderão ser adicionadas por um editor posteriormente a submissão
   * Eles podem pedir ao Editor de Layout para fazer alterações adicionais (usando as Discussões de Editoração) ou informar ao Editor que as provas estão prontas para publicação.
-  * require the author to provide references before accepting their submission - the References field will be on the submission form and authors will be required to add their references to it
+  * Exigir que o autor forneça as Referências no momento da submissão - o campo Referências estará disponível no formulário de submissão como item obrigatório aos autores no momento da submissão.
 4. Clique em **Salvar** quando terminar
 
 ![Setting option to Eanble Reference metadata with additional options for authors during the time of submission.](./assets/learning-ojs3.2-ed-prod-enable-references.png)
@@ -442,7 +442,7 @@ No menu à esquerda, selecione Edições para gerenciar todas as edições da su
 
 {% include video.html id="opvVBWYnHho" provider="youtube" title="Video of Setting up a journal in OJS 3.3. Module 7: Issues"%}
 
-This PKP School video explains how to create, edit, publish, and manage Issues. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como criar, editar, publicar e gerenciar Edições. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 Quando você estiver pronto para publicar o artigo, deve criar uma edição para publicá-lo primeiro. Em seguida, agendará artigos para publicação na edição. Os artigos não serão publicados até que você publique o número como um todo. Esta seção explica como criar e editar edições.
 
@@ -454,7 +454,7 @@ Para criar uma nova edição, use o link **Incluir edição** e preencha o formu
 
 **Edições futuras** são todas as edições não publicadas. Você pode criar quantas quiser e agendar submissões para qualquer uma delas.
 
-**Back Issues** lists all of your published issues.
+**Edições anteriores** são todas as edições já publicadas.
 
 ![Back Issue tab in Issues. Displays Vol 1 No 2 (2018) and Vol 1 No 1 (2018).](./assets/learning-ojs3.1-jm-issues-back.png)
 
@@ -464,7 +464,7 @@ Você também pode editar uma edição futura existente selecionando a seta azul
 
 Existem espaços para adicionar informações de volume, número, ano e título (por exemplo, Edição especial nº 1), bem como uma descrição, imagem de capa e URL personalizada. A imagem da capa e a descrição aparecerão na parte superior da página da edição em seu site, se você adicioná-las. Se tiver o volume, o número e o título marcados abaixo, será necessário preencher algo em cada campo.
 
-When you’re finished, click **Save**.
+Quando finalizar, clique em **Salvar**.
 
 ### Editar Edição
 
@@ -478,7 +478,7 @@ When you’re finished, click **Save**.
 
 **Identificadores**: use este espaço para adicionar um DOI para a edição, se a sua revista oferecer suporte a identificadores de nível de edição.
 
-Use the blue arrow next to each submission to reveal links to go directly to the submission record or remove it.
+Clique na seta azul ao lado de cada submissão do Sumário para acessar o link direto da submissão.
 
 Se você for a Configurações da Revista> Seções e editar uma seção, poderá configurar o modo como ela aparecerá na página da edição publicada, incluindo a exibição ou não do título da seção.
 
@@ -494,7 +494,7 @@ Você também pode arrastar e soltar as seções para alterar a ordem de exibiç
 
 Se quiser ver a aparência de seus artigos no contexto de uma edição antes de publicá-la, você pode usar o recurso de visualização da edição:
 
-If you want to change the order of sections on a per issue basis or the order of articles within a section:
+Se você deseja alterar a ordem das seções por edição ou a ordem dos artigos em uma seção:
 
 * não solicite referências do autor durante a submissão - o campo Referências não estará no formulário de submissão e, em vez disso, as referências podem ser adicionadas por um editor
 * peça ao autor para fornecer referências durante a submissão - o campo Referências estará no formulário de submissão e os autores podem, opcionalmente, adicionar suas referências a ele, ou um editor pode adicionar referências à submissão mais tarde
@@ -523,7 +523,7 @@ Isso revelará um link **Editar**, que abrirá uma nova janela de informações.
 
 Você terá a opção de enviar uma notificação aos usuários sobre a nova edição.
 
-To not send a notification of a new issue published, uncheck the box beside “Send notification email to all registered users” before pressing **OK**.
+Para não notificar os usuários sobre uma nova edição publicada, desmarque a caixa ao lado de “ Enviar e-mail de notificação para todos os usuários registrados” antes de clicar em **OK**.
 
 ![Option to notify readers upon issue publication.](./assets/learning-ojs-3.2-ed-production-reader-notify.png)
 
@@ -584,7 +584,7 @@ Uma mensagem aparecerá confirmando que você deseja agendar o artigo para publi
 
 ### Cronograma para Publicações Individuais
 
-Nas versões anteriores do OJS, um artigo era atribuído a uma edição e seria publicado no momento da publicação desta edição. No OJS 3.2, é possível definir uma data de publicação específica para cada publicação.
+Nas versões anteriores do OJS, um artigo era atribuído a uma edição e seria publicado no momento da publicação desta edição. No OJS 3.3, é possível definir uma data de publicação específica para cada publicação.
 
 Se a data for definida como futura, a publicação deve ser publicada na data futura, quando a tarefa agendada for executada.
 
@@ -592,25 +592,25 @@ Em **Data de Publicação**, você pode inserir a data de publicação, se for d
 
 ![Issue subtab with an Manuscripts Publication tab highlights the Date Published field.](./assets/learning-ojs-3.2-ed-production-schedule-individual.png)
 
-In order to schedule an individual publication, it must be assigned to an issue and have passed the review stage.
+Para agendar uma submissão para publicação, ela deve ser atribuída a uma edição e ter passado a etapa de Edição de Texto e Editoração.
 
 Se o manuscrito agendado não estiver agendado para a edição, a data  até então prevista não deve mudar.
 
-If the scheduled manuscript is unscheduled from the issue, the previously scheduled date should not change.
+Se o manuscrito agendado não estiver agendado para a edição, a data até então prevista não deve mudar.
 
 ## Editar arquivos de leitura de prova
 
-A capacidade de publicar versões de artigos é uma das principais novidades do OJS 3.2. Esse recurso oferece suporte à publicação de pré-impressão e à publicação de novas versões de artigos quando uma correção ou alteração significativa é feita. Com o recurso de controle de versão, você pode gerenciar diferentes versões de um artigo e indicar claramente qual é a mais atual.
+A capacidade de publicar versões de artigos é uma das principais novidades do OJS 3.3. Esse recurso oferece suporte à publicação de pré-impressão e à publicação de novas versões de artigos quando uma correção ou alteração significativa é feita. Com o recurso de controle de versão, você pode gerenciar diferentes versões de um artigo e indicar claramente qual é a mais atual.
 
 Depois que um artigo é publicado, nem metadados nem provas podem ser editados. Quando uma revisão de um artigo publicado ou metadados é necessária, isso pode ser feito de duas maneiras:
 
 ![learning-ojs-3.2-ed-production-all-versions.png](./assets/learning-ojs-3.2-ed-production-versioning-ways.png)
 
-**Option 1: Unpublish and republish**
+**Opção 1: Despublicar e Republicar**
 
 Cancelar a publicação de um artigo permite que você faça alterações sem criar uma nova versão. Após cancelar a publicação, você pode atualizar os metadados e/ou substituir o arquivo de leitura de prova e agendar o artigo para publicação novamente. Se programado para uma edição publicada, ele estará disponível imediatamente. Nenhuma notificação será enviada aos leitores, uma vez que a notificação é enviada quando uma edição é publicada, e não para um artigo individual.
 
-**Option 2: Create new version**
+**Opção 2: Criar nova versão**
 
 Ao criar uma nova versão, você poderá fazer alterações nos metadados e/ou arquivos de leitura de prova. Certifique-se de clicar em **Salvar** no canto inferior direito para registrar as alterações.
 
@@ -640,8 +640,8 @@ A URL do artigo sempre apontará para a versão mais recente, estando as versõe
 
 Quando um DOI for atribuído à versão original, ele não será alterado automaticamente. Metadados CrossRef previamente depositados também não serão atualizados automaticamente. Se os metadados do artigo foram alterados, recomendamos atualizar os metadados CrossRef no Plugin de Exportação CrossRef XML, depositando manualmente o artigo atualizado. Para obter instruções sobre como depositar manualmente um artigo, consulte o [CrossRef Plugin Guide - Manual Deposits do PKP](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits).
 
-Indexing services and repositories that use OAI to harvest metadata will need to harvest the article metadata again in order to update to the new version.
+Indexandores e repositórios que usam a OAI para a coletar os metadados, precisarão ser atualizados, coletando novamente os metadados do artigo para atualizar para a nova versão.
 
 A nova versão será marcada corretamente para ser reconhecida e atualizada pelo índice do Google Acadêmico, mas o colhedor precisará visitar seu site novamente para encontrar a nova versão.
 
-It is best to check with a particular repository or index to learn what their process is and what they require.
+É recomendado verificar com o indexador ou repositório específico para saber qual é o seu processo de atualização que eles exigem.
