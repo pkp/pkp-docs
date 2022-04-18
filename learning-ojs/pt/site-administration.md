@@ -48,7 +48,7 @@ Veremos as configurações restantes em detalhes nos capítulos sobre Configura�
 
 **Usuários** permitirá que você adicione e gerencie usuários associados a este periódico.
 
-![Users tab with a list of current users.](./assets/learning-ojs3.1-sa-hosted-journals-users.png)
+![Aba de usuários com uma lista de usuários atuais.](./assets/learning-ojs3.1-sa-hosted-journals-users.png)
 
 De volta à página Revistas Hospedadas, você pode usar o link Criar Revista para adicionar um novo periódico a esta instalação do OJS. No formulário resultante, preencha os campos com as novas informações.
 
