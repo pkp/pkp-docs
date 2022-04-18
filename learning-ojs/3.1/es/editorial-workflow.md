@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.1
 ---
 
-# Chapter 14: Editorial Workflow
+# Capítulo 14: Flujo de trabajo editorial
 
 In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
 
@@ -27,7 +27,7 @@ Some submission will not pass review and end here. Those that are accepted move 
 
 Your Tasks are available from the top left menu of your Dashboard. Note the number "1" in the image below. This indicates that there is currently 1 task in your list.
 
-![The expanded Tasks menu in OJS.](./assets/learning-ojs3.1-ed-tasks.png)
+![El menú de tareas expandido en OJS.](./assets/learning-ojs3.1-ed-tasks.png)
 
 Tasks provide a quick look at items that need your attention. Bold entries are unread, and unbold entries have been read.
 
@@ -55,7 +55,7 @@ Users can also change their individual notification settings from their own prof
 
 When you log into your Dashboard, you can find active submissions either from your Tasks, or from one of the queues \(My Queue, Unassigned, All Active, and Archives\).
 
-![The submission dashboard in OJS.](./assets/learning-ojs3.1-ed-dashboard-active.png)
+![El panel de control de envíos en OJS.](./assets/learning-ojs3.1-ed-dashboard-active.png)
 
 ### My Queue
 
@@ -515,7 +515,7 @@ This would include checking the article title, abstract, author names, keywords,
 
 If any changes are made, hit the **Save** button before exiting this window.
 
-#### Consult with the Author
+#### Consulta con el autor
 
 Once they have finished copyediting, they will run the changes past the Author by adding a new discussion, using the Copyediting Discussions panel's *Add discussion* link.
 
@@ -633,7 +633,7 @@ The Copyediting stage is now complete.
 
 <hr />
 
-## Production
+## Producción
 
 With the completion of the Copyediting stage, the submission now moves to Production. From here, the copyedit files \(often Microsoft Word files\) will be converted to publishable formats in the form of galley files \(e.g., PDF, HTML\) and proofread before publishing.
 
@@ -829,7 +829,7 @@ To upload the image file:
 
 To link to the image file you uploaded in the galley text, use the image tag with the file name - e.g., `<img src="filename.jpg">`. The HTML galley plugin should rewrite the address when the HTML document is shown.
 
-### Add the Article to a Category
+### Añadir el artículo a una categoría
 
 If you use categories in your journal, you can optionally add the article to a category or categories. For instructions on how to create categories see [the Journal Settings chapter](./journal-setup.md). You can add the article to a category by editing its metadata.
 
