@@ -1,33 +1,33 @@
 ---
 book: learning-ojs
 version: 3.3
-title: Learning Open Journal Systems 3.3 - User Account Management
-description: A guide for registering and managing your Open Journal Systems (OJS) account.
+title: Aprendendo Open Journal Systems 3.3 - Gerenciamento de Contas de Usuário
+description: Um guia para registrar e gerenciar sua conta Open Journal Systems (OJS).
 ---
 
 # Gerenciamento de conta de usuário
 
-This PKP School video explains the user dashboard in OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da Escola do PKP explica o painel do usuário no OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of the user dashboard in OJS"%}
+{% include video.html id="_AAtxnFEodQ" provider="youtube" title="Vídeo sobre painel de usuários no OJS"%}
 
 Quando um usuário loga no sistema, ele é direcionado para seu painel. A partir desse ponto, os usuários podem mudar as informações de perfil ou as configurações da conta, além de visualizar todas as funções do sistema a que tem acesso. A título de exemplo, um Revisor verá apenas as submissões que foram atribuídas a ele, enquanto um Editor verá todas as submissões no fluxo editorial. Mais informações a respeito dos papéis e níveis de permissão estão disponíveis no capítulo [capítulo Usuários e Papéis](./users-and-roles.md).
 
 ## Cadastrando em um Periódico
 
-This PKP School video explains how to register and log in to a journal in OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da Escola do PKP explica como se registrar e fazer login em um periódico do OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="kQUTzi2JKiQ" provider="youtube" title="Video of how to register and log in to a journal in OJS"%}
+{% include video.html id="SQfFGwIK2wI" provider="youtube" title="Vídeo de como registrar e efetuar login em um periódico em OJS"%}
 
 Visitantes não registrados de um periódico normalmente se cadastram como Leitor, Autor ou Avaliador. Os gerentes de periódicos podem remover a capacidade de auto-registro, e, nesse caso, é exibida uma notícia informando que o  cadastro está atualmente encerrado (ver Configurações de Periódicos), mas os gerentes de periódico sempre podem registrar usuários em qualquer momento, e para qualquer papel.
 
 Para se cadastrar em um periódico, clique no link “Cadastro”, no canto superior direito.
 
-![The Register link at the upper right corner of the journal site.](./assets/learning-ojs-3-registration.png)
+![O link Registrar no canto superior direito do site do periódico.](./assets/learning-ojs-3-registration.png)
 
 Isso abrirá o Formulário de Cadastro a ser preenchido com as informações necessárias.
 
-![The Registration Form.](./assets/learning-ojs-3-registration-form.png)
+![Formulário de registo.](./assets/learning-ojs-3-registration-form.png)
 
 Todos os campos com asterisco (Primeiro Nome, Sobrenome, Afiliação, País, E-mail, Nome de Usuário, Senha, Repetir Senha) são obrigatórios. Caso o periódico seja multilíngue, será necessário selecionar a língua de preferência.
 
@@ -39,13 +39,13 @@ Não é permitido ao usuário se registrar para um papel editorial (como Editor,
 
 ## Visualizando e alterando seu perfil
 
-This PKP School video explains how to manage a user profile in OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como gerenciar perfis de usuários no OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of how to manage a user profile in OJS"%}
+{% include video.html id="_AAtxnFEodQ" provider="youtube" title="Vídeo sobre como gerenciar um perfil de usuário no OJS"%}
 
 Para visualizar e editar seu perfil, faça login e clique no link de seu nome de usuário no canto superior direito. Escolha a opção “Perfil”.
 
-![The View Profile menu.](./assets/learning-ojs3.1-ed-view-profile.png)
+![O menu de Visualizar Perfil.](./assets/learning-ojs3.1-ed-view-profile.png)
 
 A partir desse ponto, ao escolher as diferentes abas, você pode atualizar detalhes pessoais, informações de contato, mudar seus papéis, adicionar imagem pessoal (publicado por alguns periódicos junto ao artigo ou em uma lista de editores), determinar as configurações de notificação ou atualizar sua senha.
 
@@ -54,7 +54,7 @@ Em **Notificações**, você pode configurar que tipos de notificações receber
 * Marque “Habilitar esses tipos de notificações”, se quiser ver  a notificação do evento no seu painel quando fizer login no site.
 * Marque “Não me mande um email para esse tipo de notificação” se você não quiser receber uma notificação por e-mail a respeito do evento.
 
-![The Notifications tab where you can manage notifications.](./assets/learning-ojs-3-user-notifications.png)
+![A aba Notificações onde você pode gerenciar notificações.](./assets/learning-ojs-3-user-notifications.png)
 
 A **aba de API**, no perfil do usuário, permite que você use a API REST do OJS para interagir com aplicações externas.  Entretanto, a maioria dos usuários não usa a API e pode ignorar essa aba.
 
@@ -68,7 +68,7 @@ Você pode alterar sua senha da seguinte forma:
 4. Insira a sua senha atual e em seguida a nova senha, duas vezes;
 5. Clique em “Salvar”.
 
-![The password reset screen.](./assets/learning-ojs3.1-ed-change-pw.png)
+![A tela para redefinir a senha.](./assets/learning-ojs3.1-ed-change-pw.png)
 
 Sua senha agora foi alterada.
 
