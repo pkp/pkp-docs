@@ -67,7 +67,7 @@ Um banner de notificação indica que você deve atribuir alguém para criar os 
 
 ### Formatos de arquivo de leitura de prova
 
-A notification banner indicates that you must assign someone to create the galley files (e.g., the PDFs, HTML, etc.) from the production ready files.
+Uma notificação indicará que você deve designar algum usuário para criar os arquivos da Leitura de Prova (por exemplo, os PDFs, HTML, etc.) a partir dos arquivos prontos para produção.
 
 Isso pode variar de periódico para periódico – você pode ter Editores de layout ou Assistentes de edição para fazer este trabalho. Alguns periódicos usam um design gráfico externo ou serviço de digitação. Se você quiser se comunicar com seu Editor de layout, Assistente de edição, designer gráfico ou digitador por meio do OJS e gerenciar o processo de editoração com eles, também no OJS, certifique-se de que tenham uma conta de usuário e adicione-os como participantes da submissão.
 
