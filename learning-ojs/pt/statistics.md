@@ -12,7 +12,7 @@ Esta seção irá descrever o relatório de estatísticas/ferramentas de visuali
 
 Para obter um passo a passo em vídeo de Estatísticas no OJS, consulte nosso [Criação de um jornal no OJS 3.3. Módulo 13: Estatísticas ](https://www.youtube.com/watch?v=fU1orCK7GSM&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY) vídeo abaixo.
 
-[![Setting up a journal in OJS 3.3. Module 13: Statistics](https://img.youtube.com/vi/fU1orCK7GSM/0.jpg)](https://www.youtube.com/watch?v=fU1orCK7GSM&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
+[![Configurando um periódico em OJS 3.3. Módulo 13: Estatísticas](https://img.youtube.com/vi/fU1orCK7GSM/0.jpg)](https://www.youtube.com/watch?v=fU1orCK7GSM&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 ## Definições
 
@@ -31,7 +31,7 @@ O OJS oferece aos editores e gerentes de periódicos a opção de visualizar rep
 
 As estatísticas visuais podem ser encontradas no painel do menu esquerdo, clicando em Artigos.
 
-![OJS interface with the Articles option highlighted under Statistics in the left menu.](./assets/ojs-statsmenu.png)
+![Interface OJS com a opção de Artigos destacada em Estatísticas no menu à esquerda.](./assets/ojs-statsmenu.png)
 
 As estatísticas de artigos mostram as visualizações dos resumos em formato de gráfico e tabela. O gráfico visual pode ser alterado para visualização mensal ou diária. O formato da tabela permitirá que você filtre o total em ordem crescente ou decrescente.
 
@@ -103,11 +103,11 @@ Este relatório fornece dados granulares sobre visualizações mensais para a p�
 
 **Dados de exemplo \(ligeiramente editados para maior clareza\):**
 
-| **ID** | **Type** | **Title**                                                                        | **Issue**              | **Journal** | **Country** | **Month** | **Count** |
-| ------ | -------- | -------------------------------------------------------------------------------- | ---------------------- | ----------- | ----------- | --------- | --------- |
-| 1      | Journal  | Canadian Journal of Communication                                                | CJC                    | CA          | 201502      | 1678      |           |
-| 112    | Article  | Toronto Star Fires Reporter Claire Hoy, Sues Him and TV Stations on Libel Charge | Vol 1, No 3 \(1974\) | CJC         | CA          | 201502    | 3         |
-| 112    | Article  | Toronto Star Fires Reporter Claire Hoy, Sues Him and TV Stations on Libel Charge | Vol 1, No 3 \(1974\) | CJC         | US          | 201502    | 1         |
+| **ID** | **Tipo**  | **Título**                                                                       | **Edição**             | **Periódico** | **País** | **Mês** | **Conta** |
+| ------ | --------- | -------------------------------------------------------------------------------- | ---------------------- | ------------- | -------- | ------- | --------- |
+| 1      | Periódico | Canadian Journal of Communication                                                | CJC                    | CA            | 201502   | 1678    |           |
+| 112    | Artigo    | Toronto Star Fires Reporter Claire Hoy, Sues Him and TV Stations on Libel Charge | Vol 1, No 3 \(1974\) | CJC           | CA       | 201502  | 3         |
+| 112    | Artigo    | Toronto Star Fires Reporter Claire Hoy, Sues Him and TV Stations on Libel Charge | Vol 1, No 3 \(1974\) | CJC           | US       | 201502  | 1         |
 
 A partir do exemplo acima, é possível ver que, em fevereiro de 2015, a página inicial da revista CJC foi visualizada 1.678 vezes, enquanto o artigo *“Toronto Star Fires Reporter…”* foi visualizado 3 vezes no Canadá e uma vez nos Estados Unidos.
 
@@ -121,10 +121,10 @@ No exemplo abaixo, é possível ver que o artigo 95, “The Making of the Canadi
 
 ****
 
-| **ID** | **Article Title**                | **Issue**               | **Date Published** | **Abstract** | **Total Galleys** | **HTML** | **PDF** |
-| ------ | -------------------------------- | ----------------------- | ------------------ | ------------ | ----------------- | -------- | ------- |
-| 95     | The Making of the Canadian Media | Vol 6, No 1 \(1979\)  | 1979-01-03         | 443          | 1476              |          | 1476    |
-| 1125   | Digital Networks                 | Vol 24, No 4 \(1999\) | 1999-04-01         | 1821         | 8478              | 2093     | 6385    |
+| **ID** | **Título do Artigo**             | **Edição**              | **Data de publicação** | **Resumo** | **Total Galleys** | **HTML** | **PDF** |
+| ------ | -------------------------------- | ----------------------- | ---------------------- | ---------- | ----------------- | -------- | ------- |
+| 95     | The Making of the Canadian Media | Vol 6, No 1 \(1979\)  | 1979-01-03             | 443        | 1476              |          | 1476    |
+| 1125   | Digital Networks                 | Vol 24, No 4 \(1999\) | 1999-04-01             | 1821       | 8478              | 2093     | 6385    |
 
 ### Gerar relatório personalizado
 
