@@ -19,7 +19,7 @@ O fluxo de trabalho é dividido em 4 estágios:
 
 Algumas submissões são claramente inadequadas e nunca passam desse estágio.
 
-{% include video.html id="9rx-AahCU10" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 4: Responding to a submission"%}
+{% include video.html id="9rx-AahCU10" provider="youtube" title="Video do Fluxo Editorial no OJS 3.3. Módulo 4: Respondendo a uma submissão"%} Módulo 4: Respondendo a uma submissão"%}
 
 Este vídeo da Escola do PKP explica os passos que o Editor dá para atribuir uma nova submissão a um Editor de Seção. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
@@ -31,7 +31,7 @@ Algumas submissões não são aprovadas na avaliação e não passam desse está
 
 **Editoração**: após a conclusão e aprovação das edições de texto, a submissão segue para essa fase. Na editoração, os textos editados são convertidos em provas (por exemplo, HTML, XML, PDF, etc.). Novamente, o autor tem a oportunidade de revisar as provas. Assim que todos estiverem satisfeitos, a submissão é agendada para publicação em uma edição futura.
 
-{% include video.html id="-VRKdBQPdn4" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 9: Production."%}
+{% include video.html id="-VRKdBQPdn4" provider="youtube" title="Vídeo do Fluxo Editorial no OJS 3.3.  Módulo 9: Editoração."%}
 
 Este vídeo da Escola do PKP explica o estágio de produção. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
@@ -274,7 +274,7 @@ Mantenha os arquivos que serão revisados ​​desmarcados.
 
 ## Comentário
 
-{% include video.html id="5Hwkqj4Jvew" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 5: Assigning a reviewer."%}
+{% include video.html id="5Hwkqj4Jvew" provider="youtube" title="Vídeo do Fluxo Editorial no OJS 3.3.  Módulo 5: Atribuindo um revisor."%}
 
 Este vídeo da PKP School explica as etapas que o Editor de Seção leva para atribuir avaliadiores para o envio. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
@@ -346,7 +346,7 @@ Você pode fazer alterações adicionais, alternando a seta azul ao lado do nome
 
 **Cancelar avaliador**: permite cancelar a atribuição do avaliador.
 
-**Dispensar avaliador**: a partir do OJS 3.2, você pode cancelar uma solicitação de avaliação. Isso pode ser necessário quando um avaliador não respondeu a uma solicitação de avaliação ou aceitou fazer uma avaliação, mas nunca a entregou.
+**Dispensar avaliador**: a partir do OJS 3.3, você pode cancelar uma solicitação de avaliação. Isso pode ser necessário quando um avaliador não respondeu a uma solicitação de avaliação ou aceitou fazer uma avaliação, mas nunca a entregou.
 
 ![A opção Cancelar Revisor nas opções expandidas do Revisor.](./assets/learning-ojs-3.2-cancel-reviewer.png)
 
@@ -470,7 +470,7 @@ Clique em **OK**.
 
 ### Solicitar revisões
 
-{% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 7: Responding to the reviews"%}
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Vídeo do Fluxo Editorial no OJS 3.3.  Módulo 7: Respondendo as revisões"%}
 
 Este vídeo da Escola do PKP explica as etapas que o Editor de Seção e o autor tomam assim que as análises estiverem completas. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
