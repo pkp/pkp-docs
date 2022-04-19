@@ -35,7 +35,7 @@ Use the checkbox to mark tasks for deletion \(the link is available at the botto
 
 <hr />
 
-## Submission Notifications
+## Notificaciones de envío
 
 When an author makes a new submission to your journal, the editor is automatically emailed a notification and the author will receive an email acknowledging their submission. You can also configure OJS so that a copy of the notification email is sent to the journal’s primary contact set in Journal Settings, or to another address.
 
@@ -51,7 +51,7 @@ If you want to disable submission acknowledgement emails entirely, you can do so
 
 Users can also change their individual notification settings from their own profile under View Profile > Notifications.
 
-## Submission Dashboard
+## Panel de envíos
 
 When you log into your Dashboard, you can find active submissions either from your Tasks, or from one of the queues \(My Queue, Unassigned, All Active, and Archives\).
 
@@ -71,27 +71,27 @@ Note that you can use the blue arrows to the right of each submission to reveal 
 
 ![A sample of expanded submission details in the dashboard.](./assets/learning-ojs3.1-ed-dashboard-active-details.png)
 
-### Unassigned
+### Sin asignar
 
 This panel includes submissions added to sections without section editors.
 
 ![The Unassigned tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-unassigned.png)
 
-In the above example, there are no unassigned submissions, so the panel is empty.
+En el ejemplo anterior, no hay envíos sin asignar, por lo que el panel está vacío.
 
-### All Active
+### Todo activo
 
 This section includes a list of all submissions, without being organized into queues.
 
 ![The All Active tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-all-active.png)
 
-### Archives
+### Archivos
 
 This section includes a list of all submissions either rejected or already published by the journal.
 
 ![The Archives tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-archive.png)
 
-### Demonstration Submission
+### Envío de demostración
 
 For this demonstration, we are looking for the Williamson and Serletis submission, entitled _The Official Knowledge and Adult Education Agents_. It can be found at the top of the **My Assigned** queue, as well as in the **All Active** queue.
 
@@ -111,13 +111,13 @@ Use the Notes tab to also view or add any editorial notes.
 
 ![The Notes tab of the Activity log.](./assets/learning-ojs-3-ed-submissions-notes.png)
 
-### Submission Record
+### Registro de envíos
 
 To view the submission in more detail, select **View Submission** button. This will take you to the submission record.
 
 ![A sample submission record.](./assets/learning-ojs3.1-ed-dashboard-record.png)
 
-From here, you can see:
+Desde aquí, puede ver:
 
 **Submission Files**: This panel lists the files that have been submitted. In this view, there is just one file, but multiple files could have been submitted.
 
@@ -145,7 +145,7 @@ Use the Identifiers tab to also view or add a unique identifier.
 
 ![The location of the View Document Library button in the Submission Library panel.](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
 
-### Assigning the Submission
+### Asignando el envío
 
 Depending on how you have your sections configured, some new submissions may come in unassigned. If this is the case, the next step is to assign an editor or section editor. To do so, select the _Assign_ link in the **Participants** panel.
 
@@ -199,7 +199,7 @@ Keep the files that are to be reviewed checked off.
 
 <hr />
 
-## Review
+## Revisión
 
 When the submission enters the Review Stage, a notification indicates that Reviewers need to be assigned.
 
