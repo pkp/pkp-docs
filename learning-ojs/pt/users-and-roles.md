@@ -148,9 +148,9 @@ Se o usuário ainda não conseguir fazer o login, sua conta pode ter sido desati
 
 ## Permissões e Papéis
 
-This PKP School video explains how to manage roles in OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da Escola do PKP explica como gerenciar papéis em OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="3sqD41OKuFs" provider="youtube" title="Video of how to manage roles in OJS"%}
+{% include video.html id="_AAtxnFEodQ" provider="youtube" title="Vídeo sobre como gerenciar papéis no OJS"%}
 
 O fluxo de trabalho OJS gira em torno de diferentes funções com diferentes permissões e responsabilidades para cada usuário, permitindo que eles acessem diferentes partes do fluxo de trabalho. Os usuários no sistema devem ter pelo menos uma função. Os usuários também podem ter mais de uma função, por exemplo, ser Gerente de Revista, Editor e Autor na mesma revista.
 
@@ -210,7 +210,7 @@ Use o link _Incluir Papel_ para abrir a janela onde você pode criar um novo pap
 
 ## Opções de Acesso ao Site
 
-This PKP School video explains how to configure site options in OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como definir as configurações do site no OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="lqf4GmA01PA" provider="youtube" title="Video of how to configure site access options in OJS"%}
 
