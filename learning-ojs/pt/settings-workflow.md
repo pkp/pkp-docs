@@ -12,7 +12,7 @@ As definições do fluxo de trabalho permitem configurar várias partes do fluxo
 
 Este vídeo do PKP School explica como configurar o processo de submissão no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="_I2-IpEWu9E" provider="youtube" title="Video of how to configure the submission process in OJS"%}
+{% include video.html id="_I2-IpEWu9E" provider="youtube" title="Vídeo sobre como configurar o processo de submissão em OJS"%}
 
 Utilize esta seção para configurar o processo de submissão.
 
@@ -34,7 +34,7 @@ Esta seção determina quais os tipos de metadados serão coletados durante o pr
 
 Este vídeo da PKP School explica como gerenciar Componentes no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="UkmvhHjP5V0" provider="youtube" title="Video of how to manage components in OJS"%}
+{% include video.html id="UkmvhHjP5V0" provider="youtube" title="Vídeo sobre como gerenciar os componentes em OJS"%}
 
 Componentes são os tipos de arquivos que os autores podem enviar para o site. Normalmente, um arquivo será o texto do artigo e outros podem incluir transcrições de entrevistas, dados, imagens, etc.  Os componentes disponíveis para que o autor escolha ao fazer suas submissões estão listados aqui.
 
