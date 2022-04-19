@@ -18,7 +18,7 @@ Além de gerenciar o site da revista, o Gerente da Revista também é responsáv
 
 Para visualizá-las, selecione Usuários e Papéis no menu à esquerda..
 
-![Users and Roles screen with list of journal users](./assets/learning-ojs3.1-jm-users.png)
+![Usuários e Papéis com a lista de usuários do periódicos](./assets/learning-ojs3.1-jm-users.png)
 
 Se quiser exportar uma lista de todos os usuários registrados, você pode encontrar tal opção como um arquivo XML no menu **Ferramentas**. Se preferir seus dados de usuário em formato de planilha, você pode baixá-los como um arquivo CSV em **Estatísticas > Usuários**.
 
@@ -28,7 +28,7 @@ Os usuários são exibidos por ordem de sobrenome.
 
 Você pode editar a conta de um usuário selecionando-o com seta azul, localizada no lado esquerdo do nome do usuário.
 
-![Blue arrow selected by a user's name with options to edit their account](./assets/learning-ojs3.1-jm-users-edit.png)
+![Seta azul selecionada pelo nome de um usuário com opções para editar sua conta](./assets/learning-ojs3.1-jm-users-edit.png)
 
 Tal ação abre as opções de e-mail, editar usuário, desativar, remover, fazer login e mesclar usuários.
 
@@ -43,7 +43,7 @@ Para enviar e-mail a um usuário que não esteja relacionado a uma submissão, s
 3. Clique na seta azul ao lado do nome do usuário para revelar opções;
 4. Clique em E-mail. Uma caixa pop-up aparecerá, e você poderá digitar uma mensagem e enviá-la.
 
-![Email pop-up box for emailing a user](./assets/learning-ojs-3-users-email.png)
+![Caixa de pop-up de e-mail para enviar mensagem para um usuário](./assets/learning-ojs-3-users-email.png)
 
 No OJS 3.3, é possível  enviar um e-mail a vários usuários ao mesmo tempo usando a guia Notificar. Tal recurso deverá ser habilitado para cada revista pelo administrador da revista em Configurações do Website > E-mails em massa. O administrador do portal também pode desabilitar certas funções do periódico de receber e-mails em massa, acessando a área Revistas Hospedadas > Configurações do Portal.
 
@@ -51,7 +51,7 @@ Se ativado para o periódico pelo Administrador do portal, os e-mails podem ser 
 
 Na guia Notificar, selecione as funções do usuário que você gostaria de enviar por e-mail. Digite o assunto e a mensagem. Você tem a opção de enviar uma cópia para seu próprio endereço de e-mail, além de receber uma notificação de status indicando que a mensagem foi enviada com sucesso. Você receberá uma notificação de status indicando que a mensagem foi enviada com sucesso.
 
-![OJS 3.3 selecting multiple users to notify with an email message](./assets/learning-ojs3.3-users-roles-notify.png)
+![OJS 3.3 selecionando vários usuários para notificar com uma mensagem de email](./assets/learning-ojs3.3-users-roles-notify.png)
 
 Tal recurso pode ser usado para enviar e-mails práticos e essenciais de serviço aos usuários que estão trabalhando na revista. Por exemplo, pode-se enviar e-mail a todos os editores de texto lembrando-os do "estilo da casa" para um determinado uso de palavras. Em todo caso, deve-se evitar usar o recurso para notificar um grande número de leitores, pois nesses casos o recurso de Notícias é preferível. Vá em [Website Settings > Setup > Announcements](./settings-website#announcements) para obter detalhes.
 
@@ -61,7 +61,7 @@ Não é possível adicionar endereços cc ou bcc além dos seus próprios ou ane
 
 **Editar usuário** permite que você faça alterações na conta desse usuário.
 
-![Edit information about a user](./assets/learning-ojs-3-users-edit-user.png)
+![Editar informações sobre um usuário](./assets/learning-ojs-3-users-edit-user.png)
 
 **Desabilitar** mantém a conta no lugar, mas bloqueia o acesso do usuário.
 
@@ -91,23 +91,23 @@ Para mesclar usuários:
 
 Quando a revista tem um grande número de usuários, essa ferramenta é bastante útil.
 
-![Search for a journal user by name, email, and role](./assets/learning-ojs-3-users-search.png)
+![Procurar um usuário do periódico por nome, e-mail e papel](./assets/learning-ojs-3-users-search.png)
 
 Isto pode ajudar a encontrar rapidamente um usuário pelo nome, sobrenome ou endereço de e-mail, ou a ver todos de determinada função.
 
 **Nota**: Se você deixar o campo Pesquisar em branco, selecionar um Papel e clicar em Pesquisar, receberá uma lista de todos os usuários dessa função (por exemplo, todos os editores de texto).
 
-![Search for all users with a given role](./assets/learning-ojs-3-users-search-roles.png)
+![Pesquisar por todos os usuários com um papel determinado](./assets/learning-ojs-3-users-search-roles.png)
 
 #### Adicionar usuário
 
 Para adicionar novo usuário ao seu periódico, selecione o link Incluir usuário. Isto abrirá uma nova janela com campos a serem preenchidos.
 
-![Add a user and enter their information](./assets/learning-ojs-3-users-add-new.png)
+![Adicione um usuário e insira suas informações](./assets/learning-ojs-3-users-add-new.png)
 
 Depois que esses campos forem preenchidos e você clicar em _Salvar_, será solicitado que você atribua funções à nova conta. Use o link _Adiconar função_ para abrir o seletor de função.
 
-![Assign a role to a new user's account](./assets/learning-ojs-3-users-add-new-roles1.png)
+![Atribuir um papel à conta de um novo usuário](./assets/learning-ojs-3-users-add-new-roles1.png)
 
 Depois de adicionar todas as funções, clique no botão **Salvar**.
 
@@ -172,7 +172,7 @@ Há uma série de funções predefinidas que você pode usar e editar no OJS. Le
 
 Funções pré-definidas e personalizadas podem ser verificadas na guia Papéis.
 
-![Roles tab showing all current roles in the journal](./assets/learning-ojs3.1-jm-users-roles.png)
+![Aba de papéis que mostram todos os papéis atuais no periódico](./assets/learning-ojs3.1-jm-users-roles.png)
 
 Nessa página, o usuário logado tem acesso a cada papel e a etapa editorial que cada um pode acessar. Um bom exemplo disso é o Editor de Texto, que só pode acessar a fase de revisão. Os editores de texto não podem pular para a etapa de revisão para ver o que aconteceu durante o processo. Consulte o capítulo Fluxo de Trabalho Editorial para mais informações.
 
@@ -184,7 +184,7 @@ Desmarcar uma caixa removerá o acesso da etapa para os usuários dessa função
 
 A seleção da seta azul à esquerda do nome da função revela a opção de editar. Clicando nela, abre-se a janela de edição.
 
-![Edit details of a role](./assets/learning-ojs3.1-jm-users-roles-edit.png)
+![Editar detalhes de um papel](./assets/learning-ojs3.1-jm-users-roles-edit.png)
 
 **Nível de permissão**: Indica o que um usuário dessa função pode fazer em qualquer etapa.
 
@@ -212,11 +212,11 @@ Use o link _Incluir Papel_ para abrir a janela onde você pode criar um novo pap
 
 Este vídeo da PKP School explica como definir as configurações do site no OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="lqf4GmA01PA" provider="youtube" title="Video of how to configure site access options in OJS"%}
+{% include video.html id="_AAtxnFEodQ" provider="youtube" title="Vídeo sobre como configurar acesso ao site em OJS"%}
 
 Esta página permite que você determine como os leitores podem acessar sua revista.
 
-![Site access options tab under Users and Roles](./assets/learning-ojs3.1-jm-users-siteoptions.png)
+![Aba opções de acesso ao site em Usuários e Papéis](./assets/learning-ojs3.1-jm-users-siteoptions.png)
 
 **Restrições adicionais de acesso ao site e aos artigos**: Escolha entre as opções para limitar o acesso.
 
