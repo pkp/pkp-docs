@@ -12,7 +12,7 @@ A collection of resources that may help you while coding with OJS and OMP.
 
 This plugin will [clear the template and CSS cache](https://github.com/NateWr/cacheBuster) with every request. Enable it so that you don't have to manually clear the cache every time you make a change.
 
-> Be careful not to enable this on a production site. Recompiling templates and CSS is a time-intensive task. 
+> Don't enable this on a production site. It will slow down your site. 
 > 
 > {:.warning}
 
@@ -57,3 +57,40 @@ php lib/pkp/tools/moveLocaleKeysToLib.php example.locale.key emails.po
 ```
 
 This will move all translations of `example.locale.key` from `locale/**_**/emails.po` to `lib/pkp/locale/**_**/emails.po`.
+
+## Log emails
+
+Sometimes you need to verify if an email was sent by the application. You can output all emails to the server log by setting the following in your config file:
+
+```
+[email]
+
+; Default method to send emails
+; Available options: sendmail, smtp, log
+default = log
+```
+
+Or you can run a local SMTP server to receive and store emails. We recommend one of the following apps:
+
+- [MailHog](https://github.com/mailhog/MailHog) (Go or [via Docker](https://akrabat.com/using-mailhog-via-docker-for-testing-email/))
+- [MailDev](https://maildev.github.io/maildev/) (Node.js via Docker)
+- [MailCatcher](https://mailcatcher.me/) (Ruby)
+- [FakeSMTP](http://nilhcem.com/FakeSMTP/) (Java)
+
+
+Update your `config.inc.php` file to send email through the SMTP server. (The port for these test apps is usually `1025`.)
+
+```
+[email]
+
+; Default method to send emails
+; Available options: sendmail, smtp, log
+default = smtp
+
+; Use SMTP for sending mail instead of mail()
+smtp = On
+
+; SMTP server settings
+smtp_server = localhost
+smtp_port = 1025
+```
