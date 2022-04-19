@@ -12,7 +12,7 @@ O OJS permite que você restrinja parte do seu conteúdo, ou o conteúdo todo, a
 
 Preencha os detalhes sobre suas políticas de assinatura nesta página.
 
-![The Subscription policies tab in the Subscriptions menu.](./assets/learning-ojs3.1-jm-subscriptions-policies.png)
+![A guia de política de Subscrições no menu de Subscrições.](./assets/learning-ojs3.1-jm-subscriptions-policies.png)
 
 - **Gerente de assinaturas**: adicione os dados pessoais da pessoa responsável.
 - **Informações de assinatura**: adicione as informações sobre a política a serem exibidas no site da revista.
@@ -25,13 +25,13 @@ Preencha os detalhes sobre suas políticas de assinatura nesta página.
 
 A próxima etapa, na configuração do gerenciamento de assinaturas, é designar os tipos de assinaturas que a revista oferece.
 
-![The Subscription Types tab in the Subscriptions menu](./assets/learning-ojs3.1-jm-subscriptions-types.png)
+![A guia Tipos de Subscrições no menu Subscrições](./assets/learning-ojs3.1-jm-subscriptions-types.png)
 
 Os periódicos geralmente oferecem taxas de assinatura individual e de assinatura institucional. Alguns periódicos podem ter ofertas especiais para membros de uma organização ou estudantes. O OJS apoiará o gerenciamento de assinaturas impressas e/ou on-line. Pode ser criado mais de um tipo de assinatura para cobrir períodos de tempo mais longos (12 meses, 36 meses).
 
 Selecione **Criar Novo Tipo de Assinatura** para adicionar um novo.
 
-![The Create New Subscription Type window.](./assets/learning-ojs3.1-jm-subscriptions-types-create.png)
+![A janela Criar Novo Tipo de Subscrição.](./assets/learning-ojs3.1-jm-subscriptions-types-create.png)
 
 - **Nome do tipo (de assinatura)**: atribua um nome único (por exemplo, Estudante) a este novo tipo de assinatura .
 - **Descrição**: forneça uma breve descrição que aparecerá no website.
@@ -43,7 +43,7 @@ Selecione **Criar Novo Tipo de Assinatura** para adicionar um novo.
 
 ## Tipos de pagamento
 
-{% include video.html id="9r0mRqtNVuU" provider="youtube" title="Module 11: Distribution. Unit 3: Payments"%}
+{% include video.html id="9r0mRqtNVuU" provider="youtube" title="Módulo 11: Distribuição. Unidade 3: Pagamentos"%}
 
 Este vídeo da PKP School explica como configurar diferentes tipos de pagamento em seu diário. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -51,7 +51,7 @@ Se você ainda não fez isso, vá a  [Settings > Distribution > Payments](./sett
 
 Utilize esta página para definir os valores cobrados por vários tipos de taxas.
 
-![The Payment Types tab in the Subscriptions menu.](./assets/learning-ojs3.1-jm-subscriptions-paytypes.png)
+![A guia Tipos de Pagamento no menu Subscrições.](./assets/learning-ojs3.1-jm-subscriptions-paytypes.png)
 
 ### Taxas de Autor
 
@@ -59,7 +59,7 @@ Se você deseja cobrar uma taxa de processamento do artigo (APC) dos autores, in
 
 Observe que a opção de notificar os autores sobre a Taxa de Autor aparecerá apenas quando os detalhes do pagamento (detalhes da conta do PayPal ou instruções manuais do PayPal) forem concluídos em [Settings > Distribution > Payments](./settings-distribution#payments).
 
-![A sample notification to the author with the "Request publication fee" option enabled.](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
+![Uma notificação de amostra para o autor com o "Solicitar taxa de publicação" opção habilitada.](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
 
 Os autores deverão fazer login na revista antes de serem direcionados ao PayPal para processar o pagamento.
 
@@ -85,11 +85,11 @@ Apenas os pagamentos feitos por meio do PayPal serão registrados aqui.
 
 Todos os tipos de assinaturas individuais aparecerão aqui.
 
-![The Individual Subscriptions tab in the Subscriptions menu.](./assets/learning-ojs3.1-jm-subscriptions-indiv.png)
+![A guia de Subscriçoes Individuais no menu de Subscrições.](./assets/learning-ojs3.1-jm-subscriptions-indiv.png)
 
 Você pode criar uma nova assinatura individual usando o link Criar nova assinatura. Porém, primeiro precisará criar uma nova conta para essa pessoa em Usuários e funções ([consulte o capítulo](./user-accounts)). Feito isso, você pode pesquisar a conta e aplicar as diferentes configurações.
 
-![The Create New Subscription window.](./assets/learning-ojs3.1-jm-subscriptions-indiv-create.png)
+![A janela Criar Nova Subscrição.](./assets/learning-ojs3.1-jm-subscriptions-indiv-create.png)
 
 **Tipo de assinatura**: Selecione o tipo apropriado para este novo assinante (por exemplo, Aluno) e seu status (por exemplo, Ativo).
 
@@ -107,13 +107,13 @@ Você pode criar uma nova assinatura individual usando o link Criar nova assinat
 
 Todos os tipos de assinaturas institucionais aparecerão aqui.
 
-![The Institutional Subscriptions tab in the Subscriptions menu.](./assets/learning-ojs3.1-jm-subscriptions-instit.png)
+![A guia de Subscrições Institucionais no menu de Subscrições.](./assets/learning-ojs3.1-jm-subscriptions-instit.png)
 
 As assinaturas institucionais são gerenciadas de forma semelhante às assinaturas individuais, mas são usadas para bibliotecas, institutos de pesquisa e outras organizações que assinam o seu periódico.
 
 Você pode criar uma nova assinatura individual usando o link Criar nova assinatura. Porém, primeiro precisará criar uma nova conta para a pessoa de contato da instituição em Usuários e funções (consulte o capítulo [the User Accounts chapter](./user-accounts)). Feito isso, você pode pesquisar a conta aqui e aplicar as diferentes configurações.
 
-![The Create New Subscription window.](./assets/learning-ojs3.1-jm-subscriptions-instit-create.png)
+![A janela Criar Nova Subscrição.](./assets/learning-ojs3.1-jm-subscriptions-instit-create.png)
 
 - **Tipo de assinatura**: selecione o tipo apropriado para este novo assinante (por exemplo, Biblioteca) e seu status (por exemplo, Ativo). (Os tipos de assinatura foram configurados anteriormente neste capítulo.)
 - **Data**: defina as datas de início e término para esta assinatura.
@@ -122,7 +122,7 @@ Você pode criar uma nova assinatura individual usando o link Criar nova assinat
 - **Domínio**: leitores vindos de um computador com este domínio receberão acesso automaticamente (por exemplo, sfu.ca). Isso se aplica a usuários no campus.
 - **Intervalos de IP**: a instituição pode fornecer intervalos de IP. Os leitores que usam um computador neste intervalo de IP receberão acesso automaticamente. Cada intervalo de IP deve ser inserido como uma nova linha.
 
-![The IP ranges field where IP ranges are entered.](./assets/learning-ojs3.2-jm-subscriptions-instit-IP.png)
+![O campo do IP varia onde os intervalos de IP são inseridos.](./assets/learning-ojs3.2-jm-subscriptions-instit-IP.png)
 
 - **Observações**: se você tiver alguma observação relevante a adicionar, registre essa informação neste espaço (opcional).
 
@@ -136,7 +136,7 @@ Essas assinaturas manuais também serão registradas na guia Pagamento> Individu
 
 A partir daqui, o gerenciador de assinaturas pode atualizar o status conforme necessário, com base em seu fluxo de trabalho.
 
-![A sample individual subscription with the "Awaiting Manual Payment" status.](./assets/learning-ojs3.2-subs-manual-notification.png)
+![Uma amostra de subscrição individual com o status "Aguardando pagamento manual".](./assets/learning-ojs3.2-subs-manual-notification.png)
 
 ### Notificações de pagamento do PayPal
 
@@ -152,4 +152,4 @@ Para definir Acesso Aberto aos artigos, basta clicar em **Edições** [ou Fascí
 
 No Sumário, marque os artigos que serão definidos como Acesso aberto.
 
-![The Open Access checkbox located beside an article in the Table of Contents.](./assets/learning-ojs3.2-jm-subscriptions-single-article.png)
+![A caixa de seleção de Acesso Aberto localizada ao lado de um artigo na Tabela de Conteúdos.](./assets/learning-ojs3.2-jm-subscriptions-single-article.png)
