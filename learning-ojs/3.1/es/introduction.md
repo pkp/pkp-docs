@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.1
 ---
 
-# Chapter 1: Introduction
+# Capítulo 1: Introducción
 
 Open Journal Systems \(OJS\) is an open source solution to managing and publishing scholarly journals online. OJS is a highly flexible editor-operated journal management and publishing system that can be downloaded for free and installed on a local Web server.
 
@@ -23,7 +23,7 @@ This book covers OJS version 3.1, released in October 2017, and features signifi
 
 <hr />
 
-## OJS Features
+## Características de OJS
 
 OJS includes the following features:
 1. OJS is installed locally and controlled locally
@@ -36,27 +36,27 @@ OJS includes the following features:
 8. Complete context-sensitive online Help support
 9. Multilingual support
 
-## What's New in OJS 3
+## Novedades en OJS 3
 
 OJS 3 is significantly different than its predecessor, OJS 2. It includes enhancements and new features developed from community feedback, extensive usability testing, and new software design capabilities.
 
-## Reader Interface
+## Interfaz del lector
 
 By default, Open Journal Systems is installed with a very simple, functional user interface. This includes a top header, navigation bar, navigation blocks to the right, and a main content block in the middle of the page.
 
 The following image is a screenshot of an OJS Demonstration Journal Table of Contents.
 
-![Table of Contents for a sample OJS journal.](./assets/learning-ojs-3-ojs3-interface.png)
+![Tabla de Contenidos para una revista de muestra en OJS.](./assets/learning-ojs-3-ojs3-interface.png)
 
 You can see from the screenshot that the user functions now exist from your profile menu at the top right of the screen. This takes the managerial content in OJS 3.x away from general user view. Side bar information is clearly broken out, as well as your top navigation bar with collapsible menus for the "About" functions. Like OJS 2, each article has a linked title for viewing object metadata and abstracts, and galleys are now clearly labeled below the titles with clearer logos.
 
-## Editorial Interface
+## Interfaz editorial
 
-_AKA "The Dashboard"_
+_También conocido como "El tablero"_
 
 OJS 3.x now has a separate interface once you log into the editorial system. This not only makes it easier to customize the reader interface, but also provides OJS users of different journals a consistent experience.
 
-![The main OJS dashboard](./assets/learning-ojs3.1-ed-dashboard.png)
+![El panel principal de OJS](./assets/learning-ojs3.1-ed-dashboard.png)
 
 The editorial interface is known as your **dashboard** and consists of the following elements:
 
@@ -67,7 +67,7 @@ The editorial interface is known as your **dashboard** and consists of the follo
 5. **Main Panel Sub-Menus**: Within the Main Panel, you will often see tabs that allow you to view different information about the content being worked on. In this example, the submission record is broken into four sections \(Submission, Review, Copyediting, Production\). Notice the Help tab to the right, which provides context-sensitive help for the page you are currently viewing.
 6. **Right Panel**: From here, you can see the action buttons, such as Schedule for Publication. Different pages have different action buttons. Below the action buttons is the Participants table, which lists everyone \(except Reviewers\) involved in the submission.
 
-## Community Contributions
+## Contribuciones comunitarias
 
 The OJS team encourages contributions from the developer community. If you are interested in getting involved in making OJS even better, we welcome your participation.
 
@@ -75,7 +75,7 @@ Excellent examples of community contributions include the vast array of language
 
 We also welcome software testing and bug reporting contributions.
 
-## Support
+## Soporte técnico
 
 A [community forum](https://forum.pkp.sfu.ca/) and [issue reporting system](https://github.com/pkp/pkp-lib/#issues) for technical issues can be accessed via the [PKP web site](https://pkp.sfu.ca).
 
