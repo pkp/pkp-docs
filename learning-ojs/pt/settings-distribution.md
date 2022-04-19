@@ -38,7 +38,7 @@ Em **Termos de licença**, insira quaisquer termos de licença adicionais que vo
 
 Este vídeo da PKP School explica como aprimorar a indexação de pesquisa no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="qf_5sTlDXM0" provider="youtube" title="Video of how to enhance search indexing in OJS"%}
+{% include video.html id="qf_5sTlDXM0" provider="youtube" title="Vídeo sobre como aprimorar Indexação de pequisa em OJS"%}
 
 Essa seção ajuda a aprimorar a otimização do mecanismo de pesquisa e tornar o conteúdo mais detectável.
 
@@ -60,7 +60,7 @@ Use **Tags personalizadas** para adicionar tags de cabeçalho HTML personalizada
 
 Este vídeo do PKP School explica como definir as configurações de Pagamentos no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="9r0mRqtNVuU" provider="youtube" title="Video of how to configure payments in OJS"%}
+{% include video.html id="9r0mRqtNVuU" provider="youtube" title="Vídeo sobre como configurar pagamentos OJS"%}
 
 O OJS oferece a possibilidade de coletar pagamentos on-line e gerenciar assinaturas e pagamentos de taxas de autoria.
 
@@ -106,7 +106,7 @@ No OJS 3.x não há a opção de configurar pagamento com a finalidade de realiz
 
 Este vídeo do PKP School explica como definir as configurações de acesso no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="RlKVwF3h_PM" provider="youtube" title="Video of how to configure access settings in OJS"%}
+{% include video.html id="RlKVwF3h_PM" provider="youtube" title="Vídeo sobre como definir as configurações de acesso em OJS"%}
 
 Na guia Acesso, você pode configurar se deseja que o conteúdo do seu periódico seja de acesso aberto, disponível por assinatura ou uma combinação de ambos. Automaticamente, a opção de acesso aberto é selecionada. No entanto, se você deseja usar o OJS para uma assinatura, escolha a segunda opção (consulte a seção acima sobre Pagamentos para obter mais informações). Selecionar a segunda opção permitirá que você atrase ainda mais o canal de acesso aberto durante diferentes períodos de tempo.
 
@@ -133,7 +133,7 @@ Ative a tela OAI com as opções de ativação e desativação.](./assets/learni
 
 Este vídeo da PKP School explica como habilitar o arquivamento no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="ohHaj-MSLNA" provider="youtube" title="Video of how to enable archiving in OJS"%}
+({% include video.html id="ohHaj-MSLNA" provider="youtube" title="Vídeo sobre como abilitar o arquivamentoo em OJS"%}
 
 Se você é um membro de uma rede LOCKSS ou CLOCKSS, use esta aba para ativar o seu diário. O plugin PKP PN, que deposita seu conteúdo na Rede de Preservação PKP (PN), está disponível para a versão OJS 3.1.2 ou mais recente.
 
