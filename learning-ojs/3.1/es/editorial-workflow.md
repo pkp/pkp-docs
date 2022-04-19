@@ -23,7 +23,7 @@ Some submission will not pass review and end here. Those that are accepted move 
 
 <hr />
 
-## Tasks
+## Tareas
 
 Your Tasks are available from the top left menu of your Dashboard. Note the number "1" in the image below. This indicates that there is currently 1 task in your list.
 
