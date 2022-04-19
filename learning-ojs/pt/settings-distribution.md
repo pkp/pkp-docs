@@ -14,7 +14,7 @@ Observe que, se sua revista for multilíngue e você tiver, nos ajustes de idiom
 
 Este vídeo da PKP School explica como configurar os termos de direitos autorais e licenciamento no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="qfzvbN4a-bM" provider="youtube" title="Video of how to configure copyright and licensing terms in OJS"%}
+{% include video.html id="qfzvbN4a-bM" provider="youtube" title="Vídeo sobre como configurar termos de direitos autorais e licenciamento em OJS"%}
 
 Nessa seção você pode configurar termos de direitos autorais e licenciamento para o conteúdo do seu periódico.
 
