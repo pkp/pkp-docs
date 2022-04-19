@@ -182,7 +182,7 @@ Se desejar incluir imagens ou arquivos multimídia em um arquivo HTML de leitura
 
 Para estilizar todos os arquivos HTML de leitura de prova: se estiver usando um plugin de tema personalizado, você pode escrever uma linha de código para incluir um estilo personalizado para todos os arquivos HTML. Isso só se aplica a arquivos HTML de leitura de prova que não têm um estilo aplicado individualmente. Mais informações sobre temas personalizados estão disponíveis no [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
-##### Add images and multimedia to an HTML Galley
+##### Adicionar imagens e multimídia a um componente HTML
 
 A página HTML também deve conter o nome exato do arquivo ao qual você está se conectando.
 
