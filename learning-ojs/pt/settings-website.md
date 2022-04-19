@@ -13,7 +13,7 @@ As Configurações do Website permitem configurar o aspecto e funcionamento do w
 
 Este vídeo do PKP School explica como configurar a aparência do seu diário no OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="4i5uRgzFHfg" provider="youtube" title="Video of how to configure your journal's appearance in OJS"%}
+{% include video.html id="4i5uRgzFHfg" provider="youtube" title="Vídeo sobre como configurar a aparência do seu periódico em OJS"%}
 
 ### Tema
 
@@ -82,7 +82,7 @@ Clique em **Salvar** para armazenar as alterações.
 
 Este vídeo PKP School explica como definir as configurações de informações no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="48qU18uqqkg" provider="youtube" title="Video of how to configure Information settings in OJS"%}
+{% include video.html id="48qU18uqqkg" provider="youtube" title="Vídeo sobre como configurar as definições de Informações em OJS"%}
 
 Use esses campos para modificar o texto nas páginas Para Leitores, Para Autores e Para Bibliotecários no site da revista.
 
@@ -97,7 +97,7 @@ Para remover esses campos e seu conteúdo da exibição pública na interface do
 
 Este vídeo da PKP School explica como definir as configurações de idioma no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="VU5kAPOqNPc" provider="youtube" title="Video of how to configure the language settings in OJS"%}
+{% include video.html id="VU5kAPOqNPc" provider="youtube" title="Vídeo sobre como configurar as definições de linguagem em OJS"%}
 
 O OJS é multilíngue, o que significa que a interface, os e-mails e o conteúdo publicado podem estar disponíveis em vários idiomas e os autores podem fazer envios em um ou mais idiomas em um único site ou periódico. Ao instalar o OJS, você pode selecionar um ou mais idiomas para seu site.
 
@@ -121,7 +121,7 @@ Atenção: se permitir que vários idiomas apareçam na interface de usuário, c
 
 Este vídeo PKP School explica como definir as configurações de navegação no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="OJL-XEgzhYU" provider="youtube" title="Video of how to configure navigation settings in OJS"%}
+{% include video.html id="OJL-XEgzhYU" provider="youtube" title="Vídeo sobre como configurar as definioõçes de Navegação em OJS"%}
 
 Esta seção permite que você configure seus menus de navegação, tais como a inclusão de novas guias.
 
@@ -147,7 +147,7 @@ Clique em Salvar para gravar as mudanças.
 
 Este vídeo do PKP School explica como definir as configurações de anúncios no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="OmiDQGX4SGs" provider="youtube" title="Video of how to configure announcements settings in OJS"%}
+{% include video.html id="OmiDQGX4SGs" provider="youtube" title="Vídeo sobre como configurar as definiçoes de Notícias em OJS"%}
 
 Esta seção permite a você criar e exibir notícias no website da revista.
 
@@ -163,7 +163,7 @@ Uma vez ativado o ajuste de Notícias, clique em "Salvar". Um item do menu "Not�
 
 Este vídeo da PKP School explica como definir as configurações do site no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="3vAR6lu-4DE" provider="youtube" title="Video of how to configure website settings in OJS"%}
+({% include video.html id="3vAR6lu-4DE" provider="youtube" title="Vídeo sobre como configurar as definições de website em OJS"%}
 
 ### Listas
 
@@ -183,7 +183,7 @@ Essa opção permite a configuração de diferentes formatos de datas e horário
 
 Este vídeo do PKP School explica como configurar Plugins no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="PMAsXY_tLMU" provider="youtube" title="Video of how to configure plugins in OJS"%}
+{% include video.html id="PMAsXY_tLMU" provider="youtube" title="Vídeo sobre como configurar plugins em OJS"%}
 
 Use essa página para ver todos os plugins instalados e encontrar novos plugins.
 
