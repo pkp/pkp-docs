@@ -11,7 +11,7 @@ Many journals have style, author, or submission guidelines. These lay out inform
 ### Some examples
 
 -   [Partnership: The Canadian Journal of Library and Information Practice and Research](https://journal.lib.uoguelph.ca/index.php/perj/about/submissions)
--   [The Accounting Review](https://aaapubs.org/userimages/ContentEditor/1432243703884/MANUSCRIPT_PREPARATION_AND_STYLE.pdf) (American Accounting Association)
+-   [The Accounting Review](https://meridian.allenpress.com/DocumentLibrary/AAAN/MANUSCRIPT_PREPARATION_AND_STYLE.pdf) (American Accounting Association)
 -   [PLOS ONE](https://journals.plos.org/plosone/s/submission-guidelines)
 -   [Native American and Indigenous Studies](https://www.naisa.org/journal/submit-to-nais/)
 
