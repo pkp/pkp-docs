@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.1
 ---
 
-# Chapter 9: Issues
+# Capítulo 9: Incidencias
 
 From the left menu, select Issues to manage all of the issues for your journal.
 
