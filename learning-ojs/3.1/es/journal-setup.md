@@ -47,7 +47,7 @@ This could include your open access policy, the focus and scope of the journal, 
 
 Hit the **Save** button to save your changes.
 
-## Contact
+## Contacto
 
 Use this section to add journal contacts.
 
@@ -59,7 +59,7 @@ Use this section to add journal contacts.
 
 **Technical Support Contact**: Add contact information for the journal's technical support person. This information will appear on the journal's Contact page and also in different points in the workflow to offer assistance to users.
 
-Hit the **Save** button to save your changes.
+Pulsa el botón **Guardar** para guardar tus cambios.
 
 ## Secciones
 
@@ -71,7 +71,7 @@ All of your existing sections will appear here. OJS requires at least one sectio
 
 You can modify sections by clicking on the blue arrow to the left of the section name. This will reveal options to edit or delete the section.
 
-### Edit a Section
+### Editar una Sección
 
 Selecting the edit link will open a new window with different configuration options.
 
@@ -93,7 +93,7 @@ From here, you can change the name or abbreviation of the section.
 
 Hit the **Save** button to save your changes and return to the Sections page.
 
-### Create Section
+### Crear Sección
 
 From the sections page, select the Create Section link to open a blank window, exactly the same as the window used for editing a section described above.
 
@@ -121,13 +121,13 @@ Hit the **Done** button when you are finished.
 
 <hr />
 
-## Categories
+## Categorías
 
 In OJS 3.1.2 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production section of the Editorial Settings chapter](./editorial-workflow.md#production). This section explains how to create and edit categories.
 
 ![OJS dashboard view of Journal Settings submenu Categories with links for Order and Add a Category and editable list of current categories.](./assets/learning-ojs3.1-categories-menu.png)
 
-To create a new category:
+Crear una nueva categoría:
 
 * Click Add Category
 * Enter a name for your category that will be displayed to readers
@@ -135,17 +135,17 @@ To create a new category:
 * Enter a description which will appear above the list of articles in the category
 * You can optionally change the order of the articles by date or title
 * Optionally add an image which will appear at the top of the category’s page
-* Click Save
+* Haga clic en Guardar
 
 ![A new window for entering category information in text fields and selecting category options.](./assets/learning-ojs3.1-create-category.png)
 
 To edit a category:
 
 * Click the name of the category you want to edit
-* Make the changes
-* Click OK
+* Hacer los cambios
+* Clic OK
 
-To remove a category:
+Para eliminar una categoría:
 
 * Click the blue arrow next to the category you want to remove
 * Click the Remove button that appears below
