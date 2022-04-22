@@ -3,7 +3,7 @@ book: learning-ojs
 version: 3.1
 ---
 
-# Chapter 11: Tools
+# Capítulo 11: Herramientas
 
 The Tools section can be accessed from the left sidebar menu.
 
@@ -11,7 +11,7 @@ The Tools section can be accessed from the left sidebar menu.
 
 Tools consist of an Import/Export tab and a Report Generator tab (called Statistics in OJS 3.1.1 and earlier).
 
-## Import/Export
+## Importar/exportar
 
 Import/Export allows you to easily get data out of your OJS journal and get data into it.
 
@@ -23,7 +23,7 @@ For detailed instructions on importing and exporting see the [Administrator's Gu
 
 For more information on the Crossref XML Export Plugin, see the [PKP Crossref Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
 
-## Report Generator
+## Generador de informes
 
 The Report Generator page provides access to a variety of reports from your journal.
 
@@ -39,9 +39,9 @@ The system generates reports that track the details associated with site usage a
 - **Review Report**: Provides a spreadsheet of all review activity.
 
 
-### Generate Custom Report
+### Generar informe personalizado
 
-Use this feature to build your own reports.
+Utilice esta función para crear sus propios informes.
 
 ![Sample custom report settings to generate Issue table of contents page preview aggregated by country and month for this current month.](./assets/learning-ojs3.1-jm-users-tools-stats-custom.png)
 
