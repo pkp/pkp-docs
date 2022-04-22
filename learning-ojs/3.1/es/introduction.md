@@ -11,7 +11,7 @@ It has been designed to reduce the time and energy devoted to the clerical and m
 
 This book covers OJS version 3.1, released in October 2017, and features significant enhancements over the previous versions of the software. We hope you find it helpful for your publishing projects.
 
-## Background
+## Contexto
 
 *OJS is a journal/web site management/publishing system*. OJS covers all aspects of online journal publishing, from establishing a journal website to operational tasks such as the author's submission process, peer review, editing, publication, archiving, and indexing of the journal. OJS also helps to manage the people aspects of organizing a journal, including keeping track of the work of editors, reviewers, and authors, notifying readers, and assisting with the correspondence.
 
@@ -25,16 +25,16 @@ This book covers OJS version 3.1, released in October 2017, and features signifi
 
 ## Características de OJS
 
-OJS includes the following features:
-1. OJS is installed locally and controlled locally
-2. Editors configure requirements, sections, review process, etc.
-3. Online submission, double-blind review, and management of all content
-4. Comprehensive indexing of content
+OJS incluye las siguientes características:
+1. OJS se instala y se controla localmente
+2. Los editores configurar los requisitos, las secciones, el proceso de revisión, etc.
+3. Envío en línea, revisión doble ciega y gestión de todo el contenido
+4. Indexación integral del contenido
 5. Responsive, themable reader interface
-6. Email notification for readers
-7. Support for article-processing charges, subscriptions, and online payments
+6. Notificaciones por correo electrónico para lectores
+7. Soporte para gastos de procesamiento de artículos, suscripciones y pagos en línea
 8. Complete context-sensitive online Help support
-9. Multilingual support
+9. Asistencia multilingüe
 
 ## Novedades en OJS 3
 
@@ -63,13 +63,13 @@ The editorial interface is known as your **dashboard** and consists of the follo
 1. **Top Navigation Bar**: To the left, you will find the name of the journal you are currently working with \(e.g., Journal of Public Knowledge\). If you are enrolled in more than one journal on this OJS installation, you can use this to switch between journals. Next to that are your Tasks \(items needing immediate attention\). To the right, you can switch languages if the journal is multilingual, view the reader interface, or click on your username to view [your profile](./viewing_and_changing_your_profile.md) or logout.
 2. **Left Menu Panel**: These are the major sections of the dashboard, including the submissions, issue management, subscription management \(if you are running a journal using subscriptions\), settings, user and role management, and tools. Users with fewer permissions \(e.g., Authors, Reviewers, Copyeditors, etc.\) will see fewer links here.
 3. **Blue Navigation Bar**: These menu choices are specific to the different sections of the editorial workflow. Metadata, Editorial History, and Submission Library are all part of the submission record visible below.
-4. **Main Panel**: In the main panel you will see the current work area. In the image above, you are looking at a submission record in the Production stage.
+4. **Panel principal**: En el panel principal verá el área de trabajo actual. En la imagen de arriba, se ve un registro de envío en la etapa de Envío.
 5. **Main Panel Sub-Menus**: Within the Main Panel, you will often see tabs that allow you to view different information about the content being worked on. In this example, the submission record is broken into four sections \(Submission, Review, Copyediting, Production\). Notice the Help tab to the right, which provides context-sensitive help for the page you are currently viewing.
 6. **Right Panel**: From here, you can see the action buttons, such as Schedule for Publication. Different pages have different action buttons. Below the action buttons is the Participants table, which lists everyone \(except Reviewers\) involved in the submission.
 
 ## Contribuciones comunitarias
 
-The OJS team encourages contributions from the developer community. If you are interested in getting involved in making OJS even better, we welcome your participation.
+El equipo OJS fomenta las contribuciones de la comunidad de desarrolladores. If you are interested in getting involved in making OJS even better, we welcome your participation.
 
 Excellent examples of community contributions include the vast array of languages that OJS is available in; and third-party plugins posted to the [community forum](https://forum.pkp.sfu.ca/) and the archived forum page.
 
