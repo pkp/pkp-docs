@@ -29,7 +29,7 @@ La página Generador de informes proporciona acceso a una variedad de informes d
 
 ![List of Reports available.](./assets/learning-ojs3.1-jm-users-tools-stats.png)
 
-The system generates reports that track the details associated with site usage and submissions over a given period of time. Reports are generated in CSV format which requires a spreadsheet application to view.
+El sistema genera informes que rastrean los detalles asociados con el uso y envío del sitio durante un período de tiempo determinado. Los informes se generan en formato CSV que requiere una aplicación de hoja de cálculo para visualizar.
 
 - **PKP Usage Statistics Report**: Provides basic usage statistics for your journal.
 - **View Report**: Provides a report on galley and abstract views by readers \(i.e., how many times a PDF for an article has been viewed\).
