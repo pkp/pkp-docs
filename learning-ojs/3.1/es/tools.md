@@ -5,11 +5,11 @@ version: 3.1
 
 # Capítulo 11: Herramientas
 
-The Tools section can be accessed from the left sidebar menu.
+Se puede acceder a la sección Herramientas desde el menú de la barra lateral izquierda.
 
 ![Tools side menu options.](./assets/learning-ojs3.1-jm-users-tools.png)
 
-Tools consist of an Import/Export tab and a Report Generator tab (called Statistics in OJS 3.1.1 and earlier).
+Las herramientas consisten en las pestañas Importar/Exportar y Generador de Informes (llamado Estadísticas en OJS 3.1.1 y versiones anteriores).
 
 ## Importar/exportar
 
@@ -25,7 +25,7 @@ For more information on the Crossref XML Export Plugin, see the [PKP Crossref Gu
 
 ## Generador de informes
 
-The Report Generator page provides access to a variety of reports from your journal.
+La página Generador de informes proporciona acceso a una variedad de informes de su revista.
 
 ![List of Reports available.](./assets/learning-ojs3.1-jm-users-tools-stats.png)
 
