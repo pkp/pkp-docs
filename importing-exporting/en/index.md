@@ -2,14 +2,15 @@
 generateHeadingToc: true
 ---
 
-# Importing and Exporting Data
+# Importing and Exporting Data in OJS 2
+
+This guide is for OJS 2, which is an older version of OJS. For information about importing and exporting data in OJS 3, see the [Import/Export section of Learning OJS](/learning-ojs/en/tools#importexport) or the [Data Import and Export chapter of the Administrator's Guide](/admin-guide/en/data-import-and-export).
 
 ## Introduction
 
-Open Journal Systems offers a variety of tools and Import/Export plugins which allow the Journal Manager to inject data into and extract data from OJS. More information can be found for each plugin's documentation within OJS' plugin directory (`plugins/`).
+Open Journal Systems 2 offers a variety of tools and Import/Export plugins which allow the Journal Manager to inject data into and extract data from OJS. More information can be found for each plugin's documentation within OJS' plugin directory (`plugins/`).
 
-Import/export functionality is also available as a command-line tool; see `tools/importExport.php` and the command line section for more
-information.
+Import/export functionality is also available as a command-line tool; see `tools/importExport.php` and the command line section for more information.
 
 ## Using the Quick Submit Plugin
 
@@ -29,7 +30,7 @@ To use this plugin, you will need:
 -   a set of ready-to-publish files (e.g., PDFs)
 -   all of the metadata for the files (e.g., author names, titles, abstracts, etc.)
 
-First, log in as an Editor and [create the issues](/learning-ojs/en/production-publication#create-issue) (or issue) that will contain the new files.
+First, log in as an Editor and [create the issues](/learning-ojs-2/en/issues) (or issue) that will contain the new files.
 
 Next, log in as a Journal Manager and go to the Management Pages, choose Import/Export Data, and then choose Quick Submit plugin.
 
@@ -45,8 +46,7 @@ Next, enter all of the required fields:
 -   Title
 -   Abstract (not always required)
 
-You may need to copy this data directly out of the "ready-to-publish" file and paste into the form. You can also fill in any of the
-non-required fields as necessary for your journal.
+You may need to copy this data directly out of the "ready-to-publish" file and paste into the form. You can also fill in any of the non-required fields as necessary for your journal.
 
 Finally, hit the Save and Continue button (if you are just doing one file) or the Save and Create Another button if you have more to do.
 
@@ -58,8 +58,7 @@ In addition to the Quick Submit plugin, there is another way to expedite the sub
 
 First, make sure you are logged in as a user who is enrolled as both an Editor and an Author. From your User Home, choose the Author Role, and start a submission. Fill out the first two steps of the Author Submission Process as you normally would, keeping in mind that you may need to modify the author metadata information if you are not the original author.
 
-When you reach Step 3 of the submission Process ("Uploading the Submission"), you should upload a galley file, as the file you upload
-here will appear in the final copyediting queue as both an Initial Copyedit file, and as a Galley file. You will still be able to edit, add and remove any galley files at a later step, however. Please note, if you do not upload a file at this point, you will not have the option of expediting the submission process once you are done.
+When you reach Step 3 of the submission Process ("Uploading the Submission"), you should upload a galley file, as the file you upload here will appear in the final copyediting queue as both an Initial Copyedit file, and as a Galley file. You will still be able to edit, add and remove any galley files at a later step, however. Please note, if you do not upload a file at this point, you will not have the option of expediting the submission process once you are done.
 
 Finish the rest of the submission process as normal. If you have uploaded a file, upon completion of Step 5 you will be presented with the option to move the submission directly to the last step of the Editing Queue. Clicking that link will take you from the submission process to the Editing queue.
 
@@ -113,8 +112,7 @@ You can link to full URLs as well as local files using ``<href>``. A full URL li
 </galley>
 ```
 
-You can use local linking if your galleys are already stored on the destination machine, but in this case you need to launch the import
-from the command line<!-- (#Using_the_Plugins_from_the_Command_Line "wikilink")-->. Importing a local file would look like the following:
+You can use local linking if your galleys are already stored on the destination machine, but in this case you need to launch the import from the command line. Importing a local file would look like the following:
 
 ```xml
 <galley>
@@ -219,7 +217,7 @@ Please note that passwords will be encrypted using MD5 or SHA-1 encryption, depe
 
 ## Crossref XML Export Plugin
 
-Please see the [PKP Crossref Manual](/crossref-ojs-manual/).
+Please see the [PKP Crossref Manual](/crossref-ojs-manual/crossref-v1-deposit/en/).
 
 ## Erudit Article Export Plugin
 
@@ -230,7 +228,7 @@ The Erudit Article Export Plugin implements single-article export for full-text 
 The Erudit XML Plugin can be used from the web, from the Journal Manager's User Home:
 
 -   Login as the Journal Manager and from your User Home choose Import/Export Data.
--   Then, choose the <em>Erudit Article XML Export Plugin</em> link.
+-   Then, choose the _Erudit Article XML Export Plugin_ link.
 -   You will then be presented with a list of published articles, and links to the XML export for each individual article galley. It is not currently possible to export whole articles or issues.
 
 ## PubMed XML Export Plugin
@@ -243,14 +241,13 @@ publisher data format XML for indexing in NLM PubMed/MEDLINE. Details on the XML
 
 The Pubmed XML Plugin can be used from the web, from the Journal Manager's User Home:
 
--   Login as the Journal Manager and from your User Home choose <em>Import/Export Data</em>.
--   Then, choose the <em>Pubmed XML Export Plugin</em> link.
--   You will be provided with the options to <em>Export Issues</em> or <em>Export Articles</em>. Depending on what you choose, you will be able to export either single or multiple articles, or single or multiple issues at a time. These will be exported in XML format.
+-   Login as the Journal Manager and from your User Home choose _Import/Export Data_.
+-   Then, choose the _Pubmed XML Export Plugin_ link.
+-   You will be provided with the options to _Export Issues_ or _Export Articles_. Depending on what you choose, you will be able to export either single or multiple articles, or single or multiple issues at a time. These will be exported in XML format.
 
 ## Using the Plugins from the Command Line
 
-Import/export plugins can normally also be run from the command line. You can view the applicable plugin names by running the following
-command:
+Import/export plugins can normally also be run from the command line. You can view the applicable plugin names by running the following command:
 
 `php tools/importExport.php list`
 
