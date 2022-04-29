@@ -66,6 +66,10 @@ The PKP keeps an up-to-date list of languages and contributors from the relevant
 
 If you don't see the language(s) you are looking for listed on either of these lists, please consider undertaking the translation yourself. If you are interested in contributing in such a way, [contact us](http://pkp.sfu.ca/contact) for advice, or consult the rest of this document.
 
+### Use a Translation from OXS 3.1 or 3.0
+
+In OXS 3.2, the format of the translation files changed from XML files to PO files and PKP changed from using the Translation Plugin in OJS or working directly in the XML files to translate to using the online community translation tool Weblate. If you want to use a translation that was done on an OXS 3.1 or 3.0 site, it’s best to add the translation to Weblate so it can continue to be updated. [PKP](https://pkpservices.sfu.ca/contact/) can convert the XML files into PO files and load them into Weblate. You can also use a command line tool in the lib/pkp/tools directory in OJS to convert locale XML files to locale PO files and add them to your site locally. But it is better to share the translation with the community via Weblate and continue to update it.
+
 ## Install a Language
 
 Site Administrators can install new languages through the Administration dashboard. See [Learning OJS 3](/learning-ojs/en/site-administration#languages) for more information on how to install and manage languages in PKP software.
