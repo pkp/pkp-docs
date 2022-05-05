@@ -15,9 +15,9 @@ This document will help you learn how to contribute to Open Journal Systems, Ope
 
 Input from our community helps us improve the software. We welcome bug reports and suggestions from anyone, even if they have never worked on software before. However, we ask that everyone follow some guidelines to help us manage the work.
 
-You can **report a bug** whenever you encounter an error in the software. For example, if the software says an article is published but it is not appearing with other published articles. Before reporting a bug, search our [support forum](https://forum.pkp.sfu.ca/c/questions/5) to see if anyone has already reported it. If not, open a new thread.
+You can **report a bug** whenever you encounter an error in the software. For example, if the software says an article is published but it is not appearing with other published articles, that is probably a bug. Before reporting a bug, search our [support forum](https://forum.pkp.sfu.ca/c/questions/5) to see if anyone has already reported it. If not, open a new thread.
 
-> You can open a bug report in our [GitHub repository](https://github.com/pkp/pkp-lib/issues/). However, we recommend starting with the support forum because you are more likely to receive help there. When you open an issue in our GitHub repository you will be expected to respond knowledgably to technical questions and you won't receive support.
+> You can open a bug report in our [GitHub repository](https://github.com/pkp/pkp-lib/issues/). However, we recommend starting with the support forum because you are more likely to receive help there. When you open an issue in our GitHub repository you will be expected to respond knowledgably to technical questions. GitHub is not a good place to ask for user support.
 {:.notice}
 
 You can **suggest an enhancement** whenever you encounter something in the software that doesn't work the way that you expect it to. For example, if you think a user should be notified by email about something but they are not. Before suggesting an enhancement, search our [feature request forum](https://forum.pkp.sfu.ca/c/questions/feature-requests/8) to see if anyone has already requested it. If not, open a new thread.
@@ -111,7 +111,7 @@ In order to contribute code, you must run the applications from the source code.
 Before you begin work, ask in the appropriate GitHub issue what branch you should work against. We are usually working against one of these branches:
 
 - The `main` branch is where all work on future releases is done. All new features are contributed to this branch.
-- There are `stable-*_*_*` branches for each of our stable versions. For example `stable-3_3_0` for the 3.3 LTS version. We only accept bug fixes in the most recent stable branch or the LTS branch.
+- There are `stable-*_*_*` branches for each of our stable versions. For example `stable-3_3_0` for the 3.3 LTS (Long-Term Support) version. We only accept bug fixes in the most recent stable branch or the LTS branch.
 
 ### Commits
 
@@ -220,7 +220,7 @@ husky > pre-commit (node v14.17.3)
  create mode 100644 example.php
 ```
 
-When committing to pkp-lib, you should see this:
+When committing to [`pkp-lib`](https://github.com/pkp/pkp-lib), you should see this:
 
 ```bash
 $ git commit -m "pkp/pkp-lib#1234 Example commit"
@@ -236,7 +236,7 @@ Checked all files in 0.058 seconds, 14.000 MB memory used
  create mode 100644 example.php
 ```
 
-When committing to the ui-library, you should see this:
+When committing to the [`ui-library`](https://github.com/pkp/ui-library), you should see this:
 
 ```bash
 $ git commit -m "pkp/pkp-lib#1234 Example commit"
@@ -672,4 +672,4 @@ Contributions that should be included in our release notebook include changes to
 
 Every change to the REST API must be documented in the [OpenAPI v3](https://github.com/pkp/pkp-docs#generate-rest-api-references) specification file. After changing the specification, write a short summary of the change into the [description](https://github.com/pkp/ojs/blob/faafccca8dffa0db9bba84164330810e5206571b/docs/dev/swagger-source.json#L6) of the file.
 
-Don't forget to [validate the JSON file](https://jsonlint.com/) and [generate the REST API documentation](https://github.com/pkp/pkp-docs#generate-rest-api-references) to test your changes    .
+Don't forget to [validate the JSON file](https://jsonlint.com/) and [generate the REST API documentation](https://github.com/pkp/pkp-docs#generate-rest-api-references) to test your changes.
