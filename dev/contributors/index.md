@@ -24,7 +24,7 @@ You can **suggest an enhancement** whenever you encounter something in the softw
 
 ## Teams
 
-PKP's developers are organized into three development teams. As a contributor, you should try to determine which team is most appropriate for the work you want to contribute.
+PKP's developers work collaboratively across all parts of the software. However, we have appointed three leads who focus on different parts of the software.
 
 | Team | Leader | Responsibilities |
 | --- | --- | --- |
