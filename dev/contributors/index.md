@@ -311,7 +311,7 @@ Add a `void` return type when functions return null.
 
 ```php
 
-class Example
+class Submission
 {
     public function recordDecision(): void
     {
@@ -344,7 +344,7 @@ Except when a union type uses well-defined, compatible types.
 use APP\decision\Accept;
 use APP\decision\Decline;
 
-class Example
+class Submission
 {
     public function recordDecision(Accept|Decline $decision): void
     {
@@ -381,11 +381,168 @@ class Accept implements AcceptOrDecline
 ```php
 use PKP\decision\interface\AcceptOrDecline;
 
-class Example
+class Submission
 {
     public function recordDecision(AcceptOrDecline $decision): void
     {
         $decision->record();
+    }
+}
+```
+
+#### Docblocks
+
+Add a docblock to every method. A good docblock will say what the method does and how it is intended to be used.
+
+```php
+class Submission
+{
+    /**
+     * Record an editorial decision for this submission
+     */
+    public function recordDecision(AcceptOrDecline $decision): void
+    {
+        $decision->record();
+    }
+}
+```
+
+Don't add `@param` statements unless the type hint needs further explanation.
+
+```php
+class Submission
+{
+    /**
+     * Record an editorial decision for this submission
+     */
+    public function recordDecision(AcceptOrDecline $decision): void
+    {
+        $decision->record();
+    }
+
+    /**
+     * Get all of this submission's publications with the
+     * provided status
+     *
+     * @param string $status One of the Submission::STATUS_ constants.
+     */
+    public function getPublicationsWithStatus(string $status): array
+    {
+        return [...];
+    }
+}
+```
+
+Use the `[]` syntax to type hint arrays.
+
+```php
+use APP\publication\Publication;
+
+class Submission
+{
+    /**
+     * Get all of this submission's publications with the
+     * provided status
+     *
+     * @param string[] $statuses One or more of the Submission::STATUS_ constants.
+     * @return Publication[]
+     */
+    public function getPublicationsWithStatus(array $status): array
+    {
+        return [...];
+    }
+}
+```
+
+Don't use `@copydoc` to refer to a parent method.
+
+```php
+namespace PKP\submission;
+
+use APP\publication\Publication;
+
+class Submission
+{
+    /**
+     * Get the current publication
+     */
+    public function getCurrentPublication(): ?Publication
+    {
+        //
+    }
+}
+```
+
+```php
+namespace APP\submission;
+
+use APP\publication\Publication;
+use PKP\submission\Submission as BaseSubmission;
+
+class Submission extends BaseSubmission;
+{
+    public function getCurrentPublication(): ?Publication
+    {
+        return parent::getCurrentPublication();
+    }
+}
+```
+
+Don't explain how a method works with inline comments.
+
+```php
+use APP\submission\Submission;
+
+class DOIRepository
+{
+    /**
+     * Get the DOI pattern for a submission
+     */
+    public function getSubmissionDoiPattern(Submission $submission): void
+    {
+        $doiPattern = $this->getDoiPattern();
+
+        // Add the issue ID to the DOI pattern if
+        // the submission is assigned to an issue
+        if ($submission->getData('issueId')) {
+            $doiPattern = str_replace(
+                $doiPattern,
+                '%i',
+                $submission->getData('issueId')
+            );
+        }
+
+        return $doiPattern
+    }
+}
+```
+
+Move inline explanations about the method to the docblock.
+
+```php
+use APP\submission\Submission;
+
+class DOIRepository
+{
+    /**
+     * Get the DOI pattern for a submission
+     *
+     * If a submission is not assigned to an issue, any
+     * DOI pattern containing %i will not be converted.
+     */
+    public function getSubmissionDoiPattern(Submission $submission): void
+    {
+        $doiPattern = $this->getDoiPattern();
+
+        if ($submission->getData('issueId')) {
+            $doiPattern = str_replace(
+                $doiPattern,
+                '%i',
+                $submission->getData('issueId')
+            );
+        }
+
+        return $doiPattern
     }
 }
 ```
