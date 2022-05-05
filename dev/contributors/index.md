@@ -488,7 +488,7 @@ class Submission extends BaseSubmission;
 }
 ```
 
-Don't explain how a method works with inline comments.
+Don't use inline comments to explain how a method works.
 
 ```php
 use APP\submission\Submission;
@@ -517,7 +517,7 @@ class DOIRepository
 }
 ```
 
-Move inline explanations about the method to the docblock.
+Move inline comments that explain the method to the docblock.
 
 ```php
 use APP\submission\Submission;
