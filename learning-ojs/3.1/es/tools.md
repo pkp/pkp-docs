@@ -19,7 +19,7 @@ Import/Export allows you to easily get data out of your OJS journal and get data
 
 Some of the tools allow you to export to third-party systems, such as PubMed or the DOAJ. Others allow you to import or export user or article data.
 
-For detailed instructions on importing and exporting see the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export).
+Para obtener instrucciones detalladas sobre la importación y exportación, consulte la [Guía del Administrador](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export).
 
 For more information on the Crossref XML Export Plugin, see the [PKP Crossref Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
 
