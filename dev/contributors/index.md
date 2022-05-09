@@ -512,7 +512,7 @@ class DOIRepository
             );
         }
 
-        return $doiPattern
+        return $doiPattern;
     }
 }
 ```
@@ -542,7 +542,7 @@ class DOIRepository
             );
         }
 
-        return $doiPattern
+        return $doiPattern;
     }
 }
 ```
@@ -565,7 +565,7 @@ if ($status === 'published') {
 Use constants instead.
 
 ```php
-class STATUS
+class Status
 {
     const PUBLISHED = 'published';
     const SCHEDULED = 'scheduled';
@@ -574,9 +574,9 @@ class STATUS
 ```
 
 ```php
-if ($status === STATUS::PUBLISHED) {
+if ($status === Status::PUBLISHED) {
     //
-} elseif ($status === STATUS::SCHEDULED) {
+} elseif ($status === Status::SCHEDULED) {
     //
 } else {
     //
@@ -606,7 +606,7 @@ Return early to "flatten" the logic.
 
 ```php
 function show($status, $active, $item) {
-    if ($status !=== STATUS::PUBLISHED) {
+    if ($status !=== Status::PUBLISHED) {
         $page->hidden();
         return;
     }
