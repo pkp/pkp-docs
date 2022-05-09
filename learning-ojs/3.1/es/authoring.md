@@ -17,13 +17,13 @@ It is currently empty as you have made no submissions.
 
 <hr />
 
-## Submitting an Article
+## Enviando un artículo
 
 Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to Step 1 of a 5-Step process to upload and describe your submission.
 
 ![Author submission queue with new submission button](./assets/learning-ojs3.1-au-dashboard-new.png)
 
-### Step 1
+### Paso 1
 
 In **Step 1** you will provide preliminary information about your submission.
 
