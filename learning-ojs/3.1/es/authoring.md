@@ -33,7 +33,7 @@ To begin select the appropriate section for your submission \(e.g., article, rev
 
 Read and agree to the statements in the submission checklist by checking each box. Include any comments for the editor, read the journal’s privacy statement, and then click the **Save and Continue** button to move to **Step 2**.
 
-### Step 2
+### Paso 2
 
 On **Step 2**, a window will open allowing you to upload your submission file.
 
@@ -61,19 +61,19 @@ You will be brought back to the _Submit an Article_ screen where you will see th
 
 Click ‘Save and Continue’ to move to Step 3.
 
-### Step 3
+### Paso 3
 
 On **Step 3**, you will be asked to add more information about the submission, including the title of the submission \(broken down into prefix, title, and subtitle\), the abstract, and scrolling down...
 
-![Enter metadata](./assets/learning-ojs3.1-au-dashboard-new-3.png)
+![Ingresar metadatos](./assets/learning-ojs3.1-au-dashboard-new-3.png)
 
-...any additional contributors.
+...cualquier colaborador adicional.
 
-![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
+![Lista de los colaboradores](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
 You can add more contributors \(e.g., co-authors\), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
 
-![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
+![Añadir colaboradores](./assets/learning-ojs-3-author-submission-step3-2.png)
 
 Hit **Save**, and the new contributor will appear on the screen.
 
@@ -87,7 +87,7 @@ To enter keyword, simply type the word or phrase and hit your Enter key. The wor
 
 Click **Save and Continue** to move forward.
 
-### Step 4
+### Paso 4
 
 On Step 4, you will be asked to confirm that you are happy with your submission.
 
@@ -99,7 +99,7 @@ A box will pop up asking you to confirm you are finished. Click **OK**.
 
 ![Confirm submission screen](./assets/learning-ojs-3-author-submission-step4-1.png)
 
-### Step 5
+### Paso 5
 
 ![Next steps submission screen](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
@@ -111,7 +111,7 @@ Your submission is now complete! The editor has been notified of your submission
 
 Once you complete a submission, you cannot make changes to it.  If you want to replace the file you submitted or make other changes to the submission, you will need to contact the editor through the Pre-Review Discussions tool.
 
-### Dashboard
+### Panel de control
 
 And here is your submission in your Dashboard. You can see that it is currently in the _Submission_ stage.
 
@@ -121,7 +121,7 @@ Over the coming days, it will move into the Review stage, and if accepted, into 
 
 <hr />
 
-## Responding to a Review
+## Respondiendo a una revisión
 
 Once the review process has completed, you will be notified via email by the editor of their decision.
 
@@ -143,37 +143,37 @@ Based on the information in the editor's message, you must now prepare your revi
 
 By scrolling down the page, you will find a panel for **Revisions**.
 
-![Revisions panel](./assets/learning-ojs-3-auth-responding-revisions4.png)
+![Panel de revisiones](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
 Use the *Upload a File* link to upload your revised manuscript.
 
-![Upload review file](./assets/learning-ojs-3-auth-responding-upload.png)
+![Subir archivo de revisión](./assets/learning-ojs-3-auth-responding-upload.png)
 
 Use the dropdown menu to choose that you are uploading a revision of an existing file.
 
 Then upload the revised file and hit **Continue**.
 
-![Review file details and continue](./assets/learning-ojs-3-auth-responding-upload2.png)
+![Revisar detalles del archivo y continuar](./assets/learning-ojs-3-auth-responding-upload2.png)
 
 Check the file details and hit **Continue** again.
 
-![Add another file or complete upload](./assets/learning-ojs-3-auth-responding-upload3.png)
+![Añadir otro archivo o completar la carga](./assets/learning-ojs-3-auth-responding-upload3.png)
 
 If you have any additional files to upload, do so now. Otherwise, hit **Complete**.
 
-Your revised file is now visible in the Revisions panel.
+Su archivo revisado ahora es visible en el panel Revisiones.
 
-![Revised file now in revisions panel](./assets/learning-ojs-3-auth-responding-upload4.png)
+![Archivo revisado ahora en el panel de revisiones](./assets/learning-ojs-3-auth-responding-upload4.png)
 
-### Inform the Editor
+### Informar al Editor
 
 The editor will receive a notification about the new file(s) being uploaded. Additionally you can inform the editor via the Review Discussion panel as explained below.
 
-![Review discussions panel](./assets/learning-ojs-3-auth-responding-discussion.png)
+![Panel de revisión de discusiones](./assets/learning-ojs-3-auth-responding-discussion.png)
 
 From there, select the *Add Discussion* link.
 
-![Add discussion and add user](./assets/learning-ojs-3-auth-responding-discussion-add.png)
+![Añadir discusión y añadir usuario](./assets/learning-ojs-3-auth-responding-discussion-add.png)
 
 Use the *Add User* link to add the editor.
 
@@ -183,7 +183,7 @@ Hit **OK** to send the message.
 
 An email has now been sent to the editor and you (and the editor) can see the message in the Review Discussions panel.
 
-![Message in review discussions panel](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
+![Mensaje en el panel de discusión de revisiones](./assets/learning-ojs-3-auth-responding-discussion-panel.png)
 
 At this point, the author needs to wait to hear back from the editor as to whether the revisions are acceptable.
 
@@ -193,11 +193,11 @@ You will receive an email that your revisions have been accepted.
 
 In addition, notifications will appear on your dashboard.
 
-![Notifications in dashboard](./assets/learning-ojs-3-au-notifications.png)
+![Notificaciones en el panel de control](./assets/learning-ojs-3-au-notifications.png)
 
 The later notification is the current one. Click on it to open the message (which is the same as the email you would have also received).
 
-![Notification message](./assets/learning-ojs-3-au-notifications2.png)
+![Mensaje de notificación](./assets/learning-ojs-3-au-notifications2.png)
 
 Use the **X** in the upper right corner to close the window.
 
@@ -277,4 +277,4 @@ Once you have read the attached file, you can respond to the Layout Editor indic
 
 ![Respond to Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message2.png)
 
-That's it! Your role in the editorial workflow is now completed.
+¡Eso es todo! Su papel en el flujo de trabajo editorial se ha completado.
