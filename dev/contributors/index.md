@@ -26,7 +26,7 @@ You can **suggest an enhancement** whenever you encounter something in the softw
 
 PKP's developers work collaboratively across all parts of the software. However, we have appointed three leads who focus on different parts of the software.
 
-| Team | Leader | Responsibilities |
+| Team | Lead | Responsibilities |
 | --- | --- | --- |
 | **Infastructure** | Alec (@asmecher) | Software architecture and development tools: routing, localization, caching, tests, upgrades, dependencies, deployment and performance. |
 | **Workflow** | Nate (@NateWr) | Editorial workflow: submission lists, the submission wizard, editorial decisions, stage assignments, submission files, and the author and reviewer workflows. |
