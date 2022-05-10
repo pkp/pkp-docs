@@ -23,7 +23,7 @@ You can edit a user account by selecting the blue arrow to the left of an entry.
 
 ![Blue arrow selected by a user's name with options to edit their account](./assets/learning-ojs3.1-jm-users-edit.png)
 
-This opens the options to Email, Edit User, Disable, Remove, Login As, Merge User.
+Esto abre las opciones a Correo electrónico, Editar Usuario, Deshabilitar, Eliminar, Iniciar Sesión, Fusionar usuario.
 
 #### Usuarios de correo electrónico
 
