@@ -3,11 +3,11 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Editorial Workflow
+# Редакционный рабочий процесс
 
 In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
 
-The workflow is divided into 4 stages:
+Рабочий процесс разделен на четыре этапа:
 
 **Submission**: This is where new submissions land while being assigned to Section Editors and considered for moving into the Review stage.
 
