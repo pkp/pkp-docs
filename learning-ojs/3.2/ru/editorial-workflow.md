@@ -5,11 +5,11 @@ version: 3.2
 
 # Редакционный рабочий процесс
 
-In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
+В этой главе мы проследим за тем, что посходит с материалом в течение всего рабочего процесса, начиная с подачи материала в журнал и заканчивая его публикацией.
 
 Рабочий процесс разделен на четыре этапа:
 
-**Submission**: This is where new submissions land while being assigned to Section Editors and considered for moving into the Review stage.
+**Материал**: Здесь появляется исходная информация о новом материале, необходимая назначенному редактору раздела для принятия решения о дальнейшем Рецензировании.
 
 Some submissions are clearly inappropriate and never make it beyond this stage.
 
