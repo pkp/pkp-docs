@@ -5,7 +5,7 @@ version: 3.1
 
 # Capítulo 13: Autores
 
-En este capítulo, aprenderá cómo trabaja un autor en OJS 3.1 desde el registro de usuario hasta la revisión de la galerada final.
+En este capítulo, aprenderá cómo trabaja un autor en OJS 3.1, desde el registro de usuario hasta la revisión de la galerada final.
 
 ## Registrándose en la revista
 
