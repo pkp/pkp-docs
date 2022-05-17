@@ -43,7 +43,7 @@ Have you made a document about PKP software that is specific to your local insti
 
 ### Identify documentation that is missing or needs improvement
 
-If you notice something that there should be documentation for or existing documentation that needs to be corrected, updated, or explained more clearly, we want to know. You can send your suggestion via our [feedback form](https://pkp.sfu.ca/documentation-feedback) or file an issue in the [GitHub PKP Docs repository](https://github.com/pkp/pkp-docs). To file an issue in the repository, you first have to create a GitHub account and sign in. If you want to edit a document directly, you can click the *Improve this page* link on any page in the Documentation Hub.
+If you notice something that there should be documentation for or existing documentation that needs to be corrected, updated, or explained more clearly, we want to know. You can send your suggestion via our [feedback form](https://pkp.sfu.ca/documentation-feedback) or file an issue in the [GitHub PKP Docs repository](https://github.com/pkp/pkp-docs). To file an issue in the repository, you first have to create a GitHub account and sign in. If you want to edit a document directly, you can click the *Edit this page* link on any page in the Documentation Hub.
 
 Members of the DIG review suggestions and add them to lists of potential tasks. Please provide as much detail as possible in your suggestion.
 
@@ -51,19 +51,26 @@ Members of the DIG review suggestions and add them to lists of potential tasks. 
 
 PKP keeps track of documentation that needs to be created, updated, and reviewed on a [shared spreadsheet](https://docs.google.com/spreadsheets/d/1bo0etXPjDxC_xdmOGCdwAtdXv85ojdqRdNr3sfMD2aU/) that's maintained by the DIG. If you're looking for a task, the spreadsheet is an excellent place to start. You can also add new tasks to the spreadsheet.
 
-Tasks are categorized by role and listed on different worksheets according to roles. You can look for tasks that match your role or experience with PKP software. The roles are as follows:
+Tasks are categorized by guide and size, and listed on different worksheets accordingly. You can look for tasks that match your interests or experience with PKP software. The categories are:
 
-- **Administrators**: Administrators are responsible for PKP software installation and upgrades, ensuring the server settings are accurate, adding language files, and creating any new journals on the installation. Administrators have an understanding of and may modify system files and settings, but are not responsible for programming new features or developing the software.
-- **Developers**: Developers participate in the development of PKP software applications and plugins. They write and modify the code and evaluate and implement new features.
-- **Application Users**: Application Users represent end users of PKP software in a variety of different roles, including Journal Manager, Press Manager, Conference Manager, Editor, Reviewer, Author, Copyeditor, and Subscription Manager. They configure settings in the software applications but do not modify system files.
-- **Other**: Documentation tasks that are not specific to one of the above roles are added to this sheet.
+- **Learning OJS 3 Updates**: Improvements and updates for the [Learning OJS 3 Guide](/learning-ojs/).
+- **Smaller Guide Updates**: Small content improvements and updates to guides across PKP's documentation hub.
+- **Major Projects for Multiple Guides**: Large content changes that may impact multiple guides.
+- **Administrator Guide Updates**: Improvements and updates for the [Administrator's Guide](/dev/admin-guide/).
+- **New Guides**: Recommendations for new guides to develop.
+
+Additional sheets may be added to track ongoing DIG projects, such as updates for new software versions.
 
 For each task you can see the following information:
 
-- Topic, Description, and Notes explain the content of the documentation that needs to be created or updated. Read these to see what you should include and any relevant background information.
-- Action Needed indicates whether the documentation needs to be created from scratch, updated, reviewed, maintained, or moved.
-- Status notes whether the documentation is not started, in progress, or complete. Look for a task that is not started yet or one that is in progress that you want to assist with.
-- If the documentation needs to be added to an existing document or an existing document needs to be edited, the document name will be included in the Add to/Part of column and the URL for the document will be included in the New URL column.
+- "Date Added" indicates the date this was added to the spreadsheet.
+- "Topic" and "Description and Notes" explain the content of the documentation that needs to be created or updated. Read these to see what you should include and any relevant background information.
+- "Action Needed" indicates whether the documentation needs to be created from scratch, updated, reviewed, maintained, or moved.
+- "Status" notes whether the documentation is not started, in progress, or complete. Look for a task that is not started yet or one that is in progress that you want to assist with.
+- "Guides" or "Section of Guide" (if applicable) indicates which guide(s) or sections of a guide this task applies to.
+- "Reported by" indicates who created the task.
+- "Person Responsible" indicates who will be working on the task, if someone has been assigned to it.
+- "Working URL" is a link to a working document for this task, if one exists.
 
 ## Sign up for a Task
 
