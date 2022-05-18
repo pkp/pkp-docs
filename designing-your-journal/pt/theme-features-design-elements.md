@@ -76,7 +76,7 @@ Note that the Journal Summary will appear overlaid on the homepage image, as sho
 
 #### Logotipos
 
-If you plan to use a logo with the Immersion theme, be aware that the logo will be placed directly over the . Consider using a transparent logo and be sure to maintain colour contrast between your logo and the Homepage Image. A logo with a large resolution will display as-is, so you may need to adjust the sizing before uploading the logo in the journal.
+If you plan to use a logo with the Immersion theme, be aware that the logo will be placed directly over the Homepage Image. Consider using a transparent logo and be sure to maintain colour contrast between your logo and the Homepage Image. A logo with a large resolution will display as-is, so you may need to adjust the sizing before uploading the logo in the journal.
 
 #### Colour-Blocking
 
