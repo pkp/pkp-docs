@@ -1,21 +1,13 @@
 cards:
   - path: dev
-    title: Hosting and Deployment
-    description: Documentation for system administrators who want to run, deploy, maintain and upgrade our publishing software.
-    cards:
-      - path: admin-guide
-        isDeveloper: true
-      - path: tech-upgrade-guide
-        isDeveloper: true
-      - path: release-notebooks
-        isDeveloper: true
-  - path: dev
-    title: Development
-    description: Documentation for coders who want to customize our publishing software, write plugins or themes, and make coding contributions.
+    title: Open Journal Systems 3 / Open Monograph Press 3
+    description: Documentation for developers who want to write plugins, build themes or help build our publishing software.
     cards:
       - path: documentation
         isDeveloper: true
-      - path: contributors
+      - path: admin-guide
+        isDeveloper: true
+      - path: tech-upgrade-guide
         isDeveloper: true
       - path: pkp-theming-guide
         isDeveloper: true
@@ -23,13 +15,11 @@ cards:
         isDeveloper: true
       - path: testing
         isDeveloper: true
-  - path: dev
-    title: Specifications and Reference Guides
-    description: Technical documentation such as the REST API schema, UI Library, and application source references.
-    cards:
       - path: rest-api
         isDeveloper: true
       - path: ui-library
+        isDeveloper: true
+      - path: release-notebooks
         isDeveloper: true
       - path: ojs-reference
         isDeveloper: true
