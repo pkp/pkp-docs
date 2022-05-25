@@ -69,6 +69,8 @@ A member of the assigned development team will briefly investigate the issue and
 - For **bugs**, follow the reproduction steps or request reproduction steps when none have been provided. Request better reproduction steps or close the issue when unable to reproduce it.
 - For **enhancements**, ask questions to gather all the information necessary to understand the request. Close the issue and ask the reporter to post in the [feature requests forum](https://forum.pkp.sfu.ca/c/questions/5) when more discussion is needed to reach concensus or assess its priority.
 
+Allow two weeks for the person who filed the issue to respond to any requests for reproduction steps or more information. If they don't reply after two weeks, close the issue.
+
 When an issue is confirmed, assign the appropriate labels and projects. Assign a milestone to bugs in the stable version, but not to other issues.
 
 ### Todo
