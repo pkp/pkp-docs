@@ -111,7 +111,7 @@ Une fois que vous l'avez défini comme **Abonnement**, dans l'onglet **Table des
 
 Si vous êtes membre d'un réseau LOCKSS ou CLOCKSS, utilisez cet onglet pour activer votre revue. Le plugiciel PKP PN, qui dépose votre contenu dans le PKP Preservation Network, n'est pas encore disponible pour OJS 3.
 
-Si vous utilisez un autre réseau, l'activer ici rendra votre contenu disponible sur le réseau, mais vous devrez également contacter le réseau pour lui faire connaître votre revue.
+For instructions on enabling the PKP PN, see the [PKP Preservation Network Guide](/pkp-pn/en/).
 
 If you use another network, enabling it here will make your content available to the network, but you will also need to contact the network to make it aware of your journal.
 
