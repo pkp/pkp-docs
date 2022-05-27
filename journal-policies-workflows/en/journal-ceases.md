@@ -59,7 +59,7 @@ If you plan to cease publication permanently, you may want to archive the journa
 
 ### Archiving to the PKP Preservation Network
 
-In the event that you are retiring your journal, you can register with [PKP’s Preservation Network](https://pkp.sfu.ca/pkp-lockss/) (PKP PN). On retirement, your published scholarly content would still be available to the wider public via the Preservation Network, and PKP would ensure that it is preserved in perpetuity. This service *does not* provide an archive for your review or editorial history; you would not be able to recreate your journal immediately from this archive in the event that the journal becomes active again. You can learn more about the PKP PN in [Getting Found, Staying Found](/getting-found-staying-found/en/getting-found-staying-found#public-knowledge-project-preservation-network-pkp-pn).
+In the event that you are retiring your journal, you can register with [PKP’s Preservation Network](/pkp-pn/en/) (PKP PN). On retirement, your published scholarly content would still be available to the wider public via the Preservation Network, and PKP would ensure that it is preserved in perpetuity. This service *does not* provide an archive for your review or editorial history; you would not be able to recreate your journal immediately from this archive in the event that the journal becomes active again. You can learn more about the PKP PN in the [PKP Preservation Network Guide](/pkp-pn/en/).
 
 ### Archiving in the Wayback Machine from Internet Archive
   
