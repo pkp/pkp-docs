@@ -96,7 +96,7 @@ For journal editors, digital preservation can be difficult to navigate. A few fa
 
 If your journal is associated with an institution, library, or publisher, your journal may already be eligible via an institutional partnership. And if your journal is disseminated through a service such as Scholars Portal or Érudit, your journal may already be preserved through one of them. 
 
-If your journal is using OJS, you should consider enabling the PKP Preservation Network (PKP PN) plugin. This will fulfill the archiving component from DOAJ once the Keeper's Registry (explained below) shows that archiving in the PKP PN is active and ongoing. 
+If your journal is using OJS, you should consider [enabling the PKP Preservation Network (PKP PN) plugin](/pkp-pn/en/#installation--configuration). This will fulfill the archiving component from DOAJ once the Keeper's Registry (explained below) shows that archiving in the PKP PN is active and ongoing. 
 
 National regulation may require you to deposit published content into a central library. If you’re publishing in the UK, for example, you need to ensure a copy of your publication is sent to the British Library and other legal deposit libraries. An arrangement between the British Library and [Portico](https://www.portico.org/our-work/services/) may help . 
 
@@ -112,7 +112,7 @@ The PKP PN deposits content using the LOCKSS Program, which offers decentralized
 
 The PKP PN functions as a “dark” archive, meaning that end-users will not have access to the preserved content until after a “trigger event”, such as cessation of publication. After a trigger event, PKP staff will import the preserved content into one or more OJS instances hosted by PKP member institutions. Once loaded into these host OJS instances, the content will be publicly accessible.
 
-Using the PKP PN only requires installing the PKP PN plugin in your OJS journal and agreeing to the terms of service. For information about the PKP PN, visit the [PKP Preservation Network Documentation](https://docs.pkp.sfu.ca/pkp-pn/).
+Using the PKP PN only requires installing the PKP PN plugin in your OJS journal and agreeing to the terms of service. For information about the PKP PN, visit the [PKP Preservation Network Documentation](/pkp-pn/en/).
 
 #### CLOCKSS 
 
