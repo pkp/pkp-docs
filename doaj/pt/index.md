@@ -265,7 +265,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 * Arquivos online institucionais e dos próprios editores não são válidos.
 * Se você é membro do LOCKSS ou CLOCKSS, habilite-o aqui em Configurações> Site> Arquivamento. See [Learning OJS: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving).
-* The PKP PN is available as part of OJS. Para maiores informações, consulte o [manual Crossref OJS](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
+* The PKP PN is available as part of OJS. Please read the [PKP Preservation Network Guide](/pkp-pn/en/) for more information.
 * If any service(s) are selected, you will be prompted to enter the URL with information on your preservation policy. Se o seu conteúdo estiver sendo arquivado em uma rede LOCKSS, isto não será exibido automaticamente em seu site OJS. Você pode adicionar sua política de arquivamento à página Sobre ou a outra página e criar um link para ela aqui.
 
 #### Repository policy
