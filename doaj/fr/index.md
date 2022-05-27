@@ -265,7 +265,7 @@ DOAJ recommends adoption of the following best practices, but these are not requ
 
 * Institutional archives and publishers' own online archives are not valid.
 * If you are a member of LOCKSS or CLOCKSS, enable this here in Settings > Website > Archiving. See [Learning OJS: Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#archiving).
-* The PKP PN is available as part of OJS. Please read the [PKP Preservation Network Guide](https://docs.pkp.sfu.ca/pkp-pn/) for more information.
+* The PKP PN is available as part of OJS. Please read the [PKP Preservation Network Guide](/pkp-pn/en/) for more information.
 * If any service(s) are selected, you will be prompted to enter the URL with information on your preservation policy. If you are archiving your content in a LOCKSS network, this will not automatically be displayed on your OJS site. You can add your archiving policy to the About page or another page and link to it here.
 
 #### Repository policy
