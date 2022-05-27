@@ -134,9 +134,9 @@ This PKP School video explains how to enable archiving in OJS. To watch other vi
 
 {% include video.html id="ohHaj-MSLNA" provider="youtube" title="Video of how to enable archiving in OJS"%}
 
-Si vous êtes membre d'un réseau LOCKSS ou CLOCKSS, utilisez cet onglet pour activer votre revue. Le plugiciel PKP PN, qui dépose votre contenu dans le PKP Preservation Network, n'est pas encore disponible pour OJS 3.
+Si vous êtes membre d'un réseau LOCKSS ou CLOCKSS, utilisez cet onglet pour activer votre revue. The PKP PN Plugin, which deposits your content in the PKP Preservation Network (PN), is available for OJS 3.1.2 or newer.
 
-Si vous utilisez un autre réseau, l'activer ici rendra votre contenu disponible sur le réseau, mais vous devrez également contacter le réseau pour lui faire connaître votre revue.
+For instructions on enabling the PKP PN, see the [PKP Preservation Network Guide](/pkp-pn/en/).
 
 If you use another network, enabling it here will make your content available to the network, but you will also need to contact the network to make it aware of your journal.
 
