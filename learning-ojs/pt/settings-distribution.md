@@ -135,9 +135,9 @@ Este vídeo da PKP School explica como habilitar o arquivamento no OJS. Para ass
 
 ({% include video.html id="ohHaj-MSLNA" provider="youtube" title="Vídeo sobre como abilitar o arquivamentoo em OJS"%}
 
-Se você é um membro de uma rede LOCKSS ou CLOCKSS, use esta aba para ativar o seu diário. O plugin PKP PN, que deposita seu conteúdo na Rede de Preservação PKP (PN), está disponível para a versão OJS 3.1.2 ou mais recente.
+Se você é um membro de uma rede LOCKSS ou CLOCKSS, use esta aba para ativar o seu diário. The PKP PN Plugin, which deposits your content in the PKP Preservation Network (PN), is available for OJS 3.1.2 or newer.
 
-Para obter instruções sobre como ativar o PKP PN, consulte o [Guia da Rede de Preservação PKP](https://docs.pkp.sfu.ca/pkp-pn/).
+For instructions on enabling the PKP PN, see the [PKP Preservation Network Guide](/pkp-pn/en/).
 
 Se você usar outra rede, ao habilitá-lo, tornará o seu conteúdo disponível para a rede, mas também precisará entrar em contato com a rede para informá-la sobre o seu periódico.
 
