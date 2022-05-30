@@ -59,17 +59,6 @@ $templateMgr->addStyleSheet(
 );
 ```
 
-Plugins should respect the `enable_cdn` configuration setting. When this is off, plugins should _not_ load any scripts or styles from a third-party website.
-
-```php
-if (Config::getVar('general', 'enable_cdn')) {
-  $url = 'https://example.com/remote-css.css';
-} else {
-  $url = $request->getBaseUrl() . '/' . $this->getPluginPath() . '/css/local-css.css';
-}
-$templateMgr->addStyleSheet('tutorialExampleStyles', $url);
-```
-
 ---
 
 View more [examples](./examples).
