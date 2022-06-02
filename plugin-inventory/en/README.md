@@ -23,14 +23,6 @@ Another useful tool for checking plugin version compatibility at a glance is the
 
 For external plugins that do not appear in the [live plugin gallery list](https://github.com/pkp/plugin-gallery/blob/main/plugins.xml), consult the plugin developer’s GitHub page to determine compatibility. These plugins will need to be installed manually.
 
-### Find a plugin compatible with your software version
-
-The best way to identify and install a plugin compatible with your version of OJS/OMP/OPS is from within the platform’s Plugin Gallery. The Plugin Gallery will only show plugins compatible with your version and will refresh automatically to reflect the plugins added to the [live plugin gallery list on GitHub](https://github.com/pkp/plugin-gallery/blob/main/plugins.xml).  
-
-Another useful tool for checking plugin version compatibility at a glance is the [PKP Plugin Compatibility utility](https://pkp.github.io/plugin-compatibility/index.html).
-
-For external plugins that do not appear in the [live plugin gallery list](https://github.com/pkp/plugin-gallery/blob/main/plugins.xml), consult the plugin developer’s GitHub page to determine compatibility. These plugins will need to be installed manually.
-
 > **IMPORTANT:**  Installing a plugin that is not compatible with your OJS/OMP/OPS version can seriously impact software functionality. Installing the compatible version from the Plugin Gallery is the best way to prevent technical issues.
 {:.warning}
 
