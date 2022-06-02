@@ -25,7 +25,7 @@ La auditoría incluyó pruebas en las siguientes áreas:
 * Contenido textual
 * Contenido de imagen
 * Contenido audiovisual
-* Color en contenido y design
+* Color en contenido y diseño
 * Visual de páginas y contenido
 * Design de página y contenido
 * Navegación
