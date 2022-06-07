@@ -209,7 +209,7 @@ Extract the release package.
 
 ```bash
 $ mkdir "$OJS_WEB_PATH"
-$ tar -xvz --strip-components=1 "$OJS_VERSION.tar.gz" -C "$OJS_WEB_PATH"
+$ tar --strip-components=1 -xvzf "$OJS_VERSION.tar.gz" -C "$OJS_WEB_PATH"
 ```
 
 Restore the `config.inc.php` file.
