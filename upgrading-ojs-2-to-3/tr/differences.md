@@ -18,7 +18,7 @@ For an overview of features you can look forward to seeing in OJS 3, see our [OJ
 
 ## OJS 3 arayüzü
 
-Dergiden görsel olarak farklı olan ayrı bir editoryal arayüz de dahil olmak üzere okuyucular ve editörler için yeni bir arayüzü vardır. Birden çok rolü olan kullanıcıların, belirli ayarlara veya yönetim özelliklerine erişmek için kullanıcı ana sayfalarından bir rol seçmelerine artık gerek yoktur; mevcut tüm seçenekler yeni kontrol panelinde bulunabilir. Bu aynı zamanda farklı rollerle ilişkili görevler arasında sorunsuz geçiş yapılmasına da olanak tanır. Yeni arayüz aşağıda gösterilmiştir ve [OJS 3'teki Yenilikler](https://docs.pkp.sfu.ca/learning-ojs/en/introduction#whats-new-in-ojs-3) bölümünde açıklanmıştır.
+Dergiden görsel olarak farklı olan ayrı bir editoryal arayüz de dahil olmak üzere okuyucular ve editörler için yeni bir arayüzü vardır. Birden çok rolü olan kullanıcıların, belirli ayarlara veya yönetim özelliklerine erişmek için kullanıcı ana sayfalarından bir rol seçmelerine artık gerek yoktur; mevcut tüm seçenekler yeni kontrol panelinde bulunabilir. Bu aynı zamanda farklı rollerle ilişkili görevler arasında sorunsuz geçiş yapılmasına da olanak tanır. The new interface is illustrated below and explained in [What's New in OJS 3](https://docs.pkp.sfu.ca/learning-ojs/3.2/en/introduction#whats-new-in-ojs-3).
 
 |    ![Dashboard menu in OJS 2.](./assets/ojs-2-settings.png)     | ![Dashboard menu in OJS 3.](./assets/ojs-3-dashboard.png) |
 |:---------------------------------------------------------------:|:---------------------------------------------------------:|
