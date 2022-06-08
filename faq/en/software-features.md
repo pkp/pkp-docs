@@ -23,7 +23,7 @@ Yes. You can find demonstration sites and “test drive” installations of our 
 There are many impressive journals and presses using our software around the world. Here are a few places you can find examples:
 
 * [PKP Community Forum](https://forum.pkp.sfu.ca/): Includes a [Community Showcase](https://forum.pkp.sfu.ca/c/community-showcase/7) category where users can post their sites, plugins, and other achievements. You can also find examples by browsing and searching the entire forum.
-* [PKP Index](https://index.pkp.sfu.ca/): A database of articles, books, and conference proceedings using PKP software.
+* [Directory of Open Access Journals (DOAJ)](https://doaj.org/): An independent index that contains vetted peer-reviewed open access journals. Many journals indexed in DOAJ use OJS.
 * [Library Publishing Directory](https://librarypublishing.org/lp-directory/): This public list of library publishers, published by the Library Publishing Coalition, includes mention of the publishing platforms used by each member.
 * [Twitter](https://twitter.com/pkp): In addition to sharing community news and events on our own page, many people tag and tweet about @pkp and their #OJS #OpenJournalSystems journals.
 
