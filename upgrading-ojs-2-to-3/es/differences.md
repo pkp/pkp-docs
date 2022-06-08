@@ -18,7 +18,7 @@ También hay algunas características de OJS 2 que se han descartado o que aún 
 
 ## Interfaz de OJS 3
 
-Hay una nueva interfaz para lectores/as y editores/as que incluye una interfaz editorial distinta visualmente a la de la revista. Los usuarios/as con múltiples roles ya no están obligados a seleccionar un rol desde el área personal de su página de inicio para acceder a ciertas configuraciones o funciones administrativas. Todas las opciones disponibles se pueden localizar en el nuevo panel de instrumentos. Esto también permite un cambio continuo entre tareas asociadas a diferentes roles. La nueva interfaz se muestra a continuación y se explica en [Novedades de OJS 3](https://docs.pkp.sfu.ca/learning-ojs/es/introduction#novedades-en-ojs-31) .
+Hay una nueva interfaz para lectores/as y editores/as que incluye una interfaz editorial distinta visualmente a la de la revista. Los usuarios/as con múltiples roles ya no están obligados a seleccionar un rol desde el área personal de su página de inicio para acceder a ciertas configuraciones o funciones administrativas. Todas las opciones disponibles se pueden localizar en el nuevo panel de instrumentos. Esto también permite un cambio continuo entre tareas asociadas a diferentes roles. The new interface is illustrated below and explained in [What's New in OJS 3](https://docs.pkp.sfu.ca/learning-ojs/3.2/en/introduction#whats-new-in-ojs-3).
 
 |                 ![Menú del panel en OJS 2.](./assets/ojs-2-settings.png)                  |    ![Menú del panel en OJS 3.](./assets/ojs-3-dashboard.png)    |
 |:-----------------------------------------------------------------------------------------:|:---------------------------------------------------------------:|
