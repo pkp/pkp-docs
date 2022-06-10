@@ -1,5 +1,6 @@
 ---
 title: "Plugin Inventory"
+description: "An inventory of OJS, OMP, and OPS plugins, and their functions."
 ---
 
 # Plugin Inventory
