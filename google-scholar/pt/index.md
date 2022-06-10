@@ -173,7 +173,7 @@ Existem diferentes maneiras de corrigir esse problema, dependendo da quantidade 
 
 Do contrário, caso você tenha muitos periódicos em seu site OJS que a alteração em cada periódico tome muito tempo, você pode usar [um comando SQL para ajustar seu banco de dados de periódicos de uma só vez](https://github.com/pkp/ojs/blob/stable-3_1_2/dbscripts/xml/upgrade/3.1.2_update.xml#L41..L42) .
 
-Por fim, você pode atualizar para o OJS versão 3.1.2 e mais recente, nas quais a correção para esse bug foi incorporada. Esta é a solução recomendada tanto pelo PKP quanto pelo Acadêmico Scholar (consulte a seção “Melhores práticas para periódicos OJS”).
+Por fim, você pode atualizar para o OJS versão 3.1.2 e mais recente, nas quais a correção para esse bug foi incorporada. This is the recommended solution by both PKP and Google Scholar (see “Best practices for OJS journals” above).
 
 ### Erros de certificado SSL (Secure Socket Layer)
 
