@@ -100,6 +100,76 @@ Permits the addition of custom headers to the website, including custom JavaScri
 * [Custom header plugin in guide](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#custom-header-plugin)
 * [Custom header plugin in Github](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#custom-header-plugin)
 
+## Custom Locale	
+Allows customization of message keys (field names, labels, links, etc.) in locale files via the GUI. The default locales are replaced but not overwritten and can easily be restored. 
+* [Custom Local plugin in guide](https://docs.pkp.sfu.ca/translating-guide/en/customize-locale	)
+* [Custom Local Plugin in Github](https://github.com/pkp/customLocale/)	
 
+
+## Datacite export for OJS	
+Export or register issue, article, galley and supplementary file metadata in DataCite format.
+* [Datacite export plugin in guide](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export#datacite-exportregistration-plugin)	
+* [Datacite export plugin in Github](https://github.com/pkp/ojs/tree/main/plugins/generic/datacite)	
+
+## Datacite export for OMP		
+Registers DOIS for monographs and chapters for DOI provider Datacite.
+* [Datacite export plugin in Github](https://github.com/withanage/datacite)
+
+## DC Metadata Format			
+Structures metadata in a way that is consistent with the Dublin Core format.
+
+## Default Theme	
+The default theme for OJS and OMP applies a simple, straightwordward design. As of OJS/OMP/OPS 3.3, the Default Theme has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus.
+* [Default theme plugin in guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/theme-default)
+
+## Developed By Block			
+Adds a link to [Open Journal Systems](https://pkp.sfu.ca/ojs/) in the sidebar.
+
+## Disqus
+Integrates with Disqus and allows users to add comments to the abstract pages.
+* [Disquis plugin in guide](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#custom-header-plugin)
+
+## DOAJ Export Plugin		
+Allows journals to manually or automatically deliver articles to the Directory of Open Access Journals (DOAJ) with a DOAJ API Key. Requires a journal to be DOAJ member - see [DOAJ application guide](https://docs.pkp.sfu.ca/doaj/) for application instructions.
+
+* [DOAJ Export Plugin in guide](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export#doaj-export-plugin)
+
+## DOI	
+Enables the assignment of the Digital Object Identifiers to issues, articles and galleys in OJS. Can work in pair with Crossref, Datacite or Medra plugins for automatic content registration.
+* [DOI plugin in guide](https://docs.pkp.sfu.ca/doi-plugin/en/)
+
+## DOI to mEDRA xml export and registration plugin	
+Enables the export of issue, article and galley metadata in ONIX4DOI format and the registration of DOIs with mEDRA.
+* [mEDRA plugin in guide](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export#medra-exportregistration-plugin)	
+* [mEDRA plugin in Github](https://github.com/pkp/medra/)
+
+## DRIVER			
+Extends the OAI-PMH interface according to the DRIVER Guidelines 2.0, helping OJS journals to become DRIVER compliant.
+
+## Dublin Core Indexing Plugin			
+Embeds Dublin Core meta tags in article views for indexing purposes.
+
+## Email Issue Table of Contents			
+Embeds the table of contents within the default notification email sent when publishing an issue.
+* [Email Issues TOC plugin in Gitbub](https://github.com/ulsdevteam/pkp-emailIssueToc)
+
+## EPUB viewer		
+Embeds EPUB files on the article galley view pages using epub.js.
+* [EPUB viewer plugin in Github](https://github.com/EKT/epubJsViewer-ojs)
+
+## Forthcoming articles plugin (unvetted)		
+Allows journals to preview single articles on their website before an entire issue is published.Hides the Forthcoming issue from the regular issue archive and redirect all traffic from the issue table of contents page to the custom Forthcoming listing page.
+* [Forthcoming articles plugin in Github](https://github.com/ajnyga/forthcoming)
+
+## Funding 		
+Adds submission funding data using the Crossref funders registry, considers the data in the Crossref and DataCite XML export and displays them on the submission view page.
+* [Funding plugin in Github](https://github.com/ajnyga/funding/)
+
+## Google Analytics Plugin			
+Integrates OJS with Google Analytics, Google's web site traffic analysis application. Requires that you have already setup a Google Analytics account. See Google Analytics site for more information.
+
+## Google Scholar Indexing Plugin	
+Enables indexing of published content in Google Scholar.
+* [Google Scholar plugin in guide](https://docs.pkp.sfu.ca/google-scholar/en/)
 
 
