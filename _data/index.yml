@@ -35,6 +35,7 @@ apps:
           isDeveloper: true
         - path: designing-your-journal
         - path: gdpr
+        - path: plugin-guides
         - path: translation
         - path: gfsf
   - path: ops3
@@ -48,6 +49,7 @@ apps:
           isDeveloper: true
         - path: designing-your-journal
         - path: gdpr
+        - path: plugin-guides
         - path: translation
         - path: faq
   - path: ojs2
