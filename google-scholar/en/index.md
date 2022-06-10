@@ -172,7 +172,7 @@ There are a few different ways to fix this issue, depending on how many OJS jour
 
 Otherwise, if you have so many journals on your OJS site that making a change for each individual journal will take too much time, you can use [an SQL command to adjust your journals database all at once](https://github.com/pkp/ojs/blob/stable-3_1_2/dbscripts/xml/upgrade/3.1.2_update.xml#L41..L42).
 
-Finally, you can upgrade to OJS version 3.1.2 and newer, where the fix for this bug has been built in. This is the recommended solution by both PKP and Google Scholar (see “Best practices for OJS journals” above.
+Finally, you can upgrade to OJS version 3.1.2 and newer, where the fix for this bug has been built in. This is the recommended solution by both PKP and Google Scholar (see “Best practices for OJS journals” above).
 
 ### Secure Socket Layer (SSL) certificate errors
 
