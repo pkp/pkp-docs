@@ -87,7 +87,7 @@ See also [this forum article](http://forum.pkp.sfu.ca/t/error-message-on-upload-
 
 ## How do I delete an article from OJS?
 
-To delete an article, you need to do the following:
+As of OJS 3.3, articles must first be declined before they can be deleted. Depending on the workflow stage that the submission is in, a Journal Editor or Journal Manager may need to return to an earlier stage (such as Submission) and select "Change decision." Once the submission is declined, follow the steps below to delete the submission.
 
 - Login as the Journal Editor or Journal Manager
 - Find the article record on the submissions page
