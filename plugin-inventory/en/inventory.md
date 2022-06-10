@@ -404,7 +404,7 @@ Displays free altmetrics (an alternative to traditional citation-based metrics) 
 Supports the processing of payments the PayPal service. Payment types include author processing charges (single fee), reader fees (articles and issues), general fees.
 
 * [PayPal plugin guide](/using-paypal-for-ojs-and-ocs/en/)
-* [PayPal plugin guide](/learning-ojs/en/subscriptions#payments")
+* [PayPal instructions in Payments](/learning-ojs/en/subscriptions#payments)
 
 ## PDF.JS PDF Viewer
 
