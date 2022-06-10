@@ -45,6 +45,8 @@ Pour envoyer un email à un utilisateur qui n'est pas lié à une soumission:
 
 ![Email pop-up box for emailing a user](./assets/learning-ojs-3-users-email.png)
 
+##### Bulk Email Notifications by Role
+
 In OJS 3.3 you can email multiple users at the same time using the Notify tab. This feature will need to be enabled for each journal by the journal administrator under Site Settings > Bulk Emails. The site administrator can also disable certain roles in the journal from receiving bulk emails under Hosted Journals > Settings Wizard.
 
 If enabled for the journal by the site administrator, emails can be sent to all users in one or more role, such as all journal managers and / or all section editors, etc. See [Site Administration > Site Settings](./site-administration#site-settings) for instructions on enabling this feature.
