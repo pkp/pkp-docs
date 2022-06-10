@@ -8,6 +8,8 @@ title: FAQ about Installing and Upgrading Open Journal Systems (OJS), Open Monog
 
 PKP offers free technical support on the [PKP Community Forum](https://forum.pkp.sfu.ca/). You may be able to find an answer by searching the questions that have already been posted. If not, create an account (or log in) and post your question. Please include the version of the software you are using and are attempting to upgrade to and detailed information about the errors or issues you are having.
 
+For technical information about upgrading your system, see the [Technical Upgrade guide](/dev/upgrade-guide/).
+
 ## What does this database error mean that I receive after completing installation?
 
 You are probably receiving an error similar to `DB Error: Table 'ojs.journals' doesn't exist`
