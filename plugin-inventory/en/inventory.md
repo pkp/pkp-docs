@@ -15,7 +15,7 @@ Attempts to reduce the dependance of the application on periodic scheduling tool
 
 Provides the addThis social media sharing on the articles abstract/landing page.
 
-* [AddThis Plugin in guide](/learning-ojs/en/settings-website#addthis-plugin)
+* [AddThis plugin guide](/learning-ojs/en/settings-website#addthis-plugin)
 
 ## Allowed Uploads
 
@@ -95,14 +95,14 @@ Applies a starter Bootstrap 3 theme. Knowledge of HTML, CSS and JavaScript will 
 
 Allows visitors to browse published articles by section in a journals sidebar or footer (depending on the theme).
 
-* [Browse By Section plugin in guide](/learning-ojs/en/settings-website#browse-plugin)
+* [Browse By Section plugin guide](/learning-ojs/en/settings-website#browse-plugin)
 * [Browse By Section plugin in GitHub](https://github.com/pkp/browseBySection)	
 
 ## Citation Style Language
 
 Allow readers to get a published article's citation in one of several formats supported by the Citation Style Language.
 
-* [Citation Style Language plugin in guide](/learning-ojs/en/settings-website#citation-style-language-plugin)
+* [Citation Style Language plugin guide](/learning-ojs/en/settings-website#citation-style-language-plugin)
 
 ## Clam Antivirus Plugin for OJS
 
@@ -114,7 +114,7 @@ Scans submission files using Clam Antivirus, blocking files with a known virus s
 
 An official theme for OJS 3 that applies that plays on colour and font contrasts based on literary classicism.
 
-* [Classic Theme plugin in guide](/pkp-theming-guide/en/theme-classic)	
+* [Classic Theme plugin guide](/pkp-theming-guide/en/theme-classic)	
 * [Classic Theme plugin in GitHub](https://github.com/pkp/classic)
 
 ## COinS
@@ -139,21 +139,21 @@ Allows journal and press managers to limit who can upload public files and what 
 
 Permits the addition of custom headers to the website, including custom JavaScript.
 
-* [Custom header plugin in guide](/learning-ojs/en/settings-website#custom-header-plugin)
+* [Custom header plugin guide](/learning-ojs/en/settings-website#custom-header-plugin)
 * [Custom header plugin in GitHub](/learning-ojs/en/settings-website#custom-header-plugin)
 
 ## Custom Locale
 
 Allows customization of message keys (field names, labels, links, etc.) in locale files via the GUI. The default locales are replaced but not overwritten and can easily be restored.
 
-* [Custom Local plugin in guide](/translating-guide/en/customize-locale)
+* [Custom Local plugin guide](/translating-guide/en/customize-locale)
 * [Custom Local Plugin in GitHub](https://github.com/pkp/customLocale/)	
 
 ## Datacite export for OJS
 
 Export or register issue, article, galley and supplementary file metadata in DataCite format.
 
-* [Datacite export plugin in guide](/admin-guide/en/data-import-and-export#datacite-exportregistration-plugin)
+* [Datacite export plugin guide](/admin-guide/en/data-import-and-export#datacite-exportregistration-plugin)
 * [Datacite export plugin in GitHub](https://github.com/pkp/ojs/tree/main/plugins/generic/datacite)	
 
 ## Datacite export for OMP
@@ -170,7 +170,7 @@ Structures metadata in a way that is consistent with the Dublin Core format.
 
 The default theme for OJS and OMP applies a simple, straightforward design. As of OJS/OMP/OPS 3.3, the Default Theme has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus.
 
-* [Default theme plugin in guide](/pkp-theming-guide/en/theme-default)
+* [Default theme plugin guide](/pkp-theming-guide/en/theme-default)
 
 ## Developed By Block
 
@@ -180,25 +180,25 @@ Adds a link to [Open Journal Systems](https://pkp.sfu.ca/ojs/) in the sidebar.
 
 Integrates with Disqus and allows users to add comments to the abstract pages.
 
-* [Disqus plugin in guide](/learning-ojs/en/settings-website#custom-header-plugin)
+* [Disqus plugin guide](/learning-ojs/en/settings-website#custom-header-plugin)
 
 ## DOAJ Export Plugin
 
 Allows journals to manually or automatically deliver articles to the Directory of Open Access Journals (DOAJ) with a DOAJ API Key. Requires a journal to be DOAJ member - see [DOAJ application guide](/doaj/) for application instructions.
 
-* [DOAJ Export Plugin in guide](/admin-guide/en/data-import-and-export#doaj-export-plugin)
+* [DOAJ Export plugin guide](/admin-guide/en/data-import-and-export#doaj-export-plugin)
 
 ## DOI
 
 Enables the assignment of the Digital Object Identifiers to issues, articles and galleys in OJS. Can work in pair with Crossref, Datacite or Medra plugins for automatic content registration.
 
-* [DOI plugin in guide](/doi-plugin/en/)
+* [DOI plugin guide](/doi-plugin/en/)
 
 ## DOI to mEDRA xml export and registration
 
 Enables the export of issue, article and galley metadata in ONIX4DOI format and the registration of DOIs with mEDRA.
 
-* [mEDRA plugin in guide](/admin-guide/en/data-import-and-export#medra-exportregistration-plugin)
+* [mEDRA plugin guide](/admin-guide/en/data-import-and-export#medra-exportregistration-plugin)
 * [mEDRA plugin in GitHub](https://github.com/pkp/medra/)
 
 ## DRIVER
@@ -241,13 +241,13 @@ Integrates OJS with Google Analytics, Google's web site traffic analysis applica
 
 Enables indexing of published content in Google Scholar.
 
-* [Google Scholar plugin in guide](/google-scholar/en/)
+* [Google Scholar plugin guide](/google-scholar/en/)
 
 ## Health Sciences Theme
 
 An official theme for OJS 3 that applies designed to maximize legibility and content clarity, built with a focus on health sciences journals.
 
-* [Health Science Theme plugin in guide](/pkp-theming-guide/en/theme-healthsciences)
+* [Health Science Theme plugin guide](/pkp-theming-guide/en/theme-healthsciences)
 * [Health Science Theme plugin in GitHub](https://github.com/pkp/healthSciences)	
 
 ## Honeypot
@@ -264,14 +264,14 @@ Provides browser-based HTML Viewer for HTML Article Galleys.
 
 Adds Hypothes.is integration to the public article view, permitting annotation and commenting. It currently supports commenting on HTML galleys; see README for instructions on extending the functionality to PDF galleys.
 
-* [Hypothes.is plugin in guide](/learning-ojs/en/settings-website#hypothesis-plugin)
+* [Hypothes.is plugin guide](/learning-ojs/en/settings-website#hypothesis-plugin)
 * [Hypothes.is plugin in GitHub](https://github.com/asmecher/hypothesis)
 
 ## Immersion Theme
 
 An official theme for OJS 3 that emphasizes the reading experience and offers bold design options such as a full-width header image and per-section color choices.
 
-* [Immersion Theme plugin in guide](/pkp-theming-guide/en/theme-immersion)
+* [Immersion Theme plugin guide](/pkp-theming-guide/en/theme-immersion)
 * [Immersion Theme plugin in GitHub](https://github.com/pkp/immersion)
 
 ## Information Block
@@ -294,7 +294,7 @@ Permits OJS to use a basic JATS XML document generated from the OJS metadata and
 
 Provide a tag cloud of article keywords that can be added to a journals sidebar.
 
-* [Keyword plugin in guide](/learning-ojs/en/settings-website#keyword-cloud-plugin)
+* [Keyword plugin guide](/learning-ojs/en/settings-website#keyword-cloud-plugin)
 * [Keyword plugin in GitHub](https://github.com/lepidus/ojs3-keywordcloud-plugin)
 
 ## Language Toggle Block
@@ -321,13 +321,13 @@ Provides a sidebar block with a "Make a Submission" link.
 
 Allows the manager to manually record receipt of a user's payment (outside of this software).
 
-* [Manual Fee Payment plugin in guide](/learning-ojs/en/subscriptions#payments)
+* [Manual Fee Payment plugin guide](/learning-ojs/en/subscriptions#payments)
 
 ## Manuscript (Default child theme)
 
 Applies a clean, simple theme with a boxed layout that mimics a paper document.
 
-* [Manuscript theme plugin in guide](/pkp-theming-guide/en/theme-manuscript)
+* [Manuscript theme plugin guide](/pkp-theming-guide/en/theme-manuscript)
 * [Manuscript theme plugin in GitHub](https://github.com/NateWr/defaultManuscript)
 
 ## MARC Metadata Format
@@ -354,13 +354,13 @@ Permits usage statistics tracking using Matomo (formerly Piwik).
 
 Creates a “most read articles” section in the journal’s sidebar with the 5 most viewed articles (with links) in the last week, along with the number of views per article.
 
-* [Most read plugin in guide](/learning-ojs/en/settings-website#most-read-plugin)
+* [Most read plugin guide](/learning-ojs/en/settings-website#most-read-plugin)
 
 ## Native XML
 
 Allows import and export of articles and issues in OJS's native XML format between the same OJS versions.
 
-* [Native XML plugin in guide](/admin-guide/en/data-import-and-export#native-xml-plugin)
+* [Native XML plugin guide](/admin-guide/en/data-import-and-export#native-xml-plugin)
 
 ## OAI JATS
 
@@ -390,7 +390,7 @@ Enables users to log in to PKP applications using OpenID Connect providers. It c
 
 Allows users to automatically import user profile data from the ORCID profile into OJS with their ORCID ID.
 
-* [ORCID Profile plugin in guide](/orcid/en/)
+* [ORCID Profile plugin guide](/orcid/en/)
 * [ORCID Profile plugin in GitHub](https://github.com/pkp/orcidProfile)
 
 ## Paperbuzz
@@ -403,8 +403,8 @@ Displays free altmetrics (an alternative to traditional citation-based metrics) 
 
 Supports the processing of payments the PayPal service. Payment types include author processing charges (single fee), reader fees (articles and issues), general fees.
 
-* [PayPal plugin in guide](/using-paypal-for-ojs-and-ocs/en/)
-* [PayPal plugin in guide](/learning-ojs/en/subscriptions#payments")
+* [PayPal plugin guide](/using-paypal-for-ojs-and-ocs/en/)
+* [PayPal plugin guide](/learning-ojs/en/subscriptions#payments")
 
 ## PDF.JS PDF Viewer
 
@@ -414,13 +414,13 @@ Provides browser-based viewer for article and issue galleys in PDF.
 
 Generates a CSV spreadsheet containing monthly views for the journal homepage; issue TOCs; article abstract/landing pages; and file downloads. It can provides country information (if configured).
 
-* [Usage Statistics Report plugin in guide](/learning-ojs/en/statistics#usage-statistics-report)
+* [Usage Statistics Report plugin guide](/learning-ojs/en/statistics#usage-statistics-report)
 
 ## PKP|PN
 
 Enables the automatic preservation of published journal content in the [PKP Preservation Network](https://pkp.sfu.ca/pkp-pn/) (PKP|PN). This plugin requires [ZipArchive](https://www.php.net/manual/en/zip.installation.php) support.
 
-* [PKP PN plugin in guide](/pkp-pn/en/)
+* [PKP PN plugin guide](/pkp-pn/en/)
 * [PKP PN plugin in GitHub](https://github.com/pkp/pln)
 
 ## Plugins update notification
@@ -463,7 +463,7 @@ Enables integration with Publons Reviewer Recognition Service. This plugin will 
 
 Export article metadata in PubMed XML format for journals indexed in MEDLINE.
 
-* [PubMed XML Export plugin in guide](/admin-guide/en/data-import-and-export#pubmed-xml-export-plugin)
+* [PubMed XML Export plugin guide](/admin-guide/en/data-import-and-export#pubmed-xml-export-plugin)
 
 ## PURL
 
@@ -475,20 +475,20 @@ Enables the assignation and management of persistent uniform resource locator (P
 
 Permits Journal Managers/Editors to quickly enter submissions through the OJS website, bypassing the editorial workflow.
 
-* [QuickSubmit plugin in guide](/learning-ojs/en/tools#quick-submit-plugin)
+* [QuickSubmit plugin guide](/learning-ojs/en/tools#quick-submit-plugin)
 * [QuickSubmit plugin in GitHub](https://github.com/pkp/quickSubmit)
 
 ## Recommend Articles by Author
 
 Inserts a list of articles by the same author on the article abstract/landing page.
 
-* [Recommended Articles plugin in guide](/learning-ojs/en/settings-website#recommend-articles-by-author-plugin)
+* [Recommended Articles plugin guide](/learning-ojs/en/settings-website#recommend-articles-by-author-plugin)
 
 ## Recommend Similar Articles
 
 Adds a list of similar articles to the bottom of the articles abstract/landing page.
 
-* [Recommended Similar Articles plugin in guide](/learning-ojs/en/settings-website#recommend-similar-articles-plugin) 
+* [Recommended Similar Articles plugin guide](/learning-ojs/en/settings-website#recommend-similar-articles-plugin) 
 
 ## Registration Notification
 
@@ -540,7 +540,7 @@ Adds social media buttons to your web site (to the footer of each page or the si
 
 Adds an ability to use shibboleth single sign-on service to register and authenticate users. You must have set up and configured the local service provider (SP).
 
-* [Shibboleth plugin in guide](/admin-guide/en/single-signon#setting-up-shibboleth)
+* [Shibboleth plugin guide](/admin-guide/en/single-signon#setting-up-shibboleth)
 * [Shibboleth plugin in GitHub](https://github.com/pkp/shibboleth)
 
 ## Sitesearch
@@ -553,7 +553,7 @@ Allows searches done in one journal (within a multi-journal installation) to be 
 
 Provides sidebar subscription information in journals with enabled subscriptions.
 
-* [Subscription Block plugin in guide](/learning-ojs/en/subscriptions#subscription-block)
+* [Subscription Block plugin guide](/learning-ojs/en/subscriptions#subscription-block)
 
 ## Subscription SSO
 
@@ -565,7 +565,7 @@ Permits delegation of OJS subscription checks to a third-party web service.
 
 Generates a CSV spreadsheet containing a list of subscriptions and their information. This report provides subscription status, type, format, dates, and subscriber information.
 
-* [Subscription Report plugin in guide](/learning-ojs/en/statistics#usage-statistics-report)
+* [Subscription Report plugin guide](/learning-ojs/en/statistics#usage-statistics-report)
 
 ## Suggested Reviewers Plugin by Ubiquity Press (unvetted)
 
@@ -625,13 +625,13 @@ Enables the assignment of the Uniform Resource Names to the issues, articles and
 
 Displays the number of article downloads on the article page, in bar or line graph format. Requires Administrator access to be enabled or disabled.
 
-* [Usage Statistics plugin in guide](/learning-ojs/en/settings-website#usage-statistics-plugin)
+* [Usage Statistics plugin guide](/learning-ojs/en/settings-website#usage-statistics-plugin)
 
 ## Users XML
 
 Allows import and export of users and their roles between the same OJS versions.
 
-* [Users XML plugin in guide](/admin-guide/en/data-import-and-export#export-users-to-xml)
+* [Users XML plugin guide](/admin-guide/en/data-import-and-export#export-users-to-xml)
 
 ## View Report
 
