@@ -2,6 +2,8 @@
 
 O documento a seguir descreve um fluxo de trabalho geral para a criação de um ambiente de teste baseado no git, para uma revista que não está atualmente no git. São apresentadas instruções sobre como limitar o acesso acidental, envio de e-mail etc. YMMV. Adapte ao seu próprio ambiente; use por sua conta e risco.
 
+For more information about upgrading your system, see the [Technical Upgrade guide](/dev/upgrade-guide/).
+
 ## Preparando o ambiente Git
 
 O README disponível aqui: [ https://github.com/pkp/ojs ](https://github.com/pkp/ojs) contém instruções sobre como instalar a partir do git. Execute as seguintes instruções:
