@@ -3,6 +3,7 @@
 Una vez que haya revisado las características de OJS 3 y haya decidido que desea continuar con la actualización, deberá realizar una planificación cuidadosa para garantizar un proceso sin problemas, una interrupción mínima en su calendario de publicaciones y un personal editorial feliz. Muchos de los cambios están relacionados con recursos humanos (es decir, formación y diseño visual), pero también técnicos, por lo que una comunicación clara es importante en cada etapa.
 
 Los pasos principales para completar una actualización son los siguientes:
+
 1. Decida si está listo para actualizar a OJS 3 y cuándo lo hará
 2. Decida a qué versión de OJS 3 actualizará
 3. Comunique la actualización a su equipo editorial o a los contactos de la revista
@@ -112,6 +113,10 @@ Con esta lista de nombres de usuario, puede usar la herramienta de fusión de us
 
 ## Realice un "sandbox" o una actualización de prueba
 
+> For more information about the technical steps for upgrading your system, see the [Technical Upgrade guide](/dev/upgrade-guide/). 
+> 
+> {:.notice}
+
 Consulte la sección a continuación en [Actualización de su instancia de OJS - Paso  1 - Realizar una actualización Sandbox](./upgrading-ojs#step-1-perform-a-sandbox-upgrade)
 
 ## Evalúe, pruebe y solucione problemas de su sitio "sandbox" OJS 3
@@ -135,6 +140,7 @@ A pesar de que ha estado en comunicación con los distintos miembros del equipo 
 ## Programe la actualización de producción
 
 Una vez que esté listo para continuar con la actualización, comunique al equipo(s) de la revista:
+
 * La(s) fecha(s) de actualización
 * El tiempo de inactividad durante el cual el sitio web de la revista no estará disponible
 * La congelación del contenido si pone en pausa la creación/modificación de nuevo contenido antes de la actualización
