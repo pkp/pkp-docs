@@ -2,6 +2,8 @@
 
 The following document describes a general workflow for creating a git-based sandbox of a production journal that is not currently on git. It provides instructions on how to limit accidental access, outgoing email, etc. YMMV. Adapt for your own environment; use at your own risk.
 
+For more information about upgrading your system, see the [Technical Upgrade guide](/dev/upgrade-guide/).
+
 ## Prepare the Git environment
 
 The README here: [https://github.com/pkp/ojs](https://github.com/pkp/ojs) has instructions on installing from git. What we do is as follows:
