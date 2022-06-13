@@ -4,7 +4,7 @@ title: Copyright and licensing - Journal Policies and Workflows
 
 # Copyright and licensing
 
-The [Getting Found, Staying Found, Increasing Impact](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-increasing-impact#copyright-and-licensing) guide contains a comprehensive introduction into copyright for publishing. The below chapter is adapted from the [University of Toronto Libraries’ Journal Production Services Publishing Guide](https://jps.library.utoronto.ca/index.php/pubguide/copyright). It should help editors decide on the copyright/licensing policy to adapt for the journal and guide them where to enter appropriate information in OJS.
+The [Getting Found, Staying Found, Increasing Impact](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-increasing-impact#copyright-and-licensing) guide contains a comprehensive introduction into copyright for publishing. The below chapter is adapted from the [University of Toronto Libraries’ Journal Production Services Publishing Guide](https://jps.library.utoronto.ca/index.php/pubguide). It should help editors decide on the copyright/licensing policy to adapt for the journal and guide them where to enter appropriate information in OJS.
 
 There are two primary copyright holding models journals should consider:
 
