@@ -2,92 +2,92 @@
 title: Release a Plugin - Plugin Guide for OJS and OMP
 ---
 
-# Release a Plugin
+# Lançar um plugin
 
-Plugins that you write can be made available through the Plugin Gallery in the application. We encourage our community to release their plugins under a GPL-compatible license so that they can be used for everyone's benefit.
+Os plug-ins que você escreve podem ser disponibilizados por meio da Galeria de plugins na aplicação. Incentivamos nossa comunidade a lançar seus plugins sob uma licença compatível com GPL para que possam ser usados em benefício de todos.
 
-By releasing a plugin, you will get community support to identify bugs and translate the plugin. In some cases you may receive code contributions.
+Ao lançar um plugin, você terá suporte da comunidade para identificar bugs e traduzir o plugin. Em alguns casos, você pode receber contribuições de código.
 
-Plugin releases are one way that the Public Knowledge Project recognizes the contributions of community partners. We are more likely to take the time to assist you in maintaining your plugins if they are used widely in our community.
+Os lançamentos de plugins são uma forma da Public Knowledge Project reconhecer as contribuições dos parceiros da comunidade. É mais provável que reservemos um tempo para ajudá-lo a manter seus plugins se eles forem amplamente usados em nossa comunidade.
 
-## Make Your Plugin Public
+## Torne seu Plugin Público
 
-Each release of your plugin must be made available for download publicly. We prefer that your code is available from a public code repository, such as [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/).
+Cada versão do seu plugin deve ser disponibilizada para download publicamente. Preferimos que seu código esteja disponível em um repositório de código público, como [GitHub](https://github.com/) ou [GitLab](https://about.gitlab.com /).
 
-The plugin must be made available under a GPL-compatible license so that our community can retain ownership over their publishing software. This licensing must be explicit in the code, usually by including a `LICENSE` file in the root directory of the plugin.
+O plugin deve ser disponibilizado sob uma licença compatível com GPL para que nossa comunidade possa manter a propriedade de seu software de publicação. Este licenciamento deve ser explícito no código, geralmente incluindo um arquivo `LICENSE` no diretório raiz do plugin.
 
-See an [example](https://github.com/pkp/pluginTemplate/blob/main/LICENSE) of a license file.
+Veja um [exemplo](https://github.com/pkp/pluginTemplate/blob/main/LICENSE) de um arquivo de licença.
 
-## Write Tests for Your plugin
+## Escreva testes para seu plugin
 
-Plugins can take advantage of the [testing tools](/dev/testing/en) to run their plugin against different PHP versions and databases. Plugins with tests are more likely to be accepted in the plugin gallery and make it easier for you to test compatibility with each new release of OJS or OMP.
+Os plugins podem aproveitar as [ferramentas de teste](/dev/testing/en) para executar seu plugin em diferentes versões e bancos de dados do PHP. Plugins com testes têm maior probabilidade de serem aceitos na galeria de plugins e facilitam o teste de compatibilidade com cada nova versão do OJS ou OMP.
 
-Learn how to [write tests for your plugin](/dev/testing/en/plugins-themes).
+Saiba como [escrever testes para seu plug-in](/dev/testing/en/plugins-themes).
 
-## Build and Package Your Plugin
+## Construa e empacote seu plugin
 
-Your release package should be a `.tar.gz` file that contains a single directory with all of the files necessary to run the plugin. The directory name should match the `product` name in the release XML.
+Seu pacote de lançamento deve ser um arquivo `.tar.gz` que contém um único diretório com todos os arquivos necessários para executar o plugin. O nome do diretório deve corresponder ao nome do `product` no XML da versão.
 
-We provide a [CLI tool](https://github.com/pkp/pkp-plugin-cli/) that can help you build and package your plugin. Install it with the following command.
+Fornecemos uma [Ferramenta CLI](https://github.com/pkp/pkp-plugin-cli/) que pode ajudá-lo a criar e empacotar seu plug-in. Instale-o com o seguinte comando.
 
 ```
 npm install -g pkp-plugin-cli
 ```
 
-Use the following to build a release package and upload it as a release to your repository on GitHub.
+Use o seguinte comando para criar um pacote de lançamento e carregá-lo como um lançamento em seu repositório no GitHub.
 
 ```
 pkp-plugin release
 ```
 
-> Any non-essential files provided by your dependency manager (eg - composer, npm) should not be included with the package. These often include demos and examples that can be security risks when uploaded to the plugins directory. 
+> Quaisquer arquivos não essenciais fornecidos pelo seu gerenciador de dependências (por exemplo - composer, npm) não devem ser incluídos no pacote. Isso geralmente inclui demos e exemplos que podem ser riscos de segurança quando carregados no diretório de plugins. 
 > 
 > {:.warning}
 
-## Get the Plugin into the Plugin Gallery
+## Obtenha o Plugin na Galeria de Plugins
 
-When you have prepared your release package and made it publicly available, open a pull request on our [plugin gallery repository](https://github.com/pkp/plugin-gallery/) that adds your plugin to the XML file.
+Quando você preparar seu pacote de lançamento e disponibilizá-lo publicamente, abra um pull request em nosso [repositório da galeria de plugins](https://github.com/pkp/plugin-gallery/) que adiciona seu plugin ao arquivo XML.
 
-Your plugin's XML must provide a title, description, contact details, and information on each release package.
+O XML do seu plugin deve fornecer um título, descrição, detalhes de contato e informações sobre cada pacote de lançamento.
 
 ```xml
-<!-- The product should match the directory name of the plugin. -->
+<!-- O produto deve corresponder ao nome do diretório do plug-in. -->
 <plugin category="generic" product="tutorialExample">
   <name locale="en_US">Tutorial Example</name>
   <homepage>https://github.com/pkp/tutorialExample</homepage>
 
-  <!-- Summarize what the plugin does in a short sentence. -->
-  <summary locale="en_US">This plugin is an example created for a tutorial on how to create a plugin.</summary>
+  <!-- Resuma o que o plugin faz em uma frase curta. -->
+  <summary locale="pt_BR">Este plugin é um exemplo criado para um tutorial de como criar um plugin.</resumo>
 
-  <!-- Describe what the plugin does and how someone can expect to use it when they install it. -->
-  <description locale="en_US"><![CDATA[<p>This plugin is an example created for a tutorial on how to create a plugin. It is intended for learning purposes and should not be used on a live journal website.</p><p>You can learn more about how to create a plugin at the <a href="https://docs.pkp.sfu.ca/dev/plugin-guide/en">plugin guide</a>.</p>]]></description>
+  <!-- Descreva que o plugin faz e como alguém pode esperar usá-lo ao instalá-lo. -->
+  <description locale="pt_BR"><![CDATA[<p>Este plugin é um exemplo criado para um tutorial de como criar um plugin. Destina-se a fins de aprendizado e não deve ser usado em um site de revista em produção.</p><p>Você pode aprender mais sobre como criar um plug-in no <a href="https://docs.pkp.sfu.ca/dev/plugin-guide/en">guia de plug-in</a>.</ p>]]></descrição>
 
-  <!-- Identify the person and institution maintaining the plugin. -->
+   <!-- Identifique a pessoa e instituição que mantém o plugin. -->
   <maintainer>
     <name>Alec Smecher</name>
     <institution>Public Knowledge Project</institution>
     <email>pkp.contact@gmail.com</email>
   </maintainer>
 
-  <!-- For each release version, link to the release package
-    and the md5sum of the release package. The version must
-    always consist of four numbers separated by a ".". -->
+  <!-- Para cada versão de lançamento, link para o pacote de lançamento
+     e o md5sum do pacote de lançamento. A versão deve
+     sempre consistem em quatro números separados por um ".". -->
   <release date="2019-05-18" version="1.1.0.0" md5="aebc731dedcc959db042f969a54fdc3a">
     <package>https://github.com/pkp/tutorialExample/releases/download/1.1.0.0/tutorialexample-1.1.0.0.tar.gz</package>
 
-    <!-- Identify which versions of OJS or OMP are supported by this release -->
+    <!-- Identificar quais versões do OJS ou OMP são suportadas por esta versão-->
     <compatibility application="ojs2">
         <version>3.1.2.0</version>
     </compatibility>
 
-    <!-- PKP will assign the certification type -->
+    <!-- PKP atribuirá o tipo de certificação -->
     <certification type="official"/>
 
-    <!-- Describe what changes can be expected in this release -->
-    <description>Update to be compatible with OJS 3.1.2.</description>
+    <!-- Descreva quais mudanças podem ser esperadas nesta versão -->
+    <description>Atualização para ser compatível com OJS 3.1.2.</description>
   </release>
 
-  <!-- Each plugin can have more than one release. -->
+  <!-- Cada plugin pode ter mais de uma versão. -->
   <release date="2019-03-07" version="1.0.0.0" md5="13bc221dedcc959db042f969a543eab0">
     <package>https://github.com/pkp/tutorialExample/releases/download/1.0.0.0/tutorialexample-1.0.0.0.tar.gz</package>
     <compatibility application="ojs2">
