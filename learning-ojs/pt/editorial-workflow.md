@@ -433,7 +433,7 @@ Os autores também podem incluir seu nome no artigo, notas de rodapé e referên
 7. Clique em *Fechar*
 8. Salve o documento
 
-#### Microsoft Word for MacOS
+#### Microsoft Word para MacOS
 
 1. Vá a *Ferramentas*
 2. Clique em *Proteger Documento*
@@ -506,7 +506,7 @@ Use o botão **Adicionar mensagem** para responder, seja solicitando uma revisã
 
 **Rejeitar submissão** : quer dizer que a submissão não foi aprovada na avaliação por pares e não é adequada a análise posterior. A apresentação seria então transferida para os Arquivos. Apenas as submissões recusadas ​​nos Arquivos podem ser excluídas. No OJS 3.3, agora existe a opção de reverter uma decisão de Rejeitar Submissão na fase de Submissão e Avaliação. Isso pode ser feito clicando em **Alterar decisão** e, em seguida, em **Reverter recusa**. Depois que uma decisão declinada for revertida, a submissão é restaurada ao estágio prévio e a rodada de revisão torna-se ativa.
 
-### Request Revisions
+### Solicitar Revisões
 
 Nesta demonstração, solicitaremos que o autor faça algumas revisões menores antes da aceitação.
 
