@@ -2,11 +2,13 @@
 generateHeadingToc: true
 ---
 
-# Importing and Exporting Data
+# Importing and Exporting Data in OJS 2
+
+This guide is for OJS 2, which is an older version of OJS. For information about importing and exporting data in OJS 3, see the [Import/Export section of Learning OJS](/learning-ojs/en/tools#importexport) or the [Data Import and Export chapter of the Administrator's Guide](/admin-guide/en/data-import-and-export).
 
 ## Introduction
 
-Open Journal Systems offers a variety of tools and Import/Export plugins which allow the Journal Manager to inject data into and extract data from OJS. More information can be found for each plugin's documentation within OJS' plugin directory (`plugins/`).
+Open Journal Systems 2 offers a variety of tools and Import/Export plugins which allow the Journal Manager to inject data into and extract data from OJS. More information can be found for each plugin's documentation within OJS' plugin directory (`plugins/`).
 
 Import/export functionality is also available as a command-line tool; see `tools/importExport.php` and the command line section for more information.
 
@@ -27,7 +29,7 @@ To use this plugin, you will need:
 -   a set of ready-to-publish files (e.g., PDFs)
 -   all of the metadata for the files (e.g., author names, titles, abstracts, etc.)
 
-First, log in as an Editor and [create the issues](http://docs.pkp.sfu.ca/ojs3/en/future_issues.html) (or issue) that will contain the new files.
+First, log in as an Editor and [create the issues](/learning-ojs-2/en/issues) (or issue) that will contain the new files.
 
 Next, log in as a Journal Manager and go to the Management Pages, choose Import/Export Data, and then choose Quick Submit plugin.
 
@@ -81,13 +83,13 @@ There are a handful of things you should be mindful of when importing data.
 
 -   Be sure to define the document type appropriately using `<!DOCTYPE ...>`
 -   Your XML file should UTF8-encoded.
--   Your XML file must validate. Most \*nix systems have access to the [xmllint](http://xmlsoft.org/xmllint.html) program for validation; there are also a number online XML validators, such as [Validome](http://www.validome.org/xml/); and many XML editing tools such as [Liquid XML Editor](http://www.liquid-technologies.com/xml-editor.aspx/), [Oxygen XML](http://www.oxygenxml.com/) and [XMLspy](http://www.altova.com/) can also validate XML files.
+-   Your XML file must validate. Most \*nix systems have access to the [xmllint](https://gnome.pages.gitlab.gnome.org/libxml2/xmllint.html) program for validation; there are also a number online XML validators, such as [Validome](https://www.validome.org/xml-rpc-validator/); and many XML editing tools such as [Liquid XML Editor](https://www.liquid-technologies.com/xml-editor), [Oxygen XML](https://www.oxygenxml.com/) and [XMLspy](https://www.altova.com/) can also validate XML files.
 -   Dates should be specified as YYYY-MM-DD.
 -   To import a file, you can use `<embed>` to place a file directly within your XML document, or use `<href>` to link to one.
 
 If you use the `<embed>` tag you will have to base64-encode your files. Using `<embed>` with a base64-encoded file would look something like this:
 
-```
+```xml
 <galley>
     <label>`PDF`</label>
         <file>
@@ -99,7 +101,7 @@ If you use the `<embed>` tag you will have to base64-encode your files. Using `<
 
 You can link to full URLs as well as local files using `<href>`. A full URL link would look like the following:
 
-```
+```xml
 <galley>
     <label>`PDF`</label>
         <file>
@@ -108,9 +110,9 @@ You can link to full URLs as well as local files using `<href>`. A full URL link
 </galley>
 ```
 
-You can use local linking if your galleys are already stored on the destination machine, but in this case you need to launch the import from the command line<!-- (#Using_the_Plugins_from_the_Command_Line "wikilink")-->. Importing a local file would look like the following:
+You can use local linking if your galleys are already stored on the destination machine, but in this case you need to launch the import from the command line. Importing a local file would look like the following:
 
-```
+```xml
 <galley>
     <label>`PDF`</label>
         <file>
@@ -123,7 +125,7 @@ You can use local linking if your galleys are already stored on the destination 
 -   Some elements can support embedded HTML tags, such as the  abstract element. If you do embed HTML within your document, remember to wrap the HTML within `<![CDATA[]]>` tags.
 -   To add empty data to required fields, you can add anything, for example a single space, so that the field is not null. See the following example, where Jane Doe does not have an email address:
 
-```
+```xml
 <author primary_contact="true">
     <firstname>`Jane`</firstname>
     <lastname>`Doe`</lastname>
@@ -134,7 +136,7 @@ You can use local linking if your galleys are already stored on the destination 
 
 -   To add more than one term per indexing type, include all terms in the same entry, separated by semi-colons:
 
-```
+```xml
 <indexing>
     <subject locale="en_US">`Term 1; Term 2; Term 3`</subject>
 </indexing>
@@ -142,7 +144,7 @@ You can use local linking if your galleys are already stored on the destination 
 
 - If your journal supports more than one locale, you can include translated terms in a separate entry:
 
-```
+```xml
 <indexing>
     <subject locale="en_US">`Term 1; Term 2; Term 3`</subject>
     <subject locale="fr_CA">`Translated Term 1; Translated Term 2; Translated Term 3`</subject>
@@ -208,31 +210,31 @@ Please note that passwords will be encrypted using MD5 or SHA-1 encryption, depe
 
 ## Crossref XML Export Plugin
 
-Please see the [PKP Crossref Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/).
+Please see the [PKP Crossref Manual](/crossref-ojs-manual/crossref-v1-deposit/en/).
 
 ## Erudit Article Export Plugin
 
-The Erudit Article Export Plugin implements single-article export for full-text indexing using Erudit's XML DTD. See http://www.erudit.org for more information.
+The Erudit Article Export Plugin implements single-article export for full-text indexing using Erudit's XML DTD. See [https://www.erudit.org](https://www.erudit.org/en/) for more information.
 
 ### Exporting Erudit Information From the Web
 
 The Erudit XML Plugin can be used from the web, from the Journal Manager's User Home:
 
 -   Login as the Journal Manager and from your User Home choose Import/Export Data.
--   Then, choose the <em>Erudit Article XML Export Plugin</em> link.
+-   Then, choose the _Erudit Article XML Export Plugin_ link.
 -   You will then be presented with a list of published articles, and links to the XML export for each individual article galley. It is not currently possible to export whole articles or issues.
 
 ## PubMed XML Export Plugin
 
-The PubMed XML Export Plugin provides an import/export plugin to generate bibliographic information for articles in PubMed standard publisher data format XML for indexing in NLM PubMed/MEDLINE. Details on the XML format and data requirements is available at: http://www.ncbi.nlm.nih.gov/entrez/query/static/spec.html. More information on this plugin can be found in `plugins/importexport/pubmed`.
+The PubMed XML Export Plugin provides an import/export plugin to generate bibliographic information for articles in PubMed standard publisher data format XML for indexing in NLM PubMed/MEDLINE. Details on the XML format and data requirements is available at: [https://www.ncbi.nlm.nih.gov/books/NBK3828/](https://www.ncbi.nlm.nih.gov/books/NBK3828/). More information on this plugin can be found in `plugins/importexport/pubmed`.
 
 ### Exporting Pubmed Information From the Web
 
 The Pubmed XML Plugin can be used from the web, from the Journal Manager's User Home:
 
--   Login as the Journal Manager and from your User Home choose <em>Import/Export Data</em>.
--   Then, choose the <em>Pubmed XML Export Plugin</em> link.
--   You will be provided with the options to <em>Export Issues</em> or <em>Export Articles</em>. Depending on what you choose, you will be able to export either single or multiple articles, or single or multiple issues at a time. These will be exported in XML format.
+-   Login as the Journal Manager and from your User Home choose _Import/Export Data_.
+-   Then, choose the _Pubmed XML Export Plugin_ link.
+-   You will be provided with the options to _Export Issues_ or _Export Articles_. Depending on what you choose, you will be able to export either single or multiple articles, or single or multiple issues at a time. These will be exported in XML format.
 
 ## Using the Plugins from the Command Line
 
