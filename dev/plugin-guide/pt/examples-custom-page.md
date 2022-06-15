@@ -6,13 +6,13 @@ title: Example - Add Custom Page - Plugin Guide for OJS and OMP
 
 Você pode querer que seu plugin adicione uma nova página à aplicação. Pode ser uma página de configurações separada ou um painel editorial no back-end ou uma nova página pública no site voltado para o leitor.
 
-A generic plugin can do this by hooking into the request lifecycle and loading its own [PageHandler](/dev/documentation/en/architecture-handlers).
+Um plugin genérico pode fazer isso conectando-se ao ciclo de vida da solicitação e carregando seu próprio [PageHandler](/dev/documentation/en/architecture-handlers).
 
-> You should understand the [Request Lifecycle](/dev/documentation/en/architecture-request) and be familiar with the application [architecture](/dev/documentation/en/architecture), especially [Handlers](/dev/documentation/en/architecture-handlers), before proceeding. 
+> Você deve entender o [Ciclo de vida da solicitação](/dev/documentation/en/architecture-request) e estar familiarizado com a [arquitetura](/dev/documentation/en/architecture), especialmente [Manipuladores](/dev/documentation/en/architecture-handlers), antes de prosseguir. 
 > 
 > {:.notice}
 
-The example below shows a request to a custom page.
+O exemplo abaixo mostra uma solicitação para uma página personalizada.
 
 ```
 http://example.org/publicknowledge/tutorialexample
@@ -50,12 +50,12 @@ class TutorialExamplePluginHandler extends Handler {
 }
 ```
 
-The `TutorialExamplePluginHandler` can have more than one op and supports all the capacities of a regular `PageHandler`.
+O `TutorialExamplePluginHandler` pode ter mais de um op e suporta todas as capacidades de um `PageHandler` normal.
 
-> Read about the [authorization framework](/dev/documentation/en/architecture-authorization) to keep your private pages secure. 
+> Leia sobre a [estrutura de autorização](/dev/documentation/en/architecture-authorization) para manter suas páginas privadas seguras. 
 > 
 > {:.warning}
 
 ---
 
-View more [examples](./examples).
+Veja mais [exemplos](./examples).
