@@ -266,9 +266,9 @@ Existem outras categorias de plugins disponíveis que não são usadas com frequ
 - Os plugins de `Gateway` permitem que você adicione uma nova URL e responda às solicitações para essa URL.
 - Os plugins de `metadados` implementam uma descrição de um formato de metadados.
 - Os plugins de `Formatos de Metadados OAI` adicionam um formato de metadados ao endpoint OAI do aplicativo.
-- `paymethod` plugins allow you to implement your own payment handling when using subscription and article fees.
-- `pubIds` plugins allow you to add support for publication identifiers like DOIs.
+- Os plugins `Métodos de Pagamento` permitem que você implemente seu próprio tratamento de pagamento ao usar taxas de assinatura e de artigo.
+- Os plugins de`Identificação Pública` permitem adicionar suporte para identificadores de publicação como DOIs.
 
 ---
 
-Learn how to [translate your plugin](./translation) so that it can be used by many journals.
+Aprenda como [traduzir seu plugin](./translation) para que ele possa ser usado por muitos periódicos.
