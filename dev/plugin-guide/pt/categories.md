@@ -2,11 +2,11 @@
 title: Plugin Categories - Plugin Guide for OJS and OMP
 ---
 
-# Categorias de plug-ins
+# Categorias de plugins
 
-A categoria de um plugin determina quando ele é carregado e de que forma ele pode modificar a aplicação. For example, a [block](#blocks) plugin can add a block of content to the sidebar in the reader-facing website. But it can't do anything else and won't be loaded on the backend.
+A categoria de um plugin determina quando ele é carregado e de que forma ele pode modificar a aplicação. Por exemplo, um plugin de [Bloco](#blocks) pode adicionar um bloco de conteúdo à barra lateral do site voltado para o leitor. Mas não pode fazer mais nada e não será carregado no back-end.
 
-Each plugin must extend one of the plugin category classes that exist in OJS and OMP. In the [Getting Started](./getting-started) tutorial, the Tutorial Example plugin extended the `GenericPlugin` class.
+Cada plugin deve estender uma das classes de categoria de plugin que existem no OJS e no OMP. No tutorial [Introdução](./getting-started), o plugin de exemplo de tutorial estendeu a classe `GenericPlugin`.
 
 ```php
 import('lib.pkp.classes.plugins.GenericPlugin');
@@ -15,7 +15,7 @@ class TutorialExamplePlugin extends GenericPlugin {
 }
 ```
 
-A block plugin will extend the `BlockPlugin` class.
+Um plugin de bloco estenderá a classe `BlockPlugin`.
 
 ```php
 import('lib.pkp.classes.plugins.BlockPlugin');
@@ -24,7 +24,7 @@ class TutorialBlockPlugin extends BlockPlugin {
 }
 ```
 
-Each plugin category class provides methods that must be implemented. For example, a [report](#reports) plugin extends the `ReportPlugin` class and implements the `ReportPlugin::display()` method to deliver a CSV file with the report contents.
+Cada classe de categoria de plugin fornece métodos que devem ser implementados. Por exemplo, um plugin [report](#reports) estende a classe `ReportPlugin` e implementa o método `ReportPlugin::display()` para fornecer um Arquivo CSV com o conteúdo do relatório.
 
 ```php
 import('lib.pkp.classes.plugins.ReportPlugin');
@@ -33,17 +33,17 @@ class ReviewReportPlugin extends ReportPlugin {
     header('content-type: text/comma-separated-values');
         header('content-disposition: attachment; filename=reviews.csv');
     $fp = fopen('php://output', 'wt');
-        fputcsv($fp, [/* the review details in the report */]);
+        fputcsv($fp, [/* os detalhes da revisão no relatório */]);
         fclose($fp);
   }
 }
 ```
 
-Learn about each category below.
+Conheça cada categoria abaixo.
 
-## Blocks
+## Blocos
 
-Block plugins provide content that can be displayed in the sidebar on any page. They require a template file.
+Os plugins de bloco fornecem conteúdo que pode ser exibido na barra lateral de qualquer página. Eles exigem um arquivo de modelo.
 
 ```
 ojs
@@ -61,21 +61,21 @@ ojs
 │     └── version.xml
 ```
 
-The template file should include all of the HTML for your block.
+O arquivo de modelo deve incluir todo o HTML do seu bloco.
 
 ```html
 <div class="pkp_block block_madeBy">
-  Made with ❤ by the Public Knowledge Project
+  Feito com ❤ por Public Knowledge Project
 </div>
 ```
 
-Add a `getContents()` method to pass data to the template.
+Adicione um método `getContents()` para passar dados para o modelo.
 
 ```php
 import('lib.pkp.classes.plugins.BlockPlugin');
 class MadeByPlugin extends BlockPlugin {
   public function getContents($templateMgr, $request = null) {
-    $templateMgr->assign('madeByText', 'Made with ❤ by the Public Knowledge Project');
+    $templateMgr->assign('madeByText', 'Feito com ❤ por Public Knowledge Project');
     return parent::getContents($templateMgr, $request);
   }
 }
@@ -87,26 +87,26 @@ class MadeByPlugin extends BlockPlugin {
 </div>
 ```
 
-Block plugins can use any HTML code. However, if you want your block to blend in with other blocks provided by PKP, use the following markup.
+Plugins de bloco podem usar qualquer código HTML. No entanto, se você quiser que seu bloco se misture com outros blocos fornecidos pelo PKP, use a marcação a seguir.
 
 ```html
 <div class="pkp_block">
-    <span class="title"><!-- Add the title of your block here --></span>
+    <span class="title"><!-- Adicione o título do seu bloco aqui --></span>
     <div class="content">
-    <!-- Add the main content for your block here -->
+    <!-- Adicione o conteúdo principal do seu bloco aqui -->
     </div>
 </div>
 ```
 
-## Import/Export
+## Importação/Exportação
 
-Import/export plugins provide tools for getting data into and out of OJS and OMP. They can be used when you are moving between our application and another platform to migrate users, submissions, back issues and more.
+Os plugins de importação/exportação fornecem ferramentas para obter e retirar dados de OJS e OMP. Eles podem ser usados quando você está movendo entre nossa aplicação e outra plataforma para migrar usuários, submissões, edições passadas e muito mais.
 
-> Download an [example import/export plugin](https://github.com/pkp/exampleImportExport). 
+> Baixe um [exemplo de plugin de importação/exportação](https://github.com/pkp/exampleImportExport). 
 > 
 > {:.notice}
 
-Each import/export plugin can be run on the command line.
+Cada plugin de importação/exportação pode ser executado na linha de comando.
 
 ```
 $ php tools/importExport.php ExampleImportExportPlugin import filename.csv
@@ -145,7 +145,7 @@ class ExampleImportExportPlugin extends ImportExportPlugin {
 }
 ```
 
-Each import/export plugin has its own page under the Tools > Import/Export menu. This can be used to display import and export options and provide a UI for generating exports.
+Cada plugin de importação/exportação tem sua própria página em Ferramentas > Menu Importar/Exportar. Isso pode ser usado para exibir opções de importação e exportação e fornecer uma interface do usuário para gerar exportações.
 
 ```php
 import('lib.pkp.classes.plugins.ImportExportPlugin');
@@ -156,12 +156,12 @@ class ExampleImportExportPlugin extends ImportExportPlugin {
     public function display($args, $request) {
         parent::display($args, $request);
 
-        // Use the path to determine which action
-        // should be taken.
+        // Use o caminho para determinar qual ação
+        // deve ser tomado.
         $path = array_shift($args);
         switch ($path) {
 
-            // Deliver a CSV file for download
+            // Entrega um arquivo CSV para download
             case 'exportAll':
                 header('content-type: text/comma-separated-values');
                 header('content-disposition: attachment; filename=example-' . date('Ymd') . '.csv');
@@ -170,9 +170,9 @@ class ExampleImportExportPlugin extends ImportExportPlugin {
         fclose($fp);
                 break;
 
-      // When no path is requested, display a page with
-      // export options and a form to kick off the
-      // `exportAll` path.
+        // Quando nenhum caminho é solicitado, exibe uma página com
+        // opções de exportação e um formulário para iniciar o
+        // caminho `exportAll`.
             default:
                 $templateMgr = TemplateManager::getManager($request);
                 $templateMgr->display($this->getTemplateResource('export.tpl'));
@@ -181,33 +181,33 @@ class ExampleImportExportPlugin extends ImportExportPlugin {
 }
 ```
 
-Use the `{plugin_url ...}` smarty function in the template to submit a form to one of the import or export paths.
+Use a função do smarty `{plugin_url ...}` no modelo para enviar um formulário para um dos caminhos de importação ou exportação.
 
 ```html
 <form method="POST" action="{plugin_url path="exportAll"}">
-  <button type="submit">Export All</button>
+  <button type="submit">Exportar Tudo</button>
 </form>
 ```
 
-## Reports
+## Relatórios
 
-Report plugins provide one-click access to a CSV file download. The report may include details on article usage statistics, reviewers or anything you want.
+Os plugins de relatório fornecem acesso com um clique para baixar um arquivo CSV. O relatório pode incluir detalhes sobre estatísticas de uso do artigo, avaliadores ou qualquer coisa que você queira.
 
-Report plugins extend the `ReportPlugin` class and implement the `display()` method.
+Os plugins de relatório estendem a classe `ReportPlugin` e implementam o método `display()`.
 
 ```php
 import('lib.pkp.classes.plugins.ReportPlugin');
 class ArticleReportPlugin extends ReportPlugin {
   public function display($args, $request) {
 
-    // Get the first 100 submissions
+   // Obter as primeiras 100 submissões
     $collector = Repo::submission()
       ->getCollector()
       ->filterByContextIds([$context->getId()])
       ->limit(100);
     $submissions = Repo::submission()->getMany($collector);
 
-    // Return a CSV file
+    // Retornar um arquivo CSV
     header('content-type: text/comma-separated-values');
         header('content-disposition: attachment; filename=articles-' . date('Ymd') . '.csv');
         $fp = fopen('php://output', 'wt');
@@ -220,17 +220,17 @@ class ArticleReportPlugin extends ReportPlugin {
 }
 ```
 
-Reports are usually created in CSV format, but your report plugin can return any downloadable file format.
+Os relatórios geralmente são criados no formato CSV, mas seu plug-in de relatório pode retornar qualquer formato de arquivo para download.
 
-## Themes
+## Temas
 
-Themes control the design and layout of a journal or press website. Read the [Theming Guide](/pkp-theming-guide/en) to learn how to build your own themes.
+Os temas controlam o design e o layout de um site de revista ou editora. Leia o [Guia de temas](/pkp-theming-guide/en) para saber como criar seus próprios temas.
 
-## Generic
+## Genéricos
 
-Generic plugins are loaded with every request. They hook into the application early in the [Request Lifecycle](/dev/documentation/en/architecture-request) and can be used to modify almost everything.
+Plugins genéricos são carregados com cada solicitação. Eles se conectam à aplicação no início do [Ciclo de vida da solicitação](/dev/documentation/en/architecture-request) e podem ser usados para modificar quase tudo.
 
-Generic plugins use [Hooks](/dev/documentation/en/utilities-hooks) to intervene in the application. Hooks should be added in a plugin's `register()` method.
+Plugins genéricos usam [Hooks](/dev/documentation/en/utilities-hooks) para intervir na aplicação. Hooks devem ser adicionados no método `register()` de um plugin.
 
 ```php
 import('lib.pkp.classes.plugins.GenericPlugin');
@@ -245,27 +245,27 @@ class ExamplePlugin extends GenericPlugin {
   }
 
   public function doSomething($hookName, $args) {
-        // Do something...
+        // Faça alguma coisa...
 
         return false;
   }
 }
 ```
 
-> Always check if the plugin is enabled before registering a hook. Otherwise, your plugin will run even when it has been disabled. 
+> Sempre verifique se o plugin está habilitado antes de registrar um hook. Caso contrário, seu plugin será executado mesmo quando estiver desabilitado. 
 > 
 > {:.warning}
 
-Generic plugins are very powerful and can use any hook in the application. Look at the [examples](./examples) for ideas and learn about the most [common hooks](/dev/documentation/en/utilities-hooks#common-hooks).
+Plugins genéricos são muito poderosos e podem usar qualquer hook no aplicativo. Consulte os [exemplos](./examples) para obter ideias e saiba mais sobre os [hooks comuns](/dev/documentation/en/utilities-hooks#common-hooks) a>.
 
 ## Outros
 
-There are other plugin categories available that are not often used. The best way to learn about them is to read the source code of one of the existing plugins. These categories include:
+Existem outras categorias de plugins disponíveis que não são usadas com frequência. A melhor maneira de aprender sobre eles é ler o código-fonte de um dos plugins existentes. Essas categorias incluem:
 
-- `auth` plugins allow you to authorize and synchronize user accounts with a third-party source.
-- `gateways` plugins allow you to add a new URL and respond to requests to that URL.
-- `metadata` plugins implement a description of a metadata format.
-- `oaiMetadataFormats` plugins add a metadata format to the application's OAI endpoint.
+- Os plugins de `Autenticação ` permitem que você autorize e sincronize contas de usuário com uma fonte de terceiros.
+- Os plugins de `Gateway` permitem que você adicione uma nova URL e responda às solicitações para essa URL.
+- Os plugins de `metadados` implementam uma descrição de um formato de metadados.
+- Os plugins de `Formatos de Metadados OAI` adicionam um formato de metadados ao endpoint OAI do aplicativo.
 - `paymethod` plugins allow you to implement your own payment handling when using subscription and article fees.
 - `pubIds` plugins allow you to add support for publication identifiers like DOIs.
 
