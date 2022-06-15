@@ -1,37 +1,37 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Architecture - Technical Documentation - OJS|OMP|OPS 3.3
+title: Arquitetura - Documentação Técnica - OJS|OMP|OPS 3.3
 ---
 
-# Architecture
+# Arquitetura
 
-The chapters in this section each describe a part of the application architecture. Together they provide an overview of how requests to the application are authorized, how data is saved and retrieved from the database, and how responses are returned.
+Cada capítulo desta seção descreve uma parte da arquitetura da aplicação. Juntos, eles fornecem uma visão geral de como as solicitações à aplicações são autorizadas, como os dados são salvos e recuperados do banco de dados e como as respostas são retornadas.
 
-These chapters provide an introduction to how the application works. You may need to read the code to learn more about each component. But after reading these chapters you should have an idea of where to look.
+Esses capítulos fornecem uma introdução sobre como a aplicaçao funciona. Talvez seja necessário ler o código para saber mais sobre cada componente. Mas depois de ler esses capítulos, você deve ter uma ideia de onde procurar.
 
-> Some of the code in OJS and OMP is more than ten years old. You may find parts of the application code that do not conform to coding conventions in this document. This guide describes the architecture which all new contributions should follow. 
+> Parte do código em OJS e OMP tem mais de dez anos. Você pode encontrar partes do código da aplicação que não estão em conformidade com as convenções de codificação neste documento. Este guia descreve a arquitetura que todas as novas contribuições devem seguir. 
 > 
 > {:.notice}
 
-## Modules
+## Módulos
 
-Each application includes modules in three locations.
+Cada aplicação inclui módulos em três locais.
 
 ```
 ojs
 │
 ├─┬ lib
-│ ├── pkp           # The base library which
-│ │                 # powers all of our applications
+│ ├── pkp           # A biblioteca base que
+│ │                 # que alimenta todos as nossas aplicações
 │ │
-│ └── ui-library    # The UI component library used
-│                   # for the editorial backend.
+│ └── ui-library    # A biblioteca de componentes de interface do usuário usada
+│                   # para o back-end editorial.
 │
-└── plugins         # Official and third-party plugins
+└── plugins         # Plugins oficiais e de terceiros
 ```
 
-A class in OJS or OMP will often extend a class in the [base library](https://github.com/pkp/pkp-lib/). For example, in OJS we use the `Submission` class which extends the `PKPSubmission` class.
+Uma classe em OJS ou OMP geralmente estende uma classe na [biblioteca base](https://github.com/pkp/pkp-lib/). Por exemplo, no OJS usamos a classe `Submission` que estende a classe `PKPSumission`.
 
 ```php
 import('lib.pkp.classes.submission.PKPSubmission');
@@ -40,7 +40,7 @@ class Submission extends PKPSubmission {
 }
 ```
 
-Both the application and the base library share a similar file structure.
+Tanto a aplicação quanto a biblioteca base compartilham uma estrutura de arquivos semelhante.
 
 ```
 ojs
@@ -56,23 +56,23 @@ ojs
         └── PKPSubmission.inc.php
 ```
 
-The same approach is used in OMP.
+A mesma abordagem é usada no OMP.
 
 ## Contexts
 
-We use the term `Context` to describe a `Journal` (OJS) or `Press` (OMP). To reuse code across both applications, you will often see code that refers to the context.
+Usamos o termo `Context` para descrever um `Journal` (OJS) ou `Press` (OMP). Para reutilizar o código em ambos os aplicativos, muitas vezes você verá o código que se refere ao contexto.
 
 ```php
 $context = $request->getContext();
 ```
 
-This always refers to the `Journal` (OJS) or `Press` (OMP) object. It is identical to the following code.
+Isso sempre se refere ao objeto `Journal` (OJS) ou `Press` (OMP). É idêntico ao código a seguir.
 
 ```php
 $journal = $request->getJournal();
 ```
 
-A single instance of OJS can run many journals. It is important to restrict requests for submissions, users and other objects in the system by the context.
+Uma única instância do OJS pode executar várias revistas. É importante restringir as solicitações de submissões, usuários e outros objetos no sistema pelo contexto.
 
 ```php
 $submissions = Services::get('submission')->getMany([
@@ -80,8 +80,8 @@ $submissions = Services::get('submission')->getMany([
 ]);
 ```
 
-Failure to pass a context or context id to many methods will return objects for all contexts.
+A falha em passar um contexto ou id de contexto para muitos métodos retornará objetos para todos os contextos.
 
 ---
 
-Usually, the context is taken from the `Request` object. Learn more about the [Request Lifecycle](./architecture-request).
+Normalmente, o contexto é obtido do objeto `Request`. Saiba mais sobre o [Ciclo de Vida da Solicitação](./architecture-request).
