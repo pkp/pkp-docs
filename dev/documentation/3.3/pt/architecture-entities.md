@@ -1,74 +1,74 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Entities - Technical Documentation - OJS|OMP|OPS 3.3
+title: Entidades - Documentação Técnica - OJS|OMP|OPS 3.3
 ---
 
-# Entities
+# Entidades
 
-An entity is any type of object in the application, such as a submission, review assignment, discussion or file.
+Uma entidade é qualquer tipo de objeto na aplicação, como uma submissão, atribuição de avaliação, discussão ou arquivo.
 
-Each entity is described in a schema file and is represented in the application with the following:
+Cada entidade é descrita em um arquivo de esquema e é representada na aplicação com a seguinte:
 
-- A `DataObject` [class](#dataobject-class) for instantiating objects of this entity.
-- A [Service](./architecture-services), like `SubmissionService`, to get, validate, add, edit and delete these objects.
-- A [Data Access Object](#schemadao), like `SubmissionDAO`, to communicate between the objects and the database.
-- A json [schema](#schemas) which defines the properties, defaults and validation rules for these objects.
-- An [APIHandler](./architecture-handlers), like `SubmissionHandler`, which serves a REST API endpoint for these objects.
+- Um `DataObject` [class](#dataobject-class) para instanciar objetos dessa entidade.
+- Um [Service](./architecture-services), como `SubmissionService`, para obter, validar, adicionar, editar e excluir esses objetos.
+- Um [Data Access Object](#schemadao), como `SubmissionDAO`, para comunicação entre os objetos e o banco de dados.
+- Um [esquema](#schemas) json que define as propriedades, padrões e regras de validação para esses objetos.
+- Um [APIHandler](./architecture-handlers), como `SubmissionHandler`, que serve um endpoint da REST API para esses objetos.
 
-## DataObject class
+## Classe DataObject
 
-A `DataObject` class offers a simple API to get and set data for an object.
+Uma classe `DataObject` oferece uma API simples para obter e definir dados para um objeto.
 
-> **Tip:** `DataObject`s perform the role of `Model`s in the MVC (Model-View-Controller) application architecture. 
+> **Dica:** `DataObject`s desempenham a função de `Model`s na arquitetura de aplicativo MVC (Model-View-Controller). 
 > 
 > {:.tip}
 
-Create a new object.
+Crie um novo objeto.
 
 ```php
 import('classes.journal.Journal');
 $journal = new Journal();
 ```
 
-Set data on an object.
+Definir dados em um objeto.
 
 ```php
 $journal->setData('enabled', true);
 ```
 
-Get data from an object.
+Obter dados de um objeto.
 
 ```php
 $isEnabled = $journal->getData('enabled');
 ```
 
-Some data is multilingual and stores values for each locale. Pass a locale code to get a localized value.
+Alguns dados são multilíngues e armazenam valores para cada localidade. Passe um código de localidade para obter um valor do idioma correspondente.
 
 ```php
-$name = $journal->getLocalizedData('name', 'en_US');
+$name = $journal->getLocalizedData('name', 'pt_BR');
 ```
 
-When you omit the locale parameter it will return the value for the currently active locale or fall back to the journal's primary locale.
+Ao omitir o parâmetro de localidade, ele retornará o valor da localidade atualmente ativa ou retornará à localidade primária da revista.
 
 ```php
 $name = $journal->getLocalizedData('name');
 ```
 
-> The `Submission` object works differently. It will fall back to the submission's locale, not the journal's primary locale. 
+> O objeto `Submission` funciona de forma diferente. Ele retornará à localidade da submissão, não à localidade principal do periódico. 
 > 
 > {:.notice}
 
-Set localized data by passing all locales at once.
+Defina dados localizados passando todas as localidades de uma vez.
 
 ```php
 $name = $journal->setData('name', [
     'en_US' => 'Journal of Public Knowledge',
-    'fr_CA' => 'Journal de la connaissance du public',
+    'pt_BR' => 'Revista do Conhecimento Público',
   ]);
 ```
 
-Or specify a locale code when you set the data.
+Ou especifique um código de localidade ao definir os dados.
 
 ```php
 $name = $journal->setData('name', 'Journal of Public Knowledge', 'en_US');
@@ -76,7 +76,7 @@ $name = $journal->setData('name', 'Journal of Public Knowledge', 'en_US');
 
 ### Helpers
 
-A `DataObject` class may contain additional helper methods to compile or format the requested data. For example, the `Issue` class provides a method that will return a string with the volume, number, year and title.
+Uma classe `DataObject` pode conter métodos helpers adicionais para compilar ou formatar os dados solicitados. Por exemplo, uma classe `Issue` fornece um método que retornará uma string com o volume, número, ano e título.
 
 ```php
 $issue->setData('volume', 3);
@@ -88,20 +88,20 @@ echo $issue->getIssueIdentification();
 // Vol 3 No 2 (1983) Special Issue on Microorganisms
 ```
 
-### Don't access the database
+### Não acesse o banco de dados
 
-A `DataObject` class should never access the database directly. If a helper method requires another object, it should be passed as a parameter to the method.
+Uma classe `DataObject` nunca deve acessar o banco de dados diretamente. Se um método helper requer outro objeto, ele deve ser passado como parâmetro para o método.
 
-## Schemas
+## Esquemas
 
-Entities are defined using an extended version of [json-schema](http://json-schema.org/), a JSON syntax for documenting the properties of an object.
+As entidades são definidas usando uma versão estendida de [json-schema](http://json-schema.org/), uma sintaxe JSON para documentar as propriedades de um objeto.
 
-A simple schema with two properties, `id` and `title`, would look like this.
+Um esquema simples com duas propriedades, `id` e `title`, ficaria assim.
 
 ```json
 {
   "title": "ExampleObject",
-  "description": "An example object demonstrating a schema.",
+  "description": "Um objeto de exemplo demonstrando um esquema.",
   "properties": {
     "id": {
       "type": "integer",
@@ -114,15 +114,15 @@ A simple schema with two properties, `id` and `title`, would look like this.
 }
 ```
 
-The json-schema syntax is documented in [these examples](http://json-schema.org/learn/getting-started-step-by-step.html).
+A sintaxe do esquema json está documentada [nestes exemplos](http://json-schema.org/learn/getting-started-step-by-step.html).
 
-> **Tip:** JSON is a stricter syntax than JavaScript. Use [JSONLint](https://jsonlint.com/) to identify errors in your schema. 
+> **Dica:** JSON é uma sintaxe mais rígida que JavaScript. Use [JSONLint](https://jsonlint.com/) para identificar erros em seu esquema. 
 > 
 > {:.tip}
 
-### Schema extensions
+### Extensões de esquema
 
-The section below documents how we have modified or extended the json-schema syntax to suit our needs.
+A seção abaixo documenta como modificamos ou estendemos a sintaxe json-schema para atender às nossas necessidades.
 
 #### Formatos de data e hora
 
