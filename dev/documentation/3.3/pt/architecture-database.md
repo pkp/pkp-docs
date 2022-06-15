@@ -1,43 +1,43 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Database - Technical Documentation - OJS|OMP|OPS 3.3
+title: Banco de Dados - Documentação Técnica - OJS|OMP|OPS 3.3
 ---
 
-# Database
+# Banco de Dados
 
-A Database Access Object (`DAO`) is responsible for executing database queries to read and write information from the database.
+Um Database Access Object (`DAO`) é responsável por executar consultas de banco de dados para ler e gravar informações do banco de dados.
 
-> PKP applications support MySQL and PostgreSQL. 
+> Os aplicações PKP suportam MySQL e PostgreSQL. 
 > 
 > {:.notice}
 
 ## DAOs
 
-Each `DAO` is paired with an [Entity](./architecture-entities) and converts data between the entity's [`DataObject` class](architecture-entities#dataobject-class) and tables in the database.
+Cada `DAO` é emparelhado com uma [Entidade](./architecture-entities) e converte dados entre as [ da entidade Classe `DataObject`](architecture-entities#dataobject-class) e tabelas no banco de dados.
 
-The `DAORegistry` contains an instance of every `DAO` in the application.
+O `DAORegistry` contém uma instância de cada `DAO` na aplicação.
 
 ```php
 $authorDao = DAORegistry::getDAO('AuthorDAO');
 ```
 
-When a DAO has a different name in OJS and OMP, you can retrieve it through the `Application`.
+Quando um DAO tem um nome diferente em OJS e OMP, você pode recuperá-lo por meio do `Application`.
 
 ```php
-// Get a `JournalDAO` or `PressDAO`
+// Obtém um `JournalDAO` ou `PressDAO`
 $contextDao = Application::get()->getContextDAO();
 
-// Get a `ArticleGalleyDAO` or `PublicationFormatDAO`
+// Obtém um`ArticleGalleyDAO` ou `PublicationFormatDAO`
 $representationDao = Application::get()->getRepresentationDAO();
 
-// Get a `SectionDAO` or `SeriesDAO`
+// Obtém um `SectionDAO` ou `SeriesDAO`
 $sectionDao = Application::get()->getSectionDAO();
 ```
 
-## Get Records
+## Obter Registros
 
-Use the `retrieve()` method to get something from the database.
+Use o método `retrieve()` para obter algo do banco de dados.
 
 ```php
 $reviewRoundDao = DAORegistry::getDAO('ReviewRoundDAO');
@@ -50,7 +50,7 @@ if ($result->RecordCount()) {
 }
 ```
 
-`DAO`s have a `_fromRow()` method to convert a returned row into the `DataObject` class.
+`DAO`s possuem um método `_fromRow()` para converter uma linha retornada na classe `DataObject`.
 
 ```php
 $reviewRoundDao = DAORegistry::getDAO('ReviewRoundDAO');
@@ -63,13 +63,13 @@ if ($result->RecordCount()) {
 }
 ```
 
-Most `DAO`s have a helper method to get a `DataObject` by ID.
+A maioria dos `DAO`s tem um método auxiliar para obter um `DataObject` por ID.
 
 ```php
 $reviewRound = DAORegistry::getDAO('ReviewRoundDAO')->getById($reviewRoundId);
 ```
 
-Use the `retrieveRange()` method to get a set of rows from the database.
+Use o método `retrieveRange()` para obter um conjunto de linhas do banco de dados.
 
 ```php
 $reviewRoundDao = DAORegistry::getDAO('ReviewRoundDAO');
@@ -81,7 +81,7 @@ $result = $reviewRoundDao->retrieveRange(
 $resultFactory = new DAOResultFactory($result, $reviewRoundDao, '_fromRow');
 ```
 
-Iterate over a `DAOResultFactory` to access each result in the set.
+Itere sobre um `DAOResultFactory` para acessar cada resultado no conjunto.
 
 ```php
 while ($reviewRound = $resultFactory->next()) {
@@ -89,20 +89,20 @@ while ($reviewRound = $resultFactory->next()) {
 }
 ```
 
-Or convert the `DAOResultFactory` to an array of objects.
+Ou converta o `DAOResultFactory` em uma matriz de objetos.
 
 ```php
 $reviewRounds = $resultFactory->toArray();
 ```
 
-For complex queries, use the [QueryBuilder](#querybuilder).
+Para consultas complexas, use o [QueryBuilder](#querybuilder).
 
-## Insert and Update Records
+## Inserir e Atualizar Registros
 
-Use the `update()` method to insert or update records.
+Use o método `update()` para inserir ou atualizar registros.
 
 ```php
-// Close all queries for a particular submission
+// Fecha todas as consultas para uma submissão específico
 $queryDao = DAORegistry::getDAO('QueryDAO');
 $queryDao->update(
   'UPDATE queries
@@ -116,7 +116,7 @@ $queryDao->update(
 );
 ```
 
-Most `DAO`s include helper methods to insert, update, or delete records when passed a `DataObject`.
+A maioria dos `DAO`s inclui métodos auxiliares para inserir, atualizar ou excluir registros quando passados por um `DataObject`.
 
 ```php
 $reviewRoundDao->insertObject($reviewRound);
@@ -124,7 +124,7 @@ $reviewRoundDao->updateObject($reviewRound);
 $reviewRoundDao->deleteObject($reviewRound);
 ```
 
-You can also delete records by an object's ID.
+Você também pode excluir registros por ID de um objeto.
 
 ```php
 $reviewRoundDao->deleteById((int) $reviewRoundId);
@@ -132,9 +132,9 @@ $reviewRoundDao->deleteById((int) $reviewRoundId);
 
 ## QueryBuilder
 
-A query builder should be used to construct complex queries. Query builders extend [Laravel's query builder](https://laravel.com/docs/5.5/queries) and provide an expressive API for fetching records of an [Entity](./architecture-entities).
+Um query builder deve ser usado para construir consultas complexas. Os query builders estendem o [Query builder do Laravel](https://laravel.com/docs/5.5/queries) e fornecem uma API expressiva para buscar registros de um [Entidade](./architecture-entities).
 
-For example, the `SubmissionQueryBuilder` can be used to retrieve submissions based on several filter parameters.
+Por exemplo, o `SubmissionQueryBuilder` pode ser usado para recuperar submissões com base em vários parâmetros de filtro.
 
 ```php
 $qb = new \APP\Services\QueryBuilders\SubmissionQueryBuilder;
@@ -143,7 +143,7 @@ $qb->filterByContext($contextId)
   ->orderBy('title');
 ```
 
-Once configured, use the query builder to generate the query string and parameter bindings to be passed to a `DAO`.
+Uma vez configurado, use o query builder para gerar a query string e as ligações de parâmetro a serem passadas para um `DAO`.
 
 ```php
 $qo = $qb->getQuery();
@@ -151,59 +151,59 @@ $submissionDao = DAORegistry::getDAO('SubmissionDAO');
 $result = $submissionDao->retrieve($qo->toSql(), $qo->getBindings());
 ```
 
-Use the `getCount()` method to get a count of matching rows.
+Use o método `getCount()` para obter uma contagem de linhas correspondentes.
 
 ```php
 $count = $qb->assignedTo($userId)->getCount();
 ```
 
-Use the `getIds()` method to get an array of object ids.
+Use o método `getIds()` para obter uma matriz de ids de objeto.
 
 ```php
 $assignedIds = $qb->assignedTo($userId)->getIds();
 ```
 
-In most cases, a `QueryBuilder` will help fulfil the matching `EntityReadInterface` [methods](architecture-services#entityreadinterface) of a Service class.
+Na maioria dos casos, um `QueryBuilder` ajudará a preencher os `EntityReadInterface` [métodos](architecture-services#entityreadinterface) correspondentes da classe Service.
 
-A `QueryBuilder` can also be used with Laravel's [query methods](https://laravel.com/docs/5.5/queries).
+Um `QueryBuilder` também pode ser usado com os [métodos de consulta](https://laravel.com/docs/5.5/queries) do Laravel.
 
 ```php
 $qb = new \APP\Services\QueryBuilders\UserQueryBuilder();
 $qb->filterByContext($contextId);
 
-// Get all matching emails
+// Recebe todos os e-mails correspondentes
 $emails = $qb->getQuery()->pluck('u.email');
 
-// Get the first matching result
+// Obtém o primeiro resultado correspondente
 $user = $qb->getQuery()->first();
 
-// Get the last registered user
+// Obtém o último usuário cadastrado
 $user = $qb->getQuery()->max('u.date_registered');
 ```
 
 ## SchemaDAOs
 
-If an entity is defined using a [schema](./architecture-entities#schemas), its `DAO` should extend the `SchemaDAO` class. The `SchemaDAO` implements the `insertObject()`, `updateObject()`, `deleteObject()`, and `_fromRow()` methods based on the schema.
+Se uma entidade for definida usando um [esquema](./architecture-entities#schemas), seu `DAO` deve estender a classe `SchemaDAO`. O `SchemaDAO` implementa o `insertObject()`, `updateObject()`, `deleteObject()` e `_fromRow()` métodos baseados no esquema.
 
-## Usage Guidance
+## Diretrizes de Uso
 
-A `DAO` may implement additional methods to perform bulk updates or otherwise minimize intensive SQL queries. For example, the following will remove all DOIs from all issues.
+Um `DAO` pode implementar métodos adicionais para realizar atualizações em massa ou minimizar consultas SQL intensivas. Por exemplo, o seguinte removerá todos os DOIs de todos as edições.
 
 ```php
 DAORegistry::getDAO('IssueDAO')->deleteAllPubIds($contextId, 'doi');
 ```
 
-A `DAO` method like this should be wrapped by a [Service](./architecture-services) method that performs the action so that notifications can be sent, hooks can be called, and related tasks can be executed.
+Um método `DAO` como este deve ser encapsulado por um método [Service](./architecture-services) que executa a ação para que notificações possam ser enviadas, hooks possam ser chamados, e tarefas relacionadas podem ser executadas.
 
-When deciding whether or not to write such a method, consider the performance benefits of your custom `DAO` method against the following downsides:
+Ao decidir se deve ou não escrever tal método, considere os benefícios de desempenho de seu método `DAO` personalizado em relação às seguintes desvantagens:
 
-- It will not fire the hooks that are typically fired when an entity is read, added, or updated. Plugin developers are left "out of the loop."
-- It will have to be maintained independently. The more common read, write, and delete database methods will probably be tested more regularly.
-- It will have to be manually synced with changes to the entity schema files.
+- Não acionará os hooks que normalmente são acionados quando uma entidade é lida, adicionada ou atualizada. Os desenvolvedores de plugins são deixados "fora do circuito"
+- Terá de ser mantido de forma independente. Os métodos de banco de dados de leitura, gravação e exclusão mais comuns provavelmente serão testados com mais regularidade.
+- Terá que ser sincronizado manualmente com as alterações nos arquivos de esquema da entidade.
 
-## Table Structure
+## Estrutura da tabela
 
-Most [entities](./architecture-entities) in the application are represented in the database by two tables. For example, the `journals` table contains a row for each journal.
+A maioria das [entidades](./architecture-entities) na aplicação são representadas no banco de dados por duas tabelas. Por exemplo, a tabela `journals` contém uma linha para cada revista.
 
 ```
 mysql> describe journals;
@@ -219,7 +219,7 @@ mysql> describe journals;
 
 ```
 
-All additional data, including multilingual data, is stored in the `journal_settings` table.
+Todos os dados adicionais, incluindo dados multilíngues, são armazenados na tabela `journal_settings`.
 
 ```
 mysql> describe journal_settings;
@@ -233,7 +233,7 @@ mysql> describe journal_settings;
 +---------------+--------------+------+-----+---------+-------+
 ```
 
-For example, a journal's name that appears in English and French Canadian is stored in two rows in the `journal_settings` table.
+Por exemplo, o nome de um periódico que aparece em inglês e portguês brasileiro é armazenado em duas linhas na tabela `journal_settings`.
 
 ```
 mysql> select * from journal_settings where setting_name="name";
@@ -241,7 +241,7 @@ mysql> select * from journal_settings where setting_name="name";
 | journal_id | locale | setting_name | setting_value                        |
 +------------+--------+--------------+--------------------------------------+
 |          1 | en_US  | name         | Journal of Public Knowledge          |
-|          1 | fr_CA  | name         | Journal de la connaissance du public |
+|          1 | pt_BR  | name         | Revista do Conhecimento Público      |
 +------------+--------+--------------+--------------------------------------+
 ```
 
