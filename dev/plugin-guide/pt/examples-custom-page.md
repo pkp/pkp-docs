@@ -2,9 +2,9 @@
 title: Example - Add Custom Page - Plugin Guide for OJS and OMP
 ---
 
-# Add Custom Page
+# Adicionar página personalizada
 
-You may want your plugin to add a new page to the application. This may be a separate settings page or editorial dashboard on the backend, or a new public page on the reader-facing website.
+Você pode querer que seu plugin adicione uma nova página à aplicação. Pode ser uma página de configurações separada ou um painel editorial no back-end ou uma nova página pública no site voltado para o leitor.
 
 A generic plugin can do this by hooking into the request lifecycle and loading its own [PageHandler](/dev/documentation/en/architecture-handlers).
 
