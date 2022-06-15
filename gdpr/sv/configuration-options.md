@@ -1,10 +1,14 @@
+- - -
+title: Configuration Recommendations for GDPR Compliance - GDPR Guidebook for PKP Users
+- - -
+
 # Configuration Recommendations for GDPR Compliance
 
 The following practices will provide a higher level of data privacy support, and are recommended as part of a reasonable attempt to fulfil GDPR requirements.
 
 **Use SSL/HTTPS for all web traffic.** OJS and OMP can be used in conjunction with an SSL certificate so that all traffic between the user and the server is encrypted and transferred via [HTTPS](https://en.wikipedia.org/wiki/HTTPS). In order to enable this, install an SSL certificate for your domain (or ask your service provider to do so) and set “force_ssl” to “on” in your config.inc.php file.
 
-**Disable CDN usage.** [Content Delivery Networks](https://en.wikipedia.org/wiki/Content_delivery_network) (CDNs) are used by OJS and OMP to deliver some content, including javascript and fonts. Any CDN can record and track detailed visitor information whenever they are loaded by the web browser, including time; user IP address; web browser; and page loaded. CDNs can be disabled in config.inc.php by setting the “enable_cdn” to “off”. (Note: this will not necessarily disable CDNs are added to the system in other ways, such as via code customizations, via third-party plugins, or in form fields.)
+**Disable CDN usage.** [Content Delivery Networks](https://en.wikipedia.org/wiki/Content_delivery_network) (CDNs) were used by OJS and OMP to deliver some content, including javascript and fonts, in versions earlier than 3.3. Any CDN can record and track detailed visitor information whenever they are loaded by the web browser, including time; user IP address; web browser; and page loaded. CDNs can be disabled in config.inc.php by setting the “enable_cdn” to “off”. (Note: this will not necessarily disable CDNs are added to the system in other ways, such as via code customizations, via third-party plugins, or in form fields.)
 
 **Restrict usage of other third party scripts.** Third-party scripts, such as Google Analytics, should only be used if the application is required and the implications are understood. The use of these scripts should be properly identified in the Privacy Statement.
 
