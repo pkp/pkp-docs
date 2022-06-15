@@ -18,11 +18,21 @@ When the tests are run from the terminal you will find a screenshot of the brows
 
 The [CI tests](./continuous-integration) can be difficult to debug. Travis provides access to its build logs and screenshots of test failures to help.
 
-![Short video showing how to access log of build results](./travis-log.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./travis-log.mp4" type="video/mp4">
+  </video>
+  <figcaption>Short video showing how to access log of build results.</figcaption>
+</figure>
 
 This provides a log of the entire build process including the logs from the Cypress and PHP Unit tests. Parts of the log, such as the server's error log, are truncated and can only be reached by accessing the raw log.
 
-![Short video showing how to access the raw log of build results](./travis-log-raw.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./travis-log-raw.mp4" type="video/mp4">
+  </video>
+  <figcaption>Short video showing how to access the raw log of build results.</figcaption>
+</figure>
 
 > When viewing the raw log, run a search in your browser for "fatal". This is a quick way to find the source of many -- _but not all_ -- test failures. 
 > 
