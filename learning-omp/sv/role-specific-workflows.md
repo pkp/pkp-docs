@@ -1,6 +1,8 @@
 ---
 book: learning-omp
 version: 3.3
+title: Learning OMP (Open Monograph Press) - Role-specific Workflows
+description: A guide to working as an author, reviewer, or editor in OMP.
 ---
 
 # Role-specific Workflows
@@ -162,7 +164,7 @@ These selections are found on the right panel in the Internal Review menu.
 
 #### Reversing a declined decision
 
-OMP 3.3 allows Press Editors to to reverse a declined decision in the submission and review stages. After a declined decision is reverted, the submission is restored to its previous stage and review round if active. 
+OMP 3.3 allows Press Editors to to reverse a declined decision in the submission and review stages. After a declined decision is reverted, the submission is restored to its previous stage and review round if active.
 
 ## Copyediting Workflow
 
@@ -210,7 +212,7 @@ Alternatively, they can also be uploaded in the __Publication Formats__ in Publi
 
 #### Contacting Author
 
-If your press will be sending proofs to the author for approval, you can use the Notify function in the Participants tab. See [Learning OJS - Chapter 15](/learning-ojs/en/production-publication#contact-the-author) for more details.
+If your press will be sending proofs to the author for approval, you can use the Notify function in the Participants tab. See [Learning OJS - Production and Publication](/learning-ojs/en/production-publication#contact-the-author) for more details.
 
 ### Publication Tabs
 
@@ -237,6 +239,8 @@ __Permissions & Disclosure__: Include details about the copyright holder and lin
 If your manuscript contains different chapters, you can add the information in this menu.
 
 __Note__: Chapter files can only be added by the Editor or Production Editor of the press.
+
+If you are uploading Galley files (including chapters) directly to the Publication Formats complete this step first before adding Chapter files.
 
 To add a chapter after final galleys have been prepared, click __Add Chapter__.
 
@@ -276,23 +280,39 @@ To add publication formats, click __Add publication format__.
 
 Enter the format title, select format from the drop-down list and select the option that applies. Click OK to save.
 
-!\[Sample new publication format information entered in the upload form.\](./assets/learning-omp3.2-workflow-production-formats-2.p
+![Sample new publication format information entered in the upload form.](./assets/learning-omp3.2-workflow-production-formats-2.png)
 
 ##### Add Publication Format files
 
-Once you have added the publication formats, you can select the corresponding file by clicking __Select Files__.
+Once you have created the publication format(s), you can either select the corresponding file by clicking __Select Files__ if you have uploaded the final fines under the __Production Ready files__ or by uploading them directly in the __Publication Formats__.
+
+##### Selecting from Publication Ready Files
+
+If you’ve uploaded your Book and Chapter Manuscripts under the Publication Ready Files, click Select Files to select all the relevant files from the Production Workflow.
 
 ![The Select Files link highlighted in the Publication Formats screen.](./assets/learning-omp3.2-workflow-production-formats-3.png)
 
-Select the file that corresponds with the publication format you’ve created.
-
 ![File selection window.](./assets/learning-omp3.2-workflow-production-formats-4.png)
+
+##### Uploading directly under Publication Formats
+
+For single file galleys (i.e., HTML, Full issue PDF) click ‘Select Files’ to upload the file. If you are uploading chapter files directly under Publication Formats you will need to click ‘__Change File__.’
+
+![Publication Format extended options for PDF.](./assets/learning-omp3.3-workflow-production-formats-5.png)
+
+In "1. Upload File" in the drop down options, select ‘__This is not a revision of an existing file__’ then select the appropriate __Submission Component__ (e.g. Chapter vs. Book Manuscript). Upload the file and complete Steps 2 and 3. Repeat these steps until all Chapter files have been uploaded.
+
+![Step 1 of Uploading a file Ready for Publication.](./assets/learning-omp3.3-workflow-production-formats-6.png)
+
+##### Approving Publication Formats
 
 Once Publication Formats have been created you can update the Completion and Availability by clicking the blue boxes beside the formats.
 
 Once it has been approved and made available, the status bar will change accordingly.
 
 ![Status bar for an unapproved and unavailable format as well as an approved and available format.](./assets/learning-omp3.2-workflow-production-formats-6.png)
+
+Note: Any approved Publication Format files that have not been assigned to a Chapter will appear as a Galley Format under the cover image.
 
 #### Catalog Entry
 
@@ -324,6 +344,7 @@ Within the marketing type there are 3 menus that you can configure - audience, r
 This is where you can add/select audience information for your ONIX export.
 
 Depending on your market, the Audience, Ranges and Education values may be handled in various ways. In English speaking North America, the following ONIX values are typically used.
+
 * ONIX Code List 28 for Audience codes
 * Audience Range for age and grade ranges
 
