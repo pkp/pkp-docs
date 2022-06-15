@@ -2,7 +2,7 @@
 
 O documento a seguir descreve um fluxo de trabalho geral para a criação de um ambiente de teste baseado no git, para uma revista que não está atualmente no git. São apresentadas instruções sobre como limitar o acesso acidental, envio de e-mail etc. YMMV. Adapte ao seu próprio ambiente; use por sua conta e risco.
 
-For more information about upgrading your system, see the [Technical Upgrade guide](/dev/upgrade-guide/).
+Para obter mais informações sobre como atualizar seu sistema, consulte o [Guia de atualização técnica](/dev/upgrade-guide/).
 
 ## Preparando o ambiente Git
 
