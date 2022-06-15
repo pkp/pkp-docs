@@ -2,11 +2,11 @@
 title: Translation - Plugin Guide for OJS and OMP
 ---
 
-# Translation
+# Tradução
 
-Plugins should support more than one language. This allows them to work if you run OJS or OMP in more than one language, or if you want to share your plugin so that others can use it.
+Os plugins devem suportar mais de um idioma. Isso permite que eles funcionem se você executar OJS ou OMP em mais de um idioma, ou se quiser compartilhar seu plugin para que outros possam usá-lo.
 
-Translations are managed by adding locale files for every language that you support. The example below shows where the English (U.S) and French (Canada) locale files are stored.
+As traduções são gerenciadas adicionando arquivos de localidade para todos os idiomas aos quais você oferece suporte. O exemplo abaixo mostra onde os arquivos de localidade em inglês (EUA) e português (Brasil) são armazenados.
 
 ```
 ojs
@@ -20,24 +20,24 @@ ojs
 │     ├─┬ locale
 │     │ ├─┬ en_US
 │     │ │ └── locale.po
-│     │ └─┬ fr_CA
+│     │ └─┬ pt_BR
 │     │   └── locale.po
 │     ├── index.php
 │     └── TutorialExamplePlugin.inc.php
 │     └── version.xml
 ```
 
-The locale file defines the language and any messages that should be translated.
+O arquivo de localidade define o idioma e todas as mensagens que devem ser traduzidas.
 
 ```po
 msgid "plugins.generic.tutorialExample.name"
-msgstr "Tutorial Example"
+msgstr "Exemplo de tutorial"
 
 msgid "plugins.generic.tutorialExample.description"
-msgstr "This plugin is an example created for a tutorial on how to create a plugin."
+msgstr "Este plugin é um exemplo criado para um tutorial sobre como criar um plugin."
 ```
 
-Then use the `__()` function to get a message in your plugin.
+Em seguida, use a função `__()` para obter uma mensagem em seu plugin.
 
 ```php
 import('lib.pkp.classes.plugins.GenericPlugin');
@@ -53,14 +53,14 @@ class TutorialExamplePlugin extends GenericPlugin {
 }
 ```
 
-Use the `{translate ...}` smarty function to get locale messages in your templates.
+Use a função do smarty `{translate ...}` para obter mensagens de localidade em seus templates.
 
 ```php
 <h1>{translate key="plugins.generic.tutorialExample.name"}</h1>
 ```
 
-Any plugin that is added to the Plugin Gallery must support translation, even if it only includes a locale file for one language. Our active community of translators will often provide a translation after you have released the plugin.
+Qualquer plugin adicionado à Galeria de plugins deve oferecer suporte à tradução, mesmo que inclua apenas um arquivo de localidade para um idioma. Nossa comunidade ativa de tradutores geralmente fornecerá uma tradução depois que você lançar o plugin.
 
 ---
 
-Learn how to [use and override templates](./templates) in your plugin.
+Saiba como [usar e substituir templates](./templates) em seu plugin.
