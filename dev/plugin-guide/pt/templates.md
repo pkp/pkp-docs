@@ -4,9 +4,9 @@ title: Templates - Plugin Guide for OJS and OMP
 
 # Templates
 
-Plugins have access to the same template system as the main application. Use this whenever you need to display or render HTML code in your plugin.
+Os plugins têm acesso ao mesmo sistema de templates do aplicativo principal. Use isso sempre que precisar exibir ou renderizar código HTML em seu plugin.
 
-All plugin templates are located in a `templates` subdirectory.
+Todos os templates de plugins estão localizados em um subdiretório `templates`.
 
 ```
 ojs
@@ -25,14 +25,14 @@ ojs
 │     └── version.xml
 ```
 
-The `getTemplateResource()` method is available to every plugin. Use it to load a template in the plugin's template directory.
+O método `getTemplateResource()` está disponível para todos os plugins. Use-o para carregar um template no diretório de template do plug-in.
 
 ```php
 $templateMgr = TemplateManager::getManager($request);
 $templateMgr->display($this->getTemplateResource('example.tpl'));
 ```
 
-Templates can be nested in subdirectories.
+Os templates podem ser aninhados em subdiretórios.
 
 ```
 ojs
@@ -56,15 +56,15 @@ $templateMgr = TemplateManager::getManager($request);
 $templateMgr->display($this->getTemplateResource('settings/index.tpl'));
 ```
 
-## Override templates
+## Substituir templates
 
-By default, a template file in a theme plugin that matches the path of a template file in the application will override it. You can grant this ability to any plugin.
+Por padrão, um arquivo de template em um plugin de tema que corresponda ao caminho de um arquivo de template na aplicação o substituirá. Você pode conceder essa capacidade a qualquer plugin.
 
-> Learn more about [template overrides](/pkp-theming-guide/en/html-smarty). 
+> Saiba mais sobre [substituições de template](/pkp-theming-guide/en/html-smarty). 
 > 
 > {:.notice}
 
-Add a hook during registration to allow a plugin's templates to override templates in the application.
+Adicione um hook durante o registro para permitir que os templates de um plug-in substituam os templates na aplicação.
 
 ```php
 import('lib.pkp.classes.plugins.GenericPlugin');
@@ -79,7 +79,7 @@ class TemplateOverrideExamplePlugin extends GenericPlugin {
 }
 ```
 
-Any template that matches the path and filename of an application's template will override it. In the example below, the plugin overrides the application's `common/footer.tpl` template.
+Qualquer template que corresponda ao caminho e nome de arquivo do template de uma aplicação o substituirá. No exemplo abaixo, o plugin substitui o template `common/footer.tpl` da aplicação.
 
 ```
 ojs
@@ -96,7 +96,7 @@ ojs
 │   └── footer.tpl
 ```
 
-Any plugin that can override application templates can also override the templates of another plugin. In the example below, the plugin overrides the block template of the `makeSubmission` block plugin.
+Qualquer plugin que possa substituir os modelos da aplicação também pode substituir os templates de outro plugin. No exemplo abaixo, o plugin substitui o template de bloco do plugin de bloco `makeSubmission`.
 
 ```
 ojs
@@ -120,4 +120,4 @@ ojs
 
 ---
 
-Learn how to [add settings](./settings) to your plugin.
+Saiba como [adicionar configurações](./settings) ao seu plugin.
