@@ -6,7 +6,7 @@ title: Plugin Categories - Plugin Guide for OJS and OMP
 
 A categoria de um plugin determina quando ele é carregado e de que forma ele pode modificar a aplicação. Por exemplo, um plugin de [Bloco](#blocks) pode adicionar um bloco de conteúdo à barra lateral do site voltado para o leitor. Mas não pode fazer mais nada e não será carregado no back-end.
 
-Cada plugin deve estender uma das classes de categoria de plugin que existem no OJS e no OMP. No tutorial [Introdução](./getting-started), o plugin de exemplo de tutorial estendeu a classe `GenericPlugin`.
+Cada plugin deve estender uma das classes de categoria de plugin que existem no OJS e no OMP. No tutorial [Começando](./getting-started), o plugin de exemplo de tutorial estendeu a classe `GenericPlugin`.
 
 ```php
 import('lib.pkp.classes.plugins.GenericPlugin');
