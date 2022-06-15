@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+title: Learning Open Journal Systems 3.3 - Workflow Settings
 ---
 
 # Workflow Settings
@@ -8,6 +9,10 @@ version: 3.3
 The Workflow Settings allow you to configure various parts of the journal's editorial workflow. The workflow setting has 5 main tabs.
 
 ## Submission
+
+This PKP School video explains how to configure the submission process in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="_I2-IpEWu9E" provider="youtube" title="Video of how to configure the submission process in OJS"%}
 
 Use this section to configure the submission process.
 
@@ -26,6 +31,10 @@ Once the setting is enabled, a notification is displayed indicating that submiss
 This section determines what types of metadata will be collected during the submission process, such as keywords and references.
 
 ### Components
+
+This PKP School video explains how to manage Components in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="UkmvhHjP5V0" provider="youtube" title="Video of how to manage components in OJS"%}
 
 Components are the file types authors may upload to the site. Typically, one file will be the article text, and others can include interview transcripts, data, images, etc. The components available for the author to choose from when making their submission are listed here.
 
@@ -62,6 +71,10 @@ Use this field to add information for your authors that will be useful during th
 
 ## Review
 
+This PKP School video demonstrates how to configure the Review process in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="1adbIbQM6E0" provider="youtube" title="Video of how to configure the Review process in OJS"%}
+
 This tab allows you to configure your journal's review process.
 
 ![OJS 3.3 review configuration editing menu.](./assets/learning-ojs3.1-jm-settings-workflow-review.png)
@@ -74,7 +87,7 @@ This tab allows you to configure your journal's review process.
 
 **One-click Reviewer Access**: Enable (default) the first option to provide reviewers with one-click access to the review, bypassing the need to go to the website, login, and find the submission. For security reasons with this option, editors are not able to modify email addresses or add CCs or BCCs prior to sending invitations to reviewers.
 
-**Default Review Deadlines**: Indicate how long reviewers have to decide to accept or decline a review request from the editor, and how long they have to make a recommendation.
+**Default Review Deadlines**: Indicate how long reviewers have to decide to accept or decline a review request from the editor, and how long they have to make a recommendation. These dates are calculated from the date the review is sent.
 
 **Automated Email Reminders**: Reviewers will automatically be notified when they are assigned to a review; however, you may wish to enable or disable reminder emails for reviewers. Use the drop down menu to select either the number of days or “Never Remind” under “Send a reminder if a reviewer has not responded to a review request within the following time (days) after response due date” to set the number of days that can pass after the due date before reviewers will be reminded to accept or reject a review request.
 
@@ -139,6 +152,10 @@ Once you send the form to a reviewer you will no longer be able to edit it becau
 
 ## Publisher Library
 
+This PKP School video explains how to use the Publisher Library in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="QhOJjxW0_Rw" provider="youtube" title="Video of the Publisher Library in OJS"%}
+
 The Journal Manager and Editors may upload documents that they would like to share with the other users in the Publisher Library. Any document added in this area will be visible within a user’s Document Library in their manuscript’s Submission Library.
 
 You can also upload a file here that you would like to be publicly accessible via a URL, which you can link to from other parts of your site, including the author guidelines, submission checklist, or a static page.
@@ -158,6 +175,10 @@ To add a file here, click ‘Add a file’ on the top right corner of the Publis
 **Public Access**: Enabling this will allow users to download this file using the hyperlink provided if it is hyperlinked in other parts of your journal site.
 
 ## Emails
+
+This PKP School video explains how to configure emails in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="ZK-Nb7wfHew" provider="youtube" title="Video of how to configure emails in OJS"%}
 
 ### Email Setup
 
