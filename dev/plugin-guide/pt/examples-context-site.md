@@ -2,33 +2,33 @@
 title: Example - Managing Context and Site - Plugin Guide for OJS and OMP
 ---
 
-# Managing Context and Site
+# Gerenciando Contexto e Site
 
-OJS and OMP can be used to run more than one journal or press. We call each journal or press a context. Plugins are usually run within a context but some may run at the site-wide level. You should write your plugins to work whether they are being run at the context or site level.
+OJS e OMP podem ser usados para executar mais de uma revista ou editora. Chamamos cada revista ou editora de um contexto. Os plugins geralmente são executados dentro de um contexto, mas alguns podem ser executados no nível de todo o site. Você deve escrever seus plugins para funcionar, estejam eles sendo executados no contexto ou no nível do site.
 
-You can always retrieve the current context from the `Request`.
+Você sempre pode recuperar o contexto atual do `Request`.
 
 ```php
 $context = Application::get()->getRequest()->getContext();
 ```
 
-In site-wide pages, such as the admin settings or the site-wide journal index page, the context will be `null`.
+Em páginas de todo o site, como as configurações de administrador ou a página index da revista de todo o site, o contexto será `null`.
 
 ```php
 if ($context) {
-  // The current request is for a journal or press
+  // A solicitação atual é para uma revista ou editora
 } else {
-  // The current request is for a site-wide page
+  // A solicitação atual é para uma página em todo o site
 }
 ```
 
-If your plugin supports a [settings page](./settings), settings must be saved separately for each context.
+Se o seu plugin suportar uma [página de configurações](./settings), as configurações devem ser salvas separadamente para cada contexto.
 
 ```php
-$this->updateSetting($context->getId(), 'editorName', 'Daniel Barnes');
+$this->updateSetting($context->getId(), 'editorName', 'Diego Macêdo');
 ```
 
-Use the `CONTEXT_SITE` constant to save settings to the site-wide level.
+Use a constante `CONTEXT_SITE` para salvar as configurações no nível de todo o site.
 
 ```php
 if ($context) {
@@ -36,12 +36,12 @@ if ($context) {
 } else {
   $contextId = CONTEXT_SITE;
 }
-$this->updateSetting($contextId, 'editorName', 'Daniel Barnes');
+$this->updateSetting($contextId, 'editorName', 'Diego Macêdo');
 ```
 
-## Site-wide Plugins
+## Plugins para todo o site
 
-Add the `isSitePlugin` method to enable the plugin's settings form in the site-wide plugins list.
+Adicione o método `isSitePlugin` para habilitar o formulário de configurações do plug-in na lista de plug-ins de todo o site.
 
 ```php
 class TutorialExamplePlugin extends GenericPlugin {
@@ -51,8 +51,8 @@ class TutorialExamplePlugin extends GenericPlugin {
 }
 ```
 
-Site-wide plugins can also be enabled, disabled and configured for each context.
+Os plugins de todo o site também podem ser ativados, desativados e configurados para cada contexto.
 
 ---
 
-View more [examples](./examples).
+Veja mais [exemplos](./examples).
