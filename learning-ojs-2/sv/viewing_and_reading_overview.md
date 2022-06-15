@@ -7,8 +7,7 @@ The following image is a screenshot of an OJS Demonstration Journal Table of Con
 ![Open Journal Systems Table of Contents](images/chapter1/demo_journal.png)
 
 The next images show HTML and PDF versions of an article, including Reading Tools in the right column.
-<br>
-<br>
+
 **HTML Article View**
 
 ![Open Journal Systems HTML Article View](images/chapter1/demo_html_copy.png)
@@ -29,11 +28,7 @@ Finally, it's worth noting that both HTML and PDF galleys can be read on mobile 
 
 ![Open Journal Systems HTML on iPhone](images/chapter1/mobile_html_sm.png)
 
-<br>
-
 **Open Journal Systems PDF on iPhone**
-
-<br>
 
 ![Open Journal Systems PDF on iPhone](images/chapter1/mobile_pdf_sm.png)
 
