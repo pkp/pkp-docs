@@ -2,30 +2,30 @@
 title: Plugin Settings - Plugin Guide for OJS and OMP
 ---
 
-# Plugin Settings
+# Configurações do Plugin
 
-Plugins can add settings so that an editor or admin can configure the plugin. Settings are accessed through the plugins list in the Website Settings area.
+Os plugins podem adicionar configurações para que um editor ou administrador possa configurar o plugin. As configurações são acessadas por meio da lista de plugins na área Configurações do Website.
 
-> This section describes how to create a separate settings form for a plugin. In some cases, you will provide a better user experience if you add settings to the existing settings forms. Learn how to modify an existing form in the [custom field example](./examples-custom-field). 
+> Esta seção descreve como criar um formulário de configurações separado para um plugin. Esta seção descreve como criar um formulário de configurações separado para um plugin. Saiba como modificar um formulário existente no [exemplo de campo personalizado](./examples-custom-field). 
 > 
 > {:.tip}
 
-Add a `getActions()` method to your plugin to add a settings action in the plugin list.
+Adicione um método `getActions()` ao seu plugin para adicionar uma ação de configurações na lista de plugins.
 
-![screenshot showing the settings action for the Citation Style Language plugin](../plugin-settings-action.png)
+![captura de tela mostrando a ação de configurações para o Plugin Linguagem de Estilo de Citação](../plugin-settings-action.png)
 
 ```php
 class TutorialExamplePlugin extends GenericPlugin {
     public function getActions($request, $actionArgs) {
 
-    // Get the existing actions
+    // Obtenha as ações existentes
         $actions = parent::getActions($request, $actionArgs);
         if (!$this->getEnabled()) {
             return $actions;
         }
 
-    // Create a LinkAction that will call the plugin's
-    // `manage` method with the `settings` verb.
+     // Cria um LinkAction que chamará o plugin
+     // método `manage` com o verbo `settings`.
         $router = $request->getRouter();
         import('lib.pkp.classes.linkAction.request.AjaxModal');
         $linkAction = new LinkAction(
@@ -50,8 +50,8 @@ class TutorialExamplePlugin extends GenericPlugin {
         );
 
     // Add the LinkAction to the existing actions.
-    // Make it the first action to be consistent with
-    // other plugins.
+    // Faça com que seja a primeira ação a ser consistente com
+     // outros plugins.
         array_unshift($actions, $linkAction);
 
         return $actions;
@@ -59,15 +59,15 @@ class TutorialExamplePlugin extends GenericPlugin {
 }
 ```
 
-Add a `manage()` method to load a settings form when the `LinkAction` is clicked.
+Adicione um método `manage()` para carregar um formulário de configurações quando o `LinkAction` for clicado.
 
 ```php
 class TutorialExamplePlugin extends GenericPlugin {
     public function manage($args, $request) {
         switch ($request->getUserVar('verb')) {
 
-      // Return a JSON response containing the
-      // settings form
+      // Retorna uma resposta JSON contendo o
+       // formulário de configurações
       case 'settings':
         $templateMgr = TemplateManager::getManager($request);
         $settingsForm = $templateMgr->fetch($this->getTemplateResource('settings.tpl'));
@@ -81,15 +81,15 @@ class TutorialExamplePlugin extends GenericPlugin {
 ```html
 <!-- templates/settings.tpl -->
 <form>
-  <label for="secretKey">Secret Key</label>
+  <label for="secretKey">Chave Secreta</label>
   <input type="text" name="secretKey" value="secretKey">
   <button type="submit">Save</button>
 </form>
 ```
 
-## The Form class
+## A Classe Form
 
-Plugins can use the application's form handling system to load, validate and save plugin settings. Update the `manage()` method to use a custom `Form`.
+Os plugins podem usar o sistema de manipulação de formulários do aplicativo para carregar, validar e salvar as configurações do plugin. Atualize o método `manage()` para usar um `Form` personalizado.
 
 ```php
 class TutorialExamplePlugin extends GenericPlugin {
@@ -97,18 +97,18 @@ class TutorialExamplePlugin extends GenericPlugin {
         switch ($request->getUserVar('verb')) {
       case 'settings':
 
-        // Load the custom form
+        //Carrega o formulário personalizado
         $this->import('TutorialExampleSettingsForm');
         $form = new TutorialExampleSettingsForm($this);
 
-        // Fetch the form the first time it loads, before
-        // the user has tried to save it
+        // Busca o formulário na primeira vez que carrega, antes
+         // o usuário tentou salvá-lo
         if (!$request->getUserVar('save')) {
           $form->initData();
                   return new JSONMessage(true, $form->fetch($request));
         }
 
-        // Validate and execute the form
+    // Valida e executa o formulário
         $form->readInputData();
         if ($form->validate()) {
           $form->execute();
@@ -120,7 +120,7 @@ class TutorialExamplePlugin extends GenericPlugin {
 }
 ```
 
-The `Form` class defines the template, sets the validation rules and saves the plugin settings.
+A classe `Form` define o modelo, define as regras de validação e salva as configurações do plugin.
 
 ```php
 import('lib.pkp.classes.form.Form');
@@ -131,20 +131,20 @@ class TutorialExampleSettingsForm extends Form {
 
     public function __construct($plugin) {
 
-    // Define the settings template and store a copy of the plugin object
+    // Defina o template de configurações e armazene uma cópia do objeto plugin
         parent::__construct($plugin->getTemplateResource('settings.tpl'));
     $this->plugin = $plugin;
 
-    // Always add POST and CSRF validation to secure your form.
+// Sempre adicione validação POST e CSRF para proteger seu formulário.
         $this->addCheck(new FormValidatorPost($this));
         $this->addCheck(new FormValidatorCSRF($this));
     }
 
   /**
-   * Load settings already saved in the database
+   * Carregar configurações já salvas no banco de dados
    *
-   * Settings are stored by context, so that each journal or press
-   * can have different settings.
+   * As configurações são armazenadas por contexto, para que cada revista ou editora
+    * pode ter configurações diferentes.
    */
     public function initData() {
     $contextId = Application::get()->getRequest()->getContext()->getId();
@@ -153,7 +153,7 @@ class TutorialExampleSettingsForm extends Form {
     }
 
   /**
-   * Load data that was submitted with the form
+   * Carregar dados que foram enviados com o formulário
    */
     public function readInputData() {
         $this->readUserVars(['secretKey']);
@@ -161,16 +161,16 @@ class TutorialExampleSettingsForm extends Form {
   }
 
   /**
-   * Fetch any additional data needed for your form.
+   * Busque quaisquer dados adicionais necessários para o seu formulário.
    *
-   * Data assigned to the form using $this->setData() during the
-   * initData() or readInputData() methods will be passed to the
-   * template.
+   * Dados atribuídos ao formulário usando $this->setData() durante o
+   * Os métodos initData() ou readInputData() serão passados para o
+   * modelo.
    */
     public function fetch($request, $template = null, $display = false) {
 
-    // Pass the plugin name to the template so that it can be
-    // used in the URL that the form is submitted to
+    // Passa o nome do plugin para o template para que possa ser
+    // usado na URL para a qual o formulário é enviado
     $templateMgr = TemplateManager::getManager($request);
     $templateMgr->assign('pluginName', $this->plugin->getName());
 
@@ -178,13 +178,13 @@ class TutorialExampleSettingsForm extends Form {
   }
 
     /**
-     * Save the settings
+     * Salve as configurações
      */
     public function execute() {
     $contextId = Application::get()->getRequest()->getContext()->getId();
         $this->plugin->updateSetting($contextId, 'secretKey', $this->getData('secretKey'));
 
-    // Tell the user that the save was successful.
+  // Diga ao usuário que o salvamento foi bem-sucedido.
         import('classes.notification.NotificationManager');
         $notificationMgr = new NotificationManager();
         $notificationMgr->createTrivialNotification(
@@ -198,7 +198,7 @@ class TutorialExampleSettingsForm extends Form {
 }
 ```
 
-Update the `settings.tpl` template to submit the form to the plugin's `manage()` method.
+Atualize o template `settings.tpl` para enviar o formulário para o método `manage()` do plugin.
 
 ```html
 <script>
@@ -213,7 +213,7 @@ Update the `settings.tpl` template to submit the form to the plugin's `manage()`
   method="POST"
   action="{url router=$smarty.const.ROUTE_COMPONENT op="manage" category="generic" plugin=$pluginName verb="settings" save=true}"
 >
-  <!-- Always add the csrf token to secure your form -->
+  <!-- Sempre adicione o token csrf para proteger seu formulário -->
     {csrf}
 
   {fbvFormArea}
@@ -232,4 +232,4 @@ Update the `settings.tpl` template to submit the form to the plugin's `manage()`
 
 ---
 
-When you're ready, you can [release your plugin](./release) to the public.
+Quando estiver pronto, você pode [lançar seu plugin](./release) para o público.
