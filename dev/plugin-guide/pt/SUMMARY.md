@@ -2,7 +2,7 @@
 
 * [Introdução](.)
 * [Começando](./getting-started)
-* [Categorias de plugins](./categories)
+* [Categorias de Plugins](./categories)
   * [Blocos](./categories#blocks)
   * [Importação/Exportação](./categories#importexport)
   * [Relatórios](./categories#reports)
