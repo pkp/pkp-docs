@@ -262,12 +262,12 @@ Plugins genéricos são muito poderosos e podem usar qualquer hook no aplicativo
 
 Existem outras categorias de plugins disponíveis que não são usadas com frequência. A melhor maneira de aprender sobre eles é ler o código-fonte de um dos plugins existentes. Essas categorias incluem:
 
-- Os plugins de `Autenticação ` permitem que você autorize e sincronize contas de usuário com uma fonte de terceiros.
-- Os plugins de `Gateway` permitem que você adicione uma nova URL e responda às solicitações para essa URL.
-- Os plugins de `metadados` implementam uma descrição de um formato de metadados.
-- Os plugins de `Formatos de Metadados OAI` adicionam um formato de metadados ao endpoint OAI do aplicativo.
-- Os plugins `Métodos de Pagamento` permitem que você implemente seu próprio tratamento de pagamento ao usar taxas de assinatura e de artigo.
-- Os plugins de`Identificação Pública` permitem adicionar suporte para identificadores de publicação como DOIs.
+- Os plugins de `auth` permitem que você autorize e sincronize contas de usuário com uma fonte de terceiros.
+- Os plugins de `gateways` permitem que você adicione uma nova URL e responda às solicitações para essa URL.
+- Os plugins de `metadata` implementam uma descrição de um formato de metadados.
+- Os plugins de `oaiMetadataFormats` adicionam um formato de metadados ao endpoint OAI do aplicativo.
+- Os plugins `paymethod` permitem que você implemente seu próprio tratamento de pagamento ao usar taxas de assinatura e de artigo.
+- Os plugins de `pubIds` permitem adicionar suporte para identificadores de publicação como DOIs.
 
 ---
 
