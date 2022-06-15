@@ -2,15 +2,15 @@
 title: Example - Add Custom Fields - Plugin Guide for OJS and OMP
 ---
 
-# Add Custom Fields
+# Adicionar campos personalizados
 
-Plugins can add properties to any Entity which uses a schema file and modify the forms to include input fields for these properties.
+Os plugins podem adicionar propriedades a qualquer Entidade que use um arquivo de esquema e modificar os formulários para incluir campos de entrada para essas propriedades.
 
-> Learn more about [entities](/dev/documentation/en/architecture-entities) and [schemas](/dev/documentation/en/architecture-entities#schemas). 
+> Saiba mais sobre [entidades](/dev/documentation/en/architecture-entities) e [esquemas](/dev/documentation/en/architecture-entities#schemas). 
 > 
 > {:.notice}
 
-In the example below, we add an `institutionalHome` field to the journal or press settings. This will allow an editor to identify an institutional supporter or backer that can then be used in the journal's or press's theme.
+No exemplo abaixo, adicionamos um campo `institutionalHome` às configurações da revista ou da editora. Isso permitirá que um editor identifique um patrocinador institucional ou um fomento que pode ser usado no tema da revista ou da editora.
 
 ```php
 class InstitutionalHomePlugin extends GenericPlugin {
@@ -19,17 +19,17 @@ class InstitutionalHomePlugin extends GenericPlugin {
         $success = parent::register($category, $path);
         if ($success && $this->getEnabled()) {
 
-      // Use a hook to extend the context entity's schema
+     // Use um hook para estender o esquema da entidade de contexto
       HookRegistry::register('Schema::get::context', array($this, 'addToSchema'));
 
-      // Use a hook to add a field to the masthead form in the journal/press settings.
+      // Use um hook para adicionar um campo ao formulário de cabeçalho nas configurações revista/editora.
       HookRegistry::register('Form::config::before', array($this, 'addToForm'));
         }
         return $success;
   }
 
   /**
-   * Extend the context entity's schema with an institutionalHome property
+   * Estenda o esquema da entidade de contexto com uma propriedade institucionalHome
    */
   public function addToSchema($hookName, $args) {
         $schema = $args[0];
@@ -44,23 +44,23 @@ class InstitutionalHomePlugin extends GenericPlugin {
   }
 
   /**
-   * Extend the masthead form to add an institutionalHome input field
-   * in the journal/press settings
+   * Estenda o formulário de cabeçalho para adicionar um campo de entrada institucionalHome
+   * nas configurações da revista/editora
    */
     public function addtoForm($hookName, $form) {
 
-    // Only modify the masthead form
+    // Modificar apenas o formulário do masthead
         if (!defined('FORM_MASTHEAD') || $form->id !== FORM_MASTHEAD) {
             return;
     }
 
-    // Don't do anything at the site-wide level
+    // Não faça nada no nível de todo o site
         $context = Application::get()->getRequest()->getContext();
         if (!$context) {
             return;
     }
 
-    // Add a field to the form
+    // Adicionar um campo ao formulário
         $form->addField(new \PKP\components\forms\FieldText('institutionalHome', [
             'label' => 'Institutional Home',
             'groupId' => 'publishing',
@@ -72,14 +72,14 @@ class InstitutionalHomePlugin extends GenericPlugin {
 }
 ```
 
-When the editor adds an institutional home in the journal or press settings, you can retrieve it from the `DataObject` class for the context.
+Quando o editor adiciona uma institutional home na revista ou nas configurações da editora, você pode recuperá-la da classe `DataObject` para o contexto.
 
 ```php
 $context = Application::get()->getRequest()->getContext();
 $institutionalHome = $context->getLocalizedData('institutionalHome');
 ```
 
-Or use it in a template on the reader-facing frontend.
+Ou use-o em um modelo no frontend voltado para o leitor.
 
 ```html
 <p>Institutional Home: {$currentContext->getLocalizedData('institutionalHome')}</p>
@@ -87,4 +87,4 @@ Or use it in a template on the reader-facing frontend.
 
 ---
 
-View more [examples](./examples).
+Veja mais [exemplos](./examples).
