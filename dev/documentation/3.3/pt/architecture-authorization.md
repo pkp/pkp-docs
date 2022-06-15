@@ -1,12 +1,12 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Authorization - Technical Documentation - OJS|OMP|OPS 3.3
+title: Autorização - Documentação Técnica - OJS|OMP|OPS 3.3
 ---
 
-# Authorization
+# Autorização
 
-Each `Handler` must define policies to prevent unauthorized access. These policies are applied in the `authorize` method.
+Cada `Handler` deve definir políticas para evitar acesso não autorizado. Essas políticas são aplicadas no método `authorize`.
 
 ```php
 class DashboardHandler extends Handler {
@@ -23,7 +23,7 @@ class DashboardHandler extends Handler {
 }
 ```
 
-More than one `Policy` can be applied.
+Mais de uma `Policy` pode ser aplicada.
 
 ```php
 class IssueHandler extends Handler {
@@ -43,7 +43,7 @@ class IssueHandler extends Handler {
 }
 ```
 
-`Policy`s can be grouped into a `PolicySet`. Use `COMBINING_PERMIT_OVERRIDES` when you want to allow access if any of the policies pass.
+As `Policy`s podem ser agrupadas em um `PolicySet`. Use `COMBINING_PERMIT_OVERRIDES` quando quiser permitir o acesso se alguma das políticas for aprovada.
 
 ```php
 class WorkflowHandler extends Handler {
@@ -54,11 +54,11 @@ class WorkflowHandler extends Handler {
 
         $submissionAccessPolicySet = new PolicySet(COMBINING_PERMIT_OVERRIDES);
 
-        // Require that they are the author...
+        // Exija que eles sejam o autor...
         import('lib.pkp.classes.security.authorization.internal.SubmissionAuthorPolicy');
         $submissionAccessPolicySet->addPolicy(new SubmissionAuthorPolicy($request));
 
-        // ... OR that they are assigned to the submission.
+        // ... OU que eles são atribuídos à submissão.
         import('lib.pkp.classes.security.authorization.internal.UserAccessibleWorkflowStageRequiredPolicy');
         $submissionAccessPolicySet->addPolicy(new UserAccessibleWorkflowStageRequiredPolicy($request));
 
@@ -69,7 +69,7 @@ class WorkflowHandler extends Handler {
 }
 ```
 
-Use `COMBINING_DENY_OVERRIDES` when you want to prevent access if any of the policies fail.
+Use `COMBINING_DENY_OVERRIDES` quando quiser impedir o acesso se alguma das políticas falhar.
 
 ```php
 class QueryHandler extends Handler {
@@ -80,11 +80,11 @@ class QueryHandler extends Handler {
 
         $assistantAccessPolicySet = new PolicySet(COMBINING_DENY_OVERRIDES);
 
-        // Require that they have the assistant role...
+      // Exigir que eles tenham o papel de assistente...
         import('lib.pkp.classes.security.authorization.RoleBasedHandlerOperationPolicy');
         $assistantAccessPolicySet->addPolicy(new RoleBasedHandlerOperationPolicy($request, ROLE_ID_ASSISTANT, $roleAssignments[ROLE_ID_ASSISTANT]));
 
-        // ... AND that they are assigned to this stage of the workflow.
+        // ... E que eles sejam atribuídos a este estágio do fluxo de trabalho.
         import('lib.pkp.classes.security.authorization.QueryWorkflowStageAccessPolicy');
         $assistantAccessPolicySet->addPolicy(new QueryWorkflowStageAccessPolicy($request, $args, $roleAssignments, 'submissionId', $stageId));
 
@@ -95,7 +95,7 @@ class QueryHandler extends Handler {
 }
 ```
 
-Create your own `PolicySet` class to define reusable rules.
+Crie sua própria classe `PolicySet` para definir regras reutilizáveis.
 
 ```php
 class ExamplePolicy extends PolicySet {
@@ -120,7 +120,7 @@ class ExampleHandler extends Handler {
 }
 ```
 
-Define distinct policies for each route in the `Handler` by checking the requested operation.
+Defina políticas distintas para cada rota no `Handler` verificando a operação solicitada.
 
 ```php
 class DashboardHandler extends Handler {
@@ -138,7 +138,7 @@ class DashboardHandler extends Handler {
 }
 ```
 
-Check the route name when using an `APIHandler`.
+Verifique o nome da rota ao usar um `APIHandler`.
 
 ```php
 class SubmissionHandler extends APIHandler {
@@ -159,9 +159,9 @@ class SubmissionHandler extends APIHandler {
 }
 ```
 
-## Authorizing by User Role
+## Autorização por papel de usuário
 
-A `PageHandler` will define which roles can access its operations and apply the `RoleBasedHandlerOperationPolicy` policy.
+Um `PageHandler` definirá quais papeis podem acessar suas operações e aplicará a política `RoleBasedHandlerOperationPolicy`.
 
 ```php
 class ExampleHandler extends Handler {
@@ -200,7 +200,7 @@ class ExampleHandler extends Handler {
 }
 ```
 
-An `APIHandler` will do the same when defining its routes.
+Um `APIHandler` fará o mesmo ao definir suas rotas.
 
 ```php
 class SubmissionsHandler extends APIHandler {
@@ -237,24 +237,24 @@ class SubmissionsHandler extends APIHandler {
 }
 ```
 
-## Authorizing by Submission Assignment
+## Autorização por Atribuição de Submissão
 
-When authorizing access to a submission, you must check what roles the user is assigned _for that submission_.
+Ao autorizar o acesso a uma submissão, você deve verificar quais papéis o usuário recebeu _para essa submissão_.
 
 ```php
 class SubmissionFileHandler extends Handler {
 
     public function authorize($request, &$args, $roleAssignments) {
-        // Users are assigned to specific stages of a submission's
-        // workflow. Check access to the stage, not the submission.
-        // In this example, the stage id is submitted as a query
-        // parameter with the request.
+         // Os usuários são atribuídos a estágios específicos de uma submissão
+         // fluxo de trabalho. Verifique o acesso ao estágio, não a submissão.
+        // Neste exemplo, o id do estágio é enviado como uma consulta
+         // parâmetro com a solicitação.
         $stageId = $request->getUserVar('stageId');
 
-        // The submission ID should be submitted as a query
-        // parameter. Tell the policy what parameter to check for
-        // the submission id. In this example, we assume the URL
-        // used for the request included ?submissionId=1
+       // O ID da submissão deve ser enviado como uma consulta
+         // parâmetro. Informe à política qual parâmetro verificar
+         // o id da submissão. Neste exemplo, assumimos a URL
+         // usado para a solicitação incluída ?submissionId=1
         $queryParam = 'submissionId';
 
         import('lib.pkp.classes.security.authorization.WorkflowStageAccessPolicy');
@@ -265,24 +265,24 @@ class SubmissionFileHandler extends Handler {
 }
 ```
 
-This should be applied whenever you authorize access to any object of the submission's workflow. Editors can do double duty as Reviewers and Authors, and in such circumstances should not have access to all details of the workflow.
+Isso deve ser aplicado sempre que você autorizar o acesso a qualquer objeto do fluxo de trabalho da submissão. Os editores podem fazer dupla função como avaliadores e autores e, em tais circunstâncias, não devem ter acesso a todos os detalhes do fluxo de trabalho.
 
-## Authorized Objects
+## Objetos Autorizados
 
-Policies work by checking that the requested objects exist and that the current user has permission to access them. These objects can be stored when authorization is completed and retrieved later when responding to the request.
+As políticas funcionam verificando se os objetos solicitados existem e se o usuário atual tem permissão para acessá-los. Esses objetos podem ser armazenados quando a autorização for concluída e recuperados posteriormente ao responder à solicitação.
 
-Store an authorized object when a `Policy` has retrieved it from the database and it has passed that `Policy`'s rules.
+Armazenar um objeto autorizado quando uma `Policy` o tiver recuperado do banco de dados e tiver passado as regras dessa `Policy`.
 
 ```php
 class QueryRequiredPolicy extends Policy {
     public function dataObjectEffect() {
 
-        // Get the requested query and confirm that it exists
+       // Obtém a consulta solicitada e confirma que ela existe
         if (!$query) {
             return AUTHORIZATION_DENY;
         }
 
-        // Store the authorized object
+       // Armazena o objeto autorizado
         $this->addAuthorizedContextObject(ASSOC_TYPE_QUERY, $query);
 
         return AUTHORIZATION_PERMIT;
@@ -290,20 +290,20 @@ class QueryRequiredPolicy extends Policy {
 }
 ```
 
-Retrieve an authorized object in the `Handler`.
+Recupere um objeto autorizado no `Handler`.
 
 ```php
 class ExampleHandler extends Handler {
 
     public function authorize(...) {
-        // QueryRequiredPolicy stores the requested Query
-        // as an authorized object
+        // QueryRequiredPolicy armazena a consulta solicitada
+         // como um objeto autorizado
         $this->addPolicy(new QueryRequiredPolicy(...));
         return parent::authorize(...);
     }
 
     public function readQuery(...) {
-        // Retrieve the authorized query object
+        // Recupera o objeto de consulta autorizado
         $query = $this->getAuthorizedContextObject(ASSOC_TYPE_QUERY);
 
         ...
@@ -311,7 +311,7 @@ class ExampleHandler extends Handler {
 }
 ```
 
-You can access the current user's roles whenever the `RoleBasedHandlerOperationPolicy`  has been invoked.
+Você pode acessar os papéis do usuário atual sempre que o `RoleBasedHandlerOperationPolicy` for invocado.
 
 ```php
 class ExampleHandler extends Handler {
@@ -328,7 +328,7 @@ class ExampleHandler extends Handler {
 }
 ```
 
-You can access the current user's assigned role in the current submission when the `WorkflowStageAccessPolicy` has been invoked.
+Você pode acessar a função atribuída do usuário atual na subimissão atual quando o `WorkflowStageAccessPolicy` tiver sido invocado.
 
 ```php
 class ExampleHandler extends Handler {
@@ -348,4 +348,4 @@ class ExampleHandler extends Handler {
 
 ---
 
-Now that the user has been authorized, learn how [Service classes are used to fulfil the request](./architecture-services).
+Agora que o usuário foi autorizado, saiba como as [classes de serviço são usadas para atender à solicitação](./architecture-services).
