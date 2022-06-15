@@ -1,5 +1,7 @@
 ---
-title: Pages - Frontend - Technical Documentation - OJS/OMP
+book: dev-documentation
+version: 3.4
+title: Pages - Frontend - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Pages
@@ -7,8 +9,14 @@ title: Pages - Frontend - Technical Documentation - OJS/OMP
 Every request to a [PageHandler](./architecture-handlers#page-handlers) returns the HTML code for a complete webpage. The `TemplateManager` is used to load and render a template.
 
 ```php
-class SettingsHandler extends Handler {
-    public function distribution(Array $args, Request $request) {
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class SettingsHandler extends Handler
+{
+    public function distribution(array $args, Request $request)
+    {
         $templateMgr = TemplateManager::getManager($request);
         return $templateMgr->display('path/to/template.tpl');
     }
@@ -18,8 +26,14 @@ class SettingsHandler extends Handler {
 Templates are located in the `/templates` and `lib/pkp/templates` directories. If a template does not exist in the application directory it will look for the equivalent template in the PKP library.
 
 ```php
-class SettingsHandler extends Handler {
-    public function distribution(Array $args, Request $request) {
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class SettingsHandler extends Handler
+{
+    public function distribution(array $args, Request $request)
+    {
         $templateMgr = TemplateManager::getManager($request);
 
         // Searches for a template in the following directories:
@@ -34,7 +48,10 @@ A `PageHandler` for the editorial backend must set a class property to identify 
 
 
 ```php
-class SettingsHandler extends Handler {
+import('classes.handler.Handler');
+
+class SettingsHandler extends Handler
+{
 
     public $_isBackendPage = true;
 
@@ -46,7 +63,7 @@ Every page template for the editorial backend must use the backend layout to ens
 ```html
 {extends file="layouts/backend.tpl"}
 {block name="page"}
-	<!-- Add page content here -->
+    <!-- Add page content here -->
 {/block}
 ```
 
@@ -57,8 +74,14 @@ Page templates are rendered by the [Smarty](https://www.smarty.net/) templating 
 Assign variables to a template in the `PageHandler`.
 
 ```php
-class SettingsHandler extends Handler {
-    public function distribution(Array $args, Request $request) {
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class SettingsHandler extends Handler
+{
+    public function distribution(array $args, Request $request)
+    {
         $templateMgr = TemplateManager::getManager($request);
         $templateMgr->assign([
             'description' => 'This is an example description.',
@@ -81,8 +104,14 @@ Use the variable in the template.
 Use conditional expressions and loops.
 
 ```php
-class SettingsHandler extends Handler {
-    public function distribution(Array $args, Request $request) {
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class SettingsHandler extends Handler
+{
+    public function distribution(array $args, Request $request)
+    {
         $templateMgr = TemplateManager::getManager($request);
         $templateMgr->assign([
             'items' => ['a', 'b', 'c'],
@@ -122,19 +151,29 @@ Use the `{translate}` function to get a localized string.
 It is sometimes necessary to use a variable inside of a localized string.
 
 ```html
-<span>{translate key="common.lessThan value="29"}</span><!--
+<span>{translate key="common.lessThan value="29"}</span>
+<!--
     localized string: "{$value} or less"
     result: 29 or less
--->```
+-->
+```
 
-Use the `$smarty` variable to access a PHP constant.
+Use fully-qualified class names to access class constants.
+
+```html
+{if $status === \APP\submission\Submission::STATUS_PUBLISHED}
+    ✔ Published
+{/if}
+```
+
+Use the `$smarty` variable to access a global PHP constant.
 
 ```php
-define('STATUS_PUBLISHED', 3);
+define('WORKFLOW_STAGE_ID_SUBMISSION', 1);
 ```
 ```html
-{if $submissionStatus === $smarty.const.STATUS_PUBLISHED}
-    ✔ This submission is published
+{if $stageId === WORKFLOW_STAGE_ID_SUBMISSION}
+    Stage: Submission
 {/if}
 ```
 
@@ -167,8 +206,14 @@ Information that includes HTML should use the `strip_unsafe_html` modifier. This
 Every page in the editorial backend should set the page title.
 
 ```php
-class SettingsHandler extends Handler {
-    public function distribution(Array $args, Request $request) {
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class SettingsHandler extends Handler
+{
+    public function distribution(array $args, Request $request)
+    {
         $templateMgr = TemplateManager::getManager($request);
         $templateMgr->assign([
             'pageTitle' => __('manager.distribution.title'),
