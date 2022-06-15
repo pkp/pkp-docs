@@ -2,9 +2,9 @@
 title: Example - Get Data - Plugin Guide for OJS and OMP
 ---
 
-# Get Data
+# Obter dados
 
-Your plugin may need to get data from the application, such as submissions, issues, authors, users and files. Use the [Repo facade](/dev/documentation/en/architecture-repositories) and [Collector](/dev/documentation/en/architecture-daos#collector) to retrieve information.
+Seu plugin pode precisar obter dados da aplicação, como submissões, edições, autores, usuários e arquivos. Use a [Repo facade](/dev/documentation/en/architecture-repositories) e o [Collector"](/dev/documentation/en/architecture-daos#collector) para recuperar informações.
 
 ```php
 $currentUser = Application::get()->getUser();
@@ -18,15 +18,15 @@ $collector = Repo::submission()
 $submissions = Repo::submissions()->getMany($collector);
 ```
 
-If a `Repository` does not exist for the data you want, you may need to use the [DAO](/dev/documentation/en/architecture-daos).
+Se um `Repositório` não existir para os dados desejados, talvez seja necessário usar o [DAO](/dev/documentation/en/architecture-daos).
 
 ```php
 $authorDao = DAORegistry::getDAO('AuthorDAO');
 $authors = $authorDao->getBySubmissionId($submissionId);
 ```
 
-Learn more about [Repositories](/dev/documentation/en/architecture-repositories), [Entities](/dev/documentation/en/architecture-entities) and [DAOs](/dev/documentation/en/architecture-daos) in our [developer documentation](/dev/documentation/en).
+Saiba mais sobre [Repositórios](/dev/documentation/en/architecture-repositories), [Entidades](/dev/documentation/en/architecture-entities) e [DAOs](/dev/documentation/en/architecture-daos) em nossa [documentação do desenvolvedor](/dev/documentation/en).
 
 ---
 
-View more [examples](./examples).
+Veja mais [exemplos](./examples).
