@@ -1,44 +1,44 @@
-# Summary
+# Índice
 
 * [Introdução](.)
-* [Getting Started](./getting-started)
-* [Architecture](./architecture)
-  * [Request Lifecycle](./architecture-request)
-  * [Routes](./architecture-routes)
-  * [Handlers](./architecture-handlers)
-  * [Authentication](./architecture-authentication)
-  * [Authorization](./architecture-authorization)
-  * [Entities](./architecture-entities)
+* [Começando](./getting-started)
+* [Arquitetura](./architecture)
+  * [Ciclo de Vida da Solicitação](./architecture-request)
+  * [Rotas](./architecture-routes)
+  * [Manipuladores](./architecture-handlers)
+  * [Autenticação](./architecture-authentication)
+  * [Autorização](./architecture-authorization)
+  * [Entidades](./architecture-entities)
   * [DAOs](./architecture-daos)
-  * [Repositories](./architecture-repositories)
-  * [Maps](./architecture-maps)
-  * [Database](./architecture-database)
+  * [Repositórios](./architecture-repositories)
+  * [Mapas](./architecture-maps)
+  * [Banco de Dados](./architecture-database)
   * [Plugins](./architecture-plugins)
 * [Frontend](./frontend)
-  * [Pages](./frontend-pages)
-  * [UI Library](./frontend-ui-library)
-  * [Forms](./frontend-forms)
+  * [Páginas](./frontend-pages)
+  * [Biblioteca de IU](./frontend-ui-library)
+  * [Formulários](./frontend-forms)
   * [ListPanels](./frontend-list-panels)
-  * [Controllers](./frontend-controllers)
-* Utilities
-  * Application
+  * [Controladores](./frontend-controllers)
+* Utilitários
+  * Aplicação
   * Cache
   * Config
-  * [Email](./utilities-email)
-  * [Files](./utilities-files)
+  * [E-mail](./utilities-email)
+  * [Arquivos](./utilities-files)
   * [Hooks](./utilities-hooks)
   * Jobs
-  * Migrations
-  * Notifications
-  * [Translation](./utilities-translation)
-  * Updates
-  * [Validation](./utilities-validation)
+  * Migrações
+  * Notificações
+  * [Tradução](./utilities-translation)
+  * Atualizações
+  * [Validação](./utilities-validation)
 * Outros
-  * [Decisions](./decisions)
+  * [Decisões](./decisions)
   * [Modelos de e-mail](./email-templates)
-  * [Publication Versions](./publication-versions)
+  * [Versões de Publicação](./publication-versions)
   * [Estatísticas](./statistics)
-    * [Editorial Statistics](./statistics-editorial)
-    * [Reader Statistics](./statistics-reader)
-  * [Submission Files](./submission-files)
-* [Resources](./resources)
+    * [Estatísticas Editoriais](./statistics-editorial)
+    * [Estatísticas do Leitor](./statistics-reader)
+  * [Arquivos de Submissão](./submission-files)
+* [Recursos](./resources)
