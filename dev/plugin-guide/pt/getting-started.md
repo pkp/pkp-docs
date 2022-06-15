@@ -2,15 +2,15 @@
 title: Getting Started - Plugin Guide for OJS and OMP
 ---
 
-# Getting Started
+# Começando
 
-In this guide, we will create a generic plugin that we will call the Tutorial Example.
+Neste guia, vamos criar um plugin genérico que chamaremos de Tutorial Example.
 
-> Download a working example of [the plugin](https://github.com/pkp/tutorialExample) we will build in this tutorial from GitHub. 
+> Baixe um exemplo funcional do [o plugin](https://github.com/pkp/tutorialExample) que construiremos neste tutorial do GitHub. 
 > 
 > {:.notice}
 
-A plugin stores all of its files in one directory in OJS or OMP. Our example plugin will be a `generic` plugin, so we put it in that directory. Every plugin requires three files.
+Um plugin armazena todos os seus arquivos em um diretório em OJS ou OMP. Nosso plug-in de exemplo será um plugin `generic`, então o colocamos nesse diretório. Cada plugin requer três arquivos.
 
 ```
 ojs
@@ -25,13 +25,13 @@ ojs
 │     └── version.xml
 ```
 
-> The directory name must be letters and numbers. No spaces, `-`, or `_` characters are allowed. 
+> O nome do diretório deve ser letras e números. Não são permitidos espaços, `-` ou `_` caracteres. 
 > 
 > {:.tip}
 
 ## version.xml
 
-The `version.xml` provides information required to load the plugin.
+O `version.xml` fornece as informações necessárias para carregar o plugin.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -46,11 +46,11 @@ The `version.xml` provides information required to load the plugin.
 </version>
 ```
 
-The `<application>` must match the directory name. The `<type>` must be the plugin's [category](./categories). The `<class>` must match the plugin's class name.
+O `<application>` deve corresponder ao nome do diretório. O `<type>` deve ser a [categoria](./categories) do plugin. A `<class>` deve corresponder ao nome da classe do plugin.
 
 ## TutorialExamplePlugin.inc.php
 
-Every plugin must have a class which registers and runs the plugin.
+Cada plugin deve ter uma classe que registra e execute o plugin.
 
 ```php
 <?php
@@ -58,31 +58,31 @@ import('lib.pkp.classes.plugins.GenericPlugin');
 class TutorialExamplePlugin extends GenericPlugin {
     public function register($category, $path, $mainContextId = NULL) {
 
-    // Register the plugin even when it is not enabled
+   // Registra o plugin mesmo quando não está habilitado
     $success = parent::register($category, $path);
 
         if ($success && $this->getEnabled()) {
-      // Do something when the plugin is enabled
+   // Faça algo quando o plugin estiver habilitado
     }
 
         return $success;
     }
 
   /**
-   * Provide a name for this plugin
+   * Forneça um nome para este plug-in
    *
-   * The name will appear in the plugins list where editors can
-   * enable and disable plugins.
+   * O nome aparecerá na lista de plugins onde os editores podem
+   * habilitar e desabilitar plugins.
    */
     public function getDisplayName() {
         return 'Tutorial Example';
     }
 
     /**
-   * Provide a description for this plugin
-   *
-   * The description will appear in the plugins list where editors can
-   * enable and disable plugins.
+    * Forneça uma descrição para este plugin
+    *
+    * A descrição aparecerá na lista de plugins onde os editores podem
+    * habilitar e desabilitar plugins.
    */
     public function getDescription() {
         return 'This plugin is an example created for a tutorial on how to create a plugin.';
@@ -92,7 +92,7 @@ class TutorialExamplePlugin extends GenericPlugin {
 
 ## index.php
 
-The `index.php` file is required to load the correct plugin class.
+O arquivo `index.php` é necessário para carregar a classe de plugin correta.
 
 ```php
 <?php
@@ -100,8 +100,8 @@ require_once('TutorialExamplePlugin.inc.php');
 return new TutorialExamplePlugin();
 ```
 
-Go to Settings > Website > Plugins and try to enable and disable your plugin. If there is an error when enabling it, check your plugin against the [working example](https://github.com/pkp/tutorialExample)
+Vá para Configurações > WebSite > Plugins e tente habilitar e desabilitar seu plugin. Se houver um erro ao ativá-lo, verifique seu plug-in no [exemplo de trabalho](https://github.com/pkp/tutorialExample)
 
 ---
 
-Learn how to choose the right [plugin category](./categories) for your plugin.
+Saiba como escolher a [categoria de plug-in](./categories) certa para o seu plugin.
