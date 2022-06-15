@@ -1,3 +1,7 @@
+- - -
+title: Scoping your project - Instructor Guide for Course Journals description: Determine how the course journal will fit into the course assignments and learning objectives, including options for roles for students.
+- - -
+
 # Scoping your project
 
 ## Types of assignments
