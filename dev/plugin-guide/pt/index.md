@@ -5,20 +5,20 @@ description: Learn how to create a plugin for Open Journal Systems and Open Mono
 
 # Introdução
 
-This document describes how to create your own plugins for OJS and OMP. It is written for software developers who want to extend the publishing platform to suit their needs.
+Este documento descreve como criar seus próprios plugins para OJS e OMP. Ele foi escrito para desenvolvedores de software que desejam estender a plataforma de publicação para atender às suas necessidades.
 
-## What are plugins?
+## O que são plugins?
 
-Plugins add features by hooking in and modifying how the application responds to requests. Plugins can add fields to forms, change templates, save new information, modify authentication procedures, create new pages or change existing screens in the application.
+Os plugins adicionam recursos conectando-se e modificando como a aplicação responde às solicitações. Plugins podem adicionar campos a formulários, alterar templates, salvar novas informações, modificar procedimentos de autenticação, criar novas páginas ou alterar telas existentes na aplicação.
 
-> If you want to make a new design for your journal or press, please consult the [Theming Guide](/pkp-theming-guide/en). 
+> Se você quiser fazer um novo design para sua revista ou editora, consulte o [Guia de Temas](/pkp-theming-guide/en). 
 > 
 > {:.notice}
 
-Plugins keep your customizations isolated from the main application code. When you update OJS or OMP, your plugin's code will not be modified. This makes it easier to maintain customizations over time.
+Os plugins mantêm suas personalizações isoladas do código principal da aplicação. Ao atualizar o OJS ou OMP, o código do seu plugin não será modificado. Isso facilita a manutenção de personalizações ao longo do tempo.
 
-We **strongly recommend** you use plugins to customize the software and never modify the main application code.
+Nós **recomendamos fortemente** que você use plugins para personalizar o software e nunca modifique o código principal do aplicativo.
 
 ---
 
-Learn how to [start building your plugin](getting-started).
+Saiba como [começar a construir seu plugin](getting-started).
