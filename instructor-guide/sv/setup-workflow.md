@@ -1,3 +1,7 @@
+- - -
+title: Journal setup & workflow basics - Instructor Guide for Course Journals
+- - -
+
 # Journal setup & workflow basics
 
 The basic steps for starting a new journal are found in [Getting Started](https://docs.pkp.sfu.ca/starting-a-journal/). Of particular interest are the sections [Install OJS](https://docs.pkp.sfu.ca/learning-ojs/en/installing-upgrading#installation) and [Configure OJS](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup).
@@ -13,12 +17,12 @@ The basic steps for starting a new journal are found in [Getting Started](https:
 ### Reviewer:
 
 - The [Becoming a Reviewer](https://pkpschool.sfu.ca/courses/becoming-a-reviewer/) course from the [PKP School](https://pkpschool.sfu.ca/) is designed to help you understand the critical role played by reviewers in advancing science and scholarship, discover the professional benefits you will receive by volunteering your time as a reviewer, learn how to write a useful review that will help your editor and the author, effectively work with OJS, a popular open source, online journal management and peer review system, and become a better reviewer over time.
-- [Learning OJS 3 Chapter 15: Reviewing](https://docs.pkp.sfu.ca/learning-ojs/en/reviewing) provides an overview of how to complete review tasks in OJS 3.
+- [Learning OJS 3: Reviewing](https://docs.pkp.sfu.ca/learning-ojs/en/reviewing) provides an overview of how to complete review tasks in OJS 3.
 
 ### Author:
 
 - The [Writing for Publication](https://pkpschool.sfu.ca/courses/writing-for-publication/) course provides authors with the thinking skills and strategies necessary to create effective and publishable articles from their research.
-- [Learning OJS 3 Chapter 13: Authoring](https://docs.pkp.sfu.ca/learning-ojs/en/authoring) provides an overview of how to complete authoring tasks in OJS 3.
+- [Learning OJS 3: Authoring](https://docs.pkp.sfu.ca/learning-ojs/en/authoring) provides an overview of how to complete authoring tasks in OJS 3.
 
 ## Workflow for instructor (manager/editor)
 
