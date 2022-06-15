@@ -245,7 +245,7 @@ mysql> select * from journal_settings where setting_name="name";
 +------------+--------+--------------+--------------------------------------+
 ```
 
-Properties in an entity's [schema](./architecture-entities#schemas) that are an array or object are serialized when they are stored in the settings table.
+As propriedades no [esquema](./architecture-entities#schemas) de uma entidade que são uma matriz ou objeto são serializadas quando são armazenadas na tabela de configurações.
 
 ```
 mysql> select * from journal_settings where setting_name="supportedLocales";
@@ -256,8 +256,8 @@ mysql> select * from journal_settings where setting_name="supportedLocales";
 +------------+--------+------------------+------------------------+
 ```
 
-Serialized data can not be efficiently searched, so it should never include data that you want to query against.
+Os dados serializados não podem ser pesquisados com eficiência, portanto, nunca devem incluir dados que você deseja consultar.
 
 ---
 
-Learn more about the [plugin system](./architecture-plugins).
+Saiba mais sobre o [Sistema de Plugins](./architecture-plugins).
