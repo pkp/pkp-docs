@@ -97,25 +97,25 @@ O XML do seu plugin deve fornecer um título, descrição, detalhes de contato e
         <version>3.1.1.3</version>
     </compatibility>
     <certification type="official"/>
-    <description>Initial release.</description>
+    <description>Lançamento inicial.</description>
   </release>
 </plugin>
 ```
 
-When you have opened the pull request, tests will run against your XML snippet and we will be able to merge your plugin into the list.
+Quando você abrir um pull request, os testes serão executados em seu snippet XML e poderemos mesclar seu plugin na lista.
 
-In addition, each plugin must pass a code review. Your plugin will be given a `reviewed` or `partner` certification. We may not include your plugin in the gallery if it does not pass review.
+Além disso, cada plugin deve passar por uma revisão de código. Seu plug-in receberá uma certificação `reviewed` ou `partner`. Podemos não incluir seu plugin na galeria se ele não passar na revisão.
 
-## Update Releases
+## Atualizar Versões
 
-Your plugin will only appear in the plugin gallery for software versions with the appropriate `<compatibility>` statements. When a new version of PKP software is released, please test your plugin.
+Seu plugin só aparecerá na galeria de plugins para versões de software com as instruções `<compatibility>` apropriadas. Quando uma nova versão do software PKP for lançada, teste seu plugin.
 
-If it is compatible, open a pull request with the additional `<version>` tags in the `<compatibility>` statement. If changes are required to make it compatible, release a new version of your plugin and follow the instructions above to build a new release and add it to the plugin gallery.
+Se for compatível, abra um pull request com as tags adicionais `<version>` na declaração `<compatibility>`. Se forem necessárias alterações para torná-lo compatível, lance uma nova versão do seu plugin e siga as instruções acima para criar uma nova versão e adicioná-la à galeria de plugins.
 
-> Once your plugin has been added to the Plugin Gallery, you can not remove or modify the release package. If you modify the release package, the md5sum will change and the plugin will no longer be downloaded from the Plugin Gallery. 
+> Depois que seu plugin for adicionado à Galeria de Plugins, você não poderá remover ou modificar o pacote de lançamento. Se você modificar o pacote de lançamento, o md5sum será alterado e o plugin não será mais baixado da Galeria de Plugins. 
 > 
 > {:.warning}
 
 ---
 
-When you're ready, explore our [plugin examples](./examples) to learn more about what you can do with plugins.
+Quando estiver pronto, explore nossos [exemplos de plug-ns](./examples) para saber mais sobre o que você pode fazer com plugins.
