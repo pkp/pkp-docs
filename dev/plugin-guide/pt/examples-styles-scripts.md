@@ -2,9 +2,9 @@
 title: Example - Add Styles and Scripts - Plugin Guide for OJS and OMP
 ---
 
-# Add Styles and Scripts
+# Adicionar Estilos e Scripts
 
-Your plugin may require additional CSS or JavaScript code to run. The `TemplateManager` includes helper functions to load scripts and styles.
+Seu plugin pode exigir código CSS ou JavaScript adicional para ser executado. O `TemplateManager` inclui funções auxiliares para carregar scripts e estilos.
 
 ```php
 $templateMgr = TemplateManager::getManager($request);
@@ -12,7 +12,7 @@ $templateMgr->addStyleSheet('tutorialExampleStyles', 'http://example.com/my-css.
 $templateMgr->addJavaScript('tutorialExampleScript', 'http://example.com/my-script.js');
 ```
 
-Scripts and styles are usually located in the plugin directory. Use the `base_url` to get the URL to a plugin's root directory.
+Scripts e estilos geralmente estão localizados no diretório de plugins. Use o `base_url` para obter a URL para o diretório raiz de um plugin.
 
 ```php
 $request = Application::get()->getRequest();
@@ -21,7 +21,7 @@ $templateMgr = TemplateManager::getManager($request);
 $templateMgr->addStyleSheet('tutorialExampleStyles', $url);
 ```
 
-Scripts and styles should be loaded in the plugin's `register` method.
+Scripts e estilos devem ser carregados no método `register` do plugin.
 
 ```php
 class TutorialExamplePlugin extends GenericPlugin {
@@ -38,7 +38,7 @@ class TutorialExamplePlugin extends GenericPlugin {
 }
 ```
 
-By default, scripts and styles are loaded on the reader-facing website. Pass a `context` argument to load them in the editorial backend.
+Por padrão, scripts e estilos são carregados no site voltado para o leitor. Passe um argumento `context` para carregá-los no backend editorial.
 
 ```php
 $templateMgr->addStyleSheet(
@@ -48,7 +48,7 @@ $templateMgr->addStyleSheet(
 );
 ```
 
-You can pass more than one context to load them in two places.
+Você pode passar mais de um contexto para carregá-los em dois lugares.
 
 
 ```php
@@ -61,4 +61,4 @@ $templateMgr->addStyleSheet(
 
 ---
 
-View more [examples](./examples).
+Veja mais [exemplos](./examples).
