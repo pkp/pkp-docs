@@ -45,7 +45,7 @@ Para enviar e-mail a um usuário que não esteja relacionado a uma submissão, s
 
 ![Caixa de pop-up de e-mail para enviar mensagem para um usuário](./assets/learning-ojs-3-users-email.png)
 
-##### Bulk Email Notifications by Role
+##### Notificações de e-mail em massa por papel
 
 No OJS 3.3, é possível  enviar um e-mail a vários usuários ao mesmo tempo usando a guia Notificar. Tal recurso deverá ser habilitado para cada revista pelo administrador da revista em Configurações do Website > E-mails em massa. O administrador do portal também pode desabilitar certas funções do periódico de receber e-mails em massa, acessando a área Revistas Hospedadas > Configurações do Portal.
 
