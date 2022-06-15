@@ -2,33 +2,33 @@
 title: Example - Get Data from the Template - Plugin Guide for OJS and OMP
 ---
 
-# Get Data from the Template
+# Obter dados do Template
 
-When you [override a template](./templates#override-templates), you may need to get data that has already been assigned to the template. For example, consider the single issue template below.
+Ao [substituir um template](./templates#override-templates), pode ser necessário obter dados que já foram atribuídos ao template. Por exemplo, considere o template único de edição abaixo.
 
 ```html
 <div class="issue">
-  <p>Published: {$issue->getPublished()}</p>
+  <p>Publicado: {$issue->getPublished()}</p>
   ...
 </div>
 ```
 
-Your plugin overrides this template because it wants to show a unique ID with all issues. Your plugin's template looks like this.
+Seu plugin substitui este template porque deseja mostrar um ID exclusivo com todas as edições. O template do seu plugin se parece com isso.
 
 ```html
 <div class="issue">
-  <p>Published: {$issue->getPublished()}</p>
-  <p>Internal ID: {$issueInternalId}</p>
+  <p>Puclicado: {$issue->getPublished()}</p>
+  <p>ID interno: {$issueInternalId}</p>
   ...
 </div>
 ```
 
-However, you first need to retrieve the `issueInternalId` from the plugin settings to display the ID. In the example below, the plugin does the following.
+No entanto, primeiro você precisa recuperar o `issueInternalId` das configurações do plug-in para exibir o ID. No exemplo abaixo, o plugin faz o seguinte.
 
-1. Hook into the call that loads the `pages/issue.tpl` template.
-2. Get the `Issue` object from the template variables.
-3. Use the issue ID to get the correct plugin setting.
-4. Assign the `issueInternalId` for use in the plugin's custom template.
+1. Conecte-se à chamada que carrega o modelo `pages/issue.tpl`.
+2. Obtenha o objeto `Issue` das variáveis do template.
+3. Use o ID da edição para obter a configuração correta do plugin.
+4. Atribua o `issueInternalId` para uso no template personalizado do plugin.
 
 ```php
 class InternalIssueIdPlugin extends GenericPlugin {
@@ -37,7 +37,7 @@ class InternalIssueIdPlugin extends GenericPlugin {
         $success = parent::register($category, $path, $mainContextId);
         if ($success && $this->getEnabled()) {
 
-      // 1. Hook in before the template is displayed...
+      // 1. Conecte-se antes que o tempĺate seja exibido...
       HookRegistry::register('TemplateManager::display',array(&$this, 'addIssueInternalId'));
         }
         return $success;
@@ -48,18 +48,18 @@ class InternalIssueIdPlugin extends GenericPlugin {
     $template = $args[1];
     $contextId = Application::get()->getRequest()->getContext()->getId();
 
-    // 1. ...only when it is the issue template.
+    // 1. ...somente quando for o template de edição.
     if ($template !== 'frontend/pages/issue.tpl') {
       return false;
     }
 
-    // 2. Get the `issue` object from the assigned template variables.
+    // 2. Obtenha o objeto `issue` das variáveis de template atribuídas.
     $issue = $templateMgr->getTemplateVars('issue');
 
-    // 3. Get the matching plugin setting.
+    // 3. Obtenha a configuração de plugin correspondente.
     $internalIssueId = $this->getSetting($contextId, 'issueInternalId' . $issue->getId());
 
-    // 4. Assign the internal issue id for use in the template.
+    // 4. Atribua o Id interno da edição para uso no template.
         $templateMgr->assign('internalIssueId', $internalIssueId);
 
         return false;
@@ -69,4 +69,4 @@ class InternalIssueIdPlugin extends GenericPlugin {
 
 ---
 
-View more [examples](./examples).
+Veja mais [exemplos](./examples).
