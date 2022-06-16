@@ -1,5 +1,7 @@
 ---
 book: journal-policies-workflows
+title: Journal Policies and Workflows
+description: This guide provides an overview of common journal policies and workflows and how they can be applied within OJS.
 ---
 
 # Journal Policies and Workflows
