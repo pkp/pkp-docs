@@ -5,4 +5,3 @@ The Journal Management Pages allow Managers to configure the journal's web site,
 We'll start with the Five-Step Setup Process, found by selecting Setup.
 
 ![Journal Setup](images/chapter5/j_setup.png)
-
