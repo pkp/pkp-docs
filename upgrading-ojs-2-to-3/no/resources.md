@@ -2,16 +2,17 @@
 
 ## OJS 3 resources
 
--   [Learning OJS 3.1: A Visual Guide to Open Journal Systems](https://docs.pkp.sfu.ca/learning-ojs/) offers user guides, developer information, and publishing tips for OJS 3.
+-   [Learning OJS 3: A Visual Guide to Open Journal Systems](/learning-ojs/) offers user guides, developer information, and publishing tips for OJS 3.
 -   [OJS 3 Demo](https://pkp.sfu.ca/ojs/ojs_demo/): Explore how OJS 3 works by trying out the demo and test drive sites hosted by PKP.
 -   [PKP School](https://pkpschool.sfu.ca/) offers free video courses to assist users with various aspects of OJS 3, in both English and Spanish. You will need to create a free account and log in to the site in order to participate. The videos are also available at [PKP’s YouTube channel](https://www.youtube.com/user/PublicKnowledgeProj).
 -   [OJS Release Notes](https://github.com/pkp/ojs/blob/main/docs/release-notes) lists new features.
--   [PKP Docs What’s New in OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/introduction#whats-new-in-ojs-3) outlines interface changes for readers & editors.
+-   [PKP Docs What’s New in OJS 3](/learning-ojs/en/introduction#whats-new-in-ojs-3) outlines interface changes for readers & editors.
 -   [Major New Features in Upcoming OJS 3](https://pkp.sfu.ca/2016/08/05/major-new-features-in-upcoming-ojs-3/) is a pre-release blog post from 2016.
 
 ## Upgrade resources
 
--   Official OJS [upgrade documentation](https://pkp.sfu.ca/ojs/UPGRADE) by PKP.
+-   The [Technical Upgrade guide](/dev/upgrade-guide/).
+-   OJS [upgrade documentation](https://pkp.sfu.ca/ojs/UPGRADE) by PKP.
 -   [Video overview of the upgrade process](https://youtu.be/LY4ZBdxLKDE) by PKP Lead Developer Alec Smecher.
 -   [5 Steps to OJS 3: Upgrade Planning for Service Providers](https://pkp.sfu.ca/2018/07/11/5-steps-to-ojs-3-upgrade-planning-for-service-providers/) - PKP blog post.
 -   [Getting Ready for OJS 3.0: When Should I Upgrade?](https://pkp.sfu.ca/2016/08/29/getting-ready-for-ojs-3-0-when-should-i-upgrade/) - PKP blog post.
