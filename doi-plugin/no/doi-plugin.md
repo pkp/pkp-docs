@@ -52,7 +52,7 @@ _Anbefaling 3_ // Bruk standard oppsett dersom du ønsker automatisert tildeling
 
 > Denne funksjonen er ikke tilgjengelig i alle versjoner av DOI Plugin
 
-Knappen **Reassign DOIs** sletter alle tildelte DOI, med unntak av de du har tildelt manuelt. Dette regnes som en avansert funksjon. _Bruk den derfor med forsiktighet, og vær sikker på at du har full oversikt over konsekvensene ved bruk!_ Prøv den aller helst først ut i en testversjon av systemet, dersom du har det tilgjengelig. Alle DOI vil be generert på ny, basert på oppsettet du har valgt. Det betyr at hvis du endrer dette oppsettet etter at DOI er generert vil disse DOI-ene forsvinne, og publikasjonene vil motta en helt ny DOI. Dette bør i de fleste tilfeller unngås, da det betyr at samme publikasjon registreres med to DOI, noe som er i strid med hele hensikten med DOI. I alle tilfeller bør du ta en backup av databasen før du sletter alle tildelte DOI.
+Knappen **Reassign DOIs** sletter alle tildelte DOI, med unntak av de du har tildelt manuelt. Dette regnes som en avansert funksjon. _Bruk den derfor med forsiktighet, og vær sikker på at du har full oversikt over konsekvensene ved bruk!_ Prøv den aller helst først ut i en testversjon av systemet, dersom du har det tilgjengelig. Alle DOI vil be generert på nytt, basert på oppsettet du har valgt. Det betyr at hvis du endrer dette oppsettet etter at DOI er generert vil disse DOI-ene forsvinne, og publikasjonene vil motta en helt ny DOI. Dette bør i de fleste tilfeller unngås, da det betyr at samme publikasjon registreres med to DOI, noe som er i strid med hele hensikten med DOI. I alle tilfeller bør du ta en backup av databasen før du sletter alle tildelte DOI.
 
 ### Assign DOIs
 
