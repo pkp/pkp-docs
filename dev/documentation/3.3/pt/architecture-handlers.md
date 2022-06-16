@@ -1,30 +1,30 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Handlers - Technical Documentation - OJS|OMP|OPS 3.3
+title: Handlers - Documentação Técnica - OJS|OMP|OPS 3.3
 ---
 
 # Handlers
 
-Every request is routed to a `Handler`, which is responsible for authorizing the request, fetching data and formatting the response.
+Cada solicitação é roteada para um `Handler`, que é responsável por autorizar a solicitação, buscar dados e formatar a resposta.
 
-Code inside of a `Handler` can not be reused, so `Handler`s should not perform these actions themselves. Instead, they should coordinate other classes to fulfil the request.
+O código dentro de um `Handler` não pode ser reutilizado, portanto, `Handler`s não devem executar essas ações por conta própria. Em vez disso, eles devem coordenar outras classes para atender à solicitação.
 
-`Handler`s **do not authorize the request** and should not be used without appropriate [authorization policies](./architecture-authorization).
+`Handler`s **não autorizam a solicitação** e não devem ser usados sem as [políticas de autorização](./architecture-authorization) apropriadas.
 
-> **Tip:** `Handler`s perform the role of `Controller`s in the MVC (Model-View-Controller) application architecture. 
+> **Dica:** `Handler`s desempenham a função de `Controller`s na arquitetura de aplicativo MVC (Model-View-Controller). 
 > 
 > {:.tip}
 
-## Page Handlers
+## Páginas Handlers
 
-Page Handlers receive `GET` requests and return `HTML` output. The Page Handler must define a method for each op it supports.
+A página Handles recebem solicitações `GET` e retornam a saída `HTML`. A Página Handler deve definir um método para cada operação que ele suporta.
 
 ```php
 import('classes.handler.Handler');
 class IssueHandler extends Handler {
     /**
-     * Display the table of contents for the current issue
+      * Exibir o índice da edição atual
      */
     public function current(array $args, Request $request) {
         return '<html>...</html>';
@@ -32,17 +32,17 @@ class IssueHandler extends Handler {
 }
 ```
 
-Learn more about [page URLs, routes and ops](./architecture-routes#page-routes).
+Saiba mais sobre [URLs de página, rotas e operações](./architecture-routes#page-routes).
 
-### Page Indexes
+### Página Indexes
 
-Page Handlers may define an `index` op to handle URLs that do not contain an op.
+Página Handlers podem definir uma operação `index` para lidar com URLs que não contêm uma operação.
 
 ```php
 import('classes.handler.Handler');
 class IssueHandler extends Handler {
     /**
-     * Display a list of all issues
+     * Exibir uma lista de todas as edições
      */
     public function index(array $args, Request $request) {
         return '<html>...</html>';
@@ -50,7 +50,7 @@ class IssueHandler extends Handler {
 }
 ```
 
-The router must declare the `index` op:
+O router deve declarar a operação `index`:
 
 ```php
 switch ($op) {
@@ -61,9 +61,9 @@ switch ($op) {
 }
 ```
 
-### Page Arguments
+### Argumentos de Página
 
-Any URL fragments that are appended after the op will be passed to the `Handler`'s method in the `$args` param.
+Quaisquer fragmentos de URL anexados após a operação serão passados para o método do `Handler` no parâmetro `$args`.
 
 ![Diagram indicating the parts of a URL for Page Handlers](../img/url-route-page.png)
 
@@ -76,13 +76,13 @@ class IssueHandler extends Handler {
 }
 ```
 
-Return a `404` error when page arguments request an entity that does not exist.
+Retorna um erro `404` quando os argumentos da página solicitam uma entidade que não existe.
 
 ```php
 class IssueHandler extends Handler {
  public function view(array $args, Request $request) {
      $issueId = isset($args[0]) ? (int) $args[0] : null;
-     if (/* issue not found */) {
+     if (/* edição não encontrada */) {
          $this->getDispatcher()->handle404();
      }
      return '<html>...</html>';
