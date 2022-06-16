@@ -1,13 +1,13 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Request Lifecycle - Technical Documentation - OJS|OMP|OPS 3.3
+title: Ciclo de Vida da Solicitação - Documentação Técnica - OJS|OMP|OPS 3.3
 ---
 
-# Request Lifecycle
+# Ciclo de vida da solicitação
 
-HTTP requests are routed to a `Handler` which responds to the request. The `Handler` coordinates other classes to authenticate requests, fetch data and format the response.
+As solicitações HTTP são roteadas para um `Handler` que responde à solicitação. O `Handler` coordena outras classes para autenticar solicitações, buscar dados e formatar a resposta.
 
-![Diagram describing how a request is handled](../img/request-lifecycle.png)
+![Diagrama que descreve como uma solicitação é tratada](../img/request-lifecycle.png)
 
-Learn about how requests are [routed to handlers](./architecture-routes.md).
+Saiba como as solicitações são [roteadas para handles](./architecture-routes.md).
