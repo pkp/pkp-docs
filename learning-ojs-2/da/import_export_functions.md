@@ -1,17 +1,12 @@
 # Import/Export Data
 
-
 Open Journal Systems offers a variety of tools and Import/Export plugins which allow the Journal Manager to inject data into and extract data from OJS. More information can be found for each plugin's documentation within OJS' plugin directory (plugins/).
 
-
 > Note This section serves only as an overview of OJS' import/export functionality. Some import/export functions, notably the Users and Issues & Articles functions, are complex to use and to explain. For detailed usage instructions for all import/export functions, see the [documentation online](https://docs.pkp.sfu.ca/importing-exporting/en/).
-
-
 
 Journal Managers can begin to import and export different types of data by going to the Journal Management menu and selecting **Import/Export Data**.
 
 ![Journal Management Pages: Import/Export Data](images/chapter5/import_export_1.png)
-
 
 The resulting page displays the available options to **Import/Export Data**.
 
