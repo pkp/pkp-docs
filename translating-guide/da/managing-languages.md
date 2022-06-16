@@ -1,6 +1,7 @@
 ---
 book: translating-guide
 version: 3.2
+title: How to Manage Languages in Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
 ---
 
 # Manage Languages in PKP Software
@@ -46,6 +47,8 @@ If you have more than one context (journal, server or press) installed, the Site
 
 For each context, the Manager controls the settings within that context by navigating to Settings > Website > Setup > Languages. Each language can be enabled for the UI, for Forms, and for Submissions.
 
+Consider carefully how you want to configure and use languages on your site because significant problems can occur if you change the settings later.
+
 * UI: Controls the user interface languages available in the front-end and in the back end. Enabling a language for the UI will allow users to select the language of the application interface. For example, buttons, page titles, and on-screen messages will be in the user's selected language.
 
 * Forms: Controls the data entry forms for the application. Enabling a language for forms will allow text boxes to support multilingual data entry. For example, configuration settings and metadata can be entered in multiple languages.
@@ -61,6 +64,10 @@ The PKP keeps an up-to-date list of languages and contributors from the relevant
 * [OMP Languages List](https://translate.pkp.sfu.ca/projects/omp/#languages)
 
 If you don't see the language(s) you are looking for listed on either of these lists, please consider undertaking the translation yourself. If you are interested in contributing in such a way, [contact us](http://pkp.sfu.ca/contact) for advice, or consult the rest of this document.
+
+### Use a Translation from OXS 3.1 or 3.0
+
+In OXS 3.2, the format of the translation files changed from XML files to PO files and PKP changed from using the Translation Plugin in OJS or working directly in the XML files to translate to using the online community translation tool Weblate. If you want to use a translation that was done on an OXS 3.1 or 3.0 site, it’s best to add the translation to Weblate so it can continue to be updated. [PKP](https://pkpservices.sfu.ca/contact/) can convert the XML files into PO files and load them into Weblate. You can also use a command line tool in the lib/pkp/tools directory in OJS to convert locale XML files to locale PO files and add them to your site locally. But it is better to share the translation with the community via Weblate and continue to update it.
 
 ## Install a Language
 
@@ -89,7 +96,9 @@ If the language is new, you will also have to add an entry for it to the file in
 
 ## Default Translation Plugin
 
-While you're in the process of translating the software, you can avoid having untranslated locale keys displayed on your site (like ##plugins.generic.customLocale.customLocaleFiles##) by using the Default Translation plugin. This plugin will automatically display the English translation if the site is set to another language but a translation of a message key does not exist in that language.
+While you're in the process of translating the software or if you're using an incomplete translation, you can avoid having untranslated locale keys displayed on your site (like ##plugins.generic.customLocale.customLocaleFiles##) by using the Default Translation plugin. This plugin will automatically display the English translation if the site is set to another language but a translation of a message key does not exist in that language.
+
+Please note this plugin not apply to email template locale files. If a translation of an email template is missing and you try to use a template in that language, a blank email will be sent.
 
 To use the plugin
 1. Go to Website Settings > Plugins > Plugin Gallery
