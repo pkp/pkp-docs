@@ -43,7 +43,7 @@ OJS sisältää seuraavat ominaisudet:-:
 
 ## Mitä uutta tämä OJS-versio tarjoaa?
 
-OJS 3.3 has a simplified dashboard navigation menu and new features related to submission management, communicating with users, and accessibility. This section will outline the main changes so you know what to expect when you upgrade to OJS 3.3. You can also watch [a video that demonstrates new features in OJS 3.3](https://youtu.be/3D_hS4Bd-Y8), created by [PKP Publishing Services](https://pkpservices.sfu.ca).
+OJS 3.3:ssa kojelauden navigointivalikkoa on yksinkertaistettu. Käsikirjoitusten lähettämiseen, käyttäjien kanssa viestintään sa saavutettavuuteen on tullut uusia ominaisuuksia.  Tässä kappaleessa esitellään keskeiset muutokset, jotta tiedät, mitä odottaa OJS 3.3:een päivittämiseltä. Aiheesta on myös  [opetusvideo, jolla esitellään OJS 3.3:n](https://youtu.be/3D_hS4Bd-Y8) uudet ominaisuudet. Videon on tuottanut [PKP Publishing Services](https://pkpservices.sfu.ca).
 
 Many of these changes are applicable also to Open Monograph Press (OMP) and Open Preprint Systems (OPS).
 
