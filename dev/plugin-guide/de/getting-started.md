@@ -4,13 +4,13 @@ title: Getting Started - Plugin Guide for OJS and OMP
 
 # Getting Started
 
-In this guide, we will create a generic plugin that we will call the Tutorial Example.
+In dieser Anleitung werden wir ein Generic-Plugin erstellen.
 
-> Download a working example of [the plugin](https://github.com/pkp/tutorialExample) we will build in this tutorial from GitHub. 
+> Den Code des [Plugins](https://github.com/pkp/tutorialExample), das wir im Folgenden schreiben werden, kannst du von GitHub herunterladen. 
 > 
 > {:.notice}
 
-A plugin stores all of its files in one directory in OJS or OMP. Our example plugin will be a `generic` plugin, so we put it in that directory. Every plugin requires three files.
+Alle für das Plugin relevanten Dateien werden in einem bestimmten Verzeichnis innerhalb deiner OJS/OMP-Installation abgespeichert. Unser Beispiel-Plugin ist ein `generic`-Plugin, deshalb wird es in diesem Verzeichnis abgelegt. Jedes Plugin benötigt (mindestens) drei Dateien.
 
 ```
 ojs
@@ -25,13 +25,13 @@ ojs
 │     └── version.xml
 ```
 
-> The directory name must be letters and numbers. No spaces, `-`, or `_` characters are allowed. 
+> Der Name des Verzeichnisses darf nur Buchstaben und Zahlen enthalten. Leerzeichen, `-`, or `_` sind nicht erlaubt. 
 > 
 > {:.tip}
 
 ## version.xml
 
-The `version.xml` provides information required to load the plugin.
+Die Datei `version.xml` stellt Informationen zur Verfügung wie das Plugin geladen werden soll.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -46,11 +46,11 @@ The `version.xml` provides information required to load the plugin.
 </version>
 ```
 
-The `<application>` must match the directory name. The `<type>` must be the plugin's [category](./categories). The `<class>` must match the plugin's class name.
+Der `<application>` Tag ist identisch mit dem Verzeichnis-Namen. Der `<type>` Tag entspricht der [Plugin-Kategorie](./categories). Im `<class>` Tag wird der Name der Plugin-Klasse eingetragen.
 
 ## TutorialExamplePlugin.inc.php
 
-Every plugin must have a class which registers and runs the plugin.
+Jedes Plugin muss eine Klasse besitzen, mit der es registriert und ausführt wird.
 
 ```php
 <?php
@@ -92,7 +92,7 @@ class TutorialExamplePlugin extends GenericPlugin {
 
 ## index.php
 
-The `index.php` file is required to load the correct plugin class.
+Die Datei `index.php` wird benötigt um die korrekte Plugin-Klasse zu laden.
 
 ```php
 <?php
@@ -100,8 +100,8 @@ require_once('TutorialExamplePlugin.inc.php');
 return new TutorialExamplePlugin();
 ```
 
-Go to Settings > Website > Plugins and try to enable and disable your plugin. If there is an error when enabling it, check your plugin against the [working example](https://github.com/pkp/tutorialExample)
+Gehe zu Einstellungen > Website > Plugins und versuche dein Plugin zu aktivieren bzw. zu deaktivieren. Wenn ein Fehler beim Aktivieren auftritt, vergleiche deinen Plugin-Code mit dem von [GitHub](https://github.com/pkp/tutorialExample).
 
 ---
 
-Learn how to choose the right [plugin category](./categories) for your plugin.
+Erfahre mehr darüber, wie du die richtige [Kategorie](./categories) für dein Plugin auswählst.
