@@ -1,3 +1,7 @@
+- - -
+title: FAQ about Users and Roles in Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
 # Users and Roles
 
 ## How do I prevent users from self-registering?
