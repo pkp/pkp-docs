@@ -1,10 +1,12 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Reader Statistics - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Reader Statistics
 
-OJS and OMP offer [Service](architecture-services.md) classes to help you retrieve and calculate statistics about your installation.
+OJS and OMP offer service classes to help you retrieve and calculate statistics about your installation.
 
 Reader statistics refer to the activity of users visiting the reader-facing website of a journal or press. Daily and monthly totals of visitors are stored for each context, section, article landing page and article galley.
 
