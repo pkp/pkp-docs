@@ -4,7 +4,7 @@ title: Plugin Categories - Plugin Guide for OJS and OMP
 
 # Plugin Categories
 
-A plugin's category determines when it is loaded and in what ways it can modify the application. For example, a [block](#blocks) plugin can add a block of content to the sidebar in the reader-facing website. But it can't do anything else and won't be loaded on the backend.
+Die Kategorie eines Plugins bestimmt, wann genau es beim Seitenaufruf geladen wird und auf welche Art und Weise es die Anwendung verändern kann. Ein [-Block](#blocks) Plugin beispielsweise auf den Seiten, die öffentlich zugänglich sind, zusätzlichen Inhalt zur Seitenleiste hinzufügen. Allerdings hat es keine weitere Funktion und wird nicht im Editorial Backend geladen.
 
 Each plugin must extend one of the plugin category classes that exist in OJS and OMP. In the [Getting Started](./getting-started) tutorial, the Tutorial Example plugin extended the `GenericPlugin` class.
 
