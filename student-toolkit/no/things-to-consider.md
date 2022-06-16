@@ -1,3 +1,7 @@
+- - -
+title: Things to Consider - Student Journal Toolkit
+- - -
+
 # Things to Consider
 
 This [blog post on the Hybrid Publishing Lab](./appendix-3) includes a worksheet or canvas that you can use when thinking of the following consideration for your journal.
