@@ -1,3 +1,6 @@
+- - -
+title: Getting Started - Guidelines for Contributing to PKP Documentation
+- - -
 # Getting Started
 
 Most of PKP’s documentation is hosted and managed in a GitHub repository called the PKP Documentation Hub and is built using an open-source tool called [Jekyll](https://jekyllrb.com/). GitHub is a collaborative version control system that manages and stores revisions of a project. To learn more about GitHub and Git, watch this ["What Is Git and Github?" video](https://www.youtube.com/watch?v=uUuTYDg9XoI) or this ["Git and Github for Poets" video](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV).
@@ -10,35 +13,35 @@ If you don’t have a GitHub account already, begin by [creating an account](htt
 
 Each folder in the PKP Documentation Hub repository represents a document.
 
-![](./assets/Github-dash.png)
+![Docs hub folder structure in Github.](./assets/Github-dash.png)
 
 Short documents consist of a single markdown file and may have an “assets” folder of images. All content is contained in the `index.md` file and the table of contents on the side of the page is created using the header tags in markdown.
 
-![](./assets/index-file.png)
+![Index.md page of Starting a Journal document.](./assets/index-file.png)
 
 Longer documents consist of multiple chapter files, a README file, a SUMMARY file, and an assets folder. Content is stored in the chapter files and the README file acts as a summary page for the document. The SUMMARY file creates the table of contents.
 
 **All files created will need to have a .md ending**
 
-![](./assets/Github-dash-2.png)
+![Learning OJS guide folder structure.](./assets/Github-dash-2.png)
 
 If the document exists (or will exist) in more than one language, there will be a separate folder of these files for each language version.
 
-![](./assets/Github-dash-lang.png)
+![Learning OJS guide language folders.](./assets/Github-dash-lang.png)
 
 ### README File
 
 The README.md file should include a brief introduction regarding the document, a list of contributors, and a release date.
 
-![](./assets/Github-readme.png)
+![Readme file for the Using the Paypal Plugin guide.](./assets/Github-readme.png)
 
 ## Branches and Pull Requests
 
 A branch is a version of the repository that contains the changes you’ve proposed, uniquely. Since it is not part of "main", it won’t have an impact on the way the site is built in real-time.
 
-As most users will not have direct access to make changes to the PKP repository, they will need to create a branch to make changes. If you do not have full permission you will come across the message box below.
+As most users will not have direct access to make changes to the PKP repository, they will need to create a branch to make changes. If you do not have full permission you will come across the message box that says: "You're editing a file in a project you don't have write access to. Submitting a change to this file will write it to a new branch in your fork, so you can send a pull request".
 
-![](./assets/Github-notice.png)
+![Editing access warning message.](./assets/Github-notice.png)
 
 A branch can be created on your own repository or automatically generated when you try to make a change on the PKP repository.
 
@@ -76,42 +79,63 @@ Here are three guides for writing markdown:
 
 If you're working on a large piece of documentation and you're not comfortable using either the command line or the web interface for GitHub, consider using [GitHub Desktop](https://desktop.github.com/) and the [Atom](https://atom.io/) text editor. With this workflow, you can "clone" a copy of the docs repository to your computer, make your edits locally (and even build a version of the Documentation Hub using Ruby, if you like) and create a pull request with your changes once you're finished.
 
-Once you've installed GitHub desktop, you should have an option while viewing any GitHub repository to "Clone or Download" and "Open in Desktop".
+Once you've installed GitHub desktop, you should have an option while viewing any GitHub repository to "Code" and "Open with GitHub Desktop".
 
 1. Navigate to the repository you want to clone.
-2. Click on the green button on the right that says "Clone or Download."
-3. Select the "Open in Desktop" option.
+2. Click on the green button on the right that says "Code."
+3. Select the "Open with GitHub Desktop" option.
 
-![](./assets/contrib-04.gif)
+![Press Code button and then Open in Desktop.](./assets/contrib-04.png)
 
-GitHub desktop manages your commits and pull-requests locally. It's especially convenient if you're changing more than one file at once. If you have Atom installed, you can open your project with the editor directly from GitHub desktop.
+You'll be prompted to choose a download location for your copy of the repository. If you're happy with the default, click the blue "Clone" button.
+
+![Click Clone button to download the repository.](./assets/contrib-04a.png)
+
+It'll take a few minutes for all the files to download.
+
+GitHub desktop manages your commits and pull-requests locally. It's especially convenient if you're changing more than one file at once. If you have Atom installed, you can open your project with the editor directly from GitHub Desktop.
 
 1. Open GitHub desktop.
 2. Right click on the name of the repository in which you want to work.
 3. Select "Open in Atom."
 
-![](./assets/contrib-05.gif)
+![Open project from Github Desktop.](./assets/contrib-05.png)
 
-In Atom, the repository directory structure is accessible on the left-hand side in the "project window." Clicking on any title opens it in the editor and allow you to make changes. You'll notice labels next to the files as you work. Green indicates a new file you've added. Yellow indicates a file you've changed since the last time you pulled an update from the primary repository.
+In Atom, the repository directory structure is accessible on the left-hand side in the "project window." Clicking on any title opens it in the editor and allow you to make changes. You'll notice the colors of the filenames change as you work. Green indicates a new file you've added. Yellow indicates a file you've changed since the last time you pulled an update from the primary repository.
 
-![](./assets/contrib-06.png)
+If you are working on a project over time, you may want to regularly pull changes "from origin." You can do this in GitHub desktop by clicking the "Fetch origin" button at the top of the window. It pulls changes since the last time you pulled them (or, since the time you cloned initially).
 
-If you are working on a project over time, you may want to regularly pull changes "from origin." You can do this in GitHub desktop by clicking on the "pull from origin" button near the top right of the window. It pulls changes since the last time you pulled them (or, since the time you cloned initially).
+![Fetch origin updates from GitHub.](./assets/contrib-06a.png)
 
-Once you make your edits with Atom and have a document you want to submit, you'll want to contribute it back as a "branch."
+Make sure you've saved your changes in Atom. Then you'll see a list of your changed files in GitHub Desktop. A green plus sign indicates a file you're adding; an orange dot denotes a file you've modified.
 
-1. In GitHub desktop, click on the "Current Branch" button.
+In the bottom left-hand corner, you'll see a warning that you don't have write access to pkp-docs. GitHub Desktop invites you to create a fork by clicking on the hyperlink.
+
+![Create a fork of the repository.](./assets/contrib-07a.png)
+
+On the popup message, click the **Fork this Repository** button. GitHub then asks how you're planning to use this repository. Choose **To contribute to the parent project** and then click the blue **Continue** button.
+
+![Contribute to the parent project.](./assets/contrib-07b.png)
+
+Once you've finished making your edits with Atom and have a document you want to submit, you'll need to contribute it back as a "branch."
+
+1. In GitHub Desktop, click on the "Current Branch" button.
 2. Click "New Branch"
-3. Write a concise name for your branch based on the doc you're submitting, with a single dash between words.
+3. Write a concise name for your branch based on the document you're submitting, with a single dash between words.
 4. Click "Create Branch."
 
-![](./assets/contrib-07.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/contrib-07.mp4" type="video/mp4">
+  </video>
+  <figcaption>Create a branch menu in GitHub Desktop.</figcaption>
+</figure>
 
-Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub desktop window, you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
+Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub Desktop window, you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
 
-![](./assets/contrib-08.png)
+![Commit to master button in Github desktop.](./assets/contrib-08.png)
 
-The first field is for a very short descriptor of what you just changed. A few words should do the trick. Here are some examples:
+The Summary field is for a very short descriptor of what you just changed. A few words should do the trick. Here are some examples:
 
 - Updated `filename.md`
 - Migrated `filename.md`
@@ -122,17 +146,11 @@ The second field is for a more detailed description of what you changed. You mig
 
 When you finish, click the button on the bottom left labelled "Commit to `branch name`."
 
-Now that you've committed your changes, you can push your changes back to the repo with the button on the top right. It should say "Publish your Branch to GitHub" if it's the first time you've committed that branch. It syncs versions locally and remotely with your branch changes and submits your "pull request" to managers of the Docs Hub.
+Now you've committed your changes, you can push your changes back to the repository with the blue button on the top right. It should say "Publish branch" if it's the first time you've committed that branch. Once your branch has synced, you'll see a blue "Create Pull Request" button so you can submit your changes to the managers of the Docs Hub.
+
+![Submit Pull Request.](./assets/contrib-08a.png)
 
 This document is, necessarily, a brief introduction to using GitHub. GitHub has a tremendous amount of documentation on its use, however. If you want to read more about GitHub basics, read ["Hello, World"](https://guides.github.com/activities/hello-world/).
-
-
-<!---
-Include this in internal Documentation Procedures instead
-## Modify cards and site layout
-
-Please read [Orientation to file structure](./README.md#orientation-to-file-structure) for guidance on how to configure the layout of the documentation hub. It is recommended that edits in this space be cleared via Git Issue or pull request.
---->
 
 ## Contribute in Other Formats
 
