@@ -6,7 +6,7 @@ title: Plugin Categories - Plugin Guide for OJS and OMP
 
 Die Kategorie eines Plugins bestimmt, wann genau es beim Seitenaufruf geladen wird und auf welche Art und Weise es die Anwendung verändern kann. Ein [-Block](#blocks) Plugin beispielsweise auf den Seiten, die öffentlich zugänglich sind, zusätzlichen Inhalt zur Seitenleiste hinzufügen. Allerdings hat es keine weitere Funktion und wird nicht im Editorial Backend geladen.
 
-Each plugin must extend one of the plugin category classes that exist in OJS and OMP. In the [Getting Started](./getting-started) tutorial, the Tutorial Example plugin extended the `GenericPlugin` class.
+Jede Plugin-Kategorie entspricht einer bestimmten Klasse, und jedes neue Plugin muss eine dieser Klassen erweitern. Im Abschnitt [Getting Started](./getting-started), the Tutorial Example plugin erweitern die `GenericPlugin` Klasse.
 
 ```php
 import('lib.pkp.classes.plugins.GenericPlugin');
@@ -15,7 +15,7 @@ class TutorialExamplePlugin extends GenericPlugin {
 }
 ```
 
-A block plugin will extend the `BlockPlugin` class.
+Ein Block-Plugin erweitert die `BlockPlugin` Klasse.
 
 ```php
 import('lib.pkp.classes.plugins.BlockPlugin');
@@ -24,7 +24,7 @@ class TutorialBlockPlugin extends BlockPlugin {
 }
 ```
 
-Each plugin category class provides methods that must be implemented. For example, a [report](#reports) plugin extends the `ReportPlugin` class and implements the `ReportPlugin::display()` method to deliver a CSV file with the report contents.
+Jede Kategorien-Klasse stellt bestimmte Methoden zur Verfügung, die implementiert werden müssen. For example, a [report](#reports) plugin extends the `ReportPlugin` class and implements the `ReportPlugin::display()` method to deliver a CSV file with the report contents.
 
 ```php
 import('lib.pkp.classes.plugins.ReportPlugin');
