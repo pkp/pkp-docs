@@ -1,5 +1,7 @@
 ---
-title: Forms - Frontend - Technical Documentation - OJS/OMP
+book: dev-documentation
+version: 3.4
+title: Forms - Frontend - Technical Documentation - OJS|OMP|OPS
 ---
 
 # List Panels
@@ -14,21 +16,16 @@ Each ListPanel extends the base class, defines configurable props as public prop
 ```php
 namespace PKP\components\listPanels;
 
-class PKPAnnouncementsListPanel extends ListPanel {
-
+class PKPAnnouncementsListPanel extends ListPanel
+{
     /** @var string URL to the API endpoint where items can be retrieved */
     public $apiUrl = '';
 
     /** @var int How many items to display on one page in this list */
     public $count = 30;
 
-    /**
-     * @copydoc ListPanel::getConfig()
-     */
-    public function getConfig() {
-        \AppLocale::requireComponents(LOCALE_COMPONENT_PKP_MANAGER);
-        \AppLocale::requireComponents(LOCALE_COMPONENT_APP_MANAGER);
-
+    public function getConfig()
+    {
         // Call ListPanel::getConfig() to compile common props
         $config = parent::getConfig();
 
@@ -50,10 +47,13 @@ class PKPAnnouncementsListPanel extends ListPanel {
 > 
 > {:.tip}
 
-In a `PageHandler`, create a new instance of the ListPanel and pass in the configuration props.
+In a `PageHandler`, create a new instance of the ListPanel, pass in the configuration props, and then call the `getConfig()` method to pass the props to the `TemplateManager` as state.
 
 ```php
-$listPanel = new \PKP\components\listPanels\PKPAnnouncementsListPanel(
+use APP\template\TemplateManager;
+use PKP\components\listPanels\PKPAnnouncementsListPanel;
+
+$listPanel = new PKPAnnouncementsListPanel(
     'announcementsListPanel',
     __('announcement.announcements'),
     [
@@ -61,11 +61,7 @@ $listPanel = new \PKP\components\listPanels\PKPAnnouncementsListPanel(
         'count' => 20,
     ]
 );
-```
 
-Then call the `getConfig()` method and pass the props to the `TemplateManager` as state.
-
-```php
 $templateMgr = TemplateManager::getManager($request);
 $templateMgr->setState([
     'components' => [
