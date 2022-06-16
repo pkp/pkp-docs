@@ -1,3 +1,7 @@
+- - -
+title: Alternative uses of OJS - Journal Policies and Workflows
+- - -
+
 # Alternative uses of OJS
 
 OJS can be used for the entire journal management process, from submissions through to final publication of issues. However, some journals choose to use OJS for only one stage of publishing - for example, to manage the submission workflow when publishing elsewhere on an external site, or to publish work on the OJS site when the workflow is managed outside of OJS. OJS can also be used to publish conference proceedings, and some journals choose to publish article-by-article, rather than collecting articles into an issue before publishing. We have outlined each of these use cases below.
@@ -7,7 +11,7 @@ OJS can be used for the entire journal management process, from submissions thro
 Your journal may choose to use OJS to manage the submission workflow and coordinate communications between editors and authors as work moves through submission, peer review, copyediting, and other aspects of the editorial and publishing workflow. If you are only using OJS to manage your submission workflow and not publish your content, you can do the following:
 
 1. In the **Settings** > **Distribution** > **Access** setting select “OJS will not be used to publish the journal’s contents online.”
-2. In the **Settings** > **Distribution** > **Access** disable OAI (Open Archives Initiative) to prevent indexing services from harvesting the journal metadata. 
+2. In the **Settings** > **Distribution** > **Access** disable OAI (Open Archives Initiative) to prevent indexing services from harvesting the journal metadata.
 
 See [Learning OJS > Distribution Settings > Access](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#access) for more information and instructions for changing these settings.
 
