@@ -16,7 +16,7 @@ Aktivering av tillegget i OJS, OMP og OPS 3.x fungerer på samme måte.
 
 Etter aktivering av tillegget vil en lenke til Settings vise på skjermen.  Du må kanskje klikke den blå pilen ved siden av tilleggets navn for å få denne lenken til å vise.
 
-Velg Settings. Noe som ser ut som dette skjemaet vil vise, med noen variasjoner avhengig av versjon og plattform.
+Velg Settings. Noe som ser ut som dette skjemaet vil vises, med noen variasjoner avhengig av versjon og plattform.
 
 ![Lenke til innstillinger for OJS 3.3 DOI plugin.](assets/settings-testdrive.png)
 
@@ -24,7 +24,7 @@ La oss gå gjennom disse innstillingene.
 
 ### Content
 
-Her kan du velge hvilke typer publikasjoner du vil at DOI skal aktiveres for. Å velge en publikasjonstype her betyr ikke nødvendigvis at alle publikasjoner av denne typen vil få en DOI. Avhengig av hvilken type DOI suffix du har valgt kan du selv manuelt tildele DOI dersom du ønsker det.
+Her kan du velge hvilke typer publikasjoner du vil at DOI skal aktiveres for. Å velge en publikasjonstype her betyr ikke nødvendigvis at alle publikasjoner av denne typen vil få en DOI. Avhengig av hvilken type DOI suffix du har valgt kan du selv tildele DOI manuelt dersom du ønsker det.
 
 _Anbefaling_: Gjør ting enklest mulig! Med mindre du jobber med en veldig spesiell publikasjon er det vanligvis best å kun tildele DOI på grunnleggene nivå, f. eks. artikkel eller bok.
 
@@ -52,10 +52,10 @@ _Anbefaling 3_ // Bruk standard oppsett dersom du ønsker automatisert tildeling
 
 > Denne funksjonen er ikke tilgjengelig i alle versjoner av DOI Plugin
 
-Knappen **Reassign DOIs** sletter alle tildelte DOI, med unntak av de du har tildelt manuelt. Dette regnes som en avansert funksjon. _Bruk den derfor med forsiktighet, og vær sikker på at du har full oversikt over konsekvensene ved bruk!_ Prøv den aller helst først ut i en testversjon av systemet, dersom du har det tilgjengelig. Alle DOI vil be generert på ny, basert på oppsettet du har valgt. Det betyr at hvis du endrer dette oppsettet etter at DOI er generert vil disse DOI-ene forsvinne, og publikasjonene vil motta en helt ny DOI. Dette bør i de fleste tilfeller unngås, da det betyr at samme publikasjon registreres med to DOI, noe som er i strid med hele hensikten med DOI. In any case you should make a **database backup** before you delete all assigned DOIs.
+Knappen **Reassign DOIs** sletter alle tildelte DOI, med unntak av de du har tildelt manuelt. Dette regnes som en avansert funksjon. _Bruk den derfor med forsiktighet, og vær sikker på at du har full oversikt over konsekvensene ved bruk!_ Prøv den aller helst først ut i en testversjon av systemet, dersom du har det tilgjengelig. Alle DOI vil be generert på ny, basert på oppsettet du har valgt. Det betyr at hvis du endrer dette oppsettet etter at DOI er generert vil disse DOI-ene forsvinne, og publikasjonene vil motta en helt ny DOI. Dette bør i de fleste tilfeller unngås, da det betyr at samme publikasjon registreres med to DOI, noe som er i strid med hele hensikten med DOI. I alle tilfeller bør du ta en backup av databasen før du sletter alle tildelte DOI.
 
 ### Assign DOIs
 
-> Does not appear in all versions of the DOI Plugin
+> Denne funksjonen er ikke tilgjengelig i alle versjoner av DOI Plugin
 
-**Assign DOIs** will, when clicked, assign a DOI to any published material using the chosen suffix pattern. This is a good way to catch any DOIs you may have missed, or to assign DOIs to a newly-uploaded back-issue.
+Denne funksjonen vil generere DOI til alt publisert materiale som bruker det valgte oppsettet for suffix. Dette er en god metode for å generere DOI til publikasjoner du har oversett, eller tildele DOI til et tidligere utgitt nummer av et tidsskrift som du har lastet opp i ettertid.
