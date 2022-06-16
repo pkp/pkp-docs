@@ -33,45 +33,45 @@ Det finns två uppdateringskategorier, mindre och större ändringar.
 
 **Större ändringar** om det är betydande ändringar som påverkar tolkning och tillskrivning av verket. Detta kan vara att dra tillbaka en artikel på grund av ett fel eller korrigering av en författares namn. Dessa förändringar bör reflekteras i Crossmark-status.
 
-Även om OJS för närvarande inte har stöd för Crossmark så planerar vi detta för framtiden. Users wishing to use Crossmark are able to do so by referring to the simplified steps below. For full details please see the [Crossref Guide](https://www.crossref.org/get-started/crossmark/)
+Även om OJS för närvarande inte har stöd för Crossmark så planerar vi detta för framtiden. Users wishing to use Crossmark are able to do so by referring to the simplified steps below. Vänligen se [Crossref Guide](https://www.crossref.org/get-started/crossmark/) för alla detaljer
 
-## Setup
+## Inställningar
 
-**Step 1: Create a Crossmark Policy Page and assign it a DOI**
+**Steg 1: Skapa en policysida för Crossmark och ge den en DOI**
 
-Your Crossmark Policy page should include a brief explanation of Crossmark and provide links within your site regarding corrections and retractions. You must also assign a DOI for persistent linking for this policy page. As this is not supported by the Crossref Plugin, this will need to be deposited manually. Crossmark policy pages should be deposited through [the Web Deposit form](https://apps.crossref.org/webDeposit/) as datasets with a “database” called “PublisherName Crossmark Policy Statement.” If you have multiple policy pages (for example, different policy pages for different journals) you should include them in the database deposit as multiple datasets.
+Din policysida för Crossmark bör inkludera en kort förklaring av Crossmark och förse läsaren med länkar på din webbplats om korrigeringar och tillbakadragande av artiklar. Du måste också ge denna policysida en DOI för att länken ska vara beständig.  Eftersom detta inte stöds av Crossref plugin så måste denna deponeras manuellt. Policysidor för Crossmark bör deponeras genom [Web Deposit form](https://apps.crossref.org/webDeposit/) som dataset med en "database" som kallas "PublisherName Crossmark Policy Statement." Om du har flera policysidor (till exempel olika policysidor för olika tidskrifter) så bör du inkludera dem i din databasdeponering som multipla dataset.
 
-For more information information on creating a Crossref Policy, see the [Crossmark Policy Page](https://www.crossref.org/education/crossmark/crossmark-policy-page/)
+För mer information om hur man skapar en Crossmark Policy, se [Crossmark Policy Page](https://www.crossref.org/education/crossmark/crossmark-policy-page/)
 
-**Step 2: Deposit Crossmark Metadata**
+**Steg 2: Deponera Crossmark-metadata**
 
-As a best practice and for most users, this would be done with the general deposit to Crossref for new publication and updates.
+För de flesta användare bör detta bäst göras med den allmänna deponeringen till Crossref för nya publikationer och uppdateringar.
 
-Again, you will need to deposit the following: new content, updated content, Crossmark policy page.
+Återigen, du behöver deponera följande: nytt innehåll, uppdaterat innehåll, policysida för Crossmark.
 
-It is also encouraged that you deposit additional metadata when possible, which may include funding data, licensing information, ORCID IDs, Clinical trial numbers, and any additional custom metadata such as publication history, similarity check deposit, and much more.
+Det uppmuntras också att du deponerar ytterligare metadata när det är möjligt, såsom finansiärsdata, licensinformation, ORCID-id:n, kliniska prövningsnummer och andra anpassad metadata såsom publiceringshistorik, och mycket mer.
 
-Some additional information may not be included in the Crossref XML export at this time. To see how other users have made code modification to export this additional information, please see the following forum posts.
+Viss ytterligare information kan möjligen inte inkluderas i Crossrefs XML-export för närvarande. Se följande inlägg i forumet för att se hur andra användare har gjort kodförändringar för att exportera denna ytterligare information.
 
-[Licensing Information](https://forum.pkp.sfu.ca/t/crossmark-support/1375/5)
+[Licensinformation](https://forum.pkp.sfu.ca/t/crossmark-support/1375/5)
 
-**Step 3: Add Crossref DOI to HTML pages and PDF**
+**Steg 3: Lägg till Crossref DOI till HTML-sidor och PDF**
 
-The metadata DOI should be added within the HTML header. This may already be added if using other metadata plugins.
+Metadata-DOI bör läggas till inom HTML-dokumentets huvud. Detta kanske redan läggs till om andra metadata plugins används.
 
 ```html
 <meta name=”dc.identifier” content =”10.3333/1212212”>
 ```
 
-Crossmark metadata also needs to be added to your PDF content. Minimally, this metadata must include the DOI of the content and the optional Crossmark domain(s). The link structure for the PDF should look like this:
+Crossmark-metadata behöver också läggas till i ditt PDF-dokument. Så minst behöver denna metadata inkludera DOI för innehållet och Crossmark-domänen. Länkstrukturen för PDF:en bör se ut så här:
 
 `https://crossmark.crossref.org/dialog/?doi=10.5555/12345678&domain=pdf&date_stamp=2017-01-14`
 
-where:
+där:
 
-- *doi* is the DOI of the content item
-- *domain* tells the Crossmark system what kind of static content the link is coming from, and will change for different static formats (such as epub)
-- *date_stamp* tells the Crossmark system the date on which a last Major Version of the PDF was generated. In most cases, this will be the date the article was published. However, when a member makes significant corrections to a PDF in-situ (no notice issued, and no new version of the work with a new DOI) then the *date_stamp* should reflect when the PDF was regenerated with the corrections. The system will then use the *date_stamp* in order to tell whether the reader needs to be alerted to updates or not. The *date_stamp* argument should be recorded in the form YYYY-MM-DD (learn more about ISO 8601).
+- *doi* är DOI för innehållet
+- *domain* berättar för Crossmark-systemet vilken slags statiskt innehåll som länken kommer ifrån, och kommer att bytas for olika statiska format (såsom epub)
+- *date_stamp* berättar för Crossmark-systemet om det datum som en "Major Version" av PDF:n skapades. I de flesta fallen kommer detta vara datumet som artikeln publicerades. Dock, när en medlem gör betydande korrigeringar i en PDF på plats (ingen anmärkning införd, och ingen ny version av verket med en ny DOI) då borde *date_stamp* refleketera när PDF:n skapades med korrigeringarna. The system will then use the *date_stamp* in order to tell whether the reader needs to be alerted to updates or not. The *date_stamp* argument should be recorded in the form YYYY-MM-DD (learn more about ISO 8601).
 
 **Step 4: Apply crossmark button**
 
