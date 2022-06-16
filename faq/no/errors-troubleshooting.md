@@ -1,3 +1,7 @@
+- - -
+title: FAQ about Errors and Troubleshooting in Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
 # Errors and Troubleshooting
 
 ## Why do I get an error message when I try to upload a file?
