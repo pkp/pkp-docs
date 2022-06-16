@@ -1,4 +1,9 @@
+- - -
+title: Key Terms - GDPR Guidebook for PKP Users
+- - -
+
 # Key Terms
+
 **Consent**: the agreement of a data subject to share personal data. In order to satisfy GDPR, consent must be unambiguous (and in the case of sensitive personal data must be explicit, i.e. “opt-in”), and must be able to be withdrawn.
 
 **Data Controller**: the entity that dictates the terms for processing data. With respect to PKP applications, this would be the editorial management team.
@@ -16,13 +21,14 @@
 **Publisher**: For the purposes of this policy and document, publisher refers to those responsible for the scholarly publication, be it a journal, book or other artifact, and may, in the absence of a formal publisher, refer to the editor-in-chief or the editorial team behind a single independent journal.
 
 **Rights of the Individual (Data Subject)**: The GDPR mandates the following rights of the individual, which it refers to as the “data subject”:
-  * the right to be informed;
-  * the right of access;
-  * the right to rectification;
-  * the right to erasure;
-  * the right to restrict processing;
-  * the right to data portability;
-  * the right to object;
-  * the right not to be subject to automated decision-making including profiling.
 
-In order to adhere to the GDPR, people acting in the role of data controller, in conjunction with those serving as a data processor, must provide adequate means for individuals to assert these rights. 
+* the right to be informed;
+* the right of access;
+* the right to rectification;
+* the right to erasure;
+* the right to restrict processing;
+* the right to data portability;
+* the right to object;
+* the right not to be subject to automated decision-making including profiling.
+
+In order to adhere to the GDPR, people acting in the role of data controller, in conjunction with those serving as a data processor, must provide adequate means for individuals to assert these rights.
