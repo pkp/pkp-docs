@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Email Templates - Technical Documentation - OJS|OMP|OPS
 ---
 
@@ -11,7 +13,9 @@ Email templates mix customized, editable data with fixed defaults. For this reas
 Default email templates do not have ids. Instead, get an email template by its key.
 
 ```php
-$emailTemplate = Services::get('emailTemplate')->getByKey($contextId, $key);
+use APP\facades\Repo;
+
+$emailTemplate = Repo::emailTemplate()->getByKey($contextId, $key);
 ```
 
 ## Default and custom templates
@@ -36,8 +40,10 @@ Custom templates can be distinguished from default templates by the `id` propert
 
 A custom email template can be deleted using the `delete` method of the service class.
 
-```
-Services::get('emailTemplate')->delete($emailTemplate);
+```php
+use APP\facades\Repo;
+
+Repo::emailTemplate()->delete($emailTemplate);
 ```
 
 When a default template is deleted in this way, only the custom modifications will be deleted. The default data will remain. In this way, the `delete` method will "reset" a default template.
