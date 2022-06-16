@@ -5,6 +5,8 @@ version: 3.2
 
 # Crossref | OJS 3.2+ Manual
 
-[PKP](http://pkp.sfu.ca) and [Crossref](http://www.crossref.org/)  are continuing to collaborate to help publishers and journals using [Open Journal Systems](https://pkp.sfu.ca/ojs/) take better advantage of Crossref services. PKP is also a Sponsoring Organization for Crossref.
+[PKP](http://pkp.sfu.ca) och [Crossref](http://www.crossref.org/) fortsätter att samarbeta för att hjälpa utgivare och tidskrifter som använder [Open Journal Systems](https://pkp.sfu.ca/ojs/) att bättre utnyttja Crossrefs tjänster.
 
-Additionally, this manual covers other Crossref-related services like reference linking, funder information, Similarity Check, and Crossmark. While an official plugin has not been developed for Crossmark, OJS users have been able to use this service with some code modification/addition. It is something that will become available in the future.
+. PKP är också en "Sponsoring Organization" för Crossref.</p> 
+
+Den här manualen täcker också andra Crossref-relaterade tjänster såsom referenslänkning, finansiärsinformation, Similarity Check och Crossmark. Någon officiell plugin har inte utvecklats för Crossmark, men OJS-användare har lyckats använda den här tjänsten med mindre ändringar och tillägg av kod. Det är något som kommer att bli tillgängligt i framtiden.
