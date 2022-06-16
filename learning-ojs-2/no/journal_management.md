@@ -4,8 +4,6 @@ Journal Management involves managing the overall publishing system.  The Journal
 
 Journal Management is divided into **Management Pages**, **Users**, and **Roles**. Management Pages and Users are described here in Chapter 5, and Roles are described in [Chapter 3: User Roles](https://docs.pkp.sfu.ca/learning-ojs-2/en/user_roles).
 
-
 **Journal Manager User Home Page**
-
 
 ![Journal Management](images/chapter5/journal_management.png)
