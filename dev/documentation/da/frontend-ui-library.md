@@ -1,5 +1,7 @@
 ---
-title: UI Library - Frontend - Technical Documentation - OJS/OMP
+book: dev-documentation
+version: 3.4
+title: UI Library - Frontend - Technical Documentation - OJS|OMP|OPS
 ---
 
 # UI Library
@@ -47,11 +49,18 @@ Data that may change after the page is loaded is called state. For example, when
 Initialize state on the server by using the `setState` method to pass data to the `Page` component.
 
 ```php
-class WorkflowHandler extends Handler {
-    public function distribution(Array $args, Request $request) {
+use APP\submission\Submission;
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class WorkflowHandler extends Handler
+{
+    public function distribution(array $args, Request $request)
+    {
         $templateMgr = TemplateManager::getManager($request);
         $templateMgr->setState([
-            'isPublished' => $publication->getData('status') === STATUS_PUBLISHED,
+            'isPublished' => $publication->getData('status') === Submission::STATUS_PUBLISHED,
         ]);
         return $templateMgr->display('/workflow.tpl');
     }
@@ -75,7 +84,12 @@ State can be accessed in templates by using the [Vue.js template syntax](https:/
 
 Use the Vue.js dev tools for [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/vue-js-devtools/) or [Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en) to toggle state and see how the template changes.
 
-![Video showing changing state in the browser](../img/state.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="../img/state.mp4" type="video/mp4">
+  </video>
+  <figcaption>Video showing changing state in the browser.</figcaption>
+</figure>
 
 State should only be used when data changes the UI must update to reflect that change without reloading the page. It is not always easy to determine which data should be managed by Vue.js as state and which data should be managed by Smarty.
 
@@ -94,8 +108,14 @@ The `Page` component sometimes manages state that should be passed down to a com
 State is passed down to these components as `props`.
 
 ```php
-class WorkflowHandler extends Handler {
-    public function distribution(Array $args, Request $request) {
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class WorkflowHandler extends Handler
+{
+    public function distribution(array $args, Request $request)
+    {
         $templateMgr = TemplateManager::getManager($request);
         $templateMgr->setState([
             'formId' => 'exampleForm',
@@ -126,8 +146,14 @@ This leads to a problem when a field's value changes. The `Form` component can n
 In such cases, `Page` components make use of events to manage state for these components. The component's props are added to a `components` object in the state.
 
 ```php
-class WorkflowHandler extends Handler {
-    public function distribution(Array $args, Request $request) {
+use APP\template\TemplateManager;
+
+import('classes.handler.Handler');
+
+class WorkflowHandler extends Handler
+{
+    public function distribution(array $args, Request $request)
+    {
         $templateMgr = TemplateManager::getManager($request);
         $templateMgr->setState([
             'components' => [
@@ -234,6 +260,8 @@ window.pkp = Object.assign(PkpLoad, {
 Finally, the `PageHandler` must assign the `pageComponent` variable to the template and pass the correct state
 
 ```php
+use APP\template\TemplateManager;
+
 $templateMgr = TemplateManager::getManager($request);
 $templateMgr->assign([
     'pageComponent' => 'SettingsPage',
