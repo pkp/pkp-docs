@@ -5,64 +5,64 @@ version: 3.2
 
 # Crossref XML Export Plugin (OJS 3.2+)
 
-The Crossref XML Export Plugin  can deposit DOIs to Crossref for registration in a variety of ways:
+Crossref XML Export Plugin kan deponera DOI:er till Crossref för registrering på flera sätt:
 
-- automatically, as the content is published;
-- manually, from plugin interface;
-- manually, via Crossref XML Export and upload via the Crossref admin tool at doi.crossref.org.
+- automatiskt, när innehållet publiceras;
+- manuellt, från plugingränssnittet;
+- manuellt, via Crossref XML Export och ladda upp via Crossrefs administrationsverktyg hos doi.crossref.org.
 
-Automatic deposit can be configured to assist streamline the post-production process.
+Automatisk deponering kan konfigureras för att strömilinjeforma processen efter publicering.
 
-Manual deposit from the plugin interface might be used to selectively deposit content to Crossref. For example, if you’ve made minor changes to the metadata following submission. It might also be helpful if you’ve noticed that the automatic deposit is taking longer than normal to be processed.
+Manuell deponering från plugingränssnittet kan användas för att välja vilket innehåll som ska deponeras till Crossref. Till exempel om du har gjort mindre ändringar i metadata efter inskickandet. Det kan också vara till hjälp om du märker att den automatiska deponering tar längre tid än vanligt att behandlas.
 
-Manual deposit using Crossref XML export and admin tool might be used if you opt to add additional metadata such as licensing information not currently being deposited through the Crossref XML plugin.
+Manuell deponering genom att använda Crossref XML export och administrationsverktyg kan användas om du vill lägga till ytterligare metadata, såsom licensinformation som inte deponeras genom Crossref XML plugin.
 
-You can also register your content with Crossref entirely outside of OJS using Crossref's Web Deposit Form, though the plugin can save you having to input metadata by hand. You can find the Crossref Plugin from your dashboard by navigating to **Tools > Import/Export > Crossref XML Export Plugin**.
+Du kan också registrera ditt innehåll hos Crossref helt utanför OJS genom att använda Crossrefs Web Deposit Form, men denna plugin hjälper dig att slippa föra in metdata för hand. Du hittar Crossref plugin från din instrumentbräda genom att gå till **Tools> Import/Export > Crossref XML Export Plugin**.
 
-This is the Crossref XML Export Plugin in OJS 3.2+:
+Det här är Crossref XML Export Plugin i OJS 3.2+:
 
-![OJS 3 CrossRef XML Export Plugin: settings tab screen.](./assets/crossref3.2-plugin.png)
+![OJS 3 Crossref XML Export Plugin: settings tab screen.](./assets/crossref3.2-plugin.png)
 
-## Setting up the Crossref Plugin
+## Ställa in Crossref Plugin
 
-1. Fill out the name and email of the depositor. This name does not have to be the contact that orchestrated the Crossref membership. It can be a technical contact. It is merely the name that is attached to the metadata submission you deposit to Crossref. These are required fields.
-2. Fill out the username and password provided to you by Crossref with your membership confirmation. These are used to register content directly from the plugin. (_Please note: if your browser automatically fills in passwords in OJS, it may populate these fields with your OJS username and password when you load this page. Make sure you don't overwrite your Crossref credentials with your OJS password, or your plugin will fail._)
+1. Fill out the name and email of the depositor. This name does not have to be the contact that orchestrated the Crossref membership. Det kan vara en teknisk kontaktperson. Det är bara det namn som bifogas till den metadata som skickas till Crossref. Dessa är obligatoriska fält.
+2. Fyll i användarnamn och lösenord som du har fått från Crossref när du blev medlem. Dessa används för att registrera innehåll direkt från denna plugin. (_Please note: if your browser automatically fills in passwords in OJS, it may populate these fields with your OJS username and password when you load this page. Se till att inte skriva över dina Crossref-uppgifter med ditt OJS-lösenord. Då misslyckas denna plugin._)
 
-## Automatic Deposits
+## Automatisk deponering
 
-To enable automatic deposits, simply check the box on the settings page.
+För att slå på automatisk deponering, fyll i rutan på sidan för insttälningar.
 
-![OJS 3 CrossRef XML Export plugin settings: checkbox for automatic deposits.](./assets/autoDeposit-02.png)
+![Inställningar för OJS 3 Crossref XML Export plugin: kryssruta för automatisk deponering.](./assets/autoDeposit-02.png)
 
-OJS will deposit assigned DOIs as content in your journal is published. OJS does this at specific timed intervals. If your DOIs do not appear to be registered shortly after publication, you can wait a day to see if they make it through the OJS process and the Crossref queue. You can also check the status of your DOI by clicking the "Articles" tab at the top of the Crossref plugin settings page. You'll see an up-to-date status column on the right of the page.
+OJS deponerar tillskrivna DOI:er när innehåll publiceras i din tidskrift. OJS gör detta med särskilda tidsintervall. Om dina DOI:er inte verkar registreras direkt efter publicering så kan du vänta en dag för att se om de tar sig igenom OJS-processen och kön hos Crossref. Du kan också kolla status för din DOI genom att klicka "Articles"-fliken högst upp på sidan för Crossref plugin. Du ser en kolumn för status på höger sida.
 
-## Manual Deposits
+## Manuell deponering
 
-Manual deposits are always enabled in OJS 3.2+.
+Manuell deponering är alltid påslagen i OJS 3.2+.
 
-1. Navigate to the Crossref XML Export Plugin
-2. Click the "Articles" sub-heading.
-3. Click the checkbox next to the articles you want to deposit.
-   - If you want to deposit specific issues, use the search function in the upper right corner of the plugin window to filter which articles will display.
-4. Scroll to the bottom of the page and click the "*deposit*" button.
+1. Gå till Crossref XML Export Plugin
+2. Clicka på underrubriken "Articles".
+3. Klicka på kryssrutan bredvid de artiklar du vill deponera.
+   - Om du vill deponera specifika nummer, använd sökfunktionen i det övre högre hörnet av pluginfönstret för att filtrera vilka artiklar som visas.
+4. Scrolla till slutet av sidan och klicka på "*deposit*"-knappen.
 
-![OJS 3 CrossRef XML Export plugin settings: Articles tab screen.](./assets/crossref3.2-exportplugin.png)
+![Inställningar för OJS 3 Crossref XML Export plugin: Articles tab skärm.](./assets/crossref3.2-exportplugin.png)
 
-*Validate XML* will, when checked, confirm validation of your XML before submission to Crossref. It will inform you of potential submission issues. It is, however, not suitable for large deposits and may time out. It is best used to troubleshoot smaller deposits.
+Om *Validate XML* är förbockat kommer din validerade XML bekräftas innan den skickas till Crossref. Det varnas för potentiella problem med registreringen. Det är dock inte lämpligt för större deponeringar och kan time out. Det används bäst för att felsöka mindre deponeringar.
 
-*Mark Active* will flag a DOI as submitted. Use this if you've already registered a DOI outside of the plugin and want to indicate as such.
+*Mark Active* flaggar en DOI som inskickad. Använd detta om du redan har registrerat en DOI utanför denna plugin och vill indikera detta.
 
-### XML Deposit
+### XML-deponering
 
-*Export XML* will download XML generated by the plugin in the Crossref XML Schema. Simply click the check boxes next to the articles you want to deposit and then export. Once you have the XML file, you can submit it via the Crossref admin tool at [https://doi.crossref.org](https://doi.crossref.org).
+*Export XML* laddar ned XML som genererats av denna plugin enligt Crossref XML Schema. Fyll helt enkelt i checkrutorna bredvid de artiklar du vill deponera och exportera sedan. När du väl har XML-filen kan du skicka in den via Crossref admin tool på [https://doi.crossref.org](https://doi.crossref.org).
 
-## Updating DOIs
+## Uppdatera DOI:er
 
-Any time you make a change to an article's metadata, **you should update the metadata associated with your DOI** registered with Crossref. Updates do not happen automatically. To update:
+Varje gång du ändrar metadata för en artikel så **bör du uppdatera den metadata som finns för din DOI** registrerad hos Crossref. Uppdateringar sker inte automatiskt. För att uppdatera:
 
-1. Navigate to the Crossref XML Export Plugin
-2. Click the "Articles" sub-heading.
-3. Click the checkbox next to the article with updated metadata.
-4. Scroll to the bottom of the page and click the "deposit" button.
+1. Gå till Crossref XML Export Plugin
+2. Klicka på underrubriken "Articles".
+3. Klicka på kryssutan bredvid den artikel som har uppdaterad metadata.
+4. Scrolla till slutet av sidan och klicka på "deposit"-knappen.
 
-_Crossref does not charge to update metadata._
+_Crossref tar inte betalt för att uppdatera metadata._
