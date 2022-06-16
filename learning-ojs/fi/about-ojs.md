@@ -5,43 +5,43 @@ version: 3.3
 
 # Mikä on Open Journal Systems (OJS)?
 
-Open Journal Systems \(OJS\) is an open source solution to managing and publishing scholarly journals online. OJS is a highly flexible editor-operated journal management and publishing system that can be downloaded for free and installed on a local Web server.
+Open Journal Systems \(OJS\) on avoimen lähdekoodin ratkaisu tieteellisten lehtien hallintaan ja julkaisemiseen verkossa. Open Journal Systems on erittäin joustava tieteellisten sarjojen toimitustyöhön ja julkaisuun suunnattu järjestelmä, jota julkaisujen toimittajat hallinnoivat. Järjestelmän voi ladata ja asentaa ilmaiseksi verkosta.
 
-It has been designed to reduce the time and energy devoted to the clerical and managerial tasks associated with editing a journal, while improving the record-keeping and efficiency of editorial processes. It seeks to improve the scholarly and public quality of journal publishing through a number of innovations, including enhancing the reader experience, making journal policies more transparent, and improving indexing.
+Järjestelmän tarkoitus on vähentää julkaisujen toimitukseen liittyviin toimisto- ja johtotehtäviin käytettyä aikaa ja energiaa, samalla kun toimistusprosessien seurattavuus ja tehokkuus kasvaa. Näin pyritään kehittämään julkaisujen tieteellistä ja julkista laatua erilaisten innovaatioiden avulla: tavoitteena on esim. lukijakokemuksen parantaminen, julkaisukäytäntöjen läpinäkyyden lisääminen ja parempi indeksointi.
 
-This guide covers OJS version 3.3, released in February 2021, and features significant enhancements over the previous versions of the software. We hope you find it helpful for your publishing projects.
+Tämän oppaan sisältö kattaa helmikuussa 2021 julkaistun OJS-version 3.3. Kyseisessä versiossa on merkittäviä parannuksia aiempiin versioihin verrattuna. Toivomme, että oppaasta on Sinulle hyötyä julkaisutyössä.
 
-## Background
+## Taustaa
 
-This PKP School video explains the background on PKP and OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Tällä PKP:n opetusvideolla käsitellään PKP:n ja OJS:n taustoja.  Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="SQfFGwIK2wI" provider="youtube" title="Video of background on PKP and OJS"%}
 
-*OJS is a journal/web site management/publishing system*. OJS covers all aspects of online journal publishing, from establishing a journal website to operational tasks such as the author's submission process, peer review, editing, publication, archiving, and indexing of the journal. OJS also helps to manage the people aspects of organizing a journal, including keeping track of the work of editors, reviewers, and authors, notifying readers, and assisting with the correspondence.
+*OJS on julkaisujen ja verkkosivujen hallintaan ja julkaisuun tarkoitettu järjestelmä*. OJS sisältää kaikki tieteellisen verkkojulkaisun vaiheet, aina verkkosivun luomisesta operatiivisiin tehtäviin, kuten käsikirjoitusen tarjoaminen julkaistavaksi, vertaisarviointi, toimitustyö, julkaiseminen, arkistointi ja sisällön indeksointi.  OJS helpottaa eri työvaiheiden hallintaa, esim. toimituksen, arvioijien ja kirjoittajien työn seurantaa, lukijoille suunnattua tiedotusya ja kirjeenvaihtoa.
 
-*OJS is flexible and scalable*. A single installation of OJS can support the operation of one or many journals. Each journal has its own unique URL as well as its own look and feel. OJS can enable a single editor to manage all aspects of a journal and the journal's website, or OJS will support an international team of editors with diverse responsibilities for a journal's multiple sections.
+*OJS on joustava ja kykenevä kehittymään olemassa olevilla resusseilla*. Yksittäisen tahon suorittama OJS:n käyttöönotto voi tukea myös monen muun julkaisusarjan toimintaa.  Jokaisella julkaisusarjalla on oma ainutkertainen URL-osoitteensa ja oma ulkoasunsa ja tyylinsä. OJS voi mahdollistaa yksittäisen päätoimittajan toimimisen julkaisusarjan ja sarjan verkkosivujen kaikkien toimintojen hallinnassa.
 
-*OJS supports the principle of extending access*. This system is intended not only to assist with journal publishing, but to demonstrate how the costs of journal publishing can be reduced to the point where providing readers with "open access" to the contents of the journal becomes a viable option. The case for open access is spelled out over a wide series of articles stemming from this project which are freely available under Research > Publications on the [Public Knowledge Project](https://pkp.sfu.ca/) website.
+*OJS tukee saavutettavuuden lisäämisen periaatetta*. Järjestelmä ei ole ainoastaan julkaisprosessin apuväline vaan toimii myös esimerkkinä siitä, kuinka julkaisukustannuksia saadaan laskettua, niin että avoimesta verkkojulkaisemista tulee kannattavaa. Avoimen verkkojulkaisun käytännöistä on saatavilla laaja joukko tästä hankkeesta versoneita artikkeleita, jotka ovat avoimesti saatavilla [PKP](https://pkp.sfu.ca/):n verkkosivulla > Tutkimus > Julkaisut.
 
-*The origins of OJS*. The system was first released in 2001 as a research and development initiative at the University of British Columbia, with the support of the Social Sciences and Humanities Research Council of Canada, the Max Bell Foundation, the Pacific Press Endowment, and the MacArthur Foundation. Its continuing development is currently overseen by the Simon Fraser University Library. For more information, see the [Public Knowledge Project website](https://pkp.sfu.ca).
+*OJS: n alkuperästä*. Järjestelmä julkistettiin ensimmäisen kerran vuonna 2001 tutkimus- ja kehittämisaloitteen muodossa British Columbia -yliopistossa Kanadan sosiaali- ja humanististen tieteiden tutkimusneuvoston, Bellin säätiön, Pacific Press -rahaston ja MacArthur-säätiön tuella. Tällä hetkellä Simon Fraser -yliopiston kirjasto valvoo hankkeen jatkuvaa etenemistä. Lisätietoja saa[ PKP:n verkkosivuilta](https://pkp.sfu.ca)
 
 <hr />
 
-## OJS Features
+## OJS:n ominaisuuksista
 
-OJS includes the following features:
+OJS sisältää seuraavat ominaisudet:-:
 
-1. OJS is installed locally and controlled locally
-2. Editors configure requirements, sections, review process, etc.
-3. Online submission, anonymous review, and management of all content
-4. Comprehensive indexing of content
-5. Responsive, themable reader interface
-6. Email notification for readers
-7. Support for article-processing charges, subscriptions, and online payments
-8. Complete context-sensitive online Help support
-9. Multilingual support
+1. OJS asennetaan paikallisesti, ja sitä hallinnoidaan paikallisesti.
+2. Julkaisujen toimittajat määrittävät vaatimukset, prosessiin tarvittavat osiot, arviointiprosessin yksityiskohdat jne.
+3. Käsikirjoituksia tarjotaan verkkopalvelun kautta, arviointiprosessi on anonyymi ja kaikkea sisältöä voi hallita.
+4. Sisällön kattava indeksointi.
+5. Helppokäyttöinen ja tilanteeseen sopiva lukijanäkymä.
+6. Sähköpostimuistutukset lukijoille
+7. Julkaisumaksujen, tilausten ja verkkomaksujen tuki.
+8. Kattava sisältösensitiivinen verkkotuki.
+9. Tukea saatavilla monella eri kielellä.
 
-## What's New in This Version of OJS
+## Mitä uutta tämä OJS-versio tarjoaa?
 
 OJS 3.3 has a simplified dashboard navigation menu and new features related to submission management, communicating with users, and accessibility. This section will outline the main changes so you know what to expect when you upgrade to OJS 3.3. You can also watch [a video that demonstrates new features in OJS 3.3](https://youtu.be/3D_hS4Bd-Y8), created by [PKP Publishing Services](https://pkpservices.sfu.ca).
 
