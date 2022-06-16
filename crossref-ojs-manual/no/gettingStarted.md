@@ -13,7 +13,7 @@ DOI stands for Digital Object Identifier. DOIs are what is known as "persistent 
 > 
 > See more at [http://www.crossref.org/about/](http://www.crossref.org/about/)
 
-The key to this statement is that a DOI is _unique_. Any article should only have one unique combination of a DOI prefix and suffix. Articles should also, ideally, only have one DOI each.
+The key to this statement is that a DOI is _unique_. Any article should only have one unique combination of a DOI prefix and suffix. Articles should also, ideally, only have one DOI each. You can read more about DOIs and the DOI plugin in OJS in the [DOI Plugin Guide](/doi-plugin/).
 
 ## First Steps
 
@@ -38,11 +38,12 @@ Let's break these steps down one by one.
 
 1. Ensure that all title-level metadata has been properly filled out.
 2. Enable and configure the "DOI" public identifier plugin at **Settings** > **Website** > **Plugins** > **DOI Plugin** (under the section "public identifier plugins").
+   - Please read the [DOI Plugin documentation](/doi-plugin/).
 3. Assign DOIs.
 
 ## Additional Resources
 
 - [The DOI Handbook @ doi.org](https://www.doi.org/hb.html) – The DOI Handbook is a comprehensive guide to DOIs and their usage and is available in several languages.
 - [Crossref Curriculum](https://www.crossref.org/education/)
-  - [Similarity Check](https://www.crossref.org/education/similarity-check/)
+- [Similarity Check](https://www.crossref.org/education/similarity-check/)
 - [Crossref Blog: URLs and DOIs, a complicated relationship](https://www.crossref.org/blog/urls-and-dois-a-complicated-relationship/) – A blog post from Crossref's Joe Wass that explains the difference between URLs and DOIs.
