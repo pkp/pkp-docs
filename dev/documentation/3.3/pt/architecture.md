@@ -23,9 +23,9 @@ ojs
 │
 ├─┬ lib
 │ ├── pkp           # A biblioteca base que
-│ │                 # que alimenta todos as nossas aplicações
+│ │                 # alimenta todos as nossas aplicações
 │ │
-│ └── ui-library    # A biblioteca de componentes de interface do usuário usada
+│ └── ui-library    # A biblioteca de componentes UI do usuário usada
 │                   # para o back-end editorial.
 │
 └── plugins         # Plugins oficiais e de terceiros
