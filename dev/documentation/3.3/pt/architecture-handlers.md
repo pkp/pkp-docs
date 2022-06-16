@@ -65,7 +65,7 @@ switch ($op) {
 
 Quaisquer fragmentos de URL anexados após a operação serão passados para o método do `Handler` no parâmetro `$args`.
 
-![Diagram indicating the parts of a URL for Page Handlers](../img/url-route-page.png)
+![Diagrama indicando as partes de uma URL para página Handlers](../img/url-route-page.png)
 
 ```php
 class IssueHandler extends Handler {
@@ -90,9 +90,9 @@ class IssueHandler extends Handler {
 }
 ```
 
-### Responses
+### Respostas
 
-Page Handlers return HTML code using the `TemplateManager`.
+Página Handlers retornam código HTML usando o `TemplateManager`.
 
 ```php
 class IssueHandler extends Handler {
@@ -103,13 +103,13 @@ class IssueHandler extends Handler {
 }
 ```
 
-> Read the [Frontend](./frontend) section of this documentation to learn more about templates. 
+> Leia a seção [Frontend](./frontend) desta documentação para saber mais sobre templates. 
 > 
 > {:.notice}
 
 ## API Handlers
 
-API Handlers use the [Slim API framework](http://www.slimframework.com/) and return `JSON` output. Requests are routed to endpoint callbacks defined in the `Handler`'s constructor.
+A API Handlers usam a [Slim API framework](http://www.slimframework.com/) e retornam a saída `JSON`. As solicitações são roteadas para retornos da chamada de endpoint definidos no construtor do `Handler`.
 
 ```bash
 $ curl https://example.org/publicknowledge/api/v1/submissions
@@ -134,9 +134,9 @@ class PKPSubmissionsHandler extends APIHandler {
 }
 ```
 
-### Path Variables
+### Variáveis de Path
 
-Routing can identify named variables in the URL path that are part of the endpoint.
+O roteamento pode identificar variáveis nomeadas no path de URL que fazem parte do endpoint.
 
 ```bash
 $ curl https://example.org/publicknowledge/api/v1/submissions/1
@@ -162,9 +162,9 @@ class PKPSubmissionsHandler extends APIHandler {
 }
 ```
 
-### Query Params
+### Parâmetros da Query
 
-Query parameters in the URL can be accessed through the `$slimRequest` object.
+Os parâmetros de consultas na URL podem ser acessados por meio do objeto `$slimRequest`.
 
 ```bash
 $ curl https://example.org/publicknowledge/api/v1/submissions?searchPhrase=barnes
@@ -190,9 +190,9 @@ class PKPSubmissionsHandler extends APIHandler {
 }
 ```
 
-### Request Body
+### Corpo da Solicitação
 
-`POST` and `PUT` requests include data in the body of the request, which can be accessed with `$slimRequest->getParsedBody()`.
+As solicitações `POST` e `PUT` incluem dados no corpo da solicitação, que podem ser acessados com `$slimRequest->getParsedBody()`.
 
 ```bash
 $ curl https://example.org/publicknowledge/api/v1/submissions/1 \
@@ -223,7 +223,7 @@ class PKPSubmissionsHandler extends APIHandler {
 
 ### Responses
 
-API Handlers are passed a `$response` object which should be returned using the `$request->withJson()` method.
+API Handlers recebem um objeto `$response` que deve ser retornado usando o método `$request->withJson()`.
 
 ```php
 import('lib.pkp.classes.handler.APIHandler');
@@ -234,13 +234,13 @@ class PKPSubmissionsHandler extends APIHandler {
     public function get($slimRequest, $response, $args) {
         return $response->withJson([
             'id' => 1,
-            'title' => 'Example Submission',
+            'title' => 'Exemplo de Submissão' ,
         ], 200);
     }
 }
 ```
 
-Always return the correct [HTTP Status Code](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes).
+Sempre retorne o [Código de Status HTTP](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) correto.
 
 ```php
 import('lib.pkp.classes.handler.APIHandler');
@@ -257,13 +257,13 @@ class PKPSubmissionsHandler extends APIHandler {
         }
         return $response->withJson([
             'id' => 1,
-            'title' => 'Example Submission',
+            'title' => 'Exemplo de Submissão',
         ], 200);
     }
 }
 ```
 
-Error responses from the API should pass a locale key that describes the error.
+As respostas de erro da API devem passar uma chave de localidade que descreve o erro.
 
 ```php
 import('lib.pkp.classes.handler.APIHandler');
@@ -280,9 +280,9 @@ class PKPSubmissionsHandler extends APIHandler {
 }
 ```
 
-### Request Objects
+### Requisição de Objetos
 
-The `$slimRequest` object is a PSR 7 object created by the [Slim API framework](http://www.slimframework.com/). It is **not** an instance of the application's main `Request` object that is passed to other `Handler` ops. The application's main `Request` object can be accessed with `APIHandler::getRequest()`.
+O objeto `$slimRequest` é um objeto PSR 7 criado pela [Slim API framework](http://www.slimframework.com/). É **não** uma instância do objeto principal `Request` do aplicativo que é passado para outras operações `Handler`. O objeto principal `Request` da aplicação pode ser acessado com `APIHandler::getRequest()`.
 
 ```php
 class PKPSubmissionsHandler extends APIHandler {
@@ -295,18 +295,18 @@ class PKPSubmissionsHandler extends APIHandler {
 
 ### Slim Framework
 
-Read the [Slim API Framework usage guide](http://www.slimframework.com/docs/v3/) to learn more about the `$slimRequest` and `$response` objects.
+Leia o [guia de uso do Slim API Framework](http://www.slimframework.com/docs/v3/) para saber mais sobre o `$slimRequest` e objetos `$response`.
 
-## Controller Handlers (deprecated)
+## Controlador Handlers (obsoleto)
 
-> **Controller Handlers are deprecated.** New features should be built using the UI Library components that interact with API Handlers.  However, they are common throughout the application and will remain in use for some time. 
+> **O controlador Handlers estão obsoletos.** Novos recursos devem ser criados usando os componentes da biblioteca de interface do usuário que interagem com as API Handlers.  No entanto, eles são comuns em todo a aplicação e permanecerão em uso por algum tempo. 
 > 
 > {:.warning}
 
-Controller Handlers receive requests from UI Controllers and return `JSON` output. They act like Page Handlers except that they serve individual interactive UI components, such as a submission's list of files, discussions or participants.
+Os controladores Handlers recebem solicitações de controladores UI e retornam a saída `JSON`. Eles agem como Páginas Handlers, exceto pelo fato de servirem componentes individuais de UI interativos, como uma lista de arquivos de submissão, discussões ou participantes.
 
-Learn more about [working with controllers](./frontend-controllers).
+Saiba mais sobre [como trabalhar com controladores](./frontend-controllers).
 
 ---
 
-Learn [how the user is authenticated](./architecture-authentication).
+Saiba [como o usuário é autenticado](./architecture-authentication).
