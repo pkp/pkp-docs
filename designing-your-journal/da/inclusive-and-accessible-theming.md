@@ -1,3 +1,7 @@
+- - -
+title: Inclusive and Accessible Theming - Designing Your OJS Journal
+- - -
+
 # Inclusive and Accessible Theming
 
 When making design changes, it is important to be mindful of the diversity of your readership and inclusive of users’ needs and circumstances. In addition to visual impairments, users may be affected by hearing, cognitive, and motor limitations when browsing a website; others may have a different social or cultural background that may alter their understanding of content. These circumstances may be permanent, as with colour vision deficiencies (CVD), or temporary, as with browsing on a smaller screen with a slow internet connection.
@@ -6,7 +10,7 @@ In this guide we will focus on visual impairments specifically, but it is always
 
 ## Accessibility of Themes
 
-As of OJS/OMP/OPS 3.3, the Default Theme has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. Note that changes made to the theme may impact accessibility.
+As of OJS/OMP/OPS 3.3, the Default Theme has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. [PKP Accessibility Statement](https://docs.pkp.sfu.ca/accessibility-statement/) contains further details. Note that changes made to the theme may impact accessibility.
 
 ## Colour
 
@@ -67,10 +71,10 @@ When writing web content, ensure that:
 
 ## Document accessibility
 
-Non-HTML content, such as documents you upload, should be accessible as well. When creating journal documentation, such as author guidelines, style guides, etc., consider presenting them as static HTML pages rather than uploading PDFs to the website. If using PDFs, ensure that they are appropriately tagged to be screen-reader friendly.
+Non-HTML content, such as documents you upload, should be accessible as well. When creating journal documentation, such as author guidelines, style guides, etc., consider presenting them as static HTML pages rather than uploading PDFs to the website. If using PDFs, ensure that they are appropriately tagged to be screen-reader friendly. PKP's guide [Creating Accessible Content: A Guide for Journal Editors and Authors](https://docs.pkp.sfu.ca/accessible-content/) contains further details and resources.
 
 ## Checking your website for accessibility
 
 When modifying the theme of your journal website, ensure that it remains accessible by checking your journal on different browsers and on various devices.
 
-Additional online tools such as [AChecker](https://achecker.ca/checker/index.php) (free) or [Wave browser extension](http://wave.webaim.org/extension) (free) can facilitate website auditing. Tabbing through your pages and using a screen reader such as [ChromeVox](http://www.chromevox.com/) (free), [NVDA](https://www.nvaccess.org/) (free) or [JAWS](https://www.freedomscientific.com/products/fs/jaws-product-page.asp) can help ensure that a person with a visual impairment can navigate your website.
+Additional online tools such as [Wave browser extension](http://wave.webaim.org/extension) (free) or [axe DevTools](https://www.deque.com/axe/) (free) can facilitate website auditing. Tabbing through your pages and using a screen reader such as [ChromeVox](http://www.chromevox.com/) (free), [NVDA](https://www.nvaccess.org/) (free) or [JAWS](https://www.freedomscientific.com/products/fs/jaws-product-page.asp) can help ensure that a person with a visual impairment can navigate your website.
