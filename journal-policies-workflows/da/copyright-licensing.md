@@ -1,6 +1,10 @@
+- - -
+title: Copyright and licensing - Journal Policies and Workflows
+- - -
+
 # Copyright and licensing
 
-The [Getting Found, Staying Found, Increasing Impact](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-increasing-impact#copyright-and-licensing) guide contains a comprehensive introduction into copyright for publishing. The below chapter is adapted from the [University of Toronto Libraries’ Journal Production Services Publishing Guide](https://jps.library.utoronto.ca/index.php/pubguide/copyright). It should help editors decide on the copyright/licensing policy to adapt for the journal and guide them where to enter appropriate information in OJS.
+The [Getting Found, Staying Found, Increasing Impact](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-increasing-impact#copyright-and-licensing) guide contains a comprehensive introduction into copyright for publishing. The below chapter is adapted from the [University of Toronto Libraries’ Journal Production Services Publishing Guide](https://jps.library.utoronto.ca/index.php/pubguide). It should help editors decide on the copyright/licensing policy to adapt for the journal and guide them where to enter appropriate information in OJS.
 
 There are two primary copyright holding models journals should consider:
 
@@ -105,6 +109,6 @@ Depending on the jurisdiction, a copyright transfer may need to be formally sign
 
 It is important to display copyright and licensing information on the article document itself, so anyone who may read, save or share it would still know how it can be used.
 
-![The Creative Commons License source information in a PDF Galley](./assets/journal-policies-agree-copyright-statement.png)
+![The Creative Commons License source information in a PDF Galley](./assets/journal-policies-cc-by-example.png)
 
 Source: McCormick, A., Adams, S. A., Dunbar, H., & Mclean-Plunkett, S. (2020). Teaching Copyright Law through Participatory Involvement in an Unconference Setting. *Journal of Copyright in Education & Librarianship*, 4(1). [https://doi.org/10.17161/jcel.v4i1.13283](https://doi.org/10.17161/jcel.v4i1.13283)
