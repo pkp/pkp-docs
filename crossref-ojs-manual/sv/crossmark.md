@@ -5,35 +5,35 @@ version: 3.2
 
 # Crossmark
 
-Crossmark gives Crossref members the ability to add a clickable widget to their content to show readers if it’s been updated, corrected, or retracted. This shows researchers and journal readers that they are committed to maintaining their content as well as giving researchers the information they need to check that they are using the most recent and reliable versions of a work.
+Crossmark ger Crossref-medlemmar möjligheten att lägga till en klickbar "widget" till sitt innehåll som visar läsare om det har uppdaterats, korrigerats eller dragits tillbaka. Detta visar forksare och tidskriftsläsare att de bryr sig om att underhålla sitt innehåll liksom att det ger forskare den information de behöver för att säkerställa att de använder de senaste och mest pålitliga versionerna av ett verk.
 
-As mentioned, while there is no plugin currently available for Crossmark it can still be used with a few modifications. This section outlines the steps to get this service setup for your journal and provides references on how other users have made these modifications.
+Som sagts, även om det inte finns någon plugin för Crossmark, så kan denna plugin användes med några mindre förändringar. Det här avsnittet visar de steg som behövs för att få det att fungera för din tidskrift och ger referenser till hur andra användare har gjort sina förändringar.
 
-_Note: The new versioning feature in OJS 3.2 may impact this, please see the [Production and Publication chapter](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#versioning-of-articles) of Learning OJS 3 to learn more about versioning._
+_Notera: Den nya versionsfunktionaliteten i OJS 3.2 kan påverka detta. Se vänligen kapitlet [Production and Publication](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#versioning-of-articles) i Learning OJS 3 för att lära dig mer om versionering._
 
-The minimum requirement for Crossmark metadata is:
+Minimikravet för Crossmark-metadata är:
 
-- the DOI for the publisher’s [Crossmark policy page](https://www.crossref.org/education/crossmark/crossmark-policy-page/)
-- the DOI for the content it is being applied to
+- DOI för utgivarens [sida med Crossmark policy](https://www.crossref.org/education/crossmark/crossmark-policy-page/)
+- DOI för det innehåll som det angår
 
-Crossmark is a button and set of metadata that informs readers about changes to following:
+Crossmark är en knapp och en uppsättning metadata som informerar läsare om förändringar angående följande:
 
-- Publication status (current, updated, retracted):
-- Funding information
-- Author’s ORCIDs information
-- Publication history
-- Rights or licensing
-- And much more
+- Publiceringsstatus (senaste, uppdaterad, tillbakadragen):
+- Finansiärsinformation
+- Författarens ORCID-information
+- Publikationshistorik
+- Rättigheter eller licenser
+- Och mycket mer
 
-The Crossmark button should be consistently applied to all content - not just one that has been updated as there is no way of knowing if it will need to be updated in the future.
+Crossmark-knappen bör användas genomgående på allt innehåll - inte bara på någon som uppdaterats eftersom det inte finns något sätt att veta om det behöver uppdateras i framtiden.
 
-There are two categories of updates, minor and major changes.
+Det finns två uppdateringskategorier, mindre och större ändringar.
 
-**Minor changes** include correcting formatting and spelling. Any change that would not affect the crediting and interpretation of work. For these, the Crossmark status should remain current.
+**Mindre ändringar** innebär korrigering av formattering och stavning. Sådana ändringar som inte påverkar hur verket tillskrivs eller tolkas. För dessa ändringar bör Crossmark-status fortsatt vara den senaste versionen.
 
-**Major changes** if there are substantial changes that affect the crediting or interpretation of work. This could be a retraction due to an error or correction to an author's name. For these, changes should be reflected in the Crossmark status.
+**Större ändringar** om det är betydande ändringar som påverkar tolkning och tillskrivning av verket. Detta kan vara att dra tillbaka en artikel på grund av ett fel eller korrigering av en författares namn. Dessa förändringar bör reflekteras i Crossmark-status.
 
-While OJS currently does not provide Crossmark support, we do have plans to do so in the future. Users wishing to use Crossmark are able to do so by referring to the simplified steps below. For full details please see the [Crossref Guide](https://www.crossref.org/get-started/crossmark/)
+Även om OJS för närvarande inte har stöd för Crossmark så planerar vi detta för framtiden. Users wishing to use Crossmark are able to do so by referring to the simplified steps below. For full details please see the [Crossref Guide](https://www.crossref.org/get-started/crossmark/)
 
 ## Setup
 
