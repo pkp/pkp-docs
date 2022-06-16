@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+title: Learning Open Journal Systems 3.3 - Distribution Settings
 ---
 
 # Distribution Settings
@@ -10,6 +11,10 @@ The Distribution Settings focus on access to and visibility of your journal. The
 Please note that if your journal is multilingual and you have Forms enabled for multiple languages in the language settings, you will have to configure some of this information for each language. You can switch to another languages by selecting the language under the Help link on the top right.
 
 ## License
+
+This PKP School video explains how to configure copyright and licensing terms in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="qfzvbN4a-bM" provider="youtube" title="Video of how to configure copyright and licensing terms in OJS"%}
 
 In this section you can configure copyright and licensing terms for your journal's content.
 
@@ -31,6 +36,10 @@ This default can be overridden on a case-by-case basis.
 
 ## Search Indexing
 
+This PKP School video explains how to enhance search indexing in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="qf_5sTlDXM0" provider="youtube" title="Video of how to enhance search indexing in OJS"%}
+
 This section helps you enhance your search engine optimization and make your content more discoverable.
 
 ![Distribution settings search indexing tab showing description and custom tags options.](./assets/learning-ojs3.2-jm-settings-dist-index.png)
@@ -48,6 +57,10 @@ Use **Custom Tags** to add custom HTML header tags to the header of every page o
 ```
 
 ## Payments
+
+This PKP School video explains how to configure the Payments settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="9r0mRqtNVuU" provider="youtube" title="Video of how to configure payments in OJS"%}
 
 OJS provides the ability to collect online payments and manage subscriptions and author fee payments.
 
@@ -91,6 +104,10 @@ In OJS 3.x there is not an option to set up a payment type for donations, to man
 
 ## Access
 
+This PKP School video explains how to configure the Access settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="RlKVwF3h_PM" provider="youtube" title="Video of how to configure access settings in OJS"%}
+
 Under the Access tab you can configure whether you want your journal contents to be open access, available by subscription, or a combination. By default, the open access option is selected. However, if you wish to use OJS for a subscription journal, choose the second option (see above section on Payments for further information). Selecting the second option will allow you to further delay open access by different periods of time.
 
 ![Distribution settings access tab showing publishing mode and delayed open access options.](./assets/learning-ojs3.2-jm-settings-dist-access-delayed.png)
@@ -99,9 +116,13 @@ If you are only using OJS to manage your submission workflow and not publish you
 
 OJS allows you to configure how and when content can be accessed at an article and issue level. When you create an issue, there is a tab called **Access** under which you can set the **Access Status** as **Subscription** or **Open Access**.
 
+![Issue settings access tab showing subscription and open access options.](./assets/learning-ojs3.2-issue-access.png)
+
 If you set it as **Subscription**, underneath that a box will appear where you can optionally enter an **Open Access Date**, at which the content will become open access.
 
 Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbox will appear beside each article under **Open Access**, where you can optionally set individual articles as open access, even if the rest of the issue remains available by subscription.
+
+![Issue table of contents showing open access checkboxes.](./assets/learning-OJS3.2-article-access.png)
 
 **Enable OAI** will be enabled by default, as this is an important protocol used by indexing services and other applications to harvest your journal's metadata. However, if you are not using OJS to publish your journal's content you may want to disable OAI.
 
@@ -109,9 +130,13 @@ Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbo
 
 ## Archiving
 
-If you are a member of a LOCKSS or CLOCKSS network, use this tab to activate your journal. The PKP PN Plugin, which deposits your content in the PKP Preservation Network(PN), is available for OJS 3.1.2 or newer.
+This PKP School video explains how to enable archiving in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-For instructions on enabling the PKP PN, see the [PKP Preservation Network Guide](https://docs.pkp.sfu.ca/pkp-pn/).
+{% include video.html id="ohHaj-MSLNA" provider="youtube" title="Video of how to enable archiving in OJS"%}
+
+If you are a member of a LOCKSS or CLOCKSS network, use this tab to activate your journal. The PKP PN Plugin, which deposits your content in the PKP Preservation Network (PN), is available for OJS 3.1.2 or newer.
+
+For instructions on enabling the PKP PN, see the [PKP Preservation Network Guide](/pkp-pn/en/).
 
 If you use another network, enabling it here will make your content available to the network, but you will also need to contact the network to make it aware of your journal.
 
