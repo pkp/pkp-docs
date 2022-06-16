@@ -1,3 +1,7 @@
+- - -
+title: What's the Deal? - GDPR Guidebook for PKP Users
+- - -
+
 # What's the Deal?
 
 The EU has developed and, on May 25, 2018, will be making active, a comprehensive set of regulations dictating how personal data is to be managed. These regulations dictate the rights that individuals have over their own personal data.
@@ -13,4 +17,4 @@ PKP advises four separate steps towards compliance:
 1. Understand what personal data you process: what it is, how it’s stored, and how it can be accessed, modified and erased;
 2. Develop adequate internal data storage and security procedures, including a security breach notification policy;
 3. Develop and provide adequate data policies, including a contact mechanism, for your audience;
-4. Configure your platforms to be secure, and to track the minimum amount of data possible. 
+4. Configure your platforms to be secure, and to track the minimum amount of data possible.
