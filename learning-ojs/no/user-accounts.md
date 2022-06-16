@@ -1,23 +1,33 @@
 ---
 book: learning-ojs
 version: 3.3
+title: Learning Open Journal Systems 3.3 - User Account Management
+description: A guide for registering and managing your Open Journal Systems (OJS) account.
 ---
 
 # User Account Management
+
+This PKP School video explains the user dashboard in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of the user dashboard in OJS"%}
 
 When a user log into the system, they will be taken to their Dashboard. From here, users can change their profile information or account settings, as well as see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow. More information about roles and permissions levels is available in the [Users and Roles chapter](./users-and-roles.md).
 
 ## Registering with a Journal
 
+This PKP School video explains how to register and log in to a journal in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="kQUTzi2JKiQ" provider="youtube" title="Video of how to register and log in to a journal in OJS"%}
+
 Unregistered visitors to a journal can normally register as a Reader, Author, and/or Reviewer. Journal Managers are able to remove the ability for visitors to self-register, in which case a notice will appear stating that registration is currently closed (see Journal Settings), but Journal Managers can always register users at any time, and for any role.
 
 To register with a journal, click the Register link on the upper right corner.
 
-![](./assets/learning-ojs-3-registration.png)
+![The Register link at the upper right corner of the journal site.](./assets/learning-ojs-3-registration.png)
 
 This will open the Registration Form for you to complete with all required information.
 
-![](./assets/learning-ojs-3-registration-form.png)
+![The Registration Form.](./assets/learning-ojs-3-registration-form.png)
 
 All fields with an asterisk (First Name, Last Name, Affiliation, Country, Email, Username, Password, Repeat Password) are mandatory. If the journal is multilingual, you will need to select your preferred language.
 
@@ -29,9 +39,13 @@ You will not be able to self-register for an Editorial Role (e.g., Editor, Secti
 
 ## Viewing and Changing your Profile
 
+This PKP School video explains how to manage a user profile in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of how to manage a user profile in OJS"%}
+
 To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
 
-![](./assets/learning-ojs3.1-ed-view-profile.png)
+![The View Profile menu.](./assets/learning-ojs3.1-ed-view-profile.png)
 
 From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image (which some journals may publish along with your article or on a list of editors), determine your notification settings, or update your password.
 
@@ -40,7 +54,7 @@ Under **Notifications**, you can configure what kinds of notifications you recei
 * Check off "Enable these types of notifications" if you want to see a notification of this event on your dashboard when you log in to the site
 * Check off "Do not send me an email for these types of notifications" if you do not want to receive an email notification about this event
 
-![](./assets/learning-ojs-3-user-notifications.png)
+![The Notifications tab where you can manage notifications.](./assets/learning-ojs-3-user-notifications.png)
 
 The **API tab** on the user profile allows you to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
 
@@ -54,7 +68,7 @@ You can reset your password by:
 4. Entering your current password and then your new password twice
 5. Hitting Save
 
-![](./assets/learning-ojs3.1-ed-change-pw.png)
+![The password reset screen.](./assets/learning-ojs3.1-ed-change-pw.png)
 
 Your password is now changed.
 
