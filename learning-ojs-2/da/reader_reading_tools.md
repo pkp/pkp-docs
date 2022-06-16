@@ -6,7 +6,8 @@ Reading Tools have been developed for a wide range of academic disciplines and t
 
 The Tools are displayed in the user's browser to the right of the item being read.
 
-![Reading Tools](images/chapter13/readers_4.png)  
+![Reading Tools](images/chapter13/readers_4.png)
+
 Reading Tools provide Readers with access to things like an item's indexing information, a print version and a citation. The Tools also enable Readers to look up words in the item (by double clicking on any work in the HTML version of the item); to email the author, share the article with another Reader; or to comment on the article. All of these features create a much more interactive reading environment.
 
 The Tools are also designed to take the first two keywords from the submission and feed them into search engines of open access databases and other resources. These features are found under the heading Related Items, and are grouped under Author's Work, Media reports, Government Websites, Teaching files, Online Forums, and other categories, depending on the set of Tools selected.
