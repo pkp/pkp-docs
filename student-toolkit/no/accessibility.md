@@ -1,3 +1,6 @@
+- - -
+title: Accessibility - Student Journal Toolkit
+- - -
 # Accessibility
 
 Accessibility is an important consideration to make your content usable for people with a range of disabilities such as sight impairments and limited movement.
