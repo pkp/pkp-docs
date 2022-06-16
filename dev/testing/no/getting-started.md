@@ -60,7 +60,12 @@ Or open Cypress and watch the tests while they run.
 npx cypress open
 ```
 
-![Once Cypress opens, click the Run All Specs button to start the tests.](./cypress-open.gif)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./cypress-open.mp4" type="video/mp4">
+  </video>
+  <figcaption>Once Cypress opens, click the Run All Specs button to start the tests.</figcaption>
+</figure>
 
 Tests that are shared between the applications are stored in the `lib/pkp/cypress/integration` directory and must be run with a separate command.
 
