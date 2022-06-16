@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Publication Versions - Technical Documentation - OJS|OMP|OPS
 ---
 
@@ -26,31 +28,35 @@ The current publication refers to the most recently published version. If the su
 A publication can not be edited after it has been published. To make changes, a new version should be created, edited and published.
 
 ```php
+use APP\facades\Repo;
+
 // Create a new version
-$newPublication = Services::get('publication')->version(
+$newPublication = Repo::publication()->version(
     $submission->getCurrentPublication(),
     $request
 );
 
 // Edit the new version
-$newPublication = Services::get('publication')->edit(
+$newPublication = Repo::publication()->edit(
     $newPublication,
     ['datePublished' => '2020-01-15'],
     $request
 );
 
 // Publish the new version
-$newPublication = Services::get('publication')->publish(
+$newPublication = Repo::publication()->publish(
     $newPublication
 );
 ```
 
-The publication service class includes a few additional methods to assist with publishing and versioning submissions.
+The publication [Repository](./architecture-repositories) includes a few additional methods to assist with publishing and versioning submissions.
 
-- `PKPPublication::version()` will create a new version of an existing publication.
-- `PKPPublication::validatePublish()` will perform pre-publication checks to ensure the publication is ready to be published.
-- `PKPPublication::publish()` will publish a publication, update the status, and create the appropriate log entries.
-- `PKPPublication::unpublish()` will unpublish a publication.
+| Method            | Description                                                                        |
+| ----------------- | ---------------------------------------------------------------------------------- |
+| `version`         | Create a new version of an existing publication.                                   |
+| `validatePublish` | Perform pre-publication checks to ensure the publication is ready to be published. |
+| `publish`         | Publish a publication, update the status, and create the appropriate log entries.  |
+| `unpublish`       | Unpublish a publication.                                                           |
 
 ## Working with Versions
 
