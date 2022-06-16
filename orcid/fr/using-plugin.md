@@ -38,23 +38,23 @@ Pour inviter les coauteur-trices et contributeurs-trices à connecter leurs iDs 
 
 Au lieu d'inviter manuellement les contributeur-trices à connecter leurs iDs ORCID, les directeur-trices/administrateur-trices de la revue peuvent configurer le plugiciel ORCID pour envoyer des courriels automatiques aux contributeurs-trices. Pour ce faire, cochez la case « Envoyer un courriel pour demander l'autorisation ORCID aux auteur-es lorsqu'un article est accepté ».
 
-![ORCID plugin screen with the outlined checkbox to send email to request ORCID authentication from authors.](./assets/orcid_plugin_auto_emails.png)
+![L'écran du plugiciel ORCID avec la case à cocher pour envoyer un email afin de demander l'authentification ORCID aux auteur-es encadrée.](./assets/orcid_plugin_auto_emails.png)
 
 ### Le plugiciel ORCID affichera les iDs ORCID des contributeur-trices sur la page de publication
 
 Les identifiants ORCID authentifiés des auteur-es et des contributeur-trices seront affichés publiquement sur la page de l'article ou du préprint, qui se liera à la fiche ORCID du contributeur-trice.
 
-![Article page displaying authenticated iDs under each of the three contributors' names.](./assets/orcid-id-example.png)
+![Page d'article affichant les iDs authentifiés sous chacun des noms des trois contributeur-trices.](./assets/orcid-id-example.png)
 
 ### Le plugiciel ORCID affichera les informations de l’article dans la fiche ORCID de l’auteur-e (lorsque l'API membre est configurée)
 
 En plus de toutes les fonctionnalités ci-dessus disponibles dans les API publiques et membres, les serveurs de journals/preprint utilisant l'API membre ORCID enverront automatiquement des informations sur les articles au fiche ORCID de l'auteur-e lors de la publication. Pour plus de détails, consultez [la vidéo de la publication d'un article avec l'API membre ORCID (anglais)](https://vimeo.com/374417678).
 
-![Article information displayed in an author's ORCID record.](./assets/orcid_in_author_record.png)
+![Informations sur l'article affichées dans la fiche ORCID d'un auteur-e.](./assets/orcid_in_author_record.png)
 
 Lorsqu'une œuvre est ajoutée à une fiche ORCID, la provenance est également affichée. Si une personne ajoute une œuvre à son propre dossier, la provenance sera indiquée sous son propre nom. Si une œuvre est ajoutée via l'API comme dans le cas d'OJS, la "source" apparaîtra comme le "nom du client" qui est indiqué lorsque les informations d'identification de l'API ORCID sont demandées. Si le plugiciel ORCID est utilisé pour une seule revue, la source/le nom du client est généralement le nom de la revue. Si le plugiciel ORCID est utilisé pour plusieurs revues sur la même instance, alors le nom de la source/client devrait être quelque chose de plus plus général, tel que « Univ. des Revues XYZ ».
 
-![Article information and the source of an entry displayed in an author's ORCID record.](./assets/orcid-publication-source.png)
+![Informations sur l'article et la source d'une entrée affichées dans la fiche ORCID d'un auteur-e.](./assets/orcid-publication-source.png)
 
 *Veuillez noter * que les informations sur la source de la publication ne fonctionnent pas actuellement pour OPS.
 
@@ -69,5 +69,5 @@ Il se peut que vous deviez supprimer l'ORCID iD d'un auteur-e. Cette opération 
 1. Lorsque vous êtes connecté comme Administrateur-trice, dans le menu de gauche de l'OJS, sélectionnez Utilisateurs-trices & Rôles > Utilisateurs-trices
 2. Recherchez le nom de l'utilisateur-trice pour lequel vous souhaitez supprimer l'ORCID iD. Cliquez sur la petite flèche à côté du nom de la personne et sélectionnez Modifier un-e utilisateur-trice
 3. Une fois que vous êtes sur la page Modifier un-e utilisateur-trice, cliquez sur Plus de renseignements sur l'utilisateur-trice
-4. Find the ORCID iD box and delete the ORCID iD
-5. Click OK at the bottom of the page
+4. Trouvez la case ORCID iD et supprimez l'ORCID iD
+5. Cliquez sur OK au bas de la page
