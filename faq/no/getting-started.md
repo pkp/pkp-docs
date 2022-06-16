@@ -1,3 +1,7 @@
+- - -
+title: FAQ about How to Get Started with Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+- - -
+
 # Getting Started
 
 ## How can I use OJS for my journal?
@@ -22,7 +26,7 @@ OJS, OMP, and OPS all **require a web server and technical support** to host the
 
 Choosing to host software yourself entails a major obligation to maintain the service in a secure and accessible manner. The server and software application need to be maintained by a competent systems administrator who can do the following:
 
-* Perform upgrades of the application.
+* [Perform upgrades of the application](/dev/upgrade-guide/).
 * Perform upgrades of other software running on the server (e.g., PHP).
 * Run and test frequent backups.
 * [Configure and troubleshoot email](https://docs.pkp.sfu.ca/admin-guide/en/email) sent and received by the application.
