@@ -123,4 +123,4 @@ More information on how to generate and manage statistics in OJS is provided in 
 
 The Reset Article Permissions tool allows you to reset the copyright statement and license information on all published articles, and will revert it to your journal's current default settings. Take caution when using this tool and consult legal expertise if you are unsure what rights you hold over the articles published in your journal.
 
-![](./assets/learning-ojs3.2-jm-users-tools-permissions.png)
+![Option to reset artile permission in the Tools Permissions tab.](./assets/learning-ojs3.2-jm-users-tools-permissions.png)
