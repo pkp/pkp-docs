@@ -3,63 +3,63 @@ book: learning-ojs
 version: 3.2
 ---
 
-# Authoring
+# Kirjoittajat
 
-In this chapter, you will learn about how an author works in OJS 3.2 from registration through to proofreading the final galley.
+Tässä luvussa kerrotaan OJS 3.2 -järjestelmän toiminnoista kirjoittajan näkökulmasta.
 
-## Registering with the Journal
+## Rekisteröityminen julkaisuun
 
-To make a submission to an OJS 3.2 journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
+Käsikirjoituksen lähettämiseksi tarvitset käyttäjätilin OJS-järjestelmään \(katso [Rekisteröityminen julkaisuun](./user-accounts#registering-with-a-journal)\). Tilin luomisen jälkeen voit kirjautua sisään ja pääset omaan Hallintapaneeliin.
 
 ![Submissions queue in author dashboard](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
-It is currently empty as you have made no submissions.
+Näkymä on aluksi tyhjä, koska käyttäjätilillä ei ole aiemmin lähetetty käsikirjoituksia.
 
 <hr />
 
-## Submitting an Article
+## Käsikirjoituksen lähettäminen
 
-Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to Step 1 of a 5-Step process to upload and describe your submission.
+Hallintapaneelissa, aloita käsikirjoituksen lähetys valitsemalla **Uusi käsikirjoitus** näkymän oikeasta reunasta. Toiminto avaa viisiportaisen lomakkeen, jolla käsikirjoitus lähetetään ja kuvaillaan.
 
 ![Author submission queue with new submission button](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
-### Step 1
+### Vaihe 1
 
-In **Step 1** you will provide preliminary information about your submission.
+**Ensimmäisessä vaiheessa** täytetään käsikirjoituksen luokitteluun liittyviä perustietoja.
 
 ![Article submission start screen](./assets/learning-ojs3.2-au-dashboard-new-1.png)
 
-If the journal allows submissions in multiple languages, you can select the language of your submission from the drop-down menu. Languages can be enabled in Website Settings -> Setup -> Language.
+Valitse käsikirjoituksen kieli vetovalikosta. Kieli on valittavissa vain jos julkaisu ottaa vastaan käsikirjoituksia usealla kielellä. Languages can be enabled in Website Settings -> Setup -> Language.
 
-Select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
+Valitse vetovalikosta käsikirjoitukselle sopiva osasto. Jos et ole varma valinnastasi, niin valitse sopivin.
 
-Read and agree to the statements in the submission checklist by checking each box. Include any comments for the editor, read the journal’s privacy statement, and then click the **Save and Continue** button to move to **Step 2**.
+Lue ja hyväksy tarkistuslistassa olevat kohdat. Mikäli käsikirjoituksesi ei täytä ehtoja, tee tarvittavat korjaukset ennen etenemistä. Lisää tarvittaessa kommentteja toimittajalle, lue ja hyväksy tietosuojaseloste ja valitse **Tallenna ja jatka**, jolloin siirryt seuraavaan vaiheeseen.
 
-### Step 2
+### Vaihe 2
 
-On **Step 2**, a window will open allowing you to upload your submission file.
+**Toisessa vaiheessa** pääset lisämään käsikirjoitukseen liittyviä tiedostoja. Ruudulle avautuu uusi ikkuna, joka sisältää kolmiportaisen lomakkeen.
 
 ![File upload screen](./assets/learning-ojs-3-author-submission-step2.png)
 
-First, you MUST select an Article Component. This lets the system know whether the file is the body of the manuscript, an image, a data set, etc. **This must be selected before your file will upload**.
+Valitse ensin Artkkelin osa. Valinnalla määritetään onko kyse varsinaisesta käsikirjoitustiedostosta vai mahdollisesti jostakin liitetiedostosta. **Pääset lataamaan tiedostoa vasta valinnan jälkeen**. Tavallisesti oikea vaihtoehto on “Artikkelin teksti”.
 
 ![Select Article Component](./assets/learning-ojs-3-author-submission-step2-2.png)
 
-Once you’ve made that selection, you can then upload your first file. It is important to note that you can only upload **one** file at a time. Additional files can be uploaded later in the process. Typically, this first file will be the body of your manuscript. Hit the **Continue** button once the file uploads.
+Valinnan tehtyäsi pääset lataamaan ensimmäisen tiedoston. Huomaa, että voit ladata vain **yhden** tiedoston kerralla. Additional files can be uploaded later in the process. Typically, this first file will be the body of your manuscript. Valitse Lataa tiedosto ja etsi oikea tiedosto tietokoneeltasi. Kun tiedosto on siirtynyt, valitse **Jatka**.
 
 ![Review submission details](./assets/learning-ojs-3-author-submission-step2-3.png)
 
-After uploading the file, you will be asked to review the name of the file. Use the Edit link to make any changes.
+Tiedoston siirron jälkeen voit nimetä sen halutessasi uudelleen, mutta tavallisesti oletuksena annettu nimi riittää. Mikäli olet lisäämässä liitetiedostoa, näkymässä on lomake, johon voit tarvittaessa täyttää tiedoston kuvailutiedot. Use the Edit link to make any changes.
 
-Click the **Continue** button.
+Valitse **Jatka**.
 
-Next, you have the option to repeat the process to upload additional files \(e.g., a data set or an image\).
+Ensimmäisen tiedoston lisäys on nyt valmis. Voit lisätä uusia tiedostoja valitsemalla Lisää toinen tiedosto.
 
-Once you have finished uploading all of your files, click **Complete**; this will close the upload window.
+Kun olet lisännyt kaikki tiedostot, valitse **Suorita**, jolloin ikkuna sulkeutuu.
 
 ![Finish submission screen](./assets/learning-ojs-3-author-submission-step2-4.png)
 
-You will be brought back to the _Submit an Article_ screen where you will see the files you’ve uploaded. If you need to make changes, expand the blue arrow to the left of your file and make any changes using the _Edit_ link.
+Palaat toisen vaiheen näkymään, jossa on nyt listattuna kaikki lisäämäsi tiedostot. If you need to make changes, expand the blue arrow to the left of your file and make any changes using the _Edit_ link.
 
 Click ‘Save and Continue’ to move to Step 3.
 
