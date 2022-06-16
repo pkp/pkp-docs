@@ -1,10 +1,12 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Editorial Statistics - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Editorial Statistics
 
-Editorial statistics refer to the editorial activity of a journal or press. The editorial statistics [service](architecture-services.md) helps you calculate data on submissions received, accepted and published, and how long authors must wait for editorial decisions.
+Editorial statistics refer to the editorial activity of a journal or press. The editorial statistics service helps you calculate data on submissions received, accepted and published, and how long authors must wait for editorial decisions.
 
 Get a count of submissions received by one journal.
 
@@ -48,8 +50,8 @@ Use `countByDecisionsForSubmittedDate()` to calculate acceptance and rejection r
 
 ```php
 $args = ['contextIds' => [1]];
-$accepted = $this->countByDecisionsForSubmittedDate(SUBMISSION_EDITOR_DECISION_ACCEPT, $args);
-$declined = $this->countByDecisionsForSubmittedDate([SUBMISSION_EDITOR_DECISION_INITIAL_DECLINE, SUBMISSION_EDITOR_DECISION_DECLINE], $args);
+$accepted = Services::get('editorialStats')->countByDecisionsForSubmittedDate(SUBMISSION_EDITOR_DECISION_ACCEPT, $args);
+$declined = Services::get('editorialStats')->countByDecisionsForSubmittedDate([SUBMISSION_EDITOR_DECISION_INITIAL_DECLINE, SUBMISSION_EDITOR_DECISION_DECLINE], $args);
 $total = $accepted + $declined;
 
 $acceptanceRate = $accepted / $total;
@@ -59,7 +61,7 @@ $rejectionRate = $declined / $total;
 Get the number of days it took for each accepted submission to reach its final decision.
 
 ```php
-$acceptDays = $this->getDaysToDecisions(
+$acceptDays = Services::get('editorialStats')->getDaysToDecisions(
     [
         SUBMISSION_EDITOR_DECISION_SEND_TO_PRODUCTION,
         SUBMISSION_EDITOR_DECISION_ACCEPT
@@ -79,7 +81,7 @@ Or calculate an acceptance rate which allows you to report more meaningful stati
 ```php
 // 80% of accepted submissions receive this decision within
 // <$rate> number of days.
-$rate = $this->calculateDaysToDecisionRate($acceptDays, 0.8);
+$rate = Services::get('editorialStats')->calculateDaysToDecisionRate($acceptDays, 0.8);
 ```
 
 The `PKPStatsEditorialService` class includes methods to count submissions by status or workflow stage.
