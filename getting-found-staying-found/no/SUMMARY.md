@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](.)
 * [Getting Found: Building Visibility](getting-found-visibility.md)
   * [Journal Standards and Identifiers](./getting-found-visibility.md#journal-standards-and-identifiers)
   * [Search Engines](./getting-found-visibility.md#search-engines)
@@ -16,8 +17,6 @@
 * [Staying Found: Ensuring Continuity](getting-found-staying-found.md)
   * [Server Environment](./getting-found-staying-found.md#server-environment)
   * [Digital Preservation](./getting-found-staying-found.md#digital-preservation)
-  * [Public Knowledge Project Preservation Network (PKP PN)](./getting-found-staying-found.md#public-knowledge-project-preservation-network-pkp-pn)
-  * [DOAJ and Digital Preservation/Archiving Policy](./getting-found-staying-found.md#doaj-and-digital-preservationarchiving-policy)
 * [Strengthening Your Journal Publishing Efforts](getting-found-strengthening.md)
   * [Publication Ethics](./getting-found-strengthening.md#publication-ethics)
   * [Further Reading](./getting-found-strengthening.md#further-reading)
