@@ -1,13 +1,18 @@
 ---
 book: learning-ojs
 version: 3.3
+title: Learning Open Journal Systems 3.3 - Users and Roles
 ---
 
 # Users and Roles
 
-This section provides access to all of the user accounts associated with your journal, as well as the opportunity to manage roles and permissions.
+This section provides information on accessing all of user accounts associated with your journal, as well as managing roles and permissions.
 
 ## Managing Users
+
+This PKP School video explains how to manage users in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="_AAtxnFEodQ" provider="youtube" title="Video of how to manage users in OJS"%}
 
 In addition to managing the journal web site, the Journal Manager is also responsible for all of the user accounts in the system.
 
@@ -39,6 +44,8 @@ To send an email to a user that is unrelated to a submission:
 4. Click Email. A pop-up box will appear where you can type in your message and send it
 
 ![Email pop-up box for emailing a user](./assets/learning-ojs-3-users-email.png)
+
+##### Bulk Email Notifications by Role
 
 In OJS 3.3 you can email multiple users at the same time using the Notify tab. This feature will need to be enabled for each journal by the journal administrator under Site Settings > Bulk Emails. The site administrator can also disable certain roles in the journal from receiving bulk emails under Hosted Journals > Settings Wizard.
 
@@ -143,6 +150,10 @@ If the user still cannot log in, their account may have been disabled. To re-ena
 
 ## Permissions and Roles
 
+This PKP School video explains how to manage roles in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="3sqD41OKuFs" provider="youtube" title="Video of how to manage roles in OJS"%}
+
 The OJS workflow revolves around different roles with different permissions and responsibilities for each user, allowing them access to different parts of the workflow. Users in the system must have at least one role. Users can also have more than one role, for example, being a Journal Manager, Editor, and Author in the same journal.
 
 Each role is first assigned a permission level, which will broadly define what level of access a user has to a particular journal. Roles are then further customized by providing a position name, and granting or restricting access to various stages of the Editorial Workflow.
@@ -200,6 +211,10 @@ Use the _Create New Roles_ link to open a window where you can create a new role
 <hr />
 
 ## Site Access Options
+
+This PKP School video explains how to configure site options in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+
+{% include video.html id="lqf4GmA01PA" provider="youtube" title="Video of how to configure site access options in OJS"%}
 
 This page allows you to determine how readers can access your journal.
 
