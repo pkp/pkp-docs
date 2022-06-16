@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Authentication - Technical Documentation - OJS|OMP|OPS
 ---
 
@@ -23,21 +25,26 @@ $currentUser = Application::get()->getRequest()->getUser();
 
 CSRF tokens must be sent with all `POST`, `PUT` or `DELETE` requests to prevent attacks using [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery).
 
-CSRF tokens are not required with requests to the API when the [API Token](/dev/api/#api-token) is used.
-
 A CSRF token may be requested from the current session.
 
 ```php
 $csrfToken = $request->getSession()->getCSRFToken();
 ```
 
+CSRF tokens are not required for requests to the API when the [API Token](/dev/api/#api-token) is used.
+
 ### Page Routes
 
 When Page Handlers receive `POST`, `PUT` or `DELETE` requests, any form data should be processed by a `Form`. In such cases, the `Form` must add the CSRF check to its validation rules.
 
 ```php
-class ExampleForm extends Form {
-    function __construct(...) {
+use PKP\form\Form;
+use PKP\form\validation\FormValidatorCSRF;
+
+class ExampleForm extends Form
+{
+    function __construct(...)
+    {
         $this->addCheck(new FormValidatorCSRF($this));
     }
 }
@@ -48,8 +55,12 @@ class ExampleForm extends Form {
 Controllers must check the CSRF token for any op that receives a `POST`, `PUT` or `DELETE` request.
 
 ```php
-class IssueGridHandler {
-    function deleteIssue($args, $request) {
+use APP\core\Request;
+
+class IssueGridHandler
+{
+    function deleteIssue(array $args, Request $request)
+    {
         if (!$request->checkCSRF()) {
             return new JSONMessage(false);
         }
