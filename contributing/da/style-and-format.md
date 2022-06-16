@@ -1,3 +1,6 @@
+- - -
+title: Style and Format - Guidelines for Contributing to PKP Documentation
+- - -
 # Style and Format
 
 ## Versioning and Updates
@@ -11,7 +14,7 @@ Older versions of the documentation are accessible – via GitHub branches – f
 
 ## Images
 
-### Image format
+### Image Format
 
 Images are restricted to 848 pixels in width on display. Where possible, try to limit your file size by keeping your images below that width. The format should follow these guidelines:
 
@@ -23,9 +26,104 @@ Images are restricted to 848 pixels in width on display. Where possible, try to 
 
 When you take screenshots, do not include the menu and broader elements of the interface unless it is necessary. This lessens the need to replace screenshots when the software interface changes.
 
+## Spelling
+
+PKP's documentation uses Canadian spelling. For example, use "centre" instead of "center."
+
 ## Pronouns
 
 When using pronouns to refer to a generic user, use gender-neutral pronouns such as “they,” “their,” and “them.” Use “they” instead of “he” or “she.” Use “their” instead of “his” or “her.” Use “them” instead of “her” or “him.” Use “themselves” instead of “himself” or “herself.”
+
+## Accessible Hyperlinks
+
+Users who navigate using a screen reader must be able to unambiguously understand the purpose of the link and skip links they are not interested in. To achieve this, link text needs to be:
+
+- **Descriptive.** Provide URL text rather than adding plain URL. E.g.:
+> Do not use: “Read about OJS plugins at [https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins)”.
+> Use instead: “Read about OJS plugins in the [Learning OJS: plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins) section”.
+
+    When writing URL text, make sure it can be understood without additional context. E.g.:
+> Do not use: “[Click here](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins) to read about OJS plugins”.
+> Use instead: “More information is available in the [Learning OJS: plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins) section”.
+
+- **Concise.** Use keyword(s) as linked text rather than longer sentences. E.g.:
+> Do not use: “More information is available in the [Learning OJS: plugins section which lists available OJS plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins)”.
+> Use instead: “More information is available in the [Learning OJS: plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins) section”.
+
+- **Unique.** Avoid similarly named hyperlinks if they link to different places. E.g.:
+> Do not use the generic “Learning OJS” for links referring to different sections of the guide.
+> Use instead: “More information is available in the [Learning OJS: plugins](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins) section”.
+
+## Order of Headings
+
+To facilitate navigation by tabbing or with a screen reader, headings should be used in hierarchical order, without skipping.
+
+Markdown headings correspond to HTML headings as follows:
+
+`<h1> = #`
+
+`<h2> = ##`
+
+`<h3> = ###`
+
+… etc.
+
+The headings are nested according to their rank or level. E.g. `<h1>` or `#` is the highest level in importance, followed by `<h2>` or `##` etc.
+
+Avoid skipping headings in a document structure to prevent confusion, even if you prefer the visual presentation. A `<h2>` must be followed by a `<h3>` as the next subheading in the same section. However, it is acceptable to have a `<h4>` followed directly by a `<h2>` when it opens a new section, as long as `<h4>` closes the previous one.
+
+Only one `<h1>` or `#` heading should be used per document, because it serves as the document title. Therefore most sections within a Docs Hub page will start with `<h2>` or `##`.
+
+## Blockquote Styles
+
+When creating documentation in Markdown, you have the option of using coloured content blocks to highlight information for the reader. There are three options available: a "tip" block, a "notice" block, and a "warning" block. This will not add any semantic markup to the text blocks, and will only add coloured backgrounds to visually highlight the text.
+
+We recommend using each style for the following types of content:
+
+- Tip (yellow): Content that you want to highlight that may be helpful to the reader.
+- Notice (blue): Content that is important for the reader to know.
+- Warning (red): Essential content for the reader to understand before they continue.
+
+### Syntax
+
+To add a blockquote style to a section of text, use the blockquote Markdown styling by starting a section of text with a `>` character. Then, add the styling on the line after the text you are highlighting in braces. You can include other Markdown formatting, like bold text or links, in these blockquotes as well.
+
+For example, if you wanted a block of text to have the warning style, you would use the following syntax:
+
+```
+> Documentation for the REST APIs in OMP and OPS is not yet available. These applications share many of the same endpoints as OJS, but the documentation has not yet been prepared.
+{:.notice}
+```
+
+### Examples
+
+The examples below demonstrate what each style will look like in the documentation hub.
+
+#### Tip
+
+> All of the form field components can be seen in the [UI Library](/dev/ui-library/dev). 
+> 
+> {:.tip}
+
+#### Notice
+
+> Documentation for the REST APIs in OMP and OPS is not yet available. These applications share many of the same endpoints as OJS, but the documentation has not yet been prepared. 
+> 
+> {:.notice}
+
+#### Warning
+
+> **Do not skip this step.** An upgrade can fail for many reasons. Without a backup you may permanently lose data. 
+> 
+> {:.warning}
+
+## Linking to External Files
+
+When linking to external files not hosted in the Docs Hub, consider the following:
+
+- Where the license and file size allows, consider uploading the file to the Docs Hub and link to it there rather than to its external location, for continuity of access.
+- Where appropriate consider incorporating the external content into the Docs Hub page and citing the quote appropriately. This will improve accessibility and limit reliance on external pages.
+- If the external file format is not accessible, consider looking for an accessible alternative (e.g. a captioned video, etc.).
 
 ## Attribution
 
@@ -45,6 +143,7 @@ If documentation they contributed changes substantially over time, their names m
 - Try to anticipate problems and issues that the user might have. Explain how to overcome them.
 
 You can learn more about writing good docs with these resources:
+
 - [Documentation Guide by WritetheDocs](http://www.writethedocs.org/guide/)
 - [Mailchimp Content Style Guide](https://styleguide.mailchimp.com/writing-technical-content/)
 
