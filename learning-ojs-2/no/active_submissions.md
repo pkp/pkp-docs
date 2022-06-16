@@ -1,7 +1,5 @@
 # Active Submissions
 
-
-
 This page will list any of your submissions to the journal that are still in process and are either complete or incomplete (in which case you can return and finish the submission at any point).
 
 Each completed submission will fall into one of the following categories:
@@ -13,7 +11,6 @@ Each completed submission will fall into one of the following categories:
 * **Queued for Editing**: the submission has completed the review process and been accepted for publication; it will now make its way through the system's copyediting, layout editing and proofreading processes.
 
 In the example below, there is one submission in process and it is awaiting assignment. The journal is only charging a fee to fasttrack submission. If a journal does not charge submission fees of any kind, this link will not appear. The author must use the Pay link to proceed if fees are required.
-
 
 ![Active Submissions](images/chapter6/author_activ_submissions.png)
 
