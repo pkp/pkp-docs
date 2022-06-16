@@ -1,5 +1,7 @@
 ---
-title: Controllers - Frontend - Technical Documentation - OJS/OMP
+book: dev-documentation
+version: 3.4
+title: Controllers - Frontend - Technical Documentation - OJS|OMP|OPS
 ---
 
 # Controllers
@@ -23,12 +25,13 @@ Grids are composed of a `GridHandler` which coordinates the whole list. A `GridR
 A grid works by extending the `GridHandler` class and defining an `initialize` method.
 
 ```php
-import('lib.pkp.classes.controllers.grid.GridHandler');
-class PKPReviewerGridHandler extends GridHandler {
-    /**
-     * @copydoc GridHandler::initialize()
-     */
-    public function initialize(Request $request, $args = null) {
+use APP\core\Request;
+use PKP\controllers\grid\GridHandler;
+
+class PKPReviewerGridHandler extends GridHandler
+{
+    public function initialize(Request $request, ?array $args = null)
+    {
         parent::initialize($request, $args);
 
         $this->setTitle('user.role.reviewers');
@@ -43,45 +46,63 @@ Actions such as adding a new item to the grid are defined in the `initialize` me
 > {:.notice}
 
 ```php
-public function initialize(Request $request, $args = null) {
-    parent::initialize($request, $args);
+use APP\core\Request;
+use PKP\controllers\grid\GridHandler;
+use PKP\linkAction\LinkAction;
+use PKP\linkAction\request\AjaxModal;
 
-    $this->setTitle('user.role.reviewers');
+class PKPReviewerGridHandler extends GridHandler
+{
+    public function initialize(Request $request, ?array $args = null)
+    {
+        parent::initialize($request, $args);
 
-    // Get a URL to the GridHandler's `showReviewerForm` op
-    $reviewerFormUrl = $request->getRouter()->url(
-        $request,
-        null,
-        null,
-        'showReviewerForm',
-        null,
-        [
-            'submissionId' => $submissionId,
-        ]
-    );
+        $this->setTitle('user.role.reviewers');
 
-    import('lib.pkp.classes.linkAction.request.AjaxModal');
-    $this->addAction(
-        new LinkAction(
-            'addReviewer',
-            new AjaxModal(
-                $reviewerFormUrl,
+        // Get a URL to the GridHandler's `showReviewerForm` op
+        $reviewerFormUrl = $request->getRouter()->url(
+            $request,
+            null,
+            null,
+            'showReviewerForm',
+            null,
+            [
+                'submissionId' => $submissionId,
+            ]
+        );
+
+        $this->addAction(
+            new LinkAction(
+                'addReviewer',
+                new AjaxModal(
+                    $reviewerFormUrl,
+                    __('editor.submission.addReviewer'),
+                    'modal_add_user'
+                ),
                 __('editor.submission.addReviewer'),
-                'modal_add_user'
-            ),
-            __('editor.submission.addReviewer'),
-            'add_user'
-        )
-    );
-
-    ...
+                'add_user'
+            )
+        );
+    }
 }
 ```
 
-The columns that should be shown in each row are also defined in the `initialize` method.
+Define the columns to show in each row in the `initialize` method.
 
 ```php
-public function initialize(Request $request, $args = null) {
+use APP\core\Request;
+use PKP\controllers\grid\GridHandler;
+use PKP\controllers\grid\GridColumn;
+
+import('lib.pkp.controllers.grid.users.reviewer.ReviewerGridCellProvider');
+
+class PKPReviewerGridHandler extends GridHandler
+{
+    public function initialize(Request $request, ?array $args = null)
+    {
+        parent::initialize($request, $args);
+
+        $this->setTitle('user.role.reviewers');
 
     ...
 
@@ -114,19 +135,21 @@ public function initialize(Request $request, $args = null) {
 Finally, the grid must define a `loadData` method that gets the items to be displayed. It should return an `array` of [DataObjects](./architecture-entities#dataobject-class).
 
 ```php
-import('lib.pkp.classes.controllers.grid.GridHandler');
-class PKPReviewerGridHandler extends GridHandler {
-    /**
-     * @copydoc GridHandler::initialize()
-     */
-    public function initialize(Request $request, $args = null) {
-        ...
+use APP\core\Request;
+use PKP\controllers\grid\GridHandler;
+use PKP\db\DAORegistry;
+
+class PKPReviewerGridHandler extends GridHandler
+{
+    public function initialize(Request $request, ?array $args = null)
+    {
+        parent::initialize($request, $args);
+
+        // ...
     }
 
-    /**
-     * @see GridHandler::loadData()
-     */
-    protected function loadData($request, $filter) {
+    protected function loadData(Request $request, array $filter)
+    {
         // Get the existing review assignments for this submission
         $reviewRound = $this->getReviewRound();
         $reviewAssignmentDao = DAORegistry::getDAO('ReviewAssignmentDAO'); /* @var $reviewAssignmentDao ReviewAssignmentDAO */
@@ -138,13 +161,13 @@ class PKPReviewerGridHandler extends GridHandler {
 Each item in the array returned by `loadData` will be passed to a new class that extends the `GridRow` class.
 
 ```php
-import('lib.pkp.classes.controllers.grid.GridRow');
-class ReviewerGridRow extends GridRow {
+use APP\core\Request;
+use PKP\controllers\grid\GridRow;
 
-    /**
-     * @copydoc GridRow::initialize()
-     */
-    public function initialize($request, $template = null) {
+class ReviewerGridRow extends GridRow
+{
+    public function initialize(Request $request, ?string $template = null)
+    {
         parent::initialize($request, $template);
 
         ...
@@ -155,13 +178,19 @@ class ReviewerGridRow extends GridRow {
 Actions related to each row should be defined in the `initialize` method of the `GridRow` class. The example below adds a button that opens a modal with the review details.
 
 ```php
-import('lib.pkp.classes.controllers.grid.GridRow');
-class ReviewerGridRow extends GridRow {
+use APP\core\Request;
+use PKP\controllers\grid\GridRow;
+use PKP\linkAction\LinkAction;
+use PKP\linkAction\request\AjaxModal;
+
+class ReviewerGridRow extends GridRow
+{
 
     /**
      * @copydoc GridRow::initialize()
      */
-    public function initialize($request, $template = null) {
+    public function initialize(Request $request, ?string $template = null)
+    {
         parent::initialize($request, $template);
 
         // Get a URL to the GridHandler's `readReview` op
@@ -196,16 +225,15 @@ class ReviewerGridRow extends GridRow {
 Let the `GridHandler` know which `GridRow` class should be loaded.
 
 ```php
-import('lib.pkp.classes.controllers.grid.GridHandler');
-class PKPReviewerGridHandler extends GridHandler {
+use PKP\controllers\grid\GridHandler;
+
+class PKPReviewerGridHandler extends GridHandler
+{
 
     ...
 
-    /**
-     * @see GridHandler::getRowInstance()
-     * @return ReviewerGridRow
-     */
-    protected function getRowInstance() {
+    protected function getRowInstance(): ReviewerGridRow
+    {
         import('lib.pkp.controllers.grid.users.reviewer.ReviewerGridRow');
         return new ReviewerGridRow();
     }
@@ -219,15 +247,15 @@ Finally, a `GridCellProvider` class will map each item to one of the grid column
 > {:.tip}
 
 ```php
-import('lib.pkp.classes.controllers.grid.DataObjectGridCellProvider');
-class ReviewerGridCellProvider extends DataObjectGridCellProvider {
+use PKP\controllers\grid\DataObjectGridCellProvider;
+use PKP\controllers\grid\GridColumn;
+use PKP\controllers\grid\GridRow;
 
-    /**
-     * @param $row GridRow
-     * @param $column GridColumn
-     * @return array
-     */
-    public function getTemplateVarsFromRowColumn($row, $column) {
+class ReviewerGridCellProvider extends DataObjectGridCellProvider
+{
+
+    public function getTemplateVarsFromRowColumn(GridRow $row, GridColumn $column): array
+    {
 
         // Get the ReviewAssignment for this row
         $reviewAssignment = $row->getData();
@@ -249,13 +277,16 @@ class ReviewerGridCellProvider extends DataObjectGridCellProvider {
 In an example above an action was added to each review assignment that opens the review in a modal. Review that code below.
 
 ```php
-import('lib.pkp.classes.controllers.grid.GridRow');
-class ReviewerGridRow extends GridRow {
+use APP\core\Request;
+use PKP\controllers\grid\GridRow;
+use PKP\linkAction\LinkAction;
+use PKP\linkAction\request\AjaxModal;
 
-    /**
-     * @copydoc GridRow::initialize()
-     */
-    public function initialize($request, $template = null) {
+class ReviewerGridRow extends GridRow
+{
+
+    public function initialize(Request $request, ?string $template = null)
+    {
         parent::initialize($request, $template);
 
         // Get a URL to the GridHandler's `readReview` op
@@ -286,22 +317,22 @@ class ReviewerGridRow extends GridRow {
     }
 }
 ```
+
 The `LinkAction` loads the modal and the modal makes a request to the `$readReviewUrl`, which is routed to the `PKPReviewerGridHandler`. In order to make this request work, the `PKPReviewerGridHandler` must implement a `readReview` method that returns the HTML to be displayed in the modal.
 
 ```php
-import('lib.pkp.classes.controllers.grid.GridHandler');
-class PKPReviewerGridHandler extends GridHandler {
+use APP\core\Request;
+use APP\template\TemplateManager;
+use PKP\controllers\grid\GridHandler;
+use PKP\core\JSONMessage;
+
+class PKPReviewerGridHandler extends GridHandler
+{
 
     ...
 
-    /**
-     * Return the review details to be displayed in the modal
-     *
-     * @param $args array
-     * @param $request PKPRequest
-     * @return JSONMessage JSON object
-     */
-    public function readReview($args, $request) {
+    public function readReview(array $args, Request $request): JSONMessage
+    {
 
         // The review assignment should be an authorized
         // context object due to the authorization policies.
@@ -327,7 +358,7 @@ Every action created by the grid handler or the grid row will require an operati
 
 ## Forms
 
-Most controllers are used to display a `Form`, which presents the form, receives the form submission, validates the input, and executes the changes.
+Most controllers are used to display a `Form`, which displays the form, receives the form submission, validates the input, and executes the changes.
 
 > The forms described here are used by Controllers which have been deprecated. Use the forms in the [UI Library](./frontend-components#forms) when building forms for new features. 
 > 
@@ -336,11 +367,20 @@ Most controllers are used to display a `Form`, which presents the form, receives
 Every form extends the `Form` class. Define the template to use to render the form and add validation checks in the constructor method.
 
 ```php
-import('lib.pkp.classes.form.Form');
+use APP\author\Author;
+use APP\publication\Publication;
+use PKP\form\Form;
+use PKP\form\validation\FormValidatorCSRF;
+use PKP\form\validation\FormValidatorLocale;
+use PKP\form\validation\FormValidatorPost;
 
-class PKPAuthorForm extends Form {
+class PKPAuthorForm extends Form
+{
+    public Publication $publication;
+    public Author $author;
 
-    public function __construct($publication, $author =  null) {
+    public function __construct(Publication $publication, ?Author $author =  null)
+    {
 
         // The template that should be used to render the form
         parent::__construct('controllers/grid/users/author/form/authorForm.tpl');
@@ -372,7 +412,10 @@ class PKPAuthorForm extends Form {
 Initialize the data that will be used in the form. This makes pre-existing data available in the template when editing an object.
 
 ```php
-class PKPAuthorForm extends Form {
+use PKP\form\Form;
+
+class PKPAuthorForm extends Form
+{
 
     ...
 
@@ -394,11 +437,17 @@ class PKPAuthorForm extends Form {
 Render the form's template.
 
 ```php
-class PKPAuthorForm extends Form {
+use APP\core\Request;
+use APP\template\TemplateManager;
+use PKP\form\Form;
+
+class PKPAuthorForm extends Form
+{
 
     ...
 
-    public function fetch($request, $template = null, $display = false) {
+    public function fetch(Request $request, ?string $template = null, bool $display = false)
+    {
 
         $templateMgr = TemplateManager::getManager($request);
         $templateMgr->assign(array(
@@ -416,11 +465,15 @@ class PKPAuthorForm extends Form {
 Read the input data when the form is submitted.
 
 ```php
-class PKPAuthorForm extends Form {
+use PKP\form\Form;
+
+class PKPAuthorForm extends Form
+{
 
     ...
 
-    public function readInputData() {
+    public function readInputData()
+    {
 
         // Store request variables from $_POST
         // in $this->_data.
@@ -436,11 +489,16 @@ class PKPAuthorForm extends Form {
 Save the form and update the object.
 
 ```php
-class PKPAuthorForm extends Form {
+use PKP\db\DAORegistry;
+use PKP\form\Form;
+
+class PKPAuthorForm extends Form
+{
 
     ...
 
-    public function execute(...$functionParams) {
+    public function execute(...$functionParams)
+    {
 
         $author = $this->author;
         if (!$author) {
