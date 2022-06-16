@@ -59,17 +59,17 @@ Kun olet lisännyt kaikki tiedostot, valitse **Suorita**, jolloin ikkuna sulkeut
 
 ![Finish submission screen](./assets/learning-ojs-3-author-submission-step2-4.png)
 
-Palaat toisen vaiheen näkymään, jossa on nyt listattuna kaikki lisäämäsi tiedostot. If you need to make changes, expand the blue arrow to the left of your file and make any changes using the _Edit_ link.
+Palaat toisen vaiheen näkymään, jossa on nyt listattuna kaikki lisäämäsi tiedostot. Jos sinun pitää tehdä tiedostoihin muutoksia, voit painaa tiedoston nimen edessä olevaa sinistä nuolta, josta pääset joko muokkaamaan tai poistamaan ko. tiedoston. Huomaa, että muokkaus koskee vain tiedoston kuvailutietoja.
 
-Click ‘Save and Continue’ to move to Step 3.
+Valitse **Tallenna ja jatka**, jolloin siirryt lomakkeen kolmanteen vaiheeseen.
 
-### Step 3
+### Vaihe 3
 
-On **Step 3**, you will be asked to add more information about the submission, including the title of the submission (broken down into prefix, title, and subtitle), and the abstract. If the journal allows submissions in multiple languages, clicking on each metadata field will reveal the option to enter the metadata in the other languages that are enabled, allowing you to enter the title, subtitle and abstract in the other language(s).  Scrolling down...
+Kolmannessa vaiheessa täytetään käsikirjoituksen kuvailutiedot. Lisää käsikirjoituksen otsikko (prefiksi koskee vain joitakin kieliä) sekä abstrakti. **Muista täyttää käsikirjoituksen kuvailutiedot huolellisesti**. Mikäli lehti on monikielinen, myös kuvailutiedot voi täyttää usealla kielellä. Tällöin esimerkiksi otsikko-kenttää painaessa avautuu jokaiselle kieliversiolle oma tekstikenttä, johon voi kirjoittaa otsikon.  Scrolling down...
 
 ![Enter title metadata in another language](./assets/learning-ojs3.2-au-dashboard-new-3.png)
 
-...you are able to add any additional contributors.
+Abstraktin alapuolella on tekijäluettelo. Oletuksena käsikirjoitusta lähettävän kirjoittajan tiedot näkyvät valmiina.
 
 ![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
