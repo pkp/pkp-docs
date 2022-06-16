@@ -1,3 +1,7 @@
+- - -
+title: Support for Your Journal - Student Journal Toolkit
+- - -
+
 # Support for Your Journal
 
 ## Faculty
