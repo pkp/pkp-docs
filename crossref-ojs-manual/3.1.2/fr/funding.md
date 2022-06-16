@@ -3,7 +3,7 @@ book: crossref-ojs-manual
 version: 3.1.2
 ---
 
-# Funding Metadata
+# :)
 
 As of OJS 3.1.2, it is possible to enable a funding registry plugin for submitting funding information to Crossref. The plugin will use the Crossref Funder Registry and Crossref API to check against existing funding agencies. The plugin will include funding information in your Crossref DOI deposits.
 
