@@ -1,3 +1,7 @@
+---
+title: Additional resources - Creating Accessible Content Guide
+---
+
 # Additional resources
 
 A non-extensive list of additional resources on accessible content creation is provided below.
