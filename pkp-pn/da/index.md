@@ -8,7 +8,7 @@ generateHeadingToc: true
 
 The PKP Preservation Network (PKP PN) allows publishers of OJS journals to digitally preserve their content. This means in the event that a journal stops publishing or goes offline, there will be a way to have continued long-term access to articles and issues.
 
-The PKP PN deposits content using the [LOCKSS](http://www.lockss.org/) Program, which offers decentralized and distributed preservation. This allows for journals that are not part of any other digital preservation service (such as CLOCKSS or Portico) the ability to be preserved for long-term access.
+The PKP PN deposits content using the [LOCKSS](https://www.lockss.org/) Program, which offers decentralized and distributed preservation. This allows for journals that are not part of any other digital preservation service (such as CLOCKSS or Portico) the ability to be preserved for long-term access.
 
 The PKP PN functions as a dark archive, meaning that end-users will not have access to the preserved content until after a “trigger event.” After a trigger event, PKP staff will import the preserved content into one or more OJS instances hosted by PKP member institutions. Once loaded into these host OJS instances, the content will be publicly accessible.
 
