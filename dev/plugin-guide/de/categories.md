@@ -39,11 +39,11 @@ class ReviewReportPlugin extends ReportPlugin {
 }
 ```
 
-Learn about each category below.
+Erfahre mehr über jede Kategorie.
 
 ## Blocks
 
-Block plugins provide content that can be displayed in the sidebar on any page. They require a template file.
+Block-Plugins stellen weitere Inhalte in Form von Blöcken zur Verfügung, die in der Seitenleiste jeder Seite angezeigt werden können. Sie benötigen eine Template-Datei.
 
 ```
 ojs
@@ -61,7 +61,7 @@ ojs
 │     └── version.xml
 ```
 
-The template file should include all of the HTML for your block.
+Die Template-Datei sollte den kompletten HTML-Code für deinen Block enthalten.
 
 ```html
 <div class="pkp_block block_madeBy">
@@ -69,7 +69,7 @@ The template file should include all of the HTML for your block.
 </div>
 ```
 
-Add a `getContents()` method to pass data to the template.
+Füge die Methode `getContents()` ein um Daten an das Template zu übergeben.
 
 ```php
 import('lib.pkp.classes.plugins.BlockPlugin');
@@ -87,7 +87,7 @@ class MadeByPlugin extends BlockPlugin {
 </div>
 ```
 
-Block plugins can use any HTML code. However, if you want your block to blend in with other blocks provided by PKP, use the following markup.
+Block-Plugins können jeden möglichen HTML-Code verwenden. Wenn du jedoch möchtest, dass dein Block mit anderen Blöcken von PKP verbunden ist, benutze das folgende Markup.
 
 ```html
 <div class="pkp_block">
@@ -100,7 +100,7 @@ Block plugins can use any HTML code. However, if you want your block to blend in
 
 ## Import/Export
 
-Import/export plugins provide tools for getting data into and out of OJS and OMP. They can be used when you are moving between our application and another platform to migrate users, submissions, back issues and more.
+Mithilfe von Import/Export-Plugins können Daten in bzw. aus OJS/OMP entsprechend importiert bzw. exportiert werden. Wenn du zwischen unserer Anwendung und einer anderen Plattform wechseln möchtest, können sie dazu benutzt werden um beispielsweise Benutzer, Einreichungen, Back-Issues und mehr zu migrieren.
 
 > Download an [example import/export plugin](https://github.com/pkp/exampleImportExport). 
 > 
