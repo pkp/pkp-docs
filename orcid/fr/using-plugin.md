@@ -1,73 +1,73 @@
 ---
-title: How to Use the ORCID Plugin in OJS and OPS
+title: Comment utiliser le plugiciel ORCID dans OJS et OPS
 ---
 
-# Using the ORCID Plugin
+# Utilisation du plugiciel ORCID
 
-Now that you have [obtained ORCID credentials, enabled and set up the plugin](./installation-setup.md), you can start using it in your journal / preprint server.
+Maintenant que vous avez [obtenu les identifiants ORCID et activé et configuré le plugin](./installation-setup.md), vous pouvez commencer à l'utiliser dans votre revue / serveur de préprint.
 
-## Inform your stakeholders
+## Informer vos parties prenantes
 
-Once your ORCID plugin is enabled and in production, you might want to let your stakeholders (authors, journal editors, etc.) know that the ORCID plugin is now available, and make sure they know what ORCID is and how it can help them. There are a variety of ways to do this. One such way is by using the [OJS Announcements feature](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#announcements) to announce to registered users that the ORCID plugin is in use. As a part of such an announcement you may wish to point users to the [About the ORCID plugin page](./introduction.md) in case they are unfamiliar with ORCID. If your journal has a social media presence or newsletter you can also inform users through those means as well.
+Lorsque le plugiciel ORCID est activé et en production, il peut être avantageux de faire savoir à toutes les parties prenantes (auteur-es, rédacteurs-trices, etc.) que le plugiciel ORCID est maintenant disponible, et de vérifier qu'ils savent ce qu'est ORCID et comment il peut les aider. Il y a plusieurs façons de procéder. L'une de ces façons est d'utiliser la [fonctionnalité d'annonces OJS](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#announcements) pour annoncer aux utilisateurs enregistrés que le plugiciel ORCID est en service. Dans cette annonce, vous pouvez diriger les utilisateurs-trices vers la page [À propos du plugiciel ORCID](./introduction.md) au cas où ils ne sont pas familiarisés avec ORCID. Si votre revue est présente sur les sites de médias sociaux ou distribue un bulletin d'information, vous pouvez également informer les utilisateurs-trices par ces moyens.
 
-## Plugin functionality
+## Fonctionnalité du plugiciel
 
-The ORCID plugin allows to perform the functions outlined below. Some of these will happen automatically once the plugin is enabled and set up. Others require an additional action on editors' or authors' part.
+Le plugiciel ORCID vous permet d'exécuter les fonctions décrites ci-dessous. Certains d'entre eux seront automatiquement activés lorsque le plugiciel sera activé et configuré. D'autres nécessitent une action supplémentaire de la part des rédacteurs-trices ou les auteurs.
 
-### Authors can connect their ORCID iDs to their OJS accounts
+### Les auteurs peuvent connecter leurs iDs ORCID à leurs comptes OJS
 
-Users (including authors and contributors) can do this in 2 ways:
+Les utilisateurs (y compris les auteur-es et les contributeurs-trices) peuvent le faire de 2 manières :
 
-* During a new account registration by clicking “Create or Connect your ORCID iD”
+* Lors d'un nouvel enregistrement de compte en cliquant sur « Connecter votre identifiant ORCID ou s'inscrire »
 
-![Click on Create or Connect your ORCID iD button during new account registration.](./assets/Register_connect_ORCID.png)
+![Cliquez sur le bouton Connecter votre identifiant ORCID ou s'inscrire lors de l'enregistrement d'un nouveau compte.](./assets/Register_connect_ORCID.png)
 
-* For existing accounts - by clicking “Create or Connect your ORCID iD” in the Profile > Public. For details, see this [video walkthrough of profile authentication](https://vimeo.com/374415404).
+* Pour les comptes existants - cliquez sur « Connecter votre identifiant ORCID ou s'inscrire » dans Profil > Profil public. Pour plus de détails, voir cette [vidéo de présentation de l'authentification du profil (anglais)](https://vimeo.com/374415404).
 
-![Click on Create or Connect your ORCID iD button in existing profile.](./assets/Profile_connect_ORCID.png)
+![Cliquez sur Connecter votre identifiant ORCID ou s'inscrire dans un profil existant.](./assets/Profile_connect_ORCID.png)
 
-Please note that if an author has connected their ORCID record to their OJS/OPS account, future articles and preprints they submit will be automatically connected to ORCID, providing they login to the site using their existing author account. However, if an author is a contributor (or co-author) on a submission, their OJS/OPS user account will not be linked to the submission and they will need to be prompted to connect the submission to their ORCID record.
+Veuillez noter que si un-e auteur-e a connecté son enregistrement ORCID à son compte OJS/OPS les futurs articles et préprints qu'ils soumettent seront automatiquement connectés à ORCID, à condition qu'ils se connectent au site en utilisant leur compte d'auteur-e existant. Cependant, si un auteur-e est un contributeur-trice (ou co-auteur-e) sur une soumission, leur compte utilisateur OJS/OPS ne sera pas lié à la soumission et il devra être invité à connecter la soumission à leur dossier ORCID.
 
-### Editors can invite contributors to connect their ORCID iDs to the publication
+### Les éditeurs peuvent inviter les contributeurs/trices à connecter leurs iDs ORCID à la publication
 
-To invite co-authors/contributors to connect their ORCID iDs, check the checkbox "Send email to request ORCID authorization from contributor" from the Contributor’s Edit screen. For details, see this [video walkthrough of contributor invitation](https://vimeo.com/374416189).
+Pour inviter les coauteur-trices et contributeurs-trices à connecter leurs iDs ORCID, cochez la case « Envoyer un courriel pour demander l'autorisation ORCID du,de la contributeur-trice » à partir de l'écran de Modifier un-e contributeur-trice. Pour plus de détails, voir cette [vidéo de présentation d'invitation des contributeurs (anglais)](https://vimeo.com/374416189).
 
-![Check the checkbox to send email to request ORCID authorization from contributor.](./assets/Request_ORCID_contributor.png)
+![Cochez la case pour envoyer un courriel afin de demander l'autorisation ORCID au contributeur/trice.](./assets/Request_ORCID_contributor.png)
 
-### ORCID plugin can send automatic request to contributors to connect their ORCID iDs
+### Le plugiciel ORCID peut envoyer une requête automatique aux contributeurs-trices pour connecter leurs iDs ORCID
 
-As an alternative to manually inviting contributors to connect their ORCID iDs, the Journal Manager/Administrator can configure the ORCID plugin to send out automatic emails to contributors. To do so, in the plugin email settings check the checkbox "Send email to request ORCID authorization from authors when an article is accepted".
+Au lieu d'inviter manuellement les contributeur-trices à connecter leurs iDs ORCID, les directeur-trices/administrateur-trices de la revue peuvent configurer le plugiciel ORCID pour envoyer des courriels automatiques aux contributeurs-trices. Pour ce faire, cochez la case « Envoyer un courriel pour demander l'autorisation ORCID aux auteur-es lorsqu'un article est accepté ».
 
 ![ORCID plugin screen with the outlined checkbox to send email to request ORCID authentication from authors.](./assets/orcid_plugin_auto_emails.png)
 
-### ORCID plugin will display contributors' ORCID iDs on publication page
+### Le plugiciel ORCID affichera les iDs ORCID des contributeur-trices sur la page de publication
 
-Authors' and contributors' authenticated ORCID iDs will be publicly displayed on the journal article or preprint page, which will link to the contributor’s ORCID record.
+Les identifiants ORCID authentifiés des auteur-es et des contributeur-trices seront affichés publiquement sur la page de l'article ou du préprint, qui se liera à la fiche ORCID du contributeur-trice.
 
 ![Article page displaying authenticated iDs under each of the three contributors' names.](./assets/orcid-id-example.png)
 
-### ORCID plugin will display article information in author’s ORCID record (Member API only)
+### Le plugiciel ORCID affichera les informations de l’article dans la fiche ORCID de l’auteur-e (lorsque l'API membre est configurée)
 
-In addition to all of the above functionalities available in both Public and Member APIs, journals/preprint servers using ORCID Member API will automatically send article information to the author’s ORCID record upon publication. For details, see the [video walkthrough of article publication with ORCID Member API](https://vimeo.com/374417678).
+En plus de toutes les fonctionnalités ci-dessus disponibles dans les API publiques et membres, les serveurs de journals/preprint utilisant l'API membre ORCID enverront automatiquement des informations sur les articles au fiche ORCID de l'auteur-e lors de la publication. Pour plus de détails, consultez [la vidéo de la publication d'un article avec l'API membre ORCID (anglais)](https://vimeo.com/374417678).
 
 ![Article information displayed in an author's ORCID record.](./assets/orcid_in_author_record.png)
 
-When a work is added to an ORCID record, the "source" is displayed as well. If a person adds a work to their own record, the "source" will be the person's name. If a work is added via API as in the case of OJS, the "source" will appear as whatever "client name" is entered when the ORCID API credentials are requested. If the ORCID plugin is being used for just a single journal, the source/client name is usually just the name of the journal. If the ORCID plugin is used for multiple journals on the same instance, then the source/client name would need to be something more broad, like "Univ. of XYZ Open Journals."
+Lorsqu'une œuvre est ajoutée à une fiche ORCID, la provenance est également affichée. Si une personne ajoute une œuvre à son propre dossier, la provenance sera indiquée sous son propre nom. Si une œuvre est ajoutée via l'API comme dans le cas d'OJS, la "source" apparaîtra comme le "nom du client" qui est indiqué lorsque les informations d'identification de l'API ORCID sont demandées. Si le plugiciel ORCID est utilisé pour une seule revue, la source/le nom du client est généralement le nom de la revue. Si le plugiciel ORCID est utilisé pour plusieurs revues sur la même instance, alors le nom de la source/client devrait être quelque chose de plus plus général, tel que « Univ. des Revues XYZ ».
 
 ![Article information and the source of an entry displayed in an author's ORCID record.](./assets/orcid-publication-source.png)
 
-*Please note:* that the information on the source of the publication does not currently work for OPS.
+*Veuillez noter * que les informations sur la source de la publication ne fonctionnent pas actuellement pour OPS.
 
-### Alter an existing article to include an ORCID iD
+### Modifier un article existant pour inclure un iD ORCID
 
-For a visual overview of this process, see the [video walkthrough of article publication](https://vimeo.com/374417678).
+Pour un aperçu visuel de ce processus, voir la [vidéo de présentation de la publication d'un article](https://vimeo.com/374417678).
 
-### Remove an ORCID iD from a user account
+### Supprimer un identifiant ORCID d'un compte utilisateur-trice
 
-There may be a situation in which you need to remove an author’s ORCID iD. This can only be done by an Administrator:
+Il se peut que vous deviez supprimer l'ORCID iD d'un auteur-e. Cette opération ne peut être effectuée que par un-e Administrateur-trice.
 
-1. When logged in as an Administrator, on the left menu of OJS, select Users & Roles > Users
-2. Locate the name of the user for whom you want to remove the ORCID iD. Click on the small arrow next to the person’s name and select Edit User
-3. Once you are in the Edit User page, click on More User Details
+1. Lorsque vous êtes connecté comme Administrateur-trice, dans le menu de gauche de l'OJS, sélectionnez Utilisateurs-trices & Rôles > Utilisateurs-trices
+2. Recherchez le nom de l'utilisateur-trice pour lequel vous souhaitez supprimer l'ORCID iD. Cliquez sur la petite flèche à côté du nom de la personne et sélectionnez Modifier un-e utilisateur-trice
+3. Une fois que vous êtes sur la page Modifier un-e utilisateur-trice, cliquez sur Plus de renseignements sur l'utilisateur-trice
 4. Find the ORCID iD box and delete the ORCID iD
 5. Click OK at the bottom of the page
