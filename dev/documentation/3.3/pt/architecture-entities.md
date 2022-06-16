@@ -126,33 +126,33 @@ A seção abaixo documenta como modificamos ou estendemos a sintaxe json-schema 
 
 #### Formatos de data e hora
 
-We do not use json-schema's `date` and `date-time` formats. Instead, we use `date-iso` (`YYYY-MM-DD`) and `date-time-iso` (`YYYY-MM-DD HH:MM:SS`) to more strictly match our own date/time handling.
+Não usamos os formatos `date` e `date-time` do json-schema. Em vez disso, usamos `date-iso` (`YYYY-MM-DD`) e `date-time-iso` (`YYYY-MM-DD HH:MM:SS`) para corresponder mais estritamente ao nosso próprio tratamento de data/hora.
 
 #### readOnly
 
-Assign this attribute to properties that can not be edited, such as object IDs and URLs.
+Atribua esse atributo a propriedades que não podem ser editadas, como IDs de objetos e URLs.
 
 #### writeOnly
 
-Assign this attribute to properties that are used when adding or editing an object but will not be returned when requesting the object.
+Atribua esse atributo a propriedades que são usadas ao adicionar ou editar um objeto, mas não serão retornadas ao solicitar o objeto.
 
-An example of this attribute is the `temporaryFileId` that is used to save a file but then discarded.
+Um exemplo desse atributo é o `temporaryFileId` que é usado para salvar um arquivo, mas depois descartado.
 
 #### apiSummary
 
-Assign this attribute to properties that you want to appear in summary views of the object. The summary view is usually used in endpoints that return a list of objects.
+Atribua este atributo às propriedades que você deseja que apareçam nas visualizações de resumo do objeto. A visualização de resumo geralmente é usada em endpoints que retornam uma lista de objetos.
 
 #### defaultLocaleKey
 
-Assign this attribute when the property's default value must be localized. The value should match a locale key.
+Atribua este atributo quando o valor padrão da propriedade deve ser ter o idioma. O valor deve corresponder a uma chave de idioma.
 
 #### validation
 
-Assign this attribute to properties that should be validated before being saved to the database. We do not support json-schema's standard validation rules. See [Validation](./utilities-validation).
+Atribua este atributo às propriedades que devem ser validadas antes de serem salvas no banco de dados. Não oferecemos suporte às regras de validação padrão do json-schema. Consulte [Validação](./utilities-validation).
 
 #### multilingual
 
-Assign this property to data that can be in more than one locale.
+Atribua essa propriedade a dados que podem estar em mais de um idioma.
 
 ```json
 {
@@ -166,31 +166,31 @@ Assign this property to data that can be in more than one locale.
 }
 ```
 
-The application will expect to interact with this property as though it were a locale object.
+A aplicação espera interagir com essa propriedade como se fosse um objeto de idioma.
 
 ```json
 {
   "en_US": "About the journal...",
-  "fr_CA": "A propos du journal ..."
+  "pt_BR": "Sobre o periódico ..."
 }
 ```
 
-Any validation rules will be applied to each locale value in the set.
+Quaisquer regras de validação serão aplicadas a cada valor de idioma no conjunto.
 
-> Data described as an object in json-schema is expected to be an associative array in PHP. 
+> Espera-se que os dados descritos como um objeto em json-schema sejam uma matriz associativa em PHP. 
 > 
 > {:.warning}
 
-### App properties
+### Propriedades da aplicação
 
-When a property should be added to an entity in one application but not another, use two schema files with the same name.
+Quando uma propriedade deve ser adicionada a uma entidade em uma aplicação, mas não em outra, use dois arquivos de esquema com o mesmo nome.
 
 `lib/pkp/schemas/context.json`
 
 ```json
 {
     "title": "Context",
-    "description": "A journal or press.",
+    "description": "Um periódico ou editora.",
     "type": "object",
     "properties": {
         "about": {
@@ -206,7 +206,7 @@ When a property should be added to an entity in one application but not another,
 ```json
 {
     "title": "Journal",
-    "description": "A journal.",
+    "description": "Um periódico.",
     "properties": {
         "abbreviation": {
             "type": "string",
@@ -216,21 +216,21 @@ When a property should be added to an entity in one application but not another,
 }
 ```
 
-These schema files will be merged to produce a combined schema. When identical properties exist, the application's schema will override the library's schema.
+Esses arquivos de esquema serão mesclados para produzir um esquema combinado. Quando existirem propriedades idênticas, o esquema da aplicação substituirá o esquema da biblioteca.
 
 ## SchemaDAO
 
-When an entity has a schema, it's [DAO](./architecture-database) should extend the `SchemaDAO` class. This class will use the schema file to ensure that data being read from and written to the database conforms to the schema.
+Quando uma entidade tem um esquema, seu [DAO](./architecture-database) deve estender a classe `SchemaDAO`. Essa classe usará o arquivo de esquema para garantir que os dados lidos e gravados no banco de dados estejam em conformidade com o esquema.
 
-## API Documentation
+## Documentação da API
 
-The schema files are used to generate the [API documentation](/dev/api).
+Os arquivos de esquema são usados para gerar a [documentação da API](/dev/api).
 
-## Extending Schemas
+## Estendendo Esquemas
 
-Hooks can be used to add, edit or remove properties of an entity.
+Hooks podem ser usados para adicionar, editar ou remover propriedades de uma entidade.
 
-Add an `institutionalHome` property to the `Context` entity.
+Adicione uma propriedade `institutionalHome` à entidade `Context`.
 
 ```php
 HookRegistry::register('Schema::get::context', function($hookName, $args) {
@@ -246,7 +246,7 @@ HookRegistry::register('Schema::get::context', function($hookName, $args) {
 });
 ```
 
-Require a journal acronym to be 3 characters or less.
+Exija que uma abreviação da revista tenha 3 caracteres ou menos.
 
 ```php
 HookRegistry::register('Schema::get::context', function($hookName, $args) {
@@ -260,8 +260,8 @@ HookRegistry::register('Schema::get::context', function($hookName, $args) {
 });
 ```
 
-If your code will be included in the application, it is better to add the property directly to the schema.
+Se seu código for incluído na aplicação, é melhor adicionar a propriedade diretamente ao esquema.
 
 ---
 
-Learn more about [how entities are stored in the database](./architecture-database).
+Saiba mais sobre [como as entidades são armazenadas no banco de dados](./architecture-database).
