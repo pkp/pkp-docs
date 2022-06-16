@@ -73,11 +73,11 @@ Abstraktin alapuolella on tekijäluettelo. Oletuksena käsikirjoitusta lähettä
 
 ![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
-You can add more contributors \(e.g., co-authors\), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
+Tarvittaessa voit lisätä muita tekijöitä valitsemalla **Lisää tekijä**. Tämä toiminto avaa lomakkeen, johon tekijän tiedot täytetään. Huomaa, että tarvitset henkilöiden sähköpostiosoitteet.
 
 ![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
 
-Hit **Save**, and the new contributor will appear on the screen.
+Valitse **Tallenna** ja uusi tekijä lisätään luetteloon.
 
 ![List with new contributors added](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
@@ -85,31 +85,31 @@ If the categories are enabled in the journal you are submitting to, you will be 
 
 ![Select a category](./assets/learning-ojs-authoring-category.png)
 
-You may also see additional fields to complete, such as keywords. If additional languages are enabled for the journal, you can enter the metadata in these languages. Clicking on the metadata field will reveal the fields for other languages enabled in the journal.
+Riippuen julkaisun asetuksista voit nähdä tekijäluettelon alla myös muita kuvailutietoja koskevia kenttiä, kuten avainsanat. If additional languages are enabled for the journal, you can enter the metadata in these languages. Clicking on the metadata field will reveal the fields for other languages enabled in the journal.
 
 ![Enter keywords](./assets/learning-ojs-3.2-author-submission-step3-4.png)
 
-To enter keyword, simply type the word or phrase and hit your Enter key. The word or phrase will be formatted as a keyword.
+Avainsanojen tapaisten kenttien kohdalla erota annettavat sanat painamalla enter-nappia sanan kirjoittamisen jälkeen. Mikäli järjestelmä ehdottaa sanoja kirjoitettaessa, voit valita sanan klikkaamalla sitä. The word or phrase will be formatted as a keyword.
 
-Click **Save and Continue** to move forward.
+Valitse **Tallenna ja jatka** siirtyäksesi seuraavan vaiheeseen.
 
-### Step 4
+### Vaihe 4
 
-On Step 4, you will be asked to confirm that you are happy with your submission.
+Neljännessä vaiheessa sinua pyydetään varmistamaan, että olet valmis lähettämään käsikirjoituksen.
 
-Click **Finish Submission**.
+Valitse **Suorita lähetys**.
 
 ![Finish submission screen](./assets/learning-ojs3.1-au-dashboard-new-4.png)
 
-A box will pop up asking you to confirm you are finished. Click **OK**.
+Avautuvassa ikkunassa varmistus kysytään vielä uudelleen. Valitse **OK**.
 
 ![Confirm submission screen](./assets/learning-ojs-3-author-submission-step4-1.png)
 
-### Step 5
+### Vaihe 5
 
 ![Next steps submission screen](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
-Your submission is now complete! The editor has been notified of your submission. At this point, you can follow the links to:
+Käsikirjoitus on nyt lähetetty! Toimittajat ovat saaneet tiedon uudesta käsikirjoituksesta. At this point, you can follow the links to:
 
 * Review this submission
 * Create a new submission
@@ -117,13 +117,13 @@ Your submission is now complete! The editor has been notified of your submission
 
 Once you complete a submission, you cannot make changes to it.  If you want to replace the file you submitted or make other changes to the submission, you will need to contact the editor through the Pre-Review Discussions tool.
 
-### Dashboard
+### Hallintapaneeli
 
-And here is your submission in your Dashboard. You can see that it is currently in the _Submission_ stage.
+Käsikirjoituksesi näkyy nyt Hallintapaneelissa kohdassa Oma jononi. Käsikirjoituksen otsikon perässä näkyy käsikirjoituksen työvaihe.
 
 ![Submission in author dashboard](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
-Over the coming days, it will move into the Review stage, and if accepted, into the Copyediting and Production stages before being published.
+Toimittajat ovat sinuun yhteydessä järjestelmän kautta ja käsikirjoitus etenee toimitusprosessissa.
 
 <hr />
 
