@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Getting Started - Technical Documentation - OJS|OMP|OPS
 ---
 
@@ -40,14 +42,14 @@ Open the `config.inc.php` file, find the database settings, and update them to m
 Install dependencies with [composer](https://getcomposer.org/).
 
 ```
-composer --working-dir=lib/pkp update
-composer --working-dir=plugins/paymethod/paypal update
+composer --working-dir=lib/pkp install
+composer --working-dir=plugins/paymethod/paypal install
 ```
 
 Run the following command if you are installing OJS.
 
 ```
-composer --working-dir=plugins/generic/citationStyleLanguage update
+composer --working-dir=plugins/generic/citationStyleLanguage install
 ```
 
 Install dependencies with [NPM](https://www.npmjs.com/).
@@ -67,10 +69,10 @@ Load your browser and navigate to `http://localhost:8000` to install the applica
 
 ## Branches
 
-Published versions of the software can be found in branches in the git repository. For example, run the following command to check out version 3.1.2 of the software.
+Published versions of the software can be found in branches in the git repository. For example, run the following command to check out version 3.3.0 of the software.
 
 ```
-git checkout stable-3_1_2
+git checkout stable-3_3_0
 ```
 
 ## Remotes
