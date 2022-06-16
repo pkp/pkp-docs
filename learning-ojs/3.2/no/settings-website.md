@@ -42,6 +42,8 @@ If you would like to make minor changes to your site's design and layout, you ca
 
 - **Header Background Image**: Check this off if you if you want the uploaded homepage image to be shown as the header background.
 
+For further theme customization options, consult the [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/) guide.
+
 ### Setup
 
 Where you can upload images (logo, thumbnail, homepage) to your sites main page, enter footer information, and configure your sidebar menu.
@@ -58,7 +60,9 @@ Where you can upload images (logo, thumbnail, homepage) to your sites main page,
 
 Where you can upload your journal stylesheet, Favicon, and Additional Content.
 
-- **Journal Style Sheet**: Use this to upload a unique style sheet for your journal. If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+- **Journal Style Sheet**: Use this to upload a unique style sheet for your journal. Instructions on modifying the CSS are available in the [Designing Your Journal: Creating a Stylesheet](https://docs.pkp.sfu.ca/designing-your-journal/en/creating-stylesheet) guide.
+
+If you would like to make more significant changes to the design or give your site an entirely unique look, you can develop your own theme or child theme. Instructions are available in the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
 - **Journal Favicon**: Add a [favicon](https://en.wikipedia.org/wiki/Favicon) to display in the reader's browser address bar.
 
@@ -82,7 +86,7 @@ To remove these fields and their contents from displaying publicly on the websit
 
 OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages on a single site or journal. When you install OJS, you can select one or more languages for your site.
 
-Under Website Settings > Languages you can see a list of languages or locales installed on your site and configure how the languages are used in your journal. Additional languages can be installed on your site by an Administrator – see [Chapter 4](./site-administration) for details.
+Under Website Settings > Languages you can see a list of languages or locales installed on your site and configure how the languages are used in your journal. Additional languages can be installed on your site by an Administrator – see [the Site Administration chapter](./site-administration) for details.
 
 ![OJS dashboard view of Languages menu with English and French options, English option selected as primary locale.](./assets/learning-ojs3.1-jm-settings-web-lang.png)
 
