@@ -2,9 +2,9 @@
 title: Plugin Categories - Plugin Guide for OJS and OMP
 ---
 
-# Plugin Categories
+# Plugin-Kategorien
 
-Die Kategorie eines Plugins bestimmt, wann genau es beim Seitenaufruf geladen wird und auf welche Art und Weise es die Anwendung verändern kann. Ein [-Block](#blocks) Plugin beispielsweise auf den Seiten, die öffentlich zugänglich sind, zusätzlichen Inhalt zur Seitenleiste hinzufügen. Allerdings hat es keine weitere Funktion und wird nicht im Editorial Backend geladen.
+Die Kategorie eines Plugins bestimmt, zu welchem Zeitpunkt es beim Aufrufen der Seite geladen wird und auf welche Art und Weise es die Anwendung verändern kann. Ein [-Block](#blocks) Plugin beispielsweise auf den Seiten, die öffentlich zugänglich sind, zusätzlichen Inhalt zur Seitenleiste hinzufügen. Allerdings hat es keine weitere Funktion und wird nicht im Editorial Backend geladen.
 
 Jede Plugin-Kategorie entspricht einer bestimmten Klasse, und jedes neue Plugin muss eine dieser Klassen erweitern. Im Abschnitt [Getting Started](./getting-started), the Tutorial Example plugin erweitern die `GenericPlugin` Klasse.
 
@@ -100,13 +100,13 @@ Block-Plugins können jeden möglichen HTML-Code verwenden. Wenn du jedoch möch
 
 ## Import/Export
 
-Mithilfe von Import/Export-Plugins können Daten in bzw. aus OJS/OMP entsprechend importiert bzw. exportiert werden. Wenn du zwischen unserer Anwendung und einer anderen Plattform wechseln möchtest, können sie dazu benutzt werden um beispielsweise Benutzer, Einreichungen, Back-Issues und mehr zu migrieren.
+Mithilfe von Import/Export-Plugins können Daten in bzw. aus OJS/OMP entsprechend importiert bzw. exportiert werden. Wenn du zwischen unserer Anwendung und einer anderen Plattform wechseln möchtest, können sie dazu benutzt werden um beispielsweise Benutzer, Einreichungen, Back-Issues etc. zu migrieren.
 
-> Download an [example import/export plugin](https://github.com/pkp/exampleImportExport). 
+> Ein [Beispiel](https://github.com/pkp/exampleImportExport) eines Import/Export-Plugins herunterladen. 
 > 
 > {:.notice}
 
-Each import/export plugin can be run on the command line.
+Jedes Import/Export-Plugin kann auf der Kommandozeile ausgeführt werden.
 
 ```
 $ php tools/importExport.php ExampleImportExportPlugin import filename.csv
@@ -145,7 +145,7 @@ class ExampleImportExportPlugin extends ImportExportPlugin {
 }
 ```
 
-Each import/export plugin has its own page under the Tools > Import/Export menu. This can be used to display import and export options and provide a UI for generating exports.
+Für jedes Import/Export-Plugin wird unter Tools > Import/Export eine eigene Seite angelegt. Dort können entsprechende Optionen für den Import oder Export angezeigt und eine Benutzeroberfläche für den Export bereitgestellt werden.
 
 ```php
 import('lib.pkp.classes.plugins.ImportExportPlugin');
@@ -181,19 +181,17 @@ class ExampleImportExportPlugin extends ImportExportPlugin {
 }
 ```
 
-Use the `{plugin_url ...}` smarty function in the template to submit a form to one of the import or export paths.
+Verwende die `{plugin_url ...}` Smarty-Funktion im Template, um ein Formular zu einem Import- oder Exportpfad abzuschicken.
 
 ```html
-<form method="POST" action="{plugin_url path="exportAll"}">
-  <button type="submit">Export All</button>
-</form>
+
 ```
 
 ## Reports
 
-Report plugins provide one-click access to a CSV file download. The report may include details on article usage statistics, reviewers or anything you want.
+Report-Plugins stellen einen One-Click-Download für eine CSV-Datei bereit. Ein Bericht enthält möglicherweise Details zu Statistiken über die Artikelnutzung, Gutachter oder was auch immer du möchtest.
 
-Report plugins extend the `ReportPlugin` class and implement the `display()` method.
+Report-Plugins erweitern die `ReportPlugin` Klasse und implementieren die `display()` Methode.
 
 ```php
 import('lib.pkp.classes.plugins.ReportPlugin');
@@ -220,15 +218,15 @@ class ArticleReportPlugin extends ReportPlugin {
 }
 ```
 
-Reports are usually created in CSV format, but your report plugin can return any downloadable file format.
+Die Berichte liegen normalerweise im CSV Format vor, aber dein Report-Plugin kann im Prinzip jedes Datei-Format zum Download anbieten.
 
 ## Themes
 
-Themes control the design and layout of a journal or press website. Read the [Theming Guide](/pkp-theming-guide/en) to learn how to build your own themes.
+Themes steuern das Design und das Layout der Internetseite einer Zeitschrift- oder eines Verlages. Lies den [Theming Guide](/pkp-theming-guide/en) um zu erfahren wie du deine eigenen Themes gestaltest.
 
 ## Generic
 
-Generic plugins are loaded with every request. They hook into the application early in the [Request Lifecycle](/dev/documentation/en/architecture-request) and can be used to modify almost everything.
+Generic-Plugins werden bei jeder Server-Anfrage geladen. They hook into the application early in the [Request Lifecycle](/dev/documentation/en/architecture-request) and can be used to modify almost everything.
 
 Generic plugins use [Hooks](/dev/documentation/en/utilities-hooks) to intervene in the application. Hooks should be added in a plugin's `register()` method.
 
