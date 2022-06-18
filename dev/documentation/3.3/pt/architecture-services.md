@@ -249,28 +249,28 @@ $contextWithDefaults = Services::get('schema')
   );
 ```
 
-Other services may be related to an entity but do not yet support the entity interfaces. See the [refactor strategy](#refactor-strategy).
+Outros services podem estar relacionados a uma entity, mas ainda não suportam as interfaces de entity. Consulte a [estratégia de refatoração](#refactor-strategy).
 
-## Writing Service Classes
+## Escrevendo Service Classes
 
-A good `Service` class should be:
+Uma boa classe `Service` deve ser:
 
-- **Stateless**: Each time a Service class method is called should be completely independent of any prior operations. Do not attach things to the instance with `$this`. All dependencies of a Service class method should be injected as a parameter for that method.
-- **Easy to use**: Try to hide complex database requirements and business logic behind intuitive method signatures.
-- **Reusable**: Consider all scenarios where a method might be used. Try to decouple it from your particular use case where possible.
+- **Sem estado**: Cada vez que um método de classe Service é chamada deve ser completamente independente de qualquer operação anterior. Não anexe itens à instância com `$this`. Todas as dependências de um método da classe Service devem ser injetadas como parâmetro para esse método.
+- **Fácil de usar**: tente ocultar requisitos complexos de banco de dados e lógica de negócios por trás de assinaturas de métodos intuitivos.
+- **Reutilizável**: considere todos os cenários em que um método pode ser usado. Tente dissociá-lo do seu caso de uso específico sempre que possível.
 
-## Refactor Strategy
+## Estratégia de Refatoração
 
-Services are new to the application. Our intention is to move code into the service classes wthat currently exist in Page Handlers, Controller Handlers, and Forms. The primary use case for this change is to support the REST API.
+Os Services são novos para a aplicação. Nossa intenção é mover o código para as classes de service que existem atualmente em Page Handlers, Controller Handlers e Forms. O principal caso de uso para essa mudança é oferecer suporte à API REST.
 
-This refactor has three goals:
+Esta refatoração tem três objetivos:
 
-1. To decouple business logic from the UI components and request handlers. We should be able to get, add, and edit objects from anywhere in the application.
-2. To reinforce consistent use of hooks and notifications. It should not be possible to forget to call hooks, send email notifications, or add log entries when taking actions. The service class should encapsulate all the tasks that are part of an action.
-3. To simplify the application structure. We hope that the service classes will provide a more intuitive API for plugin developers and third-party partners.
+1. Para desacoplar a lógica de negócios dos componentes UI e das solicitação handlers. Devemos ser capazes de obter, adicionar e editar objetos de qualquer lugar da aplicação.
+2. Para reforçar o uso consistente de hooks e notificações. Não deve ser possível esquecer de chamar hooks, enviar notificações por e-mail ou adicionar entradas de log ao realizar ações. A classe service deve encapsular todas as tarefas que fazem parte de uma ação.
+3. Para simplificar a estrutura da aplicação. Esperamos que as classes service forneçam uma API mais intuitiva para desenvolvedores de plugins e parceiros de terceiros.
 
-Service classes are not yet available for all entities. They will be developed as more of our UI is converted to use the REST API.
+As classes service ainda não estão disponíveis para todas as entities. Eles serão desenvolvidos à medida que mais de nossa interface do usuário for convertida para usar a API REST.
 
 ---
 
-Learn more about [how entities are defined and handled](./architecture-entities).
+Saiba mais sobre [como as entities são definidas e tratadas](./architecture-entities).
