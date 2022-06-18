@@ -132,7 +132,7 @@ $reviewRoundDao->deleteById((int) $reviewRoundId);
 
 ## QueryBuilder
 
-Um query builder deve ser usado para construir consultas complexas. Os query builders estendem o [Query builder do Laravel](https://laravel.com/docs/5.5/queries) e fornecem uma API expressiva para buscar registros de um [Entidade](./architecture-entities).
+Um query builder deve ser usado para construir consultas complexas. As query builders estendem o [Query builder do Laravel](https://laravel.com/docs/5.5/queries) e fornecem uma API expressiva para buscar registros de um [Entidade](./architecture-entities).
 
 Por exemplo, o `SubmissionQueryBuilder` pode ser usado para recuperar submissões com base em vários parâmetros de filtro.
 
