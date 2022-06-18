@@ -5,7 +5,7 @@
 * [Arquitetura](./architecture)
   * [Ciclo de Vida da Solicitação](./architecture-request)
   * [Rotas](./architecture-routes)
-  * [Manipuladores](./architecture-handlers)
+  * [Handlers](./architecture-handlers)
   * [Autenticação](./architecture-authentication)
   * [Autorização](./architecture-authorization)
   * [Entidades](./architecture-entities)
