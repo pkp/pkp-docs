@@ -8,7 +8,7 @@ title: Banco de Dados - Documentação Técnica - OJS|OMP|OPS 3.3
 
 Um Database Access Object (`DAO`) é responsável por executar consultas de banco de dados para ler e gravar informações do banco de dados.
 
-> Os aplicações PKP suportam MySQL e PostgreSQL. 
+> As aplicações PKP suportam MySQL e PostgreSQL. 
 > 
 > {:.notice}
 
