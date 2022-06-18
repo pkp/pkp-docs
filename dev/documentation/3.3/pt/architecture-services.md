@@ -1,46 +1,46 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Services - Technical Documentation - OJS|OMP|OPS 3.3
+title: Services - Documentação Técnica - OJS|OMP|OPS 3.3
 ---
 
 # Services
 
-A `Service` class is a container for storing reusable methods. It coordinates [Entities](./architecture-entities), [`DAO`s](./architecture-database), and other utilities to read and write from the database, send emails, and fire events.
+Uma classe `Service` é um contêiner para armazenar métodos reutilizáveis. Ele coordena [Entities](./architecture-entities), [`DAO`s](./architecture-database) e outros utilitários para ler e escrever a partir do banco de dados, enviar e-mails e disparar eventos.
 
-Service classes isolate the business logic of actions taken in the application from the handlers which receive and respond to the request. It should be possible to use a service class method from a `PageHandler`, `APIHandler`, or even a CLI command.
+As classes Service isolam a lógica de negócios das ações realizadas na aplicações dos handlers que recebem e respondem à solicitação. Deve ser possível usar um método da classe service de um `PageHandler`, `APIHandler` ou até mesmo um comando CLI.
 
-> Services are new to the application and are not yet available for all entities. Read about the [refactor strategy](#refactor-strategy). 
+> Os Services são novos para a aplicação e ainda não estão disponíveis para todas as entities. Leia sobre a [estratégia de refatoração](#refactor-strategy). 
 > 
 > {:.notice}
 
-## Using a Service
+## Usando um Service
 
-A service can be retrieved from anywhere in the application.
+Um service pode ser recuperado de qualquer lugar na aplicação.
 
 ```php
 $contextService = Services::get('context');
 ```
 
-The available services can be found in `OJSServiceProvider` and `OMPServiceProvider`.
+Os services disponíveis podem ser encontrados em `OJSServiceProvider` e `OMPServiceProvider`.
 
 ## Entity Services
 
-A `Service` class is usually paired with an [Entity](./architecture-entities) and provides all the methods to get, add, edit, and delete that entity.
+Uma classe `Service` geralmente é emparelhada com uma [Entity](./architecture-entities) e fornece todos os métodos para obter, adicionar, editar e excluir essa Entity.
 
-Each entity service class will implement one or more interfaces that determine what methods are available.
+Cada classe entity service implementará uma ou mais interfaces que determinam quais métodos estão disponíveis.
 
 ### EntityReadInterface
 
-The `EntityReadInterface` provides the `get()` method to get one object.
+A `EntityReadInterface` fornece o método `get()` para obter um objeto.
 
 ```php
 $context = Services::get('context')->get($contextId);
 ```
 
-It also provides a number of methods which can be used to retrieve results filtered by one or more parameters.
+Ele também fornece vários métodos que podem ser usados para recuperar resultados filtrados por um ou mais parâmetros.
 
-Use the `getCount()` method to retrieve a count of objects matching the specified parameters.
+Use o método `getCount()` para recuperar uma contagem de objetos que correspondem aos parâmetros especificados.
 
 ```php
 $numberOfEnabledContexts = Services::get('context')->getCount([
@@ -48,7 +48,7 @@ $numberOfEnabledContexts = Services::get('context')->getCount([
 ]);
 ```
 
-Use the `getIds()` method to retrieve an array of object ids.
+Use o método `getIds()` para recuperar uma matriz de ids de objeto.
 
 ```php
 $enabledContextIds = Services::get('context')->getIds([
@@ -56,7 +56,7 @@ $enabledContextIds = Services::get('context')->getIds([
 ]);
 ```
 
-Use the `getMany()` method to retrieve an iterator of objects.
+Use o método `getMany()` para recuperar um iterador de objetos.
 
 ```php
 $contextsIterator = Services::get('context')->getMany([
@@ -64,7 +64,7 @@ $contextsIterator = Services::get('context')->getMany([
 ]);
 ```
 
-Pass the `count` and `offset` parameters to paginate the results. The example below shows how to get ten items starting with the second page of results.
+Passe os parâmetros `count` e `offset` para paginar os resultados. O exemplo abaixo mostra como obter dez itens começando com a segunda página de resultados.
 
 ```php
 $contextsIterator = Services::get('context')->getMany([
@@ -73,9 +73,9 @@ $contextsIterator = Services::get('context')->getMany([
 ]);
 ```
 
-The `getCount()`, `getIds()` and `getMany()` methods all accept the same parameters. These are different for each [entity](architecture-entities) and can be discovered by reading the documentation of the service class's `getMany()` method.
+Os métodos `getCount()`, `getIds()` e `getMany()` aceitam os mesmos parâmetros. Eles são diferentes para cada [entity](architecture-entities) e podem ser descobertos lendo a documentação do método `getMany()` da classe service.
 
-The `getMany()` method returns a `DAOResultIterator` (see [Iterators](https://www.php.net/manual/en/class.iterator.php)). Iterators can be used like an array in `foreach` loops:
+O método `getMany()` retorna um `DAOResultIterator` (consulte [ Iterators](https://www.php.net/manual/en/class.iterator.php)). Iterators podem ser usados como um array em loops `foreach`:
 
 ```php
 $contextsIterator = Services::get('context')->getMany(['isEnabled' => true]);
@@ -85,7 +85,7 @@ foreach ($contextsIterator as $context) {
 }
 ```
 
-However, a `DAOResultIterator` can not be looped over twice. This will cause a fatal error.
+No entanto, um `DAOResultIterator` não pode ser repetido duas vezes. Isso causará um erro fatal.
 
 ```php
 $names = [];
@@ -94,41 +94,41 @@ $contextsIterator = Services::get('contexts')->getMany(['isEnabled' => true]);
 foreach ($contextsIterator as $context) {
     $names[] = $context->getLocalizedData('name');
 }
-// The iterator has already been looped over
-// before so this will cause an error
+// O iterador já passou por um loop
+// antes, então isso causará um erro
 foreach ($contextsIterator as $context) {
     $paths[] = $context->getData('urlPath');
 }
 ```
 
-To check if no results have been returned, use `count()` instead of `!empty()`.
+Para verificar se nenhum resultado foi retornado, use `count()` em vez de `!empty()`.
 
 ```php
 $contextsIterator = Services::get('contexts')->getMany(['isEnabled' => true]);
 if (!empty($contextsIterator)) {
-    // This will always be true
+   // Isso sempre será verdade
 }
 if (count($contextsIterator)) {
-    // Only true if one or more contexts were found
+  // Verdadeiro somente se um ou mais contextos foram encontrados
 }
 ```
 
-The `DAOResultIterator` can not be used with the `array_map`, `array_filter` or `array_reduce` functions.
+O `DAOResultIterator` não pode ser usado com as funções `array_map`, `array_filter` ou `array_reduce`.
 
-If needed, a `DAOResultIterator` can be converted to an array.
+Se necessário, um `DAOResultIterator` pode ser convertido em um array.
 
 ```php
 $contextsIterator = Services::get('contexts')->getMany(['isEnabled' => true]);
 $contexts = iterator_to_array($contextsIterator);
 ```
 
-However, this should be avoided unless absolutely necessary. Storing a large collection of objects in memory will slow the application down. If you're not sure, ask a more senior developer on the team.
+No entanto, isso deve ser evitado, a menos que seja absolutamente necessário. Armazenar uma grande coleção de objetos na memória tornará a aplicação lenta. Se você não tiver certeza, pergunte a um desenvolvedor mais experiente da equipe.
 
 ### EntityWriteInterface
 
-The `EntityWriteInterface` provides methods for validating, adding, editing, and deleting objects.
+A `EntityWriteInterface` fornece métodos para validar, adicionar, editar e excluir objetos.
 
-Before adding or editing an object, you must validate its properties. See [Validation](./utilities-validation).
+Antes de adicionar ou editar um objeto, você deve validar suas propriedades. Consulte [Validação](./utilities-validation).
 
 ```php
 $props = ['path' => 'publicknowledge'];
@@ -139,13 +139,13 @@ $errors = Services::get('context')->validate(
   Application::get()->getSite()->getPrimaryLocale(),
 );
 if (!empty($errors)) {
-  // Props failed validation: requires a `name` prop
+   // Falha na validação de props: requer uma prop `name`
 }
 ```
 
-Once the properties have been validated, they can be merged with the object and saved.
+Depois que as propriedades forem validadas, elas podem ser mescladas com o objeto e salvas.
 
-Edit an existing object.
+Editar um objeto existente.
 
 ```php
 $editedContext = Services::get('context')->edit(
@@ -155,7 +155,7 @@ $editedContext = Services::get('context')->edit(
 );
 ```
 
-To add an object, use the DAO to instantiate a new object, inject the props, and save it to the database.
+Para adicionar um objeto, use o DAO para instanciar um novo objeto, injetar as props e salvá-lo no banco de dados.
 
 ```php
 $context = Application::get()->getContextDAO()->newDataObject();
@@ -166,7 +166,7 @@ $newContext = Services::get('context')->add(
 );
 ```
 
-Delete an object.
+Excluir um objeto.
 
 ```php
 Services::get('context')->delete($context);
@@ -174,9 +174,9 @@ Services::get('context')->delete($context);
 
 ### EntityPropertyInterface
 
-The `EntityPropertyInterface` provides methods to convert an object into an associative array. This is used before data is returned as JSON in the REST API and CLI.
+A `EntityPropertyInterface` fornece métodos para converter um objeto em um array associativo. Isso é usado antes que os dados sejam retornados como JSON na API REST e na CLI.
 
-Use the `getSummaryProperties()` method to retrieve a summary of the object.
+Use o método `getSummaryProperties()` para recuperar um resumo do objeto.
 
 ```php
 $contextProps = Services::get('context')
@@ -186,7 +186,7 @@ $contextProps = Services::get('context')
   );
 ```
 
-Use the `getFullProperties()` method to retrieve a full representation of the object.
+Use o método `getFullProperties()` para recuperar uma representação completa do objeto.
 
 ```php
 $contextProps = Services::get('context')
@@ -196,9 +196,9 @@ $contextProps = Services::get('context')
   );
 ```
 
-The full properties will sometimes include details about attached objects. For example, a submission object will attach author objects.
+As propriedades completas às vezes incluem detalhes sobre objetos anexados. Por exemplo, um objeto de submissão irá anexar objetos de autor.
 
-You can ask for the properties you want with the `getProperties()` method.
+Você pode solicitar as propriedades que deseja com o método `getProperties()`.
 
 ```php
 $contextProps = Services::get('context')
@@ -209,7 +209,7 @@ $contextProps = Services::get('context')
   );
 ```
 
-This will return an associative array.
+Isso retornará uma matriz associativa.
 
 ```
 [
@@ -221,9 +221,9 @@ This will return an associative array.
 ]
 ```
 
-### Additional Methods
+### Métodos Adicionais
 
-Each service class may include additional methods as needed. For example, the `PKPContextService` class includes a method to restore all default settings for a locale.
+Cada classe service pode incluir métodos adicionais conforme necessidade. Por exemplo, a classe `PKPContextService` inclui um método para restaurar todas as configurações padrão para uma localidade.
 
 ```php
 $updatedContext = Services::get('context')
@@ -234,12 +234,12 @@ $updatedContext = Services::get('context')
   );
 ```
 
-## Other Services
+## Outros Services
 
-In rare cases, a `Service` class may not be paired with an [entity](./architecture-entities). For example, the `SchemaService` provides methods for compiling and working with entity schemas.
+Em casos raros, uma classe de `Service` pode não ser pareada com uma [entity](./architecture-entities). Por exemplo, o `SchemaService` fornece métodos para compilar e trabalhar com esquemas de entity.
 
 ```php
-// Populate an object with the default values from its schema
+// Preencher um objeto com os valores padrão de seu esquema
 $contextWithDefaults = Services::get('schema')
   ->setDefaults(
     SCHEMA_CONTEXT,
