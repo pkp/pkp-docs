@@ -1,57 +1,57 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Plugins - Technical Documentation - OJS|OMP|OPS 3.3
+title: Plugins - Documentação Técnica - OJS|OMP|OPS 3.3
 ---
 
 # Plugins
 
-Plugins are independent modules that can be enabled and disabled to modify the application.
+Plugins são módulos independentes que podem ser habilitados e desabilitados para modificar a aplicação.
 
-> This chapter describes how to load plugins in the main application. Read the [Plugin Guide](/dev/plugin-guide/en) to learn how to build your own plugins. 
+> Este capítulo descreve como carregar plugins na aplicação principal. Leia o [Guia de Plugins](/dev/plugin-guide/en) para saber como criar seus próprios plugins. 
 > 
 > {:.notice}
 
-## Load Plugins
+## Carregar Plugins
 
-Plugins are divided into categories and loaded when that category is needed. For example, Block Plugins provide sidebar blocks and are only loaded on the reader-facing site.
+Os plugins são divididos em categorias e carregados quando essa categoria é necessária. Por exemplo, plugins de bloco fornecem blocos de barra lateral e são carregados apenas no site voltado para o leitor.
 
-Load all enabled plugins of the `block` category.
+Carregue todos os plugins habilitados da categoria `block`.
 
 ```php
 $blockPlugins = PluginRegistry::loadCategory('blocks', true);
 ```
 
-Loading plugins is resource intensive and should not be done more than once in a request. If a plugin category has been loaded, get the plugins from cache.
+O carregamento de plugins consome muitos recursos e não deve ser feito mais de uma vez em uma solicitação. Se uma categoria de plugin foi carregada, obtenha os plugins do cache.
 
 ```php
 $blockPlugins = PluginRegistry::getPlugins('blocks');
 ```
 
-In rare cases, you may want to retrieve all installed plugins even if they are not enabled.
+Em casos raros, você pode querer recuperar todos os plugins instalados, mesmo que não estejam habilitados.
 
 ```php
 $blockPlugins = PluginRegistry::loadCategory('blocks', false);
 ```
 
-You can get a specific plugin.
+Você pode obter um plugin específico.
 
 ```php
 $submissionBlockPlugin = PluginRegistry::getPlugin('blocks', 'makeSubmission');
 ```
 
-If the plugin hasn't been loaded, you must load it first.
+Se o plugin não foi carregado, você deve carregá-lo primeiro.
 
 ```php
 $submissionBlockPlugin = PluginRegistry::loadPlugin('blocks', 'makeSubmission');
 ```
 
-Plugins in the Generic category are loaded with every request and do not need to be loaded before use.
+Os plugins da categoria Genéricos são carregados a cada solicitação e não precisam ser carregados antes do uso.
 
 ## Hooks
 
-Generic plugins use Hooks to modify the application behavior. Care should be taken to ensure that hooks are available at key parts of the [Request Lifecycle](./architecture-request) to ensure that the application can be modified safely by third-party plugins.
+Plugins genéricos usam Hooks para modificar o comportamento da aplicação. Deve-se tomar cuidado para garantir que os hooks estejam disponíveis nas partes principais do [Ciclo de Vida da Solicitação](./architecture-request) para garantir que a aplicação possa ser modificada com segurança por plugins de terceiros.
 
 ---
 
-The next section moves on to the application frontend. Learn how to [deliver HTML to the browser and build interactive interfaces](./architecture-frontend).
+A próxima seção segue para o frontend da aplicação. Saiba como [entregar HTML ao navegador e criar interfaces interativas](./architecture-frontend).
