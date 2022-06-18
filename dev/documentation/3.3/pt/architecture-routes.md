@@ -12,7 +12,7 @@ Cada solicitação é mapeada para uma Página, API ou Controlador `Handler` com
 
 O diagrama abaixo mostra uma URL para um [Gerenciador de Página](architecture-handlers#page-handlers).
 
-![Diagram indicating the parts of a URL for Page Handlers](../img/url-route-page.png)
+![Diagrama indicando as partes de uma URL para Página Handlers](../img/url-route-page.png)
 
 O roteador procurará um arquivo em `/pages/issue/index.php` ou `/lib/pkp/pages/issue/index.php`, que carrega o handler correto.
 
@@ -46,7 +46,7 @@ Isso não é possível para rotas de API ou Controller.
 
 O diagrama abaixo mostra uma URL para um [API Handler](architecture-handlers#api-handlers).
 
-![Diagram indicating the parts of a URL for API Handlers](../img/url-route-api.png)
+![Diagrama indicando as partes de uma URL para API Handlers](../img/url-route-api.png)
 
 O roteador procurará um arquivo em `/api/v1/submissions/index.php`, que carrega o handler correto.
 
@@ -61,7 +61,7 @@ O roteador **não** encontrará um arquivo em `/lib/pkp/api/v1/submissions/index
 
 O diagrama abaixo mostra uma URL para um [Controller Handler](architecture-handlers#controller-handlers).
 
-![Diagram indicating the parts of a URL for Controller Handlers](../img/url-route-controller.png)
+![Diagrama indicando as partes de uma URL para Controlador Handlers](../img/url-route-controller.png)
 
 O roteador procurará e carregará um `Handler` em `/controllers/grid/issues/BackIssueGridHandler.inc.php`.
 
