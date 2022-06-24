@@ -186,6 +186,8 @@ This PKP School video explains how to configure Plugins in OJS. To watch other v
 
 Use this page to see all of the installed plugins and find new plugins.
 
+To learn more about available plugins, see [the Plugin Inventory](/plugin-inventory/en/).
+
 ### Installed Plugins
 
 All of the plugins listed here are available in your OJS installation. Check the Enable link to use them.
