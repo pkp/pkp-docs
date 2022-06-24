@@ -10,7 +10,7 @@ You can customize your website’s look and feel by selecting one of the several
 
 With some themes you can change the colours under Website Settings > Appearance. The colour settings will appear after you select the theme. To adjust it to match a specific colour, e.g., your logo, use a colour-picker tool (via browser developer tools or browser extension) and copy the hex value (looks like #1e6292) into the drop-down box. For details on how to identify elements on a page, see the section [Identifying Elements of CSS](/designing-your-journal/en/creating-stylesheet.html#identifying-elements).
 
-In OJS you can use special plugins to add custom blocks to your site, including Twitter feeds, keyword clouds, and a list of most-read articles. [Learning OJS 3 - Website Settings](/learning-ojs/en/settings-website#appearance) explains how to do this.
+In OJS you can use special plugins to add custom blocks to your site, including Twitter feeds, keyword clouds, and a list of most-read articles. [Learning OJS 3 - Website Settings](/learning-ojs/en/settings-website#appearance) explains how to do this. To learn more about the different plugins available, see [the Plugin Inventory](/plugin-inventory/en/).
 
 The below tables can be used when selecting a theme based on the features and design elements available with each. The three tables compare image settings, colour and font options, and other features for 6 major themes available in OJS. 
 

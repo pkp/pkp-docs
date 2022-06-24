@@ -301,11 +301,11 @@ DOAJ recommends adoption of the following best practices, but these are not requ
 
 **Does the journal allow for ORCID iDs to be present in article metadata?**
 
-* Select "Yes" or "No". See [https://orcid.org](https://orcid.org) for more information.
+* Select "Yes" or "No". See [the ORCID website](https://orcid.org) for more information.
 
 **Does the journal comply with I4OC standards for open citations?**
 
-* Select "Yes" or "No". See https://i4oc.org for more information.
+* Select "Yes" or "No". See [the I4OC website](https://i4oc.org) for more information.
 
 <hr />
 
@@ -341,6 +341,8 @@ See the [Crossref OJS Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) f
 ### 3. Metadata supply to DOAJ
 
 Provide greater visibility and discoverability of journal content by providing article-level metadata and links to the full text. Metadata must be provided to the DOAJ within 3 months via article-level xml file uploaded to the DOAJ interface or by the DOAJ API.
+
+To learn more about creating metadata, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
 
 You can use the OJS DOAJ Import/Export Plugin at Tools > Import/Export > DOAJ Export Plugin.
 

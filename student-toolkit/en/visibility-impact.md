@@ -45,7 +45,7 @@ Databases are searchable collections of journal articles. They also contain cita
 
 Commercial databases have strict inclusion criteria, generally requiring journals to have a stable publishing history and an editorial board comprised of respected researchers. This may be an option for a well-established journal with faculty editors.
 
-See the section on [Indexes and Databases](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-visibility#indexes-and-databases) in *Getting Found, Staying Found* for more information about getting your journal indexed.
+See the [Indexing Guide](/indexing-guide/en/) for more information about getting your journal indexed.
 
 ### Social Media
 
