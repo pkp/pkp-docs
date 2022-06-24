@@ -11,7 +11,7 @@ The Website Settings allow you to configure how your journal's website looks and
 
 ## Appearance
 
-This PKP School video explains how to configure your journal's appearance in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure your journal's appearance in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="4i5uRgzFHfg" provider="youtube" title="Video of how to configure your journal's appearance in OJS"%}
 
@@ -80,7 +80,7 @@ Hit **Save** to record your changes.
 
 ### Information
 
-This PKP School video explains how to configure the Information settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure the Information settings in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="48qU18uqqkg" provider="youtube" title="Video of how to configure Information settings in OJS"%}
 
@@ -94,7 +94,7 @@ To remove these fields and their contents from displaying publicly on the websit
 
 ### Languages
 
-This PKP School video explains how to configure the Language settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure the Language settings in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="VU5kAPOqNPc" provider="youtube" title="Video of how to configure the language settings in OJS"%}
 
@@ -118,7 +118,7 @@ If enabling multiple languages to appear in the UI, make sure that in Website Se
 
 ### Navigation
 
-This PKP School video explains how to configure the Navigation settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure the Navigation settings in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="OJL-XEgzhYU" provider="youtube" title="Video of how to configure navigation settings in OJS"%}
 
@@ -144,7 +144,7 @@ Hit Save to record the change.
 
 ### Announcements
 
-This PKP School video explains how to configure the Announcements settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure the Announcements settings in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="OmiDQGX4SGs" provider="youtube" title="Video of how to configure announcements settings in OJS"%}
 
@@ -160,7 +160,7 @@ Once the Announcements setting is enabled, click "Save." An "Announcements" menu
 
 ![OJS 3.3 Announcements menu enabled in the sidebar with an option to add and edit announcements.](./assets/learning-ojs3.3-settings-website-announcements.png)
 
-This PKP School video explains how to configure the Website settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure the Website settings in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="3vAR6lu-4DE" provider="youtube" title="Video of how to configure website settings in OJS"%}
 
@@ -180,11 +180,13 @@ This option allows for the configuration of different format for dates and times
 
 ## Plugins
 
-This PKP School video explains how to configure Plugins in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure Plugins in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="PMAsXY_tLMU" provider="youtube" title="Video of how to configure plugins in OJS"%}
 
 Use this page to see all of the installed plugins and find new plugins.
+
+To learn more about available plugins, see [the Plugin Inventory](/plugin-inventory/en/).
 
 ### Installed Plugins
 
