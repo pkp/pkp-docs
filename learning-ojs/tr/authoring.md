@@ -12,7 +12,7 @@ In this chapter, you will learn about how an author works in OJS from registrati
 {% include video.html id="AJwDWdAu8BQ" provider="youtube" title="Video of Submitting an Article in OJS"%}
 This PKP School video explains how an author can register for a journal and submit an article. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-## Registering with the Journal
+## Dergiye Kayıt
 
 To make a submission to an OJS journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). Giriş yaptığınızda, Kontrol Paneline yönlendirileceksiniz.
 
@@ -22,13 +22,13 @@ Hiçbir gönderi yapmadığınız için şu anda boş.
 
 <hr />
 
-## Submitting an Article
+## Makale Gönderme
 
 Ekranın sağ tarafındaki **Yeni Gönderi** düğmesini tıklayarak yeni bir gönderi başlatabilirsiniz. Gönderi yüklemek, üstveri girişi yapmak ve açıklama için 5 Adımlı bir sürecin 1. Adımına yönlendirileceksiniz.
 
 ![Yeni gönderi düğmesi ile yazar gönderi kuyruğu](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
-### Step 1
+### 1. Adım
 
 **1. Adım**'da, gönderiniz hakkında ön bilgi vereceksiniz.
 
@@ -42,7 +42,7 @@ Select the appropriate section for your submission \(e.g., article, review, etc.
 
 Her bir kutuyu işaretleyerek gönderi kontrol listesindeki ifadeleri okuyun ve kabul edin. Editöre iletilecek tüm yorumları ekleyin, derginin gizlilik bildirimini okuyun ve ardından **2. Adım'a** geçmek için **Kaydet ve Devam Et** düğmesini tıklayın.
 
-### Step 2
+### 2. Adım
 
 **2. Adım**'da gönderi dosyanızı yüklemenize izin veren bir pencere açılacaktır.
 
@@ -61,7 +61,7 @@ Once you've uploaded all your files you can indicate the file type for each from
 
 Once you have finished uploading and labelling all of your files, click the **Save and Continue** button to move to **Step 3**.
 
-### Step 3
+### 3. Adım
 
 On **Step 3**, you will be asked to add more information about the submission, including the title of the submission (broken down into prefix, title, and subtitle), and the abstract. If the journal allows submissions in multiple languages, clicking on each metadata field will reveal the option to enter the metadata in the other languages that are enabled, allowing you to enter the title, subtitle and abstract in the other language(s). Scrolling down...
 
@@ -91,7 +91,7 @@ Anahtar kelimeyi girmek için, kelimeyi veya kelime öbeğini yazıp Enter tuşu
 
 İlerlemek için **Kaydet ve Devam Et**'i tıklayın.
 
-### Step 4
+### 4. Adım
 
 4. Adımda, gönderi verilerini incelemeniz ve onaylamanız istenecektir.
 
@@ -103,19 +103,19 @@ Bitirdiğinizi onaylamanızı isteyen bir kutu açılacaktır. **Tamam**'ı tık
 
 ![Gönderi ekranını onaylayın](./assets/learning-ojs-3-author-submission-step4-1.png)
 
-### Step 5
+### 5. Adım
 
 ![Sonraki adımlar gönderi ekranı](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
 Gönderiniz tamamlandı! Editör, gönderiniz hakkında bilgilendirildi. Bu noktada aşağıdaki bağlantıları takip edebilirsiniz:
 
-* Review this submission
-* Create a new submission
-* Return to your dashboard
+* Gönderiyi incele
+* Yeni bir gönderi oluştur
+* Kontrol paneline dön
 
 Bir gönderiyi tamamladıktan sonra üzerinde değişiklik yapamazsınız.  Gönderdiğiniz dosyayı değiştirmek veya gönderide başka değişiklikler yapmak istiyorsanız, Ön İnceleme Tartışmaları seçeneği aracılığıyla editörle iletişime geçmeniz gerekir.
 
-### Dashboard
+### Kontrol Paneli
 
 Yönetim Panelindeki gönderiniz. Şu anda _Gönderi_ aşamasında olduğunu görebilirsiniz.
 
@@ -127,7 +127,7 @@ Yönetim Panelindeki gönderiniz. Şu anda _Gönderi_ aşamasında olduğunu gö
 
 ## Editing Metadata
 
-In OJS 3.2, you may edit your own metadata at different stages of the editorial workflow. This will be dependent on settings granted by the Journal. You may either have global permission to make edits or have to send a request to the Editor to do so.
+In OJS 3, you may edit your own metadata at different stages of the editorial workflow. This will be dependent on settings granted by the Journal. You may either have global permission to make edits or have to send a request to the Editor to do so.
 
 Changes might include updated abstracts, correcting spelling errors, or adding additional contributors.
 
@@ -143,9 +143,11 @@ When granted permission, you will be able to make changes to the following secti
 
 If you notice that the ‘Save’ button is grey and inactive, this means you will have to request permission from the Editor to make changes to your submission or ask them to make the changes for you.
 
+To learn more about creating metadata, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
+
 <hr />
 
-## Responding to a Review
+## Bir Değerlendirmeye Yanıt Verme
 
 {% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Responding to Reviews in OJS"%}
 This PKP School video explains how an editor responds to a review and how an author can upload revisions. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
@@ -166,7 +168,7 @@ To view the Editorial decision, click the link under notifications.
 
 Editörün mesajındaki isteklere göre revizyonları hazırlamalısınız.
 
-### Uploading the Revised File
+### Güncellenmiş Dosyayı Yükleme
 
 Once you’re ready to upload the revised file, scroll down the page and find the panel for **Revisions**.
 
@@ -192,7 +194,7 @@ Gözden geçirilmiş dosyanız artık Düzeltmeler panelinde görünecektir.
 
 ![Revize edilmiş dosya şimdi revizyonlar panelinde](./assets/learning-ojs-3-auth-responding-upload4.png)
 
-### Inform the Editor
+### Editörü Bilgilendirme
 
 Editör, yüklenmekte olan yeni dosya(lar) hakkında bir bildirim alacaktır. Ayrıca aşağıda açıklandığı gibi Değerlendirme Tartışma paneli aracılığıyla editöre bilgi verebilirsiniz.
 
@@ -214,7 +216,7 @@ Böylece editöre bir e-posta gönderildi ve siz (ve editör) mesajı Değerlend
 
 Bu noktada, yazarın düzeltmelerin kabul edilebilir olup olmadığı konusunda editörden haber beklemesi gerekir.
 
-### Revisions Accepted
+### Kabul Edilen Revizyonlar
 
 Revizyonlarınızın kabul edildiğine dair bir e-posta alacaksınız.
 
@@ -240,7 +242,7 @@ Tebrikler! Kabul edildiniz ve gönderi dosyanız Kopya Düzenleme aşamasına ge
 
 <hr />
 
-## Resubmitting for Review
+## Değerlendirme İçin Yeniden Gönderme
 
 Editörün kararı değerlendirme için yeniden göndermekse, oturum açmanız ve gönderiler sayfanızdan makaleyi seçmeniz gerekecektir. Yeniden gönderi, değerlendirme aşamasında yapılır; yeni bir gönderi başlatmaya gerek yoktur.
 
@@ -254,7 +256,7 @@ Hakem değerlendirmesi süreci tekrarlanacak ve muhtemelen yapmanız gereken ek 
 
 <hr />
 
-## Responding to a Copyediting Request
+## Kopya Düzenleme İsteğine Yanıt Verme
 
 {% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Copyediting in OJS"%}
 This PKP School video explains the copyediting process, including how an editor can respond to a copyediting or proofreading request. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
@@ -287,7 +289,7 @@ Kopya düzenleme sürecindeki rolünüz artık tamamlandı ve talebin yayınlanm
 
 <hr />
 
-## Responding to a Proofreading Request
+## Düzeltme İsteğine Yanıt Verme
 
 İş akışındaki bir sonraki adım, dizgileri dönüştürülmüş gönderi dosyalarınızı (ör. PDF, HTML, vb.) incelemektir.
 
