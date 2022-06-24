@@ -32,7 +32,7 @@ Be wary of potentially limiting the exposure of your journal by restricting your
 
 ## Understanding indexing criteria
 
-###  Manual intervention for including content
+### Manual intervention for including content
 
 Different indexes will have varying criteria for including your publication's content. Depending on the index, the indexing process may require manual intervention. For example, regular exports of metadata from your journal, sometimes in particular formats, may be required. In OJS, there are many data export utilities, such as plugins that export to DOAJ and PubMed/Medline, that will facilitate providing some of the necessary contents and metadata to certain indexes.
 
