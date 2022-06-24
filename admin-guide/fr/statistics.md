@@ -16,17 +16,15 @@ L'élaboration de ce chapitre a été financée par le gouvernement du Canada gr
 
 Ce manuel sert principalement à expliquer, en détail, comment configurer, utiliser et dépanner le Cadre de Statistiques d'Utilisation de PKP. Il contient également des informations sur d'autres méthodes de collecte de statistiques prises en charge par OJS.
 
-
 ## Introduction au Cadre des Statistiques
 
 Dans la plupart des cas, le Cadre des Statistiques devrait «simplement fonctionner», en particulier avec de nouvelles installations. De la même manière, un certain nombre d'options de configuration s'offrent à vous, et elles doivent être évaluées après l'installation ou la mise à niveau. Vous devez également mettre en place une sorte de mécanisme pour exécuter des tâches planifiées afin que les statistiques d'utilisation soient traitées régulièrement.
 
 **Remarque pour les Directeurs de Revue et les Rédacteurs: ** la plupart des étapes suivantes sont considérées comme du niveau expert et ne doivent être effectuées que par les administrateurs du site et ceux du système. Si vous avez des questions sur les problèmes plus avancés présentés ici, consultez votre fournisseur de services. La principale exception à cela est l'option d'Affichage des Statistiques décrite dans la section suivante. Si vous souhaitez afficher publiquement les statistiques d'utilisation des articles sur les pages de résumé d'article, vous pouvez activer cette option.
 
-Vous devrez prendre en compte trois étapes de configuration: la configuration du plugiciel de statistiques d'utilisation, la configuration des tâches planifiées et la configuration du suivi des données régionales, si vous souhaitez suivre les données régionales. (OJS peut suivre les données de pays, de région et de ville.)
+Vous devrez prendre en compte trois étapes de configuration: la configuration du plugiciel de statistiques d'utilisation, la configuration des tâches planifiées et la configuration du suivi des données régionales, si vous souhaitez suivre les données régionales. (OJS can track country, region, and city data.)
 
 Cette section ne concerne que ceux qui utilisent OJS 2.4.3+ et OJS 3.0+. Les anciennes versions d'OJS n'ont pas ce cadre et n'ont pas besoin de configuration.
-
 
 ### OJS et les Statistiques: Un Peu d'Histoire
 
