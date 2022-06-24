@@ -127,7 +127,7 @@ Au cours des prochains jours, il passera à l'étape d'Évaluation et, s'il est 
 
 ## Révision des Métadonnées
 
-Dans OJS 3.2, vous pouvez modifier vos propres métadonnées à différentes étapes du flux de travail éditorial. Cela dépendra des paramètres accordés par le Journal. Vous pouvez avoir une autorisation globale pour apporter des modifications ou envoyer une demande au Rédacteur pour le faire.
+In OJS 3, you may edit your own metadata at different stages of the editorial workflow. Cela dépendra des paramètres accordés par le Journal. Vous pouvez avoir une autorisation globale pour apporter des modifications ou envoyer une demande au Rédacteur pour le faire.
 
 Changes might include updated abstracts, correcting spelling errors, or adding additional contributors.
 
@@ -142,6 +142,8 @@ Vous pouvez apporter des modifications à l'un des sous-menus de gauche en cliqu
 Une fois que l'autorisation accordée, vous pourrez apporter des modifications aux sections suivantes de l'onglet Publication: Titre et résumé, Contributeurs-trices, et Métadonnées. Bien qu'Épreuves soit répertorié comme une option dans le menu latéral, vous ne pourrez pas télécharger ou apporter des modifications dans cette section.
 
 Les modifications peuvent inclure des résumés mis à jour, la correction des fautes d'orthographe ou l'ajout de contributeurs supplémentaires.
+
+To learn more about creating metadata, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
 
 <hr />
 
