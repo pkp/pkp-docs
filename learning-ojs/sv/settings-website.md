@@ -50,7 +50,7 @@ If you would like to make minor changes to your site's design and layout, you ca
 
 For further theme customization options, consult the [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/) guide. Note that changes made to the themes may impact journal accessibility.
 
-### Setup
+### Inställningar
 
 Where you can upload images (logo, thumbnail, homepage) to your sites main page, enter footer information, and configure your sidebar menu.
 
@@ -76,7 +76,7 @@ If you would like to make more significant changes to the design or give your si
 
 Hit **Save** to record your changes.
 
-## Setup
+## Inställningar
 
 ### Information
 
@@ -185,6 +185,8 @@ This PKP School video explains how to configure Plugins in OJS. To watch other v
 {% include video.html id="PMAsXY_tLMU" provider="youtube" title="Video of how to configure plugins in OJS"%}
 
 Use this page to see all of the installed plugins and find new plugins.
+
+To learn more about available plugins, see [the Plugin Inventory](/plugin-inventory/en/).
 
 ### Installed Plugins
 
