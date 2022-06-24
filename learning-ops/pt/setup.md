@@ -86,6 +86,8 @@ In the “Advanced settings” you can add several customizable options, such as
 
 The Plugins tab under Website Settings lists pre-installed plugins under Installed Plugins and additional plugins under Plugin Gallery. See [Learning OJS](/learning-ojs/en/settings-website#installed-plugins) for information about how to install and use plugins. The list below highlights the plugins that are especially useful for OPS.
 
+To learn more about available plugins, see [the Plugin Inventory](/plugin-inventory/en/).
+
 **AddThis**: This plugin allows adding social media sharing buttons to the preprint landing page. For a better usage, it is recommended to register an account at AddThis.
 
 **Browse Plugin**: This plugin adds the ability to browse by Categories and sub-categories through the Servers homepage.
@@ -132,11 +134,11 @@ In this section you can configure copyright and licensing terms for your server�
 
 ### Search Indexing
 
-This section helps you enhance your search engine optimization and make your content more discoverable.
+Essa seção ajuda a aprimorar a otimização do mecanismo de pesquisa e tornar o conteúdo mais detectável.
 
 ![The Search Indexing settings screen.](./assets/learning-ops-distribution-settings-search-indexing.png)
 
-Use **Description** to provide a brief description of your server for search engines. Use **Custom Tags** to add custom HTML header tags to the header of every page of your server, which can help your site get indexed by search engines. Tags need to be added as HTML elements. If you simply enter words they will appear at the top of every page of your site instead of in the site’s metadata. Here is an example of text that could be entered in this field:
+Use **Description** to provide a brief description of your server for search engines. Use **Custom Tags** to add custom HTML header tags to the header of every page of your server, which can help your site get indexed by search engines. As tags precisam ser adicionadas como elementos HTML. If you simply enter words they will appear at the top of every page of your site instead of in the site’s metadata. Aqui está um exemplo de texto que pode ser inserido nesse campo:
 
 ```xml
 <meta name="description" content="Public Knowledge Preprint Server" />
