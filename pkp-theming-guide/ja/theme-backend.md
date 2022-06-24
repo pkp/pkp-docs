@@ -6,7 +6,7 @@ Although it is not well documented, Themes can inject their own templates and st
 
 ```php
     public function init() {
-        $this->addStyle('my-custom-style', 'styles/index.less', array( 'contexts' => 'backend' );
+        $this->addStyle('my-custom-style', 'styles/index.less', array( 'contexts' => 'backend' ));
     }
 ```
 
