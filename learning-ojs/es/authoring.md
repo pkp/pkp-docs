@@ -5,14 +5,14 @@ title: Learning Open Journal Systems 3.3 - Authoring
 description: A guide on how to submit a manuscript to an OJS journal as an author.
 ---
 
-# Authoring
+# Autores
 
 In this chapter, you will learn about how an author works in OJS from registration through to proofreading the final galley.
 
 {% include video.html id="AJwDWdAu8BQ" provider="youtube" title="Video of Submitting an Article in OJS"%}
 This PKP School video explains how an author can register for a journal and submit an article. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-## Registering with the Journal
+## Registrándose en la revista
 
 To make a submission to an OJS journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). Tras esto, cuando inicie sesión, será llevado a su Panel de Control.
 
@@ -22,13 +22,13 @@ Actualmente está vacío, ya que aún no ha realizado envíos.
 
 <hr />
 
-## Submitting an Article
+## Enviando un artículo
 
 Comience un nuevo envío haciendo clic en el botón **Nuevo envío** al lado derecho de la pantalla. Se le llevará al paso 1 de un proceso de 5 pasos para subir y describir su envío.
 
 ![Cola de envío del autor con el nuevo botón de envío](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
-### Step 1
+### Paso 1
 
 En el **Paso 1** proporcionará información preliminar sobre su envío.
 
@@ -42,7 +42,7 @@ Seleccione la sección apropiada para su envío \(artículo, revisión, etc.\). 
 
 Lea y acepte las declaraciones en la lista de verificación de envíos marcando cada casilla. Incluya cualquier comentario para el editor, lea la declaración de privacidad de la revista, y luego haga clic en el botón **Guardar y Continuar** para moverse al **Paso 2**.
 
-### Step 2
+### Paso 2
 
 En el **Paso 2** se le abrirá una ventana que le permitirá subir su archivo.
 
@@ -61,7 +61,7 @@ Once you've uploaded all your files you can indicate the file type for each from
 
 Once you have finished uploading and labelling all of your files, click the **Save and Continue** button to move to **Step 3**.
 
-### Step 3
+### Paso 3
 
 En el **Paso 3**se le pedirá que añada más información sobre el envío, incluyendo el título del envío (desglosado en prefijo, título y subtítulo) y el resumen. Si la revista permite envíos en varios idiomas, haciendo clic en los campos de metadatos revelará la opción de introducir los metadatos en otros idiomas previamente habilitados, permitiéndole introducir el título, subtítulo y resumen en el otro idioma(s). Desplazándose hacia abajo...
 
@@ -91,7 +91,7 @@ Para introducir una palabra clave, simplemente escriba la palabra o frase y puls
 
 Haga clic en **Guardar y continuar** para avanzar.
 
-### Step 4
+### Paso 4
 
 En el paso 4, se le pedirá que confirme que está satisfecho con su envío.
 
@@ -103,19 +103,19 @@ Aparecerá una caja que te pedirá que confirmes que has finalizado. Haga clic e
 
 ![Confirmar pantalla de envío](./assets/learning-ojs-3-author-submission-step4-1.png)
 
-### Step 5
+### Paso 5
 
 ![Pantalla de envío de siguientes pasos](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
 ¡Su envío ha sido completado! El editor ha sido notificado de su envío. En este punto, puedes seguir los enlaces para:
 
-* Review this submission
-* Create a new submission
-* Return to your dashboard
+* Revisar este envío
+* Crear un nuevo envío
+* Regresar al panel de control
 
 Una vez que complete un envío, no podrá realizar cambios en el mismo.  Si desea reemplazar el archivo que ha enviado o hacer otros cambios al envío, necesitará ponerse en contacto con el editor a través de la herramienta Discusiones.
 
-### Dashboard
+### Panel de control
 
 Y aquí está su envío en su Panel de Control. Puede ver que actualmente está en la etapa de _Envío_.
 
@@ -125,9 +125,9 @@ En los próximos días, pasará a la fase de Revisión y, si se acepta, a las fa
 
 <hr />
 
-## Editing Metadata
+## Editar Metadatos
 
-En OJS 3.2, puede editar sus propios metadatos en diferentes etapas del flujo de trabajo editorial. Esto dependerá de la configuración concedida por la Revista. Es posible que tenga permisos globales para realizar ediciones o que tenga que enviar una solicitud al Editor para hacerlo.
+In OJS 3, you may edit your own metadata at different stages of the editorial workflow. Esto dependerá de la configuración concedida por la Revista. Es posible que tenga permisos globales para realizar ediciones o que tenga que enviar una solicitud al Editor para hacerlo.
 
 Los cambios pueden incluir resúmenes actualizados, correcciones de errores ortográficos o adición de colaboradores adicionales.
 
@@ -143,9 +143,11 @@ Cuando se le conceda permiso, podrá hacer cambios en las siguientes secciones d
 
 Si nota que el botón 'Guardar' es gris y está inactivo, significa que tendrá que solicitar permiso al Editor para hacer cambios en su envío o pedirles que hagan los cambios por usted.
 
+To learn more about creating metadata, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
+
 <hr />
 
-## Responding to a Review
+## Respondiendo a una revisión
 
 {% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Responding to Reviews in OJS"%}
 This PKP School video explains how an editor responds to a review and how an author can upload revisions. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
@@ -166,7 +168,7 @@ Para ver la decisión Editorial, haga clic en el enlace debajo de las notificaci
 
 Basándose en la información contenida en el mensaje del editor, usted debe ahora preparar sus revisiones.
 
-### Uploading the Revised File
+### Subiendo el Archivo Revisado
 
 Una vez que esté listo para cargar el archivo revisado, desplácese hacia abajo en la página y encuentre el panel de **Revisiones**.
 
@@ -192,7 +194,7 @@ Su archivo revisado ahora es visible en el panel Revisiones.
 
 ![Archivo revisado ahora en el panel de revisiones](./assets/learning-ojs-3-auth-responding-upload4.png)
 
-### Inform the Editor
+### Informar al Editor
 
 El editor recibirá una notificación sobre el(los) archivo(s) nuevo(s) que se están subiendo. Adicionalmente, puede informar al editor a través del panel de Discusión de Revisión como se explica a continuación.
 
@@ -214,7 +216,7 @@ Un correo electrónico ha sido enviado al editor, y usted y el editor pueden ver
 
 En este punto, el autor tiene que esperar respuesta del editor sobre si las revisiones son aceptables o no.
 
-### Revisions Accepted
+### Revisiones Aceptadas
 
 Recibirá un correo electrónico diciendo que sus revisiones han sido aceptadas.
 
@@ -240,7 +242,7 @@ Al hacer clic en el título de la discusión ésta se abrirá.
 
 <hr />
 
-## Resubmitting for Review
+## Volver a enviar a revisión
 
 Si la decisión del editor es volver a enviar a revisión, tendrá que iniciar sesión y seleccionar el artículo en su página de envíos. El nuevo envío se realiza en la fase de revisión, no hay necesidad de iniciar un nuevo envío.
 
@@ -254,7 +256,7 @@ El proceso de revisión por pares se repetirá, y posiblemente recibirá nuevas 
 
 <hr />
 
-## Responding to a Copyediting Request
+## Respuesta a una solicitud de Corrección
 
 {% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Copyediting in OJS"%}
 This PKP School video explains the copyediting process, including how an editor can respond to a copyediting or proofreading request. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
@@ -287,11 +289,11 @@ Su papel en el proceso de Corrección ya está completo y puede esperar a la sol
 
 <hr />
 
-## Responding to a Proofreading Request
+## Respuesta a una solicitud de Maquetación
 
 El siguiente paso en el flujo de trabajo es revisar sus archivos de envío que se han convertido en galeradas (por ejemplo, PDF, HTML, etc.).
 
-Recibirá un correo electrónico indicando que los archivos están disponibles. Para verlos, inicia sesión en la revista y vaya a su panel de control.
+Recibirá un correo electrónico indicando que los archivos están disponibles. Para verlos, inicie sesión en la revista y vaya a su panel de control.
 
 ![Panel de control de envíos del autor](./assets/learning-ojs-3-au-production-dashboard.png)
 
@@ -299,7 +301,7 @@ Puede ver su envío en el panel Mis archivos. Seleccione el enlace para ir al re
 
 ![Sección de producción del panel de control del autor](./assets/learning-ojs-3-au-production-record.png)
 
-Haga clic en la discusión para abrirla, leer el mensaje y abrir el archivo adjunto.
+Haga clic en la discusión relacionada para abrirla, leer el mensaje y abrir el archivo adjunto.
 
 ![Mensaje de galerada lista para revisión de maquetación](./assets/learning-ojs-3-au-production-message.png)
 
