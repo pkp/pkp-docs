@@ -187,6 +187,8 @@ Este vídeo do PKP School explica como configurar Plugins no OJS. Para assistir 
 
 Use essa página para ver todos os plugins instalados e encontrar novos plugins.
 
+To learn more about available plugins, see [the Plugin Inventory](/plugin-inventory/en/).
+
 ### Plugins instalados
 
 Todos os plugins listados aqui estão disponíveis em sua instalação OJS. Verifique se estão habilitados no link Habilitar para usá-los.
@@ -249,7 +251,7 @@ Para obter estatísticas a partir desse plugin, será preciso se registrar em [A
 
 Esse plugin implementa um plugin de bloco que permite ao usuário navegar pelo conteúdo por categorias. O bloco de navegação aparece na barra lateral da revista.
 
-Além disso, esse plugin pode ser ativado a partir da Galeria de Plugins.
+Esse plugin pode ser ativado a partir da Galeria de plugins.
 
 ![Navegue pelo plugin com categorias para verão, outono, primavera, inverno.](./assets/learning-ojs-settings-plugin-browse.png)
 
@@ -365,7 +367,7 @@ Após configurar o plugin, ao abrir uma das páginas de seu artigo, você dever�
 
 Esse plugin acrescenta Hypothes.is integração à visão pública do artigo OJS, permitindo anotações e comentários. Atualmente, ele suporta comentar sobre as HTML galleys.
 
-O hypothes.is pode ser ativado a partir da Galeria de Plugins.
+Esse plugin pode ser ativado a partir da Galeria de plugins.
 
 Uma vez habilitado, os leitores verão as ferramentas hypothes.is no lado direito da galeria HTML.
 
