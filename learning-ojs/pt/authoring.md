@@ -10,7 +10,7 @@ description: Um guia sobre como enviar um manuscrito para um periódico OJS como
 Neste capítulo, você aprenderá como um autor trabalha no OJS, desde o registro até a revisão da versão final.
 
 {% include video.html id="AJwDWdAu8BQ" provider="youtube" title="Vídeo Submetendo um artigo no OJS"%}
-Este vídeo da Escola do PKP explica como um autor pode se registrar em um periódico e enviar um artigo. Para assistir a outros vídeos desta série, visite o [canal da PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+Este vídeo da Escola do PKP explica como um autor pode se registrar em um periódico e enviar um artigo. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 ## Cadastrando-se na Revista
 
@@ -127,7 +127,7 @@ Nos próximos dias, passará para o estágio de Revisão e, se for aceito, passa
 
 ## Editando Metadados
 
-No OJS 3.2, você pode editar seus próprios metadados em diferentes estágios do fluxo de trabalho editorial. Isso dependerá das configurações concedidas pela Revista. Você pode ter permissão global para fazer edições ou enviar uma solicitação ao Editor para fazê-las.
+In OJS 3, you may edit your own metadata at different stages of the editorial workflow. Isso dependerá das configurações concedidas pela Revista. Você pode ter permissão global para fazer edições ou enviar uma solicitação ao Editor para fazê-las.
 
 As alterações podem incluir resumos atualizados, correção de erros ortográficos ou adição de colaboradores.
 
@@ -143,12 +143,14 @@ Quando a permissão for concedida, você poderá fazer alterações nas seguinte
 
 e você notar que o botão 'Salvar' está cinza e inativo, isso significa que terá que solicitar permissão do Editor para fazer alterações em sua submissão ou pedir-lhe que faça as alterações para você.
 
+To learn more about creating metadata, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
+
 <hr />
 
 ## Respondendo a uma revisão
 
 {% include video.html id="LR_1BmmSTek" provider="youtube" title="Vídeo sobre Respondendo uma avaliação no OJS"%}
-Este vídeo da Escola do PKP explica como um editor responde a uma avaliação e como um autor pode fazer upload de revisões. Para assistir a outros vídeos desta série, visite o [canal da PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+Este vídeo da Escola do PKP explica como um editor responde a uma avaliação e como um autor pode fazer upload de revisões. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 Assim que o processo de revisão for concluído, você será notificado por e-mail pelo Editor sobre sua decisão.
 
@@ -234,7 +236,7 @@ Mais abaixo em seu painel, você também verá uma resposta do Editor para a dis
 
 Cique no título da discussão para abri-lo.
 
-![Mensagem de discussão de avaliação](./assets/learning-ojs-3-au-rev-discussions2.png)
+![Review discussion message](./assets/learning-ojs-3-au-rev-discussions2.png)
 
 Parabéns! Sua revisão foi aceita e seu arquivo de envio está avançando para o estágio de edição.
 
@@ -257,7 +259,7 @@ O processo de revisão por pares será repetido e você provavelmente receberá 
 ## Respondendo a uma solicitação de edição de texto
 
 {% include video.html id="uc272bhGfeU" provider="youtube" title="Vídeo sobre a Edição de Texto no OJS"%}
-Este vídeo da PKP School explica o processo de edição de texto, incluindo como um editor pode responder a uma edição de texto ou solicitação de revisão. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+Este vídeo da PKP School explica o processo de edição de texto, incluindo como um editor pode responder a uma edição de texto ou solicitação de revisão. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 A próxima etapa no fluxo de trabalho é inspecionar os arquivos de envio que foram editados.
 
@@ -267,21 +269,21 @@ Você receberá um e-mail indicando que os arquivos estão disponíveis. Para v�
 
 Você pode ver sua submissão no painel Minha Autoria. Selecione o link de edição de texto (Copyediting) para acessar o registro de envio completo, incluindo a notificação no painel Discussões de edição de texto.
 
-![Seção de Edição de Texto do painel do autor](./assets/learning-ojs-3-au-copyedits-notice.png)
+![Copyediting section of author dashboard](./assets/learning-ojs-3-au-copyedits-notice.png)
 
 Clique no link da discussão para abri-lo, ler a mensagem e abrir o arquivo anexado.
 
-![Mensagem de discussão de Edição de Texto](./assets/learning-ojs-3-au-copyedits-message.png)
+![Copyediting check discussion message](./assets/learning-ojs-3-au-copyedits-message.png)
 
 Depois de ler o arquivo anexado, você pode responder ao revisor, indicando as alterações necessárias ou sua aprovação.
 
-![Respondendo a mensagem de verificação de Edição de Texto](./assets/learning-ojs-3-au-copyedits-reply.png)
+![Respond to copyediting check message](./assets/learning-ojs-3-au-copyedits-reply.png)
 
 Se necessário, você pode anexar uma revisão, mas, para este exemplo, as alterações serão simplesmente aprovadas, clicando em **OK**.
 
 No seu painel, é possível ver quem foi a última pessoa a responder à mensagem.
 
-![Painel mostrando discussões de Edição de Texto](./assets/learning-ojs-3-au-copyedits-final-dash.png)
+![Dashboard showing copyediting discussions](./assets/learning-ojs-3-au-copyedits-final-dash.png)
 
 Sua função no processo de edição de texto agora está concluída e você pode aguardar a solicitação para revisar as provas finais (por exemplo, PDFs, HTML, etc.) antes da publicação.
 
@@ -297,14 +299,14 @@ Você receberá um e-mail indicando que os arquivos estão disponíveis. Para v�
 
 Você pode ver sua submissão no painel Minha Autoria. Selecione o link Produção para acessar o registro de envio completo, incluindo a notificação no painel Discussões de produção.
 
-![Seção Produção do painel do autor](./assets/learning-ojs-3-au-production-record.png)
+![Production section of author dashboard](./assets/learning-ojs-3-au-production-record.png)
 
 Clique no link da discussão para abri-lo, ler a mensagem e abrir o arquivo anexado.
 
-![Composição pronta para mensagem de revisão de provas](./assets/learning-ojs-3-au-production-message.png)
+![Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message.png)
 
 Depois de ler o arquivo anexado, você pode responder ao Editor de Layout, indicando as alterações necessárias ou sua aprovação.
 
-![Respondendo mensagem de Composição pronta para revisão de provas](./assets/learning-ojs-3-au-production-message2.png)
+![Respond to Galley ready for proofreading message](./assets/learning-ojs-3-au-production-message2.png)
 
 É isso! Sua função no fluxo de trabalho editorial agora está concluída.
