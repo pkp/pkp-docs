@@ -1,6 +1,6 @@
 # Importar e exportar dados
 
-Open Journal Systems oferece uma variedade de ferramentas e plugins que permitem inserir e extrair dados do OJS. Este capítulo explicará como usar as ferramentas e plugins de importação e exportação. Informações adicionais podem ser encontradas na documentação de cada plugin, no diretório de plugins do OJS (plugins/).
+Open Journal Systems oferece uma variedade de ferramentas e plugins que permitem inserir e extrair dados do OJS. Este capítulo explicará como usar as ferramentas e plugins de importação e exportação. More information can be found in each plugin's documentation within OJS' plugin directory (plugins/), and in [the Plugin Inventory](/plugin-inventory/en/).
 
 A maioria das funções de importação e exportação pode ser realizada entrando no sistema como Editor Gerente e acessando Ferramentas > Importar/Exportar.
 
@@ -14,11 +14,11 @@ Funcionalidades de importação/exportação também estão disponíveis via lin
 
 ## Importar e exportar artigos e edições
 
-Artigos e edições podem ser importadas rapidamente para o OJS usando o plugin de Submissão rápida ou o Plugin XML nativo \(antigamente chamado de Plugin XML de Artigos e Edições\). O plugin de submissão rápida é útil para importar de cinco a dez artigos, mas para quantidades maiores de artigos e edições, ou caso possua os metadados em formato tratável, pode ser mais interessante usar o plugin XML nativo.
+Articles and issues can be quickly imported into OJS using the Quick Submit Plugin or the Native XML Plugin (formerly the Articles and Issues XML Plugin). O plugin de submissão rápida é útil para importar de cinco a dez artigos, mas para quantidades maiores de artigos e edições, ou caso possua os metadados em formato tratável, pode ser mais interessante usar o plugin XML nativo.
 
 ### Submissão rápida
 
-O plugin de submissão rápida permite incluir rapidamente uma submissão a uma edição. Ele oferece um processo em uma etapa para editores precisando ignorar os processos tradicionais de submissão, avaliação e edição. Veja [Aprendendo o OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/tools) para mais detalhes.
+O plugin de submissão rápida permite incluir rapidamente uma submissão a uma edição. Ele oferece um processo em uma etapa para editores precisando ignorar os processos tradicionais de submissão, avaliação e edição. See [Learning OJS 3](/learning-ojs/en/tools) for more details.
 
 ### Plugin XML nativo
 
