@@ -299,11 +299,11 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 **Does the journal allow for ORCID iDs to be present in article metadata?**
 
-* Selecione "Sim" ou "Não". See [https://orcid.org](https://orcid.org) for more information.
+* Selecione "Sim" ou "Não". See [the ORCID website](https://orcid.org) for more information.
 
 **Does the journal comply with I4OC standards for open citations?**
 
-* Selecione "Sim" ou "Não". See https://i4oc.org for more information.
+* Selecione "Sim" ou "Não". See [the I4OC website](https://i4oc.org) for more information.
 
 <hr />
 
@@ -339,6 +339,8 @@ Certifique-se de que os artigos possam ser encontrados mesmo se  as URLs forem a
 
 Proporcione maior visibilidade e possibilidade de descoberta do conteúdo do periódico, fornecendo metadados no nível do artigo e links para o texto na íntegra. Os metadados devem ser fornecidos ao DOAJ dentro de 3 meses por meio do arquivo xml em nível de artigo ou pela DOAJ API .
 
+To learn more about creating metadata, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
+
 Você pode usar o Plug-in de Importação / Exportação OJS DOAJ em Ferramentas > Importar / Exportar > Plug-in de Exportação DOAJ.
 
 **54) O periódico permitirá que o(s) autor(es) mantenha(m) os direitos de publicação sem restrições?** [ **S** ]
@@ -363,7 +365,7 @@ See [Learning OJS: Distribution Settings](https://docs.pkp.sfu.ca/learning-ojs/e
 
 O Selo DOAJ requer que os periódicos permitam que os direitos autorais sejam preservados pelo autor e não sejam transferidos para o periódico ou o editor. O periódico e o editor também não devem conservados os direitos exclusivos de publicação do conteúdo, mas sim o autor. É recomendado, pelas melhores práticas do DOAJ, que os termos de qualquer contrato de licença sejam disponibilizados gratuitamente para esclarecer os direitos do autor e, se houver, o que os autores devem assinar ao submeter contribuições ao periódico.
 
-No OJS, você pode selecionar o detentor dos direitos autorais designados para os metadados do artigo como autor, periódico ou outro. Para selecionar o autor como o detentor dos direitos autorais designado, clique em: Configurações > Distribuição > Permissões
+No OJS, você pode selecionar o detentor dos direitos autorais atribuído para os metadados do artigo como o Autor, o Periódico ou Outro. Para selecionar o autor como o detentor dos direitos autorais designado, clique em: Configurações > Distribuição > Permissões
 
 ### 7. Self-archiving policy
 
