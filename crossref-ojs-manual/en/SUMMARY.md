@@ -15,4 +15,5 @@
 - [Funding Information](funding.md)
 - [Similarity Check](simCheck.md)
 - [Crossmark](./crossmark.md)
+- [Scopus/Crossref Citation Plugin](./citationsplugin.md)
 
