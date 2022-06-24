@@ -84,7 +84,7 @@ To start, go to Press Setting followed by the Categories tab.
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="./assets/learning-omp3.3-press-setting-categories-2.mp4" type="video/mp4">
+    <source src="./assets/learning-omp3.3-press-setting-categories-1.mp4" type="video/mp4">
   </video>
   <figcaption>Video of the steps above being performed.</figcaption>
 </figure>
@@ -97,7 +97,7 @@ To start, go to Press Setting followed by the Categories tab.
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="./assets/learning-omp3.3-press-setting-categories-3.mp4" type="video/mp4">
+    <source src="./assets/learning-omp3.3-press-setting-categories-2.mp4" type="video/mp4">
   </video>
   <figcaption>Video of the steps above being performed.</figcaption>
 </figure>
