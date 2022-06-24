@@ -86,6 +86,8 @@ In the “Advanced settings” you can add several customizable options, such as
 
 The Plugins tab under Website Settings lists pre-installed plugins under Installed Plugins and additional plugins under Plugin Gallery. See [Learning OJS](/learning-ojs/en/settings-website#installed-plugins) for information about how to install and use plugins. The list below highlights the plugins that are especially useful for OPS.
 
+To learn more about available plugins, see [the Plugin Inventory](/plugin-inventory/en/).
+
 **AddThis**: This plugin allows adding social media sharing buttons to the preprint landing page. For a better usage, it is recommended to register an account at AddThis.
 
 **Browse Plugin**: This plugin adds the ability to browse by Categories and sub-categories through the Servers homepage.
