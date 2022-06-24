@@ -5,46 +5,46 @@ title: Learning Open Journal Systems 3.3 - Authoring
 description: A guide on how to submit a manuscript to an OJS journal as an author.
 ---
 
-# Authoring
+# Kirjoittaminen
 
-In this chapter, you will learn about how an author works in OJS from registration through to proofreading the final galley.
+Tässä luvussa kerrotaan OJS 3.3 -järjestelmän toiminnoista kirjoittajan näkökulmasta.
 
 {% include video.html id="AJwDWdAu8BQ" provider="youtube" title="Video of Submitting an Article in OJS"%}
 This PKP School video explains how an author can register for a journal and submit an article. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-## Registering with the Journal
+## Rekisteröityminen julkaisuun
 
-To make a submission to an OJS journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
+Käsikirjoituksen lähettämiseksi tarvitset käyttäjätilin OJS-järjestelmään \(katso [Rekisteröityminen julkaisuun](./user-accounts#registering-with-a-journal)\). Kun sinulla on käyttäjätili, voit kirjautua sisään ja pääset omaan Hallintapaneeliin.
 
 ![Submissions queue in author dashboard](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
-It is currently empty as you have made no submissions.
+Näkymä on aluksi tyhjä, koska käyttäjätilillä ei ole aiemmin lähetetty käsikirjoituksia.
 
 <hr />
 
-## Submitting an Article
+## Käsikirjoituksen lähettäminen
 
-Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to Step 1 of a 5-Step process to upload and describe your submission.
+Hallintapaneelissa, aloita käsikirjoituksen lähetys valitsemalla **Uusi käsikirjoitus** näkymän oikeasta reunasta. Toiminto avaa viisiportaisen lomakkeen, jolla käsikirjoitus lähetetään ja kuvaillaan.
 
 ![Author submission queue with new submission button](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
-### Step 1
+### Vaihe 1
 
-In **Step 1** you will provide preliminary information about your submission.
+**Ensimmäisessä vaiheessa** täytetään käsikirjoituksen luokitteluun liittyviä perustietoja.
 
 ![Article submission start screen](./assets/learning-ojs3.3-au-dashboard-new-1.png)
 
-If the journal allows submissions in multiple languages, you can select the language of your submission from the drop-down menu. Languages can be enabled in Website Settings -> Setup -> Language.
+Mikäli julkaisu ottaa vastaan käsikirjoituksia usealla kielellä, voit valita käsikirjoituksen kielen vetovalikosta. Languages can be enabled in Website Settings -> Setup -> Language.
 
 If the journal has Categories enabled and setup, you can select the categories your submission from the list. Categories can be setup in Journal > Categories.
 
-Select the appropriate section for your submission \(e.g., article, review, etc.\). If you aren’t sure which section is appropriate, make your best guess.
+Valitse vetovalikosta käsikirjoitukselle sopiva osasto. Jos et ole varma valinnastasi, niin valitse sopivin.
 
-Read and agree to the statements in the submission checklist by checking each box. Include any comments for the editor, read the journal’s privacy statement, and then click the **Save and Continue** button to move to **Step 2**.
+Lue ja hyväksy tarkistuslistassa olevat kohdat. Mikäli käsikirjoituksesi ei täytä ehtoja, tee tarvittavat korjaukset ennen etenemistä. Lisää tarvittaessa kommentteja toimittajalle, lue ja hyväksy tietosuojaseloste ja valitse **Tallenna ja jatka**, jolloin siirryt seuraavaan vaiheeseen.
 
-### Step 2
+### Vaihe 2
 
-On **Step 2**, a window will open allowing you to upload your submission file.
+**Toisessa vaiheessa** pääset lisämään käsikirjoitukseen liittyviä tiedostoja. Ruudulle avautuu uusi ikkuna, joka sisältää kolmiportaisen lomakkeen.
 
 ![File upload screen](./assets/learning-ojs-3.3-author-submission-step2.png)
 
@@ -61,21 +61,21 @@ Once you've uploaded all your files you can indicate the file type for each from
 
 Once you have finished uploading and labelling all of your files, click the **Save and Continue** button to move to **Step 3**.
 
-### Step 3
+### Vaihe 3
 
-On **Step 3**, you will be asked to add more information about the submission, including the title of the submission (broken down into prefix, title, and subtitle), and the abstract. If the journal allows submissions in multiple languages, clicking on each metadata field will reveal the option to enter the metadata in the other languages that are enabled, allowing you to enter the title, subtitle and abstract in the other language(s). Scrolling down...
+Kolmannessa vaiheessa täytetään käsikirjoituksen kuvailutiedot. Lisää käsikirjoituksen otsikko (prefiksi koskee vain joitakin kieliä) sekä abstrakti. **Muista täyttää käsikirjoituksen kuvailutiedot huolellisesti**. Mikäli lehti on monikielinen, myös kuvailutiedot voi täyttää usealla kielellä. Tällöin esimerkiksi otsikko-kenttää painaessa avautuu jokaiselle kieliversiolle oma tekstikenttä, johon voi kirjoittaa otsikon. Scrolling down...
 
 ![Enter title metadata in another language](./assets/learning-ojs3.2-au-dashboard-new-3.png)
 
-...you are able to add any additional contributors.
+Abstraktin alapuolella on tekijäluettelo. Oletuksena käsikirjoitusta lähettävän kirjoittajan tiedot näkyvät valmiina.
 
 ![List of contributors](./assets/learning-ojs3.1-au-dashboard-new-3-contrib.png)
 
-You can add more contributors (e.g., co-authors), by clicking the **Add Contributors** link. This will open a new window with fields to enter their information.
+You can add more contributors (e.g., co-authors), by clicking the **Add Contributors** link. Tämä toiminto avaa lomakkeen, johon tekijän tiedot täytetään. Huomaa, että tarvitset henkilöiden sähköpostiosoitteet.
 
 ![Add contributors](./assets/learning-ojs-3-author-submission-step3-2.png)
 
-Hit **Save**, and the new contributor will appear on the screen.
+Valitse **Tallenna** ja uusi tekijä lisätään luetteloon.
 
 ![List with new contributors added](./assets/learning-ojs3.1-au-dashboard-new-3-contrib-new.png)
 
@@ -83,31 +83,31 @@ If the categories are enabled in the journal you are submitting to, you will be 
 
 ![Select a category](./assets/learning-ojs-authoring-category.png)
 
-You may also see additional fields to complete, such as keywords. If additional languages are enabled for the journal, you can enter the metadata in these languages. Clicking on the metadata field will reveal the fields for other languages enabled in the journal.
+Riippuen julkaisun asetuksista voit nähdä tekijäluettelon alla myös muita kuvailutietoja koskevia kenttiä, kuten avainsanat. If additional languages are enabled for the journal, you can enter the metadata in these languages. Clicking on the metadata field will reveal the fields for other languages enabled in the journal.
 
 ![Enter keywords](./assets/learning-ojs-3.2-author-submission-step3-4.png)
 
-To enter keyword, simply type the word or phrase and hit your Enter key. The word or phrase will be formatted as a keyword.
+Avainsanojen tapaisten kenttien kohdalla erota annettavat sanat painamalla enter-nappia sanan kirjoittamisen jälkeen. Mikäli järjestelmä ehdottaa sanoja kirjoitettaessa, voit valita sanan klikkaamalla sitä. The word or phrase will be formatted as a keyword.
 
-Click **Save and Continue** to move forward.
+Valitse **Tallenna ja jatka** siirtyäksesi seuraavan vaiheeseen.
 
-### Step 4
+### Vaihe 4
 
-On Step 4, you will be asked to confirm that you are happy with your submission.
+Neljännessä vaiheessa sinua pyydetään varmistamaan, että olet valmis lähettämään käsikirjoituksen.
 
-Click **Finish Submission**.
+Valitse **Suorita lähetys**.
 
 ![Finish submission screen](./assets/learning-ojs3.1-au-dashboard-new-4.png)
 
-A box will pop up asking you to confirm you are finished. Click **OK**.
+Avautuvassa ikkunassa varmistus kysytään vielä uudelleen. Valitse **OK**.
 
 ![Confirm submission screen](./assets/learning-ojs-3-author-submission-step4-1.png)
 
-### Step 5
+### Vaihe 5
 
 ![Next steps submission screen](./assets/learning-ojs3.1-au-dashboard-new-5.png)
 
-Your submission is now complete! The editor has been notified of your submission. At this point, you can follow the links to:
+Käsikirjoitus on nyt lähetetty! Toimittajat ovat saaneet tiedon uudesta käsikirjoituksesta. At this point, you can follow the links to:
 
 * Review this submission
 * Create a new submission
@@ -115,19 +115,19 @@ Your submission is now complete! The editor has been notified of your submission
 
 Once you complete a submission, you cannot make changes to it.  If you want to replace the file you submitted or make other changes to the submission, you will need to contact the editor through the Pre-Review Discussions tool.
 
-### Dashboard
+### Hallintapaneeli
 
-And here is your submission in your Dashboard. You can see that it is currently in the _Submission_ stage.
+Käsikirjoituksesi näkyy nyt Hallintapaneelissa kohdassa Oma jononi. Käsikirjoituksen otsikon perässä näkyy käsikirjoituksen työvaihe.
 
 ![Submission in author dashboard](./assets/learning-ojs3.1-au-dashboard-new-sub.png)
 
-Over the coming days, it will move into the Review stage, and if accepted, into the Copyediting and Production stages before being published.
+Toimittajat ovat sinuun yhteydessä järjestelmän kautta ja käsikirjoitus etenee toimitusprosessissa.
 
 <hr />
 
 ## Editing Metadata
 
-In OJS 3.2, you may edit your own metadata at different stages of the editorial workflow. This will be dependent on settings granted by the Journal. You may either have global permission to make edits or have to send a request to the Editor to do so.
+In OJS 3, you may edit your own metadata at different stages of the editorial workflow. This will be dependent on settings granted by the Journal. You may either have global permission to make edits or have to send a request to the Editor to do so.
 
 Changes might include updated abstracts, correcting spelling errors, or adding additional contributors.
 
@@ -142,6 +142,8 @@ You will be able to make changes to any of the sub-menus on the left by clicking
 When granted permission, you will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors, and Metadata. While Galleys is listed as an option on the side menu, you will not be able to upload or make changes in this section.
 
 If you notice that the ‘Save’ button is grey and inactive, this means you will have to request permission from the Editor to make changes to your submission or ask them to make the changes for you.
+
+To learn more about creating metadata, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
 
 <hr />
 
