@@ -528,6 +528,7 @@ Generates a CSV spreadsheet with submissions information for OJS and OPS that is
 
 Uses an articles DOI to get all citations from Scopus and/or Crossref. Google Scholar and PubMed are also supported. The count and list of citations is displayed in the sidebar of the article details. It is possible to choose between the different providers and display only the amount of results if the list is not desired.
 
+* [Scopus/Crossref Citations plugin guide](/crossref-ojs-manual/en/citationsplugin)
 * [Scopus/Crossref Citations plugin in GitHub](https://github.com/RBoelter/citations)
 
 ## Shariff
