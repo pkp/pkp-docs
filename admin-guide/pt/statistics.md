@@ -16,17 +16,15 @@ The development of this chapter has been funded by the Government of Canada via 
 
 This handbook mainly serves to explain, in some detail, how to configure, use, and troubleshoot PKP’s Usage Statistics Framework. It also contains some information on other statistics-gathering methods that are supported by OJS.
 
-
 ## Configure the Statistics Framework
 
 In most cases, the Statistics Framework should “just work,” in particular with fresh installs. Just the same, there are a number of configuration options available to you, and they should be reviewed after installation or upgrade. You also need to put in place some sort of mechanism to run scheduled tasks so that usage stats are processed regularly.
 
 **Note for Journal Managers and Editors:** Most of the following steps would be considered expert level and should only be undertaken by Site Administrators and systems administrators. If you have questions about the more advanced issues presented here, consult with your service provider. The main exception to this is the Statistics Display option described in the next section. If you want to publicly display article usage statistics on article abstract pages, you can enable this option.
 
-There are three configuration steps that you will have to consider: configuring the usage statistics plugin, configuring scheduled tasks, and configuring regional data tracking, if you want to track regional data. \(OJS can track country, region, and city data.\)
+There are three configuration steps that you will have to consider: configuring the usage statistics plugin, configuring scheduled tasks, and configuring regional data tracking, if you want to track regional data. (OJS can track country, region, and city data.)
 
 This section is only relevant to those using OJS 2.4.3+ and OJS 3.0+. Older versions of OJS do not have this framework and need no configuration.
-
 
 ### Configure the Usage Statistics Plugin
 
