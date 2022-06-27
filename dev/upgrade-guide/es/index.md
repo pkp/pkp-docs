@@ -4,9 +4,9 @@ title: How to Upgrade
 description: How to upgrade Open Journal Systems (OJS) and other PKP software, including a step-by-step tutorial.
 ---
 
-# How to Upgrade
+# ¿Cómo actualizar?
 
-> Want to know when new versions are released and what's new? Read the [announcements forum](https://forum.pkp.sfu.ca/c/announcements/10). 
+> ¿Quieres saber cuándo se publican las nuevas versiones y qué hay de nuevo? Read the [announcements forum](https://forum.pkp.sfu.ca/c/announcements/10). 
 > 
 > {:.notice}
 
