@@ -1,4 +1,4 @@
-# Email
+# Correo Electrónico
 
 This chapter explains how emails are sent in OJS, OMP, and OCS; the configuration options that are available; and how to troubleshoot email issues.
 
