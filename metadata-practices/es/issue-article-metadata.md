@@ -1,36 +1,36 @@
 ---
-title: Issue and Article Metadata - Better Practices in Journal Metadata
+title: Metadatos de números y artículos - Mejores prácticas en los metadatos de la revista
 ---
 
-# Issue and Article Metadata
+# Metadatos de números y artículos
 
-Issue and article metadata is part of each individual issue and article you publish and includes things like issue volume, issue year, article title, contributor names, date of publication, and keywords. Because a journal publishes many different issues and articles and there are often different users creating this metadata, there are many opportunities for mistakes. Additionally, **every academic discipline has its own culture of publishing**, replete with specific styles, habits, patterns, and preferences. These often make their way (sometimes inappropriately) into metadata. This chapter details best practices for issue and article metadata and how to avoid common errors.
+Los metadatos son parte de cada artículo y número que publiques e incluye cosas como el volumen, año de publicación, título de artículo, nombres de colaboradores, fecha de publicación y palabras clave. Debido a que una revista publica muchos números y artículos diferentes y a menudo hay usuarios diferentes que crean estos metadatos, hay muchas oportunidades de cometer errores. Además, **cada disciplina académica tiene su propia cultura de publicación**, repleta de estilos específicos, hábitos, patrones y preferencias. Estos a menudo se transfieren (a veces inapropiadamente) a los metadatos. Este capítulo detalla las mejores prácticas para los metadatos de números y  artículos  y cómo evitar errores comunes.
 
-## Issue-level Metadata
+## Metadatos del Número
 
-OJS has the following fields for issue-level metadata:
+OJS tiene los siguientes campos para metadatos a nivel de número:
 
-* Date Published
-* Identification
-  * Volume
-  * Number
-  * Year
-  * Title
-* Description
+* Fecha de publicación
+* Identificación:
+  * Volúmen
+  * Número
+  * Año
+  * Título
+* Descripción:
 
-These are all enabled by default at the issue-level and in the **Archives** listing that shows all published issues. But it is possible to select which of these metadata fields display on an issue-by-issue basis.
+Todos están habilitados de forma predeterminada en los números y en el listado de **Archivos** que muestra todos los números publicados, pero es posible seleccionar cuál de estos campos de metadatos se muestra en cada número.
 
-To find your issue-level settings:
+Para encontrar la configuración de los números:
 
-1. Go to **Issues** on the dashboard sidebar.
-2. Click **Future Issues / Back Issues** depending on which you're editing.
-3. Click **the toggle arrow** next to the issue you want to edit.
-4. Click **Edit** on the expanded menu below the issue.
-5. Click the **Issue Data tab** on the top menu.
+1. Ir a **Números** en la barra lateral del panel.
+2. Hacer clic en **Próximos números / números anteriores ** dependiendo de qué se está editando.
+3. Hacer clic en **la flecha** junto al número que desea editar.
+4. Hacer clic en **Editar** en el menú expandido debajo del número.
+5. Hacer clic en la pestaña **Datos del número** en el menú superior.
 
-You will see some metadata fields here and, below them, a checkbox next to volume, number, year, and title. These checkboxes determine whether or not the entered metadata will display on the site view. However, it is worth noting that the metadata within these fields will be available via OAI or metadata export regardless of display choice, so your issue metadata must still be accurate.
+Se mostrarán algunos campos de metadatos y, debajo de ellos, una casilla de verificación junto al volumen, número, año y título. Estas casillas determinan si los metadatos ingresados se mostrarán o no en la vista del sitio. Sin embargo, vale la pena señalar que los metadatos dentro de estos campos estarán disponibles a través de OAI o exportación de metadatos independientemente de la opción de visualización, por lo que los metadatos del número deben ser exactos.
 
-### Issue Title
+### Título del número
 
 The intention for the Issue Title field in OJS is as a "special issue title" or as something aside from existing volume, number and year metadata. Easily, the most common metadata problem with issue metadata is a misunderstanding about the purpose of the "issue-title" field. Users sometimes turn off the display for the volume, number, and year fields in order to write out the issue information as a single string. For example, instead of "**Vol. 56 No. 2 (2020)**" (the OJS default rendering), they'll write in something like "**Volume 56, Number II, Spring 2020**". Users do this sort of write-in title for all kinds of reasons, for example:
 
