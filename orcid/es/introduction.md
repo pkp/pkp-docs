@@ -25,16 +25,16 @@ Al integrar ORCID con el OJS/OPS, estarás apoyando las mejores prácticas de pu
 
 * Permitir a los autores recopilar sus publicaciones en un lugar fiable
 * Distinguir autores de otros con un nombre similar, y mantener un registro actualizado independientemente de los cambios en el nombre o afiliación
-* Demonstrating a commitment to transparency and credibility by accurately attributing authors to their published works
-* Supporting the collection of accurate article metadata, including author information, by sharing publication details with CrossRef
+* Demostrar un compromiso con la transparencia y la credibilidad, al atribuir con precisión los autores con sus obras publicadas
+* Apoyar la recopilación de metadatos precisos del artículo, incluyendo la información del autor, al compartir los detalles de la publicación con CrossRef
 
-## Public vs Member API
+## La API pública y la API de miembros
 
-ORCID provides two different API endpoints for the ORCID Public API and the ORCID Member API.
+ORCID proporciona dos puntos finales diferentes para la API pública ORCID y la API de miembro ORCID.
 
-The **Public API** is free and available to anyone. It allows for ORCID iD authentication and reading public data from ORCID records. It allows the journal to have contributors' ORCID iDs authenticated and displayed on article/preprint pages. Its main difference from the Member API is that it will not automatically send pulication details to a contributor’s ORCID record upon publication.
+La **API pública** es gratuita y está disponible para cualquiera. Permite la autenticación del perfil ORCID y la lectura de datos públicos de registros ORCID. Además, permite que la revista tenga los perfiles ORCID de los colaboradores autenticados y mostrados en páginas de artículo y/o preimpresión. Su principal diferencia con la API de miembro es que no enviará automáticamente los detalles de la pulicación al registro ORCID de un colaborador durante su publicación.
 
-The **Member API** requires ORCID institutional membership. In addition to the functionalities of the Public API, the Member API allows for reading “trusted-parties” data from ORCID records, as well as automatically adding/updating metadata on ORCID records.
+Por otro lado, la **API de miembro** requiere la membresía institucional ORCID. In addition to the functionalities of the Public API, the Member API allows for reading “trusted-parties” data from ORCID records, as well as automatically adding/updating metadata on ORCID records.
 
 If your journal is affiliated with an institution, contact the institution's library to ask about ORCID membership and API credentials. You can also consult the ORCID member directory to see if your organization is already an [ORCID member](https://orcid.org/members), or review [ORCID’s membership information](https://orcid.org/about/membership) if your organization is interested in becoming an ORCID member. You can also contact ORCID directly at support@orcid.org.
 
