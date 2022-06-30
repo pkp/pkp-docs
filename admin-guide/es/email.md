@@ -68,44 +68,44 @@ En Windows, PHP necesita ser configurado para enviar correo electrónico a trav�
 
 En otras plataformas como Linux y Mac OS X, PHP enviará correo usando el cliente local de sendmail, así que un MTA local como Sendmail o Postfix debe estar ejecutándose y configurado para permitir el correo saliente.
 
-See [https://www.php.net/manual/en/function.mail.php](https://www.php.net/manual/en/function.mail.php) for more details on configuring PHP's mail functionality.
+Ver [https://www.php.net/manual/en/function.mail.php](https://www.php.net/manual/en/function.mail.php) para más detalles sobre la configuración de la funcionalidad de correo de PHP.
 
-Our software can also be configured to use an SMTP server as specified in `config.inc.php`, either with or without authentication.
+Nuestro software también puede configurarse para usar un servidor SMTP como se especifica en `config.inc.php`, ya sea con o sin autenticación.
 
-## Setting a Bounce Address
+## Configurar una dirección de rebote
 
-To control the address to which a bounced email will be sent, you need to set the envelope sender address. Enable the `allow_envelope_sender` option in the `[email]` section of the configuration file; when this option is enabled, a "Bounce Address" field appears in the Email section under Setup.
+Para controlar la dirección a la que se enviará un correo electrónico rebotado, usted necesita establecer la dirección del remitente de correo. Habilitar la opción `allow_envelope_sender` en la sección `[email]` del archivo de configuración; cuando esta opción está activada, un campo "Dirección de Rebote" aparece en la sección de Correo electrónico debajo de Configuración.
 
-Note that this option may require changes to the server's mail server configuration so that the user the web server runs as \(e.g. "www-data"\) is trusted by the sendmail program; otherwise an "X-Warning" header will be added to outgoing messages. Consult your mail server's documentation if outgoing mails include such a header.
+Tenga en cuenta que esta opción puede requerir cambios en la configuración del servidor de correo ejecutandose en el servidor que aloja la plataforma, para que el usuario del servidor web se ejecute como \(e.. "www-data"\) y este sea un usuario confiable para el programa sendmail; de lo contrario, se añadirá una cabecera "X-Warning" a los mensajes salientes. Consulte la documentación de su servidor de correo si los correos salientes incluyen dicho encabezado.
 
-For example, Sendmail keeps a list of trusted users in `/etc/mail/trusted-users`; other mail systems use similar files.
+Por ejemplo, Sendmail mantiene una lista de usuarios de confianza en `/etc/mail/trusted-users`; otros sistemas de correo utilizan archivos similares.
 
-The command-line option used to set the envelope sender is `-f`.
+La opción de línea de comandos utilizada para establecer el remitente de correo es `-f`.
 
-## Email and Locale
+## Correos y Traducciones
 
-Email templates are installed directly in the database when a journal, press, or conference is created. If you need to edit [a locale file](https://github.com/pkp/ojs/blob/stable-3_1_2/locale/en_US/emailTemplates.xml), any change in your template file will not be reflected until you reload all templates in the system.
+Las plantillas de correo electrónico se instalan directamente en la base de datos cuando se crea una nueva revista, libro o conferencia. Si usted necesita editar [un archivo de traducción](https://github.com/pkp/ojs/blob/stable-3_1_2/locale/en_US/emailTemplates.xml), cualquier cambio en su archivo de plantilla no se reflejará hasta que vuelva a cargar todas las plantillas del sistema.
 
-Reloading templates will override any modifications that you may have made. To keep those modifications, you will need to save these modification locally and re-add them to templates as required.
+La recarga de plantillas anulará cualquier modificación que haya realizado. Para mantener esas modificaciones, necesitará guardar estas modificaciones localmente y volver a añadirlas a las plantillas según sea necesario.
 
-## Primary and Technical Contacts
+## Contactos Principales y Técnicos
 
-All PKP applications require that primary and technical contacts are configured under Setup for proper daily operations. This is required for every journal, press, or conference in the system.
+Todas las aplicaciones de PKP requieren que los contactos primarios y técnicos estén configurados en Configuración para operaciones rutinarias adecuadas. Esto es necesario para cada revista, libro o conferencia en el sistema.
 
-- In OJS 2.x, this can be done under _Setup Step 1_.
-- In OCS 2.x, this can be done under _Website Management Step 1_.
-- In OJS/OMP 3.x, this can be done under _Settings &gt; Journal &gt; Contact_.
+- En OJS 2.x, esto se puede realizar en _Paso 1 en el menú de Configuración_.
+- En OCS 2.x, esto se puede realizar en _Paso 1 en el menú de Configuración_.
+- En OJS/OMP 3.x, esto se puede hacer en _Ajustes &gt; Revista &gt; Contacto_.
 
-## Email Validation for New Users
+## Validacion de correo para nuevos usuarios
 
-OJS provides a self-registration form to all users which can be disabled or re-enabled under _Admin Menu > User & Roles > Site Access Options > User Registration_
+OJS proporciona un formulario de auto-registro para todos los usuarios que puede ser deshabilitado o reactivado en _Menú del Administrador > Usuarios/as & roles > Opciones de acceso a sitio > Registro de usuarios/as_
 
-Once this is enabled, every user is able to register and create an account in the Journal with a role as reader, author, and/or reviewer; however, it is not unusual for users to create spam accounts that will clutter the list of legitimate users and increase the workload for Journal Editors to verify these accounts and clean them up manually.
+Una vez activado, cada usuario puede registrarse y crear una cuenta en la Revista con un rol como lector, autor y/o revisor; sin embargo esto no impide que los usuarios creen cuentas de correo spam que llenen la lista de usuarios legítimos y aumenten la carga de trabajo para los editores de la revista, para evitar esto, los gestores de la revista deben revisar estas cuentas y limpiarlas manualmente.
 
-Mass spam account creation can be reduced with two settings in `config.inc.php`:
+La creación masiva de cuentas de spam se puede reducir con dos ajustes en el archivo de configuración: `config.inc.php`:
 
 ```
-; If enabled, email addresses must be validated before login is possible.
+; Si está habilitado, las direcciones de correo electrónico deben ser validadas antes de que el inicio de sesión sea posible.
 require_validation = Off
 
 ; Maximum number of days before an unvalidated account expires and is deleted
