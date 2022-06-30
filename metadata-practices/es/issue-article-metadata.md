@@ -32,49 +32,49 @@ Se mostrarán algunos campos de metadatos y, debajo de ellos, una casilla de ver
 
 ### Título del número
 
-El campo Título del número en OJS puede referirse al "título de un númeri especial" o a algo aparte del volumen existente, metadatos de número y año. Fácilmente, el error más común con los metadatos del número es un malentendido sobre el propósito del campo "Título del número". Users sometimes turn off the display for the volume, number, and year fields in order to write out the issue information as a single string. For example, instead of "**Vol. 56 No. 2 (2020)**" (the OJS default rendering), they'll write in something like "**Volume 56, Number II, Spring 2020**". Users do this sort of write-in title for all kinds of reasons, for example:
+El campo Título del número en OJS puede referirse al "título de un númeri especial" o a algo aparte del volumen existente, metadatos de número y año. Fácilmente, el error más común con los metadatos del número es un malentendido sobre el propósito del campo "Título del número". Los usuarios a veces deshabilitan la opción de mostrar el volúmen, número y año con el fin de escribir la información del asunto como una sola cadena. Por ejemplo, en lugar de "**Vol. 56 No. 2 (2020)**" (la representación predeterminada de OJS), escribirán algo como "**Volumen 56, Número II, Primavera 2020**". Los usuarios hacen este tipo de título de escritura por varios motivos, por ejemplo:
 
-* Users may want to display their volume and issue numbers in Roman numerals (or whatever unique characters they used in print)
-* Users want to use “Volume” and “Number” instead of “Vol.” and “No.” (the OJS standard display)
+* Los usuarios pueden querer mostrar su volúmen y número en números romanos (o cualquier carácter único que usaban originalmente en la versión impresa)
+* Los usuarios quieren usar “Volúmen” y “Número” en lugar de “Vol” y “No.” (la representación predeterminada en OJS)
 
-The downside is that in the harvested/indexed metadata, this article will now show the following: **Vol. 56 No. 2 (2020): Volume 56, Number II, Spring 2020**.
+El inconveniente es que en los metadatos cosechados o indexados, este artículo ahora se mostrará de la siguiente manera: **Vol. 56 No. 2 (2020): Volumen 56, Número II, Primavera 2020**.
 
-The one exception to this is season (ex: Spring, Fall), since there is no specific field for this within OJS currently. If you need to write in your seasonal metadata at the moment, the best way to do so is to enable display for all issue metadata fields and simply write your seasonal metadata in the "title" field by itself. Ultimately, this may result in a less than ideal display (**Vol. 56 No. 2 (2020): Spring**), but it will at least ensure you are not duplicating your issue-level metadata.
+La única excepción es la temporada (ej: Spring, Fall), ya que no hay un campo específico para esto en el OJS actualmente. Si se necesita escribir metadatos estacionales,  la mejor manera de hacerlo es habilitar la visualización para todos los campos  escribir los metadatos estacionales en el campo "título". Esto puede resultar en una visualizacióln no ideal  (**Vol. 56 No. 2 (2020): Primavera**), pero al menos se asegurará que no se dupliquen los metadatos del número.
 
-Additionally, some of these issues could be solved by editing OJS templates, but many of OJS hosting providers (in particular, multi-site OJS instances hosted at universities) are likely to shy away from template edits to solve unique display issues.
+Adicionalmente, algunos de estos problemas podrían resolverse editando plantillas OJS, pero muchos de los proveedores de hosting de OJS (en particular, las instancias OJS multisitio alojadas en las universidades) probablemente se alejen de las ediciones de plantillas para resolver problemas de visualización.
 
-### Description
+### Descripción
 
-Similarly, it's not terribly uncommon for users to put custom content in the "issue description" field. This is less problematic, but generally discouraged.
+Del mismo modo, es muy común que los usuarios pongan contenido personalizado en el campo "Descripción del número". Esto es menos problemático, pero generalmente no es lo recomendado.
 
-The description field displays above the issue’s table of contents. It may seem a convenient way to highlight certain points, such as an editorial or an announcement about an upcoming issue. However, indexing or harvesting organizations may end up pulling unintended content from your issue metadata. Issue descriptions should be used to describe the current issue. For example, a special issue festschrift with a thematic title might include the description “Essays in honour of…”
+El campo de descripción se muestra encima de la tabla de contenido del número. Puede parecer una manera conveniente de destacar ciertos puntos, como un editorial o un anuncio sobre un número próximo. Sin embargo, las organizaciones de indexación o cosecha pueden acabar sacando contenido no deseado de los metadatos del número. Las descripciones de los números deben utilizarse para describir el número actual. For example, a special issue festschrift with a thematic title might include the description “Essays in honour of…”
 
-### Dos and Don'ts
+### ¿Qué hacer y qué no hacer?
 
-* Do
-  * Fill out volume, number, and year metadata.
-  * Use Issue-Title specifically for special issue titles.
-* Don't
-  * Re-write issue metadata in the Issue-Title field for display purposes.
-  * Put content that doesn’t describe the issue in the "issue description" field.
+* ¿Qué hacer?
+  * Llena los metadatos de volúmen, número y año.
+  * Utilice el título del número específicamente para títulos especiales.
+* ¿Qué no hacer?
+  * Re-escribir metadatos en el campo "Título del número" por propósitos de visualización.
+  * Poner contenido que no describa el número en el campo "Descripción".
 
-## Article-level Metadata
+## Metadatos del artículo
 
-Article-level metadata is created by authors when they make a submission and further enhanced by editors through the publication workflow. It is stored and can be edited in the **Publication** tab for each submission.
+Los metadatos del artículo son creados por los autores cuando hacen un envío y mejorados por los editores a través del flujo de publicación.  Se almacenan y pueden editarse en la pestaña **Publicación** de cada envío.
 
 ![The publication tab in the OJS submission interface.](./assets/metadata-publication-tab.png)
 
-Article-level metadata in OJS is the most likely to be problematic in one way or another for a lot of reasons. The two most important are: 1) because you have more articles than you do issues; and, 2) because a huge portion of the metadata is actually **dependent on authors**, over whom you have varying control and who have varying degrees of technical literacy.
+Los metadatos del artículo en OJS son los más propensos a ser problemáticos por muchas razones. Los dos más importantes son: 1) porque existen más artículos que números y, 2) porque una gran porción de los metadatos en realidad es **dependiente de los autores**, sobre quienes no es posible tener control total y tienen diferentes grados de alfabetización técnica.
 
-While you can bake a lot of requirements into your submission guidelines, we know that it doesn't mean all authors will follow those guidelines. Much of this work is incumbent on editors or other journal staff who are often volunteers or under-resourced.
+Aunque puede capturar muchos requisitos en sus lineamientos de envío, sabemos que no significa que todos los autores vayan a seguirlos. Gran parte de este trabajo es responsabilidad de los editores u otro personal de revistas, que a menudo son voluntarios o carecen de recursos.
 
-This section will aim to break down the most essential metadata for articles and some general rules that will help.
+Esta sección pretende desglosar los metadatos esenciales para los artículos y algunas reglas generales que ayudarán.
 
-### Ground Rules
+### Reglas
 
-**Consistency is key.** You may have some "house rules" or stylistic guidelines for your journal and the way that metadata is recorded. For example, it's not uncommon in the sciences to record names as initials and a last name instead of full names. Ideally, you'd record all metadata in full, but the most important thing is that your metadata should be consistent across your publication. If you have published many works from Robert Jones, you should make sure they all say R. Jones. They shouldn't rotate between R. Jones, R.B. Jones, Bob Jones, Rob Jones, and Robert B. Jones.
+**La consistencia es la clave.** Es posible tener algunas "reglas" o guías de estilo para la revista y la forma en que se registran los metadatos. Por ejemplo, no es raro en las ciencias registrar nombres como iniciales y como apellidos en lugar de nombres completos. Idealmente, se llenarán todos los metadatos, pero lo más importante es que estos sean consistentes a lo largo de la publicación. Si se han publicado varias obras de Robert Jones, es necesario asegurarse que todas digan R. Jones. No deberían rotar entre R. Jones, R.B. Jones, Bob Jones, Rob Jones y Robert B. Jones.
 
-This is not just true for names. For example, titles should follow consistent capitalization conventions, though these may vary according to language. Try to keep your metadata "styles" as consistent as possible and in accordance with whatever citation style you use. We'll address some more specific examples further along.
+Esto no sólo aplica para los nombres.  Por ejemplo, los títulos deben seguir convenciones de capitalización consistentes, aunque éstas pueden variar según el idioma. Es importante mantener los "estilos" de los metadatos tan consistentes como sea posible y de acuerdo con el estilo de citación que se utilice.
 
 **Metadata should be the same everywhere.** Anywhere a piece of metadata appears, it should be the same as every other place that it is recorded. For example, the title of an article should be exactly the same in its published PDF galley and in the metadata recorded in OJS. (Keep in mind that typically these were provided by the author at the time of submission. The title may have changed during the peer review process.) Depending on how you publish, that title might also be in a PDF of an issue’s table of contents. ***No matter how many places the title appears, it should always be the same to avoid confusion.*** The same applies to author names and affiliations. (This rule applies to Journal-Level and Issue-Level metadata as well, but as previously mentioned, the plethora of Article-Level metadata makes this a particular challenge.)
 
