@@ -1,19 +1,19 @@
 ---
-title: Acerca de la Guía de plugins ORCID para OJS y OPS
+title: Sobre la Guía de plugins ORCID para OJS y OPS
 ---
 
-# About the ORCID Plugin
+# Acerca del plugin ORCID
 
-[ORCID](https://orcid.org/) (Open Researcher and Contributor Identifier) is a persistent digital identifier that distinguishes individual researchers and supports automated links between researchers and their professional activities. For an overview of ORCID, please see [this introductory ORCID video](https://vimeo.com/97150912).
+[ORCID](https://orcid.org/) (Open Researcher and Contributor Identifier) es un identificador digital persistente que permite distinguir a los investigadores individualmente, así como enlazar de manera automatizada sus investigaciones y actividades profesionales. Para una visión general de ORCID, por favor vea [este vídeo introductorio ORCID](https://vimeo.com/97150912).
 
-PKP partners with ORCID to enable the collection and display of authenticated ORCID iDs for contributors to article and preprints published with Open Journal Systems (OJS) and Open Preprint Systems (OPS) via the ORCID Profile Plugin.
+PKP se asocia con ORCID para permitir la colección y visualización de los ORCID IDs autenticados de los colaboradores de artículos preimpresos y publicados con Open Journal Systems (OJS) y Open Preprint Systems (OPS) a través del ORCID Profile Plugin.
 
-## What does the ORCID plugin do?
+## ¿Qué hace el plugin ORCID?
 
-The ORCID Profile Plugin for OJS/OPS versions 3.1.2 and above allows an OJS journal and an OPS preprint server to:
+El complemento de perfil ORCID para OJS/OPS, en sus versiones 3.1.2 y anteriores, permite a una revista OJS y a una preimpresión OPS:
 
-* Collect and authenticate a contributor’s ORCID iD
-* Automatically send an email to contributors requesting their ORCID iD authentication
+* Recopilar y autenticar el perfil ORCID de un colaborador
+* Enviar de manera automática un correo electrónico a sus colaboradores solicitando la autenticación de su perfil ORCID
 * Display a contributor’s authenticated ORCID iD on the journal article or preprint page, which will link to the contributor’s ORCID record
 * Additionally for the Member API only - Automatically send publication details to a contributor’s ORCID record once their work has been published in OJS/OPS
 
