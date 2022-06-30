@@ -14,17 +14,17 @@ El complemento de perfil ORCID para OJS/OPS, en sus versiones 3.1.2 y anteriores
 
 * Recopilar y autenticar el perfil ORCID de un colaborador
 * Enviar de manera automática un correo electrónico a sus colaboradores solicitando la autenticación de su perfil ORCID
-* Display a contributor’s authenticated ORCID iD on the journal article or preprint page, which will link to the contributor’s ORCID record
-* Additionally for the Member API only - Automatically send publication details to a contributor’s ORCID record once their work has been published in OJS/OPS
+* Mostrar el perfil ORCID autenticado de un colaborador en el artículo de la revista o página de preimpresión, enlazado con su registro ORCID
+* Y de manera adicional, sólo para los miembros de la API enviar automáticamente los detalles de la publicación al registro ORCID del colaborador; una vez que, su trabajo se haya publicado en el OJS/OPS
 
-For more details on each of these functions, see the [Using the ORCID plugin](./using-plugin.md) chapter.
+Para más detallessobre cada una de estas funciones, puede consultar el capítulo [Utilizando el plugin ORCID](./using-plugin.md).
 
-## Why should you use the ORCID plugin?
+## ¿Por qué debería usar el plugin ORCID?
 
-By integrating ORCID with OJS/OPS, you will be able to support publishing best practices by:
+Al integrar ORCID con el OJS/OPS, estarás apoyando las mejores prácticas de publicación porque podrás:
 
-* Allowing authors to collect their published work in one reliable place
-* Distinguishing authors from others with a similar name, and keeping an up-to-date record regardless of changes in name or affiliation
+* Permitir a los autores recopilar sus publicaciones en un lugar fiable
+* Distinguir autores de otros con un nombre similar, y mantener un registro actualizado independientemente de los cambios en el nombre o afiliación
 * Demonstrating a commitment to transparency and credibility by accurately attributing authors to their published works
 * Supporting the collection of accurate article metadata, including author information, by sharing publication details with CrossRef
 
