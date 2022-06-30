@@ -26,7 +26,7 @@ Para proceder con esta guía deberás contar con experiencia en el uso de herram
 - Credenciales de gestión de servidor, incluídas las credenciales de la base de datos.
 - Conocimiento del entorno LAMP stack de tu servidor. (Si estás trabajando en otro entorno ten en cuenta que deberás adaptar esta guía a tus necesidades)
 - Acceso a la terminal del servidor (SSH).
-- Un paquete publicado de OJS, identificado previamente, al que vayas a actualizar (paso 5 del tutorial).
+- Una versión de actualización publicada de OJS, identificada previamente, a la que vayas a actualizar (paso 5 del tutorial).
 
 ### Preparando la actualización...
 
@@ -34,11 +34,11 @@ Before starting your upgrade, you can review `docs/release-notes` and the [relea
 
 Tenga en cuenta que una actualización puede tomar de unos minutos hasta varias horas dependiendo del tamaño de su sitio.
 
-### A Note on Versions
+### Una nota sobre las versiones:
 
-Todas las aplicaciones PKP utilizan una variante de [Versionado semántico](https://semver.org) descrito como `major.minor.revision-build`. Each point of the version number describes the kind of changes you can expect.
+Todos los desarrollos de PKP utilizan una variante de [Versionado semántico](https://semver.org) descrito como `major.minor.revision-build`. Cada punto del número de versión describe el tipo de cambios que puedes esperar.
 
-| Type     | Example   | Description                                                                                                 |
+| Tipo     | Ejemplo   | Descripción:                                                                                                |
 | -------- | --------- | ----------------------------------------------------------------------------------------------------------- |
 | major    | `3.x.x-x` | Comprehensive breaking changes that may effect plugins, server configuration and all parts of the software. |
 | minor    | `3.3.x-x` | Breaking changes that may effect plugins and server configuration.                                          |
