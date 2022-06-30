@@ -1,5 +1,5 @@
 ---
-title: About the ORCID Plugin Guide for OJS and OPS
+title: Acerca de la Guía de plugins ORCID para OJS y OPS
 ---
 
 # About the ORCID Plugin
