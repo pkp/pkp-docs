@@ -38,36 +38,40 @@ Tenga en cuenta que una actualización puede tomar de unos minutos hasta varias 
 
 Todos los desarrollos de PKP utilizan una variante de [Versionado semántico](https://semver.org) descrito como `major.minor.revision-build`. Cada punto del número de versión describe el tipo de cambios que puedes esperar.
 
-| Tipo     | Ejemplo   | Descripción:                                                                                                |
-| -------- | --------- | ----------------------------------------------------------------------------------------------------------- |
-| major    | `3.x.x-x` | Comprehensive breaking changes that may effect plugins, server configuration and all parts of the software. |
-| minor    | `3.3.x-x` | Breaking changes that may effect plugins and server configuration.                                          |
-| revision | `3.3.3-x` | New features may be added but breaking changes are kept to a minimum.                                       |
-| build    | `3.3.3-3` | No breaking changes or database migrations.                                                                 |
+| Tipo        | Ejemplo   | Descripción:                                                                                                                                                                                     |
+| ----------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| major       | `3.x.x-x` | Cambios estructurales disrruptivos que modifican por completo el sistema y pueden afectar el funcionamiento de los *plugins*, la configuración de los servidores y todas las partes del sistema. |
+| menor       | `3.3.x-x` | Cambios estructurales que pueden afectar a los *plugins* y a la configuración del servidor                                                                                                       |
+| revisión    | `3.3.3-x` | Se añaden nuevas caractarísticas y/o funciones, pero los cambios estructurales se limitan al mínimo.                                                                                             |
+| compilación | `3.3.3-3` | No hay cambios estructurales ni migraciones de bases de datos.                                                                                                                                   |
 
-In order to understand the upgrade process, you should first determine the size of the upgrade "jump". A jump from version `3.3.0-6` to `3.3.0-7` can likely be done with minimal down time. However, a jump from version `2.4` to `3.2` will be a long, complex process with a higher risk of introducing problems.
+Al paso entre una versión y otra se lo denomina "Salto"". Para poder comprender el proceso de actualización, primero deberás determinar el tamaño del "Salto" que implica la actualización. Un "Salto" de la versión `3.3.0-6` a la versión`3.3.0-7` probablemente se puede hacer con un tiempo mínimo de inactividad. Sin embargo, un "Salto" de la versión `2.4` a `3.2` será un proceso largo y complejo con un mayor riesgo de introducir problemas.
 
-You should always perform upgrades in a test environment first, even when upgrading from one build to another.
+Es recomendable que realices las actualizaciones en un entorno de prueba primero, incluso cuando se actualiza de una compilación a otra.
 
-### Upgrading from 2.x
+### Actualización desde 2.x
 
-It is not always possible to upgrade from 2.x to any version of 3.x. When performing upgrades from a 2.x version, you should first upgrade to in-between versions. The table below describes the necessary steps.
+No siempre es posible actualizar de una versión 2.x a cualquier versión de 3.x. Al realizar actualizaciones desde una versión 2.x, primero debería actualizar a versiones intermedias. La siguiente tabla describe los pasos necesarios.
 
-| From         | To          | Description                                                                        |
-| ------------ | ----------- | ---------------------------------------------------------------------------------- |
-| `< 2.4.8` | `2.4.8-x`   | Before upgrading to 3.x, make sure you are upgraded to the latest `2.4.8-x` build. |
-| `2.4.8-x`    | `3.2.1-x`   | You can not upgrade to 3.3.x or later from 2.x                                     |
-| `3.2.1-x`    | `3.3 >=` | Upgrade from `3.2.1-x` to any version 3.3 or later.                                |
+| De           | a            | Descripción                                                                                        |
+| ------------ | ------------ | -------------------------------------------------------------------------------------------------- |
+| `< 2.4.8` | `2.4.8-x`    | Antes de actualizar a 3.x, asegúrese de que ha sido actualizado a la última compilación `2.4.8-x`. |
+| `2.4.8-x
+`   | `3.2.1-x
+`   | No puedes actualizar a 3.3.x o posterior desde 2.x                                                 |
+| `3.2.1-x
+`   | `3.3 >=
+` | Actualizar de `3.2.1-x` a cualquier versión 3.3 o posterior.                                       |
 
-## Upgrade Tutorial
+## Tutorial de actualización
 
-The following tutorial provides a recommended step-by-step process to safely upgrade OJS. However, each installation is different and your server environment might differ substantially. In all cases, you should review and understand the commands before executing them.
+En el siguiente tutorial te proporcionaremos el proceso recomendado paso a paso para que realices la actualización de OJS de forma segura. Ten en cuenta que cada instalación es diferente y tu entorno de servidor puede diferir sustancialmente. En todos los casos, deberas revisar y comprender los comandos de actualización antes de ejecutarlos.
 
-During the tutorial, you will see commands for [Debian](https://www.debian.org/) or [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) Linux systems. You should only run the command appropriate to your server.
+Durante el tutorial veremos comandos para los sistemas  [Debian](https://www.debian.org/) o [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) de Linux. **Sólo deberás ejecutar el comando apropiado para tu servidor **
 
-### 1. Set Environment Variables
+### 1. Conjunto de variables de Entorno
 
-The tutorial below uses the following variables to simplify the terminal commands.
+En este tutorial utilizaremos las siguientes variables para simplificar los comandos de la terminal.
 
 | VARIABLE          | Default             | Description                      |
 | ----------------- | ------------------- | -------------------------------- |
