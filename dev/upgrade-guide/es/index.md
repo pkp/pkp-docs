@@ -6,37 +6,37 @@ description: Cómo actualizar Open Journal System (OJS) y otros sistemas desarro
 
 # ¿Cómo actualizar?
 
-> ¿Quieres saber cuándo se publican las nuevas versiones y qué hay de nuevo? Lea el foro de auncios [revisar liga] 
+> ¿Quieres saber cuándo se publican las nuevas versiones y qué hay de nuevo? Lea el foro de anuncios [](https://forum.pkp.sfu.ca/c/announcements/10). 
 > 
 > {:.notice}
 
 Esta guía te ayudará a actualizar Open Journal Systems (OJS). En ella encontrarás el conocimiento y las herramientas que necesitarás para actualizar tu sistema, asimismo contiene un tutorial paso a paso que podrás seguir.
 
-Las instrucciones debajo decriben cómo actualizar OJS cuando el mismo esté instalado en un entorno LAMP stack (Linux, Apache, MySQL, PHP). However, these steps can be adapted to upgrade other PKP software (OMP, OPS) as well as perform upgrades in different server environments.
+Las instrucciones debajo decriben cómo actualizar OJS cuando el mismo esté instalado en un entorno LAMP stack (Linux, Apache, MySQL, PHP). De igual modo, estos pasos se podrán adaptar tanto para actualizar otros sistemas desarrollados por PKP (OMP, OPS) como para realizar actualizaciones de instalaciones en otros entornos de servidor.
 
 ## Required Knowledge and Tools
 
-> **Do not proceed** if you do not have experience with the items listed below. A mistake during upgrade can lead to unrecoverable errors. 
+> **¡ATENCIÓN!** revisa la lista debajo y comprueba si cuentas con los conocimientos y herramientas necesarios para avanzar. Un mal procedimiento durante la actualización puede generar errores irrecuperables. 
 > 
 > {:.warning}
 
-In order to use this guide, you will need experience with basic system administration tools, as well as an understanding of the tech stack in your server configuration. You should have:
+Para proceder con esta guía deberás contar con experiencia en el uso de herramientas de administración de sistemas y comprender la lógica del entorno LAMP stack en la configuración de tu servidor, a continuación te brindamos una lista para que compruebes si cuentas con lo necesario para continuar:
 
-- Basic GNU/Linux administration skills
-- Server credentials, including database credentials
-- Knowledge of your server stack (this guide assumes a LAMP stack)
-- The ability to access your server's terminal (SSH)
-- An identified OJS release package to upgrade to (downloaded in step 5)
+- Competencias básicas de administrador de GNU/Linux
+- Credenciales de gestión de servidor, incluídas las credenciales de la base de datos.
+- Conocimiento del entorno LAMP stack de tu servidor. (Si estás trabajando en otro entorno ten en cuenta que deberás adaptar esta guía a tus necesidades)
+- Acceso a la terminal del servidor (SSH).
+- Un paquete publicado de OJS, identificado previamente, al que vayas a actualizar (paso 5 del tutorial).
 
-### Preparing to Upgrade
+### Preparando la actualización...
 
-Before starting your upgrade, you can review `docs/release-notes` and the [release notebook](/dev/release-notebooks/) for your upgrade version to learn about important changes introduced in each version. The `config.TEMPLATE.inc.php` includes a description for most configuration parameters.
+Before starting your upgrade, you can review `docs/release-notes` and the [release notebook](/dev/release-notebooks/) for your upgrade version to learn about important changes introduced in each version. El `config.TEMPLATE.inc.php` incluye una descripción para la mayoría de los parámetros de configuración.
 
-Note that an upgrade may take from a few minutes up to several hours depending on the size of your site.
+Tenga en cuenta que una actualización puede tomar de unos minutos hasta varias horas dependiendo del tamaño de su sitio.
 
 ### A Note on Versions
 
-All PKP applications use a variant of [Semantic Versioning](https://semver.org) described as `major.minor.revision-build`. Each point of the version number describes the kind of changes you can expect.
+Todas las aplicaciones PKP utilizan una variante de [Versionado semántico](https://semver.org) descrito como `major.minor.revision-build`. Each point of the version number describes the kind of changes you can expect.
 
 | Type     | Example   | Description                                                                                                 |
 | -------- | --------- | ----------------------------------------------------------------------------------------------------------- |
