@@ -1,5 +1,5 @@
 ---
-title: Metadatos de números y artículos - Mejores prácticas en los metadatos de la revista
+title: Metadatos de números y artículos - Buenas prácticas en los metadatos de la revista
 ---
 
 # Metadatos de números y artículos
@@ -76,37 +76,39 @@ Esta sección pretende desglosar los metadatos esenciales para los artículos y 
 
 Esto no sólo aplica para los nombres.  Por ejemplo, los títulos deben seguir convenciones de capitalización consistentes, aunque éstas pueden variar según el idioma. Es importante mantener los "estilos" de los metadatos tan consistentes como sea posible y de acuerdo con el estilo de citación que se utilice.
 
-**Metadata should be the same everywhere.** Anywhere a piece of metadata appears, it should be the same as every other place that it is recorded. For example, the title of an article should be exactly the same in its published PDF galley and in the metadata recorded in OJS. (Keep in mind that typically these were provided by the author at the time of submission. The title may have changed during the peer review process.) Depending on how you publish, that title might also be in a PDF of an issue’s table of contents. ***No matter how many places the title appears, it should always be the same to avoid confusion.*** The same applies to author names and affiliations. (This rule applies to Journal-Level and Issue-Level metadata as well, but as previously mentioned, the plethora of Article-Level metadata makes this a particular challenge.)
+**Los metadatos deberían ser los mismos en todas partes.** En cualquier lugar donde aparezcan los metadatos, estos ser iguales que en cualquier otro lugar en el que estén registrados. Por ejemplo, el título de un artículo debe ser exactamente el mismo en la galerada PDF publicada y en los metadatos grabados en OJS. (Ten en cuenta que normalmente estos fueron proporcionados por el autor en el momento del envío. El título puede haber cambiado durante el proceso de revisión por pares.) Dependiendo de cómo se publique, ese título podría estar también en un PDF de la tabla de contenidos de un número. ***No importa en cuántos lugares aparezca el título, siempre debe ser el mismo para evitar confusión.*** Lo mismo aplica a los nombres de autor y las afiliaciones. (Esta regla se aplica también a los metadatos de la revista y del número, pero como ya se ha mencionado, la variedad de metadatos de un artículo hace que esto sea un reto en particular.)
 
-**Try to avoid directly pasting text copied from Microsoft Word.** It's common practice by authors to copy and paste an abstract from, say, Microsoft Word or some other application with embedded formatting. A pasted chunk of text might have hidden line breaks that are problematic downstream for metadata use. As an example, we'll use this paragraph:
+**Evitar pegar directamente el texto copiado de Microsoft Word.** Es práctica común de los autores copiar y pegar un abstracto de, digamos, Microsoft Word o alguna otra aplicación con formato incrustado. Un fragmento pegado de texto podría tener saltos de línea ocultos que son problemáticos para el uso de metadatos. Como ejemplo, usaremos este párrafo:
 
-> "Additionally, it's common for an abstract to have been pasted in<br> by an author from, say, Microsoft Word or some other platform<br> with embedded formatting. A pasted chunk of text might have<br> hidden soft returns that are problematic downstream for<br> metadata use."
+> "Además, es común que un abstracto haya sido pegado en<br> por un autor de, Por ejemplo, Microsoft Word u otra plataforma<br> con formato incrustado. Un fragmento pegado de texto podría tener saltos de línea ocultos que son problemáticos para el uso de metadatos."
 
-In an XML export, this text would look like this:
+En una exportación XML, este texto se vería así:
 
 ```xml
-<abstract>Additionally, it's common for an abstract to have been pasted inby an author from, say, Microsoft Word or some other platformwith embedded formatting. A pasted chunk of text might havehidden soft returns that are problematic downstream formetadata use.</abstract>
+"Además, es común que un abstracto haya sido pegado en<br>
+  por un autor de, Por ejemplo, Microsoft Word u otra plataforma<br>
+  con formato incrustado. Un fragmento pegado de texto podría tener saltos de línea ocultos que son problemáticos para el uso de metadatos.
 ```
 
-As you can see, the words separated by line breaks have run together.
+Las palabras separadas por saltos de línea se han ejecutado juntos.
 
-There are a number of ways to clear formatting. In Windows you can first paste your text into Notepad to strip formatting. On a Mac you can paste without formatting by using Option+Command+Shift+V (you will never paste a different way again).
+Hay varias maneras de borrar el formato. En Windows puede pegar primero el texto en el Bloc de notas. En un Mac puedes pegar sin formatear usando Option+Command+Shift+V
 
-**Do not accessorize your metadata.** Name fields should only contain names. Titles should only contain titles. You may have a colleague who really wishes that DOIs were on the table of contents and decides to put them in subtitle fields. That will, for sure, put the DOIs on the table of contents, but it will also break all of your subtitle metadata because this is not where this information is supposed to go. It is always recommended to fill out metadata fields (no matter how little you might use them) with only what is asked.
+**No aplicar estilos en los metadatos.** Los campos de nombre solo deben contener nombres. Los títulos sólo deben contener títulos. Puede ser que haya un colega que desee que los DOI estén en la tabla de contenidos y decida colocarlos en los campos de subtítulos, esto, sin duda, pondrá los DOI en la tabla de contenidos, pero también romperá todos los metadatos de subtítulos porque no es ahí donde debe ir esta información. Siempre se recomienda rellenar los campos de metadatos (sin importar lo poco que se pueda usar) con sólo lo que se pide.
 
-**One language per field.** As we've addressed already in this document, if you have any multilingual metadata in your journal you should make sure that it lives in its own language-specific form. Check to make sure that, in the Languages settings, you've enabled all forms for submission-appropriate languages. Make sure to review author-entered metadata in all configured languages before publishing.
+**Un idioma por campo.** Como ya hemos abordado en este documento, si hay metadatos multilingües en la revista, es importante asegurarse de que cada uno vive en su propio idioma específico. Compruebe que en la configuración de Idiomas ha habilitado todos los formularios para los idiomas apropiados para el envío. Asegúrese de revisar los metadatos introducidos por el autor en todos los idiomas configurados antes de publicar.
 
-**All-caps titles/metadata are stylistic and can be implemented with a custom theme. You shouldn't yell metadata.** In some disciplines it is common, stylistically, to write article titles in all caps. This is both unnecessary and frustrating for everyone else who has to change this metadata in their reference lists in Zotero or publication records in ORCID or any other number of places. You can make text display in OJS however you want, such as in all caps, with a custom theme. See also the [PKP Theming Guide](/pkp-theming-guide/en/). (At the very least, if you are publishing your titles in all caps, do it consistently.)
+**Los títulos/metadatos en mayúsculas son estilísticos y pueden ser implementados con un tema personalizado. **No escribas metadatos enojados** En algunas disciplinas es común escribir títulos de artículos completamente en mayúsculas. Esto es innecesario y frustrante para todos los demás, que tienen que cambiar estos metadatos en sus listas de referencia en Zotero, en registros de publicación en ORCID o otros lugares Es posible lograr hacer que el texto se muestre en OJS con esos estilos, como todo en mayúsculas, con un tema personalizado. Vea también la [Guía de temas de PKP](/pkp-theming-guide/en/). (Como mínimo, si se está publicando con títulos completamente en mayúsculas, esto debe ser consistente.)</p>
 
-OJS **does not currently support italics or other HTML styling in titles**, although it is a common practice for journals that publish articles about a work (such as a work of literature) and wish to include the title of the work in italics in the title of the article.
+OJS **actualmente no soporta cursiva u otro estilo HTML en títulos**, aunque es una práctica común para las revistas que publican artículos sobre una obra (como una obra de literatura) y que desean incluir el título de la obra en cursiva en el título del artículo.
 
-Now that we’ve covered those ground rules, we can look at the individual elements of article-level metadata, which can be accessed by selecting a submission, clicking View **Submission** and then opening the **Publication** tab.
+Ahora que hemos cubierto esas reglas básicas, podemos ver los elementos individuales de los metadatos del artículo, a los que se puede acceder seleccionando un envío, haciendo clic en Ver **Envío** y luego abriendo la pestaña **Publicación**.
 
-### Title & Abstract
+### Título y resumen
 
-**Prefix:** A field for what librarians and developers refer to as "stop words". If an article title starts with "A" or "The," (or “Le,” “La,” “L’,” “Un” or “Une” in French) and you don't want an alphabetical list of the journal’s articles to show a long list of publications starting with "The" or "Le", put those words in the prefix field.
+**Prefijo:** Un campo para lo que los bibliotecarios y desarrolladores llaman "palabras vacías". Si un título de un artículo comienza con "A" o "El", (o "Le", "L", "L", "Un" o "Une" en francés) y no se desea que una lista alfabética de los artículos de la revista muestre una larga lista de publicaciones que empiezan por "El" o "Le", poner esas palabras en el campo prefijo.
 
-**Title & Subtitle:** The title and subtitle of your article. OJS used to only have a single title field but now has the option to break your metadata across two fields. Please note, if you use both the Title and Subtitle fields, do not include a colon after your Title. OJS will automatically insert that colon where needed. It doesn't really matter if you use just one title field or all three (Title, Subtitle, and Prefix , so long as you populate these fields consistently across your journal.
+**Título & Subtítulo:** El título y subtítulo del artículo. OJS solía tener un solo campo de título, pero ahora tiene la opción de dividir los metadatos a través de dos campos. Please note, if you use both the Title and Subtitle fields, do not include a colon after your Title. OJS will automatically insert that colon where needed. It doesn't really matter if you use just one title field or all three (Title, Subtitle, and Prefix , so long as you populate these fields consistently across your journal.
 
 **Abstract:** The abstract of your article. If there isn't an abstract associated with your article, please make sure this field is empty. If you have multiple abstracts in different languages, please make sure to insert those translations into the fields for other languages. Do not put multiple languages in one abstract field. If you consistently see placeholder text in abstract fields, select “Do not require abstracts” in your **Sections Settings**. Additionally, there is no need to place the words "Abstract" or "Résumé” in your abstract metadata. OJS will display these automatically as part of the user interface.
 
