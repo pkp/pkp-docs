@@ -108,59 +108,59 @@ La creación masiva de cuentas de spam se puede reducir con dos ajustes en el ar
 ; Si está habilitado, las direcciones de correo electrónico deben ser validadas antes de que el inicio de sesión sea posible.
 require_validation = Off
 
-; Maximum number of days before an unvalidated account expires and is deleted
+; Número máximo de días antes de que expire una cuenta no validada y sea borrada
 validation_timeout = 14
 ```
 
-The first parameter is `require_validation`, which is set to `Off` by default. When set to `On`, this parameter will require that every new user activates their account before being able to fully use the system.
+El primer parámetro es `require_validation`, que se establece en `Off` por defecto. Cuando se establece a `On`, este parámetro requerirá que cada nuevo usuario active su cuenta antes de poder usar el sistema por completo.
 
-The second parameter is `validation_timeout`, which is set to `14` by default. This parameter only works when the `require_validation` is enabled, and means that a user has 14 days to activate their new account or the account will be removed from the system automatically when the time limit is reached.
+El segundo parámetro es `validation_timeout`, que se establece en `14` por defecto. Este parámetro sólo funciona cuando el parámetro `require_validation` está habilitado, y significa que un usuario tiene 14 días para activar su nueva cuenta o la cuenta será eliminada del sistema automáticamente cuando se alcance el límite de tiempo.
 
-## Configuring the System to use Gmail SMTP
+## Configurar el sistema para usar Gmail SMTP
 
-To use Gmail SMTP to send email from OJS, you can use the following settings in `config.inc.php`.
+Para usar Gmail SMTP para enviar correo electrónico desde OJS, puede utilizar la siguiente configuración en `config.inc.php`.
 
-For OJS 2.x:
+Para OJS 2.x:
 
 ```
-; Use SMTP for sending mail instead of mail()
+; Usar SMTP para enviar un correo en lugar de mail()
 smtp = On
 
-; SMTP server settings
-smtp_server = "ssl://smtp.gmail.com"
+; Configuración del servidor SMTP
+smtp_server = "ssl://smtp.gmail. om"
 smtp_port = 465
 
-; Enable SMTP authentication
+; Habilitar autenticación SMTP
 smtp_auth = PLAIN
 smtp_username = "user@gmail.com"
-smtp_password = "password"
+smtp_password = "contraseña"
 ```
 
-For OJS 3.x:
+Para OJS 3.x:
 
 ```
-; Use SMTP for sending mail instead of mail()
+; Usar SMTP para enviar correo en lugar de mail()
 smtp = On
 
-; SMTP server settings
-smtp_server = smtp.gmail.com
+; Configuración del servidor SMTP
+smtp_server = smtp.gmail. om
 smtp_port = 465
 
-; Enable SMTP authentication
+; Habilitar autenticación SMTP
 smtp_auth = ssl
 smtp_username = "user@gmail.com"
-smtp_password = "password"
+smtp_password = "contraseña"
 ```
 
-Additional information about Gmail SMTP is available at [https://support.google.com/a/answer/176600?hl=en](https://support.google.com/a/answer/176600?hl=en).
+Información adicional sobre Gmail SMTP está disponible en [https://support.google.com/a/answer/176600?hl=es](https://support.google.com/a/answer/176600?hl=en).
 
-Note that you may have to additionally configure application-specific passwords in Gmail; see [https://support.google.com/accounts/answer/185833?hl=en](https://support.google.com/accounts/answer/185833?hl=en) for details.
+Tenga en cuenta que puede tener que configurar adicionalmente contraseñas de aplicación en Gmail; consultar [https://support.google.com/accounts/answer/185833?hl=es](https://support.google.com/accounts/answer/185833?hl=en) para más detalles.
 
-## SPF and DMARC Issues
+## Problemas con las políticas SPF y DMARC
 
-### Sender Policy Framework (SPF)
+### Marco de política de remitente (SPF)
 
-The Sender Policy Framework (SPF) relies on permission that a server, which may be running OJS, receives from another server which hosts the main domain. This authorizes the OJS server to send emails using that domain and prevents messages from being blocked.
+El Sender Policy Framework (SPF) se basa en el permiso que un servidor, que puede estar ejecutando OJS, recibe de otro servidor que aloja el dominio principal. Esto autoriza al servidor OJS a enviar correos electrónicos usando ese dominio e impide que los mensajes sean bloqueados.
 
 SPF is required when your OJS installation runs on a different server, including a subdomain, from your main domain; For instance, when you host a journal located at journal.domain.com on a server located outside of the institution which hosts domain.com.
 
