@@ -152,23 +152,23 @@ Copia de seguridad de la base de datos
 $ mysqldump --host="$OJS_DB_HOST" -u $OJS_DB_USER -p$OJS_DB_PASSWORD $OJS_DB_NAME --result-file="$OJS_BACKUP_PATH/backupDB-$DATE.sql"
 ```
 
-> Character encodings are a common source of database problems during upgrades. <br> Read more in the [Admin Guide](/admin-guide/en/troubleshooting#character-encoding). 
+> Durante el proceso de actualización la codificación de los caractéres es una causa frecuente de problemas en la base de datos.  <br> Encuentra más información en: [Admin Guide](/admin-guide/en/troubleshooting#character-encoding) (en inglés). 
 > 
 > {:.tip}
 
-Backup the private file directory.
+Copia de seguridad del directorio de archivos privados.
 
 ```bash
 $ tar cvzf "$OJS_BACKUP_PATH/private-$DATE.tgz" "$OJS_PRIVATE_PATH"
 ```
 
-Backup the public files directory.
+Copia de seguridad del directorio de archivos privados.
 
 ```bash
 $ tar cvzf "$OJS_BACKUP_PATH/ojsfiles-$DATE.tgz" "$OJS_WEB_PATH"
 ```
 
-Backup any other customizations you have made to the software, such as custom plugins or locale files.
+Copia de seguridad de cualquier otra personalización que hayas hecho al sistema, como plugins personalizados o archivos locales.
 
 ### 4. Create Sandbox
 
