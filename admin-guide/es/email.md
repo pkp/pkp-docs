@@ -1,68 +1,68 @@
 # Correo Electrónico
 
-This chapter explains how emails are sent in OJS, OMP, and OCS; the configuration options that are available; and how to troubleshoot email issues.
+Este capítulo explica cómo los correos electrónicos son enviados en OJS, OMP y OCS; las opciones de configuración que están disponibles; y cómo solucionar los problemas al configurar.
 
-Mail in PKP software applications uses [the PHPMailer library](https://github.com/PHPMailer/PHPMailer). You can find out more about PHPMailer on [their wiki](https://github.com/PHPMailer/PHPMailer/wiki). Other code related to mail can be found in [the pkp-lib mail class](https://github.com/pkp/pkp-lib/tree/main/classes/mail).
+El correo en las aplicaciones de software de PKP utiliza la biblioteca [PHPMailer](https://github.com/PHPMailer/PHPMailer). Usted puede encontrar más información sobre PHPMailer en [su wiki](https://github.com/PHPMailer/PHPMailer/wiki). Más información relacionada con el correo electrónico se puede encontrar en [la clase de correo pkp-lib](https://github.com/pkp/pkp-lib/tree/main/classes/mail).
 
-Records of emails that are sent are stored in the `email_log` table of the database.
+Los registros de correos electrónicos enviados son almacenados en la tabla `email_log` de la base de datos.
 
-PKP software applications provide a number of options for configuring emails to work in your environment. The following configuration options are available for email in `config.inc.php`:
+Las aplicaciones de software de PKP proporcionan una serie de opciones para configurar correos electrónicos para trabajar en su entorno. Las siguientes opciones de configuración están disponibles para correo electrónico en `config.inc.php`:
 
 ```
-;;;;;;;;;;;;;;;;;;
-; Email Settings ;
-;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;
+; Ajustes de correo electrónico ;
+;;;;;;;;;;;;;;
 
 [email]
 
-; Use SMTP for sending mail instead of mail()
+Usar SMTP para enviar correo en lugar de mail()
 ; smtp = On
 
-; SMTP server settings
+; Configuración del servidor SMTP
 ; smtp_server = mail.example.com
 ; smtp_port = 25
 
-; Enable SMTP authentication
-; Supported mechanisms: ssl, tls
+; Habilitar autenticación SMTP
+; Mecanismos soportados: ssl, tls
 ; smtp_auth = ssl
 ; smtp_username = username
 ; smtp_password = password
 
-; Allow envelope sender to be specified
-; (may not be possible with some server configurations)
+; Permitir que el remitente del correo sea especificado
+; (puede no ser posible con algunas configuraciones del servidor)
 ; allow_envelope_sender = Off
 
-; Default envelope sender to use if none is specified elsewhere
+; Remitente de correo predeterminado para utilizar si ninguno es especificado
 ; default_envelope_sender = my_address@my_host.com
 
-; Force the default envelope sender (if present)
-; This is useful if setting up a site-wide no-reply address
-; The reply-to field will be set with the reply-to or from address.
+; Forzar el remitente de correo por defecto (si está presente)
+; Esto es útil si se configura una dirección de correo de no respuesta en todo el sitio
+; El campo "responder a" será establecido con el campo "responder a" o el campo "desde".
 ; force_default_envelope_sender = Off
 
-; Force a DMARC compliant from header (RFC5322.From)
-; If any of your users have email addresses in domains not under your control
-; you may need to set this to be compliant with DMARC policies published by
-; those 3rd party domains.
-; Setting this will move the users address into the reply-to field and the
-; from field wil be rewritten with the default_envelope_sender.
-; To use this you must set force_default_enveloper_sender = On and
-; default_envelope_sender must be set to a valid address in a domain you own.
+; Forzar la polítics DMARC compatible con la cabecera (RFC5322. rom)
+; Si alguno de sus usuarios tiene direcciones de correo electrónico en dominios que no están bajo su control
+; es posible que necesites establecer esto para que sea compatible con las políticas de DMARC publicadas 
+; por dominios de terceros.
+; Configurar esto moverá la dirección del usuario al campo "responder a" y el campo "desde"
+; se reescribirá con el valor default_envelope_sender.
+; Para utilizar esto debe establecer force_default_enveloper_sender = On y
+; default_envelope_sender debe establecerse a una dirección de correo válida en un dominio que usted tenga posesión.
 ; force_dmarc_compliant_from = Off
 
-; The display name to use with a DMARC compliant from header
-; By default the DMARC compliant from will have an empty name but this can
-; be changed by adding a text here.
-; You can use '%n' to insert the users name from the original from header
-; and '%s' to insert the localized sitename.
+; El nombre a desplegar con un encabezado de la politica DMARC
+; Por defecto, la politica DMARC tendrá un nombre vacío, pero esto puede
+; ser cambiado, añadiendo un texto aquí.
+; Puede utilizar '%n' para insertar el nombre de usuario en el campo "desde"
+; y '%s' para insertar el nombre del sitio en el respectivo idioma.
 ; dmarc_compliant_from_displayname = '%n via %s'
 ```
 
-To find out more about email within the OJS user interface, see [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/).
+Para obtener más información sobre el correo electrónico dentro de la interfaz de usuario de OJS, consultar [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/).
 
-## Sending Mail
+## Enviar correo eléctronico
 
-By default, PHPMailer will send mail through PHP's built-in `mail()` facility.
+Por defecto, PHPMailer enviará correo a través de la función `mail()` de PHP.
 
 On Windows, PHP needs to be configured to send email through a SMTP server \(running either on the same machine or on another machine\).
 
