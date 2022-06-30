@@ -32,7 +32,7 @@ Se mostrarán algunos campos de metadatos y, debajo de ellos, una casilla de ver
 
 ### Título del número
 
-The intention for the Issue Title field in OJS is as a "special issue title" or as something aside from existing volume, number and year metadata. Easily, the most common metadata problem with issue metadata is a misunderstanding about the purpose of the "issue-title" field. Users sometimes turn off the display for the volume, number, and year fields in order to write out the issue information as a single string. For example, instead of "**Vol. 56 No. 2 (2020)**" (the OJS default rendering), they'll write in something like "**Volume 56, Number II, Spring 2020**". Users do this sort of write-in title for all kinds of reasons, for example:
+El campo Título del número en OJS puede referirse al "título de un númeri especial" o a algo aparte del volumen existente, metadatos de número y año. Fácilmente, el error más común con los metadatos del número es un malentendido sobre el propósito del campo "Título del número". Users sometimes turn off the display for the volume, number, and year fields in order to write out the issue information as a single string. For example, instead of "**Vol. 56 No. 2 (2020)**" (the OJS default rendering), they'll write in something like "**Volume 56, Number II, Spring 2020**". Users do this sort of write-in title for all kinds of reasons, for example:
 
 * Users may want to display their volume and issue numbers in Roman numerals (or whatever unique characters they used in print)
 * Users want to use “Volume” and “Number” instead of “Vol.” and “No.” (the OJS standard display)
