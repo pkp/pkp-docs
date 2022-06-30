@@ -64,9 +64,9 @@ Para obtener más información sobre el correo electrónico dentro de la interfa
 
 Por defecto, PHPMailer enviará correo a través de la función `mail()` de PHP.
 
-On Windows, PHP needs to be configured to send email through a SMTP server \(running either on the same machine or on another machine\).
+En Windows, PHP necesita ser configurado para enviar correo electrónico a través de un servidor SMTP \(ejecutándose en la misma máquina o en otra máquina\).
 
-On other platforms such as Linux and Mac OS X, PHP will sent mail using the local sendmail client, so a local MTA such as Sendmail or Postfix must be running and configured to allow outgoing mail.
+En otras plataformas como Linux y Mac OS X, PHP enviará correo usando el cliente local de sendmail, así que un MTA local como Sendmail o Postfix debe estar ejecutándose y configurado para permitir el correo saliente.
 
 See [https://www.php.net/manual/en/function.mail.php](https://www.php.net/manual/en/function.mail.php) for more details on configuring PHP's mail functionality.
 
