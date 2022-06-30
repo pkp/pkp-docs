@@ -73,21 +73,21 @@ Durante el tutorial veremos comandos para los sistemas  [Debian](https://www.deb
 
 En este tutorial utilizaremos las siguientes variables para simplificar los comandos de la terminal.
 
-| VARIABLE          | Default             | Description                      |
-| ----------------- | ------------------- | -------------------------------- |
-| WEB_USER          | `www-data`          | Webserver user                   |
-| WEB_GROUP         | `www-data`          | Webserver user's group           |
-| OJS_ROOT_PATH   | `/var/www`          | OJS root folder                  |
-| OJS_WEB_PATH    | `/var/www/html`     | OJS web root folder              |
-| OJS_DB_HOST     | `db`                | Database host's name             |
-| OJS_DB_USER     | `ojs`               | Database user                    |
-| OJS_DB_PASSWORD | `ojsPwd`            | Database password                |
-| OJS_DB_NAME     | `ojs`               | Database name                    |
-| OJS_BACKUP_PATH | `/srv/backup/ojs`   | Folder to store your backups     |
-| OJS_VERSION       | `ojs-3.3.0-8`       | Version as in the ojs filename   |
-| DATE              | `YYYYMMDD-HH:MM:SS` | The current system date and time |
+| VARIABLE          | Predeterminada      | Descripción                                                  |
+| ----------------- | ------------------- | ------------------------------------------------------------ |
+| WEB_USER          | `www-data`          | Usuario del servidor web                                     |
+| WEB_GROUP         | `www-data`          | Grupo de pertenencia del usuario del servidor web            |
+| OJS_ROOT_PATH   | `/var/www`          | Carpeta raíz de OJS                                          |
+| OJS_WEB_PATH    | `/var/www/html`     | Carpeta raíz de la web de OJS                                |
+| OJS_DB_HOST     | `db`                | Nombre del *host* de la base de datos.                       |
+| OJS_DB_USER     | `ojs`               | Usuario de base de datos                                     |
+| OJS_DB_PASSWORD | `ojsPwd`            | Contraseña de la base de datos                               |
+| OJS_DB_NAME     | `ojs`               | Nombre de la base de datos                                   |
+| OJS_BACKUP_PATH | `/srv/backup/ojs`   | Carpeta para guardar tus copias de seguridad                 |
+| OJS_VERSION       | `ojs-3.3.0-8`       | Nombre de versión, tal como es nombrada en el archivo de ojs |
+| DATE              | `YYYYMMDD-HH:MM:SS` | La fecha y hora actual del sistema                           |
 
-Rewrite the command below to set up these variables with the correct values for your installation.
+Reescribe el comando de abajo para configurar estas variables con los valores correctos para tu instalación.
 
 ```bash
 $ WEB_USER="www-data" && \
@@ -105,15 +105,15 @@ OJS_PRIVATE_PATH="$OJS_ROOT_PATH/files" && \
 DATE=$(date "+%Y%m%d-%H:%M:%S")
 ```
 
-### 2. Enter Maintenance Mode
+### 2. Activar el "Modo de Mantenimiento"
 
-Before beginning the migration, you should put the site into maintenance mode to ensure that visitors do not see error messages and there are no changes to the database or files while backups are being made. Maintenance mode should prevent all requests from being sent to the application.
+Antes de comenzar la migración, deberías poner el sitio en "modo de mantenimiento" para asegurarte que los visitantes no vean mensajes de error y para que no haya cambios en la base de datos o en archivos mientras se realizan copias de seguridad. El "modo de mantenimiento" debe ser configurado de manera tal que evite el envío de todas las peticiones al sistema.
 
-> OJS does not support a maintenance mode yet, but we [plan to support it](https://github.com/pkp/pkp-lib/issues/3263). 
+> OJS aún no cuenta con un modo de mantenimiento, pero estamos  [trabajando en ello](https://github.com/pkp/pkp-lib/issues/3263). 
 > 
 > {:.notice}
 
-Modify your Apache `VirtualHost` directive or place an `.htaccess` file in the `OJS_WEB_PATH` with the following content.
+Modifica la directiva del `VirtualHost` de tu Apache o coloca un archivo `.htaccess` en el `OJS_WEB_PATH` con el siguiente contenido.
 
 ```bash
 order deny,allow
@@ -121,7 +121,7 @@ deny from all
 ErrorDocument 403 "This site is undergoing maintenance and should return shortly. Thank you for your patience."
 ```
 
-Reload the apache server to apply the changes:
+Reinicia el servidor de Apache para que los cambios se apliquen:
 
 ```bash
 (Debian)$ service apache2 reload
@@ -129,24 +129,24 @@ Reload the apache server to apply the changes:
 (RHEL)$ systemctl restart httpd
 ```
 
-### 3. Create Backups
+### 3. Creando copias de seguridad
 
-> **Do not skip this step.** An upgrade can fail for many reasons. Without a backup you may permanently lose data. 
+> **¡Atención! No te saltes este paso.** Una actualización puede fallar por muchas razones y sin una copia de seguridad de respaldo puedes perder información importante de manera permanente. 
 > 
 > {:.warning}
 
-The steps below will backup the following folders and files.
+Los siguientes pasos harán una copia de seguridad de las siguientes carpetas y archivos.
 
-| Common Path                     | Description                   | VARIABLE           |
-| ------------------------------- | ----------------------------- | ------------------ |
-| `/var/www/html/public`          | Public files                  | `OJS_PUBLIC_PATH`  |
-| `/var/www/files`                | Private files                 | `OJS_PRIVATE_PATH` |
-| `/var/www/html/config.inc.php`  | `config.inc.php`              |                    |
-| `/var/www/html/.htaccess`       | `.htaccess` or vhost (if any) |                    |
-| `/var/www/html/plugins`         | plugins                       |                    |
-| locale files, custom code, etc. | local customizations          |                    |
+| Ruta del directorio             | Descripción                                            | VARIABLE           |
+| ------------------------------- | ------------------------------------------------------ | ------------------ |
+| `/var/www/html/public`          | Archivos públicos                                      | `OJS_PUBLIC_PATH`  |
+| `/var/www/files`                | Archivos privados                                      | `OJS_PRIVATE_PATH` |
+| `/var/www/html/config.inc.php`  | `Has una copia de tu config.inc.php `                  |                    |
+| `/var/www/html/.htaccess`       | Has una copia de tu `.htaccess` or vhost (si existe)   |                    |
+| `/var/www/html/plugins`         | has una copia del contenido de la carpeta de *plugins* |                    |
+| locale files, custom code, etc. | has una copia de todas tus personalizaciones           |                    |
 
-Backup the database.
+Copia de seguridad de la base de datos
 
 ```bash
 $ mysqldump --host="$OJS_DB_HOST" -u $OJS_DB_USER -p$OJS_DB_PASSWORD $OJS_DB_NAME --result-file="$OJS_BACKUP_PATH/backupDB-$DATE.sql"
