@@ -170,11 +170,11 @@ $ tar cvzf "$OJS_BACKUP_PATH/ojsfiles-$DATE.tgz" "$OJS_WEB_PATH"
 
 Copia de seguridad de cualquier otra personalización que hayas hecho al sistema, como plugins personalizados o archivos locales.
 
-### 4. Create Sandbox
+### 4. Crea un entorno de desarrollo (sandbox)
 
-Use your backup to create a sandbox environment and test the upgrade in that sandbox first. The steps below can be used in your sandbox environment to perform an upgrade.
+Utiliza tu copia de seguridad para crear un entorno de desarrollo para testear la actualización Los siguientes pasos pueden ser usados en tu entorno de desarrollo para realizar una actualización.
 
-Once the test is complete, you can run any automated or manual tests you have configured to ensure the upgrade did not introduce regressions.
+Una vez completada la prueba, puedes ejecutar cualquier prueba automática o manual que hayas configurado para asegurarte de que la actualización no introdujo regresiones.
 
 **Only perform the next steps on your live, production environment if you have already completed a test upgrade in your sandbox environment.**
 
