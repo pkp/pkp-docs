@@ -189,13 +189,13 @@ Mientras que SPF proporciona el permiso de que OJS envíe correos electrónicos 
 
 DMARC resuelve esto estableciendo el correo electrónico del usuario en el campo `Responder a:`, y la dirección de correo electrónico establecida en la directiva `default_envelope_sender` en el campo `De:`. A partir de OJS 3.1.2, usted puede configurar esto a través de dos nuevos parámetros en su archivo de configuración de OJS `config.inc.php`, estableciendo los 2 campos, `force_dmarc_compliant_from` y `dmarc_compliant_from_displayname`. (Si estás en OJS 3.1.2+ y no ves esos parámetros en tu archivo de configuración actual, debes revisar el archivo de configuración `config.TEMPLATE.inc.php` y copiarlos como aparecen ahí.)
 
-## Troubleshooting Email Problems
+## Resolviendo Problemas en el Envío de Correo
 
-If emails aren't being received by some users, the first thing to do is check to see if you yourself can receive email. Try sending an email to yourself using the system. If you received it, the software application is probably sending email fine. You should then ask the user with the problem to check their email's spam/junk folders.
+Si algunos usuarios no reciben correos electrónicos, lo primero que hay que hacer es comprobar si usted mismo puede recibir correo electrónico. Intenta enviarte un correo electrónico usando el sistema. Si lo ha recibido, el sistema probablemente esté enviando correo electrónico correctamente. Entonces deberás de solicitar al usuario con el problema revisar su carpeta de spam/basura en su correo electrónico.
 
-If the user can find no record whatsoever of the email being filtered as spam or junk, you may be encountering a **Sender Policy Framework** \(SPF\) validation problem with their server. You can confirm this by viewing your server's mail log to see if there are any reported receipt blockages/returns with SPF validation errors as the result.
+Si el usuario no puede encontrar ningún registro del correo electrónico filtrado como spam o basura, puede estar encontrando un problema de validación de **Sender Policy Framework** \(SPF\) con su servidor. Usted puede confirmar esto viendo el archivo de log del servidor de correo para ver si hay algún registro de bloqueo/retorno reportado con errores de validación SPF como resultado.
 
-### Explanation and Solution
+### Explicación y Solución
 
 As of version 2.4.6, OJS included a change to the way emails are sent out. Previously, all emails were sent using the OJS user's email address in the "FROM" field. This unfortunately led to some issues with the journal's outgoing emails being flagged as "spoofed" by some email servers because the email addresses in question \(eg. james@myinstitution.org"\) didn't match the domain name of the server sending the email \(eg. "myjournal.com"\). \(Technically, the emails were failing Sender Policy Framework \(SPF\) validation.\) Being flagged in this way is more serious than being considered spam: in many cases, the receiving email server won't even assign the email to a spam/junk queue, instead simply choosing to discard it.
 
