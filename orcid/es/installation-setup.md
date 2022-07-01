@@ -20,7 +20,7 @@ Si ya tiene un iD ORCID, puede ir al paso [2. Inicia sesión en tu ORCID iD](#2-
 
 1. Vaya a [el sitio web ORCID](https://orcid.org/)
 2. Haga clic en el menú [SIGN EN / REGISTRO](https://orcid.org/signin) en la parte superior derecha ![Página de inicio de ORCID con registro / botón de inicio de registro.](./assets/orcid_signup.png)
-3. Cree una cuenta con su correo electrónico o inicie sesión con su cuenta institucional (si su institución está configurada para un solo inicio de sesión de ORCID). ![ORCID sign in page with an emphasis on registration option.](./assets/orcid_signup_register.png)
+3. Cree una cuenta con su correo electrónico o inicie sesión con su cuenta institucional (si su institución está configurada para un solo inicio de sesión de ORCID). ![Página de inicio de sesión de ORCID con énfasis en la opción de registro.](./assets/orcid_signup_register.png)
 4. Si usted necesita más orientación para completar el registro, [Registre su página ORCID](https://support.orcid.org/hc/en-us/articles/360006897454-Register-your-ORCID-iD) contiene instrucciones detalladas paso a paso.
 
 ### 2. Inicia sesión en tu ORCID iD
@@ -29,13 +29,13 @@ Si ya tiene un iD ORCID, puede ir al paso [2. Inicia sesión en tu ORCID iD](#2-
 2. Haga clic en el menú [SIGN EN / REGISTRO](https://orcid.org/signin) en la parte superior derecha
 3. Inicia sesión con tu cuenta de correo electrónico existente o a través de tus credenciales institucionales (si tu institución está configurada para ORCID solo inicia sesión)
 
-![ORCID sign in page with email or ORCID iD and password fields emphasized.](./assets/orcid_signin.png)
+![Página de inicio de sesión de ORCID con campos de correo electrónico o ID de ORCID y contraseña resaltados.](./assets/orcid_signin.png)
 
 ### 3. Navegar a Herramientas de Desarrollador
 
 Haz clic en tu nombre en la parte superior derecha y selecciona “Herramientas para desarrolladores” en el menú desplegable.
 
-![ORCID record with account name dropdown expanded and Developer Tools selected.](./assets/orcid_dev_tools.png)
+![Registro ORCID con lista desplegable de nombres de cuenta expandida y Herramientas de Desarrollador seleccionadas.](./assets/orcid_dev_tools.png)
 
 ### 4. Seleccione para registrarse en la API pública
 
@@ -43,7 +43,7 @@ Haga clic en el botón “Registrarse para la API pública ORCID gratuita”.
 
 Se le pedirá que lea y acepte las condiciones del servicio.
 
-![ORCID Developer Tools page with the highlighted button Register for the free ORCID public API.](./assets/orcid_dev_tools_register.png)
+![Página de herramientas para desarrolladores de ORCID con el botón resaltado Regístrese para obtener la API pública gratuita de ORCID.](./assets/orcid_dev_tools_register.png)
 
 ### 5. Complete el formulario de registro
 
@@ -54,12 +54,12 @@ En el formulario de registro, ingrese:
 * Un breve mensaje sobre su revista - se mostrará a sus usuarios cuando conecten sus iDs ORCID
 * Redireccionar URI - esta es la página a la que serán llevados tus usuarios después de que se hayan autenticado sus iDs ORCID. Esta debe comenzar con “https://” e incluir el enlace a la revista. Para más detalles y ejemplos vea la sección [ORCID redireccionar URIs](#orcid-redirect-uris) a continuación.
 
-![ORCID Developer Tools public API request form.](./assets/orcid_dev_tools_form.png)
+![Formulario público de solicitud de API de Herramientas de Desarrollador ORCID.](./assets/orcid_dev_tools_form.png)
 
 ### 6. Guarda el formulario y recibe tus credenciales
 
-1. Haga clic en el icono de guardar en la parte inferior derecha para guardar el formulario. ![ORCID Developer Tools public API request form with the save icon pointed out.](./assets/orcid_dev_tools_form_save.png)
-2. Your credentials (Client ID and Client Secret) will be displayed right away. Copie estas credenciales en el ORCID Profile Plugin de OJS/OPS como se explica a continuación. ![ORCID Developer Tools public API request form with Client ID and Secret displayed.](./assets/orcid_dev_tools_form_credentials.png)
+1. Haga clic en el icono de guardar en la parte inferior derecha para guardar el formulario. ![Formulario de solicitud de API pública de ORCID Developer Tools con el icono de guardar señalado.](./assets/orcid_dev_tools_form_save.png)
+2. Your credentials (Client ID and Client Secret) will be displayed right away. Copie estas credenciales en el ORCID Profile Plugin de OJS/OPS como se explica a continuación. ![Formulario público de solicitud de API de Herramientas ORCID con ID de cliente y cliente secreto.](./assets/orcid_dev_tools_form_credentials.png)
 
 ## Solicitud de credenciales API públicas
 
@@ -107,7 +107,7 @@ Si desea habilitar el plugin ORCID para una sola revista (OJS) o para el sistema
 3. Marque la casilla de verificación para activar el plugin
 4. Haga clic en la flecha azul a la izquierda del nombre del plugin para hacer que los enlaces aparezcan debajo del plugin. Seleccione su tipo de API e introduzca su ID de cliente y cliente secreto.
 
-![Setup for OJS ORCID plugin with Public client ID and secret entered.](./assets/orcid_plugin_setup.png)
+![Configuración para el plugin ORCID de OJS con ID de cliente público y secreto.](./assets/orcid_plugin_setup.png)
 
 Para un recorrido visual, vea este [vídeo de configuración del plugin ORCID](https://vimeo.com/374414746).
 
@@ -115,12 +115,12 @@ Para un recorrido visual, vea este [vídeo de configuración del plugin ORCID](h
 
 En “Configuración de correo electrónico” puede marcar la casilla de verificación para “Enviar correo electrónico para solicitar autorización ORCID a los autores cuando se acepte un artículo”. Si está marcado, OJS/OPS enviará un correo electrónico automáticamente a los autores que no hayan vinculado sus iDs ORCID cuando se publique el artículo pidiéndoles que vinculen sus iDs. Esta solicitud se enviará utilizando la plantilla de correo electrónico “ORCID Collect Author Id” (Public API) o “ORCID Request Author Authorization” (Member API).
 
-![OJS ORCID plugin with checkbox checked to send email to request ORCID authorization from authors.](./assets/orcid_plugin_auto_emails.png)
+![Plugin OJS ORCID con checkbox comprobado para enviar correo electrónico para solicitar autorización ORCID de los autores.](./assets/orcid_plugin_auto_emails.png)
 
 ### Configuración del sitio
 
 Para instalaciones multi-revista y multi-preimpresión el plugin puede configurarse en todo el sitio en `config.inc.php` para habilitar el plugin ORCID para todos los diarios. Tenga en cuenta que la configuración de todo el sitio a través de `config.inc.php` sobreescribe cualquier configuración individual del plugin existente. Sin embargo, el plugin puede ser habilitado/desactivado individualmente para revistas, y cada revista puede administrar su propia configuración de correo electrónico como se describió anteriormente. Añadir credenciales en el archivo config.inc.php oculta el secreto del cliente de los administradores de servidores/revistas, los cuales pueden ser preferidos si tiene credenciales institucionales para ORCID. Añadir lo siguiente a nuestro archivo `config.xml`:
 
-![Config settings in the OJS config file](./assets/orcid-config-inc-php-settings.png)
+![Configuración de configuración en el archivo de configuración OJS](./assets/orcid-config-inc-php-settings.png)
 
 Tenga en cuenta que el `api_url` necesita terminar con una barra (/).
