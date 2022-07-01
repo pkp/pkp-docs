@@ -19,7 +19,7 @@ El registro ORCID iD es gratuito y sólo requiere su nombre y correo electrónic
 Si ya tiene un iD ORCID, puede ir al paso [2. Inicia sesión en tu ORCID iD](#2-sign-into-your-orcid-id).
 
 1. Vaya a [el sitio web ORCID](https://orcid.org/)
-2. Haga clic en el menú [SIGN EN / REGISTRO](https://orcid.org/signin) en la parte superior derecha ![ORCID homepage with sign in / register button pointed out.](./assets/orcid_signup.png)
+2. Haga clic en el menú [SIGN EN / REGISTRO](https://orcid.org/signin) en la parte superior derecha ![Página de inicio de ORCID con registro / botón de inicio de registro.](./assets/orcid_signup.png)
 3. Cree una cuenta con su correo electrónico o inicie sesión con su cuenta institucional (si su institución está configurada para un solo inicio de sesión de ORCID). ![ORCID sign in page with an emphasis on registration option.](./assets/orcid_signup_register.png)
 4. Si usted necesita más orientación para completar el registro, [Registre su página ORCID](https://support.orcid.org/hc/en-us/articles/360006897454-Register-your-ORCID-iD) contiene instrucciones detalladas paso a paso.
 
@@ -71,56 +71,56 @@ Para solicitar tus credenciales de miembro API, completa el formulario a [Regist
 
 Cuando te registras en credenciales de ORCID API, tendrás que introducir al menos una URI de Redirección, cuál es la ubicación de la revista a la que se enviarán sus usuarios después de autorizar a OJS/OPS a conectarse a su registro ORCID, La URI debe comenzar con “https://” e incluir el enlace a la revista como parte de la URI. Por ejemplo:
 
-* Quiere decir (por ejemplo, para una instalación de múltiples revistas): https://example.com
-* This works (for a single journal): https://example.com/index.php/testJournal
-* This does NOT work: https://example.com/index.php/testJournal/index
+* Modo para varias revistas (por ejemplo, para una instalación de múltiples revistas): https://example.com
+* Modo para una revista (para una sola revista): https://example.com/index.php/testJournal
+* Esto no funciona: https://example.com/index.php/testJournal/index
 
-The host option allows any URI under that host to be used as a Redirect URI. In multiple journal instances, make sure you choose the base url of your domain and not individual journals to avoid redirect errors. For individual journals it is important to use the journal path (typically something like “index.php/testJournal”, without any trailing information, as per above). Any additional information in the URI will cause the redirect to not work.
+La opción host permite que cualquier URI bajo ese host sea usado como URI de redirección. En múltiples instancias de revistas, asegúrese de elegir la url base de su dominio y no publicaciones individuales para evitar errores de redirección. Para revistas individuales es importante utilizar la ruta de la revista (típicamente algo como “index.php/testJournal”, sin ninguna información final, como se indica). Cualquier información adicional en la URI causará que la redirección no funcione.
 
-For more detail on Redirect URIs, see the ORCID support page for [Public APIs](https://support.orcid.org/hc/en-us/articles/360006897174-Register-a-public-API-client-application) and [Member APIs](https://support.orcid.org/hc/en-us/articles/360006973913), respectively, and the [Redirect URI thread on PKP Forum](https://forum.pkp.sfu.ca/t/orcid-oauth2-redirect-uris-or-callback-urls-for-ojs).
+Para más detalles sobre las URIs de redireccionamiento, consulte la página de soporte de ORCID para [APIs públicas](https://support.orcid.org/hc/en-us/articles/360006897174-Register-a-public-API-client-application) y [APIs de miembros](https://support.orcid.org/hc/en-us/articles/360006973913), respectivamente, y la [Redirigir hilo URI en el Foro PKP](https://forum.pkp.sfu.ca/t/orcid-oauth2-redirect-uris-or-callback-urls-for-ojs).
 
-**Please note**: When registering to receive Member API credentials, organizations are required to indicate the "Client Name" along with the Redirect URI(s). When working with multiple journals as part of an OJS instance, the Client Name used must be broad enough to serve as a source for all of the journals hosted on its instance(s), as the Client Name is what will appear as the "source" of data when a work from OJS is written to an ORCID record (e.g. “ABC University journal hosting service”). However, if you plan to install only one journal in your domain and use ORCID for that journal, then the Client Name can be indicated as the name of the journal.
+**Tenga en cuenta**: Al registrarse para recibir las credenciales de la API de miembros, las organizaciones deben indicar el "Nombre del cliente" junto con el URI de Redirección. Cuando se trabaja con múltiples revistas como parte de una instancia de OJS, el nombre de cliente utilizado debe ser lo suficientemente amplio como para servir como fuente para todos las revistas alojadas en su(s) instancia(s), como el Nombre del Cliente es lo que aparecerá como la "fuente" de los datos cuando un trabajo de OJS es escrito en un registro ORCID (ejemplo. “Servicio de alojamiento de revistas de la Universidad de ABC”). Sin embargo, si planea instalar sólo una revista en su dominio y utilizar ORCID para esa revista, entonces el Nombre del Cliente puede ser indicado con el nombre de la revista.
 
-When registering for Sandbox or [Production Member API](https://orcid.org/content/register-client-application-production-trusted-party) credentials through ORCID, although there appears to be a limit of five redirects, you can add as many as you like to the ‘notes to ORCID’ section. If you ever need to adjust, add, or remove URIs, you can resubmit the form and indicate that it is for an existing application.
+Al registrarse en Sandbox o [Credenciales del miembro de producción](https://orcid.org/content/register-client-application-production-trusted-party) a través de ORCID, aunque parece haber un límite de cinco redirecciones, puedes añadir tantas como quieras a la sección "notas a ORCID". Si alguna vez necesita ajustar, añadir o eliminar URIs, puede volver a enviar el formulario e indicar que es para una aplicación existente.
 
-## Enable and configure the ORCID Profile plugin in OJS/OPS
+## Activar y configurar el plugin de perfil ORCID en OJS/OPS
 
-After you have obtained your Client ID and Client Secret from ORCID, you can enable and configure the plugin in OJS/OPS.
+Después de haber obtenido su ID de cliente y cliente secreto de ORCID, puede activar y configurar el plugin en OJS/OPS.
 
-First, enable the ORCID plugin for each journal (OJS) or preprint server (OPS) on your installation:
+Primero, habilite el plugin ORCID para cada revista (OJS) o el servidor de preimpresión (OPS) en su instalación:
 
-1. When logged in to OJS/OPS as an administrator, go to Settings > Website > Plugins
-2. Click on Plugin Gallery and select ORCID Profile from the list
+1. Cuando inicie sesión en OJS/OPS como administrador, vaya a Ajustes > Sitio Web > Plugins
+2. Haga clic en la galería de plugins y seleccione el perfil de ORCID de la lista
 
-There are three potential scenarios for configuring the plugin, based on your use case:
+Hay tres escenarios potenciales para configurar el plugin, basados en tu caso de uso:
 
-1. If you have a single journal or preprint server installation, configure the plugin following the instructions below under Per Journal/Preprint Server Setup.
-2. If you have a multi-journal or multi-preprint server installation, but you do not want to enable the ORCID plugin for all, configure each journal or preprint server separately following the instructions below under Per Journal/Preprint Server Setup, using the same ORCID API credentials (Client ID and Client Secret) for each.
-3. If you have a multi-journal or multi-preprint server installation and want to enable the ORCID plugin for all site-wide, follow the [instructions below under Site-wide Setup](#site-wide-setup).
+1. Si tiene una instalación de una sola revista o el servicio de preimpresión , configure el plugin siguiendo las instrucciones que se indican a continuación en la configuración del servidor Por revista/Preimpresión.
+2. Si tiene una instalación de servidor multi-revista o multi-preimpresión, pero no quiere habilitar el plugin ORCID para todos, configurar cada diario o servidor de preimpresión por separado siguiendo las instrucciones que se indican a continuación en la configuración del servidor Por revista/Preimpresion, usando las mismas credenciales de la API ORCID (ID de cliente y símbolo de cliente) para cada uno.
+3. Si tiene una instalación multi-revista o multi-preimpresion instalación de servidor y quiere habilitar el plugin ORCID para todo el sitio, siga las instrucciones de [abajo en Configuración del sitio](#site-wide-setup).
 
-### Per Journal/Preprint Server Setup
+### Configuración del servidor por revista/preimpresión
 
-If you want to enable the ORCID plugin for a single journal (OJS) or preprint server (OPS):
+Si desea habilitar el plugin ORCID para una sola revista (OJS) o para el sistema preimprimir (OPS):
 
-1. When logged in to OJS/OPS as an administrator, go to Settings > Website > Plugins
-2. Under Installed Plugins find the ORCID plugin
-3. Check the checkbox to enable to plugin
-4. Click the blue arrow to the left of the plugin name to make “Settings” appear, then open Settings. Select your API type and enter your Client ID and Client Secret.
+1. Cuando inicie sesión en OJS/OPS como administrador, vaya a Ajustes > Sitio Web > Plugins
+2. Bajo Plugins instalados encuentra el plugin ORCID
+3. Marque la casilla de verificación para activar el plugin
+4. Haga clic en la flecha azul a la izquierda del nombre del plugin para hacer que los enlaces aparezcan debajo del plugin. Seleccione su tipo de API e introduzca su ID de cliente y cliente secreto.
 
 ![Setup for OJS ORCID plugin with Public client ID and secret entered.](./assets/orcid_plugin_setup.png)
 
-For a visual walkthrough see this [ORCID plugin setup video](https://vimeo.com/374414746).
+Para un recorrido visual, vea este [vídeo de configuración del plugin ORCID](https://vimeo.com/374414746).
 
-#### Email Settings
+#### Ajustes de email
 
-Under “E-Mail Settings” you can tick the checkbox to “Send e-mail to request ORCID authorization from authors when an article is accepted.” If checked, OJS/OPS will send an email automatically to authors who have not already linked their ORCID iDs when the article is published asking them to link their iDs. This request will be sent using the “ORCID Collect Author Id” email template (Public API) or “ORCID Request Author Authorization” (Member API).
+En “Configuración de correo electrónico” puede marcar la casilla de verificación para “Enviar correo electrónico para solicitar autorización ORCID a los autores cuando se acepte un artículo”. Si está marcado, OJS/OPS enviará un correo electrónico automáticamente a los autores que no hayan vinculado sus iDs ORCID cuando se publique el artículo pidiéndoles que vinculen sus iDs. Esta solicitud se enviará utilizando la plantilla de correo electrónico “ORCID Collect Author Id” (Public API) o “ORCID Request Author Authorization” (Member API).
 
 ![OJS ORCID plugin with checkbox checked to send email to request ORCID authorization from authors.](./assets/orcid_plugin_auto_emails.png)
 
-### Site-wide Setup
+### Configuración del sitio
 
-For multi-journal and multi-preprint server installations the plugin can be set site-wide in `config.inc.php` to enable the ORCID plugin for all journals. Note that site-wide settings through `config.inc.php` override any existing individual plugin settings. However, the plugin can be enabled/disabled on an individual basis for journals, and each journal can manage their own email settings as described above. Adding credentials in the config.inc.php hides the Client Secret from Journal/Server Managers, which may be preferred if you have institutional credentials for ORCID. Add the following section to your `config.inc.php` file:
+Para instalaciones multi-revista y multi-preimpresión el plugin puede configurarse en todo el sitio en `config.inc.php` para habilitar el plugin ORCID para todos los diarios. Tenga en cuenta que la configuración de todo el sitio a través de `config.inc.php` sobreescribe cualquier configuración individual del plugin existente. Sin embargo, el plugin puede ser habilitado/desactivado individualmente para revistas, y cada revista puede administrar su propia configuración de correo electrónico como se describió anteriormente. Añadir credenciales en el archivo config.inc.php oculta el secreto del cliente de los administradores de servidores/revistas, los cuales pueden ser preferidos si tiene credenciales institucionales para ORCID. Añadir lo siguiente a nuestro archivo `config.xml`:
 
 ![Config settings in the OJS config file](./assets/orcid-config-inc-php-settings.png)
 
-Note that the `api_url` needs to end with a slash.
+Tenga en cuenta que el `api_url` necesita terminar con una barra (/).
