@@ -63,9 +63,9 @@ En el formulario de registro, ingrese:
 
 ## Solicitud de credenciales API públicas
 
-Member API credentials are connected to an ORCID member organization. Your organization must be an ORCID member to request Member API credentials. If your journal is affiliated with an institution, contact the institution's library to ask about ORCID membership and API credentials. You may also wish to check whether your organization belongs to a [local consortium](https://orcid.org/consortia), as you may be able to receive help from the consortium. You can also contact ORCID directly at support@orcid.org.
+Las credenciales de miembro API están conectadas a una organización miembro del ORCID. Tu organización debe ser un miembro de ORCID para solicitar credenciales de miembro API. Si tu revista está afiliada a una institución, puede ponerse en contacto con la biblioteca o el área responsable de las suscripciones de tu entidad y preguntar sobre la membresía ORCID y las credenciales API. También puedes comprobar si tu organización pertenece a un [consorcio local](https://orcid.org/consortia), y como puedes recibir ayuda del consorcio. También puedes ponerte en contacto con ORCID directamente al correo electrónico support@orcid.org.
 
-To request your Member API credentials, complete the form to [Register a client application: Production Member API - Trusted Party](https://orcid.org/content/register-client-application-production-trusted-party). Once you submit the form, ORCID will email your production member Client ID and Client Secret to you.
+Para solicitar tus credenciales de miembro API, completa el formulario a [Registre una aplicación cliente: Production Member API - Trusted Party](https://orcid.org/content/register-client-application-production-trusted-party). Once you submit the form, ORCID will email your production member Client ID and Client Secret to you.
 
 ### ORCID redirect URIs
 
