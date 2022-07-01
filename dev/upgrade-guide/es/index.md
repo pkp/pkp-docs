@@ -272,43 +272,43 @@ $ php tools/upgrade.php check
 
 En la siguiente captura de pantalla, podemos ver que estamos ejecutando `3.2.1-4` y que se actualizará a `3.3.0-6`.
 
-![An example of running the PHP upgrade check in the command-line.](./assets/upgrade-check.png)
+![Un ejemplo de ejecutar la comprobación de actualización de PHP en la línea de comandos.](./assets/upgrade-check.png)
 
-Por último, cuando tu estes listo, ejecuta el script de actualización, que puede tardar varias horas en completarse. You may also wish to [log the output](#log-the-output).
+Por último, cuando tu estes listo, ejecuta el script de actualización, que puede tardar varias horas en completarse. También es posible que desees generar un registro (log) del resultado del proceso (output) [log the output](#log-the-output).
 
 ```bash
 $ php tools/upgrade.php upgrade
 ```
 
-If the upgrade is successful, you will see the message below informing you that the upgrade was successful.
+Si la actualización fue exitosa, verás un mensaje informándote que la actualización fue exitosa.
 
-![An example of the "Successfully upgraded" message in the command-line.](./assets/successful-upgrade.png)
+![Un ejemplo del mensaje "actualizado con éxito" en la línea de comandos.](./assets/successful-upgrade.png)
 
 #### Log the Output
 
-The upgrade script will print a lot of information to the terminal. We recommend sending the output to a log file. This will help you troubleshoot if the upgrade fails.
+El script de actualización imprimirá mucha información a la terminal. Recomendamos enviar el resultado del proceso (output) a un archivo de registro (log). Esto te ayudará a solucionar problemas si la actualización falla.
 
 ```bash
 $ nohup php tools/upgrade.php upgrade > $OJS_ROOT_PATH/upgrade.log &
 ```
 
-Check the progress of the upgrade.
+Comprueba el progreso de la actualización.
 ```bash
 $ tail -f $OJS_ROOT_PATH/upgrade.log
 ```
 
-### 9. Remove Maintenance Mode
+### 9. Desactiva el "Modo de Mantenimiento"
 
-When the upgrade is complete, remove the maintenance mode previously configured by modifying your Apache `VirtualHost` directive or updating your `.htaccess` file.
+Cuando la actualización se haya completado, elimina el "modo de mantenimiento" previamente configurado modificando la directiva `VirtualHost` de Apache o actualizando tu `. archivo taccess`.
 
 ```bash
 $ cd "$OJS_WEB_PATH/"
 $ mv .htaccess .htaccess.disabled
 ```
 
-If your PHP timeouts and/or memory limit were adjusted, restore their original values.
+Si para asegurarte el éxito de la instación realizaste ajustes en los tiempos de espera o en los límites de memoria de PHP, restaura sus valores originales.
 
-Reload the apache server to apply the changes.
+Reinicia el servidor de Apache para que los cambios se apliquen.
 
 ```bash
 (Debian)$ service apache2 reload
@@ -316,71 +316,71 @@ Reload the apache server to apply the changes.
 (RHEL)$ systemctl restart httpd
 ```
 
-### 10. Test the Upgrade
+### 10. Ejecuta un testeo de la actualización
 
-It's important to test the site after an upgrade. Any core functions for your journals should be tested, as well as custom plugins or themes once they have been reinstalled.
+Es importante probar el sitio después de una actualización. Cualquier función principal para tus revistas debe ser probada, así como *plugins* o temas personalizados una vez que se hayan reinstalado.
 
-The following is a short checklist that covers common use cases.
+La siguiente es una breve lista de verificación que cubre casos de uso común.
 
-1. Reader interface
-    - The homepage loads
-    - The theme loads correctly
-    - Published articles can be downloaded
-    - Letters and text characters are displaying correctly
-    - No timeouts or long delays
-    - No broken links
-    - Articles appear correctly in the search
-2. Database
-    - Charset and collation on database, tables and fields
-    - Database engine is innoDB for database and all tables (MariaDB/MySQL only)
-3. Register a new user account and login
-     - Register an author
-     - Get a registration email
-     - Login with the new user
-4. Complete the editorial workflow
-    - As a Journal Manager:
-        - Create a new testing journal
-        - Register your new user as an author in the testing journal
-    - As an Author:
-        - Login as author and submit an article to a test journal
-        - Confirm you are able to upload a document
-    - As an Editor:
-        - Assign the article to a section
-        - Accept article without revision
-        - Create a new issue and assign the article to it
-        - Publish the issue
-        - Download the published article
-        - Unpublish the article and remove the issue
-5. User management
-    - As a Journal manager:
-        - Assign new roles to the new user
-        - Change new user's profile data and password
-        - Remove the new user by merging it to your admin account
-6. Additional testing of common tasks
+1. Interfaz del lector
+    - La página de inicio carga correctamente
+    - El tema se carga correctamente
+    - Los artículos publicados pueden ser descargados
+    - Las letras y los caracteres de texto se muestran correctamente
+    - No hay tiempos de espera o retrasos largos
+    - No hay ligas o enlaces rotos
+    - Los artículos aparecen correctamente en la búsqueda
+2. Base de datos
+    - Conjunto de caracteres y colación en la base de datos, tablas y campos
+    - El motor de base de datos es innoDB para la base de datos y todas las tablas (sólo MariaDB/MySQL)
+3. Registrar una nueva cuenta de usuario e iniciar sesión
+     - Registrar un autor
+     - Comprueba la recepcón del correo de registro
+     - Iniciar sesión con el nuevo usuario
+4. Completar el flujo de trabajo editorial
+    - Como gestor de la revista:
+        - Crea una nueva revista de prueba
+        - Registra tu nuevo usuario/a como autor/a en la revista de pruebas
+    - Como autor/a:
+        - Inicia sesión como autor/a y envía un artículo a la revista de prueba
+        - Confirma que puedes subir un documento
+    - Como editor/a:
+        - Asignar el artículo a una sección
+        - Aceptar artículo sin revisión
+        - Crear un nuevo número y asignarle el artículo
+        - Publica el número
+        - Descargar el artículo publicado
+        - Despublica el artículo y elimina el número
+5. Gestión de usuarios
+    - Como gestor de la revista:
+        - Asignar nuevos roles al nuevo usuario
+        - Cambiar los datos de perfil y contraseña del nuevo usuario
+        - Elimina el nuevo usuario fusionándolo con tu cuenta de administrador
+6. Pruebas adicionales de tareas comunes
 
-### 11. Restore Custom Plugins
+### 11. Restaurar *Plugins* Personalizados
 
-Use the Plugin Gallery to restore any custom plugins that were installed.
+Utiliza la Galería de *plugins* para restaurar los *plugins* personalizados que fueron instalados.
 
-If you have installed custom plugins which are not in the Plugin Gallery, check with the plugin distributor for an update which is compatible with your upgraded version.
+Si has instalado *plugins* personalizados que no están en la Galería de *Plugins*, comprueba con el distribuidor si existe una actualización compatible con su versión actualizada.
 
-### 12. Cleanup Backup Files
+### 12. Limpiar archivos de copia de seguridad
 
-You may wish to retain your backup files, but if you don't, you can remove them.
+Puede que desees conservar tus archivos de copia de seguridad, pero si no, puedes eliminarlos con el siguiente comando.
 
 ```bash
 $ sudo rm -fR "$OJS_BACKUP_PATH/*"
 ```
 
-### 13. Celebrate
+### 13. ¡Celébralo!
 
-**Your OJS instance has been successfully upgraded. ¡Felicidades!**
+**Tu nueva versión de OJS ha sido actualizada con éxito. ¡Felicidades!**
 
 ## Solución de problemas
 
-Consult the following resources if you encounter any problems.
+Consulta los siguientes recursos si encuentras algún problema.
 
-* [PKP Forum](https://forum.pkp.sfu.ca/) - Questions and answers in the support forum
-* [FAQ](/faq/en/) - The [Errors and Troubleshooting](/faq/en/errors-troubleshooting) section may be helpful
-* [Admin Guide - Troubleshooting](/admin-guide/) - See the [Troubleshooting](/admin-guide/en/troubleshooting) section
-* [GitHub Issues](https://github.com/pkp/pkp-lib/issues) - Review known issues reported against versions of the software
+* [Foro de PKP](https://forum.pkp.sfu.ca/) - Preguntas y respuestas en el foro de soporte
+* [Preguntas frecuentes](/faq/en/) - La sección [errores y solución de problemas](/faq/en/errors-troubleshooting) puede ser útil
+* [Guía de administración - Resolución de problemas](/admin-guide/) - Ver la sección [Resolución de problemas](/admin-guide/en/troubleshooting)
+* [GitHub Issues](https://github.com/pkp/pkp-lib/issues) - Revise los problemas conocidos reportados contra versiones del software
