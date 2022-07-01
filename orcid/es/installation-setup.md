@@ -65,13 +65,13 @@ En el formulario de registro, ingrese:
 
 Las credenciales de miembro API están conectadas a una organización miembro del ORCID. Tu organización debe ser un miembro de ORCID para solicitar credenciales de miembro API. Si tu revista está afiliada a una institución, puede ponerse en contacto con la biblioteca o el área responsable de las suscripciones de tu entidad y preguntar sobre la membresía ORCID y las credenciales API. También puedes comprobar si tu organización pertenece a un [consorcio local](https://orcid.org/consortia), y como puedes recibir ayuda del consorcio. También puedes ponerte en contacto con ORCID directamente al correo electrónico support@orcid.org.
 
-Para solicitar tus credenciales de miembro API, completa el formulario a [Registre una aplicación cliente: Production Member API - Trusted Party](https://orcid.org/content/register-client-application-production-trusted-party). Once you submit the form, ORCID will email your production member Client ID and Client Secret to you.
+Para solicitar tus credenciales de miembro API, completa el formulario a [Registre una aplicación cliente: Production Member API - Trusted Party](https://orcid.org/content/register-client-application-production-trusted-party). Una vez que envíes el formulario, ORCID te enviará un correo electrónico como miembro de producción "Client ID" y cliente secreto.
 
-### ORCID redirect URIs
+### URIs de redirección ORCID
 
-When you register for ORCID API credentials, you will need to enter at least one Redirect URI, which is the journal location that your users will be sent to after authorizing OJS/OPS to connect to their ORCID record, The URI must begin with “https://” and include the link to the journal as part of the URI. For example:
+Cuando te registras en credenciales de ORCID API, tendrás que introducir al menos una URI de Redirección, cuál es la ubicación de la revista a la que se enviarán sus usuarios después de autorizar a OJS/OPS a conectarse a su registro ORCID, La URI debe comenzar con “https://” e incluir el enlace a la revista como parte de la URI. Por ejemplo:
 
-* This works (for example, for a multi-journal installation): https://example.com
+* Quiere decir (por ejemplo, para una instalación de múltiples revistas): https://example.com
 * This works (for a single journal): https://example.com/index.php/testJournal
 * This does NOT work: https://example.com/index.php/testJournal/index
 
