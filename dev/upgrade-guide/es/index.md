@@ -14,7 +14,7 @@ Esta guía te ayudará a actualizar Open Journal Systems (OJS). En ella encontra
 
 Las instrucciones debajo decriben cómo actualizar OJS cuando el mismo esté instalado en un entorno LAMP stack (Linux, Apache, MySQL, PHP). De igual modo, estos pasos se podrán adaptar tanto para actualizar otros sistemas desarrollados por PKP (OMP, OPS) como para realizar actualizaciones de instalaciones en otros entornos de servidor.
 
-## Required Knowledge and Tools
+## Conocimentos y herramientas requeridos
 
 > **¡ATENCIÓN!** revisa la lista debajo y comprueba si cuentas con los conocimientos y herramientas necesarios para avanzar. Un mal procedimiento durante la actualización puede generar errores irrecuperables. 
 > 
@@ -176,71 +176,71 @@ Utiliza tu copia de seguridad para crear un entorno de desarrollo para testear l
 
 Una vez completada la prueba, puedes ejecutar cualquier prueba automática o manual que hayas configurado para asegurarte de que la actualización no introdujo regresiones.
 
-**Only perform the next steps on your live, production environment if you have already completed a test upgrade in your sandbox environment.**
+**Sólo realiza los siguientes pasos en tu entorno de producción si ya has completado y testeado la actualización en tu entorno de desarrollo.**
 
-### 5. Download Release Package
+### 5. Descarga la versión de actualización publicada
 
-Download the correct release package.
+Descarga la [correcta](h3[2]) versión de actualización publicada
 
 ```bash
 $ cd "$OJS_ROOT_PATH"
 $ wget "https://pkp.sfu.ca/ojs/download/$OJS_VERSION.tar.gz"
 ```
 
-### 6. Check System Requirements
+### 6. Comprueba los requisitos de sistema
 
-Check the [README](https://pkp.sfu.ca/ojs/README) file from the downloaded `tar.gz` and be sure your system meets the following requirements.
+Lee el archivo [README](https://pkp.sfu.ca/ojs/README) (en inglés) del archivo `tar.gz` descargado y asegurate de que tu sistema cumpla con los siguientes requisitos:
 
-- Apache version
-- MySQL or PostgreSQL version
-- PHP version
-- Server libraries and module requirements
+- Versión de Apache
+- Versión MySQL o PostgreSQL
+- Versión de PHP
+- Requisitos de módulos y librerías del servidor
 
-In addition, you will want to perform the following checks.
+Además cerciorate de realizar las siguientes comprobaciones:
 
-- Adjust your PHP timeouts and memory limits to ensure the upgrade process can complete successfully.
-- Check the server libraries and module requirements for any plugins you've added (these can often be found in the plugin's README file).
+- Comprueba el seteo de los tiempos de espera de PHP y los límites de memoria para asegurar que el proceso de actualización pueda completarse con éxito.
+- Compruebe las librerías y los módulos del servidor requeridos por aquellos * plugins * que tengas instalados (estos requisitos se pueden encontrar a menudo en el archivo README de cada *plugin*).
 
-### 7. Install Release Package
+### 7. Descarga la versión de actualización publicada
 
-Backup the application files.
+Copia de seguridad del sistema
 
 ```bash
 $ mv "$OJS_WEB_PATH" "$OJS_BACKUP_PATH"
 ```
 
-Extract the release package.
+Descomprime el archivo de la versión de actualización publicada.
 
 ```bash
 $ mkdir "$OJS_WEB_PATH"
 $ tar --strip-components=1 -xvzf "$OJS_VERSION.tar.gz" -C "$OJS_WEB_PATH"
 ```
 
-Restore the `config.inc.php` file.
+Recupera el archivo `config.inc.php` resguardado.
 
 ```bash
 $ cp "$OJS_BACKUP_PATH/html/config.inc.php" "$OJS_WEB_PATH"
 ```
 
-Run the following command to compare your configuration file with the template of the new release. Add or remove any configuration options as necessary.
+Ejecuta el siguiente comando para comparar su archivo de configuración con la plantilla de la nueva versión. Agregue o elimine cualquier opción de configuración según sea necesario.
 
 ```bash
 $ diff "$OJS_BACKUP_PATH/config.inc.php" "$OJS_WEB_PATH/config.TEMPLATE.inc.php"
 ```
 
-Restore the `.htaccess` file if it exists.
+Si existe, recupera el archivo `.htaccess` resguardado.
 
 ```bash
 $ cp "$OJS_BACKUP_PATH/.htaccess" "$OJS_WEB_PATH"
 ```
 
-Restore the public files.
+Restaura los archivos públicos resguardados.
 
 ```bash
 $ cp -r "$OJS_BACKUP_PATH/html/public/*" "$OJS_PUBLIC_PATH"
 ```
 
-Set the permissions of new files as required by your server configuration.
+Establece los permisos de los nuevos archivos según los requisitos de la configuración de tu servidor.
 
 ```bash
 (Debian)$ sudo chown -R $WEB_USER:$WEB_GROUP "$OJS_PUBLIC_PATH" "$OJS_WEB_PATH/cache/"
@@ -248,7 +248,7 @@ Set the permissions of new files as required by your server configuration.
 (RHEL)$ sudo chown -R apache:apache "$OJS_PUBLIC_PATH" "$OJS_WEB_PATH/cache/"
 ```
 
-Set the permissions for the plugin directories as required.
+Establece los permisos para los directorios de *plugin* según sea necesario.
 
 ```bash
 (Debian)$ sudo chown -R $WEB_USER:$WEB_GROUP "$OJS_WEB_PATH/plugins/"
@@ -256,25 +256,25 @@ Set the permissions for the plugin directories as required.
 (RHEL)$ sudo chown -R apache:apache "$OJS_WEB_PATH/plugins/"
 ```
 
-If the server is running under [SElinux](https://en.wikipedia.org/wiki/Security-Enhanced_Linux), reset the file contexts.
+Si el servidor se está ejecutando bajo [SElinux](https://en.wikipedia.org/wiki/Security-Enhanced_Linux), restablezca los contextos del archivo.
 
 ```bash
 (RHEL)$ sudo restorecon -R "$OJS_WEB_PATH/"
 ```
 
-### 8. Run the Upgrade
+### 8. Ejecuta la actualización
 
-Confirm the version numbers match your expectations.
+Confirma que los números de versión coinciden con la versión deseada.
 
 ```bash
 $ php tools/upgrade.php check
 ```
 
-In the screenshot below, we can see that we are currently running `3.2.1-4` and will be upgrading to `3.3.0-6`.
+En la siguiente captura de pantalla, podemos ver que estamos ejecutando `3.2.1-4` y que se actualizará a `3.3.0-6`.
 
 ![An example of running the PHP upgrade check in the command-line.](./assets/upgrade-check.png)
 
-Finally, when you are ready, run the upgrade script, which may take several hours to complete. You may also wish to [log the output](#log-the-output).
+Por último, cuando tu estes listo, ejecuta el script de actualización, que puede tardar varias horas en completarse. You may also wish to [log the output](#log-the-output).
 
 ```bash
 $ php tools/upgrade.php upgrade
