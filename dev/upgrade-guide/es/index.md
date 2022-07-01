@@ -30,7 +30,7 @@ Para proceder con esta guía deberás contar con experiencia en el uso de herram
 
 ### Preparando la actualización...
 
-Before starting your upgrade, you can review `docs/release-notes` and the [release notebook](/dev/release-notebooks/) for your upgrade version to learn about important changes introduced in each version. El `config.TEMPLATE.inc.php` incluye una descripción para la mayoría de los parámetros de configuración.
+Antes de comenzar tu actualización, puedes revisar las notas de la versión de actualización publicada (`docs/release-notes`). Visitando el [release notebook](/dev/release-notebooks/) podrás conocer en detalle los cambios importantes introducidos tanto en la versión de actualización elegida como en otras versiones de actualización publicadas. El `config.TEMPLATE.inc.php` incluye una descripción para la mayoría de los parámetros de configuración.
 
 Tenga en cuenta que una actualización puede tomar de unos minutos hasta varias horas dependiendo del tamaño de su sitio.
 
@@ -53,15 +53,13 @@ Es recomendable que realices las actualizaciones en un entorno de prueba primero
 
 No siempre es posible actualizar de una versión 2.x a cualquier versión de 3.x. Al realizar actualizaciones desde una versión 2.x, primero debería actualizar a versiones intermedias. La siguiente tabla describe los pasos necesarios.
 
-| De           | a            | Descripción                                                                                        |
-| ------------ | ------------ | -------------------------------------------------------------------------------------------------- |
-| `< 2.4.8` | `2.4.8-x`    | Antes de actualizar a 3.x, asegúrese de que ha sido actualizado a la última compilación `2.4.8-x`. |
+| De           | a           | Descripción                                                                                        |
+| ------------ | ----------- | -------------------------------------------------------------------------------------------------- |
+| `< 2.4.8` | `2.4.8-x`   | Antes de actualizar a 3.x, asegúrese de que ha sido actualizado a la última compilación `2.4.8-x`. |
 | `2.4.8-x
 `   | `3.2.1-x
-`   | No puedes actualizar a 3.3.x o posterior desde 2.x                                                 |
-| `3.2.1-x
-`   | `3.3 >=
-` | Actualizar de `3.2.1-x` a cualquier versión 3.3 o posterior.                                       |
+`  | No puedes actualizar a 3.3.x o posterior desde 2.x                                                 |
+| `3.2.1-x`    | `3.3 >=` | Actualizar de `3.2.1-x` a cualquier versión 3.3 o posterior.                                       |
 
 ## Tutorial de actualización
 
@@ -380,7 +378,7 @@ $ sudo rm -fR "$OJS_BACKUP_PATH/*"
 
 Consulta los siguientes recursos si encuentras algún problema.
 
-* [Foro de PKP](https://forum.pkp.sfu.ca/) - Preguntas y respuestas en el foro de soporte
+* [Foro de PKP](https://forum.pkp.sfu.ca/) - Preguntas y respuestas en el foro de soporte. <a ref="Errores comunes al actualizar OJS desde la versión 2.x a la versión 3.2.x">Errores comunes al actualizar OJS desde la versión 2.x a la versión 3.2.x</a>
 * [Preguntas frecuentes](/faq/en/) - La sección [errores y solución de problemas](/faq/en/errors-troubleshooting) puede ser útil
 * [Guía de administración - Resolución de problemas](/admin-guide/) - Ver la sección [Resolución de problemas](/admin-guide/en/troubleshooting)
 * [GitHub Issues](https://github.com/pkp/pkp-lib/issues) - Revise los problemas conocidos reportados contra versiones del software
