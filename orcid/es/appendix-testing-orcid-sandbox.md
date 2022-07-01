@@ -18,17 +18,17 @@ El proceso para obtener las credenciales de la API del entorno de prueba ORCID v
 
 ### La API pública del entorno de prueba
 
-Free and available to anyone, the Public API allows for ORCID iD authentication and reading public data from ORCID records.
+La API pública es gratuita y se encuentra disponible para cualquiera, permite la autenticación de los perfiles ORCID y la lectura de datos públicos de los registros ORCID.
 
-Public API credentials are connected to an individual’s ORCID iD. To obtain Sandbox Public API credentials:
+Las credenciales de la API pública se encuentran conectadas a los perfiles ORCID individuales. Para obtener credenciales de la API pública del entorno de prueba, tiene que:
 
-1. Register for a Sandbox ORCID iD account at the [ORCID sandbox site](https://sandbox.orcid.org).
-2. Sign in to your Sandbox ORCID record.
-3. Go to the “Developer tools” tab, and follow the instructions to [register a public API client application](https://support.orcid.org/hc/en-us/articles/360006897174-Register-a-public-API-client-application). See the note on “ORCID Redirect URIs” below for guidance on what to enter for your Redirect URIs.
+1. Regístrarse en en el sitio [de pruebas ORCID](https://sandbox.orcid.org) para obtener una cuenta en el perfil de ORCID.
+2. Iniciar sesión en el entorno de prueba de ORCID.
+3. Ir a la pestaña "Herramientas para desarrolladores" y seguir las instrucciones para [registrar una aplicación pública de cliente API](https://support.orcid.org/hc/en-us/articles/360006897174-Register-a-public-API-client-application). Y consultar la nota en “URIs de redirección ORCID” para obtener orientación para agregar sus URIs de redirección.
 
-### Sandbox Member API
+### La API de miembro del entorno de prueba
 
-The ORCID Member API requires ORCID institutional membership. In addition to the functionalities of the Public API, the Member API allows for reading “trusted-parties” data from ORCID records, as well as adding/updating metadata on ORCID records. Consult the ORCID member directory to see if your organization is already an [ORCID member](https://orcid.org/members), or review [ORCID’s membership information](https://orcid.org/about/membership) if your organization is interested in becoming an ORCID member.
+La API de miembros ORCID requiere una membresía institucional ORCID. Y adicional a las funcionalidades de la API pública, la API de miembros permite leer datos de "partes de confianza" de los registros ORCID, así como añadir y/o actualizar automáticamente metadatos en los registros. Se le recomienda consultar el directorio de miembros de ORCID para ver si su organización ya es miembro de [ORCID](https://orcid.org/members), o revisar [la información sobre la membresía ORCID](https://orcid.org/about/membership) si es que su organización está interesada en convertirse en un miembro de ORCID.
 
 Member API credentials are connected to an ORCID member organization. Your organization must be an ORCID member to request Member API credentials. You may wish to check whether your organization belongs to a [local consortium](https://orcid.org/consortia), as you may be able to receive help from the consortium. To request Sandbox Member API credentials:
 
