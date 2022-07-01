@@ -36,10 +36,10 @@ La **API pública** es gratuita y está disponible para cualquiera. Permite la a
 
 Por otro lado, la **API de miembro** requiere la membresía institucional ORCID. Adicional a las funcionalidades de la API pública, la API de miembros permite leer datos de "partes de confianza" de los registros ORCID, así como añadir y/o actualizar automáticamente metadatos en los registros
 
-If your journal is affiliated with an institution, contact the institution's library to ask about ORCID membership and API credentials. You can also consult the ORCID member directory to see if your organization is already an [ORCID member](https://orcid.org/members), or review [ORCID’s membership information](https://orcid.org/about/membership) if your organization is interested in becoming an ORCID member. You can also contact ORCID directly at support@orcid.org.
+Si su revista está afiliada a una institución, puede ponerse en contacto con la biblioteca o el área responsable de las suscripciones de su Entidad y preguntar sobre la membresía ORCID y las credenciales API. You can also consult the ORCID member directory to see if your organization is already an [ORCID member](https://orcid.org/members), or review [ORCID’s membership information](https://orcid.org/about/membership) if your organization is interested in becoming an ORCID member. También puede ponerse en contacto con ORCID directamente al correo electrónico support@orcid.org.
 
-## Sandbox vs production credentials
+## Credenciales de Sandbox y credenciales de producción
 
-ORCID provides plugin users with an option to test how the plugin works with your installation in a Sandbox (testing) environment before going live with the Production environment. You will need a different set of credentials for the Sandbox vs Production API.
+ORCID proporciona a los usuarios de plugins, una opción para probar cómo funciona su instalación dentro de un entorno Sandbox (de prueba) antes de ir en vivo con el entorno de producción. Usted necesitará un conjunto diferente de credenciales para Sandbox y la API de Producción.
 
-How to obtain Sandbox credentials, how to test in the Sandbox, and the advantages of testing in the Sandbox are explained further in the [Appendix: Testing the ORCID Sandbox](./appendix-testing-orcid-sandbox.md) chapter.
+Si requiere conocer cómo obtener las credenciales de Sandbox, cómo probar en el Sandbox, y las ventajas de probar en el Sandbox, se explican más en el capítulo [Apéndice: Pruebas del OrCID Sandbox](./appendix-testing-orcid-sandbox.md).
