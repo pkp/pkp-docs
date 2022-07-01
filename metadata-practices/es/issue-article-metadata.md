@@ -1,5 +1,5 @@
 ---
-title: Metadatos de números y artículos - Buenas prácticas en los metadatos de la revista
+title: Metadatos del número y artículo - Buenas prácticas en los metadatos de revistas
 ---
 
 # Metadatos de números y artículos
