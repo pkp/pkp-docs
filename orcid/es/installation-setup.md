@@ -1,67 +1,67 @@
 - - -
-title: How to Set Up the ORCID Plugin in OJS and OPS
+title: ¿Cómo configurar el plugin ORCID en OJS y OPS?
 - - -
 
-# Set Up the ORCID Plugin
+# Configuración del plugin ORCID
 
-To use the plugin, you will first need to obtain either Public or Member ORCID API credentials (Client ID and Client Secret) and then configure the ORCID plugin in OJS/OPS with this information.
+Para usar el plugin, primero tendrá que obtener credenciales públicas o miembro de la API ORCID (ID del cliente y del cliente) y luego configurar el plugin ORCID en OJS/OPS con esta información.
 
-This chapter explains how to obtain production (live) credentials and add them to the ORCID plugin in your OJS/OPS. You can also test the plugin with Sandbox credentials first before using the live credentials. For details on how to test in the Sandbox and why you may want to, see the [Appendix: Testing the ORCID Sandbox](./appendix-testing-orcid-sandbox.md) chapter.
+En este capítulo se explica cómo obtener credenciales de producción (en vivo) y añadirlas al plugin ORCID en su OJS/OPS. También puedes probar primero el plugin con las credenciales de "Sandbox" antes de utilizar las credenciales en vivo. Para más detalles sobre cómo probar en "Sandbox" y por qué puedes querer hacerlo, consulta el capítulo [Apéndice: Prueba del Sandbox ORCID](./appendix-testing-orcid-sandbox.md).
 
-**IMPORTANT: do not enable the plugin until you have the credentials and are ready to setup the plugin.**
+**IMPORTANTE: no active el plugin hasta que tenga las credenciales y esté listo para configurar el plugin.**
 
-## Request Public API credentials
+## Solicitar credenciales API públicas
 
-### 1. Register for an ORCID iD
+### 1. Regístrate para un ORCID iD
 
-ORCID iD registration is free and only requires your name and email.
+El registro ORCID iD es gratuito y sólo requiere su nombre y correo electrónico.
 
-If you already have an ORCID iD, skip to [2. Sign into your ORCID iD](#2-sign-into-your-orcid-id).
+Si ya tiene un iD ORCID, puede ir al paso [2. Inicia sesión en tu ORCID iD](#2-sign-into-your-orcid-id).
 
-1. Navigate to [the ORCID website](https://orcid.org/)
-2. Click on the [SIGN IN / REGISTER](https://orcid.org/signin) menu on the top right ![ORCID homepage with sign in / register button pointed out.](./assets/orcid_signup.png)
-3. Create an account with your email or sign in with your institutional account (if your institution is set up for ORCID single sign on). ![ORCID sign in page with an emphasis on registration option.](./assets/orcid_signup_register.png)
-4. If you need further registration guidance, the [Register your ORCID page](https://support.orcid.org/hc/en-us/articles/360006897454-Register-your-ORCID-iD) contains detailed step-by-step instructions.
+1. Vaya a [el sitio web ORCID](https://orcid.org/)
+2. Haga clic en el menú [SIGN EN / REGISTRO](https://orcid.org/signin) en la parte superior derecha ![ORCID homepage with sign in / register button pointed out.](./assets/orcid_signup.png)
+3. Cree una cuenta con su correo electrónico o inicie sesión con su cuenta institucional (si su institución está configurada para un solo inicio de sesión de ORCID). ![ORCID sign in page with an emphasis on registration option.](./assets/orcid_signup_register.png)
+4. Si usted necesita más orientación para completar el registro, [Registre su página ORCID](https://support.orcid.org/hc/en-us/articles/360006897454-Register-your-ORCID-iD) contiene instrucciones detalladas paso a paso.
 
-### 2. Sign into your ORCID iD
+### 2. Inicia sesión en tu ORCID iD
 
-1. Navigate to [the ORCID website](https://orcid.org/)
-2. Click on the [SIGN IN / REGISTER](https://orcid.org/signin) menu on the top right
-3. Sign in with your existing email account or via your institutional credentials (if your institution is set up for ORCID single sign on)
+1. Vaya a [el sitio web ORCID](https://orcid.org/)
+2. Haga clic en el menú [SIGN EN / REGISTRO](https://orcid.org/signin) en la parte superior derecha
+3. Inicia sesión con tu cuenta de correo electrónico existente o a través de tus credenciales institucionales (si tu institución está configurada para ORCID solo inicia sesión)
 
 ![ORCID sign in page with email or ORCID iD and password fields emphasized.](./assets/orcid_signin.png)
 
-### 3. Navigate to Developer Tools
+### 3. Navegar a Herramientas de Desarrollador
 
-Click your name on the top right and select “Developer Tools” from the drop-down.
+Haz clic en tu nombre en la parte superior derecha y selecciona “Herramientas para desarrolladores” en el menú desplegable.
 
 ![ORCID record with account name dropdown expanded and Developer Tools selected.](./assets/orcid_dev_tools.png)
 
-### 4. Select to register for the Public API
+### 4. Seleccione para registrarse en la API pública
 
-Click on the button “Register for the free ORCID public API”.
+Haga clic en el botón “Registrarse para la API pública ORCID gratuita”.
 
-You will be asked to read and consent to the terms of service.
+Se le pedirá que lea y acepte las condiciones del servicio.
 
 ![ORCID Developer Tools page with the highlighted button Register for the free ORCID public API.](./assets/orcid_dev_tools_register.png)
 
-### 5. Fill out the registration form
+### 5. Complete el formulario de registro
 
-In the registration form, enter:
+En el formulario de registro, ingrese:
 
-* Your journal name
-* Your journal URL
-* A brief message about your journal - it will be displayed to your users when they connect their ORCID iDs
-* Redirect URI - this is the page your users will be taken to after they have authenticated their ORCID iDs. It must begin with “https://” and include the link to the journal. For details and examples see the [ORCID redirect URIs section](#orcid-redirect-uris) below.
+* Nombre completo de revista
+* URL de tu revista
+* Un breve mensaje sobre su revista - se mostrará a sus usuarios cuando conecten sus iDs ORCID
+* Redireccionar URI - esta es la página a la que serán llevados tus usuarios después de que se hayan autenticado sus iDs ORCID. Esta debe comenzar con “https://” e incluir el enlace a la revista. Para más detalles y ejemplos vea la sección [ORCID redireccionar URIs](#orcid-redirect-uris) a continuación.
 
 ![ORCID Developer Tools public API request form.](./assets/orcid_dev_tools_form.png)
 
-### 6. Save the form and receive your credentials
+### 6. Guarda el formulario y recibe tus credenciales
 
-1. Click on the save icon on bottom right to save the form. ![ORCID Developer Tools public API request form with the save icon pointed out.](./assets/orcid_dev_tools_form_save.png)
-2. Your credentials (Client ID and Client Secret) will be displayed right away. Copy these credentials into the OJS/OPS ORCID Profile Plugin as explained below. ![ORCID Developer Tools public API request form with Client ID and Secret displayed.](./assets/orcid_dev_tools_form_credentials.png)
+1. Haga clic en el icono de guardar en la parte inferior derecha para guardar el formulario. ![ORCID Developer Tools public API request form with the save icon pointed out.](./assets/orcid_dev_tools_form_save.png)
+2. Your credentials (Client ID and Client Secret) will be displayed right away. Copie estas credenciales en el ORCID Profile Plugin de OJS/OPS como se explica a continuación. ![ORCID Developer Tools public API request form with Client ID and Secret displayed.](./assets/orcid_dev_tools_form_credentials.png)
 
-## Request Member API credentials
+## Solicitud de credenciales API públicas
 
 Member API credentials are connected to an ORCID member organization. Your organization must be an ORCID member to request Member API credentials. If your journal is affiliated with an institution, contact the institution's library to ask about ORCID membership and API credentials. You may also wish to check whether your organization belongs to a [local consortium](https://orcid.org/consortia), as you may be able to receive help from the consortium. You can also contact ORCID directly at support@orcid.org.
 
