@@ -162,32 +162,32 @@ Tenga en cuenta que puede tener que configurar adicionalmente contraseñas de ap
 
 El Sender Policy Framework (SPF) se basa en el permiso que un servidor, que puede estar ejecutando OJS, recibe de otro servidor que aloja el dominio principal. Esto autoriza al servidor OJS a enviar correos electrónicos usando ese dominio e impide que los mensajes sean bloqueados.
 
-SPF is required when your OJS installation runs on a different server, including a subdomain, from your main domain; For instance, when you host a journal located at journal.domain.com on a server located outside of the institution which hosts domain.com.
+SPF es necesario cuando su instalación de OJS se ejecuta en un servidor diferente, incluyendo un subdominio, desde su dominio principal; Por ejemplo, cuando se aloja una revista ubicada en el subdomino mirevista.dominio_principal.com en un servidor ubicado fuera de la institución que aloja dominio_principal.com.
 
-In this situation, you will have to ask your IT services staff to enable a TXT entry in your DNS zone, which grants sending emails and notifications on behalf of @domain.com. Below is an example of a possible scenario where a SPF record is required:
+En esta situación, tendrá que preguntar a su personal de servicios de TI para agregar un registro TXT en los servidores DNS de su zona, el cual otorgará el envío de correos electrónicos y notificaciones en nombre del dominio @dominio_princpal.com. A continuación se muestra un ejemplo de un posible escenario donde se requiere un registro SPF:
 
-Server running OJS:
+Servidor ejecutando OJS:
 
 ```
 IP: 10.10.10.10
-Server name: myojsserver.com (this is not your domain, but only a server name which is defined by your OJS host vendor)
+Nombre del servidor: myojsserver.com (este no es su dominio, sino sólo un nombre de servidor definido por su proveedor de hosting para el OJS)
 ```
 
-This server will need to be included in your DNS zone as a TXT SPF record. In this case, you will need to add the following:
+Este servidor necesitará ser incluido en su zona DNS como un registro TXT SPF. En este caso, añadir el siguiente registro:
 
 ```
-Name: blank, or set to @ (depending on your domain registrar instructions)
+Name: vacío, o establecer a @ (esto depende de tu domino a registrar)
 Type: TXT
 Value: v=spf1 ip4:10.10.10.10 a:myojsserver.com ~all
 ```
 
-If you already have a TXT record in your DNS zone, you will need merge it to keep only one TXT record. There should only be a single DNS TXT record.
+Si usted ya tiene un registro TXT en su zona DNS, necesitará fusionarlo para mantener sólo un registro TXT. Sólo debe haber un único registro DNS TXT.
 
-### Domain-based Message Authentication, Reporting and Conformance (DMARC)
+### DMARC (Mensaje de Autenticación basado en Domino, Reportes y Conformidad)
 
-While SPF provides the provision for OJS to send emails using a return path or email envelope containing an email address with a domain other than the one the OJS server is hosted on, there are times when OJS may send email on behalf of users that use domains that you cannot adust the SPF record for. Gmail is a good example: if an admin has a `user@gmail.com` address, there's no way you can get Google to add us as an SPF record.
+Mientras que SPF proporciona el permiso de que OJS envíe correos electrónicos utilizando una ruta de retorno o un remitente de correo electrónico que contenga una dirección de correo electrónico con un dominio distinto al servidor donde el OJS está alojado, hay ocasiones en las que OJS debe enviar correo electrónico en nombre de los usuarios que utilizan dominios para los que no se puede agregar un registro SPF. Gmail es un buen ejemplo: si un administrador tiene la dirección de correo `user@gmail.com`, no hay manera de que Google pueda agregarnos como un registro SPF.
 
-DMARC solves this by putting the user's email in the `reply-to:` address, and and putting the `default_envelope_sender` in the `From:` field. As of OJS 3.1.2, you can configure this via two new parameters in your `config.inc.php` file, namely `force_dmarc_compliant_from` and `dmarc_compliant_from_displayname`. (If you are on OJS 3.1.2+ and don't see those parameters in your live config file, you will want to review your `config.TEMPLATE.inc.php` file and move them over as they appear there.)
+DMARC resuelve esto estableciendo el correo electrónico del usuario en el campo `Responder a:`, y la dirección de correo electrónico establecida en la directiva `default_envelope_sender` en el campo `De:`. A partir de OJS 3.1.2, usted puede configurar esto a través de dos nuevos parámetros en su archivo de configuración de OJS `config.inc.php`, estableciendo los 2 campos, `force_dmarc_compliant_from` y `dmarc_compliant_from_displayname`. (Si estás en OJS 3.1.2+ y no ves esos parámetros en tu archivo de configuración actual, debes revisar el archivo de configuración `config.TEMPLATE.inc.php` y copiarlos como aparecen ahí.)
 
 ## Troubleshooting Email Problems
 
