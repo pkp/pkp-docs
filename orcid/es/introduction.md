@@ -36,7 +36,7 @@ La **API pública** es gratuita y está disponible para cualquiera. Permite la a
 
 Por otro lado, la **API de miembro** requiere la membresía institucional ORCID. Adicional a las funcionalidades de la API pública, la API de miembros permite leer datos de "partes de confianza" de los registros ORCID, así como añadir y/o actualizar automáticamente metadatos en los registros
 
-Si su revista está afiliada a una institución, puede ponerse en contacto con la biblioteca o el área responsable de las suscripciones de su Entidad y preguntar sobre la membresía ORCID y las credenciales API. You can also consult the ORCID member directory to see if your organization is already an [ORCID member](https://orcid.org/members), or review [ORCID’s membership information](https://orcid.org/about/membership) if your organization is interested in becoming an ORCID member. También puede ponerse en contacto con ORCID directamente al correo electrónico support@orcid.org.
+Si su revista está afiliada a una institución, puede ponerse en contacto con la biblioteca o el área responsable de las suscripciones de su Entidad y preguntar sobre la membresía ORCID y las credenciales API. También es posible consultar el directorio de miembros para ver si una organización es un [ miembro de ORCID](https://orcid.org/members) o ver [Información de miembros de ORCID](https://orcid.org/about/membership) si la organización está interesada en convertirse en miembro.  También puede ponerse en contacto con ORCID directamente al correo electrónico support@orcid.org.
 
 ## Credenciales de Sandbox y credenciales de producción
 
