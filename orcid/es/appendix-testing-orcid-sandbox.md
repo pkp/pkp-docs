@@ -1,22 +1,22 @@
 - - -
-title: Testing in the ORCID Sandbox - ORCID Plugin Guide for OJS and OPS
+title: Trabajando en el Sandbox de ORCID - Guía de plugins ORCID para OJS y OPS
 - - -
 
-# Appendix: Testing in the ORCID Sandbox
+# Apéndice: Probando el entorno de prueba de ORCID
 
-ORCID provides the option to test the ORCID plugin in a Sandbox environment before using it in the live Production environment of your OJS journal or OPS server. Testing the plugin in the Sandbox will allow you to do the following:
+ORCID proporciona la opción de probar el plugin (complemento) ORCID en un entorno de pruebas (Sandbox) antes de usarlo en el entorno de producción en línea de su revista en el OJS o servidor OPS. Trabajar con el complemente de un entorno de prueba le permitirá hacer lo siguiente:
 
-* Check that the ORCID plugin works in your installation
-* Learn how to use the plugin and try all of its features without affecting any real ORCID IDs or sending real emails to researchers
-* Test the ORCID Member API to see how it works, even if you are not an ORCID member
+* Comprobar que la instalación del complemento ORCID funciona correctamente.
+* Aprender a utilizar el complemento y probar todas sus características sin afectar ninguno de los perfiles ORCID reales enviando correos electrónicos reales a los investigadores.
+* Probar la API de miembro de ORCID y ver cómo funciona, incluso si no eres un miembro de ORCID.
 
-This chapter explains how to test the plugin.
+Este capítulo explica cómo probar el complemento.
 
-## Obtain ORCID Sandbox API credentials
+## ¿Como obtener las credenciales API del entorno de prueba de ORCID?
 
-The process for obtaining your Sandbox ORCID API credentials will vary depending on whether you are planning to use the ORCID Public API or the ORCID Member API.
+El proceso para obtener las credenciales de la API del entorno de prueba ORCID variará en función de si está planeando utilizar la API pública ORCID o la API de miembro ORCID.
 
-### Sandbox Public API
+### La API pública del entorno de prueba
 
 Free and available to anyone, the Public API allows for ORCID iD authentication and reading public data from ORCID records.
 
