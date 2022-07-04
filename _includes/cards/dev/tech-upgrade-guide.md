@@ -1,4 +1,4 @@
 
 ### [How to Upgrade](/dev/upgrade-guide/en/)
 
-This guide is a general (version non-specific) Open Journal Systems upgrade guide for technical staff. [View Now](/dev/upgrade-guide/en/)
+A step-by-step guide for technical staff who want to upgrade to the latest version. [View Now](/dev/upgrade-guide/en/)
