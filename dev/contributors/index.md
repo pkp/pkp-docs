@@ -551,6 +551,23 @@ class DOIRepository
 }
 ```
 
+Avoid inline comments when you need to clarify ambiguous variable names.
+
+```php
+// Check all submissions
+foreach ($items as $item) {
+
+}
+```
+
+Use variable names instead.
+
+```php
+foreach ($items as $submission) {
+
+}
+```
+
 #### Constants
 
 Avoid using numbers or strings to represent states or properties.
