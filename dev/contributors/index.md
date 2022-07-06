@@ -202,9 +202,9 @@ When you have updated your code in response to a code review, post another comme
 
 Remember that your pull request and code review creates work for someone else. The following will make it as easy as possible to review your code.
 
-1. Try to keep the code changes in your pull request restricted to those required to complete the task. It is tempting to clean up type hinting, syntax or code organisation as you go. But it can be very difficult for the reviewer to look through 100 lines of code changes to find the 5 lines that fixed the bug. When possible, implement these changes in a separate PR.
-2. Try to be as clear and concise as possible in your description. The reviewer may not understand the bug or feature that the pull request addresses. A clear description of the problem and the approach you took to solve it will help your reviewer give a better review. If user interactions are involved, screenshots or videos can be very helpful!
-3. Make sure that your pull request is opened against the correct branch. Bug fixes are usually opened against a stable branch while new features are usually opened against the `main` branch.
+1. Only include changes in your pull request that are required to complete the task. It is tempting to clean up type hinting, syntax or code organisation as you go. But it can be very difficult for the reviewer to look through 100 lines of code changes to find the 5 lines that fixed the bug. When possible, implement these changes in a separate PR.
+2. Be as clear and concise as possible in your description. The reviewer may not understand the bug or feature that the pull request addresses. A clear description of the problem and the approach you took to solve it will help your reviewer give a better review. If user interactions are involved, screenshots or videos can be very helpful!
+3. Open your pull request against the correct branch. Bug fixes are usually opened against a stable branch while new features are usually opened against the `main` branch.
 
 ## Code Style
 
@@ -638,7 +638,7 @@ function getStatus($object): ?int
 }
 ```
 
-Use terniary operators when a variable is being assigned or returned.
+Use ternary operators when a variable is being assigned or returned.
 
 ```php
 function getStatus($object): ?int
@@ -653,7 +653,7 @@ Use your judgement when working with complex conditions. Sometimes a conditional
 
 ```php
 // This would be confusing if it only
-// used terniary operators.
+// used ternary operators.
 function getStatus($object): ?int
 {
     if ($object->isA() && $object->otherCondition()) {
