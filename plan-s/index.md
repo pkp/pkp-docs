@@ -1,7 +1,7 @@
 ---
 generateHeadingToc: true
 ---
-# Guide to demonstrating Plan S compliance in OJS
+# Guide to Plan S compliance in OJS
 
 > Contributors: Kate Shuttleworth, Mariya Maistrovskaya
 
