@@ -1,14 +1,14 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Forms - Frontend - Technical Documentation - OJS|OMP|OPS 3.3
+title: Formulários - Frontend - Technical Documentation - OJS|OMP|OPS 3.3
 ---
 
-# Forms
+# Formulários
 
-[Forms](/dev/ui-library/dev/#/component/Form) coordinate the activity of many nested components. In order to ensure that forms implement accessible markup and support multilingual input, helper classes are available to create, configure and display forms.
+[Formulários](/dev/ui-library/dev/#/component/Form) coordenam a atividade de muitos componentes aninhados. Para garantir que os formulários implementem marcação acessível e suporte a entrada multilíngue, classes auxiliares estão disponíveis para criar, configurar e exibir formulários.
 
-Each form extends the `FormComponent` class.
+Cada formulário estende a classe `FormComponent`.
 
 ```php
 /**
@@ -18,8 +18,8 @@ namespace PKP\components\forms\context;
 use PKP\components\forms\FormComponent;
 
 /**
- * Each form should have a unique ID defined in a constant
- */
+  * Cada formulário deve ter um ID único definido em uma constante
+  */
 define('FORM_CONTACT', 'contact');
 
 class PKPContactForm extends FormComponent {
@@ -32,9 +32,9 @@ class PKPContactForm extends FormComponent {
     /**
      * Constructor
      *
-     * @param $action string URL to submit the form to
-     * @param $locales array Supported locales
-     * @param $context Context Journal or Press to change settings for
+      * @param $action string URL para enviar o formulário para
+      * @param $locales array Locales suportados
+      * @param $context Contexto da Revista ou Editora para alterar as configurações de
      */
     public function __construct($action, $locales, $context) {
         $this->action = $action;
@@ -45,13 +45,13 @@ class PKPContactForm extends FormComponent {
 }
 ```
 
-Add fields to the form by using one of the available `FieldXXXX` component types. Include a `use` statement at the top of the file to import the field class.
+Adicione campos ao formulário usando um dos tipos de componentes `FieldXXXX` disponíveis. Inclua uma instrução `use` na parte superior do arquivo para importar a classe de campo.
 
 ```php
 use PKP\components\forms\FieldText;
 ```
 
-And add fields in the `__construct` method.
+E adicione campos no método `__construct`.
 
 ```php
 public function __construct($action, $locales, $context) {
@@ -71,14 +71,14 @@ public function __construct($action, $locales, $context) {
 }
 ```
 
-> Every form field in the [UI Library](/dev/ui-library/dev) has an equivalent PHP class in `\PKP\components\forms`. 
+> Cada campo de formulário na [Biblioteca de UI](/dev/ui-library/dev) tem uma classe PHP equivalente em `\PKP\components\forms`. 
 > 
 > {:.tip}
 
-Forms will be created by a `PageHandler` and passed to the `TemplateManager` as state. First, create an instance of the form by passing the URL where it should be submitted and the locales supported by the current context.
+Os formulários serão criados por um `PageHandler` e passados para o `TemplateManager` como estado. Primeiro, crie uma instância do formulário passando a URL onde ela deve ser enviada e as localidades suportadas pelo contexto atual.
 
 ```php
-// The URL where the form will be submitted
+// A URL onde o formulário será enviado
 $apiUrl = $request
     ->getDispacher()
     ->url(
@@ -88,18 +88,18 @@ $apiUrl = $request
         'contexts/' . $context->getId()
     );
 
-// Get a key/map of locale keys and names
+// Obtém uma chave/mapa de chaves e nomes de localidade
 $supportedFormLocales = $context->getSupportedFormLocales();
 $localeNames = AppLocale::getAllLocales();
 $locales = array_map(function($localeKey) use ($localeNames) {
     return ['key' => $localeKey, 'label' => $localeNames[$localeKey]];
 }, $supportedFormLocales);
 
-// Create an instance of the contact form
+// Cria uma instância do formulário de contato
 $contactForm = new PKP\components\forms\context\PKPContactForm($apiUrl, $locales, $context);
 ```
 
-Then use the `getConfig()` method to compile all of the required props and pass them to the template's [component state](frontend-ui-library#state-management-for-complex-components).
+Em seguida, use o método `getConfig()` para compilar todos os props necessários e passá-los para o componente [do modelo estado](frontend-ui-library#state-management-for-complex-components).
 
 ```php
 $templateMgr = TemplateManager::getManager($request);
@@ -110,7 +110,7 @@ $templateMgr->setState([
 ]);
 ```
 
-Finally, bind the props to a `<pkp-form>` component in the template and use the `set` method to [manage component state](frontend-ui-library#state-management-for-complex-components).
+Por fim, vincule as props a um componente `<pkp-form>` no template e use o método `set` para [gerenciar o estado do componente](frontend-ui-library#state- management-for-complex-components).
 
 ```html
 {extends file="layouts/backend.tpl"}
@@ -123,23 +123,23 @@ Finally, bind the props to a `<pkp-form>` component in the template and use the 
 {/block}
 ```
 
-### Locales
+### Localidades
 
-Every form expects to receive an array of locales it should support. This list must be drawn from the context settings.
+Cada formulário espera receber uma matriz de localidades que deve suportar. Essa lista deve ser extraída das configurações de contexto.
 
-Use the supported submission locales whenever the form handles submission data, such as title, abstract, contributors and galleys.
+Use as localidades de submissões com suporte sempre que o formulário manipular dados de submissão, como título, resumo, colaboradores e composições.
 
 ```php
 $supportedLocales = $context->getSupportedSubmissionLocales();
 ```
 
-Use the supported form locales for most other forms, such as context settings and issue data.
+Use as localidades de formulário com suporte para a maioria dos outros formulários, como configurações de contexto e dados de edição.
 
 ```php
 $supportedLocales = $context->getSupportedFormLocales();
 ```
 
-Then compile the locales into an array with the locale key and label.
+Em seguida, compile as localidades em uma matriz com a chave de localidade e o rótulo.
 
 ```php
 $localeNames = AppLocale::getAllLocales();
@@ -150,11 +150,11 @@ $locales = array_map(function($localeKey) use ($localeNames) {
 $contactForm = new PKP\components\forms\context\PKPContactForm($apiUrl, $locales, $context);
 ```
 
-### Modify Forms
+### Modificar formulários
 
-It is possible to add, edit, or remove fields from an existing form. This can be necessary when an application needs to modify a base form or when a plugin wants to replace a field in a form.
+É possível adicionar, editar ou remover campos de um formulário existente. Isso pode ser necessário quando uma aplicação precisa modificar um formulário base ou quando um plug-in deseja substituir um campo em um formulário.
 
-Use an extended form class when an application needs to modify a form shared by other applications. The example below adds a field to the journal settings form to request a journal abbreviation in OJS.
+Use uma classe de formulário estendida quando uma aplicação precisar modificar um formulário compartilhado por outras aplicações. O exemplo abaixo adiciona um campo ao formulário de configurações da revista para solicitar uma abreviação da revista no OJS.
 
 ```php
 namespace APP\components\forms\context;
@@ -178,12 +178,12 @@ class ContextForm extends PKPContextForm {
 }
 ```
 
-Use the `Form::config::before` hook when a [plugin](http://localhost:4000/dev/plugin-guide/en/) needs to modify a form. The example below removes the free-text subject metadata field and replaces it with a dropdown list.
+Use o hook `Form::config::before` quando um [plugin](http://localhost:4000/dev/plugin-guide/en/) precisar ser modificado um formulário. O exemplo abaixo remove o campo de metadados de assunto de texto livre e o substitui por uma lista suspensa.
 
 ```php
 HookRegistry::register('Form::config::before', function($hookName, $form) {
 
-    // Only modify the metadata form
+     // Modifica apenas o formulário de metadados
     if (!defined('FORM_METADATA') || $form->id !== FORM_METADATA) {
         return;
     }
@@ -203,9 +203,9 @@ HookRegistry::register('Form::config::before', function($hookName, $form) {
 }
 ```
 
-### Groups
+### Grupos
 
-Fields can be grouped together to provide a shared label and description.
+Os campos podem ser agrupados para fornecer um rótulo e uma descrição compartilhados.
 
 ```php
 namespace PKP\components\forms\context;
@@ -224,9 +224,9 @@ class PKPMastheadForm extends FormComponent {
     /**
      * Constructor
      *
-     * @param $action string URL to submit the form to
-     * @param $locales array Supported locales
-     * @param $context Context Journal or Press to change settings for
+      * @param $action string URL para enviar o formulário para
+      * @param $locales array Locales suportados
+      * @param $context Contexto para Revista ou Editora para alterar as configurações de
      */
     public function __construct($action, $locales, $context) {
         $this->action = $action;
@@ -248,13 +248,13 @@ class PKPMastheadForm extends FormComponent {
 }
 ```
 
-Fields in a group are placed in a `<fieldset>`. The UI Library includes an example of [field groups](/dev/ui-library/dev/#/component/Form/with-groups).
+Os campos em um grupo são colocados em um `<fieldset>`. A Biblioteca de IU inclui um exemplo de [grupos de campos](/dev/ui-library/dev/#/component/Form/with-groups).
 
-### Conditional Display
+### Exibição Condicional
 
-Fields can be shown or hidden based on the value of another field. This can be used to hide fields that are not relevant when a feature is enabled or disabled.
+Os campos podem ser mostrados ou ocultados com base no valor de outro campo. Isso pode ser usado para ocultar campos que não são relevantes quando um recurso é ativado ou desativado.
 
-In the example below the `announcementsIntroduction` field will be hidden unless the `enableAnnouncements` field has a truthy value.
+No exemplo abaixo, o campo `announcementsIntroduction` ficará oculto, a menos que o campo `enableAnnouncements` tenha um valor de verdade.
 
 ```php
 $this->addField(new FieldOptions('enableAnnouncements', [
@@ -266,7 +266,7 @@ $this->addField(new FieldOptions('enableAnnouncements', [
     ]));
 ```
 
-The `showWhen` argument can also be configured to react to an exact value. In the example below the `copyrightHolderOther` field will be hidden unless the `copyrightHolderType` has the exact value `other`.
+O argumento `showWhen` também pode ser configurado para reagir a um valor exato. No exemplo abaixo, o campo `copyrightHolderOther` ficará oculto, a menos que o `copyrightHolderType` tenha o valor exato `other`.
 
 ```php
 $this->addField(new FieldRadioInput('copyrightHolderType', [
@@ -278,8 +278,8 @@ $this->addField(new FieldRadioInput('copyrightHolderType', [
     ]));
 ```
 
-The UI Library includes an example of [conditional display](/dev/#/component/Form/with-conditional-display).
+A Biblioteca de IU inclui um exemplo de [exibição condicional](/dev/#/component/Form/with-conditional-display).
 
 ---
 
-Learn about another complex component, [ListPanels](./frontend-list-panels), in the next section.
+Saiba mais sobre outro componente complexo, [ListPanels](./frontend-list-panels), na próxima seção.
