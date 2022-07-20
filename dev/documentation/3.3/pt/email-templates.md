@@ -1,55 +1,55 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Email Templates - Technical Documentation - OJS|OMP|OPS 3.3
+title: Modelos de Email - Documentação Técnica - OJS|OMP|OPS 3.3
 ---
 
 # Modelos de e-mail
 
-Email templates mix customized, editable data with fixed defaults. For this reason, the behavior of the `EmailTemplateService` differs from other entity service classes. This section describes some of the differences.
+Os modelos de e-mail combinam dados personalizados e editáveis com padrões fixos. Por esse motivo, o comportamento do `EmailTemplateService` difere de outras classes entity service. Esta seção descreve algumas das diferenças.
 
-## Use keys instead of ids
+## Use chaves em vez de ids
 
-Default email templates do not have ids. Instead, get an email template by its key.
+Os modelos de e-mail padrão não têm Ids. Em vez disso, obtenha um modelo de email por sua chave.
 
 ```php
 $emailTemplate = Services::get('emailTemplate')->getByKey($contextId, $key);
 ```
 
-## Default and custom templates
+## Modelos padrão e personalizados
 
-Default templates are installed when the application is created or a new locale is added. These templates are used during the workflow and other planned events in the application.
+Os modelos padrão são instalados quando a aplicação é criada ou uma nova localidade é adicionada. Esses modelos são usados durante o fluxo de trabalho e outros eventos planejados na aplicação.
 
-Default templates can not be deleted, but some of them can be edited or disabled. Check the `canEdit` and `canDisable` properties.
+Os modelos padrão não podem ser excluídos, mas alguns deles podem ser editados ou desativados. Verifique as propriedades `canEdit` e `canDisable`.
 
-Custom templates are created by the end-user. They are not automatically used by the application. They can be deleted.
+Os modelos personalizados são criados pelo usuário final. Eles não são usados automaticamente pela aplicação. Eles podem ser excluídos.
 
-## Default template data
+## Dados do modelo padrão
 
-Default templates include data that can not be edited and is not available to custom templates. These properties include `canDisable`, `canEdit`, `fromRoleId` and `toRoleId`.
+Os modelos padrão incluem dados que não podem ser editados e não estão disponíveis para modelos personalizados. Essas propriedades incluem `canDisable`, `canEdit`, `fromRoleId` e `toRoleId`.
 
-When this data is not available, the values will be returned as `null`.
+Quando esses dados não estiverem disponíveis, os valores serão retornados como `null`.
 
-## Custom template data
+## Dados do modelo personalizado
 
-Custom templates can be distinguished from default templates by the `id` property. The `id` property will be `null` for all other templates.
+Os modelos personalizados podem ser diferenciados dos modelos padrão pela propriedade `id`. A propriedade `id` será `null` para todos os outros modelos.
 
-## Delete and reset templates
+## Excluir e redefinir modelos
 
-A custom email template can be deleted using the `delete` method of the service class.
+Um modelo de email personalizado pode ser excluído usando o método `delete` da classe service.
 
 ```
 Services::get('emailTemplate')->delete($emailTemplate);
 ```
 
-When a default template is deleted in this way, only the custom modifications will be deleted. The default data will remain. In this way, the `delete` method will "reset" a default template.
+Quando um modelo padrão é excluído dessa forma, apenas as modificações personalizadas serão excluídas. Os dados padrão serão mantidos. Desta forma, o método `delete` irá "redefinir" um template padrão.
 
-## Enabled by default
+## Habilitado por padrão
 
-Email templates are considered `enabled` even if the property is `NULL` in the database. Any code that searches the database on that column should treat `NULL` values as `true`.
+Os modelos de email são considerados `enabled` mesmo se a propriedade for `NULL` no banco de dados. Qualquer código que pesquise o banco de dados nessa coluna deve tratar os valores `NULL` como `true`.
 
-When you are working with an `EmailTemplate` object you should have accurate data because the property is transformed to `true`/`false` when it is retrieved from the database.
+Ao trabalhar com um objeto `EmailTemplate`, você deve ter dados precisos porque a propriedade é transformada em `true`/`false` quando é recuperada do banco de dados.
 
-## All languages required
+## Todos os idiomas obrigatórios
 
-Because email templates may be used with any user's current locale, all languages are required for the `subject` and `body` fields. An email template can not be added without entries for all locales active in the context UI.
+Como os modelos de e-mail podem ser usados com a localidade atual de qualquer usuário, todos os idiomas são necessários para os campos `subject` e `body`. Um modelo de email não pode ser adicionado sem entradas para todas as localidades ativas na interface do usuário de contexto.
