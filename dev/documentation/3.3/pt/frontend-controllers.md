@@ -1,28 +1,28 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Controllers - Frontend - Technical Documentation - OJS|OMP|OPS 3.3
+title: Controllers - Frontend - Documentação Técnica - OJS|OMP|OPS 3.3
 ---
 
 # Controllers
 
-> **Controllers are deprecated** and should not be used to build new features. The documentation provided here is for developers who need to modify an existing controller. 
+> **Controllers estão obsoletos** e não devem ser usados para criar novos recursos. A documentação fornecida aqui é para desenvolvedores que precisam modificar um controlador existente. 
 > 
 > {:.warning}
 
-Many of the objects in PKP's applications have not yet been converted to use the [REST API](/dev/api/), [entity schema](./architecture-entities), and [UI Library](./frontend-ui-library). These objects make use of controllers.
+Muitos dos objetos nas aplicações do PKP ainda não foram convertidos para usar a [API REST](/dev/api/), [esquema de entidade](./architecture-entities) a> e [Biblioteca de IU](./frontend-ui-library). Esses objetos fazem uso de controllers.
 
-A controller is a special kind of `Handler` which receives and responds to ajax requests. It receives HTTP requests, compiles a template into a fragment of HTML for the component, and sends it back in a JSON payload. A JavaScript handler processes the JSON and updates the DOM.
+Um controlador é um tipo especial de `Handler` que recebe e responde a solicitações ajax. Ele recebe solicitações HTTP, compila um template em um fragmento de HTML para o componente e o envia de volta em uma carga JSON. Um JavaScript handler processa o JSON e atualiza o DOM.
 
-Developers are encouraged to read the controller sections of the [Routes](./architecture-routes) and [Handlers](./architecture-handlers) documentation before continuing.
+Os desenvolvedores são incentivados a ler as seções doecontroller da documentação [Rotas](./architecture-routes) e [Handlers](./architecture-handlers) antes de continuar.
 
 ## Grids
 
-Grids provide a UI controller which is used to list items. A grid typically provides the ability to add, edit and delete these items.
+As grids fornecem um controlador de interface do usuário que é usado para listar itens. Uma grid normalmente fornece a capacidade de adicionar, editar e excluir esses itens.
 
-Grids are composed of a `GridHandler` which coordinates the whole list. A `GridRow` is created for each item in the list. And one or more `GridCell` classes determine which data to display in each column.
+Grids são compostas por um `GridHandler` que coordena toda a lista. Um `GridRow` é criado para cada item na lista. E uma ou mais classes `GridCell` determinam quais dados exibir em cada coluna.
 
-A grid works by extending the `GridHandler` class and defining an `initialize` method.
+Uma grid funciona estendendo a classe `GridHandler` e definindo um método `initialize`.
 
 ```php
 import('lib.pkp.classes.controllers.grid.GridHandler');
@@ -38,9 +38,9 @@ class PKPReviewerGridHandler extends GridHandler {
 }
 ```
 
-Actions such as adding a new item to the grid are defined in the `initialize` method. The example below adds a button that opens a modal with a form.
+Ações como adicionar um novo item à grid são definidas no método `initialize`. O exemplo abaixo adiciona um botão que abre um modal com um formulário.
 
-> The next section will describe how to load and handle a form controller. 
+> A próxima seção descreverá como carregar e manipular um controlador de formulário. 
 > 
 > {:.notice}
 
@@ -50,7 +50,7 @@ public function initialize(Request $request, $args = null) {
 
     $this->setTitle('user.role.reviewers');
 
-    // Get a URL to the GridHandler's `showReviewerForm` op
+  // Obtém uma URL para a operação `showReviewerForm` do GridHandler
     $reviewerFormUrl = $request->getRouter()->url(
         $request,
         null,
@@ -80,7 +80,7 @@ public function initialize(Request $request, $args = null) {
 }
 ```
 
-The columns that should be shown in each row are also defined in the `initialize` method.
+As colunas que devem ser mostradas em cada linha também são definidas no método `initialize`.
 
 ```php
 public function initialize(Request $request, $args = null) {
@@ -89,7 +89,7 @@ public function initialize(Request $request, $args = null) {
 
     $cellProvider = new ReviewerGridCellProvider();
 
-    // Add a column for the reviewer's name
+ // Adiciona uma coluna para o nome do avaliador
     $this->addColumn(
         new GridColumn(
             'name',
@@ -100,7 +100,7 @@ public function initialize(Request $request, $args = null) {
         )
     );
 
-    // Add a column for the status of the review assignment
+  // Adiciona uma coluna para o status da atribuição de avaliação
     $this->addColumn(
         new GridColumn(
             'status',
@@ -113,7 +113,7 @@ public function initialize(Request $request, $args = null) {
 }
 ```
 
-Finally, the grid must define a `loadData` method that gets the items to be displayed. It should return an `array` of [DataObjects](./architecture-entities#dataobject-class).
+Finalmente, a grid deve definir um método `loadData` que obtém os itens a serem exibidos. Ele deve retornar um `array` de [DataObjects](./architecture-entities#dataobject-class).
 
 ```php
 import('lib.pkp.classes.controllers.grid.GridHandler');
@@ -129,7 +129,7 @@ class PKPReviewerGridHandler extends GridHandler {
      * @see GridHandler::loadData()
      */
     protected function loadData($request, $filter) {
-        // Get the existing review assignments for this submission
+       // Obter as atribuições de avaliação existentes para esta submissão
         $reviewRound = $this->getReviewRound();
         $reviewAssignmentDao = DAORegistry::getDAO('ReviewAssignmentDAO'); /* @var $reviewAssignmentDao ReviewAssignmentDAO */
         return $reviewAssignmentDao->getByReviewRoundId($reviewRound->getId());
@@ -137,7 +137,7 @@ class PKPReviewerGridHandler extends GridHandler {
 }
 ```
 
-Each item in the array returned by `loadData` will be passed to a new class that extends the `GridRow` class.
+Cada item no array retornado por `loadData` será passado para uma nova classe que estende a classe `GridRow`.
 
 ```php
 import('lib.pkp.classes.controllers.grid.GridRow');
@@ -154,7 +154,7 @@ class ReviewerGridRow extends GridRow {
 }
 ```
 
-Actions related to each row should be defined in the `initialize` method of the `GridRow` class. The example below adds a button that opens a modal with the review details.
+As ações relacionadas a cada linha devem ser definidas no método `initialize` da classe `GridRow`. O exemplo abaixo adiciona um botão que abre um modal com os detalhes da avaliação.
 
 ```php
 import('lib.pkp.classes.controllers.grid.GridRow');
@@ -195,7 +195,7 @@ class ReviewerGridRow extends GridRow {
 }
 ```
 
-Let the `GridHandler` know which `GridRow` class should be loaded.
+Deixe o `GridHandler` saber qual classe `GridRow` deve ser carregada.
 
 ```php
 import('lib.pkp.classes.controllers.grid.GridHandler');
@@ -214,9 +214,9 @@ class PKPReviewerGridHandler extends GridHandler {
 }
 ```
 
-Finally, a `GridCellProvider` class will map each item to one of the grid columns for display.
+Finalmente, uma classe `GridCellProvider` mapeará cada item para uma das colunas da grid para exibição.
 
-> Read the examples above that use `$this->addColumn()` to see how the grid cell provider is loaded in the `GridHandler`. 
+> Leia os exemplos acima que usam `$this->addColumn()` para ver como o provedor de célula da grid é carregada no `GridHandler`. 
 > 
 > {:.tip}
 
@@ -231,7 +231,7 @@ class ReviewerGridCellProvider extends DataObjectGridCellProvider {
      */
     public function getTemplateVarsFromRowColumn($row, $column) {
 
-        // Get the ReviewAssignment for this row
+        // Obter o ReviewAssignment para esta linha
         $reviewAssignment = $row->getData();
 
         switch ($column->getId()) {
@@ -248,7 +248,7 @@ class ReviewerGridCellProvider extends DataObjectGridCellProvider {
 
 ### GridHandler Ops
 
-In an example above an action was added to each review assignment that opens the review in a modal. Review that code below.
+Em um exemplo acima, uma ação foi adicionada a cada atribuição de avaliação que abre a avaliação em um modal. Analise esse código abaixo.
 
 ```php
 import('lib.pkp.classes.controllers.grid.GridRow');
@@ -260,7 +260,7 @@ class ReviewerGridRow extends GridRow {
     public function initialize($request, $template = null) {
         parent::initialize($request, $template);
 
-        // Get a URL to the GridHandler's `readReview` op
+    // Obtém uma URL para a operação `readReview` do GridHandler
         $readReviewUrl = $request->getRouter()->url(
             $request,
             null,
@@ -288,7 +288,7 @@ class ReviewerGridRow extends GridRow {
     }
 }
 ```
-The `LinkAction` loads the modal and the modal makes a request to the `$readReviewUrl`, which is routed to the `PKPReviewerGridHandler`. In order to make this request work, the `PKPReviewerGridHandler` must implement a `readReview` method that returns the HTML to be displayed in the modal.
+O `LinkAction` carrega o modal e o modal faz uma solicitação para o `$readReviewUrl`, que é roteado para o `PKPReviewerGridHandler`. In order to make this request work, the `PKPReviewerGridHandler` must implement a `readReview` method that returns the HTML to be displayed in the modal.
 
 ```php
 import('lib.pkp.classes.controllers.grid.GridHandler');
