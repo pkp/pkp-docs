@@ -288,7 +288,7 @@ class ReviewerGridRow extends GridRow {
     }
 }
 ```
-O `LinkAction` carrega o modal e o modal faz uma solicitação para o `$readReviewUrl`, que é roteado para o `PKPReviewerGridHandler`. In order to make this request work, the `PKPReviewerGridHandler` must implement a `readReview` method that returns the HTML to be displayed in the modal.
+O `LinkAction` carrega o modal e o modal faz uma solicitação para o `$readReviewUrl`, que é roteado para o `PKPReviewerGridHandler`. Para que essa solicitação funcione, o `PKPReviewerGridHandler` deve implementar um método `readReview` que retorne o HTML a ser exibido no modal.
 
 ```php
 import('lib.pkp.classes.controllers.grid.GridHandler');
@@ -297,7 +297,7 @@ class PKPReviewerGridHandler extends GridHandler {
     ...
 
     /**
-     * Return the review details to be displayed in the modal
+     * Retornar os detalhes da avaliação a serem exibidos no modal
      *
      * @param $args array
      * @param $request PKPRequest
@@ -305,37 +305,37 @@ class PKPReviewerGridHandler extends GridHandler {
      */
     public function readReview($args, $request) {
 
-        // The review assignment should be an authorized
-        // context object due to the authorization policies.
-        // Learn more about authorization under the
-        // Architecture > Authorization section of the
-        // documentation.
+        // A atribuição de avaliação deve ser uma autorização
+         // objeto de contexto devido às políticas de autorização.
+        // Saiba mais sobre autorização sob o
+         // Arquitetura > seção de autorização da
+         // documentação.
         $reviewAssignment = $this->getAuthorizedContextObject(ASSOC_TYPE_REVIEW_ASSIGNMENT);
 
-        // Pass the review assignment to the template
+    // Passa a atribuição de avaliação para o template
         $templateMgr = TemplateManager::getManager($request);
         $templateMgr->assign([
             'reviewAssignment' => $reviewAssignment,
         ]);
 
-        // Return a JSONMessage which renders a template
-        // to be displayed in the modal.
+         // Retorna uma JSONMessage que renderiza um template
+         // a ser exibido no modal.
         return $templateMgr->fetchJson('controllers/grid/users/reviewer/readReview.tpl');
     }
 }
 ```
 
-Every action created by the grid handler or the grid row will require an operation in the `GridHandler` to receive the request and return a `JSONMessage`.
+Cada ação criada pelo grid handler ou linha de grid exigirá uma operação no `GridHandler` para receber a solicitação e retornar um `JSONMessage`.
 
 ## Forms
 
-Most controllers are used to display a `Form`, which presents the form, receives the form submission, validates the input, and executes the changes.
+A maioria dos controladores são usados para exibir um `Form`, que apresenta o formulário, recebe o envio do formulário, valida a entrada e executa as alterações.
 
-> The forms described here are used by Controllers which have been deprecated. Use the forms in the [UI Library](./frontend-components#forms) when building forms for new features. 
+> Os formulários descritos aqui são usados por Controllers que foram descontinuados. Use os formulários na [Biblioteca de IU](./frontend-components#forms) ao criar formulários para novos recursos. 
 > 
 > {:.warning}
 
-Every form extends the `Form` class. Define the template to use to render the form and add validation checks in the constructor method.
+Cada formulário estende a classe `Form`. Defina o template a ser usado para renderizar o formulário e adicionar verificações de validação no método construtor.
 
 ```php
 import('lib.pkp.classes.form.Form');
@@ -344,17 +344,17 @@ class PKPAuthorForm extends Form {
 
     public function __construct($publication, $author =  null) {
 
-        // The template that should be used to render the form
+        // O template que deve ser usado para renderizar o formulário
         parent::__construct('controllers/grid/users/author/form/authorForm.tpl');
 
-        // Save object dependencies that will be needed to
-        // render, validate and execute the form.
+         // Salva dependências de objetos que serão necessárias para
+         // renderizar, validar e executar o formulário.
         $this->publication = $publication;
         $this->author = $author;
 
-        // Add validation checks
-        // This example requires a given name in the publication's
-        // default locale
+         // Adiciona verificações de validação
+         // Este exemplo requer um determinado nome na publicação
+         // local padrão
         $this->addCheck(new FormValidatorLocale(
             $this,
             'givenName',
@@ -363,15 +363,15 @@ class PKPAuthorForm extends Form {
             $publication->getData('locale')
         ));
 
-        // All forms should validate the request for a POST
-        // method and check the CSRF token
+        // Todos os formulários devem validar a solicitação de um POST
+        // método e verifica o token CSRF
         $this->addCheck(new FormValidatorPost($this));
         $this->addCheck(new FormValidatorCSRF($this));
     }
 }
 ```
 
-Initialize the data that will be used in the form. This makes pre-existing data available in the template when editing an object.
+Inicialize os dados que serão usados no formulário. Isso torna os dados pré-existentes disponíveis no template ao editar um objeto.
 
 ```php
 class PKPAuthorForm extends Form {
@@ -393,7 +393,7 @@ class PKPAuthorForm extends Form {
 }
 ```
 
-Render the form's template.
+Renderize o template do formulário.
 
 ```php
 class PKPAuthorForm extends Form {
@@ -408,14 +408,14 @@ class PKPAuthorForm extends Form {
             'publicationId' => $this->publication->getId(),
         ));
 
-        // By default the template defined in the constructor
-        // will be loaded
+         // Por padrão o template definido no construtor
+         //será carregado
         return parent::fetch($request, $template, $display);
     }
 }
 ```
 
-Read the input data when the form is submitted.
+Leia os dados de entrada quando o formulário for enviado.
 
 ```php
 class PKPAuthorForm extends Form {
@@ -424,8 +424,8 @@ class PKPAuthorForm extends Form {
 
     public function readInputData() {
 
-        // Store request variables from $_POST
-        // in $this->_data.
+         // Armazena variáveis de requisição de $_POST
+         // em $this->_data.
         $this->readUserVars(array(
             'authorId',
             'givenName',
@@ -435,7 +435,7 @@ class PKPAuthorForm extends Form {
 }
 ```
 
-Save the form and update the object.
+Salve o formulário e atualize o objeto.
 
 ```php
 class PKPAuthorForm extends Form {
@@ -464,11 +464,11 @@ class PKPAuthorForm extends Form {
 }
 ```
 
-> The execute method will only be called if it passes the validation requirements configured in the constructor. 
+> O método execute só será chamado se passar nos requisitos de validação configurados no construtor. 
 > 
 > {:.notice}
 
-Finally, each form needs a template. Use the `FormBuilderVocabulary` to build a template for the form and the fields.
+Finalmente, cada formulário precisa de um template. Use o `FormBuilderVocabulary` para criar um template para o formulário e os campos.
 
 ```html
 <!-- controllers/grid/users/author/form/authorForm.tpl -->
