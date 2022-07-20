@@ -1,15 +1,15 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Frontend - Technical Documentation - OJS|OMP|OPS 3.3
+title: Frontend - Documentação Técnica - OJS|OMP|OPS 3.3
 ---
 
 # Frontend
 
-The chapters in this section describe how the UI for the editorial backend is built. They provide an overview of how to create interactive interfaces to manage submission, workflow and publishing.
+Os capítulos desta seção descrevem como a interface do usuário para o back-end editorial é construída. Eles fornecem uma visão geral de como criar interfaces interativas para gerenciar submissão, fluxo de trabalho e publicação.
 
-> These chapters describe how to work with the editorial backend that handles submission, review, copyediting and production. Visit the [theming guide](/pkp-theming-guide/en) to learn how to customize your site for readers visiting your journal, press or preprint server. 
+> Esses capítulos descrevem como trabalhar com o backend editorial que lida com submissão, avaliação, edição de texto e editoração. Visite o [guia de temas](/pkp-theming-guide/pt) para saber como personalizar seu site para os leitores que visitam seu jornal, editora ou servidor de preprint. 
 > 
 > {:.notice}
 
-The editorial backend is built using Smarty templates and Vue.js. Learn how to [load a page template](./frontend-pages) in the next section.
+O backend editorial é construído usando os templates Smarty e Vue.js. Saiba como [carregar um modelo de página](./frontend-pages) na próxima seção.
