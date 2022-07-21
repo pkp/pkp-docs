@@ -161,10 +161,10 @@ Para código destinado a inclusão na base de código principal:
 - Quando as alterações contribuídas podem afetar mais de uma aplicação, solicitamos que todos os principais aplicações sejam considerados (OJS, OMP e OPS).
 - A equipe de desenvolvimento está feliz em revisar os patches contribuídos, mas temos um tempo limitado para integrar os patches com a base de código ou modificar o código contribuído. Se aspectos do código precisam ser trabalhados, preferimos informar o autor e fazer com que ele faça as modificações.
 
-For contributions that are distributed separately as patches or plugins:
-- If contributors haven't met the conditions above, they are welcome to distribute additional features as patches or plugins. However, the PKP team won't be able to provide support in this case.
-- If the option is available, coding a feature as a plugin is the preferred method.
+Para contribuições que são distribuídas separadamente como patches ou plugins:
+- Se os contribuidores não atenderem às condições acima, eles podem distribuir recursos adicionais como patches ou plugins. No entanto, a equipe PKP não poderá fornecer suporte neste caso.
+- Se a opção estiver disponível, codificar um recurso como um plugin é o método preferido.
 
 ---
 
-Now that you're up and running, learn more about the [application architecture](./architecture).
+Agora que você está pronto, saiba mais sobre a [arquitetura da aplicação](./architecture).
