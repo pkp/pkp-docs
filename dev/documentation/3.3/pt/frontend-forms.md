@@ -1,7 +1,7 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Formulários - Frontend - Technical Documentation - OJS|OMP|OPS 3.3
+title: Formulários - Frontend - Documentação Técnica - OJS|OMP|OPS 3.3
 ---
 
 # Formulários
