@@ -6,47 +6,47 @@ title: Biblioteca UI - Frontend - Documentação Técnica - OJS|OMP|OPS 3.3
 
 # Biblioteca de IU
 
-> Read and understand the essentials section of the [Vue.js guide](https://vuejs.org/v2/guide/) before continuing. 
+> Leia e entenda a seção de fundamentos do [guia Vue.js](https://vuejs.org/v2/guide/) antes de continuar. 
 > 
 > {:.tip}
 
-The [UI Library](/dev/ui-library/dev) is built with [Vue.js](https://vuejs.org/). It provides reusable components to create consistent, accessible user interfaces for all PKP applications. This chapter describes how to pass data into the root Vue.js component and manage state in the browser.
+A [Biblioteca de IU](/dev/ui-library/dev) é criada com [Vue.js](https://vuejs.org/). Ele fornece componentes reutilizáveis para criar interfaces de usuário consistentes e acessíveis para todas as aplicações PKP. Este capítulo descreve como passar dados para o componente raiz Vue.js e gerenciar o estado no navegador.
 
 ## Page Component
 
-The [Page component](/dev/ui-library/dev/#/component/Page) is the root component on a page that manages data and passes props down to child components. Whenever a backend template is used, a `Page` component is automatically mounted to the DOM. This means that global components can be used without any additional configuration.
+O [Page component](/dev/ui-library/dev/#/component/Page) é o componente raiz em uma página que gerencia dados e passa props para componentes filhos. Sempre que um template de backend é usado, um componente `Page` é montado automaticamente no DOM. Isso significa que os componentes globais podem ser usados sem qualquer configuração adicional.
 
 ```html
 {extends file="layouts/backend.tpl"}
 
 {block name="page"}
-    <badge :is-success="true">Published</badge>
+    <badge :is-success="true">Publicado</badge>
 {/block}
 ```
 
-Smarty syntax can be mixed with components from the UI Library. The template below shows a badge when a submission is published.
+A sintaxe do Smarty pode ser misturada com componentes da biblioteca de interface do usuário. O template abaixo mostra um selo quando uma subimissão é publicado.
 
 ```html
 {extends file="layouts/backend.tpl"}
 
 {block name="page"}
     {if $isPublished}
-        <badge :is-success="true">Published</badge>
+        <badge :is-success="true">Publicado</badge>
     {/if}
 {/block}
 ```
 
-Sometimes the publication status will change before the Smarty template is reloaded. When actions are taken in the browser that change the publication status, we need to show or hide the `<badge>` by using state.
+Às vezes, o status da publicação muda antes que o template Smarty seja recarregado. Quando são realizadas ações no navegador que alteram o status da publicação, precisamos mostrar ou ocultar o `<badge>` usando state.
 
 ## State
 
-Data that may change after the page is loaded is called state. For example, when an editor publishes or unpublishes a submission the template needs to update to reflect the new submission status.
+Os dados que podem ser alterados após o carregamento da página são chamados de state. Por exemplo, quando um editor publica ou cancela a publicação de uma submissão, o template precisa ser atualizado para refletir o novo status da submissão.
 
-> State is another name for the `data` properties of the root Vue.js component. 
+> State é outro nome para as propriedades `data` do componente da raiz Vue.js. 
 > 
 > {:.tip}
 
-Initialize state on the server by using the `setState` method to pass data to the `Page` component.
+Inicialize o stste no servidor usando o método `setState` para passar dados para o componente `Page`.
 
 ```php
 class WorkflowHandler extends Handler {
@@ -60,7 +60,7 @@ class WorkflowHandler extends Handler {
 }
 ```
 
-State can be accessed in templates by using the [Vue.js template syntax](https://vuejs.org/v2/guide/syntax.html). The example below will show or hide the `<badge>` when the `isPublished` state changes.
+O sate pode ser acessado em templates usando a [sintaxe de template Vue.js](https://vuejs.org/v2/guide/syntax.html). O exemplo abaixo mostrará ou ocultará o `<badge>` quando o estado `isPublished` for alterado.
 
 ```html
 {extends file="layouts/backend.tpl"}
@@ -70,35 +70,35 @@ State can be accessed in templates by using the [Vue.js template syntax](https:/
         v-if="isPublished"
         :is-success="true"
     >
-        Published
+        Publicado
     </badge>
 {/block}
 ```
 
-Use the Vue.js dev tools for [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/vue-js-devtools/) or [Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en) to toggle state and see how the template changes.
+Use as ferramentas de desenvolvimento Vue.js para [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/vue-js-devtools/) ou [Chrome](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd?hl=en) para alternar o estado e ver como o template muda.
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
     <source src="../img/state.mp4" type="video/mp4">
   </video>
-  <figcaption>Video showing changing state in the browser.</figcaption>
+  <figcaption>Vídeo mostrando a mudança de state no navegador.</figcaption>
 </figure>
 
-State should only be used when data changes the UI must update to reflect that change without reloading the page. It is not always easy to determine which data should be managed by Vue.js as state and which data should be managed by Smarty.
+O state só deve ser usado quando os dados são alterados, a interface do usuário deve atualizar para refletir essa alteração sem recarregar a página. Nem sempre é fácil determinar quais dados devem ser gerenciados pelo Vue.js como state e quais dados devem ser gerenciados pelo Smarty.
 
-To help make the distinction, consider a city street. At any given moment, the number and location of cars on the street will change. But the boundaries of the street and the direction of travel will not.
+Para ajudar a fazer a distinção, considere uma rua da cidade. A qualquer momento, o número e a localização dos carros na rua mudarão. Mas os limites da rua e a direção da viagem não.
 
-In this example, the number and location of cars are state and should be passed to the template using the `setState` method. The boundaries and the direction of travel are not and can be passed to the template using the `assign` method.
+Neste exemplo, o número e a localização dos carros são state e devem ser passados para o template usando o método `setState`. Os limites e a direção da viagem não são e podem ser passados para o modelo usando o método `assign`.
 
-## State Management for Complex Components
+## Gerenciamento de State para Componentes Complexos
 
-The `Page` component sometimes manages state that should be passed down to a complex component. A single `Page` may manage many complex components such as [Forms](/dev/ui-library/dev/#/component/Form) and [ListPanels](/dev/ui-library/dev/#/component/ListPanel) which need to update the state after making requests to the API.
+O componente `Page` às vezes gerencia o state que deve ser passado para um componente complexo. Uma única `Page` pode gerenciar muitos componentes complexos, como [Formulários](/dev/ui-library/dev/#/component/Form) e [ListPanels](/ dev/ui-library/dev/#/component/ListPanel) que precisam atualizar o state após fazer solicitações à API.
 
-> The convention described below is a lightweight alternative to state management libraries such as [Vuex](https://vuex.vuejs.org/). 
+> A convenção descrita abaixo é uma alternativa leve para bibliotecas de gerenciamento de sate, como [Vuex](https://vuex.vuejs.org/). 
 > 
 > {:.tip}
 
-State is passed down to these components as `props`.
+O state é passado para esses componentes como `props`.
 
 ```php
 class WorkflowHandler extends Handler {
@@ -124,13 +124,13 @@ class WorkflowHandler extends Handler {
 {/block}
 ```
 
-This leads to a problem when a field's value changes. The `Form` component can not modify that value because Vue.js enforces a strict [one-way data flow](https://vuejs.org/v2/guide/components-props.html#One-Way-Data-Flow).
+Isso leva a um problema quando o valor de um campo é alterado. O componente `Form` não pode modificar esse valor porque o Vue.js impõe um [fluxo de dados unidirecional](https://vuejs.org/v2/guide/components-props.html#One-Way-Data rigoroso -Flow).
 
-> Read this guide on [organizing components](https://vuejs.org/v2/guide/components.html#Organizing-Components) to understand how props and events are used in Vue.js to manage state across multiple components. 
+> Leia este guia sobre [organização de componentes](https://vuejs.org/v2/guide/components.html#Organizing-Components) para entender como props e eventos são usados no Vue.js para gerenciar estado em vários componentes. 
 > 
 > {:.notice}
 
-In such cases, `Page` components make use of events to manage state for these components. The component's props are added to a `components` object in the state.
+Nesses casos, os componentes `Page` fazem uso de eventos para gerenciar o estado desses componentes. As props do componente são adicionadas a um objeto `components` no estado.
 
 ```php
 class WorkflowHandler extends Handler {
@@ -148,7 +148,7 @@ class WorkflowHandler extends Handler {
 }
 ```
 
-The props are bound to the component in the template and the `Page` component listens for a `set` event.
+As props são vinculadas ao componente no template e o componente `Page` escuta um evento `set`.
 
 ```html
 {extends file="layouts/backend.tpl"}
@@ -161,7 +161,7 @@ The props are bound to the component in the template and the `Page` component li
 {/block}
 ```
 
-When the child component needs to update its props, it fires the `set` event with the following signature.
+Quando o componente filho precisa atualizar suas props, ele dispara o evento `set` com a seguinte assinatura.
 
 ```js
 const newData = {
@@ -170,9 +170,9 @@ const newData = {
 this.$emit('set', 'exampleForm', newData);
 ```
 
-The `Page` component will locate the component's props and update them with the `newData`. In order for this to work, the event must pass the object key, `exampleForm`, as the second argument in the `$emit` function.
+O componente `Page` localizará as props do componente e as atualizará com o `newData`. Para que isso funcione, o evento deve passar a chave do objeto, `exampleForm`, como o segundo argumento na função `$emit`.
 
-The following example shows how the `set` method in a `Page` component updates a component's data.
+O exemplo a seguir mostra como o método `set` em um componente `Page` atualiza os dados de um componente.
 
 ```js
 set(key, newData) {
@@ -186,9 +186,9 @@ set(key, newData) {
 }
 ```
 
-## Extend the Page Component
+## Estender o Page Component
 
-It is often necessary to extend the `Page` component to provide additional functionality for a page. The example below shows the `SettingsPage` component, which adds or removes a navigation menu item when the announcements have been enabled or disabled.
+Muitas vezes é necessário estender o componente `Page` para fornecer funcionalidade adicional para uma página. O exemplo abaixo mostra o componente `SettingsPage`, que adiciona ou remove um item do menu de navegação quando as notícias são habilitadas ou desabilitadas.
 
 ```js
 import Page from './Page.vue';
@@ -224,7 +224,7 @@ export default {
 };
 ```
 
-Once a new page component has been created, it must be imported and registered in `js/load.js`.
+Após a criação de um novo componente de página, ele deve ser importado e registrado em `js/load.js`.
 
 ```js
 ...
@@ -238,7 +238,7 @@ window.pkp = Object.assign(PkpLoad, {
 });
 ```
 
-Finally, the `PageHandler` must assign the `pageComponent` variable to the template and pass the correct state
+Finalmente, o `PageHandler` deve atribuir a variável `pageComponent` ao template e passar o state correto
 
 ```php
 $templateMgr = TemplateManager::getManager($request);
@@ -251,12 +251,12 @@ $templateMgr->setState([
 ])
 ```
 
-Consult the [UI Library](/dev/ui-library/dev/#/component/Page) for a list of available page components.
+Consulte a [Biblioteca de IU](/dev/ui-library/dev/#/component/Page) para obter uma lista de componentes de página disponíveis.
 
-## Reference
+## Referência
 
-The [UI Library](/dev/ui-library/dev) provides a demo, technical specification and usage guidance for each component. It also provides important documentation on utilities such as the [event bus](/dev/ui-library/dev/#/pages/event-bus), [localization](/dev/ui-library/dev/#/pages/localization), and more.
+A [Biblioteca de UI](/dev/ui-library/dev) fornece uma demonstração, especificação técnica e orientação de uso para cada componente. Ele também fornece documentação importante sobre utilitários como o [barramento de eventos](/dev/ui-library/dev/#/pages/event-bus), [localização](/dev/ui- library/dev/#/pages/localization) e muito mais.
 
 ---
 
-The next chapter describes how to create and use [Forms](./frontend-forms).
+O próximo capítulo descreve como criar e usar [Formulários](./frontend-forms).
