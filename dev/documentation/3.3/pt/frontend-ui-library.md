@@ -1,10 +1,10 @@
 ---
 book: dev-documentation
 version: 3.3
-title: UI Library - Frontend - Technical Documentation - OJS|OMP|OPS 3.3
+title: Biblioteca UI - Frontend - Documentação Técnica - OJS|OMP|OPS 3.3
 ---
 
-# UI Library
+# Biblioteca de IU
 
 > Read and understand the essentials section of the [Vue.js guide](https://vuejs.org/v2/guide/) before continuing. 
 > 
