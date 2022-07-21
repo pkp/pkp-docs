@@ -1,7 +1,7 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Formulários - Frontend - Technical Documentation - OJS|OMP|OPS 3.3
+title: Formulários - Frontend - Documentação Técnica - OJS|OMP|OPS 3.3
 ---
 
 # List Panels
@@ -48,11 +48,11 @@ class PKPAnnouncementsListPanel extends ListPanel {
 }
 ```
 
-> The props required for each ListPanel are documented in the [UI Library](/dev/ui-library/dev/). 
+> Os props necessários para cada ListPanel estão documentados na [Biblioteca de UI](/dev/ui-library/dev/). 
 > 
 > {:.tip}
 
-In a `PageHandler`, create a new instance of the ListPanel and pass in the configuration props.
+Em um `PageHandler`, crie uma nova instância do ListPanel e passe as props de configuração.
 
 ```php
 $listPanel = new \PKP\components\listPanels\PKPAnnouncementsListPanel(
@@ -65,7 +65,7 @@ $listPanel = new \PKP\components\listPanels\PKPAnnouncementsListPanel(
 );
 ```
 
-Then call the `getConfig()` method and pass the props to the `TemplateManager` as state.
+Então chame o método `getConfig()` e passe as props para o `TemplateManager` como state.
 
 ```php
 $templateMgr = TemplateManager::getManager($request);
@@ -78,4 +78,4 @@ $templateMgr->setState([
 
 ---
 
-Parts of the UI in PKP's application have not yet been converted to the UI Library. Learn about these [controllers](./frontend-controllers) in the next section.
+Partes da interface do usuário na aplicaçãos do PKP ainda não foram convertidas para a biblioteca de interface do usuário. Saiba mais sobre esses [controllers](./frontend-controllers) na próxima seção.
