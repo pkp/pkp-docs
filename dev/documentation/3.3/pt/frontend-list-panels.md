@@ -1,27 +1,27 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Forms - Frontend - Technical Documentation - OJS|OMP|OPS 3.3
+title: Formulários - Frontend - Technical Documentation - OJS|OMP|OPS 3.3
 ---
 
 # List Panels
 
 
-Many of the [ListPanel](/dev/ui-library/dev/#/component/ListPanel) components are as complex as a small application. They allow the user to add, edit and delete items, perform faceted searches, navigate through paginated lists, and more.
+Muitos dos componentes do [ListPanel](/dev/ui-library/dev/#/component/ListPanel) são tão complexos quanto um pequeno aplicativo. Eles permitem que o usuário adicione, edite e exclua itens, realize pesquisas facetadas, navegue por listas paginadas e muito mais.
 
-The most complex ListPanels provide a helper class to configure and display them on the page.
+Os ListPanels mais complexos fornecem uma classe helper para configurá-los e exibi-los na página.
 
-Each ListPanel extends the base class, defines configurable props as public properties, and implements a `getConfig()` method that compiles all required props into an associative array.
+Cada ListPanel estende a classe base, define props configuráveis como propriedades públicas e implementa um método `getConfig()` que compila todas as props necessárias em um array associativo.
 
 ```php
 namespace PKP\components\listPanels;
 
 class PKPAnnouncementsListPanel extends ListPanel {
 
-    /** @var string URL to the API endpoint where items can be retrieved */
+    /** @var string URL para o endpoint da API onde os itens podem ser recuperados */
     public $apiUrl = '';
 
-    /** @var int How many items to display on one page in this list */
+    /** @var int quantos itens exibir em uma página nesta lista */
     public $count = 30;
 
     /**
@@ -31,15 +31,15 @@ class PKPAnnouncementsListPanel extends ListPanel {
         \AppLocale::requireComponents(LOCALE_COMPONENT_PKP_MANAGER);
         \AppLocale::requireComponents(LOCALE_COMPONENT_APP_MANAGER);
 
-        // Call ListPanel::getConfig() to compile common props
+       // Chama ListPanel::getConfig() para compilar props comuns
         $config = parent::getConfig();
 
-        // Assign props that have been configured for this object
+       // Atribui props que foram configuradas para este objeto
         $config['apiUrl'] = $this->apiUrl;
         $config['count'] = $this->count;
 
-        // Assign required props that do not need to be configured,
-        // such as translated strings
+         // Atribui props necessárias que não precisam ser configuradas,
+         // como strings traduzidas
         $config['addAnnouncementLabel'] = __('grid.action.addAnnouncement');
         $config['deleteAnnouncementLabel'] = __('manager.announcements.deleteAnnouncement');
 
