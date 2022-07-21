@@ -1,12 +1,12 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Pages - Frontend - Technical Documentation - OJS|OMP|OPS 3.3
+title: Páginas - Frontend - TDocumentação Técnica - OJS|OMP|OPS 3.3
 ---
 
-# Pages
+# Páginas
 
-Every request to a [PageHandler](./architecture-handlers#page-handlers) returns the HTML code for a complete webpage. The `TemplateManager` is used to load and render a template.
+Cada solicitação para um [PageHandler](./architecture-handlers#page-handlers) retorna o código HTML de uma página Web completa. O `TemplateManager` é usado para carregar e renderizar um template.
 
 ```php
 class SettingsHandler extends Handler {
@@ -17,14 +17,14 @@ class SettingsHandler extends Handler {
 }
 ```
 
-Templates are located in the `/templates` and `lib/pkp/templates` directories. If a template does not exist in the application directory it will look for the equivalent template in the PKP library.
+Os Templates estão localizados nos diretórios `/templates` e `lib/pkp/templates`. Se um template não existir no diretório da aplicação, ele procurará o template equivalente na biblioteca PKP.
 
 ```php
 class SettingsHandler extends Handler {
     public function distribution(array $args, Request $request) {
         $templateMgr = TemplateManager::getManager($request);
 
-        // Searches for a template in the following directories:
+        //  Procura um template nos seguintes diretórios:
         // - templates/distribution.tpl
         // - lib/pkp/templates/distribution.tpl
         return $templateMgr->display('distribution.tpl');
@@ -32,7 +32,7 @@ class SettingsHandler extends Handler {
 }
 ```
 
-A `PageHandler` for the editorial backend must set a class property to identify it as a backend page. This ensures that all page dependencies are loaded.
+Um `PageHandler` para o back-end editorial deve definir uma propriedade de classe para identificá-lo como uma página de back-end. Isso garante que todas as dependências de página sejam carregadas.
 
 
 ```php
@@ -43,34 +43,34 @@ class SettingsHandler extends Handler {
 }
 ```
 
-Every page template for the editorial backend must use the backend layout to ensure the correct header, navigation menu and page layout are loaded.
+Cada template de página para o back-end editorial deve usar o layout de back-end para garantir que o cabeçalho, o menu de navegação e o layout de página corretos sejam carregados.
 
 ```html
 {extends file="layouts/backend.tpl"}
 {block name="page"}
-    <!-- Add page content here -->
+    <!-- Adicione o conteúdo da página aqui -->
 {/block}
 ```
 
 ## Smarty
 
-Page templates are rendered by the [Smarty](https://www.smarty.net/) templating engine. The `TemplateManager` extends the `Smarty` class so any of Smarty's methods, such as `assign`, can be used.
+Os templates de página são renderizados pelo mecanismo de templates [Smarty](https://www.smarty.net/). O `TemplateManager` estende a classe `Smarty` para que qualquer um dos métodos do Smarty, como `assign`, possa ser usado.
 
-Assign variables to a template in the `PageHandler`.
+Atribua variáveis a um template no `PageHandler`.
 
 ```php
 class SettingsHandler extends Handler {
     public function distribution(array $args, Request $request) {
         $templateMgr = TemplateManager::getManager($request);
         $templateMgr->assign([
-            'description' => 'This is an example description.',
+            'description' => 'Esta é uma descrição de exemplo.',
         ]);
         return $templateMgr->display('path/to/template.tpl');
     }
 }
 ```
 
-Use the variable in the template.
+Use a variável no template.
 
 ```html
 {extends file="layouts/backend.tpl"}
@@ -80,7 +80,7 @@ Use the variable in the template.
 {/block}
 ```
 
-Use conditional expressions and loops.
+Use expressões condicionais e loops.
 
 ```php
 class SettingsHandler extends Handler {
@@ -106,69 +106,69 @@ class SettingsHandler extends Handler {
 {/block}
 ```
 
-Use the `{url}` function to construct a URL to one of the application's pages.
+Use a função `{url}` para construir um URL para uma das páginas da aplicação.
 
 ```html
-<-- Generates the following URL http://.../<context-path>/management/settings/website -->
+<-- Gera a seguinte URL http://.../<context-path>/management/settings/website -->
 <a href="{url page="management" op="settings" path="website"}">
-    Website Settings
+   Configurações do website
 </a>
 ```
 
-Use the `{translate}` function to get a localized string.
+Use a função `{translate}` para obter uma string localizada.
 
 ```html
 <button>{translate key="common.save"}</button>
 ```
 
-It is sometimes necessary to use a variable inside of a localized string.
+Às vezes é necessário usar uma variável dentro de uma string localizada.
 
 ```html
 <span>{translate key="common.lessThan value="29"}</span>
 <!--
-    localized string: "{$value} or less"
-    result: 29 or less
+    string localizada: "{$value} or menos"
+    resultado: 29 ou menos
 -->
 ```
 
-Use the `$smarty` variable to access a PHP constant.
+Use a variável `$smarty` para acessar uma constante PHP.
 
 ```php
 define('STATUS_PUBLISHED', 3);
 ```
 ```html
 {if $submissionStatus === $smarty.const.STATUS_PUBLISHED}
-    ✔ This submission is published
+    ✔ Esta submissão está publicada
 {/if}
 ```
 
-Use the `date_format` modifier to transform a date into the configured format.
+Use o modificador `date_format` para transformar uma data no formato configurado.
 
 ```html
-<!-- Typically a numeric representation, such as 2020-10-03 -->
+<!-- Normalmente, uma representação numérica, como 2020-10-03 -->
 <p>{$publishedDate|date_format:$dateFormatShort}</p>
 
-<!-- Typically a phrase, such as October 3, 2020 -->
+<!-- Normalmente, uma frase, como Outobro 3, 2020 -->
 <p>{$publishedDate|date_format:$dateFormatLong}</p>
 ```
 
-## Security and Sanitization
+## Segurança e Sanitização
 
-Any information that comes from a user must be sanitized to prevent malicious attacks. Use the `escape` modifier to sanitize values such as titles and names.
+Qualquer informação que venha de um usuário deve ser sanitizada para evitar ataques maliciosos. Use o modificador `escape` para limpar valores como títulos e nomes.
 
 ```html
 <p>{$title|escape}</p>
 ```
 
-Information that includes HTML should use the `strip_unsafe_html` modifier. This will sanitize the value but preserve the HTML tags.
+As informações que incluem HTML devem usar o modificador `strip_unsafe_html`. Isso sanitizará o valor, mas preservará as tags HTML.
 
 ```html
 {$abstract|strip_unsafe_html}
 ```
 
-## Page Title
+## Título da Página
 
-Every page in the editorial backend should set the page title.
+Cada página no backend editorial deve definir o título da página.
 
 ```php
 class SettingsHandler extends Handler {
@@ -182,11 +182,11 @@ class SettingsHandler extends Handler {
 }
 ```
 
-Even if no title appears on the page, the `pageTitle` must be set. It will be used in the `<title>` tag and appear in the name of the tab in a browser.
+Mesmo que nenhum título apareça na página, o `pageTitle` deve ser definido. Ele será usado na tag `<title>` e aparecerá no nome da guia em um navegador.
 
-## Accessing Template Variables
+## Acessando Variáveis de Template
 
-It is sometimes necessary to retrieve a variable that has already been assigned to the template. Use `getTemplateVars` to retrieve the variable.
+Às vezes é necessário recuperar uma variável que já foi atribuída ao template. Use `getTemplateVars` para recuperar a variável.
 
 ```php
 $status = $templateMgr->getTemplateVars('status');
@@ -197,4 +197,4 @@ $templateMgr->assign([
 
 ---
 
-Once a template is rendered on the server it is passed to the user's browser, where it is controlled by a Vue.js component. Learn how to [use the UI Library](./frontend-ui-library) in the next chapter.
+Depois que um template é renderizado no servidor, ele é passado para o navegador do usuário, onde é controlado por um componente Vue.js. Saiba como [usar a Biblioteca de IU](./frontend-ui-library) no próximo capítulo.
