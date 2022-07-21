@@ -1,28 +1,28 @@
 ---
 book: dev-documentation
 version: 3.3
-title: Technical Documentation - OJS|OMP|OPS 3.3
-description: A technical guide to the coding conventions and application architecture for Open Journal Systems and Open Monograph Press.
+title: Documentação Técnica - OJS|OMP|OPS 3.3
+description: Um guia técnico para as convenções de codificação e arquitetura de aplicações para Open Journal Systems e Open Monograph Press.
 ---
 
 # Introdução
 
-This document describes the coding conventions and concepts that power PKP's applications. It is written for software developers who want to fix bugs, add new features, and contribute code to OJS and OMP.
+Este documento descreve as convenções e conceitos de codificação que alimentam as aplicações do PKP. O guia foi escrito para desenvolvedores de software que desejam corrigir bugs, adicionar novos recursos e contribuir com código para OJS e OMP.
 
-If you want to adapt OJS or OMP to your publishing needs, you may prefer to consult the [Theming Guide](/pkp-theming-guide/en), [Plugin Guide](/dev/plugin-guide/en/), or other [developer documentation](/dev).
+Se você deseja adaptar o OJS ou OMP às suas necessidades de publicação, pode preferir consultar o [Guia de temas](/pkp-theming-guide/en), [Guia de plugin](/dev/plugin -guide/en/) ou outra [documentação do desenvolvedor](/dev).
 
-If you are not a coder, please consult our [user documentation](/).
+Se você não for um programador, consulte nossa [documentação do usuário](/).
 
-## What is OJS and OMP?
+## O que é OJS e OMP?
 
-[OJS](https://pkp.sfu.ca/ojs/) (Open Journal Systems) and [OMP](https://pkp.sfu.ca/omp/) (Open Monograph Press) are open-source platforms for open access scholarly publishing. They provide web-based tools to manage the submission, peer-review, copyediting and publishing of scholarly works.
+[OJS](https://pkp.sfu.ca/ojs/) (Open Journal Systems) e [OMP ](https://pkp.sfu.ca/omp/) (Open Monograph Press) são plataformas de código aberto para publicação acadêmica de acesso aberto. Eles fornecem ferramentas baseadas na web para gerenciar a submissão, avaliação por pares, edição e publicação de trabalhos acadêmicos.
 
-These platforms are used to run everything from small, independent presses or journals to large national infrastructures powering hundreds of journals.
+Essas plataformas são usadas para executar tudo, desde pequenas editoras ou periódicos independentes até grandes infraestruturas nacionais que alimentam centenas de periódicos.
 
-## Using this guide
+## Usando este guia
 
-This guide will help you learn how to contribute code to the project. It is written as a high-level introduction to the application structure and the most common utilities you will need to begin working with the code.
+Este guia ajudará você a aprender como contribuir com código para o projeto. Ele foi escrito como uma introdução de alto nível à estrutura da aplicação e aos utilitários mais comuns necessários para começar a trabalhar com o código.
 
-If you are looking for a more detailed specification, please consult the [reference documentation (Doxygen)](https://pkp.sfu.ca/ojs/doxygen/master/html/index.html), the [REST API Usage Guide](/dev/api) or the [UI Library](/dev/ui-library/dev).
+Se você estiver procurando por uma especificação mais detalhada, consulte a [documentação de referência (Doxygen)](https://pkp.sfu.ca/ojs/doxygen/master/html/index.html), o [Guia de uso da API REST](/dev/api) ou a [Biblioteca de interface do usuário](/dev/ui-library/dev).
 
-When you're ready, learn how to [get started](./getting-started) by installing the software and setting up your development environment.
+Quando estiver pronto, saiba como [começando](./getting-started) instalando o software e configurando seu ambiente de desenvolvimento.
