@@ -2,9 +2,9 @@
 title: Additional resources - Creating Accessible Content Guide
 ---
 
-# Additional resources
+# Bisogno di ulteriore aiuto?
 
-A non-extensive list of additional resources on accessible content creation is provided below.
+Di seguito viene fornito un elenco non esaustivo di risorse aggiuntive sulla creazione di contenuti accessibili.
 
 - [Designing your Journal: Inclusive and Accessible Theming](https://docs.pkp.sfu.ca/designing-your-journal/en/inclusive-and-accessible-theming) - An introductory guide developed by PKP on how to create or modify your journal to make it more inclusive and accessible for more readers.
 
