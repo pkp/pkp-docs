@@ -156,6 +156,9 @@ In OJS, article metadata is entered during article submission by the author or e
 - Navigate to Workflow Settings > Submission > Metadata
 - Enable supporting agencies metadata
 - Choose to make this field optional or mandatory during submission
+
+Additionally, the OJS Funding plugin is available for 3.3+ out of the box. It adds funding details to submission metadata and production tab, including funder name, funder id and grant numbers used in the [CrossRef Funder Registry](https://www.crossref.org/services/funder-registry/). These details appear on the published article landing page. For plugin details see the [Funding plugin page](https://github.com/ajnyga/funding/) in Github.
+
 3. Metadata formats. Plan S requires article metadata to be in a standard interoperable non-proprietary format. OJS supports metadata exports in a number of standard non-proprietary interoperable formats, such as XML (including native XML import-export within OJS, export to Crossref, Datacite, DOAJ, NLM); and Dublin Core, JATS, and MARC via OAI-PMH. 
 4. Metadata licence. Plan S requires article metadata to be released under a [CC0 public domain dedication](https://creativecommons.org/share-your-work/public-domain/cc0/). Journals can add a statement on metadata being made available under the CC0 license to the About page or elsewhere on the website.
 
