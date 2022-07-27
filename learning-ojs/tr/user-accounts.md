@@ -13,7 +13,7 @@ This PKP School video explains the user dashboard in OJS. To watch other videos 
 
 When a user log into the system, they will be taken to their Dashboard. From here, users can change their profile information or account settings, as well as see all of the functions of the system to which they have access. Örneğin, bir Hakem yalnızca incelemesi için atandığı gönderiyi görürken, Editör editoryal iş akışındaki tüm gönderileri görür. More information about roles and permissions levels is available in the [Users and Roles chapter](./users-and-roles.md).
 
-## Registering with a Journal
+## Dergiye Kayıt
 
 This PKP School video explains how to register and log in to a journal in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -37,7 +37,7 @@ Bir Editoryal Rol (Ör. Editör, Bölüm Editörü, Kopya Editörü, Mizanpaj Ed
 
 <hr />
 
-## Viewing and Changing your Profile
+## Profil Görüntüleme ve Düzeltme
 
 This PKP School video explains how to manage a user profile in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -45,28 +45,28 @@ This PKP School video explains how to manage a user profile in OJS. To watch oth
 
 Profilinizi görüntülemek ve düzenlemek için giriş yapın ve sağ üst köşedeki Kullanıcı Adı bağlantısına tıklayın. Profili Görüntüle bağlantısını seçin.
 
-![Profili Görüntüle menüsü.](./assets/learning-ojs3.1-ed-view-profile.png)
+![Profili Görüntüle menüsü.](./assets/learning-ojs3.3-edit-profile.png)
 
 From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image (which some journals may publish along with your article or on a list of editors), determine your notification settings, or update your password.
 
 **Bildirimler** altında, yeni bir dergi sayısının yayınlanması veya gönderdiğiniz bir gönderide etkinlik olması gibi olaylar meydana geldiğinde dergiden ne tür bildirimler alacağınızı yapılandırabilirsiniz.
 
-* Check off "Enable these types of notifications" if you want to see a notification of this event on your dashboard when you log in to the site
-* Check off "Do not send me an email for these types of notifications" if you do not want to receive an email notification about this event
+* Siteye giriş yaptığınızda kontrol panelinizde bu durumla ilgili bir bildirim görmek istiyorsanız "Bu tür bildirimleri etkinleştir" seçeneğini işaretleyin
+* Bu etkinlikle ilgili bir e-posta bildirimi almak istemiyorsanız "Bu tür bildirimler için bana e-posta gönderme" seçeneğini işaretleyin
 
 ![Bildirimleri yönetebileceğiniz Bildirimler sekmesi.](./assets/learning-ojs-3-user-notifications.png)
 
 Kullanıcı profilindeki **API sekmesi**, harici uygulamalarla etkileşim kurmak için AOJS'nin REST API'sini kullanmanıza olanak tanır.  Ancak çoğu kullanıcı API'yi kullanmaz ve bu sekmeyi görmezden gelebilir.
 
-## Resetting your Password
+## Şifrenizi Sıfırlayın
 
 Şifrenizi şu şekilde sıfırlayabilirsiniz:
 
-1. Logging into the journal
-2. Selecting your username and View Profile from the upper right corner of the screen
-3. Choosing the Password tab
-4. Entering your current password and then your new password twice
-5. Hitting Save
+1. Dergiye giriş
+2. Ekranın sağ üst köşesinden kullanıcı adınızı ve Profili Görüntüle'yi seçin
+3. Şifre sekmesini seçme
+4. Mevcut şifrenizi ve ardından yeni şifrenizi iki kez giriniz
+5. Kaydet tuşuna basınız
 
 ![Şifre sıfırlama ekranı.](./assets/learning-ojs3.1-ed-change-pw.png)
 
