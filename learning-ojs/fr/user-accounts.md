@@ -7,15 +7,15 @@ description: A guide for registering and managing your Open Journal Systems (OJS
 
 # Comptes Utilisateur
 
-This PKP School video explains the user dashboard in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains the user dashboard in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of the user dashboard in OJS"%}
 
 Lorsqu'un utilisateur se connecte au système, il est redirigé vers son Tableau de Bord. From here, users can change their profile information or account settings, as well as see all of the functions of the system to which they have access. Par exemple, un-e Évaluateur/trice ne verra que la soumission qui lui a été affectée, tandis qu'un-e rédacteur/trice verra toutes les soumissions dans le flux des travaux éditorial. More information about roles and permissions levels is available in the [Users and Roles chapter](./users-and-roles.md).
 
-## Inscription à une Revue
+## Inscription à la Revue
 
-This PKP School video explains how to register and log in to a journal in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to register and log in to a journal in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="kQUTzi2JKiQ" provider="youtube" title="Video of how to register and log in to a journal in OJS"%}
 
@@ -39,13 +39,13 @@ Vous ne pourrez pas vous inscrire vous-même pour un rôle éditorial (par exemp
 
 ## Affichage et Modification de votre Profil
 
-This PKP School video explains how to manage a user profile in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to manage a user profile in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of how to manage a user profile in OJS"%}
 
 Pour afficher et modifier votre profil, connectez-vous et cliquez sur votre lien Nom d'utilisateur dans le coin en haut à droite. Choisissez le lien Afficher le profil.
 
-![The View Profile menu.](./assets/learning-ojs3.1-ed-view-profile.png)
+![The View Profile menu.](./assets/learning-ojs3.3-edit-profile.png)
 
 De là, en choisissant les différents onglets, vous pouvez mettre à jour vos détails personnels, vos coordonnées, changer vos rôles, ajouter une image personnelle (que certaines revues peuvent publier avec votre article ou sur une liste d'éditeurs), déterminer vos paramètres de notification, ou mettez à jour votre mot de passe.
 
