@@ -45,7 +45,7 @@ This PKP School video explains how to manage a user profile in OJS. To watch oth
 
 To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
 
-![The View Profile menu.](./assets/learning-ojs3.1-ed-view-profile.png)
+![The View Profile menu.](./assets/learning-ojs3.3-edit-profile.png)
 
 From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image (which some journals may publish along with your article or on a list of editors), determine your notification settings, or update your password.
 
