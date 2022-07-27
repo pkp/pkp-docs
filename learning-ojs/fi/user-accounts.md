@@ -7,7 +7,7 @@ description: A guide for registering and managing your Open Journal Systems (OJS
 
 # Luku 12: Arvioijat
 
-This PKP School video explains the user dashboard in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains the user dashboard in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of the user dashboard in OJS"%}
 
@@ -15,7 +15,7 @@ When a user log into the system, they will be taken to their Dashboard. From her
 
 ## Registering with a Journal
 
-This PKP School video explains how to register and log in to a journal in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to register and log in to a journal in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="kQUTzi2JKiQ" provider="youtube" title="Video of how to register and log in to a journal in OJS"%}
 
@@ -39,13 +39,13 @@ You will not be able to self-register for an Editorial Role (e.g., Editor, Secti
 
 ## Viewing and Changing your Profile
 
-This PKP School video explains how to manage a user profile in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to manage a user profile in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of how to manage a user profile in OJS"%}
 
 To view and edit your profile, log in and click your Username link from the upper right corner. Choose the View Profile link.
 
-![The View Profile menu.](./assets/learning-ojs3.1-ed-view-profile.png)
+![The View Profile menu.](./assets/learning-ojs3.3-edit-profile.png)
 
 From here, by choosing the different tabs, you can update your personal details, contact information, change your roles, add a personal image (which some journals may publish along with your article or on a list of editors), determine your notification settings, or update your password.
 
