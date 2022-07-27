@@ -248,8 +248,6 @@ Step by step instructions for registering and using the plugin are provided in t
 
 Currently, OJS editors can add a link from an article to an externally hosted research data/code by adding a remote galley. The [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#upload-a-multimedia-file-linked-from-an-external-site) explains how to do this for a video; the same process would apply to linking to an externally hosted dataset.
 
-Additionally, a [Dataverse Plugin](https://github.com/lepidus/dataversePlugin/) is currently under development that will allow authors to deposit data into a Dataverse repository upon submission, and link to it.
-
 ### Open citation data
 
 > Openly accessible data on citations according to the standards by the [Initiative for Open Citations (I4OC)](https://i4oc.org/).
