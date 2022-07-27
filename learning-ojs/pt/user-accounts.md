@@ -15,7 +15,7 @@ Quando um usuário loga no sistema, ele é direcionado para seu painel. A partir
 
 ## Cadastrando em um Periódico
 
-Este vídeo da Escola do PKP explica como se registrar e fazer login em um periódico do OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da Escola do PKP explica como se registrar e fazer login em um periódico do OJS. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="SQfFGwIK2wI" provider="youtube" title="Vídeo de como registrar e efetuar login em um periódico em OJS"%}
 
@@ -45,7 +45,7 @@ Este vídeo da PKP School explica como gerenciar perfis de usuários no OJS. Par
 
 Para visualizar e editar seu perfil, faça login e clique no link de seu nome de usuário no canto superior direito. Escolha a opção “Perfil”.
 
-![O menu de Visualizar Perfil.](./assets/learning-ojs3.1-ed-view-profile.png)
+![O menu de Visualizar Perfil.](./assets/learning-ojs3.3-edit-profile.png)
 
 A partir desse ponto, ao escolher as diferentes abas, você pode atualizar detalhes pessoais, informações de contato, mudar seus papéis, adicionar imagem pessoal (publicado por alguns periódicos junto ao artigo ou em uma lista de editores), determinar as configurações de notificação ou atualizar sua senha.
 
