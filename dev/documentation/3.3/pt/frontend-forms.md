@@ -12,14 +12,14 @@ Cada formulário estende a classe `FormComponent`.
 
 ```php
 /**
- * @file classes/components/form/context/PKPContactForm.inc.php
+ * @file classes/components/form/context/PKPContactForm.php
  */
 namespace PKP\components\forms\context;
 use PKP\components\forms\FormComponent;
 
 /**
-  * Cada formulário deve ter um ID único definido em uma constante
-  */
+ * Each form should have a unique ID defined in a constant
+ */
 define('FORM_CONTACT', 'contact');
 
 class PKPContactForm extends FormComponent {
@@ -32,9 +32,9 @@ class PKPContactForm extends FormComponent {
     /**
      * Constructor
      *
-      * @param $action string URL para enviar o formulário para
-      * @param $locales array Locales suportados
-      * @param $context Contexto da Revista ou Editora para alterar as configurações de
+     * @param $action string URL to submit the form to
+     * @param $locales array Supported locales
+     * @param $context Context Journal or Press to change settings for
      */
     public function __construct($action, $locales, $context) {
         $this->action = $action;
