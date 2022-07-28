@@ -31,8 +31,8 @@ PKP's developers work collaboratively across all parts of the software. However,
 | Team | Lead | Responsibilities |
 | --- | --- | --- |
 | **Infastructure** | Alec (@asmecher) | Software architecture and development tools: routing, localization, caching, tests, upgrades, dependencies, deployment and performance. |
+| **Distribution and Metadata** | Bozana (@bozana) | Metadata, deposits, and Library Information Science (LIS) protocols: DOIs, OAI-PMH, Crossref, statistics, themes, versioning and retraction. |
 | **Workflow** | Nate (@NateWr) | Editorial workflow: submission lists, the submission wizard, editorial decisions, stage assignments, submission files, and the author and reviewer workflows. |
-| **Distribution and Metadata** | Bozana (@bozana) | Metadata, deposits, and LIS protocols: DOIs, OAI-PMH, Crossref, statistics, themes, versioning and withdrawal/retraction. |
 
 Large projects will be broken down into issues that can be distributed to different teams. For example, work on JATS XML support may include one issue to adapt the editorial workflow and another issue to adapt Crossref deposits, each assigned to different teams.
 
