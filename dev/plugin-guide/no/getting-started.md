@@ -21,7 +21,7 @@ ojs
 │   │
 │   └─┬ tutorialExample
 │     ├── index.php
-│     └── TutorialExamplePlugin.inc.php
+│     └── TutorialExamplePlugin.php
 │     └── version.xml
 ```
 
@@ -48,7 +48,7 @@ The `version.xml` provides information required to load the plugin.
 
 The `<application>` must match the directory name. The `<type>` must be the plugin's [category](./categories). The `<class>` must match the plugin's class name.
 
-## TutorialExamplePlugin.inc.php
+## TutorialExamplePlugin.php
 
 Every plugin must have a class which registers and runs the plugin.
 
@@ -96,7 +96,7 @@ The `index.php` file is required to load the correct plugin class.
 
 ```php
 <?php
-require_once('TutorialExamplePlugin.inc.php');
+require_once('TutorialExamplePlugin.php');
 return new TutorialExamplePlugin();
 ```
 
