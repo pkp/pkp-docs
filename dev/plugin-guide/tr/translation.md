@@ -23,7 +23,7 @@ ojs
 │     │ └─┬ fr_CA
 │     │   └── locale.po
 │     ├── index.php
-│     └── TutorialExamplePlugin.inc.php
+│     └── TutorialExamplePlugin.php
 │     └── version.xml
 ```
 
