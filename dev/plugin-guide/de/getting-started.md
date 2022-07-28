@@ -21,7 +21,7 @@ ojs
 │   │
 │   └─┬ tutorialExample
 │     ├── index.php
-│     └── TutorialExamplePlugin.inc.php
+│     └── TutorialExamplePlugin.php
 │     └── version.xml
 ```
 
@@ -48,7 +48,7 @@ Die Datei `version.xml` stellt Informationen zur Verfügung wie das Plugin gelad
 
 Der `<application>` Tag ist identisch mit dem Verzeichnis-Namen. Der `<type>` Tag entspricht der [Plugin-Kategorie](./categories). Im `<class>` Tag wird der Name der Plugin-Klasse eingetragen.
 
-## TutorialExamplePlugin.inc.php
+## TutorialExamplePlugin.php
 
 Jedes Plugin muss eine Klasse besitzen, mit der es registriert und ausführt wird.
 
@@ -96,7 +96,7 @@ Die Datei `index.php` wird benötigt um die korrekte Plugin-Klasse zu laden.
 
 ```php
 <?php
-require_once('TutorialExamplePlugin.inc.php');
+require_once('TutorialExamplePlugin.php');
 return new TutorialExamplePlugin();
 ```
 
