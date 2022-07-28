@@ -20,10 +20,10 @@ ojs
 │     ├─┬ locale
 │     │ ├─┬ en_US
 │     │ │ └── locale.po
-│     │ └─┬ pt_BR
+│     │ └─┬ fr_CA
 │     │   └── locale.po
 │     ├── index.php
-│     └── TutorialExamplePlugin.inc.php
+│     └── TutorialExamplePlugin.php
 │     └── version.xml
 ```
 
