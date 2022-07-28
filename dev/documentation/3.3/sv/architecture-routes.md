@@ -63,7 +63,7 @@ The diagram below shows a URL for a [Controller Handler](architecture-handlers#c
 
 ![Diagram indicating the parts of a URL for Controller Handlers](../img/url-route-controller.png)
 
-The router will look for and load a `Handler` at `/controllers/grid/issues/BackIssueGridHandler.inc.php`.
+The router will look for and load a `Handler` at `/controllers/grid/issues/BackIssueGridHandler.php`.
 
 Controller URLs are derived from the `Handler` class name. The `Handler` suffix is dropped and the remaining name is transformed from `PascalCase` to `kebab-case`.
 
