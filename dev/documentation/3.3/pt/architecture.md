@@ -47,13 +47,13 @@ ojs
 │
 ├─┬ classes
 │ └─┬ submission
-│   └── Submission.inc.php
+│   └── Submission.php
 │
 └─┬ lib
   └─┬ pkp
     └─┬ classes
       └─┬ submission
-        └── PKPSubmission.inc.php
+        └── PKPSubmission.php
 ```
 
 A mesma abordagem é usada no OMP.
