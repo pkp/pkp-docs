@@ -12,7 +12,7 @@ Each form extends the `FormComponent` class.
 
 ```php
 /**
- * @file classes/components/form/context/PKPContactForm.inc.php
+ * @file classes/components/form/context/PKPContactForm.php
  */
 namespace PKP\components\forms\context;
 use PKP\components\forms\FormComponent;

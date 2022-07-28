@@ -57,7 +57,7 @@ ojs
 │     ├─┬ templates
 │     │ └── block.tpl
 │     ├── index.php
-│     └── MadeByPlugin.inc.php
+│     └── MadeByPlugin.php
 │     └── version.xml
 ```
 
