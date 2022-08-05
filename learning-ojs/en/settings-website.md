@@ -286,7 +286,7 @@ To configure and add custom blocks:
 
 * Click Manage Custom Blocks below the plugin name
 * From this screen, click Add Block to create a new block or click Edit or Delete under the block name to manage existing blocks.
-* When adding a new block, enter a name for your block (required) and choose whether to have the name appear above the block content.
+* When adding a new block, enter a name for your block (required). In recent versions you can include spaces in the name and select whether or not the name  will appear above the block content.
 * The display and order of blocks can be edited from the Sidebar Management section of Dashboard > Settings > Website > Appearance > Setup.
 
 #### Custom Header Plugin
