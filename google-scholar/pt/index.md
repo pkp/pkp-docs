@@ -173,7 +173,7 @@ Existem diferentes maneiras de corrigir esse problema, dependendo da quantidade 
 
 Do contrário, caso você tenha muitos periódicos em seu site OJS que a alteração em cada periódico tome muito tempo, você pode usar [um comando SQL para ajustar seu banco de dados de periódicos de uma só vez](https://github.com/pkp/ojs/blob/stable-3_1_2/dbscripts/xml/upgrade/3.1.2_update.xml#L41..L42) .
 
-Por fim, você pode atualizar para o OJS versão 3.1.2 e mais recente, nas quais a correção para esse bug foi incorporada. This is the recommended solution by both PKP and Google Scholar (see “Best practices for OJS journals” above).
+Por fim, você pode atualizar para o OJS versão 3.1.2 e mais recente, nas quais a correção para esse bug foi incorporada. Esta é a solução recomendada tanto pelo PKP quanto pelo Google Scholar (veja as "Melhores práticas para periódicos OJS" acima).
 
 ### Erros de certificado SSL (Secure Socket Layer)
 
@@ -203,7 +203,7 @@ Se você suspeitar que seu site OJS tenha sido invadido:
 
 - Emule o rastreador do Google (para ver o que ele “vê”) configurando seu user-agent como Googlebot: `curl -A Googlebot URL_DO_SEU_SITE`
   - Verifique uma ampla amostra de artigos selecionados aleatoriamente para ver se eles abrem uma página diferente da que você vê no navegador ou redirecionam para outro site.
-- Alert your hosting provider. Alerte seu provedor de hospedagem, os quais devem ser capazes de analisar e corrigir problemas de segurança subjacentes.
+- Alerte seu provedor de hospedagem. Alerte seu provedor de hospedagem, os quais devem ser capazes de analisar e corrigir problemas de segurança subjacentes.
 - Alerte o fórum [da comunidade PKP](https://forum.pkp.sfu.ca) e compartilhe suas soluções.
 
 A melhor prática para o OJS é garantir que você esteja executando a versão mais recente e monitorar o fórum da comunidade PKP e o site do PKP para novos lançamentos e atualizações, se possível. Caso seja vítima de spammers, você poderá usar a ferramenta “mesclar usuários” na interface de administração do usuário ou [por meio da linha de comando](/admin-guide/en/securing-your-system#cleaning-lots-of-users) para remover essas contas em um grande bloco. Recomendamos também que [se habilite o reCaptcha em sua configuração do OJS](/admin-guide/en/securing-your-system#captcharecaptcha) para reduzir o número de contas de spam criadas.
