@@ -1,26 +1,26 @@
 - - -
-title: FAQ about the Editorial Workflow in Open Journal Systems (OJS) and Open Monograph Press (OMP)
+title: FAQ sobre o fluxo de trabalho Editorial em Open Journal Systems (OJS) e Open Monograph Press (OMP)
 - - -
 
-# Editorial Workflow
+# Fluxo de Trabalho Editorial
 
-## Can a reviewer change a recommendation they already submitted?
+## Um revisor pode alterar uma recomendação que já foi enviada?
 
-Once a recommendation has been submitted by a reviewer, the review is essentially closed. A reviewer will not be able to make this change on their own. However, an editor (or section editor) can change the reviewer recommendation on their behalf.
+Uma vez que uma recomendação seja submetida por um revisor, a revisão está essencialmente finalizada. Um revisor não será capaz de fazer essa mudança por conta própria. No entanto, um editor (ou editor da secção) pode alterar a recomendação do revisor em seu nome.
 
-To make the recommendation change, the Editor will need to click the blue arrow beside the reviewer's name followed by **Review Details**.
+Para alterar a recomendação, o Editor precisará clicar na seta azul ao lado do nome do revisor e em seguida em **Detalhes da revisão**.
 
 ![Screencap of the Editor's view, with an arrow pointing to Review Details.](./assets/review-details.png)
 
-Change the recommendation on the drop down menu and click Confirm.
+Altere a recomendação no menu suspenso e clique em Confirmar.
 
 ![Screencap of the Recommendation window.](./assets/review-recommendation.png)
 
-## How can a reviewer upload an attachment after the review has been submitted?
+## Como um revisor pode enviar um anexo depois que a revisão for enviada?
 
-Once a review has been submitted, the review is essentially closed. The review file cannot be replaced with a new one by the reviewer. However, the editor can provide the author with the most recent version when sending the decision email.
+Uma vez que uma recomendação seja submetida por um revisor, a revisão está essencialmente finalizada. O arquivo de revisão não pode ser substituído por um novo pelo revisor. No entanto, o editor pode disponibilizar ao autor uma versão mais recente ao enviar o e-mail de decisão.
 
-To do this, the editor can upload a new attachment to their decision email.
+Para isso, o editor pode enviar um novo anexo junto ao seu e-mail de decisão.
 
 ![Screencap of window to select review files to share with the author.](./assets/review-share-files.png)
 
