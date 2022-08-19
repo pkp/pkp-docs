@@ -52,7 +52,7 @@ This method accepts a number of optional `$args`.
  *   theme directory or, if the `inline` argument is included, style data to
  *   be output.
  * @param $args array Optional arguments hash. Supported args:
- *   'context': Whether to load this on the `frontend` or `backend`.
+ *   'context': Whether to load this on the `frontend`, `backend`, or `htmlGalley`.
  *      default: `frontend`
  *   'priority': Controls order in which styles are printed
  *   'addLess': Additional LESS files to process before compiling. Array
@@ -71,6 +71,13 @@ Styles with the `frontend` context will be output in your theme where you place 
 ```
 
 You can define and use multiple contexts if you'd like. But `frontend` is the standard for themes and will be set automatically if no `context` argument is passed.
+
+Use the `htmlGalley` context to add default styling for html galleys. 
+
+```php
+$this->addStyle('htmlGalley', 'path/to/galley.css', ['contexts' => 'htmlGalley']);
+```
+Styles with the `htmlGalley` context will be included in html galleys by injecting a `<link>` tag with specified css into `<head>` tag of the html galley.
 
 ## modifyStyle\(\)
 
