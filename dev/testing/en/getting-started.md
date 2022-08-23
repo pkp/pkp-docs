@@ -24,7 +24,7 @@ There are many ways to [configure your environment](https://docs.cypress.io/guid
 
 Replace `****` with the values which match your local installation and place this file in your application's root directory.
 
-> The `DBTYPE` must match one of the options in the installation form. It is usually `mysqli` or `postgres`.
+> The `DBTYPE` must match one of the options in the installation form. It is usually `mysqli` or `postgres9`.
 {:.tip}
 
 The integration tests will install the software and create test data.
