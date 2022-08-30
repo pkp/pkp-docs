@@ -5,3 +5,4 @@ Resources about legislation and international regulation that online publishing 
 
 - [Accessibility Statement](/accessibility-statement)
 - [GDPR Guide](/gdpr/en)
+- [Plan S Compliance in OJS](/plan-s/)
