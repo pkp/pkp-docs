@@ -51,7 +51,7 @@ Use the checkbox to mark tasks for deletion \(the link is available at the botto
 
 ## Submission Notifications
 
-When an author makes a new submission to your journal, the author and all contributors will receive an email acknowledging their submission and an editor will be automatically emailed a notification of the new submission. In some cases an editor will be automatically assigned to the submission. Which editor(s) receive the notification or are automatically assigned will depend on how you have set up your journal.
+When an author makes a new submission to your journal, the author and all contributors will receive an email acknowledging their submission and an editor will be automatically emailed a notification of the new submission. In some cases an editor will be automatically assigned to the submission. Which editor(s) receive the notification or are automatically assigned will depend on how you have set up your journal (see [Edit a section](./journal-setup#edit-a-section).
 
 * If there is only one user assigned to an Editor or Journal Manager role, that user will be automatically assigned and notified.
 * If one or more Section Editors are assigned to the [section](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) the submission was made in, they will be automatically assigned to the submission and notified.
@@ -216,7 +216,7 @@ Once the author has been granted access to made edits they will be able to make 
 
 ### Assigning the Submission
 
-Depending on how you have your sections configured, some new submissions may come in unassigned. If this is the case, the next step is to assign an editor or section editor. To do so, select the _Assign_ link in the **Participants** panel.
+Depending on [how you have your sections configured](./journal-setup#edit-a-section), some new submissions may come in unassigned. If this is the case, the next step is to assign an editor or section editor. To do so, select the _Assign_ link in the **Participants** panel.
 
 ![The Add Participants window.](./assets/learning-ojs-3-ed-submissions-add-participant.png)
 
