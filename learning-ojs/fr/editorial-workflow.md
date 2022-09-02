@@ -51,7 +51,7 @@ Utilisez la case à cocher pour marquer les tâches à supprimer (le lien est di
 
 ## Notifications de Soumission
 
-When an author makes a new submission to your journal, the author and all contributors will receive an email acknowledging their submission and an editor will be automatically emailed a notification of the new submission. In some cases an editor will be automatically assigned to the submission. Which editor(s) receive the notification or are automatically assigned will depend on how you have set up your journal.
+When an author makes a new submission to your journal, the author and all contributors will receive an email acknowledging their submission and an editor will be automatically emailed a notification of the new submission. In some cases an editor will be automatically assigned to the submission. Which editor(s) receive the notification or are automatically assigned will depend on how you have set up your journal (see [Edit a section](./journal-setup#edit-a-section).
 
 * If there is only one user assigned to an Editor or Journal Manager role, that user will be automatically assigned and notified.
 * If one or more Section Editors are assigned to the [section](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) the submission was made in, they will be automatically assigned to the submission and notified.
@@ -146,7 +146,7 @@ Une fois que vous avez trouvé la soumission, vous pouvez utiliser la flèche bl
 
 ### Enregistrement de Soumission
 
-Pour afficher la soumission plus en détail, sélectionnez le bouton **Afficher la Soumission**. Cela vous mènera à l'enregistrement de la soumission.
+Pour afficher la soumission plus en détail, sélectionnez le bouton **Afficher la Soumission**. Cela vous mènera au dossier de soumission.
 
 ![A sample submission record.](./assets/learning-ojs3.1-ed-dashboard-record.png)
 
@@ -216,7 +216,7 @@ Once the author has been granted access to made edits they will be able to make 
 
 ### Affecter la Soumission
 
-Selon la façon dont vous avez configuré vos sections, quelques nouvelles soumissions peuvent être non affectées. Si tel est le cas, la prochaine étape consiste à affecter un(e) rédacteur/trice ou un(e) rédacteur/trice de section. Pour ce faire, sélectionnez le lien *Affecter* dans le panneau **Participants** .
+Depending on [how you have your sections configured](./journal-setup#edit-a-section), some new submissions may come in unassigned. Si tel est le cas, la prochaine étape consiste à affecter un(e) rédacteur/trice ou un(e) rédacteur/trice de section. Pour ce faire, sélectionnez le lien *Affecter* dans le panneau **Participants** .
 
 ![The Add Participants window.](./assets/learning-ojs-3-ed-submissions-add-participant.png)
 
@@ -586,7 +586,7 @@ La soumission est maintenant prête à être déplacée vers la Révision. To do
 
 ![The "Send to Copyediting" button in a submission panel.](./assets/learning-ojs-3-ed-send-to-copyediting.png)
 
-Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
+Cela ouvrira une nouvelle fenêtre.
 
 ![The Send to Copyediting window including information about the notification of acceptance to be sent to the author.](./assets/learning-ojs-3-ed-accept.png)
 
@@ -618,7 +618,7 @@ La soumission est automatiquement déplacée vers l'étape de Révision.
 
 Lorsque la soumission entre dans la phase de Révision, une notification indique qu'un-e Réviseur/euse doit être affecté. Les Réviseurs peuvent être attribués à l'aide du lien *Ajouter* sur le panneau Participants.
 
-Appuyez sur le bouton **Enregistrer la Décision Éditoriale** en bas de la fenêtre.
+Cela ouvrira une nouvelle fenêtre.
 
 ![The Add Participant window in the Copyediting stage.](./assets/learning-ojs-3-ed-copyediting-add.png)
 
@@ -748,7 +748,7 @@ In the discussion window, add the Section Editor, a subject line, and a message.
 
 ![A sample message from the Copy Editor to the Section Editor](./assets/learning-ojs-3-ce-copyedited-discussion.png)
 
-Appuyez sur **OK** pour envoyer le message.
+le/la Rédacteur/trice de la Rubrique recevra un email indiquant que la révision est terminée et verra une notification dans les discussions.
 
 Retournant vers l'étape de Révision, vous pouvez voir que le message est publié.
 
