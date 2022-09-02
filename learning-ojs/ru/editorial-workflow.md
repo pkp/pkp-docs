@@ -5,25 +5,25 @@ title: Learning Open Journal Systems 3.3 - Editorial Workflow
 description: How to manage an article manuscript through the OJS workflow, from submission to publication.
 ---
 
-# Editorial Workflow
+# Редакционный рабочий процесс
 
-In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
+В этой главе мы проследим за тем, что посходит с материалом в течение всего рабочего процесса, начиная с подачи материала в журнал и заканчивая его публикацией.
 
 {% include video.html id="K-qjxN7rOJs" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 2: Editorial Workflow Overview"%}
 
 This PKP School video provides an overview of the editorial workflow in OJS 3.3. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-The workflow is divided into 4 stages:
+Рабочий процесс разделен на четыре этапа:
 
-**Submission**: This is where new submissions land while being assigned to Section Editors and considered for moving into the Review stage.
+**Материал**: Здесь появляется исходная информация о новом материале, необходимая назначенному редактору раздела для принятия решения о необходимости стадии Рецензирования.
 
-Some submissions are clearly inappropriate and never make it beyond this stage.
+Материал, явно не соответствующий критериям журнала, может быть отклонен без рецензии уже на этом этапе.
 
 {% include video.html id="9rx-AahCU10" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 4: Responding to a submission"%}
 
 This PKP School video explains the steps the Editor takes to assign a new submission to a Section Editor. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-**Review**: This is where the peer review happens, as well as any revisions required by the author.
+**Рецензирование**: Здесь происходит рецензирование статьи, а также доступны все ревизии материала, сделанные автором.
 
 Some submission will not pass review and end here. Those that are accepted move to the next stage.
 
@@ -51,7 +51,7 @@ Use the checkbox to mark tasks for deletion \(the link is available at the botto
 
 ## Submission Notifications
 
-When an author makes a new submission to your journal, the author and all contributors will receive an email acknowledging their submission and an editor will be automatically emailed a notification of the new submission. In some cases an editor will be automatically assigned to the submission. Which editor(s) receive the notification or are automatically assigned will depend on how you have set up your journal.
+When an author makes a new submission to your journal, the author and all contributors will receive an email acknowledging their submission and an editor will be automatically emailed a notification of the new submission. In some cases an editor will be automatically assigned to the submission. Which editor(s) receive the notification or are automatically assigned will depend on how you have set up your journal (see [Edit a section](./journal-setup#edit-a-section).
 
 * If there is only one user assigned to an Editor or Journal Manager role, that user will be automatically assigned and notified.
 * If one or more Section Editors are assigned to the [section](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) the submission was made in, they will be automatically assigned to the submission and notified.
@@ -216,7 +216,7 @@ Once the author has been granted access to made edits they will be able to make 
 
 ### Assigning the Submission
 
-Depending on how you have your sections configured, some new submissions may come in unassigned. If this is the case, the next step is to assign an editor or section editor. To do so, select the _Assign_ link in the **Participants** panel.
+Depending on [how you have your sections configured](./journal-setup#edit-a-section), some new submissions may come in unassigned. If this is the case, the next step is to assign an editor or section editor. To do so, select the _Assign_ link in the **Participants** panel.
 
 ![The Add Participants window.](./assets/learning-ojs-3-ed-submissions-add-participant.png)
 
