@@ -51,7 +51,7 @@ Use a caixa de seleção para marcar tarefas para exclusão (o link está dispon
 
 ## Notificações de submissão
 
-Quando um autor faz uma nova submissão ao seu periódico, o autor e todos os colaboradores receberão um e-mail reconhecendo a sua submissão e um editor receberá automaticamente uma notificação da nova submissão. Em alguns casos, um editor será automaticamente atribuído à submissão. Qual editor (s) recebe a notificação ou é automaticamente atribuído dependerá de como você configurou o seu periódico.
+Quando um autor faz uma nova submissão ao seu periódico, o autor e todos os colaboradores receberão um e-mail reconhecendo a sua submissão e um editor receberá automaticamente uma notificação da nova submissão. Em alguns casos, um editor será automaticamente atribuído à submissão. Which editor(s) receive the notification or are automatically assigned will depend on how you have set up your journal (see [Edit a section](./journal-setup#edit-a-section).
 
 * Se houver apenas um usuário atribuído a um papel de editor ou gerente de periódico, esse usuário será atribuído e notificado automaticamente.
 * Se um ou mais editores de seção forem atribuídos à [seção](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) a qual a submissão foi feita, eles serão automaticamente atribuídos a esta submissão e notificados.
@@ -146,7 +146,7 @@ Use a guia Notas para também visualizar ou adicionar quaisquer notas editoriais
 
 ### Registro de submissão
 
-Para ver a submissão com mais detalhes, selecione o botão ***Ver Submissão**. Isso levará você ao registro de submissão.
+Para ver a submissão com mais detalhes, selecione o botão ***Ver Submissão**. Isso vai levá-lo para o registro de submissão.
 
 ![learning-ojs3.1-se-record.png](./assets/learning-ojs3.1-ed-dashboard-record.png)
 
@@ -216,7 +216,7 @@ Assim que o autor tiver acesso às edições feitas, ele poderá fazer alteraç�
 
 ### Designando a Submissão
 
-Dependendo de como você configurou suas seções, algumas novas submissões podem vir sem designação. Se for esse o caso, a próxima etapa é designar um editor ou editor de seção. Para fazer isso, selecione o link _Designar_, no painel **Participantes**.
+Depending on [how you have your sections configured](./journal-setup#edit-a-section), some new submissions may come in unassigned. Se for esse o caso, a próxima etapa é designar um editor ou editor de seção. Para fazer isso, selecione o link _Designar_, no painel **Participantes**.
 
 ![learning-ojs-3-ed-submissions-add-participant.png](./assets/learning-ojs-3-ed-submissions-add-participant.png)
 
@@ -236,7 +236,7 @@ Agora, você pode ver que o Editor de Seção está listado em Participantes e o
 
 **Aceitar e enviar para Edição de texto**: ignora o estágio de avaliação e move a submissão diretamente para a edição de texto.
 
-**Rejeitar Submissão**: Rejeita a submissão antes de passar pelo processo de avaliação, a submissão seria então arquivada. A submissão seria então arquivada. No OJS 3.3, agora existe a opção de reverter uma decisão de Rejeitar Submissão na fase de Submissão e Avaliação. Isso pode ser feito clicando em **Alterar decisão** e, em seguida, em **Reverter recusa**. Depois que uma decisão declinada for revertida, a submissão é restaurada ao estágio prévio e a rodada de revisão torna-se ativa.
+**Rejeitar Submissão**: Rejeita a submissão antes de passar pelo processo de avaliação, a submissão seria então arquivada. A submissão seria então arquivada. No OJS 3.3, agora existe a opção de reverter uma decisão de recusa na fase de submissão e avaliação. Isso pode ser feito clicando em **Alterar decisão** e, em seguida, em **Reverter Decisão**. Depois que uma decisão de rejeitar é revertida, a submissão é restaurada ao estágio anterior e a rodada de avaliação se ativa.
 
 Embora, no exemplo que demos, o editor tenha designado um editor de seção, também seria possível que o editor se designasse para a submissão.
 
@@ -504,7 +504,7 @@ As opções incluem:
 
 Use o botão **Adicionar mensagem** para responder, seja solicitando uma revisão adicional seja informando ao autor que a submissão está pronta para avançar à próxima etapa.
 
-**Rejeitar submissão** : quer dizer que a submissão não foi aprovada na avaliação por pares e não é adequada a análise posterior. A apresentação seria então transferida para os Arquivos. Apenas as submissões recusadas ​​nos Arquivos podem ser excluídas. No OJS 3.3, agora existe a opção de reverter uma decisão de Rejeitar Submissão na fase de Submissão e Avaliação. Isso pode ser feito clicando em **Alterar decisão** e, em seguida, em **Reverter recusa**. Depois que uma decisão declinada for revertida, a submissão é restaurada ao estágio prévio e a rodada de revisão torna-se ativa.
+**Rejeitar submissão** : quer dizer que a submissão não foi aprovada na avaliação por pares e não é adequada a análise posterior. A apresentação seria então transferida para os Arquivos. Apenas as submissões recusadas ​​nos Arquivos podem ser excluídas. No OJS 3.3, agora existe a opção de reverter uma decisão de recusa na fase de submissão e avaliação. Isso pode ser feito clicando em **Alterar decisão** e, em seguida, em **Reverter Decisão**. Depois que uma decisão de rejeitar é revertida, a submissão é restaurada ao estágio anterior e a rodada de avaliação se ativa.
 
 ### Solicitar Revisões
 
@@ -586,7 +586,7 @@ A submissão agora está pronta para ser movida para edição. Para fazer isso, 
 
 ![O botão "Enviar para Copiar ou editar" em um painel de envio.](./assets/learning-ojs-3-ed-send-to-copyediting.png)
 
-Ao fazer isso, será aberta uma nova janela.
+Isso abrirá uma nova janela.
 
 ![A janela Enviar para Copiar, incluindo informações sobre a notificação de aceitação a ser enviada ao autor.](./assets/learning-ojs-3-ed-accept.png)
 
@@ -618,7 +618,7 @@ Quando uma submissão é aceita no estágio de avaliação, ela passa automatica
 
 Quando a submissão entra no Estágio de Edição de Texto, uma notificação indica que um Editor de Texto precisa ser atribuído. A atribuição de Editores de texto pode ser feita por meio do link *Designar*, no painel Participantes.
 
-Ao fazer isso, será aberta uma nova janela.
+Isso abrirá uma nova janela.
 
 ![A janela Adicionar Participante no estágio de edição.](./assets/learning-ojs-3-ed-copyediting-add.png)
 
@@ -748,7 +748,7 @@ Na janela de discussão, adicione o Editor de Seção, uma linha de assunto e um
 
 ![Uma mensagem de exemplo do Editor de Cópia para o Editor de Seção](./assets/learning-ojs-3-ce-copyedited-discussion.png)
 
-Clique em **OK** para enviar a mensagem.
+Clique em **OK**.
 
 Nesse ponto, você pode se comunicar melhor com o Editor de Texto ou, se estiver satisfeito, mover a submissão para o estágio de Editoração.
 
