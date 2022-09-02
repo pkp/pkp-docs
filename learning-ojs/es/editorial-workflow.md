@@ -5,9 +5,9 @@ title: Learning Open Journal Systems 3.3 - Editorial Workflow
 description: How to manage an article manuscript through the OJS workflow, from submission to publication.
 ---
 
-# Editorial Workflow
+# Flujo de trabajo Editorial
 
-In this chapter, you will follow a submission throughout the workflow, from first submission to final publication.
+En este capítulo seguirá un envío a través del flujo de trabajo, desde el primer envío hasta su publicación definitiva.
 
 {% include video.html id="K-qjxN7rOJs" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 2: Editorial Workflow Overview"%}
 
@@ -37,11 +37,11 @@ This PKP School video explains the Production stage. To watch other videos in th
 
 <hr />
 
-## Tasks
+## Tareas
 
 Your Tasks are available from the top left menu of your Dashboard. Note the number "1" in the image below. This indicates that there is currently 1 task in your list.
 
-![The expanded Tasks menu in OJS.](./assets/learning-ojs3.1-ed-tasks.png)
+![El menú de tareas expandido en OJS.](./assets/learning-ojs3.1-ed-tasks.png)
 
 Tasks provide a quick look at items that need your attention. Bold entries are unread, and unbold entries have been read.
 
@@ -49,9 +49,9 @@ Use the checkbox to mark tasks for deletion \(the link is available at the botto
 
 <hr />
 
-## Submission Notifications
+## Notificaciones de envío
 
-When an author makes a new submission to your journal, the author and all contributors will receive an email acknowledging their submission and an editor will be automatically emailed a notification of the new submission. In some cases an editor will be automatically assigned to the submission. Which editor(s) receive the notification or are automatically assigned will depend on how you have set up your journal.
+When an author makes a new submission to your journal, the author and all contributors will receive an email acknowledging their submission and an editor will be automatically emailed a notification of the new submission. In some cases an editor will be automatically assigned to the submission. Which editor(s) receive the notification or are automatically assigned will depend on how you have set up your journal (see [Edit a section](./journal-setup#edit-a-section).
 
 * If there is only one user assigned to an Editor or Journal Manager role, that user will be automatically assigned and notified.
 * If one or more Section Editors are assigned to the [section](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) the submission was made in, they will be automatically assigned to the submission and notified.
@@ -72,11 +72,11 @@ If you want to disable submission acknowledgement emails entirely, you can do so
 
 Users can also change their individual notification settings from their own profile under View Profile > Notifications.
 
-## Submission Dashboard
+## Panel de envíos
 
 When you log into your Dashboard, you can find active submissions either from your Tasks, or from one of the queues (My Queue, Unassigned, All Active, and Archives). The counter gives you an overview of how many total items are in each queue.
 
-![The submission dashboard in OJS.](./assets/learning-ojs3.2-ed-dashboard-active.png)
+![El panel de control de envíos en OJS.](./assets/learning-ojs3.2-ed-dashboard-active.png)
 
 ### My Queue
 
@@ -106,27 +106,27 @@ Note that you can use the blue arrows to the right of each submission to reveal 
 
 ![A sample of expanded submission details in the dashboard.](./assets/learning-ojs3.2-ed-dashboard-active-details.png)
 
-### Unassigned
+### Sin asignar
 
 This panel includes submissions added to sections without section editors.
 
 ![The Unassigned tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-unassigned.png)
 
-In the above example, there are no unassigned submissions, so the panel is empty.
+En el ejemplo anterior, no hay envíos sin asignar, por lo que el panel está vacío.
 
-### All Active
+### Todo activo
 
 This section includes a list of all submissions, without being organized into queues.
 
 ![The All Active tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-all-active.png)
 
-### Archives
+### Archivos
 
 This section includes a list of all submissions either declined or already published by the journal. Declined submissions may be deleted from the list of archived submissions. Deleting a declined submission will completely remove the submission and all submission files from your journal.
 
 ![The list of archived submissions with the option to delete submissions.](./assets/ojs-3.3-sub-delete.png)
 
-### Demonstration Submission
+### Envío de demostración
 
 For this demonstration, we are looking at the Cerpa submission, entitled _A Review of Object Oriented Database Concepts and their Implementation_. It can be found at the top of the **My Assigned** queue, as well as in the **All Active** queue.
 
@@ -144,13 +144,13 @@ Use the Notes tab to also view or add any editorial notes.
 
 ![The Notes tab of the Activity log.](./assets/learning-ojs-3-ed-submissions-notes.png)
 
-### Submission Record
+### Registro de envíos
 
 To view the submission in more detail, select **View Submission** button. This will take you to the submission record.
 
 ![A sample submission record.](./assets/learning-ojs3.1-ed-dashboard-record.png)
 
-From here, you can see:
+Desde aquí, puede ver:
 
 **Submission Files**: This panel lists the files that have been submitted. In this view, there is just one file, but multiple files could have been submitted. Submission files will now retain the original names when downloaded.
 
@@ -214,9 +214,9 @@ Once the author has been granted access to made edits they will be able to make 
 
 ![The sections available for authors to edit highlighted in the Publication tab.](./assets/learning-ojs3.2-editorial-workflow-edit-publicationmenu.png)
 
-### Assigning the Submission
+### Asignando el envío
 
-Depending on how you have your sections configured, some new submissions may come in unassigned. If this is the case, the next step is to assign an editor or section editor. To do so, select the _Assign_ link in the **Participants** panel.
+Depending on [how you have your sections configured](./journal-setup#edit-a-section), some new submissions may come in unassigned. If this is the case, the next step is to assign an editor or section editor. To do so, select the _Assign_ link in the **Participants** panel.
 
 ![The Add Participants window.](./assets/learning-ojs-3-ed-submissions-add-participant.png)
 
@@ -272,7 +272,7 @@ Keep the files that are to be reviewed checked off.
 
 <hr />
 
-## Review
+## Revisión
 
 {% include video.html id="5Hwkqj4Jvew" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 5: Assigning a reviewer."%}
 
@@ -664,7 +664,7 @@ If any changes are made, hit the **Save** button before exiting this window.
 
 You can Preview how the Abstract page would look if published with the current metadata by clicking on the Preview button in the top-right portion of the page.
 
-#### Consult with the Author
+#### Consulta con el autor
 
 Once they have finished copyediting, they will run the changes past the Author by adding a new discussion, using the Copyediting Discussions panel's *Add discussion* link.
 
