@@ -31,7 +31,7 @@ This guide is intended for journals published on OJS which intend to meet the Re
 
 While we will do our best to keep this guide up-to-date, the Plan S documentation should be relied upon for the most current and detailed information.
 
-## 1.1 Basic mandatory conditions for all publication venues
+## Basic mandatory conditions for all publication venues
 
 ### Review policies
 
