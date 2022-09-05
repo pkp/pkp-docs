@@ -38,7 +38,7 @@
 		th {
 			font-weight: $bold;
 		}
-		
+
 		a {
 			word-break: unset;
 		}
@@ -321,6 +321,20 @@
 		// Make sure the footer is pushed to the bottom of the screen
 		// even if the book content is very short
 		min-height: calc(100vh - 30rem);
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			position: relative;
+		}
+	}
+
+	.book_heading_anchor {
+		position: absolute;
+		left: -2rem;
 	}
 
 	.book__footerWrapper {

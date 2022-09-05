@@ -82,19 +82,25 @@
       {% else %}
         {% capture anchor %} {{ anchor }}{% endcapture %}
       {% endif %}
-    {% endif %}
 
-    {% capture new_heading %}
-      <h{{ _hAttrToStrip }}
-        {{ include.bodyPrefix }}
-        {% if beforeHeading %}
-          {{ anchor }}{{ header }}
-        {% else %}
-          {{ header }}{{ anchor }}
-        {% endif %}
-        {{ include.bodySuffix }}
-      </h{{ _workspace | last }}
-    {% endcapture %}
+      {% capture new_heading %}
+        <h{{ _hAttrToStrip }}
+          {{ include.bodyPrefix }}
+          {% if beforeHeading %}
+            {{ anchor }}{{ header }}
+          {% else %}
+            {{ header }}{{ anchor }}
+          {% endif %}
+          {{ include.bodySuffix }}
+        </h{{ _workspace | last }}
+      {% endcapture %}
+
+    {% else %}
+      {% capture new_heading %}
+        <h1>{{ header }}</h1>
+        {% include book/toc.html html=content h_min=2 h_max=3 %}
+      {% endcapture %}
+    {% endif %}
     {% capture edited_headings %}{{ edited_headings }}{{ new_heading }}{% endcapture %}
   {% endfor %}
 {% endcapture %}{% assign headingsWorkspace = '' %}{{ edited_headings | strip }}
