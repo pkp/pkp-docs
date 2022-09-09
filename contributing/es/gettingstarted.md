@@ -1,11 +1,11 @@
 - - -
 title: Getting Started - Guidelines for Contributing to PKP Documentation
 - - -
-# Getting Started
+# Cómo empezar
 
-Most of PKP’s documentation is hosted and managed in a GitHub repository called the PKP Documentation Hub and is built using an open-source tool called [Jekyll](https://jekyllrb.com/). GitHub is a collaborative version control system that manages and stores revisions of a project. To learn more about GitHub and Git, watch this ["What Is Git and Github?" video](https://www.youtube.com/watch?v=uUuTYDg9XoI) or this ["Git and Github for Poets" video](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV).
+La mayor parte de la documentación de PKP está alojada y gestionada en un repositorio de GitHub llamado PKP Documentation Hub y se construye utilizando una herramienta de código abierto llamada [Jekyll](https://jekyllrb.com/). GitHub es un sistema colaborativo de control de versiones que gestiona y almacena las revisiones de un proyecto.  Para saber más sobre GitHub y Git, vea  “Qué es Git y Github?” o  “Git y Github para poetas”.
 
-The content files that make up PKP’s documentation are stored in the [Documentation Hub repository](https://github.com/pkp/pkp-docs) and anyone with a GitHub account can edit and add documents to the repository. This chapter explains the important things you will need to know when working on GitHub.
+Los archivos de contenido que componen la documentación de PKP se almacenan en el archivo Repositorio del centro de documentación y cualquier persona con una cuenta de GitHub puede editar y añadir documentos al repositorio.  Este capítulo explica las cosas importantes que ®rnecesitarás saber cuando trabajes en GitHub.
 
 If you don’t have a GitHub account already, begin by [creating an account](https://github.com/join?source=header-home).
 
