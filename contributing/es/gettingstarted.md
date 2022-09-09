@@ -5,55 +5,55 @@ title: Getting Started - Guidelines for Contributing to PKP Documentation
 
 La mayor parte de la documentación de PKP está alojada y gestionada en un repositorio de GitHub llamado PKP Documentation Hub y se construye utilizando una herramienta de código abierto llamada [Jekyll](https://jekyllrb.com/). GitHub es un sistema colaborativo de control de versiones que gestiona y almacena las revisiones de un proyecto.  Para saber más sobre GitHub y Git, vea  “Qué es Git y Github?” o  “Git y Github para poetas”.
 
-Los archivos de contenido que componen la documentación de PKP se almacenan en el archivo Repositorio del centro de documentación y cualquier persona con una cuenta de GitHub puede editar y añadir documentos al repositorio.  Este capítulo explica las cosas importantes que ®rnecesitarás saber cuando trabajes en GitHub.
+Los archivos de contenido que componen la documentación de PKP se almacenan en el archivo Repositorio del centro de documentación y cualquier persona con una cuenta de GitHub puede editar y añadir documentos al repositorio.  Este capítulo explica las cosas importantes que los usuarios necesitarán saber al trabajar en GitHub.
 
-If you don’t have a GitHub account already, begin by [creating an account](https://github.com/join?source=header-home).
+Si aún no tienes una cuenta en GitHub, empieza por [crear una cuenta](https://github.com/join?source=header-home).
 
-## File Structure
+## Estructura de los archivos
 
-Each folder in the PKP Documentation Hub repository represents a document.
+Cada carpeta del repositorio del Centro de Documentación representa un documento.
 
 ![Docs hub folder structure in Github.](./assets/Github-dash.png)
 
-Short documents consist of a single markdown file and may have an “assets” folder of images. All content is contained in the `index.md` file and the table of contents on the side of the page is created using the header tags in markdown.
+Los documentos breves constan de un único archivo markdown y pueden tener una carpeta "assets" (recursos) que contiene imágenes. Todo el contenido se encuentra en el archivo index.md y la tabla de contenidos en el área lateral derecha de la página se crea utilizando las etiquetas de cabecera en markdown.
 
 ![Index.md page of Starting a Journal document.](./assets/index-file.png)
 
-Longer documents consist of multiple chapter files, a README file, a SUMMARY file, and an assets folder. Content is stored in the chapter files and the README file acts as a summary page for the document. The SUMMARY file creates the table of contents.
+Los documentos más largos constan de varios archivos de capítulos, un archivo README, un archivo SUMMARY y una carpeta de assets. El contenido se almacena en los archivos de capítulo y el archivo README actúa como página de resumen del documento. El archivo SUMMARY crea la tabla de contenidos
 
-**All files created will need to have a .md ending**
+**Todos los archivos creados deberán tener una terminación .md**
 
 ![Learning OJS guide folder structure.](./assets/Github-dash-2.png)
 
-If the document exists (or will exist) in more than one language, there will be a separate folder of these files for each language version.
+Si el documento existe (o existirá) en más de un idioma, habrá una carpeta separada de estos archivos para cada versión lingüística.
 
 ![Learning OJS guide language folders.](./assets/Github-dash-lang.png)
 
-### README File
+### Archivo README
 
-The README.md file should include a brief introduction regarding the document, a list of contributors, and a release date.
+El archivo README.md debe incluir una breve introducción sobre el documento, una lista de colaboradores y la fecha de publicación.
 
 ![Readme file for the Using the Paypal Plugin guide.](./assets/Github-readme.png)
 
-## Branches and Pull Requests
+## Ramas y Pull Requests
 
-A branch is a version of the repository that contains the changes you’ve proposed, uniquely. Since it is not part of "main", it won’t have an impact on the way the site is built in real-time.
+Una rama es una versión del repositorio que contiene los cambios que has propuesto, de forma única.  Como no forma parte del archivo "principal" (main), no tendrá impacto en la forma en que se construye el sitio en tiempo real.
 
-As most users will not have direct access to make changes to the PKP repository, they will need to create a branch to make changes. If you do not have full permission you will come across the message box that says: "You're editing a file in a project you don't have write access to. Submitting a change to this file will write it to a new branch in your fork, so you can send a pull request".
+Como la mayoría de los usuarios no tendrán acceso directo para hacer cambios en el repositorio PKP, necesitarán crear una rama para hacer cambios. Si no tiene permiso total se encontrará con el cuadro de mensaje que dice: "Está editando un archivo en un proyecto al que no tiene acceso de escritura. Enviar un cambio a este archivo lo escribirá en una nueva rama en tu fork, así que puedes enviar un pull request".
 
 ![Editing access warning message.](./assets/Github-notice.png)
 
-A branch can be created on your own repository or automatically generated when you try to make a change on the PKP repository.
+Una rama puede ser creada en su propio repositorio o generada automáticamente cuando intente hacer un cambio en el repositorio PKP.
 
-## File Naming Conventions
+## Convenciones de nomenclatura de archivos
 
-**In General** While any name you create should work, it’s best to keep titles short and descriptive. Always replace spaces between words with a dash.
+**En general**, aunque cualquier nombre que crees debería funcionar, es mejor que los títulos sean cortos y descriptivos. Sustituya siempre los espacios entre palabras por un guión. Sustituya siempre los espacios entre palabras por un guión.
 
-**Titles**: Some example titles include: `learning-ojs`, `pkp-theming-guide`, `crossref-ojs-manual`. Remember that titles are part of the file path in the URL to individual docs so keep it simple.
+**Títulos**: Algunos títulos de ejemplo incluyen: `learning-ojs`, `pkp-theming-guide`, `crossref-ojs-manual`. Recuerde que los títulos son parte de la ruta del archivo en la URL de los documentos individuales, así que manténgalo simple.
 
-**Chapters**:  You might be tempted to number chapters, but if we ever need to create new chapters in between existing ones, we would need to re-number. It’s best to keep chapters in the same style as title-level names. Some examples for chapters include: `getting-started.md`, `troubleshooting.md`, `data-import-and-export.md`.
+**Capítulos**: Es posible que se sienta tentado a numerar los capítulos, pero si alguna vez necesitamos crear nuevos capítulos entre los existentes, tendríamos que volver a enumerarlos.  Es mejor mantener los capítulos en el mismo estilo que los nombres de los títulos.  Algunos ejemplos de capítulos son : getting-started.md, troubleshooting.md, data-import-and-export.md.
 
-**Images**: Store all images in a single "assets" folder within the language you’re working (e.g.: `en/assets/`). Keep your image titles brief or with abbreviations and consistently named, so they’re easy to locate. Depending on how many images you have, numbering these might be a lot more convenient while working on the document. Listen to your heart. Some examples include: `contrib-01.png`, `authoring-images-01.png`. If you’re putting all your images into only the asset folder, it’s a good idea to name your images to correspond with chapter titles.
+**Imágenes**: Almacena todas las imágenes en una sola carpeta "assets" dentro del idioma que se está trabajando (por ejemplo: `en/assets/`). Keep your image titles brief or with abbreviations and consistently named, so they’re easy to locate. Depending on how many images you have, numbering these might be a lot more convenient while working on the document. Listen to your heart. Some examples include: `contrib-01.png`, `authoring-images-01.png`. If you’re putting all your images into only the asset folder, it’s a good idea to name your images to correspond with chapter titles.
 
 Note that file names are case sensitive, so if the image is saved as `learning-ojs3.1-jm-settings-workflow-email-templates.png` and you reference `learning-ojs3.1-jm-settings-workflow-email-templates.png` in the document, the image will not display.
 
