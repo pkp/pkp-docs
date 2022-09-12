@@ -38,12 +38,13 @@ Tenga en cuenta que una actualización puede tomar de unos minutos hasta varias 
 
 Todos los desarrollos de PKP utilizan una variante de [Versionado semántico](https://semver.org) descrito como `major.minor.revision-build`. Cada punto del número de versión describe el tipo de cambios que puedes esperar.
 
-| Tipo        | Ejemplo   | Descripción:                                                                                                                                                                                     |
-| ----------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| major       | `3.x.x-x` | Cambios estructurales disrruptivos que modifican por completo el sistema y pueden afectar el funcionamiento de los *plugins*, la configuración de los servidores y todas las partes del sistema. |
-| menor       | `3.3.x-x` | Cambios estructurales que pueden afectar a los *plugins* y a la configuración del servidor                                                                                                       |
-| revisión    | `3.3.3-x` | Se añaden nuevas caractarísticas y/o funciones, pero los cambios estructurales se limitan al mínimo.                                                                                             |
-| compilación | `3.3.3-3` | No hay cambios estructurales ni migraciones de bases de datos.                                                                                                                                   |
+| Tipo              | Ejemplo    | Descripción:                                                                                                                                                                                     |
+| ----------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| major (principal) | `3.x.x-x
+` | Cambios estructurales disrruptivos que modifican por completo el sistema y pueden afectar el funcionamiento de los *plugins*, la configuración de los servidores y todas las partes del sistema. |
+| menor             | `3.3.x-x`  | Cambios estructurales que pueden afectar a los *plugins* y a la configuración del servidor                                                                                                       |
+| revisión          | `3.3.3-x`  | Se añaden nuevas caractarísticas y/o funciones, pero los cambios estructurales se limitan al mínimo.                                                                                             |
+| compilación       | `3.3.3-3`  | No hay cambios estructurales ni migraciones de bases de datos.                                                                                                                                   |
 
 Al paso entre una versión y otra se lo denomina "Salto". Para poder comprender el proceso de actualización, primero deberás determinar el tamaño del "Salto" que implica la actualización. Un "Salto" de la versión `3.3.0-6` a la versión`3.3.0-7` probablemente se puede hacer con un tiempo mínimo de inactividad. Sin embargo, un "Salto" de la versión `2.4` a `3.2` será un proceso largo y complejo con un mayor riesgo de introducir problemas.
 
