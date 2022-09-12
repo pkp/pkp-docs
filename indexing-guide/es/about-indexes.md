@@ -1,4 +1,4 @@
-# About Indexes and Databases
+# Sobre los índices y bases de datos
 
 Indexes and databases are online, searchable collections of information. There are a variety of indexes and databases with different access models, content collection models, and content  standards. Some examples include:
 
