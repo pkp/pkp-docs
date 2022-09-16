@@ -25,7 +25,7 @@ Na aba **Publicação**, você pode atribuir participantes (como um Editor de La
 
 Este vídeo da Escola do PKP explica os passos que o Editor de Seção ou Editor de Layout tomará na fase de Editoração e na aba Publicação. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-## Submissões multilíngues
+## Abas de Publicação
 
 Todos os aspectos relacionados à publicação de uma submissão são feitos na aba Publicação. A aba Publicação permite editar ou adicionar informações sobre a submissão, incluindo colaboradores, metadados e identificadores. É também onde você fará o upload dos arquivos finais de prova para publicação na revista.
 
@@ -288,7 +288,7 @@ O vídeo agora deve aparecer na submissão publicada.
 
 ### Arquivos HTML
 
-Em seguida, você desejará compartilhar o PDF com o autor para um olhar final e confirmação de autoria. Para fazer isso, use o link **Adicionar discussão** no painel Discussão de editoração Essa ação abrirá uma nova janela. Ao fazer isso, será aberta uma nova janela.
+Em seguida, você desejará compartilhar o PDF com o autor para um olhar final e confirmação de autoria. Para fazer isso, use o link **Adicionar discussão** no painel Discussão de editoração Essa ação abrirá uma nova janela. Isso abrirá uma nova janela.
 
 ![Criando uma discussão no OJS para indicar que a Leitura de Prova está pronta para revisão.](./assets/learning-ojs-3-le-production-add-participant.png)
 
@@ -557,16 +557,6 @@ Neste momento em que você criou uma edição, pode adicionar o artigo a ela. Ob
 
 ![Aba da Edição na guia Publicação da submissão mostrando todas as opções e campos relacionados à Edição - Edição, Seção, Categorias, Imagem de Capa, Número da Página e Data de Publicação.](./assets/learning-ojs3.2-ed-prod-add-to-issue.png)
 
-### Publicação Contínua
-
-OJS é atualmente projetado para um modelo de publicação tradicional, em que os artigos são publicados em edições. No entanto, a publicação contínua é uma forma alternativa e popular de publicar pesquisas acadêmicas, na qual os artigos são publicados assim que estão prontos. Você pode usar um modelo de publicação contínua no OJS.
-
-Você pode criar uma edição com um título como “Publicações Atuais”, publicá-la e adicionar artigos à medida que forem disponibilizados. Os artigos serão publicados imediatamente na página da edição atual do seu site.
-
-O artigo deve ter sido atribuído a uma edição e passado pela etapa de Revisão para que se possa agendá-lo para publicação.
-
-Se quiser avisar seus leitores quando cada novo artigo for publicado, você terá que criar um **Comunicado** individual, pois a mensagem de notificação automática de uma nova publicação só pode ser enviada quando uma nova edição é publicada. Consulte o [capítulo Configurações do site](https://github.com/pkp/pkp-docs/blob/main/learning-ojs/en/settings-website.md#announcements) para obter informações sobre os anúncios.
-
 ## Adicionar arquivos de leitura de prova
 
 A próxima etapa é o agendamento do artigo para publicação. Embora o artigo não seja publicado até que a edição à qual está atribuída seja publicada, a etapa do Cronograma de Publicação é a etapa final para confirmar que o artigo está pronto para ser publicado.
@@ -577,7 +567,7 @@ Para agendar uma publicação individual, ela deve estar atribuída a uma ediç�
 
 Para fazer isso, na aba **Publicação** do manuscrito, vá a **Edições**.
 
-* Volte a **Submissões**
+* Clique em **Salvar**.
 * Encontre e abra a submissão que deseja publicar
 * Vá à aba **Publicação**> **Edição**
 
@@ -648,3 +638,68 @@ Indexandores e repositórios que usam a OAI para a coletar os metadados, precisa
 A nova versão será marcada corretamente para ser reconhecida e atualizada pelo índice do Google Acadêmico, mas o colhedor precisará visitar seu site novamente para encontrar a nova versão.
 
 É recomendado verificar com o indexador ou repositório específico para saber qual é o seu processo de atualização que eles exigem.
+
+## Continuous Publishing & Early View
+
+Continuous publishing – also known as rolling publication schedule – is a way of publishing that prioritizes immediacy. When publishing continuously, articles are released as soon as they are ready. Journals may also choose to provide an early view prior to layout (also known as online first, in-press, post-print, first view, etc.).
+
+Some journals may find that a more frequent publication schedule can also help with [search engine optimization (SEO)](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-visibility#search-engines) and provide a way to generate more frequent social media output.
+
+The content should be considered final, and have already undergone review and copyediting. As the work may be cited right away, figures and appendices should be in place. To avoid confusion, if page numbers are subject to change, they should be avoided.
+
+OJS é atualmente projetado para um modelo de publicação tradicional, em que os artigos são publicados em edições. However, there is a way to adopt a continuous publishing model within OJS.
+
+### Use Current Issue - for Continuous Publishing
+
+* Create a [new issue](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#create-issue). Issues can be given a title in the Issue Data. We recommend using a title that communicates its ongoing nature.
+* Publish the new issue: while it is possible to publish an issue with 0 articles, an empty issue may be confusing to readers. We recommend that you publish the new issue after at least 1 article is assigned.
+* When the next article is ready, assign it to **Back Issues > Current Issue**. This article will be published immediately on the current issue page. If using DOIs, be sure to **Assign Identifier** before publishing. If your DOI registration is not automated, manually register your newest DOI.
+* Please note that default DOI patterns are generated using issue numbers:
+     * If you plan to generate a DOI suffix based on vol/issue numbering, do not change the vol/issue later.
+     * If you intend to change vol/issue numbering, do not generate a suffix using the default patterns. Choose to generate a custom pattern instead. See [DOI Configuration documentation](https://docs.pkp.sfu.ca/doi-plugin/en/) for more details.
+* After the Current Issue is completed, you may want to rename it according to the standard naming convention (e.g., Volume 2, Issue 5), by going to [Edit Issue](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#edit-issue).
+* If you only changed the Issue Title:
+    * This field is not exported to CrossRef, DOAJ or PubMed, but it is used for DataCite. If you use DataCite, remember to update that record by resubmitting metadata via the DataCite plugin.
+* Consider using the [article versioning feature](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#versioning-of-articles) to publish the initial Early View version of the article. When the final version is ready, create a New Version and publish it.
+
+Since new articles will be published immediately, build verification steps within your workflow by using the article [Preview features](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#preview-issue-and-articles) to check for accurate metadata and galleys.
+
+### Use the Forthcoming Plugin - for Continuous Publishing
+
+The [Forthcoming plugin](https://github.com/ajnyga/forthcoming) allows journals to publish a version of an article using OJS’s versioning feature before an entire issue is published. This is an external third-party plugin available for OJS 3.2.1 and above. As a plugin that is not maintained by PKP, we cannot guarantee its functionality or compatibility with all software versions.
+
+See the [Forthcoming plugin’s README file](https://github.com/ajnyga/forthcoming#readme) for details on how it works and contact your OJS administrator to see if support is available for this plugin.
+
+### Use Custom Pages - for Continuous Publishing and Early View
+
+Create a Custom Page under [Navigation settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#navigation) and add articles to it.
+
+This option is fully separate from the regular Submission Workflow, and requires a manual addition and removal of article metadata and/or full text.
+
+On the blank Custom page, journals can provide:
+
+* A list of articles with minimal metadata and no full-text articles
+* A list of articles with full metadata and no full-text articles
+* A list of articles with hyperlinks to full-text / early view versions (the files must be hosted elsewhere, such as in the [Publisher Library](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#publisher-library))
+
+When a new article is ready to be shared, manually add it to the Custom Page. Then when the entire issue with the article or the final version of the same article is ready to be published, manually remove it from the Custom Page.
+
+Content of custom pages will not appear in journal keyword searches, and articles added to custom pages will not show up in article searches or receive DOIs.
+
+### Journal Settings for Continuous Publishing
+
+You may want to change some journal settings to reflect the change in publishing schedule:
+
+* [Default Copyright Year](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution): for a continuous publishing model, select the article’s publication date. Esse padrão pode ser substituído caso a caso.
+* [Journal Policies](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup): clearly communicate the publishing schedule and frequency within “About the Journal”.
+* [Customize the “Current Issue” label on the homepage](https://docs.pkp.sfu.ca/translating-guide/en/customize-locale#example-customize-the-current-issue-label-on-homepage): if you would like to change the "current issue" label on homepage to "current publications" or "current articles," you can do it via the Custom Locale Plugin (in OJS 3.2 or newer).
+
+### Communications
+
+If you would like to notify your readers when each new article is published, create an individual Announcement, as the automatic notification message for a new publication can only be sent when a new issue is published. See the [Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website.html#announcements) chapter for information about Announcements.
+
+If your journal had previously used a traditional issue-based model and has now switched to a continuous publishing model, you may need to update third-party agencies, including:
+
+* ISSN Centre: to update the ISSN record, contact your [National Centre](https://www.issn.org/services/requesting-an-issn/contact-an-issn-national-centre/)
+* Indexes that include publication frequency
+* Indexes that include information about the time between submission and publication
