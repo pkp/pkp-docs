@@ -6,7 +6,9 @@ title: FAQ about Users and Roles in Open Journal Systems (OJS), Open Monograph P
 
 ## How do I prevent users from self-registering?
 
-By default, OJS allows users to self-register as an Author, Reader, or Reviewer. However, you may want to restrict self-registration because your journal is only open to solicited submissions, because you’re a course-based journal (only allowing submissions from students registered in the class), or because your journal is discontinuing.
+By default, OJS allows users to self-register as an Author, Reader, or Reviewer. You can turn off self-registration for any of these roles by finding the role in Users and Roles and clicking Edit, then unchecking "Allow user self-registration." For more information see [Learning OJS > Editing Roles](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#editing-roles).
+
+You may also want to restrict self-registration altogether because your journal is only open to solicited submissions, because you’re a course-based journal (only allowing submissions from students registered in the class), or because your journal is discontinuing.
 
 To close registration, go to [Users & Roles > Site Access Options](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#site-access-options).
 
@@ -18,7 +20,7 @@ Please see instructions in [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs
 
 ## A user can’t reset their password. What do I do?
 
-You can refer them to the instructions in [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#if-you-forgot-your-password) on how to reset a password when you have forgotten the password. If the user is having issues, please see instructions under [Users and Roles > If a User Can’t Log In](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#if-a-user-cant-log-in).
+You can refer them to the instructions in [Learning OJS 3 > Resetting Your Password](https://docs.pkp.sfu.ca/learning-ojs/en/user-accounts#resetting-your-password) for instructions on how to reset a password. If the user is having issues, please see instructions under [Users and Roles > If a User Can’t Log In](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#if-a-user-cant-log-in).
 
 ## When I try to log in, why am I sent back to the login page?
 
@@ -42,9 +44,9 @@ There are few scenarios where you might come across this message:
 
 1. You were assigned a role in the journal which does not have access to some stages of the workflow (for example, a copyeditor usually won’t have access to the peer review workflow stage). You may need to be assigned a new or additional role to receive additional access.
 2. The role settings need to be adjusted to provide access to more stages of the workflow for everyone assigned to that role.
-3. If you happen to be an editor or section editor of a journal that uses Anonymous Reviewer/Disclosed Author (previously known as "blind") or Anonymous Reviewer/Anonymous Author (previously knows as "double-blind") and has assigned yourself as a reviewer and declined this request.
+3. If you happen to be an editor or section editor of a journal that uses Anonymous Reviewer/Disclosed Author (previously known as "blind") or Anonymous Reviewer/Anonymous Author (previously knows as "double-blind") and have assigned yourself as a reviewer and declined this request.
 
-If you encounter this message as a result of the first 2 scenarios, please see [the Users and Roles documentation](/learning-ojs/en/users-and-roles#if-a-user-cant-log-in) for details on editing a user’s account to assign a different or additional role, and editing the role settings to allow access to different workflow stages. (based on the role’s access to workflow stages, or on which role you’re in when assigned to an article)
+If you encounter this message as a result of the first 2 scenarios, please see [the Users and Roles documentation](/learning-ojs/en/users-and-roles) for details on editing a user’s account to assign a different or additional role, and editing the role settings to allow access to different workflow stages. (based on the role’s access to workflow stages, or on which role you’re in when assigned to an article)
 
 The third scenario is a result of the security measures within the recent releases of OJS to protect the review process. The system is recognizing the most recent role as a reviewer. A workaround for this would be for the editor to use the direct link to the editorial workflow, i.e. you add /workflow/index/MSID/3 right after index.php in the URL: https://YourJournalURL/index.php/acronym/workflow/index/XXXX/3, where xxxx is the MS ID #.
 
@@ -68,7 +70,7 @@ In a multi-journal installation, Journal Managers or Journal Editors will only b
 
 The easiest way to send a notification to all registered users is to create an “Announcement.” In addition to sending a message to all users (who have not opted out of email notifications), an Announcement is also displayed on the journal homepage and saved as an archive. See [Website Settings > Announcements in Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#announcements) for details.
 
-If you would like to send a message to all users in a particular role you can use the Notify feature. See [Email Users in Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#email-users) for details.
+If you would like to send a message to all users in a particular role you can use the Notify feature. See [Bulk Email Notifications by Role](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#bulk-email-notifications-by-role) for details.
 
 For more refined communication with users and marketing communication, we recommend an external tool, such as Mailchimp. You can export your users in a CSV file under Tools > Import/Export and import them into the external tool.
 
@@ -84,7 +86,7 @@ Once that is done, you can then begin to clear out the accounts. If you have acc
 
 ## How do I add another site Administrator?
 
-The Site Administrator is created when first installing OJS, OCS or the Harvester; and typically there is only one Site Admin for any given installation. In order to grant another Site Administrator, you’ll need access to your database (e.g. through a tool like phpMyAdmin). This is usually part of a CPanel login on a typical server. You’ll need to create a user account and then use the SQL to promote them to Site Admin.
+The Site Administrator is created when first installing OJS, and typically there is only one Site Admin for any given installation. In order to grant another Site Administrator, you’ll need access to your database (e.g. through a tool like phpMyAdmin). This is usually part of a CPanel login on a typical server. You’ll need to create a user account and then use the SQL to promote them to Site Admin.
 
 Check what the user group ID of your administrators group is by running:
 
