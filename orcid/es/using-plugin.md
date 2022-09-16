@@ -58,6 +58,46 @@ When a work is added to an ORCID record, the "source" is displayed as well. If a
 
 *Please note:* that the information on the source of the publication does not currently work for OPS.
 
+### Review credits: ORCID plugin will display article information in reviewer’s ORCID record (Member API only)
+
+Using the Member API, it is possible to send review details to a reviewer’s ORCID profile to give reviewers public credit for their work.
+
+Note that in order for the ORCID plugin to send reviewer details to ORCID, the journal must first have an [ISSN entered in the Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+
+Reviewers must connect their ORCID manually from their Public Profile by using the “Create or Connect your ORCID iD” button. Currently there is no option for editors to send an invitation to reviewers to connect their ORCID, as they can for authors. Editors may wish to contact reviewers directly (using the “Notify” feature in OJS) with directions for authenticating their ORCID, as follows:
+
+- Login to your user account in OJS
+- In the top right, click Edit Profile
+- Click on the Public tab, and click the “Create or Connect your ORCID iD” button
+- Follow the steps to authenticate your ORCID iD with your OJS account
+- Haga clic en Guardar
+
+![author profile connect ORCID iD.](./assets/orcid_profile_connect.png)
+
+Once their ORCID is authenticated, the editor can invite the reviewer to complete their review. The editor can see which reviewers have their ORCID connected when they select “Add Reviewer”.
+
+![add reviewer with orcid connected.](./assets/orcid_add_reviewer.png)
+
+The reviewer now [completes their review](https://docs.pkp.sfu.ca/learning-ojs/en/reviewing) as normal and makes a recommendation for the submission.
+
+Once the review is complete, the editor reads the review and clicks “Confirm.”
+
+![read review.](./assets/orcid_read_review.png)
+
+![confirm review.](./assets/orcid_confirm_review.png)
+
+The editor can then select “Thank Reviewer,” which sends an (optional) email to the reviewer. Completing this step sends the article details to the reviewer’s ORCID record.
+
+![thank reviewer.](./assets/orcid_thank_reviewer.png)
+
+![send email to thank reviewer.](./assets/orcid_thank_reviewer_email.png)
+
+The review activity now appears on the reviewer’s ORCID record. Note that if the article used open peer review, the article title will appear under “Review subject.” If the article used anonymous peer review, the “Review subject” will not display.
+
+![reviewer credit appearing in ORCID.](./assets/orcid_reviewer_credit.png)
+
+
+
 ### Alter an existing article to include an ORCID iD
 
 For a visual overview of this process, see the [video walkthrough of article publication](https://vimeo.com/374417678).
