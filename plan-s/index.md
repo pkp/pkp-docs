@@ -258,7 +258,7 @@ Plan S recommends that journals provide open citation data in a way that is shar
 
 2. Submit your references to Crossref. In OJS, this can be done by using the [Crossref Reference Linking plugin](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references). The plugin will deposit references to Crossref and return DOIs to include in article references in OJS. There is no additional charge to Crossref members for using the plugin.
 
-## 1.2 Specific conditions for Open Access journals 
+## Specific conditions for Open Access journals 
 
 ### DOAJ registration
 
