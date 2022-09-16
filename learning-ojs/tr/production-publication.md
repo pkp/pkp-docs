@@ -7,25 +7,25 @@ description: Detailed instructions for the Production stage of the OJS workflow.
 
 # Production and Publication
 
-With the completion of the Copyediting stage, the submission now moves to Production. From here, the copyedited files will be converted to publishable formats in the form of galley files (e.g., PDF, HTML) and proofread before publishing. A new journal issue will be created and the article will be scheduled for publication in the issue. This chapter explains the steps in that process, as well as how to use the versioning feature (first introduced in OJS 3.2) to publish a new version of an article if significant changes are made.
+Kopya Düzenleme aşamasının tamamlanmasıyla, gönderi artık Üretim'e taşınır. Burada, kopyalanan dosyalar, dizigi dosyaları (Ön. PDF, HTML) biçiminde yayınlanabilir biçimlere dönüştürülecek ve yayınlanmadan önce düzeltilecektir. Yeni bir dergi sayısı oluşturulacak ve makale bu sayıda yayınlanmak üzere planlanacaktır. This chapter explains the steps in that process, as well as how to use the versioning feature (first introduced in OJS 3.2) to publish a new version of an article if significant changes are made.
 
-OJS also offers a straightforward way to bypass the editorial workflow described in the previous chapter and submit content directly into production, where it can be added to an issue and published. You can do this via Quick Submit plugin. See the detailed [Quick Submit plugin instructions under the Data Import & Export chapter](./tools.md#importexport).
+OJS ayrıca önceki bölümde açıklanan editoryal iş akışını atlamak ve içeriği doğrudan bir sayıya eklenebileceği ve yayınlanabileceği üretime göndermek için basit bir yol sunar. Bunu Hızlı Gönder eklentisi ile yapabilirsiniz. Detay için [Veri İçe Aktarma & Dışa Aktarma bölümü](./tools.md#importexport) altındaki Hızlı Gönderi eklentisi talimatlarına bakın.
 
-To start working in Production, the Section Editor or Journal Editor must login to the system and choose the submission from their dashboard.
+Üretimde çalışmaya başlamak için Bölüm Editörü veya Dergi Editörü sisteme giriş yapmalı ve panolarından gönderiyi seçmelidir.
 
-Clicking on the article will open the submission record.
+Makaleye tıklamak, gönderi kaydını açacaktır.
 
 ![Production tab in the editorial workflow of a manuscript.](./assets/learning-ojs-3.2-se-production.png)
 
-You will see the copyedited files are now available in the **Production Ready Files** panel.
+Kopyalanmış dosyaların artık **Üretime Hazır Dosyalar** panelinde mevcut olduğunu göreceksiniz.
 
-In the **Production** tab, you can assign participants (such as a Layout Editor) to the Production stage of the workflow and communicate with participants in the **Production Discussions** panel.
+**Üretim** sekmesinde, iş akışının Üretim aşamasına katılımcıları (örneğin bir Mizanpajcı) atayabilir ve **Üretim Tartışmaları** panelinde katılımcılarla iletişim kurabilirsiniz.
 
 {% include video.html id="-VRKdBQPdn4" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 9: Production."%}
 
 This PKP School video explains the steps the Section Editor, Production Editor and/or Designer will take in the Production stage and the Publication tab. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-## Publication Tabs
+## Yayın Sekmeleri
 
 Gönderinin yayınlanmasıyla ilgili her şey Yayın sekmesi altında yapılır. Yayın sekmesi, katkıda bulunanlar, üstveriler ve tanımlayıcılar dahil olmak üzere gönderiyle ilgili bilgileri düzenlemenize veya eklemenize olanak tanır. Ayrıca dergide yayınlanmak üzere son Dizgi dosyalarını yükleyeceğiniz yerdir.
 
@@ -45,13 +45,13 @@ Herhangi bir değişiklik yapılırsa, bu pencereden çıkmadan önce Kaydet'e t
 
 **Tanımlayıcılar** DOI gibi benzersiz bir tanımlayıcıyı görüntülemek veya eklemek için Tanımlayıcılar sekmesini kullanın. DOI atama ve yönetme hakkında daha fazla bilgiyi [DOI Eklenti Kılavuzu](/doi-plugin/)'nda bulabilirsiniz.
 
-**Dizgi** Yayınlanmak üzere son dosyayı yüklemek için Dizgiler sekmesini kullanın. This is explained below.
+**Dizgi** Yayınlanmak üzere son dosyayı yüklemek için Dizgiler sekmesini kullanın. Bu aşağıda açıklanmıştır.
 
 **İzinler & Açıklama** Varsa, telif hakkı sahibiyle ilgili ayrıntıları ve makale lisansına bağlantı ekleyin. Bu, [Dağıtım Ayarlarınıza](./settings-distribution.md) göre otomatik olarak doldurulacaktır.
 
 **Sayılar** Makaleyi bir dergi sayısına atamak için Sayılar sekmesini kullanın. Bu aşağıda açıklanmıştır.
 
-### Multilingual Submissions
+### Çok Dilli Gönderiler
 
 Başlık & Özet, Üstveriler, İzinler & Açıklama ve Sayı sekmelerinde birden çok dilde üstveri ekleme ve düzenleme seçenekleri bulunur. Diller önce Web Sitesi Ayarları -> Kurulum -> Diller'de açılmalıdır.
 
@@ -63,9 +63,9 @@ Başlık & Özet, Üstveriler, İzinler & Açıklama ve Sayı sekmelerinde birde
 
 ![Multilingual button and upload field for an issue cover image for French (Canada) in the Issue subtab within Publication.](./assets/learning-ojs3.2-ed-prod-issue-languages.png)
 
-## Format Article for Publication
+## Yayın İçin Makale Biçimlendirme
 
-### Assign Layout Editor
+### Mizanpajcı Ata
 
 Bir bildirim başlığı, üretime hazır dosyalardan dizgi dosyalarını (örn. PDF'ler, HTML, vb.) oluşturmak için birini atamanız gerektiğini belirtir.
 
@@ -83,7 +83,7 @@ Kullanıcı artık e-posta yoluyla ve kontrol panelinde bilgilendirildi.
 
 Artık Katılımcılar listesinde Mizanpajcıyı görebilir ve Üretim Tartışmaları panelinde istek bildirimini görebilirsiniz. Artık Mizanpaj Düzenleyicisinin görevlerini tamamlamasını bekleyebilirsiniz.
 
-### Layout Editing
+### Tasarım Editörü
 
 Bir Mizanpaj Editörü olarak, sizi gönderi için dizgiler oluşturmaya davet eden bir mesaj almış olacaksınız. Başlamak için sisteme giriş yapın ve kontrol panelinize gidin.
 
@@ -95,13 +95,13 @@ Burada gönderiyi bulun ve **Üretim** bağlantısını seçin. Bu sizi gönderi
 
 Üretime Hazır Dosyalar panelinden dosyaları masaüstünüze indirin ve onları galeri dosyalarına dönüştürmek için OJS dışında çalışın. Bir sonraki bölüm, dizgi dosya formatlarını ve hazırlamayı açıklar.
 
-> Note: PKP is currently working on a project to automate the conversion of Microsoft Word documents into other formats, including XML, HTML, PDF, EPUB, etc. Keep an eye on our blog for updates.
+> Not: PKP şu anda Microsoft Word belgelerinin XML, HTML, PDF, EPUB vb. dahil olmak üzere diğer biçimlere dönüştürülmesini otomatikleştirmek için bir proje üzerinde çalışıyor. Güncellemeler için blogumuzu takip edin.
 
-### Prepare and Add Galley Files
+### Dizgi Dosyaları Hazırlama ve Ekleme
 
 Dizgi, okuyucular için hazırlanmış ve makale sayfasında yayınlanacak olan yayına hazır son dosyadır. Dizgi'ler, tam metin makalenin sabit, düzenlenemez bir biçimde (ör. HTML, PDF, ePub veya XML) sürümlerinde olmalıdır. Dizgi dosyaları, multimedya dosyaları ve araştırma verileri gibi ek materyalleri de içerebilir. Bir makale ve tüm sayı için bir dizgi dosyası yayınlayabilirsiniz.
 
-#### Galley file component types
+#### Dizgi dosyası bileşen türleri
 
 Bir dizgi dosyası yüklediğinizde, bir **Bileşen Türü** seçmeniz gerekecektir. Bunlar, yazarların gönderi dosyalarını yüklediklerinde seçtikleri bileşen türlerinin aynısıdır. You can configure component types under Workflow Settings > Submission > Components, according to whether you want the component type to be published and whether you want a link to it to appear on the article landing page or in the table of contents.
 
@@ -139,7 +139,7 @@ Once you’ve created a template that matches your journal style, it may be usef
 
 Ideally, your template should be created using styles rather than direct formatting. This not only ensures consistency throughout your documents, but will also aid in any conversions to other formats (e.g., HTML). Here’s an [explanation of the difference between styles and direct formatting in Word](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563?redirectSourcePath=%252fen-us%252farticle%252fStyle-basics-in-Word-d382f84d-5c38-4444-98a5-9cbb6ede1ba4&ui=en-US&rs=en-US&ad=US)
 
-#### PDF files
+#### PDF Dosyalar
 
 A PDF is the easiest type of file to create from a Word document. Current versions of Microsoft Word (and other word processors) let you “Save As” or “Export As” a PDF. The majority of OJS journals publish their articles as PDFs.
 
@@ -147,49 +147,49 @@ PDFs are also popular with many readers as they most closely recreate the printe
 
 Example (see PDF link at bottom of page): [Irish Journal of Technology Enhanced Learning](http://www.journal.ilta.ie/index.php/telji/article/view/22/51)
 
-#### HTML Files
+#### HTML Dosyaları
 
 HTML dosyaları esneklik avantajına sahiptir. Bağlantı ve multimedyayı çok iyi idare ederler ve telefonlar ve tabletler dahil olmak üzere hemen hemen her ekrana sığabilirler. Ancak, basılı bir sayfadan farklı görünürler, bu nedenle bazı okuyucular PDF'yi tercih eder. İdeal durum, farklı kullanıcıların ihtiyaçlarını en iyi şekilde karşılamak için hem PDF hem de HTML dosyalarını sağlamaktır.
 
 Bir HTML dosyası oluşturmak, PDF dosyaları oluşturmaktan daha fazla zaman ve çaba gerektirebilir. Kelime işlemcilerin HTML'ye "Farklı Kaydet" yapmak için etkili araçları yoktur. Microsoft Word bunu yapmaya çalışır, ancak sonuçlar OJS'ye yüklemek için kullanışlı değildir. Bunun yerine, şu iş akışını izlemeyi deneyin:
 
-* Convert the Word document. You can use [this free online tool](https://word2cleanhtml.com/) to do an initial conversion.
-* Open the resulting HTML files in a text editor (e.g., NotePad in Windows) or HTML editor (e.g., Adobe Dreamweaver). From here, you will need to make any final clean up or formatting. Understanding the basics of HTML is required. There are many [free tutorials](https://www.w3schools.com/html/), but it does take some time.
-* Keep the HTML formatting basic. Just focus on paragraphs, line breaks, headings, and links. Don’t worry about fonts, colours, or other design elements - OJS will take care of all of that automatically as part of the overall journal design.
-* Upload to OJS as an HTML galley file
-* The HTML viewer renders HTML files within an iframe, which may affect navigation to hyperlinked web pages. You can bypass this feature by opening hyperlinks in a new browser tab, by adding the `target="_blank"` attribute to your href tags.
+* Word belgesini dönüştürün. İlk dönüşümü yapmak için [bu ücretsiz çevrimiçi aracı](https://word2cleanhtml.com/) kullanabilirsiniz.
+* Ortaya çıkan HTML dosyalarını bir metin düzenleyicide (ör. Windows'ta NotePad) veya HTML düzenleyicide (ör. Adobe Dreamweaver) açın. Buradan, herhangi bir son temizlik veya biçimlendirme yapmanız gerekecektir. HTML'nin temellerini anlamak gereklidir. Birçok [ücretsiz öğretici](https://www.w3schools.com/html/) vardır, ancak bu biraz zaman alır.
+* HTML biçimlendirmesini temel alın. Sadece paragraflara, satır sonlarına, başlıklara ve bağlantılara odaklanın. Yazı tipleri, renkler veya diğer tasarım öğeleri hakkında endişelenmeyin - OJS, genel dergi tasarımının bir parçası olarak tüm bunları otomatik olarak yapacaktır.
+* OJS'ye HTML dizgi dosyası olarak yükleyin
+* HTML görüntüleyici, HTML dosyalarını bir iframe içinde işler ve bu, köprü bağlantılı web sayfalarına navigasyonu etkileyebilir. Bu özelliği, href etiketlerinize `target="_blank"` özniteliğini ekleyerek yeni bir tarayıcı sekmesinde köprüler açarak atlayabilirsiniz.
 
 Bu kaynaklardan birkaç örnek HTML şablonu bulunabilir ve uyarlanabilir:
 
-* [Resource by U of A](https://drive.google.com/file/d/1mCP0tguFJf7jJn_CNceEwvRn5eCJrvxP/view) - License: CC0 1.0 Universal (CC0 1.0)
+* [U'dan A'ya Kaynak](https://drive.google.com/file/d/1mCP0tguFJf7jJn_CNceEwvRn5eCJrvxP/view) - License: CC0 1.0 Universal (CC0 1.0)
 
 Örnekler (sayfanın altındaki HTML bağlantısına bakın):
 
-* [Cultural Anthropology](https://journal.culanth.org/index.php/ca/article/view/4434)
-* [Evidence Based Library & Information Practice](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621)
+* [Kültürel antropoloji](https://journal.culanth.org/index.php/ca/article/view/4434)
+* [Kanıta Dayalı Kütüphane & Bilgi Uygulaması](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621)
 
-##### Style HTML galley files
+##### Stil HTML dizgi dosyaları
 
 HTML dizgi dosyalarınızın tasarımını toplu olarak veya makale bazında ayrı ayrı biçimlendirmek mümkündür. Toplu şekillendirme yalnızca özel bir tema kullanıyorsanız yapılabilir.
 
 Tek bir HTML dizgi dosyasına stil vermek için:
 
-* While creating the HTML galley file, ensure that it includes a reference to the stylesheet in the `<head>` section, e.g. `<link rel="stylesheet" href="./article_styles.css" type="text/css" />`
-* Upload the HTML galley file (see below for instructions on how to **Add Galley Files**)
-* Edit the galley file
-* Upload the CSS stylesheets with the appropriate **Component Type - HTML Stylesheet**
+* HTML galeri dosyasını oluştururken, `<head>` bölümündeki stil sayfasına bir referans içerdiğinden emin olun, ör. `<link rel="stylesheet" href="./article_styles.css" type="text/css" />`
+* HTML dizgi dosyasını yükleyin (**Dizgi Dosyalarını Ekleme** ile ilgili talimatlar için aşağıya bakın)
+* Dizgi dosyasını düzenleyin
+* Uygun **Bileşen Türü - HTML Stil Sayfası** ile CSS stil sayfalarını yükleyin
 
 Tüm HTML dizgi dosyalarına stil vermek için: Özel bir tema eklentisi kullanıyorsanız, tüm HTML galerileri için özel bir stil eklemek üzere bir kod satırı yazabilirsiniz. Bu, yalnızca ayrı ayrı uygulanan bir stili olmayan HTML dizgi dosyaları için geçerli olacaktır. Özel tema oluşturma hakkında daha fazla bilgiyi [PKP Tema Kılavuzu](https://docs.pkp.sfu.ca/pkp-theming-guide/en/)'nda bulabilirsiniz.
 
-##### Add images and multimedia to an HTML Galley
+##### HTML Dizgi'ye resim ve multimedya ekleyin
 
 Görüntüleri veya multimedya dosyalarını bir HTML dizgi dosyasına dahil etmek isterseniz, bunları Bağımlı Dosyalar olarak gönderiye yükleyebilir ve görüntülemek için dosya içinde bunlara bağlantı verebilirsiniz.
 
 Öğe yüklemeye başlamadan önce, aşağıdakilerden birini içeren bir HTML sayfasına ihtiyacınız olacak:
 
-* `<audio controls>` element (for MP3)
-* `<video>` element (for MP4), or
-* `<img src=”imagename”>` tag for images
+* `<audio controls>` öğe (MP3 için)
+* `<video>` öğe (MP4) için, veya
+* `<img src=”imagename”>` resimler için etiket
 
 HTML sayfası, bağlandığınız dosyanın tam adını da içermelidir.
 
@@ -205,7 +205,7 @@ HTML dosyanızın aşağıdaki minimum kodu içermesi gerekir (ses dosyaları i�
 <body>
 <audio controls>
   <source src="filename.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
+Tarayıcınız ses öğesini desteklemiyor.
 </audio>
 </body>
 </html>
@@ -219,11 +219,11 @@ Bileşen Türü ayarlarında "bağımlı dosyalar" olarak yapılandırılmış "
 
 Şimdi multimedya dosyanızı görüntülemek üzere bir HTML stil sayfası yüklemek için gönderime geri dönün. **Dizgi Dosyaları Ekleme** ile ilgili talimatlar için aşağıya bakın. Ayrıca dosyayı yüklediğinizde:
 
-* Label the galley according to the multimedia file type (e.g., MP3, MP4, Image)
-* Select **HTML Stylesheet** from the **Article Component** dropdown
-* Upload the HTML file you prepared with at least the minimum code (instructions above)
-* Click **Continue**
-* In the **Review Details** tab you can upload Dependent Files. This is where you will upload the MP3/MP4/image file.
+* Dizigiyi multimedya dosya türüne göre etiketleyin (ör. MP3, MP4, Görüntü)
+* **Makale Bileşeni** açılır menüsünden **HTML Stil Sayfası**'nı seçin
+* Hazırladığınız HTML dosyasını en az minimum kodla yükleyin (yukarıdaki talimatlar)
+* **Devam**’a tıklayın
+* **Ayrıntıları İncele** sekmesinde Bağımlı Dosyaları yükleyebilirsiniz. MP3/MP4/image dosyasını yükleyeceğiniz yer burasıdır.
 
 ![Step 2 of uploading production ready files where users will go to upload their dependent files.](./assets/learning-ojs3.2-ed-prod-multimed-dep-file.png)
 
@@ -439,7 +439,7 @@ Once you have the plugin set up and have exported the article's metadata to Cros
 3. Click **Check Crossref DOIs**
 4. Some DOIs will now be added to the references
 
-## Create Issue
+## Sayı Oluştur
 
 {% include video.html id="opvVBWYnHho" provider="youtube" title="Video of Setting up a journal in OJS 3.3. Module 7: Issues"%}
 
@@ -467,7 +467,7 @@ There are spaces to add volume, number, year, and title information (e.g., Speci
 
 When you’re finished, click **Save**.
 
-### Edit Issue
+### Sayı Düzenle
 
 Gelecekteki Sayılar sayfasındaki sayı girişinin solundaki mavi oku seçerek mevcut bir gelecek sayıyı da düzenleyebilirsiniz.
 
@@ -516,7 +516,7 @@ If you want to see what your articles will look like in the context of an issue 
 
 ![Vol 10 No 10 (2019) in Future Issues with blue arrow expanded to show additional options to Edit, Preview, Publish Issue, or Delete.](./assets/learning-ojs-3.2-ed-production-publish-issue.png)
 
-### Publish Issue
+### Sayıyı Yayınla
 
 Once you are happy with the issue hit the **Publish Issue** link to publish it on your journal website.
 
@@ -534,7 +534,7 @@ The content of the announcement is generated automatically and cannot be edited.
 
 Use the **Unpublish Issue** link to remove the issue and all of its content from public view. The issue will revert to the Future Issues tab.
 
-### Delete Issue
+### Sayıyı Sil
 
 You can use the **Delete** link to remove the issue entirely. Not only will the issue be unpublished, the organizational structure and any issue metadata will also be removed. Atanan makaleler yayınlanmamış durumuna döner.
 
@@ -554,16 +554,6 @@ Now that you have created an issue, you can add the article to it. Please note t
 * Click **Save** when you are finished
 
 ![Issue subtab in Manuscript Publication tab showing all options and fields related to Issue - Issue, Section, Categories, Cover Image, Page Number and Date Published.](./assets/learning-ojs3.2-ed-prod-add-to-issue.png)
-
-### Continuous Publishing
-
-OJS is currently designed for a traditional publishing model where articles are published in issues. However, continuous publishing is a popular alternative way to publish scholarly research, in which articles are published as they are ready. You can use a continuous publishing model within OJS.
-
-You can create an issue with a title like “Current Publications,” publish it, and add articles to it as they become available. The articles will be published immediately on the current issue page of your site.
-
-When the “Current Publications” issue gets full, you can rename it with an issue number (e.g., Vol 1, Issue 2) and create a new “Current Publications” issue for the next batch of new articles.
-
-If you would like to notify your readers when each new article is published, you will have to create an individual **Announcement**, as the automatic notification message for a new publication can only be sent when a new issue is published. See the [Website Settings chapter](./settings-website.md#announcements) for information about Announcements.
 
 ## Schedule for Publication
 
@@ -646,3 +636,68 @@ Indexing services and repositories that use OAI to harvest metadata will need to
 The new version will be tagged properly to be recognized and updated by Google Scholar's index, but the harvester will need to visit your site again in order to find the new version.
 
 It is best to check with a particular repository or index to learn what their process is and what they require.
+
+## Continuous Publishing & Early View
+
+Continuous publishing – also known as rolling publication schedule – is a way of publishing that prioritizes immediacy. When publishing continuously, articles are released as soon as they are ready. Journals may also choose to provide an early view prior to layout (also known as online first, in-press, post-print, first view, etc.).
+
+Some journals may find that a more frequent publication schedule can also help with [search engine optimization (SEO)](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-visibility#search-engines) and provide a way to generate more frequent social media output.
+
+The content should be considered final, and have already undergone review and copyediting. As the work may be cited right away, figures and appendices should be in place. To avoid confusion, if page numbers are subject to change, they should be avoided.
+
+OJS is currently designed for a traditional publishing model where articles are published in issues. However, there is a way to adopt a continuous publishing model within OJS.
+
+### Use Current Issue - for Continuous Publishing
+
+* Create a [new issue](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#create-issue). Issues can be given a title in the Issue Data. We recommend using a title that communicates its ongoing nature.
+* Publish the new issue: while it is possible to publish an issue with 0 articles, an empty issue may be confusing to readers. We recommend that you publish the new issue after at least 1 article is assigned.
+* When the next article is ready, assign it to **Back Issues > Current Issue**. This article will be published immediately on the current issue page. If using DOIs, be sure to **Assign Identifier** before publishing. If your DOI registration is not automated, manually register your newest DOI.
+* Please note that default DOI patterns are generated using issue numbers:
+     * If you plan to generate a DOI suffix based on vol/issue numbering, do not change the vol/issue later.
+     * If you intend to change vol/issue numbering, do not generate a suffix using the default patterns. Choose to generate a custom pattern instead. See [DOI Configuration documentation](https://docs.pkp.sfu.ca/doi-plugin/en/) for more details.
+* After the Current Issue is completed, you may want to rename it according to the standard naming convention (e.g., Volume 2, Issue 5), by going to [Edit Issue](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#edit-issue).
+* If you only changed the Issue Title:
+    * This field is not exported to CrossRef, DOAJ or PubMed, but it is used for DataCite. If you use DataCite, remember to update that record by resubmitting metadata via the DataCite plugin.
+* Consider using the [article versioning feature](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#versioning-of-articles) to publish the initial Early View version of the article. When the final version is ready, create a New Version and publish it.
+
+Since new articles will be published immediately, build verification steps within your workflow by using the article [Preview features](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#preview-issue-and-articles) to check for accurate metadata and galleys.
+
+### Use the Forthcoming Plugin - for Continuous Publishing
+
+The [Forthcoming plugin](https://github.com/ajnyga/forthcoming) allows journals to publish a version of an article using OJS’s versioning feature before an entire issue is published. This is an external third-party plugin available for OJS 3.2.1 and above. As a plugin that is not maintained by PKP, we cannot guarantee its functionality or compatibility with all software versions.
+
+See the [Forthcoming plugin’s README file](https://github.com/ajnyga/forthcoming#readme) for details on how it works and contact your OJS administrator to see if support is available for this plugin.
+
+### Use Custom Pages - for Continuous Publishing and Early View
+
+Create a Custom Page under [Navigation settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#navigation) and add articles to it.
+
+This option is fully separate from the regular Submission Workflow, and requires a manual addition and removal of article metadata and/or full text.
+
+On the blank Custom page, journals can provide:
+
+* A list of articles with minimal metadata and no full-text articles
+* A list of articles with full metadata and no full-text articles
+* A list of articles with hyperlinks to full-text / early view versions (the files must be hosted elsewhere, such as in the [Publisher Library](https://docs.pkp.sfu.ca/learning-ojs/en/settings-workflow#publisher-library))
+
+When a new article is ready to be shared, manually add it to the Custom Page. Then when the entire issue with the article or the final version of the same article is ready to be published, manually remove it from the Custom Page.
+
+Content of custom pages will not appear in journal keyword searches, and articles added to custom pages will not show up in article searches or receive DOIs.
+
+### Journal Settings for Continuous Publishing
+
+You may want to change some journal settings to reflect the change in publishing schedule:
+
+* [Default Copyright Year](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution): for a continuous publishing model, select the article’s publication date. This default can be overridden on a case-by-case basis.
+* [Journal Policies](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup): clearly communicate the publishing schedule and frequency within “About the Journal”.
+* [Customize the “Current Issue” label on the homepage](https://docs.pkp.sfu.ca/translating-guide/en/customize-locale#example-customize-the-current-issue-label-on-homepage): if you would like to change the "current issue" label on homepage to "current publications" or "current articles," you can do it via the Custom Locale Plugin (in OJS 3.2 or newer).
+
+### Communications
+
+If you would like to notify your readers when each new article is published, create an individual Announcement, as the automatic notification message for a new publication can only be sent when a new issue is published. See the [Website Settings](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website.html#announcements) chapter for information about Announcements.
+
+If your journal had previously used a traditional issue-based model and has now switched to a continuous publishing model, you may need to update third-party agencies, including:
+
+* ISSN Centre: to update the ISSN record, contact your [National Centre](https://www.issn.org/services/requesting-an-issn/contact-an-issn-national-centre/)
+* Indexes that include publication frequency
+* Indexes that include information about the time between submission and publication
