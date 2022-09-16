@@ -287,7 +287,7 @@ Para configurar e adicionar blocos personalizados:
 
 * Clique em Gerenciar Blocos personalizados, que fica abaixo do nome do plugin;
 * A partir dessa tela, clique em Adicionar bloco, para criar um novo bloco, ou clique em Editar ou Excluir sob o nome do bloco, para gerenciar os blocos existentes;
-* Ao adicionar um novo bloco, digite um nome para ele (sem espaços ou caracteres não alfanuméricos) e o conteúdo a ser mostrado na barra lateral (Observe que este é um campo obrigatório);
+* When adding a new block, enter a name for your block (required). In recent versions you can include spaces in the name and select whether or not the name  will appear above the block content.
 * A exibição e a ordem dos blocos podem ser editadas na seção Gerenciamento da Barra lateral do Painel > Configurar > Website > Aparência > Configurar.
 
 #### Plugin de Cabeçalho Personalizado
