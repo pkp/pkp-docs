@@ -445,9 +445,9 @@ Generates a CSV spreadsheet containing monthly views for the journal homepage; i
 
 * [Usage Statistics Report plugin guide](/learning-ojs/en/statistics#usage-statistics-report)
 
-### PKP|PN
+### ePUB
 
-Enables the automatic preservation of published journal content in the [PKP Preservation Network](https://pkp.sfu.ca/pkp-pn/) (PKP|PN). This plugin requires [ZipArchive](https://www.php.net/manual/en/zip.installation.php) support.
+Enables the automatic preservation of published journal content in the [PKP Preservation Network](https://pkp.sfu.ca/pkp-pn/). This plugin requires [ZipArchive](https://www.php.net/manual/en/zip.installation.php) support.
 
 * [PKP PN plugin guide](/pkp-pn/en/)
 * [PKP PN plugin in GitHub](https://github.com/pkp/pln)
