@@ -286,7 +286,7 @@ Tout d'abord, vous devez activer et configurer le plugiciel d'en-tête personnal
 
 * Cliquez sur Gérer les Blocs Personnalisés sous le nom du plugiciel
 * À partir de cet écran, cliquez sur Ajouter un Bloc pour créer un nouveau bloc ou cliquez sur Modifier ou Supprimer sous le nom du bloc pour gérer les blocs existants.
-* Lors de l'ajout d'un nouveau bloc, entrez un nom pour votre bloc (sans espaces ni caractères non alphanumériques) et le contenu à afficher dans la barre latérale.
+* When adding a new block, enter a name for your block (required). In recent versions you can include spaces in the name and select whether or not the name  will appear above the block content.
 * L'affichage et l'ordre des blocs peuvent être modifiés dans la section Gestion de la barre latérale de Tableau de bord > Paramètres > Site Web > Apparence > Configuration.
 
 #### Plugiciel d'En-Tête Personnalisé
