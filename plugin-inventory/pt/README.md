@@ -52,11 +52,15 @@ Enables journals to choose the filetypes that are allowed when submitting a manu
 
 * [Allowed plugin in GitHub](https://github.com/ajnyga/allowedUploads)
 
+### Announcement Block
+
+Displays the lastest announcement on the journals sidebar. Allows to specify how many announcements will be displayed.
+
+* [Announcement Block Plugin in GitHub](https://github.com/RBoelter/announcementsBlock)
+
 ### Announcement Feed
 
 Produces RSS/Atom web syndication feeds for journal announcements.
-
-* [Announcement Block Plugin in GitHub](https://github.com/RBoelter/announcementsBlock)
 
 ### Ark
 
@@ -68,7 +72,7 @@ Enables the assignation and management of ARK ID to issue, article and galley.
 
 Generates a CSV spreadsheet containing a list of articles (published and unpublished), including the submission ID, title, abstract, author information, current status, and more.
 
-* [Article Report in guide](/learning-ojs/en/statistics#usage-statistics-report)
+* [Article Report guide](/learning-ojs/en/statistics#usage-statistics-report)
 
 ### Akismet
 
@@ -117,7 +121,7 @@ Embeds EPUb files on the article galley view for OJS and OMP using Bibi Epub Rea
 
 Applies a starter Bootstrap 3 theme. Knowledge of HTML, CSS and JavaScript will be needed for this theme as it is designed to be a base and not a final product.
 
-* [Bootstrap3 Theme in guide](/pkp-theming-guide/en/theme-bootstrap3)
+* [Bootstrap3 Theme guide](/pkp-theming-guide/en/theme-bootstrap3)
 * [Bootstrap3 Theme in GitHub](https://github.com/NateWr/bootstrap3)
 
 ### Browse By Section
@@ -164,6 +168,31 @@ Allows journal and press managers to limit who can upload public files and what 
 
 * [Control Public Files plugin in GitHub](https://github.com/pkp/controlPublicFiles)
 
+### COUNTER Reports
+
+Generates a CSV spreadsheet of journal activity, using the COUNTER standard. These reports alone do not make a journal COUNTER compliant. To offer COUNTER compliance, review the requirements at the Project COUNTER website. As this report includes data from all journals hosted in this OJS instance, it is only available to Site Administrators.
+
+* [COUNTER reports guide](learning-ojs/en/statistics#usage-statistics-report)
+
+### Crossref Reference Linking Plugin
+
+Automatically adds the extracted article references to the DOI registration with Crossref. Crossref will then automatically check if any DOIs can be found for the submitted references. Shortly after that, using the scheduled task, the plugin will check for the found references DOIs. If article references change once they are registered, the article DOI with the new references will have to be registered anew. Then the check for the found references DOIs will be done again. Requires Crossref DOIs to be assigned to articles, article references to be separately entered and extracted, as well as article DOIs to be deposited to Crossref from within OJS. It uses the Crossref Export/Registration plugin settings: Crossref credentials (username and password), as well as the setting for the testing mode.
+
+* [Crossref Reference Linking Plugin guide](/crossref-ojs-manual/en/references)
+* [Crossref Reference Linking Plugin in GitHub](https://github.com/pkp/crossrefReferenceLinking)
+
+### CrossRef XML Export Plugin
+
+Supports the automatic registration of DOIs with CrossRef and the export of XML metadata in Crossref format for manual DOI deposits.
+
+* [CrossRef XML Export Plugin guide](/crossref-ojs-manual/en/)
+
+### Custom Block Manager
+
+Allows to add, edit and delete custom sidebar blocks.
+
+* [Custom Block Manager guide](learning-ojs/en/settings-website#custom-block-plugin)
+
 ### Plugin de Cabeçalho Personalizado
 
 Permits the addition of custom headers to the website, including custom JavaScript.
@@ -200,6 +229,12 @@ Structures metadata in a way that is consistent with the Dublin Core format.
 The default theme for OJS and OMP applies a simple, straightforward design. As of OJS/OMP/OPS 3.3, the Default Theme has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus.
 
 * [Default theme plugin guide](/pkp-theming-guide/en/theme-default)
+
+### Default Translation
+
+Make OJS fall back on English when elements of the software translation are missing.
+
+* [Default translation plugin in Github](https://github.com/pkp/defaultTranslation)
 
 ### Developed By Block
 
@@ -287,7 +322,11 @@ Verifies new user registrations by creating a honeypot on the User Registration 
 
 ### HTML Article Galley
 
-Provides browser-based HTML Viewer for HTML Article Galleys.
+Provides browser-based HTML Viewer for HTML Article Galleys (OJS).
+
+### HTML Monograph File
+
+Provides browser-based HTML Viewer for monogrpah files (OMP).
 
 ### Hypothes.is
 
@@ -307,11 +346,17 @@ An official theme for OJS 3 that emphasizes the reading experience and offers bo
 
 Provides sidebar information block with 3 sections: For Readers, For Authors, For Librarians. Standard text for these sections can be edited in Website > Setup > Information
 
+### Inline Html Galley
+
+Provides inline display of article galleys for OJS, replacing the default HTML Article Galley plugin's use of an iframe to deliver the HTML Galleys.
+
+* [Inline Html Galley plugin in GitHub](https://github.com/ulsdevteam/inlineHtmlGalley)
+
 ### iThenticate
 
 Permits automatic submission of all uploaded files to the iThenticate service for plagiarism checking. This plugin will require an iThenticate account to be set up.
 
-* [iThenticate plugin GitHub](https://github.com/asmecher/plagiarism)
+* [iThenticate plugin in GitHub](https://github.com/asmecher/plagiarism)
 
 ### JATS Template
 
@@ -397,6 +442,10 @@ Exposes JATS XML via the OAI-PMH interface. Note that it DOES NOT generate JATS 
 
 * [OAI JATS plugin in GitHub](https://github.com/pkp/oaiJats/)
 
+### ONIX 3.0 Monograph Export Plugin
+
+Exports monograph metadata in the ONIX 3.0 format for OMP.
+
 ### Open Graph
 
 Open Graph Plugin presents published content using the Open Graph protocol. Open Graph tags are used when you content is shared in Facebook.
@@ -451,6 +500,12 @@ Enables the automatic preservation of published journal content in the [PKP Pres
 
 * [PKP PN plugin guide](/pkp-pn/en/)
 * [PKP PN plugin in GitHub](https://github.com/pkp/pln)
+
+### Plaudit
+
+Adds the Plaudit widget to the submission details on the submission's landing page; integration token required.
+
+* [Plaudit plugin in GitHub](https://github.com/lepidus/plaudit)
 
 ### Plugins update notification
 
@@ -542,6 +597,12 @@ Permits authors using who already have at least one published submission to self
 Enables integration with ReviewerCredits. ReviewerCredits Journal credentials will be required to configure the plugin.
 
 * [ReviewerCredits plugin in GitHub](https://gitlab.com/reviewercredits/reviewercredits-ojs-plugin)
+
+### Review Report
+
+Generates a CSV report containing a list of review assignments for a journal, including reviewer names, reviews, and recommendations.
+
+* [Review Report guide](learning-ojs/en/statistics#usage-statistics-report)
 
 ### RFC1807 Metadata Format
 
@@ -643,6 +704,12 @@ OPS plugin that creates a title page on PDF files submitted to preprint servers.
 
 * [Title Page Plugin in GitHub](https://github.com/lepidus/titlePageForPreprint)
 
+### Toggle Required Metadata
+
+Allows to make the "affiliation" and "ORCID" fields required for contributors on a submission.
+
+* [Toggle Required Metadata Plugin in GitHub](https://github.com/lepidus/toggleRequiredMetadata)
+
 ### Twitter Block
 
 Integrates Twitter feeds in a multi-journal instance without the need to create several custom blocks. This plugin requires Administrator access to configure and enable/disable.
@@ -650,6 +717,10 @@ Integrates Twitter feeds in a multi-journal instance without the need to create 
 ### URN
 
 Enables the assignment of the Uniform Resource Names to the issues, articles and galleys.
+
+### Usage event
+
+Creates a hook that provides usage event in a defined format.
 
 ### Usage Statistics
 
