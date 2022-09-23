@@ -72,12 +72,12 @@ Styles with the `frontend` context will be output in your theme where you place 
 
 You can define and use multiple contexts if you'd like. But `frontend` is the standard for themes and will be set automatically if no `context` argument is passed.
 
-Use the `htmlGalley` context to add default styling for html galleys. 
+Use the htmlGalley context to add a stylesheet to HTML galleys.
 
 ```php
 $this->addStyle('htmlGalley', 'path/to/galley.css', ['contexts' => 'htmlGalley']);
 ```
-Styles with the `htmlGalley` context will be included in html galleys by injecting a `<link>` tag with specified css into `<head>` tag of the html galley.
+A stylesheet assigned to the `htmlGalley` context will be loaded when a HTML galley is displayed. A `<link>` tag will be injected into the `<head>` of the galley's HTML file.
 
 ## modifyStyle\(\)
 
