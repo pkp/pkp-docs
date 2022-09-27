@@ -83,24 +83,35 @@
         {% capture anchor %} {{ anchor }}{% endcapture %}
       {% endif %}
 
-      {% capture new_heading %}
-        <h{{ _hAttrToStrip }}
-          {{ include.bodyPrefix }}
-          {% if beforeHeading %}
-            {{ anchor }}{{ header }}
-          {% else %}
-            {{ header }}{{ anchor }}
-          {% endif %}
-          {{ include.bodySuffix }}
-        </h{{ _workspace | last }}
-      {% endcapture %}
-
-    {% else %}
-      {% capture new_heading %}
-        <h1>{{ header }}</h1>
-        {% include book/toc.html html=content h_min=2 h_max=3 %}
-      {% endcapture %}
     {% endif %}
+
+    {% capture new_heading %}
+        <h{{ _hAttrToStrip }}
+        {{ include.bodyPrefix }}
+        {% if beforeHeading %}
+            {{ anchor }}{{ header }}
+        {% else %}
+            {{ header }}{{ anchor }}
+        {% endif %}
+        {{ include.bodySuffix }}
+        {% if page.showPageTOC and headerLevel == 1 %}
+          </h1>
+          <div class="book__improve">
+              <a href="{{ site.data.site.improveLinkBaseUrl }}{{ page.path }}">
+                  {{ site.data.site.improveLink }}
+              </a>
+              {{ site.data.site.orText }}
+              <a href="{{ site.data.site.contactBaseUrl }}">
+                  {{ site.data.site.contactLink }}
+              </a>
+          </div>
+          {% include book/toc.html html=content h_min=2 h_max=3 %}
+          {% assign _restOfNode = node | split: '</h1>' | last %}
+          {{ _restOfNode }}
+        {% else %}
+          </h{{ _workspace | last }}
+        {% endif %}
+    {% endcapture %}
     {% capture edited_headings %}{{ edited_headings }}{{ new_heading }}{% endcapture %}
   {% endfor %}
 {% endcapture %}{% assign headingsWorkspace = '' %}{{ edited_headings | strip }}

@@ -169,13 +169,19 @@
 	}
 }
 
-.book__improve {
-	display: inline-block;
-	margin-bottom: 2em;
-}
+.book_page_toc {
 
-.book__footer .book__improve {
-	margin-top: 3rem;
+	h2 {
+		font-size: 1rem;
+		margin: 1rem 0 0.5rem;
+		border-bottom: 1px solid #ddd;
+		padding: 0 0 0.5rem;
+	}
+
+	> ul {
+		margin-top: 0;
+		padding-left: 1rem;
+	}
 }
 
 .book__sidebar {
@@ -283,19 +289,6 @@
 		display: inline-block;
 		margin: 0;
 		margin-left: 0.75em;
-	}
-}
-
-@media (min-width: 480px) {
-
-	.book__improve {
-		float: right;
-		margin-left: 2em;
-	}
-
-	.book__footer .book__improve {
-		float: none;
-		margin-left: 0;
 	}
 }
 
