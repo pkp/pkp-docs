@@ -11,7 +11,7 @@ Settings are additional property values associated with an instance of an entity
 ## The Purpose of Settings
 
 Settings are an important concept in the PKP data model.
-They support two of the [overall goals](entities):
+They support two of the [overall goals](datamodel):
 
 ### Localization
 
@@ -24,6 +24,9 @@ For the same one User object, two settings objects will be created to represent
 the two localized versions of the User `familyname` property.
 
 OJS (etc.) knows about these settings and will create and use them regularly.
+See [Entities](architecture-entities.md) for what localization looks like
+at the PHP level.
+
 
 ### Extensibility
 
@@ -54,6 +57,9 @@ The minimal case has four columns:
 - `setting_name`: a string indicating the name of the property. 
 - `setting_value`: a string containing the value of the property.
 
+See [Database](architecture-database.md) for a technical look at this from the
+database table point of view.
+
 What if the property should have a value other than string?
 For that, many settings tables contain a fifth column:
 - `setting_type`: a string that is one of "string", "int", "bool", "float", "object", or "date"
@@ -67,7 +73,8 @@ for special purposes.
 
 There is no simple rule for which Entities have an associated settings table
 and which do not.
-Consult the files `schemas/*.json`, `lib/pkp/schemas/*.json`, and
-`lib/pkp/xml/schema/*.xml` to see PKP's intentions.
+Consult the files `schemas/*.json`, `lib/pkp/schemas/*.json` to see PKP's intentions
+and read section [Schema](architecture-entities.md#schema) about the underlying concept.
 Plugins can have schemas as well.
-Or use your favorite database browser to explore the resulting table structure.
+Or use your favorite database browser to explore the resulting table structure
+and content directly.

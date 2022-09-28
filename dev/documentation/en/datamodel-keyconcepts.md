@@ -96,3 +96,5 @@ Some kinds of people are always Users (e.g. [Editors](#Editor) and [Reviewers](#
 but others need not be (e.g. [Authors](#Author), except for the one doing the submitting).
 Except for the email address, most of a User's attributes such as
 names and affiliations can be localized.
+
+Learn about localization and extensibility via [settings](./datamodel-settings) in the next section.
