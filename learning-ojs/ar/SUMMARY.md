@@ -84,3 +84,4 @@
   * [Add the Article to an Issue](./production-publication.md#add-the-article-to-an-issue)
   * [Schedule for Publication](./production-publication.md#schedule-for-publication)
   * [Versioning of Articles](./production-publication.md#versioning-of-articles)
+  * [Continuous Publishing and Early View](./production-publication#continuous-publishing--early-view)
