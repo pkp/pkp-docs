@@ -1,4 +1,4 @@
-# Sumário
+# Índice
 
 * [Prefácio](.)
 * [Sobre o Open Journal Systems](./about-ojs.md)
@@ -84,3 +84,4 @@
   * [Adicionar o artigo a uma edição](./production-publication.md#add-the-article-to-an-issue)
   * [Agendando para publicação](./production-publication.md#schedule-for-publication)
   * [Versionamento de artigos](./production-publication.md#versioning-of-articles)
+  * [Continuous Publishing and Early View](./production-publication#continuous-publishing--early-view)
