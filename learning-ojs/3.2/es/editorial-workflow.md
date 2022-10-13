@@ -72,7 +72,7 @@ Note that you can use the blue arrows to the right of each submission to reveal 
 
 ![A sample of expanded submission details in the dashboard.](./assets/learning-ojs3.2-ed-dashboard-active-details.png)
 
-### Unassigned
+### Sin asignar
 
 This panel includes submissions added to sections without section editors.
 
@@ -86,7 +86,7 @@ This section includes a list of all submissions, without being organized into qu
 
 ![The Unassigned tab in the Submissions dashboard.](./assets/learning-ojs3.1-ed-dashboard-unassigned.png)
 
-### Archives
+### Archivos
 
 This section includes a list of all submissions either rejected or already published by the journal.
 
@@ -112,13 +112,13 @@ Use the Notes tab to also view or add any editorial notes.
 
 ![The Notes tab of the Activity log.](./assets/learning-ojs-3-ed-submissions-notes.png)
 
-### Submission Record
+### Registro de envío
 
 To view the submission in more detail, select **View Submission** button. This will take you to the submission record.
 
 ![A sample submission record.](./assets/learning-ojs3.1-ed-dashboard-record.png)
 
-From here, you can see:
+Desde aquí, puede ver:
 
 **Submission Files**: This panel lists the files that have been submitted. In this view, there is just one file, but multiple files could have been submitted.
 
@@ -344,9 +344,9 @@ OJS is designed to accommodate different types of reviews and has built-in steps
 
 All information will be visible to the journal managers and editors regardless of the type of review selected. The review type will be automatically selected based on what has been configured under _Settings_ > _Workflow_ > _Review_. The editors can change the review type when sending the review request. Editors/Section Editors must select the review type when sending the review request from the following options:
 
-* Double-Blind
-* Blind
-* Open
+* Doble ciego
+* Ciego
+* Abierto
 
 **Double-Blind Review**: The identity of both the author and the reviewer is kept hidden.
 
@@ -378,7 +378,7 @@ At the end of a review, if a reviewer chooses to upload a review file they shoul
 
 ![A sample decision email identifying the reviewer only as "Reviewer A".](./assets/learning-ojs3.1-ed-rev-anon3.png)
 
-### Removing Identifying Information
+### Eliminando la información identificadora
 
 While OJS has a number of built-in functions for blind reviews, additional steps may need to be taken outside of the platform to ensure a Double-Blind Review. A submission file may have information that could identify the authors' identity within the document properties.
 
