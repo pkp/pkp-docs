@@ -47,7 +47,7 @@ De forma predeterminada, Open Journal Systems se instala con una interfaz de usu
 
 La siguiente imagen es una captura de pantalla de la Tabla de Contenidos de una revista de demostración en OJS.
 
-![Table of Contents for a sample OJS journal.](./assets/learning-ojs-3-ojs3-interface.png)
+![Tabla de Contenidos para una revista de muestra de OJS.](./assets/learning-ojs-3-ojs3-interface.png)
 
 Se puede ver en la captura de pantalla que las funciones del usuario ahora existen en el menú de perfil en la parte superior derecha de la pantalla. Esto aleja el contenido administrativo de OJS 3.x de la vista general del usuario. La información de la barra lateral está claramente separada, así como la barra de navegación superior con menús colapsables para las funciones "Acerca de". Al igual que en OJS 2, cada artículo tiene un título vinculado para ver metadatos y resúmenes del objeto, y las galeradas ahora están claramente etiquetadas debajo de los títulos con logotipos más claros.
 
@@ -81,7 +81,7 @@ Excellent examples of community contributions include the vast array of language
 
 We also welcome software testing and bug reporting contributions.
 
-## Support
+## Soporte
 
 A [community forum](https://forum.pkp.sfu.ca/) and [issue reporting system](https://github.com/pkp/pkp-lib/#issues) for technical issues can be accessed via the [PKP web site](https://pkp.sfu.ca).
 
