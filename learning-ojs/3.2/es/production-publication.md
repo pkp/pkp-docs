@@ -133,7 +133,7 @@ Once you’ve created a template that matches your journal style, it may be usef
 
 Ideally, your template should be created using styles rather than direct formatting. This not only ensures consistency throughout your documents, but will also aid in any conversions to other formats (e.g., HTML). Here’s an [explanation of the difference between styles and direct formatting in Word](https://support.office.com/en-us/article/Style-basics-in-Word-d382f84d-5c38-4444-98a5-9cbb6ede1ba4?CorrelationId=1b00844c-a9dc-4d62-98df-a966f30d4b20&ui=en-US&rs=en-US&ad=US&ocmsassetID=HA010230882)
 
-#### PDF files
+#### Archivos PDF
 
 A PDF is the easiest type of file to create from a Word document. Current versions of Microsoft Word (and other word processors) let you “Save As” or “Export As” a PDF. The majority of OJS journals publish their articles as PDFs.
 
@@ -232,7 +232,7 @@ When uploading an image file you will be asked to add a Caption, Credit, Copyrig
 Click **Continue** to complete the upload, review the details, and confirm. Your multimedia file has now been added as a dependent file along with the HTML, and will be embedded in the HTML when the item is published.
 
 
-#### ePUB Files
+#### Archivos ePUB
 
 Similar to HTML files, ePub files are ideal for mobile devices but require specialized coding to create. Conversion tools are available, such as [Calibre](https://calibre-ebook.com/). More detailed HOW TO instructions for creating ePub files are [available here](https://www.wikihow.com/Convert-a-Word-Document-to-Epub).
 
@@ -240,7 +240,7 @@ Like HTML files, some additional cleanup may be required after conversion and [r
 
 Example (see EPUB link at bottom of the page): [International Review of Research in Open and Distance Learning](http://www.irrodl.org/index.php/irrodl/article/view/2895)
 
-#### XML Files
+#### Archivos XML
 
 XML files are structured files in which each part of the article is tagged as a distinct element. This allows the reader to easily navigate through and access figures, images, metadata, references, and parts of the article text. Creating XML files is a very efficient way to publish in multiple formats. When you create an XML file, you can then automatically generate PDFs, HTML, ePub, and other formats.
 
@@ -250,7 +250,7 @@ PKP is developing tools that will allow you to create, convert, and edit XML fil
 
 Example [Food and Nutrition Research](https://foodandnutritionresearch.net/index.php/fnr/article/view/3609/10173)
 
-#### Multimedia files
+#### Archivos Multimedia
 
 It is becoming increasingly popular for journals to publish multimodal content, including audio and video files, in addition to text-based articles. In addition to providing audio and visual formats for text-based articles, which can help to increase the accessibility of journal content, multimodal content is increasingly [valued as an alternative form of scholarship](https://www.tandfonline.com/doi/full/10.1080/07294360.2017.1389857?casa_token=QlJ8xBTQUEMAAAAA%3AWDkOV6R-qfZxJBimLv_Jv4iB3o2XYeA-Cym7uxHoCww9THLVmZFVfKmRP3dtqq098HvYG6kqTl_v) which represents and reflects different modes of expression and ways of knowing. Journals that choose to create audio versions of text-based articles may choose to do so manually, by having someone read the article into a voice recorder, or automatically using Text to Speech software.
 
@@ -281,7 +281,7 @@ Paste the URL into the remote galley field and click **Save**.
 
 The video should now appear in the published submission.
 
-### Contact the Author
+### Contacta al autor
 
 Next, you will want to share the PDF with the author for a final look and sign off. To do so, use the **Add Discussion** link in the Production Discussion panel. This will open a new window.
 
@@ -305,7 +305,7 @@ Then, you can upload additional files, if necessary.
 
 ![Step 3 of uploading galley file in discussion- option to add additional file or complete.](./assets/learning-ojs-3-le-production-add-participant-upload3.png)
 
-Once you are done, hit **Complete**.
+Una vez terminado, pulsa **Completa**.
 
 The file is now attached and you can send the message using the **OK** button.
 
