@@ -25,13 +25,13 @@ Fill in details about your subscription policies on this page.
 
 The next step in setting up subscription management is to designate the types of subscriptions the journal offers.
 
-![The Subscription Types tab in the Subscriptions menu](./assets/learning-ojs3.1-jm-subscriptions-types.png)
+![The Subscription Types tab in the Subscriptions menu](./assets/learning-ojs3.3-jm-subscriptions-types.png)
 
 Journals typically offer individual subscription and institutional subscription rates. Some journals may have special offers for members of an organization or students. OJS will support the management of print and/or online subscriptions. More than one type of subscription can be created to cover longer periods of time (12 months, 36 months).
 
 Select **Create New Subscription Type** to add a new one.
 
-![The Create New Subscription Type window.](./assets/learning-ojs3.1-jm-subscriptions-types-create.png)
+![The Create New Subscription Type window.](./assets/learning-ojs3.3-jm-subscriptions-types-create.png)
 
 - **Name of Type**: Give this new subscription type a unique name (e.g., Student).
 - **Description**: Provide a brief description that will appear on the website.
@@ -51,7 +51,7 @@ If you haven't already done so, go to [Settings > Distribution > Payments](./set
 
 Use this page to set the amounts charged for various types of fees.
 
-![The Payment Types tab in the Subscriptions menu.](./assets/learning-ojs3.1-jm-subscriptions-paytypes.png)
+![The Payment Types tab in the Subscriptions menu.](./assets/learning-ojs3.3-jm-subscriptions-paytypes.png)
 
 ### Author Fees
 
@@ -59,7 +59,7 @@ If you want to charge an article processing charge (APC) to authors, enter the a
 
 Note that the option to notify authors about the Author Fee will appear only when the payment details (PayPal account details or manual PayPal instructions) have been completed in [Settings > Distribution > Payments](./settings-distribution#payments).
 
-![A sample notification to the author with the "Request publication fee" option enabled.](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
+![A sample notification to the author with the "Request publication fee" option enabled.](./assets/learning-ojs3.3-jm-subscriptions-authorfees.png)
 
 Authors will be required to login to the journal before being directed to PayPal to process payment.
 
@@ -85,11 +85,11 @@ Only payments made through PayPal will be recorded here.
 
 All types of individual subscriptions will appear here.
 
-![The Individual Subscriptions tab in the Subscriptions menu.](./assets/learning-ojs3.1-jm-subscriptions-indiv.png)
+![The Individual Subscriptions tab in the Subscriptions menu.](./assets/learning-ojs3.3-jm-subscriptions-indiv.png)
 
 You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for that person under Users & Roles (see [the User Accounts chapter](./user-accounts)). Once that is done, you can search for the account here, and apply the different configurations.
 
-![The Create New Subscription window.](./assets/learning-ojs3.1-jm-subscriptions-indiv-create.png)
+![The Create New Subscription window.](./assets/learning-ojs3.3-jm-subscriptions-indiv-create.png)
 
 **Subscription Type**: Select the appropriate type for this new subscriber (e.g., Student) and its status (e.g., Active).
 
@@ -107,7 +107,7 @@ You can create a new individual subscription by using the Create New Subscriptio
 
 All types of institutional subscriptions will appear here.
 
-![The Institutional Subscriptions tab in the Subscriptions menu.](./assets/learning-ojs3.1-jm-subscriptions-instit.png)
+![The Institutional Subscriptions tab in the Subscriptions menu.](./assets/learning-ojs3.3-jm-subscriptions-instit.png)
 
 Institutional subscriptions are managed similarly to individual subscriptions, but are used for libraries, research institutes, and other organizes that subscribe to your journal.
 
@@ -122,7 +122,7 @@ You can create a new individual subscription by using the Create New Subscriptio
 - **Domain**: Readers coming from a computer with this domain will automatically receive access (e.g., sfu.ca). This will apply to on-campus users.
 - **IP Ranges**: The institution may provide you with IP ranges. Readers using a computer in this IP range will automatically receive access. Each IP range should be entered as a new line.
 
-![The IP ranges field where IP ranges are entered.](./assets/learning-ojs3.2-jm-subscriptions-instit-IP.png)
+![The IP ranges field where IP ranges are entered.](./assets/learning-ojs3.3-jm-subscriptions-instit-IP.png)
 
 - **Notes**: If you have any relevant notes to add, record that information here (optional).
 
@@ -136,7 +136,7 @@ These manual subscriptions will also be recorded in the Payment > Individual or 
 
 From here the subscription manager can update the status as needed based on your workflow.
 
-![A sample individual subscription with the "Awaiting Manual Payment" status.](./assets/learning-ojs3.2-subs-manual-notification.png)
+![A sample individual subscription with the "Awaiting Manual Payment" status.](./assets/learning-ojs3.3-subs-manual-notification.png)
 
 ### PayPal payment notifications
 
@@ -152,4 +152,4 @@ If you would like to set certain articles as Open Access, this can be done by go
 
 Under the Table of Contents, check off the articles that will be set as Open Access.
 
-![The Open Access checkbox located beside an article in the Table of Contents.](./assets/learning-ojs3.2-jm-subscriptions-single-article.png)
+![The Open Access checkbox located beside an article in the Table of Contents.](./assets/learning-ojs3.3-jm-subscriptions-single-article.png)
