@@ -81,7 +81,7 @@ As various payments are received, they will be listed under this tab.
 
 Only payments made through PayPal will be recorded here.
 
-As of 3.3, a Payment tab has been added on the manuscript dashboard has been added to allow Editors to record the payment status of Author fees. Manuscripts can only be schedule to an issue once the Author fee has been marked as Paid or Waived.
+As of 3.3, a Payment tab has been added on the manuscript dashboard for Editors to record the payment status of Author fees. Manuscripts can only be schedule to an issue once the Author fee has been marked as Paid or Waived.
 
 ![Author Fee Payment record tab.](./assets/learning-ojs3.3-jm-subscription-authorpublicationfee.png)
 
