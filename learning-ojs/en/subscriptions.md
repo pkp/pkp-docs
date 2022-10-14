@@ -55,7 +55,7 @@ Use this page to set the amounts charged for various types of fees.
 
 ### Author Fees
 
-If you want to charge an article processing charge (APC) to authors, enter the amount here. Enable Author Fees will allow you to request an article processing charge after the review process has been completed. When the article is accepted by the editor, the editor will have the option to require payment. This will result in the author receiving a notification in OJS and an email, which will direct them through the payment process.
+If you want to charge an article processing charge (APC) to authors, enter the amount here. Enable Author Fees will allow you to request an article processing charge after the review process has been completed. When the article is accepted by the editor following Review, the editor will have the option to require payment. This will result in the author receiving a notification in OJS and an email, which will direct them through the payment process.
 
 Note that the option to notify authors about the Author Fee will appear only when the payment details (PayPal account details or manual PayPal instructions) have been completed in [Settings > Distribution > Payments](./settings-distribution#payments).
 
@@ -80,6 +80,10 @@ Use this to charge other fees, such as memberships.
 As various payments are received, they will be listed under this tab.
 
 Only payments made through PayPal will be recorded here.
+
+As of 3.3, a Payment tab has been added on the manuscript dashboard has been added to allow Editors to record the payment status of Author fees. Manuscripts can only be schedule to an issue once the Author fee has been marked as Paid or Waived.
+
+![Author Fee Payment record tab.](./assets/learning-ojs3.3-jm-subscription-authorpublicationfee.png)
 
 ## Individual Subscriptions
 
@@ -113,7 +117,7 @@ Institutional subscriptions are managed similarly to individual subscriptions, b
 
 You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for the institution's contact person under Users & Roles (see [the User Accounts chapter](./user-accounts)). Once that is done, you can search for the account here, and apply the different configurations.
 
-![The Create New Subscription window.](./assets/learning-ojs3.1-jm-subscriptions-instit-create.png)
+![The Create New Subscription window.](./assets/learning-ojs3.3-jm-subscriptions-instit-create.png)
 
 - **Subscription Type**: Select the appropriate type for this new subscriber (e.g., Library) and its status (e.g., Active). (Subscription Types were configured earlier in this chapter.)
 - **Date**: Set the start and end dates for this subscription.
