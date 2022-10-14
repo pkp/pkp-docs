@@ -12,7 +12,7 @@ OJS allows you to restrict some or all of your content to subscribers. To enable
 
 Fill in details about your subscription policies on this page.
 
-![The Subscription policies tab in the Subscriptions menu.](./assets/learning-ojs3.1-jm-subscriptions-policies.png)
+![The Subscription policies tab in the Subscriptions menu.](./assets/learning-ojs3.3-jm-subscriptions-policies.png)
 
 - **Subscription Manager**: Add personal details for the responsible person.
 - **Subscription Information**: Add policy details to display on the journal website.
