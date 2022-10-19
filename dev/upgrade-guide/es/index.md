@@ -16,27 +16,27 @@ Las siguientes instrucciones describen cómo actualizar OJS cuando corre cobre u
 
 ## Conocimentos y herramientas requeridas
 
-> **¡ATENCIÓN!** revisa la lista debajo y comprueba si cuentas con los conocimientos y herramientas necesarios para avanzar. Un mal procedimiento durante la actualización puede generar errores irrecuperables. 
+> **¡ATENCIÓN!** revisa la siguiente lista y comprueba que cuentas con los conocimientos y herramientas necesarios. Un error durante la actualización puede provocar errores irrecuperables. 
 > 
 > {:.warning}
 
-Para proceder con esta guía deberás contar con experiencia en el uso de herramientas de administración de sistemas y comprender la lógica del entorno LAMP stack en la configuración de tu servidor, a continuación te brindamos una lista para que compruebes si cuentas con lo necesario para continuar:
+Para usar esta guía, necesitarás experiencia con herramientas básicas de administración del sistemas, así como una comprensión de la pila de tecnología para la configuración de tu servidor.
 
-- Competencias básicas de administrador de GNU/Linux
-- Credenciales de gestión de servidor, incluídas las credenciales de la base de datos.
+- Habilidades básicas de administración GNU/Linux
+- Credenciales del servidor, incluyendo credenciales de base de datos
 - Conocimiento del entorno LAMP stack de tu servidor. (Si estás trabajando en otro entorno ten en cuenta que deberás adaptar esta guía a tus necesidades)
 - Acceso a la terminal del servidor (SSH).
-- Una versión de actualización publicada de OJS, identificada previamente, a la que vayas a actualizar (paso 5 del tutorial).
+- Una versión concreta de OJS a la que actualizar (se descargará en el paso 5)
 
 ### Preparando la actualización...
 
-Antes de comenzar tu actualización, puedes revisar las notas de la versión de actualización publicada (`docs/release-notes`). Visitando el [release notebook](/dev/release-notebooks/) podrás conocer en detalle los cambios importantes introducidos tanto en la versión de actualización elegida como en otras versiones de actualización publicadas. El `config.TEMPLATE.inc.php` incluye una descripción para la mayoría de los parámetros de configuración.
+Antes de empezar la actualización, puedes revisar `docs/release-notes` y [release notebook](/dev/release-notebooks/) para que tu versión específica y descubrir los cambios más importantes introducidos en cada versión. El archivo `config.TEMPLATE.inc.php` incluye una descripción para la mayoría de los parámetros de configuración.
 
-Tenga en cuenta que una actualización puede tomar de unos minutos hasta varias horas dependiendo del tamaño de su sitio.
+Ten en cuenta que, dependiendo del tamaño de tu sitio, una actualización puede tardar de unos minutos hasta varias horas.
 
 ### Una nota sobre las versiones:
 
-Todos los desarrollos de PKP utilizan una variante de [Versionado semántico](https://semver.org) descrito como `major.minor.revision-build`. Cada punto del número de versión describe el tipo de cambios que puedes esperar.
+Para definir la versión de una aplicación, todos los desarrollos de PKP usan una variante de [versionado semántico](https://semver.org) y se nombran como `major.minor.revision-build`. Cada punto del número de versión describe el tipo de cambios que puedes esperar.
 
 | Tipo              | Ejemplo    | Descripción:                                                                                                                                                                                     |
 | ----------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
