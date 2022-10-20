@@ -1,7 +1,7 @@
 ---
 generateHeadingToc: true
 title: Cómo actualizar
-description: Cómo actualizar Open Journal System (OJS) y otros sistemas desarrollados por PKP, incluye guías paso a paso
+description: Cómo actualizar Open Journal System (OJS) y otras aplicaciones de PKP, con un tutorial paso a paso.
 ---
 
 # Manual de actualización
@@ -61,29 +61,29 @@ No siempre es posible actualizar de una versión 2.x a cualquier versión 3.x. C
 
 ## Tutorial de actualización
 
-En el siguiente tutorial te proporcionaremos el proceso recomendado paso a paso para que realices la actualización de OJS de forma segura. Ten en cuenta que cada instalación es diferente y tu entorno de servidor puede diferir sustancialmente. En todos los casos, deberas revisar y comprender los comandos de actualización antes de ejecutarlos.
+En el siguiente tutorial explica el proceso paso a paso recomendado para realizar la actualización de OJS de forma segura. Sin embargo, cada instalación es diferente y su entorno de servidor puede diferir sustancialmente. En todos los casos, debería revisar y entender los comandos antes de ejecutarlos.
 
-Durante el tutorial veremos comandos para los sistemas  [Debian](https://www.debian.org/) o [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) de Linux. **Sólo deberás ejecutar el comando apropiado para tu servidor **
+Durante el tutorial verás comandos para los sistemas [Debian](https://www.debian.org/) o [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) de Linux. Sólo debes ejecutar el comando apropiado para tu servidor.
 
-### 1. Conjunto de variables de Entorno
+### 1. Configurar variables de entorno
 
-En este tutorial utilizaremos las siguientes variables para simplificar los comandos de la terminal.
+En este tutorial usaremos las siguientes variables para simplificar los comandos de la terminal.
 
-| VARIABLE          | Predeterminada      | Descripción                                                  |
-| ----------------- | ------------------- | ------------------------------------------------------------ |
-| WEB_USER          | `www-data`          | Usuario del servidor web                                     |
-| WEB_GROUP         | `www-data`          | Grupo de pertenencia del usuario del servidor web            |
-| OJS_ROOT_PATH   | `/var/www`          | Carpeta raíz de OJS                                          |
-| OJS_WEB_PATH    | `/var/www/html`     | Carpeta raíz de la web de OJS                                |
-| OJS_DB_HOST     | `db`                | Nombre del *host* de la base de datos.                       |
-| OJS_DB_USER     | `ojs`               | Usuario de base de datos                                     |
-| OJS_DB_PASSWORD | `ojsPwd`            | Contraseña de la base de datos                               |
-| OJS_DB_NAME     | `ojs`               | Nombre de la base de datos                                   |
-| OJS_BACKUP_PATH | `/srv/backup/ojs`   | Carpeta para guardar tus copias de seguridad                 |
-| OJS_VERSION       | `ojs-3.3.0-8`       | Nombre de versión, tal como es nombrada en el archivo de ojs |
-| DATE              | `YYYYMMDD-HH:MM:SS` | La fecha y hora actual del sistema                           |
+| VARIABLE          | Predeterminada      | Descripción                                            |
+| ----------------- | ------------------- | ------------------------------------------------------ |
+| WEB_USER          | `www-data`          | Usuario del servidor web                               |
+| WEB_GROUP         | `www-data`          | Grupo del usuario del servidor web                     |
+| OJS_ROOT_PATH   | `/var/www`          | Directorio raíz de OJS                                 |
+| OJS_WEB_PATH    | `/var/www/html`     | Directorio raíz de la web de OJS                       |
+| OJS_DB_HOST     | `db`                | Nombre del *host* de la base de datos.                 |
+| OJS_DB_USER     | `ojs`               | Usuario de la base de datos                            |
+| OJS_DB_PASSWORD | `ojsPwd`            | Contraseña de la base de datos                         |
+| OJS_DB_NAME     | `ojs`               | Nombre de la base de datos                             |
+| OJS_BACKUP_PATH | `/srv/backup/ojs`   | Directorio en el que almacenar las copias de seguridad |
+| OJS_VERSION       | `ojs-3.3.0-8`       | Nombre de versión, como en el archivo ojs descargado   |
+| DATE              | `YYYYMMDD-HH:MM:SS` | La fecha y hora actual del sistema                     |
 
-Reescribe el comando de abajo para configurar estas variables con los valores correctos para tu instalación.
+A continuación reescribe el siguiente comando para configurar estas variables con los valores adecuados para tu instalación.
 
 ```bash
 $ WEB_USER="www-data" && \
