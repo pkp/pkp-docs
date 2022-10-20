@@ -53,13 +53,11 @@ Siempre deberías probar primero las actualizaciones en un entorno de prueba, in
 
 No siempre es posible actualizar de una versión 2.x a cualquier versión 3.x. Cuando actualices desde una versión 2.x, primero deberás actualizar a versiones intermedias. La siguiente tabla describe los pasos necesarios.
 
-| Desde        | Hasta       | Descripción                                                                                        |
-| ------------ | ----------- | -------------------------------------------------------------------------------------------------- |
-| `< 2.4.8` | `2.4.8-x`   | Antes de actualizar a 3.x, asegúrese de que ha sido actualizado a la última compilación `2.4.8-x`. |
-| `2.4.8-x
-`   | `3.2.1-x
-`  | No puedes actualizar a 3.3.x o posterior desde 2.x                                                 |
-| `3.2.1-x`    | `3.3 >=` | Actualizar de `3.2.1-x` a cualquier versión 3.3 o posterior.                                       |
+| Desde        | Hasta       | Descripción                                                                                    |
+| ------------ | ----------- | ---------------------------------------------------------------------------------------------- |
+| `< 2.4.8` | `2.4.8-x`   | Antes de actualizar a 3.x, asegúrate de que has actualizado a la última compilación `2.4.8-x`. |
+| `2.4.8-x`    | `3.2.1-x`   | No puedes actualizar a la 3.3.x o posterior desde 2.x                                          |
+| `3.2.1-x`    | `3.3 >=` | Actualizar desde `3.2.1-x` a cualquier versión 3.3 o posterior.                                |
 
 ## Tutorial de actualización
 
