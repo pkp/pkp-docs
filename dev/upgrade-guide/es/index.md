@@ -36,25 +36,24 @@ Ten en cuenta que, dependiendo del tamaño de tu sitio, una actualización puede
 
 ### Una nota sobre las versiones:
 
-Para definir la versión de una aplicación, todos los desarrollos de PKP usan una variante de [versionado semántico](https://semver.org) y se nombran como `major.minor.revision-build`. Cada punto del número de versión describe el tipo de cambios que puedes esperar.
+Para definir la versión de una aplicación, todos los desarrollos de PKP usan una variante de [versionado semántico](https://semver.org) y se nombran como `major.minor.revision-build`. Cada número del nombre de versión describe el tipo de cambios que puedes esperar.
 
-| Tipo              | Ejemplo    | Descripción:                                                                                                                                                                                     |
-| ----------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| major (principal) | `3.x.x-x
-` | Cambios estructurales disrruptivos que modifican por completo el sistema y pueden afectar el funcionamiento de los *plugins*, la configuración de los servidores y todas las partes del sistema. |
-| menor             | `3.3.x-x`  | Cambios estructurales que pueden afectar a los *plugins* y a la configuración del servidor                                                                                                       |
-| revisión          | `3.3.3-x`  | Se añaden nuevas caractarísticas y/o funciones, pero los cambios estructurales se limitan al mínimo.                                                                                             |
-| compilación       | `3.3.3-3`  | No hay cambios estructurales ni migraciones de bases de datos.                                                                                                                                   |
+| Tipo        | Ejemplo   | Descripción                                                                                                                                                                                   |
+| ----------- | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| mayor       | `3.x.x-x` | Cambios estructurales disruptivos que modifican por completo el sistema y pueden afectar el funcionamiento de los módulos, la configuración de los servidores y todas las partes del sistema. |
+| menor       | `3.3.x-x` | Cambios estructurales que pueden afectar a los módulos y a la configuración del servidor.                                                                                                     |
+| revisión    | `3.3.3-x` | Puede incorporar nuevas funcionalidades, pero los cambios estructurales se limitan al mínimo.                                                                                                 |
+| compilación | `3.3.3-3` | No hay cambios estructurales ni migraciones de bases de datos.                                                                                                                                |
 
-Al paso entre una versión y otra se lo denomina "Salto". Para poder comprender el proceso de actualización, primero deberás determinar el tamaño del "Salto" que implica la actualización. Un "Salto" de la versión `3.3.0-6` a la versión`3.3.0-7` probablemente se puede hacer con un tiempo mínimo de inactividad. Sin embargo, un "Salto" de la versión `2.4` a `3.2` será un proceso largo y complejo con un mayor riesgo de introducir problemas.
+Para poder comprender el proceso de actualización, primero debes determinar la distancia del "salto" entre versiones que implica la actualización. Es probable que un "salto" de la versión `3.3.0-6` a la versión`3.3.0-7` pueda hacerse con un tiempo mínimo de inactividad. Sin embargo, un "salto" de la versión `2.4` a la `3.2` será un proceso largo y complejo con un mayor riesgo de introducir problemas.
 
-Es recomendable que realices las actualizaciones en un entorno de prueba primero, incluso cuando se actualiza de una compilación a otra.
+Siempre deberías probar primero las actualizaciones en un entorno de prueba, incluso cuando el salto es mínimo (pe: entre versiones de compilación).
 
 ### Actualización desde 2.x
 
-No siempre es posible actualizar de una versión 2.x a cualquier versión de 3.x. Al realizar actualizaciones desde una versión 2.x, primero debería actualizar a versiones intermedias. La siguiente tabla describe los pasos necesarios.
+No siempre es posible actualizar de una versión 2.x a cualquier versión 3.x. Cuando actualices desde una versión 2.x, primero deberás actualizar a versiones intermedias. La siguiente tabla describe los pasos necesarios.
 
-| De           | a           | Descripción                                                                                        |
+| Desde        | Hasta       | Descripción                                                                                        |
 | ------------ | ----------- | -------------------------------------------------------------------------------------------------- |
 | `< 2.4.8` | `2.4.8-x`   | Antes de actualizar a 3.x, asegúrese de que ha sido actualizado a la última compilación `2.4.8-x`. |
 | `2.4.8-x
