@@ -190,6 +190,7 @@ These definitions are drawn from the [entity schemas](https://docs.pkp.sfu.ca/de
 
 Technical references are available for the following software packages.
 
+- [OJS 3.4](ojs/3.4)
 - [OJS 3.3](ojs/3.3)
 - [OJS 3.2](ojs/3.2)
 - [OJS 3.1](ojs/3.1)
