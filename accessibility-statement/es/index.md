@@ -10,64 +10,64 @@ Public Knowledge Project (PKP) está comprometido a garantizar que nuestras plat
 
 ## Información de auditoría
 
-An audit of the public facing OJS Default Theme on OJS version 3.3 was conducted by Access Changes Everything Inc., a Canadian digital accessibility consulting company, from July 2019 to March 2021. Access Changes Everything Inc. provided two audits using multiple automated checkers, and conducting extensive manual testing during the development process. As well, extensive auditing was conducted by paid testers with different disabilities, who used different technologies during the process; these technologies are listed below. Some of the same testers also participated in the final testing process.
+Access Changes Everything Inc. una empresa canadiense de consultoría en accesibilidad digital, realizó, desde julio de 2019 hasta marzo de 2021, una auditoría pública del tema predeterminado de OJS para la versión 3.3. Access Changes Everything Inc. realizó dos auditorías utilizando múltiples verificadores automatizados y llevando a cabo extensas pruebas manuales durante el proceso de desarrollo. Además, se llevó a cabo una amplia auditoría por parte de testers remunerados con diferentes discapacidades, que utilizaron diferentes tecnologías durante el proceso; estas tecnologías se enumeran a continuación. Algunos de los mismos testers también participaron en el proceso de prueba final.
 
-This audit focused on lowering barriers on the Default Theme for people with different disabilities, such as visual, hearing, mobility, speech, communication, cognitive, neurological, intellectual, learning, and those with multiple disabilities.
+Esta auditoría se centró en la reducción de las barreras en el Tema del Defecto para personas con diferentes discapacidades, como las visuales, auditivas, de movilidad, del habla, de comunicación, cognitivas, neurológicas, intelectuales, de aprendizaje y aquellas con múltiples discapacidades.
 
-### Standards Information
+### Información de Estándares
 
-This audit was done using the international standard that relates to OJS Default Theme accessibility, the Web Content Accessibility Guidelines (WCAG) 2.1 and 2.2 Level AA. Note that Version 2.2 was only in Draft, as of May 2020.
+Esta auditoría se ha realizado utilizando la norma internacional que se refiere a la accesibilidad del Tema por Defecto de OJS, las Directrices de Accesibilidad al Contenido en la Web (WCAG) 2.1 y 2.2 Nivel AA. Nótese que la versión 2.2 solo estaba en fase de borrador, en mayo de 2020.
 
-The audit went much further than WCAG 2.1 or WCAG 2.2 (Draft) Level AA. It included items that are not currently included in WCAG, such colour blindness, font type and style, and lessening barriers that impact people with cognitive, neurological, intellectual and/or learning disabilities. The audit also included usability best practices, in order to make the site more accessible and usable for everyone.
+La auditoría fue mucho más allá de las WCAG 2.1 o WCAG 2.2 (Borrador) Nivel AA. Incluyó elementos que actualmente no están incluidos en las WCAG, como el daltonismo, el tipo y estilo de letra y la disminución de las barreras que afectan a las personas con discapacidades cognitivas, neurológicas, intelectuales y/o de aprendizaje. La auditoría también incluyó las mejores prácticas de usabilidad, con el fin de hacer el sitio más accesible y usable para todos.
 
-The audit included testing of these areas:
+La auditoría incluyó pruebas de estas áreas:
 
-* Textual Content
-* Image Content
-* Video and Audio Content
-* Colour in Content and Design
-* Page and Content Layout
-* Page and Content Design
-* Navigation
-* Search Functions
-* Widgets and Plugins
-* Forms and Error Mechanisms
-* Content Structure
-* HTML and CSS Code Use
+* Contenido de tipo texto
+* Contenido de tipo imagen
+* Contenido de tipo vídeo y audio
+* Color en el contenido y el diseño
+* Disposición de páginas y contenidos
+* Diseño de páginas y contenidos
+* Navegación
+* Funciones de búsqueda
+* Asistentes y módulos
+* Formularios y mecanismos de error
+* Estructura del contenido
+* Uso del código HTML y CSS
 
-### Testers and Technologies Used
+### Testers y tecnologías utilizadas
 
-Access Changes Everything Inc. paid multiple testers with different disabilities, who use different technologies, to test different parts of the Default Theme for OJS 3.3. The technologies used by testers included the newest, as well as older, versions of:
+Access Changes Everything Inc. contrató a varios probadores con diferentes discapacidades, que utilizan diferentes tecnologías, para probar diferentes partes del Tema por defecto para OJS 3.3. Las tecnologías utilizadas por los probadores incluyeron las versiones más recientes, así como las más antiguas, de:
 
-* JAWS Screen Reader in Chrome and EDGE Browsers (PC and Tablet)
-* JAWS Screen Reader in Internet Explorer Browser with PacMate 20 Braille Display (PC)
-* NVDA Screen Reader in Chrome Browsers (PC)
-* Microsoft Narrator Screen Reader in EDGE (Tablet)
-* Apple VoiceOver Screen Reader in Safari (iPhone 6)
-* Apple VoiceOver Screen Reader in Safari with 40 Cell Braille Display (Mac)
-* Apple VoiceOver Screen Reader in Safari with 40 Cell Braille Display (iPad Pro)
+* JAWS Screen Reader en los navegadores Chrome y EDGE (PC y tableta)
+* Lector de pantalla JAWS en el navegador Internet Explorer con pantalla Braile PacMate 20 (PC)
+* NVDA Screen Reader en los navegadores Chrome (PC)
+* Lector de pantalla Microsoft Narrator en EDGE (Tablet)
+* Lector de pantalla Apple VoiceOver en Safari (iPhone 6)
+* Lector de pantalla Apple VoiceOver en Safari con pantalla Braille de 40 celdas (Mac)
+* Lector de pantalla Apple VoiceOver en Safari con pantalla Braille de 40 celdas (iPad Pro)
 * Dragon Naturally Speaking Premium 13 (PC)
 
-Access Changes Everything Inc. used Mac, PC and iPhone to test the site with Chrome and Firefox browsers. Certain technologies were used in the audit:
+Access Changes Everything Inc. utilizó Mac, PC y iPhone para probar el sitio con los navegadores Chrome y Firefox. En la auditoría se usaron ciertas tecnologías:
 
-* Browser magnification (100%-400%)
-* Colour contrast shifting
-* Voice control (iPhone only)
-* Small screen (iPhone SE or 5 only)
-* Various apps and plugins for Mac Chrome and Firefox to simulate visual and cognitive disabilities.
+* Ampliación del navegador (100%-400%)
+* Cambio de contraste de colores
+* Control por voz (solo en el iPhone)
+* Pantalla pequeña (solo iPhone SE o 5)
+* Varias aplicaciones y plugins para Mac Chrome y Firefox para simular discapacidades visuales y cognitivas.
 
-### Remediation and Remaining Barriers
+### Reparación y obstáculos restantes
 
-Following the receipt of the full audit report in December 2019, PKP created the [Accessibility Github Project](https://github.com/pkp/pkp-lib/projects/16) to keep track of the issues and the progress towards their resolution. The project is also open for community members to file issues related to accessibility in user interface and platform functionality.
+Tras la recepción del informe de auditoría completo en diciembre de 2019, PKP creó el [Proyecto Github de Accesibilidad](https://github.com/pkp/pkp-lib/projects/16) para hacer un seguimiento de los problemas y el progreso hacia su resolución. El proyecto también está abierto para que los miembros de la comunidad presenten problemas relacionados con la accesibilidad en la interfaz de usuario y la funcionalidad de la plataforma.
 
-In 2021, Access Changes Everything Inc. conducted a follow-up audit of the Default theme to evaluate the remediation done by PKP developers. Most issues identified in the initial report were either resolved by PKP, or acceptable workarounds were suggested by Access Changes Everything Inc.
+En 2021, Access Changes Everything Inc. llevó a cabo una auditoría de seguimiento del tema por defecto para evaluar la corrección realizada por los desarrolladores de PKP. La mayoría de los problemas identificados en el informe inicial fueron resueltos por PKP o Access Changes Everything Inc. sugirió soluciones alternativas aceptables.
 
-There remain some barriers that could not be fully eliminated. These are either being worked on by PKP or can be addressed by how OJS is used by journals:
+Siguen existiendo algunos obstáculos que no han podido ser eliminados por completo. PKP está trabajando en ellos o pueden ser resueltos por la forma en que las revistas utilizan el OJS:
 
-* reCAPTCHA. When enabled on the user registration page, reCAPTCHA presents a major barrier for screen reader users with braille devices and VoiceControl users on iPhone. Additionally reCAPTCHA is missing an iFrame title and a form label, so even those screen reader users who can use it, may encounter barriers.
+* reCAPTCHA. Cuando se activa en la página de registro del usuario, reCAPTCHA presenta una barrera importante para los usuarios de lectores de pantalla con dispositivos braille y los usuarios de VoiceControl en iPhone. Además, reCAPTCHA carece de un título iFrame y una etiqueta de formulario, por lo que incluso los usuarios de lectores de pantalla que pueden utilizarlo, pueden encontrar barreras.
 
-reCAPTCHA is a Captcha system and third party service developed by Google and integrated as an optional OJS feature which can be disabled. Alternatives exist, such as the [OJS Honeypot plugin](https://github.com/ulsdevteam/pkp-formHoneypot).
-* Content. Website content and published content created in a manner non-compliant with accessibility standards can present barriers for users. This may include, but not limited to: images uploaded with no alternative text, improperly structured headings, inaccessible hyperlinks, missing figures caption, and incorrect or incomplete data table structure. While these are out of scope for the Default Accessible Theme, PKP provides guidance for editors on [Creating Accessible Content](https://docs.pkp.sfu.ca/accessible-content/).
+reCAPTCHA es un sistema Captcha y un servicio de terceros desarrollado por Google e integrado como una característica opcional de OJS que puede ser desactivada. Existen alternativas, como el [módulo OJS Honeypot](https://github.com/ulsdevteam/pkp-formHoneypot).
+* Contenido. El contenido del sitio web y los contenidos publicados creados de manera no conforme con las normas de accesibilidad pueden presentar barreras para los usuarios. Esto puede incluir, aunque no limitarse a: imágenes cargadas sin texto alternativo, títulos mal estructurados, hipervínculos inaccesibles, falta de subtítulos de figuras y estructuras de tablas de datos incorrectas o incompletas. While these are out of scope for the Default Accessible Theme, PKP provides guidance for editors on [Creating Accessible Content](https://docs.pkp.sfu.ca/accessible-content/).
 * Remaining barriers. The other remaining barriers are listed in the [PKP Accessibility Github Project](https://github.com/pkp/pkp-lib/projects/16) that will continue to be updated as barriers are resolved.
 
 ## Contact Us
