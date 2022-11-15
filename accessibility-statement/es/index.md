@@ -2,7 +2,7 @@
 generateHeadingToc: true
 ---
 
-# Declaración de accesibilidad de tema por defecto de OJS 3.3+
+# Declaración de accesibilidad de tema predeterminado de OJS 3.3+
 
 ## Introducción
 
@@ -12,7 +12,7 @@ Public Knowledge Project (PKP) está comprometido a garantizar que nuestras plat
 
 Access Changes Everything Inc. una empresa canadiense de consultoría en accesibilidad digital, realizó, desde julio de 2019 hasta marzo de 2021, una auditoría pública del tema predeterminado de OJS para la versión 3.3. Access Changes Everything Inc. realizó dos auditorías utilizando múltiples verificadores automatizados y llevando a cabo extensas pruebas manuales durante el proceso de desarrollo. Además, se llevó a cabo una amplia auditoría por parte de testers remunerados con diferentes discapacidades, que utilizaron diferentes tecnologías durante el proceso; estas tecnologías se enumeran a continuación. Algunos de los mismos testers también participaron en el proceso de prueba final.
 
-Esta auditoría se centró en la reducción de las barreras en el Tema del Defecto para personas con diferentes discapacidades, como las visuales, auditivas, de movilidad, del habla, de comunicación, cognitivas, neurológicas, intelectuales, de aprendizaje y aquellas con múltiples discapacidades.
+Esta auditoría se centró en la reducción de las barreras en el tema predeterminado para personas con diferentes discapacidades, como las visuales, auditivas, de movilidad, del habla, de comunicación, cognitivas, neurológicas, intelectuales, de aprendizaje y aquellas con múltiples discapacidades.
 
 ### Información de Estándares
 
@@ -67,13 +67,13 @@ Siguen existiendo algunos obstáculos que no han podido ser eliminados por compl
 * reCAPTCHA. Cuando se activa en la página de registro del usuario, reCAPTCHA presenta una barrera importante para los usuarios de lectores de pantalla con dispositivos braille y los usuarios de VoiceControl en iPhone. Además, reCAPTCHA carece de un título iFrame y una etiqueta de formulario, por lo que incluso los usuarios de lectores de pantalla que pueden utilizarlo, pueden encontrar barreras.
 
 reCAPTCHA es un sistema Captcha y un servicio de terceros desarrollado por Google e integrado como una característica opcional de OJS que puede ser desactivada. Existen alternativas, como el [módulo OJS Honeypot](https://github.com/ulsdevteam/pkp-formHoneypot).
-* Contenido. El contenido del sitio web y los contenidos publicados creados de manera no conforme con las normas de accesibilidad pueden presentar barreras para los usuarios. Esto puede incluir, aunque no limitarse a: imágenes cargadas sin texto alternativo, títulos mal estructurados, hipervínculos inaccesibles, falta de subtítulos de figuras y estructuras de tablas de datos incorrectas o incompletas. While these are out of scope for the Default Accessible Theme, PKP provides guidance for editors on [Creating Accessible Content](https://docs.pkp.sfu.ca/accessible-content/).
-* Remaining barriers. The other remaining barriers are listed in the [PKP Accessibility Github Project](https://github.com/pkp/pkp-lib/projects/16) that will continue to be updated as barriers are resolved.
+* Contenido. El contenido del sitio web y los contenidos publicados creados de manera no conforme con las normas de accesibilidad pueden presentar barreras para los usuarios. Esto puede incluir, aunque no limitarse a: imágenes cargadas sin texto alternativo, títulos mal estructurados, hipervínculos inaccesibles, falta de subtítulos de figuras y estructuras de tablas de datos incorrectas o incompletas. Si bien estos problemas están fuera del alcance del tema accesible predeterminado, PKP ofrece orientación a los editores sobre la [Creación de contenido accesible](https://docs.pkp.sfu.ca/accessible-content/).
+* Otros obstáculos. Las demás barreras restantes se enumeran en el [Proyecto Github de Accesibilidad de PKP](https://github.com/pkp/pkp-lib/projects/16), que seguirá actualizándose a medida que se resuelvan los problemas.
 
-## Contact Us
+## Contacto
 
-The OJS Default Theme audit found many barriers, and most of these have been eliminated. However, the theme will be constantly updated, and new barriers may unknowingly be created. If you encounter barriers, or need accommodations, please report them to us via the [PKP web contact form](https://pkp.sfu.ca/contact-us/).
+La auditoría del tema predeterminado de OJS encontró muchas barreras, y la mayoría de ellas han sido eliminadas. Sin embargo, el tema se actualizará constantemente, y es posible que se creen nuevas barreras sin saberlo. Si encuentras barreras, o necesitas adaptaciones, por favor infórmanos a través del [formulario de contacto de la web de PKP](https://pkp.sfu.ca/contact-us/).
 
-## Legal Disclaimer
+## Aviso legal
 
-To the maximum extent permitted by applicable law, in no event will Simon Fraser University or any of its affiliates, or any of their respective governors, directors, employees, or agents, be liable for the failure of any content on applications implementing this theme to meet these accessibility standards, to the extent that such content was submitted or uploaded by a third party.
+En la medida en que lo permita la legislación aplicable, la Universidad Simon Fraser o cualquiera de sus filiales, o cualquiera de sus respectivos gobernantes, directores, empleados o agentes, no serán responsables en ningún caso de que el contenido de las aplicaciones que implementen este tema no cumpla estas normas de accesibilidad, en la medida en que dicho contenido haya sido enviado o cargado por un tercero.
