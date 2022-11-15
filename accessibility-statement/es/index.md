@@ -2,13 +2,13 @@
 generateHeadingToc: true
 ---
 
-# OJS 3.3+ Default Theme Accessibility Statement
+# Declaración de accesibilidad de tema por defecto de OJS 3.3+
 
 ## Introducción
 
-The Public Knowledge Project (PKP) is committed to ensuring our platforms are as accessible as possible for all users. To achieve this, a new OJS Default Theme was developed by PKP for OJS 3.3 and higher, and was audited for accessibility barriers.
+Public Knowledge Project (PKP) está comprometido a garantizar que nuestras plataformas sean lo más accesibles posible para todos los usuarios. Para lograrlo, PKP ha desarrollado un nuevo tema predeterminado para OJS 3.3 y superior, y se ha auditado para detectar las barreras de accesibilidad.
 
-## Audit Information
+## Información de auditoría
 
 An audit of the public facing OJS Default Theme on OJS version 3.3 was conducted by Access Changes Everything Inc., a Canadian digital accessibility consulting company, from July 2019 to March 2021. Access Changes Everything Inc. provided two audits using multiple automated checkers, and conducting extensive manual testing during the development process. As well, extensive auditing was conducted by paid testers with different disabilities, who used different technologies during the process; these technologies are listed below. Some of the same testers also participated in the final testing process.
 
