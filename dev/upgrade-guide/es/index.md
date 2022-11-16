@@ -20,17 +20,17 @@ Las siguientes instrucciones describen cómo actualizar OJS cuando corre cobre u
 > 
 > {:.warning}
 
-Para usar esta guía, necesitarás experiencia con herramientas básicas de administración del sistemas, así como una comprensión de la pila de tecnología para la configuración de tu servidor.
+Para usar esta guía, es necesaria experiencia con herramientas básicas de administración de sistemas, así como una comprensión de la pila de tecnología para la configuración de tu servidor.
 
 - Habilidades básicas de administración GNU/Linux
 - Credenciales del servidor, incluyendo credenciales de base de datos
 - Conocimiento del entorno LAMP stack de tu servidor. (Si estás trabajando en otro entorno ten en cuenta que deberás adaptar esta guía a tus necesidades)
 - Acceso a la terminal del servidor (SSH).
-- Una versión concreta de OJS a la que actualizar (se descargará en el paso 5)
+- Una versión cocreta de OJS a la que actualizar (se descargará en el paso 5)
 
 ### Preparando la actualización...
 
-Antes de empezar la actualización, puedes revisar `docs/release-notes` y [release notebook](/dev/release-notebooks/) para que tu versión específica y descubrir los cambios más importantes introducidos en cada versión. El archivo `config.TEMPLATE.inc.php` incluye una descripción para la mayoría de los parámetros de configuración.
+Antes de empezar la actualización, puedes revisar `docs/release-notes` y [release notebook](/dev/release-notebooks/) de tu versión específica para descubrir los cambios más importantes introducidos en cada versión. El archivo `config.TEMPLATE.inc.php` incluye una descripción para la mayoría de los parámetros de configuración.
 
 Ten en cuenta que, dependiendo del tamaño de tu sitio, una actualización puede tardar de unos minutos hasta varias horas.
 
@@ -83,7 +83,7 @@ En este tutorial usaremos las siguientes variables para simplificar los comandos
 | OJS_VERSION       | `ojs-3.3.0-8`       | Nombre de versión, como en el archivo ojs descargado   |
 | DATE              | `YYYYMMDD-HH:MM:SS` | La fecha y hora actual del sistema                     |
 
-A continuación reescribe el siguiente comando para configurar estas variables con los valores adecuados para tu instalación.
+Reescribe el siguiente comando para definir estas variables con los valores adecuados para tu instalación.
 
 ```bash
 $ WEB_USER="www-data" && \
