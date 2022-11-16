@@ -47,41 +47,41 @@ Para definir la versión de una aplicación, todos los desarrollos de PKP usan u
 
 Para poder comprender el proceso de actualización, primero debes determinar la distancia del "salto" entre versiones que implica la actualización. Es probable que un "salto" de la versión `3.3.0-6` a la versión`3.3.0-7` pueda hacerse con un tiempo mínimo de inactividad. Sin embargo, un "salto" de la versión `2.4` a la `3.2` será un proceso largo y complejo con un mayor riesgo de introducir problemas.
 
-Siempre deberías probar primero las actualizaciones en un entorno de prueba, incluso cuando el salto es mínimo (pe: entre versiones de compilación).
+Siempre deberías probar primero las actualizaciones en un entorno de prueba, incluso cuando el salto es mínimo (pe: entre versiones de construcción).
 
 ### Actualización desde 2.x
 
-No siempre es posible actualizar de una versión 2.x a cualquier versión 3.x. Cuando actualices desde una versión 2.x, primero deberás actualizar a versiones intermedias. La siguiente tabla describe los pasos necesarios.
+No siempre es posible actualizar directamente de una versión 2.x a cualquier versión 3.x. Cuando actualices desde una versión 2.x, primero deberás actualizar a versiones intermedias. La siguiente tabla describe los pasos necesarios.
 
-| Desde        | Hasta       | Descripción                                                                                    |
-| ------------ | ----------- | ---------------------------------------------------------------------------------------------- |
-| `< 2.4.8` | `2.4.8-x`   | Antes de actualizar a 3.x, asegúrate de que has actualizado a la última compilación `2.4.8-x`. |
-| `2.4.8-x`    | `3.2.1-x`   | No puedes actualizar a la 3.3.x o posterior desde 2.x                                          |
-| `3.2.1-x`    | `3.3 >=` | Actualizar desde `3.2.1-x` a cualquier versión 3.3 o posterior.                                |
+| Desde        | Hasta       | Descripción                                                                                |
+| ------------ | ----------- | ------------------------------------------------------------------------------------------ |
+| `< 2.4.8` | `2.4.8-x`   | Antes de actualizar a 3.x, asegúrate de que has actualizado a la última versión `2.4.8-x`. |
+| `2.4.8-x`    | `3.2.1-x`   | No puedes actualizar a la 3.3.x o posterior desde 2.x                                      |
+| `3.2.1-x`    | `3.3 >=` | Actualizar desde `3.2.1-x` a cualquier versión 3.3 o posterior.                            |
 
 ## Tutorial de actualización
 
-En el siguiente tutorial explica el proceso paso a paso recomendado para realizar la actualización de OJS de forma segura. Sin embargo, cada instalación es diferente y su entorno de servidor puede diferir sustancialmente. En todos los casos, debería revisar y entender los comandos antes de ejecutarlos.
+El siguiente tutorial describe, paso a paso, el proceso recomendado para actualizar OJS de forma segura. Sin embargo, cada instalación es diferente y su entorno de servidor puede diferir sustancialmente. En todo momennto, debes revisar y entender los comandos antes de ejecutarlos.
 
-Durante el tutorial verás comandos para los sistemas [Debian](https://www.debian.org/) o [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) de Linux. Sólo debes ejecutar el comando apropiado para tu servidor.
+Durante el tutorial verás comandos para los sistemas [Debian](https://www.debian.org/) o [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) de Linux. Solo debes ejecutar el comando apropiado para tu servidor.
 
 ### 1. Configurar variables de entorno
 
 En este tutorial usaremos las siguientes variables para simplificar los comandos de la terminal.
 
-| VARIABLE          | Predeterminada      | Descripción                                            |
-| ----------------- | ------------------- | ------------------------------------------------------ |
-| WEB_USER          | `www-data`          | Usuario del servidor web                               |
-| WEB_GROUP         | `www-data`          | Grupo del usuario del servidor web                     |
-| OJS_ROOT_PATH   | `/var/www`          | Directorio raíz de OJS                                 |
-| OJS_WEB_PATH    | `/var/www/html`     | Directorio raíz de la web de OJS                       |
-| OJS_DB_HOST     | `db`                | Nombre del *host* de la base de datos.                 |
-| OJS_DB_USER     | `ojs`               | Usuario de la base de datos                            |
-| OJS_DB_PASSWORD | `ojsPwd`            | Contraseña de la base de datos                         |
-| OJS_DB_NAME     | `ojs`               | Nombre de la base de datos                             |
-| OJS_BACKUP_PATH | `/srv/backup/ojs`   | Directorio en el que almacenar las copias de seguridad |
-| OJS_VERSION       | `ojs-3.3.0-8`       | Nombre de versión, como en el archivo ojs descargado   |
-| DATE              | `YYYYMMDD-HH:MM:SS` | La fecha y hora actual del sistema                     |
+| VARIABLE          | Predeterminada      | Descripción                                                  |
+| ----------------- | ------------------- | ------------------------------------------------------------ |
+| WEB_USER          | `www-data`          | Usuario del servidor web                                     |
+| WEB_GROUP         | `www-data`          | Grupo del usuario del servidor web                           |
+| OJS_ROOT_PATH   | `/var/www`          | Directorio raíz de OJS                                       |
+| OJS_WEB_PATH    | `/var/www/html`     | Directorio raíz de la web de OJS                             |
+| OJS_DB_HOST     | `db`                | Nombre del *host* de la base de datos.                       |
+| OJS_DB_USER     | `ojs`               | Usuario de la base de datos                                  |
+| OJS_DB_PASSWORD | `ojsPwd`            | Contraseña de la base de datos                               |
+| OJS_DB_NAME     | `ojs`               | Nombre de la base de datos                                   |
+| OJS_BACKUP_PATH | `/srv/backup/ojs`   | Directorio en el que almacenar las copias de seguridad       |
+| OJS_VERSION       | `ojs-3.3.0-8`       | Nombre de versión, tal como es nombrada en el archivo de ojs |
+| DATE              | `YYYYMMDD-HH:MM:SS` | La fecha y hora actual del sistema                           |
 
 Reescribe el siguiente comando para definir estas variables con los valores adecuados para tu instalación.
 
@@ -103,18 +103,18 @@ DATE=$(date "+%Y%m%d-%H:%M:%S")
 
 ### 2. Activar el "Modo de Mantenimiento"
 
-Antes de comenzar la migración, deberías poner el sitio en "modo de mantenimiento" para asegurarte que los visitantes no vean mensajes de error y para que no haya cambios en la base de datos o en archivos mientras se realizan copias de seguridad. El "modo de mantenimiento" debe ser configurado de manera tal que evite el envío de todas las peticiones al sistema.
+Antes de empezar la migración, debes poner el sitio en "modo de mantenimiento" para asegurarte que los visitantes no vean mensajes de error y para que no haya cambios en la base de datos o en archivos mientras se realizan copias de seguridad. El "modo de mantenimiento" impide que se envíen nuevas peticiones a la aplicación.
 
-> OJS aún no cuenta con un modo de mantenimiento, pero estamos  [trabajando en ello](https://github.com/pkp/pkp-lib/issues/3263). 
+> OJS no cuenta todavía conn un modo de mantenimiento, pero estamos [trabajando en ello](https://github.com/pkp/pkp-lib/issues/3263). 
 > 
 > {:.notice}
 
-Modifica la directiva del `VirtualHost` de tu Apache o coloca un archivo `.htaccess` en el `OJS_WEB_PATH` con el siguiente contenido.
+Para emular este modo, modifica la directiva del `VirtualHost` de tu Apache o coloca un archivo `.htaccess` en el `OJS_WEB_PATH` con el siguiente contenido.
 
 ```bash
 order deny,allow
 deny from all
-ErrorDocument 403 "This site is undergoing maintenance and should return shortly. Thank you for your patience."
+ErrorDocument 403 "Este sitio está en mantenimiento y debería volver en breve. Gracias por tu paciencia."
 ```
 
 Reinicia el servidor de Apache para que los cambios se apliquen:
@@ -125,22 +125,22 @@ Reinicia el servidor de Apache para que los cambios se apliquen:
 (RHEL)$ systemctl restart httpd
 ```
 
-### 3. Creando copias de seguridad
+### 3. Crear copias de seguridad
 
 > **¡Atención! No te saltes este paso.** Una actualización puede fallar por muchas razones y sin una copia de seguridad de respaldo puedes perder información importante de manera permanente. 
 > 
 > {:.warning}
 
-Los siguientes pasos harán una copia de seguridad de las siguientes carpetas y archivos.
+Los siguientes pasos crearán una copia de seguridad de las siguientes carpetas y archivos.
 
-| Ruta del directorio             | Descripción                                            | VARIABLE           |
-| ------------------------------- | ------------------------------------------------------ | ------------------ |
-| `/var/www/html/public`          | Archivos públicos                                      | `OJS_PUBLIC_PATH`  |
-| `/var/www/files`                | Archivos privados                                      | `OJS_PRIVATE_PATH` |
-| `/var/www/html/config.inc.php`  | `Has una copia de tu config.inc.php `                  |                    |
-| `/var/www/html/.htaccess`       | Has una copia de tu `.htaccess` or vhost (si existe)   |                    |
-| `/var/www/html/plugins`         | has una copia del contenido de la carpeta de *plugins* |                    |
-| locale files, custom code, etc. | has una copia de todas tus personalizaciones           |                    |
+| Ruta del directorio             | Descripción                                                | VARIABLE           |
+| ------------------------------- | ---------------------------------------------------------- | ------------------ |
+| `/var/www/html/public`          | Archivos públicos                                          | `OJS_PUBLIC_PATH`  |
+| `/var/www/files`                | Archivos privados                                          | `OJS_PRIVATE_PATH` |
+| `/var/www/html/config.inc.php`  | `Archivo de configuración <code>config.inc.php` </code> |                    |
+| `/var/www/html/.htaccess`       | Has una copia de tu `.htaccess` or vhost (si existe)       |                    |
+| `/var/www/html/plugins`         | has una copia del contenido de la carpeta de *plugins*     |                    |
+| locale files, custom code, etc. | has una copia de todas tus personalizaciones               |                    |
 
 Copia de seguridad de la base de datos
 
