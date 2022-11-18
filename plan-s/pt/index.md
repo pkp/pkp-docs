@@ -6,6 +6,10 @@ generateHeadingToc: true
 
 > Contributors: Kate Shuttleworth, Mariya Maistrovskaya
 
+## Plan S compliance in OJS: Open webinar recording, November 2022
+
+{% include video.html id="CkTBPd_f1d0" provider="youtube" title="Plan S compliance in OJS: Open webinar"%}
+
 ## Introdução
 
 ### What is Plan S
