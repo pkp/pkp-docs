@@ -12,6 +12,6 @@ Este vídeo é para administradores de OJS em instituições de membros do ORCID
 
 ## Compatibilidade de software
 
-O Plugin de Perfil ORCID é suportado em OJS 3.1.2 ou mais e em OPS 3.1.2 ou mais. Versões anteriores do Plugin de Perfil ORCID variam em funcionalidade. Tanto o OJS como o OPS compartilham a mesma plataforma básica e, portanto, as instruções apresentadas neste documento se aplicam a ambos os periódicos que usam OJS e preapresentam servidores utilizando o OPS.
+The ORCID Profile Plugin is available for OJS 3.1.2 and above and OPS 3.1.2 and above. Previous versions of the ORCID Profile Plugin have limited functionality. Tanto o OJS como o OPS compartilham a mesma plataforma básica e, portanto, as instruções apresentadas neste documento se aplicam a ambos os periódicos que usam OJS e preapresentam servidores utilizando o OPS.
 
 O plugin ORCID não está disponível atualmente no [Open Monograph Press (OMP)](https://pkp.sfu.ca/omp/). Os usuários do OMP podem inserir manualmente seu ORCID iD no seu perfil de usuário em Ver > Público, mas os metadados não serão enviados automaticamente do OMP para ORCID, ao contrário de OJS/OPS onde os metadados podem ser trocados se a extensão estiver configurada corretamente.
