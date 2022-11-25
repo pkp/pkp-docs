@@ -8,7 +8,10 @@ OJS 3.1.2 includes support for iThenticate plagiarism check the Crossref Similar
 
 [https://github.com/asmecher/plagiarism](https://github.com/asmecher/plagiarism)
 
-To use this plugin you need to register for an iThenticate account and purchase credits.
+To use this plugin you will need to have an account with iThenticate (costs involved) either:
+
+- via Similarity Check service with Crossref
+- or, directly with iThenticate
 
 The next step is to installing and enabling the plugin #
 Login as a Journal Manager or Editor
