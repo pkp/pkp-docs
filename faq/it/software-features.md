@@ -31,6 +31,8 @@ There are many impressive journals and presses using our software around the wor
 
 Yes, you can use all of the backend submission workflow management tools of OJS and publish your content on a different website.  However, it will mean you miss out on some of OJS' features, such as easy discoverability of your metadata by Google Scholar and other indexing services and integrations with external services such as CrossRef, ORCID, and reference management tools.
 
+More information on [using OJS for the submission workflow only](https://docs.pkp.sfu.ca/journal-policies-workflows/en/alternative-uses#using-ojs-for-submission-workflow-only) is available in our Journal Policies and Workflows guide.
+
 ## Is OJS only for open access journals?
 
 While OJS was ultimately developed to support open access publishing, it can certainly be used for subscription-based journals or journals with mixed content, and it is used by many journals that charge subscription fees. OJS has modules for managing both individual and institutional subscriptions, accepting Paypal and manual payments, and charging author payment charges (APCs).
@@ -60,3 +62,12 @@ OJS supports three types of review: anonymous reviewer/anonymous author (previou
 ## Can I use OJS in conjunction with Crossref?
 
 Yes. You can use the Crossref Export plugin to automatically deposit DOIs and generate Crossref deposit XML. Please see the [Crossref Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) for details on how to configure this plugin.
+
+## How can I add a Print on Demand option to my issues or articles?
+
+OJS does not currently have any built-in functionality or plugins to connect with Print on Demand services. However, some journals set up Print on Demand (POD) with the service of their choice and then add a link in the issue description. Here is an [example of a journal](https://babylonia.online/index.php/babylonia/issue/view/14) which has added some linked text to the issue description.
+
+Alternatively, depending on the Print on Demand service you choose, they may provide a code snippet which can be used to embed a Print on Demand button onto your OJS site. There are two options for adding this code to the site so that the button appears:
+
+* Add the code snippet in the Custom Header Plugin. Note that the button will then appear on every page on the site. The Plugin is often used for things like adding a Twitter feed to a custom block, which you would want to appear on every page of your site. This option will not be ideal if you want the button to only appear on the issue page.
+* Develop a custom theme plugin with the “Print on Demand” button appearing on only the issue page. You can learn more about custom theme development in our [Theming guide](https://docs.pkp.sfu.ca/pkp-theming-guide/).
