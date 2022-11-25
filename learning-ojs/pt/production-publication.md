@@ -660,6 +660,7 @@ OJS é atualmente projetado para um modelo de publicação tradicional, em que o
 * After the Current Issue is completed, you may want to rename it according to the standard naming convention (e.g., Volume 2, Issue 5), by going to [Edit Issue](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#edit-issue).
 * If you only changed the Issue Title:
     * This field is not exported to CrossRef, DOAJ or PubMed, but it is used for DataCite. If you use DataCite, remember to update that record by resubmitting metadata via the DataCite plugin.
+* If you have enabled [the Citation Style Language plugin](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#citation-style-language-plugin) in your journal, this plugin should be disabled as you will have incorrect citations in the "How to Cite" block on your articles due to changing issue numbers.
 * Consider using the [article versioning feature](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#versioning-of-articles) to publish the initial Early View version of the article. When the final version is ready, create a New Version and publish it.
 
 Since new articles will be published immediately, build verification steps within your workflow by using the article [Preview features](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#preview-issue-and-articles) to check for accurate metadata and galleys.
