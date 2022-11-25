@@ -31,6 +31,20 @@ Character encoding issues are common and can cause problems when migrating a PKP
 
 Please see the [PKP Administrator’s Guide - Managing Spam](https://docs.pkp.sfu.ca/admin-guide/en/securing-your-system#managing-spam).
 
+## A fake journal is impersonating my journal by adopting a similar title and description. What can I do?
+
+Journal impersonation is a challenging and increasingly common concern that we are seeing globally. Since OJS is open source and freely downloadable and usable by anyone, PKP cannot act directly to manage or otherwise intervene in cases where the software is being used to impersonate another journal.
+
+Unfortunately, fraudulent journals may come and go with some speed, so we recommend taking an informed approach — and encouraging authors and readers to do the same — to be vigilant and aware of journal websites and their origins. We recommend supporting efforts such as [Think. Check. Submit.](http://thinkchecksubmit.org/) in this regard.
+
+If your journal is faced with this situation, we recommend the following:
+
+- Follow up with the domain registrar with a trademark violation or fraud claim.
+- Consider notifying your readership (in particular, your submitting authors) to be wary of any fraudulent websites, suspicious emails, and so on.
+- If you believe the site is violating copyright, review the [Digital Millennium Copyright Act](https://support.google.com/legal/answer/1120734) and consider [filing a DMCA takedown](https://support.google.com/legal/troubleshooter/1114905) to remove the site from Google web search and Google Scholar.
+
+Report the journal to the [Retraction Watch Hijacked Journal Checker](https://retractionwatch.com/the-retraction-watch-hijacked-journal-checker/), which lists hijacked journals.
+
 ## What does this confusing error message mean?
 
 When you get an error message on your site, it’s usually brief and doesn’t give much information. For example:
