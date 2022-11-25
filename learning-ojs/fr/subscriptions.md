@@ -12,7 +12,7 @@ OJS vous permet de restreindre l'accés à tout ou juste une partie de votre con
 
 Remplissez les détails de vos politiques d'abonnement sur cette page.
 
-![The Subscription policies tab in the Subscriptions menu.](./assets/learning-ojs3.1-jm-subscriptions-policies.png)
+![The Subscription policies tab in the Subscriptions menu.](./assets/learning-ojs3.3-jm-subscriptions-policies.png)
 
 - **Responsable des Abonnements**: ajoutez les détails personnels de la personne responsable.
 - **Renseignement sur l' Abonnement**: ajoutez des détails des règles à afficher sur le site Web de la revue.
@@ -25,13 +25,13 @@ Remplissez les détails de vos politiques d'abonnement sur cette page.
 
 La prochaine étape de la configuration de la gestion des abonnements consiste à désigner les types d'abonnements proposés par la revue.
 
-![The Subscription Types tab in the Subscriptions menu](./assets/learning-ojs3.1-jm-subscriptions-types.png)
+![The Subscription Types tab in the Subscriptions menu](./assets/learning-ojs3.3-jm-subscriptions-types.png)
 
 Les revues proposent généralement les prix pour des abonnements individuels et des abonnements institutionnels. Certaines revues peuvent proposer des offres spéciales aux membres d'une organisation ou aux étudiants. OJS soutiendra la gestion des abonnements imprimés et/ou en ligne. Plus d'un type d'abonnement peut être créé pour couvrir des périodes plus longues (12 mois, 36 mois).
 
 Sélectionnez **Créer un Nouveau Type d'Abonnement** pour en ajouter un nouveau.
 
-![The Create New Subscription Type window.](./assets/learning-ojs3.1-jm-subscriptions-types-create.png)
+![The Create New Subscription Type window.](./assets/learning-ojs3.3-jm-subscriptions-types-create.png)
 
 - **Nom du Type**: donnez à ce nouveau type d'abonnement un nom unique (par exemple, étudiant).
 - **Description**: Fournissez une brève description qui apparaîtra sur le site Web.
@@ -45,21 +45,21 @@ Sélectionnez **Créer un Nouveau Type d'Abonnement** pour en ajouter un nouveau
 
 {% include video.html id="9r0mRqtNVuU" provider="youtube" title="Module 11: Distribution. Unit 3: Payments"%}
 
-This PKP School video explains how to set up different payment types in your journal. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to set up different payment types in your journal. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 Si vous ne l'avez pas déjà fait, allez dans [Paramètres > Distribution > Paiements](./settings-distribution.md) et définissez la devise et le mode de paiement appropriés (par exemple, PayPal).
 
 Utilisez cette page pour définir les montants facturés pour différents types de frais.
 
-![The Payment Types tab in the Subscriptions menu.](./assets/learning-ojs3.1-jm-subscriptions-paytypes.png)
+![The Payment Types tab in the Subscriptions menu.](./assets/learning-ojs3.3-jm-subscriptions-paytypes.png)
 
 ### Frais de publication pour un article
 
-Si vous souhaitez facturer des frais de traitement d'article (Article Processing Charge -- APC) aux auteurs, saisissez le montant ici. Activer les frais d'auteur vous permettra de demander des frais de traitement d'article une fois le processus d'évaluation terminé. Lorsque l'article est accepté par l'éditeur/trice, l'éditeur/trice aura la possibilité d'exiger un paiement. Cela entraînera la réception d'une notification par l'auteur dans OJS et d'un email, qui le dirigera tout au long du processus de paiement.
+Si vous souhaitez facturer des frais de traitement d'article (Article Processing Charge -- APC) aux auteurs, saisissez le montant ici. Activer les frais d'auteur vous permettra de demander des frais de traitement d'article une fois le processus d'évaluation terminé. When the article is accepted by the editor following Review, the editor will have the option to require payment. Cela entraînera la réception d'une notification par l'auteur dans OJS et d'un email, qui le dirigera tout au long du processus de paiement.
 
 Note that the option to notify authors about the Author Fee will appear only when the payment details (PayPal account details or manual PayPal instructions) have been completed in [Settings > Distribution > Payments](./settings-distribution#payments).
 
-![A sample notification to the author with the "Request publication fee" option enabled.](./assets/learning-ojs3.1-jm-subscriptions-authorfees.png)
+![A sample notification to the author with the "Request publication fee" option enabled.](./assets/learning-ojs3.3-jm-subscriptions-authorfees.png)
 
 Vous pouvez appliquer les frais aux fichiers PDF uniquement en cochant " Limiter l'accès uniquement aux articles et numéros en format PDF".
 
@@ -81,15 +81,19 @@ Tous les types d'abonnements individuels apparaîtront ici.
 
 Only payments made through PayPal will be recorded here.
 
+As of 3.3, a Payment tab has been added on the manuscript dashboard for Editors to record the payment status of Author fees. Manuscripts can only be schedule to an issue once the Author fee has been marked as Paid or Waived.
+
+![Author Fee Payment record tab.](./assets/learning-ojs3.3-jm-subscription-authorpublicationfee.png)
+
 ## Abonnements Individuels
 
 All types of individual subscriptions will appear here.
 
-![The Individual Subscriptions tab in the Subscriptions menu.](./assets/learning-ojs3.1-jm-subscriptions-indiv.png)
+![The Individual Subscriptions tab in the Subscriptions menu.](./assets/learning-ojs3.3-jm-subscriptions-indiv.png)
 
 Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un Nouvel Abonnement. Cependant, vous devrez d'abord créer un nouveau compte pour cette personne sous Utilisateurs et Rôles (voir le [Chapitre Comptes d'Utilisateurs](./user-accounts) ). Une fois que cela est fait, vous pouvez rechercher le compte ici et appliquer les différentes configurations.
 
-![The Create New Subscription window.](./assets/learning-ojs3.1-jm-subscriptions-indiv-create.png)
+![The Create New Subscription window.](./assets/learning-ojs3.3-jm-subscriptions-indiv-create.png)
 
 **Adhésion**: si l'abonné est associé à des adhésions pertinentes, ajoutez ces informations ici (facultatif).
 
@@ -101,19 +105,19 @@ Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un N
 
 **Type d'Abonnement**: sélectionnez le type approprié pour ce nouvel abonné (par exemple, étudiant) et son statut (par exemple, actif).
 
-Tous les types d'abonnements institutionnels apparaîtront ici.
+**Notes**: Si vous avez des notes pertinentes à ajouter, enregistrez-les ici (facultatif).
 
 ## Abonnements Institutionnels
 
 All types of institutional subscriptions will appear here.
 
-![The Institutional Subscriptions tab in the Subscriptions menu.](./assets/learning-ojs3.1-jm-subscriptions-instit.png)
+![The Institutional Subscriptions tab in the Subscriptions menu.](./assets/learning-ojs3.3-jm-subscriptions-instit.png)
 
 Les abonnements institutionnels sont gérés de la même manière que les abonnements individuels, mais sont utilisés pour les bibliothèques, les instituts de recherche et autres organisations qui s'abonnent à votre revue.
 
 Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un Nouvel Abonnement. Cependant, vous devrez d'abord créer un nouveau compte pour la personne qui le point de contact avec l'institution sous Utilisateurs et Rôles (voir le [Chapitre Comptes d'Utilisateurs](./user-accounts) ). Une fois que cela est fait, vous pouvez rechercher le compte ici et appliquer les différentes configurations.
 
-![The Create New Subscription window.](./assets/learning-ojs3.1-jm-subscriptions-instit-create.png)
+![The Create New Subscription window.](./assets/learning-ojs3.3-jm-subscriptions-instit-create.png)
 
 - **Type d'Abonnement**: sélectionnez le type approprié pour ce nouvel abonné (par exemple, Bibliothèque) et son statut (par exemple, Actif). (Les types d'abonnement ont été configurés plus tôt dans ce chapitre.)
 - **Date**: définissez les dates de début et de fin de cet abonnement.
@@ -122,7 +126,7 @@ Vous pouvez créer un nouvel abonnement individuel à l'aide du lien Créer un N
 - **Domaine**: les lecteurs provenant d'un ordinateur avec ce domaine recevront automatiquement l'accès (par exemple, sfu.ca). Cela s'appliquera aux utilisateurs sur le campus.
 - **Plage d'Adresses IP**: l'établissement peut vous fournir des gammes d'adresses IP. Les lecteurs utilisant un ordinateur dans cette gamme d'adresses IP recevront automatiquement l'accès. Chaque gamme IP doit être saisie comme une nouvelle ligne.
 
-![The IP ranges field where IP ranges are entered.](./assets/learning-ojs3.2-jm-subscriptions-instit-IP.png)
+![The IP ranges field where IP ranges are entered.](./assets/learning-ojs3.3-jm-subscriptions-instit-IP.png)
 
 - **Notes**: Si vous avez des notes pertinentes à ajouter, enregistrez-les ici (facultatif).
 
@@ -136,7 +140,7 @@ These manual subscriptions will also be recorded in the Payment > Individual or 
 
 From here the subscription manager can update the status as needed based on your workflow.
 
-![A sample individual subscription with the "Awaiting Manual Payment" status.](./assets/learning-ojs3.2-subs-manual-notification.png)
+![A sample individual subscription with the "Awaiting Manual Payment" status.](./assets/learning-ojs3.3-subs-manual-notification.png)
 
 ### PayPal payment notifications
 
@@ -152,4 +156,4 @@ Si vous souhaitez définir certains articles comme Accès Ouvert, cela peut êtr
 
 Under the Table of Contents, check off the articles that will be set as Open Access.
 
-![The Open Access checkbox located beside an article in the Table of Contents.](./assets/learning-ojs3.2-jm-subscriptions-single-article.png)
+![The Open Access checkbox located beside an article in the Table of Contents.](./assets/learning-ojs3.3-jm-subscriptions-single-article.png)
