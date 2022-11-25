@@ -76,6 +76,14 @@ For more refined communication with users and marketing communication, we recomm
 
 If you want to communicate with a group of users who are all assigned to a particular submission, you can use the Discussion feature on the submission.
 
+## When should I use the “Announcement” feature vs. “Notify by role” in OJS 3.3?
+
+[Announcements](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#announcements) are recommended when you want to post a notice to the journal website and / or send a broadcast email to all users registered with the journal.
+
+The Notify feature in OJS 3.3 needs to be enabled for the journal by the site administrator. When this option is enabled, emails can be sent to all users in one or more role, such as all journal managers and / or all section editors, etc. See [](https://docs.pkp.sfu.ca/learning-ojs/en/site-administration#site-settings) [Site Administration > Bulk Emails](https://docs.pkp.sfu.ca/learning-ojs/en/site-administration#bulk-emails) for instructions on enabling this feature. This option is recommended for sending practical, core service emails to users who are actively working on the journal. For example, you might send an email to all copy editors reminding them of the “house style” for a particular word use or spelling.
+
+Once the Notify feature is enabled, you can send messages under [Users and Roles > Notify](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#email-users). Note that misuse of this figure to send unsolicited email may violate anti-spam laws in some jurisdictions and may result in your server’s emails being blocked as spam. Seek technical advice before enabling this feature and consider consulting with journal managers to ensure it is used appropriately.
+
 ## What can I do about fake user accounts on my site?
 
 If you discover a large number of spam user accounts in your journal or press (for example, the fake accounts might have a name like "12 alekssafer alekssafer alekssafer"), you can remove the accounts and take steps to prevent additional spam accounts.
