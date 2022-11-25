@@ -12,6 +12,10 @@ This video is for OJS administrators at ORCID member institutions, such as acade
 
 ## Software compatibility
 
-The ORCID Profile Plugin is available for OJS 3.1.2 and above and OPS 3.1.2 and above. Previous versions of the ORCID Profile Plugin have limited functionality. Both OJS and OPS share the same basic platform and therefore the instructions presented in this document apply for both journals using OJS and preprint servers using OPS.
+The ORCID Profile Plugin is available for OJS 3.1.2 and above and OPS 3.1.2 and above. Previous versions of the ORCID Profile Plugin have limited functionality.
+
+PKP supports the current major version and the previous major version of [OJS](https://pkp.sfu.ca/software/ojs/getting-started/download/) and [OPS](https://pkp.sfu.ca/software/ops/getting-started/download/) and versions of the ORCID Plugin that are compatible with them. Most new features and bug fixes will be backported to these versions of the Plugin. Keeping OJS/OPS and the Plugin up-to-date is recommended.
+
+Both OJS and OPS share the same basic platform and therefore the instructions presented in this document apply for both journals using OJS and preprint servers using OPS.
 
 The ORCID plugin is not currently available in [Open Monograph Press (OMP)](https://pkp.sfu.ca/omp/). Users of OMP can manually enter their ORCID iD in their user profile under View Profile > Public, but metadata will not be automatically sent from OMP to ORCID, unlike OJS/OPS where metadata can be exchanged if the plugin is configured correctly.
