@@ -4,6 +4,10 @@ generateHeadingToc: true
 
 # PKP Preservation Network
 
+This video provides a brief introduction to the PKP Preservation Network and how to install and configure the plugin in your journal to register for the Network.
+
+{% include video.html id="ZoVud5apItI" provider="youtube" title="Registering for the PKP Preservation Network"%}
+
 ## Luku 1: Esittely
 
 The PKP Preservation Network (PKP PN) allows publishers of OJS journals to digitally preserve their content. This means in the event that a journal stops publishing or goes offline, there will be a way to have continued long-term access to articles and issues.
