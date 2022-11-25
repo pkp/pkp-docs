@@ -76,6 +76,14 @@ For more refined communication with users and marketing communication, we recomm
 
 If you want to communicate with a group of users who are all assigned to a particular submission, you can use the Discussion feature on the submission.
 
+## When should I use the “Announcement” feature vs. “Notify by role” in OJS 3.3?
+
+[Announcements](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#announcements) are recommended when you want to post a notice to the journal website and / or send a broadcast email to all users registered with the journal.
+
+The Notify feature in OJS 3.3 needs to be enabled for the journal by the site administrator. When this option is enabled, emails can be sent to all users in one or more role, such as all journal managers and / or all section editors, etc. See [](https://docs.pkp.sfu.ca/learning-ojs/en/site-administration#site-settings) [Site Administration > Bulk Emails](https://docs.pkp.sfu.ca/learning-ojs/en/site-administration#bulk-emails) for instructions on enabling this feature. This option is recommended for sending practical, core service emails to users who are actively working on the journal. Por exemplo, pode-se enviar e-mail a todos os editores de texto lembrando-os do "estilo da casa" para um determinado uso de palavras.
+
+Once the Notify feature is enabled, you can send messages under [Users and Roles > Notify](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#email-users). Observe que o uso indevido desse recurso para enviar e-mail não solicitado pode violar as leis anti-spam em algumas jurisdições e resultar no bloqueio dos e-mails do seu servidor como spam. Procure aconselhamento técnico antes de habilitar esse recurso e considere consultar os gerentes de periódicos para garantir que seja usado de maneira adequada.
+
 ## What can I do about fake user accounts on my site?
 
 If you discover a large number of spam user accounts in your journal or press (for example, the fake accounts might have a name like "12 alekssafer alekssafer alekssafer"), you can remove the accounts and take steps to prevent additional spam accounts.
