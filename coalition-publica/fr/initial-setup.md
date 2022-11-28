@@ -87,13 +87,19 @@ Cochez aussi la case à droite pour l’activer. Vous devriez voir ce message de
 
 ![Notification: The plugin "JATS Template Plugin" has been enabled.](./assets/jatsTemplatePluginListingNotification.png)
 
-Now find the “OAI JATS Plugin”:
+Now find the OAI JATS plugin (under the heading “JATS Metadata Format” under OAI Metadata Format Plugins):
 
 ![JATS Metadata Format in the list of plugins with an unchecked checkbox next to it.](./assets/jatsMetadataFormatPluginListing.png)
 
 Click the checkbox beside that to enable it as well. Vous devriez voir ce message de confirmation:
 
 ![Notification: The plugin "OAI JATS Plugin" has been enabled.](./assets/jatsMetadataFormatPluginListingNotification.png)
+
+**If you publish XML galleys**, you will need to click the blue arrow next to JATS Metadata Format and access the plugin settings. Click the checkbox next to “Ignore uploaded JATS XML documents” and press OK. This is **not necessary for journals who do not publish XML galleys** unless they have been directed otherwise by their Coalition Publica contact following a test harvest.
+
+![The Settings option located under the JATS Metadata Format plugin options.](./assets/jats_settings.png)
+
+![The JATS Template Plugin settings page with the Ignore uploaded JATS XML documents checkbox checked.](./assets/ignore_xml.png)
 
 Répétez ces étapes pour chaque revue que vous souhaitez inclure à Érudit.
 
@@ -119,16 +125,7 @@ Although it is possible to update plugins in OJS by downloading the latest versi
 
 ### Étape 4. Réviser les paramètres de revue
 
-Plusieurs paramètres de revue doivent être correctement configurés afin de permettre la récupération des données par Érudit. Pour chaque revue que vous souhaitez inclure, assurez-vous que:
-
-* Pour chacune des rubriques de la revue, le champ “Identifier les articles publiés dans cette rubrique en tant que un(e)” utilise une des ​[valeurs suggérées pour le JATS article-type](https://jats.nlm.nih.gov/archiving/tag-library/1.1/attribute/article-type.html)​. Please note that “research-article” is used only for peer-reviewed research. If you are unsure how to identify the items in the section, “other” is acceptable.
-* Les paramètres de revue sont complets, ex.:
-    * Un ISSN est spécifié
-    * Le titre de la revue est le même que celui enregistré à ​[issn.org](https://www.issn.org/)
-    * Un éditeur est spécifié dans Paramètres > Revue > Bloc générique
-    * Droit d’auteur
-        * Assurez-vous que le titulaire du droit d’auteur des articles (“Auteur”, “Revue” ou “Autre”) soit adéquatement identifié dans Paramètres > Distribution > Autorisations.
-        * Assurez-vous, lorsque vous établissez le “Calendrier de publication” d’un article, d’y associer les autorisations (titulaire du droit d’auteur et année du droit d’auteur)
+There are several journal settings that must be properly configured in order for data to be collected by Érudit. Please review the detailed Journal Settings section of [Coalition Publica’s Preparing Quality Metadata in OJS Guide](https://www.erudit.org/public/guides/ojs-metadata.pdf) and ensure that each setting has been properly configured.
 
 ### Étape 5. Vérifier les paramètres de distribution
 
@@ -156,10 +153,25 @@ This step may require the help of your system administrator, as it requires back
 * Assurez-vous que votre instance OJS connaisse l’emplacement de vos outils d’extraction de texte sur vos serveurs : vérifiez la section ​`[search]`​ de votre fichier ​`config.inc.php`​ pour vous assurer que les emplacements serveur de ces outils sont spécifiés.
 * Si vous avez dû modifier votre fichier ​`config.inc.php`​ pour activer l’indexation PDF, vous devrez également reconstruire votre index de recherche. Vous pouvez le faire en exécutant la commande suivante sur votre serveur, dans la racine Web OJS:
 
-`php tools/rebuildSearchIndex.php`
+```
+php tools/rebuildSearchIndex.php
+```
 
 REMARQUE: cette étape n’est requise que si vous avez récemment activé l’indexation PDF.
 
 * Vous pouvez vérifier que l’index a été correctement reconstruit en recherchant du texte qui n’apparaît que dans un PDF (c’est-à-dire pas dans d’autres métadonnées de soumission stockées par OJS, telles que des champs de titre ou de résumé).
 
 En plus de configurer votre OJS pour Coalition Publica, cela permettra à OJS d’indexer les documents PDF pour son propre moteur de recherche.
+
+
+## Step 7: Configure Your OAI Namespace Identifier
+
+Each OJS installation must have a globally unique OAI repository identifier/namespace.
+
+A placeholder (`ojs.pkp.sfu.ca`) is set by default when OJS is first installed, but before making use of the OAI PMH interface, this must be changed. This step requires the help of your system administrator, as it requires back-end access to a file on the server on which OJS is installed.
+
+### Choosing a unique repository identifier
+Your OAI repository identifier must be globally unique to your OJS installation. A common choice is the top-level portion of the OJS installation URL. For example, if your OJS installation's URL is `https://journals.library.example.com`, you could use `journals.library.example.com` as your identifier. The identifier must correspond to that of the [URI (Uniform Resource Identifier)](https://www.ietf.org/rfc/rfc2396.txt?number=2396) syntax. Notably any of the reserved characters from section 2.2 cannot be used, including: `;`, `/`, `?`, `:`, `@`, `&`, `=`, `+`, `$`, or `,`.
+
+### Editing your OAI repository identifier
+This identifier can be configured within the `config.inc.php` file in your OJS installation directory and must be edited directly. It is found under the `[oai]` section of the config file and should be added after `repository_id =`. If you have not edited this previously, this line will have `repository_id = ojs.pkp.sfu.ca`. In this case, `ojs.pkp.sfu.ca` should be replaced with your unique identifier.
