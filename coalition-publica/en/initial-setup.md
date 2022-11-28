@@ -87,13 +87,17 @@ Click the checkbox on the right to enable the plugin. You should receive a confi
 
 ![Notification: The plugin "JATS Template Plugin" has been enabled.](./assets/jatsTemplatePluginListingNotification.png)
 
-Now find the “OAI JATS Plugin”:
+Now find the OAI JATS plugin (under the heading “JATS Metadata Format” under OAI Metadata Format Plugins):
 
 ![JATS Metadata Format in the list of plugins with an unchecked checkbox next to it.](./assets/jatsMetadataFormatPluginListing.png)
 
 Click the checkbox beside that to enable it as well. You should receive a confirmation:
 
 ![Notification: The plugin "OAI JATS Plugin" has been enabled.](./assets/jatsMetadataFormatPluginListingNotification.png)
+
+**If you publish XML galleys**, you will need to click the blue arrow next to JATS Metadata Format and access the plugin settings. Click the checkbox next to “Ignore uploaded JATS XML documents” and press OK. This is **not necessary for journals who do not publish XML galleys** unless they have been directed otherwise by their Coalition Publica contact following a test harvest. 
+
+![The JATS Template Plugin settings page with the Ignore uploaded JATS XML documents checkbox checked.](./assets/ignore_xml.png)
 
 Don’t forget to repeat these steps for any other journals you wish to include in Érudit.
 
@@ -119,16 +123,7 @@ Although it is possible to update plugins in OJS by downloading the latest versi
 
 ### Step 4. Review your Journal Settings
 
-There are several journal settings that should be properly configured in order for the data to be collected by Érudit. For each journal that you wish to include, make sure that:
-
-* For each of your journal’s sections, the “Identify items published in this section as a(n)...” field is set to one of the [suggested JATS article-type values](https://jats.nlm.nih.gov/archiving/tag-library/1.1/attribute/article-type.html). Please note that “research-article” is used only for peer-reviewed research. If you are unsure how to identify the items in the section, “other” is acceptable.
-* Your journal settings are complete, e.g.:
-	* An ISSN has been specified
-	* The journal title is the same as you have registered at [issn.org](https://www.issn.org)
-	* A publisher is specified in Settings > Journal > Masthead
-	* Copyright
-		* Make sure that the copyright holder of the articles (author, journal or other) is properly identified in Settings > Distribution > Permissions.
-		* Make sure, when you schedule an article for publication, to attach the permissions to it (copyright holder and copyright year).
+There are several journal settings that must be properly configured in order for data to be collected by Érudit. Please review the detailed Journal Settings section of [Coalition Publica’s Preparing Quality Metadata in OJS Guide](https://www.erudit.org/public/guides/ojs-metadata.pdf) and ensure that each setting has been properly configured.
 
 ### Step 5. Check your Distribution Settings
 
@@ -165,3 +160,18 @@ NOTE: This step is required only if you have recently enabled PDF indexing.
 * You can check that the index has been successfully rebuilt by searching for text that only appears in a PDF (ie. not in other submission metadata stored by OJS, such as title or abstract fields).
 
 In addition to configuring your OJS for Coalition Publica, this step will also help OJS to index PDF documents for its own search indexing.
+
+
+## Step 7: Configure Your OAI Namespace Identifier
+
+Each OJS installation must have a globally unique OAI repository identifier/namespace.
+
+A placeholder (`ojs.pkp.sfu.ca`) is set by default when OJS is first installed, but before making use of the OAI PMH interface, this must be changed. This step requires the help of your system administrator, as it requires back-end access to a file on the server on which OJS is installed.
+
+### Choosing a unique repository identifier
+Your OAI repository identifier must be globally unique to your OJS installation. A common choice is the top-level portion of the OJS installation URL. For example, if your OJS installation's URL is `https://journals.library.example.com`, you could use `journals.library.example.com` as your identifier.
+The identifier must correspond to that of the [URI (Uniform Resource Identifier)](https://www.ietf.org/rfc/rfc2396.txt?number=2396) syntax. Notably any of the reserved characters from section 2.2 cannot be used, including: `;`, `/`, `?`, `:`, `@`, `&`, `=`, `+`, `$`, or `,`.
+
+### Editing your OAI repository identifier
+This identifier can be configured within the `config.inc.php` file in your OJS installation directory and must be edited directly.
+It is found under the `[oai]` section of the config file and should be added after `repository_id = `. If you have not edited this previously, this line will have `repository_id = ojs.pkp.sfu.ca`. In this case, `ojs.pkp.sfu.ca` should be replaced with your unique identifier.
