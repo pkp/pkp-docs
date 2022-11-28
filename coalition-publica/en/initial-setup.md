@@ -97,6 +97,8 @@ Click the checkbox beside that to enable it as well. You should receive a confir
 
 **If you publish XML galleys**, you will need to click the blue arrow next to JATS Metadata Format and access the plugin settings. Click the checkbox next to “Ignore uploaded JATS XML documents” and press OK. This is **not necessary for journals who do not publish XML galleys** unless they have been directed otherwise by their Coalition Publica contact following a test harvest. 
 
+![The Settings option located under the JATS Metadata Format plugin options.](./assets/jats_settings.png)
+
 ![The JATS Template Plugin settings page with the Ignore uploaded JATS XML documents checkbox checked.](./assets/ignore_xml.png)
 
 Don’t forget to repeat these steps for any other journals you wish to include in Érudit.
