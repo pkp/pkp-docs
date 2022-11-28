@@ -87,13 +87,17 @@ Cochez la case à droite pour activer le ​plugin.​ Vous devriez voir ce mess
 
 ![Notification : Le plugin "JATS Template Plugin" a été activé.](./assets/jatsTemplatePluginListingNotification.png)
 
-Cherchez ensuite “OAI JATS Plugin” :
+Cherchez ensuite le plugiciel OAI JATS (dans la liste des plugiciels installés, il se nomme “Format de métadonnées JATS” et se trouve sous la rubrique “Plugiciels du format de métadonnées OAI”)
 
 ![OAI JATS Plugin dans la liste des plugins avec une case à cocher non cochée à côté.](./assets/jatsMetadataFormatPluginListing.png)
 
 Cochez aussi la case à droite pour l’activer. Vous devriez voir ce message de confirmation :
 
 ![Notification : Le plugin "OAI JATS Plugin" a été activé.](./assets/jatsMetadataFormatPluginListingNotification.png)
+
+**Si vous publiez les épreuves XML de vos articles**, vous devez cliquer sur la flèche bleue à côté de “Format de métadonnées JATS” afin d’accéder aux paramètres du plugin. Cochez ensuite la case à côté de "Ignorer les documents XML JATS téléchargés", puis cliquez sur OK. **Les revues qui ne publient pas d’épreuves XML peuvent ignorer cette étape**, à moins qu'elles n'aient reçu des instructions contraires de la part de leur contact Coalition Publica à la suite d'un test de moissonnage.
+
+Si cette option n'apparaît pas pour vous, veuillez mettre à jour le plugin en suivant les instructions ci-dessous, puis réessayez.
 
 Répétez ces étapes pour chaque revue que vous souhaitez inclure à Érudit.
 
@@ -119,16 +123,7 @@ Bien qu'il soit possible de mettre à jour les plugins dans OJS en téléchargea
 
 ### Étape 4. Réviser les paramètres de revue
 
-Plusieurs paramètres de revue doivent être correctement configurés afin de permettre la récupération des données par Érudit. Pour chaque revue que vous souhaitez inclure, assurez-vous que :
-
-* Pour chacune des rubriques de la revue, le champ “Identifier les articles publiés dans cette rubrique en tant que un(e)” utilise une des [valeurs suggérées pour le JATS article-type​](https://jats.nlm.nih.gov/archiving/tag-library/1.1/attribute/article-type.html). Veuillez noter que la mention "research-article" n'est utilisée que pour les recherches évaluées par les pairs. Si vous ne savez pas comment identifier les articles de la section, la mention "autre" est acceptable.
-* Les paramètres de revue sont complets, ex.:
-	* Un ISSN est spécifié
-	* Le titre de la revue est le même que celui enregistré à ​[issn.org](https://www.issn.org/)
-	* Un éditeur est spécifié dans Paramètres > Revue > Bloc générique
-	* Droit d’auteur
-		* Assurez-vous que le titulaire du droit d’auteur des articles (“Auteur”, “Revue” ou “Autre”) soit adéquatement identifié dans Paramètres > Distribution > Autorisations.
-		* Assurez-vous, lorsque vous établissez le “Calendrier de publication” d’un article, d’y associer les autorisations (titulaire du droit d’auteur et année du droit d’auteur)
+Veuillez consulter le contenu de la section “Réglages de la revue” du document “[Préparer des métadonnées de qualité dans OJS](https://www.erudit.org/public/guides/ojs-metadonnees.pdf)” afin de vous assurer que les paramètres de la revue sont correctement configurés. 
 
 ### Étape 5. Vérifier les paramètres de distribution
 
@@ -165,3 +160,18 @@ REMARQUE: cette étape n’est requise que si vous avez récemment activé l’i
 * Vous pouvez vérifier que l’index a été correctement reconstruit en recherchant du texte qui n’apparaît que dans un PDF (c’est-à-dire pas dans d’autres métadonnées de soumission stockées par OJS, telles que des champs de titre ou de résumé).
 
 En plus de configurer votre OJS pour Coalition Publica, cela permettra à OJS d’indexer les documents PDF pour son propre moteur de recherche.
+
+
+## Étape 7. Configurez l’identifiant d’espace de nom de votre OAI
+Le dépôt OAI de chaque instance OJS doit être configuré afin d’avoir un identifiant d’espace de nom (un *namespace-identifier* selon la syntaxe OAI-PMH) unique. 
+
+Un identifiant d’espace de nom générique (“ojs.pkp.sfu.ca”) est défini par défaut lors de la première installation d'OJS, mais avant d'utiliser l'interface OAI PMH, celui-ci doit être modifié. Cette étape nécessite l'aide de votre administrateur système, car elle requiert un accès *back-end* à un fichier qui se trouve sur le serveur sur lequel l’instance OJS est installée.
+
+### Choisir un identifiant unique pour le dépôt OAI
+L’identifiant d’espace de nom de votre dépôt OAI doit être unique au sein de l’instance OJS sur laquelle votre revue est hébergée. Un choix logique consiste à utiliser la partie de premier niveau de l’URL de l’instance OJS. Par exemple, si l’URL est “https://revues.bibliotheque.exemple.com”, vous pouvez utiliser “revues.bibliotheque.exemple.com” comme identifiant de nommage. 
+L’identifiant d’espace de nom que vous utilisez doit respecter la syntaxe [URI (Uniform Resource Identifiers)](https://www.ietf.org/rfc/rfc2396.txt?number=2396). En particulier, tous les caractères réservés de la section 2.2 ne peuvent pas être utilisés : `;`, `/`, `?`, `:`, `@`, `&`, `=`, `+`, `$`, ou `,`.
+
+### Modifier l'identifiant d’espace de nom de votre dépôt OAI
+L’identifiant d’espace de nom votre dépôt OAI doit être modifié directement dans le fichier `config.inc.php` qui se trouve dans le répertoire de l’instance OJS.
+Il se trouve dans la section `[oai]` du fichier de configuration et doit être ajouté après `repository_id = `. Si vous ne l'avez pas modifié précédemment, le contenu de cette ligne sera `repository_id = ojs.pkp.sfu.ca`. Dans ce cas, `ojs.pkp.sfu.ca` doit être remplacé par votre identifiant d’espace de nom unique.
+
