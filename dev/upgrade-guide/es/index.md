@@ -117,7 +117,7 @@ deny from all
 ErrorDocument 403 "Este sitio está en mantenimiento y debería volver en breve. Gracias por tu paciencia."
 ```
 
-Reinicia el servidor de Apache para que los cambios se apliquen:
+Reinicia el servidor de Apache para aplicar los cambios:
 
 ```bash
 (Debian)$ service apache2 reload
@@ -138,17 +138,17 @@ Los siguientes pasos crearán una copia de seguridad de las siguientes carpetas 
 | `/var/www/html/public`          | Archivos públicos                                          | `OJS_PUBLIC_PATH`  |
 | `/var/www/files`                | Archivos privados                                          | `OJS_PRIVATE_PATH` |
 | `/var/www/html/config.inc.php`  | `Archivo de configuración <code>config.inc.php` </code> |                    |
-| `/var/www/html/.htaccess`       | Has una copia de tu `.htaccess` or vhost (si existe)       |                    |
-| `/var/www/html/plugins`         | has una copia del contenido de la carpeta de *plugins*     |                    |
-| locale files, custom code, etc. | has una copia de todas tus personalizaciones               |                    |
+| `/var/www/html/.htaccess`       | `.htaccess` or vhost (si existe)                           |                    |
+| `/var/www/html/plugins`         | Módulos                                                    |                    |
+| locale files, custom code, etc. | Personalizaciones locales                                  |                    |
 
-Copia de seguridad de la base de datos
+Copia de seguridad de la base de datos.
 
 ```bash
 $ mysqldump --host="$OJS_DB_HOST" -u $OJS_DB_USER -p$OJS_DB_PASSWORD $OJS_DB_NAME --result-file="$OJS_BACKUP_PATH/backupDB-$DATE.sql"
 ```
 
-> Durante el proceso de actualización la codificación de los caractéres es una causa frecuente de problemas en la base de datos.  <br> Encuentra más información en: [Admin Guide](/admin-guide/en/troubleshooting#character-encoding) (en inglés). 
+> Las codificaciones de caracteres son una fuente común de problemas de base de datos durante las actualizaciones. <br> Puedes leer más en: [Guía de Administración](/admin-guide/en/troubleshooting#character-encoding) (en inglés). 
 > 
 > {:.tip}
 
