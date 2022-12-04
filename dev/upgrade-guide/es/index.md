@@ -142,7 +142,7 @@ Los siguientes pasos crearán una copia de seguridad de las siguientes carpetas 
 | `/var/www/html/plugins`         | Módulos                                                    |                    |
 | locale files, custom code, etc. | Personalizaciones locales                                  |                    |
 
-Copia de seguridad de la base de datos.
+Copia de seguridad de la base de datos:
 
 ```bash
 $ mysqldump --host="$OJS_DB_HOST" -u $OJS_DB_USER -p$OJS_DB_PASSWORD $OJS_DB_NAME --result-file="$OJS_BACKUP_PATH/backupDB-$DATE.sql"
@@ -152,67 +152,67 @@ $ mysqldump --host="$OJS_DB_HOST" -u $OJS_DB_USER -p$OJS_DB_PASSWORD $OJS_DB_NAM
 > 
 > {:.tip}
 
-Copia de seguridad del directorio de archivos privados.
+Copia de seguridad del directorio de archivos privados:
 
 ```bash
 $ tar cvzf "$OJS_BACKUP_PATH/private-$DATE.tgz" "$OJS_PRIVATE_PATH"
 ```
 
-Copia de seguridad del directorio de archivos privados.
+Copia de seguridad del directorio de archivos privados:
 
 ```bash
 $ tar cvzf "$OJS_BACKUP_PATH/ojsfiles-$DATE.tgz" "$OJS_WEB_PATH"
 ```
 
-Copia de seguridad de cualquier otra personalización que hayas hecho al sistema, como plugins personalizados o archivos locales.
+Copia de seguridad de cualquier otra personalización que hayas hecho al sistema, como módulos personalizados o archivos locales.
 
-### 4. Crea un entorno de desarrollo (sandbox)
+### 4. Crear un entorno de pruebas (sandbox)
 
-Utiliza tu copia de seguridad para crear un entorno de desarrollo para testear la actualización Los siguientes pasos pueden ser usados en tu entorno de desarrollo para realizar una actualización.
+Utiliza tu copia de seguridad para crear un entorno de pruebas para testear la actualización. Los siguientes pasos pueden ser usados en tu entorno de pruebas (sandbox) para realizar una actualización.
 
 Una vez completada la prueba, puedes ejecutar cualquier prueba automática o manual que hayas configurado para asegurarte de que la actualización no introdujo regresiones.
 
-**Sólo realiza los siguientes pasos en tu entorno de producción si ya has completado y testeado la actualización en tu entorno de desarrollo.**
+**Solo realiza los siguientes pasos en tu entorno de producción en vivo si ya has completado una actualización de prueba en tu entorno sandbox.**
 
-### 5. Descarga la versión de actualización publicada
+### 5. Descargar la versión de actualización
 
-Descarga la [correcta](h3[2]) versión de actualización publicada
+Descargue el paquete de versión correcto.
 
 ```bash
 $ cd "$OJS_ROOT_PATH"
 $ wget "https://pkp.sfu.ca/ojs/download/$OJS_VERSION.tar.gz"
 ```
 
-### 6. Comprueba los requisitos de sistema
+### 6. Comprobar los requisitos de sistema
 
-Lee el archivo [README](https://pkp.sfu.ca/ojs/README) (en inglés) del archivo `tar.gz` descargado y asegurate de que tu sistema cumpla con los siguientes requisitos:
+Lee el archivo [README](https://pkp.sfu.ca/ojs/README) (en inglés) del archivo `tar.gz` descargado y asegúrate de que tu sistema cumpla con los siguientes requisitos:
 
 - Versión de Apache
 - Versión MySQL o PostgreSQL
 - Versión de PHP
 - Requisitos de módulos y librerías del servidor
 
-Además cerciorate de realizar las siguientes comprobaciones:
+Además, asegúrate de realizar las siguientes comprobaciones:
 
-- Comprueba el seteo de los tiempos de espera de PHP y los límites de memoria para asegurar que el proceso de actualización pueda completarse con éxito.
-- Compruebe las librerías y los módulos del servidor requeridos por aquellos * plugins * que tengas instalados (estos requisitos se pueden encontrar a menudo en el archivo README de cada *plugin*).
+- Ajusta los tiempos de espera de PHP y los límites de memoria para asegurar que el proceso de actualización pueda completarse con éxito.
+- Comprueba en el servidor los requisitos de librerías y de módulos que haya añadido (estos se pueden encontrar a menudo en el archivo README del plugin).
 
-### 7. Descarga la versión de actualización publicada
+### 7. Descargar la versión de actualización
 
-Copia de seguridad del sistema
+Copia de seguridad los archivos de la aplicación:
 
 ```bash
 $ mv "$OJS_WEB_PATH" "$OJS_BACKUP_PATH"
 ```
 
-Descomprime el archivo de la versión de actualización publicada.
+Descomprime el archivo de la versión de actualización:
 
 ```bash
 $ mkdir "$OJS_WEB_PATH"
 $ tar --strip-components=1 -xvzf "$OJS_VERSION.tar.gz" -C "$OJS_WEB_PATH"
 ```
 
-Recupera el archivo `config.inc.php` resguardado.
+Restaura el archivo `config.inc.php` resguardado.
 
 ```bash
 $ cp "$OJS_BACKUP_PATH/html/config.inc.php" "$OJS_WEB_PATH"
@@ -312,7 +312,7 @@ Reinicia el servidor de Apache para que los cambios se apliquen.
 (RHEL)$ systemctl restart httpd
 ```
 
-### 10. Ejecuta un testeo de la actualización
+### 10. Ejecutar la actualización
 
 Es importante probar el sitio después de una actualización. Cualquier función principal para tus revistas debe ser probada, así como *plugins* o temas personalizados una vez que se hayan reinstalado.
 
