@@ -22,7 +22,7 @@ Use the tabs to navigate to the different sections of Journal Settings: Masthead
 
 ## Masthead
 
-This PKP School video explains how to configure the Masthead in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure the Masthead in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="DMi6izQ7Pyw" provider="youtube" title="Video of how to configure the Masthead in OJS"%}
 
@@ -34,7 +34,7 @@ This PKP School video explains how to configure the Masthead in OJS. To watch ot
 
 **Publisher** is the name of the organization publishing the journal.
 
-Note that the publisher name entered here is used for metadata but will not be displayed on your site. To show the publisher name on your site you can enter it under Journal Settings > Contact > Mailing Address. You can also add it under About the Journal below.
+Note that the publisher name entered here is used for metadata but will not be displayed on your site. To show the publisher name on your site you can enter it under Journal Settings > Contact > Mailing Address. You can also add it under "About the Journal" below.
 
 **ISSN** (International Standard Serial Number) is an eight-digit number which identifies journals. It is managed by a world wide network of National Centres coordinated by an International Centre based in Paris, backed by Unesco and the French Government. A number can be obtained from the [ISSN web site](https://www.issn.org/). This can be done at any point in operating the journal.
 
@@ -54,7 +54,7 @@ Hit the **Save** button to save your changes.
 
 ## Contact
 
-This PKP School video explains how to add journal contacts in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to add journal contacts in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="HTDZRG7XEqw" provider="youtube" title="Video of how to add journal contacts in OJS"%}
 
@@ -70,7 +70,7 @@ Hit the **Save** button to save your changes.
 
 ## Sections
 
-This PKP School video explains how to configure Sections in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure Sections in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="IMotkKrDZyc" provider="youtube" title="Video of how to configure sections in OJS"%}
 
@@ -146,7 +146,7 @@ You can only delete a section if there are no articles assigned to it. If you wa
 
 ## Categories
 
-This PKP School video explains how to create categories in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to create categories in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="Y97U1icfEPw" provider="youtube" title="Video of how to create categories in OJS"%}
 
