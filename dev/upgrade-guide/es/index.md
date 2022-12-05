@@ -65,7 +65,7 @@ El siguiente tutorial describe, paso a paso, el proceso recomendado para actuali
 
 Durante el tutorial verás comandos para los sistemas [Debian](https://www.debian.org/) o [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) de Linux. Solo debes ejecutar el comando apropiado para tu servidor.
 
-### 1. Configurar variables de entorno
+### 1. Configurar las variables de entorno
 
 En este tutorial usaremos las siguientes variables para simplificar los comandos de la terminal.
 
@@ -125,7 +125,7 @@ Reinicia el servidor de Apache para aplicar los cambios:
 (RHEL)$ systemctl restart httpd
 ```
 
-### 3. Crear copias de seguridad
+### 3. Crear las copias de seguridad
 
 > **¡Atención! No te saltes este paso.** Una actualización puede fallar por muchas razones y sin una copia de seguridad de respaldo puedes perder información importante de manera permanente. 
 > 
@@ -218,19 +218,19 @@ Restaura el archivo `config.inc.php` resguardado.
 $ cp "$OJS_BACKUP_PATH/html/config.inc.php" "$OJS_WEB_PATH"
 ```
 
-Ejecuta el siguiente comando para comparar su archivo de configuración con la plantilla de la nueva versión. Agregue o elimine cualquier opción de configuración según sea necesario.
+Ejecuta el siguiente comando para comparar tu archivo de configuración con la plantilla de la nueva versión. Añade o elimina cualquier opción de configuración según sea necesario.
 
 ```bash
 $ diff "$OJS_BACKUP_PATH/config.inc.php" "$OJS_WEB_PATH/config.TEMPLATE.inc.php"
 ```
 
-Si existe, recupera el archivo `.htaccess` resguardado.
+Si existe, restaura el archivo `.htaccess`.
 
 ```bash
 $ cp "$OJS_BACKUP_PATH/.htaccess" "$OJS_WEB_PATH"
 ```
 
-Restaura los archivos públicos resguardados.
+Restaura los archivos públicos.
 
 ```bash
 $ cp -r "$OJS_BACKUP_PATH/html/public/*" "$OJS_PUBLIC_PATH"
@@ -258,7 +258,7 @@ Si el servidor se está ejecutando bajo [SElinux](https://en.wikipedia.org/wiki/
 (RHEL)$ sudo restorecon -R "$OJS_WEB_PATH/"
 ```
 
-### 8. Ejecuta la actualización
+### 8. Ejecutar la actualización
 
 Confirma que los números de versión coinciden con la versión deseada.
 
@@ -266,43 +266,43 @@ Confirma que los números de versión coinciden con la versión deseada.
 $ php tools/upgrade.php check
 ```
 
-En la siguiente captura de pantalla, podemos ver que estamos ejecutando `3.2.1-4` y que se actualizará a `3.3.0-6`.
+En la siguiente captura de pantalla, podemos ver como actualmente estamos en la versión `3.2.1-4` y que se actualizará a `3.3.0-6`.
 
-![Un ejemplo de ejecutar la comprobación de actualización de PHP en la línea de comandos.](./assets/upgrade-check.png)
+![Un ejemplo de como ejecutar la comprobación de actualización de PHP en la línea de comandos.](./assets/upgrade-check.png)
 
-Por último, cuando tu estes listo, ejecuta el script de actualización, que puede tardar varias horas en completarse. También es posible que desees generar un registro (log) del resultado del proceso (output) [log the output](#log-the-output).
+Por último, cuando estés listo/a, ejecuta el script de actualización, teniendo en cuenta que puede tardar varias horas en completarse. También es posible que desees generar un registro (log) del resultado del proceso (output) [log the output](#log-the-output).
 
 ```bash
 $ php tools/upgrade.php upgrade
 ```
 
-Si la actualización fue exitosa, verás un mensaje informándote que la actualización fue exitosa.
+Si la actualización funciona correctamente, verás un mensaje informándote que la actualización fue exitosa.
 
 ![Un ejemplo del mensaje "actualizado con éxito" en la línea de comandos.](./assets/successful-upgrade.png)
 
-#### Log the Output
+#### Registrar la salida
 
-El script de actualización imprimirá mucha información a la terminal. Recomendamos enviar el resultado del proceso (output) a un archivo de registro (log). Esto te ayudará a solucionar problemas si la actualización falla.
+El script de actualización imprimirá mucha información en el terminal. Recomendamos redireccionar el resultado del proceso (salida o "output") a un archivo de registro (o "log"). Esto te ayudará a solucionar problemas si la actualización falla.
 
 ```bash
 $ nohup php tools/upgrade.php upgrade > $OJS_ROOT_PATH/upgrade.log &
 ```
 
-Comprueba el progreso de la actualización.
+Para comprobar el progreso de la actualización con la salida redireccionada a un fichero, solo tienes que ejecutar el siguiente comando:
 ```bash
 $ tail -f $OJS_ROOT_PATH/upgrade.log
 ```
 
-### 9. Desactiva el "Modo de Mantenimiento"
+### 9. Desactivar el "Modo de Mantenimiento"
 
-Cuando la actualización se haya completado, elimina el "modo de mantenimiento" previamente configurado modificando la directiva `VirtualHost` de Apache o actualizando tu `. archivo taccess`.
+Cuando la actualización se haya completado, elimina el "modo de mantenimiento" previamente configurado modificando la directiva `VirtualHost` de Apache o actualizando tu archivo `.htaccess`.
 
 ```bash
 $ cd "$OJS_WEB_PATH/"
 $ mv .htaccess .htaccess.disabled
 ```
 
-Si para asegurarte el éxito de la instación realizaste ajustes en los tiempos de espera o en los límites de memoria de PHP, restaura sus valores originales.
+Si modificaste los tiempos de espera y/o los límites de memoria de PHP, restaura sus valores originales.
 
 Reinicia el servidor de Apache para que los cambios se apliquen.
 
@@ -312,9 +312,9 @@ Reinicia el servidor de Apache para que los cambios se apliquen.
 (RHEL)$ systemctl restart httpd
 ```
 
-### 10. Ejecutar la actualización
+### 10. Probar la actualización
 
-Es importante probar el sitio después de una actualización. Cualquier función principal para tus revistas debe ser probada, así como *plugins* o temas personalizados una vez que se hayan reinstalado.
+Es importante probar el sitio después de una actualización. Cualquier función principal para tus revistas debe ser probada, así como los módulos o temas personalizados una vez que se hayan reinstalado.
 
 La siguiente es una breve lista de verificación que cubre casos de uso común.
 
@@ -324,45 +324,45 @@ La siguiente es una breve lista de verificación que cubre casos de uso común.
     - Los artículos publicados pueden ser descargados
     - Las letras y los caracteres de texto se muestran correctamente
     - No hay tiempos de espera o retrasos largos
-    - No hay ligas o enlaces rotos
+    - No hay enlaces rotos
     - Los artículos aparecen correctamente en la búsqueda
 2. Base de datos
     - Conjunto de caracteres y colación en la base de datos, tablas y campos
     - El motor de base de datos es innoDB para la base de datos y todas las tablas (sólo MariaDB/MySQL)
 3. Registrar una nueva cuenta de usuario e iniciar sesión
      - Registrar un autor
-     - Comprueba la recepcón del correo de registro
+     - Comprobar la recepción del correo de registro
      - Iniciar sesión con el nuevo usuario
 4. Completar el flujo de trabajo editorial
-    - Como gestor de la revista:
-        - Crea una nueva revista de prueba
-        - Registra tu nuevo usuario/a como autor/a en la revista de pruebas
+    - Como gestor/a de la revista:
+        - Crear una nueva revista de prueba
+        - Registrar tu nuevo usuario/a como autor/a en la revista de pruebas
     - Como autor/a:
-        - Inicia sesión como autor/a y envía un artículo a la revista de prueba
-        - Confirma que puedes subir un documento
+        - Iniciar sesión como autor/a y enviar un artículo a la revista de prueba
+        - Confirmar que puedes subir un documento
     - Como editor/a:
         - Asignar el artículo a una sección
         - Aceptar artículo sin revisión
         - Crear un nuevo número y asignarle el artículo
-        - Publica el número
+        - Publicar el número
         - Descargar el artículo publicado
-        - Despublica el artículo y elimina el número
+        - Despublicar el artículo y elimina el número
 5. Gestión de usuarios
-    - Como gestor de la revista:
+    - Como gestor/a de la revista:
         - Asignar nuevos roles al nuevo usuario
         - Cambiar los datos de perfil y contraseña del nuevo usuario
-        - Elimina el nuevo usuario fusionándolo con tu cuenta de administrador
+        - Eliminar el nuevo usuario fusionándolo con tu cuenta de administrador
 6. Pruebas adicionales de tareas comunes
 
-### 11. Restaurar *Plugins* Personalizados
+### 11. Restaurar los módulos personalizados
 
-Utiliza la Galería de *plugins* para restaurar los *plugins* personalizados que fueron instalados.
+Utiliza la Galería de *plugins* para restaurar los módulos personalizados que hayas instalado.
 
-Si has instalado *plugins* personalizados que no están en la Galería de *Plugins*, comprueba con el distribuidor si existe una actualización compatible con su versión actualizada.
+Si has instalado módulos personalizados que no están en la Galería de *Plugins*, comprueba con el distribuidor si existe una actualización del módulo compatible con tu versión de OJS actualizada.
 
-### 12. Limpiar archivos de copia de seguridad
+### 12. Limpiar los archivos de copia de seguridad
 
-Puede que desees conservar tus archivos de copia de seguridad, pero si no, puedes eliminarlos con el siguiente comando.
+Puede que desees conservar tus archivos de copia de seguridad, pero si no fuese el caso, puedes eliminarlos con el siguiente comando.
 
 ```bash
 $ sudo rm -fR "$OJS_BACKUP_PATH/*"
@@ -370,7 +370,7 @@ $ sudo rm -fR "$OJS_BACKUP_PATH/*"
 
 ### 13. ¡Celébralo!
 
-**Tu nueva versión de OJS ha sido actualizada con éxito. ¡Felicidades!**
+**Tu sitio OJS ha sido actualizado con éxito. ¡Felicidades!**
 
 ## Solución de problemas
 
