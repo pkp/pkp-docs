@@ -51,7 +51,7 @@ Görevleri silinmek üzere işaretlemek için onay kutusunu kullanın \(bağlant
 
 ## Gönderi Bildirimleri
 
-When an author makes a new submission to your journal, the author and all contributors will receive an email acknowledging their submission and an editor will be automatically emailed a notification of the new submission. In some cases an editor will be automatically assigned to the submission. Which editor(s) receive the notification or are automatically assigned will depend on how you have set up your journal (see [Edit a section](./journal-setup#edit-a-section).
+When an author makes a new submission to your journal, the author and all contributors will receive an email acknowledging their submission and an editor will be automatically emailed a notification of the new submission. In some cases an editor will be automatically assigned to the submission. Which editor(s) receive the notification or are automatically assigned will depend on how you have set up your journal (see [Edit a section](./journal-setup#edit-a-section)).
 
 * If there is only one user assigned to an Editor or Journal Manager role, that user will be automatically assigned and notified.
 * If one or more Section Editors are assigned to the [section](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) the submission was made in, they will be automatically assigned to the submission and notified.
