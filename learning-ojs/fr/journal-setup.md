@@ -22,7 +22,7 @@ Utilisez les onglets pour accéder aux différentes sections des Paramètres de 
 
 ## Bloc Générique
 
-This PKP School video explains how to configure the Masthead in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure the Masthead in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="DMi6izQ7Pyw" provider="youtube" title="Video of how to configure the Masthead in OJS"%}
 
@@ -34,7 +34,7 @@ This PKP School video explains how to configure the Masthead in OJS. To watch ot
 
 **Éditeur** est le nom de l'organisation qui publie la revue.
 
-Notez que le nom de l'éditeur saisi ici est utilisé pour les métadonnées mais ne sera pas affiché sur votre site. Pour afficher le nom de l'éditeur sur votre site, vous pouvez le saisir sous Paramètres de la Revue > Coordonnées > Adresse Postale. Vous pouvez également l'ajouter sous À Propos de la Revue ci-dessous.
+Notez que le nom de l'éditeur saisi ici est utilisé pour les métadonnées mais ne sera pas affiché sur votre site. Pour afficher le nom de l'éditeur sur votre site, vous pouvez le saisir sous Paramètres de la Revue > Coordonnées > Adresse Postale. You can also add it under "About the Journal" below.
 
 **ISSN** (International Standard Serial Number) is an eight-digit number which identifies journals. Il est géré par un réseau mondial de Centres Nationaux coordonnés par un Centre International basé à Paris, soutenu par l'Unesco et le gouvernement Français. A number can be obtained from the [ISSN web site](https://www.issn.org/). Cela peut être fait à tout moment de l'exploitation de la revue.
 
@@ -54,7 +54,7 @@ Appuyez sur le bouton **Enregistrer** pour enregistrer vos modifications.
 
 ## Coordonnées
 
-This PKP School video explains how to add journal contacts in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to add journal contacts in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="HTDZRG7XEqw" provider="youtube" title="Video of how to add journal contacts in OJS"%}
 
@@ -70,7 +70,7 @@ Appuyez sur le bouton **Enregistrer** pour enregistrer vos modifications.
 
 ## Rubriques de la Revue
 
-This PKP School video explains how to configure Sections in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure Sections in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="IMotkKrDZyc" provider="youtube" title="Video of how to configure sections in OJS"%}
 
@@ -146,7 +146,7 @@ You can only delete a section if there are no articles assigned to it. If you wa
 
 ## Catégories
 
-This PKP School video explains how to create categories in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to create categories in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="Y97U1icfEPw" provider="youtube" title="Video of how to create categories in OJS"%}
 
@@ -162,7 +162,7 @@ Pour modifier une catégorie:
 * Entrez une description qui apparaîtra au-dessus de la liste des articles de la catégorie
 * Vous pouvez éventuellement modifier l'ordre des articles par date ou par titre
 * Ajoutez éventuellement une image qui apparaîtra en haut de la page de la catégorie
-* Cliquez sur OK
+* Cliquez sur Enregistrer
 
 ![A new window for entering category information in text fields and selecting category options.](./assets/learning-ojs3.1-create-category.png)
 
