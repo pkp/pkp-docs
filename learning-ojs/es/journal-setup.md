@@ -34,7 +34,7 @@ This PKP School video explains how to configure the Masthead in OJS. To watch ot
 
 **Publisher** is the name of the organization publishing the journal.
 
-Note that the publisher name entered here is used for metadata but will not be displayed on your site. To show the publisher name on your site you can enter it under Journal Settings > Contact > Mailing Address. You can also add it under About the Journal below.
+Note that the publisher name entered here is used for metadata but will not be displayed on your site. To show the publisher name on your site you can enter it under Journal Settings > Contact > Mailing Address. You can also add it under "About the Journal" below.
 
 **ISSN** (International Standard Serial Number) is an eight-digit number which identifies journals. It is managed by a world wide network of National Centres coordinated by an International Centre based in Paris, backed by Unesco and the French Government. A number can be obtained from the [ISSN web site](https://www.issn.org/). This can be done at any point in operating the journal.
 
@@ -50,9 +50,9 @@ Please note that the ISSN entered here is used for metadata but will not be disp
 
 This could include your open access policy, the focus and scope of the journal, copyright notice, sponsorship disclosure, history of the journal, a privacy statement, and inclusion in any LOCKSS or CLOCKSS archival system.
 
-Hit the **Save** button to save your changes.
+Pulsa el botón **Guardar** para guardar tus cambios.
 
-## Contact
+## Contacto
 
 This PKP School video explains how to add journal contacts in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -66,7 +66,7 @@ Use this section to add journal contacts.
 
 **Technical Support Contact**: Add contact information for the journal's technical support person. This information will appear on the journal's Contact page and also in different points in the workflow to offer assistance to users.
 
-Hit the **Save** button to save your changes.
+Pulsa el botón **Guardar** para guardar tus cambios.
 
 ## Secciones
 
@@ -86,7 +86,7 @@ A section can be marked as “Inactive” in the section settings:
 
 You can modify sections by clicking on the blue arrow to the left of the section name. This will reveal options to edit or delete the section.
 
-### Edit a Section
+### Editar una Sección
 
 Selecting the edit link will open a new window with different configuration options.
 
@@ -114,7 +114,7 @@ You can check off "Will not be included in the indexing of the journal" for sect
 
 Hit the **Save** button to save your changes and return to the Sections page.
 
-### Create Section
+### Crear Sección
 
 From the sections page, select the Create Section link to open a blank window, exactly the same as the window used for editing a section described above.
 
@@ -144,7 +144,7 @@ Hit the **Done** button when you are finished.
 
 You can only delete a section if there are no articles assigned to it. If you want to delete a section that has articles assigned to it, you will need to move the articles to a different section first. Then click the blue arrow below the section name to reveal the **Delete** link, then click the link. OJS will ask if you want to permanently delete the section and you can click **Yes**.
 
-## Categories
+## Categorías
 
 This PKP School video explains how to create categories in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -154,7 +154,7 @@ In OJS 3 you can create Categories to organize your articles into thematic colle
 
 ![OJS dashboard view of Journal Settings submenu Categories with links for Order and Add a Category and editable list of current categories.](./assets/learning-ojs3.1-categories-menu.png)
 
-To create a new category:
+Crear una nueva categoría:
 
 * Click Add Category
 * Enter a name for your category that will be displayed to readers
@@ -162,17 +162,17 @@ To create a new category:
 * Enter a description which will appear above the list of articles in the category
 * You can optionally change the order of the articles by date or title
 * Optionally add an image which will appear at the top of the category’s page
-* Click Save
+* Haga clic en Guardar
 
 ![A new window for entering category information in text fields and selecting category options.](./assets/learning-ojs3.1-create-category.png)
 
 To edit a category:
 
 * Click the name of the category you want to edit
-* Make the changes
-* Click OK
+* Hacer los cambios
+* Clic OK
 
-To remove a category:
+Para eliminar una categoría:
 
 * Click the blue arrow next to the category you want to remove
 * Click the Remove button that appears below
