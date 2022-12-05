@@ -34,7 +34,7 @@ Este vídeo da PKP School explica como definir as configurações principais da 
 
 **Editora** é o nome da organização que publica o periódico.
 
-Observe que aqui o nome da Editora é utilizado para os metadados e não será exibido no site. Para mostrar o nome da editora no site, coloque-o no caminho Configurações da Revista > Contato > Endereço Postal. Você também pode incluir a informação em Sobre a Revista, logo abaixo.
+Observe que aqui o nome da Editora é utilizado para os metadados e não será exibido no site. Para mostrar o nome da editora no site, coloque-o no caminho Configurações da Revista > Contato > Endereço Postal. You can also add it under "About the Journal" below.
 
 O **ISSN** (Número Internacional Normalizado) é um código de 8 dígitos utilizado para identificar as revistas que possuem publicações seriadas. É gerido pela rede mundial de Centros Nacionais, coordenados por um Centro Internacional sediado em Paris, apoiado pela Unesco e pelo Governo Francês. O ISSN pode ser solicitado em [site ISSN](https://www.issn.org/). Esse pedido pode ser realizado em qualquer etapa da existência da revista.
 
