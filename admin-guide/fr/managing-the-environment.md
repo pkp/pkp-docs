@@ -16,9 +16,9 @@ Les packages pour le téléchargement  des applications PKP peuvent être télé
 
 Toutes les applications sont livrées avec un ensemble complet de documentation de configuration, d'installation et de mise à niveau, qui se trouve dans le répertoire `docs/` inclus dans le package du téléchargement. Ceux-ci doivent être consultés en tant que ressource principale pour toute question de configuration, d'installation ou de mise à niveau, et doivent être revus périodiquement (en particulier dans le cadre de tout processus de mise à niveau). PKP fournit ces guides sur le Web et nous fournissons des liens rapides ci-dessous.
 
-## Solutions d'hébergement
+## Solutions Hébergées
 
-Si vous n'avez pas l'expertise, le personnel ou le désir d'installer et de gérer OJS vous-même, PKP Publishing Services fournit des solutions d'hébergement complètes à un certain nombre de prix. Pour plus d'informations, consultez le [site Web PKP Publishing Services](https://pkpservices.sfu.ca) .
+Si vous n'avez pas l'expertise, le personnel ou le désir d'installer et de gérer OJS vous-même, les Services de Publication PKP fournissent des solutions d'hébergement complètes à des prix définis. Pour plus d'informations, consultez le [site Web des Services de Publication PKP](https://pkpservices.sfu.ca) .
 
 ## Exigences du système et installation
 
