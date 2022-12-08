@@ -98,7 +98,7 @@ force_dmarc_compliant_from = On
 
 ## SSL / HTTPS
 
-Every site should encrypt it's web traffic using a SSL certificate. This will make your site run from `https://` instead of `http:///`.
+Every site should encrypt it's web traffic using a SSL certificate. This will make your site run from `https://` instead of `http://`.
 
 If you don't have a SSL certificate, you should [get one](./securing-your-system#encryption).
 
@@ -122,13 +122,13 @@ If you are unable to configure this cron job, you must enable the Acron plugin a
 
 Some tasks can be resource intensive, such as sending large emails or recompiling the search index. By default, these jobs will be processed during normal web requests, which may impact your site's performance.
 
-We recommend using a worker daemon to process jobs on the site. Run the following command to see options for running a worker daemon.
+We recommend using a worker daemon to process jobs. Run the following command to see options for running a worker daemon.
 
 ```
 php lib/pkp/tools/jobs.php work --help
 ```
 
-When running a worker daemon, you should use something like [Supervisor](http://supervisord.org/) to keep them running.
+When running a worker daemon, you should use something like [Supervisor](http://supervisord.org/) to keep the workers running.
 
 
 ## Pretty URLs
