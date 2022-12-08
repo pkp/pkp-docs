@@ -16,9 +16,9 @@ Package downloads for PKP applications can be downloaded from PKP's website at t
 
 All applications ship with a full set of configuration, installation and upgrade documentation, found in the `docs/` directory included in the package download. These should be consulted as a primary resource for any configuration, installation or upgrade question, and should be reviewed periodically (particularly as part of any upgrade process). PKP provides these guides on the web, and we provide quick links below.
 
-## Hosted Solutions
+## Soluções de hospedagem
 
-If you do not have the expertise, staff or desire to install and manage OJS on your own, PKP Publishing Services provides complete hosting solutions at a number of price points. For more information, see the [PKP Publishing Services website](https://pkpservices.sfu.ca).
+Caso não tenha experiência, equipe ou desejo de instalar e gerenciar um OJS próprio, o PKP oferece serviço completo de hospedagem por uma série de valores. Para mais informações, deve-se acessar o Website de [Serviços de Publicação do PKP](https://pkpservices.sfu.ca).
 
 ## System Requirements and Installation
 
@@ -28,9 +28,9 @@ Details on general system requirements, configuration recommendations and genera
 * OMP: [https://pkp.sfu.ca/omp/README](https://pkp.sfu.ca/omp/README)
 * OCS: [https://pkp.sfu.ca/ocs/README](https://pkp.sfu.ca/ocs/README)
 
-## Upgrading
+## Atualizando
 
-For more information about upgrading your system, see the [Technical Upgrade guide](/dev/upgrade-guide/). Other upgrade instructions can be found in the following locations:
+Para obter mais informações sobre como atualizar seu sistema, consulte o [Guia de atualização técnica](/dev/upgrade-guide/). Other upgrade instructions can be found in the following locations:
 
 * OJS: [https://pkp.sfu.ca/ojs/UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE)
 * OMP: [https://pkp.sfu.ca/omp/UPGRADE](https://pkp.sfu.ca/omp/UPGRADE)
