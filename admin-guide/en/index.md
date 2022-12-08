@@ -15,10 +15,9 @@ In order to install this software securely, you will need to understand how to d
 - Modify file permissions on your web server
 - Configure a cron job on your web server
 - Manage file storage and memory limits on your web server
-- Configure and run an email server
 - Configure a SSL certificate for your domain
 
-If you are unfamiliar with some of these topics, you may be able to learn by following tutorials on the web. However, if you are not familiar with deploying applications to a web server, we recommend that you find technical support for your project. This may be available through your research institution, a library publishing service, or a paid service provider like PKP's [Publishing Services](https://pkp.sfu.ca/hosting).
+If you are unfamiliar with some of these topics, you may be able to learn by following tutorials on the web. However, if you do not know how to deploy applications to a web server, we recommend that you find technical support for your project. This may be available through your research institution, a library publishing service, or a paid service provider like PKP's [Publishing Services](https://pkp.sfu.ca/hosting).
 
 ---
 
