@@ -16,9 +16,9 @@ Package downloads for PKP applications can be downloaded from PKP's website at t
 
 All applications ship with a full set of configuration, installation and upgrade documentation, found in the `docs/` directory included in the package download. These should be consulted as a primary resource for any configuration, installation or upgrade question, and should be reviewed periodically (particularly as part of any upgrade process). PKP provides these guides on the web, and we provide quick links below.
 
-## Hosted Solutions
+## Barındırılan Dergiler
 
-If you do not have the expertise, staff or desire to install and manage OJS on your own, PKP Publishing Services provides complete hosting solutions at a number of price points. For more information, see the [PKP Publishing Services website](https://pkpservices.sfu.ca).
+OJS'yi kendi başınıza kurmak ve yönetmek için uzmanlığa veya personele sahip değilseniz, PKP Yayıncılık Hizmetleri, çeşitli barındırma çözümlerini ücretli sunar. Daha fazla bilgi için [PKP Yayıncılık Hizmetleri web sitesine](https://pkpservices.sfu.ca) bakınız.
 
 ## System Requirements and Installation
 
