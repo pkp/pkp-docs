@@ -2,12 +2,13 @@
 book: learning-ojs
 version: 3.3
 title: Learning Open Journal Systems 3.3 - Tools
+showPageTOC: true
 description: A guide to using the Tools menu in OJS, including Import/Export functions and QuickSubmit.
 ---
 
 # Tools
 
-The Tools section can be accessed from the left sidebar menu.
+Se puede acceder a la sección Herramientas desde el menú de la barra lateral izquierda.
 
 ![Tools side menu options](./assets/learning-ojs3.2-jm-users-tools.png)
 
@@ -17,19 +18,19 @@ Tools consist of an Import/Export tab, a Report Generator tab (called Statistics
 
 This PKP School video explains how to access and use Import/Export tools. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-## Import/Export
+## Importar/exportar
 
-Import/Export allows you to easily get data out of your OJS journal and get data into it.
+Importar/Exportar le permite obtener fácilmente datos de su publicación OJS y obtener datos de la misma.
 
 ![List of Import/Export plugins available](./assets/learning-ojs3.2-jm-users-tools-import.png)
 
-Some of the tools allow you to export to third-party systems, such as PubMed or the DOAJ. Others allow you to import or export article data.
+Algunas de las herramientas permiten exportar a sistemas de terceros como PubMed o DOAJ. Others allow you to import or export article data.
 
 If you want to export user data, you can find the option to export it as an XML file here. If you prefer your user data in a spreadsheet format, you can download it as a CSV file from **Statistics > Users**.
 
-For detailed instructions on importing and exporting see the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export).
+Para obtener instrucciones detalladas sobre la importación y exportación, consulte la [Guía del Administrador](https://docs.pkp.sfu.ca/admin-guide/en/data-import-and-export).
 
-For more information on the Crossref XML Export Plugin, see the [PKP Crossref Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
+Para obtener más información sobre el plugin de exportación XML de Crossref, consulte la [Guía de exportación de PKP Crossref](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
 
 ### Quick Submit Plugin
 
