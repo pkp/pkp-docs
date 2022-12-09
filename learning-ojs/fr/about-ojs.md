@@ -1,5 +1,6 @@
 ---
 book: apprendre-ojs
+showPageTOC: true
 version: 3.2
 ---
 
@@ -13,7 +14,7 @@ Ce guide couvre la version 3.2 d'OJS, publiée en février 2020, et présente de
 
 ## Contexte
 
-This PKP School video explains the background on PKP and OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains the background on PKP and OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="SQfFGwIK2wI" provider="youtube" title="Video of background on PKP and OJS"%}
 
@@ -71,7 +72,7 @@ The link from the dashboard to the public journal site home page has moved. A Jo
 
 ![The link to view the public journal site](./assets/learning-ojs-3.3-navigation-menu-dashboard-view-journal.png)
 
-### Production et publication
+### Flux des Travaux Éditoriaux
 
 #### Uploading submission files
 
