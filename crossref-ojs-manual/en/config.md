@@ -31,7 +31,7 @@ You can also register your content with Crossref entirely outside of OJS using C
 1. Fill out the name and email of the depositor. This name does not have to be the contact that orchestrated the Crossref membership. It can be a technical contact. It is merely the name that is attached to the metadata submission you deposit to Crossref. These are required fields.
 2. Fill out the username and password provided to you by Crossref with your membership confirmation. These are used to register content directly from the plugin. (_Please note: if your browser automatically fills in passwords in OJS, it may populate these fields with your OJS username and password when you load this page. Make sure you don't overwrite your Crossref credentials with your OJS password, or your plugin will fail._)
 
-## Automatic Deposits
+### Automatic Deposits
 
 To enable automatic deposits, simply check the box on the settings page.
 
@@ -39,7 +39,7 @@ To enable automatic deposits, simply check the box on the settings page.
 
 OJS will deposit assigned DOIs as content in your journal is published. OJS does this at specific timed intervals. If your DOIs do not appear to be registered shortly after publication, you can wait a day to see if they make it through the OJS process and the Crossref queue. You can also check the status of your DOI by clicking the "Articles" tab at the top of the Crossref plugin settings page. You'll see an up-to-date status column on the right of the page.
 
-## Manual Deposits
+### Manual Deposits
 
 Manual deposits are always enabled in OJS 3.2+.
 
