@@ -1,5 +1,6 @@
 ---
 title: General principles for creating accessible content - Creating Accessible Content Guide
+showPageTOC: true
 ---
 
 # General principles for creating accessible content
