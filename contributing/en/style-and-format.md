@@ -1,5 +1,6 @@
 ---
 title: Style and Format - Guidelines for Contributing to PKP Documentation
+showPageTOC: true
 ---
 # Style and Format
 
