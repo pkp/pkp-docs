@@ -1,5 +1,5 @@
 - - -
-title: Edit and Create Documentation - Guidelines for Contributing to PKP Documentation
+title: Edit and Create Documentation - Guidelines for Contributing to PKP Documentation showPageTOC: true
 - - -
 
 # Edit and Create Documentation
