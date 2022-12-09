@@ -2,6 +2,7 @@
 book: learning-ojs
 version: 3.3
 title: Learning Open Journal Systems 3.3 - Tools
+showPageTOC: true
 description: A guide to using the Tools menu in OJS, including Import/Export functions and QuickSubmit.
 ---
 
@@ -15,7 +16,7 @@ Tools consist of an Import/Export tab, a Report Generator tab (called Statistics
 
 {% include video.html id="v3zjjVFYAyc" provider="youtube" title="Video of setting up a journal in OJS 3.3. Module 14: Tools"%}
 
-This PKP School video explains how to access and use Import/Export tools. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to access and use Import/Export tools. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 ## Import/Export
 
@@ -35,7 +36,7 @@ For more information on the Crossref XML Export Plugin, see the [PKP Crossref Gu
 
 {% include video.html id="_nm1dGIZS8Y" provider="youtube" title="Video of setting up a journal in OJS 3.3. Module 18: Plugins- QuickSubmit"%}
 
-This PKP School video explains how to use the Quick Submit Plugin to add complete submissions to an issue. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to use the Quick Submit Plugin to add complete submissions to an issue. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 The Quick Submit Plugin allows you to quickly add complete submissions to an issue. It provides a one-step submission process for editors needing to bypass the traditional submission, review, and editing process.
 
