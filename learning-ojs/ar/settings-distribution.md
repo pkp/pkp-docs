@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Distribution Settings
 ---
 
@@ -56,7 +57,7 @@ Use **Custom Tags** to add custom HTML header tags to the header of every page o
 <meta name="revisit-after" content="3 month">
 ```
 
-## خيارات الوصول في الموقع
+## التدقيق
 
 This PKP School video explains how to configure the Payments settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
