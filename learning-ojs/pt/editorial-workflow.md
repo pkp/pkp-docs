@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Aprendendo Open Journal Systems 3.3 - Fluxo Editorial
 description: Como gerenciar uma submissão através do fluxo de trabalho OJS, da submissão à publicação.
 ---
