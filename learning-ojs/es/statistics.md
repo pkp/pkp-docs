@@ -1,299 +1,300 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Statistics
 ---
 
 # Estadísticas
 
-The statistics features of OJS allow you to view different numbers pertaining to the activity, access, and downloads of various aspects of your site, including article and abstract views, subscription activity, editorial and review activity, and user counts separate by role. There is also a Report Generator section for producing various reports from some of the available data.
+Las estadísticas de OJS permiten ver indicadores relacionados con la actividad, el acceso y las descargas de varios aspectos de su sitio, incluyendo vistas de artículos y resúmenes, suscripciones, actividad editorial y de revisión, y recuentos de usuarios por rol. A partir de los datos disponibles, es posible generar reportes en la sección de Generador de Informes.
 
-This section will describe the statistics report/visualization tools available in OJS and how to use them. If you are interested in how to manage statistics as a systems administrator, including configuring the statistics framework, managing legacy statistics and statistics in OJS 2, and troubleshooting statistics, please view [the PKP Administrator’s Guide’s documentation on statistics](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
+Esta sección describirá las herramientas de reporte/visualización de estadísticas disponibles en OJS y cómo utilizarlas. Si está interesado en gestionar estadísticas como administrador del sistema, incluyendo la configuración del marco de estadísticas, la gestión de estadísticas heredadas, las de OJS 2, y las de solución de problemas, consulte la guía del administrador de PKP sobre estadísticas [](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
 
-For a video walkthrough of Statistics in OJS, see our [Setting up a journal in OJS 3.3. Module 13: Statistics ](https://www.youtube.com/watch?v=fU1orCK7GSM&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY) video below.
+Para acceder a un tutorial sobre las estadísticas en OJS consulte el enlace [Configuración de una revista en OJS 3.3. Módulo 13: Estadísticas ](https://www.youtube.com/watch?v=fU1orCK7GSM&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY) vídeo abajo.
 
-[![Setting up a journal in OJS 3.3. Module 13: Statistics](https://img.youtube.com/vi/fU1orCK7GSM/0.jpg)](https://www.youtube.com/watch?v=fU1orCK7GSM&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
+[![Configurando una revista en OJS 3.3. Módulo 13: Estadísticas](https://img.youtube.com/vi/fU1orCK7GSM/0.jpg)](https://www.youtube.com/watch?v=fU1orCK7GSM&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
-## Definitions
+## Definiciones
 
-The following definitions may be helpful to you for understanding the variety of statistics tracked by OJS.
+Las siguientes definiciones pueden ser útiles para entender la variedad de estadísticas rastreadas por OJS.
 
-* **Abstract page:** the landing page for an article, containing the title, author information, abstract, DOI, and links to any article full-text galleys.  Also known as the “article page” or “landing page.” This page is normally used as the point of record for the article for DOIs or other hyperlinks: Crossref DOIs resolve to article abstract pages, as opposed to galley files, for example, as would most other indexing services.
-* **Article view:** within the statistics framework, any reference to an “article view” means a single unique view of the article abstract page by a visitor. This is not an aggregate count of all article and galley views - it refers to abstract views only.
-* **Galley view:** within the statistics framework, any reference to a “galley view” means a single unique view or download of the a specific galley file by a visitor. Also known as a “galley download.” This is not an aggregate count of all galley views - if there are multiple galleys for an article \(e.g., an HTML file, a PDF file, etc.\), each will have its own unique galley view count. OJS does not distinguish between galley downloads and views in the metrics table; downloads are counted as galley views.
-* **Multi-clicks:** the process \(accidental or nefarious\) of increasing usage counts by clicking on an abstract page or galley file multiple times in quick succession. OJS identifies and removes these attempts from its usage metrics, as per the Project COUNTER Code of Practice.
-* **Project COUNTER Code of Practice:** a set of practices developed by COUNTER to establish a means to report on usage metrics for electronic resources in a consistent way. The Code provides rules on what should be counted as a view, including specific rules for robot usage and multi-click abuse. OJS filters metrics through these rules. It should also be noted that PKP is part of the COUNTER Bots and Crawlers Working Group.
-* **Robots, crawlers, bots:** nonhuman site visitors who may still view and download article data. These are usually identified as such to the server, and OJS does not count them in its usage metrics, as per the Project COUNTER Code of Practice.
+* **Página de resumen:** la página de inicio de un artículo, que contiene el título, información del autor, resumen, DOI y enlaces al texto completo en cualquier galerada del artículo.  También se conoce como “página de artículo” o “página de destino”. Esta página se utiliza normalmente como punto de registro para los DOI del artículo u otros hipervínculos: los códigos DOI de Crossref redirigen a las páginas de resumen del artículo, en vez de a las galeradas, por ejemplo, como lo hacen la mayoría de los demás servicios de indexación.
+* **Vista del artículo:** dentro del marco de las estadísticas, cualquier referencia a una "vista de artículo" significa una consulta única de la página de resumen del artículo. Este no es un recuento de todas las vistas de las galeradas del artículo- se refiere solamente a las vistas del resumen.
+* **Vista de la galerada:** dentro del marco de las estadísticas, cualquier referencia a una "vista de la galerada" significa una consulta única de la página del artículo. También conocida como una "descarga de la galerada". Este no es un recuento de todas las vistas del artículo si este tiene múltiples galeradas \(e. ., un archivo HTML, un PDF, etc.\), cada una de ellas tendrá su propio recuento de vista de galerada. OJS no distingue entre descargas de galeradas y vistas en la tabla de métricas; las descargas se cuentan como vistas de galerada.
+* **Múltiples clicks:** el proceso \(accidental o maintencionado\) de aumentar el número de usuarios haciendo clic en una página de resumen o galerada varias veces en una rápida sucesión. OJS identifica y elimina estos intentos de sus métricas de uso, según el Código de Práctica del COUNTER del Proyecto.
+* **Código de práctica del COUNTER del proyecto:** un conjunto de prácticas desarrolladas por el COUNTER para establecer un medio para informar de manera consistente sobre las métricas de uso de recursos electrónicos. El Código proporciona reglas sobre lo que debe ser contado como una vista, incluyendo reglas específicas para uso de robots y abuso de multiples clics. OJS filtra las métricas a través de estas reglas. También hay que señalar que PKP es parte del Grupo de Trabajo sobre robots y rastreadores del COUNTER.
+* **Robots, rastreadores, bots:** visitantes no humanos del sitio que pueden ver y descargar los datos del artículo. Estos generalmente son identificados como tales en el servidor, y OJS no los cuenta en sus métricas de uso, según el Código de Práctica del COUNTER del Proyecto.
 
-## Articles
+## Artículos
 
-OJS offers Editors and Journal Managers the option of viewing graph and table representations of article usage, including abstract views and full-text downloads.
+OJS ofrece a los Administradores y Editores de Revistas la opción de ver representaciones gráficas y tablas del uso de artículos, incluyendo vistas de resumen y descargas del texto completo.
 
-The visual statistics can be found under Statistics on the left menu panel, by clicking Articles.
+Las estadísticas visuales se pueden encontrar en Estadísticas en el panel del menú izquierdo, haciendo clic en Artículos.
 
-![OJS interface with the Articles option highlighted under Statistics in the left menu.](./assets/ojs-statsmenu.png)
+![Interfaz OJS con la opción Artículos resaltados bajo Estadísticas en el menú inzquierdo.](./assets/ojs-statsmenu.png)
 
-The Articles statistics show the articles’ abstract views in both graph and table format. The visual graphic can be changed to Monthly or Daily view. The table format will allow you to filter the Total in ascending or descending order.
+Las estadísticas de los artículos muestran las vistas de resumen de los artículos tanto en gráficos como de tablas. El gráfico se puede cambiar a vista mensual o diaria. La tabla le permitirá filtrar el Total en orden ascendente o descendente.
 
-![Sample of a graph of abstract views produced by the Articles statistics tool.](./assets/abstract-views.png)
+![Ejemplo de una gráfica de vistas de resumen producidas por la herramienta de estadísticas de Artículos.](./assets/abstract-views.png)
 
-![Sample article details table produced by the Articles statistics tool.](./assets/article-details.png)
+![Ejemplo de una gráfica de vistas de resumen producidas por la herramienta de estadísticas de Artículos.](./assets/article-details.png)
 
-The calendar icon on the top right corner of your dashboard gives you the option of changing the article view to the Last 30 days, Last 90 days, Last 12 months, All dates, or a Custom Date Range.
+El icono del calendario en la esquina superior derecha del panel de control ofrece la opción de cambiar la vista del artículo a los Últimos 30 días, Últimos 90 días, Últimos 12 meses, todas las fechas, o un rango de fecha personalizado.
 
-![The calendar used for selecting date ranges in the Articles statistics tool.](./assets/calendar-range-articles.png)
+![El calendario utilizado para seleccionar los rangos de fecha en la herramienta de estadísticas de artículos.](./assets/calendar-range-articles.png)
 
-The filter icon on the top right corner of your dashboard gives you the option of filtering the articles by Sections.
+El icono de filtro en la esquina superior derecha del tablero le da la opción de filtrar los artículos por Secciones.
 
-![The calendar used for selecting date ranges in the Articles statistics tool.](./assets/article-filters.png)
+![El calendario utilizado para seleccionar los rangos de fecha en la herramienta de estadísticas de artículos.](./assets/article-filters.png)
 
-You also have the option of searching the statistics of a specific article by title, author, or manuscript ID by using the search function under Article Details.
+También tiene la opción de buscar las estadísticas de un artículo específico por título, autor, o ID del manuscrito mediante el uso de la función de búsqueda en Detalles del Artículo.
 
-![The search bar for locating specific article statistics.](./assets/article-details-search.png)
+![Barra de búsqueda para localizar estadísticas específicas de artículos.](./assets/article-details-search.png)
 
-## Editorial Activity
+## Actividad Editorial
 
-This section provides statistics about the editorial workflow, such as number of submissions received, days to first editorial decision, and acceptance and rejection rates. You can filter these statistics using a custom date range to, e.g., find the number of articles accepted during a 12-month period.
+Esta sección proporciona estadísticas sobre el flujo de trabajo editorial, tales como el número de envíos recibidos, días para la primera decisión editorial, y las tasas de aceptación y rechazo. Puede filtrar estas estadísticas usando un rango de fechas personalizado para, por ejemplo, encontrar el número de artículos aceptados durante un período de 12 meses.
 
-![Sample of editorial statistics.](./assets/editorial-activity.png)
+![Ejemplo de estadísticas editoriales.](./assets/editorial-activity.png)
 
-There are some important things to note when considering the data in these reports:
+Hay algunas cosas importantes que tener en cuenta a la hora de considerar los datos en estos informes:
 
-* Published submissions within a date range only count the initial publication date and not subsequent versions.
-* Days to decision uses an 80% threshold, so the data listed represent that 80% of submissions with a decision have received one within X number of days.
-* The acceptance and decline rates only count submissions that have received an accept/decline decision, so they exclude submissions still in the queue.
-* If a date range is applied, it only counts submissions that were submitted AND accepted/declined within that date range. So, e.g., a submission that was submitted before the date range but received an accept/reject decision within the date range will not be counted. For this reason, it's best to use long date ranges and older date ranges to get accurate acceptance/rejection rates.
+* Los envíos publicados dentro de un rango de fechas sólo cuentan la fecha de publicación inicial y no las versiones posteriores.
+* Los días para decidir utilizan un 80% de margen, por lo que los datos representan que el 80% de las presentaciones con decisión han recibido una en un plazo de X días.
+* Las tasas de aceptación y rechazo sólo cuentan las propuestas que han recibido una decisión de aceptación o rechazo, por lo que excluyen las presentaciones que se encuentran en cola.
+* Si se aplica un rango de fechas, sólo cuenta los envíos que fueron enviados Y aceptados/rechazados dentro de ese rango de fechas. Así, por ejemplo, un envío que fue enviado antes del intervalo de fechas pero que recibió una decisión de aceptación/rechazo dentro del intervalo de fechas no será tomado en cuenta. Por esta razón, es mejor utilizar largos rangos de fechas y rangos de fechas anteriores para obtener tasas de aceptación y rechazo precisas.
 
-An Editorial Activity Report will be generated monthly and can be sent by email to editors and section editors. All managers and section editors are automatically opted out of the monthly report; however, you can opt in by going to User Profile > Notifications and unchecking the box that disables the automated email.
+Un Informe de Actividad Editorial se generará mensualmente y se puede enviar por correo electrónico a editores y editores de sección. Todos los administradores y los editores de secciones se excluyen automáticamente del informe mensual; sin embargo, puede optar por ir al perfil de usuario > Notificaciones y desmarcar la casilla que deshabilita el correo electrónico automatizado.
 
 ## Usuarios/as
 
-This section provides information about new user/role registrations within a specified time period. The Total column is not a total number of accounts created; it identifies how many users have that role in the system right now. When an existing user receives a new role, such as a registered author becoming a reviewer, that addition to the total number of reviewers in the system will be reflected in the data by an increase in the number of reviewers but no change in the total number of users.
+Esta sección brinda información sobre nuevos registros de usuario/rol dentro de un período de tiempo especificado. La columna Total no es un número total de cuentas creadas; identifica cuántos usuarios tienen ese rol en el sistema en estos momentos. Cuando un usuario existente recibe un nuevo rol, como cuando un autor registrado se convierte en revisor, esa suma al número total de revisores en el sistema se reflejará en los datos por un aumento en el número de revisores sin realizar cambiar el número total de usuarios.
 
-![Sample users statistics data.](./assets/users.png)
+![Ejemplo de datos estadísticos de usuarios.](./assets/users.png)
 
-## Report Generator
+## Generador de informes
 
-The Report Generator page provides access to a variety of reports from your journal.
+La página de Generador de Reportes proporciona acceso a una variedad de informes de su revista.
 
-![The list of reports on the Report Generator page in OJS, detailed below.](./assets/report-generator.png)
+![La lista de informes en la página Generador de informes en OJS, detallada a continuación.](./assets/report-generator.png)
 
-The system generates reports that track the details associated with site usage and submissions over a given period of time. These reports can be broadly grouped into “usage” reports that contain usage metrics indicative of visitor readership and “content” reports that provide data on the respective item (eg. review information). Reports are generated in CSV format which requires a spreadsheet application to view.
+El sistema genera informes que rastrean los detalles asociados con el uso y sometimientos del sitio en un período de tiempo determinado. Estos informes pueden agruparse en informes de "uso" que contienen métricas de uso que indican lectura de los visitantes y reportes de "contenido" que proporcionan datos sobre el artículo (por ejemplo. informacin de revisión). Los informes se generan en formato CSV que requiere para su visualización una aplicación de hoja de cálculo.
 
-* PKP Usage Statistics Report: Provides granular daily usage metrics for all article, article file, issue and homepage views/downloads. Will include visitor country data, if that is being logged. See Usage Statistics Report below for more information and examples. (Usage)
-* Subscriptions Report: Provides information on any individual and institutional subscriptions. This report option is only available if subscriptions are enabled on the journal. (Content)
-* Articles Report: Provides a spreadsheet of all published articles. (Content)
-* COUNTER Reports: Provides COUNTER reports for all journals on the OJS application. Provides monthly and year to date aggregate counts for abstract and galley views. (Usage)
-* Review Report: Provides review information on all articles in the system, including reviewer names, reviews, and recommendations. (Content)
-* View Report: Provides a report on galley and abstract views by readers (i.e., how many times a PDF for an article has been viewed). (Usage)
-* Custom Report Generation: Customizable version of the Usage Statistics report, where various facets can be selected and specific date spans can be set. See Generate Custom Report for more information and examples. (Usage)
+* Informe de estadísticas de uso de PKP: Proporciona métricas de uso diario desglozadas para todos los artículos, archivos de artículos, incidencias y descargas/páginas de inicio. Incluirá los datos del país de los visitantes, si se registra. Para más información y ejemplos, consulte el Informe de estadísticas de uso a continuación. (Uso)
+* Informe de Suscripciones: Proporciona información sobre cualquier suscripción individual e institucional. Esta opción de reporte sólo está disponible si las suscripciones están habilitadas en la revista. (Contenido)
+* Informe de artículos: Provee una hoja de cálculo de todos los artículos publicados. (Contenido)
+* Informes del COUNTER: Proporciona informes del COUNTER para todas las revistas en OJS. Proporciona conteos mensuales y anuales hasta la fecha de vistas de resumen y de galeradas. (Uso)
+* Informe de revisión: Proporciona información de revisión de todos los artículos del sistema, incluyendo nombres de los revisores, comentarios y recomendaciones. (Contenido)
+* Ver Informe: Proporciona un informe sobre vistas de galerada y de resumen que han hecho los lectores (es decir, cuántas veces se ha visto un PDF para un artículo). (Uso)
+* Generación de informes personalizados: Versión personalizable del informe de estadísticas de uso, donde se pueden seleccionar varias fases y se pueden establecer plazos específicos. Para más información y ejemplos, consulte el Informe de estadísticas de uso que aparece a continuación. (Uso)
 
-### Usage Statistics Report
+### Informe de Estadísticas de Uso
 
-This report provides granular data on monthly views for the journal homepage, issue TOCs, article abstract/landing pages, and file views in CSV format. It provides country information (if configured). Each row provides a total monthly view count for a particular object (journal home page, article abstract page, article galley, or issue table of contents). It further facets this by country if country support has been enabled and properly configured.
+Este informe proporciona datos desglozados sobre las vistas mensuales de la página principal de la revista, la tabla de contenido del número, las páginas de resumen/de destino de artículos y las vistas de archivos en formato CSV. Proporciona información del país (si está configurado). Cada fila proporciona un recuento mensual total para un objeto en particular (página principal de revistas, página de resumen, galeradas o tabla de contenidos del número). Además, se puede hacer por país si la opción de país ha sido habilitada y configurada correctamente.
 
-**Use for:** generating a multifaceted overview content usage from month to month. It lists monthly view counts for all articles, article file downloads, issue TOC views, and journal homepage views for the specified timespan. Additional manual manipulation of the resulting report must be done to achieve aggregate results.
+**Utilizar para:** generar un resumen de contenido general multifacético del uso mes a mes. Muestra el recuento de vistas mensuales para todos los artículos, descargas de archivos de artículos, vistas de tabla de contenido y vistas de la página principal de la revista para el intervalo de tiempo especificado. Se debe hacer una manipulación manual adicional del informe que se emite para lograr resultados agregados.
 
-**Do Not Use for:** attempting to get a quick usage snapshot, legacy usage, or journals that have a very large metrics dataset \(due to long history, high readership, or depth of metrics granularity\). Use the Custom Report Generator instead.
+**No se debe usar para:** obtener una reporte de uso rápido, uso antiguo, o revistas que tienen un conjunto de datos muy grande de métricas \(debido a la larga historia, a la alta lectura o a la profundidad de las métricas de desgloce\). Utilice el generador de informes personalizados en su lugar.
 
-**Special Notes:**
+**Notas especiales:**
 
-* This report attempts to capture the entire usage history for: the journal home page, all article abstracts, all article galleys, and all issue table of contents.
-* **OJS version 3.1.1 or older installs**: To reduce the potential for exceeding time limits for downloads, this report only provides 5,000 records. If you have a lot of reportable data, this report will most likely not report it all. If this is the case, the Custom Report Generator plugin should be used instead, using smaller date ranges. (This restriction was removed in OJS 3.1.2.)
+* Este informe intenta capturar todo el historial de uso para: la página principal de la revista, todos los resúmenes de lo artículos, todas las galeradas de los artículos, y toda la tabla de contenidos del número.
+* **La versión 3.1.1 de OJS o instalaciones anteriores **: Para reducir el potencial de exceder los límites de tiempo para descargas, este informe sólo proporciona 5.000 registros. Si tiene muchos datos reportables, es muy probable que este informe no lo informe todo. Si este es el caso, el plugin Personalizar Generador de Reportes debe ser usado en su lugar, usando rangos de fechas más pequeños. (Esta restricción fue eliminada en OJS 3.1.2.)
 
-**Example Data \(slightly edited for clarity\):**
+**Datos de ejemplo \(ligeramente editados para mayor claridad\):**
 
-| **ID** | **Type** | **Title**                                                                        | **Issue**              | **Journal** | **Country** | **Month** | **Count** |
-| ------ | -------- | -------------------------------------------------------------------------------- | ---------------------- | ----------- | ----------- | --------- | --------- |
-| 1      | Journal  | Canadian Journal of Communication                                                | CJC                    | CA          | 201502      | 1678      |           |
-| 112    | Article  | Toronto Star Fires Reporter Claire Hoy, Sues Him and TV Stations on Libel Charge | Vol 1, No 3 \(1974\) | CJC         | CA          | 201502    | 3         |
-| 112    | Article  | Toronto Star Fires Reporter Claire Hoy, Sues Him and TV Stations on Libel Charge | Vol 1, No 3 \(1974\) | CJC         | US          | 201502    | 1         |
+| **ID** | **Tipo** | **Título**                                                                       | **Edición**            | **Revista** | **País** | **Mes** | **Recuento** |
+| ------ | -------- | -------------------------------------------------------------------------------- | ---------------------- | ----------- | -------- | ------- | ------------ |
+| 1      | Revista  | Canadian Journal of Communication                                                | CJC                    | CA          | 201502   | 1678    |              |
+| 112    | Artículo | Toronto Star Fires Reporter Claire Hoy, Sues Him and TV Stations on Libel Charge | Vol 1, No 3 \(1974\) | CJC         | CA       | 201502  | 3            |
+| 112    | Artículo | Toronto Star Fires Reporter Claire Hoy, Sues Him and TV Stations on Libel Charge | Vol 1, No 3 \(1974\) | CJC         | EE.UU.   | 201502  | 1            |
 
-From the above example, we can see that in February 2015 the main CJC journal homepage was viewed 1,678 times, which the article “Toronto Star Fires Reporter …” was viewed 3 times from Canada and once from the United States.
+En el ejemplo anterior, podemos ver que en febrero de 2015 la página principal de la revista CJC fue vista 1.678 veces, que el artículo "Toronto Star Fires Reporter …" fue visto 3 veces desde Canadá y una vez desde los Estados Unidos.
 
-### View Report
+### Informe de vistas
 
-This report provides per-article abstract views and galley views/downloads. These usage metrics are not filtered for multi-clicks or bot/crawler activity and thus may seem inflated in comparison to more recent statistics.
+Este informe proporciona vistas de resumen por artículo y vistas/descargas de galeradas. Estas métricas de uso no se filtran para múltiples clics o actividad de bot/rastreadores, por tanto, pueden parecer infladas en comparación con estadísticas más recientes.
 
-Example Data (slightly edited for clarity):
+Datos de ejemplo \(ligeramente editados para mayor claridad):
 
-In the sample below we can see that article 95, “The Making of the Canadian Media,” has had 443 abstract views and 1476 total galley views. The PDF and Total Galley views are the same because there were no HTML views. With article 1125, “Digital Networks,” the abstract was viewed 1821 times and total galley views are 8478, which is the sum of the HTML and PDF views.
+En la muestra de abajo podemos ver que el artículo 95, “The Making of the Canadian Media" ha tenido 443 vistas del resumen y 1476 vistas totales de la galerada. Las vistas de PDF y del total de las galeradas son las mismas porque no había vistas HTML. Con el artículo 1125, “Digital Networks”, el resumen fue visto 1821 veces y el total de vistas de las galeradas son 8478, que es la suma de las vistas HTML y PDF.
 
 ****
 
-| **ID** | **Article Title**                | **Issue**               | **Date Published** | **Abstract** | **Total Galleys** | **HTML** | **PDF** |
-| ------ | -------------------------------- | ----------------------- | ------------------ | ------------ | ----------------- | -------- | ------- |
-| 95     | The Making of the Canadian Media | Vol 6, No 1 \(1979\)  | 1979-01-03         | 443          | 1476              |          | 1476    |
-| 1125   | Digital Networks                 | Vol 24, No 4 \(1999\) | 1999-04-01         | 1821         | 8478              | 2093     | 6385    |
+| **ID** | **Título del artículo**          | **Edición**             | **Fecha de publicación** | **Resumen** | **Total galeradas** | **HTML** | **PDF** |
+| ------ | -------------------------------- | ----------------------- | ------------------------ | ----------- | ------------------- | -------- | ------- |
+| 95     | The Making of the Canadian Media | Vol 6, No 1 \(1979\)  | 1979-01-03               | 443         | 1476                |          | 1476    |
+| 1125   | Digital Networks                 | Vol 24, No 4 \(1999\) | 1999-04-01               | 1821        | 8478                | 2093     | 6385    |
 
-### Generate Custom Report
+### Generar informe personalizado
 
-Use this feature to build your own reports. These reports provide granular data on daily views for the journal using the full metrics dataset. You are able to aggregate results by:
+Utilice esta función para crear sus propios informes. Estos informes proporcionan datos desglozados sobre las vistas diarias de la revista utilizando el conjunto de datos completo de métricas. Puedes incluir resultados por:
 
-* Country
-* Region
-* City
-* Month
-* Day
+* País
+* Región
+* Ciudad
+* Mes
+* Día
 
-Metrics are tracked against specific item types (AKA “objects”):
+Las métricas son rastreadas por tipos específicos de elementos (llamados “objetos”):
 
-* File downloads
-* Abstract views
-* Issue Table of Contents views
-* Journal Homepage views
+* Descargas de archivos
+* Vistas de resumen
+* Vistas de tabla de contenido
+* Vistas de página de la revista
 
-![The custom report generator interface in OJS.](./assets/custom-report-generator1.png)
+![La interfaz personalizada del generador de informes en OJS.](./assets/custom-report-generator1.png)
 
-You are also able to limit results to specific date spans.
+También puedes limitar los resultados a fechas específicas.
 
-This is the most flexible report option available in OJS and can provide a very detailed amount of data. Below are some examples of statistics questions that may be useful to journals, as well as instructions on how to formulate a report to answer those questions using this feature.
+Esta es la opción de informe más flexible disponible en OJS y puede proporcionar una cantidad muy detallada de datos. A continuación hay algunos ejemplos de preguntas sobre estadísticas que pueden ser útiles para las revistas, así como instrucciones sobre cómo formular un informe para responder a esas preguntas utilizando esta función.
 
-Special Notes on the Report Generator:
+Notas especiales sobre el Generador de Informes:
 
-* Depending on the amount of data in your system, the facets you choose to retrieve, and the date span you choose, the system may fail to completely generate a report without timing out. If you encounter this, try reducing the requested date span.
-* If you generate a custom report, the report will also provide you with a Report URL that you can save to use to repeat the identical report process. Make sure to copy and save the URL somewhere so that you can re-run your search later (it will disappear once the page is reloaded).
-* If you create a report that reports on “yesterday” or “current month,” the resulting Report URL will always use “yesterday” or the “current month” relative to the day you run it. So if you originally created a report to report on “yesterday” a year ago and then ran it today, it would report on yesterday. However, if you specify a specific date range, say April 1 - April 15 2018, the resulting Report URL will always report metrics for that specific range.
-* Note that the current day’s data will not be available until the next day.
-* The generator works like a funnel for data. The trick is to narrow down the bigger elements (such as date range), select what you’re interested in from there (issues, articles, etc.), then tweak the data at the end (i.e., sort by number of downloads).
-* The Report Generator is most useful if you use the Advanced Options. All the examples below make use of the advanced options.
+* Dependiendo de la cantidad de datos en tu sistema, las fases que quieras recuperar, y el lapso de fecha que selecciones, el sistema puede fallar en generar un informe completo. Si encuentras esto, prueba reducir el rango de fecha.
+* Si generas un informe personalizado, también obtendrás una URL de Reporte que se puede guardar para utilizar en un futuro ejecutando el proceso de reporte idéntico. Asegúrese de copiar y guardar la URL en algún lugar para que pueda volver a ejecutar su búsqueda más tarde (desaparecerá una vez que la página sea recargada).
+* Si creaste un informe que reporta sobre "ayer" o "mes actual", la URL del Informe siempre utilizará “ayer” o el “mes actual” en relación al día en que lo ejecutaste. Así que si originalmente creaste un informe para informar sobre “ayer” hace un año y luego lo ejecutaste hoy, el reporte sería de ayer. Sin embargo, si especificas un rango de fechas determinado, digamos del 1 de abril al 15 de abril de 2018, la URL del informe resultante siempre reportará métricas para ese rango específico.
+* Ten en cuenta que los datos del día actual no estarán disponibles hasta el día siguiente.
+* El generador funciona como un embudo para datos. El truco es reducir los elementos más grandes (como el rango de fechas), seleccionar lo que te interesa desde allí (números, artículos, etc.), luego ajustar los datos (es decir, ordenar por número de descargas).
+* El Generador de Reportes es más útil si utiliza las Opciones Avanzadas. Todos los ejemplos a continuación usan las opciones avanzadas.
 
-#### Example report: How well has a particular (i.e., most recent) issue performed over the last few months?
+#### Informe de ejemplo: ¿Qué tal se ha desempeñado una edición particular (por ejemplo, la más reciente) en los últimos meses?
 
-This particular query will give you a monthly count of how many full text galleys have been downloaded from a particular issue. You’ll have a column for month and total count for month and a separate row for every month.
+Esta consulta en particular le dará un recuento mensual de cuántos galeys de texto completo han sido descargados de un número en particular. Tendrá una columna para el mes y el recuento total del mes y una fila separada para cada mes.
 
-* Under “Default report templates” select “Article file downloads” from the dropdown list.
-* Uncheck all boxes in the “Aggregate stats by.”
-* Click on the “Month” radio button and enter date range under “Or select range by.”
+* En “Plantillas de informe predeterminadas” seleccione “Descargas de archivos de artículo” en la lista desplegable.
+* Desmarque todas las casillas en las "Estadísticas agregadas por".
+* Haga clic en el botón de radio “Mes” e ingrese el rango de fechas en “O seleccione el rango por”.
 
-![The custom report generator with the above described settings entered in OJS.](./assets/custom-report-generator10.png)
+![El generador de informes personalizado con la configuración descrita anteriormente en el OJS.](./assets/custom-report-generator10.png)
 
-* Open “Advanced Options” and select only “Month” under Columns
+* Abre "Opciones avanzadas" y selecciona sólo "Mes" en Columnas
 
-!["Month" selected under the advanced options in the custom report generator.](./assets/custom-report-generator3.png)
+!["Mes" seleccionado bajo las opciones avanzadas en el generador de informes personalizado.](./assets/custom-report-generator3.png)
 
-* We want only a very light filtering of our data. Select submission files, then select the galley formats you wish to include in your report. This example selects only PDF, but you could select PDF and HTML if your journal also offers full-text HTML article downloads. Use Ctrl+Click or Command+Click to select multiple types. Under Object ID, enter the object ID of the issue that you’re interested in, which will be located in the issue’s URL. For example, an issue with the URL publicknowledgeproject.org/journal/index.php/journal/issue/view/**24** has the object ID 24.
+* Si queremos un filtrado muy ligero de nuestros datos. Seleccione los archivos de envío, luego seleccione los formatos de galerada que desea incluir en su informe. Este ejemplo selecciona sólo PDF, pero puede seleccionar PDF y HTML si su revista también ofrece descargas de artículos HTML de texto completo. Utilice Ctrl+Clic o Comando+Clic para seleccionar varios tipos. Bajo el ID del objeto, introduzca el ID de la edición que le interesa, el cual se ubicará en la URL del número. Por ejemplo, una edición con la URL publicknowledgeproject.org/journal/index.php/journal/issue/view/**24** tiene el ID de objeto 24.
 
-![A sample issue ID entered into the custom report generator.](./assets/custom-report-generator4.png)
+![Un ejemplo de ID de la Edición introducido en el generador de informes personalizado.](./assets/custom-report-generator4.png)
 
-* Ignore the “By geo location” and “Order by” options, and click “Generate custom report.”
-* You’ll end up with a very simple monthly report of the galley downloads for the one issue of interest for your journal.
+* Ignore las opciones "Por geoubicación" y "Ordenar por", y haga clic en "Generar reporte personalizado".
+* Terminarás con un reporte mensual muy simple de las descargas de las galeradas de la edición que te interesa de tu revista.
 
-![Results in .csv format returned from the above custom report.](./assets/custom-report-generator5.png)
+![Resultados en formato .csv obtenido del informe personalizado anterior.](./assets/custom-report-generator5.png)
 
-* Save the URL at the bottom of the page for your records!
+* ¡Guarda la URL en la parte inferior de la página para tener tu registro!
 
-#### Example report: What are the most downloaded articles over the last 5 years?
+#### Informe de ejemplo: ¿Cuáles son los artículos más descargados en los últimos 5 años?
 
-This report will present a list of article titles (and the issues they come from) ordered by descending download counts.
+Este informe presentará una lista de los títulos de los artículos (y de las ediciones de las que proceden) ordenados por cifras de descarga de manera descendente.
 
-* Select “Article file downloads” from the dropdown box.
-* Uncheck all boxes under “Aggregate stats by.”
-* Select the “Month” radio button and enter a date range.
+* Seleccione “Descargas de archivos del artículo” en el cuadro desplegable.
+* Desmarque todas las casillas en las "Estadísticas agregadas por".
+* Seleccione el botón de “Mes” e introduzca un rango de fechas.
 
-![The custom report generator with the above described settings entered in OJS.](./assets/custom-report-generator10.png)
+![El generador de informes personalizado con la configuración en el OJS descrita anteriormente.](./assets/custom-report-generator10.png)
 
-* Select only “Article” and “Issue” under Columns. We’ll be narrowing down the type at a later point in the query.
+* Seleccione sólo “Artículo” y “Edición” en Columnas. Vamos a seleccionar el tipo mas adelante.
 
-!["Article" and "Issue" selected under the advanced options in the custom report generator.](./assets/custom-report-generator6.png)
+!["Artículo" y "Edición" seleccionados bajo las opciones avanzadas en el generador de informes personalizado.](./assets/custom-report-generator6.png)
 
-* Select “Submission Files” under object type and select all galley types you wish to include in the download count.
+* Seleccione “Archivos de envío” bajo el tipo de objeto y seleccione todos los tipos de galerada que desee incluir en el recuento de descargas.
 
-![The above described settings entered in OJS.](./assets/custom-report-generator7.png)
+![La configuración en el OJS descrita anteriormente.](./assets/custom-report-generator7.png)
 
-* Ignore “geo location” (not shown here).
-* “Order by” will arrange your articles in descending order by number of downloads. To achieve this, select “Count” in the first drop down box, and the select “Descending.”
+* Ignore la “geoubicación” (no se muestra aquí).
+* “Ordenar por” organizará sus artículos en orden descendente por número de descargas. Para lograrlo, selecciona "Contar" en el primer menú desplegable y selecciona "Descender".
 
-![Arrows pointing to the first two drop downs in the Order by section, with "Count" and "Descending" selected.](./assets/custom-report-generator8.png)
+![Las flechas apuntando a los dos primeros caen en el Orden por sección, al seleccionar "Recuento" y "Descendente".](./assets/custom-report-generator8.png)
 
-* The resulting report will appear as follows (truncated):
+* El informe aparecerá como sigue (truncado):
 
-![Results in .csv format returned from the above custom report.](./assets/custom-report-generator9.png)
+![Resultados en formato .csv obtenido del informe personalizado anterior.](./assets/custom-report-generator9.png)
 
-* Save your URL at the bottom of the page!
+* ¡Guarda tu URL en la parte inferior de la página!
 
-#### Example: What’s our most popular issue?
+#### Ejemplo: ¿Cuál es nuestro edición más popular?
 
-This query displays a count of full text downloads for each journal issue and orders the results from highest to lowest.
+Esta consulta muestra un recuento de descargas de texto completo para cada edición de la revista y ordena los resultados de mayor a menor.
 
-* Select “Article file downloads” from the dropdown box.
-* Uncheck all boxes under “Aggregate stats by.”
-* Select the “Month” radio button and enter a date range.
+* Seleccione “Descargas de archivos del artículo” en el cuadro desplegable.
+* Desmarque todas las casillas en "Estadísticas agregadas por".
+* Seleccione el boton de “Mes” e introduzca un rango de fechas.
 
-![The custom report generator with the above described settings entered in OJS.](./assets/custom-report-generator10.png)
+![El generador de informes personalizado con la configuración descrita anteriormente en el OJS.](./assets/custom-report-generator10.png)
 
-* Under columns, click on “Issue.”
+* En las columnas, haga clic en “Edición”.
 
-!["Issue" selected under the advanced options in the custom report generator.](./assets/custom-report-generator11.png)
+!["Edición" seleccionada en Opciones avanzadas en el generador de informes personalizado.](./assets/custom-report-generator11.png)
 
-* Under “Filters”, select “Submission Files” under Object Type, and select the galley file type(s) used by your journal (use Ctrl+Click or Command+Click to select multiple types).
+* Bajo “Filtros”, seleccione “Archivos de envío” bajo el tipo de objeto, y seleccione el tipo de archivo galerado utilizado por su revista (utilice Ctrl+Clic o Comando+Clic para seleccionar varios tipos de galeradas).
 
-![The above described settings entered in OJS.](./assets/custom-report-generator7.png)
+![La configuración en el OJS descrita anteriormente.](./assets/custom-report-generator7.png)
 
-* Ignore “geo location” (not shown here).
-* “Order by” will arrange your articles in descending order by number of downloads. To achieve this, select “Count” in the first drop down box, and the select “Descending.”
+* Ignore la “geoubicación” (no se muestra aquí).
+* “Ordenar por” organizará sus artículos por número de descargas de forma descendente. Para lograrlo, selecciona "Contar" en el primer menú desplegable y selecciona "Descender".
 
-![Arrows pointing to the first two drop downs in the Order by section, with "Count" and "Descending" selected.](./assets/custom-report-generator8.png)
+![Las flechas apuntando a los dos primeros caen en el Orden por sección, al seleccionar "Recuento" y "Descendente".](./assets/custom-report-generator8.png)
 
-* Run your report. Here is what you’ll get:
+* Obtenga su informe. Esto es lo que obtendrá:
 
-![Results in .csv format returned from the above custom report.](./assets/custom-report-generator12.png)
+![Resultados en formato .csv obtenido del informe personalizado anterior.](./assets/custom-report-generator12.png)
 
-* Don’t forget to save your URL to run at a later date.
+* No olvide guardar su URL para ejecutarla en una fecha posterior.
 
-#### Example: What countries are downloading our articles (for a specific date interval)?
+#### Ejemplo: ¿Qué países están descargando nuestros artículos (para un rango de fecha concreto)?
 
-This query will display aggregate counts for fulltext downloads by country in descending order. Note that one will need to specify a date range.
+Esta consulta mostrará el recuento de descargas de texto completo por país en orden descendente. Tenga en cuenta que es necesario especificar un rango de fechas.
 
-* Select “Article file downloads” from the dropdown box.
-* Uncheck all boxes under “Aggregate stats by.”
-* Select the “Month” radio button and enter a date range.
+* Seleccione “Descargas de archivos del artículo” en el cuadro desplegable.
+* Desmarque todas las casillas en "Estadísticas agregadas por".
+* Seleccione la opción “Mes” e introduzca un rango de fechas.
 
-![The custom report generator with the above described settings entered in OJS.](./assets/custom-report-generator10.png)
+![El generador de informes personalizado con la configuración en el OJS descrita anteriormente.](./assets/custom-report-generator10.png)
 
-* Select only “Journal” and “Country” under Columns. You can use Ctrl+Click or Command+Click to select multiple items. We’ll be narrowing down the type at a later point in the query.
+* Seleccione sólo “Revista” y “País” en Columnas. Utilice Ctrl+Clic o Comando+Clic para seleccionar varios tipos. Vamos a seleccionar el tipo mas adelante.
 
-!["Journal" and "Country" selected under the advanced options in the custom report generator.](./assets/custom-report-generator13.png)
+!["Revista" y "País" seleccionados en las opciones avanzadas en el generador de informes personalizado.](./assets/custom-report-generator13.png)
 
-* Under “Filters”, select “Submission Files” under Object Type, and select the galley file type(s) used by your journal (use Ctrl+Click or Command+Click to select multiple types).
+* Bajo “Filtros”, seleccione “Archivos de envío” bajo tipo de objeto, y seleccione el tipo de galerada utilizado por su revista (utilice Ctrl+Clic o Comando+Clic para seleccionar varios tipos de galerada).
 
-![The above described settings entered in OJS.](./assets/custom-report-generator7.png)
+![La configuración en el OJS descrita anteriormente.](./assets/custom-report-generator7.png)
 
-* “Order by” will arrange your articles in descending order by number of downloads. To achieve this, select “Count” in the first drop down box, and the select “Descending.”
+* “Ordenar por” organizará sus artículos de forma descendente por número de descargas. Para lograrlo, selecciona "Contar" en el primer menú desplegable y selecciona "Descender".
 
-![Arrows pointing to the first two drop downs in the Order by section, with "Count" and "Descending" selected.](./assets/custom-report-generator8.png)
+![Las flechas apuntando a los dos primeros caen en el Orden por sección, al seleccionar "Recuento" y "Descendente".](./assets/custom-report-generator8.png)
 
-* Run the report.
-* Don’t forget to save your URL to run at a later date.
+* Ejecuta este informe.
+* No olvide guardar su URL para ejecutarla en una fecha posterior.
 
-![Results in .csv format returned from the above custom report.](./assets/custom-report-generator14.png)
+![Resultados en formato .csv obtenido del informe personalizado anterior.](./assets/custom-report-generator14.png)
 
-### Display Usage Statistics for Readers
+### Mostrar Estadísticas de uso a los lectores
 
-In OJS 3 you can display an article’s usage statistics for the current year as a graph on the article landing page by using the Usage Statistics Plugin, as seen in this image.
+En OJS 3 puede mostrar las estadísticas de uso de un artículo en el año actual con un gráfico en la página de inicio del artículo utilizando el plugin Estadísticas de Uso, como se ve en esta imagen.
 
-![A sample article with a graph of monthly downloads shown under the abstract.](./assets/reader-statistics.png)
+![Un artículo de muestra con un gráfico de descargas mensuales que aparece debajo del resumen.](./assets/reader-statistics.png)
 
-To enable the Usage Statistics Plugin:
+Para habilitar el plugin Estadísticas de Uso:
 
-1. Go to Settings &gt; Website &gt; Plugins.
-2. Under Generic Plugins, find the **Usage Statistics Plugin**.
-3. Check the box to the right of the plugin description.
+1. Ir a Ajustes &gt; Sitio Web &gt; Plugins.
+2. En Plugins Genéricos, busque el plugin **Estadísticas de Uso**.
+3. Marque la casilla a la derecha de la descripción del plugin.
 
-To configure the Usage Statistics Plugin:
+Para configurar el plugin Estadísticas de Uso:
 
-1. Go to Settings &gt; Website &gt; Plugins.
-2. Under Generic Plugins, find the **Usage Statistics Plugin**.
-3. Click the blue arrow to the left of the plugin name to make links appear below the plugin.
-4. Click **Settings**.
-5. Scroll to the bottom of the pop-up box that opens to the section **Statistics Display Options**.
-6. Check the box beside **Display submission statistics chart for reader**.
-7. Below that you can select whether you would like to display the statistics as a bar or line graph and the maximum number of months to display usage for.
-8. Click **Save**.
+1. Ir a Ajustes &gt; Sitio Web &gt; Plugins.
+2. En Plugins Genéricos, busque el plugin **Estadísticas de Uso**.
+3. Haga clic en la flecha azul a la izquierda del nombre del plugin para hacer que los enlaces aparezcan debajo del plugin.
+4. Haz clic en **Continuar**.
+5. Desplácese hasta la parte inferior del cuadro emergente que se abre en la sección **Opciones de visualización de estadísticas**.
+6. Marque la casilla al lado de **Mostrar el gráfico de estadísticas de sometimiento al lector**.
+7. A continuación puede seleccionar si desea mostrar las estadísticas como un gráfico de barra o línea y el número máximo de meses a mostrar.
+8. Haz clic en **Guardar**.
 
-![The optional statistic checkboxes where users can enable/disable city or regional data collection, and enable the statistics viewable to readers.](./assets/usage-stats-plugin-configuration-basic.png)
+![Las casillas de estadísticas opcionales donde los usuarios pueden activar/desactivar la recopilación de datos regionales o de ciudades, y habilitar la visibilidad de las estadísticas para los lectores.](./assets/usage-stats-plugin-configuration-basic.png)
 
-Please note the following:
+Por favor, ten en cuenta lo siguiente:
 
-* Usage statistics can only be displayed for the current year. The plugin is reset at the beginning of each year.
-* The statistics being displayed indicate the number of times an article was downloaded.
+* Las estadísticas de uso sólo se pueden mostrar para el año en curso. El plugin se reinicia al inicio de cada año.
+* Las estadísticas que se muestran indican el número de veces que se descargó un artículo.
