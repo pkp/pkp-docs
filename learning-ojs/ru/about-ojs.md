@@ -1,5 +1,6 @@
 ---
 book: learning-ojs
+showPageTOC: true
 version: 3.3
 ---
 
@@ -71,7 +72,7 @@ The link from the dashboard to the public journal site home page has moved. A Jo
 
 ![The link to view the public journal site](./assets/learning-ojs-3.3-navigation-menu-dashboard-view-journal.png)
 
-### Editorial Workflow
+### Редакционный рабочий процесс
 
 #### Uploading submission files
 
