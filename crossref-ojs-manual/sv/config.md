@@ -1,11 +1,19 @@
 ---
 book: crossref-ojs-manual
 version: 3.2
+showPageTOC: true
 ---
 
-# Crossref XML Export Plugin (OJS 3.2+)
+# Using the Crossref Plugin
 
-Crossref XML Export Plugin kan deponera DOI:er till Crossref för registrering på flera sätt:
+Du hittar Crossref plugin från din instrumentbräda genom att gå till **Tools> Import/Export > Crossref XML Export Plugin**.
+
+Det här är Crossref XML Export Plugin i OJS 3.2+:
+
+![OJS 3 Crossref XML Export Plugin: settings tab screen.](./assets/crossref3.2-plugin.png)
+
+## Automatic or Manual Deposits
+The Crossref XML Export Plugin can deposit DOIs to Crossref for registration in a variety of ways:
 
 - automatiskt, när innehållet publiceras;
 - manuellt, från plugingränssnittet;
@@ -17,18 +25,14 @@ Manuell deponering från plugingränssnittet kan användas för att välja vilke
 
 Manuell deponering genom att använda Crossref XML export och administrationsverktyg kan användas om du vill lägga till ytterligare metadata, såsom licensinformation som inte deponeras genom Crossref XML plugin.
 
-Du kan också registrera ditt innehåll hos Crossref helt utanför OJS genom att använda Crossrefs Web Deposit Form, men denna plugin hjälper dig att slippa föra in metdata för hand. Du hittar Crossref plugin från din instrumentbräda genom att gå till **Tools> Import/Export > Crossref XML Export Plugin**.
-
-Det här är Crossref XML Export Plugin i OJS 3.2+:
-
-![OJS 3 Crossref XML Export Plugin: settings tab screen.](./assets/crossref3.2-plugin.png)
+Du kan också registrera ditt innehåll hos Crossref helt utanför OJS genom att använda Crossrefs Web Deposit Form, men denna plugin hjälper dig att slippa föra in metdata för hand.
 
 ## Ställa in Crossref Plugin
 
 1. Fill out the name and email of the depositor. This name does not have to be the contact that orchestrated the Crossref membership. Det kan vara en teknisk kontaktperson. Det är bara det namn som bifogas till den metadata som skickas till Crossref. Dessa är obligatoriska fält.
 2. Fyll i användarnamn och lösenord som du har fått från Crossref när du blev medlem. Dessa används för att registrera innehåll direkt från denna plugin. (_Please note: if your browser automatically fills in passwords in OJS, it may populate these fields with your OJS username and password when you load this page. Se till att inte skriva över dina Crossref-uppgifter med ditt OJS-lösenord. Då misslyckas denna plugin._)
 
-## Automatisk deponering
+### Automatisk deponering
 
 För att slå på automatisk deponering, fyll i rutan på sidan för insttälningar.
 
@@ -36,7 +40,7 @@ För att slå på automatisk deponering, fyll i rutan på sidan för insttälnin
 
 OJS deponerar tillskrivna DOI:er när innehåll publiceras i din tidskrift. OJS gör detta med särskilda tidsintervall. Om dina DOI:er inte verkar registreras direkt efter publicering så kan du vänta en dag för att se om de tar sig igenom OJS-processen och kön hos Crossref. Du kan också kolla status för din DOI genom att klicka "Articles"-fliken högst upp på sidan för Crossref plugin. Du ser en kolumn för status på höger sida.
 
-## Manuell deponering
+### Manuell deponering
 
 Manuell deponering är alltid påslagen i OJS 3.2+.
 
