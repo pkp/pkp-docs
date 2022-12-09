@@ -1,6 +1,7 @@
 ---
 book: apprendre-ojs
 version: 3.2
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Distribution Settings
 ---
 
@@ -12,7 +13,7 @@ Veuillez noter que si votre journal est multilingue et que les formulaires sont 
 
 ## Licence
 
-This PKP School video explains how to configure copyright and licensing terms in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure copyright and licensing terms in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="qfzvbN4a-bM" provider="youtube" title="Video of how to configure copyright and licensing terms in OJS"%}
 
@@ -36,7 +37,7 @@ Ces paramètres par défaut peuvent être remplacée au cas par cas.
 
 ## Indexation par les moteurs de recherche
 
-This PKP School video explains how to enhance search indexing in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to enhance search indexing in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="qf_5sTlDXM0" provider="youtube" title="Video of how to enhance search indexing in OJS"%}
 
@@ -58,7 +59,7 @@ Utilisez **Balises Personnalisées** pour ajouter des balises d'en-tête HTML pe
 
 ## Paiements
 
-This PKP School video explains how to configure the Payments settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Cette vidéo de PKP School explique comment configurer les paramètres de paiement dans OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="9r0mRqtNVuU" provider="youtube" title="Video of how to configure payments in OJS"%}
 
@@ -104,7 +105,7 @@ Dans OJS 3.x, il n'y a pas d'option pour configurer un type de paiement pour les
 
 ## Accès
 
-This PKP School video explains how to configure the Access settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure the Access settings in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="RlKVwF3h_PM" provider="youtube" title="Video of how to configure access settings in OJS"%}
 
@@ -130,7 +131,7 @@ Une fois que vous l'avez défini comme **Abonnement**, dans l'onglet **Table des
 
 ## Archivage
 
-This PKP School video explains how to enable archiving in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to enable archiving in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="ohHaj-MSLNA" provider="youtube" title="Video of how to enable archiving in OJS"%}
 
