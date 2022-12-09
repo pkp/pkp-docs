@@ -1,17 +1,18 @@
 ---
 book: learning-ojs
+showPageTOC: true
 version: 3.3
 ---
 
 # About Open Journal Systems (OJS)
 
-Open Journal Systems \(OJS\) is an open source solution to managing and publishing scholarly journals online. OJS is a highly flexible editor-operated journal management and publishing system that can be downloaded for free and installed on a local Web server.
+Open Journal Systems \(OJS\) es una solución de código abierto para la gestión y publicación de revistas científicas en línea. OJS es un sistema de gestión y publicación altamente flexible operado por el editor que se puede descargar gratuitamente e instalar en un servidor web local.
 
-It has been designed to reduce the time and energy devoted to the clerical and managerial tasks associated with editing a journal, while improving the record-keeping and efficiency of editorial processes. It seeks to improve the scholarly and public quality of journal publishing through a number of innovations, including enhancing the reader experience, making journal policies more transparent, and improving indexing.
+Ha sido diseñado para reducir el tiempo y la energía dedicadas a las tareas administrativas y de gestión asociadas a la edición de una publicación, mientras se mejora el registro y la eficiencia de los procesos editoriales. Su objetivo es mejorar la calidad académica y pública en la publicación de revistas a través de una serie de innovaciones, incluyendo la mejora de la experiencia del lector, una mayor transparencia de las políticas de la revista y la mejora de su indexación.
 
-This guide covers OJS version 3.3, released in February 2021, and features significant enhancements over the previous versions of the software. We hope you find it helpful for your publishing projects.
+This guide covers OJS version 3.3, released in February 2021, and features significant enhancements over the previous versions of the software. Esperamos que la encuentre útil para sus proyectos de publicación.
 
-## Background
+## Contexto
 
 This PKP School video explains the background on PKP and OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -27,19 +28,19 @@ This PKP School video explains the background on PKP and OJS. To watch other vid
 
 <hr />
 
-## OJS Features
+## Características de OJS
 
 OJS incluye las siguientes características:
 
-1. OJS is installed locally and controlled locally
-2. Editors configure requirements, sections, review process, etc.
+1. OJS se instala y se controla localmente
+2. Los editores configurar los requisitos, las secciones, el proceso de revisión, etc.
 3. Online submission, anonymous review, and management of all content
-4. Comprehensive indexing of content
-5. Responsive, themable reader interface
-6. Email notification for readers
-7. Support for article-processing charges, subscriptions, and online payments
-8. Complete context-sensitive online Help support
-9. Multilingual support
+4. Indexación integral del contenido
+5. Interfaz de lector responsiva y modificable
+6. Notificaciones por correo electrónico para lectores
+7. Soporte para gastos de procesamiento de artículos, suscripciones y pagos en línea
+8. Soporte completo de ayuda en línea sensible al contexto
+9. Asistencia multilingüe
 
 ## What's New in This Version of OJS
 
@@ -71,7 +72,7 @@ The link from the dashboard to the public journal site home page has moved. A Jo
 
 ![The link to view the public journal site](./assets/learning-ojs-3.3-navigation-menu-dashboard-view-journal.png)
 
-### Editorial Workflow
+### Flujo de trabajo Editorial
 
 #### Uploading submission files
 
@@ -141,15 +142,15 @@ There is better support for languages that read right-to-left, such as Arabic, F
 #### Remote URLs
 Navigation menu items with remote URLs can now have different remote URLs for each language.
 
-## Community Contributions
+## Contribuciones comunitarias
 
-The OJS team encourages contributions from the developer community. If you are interested in getting involved in making OJS even better, we welcome your participation.
+El equipo OJS fomenta las contribuciones de la comunidad de desarrolladores. If you are interested in getting involved in making OJS even better, we welcome your participation.
 
 Excellent examples of community contributions include the vast array of languages that OJS is available in; and third-party plugins posted to the [community forum](https://forum.pkp.sfu.ca/) and the archived forum page.
 
 We also welcome software testing and bug reporting contributions.
 
-## Support
+## Soporte
 
 PKP offers the following free support resources for OJS:
 
