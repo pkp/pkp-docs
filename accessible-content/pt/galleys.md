@@ -1,5 +1,5 @@
 - - -
-title: Creating accessible galley files- Creating Accessible Content Guide
+title: Creating accessible galley files- Creating Accessible Content Guide showPageTOC: true
 - - -
 
 # Criando documentos para publicação acessíveis
