@@ -1,6 +1,7 @@
 ---
-book: learning-ojs
-version: 3.3
+book: apprendre-ojs
+version: 3.2
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Statistics
 ---
 
@@ -14,7 +15,7 @@ For a video walkthrough of Statistics in OJS, see our [Setting up a journal in O
 
 [![Setting up a journal in OJS 3.3. Module 13: Statistics](https://img.youtube.com/vi/fU1orCK7GSM/0.jpg)](https://www.youtube.com/watch?v=fU1orCK7GSM&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
-## Définitions
+## Utilisateurs
 
 The following definitions may be helpful to you for understanding the variety of statistics tracked by OJS.
 
@@ -51,7 +52,7 @@ You also have the option of searching the statistics of a specific article by ti
 
 ![The search bar for locating specific article statistics.](./assets/article-details-search.png)
 
-## Activité éditoriale
+## Options d'accès au site
 
 This section provides statistics about the editorial workflow, such as number of submissions received, days to first editorial decision, and acceptance and rejection rates. You can filter these statistics using a custom date range to, e.g., find the number of articles accepted during a 12-month period.
 
