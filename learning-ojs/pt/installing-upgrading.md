@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Instalação e Atualização
 description: Um recurso básico para encontrar mais informações sobre instalar ou atualizar OJS, ou localizar um host OJS.
 ---
