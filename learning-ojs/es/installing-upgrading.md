@@ -1,27 +1,28 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Instalar y Actualizar
 description: A basic resource for finding more information on installing or upgrading OJS, or locating an OJS host.
 ---
 
-# Installing and Upgrading
+# Instalar y Actualizar
 
-OJS 3 is a PHP web application with standardized install and upgrade processes. These processes are kept as simple as possible, though some general systems administration experience is recommended.
+OJS 3 es una aplicación web de PHP con procesos estandarizados de instalación y actualización. Estos procesos se mantienen lo más sencillos posible, aunque se recomienda cierta experiencia general en la administración de sistemas.
 
 Up-to-date OJS system requirements, as well as installation, upgrade, and configuration instructions can be found in the following locations:
 
-* in the package you downloaded from the [OJS download page](https://pkp.sfu.ca/ojs/ojs_download/) (look in the `docs/` directory);
+* en el paquete descargado desde la [página de descarga de OJS](https://pkp.sfu.ca/ojs/ojs_download/) (dentro del directorio `docs/`);
 * in the technical [How to Upgrade Guide](/dev/upgrade-guide/);
 * directamente en los documentos en línea [README](https://pkp.sfu.ca/ojs/README) o [UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE);
 * in the PKP [Administrator's Guide](/admin-guide/).
 
-For those who want to install from source via Git, instructions can be found directly on [GitHub](https://github.com/pkp/ojs).
+Para aquellos que quieran instalar desde el código fuente a través de Git, las instrucciones se pueden encontrar directamente en [GitHub](https://github.com/pkp/ojs).
 
-## Download
+## Descarga
 
-OJS can be downloaded from the [Public Knowledge Project web site](https://pkp.sfu.ca).
+OJS se puede descargar desde el [sitio web de Public Knowledge Project](https://pkp.sfu.ca).
 
-## Hosted Solutions
+## Soluciones Alojadas
 
-If you do not have the expertise, staff or desire to install and manage OJS on your own, PKP Publishing Services provides complete hosting solutions at a number of price points. For more information, see the [PKP Publishing Services website](https://pkpservices.sfu.ca).
+Si no tiene la experiencia, el personal o el deseo de instalar y administrar OJS por su cuenta, PKP Publishing Services proporciona soluciones completas de alojamiento con distintos precios. Para obtener más información, consulte el [sitio web de los Servicios de Publicación de PKP](https://pkpservices.sfu.ca).
