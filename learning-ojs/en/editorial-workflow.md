@@ -317,7 +317,7 @@ This initiates a new window with a message for the Reviewer.
 
 You can revise any of the prepared text.
 
-If you are using an Anonymous Review method, ensure that the files you send to the Reviewer are stripped of any identifying information about the Author. Additional instruction for this is provided in the [Understanding Anonymous Review](#understanding-anonymous-review) and [Removing Identifying Information](#removing-identifying-information) sections.
+If you are using an Anonymous Review method, ensure that the files you send to the Reviewer are stripped of any identifying information about the Author. Additional instruction for this is provided in the [Understanding Different Types of Review](#understanding-different-types-of-review) and [Removing Identifying Information](#removing-identifying-information) sections.
 
 Further down the form, you will see the additional details that are sent to the Reviewer including title, abstract, important dates, and a link to the files to be reviewed.
 
@@ -377,7 +377,7 @@ You will then select the reviewer(s) you would like to start a discussion with.
 
 At this point, we could add additional Reviewers, and then wait for their recommendations to come in.
 
-### Understanding Anonymous Review
+### Understanding Different Types of Review
 
 OJS is designed to accommodate different types of reviews and has built-in steps to ensure anonymity.
 
@@ -417,6 +417,31 @@ At the end of a review, if a reviewer chooses to upload a review file they shoul
 *Editors Decision*: The decision email sent to the author(s) at the end of a review will have generic titles of the reviewers.
 
 ![A sample decision email identifying the reviewer only as "Reviewer A".](./assets/learning-ojs3.1-ed-rev-anon3.png)
+
+**Open Review (Disclosed Reviewer/Disclosed Author)**: The identities of both the author and the reviewer are known to each other. Although it is relatively new and less common in scholarly publishing, there are [several compelling reasons](https://digitalpublishingworkshop.com/journal-publishing/new-perspectives-on-peer-review/#how) for journals to opt for an open review process. We advise journals to make their review policies clear and transparent; some examples of such policies:
+
+- [In the Library with the Lead Pipe: an open access, open peer-reviewed journal](https://www.inthelibrarywiththeleadpipe.org/about/)
+- [Intersectional Apocalypse](https://journals.lib.sfu.ca/index.php/ifj/reviewpolicy)
+
+*Reviewer*:  The reviewer will be able to see the author’s name if they click on “View All Submission Details.” They do not need to accept the review request, in order to see this information. The reviewer can make their decision on whether they want to review a manuscript, with knowledge about the author’s identity.
+
+![Open Review Reviewer assignment window for editors.](./assets/learning-ojs3.3-ed-rev-open1.png)
+
+*Author*: The author can also see the reviewer’s name, but only after the reviewer has accepted the request. The author cannot see the assigned potential reviewer(s).
+
+![Open Review dashboard shown to authors.](./assets/learning-ojs3.3-ed-rev-open2.png)
+
+*Communications*: Since the review is open, authors and reviewers can communicate with each other using the discussion feature. Even if they don’t include the editor as a “participant” to the discussion, editors can always view discussions. 
+
+The author, reviewer, and editor can all see messages between reviewer and author.
+
+![Example of Open Review discussion window.](./assets/learning-ojs3.3-ed-rev-open3.png)
+
+*Editor*: Like other types of reviews, editors can see all activities.  Additionally, the reviewer has the option of leaving messages exclusively for the editor.  Authors cannot see notes submitted under “For editor only.”
+
+![Example of Open Review’s reviewer comments.](./assets/learning-ojs3.3-ed-rev-open4.png)
+
+Since identities are not secret, it is not necessary to follow steps under [Removing Identifying Information](#removing-identifying-information).
 
 ### Removing Identifying Information
 
