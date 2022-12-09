@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Site Administration
 ---
 
@@ -82,7 +83,7 @@ To add another language:
 
 1. Click Install Locale
 2. Check off the locales you would like to install
-3. Click Save
+3. Haga clic en Guardar
 
 After installing the new locale, you will have to enable it on the Site Settings > Languages page.  Further configuration of the language’s availability on the site can be done under Website Settings > Languages by a Journal Manager. See the [Website Settings chapter](./settings-website) for details.
 
