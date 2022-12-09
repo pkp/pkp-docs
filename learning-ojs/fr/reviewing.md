@@ -1,6 +1,7 @@
 ---
 book: apprendre-ojs
 version: 3.2
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Reviewing
 descriptions: Instructions for managing assigned reviews as a peer reviewer in OJS.
 ---
