@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Aprendendo Open Journal Systems 3.3 - Administração do Portal
 ---
 
@@ -12,7 +13,7 @@ Você poderá criar novas instâncias de revistas hospedadas, gerenciar o suport
 
 Mais informações técnicas sobre como administrar um site OJS, incluindo atualizações, e-mail, estatísticas e importação e exportação, estão disponíveis no [Guia do Administrador](https://docs.pkp.sfu.ca/admin-guide/en/).
 
-## Administração do Portal
+## Gestão do site
 
 Para chegar à Administração do Portal, efetue login como Administrador do Portal e escolha Administração no menu à esquerda.
 
