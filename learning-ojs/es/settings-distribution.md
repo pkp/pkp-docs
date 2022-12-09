@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Distribution Settings
 ---
 
@@ -88,7 +89,7 @@ If you select **Manual Fee Payment** under **Payment Plugins**, a field will app
 
 You will also need to enable the Manual Payment Plugin under Website Settings > Plugins to accept manual payments.
 
-Click **Save**.
+Haz clic en **Guardar**.
 
 A new menu item will appear on the main dashboard menu called **Payments**.
 
