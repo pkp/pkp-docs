@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Aprendendo Open Journal Systems 3.3 - Editoração e Publicação
 description: Instruções detalhadas para o estágio de editoração do fluxo de trabalho OJS.
 ---
