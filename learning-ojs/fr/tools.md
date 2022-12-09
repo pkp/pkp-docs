@@ -2,6 +2,7 @@
 book: apprendre-ojs
 version: 3.2
 title: Learning Open Journal Systems 3.3 - Tools
+showPageTOC: true
 description: A guide to using the Tools menu in OJS, including Import/Export functions and QuickSubmit.
 ---
 
@@ -15,7 +16,7 @@ Les Outils consistent d'un onglet Import/Export, d'un onglet Générateur de Rap
 
 {% include video.html id="v3zjjVFYAyc" provider="youtube" title="Video of setting up a journal in OJS 3.3. Module 14: Tools"%}
 
-This PKP School video explains how to access and use Import/Export tools. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to access and use Import/Export tools. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 ## Importer/Exporter
 
@@ -35,9 +36,9 @@ Pour des instructions détaillées sur l'importation et l'exportation voir le [G
 
 {% include video.html id="_nm1dGIZS8Y" provider="youtube" title="Video of setting up a journal in OJS 3.3. Module 18: Plugins- QuickSubmit"%}
 
-This PKP School video explains how to use the Quick Submit Plugin to add complete submissions to an issue. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to use the Quick Submit Plugin to add complete submissions to an issue. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-Le plugiciel Quick Submit vous permet d'ajouter rapidement des soumissions complètes à une publication. Cela fournit un processus de soumission en une seule étape pour les éditeurs qui doivent contourner le processus traditionnel de soumission, de révision et d'édition.
+Le Plugiciel Quick Submit vous permet d'ajouter rapidement des soumissions complètes à un numéro. Il fournit un processus de soumission en une étape pour les éditeurs qui doivent contourner le processus traditionnel de soumission, d'évaluation et d'édition.
 
 Pour utiliser ce plugiciel, vous aurez besoin des éléments suivants:
 
