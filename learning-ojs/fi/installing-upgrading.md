@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: 'Luku 2: Asentaminen ja päivittäminen'
 description: A basic resource for finding more information on installing or upgrading OJS, or locating an OJS host.
 ---
