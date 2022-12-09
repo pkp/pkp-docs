@@ -81,7 +81,7 @@ isBookIndex: true
 
 Unlike with a single-page document, you no longer need to add to index.md. The rest of your document steps should be as follows:
 
-1. Create a folder for the [language of your document](http://www.lingoes.net/en/translator/langcode.htm) (eg: en_US, en_CA, fr_CA, fr_FR).
+1. Create a folder for the [language of your document](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) using the two-letter ISO 639-1 code (e.g.,: en, fr, es, ar).
 2. Create a file called `SUMMARY.md`
     - `SUMMARY.md` is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file. You can fill in all of the chapter and section links after you have created the chapter files.
         - a chapter link would look like: `- [Statistics](statistics.md)`
