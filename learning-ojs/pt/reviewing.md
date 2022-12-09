@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Aprendendo Open Journal Systems 3.3 - Processo de Revisão
 descriptions: Instruções para gerenciar revisões atribuídas como revisor no OJS.
 ---
