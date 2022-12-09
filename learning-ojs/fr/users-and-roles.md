@@ -1,6 +1,7 @@
 ---
 book: apprendre-ojs
 version: 3.2
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Users and Roles
 ---
 
@@ -10,7 +11,7 @@ This section provides information on accessing all of user accounts associated w
 
 ## Utilisateurs
 
-This PKP School video explains how to manage users in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to manage users in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="_AAtxnFEodQ" provider="youtube" title="Video of how to manage users in OJS"%}
 
@@ -142,7 +143,7 @@ Un utilisateur peut avoir plusieurs rôles, par exemple, être un-e directeur/tr
 
 Si l'utilisateur/trice ne parvient toujours pas à se connecter, son compte a peut-être été désactivé. Pour le réactiver:
 
-1. Allez dans Utilisateurs et rôles > Utilisateurs
+1. Allez dans Utilisateurs et Rôles > Utilisateurs
 2. Trouvez l'utilisateur qui ne peut pas se connecter et cliquez sur la flèche bleue à côté de son nom
 3. Regardez sous leur nom pour **Activer** ou **Désactiver.** Si Désactiver apparaît, le compte est déjà activé. Si Activer apparaît, cliquez dessus pour réactiver le compte.
 
@@ -150,7 +151,7 @@ Si l'utilisateur/trice ne parvient toujours pas à se connecter, son compte a pe
 
 ## Rôles
 
-This PKP School video explains how to manage roles in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to manage roles in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="3sqD41OKuFs" provider="youtube" title="Video of how to manage roles in OJS"%}
 
@@ -212,7 +213,7 @@ Use the _Create New Roles_ link to open a window where you can create a new role
 
 ## Options d'Accès au Site
 
-This PKP School video explains how to configure site options in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure site options in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="lqf4GmA01PA" provider="youtube" title="Video of how to configure site access options in OJS"%}
 
