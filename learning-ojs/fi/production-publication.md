@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Production and Publication
 description: Detailed instructions for the Production stage of the OJS workflow.
 ---
