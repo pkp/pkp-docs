@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Workflow Settings
 ---
 
@@ -79,7 +80,7 @@ This tab allows you to configure your journal's review process.
 
 ![OJS 3.3 review configuration editing menu.](./assets/learning-ojs3.1-jm-settings-workflow-review.png)
 
-### Setup
+### Inställningar
 
 **Default Review Mode**: Select whether your journal will follow an anonymous reviewer/anonymous author, anonymous reviewer/disclosed author, or open review process.
 
