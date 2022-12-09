@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Authoring
 description: A guide on how to submit a manuscript to an OJS journal as an author.
 ---
