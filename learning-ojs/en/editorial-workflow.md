@@ -439,7 +439,7 @@ The author, reviewer, and editor can all see messages between reviewer and autho
 
 *Editor*: Like other types of reviews, editors can see all activities.  Additionally, the reviewer has the option of leaving messages exclusively for the editor.  Authors cannot see notes submitted under “For editor only.”
 
-![Example of Open Review’s reviewer comments.](./assets/learning-ojs3.3-ed-rev-open3.png)
+![Example of Open Review’s reviewer comments.](./assets/learning-ojs3.3-ed-rev-open4.png)
 
 Since identities are not secret, it is not necessary to follow steps under [Removing Identifying Information](#removing-identifying-information).
 
