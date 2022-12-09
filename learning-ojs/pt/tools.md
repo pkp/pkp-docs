@@ -2,6 +2,7 @@
 book: learning-ojs
 version: 3.3
 title: Aprendendo Open Journal Systems 3.3 - Estatísticas
+showPageTOC: true
 description: Um guia sobre como usar o menu Ferramentas no OJS, incluindo as funções Importar/Exportar e Submissão rápida.
 ---
 
@@ -17,7 +18,7 @@ Ferramentas é constituída das abas Importação/Exportação, Gerador de Relat
 
 Este vídeo da Escola do PKP explica como acessar e usar ferramentas de Importação/Exportação. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-## Importar/Exportar
+## Importação/Exportação
 
 Importação/Exportação permite que você obtenha dados da sua revista/periódico OJS facilmente e insira dados nele.
 
