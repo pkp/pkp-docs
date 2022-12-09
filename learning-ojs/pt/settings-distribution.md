@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Aprendendo Open Journal Systems 3.3 - Configurações da Distribuição
 ---
 
@@ -12,7 +13,7 @@ Observe que, se sua revista for multilíngue e você tiver, nos ajustes de idiom
 
 ## Licença
 
-Este vídeo da PKP School explica como configurar os termos de direitos autorais e licenciamento no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como configurar os termos de direitos autorais e licenciamento no OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="qfzvbN4a-bM" provider="youtube" title="Vídeo sobre como configurar termos de direitos autorais e licenciamento em OJS"%}
 
