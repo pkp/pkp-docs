@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Users and Roles
 ---
 
@@ -30,9 +31,9 @@ You can edit a user account by selecting the blue arrow to the left of an entry.
 
 ![Blue arrow selected by a user's name with options to edit their account](./assets/learning-ojs3.1-jm-users-edit.png)
 
-This opens the options to Email, Edit User, Disable, Remove, Login As, Merge User.
+Esto abre las opciones a Correo electrónico, Editar Usuario, Deshabilitar, Eliminar, Iniciar Sesión, Fusionar usuario.
 
-#### Email Users
+#### Usuarios de correo electrónico
 
 If you want to email a user about a particular submission, you can use the Discussion feature in the submission. This keeps all communication about a submission in one place.
 
@@ -89,7 +90,7 @@ To merge users:
 6. Click **Merge into this user**
 7. Press **OK** to confirm
 
-#### Search Users
+#### Buscar usuarios
 
 When you have a large number of users, you will want to take advantage of the search feature.
 
@@ -101,7 +102,7 @@ This can help you quickly find a user by first name, last name, or email address
 
 ![Search for all users with a given role](./assets/learning-ojs-3-users-search-roles.png)
 
-#### Add User
+#### Agregar usuario
 
 To add a new user to your journal, select the Add User link. This will open a new window with a set of fields to fill in.
 
@@ -180,13 +181,13 @@ From this page, you can see each role, and the editorial stage each role can acc
 
 In addition to assigning and editing the predefined roles, Site Administrators and Journal Managers can also create new roles or rename existing ones.
 
-### Editing Roles
+### Editar roles
 
 Unchecking a box removes access to that stage for users with that role.
 
 Selecting the blue arrow to the left of the role name reveals the edit link. Clicking this opens the editing window.
 
-![Edit details of a role](./assets/learning-ojs3.1-jm-users-roles-edit.png)
+![Editar detalles de un rol](./assets/learning-ojs3.1-jm-users-roles-edit.png)
 
 **Permission Level**: This indicates how much a user with this role can do in any stage.
 
@@ -204,7 +205,7 @@ Use the second option to determine whether users can self-register in this role.
 
 The third option is useful for guest editors or possibly section editors, depending upon your preferred workflow and authority chain.
 
-### Create New Roles
+### Crear nuevos roles
 
 Use the _Create New Roles_ link to open a window where you can create a new role for your journal, including setting which stages it can access and how much permission it should have.
 
