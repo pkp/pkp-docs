@@ -1,5 +1,6 @@
 ---
 book: learning-ojs
+showPageTOC: true
 version: 3.3
 ---
 
@@ -7,7 +8,7 @@ version: 3.3
 
 Open Journal Systems \(OJS\) on avoimen lähdekoodin ratkaisu tieteellisten lehtien hallintaan ja julkaisemiseen verkossa. Open Journal Systems on erittäin joustava tieteellisten sarjojen toimitustyöhön ja julkaisuun suunnattu järjestelmä, jota julkaisujen toimittajat hallinnoivat. Järjestelmän voi ladata ja asentaa ilmaiseksi verkosta.
 
-Järjestelmän tarkoitus on vähentää julkaisujen toimitukseen liittyviin toimisto- ja johtotehtäviin käytettyä aikaa ja energiaa, samalla kun toimistusprosessien seurattavuus ja tehokkuus kasvaa. Näin pyritään kehittämään julkaisujen tieteellistä ja julkista laatua erilaisten innovaatioiden avulla: tavoitteena on esim. lukijakokemuksen parantaminen, julkaisukäytäntöjen läpinäkyyden lisääminen ja parempi indeksointi.
+Järjestelmän tarkoitus on vähentää julkaisujen toimitukseen liittyviin toimisto- ja johtotehtäviin käytettyä aikaa ja energiaa, samalla kun toimistusprosessien seurattavuus ja tehokkuus kasvaa. Näin pyritään kehittämään julkaisujen tieteellistä ja julkista laatua erilaisten innovaatioiden avulla: tavoitteena on esim. lukijakokemuksen parantaminen, julkaisukäytäntöjen läpinäkyvyyden lisääminen ja parempi indeksointi.
 
 Tämän oppaan sisältö kattaa helmikuussa 2021 julkaistun OJS-version 3.3. Kyseisessä versiossa on merkittäviä parannuksia aiempiin versioihin verrattuna. Toivomme, että oppaasta on Sinulle hyötyä julkaisutyössä.
 
@@ -33,10 +34,10 @@ OJS sisältää seuraavat ominaisudet:-:
 
 1. OJS asennetaan paikallisesti, ja sitä hallinnoidaan paikallisesti.
 2. Julkaisujen toimittajat määrittävät vaatimukset, prosessiin tarvittavat osiot, arviointiprosessin yksityiskohdat jne.
-3. Käsikirjoituksia tarjotaan verkkopalvelun kautta, arviointiprosessi on anonyymi ja kaikkea sisältöä voi hallita.
+3. Käsikirjoitukset lähetetään verkkopalvelun kautta, arviointiprosessi on anonyymi, ja kaikkea sisältöä voi hallita.
 4. Sisällön kattava indeksointi.
 5. Helppokäyttöinen ja tilanteeseen sopiva lukijanäkymä.
-6. Sähköpostimuistutukset lukijoille
+6. Sähköpostimuistutukset lukijoille.
 7. Julkaisumaksujen, tilausten ja verkkomaksujen tuki.
 8. Kattava sisältösensitiivinen verkkotuki.
 9. Tukea saatavilla monella eri kielellä.
@@ -45,15 +46,15 @@ OJS sisältää seuraavat ominaisudet:-:
 
 OJS 3.3:ssa kojelauden navigointivalikkoa on yksinkertaistettu. Käsikirjoitusten lähettämiseen, käyttäjien kanssa viestintään sa saavutettavuuteen on tullut uusia ominaisuuksia.  Tässä kappaleessa esitellään keskeiset muutokset, jotta tiedät, mitä odottaa OJS 3.3:een päivittämiseltä. Aiheesta on myös  [opetusvideo, jolla esitellään OJS 3.3:n](https://youtu.be/3D_hS4Bd-Y8) uudet ominaisuudet. Videon on tuottanut [PKP Publishing Services](https://pkpservices.sfu.ca).
 
-Many of these changes are applicable also to Open Monograph Press (OMP) and Open Preprint Systems (OPS).
+Monet näistä muokkauksista ovat sovellettavissa myös  Open Monograph Press (OMP) ja Open Preprint Systems (OPS) -järjestelmiin.
 
-If you are upgrading from OJS 2 and want to see an overview of changes in OJS 3.X, see [What’s New In OJS 3 in a previous version of this guide](https://docs.pkp.sfu.ca/learning-ojs/3.1/en/introduction#whats-new-in-ojs-3) and PKP’s guide to [Upgrading from OJS 2 to OJS 3](https://docs.pkp.sfu.ca/upgrading-ojs-2-to-3/). Please note that you will need to first upgrade from OJS 2 to OJS 3.2, and from there upgrade to OJS 3.3.
+Mikäli uuteen versioon päivitetään OJS 2 -järjestelmästä, kooste tapahtuvista muutoksista OJS 3 -järjestelmään siirryttyessä löytyy oppaasta [What’s New In OJS 3 in a previous version of this guide](https://docs.pkp.sfu.ca/learning-ojs/3.1/en/introduction#whats-new-in-ojs-3) sekä PKP:n oppaasta [Upgrading from OJS 2 to OJS 3](https://docs.pkp.sfu.ca/upgrading-ojs-2-to-3/) Huom! OJS 2 on ensin päivitettävä versioon OJS 3.2, jonka voi edelleen päivittää versioon OJS 3.3.
 
-For a summary of changes in OJS 3.3 that are relevant to developers and development, please see the [Release Notebook for OJS OJS/OMP/OPS v3.3](https://docs.pkp.sfu.ca/dev/release-notebooks/en/3.3-release-notebook)
+Yhteenveto OJS 3:een tehdyistä muutoksista. jotka ovat olennaisia kehittäjien ja kehityksen kannalta, katso [OJS OJS/OMP/OPS v3.3 -käsikirja](https://docs.pkp.sfu.ca/dev/release-notebooks/en/3.3-release-notebook)
 
-### Dashboard Interface and Navigation Menus
+### Kojelaudan käyttöliittymä ja navigointivalikko
 
-There are some changes to the dashboard interface and navigation menus for logged in users in OJS 3.3.
+Kojelauden käyttöliittymässä ja navigointivalikossa on joitain muokkauksia, jotka ovat saatavilla vain kirjautuneille käyttäjille.
 
 Journal Managers, Editors, Reviewers, Authors, and others who log in may notice a change in the main navigation menu on the left side. In 3.3, only users in roles who have access to the Settings menus (Journal Managers and Editors) will see the left-hand navigation menu. There are also additional menu links for Issues, Announcements, and Payments, and some of the menu links have moved.
 
