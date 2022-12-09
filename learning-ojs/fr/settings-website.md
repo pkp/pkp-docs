@@ -1,6 +1,8 @@
 ---
 book: apprendre-ojs
 version: 3.2
+showPageTOC: true
+title: Learning Open Journal Systems 3.3 - Website Settings
 ---
 
 # Paramètres du Site Web
