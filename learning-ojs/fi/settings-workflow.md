@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Workflow Settings
 ---
 
@@ -10,7 +11,7 @@ The Workflow Settings allow you to configure various parts of the journal's edit
 
 ## Submission
 
-This PKP School video explains how to configure the submission process in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure the submission process in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="_I2-IpEWu9E" provider="youtube" title="Video of how to configure the submission process in OJS"%}
 
@@ -32,7 +33,7 @@ This section determines what types of metadata will be collected during the subm
 
 ### Components
 
-This PKP School video explains how to manage Components in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to manage Components in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="UkmvhHjP5V0" provider="youtube" title="Video of how to manage components in OJS"%}
 
@@ -71,7 +72,7 @@ Use this field to add information for your authors that will be useful during th
 
 ## Review
 
-This PKP School video demonstrates how to configure the Review process in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video demonstrates how to configure the Review process in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="1adbIbQM6E0" provider="youtube" title="Video of how to configure the Review process in OJS"%}
 
@@ -152,7 +153,7 @@ Once you send the form to a reviewer you will no longer be able to edit it becau
 
 ## Publisher Library
 
-This PKP School video explains how to use the Publisher Library in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to use the Publisher Library in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="QhOJjxW0_Rw" provider="youtube" title="Video of the Publisher Library in OJS"%}
 
@@ -176,7 +177,7 @@ To add a file here, click ‘Add a file’ on the top right corner of the Publis
 
 ## Emails
 
-This PKP School video explains how to configure emails in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure emails in OJS. Lisää videoita samasta aiheesta löydät PPK:n YuoTube-kanavalta osoitteesta [](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
 
 {% include video.html id="ZK-Nb7wfHew" provider="youtube" title="Video of how to configure emails in OJS"%}
 
