@@ -1,5 +1,6 @@
 ---
 title: General principles for creating accessible content - Creating Accessible Content Guide
+showPageTOC: true
 ---
 
 # Princípios gerais para a criação de conteúdo acessível
@@ -434,7 +435,7 @@ Para [criar tabelas acessíveis no Microsoft Word](https://kb.iu.edu/d/aqjl):
 
 ## Metadados do documento
 
-Incluir metadados ao documento aumenta sua capacidade de ser pesquisável. Também permite que aplicativos de software e tecnologias adaptativas forneçam aos usuários as principais informações sobre o documento, para que possam localizar facilmente o documento desejado e determinar se é o que precisam. To learn more, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
+Incluir metadados ao documento aumenta sua capacidade de ser pesquisável. Também permite que aplicativos de software e tecnologias adaptativas forneçam aos usuários as principais informações sobre o documento, para que possam localizar facilmente o documento desejado e determinar se é o que precisam. Para saber mais, veja [o guia de melhores práticas em metadados de periódicos](https://github.com/pkp/pkp-docs/blob/main/metadata-practices/en).
 
 ### Nome do arquivo
 
