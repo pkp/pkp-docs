@@ -1,3 +1,8 @@
+---
+title: Princípios gerais para a criação de conteúdo acessível -Um guia para criar conteúdo acessível
+showPageTOC: true
+---
+
 # Princípios gerais para a criação de conteúdo acessível
 
 ## Texto alternativo para imagens

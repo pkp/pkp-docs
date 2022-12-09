@@ -1,6 +1,7 @@
 ---
 book: crossref-ojs-manual
 version: 3.2
+showPageTOC: true
 ---
 # Crossmark
 

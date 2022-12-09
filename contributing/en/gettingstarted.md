@@ -1,5 +1,6 @@
 ---
 title: Getting Started - Guidelines for Contributing to PKP Documentation
+showPageTOC: true
 ---
 # Getting Started
 

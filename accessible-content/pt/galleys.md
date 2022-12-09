@@ -1,3 +1,8 @@
+---
+title: Criando documentos para publicação acessíveis -Um guia para criar conteúdo acessível
+showPageTOC: true
+---
+
 # Criando documentos para publicação acessíveis
 
 Esta seção apresenta uma visão geral de como incorporar os princípios de conteúdo acessível listados acima em formatos de publicação específicos provavelmente adotados pelo seu periódico.
