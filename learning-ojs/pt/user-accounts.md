@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Aprendendo Open Journal Systems 3.3 - Gerenciamento de Contas de Usuário
 description: Um guia para registrar e gerenciar sua conta Open Journal Systems (OJS).
 ---
