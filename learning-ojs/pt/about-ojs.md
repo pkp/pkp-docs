@@ -1,5 +1,6 @@
 ---
 book: learning-ojs
+showPageTOC: true
 version: 3.3
 ---
 
@@ -90,7 +91,7 @@ Todas as submissões ativas e arquivadas podem agora ser filtradas pelo número 
 
 #### Reverter uma decisão declinada
 
-Uma nova ação editorial permite aos editores reverterem uma decisão declinada nos estágios de submissão e revisão. Depois que uma decisão declinada for revertida, a submissão é restaurada ao estágio prévio e a rodada de revisão torna-se ativa. Para obter mais instruções, acesse o [Capítulo do Fluxo Editorial](./editorial-workflow#submission-dashboard).
+Uma nova ação editorial permite aos editores reverterem uma decisão declinada nos estágios de submissão e revisão. Depois que uma decisão de rejeitar é revertida, a submissão é restaurada ao estágio anterior e a rodada de avaliação se ativa. Para obter mais instruções, acesse o [Capítulo do Fluxo Editorial](./editorial-workflow#submission-dashboard).
 
 #### Excluir apenas submissão rejeitadas
 
