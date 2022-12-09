@@ -1,6 +1,7 @@
 ---
 book: apprendre-ojs
 version: 3.2
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Workflow Settings
 ---
 
@@ -10,7 +11,7 @@ Les paramètres de flux des travaux vous permettent de configurer diverses parti
 
 ## Apparence
 
-This PKP School video explains how to configure the submission process in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure the submission process in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="_I2-IpEWu9E" provider="youtube" title="Video of how to configure the submission process in OJS"%}
 
@@ -32,7 +33,7 @@ This section determines what types of metadata will be collected during the subm
 
 ### Liste de vérifications
 
-This PKP School video explains how to manage Components in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to manage Components in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="UkmvhHjP5V0" provider="youtube" title="Video of how to manage components in OJS"%}
 
@@ -71,7 +72,7 @@ Utilisez ce champ pour ajouter des informations pour vos auteurs qui seront util
 
 ## Évaluation
 
-This PKP School video demonstrates how to configure the Review process in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video demonstrates how to configure the Review process in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="1adbIbQM6E0" provider="youtube" title="Video of how to configure the Review process in OJS"%}
 
@@ -152,7 +153,7 @@ Les formulaires suggérés qui peuvent être téléversé dans cette zone peuven
 
 ## Bibliothèque de l'éditeur
 
-This PKP School video explains how to use the Publisher Library in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to use the Publisher Library in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="QhOJjxW0_Rw" provider="youtube" title="Video of the Publisher Library in OJS"%}
 
@@ -176,7 +177,7 @@ Vous pouvez également télécharger ici un fichier que vous souhaitez rendre ac
 
 ## Courriels
 
-This PKP School video explains how to configure emails in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+This PKP School video explains how to configure emails in OJS. Pour regarder d'autres vidéos de cette série, visitez la [chaîne YouTube de PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="ZK-Nb7wfHew" provider="youtube" title="Video of how to configure emails in OJS"%}
 
@@ -228,7 +229,7 @@ Tous les modèles sont activés par défaut lorsque vous installez OJS, mais vou
 
 To disable a template:
 
-1. Accédez aux Paramètres du flux de travail> Courriel> Modèles de courriel préparés
+1. Accédez aux Paramètres de flux de travail> Courriel> Modèles de courriel préparés
 2. Cliquez sur la flèche bleue à côté du nom du modèle pour afficher les liens en dessous
 3. Cliquez sur Désactiver (si le bouton n'apparaît pas, ce modèle ne peut pas être désactivé)
 
@@ -236,7 +237,7 @@ To disable a template:
 
 Si vous avez modifié des modèles de courriel mais que vous souhaitez annuler les modifications et les restaurer à leur contenu par défaut, vous pouvez les réinitialiser:
 
-1. Accédez aux Paramètres du flux de travail> Courriels> Modèles de courriel préparés
+1. Accédez aux Paramètres de flux de travail> Courriel> Modèles de courriel préparés
 2. Cliquez sur Réinitialiser tous les modèles
 3. Lorsque le message de confirmation apparaît, cliquez sur OK.
 
