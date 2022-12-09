@@ -1,11 +1,19 @@
 ---
 book: crossref-ojs-manual
 version: 3.2
+showPageTOC: true
 ---
 
-# Plugiciel d'export XML Crossref (OJS 3.2+)
+# Using the Crossref Plugin
 
-The Crossref XML Export Plugin  can deposit DOIs to Crossref for registration in a variety of ways:
+You can find the Crossref Plugin from your dashboard by navigating to **Tools > Import/Export > Crossref XML Export Plugin**.
+
+This is the Crossref XML Export Plugin in OJS 3.2+:
+
+![OJS 3 CrossRef XML Export Plugin: settings tab screen.](./assets/crossref3.2-plugin.png)
+
+## Automatic or Manual Deposits
+The Crossref XML Export Plugin can deposit DOIs to Crossref for registration in a variety of ways:
 
 - automatically, as the content is published;
 - manually, from plugin interface;
@@ -17,18 +25,14 @@ Manual deposit from the plugin interface might be used to selectively deposit co
 
 Manual deposit using Crossref XML export and admin tool might be used if you opt to add additional metadata such as licensing information not currently being deposited through the Crossref XML plugin.
 
-You can also register your content with Crossref entirely outside of OJS using Crossref's Web Deposit Form, though the plugin can save you having to input metadata by hand. You can find the Crossref Plugin from your dashboard by navigating to **Tools > Import/Export > Crossref XML Export Plugin**.
-
-This is the Crossref XML Export Plugin in OJS 3.2+:
-
-![OJS 3 CrossRef XML Export Plugin: settings tab screen.](./assets/crossref3.2-plugin.png)
+You can also register your content with Crossref entirely outside of OJS using Crossref's Web Deposit Form, though the plugin can save you having to input metadata by hand.
 
 ## Setting up the Crossref Plugin
 
 1. Fill out the name and email of the depositor. This name does not have to be the contact that orchestrated the Crossref membership. It can be a technical contact. It is merely the name that is attached to the metadata submission you deposit to Crossref. These are required fields.
 2. Fill out the username and password provided to you by Crossref with your membership confirmation. These are used to register content directly from the plugin. (_Please note: if your browser automatically fills in passwords in OJS, it may populate these fields with your OJS username and password when you load this page. Make sure you don't overwrite your Crossref credentials with your OJS password, or your plugin will fail._)
 
-## Automatic Deposits
+### Automatic Deposits
 
 To enable automatic deposits, simply check the box on the settings page.
 
@@ -36,7 +40,7 @@ To enable automatic deposits, simply check the box on the settings page.
 
 OJS will deposit assigned DOIs as content in your journal is published. OJS does this at specific timed intervals. If your DOIs do not appear to be registered shortly after publication, you can wait a day to see if they make it through the OJS process and the Crossref queue. You can also check the status of your DOI by clicking the "Articles" tab at the top of the Crossref plugin settings page. You'll see an up-to-date status column on the right of the page.
 
-## Manual Deposits
+### Manual Deposits
 
 Manual deposits are always enabled in OJS 3.2+.
 
