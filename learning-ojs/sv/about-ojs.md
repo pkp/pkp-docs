@@ -1,5 +1,6 @@
 ---
 book: learning-ojs
+showPageTOC: true
 version: 3.3
 ---
 
