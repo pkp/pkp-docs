@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Learning Open Journal Systems 3.3 - Users and Roles
 ---
 
@@ -22,7 +23,7 @@ To view the user accounts, select Users & Roles from the left menu.
 
 If you want to export a list of all registered users, you can find the option to export it as an XML file under the **Tools** menu. If you prefer your user data in a spreadsheet format, you can download it as a CSV file from **Statistics > Users**.
 
-### Users
+### Kullanıcılar
 
 Kullanıcılar soyadı sırasına göre görüntülenir.
 
@@ -32,7 +33,7 @@ Bir girişin solundaki mavi oku seçerek bir kullanıcı hesabını düzenleyebi
 
 Bu; E-posta, Kullanıcıyı Düzenle, Devre Dışı Bırak, Kaldır, Farklı Oturum Aç, Kullanıcıyı Birleştir seçeneklerini açar.
 
-#### Email Users
+#### E-posta Kullanıcıları
 
 If you want to email a user about a particular submission, you can use the Discussion feature in the submission. This keeps all communication about a submission in one place.
 
