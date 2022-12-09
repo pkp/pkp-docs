@@ -1,6 +1,7 @@
 ---
 book: learning-ojs
 version: 3.3
+showPageTOC: true
 title: Aprendendo o Open Journal Systems 3.3 - Usuários e Papéis
 ---
 
@@ -8,7 +9,7 @@ title: Aprendendo o Open Journal Systems 3.3 - Usuários e Papéis
 
 Esta seção fornece informações sobre o acesso a todas as contas de usuário associadas a sua revista, bem como sobre o gerenciamento de funções e permissões.
 
-## Administração de Usuários
+## Gerenciar Usuários
 
 Este vídeo da PKP School explica como gerenciar usuários no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -20,7 +21,7 @@ Para visualizá-las, selecione Usuários e Papéis no menu à esquerda..
 
 ![Usuários e Papéis com a lista de usuários do periódicos](./assets/learning-ojs3.1-jm-users.png)
 
-Se quiser exportar uma lista de todos os usuários registrados, você pode encontrar tal opção como um arquivo XML no menu **Ferramentas**. Se preferir seus dados de usuário em formato de planilha, você pode baixá-los como um arquivo CSV em **Estatísticas > Usuários**.
+Se quiser exportar uma lista de todos os usuários registrados, você pode encontrar tal opção como um arquivo XML no menu **Ferramentas**. Se preferir seus dados de usuário em formato de planilha, pode baixá-los como arquivo CSV em **Estatísticas > Usuários**.
 
 ### Usuários
 
@@ -212,7 +213,7 @@ Use o link _Incluir Papel_ para abrir a janela onde você pode criar um novo pap
 
 ## Opções de Acesso ao Site
 
-Este vídeo da PKP School explica como definir as configurações do site no OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como definir as configurações do site no OJS. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="_AAtxnFEodQ" provider="youtube" title="Vídeo sobre como configurar acesso ao site em OJS"%}
 
