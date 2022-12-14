@@ -30,19 +30,16 @@ This PKP School video explains the background on PKP and OJS. To watch other vid
 
 ## OJS Features
 
-OJS includes the following features:
+Visit our website to learn more about [Open Journal Systems](https://pkp.sfu.ca/software/ojs) and what it has to offer the whole researcher-to-reader workflow, from submission and peer review through to production and distribution.
 
-1. OJS is installed locally and controlled locally
-2. Editors configure requirements, sections, review process, etc.
-3. Online submission, anonymous review, and management of all content
-4. Comprehensive indexing of content
-5. Responsive, themable reader interface
-6. Email notification for readers
-7. Support for article-processing charges, subscriptions, and online payments
-8. Complete context-sensitive online Help support
-9. Multilingual support
+## Install and Upgrade
 
-## What's New in This Version of OJS
+OJS is easy to install and configure. However, running a web service requires a systems administrator who knows how to deploy web applications. Our Administrator's Guide provides full instructions on how to [download, install and configure OJS](/admin-guide/en).
+
+> If you do not have the expertise, staff or desire to install and manage OJS on your own, [PKP Publishing Services](https://pkp.sfu.ca/hosting-services) provides complete hosting solutions for every budget.
+{:.tip}
+
+## What's New in OJS 3.3
 
 OJS 3.3 has a simplified dashboard navigation menu and new features related to submission management, communicating with users, and accessibility. This section will outline the main changes so you know what to expect when you upgrade to OJS 3.3. You can also watch [a video that demonstrates new features in OJS 3.3](https://youtu.be/3D_hS4Bd-Y8), created by [PKP Publishing Services](https://pkpservices.sfu.ca).
 
@@ -140,7 +137,7 @@ Date and time formats can now be specified for each journal and locale/language.
 There is better support for languages that read right-to-left, such as Arabic, Farsi, and Hebrew, in the rich text editor that appears in many form fields in OJS.
 
 #### Remote URLs
-Navigation menu items with remote URLs can now have different remote URLs for each language. 
+Navigation menu items with remote URLs can now have different remote URLs for each language.
 
 ## Community Contributions
 
