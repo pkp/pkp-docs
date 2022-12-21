@@ -39,7 +39,7 @@ Login to your server and unpack the release package into the root web directory.
 # <file> The path to the release package on your server
 # <web-root> The path to the web root on your server, eg - www/public_html
 
-tar -xvf <file> -C <web-root>
+tar -xvf <file> --strip-components=1 -C <web-root>
 ```
 
 Change the file permissions of the following files and directories to allow them to be written by the web server.
