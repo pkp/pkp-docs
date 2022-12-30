@@ -1,10 +1,8 @@
 # Sisällys
 
 * [Luku 1: Esittely](.)
-* [Luku 2: Asentaminen ja päivittäminen](./install-upgrade.md)
-  * [Download](./install-upgrade.md#download)
-  * [Hosted Solutions](./install-upgrade.md#hosted-solutions)
-  * [Creating a Press](./install-upgrade.md#creating-a-press)
+  * [Features](./#omp-3-features)
+  * [Install and Upgrade](./#install-and-upgrade)
 * [Editorial Interface](./editorial-interface.md)
 * [User Accounts](./user-accounts.md)
   * [Permission Levels](./user-accounts.md#permission-levels)
