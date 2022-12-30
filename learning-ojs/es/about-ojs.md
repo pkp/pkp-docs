@@ -30,19 +30,17 @@ This PKP School video explains the background on PKP and OJS. To watch other vid
 
 ## Características de OJS
 
-OJS incluye las siguientes características:
+Visit our website to learn more about [Open Journal Systems](https://pkp.sfu.ca/software/ojs) and what it has to offer the whole researcher-to-reader workflow, from submission and peer review through to production and distribution.
 
-1. OJS se instala y se controla localmente
-2. Los editores configurar los requisitos, las secciones, el proceso de revisión, etc.
-3. Online submission, anonymous review, and management of all content
-4. Indexación integral del contenido
-5. Interfaz de lector responsiva y modificable
-6. Notificaciones por correo electrónico para lectores
-7. Soporte para gastos de procesamiento de artículos, suscripciones y pagos en línea
-8. Soporte completo de ayuda en línea sensible al contexto
-9. Asistencia multilingüe
+## Install and Upgrade
 
-## What's New in This Version of OJS
+OJS is easy to install and configure. However, running a web service requires a systems administrator who knows how to deploy web applications. Our Administrator's Guide provides full instructions on how to [download, install and configure OJS](/admin-guide/en).
+
+> If you do not have the expertise, staff or desire to install and manage OJS on your own, [PKP Publishing Services](https://pkp.sfu.ca/hosting-services) provides complete hosting solutions for every budget. 
+> 
+> {:.tip}
+
+## What's New in OJS 3.3
 
 OJS 3.3 has a simplified dashboard navigation menu and new features related to submission management, communicating with users, and accessibility. This section will outline the main changes so you know what to expect when you upgrade to OJS 3.3. You can also watch [a video that demonstrates new features in OJS 3.3](https://youtu.be/3D_hS4Bd-Y8), created by [PKP Publishing Services](https://pkpservices.sfu.ca).
 
