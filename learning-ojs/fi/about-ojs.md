@@ -30,19 +30,17 @@ Tällä PKP:n opetusvideolla käsitellään PKP:n ja OJS:n taustoja.  Lisää vi
 
 ## OJS:n ominaisuuksista
 
-OJS sisältää seuraavat ominaisudet:-:
+Visit our website to learn more about [Open Journal Systems](https://pkp.sfu.ca/software/ojs) and what it has to offer the whole researcher-to-reader workflow, from submission and peer review through to production and distribution.
 
-1. OJS asennetaan paikallisesti, ja sitä hallinnoidaan paikallisesti.
-2. Julkaisujen toimittajat määrittävät vaatimukset, prosessiin tarvittavat osiot, arviointiprosessin yksityiskohdat jne.
-3. Käsikirjoitukset lähetetään verkkopalvelun kautta, arviointiprosessi on anonyymi, ja kaikkea sisältöä voi hallita.
-4. Sisällön kattava indeksointi.
-5. Helppokäyttöinen ja tilanteeseen sopiva lukijanäkymä.
-6. Sähköpostimuistutukset lukijoille.
-7. Julkaisumaksujen, tilausten ja verkkomaksujen tuki.
-8. Kattava sisältösensitiivinen verkkotuki.
-9. Tukea saatavilla monella eri kielellä.
+## Install and Upgrade
 
-## Mitä uutta tämä OJS-versio tarjoaa?
+OJS is easy to install and configure. However, running a web service requires a systems administrator who knows how to deploy web applications. Our Administrator's Guide provides full instructions on how to [download, install and configure OJS](/admin-guide/en).
+
+> If you do not have the expertise, staff or desire to install and manage OJS on your own, [PKP Publishing Services](https://pkp.sfu.ca/hosting-services) provides complete hosting solutions for every budget. 
+> 
+> {:.tip}
+
+## What's New in OJS 3.3
 
 OJS 3.3:ssa kojelauden navigointivalikkoa on yksinkertaistettu. Käsikirjoitusten lähettämiseen, käyttäjien kanssa viestintään sa saavutettavuuteen on tullut uusia ominaisuuksia.  Tässä kappaleessa esitellään keskeiset muutokset, jotta tiedät, mitä odottaa OJS 3.3:een päivittämiseltä. Aiheesta on myös  [opetusvideo, jolla esitellään OJS 3.3:n](https://youtu.be/3D_hS4Bd-Y8) uudet ominaisuudet. Videon on tuottanut [PKP Publishing Services](https://pkpservices.sfu.ca).
 
