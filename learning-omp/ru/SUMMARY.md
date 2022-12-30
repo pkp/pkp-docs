@@ -1,10 +1,8 @@
 # Summary
 
 * [Introduction](.)
-* [Установка и обновление](./install-upgrade.md)
-  * [Скачивание](./install-upgrade.md#download)
-  * [Решения с хостингом](./install-upgrade.md#hosted-solutions)
-  * [Creating a Press](./install-upgrade.md#creating-a-press)
+  * [Features](./#omp-3-features)
+  * [Install and Upgrade](./#install-and-upgrade)
 * [Editorial Interface](./editorial-interface.md)
 * [User Accounts](./user-accounts.md)
   * [Permission Levels](./user-accounts.md#permission-levels)
@@ -23,7 +21,7 @@
 * [Role-specific Workflows](./role-specific-workflows.md)
   * [Author Workflow](./role-specific-workflows.md#author-workflow)
   * [Reviewer Workflow](./role-specific-workflows.md#reviewer-workflow)
-  * [Editorial Workflow](./role-specific-workflows.md#editorial-workflow)
+  * [Редакционный рабочий процесс](./role-specific-workflows.md#editorial-workflow)
   * [Copyediting Workflow](./role-specific-workflows.md#copyediting-workflow)
   * [Production/Publication Workflow](./role-specific-workflows.md#productionpublication-workflow)
 * [Catalog Management](./catalog-management.md)
