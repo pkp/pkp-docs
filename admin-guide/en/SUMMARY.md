@@ -1,10 +1,10 @@
 # Table of contents
 
-* [PKP Administrator's Guide](.)
-* [Managing the Server Environment](managing-the-environment.md)
-  * [System Requirements and Installation](./managing-the-environment.md#system-requirements-and-installation)
-  * [Upgrading](./managing-the-environment.md#upgrading)
-  * [Managing Installs via Git](./managing-the-environment.md#installing-and-managing-applications-via-git)
+* [Getting Started](./)
+  * [Requirements](./requirements)
+  * [Download](./download)
+  * [Configure](./configure)
+  * [Install](./install)
 * [Securing Your System](securing-your-system.md)
   * [The Basics](./securing-your-system.md#the-basics)
   * [Deploying PKP Software Securely](./securing-your-system.md#deploying-pkp-software-securely)

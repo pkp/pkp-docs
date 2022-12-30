@@ -1,7 +1,7 @@
 ---
 book: learning-ops
 version: 3.3
-title: About OPS - Learning OPS 
+title: About OPS - Learning OPS
 ---
 
 # About OPS
@@ -14,15 +14,14 @@ A “preprint” is a research article that has not yet been published in a jour
 
 ## OPS Features
 
-Some of the features of OPS include:
+Visit our website to learn more about [Open Preprint Systems](https://pkp.sfu.ca/software/omp) and what it has to offer for preprint servers.
 
-* Responsive reader front-end with multiple options for content organization
-* Author-led rapid publication workflow
-* Online submission and management of all content
-* Customization to suit your screening policies, with several options included
-* Integration with scholarly publishing services such as Crossref and ORCID
-* Built-in support for a wide array of features from the OJS and OMP ecosystem
-* Availability in multiple languages
+## Install and Upgrade
+
+OPS is easy to install and configure. However, running a web service requires a systems administrator who knows how to deploy web applications. Our Administrator's Guide provides full instructions on how to [download, install and configure OPS](/admin-guide/en).
+
+> If you do not have the expertise, staff or desire to install and manage OPS on your own, [PKP Publishing Services](https://pkp.sfu.ca/hosting-services) provides complete hosting solutions for every budget.
+{:.tip}
 
 ## What's New in This Version of OPS
 
