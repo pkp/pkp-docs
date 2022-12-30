@@ -1,11 +1,9 @@
 # Índice
 
 * [Introducción](.)
-* [Instalar y Actualizar](./install-upgrade.md)
-  * [Descarga](./install-upgrade.md#download)
-  * [Soluciones Alojadas](./install-upgrade.md#hosted-solutions)
-  * [Creating a Press](./install-upgrade.md#creating-a-press)
-* [Interfaz Editorial](./editorial-interface.md)
+  * [Features](./#omp-3-features)
+  * [Install and Upgrade](./#install-and-upgrade)
+* [Interfaz editorial](./editorial-interface.md)
 * [User Accounts](./user-accounts.md)
   * [Permission Levels](./user-accounts.md#permission-levels)
   * [Roles](./user-accounts.md#roles)
@@ -18,7 +16,7 @@
   * [Workflow Settings](./press-setup.md#workflow-settings)
   * [Distribution](./press-setup.md#distribution)
 * [Tools](./tools.md)
-  * [Import/Export](./tools.md#importexport)
+  * [Importar/exportar](./tools.md#importexport)
   * [Estadísticas](./tools.md#statistics)
 * [Role-specific Workflows](./role-specific-workflows.md)
   * [Author Workflow](./role-specific-workflows.md#author-workflow)
