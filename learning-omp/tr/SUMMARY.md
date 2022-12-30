@@ -1,10 +1,8 @@
 # Summary
 
 * [Introduction](.)
-* [Installing and Upgrading](./install-upgrade.md)
-  * [İndir](./install-upgrade.md#download)
-  * [Barındırılan Dergiler](./install-upgrade.md#hosted-solutions)
-  * [Creating a Press](./install-upgrade.md#creating-a-press)
+  * [Features](./#omp-3-features)
+  * [Install and Upgrade](./#install-and-upgrade)
 * [Editorial Interface](./editorial-interface.md)
 * [User Accounts](./user-accounts.md)
   * [Permission Levels](./user-accounts.md#permission-levels)
