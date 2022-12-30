@@ -17,13 +17,14 @@ Open Monograph Press (OMP) is an open-source tool for managing and publishing mo
 
 ### OMP 3 Features
 
-Among the many features of OMP is its ability to...
+Visit our website to learn more about [Open Monograph Press](https://pkp.sfu.ca/software/omp) and what it has to offer for book publishers, including full metadata for worldwide dissemination and discovery.
 
-* Handle edited volumes, with different authors for each chapter;
-* Involve editors, authors, reviewers, designers, indexers, and others in book production;
-* See submissions through multiple rounds of both internal and external reviews;
-* Utilize industry-standard ONIX for bookseller metadata requirements (e.g., Amazon);
-* Create document libraries for submissions, recording contracts, permissions, etc.;
-* Manage thumbnail covers in Catalog, as well as Spotlight features.
+For a detailed description of new features in OMP 3.3, see [What's New in This Version of OJS in the Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/about-ojs#whats-new-in-this-version-of-ojs).
 
-For a detailed description of new features in OMP 3.3, see [What's New in This Version of OJS in the Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/about-ojs#whats-new-in-this-version-of-ojs). The new features include the following:
+### Install and Upgrade
+
+OMP is easy to install and configure. However, running a web service requires a systems administrator who knows how to deploy web applications. Our Administrator's Guide provides full instructions on how to [download, install and configure OMP](/admin-guide/en).
+
+> If you do not have the expertise, staff or desire to install and manage OMP on your own, [PKP Publishing Services](https://pkp.sfu.ca/hosting-services) provides complete hosting solutions for every budget. 
+> 
+> {:.tip}
