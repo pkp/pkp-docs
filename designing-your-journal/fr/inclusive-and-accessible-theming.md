@@ -1,5 +1,5 @@
 - - -
-title: Inclusive and Accessible Theming - Designing Your OJS Journal
+title: Inclusive and Accessible Theming - Designing Your OJS Journal showPageTOC: true
 - - -
 
 # Inclusive and Accessible Theming
