@@ -1,5 +1,6 @@
 ---
 title: Branding Your Journal - Designing Your OJS Journal
+showPageTOC: true
 ---
 
 # Branding Your Journal
