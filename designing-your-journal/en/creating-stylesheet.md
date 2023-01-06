@@ -1,5 +1,6 @@
 ---
 title: Create a Stylesheet - Designing Your OJS Journal
+showPageTOC: true
 ---
 
 # Create a Stylesheet
