@@ -1,5 +1,6 @@
 ---
 title: Theme Features and Design Elements - Designing Your OJS Journal
+showPageTOC: true
 ---
 
 # Theme Features and Design Elements
