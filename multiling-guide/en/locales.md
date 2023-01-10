@@ -67,3 +67,11 @@ Making changes to available submission languages when there are submissions in t
 If you want to disable submissions in a particular language, go to Website Settings > Setup > Languages and un-check Submissions for that language.  
 
 If you decide to change or add submissions languages, ensure that your submissions policies and author guidelines are translated and updated accordingly. When guidelines are not translated for the languages enabled, OJS will show this information in the primary locale instead.
+
+## About Locales and Users and Roles
+
+The Given Name and Family Name fields in user accounts are multilingual, meaning that the field(s) must be filled out for each language you are using. A user will be prompted to enter their name in all locale fields when they create an account. Author and contributor names on submissions work in the same way. This allows a user to display a different name in different languages, which could be desirable for languages that use different character sets, although this may clash with the limitations of indexing and metadata services (see below).
+
+If you enable a new locale on your journal/press/preprint server, the new locale fields for the user names will be empty. You may be prompted to fill in other locale fields for user names when you enter user records. If you add a new locale and make it the primary locale, you may not be able to search participants by name in submissions or find that contributor metadata is missing on your submissions.
+
+The names of Roles (e.g. “Journal Editor,” “Author”) in OJS, OMP, and OPS are data, and they will not be affected by changes in the locale files. If you change a journal, press, or preprint server’s locale, you will have to translate the role names manually, which can be done by editing each role on the “Roles” tab of “Users and roles.” See [Learning OJS 3: Users and Roles]([https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#editing-roles](https://docs.pkp.sfu.ca/learning-ojs/en/users-and-roles#editing-roles)) for instructions on editing roles.
