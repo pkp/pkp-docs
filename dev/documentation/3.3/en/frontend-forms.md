@@ -177,7 +177,7 @@ class ContextForm extends PKPContextForm {
 }
 ```
 
-Use the `Form::config::before` hook when a [plugin](http://localhost:4000/dev/plugin-guide/en/) needs to modify a form. The example below removes the free-text subject metadata field and replaces it with a dropdown list.
+Use the `Form::config::before` hook when a [plugin](/dev/plugin-guide/en/) needs to modify a form. The example below removes the free-text subject metadata field and replaces it with a dropdown list.
 
 ```php
 HookRegistry::register('Form::config::before', function($hookName, $form) {
