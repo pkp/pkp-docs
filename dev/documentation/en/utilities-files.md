@@ -114,4 +114,4 @@ Use the `PublicFileManager` to read and write public files.
 
 Temporary files are used to stage changes before they are applied. For example, temporary files are used to upload a new journal logo, but the logo will not be changed until the form is saved.
 
-Learn how to use temporary files in the [REST API Guide](http://localhost:4000/dev/api/#temporary-files).
+Learn how to use temporary files in the [REST API Guide](/dev/api/#temporary-files).
