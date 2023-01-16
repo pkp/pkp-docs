@@ -47,4 +47,4 @@ If you want to explore the software further, click the small icon at the top to 
 
 It's important to keep the software up-to-date. You can learn about new software releases by following our [announcements forum](https://forum.pkp.sfu.ca/c/announcements/10) or signing up for the [developer email lists](https://lists.publicknowledgeproject.org/lists/).
 
-When it's time to make an upgrade, use our step-by-step guide on [how to upgrade](http://localhost:4000/dev/upgrade-guide/en/).
+When it's time to make an upgrade, use our step-by-step guide on [how to upgrade](/dev/upgrade-guide/en/).
