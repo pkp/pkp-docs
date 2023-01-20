@@ -18,3 +18,4 @@
 * [Indexing & Discovery](./discovery.md)
 * [Statistics](./statistics.md)
 * [Troubleshooting](./troubleshooting.md)
+* [Using PKP Software in Multiple Languages](../)
