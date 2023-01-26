@@ -38,7 +38,7 @@
 		th {
 			font-weight: $bold;
 		}
-		
+
 		a {
 			word-break: unset;
 		}
@@ -170,12 +170,22 @@
 }
 
 .book__improve {
-	display: inline-block;
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 }
 
-.book__footer .book__improve {
-	margin-top: 3rem;
+.book_page_toc {
+
+	h2 {
+		font-size: 1rem;
+		margin: 1rem 0 0.5rem;
+		border-bottom: 1px solid #ddd;
+		padding: 0 0 0.5rem;
+	}
+
+	> ul {
+		margin-top: 0;
+		padding-left: 1rem;
+	}
 }
 
 .book__sidebar {
@@ -286,19 +296,6 @@
 	}
 }
 
-@media (min-width: 480px) {
-
-	.book__improve {
-		float: right;
-		margin-left: 2em;
-	}
-
-	.book__footer .book__improve {
-		float: none;
-		margin-left: 0;
-	}
-}
-
 @media (min-width: 768px) {
 
 	.book {
@@ -321,6 +318,20 @@
 		// Make sure the footer is pushed to the bottom of the screen
 		// even if the book content is very short
 		min-height: calc(100vh - 30rem);
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			position: relative;
+		}
+	}
+
+	.book_heading_anchor {
+		position: absolute;
+		left: -2rem;
 	}
 
 	.book__footerWrapper {
