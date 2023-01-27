@@ -2,7 +2,7 @@
 generateHeadingToc: true
 ---
 
-# Declaración de accesibilidad de tema predeterminado de OJS 3.3+
+# Declaración de accesibilidad del tema predeterminado de OJS 3.3+
 
 ## Introducción
 
