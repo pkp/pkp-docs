@@ -1,4 +1,7 @@
 
-### [Translation Guide](/translating-guide/en/)
+### Multilingualism and PKP
 
-The PKP Translating Guide is for users who wants to create or edit a translation of a PKP software application. [View Now](/translating-guide/en/)
+These guides explain how configure PKP software for multiple languages as well as publishing in multiple languages, and provides guidance to users who want to create or edit a translation of a PKP software application or related documentation.
+
+- [Using PKP Software in Multiple Languages](/multiling-guide/en/)
+- [Translating Guide](/translating-guide/en/)
