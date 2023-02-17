@@ -5,8 +5,7 @@ description: How to run the installer for Open Journal Systems (OJS), Open Monog
 
 # Install
 
-> These steps assume that you have [configured](./configure) your installation.
-{:.warning}
+See `docs/README.md` in your OJS package for installation instructions.
 
 When you install the software, it will create the database tables and file directories that it needs to run. To install the software, visit your site in a web browser.
 
