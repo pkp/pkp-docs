@@ -25,6 +25,7 @@
   * Cache
   * Config
   * [Email](./utilities-email)
+  * [Events](./utilities-events)
   * [Files](./utilities-files)
   * [Hooks](./utilities-hooks)
   * Jobs
