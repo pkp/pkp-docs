@@ -6,7 +6,7 @@ title: Events - Technical Documentation - OJS|OMP|OPS
 
 # Events
 
-Laravel's [Events](https://laravel.com/docs/9.x/events) can be used to implement an observer pattern. Events should be used to decouple code in the application.
+Laravel [Events](https://laravel.com/docs/9.x/events) can be used to implement an observer pattern. Events should be used to decouple code in the application.
 
 Some examples of when to use event listeners:
 
@@ -68,7 +68,7 @@ class ExampleListener
 }
 ```
 
-## Dispatch Events
+## Dispatch an Event
 
 When an event is dispatched, its listeners will be instantiated and the `handle()` method will be called.
 

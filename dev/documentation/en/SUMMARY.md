@@ -28,7 +28,7 @@
   * [Events](./utilities-events)
   * [Files](./utilities-files)
   * [Hooks](./utilities-hooks)
-  * Jobs
+  * [Jobs](./utilities-jobs)
   * Migrations
   * Notifications
   * [Translation](./utilities-translation)
