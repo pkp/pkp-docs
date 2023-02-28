@@ -68,6 +68,27 @@ php lib/pkp/tools/jobs.php failed
 
 Failed jobs can also be found in the admin area of the application under Administration > Jobs > Failed Jobs.
 
+When a job fails, it will call it's `failed()` method. If needed, this can be used to notify someone of the failure.
+
+```php
+/**
+ * @file jobs/email/ExampleJob.php
+ */
+namespace PKP\jobs\email;
+
+use PKP\jobs\BaseJob;
+
+class ExampleJob extends BaseJob
+{
+    // ...
+
+    public function failed(): void
+    {
+        // Do something when the job fails...
+    }
+}
+```
+
 ## Queues
 
 Laravel Queues allow jobs to be dispatched to different [queues](https://laravel.com/docs/9.x/queues#dispatching-to-a-particular-queue). PKP's applications only use a single queue (`default`). Jobs should always be dispatched to the default queue. Otherwise they will not be processed.
