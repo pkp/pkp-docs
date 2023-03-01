@@ -39,7 +39,6 @@
   * [Email Templates](./email-templates)
   * [Publication Versions](./publication-versions)
   * [Statistics](./statistics)
-    * [Editorial Statistics](./statistics-editorial)
-    * [Reader Statistics](./statistics-reader)
+  * [Statistics (Editorial)](./statistics-editorial)
   * [Submission Files](./submission-files)
 * [Resources](./resources)

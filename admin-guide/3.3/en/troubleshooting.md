@@ -1,10 +1,7 @@
 ---
-title: Troubleshooting - Admin Guide - PKP Developer Docs
-description: How to fix some common problems encountered when deploying OJS, OMP or OPS.
 book: admin-guide
-version: 3.4
+version: 3.3
 ---
-
 # Troubleshooting
 
 ## Permissions, File Access, Etc.

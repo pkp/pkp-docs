@@ -2,7 +2,7 @@
 title: Download - Admin Guide - PKP Developer Docs
 description: How to download Open Journal Systems (OJS), Open Monograph Press (OPS) or Open Preprint Systems (OPS).
 book: admin-guide
-version: 3.4
+version: 3.3
 ---
 
 # Download
@@ -52,7 +52,5 @@ Change the file permissions of the following files and directories to allow them
 <web-root>/cache
 <web-root>/plugins
 ```
-
----
 
 Next, set database credentials and other [configuration settings](./configure).

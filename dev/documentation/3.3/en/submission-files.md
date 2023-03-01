@@ -24,6 +24,7 @@ Submission files can be revised. For example, the file in the Review stage may n
 | ------------------ | ------- | --------------------------- |
 | 1                  | 82      | SUBMISSION_FILE_SUBMISSION  |
 | 2                  | 83      | SUBMISSION_FILE_REVIEW_FILE |
+| 2                  | 84      | SUBMISSION_FILE_REVIEW_FILE |
 
 Editors and assistants can access all revisions of a file in the submission file's activity log.
 

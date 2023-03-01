@@ -2,7 +2,7 @@
 title: Install OJS/OMP/OPS - Admin Guide - PKP Developer Docs
 description: A guide for system administrators who want to install, deploy and maintain Open Journal Systems (OJS), Open Monograph Press (OPS) or Open Preprint Systems (OPS).
 book: admin-guide
-version: 3.4
+version: 3.3
 ---
 
 # Administrator's Guide
@@ -20,7 +20,5 @@ In order to install this software securely, you will need to understand how to d
 - Configure a SSL certificate for your domain
 
 If you are unfamiliar with some of these topics, you may be able to learn by following tutorials on the web. However, if you do not know how to deploy applications to a web server, we recommend that you find technical support for your project. This may be available through your research institution, a library publishing service, or a paid service provider like PKP's [Publishing Services](https://pkp.sfu.ca/hosting).
-
----
 
 Are you ready? Learn about the [system requirements](./requirements).

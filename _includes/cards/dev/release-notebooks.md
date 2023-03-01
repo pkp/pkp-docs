@@ -1,7 +1,7 @@
 
 ### [Release Notebooks](/dev/release-notebooks)
 
-Essential guidance on changes to the application code for each new release. [View Now](/dev/release-notebooks)
+Essential guidance on changes for hosts, developers and contributors for each new release.. [View Now](/dev/release-notebooks)
 
 ---
 

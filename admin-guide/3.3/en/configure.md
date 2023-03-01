@@ -2,7 +2,7 @@
 title: Configure - Admin Guide - PKP Developer Docs
 description: A guide to the configuration settings for Open Journal Systems (OJS), Open Monograph Press (OPS) or Open Preprint Systems (OPS).
 book: admin-guide
-version: 3.4
+version: 3.3
 ---
 
 # Configure
@@ -70,10 +70,7 @@ files_dir = <path>
 
 ## Email Server
 
-Most email will be blocked by spam filters unless you use a SMTP server with correctly configured [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DMARC](https://en.wikipedia.org/wiki/DMARC) records.
-
-> Not sure what to do here? Learn more about how to [configure an email server](./advanced-email).
-{:.notice}
+Most email will be blocked by spam filters unless you use a SMTP server with correctly configured [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DMARC](https://en.wikipedia.org/wiki/DMARC) records. These records are stored in your domain's DNS settings and will require all email to be sent from an envelope sender.
 
 Turn SMTP on:
 
@@ -101,22 +98,11 @@ force_default_envelope_sender = On
 force_dmarc_compliant_from = On
 ```
 
-Learn more about the [envelope sender](./advanced-email#dmarc).
-
-## User Validation
-
-Automated bots may register fake user accounts. To deter this, configure the software to require validation of the email address for all new user accounts. In the `[email]` section of `config.inc.php`, edit the following settings.
-
-```
-require_validation = On
-validation_timeout = 14
-```
-
 ## SSL / HTTPS
 
 Every site should encrypt it's web traffic using a SSL certificate. This will make your site run from `https://` instead of `http://`.
 
-If you don't have a SSL certificate, you should [get one](./securing-your-system#sslencryption).
+If you don't have a SSL certificate, you should [get one](./securing-your-system#encryption).
 
 Edit the `config.inc.php` file to force URLs to use SSL:
 
@@ -133,12 +119,6 @@ php tools/runScheduledTasks.php
 ```
 
 If you are unable to configure this cron job, you must enable the Acron plugin after you have installed the software.
-
-## Job Runner
-
-No configuration is required to enable the built-in job runner. This is useful for test installations and small sites. However, in production we recommend using a worker daemon or cron job to process jobs.
-
-Learn more about how to configure the [job runner](./advanced-jobs).
 
 ## Pretty URLs
 
@@ -171,7 +151,5 @@ restful_urls = On
 ## Other Settings
 
 The configuration file includes settings to control the default date formats, manage HTTP proxies, and more. Please read the `config.inc.php` file for an explanation of every setting.
-
----
 
 Once you have configured everything, you are ready to [run the install](./install).

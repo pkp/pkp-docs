@@ -125,7 +125,7 @@ Events and listeners are cached. Clear the cache after an event is added, edited
 
 Laravel's event listeners can be [sent to the jobs queue](https://laravel.com/docs/9.x/events#queued-event-listeners) instead of being run synchronously. However, in PKP's applications, the relationship between jobs and listeners is not yet resolved.
 
-For now, use of queued listeners is discourage. If a listener includes a long-running task, have the listener [dispatch a job](./utilities-jobs).
+For now, use of queued listeners is discouraged. If a listener includes a long-running task, have the listener [dispatch a job](./utilities-jobs).
 
 ```php
 namespace PKP\observers\listeners;

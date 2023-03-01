@@ -20,9 +20,9 @@ Your hosting service should provide instructions on how to add the `TXT` record.
 
 ## DMARC
 
-To comply with the the [DMARC](https://en.wikipedia.org/wiki/Sender_Policy_Framework) framework, the application must be configured with a envelope sender. The envelope sender is an email address that the server has permission to send as. For example, if the application is hosted at https://my-journals.com, the envelope sender should be an email address `@my-journals.com`.
+To comply with the the [DMARC](https://en.wikipedia.org/wiki/Sender_Policy_Framework) framework, the application must be configured with an envelope sender. The envelope sender is an email address that the server has permission to send as. For example, if the application is hosted at https://my-journals.com, the envelope sender should be an email address `@my-journals.com`.
 
-Consider the case where a user signs up to the application with the email address `example@gmail.com`. Your email server does not have permission to send email from `@gmail.com`. The envelope sender acts as the "true" sender, sending on behalf of `example@gmail.com`.
+When a user signs up to the application with the email address `example@gmail.com`, your email server does not have permission to send  as `example@gmail.com`. The envelope sender acts as the "true" sender, and the email is sent "on behalf of" `example@gmail.com`.
 
 To configure the envelope sender, edit the following settings in the application's `config.inc.php` file:
 
@@ -54,7 +54,7 @@ default = sendmail
 sendmail_path = "<path-to-sendmail> -bs"
 ```
 
-In some rare cases, neither option is available, and you must use `PHPMailer`. This mailer is not secure and we strongly discourage its use. However, if you need it, set the `default` to `phpmailer`:
+In rare cases, neither option is available and you must use `PHPMailer`. This mailer is not secure and we strongly discourage its use. However, if you need it, set the `default` to `phpmailer`:
 
 ```
 [email]
@@ -105,3 +105,7 @@ If you run your own email server, you can ask for help in our [community forum](
 1. Contact your web server provider and ask them if emails are being sent that comply with the SPF and DMARC protocols. They'll be able to check the logs and see if the `FROM` and `REPLY-TO` headers of emails match the SPF and DMARC configuration.
 2. All email servers keep a log of what emails were sent. Ask your email server provider to check if a specific email was sent. They'll want the recipient, date and time of an email that was supposed to be sent, but was never received.
 3. Often, an email will be sent but the recipient's email server refused to receive it. In some cases, the recipient email server will reply with the reason it is refusing (or "bouncing") the email. Your email server provider may be able to check the logs to see if a sent email was bounced and why.
+
+---
+
+Next, learn about how to improve performance with the [job runner](./advanced-jobs).
