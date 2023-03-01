@@ -13,7 +13,7 @@ Requests to view and download files from the public website are recorded in a lo
 
 Read the sections below to learn how to configure the statistics for your site, how to view and download stats, and how to recover lost data.
 
-## Configure
+## Settings
 
 > To ensure that statistics are collected correctly, make sure you have [configured your application](./configure) to run scheduled tasks and jobs.
 {:.notice}
@@ -243,7 +243,7 @@ Keep the following in mind when working with the log files.
 - If you run the application with `disable_path_info` set to `On` in `config.inc.php`, change the `PATH_INFO_DISABLED` variable to `true` in the log conversion scripts before running the commands.
 - Any log files for the current month in the `stage` directory will be processed automatically. Do not move files in there unless you want them processed.
 
-## Troubleshooting / FAQ
+## Frequently Asked Questions
 
 ### I don't see any statistics
 
