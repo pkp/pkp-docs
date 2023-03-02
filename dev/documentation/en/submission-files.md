@@ -83,7 +83,7 @@ use APP\core\Services;
 use APP\facades\Repo;
 
 $fileId = Services::get('file')->add($source, $destination);
-$submissionFile = Repo::submissionFile()->edit(
+Repo::submissionFile()->edit(
 	$submissionFile,
 	[
 		'fileId' => $fileId,
@@ -129,7 +129,7 @@ $errors = Repo::submissionFile()->validate(null, $params, $allowedLocales, $prim
 
 if (empty($errors)) {
 	$submissionFile = Repo::submissionFile()->newDataObject($params);
-	$submissionFile = Repo::submissionFile()->add($submissionFile);
+	$id = Repo::submissionFile()->add($submissionFile);
 }
 ```
 
