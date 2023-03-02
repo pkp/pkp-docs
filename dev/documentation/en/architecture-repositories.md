@@ -25,6 +25,7 @@ A `Repository` provides a type hinted API to its public methods.
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
+    <source src="../img/repository.webm" type="video/webm">
     <source src="../img/repository.mp4" type="video/mp4">
   </video>
 </figure>
@@ -38,11 +39,10 @@ $publication = Repo::publication()->get($id);
 Get many objects.
 
 ```php
-$publications = Repo::publication()->getMany(
-    Repo::publication()
-        ->getCollector()
-        ->filterBySubmissionIds([$submissionId])
-);
+$publications = Repo::publication()
+    ->getCollector()
+    ->filterBySubmissionIds([$submissionId])
+    ->getMany();
 ```
 
 Add an object.
@@ -174,10 +174,9 @@ class Repository
 
     public function deleteByContextId(int $contextId)
     {
-        $submissionIds = $this->getIds(
-                $this->getCollector()
-                        ->filterByContextIds([$contextId])
-        );
+        $submissionIds = $this->getCollector()
+            ->filterByContextIds([$contextId])
+            ->getIds();
         foreach ($submissionIds as $submissionId) {
             $this->dao->deleteById($submissionId);
         }

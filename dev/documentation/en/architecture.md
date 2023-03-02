@@ -62,23 +62,30 @@ The same approach is used in OMP.
 We use the term `Context` to describe a `Journal` (OJS) or `Press` (OMP). To reuse code across both applications, you will often see code that refers to the context.
 
 ```php
-$context = $request->getContext();
+use APP\core\Application;
+
+$context = Application::get()->getRequest()->getContext();
 ```
 
 This always refers to the `Journal` (OJS) or `Press` (OMP) object. It is identical to the following code.
 
 ```php
-$journal = $request->getJournal();
+use APP\core\Application;
+
+$journal = Application::get()->getRequest()->getJournal();
 ```
 
 A single instance of OJS can run many journals. It is important to restrict requests for submissions, users and other objects in the system by the context.
 
 ```php
-$context = $request->getContext();
-$collector = Repo::submission()
+use APP\core\Application;
+use APP\facades\Repo;
+
+$context = Application::get()->getRequest()->getContext();
+$submissions = Repo::submission()
   ->getCollector()
-  ->filterByContextIds([$context->getId()]);
-$submissions = Repo::submission()->getMany($collector);
+  ->filterByContextIds([$context->getId()])
+  ->getMany();
 ```
 
 Failure to pass a context or context id to many methods will return objects for all contexts.
