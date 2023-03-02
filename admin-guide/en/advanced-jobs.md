@@ -59,7 +59,7 @@ Replace the following variables in the configuration above with the correct path
 
 | Variable | Description |
 | --- | --- |
-| `<path-to-php>` | Absolute path on the server to the CLI PHP executable. |
+| `<path-to-php>` | Absolute path on the server to the CLI PHP executable. This can be found on most Linux servers by running `which php`. |
 | `<root>` | Absolute path to the root directory of the application (OJS, OMP, OPS). |
 | `<files-dir>` | The `files_dir` from the `config.inc.php`. |
 
