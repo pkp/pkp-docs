@@ -47,12 +47,12 @@ Create a config file for supervisor, usually located at `/etc/supervisor/conf.d`
 ```
 [program:ojs-queue-monitor]
 process_name=%(program_name)s
-command=/<path-to-php>/php /<root>/lib/pkp/tools/jobs.php work
-directory=/<root>
+command=<path-to-php>/php /<root>/lib/pkp/tools/jobs.php work
+directory=<root>
 autostart=true
 autorestart=true
 redirect_stderr=true
-stdout_logfile=/<files-dir>/supervisor-database.log
+stdout_logfile=<log-file>
 ```
 
 Replace the following variables in the configuration above with the correct paths in your system:
@@ -61,7 +61,7 @@ Replace the following variables in the configuration above with the correct path
 | --- | --- |
 | `<path-to-php>` | Absolute path on the server to the CLI PHP executable. This can be found on most Linux servers by running `which php`. |
 | `<root>` | Absolute path to the root directory of the application (OJS, OMP, OPS). |
-| `<files-dir>` | The `files_dir` from the `config.inc.php`. |
+| `<log-file>` | Absolute path to a log file. If hosting in a cloud environment, you may want to [direct logs to stdout](https://stackoverflow.com/a/26897648/1723499). |
 
 Restart Supervisor.
 
