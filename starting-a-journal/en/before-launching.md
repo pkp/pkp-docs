@@ -137,3 +137,21 @@ How will the journal ensure that published articles are accessible for readers w
 
 How do you plan to keep track of your journal’s usage and success? You can see [view and download statistics](https://docs.pkp.sfu.ca/learning-ojs/en/statistics#articles) in OJS, or generate a more detailed [usage statistics report](https://docs.pkp.sfu.ca/learning-ojs/en/statistics#usage-statistics-report) to see stats for the entire journal over a period of time. You might also use tools such as Google Analytics, Altmetrics, or Journal Impact Factor to measure the visibility and citation record of your journal.
 
+# Set up your OJS site
+
+## Learn OJS functionality
+
+[PKP School](https://pkpschool.sfu.ca/) offers a series of free, online, self-paced courses for you to learn how to use OJS (registration required):
+- [Setting up a journal in OJS 3.3](https://pkpschool.sfu.ca/courses/setting-up-a-journal-in-ojs3-3/)
+- [Editorial workflow in OJS 3.3](​​https://pkpschool.sfu.ca/courses/editorial-workflow-in-ojs-3-3/)
+
+You can also refer to our [Learning OJS 3 guide](https://docs.pkp.sfu.ca/learning-ojs/en/) for a visual, step-by-step guide to setting up and managing your journal. If your journal is hosted by an institution or a paid hosting provider, you may also be able to request webinar training for you and / or your editorial team.
+
+## Customise the look and feel of your journal website
+
+Consider how your journal will be branded, including logos, colours, and font choices. Check our documentation on [Branding Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/branding) in the [Designing Your Journal guide](https://docs.pkp.sfu.ca/designing-your-journal/en/) for ideas.
+
+Once you’ve determined the branding and style guide for your journal, the [Appearance options](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#appearance) in the Website Settings provide many opportunities for you to select a look-and-feel for your site, including selecting a preset journal theme, adding a logo or cover image, and adding a customized journal stylesheet.  
+
+If you are a web developer looking to further tailor the look and feel of your journal site with a custom theme, see the [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+
