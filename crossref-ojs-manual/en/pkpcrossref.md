@@ -1,3 +1,7 @@
+---
+book: crossref-ojs-manual
+version: 3.2
+---
 # Project Information
 
 PKP and Crossref collaborate to help publishers and journals using Open Journal Systems (OJS) take better advantage of Crossref services. In 2014, PKP became a Sponsoring Organization of Crossref, providing improved Crossref integration and overall support for the service. Additionally, PKP can now act as a sponsor representative for OJS journals wishing to apply for Crossref membership and is, in some cases, able to waive fees.
@@ -12,6 +16,9 @@ PKP is continually working with Crossref to improve the level of overall DOI exp
 - inclusion of references (OJS 3.1.2-1);
 - improved use of Crossref API (OJS 3.1.2-1);
 - support for Similarity Check service;
+- support for reference linking and submission (OJS 3.1.2-x)
+- support for Crossref Funder registry (OJS 3.1.2-x)
+- support publications/versioning for DOIs (OJS 3.2)
 - also, regular review for improved user experience.
 
 ## Future Development Plans and Milestones

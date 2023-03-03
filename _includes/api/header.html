@@ -1,8 +1,0 @@
-<div class="bookHeader">
-	<a class="bookHeader__logo" href="/">
-		<img src="/img/docs-logo.png" alt="{{ site.data.site.logoAltText }}" class="bookHeader__logoImage">
-	</a>
-	{% assign versions = site.data.versions.api[page.app] %}
-	{% assign current = page.version %}
-	{% include versions.html %}
-</div>

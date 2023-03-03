@@ -1,3 +1,7 @@
+---
+title: Editing and Peer Review - Student Journal Toolkit
+---
+
 # Editing and Peer Review
 
 ## Style
@@ -7,7 +11,7 @@ Many journals have style, author, or submission guidelines. These lay out inform
 ### Some examples
 
 -   [Partnership: The Canadian Journal of Library and Information Practice and Research](https://journal.lib.uoguelph.ca/index.php/perj/about/submissions)
--   [The Accounting Review](https://aaapubs.org/userimages/ContentEditor/1432243703884/MANUSCRIPT_PREPARATION_AND_STYLE.pdf) (American Accounting Association)
+-   [The Accounting Review](https://meridian.allenpress.com/DocumentLibrary/AAAN/MANUSCRIPT_PREPARATION_AND_STYLE.pdf) (American Accounting Association)
 -   [PLOS ONE](https://journals.plos.org/plosone/s/submission-guidelines)
 -   [Native American and Indigenous Studies](https://www.naisa.org/journal/submit-to-nais/)
 
@@ -46,7 +50,7 @@ Table 1. *Types of Review*
     <figcaption>Figure 1: Peer review process. From McGill Library, Scholarly Journal Publishing Guide, 2019, <a href="http://libraryguides.mcgill.ca/journalpublishing/typesofreview">http://libraryguides.mcgill.ca/journalpublishing/typesofreview</a>.</figcaption>
 </figure>
 
-Peer review is being used for more than articles, with Wilfrid Laurier University Press developing a [process for reviewing podcasts](https://www.wlupress.wlu.ca/Scholarly-Podcasting-Open-Peer-Review), and the University of Sydney’s report on [Non-Traditional Research Outputs](https://sydney.edu.au/research_support/performance/documents/ntro-guidelines-sydney.pdf) including criteria for reviewing research that is not produced as an article. BC Studies provides reviewers with guidelines for both [sound](https://bcstudies.com/submissions/sound-submissions/) and [digital media](https://bcstudies.com/submissions/digital-media-submissions/) submissions.
+Peer review is being used for more than articles, with Wilfrid Laurier University Press developing a [process for reviewing podcasts](https://www.wlupress.wlu.ca/Scholarly-Podcasting-Open-Peer-Review), and the University of Sydney’s report on [Non-Traditional Research Outputs](https://www.sydney.edu.au/dam/intranet/documents/research-support/reporting/ntros/ntro-guidelines-sydney.pdf) including criteria for reviewing research that is not produced as an article. BC Studies provides reviewers with guidelines for both [sound](https://bcstudies.com/submissions/peer-review-soundworks-submissions/) and [digital media](https://bcstudies.com/submissions/digital-media-submissions/) submissions.
 
 Peer review is different than copyediting or proofreading. Editors Canada has created videos for [copyediting](https://youtu.be/QYR5tztoCxY) and [proofreading](https://youtu.be/3kgek9m-u7o) that discusses each process.
 

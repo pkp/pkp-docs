@@ -1,49 +1,41 @@
-# Create and Edit Documentation
+---
+title: Edit and Create Documentation - Guidelines for Contributing to PKP Documentation
+showPageTOC: true
+---
 
-Most of PKP's documentation is hosted and managed in a GitHub repository called the PKP Documentation Hub and is displayed as a website using an open source tool called [Jekyll](https://jekyllrb.com). The content files that make up PKP's documentation are stored in the [Documentation Hub repository](https://github.com/pkp/pkp-docs) and you can edit and add documents to the repository with a GitHub account. This chapter explains how to add new documents and edit documents in the repository.
+# Edit and Create Documentation
 
-## Markdown
+Now that you understand the basics of GitHub, this chapter explains how to add new documents and edit documents in the repository.
 
-The files are all in a format called Markdown, a simple, easy-to-read, easy-to-write text format that allows users to generate basic HTML without knowing HTML language itself. It uses simple tags to format text on a website.
+## Edit a Document
 
-This is an example of markdown:
+If you want to edit existing documentation or add a section or chapter to existing documentation, you can edit the document directly from the docs repository itself.
 
-```
-`### Step 3
+1. Create a [GitHub](https://github.com) account if you do not already have one and log in.
+2. Navigate to [the repository in GitHub](https://github.com/pkp/pkp-docs).
+3. Follow the directory structure in GitHub until you see the file you want to edit.
+4. Click the filename to view that individual file.
+5. From there, on the top right of the document window, you should see a small pencil icon.
+6. Click that button to open up a plain text editor for the document within GitHub itself.
+7. Edit the document.
 
-On **Step 3**, you will be asked to add more information about the submission, including the title of the submission \(broken down into prefix, title, and subtitle\), the abstract, and scrolling down...`
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/contrib-01.mp4" type="video/mp4">
+  </video>
+  <figcaption>File edit menu in GitHub.</figcaption>
+</figure>
 
-```
-
-Here are three guides for writing markdown:
-
-- [Daring Fireball Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
-- [Mastering GitHub Flavoured Markdown](https://guides.github.com/features/mastering-markdown/)
-- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-## File Structure
-
-Each folder in the PKP Documentation Hub repository represents a document.
-
-![](./assets/contrib-docs-hub-repo.png)
-
-Short documents consist of a single markdown file and may have an "assets" folder of images. All content is contained in the `index.md` file and the table of contents on the side of the page is created using the header tags in markdown.
-
-![](./assets/contrib-single-file-doc.png)
-
-Longer documents consist of multiple chapter files, a README file, a SUMMARY file, and an assets folder. Content is stored in the chapter files and the README file acts as a summary page for the document. The SUMMARY file creates the table of contents.
-
-![](./assets/contrib-multi-file-doc.png)
-
-If the document exists (or will exist) in more than one language, there will be a separate folder of these files for each language version.
-
-![](./assets/contrib-language-folders.png)
+If your edits requires you to replace or add images, see section on Adding/Replacing images.
 
 ## Create a Document
 
-When you create a new document, you need to decided whether to make it a _single page document_ or _multi-page document_, as they are significantly different.
+When you create a new document, you need to decided whether to make it a _single page document_ or _multi-page document_, as they are significantly different. Most guides in the Documentation Hub are multi-page documents, which means that each chapter is a different file. However, some short guides are single-page documents.
 
-### Single page docs
+* [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/) is an example of a multi-page document.
+* [Google Scholar Indexing](https://docs.pkp.sfu.ca/google-scholar/en/) is an example of a single-page document.
+
+### Single Page Docs
 
 Single page documents are rendered fully from one markdown file. The table of contents on the side of the page is created using the header tags in markdown. For example:
 
@@ -71,16 +63,16 @@ From here, write the document out as you would using markdown. Any level two hea
 
 > Headings should never skip a level. Do not jump from `## Heading` (2) to `#### Sub-heading` (4). It is important that a sub-heading of `## Heading` (2) is `### Heading` (3) for accessibility.
 
-### Multi-page docs
+### Multi-page Docs
 
 Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust directories with folders for individual languages/translations, and a single markdown file for every chapter of the document. They also contain a file called `SUMMARY.md` that creates the table of contents for the document and a file called `README.md` that serves as a first/landing page for your document. To create a multi-page document start with the following:
 
 1. In the pkp-docs repository, click Create New File. You will create the new folder for the document as you create the file.
 2. Enter the name of the document folder and then /. This will automatically create the folder.
-- _Remember to follow naming conventions_. (e.g., if your document is a guide to ORCID, you could name it orcid-guide or orcid-plugin).
+   - _Remember to follow naming conventions_. (e.g., if your document is a guide to ORCID, you could name it orcid-guide or orcid-plugin).
 3. Enter the name of the file `index.md`.
-    - A document-wide `index.md` file should contain a description of the document as well as copyright information. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page.
-    - At the top of your indexing file, include the following:
+   - A document-wide `index.md` file should contain a description of the document. Look to other documents as examples. Also, if the document is available in more than one language, they should all be linked from this page.
+   - At the top of your indexing file, include the following:
 
 ```
 ---
@@ -92,146 +84,292 @@ Unlike with a single-page document, you no longer need to add to index.md. The r
 
 1. Create a folder for the [language of your document](http://www.lingoes.net/en/translator/langcode.htm) (eg: en_US, en_CA, fr_CA, fr_FR).
 2. Create a file called `SUMMARY.md`
-    - `SUMMARY.md` is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file.
+    - `SUMMARY.md` is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file. You can fill in all of the chapter and section links after you have created the chapter files.
         - a chapter link would look like: `- [Statistics](statistics.md)`
         - a heading inside that chapter would look like: `- [Definitions](./statistics.md#definitions)`
-3. Create a file called `README.md` which should be a language specific version of the text you had in `index.md`.
-4. Create your chapters and write your links to those files in the `SUMMARY.md` file.
-    - Each full chapter of a multi-page document should be a single markdown file. Subheadings within those chapters can be linked in `SUMMARY.md` to allow for links to specific sections.
 
-> A note on formatting: whereas your headers in single documents create the sidebar TOC, in multi-page docs, this is handled by the `SUMMARY.md` file. As a result, you'll want each chapter title as an H1, with all subtitles ranging from H2 to H5. Since you can add to the TOC manually, you can include chapters there as you see fit.
+#### Create README file
 
-![](./assets/contrib-summary-md-file.png)
+The next step is to create a README.md file in the language folder for the document. The README file is the main landing page of the document and should contain summary introduction information about the document, so users know what the document is about. It should also contain relevant keywords and descriptive metadata so that users can find the document by searching and the document ranks high in Google search results about the document topics.
 
-### File naming conventions
+Add Title and Description front matter (metadata) to the document, with the Markdown formatting shown in the example below.
 
-**In General** // While any name you create should work, it's best to keep titles short and descriptive. Always replace spaces between words with a dash.
+- The Title should have the name of the guide in it and any main keywords that would be searched for the document.
+- The Description will usually be displayed in the search result, so should give the user a summary of the document and include main keywords that would be searched.
+- If either the title or description contain a `:`, they should be put into quotes.
 
-**Titles** // Some example titles include: `learning-ojs`, `pkp-theming-guide`, `crossref-ojs-manual`. Remember that titles are part of the file path in the URL to individual docs so keep it simple.
+Example:
 
-**Chapters** // You might be tempted to number chapters but, if we ever need to create new chapters in between existing ones, we would need to re-number. It's best to keep chapters in the same style as title-level names. Some examples for chapters include: `getting-started.md`, `troubleshooting.md`, `data-import-and-export.md`.
+```
+---
+title: Technical Documentation - OJS|OMP|OPS
+description: A technical guide to the coding conventions and application architecture for Open Journal Systems and Open Monograph Press.
+---
+```
 
-**Images** // Please store all images in a single "assets" folder within the language you're working (e.g.: `en/assets/`). Keep your image titles brief or with abbreviations and consistently named, so they're easy to locate. Depending on how many images you have, numbering these might be a lot more convenient while working on the document. _Listen to your heart._ Some examples include: `contrib-01.png`, `authoring-images-01.png`. If you're putting all your imagines into only the asset folder, it's a good idea to name your images to correspond with chapter titles.
+Example with quotes:
 
-Note that file names are case sensitive, so if the image is saved as learning-ojs3.1-jm-settings-workflow-email-templates.png and you reference learning-ojs3.1-jm-settings-workflow-email-templates.png in the document, the image will not display.
+```
+---
+title: 'Learning OJS 3.3: A Visual Guide to Open Journal Systems'
+description: A comprehensive visual guide to all basic functions and configurations related to publishing scholarly articles in Open Journal Systems (OJS).
+---
+```
 
-### Add images
+Below the front matter, add the H1 title for the page. Since this will be the introduction chapter, the title should be "Introduction: [Document Title.]. For example:
 
-Adding images to your documentation helps users more easily locate the features you are writing about. Images should go in a folder named `assets`. The type of document you're working on changes where you should put your images.
+```
+# Introduction: Technical Documentation for OJS, OMP, and OPS
+```
+
+Now you can add text to the README file. This will be the introduction chapter. It should start with a concise 1-paragraph summary of what the document is about. Then add up to 4 additional paragraphs that further summarize the document's content, including an explanation of who the guide is for and which software applications or versions it applies to. Make sure the text includes all main topics of the document and relevant keywords.
+
+If you want to include extensive background information about the guide or introductory content that exceeds 5 paragraphs or 300-500 words, create a separate chapter for this content with an appropriate title.
+
+Save the README file when it is complete.
+
+#### Create chapter files
+
+Next you can create a separate file for each chapter in the guide and add content to each chapter. Each full chapter of a multi-page document should be a single markdown file.
+
+Every chapter file should have Title front matter (metadata), which can include the document title, and Description front matter, which should give a summary of the document and include main keywords that would be searched. For example, if the document is "Designing Your OJS Journal" and the chapter is "Inclusive and Accessible Theming," the Title could be as follows:
+
+```
+---
+title: Inclusive and Accessible Themes - Designing Your OJS Journal
+description: How to develop inclusive and accessible themes for OJS, including colour, alt text, URLs, and page structure
+---
+```
+
+If the title contains a `:` character, then the title should be put into quotes, for example:
+
+```
+---
+title: 'Learning OJS 3.3: A Visual Guide to Open Journal Systems'
+---
+```
+
+Then add an H1 chapter title and your chapter content below. For any subheadings use descending header tags (H2 to H5). Do not skip a level of header tag, as this affects accessibility.
+
+#### Update table of contents
+
+Once you have created all of your chapters, you can add links to those files in the `SUMMARY.md` file, which essentially creates a table of contents for the document. Whereas your headers in single documents create the sidebar table of contents, in multi-page docs, you need to add the headers manually to the `SUMMARY.md` file.
+
+In the `SUMMARY.md` file, add a link for each chapter title and H2 subheading links below the chapter links.
+
+The first link should be for the Introduction in the README file:
+
+```
+* [Introduction](.)
+```
+
+![Summary file for the Learning OJS 3 guide.](./assets/contrib-summary-md-file.png)
+
+## Adding/Replacing images
+
+### Adding Images
+
+Adding images to your documentation helps users more easily locate the features you are writing about. Images should go in a folder named assets. The type of document you’re working on changes where you will find the assets folder.
 
 1. Single-page documents:
-    - Place the `assets` folder within your main document folder. For example: `/contributing/assets/`
+    - Find the assets folder within your main document folder. For example: `/contributing/assets/`
 2. Multi-page documents:
-    - Place the `assets` folder within the language folder of the document you're working on. For example: `/learning-ojs/en/assets/`
+    - Find the assets folder within the language folder of the document you’re working on. For example: `/learning-ojs/en/assets/`
 
-## Edit a Document
+To add new images to a document, you will need to take and save these screenshots locally. Make sure to follow the naming convention for images.
 
-If you want to edit existing documentation or add a section or chapter to existing documentation, you can edit the document directly from the docs repository itself.
+New assets can be added before working on a document or after it has been completed.
 
-1. Create a [GitHub](https://github.com) account if you do not already have one and log in.
-2. Navigate to [the repository in GitHub](https://github.com/pkp/pkp-docs).
-3. Follow the directory structure in GitHub until you see the file you want to edit.
-4. Click the filename to view that individual file.
-5. From there, on the top right of the document window, you should see a small pencil icon.
-6. Click that button to open up a plain text editor for the document within GitHub itself.
-7. Edit the document
+To add assets to a document and assets folder:
 
-![](./assets/contrib-01.gif)
+1. Add image code in the part of the document you would like this to appear in, [including alt text](#alt-text-for-images). To link to an image in the assets folder you will need to type `“![alt text](./assets/ image file name)”`
+   - e.g., `![OJS 3.1 workflow settings components tab.](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
+2. Repeat this step as many times as needed.
+3. Create a draft pull request rather than opening a pull request yet
+4. Upload assets into the assets folder
+   - Go to the branch that has been created for this set of changes.
+   - Open the document folder followed by the language folder (if applicable)
+   - Open the Assets folder
+   - Click the Upload Files button
+   - Click Choose Your Files
+   - Open the special folder where you saved all of your screenshots
+   - Select all of the files and click Open
+   - Commit your changes directly to the branch you have been working in
+   - Change the status of your draft pull request to ready
 
-## Save and Submit Your Changes
+![This pull request is still a work in progress notice.](./assets/draft-PR.png)
 
-This section explains how to save your work and submit your new and edited documents to the PKP Documentation Hub.
+### Replacing Images
 
-### Commit via browser
+While you’re editing a document you may find that you need to replace an image with an updated screenshot. This might be the case with version updates.
 
-Once you've made your changes, it's time to _commit_ your changes and create a _pull request_. A _commit_ is merely a change to the file you are proposing to others who use the repository. You'll see two fields in the commit window.
+First, take the new screenshot and update the link to the screenshot in the document.
 
-![](./assets/contrib-02.png)
+1. Take the new screenshot and save it
+2. Before you save the new screenshot, find the link in the document to the old screenshot. It may look something like this:
+   - `![alt text](./assets/learning-ojs3.1-jm-settings-workflow-comp.png)`
+3. If you’re doing a version update, change the version number in the file name. You would change the above example link to say the following:
+    - `![alt text](./assets/learning-ojs3.2-jm-settings-workflow-comp.png)`
+4. Copy the part of the link that comes after the last / and before the file type extension - e.g., `learning-ojs3.2-jm-settings-workflow-comp`
+5. Go to the new screenshot you just took and save as. Paste the file name you copied in the last step and save the screenshot in a special folder on your desktop.
+6. Continue editing the document and save any additional screenshots you take in the same folder and name them in the same way. Once you are finished editing the document, describe your changes at the bottom of the document and click Propose File Change. This will add your changes to a branch. The next page will show Comparing Changes. Create a draft pull request rather than opening a pull request yet. You will upload your screenshot files to the new branch before making a pull request.
+   - Go to the branch that has been created for this set of changes.
+   - Open the document folder followed by the language folder (if applicable)
+   - Open the Assets folder
+   - Click the Upload Files button
+   - Click Choose Your Files
+   - Open the special folder where you saved all of your screenshots
+   - Select all of the files and click Open
+   - Commit your changes directly to the branch you have been working in
+   - Change the status of your draft pull request to ready
 
-The first is a very short descriptor of what you just changed. A few words should do the trick. Here are some examples:
+![This pull request is still a work in progress notice.](./assets/draft-PR.png)
 
-- Updated link to OJS in `filename.md`
-- migrated Crossref guide to markdown
-- added appendix to Learning OJS
-- replaced images in admin guide
+### Deleting Images
 
-The second window allows you to enter a more detailed description of what you changed. You might want to do this if you need to justify your changes or need to let everyone else know that a change is significant.
+If you’ve replaced images and there is no longer a use for the previous saved asset, the old assets can now be deleted. Before deleting the old assets, look through the chapter to make sure that these are not being used in other sections of the document. If so, update the other links with the new file name. You can then delete the old assets from your branch and create a pull request.
 
-Below those two fields, you'll see your committing options. **_If you are a member of the PKP team, you'll see the ability to commit directly to master branch_**. It's important to note that these changes are immediate, but they are also unreviewed. Please do not commit directly to master. We recommend that you always commit code via pull request.
+## Alt text for images
 
-### Branches and pull requests
+Informative images such as screenshots need to have alt text (“alternative text”). Alt text is a machine-readable tag that describes an image in words if the image cannot be viewed for any reason, including slow internet connection, error in the HTML code, or the use of assistive technology.
 
-A branch is a version of the repository that contains the changes you've proposed, uniquely. Since it is not part of "master," it won't have an impact on the way the site is built in real-time. If you create your own branch via this method, you'll be asked to name it. Name it something simple with no spaces. A suitable way to name your branch is with the name of the document you're adding or modifying. For example:
+### Alt text format
 
-- crossref-doc-edits
-- starting-a-journal-edits
-- new-doc-filename
+`![alt text](./assets/ image file name)`
 
-After naming your branch, you'll be asked to open a "pull request." A pull request is a _request you are making for the managers of the repository to pull your changes into the master version of the doc_.
+#### Alt text example 1
 
-![](./assets/contrib-03.png)
+`![OJS 3.3 new article notification screen.](./assets/learning-ojs3.3-new-notification.png)`
 
-You can see here that you can title your request and fill out a description of what you've changed. Once you're all set, you can click the link that says "create pull request." Once you do this, repository managers are notified of your change and can decide to merge your code with the master repository.
+![OJS 3.3 new article notification screen.](./assets/learning-ojs3.3-new-notification.png)
 
-At the bottom of the page, you'll see what's known as a "diff." A diff is just a way to see what changes you've made from the original code.
+#### Alt text example 2
 
-### Use GitHub Desktop and Atom to edit documents
+`![Creative Commons license types arranged from the most free to the least free.](./assets/journal-policies-cc-licenses.png)`
 
-If you're working on a large piece of documentation and you're not comfortable using either the command line or the web interface for GitHub, you might want to consider using GitHub's [GitHub Desktop](https://desktop.github.com/) and the [Atom](https://atom.io/) text editor. With this workflow, you can "clone" a copy of the docs repository to your computer, make your edits locally (and even build a version of the Documentation Hub using Ruby, if you like) and create a pull request with your changes once you're finished.
+![Creative Commons license types arranged from the most free to the least free.](./assets/journal-policies-cc-licenses.png)
 
-Once you've installed GitHub desktop, you should have an option while viewing any GitHub repository to "Clone or Download" and "Open in Desktop."
+### Alt text good practices
 
-1. Navigate to the repository you want to clone.
-2. Click on the green button on the right that says "Clone or Download."
-3. Select the "Open in Desktop" option.
+- Only add alt text for meaningful images, not for decorative ones (decorative images carry no information and serve no purpose other than aesthetics).
+- Do not duplicate alt text if the same information is available in the image caption or right before/after the image.
+- The recommended number of characters for alt text is 125 characters or less for compatibility with popular screen readers.
+- Don’t start alt-text with “Image of…” or “Screenshot of…”, as it’s usually apparent to the user that it’s an image and will be announced by their screen reader.
+- All alt text should end with a “.” so that the screen reader will pause after reading.
 
-![](./assets/contrib-04.gif)
+For further instructions and examples see [WebAim’s Alternative Text guide](https://webaim.org/techniques/alttext/).
 
-GitHub desktop manages your commits and pull-requests locally. It's especially convenient if you're changing more than one file at once. If you have Atom installed, you can open your project with the editor directly from GitHub desktop.
+## Embedding Videos
 
-1. Open GitHub desktop.
-2. Right click on the name of the repository in which you want to work.
-3. Select "Open in Atom."
+### YouTube Videos
 
-![](./assets/contrib-05.gif)
+To embed a YouTube video in a Markdown file, you can use the following formatting, replacing the `id` with your video's id (found in the URL of your video) and the `title` with the title of your video. Unlike images, you should include "Video of..." in your title so a screen reader announces that it is a video.
 
-In Atom, the repository directory structure is accessible on the left-hand side in the "project window." Clicking on any title opens it in the editor and allow you to make changes. You'll notice labels next to the files as you work. Green indicates a new file you've added. Yellow indicates a file you've changed since the last time you pulled an update from the primary repository.
+```
+{% raw %}
+{% include video.html id="ny0pue6MKek" provider="youtube" title="Video of how to create a new role in OJS"%}
+{% endraw %}
+```
 
-![](./assets/contrib-06.png)
+### Video Files
 
-If you are working on a project over time, you may want to regularly pull changes "from origin." You can do this in GitHub desktop by clicking on the "pull from origin" button near the top right of the window. It pulls changes since the last time you pulled them (or, since the time you cloned initially).
+If you have a video file that you want to embed in a document, you will need to upload the file to the `assets` folder for your document, similar to the steps in [the image upload process](#adding-images).
 
-Once you make your edits with Atom and have a document you want to submit, you'll want to contribute it back as a "branch."
+Once you have uploaded the video file, you can embed it by adding a `<figure>` in your Markdown file similar to the example below, replacing the filename and caption with your own. Unlike images, you should include "Video of..." in your caption so a screen reader announces that it is a video.
 
-1. In GitHub desktop, click on the "Current Branch" button.
-2. Click "New Branch"
-3. Write a concise name for your branch based on the doc you're submitting, with a single dash between words.
-4. Click "Create Branch."
+```html
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="./assets/contrib-01.mp4" type="video/mp4">
+  </video>
+  <figcaption>Video of the file edit menu in GitHub.</figcaption>
+</figure>
+```
 
-![](./assets/contrib-07.gif)
+## Creating Assets Folder
 
-Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub desktop window, you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
+To create an asset folder within the document branch, you will need to create a new file by clicking ‘Create new file’ in your repository.
 
-![](./assets/contrib-08.png)
+![Document screen with create new file button pointed out.](./assets/create-assets-folder.png)
 
-The first field is for a very short descriptor of what you just changed. A few words should do the trick. Here are some examples:
+This will prompt you to another page where you can edit a new file. On the top you will see:
 
-- Updated `filename.md`
-- Migrated `filename.md`
-- Added appendix to document
-- Replaced images
+![Name your file form field.](./assets/create-file-name.png)
 
-The second field is for a more detailed description of what you changed. You might want to do this if you need to justify your changes or need to let everyone else know that a change is significant.
+Here you will enter the main document folder and the subsequent folders. This will vary depending on whether you are creating an asset folder for a single on multi-page document.
 
-When you finish, click the button on the bottom left labelled "Commit to `branch name`."
+Begin by entering the main folder name followed by ‘/’. You will do this until you reach the subfolder you want to create your asset folder within.In a single-page document the asset folder might be created as the second level folder (i.e., `pkp-docs/contributing/assets/`). In a multi-page document the asset folder might be created within the language folder of the document you are working on. (i.e., `pkp-docs/learning-ojs/en/assets/`).
 
-Now that you've committed your changes, you can push your changes back to the repo with the button on the top right. It should say "Publish your Branch to GitHub" if it's the first time you've committed that branch. It syncs versions locally and remotely with your branch changes and submits your "pull request" to managers of the Docs Hub.
+Multi-page Example:
 
-This document is, necessarily, a brief introduction to using GitHub. GitHub has a tremendous amount of documentation on its use, however. If you want to read more about GitHub basics, please read ["Hello, World"](https://guides.github.com/activities/hello-world/).
+![Name your file form field for a multi-page document.](./assets/create-file-name-multi.png)
 
-<!---
-Include this in internal Documentation Procedures instead
-## Modify cards and site layout
+For this example, I have created an assets folder within the en folder of learning-ojs.
 
-Please read [Orientation to file structure](./README.md#orientation-to-file-structure) for guidance on how to configure the layout of the documentation hub. It is recommended that edits in this space be cleared via Git Issue or pull request.
---->
+Single-page example:
+
+![Name your file form field for a single-page document.](./assets/create-file-name-single.png)
+
+As GitHub will not allow you to create a blank folder, you will need to create a document in the asset folder. Remember that document pages need to end with ‘.md’
+
+This can be labelled as anything, as it will be deleted after you’ve uploaded your assets. Enter some text into the textbox and commit the change to the file.
+
+![Commit new file screen.](./assets/create-file-holder.png)
+
+You should find your newly created assets folder within the main document folder. Click upload files on the top right corner.
+
+![Assets folder with the upload files button pointed out.](./assets/create-file-upload.png)
+
+Add your assets using drag and drop or by clicking ‘choose your files’
+
+![Files drag and drop screen.](./assets/create-file-upload2.png)
+
+Once you’ve uploaded assets into your assets folder you can go ahead and delete the holder document file you created, by clicking the file name followed by trash can icon on the top right corner.
+
+![Holder screen with the trash can icon pointed out.](./assets/create-file-remove-holder.png)
+
+## Creating a Pull Request
+
+Once you’ve completed the made edits to the file, you will scroll down and fill the information in the text boxes and click ‘Propose file change’.
+
+![Propose file change screen.](./assets/create-PR-1.png)
+
+This will bring you to another page that compares the changes you’ve made.
+
+![Comparing changes screen with compare:patch-16 button pointed out.](./assets/create-PR-compare.png)
+
+The fourth box (highlighted in red) is the branch that’s automatically created by GitHub.
+
+Click ‘Create pull request.’
+
+This page is where you would enter a more detailed description of what you changed. You might want to do this if you need to justify your changes or need to let everyone else know that a change is significant.
+
+![Open a pull request screen.](./assets/create-open-PR.png)
+
+In this final page, you also have the option to create your pull request or create a draft pull request. A pull request indicates that you have completed your changes and lets the PKP team members know to review your changes. Meanwhile, a draft pull request allows you to continue to make changes.
+
+*If you are a member of the PKP team, you’ll see the ability to commit directly to the main branch*. It’s important to note that these changes are immediate, but they are also unreviewed. Please do not commit directly to main. We recommend that you always commit code via pull request and have someone else review it.
+
+## Save and Continue Edits to Branch
+
+Once you’ve created a draft pull request, you can continue making changes to the document you’re working on at any time. It will be important to note which branch is created for that particular document, especially if you have multiple branches in your repository.
+
+![Repository screen with switch branches drop-down open.](./assets/Github-dash-branch-menu.png)
+
+Again, the branch that has been created will be listed on the forth box in the Comparing changes page when generating a pull request.
+
+![Comparing changes screen with compare:patch-16 button pointed out.](./assets/create-branch-name.png)
+
+You can also find out the branch by looking at the PKP Repository, pull request tab. Any active pull requests made can be found in the pkp repository page under pull request. Here you will find both draft pull requests and pull requests made.
+
+![Pull requests tab](./assets/pkp-docs-PR.png)
+
+From your own repository, you will want to select the correct branch and continue making the changes to the document. After making these changes and providing the details of the changes in the textbox. You will want to select the first option to ‘Commit directly to the branch’.
+
+![Commit changes screen with commit directly to the branch option selected.](./assets/PR-Commit-changes-to-branch.png)
+
+You will repeat this step until you’ve complete making your changes.
+
+Once you’ve completed making the changes to your document. You can now go back to the draft pull request you created and click ‘Ready for Review.’
+
+![Pull requests tab with a pull request ready for review.](./assets/PR-ready-review.png)

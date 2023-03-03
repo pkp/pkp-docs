@@ -7,7 +7,6 @@
   * [Rekisteröityminen](./user-accounts.md#rekisteröityminen)
   * [Käyttäjäprofiilin muokkaus](./user-accounts.md#käyttäjäprofiilin-muokkaus)
   * [Salasanan vaihtaminen](./user-accounts.md#salasanan-vaihtaminen)
-  * [Roolit OJS-järjestelmässä](./user-accounts.md#roolit-ojs-järjestelmässä)
 * [Luku 4: Sivuston asetukset](./site-administration.md)
 * [Luku 5: Julkaisun asetukset](./journal-setup.md)
 * [Luku 6: Numerot](./issues.md)

@@ -19,36 +19,22 @@ ojs
 │     │
 │     ├─┬ locale
 │     │ ├─┬ en_US
-│     │ │ └── locale.xml
+│     │ │ └── locale.po
 │     │ └─┬ fr_CA
-│     │   └── locale.xml
+│     │   └── locale.po
 │     ├── index.php
-│     └── TutorialExamplePlugin.inc.php
+│     └── TutorialExamplePlugin.php
 │     └── version.xml
 ```
 
 The locale file defines the language and any messages that should be translated.
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
-<locale name="en_US" full_name="U.S. English">
-	<message key="plugins.generic.tutorialExample.name">Tutorial Example</message>
-	<message key="plugins.generic.tutorialExample.description">This plugin is an example created for a tutorial on how to create a plugin.</message>
-</locale>
-```
+```po
+msgid "plugins.generic.tutorialExample.name"
+msgstr "Tutorial Example"
 
-Call the `addLocale()` method during registration to load the locale files.
-
-```php
-import('lib.pkp.classes.plugins.GenericPlugin');
-class TutorialExamplePlugin extends GenericPlugin {
-	public function register($category, $path, $mainContextId = NULL) {
-    $success = parent::register($category, $path);
-    $this->addLocale();
-		return $success;
-  }
-}
+msgid "plugins.generic.tutorialExample.description"
+msgstr "This plugin is an example created for a tutorial on how to create a plugin."
 ```
 
 Then use the `__()` function to get a message in your plugin.

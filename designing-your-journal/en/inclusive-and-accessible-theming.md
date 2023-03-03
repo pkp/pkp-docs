@@ -1,8 +1,17 @@
+---
+title: Inclusive and Accessible Theming - Designing Your OJS Journal
+showPageTOC: true
+---
+
 # Inclusive and Accessible Theming
 
 When making design changes, it is important to be mindful of the diversity of your readership and inclusive of users’ needs and circumstances. In addition to visual impairments, users may be affected by hearing, cognitive, and motor limitations when browsing a website; others may have a different social or cultural background that may alter their understanding of content. These circumstances may be permanent, as with colour vision deficiencies (CVD), or temporary, as with browsing on a smaller screen with a slow internet connection.
 
 In this guide we will focus on visual impairments specifically, but it is always valuable to maintain clear and concise editorial standards so that your articles reach and remain accessible to as many researchers or readers interested in your field as possible.
+
+## Accessibility of Themes
+
+As of OJS/OMP/OPS 3.3, the Default Theme has been externally audited for accessibility and adheres to best practices like colour contrast, keyboard navigation, and form/link focus. [PKP Accessibility Statement](https://docs.pkp.sfu.ca/accessibility-statement/) contains further details. Note that changes made to the theme may impact accessibility.
 
 ## Colour
 
@@ -10,14 +19,14 @@ You can use [WebAim's Contrast Checker](http://webaim.org/resources/contrastchec
 
 Most OJS 3 themes allow you to customize the main or header colour of your website. With [WebAim’s Contrast Checker](https://webaim.org/resources/contrastchecker/), for example, you can check whether you should use black or white text, as well as header logo, with your main colour of choice in order to ensure readability for users with visual limitations. In the following example, the user is testing out a pink as well as a purple selected to match their homepage cover image.
 
-![](./assets/WCAG-colour-contrast-checker.png)
+![The WebAim contrast checker showing pass and fail statuses for different text and background color combinations.](./assets/WCAG-colour-contrast-checker.png)
 
 The test recommends that the user only display black text on pink or white text on purple. Therefore, the user has two accessible options using these colours:
 
-![](./assets/header-colour-dont-1.png)
-![](./assets/header-colour-dont-2.png)
-![](./assets/header-colour-do-1.png)
-![](./assets/header-colour-do-2.png)
+![An unacceptable color combination of white on light pink used in OJS, accompanied by a red X.](./assets/header-colour-dont-1.png)
+![An unacceptable color combination of black on dark violet used in OJS, accompanied by a red X.](./assets/header-colour-dont-2.png)
+![An acceptable color combination of black on light pink used in OJS, accompanied by a green checkmark.](./assets/header-colour-do-1.png)
+![An acceptable color combination of white on dark violet used in OJS, accompanied by a green checkmark.](./assets/header-colour-do-2.png)
 
 Additionally, with tools such as the [Spectrum Chrome extension](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en) you can emulate various types of colour vision deficiencies (CVD) on any website. Tools like the [Accessible Color Palette Builder](https://toolness.github.io/accessible-color-matrix/) can help you decide on the best colour combinations for your website.
 
@@ -66,10 +75,10 @@ When writing web content, ensure that:
 
 ## Document accessibility
 
-Non-HTML content, such as documents you upload, should be accessible as well. When creating journal documentation, such as author guidelines, style guides, etc., consider presenting them as static HTML pages rather than uploading PDFs to the website. If using PDFs, ensure that they are appropriately tagged to be screen-reader friendly.
+Non-HTML content, such as documents you upload, should be accessible as well. When creating journal documentation, such as author guidelines, style guides, etc., consider presenting them as static HTML pages rather than uploading PDFs to the website. If using PDFs, ensure that they are appropriately tagged to be screen-reader friendly. PKP's guide [Creating Accessible Content: A Guide for Journal Editors and Authors](https://docs.pkp.sfu.ca/accessible-content/) contains further details and resources.
 
 ## Checking your website for accessibility
 
 When modifying the theme of your journal website, ensure that it remains accessible by checking your journal on different browsers and on various devices.
 
-Additional online tools such as [AChecker](https://achecker.ca/checker/index.php) (free) or [Wave browser extension](http://wave.webaim.org/extension) (free) can facilitate website auditing. Tabbing through your pages and using a screen reader such as [ChromeVox](http://www.chromevox.com/) (free), [NVDA](https://www.nvaccess.org/) (free) or [JAWS](https://www.freedomscientific.com/products/fs/jaws-product-page.asp) can help ensure that a person with a visual impairment can navigate your website.
+Additional online tools such as [Wave browser extension](http://wave.webaim.org/extension) (free) or [axe DevTools](https://www.deque.com/axe/) (free) can facilitate website auditing. Tabbing through your pages and using a screen reader such as [ChromeVox](http://www.chromevox.com/) (free), [NVDA](https://www.nvaccess.org/) (free) or [JAWS](https://www.freedomscientific.com/products/fs/jaws-product-page.asp) can help ensure that a person with a visual impairment can navigate your website.

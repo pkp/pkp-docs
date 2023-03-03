@@ -1,3 +1,7 @@
+---
+book: crossref-ojs-manual
+version: 3.2
+---
 # Troubleshooting Deposits from UI/Plugin-based Registration
 
 In order to check on the status of a registration attempt, you can click on any displayed "status". Potential "status" options include:

@@ -8,25 +8,37 @@
   * [Handlers](./architecture-handlers)
   * [Authentication](./architecture-authentication)
   * [Authorization](./architecture-authorization)
-  * [Services](./architecture-services)
   * [Entities](./architecture-entities)
+  * [DAOs](./architecture-daos)
+  * [Repositories](./architecture-repositories)
+  * [Maps](./architecture-maps)
   * [Database](./architecture-database)
   * [Plugins](./architecture-plugins)
-* Frontend
-  * Template Manager
-  * UI Library
-  * Components
-  * Controllers
+* [Frontend](./frontend)
+  * [Pages](./frontend-pages)
+  * [UI Library](./frontend-ui-library)
+  * [Forms](./frontend-forms)
+  * [ListPanels](./frontend-list-panels)
+  * [Controllers](./frontend-controllers)
 * Utilities
   * Application
   * Cache
   * Config
-  * File
-  * Hooks
+  * [Email](./utilities-email)
+  * [Files](./utilities-files)
+  * [Hooks](./utilities-hooks)
+  * Jobs
+  * Migrations
   * Notifications
-  * Translation
+  * [Translation](./utilities-translation)
   * Updates
   * [Validation](./utilities-validation)
-* [Resources](./resources)
 * Other
+  * [Decisions](./decisions)
   * [Email Templates](./email-templates)
+  * [Publication Versions](./publication-versions)
+  * [Statistics](./statistics)
+    * [Editorial Statistics](./statistics-editorial)
+    * [Reader Statistics](./statistics-reader)
+  * [Submission Files](./submission-files)
+* [Resources](./resources)

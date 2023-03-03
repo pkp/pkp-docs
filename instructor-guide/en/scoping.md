@@ -1,3 +1,8 @@
+---
+title: Scoping your project - Instructor Guide for Course Journals
+description: Determine how the course journal will fit into the course assignments and learning objectives, including options for roles for students.
+---
+
 # Scoping your project
 
 ## Types of assignments
@@ -6,7 +11,7 @@ There are a variety of options for assignments involving a course journal. When 
 
 ### Students as founding editors
 
-The purpose of the assignment is to have your students learn about the intellectual effort involved in the creation of a journal and its editorial vision and policies. Students design and set up the course journal, making policy and design decisions. They can consider ethical issues around peer review, the publishing process, licensing, and distribution of their work. [PKP’s Student Journal Toolkit](https://github.com/pkp/pkp-docs/edit/instructor-guide/instructor-guide/en/scoping.md) outlines considerations in journal planning.
+The purpose of the assignment is to have your students learn about the intellectual effort involved in the creation of a journal and its editorial vision and policies. Students design and set up the course journal, making policy and design decisions. They can consider ethical issues around peer review, the publishing process, licensing, and distribution of their work. [PKP’s Student Journal Toolkit](/student-toolkit/) outlines considerations in journal planning.
 
 ### Students as editors
 

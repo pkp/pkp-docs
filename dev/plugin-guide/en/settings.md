@@ -86,7 +86,7 @@ class TutorialExamplePlugin extends GenericPlugin {
 </form>
 ```
 
-## The `Form` class
+## The Form class
 
 Plugins can use the application's form handling system to load, validate and save plugin settings. Update the `manage()` method to use a custom `Form`.
 

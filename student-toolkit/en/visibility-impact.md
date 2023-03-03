@@ -1,3 +1,7 @@
+---
+title: Journal Visibility and Impact - Student Journal Toolkit
+---
+
 # Journal Visibility and Impact
 
 These two sections briefly summarize strategies for making your journal visible, and checking your impact. If you have any further questions, please contact your librarian for more assistance.
@@ -24,7 +28,7 @@ PKP provides [documentation](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/gett
 
 Google crawls the web and automatically adds new sites to its index. If you can’t find your journal on Google, you can submit your [URL manually](https://www.google.com/webmasters/tools/submit-url).
 
-Google Scholar identifies scholarly papers based largely on their format. Google Scholar’s [inclusion guidelines](https://scholar.google.com/intl/en/scholar/inclusion.html) specify that articles should meet the following criteria:
+Google Scholar identifies scholarly papers based largely on their format. [PKP's Google Scholar guide](https://docs.pkp.sfu.ca/google-scholar/) provides guidance around the indexing of Open Journal Systems (OJS) in Google Scholar. Google Scholar’s [inclusion guidelines](https://scholar.google.com/intl/en/scholar/inclusion.html) specify that articles should meet the following criteria:
 
 * Articles should be in PDF format
 * The title of the paper should appear in a large font at the top of the first page
@@ -41,7 +45,7 @@ Databases are searchable collections of journal articles. They also contain cita
 
 Commercial databases have strict inclusion criteria, generally requiring journals to have a stable publishing history and an editorial board comprised of respected researchers. This may be an option for a well-established journal with faculty editors.
 
-See the section on [Indexes and Databases](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-visibility#indexes-and-databases) in *Getting Found, Staying Found* for more information about getting your journal indexed.
+See the [Indexing Guide](/indexing-guide/en/) for more information about getting your journal indexed.
 
 ### Social Media
 
@@ -51,11 +55,10 @@ Social media can be used to announce new articles and engage with your audience.
 
 Directories are lists of organizations or publications. Most are lists of journal titles, but some include links to full-text articles. Some that list student journals include:
 
-* [The Directory of Open Access Journals](https://doaj.org/publishers)(DOAJ)
+* [The Directory of Open Access Journals](https://doaj.org/publishers) (DOAJ)
     * Library Publishing Coalition’s [guide to the DOAJ application](https://docs.google.com/document/d/1x1_JRbqX36wqSw7FlMiAqmAhrOzRW-q__XiEa4tvVdY/edit)
-    * [DOAJ application guide for OJS journals](https://docs.pkp.sfu.ca/getting-found-staying-found/en/getting-found-appendix-1-DOAJ)
-* [Ulrich’s](http://www.ulrichsweb.com/ulrichsweb/faqs.asp#Updating_Ulrichs)
-* [PKP Index](https://index.pkp.sfu.ca/index.php/user/register)
+    * [DOAJ application guide for OJS journals](/doaj/)
+* [UlrichsWeb Periodicals](http://www.ulrichsweb.com/ulrichsweb/faqs.asp#Updating_Ulrichs)
 
 ### Library catalogues
 
@@ -71,5 +74,5 @@ Google Scholar provides a free [citation tracking](http://scholar.google.com/cit
 
 Tracking readership statistics can help you understand your audience. These statistics will show whether you are reaching your target audience, and provide information about how readers are interacting with your journal. This data will help you promote your journal more effectively.
 
-Most content management software includes features for tracking page views and downloads. Tools like [Google Analytics ](http://www.google.com/analytics/) and [Piwik](https://piwik.org/) allow you to collect more detailed information, such as seeing how long people are spending on each page, tracking unique and repeat visitors, and monitoring how frequently visitors view your site.
+Most content management software includes features for tracking page views and downloads. The Learning OJS guide includes details on the [Report Generator options](https://docs.pkp.sfu.ca/learning-ojs/en/tools#report-generator) for tracking usage in OJS. Tools like [Google Analytics](http://www.google.com/analytics/) and [Matomo Analytics](https://matomo.org/) allow you to collect more detailed information, such as seeing how long people are spending on each page, tracking unique and repeat visitors, and monitoring how frequently visitors view your site.
 

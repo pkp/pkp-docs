@@ -25,5 +25,15 @@
 				{% endfor %}
 			</div>
 		{% endif %}
+		{% if site.data.site.navContact %}
+			<div class="siteFooter__nav">
+				<div class="siteFooter__navHeader">
+					{{ site.data.site.navContact.title }}
+				</div>
+				{% for nav in site.data.site.navContact.items %}
+					{{ nav | markdownify }}
+				{% endfor %}
+			</div>
+		{% endif %}
 	</div>
 </div>

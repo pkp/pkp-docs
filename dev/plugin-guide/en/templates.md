@@ -21,7 +21,7 @@ ojs
 │     │ ├── example.tpl
 │     │ └── settings.tpl
 │     ├── index.php
-│     └── TutorialExamplePlugin.inc.php
+│     └── TutorialExamplePlugin.php
 │     └── version.xml
 ```
 
@@ -48,7 +48,7 @@ ojs
 │     │ └─┬ settings
 │     │   └── index.tpl
 │     ├── index.php
-│     ├── TutorialExamplePlugin.inc.php
+│     ├── TutorialExamplePlugin.php
 │     └── version.xml
 ```
 ```php

@@ -6,14 +6,52 @@
 
 It is difficult to prescribe exact steps towards setting proper file permissions, as so much depends on the server's operating system, web server, and PHP setup.
 
+In general, you want your permissions set such that your webserver can read and write (recursively) to the `config.inc.php` `files_dir`, and to `cache/`, and `public/`. Optionally, for added features and reduced security, you can enable write to `config.inc.php`, to `plugins/` and perhaps to the locale `.xml` files. Your webserver should have read-only access to all other files and directories distributed in the package.
+
 Start by checking which server API PHP uses on your server. If OJS, OMP, or OCS is already installed, log in as Site Administrator, click "System Information", and at the bottom of the page, click "Extended PHP Information". Find the line that says "Server API". Depending on which API you are using \(mod\_php/SAPI or CGI/FastCGI\), permissions should be set as follows.
 
 * mod\_php/SAPI: In this configuration, all PHP scripts on the system typically execute as the same user \(usually Apache's "nobody" or "www-data" accounts\). Be warned that this may be insecure on a shared host. The files\_dir \(configured in config.inc.php\), the cache directory, the public directory, and all contents and subdirectories must be writable and readable by the web server user. The config.inc.php configuration file must be readable by the web server user.
 * CGI/FastCGI: In this configuration, PHP scripts will typically run under your user account \(though server configurations may vary\). This can be a well-secured configuration. The files\_dir \(configured in config.inc.php\), the cache directory, the public directory, and all contents and subdirectories must be writable and readable by this user account. The config.inc.php configuration file must be readable by this account.
 
+#### How does Linux do this?
+
+In Linux, permissions are based both on a numeric access control mode, and on file ownership 63. Understanding this permissions scheme is a prerequisite.
+
+For example, ownership of `apache:www` with permissions of `750` (`rwxr-x---`) means that the apache user can read, write and execute; anyone with the `www` group can read or execute; and the file is protected against access by anyone else. Note that “execute” means two entirely different things for directories than for files!
+
+##### An Example (for dedicated hosting)
+
+Generally, the ownership of `cache/`, `public/`, and other web-writable directories should be your web user and the web-user’s primary group, for example `apache:www-data`. Permissions should probably be `750`.
+
+The ownership of the other non-web-writable directories should be your user, with either the web user’s group, or with public execute permissions. For example:
+
+`myuser:www-data` with `750`
+
+or
+
+`myuser:ourgroup` with `755`
+
+Web-writable files would be the same, but without the execute permission:
+
+`apache:www-data` with `640`
+
+Non-web-writable files would be perhaps:
+
+`myuser:www-data` with `640`
+
+or
+
+`myuser:ourgroup` with `644`
+
+#### But What about Shared Hosts?
+
+With some shared hosts (for example, if your only access is via cPanel or a similar web-based admin tool), you may not have the ability to change the file ownership, and your webserver is effectively running as your user. In that case, you may still have the ability to protect your files by making them non-writable by your own user (even though this sounds counter-intuitive). In a shared host, you will almost certainly want to deny world permissions to your files, but look to the documentation and support for your host in particular.
+
+#### A Note on Security Configurations
+
 Because security configurations can vary, and because of the volume of requests for support we receive regarding file permissions, we will only be able to provide limited help with these issues. Please be as specific as possible when posting about permissions issues.
 
-PHP Safe Mode is not a recommended configuration and may not function properly. This is because in some configurations it will cause PHP's mkdir\(\) function to create directories that cannot thereafter be read or written because of file permissions. This is a limitation of Safe Mode and may prevent you from using OJS in a Safe Mode environment.
+PHP Safe Mode is not a recommended configuration and may not function properly. This is because in some configurations it will cause PHP's `mkdir()` function to create directories that cannot thereafter be read or written because of file permissions. This is a limitation of Safe Mode and may prevent you from using OJS in a Safe Mode environment.
 
 ### HTML Galleys don't display properly / files I upload aren't being identified properly.
 
@@ -31,7 +69,7 @@ Problems may occur if:
 
 * you are using the first option but your magic.mime file does not include enough information on the filetype you are attempting to identify;
 * your server configuration does not support the first two options;
-* you do not have sufficient permissions to run an external tool as in the third 
+* you do not have sufficient permissions to run an external tool as in the third option.
 
 Additionally, you may be encountering problems due to malformed files. If you are having trouble having your HTML files recognized, you may want to run them through [HTML-Tidy](http://www.w3.org/People/Raggett/tidy/) or otherwise ensure that they are valid HTML. HTML files created by word processors in particular may have a hard time being recognized as HTML.
 
@@ -39,7 +77,7 @@ You may also want to search the [forum](https://forum.pkp.sfu.ca) for the keywor
 
 ### My CSS files aren't being identified properly.
 
-This could be the result of the identification issue above, or it could be because your css file includes a comment on the first line, before any actual CSS. Try removing the comment(s) from the top of the file and reuploading.
+This could be the result of the identification issue above, or it could be because your css file includes a comment on the first line, before any actual CSS. Try removing the comment(s) from the top of the file and re-uploading.
 
 Note that this situation often occurs when uploading a modified copy of the main CSS file. We don't recommend this approach -- it's better to upload a CSS file that only contains overrides for the styles that you wish to modify from the default layout, as the main stylesheet is applied before any custom CSS files. This will help to avoid stylesheet headaches on upgrade.
 
@@ -59,8 +97,11 @@ The goal of fixing character encoding problems is to ensure that the data stored
 ### Introduction to Character Sets and Encodings
 
 The following articles provide a good introduction to character sets and encodings:
+
 * [Character Encodings: Essential Concepts](https://www.w3.org/International/articles/definitions-characters/)
 * [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
+* [The Ultimate Guide To UTF-8 and MySQL](https://jonisalonen.com/2012/ultimate-guide-to-utf8-and-mysql)
+* [Breaking out from the MySQL character-set hell](https://manish-demblani.medium.com/breaking-out-from-the-mysql-character-set-hell-24c6a306e1e5)
 
 ### General Approach
 
@@ -72,8 +113,7 @@ The following articles provide a good introduction to character sets and encodin
 * Generate two db dumps:
  * `mysqldump db --opt --default-character-set=latin1 result-file=latin1.sql`
  * `mysqldump db --opt --default-character-set=utf8 result-file=utf8.sql`
-* Explore each dump file in vim using its character encoding tools: https://spin.atomicobject.com/2011/06/21/character-encoding-tricks-for-vim/ 
-
+* Explore each dump file in vim using its character encoding tools: [https://spin.atomicobject.com/2011/06/21/character-encoding-tricks-for-vim/](https://spin.atomicobject.com/2011/06/21/character-encoding-tricks-for-vim/)
 
 #### Common Problem #1: Latin1 table definitions with UTF8 data
 
@@ -84,18 +124,18 @@ By default, journals on our servers are correctly configured to use UTF8 setting
 The following conversion steps and import process can be used to resolve these issues:
 
 Conversion steps:
-* ask for a latin1 mysql dump with --default-character-encoding=latin1 --result-file=dump.latin1.sql
-* open dump.latin.sql in vim
+* ask for a latin1 mysql dump with `--default-character-encoding=latin1 --result-file=dump.latin1.sql`
+* open `dump.latin.sql` in vim
 * remove 'SET NAMES latin1' from the top of the file
-* replace latin1 table definitions with utf8 table definitions via :%s/CHARSET=latin1/CHARSET=utf8/g
-* set the file encoding for the file to utf8 via :set fileencoding=utf8
-* save the file to a new filename via :w dump.utf8.sql
+* replace latin1 table definitions with utf8 table definitions via `:%s/CHARSET=latin1/CHARSET=utf8/g`
+* set the file encoding for the file to utf8 via `:set fileencoding=utf8`
+* save the file to a new filename via `:w dump.utf8.sql`
 
 Import steps:
-* create a clean utf8 database: CREATE DATABASE import\_ojs DEFAULT CHARSET utf8;
-* switch to the new db: USE import\_ojs
-* set everything to utf8: SET NAMES utf8;
-* import the converted dump: SOURCE dump.utf8.sql;
+* create a clean utf8 database: `CREATE DATABASE import\_ojs DEFAULT CHARSET utf8;`
+* switch to the new db: `USE import\_ojs`
+* set everything to utf8: `SET NAMES utf8;`
+* import the converted dump: `SOURCE dump.utf8.sql;`
 
 ... and so on, replacing "article\_settings" with the table you need to clean up, and "setting\_value" with the column in the table needing cleanup.
 
@@ -110,7 +150,7 @@ The following steps can be used to resolve this encoding issue:
 * Install on your local machine [ftfy](https://ftfy.readthedocs.io/en/latest/), as it is a python tool it will require python3 installed as well;
 * Edit the command-line ftfy executable cli.py (it may be in a different path depending on your environment.): 
 	`/usr/local/lib/python3.6/site-packages/ftfy/cli.py`
-* Around line 100 ($ vim +100 cli.py) add an extra parameter 'uncurl_quotes=False' to the fix_file function. It will like as follows:
+* Around line 100 (`$ vim +100 cli.py`) add an extra parameter 'uncurl_quotes=False' to the fix_file function. It will like as follows:
 
 ```
 for line in fix_file(file, encoding=encoding,
@@ -137,26 +177,27 @@ UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚
 UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬ ¦', '"¦');
 ```
 
-If all else fails: 
+If all else fails:
 
-Kurt has run the following dump command with some success, but without explaining exactly what it does: 
+Kurt has run the following dump command with some success, but without explaining exactly what it does:
 
-`mysqldump ocs-$USERNAME --opt --default-character-set=latin1 --skip-set-charset --single-transaction  --ignore-table=ocs-$USERNAME.paper_search_keyword_list --ignore-table=ocs-$USERNAME.paper_search_object_keywords --ignore-table=ocs-$USERNAME.paper_search_objects --result-file=/tmp/$USERNAME.sql`
+```
+mysqldump ocs-$USERNAME --opt --default-character-set=latin1 --skip-set-charset --single-transaction  --ignore-table=ocs-$USERNAME.paper_search_keyword_list --ignore-table=ocs-$USERNAME.paper_search_object_keywords --ignore-table=ocs-$USERNAME.paper_search_objects --result-file=/tmp/$USERNAME.sql
+```
 
-
-## Error-reporting: Blank Pages, Diagnostics, etc. 
+## Error-reporting: Blank Pages, Diagnostics, etc.
 
 ### When I click some button or follow some link, I'm left with a blank page. What do I do?
 
-1. Check your webserver error log
+1: Check your webserver error log
 
 Usually, this indicates that a PHP error has occurred and the message has been sent to your web server or system log file. Check there – e.g. `/var/log/apache/error.log`, although the exact location will depend on your server configuration – for further details.
 
-2. Check your file permissions
+2: Check your file permissions
 
 If you haven’t installed OJS, OMP, or OCS yet, then the most likely cause is a problem with file permissions in your cache/ or cache/t_compile directories. See docs/README for information on file permissions.
 
-3. Further troubleshooting
+3: Further troubleshooting
 
 If you don’t have access to your server log file, you can try adding the following near the top of index.php to cause error messages to be sent to the browser:
 
@@ -227,11 +268,11 @@ You are probably receiving an error similar to
 * fill in all installation fields as appropriate, ensuring that you write in the correct name for your newly-created database;
 * uncheck the "Create new Database" option;
 * click the "Manual Install" option at the very bottom of the installation page.
-* copy the database query from the resulting page, and run it against your database via phpMyAdmin or similar. 
+* copy the database query from the resulting page, and run it against your database via phpMyAdmin or similar.
 
 Please note that when you click the Manual Install button, the resulting page will say that the OJS/OMP/OCS Install has completed successfully, but this isn't quite true: you still have to copy the SQL statements and add them to your database manually.
 
-**Note:** You may also be encountering a plugin bug. There have been plugin bugs in the past where plugins have attempted to access the "journals" table before the installer has created the table; these will result in a "Table 'ojs.journals' doesn't exist" message when someone attempts to load the installer page in the first place. In this case, you can narrow it down to a particular plugin by checking the stack trace. 
+**Note:** You may also be encountering a plugin bug. There have been plugin bugs in the past where plugins have attempted to access the "journals" table before the installer has created the table; these will result in a "Table 'ojs.journals' doesn't exist" message when someone attempts to load the installer page in the first place. In this case, you can narrow it down to a particular plugin by checking the stack trace.
 
 ## PHP and PKP Application Compatibility
 
@@ -239,10 +280,8 @@ If you are running PHP 5.3+ \(which you should be doing\), you will need to run 
 
 If you are running PHP 7+, you will need to run OJS 3.0+.
 
-OJS and OMP 3.1+ **requires** PHP 5.6 or above.
+OJS and OMP 3.1.2+ **requires** PHP 7.1 or above. Refer to [docs/README](https://github.com/pkp/ojs/tree/main/docs) for your OJS/OMP version for more information about PHP system requirements.
 
 **NOTE**: If you are running OJS or OMP 3.x on a PHP7+ LAMP stack, please remember to update your MySQL driver parameter\(Database section\) on `config.inc.php` file, i.e.:
 
 `driver = mysqli`
-
-

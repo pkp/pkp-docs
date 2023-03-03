@@ -2,6 +2,12 @@
 
 The repository for generating PKP's documentation hub.
 
+Interested in contributing documentation? Check out [our guidelines for contributing to PKP documentation](https://docs.pkp.sfu.ca/contributing/) to get started.
+
+## Community Code of Conduct
+
+This repository is one of PKP's community spaces and all activities here are guided by [PKP's Code of Conduct](https://pkp.sfu.ca/code-of-conduct/). Please review the Code and help us create a welcoming environment for all participants.
+
 ## Usage
 
 [Install Ruby 2.1.0 or higher](https://www.ruby-lang.org/en/documentation/installation/) and install the bundler gem.
@@ -10,7 +16,7 @@ The repository for generating PKP's documentation hub.
 gem install bundler
 ```
 
-Install Jekyll to build or serve the site.
+Access the `pkp-docs` root folder and install Jekyll to build or serve the site.
 
 ```
 bundle install
@@ -121,37 +127,38 @@ The base URL, `/<any-book>/en`, should always be the current version so that any
 
 This structure doesn't yet support versioning separate language editions of documents. We can work on that when we need it.
 
+## Block search indexing
+
+To block indexing in search engines, add the following to the frontmatter in each `.md` file in a document:
+
+```
+---
+noindex: true
+---
+```
+
+This will add `<meta name="robots" content="noindex">` to each page.
+
 ## Generate REST API References
 
-The REST API references use [SwaggerUI](https://swagger.io/tools/swagger-ui/) to generate the human-readable documentation from a `.json` specification file. To generate this file, you'll need a checkout of the OJS/OMP application repository.
+The REST API references use [redoc](https://github.com/Redocly/redoc) to generate the human-readable documentation from an OpenAPI json file. To build the REST API references you will need a checkout of the application for the version you wish to generate a reference.
+
+Create the JSON file from the application and place it anywhere.
 
 ```
-php lib/pkp/tools/buildSwagger.php <path-to-docs/dev/api/<app>/<version>.json
+php lib/pkp/tools/buildSwagger.php ~/3.3.json
 ```
 
-Then create a `.md` file in the documentation repository at `/dev/api/<app>/<version>.md`. Use the following front-matter:
+Install [redoc-cli](https://www.npmjs.com/package/redoc-cli) globally if you don't have it.
 
 ```
----
-layout: api
-title: REST API Reference, <version> - Open Journal Systems
-description: This guide documents the REST API endpoints which will be accessible for Open Journal Systems <version>. It is a technical reference for software developers who wish to build custom interactions with the platform.
-swagger: /dev/api/ojs/<version>.json
-app: <app>
-version: <version>
----
+npm install -g redoc-cli
 ```
 
-Then create an entry for the version you just added under `/_data/versions.yml`.
+From the root directory of the the docs repository, run the following command to build the docs.
 
-Then add a link to this version in the References section of `/dev/api/index.md`.
+```
+redoc-cli bundle ~/3.3.json --options=.redoc.json --output=dev/api/ojs/3.3.html
+```
 
-### Version Pattern
-
-REST API references should be created for every minor version of an application. Examples: 3.1.x, 3.2.x, 3.3.x.
-
-We also have one version, `dev`, which is used for the current in-development version of the API docs. This may not be updated very regularly but can be used to give advanced warning of new endpoints or significant changes.
-
-### Changelog
-
-Every version can include a changelog detailing breaking changes from previous versions of the API. This has to be done in the description of the `.json` file for now.
+Then add a link to the new file in the [API Guide](./dev/api/index.md) and the [card](./_includes/cards/dev/rest-api.md).

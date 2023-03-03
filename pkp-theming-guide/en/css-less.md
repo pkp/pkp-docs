@@ -4,7 +4,7 @@ OJS and OMP use the [LESS](http://lesscss.org/) syntax to write code which is th
 
 Here is an example of a LESS file which uses a variable for the background color of the header and footer.
 
-```less
+```
 @background: red;
 
 .pkp_structure_head,
@@ -15,7 +15,7 @@ Here is an example of a LESS file which uses a variable for the background color
 
 This becomes more useful when we want to use the same background color as a border for `<button>` elements.
 
-```less
+```
 @background: red;
 
 .pkp_structure_head,
@@ -30,12 +30,12 @@ button {
 
 As your stylesheet grows, you will want to split your styles up into different files so that they are easier to manage. LESS allows you to import separate files and share variables across them.
 
-```less
+```
 // styles/variable.less
 @background: red;
 ```
 
-```less
+```
 // styles/structure.less
 .pkp_structure_head,
 .pkp_structure_footer {
@@ -43,14 +43,14 @@ As your stylesheet grows, you will want to split your styles up into different f
 }
 ```
 
-```less
+```
 // styles/forms.less
 button {
   border-color: @background;
 }
 ```
 
-```less
+```
 // styles/index.less
 // Now we can combine all of these files into one.
 @import "variables"
@@ -69,7 +69,7 @@ styles/forms.less
 
 If your journal decides to change it's branding from red to blue, you only need to update one line in your theme's code:
 
-```less
+```
 // styles/variable.less
 @background: blue;
 ```
@@ -79,7 +79,7 @@ Before your styles will appear, you need to make sure that they are compiled and
 ```php
 class DefaultThemePlugin extends ThemePlugin {
   public function init() {
-    // The second parameter, 'styles/index.less', 
+    // The second parameter, 'styles/index.less',
     // must point to a LESS file in your theme.
     $this->addStyle('stylesheet', 'styles/index.less');
   }

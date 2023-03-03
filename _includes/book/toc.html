@@ -82,4 +82,9 @@
         {% capture my_toc %}{: #{{ include.id }}}
 {{ my_toc | lstrip }}{% endcapture %}
     {% endif %}
-{% endcapture %}{% assign tocWorkspace = '' %}{{ my_toc | markdownify | strip }}
+{% endcapture %}{% assign tocWorkspace = '' %}
+
+<div class="book_page_toc">
+    <h2>Table of Contents</h2>
+    {{ my_toc | markdownify | strip }}
+</div>

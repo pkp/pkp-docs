@@ -1,8 +1,8 @@
 # Email
 
-This chapter explains how emails are sent in OJS, OMP, and OCS; the configuration options that are available; and how to troubleshoot email issues. 
+This chapter explains how emails are sent in OJS, OMP, and OCS; the configuration options that are available; and how to troubleshoot email issues.
 
-Mail in PKP software applications uses [the PHPMailer library](https://github.com/PHPMailer/PHPMailer). You can find out more about PHPMailer on [their wiki](https://github.com/PHPMailer/PHPMailer/wiki). Other code related to mail can be found in [the pkp-lib mail class](https://github.com/pkp/pkp-lib/tree/master/classes/mail).
+Mail in PKP software applications uses [the PHPMailer library](https://github.com/PHPMailer/PHPMailer). You can find out more about PHPMailer on [their wiki](https://github.com/PHPMailer/PHPMailer/wiki). Other code related to mail can be found in [the pkp-lib mail class](https://github.com/pkp/pkp-lib/tree/main/classes/mail).
 
 Records of emails that are sent are stored in the `email_log` table of the database.
 
@@ -58,7 +58,7 @@ PKP software applications provide a number of options for configuring emails to 
 ; dmarc_compliant_from_displayname = '%n via %s'
 ```
 
-To find out more about email within the OJS user interface, see [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/) or [Learning OJS 2](https://docs.pkp.sfu.ca/learning-ojs-2/en/).
+To find out more about email within the OJS user interface, see [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/).
 
 ## Sending Mail
 
@@ -84,7 +84,7 @@ The command-line option used to set the envelope sender is `-f`.
 
 ## Email and Locale
 
-Email templates are installed directly in the database when a journal, press, or conference is created. If you need to edit [a locale file](https://github.com/pkp/ojs/blob/master/locale/en_US/emailTemplates.xml), any change in your template file will not be reflected until you reload all templates in the system.
+Email templates are installed directly in the database when a journal, press, or conference is created. If you need to edit [a locale file](https://github.com/pkp/ojs/blob/stable-3_1_2/locale/en_US/emailTemplates.xml), any change in your template file will not be reflected until you reload all templates in the system.
 
 Reloading templates will override any modifications that you may have made. To keep those modifications, you will need to save these modification locally and re-add them to templates as required.
 
@@ -156,7 +156,7 @@ Additional information about Gmail SMTP is available at [https://support.google.
 
 Note that you may have to additionally configure application-specific passwords in Gmail; see [https://support.google.com/accounts/answer/185833?hl=en](https://support.google.com/accounts/answer/185833?hl=en) for details.
 
-##  SPF and DMARC Issues
+## SPF and DMARC Issues
 
 ### Sender Policy Framework (SPF)
 
@@ -199,7 +199,7 @@ If the user can find no record whatsoever of the email being filtered as spam or
 
 As of version 2.4.6, OJS included a change to the way emails are sent out. Previously, all emails were sent using the OJS user's email address in the "FROM" field. This unfortunately led to some issues with the journal's outgoing emails being flagged as "spoofed" by some email servers because the email addresses in question \(eg. james@myinstitution.org"\) didn't match the domain name of the server sending the email \(eg. "myjournal.com"\). \(Technically, the emails were failing Sender Policy Framework \(SPF\) validation.\) Being flagged in this way is more serious than being considered spam: in many cases, the receiving email server won't even assign the email to a spam/junk queue, instead simply choosing to discard it.
 
-#### Solution 1 \(OMP, OJS\):
+#### Solution 1 \(OMP, OJS\)
 
 To prevent this from happening, the PKP development team has adopted an email notification method similar to other web applications such as WordPress: send all email from the system using one central email address in the "FROM" field, with the intended recipients' email addresses in the "REPLY-TO" Field. The central email address to be used by default would be the one provided in **Journal Setup Step 1.2: Principal Contact**, which should match the domain name from which the journal sends mail. \(If this email address cannot match the sending domain on a per-journal basis, an alternate email address can be configured at the site level via the OJS config.inc.php file\). In addition, a new "Email Header" setting has been provided in **Journal Setup Step 1.4: Email Identification**, which can be used to provide explanatory text to the recipient.
 
@@ -214,6 +214,6 @@ To properly configure this, we suggest the following:
 You are receiving this email on behalf of <journal-name>. In the event of a requested response, you may respond directly to this email.
 ```
 
-#### Solution 2 \(OCS, but also OJS and OMP\):
+#### Solution 2 \(OCS, but also OJS and OMP\)
 
-Configure your install to use GMail's SMTP service. See [the section above on SMTP](#Sender-Policy-Framework-(SPF)) for more information.
+Configure your install to use GMail's SMTP service. See [the section above on SMTP](#spf-and-dmarc-issues) for more information.

@@ -1,5 +1,7 @@
 ---
-title: Technical Documentation - OJS/OMP
+book: dev-documentation
+version: 3.4
+title: Technical Documentation - OJS|OMP|OPS
 description: A technical guide to the coding conventions and application architecture for Open Journal Systems and Open Monograph Press.
 ---
 
@@ -7,7 +9,7 @@ description: A technical guide to the coding conventions and application archite
 
 This document describes the coding conventions and concepts that power PKP's applications. It is written for software developers who want to fix bugs, add new features, and contribute code to OJS and OMP.
 
-If you want to adapt OJS or OMP to your publishing needs, you may prefer to consult the [Theming Guide](/pkp-theming-guide/en), Plugin Guide (in progress), or other [developer documentation](/dev).
+If you want to adapt OJS or OMP to your publishing needs, you may prefer to consult the [Theming Guide](/pkp-theming-guide/en), [Plugin Guide](/dev/plugin-guide/en/), or other [developer documentation](/dev).
 
 If you are not a coder, please consult our [user documentation](/).
 
@@ -24,9 +26,3 @@ This guide will help you learn how to contribute code to the project. It is writ
 If you are looking for a more detailed specification, please consult the [reference documentation (Doxygen)](https://pkp.sfu.ca/ojs/doxygen/master/html/index.html), the [REST API Usage Guide](/dev/api) or the [UI Library](/dev/ui-library/dev).
 
 When you're ready, learn how to [get started](./getting-started) by installing the software and setting up your development environment.
-
-----
-
-Copyright: Simon Fraser University holds the copyright for work produced by the Public Knowledge Project and has placed its documentation under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
-
-[![](https://licensebuttons.net/l/by/4.0/88x31.png "Creative Commons Attribution 4.0 International")](https://creativecommons.org/licenses/by/4.0/)

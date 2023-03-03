@@ -1,3 +1,7 @@
+---
+book: crossref-ojs-manual
+version: 3.2
+---
 # Troubleshooting DOI Resolutions
 
 The Crossref Export/Registration plugin will notify you of any configuration errors when attempting to deposit DOIs. Depending on the way that you deposit the DOIs, errors will be reported differently.

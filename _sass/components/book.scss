@@ -1,7 +1,6 @@
 .book {
-	@include container;
 	margin-top: 4rem;
-	padding-top: 3rem;
+	padding: 3rem 1rem 0 1rem;
 
 	hr {
 		margin-top: 2rem;
@@ -39,10 +38,26 @@
 		th {
 			font-weight: $bold;
 		}
+
+		a {
+			word-break: unset;
+		}
+	}
+
+	.video_container {
+		margin: 1rem 0;
+
+		video {
+			max-width: 100%;
+		}
 	}
 
 	> .alert:first-child {
 		margin-top: 0;
+	}
+
+	.youtube {
+		width: 100%;
 	}
 }
 
@@ -51,15 +66,35 @@
 	h1 {
 		margin-top: 0;
 		margin-bottom: 1.5rem;
-		font-size: 2.2rem;
-		line-height: 1.1em;
+		font-size: 2.25rem;
+		line-height: 1.2em;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	h3 {
+		font-size: 1.75rem;
+	}
+
+	h4 {
+		font-size: 1.5rem;
+	}
+
+	h5 {
+		font-size: 1.25rem;
+	}
+
+	h6 {
+		font-size: 1rem;
 	}
 
 	p {
 		margin-top: 2em;
 		margin-bottom: 2em;
 		font-size: 1.15rem;
-		line-height: 2.2em;
+		line-height: 2em;
 	}
 
 	ul,
@@ -68,12 +103,20 @@
 		margin-bottom: 2em;
 	}
 
+	ol ul,
+	ul ul,
+	ol ol,
+	ul ol {
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+
 	li {
 		line-height: 1.8em;
 	}
 
 	li + li {
-		margin-top: 1em;
+		margin-top: 0.5rem;
 	}
 
 	blockquote {
@@ -82,18 +125,27 @@
 		border-left: 0.25em solid darken($bg-shade, 15%);
 		background: $bg-shade;
 
+		code {
+			border-color: transparent;
+			padding: 0;
+		}
+
 		&.tip {
 			background: #f8f2b2;
 			border-color: #e4d857;
+
+			code {
+				color: #847800;
+			}
 		}
 
 		&.notice {
-			background: #d2eaf5;
+			background: #e6f3f9;
 			border-color: $link;
 		}
 
 		&.warning {
-			background: #f8dce2;
+			background: #fbeaed;
 			border-color: $warning;
 
 			code {
@@ -118,19 +170,29 @@
 }
 
 .book__improve {
-	display: inline-block;
-	margin-bottom: 2em;
+	margin-bottom: 2rem;
 }
 
-.book__footer .book__improve {
-	margin-top: 3rem;
+.book_page_toc {
+
+	h2 {
+		font-size: 1rem;
+		margin: 1rem 0 0.5rem;
+		border-bottom: 1px solid #ddd;
+		padding: 0 0 0.5rem;
+	}
+
+	> ul {
+		margin-top: 0;
+		padding-left: 1rem;
+	}
 }
 
 .book__sidebar {
 	position: fixed;
 	top: 60px;
 	left: 0;
-	height: 100%;
+	height: calc(100vh - 60px);
 	padding: 1rem;
 	background: $bg;
 	transform: translateX(-100%);
@@ -140,7 +202,7 @@
 }
 
 .book__spacer {
-	padding-bottom: 5rem; // Make sure last items are visible in scroll
+	padding-bottom: 1rem; // Make sure last items are visible in scroll
 }
 
 .book__sidebarScreen {
@@ -234,51 +296,65 @@
 	}
 }
 
-@media (min-width: 480px) {
+@media (min-width: 768px) {
 
-	.book__improve {
-		float: right;
-		margin-left: 2em;
-	}
-
-	.book__footer .book__improve {
-		float: none;
-		margin-left: 0;
+	.book {
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 }
 
 @media (min-width: 992px) {
 
 	.book {
-		padding-top: 0;
+		margin-top: 5rem;
+		padding-top: 3rem;
+	}
+
+	.book__content {
+		max-width: 50em;
+		margin-left: auto;
+		margin-right: auto;
+		// Make sure the footer is pushed to the bottom of the screen
+		// even if the book content is very short
+		min-height: calc(100vh - 30rem);
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			position: relative;
+		}
+	}
+
+	.book_heading_anchor {
+		position: absolute;
+		left: -2rem;
+	}
+
+	.book__footerWrapper {
+		margin-top: 3rem;
 	}
 
 	.body--withSidebar {
 
 		.book {
 			position: relative;
-
-			&:before,
-			&:after {
-				content: " ";
-				display: table;
-			}
-
-			&:after {
-				clear: both;
-			}
 		}
 
 		.book__sidebar {
-			position: relative;
-			top: auto;
-			left: auto;
-			overflow: hidden;
+			position: fixed;
+			top: 5rem;
+			left: 0;
+			overflow: auto;
 			transform: none;
-			float: left;
-			width: 40%;
+			width: 20em;
+			height: calc(100vh - 5rem);
 			margin-top: 0;
-			padding: 0 2rem 0 0;
+			padding: 1rem 2rem;
+			border-right: 1px solid $bg-shade;
 		}
 
 		.book__sidebarScreen {
@@ -286,28 +362,16 @@
 		}
 
 		.book__page {
-			float: right;
-			width: 60%;
-		}
-	}
-
-	.book__content {
-		max-width: 700px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-}
-
-@media (min-width: 1200px) {
-
-	.body--withSidebar {
-
-		.book__sidebar {
-			width: 25%;
+			margin-left: 20em;
 		}
 
-		.book__page {
-			width: 75%;
+		.book__footerWrapper {
+			margin-left: 20em;
+
+			.siteFooter__container {
+				justify-content: center;
+				max-width: none;
+			}
 		}
 	}
 }

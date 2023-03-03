@@ -3,20 +3,22 @@
 Once you have reviewed the features of OJS 3 and decided you want to proceed with the upgrade, you will need to do some careful planning to ensure a smooth process, minimal disruption to your publication schedule, and a happy editorial staff. Many of the changes are human resources related (i.e., training and visual design), as well as technical, so clear communication is important at every stage.
 
 The major steps in completing an upgrade are as follows:
+
 1. Decide if and when you’re ready to upgrade to OJS 3
-2. Communicate about the upgrade with your editorial team or journal contacts
-3. Ensure that your server meets the requirements of OJS 3 and modify if necessary
-4. Do an inventory
-5. Clean up existing user database
-6. Perform a sandbox or test upgrade
-7. Evaluate, test, and troubleshoot your sandbox OJS 3 site
-8. Plan for new theming/look and feel of the journal
-9. Confirm your team is ready for the production upgrade
-10. Schedule the production upgrade
-11. Set content freeze dates if necessary
-12. Perform the production upgrade
-13. Evaluate, test, and troubleshoot your new OJS 3 site
-14. Training and setup
+2. Decide which version of OJS 3 to upgrade to
+3. Communicate about the upgrade with your editorial team or journal contacts
+4. Ensure that your server meets the requirements of OJS 3 and modify if necessary
+5. Do an inventory
+6. Clean up existing user database
+7. Perform a sandbox or test upgrade
+8. Evaluate, test, and troubleshoot your sandbox OJS 3 site
+9. Plan for new theming/look and feel of the journal
+10. Confirm your team is ready for the production upgrade
+11. Schedule the production upgrade
+12. Set content freeze dates if necessary
+13. Perform the production upgrade
+14. Evaluate, test, and troubleshoot your new OJS 3 site
+15. Training and setup
 
 This chapter focuses on the initial planning and human resources steps of the upgrade process. The next chapter covers technical steps.
 
@@ -29,6 +31,10 @@ Development of OJS is ongoing and new versions with new features are released ev
 * If a version of OJS 3 meets your needs, it’s time to prepare your journal teams for the upgrade. This can involve editorial, technical, and human resources support. You will need to coordinate the timing of the upgrade with everyone involved with the journal. The best general time to upgrade is when the journal is not in an active phase of the publishing cycle, and the specific time of the upgrade should be scheduled when all team members are available to perform the upgrade itself and to review the journal immediately after the upgrade for problems and to make any necessary changes.
 
 For additional resources outlining the new features in OJS 3 and upgrade-related documents, see the Additional Resources section at the end of this guide.
+
+## Decide which version of OJS 3 to upgrade to
+
+Generally you should upgrade to the latest version of OJS. However, if the latest version is a new major release (e.g., OJS 3.1.0, OJS 3.2.0), you may want to wait until the next minor release is available (e.g., OJS 3.1.0-1; OJS 3.2.0-1) because usually a new major release has a few unexpected bugs that will be fixed in the first minor release that follows. Check the [PKP website](https://pkp.sfu.ca/category/news/) for news about releases when making this decision.
 
 ## Plan your upgrade
 
@@ -108,6 +114,9 @@ With this list of usernames, you can then use OJS’s built-in user merging tool
 
 ## Perform a sandbox or test upgrade
 
+> For more information about the technical steps for upgrading your system, see the [Technical Upgrade guide](/dev/upgrade-guide/).
+{:.notice}
+
 See the section below under [Upgrading Your OJS Instance - Step 1 - Perform a Sandbox Upgrade](./upgrading-ojs#step-1-perform-a-sandbox-upgrade)
 
 ## Evaluate, test, and troubleshoot your sandbox OJS 3 site
@@ -131,6 +140,7 @@ Though you have been communicating with the various team members throughout this
 ## Schedule the production upgrade
 
 Once you are ready to proceed with the upgrade, communicate to the journal team(s):
+
 * The upgrade date(s)
 * The downtime during which the journal website would not be available
 * Content freeze if you are pausing new content creation/modification prior to the upgrade

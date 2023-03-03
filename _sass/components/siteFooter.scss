@@ -1,6 +1,7 @@
 .siteFooter {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
+	background: $bg-shade;
 }
 
 .siteFooter__container {
@@ -30,10 +31,8 @@
 	font-weight: $bold;
 }
 
-.book + .siteFooter .siteFooter__container {
-  border-top: 1px solid $bg-shade;
+.book + .siteFooter {
   margin-top: 8rem;
-  padding-top: 4rem;
 }
 
 @media (min-width: 767px) {

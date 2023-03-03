@@ -1,6 +1,6 @@
 # Chapter 10: Copyeditors
 
-A submission that has passed the review stage and been accepted by the Journal Editor or Section Editor will move into the Copyediting stage. 
+A submission that has passed the review stage and been accepted by the Journal Editor or Section Editor will move into the Copyediting stage.
 
 The Copyeditor receives an email request from the Section Editor to copyedit a submission, which will then appear in the Copyeditor's Submissions queue. A Copyeditor who is unable to do the copyediting simply responds by email to the Section Editor.
 

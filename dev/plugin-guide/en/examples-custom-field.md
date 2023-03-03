@@ -30,11 +30,16 @@ class InstitutionalHomePlugin extends GenericPlugin {
   /**
    * Extend the context entity's schema with an institutionalHome property
    */
-  public function addToSchema($hookName, $schema) {
-    $schema->properties->institutionalHome = new stdObject();
-    $schema->properties->institutionalHome->type = 'string';
-    $schema->properties->institutionalHome->multilingual = true;
-    $schema->properties->institutionalHome->validation = ['nullable'];
+  public function addToSchema($hookName, $args) {
+		$schema = $args[0];
+		$schema->properties->institutionalHome = (object) [
+			'type' => 'string',
+			'apiSummary' => true,
+			'multilingual' => true,
+			'validation' => ['nullable']
+		];
+
+		return false;
   }
 
   /**
@@ -49,7 +54,7 @@ class InstitutionalHomePlugin extends GenericPlugin {
     }
 
     // Don't do anything at the site-wide level
-		$context = Application::getRequest()->getContext();
+		$context = Application::get()->getRequest()->getContext();
 		if (!$context) {
 			return;
     }
@@ -60,6 +65,8 @@ class InstitutionalHomePlugin extends GenericPlugin {
 			'groupId' => 'publishing',
 			'value' => $context->getData('institutionalHome'),
 		]));
+
+		return false;
 	}
 }
 ```

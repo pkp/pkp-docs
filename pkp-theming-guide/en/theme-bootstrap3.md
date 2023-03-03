@@ -1,5 +1,5 @@
 # Bootstrap3 Theme
-[Bootstrap 3](http://getbootstrap.com/) is a popular HTML, CSS and JavaScript framework for developing responsive, mobile-first web applications. Due its popularity, many developers are familiar with the HTML, CSS and JavaScript techniques used in the framework.
+[Bootstrap 3](https://getbootstrap.com/docs/3.4/) is a popular HTML, CSS and JavaScript framework for developing responsive, mobile-first web applications. Due its popularity, many developers are familiar with the HTML, CSS and JavaScript techniques used in the framework.
 
 The [Bootstrap3 theme](https://github.com/NateWr/bootstrap3) is a community effort to provide a base theme built on these techniques. It implements an OJS journal theme using core bootstrap HTML markup, and provides a number of third-party styles for Bootstrap 3 out-of-the-box.
 
@@ -33,7 +33,7 @@ Several Bootstrap 3 "swatches" are bundled with the theme. These swatches provid
 Each of the swatches that are provided are released under a GPL-compatible license. There are thousands more Bootstrap 3 swatches (often called themes) that can be purchased from commercial websites.
 
 ## Exploring Bootstrap
-Since the Bootstrap theme is just a base, it will need a bit of work to fully implement a great looking theme. It is recommended that if you're working with these files that you be familiar with elements of both [Bootstrap 3](http://getbootstrap.com/getting-started/) and [LESS](http://lesscss.org/features/). 
+Since the Bootstrap theme is just a base, it will need a bit of work to fully implement a great looking theme. It is recommended that if you're working with these files that you be familiar with elements of both [Bootstrap 3](https://getbootstrap.com/docs/3.4/getting-started/) and [LESS](http://lesscss.org/features/). 
 
 To start, explore the base Bootstrap variables file:
 

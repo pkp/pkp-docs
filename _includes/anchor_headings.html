@@ -82,18 +82,26 @@
       {% else %}
         {% capture anchor %} {{ anchor }}{% endcapture %}
       {% endif %}
+
     {% endif %}
 
     {% capture new_heading %}
-      <h{{ _hAttrToStrip }}
+        <h{{ _hAttrToStrip }}
         {{ include.bodyPrefix }}
         {% if beforeHeading %}
-          {{ anchor }}{{ header }}
+            {{ anchor }}{{ header }}
         {% else %}
-          {{ header }}{{ anchor }}
+            {{ header }}{{ anchor }}
         {% endif %}
         {{ include.bodySuffix }}
-      </h{{ _workspace | last }}
+        {% if page.showPageTOC and headerLevel == 1 %}
+          </h1>
+          {% include book/toc.html html=content h_min=2 h_max=3 %}
+          {% assign _restOfNode = node | split: '</h1>' | last %}
+          {{ _restOfNode }}
+        {% else %}
+          </h{{ _workspace | last }}
+        {% endif %}
     {% endcapture %}
     {% capture edited_headings %}{{ edited_headings }}{{ new_heading }}{% endcapture %}
   {% endfor %}

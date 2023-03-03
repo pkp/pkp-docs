@@ -1,6 +1,6 @@
 # Theme API Documentation
 
-Every theme extends the core [`ThemePlugin`](https://github.com/pkp/pkp-lib/blob/master/classes/plugins/ThemePlugin.inc.php) class. This class has a number of methods that will help you load scripts and styles, modify parent stylesheets and more.
+Every theme extends the core [`ThemePlugin`](https://github.com/pkp/pkp-lib/blob/main/classes/plugins/ThemePlugin.inc.php) class. This class has a number of methods that will help you load scripts and styles, modify parent stylesheets and more.
 
 This section contains technical documentation of this PHP class. If you're not familiar with the theme class, and how it relates to styles, scripts and templates, you should [begin here](what-is-a-theme.md).
 
@@ -52,7 +52,7 @@ This method accepts a number of optional `$args`.
  *   theme directory or, if the `inline` argument is included, style data to
  *   be output.
  * @param $args array Optional arguments hash. Supported args:
- *   'context': Whether to load this on the `frontend` or `backend`.
+ *   'context': Whether to load this on the `frontend`, `backend`, or `htmlGalley`.
  *      default: `frontend`
  *   'priority': Controls order in which styles are printed
  *   'addLess': Additional LESS files to process before compiling. Array
@@ -71,6 +71,13 @@ Styles with the `frontend` context will be output in your theme where you place 
 ```
 
 You can define and use multiple contexts if you'd like. But `frontend` is the standard for themes and will be set automatically if no `context` argument is passed.
+
+Use the htmlGalley context to add a stylesheet to HTML galleys.
+
+```php
+$this->addStyle('htmlGalley', 'path/to/galley.css', ['contexts' => 'htmlGalley']);
+```
+A stylesheet assigned to the `htmlGalley` context will be loaded when a HTML galley is displayed. A `<link>` tag will be injected into the `<head>` of the galley's HTML file.
 
 ## modifyStyle\(\)
 

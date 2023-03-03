@@ -1,4 +1,11 @@
-# Chapter 4: Site Administration
+---
+book: learning-ojs
+version: 3.3
+showPageTOC: true
+title: Learning Open Journal Systems 3.3 - Site Administration
+---
+
+# Site Administration
 
 As part of installing OJS, you will have created a Site Administrator user account. When you log into OJS with that account you will have access to Site Administrator settings from the Dashboard.
 
@@ -10,37 +17,43 @@ More technical information about administering an OJS site, including upgrades, 
 
 To get to Site Management, login as the Site Administrator, and choose Administration from the left menu.
 
-![](./assets/learning-ojs3.1-sa-site-admin.png)
+![OJS site admin main menu with 2 options: site management and administrative functions.](./assets/learning-ojs3.1-sa-site-admin.png)
 
 ### Hosted Journals
 
 From here, choose Hosted Journals. On the resulting page, you will see all of the journals in this OJS installation. In the example, below, there is only one.
 
-![](./assets/learning-ojs3.1-sa-hosted-journals.png)
+![OJS hosted journals menu with 1 existing journal.](./assets/learning-ojs3.1-sa-hosted-journals.png)
 
 To edit the existing journal, click on the blue arrow to the left of the journal name. You will see options to edit, remove, or update the settings.
 
-![](./assets/learning-ojs3.1-sa-hosted-journals-edit.png)
+![Existing journal editing options: edit, remove, settings wizard, users.](./assets/learning-ojs3.1-sa-hosted-journals-edit.png)
 
 **Edit** will let you change the title, description, or path.
 
-![](./assets/learning-ojs-3-ch4-hosted-journals-edit-modal.png)
+![Existing journal editing screen with title, description and path fields available to edit.](./assets/learning-ojs-3-ch4-hosted-journals-edit-modal.png)
 
-**Remove** will let you delete the journal from the installation. You will be asked to confirm that you really do want to do this, as it is irreverisible.
+**Remove** will let you delete the journal from the installation. You will be asked to confirm that you really do want to do this, as it is irreversible.
 
-![](./assets/learning-ojs-3-ch4-hosted-journals-remove.png)
+![Confirmation screen for journal deletion.](./assets/learning-ojs-3-ch4-hosted-journals-remove.png)
 
-**Settings Wizard** will take you to the various settings options for that journal. We'll go over these settings in detail in the Settings chapters.
+**Settings Wizard** will take you to the various settings options for that journal.
 
-![](./assets/learning-ojs-3-ch4-hosted-journals-settings-wiz.png)
+Restrict Bulk Emails allows the journal administrator to disable the ability to send bulk emails to certain roles. The bulk email feature can be enabled under [Site Settings > Bulk Emails](#bulk-emails). A journal manager will be unable to send bulk emails to any roles that you select under the “Disable Roles” setting. Use this setting to limit abuse of the email notification feature. For example, it may be safer to disable bulk emails to readers, authors, or other large user groups that have not consented to receive such emails.
+
+![Settings wizard screen with the restrict bulk emails tab selected.](./assets/learning-ojs3.3-admin-restrict-bulk-emails.png)
+
+We'll go over the remaining settings in detail in the Settings chapters.
+
+![Settings wizard screen with the masthead tab selected.](./assets/learning-ojs-3-ch4-hosted-journals-settings-wiz.png)
 
 **Users** will allow you to add and manage users associated with this journal.
 
-![](./assets/learning-ojs3.1-sa-hosted-journals-users.png)
+![Users tab with a list of current users.](./assets/learning-ojs3.1-sa-hosted-journals-users.png)
 
 Back on the Hosted Journals page, you can use the Create Journal link to add a new journal to this OJS installation. From the resulting form, fill in the fields with the new information.
 
-![](./assets/learning-ojs-3-ch4-hosted-journals-create.png)
+![Create journal screen with title, description and path fields available to fill out.](./assets/learning-ojs-3-ch4-hosted-journals-create.png)
 
 > Note: If you do not want the new journal to be visible yet, uncheck the _Enable this journal to appear publicly on the site_ box.
 
@@ -50,42 +63,53 @@ This section will appear if you have two or more journals, and allow you to add 
 
 #### Site Setup
 
-This includes the name of your site, a site logo, an introductory statement about your site, a site footer, a redirect option \(if you only plan to have one journal on this installation\), contact information, a minimum password length for registered users, style sheet and theme options, and sidebar management.
+This includes the name of your site, a site logo, an introductory statement about your site, a site footer, a redirect option (if you only plan to have one journal on this installation), contact information, a minimum password length for registered users, style sheet and theme options, and sidebar management.
 
-You will have the opportunity to provide details about your individual journal\(s\) at a later stage.
+You will have the opportunity to provide details about your individual journal(s) at a later stage.
 
-![](./assets/learning-ojs3.1-sa-site-settings.png)
+![OJS admin menu with site setup tab selected.](./assets/learning-ojs3.1-sa-site-settings.png)
 
 #### Languages
 
 OJS is designed to be a multilingual system, allowing journals supporting a wide variety of languages to be hosted under a single site. When you install OJS, you can select one or more languages for your site.
 
-The Site Administrator can set the default language of the site and install additional locales to make other languages available for use by journals. Journal Managers can then manage their own language settings under Website Settings > Languages. See the [Website Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website) for details.
+The Site Administrator can set the default language of the site and install additional locales to make other languages available for use by journals. Journal Managers can then manage their own language settings under Website Settings > Languages. See the [Website Settings chapter](./settings-website) for details.
 
 Under Administration > Site Settings > Languages you can see a list of languages that are installed on your site, enable languages, and set any language as the Default Locale, which means it is the language that users will first see when first visiting the site.
 
-![](./assets/learning-ojs3.1-sa-languages.png)
+![OJS admin menu with languages tab selected.](./assets/learning-ojs3.1-sa-languages.png)
 
 To add another language:
+
 1. Click Install Locale
 2. Check off the locales you would like to install
 3. Click Save
 
-After installing the new locale, you will have to enable it on the Site Settings > Languages page.  Further configuration of the language’s availability on the site can be done under Website Settings > Languages by a Journal Manager. See the [Website Settings chapter](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website) for details.
+After installing the new locale, you will have to enable it on the Site Settings > Languages page.  Further configuration of the language’s availability on the site can be done under Website Settings > Languages by a Journal Manager. See the [Website Settings chapter](./settings-website) for details.
 
-OJS 3.1 doesn't yet have as many translations as OJS 2, but we expect to have more contributed over time. Contributions are always welcome.
+OJS 3 doesn't yet have as many translations as OJS 2, but we expect to have more contributed over time. Contributions are always welcome.
 
 #### Plugins
 
-From here, you can choose to enable or disable various plugins, making them available \(or not\) to all of the journals on this OJS installation.
+From here, you can choose to enable or disable various plugins, making them available (or not) to all of the journals on this OJS installation.
 
-![](./assets/learning-ojs3.1-sa-plugins.png)
+![OJS admin menu with plugins tab selected.](./assets/learning-ojs3.1-sa-plugins.png)
 
 #### Navigation Menus
 
 Use this section to modify your site-wide menus. You can learn more about configuring menus in the Website Settings chapter.
 
-![](./assets/learning-ojs3.1-sa-menus.png)
+![OJS admin menu with navigation menus tab selected.](./assets/learning-ojs3.1-sa-menus.png)
+
+#### Bulk Emails
+
+OJS 3.3 has the option to allow bulk emails to be sent to several user groups in a journal at one time. See [Users and Roles > Email Users](./users-and-roles#email-users). As the site administrator, you can use the site settings to select the hosted journals that will be allowed to send bulk emails.
+
+Note that misuse of this figure to send unsolicited email may violate anti-spam laws in some jurisdictions and may result in your server’s emails being blocked as spam. Seek technical advice before enabling this feature and consider consulting with journal managers to ensure it is used appropriately.
+
+![OJS admin site settings with bulk emails tab selected.](./assets/learning-ojs3.3-site-settings-bulk-emails.png)
+
+It is possible to disable sending bulk emails to certain roles for individual journals under [Hosted Journals](#hosted-journals) > Settings Wizard.
 
 ### Next Steps
 
@@ -97,13 +121,13 @@ Once you've created a journal and configured the site settings, you may want to 
 
 This section provides detailed information about the server on which your OJS installation is running.
 
-![](./assets/learning-ojs3.1-sa-admin-functions.png)
+![OJS site admin main menu with 2 options: site management and administrative functions.](./assets/learning-ojs3.1-sa-admin-functions.png)
 
 ### System Information
 
 Use this section to find out details about the server running your installation.
 
-![](./assets/learning-ojs3.1-sa-sysinfo.png)
+![System information screen displaying current version, version history and server information.](./assets/learning-ojs3.1-sa-sysinfo.png)
 
 OJS Version information shows which version is currently installed, and your version history including any upgrades. You can click the Check for updates link to see if you are using the most recent version of OJS.
 
@@ -113,7 +137,7 @@ The OJS Configuration section displays all of the configuration options and thei
 
 You can find more information about _config.inc.php_ configuration parameters in the file itself.
 
-The final section on this page displays additional server information: your operating system, PHP version, server and database information. You can also view extended PHP information by clicking the Extended PHP information link (this displays the output of ``phpinfo()``)
+The final section on this page displays additional server information: your operating system, PHP version, server and database information. You can also view extended PHP information by clicking the Extended PHP information link (this displays the output of `phpinfo()`)
 
 All of this information can be useful when trying to troubleshoot a problem.
 
@@ -131,4 +155,4 @@ Clicking _Clear Template Cache_ clears all cached versions of HTML templates. Th
 
 ### Clear Scheduled Task Execution Logs
 
-If scheduled tasks have been enabled for your journal, clicking _Clear Scheduled Task Execution Logs_ will delete the task execution log files from your server. The execution log files include dates that correspond to previously completed scheduled tasks \(e.g. sending automatic email review reminders\).
+If scheduled tasks have been enabled for your journal, clicking _Clear Scheduled Task Execution Logs_ will delete the task execution log files from your server. The execution log files include dates that correspond to previously completed scheduled tasks (e.g. sending automatic email review reminders).

@@ -1,12 +1,12 @@
 # Chapter 3: User Roles
 
-# About User Roles
+## About User Roles
 
 OJS uses a comprehensive roles system to divide work between users, assign workflows, and limit access to different parts of the system. Since one installation of OJS can host multiple journals, users can be enrolled in different roles for more than one journal.
 
 When a user logs into the system, they will be taken to their User Home page. From here, they will see a list of the roles they belong to for each journal in the system (along with user-specific links to edit their profile, change their password, etc.). In the example below, the user has been enrolled as a Site Administrator; as a Journal Manager, Editor, Section Editor, Author and Reviewer for the Social Informatics Journal; and as a Journal Manager for Demo Journal. A user might be an Editor in one journal (with all of the accompanying permissions), but only an Author on another (and limited to only performing Author tasks for that journal).
 
-**User Home**  
+**User Home**
 
 ![Site-Wide User Home](images/chapter3/roles_user_home.png)
 
