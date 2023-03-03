@@ -5,7 +5,7 @@
   * [Background](./about-ojs.md#background)
   * [OJS Features](./about-ojs.md#ojs-features)
   * [Install and Upgrade](./about-ojs.md#install-and-upgrade)
-  * [What's New in 3.3](./about-ojs.md#whats-new-in-ojs-33)
+  * [What's New in 3.3](./about-ojs.md#whats-new)
   * [Community Contributions](./about-ojs.md#community-contributions)
   * [Support](./about-ojs.md#support.md)
 * [Site Administration](./site-administration.md)
