@@ -8,3 +8,4 @@ These guides explain how to use OJS plugins. Plugins integrate OJS with services
 - [Crossref Plugin Guide](/crossref-ojs-manual/en/)
 - [ORCID Plugin Guide](/orcid/en/)
 - [PayPal Plugin Guide](/using-paypal-for-ojs-and-ocs/en/)
+- [ROR Plugin Guide](/ror-plugin/en)
