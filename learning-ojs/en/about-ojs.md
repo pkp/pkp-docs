@@ -5,7 +5,7 @@ version: 3.3
 showPageTOC: true
 ---
 
-# About Open Journal Systems (OJS)
+# About Open Journal Systems (OJS) {#about-ojs}
 
 Open Journal Systems \(OJS\) is an open source solution to managing and publishing scholarly journals online. OJS is a highly flexible editor-operated journal management and publishing system that can be downloaded for free and installed on a local Web server.
 
