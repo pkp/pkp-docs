@@ -40,7 +40,7 @@ OJS est facile à installer et à configurer. Cependant, l'exécution d'un servi
 > 
 > {:.tip}
 
-## Quoi de Neuf dans OJS 3.3
+## Quoi de Neuf dans OJS 3.3 {#whats-new}
 
 OJS 3.3 dispose d'un menu de navigation simplifié pour le tableau de bord et de nouvelles fonctionnalités liées à la gestion des soumissions, à la communication avec les utilisateurs et à l'accessibilité. Cette section présentera les principaux changements afin que vous sachiez à quoi vous attendre lorsque vous passerez à la version 3.3 d'OJS. Vous pouvez également regarder [une vidéo qui présente les nouvelles fonctionnalités d'OJS 3.3](https://youtu.be/3D_hS4Bd-Y8), créée par [PKP Publishing Services](https://pkpservices.sfu.ca).
 
