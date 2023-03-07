@@ -31,6 +31,8 @@ cards:
         isDeveloper: true
       - path: ui-library
         isDeveloper: true
+      - path: database-schema
+        isDeveloper: true
       - path: ojs-reference
         isDeveloper: true
       - path: omp-reference
