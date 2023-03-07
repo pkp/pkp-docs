@@ -119,7 +119,19 @@ class ExampleListener
 
 ## Event Cache
 
-Events and listeners are cached. Clear the cache after an event is added, edited, or removed.
+Listeners are cached. Clear the cache after an event is added, edited, or removed.
+
+## Events, Listeners and Plugins
+
+A listener created in a plugin can not be cached. To add a listener in a plugin, use the `Event` facade to subscribe the listener to an event.
+
+```php
+namespace APP\plugins\generic\example;
+
+use Illuminate\Support\Facades\Event;
+
+Event::subscribe(new ExampleEvent());
+```
 
 ## Jobs Queue
 
