@@ -13,7 +13,7 @@ The application provides statistics on the number of users who visit the public 
 
 ## How stats are compiled
 
-When a user visits one of the [tracked pages](#), an event is triggered which logs the visit to a log file in the `files_dir`. The application then uses scheduled tasks and [jobs](./utilities-jobs) to process the logs and compile the final metrics. The following diagram describes how this happens.
+When a user visits one of the [tracked pages](#when-a-usage-event-is-dispatched), an event is triggered which logs the visit to a log file in the `files_dir`. The application then uses scheduled tasks and [jobs](./utilities-jobs) to process the logs and compile the final metrics. The following diagram describes how this happens.
 
 ![Flow chart showing how stats are logged and processes](./img/../../img/stats-process-diagram.png)
 
@@ -142,7 +142,7 @@ The following service classes are available.
 
 ## JSON vs CSV
 
-All of the API endpoints for statistics can return the data in JSON or CSV format. When adding an API endpoint that deliver statistics, look for the `Accept` header in requests.
+All of the API endpoints for statistics can return the data in JSON or CSV format. When adding an API endpoint that delivers statistics, look for the `Accept` header in requests.
 
 ```php
 $useCsvResponse = str_contains(
@@ -185,6 +185,4 @@ public function getMany(Request $request, APIResponse $response): APIResponse
 
 ## Best Practices
 
-Since the log is written to every time someone visits the website, any task performed in the usage event or the listener will slow down the site. Never access the database, load data, make a HTTP request, or perform any resource intensive task in the event or listener.
-
-Add the smallest amount of data that you need to the log and keep all other tasks in a job or scheduled task.
+Since the `UsageEvent` is dispatched every time someone visits the website, any task performed in the event or listener will slow down the site. Never access the database, load data, make a HTTP request, or perform any resource intensive task in the event or listener. Add the smallest amount of data that you need to the log and keep all other tasks in a job or scheduled task.
