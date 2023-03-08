@@ -114,7 +114,7 @@ The usage event will be dispatched when a user visits one of the following pages
 
 Statistics are initially processed into the `*_temporary_records` tables of the database. These are then compiled into the final `metrics_*` tables.
 
-Read a description of these tables in the database reference. (TODO: add database reference.)
+Read a description of these tables in the [database reference](/dev/database/).
 
 ## Service Classes
 

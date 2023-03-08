@@ -1,8 +1,4 @@
 
-### Database Schema
+### [Database Schema](/dev/database/)
 
-SchemaSpy documentation that describes the database schemas for OJS, OMP and OPS.
-
----
-
-References: [OJS 3.4](/dev/database/ojs/3.4), [OMP 3.4](/dev/database/omp/3.4), [OPS 3.4](/dev/database/ops/3.4)
+Reference documentation for the database schemas of OJS, OMP and OPS. [View Now](/dev/database/)

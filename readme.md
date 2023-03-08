@@ -162,3 +162,15 @@ redoc-cli bundle ~/3.3.json --options=.redoc.json --output=dev/api/ojs/3.3.html
 ```
 
 Then add a link to the new file in the [API Guide](./dev/api/index.md) and the [card](./_includes/cards/dev/rest-api.md).
+
+## Generate Database References
+
+The database references are generated with [SchemaSpy](https://schemaspy.org/). To generate a reference, follow the [installation instructions](https://schemaspy.readthedocs.io/en/latest/installation.html) and then run SchemaSpy with the [configuration](https://schemaspy.readthedocs.io/en/latest/started.html) parameters to point to the database you want to profile.
+
+Once the documentation is generated, move the whole directory into the docs hub. For example, if the documentation is for OJS 3.5, run the following command to move it to the correct directory in the docs hub:
+
+```
+mv <schema-spy-output-dir> <docs-hub>/dev/database/ojs/3.5
+```
+
+Add a link to the documentation from `/dev/database/index.md`.
