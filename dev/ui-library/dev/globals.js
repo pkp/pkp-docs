@@ -14,9 +14,10 @@ window.pkp = {
 	 */
 	currentUser: {
 		csrfToken: '1234',
-		id: 1,
+		id: 20,
 		roles: [1, 16, 65536, 1048576],
-		username: 'dbarnes'
+		username: 'dbarnes',
+		preferredName: 'Daniel Barnes'
 	},
 
 	/**
@@ -35,6 +36,7 @@ window.pkp = {
 		REVIEW_ASSIGNMENT_STATUS_COMPLETE: 8,
 		REVIEW_ASSIGNMENT_STATUS_THANKED: 9,
 		REVIEW_ASSIGNMENT_STATUS_CANCELLED: 10,
+		REVIEW_ASSIGNMENT_STATUS_REQUEST_RESEND: 11,
 		REVIEW_ROUND_STATUS_PENDING_REVIEWERS: 6,
 		REVIEW_ROUND_STATUS_REVIEWS_READY: 8,
 		REVIEW_ROUND_STATUS_REVIEWS_COMPLETED: 9,
@@ -58,7 +60,28 @@ window.pkp = {
 		WORKFLOW_STAGE_ID_INTERNAL_REVIEW: 2,
 		WORKFLOW_STAGE_ID_EXTERNAL_REVIEW: 3,
 		WORKFLOW_STAGE_ID_EDITING: 4,
-		WORKFLOW_STAGE_ID_PRODUCTION: 5
+		WORKFLOW_STAGE_ID_PRODUCTION: 5,
+		DOI_STATUS_UNREGISTERED: 1,
+		DOI_STATUS_SUBMITTED: 2,
+		DOI_STATUS_REGISTERED: 3,
+		DOI_STATUS_ERROR: 4,
+		DOI_STATUS_STALE: 5
+	},
+
+	/**
+	 * Icon map for document types
+	 */
+	documentTypeIcons: {
+		default: 'file-o', // DOCUMENT_TYPE_DEFAULT
+		audio: 'file-audio-o', // DOCUMENT_TYPE_AUDIO
+		epub: 'file-text-o', // DOCUMENT_TYPE_EPUB
+		excel: 'file-excel-o', // DOCUMENT_TYPE_EXCEL
+		html: 'file-code-o', // DOCUMENT_TYPE_HTML
+		image: 'file-image-o', // DOCUMENT_TYPE_IMAGE
+		pdf: 'file-pdf-o', // DOCUMENT_TYPE_PDF
+		word: 'file-word-o', // DOCUMENT_TYPE_WORD
+		video: 'file-video-o', // DOCUMENT_TYPE_VIDEO
+		zip: 'file-archive-o' // DOCUMENT_TYPE_ZIP
 	},
 
 	/**
@@ -77,11 +100,13 @@ window.pkp = {
 		'common.filter': 'Filters',
 		'common.filterAdd': 'Add filter: {$filterTitle}',
 		'common.filterRemove': 'Clear filter: {$filterTitle}',
+		'common.insertContent': 'Insert Content',
 		'common.loading': 'Loading',
 		'common.no': 'No',
 		'common.noItemsFound': 'No items found.',
 		'common.none': 'None',
 		'common.ok': 'Ok',
+		'common.order': 'Order',
 		'common.orderUp': 'Increase position of {$itemTitle}',
 		'common.orderDown': 'Decrease position of {$itemTitle}',
 		'common.pageNumber': 'Page {$pageNumber}',
@@ -98,8 +123,8 @@ window.pkp = {
 		'common.unknownError':
 			'An unexpected error has occurred. Please reload the page and try again.',
 		'common.view': 'View',
-		'common.viewLess': 'Hide expanded details about {$name}',
-		'common.viewMore': 'Show more details about {$name}',
+		'list.viewLess': 'Hide expanded details about {$name}',
+		'list.viewMore': 'Show more details about {$name}',
 		'common.viewWithName': 'View {$name}',
 		'common.yes': 'Yes',
 		'form.dataHasChanged':
@@ -123,10 +148,9 @@ window.pkp = {
  */
 window.$.pkp = {
 	app: {
-		currentLocale: 'en_US',
-		primaryLocale: 'en_US',
-		cdnEnabled: true,
-		rtlLocales: []
+		currentLocale: 'en',
+		primaryLocale: 'en',
+		rtlLocales: ['ar']
 	},
 	pkpHandler() {
 		alert(
