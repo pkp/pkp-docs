@@ -24,6 +24,7 @@ Submission files can be revised. For example, the file in the Review stage may n
 | ---------------------------------- | ------- | ------------------------------------------- |
 | 1                                  | 82      | SubmissionFile::SUBMISSION_FILE_SUBMISSION  |
 | 2                                  | 83      | SubmissionFile::SUBMISSION_FILE_REVIEW_FILE |
+| 2                                  | 84      | SUBMISSION_FILE_REVIEW_FILE                 |
 
 Editors and assistants can access all revisions of a file in the submission file's activity log.
 
@@ -53,6 +54,8 @@ Most file stages correspond to a list of files in the submission workflow, such 
 Files assigned to the review file or revision stages must be associated with a review round.
 
 ```php
+use PKP\submissionFile\SubmissionFile;
+
 $submissionFile->setData('fileStage', SubmissionFile::SUBMISSION_FILE_REVIEW_FILE);
 $submissionFile->setData('assocType', ASSOC_TYPE_REVIEW_ROUND);
 $submissionFile->setData('assocId', $reviewRoundId);
@@ -61,20 +64,26 @@ $submissionFile->setData('assocId', $reviewRoundId);
 Files assigned to the `SubmissionFile::SUBMISSION_FILE_QUERY` file stage must be associated with a query note.
 
 ```php
+use PKP\submissionFile\SubmissionFile;
+
 $submissionFile->setData('fileStage', SubmissionFile::SUBMISSION_FILE_QUERY);
 $submissionFile->setData('assocType', ASSOC_TYPE_NOTE);
 $submissionFile->setData('assocId', $noteId);
 ```
 
-## Submission File Service
+## Submission File Repository
 
-Use the Submission File Service to add, edit and delete submission files. This helper class ensures that event logs are kept to track revisions, identify the uploader of a file, and update pending tasks.
+Use the `Repository` to add, edit and delete submission files. This ensures that event logs are kept to track revisions, identify the uploader of a file, and update pending tasks.
 
 Use the [File Service](./utilities-files) to create a file. Then assign the `fileId` to a `SubmissionFile`.
 
 ```php
+use APP\core\Application;
+use APP\core\Services;
+use APP\facades\Repo;
+
 $fileId = Services::get('file')->add($source, $destination);
-$submissionFile = Services::get('submissionFile')->edit(
+Repo::submissionFile()->edit(
 	$submissionFile,
 	[
 		'fileId' => $fileId,
@@ -86,8 +95,10 @@ $submissionFile = Services::get('submissionFile')->edit(
 Submission files can not be created without required properties.
 
 ```php
-$submissionFile = DAORegistry::getDao('SubmissionFileDAO')->newDataObject();
-$submissionFile->setAllData([
+use APP\facades\Repo;
+use PKP\submissionFile\SubmissionFile;
+
+$submissionFile = Repo::submissionFile()->newDataObject([
 	'fileStage' => SubmissionFile::SUBMISSION_FILE_REVIEW_FILE,
 	'fileId' => $fileId,
 	'name' => [
@@ -101,6 +112,9 @@ $submissionFile->setAllData([
 Validate the submission file before it is added or edited.
 
 ```php
+use APP\facades\Repo;
+use PKP\submissionFile\SubmissionFile;
+
 $params = [
 	'fileStage' => SubmissionFile::SUBMISSION_FILE_REVIEW_FILE,
 	'fileId' => $fileId,
@@ -110,11 +124,12 @@ $params = [
 	'submissionId' => $submissionId,
 	'uploaderUserId' => $userId,
 ];
-$errors = Services::get('submissionFile')->validate(VALIDATE_ACTION_ADD, $params, $allowedLocales, $primaryLocale);
+
+$errors = Repo::submissionFile()->validate(null, $params, $allowedLocales, $primaryLocale);
+
 if (empty($errors)) {
-	$submissionFile = DAORegistry::getDao('SubmissionFileDAO')->newDataObject();
-	$submisssionFile->setAllData($params);
-	$submissionFile = Services::get('submissionFile')->add($submissionFile, $request);
+	$submissionFile = Repo::submissionFile()->newDataObject($params);
+	$id = Repo::submissionFile()->add($submissionFile);
 }
 ```
 
@@ -130,16 +145,21 @@ $submissionFile->setData('genreId', 1);
 
 Access to a submission file is granted based on the user's assignment to a submission. For example, an author should not be able to access files uploaded by reviewers. A copyeditor should only be able to access files in the copyediting stage.
 
-Use the `Services::getAssignedFileStages()` method to determine what file stages can be accessed by a manager, subeditor, assistant or author.
+Use the `getAssignedFileStages()` method to determine what file stages can be accessed by a manager, subeditor, assistant or author.
 
 ```php
+use APP\facades\Repo;
+use PKP\submissionFile\SubmissionFile;
+
 $stageAssignments = $this->getAuthorizedContextObject(ASSOC_TYPE_ACCESSIBLE_WORKFLOW_STAGES);
-$assignedFileStages = Services::get('submissionFile')->getAssignedFileStages($stageAssignments, SubmissionFile::SUBMISSION_FILE_ACCESS_READ);
+$assignedFileStages = Repo::submissionFile()->getAssignedFileStages($stageAssignments, SubmissionFile::SUBMISSION_FILE_ACCESS_READ);
 ```
 
 Use the `ReviewFilesDAO` to check if a reviewer can access a file.
 
 ```php
+use PKP\db\DAORegistry;
+
 $reviewFilesDao = DAORegistry::getDAO('ReviewFilesDAO'); /* @var $reviewFilesDao ReviewFilesDAO */
 $reviewerCanAccess = $reviewFilesDao->check($reviewAssignment->getId(), $submissionFile->getId());
 ```
@@ -147,6 +167,10 @@ $reviewerCanAccess = $reviewFilesDao->check($reviewAssignment->getId(), $submiss
 Use the `QueryDAO` to check if a user can access a discussion file.
 
 ```php
+use APP\core\Application;
+use PKP\db\DAORegistry;
+use PKP\submissionFile\SubmissionFile;
+
 if (
 	$submissionFile->getData('fileStage') === SubmissionFile::SUBMISSION_FILE_QUERY &&
 	$submissionFile->getData('assocType') === ASSOC_TYPE_NOTE

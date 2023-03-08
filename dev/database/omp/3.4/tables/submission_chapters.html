@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>submission_chapters - omp_3_4_0 Database</title>
+        <!-- Tell the browser to be responsive to screen width -->
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
+        <!-- Bootstrap 3.3.5 -->
+        <link rel="stylesheet" href="../bower/admin-lte/bootstrap/css/bootstrap.min.css">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="../bower/font-awesome/css/font-awesome.min.css">
+        <!-- Ionicons -->
+        <link rel="stylesheet" href="../bower/ionicons/css/ionicons.min.css">
+        <!-- DataTables -->
+        <link rel="stylesheet" href="../bower/datatables.net-bs/css/dataTables.bootstrap.min.css">
+        <link rel="stylesheet" href="../bower/datatables.net-buttons-bs/css/buttons.bootstrap.min.css">
+        <!-- Code Mirror -->
+        <link rel="stylesheet" href="../bower/codemirror/codemirror.css">
+        <!-- Fonts -->
+        <link href='../fonts/indieflower/indie-flower.css' rel='stylesheet' type='text/css'>
+        <link href='../fonts/source-sans-pro/source-sans-pro.css' rel='stylesheet' type='text/css'>
+
+        <!-- Theme style -->
+        <link rel="stylesheet" href="../bower/admin-lte/dist/css/AdminLTE.min.css">
+        <!-- Salvattore -->
+        <link rel="stylesheet" href="../bower/salvattore/salvattore.css">
+        <!-- AdminLTE Skins. Choose a skin from the css/skins
+           folder instead of downloading all of them to reduce the load. -->
+        <link rel="stylesheet" href="../bower/admin-lte/dist/css/skins/_all-skins.min.css">
+        <!-- SchemaSpy -->
+        <link rel="stylesheet" href="../schemaSpy.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="../bower/html5shiv/html5shiv.min.js"></script>
+        <script src="../bower/respond/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
+    <body class="hold-transition skin-blue layout-top-nav">
+        <div class="wrapper">
+            <header class="main-header">
+                <nav class="navbar navbar-static-top">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a href="../index.html" class="navbar-brand"><b>omp_3_4_0</b> Database</a>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li><a href="../index.html">Tables <span class="sr-only">(current)</span></a></li>
+                                <li><a href="../columns.html" title="All of the columns in the schema">Columns</a></li>
+                                <li><a href="../constraints.html" title="Useful for diagnosing error messages that just give constraint name or number">Constraints</a></li>
+                                <li><a href="../relationships.html" title="Diagram of table relationships">Relationships</a></li>
+                                <li><a href="../orphans.html" title="View of tables with neither parents nor children">Orphan&nbsp;Tables</a></li>
+                                <li><a href="../anomalies.html" title="Things that might not be quite right">Anomalies</a></li>
+                                <li><a href="../routines.html" title="Procedures and functions">Routines</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                        <!-- Navbar Right Menu -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </header>
+            <!-- Main content -->
+            <!-- Full Width Column -->
+            <div class="content-wrapper">
+                <!-- Content Header (Page header) -->
+                <section class="content-header">
+                    <h1>submission_chapters</h1><p><span id="recordNumber">0</span> rows</p><br />
+                </section>
+                <!-- Main content -->
+                <section class="content">
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                            <h3 id="Columns" class="box-title">Columns</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <table id="standard_table" class="table table-bordered table-striped dataTable" role="grid">
+                                <thead align='left'>
+                                <tr>
+                                    <th>Column</th>
+                                    <th>Type</th>
+                                    <th>Size</th>
+                                    <th title='Are nulls allowed?'>Nulls</th>
+                                    <th title='Is column automatically updated?'>Auto</th>
+                                    <th title='Default value'>Default</th>
+                                    <th title='Columns in tables that reference this column'>Children</th>
+                                    <th title='Columns in tables that are referenced by this column'>Parents</th>
+                                    <th title='Comments' class="toggle"><span>Comments</span></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="chapter_id">chapter_id</span></td>
+                                    <td>bigserial</td>
+                                    <td>19</td>
+                                    <td title=''></td>
+                                    <td title='Automatically updated by the database'>√</td>
+                                    <td>nextval(&#39;submission_chapters_chapter_id_seq&#39;::regclass)</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="metrics_submission.chapter_id references submission_chapters.chapter_id via metrics_submission_chapter_id_foreign"><a href='metrics_submission.html'>metrics_submission</a><span class='relatedKey'>.chapter_id</span></td>
+                                                <td class="constraint detail">metrics_submission_chapter_id_foreign<span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="submission_chapter_authors.chapter_id references submission_chapters.chapter_id via submission_chapter_authors_chapter_id_foreign"><a href='submission_chapter_authors.html'>submission_chapter_authors</a><span class='relatedKey'>.chapter_id</span></td>
+                                                <td class="constraint detail">submission_chapter_authors_chapter_id_foreign<span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="submission_chapter_settings.chapter_id references submission_chapters.chapter_id via submission_chapter_settings_chapter_id_foreign"><a href='submission_chapter_settings.html'>submission_chapter_settings</a><span class='relatedKey'>.chapter_id</span></td>
+                                                <td class="constraint detail">submission_chapter_settings_chapter_id_foreign<span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="submission_chapters.source_chapter_id references submission_chapters.chapter_id via submission_chapters_source_chapter_id_foreign"><a href='submission_chapters.html'>submission_chapters</a><span class='relatedKey'>.source_chapter_id</span></td>
+                                                <td class="constraint detail">submission_chapters_source_chapter_id_foreign<span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="usage_stats_total_temporary_records.chapter_id references submission_chapters.chapter_id via ust_chapter_id_foreign"><a href='usage_stats_total_temporary_records.html'>usage_stats_total_temporary_records</a><span class='relatedKey'>.chapter_id</span></td>
+                                                <td class="constraint detail">ust_chapter_id_foreign<span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="usage_stats_unique_item_investigations_temporary_records.chapter_id references submission_chapters.chapter_id via usii_chapter_id_foreign"><a href='usage_stats_unique_item_investigations_temporary_records.html'>usage_stats_unique_item_investigations_temporary_records</a><span class='relatedKey'>.chapter_id</span></td>
+                                                <td class="constraint detail">usii_chapter_id_foreign<span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="usage_stats_unique_item_requests_temporary_records.chapter_id references submission_chapters.chapter_id via usir_chapter_id_foreign"><a href='usage_stats_unique_item_requests_temporary_records.html'>usage_stats_unique_item_requests_temporary_records</a><span class='relatedKey'>.chapter_id</span></td>
+                                                <td class="constraint detail">usir_chapter_id_foreign<span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="usage_stats_unique_title_investigations_temporary_records.chapter_id references submission_chapters.chapter_id via usti_chapter_id_foreign"><a href='usage_stats_unique_title_investigations_temporary_records.html'>usage_stats_unique_title_investigations_temporary_records</a><span class='relatedKey'>.chapter_id</span></td>
+                                                <td class="constraint detail">usti_chapter_id_foreign<span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td title="usage_stats_unique_title_requests_temporary_records.chapter_id references submission_chapters.chapter_id via ustr_chapter_id_foreign"><a href='usage_stats_unique_title_requests_temporary_records.html'>usage_stats_unique_title_requests_temporary_records</a><span class='relatedKey'>.chapter_id</span></td>
+                                                <td class="constraint detail">ustr_chapter_id_foreign<span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="primary_contact_id">primary_contact_id</span></td>
+                                    <td>int8</td>
+                                    <td>19</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="submission_chapters.primary_contact_id references authors.author_id via submission_chapters_primary_contact_id_foreign"><a href='authors.html'>authors</a><span class='relatedKey'>.author_id</span></td>
+                                                <td class="constraint detail">submission_chapters_primary_contact_id_foreign<span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="publication_id">publication_id</span></td>
+                                    <td>int8</td>
+                                    <td>19</td>
+                                    <td title=''></td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="submission_chapters.publication_id references publications.publication_id via submission_chapters_publication_id"><a href='publications.html'>publications</a><span class='relatedKey'>.publication_id</span></td>
+                                                <td class="constraint detail">submission_chapters_publication_id<span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span id="seq">seq</span></td>
+                                    <td>float8</td>
+                                    <td>17,17</td>
+                                    <td title=''></td>
+                                    <td title=''></td>
+                                    <td>&#39;0&#39;::double precision</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="source_chapter_id">source_chapter_id</span></td>
+                                    <td>int8</td>
+                                    <td>19</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="submission_chapters.source_chapter_id references submission_chapters.chapter_id via submission_chapters_source_chapter_id_foreign"><a href='submission_chapters.html'>submission_chapters</a><span class='relatedKey'>.chapter_id</span></td>
+                                                <td class="constraint detail">submission_chapters_source_chapter_id_foreign<span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="doi_id">doi_id</span></td>
+                                    <td>int8</td>
+                                    <td>19</td>
+                                    <td title='nullable'>√</td>
+                                    <td title=''></td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                            <tr>
+                                                <td title="submission_chapters.doi_id references dois.doi_id via submission_chapters_doi_id_foreign"><a href='dois.html'>dois</a><span class='relatedKey'>.doi_id</span></td>
+                                                <td class="constraint detail">submission_chapters_doi_id_foreign<span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-sitemap"></i>
+                            <h3 id="Indexes" class="box-title">Indexes</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <table id="indexes_table" class="table table-bordered table-striped dataTable" role="grid">
+                                <thead>
+                                <tr>
+                                    <th>Constraint Name</th>
+                                    <th>Type</th>
+                                    <th>Sort</th>
+                                    <th>Column(s)</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> submission_chapters_pkey</td>
+                                    <td>Primary key</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>chapter_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>chapters_chapter_id</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>chapter_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>submission_chapters_primary_contact_id</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>primary_contact_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>submission_chapters_publication_id</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>publication_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>submission_chapters_source_chapter_id</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>source_chapter_id</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div><!-- /.box-body -->
+                    </div>
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-code-fork"></i>
+                            <h3 id="Relationships" class="box-title">Relationships</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div>
+                        <div class="box-body">
+                            <div class="nav-tabs-custom"><!-- Tabs within a box -->
+                                <h5>Close relationships within degrees of separation</h5>
+                                <ul class="nav nav-tabs pull-left ui-sortable-handle">
+                                    <li class="active"><a href="#oneDegreeImg-chart" data-toggle="tab" aria-expanded="true">One</a></li>
+                                    <li class=""><a href="#twodegreesDegreeImg-chart" data-toggle="tab" aria-expanded="true">Two degrees</a></li>
+                                    <li class=""><a href="#oneimpliedDegreeImg-chart" data-toggle="tab" aria-expanded="true">One implied</a></li>
+                                    <li class=""><a href="#twoimpliedDegreeImg-chart" data-toggle="tab" aria-expanded="true">Two implied</a></li>
+                                </ul>
+                                <div class="tab-content no-padding">
+                                    <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
+                                        <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
+<area shape="rect" id="node1" href="authors.html" target="_top" title="authors" alt="" coords="488,696,700,872">
+<area shape="rect" id="node2" href="publications.html" target="_top" title="publications" alt="" coords="197,725,444,960">
+<area shape="rect" id="node5" href="dois.html" target="_top" title="dois" alt="" coords="5,891,153,1037">
+<area shape="rect" id="node3" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1304,1013,1555,1336">
+<area shape="rect" id="node4" href="submission_chapters.html" target="_top" title="submission_chapters" alt="" coords="744,788,1091,1033">
+<area shape="rect" id="node6" href="submission_chapter_authors.html" target="_top" title="submission_chapter_authors" alt="" coords="1268,5,1591,152">
+<area shape="rect" id="node7" href="submission_chapter_settings.html" target="_top" title="submission_chapter_settings" alt="" coords="1266,1353,1593,1529">
+<area shape="rect" id="node8" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1231,1547,1627,1840">
+<area shape="rect" id="node9" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1135,1857,1724,2121">
+<area shape="rect" id="node10" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1159,169,1699,433">
+<area shape="rect" id="node11" href="usage_stats_unique_title_investigations_temporary_records.html" target="_top" title="usage_stats_unique_title_investigations_temporary_records" alt="" coords="1137,451,1722,715">
+<area shape="rect" id="node12" href="usage_stats_unique_title_requests_temporary_records.html" target="_top" title="usage_stats_unique_title_requests_temporary_records" alt="" coords="1161,732,1698,996">
+</map>
+                                        <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/submission_chapters.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
+                                    </div>
+                                    <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
+                                        <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
+<area shape="rect" id="node1" href="author_settings.html" target="_top" title="author_settings" alt="" coords="1112,663,1331,751">
+<area shape="rect" id="node2" href="authors.html" target="_top" title="authors" alt="" coords="761,692,973,868">
+<area shape="rect" id="node3" href="publications.html" target="_top" title="publications" alt="" coords="439,669,685,904">
+<area shape="rect" id="node4" href="user_groups.html" target="_top" title="user_groups" alt="" coords="467,921,657,1009">
+<area shape="rect" id="node7" href="dois.html" target="_top" title="dois" alt="" coords="225,899,373,1045">
+<area shape="rect" id="node13" href="submissions.html" target="_top" title="submissions" alt="" coords="204,1133,395,1221">
+<area shape="rect" id="node16" href="series.html" target="_top" title="series" alt="" coords="225,731,373,819">
+<area shape="rect" id="node5" href="citations.html" target="_top" title="citations" alt="" coords="785,587,948,675">
+<area shape="rect" id="node6" href="doi_settings.html" target="_top" title="doi_settings" alt="" coords="467,327,657,415">
+<area shape="rect" id="node8" href="presses.html" target="_top" title="presses" alt="" coords="5,1025,160,1113">
+<area shape="rect" id="node9" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1608,673,1859,996">
+<area shape="rect" id="node10" href="submission_chapters.html" target="_top" title="submission_chapters" alt="" coords="1048,792,1395,1037">
+<area shape="rect" id="node11" href="publication_formats.html" target="_top" title="publication_formats" alt="" coords="1095,1097,1347,1185">
+<area shape="rect" id="node12" href="submission_files.html" target="_top" title="submission_files" alt="" coords="1109,1239,1333,1327">
+<area shape="rect" id="node14" href="publication_categories.html" target="_top" title="publication_categories" alt="" coords="729,921,1004,1009">
+<area shape="rect" id="node15" href="publication_settings.html" target="_top" title="publication_settings" alt="" coords="739,481,994,569">
+<area shape="rect" id="node17" href="submission_chapter_authors.html" target="_top" title="submission_chapter_authors" alt="" coords="1572,316,1895,463">
+<area shape="rect" id="node18" href="submission_chapter_settings.html" target="_top" title="submission_chapter_settings" alt="" coords="1570,480,1897,656">
+<area shape="rect" id="node19" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1535,5,1931,299">
+<area shape="rect" id="node20" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1439,1013,2028,1277">
+<area shape="rect" id="node21" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1463,1295,2003,1559">
+<area shape="rect" id="node22" href="usage_stats_unique_title_investigations_temporary_records.html" target="_top" title="usage_stats_unique_title_investigations_temporary_records" alt="" coords="1441,1576,2026,1840">
+<area shape="rect" id="node23" href="usage_stats_unique_title_requests_temporary_records.html" target="_top" title="usage_stats_unique_title_requests_temporary_records" alt="" coords="1465,1857,2002,2121">
+</map>
+                                        <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/submission_chapters.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
+                                    </div>
+                                    <div class="chart tab-pane " id="oneimpliedDegreeImg-chart" style="position: relative; overflow-x:auto;">
+                                        <map id="oneDegreeRelationshipsDiagramImplied" name="oneDegreeRelationshipsDiagramImplied">
+<area shape="rect" id="node1" href="authors.html" target="_top" title="authors" alt="" coords="488,696,700,872">
+<area shape="rect" id="node2" href="publications.html" target="_top" title="publications" alt="" coords="197,725,444,960">
+<area shape="rect" id="node5" href="dois.html" target="_top" title="dois" alt="" coords="5,891,153,1037">
+<area shape="rect" id="node3" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1304,1013,1555,1336">
+<area shape="rect" id="node4" href="submission_chapters.html" target="_top" title="submission_chapters" alt="" coords="744,788,1091,1033">
+<area shape="rect" id="node6" href="submission_chapter_authors.html" target="_top" title="submission_chapter_authors" alt="" coords="1268,5,1591,152">
+<area shape="rect" id="node7" href="submission_chapter_settings.html" target="_top" title="submission_chapter_settings" alt="" coords="1266,1353,1593,1529">
+<area shape="rect" id="node8" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1231,1547,1627,1840">
+<area shape="rect" id="node9" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1135,1857,1724,2121">
+<area shape="rect" id="node10" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1159,169,1699,433">
+<area shape="rect" id="node11" href="usage_stats_unique_title_investigations_temporary_records.html" target="_top" title="usage_stats_unique_title_investigations_temporary_records" alt="" coords="1137,451,1722,715">
+<area shape="rect" id="node12" href="usage_stats_unique_title_requests_temporary_records.html" target="_top" title="usage_stats_unique_title_requests_temporary_records" alt="" coords="1161,732,1698,996">
+</map>
+                                        <a name='diagram'><img id="oneimpliedDegreeImg" src="../diagrams/tables/submission_chapters.implied1degrees.png" usemap="#oneDegreeRelationshipsDiagramImplied" class="diagram" border="0" align="left"></a>
+                                    </div>
+                                    <div class="chart tab-pane " id="twoimpliedDegreeImg-chart" style="position: relative; overflow-x:auto;">
+                                        <map id="twoDegreesRelationshipsDiagramImplied" name="twoDegreesRelationshipsDiagramImplied">
+<area shape="rect" id="node1" href="author_settings.html" target="_top" title="author_settings" alt="" coords="1112,631,1331,719">
+<area shape="rect" id="node2" href="authors.html" target="_top" title="authors" alt="" coords="761,629,973,805">
+<area shape="rect" id="node3" href="publications.html" target="_top" title="publications" alt="" coords="439,817,685,1052">
+<area shape="rect" id="node4" href="user_groups.html" target="_top" title="user_groups" alt="" coords="467,691,657,779">
+<area shape="rect" id="node7" href="dois.html" target="_top" title="dois" alt="" coords="225,1039,373,1185">
+<area shape="rect" id="node14" href="submissions.html" target="_top" title="submissions" alt="" coords="204,1249,395,1337">
+<area shape="rect" id="node17" href="series.html" target="_top" title="series" alt="" coords="225,879,373,967">
+<area shape="rect" id="node5" href="citations.html" target="_top" title="citations" alt="" coords="785,964,948,1052">
+<area shape="rect" id="node6" href="doi_settings.html" target="_top" title="doi_settings" alt="" coords="467,347,657,435">
+<area shape="rect" id="node8" href="presses.html" target="_top" title="presses" alt="" coords="5,1176,160,1264">
+<area shape="rect" id="node9" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1608,673,1859,996">
+<area shape="rect" id="node10" href="submission_chapters.html" target="_top" title="submission_chapters" alt="" coords="1048,760,1395,1005">
+<area shape="rect" id="node11" href="job_batches.html" target="_top" title="job_batches" alt="" coords="1128,1387,1315,1475">
+<area shape="rect" id="node12" href="publication_formats.html" target="_top" title="publication_formats" alt="" coords="1095,1104,1347,1192">
+<area shape="rect" id="node13" href="submission_files.html" target="_top" title="submission_files" alt="" coords="1109,1281,1333,1369">
+<area shape="rect" id="node15" href="publication_categories.html" target="_top" title="publication_categories" alt="" coords="729,524,1004,612">
+<area shape="rect" id="node16" href="publication_settings.html" target="_top" title="publication_settings" alt="" coords="739,859,994,947">
+<area shape="rect" id="node18" href="submission_chapter_authors.html" target="_top" title="submission_chapter_authors" alt="" coords="1572,5,1895,152">
+<area shape="rect" id="node19" href="submission_chapter_settings.html" target="_top" title="submission_chapter_settings" alt="" coords="1570,480,1897,656">
+<area shape="rect" id="node20" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1535,169,1931,463">
+<area shape="rect" id="node21" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1439,1013,2028,1277">
+<area shape="rect" id="node22" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1463,1576,2003,1840">
+<area shape="rect" id="node23" href="usage_stats_unique_title_investigations_temporary_records.html" target="_top" title="usage_stats_unique_title_investigations_temporary_records" alt="" coords="1441,1857,2026,2121">
+<area shape="rect" id="node24" href="usage_stats_unique_title_requests_temporary_records.html" target="_top" title="usage_stats_unique_title_requests_temporary_records" alt="" coords="1465,1295,2002,1559">
+</map>
+                                        <a name='diagram'><img id="twoimpliedDegreeImg" src="../diagrams/tables/submission_chapters.implied2degrees.png" usemap="#twoDegreesRelationshipsDiagramImplied" class="diagram" border="0" align="left"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- /.box-body -->
+                    </div>
+                </section>
+                <script>
+                    var config = {
+                        pagination: true
+                    }
+                </script>
+            </div>
+            <!-- /.content-wrapper -->
+            <footer class="main-footer">
+                <div>
+                    <div class="pull-right hidden-xs">
+                        <a href="https://github.com/schemaspy/schemaspy" title="GitHub for SchemaSpy"><i class="fa fa-github-square fa-2x"></i></a>
+                        <a href="http://stackoverflow.com/questions/tagged/schemaspy" title="StackOverflow for SchemaSpy"><i class="fa fa-stack-overflow fa-2x"></i></a>
+                    </div>
+                    <strong>Generated by <a href="http://schemaspy.org/" class="logo-text"><i class="fa fa-database"></i> SchemaSpy 6.1.0</a></strong>
+                </div>
+                <!-- /.container -->
+            </footer>
+        </div>
+        <!-- ./wrapper -->
+
+        <!-- jQuery 2.2.3 -->
+        <script src="../bower/admin-lte/plugins/jQuery/jquery-2.2.3.min.js"></script>
+        <script src="../bower/admin-lte/plugins/jQueryUI/jquery-ui.min.js"></script>
+        <!-- Bootstrap 3.3.5 -->
+        <script src="../bower/admin-lte/bootstrap/js/bootstrap.min.js"></script>
+        <!-- DataTables -->
+        <script src="../bower/datatables.net/jquery.dataTables.min.js"></script>
+        <script src="../bower/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+        <script src="../bower/datatables.net-buttons/dataTables.buttons.min.js"></script>
+        <script src="../bower/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+        <script src="../bower/datatables.net-buttons/buttons.html5.min.js"></script>
+        <script src="../bower/datatables.net-buttons/buttons.print.min.js"></script>
+        <script src="../bower/datatables.net-buttons/buttons.colVis.min.js"></script>
+        <!-- SheetJS -->
+        <script src="../bower/js-xlsx/xlsx.full.min.js"></script>
+        <!-- pdfmake -->
+        <script src="../bower/pdfmake/pdfmake.min.js"></script>
+        <script src="../bower/pdfmake/vfs_fonts.js"></script>
+        <!-- SlimScroll -->
+        <script src="../bower/admin-lte/plugins/slimScroll/jquery.slimscroll.min.js"></script>
+        <!-- FastClick -->
+        <script src="../bower/admin-lte/plugins/fastclick/fastclick.js"></script>
+        <!-- Salvattore -->
+        <script src="../bower/salvattore/salvattore.min.js"></script>
+        <!-- AnchorJS -->
+        <script src="../bower/anchor-js/anchor.min.js"></script>
+        <!-- CodeMirror -->
+        <script src="../bower/codemirror/codemirror.js"></script>
+        <script src="../bower/codemirror/sql.js"></script>
+        <!-- AdminLTE App -->
+        <script src="../bower/admin-lte/dist/js/app.min.js"></script>
+        <script src="table.js"></script>
+        <script src="../schemaSpy.js"></script>
+    </body>
+</html>

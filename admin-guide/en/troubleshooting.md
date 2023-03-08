@@ -1,3 +1,10 @@
+---
+title: Troubleshooting - Admin Guide - PKP Developer Docs
+description: How to fix some common problems encountered when deploying OJS, OMP or OPS.
+book: admin-guide
+version: 3.4
+---
+
 # Troubleshooting
 
 ## Permissions, File Access, Etc.
@@ -148,7 +155,7 @@ This problem shows up when users copy-and-paste fancy/smart quotes from MS Word 
 The following steps can be used to resolve this encoding issue:
 
 * Install on your local machine [ftfy](https://ftfy.readthedocs.io/en/latest/), as it is a python tool it will require python3 installed as well;
-* Edit the command-line ftfy executable cli.py (it may be in a different path depending on your environment.): 
+* Edit the command-line ftfy executable cli.py (it may be in a different path depending on your environment.):
 	`/usr/local/lib/python3.6/site-packages/ftfy/cli.py`
 * Around line 100 (`$ vim +100 cli.py`) add an extra parameter 'uncurl_quotes=False' to the fix_file function. It will like as follows:
 

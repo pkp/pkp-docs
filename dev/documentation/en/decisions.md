@@ -71,7 +71,7 @@ class ExampleAccept extends DecisionType
 }
 ```
 
-Several abstract methods must be defined to configure the decision type. When the following example decision type is recorded, the submission will be moved to the copyediting stage.
+Several abstract methods must be implemented when creating a new decision type. When the following example decision type is recorded, the submission will be moved to the copyediting stage.
 
 ```php
 namespace PKP\decision\types;
@@ -385,13 +385,13 @@ class ExampleAccept extends DecisionType
 
         $steps->addStep((new PromoteFiles(
             'promoteFilesToCopyediting',
-            'Select Files',
-            'Select files to send to the copyediting stage.',
+            __('select.files'),
+            __('select.files.description'),
             SubmissionFile::SUBMISSION_FILE_FINAL,
             $submission,
             $this->getFileGenres($context->getId())
         ))->addFileList(
-            'Revisions',
+            __('select.revisions'),
             Repo::submissionFile()
                 ->getCollector()
                 ->filterBySubmissionIds([$submission->getId()])

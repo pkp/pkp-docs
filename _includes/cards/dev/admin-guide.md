@@ -1,8 +1,8 @@
 
 ### [Administrator's Guide](/admin-guide/en)
 
-A guide for system administrators on how to install and upgrade, import and export, process statistics, troubleshoot problems, and more. [View Now](/admin-guide/en)
+How to install and configure the application, import and export data, secure your server, download statistics, and troubleshoot problems. [View Now](/admin-guide/en)
 
 ---
 
-<span class='fa fa-language'></span> Available in [Français](/admin-guide/fr/).
+Versions: [3.4](/admin-guide/en), [3.3](/admin-guide/3.3/en/) ([Français](/admin-guide/3.3/fr/))

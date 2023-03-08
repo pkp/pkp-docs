@@ -1,5 +1,7 @@
 ---
 isBookIndex: true
+book: admin-guide
+version: 3.4
 ---
 # PKP Administrator's Guide
 

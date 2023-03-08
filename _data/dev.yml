@@ -25,9 +25,11 @@ cards:
         isDeveloper: true
   - path: dev
     title: Specifications and Reference Guides
-    description: Technical documentation such as the REST API schema, UI Library, and application source references.
+    description: Technical documentation about the REST API, database schema, the UI Library, and application source code.
     cards:
       - path: rest-api
+        isDeveloper: true
+      - path: database-schema
         isDeveloper: true
       - path: ui-library
         isDeveloper: true

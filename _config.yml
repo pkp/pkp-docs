@@ -24,5 +24,8 @@ readme_index:
   enabled: true
   remove_originals: false
   with_frontmatter: true
+include:
+  - _all-skins.css # For the SchemaSpy database documentation (Jekyll excludes files that start with _)
+  - _all-skins.min.css # For the SchemaSpy database documentation (Jekyll excludes files that start with _)
 plugins:
   - jekyll-sitemap

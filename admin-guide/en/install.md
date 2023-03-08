@@ -1,6 +1,8 @@
 ---
 title: Install - Admin Guide - PKP Developer Docs
 description: How to run the installer for Open Journal Systems (OJS), Open Monograph Press (OPS) or Open Preprint Systems (OPS).
+book: admin-guide
+version: 3.4
 ---
 
 # Install

@@ -9,13 +9,12 @@ Your plugin may need to get data from the application, such as submissions, issu
 ```php
 $currentUser = Application::get()->getUser();
 
-$collector = Repo::submission()
+$submissions = Repo::submission()
   ->getCollector()
   ->filterByContexts([$context->getId()])
   ->assignedTo([$currentUser->getId()])
-  ->limit(20);
-
-$submissions = Repo::submissions()->getMany($collector);
+  ->limit(20)
+  ->getMany();
 ```
 
 If a `Repository` does not exist for the data you want, you may need to use the [DAO](/dev/documentation/en/architecture-daos).

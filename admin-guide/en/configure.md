@@ -1,6 +1,8 @@
 ---
 title: Configure - Admin Guide - PKP Developer Docs
 description: A guide to the configuration settings for Open Journal Systems (OJS), Open Monograph Press (OPS) or Open Preprint Systems (OPS).
+book: admin-guide
+version: 3.4
 ---
 
 # Configure
@@ -68,7 +70,10 @@ files_dir = <path>
 
 ## Email Server
 
-Most email will be blocked by spam filters unless you use a SMTP server with correctly configured [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DMARC](https://en.wikipedia.org/wiki/DMARC) records. These records are stored in your domain's DNS settings and will require all email to be sent from an envelope sender.
+Most email will be blocked by spam filters unless you use a SMTP server with correctly configured [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DMARC](https://en.wikipedia.org/wiki/DMARC) records.
+
+> Not sure what to do here? Learn more about how to [configure an email server](./advanced-email).
+{:.notice}
 
 Turn SMTP on:
 
@@ -96,11 +101,22 @@ force_default_envelope_sender = On
 force_dmarc_compliant_from = On
 ```
 
+Learn more about the [envelope sender](./advanced-email#dmarc).
+
+## User Validation
+
+Automated bots may register fake user accounts. To deter this, configure the software to require validation of the email address for all new user accounts. In the `[email]` section of `config.inc.php`, edit the following settings.
+
+```
+require_validation = On
+validation_timeout = 14
+```
+
 ## SSL / HTTPS
 
 Every site should encrypt it's web traffic using a SSL certificate. This will make your site run from `https://` instead of `http://`.
 
-If you don't have a SSL certificate, you should [get one](./securing-your-system#encryption).
+If you don't have a SSL certificate, you should [get one](./securing-your-system#sslencryption).
 
 Edit the `config.inc.php` file to force URLs to use SSL:
 
@@ -120,16 +136,9 @@ If you are unable to configure this cron job, you must enable the Acron plugin a
 
 ## Job Runner
 
-Some tasks can be resource intensive, such as sending large emails or recompiling the search index. By default, these jobs will be processed during normal web requests, which may impact your site's performance.
+No configuration is required to enable the built-in job runner. This is useful for test installations and small sites. However, in production we recommend using a worker daemon or cron job to process jobs.
 
-We recommend using a worker daemon to process jobs. Run the following command to see options for running a worker daemon.
-
-```
-php lib/pkp/tools/jobs.php work --help
-```
-
-When running a worker daemon, you should use something like [Supervisor](http://supervisord.org/) to keep the workers running.
-
+Learn more about how to configure the [job runner](./advanced-jobs).
 
 ## Pretty URLs
 

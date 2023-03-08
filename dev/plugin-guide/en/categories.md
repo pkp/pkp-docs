@@ -200,11 +200,11 @@ class ArticleReportPlugin extends ReportPlugin {
   public function display($args, $request) {
 
     // Get the first 100 submissions
-    $collector = Repo::submission()
+    $submissions = Repo::submission()
       ->getCollector()
       ->filterByContextIds([$context->getId()])
-      ->limit(100);
-    $submissions = Repo::submission()->getMany($collector);
+      ->limit(100)
+      ->getMany();
 
     // Return a CSV file
     header('content-type: text/comma-separated-values');

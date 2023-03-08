@@ -1,6 +1,8 @@
 ---
 title: Install OJS/OMP/OPS - Admin Guide - PKP Developer Docs
 description: A guide for system administrators who want to install, deploy and maintain Open Journal Systems (OJS), Open Monograph Press (OPS) or Open Preprint Systems (OPS).
+book: admin-guide
+version: 3.4
 ---
 
 # Administrator's Guide

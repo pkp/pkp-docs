@@ -6,11 +6,13 @@ title: Email Templates - Technical Documentation - OJS|OMP|OPS
 
 # Email Templates
 
-Email templates mix customized, editable data with fixed defaults. For this reason, the behavior of the `EmailTemplateService` differs from other entity service classes. This section describes some of the differences.
+Email templates mix customized, editable data with fixed defaults. For this reason, the email template [repository](./architecture-repositories) works differently from other entity repositories. This section describes some of the differences.
 
 ## Use keys instead of ids
 
-Default email templates do not have ids. Instead, get an email template by its key.
+Default email templates do not have ids. Instead, each email template has a key. The keys of default email templates can be found in `emailTemplates.xml`. The keys of custom email templates are generated from the name.
+
+Get an email template by its key.
 
 ```php
 use APP\facades\Repo;
@@ -18,42 +20,88 @@ use APP\facades\Repo;
 $emailTemplate = Repo::emailTemplate()->getByKey($contextId, $key);
 ```
 
-## Default and custom templates
+## Always use a context id
 
-Default templates are installed when the application is created or a new locale is added. These templates are used during the workflow and other planned events in the application.
+Each email template is specific to the journal, press or context. It is not possible to get all email templates for all contexts. Always pass the context id to the `Collector`.
 
-Default templates can not be deleted, but some of them can be edited or disabled. Check the `canEdit` and `canDisable` properties.
+```php
+$collector = Repo::emailTemplate()->getCollector($contextId);
+```
 
-Custom templates are created by the end-user. They are not automatically used by the application. They can be deleted.
 
-## Default template data
+## Mailables
 
-Default templates include data that can not be edited and is not available to custom templates. These properties include `canDisable`, `canEdit`, `fromRoleId` and `toRoleId`.
-
-When this data is not available, the values will be returned as `null`.
-
-## Custom template data
-
-Custom templates can be distinguished from default templates by the `id` property. The `id` property will be `null` for all other templates.
-
-## Delete and reset templates
-
-A custom email template can be deleted using the `delete` method of the service class.
+Every [Mailable](./utilities-email.md) defines the email template it will use by default. Use that property to get the email template related to a `Mailable`.
 
 ```php
 use APP\facades\Repo;
+use PKP\mail\mailables\DiscussionCopyediting;
 
-Repo::emailTemplate()->delete($emailTemplate);
+$emailTemplate = Repo::emailTemplate()
+    ->getByKey(
+        $contextId,
+        DiscussionCopyediting::getEmailTemplateKey()
+    );
 ```
 
-When a default template is deleted in this way, only the custom modifications will be deleted. The default data will remain. In this way, the `delete` method will "reset" a default template.
+Some mailables support multiple templates. For example, when the application loads the form for creating a discussion in the copyediting stage, it loads all email templates assigned to the `PKP\mail\mailables\DiscussionCopyediting` mailable.
 
-## Enabled by default
+Determine if a `Mailable` supports multiple templates.
 
-Email templates are considered `enabled` even if the property is `NULL` in the database. Any code that searches the database on that column should treat `NULL` values as `true`.
+```php
+use PKP\mail\mailables\DiscussionCopyediting;
 
-When you are working with an `EmailTemplate` object you should have accurate data because the property is transformed to `true`/`false` when it is retrieved from the database.
+if (DiscussionCopyediting::getSupportsTemplates()) {
+    /* supports multiple templates */
+}
+```
 
-## All languages required
+Get all email templates related to that mailable.
 
-Because email templates may be used with any user's current locale, all languages are required for the `subject` and `body` fields. An email template can not be added without entries for all locales active in the context UI.
+```php
+use APP\facades\Repo;
+use PKP\mail\mailables\DiscussionCopyediting;
+
+$emailTemplates = Repo::emailTemplate()
+    ->getCollector($contextId)
+    ->alternateTo(
+        [DiscussionCopyediting::getEmailTemplateKey()]
+    )
+    ->getMany();
+```
+
+When a custom template is created, it can be assigned to a mailable by setting it's `alternateTo` property to the default email key of the `Mailable`.
+
+```php
+use APP\facades\Repo;
+use PKP\mail\mailables\DiscussionCopyediting;
+
+$props = [
+    'body' => $body,
+    'contextId' => $contextId,
+    'name' => $name,
+    'subject' => $subject,
+    'alternateTo' => DiscussionCopyediting::getEmailTemplateKey(),
+];
+
+$errors = Repo::emailTemplate()->validate(
+    null,
+    $props,
+    $context
+);
+
+if (empty($errors)) {
+    $emailTemplate = Repo:emailTemplate()->newDataObject($props);
+    $key = Repo::emailTemplate()->add($emailTemplate);
+}
+```
+
+## Default template data
+
+Default templates are described in `emailTemplates.xml`. These templates are installed when the application is installed or a new locale is added.
+
+These templates can not be edited or deleted. However, each context can override the default data with a custom template. When an email template is fetched from the database, it returns the context's custom template. If it doesn't find one, it falls back to the default template.
+
+Only the overriden templates will be deleted when a context is deleted or has its email templates reset. The default data will remain.
+
+When using the email templates repository, no extra consideration is required to fetch the correct email template. The repository's `delete` method will only delete custom data.

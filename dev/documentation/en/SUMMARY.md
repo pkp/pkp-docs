@@ -25,9 +25,10 @@
   * Cache
   * Config
   * [Email](./utilities-email)
+  * [Events](./utilities-events)
   * [Files](./utilities-files)
   * [Hooks](./utilities-hooks)
-  * Jobs
+  * [Jobs](./utilities-jobs)
   * Migrations
   * Notifications
   * [Translation](./utilities-translation)
@@ -38,7 +39,6 @@
   * [Email Templates](./email-templates)
   * [Publication Versions](./publication-versions)
   * [Statistics](./statistics)
-    * [Editorial Statistics](./statistics-editorial)
-    * [Reader Statistics](./statistics-reader)
+  * [Statistics (Editorial)](./statistics-editorial)
   * [Submission Files](./submission-files)
 * [Resources](./resources)
