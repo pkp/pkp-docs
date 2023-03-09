@@ -121,18 +121,6 @@ class ExampleListener
 
 Listeners are cached. Clear the cache after an event is added, edited, or removed.
 
-## Events, Listeners and Plugins
-
-A listener created in a plugin can not be cached. To add a listener in a plugin, use the `Event` facade to subscribe the listener to an event.
-
-```php
-namespace APP\plugins\generic\example;
-
-use Illuminate\Support\Facades\Event;
-
-Event::subscribe(new ExampleEvent());
-```
-
 ## Jobs Queue
 
 Laravel's event listeners can be [sent to the jobs queue](https://laravel.com/docs/9.x/events#queued-event-listeners) instead of being run synchronously. However, in PKP's applications, the relationship between jobs and listeners is not yet resolved.

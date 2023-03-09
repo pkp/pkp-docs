@@ -15,3 +15,4 @@ Plugins can be put to a wide variety of uses. The examples below show you how to
 - [Get Data from the Template Manager](./examples-get-data-template) - How to read data that has been assigned to a template when you hook into the template.
 - [Add Custom Fields](./examples-custom-field) - How to modify an existing settings form to add a new setting.
 - [Add Custom Page](./examples-custom-page) - How to create a custom page with it's own URL and load it in the backend.
+- [Events and Listeners](./example-events) - How to use listeners to subscribe to events in the core application.
