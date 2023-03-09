@@ -24,3 +24,4 @@
   * [Events and Listeners](./example-events)
   * [Add Editorial Decision](./example-decision)
   * [Mailgun](https://github.com/Vitaliy-1/mailgun/)
+  * [Extend a Map](./examples-extend-map)

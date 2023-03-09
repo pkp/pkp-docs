@@ -18,3 +18,4 @@ Plugins can be put to a wide variety of uses. The examples below show you how to
 - [Events and Listeners](./example-events) - How to use listeners to subscribe to events in the core application.
 - [Add Editorial Decision](./examples-decision) - How to add, edit or remove an editorial decision to customize the workflow.
 - [Mailgun](https://github.com/Vitaliy-1/mailgun/) - An example plugin to send outgoing email through the Mailgun service.
+- [Extend a Map](./examples-extend-map) - How to extend a map, for example to modify the data returned in a REST API response.

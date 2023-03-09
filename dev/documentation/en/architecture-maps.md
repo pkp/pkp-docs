@@ -148,7 +148,7 @@ class RSS
 Maps should always be loaded through the `MapContainer` class, which will permit maps to be extended by plugins. Use the `app('maps')` helper to load a map through the container.
 
 ```php
-use PKP\announcements\maps\Schema;
+use PKP\announcement\maps\Schema;
 
 $map = app('maps')->withExtensions(Schema::class);
 ```
@@ -156,7 +156,7 @@ $map = app('maps')->withExtensions(Schema::class);
 Maps loaded in this way can be extended by plugins or any third-party code.
 
 ```php
-use PKP\announcements\maps\Schema;
+use PKP\announcement\maps\Schema;
 
 app('maps')->extend(Schema::class, function($output, Announcement $item, Schema $map) {
     // Add days since the announcement was posted

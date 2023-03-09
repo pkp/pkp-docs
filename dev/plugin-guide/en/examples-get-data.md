@@ -1,5 +1,6 @@
 ---
 title: Example - Get Data - Plugin Guide for OJS, OMP and OPS
+description: Example code showing how to get some data in a plugin for OJS, OMP and OPS.
 book: dev-plugin-guide
 version: 3.4
 ---
