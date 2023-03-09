@@ -6,7 +6,7 @@ version: 3.3
 
 # Get Data
 
-Your plugin may need to get data from the application, such as submissions, issues, authors, users and files. Use the [Repo facade](/dev/documentation/en/architecture-repositories) and [Collector](/dev/documentation/en/architecture-daos#collector) to retrieve information.
+Your plugin may need to get data from the application, such as submissions, issues, authors, users and files. Use the [Repo facade](/dev/documentation/en/architecture-repositories) and [Collector](/dev/documentation/en/architecture-repositories#collector) to retrieve information.
 
 ```php
 $currentUser = Application::get()->getUser();

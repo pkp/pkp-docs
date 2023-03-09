@@ -135,7 +135,7 @@ The hooks in the list below are available for any entity that has been converted
 | `<entity>::edit` | Called when an object is edited. |
 | `<entity>::delete::before` | Called before an object is deleted from the database. |
 | `<entity>::delete` | Called after an object is deleted from the database. |
-| `<entity>::Collector` | Modify the `QueryBuilder` returned by a [Collector](./architecture-daos#collector). |
+| `<entity>::Collector` | Modify the `QueryBuilder` returned by a [Collector](./architecture-repositories#collector). |
 
 Some entities provide hooks for additional actions taken in the [Repository](./architecture-repositories) class.
 
