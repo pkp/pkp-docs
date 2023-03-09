@@ -359,6 +359,66 @@ class AppServiceProvider extends ServiceProvider
 }
 ```
 
+## Usage Guidance
+
+Repositories form the bulk of data handling in the application. To keep the code easy to maintain, make sure your code is consistent with the following.
+
+Select the default table's columns in the `getQueryBuilder()` method.
+
+```php
+public function getQueryBuilder(): Builder
+{
+    return DB::table('a')
+        ->select('a.*');
+}
+```
+
+If other columns need to be selected, use `addSelect()`.
+
+```php
+public function getQueryBuilder(): Builder
+{
+    return DB::table('a')
+        ->select('a.*')
+        ->when(!is_null($z), function($q) {
+            $q->leftJoin('b', 'b.id', '=', 'a.id')
+                ->addSelect('b.example');
+        });
+}
+```
+
+Be strict about "falsy" data in the collector. Use `null` types for unset arrays or booleans, rather than empty arrays or false booleans.
+
+```php
+$q->when($this->userGroupIds !== null, function($query) {
+  return $query->whereIn('u.user_id', $this->userGroupids);
+}
+```
+
+This will avoid unexpected situations like the example below.
+
+```php
+// We use two conditions to build up a list of allowed user groups:
+// 1. Get a list of the current user's groups from the database
+$allowedUserGroupsA = [1, 2, 3];
+// 2. Get a list of groups the user has specified via the UI (e.g. checkboxes)
+$allowedUserGroupsB = [4, 5, 6];
+// Combine the two conditions using array_intersect.
+$allowedUserGroups = array_intersect($allowedUserGroupsA, $allowedUserGroupsB);
+// This will result in an empty list, meaning none of the specified user groups were allowed!
+$collector->filterByUserGroupIds($allowedUserGroups);
+// We would expect the DAO to return no results, but it
+// actually returns all results!
+return $dao->getMany($collector);
+```
+
+Avoid unexpected collation/encoding problems by not mixing PHP and SQL string operations where possible.
+
+```diff
+-    $q->where(DB::raw('LOWER(some_column)', '=', strtolower($someValue));
++    $q->whereRaw('LOWER(some_column) = LOWER(?)', [$someValue]);
+```
+
 ---
 
 Learn how to [map objects to another output](./architecture-maps).
