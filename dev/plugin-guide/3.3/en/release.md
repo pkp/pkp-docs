@@ -1,8 +1,7 @@
 ---
-title: Release a Plugin - Plugin Guide for OJS, OMP and OPS
-description: How to package and release a plugin for OJS, OMP or OPS.
+title: Release a Plugin - Plugin Guide for OJS and OMP
 book: dev-plugin-guide
-version: 3.4
+version: 3.3
 ---
 
 # Release a Plugin
@@ -29,9 +28,6 @@ Learn how to [write tests for your plugin](/dev/testing/en/plugins-themes).
 
 ## Build and Package Your Plugin
 
-> Any non-essential files provided by your dependency manager (eg - composer, npm) should not be included with the package. These often include demos and examples that can be security risks when uploaded to the plugins directory.
-{:.warning}
-
 Your release package should be a `.tar.gz` file that contains a single directory with all of the files necessary to run the plugin. The directory name should match the `product` name in the release XML.
 
 We provide a [CLI tool](https://github.com/pkp/pkp-plugin-cli/) that can help you build and package your plugin. Install it with the following command.
@@ -45,6 +41,9 @@ Use the following to build a release package and upload it as a release to your 
 ```
 pkp-plugin release
 ```
+
+> Any non-essential files provided by your dependency manager (eg - composer, npm) should not be included with the package. These often include demos and examples that can be security risks when uploaded to the plugins directory.
+{:.warning}
 
 ## Get the Plugin into the Plugin Gallery
 
@@ -110,12 +109,12 @@ In addition, each plugin must pass a code review. Your plugin will be given a `r
 
 ## Update Releases
 
-> Once your plugin has been added to the Plugin Gallery, you can not remove or modify the release package. If you modify the release package, the md5sum will change and the plugin will no longer be downloaded from the Plugin Gallery.
-{:.warning}
-
 Your plugin will only appear in the plugin gallery for software versions with the appropriate `<compatibility>` statements. When a new version of PKP software is released, please test your plugin.
 
 If it is compatible, open a pull request with the additional `<version>` tags in the `<compatibility>` statement. If changes are required to make it compatible, release a new version of your plugin and follow the instructions above to build a new release and add it to the plugin gallery.
+
+> Once your plugin has been added to the Plugin Gallery, you can not remove or modify the release package. If you modify the release package, the md5sum will change and the plugin will no longer be downloaded from the Plugin Gallery.
+{:.warning}
 
 ---
 

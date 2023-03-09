@@ -21,7 +21,3 @@
   * [Get Data from the Template](./examples-get-data-template)
   * [Add Custom Fields](./examples-custom-field)
   * [Add Custom Page](./examples-custom-page)
-  * [Events and Listeners](./example-events)
-  * [Add Editorial Decision](./example-decision)
-  * [Mailgun](https://github.com/Vitaliy-1/mailgun/)
-  * [Extend a Map](./examples-extend-map)

@@ -184,6 +184,141 @@ class Repository
 }
 ```
 
+## Collectors
+
+A `Collector` is a fluent interface for building queries to get a collection of objects. Collectors provide a single, configurable way to mix and match `select`, `where`, `order` and `limit` conditions when fetching data from the database.
+
+Each collector defines the appropriate properties for its entity and compiles them into a `QueryBuilder`. Collectors also provide wrapper methods for several `DAO` methods.
+
+```php
+namespace APP\submission;
+
+use Illuminate\Database\Query\Builder;
+use Illuminate\Support\Facades\DB;
+use PKP\core\interfaces\CollectorInterface;
+
+class Collector implements CollectorInterface
+{
+    public DAO $dao;
+    public ?array $contextIds = null;
+
+    public function __construct(DAO $dao)
+    {
+        $this->dao = $dao;
+    }
+
+    /**
+     * Limit results to submissions in these contexts
+     */
+    public function filterByContextIds(?array $contextIds): Collector
+    {
+        $this->contextIds = $contextIds;
+        return $this;
+    }
+
+    /**
+     * @copydoc CollectorInterface::getQueryBuilder()
+     */
+    public function getQueryBuilder(): Builder
+    {
+        return DB::table('submissions AS s')
+            ->leftJoin('publications AS po', 's.current_publication_id', '=', 'po.publication_id')
+            ->select(['s.*'])
+            ->when(!is_null($this->contextIds), function(Builder $q) {
+                $q->whereIn('s.context_id', $this->contextIds);
+            });
+    }
+
+    /** @copydoc DAO::getCount() */
+    public function getCount(): int
+    {
+        return $this->dao->getCount($this);
+    }
+
+    /** @copydoc DAO::getIds() */
+    public function getIds(): Collection
+    {
+        return $this->dao->getIds($this);
+    }
+
+    /** @copydoc DAO::getMany() */
+    public function getMany(): LazyCollection
+    {
+        return $this->dao->getMany($this);
+    }
+}
+```
+
+Add a method to the `Repository` to get the entity's `Collector`.
+
+```php
+namespace PKP\submission;
+
+class Repository
+{
+    public function getCollector(): Collector
+    {
+        return app(Collector::class);
+    }
+}
+```
+
+Then use the `Collector`'s method chaining to write fluent queries for data.
+
+```php
+use APP\facades\Repo;
+
+$submissions = Repo::submission()
+    ->getCollector()
+    ->filterByContextIds([$contextId])
+    ->getMany();
+```
+
+It should be possible to mix query parameters to build new queries. In the example below, the `Collector` is used to get all unpublished submissions in the review stage that are assigned to the current user and match a given search phrase.
+
+```php
+use APP\facades\Repo;
+use APP\submission\Submission;
+
+$submissions = Repo::submission()
+    ->getCollector()
+    ->filterByStatus([Submission::STATUS_QUEUED])
+    ->filterByStageIds([WORKFLOW_STAGE_ID_EXTERNAL_REVIEW])
+    ->assignedTo([$currentUserId])
+    ->searchPhrase('traditions and trends')
+    ->limit(30)
+    ->getMany();
+```
+
+The `getMany()` method will return [Data Objects](./architecture-entities#dataobject). Consider using the `getIds()` or `getCount()` methods when you can.
+
+```php
+use APP\facades\Repo;
+use PKP\user\Collector;
+
+$userIds = Repo::user()
+    ->getCollector()
+    ->filterByStatus([Collector::STATUS_DISABLED])
+    ->getIds();
+```
+
+Every `Collector` must have a `getQueryBuilder` method that returns a Laravel [Query Builder](https://laravel.com/docs/9.x/queries) with the configured parameters. Use this in plugins or for one-off queries when it's not worth adding a new method to the `Collector`.
+
+```php
+use PKP\submission\Collector;
+
+$collector = new Collector();
+$queryBuilder = $collector
+    ->filterByContextIds([$contextId])
+    ->getQueryBuilder();
+
+$earliestDatePublished = $queryBuilder
+    ->orderBy('date_published', 'asc')
+    ->first('date_published');
+```
+
+## Dependency Injection
+
 A `Repository` is instantiated with Laravel's [Service Container](https://laravel.com/docs/8.x/container). Any arguments in its contructor that have type hints will be resolved through [automatic dependency injection](https://laravel.com/docs/8.x/container#automatic-injection).
 
 ```php
@@ -222,6 +357,66 @@ class AppServiceProvider extends ServiceProvider
         });
     }
 }
+```
+
+## Usage Guidance
+
+Repositories form the bulk of data handling in the application. To keep the code easy to maintain, make sure your code is consistent with the following.
+
+Select the default table's columns in the `getQueryBuilder()` method.
+
+```php
+public function getQueryBuilder(): Builder
+{
+    return DB::table('a')
+        ->select('a.*');
+}
+```
+
+If other columns need to be selected, use `addSelect()`.
+
+```php
+public function getQueryBuilder(): Builder
+{
+    return DB::table('a')
+        ->select('a.*')
+        ->when(!is_null($z), function($q) {
+            $q->leftJoin('b', 'b.id', '=', 'a.id')
+                ->addSelect('b.example');
+        });
+}
+```
+
+Be strict about "falsy" data in the collector. Use `null` types for unset arrays or booleans, rather than empty arrays or false booleans.
+
+```php
+$q->when($this->userGroupIds !== null, function($query) {
+  return $query->whereIn('u.user_id', $this->userGroupids);
+}
+```
+
+This will avoid unexpected situations like the example below.
+
+```php
+// We use two conditions to build up a list of allowed user groups:
+// 1. Get a list of the current user's groups from the database
+$allowedUserGroupsA = [1, 2, 3];
+// 2. Get a list of groups the user has specified via the UI (e.g. checkboxes)
+$allowedUserGroupsB = [4, 5, 6];
+// Combine the two conditions using array_intersect.
+$allowedUserGroups = array_intersect($allowedUserGroupsA, $allowedUserGroupsB);
+// This will result in an empty list, meaning none of the specified user groups were allowed!
+$collector->filterByUserGroupIds($allowedUserGroups);
+// We would expect the DAO to return no results, but it
+// actually returns all results!
+return $dao->getMany($collector);
+```
+
+Avoid unexpected collation/encoding problems by not mixing PHP and SQL string operations where possible.
+
+```diff
+-    $q->where(DB::raw('LOWER(some_column)', '=', strtolower($someValue));
++    $q->whereRaw('LOWER(some_column) = LOWER(?)', [$someValue]);
 ```
 
 ---

@@ -25,7 +25,7 @@ This section makes a few recommendations for running secure servers. However, if
 - Make sure the `files_dir` folder [can not be accessed through the web](#file-permissions).
 - Dedicate a database to the application. Do not share it with other applications on the server.
 - Run antivirus software on the server to prevent users from uploading a compromised file.
-- Configure your server to make automated backups of the database and `files_dir` at regular intervals. We recommend a backup for every day in the last 7 days, one per week for the last 4 weeks, and one per month for the last 12 months. View the [upgrade guide](http://localhost:4000/dev/upgrade-guide/en/) for more complete backup instructions.
+- Configure your server to make automated backups of the database and `files_dir` at regular intervals. We recommend a backup for every day in the last 7 days, one per week for the last 4 weeks, and one per month for the last 12 months. View the [upgrade guide](/dev/upgrade-guide/en/) for more complete backup instructions.
 - Keep the web server regularly updated with all security patches.
 - Practice good password management: don’t use the same username/password to access the application as you would for any other online account, and don’t use an easy to guess password.
 - Treat everything that you get online with the knowledge that you received it from someone you don’t know, and act likewise. If a submission appears to be suspicious for any reason (strange email address, suspiciously generic title or abstract, etc.), treat the included files with an additional level of diligence.

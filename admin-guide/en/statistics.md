@@ -41,7 +41,7 @@ Statistics are collected for different kinds of data and can be accessed in seve
 | [Issues](#issues)                         | Views and downloads (OJS)                                                              | ✔   | ✔   | ✔    |
 | [Homepage](#homepage)                     | Views of the homepage of the journal, press or preprint server.                        | ✔   | ✔   | ✔    |
 | [Geography](#geography)                   | Views by country, region and city                                                      | ✔   | ✔   | ✔    |
-| [COUNTER 5 SUSHI](#counter-5-sushi)       | An industry-recognized format for distributing usage statistics.                       | ✘   | ✘   | ✔    |
+| [COUNTER](#counter)       | An industry-recognized format for distributing usage statistics.                       | ✘   | ✘   | ✔    |
 | [Editorial Activity](#editorial-activity) | Number of submissions accepted and rejected, the average time to a decision, and more. | ✔   | ✘   | ✘    |
 | [Users](#user)                            | User profiles and roles.                                                               | ✘   | ✔   | ✘    |
 | [Reviews](#reviews)                       | Reviewer names, due dates, and comments for all review assignments                     | ✘   | ✔   | ✘    |
@@ -102,15 +102,13 @@ Follow these steps to download a CSV file with the number of views and downloads
 
 Geographic statistics can also be accessed in JSON format through the [REST API](/dev/api/).
 
-### COUNTER 5 SUSHI
+### COUNTER
 
-The [COUNTER 5 SUSHI](https://www.projectcounter.org/counter-sushi/) protocol is an industry-recognized format for distributing usage statistics. Follow these steps to download the protocol's Journal Report 1 and Article Report 1.
+[COUNTER](https://www.projectcounter.org/) sets standards for our how usage statistics should be calculated and distributed. Statistics matching the [COUNTER 5 SUSHI](https://www.projectcounter.org/counter-sushi/) protocol can be downloaded through the [REST API](/dev/api). Statistics matching the [COUNTER 4](https://www.projectcounter.org/code-of-practice-sections/archived-code-of-practice-release-4/) protocol (Journal Report 1 and Article Report 1) can be downloaded by following these steps.
 
 1. Login as an administrator or manager.
 2. Click **Statistics** > **Reports**.
 3. Click **COUNTER Reports**.
-
-COUNTER 5 SUSHI statistics can also be accessed in JSON format through the [REST API](/dev/api/).
 
 ### Editorial Activity
 

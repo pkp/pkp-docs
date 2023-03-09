@@ -1,8 +1,7 @@
 ---
-title: Templates - Plugin Guide for OJS, OMP and OPS
-description: How to use and override templates in your OJS, OMP or OPS plugin.
+title: Templates - Plugin Guide for OJS and OMP
 book: dev-plugin-guide
-version: 3.4
+version: 3.3
 ---
 
 # Templates
@@ -31,8 +30,6 @@ ojs
 The `getTemplateResource()` method is available to every plugin. Use it to load a template in the plugin's template directory.
 
 ```php
-use APP\template\TemplateManager;
-
 $templateMgr = TemplateManager::getManager($request);
 $templateMgr->display($this->getTemplateResource('example.tpl'));
 ```
@@ -57,39 +54,30 @@ ojs
 │     └── version.xml
 ```
 ```php
-use APP\template\TemplateManager;
-
 $templateMgr = TemplateManager::getManager($request);
 $templateMgr->display($this->getTemplateResource('settings/index.tpl'));
 ```
 
 ## Override templates
 
+By default, a template file in a theme plugin that matches the path of a template file in the application will override it. You can grant this ability to any plugin.
+
 > Learn more about [template overrides](/pkp-theming-guide/en/html-smarty).
 {:.notice}
-
-By default, a template file in a theme plugin that matches the path of a template file in the application will override it. You can grant this ability to any plugin.
 
 Add a hook during registration to allow a plugin's templates to override templates in the application.
 
 ```php
-<?php
-namespace APP\plugins\generic\tutorialExample;
-
-use PKP\plugins\GenericPlugin;
-use PKP\plugins\Hook;
-
-class TutorialExamplePlugin extends GenericPlugin
-{
-    public function register($category, $path, $mainContextId = NULL)
-    {
-        $success = parent::register($category, $path);
-        if ($success && $this->getEnabled()) {
-            Hook::add('TemplateResource::getFilename', [$this, '_overridePluginTemplates']);
-        }
-
-        return $success;
-    }
+import('lib.pkp.classes.plugins.GenericPlugin');
+class TemplateOverrideExamplePlugin extends GenericPlugin {
+	public function register($category, $path, $mainContextId = NULL) {
+		$success = parent::register($category, $path);
+ 		if ($success && $this->getEnabled()) {
+			HookRegistry::register('TemplateResource::getFilename', array($this, '_overridePluginTemplates'));
+		}
+		return $success;
+	}
+}
 ```
 
 Any template that matches the path and filename of an application's template will override it. In the example below, the plugin overrides the application's `common/footer.tpl` template.
