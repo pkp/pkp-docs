@@ -30,7 +30,7 @@ class DAO extends EntityDAO
 }
 ```
 
-The `EntityDAO` provides helper methods to read/write objects based on the [schema](http://localhost:4000/dev/documentation/en/architecture-entities#schema).
+The `EntityDAO` provides helper methods to read/write objects based on the [schema](./architecture-entities#schema).
 
 ```php
 namespace PKP\publication;
