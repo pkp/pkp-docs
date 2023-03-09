@@ -23,3 +23,4 @@
   * [Add Custom Page](./examples-custom-page)
   * [Events and Listeners](./example-events)
   * [Add Editorial Decision](./example-decision)
+  * [Mailgun](https://github.com/Vitaliy-1/mailgun/)

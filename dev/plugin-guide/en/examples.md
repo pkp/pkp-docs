@@ -16,4 +16,5 @@ Plugins can be put to a wide variety of uses. The examples below show you how to
 - [Add Custom Fields](./examples-custom-field) - How to modify an existing settings form to add a new setting.
 - [Add Custom Page](./examples-custom-page) - How to create a custom page with it's own URL and load it in the backend.
 - [Events and Listeners](./example-events) - How to use listeners to subscribe to events in the core application.
-- [Add Editorial Decision](./examples-decision)
+- [Add Editorial Decision](./examples-decision) - How to add, edit or remove an editorial decision to customize the workflow.
+- [Mailgun](https://github.com/Vitaliy-1/mailgun/) - An example plugin to send outgoing email through the Mailgun service.
