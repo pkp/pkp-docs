@@ -22,3 +22,4 @@
   * [Add Custom Fields](./examples-custom-field)
   * [Add Custom Page](./examples-custom-page)
   * [Events and Listeners](./example-events)
+  * [Add Editorial Decision](./example-decision)
