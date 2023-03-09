@@ -1,15 +1,14 @@
 ---
-title: Translation - Plugin Guide for OJS, OMP and OPS
-description: How to support multiple languages in your OJS, OMP or OPS plugin.
+title: Translation - Plugin Guide for OJS and OMP
 book: dev-plugin-guide
-version: 3.4
+version: 3.3
 ---
 
 # Translation
 
-Plugins should support more than one language. This allows them to work if the application is run in more than one language, or when the plugin is published for others to use.
+Plugins should support more than one language. This allows them to work if you run OJS or OMP in more than one language, or if you want to share your plugin so that others can use it.
 
-A plugin should include locale files for every language that it supports.The example below shows where the English and French (Canada) locale files are stored.
+Translations are managed by adding locale files for every language that you support. The example below shows where the English (U.S) and French (Canada) locale files are stored.
 
 ```
 ojs
@@ -21,17 +20,18 @@ ojs
 │   └─┬ tutorialExample
 │     │
 │     ├─┬ locale
-│     │ ├─┬ en
+│     │ ├─┬ en_US
 │     │ │ └── locale.po
 │     │ └─┬ fr_CA
 │     │   └── locale.po
+│     ├── index.php
 │     └── TutorialExamplePlugin.php
 │     └── version.xml
 ```
 
 The locale file defines the language and any messages that should be translated.
 
-```
+```po
 msgid "plugins.generic.tutorialExample.name"
 msgstr "Tutorial Example"
 
@@ -39,28 +39,23 @@ msgid "plugins.generic.tutorialExample.description"
 msgstr "This plugin is an example created for a tutorial on how to create a plugin."
 ```
 
-Call the `__()` function to use a message in your plugin.
+Then use the `__()` function to get a message in your plugin.
 
 ```php
-namespace APP\plugins\generic\tutorialExample;
+import('lib.pkp.classes.plugins.GenericPlugin');
+class TutorialExamplePlugin extends GenericPlugin {
 
-use PKP\plugins\GenericPlugin;
+  public function getDisplayName() {
+		return __('plugins.generic.tutorialExample.name');
+	}
 
-class TutorialExamplePlugin extends GenericPlugin
-{
-    public function getDisplayName()
-    {
-        return __('plugins.generic.tutorialExample.name');
-    }
-
-    public function getDescription()
-    {
-        return __('plugins.generic.tutorialExample.description');
-    }
+	public function getDescription() {
+		return __('plugins.generic.tutorialExample.description');
+	}
 }
 ```
 
-In templates, call the `{translate ...}` function to use localized messages.
+Use the `{translate ...}` smarty function to get locale messages in your templates.
 
 ```php
 <h1>{translate key="plugins.generic.tutorialExample.name"}</h1>

@@ -1,5 +1,7 @@
 ---
-title: Example - Get Data from the Template - Plugin Guide for OJS and OMP
+title: Example - Get Data from the Template - Plugin Guide for OJS, OMP and OPS
+book: dev-plugin-guide
+version: 3.4
 ---
 
 # Get Data from the Template
@@ -31,39 +33,49 @@ However, you first need to retrieve the `issueInternalId` from the plugin settin
 4. Assign the `issueInternalId` for use in the plugin's custom template.
 
 ```php
-class InternalIssueIdPlugin extends GenericPlugin {
+namespace APP\plugins\generic\internalIssueId;
 
-	public function register($category, $path, $mainContextId = null) {
-		$success = parent::register($category, $path, $mainContextId);
-		if ($success && $this->getEnabled()) {
+use APP\core\Application;
+use APP\issue\Issue;
+use APP\template\TemplateManager;
+use PKP\plugins\GenericPlugin;
+use PKP\plugins\Hook;
 
-      // 1. Hook in before the template is displayed...
-      HookRegistry::register('TemplateManager::display',array(&$this, 'addIssueInternalId'));
-		}
-		return $success;
-  }
+class InternalIssueIdPlugin extends GenericPlugin
+{
+    public function register($category, $path, $mainContextId = null) {
+        $success = parent::register($category, $path, $mainContextId);
+        if ($success && $this->getEnabled()) {
 
-  public function addIssueInternalId($hookName, $args) {
-    $templateMgr = $args[0];
-    $template = $args[1];
-    $contextId = Application::get()->getRequest()->getContext()->getId();
-
-    // 1. ...only when it is the issue template.
-    if ($template !== 'frontend/pages/issue.tpl') {
-      return false;
+            // 1. Hook in before the template is displayed...
+            Hook::add('TemplateManager::display',[$this, 'addIssueInternalId']);
+        }
+        return $success;
     }
 
-    // 2. Get the `issue` object from the assigned template variables.
-    $issue = $templateMgr->getTemplateVars('issue');
+    public function addIssueInternalId($hookName, $args)
+    {
+        $templateMgr = $args[0]; /** @var TemplateManager */
+        $template = $args[1]; /** @var string */
+        $contextId = Application::get()->getRequest()->getContext()->getId();
 
-    // 3. Get the matching plugin setting.
-    $internalIssueId = $this->getSetting($contextId, 'issueInternalId' . $issue->getId());
+        // 1. ...only when it is the issue template.
+        if ($template !== 'frontend/pages/issue.tpl') {
+            return false;
+        }
 
-    // 4. Assign the internal issue id for use in the template.
-		$templateMgr->assign('internalIssueId', $internalIssueId);
+        // 2. Get the `issue` variable from the assigned template variables.
+        /** @var Issue $issue */
+        $issue = $templateMgr->getTemplateVars('issue');
 
-		return false;
-  }
+        // 3. Get the matching plugin setting.
+        $internalIssueId = $this->getSetting($contextId, 'issueInternalId' . $issue->getId());
+
+        // 4. Assign the internal issue id for use in the template.
+        $templateMgr->assign('internalIssueId', $internalIssueId);
+
+        return false;
+    }
 }
 ```
 

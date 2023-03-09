@@ -1,15 +1,18 @@
 ---
-title: Getting Started - Plugin Guide for OJS and OMP
+title: Getting Started - Plugin Guide for OJS, OMP and OPS
+description: A step-by-step tutorial to create your first plugin for Open Journal System (OJS), Open Monograph Press (OMP), or Open Preprint Systems (OPS).
+book: dev-plugin-guide
+version: 3.4
 ---
 
 # Getting Started
 
-In this guide, we will create a generic plugin that we will call the Tutorial Example.
-
-> Download a working example of [the plugin](https://github.com/pkp/tutorialExample) we will build in this tutorial from GitHub.
+> View the [example plugin](https://github.com/pkp/tutorialExample) that will be built in this tutorial.
 {:.notice}
 
-A plugin stores all of its files in one directory in OJS or OMP. Our example plugin will be a `generic` plugin, so we put it in that directory. Every plugin requires three files.
+This step-by-step tutorial will describe how to create a generic plugin called the "Tutorial Example Plugin". This plugin will be created for OJS, but the same steps can be followed to create a plugin for OMP or OPS.
+
+Create a directory for the plugin at `plugins/generic/tutorialExample` and create the following files in that directory.
 
 ```
 ojs
@@ -19,86 +22,76 @@ ojs
 │ └─┬ generic
 │   │
 │   └─┬ tutorialExample
-│     ├── index.php
-│     └── TutorialExamplePlugin.php
+│     ├── TutorialExamplePlugin.php
 │     └── version.xml
 ```
 
-> The directory name must be letters and numbers. No spaces, `-`, or `_` characters are allowed.
-{:.tip}
+The directory name must be letters and numbers. No spaces, `-`, or `_` characters are allowed.
+
+## TutorialExamplePlugin.php
+
+Every plugin must have a class which registers and runs the plugin. The file and class name must match the directory name, capitalize the first letter, and add the phrase `Plugin` at the end. So the directory `tutorialExample` would require a class named `TutorialExamplePlugin` in a file named `TutorialExamplePlugin.php`.
+
+```php
+<?php
+namespace APP\plugins\generic\tutorialExample;
+
+use PKP\plugins\GenericPlugin;
+
+class TutorialExamplePlugin extends GenericPlugin
+{
+    public function register($category, $path, $mainContextId = NULL)
+    {
+        // Register the plugin even when it is not enabled
+        $success = parent::register($category, $path);
+
+        if ($success && $this->getEnabled()) {
+            // Do something when the plugin is enabled
+        }
+
+        return $success;
+    }
+
+    /**
+     * Provide a name for this plugin
+     *
+     * The name will appear in the Plugin Gallery where editors can
+     * install, enable and disable plugins.
+     */
+    public function getDisplayName()
+    {
+        return 'Tutorial Example';
+    }
+
+    /**
+     * Provide a description for this plugin
+     *
+     * The description will appear in the Plugin Gallery where editors can
+     * install, enable and disable plugins.
+     */
+    public function getDescription()
+    {
+        return 'This plugin is an example created for a tutorial on how to create a plugin.';
+    }
+}
+```
 
 ## version.xml
 
-The `version.xml` provides information required to load the plugin.
+The `version.xml` provides information required to load the plugin. The `<application>` must match the directory name. The `<type>` must be the plugin's [category](./categories).
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
 <version>
-	<application>tutorialExample</application>
-	<type>plugins.generic</type>
-	<release>0.1.0.0</release>
-	<date>2019-05-15</date>
-	<lazy-load>1</lazy-load>
-	<class>TutorialExamplePlugin</class>
+    <application>tutorialExample</application>
+    <type>plugins.generic</type>
+    <release>1.0.0.0</release>
+    <date>2023-05-15</date>
 </version>
 ```
 
-The `<application>` must match the directory name. The `<type>` must be the plugin's [category](./categories). The `<class>` must match the plugin's class name.
-
-## TutorialExamplePlugin.php
-
-Every plugin must have a class which registers and runs the plugin.
-
-```php
-<?php
-import('lib.pkp.classes.plugins.GenericPlugin');
-class TutorialExamplePlugin extends GenericPlugin {
-	public function register($category, $path, $mainContextId = NULL) {
-
-    // Register the plugin even when it is not enabled
-    $success = parent::register($category, $path);
-
-		if ($success && $this->getEnabled()) {
-      // Do something when the plugin is enabled
-    }
-
-		return $success;
-	}
-
-  /**
-   * Provide a name for this plugin
-   *
-   * The name will appear in the plugins list where editors can
-   * enable and disable plugins.
-   */
-	public function getDisplayName() {
-		return 'Tutorial Example';
-	}
-
-	/**
-   * Provide a description for this plugin
-   *
-   * The description will appear in the plugins list where editors can
-   * enable and disable plugins.
-   */
-	public function getDescription() {
-		return 'This plugin is an example created for a tutorial on how to create a plugin.';
-	}
-}
-```
-
-## index.php
-
-The `index.php` file is required to load the correct plugin class.
-
-```php
-<?php
-require_once('TutorialExamplePlugin.php');
-return new TutorialExamplePlugin();
-```
-
-Go to Settings > Website > Plugins and try to enable and disable your plugin. If there is an error when enabling it, check your plugin against the [working example](https://github.com/pkp/tutorialExample)
+Go to Settings > Website > Plugins and try to enable and disable your plugin. If there is an error when enabling it, check your plugin against the [working example](https://github.com/pkp/tutorialExample).
 
 ---
 

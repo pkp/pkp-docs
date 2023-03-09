@@ -12,6 +12,9 @@ crossref-ojs-manual:
 dev-documentation:
   3.4: /dev/documentation/en
   3.3: /dev/documentation/3.3/en
+dev-plugin-guide:
+  3.4: /dev/plugin-guide/en
+  3.3: /dev/plugin-guide/3.3/en
 importing-exporting:
   current: /importing-exporting/en/
   3.0: /importing-exporting/3.0/en/
