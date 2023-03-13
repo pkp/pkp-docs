@@ -1,6 +1,5 @@
 ---
 title: Before launching your journal
-showPageTOC: true
 ---
 
 Before launching your journal and inviting submissions or publishing content, we recommend setting some policies and guidelines to articulate how your journal will function.
