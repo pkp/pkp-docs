@@ -279,9 +279,18 @@ To add publication formats, click __Add publication format__.
 
 ![The Add publication format button.](./assets/learning-omp3.2-workflow-production-formats-1.png)
 
-Enter the format title, select format from the drop-down list and select the option that applies. Click OK to save.
+Enter the format title, select format from the drop-down list and select the option that applies. Add ISBN 13 or ISBN 10, as applies. Click OK to save.
 
-![Sample new publication format information entered in the upload form.](./assets/learning-omp3.2-workflow-production-formats-2.png)
+![Sample new publication format information entered in the upload form.](./assets/learning-omp3.4-workflow-production-formats.png)
+
+##### Edit Format Metadata
+
+Use the metadata tab to enter further details about the format, including specific product information (ID codes, sales rights, composition, availability, dimensions, etc).
+
+![Metadata fields that can be completed in the metadata tab](./assets/learning-omp3.4-workflow-production-formats-metadata-1.png)
+
+![Additional metadata fields that can be completed in the metadata tab](./assets/learning-omp3.4-workflow-production-formats-metadata-2.png)
+
 
 ##### Add Publication Format files
 
