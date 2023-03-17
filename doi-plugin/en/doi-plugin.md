@@ -1,3 +1,8 @@
+---
+title: DOI Plugin
+showPageTOC: true
+---
+
 # DOI Plugin
 
 The DOI Plugin assigns DOIs to publications. It can be configured to assign DOIs automatically or manually. The plugin will also generate and display the DOIs on the publication's landing page.  
