@@ -13,7 +13,7 @@ PKP's applications support multilingual publishing. This means the application c
 
 ## Translations
 
-Every word or phrase used in the application is stored in a `.po` file. The following example shows part of the `locale/en_US/common.po` file.
+Every word or phrase used in the application is stored in a `.po` file. The following example shows part of the `locale/en/common.po` file.
 
 ```
 msgid "common.cancel"
@@ -178,7 +178,7 @@ use PKP\facades\Locale;
 
 $locale = Locale::getLocale();
 
-// result: "en_US"
+// result: "en"
 ```
 
 Change the active locale.
@@ -186,7 +186,7 @@ Change the active locale.
 ```php
 use PKP\facades\Locale;
 
-Locale::setLocale('en_US');
+Locale::setLocale('en');
 ```
 
 Get information about a locale, such as its display name, country, language, script, and direction. The following example shows the name of the English language in the German language.
@@ -194,7 +194,7 @@ Get information about a locale, such as its display name, country, language, scr
 ```php
 use PKP\facades\Locale;
 
-$localeMetadata = Locale::getMetadata('en_US');
+$localeMetadata = Locale::getMetadata('en');
 echo $localeMetadata->getDisplayName('de_DE');
 
 // result: Englisch

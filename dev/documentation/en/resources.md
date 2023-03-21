@@ -6,14 +6,14 @@ title: Resources - Technical Documentation - OJS|OMP|OPS
 
 # Resources
 
-A collection of resources that may help you while coding with OJS and OMP.
+A collection of resources that may help you while coding with these applications.
 
 ## CacheBuster
 
-This plugin will [clear the template and CSS cache](https://github.com/NateWr/cacheBuster) with every request. Enable it so that you don't have to manually clear the cache every time you make a change.
-
 > Don't enable this on a production site. It will slow down your site.
 {:.warning}
+
+This plugin will [clear the template and CSS cache](https://github.com/NateWr/cacheBuster) with every request. Enable it so that you don't have to manually clear the cache every time you make a change.
 
 ## Postman API
 

@@ -6,22 +6,23 @@ title: Getting Started - Technical Documentation - OJS|OMP|OPS
 
 # Getting Started
 
-This section will describe how to install the application, contribute changes, and stay up-to-date with the latest changes.
-
 > This guide assumes that you know how to run a local server, work with git version control and run tools from the command line.
 {:.warning}
 
-## Technical Requirements
+This section will describe how to install the application in a local development environment and stay up-to-date with the latest changes.
 
-The Admin Guide describes the [system requirements](../../../admin-guide/en/requirements). When running locally, it is not necessary to have an email server, an `.htaccess` file, or support for cron jobs.
+## System Requirements
 
-If you are using Windows, you may need to install GNU Patch and add it to your system's `PATH` environment variable.
+> If you are using Windows, you may need to install GNU Patch and add it to your system's `PATH` environment variable.
+{:.notice}
+
+The Admin Guide describes the [system requirements](../../../admin-guide/en/requirements). When running locally, many of the recommended dependencies are not required.
 
 ## Install
 
-Fork and clone the [OJS](https://github.com/pkp/ojs), [OMP](https://github.com/pkp/omp), or [OPS](https://github.com/pkp/ops) repository on GitHub. (How to [fork and clone a repository on GitHub](https://help.github.com/en/articles/fork-a-repo).)
+Fork and clone the [OJS](https://github.com/pkp/ojs), [OMP](https://github.com/pkp/omp), or [OPS](https://github.com/pkp/ops) repository on GitHub. If you're not sure how, read how to [fork and clone a repository](https://help.github.com/en/articles/fork-a-repo) on GitHub.
 
-From your terminal, navigate to the application's root directory and run the following command to check out the submodules:
+Once the application is cloned to your local system, navigate to the application's root directory in your terminal and run the following command to check out the submodules.
 
 ```
 git submodule update --init --recursive
@@ -45,7 +46,7 @@ password = <pass>
 name = <db>
 ```
 
-Find the `[email]` settings in the config file and send mails to the server `log`.
+Find the `[email]` settings in the config file and route emails to the server `log` or a [local SMTP server](./resources#log-emails).
 
 ```
 [email]
@@ -54,8 +55,6 @@ Find the `[email]` settings in the config file and send mails to the server `log
 ; Available options: sendmail, smtp, log
 default = log
 ```
-
-You can also set up a [local SMTP server](http://localhost:4000/dev/documentation/en/resources#log-emails) catch emails.
 
 Install dependencies with [composer](https://getcomposer.org/).
 
@@ -70,7 +69,7 @@ Run the following command if you are installing OJS or OMP.
 composer --working-dir=plugins/generic/citationStyleLanguage install
 ```
 
-Install dependencies with [NPM](https://www.npmjs.com/).
+Install dependencies and build the JavaScript package with [NPM](https://www.npmjs.com/).
 
 ```
 npm install
@@ -177,7 +176,7 @@ php tools/upgrade.php upgrade
 
 ## Contributions
 
-The [Contributor's Guide](https://docs.pkp.sfu.ca/dev/contributors) to learn more about [how to prepare a pull request](https://docs.pkp.sfu.ca/dev/contributors/#code-contributions).
+Read the [Contributor's Guide](https://docs.pkp.sfu.ca/dev/contributors) to learn more about [how to prepare a pull request](https://docs.pkp.sfu.ca/dev/contributors/#code-contributions).
 
 ---
 

@@ -55,7 +55,7 @@ mysql> select * from journal_settings where journal_id=1 and setting_name='suppo
 +------------+--------+----------------------------+-------------------+--------------+
 | journal_id | locale | setting_name               | setting_value     | setting_type |
 +------------+--------+----------------------------+-------------------+--------------+
-|          1 |        | supportedLocales           | ["en_US","fr_CA"] | NULL         |
+|          1 |        | supportedLocales           | ["en","fr_CA"]    | NULL         |
 +------------+--------+----------------------------+-------------------+--------------+
 ```
 
@@ -68,7 +68,7 @@ mysql> select * from journal_settings where setting_name="name";
 +------------+--------+--------------+--------------------------------------+
 | journal_id | locale | setting_name | setting_value                        |
 +------------+--------+--------------+--------------------------------------+
-|          1 | en_US  | name         | Journal of Public Knowledge          |
+|          1 | en     | name         | Journal of Public Knowledge          |
 |          1 | fr_CA  | name         | Journal de la connaissance du public |
 +------------+--------+--------------+--------------------------------------+
 ```
