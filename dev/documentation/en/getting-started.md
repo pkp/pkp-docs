@@ -35,6 +35,28 @@ cp config.TEMPLATE.inc.php config.inc.php
 
 Open the `config.inc.php` file, find the database settings, and update them to match the credentials for your SQL server.
 
+```
+[database]
+
+driver = <driver>   # mysql or postgres9
+host = <host>       # usually `localhost`
+username = <user>
+password = <pass>
+name = <db>
+```
+
+Find the `[email]` settings in the config file and send mails to the server `log`.
+
+```
+[email]
+
+; Default method to send emails
+; Available options: sendmail, smtp, log
+default = log
+```
+
+You can also set up a [local SMTP server](http://localhost:4000/dev/documentation/en/resources#log-emails) catch emails.
+
 Install dependencies with [composer](https://getcomposer.org/).
 
 ```
