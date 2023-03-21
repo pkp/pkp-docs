@@ -27,5 +27,7 @@ readme_index:
 include:
   - _all-skins.css # For the SchemaSpy database documentation (Jekyll excludes files that start with _)
   - _all-skins.min.css # For the SchemaSpy database documentation (Jekyll excludes files that start with _)
+exclude:
+  - dev/ui-library/**/*.md # For the Readme.md files included in the fonts directory (Jekyll will try to make a page out of it)
 plugins:
   - jekyll-sitemap
