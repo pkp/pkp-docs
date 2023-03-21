@@ -66,7 +66,7 @@ $copyrightYear = $publication->getData('copyrightYear');
 Multilingual data stores unique values for each locale. Get the value for a specific locale.
 
 ```php
-$title = $publication->getLocalizedData('title', 'en_US');
+$title = $publication->getLocalizedData('title', 'en');
 ```
 
 Omit the locale to get the value for the user's currently active locale, or to fall back to the default locale.
@@ -82,7 +82,7 @@ Set localized data by passing all locales at once.
 
 ```php
 $publication->setData('title', [
-  "en_US" => "Traditions and Trends in the Study of the Commons",
+  "en" => "Traditions and Trends in the Study of the Commons",
   "fr_CA" => "Traditions et tendances de l'étude des biens communs",
 ]);
 ```
@@ -90,7 +90,7 @@ $publication->setData('title', [
 Or specify a locale code when you set the data.
 
 ```php
-$journal->setData('title', 'Traditions and Trends in the Study of the Commons', 'en_US');
+$journal->setData('title', 'Traditions and Trends in the Study of the Commons', 'en');
 ```
 
 A `DataObject` class may add helper methods to return formatted data. For example, the `Issue` class provides a method that will return a string with the volume, number, year and title.
@@ -99,7 +99,7 @@ A `DataObject` class may add helper methods to return formatted data. For exampl
 $issue->setData('volume', 3);
 $issue->setData('number', 2);
 $issue->setData('year', 1983);
-$issue->setData('title', 'Special Issue on Microorganisms', 'en_US');
+$issue->setData('title', 'Special Issue on Microorganisms', 'en');
 
 echo $issue->getIssueIdentification();
 // Vol 3 No 2 (1983) Special Issue on Microorganisms
@@ -156,7 +156,7 @@ The application will support the expected property type for each enabled locale.
 ```json
 {
   "title": {
-    "en_US": "Traditions and Trends in the Study of the Commons",
+    "en": "Traditions and Trends in the Study of the Commons",
     "fr_CA": "Traditions et tendances de l'étude des biens communs"
   }
 }

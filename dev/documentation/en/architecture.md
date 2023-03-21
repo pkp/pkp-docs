@@ -8,10 +8,7 @@ title: Architecture - Technical Documentation - OJS|OMP|OPS
 
 The chapters in this section each describe a part of the application architecture. Together they provide an overview of how requests to the application are authorized, how data is saved and retrieved from the database, and how responses are returned.
 
-These chapters provide an introduction to how the application works. You may need to read the code to learn more about each component. But after reading these chapters you should have an idea of where to look.
-
-> Some of the code in OJS and OMP is more than ten years old. You may find parts of the application code that do not conform to coding conventions in this document. This guide describes the architecture which all new contributions should follow.
-{:.notice}
+Some of the code in OJS, OMP and OPS is more than ten years old. You may find code that does not conform to the coding conventions described in this document. However, all new code contributions should follow the conventions in this guide.
 
 ## Modules
 
@@ -30,10 +27,11 @@ ojs
 └── plugins         # Official and third-party plugins
 ```
 
-A class in OJS or OMP will often extend a class in the [base library](https://github.com/pkp/pkp-lib/). For example, in OJS we use the `Submission` class which extends the `PKPSubmission` class.
+A class will often extend a class in the [base library](https://github.com/pkp/pkp-lib/). For example, in OJS we use the `Submission` class which extends the `PKPSubmission` class.
 
 ```php
-import('lib.pkp.classes.submission.PKPSubmission');
+use PKP\submission\PKPSubmission;
+
 class Submission extends PKPSubmission {
   ...
 }
@@ -55,11 +53,11 @@ ojs
         └── PKPSubmission.php
 ```
 
-The same approach is used in OMP.
+The same approach is used in OMP and OPS.
 
 ## Contexts
 
-We use the term `Context` to describe a `Journal` (OJS) or `Press` (OMP). To reuse code across both applications, you will often see code that refers to the context.
+We use the term `Context` to describe a journal in OJS, a press in OMP, and a preprint server in OPS. To reuse code across all applications, we often refer to the context.
 
 ```php
 use APP\core\Application;
@@ -67,7 +65,7 @@ use APP\core\Application;
 $context = Application::get()->getRequest()->getContext();
 ```
 
-This always refers to the `Journal` (OJS) or `Press` (OMP) object. It is identical to the following code.
+This always refers to the `Journal`, `Press`, or `Server` object. It is identical to the following code.
 
 ```php
 use APP\core\Application;
@@ -75,7 +73,7 @@ use APP\core\Application;
 $journal = Application::get()->getRequest()->getJournal();
 ```
 
-A single instance of OJS can run many journals. It is important to restrict requests for submissions, users and other objects in the system by the context.
+A single instance of OJS, OMP, or OPS can run many journals, presses or preprint servers. It is important to restrict requests for submissions, users and other objects by the context.
 
 ```php
 use APP\core\Application;
