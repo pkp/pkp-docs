@@ -60,13 +60,13 @@ Install dependencies with [composer](https://getcomposer.org/).
 
 ```
 composer --working-dir=lib/pkp install
-composer --working-dir=plugins/paymethod/paypal install
+composer --working-dir=plugins/generic/citationStyleLanguage install
 ```
 
 Run the following command if you are installing OJS or OMP.
 
 ```
-composer --working-dir=plugins/generic/citationStyleLanguage install
+composer --working-dir=plugins/paymethod/paypal install
 ```
 
 Install dependencies and build the JavaScript package with [NPM](https://www.npmjs.com/).
