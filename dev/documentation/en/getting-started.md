@@ -9,7 +9,7 @@ title: Getting Started - Technical Documentation - OJS|OMP|OPS
 > This guide assumes that you know how to run a local server, work with git version control and run tools from the command line.
 {:.warning}
 
-This section will describe how to install the application in a local development environment and stay up-to-date with the latest changes.
+This section will describe how to install the application in a local development environment and stay up-to-date with the latest changes. It is intended for developers who want to work with the source code. Read the [Admin Guide](../../../admin-guide/) to learn how to install and host the application in a production environment.
 
 ## System Requirements
 
