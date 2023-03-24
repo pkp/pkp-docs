@@ -73,6 +73,7 @@ Organizations/journals from the following countries (as identified by [Crossrefâ
 - Solomon Islands
 - Somalia
 - South Sudan
+- Sri Lanka
 - Sudan
 - Tajikistan
 - Tanzania
