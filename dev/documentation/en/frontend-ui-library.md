@@ -270,6 +270,60 @@ $templateMgr->setState([
 
 Consult the [UI Library](/dev/ui-library/dev/#/component/Page) for a list of available page components.
 
+## Smarty and Vue.js
+
+Smarty and Vue.js template syntax conflicts in some cases. This can cause errors that need to be worked around. For example, Smarty doesn't like self-closing tags for Vue.js components.
+
+```html
+<pkp-form :id="formId" />
+```
+
+Always use a closing tag in Smarty templates.
+
+```html
+<pkp-form :id="formId"></pkp-form>
+```
+
+Smarty templates are not case-sensitive, so camel-case prop and event names won't work for Vue.js components.
+
+```html
+<pkp-button
+	:isWarning="true"
+	@wasClicked="cancel"
+>
+	Cancel
+</pkp-button>
+```
+
+Use kebab-case for all prop names and `:` for event names.
+
+```html
+<pkp-button
+	:is-warning="true"
+	@clicked:button="cancel"
+>
+	Cancel
+</pkp-button>
+```
+
+Smarty templates use single brackets (`{` and `}`) for PHP variables and helper functions. This conflicts with the single brackets in Vue.js's scoped slot syntax.
+
+```html
+<li slot-scope="{item}">
+	{% raw %}{{ item.name }}{% endraw %}
+</li>
+```
+
+Use the Smarty helpers `{ldelim}` and `{rdelim}` instead of a single bracket.
+
+```
+<li slot-scope="{ldelim}item{rdelim}">
+	{% raw %}{{ item.name }}{% endraw %}
+</li>
+```
+
+The double bracket syntax in Vue.js templates (`{% raw %}{{ example }}{% endraw %}`) works without any changes.
+
 ## Reference
 
 The [UI Library](/dev/ui-library/dev) provides a demo, technical specification and usage guidance for each component. It also provides important documentation on utilities such as the [event bus](/dev/ui-library/dev/#/pages/event-bus), [localization](/dev/ui-library/dev/#/pages/localization), and more.
