@@ -110,6 +110,10 @@ The usage event will be dispatched when a user visits one of the following pages
 | Chapter | The webpage for the chapter of a published book (OMP). |
 | Series | The webpage of a series in the catalog of a press (OMP). |
 
+## Best Practices
+
+Since the `UsageEvent` is dispatched every time someone visits the website, any task performed in the event or listener will slow down the site. Never access the database, load data, make a HTTP request, or perform any resource intensive task in the event or listener. Add the smallest amount of data that you need to the log and keep all other tasks in a job or scheduled task.
+
 ## Understanding the database tables
 
 Statistics are initially processed into the `*_temporary_records` tables of the database. These are then compiled into the final `metrics_*` tables.
@@ -120,7 +124,7 @@ Read a description of these tables in the [database reference](/dev/database/).
 
 Several service classes are available to access the compiled metrics data for submissions, files, geographic regions, institutions and more. Use these classes instead of going directly to the metrics tables.
 
-For example, get a list of the most viewed submissions.
+For example, get a list of the most viewed publications.
 
 ```php
 $totals = Services::get('publicationStats')->getTotals([
@@ -128,7 +132,85 @@ $totals = Services::get('publicationStats')->getTotals([
 ]);
 ```
 
-The following service classes are available.
+This will return an array of submission IDs and totals.
+
+```
+[
+    [0] => stdClass Object
+        (
+            [submission_id] => 5
+            [metric] => 1102
+        )
+    [1] => stdClass Object
+        (
+            [submission_id] => 6
+            [metric] => 875
+        )
+    ...
+]
+```
+
+The method accepts several arguments to filter submissions by date, section, or a search phrase. For example, here is how to get a list of the top 10 publications of a journal by total visits in March 2022.
+
+```php
+$totals = Services::get('publicationStats')->getTotals([
+    'contextIds' => [1],
+    'count' => 10,
+    'offset' => 0,
+    'dateStart' => '2022-03-01',
+    'dateEnd' => '2022-03-31'
+]);
+```
+
+It can also return publications ranked by the number of downloads of primary or supplementary files, or a specific file type like PDF. Get a list of the top 10 publications of a journal by total downloads of their primary PDF files.
+
+```php
+$totals = Services::get('publicationStats')->getTotals([
+    'contextIds' => [1],
+    'count' => 10,
+    'offset' => 0,
+    'assocTypes' => [Application::ASSOC_TYPE_SUBMISSION_FILE],
+    'fileTypes' => [StatisticsHelper::STATISTICS_FILE_TYPE_PDF]
+]);
+```
+
+Most service classes have a method to view total visits broken down into a monthly or daily timeline. Get a count of monthly visits to all publications in 2022.
+
+```php
+$timeline =  Services::get('publicationStats')->getTimeline(
+    StatisticsHelper::STATISTICS_DIMENSION_MONTH,
+    [
+        'contextIds' => [1],
+        'dateStart' => '2022-01-01',
+        'dateEnd' => '2022-12-31',
+    ]
+);
+```
+
+This will return an array like this.
+
+```
+[
+    [
+        'date' => '2022-01',
+        'label' => 'January, 2022',
+        'value' => 530,
+    ],
+    [
+        'date' => '2022-02',
+        'label' => 'February, 2022',
+        'value' => 430,
+    ],
+    [
+        'date' => '2022-03',
+        'label' => 'March, 2022',
+        'value' => 630,
+    ],
+    ...
+]
+```
+
+Most of the statistics service classes support the same methods and arguments. View the source code for each service class listed below to see which methods and arguments are supported.
 
 | Service | Class | Description |
 | --- | --- | --- |
@@ -172,7 +254,7 @@ public function getMany(Request $request, APIResponse $response): APIResponse
     return $response->withCSV(
       $items
       $columnNames,
-      $items
+      $itemsMax
     );
   }
 
@@ -182,7 +264,3 @@ public function getMany(Request $request, APIResponse $response): APIResponse
   ], 200);
 }
 ```
-
-## Best Practices
-
-Since the `UsageEvent` is dispatched every time someone visits the website, any task performed in the event or listener will slow down the site. Never access the database, load data, make a HTTP request, or perform any resource intensive task in the event or listener. Add the smallest amount of data that you need to the log and keep all other tasks in a job or scheduled task.
