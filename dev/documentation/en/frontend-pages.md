@@ -172,7 +172,7 @@ Use the `$smarty` variable to access a global PHP constant.
 define('WORKFLOW_STAGE_ID_SUBMISSION', 1);
 ```
 ```html
-{if $stageId === WORKFLOW_STAGE_ID_SUBMISSION}
+{if $stageId === $smarty.const.WORKFLOW_STAGE_ID_SUBMISSION}
 	Stage: Submission
 {/if}
 ```
