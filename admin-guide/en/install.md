@@ -7,7 +7,8 @@ version: 3.4
 
 # Install
 
-See `docs/README.md` in your OJS package for installation instructions.
+> These steps assume that you have [configured](./configure) your installation.
+{:.warning}
 
 When you install the software, it will create the database tables and file directories that it needs to run. To install the software, visit your site in a web browser.
 
