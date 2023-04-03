@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Getting Started](./)
+  * [Quick Start](./quick-start)
   * [Requirements](./requirements)
   * [Download](./download)
   * [Configure](./configure)
