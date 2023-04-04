@@ -12,11 +12,12 @@ The statistics features of OJS allow you to view different numbers pertaining to
 This section will describe the statistics report/visualization tools available in OJS and how to use them. If you are interested in how to manage statistics as a systems administrator, including configuring the statistics framework, and troubleshooting statistics, please view [the PKP Administrator’s Guide’s documentation on statistics](https://docs.pkp.sfu.ca/admin-guide/en/statistics).
 
 For a video walkthrough of Statistics in OJS, see our [Setting up a journal in OJS 3.3. Module 13: Statistics](https://www.youtube.com/watch?v=fU1orCK7GSM&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY) video below.
-{% include warning.html content="This resource relates to an earlier version of the software and may not be up to date." %}
+> ⚠️  This resource relates to an earlier version of the software and may not be up to date.
+{:.warning}
 
 [![Setting up a journal in OJS 3.3. Module 13: Statistics](https://img.youtube.com/vi/fU1orCK7GSM/0.jpg)](https://www.youtube.com/watch?v=fU1orCK7GSM&list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY)
-{% include warning.html content="This resource relates to an earlier version of the software and may not be up to date." %}
-
+> ⚠️  This resource relates to an earlier version of the software and may not be up to date.
+{:.warning}
 
 ## Definitions
 
