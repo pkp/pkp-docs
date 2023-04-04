@@ -7,7 +7,7 @@ version: 3.4
 
 # Quick Start
 
-This section describes the quickest route to getting OJS, OMP, or OPS installed on your system. (You may also consider using Docker.)
+This section describes the quickest route to getting OJS, OMP, or OPS installed on your system. (You may also consider using [Docker](https://github.com/pkp/docker-ojs).)
 
 > ⚠️  If you follow these steps, we still strongly recommend that you review the complete documentation!
 
