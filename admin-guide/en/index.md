@@ -1,13 +1,13 @@
 ---
 title: Install OJS/OMP/OPS - Admin Guide - PKP Developer Docs
-description: A guide for system administrators who want to install, deploy and maintain Open Journal Systems (OJS), Open Monograph Press (OPS) or Open Preprint Systems (OPS).
+description: A guide for system administrators who want to install, deploy and maintain Open Journal Systems (OJS), Open Monograph Press (OMP) or Open Preprint Systems (OPS).
 book: admin-guide
 version: 3.4
 ---
 
 # Administrator's Guide
 
-This is a guide for system administrators who want to install, deploy and maintain [Open Journal Systems (OJS)](https://pkp.sfu.ca/software/ojs), [Open Monograph Press (OPS)](https://pkp.sfu.ca/software/omp) or [Open Preprint Systems (OPS)](https://pkp.sfu.ca/software/ops).
+This is a guide for system administrators who want to install, deploy and maintain [Open Journal Systems (OJS)](https://pkp.sfu.ca/software/ojs), [Open Monograph Press (OMP)](https://pkp.sfu.ca/software/omp) or [Open Preprint Systems (OPS)](https://pkp.sfu.ca/software/ops).
 
 ## Getting Started
 
