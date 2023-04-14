@@ -116,7 +116,7 @@ All types of institutional subscriptions will appear here.
 
 Institutional subscriptions are managed similarly to individual subscriptions, but are used for libraries, research institutes, and other organizes that subscribe to your journal.
 
-You can create a new individual subscription by using the Create New Subscription link. First, however, you will need to create a new account for the institution's contact person under Users & Roles (see [the User Accounts chapter](./user-accounts)). Once that is done, you can search for the account here, and apply the different configurations.
+You can create a new institutional subscription by using the Create New Subscription link. First, however, you will need to create a new account for the institution's contact person under Users & Roles (see [the User Accounts chapter](./user-accounts)). Once that is done, you can search for the account here, and apply the different configurations.
 
 ![The Create New Subscription window.](./assets/learning-ojs3.3-jm-subscriptions-instit-create.png)
 
