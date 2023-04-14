@@ -1,5 +1,6 @@
 ---
 title: Getting Found, Staying Found - Building Visibility
+showPageTOC: true
 ---
 
 # Getting Found: Building Visibility

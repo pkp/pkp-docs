@@ -1,5 +1,6 @@
 ---
 title: Getting Found, Staying Found - Ensuring Continuity
+showPageTOC: true
 ---
 
 # Staying Found: Ensuring Continuity
