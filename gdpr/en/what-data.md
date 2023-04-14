@@ -1,5 +1,6 @@
 ---
 title: What Data Do PKP Applications Process? - GDPR Guidebook for PKP Users
+showPageTOC: true
 ---
 
 # What Data Do PKP Applications Process?

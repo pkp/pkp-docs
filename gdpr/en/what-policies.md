@@ -1,5 +1,6 @@
 ---
 title: What Policies Should Publishers Provide and Where? - GDPR Guidebook for PKP Users
+showPageTOC: true
 ---
 
 # What Policies Should Publishers Provide and Where?
