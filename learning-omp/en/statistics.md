@@ -1,6 +1,7 @@
 ---
 book: learning-omp
 version: 3.4
+showPageTOC: true
 title: Statistics - Learning OMP
 ---
 # Statistics

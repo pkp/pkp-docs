@@ -1,6 +1,7 @@
 ---
 book: learning-ops
 version: 3.4
+showPageTOC: true
 title: Statistics - Learning OPS
 ---
 # Statistics
