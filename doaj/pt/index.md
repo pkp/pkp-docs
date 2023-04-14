@@ -1,5 +1,7 @@
 ---
+title: Guia DOAJ para periódicos do OJS
 generateHeadingToc: true
+showPageTOC: true
 ---
 
 # Guia DOAJ para periódicos do OJS
