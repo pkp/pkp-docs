@@ -39,7 +39,7 @@
 * [Statistics](./statistics.md)
   * [Definitions](./statistics.md#definitions)
   * [Articles](./statistics.md#articles)
-  * [Geographical and Institutional Statistics](./statistics#geographical-and-institutional-statisticsstatistics.md)
+  * [Geographical and Institutional Statistics](./statistics#geographical-and-institutional-statistics.md)
   * [Editorial Activity](./statistics.md#editorial-activity)
   * [Users](./statistics.md#users)
   * [Reports](statistics.md#reports)
