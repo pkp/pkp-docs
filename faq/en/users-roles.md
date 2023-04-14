@@ -1,5 +1,6 @@
 ---
 title: FAQ about Users and Roles in Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+showPageTOC: true
 ---
 
 # Users and Roles

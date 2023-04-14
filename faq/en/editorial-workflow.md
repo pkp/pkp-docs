@@ -1,5 +1,6 @@
 ---
 title: FAQ about the Editorial Workflow in Open Journal Systems (OJS) and Open Monograph Press (OMP)
+showPageTOC: true
 ---
 
 # Editorial Workflow

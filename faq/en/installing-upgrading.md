@@ -1,5 +1,6 @@
 ---
 title: FAQ about Installing and Upgrading Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+showPageTOC: true
 ---
 
 # Installing and Upgrading
