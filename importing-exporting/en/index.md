@@ -1,4 +1,7 @@
 ---
+title: Importing and Exporting Data in OJS 2
+version: 2.x
+showPageTOC: true
 generateHeadingToc: true
 ---
 
