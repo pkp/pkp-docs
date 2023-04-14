@@ -1,5 +1,7 @@
 ---
-generateHeadingToc: true
+ DOAJ Application Guide for OJS Journals 
+ showPageTOC: true
+ generateHeadingToc: true
 ---
 
 # DOAJ Application Guide for OJS Journals
