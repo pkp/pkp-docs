@@ -138,4 +138,4 @@ You don't need to register extended relationships of this kind. When a Parent Th
 This won't be needed very often, but it can be useful if you manage lots of journal themes and want to share code between theme. Or if you are extending one of the community-provided child themes.
 
 ## Example
-If you prefer to study code, a [simple example Child Theme](https://github.com/NateWr/defaultChild) can be found with all the basic configuration in place.
+If you prefer to study code, a [simple example Child Theme](https://github.com/pkp/defaultChild) can be found with all the basic configuration in place.

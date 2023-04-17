@@ -138,4 +138,4 @@ Isso não será necessário com muita freqüência, mas poderá ser útil caso v
 
 ## Exemplo
 
-Caso prefira estudar código, confira um [exemplo simples de Tema Filho](https://github.com/NateWr/defaultChild) com toda a configuração básica em seu devido lugar.
+Caso prefira estudar código, confira um [exemplo simples de Tema Filho](https://github.com/pkp/defaultChild) com toda a configuração básica em seu devido lugar.

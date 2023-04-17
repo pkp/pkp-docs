@@ -53,7 +53,7 @@ Enables journals to choose the filetypes that are allowed when submitting a manu
 
 ### Announcement Block
 
-Displays the lastest announcement on the journals sidebar. Allows to specify how many announcements will be displayed. 
+Displays the lastest announcement on the journals sidebar. Allows to specify how many announcements will be displayed.
 
 * [Announcement Block Plugin in GitHub](https://github.com/RBoelter/announcementsBlock)
 
@@ -121,7 +121,7 @@ Embeds EPUb files on the article galley view for OJS and OMP using Bibi Epub Rea
 Applies a starter Bootstrap 3 theme. Knowledge of HTML, CSS and JavaScript will be needed for this theme as it is designed to be a base and not a final product.
 
 * [Bootstrap3 Theme guide](/pkp-theming-guide/en/theme-bootstrap3)
-* [Bootstrap3 Theme in GitHub](https://github.com/NateWr/bootstrap3)
+* [Bootstrap3 Theme in GitHub](https://github.com/pkp/bootstrap3)
 
 ### Browse By Section
 
@@ -402,7 +402,7 @@ Allows the manager to manually record receipt of a user's payment (outside of th
 Applies a clean, simple theme with a boxed layout that mimics a paper document.
 
 * [Manuscript theme plugin guide](/pkp-theming-guide/en/theme-manuscript)
-* [Manuscript theme plugin in GitHub](https://github.com/NateWr/defaultManuscript)
+* [Manuscript theme plugin in GitHub](https://github.com/pkp/defaultManuscript)
 
 ### MARC Metadata Format
 
