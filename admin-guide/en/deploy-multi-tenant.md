@@ -49,4 +49,4 @@ Then add a privacy statement by logging in as an administrator and going to **Ad
 
 ---
 
-Learn how to prevent unwanted emails, deposits and other tasks from being run in a [sandboxed test installation](./advanced-sandbox).
+Learn how to prevent unwanted emails, deposits and other tasks from being run in a [sandboxed test installation](./deploy-sandbox).

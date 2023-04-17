@@ -5,9 +5,9 @@ Guides to host and deploy OJS, write themes and plugins, and contribute new feat
 
 ---
 
-- [Administrator's Guide](/admin-guide/)
-- [How to Upgrade](/dev/upgrade-guide/)
-- [Main Documentation](/dev/documentation/)
+- [Administrator's Guide](/admin-guide/en/)
+- [How to Upgrade](/dev/upgrade-guide/en/)
+- [Main Documentation](/dev/documentation/en/)
 - [Theming Guide](/pkp-theming-guide/)
-- [Plugin Guide](/dev/plugin-guide/)
+- [Plugin Guide](/dev/plugin-guide/en/)
 - ... and [more](/dev/)

@@ -10,7 +10,7 @@ version: 3.4
 > Most hosting services will provide a configured email server. If you are unsure, contact your hosting provider to learn what they are able to offer.
 {:.notice}
 
-This section describes the requirements for a properly configured email server and discusses some of the configuration options for sending email with OJS, OMP and OPS. If you know what you're doing, you may prefer to follow the quick setup instructions in our [configuration guide](/admin-guide/en/configure#email-server).
+This section describes the requirements for a properly configured email server and discusses some of the configuration options for sending email with OJS, OMP and OPS. If you know what you're doing, you may prefer to follow the quick setup instructions in our [configuration guide](/admin-guide/en/deploy#email-server).
 
 ## SPF
 
@@ -37,7 +37,7 @@ The application uses these settings to reconfigure the `FROM` and `REPLY-TO` hea
 
 ## Sendmail vs SMTP vs PHPMailer
 
-Most hosting services will provide the details the application should use to connect to a SMTP server for sending email. If you have those, follow the instructions in the [configuration guide](/admin-guide/en/configure#email-server).
+Most hosting services will provide the details the application should use to connect to a SMTP server for sending email. If you have those, follow the instructions in the [configuration guide](/admin-guide/en/deploy#email-server).
 
 If not, the server will probably be configured to send email through the `sendmail` application. In such cases, set the `default` sender to `sendmail` in the `config.inc.php`:
 
@@ -108,4 +108,4 @@ If you run your own email server, you can ask for help in our [community forum](
 
 ---
 
-Next, learn about how to improve performance with the [job runner](./advanced-jobs).
+Next, learn about how to improve performance with the [job runner](./deploy-jobs).

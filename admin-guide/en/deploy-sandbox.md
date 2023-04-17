@@ -49,7 +49,7 @@ job_runner = Off
 
 Depending on how you configured your server to run jobs, you may need to take additional steps.
 
-If you are using **workers** to [process jobs](./advanced-jobs#workers), kill those processes. You may need to disable [Supervisor](./advanced-jobs#workers) or any process monitor that will restart the workers.
+If you are using **workers** to [process jobs](./deploy-jobs#workers), kill those processes. You may need to disable [Supervisor](./deploy-jobs#workers) or any process monitor that will restart the workers.
 
 If you are using a **cron job** to run the following command, delete that cron job.
 
@@ -57,7 +57,7 @@ If you are using a **cron job** to run the following command, delete that cron j
 php lib/pkp/tools/jobs.php run
 ```
 
-Disabling jobs will stop some functionality from running. For example, the search index will not be rebuilt when submissions are published or unpublished. Jobs will pile up without being processed. Read how to [monitor jobs](./advanced-jobs#how-to-monitor-jobs).
+Disabling jobs will stop some functionality from running. For example, the search index will not be rebuilt when submissions are published or unpublished. Jobs will pile up without being processed. Read how to [monitor jobs](./deploy-jobs#how-to-monitor-jobs).
 
 ## Anonymize user emails
 
