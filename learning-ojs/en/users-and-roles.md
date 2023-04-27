@@ -116,9 +116,9 @@ Once you have added all of the roles, hit the **Save** button.
 
 #### Register a User from Another Journal
 
-On multi-journal installations, an Administrator can register a user from Journal A as a user on Journal B.
+On multi-journal installations, an Administrator or Journal Manager can register a user from Journal A as a user on Journal B.
 
-1. Log in to Journal B as an Administrator
+1. Log in to Journal B as an Administrator or Journal Manager account
 2. Go to Users & Roles > Users
 3. Search for the user from Journal A that you want to register on Journal B, checking off **Include users with no roles in this journal**
 4. When the user appears, click the blue arrow next to their name
