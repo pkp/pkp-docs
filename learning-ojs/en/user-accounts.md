@@ -54,6 +54,7 @@ Under **Notifications**, you can configure what kinds of notifications you recei
 
 * Check off "Enable these types of notifications" if you want to see a notification of this event on your dashboard when you log in to the site
 * Check off "Do not send me an email for these types of notifications" if you do not want to receive an email notification about this event
+* You can also unsubscribe from automated email notifications, by following the unsubscribe link in your inbox
 
 ![The Notifications tab where you can manage notifications.](./assets/learning-ojs-3-user-notifications.png)
 
