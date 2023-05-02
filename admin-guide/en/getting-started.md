@@ -39,7 +39,7 @@ This will create a directory for the software at `ojs-3.4.0`. Create another dir
 mkdir ojs-files
 ```
 
-Start PHP's built-in server from the release package's root directory.
+If you are installing the application to a public web server, you must make sure that the file uploads directory, `ojs-files`, is **not inside the web root**. You should follow our [Deployment](./deploy) guide to install the application safely on a public web server. Otherwise, start the application by running PHP's built-in server from the release package's root directory.
 
 ```
 cd ojs-3.4.0
