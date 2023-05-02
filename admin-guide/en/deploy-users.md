@@ -157,4 +157,4 @@ Learn how to import or export data about user accounts in the [Import/Export](./
 
 ---
 
-The next section describes best practices for running lots of independent journals, presses or preprint servers from one [multi-tenant install](./advanced-multi-tenant).
+The next section describes best practices for running lots of independent journals, presses or preprint servers from one [multi-tenant install](./deploy-multi-tenant).

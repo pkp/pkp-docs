@@ -55,4 +55,4 @@ Change the file permissions of the following files and directories to allow them
 
 ---
 
-Next, set database credentials and other [configuration settings](./configure).
+Next, set database credentials and other [configuration settings](./deploy).
