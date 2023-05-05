@@ -171,7 +171,7 @@ Allows journal and press managers to limit who can upload public files and what 
 
 Generates a CSV spreadsheet of journal activity, using the COUNTER standard. These reports alone do not make a journal COUNTER compliant. To offer COUNTER compliance, review the requirements at the Project COUNTER website. As this report includes data from all journals hosted in this OJS instance, it is only available to Site Administrators.
 
-* [COUNTER reports guide](learning-ojs/en/statistics#usage-statistics-report)
+* [COUNTER reports guide](/learning-ojs/en/statistics#usage-statistics-report)
 
 ### Crossref Reference Linking Plugin
 
@@ -191,7 +191,7 @@ Supports the automatic registration of DOIs with CrossRef and the export of XML 
 
 Allows to add, edit and delete custom sidebar blocks.
 
-* [Custom Block Manager guide](learning-ojs/en/settings-website#custom-block-plugin)
+* [Custom Block Manager guide](/learning-ojs/en/settings-website#custom-block-plugin)
 
 ### Custom Header Plugin
 
@@ -602,7 +602,7 @@ Enables integration with ReviewerCredits. ReviewerCredits Journal credentials wi
 
 Generates a CSV report containing a list of review assignments for a journal, including reviewer names, reviews, and recommendations.
 
-* [Review Report guide](learning-ojs/en/statistics#usage-statistics-report)
+* [Review Report guide](/learning-ojs/en/statistics#usage-statistics-report)
 
 ### RFC1807 Metadata Format
 
