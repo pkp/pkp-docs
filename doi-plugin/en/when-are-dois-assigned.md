@@ -1,3 +1,8 @@
+---
+title: When Are DOIs Assigned?
+showPageTOC: true
+---
+
 # When Are DOIs Assigned?
 
 It is important to understand when DOIs will be assigned because **DOI registration is irreversible**. Once an article or issue is published and your DOI has been registered with an agency, you cannot change it. This is due to the nature of permanent IDs: they are meant to be assigned once and only once and then never change again.
