@@ -1,6 +1,6 @@
 ---
- DOAJ Application Guide for OJS Journals 
- generateHeadingToc: true
+title: DOAJ Application Guide for OJS Journals 
+generateHeadingToc: true
 ---
 
 # DOAJ Application Guide for OJS Journals
