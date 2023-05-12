@@ -1,5 +1,6 @@
 ---
 title: FAQ about How to Get Started with Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+showPageTOC: true
 ---
 
 # Getting Started

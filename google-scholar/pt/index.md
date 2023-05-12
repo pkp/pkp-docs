@@ -1,5 +1,7 @@
 ---
+title: Indexação no Google Acadêmico
 generateHeadingToc: true
+showPageTOC: true
 ---
 
 # Indexação no Google Acadêmico

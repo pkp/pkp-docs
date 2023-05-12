@@ -1,3 +1,8 @@
+---
+title: Web of Science
+showPageTOC: true
+---
+
 # Web of Science (Clarivate)
 
 Web of Science (WoS) is a multidisciplinary collection of citation indexes covering life sciences, biomedical sciences, engineering, social sciences, arts and humanities. WoS contains both citations and full text content. The WoS Core Collection includes:

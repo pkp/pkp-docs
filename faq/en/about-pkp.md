@@ -1,5 +1,6 @@
 ---
 title: Frequently Asked Questions (FAQ) about the Public Knowledge Project (PKP)
+showPageTOC: true
 ---
 
 # About PKP

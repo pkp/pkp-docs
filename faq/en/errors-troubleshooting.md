@@ -1,5 +1,6 @@
 ---
 title: FAQ about Errors and Troubleshooting in Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+showPageTOC: true
 ---
 
 # Errors and Troubleshooting

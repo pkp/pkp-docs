@@ -1,5 +1,6 @@
 ---
 title: FAQ about How to Set Up and Manage a Journal in Open Journal Systems (OJS)
+showPageTOC: true
 ---
 
 # Journal Setup and Management

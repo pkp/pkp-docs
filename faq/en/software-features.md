@@ -1,5 +1,6 @@
 ---
 title: FAQ about Features and Uses of Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS)
+showPageTOC: true
 ---
 
 # Software Features
