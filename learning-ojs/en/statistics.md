@@ -64,6 +64,32 @@ When Geographical and Institutional Statistics have been enabled (see the [Admin
 
 This information is also available via the COUNTER SUSHI interface. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics#counter) for details.
 
+## Institutional Statistics
+
+When making institutional statistics available to institutional users, the settings must first be altered in journal setup (requires site admin privileges). In order to do this, go to Administration -> Site Settings -> Statistics, and select the checkbox under “Institutional Subscriptions” 
+
+#### Warning
+
+> Enabling institutional statistics may have an adverse effect on the database size, and it is advised consult with your systems administrator about this change,in order to monitor how this change might affect the performance of your OJS instance going forward.  
+{:.warning}
+
+Similar to institutional subscriptions, OJS 3.4 has the ability to provide institutions with statistics regarding journal usage by institutions who are not subscribers. The data used as part of institutional statistics can be used for statistics as well as institutional subscriptions, and institutions will need to be entered into OJS first in order to capture their subscription information as well as their related statistics. 
+
+To add a new institution, select “Institutions” from the side menu, and you have the option to search through existing institutions records, or add a new institution. 
+
+![Institutions option on main sidebar](./assets/institutions-menu.png)
+
+To add a new institution, Click on “Add institution” and add the relevant details for the institution: 
+
+![Adding Institutions menu](./assets/add-institutions.png)
+
+Once the details for the institution have been added, institutional usage will begin to be collected. One detail that can be included for institutions is the Research Organizations Registry (ROR) identifier. You can look up the ROR registry ID for the institution at the [Research Organization Registry (ROR) website](https://ror.org/)
+
+Reports for institutions are currently only available via the [SUSHI API (COUNTER) interface](https://docs.pkp.sfu.ca/admin-guide/en/statistics#download)
+
+
+
+
 ## Editorial Activity
 
 This section provides statistics about the editorial workflow, such as number of submissions received, days to first editorial decision, and acceptance and rejection rates. You can filter these statistics using a custom date range to, e.g., find the number of articles accepted during a 12-month period.
