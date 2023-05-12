@@ -23,9 +23,7 @@ $currentUser = Application::get()->getRequest()->getUser();
 
 ## CSRF Tokens
 
-CSRF tokens must be sent with all `POST`, `PUT` or `DELETE` requests to prevent attacks using [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery).
-
-A CSRF token may be requested from the current session.
+CSRF tokens must be sent with all `POST`, `PUT` or `DELETE` requests to prevent attacks using [cross-site request forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery). A CSRF token may be requested from the current session.
 
 ```php
 $csrfToken = $request->getSession()->getCSRFToken();

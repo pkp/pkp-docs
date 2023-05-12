@@ -154,7 +154,7 @@ Get the option's `Field` object to manipulate it directly.
 ```php
 public function init() {
 	$typographyField = $this->getOptionConfig('typography');
-	$typographField->label = __('plugins.themes.default.option.typography.label');
+	$typographyField->label = __('plugins.themes.default.option.typography.label');
 }
 ```
 

@@ -206,7 +206,7 @@ class Repository
 
 ## Custom Rules
 
-OJS and OMP have added the following custom validation rules.
+The following custom validation rules can be used.
 
 | Rule | Description |
 | --- | --- |

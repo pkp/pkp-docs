@@ -3,7 +3,7 @@ title: Using PKP Software in Multiple Languages
 description: A guide on how to publish in OJS, OMP, and OPS software in multiple languages
 ---
 
-# Introduction
+# Introduction: Using PKP Software in Multiple Languages
 
 According to [data about OJS journals collected in 2021](https://pkp.sfu.ca/ojs/stats/), about half of the 25,000+ OJS journals worldwide are published in languages other than English and in multiple languages. OJS is used in 56 different languages, with English, Bahasa Indonesia, Spanish, Portuguese, and Ukrainian being the most common.
 

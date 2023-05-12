@@ -43,19 +43,11 @@ Travis provides a [debug mode](https://docs.travis-ci.com/user/running-build-in-
 
 ### Screenshots
 
-Screenshots can be accessed by using the uuencode tool on the Travis VM. Add the following to `.travis.yml`.
+Screenshots can be accessed by using the uuencode tool on the Travis VM. To extract the screenshots related to a test failure, follow these steps.
 
-```yaml
-after_failure:
-  - sudo apt-get install sharutils
-  - tar cz cypress/screenshots | uuencode /dev/stdout
-```
-
-When the tests run with these settings, the log will contain a uuencoded dump of screenshots of the failure. To extract the screenshots, save the raw log to your local machine and run the following.
-
-```
-uudecode /path/to/log.txt | tar xvz
-```
+- When viewing the test output on Travis, click the "Raw Log" button.
+- Save the log to your computer, for example `/tmp/log.txt`.
+- Run `cat /tmp/log.txt | uudecode | tar xvz` to extract the screenshots locally.
 
 > If you are struggling to understand a test failure in Travis, it may be best to run the tests locally where you have more insight into the state of the application.
 {:.tip}

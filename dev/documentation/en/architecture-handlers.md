@@ -374,12 +374,10 @@ Read the [Slim API Framework usage guide](http://www.slimframework.com/docs/v3/)
 
 ## Controller Handlers (deprecated)
 
-> **Controller Handlers are deprecated.** New features should be built using the UI Library components that interact with API Handlers.  However, they are common throughout the application and will remain in use for some time.
+> **Controller Handlers are deprecated.** New features should be built using the UI Library components that interact with API Handlers.
 {:.warning}
 
-Controller Handlers receive requests from UI Controllers and return `JSON` output. They act like Page Handlers except that they serve individual interactive UI components, such as a submission's list of files, discussions or participants.
-
-Learn more about [working with controllers](./frontend-controllers).
+Controller Handlers receive requests from UI Controllers and return `JSON` output. They act like Page Handlers except that they serve individual interactive UI components, such as a submission's list of files, discussions or participants. Learn more about [working with controllers](./frontend-controllers).
 
 ---
 

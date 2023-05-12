@@ -2,7 +2,7 @@
 
 The ROR Plugin for OJS and OPS 3 enables authors to find and add the organization they are affiliated with from the list of organizations maintained by the [Research Organization Registry (ROR)](https://ror.org). When an author begins to type in their organization, organizations from ROR will be automatically fetched and suggested. This is particularly helpful for multilingual journals, since an author can type in their organization name in any language they prefer and ROR will offer the corresponding organization, since its records include the organization name in different languages as well as organization name variants and acronyms. 
 
-The ROR Plugin is shipped with the OJS Plugin gallery for OJS 3.2. For installation of the ROR plugin in OJS 3.2, see [Installing the ROR Plugin](#Installing-the-ROR-plugin). The ROR ID is automatically integrated into OJS beginning with OJS 3.3 and therefore does not need to be installed.
+The ROR Plugin is shipped with the OJS Plugin gallery beginning with OJS 3.2. For installation of the ROR plugin in OJS 3.2, see [Installing the ROR Plugin](#Installing-the-ROR-plugin). 
 
 The ROR plugin can be used with OJS 3.x and OPS 3.x. It is not compatible with OMP.
 

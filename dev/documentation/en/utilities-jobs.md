@@ -53,7 +53,7 @@ dispatch(
 
 ## Process Jobs
 
-The Admin Guide describes how to [configure a job runner in production](/admin-guide/en/configure#job-runner). For local development, one of the following methods may be preferred.
+The Admin Guide describes how to [configure a job runner in production](/admin-guide/en/deploy#job-runner). For local development, one of the following methods may be preferred.
 
 1. Set the `job_runner` to `On` in the config file. Jobs will be run at the end of each web request.
 2. Run `php lib/pkp/tools/jobs.php run` from the command line to run all jobs.

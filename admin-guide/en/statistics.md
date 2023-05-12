@@ -15,7 +15,7 @@ Read the sections below to learn how to configure the statistics for your site, 
 
 ## Settings
 
-> To ensure that statistics are collected correctly, make sure you have [configured your application](./configure) to run scheduled tasks and jobs.
+> To ensure that statistics are collected correctly, make sure you have [configured your application](./deploy) to run scheduled tasks and jobs.
 {:.notice}
 
 As an administrator, you can restrict the type of statistics that will be collected. You may choose to do this to protect the privacy of visitors, comply with legal requirements in your jurisdiction, or reduce the disk space required for your database.
@@ -245,7 +245,7 @@ Keep the following in mind when working with the log files.
 
 ### I don't see any statistics
 
-Statistics are compiled once a day. No statistics will appear until 24 hours after a visitor has been logged. If you have visited the homepage of your journal, press or preprint server, waited more than 24 hours and still do not see those statistics, you may need to [configure scheduled tasks and jobs](./configure).
+Statistics are compiled once a day. No statistics will appear until 24 hours after a visitor has been logged. If you have visited the homepage of your journal, press or preprint server, waited more than 24 hours and still do not see those statistics, you may need to [configure scheduled tasks and jobs](./deploy).
 
 You can tell if the scheduled task is being run by looking in the log directory at `<files_dir>/usageStats`. Once a log file has been processed, it will be moved to the `archive` directory. Learn more about the [log files](/dev/documentation/en/statistics#understanding-the-log-files).
 
@@ -253,7 +253,7 @@ If you see log files in the archive, but still do not have any statistics, inspe
 
 ### I have enabled geographic statistics, but the geographic report doesn't include any data
 
-The application uses the visitor's IP address to determine their location. In order for this to work, the application must have a copy of the database that maps IPs to their location. This file will be located in `<files_dir>/usageStats/IPGeoDB.mmdb`. If you have properly [configured](./configure) the application to run scheduled tasks, this will be updated monthly.
+The application uses the visitor's IP address to determine their location. In order for this to work, the application must have a copy of the database that maps IPs to their location. This file will be located in `<files_dir>/usageStats/IPGeoDB.mmdb`. If you have properly [configured](./deploy) the application to run scheduled tasks, this will be updated monthly.
 
 ### I upgraded from an old version of OJS and I want to have stats from a long time ago
 
