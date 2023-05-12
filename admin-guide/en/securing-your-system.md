@@ -55,6 +55,8 @@ Purchasing a certificate may be an option available to you as well. Commercial b
 * Only DV (Domain Validation) certificates are offered
 * Slightly more technical, if your hosting provider does not already support you will need to generate from shell
 
+To test that your certificate is installed correctly, go to https://www.ssllabs.com/ssltest/index.html and enter your host name. If your grade is "B" or worse, your server may not be available to secure client software.
+
 ### Enabling SSL (requires shell access):
 
 #### Generating CSR (Certificate Signing Request)
