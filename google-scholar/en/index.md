@@ -1,7 +1,6 @@
 ---
 title: Google Scholar Indexing 
 generateHeadingToc: true
-showPageTOC: true
 ---
 
 # Google Scholar Indexing
