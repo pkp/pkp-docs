@@ -48,6 +48,17 @@ Tasks provide a quick look at items that need your attention. Bold entries are u
 
 Use the checkbox to mark tasks for deletion \(the link is available at the bottom of the list\).
 
+Editors will receive a weekly email summary of outstanding tasks, regarding submissions which require editorial actions, including:
+
+* Items in the submission stage
+* Submissions in the review stage, which do not have any reviewer assigned yet
+* One or more reviews are overdue
+* All reviews are completed
+* Revisions have been submitted
+* Submissions in the copyediting or production stages, which have been inactive for 30 or more days
+
+An editor can opt out of email notifications by changing [notification settings in their profile](./user-accounts#viewing-and-changing-your-profile) or clicking on the unsubscribe link.
+
 <hr />
 
 ## Submission Notifications
@@ -92,6 +103,8 @@ The **Filter** tool allows you to limit your browsing to specific conditions for
 - __Stages:__ select from _submission_, _review_, _copyediting_, and _production_
 
 - __Sections:__ this option is only available if more than 5 sections exist. After you begin entering text, the filter will auto-suggest. For example, filter by _articles_ or _reviews_
+
+- __Categories:__ this option is only available if you have set up at least 1 customized [category](./journal-setup#categories).
 
 - __Assigned editor(s):__ only Journal Managers and Journal Editors have this filter option. Like sections, this is a textbox which will auto-suggest a Section Editor, Journal Editor, or Guest Editor's name as you start to type it, then display all articles assigned to the editor.
 
