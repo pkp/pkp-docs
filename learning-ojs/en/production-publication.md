@@ -16,11 +16,13 @@ To start working in Production, the Section Editor or Journal Editor must login 
 
 Clicking on the article will open the submission record.
 
-![Production tab in the editorial workflow of a manuscript.](./assets/learning-ojs-3.2-se-production.png)
+![Production tab in the editorial workflow of a manuscript.](./assets/learning-ojs-3.4-production-tab.png)
 
 You will see the copyedited files are now available in the **Production Ready Files** panel.
 
 In the **Production** tab, you can assign participants (such as a Layout Editor) to the Production stage of the workflow and communicate with participants in the **Production Discussions** panel.
+
+You can cancel the Production stage using the action button **Back To Copyediting**, with an option to notify the author about this change.
 
 {% include video.html id="-VRKdBQPdn4" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 9: Production."%}
 
