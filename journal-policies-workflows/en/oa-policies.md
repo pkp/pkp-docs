@@ -1,5 +1,6 @@
 ---
 title: Open access policies - Journal Policies and Workflows
+showPageTOC: true
 ---
 
 # Open access policies

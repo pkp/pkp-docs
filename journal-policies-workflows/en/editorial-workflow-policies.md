@@ -1,5 +1,6 @@
 ---
 title: Editorial workflow - Journal Policies and Workflows
+showPageTOC: true
 ---
 # Editorial workflow
 

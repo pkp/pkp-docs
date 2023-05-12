@@ -1,5 +1,6 @@
 ---
 title: Journal changes publisher / platform or ceases to publish - Journal Policies and Workflows
+showPageTOC: true
 ---
 
 # Journal changes publisher / platform or ceases to publish

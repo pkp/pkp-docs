@@ -1,5 +1,6 @@
 ---
 title: Copyright and licensing - Journal Policies and Workflows
+showPageTOC: true
 ---
 
 # Copyright and licensing
