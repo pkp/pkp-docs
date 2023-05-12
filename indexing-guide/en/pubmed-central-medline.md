@@ -1,12 +1,17 @@
-# PubMed: PubMed Central & Medline
+---
+title: PubMed, PubMed Central, and Medline 
+showPageTOC: true
+---
+# PubMed, PubMed Central, and Medline
 
+## PubMed
 PubMed contains millions of citations and abstracts to biomedical literature from Medline, PubMed Central (PMC), and Bookshelf. It does not include full text articles, although it may link to a full text article in PubMed Central or on the publisher’s website. There is no direct application for including content in PubMed; all content must be accepted into one of the other two databases to be included.
 
 ## PubMed Central (PMC)
 
 PMC is a full-text archive of biomedical and life sciences literature. Inclusion is selective, and publishers/journals must pass both content and technical reviews to be accepted. When a publisher applies to PMC for the first time, there is an extensive review of publisher policies and practices. Once a publisher has a journal accepted to PMC, the review process for a new journal is much shorter. Publishers currently with PMC may have up to 2 active applications for new journals; new publishers can submit only one new journal for evaluation and must meet PMC’S data production requirements for at least 6 months before a second journal can be submitted.
 
-### Content Requirements
+### PMC Content Requirements
 
 * ISSN
 * Available online at a publisher or third-party site
@@ -26,7 +31,7 @@ There is not currently an import/export feature in OJS that provides the full-te
 
 Medline is the National Library of Medicine’s bibliographic database of journal articles in the life sciences, concentrating on biomedicine. It is the primary source for content in PubMed. Medline is selective, and publishers and journals must pass a content review by the Literature Selection Technical Review Committee (LSTRC) to be accepted. The LSTRC meets three times per year to review and recommend journals for inclusion. If accepted, journals must pass a technical review of the XML and meet the [Access and Preservation Requirements](https://www.nlm.nih.gov/medline/medline_policies.html#AccessPreservation) within 6 months. Medline collects metadata-only records rather than the full text.
 
-### Pre-application Requirements
+### Medline Pre-application Requirements
 
 * ISSN
 * Published at least 12 months in format to be evaluated (e.g., electronic)
@@ -44,7 +49,7 @@ Medline is the National Library of Medicine’s bibliographic database of journa
 
 OJS generates an XML file of article metadata using the PubMed XML Export Plugin in Tools > Import/Export. 
 
-## Application
+## PMC and Medline Application Information
 
 * Journal title and ISSN(s)
 * Date of first publication and publication frequency

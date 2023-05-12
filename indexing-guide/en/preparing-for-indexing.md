@@ -1,3 +1,6 @@
+---
+title: Preparing your OJS journal for indexing applications
+---
 # Preparing your OJS journal for indexing applications
 
 Most journal indexes have common requirements for transparency and clarification around journal information and policies. It’s a good idea to prepare for your application by ensuring that your journal is following these guidelines:

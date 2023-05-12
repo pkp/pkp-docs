@@ -1,3 +1,8 @@
+---
+title: Scopus
+showPageTOC: true
+---
+
 # Scopus
 
 Scopus is a source-neutral abstract and citation database for journals, book series, and conference series in the Health Sciences, Physical Sciences, Social Sciences, and Life Sciences literature, and one of the largest and most widely used indexes. Scopus is the largest indexer of global research content, with over 24,600 active titles, including 23,500+ peer-reviewed journals, 740+ books, and 300+ trade publications. Worldwide, Scopus is used by more than 5,000 academic, government and corporate institutions. Each subject area is curated by the Content Selection and Advisory Board (CSAB), an independent board of subject matter experts using quantitative and qualitative criterias. Journals accepted into Scopus must demonstrate the ability to maintain their quality status year over year. 
