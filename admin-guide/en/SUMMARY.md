@@ -2,12 +2,11 @@
 
 * [Introduction](./)
 * [Getting Started](./getting-started)
-  * [Quick Start](./quick-start)
   * [Requirements](./getting-started#system-requirements)
   * [Download](./getting-started#download)
   * [Install](./getting-started#install)
 * [Deployment](./deploy)
-  * [Configuration](./deploy#configure)
+  * [Configuration](./deploy#configuration)
   * [Email](./deploy-email)
   * [Jobs](./deploy-jobs)
   * [Users](./deploy-users)
