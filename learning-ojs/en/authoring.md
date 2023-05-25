@@ -32,8 +32,6 @@ Start a new submission by clicking the **New Submission** button on the right si
 
 First, you will provide preliminary information about your submission
 
-In **Step 1** you will provide preliminary information about your submission.
-
 ![Article submission start screen](./assets/learning-ojs3.4-au-wizard-1.png)
 
 If the journal allows submissions in multiple languages, you will first need to select the appropriate language for your submission. (For Journal Managers: Additional Submission languages can be enabled in Website Settings -> Setup -> Language.)
@@ -47,6 +45,8 @@ Lastly, review the privacy statement and agree to the journal’s data collectio
 ### Step 1: Details
 
 In step one, you will provide some basic information about your submission, including the abstract, and optionally, keywords and a list of references.
+
+As of OJS 3.4, limited HTML tags are supported for the formatting of manuscript titles and subtitles. Supported tags include ``<b>`` (bold), ``<i>`` (italics), ``<u>`` (underline), ``<sup>`` (superscript), and ``<sub>`` (subscript). These formatting options are also now available in the rich text editor when entering titles and subtitles.
 
 To enter keywords, type the keyword or keyphrase and hit the Enter key. The word or phrase will be formatted as a keyword. There is no need to separate by commas or other punctuation.
 
