@@ -266,10 +266,10 @@ In the screenshot below, we can see that we are currently running `3.2.1-4` and 
 
 ![An example of running the PHP upgrade check in the command-line.](./assets/upgrade-check.png)
 
-Finally, when you are ready, run the upgrade script, which may take several hours to complete. You may also wish to [log the output](#log-the-output).
+Finally, when you are ready, run the upgrade script, which may take several hours to complete. We recommend you specify an explicit amount of memory on the command line, as server defaults may be too low.  If the upgrade process runs out of memory it will fail and you will need to restore from backup and begin again. You may also wish to [log the output](#log-the-output).
 
 ```bash
-$ php tools/upgrade.php upgrade
+$ php -d memory_limit=2048M tools/upgrade.php upgrade
 ```
 
 If the upgrade is successful, you will see the message below informing you that the upgrade was successful.
