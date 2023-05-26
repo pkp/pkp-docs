@@ -360,15 +360,19 @@ You can make additional changes using the blue arrow toggle next to the Reviewer
 
 ![The Edit Review window.](./assets/learning-ojs-3-ed-rev-reviewer-edit-review.png)
 
-**Unassign Reviewer**: Allows you to unassign the Reviewer.
+**Unassign Reviewer**: A reviewer can be **unassigned** BEFORE they have accepted the review invitation. Their name will be removed from the reviewer list and the same person can be assigned again. 
 
-**Cancel Review Request**: As of OJS 3.2, you can cancel a review request. This may be necessary when a reviewer has not responded to a review request or accepted to do a review but never delivered.
+![The Unassign  Reviewer option in the expanded Reviewer options.](./assets/learning-ojs-3.4-unassign-reviewer.png)
+
+**Cancel Reviewer**: A review can be **cancelled** AFTER the reviewer has accepted or declined the review invitation. This may be necessary when a reviewer accepted to do a review but never delivered.
 
 ![The Cancel Reviewer option in the expanded Reviewer options.](./assets/learning-ojs-3.2-cancel-reviewer.png)
 
-Cancelling a review request will permit you to send a template email to the reviewer. The request will then show up in the editor's reviewer list as "cancelled".
+Cancelling a review request will permit you to send a template email to the reviewer. Reviewer’s name will remain on the list and will show as "cancelled".
 
-![A sample review request marked "Request cancelled".](./assets/learning-ojs-3.2-reviewer-cancelled.png)
+![A sample review request marked "Request cancelled".](./assets/learning-ojs-3.4-reviewer-cancelled.png)
+
+**Reinstate Reviewer**: A cancelled reviewer can be reinstated, both if they had previously accepted or declined to review. “Reinstate reviewer” action will prompt an optional invitation email to the reviewer. If they had previously declined to review, they will need to accept this new invitation.
 
 Cancelled review will be recorded in reviewer stats that you can see when selecting a reviewer.
 
