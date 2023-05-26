@@ -269,6 +269,10 @@ If you do not see the chapter file listed here, you may need to upload it in the
 
 ![Sample chapter files selection list.](./assets/learning-omp3.2-workflow-production-chapters-4.png)
 
+##### Chapter Landing pages
+
+In order to specify that an individual chapter of a book has its own specific landing page, under Publication - Chapters. Then, select “Add Chapter” and select the option for “Show this chapter on its own page and link to that page from the books' table of contents” 
+
 #### Publication Formats
 
 Books can be published on your public OMP press site in a variety of formats, including HTML, PDF, EPUB, and more. Supplementary materials can also be published.
