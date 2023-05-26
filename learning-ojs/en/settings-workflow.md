@@ -1,8 +1,8 @@
 ---
 book: learning-ojs
-version: 3.3
+version: 3.4
 showPageTOC: true
-title: Learning Open Journal Systems 3.3 - Workflow Settings
+title: Learning Open Journal Systems 3.4 - Workflow Settings
 ---
 # Workflow Settings
 
@@ -184,71 +184,78 @@ This PKP School video explains how to configure emails in OJS. To watch other vi
 
 ### Email Setup
 
-The section allows you to configure the emails that are sent out from the system.
+The section allows you to configure the emails that are sent out from the system. You can also access your email templates from here by clicking **Add and edit templates**. 
 
-![OJS 3.3 emails menu.](./assets/learning-ojs3.1-jm-settings-workflow-emails.png)
+![OJS 3.4 emails menu.](./assets/learning-ojs3.3-jm-settings-workflow-emails.png)
 
 **Signature**: The information in this field will be added to the bottom of every email sent out by the system.
 
+**New Submission**: Configure which authors should receive the submission confirmation email (all authors, submitting author, or no authors) and submission acknowledgement email (primary contact, none, and/or any additional contacts.
+
+**Editorial Decisions**: Configure which authors should receive the decision emails (all authors or just submitting author)
+
+**For Editors**: Configure whether monthly statistics updates should be sent to all users with an Editorial role. Individual Editors can unsubscribe from this email from their user profile.
+
 **Bounce Address**: A notice will be sent to this email address of any system-sent emails that fail to deliver, such as when the targeted email address is no longer valid.
+
 
 ### Email Templates
 
 OJS facilitates work flow communication through the use of prepared email messages. Please note, some configuration is required to send email. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/email) for more information.
 
-You can view and modify the prepared email templates here. You will see a list of email templates under the Emails tab. The title and summary of each email template is displayed in the list.
+You can view and modify the prepared email templates here. The title and summary of each email template is displayed in the list.
 
-![OJS 3.3 emails templates.](./assets/learning-ojs3.3-jm-settings-workflow-email-templates.png)
-
-If you click the arrow beside each email template you can view the message subject and contents and who is the default sender and recipient of the message.
-
-![OJS 3.3 editorial assignment template editing screen.](./assets/learning-ojs3.3-jm-settings-workflow-email-template-view.png)
+![OJS 3.4 emails templates.](./assets/learning-ojs3.4-jm-settings-workflow-email-templates.png)
 
 You can search for an email template by keyword by typing something in to the **Search** box.
 
-You can click **Filters** to reveal options to filter the templates by status, sent from, sent to, and which workflow stage it is used during. These filters can help you find templates you want to edit.
-
-![OJS 3.3 email template filtering options.](./assets/learning-ojs3.3-jm-settings-workflow-email-template-filters.png)
+**Filters** are also available to help find templatesby workflow stage, sender (sent from), recepient (sent to). 
 
 See [Template Descriptions](#template-descriptions) at the end of this chapter for a table of all email templates and their sender, recipient, and workflow stage.
 
 #### Edit email templates
 
-When you edit an email template, you change what it will say every time it is used.  For emails that are sent voluntarily, such as a message sent to a reviewer asking them to review a submission, you can also change the contents of the message at the time of sending it. This changes the contents for that message only.
+You will find that some email templates have single and multiple available ones.  For emails that are typically sent automatically or tied to a specific event (e.g., Notify Other Authors), editors will only have the option to edit the template. 
+
+![OJS 3.4 emails templates.](./assets/learning-ojs3.4-jm-settings-workflow-single-email-templates.png)
+
+For emails that are sent manually (e.g., Discussion (Copyediting)), editors will have the opportunity to both edit and create additional templates. 
+
+![OJS 3.4 emails templates.](./assets/learning-ojs3.4-jm-settings-workflow-multi-email-templates.png)
 
 To edit a template:
 
-1. Go to Workflow Settings > Emails > Prepared Email Templates
-2. Click the blue arrow next to the template name to reveal links below it
-3. Click Edit
-4. Make changes to the subject and the body text. Be careful to not delete any tags such as “{$authorName}:,” which automatically insert content from a submission.
-5. When you’re finished editing, click Save.
+1. Go to Workflow Settings > Emails > Add and Edit email templates
+2. Click Edit on template
+3. If applicable select language of the template
+4. Make changes to the subject and the body text. 
+5. A glossary of available variables can also be inserted using the ‘Insert Content’ button.
+6. When you’re finished editing, click Save.
 
-#### Disable email templates
+#### Removing email templates
 
-All of the templates are enabled by default when you install OJS, but you can disable some templates by clicking the Disable button. Most of the templates that can be disabled are messages that are sent automatically by OJS. Disabling the template will mean that the automatic notification will not be sent.
-
-To disable a template:
-
-1. Go to Workflow Settings > Emails > Prepared Email Templates
-2. Click the blue arrow next to the template name to reveal links below it
-3. Click Disable (if the button does not appear, then this template can't be disabled)
+Only templates that are not designated as 'Default' will give you to option to **Remove** 
 
 #### Reload default email templates
 
 If you have edited email templates but want to reverse the edits and restore them to their default contents, you can reset them:
 
-1. Go to Workflow Settings > Emails > Prepared Email Templates
+1. Go to Workflow Settings > Emails > Add and Edit templates
 2. Click Reset All Templates
-3. When the confirmation message appears, click OK.
+3. When the confirmation message appears, click Reset All.
 
 #### Add email template
 
-Click the button **Add Email Template** to create a custom email template that you can use when notifying a user or adding a participant to a submission. Note that in versions earlier than OJS 3.1.2, you can create a custom email templates but it will not be available to use at any stage in the workflow.
+Additional email templates can be stage-specific discussions or existing ones not tied to automatic action, typically indicated in the email template description.
+
+To add a template, click **Edit**, followed by **Add Template**.
+
+![OJS 3.4 emails templates.](./assets/learning-ojs3.4-jm-settings-workflow-multi-email-templates.png)
+
 
 #### Filters
 
-Click here to filter email templates based on the following: Enabled, Disabled, Custom Template. You can also filter email templates based on who it was sent from and who it is sent to.
+Click here to filter email templates based on the following: Editorial Stage, Sender, and Recipient.
 
 #### Add email attachment
 
