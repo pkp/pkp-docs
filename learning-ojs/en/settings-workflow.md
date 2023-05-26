@@ -28,7 +28,9 @@ Once the setting is enabled, a notification is displayed indicating that submiss
 
 ### Metadata
 
-This section determines what types of metadata will be collected during the submission process, such as keywords and references.
+This section determines what types of metadata will be allowed for each submission, as well as how it is collected during the submission process. Optional metadata fields include keywords, references, supporting agencies, and data availability statements. If you choose to enable these fields, you'll be presented with further options to request, require, or not ask authors to provide a draft of metadata (editors can review & can revise author-contributed metadata).
+
+Some indexing agencies have specific requirements for metadata. See [Better Practices in Journal Metadata](https://docs.pkp.sfu.ca/metadata-practices/) for guidelines.
 
 ### Components
 

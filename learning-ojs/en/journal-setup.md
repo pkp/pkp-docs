@@ -1,8 +1,8 @@
 ---
 book: learning-ojs
-version: 3.3
+version: 3.4
 showPageTOC: true
-title: Learning Open Journal Systems 3.3 - Journal Settings
+title: Learning Open Journal Systems 3.4 - Journal Settings
 ---
 # Journal Settings
 
@@ -76,7 +76,7 @@ This PKP School video explains how to configure Sections in OJS. To watch other 
 
 Use this page to configure the different sections of your journal. E.g., Articles, Editorials, Reviews, Commentary, etc. OJS requires at least one section, and creates an "Articles" section by default. You can create new sections, edit existing sections, or delete sections. The sections will appear for an author to select when they make a submission and they will be used to organize the articles in your published issues. You can also assign editors to specific sections. This part of the guide explains how you can configure sections.
 
-![OJS dashboard view of Journal Settings submenu Sections with links for Order and Create Section and editable list of current sections.](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
+![OJS dashboard view of Journal Settings submenu Sections with links for Order and Create Section and editable list of current sections.](./assets/learning-ojs3.4-jm-settings-journal-sections.png)
 
 Submissions can also be disabled for individual sections. This can be done in instances where a section is no longer being used, in order to prevent articles from being submitted to a particular section.
 
@@ -110,7 +110,7 @@ You can check off "Will not be included in the indexing of the journal" for sect
 
 **Identify items published in this section as a\(n\)**: This is used by some systems. Note that it is not a required field.
 
-**Section Editors**: If you have editors enrolled in your journal, you will see them listed here and can assign one of them to the section. This means any submissions made to the section are automatically assigned to the editor, saving you from manually assigning an editor.
+**Editorial Assignments**: Journal Editors and Section Editors can be assigned automatically to all new submissions in a section. Automatic assignment for copyeditors and layout editors is currently not supported.
 
 Hit the **Save** button to save your changes and return to the Sections page.
 

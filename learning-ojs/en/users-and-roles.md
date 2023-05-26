@@ -116,9 +116,9 @@ Once you have added all of the roles, hit the **Save** button.
 
 #### Register a User from Another Journal
 
-On multi-journal installations, an Administrator can register a user from Journal A as a user on Journal B.
+On multi-journal installations, an Administrator or Journal Manager can register a user from Journal A as a user on Journal B.
 
-1. Log in to Journal B as an Administrator
+1. Log in to Journal B as an Administrator or Journal Manager account
 2. Go to Users & Roles > Users
 3. Search for the user from Journal A that you want to register on Journal B, checking off **Include users with no roles in this journal**
 4. When the user appears, click the blue arrow next to their name
@@ -161,7 +161,8 @@ Each role is first assigned a permission level, which will broadly define what l
 
 There are a number of predefined roles that you can use and edit in OJS. Read in-depth about these predefined roles organized by their permissions level. Italicized roles are new in OJS 3.
  
-* The **Site Administrator** is a single user responsible for administration of the entire OJS installation. This permissions level will not appear in user lists or in role settings.
+* The **Site Administrator** is a single user responsible for administration of the entire OJS installation. This permissions level will not appear in user lists or in role settings. Site administrators, by default, have access to all journals within a given instance and can take any actions that can be undertaken by Journal Managers.
+
 * **Journal Managers** have access to the entire Editorial Workflow, as well as all other journal settings.
 Available predefined Journal Manager roles: Journal Manager, Journal Editor (formerly “Editor” in OJS 2), Production Manager
 * **Section Editors** have access to the entire Editorial Workflow, but cannot make any changes to journal settings.

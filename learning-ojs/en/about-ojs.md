@@ -1,7 +1,7 @@
 ---
 book: learning-ojs
 showPageTOC: true
-version: 3.3
+version: 3.4
 showPageTOC: true
 ---
 
@@ -40,105 +40,50 @@ OJS is easy to install and configure. However, running a web service requires a 
 > If you do not have the expertise, staff or desire to install and manage OJS on your own, [PKP Publishing Services](https://pkp.sfu.ca/hosting-services) provides complete hosting solutions for every budget.
 {:.tip}
 
-## What's New in OJS 3.3 {#whats-new}
+## What's New in OJS 3.4 {#whats-new}
 
-OJS 3.3 has a simplified dashboard navigation menu and new features related to submission management, communicating with users, and accessibility. This section will outline the main changes so you know what to expect when you upgrade to OJS 3.3. You can also watch [a video that demonstrates new features in OJS 3.3](https://youtu.be/3D_hS4Bd-Y8), created by [PKP Publishing Services](https://pkpservices.sfu.ca).
+### Workflow
 
-Many of these changes are applicable also to Open Monograph Press (OMP) and Open Preprint Systems (OPS).
+OJS 3.4 introduces several workflow changes, including a new submission wizard and an improved process for recording editorial decisions.
 
-If you are upgrading from OJS 2 and want to see an overview of changes in OJS 3.X, see [What’s New In OJS 3 in a previous version of this guide](https://docs.pkp.sfu.ca/learning-ojs/3.1/en/introduction#whats-new-in-ojs-3) and PKP’s guide to [Upgrading from OJS 2 to OJS 3](https://docs.pkp.sfu.ca/upgrading-ojs-2-to-3/). Please note that you will need to first upgrade from OJS 2 to OJS 3.2, and from there upgrade to OJS 3.3.
+![New submission wizard](./assets/learning-ojs3.4-submission-wizard.png)
 
-For a summary of changes in OJS 3.3 that are relevant to developers and development, please see the [Release Notebook for OJS OJS/OMP/OPS v3.3](https://docs.pkp.sfu.ca/dev/release-notebooks/en/3.3-release-notebook)
+![Editorial decision workflow and new email composition tools](./assets/learning-ojs3.4-editorial-decision.png)
 
-### Dashboard Interface and Navigation Menus
+OJS 3.4 introduces new tools for email composition, including the ability to write and select between multiple templates. The editorial decision toolset leverages these new tools, and they will be rolled out to other areas of the system in future releases.
 
-There are some changes to the dashboard interface and navigation menus for logged in users in OJS 3.3.
+For more information on the new editorial decisions workflow, see [slide deck](https://docs.google.com/presentation/d/e/2PACX-1vTpSVv_zY4RShrh3EfBZjHcRSYKVqDkzejDnESh6Bkg7uMgM8zFYZz-ha7j3iz_csTKump2_rI3YNWS/pub#slide=id.g16f0bb3e17f_0_26) and [video recording](https://youtu.be/JEJJ1FVpao0?t=1798).
 
-Journal Managers, Editors, Reviewers, Authors, and others who log in may notice a change in the main navigation menu on the left side. In 3.3, only users in roles who have access to the Settings menus (Journal Managers and Editors) will see the left-hand navigation menu. There are also additional menu links for Issues, Announcements, and Payments, and some of the menu links have moved.
+The default set of email templates that is included with OJS has been rewritten to be more inclusive and friendly.
 
-![The dashboard that Journal Managers see when logged in](./assets/learning-ojs-3.3-navigation-menu-dashboard-jm.png)
+### Statistics
 
-Users in other roles will not see the menu because they can only access the Submissions part of the menu.
+COUNTER support has been updated to [COUNTER Release 5](https://www.projectcounter.org/counter-release-5/), including tools to report on readership on based on region and institutional access. This has also introduced basic [ROR (Research Object Registry)](https://ror.org/) support for institutional subscriptions.
 
-![The dashboard that Authors see when logged in](./assets/learning-ojs-3.3-navigation-menu-dashboard-author.png)
+(See [slide deck](https://docs.google.com/presentation/d/e/2PACX-1vTpSVv_zY4RShrh3EfBZjHcRSYKVqDkzejDnESh6Bkg7uMgM8zFYZz-ha7j3iz_csTKump2_rI3YNWS/pub#slide=id.g16f0bb3e17f_0_44) and [video recording](https://youtu.be/JEJJ1FVpao0?t=122).)
 
-A user can now access their user profile and select a language on multilingual journals by clicking the person icon on the top right corner.
+### Permanent Identifiers
 
-![The menu where users can edit their profile and select a language](./assets/learning-ojs-3.3-navigation-menu-dashboard-user-menu.png)
+DOI and CrossRef support has been comphrehensively rewritten in consultation with CrossRef and to address common sources of confusion with the previous implementation.
 
-The link from the dashboard to the public journal site home page has moved. A Journal Manager or Editor can now view the public journal site by clicking the name of the journal that appears on the top left corner of the page. For multi-journal installations, you can click the site map symbol on the top left corner of the page and then a list of journals in the installation will appear below and you can select the site you want to view.
+(See [slide deck](https://docs.google.com/presentation/d/e/2PACX-1vTpSVv_zY4RShrh3EfBZjHcRSYKVqDkzejDnESh6Bkg7uMgM8zFYZz-ha7j3iz_csTKump2_rI3YNWS/pub#slide=id.g16f0bb3e17f_0_14) and [video recording](https://youtu.be/JEJJ1FVpao0?t=501).)
 
-![The link to view the public journal site](./assets/learning-ojs-3.3-navigation-menu-dashboard-view-journal.png)
+### Multi-Journal Installations
 
-### Editorial Workflow
+Site Administrators now have the same managerial access as Journal Managers regardless of whether they also have that role. This is intended to distinguish more clearly between Site Administrators (who are often system administrators or technical support, but are not active in journal workflow) from Journal Managers (who participate in workflow); in previous releases it was often necessary for administrators to have both roles assigned to be effective. (#7392)[https://github.com/pkp/pkp-lib/issues/7392]
 
-#### Uploading submission files
+Starting with OJS 3.4.0, Journal Managers now have the ability to control user enrolment in their journal regardless of whether the user is active in other journals. In previous releases, it was often necessary to escalate enrolment issues to Site Administrators when a user was active in multiple journals. (#7391)[https://github.com/pkp/pkp-lib/issues/7391]
 
-During submission, Authors can upload multiple files at once as well as drag-and-drop files. They are no longer asked to enter metadata such as a description, license, etc. This information can be entered during the workflow, where the old file upload wizard is still in use. You can find further instructions in the [Authoring chapter](./authoring#step-2).
+### Other Notable Changes
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="./assets/learning-ojs3.3-upload-submission-files.mp4" type="video/mp4">
-  </video>
-  <figcaption>A short video that demonstrates how files can be uploaded in OJS 3.3.</figcaption>
-</figure>
+- Submission titles can now contain limited formatting. This is particuarly important for articles referencing taxonomical names (which are typically formatted in italics) and for review articles (which may reference the reviewed resource by underlined title). (#2564)[https://github.com/pkp/pkp-lib/issues/2564]
+- The submission full-text index is no longer updated at the moment the user performs a new upload. In previous releases this was a frequent source of frustration and the update process could be time-consuming.=
 
-#### Submission filters
+### More Information
 
-All Active and Archived submissions can now be filtered by assigned issue and assigned Editor. Only Journal Managers can filter by assigned Editor. You can find further instructions in the [Editorial Workflow chapter](./editorial-workflow#submission-dashboard).
+For more detailed information on these changes, see the December 2022 Development Update presentation by the PKP Development Team, available as a [slide deck](https://docs.google.com/presentation/d/e/2PACX-1vTpSVv_zY4RShrh3EfBZjHcRSYKVqDkzejDnESh6Bkg7uMgM8zFYZz-ha7j3iz_csTKump2_rI3YNWS/pub) and [video recording](https://www.youtube.com/watch?v=JEJJ1FVpao0).
 
-#### Reverse a declined decision
-
-A new editorial action allows Editors to reverse a declined decision in the submission and review stages. After a declined decision is reverted, the submission is restored to its previous stage and review round if active. You can find further instructions in the [Editorial Workflow chapter](./editorial-workflow#assigning-the-submission).
-
-#### Delete only declined submissions
-
-Only declined submissions can be deleted from the submissions list. You can find further instructions in the [Editorial Workflow chapter](./editorial-workflow#archives).
-
-#### Review type terminology
-
-In previous versions of OJS, the review types were “Double Blind,” “Blind,” and “Open.” In OJS 3.3 these have been changed to “Anonymous Reviewer/Anonymous Author,” “Anonymous Reviewer/Disclosed Author,” and “Open.”
-
-#### Category displayed on article page
-
-An article’s assigned categories now appear on the article landing page. You can find further instructions in the [Journal Settings chapter](./journal-setup#categories).
-
-#### Disable submissions
-
-Journal Managers and Editors can configure the Workflow Settings to disable all submissions for a journal. This can be used by journals that are no longer accepting new content. You can find further instructions in the [Journal Settings chapter](./journal-setup#sections).
-
-### User Management and Communication
-
-#### Export users
-
-There is now an export tool available under Tools > Import/Export that can be used to export users to a CSV file. This can be used to import users into third-party mailing services. You can find further instructions in the [Users and Roles chapter](./users-and-roles#email-users).
-
-#### Notify users
-
-OJS 3.3 has a much-requested feature to notify, or send a message, to all users in a role. See the [Users and Roles chapter](./users-and-roles#email-users) for more details.
-
-#### Filter email templates by workflow stage
-
-When managing and editing email templates under Workflow Settings > Email, Journal Managers and Editors can filter the email templates by workflow stage. You can find further instructions in the [Workflow Settings chapter](./settings-workflow#filters).
-
-### Accessibility
-
-In 2019 OJS was audited for accessibility to people with disabilities and use assistive technology. All of the changes that were recommended by the audit have been implemented in OJS 3.3, including an accessible Default Theme and custom blocks now requiring a title. More information about custom blocks is in the [Website Settings chapter](./settings-website#custom-block-plugin).
-
-### For Multilingual Journals
-
-OJS 3.3 has a number of new features that improve usage for journals working and/or publishing in multiple languages.
-
-#### Date and time formats
-
-Date and time formats can now be specified for each journal and locale/language. Further instructions are in the [Website Settings chapter](./settings-website#date-and-time).
-
-#### Right-to-left languages
-
-There is better support for languages that read right-to-left, such as Arabic, Farsi, and Hebrew, in the rich text editor that appears in many form fields in OJS.
-
-#### Remote URLs
-Navigation menu items with remote URLs can now have different remote URLs for each language.
+For a summary of changes in OJS 3.4 that are relevant to developers and development, please see the [Release Notebook for OJS OJS/OMP/OPS v3.4](https://docs.pkp.sfu.ca/dev/release-notebooks/en/3.4-release-notebook).
 
 ## Community Contributions
 

@@ -6,7 +6,7 @@
   * [Download](./getting-started#download)
   * [Install](./getting-started#install)
 * [Deployment](./deploy)
-  * [Configuration](./deploy#configure)
+  * [Configuration](./deploy#configuration)
   * [Email](./deploy-email)
   * [Jobs](./deploy-jobs)
   * [Users](./deploy-users)

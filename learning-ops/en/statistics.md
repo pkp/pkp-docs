@@ -1,6 +1,7 @@
 ---
 book: learning-ops
-version: 3.3
+version: 3.4
+showPageTOC: true
 title: Statistics - Learning OPS
 ---
 # Statistics
@@ -17,6 +18,12 @@ The Preprints section provides a visual display as well as a table format of pre
 
 There are also a number of filters that can be used including date range and section. The search bar under Preprint Details can be used to search for the activity of a specific preprint manuscript.
 
+### Geographical and Institutional Statistics
+
+When Geographical and Institutional Statistics have been enabled (see the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics) for details), OPS can collect data about the readers' locations and institutions for statistical reporting. To access these reports, click "Download Report" and choose the report you wish to access.
+
+This information is also available via the COUNTER SUSHI interface. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics#counter) for details.
+
 ## Editorial Activity
 
 The Editorial activity statistics provides a visual graph and trend table with a summary of the editorial activity for your Server. This can be filtered for a specific date range.
@@ -29,6 +36,6 @@ Provides a summary of the number of users registered in your server and by roles
 
 ![The OPS User Report](./assets/learning-ops-statistics-users-report.png)
 
-## Report Generator
+## Reports
 
-You can generate statistical reports for usage and reviews or create a custom report. For information on how to use and configure statistics in OPS, see the relevant section in [Learning OJS](/learning-ojs/en/statistics#report-generator).
+The Reports page provides access to a variety of reports from your preprint server. The list may be expanded by installing additional plugins. For information on how to use and configure statistics in OPS, see the relevant section in [Learning OJS](/learning-ojs/en/statistics#reports).
