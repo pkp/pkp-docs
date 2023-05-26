@@ -64,7 +64,7 @@ When Geographical and Institutional Statistics have been enabled (see the [Admin
 
 This information is also available via the COUNTER SUSHI interface. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/statistics#counter) for details.
 
-## Institutional Statistics
+## Institutions
 
 When making institutional statistics available to institutional users, the settings must first be altered in journal setup (requires site admin privileges). In order to do this, go to Administration -> Site Settings -> Statistics, and select the checkbox under “Institutional Subscriptions” 
 
@@ -74,6 +74,8 @@ When making institutional statistics available to institutional users, the setti
 {:.warning}
 
 Similar to institutional subscriptions, OJS 3.4 has the ability to provide institutions with statistics regarding journal usage by institutions who are not subscribers. The data used as part of institutional statistics can be used for statistics as well as institutional subscriptions, and institutions will need to be entered into OJS first in order to capture their subscription information as well as their related statistics. 
+
+Pertinent details about institutions who are institutional subscribers can also be entered if the journal uses institutional subscriptions. 
 
 To add a new institution, select “Institutions” from the side menu, and you have the option to search through existing institutions records, or add a new institution. 
 
