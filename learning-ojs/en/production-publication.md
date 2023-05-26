@@ -408,7 +408,7 @@ The next step in publishing the submission is to check and finalize the metadata
 
 Before publishing the submission, you should check that the metadata for the article is complete and accurate in OJS and matches the metadata on the PDF. This is important for ensuring that the content is indexed by Google Scholar, discoverable by other services, and accessible to readers. To learn more, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
 
-You can check the metadata for the submission by going to **Submissions**, opening the submission, going to the **Publication** tab, and checking the **Title**, **Contributors**, and **Metadata** tabs.
+You can check the metadata for the submission by going to **Submissions**, opening the submission, going to the **Publication** tab, and checking the **Title**, **Contributors** (note that as of version 3.4 you can now edit the display order of Contributors), and **Metadata** tabs. 
 
 At this point you can also add the article to a category to display it on a thematic category page on your site and extract and save references (if you have not already).
 
