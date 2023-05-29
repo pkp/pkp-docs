@@ -1,8 +1,8 @@
 ---
 book: learning-ojs
-version: 3.3
+version: 3.4
 showPageTOC: true
-title: Learning Open Journal Systems 3.3 - Editorial Workflow
+title: Learning Open Journal Systems 3.4 - Editorial Workflow
 description: How to manage an article manuscript through the OJS workflow, from submission to publication.
 ---
 

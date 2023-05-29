@@ -1,8 +1,8 @@
 ---
 book: learning-ojs
-version: 3.3
+version: 3.4
 showPageTOC: true
-title: Learning Open Journal Systems 3.3 - Subscriptions
+title: Learning Open Journal Systems 3.4 - Subscriptions
 ---
 
 # Subscriptions
