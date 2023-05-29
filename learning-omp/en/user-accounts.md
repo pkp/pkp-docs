@@ -1,6 +1,6 @@
 ---
 book: learning-omp
-version: 3.3
+version: 3.4
 title: Learning OMP (Open Monograph Press) - User Accounts
 description: A guide to managing users, roles, and permissions in OMP.
 ---
