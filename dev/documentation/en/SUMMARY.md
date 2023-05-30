@@ -21,7 +21,7 @@
   * [ListPanels](./frontend-list-panels)
   * [Controllers](./frontend-controllers)
 * Utilities
-  * Application
+  * [Application](./utilities-application)
   * Cache
   * [Config](./utilities-config)
   * [Email](./utilities-email)
