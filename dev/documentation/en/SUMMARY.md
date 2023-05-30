@@ -29,10 +29,9 @@
   * [Files](./utilities-files)
   * [Hooks](./utilities-hooks)
   * [Jobs](./utilities-jobs)
-  * Migrations
+  * [Migrations](./utilities-migrations)
   * Notifications
   * [Translation](./utilities-translation)
-  * Updates
   * [Validation](./utilities-validation)
 * Other
   * [Decisions](./decisions)
