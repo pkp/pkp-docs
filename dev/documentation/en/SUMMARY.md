@@ -23,7 +23,7 @@
 * Utilities
   * Application
   * Cache
-  * Config
+  * [Config](./utilities-config)
   * [Email](./utilities-email)
   * [Events](./utilities-events)
   * [Files](./utilities-files)
