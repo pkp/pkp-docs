@@ -21,18 +21,17 @@
   * [ListPanels](./frontend-list-panels)
   * [Controllers](./frontend-controllers)
 * Utilities
-  * Application
+  * [Application](./utilities-application)
   * Cache
-  * Config
+  * [Config](./utilities-config)
   * [Email](./utilities-email)
   * [Events](./utilities-events)
   * [Files](./utilities-files)
   * [Hooks](./utilities-hooks)
   * [Jobs](./utilities-jobs)
-  * Migrations
+  * [Migrations](./utilities-migrations)
   * Notifications
   * [Translation](./utilities-translation)
-  * Updates
   * [Validation](./utilities-validation)
 * Other
   * [Decisions](./decisions)
