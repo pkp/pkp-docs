@@ -90,8 +90,8 @@ Use the `translate` modifier if you have a variable that contains a locale key.
 Use multiple `msgstr` entries and the `__p()` method to handle plural forms.
 
 ```
-msgid "example.pendingMessages"
-msgid_plural "example.pendingMessages"
+msgid "common.pendingMessages"
+msgid_plural "common.pendingMessages"
 msgstr[0] "You have one message pending."
 msgstr[1] "You have {$messageCount} messages pending."
 ```
