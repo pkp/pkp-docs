@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>user_user_groups - omp_3_4_0 Database</title>
+        <title>user_user_groups - omp-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>omp_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>omp-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,7 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>user_user_groups</h1><p><span id="recordNumber">1</span> rows</p><br />
+                    <h1>user_user_groups</h1><br />
                     <div class="box box-primary">
                         <div class="box-header with-border">
                             <i class="fa fa-file-text-o"></i>
@@ -116,8 +116,25 @@
                                 </thead>
                                 <tbody>
                                 <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="user_user_group_id">user_user_group_id</span></td>
+                                    <td>BIGINT UNSIGNED</td>
+                                    <td>20</td>
+                                    <td title=''></td>
+                                    <td title='Automatically updated by the database'>√</td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="user_group_id">user_group_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -138,7 +155,7 @@
                                 </tr>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="user_id">user_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -182,7 +199,13 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td class='uniqueKey' title='Unique Key'><i class='icon ion-key iconkey'></i> user_user_groups_pkey</td>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
+                                    <td>Primary key</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>user_user_group_id</td>
+                                </tr>
+                                <tr>
+                                    <td class='uniqueKey' title='Unique Key'><i class='icon ion-key iconkey'></i> user_user_groups_unique</td>
                                     <td>Must be unique</td>
                                     <td><span title='Ascending'>Asc</span>/<span title='Ascending'>Asc</span></td>
                                     <td>user_group_id + user_id</td>
@@ -222,37 +245,38 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="user_user_groups.html" target="_top" title="user_user_groups" alt="" coords="313,85,592,213">
+<area shape="rect" id="node1" href="user_user_groups.html" target="_top" title="user_user_groups" alt="" coords="313,56,692,213">
 <area shape="rect" id="node2" href="user_groups.html" target="_top" title="user_groups" alt="" coords="5,5,269,181">
-<area shape="rect" id="node3" href="users.html" target="_top" title="users" alt="" coords="7,199,268,316">
+<area shape="rect" id="node3" href="users.html" target="_top" title="users" alt="" coords="7,199,268,375">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/user_user_groups.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="access_keys.html" target="_top" title="access_keys" alt="" coords="401,321,592,409">
-<area shape="rect" id="node2" href="users.html" target="_top" title="users" alt="" coords="7,899,268,1016">
-<area shape="rect" id="node3" href="authors.html" target="_top" title="authors" alt="" coords="420,1941,573,2029">
-<area shape="rect" id="node4" href="user_groups.html" target="_top" title="user_groups" alt="" coords="5,1869,269,2045">
-<area shape="rect" id="node5" href="completed_payments.html" target="_top" title="completed_payments" alt="" coords="365,427,628,515">
-<area shape="rect" id="node6" href="edit_decisions.html" target="_top" title="edit_decisions" alt="" coords="393,532,600,620">
-<area shape="rect" id="node7" href="email_log_users.html" target="_top" title="email_log_users" alt="" coords="387,637,606,725">
-<area shape="rect" id="node8" href="event_log.html" target="_top" title="event_log" alt="" coords="412,743,581,831">
-<area shape="rect" id="node9" href="notes.html" target="_top" title="notes" alt="" coords="429,848,565,936">
-<area shape="rect" id="node10" href="notification_subscription_settings.html" target="_top" title="notification_subscription_settings" alt="" coords="313,953,680,1041">
-<area shape="rect" id="node11" href="query_participants.html" target="_top" title="query_participants" alt="" coords="375,1059,618,1147">
-<area shape="rect" id="node12" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="368,1164,625,1252">
-<area shape="rect" id="node13" href="sessions.html" target="_top" title="sessions" alt="" coords="416,1269,577,1357">
-<area shape="rect" id="node14" href="stage_assignments.html" target="_top" title="stage_assignments" alt="" coords="373,1585,620,1673">
-<area shape="rect" id="node15" href="subeditor_submission_group.html" target="_top" title="subeditor_submission_group" alt="" coords="336,1691,657,1779">
-<area shape="rect" id="node16" href="submission_comments.html" target="_top" title="submission_comments" alt="" coords="359,1375,634,1463">
-<area shape="rect" id="node17" href="submission_files.html" target="_top" title="submission_files" alt="" coords="385,1480,609,1568">
-<area shape="rect" id="node18" href="temporary_files.html" target="_top" title="temporary_files" alt="" coords="387,5,606,93">
-<area shape="rect" id="node19" href="user_group_settings.html" target="_top" title="user_group_settings" alt="" coords="369,2047,624,2135">
-<area shape="rect" id="node20" href="user_group_stage.html" target="_top" title="user_group_stage" alt="" coords="380,2152,613,2240">
-<area shape="rect" id="node21" href="user_interests.html" target="_top" title="user_interests" alt="" coords="393,111,600,199">
-<area shape="rect" id="node22" href="user_settings.html" target="_top" title="user_settings" alt="" coords="397,216,597,304">
-<area shape="rect" id="node23" href="user_user_groups.html" target="_top" title="user_user_groups" alt="" coords="357,1796,636,1924">
+<area shape="rect" id="node1" href="access_keys.html" target="_top" title="access_keys" alt="" coords="407,216,599,304">
+<area shape="rect" id="node2" href="users.html" target="_top" title="users" alt="" coords="7,951,268,1127">
+<area shape="rect" id="node3" href="authors.html" target="_top" title="authors" alt="" coords="426,2076,579,2164">
+<area shape="rect" id="node4" href="user_groups.html" target="_top" title="user_groups" alt="" coords="5,2004,269,2180">
+<area shape="rect" id="node5" href="completed_payments.html" target="_top" title="completed_payments" alt="" coords="371,321,634,409">
+<area shape="rect" id="node6" href="edit_decisions.html" target="_top" title="edit_decisions" alt="" coords="399,427,606,515">
+<area shape="rect" id="node7" href="email_log_users.html" target="_top" title="email_log_users" alt="" coords="393,532,612,620">
+<area shape="rect" id="node8" href="event_log.html" target="_top" title="event_log" alt="" coords="418,637,587,725">
+<area shape="rect" id="node9" href="notes.html" target="_top" title="notes" alt="" coords="435,743,571,831">
+<area shape="rect" id="node10" href="notification_subscription_settings.html" target="_top" title="notification_subscription_settings" alt="" coords="319,848,686,936">
+<area shape="rect" id="node11" href="notifications.html" target="_top" title="notifications" alt="" coords="406,953,599,1041">
+<area shape="rect" id="node12" href="query_participants.html" target="_top" title="query_participants" alt="" coords="381,1059,624,1147">
+<area shape="rect" id="node13" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="374,1164,631,1252">
+<area shape="rect" id="node14" href="sessions.html" target="_top" title="sessions" alt="" coords="422,1269,583,1357">
+<area shape="rect" id="node15" href="stage_assignments.html" target="_top" title="stage_assignments" alt="" coords="379,1691,626,1779">
+<area shape="rect" id="node16" href="subeditor_submission_group.html" target="_top" title="subeditor_submission_group" alt="" coords="342,1796,663,1884">
+<area shape="rect" id="node17" href="submission_comments.html" target="_top" title="submission_comments" alt="" coords="365,1375,640,1463">
+<area shape="rect" id="node18" href="submission_files.html" target="_top" title="submission_files" alt="" coords="391,1480,615,1568">
+<area shape="rect" id="node19" href="temporary_files.html" target="_top" title="temporary_files" alt="" coords="393,1585,612,1673">
+<area shape="rect" id="node20" href="user_group_settings.html" target="_top" title="user_group_settings" alt="" coords="375,2181,630,2269">
+<area shape="rect" id="node21" href="user_group_stage.html" target="_top" title="user_group_stage" alt="" coords="386,2287,619,2375">
+<area shape="rect" id="node22" href="user_interests.html" target="_top" title="user_interests" alt="" coords="399,5,606,93">
+<area shape="rect" id="node23" href="user_settings.html" target="_top" title="user_settings" alt="" coords="403,111,603,199">
+<area shape="rect" id="node24" href="user_user_groups.html" target="_top" title="user_user_groups" alt="" coords="313,1901,692,2059">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/user_user_groups.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>

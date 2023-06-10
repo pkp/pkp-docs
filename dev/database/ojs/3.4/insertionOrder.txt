@@ -5,12 +5,10 @@ review_forms
 data_object_tombstones
 files
 navigation_menu_items
-review_rounds
 controlled_vocabs
 email_log
 filter_groups
 navigation_menus
-notifications
 queries
 submission_search_keyword_list
 journals
@@ -23,6 +21,7 @@ issues
 genres
 submission_files
 categories
+review_rounds
 announcement_types
 subscription_types
 issue_files
@@ -37,9 +36,11 @@ citations
 email_templates
 event_log
 filters
+static_pages
 submission_search_objects
 library_files
 navigation_menu_item_assignments
+notifications
 subscriptions
 access_keys
 announcement_settings
@@ -71,6 +72,7 @@ review_form_element_settings
 review_form_settings
 section_settings
 sessions
+static_page_settings
 submission_file_settings
 submission_settings
 subscription_type_settings
@@ -90,7 +92,6 @@ publication_categories
 query_participants
 review_files
 review_form_responses
-review_round_files
 submission_comments
 submission_file_revisions
 submission_search_object_keywords
@@ -102,6 +103,7 @@ edit_decisions
 metrics_counter_submission_daily
 metrics_counter_submission_institution_monthly
 metrics_submission_geo_daily
+review_round_files
 stage_assignments
 subeditor_submission_group
 metrics_counter_submission_institution_daily
@@ -119,6 +121,4 @@ queued_payments
 scheduled_tasks
 site
 site_settings
-static_page_settings
-static_pages
 versions

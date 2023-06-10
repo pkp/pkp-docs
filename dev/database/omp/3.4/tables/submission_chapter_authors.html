@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>submission_chapter_authors - omp_3_4_0 Database</title>
+        <title>submission_chapter_authors - omp-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>omp_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>omp-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,20 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>submission_chapter_authors</h1><p><span id="recordNumber">0</span> rows</p><br />
+                    <h1>submission_chapter_authors</h1><br />
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-file-text-o"></i>
+                            <h3 id="Description" class="box-title">Description</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body clearfix">
+                            <p>The list of authors associated with each submission chapter.</p>
+                        </div><!-- /.box-body -->
+                    </div>
                 </section>
                 <!-- Main content -->
                 <section class="content">
@@ -104,7 +117,7 @@
                                 <tbody>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="author_id">author_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -125,7 +138,7 @@
                                 </tr>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="chapter_id">chapter_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -146,11 +159,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="primary_contact">primary_contact</span></td>
-                                    <td>int2</td>
+                                    <td>SMALLINT</td>
                                     <td>5</td>
                                     <td title=''></td>
                                     <td title=''></td>
-                                    <td>&#39;0&#39;::smallint</td>
+                                    <td>0</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -163,11 +176,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="seq">seq</span></td>
-                                    <td>float8</td>
-                                    <td>17,17</td>
+                                    <td>DOUBLE</td>
+                                    <td>8,2</td>
                                     <td title=''></td>
                                     <td title=''></td>
-                                    <td>&#39;0&#39;::double precision</td>
+                                    <td>0.00</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -243,7 +256,7 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="submission_chapter_authors.html" target="_top" title="submission_chapter_authors" alt="" coords="567,5,981,192">
+<area shape="rect" id="node1" href="submission_chapter_authors.html" target="_top" title="submission_chapter_authors" alt="" coords="567,5,971,192">
 <area shape="rect" id="node2" href="authors.html" target="_top" title="authors" alt="" coords="5,37,217,213">
 <area shape="rect" id="node3" href="submission_chapters.html" target="_top" title="submission_chapters" alt="" coords="261,60,523,295">
 </map>
@@ -251,20 +264,20 @@
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="author_settings.html" target="_top" title="author_settings" alt="" coords="709,260,928,348">
-<area shape="rect" id="node2" href="authors.html" target="_top" title="authors" alt="" coords="432,325,644,501">
-<area shape="rect" id="node3" href="publications.html" target="_top" title="publications" alt="" coords="197,357,388,445">
-<area shape="rect" id="node4" href="user_groups.html" target="_top" title="user_groups" alt="" coords="198,463,387,551">
-<area shape="rect" id="node7" href="dois.html" target="_top" title="dois" alt="" coords="5,447,153,535">
-<area shape="rect" id="node5" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1158,525,1409,613">
-<area shape="rect" id="node6" href="submission_chapters.html" target="_top" title="submission_chapters" alt="" coords="688,417,949,652">
-<area shape="rect" id="node8" href="submission_chapter_authors.html" target="_top" title="submission_chapter_authors" alt="" coords="1076,5,1491,192">
-<area shape="rect" id="node9" href="submission_chapter_settings.html" target="_top" title="submission_chapter_settings" alt="" coords="1120,631,1447,719">
-<area shape="rect" id="node10" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1085,736,1481,824">
-<area shape="rect" id="node11" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="993,841,1573,929">
-<area shape="rect" id="node12" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1016,209,1551,297">
-<area shape="rect" id="node13" href="usage_stats_unique_title_investigations_temporary_records.html" target="_top" title="usage_stats_unique_title_investigations_temporary_records" alt="" coords="995,315,1572,403">
-<area shape="rect" id="node14" href="usage_stats_unique_title_requests_temporary_records.html" target="_top" title="usage_stats_unique_title_requests_temporary_records" alt="" coords="1017,420,1549,508">
+<area shape="rect" id="node1" href="author_settings.html" target="_top" title="author_settings" alt="" coords="685,260,904,348">
+<area shape="rect" id="node2" href="authors.html" target="_top" title="authors" alt="" coords="408,325,620,501">
+<area shape="rect" id="node3" href="publications.html" target="_top" title="publications" alt="" coords="173,357,364,445">
+<area shape="rect" id="node4" href="user_groups.html" target="_top" title="user_groups" alt="" coords="174,463,363,551">
+<area shape="rect" id="node7" href="dois.html" target="_top" title="dois" alt="" coords="5,447,129,535">
+<area shape="rect" id="node5" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1134,525,1385,613">
+<area shape="rect" id="node6" href="submission_chapters.html" target="_top" title="submission_chapters" alt="" coords="664,417,925,652">
+<area shape="rect" id="node8" href="submission_chapter_authors.html" target="_top" title="submission_chapter_authors" alt="" coords="1057,5,1461,192">
+<area shape="rect" id="node9" href="submission_chapter_settings.html" target="_top" title="submission_chapter_settings" alt="" coords="1096,631,1423,719">
+<area shape="rect" id="node10" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1061,736,1457,824">
+<area shape="rect" id="node11" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="969,841,1549,929">
+<area shape="rect" id="node12" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="992,209,1527,297">
+<area shape="rect" id="node13" href="usage_stats_unique_title_investigations_temporary_records.html" target="_top" title="usage_stats_unique_title_investigations_temporary_records" alt="" coords="971,315,1548,403">
+<area shape="rect" id="node14" href="usage_stats_unique_title_requests_temporary_records.html" target="_top" title="usage_stats_unique_title_requests_temporary_records" alt="" coords="993,420,1525,508">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/submission_chapter_authors.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>

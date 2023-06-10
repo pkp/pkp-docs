@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>navigation_menu_item_assignments - ops_3_4_0 Database</title>
+        <title>navigation_menu_item_assignments - ojs-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>ops_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>ojs-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,20 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>navigation_menu_item_assignments</h1><p><span id="recordNumber">7</span> rows</p><br />
+                    <h1>navigation_menu_item_assignments</h1><br />
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-file-text-o"></i>
+                            <h3 id="Description" class="box-title">Description</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body clearfix">
+                            <p>Links navigation menu items to navigation menus.</p>
+                        </div><!-- /.box-body -->
+                    </div>
                 </section>
                 <!-- Main content -->
                 <section class="content">
@@ -104,11 +117,11 @@
                                 <tbody>
                                 <tr>
                                     <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="navigation_menu_item_assignment_id">navigation_menu_item_assignment_id</span></td>
-                                    <td>bigserial</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title='Automatically updated by the database'>√</td>
-                                    <td>nextval(&#39;navigation_menu_item_assignme_navigation_menu_item_assignme_seq&#39;::regclass)</td>
+                                    <td>null</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                             <tr>
@@ -125,7 +138,7 @@
                                 </tr>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="navigation_menu_id">navigation_menu_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -146,7 +159,7 @@
                                 </tr>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="navigation_menu_item_id">navigation_menu_item_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -158,8 +171,8 @@
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                             <tr>
-                                                <td title="navigation_menu_item_assignments.navigation_menu_item_id references navigation_menu_items.navigation_menu_item_id via navigation_menu_item_assignments_navigation_menu_item_id_foreig"><a href='navigation_menu_items.html'>navigation_menu_items</a><span class='relatedKey'>.navigation_menu_item_id</span></td>
-                                                <td class="constraint detail">navigation_menu_item_assignments_navigation_menu_item_id_foreig<span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
+                                                <td title="navigation_menu_item_assignments.navigation_menu_item_id references navigation_menu_items.navigation_menu_item_id via navigation_menu_item_assignments_navigation_menu_item_id_foreign"><a href='navigation_menu_items.html'>navigation_menu_items</a><span class='relatedKey'>.navigation_menu_item_id</span></td>
+                                                <td class="constraint detail">navigation_menu_item_assignments_navigation_menu_item_id_foreign<span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
                                             </tr>
                                         </table>
                                     </td>
@@ -167,11 +180,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="parent_id">parent_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -184,11 +197,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="seq">seq</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>&#39;0&#39;::bigint</td>
+                                    <td>0</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -224,7 +237,7 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> navigation_menu_item_assignments_pkey</td>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
                                     <td>Primary key</td>
                                     <td><span title='Ascending'>Asc</span></td>
                                     <td>navigation_menu_item_assignment_id</td>
@@ -264,20 +277,20 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="navigation_menu_item_assignment_settings.html" target="_top" title="navigation_menu_item_assignment_settings" alt="" coords="872,29,1321,205">
-<area shape="rect" id="node2" href="navigation_menu_item_assignments.html" target="_top" title="navigation_menu_item_assignments" alt="" coords="332,27,828,243">
-<area shape="rect" id="node3" href="navigation_menus.html" target="_top" title="navigation_menus" alt="" coords="27,5,266,123">
-<area shape="rect" id="node4" href="navigation_menu_items.html" target="_top" title="navigation_menu_items" alt="" coords="5,140,288,257">
+<area shape="rect" id="node1" href="navigation_menu_item_assignment_settings.html" target="_top" title="navigation_menu_item_assignment_settings" alt="" coords="851,5,1312,211">
+<area shape="rect" id="node2" href="navigation_menu_item_assignments.html" target="_top" title="navigation_menu_item_assignments" alt="" coords="332,32,807,248">
+<area shape="rect" id="node3" href="navigation_menus.html" target="_top" title="navigation_menus" alt="" coords="27,11,266,128">
+<area shape="rect" id="node4" href="navigation_menu_items.html" target="_top" title="navigation_menu_items" alt="" coords="5,145,288,263">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/navigation_menu_item_assignments.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="navigation_menu_item_assignment_settings.html" target="_top" title="navigation_menu_item_assignment_settings" alt="" coords="872,8,1321,184">
-<area shape="rect" id="node2" href="navigation_menu_item_assignments.html" target="_top" title="navigation_menu_item_assignments" alt="" coords="332,5,828,221">
-<area shape="rect" id="node3" href="navigation_menus.html" target="_top" title="navigation_menus" alt="" coords="27,37,266,155">
-<area shape="rect" id="node4" href="navigation_menu_items.html" target="_top" title="navigation_menu_items" alt="" coords="5,204,288,321">
-<area shape="rect" id="node5" href="navigation_menu_item_settings.html" target="_top" title="navigation_menu_item_settings" alt="" coords="407,239,753,327">
+<area shape="rect" id="node1" href="navigation_menu_item_assignment_settings.html" target="_top" title="navigation_menu_item_assignment_settings" alt="" coords="851,5,1312,211">
+<area shape="rect" id="node2" href="navigation_menu_item_assignments.html" target="_top" title="navigation_menu_item_assignments" alt="" coords="332,32,807,248">
+<area shape="rect" id="node3" href="navigation_menus.html" target="_top" title="navigation_menus" alt="" coords="27,64,266,181">
+<area shape="rect" id="node4" href="navigation_menu_items.html" target="_top" title="navigation_menu_items" alt="" coords="5,231,288,348">
+<area shape="rect" id="node5" href="navigation_menu_item_settings.html" target="_top" title="navigation_menu_item_settings" alt="" coords="396,265,743,353">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/navigation_menu_item_assignments.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>

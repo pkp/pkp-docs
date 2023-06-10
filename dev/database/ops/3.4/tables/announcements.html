@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>announcements - ops_3_4_0 Database</title>
+        <title>announcements - ojs-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>ops_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>ojs-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,20 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>announcements</h1><p><span id="recordNumber">0</span> rows</p><br />
+                    <h1>announcements</h1><br />
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-file-text-o"></i>
+                            <h3 id="Description" class="box-title">Description</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body clearfix">
+                            <p>Announcements are messages that can be presented to users e.g. on the homepage.</p>
+                        </div><!-- /.box-body -->
+                    </div>
                 </section>
                 <!-- Main content -->
                 <section class="content">
@@ -104,11 +117,11 @@
                                 <tbody>
                                 <tr>
                                     <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="announcement_id">announcement_id</span></td>
-                                    <td>bigserial</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title='Automatically updated by the database'>√</td>
-                                    <td>nextval(&#39;announcements_announcement_id_seq&#39;::regclass)</td>
+                                    <td>null</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                             <tr>
@@ -125,11 +138,11 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="assoc_type">assoc_type</span></td>
-                                    <td>int2</td>
+                                    <td>SMALLINT</td>
                                     <td>5</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -142,7 +155,7 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="assoc_id">assoc_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -159,11 +172,11 @@
                                 </tr>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="type_id">type_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -180,11 +193,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="date_expire">date_expire</span></td>
-                                    <td>date</td>
-                                    <td>13</td>
+                                    <td>DATE</td>
+                                    <td>10</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -197,8 +210,8 @@
                                 </tr>
                                 <tr>
                                     <td><span id="date_posted">date_posted</span></td>
-                                    <td>timestamp</td>
-                                    <td>22</td>
+                                    <td>DATETIME</td>
+                                    <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
                                     <td>null</td>
@@ -237,7 +250,7 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> announcements_pkey</td>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
                                     <td>Primary key</td>
                                     <td><span title='Ascending'>Asc</span></td>
                                     <td>announcement_id</td>
@@ -277,19 +290,19 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="announcement_settings.html" target="_top" title="announcement_settings" alt="" coords="688,8,973,184">
-<area shape="rect" id="node2" href="announcements.html" target="_top" title="announcements" alt="" coords="313,5,644,251">
-<area shape="rect" id="node3" href="announcement_types.html" target="_top" title="announcement_types" alt="" coords="5,96,269,219">
+<area shape="rect" id="node1" href="announcement_settings.html" target="_top" title="announcement_settings" alt="" coords="676,5,961,211">
+<area shape="rect" id="node2" href="announcements.html" target="_top" title="announcements" alt="" coords="313,32,632,277">
+<area shape="rect" id="node3" href="announcement_types.html" target="_top" title="announcement_types" alt="" coords="5,123,269,245">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/announcements.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="announcement_settings.html" target="_top" title="announcement_settings" alt="" coords="884,8,1169,184">
-<area shape="rect" id="node2" href="announcements.html" target="_top" title="announcements" alt="" coords="509,5,840,251">
-<area shape="rect" id="node4" href="announcement_types.html" target="_top" title="announcement_types" alt="" coords="201,181,465,304">
-<area shape="rect" id="node3" href="announcement_type_settings.html" target="_top" title="announcement_type_settings" alt="" coords="510,268,839,356">
-<area shape="rect" id="node5" href="servers.html" target="_top" title="servers" alt="" coords="5,213,157,301">
+<area shape="rect" id="node1" href="announcement_settings.html" target="_top" title="announcement_settings" alt="" coords="887,5,1172,211">
+<area shape="rect" id="node2" href="announcements.html" target="_top" title="announcements" alt="" coords="519,32,837,277">
+<area shape="rect" id="node4" href="announcement_types.html" target="_top" title="announcement_types" alt="" coords="205,208,469,331">
+<area shape="rect" id="node3" href="announcement_type_settings.html" target="_top" title="announcement_type_settings" alt="" coords="513,295,843,383">
+<area shape="rect" id="node5" href="journals.html" target="_top" title="journals" alt="" coords="5,240,161,328">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/announcements.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>

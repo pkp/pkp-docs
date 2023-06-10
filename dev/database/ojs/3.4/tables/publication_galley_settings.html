@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>publication_galley_settings - ojs_3_4_0 Database</title>
+        <title>publication_galley_settings - ojs-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>ojs_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>ojs-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,20 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>publication_galley_settings</h1><p><span id="recordNumber">0</span> rows</p><br />
+                    <h1>publication_galley_settings</h1><br />
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-file-text-o"></i>
+                            <h3 id="Description" class="box-title">Description</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body clearfix">
+                            <p>More data about publication galleys, including localized content such as labels.</p>
+                        </div><!-- /.box-body -->
+                    </div>
                 </section>
                 <!-- Main content -->
                 <section class="content">
@@ -103,8 +116,25 @@
                                 </thead>
                                 <tbody>
                                 <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="publication_galley_setting_id">publication_galley_setting_id</span></td>
+                                    <td>BIGINT UNSIGNED</td>
+                                    <td>20</td>
+                                    <td title=''></td>
+                                    <td title='Automatically updated by the database'>√</td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="galley_id">galley_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -125,11 +155,11 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="locale">locale</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>14</td>
                                     <td title=''></td>
                                     <td title=''></td>
-                                    <td>&#39;&#39;::character varying</td>
+                                    <td>&#39;&#39;</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -142,7 +172,7 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="setting_name">setting_name</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>255</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -159,11 +189,11 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="setting_value">setting_value</span></td>
-                                    <td>text</td>
-                                    <td>2147483647</td>
+                                    <td>MEDIUMTEXT</td>
+                                    <td>16777215</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -199,6 +229,12 @@
                                 </thead>
                                 <tbody>
                                 <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
+                                    <td>Primary key</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>publication_galley_setting_id</td>
+                                </tr>
+                                <tr>
                                     <td title='Indexed'>publication_galley_settings_galley_id</td>
                                     <td>Performance</td>
                                     <td><span title='Ascending'>Asc</span></td>
@@ -211,7 +247,7 @@
                                     <td>setting_name + setting_value</td>
                                 </tr>
                                 <tr>
-                                    <td class='uniqueKey' title='Unique Key'><i class='icon ion-key iconkey'></i> publication_galley_settings_pkey</td>
+                                    <td class='uniqueKey' title='Unique Key'><i class='icon ion-key iconkey'></i> publication_galley_settings_unique</td>
                                     <td>Must be unique</td>
                                     <td><span title='Ascending'>Asc</span>/<span title='Ascending'>Asc</span>/<span title='Ascending'>Asc</span></td>
                                     <td>galley_id + locale + setting_name</td>
@@ -239,22 +275,22 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="publication_galley_settings.html" target="_top" title="publication_galley_settings" alt="" coords="296,5,736,192">
-<area shape="rect" id="node2" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="5,8,252,243">
+<area shape="rect" id="node1" href="publication_galley_settings.html" target="_top" title="publication_galley_settings" alt="" coords="296,5,792,221">
+<area shape="rect" id="node2" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="5,37,252,272">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/publication_galley_settings.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="921,5,1171,93">
-<area shape="rect" id="node2" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="465,205,712,440">
-<area shape="rect" id="node3" href="submission_files.html" target="_top" title="submission_files" alt="" coords="197,267,421,355">
-<area shape="rect" id="node5" href="dois.html" target="_top" title="dois" alt="" coords="5,248,153,336">
-<area shape="rect" id="node6" href="publications.html" target="_top" title="publications" alt="" coords="214,161,405,249">
-<area shape="rect" id="node4" href="publication_galley_settings.html" target="_top" title="publication_galley_settings" alt="" coords="826,216,1266,403">
-<area shape="rect" id="node7" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="848,111,1244,199">
-<area shape="rect" id="node8" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="756,420,1336,508">
-<area shape="rect" id="node9" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="779,525,1313,613">
+<area shape="rect" id="node1" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="897,5,1147,93">
+<area shape="rect" id="node2" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="441,235,688,469">
+<area shape="rect" id="node3" href="submission_files.html" target="_top" title="submission_files" alt="" coords="173,296,397,384">
+<area shape="rect" id="node5" href="dois.html" target="_top" title="dois" alt="" coords="5,277,129,365">
+<area shape="rect" id="node6" href="publications.html" target="_top" title="publications" alt="" coords="190,191,381,279">
+<area shape="rect" id="node4" href="publication_galley_settings.html" target="_top" title="publication_galley_settings" alt="" coords="774,216,1270,432">
+<area shape="rect" id="node7" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="824,111,1220,199">
+<area shape="rect" id="node8" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="732,449,1312,537">
+<area shape="rect" id="node9" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="755,555,1289,643">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/publication_galley_settings.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>

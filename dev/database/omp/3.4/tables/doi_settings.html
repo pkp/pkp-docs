@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>doi_settings - omp_3_4_0 Database</title>
+        <title>doi_settings - omp-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>omp_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>omp-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,20 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>doi_settings</h1><p><span id="recordNumber">0</span> rows</p><br />
+                    <h1>doi_settings</h1><br />
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-file-text-o"></i>
+                            <h3 id="Description" class="box-title">Description</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body clearfix">
+                            <p>More data about DOIs, including the registration agency.</p>
+                        </div><!-- /.box-body -->
+                    </div>
                 </section>
                 <!-- Main content -->
                 <section class="content">
@@ -103,8 +116,25 @@
                                 </thead>
                                 <tbody>
                                 <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="doi_setting_id">doi_setting_id</span></td>
+                                    <td>BIGINT UNSIGNED</td>
+                                    <td>20</td>
+                                    <td title=''></td>
+                                    <td title='Automatically updated by the database'>√</td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="doi_id">doi_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -125,11 +155,11 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="locale">locale</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>14</td>
                                     <td title=''></td>
                                     <td title=''></td>
-                                    <td>&#39;&#39;::character varying</td>
+                                    <td>&#39;&#39;</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -142,7 +172,7 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="setting_name">setting_name</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>255</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -159,11 +189,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="setting_value">setting_value</span></td>
-                                    <td>text</td>
-                                    <td>2147483647</td>
+                                    <td>MEDIUMTEXT</td>
+                                    <td>16777215</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -199,13 +229,19 @@
                                 </thead>
                                 <tbody>
                                 <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
+                                    <td>Primary key</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>doi_setting_id</td>
+                                </tr>
+                                <tr>
                                     <td title='Indexed'>doi_settings_doi_id</td>
                                     <td>Performance</td>
                                     <td><span title='Ascending'>Asc</span></td>
                                     <td>doi_id</td>
                                 </tr>
                                 <tr>
-                                    <td class='uniqueKey' title='Unique Key'><i class='icon ion-key iconkey'></i> doi_settings_pkey</td>
+                                    <td class='uniqueKey' title='Unique Key'><i class='icon ion-key iconkey'></i> doi_settings_unique</td>
                                     <td>Must be unique</td>
                                     <td><span title='Ascending'>Asc</span>/<span title='Ascending'>Asc</span>/<span title='Ascending'>Asc</span></td>
                                     <td>doi_id + locale + setting_name</td>
@@ -233,20 +269,20 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="doi_settings.html" target="_top" title="doi_settings" alt="" coords="197,5,515,192">
-<area shape="rect" id="node2" href="dois.html" target="_top" title="dois" alt="" coords="5,8,153,155">
+<area shape="rect" id="node1" href="doi_settings.html" target="_top" title="doi_settings" alt="" coords="191,5,551,221">
+<area shape="rect" id="node2" href="dois.html" target="_top" title="dois" alt="" coords="5,37,147,184">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/doi_settings.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="doi_settings.html" target="_top" title="doi_settings" alt="" coords="396,5,713,192">
-<area shape="rect" id="node2" href="dois.html" target="_top" title="dois" alt="" coords="204,243,352,389">
-<area shape="rect" id="node3" href="presses.html" target="_top" title="presses" alt="" coords="5,275,160,363">
-<area shape="rect" id="node4" href="publication_formats.html" target="_top" title="publication_formats" alt="" coords="762,181,1014,269">
-<area shape="rect" id="node5" href="publications.html" target="_top" title="publications" alt="" coords="459,245,650,333">
-<area shape="rect" id="node6" href="submission_chapters.html" target="_top" title="submission_chapters" alt="" coords="757,296,1019,384">
-<area shape="rect" id="node7" href="submission_files.html" target="_top" title="submission_files" alt="" coords="443,387,667,475">
+<area shape="rect" id="node1" href="doi_settings.html" target="_top" title="doi_settings" alt="" coords="389,5,749,221">
+<area shape="rect" id="node2" href="dois.html" target="_top" title="dois" alt="" coords="204,272,345,419">
+<area shape="rect" id="node3" href="presses.html" target="_top" title="presses" alt="" coords="5,304,160,392">
+<area shape="rect" id="node4" href="publication_formats.html" target="_top" title="publication_formats" alt="" coords="798,211,1050,299">
+<area shape="rect" id="node5" href="publications.html" target="_top" title="publications" alt="" coords="474,275,665,363">
+<area shape="rect" id="node6" href="submission_chapters.html" target="_top" title="submission_chapters" alt="" coords="793,325,1055,413">
+<area shape="rect" id="node7" href="submission_files.html" target="_top" title="submission_files" alt="" coords="457,416,681,504">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/doi_settings.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>

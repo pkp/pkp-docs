@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>job_batches - ojs_3_4_0 Database</title>
+        <title>job_batches - ojs-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>ojs_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>ojs-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,20 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>job_batches</h1><p><span id="recordNumber">0</span> rows</p><br />
+                    <h1>job_batches</h1><br />
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-file-text-o"></i>
+                            <h3 id="Description" class="box-title">Description</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body clearfix">
+                            <p>Job batches allow jobs to be collected into groups for managed processing.</p>
+                        </div><!-- /.box-body -->
+                    </div>
                 </section>
                 <!-- Main content -->
                 <section class="content">
@@ -104,7 +117,7 @@
                                 <tbody>
                                 <tr>
                                     <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="id">id</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>255</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -161,7 +174,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="name">name</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>255</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -178,7 +191,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="total_jobs">total_jobs</span></td>
-                                    <td>int4</td>
+                                    <td>INT</td>
                                     <td>10</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -195,7 +208,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="pending_jobs">pending_jobs</span></td>
-                                    <td>int4</td>
+                                    <td>INT</td>
                                     <td>10</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -212,7 +225,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="failed_jobs">failed_jobs</span></td>
-                                    <td>int4</td>
+                                    <td>INT</td>
                                     <td>10</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -229,8 +242,8 @@
                                 </tr>
                                 <tr>
                                     <td><span id="failed_job_ids">failed_job_ids</span></td>
-                                    <td>text</td>
-                                    <td>2147483647</td>
+                                    <td>TEXT</td>
+                                    <td>65535</td>
                                     <td title=''></td>
                                     <td title=''></td>
                                     <td>null</td>
@@ -246,11 +259,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="options">options</span></td>
-                                    <td>text</td>
-                                    <td>2147483647</td>
+                                    <td>MEDIUMTEXT</td>
+                                    <td>16777215</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -263,11 +276,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="cancelled_at">cancelled_at</span></td>
-                                    <td>int4</td>
+                                    <td>INT</td>
                                     <td>10</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -280,7 +293,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="created_at">created_at</span></td>
-                                    <td>int4</td>
+                                    <td>INT</td>
                                     <td>10</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -297,11 +310,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="finished_at">finished_at</span></td>
-                                    <td>int4</td>
+                                    <td>INT</td>
                                     <td>10</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -337,7 +350,7 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> job_batches_pkey</td>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
                                     <td>Primary key</td>
                                     <td><span title='Ascending'>Asc</span></td>
                                     <td>id</td>
@@ -366,46 +379,46 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="job_batches.html" target="_top" title="job_batches" alt="" coords="5,5,323,368">
+<area shape="rect" id="node1" href="job_batches.html" target="_top" title="job_batches" alt="" coords="5,5,363,368">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/job_batches.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="oneimpliedDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagramImplied" name="oneDegreeRelationshipsDiagramImplied">
-<area shape="rect" id="node1" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="551,5,772,152">
-<area shape="rect" id="node2" href="job_batches.html" target="_top" title="job_batches" alt="" coords="5,1020,323,1383">
-<area shape="rect" id="node3" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="477,169,845,375">
-<area shape="rect" id="node4" href="metrics_counter_submission_institution_daily.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="431,392,891,627">
-<area shape="rect" id="node5" href="metrics_issue.html" target="_top" title="metrics_issue" alt="" coords="560,644,763,849">
-<area shape="rect" id="node6" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="536,867,787,1160">
-<area shape="rect" id="node7" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="494,1177,829,1471">
-<area shape="rect" id="node8" href="usage_stats_institution_temporary_records.html" target="_top" title="usage_stats_institution_temporary_records" alt="" coords="440,1488,883,1640">
-<area shape="rect" id="node9" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="463,1657,859,1951">
-<area shape="rect" id="node10" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="367,1968,956,2203">
-<area shape="rect" id="node11" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="391,2220,931,2455">
+<area shape="rect" id="node1" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="591,5,812,181">
+<area shape="rect" id="node2" href="job_batches.html" target="_top" title="job_batches" alt="" coords="5,1181,363,1544">
+<area shape="rect" id="node3" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="511,199,891,433">
+<area shape="rect" id="node4" href="metrics_counter_submission_institution_daily.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="461,451,942,715">
+<area shape="rect" id="node5" href="metrics_issue.html" target="_top" title="metrics_issue" alt="" coords="600,732,803,967">
+<area shape="rect" id="node6" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="576,984,827,1307">
+<area shape="rect" id="node7" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="529,1324,873,1647">
+<area shape="rect" id="node8" href="usage_stats_institution_temporary_records.html" target="_top" title="usage_stats_institution_temporary_records" alt="" coords="480,1664,923,1845">
+<area shape="rect" id="node9" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="503,1863,899,2185">
+<area shape="rect" id="node10" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="407,2203,996,2467">
+<area shape="rect" id="node11" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="431,2484,971,2748">
 </map>
                                         <a name='diagram'><img id="oneimpliedDegreeImg" src="../diagrams/tables/job_batches.implied1degrees.png" usemap="#oneDegreeRelationshipsDiagramImplied" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="twoimpliedDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagramImplied" name="twoDegreesRelationshipsDiagramImplied">
-<area shape="rect" id="node1" href="institutions.html" target="_top" title="institutions" alt="" coords="468,1487,652,1575">
-<area shape="rect" id="node2" href="journals.html" target="_top" title="journals" alt="" coords="200,1413,357,1501">
-<area shape="rect" id="node4" href="issues.html" target="_top" title="issues" alt="" coords="8,1828,156,1916">
-<area shape="rect" id="node3" href="issue_galleys.html" target="_top" title="issue_galleys" alt="" coords="461,1901,659,1989">
-<area shape="rect" id="node5" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="882,1167,1103,1313">
-<area shape="rect" id="node6" href="job_batches.html" target="_top" title="job_batches" alt="" coords="401,1035,719,1397">
-<area shape="rect" id="node7" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="809,489,1177,695">
-<area shape="rect" id="node8" href="submissions.html" target="_top" title="submissions" alt="" coords="465,416,655,504">
-<area shape="rect" id="node9" href="metrics_counter_submission_institution_daily.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="763,1331,1223,1565">
-<area shape="rect" id="node10" href="metrics_issue.html" target="_top" title="metrics_issue" alt="" coords="891,1788,1094,1993">
-<area shape="rect" id="node11" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1727,257,1977,551">
-<area shape="rect" id="node12" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="1267,348,1513,436">
-<area shape="rect" id="node13" href="submission_files.html" target="_top" title="submission_files" alt="" coords="881,312,1105,400">
-<area shape="rect" id="node14" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="825,712,1160,1005">
-<area shape="rect" id="node15" href="usage_stats_institution_temporary_records.html" target="_top" title="usage_stats_institution_temporary_records" alt="" coords="771,1583,1214,1735">
-<area shape="rect" id="node16" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1654,1848,2050,2141">
-<area shape="rect" id="node17" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1557,5,2147,240">
-<area shape="rect" id="node18" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1582,568,2122,803">
+<area shape="rect" id="node1" href="institutions.html" target="_top" title="institutions" alt="" coords="479,1617,663,1705">
+<area shape="rect" id="node2" href="journals.html" target="_top" title="journals" alt="" coords="192,1544,348,1632">
+<area shape="rect" id="node4" href="issues.html" target="_top" title="issues" alt="" coords="5,2063,148,2151">
+<area shape="rect" id="node3" href="issue_galleys.html" target="_top" title="issue_galleys" alt="" coords="471,2136,670,2224">
+<area shape="rect" id="node5" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="923,1284,1145,1460">
+<area shape="rect" id="node6" href="job_batches.html" target="_top" title="job_batches" alt="" coords="392,1165,749,1528">
+<area shape="rect" id="node7" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="844,548,1224,783">
+<area shape="rect" id="node8" href="submissions.html" target="_top" title="submissions" alt="" coords="475,475,666,563">
+<area shape="rect" id="node9" href="metrics_counter_submission_institution_daily.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="793,1477,1275,1741">
+<area shape="rect" id="node10" href="metrics_issue.html" target="_top" title="metrics_issue" alt="" coords="933,1993,1135,2228">
+<area shape="rect" id="node11" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1779,287,2029,609">
+<area shape="rect" id="node12" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="1319,407,1565,495">
+<area shape="rect" id="node13" href="submission_files.html" target="_top" title="submission_files" alt="" coords="922,371,1146,459">
+<area shape="rect" id="node14" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="862,800,1206,1123">
+<area shape="rect" id="node15" href="usage_stats_institution_temporary_records.html" target="_top" title="usage_stats_institution_temporary_records" alt="" coords="813,1759,1255,1940">
+<area shape="rect" id="node16" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1706,2053,2102,2376">
+<area shape="rect" id="node17" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1609,5,2199,269">
+<area shape="rect" id="node18" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1634,627,2174,891">
 </map>
                                         <a name='diagram'><img id="twoimpliedDegreeImg" src="../diagrams/tables/job_batches.implied2degrees.png" usemap="#twoDegreesRelationshipsDiagramImplied" class="diagram" border="0" align="left"></a>
                                     </div>

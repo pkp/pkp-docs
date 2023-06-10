@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>review_forms - omp_3_4_0 Database</title>
+        <title>review_forms - omp-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>omp_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>omp-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,20 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>review_forms</h1><p><span id="recordNumber">0</span> rows</p><br />
+                    <h1>review_forms</h1><br />
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-file-text-o"></i>
+                            <h3 id="Description" class="box-title">Description</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body clearfix">
+                            <p>Review forms provide custom templates for peer reviews with several types of questions.</p>
+                        </div><!-- /.box-body -->
+                    </div>
                 </section>
                 <!-- Main content -->
                 <section class="content">
@@ -104,11 +117,11 @@
                                 <tbody>
                                 <tr>
                                     <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="review_form_id">review_form_id</span></td>
-                                    <td>bigserial</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title='Automatically updated by the database'>√</td>
-                                    <td>nextval(&#39;review_forms_review_form_id_seq&#39;::regclass)</td>
+                                    <td>null</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                             <tr>
@@ -137,7 +150,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="assoc_type">assoc_type</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -154,7 +167,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="assoc_id">assoc_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -171,11 +184,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="seq">seq</span></td>
-                                    <td>float8</td>
-                                    <td>17,17</td>
+                                    <td>DOUBLE</td>
+                                    <td>8,2</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -188,11 +201,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="is_active">is_active</span></td>
-                                    <td>int2</td>
+                                    <td>SMALLINT</td>
                                     <td>5</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -228,7 +241,7 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> review_forms_pkey</td>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
                                     <td>Primary key</td>
                                     <td><span title='Ascending'>Asc</span></td>
                                     <td>review_form_id</td>
@@ -256,33 +269,33 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="343,5,617,240">
-<area shape="rect" id="node2" href="review_forms.html" target="_top" title="review_forms" alt="" coords="5,352,299,568">
-<area shape="rect" id="node3" href="review_form_elements.html" target="_top" title="review_form_elements" alt="" coords="343,257,617,404">
-<area shape="rect" id="node4" href="review_form_settings.html" target="_top" title="review_form_settings" alt="" coords="347,421,613,597">
-<area shape="rect" id="node5" href="series.html" target="_top" title="series" alt="" coords="380,615,580,820">
+<area shape="rect" id="node1" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="333,5,606,240">
+<area shape="rect" id="node2" href="review_forms.html" target="_top" title="review_forms" alt="" coords="5,367,288,583">
+<area shape="rect" id="node3" href="review_form_elements.html" target="_top" title="review_form_elements" alt="" coords="332,257,607,404">
+<area shape="rect" id="node4" href="review_form_settings.html" target="_top" title="review_form_settings" alt="" coords="337,421,602,627">
+<area shape="rect" id="node5" href="series.html" target="_top" title="series" alt="" coords="369,644,569,849">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/review_forms.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="metrics_series.html" target="_top" title="metrics_series" alt="" coords="665,34,874,122">
-<area shape="rect" id="node2" href="presses.html" target="_top" title="presses" alt="" coords="75,120,229,208">
-<area shape="rect" id="node3" href="series.html" target="_top" title="series" alt="" coords="375,173,575,378">
-<area shape="rect" id="node7" href="review_forms.html" target="_top" title="review_forms" alt="" coords="5,572,299,788">
-<area shape="rect" id="node4" href="publications.html" target="_top" title="publications" alt="" coords="674,281,865,369">
-<area shape="rect" id="node5" href="submissions.html" target="_top" title="submissions" alt="" coords="940,281,1131,369">
-<area shape="rect" id="node6" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="1245,325,1519,560">
-<area shape="rect" id="node8" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="931,492,1140,580">
-<area shape="rect" id="node9" href="users.html" target="_top" title="users" alt="" coords="968,386,1103,474">
-<area shape="rect" id="node10" href="review_files.html" target="_top" title="review_files" alt="" coords="1699,328,1887,416">
-<area shape="rect" id="node11" href="review_form_element_settings.html" target="_top" title="review_form_element_settings" alt="" coords="1624,580,1963,668">
-<area shape="rect" id="node12" href="review_form_elements.html" target="_top" title="review_form_elements" alt="" coords="1245,577,1519,724">
-<area shape="rect" id="node13" href="review_form_responses.html" target="_top" title="review_form_responses" alt="" coords="1652,453,1935,541">
-<area shape="rect" id="node14" href="review_form_settings.html" target="_top" title="review_form_settings" alt="" coords="343,669,608,845">
-<area shape="rect" id="node15" href="series_categories.html" target="_top" title="series_categories" alt="" coords="652,386,887,474">
-<area shape="rect" id="node16" href="series_settings.html" target="_top" title="series_settings" alt="" coords="662,176,877,264">
-<area shape="rect" id="node17" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1184,102,1580,190">
+<area shape="rect" id="node1" href="metrics_series.html" target="_top" title="metrics_series" alt="" coords="654,88,863,176">
+<area shape="rect" id="node2" href="presses.html" target="_top" title="presses" alt="" coords="69,42,224,130">
+<area shape="rect" id="node3" href="series.html" target="_top" title="series" alt="" coords="365,258,565,464">
+<area shape="rect" id="node7" href="review_forms.html" target="_top" title="review_forms" alt="" coords="5,520,288,736">
+<area shape="rect" id="node4" href="publications.html" target="_top" title="publications" alt="" coords="663,193,854,281">
+<area shape="rect" id="node5" href="submissions.html" target="_top" title="submissions" alt="" coords="920,193,1111,281">
+<area shape="rect" id="node6" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="1595,102,1869,337">
+<area shape="rect" id="node8" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="1248,193,1457,281">
+<area shape="rect" id="node9" href="users.html" target="_top" title="users" alt="" coords="1285,88,1420,176">
+<area shape="rect" id="node10" href="review_files.html" target="_top" title="review_files" alt="" coords="1989,105,2177,193">
+<area shape="rect" id="node11" href="review_form_element_settings.html" target="_top" title="review_form_element_settings" alt="" coords="1913,436,2252,524">
+<area shape="rect" id="node12" href="review_form_elements.html" target="_top" title="review_form_elements" alt="" coords="1595,433,1869,580">
+<area shape="rect" id="node13" href="review_form_responses.html" target="_top" title="review_form_responses" alt="" coords="1941,230,2224,318">
+<area shape="rect" id="node14" href="review_form_settings.html" target="_top" title="review_form_settings" alt="" coords="332,617,597,822">
+<area shape="rect" id="node15" href="series_categories.html" target="_top" title="series_categories" alt="" coords="641,334,876,422">
+<area shape="rect" id="node16" href="series_settings.html" target="_top" title="series_settings" alt="" coords="651,440,866,528">
+<area shape="rect" id="node17" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1155,298,1551,386">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/review_forms.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>

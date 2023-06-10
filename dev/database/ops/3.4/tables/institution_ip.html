@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>institution_ip - ops_3_4_0 Database</title>
+        <title>institution_ip - ojs-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>ops_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>ojs-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,20 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>institution_ip</h1><p><span id="recordNumber">0</span> rows</p><br />
+                    <h1>institution_ip</h1><br />
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-file-text-o"></i>
+                            <h3 id="Description" class="box-title">Description</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body clearfix">
+                            <p>Records IP address ranges and associates them with institutions.</p>
+                        </div><!-- /.box-body -->
+                    </div>
                 </section>
                 <!-- Main content -->
                 <section class="content">
@@ -104,11 +117,11 @@
                                 <tbody>
                                 <tr>
                                     <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="institution_ip_id">institution_ip_id</span></td>
-                                    <td>bigserial</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title='Automatically updated by the database'>√</td>
-                                    <td>nextval(&#39;institution_ip_institution_ip_id_seq&#39;::regclass)</td>
+                                    <td>null</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -121,7 +134,7 @@
                                 </tr>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="institution_id">institution_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -142,7 +155,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="ip_string">ip_string</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>40</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -159,7 +172,7 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="ip_start">ip_start</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -176,11 +189,11 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="ip_end">ip_end</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -216,7 +229,7 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> institution_ip_pkey</td>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
                                     <td>Primary key</td>
                                     <td><span title='Ascending'>Asc</span></td>
                                     <td>institution_ip_id</td>
@@ -262,20 +275,21 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="institution_ip.html" target="_top" title="institution_ip" alt="" coords="233,5,532,221">
+<area shape="rect" id="node1" href="institution_ip.html" target="_top" title="institution_ip" alt="" coords="233,5,525,221">
 <area shape="rect" id="node2" href="institutions.html" target="_top" title="institutions" alt="" coords="5,37,189,184">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/institution_ip.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="institution_ip.html" target="_top" title="institution_ip" alt="" coords="523,5,822,221">
-<area shape="rect" id="node2" href="institutions.html" target="_top" title="institutions" alt="" coords="201,341,385,488">
-<area shape="rect" id="node4" href="servers.html" target="_top" title="servers" alt="" coords="5,468,157,556">
-<area shape="rect" id="node3" href="institution_settings.html" target="_top" title="institution_settings" alt="" coords="548,239,797,327">
-<area shape="rect" id="node5" href="metrics_counter_submission_institution_daily.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="443,449,903,537">
-<area shape="rect" id="node6" href="metrics_counter_submission_institution_monthly.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="429,555,916,643">
-<area shape="rect" id="node7" href="usage_stats_institution_temporary_records.html" target="_top" title="usage_stats_institution_temporary_records" alt="" coords="451,344,894,432">
+<area shape="rect" id="node1" href="institution_ip.html" target="_top" title="institution_ip" alt="" coords="531,111,823,327">
+<area shape="rect" id="node2" href="institutions.html" target="_top" title="institutions" alt="" coords="205,395,389,541">
+<area shape="rect" id="node5" href="journals.html" target="_top" title="journals" alt="" coords="5,427,161,515">
+<area shape="rect" id="node3" href="institution_settings.html" target="_top" title="institution_settings" alt="" coords="552,344,801,432">
+<area shape="rect" id="node4" href="institutional_subscriptions.html" target="_top" title="institutional_subscriptions" alt="" coords="523,449,830,537">
+<area shape="rect" id="node6" href="metrics_counter_submission_institution_daily.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="447,5,907,93">
+<area shape="rect" id="node7" href="metrics_counter_submission_institution_monthly.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="433,660,920,748">
+<area shape="rect" id="node8" href="usage_stats_institution_temporary_records.html" target="_top" title="usage_stats_institution_temporary_records" alt="" coords="455,555,898,643">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/institution_ip.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>

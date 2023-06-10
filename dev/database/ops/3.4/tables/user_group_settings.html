@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>user_group_settings - ops_3_4_0 Database</title>
+        <title>user_group_settings - ojs-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>ops_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>ojs-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,7 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>user_group_settings</h1><p><span id="recordNumber">2</span> rows</p><br />
+                    <h1>user_group_settings</h1><br />
                     <div class="box box-primary">
                         <div class="box-header with-border">
                             <i class="fa fa-file-text-o"></i>
@@ -84,7 +84,7 @@
                             </div>
                         </div><!-- /.box-header -->
                         <div class="box-body clearfix">
-                            <p>Localized data about user groups, such as the name.</p>
+                            <p>More data about user groups, including localized properties such as the name.</p>
                         </div><!-- /.box-body -->
                     </div>
                 </section>
@@ -116,8 +116,25 @@
                                 </thead>
                                 <tbody>
                                 <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="user_group_setting_id">user_group_setting_id</span></td>
+                                    <td>BIGINT UNSIGNED</td>
+                                    <td>20</td>
+                                    <td title=''></td>
+                                    <td title='Automatically updated by the database'>√</td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="user_group_id">user_group_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -138,11 +155,11 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="locale">locale</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>14</td>
                                     <td title=''></td>
                                     <td title=''></td>
-                                    <td>&#39;&#39;::character varying</td>
+                                    <td>&#39;&#39;</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -155,7 +172,7 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="setting_name">setting_name</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>255</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -172,11 +189,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="setting_value">setting_value</span></td>
-                                    <td>text</td>
-                                    <td>2147483647</td>
+                                    <td>MEDIUMTEXT</td>
+                                    <td>16777215</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -212,7 +229,13 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td class='uniqueKey' title='Unique Key'><i class='icon ion-key iconkey'></i> user_group_settings_pkey</td>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
+                                    <td>Primary key</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>user_group_setting_id</td>
+                                </tr>
+                                <tr>
+                                    <td class='uniqueKey' title='Unique Key'><i class='icon ion-key iconkey'></i> user_group_settings_unique</td>
                                     <td>Must be unique</td>
                                     <td><span title='Ascending'>Asc</span>/<span title='Ascending'>Asc</span>/<span title='Ascending'>Asc</span></td>
                                     <td>user_group_id + locale + setting_name</td>
@@ -246,20 +269,20 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="user_group_settings.html" target="_top" title="user_group_settings" alt="" coords="313,5,691,192">
-<area shape="rect" id="node2" href="user_groups.html" target="_top" title="user_groups" alt="" coords="5,8,269,184">
+<area shape="rect" id="node1" href="user_group_settings.html" target="_top" title="user_group_settings" alt="" coords="313,5,747,221">
+<area shape="rect" id="node2" href="user_groups.html" target="_top" title="user_groups" alt="" coords="5,37,269,213">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/user_group_settings.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="authors.html" target="_top" title="authors" alt="" coords="425,5,579,93">
-<area shape="rect" id="node2" href="user_groups.html" target="_top" title="user_groups" alt="" coords="5,269,269,445">
-<area shape="rect" id="node3" href="stage_assignments.html" target="_top" title="stage_assignments" alt="" coords="379,111,625,199">
-<area shape="rect" id="node4" href="subeditor_submission_group.html" target="_top" title="subeditor_submission_group" alt="" coords="341,216,663,304">
-<area shape="rect" id="node5" href="user_group_settings.html" target="_top" title="user_group_settings" alt="" coords="313,321,691,508">
-<area shape="rect" id="node6" href="user_group_stage.html" target="_top" title="user_group_stage" alt="" coords="385,525,619,613">
-<area shape="rect" id="node7" href="user_user_groups.html" target="_top" title="user_user_groups" alt="" coords="386,631,618,719">
+<area shape="rect" id="node1" href="authors.html" target="_top" title="authors" alt="" coords="453,5,607,93">
+<area shape="rect" id="node2" href="user_groups.html" target="_top" title="user_groups" alt="" coords="5,284,269,460">
+<area shape="rect" id="node3" href="stage_assignments.html" target="_top" title="stage_assignments" alt="" coords="407,111,653,199">
+<area shape="rect" id="node4" href="subeditor_submission_group.html" target="_top" title="subeditor_submission_group" alt="" coords="369,216,691,304">
+<area shape="rect" id="node5" href="user_group_settings.html" target="_top" title="user_group_settings" alt="" coords="313,321,747,537">
+<area shape="rect" id="node6" href="user_group_stage.html" target="_top" title="user_group_stage" alt="" coords="413,555,647,643">
+<area shape="rect" id="node7" href="user_user_groups.html" target="_top" title="user_user_groups" alt="" coords="414,660,646,748">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/user_group_settings.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>

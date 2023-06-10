@@ -1,6 +1,4 @@
 versions
-static_pages
-static_page_settings
 site_settings
 site
 scheduled_tasks
@@ -18,6 +16,7 @@ metrics_issue
 metrics_counter_submission_institution_daily
 subeditor_submission_group
 stage_assignments
+review_round_files
 metrics_submission_geo_daily
 metrics_counter_submission_institution_monthly
 metrics_counter_submission_daily
@@ -29,7 +28,6 @@ usage_stats_institution_temporary_records
 submission_search_object_keywords
 submission_file_revisions
 submission_comments
-review_round_files
 review_form_responses
 review_files
 query_participants
@@ -49,6 +47,7 @@ temporary_files
 subscription_type_settings
 submission_settings
 submission_file_settings
+static_page_settings
 sessions
 section_settings
 review_form_settings
@@ -80,9 +79,11 @@ announcement_type_settings
 announcement_settings
 access_keys
 subscriptions
+notifications
 navigation_menu_item_assignments
 library_files
 submission_search_objects
+static_pages
 filters
 event_log
 email_templates
@@ -97,6 +98,7 @@ institutions
 issue_files
 subscription_types
 announcement_types
+review_rounds
 categories
 submission_files
 genres
@@ -109,12 +111,10 @@ dois
 journals
 submission_search_keyword_list
 queries
-notifications
 navigation_menus
 filter_groups
 email_log
 controlled_vocabs
-review_rounds
 navigation_menu_items
 files
 data_object_tombstones

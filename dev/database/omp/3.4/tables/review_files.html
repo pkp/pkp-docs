@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>review_files - omp_3_4_0 Database</title>
+        <title>review_files - omp-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>omp_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>omp-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,20 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>review_files</h1><p><span id="recordNumber">0</span> rows</p><br />
+                    <h1>review_files</h1><br />
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-file-text-o"></i>
+                            <h3 id="Description" class="box-title">Description</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body clearfix">
+                            <p>A list of the submission files made available to each assigned reviewer.</p>
+                        </div><!-- /.box-body -->
+                    </div>
                 </section>
                 <!-- Main content -->
                 <section class="content">
@@ -103,8 +116,25 @@
                                 </thead>
                                 <tbody>
                                 <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="review_file_id">review_file_id</span></td>
+                                    <td>BIGINT UNSIGNED</td>
+                                    <td>20</td>
+                                    <td title=''></td>
+                                    <td title='Automatically updated by the database'>√</td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="review_id">review_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -125,8 +155,8 @@
                                 </tr>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="submission_file_id">submission_file_id</span></td>
-                                    <td>int8</td>
-                                    <td>19</td>
+                                    <td>BIGINT UNSIGNED</td>
+                                    <td>20</td>
                                     <td title=''></td>
                                     <td title=''></td>
                                     <td>null</td>
@@ -169,10 +199,10 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td class='uniqueKey' title='Unique Key'><i class='icon ion-key iconkey'></i> review_files_pkey</td>
-                                    <td>Must be unique</td>
-                                    <td><span title='Ascending'>Asc</span>/<span title='Ascending'>Asc</span></td>
-                                    <td>review_id + submission_file_id</td>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
+                                    <td>Primary key</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>review_file_id</td>
                                 </tr>
                                 <tr>
                                     <td title='Indexed'>review_files_review_id</td>
@@ -185,6 +215,12 @@
                                     <td>Performance</td>
                                     <td><span title='Ascending'>Asc</span></td>
                                     <td>submission_file_id</td>
+                                </tr>
+                                <tr>
+                                    <td class='uniqueKey' title='Unique Key'><i class='icon ion-key iconkey'></i> review_files_unique</td>
+                                    <td>Must be unique</td>
+                                    <td><span title='Ascending'>Asc</span>/<span title='Ascending'>Asc</span></td>
+                                    <td>review_id + submission_file_id</td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -209,7 +245,7 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="review_files.html" target="_top" title="review_files" alt="" coords="329,115,613,243">
+<area shape="rect" id="node1" href="review_files.html" target="_top" title="review_files" alt="" coords="329,85,697,243">
 <area shape="rect" id="node2" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="9,5,282,240">
 <area shape="rect" id="node3" href="submission_files.html" target="_top" title="submission_files" alt="" coords="5,257,285,639">
 </map>
@@ -217,26 +253,26 @@
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="747,216,998,304">
-<area shape="rect" id="node2" href="submission_files.html" target="_top" title="submission_files" alt="" coords="259,509,539,891">
-<area shape="rect" id="node3" href="submissions.html" target="_top" title="submissions" alt="" coords="15,364,205,452">
-<area shape="rect" id="node7" href="users.html" target="_top" title="users" alt="" coords="43,899,177,987">
-<area shape="rect" id="node12" href="files.html" target="_top" title="files" alt="" coords="44,568,176,656">
-<area shape="rect" id="node14" href="dois.html" target="_top" title="dois" alt="" coords="36,779,184,867">
-<area shape="rect" id="node15" href="genres.html" target="_top" title="genres" alt="" coords="36,673,184,761">
-<area shape="rect" id="node4" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="262,953,535,1188">
-<area shape="rect" id="node5" href="review_forms.html" target="_top" title="review_forms" alt="" coords="10,1137,210,1225">
-<area shape="rect" id="node6" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="5,1032,215,1120">
-<area shape="rect" id="node8" href="review_files.html" target="_top" title="review_files" alt="" coords="731,953,1015,1081">
-<area shape="rect" id="node9" href="review_form_responses.html" target="_top" title="review_form_responses" alt="" coords="731,1099,1014,1187">
-<area shape="rect" id="node10" href="review_round_files.html" target="_top" title="review_round_files" alt="" coords="751,321,994,409">
-<area shape="rect" id="node11" href="submission_file_revisions.html" target="_top" title="submission_file_revisions" alt="" coords="724,848,1021,936">
-<area shape="rect" id="node13" href="submission_file_settings.html" target="_top" title="submission_file_settings" alt="" coords="728,743,1017,831">
-<area shape="rect" id="node16" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="675,427,1071,515">
-<area shape="rect" id="node17" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="583,532,1163,620">
-<area shape="rect" id="node18" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="605,637,1140,725">
-<area shape="rect" id="node19" href="usage_stats_unique_title_investigations_temporary_records.html" target="_top" title="usage_stats_unique_title_investigations_temporary_records" alt="" coords="584,5,1161,93">
-<area shape="rect" id="node20" href="usage_stats_unique_title_requests_temporary_records.html" target="_top" title="usage_stats_unique_title_requests_temporary_records" alt="" coords="607,111,1139,199">
+<area shape="rect" id="node1" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="729,111,979,199">
+<area shape="rect" id="node2" href="submission_files.html" target="_top" title="submission_files" alt="" coords="240,429,520,811">
+<area shape="rect" id="node3" href="submissions.html" target="_top" title="submissions" alt="" coords="5,339,196,427">
+<area shape="rect" id="node7" href="users.html" target="_top" title="users" alt="" coords="33,687,168,775">
+<area shape="rect" id="node12" href="files.html" target="_top" title="files" alt="" coords="38,476,163,564">
+<area shape="rect" id="node14" href="dois.html" target="_top" title="dois" alt="" coords="39,792,163,880">
+<area shape="rect" id="node15" href="genres.html" target="_top" title="genres" alt="" coords="27,581,174,669">
+<area shape="rect" id="node4" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="717,989,991,1224">
+<area shape="rect" id="node5" href="review_forms.html" target="_top" title="review_forms" alt="" coords="280,1109,480,1197">
+<area shape="rect" id="node6" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="275,864,485,952">
+<area shape="rect" id="node8" href="review_files.html" target="_top" title="review_files" alt="" coords="1188,677,1556,835">
+<area shape="rect" id="node9" href="review_form_responses.html" target="_top" title="review_form_responses" alt="" coords="1231,992,1513,1080">
+<area shape="rect" id="node10" href="review_round_files.html" target="_top" title="review_round_files" alt="" coords="733,779,975,867">
+<area shape="rect" id="node11" href="submission_file_revisions.html" target="_top" title="submission_file_revisions" alt="" coords="705,884,1003,972">
+<area shape="rect" id="node13" href="submission_file_settings.html" target="_top" title="submission_file_settings" alt="" coords="709,673,999,761">
+<area shape="rect" id="node16" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="656,216,1052,304">
+<area shape="rect" id="node17" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="564,321,1144,409">
+<area shape="rect" id="node18" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="587,427,1121,515">
+<area shape="rect" id="node19" href="usage_stats_unique_title_investigations_temporary_records.html" target="_top" title="usage_stats_unique_title_investigations_temporary_records" alt="" coords="565,532,1143,620">
+<area shape="rect" id="node20" href="usage_stats_unique_title_requests_temporary_records.html" target="_top" title="usage_stats_unique_title_requests_temporary_records" alt="" coords="588,5,1120,93">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/review_files.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>

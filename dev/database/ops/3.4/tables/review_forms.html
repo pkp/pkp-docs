@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>review_forms - ops_3_4_0 Database</title>
+        <title>review_forms - ojs-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>ops_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>ojs-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,20 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>review_forms</h1><p><span id="recordNumber">0</span> rows</p><br />
+                    <h1>review_forms</h1><br />
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-file-text-o"></i>
+                            <h3 id="Description" class="box-title">Description</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body clearfix">
+                            <p>Review forms provide custom templates for peer reviews with several types of questions.</p>
+                        </div><!-- /.box-body -->
+                    </div>
                 </section>
                 <!-- Main content -->
                 <section class="content">
@@ -104,11 +117,11 @@
                                 <tbody>
                                 <tr>
                                     <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="review_form_id">review_form_id</span></td>
-                                    <td>bigserial</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title='Automatically updated by the database'>√</td>
-                                    <td>nextval(&#39;review_forms_review_form_id_seq&#39;::regclass)</td>
+                                    <td>null</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                             <tr>
@@ -124,8 +137,8 @@
                                                 <td class="constraint detail">review_form_settings_review_form_id<span title='Cascade on delete:&#10;Deletion of parent deletes child'>C</span></td>
                                             </tr>
                                             <tr>
-                                                <td title="sections.review_form_id references review_forms.review_form_id via sections_review_form_id_foreign"><a href='sections.html'>sections</a><span class='relatedKey'>.review_form_id</span></td>
-                                                <td class="constraint detail">sections_review_form_id_foreign<span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                                <td title="sections.review_form_id references review_forms.review_form_id via sections_review_form_id"><a href='sections.html'>sections</a><span class='relatedKey'>.review_form_id</span></td>
+                                                <td class="constraint detail">sections_review_form_id<span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
                                             </tr>
                                         </table>
                                     </td>
@@ -137,7 +150,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="assoc_type">assoc_type</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -154,7 +167,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="assoc_id">assoc_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -171,11 +184,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="seq">seq</span></td>
-                                    <td>float8</td>
-                                    <td>17,17</td>
+                                    <td>DOUBLE</td>
+                                    <td>8,2</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -188,11 +201,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="is_active">is_active</span></td>
-                                    <td>int2</td>
+                                    <td>SMALLINT</td>
                                     <td>5</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -228,7 +241,7 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> review_forms_pkey</td>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
                                     <td>Primary key</td>
                                     <td><span title='Ascending'>Asc</span></td>
                                     <td>review_form_id</td>
@@ -256,30 +269,31 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="343,5,617,240">
-<area shape="rect" id="node2" href="review_forms.html" target="_top" title="review_forms" alt="" coords="5,352,299,568">
-<area shape="rect" id="node3" href="review_form_elements.html" target="_top" title="review_form_elements" alt="" coords="343,257,617,404">
-<area shape="rect" id="node4" href="review_form_settings.html" target="_top" title="review_form_settings" alt="" coords="347,421,613,597">
-<area shape="rect" id="node5" href="sections.html" target="_top" title="sections" alt="" coords="351,615,609,791">
+<area shape="rect" id="node1" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="333,5,606,240">
+<area shape="rect" id="node2" href="review_forms.html" target="_top" title="review_forms" alt="" coords="5,367,288,583">
+<area shape="rect" id="node3" href="review_form_elements.html" target="_top" title="review_form_elements" alt="" coords="332,257,607,404">
+<area shape="rect" id="node4" href="review_form_settings.html" target="_top" title="review_form_settings" alt="" coords="337,421,602,627">
+<area shape="rect" id="node5" href="sections.html" target="_top" title="sections" alt="" coords="341,644,598,820">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/review_forms.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="publications.html" target="_top" title="publications" alt="" coords="694,199,885,287">
-<area shape="rect" id="node2" href="sections.html" target="_top" title="sections" alt="" coords="347,5,604,181">
-<area shape="rect" id="node3" href="submissions.html" target="_top" title="submissions" alt="" coords="380,199,571,287">
-<area shape="rect" id="node5" href="review_forms.html" target="_top" title="review_forms" alt="" coords="5,589,299,805">
-<area shape="rect" id="node14" href="servers.html" target="_top" title="servers" alt="" coords="76,119,228,207">
-<area shape="rect" id="node4" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="653,319,926,553">
-<area shape="rect" id="node6" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="371,409,580,497">
-<area shape="rect" id="node7" href="users.html" target="_top" title="users" alt="" coords="408,304,543,392">
-<area shape="rect" id="node8" href="review_files.html" target="_top" title="review_files" alt="" coords="1046,321,1234,409">
-<area shape="rect" id="node9" href="review_form_element_settings.html" target="_top" title="review_form_element_settings" alt="" coords="971,625,1309,713">
-<area shape="rect" id="node10" href="review_form_elements.html" target="_top" title="review_form_elements" alt="" coords="652,623,927,769">
-<area shape="rect" id="node11" href="review_form_responses.html" target="_top" title="review_form_responses" alt="" coords="999,473,1281,561">
-<area shape="rect" id="node12" href="review_form_settings.html" target="_top" title="review_form_settings" alt="" coords="343,515,608,691">
-<area shape="rect" id="node13" href="section_settings.html" target="_top" title="section_settings" alt="" coords="677,8,901,96">
+<area shape="rect" id="node1" href="custom_section_orders.html" target="_top" title="custom_section_orders" alt="" coords="641,250,919,338">
+<area shape="rect" id="node2" href="sections.html" target="_top" title="sections" alt="" coords="336,142,593,318">
+<area shape="rect" id="node6" href="review_forms.html" target="_top" title="review_forms" alt="" coords="5,364,288,580">
+<area shape="rect" id="node15" href="journals.html" target="_top" title="journals" alt="" coords="69,70,225,158">
+<area shape="rect" id="node3" href="publications.html" target="_top" title="publications" alt="" coords="685,39,875,127">
+<area shape="rect" id="node4" href="submissions.html" target="_top" title="submissions" alt="" coords="963,39,1153,127">
+<area shape="rect" id="node5" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="1451,143,1725,378">
+<area shape="rect" id="node7" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="1197,234,1407,322">
+<area shape="rect" id="node8" href="users.html" target="_top" title="users" alt="" coords="1235,128,1369,216">
+<area shape="rect" id="node9" href="review_files.html" target="_top" title="review_files" alt="" coords="1845,146,2033,234">
+<area shape="rect" id="node10" href="review_form_element_settings.html" target="_top" title="review_form_element_settings" alt="" coords="1769,472,2108,560">
+<area shape="rect" id="node11" href="review_form_elements.html" target="_top" title="review_form_elements" alt="" coords="1451,470,1725,616">
+<area shape="rect" id="node12" href="review_form_responses.html" target="_top" title="review_form_responses" alt="" coords="1797,271,2080,359">
+<area shape="rect" id="node13" href="review_form_settings.html" target="_top" title="review_form_settings" alt="" coords="332,391,597,596">
+<area shape="rect" id="node14" href="section_settings.html" target="_top" title="section_settings" alt="" coords="668,144,892,232">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/review_forms.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>

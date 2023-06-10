@@ -1,6 +1,4 @@
 versions
-static_pages
-static_page_settings
 site_settings
 site
 scheduled_tasks
@@ -19,6 +17,7 @@ metrics_submission
 metrics_counter_submission_institution_daily
 subeditor_submission_group
 stage_assignments
+review_round_files
 metrics_submission_geo_daily
 metrics_series
 metrics_counter_submission_institution_monthly
@@ -33,7 +32,6 @@ submission_file_revisions
 submission_comments
 submission_chapter_authors
 series_categories
-review_round_files
 review_form_responses
 review_files
 query_participants
@@ -50,6 +48,7 @@ temporary_files
 submission_settings
 submission_file_settings
 submission_chapter_settings
+static_page_settings
 spotlight_settings
 sessions
 series_settings
@@ -86,9 +85,11 @@ author_settings
 announcement_type_settings
 announcement_settings
 access_keys
+notifications
 navigation_menu_item_assignments
 library_files
 submission_search_objects
+static_pages
 spotlights
 filters
 event_log
@@ -100,6 +101,7 @@ review_form_elements
 controlled_vocab_entries
 institutions
 publication_formats
+review_rounds
 categories
 submission_chapters
 submission_files
@@ -112,12 +114,10 @@ series
 dois
 submission_search_keyword_list
 queries
-notifications
 navigation_menus
 filter_groups
 email_log
 controlled_vocabs
-review_rounds
 navigation_menu_items
 files
 data_object_tombstones

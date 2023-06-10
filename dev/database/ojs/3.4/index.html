@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>ojs_3_4_0 Database</title>
+        <title>ojs-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="index.html" class="navbar-brand"><b>ojs_3_4_0</b> Database</a>
+                            <a href="index.html" class="navbar-brand"><b>ojs-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -77,12 +77,12 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="callout callout-info">
-                                <h4>SchemaSpy Analysis of ojs_3_4_0</h4>
-                                <p>Generated on Tue Mar 07 12:31 GMT 2023</p>
+                                <h4>SchemaSpy Analysis of ojs-stable-3_4_0</h4>
+                                <p>Generated on Fri. Jun. 09 17:55 PDT 2023</p>
                             </div>
                         </div>
                     </div>
-                    <a href="ojs_3_4_0.public.xml" title="XML Representation">XML Representation</a><br />
+                    <a href="ojs-stable-3_4_0.ojs-stable-3_4_0.xml" title="XML Representation">XML Representation</a><br />
                     <a href="insertionOrder.txt" title="Useful for loading data into a database">Insertion Order</a>
                     <a href="deletionOrder.txt" title="Useful for purging data from a database">Deletion Order</a>
                 </section>
@@ -118,7 +118,7 @@
                                 <span class="info-box-icon bg-green"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span></span>
                                 <div class="info-box-content">
                                     <span class="info-box-text">COLUMNS</span>
-                                    <span class="info-box-number">786</span>
+                                    <span class="info-box-number">845</span>
                                 </div>
                                 <!-- /.info-box-content -->
                             </div>
@@ -130,7 +130,7 @@
                                 <span class="info-box-icon bg-yellow"><i class="ion ion-key"></i></span>
                                 <div class="info-box-content">
                                     <span class="info-box-text">Constraints</span>
-                                    <span class="info-box-number">166</span>
+                                    <span class="info-box-number">172</span>
                                 </div>
                                 <!-- /.info-box-content -->
                             </div>
@@ -142,7 +142,7 @@
                                 <span class="info-box-icon bg-red-active"><i class="fa fa-question" aria-hidden="true"></i></span>
                                 <div class="info-box-content">
                                     <span class="info-box-text">Anomalies</span>
-                                    <span class="info-box-number">11</span>
+                                    <span class="info-box-number">10</span>
                                 </div>
                                 <!-- /.info-box-content -->
                             </div>
@@ -168,16 +168,7 @@
                             <span class="label label-primary pull-right"><i class="fa fa-cog fa-2x"></i></span>
                         </div><!-- /.box-header -->
                         <div class="box-body">
-                            <p>Database Type: PostgreSQL - 14.7 (Ubuntu 14.7-0ubuntu0.22.04.1)</p>
-                        </div><!-- /.box-body -->
-                    </div>
-                    <div class="box box-primary">
-                        <div class="box-header with-border">
-                            <h3 class="box-title">Schema public</h3>
-                            <span class="label label-primary pull-right"><i class="fa fa-cog fa-2x"></i></span>
-                        </div><!-- /.box-header -->
-                        <div class="box-body">
-                            <p> <p>standard public schema</p> </p>
+                            <p>Database Type: MariaDB - 10.3.38-MariaDB-0ubuntu0.20.04.1</p>
                         </div><!-- /.box-body -->
                     </div>
                     <div class="box box-primary">
@@ -193,7 +184,6 @@
                                         <th align="right" valign="bottom">Children</th>
                                         <th align="right" valign="bottom">Parents</th>
                                         <th align="right" valign="bottom">Columns</th>
-                                        <th align="right" valign="bottom">Rows</th>
                                         <th align="right" valign="bottom">Type</th>
                                         <th class="toggle">Comments</th>
                                     </tr>
@@ -203,71 +193,63 @@
                                         <td class="detail"><a href="tables/review_form_element_settings.html">review_form_element_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about review form elements, including localized content such as question text.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/filters.html">filters</a></td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">8</td>
-                                        <td class="detail" align="right">27</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Filters represent a transformation of a supported piece of data from one form to another, such as a PHP object into an XML document.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/sections.html">sections</a></td>
                                         <td class="detail" align="right">3</td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">12</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>A list of all sections into which submissions can be organized, forming the table of contents.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/notification_settings.html">notification_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about notifications, including localized properties.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/subscription_types.html">subscription_types</a></td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">10</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Subscription types represent the kinds of subscriptions that a user or institution may have, such as an annual subscription or a discounted subscription.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/oai_resumption_tokens.html">oai_resumption_tokens</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>OAI resumption tokens are used to allow for pagination of large result sets into manageable pieces.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/review_round_files.html">review_round_files</a></td>
                                         <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">3</td>
+                                        <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Records the files made available to reviewers for a round of reviews. These can be further customized on a per review basis with review_files.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/publications.html">publications</a></td>
                                         <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">4</td>
                                         <td class="detail" align="right">12</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Each publication is one version of a submission.</p></td>
                                     </tr>
@@ -276,43 +258,38 @@
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">6</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>A log of all failed jobs.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/review_rounds.html">review_rounds</a></td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">3</td>
+                                        <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">6</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Peer review assignments are organized into multiple rounds on a submission.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/citations.html">citations</a></td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>A citation made by an associated publication.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/library_files.html">library_files</a></td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">11</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Library files can be associated with the context (press/server/journal) or with individual submissions, and are typically forms, agreements, and other administrative documents that are not part of the scholarly content.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/metrics_issue.html">metrics_issue</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">6</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">7</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Daily statistics for views and downloads of published issues.</p></td>
                                     </tr>
@@ -321,52 +298,46 @@
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">7</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Links navigation menu items to navigation menus.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/filter_settings.html">filter_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about filters, including localized content.</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/scheduled_tasks.html">scheduled_tasks</a></td>
+                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">3</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>The last time each scheduled task was run.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/categories.html">categories</a></td>
                                         <td class="detail" align="right">3</td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">6</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/scheduled_tasks.html">scheduled_tasks</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"><p>The last time each scheduled task was run.</p></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Categories permit the organization of submissions into a heirarchical structure.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/institutional_subscriptions.html">institutional_subscriptions</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>A list of institutional subscriptions, linking a subscription with an institution.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/email_templates_default_data.html">email_templates_default_data</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">140</td>
+                                        <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Default email templates created for every installed locale.</p></td>
                                     </tr>
@@ -375,7 +346,6 @@
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Custom email templates created by each context, and overrides of the default templates.</p></td>
                                     </tr>
@@ -384,25 +354,22 @@
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">6</td>
-                                        <td class="detail" align="right">27</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Filter groups are used to organized filters into named sets, which can be retrieved by the application for invocation.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/navigation_menu_item_settings.html">navigation_menu_item_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">7</td>
+                                        <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about navigation menu items, including localized content such as names.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/users.html">users</a></td>
-                                        <td class="detail" align="right">19</td>
+                                        <td class="detail" align="right">20</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">21</td>
-                                        <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>All registered users, including authentication data and profile data.</p></td>
                                     </tr>
@@ -411,7 +378,6 @@
                                         <td class="detail" align="right">10</td>
                                         <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">14</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>All files associated with a submission, such as those uploaded during submission, as revisions, or by copyeditors or layout editors for production.</p></td>
                                     </tr>
@@ -419,8 +385,7 @@
                                         <td class="detail"><a href="tables/metrics_counter_submission_monthly.html">metrics_counter_submission_monthly</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">7</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">8</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Monthly statistics matching the COUNTER R5 protocol for views and downloads of published submissions and galleys.</p></td>
                                     </tr>
@@ -429,16 +394,14 @@
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about journals, including localized properties like policies.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/static_pages.html">static_pages</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">1</td>
+                                        <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">3</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"></td>
                                     </tr>
@@ -447,7 +410,6 @@
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">9</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>The types of submission files configured for each context, such as Article Text, Data Set, Transcript, etc.</p></td>
                                     </tr>
@@ -455,8 +417,7 @@
                                         <td class="detail"><a href="tables/metrics_counter_submission_institution_daily.html">metrics_counter_submission_institution_daily</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">9</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">10</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Daily statistics matching the COUNTER R5 protocol for views and downloads from institutions.</p></td>
                                     </tr>
@@ -464,8 +425,7 @@
                                         <td class="detail"><a href="tables/user_group_stage.html">user_group_stage</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">3</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">4</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Which stages of the editorial workflow the user_groups can access.</p></td>
                                     </tr>
@@ -474,16 +434,14 @@
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>A list of all search objects indexed in the search index</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/review_assignments.html">review_assignments</a></td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">28</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">27</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Data about peer review assignments for all submissions.</p></td>
                                     </tr>
@@ -491,53 +449,47 @@
                                         <td class="detail"><a href="tables/data_object_tombstone_settings.html">data_object_tombstone_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about data object tombstones, including localized content.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/job_batches.html">job_batches</a></td>
                                         <td class="detail" align="right">10</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">10</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/announcement_types.html">announcement_types</a></td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/publication_settings.html">publication_settings</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"><p>Localized data about publications, such as the title and abstract.</p></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Job batches allow jobs to be collected into groups for managed processing.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/user_groups.html">user_groups</a></td>
                                         <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">7</td>
-                                        <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>All defined user roles in a context, such as Author, Reviewer, Section Editor and Journal Manager.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/publication_settings.html">publication_settings</a></td>
+                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">1</td>
+                                        <td class="detail" align="right">5</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about publications, including localized properties such as the title and abstract.</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/announcement_types.html">announcement_types</a></td>
+                                        <td class="detail" align="right">2</td>
+                                        <td class="detail" align="right">1</td>
+                                        <td class="detail" align="right">2</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Announcement types allow for announcements to optionally be categorized.</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/notifications.html">notifications</a></td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">9</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>User notifications created during certain operations.</p></td>
                                     </tr>
@@ -545,17 +497,15 @@
                                         <td class="detail"><a href="tables/announcement_type_settings.html">announcement_type_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about announcement types, including localized properties like their names.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/notification_subscription_settings.html">notification_subscription_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">6</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Which email notifications a user has chosen to unsubscribe from.</p></td>
                                     </tr>
@@ -563,17 +513,15 @@
                                         <td class="detail"><a href="tables/site.html">site</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">6</td>
-                                        <td class="detail" align="right">1</td>
+                                        <td class="detail" align="right">7</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>A singleton table describing basic information about the site.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/submissions.html">submissions</a></td>
-                                        <td class="detail" align="right">20</td>
+                                        <td class="detail" align="right">21</td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">11</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>All submissions submitted to the context, including incomplete, declined and unpublished submissions.</p></td>
                                     </tr>
@@ -581,44 +529,39 @@
                                         <td class="detail"><a href="tables/user_interests.html">user_interests</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">3</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Associates users with user interests (which are stored in the controlled vocabulary tables).</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/doi_settings.html">doi_settings</a></td>
+                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">1</td>
+                                        <td class="detail" align="right">5</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about DOIs, including the registration agency.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/access_keys.html">access_keys</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">6</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Access keys are used to provide pseudo-login functionality for security-minimal tasks. Passkeys can be emailed directly to users, who can use them for a limited time in lieu of standard username and password.</p></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/doi_settings.html">doi_settings</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/review_form_settings.html">review_form_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about review forms, including localized content such as names.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/authors.html">authors</a></td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">6</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>The authors of a publication.</p></td>
                                     </tr>
@@ -626,8 +569,7 @@
                                         <td class="detail"><a href="tables/metrics_submission_geo_daily.html">metrics_submission_geo_daily</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">3</td>
-                                        <td class="detail" align="right">9</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">10</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Daily statistics by country, region and city for views and downloads of published submissions and galleys.</p></td>
                                     </tr>
@@ -635,8 +577,7 @@
                                         <td class="detail"><a href="tables/metrics_submission_geo_monthly.html">metrics_submission_geo_monthly</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">8</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">9</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Monthly statistics by country, region and city for views and downloads of published submissions and galleys.</p></td>
                                     </tr>
@@ -645,7 +586,6 @@
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">3</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Revisions map submission_file entries to files on the data store.</p></td>
                                     </tr>
@@ -654,52 +594,46 @@
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">12</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>A record of email messages that are sent in relation to an associated entity, such as a submission.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/issue_files.html">issue_files</a></td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">9</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Relationships between issues and issue files, such as cover images.</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/usage_stats_institution_temporary_records.html">usage_stats_institution_temporary_records</a></td>
+                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">2</td>
+                                        <td class="detail" align="right">4</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Temporary stats for views and downloads from institutions based on visitor log records. Data in this table is provisional. See the metrics_* tables for compiled stats.</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/review_files.html">review_files</a></td>
+                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">2</td>
+                                        <td class="detail" align="right">3</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>A list of the submission files made available to each assigned reviewer.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/issue_settings.html">issue_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/review_files.html">review_files</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/usage_stats_institution_temporary_records.html">usage_stats_institution_temporary_records</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">3</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"><p>Temporary stats for views and downloads from institutions based on visitor log records. Data in this table is provisional. See the metrics_* tables for compiled stats.</p></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about issues, including localized properties such as issue titles.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/jobs.html">jobs</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">7</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>All pending or in-progress jobs.</p></td>
                                     </tr>
@@ -707,98 +641,87 @@
                                         <td class="detail"><a href="tables/user_group_settings.html">user_group_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">2</td>
+                                        <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"><p>Localized data about user groups, such as the name.</p></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about user groups, including localized properties such as the name.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/category_settings.html">category_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about categories, including localized properties such as names.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/queued_payments.html">queued_payments</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Unfulfilled (queued) payments, i.e. payments that have not yet been completed via an online payment system.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/publication_galley_settings.html">publication_galley_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about publication galleys, including localized content such as labels.</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/library_file_settings.html">library_file_settings</a></td>
+                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">1</td>
+                                        <td class="detail" align="right">6</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about library files, including localized content such as names.</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/email_templates_settings.html">email_templates_settings</a></td>
+                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">1</td>
+                                        <td class="detail" align="right">5</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about custom email templates, including localized properties such as the subject and body.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/announcements.html">announcements</a></td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">6</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Announcements are messages that can be presented to users e.g. on the homepage.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/email_templates_settings.html">email_templates_settings</a></td>
+                                        <td class="detail"><a href="tables/user_user_groups.html">user_user_groups</a></td>
                                         <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">2</td>
+                                        <td class="detail" align="right">3</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"><p>Localized data about custom email templates, such as the subject and body.</p></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/library_file_settings.html">library_file_settings</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Maps users to their assigned user_groups.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/publication_galleys.html">publication_galleys</a></td>
                                         <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">3</td>
                                         <td class="detail" align="right">10</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/user_user_groups.html">user_user_groups</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"><p>Maps users to their assigned user_groups.</p></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Publication galleys are representations of a publication in a specific format, e.g. a PDF.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/review_form_elements.html">review_form_elements</a></td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">6</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Each review form element represents a single question on a review form.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/metrics_submission.html">metrics_submission</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">9</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">10</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Daily statistics for views and downloads of published submissions and galleys.</p></td>
                                     </tr>
@@ -807,25 +730,22 @@
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">11</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/static_page_settings.html">static_page_settings</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Comments on a submission, e.g. peer review comments</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/subscription_type_settings.html">subscription_type_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">5</td>
+                                        <td class="detail" align="right">6</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about subscription types, including localized properties such as names.</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/static_page_settings.html">static_page_settings</a></td>
                                         <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">1</td>
+                                        <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"></td>
                                     </tr>
@@ -833,26 +753,23 @@
                                         <td class="detail"><a href="tables/email_log_users.html">email_log_users</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">3</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>A record of users associated with an email log entry.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/institution_settings.html">institution_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about institutions, including localized properties like names.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/queries.html">queries</a></td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">8</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Discussions, usually related to a submission, created by editors, authors and other editorial staff.</p></td>
                                     </tr>
@@ -861,61 +778,54 @@
                                         <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Institutions for statistics and subscriptions.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/data_object_tombstones.html">data_object_tombstones</a></td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">6</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Entries for published data that has been removed. Usually used in the OAI endpoint.</p></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/issue_galley_settings.html">issue_galley_settings</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/subeditor_submission_group.html">subeditor_submission_group</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">3</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Subeditor assignments to e.g. sections and categories</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/issue_galley_settings.html">issue_galley_settings</a></td>
+                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">1</td>
+                                        <td class="detail" align="right">6</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about issue galleys, including localized content such as labels.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/site_settings.html">site_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">3</td>
-                                        <td class="detail" align="right">10</td>
+                                        <td class="detail" align="right">4</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about the site, including localized properties such as its name.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/author_settings.html">author_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"><p>Localized data about authors, such as their name and affiliation.</p></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about authors, including localized properties such as their name and affiliation.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/controlled_vocab_entries.html">controlled_vocab_entries</a></td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">3</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>The order that a word or phrase used in a controlled vocabulary should appear. For example, the order of keywords in a publication.</p></td>
                                     </tr>
@@ -924,7 +834,6 @@
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Localized data about submission files like published metadata.</p></td>
                                     </tr>
@@ -933,16 +842,14 @@
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">3</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Records information in the database about files tracked by the system, linking them to the local filesystem.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/event_log_settings.html">event_log_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Data about an event log entry. This data is commonly used to display information about an event to a user.</p></td>
                                     </tr>
@@ -950,8 +857,7 @@
                                         <td class="detail"><a href="tables/metrics_context.html">metrics_context</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Daily statistics for views of the homepage.</p></td>
                                     </tr>
@@ -960,25 +866,22 @@
                                         <td class="detail" align="right">4</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Review forms provide custom templates for peer reviews with several types of questions.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/data_object_tombstone_oai_set_objects.html">data_object_tombstone_oai_set_objects</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Relationships between tombstones and other data that can be collected in OAI sets, e.g. sections.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/controlled_vocabs.html">controlled_vocabs</a></td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Every word or phrase used in a controlled vocabulary. Controlled vocabularies are used for submission metadata like keywords and subjects, reviewer interests, and wherever a similar dictionary of words or phrases is required. Each entry corresponds to a word or phrase like &ldquo;cellular reproduction&rdquo; and a type like &ldquo;submissionKeyword&rdquo;.</p></td>
                                     </tr>
@@ -987,25 +890,22 @@
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">7</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Temporary files, e.g. where files are kept during an upload process before they are moved somewhere more appropriate.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/review_form_responses.html">review_form_responses</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Each review form response records a reviewer&rsquo;s answer to a review form element associated with a peer review.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/stage_assignments.html">stage_assignments</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">3</td>
                                         <td class="detail" align="right">7</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Who can access a submission while it is in the editorial workflow. Includes all editorial and author assignments. For reviewers, see review_assignments.</p></td>
                                     </tr>
@@ -1014,25 +914,22 @@
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Records IP address ranges and associates them with institutions.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/navigation_menu_item_assignment_settings.html">navigation_menu_item_assignment_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about navigation menu item assignments to navigation menus, including localized content.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/submission_settings.html">submission_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Localized data about submissions</p></td>
                                     </tr>
@@ -1040,107 +937,95 @@
                                         <td class="detail"><a href="tables/user_settings.html">user_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">2</td>
+                                        <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"><p>Localized data about users, like their name and affiliation.</p></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about users, including localized properties like their name and affiliation.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/custom_section_orders.html">custom_section_orders</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">3</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">4</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Ordering information for sections within issues, when issue-specific section ordering is specified.</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/journals.html">journals</a></td>
+                                        <td class="detail" align="right">32</td>
+                                        <td class="detail" align="right">1</td>
+                                        <td class="detail" align="right">6</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>A list of all journals in the installation of OJS.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/controlled_vocab_entry_settings.html">controlled_vocab_entry_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"><p>Localized data about a controlled vocabulary entry, such as the actual word or phrase.</p></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/journals.html">journals</a></td>
-                                        <td class="detail" align="right">30</td>
-                                        <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">6</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about a controlled vocabulary entry, including localized properties such as the actual word or phrase.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/submission_search_object_keywords.html">submission_search_object_keywords</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">3</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">4</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Relationships between search objects and keywords in the search index</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/versions.html">versions</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">11</td>
-                                        <td class="detail" align="right">46</td>
+                                        <td class="detail" align="right">12</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Describes the installation and upgrade version history for the application and all installed plugins.</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/usage_stats_unique_item_investigations_temporary_records.html">usage_stats_unique_item_investigations_temporary_records</a></td>
+                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">5</td>
+                                        <td class="detail" align="right">15</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Temporary stats on unique downloads based on visitor log records. Data in this table is provisional. See the metrics_* tables for compiled stats.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/notes.html">notes</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">8</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/usage_stats_unique_item_investigations_temporary_records.html">usage_stats_unique_item_investigations_temporary_records</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">14</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"><p>Temporary stats on unique downloads based on visitor log records. Data in this table is provisional. See the metrics_* tables for compiled stats.</p></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Notes allow users to annotate associated entities, such as submissions.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/event_log.html">event_log</a></td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">8</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>A log of all events related to an object like a submission.</p></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/custom_issue_orders.html">custom_issue_orders</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">3</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/dois.html">dois</a></td>
                                         <td class="detail" align="right">4</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Stores all DOIs used in the system.</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/custom_issue_orders.html">custom_issue_orders</a></td>
+                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">2</td>
+                                        <td class="detail" align="right">4</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Ordering information for the issue list, when custom issue ordering is specified.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/query_participants.html">query_participants</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">3</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>The users assigned to a discussion.</p></td>
                                     </tr>
@@ -1148,8 +1033,7 @@
                                         <td class="detail"><a href="tables/metrics_counter_submission_daily.html">metrics_counter_submission_daily</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">3</td>
-                                        <td class="detail" align="right">8</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">9</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Daily statistics matching the COUNTER R5 protocol for views and downloads of published submissions and galleys.</p></td>
                                     </tr>
@@ -1157,8 +1041,7 @@
                                         <td class="detail"><a href="tables/usage_stats_unique_item_requests_temporary_records.html">usage_stats_unique_item_requests_temporary_records</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">14</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">15</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Temporary stats on unique views based on visitor log records. Data in this table is provisional. See the metrics_* tables for compiled stats.</p></td>
                                     </tr>
@@ -1167,25 +1050,22 @@
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">9</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>A list of completed (fulfilled) payments relating to a payment type such as a subscription payment.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/announcement_settings.html">announcement_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about announcements, including localized properties like names and contents.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/metrics_counter_submission_institution_monthly.html">metrics_counter_submission_institution_monthly</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">3</td>
-                                        <td class="detail" align="right">8</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">9</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Monthly statistics matching the COUNTER R5 protocol for views and downloads from institutions.</p></td>
                                     </tr>
@@ -1194,16 +1074,14 @@
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">3</td>
                                         <td class="detail" align="right">10</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>A list of subscriptions, both institutional and individual, for journals that use subscription-based publishing.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/usage_stats_total_temporary_records.html">usage_stats_total_temporary_records</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">7</td>
-                                        <td class="detail" align="right">17</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">18</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Temporary stats totals based on visitor log records. Data in this table is provisional. See the metrics_* tables for compiled stats.</p></td>
                                     </tr>
@@ -1212,25 +1090,22 @@
                                         <td class="detail" align="right">3</td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">7</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Issue galleys are representations of the entire issue in a single file, such as a complete issue PDF.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/submission_search_keyword_list.html">submission_search_keyword_list</a></td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>A list of all keywords used in the search index</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/edit_decisions.html">edit_decisions</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">3</td>
                                         <td class="detail" align="right">8</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Editorial decisions recorded on a submission, such as decisions to accept or decline the submission, as well as decisions to send for review, send to copyediting, request revisions, and more.</p></td>
                                     </tr>
@@ -1239,34 +1114,30 @@
                                         <td class="detail" align="right">8</td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">19</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>A list of all journal issues, with identifying information like year, number, volume, etc.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/genre_settings.html">genre_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"><p>Localized data about file genres, such as the genre name.</p></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about file genres, including localized properties such as the genre name.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/navigation_menu_items.html">navigation_menu_items</a></td>
                                         <td class="detail" align="right">2</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">7</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Navigation menu items are single elements within a navigation menu.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/sessions.html">sessions</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">9</td>
-                                        <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">Table</td>
                                         <td class="comment detail" style="display: table-cell;"><p>Session data for logged-in users.</p></td>
                                     </tr>
@@ -1274,46 +1145,41 @@
                                         <td class="detail"><a href="tables/publication_categories.html">publication_categories</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">2</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">3</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Associates publications (and thus submissions) with categories.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/plugin_settings.html">plugin_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">10</td>
+                                        <td class="detail" align="right">6</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
-                                    </tr>
-                                    <tr class="tbl even" valign="top">
-                                        <td class="detail"><a href="tables/citation_settings.html">citation_settings</a></td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">5</td>
-                                        <td class="detail" align="right">0</td>
-                                        <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about plugins, including localized properties. This table is frequently used to store plugin-specific configuration.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/navigation_menus.html">navigation_menus</a></td>
                                         <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">1</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Navigation menus on the website are installed with the software as a default set, and can be customized.</p></td>
+                                    </tr>
+                                    <tr class="tbl even" valign="top">
+                                        <td class="detail"><a href="tables/citation_settings.html">citation_settings</a></td>
+                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">1</td>
+                                        <td class="detail" align="right">6</td>
+                                        <td class="detail" align="right">Table</td>
+                                        <td class="comment detail" style="display: table-cell;"><p>Additional data about citations, including localized content.</p></td>
                                     </tr>
                                     <tr class="tbl even" valign="top">
                                         <td class="detail"><a href="tables/section_settings.html">section_settings</a></td>
                                         <td class="detail" align="right">0</td>
                                         <td class="detail" align="right">1</td>
-                                        <td class="detail" align="right">4</td>
-                                        <td class="detail" align="right">0</td>
+                                        <td class="detail" align="right">5</td>
                                         <td class="detail" align="right">Table</td>
-                                        <td class="comment detail" style="display: table-cell;"></td>
+                                        <td class="comment detail" style="display: table-cell;"><p>More data about sections, including localized properties like section titles.</p></td>
                                     </tr>
                             </table>
                         </div>

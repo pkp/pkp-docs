@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>email_templates - ojs_3_4_0 Database</title>
+        <title>email_templates - ojs-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>ojs_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>ojs-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,7 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>email_templates</h1><p><span id="recordNumber">0</span> rows</p><br />
+                    <h1>email_templates</h1><br />
                     <div class="box box-primary">
                         <div class="box-header with-border">
                             <i class="fa fa-file-text-o"></i>
@@ -117,11 +117,11 @@
                                 <tbody>
                                 <tr>
                                     <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="email_id">email_id</span></td>
-                                    <td>bigserial</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title='Automatically updated by the database'>√</td>
-                                    <td>nextval(&#39;email_templates_email_id_seq&#39;::regclass)</td>
+                                    <td>null</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                             <tr>
@@ -138,7 +138,7 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="email_key">email_key</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>255</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -155,7 +155,7 @@
                                 </tr>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="context_id">context_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -176,11 +176,11 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="alternate_to">alternate_to</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>255</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -216,7 +216,7 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> email_templates_pkey</td>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
                                     <td>Primary key</td>
                                     <td><span title='Ascending'>Asc</span></td>
                                     <td>email_id</td>
@@ -262,46 +262,48 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="email_templates.html" target="_top" title="email_templates" alt="" coords="244,5,551,192">
-<area shape="rect" id="node2" href="journals.html" target="_top" title="journals" alt="" coords="5,67,200,243">
-<area shape="rect" id="node3" href="email_templates_settings.html" target="_top" title="email_templates_settings" alt="" coords="595,8,893,184">
+<area shape="rect" id="node1" href="email_templates.html" target="_top" title="email_templates" alt="" coords="244,32,551,219">
+<area shape="rect" id="node2" href="journals.html" target="_top" title="journals" alt="" coords="5,93,200,269">
+<area shape="rect" id="node3" href="email_templates_settings.html" target="_top" title="email_templates_settings" alt="" coords="595,5,893,211">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/email_templates.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="announcement_types.html" target="_top" title="announcement_types" alt="" coords="692,703,956,791">
-<area shape="rect" id="node2" href="journals.html" target="_top" title="journals" alt="" coords="402,1159,597,1335">
-<area shape="rect" id="node6" href="issues.html" target="_top" title="issues" alt="" coords="210,1449,358,1537">
-<area shape="rect" id="node3" href="categories.html" target="_top" title="categories" alt="" coords="736,1343,913,1431">
-<area shape="rect" id="node4" href="completed_payments.html" target="_top" title="completed_payments" alt="" coords="693,1448,956,1536">
-<area shape="rect" id="node5" href="custom_issue_orders.html" target="_top" title="custom_issue_orders" alt="" coords="694,2116,954,2204">
-<area shape="rect" id="node7" href="dois.html" target="_top" title="dois" alt="" coords="18,1413,166,1501">
-<area shape="rect" id="node8" href="email_templates.html" target="_top" title="email_templates" alt="" coords="671,216,978,403">
-<area shape="rect" id="node9" href="email_templates_settings.html" target="_top" title="email_templates_settings" alt="" coords="1192,219,1491,395">
-<area shape="rect" id="node10" href="genres.html" target="_top" title="genres" alt="" coords="750,1589,898,1677">
-<area shape="rect" id="node11" href="institutions.html" target="_top" title="institutions" alt="" coords="732,844,916,932">
-<area shape="rect" id="node12" href="journal_settings.html" target="_top" title="journal_settings" alt="" coords="714,1695,935,1783">
-<area shape="rect" id="node13" href="library_files.html" target="_top" title="library_files" alt="" coords="1248,599,1435,687">
-<area shape="rect" id="node14" href="submissions.html" target="_top" title="submissions" alt="" coords="729,1057,920,1145">
-<area shape="rect" id="node15" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="714,1800,935,1888">
-<area shape="rect" id="node16" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="1158,915,1526,1003">
-<area shape="rect" id="node17" href="metrics_counter_submission_institution_daily.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="1112,704,1572,792">
-<area shape="rect" id="node18" href="metrics_counter_submission_institution_monthly.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="1098,809,1585,897">
-<area shape="rect" id="node19" href="metrics_counter_submission_monthly.html" target="_top" title="metrics_counter_submission_monthly" alt="" coords="1144,1020,1539,1108">
-<area shape="rect" id="node20" href="metrics_issue.html" target="_top" title="metrics_issue" alt="" coords="723,2011,926,2099">
-<area shape="rect" id="node21" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1216,1125,1467,1213">
-<area shape="rect" id="node22" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="1174,1231,1509,1319">
-<area shape="rect" id="node23" href="metrics_submission_geo_monthly.html" target="_top" title="metrics_submission_geo_monthly" alt="" coords="1160,1336,1523,1424">
-<area shape="rect" id="node24" href="notification_subscription_settings.html" target="_top" title="notification_subscription_settings" alt="" coords="641,1905,1008,1993">
-<area shape="rect" id="node25" href="sections.html" target="_top" title="sections" alt="" coords="745,5,904,93">
-<area shape="rect" id="node26" href="subeditor_submission_group.html" target="_top" title="subeditor_submission_group" alt="" coords="664,111,985,199">
-<area shape="rect" id="node27" href="subscription_types.html" target="_top" title="subscription_types" alt="" coords="702,456,946,544">
-<area shape="rect" id="node28" href="subscriptions.html" target="_top" title="subscriptions" alt="" coords="1242,433,1442,521">
-<area shape="rect" id="node29" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1144,1652,1540,1740">
-<area shape="rect" id="node30" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1052,1441,1632,1529">
-<area shape="rect" id="node31" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1074,1547,1609,1635">
-<area shape="rect" id="node32" href="user_group_stage.html" target="_top" title="user_group_stage" alt="" coords="708,561,941,649">
+<area shape="rect" id="node1" href="announcement_types.html" target="_top" title="announcement_types" alt="" coords="654,703,918,791">
+<area shape="rect" id="node2" href="journals.html" target="_top" title="journals" alt="" coords="364,1195,559,1371">
+<area shape="rect" id="node6" href="issues.html" target="_top" title="issues" alt="" coords="177,1529,320,1617">
+<area shape="rect" id="node3" href="categories.html" target="_top" title="categories" alt="" coords="697,1343,875,1431">
+<area shape="rect" id="node4" href="completed_payments.html" target="_top" title="completed_payments" alt="" coords="655,1448,917,1536">
+<area shape="rect" id="node5" href="custom_issue_orders.html" target="_top" title="custom_issue_orders" alt="" coords="656,2327,916,2415">
+<area shape="rect" id="node7" href="dois.html" target="_top" title="dois" alt="" coords="9,1493,133,1581">
+<area shape="rect" id="node8" href="email_templates.html" target="_top" title="email_templates" alt="" coords="633,216,939,403">
+<area shape="rect" id="node9" href="email_templates_settings.html" target="_top" title="email_templates_settings" alt="" coords="1154,189,1453,395">
+<area shape="rect" id="node10" href="genres.html" target="_top" title="genres" alt="" coords="713,1589,859,1677">
+<area shape="rect" id="node11" href="institutions.html" target="_top" title="institutions" alt="" coords="694,844,878,932">
+<area shape="rect" id="node12" href="journal_settings.html" target="_top" title="journal_settings" alt="" coords="675,1695,897,1783">
+<area shape="rect" id="node13" href="library_files.html" target="_top" title="library_files" alt="" coords="1210,599,1397,687">
+<area shape="rect" id="node14" href="submissions.html" target="_top" title="submissions" alt="" coords="691,1057,881,1145">
+<area shape="rect" id="node15" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="675,1800,897,1888">
+<area shape="rect" id="node16" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="1119,915,1487,1003">
+<area shape="rect" id="node17" href="metrics_counter_submission_institution_daily.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="1073,704,1533,792">
+<area shape="rect" id="node18" href="metrics_counter_submission_institution_monthly.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="1060,809,1547,897">
+<area shape="rect" id="node19" href="metrics_counter_submission_monthly.html" target="_top" title="metrics_counter_submission_monthly" alt="" coords="1106,1020,1501,1108">
+<area shape="rect" id="node20" href="metrics_issue.html" target="_top" title="metrics_issue" alt="" coords="685,2221,887,2309">
+<area shape="rect" id="node21" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1178,1125,1429,1213">
+<area shape="rect" id="node22" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="1136,1231,1471,1319">
+<area shape="rect" id="node23" href="metrics_submission_geo_monthly.html" target="_top" title="metrics_submission_geo_monthly" alt="" coords="1122,1336,1485,1424">
+<area shape="rect" id="node24" href="notification_subscription_settings.html" target="_top" title="notification_subscription_settings" alt="" coords="603,1905,969,1993">
+<area shape="rect" id="node25" href="notifications.html" target="_top" title="notifications" alt="" coords="689,2011,883,2099">
+<area shape="rect" id="node26" href="sections.html" target="_top" title="sections" alt="" coords="707,2116,865,2204">
+<area shape="rect" id="node27" href="static_pages.html" target="_top" title="static_pages" alt="" coords="689,5,883,93">
+<area shape="rect" id="node28" href="subeditor_submission_group.html" target="_top" title="subeditor_submission_group" alt="" coords="625,111,947,199">
+<area shape="rect" id="node29" href="subscription_types.html" target="_top" title="subscription_types" alt="" coords="664,456,908,544">
+<area shape="rect" id="node30" href="subscriptions.html" target="_top" title="subscriptions" alt="" coords="1203,433,1403,521">
+<area shape="rect" id="node31" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1105,1652,1501,1740">
+<area shape="rect" id="node32" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1013,1441,1593,1529">
+<area shape="rect" id="node33" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1036,1547,1571,1635">
+<area shape="rect" id="node34" href="user_group_stage.html" target="_top" title="user_group_stage" alt="" coords="669,561,903,649">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/email_templates.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>

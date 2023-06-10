@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>metrics_context - ojs_3_4_0 Database</title>
+        <title>metrics_context - ojs-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>ojs_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>ojs-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,7 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>metrics_context</h1><p><span id="recordNumber">0</span> rows</p><br />
+                    <h1>metrics_context</h1><br />
                     <div class="box box-primary">
                         <div class="box-header with-border">
                             <i class="fa fa-file-text-o"></i>
@@ -116,8 +116,25 @@
                                 </thead>
                                 <tbody>
                                 <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="metrics_context_id">metrics_context_id</span></td>
+                                    <td>BIGINT UNSIGNED</td>
+                                    <td>20</td>
+                                    <td title=''></td>
+                                    <td title='Automatically updated by the database'>√</td>
+                                    <td>null</td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <table border='0' cellspacing='0' cellpadding='0'>
+                                        </table>
+                                    </td>
+                                    <td></td>
+                                </tr>
+                                <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="load_id">load_id</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>255</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -138,7 +155,7 @@
                                 </tr>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="context_id">context_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -159,8 +176,8 @@
                                 </tr>
                                 <tr>
                                     <td><span id="date">date</span></td>
-                                    <td>date</td>
-                                    <td>13</td>
+                                    <td>DATE</td>
+                                    <td>10</td>
                                     <td title=''></td>
                                     <td title=''></td>
                                     <td>null</td>
@@ -176,7 +193,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="metric">metric</span></td>
-                                    <td>int4</td>
+                                    <td>INT</td>
                                     <td>10</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -216,6 +233,12 @@
                                 </thead>
                                 <tbody>
                                 <tr>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
+                                    <td>Primary key</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>metrics_context_id</td>
+                                </tr>
+                                <tr>
                                     <td title='Indexed'>metrics_context_context_id</td>
                                     <td>Performance</td>
                                     <td><span title='Ascending'>Asc</span></td>
@@ -252,50 +275,52 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="244,5,545,192">
-<area shape="rect" id="node2" href="journals.html" target="_top" title="journals" alt="" coords="5,37,200,213">
+<area shape="rect" id="node1" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="244,5,617,221">
+<area shape="rect" id="node2" href="journals.html" target="_top" title="journals" alt="" coords="5,67,200,243">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/metrics_context.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="announcement_types.html" target="_top" title="announcement_types" alt="" coords="686,339,950,427">
-<area shape="rect" id="node2" href="journals.html" target="_top" title="journals" alt="" coords="396,903,591,1079">
-<area shape="rect" id="node6" href="issues.html" target="_top" title="issues" alt="" coords="204,1270,352,1358">
-<area shape="rect" id="node3" href="categories.html" target="_top" title="categories" alt="" coords="729,979,907,1067">
-<area shape="rect" id="node4" href="completed_payments.html" target="_top" title="completed_payments" alt="" coords="687,1085,949,1173">
-<area shape="rect" id="node5" href="custom_issue_orders.html" target="_top" title="custom_issue_orders" alt="" coords="688,2062,948,2150">
-<area shape="rect" id="node7" href="dois.html" target="_top" title="dois" alt="" coords="12,1234,160,1322">
-<area shape="rect" id="node8" href="email_templates.html" target="_top" title="email_templates" alt="" coords="705,1190,931,1278">
-<area shape="rect" id="node9" href="genres.html" target="_top" title="genres" alt="" coords="744,1295,892,1383">
-<area shape="rect" id="node10" href="institutions.html" target="_top" title="institutions" alt="" coords="726,481,910,569">
-<area shape="rect" id="node11" href="journal_settings.html" target="_top" title="journal_settings" alt="" coords="707,1401,929,1489">
-<area shape="rect" id="node12" href="library_files.html" target="_top" title="library_files" alt="" coords="1242,235,1429,323">
-<area shape="rect" id="node13" href="submissions.html" target="_top" title="submissions" alt="" coords="723,730,913,818">
-<area shape="rect" id="node14" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="667,1506,969,1693">
-<area shape="rect" id="node15" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="1151,551,1519,639">
-<area shape="rect" id="node16" href="metrics_counter_submission_institution_daily.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="1105,341,1565,429">
-<area shape="rect" id="node17" href="metrics_counter_submission_institution_monthly.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="1092,446,1579,534">
-<area shape="rect" id="node18" href="metrics_counter_submission_monthly.html" target="_top" title="metrics_counter_submission_monthly" alt="" coords="1138,657,1533,745">
-<area shape="rect" id="node19" href="metrics_issue.html" target="_top" title="metrics_issue" alt="" coords="717,2167,919,2255">
-<area shape="rect" id="node20" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1210,762,1461,850">
-<area shape="rect" id="node21" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="1168,867,1503,955">
-<area shape="rect" id="node22" href="metrics_submission_geo_monthly.html" target="_top" title="metrics_submission_geo_monthly" alt="" coords="1154,973,1517,1061">
-<area shape="rect" id="node23" href="notification_subscription_settings.html" target="_top" title="notification_subscription_settings" alt="" coords="635,1710,1001,1798">
-<area shape="rect" id="node24" href="sections.html" target="_top" title="sections" alt="" coords="739,1815,897,1903">
-<area shape="rect" id="node25" href="subeditor_submission_group.html" target="_top" title="subeditor_submission_group" alt="" coords="657,1921,979,2009">
-<area shape="rect" id="node26" href="subscription_types.html" target="_top" title="subscription_types" alt="" coords="696,93,940,181">
-<area shape="rect" id="node27" href="subscriptions.html" target="_top" title="subscriptions" alt="" coords="1235,57,1435,145">
-<area shape="rect" id="node28" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1137,1989,1533,2077">
-<area shape="rect" id="node29" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1045,1078,1625,1166">
-<area shape="rect" id="node30" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1068,1183,1603,1271">
-<area shape="rect" id="node31" href="user_group_stage.html" target="_top" title="user_group_stage" alt="" coords="701,198,935,286">
+<area shape="rect" id="node1" href="announcement_types.html" target="_top" title="announcement_types" alt="" coords="655,535,919,623">
+<area shape="rect" id="node2" href="journals.html" target="_top" title="journals" alt="" coords="361,1027,556,1203">
+<area shape="rect" id="node6" href="issues.html" target="_top" title="issues" alt="" coords="175,1411,317,1499">
+<area shape="rect" id="node3" href="categories.html" target="_top" title="categories" alt="" coords="698,1139,875,1227">
+<area shape="rect" id="node4" href="completed_payments.html" target="_top" title="completed_payments" alt="" coords="655,1244,918,1332">
+<area shape="rect" id="node5" href="custom_issue_orders.html" target="_top" title="custom_issue_orders" alt="" coords="657,2251,917,2339">
+<area shape="rect" id="node7" href="dois.html" target="_top" title="dois" alt="" coords="7,1375,131,1463">
+<area shape="rect" id="node8" href="email_templates.html" target="_top" title="email_templates" alt="" coords="674,1349,899,1437">
+<area shape="rect" id="node9" href="genres.html" target="_top" title="genres" alt="" coords="713,1455,860,1543">
+<area shape="rect" id="node10" href="institutions.html" target="_top" title="institutions" alt="" coords="695,640,879,728">
+<area shape="rect" id="node11" href="journal_settings.html" target="_top" title="journal_settings" alt="" coords="676,1560,897,1648">
+<area shape="rect" id="node12" href="library_files.html" target="_top" title="library_files" alt="" coords="1214,348,1401,436">
+<area shape="rect" id="node13" href="submissions.html" target="_top" title="submissions" alt="" coords="691,889,882,977">
+<area shape="rect" id="node14" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="600,1665,973,1881">
+<area shape="rect" id="node15" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="1123,673,1491,761">
+<area shape="rect" id="node16" href="metrics_counter_submission_institution_daily.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="1077,463,1537,551">
+<area shape="rect" id="node17" href="metrics_counter_submission_institution_monthly.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="1064,568,1551,656">
+<area shape="rect" id="node18" href="metrics_counter_submission_monthly.html" target="_top" title="metrics_counter_submission_monthly" alt="" coords="1110,779,1505,867">
+<area shape="rect" id="node19" href="metrics_issue.html" target="_top" title="metrics_issue" alt="" coords="685,2356,888,2444">
+<area shape="rect" id="node20" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1182,884,1433,972">
+<area shape="rect" id="node21" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="1140,989,1475,1077">
+<area shape="rect" id="node22" href="metrics_submission_geo_monthly.html" target="_top" title="metrics_submission_geo_monthly" alt="" coords="1126,1095,1489,1183">
+<area shape="rect" id="node23" href="notification_subscription_settings.html" target="_top" title="notification_subscription_settings" alt="" coords="603,1899,970,1987">
+<area shape="rect" id="node24" href="notifications.html" target="_top" title="notifications" alt="" coords="690,2004,883,2092">
+<area shape="rect" id="node25" href="sections.html" target="_top" title="sections" alt="" coords="707,2109,866,2197">
+<area shape="rect" id="node26" href="static_pages.html" target="_top" title="static_pages" alt="" coords="690,5,883,93">
+<area shape="rect" id="node27" href="subeditor_submission_group.html" target="_top" title="subeditor_submission_group" alt="" coords="626,111,947,199">
+<area shape="rect" id="node28" href="subscription_types.html" target="_top" title="subscription_types" alt="" coords="665,216,909,304">
+<area shape="rect" id="node29" href="subscriptions.html" target="_top" title="subscriptions" alt="" coords="1207,224,1407,312">
+<area shape="rect" id="node30" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1109,2177,1505,2265">
+<area shape="rect" id="node31" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1017,1200,1597,1288">
+<area shape="rect" id="node32" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1040,1305,1575,1393">
+<area shape="rect" id="node33" href="user_group_stage.html" target="_top" title="user_group_stage" alt="" coords="670,393,903,481">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/metrics_context.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="oneimpliedDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagramImplied" name="oneDegreeRelationshipsDiagramImplied">
-<area shape="rect" id="node1" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="244,56,545,243">
+<area shape="rect" id="node1" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="244,27,617,243">
 <area shape="rect" id="node2" href="journals.html" target="_top" title="journals" alt="" coords="5,140,200,316">
 <area shape="rect" id="node3" href="job_batches.html" target="_top" title="job_batches" alt="" coords="9,5,196,123">
 </map>
@@ -303,39 +328,41 @@
                                     </div>
                                     <div class="chart tab-pane " id="twoimpliedDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagramImplied" name="twoDegreesRelationshipsDiagramImplied">
-<area shape="rect" id="node1" href="announcement_types.html" target="_top" title="announcement_types" alt="" coords="694,111,958,199">
-<area shape="rect" id="node2" href="journals.html" target="_top" title="journals" alt="" coords="404,1093,599,1269">
-<area shape="rect" id="node6" href="issues.html" target="_top" title="issues" alt="" coords="212,1163,360,1251">
-<area shape="rect" id="node3" href="categories.html" target="_top" title="categories" alt="" coords="737,216,915,304">
-<area shape="rect" id="node4" href="completed_payments.html" target="_top" title="completed_payments" alt="" coords="695,321,957,409">
-<area shape="rect" id="node5" href="custom_issue_orders.html" target="_top" title="custom_issue_orders" alt="" coords="696,5,956,93">
-<area shape="rect" id="node7" href="dois.html" target="_top" title="dois" alt="" coords="20,1127,168,1215">
-<area shape="rect" id="node8" href="email_templates.html" target="_top" title="email_templates" alt="" coords="713,427,939,515">
-<area shape="rect" id="node9" href="genres.html" target="_top" title="genres" alt="" coords="752,532,900,620">
-<area shape="rect" id="node10" href="institutions.html" target="_top" title="institutions" alt="" coords="734,815,918,903">
-<area shape="rect" id="node11" href="journal_settings.html" target="_top" title="journal_settings" alt="" coords="715,673,937,761">
-<area shape="rect" id="node12" href="library_files.html" target="_top" title="library_files" alt="" coords="1250,797,1437,885">
-<area shape="rect" id="node13" href="submissions.html" target="_top" title="submissions" alt="" coords="731,1028,921,1116">
-<area shape="rect" id="node14" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="1193,1640,1494,1827">
-<area shape="rect" id="node15" href="job_batches.html" target="_top" title="job_batches" alt="" coords="733,1241,919,1359">
-<area shape="rect" id="node16" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="1159,1113,1527,1201">
-<area shape="rect" id="node17" href="metrics_counter_submission_institution_daily.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="1113,587,1573,675">
-<area shape="rect" id="node18" href="metrics_counter_submission_institution_monthly.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="1100,481,1587,569">
-<area shape="rect" id="node19" href="metrics_counter_submission_monthly.html" target="_top" title="metrics_counter_submission_monthly" alt="" coords="1146,903,1541,991">
-<area shape="rect" id="node20" href="metrics_issue.html" target="_top" title="metrics_issue" alt="" coords="1242,2081,1445,2169">
-<area shape="rect" id="node21" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1218,1219,1469,1307">
-<area shape="rect" id="node22" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="1176,1324,1511,1412">
-<area shape="rect" id="node23" href="metrics_submission_geo_monthly.html" target="_top" title="metrics_submission_geo_monthly" alt="" coords="1162,1008,1525,1096">
-<area shape="rect" id="node24" href="notification_subscription_settings.html" target="_top" title="notification_subscription_settings" alt="" coords="643,1412,1009,1500">
-<area shape="rect" id="node25" href="sections.html" target="_top" title="sections" alt="" coords="747,1517,905,1605">
-<area shape="rect" id="node26" href="subeditor_submission_group.html" target="_top" title="subeditor_submission_group" alt="" coords="665,1623,987,1711">
-<area shape="rect" id="node27" href="subscription_types.html" target="_top" title="subscription_types" alt="" coords="704,1872,948,1960">
-<area shape="rect" id="node28" href="subscriptions.html" target="_top" title="subscriptions" alt="" coords="1243,1955,1443,2043">
-<area shape="rect" id="node29" href="usage_stats_institution_temporary_records.html" target="_top" title="usage_stats_institution_temporary_records" alt="" coords="1122,692,1565,780">
-<area shape="rect" id="node30" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1145,1844,1541,1932">
-<area shape="rect" id="node31" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1053,1429,1633,1517">
-<area shape="rect" id="node32" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1076,1535,1611,1623">
-<area shape="rect" id="node33" href="user_group_stage.html" target="_top" title="user_group_stage" alt="" coords="709,1977,943,2065">
+<area shape="rect" id="node1" href="announcement_types.html" target="_top" title="announcement_types" alt="" coords="658,111,922,199">
+<area shape="rect" id="node2" href="journals.html" target="_top" title="journals" alt="" coords="368,1129,563,1305">
+<area shape="rect" id="node6" href="issues.html" target="_top" title="issues" alt="" coords="181,1199,324,1287">
+<area shape="rect" id="node3" href="categories.html" target="_top" title="categories" alt="" coords="701,216,879,304">
+<area shape="rect" id="node4" href="completed_payments.html" target="_top" title="completed_payments" alt="" coords="659,321,921,409">
+<area shape="rect" id="node5" href="custom_issue_orders.html" target="_top" title="custom_issue_orders" alt="" coords="660,5,920,93">
+<area shape="rect" id="node7" href="dois.html" target="_top" title="dois" alt="" coords="13,1163,137,1251">
+<area shape="rect" id="node8" href="email_templates.html" target="_top" title="email_templates" alt="" coords="677,427,903,515">
+<area shape="rect" id="node9" href="genres.html" target="_top" title="genres" alt="" coords="717,532,863,620">
+<area shape="rect" id="node10" href="institutions.html" target="_top" title="institutions" alt="" coords="698,815,882,903">
+<area shape="rect" id="node11" href="journal_settings.html" target="_top" title="journal_settings" alt="" coords="679,673,901,761">
+<area shape="rect" id="node12" href="library_files.html" target="_top" title="library_files" alt="" coords="1214,820,1401,908">
+<area shape="rect" id="node13" href="submissions.html" target="_top" title="submissions" alt="" coords="695,1028,885,1116">
+<area shape="rect" id="node14" href="metrics_context.html" target="_top" title="metrics_context" alt="" coords="1121,1681,1494,1897">
+<area shape="rect" id="node15" href="job_batches.html" target="_top" title="job_batches" alt="" coords="697,1241,883,1359">
+<area shape="rect" id="node16" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="1123,1136,1491,1224">
+<area shape="rect" id="node17" href="metrics_counter_submission_institution_daily.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="1077,609,1537,697">
+<area shape="rect" id="node18" href="metrics_counter_submission_institution_monthly.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="1064,504,1551,592">
+<area shape="rect" id="node19" href="metrics_counter_submission_monthly.html" target="_top" title="metrics_counter_submission_monthly" alt="" coords="1110,925,1505,1013">
+<area shape="rect" id="node20" href="metrics_issue.html" target="_top" title="metrics_issue" alt="" coords="1206,2292,1409,2380">
+<area shape="rect" id="node21" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1182,1241,1433,1329">
+<area shape="rect" id="node22" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="1140,1347,1475,1435">
+<area shape="rect" id="node23" href="metrics_submission_geo_monthly.html" target="_top" title="metrics_submission_geo_monthly" alt="" coords="1126,1031,1489,1119">
+<area shape="rect" id="node24" href="notification_subscription_settings.html" target="_top" title="notification_subscription_settings" alt="" coords="607,1412,973,1500">
+<area shape="rect" id="node25" href="notifications.html" target="_top" title="notifications" alt="" coords="693,1517,887,1605">
+<area shape="rect" id="node26" href="sections.html" target="_top" title="sections" alt="" coords="711,1623,869,1711">
+<area shape="rect" id="node27" href="static_pages.html" target="_top" title="static_pages" alt="" coords="693,1728,887,1816">
+<area shape="rect" id="node28" href="subeditor_submission_group.html" target="_top" title="subeditor_submission_group" alt="" coords="629,1833,951,1921">
+<area shape="rect" id="node29" href="subscription_types.html" target="_top" title="subscription_types" alt="" coords="668,2083,912,2171">
+<area shape="rect" id="node30" href="subscriptions.html" target="_top" title="subscriptions" alt="" coords="1207,2135,1407,2223">
+<area shape="rect" id="node31" href="usage_stats_institution_temporary_records.html" target="_top" title="usage_stats_institution_temporary_records" alt="" coords="1086,715,1529,803">
+<area shape="rect" id="node32" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1109,1952,1505,2040">
+<area shape="rect" id="node33" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1017,1452,1597,1540">
+<area shape="rect" id="node34" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1040,1557,1575,1645">
+<area shape="rect" id="node35" href="user_group_stage.html" target="_top" title="user_group_stage" alt="" coords="673,2188,907,2276">
 </map>
                                         <a name='diagram'><img id="twoimpliedDegreeImg" src="../diagrams/tables/metrics_context.implied2degrees.png" usemap="#twoDegreesRelationshipsDiagramImplied" class="diagram" border="0" align="left"></a>
                                     </div>

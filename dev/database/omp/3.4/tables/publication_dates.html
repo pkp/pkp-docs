@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>publication_dates - omp_3_4_0 Database</title>
+        <title>publication_dates - omp-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>omp_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>omp-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,20 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>publication_dates</h1><p><span id="recordNumber">0</span> rows</p><br />
+                    <h1>publication_dates</h1><br />
+                    <div class="box box-primary">
+                        <div class="box-header with-border">
+                            <i class="fa fa-file-text-o"></i>
+                            <h3 id="Description" class="box-title">Description</h3>
+                            <div class="box-tools pull-right">
+                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                            </div>
+                        </div><!-- /.box-header -->
+                        <div class="box-body clearfix">
+                            <p>ONIX publication dates for publication formats.</p>
+                        </div><!-- /.box-body -->
+                    </div>
                 </section>
                 <!-- Main content -->
                 <section class="content">
@@ -104,11 +117,11 @@
                                 <tbody>
                                 <tr>
                                     <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="publication_date_id">publication_date_id</span></td>
-                                    <td>bigserial</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title='Automatically updated by the database'>√</td>
-                                    <td>nextval(&#39;publication_dates_publication_date_id_seq&#39;::regclass)</td>
+                                    <td>null</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -121,7 +134,7 @@
                                 </tr>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="publication_format_id">publication_format_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -142,7 +155,7 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="role">role</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>40</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -159,7 +172,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="date_format">date_format</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>40</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -176,7 +189,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="date">date</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>255</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -216,7 +229,7 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> publication_dates_pkey</td>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
                                     <td>Primary key</td>
                                     <td><span title='Ascending'>Asc</span></td>
                                     <td>publication_date_id</td>
@@ -257,26 +270,26 @@
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
 <area shape="rect" id="node1" href="publication_dates.html" target="_top" title="publication_dates" alt="" coords="341,5,695,221">
-<area shape="rect" id="node2" href="publication_formats.html" target="_top" title="publication_formats" alt="" coords="5,37,297,243">
+<area shape="rect" id="node2" href="publication_formats.html" target="_top" title="publication_formats" alt="" coords="5,37,297,213">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/publication_dates.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="identification_codes.html" target="_top" title="identification_codes" alt="" coords="931,5,1185,93">
-<area shape="rect" id="node2" href="publication_formats.html" target="_top" title="publication_formats" alt="" coords="432,657,724,863">
-<area shape="rect" id="node7" href="dois.html" target="_top" title="dois" alt="" coords="5,719,153,807">
-<area shape="rect" id="node8" href="publications.html" target="_top" title="publications" alt="" coords="197,684,388,772">
-<area shape="rect" id="node3" href="markets.html" target="_top" title="markets" alt="" coords="979,111,1137,199">
-<area shape="rect" id="node4" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="933,216,1183,304">
-<area shape="rect" id="node5" href="publication_dates.html" target="_top" title="publication_dates" alt="" coords="881,321,1235,537">
-<area shape="rect" id="node6" href="publication_format_settings.html" target="_top" title="publication_format_settings" alt="" coords="899,555,1217,643">
-<area shape="rect" id="node9" href="sales_rights.html" target="_top" title="sales_rights" alt="" coords="964,660,1152,748">
-<area shape="rect" id="node10" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="860,765,1256,853">
-<area shape="rect" id="node11" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="768,871,1348,959">
-<area shape="rect" id="node12" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="791,976,1325,1064">
-<area shape="rect" id="node13" href="usage_stats_unique_title_investigations_temporary_records.html" target="_top" title="usage_stats_unique_title_investigations_temporary_records" alt="" coords="769,1081,1347,1169">
-<area shape="rect" id="node14" href="usage_stats_unique_title_requests_temporary_records.html" target="_top" title="usage_stats_unique_title_requests_temporary_records" alt="" coords="792,1187,1324,1275">
+<area shape="rect" id="node1" href="identification_codes.html" target="_top" title="identification_codes" alt="" coords="907,5,1161,93">
+<area shape="rect" id="node2" href="publication_formats.html" target="_top" title="publication_formats" alt="" coords="408,657,700,833">
+<area shape="rect" id="node7" href="dois.html" target="_top" title="dois" alt="" coords="5,704,129,792">
+<area shape="rect" id="node8" href="publications.html" target="_top" title="publications" alt="" coords="173,669,364,757">
+<area shape="rect" id="node3" href="markets.html" target="_top" title="markets" alt="" coords="955,111,1113,199">
+<area shape="rect" id="node4" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="909,216,1159,304">
+<area shape="rect" id="node5" href="publication_dates.html" target="_top" title="publication_dates" alt="" coords="857,321,1211,537">
+<area shape="rect" id="node6" href="publication_format_settings.html" target="_top" title="publication_format_settings" alt="" coords="875,555,1193,643">
+<area shape="rect" id="node9" href="sales_rights.html" target="_top" title="sales_rights" alt="" coords="940,660,1128,748">
+<area shape="rect" id="node10" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="836,765,1232,853">
+<area shape="rect" id="node11" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="744,871,1324,959">
+<area shape="rect" id="node12" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="767,976,1301,1064">
+<area shape="rect" id="node13" href="usage_stats_unique_title_investigations_temporary_records.html" target="_top" title="usage_stats_unique_title_investigations_temporary_records" alt="" coords="745,1081,1323,1169">
+<area shape="rect" id="node14" href="usage_stats_unique_title_requests_temporary_records.html" target="_top" title="usage_stats_unique_title_requests_temporary_records" alt="" coords="768,1187,1300,1275">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/publication_dates.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>

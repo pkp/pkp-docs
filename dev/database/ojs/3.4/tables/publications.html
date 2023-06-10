@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>publications - ojs_3_4_0 Database</title>
+        <title>publications - ojs-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>ojs_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>ojs-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,7 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>publications</h1><p><span id="recordNumber">0</span> rows</p><br />
+                    <h1>publications</h1><br />
                     <div class="box box-primary">
                         <div class="box-header with-border">
                             <i class="fa fa-file-text-o"></i>
@@ -117,11 +117,11 @@
                                 <tbody>
                                 <tr>
                                     <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="publication_id">publication_id</span></td>
-                                    <td>bigserial</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title='Automatically updated by the database'>√</td>
-                                    <td>nextval(&#39;publications_publication_id_seq&#39;::regclass)</td>
+                                    <td>null</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                             <tr>
@@ -158,11 +158,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="access_status">access_status</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>&#39;0&#39;::bigint</td>
+                                    <td>0</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -175,11 +175,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="date_published">date_published</span></td>
-                                    <td>date</td>
-                                    <td>13</td>
+                                    <td>DATE</td>
+                                    <td>10</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -192,11 +192,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="last_modified">last_modified</span></td>
-                                    <td>timestamp</td>
-                                    <td>22</td>
+                                    <td>DATETIME</td>
+                                    <td>19</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -209,11 +209,11 @@
                                 </tr>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="primary_contact_id">primary_contact_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -221,8 +221,8 @@
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                             <tr>
-                                                <td title="publications.primary_contact_id references authors.author_id via publications_author_id"><a href='authors.html'>authors</a><span class='relatedKey'>.author_id</span></td>
-                                                <td class="constraint detail">publications_author_id<span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
+                                                <td title="publications.primary_contact_id references authors.author_id via publications_primary_contact_id"><a href='authors.html'>authors</a><span class='relatedKey'>.author_id</span></td>
+                                                <td class="constraint detail">publications_primary_contact_id<span title='Null on delete:&#10;Foreign key to parent set to NULL when parent deleted'>N</span></td>
                                             </tr>
                                         </table>
                                     </td>
@@ -230,11 +230,11 @@
                                 </tr>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="section_id">section_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -251,11 +251,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="seq">seq</span></td>
-                                    <td>float8</td>
-                                    <td>17,17</td>
+                                    <td>DOUBLE</td>
+                                    <td>8,2</td>
                                     <td title=''></td>
                                     <td title=''></td>
-                                    <td>&#39;0&#39;::double precision</td>
+                                    <td>0.00</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -268,7 +268,7 @@
                                 </tr>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="submission_id">submission_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -289,11 +289,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="status">status</span></td>
-                                    <td>int2</td>
+                                    <td>SMALLINT</td>
                                     <td>5</td>
                                     <td title=''></td>
                                     <td title=''></td>
-                                    <td>&#39;1&#39;::smallint</td>
+                                    <td>1</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -306,11 +306,11 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="url_path">url_path</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>64</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -323,11 +323,11 @@
                                 </tr>
                                 <tr>
                                     <td><span id="version">version</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -340,11 +340,11 @@
                                 </tr>
                                 <tr>
                                     <td class='foreignKey' title='Foreign Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="doi_id">doi_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title='nullable'>√</td>
                                     <td title=''></td>
-                                    <td>null</td>
+                                    <td>NULL</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                         </table>
@@ -384,7 +384,7 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> publications_pkey</td>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
                                     <td>Primary key</td>
                                     <td><span title='Ascending'>Asc</span></td>
                                     <td>publication_id</td>
@@ -394,6 +394,12 @@
                                     <td>Performance</td>
                                     <td><span title='Ascending'>Asc</span></td>
                                     <td>doi_id</td>
+                                </tr>
+                                <tr>
+                                    <td title='Indexed'>publications_primary_contact_id</td>
+                                    <td>Performance</td>
+                                    <td><span title='Ascending'>Asc</span></td>
+                                    <td>primary_contact_id</td>
                                 </tr>
                                 <tr>
                                     <td title='Indexed'>publications_section_id</td>
@@ -412,12 +418,6 @@
                                     <td>Performance</td>
                                     <td><span title='Ascending'>Asc</span></td>
                                     <td>url_path</td>
-                                </tr>
-                                <tr>
-                                    <td title='Indexed'>publications_user_id</td>
-                                    <td>Performance</td>
-                                    <td><span title='Ascending'>Asc</span></td>
-                                    <td>primary_contact_id</td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -442,59 +442,60 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="authors.html" target="_top" title="authors" alt="" coords="730,537,942,713">
-<area shape="rect" id="node2" href="publications.html" target="_top" title="publications" alt="" coords="312,417,654,839">
-<area shape="rect" id="node6" href="dois.html" target="_top" title="dois" alt="" coords="65,804,213,951">
-<area shape="rect" id="node8" href="sections.html" target="_top" title="sections" alt="" coords="10,567,268,743">
-<area shape="rect" id="node9" href="submissions.html" target="_top" title="submissions" alt="" coords="14,368,264,544">
-<area shape="rect" id="node3" href="citations.html" target="_top" title="citations" alt="" coords="748,5,923,181">
-<area shape="rect" id="node4" href="publication_categories.html" target="_top" title="publication_categories" alt="" coords="698,199,973,321">
-<area shape="rect" id="node5" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="712,731,959,965">
-<area shape="rect" id="node7" href="publication_settings.html" target="_top" title="publication_settings" alt="" coords="708,339,963,520">
+<area shape="rect" id="node1" href="authors.html" target="_top" title="authors" alt="" coords="718,596,930,772">
+<area shape="rect" id="node2" href="publications.html" target="_top" title="publications" alt="" coords="312,476,642,897">
+<area shape="rect" id="node6" href="dois.html" target="_top" title="dois" alt="" coords="68,863,210,1009">
+<area shape="rect" id="node8" href="sections.html" target="_top" title="sections" alt="" coords="10,625,268,801">
+<area shape="rect" id="node9" href="submissions.html" target="_top" title="submissions" alt="" coords="14,427,264,603">
+<area shape="rect" id="node3" href="citations.html" target="_top" title="citations" alt="" coords="736,5,911,181">
+<area shape="rect" id="node4" href="publication_categories.html" target="_top" title="publication_categories" alt="" coords="686,199,961,351">
+<area shape="rect" id="node5" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="700,789,947,1024">
+<area shape="rect" id="node7" href="publication_settings.html" target="_top" title="publication_settings" alt="" coords="696,368,951,579">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/publications.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
                                     <div class="chart tab-pane " id="twodegreesDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="twoDegreesRelationshipsDiagram" name="twoDegreesRelationshipsDiagram">
-<area shape="rect" id="node1" href="author_settings.html" target="_top" title="author_settings" alt="" coords="2015,2049,2234,2137">
-<area shape="rect" id="node2" href="authors.html" target="_top" title="authors" alt="" coords="1547,2046,1759,2222">
-<area shape="rect" id="node3" href="publications.html" target="_top" title="publications" alt="" coords="1057,1801,1400,2222">
-<area shape="rect" id="node4" href="user_groups.html" target="_top" title="user_groups" alt="" coords="1134,1554,1323,1642">
-<area shape="rect" id="node11" href="sections.html" target="_top" title="sections" alt="" coords="684,2329,941,2505">
-<area shape="rect" id="node13" href="dois.html" target="_top" title="dois" alt="" coords="14,2181,162,2328">
-<area shape="rect" id="node15" href="submissions.html" target="_top" title="submissions" alt="" coords="688,916,937,1092">
-<area shape="rect" id="node5" href="categories.html" target="_top" title="categories" alt="" coords="724,2116,901,2204">
-<area shape="rect" id="node6" href="journals.html" target="_top" title="journals" alt="" coords="461,689,618,777">
-<area shape="rect" id="node10" href="issues.html" target="_top" title="issues" alt="" coords="227,689,375,777">
-<area shape="rect" id="node7" href="citation_settings.html" target="_top" title="citation_settings" alt="" coords="2011,1657,2238,1745">
-<area shape="rect" id="node8" href="citations.html" target="_top" title="citations" alt="" coords="1566,1654,1740,1830">
-<area shape="rect" id="node9" href="custom_section_orders.html" target="_top" title="custom_section_orders" alt="" coords="1090,2453,1367,2541">
-<area shape="rect" id="node30" href="review_forms.html" target="_top" title="review_forms" alt="" coords="440,2324,640,2412">
-<area shape="rect" id="node12" href="doi_settings.html" target="_top" title="doi_settings" alt="" coords="206,2116,396,2204">
-<area shape="rect" id="node14" href="edit_decisions.html" target="_top" title="edit_decisions" alt="" coords="1125,1061,1332,1149">
-<area shape="rect" id="node16" href="library_files.html" target="_top" title="library_files" alt="" coords="1135,742,1322,830">
-<area shape="rect" id="node17" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="1044,110,1412,198">
-<area shape="rect" id="node18" href="metrics_counter_submission_institution_daily.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="998,216,1458,304">
-<area shape="rect" id="node19" href="metrics_counter_submission_institution_monthly.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="985,321,1472,409">
-<area shape="rect" id="node20" href="metrics_counter_submission_monthly.html" target="_top" title="metrics_counter_submission_monthly" alt="" coords="1031,426,1426,514">
-<area shape="rect" id="node21" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1999,976,2250,1064">
-<area shape="rect" id="node22" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="1530,1366,1776,1601">
-<area shape="rect" id="node23" href="submission_files.html" target="_top" title="submission_files" alt="" coords="1116,1166,1340,1254">
-<area shape="rect" id="node24" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="1061,532,1396,620">
-<area shape="rect" id="node25" href="metrics_submission_geo_monthly.html" target="_top" title="metrics_submission_geo_monthly" alt="" coords="1047,637,1410,725">
-<area shape="rect" id="node26" href="publication_categories.html" target="_top" title="publication_categories" alt="" coords="1516,2276,1790,2398">
-<area shape="rect" id="node27" href="publication_galley_settings.html" target="_top" title="publication_galley_settings" alt="" coords="1968,1369,2280,1457">
-<area shape="rect" id="node28" href="publication_settings.html" target="_top" title="publication_settings" alt="" coords="1526,1848,1780,2029">
-<area shape="rect" id="node29" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="1100,1696,1357,1784">
-<area shape="rect" id="node31" href="review_round_files.html" target="_top" title="review_round_files" alt="" coords="1532,933,1774,1021">
-<area shape="rect" id="node32" href="section_settings.html" target="_top" title="section_settings" alt="" coords="1116,2348,1340,2436">
-<area shape="rect" id="node33" href="stage_assignments.html" target="_top" title="stage_assignments" alt="" coords="1530,1261,1776,1349">
-<area shape="rect" id="node34" href="submission_comments.html" target="_top" title="submission_comments" alt="" coords="1091,1308,1366,1396">
-<area shape="rect" id="node35" href="submission_search_objects.html" target="_top" title="submission_search_objects" alt="" coords="1073,1449,1384,1537">
-<area shape="rect" id="node36" href="submission_settings.html" target="_top" title="submission_settings" alt="" coords="1100,956,1356,1044">
-<area shape="rect" id="node37" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1926,774,2322,862">
-<area shape="rect" id="node38" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1834,1208,2414,1296">
-<area shape="rect" id="node39" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1857,1513,2392,1601">
+<area shape="rect" id="node1" href="author_settings.html" target="_top" title="author_settings" alt="" coords="2009,969,2228,1057">
+<area shape="rect" id="node2" href="authors.html" target="_top" title="authors" alt="" coords="1541,966,1753,1142">
+<area shape="rect" id="node3" href="publications.html" target="_top" title="publications" alt="" coords="1057,412,1388,833">
+<area shape="rect" id="node4" href="user_groups.html" target="_top" title="user_groups" alt="" coords="1128,850,1317,938">
+<area shape="rect" id="node11" href="sections.html" target="_top" title="sections" alt="" coords="678,120,935,296">
+<area shape="rect" id="node13" href="dois.html" target="_top" title="dois" alt="" coords="15,1905,156,2052">
+<area shape="rect" id="node16" href="submissions.html" target="_top" title="submissions" alt="" coords="682,1620,931,1796">
+<area shape="rect" id="node5" href="categories.html" target="_top" title="categories" alt="" coords="718,385,895,473">
+<area shape="rect" id="node6" href="journals.html" target="_top" title="journals" alt="" coords="456,1324,612,1412">
+<area shape="rect" id="node10" href="issues.html" target="_top" title="issues" alt="" coords="224,1324,366,1412">
+<area shape="rect" id="node7" href="citation_settings.html" target="_top" title="citation_settings" alt="" coords="2005,548,2232,636">
+<area shape="rect" id="node8" href="citations.html" target="_top" title="citations" alt="" coords="1560,545,1734,721">
+<area shape="rect" id="node9" href="custom_section_orders.html" target="_top" title="custom_section_orders" alt="" coords="1084,84,1361,172">
+<area shape="rect" id="node31" href="review_forms.html" target="_top" title="review_forms" alt="" coords="434,96,634,184">
+<area shape="rect" id="node12" href="doi_settings.html" target="_top" title="doi_settings" alt="" coords="200,1908,390,1996">
+<area shape="rect" id="node14" href="edit_decisions.html" target="_top" title="edit_decisions" alt="" coords="1544,1784,1750,1872">
+<area shape="rect" id="node15" href="review_rounds.html" target="_top" title="review_rounds" alt="" coords="1118,1768,1327,1856">
+<area shape="rect" id="node17" href="library_files.html" target="_top" title="library_files" alt="" coords="1129,1272,1316,1360">
+<area shape="rect" id="node18" href="metrics_counter_submission_daily.html" target="_top" title="metrics_counter_submission_daily" alt="" coords="1038,1377,1406,1465">
+<area shape="rect" id="node19" href="metrics_counter_submission_institution_daily.html" target="_top" title="metrics_counter_submission_institution_daily" alt="" coords="992,1482,1452,1570">
+<area shape="rect" id="node20" href="metrics_counter_submission_institution_monthly.html" target="_top" title="metrics_counter_submission_institution_monthly" alt="" coords="979,2402,1466,2490">
+<area shape="rect" id="node21" href="metrics_counter_submission_monthly.html" target="_top" title="metrics_counter_submission_monthly" alt="" coords="1025,956,1420,1044">
+<area shape="rect" id="node22" href="metrics_submission.html" target="_top" title="metrics_submission" alt="" coords="1993,1642,2244,1730">
+<area shape="rect" id="node23" href="publication_galleys.html" target="_top" title="publication_galleys" alt="" coords="1524,2066,1770,2301">
+<area shape="rect" id="node24" href="submission_files.html" target="_top" title="submission_files" alt="" coords="1110,2225,1334,2313">
+<area shape="rect" id="node25" href="metrics_submission_geo_daily.html" target="_top" title="metrics_submission_geo_daily" alt="" coords="1055,1061,1390,1149">
+<area shape="rect" id="node26" href="metrics_submission_geo_monthly.html" target="_top" title="metrics_submission_geo_monthly" alt="" coords="1041,1166,1404,1254">
+<area shape="rect" id="node27" href="publication_categories.html" target="_top" title="publication_categories" alt="" coords="1510,376,1784,528">
+<area shape="rect" id="node28" href="publication_galley_settings.html" target="_top" title="publication_galley_settings" alt="" coords="1962,2069,2274,2157">
+<area shape="rect" id="node29" href="publication_settings.html" target="_top" title="publication_settings" alt="" coords="1520,738,1774,949">
+<area shape="rect" id="node30" href="review_assignments.html" target="_top" title="review_assignments" alt="" coords="1518,1678,1776,1766">
+<area shape="rect" id="node32" href="review_round_files.html" target="_top" title="review_round_files" alt="" coords="1526,1889,1768,1977">
+<area shape="rect" id="node33" href="section_settings.html" target="_top" title="section_settings" alt="" coords="1110,189,1334,277">
+<area shape="rect" id="node34" href="stage_assignments.html" target="_top" title="stage_assignments" alt="" coords="1524,1338,1770,1426">
+<area shape="rect" id="node35" href="submission_comments.html" target="_top" title="submission_comments" alt="" coords="1085,1873,1360,1961">
+<area shape="rect" id="node36" href="submission_search_objects.html" target="_top" title="submission_search_objects" alt="" coords="1067,1978,1378,2066">
+<area shape="rect" id="node37" href="submission_settings.html" target="_top" title="submission_settings" alt="" coords="1094,2084,1350,2172">
+<area shape="rect" id="node38" href="usage_stats_total_temporary_records.html" target="_top" title="usage_stats_total_temporary_records" alt="" coords="1920,2389,2316,2477">
+<area shape="rect" id="node39" href="usage_stats_unique_item_investigations_temporary_records.html" target="_top" title="usage_stats_unique_item_investigations_temporary_records" alt="" coords="1828,2282,2408,2370">
+<area shape="rect" id="node40" href="usage_stats_unique_item_requests_temporary_records.html" target="_top" title="usage_stats_unique_item_requests_temporary_records" alt="" coords="1851,1892,2386,1980">
 </map>
                                         <a name='diagram'><img id="twodegreesDegreeImg" src="../diagrams/tables/publications.2degrees.png" usemap="#twoDegreesRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>

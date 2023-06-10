@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>data_object_tombstones - ops_3_4_0 Database</title>
+        <title>data_object_tombstones - ojs-stable-3_4_0 Database</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <link rel="icon" type="image/png" sizes="16x16" href="../favicon.png">
@@ -46,7 +46,7 @@
                 <nav class="navbar navbar-static-top">
                     <div class="container">
                         <div class="navbar-header">
-                            <a href="../index.html" class="navbar-brand"><b>ops_3_4_0</b> Database</a>
+                            <a href="../index.html" class="navbar-brand"><b>ojs-stable-3_4_0</b> Database</a>
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><i class="fa fa-bars"></i></button>
                         </div>
 
@@ -73,7 +73,7 @@
             <div class="content-wrapper">
                 <!-- Content Header (Page header) -->
                 <section class="content-header">
-                    <h1>data_object_tombstones</h1><p><span id="recordNumber">0</span> rows</p><br />
+                    <h1>data_object_tombstones</h1><br />
                     <div class="box box-primary">
                         <div class="box-header with-border">
                             <i class="fa fa-file-text-o"></i>
@@ -117,11 +117,11 @@
                                 <tbody>
                                 <tr>
                                     <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey' style='padding-left: 5px;'></i><span id="tombstone_id">tombstone_id</span></td>
-                                    <td>bigserial</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title='Automatically updated by the database'>√</td>
-                                    <td>nextval(&#39;data_object_tombstones_tombstone_id_seq&#39;::regclass)</td>
+                                    <td>null</td>
                                     <td>
                                         <table border='0' cellspacing='0' cellpadding='0'>
                                             <tr>
@@ -142,7 +142,7 @@
                                 </tr>
                                 <tr>
                                     <td class='indexedColumn' title='Indexed'><i class='fa fa-sitemap fa-rotate-120' style='padding-right: 5px;'></i><span id="data_object_id">data_object_id</span></td>
-                                    <td>int8</td>
+                                    <td>BIGINT</td>
                                     <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -159,8 +159,8 @@
                                 </tr>
                                 <tr>
                                     <td><span id="date_deleted">date_deleted</span></td>
-                                    <td>timestamp</td>
-                                    <td>22</td>
+                                    <td>DATETIME</td>
+                                    <td>19</td>
                                     <td title=''></td>
                                     <td title=''></td>
                                     <td>null</td>
@@ -176,7 +176,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="set_spec">set_spec</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>255</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -193,7 +193,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="set_name">set_name</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>255</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -210,7 +210,7 @@
                                 </tr>
                                 <tr>
                                     <td><span id="oai_identifier">oai_identifier</span></td>
-                                    <td>varchar</td>
+                                    <td>VARCHAR</td>
                                     <td>255</td>
                                     <td title=''></td>
                                     <td title=''></td>
@@ -250,7 +250,7 @@
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> data_object_tombstones_pkey</td>
+                                    <td class='primaryKey' title='Primary Key'><i class='icon ion-key iconkey'></i> PRIMARY</td>
                                     <td>Primary key</td>
                                     <td><span title='Ascending'>Asc</span></td>
                                     <td>tombstone_id</td>
@@ -283,9 +283,9 @@
                                 <div class="tab-content no-padding">
                                     <div class="chart tab-pane active" id="oneDegreeImg-chart" style="position: relative; overflow-x:auto;">
                                         <map id="oneDegreeRelationshipsDiagram" name="oneDegreeRelationshipsDiagram">
-<area shape="rect" id="node1" href="data_object_tombstone_oai_set_objects.html" target="_top" title="data_object_tombstone_oai_set_objects" alt="" coords="440,5,852,152">
-<area shape="rect" id="node2" href="data_object_tombstones.html" target="_top" title="data_object_tombstones" alt="" coords="5,100,396,345">
-<area shape="rect" id="node3" href="data_object_tombstone_settings.html" target="_top" title="data_object_tombstone_settings" alt="" coords="469,169,823,345">
+<area shape="rect" id="node1" href="data_object_tombstone_oai_set_objects.html" target="_top" title="data_object_tombstone_oai_set_objects" alt="" coords="428,5,840,152">
+<area shape="rect" id="node2" href="data_object_tombstones.html" target="_top" title="data_object_tombstones" alt="" coords="5,115,384,360">
+<area shape="rect" id="node3" href="data_object_tombstone_settings.html" target="_top" title="data_object_tombstone_settings" alt="" coords="457,169,811,375">
 </map>
                                         <a name='diagram'><img id="oneDegreeImg" src="../diagrams/tables/data_object_tombstones.1degree.png" usemap="#oneDegreeRelationshipsDiagram" class="diagram" border="0" align="left"></a>
                                     </div>
