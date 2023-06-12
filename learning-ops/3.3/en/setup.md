@@ -1,6 +1,6 @@
 ---
 book: learning-ops
-version: 3.4
+version: 3.3
 title: Setting up and Maintaining Your Server - Learning OPS
 ---
 # Setting up and Maintaining Your Server
@@ -92,8 +92,6 @@ To learn more about available plugins, see [the Plugin Inventory](/plugin-invent
 **Browse Plugin**: This plugin adds the ability to browse by Categories and sub-categories through the Servers homepage.
 
 ![An instance of OPS with the Browse plugin enabled.](./assets/learning-ops-website-settings-browse-plugin.png)
-
-**Citation Style Language Plugin**: This plugin adds a “How to Cite” block to the article page that contains a citation for the article in the format of your choice, with an option below to generate the citation in another format.
 
 **Crossref Deposit Plugin**: This plugin is necessary to register preprints DOIs at Crossref. When enabled, it will automatically deposit the Preprint DOI during the post action.
 

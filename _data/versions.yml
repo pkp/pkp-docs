@@ -29,7 +29,8 @@ learning-omp:
   3.2: /learning-omp/3.2/
   3.1: /learning-omp/3.1/
 learning-ops:
-  3.3: /learning-ops/
+  3.4: /learning-ops/
+  3.3: /learning-ops/3.3/
   3.2: /learning-ops/3.2/
 translating-guide:
   3.2: /translating-guide/
