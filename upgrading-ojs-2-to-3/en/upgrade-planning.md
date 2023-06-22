@@ -36,6 +36,9 @@ For additional resources outlining the new features in OJS 3 and upgrade-related
 
 Generally you should upgrade to the latest version of OJS. However, if the latest version is a new major release (e.g., OJS 3.1.0, OJS 3.2.0), you may want to wait until the next minor release is available (e.g., OJS 3.1.0-1; OJS 3.2.0-1) because usually a new major release has a few unexpected bugs that will be fixed in the first minor release that follows. Check the [PKP website](https://pkp.sfu.ca/category/news/) for news about releases when making this decision.
 
+> ⚠️  The OJS 2.x to 3.x upgrade tools are only supported up to OJS 3.2.0-x. If you are upgrading from OJS 2.x to 3.x, we recommend upgrading to the most recent release of OJS 3.2.0. Once that is complete, upgrade from there to newer releases.
+{:.warning}
+
 ## Plan your upgrade
 
 Taking into account the steps involved, create a plan and timeline for the upgrade.
@@ -48,7 +51,7 @@ Determine what training and support will be needed by your editorial team before
 
 ## Ensure that your server meets the requirements of OJS 3 and modify if necessary
 
-The recommended server requirements for OJS 3 are:
+The recommended server requirements for OJS 3.2.0 are:
 
 - PHP >= 7.2
 - MySQL >= 4.1 or PostgreSQL >= 9.1.5
