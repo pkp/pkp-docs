@@ -14,7 +14,7 @@ This is a quick-start guide to install and run OJS, OMP or OPS in a local test e
 Your server — or your local development environment — must meet the following requirements in order to run the 3.4 release of OJS, OMP or OPS.
 
 - [PHP 8.0+](http://www.php.net/) with php-mbstring, php-xml, and php-intl enabled
-- [MySQL 5.7+](http://www.mysql.com/), [MariaDB 4.1+](https://mariadb.org/) or [PostgreSQL 9.5+](http://www.postgresql.org/)
+- [MySQL 5.7.22+](http://www.mysql.com/), [MariaDB 4.1+](https://mariadb.org/) or [PostgreSQL 9.5+](http://www.postgresql.org/)
 - Linux, or one of the following: BSD, Solaris, Mac OS X, Windows
 
 > **Older Versions**: Check the README.md file located in the download package of the version you want to install.
