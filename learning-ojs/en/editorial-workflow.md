@@ -1,8 +1,8 @@
 ---
 book: learning-ojs
-version: 3.3
+version: 3.4
 showPageTOC: true
-title: Learning Open Journal Systems 3.3 - Editorial Workflow
+title: Learning Open Journal Systems 3.4 - Editorial Workflow
 description: How to manage an article manuscript through the OJS workflow, from submission to publication.
 ---
 
@@ -47,6 +47,17 @@ Your Tasks are available from the top left menu of your Dashboard. Note the numb
 Tasks provide a quick look at items that need your attention. Bold entries are unread, and unbold entries have been read.
 
 Use the checkbox to mark tasks for deletion \(the link is available at the bottom of the list\).
+
+Editors will receive a weekly email summary of outstanding tasks, regarding submissions which require editorial actions, including:
+
+* Items in the submission stage
+* Submissions in the review stage, which do not have any reviewer assigned yet
+* One or more reviews are overdue
+* All reviews are completed
+* Revisions have been submitted
+* Submissions in the copyediting or production stages, which have been inactive for 30 or more days
+
+An editor can opt out of email notifications by changing [notification settings in their profile](./user-accounts#viewing-and-changing-your-profile) or clicking on the unsubscribe link.
 
 <hr />
 
@@ -93,6 +104,8 @@ The **Filter** tool allows you to limit your browsing to specific conditions for
 
 - __Sections:__ this option is only available if more than 5 sections exist. After you begin entering text, the filter will auto-suggest. For example, filter by _articles_ or _reviews_
 
+- __Categories:__ this option is only available if you have set up at least 1 customized [category](./journal-setup#categories).
+
 - __Assigned editor(s):__ only Journal Managers and Journal Editors have this filter option. Like sections, this is a textbox which will auto-suggest a Section Editor, Journal Editor, or Guest Editor's name as you start to type it, then display all articles assigned to the editor.
 
 - __Assigned issue:__ only journal managers can filter by unpublished issues, but editors and assistants will be able to filter by published issues. This field is case-sensitive and require exact match. For best results, search by year or title, rather than volume or number. This filter is mostly used if the assignment of a submission to an issue is done in an early phase of the editorial process. 
@@ -137,14 +150,6 @@ Once you find the submission, you can use the view button to view the submission
 
 ![A submission with the options menu expanded.](./assets/learning-ojs3.3-submission-options.png)
 
-**Activity Log & Notes** will bring up the submission's history.
-
-![A sample activity log for a submission](./assets/learning-ojs3.1-ed-dashboard-log.png)
-
-Use the Notes tab to also view or add any editorial notes.
-
-![The Notes tab of the Activity log.](./assets/learning-ojs-3-ed-submissions-notes.png)
-
 ### Submission Record
 
 To view the submission in more detail, select **View Submission** button. This will take you to the submission record.
@@ -172,19 +177,25 @@ For journals using anonymous review, the author and reviewer (if they were to up
 
 **Participants**: This panel is where you will see the list of participants involved in the submission, including the editor, section editors, and author. Other names (copyeditors, layout editors, etc.) will appear here as they are added in subsequent steps.
 
-**Submission Library**: The Submission Library is a general storage area for documents that may include conflict-of-interest forms, galley approval forms, etc. A user can upload the completed form for their manuscript in their Submission Library. The uploaded forms will also be available to other participants (with the exception of Reviewers) assigned throughout the editorial or production workflow to edit or re-upload new versions.
+**Activity Log** is accessible on top right of every submission page. It keeps a record of all decisions and actions taken during the editorial workflow. It is only visible to editors and also allows to view sent emails and download documents.
 
-**Document Library**: Users throughout the editorial workflow will be able to access all the files in the Publisher Library (see [Workflow Settings chapter](./settings-workflow.md)) made available by the Journal Manager or Editor through opening the Submission Library and clicking "View Document Library".
+![A sample activity log for a submission](./assets/learning-ojs3.1-ed-dashboard-log.png)
+
+**Notes** can be used to add any editorial notes.
+
+![The Notes tab of the Activity log.](./assets/learning-ojs-3-ed-submissions-notes.png)
+
+**Library**: The Library is accessible on top right of every submission page. It is a general file storage for documents that may include conflict-of-interest forms, galley approval forms, etc. Authors and Editors (but not Reviewers) can upload new files and access uploaded files.
+
+This submission-specific Library is different from the journal-wide [Publisher Library](./settings-workflow#publisher-library) that is meant for general files and can generate public links to them.
+
+Users throughout the editorial workflow can access all the files in the Publisher Library by opening the submission-specific Library and clicking "View Document Library".
 
 ![The location of the View Document Library button in the Submission Library panel.](./assets/learning-ojs3.1-jm-settings-workflow-sublib1.png)
 
-**Preview**:  See how the submission will look when published with its current metadata and Galley files by clicking Preview.
+**Preview** button allows to see how the submission will look when published with its current metadata and Galley files. It becomes available after the submission is accepted.
 
 ![The preview feature that shows how an article will look when published](./assets/learning-ojs-3-ed-preview.png)
-
-**Metadata**: Where you can view and revise the submission metadata. In OJS 3.2 and later, users can be granted permission to revise certain submission metadata at any stage of the workflow.
-
-![The Metadata tab of a submission.](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
 
 ### Granting Author permissions
 
@@ -241,6 +252,8 @@ You can now see that the Section Editor is listed under Participants, and the Ac
 
 **Decline Submission**: Rejects the submission before going through the review process. The submission would then be archived. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active.
 
+**Cancel Review Round**: As of OJS 3.4 you can cancel a review round that has been started, unless a reviewer has completed a review. If a reviewer has declined the review, you must cancel the reviewer before you can cancel the review round. You cannot cancel a review round if a review has been submitted.
+
 Although in this example, the editor assigned a section editor, it would also be possible for the editor to assign themselves to the submission.
 
 Once the editor has selected an action, the submission status will change and the action buttons will be disabled.
@@ -267,9 +280,9 @@ If the Section Editor has any questions for the author, they can use the Pre-Rev
 
 #### Sending to Review
 
-Once the Section Editor is satisfied that the submission is appropriate for the journal, they can select the **Send to Review** button to move the submission to the next stage.
+Once the Section Editor is satisfied that the submission is appropriate for the journal, they can select the **Send to Review** button to move the submission to the next stage. They will have an option to send a notification to the author and select files to be sent to the review stage.
 
-![The Send to Review confirmation window.](./assets/learning-ojs3.1-se-record-sendReview.png)
+![The Send to Review confirmation window.](./assets/learning-ojs-3.4-send-for-review-files.png)
 
 Keep the files that are to be reviewed checked off.
 
@@ -347,15 +360,19 @@ You can make additional changes using the blue arrow toggle next to the Reviewer
 
 ![The Edit Review window.](./assets/learning-ojs-3-ed-rev-reviewer-edit-review.png)
 
-**Unassign Reviewer**: Allows you to unassign the Reviewer.
+**Unassign Reviewer**: A reviewer can be **unassigned** BEFORE they have accepted the review invitation. Their name will be removed from the reviewer list and the same person can be assigned again. 
 
-**Cancel Review Request**: As of OJS 3.2, you can cancel a review request. This may be necessary when a reviewer has not responded to a review request or accepted to do a review but never delivered.
+![The Unassign  Reviewer option in the expanded Reviewer options.](./assets/learning-ojs-3.4-unassign-reviewer.png)
+
+**Cancel Reviewer**: A review can be **cancelled** AFTER the reviewer has accepted or declined the review invitation. This may be necessary when a reviewer accepted to do a review but never delivered.
 
 ![The Cancel Reviewer option in the expanded Reviewer options.](./assets/learning-ojs-3.2-cancel-reviewer.png)
 
-Cancelling a review request will permit you to send a template email to the reviewer. The request will then show up in the editor's reviewer list as "cancelled".
+Cancelling a review request will permit you to send a template email to the reviewer. Reviewer’s name will remain on the list and will show as "cancelled".
 
-![A sample review request marked "Request cancelled".](./assets/learning-ojs-3.2-reviewer-cancelled.png)
+![A sample review request marked "Request cancelled".](./assets/learning-ojs-3.4-reviewer-cancelled.png)
+
+**Reinstate Reviewer**: A cancelled reviewer can be reinstated, both if they had previously accepted or declined to review. “Reinstate reviewer” action will prompt an optional invitation email to the reviewer. If they had previously declined to review, they will need to accept this new invitation.
 
 Cancelled review will be recorded in reviewer stats that you can see when selecting a reviewer.
 
@@ -376,6 +393,8 @@ You will then select the reviewer(s) you would like to start a discussion with.
 ![The review History window.](./assets/learning-ojs-3-ed-rev-review-history.png)
 
 At this point, we could add additional Reviewers, and then wait for their recommendations to come in.
+
+As of OJS 3.4 you can cancel the Review stage, which will return the submission to the Submission stage. Additional review rounds can also be cancelled, as long as there are no completed reviews in them.
 
 ### Understanding Different Types of Review
 
@@ -526,7 +545,7 @@ Hit the **Thank Reviewer** button to send the message.
 
 Based on the Reviewer recommendations, you can use the action buttons to make a decision.
 
-![The various action buttons for making a decision regarding a submission.](./assets/learning-ojs-3-ed-rev-decision.png)
+![The various action buttons for making a decision regarding a submission.](./assets/learning-ojs-3.4-ed-rev-decision.png)
 
 Options include:
 
@@ -536,24 +555,33 @@ Options include:
 
 **Decline Submission**: This means that the submission has not passed peer review and is unsuitable for further consideration. The submission would then move to the Archives. Only declined submissions in the Archives can be deleted. In OJS 3.3, there is now the option to revert a Decline decision in the Submission and Review stage. This can be done by clicking **Change Decision** followed by **Revert Decline**. After a declined decision is reverted, the submission is restored to its previous stage and review round if active.
 
+### Accept Submission
+
+When accepting a submission, you will have an option to notify the author, with added CC/BCC options for additional contacts. This notification can be skipped by clicking “Skip the email” at the bottom of the form. 
+
+Clicking “Insert Content” allows to add reviewers’ comments as well as other submission or journal-related information. Clicking “Attach files” allows to add reviewer-uploaded file(s) or upload a new file to accompany the decision.
+
+![Accept submission author notification screen.](./assets/learning-ojs-3.4-ed-accept-submission1.png)
+
+If the journal accepts Article Processing Charges, the prompt to request or waive the fee will appear in an additional screen before author notification.
+
+In the next screen, you can optionally notify reviewers of the decision, and in the final screen - select files to be sent to the copyediting stage.
+
+![Accept submission reviewer notification screen.](./assets/learning-ojs-3.4-ed-accept-submission2.png)
+
 ### Request Revisions
 
-In this demonstration, we are going to request that the Author make some minor revisions before acceptance.
+When requesting revisions, you first need to indicate whether they will be subject to a new round of peer review.
 
-To do so, select the **Request Revisions** button. This results in a new message window.
+![Request revisions new round of review selection.](./assets/learning-ojs-3.4-ed-request-revisions1.png)
 
-![The Request Revisions window.](./assets/learning-ojs-3-ed-rev-req-revisions.png)
+In the next screen, you can notify the author using the suggested email template, or pick a different email template using Find Template on the left. This notification can be skipped by clicking “Skip the email” at the bottom of the form. 
 
-You can modify any of the text before sending the message.
+Clicking “Insert Content” allows to add reviewers’ comments as well as other submission or journal-related information. Clicking “Attach files” allows to add reviewer-uploaded file(s) or upload a new file to accompany the decision.
 
-Use the **Add Reviews** button to import the Reviewer's comments from the Editor and Author field. Comments in the Editor only field will not be displayed.
+![Request revisions author notification screen.](./assets/learning-ojs-3.4-ed-request-revisions2.png)
 
-If there are any attachments, such as a marked up file created by a Reviewer, you can attach it here (as long as it has been anonymized).
-In OJS 3.1.2 and later, you can also upload a new file and add it as an attachment.
-
-Hit the **Record Editorial Decision** button to send the message.
-
-![A sample request for revisions with imported comments and options to share files.](./assets/learning-ojs-3-ed-rev-req-revisions3.png)
+In the next screen, you can optionally notify reviewers of the decision. Finally, hit “Record Decision” to send the message.
 
 You must now wait for the Author to respond with their revisions.
 
@@ -583,7 +611,7 @@ It is best to start a new round of review **after** an author uploads revised fi
 
 A new round should **not** be started if you are experiencing any issues with the current round (i.e., unable to record decision, re-invite a declined or removed reviewer).
 
-To start an additional round of review after revised files have been received, click the **New Review Round** tab in the review tab of the manuscript.
+To start an additional round of review after revised files have been received, click the **New Review Round** tab in the review tab of the manuscript. As of OJS 3.4 you can cancel an additional review round.
 
 ![The New Review Round button in the Review panel](./assets/learning-ojs-3-new-round-1.png)
 
@@ -643,7 +671,9 @@ This PKP School video explains the Copyediting stage. To watch other videos in t
 
 When a submission is accepted in the Review Stage, it will automatically move to the Copyediting stage.
 
-![The Copyediting stage of a submission.](./assets/learning-ojs-3-ed-copyediting.png)
+![The Copyediting stage of a submission.](./assets/learning-ojs-3.4-ed-copyediting.png)
+
+There is an option to Cancel Copyediting that will return the submission to the Review stage, with an option to notify the author about this change.
 
 ### Adding a Copyeditor
 

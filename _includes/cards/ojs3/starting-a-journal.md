@@ -3,6 +3,6 @@
 
 [Frequently Asked Questions (FAQ)](/faq/en/): How to use PKP software and common troubleshooting issues.
 
-[Launch a new journal](/starting-a-journal/): A step-by-step checklist.
+[Short Guide to Starting a New Journal](/starting-a-journal/): A short guide for editors wishing to launch a new journal.
 
 [Journal policies and workflows](/journal-policies-workflows/en/): A guide to common journal practices.

@@ -1,7 +1,7 @@
 # Tema Bootstrap3
 O [Bootstrap 3](https://getbootstrap.com/docs/3.4/) é um framework de HTML, CSS e JavaScript muito popular para desenvolvimento de aplicações _web_ responsivas e _mobile-first_. Devido à sua popularidade muitos desenvolvedores estão familiarizados com as técnicas de HTML, CSS e JavaScript utilizados neste _framework_.
 
-O [tema Bootstrap3 ](https://github.com/NateWr/bootstrap3) é um esforço da comunidade em fornecer um tema base desenvolvido utilizando estas técnicas. Ele implementa um tema de periódico em OJS utilizando o código  _markup_ HTML principal do bootstrap e fornece um bom número de estilos de terceiros prontos para uso no tema Bootstrap3.
+O [tema Bootstrap3 ](https://github.com/pkp/bootstrap3) é um esforço da comunidade em fornecer um tema base desenvolvido utilizando estas técnicas. Ele implementa um tema de periódico em OJS utilizando o código  _markup_ HTML principal do bootstrap e fornece um bom número de estilos de terceiros prontos para uso no tema Bootstrap3.
 
 O tema Bootstrap3  da comunidade foi projetado para ser uma base de início de trabalho de desenvolvimento e não um produto final. Para garantir a ampla compatibilidade com os recursos do Bootstrap 3, e facilitar a introdução para desenvolvedores habituados a trabalhar com o Bootstrap 3, este  tema fornece o _markup_ baseado apenas em  componentes principais do framework Bootstrap 3.
 
@@ -10,12 +10,12 @@ Isto significa que, na maioria dos casos, você precisará lidar com [ Temas Fil
 
 ## Instalação do Boostrap3
 
-A maneira **mais simples** de se obter o tema Bootstrap3 é fazendo o _download_ da [última versão](https://github.com/NateWr/bootstrap3/releases) direto do repositório de desenvolvimento. Extraia o conteúdo do arquivo `.zip` e mova o diretório `bootstrap3` para sua instação OJS em  `/plugins/themes/bootstrap3`.
+A maneira **mais simples** de se obter o tema Bootstrap3 é fazendo o _download_ da [última versão](https://github.com/pkp/bootstrap3/releases) direto do repositório de desenvolvimento. Extraia o conteúdo do arquivo `.zip` e mova o diretório `bootstrap3` para sua instação OJS em  `/plugins/themes/bootstrap3`.
 
 A maneira **mais rápida** de se obter o tema Bootstrap3  é utilizando o `git` na linha de comando
 
 ```
-git submodule add https://github.com/NateWr/bootstrap3.git plugins/themes/bootstrap3
+git submodule add https://github.com/pkp/bootstrap3.git plugins/themes/bootstrap3
 ```
 
 Uma vez instalado o tema, você deve ir na página **Configurações > Website > Plugins** na área administrativa de seu OJS e habilitar o tema Bootstrap3. Após, você pode navegar até **Configurações > Website > Aparência** e escolher uma das amostras de tema inclusos na instalação deste tema.
@@ -29,19 +29,19 @@ Cada uma das amostras é liberada sob uma licença compatível com GPL. Há milh
 
 
 ## Explorando o Bootstrap
-Sendo o Bootstrap apenas um tema base ele demandará um pouco de trabalho para a implementação de temas com visual mais requintado. Recomenda-se que, caso você esteja trabalhando com estes arquivos,  esteja familiarizado com ambos os elementos de [Bootstrap 3](https://getbootstrap.com/docs/3.4/getting-started/) e [LESS](http://lesscss.org/features/). 
+Sendo o Bootstrap apenas um tema base ele demandará um pouco de trabalho para a implementação de temas com visual mais requintado. Recomenda-se que, caso você esteja trabalhando com estes arquivos,  esteja familiarizado com ambos os elementos de [Bootstrap 3](https://getbootstrap.com/docs/3.4/getting-started/) e [LESS](http://lesscss.org/features/).
 
 
 Inicialmente explore o arquivo de variáveis do Bootstrap básico:
-- [plugins/themes/bootstrap3/bootstrap/less/variables.less](https://github.com/NateWr/bootstrap3/blob/master/bootstrap/less/variables.less)
+- [plugins/themes/bootstrap3/bootstrap/less/variables.less](https://github.com/pkp/bootstrap3/blob/master/bootstrap/less/variables.less)
 
 Todas as cores, fontes, etc... são declaradas aqui e cada um dos diferentes temas inclusos, essencialmente, sobrescreve estas variáveis. Por exemplo, aqui está o arquivo de variáveis do tema Flatly:
 
-- [plugins/themes/bootstrap3/bootstrap-themes/flatly/variables.less](https://github.com/NateWr/bootstrap3/blob/master/bootstrap-themes/flatly/variables.less)
+- [plugins/themes/bootstrap3/bootstrap-themes/flatly/variables.less](https://github.com/pkp/bootstrap3/blob/master/bootstrap-themes/flatly/variables.less)
 
-E, em seguida, ele inclui apenas um pouco de código LESS adicional para ajustar algumas coisas mais: 
+E, em seguida, ele inclui apenas um pouco de código LESS adicional para ajustar algumas coisas mais:
 
-- [plugins/themes/bootstrap3/bootstrap-themes/flatly/bootswatch.less](https://github.com/NateWr/bootstrap3/blob/master/bootstrap-themes/flatly/bootswatch.less)
+- [plugins/themes/bootstrap3/bootstrap-themes/flatly/bootswatch.less](https://github.com/pkp/bootstrap3/blob/master/bootstrap-themes/flatly/bootswatch.less)
 
 ## Temas Filhos com o Tema Bootstrap3
 Cada uma das amostras de temas inclusa funciona da mesma maneira.Elas sobrescrevem os arquivos principais do Bootstrap3 com seus próprios valores. Você, provavelmente, fará mais personalizações com seu próprio tema.
@@ -63,7 +63,7 @@ Você pode, em seguida, utilizar o método `modifyStyle()` da [API de Tema](them
 
 Agora seu tema filho carregará um arquivo LESS adicional, `styles/variables.less`, de  diretório de arquivos do seu tema. Você pode sobrescrever as variáveis Bootstrap 3 neste arquivo.
 
-Encontre o [arquivo de variáveis do Bootstrap 3](https://github.com/NateWr/bootstrap3/blob/master/bootstrap/less/variables.less). Copie o conteúdo deste arquivo para seu próprio tema em `styles/variables.less`. Modifique, então, conforme desejar.
+Encontre o [arquivo de variáveis do Bootstrap 3](https://github.com/pkp/bootstrap3/blob/master/bootstrap/less/variables.less). Copie o conteúdo deste arquivo para seu próprio tema em `styles/variables.less`. Modifique, então, conforme desejar.
 
 Aqui está um exemplo de um conjunto de cores modificadas em meu novo `styles/variables.less`.
 
@@ -87,7 +87,7 @@ Se você quiser basear seu Tema Filho a partir de um dos temas de amostra inclu�
 
 ## Contribuindo com uma Amostra para Comunidade
 
-Caso você crie um novo tema, que considere interessante de também ser incluído como amostra no tema Bootstrap3, então abra uma solicitação para esta sua contribuição no [repositório de desenvolvimento](https://github.com/NateWr/bootstrap3/).
+Caso você crie um novo tema, que considere interessante de também ser incluído como amostra no tema Bootstrap3, então abra uma solicitação para esta sua contribuição no [repositório de desenvolvimento](https://github.com/pkp/bootstrap3/).
 
 Para adicionar uma nova amostra ao tema Bootstrap3 você precisa configurar todos os arquivos necessários para sua nova amostra (ex.: `minhaamostra`).
 
@@ -107,7 +107,7 @@ Substitua as referências existentes aos arquivos do tema `flatly` pelas referê
 ```
 @import "bootstrap.less";
 @import "../bootstrap-themes/minhaamostra/variables.less";
-@import "../bootstrap-themes/minhaamostra/minhaamostra.less"; 
+@import "../bootstrap-themes/minhaamostra/minhaamostra.less";
 ```
 7. Edite o arquivo `plugins/themes/bootstrap3/BootstrapThreeThemePlugin.inc.php` e adicione uma nova entrada de opção para o seu tema filho, como: `'meutema' => 'plugins.themes.bootstrap3.options.bootstrapTheme.minhaamostra',`
 8. Edite o arquivo `plugins/themes/bootstrap3/locale/en_US/locale.xml`  e adicione uma nova entrada de idioma para seu novo tema. Por exemplo:

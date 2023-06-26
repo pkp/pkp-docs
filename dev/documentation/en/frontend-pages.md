@@ -172,7 +172,7 @@ Use the `$smarty` variable to access a global PHP constant.
 define('WORKFLOW_STAGE_ID_SUBMISSION', 1);
 ```
 ```html
-{if $stageId === WORKFLOW_STAGE_ID_SUBMISSION}
+{if $stageId === $smarty.const.WORKFLOW_STAGE_ID_SUBMISSION}
 	Stage: Submission
 {/if}
 ```
@@ -235,6 +235,40 @@ $templateMgr->assign([
     'isPublished' => $status === STATUS_PUBLISHED
 ]);
 ```
+
+## Containers
+
+> Containers should never be used unless there is no alternative. They are a temporary solution to migrating away from the old JavaScript framework.
+{:.warning}
+
+In rare cases, it may be necessary to initialize a root component in a template that does not support the `Page` component. This is the case when content is loaded into a modal in the older JS framework. Use the `Container` component to mount a second instance of Vue.js.
+
+In the example below, the `Container` component treats the content of the `#example-container-{$uuid}` DOM element as the template. It creates a `<pkp-form>` component and passes the value of `this.components.masthead` as props.
+
+```html
+{assign var="uuid" value=""|uniqid|escape}
+<div id="example-container-{$uuid}">
+	<pkp-form
+		v-bind="components.masthead"
+		@set="set"
+	/>
+</div>
+<script type="text/javascript">
+	pkp.registry.init('example-container-{$uuid}', 'Container', {$exampleData|json_encode});
+</script>
+```
+
+This is the same as mounting a Vue app to the DOM as recommended in Vue's documentation.
+
+```js
+var app = new Vue({
+	...Container,
+	el: '#example-container-<uuid>',
+	data: exampleContainerDataInJsonFormat
+})
+```
+
+We mount Vue apps using `pkp.registry.init` to make sure that Vue components mounted inside of our legacy JavaScript toolkit do not cause memory leaks.
 
 ---
 

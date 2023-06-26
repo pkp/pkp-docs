@@ -1,3 +1,8 @@
+---
+title: Digital Object Identifiers
+showPageTOC: true
+---
+
 # Digital Object Identifiers
 
 ## What Are DOIs?

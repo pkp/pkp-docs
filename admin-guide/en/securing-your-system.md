@@ -1,74 +1,46 @@
+---
+title: Secure your System - Admin Guide - PKP Developer Docs
+description: Best practices to set up a secure server when running OJS, OMP or OPS.
+book: admin-guide
+version: 3.4
+---
+
 # Securing Your System
 
-## The Basics
+> This section describes how to run a secure server. Before reading this section, make sure you have followed the [recommended configuration](./deploy) instructions to secure the application.
+{:.warning}
 
-Please see [https://pkp.sfu.ca/ojs/README](https://pkp.sfu.ca/ojs/README), [https://pkp.sfu.ca/omp/README](https://pkp.sfu.ca/omp/README), or [https://pkp.sfu.ca/ocs/README](https://pkp.sfu.ca/ocs/README) to ensure that the software install directory and file storage area (`files_dir` in `config.inc.php`) are configured securely on your server.
+It's important to run OJS, OMP and OPS on a secure server environment. In addition to the security settings in the [recommended configuration](./deploy) of the application, you must ensure the server is secure where the applicaiton is run.
 
-In general, the `files_dir` should not be web accessible and should be placed outside of the main software install directory. The software application will manage access to private submission files based on user roles and permissions \(i.e. Editors will have access to all submission files, whereas authors will only be able to access their own submission files\).
+This section makes a few recommendations for running secure servers. However, if you are unfamiliar with server administration, we strongly encourage you to use a professional hosting service or hire a professional system administrator.
 
-In addition, to ensure security the `files_dir` folder should not be readable by other users on the server. Only the webserver should have the necessary read/write permissions so that OJS, OMP, or OCS can read existing files and add new files to the folder, e.g.
+## Security Checklist
 
-`drwxrwx---    6 ojs www 204B 11 Sep  2017 files/`
+- Follow the [recommended configuration](./deploy) instructions.
+- Follow additional configuration recommendations to [reduce spam accounts](./deploy-users).
+- Use a long, random value for each one of the `salt` and `api_secret_key` settings in `config.inc.php`.
+- Make sure the `encryption` setting in `config.inc.php` is set to `sha1`.
+- Restrict [file permissions](#file-permissions) as much as possible.
+- Set up a [SSL certificate](#sslencryption) and configure the application to use `https://`.
+- Make sure the `files_dir` folder [can not be accessed through the web](#file-permissions).
+- Dedicate a database to the application. Do not share it with other applications on the server.
+- Run antivirus software on the server to prevent users from uploading a compromised file.
+- Configure your server to make automated backups of the database and `files_dir` at regular intervals. We recommend a backup for every day in the last 7 days, one per week for the last 4 weeks, and one per month for the last 12 months. View the [upgrade guide](/dev/upgrade-guide/en/) for more complete backup instructions.
+- Keep the web server regularly updated with all security patches.
+- Practice good password management: don’t use the same username/password to access the application as you would for any other online account, and don’t use an easy to guess password.
+- Treat everything that you get online with the knowledge that you received it from someone you don’t know, and act likewise. If a submission appears to be suspicious for any reason (strange email address, suspiciously generic title or abstract, etc.), treat the included files with an additional level of diligence.
 
-The exact details of file permissions will depend on how your web server runs PHP scripts (this is called the "server API" or "SAPI"). For example, if it uses `mod_php`, all PHP scripts will run as the `www-data` user or similar (this is inherently not 100% secure on a multi-user server). If it uses CGI, FastCGI, FPM, or a similar mechanism, it will likely run under your user account.
+## File Permissions
 
-It is recommended that you install an SSL certificate for your OJS, OMP, or OCS install and ensure that your site always uses the HTTPS protocol to manage user registration, login, and to present content to readers. Once your SSL certificate has been installed and is confirmed to be working \(i.e. you can access your site via [https://myjournal.org](https://myjournal.org/)\) you can configure your site to always use HTTPS by using the following setting in `config.inc.php`:
+The `files_dir` is where all private submission files are stored. If this directory is located in the web root, anyone will be able to download submission files. Once you have configured the `files_dir` outside of the web root, lock down access to that directory by setting the read/write permissions so that only the application can read, add, edit and delete files.
 
-`; Force SSL connections site-wide
-force_ssl = On`
+The exact details of file permissions will depend on how your web server runs PHP scripts. Read more about [file permissions](./troubleshooting#configuring-file-permissions)
 
-You should also set the base URL to use the HTTPS version of your journal, press, or conference:
+## SSL/Encryption
 
-`; The canonical URL to the OJS installation
-base_url = "https://myjournal.org"`
+All web applications should be protected with SSL/TLS encryption, so that they can encrypt traffic through the server. Without encryption, user login credentials are passed in plain text, which allows anyone scanning the network to intercept them.
 
-To ensure that password reset requests from users produce random, secure passwords, ensure that you set a long, random salt in `config.inc.php`:
-
-`; The unique salt to use for generating password reset hashes
-salt = "sdlkjfhleiqwrfgbksdlkjgbelruywoeiyt7384gdqlywqvlwjf"`
-
-## Deploying PKP Software Securely
-
-> Section Contributed by Kenton Good
-
-A secure deployment of PKP software can be best achieved by using the following recommendations, which are described in docs/README in every download of the software:
-
-* Dedicate a database to OJS, OMP, and OCS; use unique credentials to access it. Configure this database to perform automated backups on a regular basis. Perform a manual backup when upgrading or performing maintenance. If you do not have access to your database contact your system administrator and ensure that database backups are taking place for your OJS.
-* Configure the software (`config.inc.php`) to use SHA1 hashing rather than MD5.
-* Enable captcha or recaptcha in your `config.inc.php` file, and test that they are working. This will prevent most spam user registrations.
-* Configure the software (`config.inc.php`) to use `force_login_ssl` so that authenticated users communicate with the server via HTTPS. (You will also have to properly create and configure an SSL certificate to do this properly.)
-* Install the software so that the files directory is NOT a subdirectory of the OJS, OMP, or OCS installation and cannot be accessed directly via the web server.
-* Restrict file permissions as much as possible.
-* Deploy and test a proper backup mechanism. The backup mechanism should back up the database, the system files, and the file storage area (the `files_dir` parameter in `config.inc.php`). Ideally, you should make both on-site and off-site backups.
-* Ensure that your web server environment is regularly updated, in particular with any and all security patches.
-
-If these steps are followed, you will substantially reduce the risk of falling prey to common hacking techniques. If already running OJS, OMP, or OCS, we strongly urge you to review your existing configurations and ensure these steps have been followed.
-
-### Secure File Management
-
-Authors, reviewers, and editors deal with submission files from people they don’t know on a daily basis, and there are some basic precautions that you will want to take to mitigate the possibility of being compromised via one of these files. These steps don’t differ from how you would deal with email or other daily life on the internet, but are worth outlining in general form here.
-
-* Make sure you have antivirus software installed, and that it is up to date
-* Make sure your operating system and all software (especially Word and Excel) are kept up to date, ideally by turning on any auto-update features available to you
-* Make sure you have a backup solution available for your work computers
-* Practice good password management: don’t use the same username/password in OJS, OMP, or OCS as you would for any other online account, and don’t use an easy to guess password
-* Treat everything that you get online with the knowledge that you received it from someone you don’t know, and act likewise. If a submission appears to be suspicious for any reason (strange email address, suspiciously generic title or abstract, etc.), treat the included files with an additional level of diligence.
-
-## Encryption
-
-> Section Contributed by Kenton Good
-
-Using SSL/TLS encryption to secure your site brings advantages in security, privacy, censorship protection, search engine optimization, and data integrity.
-
-### Security and Privacy Advantages
-
-* Web browsers have started to display warnings about insecure sites for those web sites still served under http. Users seeing such a message when they visit your site can make a site seem illegitimate, or potentially malicious.
-* Without encryption, admin and user logins are passed clear text, potentially exposing these credentials to anybody scanning the network.
-* Without encryption, you are not protecting what your users are accessing or searching for within your site. Anybody scanning the network can see these queries.
-
-### Search Engine Optimization (SEO) Advantages
-
-Google announced in 2014 that https [would be treated as a ranking signal](https://webmasters.googleblog.com/2014/08/https-as-ranking-signal.html) meaning web sites that are served under https will be more findable within the Google index than those served under http.
+The following section describes how to get a SSL certificate, enable it, and configure the server to update it.
 
 ### Getting a Certificate
 
@@ -82,6 +54,8 @@ Purchasing a certificate may be an option available to you as well. Commercial b
 
 * Only DV (Domain Validation) certificates are offered
 * Slightly more technical, if your hosting provider does not already support you will need to generate from shell
+
+To test that your certificate is installed correctly, go to https://www.ssllabs.com/ssltest/index.html and enter your host name. If your grade is "B" or worse, your server may not be available to secure client software.
 
 ### Enabling SSL (requires shell access):
 
@@ -97,73 +71,5 @@ Required step to generate a certificate if you are going to be purchasing a cert
 
 When you purchase a certificate from a CA, you will typically purchase a certificate that lasts between 1 to 3 years. Certificates are set to expire and will need to be renewed resulting in a new expense at the time of renewal. Let’s Encrypt certificates expire every 90 days. The Let’s Encrypt software (certbot) can be configured to automatically renew certificates before they expire. Meaning once installed you should have minimal maintenance moving forward. Automation is done with `cron` or `systemd`.
 
-## Managing Spam
+> Contributors: PKP staff, Kenton Good
 
-There are a number of configuration steps you can take to combat SPAM and other forms of malicious registration activity on your site.
-
-### CAPTCHA/ReCAPTCHA
-
-Configure a CAPTCHA and enable it for user registration, notifications and commenting. We strongly advise using [Google’s ReCAPTCHA](https://www.google.com/recaptcha/intro/). \(Older OJS 2 versions include a PHP captcha, but that has proven to be less secure than ReCaptcha.\)
-
-If you are using OJS older than 2.4.8-3, you will not be able to use the most recent version of ReCAPTCHA \(v2\), and your ReCAPTCHA will not work properly after March 31 2018. **Upgrading is strongly recommended**.
-
-To configure ReCAPTCHA:
-
-1. Register an account and create a “property” for your website here: [https://www.google.com/recaptcha/intro/](https://www.google.com/recaptcha/intro/)
-2. Ensure that the relevant lines for enabling captcha are uncommented in `config.inc.php`
-3. Copy and paste the public and private keys you receive as part of the property registration into the `[captcha]` section of `config.inc.php`:
-
-```
-recaptcha_public_key = 123456abcdef
-Recaptcha_private_key = abcdef123456
-```
-
-Don’t forget to test this setup by registering a test account and confirming that a\) the ReCAPTCHA appears and b\) the ReCAPTCHA properly validates.
-
-### Enable Account Validation
-
-OJS, OMP, and OCS can be configured so that an email account validation step must be completed for all new user accounts before they can log in and interact with the system. To do this, uncomment and configure the following lines in `config.inc.php`:
-
-```
-; If enabled, email addresses must be validated before login is possible.
-require_validation = On
-
-; Maximum number of days before an unvalidated account expires and is deleted
-validation_timeout = 14
-```
-
-The above configuration will require all new registrations to click on a link and validate their account before being able to log in; and will auto-prune any non-validated accounts after 14 days.
-
-### Cleaning lots of users
-
-If you have been the target of a SPAM bot, enabling the above procedures may not be enough: you may already have a large number of SPAM accounts in your system. The only way to remove users is to merge the spam accounts into an existing account using the Merge Users tool. \(This effectively deletes the problem users. Any submissions, editorial history, etc. from the problem user(s) is merged into the other user account.\)
-
-This tool can be used via the UI, but is slower \(and only OJS/OCS 2 currently have an option to merge more than one user at a time in the UI\). A more effective method is to use the command-line tool:
-
-`$ php tools/mergeUsers.php myUsername spamUser`
-
-As of OJS/OMP 3.2, multiple users can be merged in a single command:
-
-`$ php tools/mergeUsers.php myUsername spamUser1 spamUser2 spamUser3 [...]`
-
-… where `myUsername` is the user that will be merged into, and `spamUser` is the user to be deleted. Prior to OJS/OMP 3.2, this tool only works on one merge at a time, but can be scripted. An example php script would be:
-
-```
-<?php
-$names = file('/tmp/names.txt', FILE_SKIP_EMPTY_LINES);
-foreach ($names as $member_name => $member) {
-        echo exec ("php /ojswebroot/tools/mergeUsers.php admin-user " .escapeshellcmd($member));
-}
-?>
-```
-
-The script expects all spam accounts to be identified by username and listed in a `names.txt` file, one name per line, like so:
-
-```
-spamuserOne
-spamUserTwo
-spamUserThree
-…
-```
-
-The `names.txt` file has to be stored on the server and the location referenced by the script \(eg. “/tmp/names.txt”\). The script should also specify the location of the mergeUsers.php script \(eg. “/ojswebroot/tools/mergeUsers.php”\), and also the user into which all of these accounts should be merged \(eg. “admin-user” - this must be an existing account\). Update those parameters to suit your environment. **Don’t store this script, or the `names.txt` file, in a web-accessible location!**

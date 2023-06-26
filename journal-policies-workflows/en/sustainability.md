@@ -1,5 +1,6 @@
 ---
 title: Sustainability Models and Revenue Sources - Journal Policies and Workflows
+showPageTOC: true
 ---
 
 # Sustainability Models and Revenue Sources

@@ -17,18 +17,24 @@ The File Service is a helper class to read and write files in this directory. Wh
 Add a file.
 
 ```php
+use APP\core\Services;
+
 $fileId = Services::get('file')->add('/absolute/path/to/source.txt', 'destination.txt');
 ```
 
 Delete a file.
 
 ```php
+use APP\core\Services;
+
 Services::get('file')->delete($fileId);
 ```
 
 Get the relative path to a file in the file directory.
 
 ```php
+use APP\core\Services;
+
 $file = Services::get('file')->get($fileId);
 $path = $file->path;
 ```
@@ -36,6 +42,8 @@ $path = $file->path;
 Download a file in the file directory.
 
 ```php
+use APP\core\Services;
+
 $downloadFileAs = 'my-special-file.txt';
 Services::get('file')->download($file->path, $downloadFileAs);
 ```
@@ -43,6 +51,8 @@ Services::get('file')->download($file->path, $downloadFileAs);
 Generate a safe filename from any string.
 
 ```php
+use APP\core\Services;
+
 $title = $publication->getLocalizedFullTitle();
 $file = Services::get('file')->get($fileId);
 $filename = Services::get('file')->formatFilename($file->path, $title);
@@ -51,6 +61,8 @@ $filename = Services::get('file')->formatFilename($file->path, $title);
 Get the mimetype of a file.
 
 ```php
+use APP\core\Services;
+
 $file = Services::get('file')->get($fileId);
 $mimetype = $file->mimetype;
 ```
@@ -59,11 +71,13 @@ File relationships in the database should always refer to the `file_id` in the `
 
 ## Filesystem
 
-The File Service is a small wrapper around [Flysystem 1.x](https://flysystem.thephpleague.com/v1/docs/). Access the library directly to use the [Filesystem API](https://flysystem.thephpleague.com/v1/docs/usage/filesystem-api/).
+The File Service is a small wrapper around [Flysystem](https://flysystem.thephpleague.com/docs/). Access the library directly to use the [Filesystem API](https://flysystem.thephpleague.com/docs/usage/filesystem-api/).
 
 Check if a file exists.
 
 ```php
+use APP\core\Services;
+
 $file = Services::get('file')->get($fileId);
 if (Services::get('file')->fs->has($file->path)) {
     ...
@@ -73,29 +87,37 @@ if (Services::get('file')->fs->has($file->path)) {
 Get the size of a file.
 
 ```php
+use APP\core\Services;
+
 $file = Services::get('file')->get($fileId);
 $size = Services::get('file')->fs->getSize($file->path);
 ```
 
-By default, the File Service instantiates the [local file system adaptor](https://flysystem.thephpleague.com/v1/docs/adapter/local/) and configures it to use the `files_dir` directory. Adaptors are available for other file systems such as AWS and Azure. Use the Flysystem API, not PHP's file functions, in order to ensure operations are compatible with all of the filesystem adaptors.
+By default, the File Service instantiates the [local file system adaptor](https://flysystem.thephpleague.com/docs/adapter/local/) and configures it to use the `files_dir` directory. Adaptors are available for other file systems such as AWS and Azure. Use the Flysystem API, not PHP's file functions, in order to ensure operations are compatible with all of the filesystem adaptors.
 
 ## Context Files
 
 Files for a journal, press or preprint server are stored in distinct subdirectories. Get the path to the context directory to add a file to a context.
 
 ```php
-$context = $request->getContext();
-$appFileDirectories = \Application::get()->getFileDirectories();
+use APP\core\Application;
+use APP\core\Services;
+
+$context = Application::get()->getRequest()->getContext();
+$appFileDirectories = Application::get()->getFileDirectories();
 $path = $appFileDirectories['context'] . $context->getId();
 $fileId = Services::get('file')->add('source.txt', $path . '/destination.txt');
 ```
 
 ## Submission Files
 
-Files for a submission are stored in distinct subdirectories. Use the Submission File Service to get a path to a submission's directory.
+Files for a submission are stored in distinct subdirectories. Use the submission file repository to get a path to a submission's directory.
 
 ```php
-$path = Services::get('submissionFile')->getSubmissionDir($contextId, $submissionId);
+use APP\core\Services;
+use APP\facades\Repo;
+
+$path = Repo::submissionFile()->getSubmissionDir($contextId, $submissionId);
 $fileId = Services::get('file')->add('source.txt', $path . '/destination.txt');
 ```
 

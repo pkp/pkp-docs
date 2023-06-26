@@ -1,5 +1,6 @@
 ---
 title: Ethics Statements and Policies - Journal Policies and Workflows
+showPageTOC: true
 ---
 
 # Ethics Statements and Policies

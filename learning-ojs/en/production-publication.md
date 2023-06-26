@@ -1,8 +1,8 @@
 ---
 book: learning-ojs
-version: 3.3
+version: 3.4
 showPageTOC: true
-title: Learning Open Journal Systems 3.3 - Production and Publication
+title: Learning Open Journal Systems 3.4 - Production and Publication
 description: Detailed instructions for the Production stage of the OJS workflow.
 ---
 
@@ -16,11 +16,13 @@ To start working in Production, the Section Editor or Journal Editor must login 
 
 Clicking on the article will open the submission record.
 
-![Production tab in the editorial workflow of a manuscript.](./assets/learning-ojs-3.2-se-production.png)
+![Production tab in the editorial workflow of a manuscript.](./assets/learning-ojs-3.4-production-tab.png)
 
 You will see the copyedited files are now available in the **Production Ready Files** panel.
 
 In the **Production** tab, you can assign participants (such as a Layout Editor) to the Production stage of the workflow and communicate with participants in the **Production Discussions** panel.
+
+You can cancel the Production stage using the action button **Back To Copyediting**, with an option to notify the author about this change.
 
 {% include video.html id="-VRKdBQPdn4" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 9: Production."%}
 
@@ -406,7 +408,7 @@ The next step in publishing the submission is to check and finalize the metadata
 
 Before publishing the submission, you should check that the metadata for the article is complete and accurate in OJS and matches the metadata on the PDF. This is important for ensuring that the content is indexed by Google Scholar, discoverable by other services, and accessible to readers. To learn more, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
 
-You can check the metadata for the submission by going to **Submissions**, opening the submission, going to the **Publication** tab, and checking the **Title**, **Contributors**, and **Metadata** tabs.
+You can check the metadata for the submission by going to **Submissions**, opening the submission, going to the **Publication** tab, and checking the **Title**, **Contributors** (note that as of version 3.4 you can now edit the display order of Contributors), and **Metadata** tabs. 
 
 At this point you can also add the article to a category to display it on a thematic category page on your site and extract and save references (if you have not already).
 

@@ -1,5 +1,6 @@
 ---
 title: Journal information - Journal Policies and Workflows
+showPageTOC: true
 ---
 
 # Journal information

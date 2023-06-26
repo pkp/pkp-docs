@@ -1,5 +1,7 @@
 ---
-title: Example - Managing Context and Site - Plugin Guide for OJS and OMP
+title: Example - Managing Context and Site - Plugin Guide for OJS, OMP and OPS
+book: dev-plugin-guide
+version: 3.4
 ---
 
 # Managing Context and Site
@@ -9,14 +11,18 @@ OJS and OMP can be used to run more than one journal or press. We call each jour
 You can always retrieve the current context from the `Request`.
 
 ```php
-$context = Application::get()->getRequest()->getContext();
+use APP\core\Application;
+
+$context = Application::get()
+  ->getRequest()
+  ->getContext();
 ```
 
 In site-wide pages, such as the admin settings or the site-wide journal index page, the context will be `null`.
 
 ```php
 if ($context) {
-  // The current request is for a journal or press
+  // The current request is for a journal, press or preprint server
 } else {
   // The current request is for a site-wide page
 }
@@ -28,14 +34,15 @@ If your plugin supports a [settings page](./settings), settings must be saved se
 $this->updateSetting($context->getId(), 'editorName', 'Daniel Barnes');
 ```
 
-Use the `CONTEXT_SITE` constant to save settings to the site-wide level.
+Use the `Application::CONTEXT_SITE` constant to save settings to the site-wide level.
 
 ```php
-if ($context) {
-  $contextId = $context->getId();
-} else {
-  $contextId = CONTEXT_SITE;
-}
+use APP\core\Application;
+
+$contextId = $context
+    ? $context->getId();
+    : Application::CONTEXT_SITE;
+
 $this->updateSetting($contextId, 'editorName', 'Daniel Barnes');
 ```
 
@@ -44,10 +51,13 @@ $this->updateSetting($contextId, 'editorName', 'Daniel Barnes');
 Add the `isSitePlugin` method to enable the plugin's settings form in the site-wide plugins list.
 
 ```php
-class TutorialExamplePlugin extends GenericPlugin {
-  public function isSitePlugin() {
-    return true;
-  }
+class TutorialExamplePlugin extends GenericPlugin
+{
+    // ...
+
+    public function isSitePlugin() {
+        return true;
+    }
 }
 ```
 

@@ -6,18 +6,27 @@ title: Resources - Technical Documentation - OJS|OMP|OPS
 
 # Resources
 
-A collection of resources that may help you while coding with OJS and OMP.
+A collection of resources that may help you while coding with these applications.
 
 ## CacheBuster
-
-This plugin will [clear the template and CSS cache](https://github.com/NateWr/cacheBuster) with every request. Enable it so that you don't have to manually clear the cache every time you make a change.
 
 > Don't enable this on a production site. It will slow down your site.
 {:.warning}
 
+This plugin will [clear the template and CSS cache](https://github.com/NateWr/cacheBuster) with every request. Enable it so that you don't have to manually clear the cache every time you make a change.
+
 ## Postman API
 
-We use [Postman](https://www.getpostman.com/) to test our REST API endpoints. You can [import our request collection](/dev/api/OJS-api-postman-collection.json) for OJS (last updated 2020-12-21).
+We use [Postman](https://www.getpostman.com/) to work with our REST API endpoints. You can import our request collection for OJS following these steps.
+
+1. In Postman, go to **Collections**.
+3. Click **Import**.
+4. Click **Link**.
+5. Enter `https://docs.pkp.sfu.ca/dev/api/OJS-api-postman-collection.json`.
+6. Open the collection and click on the **Variables** tab.
+7. Enter the `baseUrl` and `apiToken` in the **Current Value** column to connect to the journal's API endpoint .
+
+The `baseUrl` for a local development instance is usually something like `http://localhost:8000/examplejournal/api/v1`. The `apiToken` for a user can be retrieved from their user profile page in the application.
 
 ## Generate submissions
 

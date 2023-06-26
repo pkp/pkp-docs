@@ -6,9 +6,9 @@ title: Email - Technical Documentation - OJS|OMP|OPS
 
 # Email
 
-Emails are sent with an adapted version of Laravel's [Mailables](https://laravel.com/docs/8.x/mail) class. `PKP\mail\Mailable` extends this class to add support for application requirements such as envelope senders, DMARC compliance, and [Email Templates](email-templates).
+Email is sent using Laravel's [Mail](https://laravel.com/docs/9.x/mail) framework. The `PKP\mail\Mailable` extends Laravel's `Mailable` class to add support for envelope senders, DMARC compliance, and [Email Templates](email-templates).
 
-In its simplest form, you can use the Mailable class to compose and send an email.
+In its simplest form, you can use the Mailable class directly to compose and send an email.
 
 ```php
 use Illuminate\Support\Facades\Mail;
@@ -261,19 +261,9 @@ class Example extends Mailable
 }
 ```
 
-## Mailer and MailServiceProvider
-
-The Mailer is configured by the `MailServiceProvider` with support for the sendmail, SMTP and log transports. The Mailer can be extended to  send email through Mailgun, Postmark, Amazon's SES or other transports. See the [Laravel documentation](https://laravel.com/docs/8.x/mail#configuration).
-
-The mailer can be retrieved with a helper function.
-
-```php
-$mailer = app('mailer');
-```
-
 ## Unsupported Features
 
-Some of the features supported by Laravel's [Mailable](https://laravel.com/docs/8.x/mail) class are not supported in this application. Please consider the following when working with mailables.
+Some of Laravel's `Mailable` features are not supported in this application. Please consider the following when working with mailables.
 
 - Laravel's email localization tools are not supported.
 - Do not configure email headers from within the Mailable. Email headers are managed for all outgoing email to ensure compliance with the `envelope_sender` and DMARC configuration options.

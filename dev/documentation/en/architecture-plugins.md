@@ -53,4 +53,4 @@ Generic plugins use Hooks to modify the application behavior. Care should be tak
 
 ---
 
-The next section moves on to the application frontend. Learn how to [deliver HTML to the browser and build interactive interfaces](./architecture-frontend).
+The next section moves on to the application frontend. Learn how to [deliver HTML to the browser and build interactive interfaces](./frontend).

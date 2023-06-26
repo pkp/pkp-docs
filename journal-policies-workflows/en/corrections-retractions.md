@@ -1,5 +1,6 @@
 ---
 title: Corrections and Retractions - Journal Policies and Workflows
+showPageTOC: true
 ---
 
 # Corrections and Retractions

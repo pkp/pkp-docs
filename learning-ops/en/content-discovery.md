@@ -1,6 +1,6 @@
 ---
 book: learning-ops
-version: 3.3
+version: 3.4
 title: Content Discovery - Learning OPS
 ---
 # Content Discovery

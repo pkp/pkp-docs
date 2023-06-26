@@ -1,6 +1,6 @@
 ---
 book: learning-ops
-version: 3.3
+version: 3.4
 title: Editorial Workflow - Learning OPS
 ---
 # Editorial Workflow
@@ -44,7 +44,18 @@ How an author can make a submission is explained in [Learning OJS 3](https://doc
 Depending on your preprint server policies, the preprint will be published immediately
 after submission or it will be screened by a Moderator. It is also possible to have moderation done by the research community after a preprint is posted and made public.
 
-The next section explains the pre-publication moderation process.
+The [Moderation and Production section](./#moderation) explains the pre-publication moderation process.
+
+## License Selection
+Following adding the contributors to a submission, authors can then assign a license of their choosing to their submission: 
+
+![The license selection options in OPS.](./assets/learning-ops-3-4-license-selection.png)
+
+The license options are the standard [Creative Commons licenses](https://creativecommons.org/licenses/), or, a URL to an alternate license can be provided. 
+
+Once the submission is published, the license will appear alongside the preprint with the preprint’s metadata. 
+
+
 
 ## Moderation and Production
 

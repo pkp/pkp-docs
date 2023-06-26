@@ -1,6 +1,6 @@
 ---
 book: learning-ops
-version: 3.3
+version: 3.4
 title: Users and Roles - Learning OPS
 ---
 # Users and Roles

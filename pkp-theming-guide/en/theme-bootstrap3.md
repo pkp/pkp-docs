@@ -1,9 +1,9 @@
 # Bootstrap3 Theme
 [Bootstrap 3](https://getbootstrap.com/docs/3.4/) is a popular HTML, CSS and JavaScript framework for developing responsive, mobile-first web applications. Due its popularity, many developers are familiar with the HTML, CSS and JavaScript techniques used in the framework.
 
-The [Bootstrap3 theme](https://github.com/NateWr/bootstrap3) is a community effort to provide a base theme built on these techniques. It implements an OJS journal theme using core bootstrap HTML markup, and provides a number of third-party styles for Bootstrap 3 out-of-the-box.
+The [Bootstrap3 theme](https://github.com/pkp/bootstrap3) is a community effort to provide a base theme built on these techniques. It implements an OJS journal theme using core bootstrap HTML markup, and provides a number of third-party styles for Bootstrap 3 out-of-the-box.
 
-The community Bootstrap3 theme is designed to be a base, not a final product. To ensure widespread compatibility with Bootstrap 3 resources, and to ease the introduction for developers accustomed to working with Bootstrap 3, this theme only provides markup using core components from the Bootstrap 3 framework. 
+The community Bootstrap3 theme is designed to be a base, not a final product. To ensure widespread compatibility with Bootstrap 3 resources, and to ease the introduction for developers accustomed to working with Bootstrap 3, this theme only provides markup using core components from the Bootstrap 3 framework.
 
 This means that, in most cases, you will need to do a little bit more work with a [Child Theme](child-themes.md) in order to polish off your site.
 
@@ -17,12 +17,12 @@ These OJS sites demonstrate existing Bootstrap child themes:
 
 ## Install Boostrap3
 
-The **simplest** way to get the Bootstrap3 theme is to download the [latest release](https://github.com/NateWr/bootstrap3/releases) from the development repository. Unpack the `.zip` file and move the `bootstrap3` directory to your OJS installation at `/plugins/themes/bootstrap3`.
+The **simplest** way to get the Bootstrap3 theme is to download the [latest release](https://github.com/pkp/bootstrap3/releases) from the development repository. Unpack the `.zip` file and move the `bootstrap3` directory to your OJS installation at `/plugins/themes/bootstrap3`.
 
 The **quickest** way to get the Bootstrap3 theme is to use git from the command line.
 
 ```
-git submodule add https://github.com/NateWr/bootstrap3.git plugins/themes/bootstrap3
+git submodule add https://github.com/pkp/bootstrap3.git plugins/themes/bootstrap3
 ```
 
 Once installed, you must go to the **Settings > Website > Plugins** page in your OJS admin area and enable the Bootstrap3 theme. You can then browse to **Settings > Website > Appearance** to choose one of the bundled theme swatches.
@@ -33,23 +33,23 @@ Several Bootstrap 3 "swatches" are bundled with the theme. These swatches provid
 Each of the swatches that are provided are released under a GPL-compatible license. There are thousands more Bootstrap 3 swatches (often called themes) that can be purchased from commercial websites.
 
 ## Exploring Bootstrap
-Since the Bootstrap theme is just a base, it will need a bit of work to fully implement a great looking theme. It is recommended that if you're working with these files that you be familiar with elements of both [Bootstrap 3](https://getbootstrap.com/docs/3.4/getting-started/) and [LESS](http://lesscss.org/features/). 
+Since the Bootstrap theme is just a base, it will need a bit of work to fully implement a great looking theme. It is recommended that if you're working with these files that you be familiar with elements of both [Bootstrap 3](https://getbootstrap.com/docs/3.4/getting-started/) and [LESS](http://lesscss.org/features/).
 
 To start, explore the base Bootstrap variables file:
 
-- [plugins/themes/bootstrap3/bootstrap/less/variables.less](https://github.com/NateWr/bootstrap3/blob/master/bootstrap/less/variables.less)
+- [plugins/themes/bootstrap3/bootstrap/less/variables.less](https://github.com/pkp/bootstrap3/blob/master/bootstrap/less/variables.less)
 
 Every color, font, etc., is declared here and each of the different bundled themes essentially just overrides these variables. For instance, here's the Flatly theme's variables file:
 
-- [plugins/themes/bootstrap3/bootstrap-themes/flatly/variables.less](https://github.com/NateWr/bootstrap3/blob/master/bootstrap-themes/flatly/variables.less)
+- [plugins/themes/bootstrap3/bootstrap-themes/flatly/variables.less](https://github.com/pkp/bootstrap3/blob/master/bootstrap-themes/flatly/variables.less)
 
 And then it includes just a little bit of additional LESS code to tweak a few more things:
 
-- [plugins/themes/bootstrap3/bootstrap-themes/flatly/bootswatch.less](https://github.com/NateWr/bootstrap3/blob/master/bootstrap-themes/flatly/bootswatch.less)
+- [plugins/themes/bootstrap3/bootstrap-themes/flatly/bootswatch.less](https://github.com/pkp/bootstrap3/blob/master/bootstrap-themes/flatly/bootswatch.less)
 
 ## Child Theming the Bootstrap3 Theme
 
-Each of the bundled theme swatches work the same way. They override the core Bootstrap 3 files with their own values. You will probably want to make more customizations with your own theme. 
+Each of the bundled theme swatches work the same way. They override the core Bootstrap 3 files with their own values. You will probably want to make more customizations with your own theme.
 
 To do this, you'll want to create a [Child Theme](child-themes.md). If you're not familiar with this process, go back and follow that guide to build your own Child Theme and set the parent to `bootstrapthreethemeplugin`.
 
@@ -68,7 +68,7 @@ You can then use the `modifyStyle()` method from the [Theme API](theme-api.md) t
 
 Now your child theme will load an additional LESS file, `styles/variables.less`, from your theme's file directory. You can override the Bootstrap 3 variables in that file.
 
-Find the [Bootstrap 3 variables file](https://github.com/NateWr/bootstrap3/blob/master/bootstrap/less/variables.less). Copy the contents of that file into your own theme at `styles/variables.less`. Then modify them however you'd like.
+Find the [Bootstrap 3 variables file](https://github.com/pkp/bootstrap3/blob/master/bootstrap/less/variables.less). Copy the contents of that file into your own theme at `styles/variables.less`. Then modify them however you'd like.
 
 Here is an example of a modified set of colors in my new `styles/variables.less`.
 
@@ -90,9 +90,9 @@ Here is an example of a modified set of colors in my new `styles/variables.less`
 If you would like to base your Child Theme off of one of the bundled theme swatches, copy that swatch's `variables.less` file instead.
 
 ## Contributing a Community Swatch
-If you've created a great new theme swatch that you think should be bundled with the Bootstrap3 theme, you can contribute it by opening a pull request on the [development repository](https://github.com/NateWr/bootstrap3/).
+If you've created a great new theme swatch that you think should be bundled with the Bootstrap3 theme, you can contribute it by opening a pull request on the [development repository](https://github.com/pkp/bootstrap3/).
 
-To add a new swatch to the Bootstrap3 theme, you need to set up all of the necessary files for your new swatch (e.g. `myswatch`). 
+To add a new swatch to the Bootstrap3 theme, you need to set up all of the necessary files for your new swatch (e.g. `myswatch`).
 
 This example will demonstrate how to use the `flatly` swatch as a basis for your new swatch.
 
@@ -112,7 +112,7 @@ Modify the existing references to files in the `flatly` theme with references to
 ```
 @import "bootstrap.less";
 @import "../bootstrap-themes/myswatch/variables.less";
-@import "../bootstrap-themes/myswatch/myswatch.less"; 
+@import "../bootstrap-themes/myswatch/myswatch.less";
 ```
 
 7. Edit `plugins/themes/bootstrap3/BootstrapThreeThemePlugin.inc.php` and add a new option entry for your child theme, e.g. `'mytheme' => 'plugins.themes.bootstrap3.options.bootstrapTheme.myswatch',`

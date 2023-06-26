@@ -1,4 +1,6 @@
 ---
+title: DOAJ Application Guide for OJS Journals 
+showPageTOC: true
 generateHeadingToc: true
 ---
 

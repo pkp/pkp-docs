@@ -1,5 +1,6 @@
 ---
 title: Alternative uses of OJS - Journal Policies and Workflows
+showPageTOC: true
 ---
 
 # Alternative uses of OJS

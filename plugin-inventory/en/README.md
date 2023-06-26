@@ -53,7 +53,7 @@ Enables journals to choose the filetypes that are allowed when submitting a manu
 
 ### Announcement Block
 
-Displays the lastest announcement on the journals sidebar. Allows to specify how many announcements will be displayed. 
+Displays the lastest announcement on the journals sidebar. Allows to specify how many announcements will be displayed.
 
 * [Announcement Block Plugin in GitHub](https://github.com/RBoelter/announcementsBlock)
 
@@ -121,7 +121,7 @@ Embeds EPUb files on the article galley view for OJS and OMP using Bibi Epub Rea
 Applies a starter Bootstrap 3 theme. Knowledge of HTML, CSS and JavaScript will be needed for this theme as it is designed to be a base and not a final product.
 
 * [Bootstrap3 Theme guide](/pkp-theming-guide/en/theme-bootstrap3)
-* [Bootstrap3 Theme in GitHub](https://github.com/NateWr/bootstrap3)
+* [Bootstrap3 Theme in GitHub](https://github.com/pkp/bootstrap3)
 
 ### Browse By Section
 
@@ -171,7 +171,7 @@ Allows journal and press managers to limit who can upload public files and what 
 
 Generates a CSV spreadsheet of journal activity, using the COUNTER standard. These reports alone do not make a journal COUNTER compliant. To offer COUNTER compliance, review the requirements at the Project COUNTER website. As this report includes data from all journals hosted in this OJS instance, it is only available to Site Administrators.
 
-* [COUNTER reports guide](learning-ojs/en/statistics#usage-statistics-report)
+* [COUNTER reports guide](/learning-ojs/en/statistics#usage-statistics-report)
 
 ### Crossref Reference Linking Plugin
 
@@ -191,7 +191,7 @@ Supports the automatic registration of DOIs with CrossRef and the export of XML 
 
 Allows to add, edit and delete custom sidebar blocks.
 
-* [Custom Block Manager guide](learning-ojs/en/settings-website#custom-block-plugin)
+* [Custom Block Manager guide](/learning-ojs/en/settings-website#custom-block-plugin)
 
 ### Custom Header Plugin
 
@@ -402,7 +402,7 @@ Allows the manager to manually record receipt of a user's payment (outside of th
 Applies a clean, simple theme with a boxed layout that mimics a paper document.
 
 * [Manuscript theme plugin guide](/pkp-theming-guide/en/theme-manuscript)
-* [Manuscript theme plugin in GitHub](https://github.com/NateWr/defaultManuscript)
+* [Manuscript theme plugin in GitHub](https://github.com/pkp/defaultManuscript)
 
 ### MARC Metadata Format
 
@@ -602,7 +602,7 @@ Enables integration with ReviewerCredits. ReviewerCredits Journal credentials wi
 
 Generates a CSV report containing a list of review assignments for a journal, including reviewer names, reviews, and recommendations.
 
-* [Review Report guide](learning-ojs/en/statistics#usage-statistics-report)
+* [Review Report guide](/learning-ojs/en/statistics#usage-statistics-report)
 
 ### RFC1807 Metadata Format
 
