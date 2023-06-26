@@ -7,7 +7,7 @@ showPageTOC: true
 
 Esta seção apresenta uma visão geral de como incorporar os princípios de conteúdo acessível listados acima em formatos de publicação específicos provavelmente adotados pelo seu periódico.
 
-## Como verificar a acessibilidade de um documento do MS Word
+## Como verificar a acessibilidade de um documento do MS Word {#word-docs}
 
 O Verificador de Acessibilidade do MS Word verifica o arquivo em busca de problemas comuns que podem torná-lo menos acessível para usuários com necessidades especiais.
 
@@ -26,13 +26,13 @@ Clicar em um item na lista "Resultados da inspeção" levará diretamente ao pro
 
 Para obter mais suporte, consulte o recurso de Suporte da MS. [Melhorar a acessibilidade com o Verificador de acessibilidade](https://support.office.com/en-us/article/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f#PickTab=Windows) .
 
-## Rotulando seus documentos para publicação
+## Rotulando seus documentos para publicação {#labeling}
 
 As composições devem ser rotuladas de acordo com o tipo de arquivo que está sendo publicado, como PDF ou HTML (veja abaixo as informações sobre como escolher quais formatos de publicação usar). Suas composições também devem seguir um padrão de nomenclatura comum e consistente em todas as publicações, de modo que todas as composições do mesmo tipo (por exemplo, PDF) tenham o mesmo rótulo. Os leitores de tela lerão o tipo seguido pelo título, como “PDF: Crachás abertos como credenciais em sistemas de educação aberta: estudos de caso da Grécia e da Europa”.
 
 Documentos complementares devem ter uma etiqueta que descreva o conteúdo. Por exemplo, “Dados Suplementares” não são muito descritivos. “Dados de renda regional” ou “Transcrições de entrevista” são mais descritivos.
 
-## Quais formatos de publicação usar?
+## Quais formatos de publicação usar? {#formats}
 
 Os periódicos on-line publicam seus artigos em uma variedade de formatos de arquivos. Os mais comuns são PDF e HTML, mas cada vez mais formatos diferentes estão sendo usados: ePub, MP3 e XML. Como regra geral, os formatos mais estruturados (aqueles com marcação para indicar os recursos, como cabeçalhos, texto alternativo etc.) são os mais acessíveis. Com todos os formatos, existem coisas que se pode fazer para maximizar a acessibilidade e preservar a estrutura do documento original.
 
