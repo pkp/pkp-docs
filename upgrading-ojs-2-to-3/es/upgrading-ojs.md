@@ -2,6 +2,8 @@
 
 Este capítulo cubre los aspectos técnicos de actualizar su versión de OJS 3.X. Planificar la actualización contribuirá en gran medida a que este sea un proceso exitoso. Antes de realizar cualquier actualización, es importante asegurarse de que su servidor cumpla con los [requisitos de OJS 3.X](https://pkp.sfu.ca/ojs/README) y que su instalación de OJS 2.x no sea demasiado antigua para actualizarse a OJS 3.X. Después de determinar que su servidor cumple con los requisitos, puede continuar con la actualización a OJS 3.X.
 
+Puede encontrar más detalles técnicos sobre los pasos de actualización en la [Guía técnica de actualización](/dev/upgrade-guide/).
+
 ## Paso 1: realice una actualización de "sandbox"
 
 Es importante realizar primero una actualización de prueba. Para hacer esto, deberá realizar una copia completa de su revista OJS 2.x que incluya la base de datos y el área de archivos. Siga las instrucciones de actualización de esa copia. Las instrucciones oficiales de actualización se pueden encontrar directamente en la [documentación de ACTUALIZACIÓN](https://pkp.sfu.ca/ojs/UPGRADE). Aquí encontrará instrucciones para actualizar desde varias versiones de OJS 2.x.
