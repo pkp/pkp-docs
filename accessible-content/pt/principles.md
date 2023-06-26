@@ -5,7 +5,7 @@ showPageTOC: true
 
 # Princípios gerais para a criação de conteúdo acessível
 
-## Texto alternativo para imagens
+## Texto alternativo para imagens {#alt-text}
 
 Alt text (“texto alternativo”) é uma marcação (tag) legível por máquinas que descreve uma imagem em palavras caso a imagem não possa ser exibida por qualquer motivo, incluindo conexão lenta com a Internet, erro no código HTML ou o uso de tecnologia assistiva.
 
@@ -70,7 +70,7 @@ O posicionamento de imagem é importante para documentos de texto (por exemplo, 
 
 Somente imagens com opção de layout "Alinhado com o texto" são reconhecidas pelo software de leitura de tela. Quando exportadas para PDF, imagens com outros estilos de disposição serão ignoradas por um leitor de tela, mesmo quando uma tag de texto alternativo estiver presente.
 
-## Conteúdo de áudio e vídeo
+## Conteúdo de áudio e vídeo {#audiovisual}
 
 Ao criar conteúdo de áudio e vídeo, é fundamental garantir que seja acessível a usuários com deficiências visuais, auditivas e neurológicas. Certifique-se de que o vídeo não seja reproduzido automaticamente, pois deve-se permitir escolher quando reproduzir o conteúdo. Uma pessoa com deficiência auditiva pode não estar ciente do volume do áudio; espectadores com deficiência física ou cognitiva podem não ser tão rápidos para interromper o vídeo e podem impactar outras pessoas em seu ambiente, além de se sentirem constrangidos com a situação.
 
@@ -99,7 +99,7 @@ Ao criar conteúdo de áudio e vídeo, é fundamental garantir que seja acessív
 
 - **Interpretação de linguagem de sinais**. Embora as legendas ou transcrições forneçam uma alternativa adequada para usuários com deficiências auditivas que se sentem confortáveis com a leitura da linguagem escrita, elas podem não ser suficientes para usuários surdos que dependem da linguagem de sinais como sua principal (ou única) língua de comunicação. Neste caso, uma alternativa pode ser fornecida por meio da interpretação em linguagem de sinais ou outras ferramentas descritas na seção [Acessibilidade para usuários de linguagem de sinais](#acessibilidade-para-usuários-de-língua-de-sinais).
 
-## Hiperlinks acessíveis
+## Hiperlinks acessíveis {#hyperlinks}
 
 Aqueles que navegam usando um leitor de tela devem ser capazes de compreender sem ambiguidade a finalidade do link e pular os links nos quais não estão interessados. Para conseguir isso, o texto do link precisa ser:
 
@@ -117,7 +117,7 @@ Aqueles que navegam usando um leitor de tela devem ser capazes de compreender se
 
 - **Visualmente distinto**. Use o estilo sublinhado em azul padrão para hiperlinks. Se você alterar, certifique-se de que os links ainda estejam com alto contraste e sublinhados. Não use sublinhado para texto sem hiperlink.
 
-## Contraste e dependência de cores
+## Contraste e dependência de cores {#contrast}
 
 O uso de contraste e cor são vitais para a acessibilidade. Ter contraste insuficiente pode afetar usuários com deficiência visual. Ter conteúdo que depende de cores para transmitir significado pode afetar usuários com deficiências de visão de cores (DVC) e aqueles que dependem de leitores de tela.
 
@@ -159,7 +159,7 @@ Outras ferramentas, como a [extensão Spectrum do Chrome](https://chrome.google.
 
 Certas ferramentas baseadas na web, como o [ColorBrewer](https://colorbrewer2.org/), fornecem paletas de cores acessíveis para visualização de dados, adaptadas a diferentes tipos de conjuntos de dados (sequencial, divergente, qualitativo). Em caso de dúvida, recorra a diferentes formas ou padrões para indicar delimitações em grandes grupos de pontos de dados.
 
-## Facilidade de leitura e legibilidade da escrita
+## Facilidade de leitura e legibilidade da escrita {#readability}
 
 Compreensivelmente, a redação e a formatação do texto para um periódico provavelmente seguirão as convenções de uma comunidade acadêmica específica. Mas existem princípios gerais que podem ser seguidos para torná-lo mais fácil de ler e compreender.
 
@@ -167,7 +167,7 @@ Parágrafos mais curtos facilitarão a leitura do texto em telas pequenas e ajud
 
 [O guia de escrita clara e simples do WebAim](https://webaim.org/techniques/writing/) contém outras dicas úteis para que os autores alcancem clareza e simplicidade. Além disso, ferramentas como o [aplicativo Hemingway](http://www.hemingwayapp.com/) podem ajudar a avaliar a complexidade do texto e sugerir maneiras de melhorar sua legibilidade geral.
 
-## Estrutura de cabeçalhos de seções
+## Estrutura de cabeçalhos de seções {#headings}
 
 Os cabeçalhos de seções, ou títulos de seções, ajudam os leitores a entender como o conteúdo de uma página é organizado. Além disso, fornecem navegação dentro da página que é usada por navegadores da Web, plug-ins e tecnologias assistivas. Ao criar conteúdo para a Web, o uso da hierarquia de títulos em ordem de classificação ajudará os leitores a navegar no documento com mais facilidade.
 
@@ -224,7 +224,7 @@ A hierarquia de títulos para documentos em editores de texto deve seguir o mesm
 - Não pule níveis de título, por exemplo: um *Título 2* deve ser seguido por um *Título 3 e, em* seguida, *Título 4*, exceto ao iniciar uma nova seção
 - Os títulos devem ser exclusivos para evitar qualquer confusão ao navegar, deslizar ou ler todo o documento
 
-## Listas
+## Listas  {#lists}
 
 De acordo com o conteúdo apresentado e como o criador do conteúdo deseja organizá-lo, existem três tipos de listas para conteúdo da Web. O tipo de lista usada depende do tipo de informação que está sendo organizada e sua finalidade.
 
@@ -353,7 +353,7 @@ A seguir apresentamos alguns exemplos de listas descritivas:
 >     <dd>Michael</dd>
 > </dl>
 
-## Colunas
+## Colunas {#columns}
 
 Embora os leitores de tela mais atualizados sejam normalmente compatíveis com o layout de várias colunas, alguns leitores de tela mais antigos podem ler a página da esquerda para a direita, linha por linha, tornando o texto fora de ordem.
 
@@ -363,7 +363,7 @@ Caso determine que colunas são a melhor maneira de apresentar seu conteúdo na 
 
 Para documentos de texto (por exemplo, Word, PDF), é importante criar colunas usando a ferramenta de formatação Colunas em vez de usar a tecla TAB ou a barra de espaço para criar espaços em branco entre as linhas de texto.
 
-## Tabelas
+## Tabelas {#tables}
 
 Tabelas devem ser usadas exclusivamente para apresentar dados ou conteúdo tabulares. Tabelas podem ajudar a organizar o conteúdo com uma relação lógica em grade, facilitando a leitura e o entendimento. Para obter mais informações sobre acessibilidade em tabelas, consulte a [página de Conceitos de Tabela da W3C/WAI](https://www.w3.org/WAI/tutorials/tables/).
 
@@ -440,7 +440,7 @@ Para [criar tabelas acessíveis no Microsoft Word](https://kb.iu.edu/d/aqjl):
 - Inclua texto alternativo nas propriedades da tabela;
 - Escolha a formatação da tabela que atenda aos [requisitos de contraste WCAG](#contraste-e-dependência-de-cores).
 
-## Metadados do documento
+## Metadados do documento {#metadata}
 
 Incluir metadados ao documento aumenta sua capacidade de ser pesquisável. Também permite que aplicativos de software e tecnologias adaptativas forneçam aos usuários as principais informações sobre o documento, para que possam localizar facilmente o documento desejado e determinar se é o que precisam.
 
@@ -495,7 +495,7 @@ Em XML:
 </section>
 ```
 
-## Acessibilidade para usuários de língua de sinais
+## Acessibilidade para usuários de língua de sinais {#sign-language}
 
 Para algumas pessoas com deficiência auditiva, a linguagem de sinais pode ser a língua principal, e elas podem não ler a linguagem escrita fluentemente ou nem mesmo ler. Aqui estão algumas das estratégias para tornar seu conteúdo acessível para eles:
 
