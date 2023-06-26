@@ -7,7 +7,7 @@ showPageTOC: true
 
 This section provides an overview of how to incorporate the accessible content principles listed above into specific galley formats your journal may be using.
 
-## How to check an MS Word document for accessibility
+## How to check an MS Word document for accessibility {#word-docs}
 
 The MS Word Accessibility Checker scans the file for common issues that may make a file less accessible for users with disabilities.
 
@@ -26,13 +26,13 @@ Clicking an item in the "Inspection Results" list will take you directly to the 
 
 For further support, see the MS Support resource [Improve Accessibility with the Accessibility Checker](https://support.office.com/en-us/article/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f#PickTab=Windows).
 
-## Labeling your galley files
+## Labeling your galley files {#labeling}
 
 Galleys should be labeled according to the type of file being published, such as PDF or HTML (see below for information on choosing which galley formats to use). Your galley files should also follow a common naming pattern and be consistent across all publications, so that all galleys of the same type (e.g. PDF) have the same label. Screen readers will read out the type followed by the title, like “PDF: Open badges as credentials in Open Education systems: Case studies from Greece and Europe”.
 
 Supplementary galleys should have a label that describes the content. For example, “Supplemental Data” is not very descriptive. “Regional Income Data” or “Interview Transcripts” are more descriptive.
 
-## Which galley formats to use?
+## Which galley formats to use? {#formats}
 
 Online journals publish their articles in a variety of file types. The most common are PDF and HTML, but increasingly these additional formats are being used: ePub, MP3, and XML. As a general rule, more structured formats (those with tagging in place to indicate the features, such as headings, alt text, etc) are the most accessible. With all formats there are things you can do to maximize the accessibility and preserve the structure of the original document.
 
