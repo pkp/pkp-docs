@@ -32,7 +32,7 @@ By integrating ORCID with OJS/OPS, you will be able to support publishing best p
 
 ORCID provides two different API endpoints for the ORCID Public API and the ORCID Member API.
 
-The **Public API** is free and available to anyone. It allows for ORCID iD authentication and reading public data from ORCID records. It allows the journal to have contributors' ORCID iDs authenticated and displayed on article/preprint pages. Its main difference from the Member API is that it will not automatically send pulication details to a contributor’s ORCID record upon publication.
+The **Public API** is free and available to anyone. It allows for ORCID iD authentication and reading public data from ORCID records. It allows the journal to have contributors' ORCID iDs authenticated and displayed on article/preprint pages. Its main difference from the Member API is that it will not automatically send publication details to a contributor’s ORCID record upon publication. If you start with the Public API and then later decide to switch to the Member API, please contact ORCID support to coordinate the transition from Public to Member API.
 
 The **Member API** requires ORCID institutional membership. In addition to the functionalities of the Public API, the Member API allows for reading “trusted-parties” data from ORCID records, as well as automatically adding/updating metadata on ORCID records. 
 
