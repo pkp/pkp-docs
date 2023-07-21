@@ -611,7 +611,7 @@ It is best to start a new round of review **after** an author uploads revised fi
 
 A new round should **not** be started if you are experiencing any issues with the current round (i.e., unable to record decision, re-invite a declined or removed reviewer).
 
-To start an additional round of review after revised files have been received, click the **New Review Round** tab in the review tab of the manuscript. As of OJS 3.4 you can cancel an additional review round.
+To start an additional round of review after revised files have been received, click the **New Review Round** tab in the review tab of the manuscript.
 
 ![The New Review Round button in the Review panel](./assets/learning-ojs-3-new-round-1.png)
 
@@ -638,6 +638,10 @@ Once you’re ready to start the new round of review, assign Reviewers as you di
 Reviewers from previous rounds will not have access to comments they've made the round before. If a reviewer has requested their comments from the previous round, the editor could copy this from Round 1 - Review Details and start a discussion in Round 2. Alternatively, the journal may choose to encourage the submission of Response to Reviewer as part of the resubmission.
 
 These steps can be repeated until a final decision to accept or decline the manuscript has been reached.
+
+In OJS 3.4 **it is possible to cancel a review round** that has been started, unless a reviewer has completed a review. If a reviewer has declined the review, you must cancel the reviewer before you can cancel the review round. You cannot cancel a review round if a review has been submitted.
+
+![Review stage in 3.4 with decision options including cancelling a review round.](./assets/learning-ojs3.4-cancel-review-round.png)
 
 ### Moving to Copyediting
 
