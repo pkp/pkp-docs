@@ -7,7 +7,7 @@ showPageTOC: true
 
 Even when a DOI has been assigned to an object in OJS it is not automatically known to the registration agency and the corresponding URL at [https://dx.doi.org/](https://dx.doi.org/) will not yet be resolved. You'll have to register the DOI with one of the DOI registration agencies first. At the time of writing, OJS supports registration with Crossref, mEDRA and DataCite out-of-the-box. You pay a membership fee to register your journal with one of these agencies and  sometimes a small fee per DOI registered.  Some agencies are more suitable for certain types of journals and their prices vary. It is also possible that an organization you already belong to provides membership in one of these agencies.
 
-## Export vs. Registration
+## Export vs. Registration {#export-registration}
 
 Before registering DOIs with Crossref, mEDRA, or DataCite for the first time you'll have to decide whether you want to use the registration connector in "manual export" or "automatic registration" mode. This depends on your relation with the registration agency and, likely,  how hands-on you want to be.
 
@@ -18,24 +18,24 @@ While, in principle, it is possible to mix both modes of operation, you should n
 
 It is not problematic, though, to use the XML export feature for local inspection of XML data that will be transferred to the registration agency via OJS later. As long as the actual registration is done in OJS, the local and remote registration databases will not get out of sync.
 
-## Using Registration Plugins
+## Using Registration Plugins {#registration-plugins}
 
-For more-detailed, Crossref specific documentation please see the [Crossref manual for OJS](/crossref-ojs-manual/).  
+For more detailed, Crossref-specific documentation please see the [Crossref manual for OJS](/crossref-ojs-manual/).  
 
 ### Setup
 
-Each plugin has it's own configuration page. They all look a little different depending on the agency you'll be working with, but they all feature two things:
+Each plugin has its own configuration page. They all look a little different depending on the agency you'll be working with, but they all feature two things:
 
 1. Credential information for the registration agency and your account.
 2. An option to automatically register DOIs with the agency when you publish.
 
 Your credential information will be provided for you by the agency you're working with. If you don't have any of this information, you can reach out to their support teams.
 
-You may, if you like, keep automatic registration off and deposit each DOI individually yourself. If you're working on a back-issue run or just getting started with your journal, you might appreciate a little more control. Eventually though, it's recommended to just let the plugins automatically deposit.
+You may, if you like, keep automatic registration off and deposit each DOI individually. If you're working on a back-issue run or just getting started with your journal, you might appreciate a little more control. However, it is recommended that you eventually allow plugins to automatically deposit.
 
 ### Deposit
 
-Again, each plugin is a little different. Generally speaking you can manually deposit a DOI with your registration agency by doing the following:
+Again, each plugin is a little different. Generally, you can manually deposit a DOI with your registration agency by doing the following:
 
 - click the check box for any content you're looking to deposit (you can filter by "unregistered" content);
 - click the "Deposit" button at the bottom of the list and...
@@ -49,6 +49,6 @@ Sometimes you'll have an update to metadata related to a publication. Maybe ther
 
 Changes in OJS metadata will not be transferred to the registration agency automatically. You'll have re-deposit the metadata to the registration agency using the same process as detailed in "deposit" above.
 
-## External Registration
+## External Registration {#external-registration}
 
 Depending on the registration agency, you may bypass using OJS entirely. For example, Crossref has a web deposit form for new publications. External management of DOIs will always be more work. Typically, it involves hand-populating spreadsheets or web forms. But, if you are interested in really spending some personal time with your DOIs, contact your registration agency to ask about your options. 
