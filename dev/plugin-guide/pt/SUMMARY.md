@@ -2,13 +2,13 @@
 
 * [Introdução](.)
 * [Começando](./getting-started)
-* [Categorias de Plugins](./categories)
-  * [Blocos](./categories#blocks)
-  * [Importação/Exportação](./categories#import-export)
-  * [Relatórios](./categories#reports)
-  * [Temas](./categories#themes)
-  * [Genérico](./categories#generic)
-  * [Outros](./categories#other)
+* Categorias de Plugins
+  * Blocos
+  * Importação/Exportação
+  * Relatórios
+  * Temas
+  * Genérico
+  * Outros
 * [Tradução](./translation)
 * [Templates](./templates)
 * [Configurações do Plugin](./settings)
