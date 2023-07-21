@@ -9,7 +9,7 @@ The DOI Plugin assigns DOIs to publications. It can be configured to assign DOIs
 
 The plugin is included with OJS 2.4.x and 3.x, OPS 3.x, and OMP 3.x.
 
-## Enabling the DOI Plugin
+## Enabling the DOI Plugin {#enabling}
 
 Enabling the plugin in OJS, OMP, and OPS 3.x is all very similar.
 
@@ -17,7 +17,7 @@ Enabling the plugin in OJS, OMP, and OPS 3.x is all very similar.
 2. Under Installed Plugins &gt; Public Identifier Plugins, find DOI
 3. Click the box to the right of the DOI Plugin description to enable it
 
-## Configuring the DOI Plugin
+## Configuring the DOI Plugin {#configuring}
 
 After enabling the plugin, a **Settings** link will appear.  You may need to click a blue arrow next to the plugin name to make the Settings link appear.
 
