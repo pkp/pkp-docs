@@ -15,7 +15,7 @@ Unsure of why you should be involved? These students from [Manchester Metropolit
 
 ## Contributors
 
-Ashley Edwards, Vanessa Gabler, Allison Hill, Mariya Maistrovskaya, Patricia Mangahis, Alison Moore, Kate Shuttleworth, Kevin Stranack.
+Ashley Edwards, Vanessa Gabler, Allison Hill, Mariya Maistrovskaya, Patricia Mangahis, Alison Moore, Kate Shuttleworth, Kevin Stranack, Emily Zheng.
 
 
 
