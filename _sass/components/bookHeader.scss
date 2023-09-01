@@ -77,11 +77,21 @@
 }
 
 .bookHeader {
-
-	.versions {
+	.bookHeaderTools {
 		display: inline-block;
 		float: right;
-		margin-top: 12px;
+		margin-top: 20px;
+
+		.search {
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		.versions {
+			display: inline-block;
+			margin-left: 20px;
+			vertical-align: top;
+		}
 	}
 }
 
