@@ -16,7 +16,7 @@ This section will describe how to install the application in a local development
 > If you are using Windows, you may need to install GNU Patch and add it to your system's `PATH` environment variable.
 {:.notice}
 
-The Admin Guide describes the [system requirements](../../../admin-guide/en/requirements). When running locally, many of the recommended dependencies are not required.
+The Admin Guide describes the [system requirements](../../../admin-guide/en/getting-started#system-requirements). When running locally, many of the recommended dependencies are not required.
 
 ## Install
 
