@@ -4,7 +4,7 @@
 * [Getting Started](./getting-started)
 * [Plugin Categories](./categories)
   * [Blocks](./categories#blocks)
-  * [Import/Export](./categories#importexport)
+  * [Import/Export](./categories#import-export)
   * [Reports](./categories#reports)
   * [Themes](./categories#themes)
   * [Generic](./categories#generic)

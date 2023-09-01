@@ -11,7 +11,7 @@
   * [Support](./introduction.md#support.md)
 * [Installing and Upgrading](./installing-upgrading.md)
   * [Download](./installing-upgrading.md#download)
-  * [Hosted Solutions](./installing-upgrading.md#hosted-solutions)
+  * [Hosted Solutions](./installing-upgrading.md#hosted)
 * [Site Administration](./site-administration.md)
   * [Site Management](./site-administration.md#site-management)
   * [Administrative Functions](./site-administration.md#administrative-functions.md)

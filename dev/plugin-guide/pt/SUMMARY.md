@@ -2,19 +2,19 @@
 
 * [Introdução](.)
 * [Começando](./getting-started)
-* [Categorias de Plugins](./categories)
-  * [Blocos](./categories#blocks)
-  * [Importação/Exportação](./categories#importexport)
-  * [Relatórios](./categories#reports)
-  * [Temas](./categories#themes)
-  * [Genérico](./categories#generic)
-  * [Outros](./categories#other)
+* Categorias de Plugins
+  * Blocos
+  * Importação/Exportação
+  * Relatórios
+  * Temas
+  * Genérico
+  * Outros
 * [Tradução](./translation)
 * [Templates](./templates)
 * [Configurações do Plugin](./settings)
 * [Lançar um Plugin](./release)
 * [Exemplos](./examples)
-  * [Modelo de plugin](https://github.com/pkp/pluginTemplate){:target="_blank"}
+  * [Modelo de plugin](https://github.com/pkp/pluginTemplate)
   * [Adicionar Estilos e Scripts](./examples-styles-scripts)
   * [Contexto e Site](./examples-context-site)
   * [Obter Dados](./examples-get-data)

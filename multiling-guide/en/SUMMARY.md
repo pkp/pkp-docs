@@ -2,7 +2,7 @@
 
 * [Introduction](.)
 * [Strategy & Planning](./planning.md)
-  * [Initial Considerations](./planning.md#initial-considerations)
+  * [Initial Considerations](./planning.md#considerations)
 * [Installing, Enabling, and Configuring Locales](./locales.md)
   * [Installing New Locales](./locales.md#installing-new-locales)
   * [Enabling New Locales](./locales.md#enabling-new-locales)

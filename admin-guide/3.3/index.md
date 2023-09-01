@@ -7,6 +7,7 @@ version: 3.3
 
 * [English](en/)
 * [Français](fr/)
+* [Português](pt/) (Tradução incompleta)
 
 The PKP Administrator's Guide provides guidance for administering PKP applications, including Open Journal Systems \(OJS\), Open Monograph Press \(OMP\) and Open Preprint Systems \(OPS\). It is written by and for systems administrators - those who are responsible for the installation, upgrading and general maintenance of the system.
 
