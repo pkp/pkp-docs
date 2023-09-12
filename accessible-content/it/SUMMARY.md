@@ -7,7 +7,7 @@
   * [Contenuto video e audio](./principles.md#audiovisual)
   * [Collegamenti ipertestuali accessibili](./principles.md#hyperlinks)
   * [Contrasto e affidabilità cromatica](./principles.md#contrast)
-  * [Leggibilità della scrittura](./principles.md#readabilityg)
+  * [Leggibilità della scrittura](./principles.md#readability)
   * [Struttura delle rubriche](./principles.md#headings)
   * [Liste](./principles.md#lists)
   * [Colonne](./principles.md#columns)
