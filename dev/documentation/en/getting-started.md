@@ -26,7 +26,7 @@ Fork and clone the [OJS](https://github.com/pkp/ojs), [OMP](https://github.com/p
 git clone https://github.com/pkp/ojs --recurse-submodules -b stable-3_3_0
 ```
 
-(The `stable-3_3_0` part is the branch to check out; make sure to choose the branch you want to develop against. See [Branches](#branches) for more information.)
+(Use `omp` or `ops` in place of `ojs`, depending on which application you wish to check out. The `stable-3_3_0` part of the command is the branch to check out; make sure to choose the branch you want to develop against. See [Branches](#branches) for more information.)
 
 Next, copy the default config file:
 
