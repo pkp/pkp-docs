@@ -20,15 +20,15 @@ The Admin Guide describes the [system requirements](../../../admin-guide/en/gett
 
 ## Install
 
-Fork and clone the [OJS](https://github.com/pkp/ojs), [OMP](https://github.com/pkp/omp), or [OPS](https://github.com/pkp/ops) repository on GitHub. If you're not sure how, read how to [fork and clone a repository](https://help.github.com/en/articles/fork-a-repo) on GitHub.
-
-Once the application is cloned to your local system, navigate to the application's root directory in your terminal and run the following command to check out the submodules.
+Fork and clone the [OJS](https://github.com/pkp/ojs), [OMP](https://github.com/pkp/omp), or [OPS](https://github.com/pkp/ops) repository on GitHub. (Read more about [forking and cloning a repository](https://help.github.com/en/articles/fork-a-repo) on GitHub).
 
 ```
-git submodule update --init --recursive
+git clone https://github.com/pkp/ojs --recurse-submodules -b stable-3_3_0
 ```
 
-Copy the default config file.
+(The `stable-3_3_0` part is the branch to check out; make sure to choose the branch you want to develop against. See [Branches](#branches) for more information.)
+
+Next, copy the default config file:
 
 ```
 cp config.TEMPLATE.inc.php config.inc.php
