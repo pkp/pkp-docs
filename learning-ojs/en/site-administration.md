@@ -17,7 +17,7 @@ More technical information about administering an OJS site, including upgrades, 
 
 To get to Site Management, login as the Site Administrator, and choose Administration from the left menu.
 
-![OJS site admin main menu with 2 options: site management and administrative functions.](./assets/learning-ojs3.1-sa-site-admin.png)
+![OJS site admin main menu.](./assets/learning-ojs3.4-sa-site-admin.png)
 
 ### Hosted Journals
 
