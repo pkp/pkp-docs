@@ -79,7 +79,7 @@ Há várias maneiras diferentes pelas quais um autor pode conectar seu ORCID iD 
 1. Durante o processo de submissão do artigo, quando você chegar à etapa 3 "Metadados", há uma seção para adicionar colaboradores.
 2. Para cada contribuinte, clique em “Adicionar colaborador” e digite a informação para cada autor. Para fins de teste na sandbox, você pode querer se certificar de usar o endereço de e-mail `@mailinator. om`que você usou para criar o seu sandbox ORCID iD.
 3. No final do formulário "Adicionar Colaborador", na seção "ORCID", você precisará marcar a caixa para enviar e-mail para solicitar autorização ORCID do contribuidor. Em seguida, clique em Salvar. ![Imagem de autorização do colaborador ORCID](./assets/orcid-contributor-authorization.png)
-4. Em seguida, volte para o [mailinator.com](https://www.mailinator.com) e vá para a sua caixa de e-mail. Você deve ver um e-mail do OJS pedindo para você conectar seu ORCID iD. Siga as instruções no e-mail para conectar o seu ORCID iD.
+4. Em seguida, volte para o [mailinator.com](https://www.mailinator.com) e vá para a sua caixa de e-mail. Você deve ver um e-mail do OJS solicitando que você conecte seu ORCID iD. Siga as instruções no e-mail para conectar o seu ORCID iD.
 5. Uma vez que o artigo é publicado, o ID ORCID deve aparecer no artigo se o ORCID iD para cada colaborador tiver sido conectado.
 6. Se você estiver usando a API do membro, uma vez que o artigo é publicado, o trabalho deve então aparecer no registro ORCID do sandbox na seção de trabalho.
 
