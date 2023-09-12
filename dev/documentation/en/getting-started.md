@@ -92,6 +92,11 @@ Published versions of the software can be found in branches in the git repositor
 git checkout stable-3_3_0
 ```
 
+For any customization work, base your own branches on one of the stable branches. That should make it easier to maintain compatibility with plugins and future updates, and it locks down all dependencies to the versions used at the time of release. This is not true of the `main` branch, introducing the danger of incompatibilities between future versions of those dependencies, preventing successful builds of OJS/OMP/OPS at that point.
+
+> ⚠️  When changing branches, make sure to change submodule branches too.
+{:.warning}
+
 ## Remotes
 
 To get changes to the application that were made after you forked, add the `upstream` remote.
