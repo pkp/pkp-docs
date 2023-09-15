@@ -1,7 +1,7 @@
 ---
 book: dev-documentation
 version: 3.4
-title: Forms - Frontend - Technical Documentation - OJS|OMP|OPS
+title: List Panels - Frontend - Technical Documentation - OJS|OMP|OPS
 ---
 
 # List Panels
