@@ -2,7 +2,7 @@
 
 * [Introducción](.)
 * [Estrategia y planificación](./planning.md)
-  * [Consideraciones iniciales](./planning.md#initial-considerations)
+  * [Consideraciones iniciales](./planning.md#considerations)
 * [Instalar, habilitar y configurar los idiomas](./locales.md)
   * [Instalar nuevos idiomas (locales)](./locales.md#installing-new-locales)
   * [Activar nuevos idiomas](./locales.md#enabling-new-locales)

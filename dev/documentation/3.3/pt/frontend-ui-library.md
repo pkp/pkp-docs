@@ -79,9 +79,9 @@ Use as ferramentas de desenvolvimento Vue.js para [Firefox](https://addons.mozil
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="../img/state.mp4" type="video/mp4">
+    <source src="" type="video/mp4">
   </video>
-  <figcaption>Vídeo mostrando a mudança de state no navegador.</figcaption>
+  <figcaption></figcaption>
 </figure>
 
 O state só deve ser usado quando os dados são alterados, a interface do usuário deve atualizar para refletir essa alteração sem recarregar a página. Nem sempre é fácil determinar quais dados devem ser gerenciados pelo Vue.js como state e quais dados devem ser gerenciados pelo Smarty.

@@ -12,12 +12,12 @@ Parceiros PKP com ORCID permitem a coleta e exibição de iDs ORCID autenticados
 
 O Plugin de Perfil ORCID para as versões de OJS/OPS 3.1.2 e acima permite que uma revista OJS e um servidor preprint OPS:
 
-* Coletar e autenticar o ID ORCID de um(a) colaborador(a)
+* Coletar e autenticar o iD ORCID de um(a) colaborador(a)
 * Enviar automaticamente um e-mail para os colaboradores solicitando a autenticação de sua iD ORCID
-* Exibe o ID do ORCID autenticado de um colaborador na página de pré-impressão ou artigo, que irá vincular ao registro ORCID do colaborador
-* Além disso apenas para API de Membro- Enviar automaticamente os detalhes de publicação para o registro ORCID de um colaborador uma vez que seu trabalho tenha sido publicado em OJS/OPS
+* Exibe o iD do ORCID autenticado de um colaborador na página de pré-impressão ou artigo, que irá vincular ao registro ORCID do colaborador
+* Adicionalmente, apenas para API de Membro - Enviar automaticamente os detalhes de publicação para o registro ORCID de um colaborador uma vez que seu trabalho tenha sido publicado em OJS/OPS
 
-Para obter mais detalhes sobre cada uma dessas funções, consulte o [Usando o plugin ORCID](./using-plugin.md) capítulo.
+Para obter mais detalhes sobre cada uma dessas funções, consulte o capítulo [Usando o plugin ORCID](./using-plugin.md).
 
 ## Por que você deve usar o plugin ORCID?
 
@@ -32,7 +32,7 @@ Ao integrar ORCID com OJS/OPS, você será capaz de suportar a publicação das 
 
 ORCID oferece dois endpoints de API diferentes para a API pública ORCID e o membro da API ORCID.
 
-A **API Pública** é gratuita e disponível para qualquer pessoa. Ela permite a autenticação e leitura de dados públicos de registros ORCID em ORCID. Ela permite que o diário tenha os iDs ORCID dos colaboradores autenticados e exibidos nas páginas de artigo/pré-impressão. A sua principal diferença em relação à API do membro é que não enviará automaticamente os detalhes de pulicação para o registo ORCID de um contribuinte após a publicação.
+A **API Pública** é gratuita e disponível para qualquer pessoa. Ela permite a autenticação e leitura de dados públicos de registros ORCID em ORCID. Ela permite que o diário tenha os iDs ORCID dos colaboradores autenticados e exibidos nas páginas de artigo/pré-impressão. A sua principal diferença em relação à API do membro é que não enviará automaticamente os detalhes de publicação para o registo ORCID de um contribuidor após a publicação. Se você começar com a API pública e depois decidir mudar para a API do membro, por favor, entre em contato com o suporte ORCID para coordenar a transição da API Pública para API de Membros.
 
 A **API de membros** requer participação institucional ORCID. Além das funcionalidades da API pública, a API do membro permite a leitura de dados de "grupos confiáveis" de registros ORCID, Além de adicionar/atualizar automaticamente os metadados nos registros ORCID.
 
@@ -40,6 +40,6 @@ Se o seu diário estiver associado a uma instituição, entre em contato com a b
 
 ## Sandbox versus credenciais de produção
 
-O ORCID fornece aos usuários de plugin uma opção para testar como o plugin funciona com sua instalação em um ambiente Sandbox (de testes) antes de entrar em ambiente de produção. Você precisará de um conjunto diferente de credenciais para a Sandbox vs API de produção.
+O ORCID fornece aos usuários de plugin uma opção para testar como o plugin funciona com sua instalação em um ambiente Sandbox (de testes) antes de entrar em ambiente de Produção. Você precisará de um conjunto diferente de credenciais para a Sandbox vs API de produção.
 
 Como obter as credenciais da Sandbox, como testar na Sandbox, e as vantagens de testar na Sandbox são mais explicadas no [Apêndice: Testando o capítulo](./appendix-testing-orcid-sandbox.md) ORCID Sandbox.
