@@ -10,7 +10,7 @@ The Settings section allows you to configure your OJS installation to best meet 
 
 You can find the Settings in the left menu panel when you are logged in as a user with Journal Manager permissions.
 
-![OJS dashboard View for Journal Managers with links to Settings menu and its submenus in left-hand sidebar.](./assets/learning-ojs3.1-jm-settings-journal.png)
+![OJS dashboard View for Journal Managers with links to Settings menu and its submenus in left-hand sidebar.](./assets/learning-ojs3.4-jm-settings-journal-page.png)
 
 It consists of Journal Settings, Website Settings, Workflow Settings, and Distribution Settings, which will be covered in the next 4 chapters.
 
@@ -18,7 +18,7 @@ The Journal Settings page includes details about the journal.
 
 Use the tabs to navigate to the different sections of Journal Settings: Masthead, Contact, Sections.
 
-![OJS dashboard view of Journal Settings with navigation tabs for the Settings submenus across top portion of page content.](./assets/learning-ojs3.2-jm-settings-journal-page.png)
+![OJS dashboard view of Journal Settings with navigation tabs for the Settings submenus across top portion of page content.](./assets/learning-ojs3.4-jm-settings-masthead-tabs.png)
 
 ## Masthead
 
@@ -60,7 +60,7 @@ This PKP School video explains how to add journal contacts in OJS. To watch othe
 
 Use this section to add journal contacts.
 
-![OJS dashboard view of Journal Settings submenu Contact where information can be added in text fields.](./assets/learning-ojs3.2-jm-settings-journal-contact.png)
+![OJS dashboard view of Journal Settings submenu Contact where information can be added in text fields.](./assets/learning-ojs3.4-jm-settings-journal-contact.png)
 
 **Principal Contact**: Add contact information for the journal's main contact person, including name, email, phone, affiliation, and mailing address for the journal. This will appear on the journal's Contact page.
 
@@ -150,9 +150,9 @@ This PKP School video explains how to create categories in OJS. To watch other v
 
 {% include video.html id="Y97U1icfEPw" provider="youtube" title="Video of how to create categories in OJS"%}
 
-In OJS 3 you can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production-publication). This section explains how to create and edit categories.
+You can create Categories to organize your articles into thematic collections and provide another way for readers to access your content. Categories can be displayed as a browse block on your journal site and readers can select a category to view all articles in that category. You can place an article in a category by editing its metadata, which is explained in the [Production and Publication chapter](./production-publication). This section explains how to create and edit categories.
 
-![OJS dashboard view of Journal Settings submenu Categories with links for Order and Add a Category and editable list of current categories.](./assets/learning-ojs3.1-categories-menu.png)
+![OJS dashboard view of Journal Settings submenu Categories with links for Order and Add a Category and editable list of current categories.](./assets/learning-ojs3.4-categories-menu.png)
 
 To create a new category:
 
