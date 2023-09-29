@@ -37,7 +37,9 @@ You should see a confirmation of installation:
 
 Next, you’ll need to ensure that there is no newer version of the plugin available. 
 
-In the “Plugin Gallery”, once again find the “JATS Template Plugin” and click on it to open the information  window. Click the upgrade button if available and confirm that you wish to update the plugin. If the upgrade button is unavailable, your plugin is up to date.
+In the “Plugin Gallery”, once again find the “JATS Template Plugin” and click on it to open the information  window. 
+
+Click the upgrade button if available and confirm that you wish to update the plugin. If the upgrade button is unavailable, your plugin is up to date.
 
 ![JATS Template Plugin with plugin information and an Upgrade button.](./assets/jatsTemplatePluginInfo.png)
 
@@ -97,7 +99,7 @@ Click the checkbox on the right to enable the plugin. You should receive a confi
 
 ![Notification: The plugin "JATS Template Plugin" has been enabled.](./assets/jatsTemplatePluginListingNotification.png)
 
-Next, look OAI Metadata Format Plugins section for “JATS Metadata Format” (this is the OAI JATS Plugin, renamed by the system to align with this plugin section’s naming convention):
+Next, look OAI Metadata Format Plugins section for the “JATS Metadata Format” plugin (this is the OAI JATS Plugin, renamed by the system to align with this plugin section’s naming convention):
 
 ![JATS Metadata Format in the list of plugins with an unchecked checkbox next to it.](./assets/jatsMetadataFormatPluginListing.png)
 
