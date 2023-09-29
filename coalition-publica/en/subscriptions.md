@@ -7,11 +7,9 @@ If you are using OJS to publish content that requires subscription, or if you ar
 
 You will need to be running **Open Journal Systems [Long-Term Support](https://pkp.sfu.ca/software/ojs/download/) version or newer**.
 
-Ensure that your System Administrator has followed Step 3. Ensure that you have entered an API key secret in the System Administrator Steps section in the initial setup part of this document.
-
 ## Site Administrator Steps
 
-The following steps can be performed within OJS by users with the Site Administrator or the Journal Manager role.
+The following steps can be performed within OJS by users with the Site Administrator or the Journal Manager role **after** a System Administrator has followed Step 3. Ensure that you have entered an API key secret in the System Administrator Steps section of this document.
 
 ### Step 1. Create a Subscription Manager
 
