@@ -13,7 +13,7 @@ Ensure that your System Administrator has followed Step 3. Ensure that you have 
 
 The following steps can be performed within OJS by users with the Site Administrator or the Journal Manager role.
 
-## Step 1. Create a Subscription Manager
+### Step 1. Create a Subscription Manager
 
 In this step, you will create a new user with a Subscription Manager role. If you already have a Subscription Manager, you may skip this step and use that account instead. However, for security reasons, it is not recommended to use an account with any roles aside from Subscription Manager (it’s better to have a single role for this account, the Subscription Manager role). Later you will grant Érudit permission to act as this user when collecting content from your installation by providing the API key secret associated with this user account.
 
@@ -25,7 +25,7 @@ Next, you will be presented with a list of User Roles. Make sure you check “Su
 
 This will complete the user creation process. Make sure to remember the username and password you entered when creating the account.
 
-## Step 2. Generate an API Key
+### Step 2. Generate an API Key
 
 Log out of your OJS installation, and log in again using the credentials for the Subscription Manager account you created in Step 1.
 
