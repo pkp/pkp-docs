@@ -5,7 +5,7 @@ noindex: true
 
 If you are using OJS to publish content that requires subscription, or if you are using OJS for workflow but not publishing, some additional configuration is required to allow Érudit to access your content. **These steps are not required if you are using OJS to publish an open access journal.**
 
-You will need to be running **Open Journal Systems [Long-Term Support](https://pkp.sfu.ca/software/ojs/download/) version or newer**.
+You will need to be running **OJS [Long-Term Support](https://pkp.sfu.ca/software/ojs/download/) version or newer**.
 
 ## Site Administrator Steps
 
