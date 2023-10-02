@@ -35,6 +35,7 @@ Cliquez sur le bouton “Installer” afin d’installer le ​plugin​. (Si vo
 Vous devriez voir une notification confirmant l’installation :
 
 ![Notification: plucigicel JATS template installé](./assets/jatsTemplatePluginListingNotification.png)
+
 Ensuite, vous devez vous assurer qu'il n'existe pas de version plus récente du plugin. 
 
 Dans la “Galerie de plugiciels”, trouvez à nouveau le "JATS Template Plugin" et cliquez dessus pour afficher plus d'informations. 
