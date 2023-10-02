@@ -155,9 +155,9 @@ Ensure that “Enable OAI access to content” is checked. Save the settings.
 
 ### A Note for subscription and non publishing use of OJS
 
-If the journal requires a subscription to access some or all of its contents, or does not use OJS to publish its content but uses the editorial workflow only, the Site Administrator or Journal Manager will need to complete the steps outlined in the Subscriptions and Non-Publishing Use of OJS section of this document finish configuring the journal. 
+If the journal requires a subscription to access some or all of its contents, or does not use OJS to publish its content but uses the editorial workflow only, the Site Administrator or Journal Manager will need to complete the steps outlined in the *Subscriptions and Non-Publishing Use of OJS* section of this document finish configuring the journal. 
 
-However, the steps outlined in the Subscriptions and Non-Publishing Use of OJS section must be taken **after** a System Administrator completes Steps 1, 2, and 3 in the System Administrator Steps section below.
+However, the steps outlined in the *Subscriptions and Non-Publishing Use of OJS* section must be taken **after** a System Administrator completes Steps 1, 2, and 3 in the System Administrator Steps section below.
 
 
 ## System Administrator Steps {#sys-admin}
