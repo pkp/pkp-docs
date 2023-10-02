@@ -33,7 +33,7 @@ Click the “Install” button to install the plugin. (If you do not see the “
 
 You should see a confirmation of installation:
 
-![Notification: JATS template plugin enabled ](./assets/JATStemplatePluginIntallConfirmation.png)
+![Notification: Successfully upgraded to version 1.0.1.0.](./assets/oaiJatsPluginNotification.png)
 
 Next, you’ll need to ensure that there is no newer version of the plugin available. 
 
@@ -45,7 +45,7 @@ Click the upgrade button if available and confirm that you wish to update the pl
 
 You will see a confirmation after the upgrade completes successfully.
 
-![Notification: Successfully upgraded to version 1.0.1.0.](./assets/oaiJatsPluginNotification.png)
+![Notification: Successfully upgraded to 1.0.6.1](./assets/JATStemplatePluginIntallConfirmation.png)
 
 
 ### Step 2. Install the latest version of the OAI JATS Plugin
