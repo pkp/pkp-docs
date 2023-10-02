@@ -12,7 +12,7 @@ Vous devez disposer des droits d'administration du système pour configurer l'ex
 Les étapes nécessaires à l'installation et à la configuration d'OJS pour chaque niveau d'autorisation sont décrites dans les sections suivantes.
 
 
-## Étapes de l’administrateur du site
+## Étapes de l’administrateur du site {#site-admin}
 
 ### Étape 1. Installer la dernière version du JATS Template Plugin
 
@@ -57,7 +57,7 @@ Recherchez “OAI JATS Plugin” dans la “Galerie de plugiciels”:
 
 Cliquez sur “OAI JATS Plugin” pour afficher plus d’informations sur ce ​plugin​ :
 
-![OAI JATS Plugin avec des informations sur le plugin et un bouton Installer.](./assets/oaiJatsPluginInfo.png)
+![OAI JATS Plugin avec des informations sur le plugin et un bouton Installer.](./assets/OAIjatsPluginInstall.png)
 
 Cliquez sur le bouton “Installer” afin d’installer le ​plugin​. (Si vous ne voyez pas le bouton “Installer”, assurez-vous d’être connecté en tant qu’Administrateur.) Confirmez que vous souhaitez bien installer le ​plugin​.
 
@@ -160,14 +160,14 @@ Sous Paramètres > Distribution > Accès, vous verrez un ensemble de paramètres
 
 Assurez-vous d’avoir coché “​*Enable OAI access to content*​”. Enregistrez les paramètres.
 
-### Note concernant l'utilisation d'OJS dans le cadre d'un abonnement ou d'une non-publication
+### Note concernant l'utilisation d'OJS  pour abonnements et utilisation d’OJS sans publication
 
 Si la revue exige un abonnement pour accéder à une partie ou à l’intégralité de son contenu, ou n’utilise pas OJS pour publier le contenu de la revue en ligne, l'administrateur du site ou quelqu’un ayant le rôle Directeur de la revue devra suivre les étapes décrites dans la section *Abonnements et utilisation d’OJS sans publication* du présent document pour terminer la configuration de la revue. 
 
 Toutefois, les étapes décrites dans la section *Abonnements et utilisation d’OJS sans publication* doivent être réalisées **après** qu'un administrateur système a effectué les étapes 1, 2 et 3 de la section Étapes de l'administrateur système ci-dessous.
 
 
-## Étapes de l'administrateur système
+## Étapes de l'administrateur système {#sys-admin}
 
 Les étapes suivantes nécessite un accès *backend* à OJS par un administrateur système. Ces étapes doivent être suivies **après avoir effectué les étapes décrites dans la section relative à l'administrateur du site.** Il se peut que vous deviez contacter votre fournisseur d'hébergement ou votre responsable technique pour effectuer les étapes suivantes.
 
