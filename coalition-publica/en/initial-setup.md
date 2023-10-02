@@ -73,8 +73,6 @@ You will see a confirmation after the upgrade completes successfully.
 
 ![Notification: Successfully upgraded to 1.0.6.1](./assets/JATStemplatePluginIntallConfirmation.png)
 
-
-
 ### A note about updating and maintaining plugins
 
 The plugins used for harvesting a journal’s metadata are occasionally updated to fix bugs or improve functionality. You may be instructed to update the plugins by Coalition Publica, or you may choose to update the plugins as part of regular maintenance.
@@ -91,7 +89,7 @@ For each journal to be included in Érudit, Navigate to Settings > Website > Plu
 
 Click on “Installed Plugins” for a list of all installed plugins.
 
-Look in the Generic Plugins section for “JATS Template Plugin”:
+Look in the *Generic Plugins* section for “JATS Template Plugin”:
 
 ![JATS Template Plugin in the list of plugins with an unchecked checkbox next to it.](./assets/jatsTemplatePluginListing.png)
 
@@ -99,7 +97,7 @@ Click the checkbox on the right to enable the plugin. You should receive a confi
 
 ![Notification: The plugin "JATS Template Plugin" has been enabled.](./assets/jatsTemplatePluginListingNotification.png)
 
-Next, look OAI Metadata Format Plugins section for the “JATS Metadata Format” plugin (this is the OAI JATS Plugin, renamed by the system to align with this plugin section’s naming convention):
+Next, look in the *OAI Metadata Format Plugins* section for the “JATS Metadata Format” plugin (this is the OAI JATS Plugin, renamed by the system to align with this plugin section’s naming convention):
 
 ![JATS Metadata Format in the list of plugins with an unchecked checkbox next to it.](./assets/jatsMetadataFormatPluginListing.png)
 
@@ -107,17 +105,17 @@ Click the checkbox beside that to enable it as well. You should receive a confir
 
 ![Notification: The plugin "OAI JATS Plugin" has been enabled.](./assets/jatsMetadataFormatPluginListingNotification.png)
 
-**If the journal publishes XML galleys**, you will need to change the JATS Metadata Format settings.
+**If the journal publishes XML galleys**, you will need to change the JATS Metadata Format settings. This is **not** necessary for journals who do not publish XML galleys unless they have been directed otherwise by their Coalition Publica contact following a test harvest. 
 
-Click the blue arrow next to JATS Metadata Format to access the plugin settings. Click the checkbox next to “Ignore uploaded JATS XML documents” and press OK. 
-
-This is **not necessary for journals who do not publish XML galleys** unless they have been directed otherwise by their Coalition Publica contact following a test harvest. 
+Click the blue arrow next to JATS Metadata Format to access the plugin settings. 
 
 ![The Settings option located under the JATS Metadata Format plugin options.](./assets/jats-settings.png)
 
+Click the checkbox next to “Ignore uploaded JATS XML documents” and press OK. 
+
 ![The JATS Template Plugin settings page with the Ignore uploaded JATS XML documents checkbox checked.](./assets/ignore_xml.png)
 
-**Don’t forget to repeat Step 3 for any other journals that are  to be included in Érudit.**
+**Don’t forget to repeat Step 3 for any other journals that are to be included in Érudit.**
 
 
 ### Step 4. Review Required Language Locales 
