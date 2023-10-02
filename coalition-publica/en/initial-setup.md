@@ -113,7 +113,7 @@ Click the blue arrow next to JATS Metadata Format to access the plugin settings.
 
 This is **not necessary for journals who do not publish XML galleys** unless they have been directed otherwise by their Coalition Publica contact following a test harvest. 
 
-![The Settings option located under the JATS Metadata Format plugin options.](./assets/jats_settings.png)
+![The Settings option located under the JATS Metadata Format plugin options.](./assets/jats-settings.png)
 
 ![The JATS Template Plugin settings page with the Ignore uploaded JATS XML documents checkbox checked.](./assets/ignore_xml.png)
 
