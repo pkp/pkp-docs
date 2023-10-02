@@ -9,7 +9,7 @@ You will need to be running **Open Journal Systems [Long-Term Support](https://p
 
 ## Site Administrator Steps
 
-The following steps can be performed within OJS by users with the Site Administrator or the Journal Manager role **after** a System Administrator has followed Step 3. Ensure that you have entered an API key secret in the System Administrator Steps section of this document.
+The following steps can be performed within OJS by users with the Site Administrator or the Journal Manager role **after** a System Administrator has followed *Step 3. Ensure that you have entered an API key secret* in the System Administrator Steps section of this document.
 
 ### Step 1. Create a Subscription Manager
 
