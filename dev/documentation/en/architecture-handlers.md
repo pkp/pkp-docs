@@ -20,7 +20,7 @@ Code inside of a `Handler` can not be reused, so `Handler`s should not perform t
 Page Handlers receive `GET` requests and return `HTML` output. The Page Handler must define a method for each op it supports.
 
 ```php
-import('classes.handler.Handler');
+use APP\handler\Handler;
 
 class IssueHandler extends Handler
 {
@@ -41,7 +41,7 @@ Learn more about [page URLs, routes and ops](./architecture-routes#page-routes).
 Page Handlers may define an `index` op to handle URLs that do not contain an op.
 
 ```php
-import('classes.handler.Handler');
+use APP\handler\Handler;
 
 class IssueHandler extends Handler
 {
@@ -73,7 +73,7 @@ Any URL fragments that are appended after the op will be passed to the `Handler`
 ![Diagram indicating the parts of a URL for Page Handlers](../img/url-route-page.png)
 
 ```php
-import('classes.handler.Handler');
+use APP\handler\Handler;
 
 class IssueHandler extends Handler
 {
@@ -88,7 +88,7 @@ class IssueHandler extends Handler
 Return a `404` error when page arguments request an entity that does not exist.
 
 ```php
-import('classes.handler.Handler');
+use APP\handler\Handler;
 
 class IssueHandler extends Handler
 {
@@ -108,7 +108,7 @@ class IssueHandler extends Handler
 Page Handlers return HTML code using the `TemplateManager`.
 
 ```php
-import('classes.handler.Handler');
+use APP\handler\Handler;
 
 class IssueHandler extends Handler
 {
@@ -134,10 +134,9 @@ $ curl https://example.org/publicknowledge/api/v1/submissions
 ```php
 use PKP\core\APIResponse;
 use Slim\Http\Request as SlimRequest;
+use PKP\handler\APIHandler;
 
-import('lib.pkp.classes.handler.APIHandler');
-
-class PKPSubmissionsHandler extends APIHandler
+class PKPSubmissionHandler extends APIHandler
 {
     public function __construct()
     {
@@ -169,10 +168,9 @@ $ curl https://example.org/publicknowledge/api/v1/submissions/1
 ```php
 use PKP\core\APIResponse;
 use Slim\Http\Request as SlimRequest;
+use PKP\handler\APIHandler;
 
-import('lib.pkp.classes.handler.APIHandler');
-
-class PKPSubmissionsHandler extends APIHandler
+class PKPSubmissionHandler extends APIHandler
 {
     public function __construct()
     {
@@ -205,10 +203,9 @@ $ curl https://example.org/publicknowledge/api/v1/submissions?searchPhrase=barne
 ```php
 use PKP\core\APIResponse;
 use Slim\Http\Request as SlimRequest;
+use PKP\handler\APIHandler;
 
-import('lib.pkp.classes.handler.APIHandler');
-
-class PKPSubmissionsHandler extends APIHandler
+class PKPSubmissionHandler extends APIHandler
 {
     public function __construct()
     {
@@ -243,10 +240,9 @@ $ curl https://example.org/publicknowledge/api/v1/submissions/1 \
 ```php
 use PKP\core\APIResponse;
 use Slim\Http\Request as SlimRequest;
+use PKP\handler\APIHandler;
 
-import('lib.pkp.classes.handler.APIHandler');
-
-class PKPSubmissionsHandler extends APIHandler
+class PKPSubmissionHandler extends APIHandler
 {
     public function __construct()
     {
@@ -274,10 +270,9 @@ API Handlers are passed a `$response` object which should be returned using the 
 ```php
 use PKP\core\APIResponse;
 use Slim\Http\Request as SlimRequest;
+use PKP\handler\APIHandler;
 
-import('lib.pkp.classes.handler.APIHandler');
-
-class PKPSubmissionsHandler extends APIHandler
+class PKPSubmissionHandler extends APIHandler
 {
     public function __construct()
     {
@@ -298,10 +293,9 @@ Always return the correct [HTTP Status Code](https://en.wikipedia.org/wiki/List_
 ```php
 use PKP\core\APIResponse;
 use Slim\Http\Request as SlimRequest;
+use PKP\handler\APIHandler;
 
-import('lib.pkp.classes.handler.APIHandler');
-
-class PKPSubmissionsHandler extends APIHandler
+class PKPSubmissionHandler extends APIHandler
 {
     public function __construct()
     {
@@ -328,10 +322,9 @@ Error responses from the API should pass a locale key that describes the error.
 ```php
 use PKP\core\APIResponse;
 use Slim\Http\Request as SlimRequest;
+use PKP\handler\APIHandler;
 
-import('lib.pkp.classes.handler.APIHandler');
-
-class PKPSubmissionsHandler extends APIHandler
+class PKPSubmissionHandler extends APIHandler
 {
     public function __construct()
     {
@@ -354,10 +347,9 @@ The `$slimRequest` object is a PSR 7 object created by the [Slim API framework](
 ```php
 use PKP\core\APIResponse;
 use Slim\Http\Request as SlimRequest;
+use PKP\handler\APIHandler;
 
-import('lib.pkp.classes.handler.APIHandler');
-
-class PKPSubmissionsHandler extends APIHandler
+class PKPSubmissionHandler extends APIHandler
 {
     public function get(SlimRequest $slimRequest, APIResponse $response, array $args): APIResponse
     {
