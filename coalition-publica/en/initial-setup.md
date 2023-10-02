@@ -130,7 +130,9 @@ Logged in as Site Administrator, navigate to Settings > Website > Setup > Langua
 
 If a language is not listed, you’ll need to install that language Locale. 
 
-Navigate to Administration > Site Settings > Site Setup > Languages. Click on “Install Locale” 
+Navigate to Administration > Site Settings > Site Setup > Languages. 
+
+Click on “Install Locale” 
 
 ![Installed locales under site settings with option to install](./assets/SetupLanguagesintallLocale.png)
 
