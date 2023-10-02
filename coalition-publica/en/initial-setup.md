@@ -164,7 +164,7 @@ However, the steps outlined in the Subscriptions and Non-Publishing Use of OJS s
 
 ## System Administrator Steps {#sys-admin}
 
-The following steps require back-end access to  files on the server on which OJS is installed and can be performed by a System Administrator. These steps must be followed after completing the steps outlined in the Site Administrator section. You may need to contact your hosting provider or technical lead to perform the following steps.
+The following steps require back-end access to  files on the server on which OJS is installed and can be performed by a System Administrator. These steps must be followed **after completing the steps outlined in the Site Administrator section**. You may need to contact your hosting provider or technical lead to perform the following steps.
 
 ### Step 1. Rebuild Your Search Index
 
