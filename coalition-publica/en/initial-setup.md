@@ -202,6 +202,6 @@ It is found under the `[oai]` section of the config file and should be added aft
 
 In your OJS configuration file (`config.inc.php` in your OJS installation directory) you will find a directive called “`api_key_secret`”. By default this setting is empty. If so, change it to contain a sequence of 32 characters or more (any letters and symbols). This will help make your installation more secure when using API keys.
 
-You will not need to remember this setting, but if you lose it, anyone using API keys (such as the one we will generate in the next step) will need to get a new one.
+You will not need to remember this setting, but if you lose it, anyone using API keys will need to get a new one.
 
 Once the setting is no longer empty, save the file.
