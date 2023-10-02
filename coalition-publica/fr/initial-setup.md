@@ -34,7 +34,7 @@ Cliquez sur le bouton “Installer” afin d’installer le ​plugin​. (Si vo
 
 Vous devriez voir une notification confirmant l’installation :
 
-![Notification: plucigicel JATS template installé](./assets/jatsTemplatePluginListingNotification.png)
+![Notification:  Mise à jour réussie vers la version 1.0.1.0](./assets/oaiJatsPluginNotification.png)
 
 Ensuite, vous devez vous assurer qu'il n'existe pas de version plus récente du plugin. 
 
@@ -46,7 +46,7 @@ Cliquez sur le bouton de mise à jour s'il est disponible et confirmez que vous 
 
 Vous devriez voir une notification confirmant la dernière version disponible du ​plugin​ à été installée.
 
-![Notification : Mise à jour réussie vers la version 1.0.1.0.](./assets/jatsTemplatePluginNotification.png)
+![Notification : Mise à jour réussie vers la version 1.0.6.1.](./assets/JATStemplatePluginIntallConfirmation.png) 
 
 
 ### Étape 2. Installer la dernière version du OAI JATS Plugin
@@ -71,11 +71,11 @@ Dans la “Galerie de plugiciels”, recherchez à nouveau le “OAI JATS Plugin
 
 Cliquez sur le bouton de mise à jour s'il est disponible et confirmez que vous souhaitez mettre à jour le plugin. Si le bouton de mise à jour n'est pas disponible, votre plugin est à jour.
 
-![OAI JATS Plugin avec information et un bouton de mise à jour.](./assets/oaiJatsPluginInfoo.png)
+![OAI JATS Plugin avec information et un bouton de mise à jour.](./assets/oaiJatsPluginInfo.png)
 
 Vous devriez voir une notification confirmant la dernière version disponible du ​plugin​ à été installée.
 
-![Mise à jour réussie vers la version 1.0.1.0..](./assets/oaiJatsPluginNotification.png)
+![Notification : Mise à jour réussie vers la version 1.0.6.1.](./assets/JATStemplatePluginIntallConfirmation.png)
 
 ### Une note sur la mise à jour des plugins
 
@@ -88,13 +88,13 @@ Bien qu’il soit possible de mettre à jour les plugins dans OJS en télécharg
 
 ### Étape 3. Activer des plugins
 
-Un coup les dernières versions des ​plugins​ JATS Template Plugin et OAI JATS Plugin installés, vous devez les activer​ **une fois ​pour chaque revue*​* que vous souhaitez inclure à Érudit.
+Un coup les dernières versions des ​plugins​ JATS Template Plugin et OAI JATS Plugin installés, vous devez les activer​ **une fois ​pour chaque revue** que vous souhaitez inclure à Érudit.
 
 Pour chaque revue à inclure à Érudit, allez dans Paramètres > Site Web > Modules externes.
 
-Cliquez sur “Plugiciels installés”.
+Cliquez sur “Plugiciels installés” pour une liste des ​plugins installés.
 
-Dans la rubrique *Plugiciels génériques* cherchez “JATS Template Plugin” dans la liste des ​plugins :​
+Dans la rubrique *Plugiciels génériques* cherchez “JATS Template Plugin” 
 
 ![JATS Template Plugin dans la liste des plugins avec une case à cocher non cochée à côté.](./assets/jatsTemplatePluginListing.png)
 
@@ -110,11 +110,15 @@ Cochez aussi la case à droite pour l’activer. Vous devriez voir ce message de
 
 ![Notification : Le plugin "OAI JATS Plugin" a été activé.](./assets/jatsMetadataFormatPluginListingNotification.png)
 
-**Si vous publiez les épreuves XML de vos articles**, vous devez cliquer sur la flèche bleue à côté de “Format de métadonnées JATS” afin d’accéder aux paramètres du plugin. 
+**Si vous publiez les épreuves XML de vos articles**, vous devrez modifier les paramètres du plugin format des métadonnées JATS. Les revues qui ne publient **pas** d’épreuves XML peuvent ignorer cette étape, à moins qu'elles n'aient reçu des instructions contraires de la part de leur contact Coalition Publica à la suite d'un test de moissonnage.
+
+Cliquez sur la flèche bleue à côté de “Format de métadonnées JATS” afin d’accéder aux paramètres du plugin:
+
+![The Settings option located under the JATS Metadata Format plugin options.](./assets/jats-settings.png)
 
 Cochez ensuite la case à côté de "Ignorer les documents XML JATS téléchargés", puis cliquez sur OK. 
 
-**Les revues qui ne publient pas d’épreuves XML peuvent ignorer cette étape**, à moins qu'elles n'aient reçu des instructions contraires de la part de leur contact Coalition Publica à la suite d'un test de moissonnage.
+![The JATS Template Plugin settings page with the Ignore uploaded JATS XML documents checkbox checked.](./assets/ignore_xml.png)
 
 Si cette option n'apparaît pas pour vous, veuillez mettre à jour le plugin en suivant les instructions ci-dessous, puis réessayez.
 
