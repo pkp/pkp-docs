@@ -33,7 +33,7 @@ Click the “Install” button to install the plugin. (If you do not see the “
 
 You should see a confirmation of installation:
 
-![Notification: JATS template plugin enabled ](./assets/jatsTemplatePluginListingNotification.png)
+![Notification: JATS template plugin enabled ](./assets/JATStemplatePluginIntallConfirmation.png)
 
 Next, you’ll need to ensure that there is no newer version of the plugin available. 
 
