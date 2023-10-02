@@ -71,7 +71,7 @@ In the “Plugin Gallery”, once again find the “OAI JATS Plugin” and click
 
 You will see a confirmation after the upgrade completes successfully.
 
-![Notification: Successfully upgraded to version 1.0.1.0.](./assets/oaiJatsPluginNotification.png)
+![Notification: Successfully upgraded to 1.0.6.1](./assets/JATStemplatePluginIntallConfirmation.png)
 
 
 
