@@ -9,7 +9,7 @@ You will need to be running **OJS [Long-Term Support](https://pkp.sfu.ca/softwar
 
 ## Site Administrator Steps
 
-The following steps can be performed within OJS by users with the Site Administrator or the Journal Manager role **after** a System Administrator has followed the System Administrator Steps section of this document, notably *Step 3. Ensure that you have entered an API key secret*.
+The following steps can be performed within OJS by users with the Site Administrator or the Journal Manager role **after** a System Administrator has followed the System Administrator Steps of this document, notably *Step 3. Ensure that you have entered an API key secret*.
 
 ### Step 1. Create a Subscription Manager
 
