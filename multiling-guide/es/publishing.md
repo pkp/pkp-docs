@@ -1,5 +1,5 @@
 ---
-title: Publicar en varios idiomas - Utilizar el software PKP en varios idiomas
+title: Publicar en varios idiomas - Utilizar el sistema de PKP en varios idiomas
 showPageTOC: true
 ---
 
@@ -9,13 +9,13 @@ En esta sección, veremos las opciones para publicar contenidos en diferentes id
 
 ## Publicar traducciones: ¿junto al artículo original o por separado?
 
-OJS, OMP y OPS pueden permitir la publicación de un artículo, monografía o preprint en varios idiomas bajo un mismo identificador de envío, en lugar de publicar el artículo original como un elemento y la traducción como otro elemento separado.
+OJS, OMP y OPS pueden permitir la publicación de un artículo, monografía o preprint en varios idiomas bajo un mismo identificador de envío, esto en lugar de publicar por separado el artículo original de la traducción.
 
-Al proporcionar el idioma original y las traducciones bajo un mismo identificador de envío, en lugar de dos o más envíos diferentes, los archivos se mantendrán juntos bajo un mismo identificador. De este modo, también se evita dividir las estadísticas de un artículo entre varios ID de envío.
+Al proporcionar el idioma original y las traducciones bajo un mismo identificador de envío, en lugar de dos o más envíos diferentes, los archivos se mantendrán juntos bajo un mismo identificador. De este modo, también se evita dividir las estadísticas de un artículo entre varios IDs de envío.
 
 Sin embargo, algunos servicios de identificación e indexación recomiendan que las traducciones se traten como elementos separados. Esto también es coherente con la catalogación tradicional, en la que las traducciones se tratan como publicaciones independientes.
 
-Ambas opciones son posibles con el software de PKP: puede incluir galeradas y metadatos en varios idiomas con un solo envío, o crear envíos separados para cada idioma. Elija el que mejor se adapte a sus necesidades y asegúrese de dar instrucciones a los autores en sus directrices de envío.
+Ambas opciones son posibles con los sistemas de PKP: puede incluir galeradas y metadatos en varios idiomas con un solo envío, o crear envíos separados para cada idioma. Elija la opción que mejor se adapte a sus necesidades y asegúrese de dar instrucciones a los autores en sus directrices de envío.
 
 ## Gestión de metadatos multilingües
 
@@ -23,11 +23,11 @@ Ambas opciones son posibles con el software de PKP: puede incluir galeradas y me
 
 Algunas revistas multilingües pueden publicar artículos con metadatos en varios idiomas sin un artículo traducido que los acompañe.
 
-Esto puede ser útil para el descubrimiento, especialmente para revistas y artículos en idiomas distintos del inglés—a menudo se pasan por alto investigaciones valiosas cuando se publican en idiomas distintos del inglés. También puede ser útil para los investigadores que intentan determinar si vale la pena invertir su tiempo en solicitar una traducción o utilizar un traductor automático para leer un artículo, sobre todo en campos y temas en los que la investigación es escasa.
+Esto puede ser útil para su visibilidad, especialmente para revistas y artículos en idiomas distintos del inglés—a menudo se pasan por alto investigaciones valiosas cuando se publican en idiomas distintos del inglés. También puede ser útil para los investigadores que intentan determinar si vale la pena invertir su tiempo en solicitar una traducción o utilizar un traductor automático para leer un artículo, sobre todo en campos y temas en los que la investigación es escasa.
 
 Al mismo tiempo, puede resultar frustrante para los lectores encontrar metadatos traducidos sólo para descubrir que el contenido real no está disponible en ese idioma. También puede hacer que su contenido no sea indexado correctamente o no se indexe en absoluto, especialmente por parte de los servicios de indexación y descubrimiento que tienen expectativas estrictas sobre la coherencia de los metadatos y el idioma de los artículos.
 
-Le recomendamos que tenga en cuenta estos pros y contras e investigue los requisitos de los servicios de indexación y resumen antes de proporcionar resúmenes traducidos u otros metadatos sin traducir el contenido del manuscrito. Decida si va a solicitar traducciones completas o parciales de los envíos y aclárelo en sus directrices de envío.
+Le recomendamos que tenga en cuenta estos pros y contras e investigue los requisitos de los diferentes servicios de indexación antes de proporcionar resúmenes traducidos u otros metadatos sin haber traducido el contenido del manuscrito. Decida si va a solicitar traducciones completas o parciales de los envíos y aclárelo en sus directrices de envío.
 
 ### Precisión de los metadatos & prácticas recomendadas
 
@@ -53,4 +53,4 @@ El flujo de trabajo de traducción puede variar en cada revista, pero los traduc
 
 ### Dar crédito a los traductores en el sistema PKP
 
-En la versión actual de OJS, OMP y OPS, los traductores pueden ser acreditados dentro de los metadatos para todo el artículo (todos los idiomas) y aparecerán como Colaboradores (no explícitamente como traductores). Aunque en los sistemas de PKP se les puede asignar la función de traductor, al momento de exportar los metadatos (por ejemplo, para CrossRef, DOAJ, etc.) se elimina esta distinción. Como parte de las políticas de su revista, aclare la relación contractual con su traductor y autor en lo que respecta a la atribución. Alternativamente, se puede dar crédito a los traductores en la galerada de la versión en la que trabajaron y no incluirlos en los metadatos del artículo completo. El sistema de PKP puede comportarse de forma diferente si el Plugin CRediT está activado.
+En la versión actual de OJS, OMP y OPS, los usuarios con el rol de traductor pueden tener crédito por su trabajo y ser reconocidos dentro de los metadatos para todo el artículo (todos los idiomas) y aparecerán como Colaboradores (no explícitamente como traductores). Aunque en los sistemas de PKP se les puede asignar el rol de traductor, al momento de exportar los metadatos (por ejemplo, para CrossRef, DOAJ, etc.) se elimina esta distinción. Como parte de las políticas de su revista, aclare la relación contractual con su traductor y autor en lo que respecta a la atribución. Alternativamente, se puede dar crédito a los traductores en la galerada de la versión en la que trabajaron y no incluirlos en los metadatos del artículo completo. El sistema de PKP puede comportarse de forma diferente si el Plugin CRediT está activado.
