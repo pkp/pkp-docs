@@ -33,7 +33,7 @@ Le recomendamos que tenga en cuenta estos pros y contras e investigue los requis
 
 Lo más importante que puede hacer para que sus contenidos multilingües sean localizables es asegurarse de que sus metadatos (por ejemplo, título del artículo, colaboradores, datos del número) estén completos y que se añadan a los campos de idioma correctos.
 
-A continuación se ofrecen algunos consejos básicos sobre la precisión de los metadatos multilingües. Para más información, consulte la guía de Coalition Publica y PKP [Mejores prácticas para los metadatos de las revistas (disponible en inglés)](https://docs.pkp.sfu.ca/metadata-practices/en/) para obtener recomendaciones detalladas.
+A continuación se ofrecen algunos consejos básicos sobre la exactitud de los metadatos multilingües. Para más información, consulte la guía de Coalition Publica y PKP [Mejores prácticas para los metadatos de las revistas (disponible en inglés)](https://docs.pkp.sfu.ca/metadata-practices/en/) para obtener recomendaciones detalladas.
 
 -   **Utilice los campos de idioma adecuados**: Introduzca los metadatos en el campo específico del idioma (por ejemplo, si las palabras clave están en francés, introdúzcalas en el campo de idioma francés, no en el campo de idioma inglés). Los metadatos deben colocarse siempre en el campo del idioma correspondiente, aunque el artículo o el número estén en un solo idioma.
 -   **Evite mezclar idiomas en un mismo campo**: Evite utilizar diferentes idiomas en el mismo campo. Por ejemplo, en lugar de "Título del artículo / Article Title", separe el texto en diferentes idiomas, cada texto en su respectivo campo de acuerdo a su idioma.
@@ -47,7 +47,7 @@ Las revistas pueden publicar su propia versión traducida de los artículos cuan
 
 Para integrar a los traductores en el flujo de trabajo editorial, estos deben ser usuarios registrados con el rol de traductor. Puedes aprender a registrar usuarios, editar usuarios y roles en nuestra [Guía de aprendizaje de OJS](https://docs.pkp.sfu.ca/learning-ojs/3.1/es/users-and-roles).
 
-Una vez que el usuario tiene el rol adecuado, el editor encargado del envío puede añadirlo a la lista de participantes en una de las fases del flujo de trabajo, normalmente las fases de corrección o producción.
+Una vez que el usuario tiene el rol de traductor, el editor encargado del envío puede añadirlo a la lista de participantes en una de las fases del flujo de trabajo, normalmente las fases de corrección o producción.
 
 El flujo de trabajo de traducción puede variar en cada revista, pero los traductores seguirán pasos similares a los de [los correctores](https://docs.pkp.sfu.ca/learning-ojs/3.1/es/editorial-workflow#corrector) para completar su trabajo en el envío.
 
