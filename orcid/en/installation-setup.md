@@ -81,7 +81,12 @@ When you register for ORCID API credentials, you will need to enter at least one
 
 The host option allows any URI under that host to be used as a Redirect URI. In multiple journal instances, make sure you choose the base url of your domain and not individual journals to avoid redirect errors. For individual journals it is important to use the journal path (typically something like “index.php/testJournal”, without any trailing information, as per above). Any additional information in the URI will cause the redirect to not work.
 
-For more detail on Redirect URIs, see the ORCID support page for [Public APIs](https://support.orcid.org/hc/en-us/articles/360006897174-Register-a-public-API-client-application) and [Member APIs](https://support.orcid.org/hc/en-us/articles/360006973913), respectively, and the [Redirect URI thread on PKP Forum](https://forum.pkp.sfu.ca/t/orcid-oauth2-redirect-uris-or-callback-urls-for-ojs).
+If a URI needs to be updated, or new one(s) added:
+
+* Members can contact the ORCID Engagement Team or fill out a [Member API form](https://info.orcid.org/register-a-client-application-production-member-api/)
+* Public API users can follow [these steps update the list of redirect URIs](https://info.orcid.org/ufaqs/how-do-redirect-uris-work/)
+
+For more detail on Redirect URIs, see the ORCID support page for [Public APIs](https://info.orcid.org/documentation/integration-guide/registering-a-public-api-client/) and [Member APIs](https://info.orcid.org/documentation/integration-guide/registering-a-member-api-client), respectively.
 
 **Please note**: When registering to receive Member API credentials, organizations are required to indicate the "Client Name" along with the Redirect URI(s). When working with multiple journals as part of an OJS instance, the Client Name used must be broad enough to serve as a source for all of the journals hosted on its instance(s), as the Client Name is what will appear as the "source" of data when a work from OJS is written to an ORCID record (e.g. “ABC University journal hosting service”). However, if you plan to install only one journal in your domain and use ORCID for that journal, then the Client Name can be indicated as the name of the journal.
 
