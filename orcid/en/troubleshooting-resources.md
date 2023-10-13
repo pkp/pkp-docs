@@ -22,6 +22,10 @@ Ensure  that your ORCID plugin is actually configured and not just enabled; don'
 
 Check to ensure that authors are using the current link and not a previous link from the sandbox. If you are on OJS 3.2 it may also be this bug in ORCID email template for authors - [https://github.com/pkp/orcidProfile/issues/122](https://github.com/pkp/orcidProfile/issues/122) (which is resolved in 3.2-1-3 and 3.3)
 
+## Author sent to authenticate at ORCID cannot do so, due to integration error
+
+Redirect URIs are used by ORCID's authentication service as a security measure. This prevents services from impersonating each other. You must register all redirect URIs: [see instructions to update or request new redirect URI(s)](https://docs.pkp.sfu.ca/orcid/en/installation-setup#orcid-redirect-uris).
+
 ## Videos
 
 - OJS and ORCID introduction: [https://www.youtube.com/watch?v=YgJw9HW-JEg](https://www.youtube.com/watch?v=YgJw9HW-JEg )
