@@ -190,7 +190,7 @@ The identifier must correspond to that of the [URI (Uniform Resource Identifier)
 
 ### Editing your OAI repository identifier
 
-This identifier can be configured within the `config.inc.php` file in your OJS installation directory and can be edited directly. It is found under the `[oai]` section of the config file and should be added after `repository_id = `. Avoid editing your repository identifier unnecessarily, but if you do, particularly if there is already a journal on your instance participating in Coalition Publica, please email info@coalition-publi.ca before doing so. 
+This identifier can be configured within the `config.inc.php` file in your OJS installation directory and can be edited directly. It is found under the `[oai]` section of the config file and should be added after `repository_id = `. Avoid editing your repository identifier unnecessarily, but if you must,  please email info@coalition-publi.ca before doing so, particularly if there is already a journal on your instance participating in Coalition Publica.
 
 
 ### Step 3. Ensure that you have entered an API key secret
