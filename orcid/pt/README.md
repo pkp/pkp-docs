@@ -1,6 +1,6 @@
-- - -
+---
 title: Guia de plugins ORCID para o OJS e OPS: Um guia sobre como configurar e utilizar o plugin ORCID em Open Journal Systems e Open Monograph Press.
-- - -
+---
 
 # Apresentação: Guia de Plugins ORCID
 
