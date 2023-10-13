@@ -1,5 +1,5 @@
 ---
-title:'Criando Conteúdo Acessível
+title:Criando Conteúdo Acessível
 description: Um guia para editores de jornais e autores' descrição: um guia para editores de periódicos e autores preparem conteúdos acessíveis para submissão e publicação.
 ---
 
