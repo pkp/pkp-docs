@@ -7,7 +7,7 @@ title: Learning Open Journal Systems 3.4 - Distribution Settings
 
 # Distribution Settings
 
-The Distribution Settings focus on access to and visibility of your journal. The tabs consist of License, Search Indexing, Payments, Access, and Archiving.
+The Distribution Settings focus on access to and visibility of your journal. The tabs consist of License, DOIs, Search Indexing, Payments, Access, and Archiving.
 
 Please note that if your journal is multilingual and you have Forms enabled for multiple languages in the language settings, you will have to configure some of this information for each language. You can switch to another languages by selecting the language under the Help link on the top right.
 
@@ -36,9 +36,18 @@ This default can be overridden on a case-by-case basis.
 **License Terms**: Enter any additional license terms you would like to display alongside the license selected above on the published article page.
 
 ## DOIs 
-In this section you can configure the settings to assign and register Digital Object Identifiers (DOIs) for your journal’s content. 
 
-DOIs help ensure that links to your journal's content will always resolve. To learn more about DOIs and DOI Registration Agencies, see PKPs documentation on [Digital Object Identifiers](https://docs.pkp.sfu.ca/doi-plugin/en/chapter1).
+You may wish to register Digital Object Identifiers (DOIs) in order to ensure that links to your journal's content will always resolve. To learn more about DOIs and DOI Registration Agencies, see PKP's documentation on [Digital Object Identifiers](https://docs.pkp.sfu.ca/doi-plugin/en/chapter1).
+
+If you wish to assign DOIs to your content that are globally resolvable, you must first establish a membership with a DOI registration agency such as Crossref, DataCite, or mEDRA. Such memberships generally incur fees, but PKP may be able to [sponsor you for a Crossref membership](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/pkpsponsor).
+
+Version 3.4 of OJS centralizes DOI management and treats it as a core function of the software, so the [DOI Plugin](https://docs.pkp.sfu.ca/doi-plugin/en/) is no longer necessary.
+
+Once you have established a membership with a DOI registration agency, you can install either the Crossref Manager Plugin or the DataCite Manager Plugin to help you manage DOIs. 
+
+
+### Setup 
+In this section you can configure the settings to assign and register Digital Object Identifiers (DOIs) for your journal’s content. 
 
 ![Distribution settings DOIs tab showing DOIs, Items with DOIs, DOI Prefix, Automatic DOI Assignment, and DOI Format options.](./assets/learning-ojs3.4-jm-settings-dist-dois.png)
 
@@ -51,6 +60,12 @@ DOIs help ensure that links to your journal's content will always resolve. To le
 **Automatic DOI Assignment**: Choose whether to have a DOI automatically assigned to your content when it reaches the copyediting stage, upon publication, or never. 
 
 **DOI Format**: Choose whether to have OJS generate a DOI suffix for you automatically, whether to enter each individual DOI suffix yourself, or whether to specify a custom pattern (not recommended). 
+
+### Registration
+
+To use the features in this section, you must first install and configure at least one plugin associated with your DOI registration agency, such as the Crossref Manager plugin or the DataCite Manager plugin. Once you have installed and configured the plugin for your registrar, you can enter choose your DOI registrat and member credentials on this screen.
+
+![Distribution settings DOI Registration tab showing option to choose DOI registrar and enter credentials.](./assets/learning-ojs3.4-jm-settings-dist-doi-registration.png)
 
 ## Search Indexing
 
