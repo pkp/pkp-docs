@@ -33,7 +33,7 @@ Click the “Install” button to install the plugin. (If you do not see the “
 
 You should see a confirmation of installation:
 
-![Notification: Successfully upgraded to version 1.0.1.0.](./assets/oaiJatsPluginNotification.png)
+![Notification: Successfully upgraded to version 1.0.1.0.](./assets/JatsPluginNotification.png)
 
 Next, you’ll need to ensure that there is no newer version of the plugin available. 
 
@@ -182,16 +182,15 @@ In addition to configuring your OJS for Coalition Publica, this step will also h
 
 ### Step 2: Configure Your OAI Namespace Identifier
 
-Each OJS installation must have a globally unique OAI repository identifier/namespace.
+Each OJS installation must have a globally unique OAI repository identifier/namespace. The identifier is configured on installation, and after that it is stored in the config.inc.php configuration file.
 
-A placeholder (`ojs.pkp.sfu.ca`) is set by default when OJS is first installed, but before making use of the OAI PMH interface, this must be changed. 
 ### Choosing a unique repository identifier
 Your OAI repository identifier must be globally unique to your OJS installation. A common choice is the top-level portion of the OJS installation URL. For example, if your OJS installation's URL is `https://journals.library.example.com`, you could use `journals.library.example.com` as your identifier.
 The identifier must correspond to that of the [URI (Uniform Resource Identifier)](https://www.ietf.org/rfc/rfc2396.txt?number=2396) syntax. Notably any of the reserved characters from section 2.2 cannot be used, including: `;`, `/`, `?`, `:`, `@`, `&`, `=`, `+`, `$`, or `,`.
 
 ### Editing your OAI repository identifier
-This identifier can be configured within the `config.inc.php` file in your OJS installation directory and must be edited directly.
-It is found under the `[oai]` section of the config file and should be added after `repository_id = `. If you have not edited this previously, this line will have `repository_id = ojs.pkp.sfu.ca`. In this case, `ojs.pkp.sfu.ca` should be replaced with your unique identifier.
+
+This identifier can be configured within the `config.inc.php` file in your OJS installation directory and can be edited directly. It is found under the `[oai]` section of the config file and should be added after `repository_id = `. Avoid editing your repository identifier unnecessarily, but if you must,  please email info@coalition-publi.ca before doing so, particularly if there is already a journal on your instance participating in Coalition Publica.
 
 
 ### Step 3. Ensure that you have entered an API key secret

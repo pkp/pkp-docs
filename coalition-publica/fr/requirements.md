@@ -3,7 +3,7 @@ noindex: true
 ---
 # Requis techniques
 
-En premier lieu, vous devez opérer une instance **Open Journal Systems [version de soutien à long terme (Long-term Support)] (https://pkp.sfu.ca/software/ojs/download/) ou plus récente**. Si vous ne connaissez pas la version de votre instance OJS, voir [*How do I determine my PKP software’s version?*](https://forum.pkp.sfu.ca/t/how-do-i-determine-my-pkp-softwares-version/28534/2) (documentation en anglais) ou contactez-nous pour plus de détails.
+En premier lieu, vous devez opérer une instance **Open Journal Systems [version de soutien à long terme (Long-term Support)](https://pkp.sfu.ca/software/ojs/download/) ou plus récente**. Si vous ne connaissez pas la version de votre instance OJS, voir [*How do I determine my PKP software’s version?*](https://forum.pkp.sfu.ca/t/how-do-i-determine-my-pkp-softwares-version/28534/2) (documentation en anglais) ou contactez-nous pour plus de détails.
 
 Certaines étapes de ce guide exigent que vous puissiez accéder à OJS en tant qu'administrateur de site, d'autres peuvent être accomplies en tant que gestionnaire de revue, tandis que d'autres nécessitent l'accès aux fichiers de configuration en tant qu'administrateur de système. 
 

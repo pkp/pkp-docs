@@ -192,17 +192,15 @@ En plus de configurer votre OJS pour Coalition Publica, cela permettra à OJS d�
 
 ## Étape 2. Configurez l’identifiant d’espace de nom de votre OAI
 
-Le dépôt OAI de chaque instance OJS doit être configuré afin d’avoir un identifiant d’espace de nom (un *namespace-identifier* selon la syntaxe OAI-PMH) unique. 
-
-Un identifiant d’espace de nom générique (“ojs.pkp.sfu.ca”) est défini par défaut lors de la première installation d'OJS, mais avant d'utiliser l'interface OAI PMH, celui-ci doit être modifié. Cette étape nécessite l'aide de votre administrateur système, car elle requiert un accès *back-end* à un fichier qui se trouve sur le serveur sur lequel l’instance OJS est installée.
+Le dépôt OAI de chaque instance OJS doit être configuré afin d’avoir un identifiant d’espace de nom (un *namespace-identifier* selon la syntaxe OAI-PMH) unique. L'identifiant est configuré lors de l'installation, et se trouve par la suite dans le fichier de configuration config.inc.php.
 
 ### Choisir un identifiant unique pour le dépôt OAI
 L’identifiant d’espace de nom de votre dépôt OAI doit être unique au sein de l’instance OJS sur laquelle votre revue est hébergée. Un choix logique consiste à utiliser la partie de premier niveau de l’URL de l’instance OJS. Par exemple, si l’URL est “https://revues.bibliotheque.exemple.com”, vous pouvez utiliser “revues.bibliotheque.exemple.com” comme identifiant de nommage. 
 L’identifiant d’espace de nom que vous utilisez doit respecter la syntaxe [URI (Uniform Resource Identifiers)](https://www.ietf.org/rfc/rfc2396.txt?number=2396). En particulier, tous les caractères réservés de la section 2.2 ne peuvent pas être utilisés : `;`, `/`, `?`, `:`, `@`, `&`, `=`, `+`, `$`, ou `,`.
 
 ### Modifier l'identifiant d’espace de nom de votre dépôt OAI
-L’identifiant d’espace de nom votre dépôt OAI doit être modifié directement dans le fichier `config.inc.php` qui se trouve dans le répertoire de l’instance OJS.
-Il se trouve dans la section `[oai]` du fichier de configuration et doit être ajouté après `repository_id = `. Si vous ne l'avez pas modifié précédemment, le contenu de cette ligne sera `repository_id = ojs.pkp.sfu.ca`. Dans ce cas, `ojs.pkp.sfu.ca` doit être remplacé par votre identifiant d’espace de nom unique.
+
+Cet identifiant peut être configuré dans le fichier config.inc.php dans votre répertoire d'installation OJS et peut être modifié directement. Il se trouve dans la section [oai] du fichier de configuration et doit être ajouté après repository_id = . Évitez de modifier inutilement l'identifiant de votre dépôt, mais si vous devez le modifier, veuillez envoyer un courriel à info@coalition-publi.ca avant de le faire surout s'il y a déjà une revue sur votre instance qui participe à Coalition Publica.
 
 ### Étape 3. S’assurer d’avoir saisi un API key secret
 
