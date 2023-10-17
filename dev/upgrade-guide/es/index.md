@@ -4,15 +4,19 @@ title: Cómo actualizar
 description: Cómo actualizar Open Journal System (OJS) y otras aplicaciones de PKP, con un tutorial paso a paso.
 ---
 
-# Manual de actualización
+# Introducción: Cómo Actualizar
+
+Esta guía te ayudará a actualizar Open Journal Systems (OJS). En ella se describe el conocimiento y las herramientas que necesitarás para actualizar tu sistema y proporciona un tutorial paso a paso.
+
+Las siguientes instrucciones describen cómo actualizar OJS cuando corre cobre una pila LAMP (Linux, Apache, MySQL, PHP). Sin embargo, estos pasos se pueden adaptar tanto para actualizar otras herramientas desarrolladas por PKP (OMP, OPS) como para realizar actualizaciones de instalaciones en otros entornos de servidor.
 
 > ¿Quieres saber cuándo se publican las nuevas versiones y estar al día de las novedades? Lee el [foro de anuncios](https://forum.pkp.sfu.ca/c/announcements/10). 
 > 
 > {:.notice}
 
-Esta guía te ayudará a actualizar Open Journal Systems (OJS). En ella se describe el conocimiento y las herramientas que necesitarás para actualizar tu sistema y proporciona un tutorial paso a paso.
+## Colaboradores
 
-Las siguientes instrucciones describen cómo actualizar OJS cuando corre cobre una pila LAMP (Linux, Apache, MySQL, PHP). Sin embargo, estos pasos se pueden adaptar tanto para actualizar otras herramientas desarrolladas por PKP (OMP, OPS) como para realizar actualizaciones de instalaciones en otros entornos de servidor.
+Autores/as: Marc Bria, Clinton Graham, Kaitlin Newson, Andrea Pritt. Dulip Withanage
 
 ## Conocimentos y herramientas requeridas
 
