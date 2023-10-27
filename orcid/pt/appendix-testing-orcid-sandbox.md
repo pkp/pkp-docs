@@ -1,6 +1,6 @@
----
-title: Testando no ORCID Sandbox - ORCID Plugin Guide para OJS e OPS
----
+- - -
+título: Testando no ORCID Sandbox - ORCID Plugin Guide para OJS e OPS
+- - -
 
 # Apêndice: Testando na Sandbox ORCID
 
