@@ -16,19 +16,19 @@ This section will describe how to install the application in a local development
 > If you are using Windows, you may need to install GNU Patch and add it to your system's `PATH` environment variable.
 {:.notice}
 
-The Admin Guide describes the [system requirements](../../../admin-guide/en/requirements). When running locally, many of the recommended dependencies are not required.
+The Admin Guide describes the [system requirements](../../../admin-guide/en/getting-started#system-requirements). When running locally, many of the recommended dependencies are not required.
 
 ## Install
 
-Fork and clone the [OJS](https://github.com/pkp/ojs), [OMP](https://github.com/pkp/omp), or [OPS](https://github.com/pkp/ops) repository on GitHub. If you're not sure how, read how to [fork and clone a repository](https://help.github.com/en/articles/fork-a-repo) on GitHub.
-
-Once the application is cloned to your local system, navigate to the application's root directory in your terminal and run the following command to check out the submodules.
+Fork and clone the [OJS](https://github.com/pkp/ojs), [OMP](https://github.com/pkp/omp), or [OPS](https://github.com/pkp/ops) repository on GitHub. (Read more about [forking and cloning a repository](https://help.github.com/en/articles/fork-a-repo) on GitHub).
 
 ```
-git submodule update --init --recursive
+git clone https://github.com/pkp/ojs --recurse-submodules -b stable-3_3_0
 ```
 
-Copy the default config file.
+(Use `omp` or `ops` in place of `ojs`, depending on which application you wish to check out. The `stable-3_3_0` part of the command is the branch to check out; make sure to choose the branch you want to develop against. See [Branches](#branches) for more information.)
+
+Next, copy the default config file:
 
 ```
 cp config.TEMPLATE.inc.php config.inc.php
@@ -91,6 +91,11 @@ Published versions of the software can be found in branches in the git repositor
 ```
 git checkout stable-3_3_0
 ```
+
+For any customization work, base your own branches on one of the stable branches. That should make it easier to maintain compatibility with plugins and future updates, and it locks down all dependencies to the versions used at the time of release. This is not true of the `main` branch, introducing the danger of incompatibilities between future versions of those dependencies, preventing successful builds of OJS/OMP/OPS at that point.
+
+> ⚠️  When changing branches, make sure to change submodule branches too.
+{:.warning}
 
 ## Remotes
 

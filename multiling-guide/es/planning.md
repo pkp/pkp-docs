@@ -9,7 +9,7 @@ Piense cuidadosamente en cómo quiere usar y configurar los idiomas cuando use p
 
 En esta sección se describen las posibles formas de utilizar varios idiomas en el flujo de trabajo de publicación y algunos aspectos que deben tenerse en cuenta antes de instalar y configurar OJS, OMP u OPS.
 
-## Consideraciones iniciales
+## Consideraciones iniciales {#considerations}
 
 A continuación se exponen algunas consideraciones que pueden ser importantes para su revista antes de poner en línea por completo su publicación.
 

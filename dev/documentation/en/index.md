@@ -15,7 +15,7 @@ If you are not a coder, please consult our [user documentation](/).
 
 ## What are OJS, OMP and OPS?
 
-[Open Journal Systems](https://pkp.sfu.ca/software/ojs) (OJS), [Open Monograph Press](https://pkp.sfu.ca/software/omp) (OMP), and [Open Preprint Press](https://pkp.sfu.ca/software/ops) (OPS) are open-source platforms for open access scholarly publishing. They provide web-based tools to manage the submission, peer-review, copyediting and publishing of scholarly works. Or, in the case of OPS, the submission, moderation and posting of preprints by scholars.
+[Open Journal Systems](https://pkp.sfu.ca/software/ojs) (OJS), [Open Monograph Press](https://pkp.sfu.ca/software/omp) (OMP), and [Open Preprint Systems](https://pkp.sfu.ca/software/ops) (OPS) are open-source platforms for open access scholarly publishing. They provide web-based tools to manage the submission, peer-review, copyediting and publishing of scholarly works. Or, in the case of OPS, the submission, moderation and posting of preprints by scholars.
 
 These platforms are used to run everything from small, independent presses or journals to large national infrastructures powering hundreds of journals or thousands of preprints.
 

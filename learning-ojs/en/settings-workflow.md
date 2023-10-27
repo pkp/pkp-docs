@@ -48,13 +48,15 @@ Using the links provided, you can change the **Order** of the components \(how t
 
 You can also edit each component by selecting the blue arrow to the left of the component name. This will reveal an Edit link and a Delete link.
 
-![OJS 3.3 component editing menu.](./assets/learning-ojs3.3-jm-settings-workflow-comp-edit.png)
+![OJS 3.4 component editing menu.](./assets/learning-ojs3.4-submissions-component.png)
 
 - **Name**: This is the name of the component, as presented to the author.
 
-- **File Type**: Choose how the files associated with this component will be treated and displayed. Anything that is marked as a Dependent file will not be published.
+- **File Type**: Choose how the files associated with this component will be treated and displayed. Anything that is marked as a Dependent file will not be published. Anything marked as a Supplementary file will be displayed visually differently than the main article galley(s), will not be shown in the issue's Table of Contents, and will not be counted among article galley downloads.
 
 - **File Metadata**: Select the type of metadata that these files may receive. Document should be selected for the main publication files, such as the downloadable PDF, so that these files inherit their metadata from the publication. Otherwise, choose Supplementary Content for most file types. Artwork is appropriate for files which require distinct credit, caption and licensing metadata.
+  
+- **Require with Submission**: Starting in OJS 3.4 it is possible to make a component mandatory for submission. A submitting author will not be able to proceed without uploading at least one file of this type.
 
 - **Key**: Optional short symbol for the component.
 

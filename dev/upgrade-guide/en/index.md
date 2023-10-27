@@ -4,14 +4,19 @@ title: How to Upgrade
 description: How to upgrade Open Journal Systems (OJS) and other PKP software, including a step-by-step tutorial.
 ---
 
-# How to Upgrade
-
-> Want to know when new versions are released and what's new? Read the [announcements forum](https://forum.pkp.sfu.ca/c/announcements/10).
-{:.notice}
+# Introduction: How to Upgrade
 
 This guide will help you upgrade Open Journal Systems (OJS). It describes the knowledge and tools you will need to upgrade your software, and provides a step-by-step tutorial you can follow.
 
 The instructions below describe how to upgrade OJS when it is running on a LAMP (Linux, Apache, MySQL, PHP) stack. However, these steps can be adapted to upgrade other PKP software (OMP, OPS) as well as perform upgrades in different server environments.
+
+> Want to know when new versions are released and what's new? Read the [announcements forum](https://forum.pkp.sfu.ca/c/announcements/10).
+{:.notice}
+
+## Contributors
+
+Authors:
+Marc Bria, Clinton Graham, Kaitlin Newson, Andrea Pritt. Dulip Withanage
 
 ## Required Knowledge and Tools
 

@@ -5,7 +5,7 @@ apps:
     title: Open Journal Systems 3
     titleShort: OJS 3
     includeInHero: true
-    description: Our flagship software for open access journal publishing, used by more than 10,000 journals worldwide.
+    description: Our flagship software for open access journal publishing, used by more than 30,000 journals worldwide.
     cards:
       - path: starting-a-journal
       - path: learning-ojs-3

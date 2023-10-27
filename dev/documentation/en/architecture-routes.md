@@ -51,8 +51,7 @@ The diagram below shows a URL for an [API Handler](architecture-handlers#api-han
 The router will look for a file at `/api/v1/submissions/index.php`, which loads the correct handler.
 
 ```php
-import('api.v1.submissions.SubmissionsHandler');
-return new SubmissionsHandler();
+return new \APP\API\v1\submissions\SubmissionHandler();
 ```
 
 The router will **not** find a file at `/lib/pkp/api/v1/submissions/index.php`.

@@ -9,7 +9,7 @@ Think carefully about how you want to use and set up languages when you first st
 
 This section outlines possible ways to use multiple languages in your publishing workflow and some things to decide before you install and set up OJS, OMP, or OPS.
 
-## Initial considerations
+## Initial considerations {#considerations}
 
 Here are some considerations that may be important for your journal before you fully launch your publication system.
 

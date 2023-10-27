@@ -44,17 +44,45 @@ OJS is easy to install and configure. However, running a web service requires a 
 
 ### Workflow
 
-OJS 3.4 introduces several workflow changes, including a new submission wizard and an improved process for recording editorial decisions.
+OJS 3.4 introduces several workflow changes, including:
 
-![New submission wizard](./assets/learning-ojs3.4-submission-wizard.png)
+**A new and improved submission wizard**
+
+Among other improvements, it is now possible to save/autosave a submission in progress, change a submission language, and make a submission file (component) required.
+
+See the [Making a Submission](./authoring#making-a-submission) section and [Component](./settings-workflow#components) settings for more details.
+
+![OJS 3.4 new submission wizard](./assets/learning-ojs3.4-submission-wizard.png)
+
+**An improved process for recording editorial decisions**
+
+As part of recording an editorial decision, it’s possible to add any email in CC/BCC fields of the author notification, as well as insert other content. A copy of the notification can be sent to reviewers in a separate screen that uses a reviewer-specific email template, maintaining anonymity from authors.
+
+See the [Making the Decision](./editorial-workflow#making-the-decision) section for more details.
 
 ![Editorial decision workflow and new email composition tools](./assets/learning-ojs3.4-editorial-decision.png)
 
-OJS 3.4 introduces new tools for email composition, including the ability to write and select between multiple templates. The editorial decision toolset leverages these new tools, and they will be rolled out to other areas of the system in future releases.
+**An option to cancel a stage or a review round**
 
-For more information on the new editorial decisions workflow, see [slide deck](https://docs.google.com/presentation/d/e/2PACX-1vTpSVv_zY4RShrh3EfBZjHcRSYKVqDkzejDnESh6Bkg7uMgM8zFYZz-ha7j3iz_csTKump2_rI3YNWS/pub#slide=id.g16f0bb3e17f_0_26) and [video recording](https://youtu.be/JEJJ1FVpao0?t=1798).
+It is now possible to cancel an accidentally started review round, unless a reviewer has completed a review. It is also possible to cancel a stage and move the submission to a previous stage, e.g. from Copyediting to Review, with an option to notify the author about this change.
+
+See the [Additional Round of Review](./editorial-workflow#additional-round-of-review) section for more details.
+
+![Review stage with decision options including cancelling a review round.](./assets/learning-ojs3.4-cancel-review-round.png)
+
+**Enhanced email template tools**
+
+OJS 3.4 introduces new tools for email composition, including the ability to write and select between multiple templates. Each email comes with a glossary of available variables that can be inserted using the ‘Insert Content’ button. The values of variables, such as the author's name, can be previewed before the email is sent.
 
 The default set of email templates that is included with OJS has been rewritten to be more inclusive and friendly.
+
+See the [Email Setup](./settings-workflow#email-setup) section for more details.
+
+![OJS 3.4 emails templates.](./assets/learning-ojs3.4-jm-settings-workflow-single-email-templates.png)
+
+The editorial decision toolset leverages these new tools, and they will be rolled out to other areas of the system in future releases.
+
+For more information on the new editorial decisions workflow, see [slide deck](https://docs.google.com/presentation/d/e/2PACX-1vTpSVv_zY4RShrh3EfBZjHcRSYKVqDkzejDnESh6Bkg7uMgM8zFYZz-ha7j3iz_csTKump2_rI3YNWS/pub#slide=id.g16f0bb3e17f_0_26) and [video recording](https://youtu.be/JEJJ1FVpao0?t=1798).
 
 ### Statistics
 
@@ -64,20 +92,25 @@ COUNTER support has been updated to [COUNTER Release 5](https://www.projectcount
 
 ### Persistent Identifiers
 
-DOI and CrossRef support has been comphrehensively rewritten in consultation with CrossRef and to address common sources of confusion with the previous implementation.
+DOI and CrossRef support has been comprehensively rewritten in consultation with CrossRef and to address common sources of confusion with the previous implementation.
 
 (See [slide deck](https://docs.google.com/presentation/d/e/2PACX-1vTpSVv_zY4RShrh3EfBZjHcRSYKVqDkzejDnESh6Bkg7uMgM8zFYZz-ha7j3iz_csTKump2_rI3YNWS/pub#slide=id.g16f0bb3e17f_0_14) and [video recording](https://youtu.be/JEJJ1FVpao0?t=501).)
 
 ### Multi-Journal Installations
 
-Site Administrators now have the same managerial access as Journal Managers regardless of whether they also have that role. This is intended to distinguish more clearly between Site Administrators (who are often system administrators or technical support, but are not active in journal workflow) from Journal Managers (who participate in workflow); in previous releases it was often necessary for administrators to have both roles assigned to be effective. (#7392)[https://github.com/pkp/pkp-lib/issues/7392]
+Site Administrators now have the same managerial access as Journal Managers regardless of whether they also have that role. This is intended to distinguish more clearly between Site Administrators (who are often system administrators or technical support, but are not active in journal workflow) from Journal Managers (who participate in workflow); in previous releases it was often necessary for administrators to have both roles assigned to be effective. [Github issue #7392](https://github.com/pkp/pkp-lib/issues/7392)
 
-Starting with OJS 3.4.0, Journal Managers now have the ability to control user enrolment in their journal regardless of whether the user is active in other journals. In previous releases, it was often necessary to escalate enrolment issues to Site Administrators when a user was active in multiple journals. (#7391)[https://github.com/pkp/pkp-lib/issues/7391]
+Starting with OJS 3.4.0, Journal Managers now have the ability to control user enrolment in their journal regardless of whether the user is active in other journals. In previous releases, it was often necessary to escalate enrolment issues to Site Administrators when a user was active in multiple journals. [Github issue #7391](https://github.com/pkp/pkp-lib/issues/7391)
+
+### Submission title formatting
+
+Submission titles can now contain limited formatting, including bold, italic, underline, superscript and subscript. This is particularly important for articles referencing taxonomical names (which are typically formatted in italics) and for review articles (which may reference the reviewed resource by underlined title). [Github issue #2564]([https://github.com/pkp/pkp-lib/issues/2564](https://github.com/pkp/pkp-lib/issues/2564))
 
 ### Other Notable Changes
 
-- Submission titles can now contain limited formatting. This is particuarly important for articles referencing taxonomical names (which are typically formatted in italics) and for review articles (which may reference the reviewed resource by underlined title). (#2564)[https://github.com/pkp/pkp-lib/issues/2564]
-- The submission full-text index is no longer updated at the moment the user performs a new upload. In previous releases this was a frequent source of frustration and the update process could be time-consuming.=
+* The submission full-text index is no longer updated at the moment the user performs a new upload. In previous releases this was a frequent source of frustration and the update process could be time-consuming.
+* Data availability statement can now be enabled as one of the metadata fields.
+* A direct “Unsubscribe” link is now added to system notification emails that support unsubscribing, such as new issue, announcement, discussion notifications, etc.
 
 ### More Information
 

@@ -1,6 +1,6 @@
-- - -
-Como usar o plugin ORCID em OJS e OPS
-- - -
+---
+title: Como usar o plugin ORCID em OJS e OPS
+---
 
 # Sobre o Plugin ORCID
 

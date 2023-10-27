@@ -54,7 +54,7 @@ class TutorialExamplePlugin extends ReportPlugin
 }
 ```
 
-## Blocks
+## Blocks {#blocks}
 
 Block plugins provide content that can be displayed in the sidebar on any page of the public-facing website. They require a template file.
 
@@ -120,7 +120,7 @@ Block plugins can use any HTML code. However, themes provided by PKP expect bloc
 </div>
 ```
 
-## Import/Export
+## Import/Export {#import-export}
 
 > View an [example import/export plugin](https://github.com/pkp/exampleImportExport).
 {:.notice}
@@ -166,7 +166,7 @@ class ExampleImportExportPlugin extends ImportExportPlugin
 }
 ```
 
-## Reports
+## Reports {#reports}
 
 > Reports can return any file format, but they usually generate a CSV file for use in spreadsheet software.
 {:.notice}
@@ -209,11 +209,11 @@ class ExampleReportPlugin extends ReportPlugin
 }
 ```
 
-## Themes
+## Themes {#themes}
 
 Themes control the design and layout of a journal, press or preprint server. Read the [Theming Guide](/pkp-theming-guide/en) to learn how to build your own themes.
 
-## Generic
+## Generic {#generic}
 
 Generic plugins are loaded with every request. They hook into the application early in the [Request Lifecycle](/dev/documentation/en/architecture-request) and can be used to modify almost everything.
 
@@ -252,7 +252,7 @@ class TutorialExamplePlugin extends GenericPlugin
 
 Generic plugins are very powerful and can use any hook in the application. Look at the [examples](./examples) for ideas and learn about the most [common hooks](/dev/documentation/en/utilities-hooks#common-hooks).
 
-## Other
+## Other {#other}
 
 Other plugin categories are not often used. The best way to learn about them is to read the source code of one of the existing plugins. These categories include:
 

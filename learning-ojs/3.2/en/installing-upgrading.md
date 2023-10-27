@@ -14,10 +14,10 @@ Up to date OJS system requirements, as well as installation, upgrade, and config
 
 For those who want to install from source via Git, instructions can be found directly on [GitHub](https://github.com/pkp/ojs).
 
-## Download
+## Download  {#download}
 
 OJS can be downloaded from the [Public Knowledge Project web site](https://pkp.sfu.ca).
 
-## Hosted Solutions
+## Hosted Solutions  {#hosted}
 
 If you do not have the expertise, staff or desire to install and manage OJS on your own, PKP Publishing Services provides complete hosting solutions at a number of price points. For more information, see the [PKP Publishing Services website](https://pkpservices.sfu.ca).

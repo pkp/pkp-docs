@@ -1,0 +1,23 @@
+{% if search %}
+	<div class="search">
+		<style>
+			div#___gcse_0 {
+				display: inline-block;
+				width: 400px;
+			}
+		</style>
+
+		<script>
+			(function() {
+				var cx = '{{ search }}';
+				var gcse = document.createElement('script');
+				gcse.type = 'text/javascript';
+				gcse.async = true;
+				gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//cse.google.com/cse.js?cx=' + cx;
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(gcse, s);
+			})();
+		</script>
+		<gcse:searchbox-only></gcse:searchbox-only>
+	</div>
+{% endif %}

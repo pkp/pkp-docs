@@ -64,7 +64,7 @@ By default, scripts and styles are loaded on the reader-facing website. Pass a `
 $templateMgr->addStyleSheet(
   'tutorialExampleStyles',
   $url,
-  ['context' => 'backend']
+  ['contexts' => 'backend']
 );
 ```
 
@@ -75,7 +75,7 @@ You can pass more than one context to load them in two places.
 $templateMgr->addStyleSheet(
   'tutorialExampleStyles',
   $url,
-  ['context' => ['backend', 'frontend']
+  ['contexts' => ['backend', 'frontend']
 );
 ```
 
