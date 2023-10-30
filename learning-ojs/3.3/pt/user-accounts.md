@@ -79,10 +79,10 @@ Recuperar sua senha é um processo de três passos:
 
 Primeiro você precisa solicitar uma nova senha:
 
-1. Clique no link de **Login** , no canto superior direito da barra de navegação;
-2. Clique no link **Esqueci a senha**, na página seguinte;
+1. Clique no link de **Acesso** , no canto superior direito da barra de navegação;
+2. Clique no link **Esqueceu a senha**, na página seguinte;
 3. Insira seu endereço de e-mail;
-4. Clique em **Alterar senha**
+4. Clique em **Redefinir senha**
 
 Em seguida, você deve verificar sua conta de e-mail e confirmar sua solicitação:
 
