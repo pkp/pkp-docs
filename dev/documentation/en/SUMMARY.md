@@ -40,4 +40,6 @@
   * [Statistics](./statistics)
   * [Statistics (Editorial)](./statistics-editorial)
   * [Submission Files](./submission-files)
+* [Learning Exercises](./exercises/)
+* [Code Reviews](./codereviews)
 * [Resources](./resources)
