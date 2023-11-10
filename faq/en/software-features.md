@@ -30,7 +30,7 @@ There are many impressive journals and presses using our software around the wor
 
 ## Can I use OJS for the submission workflow only?
 
-Yes, you can use all of the backend submission workflow management tools of OJS and publish your content on a different website.  However, it will mean you miss out on some of OJS' features, such as easy discoverability of your metadata by Google Scholar and other indexing services and integrations with external services such as CrossRef, ORCID, and reference management tools.
+Yes, you can use all of the backend submission workflow management tools of OJS and publish your content on a different website.  However, it will mean you miss out on some of OJS' features, such as easy discoverability of your metadata by Google Scholar and other indexing services and integrations with external services such as Crossref, ORCID, and reference management tools.
 
 More information on [using OJS for the submission workflow only](https://docs.pkp.sfu.ca/journal-policies-workflows/en/alternative-uses#using-ojs-for-submission-workflow-only) is available in our Journal Policies and Workflows guide.
 

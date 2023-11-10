@@ -14,4 +14,4 @@ There are a few tools for the OJS system:
 - PKP Docs: [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/)
 - The PKP [community forum](https://forum.pkp.sfu.ca/)
 
-OJS comes with plugins that support theme customization, social media sharing, usage statistics, and more. Additionally, OJS has collaborated with CrossRef, an organization dedicated to making scholarly communication better by using metadata to “find, cite, link, and assess” content (crossref.org). There is a plugin and [documentation on using CrossRef with OJS](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
+OJS comes with plugins that support theme customization, social media sharing, usage statistics, and more. Additionally, OJS has collaborated with Crossref, an organization dedicated to making scholarly communication better by using metadata to “find, cite, link, and assess” content (crossref.org). There is a plugin and [documentation on using Crossref with OJS](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).

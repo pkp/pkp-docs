@@ -52,7 +52,7 @@ If migrating to a platform other than OJS, you may wish to investigate what form
 
 ## Forwarding URL
 
-If your journal changes names or you have the need for a change of domain name (e.g., change from journalxyz.com to journalabc.com), ensure that you set up domain forwarding with your old domain name to your new one. If your journal uses DOIs, you will need to redeposit/update the DOI metadata with CrossRef to ensure that they point to the updated URLs for articles.
+If your journal changes names or you have the need for a change of domain name (e.g., change from journalxyz.com to journalabc.com), ensure that you set up domain forwarding with your old domain name to your new one. If your journal uses DOIs, you will need to redeposit/update the DOI metadata with Crossref to ensure that they point to the updated URLs for articles.
 
 ## Archiving options
 

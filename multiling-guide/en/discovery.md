@@ -39,7 +39,7 @@ Journals are indexed in the original publication language. The indexing language
 
 ### Crossref
 
-When the metadata is exported for deposit in CrossRef, the DOI registered by OJS, OMP, and OPS adopts the submission primary language.
+When the metadata is exported for deposit in Crossref, the DOI registered by OJS, OMP, and OPS adopts the submission primary language.
 
 If the journal submits galley files in multiple languages, they can make a stand-alone component deposit for each of them. For more information, visit [Crossref’s documentation](https://www.crossref.org/documentation/content-registration/structural-metadata/components/).  
 

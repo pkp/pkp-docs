@@ -71,7 +71,7 @@ DOI (Digital Object Identifier) is a number sequence used to uniquely identify a
 
 DOIs provide stable links to digital journal content: even if an article moves, its DOI should not change. **Having a DOI assigned makes it significantly easier to cite an article and track its usage and citations**.
 
-DOIs are purchased through Registration Authorities such as [CrossRef](https://www.crossref.org/services/content-registration/), [DataCite](https://datacite.org/dois.html) or [mEDRA](https://www.medra.org/). Check whether your institution/library already has an arrangement with an agency and whether your journal can use this service.
+DOIs are purchased through Registration Authorities such as [Crossref](https://www.crossref.org/services/content-registration/), [DataCite](https://datacite.org/dois.html) or [mEDRA](https://www.medra.org/). Check whether your institution/library already has an arrangement with an agency and whether your journal can use this service.
 
 PKP provides [documentation on how to set up DOIs in OJS](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) and how to use a few related plugins for statistics and citation tracking.
 

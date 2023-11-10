@@ -8,7 +8,7 @@ ISSN is an international organization that assigns unique codes for serial publi
 
 # Register for a DOI
 
-DOIs (Digital Object Identifiers) are unique & persistent identifiers, usually assigned to each piece of content (i.e. an article). You can assign a DOI using an OJS plugin. Then, DOIs must be registered through a DOI registration agency, such as CrossRef, and there is a cost associated with creating DOIs. See [DOI Plugin Guide](​​https://docs.pkp.sfu.ca/doi-plugin/en/).
+DOIs (Digital Object Identifiers) are unique & persistent identifiers, usually assigned to each piece of content (i.e. an article). You can assign a DOI using an OJS plugin. Then, DOIs must be registered through a DOI registration agency, such as Crossref, and there is a cost associated with creating DOIs. See [DOI Plugin Guide](​​https://docs.pkp.sfu.ca/doi-plugin/en/).
 
 # Join the Preservation Network
 

@@ -173,7 +173,7 @@ Para maiores informações sobre o significado das perguntas, consulte [o Guia L
   - ARK
   - Outros
 
-- OJS pode gerar DOIs como parte dos metadados e permitir o depósito desses DOIs diretamente no CrossRef (você **tem** ser membro do CrossRef para registrar os DOIs). Clique em Ferramentas> Importar / Exportar> Plug-in de Exportação CrossRef XML. Para maiores detalhes, leia [o manual Crossref OJS](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
+- OJS pode gerar DOIs como parte dos metadados e permitir o depósito desses DOIs diretamente no Crossref (você **tem** ser membro do Crossref para registrar os DOIs). Clique em Ferramentas> Importar / Exportar> Plug-in de Exportação Crossref XML. Para maiores detalhes, leia [o manual Crossref OJS](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
 
 **29) O periódico fornece ou pretende fornecer metadados em nível de artigo para o DOAJ?** [ **S** ]
 
@@ -375,9 +375,9 @@ Para maiores informações, consulte o [Capítulo 6: Configurações do site](ht
 
 Certifique-se de que os artigos possam ser encontrados mesmo se  as URLs forem alteradas. A forma mais comum de identificador permanente é o Digital Object Identifier [DOI](https://dx.doi.org/) , mas pode-se usar outros para periódicos.
 
-OJS pode gerar DOIs como parte dos metadados e permite o depósito desses DOIs diretamente no CrossRef (você deve ser um membro do CrossRef para registrar os DOIs):
+OJS pode gerar DOIs como parte dos metadados e permite o depósito desses DOIs diretamente no Crossref (você deve ser um membro do Crossref para registrar os DOIs):
 
-Ferramentas > Importar / Exportar > Plugin de Exportação CrossRef XML
+Ferramentas > Importar / Exportar > Plugin de Exportação Crossref XML
 
 Para maiores informações, consulte o [manual Crossref OJS](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/).
 

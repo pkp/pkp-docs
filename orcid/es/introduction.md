@@ -26,7 +26,7 @@ Al integrar ORCID con el OJS/OPS, estarás apoyando las mejores prácticas de pu
 * Permitir a los autores recopilar sus publicaciones en un lugar fiable
 * Distinguir autores de otros con un nombre similar, y mantener un registro actualizado independientemente de los cambios en el nombre o afiliación
 * Demostrar un compromiso con la transparencia y la credibilidad, al atribuir con precisión los autores con sus obras publicadas
-* Apoyar la recopilación de metadatos precisos del artículo, incluyendo la información del autor, al compartir los detalles de la publicación con CrossRef
+* Apoyar la recopilación de metadatos precisos del artículo, incluyendo la información del autor, al compartir los detalles de la publicación con Crossref
 
 ## La API pública y la API de miembros
 

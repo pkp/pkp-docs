@@ -9,7 +9,7 @@ You can find the Crossref Plugin from your dashboard by navigating to **Tools > 
 
 This is the Crossref XML Export Plugin in OJS 3.2+:
 
-![OJS 3 CrossRef XML Export Plugin: settings tab screen.](./assets/crossref3.2-plugin.png)
+![OJS 3 Crossref XML Export Plugin: settings tab screen.](./assets/crossref3.2-plugin.png)
 
 ## Automatic or Manual Deposits
 The Crossref XML Export Plugin can deposit DOIs to Crossref for registration in a variety of ways:
@@ -35,7 +35,7 @@ You can also register your content with Crossref entirely outside of OJS using C
 
 To enable automatic deposits, simply check the box on the settings page.
 
-![OJS 3 CrossRef XML Export plugin settings: checkbox for automatic deposits.](./assets/autoDeposit-02.png)
+![OJS 3 Crossref XML Export plugin settings: checkbox for automatic deposits.](./assets/autoDeposit-02.png)
 
 OJS will deposit assigned DOIs as content in your journal is published. OJS does this at specific timed intervals. If your DOIs do not appear to be registered shortly after publication, you can wait a day to see if they make it through the OJS process and the Crossref queue. You can also check the status of your DOI by clicking the "Articles" tab at the top of the Crossref plugin settings page. You'll see an up-to-date status column on the right of the page.
 
@@ -49,7 +49,7 @@ Manual deposits are always enabled in OJS 3.2+.
    - If you want to deposit specific issues, use the search function in the upper right corner of the plugin window to filter which articles will display.
 4. Scroll to the bottom of the page and click the "*deposit*" button.
 
-![OJS 3 CrossRef XML Export plugin settings: Articles tab screen.](./assets/crossref3.2-exportplugin.png)
+![OJS 3 Crossref XML Export plugin settings: Articles tab screen.](./assets/crossref3.2-exportplugin.png)
 
 *Validate XML* will, when checked, confirm validation of your XML before submission to Crossref. It will inform you of potential submission issues. It is, however, not suitable for large deposits and may time out. It is best used to troubleshoot smaller deposits.
 
