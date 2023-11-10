@@ -425,7 +425,7 @@ Categories can be used to organize your articles into thematic collections. If y
 
 ### Extract and Save References
 
-If you would like to display the article’s bibliographic references on the article page with linked DOIs, and submit the references to Crossref with the rest of the article’s metadata, you can use the “Extract and save references” feature. This feature can only be used if you’re using the DOI plugin and the Crossref plugin to export your metadata to Crossref. The feature will store each reference in the database as a separate reference and add the DOI to the reference on the article page. It will also make it easier for indexing services, such as Google Scholar, identify and index the article’s citations.
+If you would like to display the article’s bibliographic references on the article page with linked DOIs, and submit the references to Crossref with the rest of the article’s metadata, you can use the “Extract and save references” feature. This feature can only be used if you’re using the Crossref plugin to export your metadata to Crossref. The feature will store each reference in the database as a separate reference and add the DOI to the reference on the article page. It will also make it easier for indexing services, such as Google Scholar, identify and index the article’s citations.
 
 The first thing you must do is enable References as a submission metadata field.
 
@@ -443,9 +443,9 @@ Now if you go to a submission record’s **Publication** tab you will see a **Re
 
 Each reference should be on a separate line and you should sure the text you paste into the field is unformatted and has no extra line breaks or spaces. Remove any DOIs in the references if you plan to add them later with the Crossref Reference Linking plugin.
 
-When the article is published, the references will appear on the article page and the references will be submitted to CrossRef.
+When the article is published, the references will appear on the article page and the references will be submitted to Crossref.
 
-After you have exported the article’s metadata to Crossref, you can insert the DOIs for the article references from Crossref if you use the Crossref Reference Linking plugin. Instructions on how to use the plugin are available in the [Crossref Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references).
+After you have exported the article’s metadata to Crossref, you can insert the DOIs for the article references from Crossref if you use the Crossref Reference Linking plugin. Instructions on how to use the plugin are available in the [Crossref Plugin Guide](https://docs.pkp.sfu.ca/Crossref-ojs-manual/en/references).
 
 Once you have the plugin set up and have exported the article's metadata to Crossref, you can insert the DOIs from Crossref back into the references:
 
@@ -644,7 +644,9 @@ The article URL will always point to the most recent version, with earlier versi
 
 ### DOIs and Indexing of Versions
 
-Where a DOI was assigned to the original version, it will not be changed automatically. Previously deposited CrossRef metadata will not be automatically updated. If article metadata was changed, we recommend updating CrossRef metadata in the CrossRef XML Export Plugin by manually depositing the updated article. For instructions on how to manually deposit an article see the PKP’s [CrossRef Plugin Guide - Manual Deposits](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits).
+Where a DOI was assigned to the original version, it will not be changed automatically. Previously deposited Crossref metadata will not be automatically updated. If article metadata was changed, we recommend updating the metadata with your DOI registration agency. 
+
+When you create a new version of an article with new metadata, the article will be shown in the DOIs dashboard with the label "Needs Sync." This means that the metadata on the article in OJS needs to be synced with the metadata stored by your DOI registrar. You will need to redeposit the article with your DOI registrar in order to sync the metadata in OJS with the metadata your DOI registrar has. 
 
 Indexing services and repositories that use OAI to harvest metadata will need to harvest the article metadata again in order to update to the new version.
 
@@ -672,7 +674,7 @@ OJS is currently designed for a traditional publishing model where articles are 
 	 * If you intend to change vol/issue numbering, do not generate a suffix using the default patterns. Choose to generate a custom pattern instead. See [DOI Configuration documentation](https://docs.pkp.sfu.ca/doi-plugin/en/) for more details.
 * After the Current Issue is completed, you may want to rename it according to the standard naming convention (e.g., Volume 2, Issue 5), by going to [Edit Issue](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#edit-issue).
 * If you only changed the Issue Title:
-	* This field is not exported to CrossRef, DOAJ or PubMed, but it is used for DataCite. If you use DataCite, remember to update that record by resubmitting metadata via the DataCite plugin.
+	* This field is not exported to Crossref, DOAJ or PubMed, but it is used for DataCite. If you use DataCite, remember to update that record by resubmitting metadata via the DataCite plugin.
 * If you have enabled [the Citation Style Language plugin](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#citation-style-language-plugin) in your journal, this plugin should be disabled as you will have incorrect citations in the "How to Cite" block on your articles due to changing issue numbers. 
 * Consider using the [article versioning feature](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#versioning-of-articles) to publish the initial Early View version of the article. When the final version is ready, create a New Version and publish it.
 
