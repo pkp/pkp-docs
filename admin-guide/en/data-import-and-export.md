@@ -37,9 +37,9 @@ Before you can import data using this format, you will need to create a XML file
 | Schema | Sample | Description |
 | --- | --- |
 | [native.xsd](https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd) | | Base schema extended by all applications. |
-| [native.xsd](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd) | [export-issues.xml](https://github.com/pkp/ojs/blob/main/cypress/fixtures/export-issues.xml) | Issues and articles in OJS. |
-| [native.xsd](https://github.com/pkp/omp/blob/main/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/omp/blob/main/plugins/importexport/native/sample.xml) | Books in OMP. |
-| [native.xsd](https://github.com/pkp/ops/blob/main/plugins/importexport/native/native.xsd) | N/A | Preprints in OPS. |
+| [native.xsd](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/ojs/stable-3_4_0/mysql/native-export-sample.xml) | Issues and articles in OJS. |
+| [native.xsd](https://github.com/pkp/omp/blob/main/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/omp/stable-3_4_0/mysql/native-export-sample.xml) | Book in OMP. |
+| [native.xsd](https://github.com/pkp/ops/blob/main/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/ops/stable-3_4_0/mysql/native-export-sample.xml) | Preprint in OPS. |
 
 Consider the following when creating your XML import file.
 
