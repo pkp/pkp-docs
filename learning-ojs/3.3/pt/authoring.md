@@ -1,5 +1,5 @@
 ---
-book: learning-ojs
+book: aprendendo o OJS
 version: 3.3
 showPageTOC: true
 title: Aprendendo Open Journal Systems 3.3 - Autoria
