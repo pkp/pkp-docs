@@ -25,7 +25,7 @@ No momento, ela estará vazia, já que você não fez nenhuma submissão.
 
 ## Submissão de um Artigo
 
-Comece uma nova submissão clicando no **Nova submissão** botão localizado no lado direito da tela. Você será direcionado para a Etapa 1 de um processo de 5 etapas, para fazer o upload e descrever o manuscrito submetido.
+Comece uma nova submissão clicando no botão **Nova submissão** localizado no lado direito da tela. Você será direcionado para a Etapa 1 de um processo de 5 etapas, para fazer o upload e descrever o manuscrito submetido.
 
 ![Fila de submissões do autor com o botão de nova submissão](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
@@ -39,7 +39,7 @@ Se a revista permite submissões em múltiplos idiomas, você pode selecionar o 
 
 Se o periódico tiver categorias habilitadas e configuradas, você pode selecionar as categorias de sua submissão da lista. As categorias podem ser configuradas em Configurações da Revista> Categorias.
 
-Selecione a seção apropriada para sua submissão (por exemplo, artigo, revisão, etc.). Se você não tiver certeza de qual seção é apropriada, dê seu melhor palpite.
+Selecione a seção apropriada para sua submissão (por exemplo, artigo, revisão etc). Se você não tiver certeza de qual seção é apropriada, dê seu melhor palpite.
 
 Leia e concorde com as declarações na lista de verificação de envio da submissão marcando cada caixa. Inclua quaisquer comentários para o editor, leia a declaração de privacidade do periódico e clique no botão **Salvar e continuar** para ir à **Etapa 2**.
 
