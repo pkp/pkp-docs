@@ -55,10 +55,10 @@ No OJS 3.3, os autores podem fazer upload de vários arquivos de uma vez, bem co
   <video controls="true" allowfullscreen="true">
     <source src="./assets/submission3.3-files.mp4" type="video/mp4">
   </video>
-  <figcaption>Arraste e solte vários arquivos.</figcaption>
+  <figcaption>OJS 3.3 arraste e solte múltiplos arquivos.</figcaption>
 </figure>
 
-Depois de fazer upload de todos os seus arquivos, você pode indicar o tipo de arquivo para cada um em um único painel de menu. Além disso, metadados como uma descrição ou licença podem ser inseridos durante o fluxo de trabalho.
+Depois de fazer upload de todos os seus arquivos, você pode indicar o tipo de arquivo para cada um em um único painel de menu. Além de metadados como uma descrição ou licença podem ser inseridos durante o fluxo de trabalho.
 
 Depois de terminar de enviar e nomear todos os seus arquivos, clique no **botão Salvar e continuar** para ir à **Etapa 3**.
 
