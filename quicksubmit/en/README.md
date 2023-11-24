@@ -13,6 +13,4 @@ If your content has been previously published with special cases such as with a 
 
 
 ## Contributors
-Mike Nason
-Patricia Mangahis
-
+Mike Nason, Patricia Mangahis, Emily Zhang
