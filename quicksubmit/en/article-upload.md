@@ -8,3 +8,5 @@ Using the QuickSubmit plugin, fill out the publication metadata for the article 
 You may wish to assign your articles to a “future issue” to review before publication. However, doing so will mean that any article added to a future issue will overwrite any dates you’ve entered via the QuickSubmit plugin and *automatically record the current date as the publication date*. 
 
 Repeat Step 4 until you have uploaded all the articles that belong to the issue. 
+
+For more information on using the QuickSubmit plugin, see [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/tools#quick-submit-plugin)
