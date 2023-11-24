@@ -14,6 +14,8 @@ Go to Website > Plugins > Search for the DOI plugin. Enter your prefix and selec
 
 **Please note** : if you are using the DOI plugin to assign DOIs for future content automatically, you may need to toggle these settings back and forth.
 
+![DOI Settings page. A red box around the DOI Prefix number entered in the settings and option to Enter individual DOI suffix for each published item](./assets/quicksubmit-guide-3.3-doi-settings.png)
+
 **Insert existing DOI for each article:** Navigate to submission dashboard by clicking on “'Go to Submission”' when you complete a QuickSubmit, or navigate there using the editorial dashboard/issues dashboard. 
 - Click the “'Publication”' tab. 
 - If you’ve already published it, you will need to “'Unpublish”' the article to add the DOI, so click “'Unpublished”'
@@ -27,11 +29,20 @@ Go to Website > Plugins > Search for the DOI plugin. Enter your prefix and selec
 
 The QuickSubmit plugin will require that at least one Contributor be inputted to save the form.
 
-If an article has been published without a Contributor, you will need to input a placeholder author in order to save the form. Once the Article has been added, go to the Submission.
+![Error message indicating that At least one author is required on the form](./assets/quicksubmit-guide-3.3-no-contributors.png)
+
+If an article has been published without a Contributor, you will need to input a placeholder author in order to save the form. Once the Article has been added, you can go to the Submission.
+
+![Screen showing an article creation was successful. Options to Return to QuickSubmit plugin or Go to Submission below. A red arrow pointing to the option to Go to Submission.](./assets/quicksubmit-guide-3.3-go-submissions.png)
 
 Unpublish the Article 
 
+![Backend Publication tab of an example Published article. A red arrow pointing to the option to Ubpublish the article.](./assets/quicksubmit-guide-3.3-unpublish-article.png)
+
 Go to the Contributors Tab and delete the placeholder author.
+
+![Backend Publication tab of article that was just unpublished. A red arrow pointing to Contributor subtab The additional menu option has been expanded beside the author name. A red arrow pointing to the option to Delete.](./assets/quicksubmit-guide-3.3-delete-contributor.png)
+
 
 Once completed, click Schedule For Publication to republish the Article.
 
@@ -48,6 +59,12 @@ ORCIDs are optional but can be a very useful part of the contributor information
 
 If you already use the [ORCID plugin](https://docs.pkp.sfu.ca/orcid/en/) (recommended option), you should [invite authors to provide ORCID authorization to connect their ORCID iDs to the publication](https://docs.pkp.sfu.ca/orcid/en/using-plugin#editors-can-invite-contributors-to-connect-their-orcid-ids-to-the-publication).  The invitations can be sent when you are filling out the Contributor information. 
 
-You can insert it manually if you are not using the ORCID plugin but still want to include the ORCID iD in the article information.  To avoid typos, copy and paste the ORCID directly from the ORCID iD profile. And please make sure you use HTTPS (not HTTP) to avoid future validation errors. 
+![Window to add Contributor. An orange box around the text See below to request authenticated ORCID ID](./assets/quicksubmit-guide-3.3-orcid-1.png)
+
+
+If you are not using the ORCID plugin, but still want to include the ORCID iD in the article information, you can insert it manually.  Be careful to copy and paste the ORCID directly from the ORCID iD profile to avoid typos. And ensure that you use https (not http), in order to avoid future validation errors.
+
+![Window to add Contributor. An orange box around the ORCID ID box with an ORCID ID](./assets/quicksubmit-guide-3.3-orcid-2.png)
+
 
 
