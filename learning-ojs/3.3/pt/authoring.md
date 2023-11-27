@@ -116,7 +116,7 @@ O envio do arquivo agora está completo! O Editor foi notificado de sua submiss�
 
 Depois de concluir uma submissão, você não pode fazer alterações nela.  Se desejar substituir o arquivo enviado ou fazer outras alterações na submissão, precisará entrar em contato com o Editor por meio da ferramenta de Discussão Pré-revisão.
 
-### Painel
+### Painel de controle
 
 E aqui está a submissão em seu painel. Você pode ver que ela está atualmente no estágio de _Submissão_.
 
