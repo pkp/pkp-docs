@@ -140,7 +140,7 @@ Você poderá fazer alterações em qualquer um dos submenus à esquerda clicand
 
 ![Itens do menu de publicação](./assets/learning-ojs3.2-auth-dashboard-publication2-language.png)
 
-Quando a permissão for concedida, você poderá fazer alterações nas seguintes seções na guia Publicação: Título e Resumo, Colaboradores e Metadados. Embora Composição final esteja listada como uma opção no menu lateral, você não poderá fazer upload ou alterações nesta seção.
+Quando a permissão for concedida, você poderá fazer alterações nas seguintes seções na guia Publicação: Título e Resumo, Colaboradores e Metadados. Embora a composição final esteja listada como uma opção no menu lateral, você não poderá fazer upload ou alterações nesta seção.
 
 Se você notar que o botão 'Salvar' está cinza e inativo, isso significa que terá que solicitar permissão do Editor para fazer alterações em sua submissão ou pedir-lhe que faça as alterações para você.
 
