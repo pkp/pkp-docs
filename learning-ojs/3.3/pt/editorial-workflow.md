@@ -1,5 +1,5 @@
 ---
-book: learning-ojs
+book: aprendendo o OJS
 version: 3.3
 showPageTOC: true
 title: Aprendendo Open Journal Systems 3.3 - Fluxo Editorial
@@ -20,11 +20,11 @@ O fluxo de trabalho é dividido em 4 estágios:
 
 Algumas submissões são claramente inadequadas e nunca passam desse estágio.
 
-{% include video.html id="9rx-AahCU10" provider="youtube" title="Video do Fluxo Editorial no OJS 3.3. Módulo 4: Respondendo a uma submissão"%} Módulo 4: Respondendo a uma submissão"%}
+{% include video.html id="9rx-AahCU10" provider="youtube" title="Vídeo do Fluxo Editorial no OJS 3.3. Módulo 4: Respondendo a uma submissão"%}
 
-Este vídeo da Escola do PKP explica os passos que o Editor dá para atribuir uma nova submissão a um Editor de Seção. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+Este vídeo da Escola do PKP explica os passos que o Editor dá para atribuir uma nova submissão a um Editor de Seção. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-**Avaliação**: etapa em que ocorre a avaliação por pares, bem como quaisquer revisões exigidas pelo autor (no caso do autor discordar de alterações propostas pelo(s) avaliador(es), por exemplo).
+**Avaliação**: etapa em que ocorre a avaliação por pares, bem como quaisquer revisões exigidas pelo autor.
 
 Algumas submissões não são aprovadas na avaliação e não passam desse estágio. Aquelas que são aceitas passam para o próximo estágio.
 
@@ -34,7 +34,7 @@ Algumas submissões não são aprovadas na avaliação e não passam desse está
 
 {% include video.html id="-VRKdBQPdn4" provider="youtube" title="Vídeo do Fluxo Editorial no OJS 3.3.  Módulo 9: Editoração."%}
 
-Este vídeo da Escola do PKP explica o estágio de produção. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+Este vídeo da Escola do PKP explica o estágio de produção. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 <hr />
 
@@ -52,7 +52,7 @@ Use a caixa de seleção para marcar tarefas para exclusão (o link está dispon
 
 ## Notificações de submissão
 
-Quando um autor faz uma nova submissão ao seu periódico, o autor e todos os colaboradores receberão um e-mail reconhecendo a sua submissão e um editor receberá automaticamente uma notificação da nova submissão. Em alguns casos, um editor será automaticamente atribuído à submissão. Qual editor (s) recebe a notificação ou é automaticamente atribuído dependerá de como você configurou seu periódco (veja [Editar uma seção](./journal-setup#edit-a-section)).
+Quando um autor faz uma nova submissão ao seu periódico, o autor e todos os colaboradores receberão um e-mail reconhecendo a sua submissão e um editor receberá automaticamente uma notificação da nova submissão. Em alguns casos, um editor será automaticamente atribuído à submissão. Qual(is) editor(es) recebe(m) a notificação ou é automaticamente atribuído dependerá de como você configurou seu periódco (veja [Editar uma seção](./journal-setup#edit-a-section)).
 
 * Se houver apenas um usuário atribuído a um papel de editor ou gerente de periódico, esse usuário será atribuído e notificado automaticamente.
 * Se um ou mais editores de seção forem atribuídos à [seção](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) a qual a submissão foi feita, eles serão automaticamente atribuídos a esta submissão e notificados.
