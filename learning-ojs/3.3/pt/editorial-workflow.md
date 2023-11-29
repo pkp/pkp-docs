@@ -129,7 +129,7 @@ Essa seção inclui uma lista de todas as submissões rejeitadas ou já publicad
 
 ### Submissão de demonstração
 
-Para esta demonstração, estamos procurando a submissão de Williamson e Serletis, intitulada *Os Agentes Oficiais de Conhecimento e Educação de Adultos*. Ela pode ser encontrada no topo de **Fila (Minhas Submissões Designadas)**, bem como em **Ativos**.
+Para esta demonstração, estamos procurando a submissão de Cerpa, intitulada *A Review of Object Oriented Data Concepts and their Implementation*. Ela pode ser encontrada no topo de **Fila (Minhas Submissões Designadas)**, bem como em **Ativos**.
 
 ![A Minha fila Atribuída no painel de Submissões OJS, com o exemplo do artigo da Cerpa no topo da fila.](./assets/learning-ojs3.3-submission-queue.png)
 
