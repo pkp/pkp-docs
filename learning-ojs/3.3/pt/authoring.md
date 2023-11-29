@@ -308,6 +308,6 @@ Clique no link da discussão para abri-lo, ler a mensagem e abrir o arquivo anex
 
 Depois de ler o arquivo anexado, você pode responder ao Editor de Layout, indicando as alterações necessárias ou sua aprovação.
 
-![Respondendo mensagem de Composição pronta para revisão de provas](./assets/learning-ojs-3-au-production-message2.png)
+![Respondendo à mensagem de Composição pronta para revisão de provas](./assets/learning-ojs-3-au-production-message2.png)
 
 É isso! Sua função no fluxo de trabalho editorial agora está concluída.
