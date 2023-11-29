@@ -69,7 +69,7 @@ Para habilitar cópias do e-mail de confirmação de submissão a ser enviado pa
 
 ![As configurações de Notificação de submissão do autor no OJS.](./assets/learning-ojs3.1-configure-submission-notification.png)
 
-Se você quiser desativar os e-mails de Agradecimento pela Submissão, pode fazê-lo, desabilitando o modelo de e-mail na lista de modelos de e-mail. Para saber mais sobre como desabilitar e habilitar modelos de email, consulte *Desabilitar modelos de email*, no [capítulo Configurações de fluxo de trabalho](https://github.com/pkp/pkp-docs/blob/main/learning-ojs/en/settings-workflow).
+Se você quiser desativar os e-mails de confirmação de submissão completamente, você pode fazer isso desabilitando o template de e-mail *Submissão* a partir da lista de modelos de e-mail preparados. Para saber mais sobre como desabilitar e habilitar modelos de email, consulte *Desabilitar modelos de email*, no [capítulo Configurações de fluxo de trabalho](https://github.com/pkp/pkp-docs/blob/main/learning-ojs/en/settings-workflow).
 
 Os usuários também podem alterar suas configurações de notificação individuais em seu próprio perfil, acessando Perfil> Notificações.
 
@@ -87,7 +87,7 @@ A ferramenta **Buscar**, para cada fila, pode, às vezes, ser útil para rastrea
 
 A ferramenta **Filtro** permite limitar sua navegação a um status específico, a fim de se realizar uma pesquisa mais rápida. Dependendo de seu papel, as funções editoriais serão capazes de filtrar:
 
-- **Status**: selecione entre *incompleto*, *atrasado* e *inativo por 30 dias*
+- **Status**: selecionado entre *incompleto*, *atrasado* e *inativo por 30 dias*
 
 - **Estágios**: selecione entre _submissão_, _avaliação_, _edição de texto_ e _editoração_
 
@@ -97,7 +97,7 @@ A ferramenta **Filtro** permite limitar sua navegação a um status específico,
 
 - __Edição atribuída__: apenas gerentes de periódicos podem filtrar por fascículos não publicados, mas editores e assistentes poderão filtrar por fascículos publicados. Esse campo diferencia maiúsculas de minúsculas e requer correspondência exata. Para obter melhores resultados, pesquise por ano ou título, em vez de volume ou número. Esse filtro é usado principalmente se a atribuição de uma submissão a uma edição for feita em uma fase inicial do processo editorial.
 
-Alguns filtros permitem várias seleções. Os usuários podem filtrar por mais de um editor, uma seção ou edição. Os filtros são aplicados com condições OU, portanto, quando um usuário selecionar filtrar pelo Editor A e Editor B, todas as submissões que são atribuídas ao editor A ou ao editor B serão retornadas.
+Alguns filtros permitem várias seleções. Os usuários podem filtrar por mais de um editor, uma seção ou edição. Os filtros são aplicados com condições OU quando um usuário selecionar filtrar pelo Editor A e Editor B, todas as submissões que são atribuídas ao editor A ou ao editor B serão retornadas.
 
 Ao usar vários filtros, a condição E será aplicada entre os filtros. Por exemplo, ao filtrar por Estágio de avaliação E Editor A, apenas as submissões atribuídas ao Editor A no estágio de avaliação serão retornadas.
 
