@@ -150,7 +150,7 @@ Para saber mais, veja [o guia de melhores práticas em metadados de periódicos]
 
 ## Respondendo a uma revisão
 
-{% include video.html id="LR_1BmmSTek" provider="youtube" title="Vídeo sobre Respondendo uma avaliação no OJS"%}
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Vídeo Respondendo uma avaliação no OJS"%}
 Este vídeo da Escola do PKP explica como um editor responde a uma avaliação e como um autor pode fazer upload de revisões. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 Assim que o processo de revisão for concluído, você será notificado por e-mail pelo Editor sobre sua decisão.
@@ -209,7 +209,7 @@ Selecione os usuários que deseja notificar em Participantes.
 
 Adicione uma linha de assunto e uma mensagem.
 
-Clique em **OK**.
+Clique em **OK** para enviar a mensagem.
 
 Um e-mail foi enviado agora ao editor e tanto você quanto ele podem ver a mensagem no painel Revisar Discussões.
 
