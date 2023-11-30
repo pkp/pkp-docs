@@ -135,7 +135,7 @@ Para esta demonstração, estamos procurando a submissão de Cerpa, intitulada *
 
 Após encontrar a submissão, você pode usar o botão visualizar, para ver a submissão, ou usar a seta azul, para revelar opções e ver se há alguma discussão aberta (não há nenhuma neste caso), o número de composições finais criadas e acesso ao registro de atividades e anotações.
 
-![Um envio com o menu de opções expandido.](./assets/learning-ojs3.3-submission-options.png)
+![Uma submissão com o menu de opções expandido.](./assets/learning-ojs3.3-submission-options.png)
 
 O **Log de atividades e anotações** exibe o histórico da submissão.
 
@@ -179,9 +179,9 @@ Para periódicos que usam avaliação anônima, os dados do autor e do avaliador
 
 **Pré-visualização**: mostra como a submissão ficará quando publicada, com seus metadados e arquivos de composição final atuais, clicando em Visualizar.
 
-![learning-ojs-3-ed-preview.png](./assets/learning-ojs-3-ed-preview.png)
+![O recurso de visualização que mostra como um artigo será exibido quando publicado](./assets/learning-ojs-3-ed-preview.png)
 
-**Publicação (Metadados)**: painel onde você pode visualizar e revisar os metadados da submissão. No OJS 3.2 e posterior, os usuários podem receber permissão para revisar determinados metadados de submissão em qualquer estágio do fluxo de trabalho.
+**Metadados**: painel onde você pode visualizar e revisar os metadados da submissão. No OJS 3.2 e posterior, os usuários podem receber permissão para revisar determinados metadados de submissão em qualquer estágio do fluxo de trabalho.
 
 ![A guia Metadados de uma submissão.](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
 
@@ -307,11 +307,11 @@ Na parte inferior desse formulário, você verá opções para:
 
 **Designar usuário existente**: se nenhum dos avaliadores for adequado, você pode inscrever um usuário existente como avaliador.
 
-Para esta demonstração, escolhemos Adela como nosso avaliador e clicamos no botão **Selecionar avaliador**.
+Para esta demonstração, escolhemos Adela como nossa avaliadora e clicamos no botão **Selecionar avaliador**.
 
-Essa ação abrirá uma nova janela.
+Essa ação abrirá uma nova janela com uma mensagem para o Avaliador.
 
-![A tela Adicionar Revisor com o modelo de notificação por e-mail.](./assets/learning-ojs3.1-se-record-revstage-revreq.png)
+![A tela Adicionar Avaliador com o modelo de notificação por e-mail.](./assets/learning-ojs3.1-se-record-revstage-revreq.png)
 
 Você pode editar qualquer texto padrão.
 
