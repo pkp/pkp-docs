@@ -21,7 +21,7 @@ Selecting the Review link will take you to the first review step in the submissi
 
 ![A review request](./assets/learning-ojs-3-rev-step1.png)
 
-This first step consists of the following sections:
+This first step consists of the following few sections:
 
 **Request for Review**: provides some text inviting you to act as a reviewer.
 
