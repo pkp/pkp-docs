@@ -253,7 +253,7 @@ Agora que o Editor de Seção foi designado, ele pode fazer o login e visualizar
 
 Clicar em Visualizar abre o registro de submissão completo.
 
-![learning-ojs3.1-se-record.png](./assets/learning-ojs3.1-se-record.png)
+![Um registro de envio de submissão.](./assets/learning-ojs3.1-se-record.png)
 
 #### Aceitando a designação
 
