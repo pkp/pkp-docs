@@ -28,6 +28,7 @@
   * [Emails](./settings-workflow.md#emails)
 * [Distribution Settings](./settings-distribution.md)
   * [License](./settings-distribution.md#license)
+  * [DOIs](./settings-distribution.md#dois)
   * [Search Indexing](./settings-distribution.md#search-indexing)
   * [Payments](./settings-distribution.md#payments)
   * [Access](./settings-distribution.md#access)
