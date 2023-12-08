@@ -310,7 +310,7 @@ _Institutional archives and publishers’ own online archives are not valid._
 	* Other
 	* The journal does not use persistent article identifiers
 
-OJS can generate DOIs as part of the metadata and allows deposit of those DOIs directly to CrossRef, DataCite, or mEDRA (with respective membership) . See the [DOI Plugin Guide](https://docs.pkp.sfu.ca/doi-plugin/en/) and [the Crossref OJS Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) for more details on how to set up DOIs in OJS.
+OJS can generate DOIs as part of the metadata and allows deposit of those DOIs directly to Crossref, DataCite, or mEDRA (with respective membership) . See the [DOI Plugin Guide](https://docs.pkp.sfu.ca/doi-plugin/en/) and [the Crossref OJS Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) for more details on how to set up DOIs in OJS.
     
 **Does the journal allow for ORCID iDs to be present in article metadata?**
 
@@ -336,7 +336,7 @@ See [Learning OJS: Distribution Settings - Archiving](https://docs.pkp.sfu.ca/le
 
 These ensure articles may continue to be found even when URLs change. The most common form of persistent identifier is the [DOI](https://dx.doi.org/) (Digital Object Identifier), but there may be others in use for a journal.
 
-OJS can generate DOIs as part of the metadata and allows deposit of those DOIs directly to CrossRef, DataCite, or mEDRA (with respective membership) . See the [DOI Plugin Guide](https://docs.pkp.sfu.ca/doi-plugin/en/) and [the Crossref OJS Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) for more details on how to set up DOIs in OJS.
+OJS can generate DOIs as part of the metadata and allows deposit of those DOIs directly to Crossref, DataCite, or mEDRA (with respective membership) . See the [DOI Plugin Guide](https://docs.pkp.sfu.ca/doi-plugin/en/) and [the Crossref OJS Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) for more details on how to set up DOIs in OJS.
 
 ### 3. Metadata supply to DOAJ
 

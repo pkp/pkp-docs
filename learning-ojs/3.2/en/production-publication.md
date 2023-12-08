@@ -435,7 +435,7 @@ Now if you go to a submission record’s **Publication** tab you will see a **Re
 
 Each reference should be on a separate line and you should sure the text you paste into the field is unformatted and has no extra line breaks or spaces. Remove any DOIs in the references if you plan to add them later with the Crossref Reference Linking plugin.
 
-When the article is published, the references will appear on the article page and the references will be submitted to CrossRef.
+When the article is published, the references will appear on the article page and the references will be submitted to Crossref.
 
 After you have exported the article’s metadata to Crossref, you can insert the DOIs for the article references from Crossref if you use the Crossref Reference Linking plugin. Instructions on how to use the plugin are available in the [Crossref Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references).
 
@@ -638,7 +638,7 @@ The article URL will always point to the most recent version, with earlier versi
 
 ### DOIs and Indexing of Versions
 
-Where a DOI was assigned to the original version, it will not be changed automatically. Previously deposited CrossRef metadata will not be automatically updated. If article metadata was changed, we recommend updating CrossRef metadata in the CrossRef XML Export Plugin by manually depositing the updated article. For instructions on how to manually deposit an article see the PKP’s [CrossRef Plugin Guide - Manual Deposits](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits).
+Where a DOI was assigned to the original version, it will not be changed automatically. Previously deposited Crossref metadata will not be automatically updated. If article metadata was changed, we recommend updating Crossref metadata in the Crossref XML Export Plugin by manually depositing the updated article. For instructions on how to manually deposit an article see the PKP’s [Crossref Plugin Guide - Manual Deposits](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits).
 
 Indexing services and repositories that use OAI to harvest metadata will need to harvest the article metadata again in order to update to the new version.
 

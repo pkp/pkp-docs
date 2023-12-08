@@ -92,7 +92,7 @@ COUNTER support has been updated to [COUNTER Release 5](https://www.projectcount
 
 ### Persistent Identifiers
 
-DOI and CrossRef support has been comprehensively rewritten in consultation with CrossRef and to address common sources of confusion with the previous implementation.
+DOI and Crossref support has been comprehensively rewritten in consultation with Crossref and to address common sources of confusion with the previous implementation.
 
 (See [slide deck](https://docs.google.com/presentation/d/e/2PACX-1vTpSVv_zY4RShrh3EfBZjHcRSYKVqDkzejDnESh6Bkg7uMgM8zFYZz-ha7j3iz_csTKump2_rI3YNWS/pub#slide=id.g16f0bb3e17f_0_14) and [video recording](https://youtu.be/JEJJ1FVpao0?t=501).)
 

@@ -428,7 +428,7 @@ Neste momento, se você acessar a aba **Publicação** de um registro de submiss
 
 Cada referência deve estar em uma linha separada e você deve certificar-se de que o texto colado no campo não está formatado e não contém quebras de linha ou espaços extras. Remova quaisquer DOIs nas referências, se você planeja adicioná-los, posteriormente, com o plugin Crossref Reference Linking.
 
-Quando o artigo for publicado, as referências aparecerão na página do artigo e as referências serão submetidas ao CrossRef.
+Quando o artigo for publicado, as referências aparecerão na página do artigo e as referências serão submetidas ao Crossref.
 
 Depois de exportar os metadados do artigo para Crossref, você pode inserir os DOIs para as referências do artigo do Crossref, se usar o plugin Crossref Reference Linking. As instruções sobre como usar o plugin estão disponíveis no [Guia de plugins do Crossref](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references).
 
@@ -631,7 +631,7 @@ A URL do artigo sempre apontará para a versão mais recente, estando as versõe
 
 ### DOIs e indexação de versões
 
-Quando um DOI for atribuído à versão original, ele não será alterado automaticamente. Metadados CrossRef previamente depositados também não serão atualizados automaticamente. Se os metadados do artigo foram alterados, recomendamos atualizar os metadados CrossRef no Plugin de Exportação CrossRef XML, depositando manualmente o artigo atualizado. Para obter instruções sobre como depositar manualmente um artigo, consulte o [CrossRef Plugin Guide - Manual Deposits do PKP](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits).
+Quando um DOI for atribuído à versão original, ele não será alterado automaticamente. Metadados Crossref previamente depositados também não serão atualizados automaticamente. Se os metadados do artigo foram alterados, recomendamos atualizar os metadados Crossref no Plugin de Exportação Crossref XML, depositando manualmente o artigo atualizado. Para obter instruções sobre como depositar manualmente um artigo, consulte o [Crossref Plugin Guide - Manual Deposits do PKP](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits).
 
 Indexandores e repositórios que usam a OAI para a coletar os metadados, precisarão ser atualizados, coletando novamente os metadados do artigo para atualizar para a nova versão.
 
@@ -659,7 +659,7 @@ OJS é atualmente projetado para um modelo de publicação tradicional, em que o
      * Se você pretende alterar a numeração de edições, não gere um sufixo usando os valores padrão. Escolha gerar um padrão personalizado em vez disso. Veja [ documentação de Configuração DOI ](https://docs.pkp.sfu.ca/doi-plugin/en/) para mais detalhes.
 * Depois que a edição atual for concluída, você pode querer renomeá-la de acordo com a convenção de nome padrão (e. g., Volume 2, Edição 5), indo para [Editar](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#edit-issue).
 * Se você mudou apenas o Título da edição:
-    * Este campo não é exportado para CrossRef, DOAJ ou PubMed, mas é usado para DataCite. Se você usar DataCite, lembre-se de atualizar esse registro reenviando metadados através do plugin DataCite.
+    * Este campo não é exportado para Crossref, DOAJ ou PubMed, mas é usado para DataCite. Se você usar DataCite, lembre-se de atualizar esse registro reenviando metadados através do plugin DataCite.
 * Se você ativou [o plugin de Idioma do Estilo de Citação](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#citation-style-language-plugin) no seu diário, este plugin deve ser desativado, pois você terá citações incorretas no bloco "Como Citar" de seus artigos devido à alteração de números de issues.
 * Considere o uso do recurso [recurso de versionamento de artigo](https://docs.pkp.sfu.ca/learning-ojs/en/production-publication#versioning-of-articles) para publicar a versão inicial da visualização antecipada do artigo. Quando a versão final estiver pronta, crie uma Nova Versão e a publique.
 

@@ -44,7 +44,7 @@ Your journal abbreviation should only change if the journal title changes. To cr
 
 ## Journal initials
 
-The journal initials are the initials of the journal title. For example, the Journal of Software Documentation may use the initials JSD. This is a required field because it is used by some metadata export formats, such as CrossRef, which is used for DOI assignment. Journal initials may appear in the default pattern for generating DOIs, and in the journal URL. The initials do not need to be unique to your journal, but they should align with the journal title.
+The journal initials are the initials of the journal title. For example, the Journal of Software Documentation may use the initials JSD. This is a required field because it is used by some metadata export formats, such as Crossref, which is used for DOI assignment. Journal initials may appear in the default pattern for generating DOIs, and in the journal URL. The initials do not need to be unique to your journal, but they should align with the journal title.
 
 ### When journal initials change
 

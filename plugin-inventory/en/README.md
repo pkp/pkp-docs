@@ -181,11 +181,11 @@ Requires Crossref DOIs to be assigned to articles, article references to be sepa
 * [Crossref Reference Linking Plugin guide](/crossref-ojs-manual/en/references)
 * [Crossref Reference Linking Plugin in GitHub](https://github.com/pkp/crossrefReferenceLinking)
 
-### CrossRef XML Export Plugin
+### Crossref XML Export Plugin
 
-Supports the automatic registration of DOIs with CrossRef and the export of XML metadata in Crossref format for manual DOI deposits.
+Supports the automatic registration of DOIs with Crossref and the export of XML metadata in Crossref format for manual DOI deposits.
 
-* [CrossRef XML Export Plugin guide](/crossref-ojs-manual/en/)
+* [Crossref XML Export Plugin guide](/crossref-ojs-manual/en/)
 
 ### Custom Block Manager
 

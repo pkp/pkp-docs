@@ -436,7 +436,7 @@ Maintenant, si vous allez dans l'onglet **Publication** d'un enregistrement de s
 
 Chaque référence doit figurer sur une ligne distincte et vous devez vous assurer que le texte que vous collez dans le champ n'est pas formaté et ne comporte aucun saut de ligne ou espace supplémentaire. Supprimez tous les DOI des références si vous prévoyez de les ajouter plus tard avec le plugiciel de liaison de références Crossref.
 
-Lorsque l'article est publié, les références apparaîtront sur la page de l'article et les références seront soumises à CrossRef.
+Lorsque l'article est publié, les références apparaîtront sur la page de l'article et les références seront soumises à Crossref.
 
 Après avoir exporté les métadonnées de l'article vers Crossref, vous pouvez insérer les DOI pour les références d'article à partir de Crossref si vous utilisez le plugiciel de liaison de références Crossref. Des instructions sur l'utilisation du plugiciel sont disponibles dans le [Guide du plugiciel Crossref](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references) .
 
@@ -639,7 +639,7 @@ L'URL de l'article pointera toujours vers la version la plus récente, les versi
 
 ### DOI et Indexation de Versions
 
-Lorsqu'un DOI a été attribué à la version originale, il ne sera pas modifié automatiquement. Les métadonnées CrossRef précédemment déposées ne seront pas automatiquement mises à jour. Si les métadonnées d'article ont été modifiées, nous vous recommandons de mettre à jour les métadonnées CrossRef dans le plugiciel d'exportation XML CrossRef en déposant manuellement l'article mis à jour. Pour savoir comment déposer manuellement un article, consultez le [Guide du Plugiciel CrossRef - Dépôts Manuels](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits) de PKP.
+Lorsqu'un DOI a été attribué à la version originale, il ne sera pas modifié automatiquement. Les métadonnées Crossref précédemment déposées ne seront pas automatiquement mises à jour. Si les métadonnées d'article ont été modifiées, nous vous recommandons de mettre à jour les métadonnées Crossref dans le plugiciel d'exportation XML Crossref en déposant manuellement l'article mis à jour. Pour savoir comment déposer manuellement un article, consultez le [Guide du Plugiciel Crossref - Dépôts Manuels](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config#manual-deposits) de PKP.
 
 Les services d'indexation et les référentiels qui utilisent OAI pour récolter les métadonnées devront à nouveau récolter les métadonnées de l'article afin de mettre à jour vers la nouvelle version.
 
