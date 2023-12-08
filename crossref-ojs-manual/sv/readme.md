@@ -3,7 +3,7 @@ book: crossref-ojs-manual
 version: 3.2
 ---
 
-# Crossref | OJS 3.2+ Manual
+# Crossref | OJS 3.2/3.3 Manual
 
 [PKP](http://pkp.sfu.ca) och [Crossref](http://www.crossref.org/) fortsätter att samarbeta för att hjälpa utgivare och tidskrifter som använder [Open Journal Systems](https://pkp.sfu.ca/ojs/) att bättre utnyttja Crossrefs tjänster.
 
