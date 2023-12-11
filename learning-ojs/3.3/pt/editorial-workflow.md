@@ -281,7 +281,7 @@ Este vídeo da PKP School explica as etapas que o Editor de Seção leva para at
 
 Quando a submissão entra no Estágio de Avaliação, uma notificação indica que os Avaliadores precisam ser atribuídos.
 
-![O "Aguardando que os revisores sejam atribuídos" notificação.](./assets/learning-ojs3.1-se-record-revstage.png)
+![A notificação "Aguardando que os revisores sejam atribuídos".](./assets/learning-ojs3.1-se-record-revstage.png)
 
 > Nota: Na captura de tela acima, vemos a visualização do Editor de Seção. Observe os botões de ação limitados (apenas Fazer recomendação está disponível). Se estivéssemos logados como Editor, veríamos mais botões de ação (Enviar para avaliação, Aceitar submissão, Rejeitar submissão).
 
@@ -289,7 +289,7 @@ Essa ação abre uma nova janela, onde os avaliadores são listados e podem ser 
 
 Essa ação abrirá uma janela para você selecionar quais arquivos (fornecidos pelo autor) serão incluídos na nova rodada de avaliação.
 
-![A janela Localizar uma janela de Revisor listando todos os Revisores.](./assets/learning-ojs-3.1.2-locate-reviewer.png)
+![A janela Localizar Revisor listando todos os Revisores.](./assets/learning-ojs-3.1.2-locate-reviewer.png)
 
 Clicar na seta azul revela mais informações sobre seu histórico de avaliação, incluindo quantas avaliações ativas estão atualmente atribuídas, quantas avaliações estão concluídas ou foram recusadas, etc. Se o usuário adicionou uma biografia ou avaliação de interesses, essas informações serão exibidas aqui.
 
