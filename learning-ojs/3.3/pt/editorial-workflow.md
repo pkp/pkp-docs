@@ -359,7 +359,7 @@ A avaliação cancelada será registrada nas estatísticas do avaliador, que voc
 
 ![Pedidos cancelados como vistos em estatísticas de um revisor.](./assets/learning-ojs-3.2-cancelled-reviews-tracker.png)
 
-**Discussão da avaliação** : a discussão da avaliação é outra maneira de entrar em contato com um avaliador. Em uma discussão de avaliação, você tem a opção de anexar arquivos.
+**Discussão da avaliação:** a discussão da avaliação é outra maneira de entrar em contato com um avaliador. Em uma discussão de avaliação, você tem a opção de anexar arquivos.
 
 Para iniciar uma discussão, clique em “Adicionar comentário”.
 
@@ -438,7 +438,7 @@ O autor, avaliador e editor podem ver as mensagens entre o avaliador e o autor.
 
 ![Exemplo de comentários do revisor em aberto.](./assets/learning-ojs3.3-ed-rev-open4.png)
 
-Uma vez que as identidades não são secretas, não é necessário seguir passos sob [removendo informações](#removing-identifying-information).
+Uma vez que as identidades não são secretas, não é necessário seguir passos sob [removendo informações de identificação](#removing-identifying-information).
 
 ### Removendo Informações de Identificação
 
@@ -492,11 +492,11 @@ O(s) arquivo(s) aparecerá(ão) no upload inicial. Ao enviar a solicitação de 
 
 ![Opções para alternar quais arquivos estão incluídos para revisão.](./assets/learning-ojs3.1-ed-rev-anon10.png)
 
-Clique em **OK**.
+Selecione o(s) Arquivo(s) de Revisão e clique em **OK**.
 
 ### Solicitar revisões
 
-{% include video.html id="LR_1BmmSTek" provider="youtube" title="Vídeo do Fluxo Editorial no OJS 3.3.  Módulo 7: Respondendo as revisões"%}
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Vídeo do Fluxo Editorial no OJS 3.3. Módulo 7: Respondendo as revisões"%}
 
 Este vídeo da Escola do PKP explica as etapas que o Editor de Seção e o autor tomam assim que as análises estiverem completas. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
@@ -602,7 +602,7 @@ Uma nova rodada será adicionada ao painel Revisão no painel de envio.
 
 Quando estiver pronto para iniciar a nova rodada de avaliação, atribua avaliadores, como fez na rodada anterior. Você pode atribuir os mesmos avaliadores ou avaliadores diferentes.
 
-Os avaliadores das rodadas anteriores não terão acesso aos comentários que fizeram na rodada anterior. Se um avaliador solicitou seus comentários da rodada anterior, o editor pode copiá-los da Rodada 1 - Detalhes da Avaliação e iniciar uma discussão na Rodada 2. Alternativamente, o periódico pode optar por encorajar o envio de Resposta ao Avaliador como parte da reapresentação .
+Os avaliadores das rodadas anteriores não terão acesso aos comentários que fizeram na rodada anterior. Se um avaliador solicitou seus comentários da rodada anterior, o editor pode copiá-los da Rodada 1 - Detalhes da Avaliação e iniciar uma discussão na Rodada 2. Alternativamente, o periódico pode optar por encorajar o envio de Resposta ao Avaliador como parte da resubmissão.
 
 Essas etapas podem ser repetidas até que uma decisão final, de aceitar ou recusar o manuscrito, seja tomada.
 
