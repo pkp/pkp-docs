@@ -397,7 +397,7 @@ No final de uma avaliação, se um avaliador decidir fazer upload de um arquivo 
 
 *Autor*: nenhuma informação de identificação sobre o avaliador ficará visível para o autor na visualização do manuscrito.
 
-![<em x-id="3">Autor</em>: nenhuma informação de identificação sobre o avaliador estará disponível na visualização do manuscrito.](./assets/learning-ojs3.1-ed-rev-anon2.png)
+![Uma amostra do que o autor verá após a análise do envio - nenhuma informação de identificação está incluída.](./assets/learning-ojs3.1-ed-rev-anon2.png)
 
 *Decisão Editorial*: o e-mail de decisão enviado ao(s) autor(es) ao final da avaliação terá títulos genéricos dos avaliadores.
 
@@ -420,7 +420,7 @@ No final de uma avaliação, se um avaliador decidir fazer upload de um arquivo 
 - [Na biblioteca com o Lead Pipe: um acesso aberto, abrir um periódico revisado por pares](https://www.inthelibrarywiththeleadpipe.org/about/)
 - [Intersectional Apocalypse](https://journals.lib.sfu.ca/index.php/ifj/reviewpolicy)
 
-*Avaliador*: O avaliador poderá ver o nome do autor se clicar em "Ver Todos os Detalhes da Submissão" Não precisam de aceitar o pedido de revisão, a fim de visualizar essa informação. O avaliador pode tomar sua decisão sobre se quer revisar um manuscrito, com conhecimento sobre a identidade do autor.
+*Avaliador*: O avaliador poderá ver o nome do autor se clicar em "Ver Todos os Detalhes da Submissão" Não precisam de aceitar o pedido de revisão, a fim de visualizar essa informação. O avaliador pode tomar sua decisão sobre revisar um manuscrito com conhecimento sobre a identidade do autor.
 
 ![Abrir janela da atividade Revisão para editores.](./assets/learning-ojs3.3-ed-rev-open1.png)
 
