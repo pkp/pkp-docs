@@ -650,17 +650,17 @@ Isso abrirá uma nova janela.
 
 Você pode usar o menu suspenso de funções para escolher copiar e apertar o botão **Pesquisar**. Isto irá abrir todos os Revisores.
 
-Com isso, resta esperar que o Editor de Texto faça seu trabalho.
+Selecione um dos Editores de Texto para esta submissão.
 
-O Editor de Texto receberá uma mensagem do Editor de Seção por e-mail, solicitando que ele aceite a submissão.
+Escolha uma mensagem modelo.
 
 Faça as alterações necessárias na mensagem.
 
-Para fazer isso, selecione o botão azul **Enviar para editoração**.
+Clique em **Enviar**.
 
 Agora você pode ver a nova notificação de que a submissão está aguardando edição de cópias, o Editor de Texto está incluído na lista de Participantes e a solicitação está visível na Discussão de Edição de Texto.
 
-![A janela "Aguardando edição" notificação e lista de participantes atualizada.](./assets/learning-ojs-3-ed-copyediting-add-dash.png)
+![A notificação "Aguardando edição" e lista de participantes atualizada.](./assets/learning-ojs-3-ed-copyediting-add-dash.png)
 
 Agora, você deve esperar que o Editor faça seu trabalho.
 
@@ -670,13 +670,13 @@ O Editor de Texto receberá uma mensagem de e-mail do Editor de Seção solicita
 
 Para começar, eles devem fazer login e encontrar o envio em seu painel.
 
-![A fila de envio do editor de texto.](./assets/learning-ojs-3-ce-dash.png)
+![A fila de submissões do editor de texto.](./assets/learning-ojs-3-ce-dash.png)
 
 Em seguida, ele pode clicar no link Edição de texto ao lado do nome da submissão. Isso os levará diretamente ao estágio de edição de texto para esta submissão.
 
 ![A etapa de edição de cópias, como visto por um autor atribuído.](./assets/learning-ojs-3-ce-submission.png)
 
-A partir desse ponto, é possível ver os arquivos para edição de texto. Estes são os arquivos que requerem edição de texto. Ao clicar no título com link será feito o download do arquivo para a área de trabalho.
+A partir desse ponto, é possível ver os arquivos. Estes são os arquivos que requerem edição de texto. Ao clicar no título com link será feito o download do arquivo para a área de trabalho.
 
 Fora do OJS, eles farão o trabalho de edição.
 
@@ -684,13 +684,13 @@ Para verificar os metadados de envio, clique na guia Fluxo de trabalho para a gu
 
 ![A guia Publicação de um registro de artigo com campos de metadados](./assets/learning-ojs-3-ce-copyediting-metadata.png)
 
-Isso incluiria a verificação do título do artigo, resumo, nomes dos colaboradores, palavras-chave, etc.
+Isso incluiria a verificação do título do artigo, resumo, nomes dos colaboradores, palavras-chave etc.
 
 Se alguma alteração for feita, clique no botão **Salvar** antes de sair dessa janela.
 
 Você pode visualizar como a página Resumo ficaria, se publicada com os metadados atuais, clicando no botão Visualizar, na parte superior direita da página.
 
-#### Respostas do autor
+#### Consulte com o autor
 
 Isso incluiria a verificação do título do artigo, resumo, nomes dos colaboradores, palavras-chave, etc. Assim que terminarem a edição de texto, eles executarão as alterações após o Autor, adicionando uma nova discussão, usando o Discussões de Edição de Texto do painel"<em x-id="3>Adicionar discussão</em> link.
 
@@ -698,7 +698,7 @@ Na janela Adicionar discussão, eles devem escolher o autor e adicionar uma linh
 
 ![Adicionar janela de Discussão.](./assets/learning-ojs-3-ce-add-discussion.png)
 
-Mais adiante essa mesma janela, eles devem fazer o carregamento da cópia do arquivo editado.
+Mais adiante dessa mesma janela, eles devem fazer o carregamento da cópia do arquivo editado.
 
 ![A área de carregamento do arquivo da janela Adicionar Discussão.](./assets/learning-ojs-3-ce-add-discussion2.png)
 
