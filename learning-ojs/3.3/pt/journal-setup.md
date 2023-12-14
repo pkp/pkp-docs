@@ -9,7 +9,7 @@ title: Aprendendo Open Journal Systems 3.3 - Configurações do Periódico
 
 A seção Configurações permite que você configure a sua instalação OJS para melhor atender as suas necessidades editoriais.
 
-Você pode encontrar as Configurações no menu esquerdo do Painel quando estiver logado como o usuário com permissãões de Gerente da Revista.
+Você pode encontrar as Configurações no menu esquerdo do Painel quando estiver logado como o usuário com permissões de Gerente da Revista.
 
 ![Visão do painel OJS para gerentes de periódicos com links para o menu Configurações e seus submenus na barra lateral esquerda.](./assets/learning-ojs3.1-jm-settings-journal.png)
 
@@ -23,9 +23,9 @@ Possui guias, usadas para navegar entre as diferentes seções que a constituem:
 
 ## Equipe Editorial
 
-Este vídeo da PKP School explica como definir as configurações principais da revista no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como definir as configurações principais da revista no OJS. Para assistir a outros vídeos desta série, visite [o canal do Youtube do PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="_AAtxnFEodQ" provider="youtube" title="Vídeo sobre como configurar a Equipe Editorial em OJS"%}
+{% include video.html id="DMi6izQ7Pyw" provider="youtube" title="Vídeo sobre como configurar a Equipe Editorial em OJS"%}
 
 **Título** é o nome do periódico. Exemplo: Journal of Software Documentation.
 
@@ -55,7 +55,7 @@ Clique em **Salvar** para gravar as alterações.
 
 ## Contato
 
-Este vídeo da Escola do PKP explica como adicionar contatos de periódicos em OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da Escola do PKP explica como adicionar contatos de periódicos em OJS. Para assistir a outros vídeos desta série, visite [canal do YouTube do PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="SQfFGwIK2wI" provider="youtube" title="Vídeo de como adicionar contatos do periódico em OJS"%}
 
@@ -141,13 +141,13 @@ Quando tiver mais de uma seção criada, você verá a opção Ordenar. Use-a pa
 
 Clique no botão **Concluído** ao finalizar.
 
-### Excluir a secção
+### Excluir seções
 
-Só é possível excluir uma seção se não houver artigos atribuídos a ela. Se você deseja excluir uma seção com artigos atribuídos a ela, você precisará mover os artigos para uma seção diferente primeiro. Em seguida, clique na seta azul abaixo do nome da seção para revelar o **Excluir** link, em seguida, clique no link. OJS irá perguntar se você deseja excluir permanentemente a seção e você pode clicar em **Sim**.
+Só é possível excluir uma seção se não houver artigos atribuídos a ela. Se você deseja excluir uma seção com artigos atribuídos a ela, você precisará mover os artigos para uma seção diferente primeiro. Em seguida, clique na seta azul abaixo do nome da seção para revelar o link **Excluir**, em seguida, clique nele. OJS irá perguntar se você deseja excluir permanentemente a seção e você pode clicar em **Sim**.
 
 ## Categorias
 
-Este vídeo escolar do PKP explica como criar categorias em OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo escolar do PKP explica como criar categorias em OJS. Para assistir a outros vídeos desta série, visite[o canal do YouTube do PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="_AAtxnFEodQ" provider="youtube" title="Vídeo sobre como criar categorias em OJS"%}
 
@@ -163,7 +163,7 @@ Para criar uma nova categoria:
 * Insira descrição que aparecerá acima da lista de artigos da categoria;
 * Altere (essa ação é opcional) a ordem dos artigos por data ou título;
 * Adicione (essa ação também é opcional) uma imagem que aparecerá no topo da página da categoria;
-* Clique em Ok
+* Clique em Salvar
 
 ![Uma nova janela para inserir informações de categoria em campos de texto e selecionar opções de categoria.](./assets/learning-ojs3.1-create-category.png)
 
@@ -171,7 +171,7 @@ Para editar a Categoria
 
 * Clique no nome da categoria que deseja modificar;
 * Faça as alterações;
-* Clique em Ok.
+* Clique em OK
 
 Para remover uma categoria:
 
