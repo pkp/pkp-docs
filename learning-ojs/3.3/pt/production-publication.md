@@ -10,7 +10,7 @@ description: Instruções detalhadas para o estágio de editoração do fluxo de
 
 Com a conclusão da etapa de Edição de Texto, a submissão agora segue para a Publicação. A partir daqui, os arquivos copiados serão convertidos em formatos publicáveis na forma de arquivos de leitura de prova (exemplo: PDF e HTML) e revisados antes da publicação. Uma nova edição será criada e o artigo será agendado para publicação no número a ser lançado. Este capítulo explica as etapas desse processo e ainda como usar o recurso de controle de versão (introduzido pela primeira vez no OJS 3.2) para publicar uma nova versão de um artigo, caso alterações significativas sejam realizadas.
 
-O OJS também oferece uma forma direta de contornar o fluxo de trabalho editorial descrito no capítulo anterior e enviar o conteúdo diretamente à Publicação, fase em que pode ser adicionado a uma edição e publicado. Você pode fazer isso por meio do plugin Quick Submit. Consulte as instruções detalhadas do [plugin do Quick Submit no capítulo Importação e exportação de dados](https://github.com/pkp/pkp-docs/blob/main/learning-ojs/en/tools.md#importexport).
+O OJS também oferece uma forma direta de contornar o fluxo de trabalho editorial descrito no capítulo anterior e enviar o conteúdo diretamente à Publicação, fase em que pode ser adicionado a uma edição e publicado. Você pode fazer isso por meio do plugin Submissão Rápida. Consulte as instruções detalhadas do [plugin do Quick Submit no capítulo Importação e exportação de dados](https://github.com/pkp/pkp-docs/blob/main/learning-ojs/en/tools.md#importexport).
 
 Para começar a trabalhar na Editoração, o Editor de Seção ou Editor de Periódicos deve fazer o login no sistema e escolher a submissão em seu painel de controle.
 
