@@ -510,19 +510,19 @@ Use o link *Ler avaliação*, no painel de avaliadores, para ler os comentários
 
 Selecione o link *Confirmar* na parte inferior da tela.
 
-![A análise confirmada status aplicado a uma revisão.](./assets/learning-ojs-3-ed-rev-thank.png)
+![O status da análise confirmada aplicado a uma revisão.](./assets/learning-ojs-3-ed-rev-thank.png)
 
 No painel de avaliadores, será possível ver o link *Agradecer ao avaliador*. Escolha-o para agradecer ao avaliador.
 
-![A janela do Revisor de Agradecimentos.](./assets/learning-ojs-3-ed-rev-thank2.png)
+![A janela de Agradecimentos do Revisor.](./assets/learning-ojs-3-ed-rev-thank2.png)
 
-Com base nas recomendações do avaliador, você pode usar os botões de ação para tomar uma decisão.
+Clique o botão **Agradecer avaliador** para enviar a mensagem.
 
 ### Tomando a decisão
 
-Com base nas recomendações do editor, você pode usar os botões de ação para tomar uma decisão.
+Com base nas recomendações do avaliador, você pode usar os botões de ação para tomar uma decisão.
 
-![Os vários botões de acção para tomar uma decisão sobre uma submissão.](./assets/learning-ojs-3-ed-rev-decision.png)
+![Os vários botões de ação para tomar uma decisão sobre uma submissão.](./assets/learning-ojs-3-ed-rev-decision.png)
 
 As opções incluem:
 
