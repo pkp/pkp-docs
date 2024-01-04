@@ -57,7 +57,7 @@ You can pass more than one context to load them in two places.
 $templateMgr->addStyleSheet(
   'tutorialExampleStyles',
   $url,
-  ['context' => ['backend', 'frontend']
+  ['context' => ['backend', 'frontend']]
 );
 ```
 
