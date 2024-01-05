@@ -4,9 +4,9 @@ showPageTOC: true
 ---
 # Getting Started
 
-Most of PKP’s documentation is hosted and managed in a GitHub repository called the PKP Documentation Hub and is built using an open-source tool called [Jekyll](https://jekyllrb.com/). GitHub is a collaborative version control system that manages and stores revisions of a project. To learn more about GitHub and Git, watch this ["What Is Git and Github?" video](https://www.youtube.com/watch?v=uUuTYDg9XoI) or this ["Git and Github for Poets" video](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV).
+Most of PKP’s documentation is hosted and managed in a GitHub repository called the PKP Documentation Hub and is built using an open-source tool called [Jekyll](https://jekyllrb.com/). GitHub is a collaborative version control system that manages and stores revisions of a project. To learn more about GitHub and Git, watch this ["What Is Git and GitHub?" video](https://www.youtube.com/watch?v=uUuTYDg9XoI) or this ["Git and GitHub for Poets" video](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV).
 
-The content files that make up PKP’s documentation are stored in the [Documentation Hub repository](https://github.com/pkp/pkp-docs) and anyone with a GitHub account can edit and add documents to the repository. This chapter explains the important things you will need to know when working on GitHub.
+The content files that make up PKP’s documentation are stored in the [Documentation Hub repository](https://github.com/pkp/pkp-docs), and anyone with a GitHub account can edit and add documents to the repository. This chapter explains the important things you will need to know when working on GitHub.
 
 If you don’t have a GitHub account already, begin by [creating an account](https://github.com/join?source=header-home).
 
@@ -14,15 +14,15 @@ If you don’t have a GitHub account already, begin by [creating an account](htt
 
 Each folder in the PKP Documentation Hub repository represents a document.
 
-![Docs hub folder structure in Github.](./assets/Github-dash.png)
+![Docs hub folder structure in GitHub.](./assets/Github-dash.png)
 
-Short documents consist of a single markdown file and may have an “assets” folder of images. All content is contained in the `index.md` file and the table of contents on the side of the page is created using the header tags in markdown.
+Short documents consist of a single Markdown file and may have an “assets” folder of images. All content is contained in the `index.md` file and the table of contents on the side of the page is created using the header tags in Markdown.
 
 ![Index.md page of Starting a Journal document.](./assets/index-file.png)
 
 Longer documents consist of multiple chapter files, a README file, a SUMMARY file, and an assets folder. Content is stored in the chapter files and the README file acts as a summary page for the document. The SUMMARY file creates the table of contents.
 
-**All files created will need to have a .md ending**
+**All content files created will need to have a .md ending**
 
 ![Learning OJS guide folder structure.](./assets/Github-dash-2.png)
 
@@ -48,7 +48,7 @@ A branch can be created on your own repository or automatically generated when y
 
 ## File Naming Conventions
 
-**In General** While any name you create should work, it’s best to keep titles short and descriptive. Always replace spaces between words with a dash.
+**In General**: While any name you create should work, it’s best to keep titles short and descriptive. Always replace spaces between words with a dash.
 
 **Titles**: Some example titles include: `learning-ojs`, `pkp-theming-guide`, `crossref-ojs-manual`. Remember that titles are part of the file path in the URL to individual docs so keep it simple.
 
@@ -56,7 +56,7 @@ A branch can be created on your own repository or automatically generated when y
 
 **Images**: Store all images in a single "assets" folder within the language you’re working (e.g.: `en/assets/`). Keep your image titles brief or with abbreviations and consistently named, so they’re easy to locate. Depending on how many images you have, numbering these might be a lot more convenient while working on the document. Listen to your heart. Some examples include: `contrib-01.png`, `authoring-images-01.png`. If you’re putting all your images into only the asset folder, it’s a good idea to name your images to correspond with chapter titles.
 
-Note that file names are case sensitive, so if the image is saved as `learning-ojs3.1-jm-settings-workflow-email-templates.png` and you reference `learning-ojs3.1-jm-settings-workflow-email-templates.png` in the document, the image will not display.
+Note that file names are case sensitive, so if the image is saved as `learning-ojs3.1-jm-settings-workflow-email-templates.png` and you reference `learning-ojs3.1-jm-settings-workflow-email-templates.PNG` in the document, the image will not display.
 
 ## Markdown
 
@@ -76,11 +76,13 @@ Here are three guides for writing markdown:
 - [Mastering GitHub Flavoured Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-## Editing with GitHub Desktop and Atom
+## Editing with GitHub Desktop and a Text Editor
 
-If you're working on a large piece of documentation and you're not comfortable using either the command line or the web interface for GitHub, consider using [GitHub Desktop](https://desktop.github.com/) and the [Atom](https://atom.io/) text editor. With this workflow, you can "clone" a copy of the docs repository to your computer, make your edits locally (and even build a version of the Documentation Hub using Ruby, if you like) and create a pull request with your changes once you're finished.
+If you're working on a large piece of documentation and you're not comfortable using either the command line or the web interface for GitHub, consider using [GitHub Desktop](https://desktop.github.com/) and a [compatible text editor](https://docs.github.com/en/desktop/configuring-and-customizing-github-desktop/configuring-a-default-editor-in-github-desktop) of your choice. With this workflow, you can "clone" a copy of the docs repository to your computer, make your edits locally (and even build a version of the Documentation Hub using Ruby, if you like) and create a pull request with your changes once you're finished.
 
-Once you've installed GitHub desktop, you should have an option while viewing any GitHub repository to "Code" and "Open with GitHub Desktop".
+GitHub Desktop is free to install and is available for both Mac and Windows, but you will also need to choose a text editor to use with it, and many of these require purchase. See the [list of text editors that are supported by GitHub Desktop](https://docs.github.com/en/desktop/configuring-and-customizing-github-desktop/configuring-a-default-editor-in-github-desktop) for Mac and Windows and be sure to download and install one that you're comfortable with. If you're not sure which to choose, try [BBEdit for Mac](http://www.barebones.com/products/bbedit/) or [Notepad++ for Windows](https://notepad-plus-plus.org/). 
+
+Once you've installed GitHub Desktop and have [configured your default text editor](https://docs.github.com/en/desktop/configuring-and-customizing-github-desktop/configuring-a-default-editor-in-github-desktop#configuring-a-default-editor), you should have an option while viewing any GitHub repository to "Code" and "Open with GitHub Desktop".
 
 1. Navigate to the repository you want to clone.
 2. Click on the green button on the right that says "Code."
@@ -94,17 +96,17 @@ You'll be prompted to choose a download location for your copy of the repository
 
 It'll take a few minutes for all the files to download.
 
-GitHub desktop manages your commits and pull-requests locally. It's especially convenient if you're changing more than one file at once. If you have Atom installed, you can open your project with the editor directly from GitHub Desktop.
+GitHub Desktop manages your commits and pull requests locally. It's especially convenient if you're changing more than one file at once. If you like, you can open content files in a text editor directly from GitHub Desktop.
 
-1. Open GitHub desktop.
+1. Open GitHub Desktop.
 2. Right click on the name of the repository in which you want to work.
-3. Select "Open in Atom."
+3. Select the option to open the repository in your default text editor.
 
-![Open project from Github Desktop.](./assets/contrib-05.png)
+![Open project from GitHub Desktop.](./assets/contrib-05b.png)
 
 In Atom, the repository directory structure is accessible on the left-hand side in the "project window." Clicking on any title opens it in the editor and allow you to make changes. You'll notice the colors of the filenames change as you work. Green indicates a new file you've added. Yellow indicates a file you've changed since the last time you pulled an update from the primary repository.
 
-If you are working on a project over time, you may want to regularly pull changes "from origin." You can do this in GitHub desktop by clicking the "Fetch origin" button at the top of the window. It pulls changes since the last time you pulled them (or, since the time you cloned initially).
+If you are working on a project over time, you may want to regularly pull changes "from origin." You can do this in GitHub Desktop by clicking the "Fetch origin" button at the top of the window. It pulls changes since the last time you pulled them (or, since the time you cloned initially).
 
 ![Fetch origin updates from GitHub.](./assets/contrib-06a.png)
 
@@ -134,7 +136,7 @@ Once you've finished making your edits with Atom and have a document you want to
 
 Now that you've made your edits/additions and created your branch, you can _commit_ your code. On the left side of your GitHub Desktop window, you should see all the files you're adding or changing and, at the bottom, a _commit_ option.
 
-![Commit to master button in Github desktop.](./assets/contrib-08.png)
+![Commit to master button in GitHub Desktop.](./assets/contrib-08.png)
 
 The Summary field is for a very short descriptor of what you just changed. A few words should do the trick. Here are some examples:
 
@@ -155,7 +157,7 @@ This document is, necessarily, a brief introduction to using GitHub. GitHub has 
 
 ## Contribute in Other Formats
 
-We encourage users and community members to write and edit documentation in markdown and contribute through GitHub. However, contributed documentation can be created or edited in any format you want to work in, including a .doc or .odt text document, a Google doc, or an email, and the DIG will convert the documentation to markdown. Do not contribute documentation in PDF, HTML, or LaTeX format.
+We encourage users and community members to write and edit documentation in Markdown and contribute through GitHub. However, contributed documentation can be created or edited in any format you want to work in, including a .doc or .odt text document, a Google doc, or an email, and the DIG will convert the documentation to Markdown. Do not contribute documentation in PDF, HTML, or LaTeX format.
 
 Some contributors prefer to create or edit documentation in a Word, Open Document, Google Doc, or another format. If you’re creating documentation with a group of people, it can be easier to use a Google Doc than GitHub.
 
