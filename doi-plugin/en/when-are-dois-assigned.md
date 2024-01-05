@@ -3,31 +3,20 @@ title: When Are DOIs Assigned?
 showPageTOC: true
 ---
 
-# When Are DOIs Assigned?
+# When and How to Assign DOIs
 
 It is important to understand when DOIs will be assigned because **DOI registration is irreversible**. Once an article or issue is published and your DOI has been registered with an agency, you cannot change it. This is due to the nature of permanent IDs: they are meant to be assigned once and only once and then never change again.
+Broadly speaking, DOIs should be assigned in *OJS when you schedule them for publication in an issue*. 
 
-Broadly speaking, DOIs are assigned by OJS when you _schedule them for publication in an issue_. If you push an article to an already-published issue, the DOI will be assigned immediately.
+# Assigning DOIs
+Once you have DOIs configured in the plugin, in OJS/OMP/OPS version 3.3 or earlier, you will need to assign them to the relevant objects. The process is significantly revamped for OJS/OMP/OPS version 3.4 and later, where DOIs can be managed from one central area. Documentation on assigning DOIs is forthcoming for versions 3.4 and later.
 
-This assignment logic is slightly different for the different suffix generation strategies
+If you have a large number of back issues, you can [use the Assign DOIs button in the DOI plugin settings as described earlier](https://docs.pkp.sfu.ca/doi-plugin/en/doi-plugin#assign-dois).
 
-## Pattern-based Suffix Generation (default or custom)
+However, for future published objects, you’ll need to create and assign the DOI manually. In versions 3.2 and 3.3, from the Publication tab of a submission’s workflow, you’ll find the DOI management area on the left sidebar under the “Identifiers” menu. (In version 3.1, you’ll need to click “Metadata” on the upper navigation bar and then click the “Identifiers” tab). 
 
-DOIs will always be generated according to the currently configured pattern on assignment to an issue. This also means that changing a pattern will not change already-assigned DOIs, only DOIs being generated from that moment on. Be careful when changing patterns that the new pattern does not share its namespace with the previous pattern. Otherwise duplicate DOIs may result which will lead to problems when trying to register these IDs.
+![The Identifiers menu in OJS with an empty DOI field beside the "Assign" button.](./assets/doi-assign-button.png)
 
-Once you configured the pattern for DOI suffix generation in the DOI plugin you'll not have to do anything special for an object to get a DOI assigned. The DOI will be assigned when you schedule it for an issue, or when you publish an article in an existing issue.
+Press the “Assign” button to create the DOI and the “Save” button to confirm it. While you can assign a DOI before scheduling it for an issue, if your suffix pattern includes volumes or issues, you’ll want to schedule it for publication in an issue first.
 
-## Individual DOI Suffixes
-
-The logic is slightly different to support selective DOI assignment. In this case a DOI will not be assigned even for already published objects if a DOI suffix has not been entered for that object. This allows the journal more control over which articles receive DOIs, but does come with the responsibility to assign each one manually.
-
-## DOI Preview/Assignment
-
-Whatever suffix generation strategy you choose, you'll be able to preview/create the DOI from that submission's _publication_ workflow, provided that the object has not yet been published. You'll find the DOI on the left sidebar under the "Identifiers" menu.  While you _can_ assign a DOI before scheduling it for an issue, if your suffix pattern includes volumes or issues, you'll want to schedule it for publication in an issue first.
-
-Once an article has been scheduled for an issue, you can see what the DOI will be by going to:
-
-1. The _submission_ page for an article.
-2. The _publication_ tab for that submission.
-3. Clicking _identifiers_ on the left sidebar.
-4. OJS will show you the DOI that the suffix generator has produced and will be assigned to your DOI. 
+(If you are assigning a DOI to an article that has already been published, you will need to temporarily unpublish it using the “Unpublish” button and republish it after assigning and saving the DOI using the “Schedule for Publication” button.)
