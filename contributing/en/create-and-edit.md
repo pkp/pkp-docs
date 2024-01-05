@@ -37,7 +37,7 @@ When you create a new document, you need to decided whether to make it a _single
 
 ### Single Page Docs
 
-Single page documents are rendered fully from one markdown file. The table of contents on the side of the page is created using the header tags in markdown. For example:
+Single page documents are rendered fully from one Markdown file. The table of contents on the side of the page is created using the header tags in Markdown. For example:
 
 ```
 ## The "Documentation Hub"
@@ -59,13 +59,13 @@ generateHeadingToc: true
 ---
 ```
 
-From here, write the document out as you would using markdown. Any level two header (e.g.: `## text`) displays on the table of contents on the left as a chapter. Any level three header (e.g.: `### text`) displays as a sub-chapter. Levels four and up does not display on the sidebar table of contents.
+From here, write the document out as you would using Markdown. Any level two header (e.g.: `## text`) displays on the table of contents on the left as a chapter. Any level three header (e.g.: `### text`) displays as a sub-chapter. Levels four and up does not display on the sidebar table of contents.
 
 > Headings should never skip a level. Do not jump from `## Heading` (2) to `#### Sub-heading` (4). It is important that a sub-heading of `## Heading` (2) is `### Heading` (3) for accessibility.
 
 ### Multi-page Docs
 
-Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust directories with folders for individual languages/translations, and a single markdown file for every chapter of the document. They also contain a file called `SUMMARY.md` that creates the table of contents for the document and a file called `README.md` that serves as a first/landing page for your document. To create a multi-page document start with the following:
+Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust directories with folders for individual languages/translations, and a single Markdown file for every chapter of the document. They also contain a file called `SUMMARY.md` that creates the table of contents for the document and a file called `README.md` that serves as a first/landing page for your document. To create a multi-page document start with the following:
 
 1. In the pkp-docs repository, click Create New File. You will create the new folder for the document as you create the file.
 2. Enter the name of the document folder and then /. This will automatically create the folder.
@@ -84,7 +84,7 @@ Unlike with a single-page document, you no longer need to add to index.md. The r
 
 1. Create a folder for the [language of your document](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) using the two-letter ISO 639-1 code (e.g.,: en, fr, es, ar).
 2. Create a file called `SUMMARY.md`
-    - `SUMMARY.md` is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file. You can fill in all of the chapter and section links after you have created the chapter files.
+    - `SUMMARY.md` is the file that determines the display of the table of contents for your document. The Markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single Markdown file per chapter _or_ as a link to a specific heading within that Markdown file. You can fill in all of the chapter and section links after you have created the chapter files.
         - a chapter link would look like: `- [Statistics](statistics.md)`
         - a heading inside that chapter would look like: `- [Definitions](./statistics.md#definitions)`
 
@@ -130,7 +130,7 @@ Save the README file when it is complete.
 
 #### Create chapter files
 
-Next you can create a separate file for each chapter in the guide and add content to each chapter. Each full chapter of a multi-page document should be a single markdown file.
+Next you can create a separate file for each chapter in the guide and add content to each chapter. Each full chapter of a multi-page document should be a single Markdown file.
 
 Every chapter file should have Title front matter (metadata), which can include the document title, and Description front matter, which should give a summary of the document and include main keywords that would be searched. For example, if the document is "Designing Your OJS Journal" and the chapter is "Inclusive and Accessible Theming," the Title could be as follows:
 
