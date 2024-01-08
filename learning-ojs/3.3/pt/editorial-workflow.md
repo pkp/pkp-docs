@@ -528,7 +528,7 @@ As opções incluem:
 
 **Aceitar submissão**: significa que a submissão foi aceita sem revisões e pode prosseguir para o estágio de Edição de Texto.
 
-Use o botão **Adicionar mensagem** para responder, seja solicitando uma revisão adicional seja informando ao autor que a submissão está pronta para avançar à próxima etapa.
+Use o botão **Adicionar mensagem** para responder, seja solicitando uma revisão adicional, seja informando ao autor que a submissão está pronta para avançar à próxima etapa.
 
 **Rejeitar submissão** : quer dizer que a submissão não foi aprovada na avaliação por pares e não é adequada a análise posterior. A submissão seria então transferida para os Arquivos. Apenas as submissões recusadas ​​nos Arquivos podem ser excluídas. No OJS 3.3, agora existe a opção de reverter uma decisão de recusa na fase de submissão e avaliação. Isso pode ser feito clicando em **Alterar decisão** e, em seguida, em **Reverter Decisão**. Depois que uma decisão de rejeitar é revertida, a submissão é restaurada ao estágio anterior e a rodada de avaliação se ativa.
 
