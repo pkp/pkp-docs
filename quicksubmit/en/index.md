@@ -31,17 +31,75 @@ If you are uploading articles with existing DOIs or articles without contributor
 
 ## Uploading Back Issue Articles with existing DOIs
 
-If the back issue content was previously published with a DOI, you should reassign the same DOI rather than assigning the same content a new DOI. The QuickSubmit form does not allow you to enter any DOIs. To re-use existing DOIs, you will need to manually enter them for each article. Complete the QuickSubmit submission as outlined in the previous section, then follow these steps:
+If the back issue content was previously published with a DOI, you should reassign the same DOI rather than assigning the same content a new DOI. The QuickSubmit form does not allow you to enter DOIs - you will need to manually enter them for each article later. Complete the QuickSubmit submission as outlined in the previous section, then follow these steps:
 
+### Temporarily configure the DOI plugin for back issues
+
+If you are not already using the DOI plugin, you will need to configure it now. Go to Website > Plugins and use the Search to locate the DOI plugin. Enter your prefix and select the second option for the DOI Suffix pattern ("Enter an individual DOI suffix for each published item"). If you need more information on how to configure this plugin, (consult our DOI plugin guide for step-by-step instructions)[https://docs.pkp.sfu.ca/doi-plugin/en/doi-plugin#configuring].
+
+![The DOI plugin settings window showing a DOI prefix entered and the "Enter an individual DOI suffix for each published item" setting enabled in the DOI suffix options.](./assets/backissues-doi-config.png)
+
+> *If you are already using the plugin and the back issue content was published with a different DOI Prefix*, you will need to *temporarily* enter the previous prefix in the DOI plugin while you are adding your back issue content using QuickSubmit and enable the "Enter an individual DOI suffix for each published item. You'll find an additional DOI input field on each item's meta-data page." setting. **Please remember to restore your DOI settings to the necessary prefix for ongoing publication and/or reenable automatically generated suffix patterns when you are done with your back issues or switching to publishing new content.** 
+{:.warning}
+
+### Insert existing DOI for each article
+
+Navigate to the submission dashboard by clicking on “'Go to Submission”' when you complete a QuickSubmit, or navigate there using the editorial dashboard/issues dashboard. For each article that needs an existing DOI added, you will need to view the submission and complete the following steps.
+
+1. Click the "Publication" tab.
+2. Click the "Unpublish" button if the article is currently published.
+![The Publication tab of the Submission page with an arrow pointing to the Unpublish button in the upper right.](./assets/unpublish-button.png)
+4. Click the "Identifiers" tab, insert the existing DOI in the provided field, and click "Save".
+5. Click "Schedule For Publication" to republish the article.
+
+### Update the DOI registration
+
+Finally, you will need to update the DOI registration record so that the DOI is pointing to the new OJS version. Navigate to the appropriate DOI registration plugin (e.g. CrossRef) to update the DOI metadata by depositing the article to the registration service. You can (read more about configuring DOI registration plugins and updating DOI records from our CrossRef manual)[https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config].
 
 ## Uploading Back Issue Articles with no Contributors
 
 >  **Articles without at least one contributor author will cause validation errors if you intend to distribute the metadata further** (e.g. to register a DOI or get the article indexed in most databases). For example, the Crossref plugin expects at least one contributor surname. Blank contributors may also cause deposit problems for the PKP Preservation Network.
 {:.warning}
 
-## Uploading Back Issue articles without Contributor Emails
+The QuickSubmit plugin requires that at least one Contributor be input in order to upload an article. 
 
-OJS and QuickSubmit generally require an email to be associated with each contributor. If you will be uploading articles where a Contributor does not have an email address (or articles published from a time before email addresses), you can install and enable the “Author Requirements Plugin” available in the Plugin Gallery. 
+![The QuickSubmit plugin displaying an error that reads "At least one author is required".](./assets/no-contributor-error.png)
 
-There is an option to make emails optional, which works on the QuickSubmit plugin. 
+If an article was original published without any author/contributor listed, you will need to enter a placeholder author in order to save the form. After the article has been successfully created, use the "Go to Submission" link to access the submission.
 
+![The screen the QuickSubmit plugin shows after successfully creating an article, with an arrow pointing to the "Go to Submission" link.](./assets/go-to-submission.png)
+
+Temporarily unpublish the Article using the "Unpublish" link in the upper right.
+
+![The Publication tab of the Submission page with an arrow pointing to the Unpublish button in the upper right.](./assets/unpublish-button.png)
+
+Go to the "Contributors" Tab and delete the placeholder author.
+
+![The Contributors tab showing the placeholder author, with an arrow pointing to the Delete option in the menu below the placeholder author.](./assets/delete-contributor.png)
+
+Once completed, click "Schedule For Publication" to republish the Article.
+
+
+## Uploading Back Issue Articles without Contributor Emails
+
+OJS and QuickSubmit generally require an email to be associated with each contributor. If you will be uploading articles where a Contributor does not have an email address (or articles published from a time period before email addresses), you can install and enable the “Author Requirements Plugin” available in the Plugin Gallery. Detailed information on installing, enabling, and configuring plugins can be found in the (Plugins section of Learning OJS)[https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins]. 
+
+When this plugin is enabled, access the plugin's settings menu to enable the option that makes Author emails optional. This option and/or plugin can be disabled at a later date if you would like future submissions to the journal to require an email.
+
+## Uploading Back Issue Articles without Abstracts
+
+If you wish to upload articles that do not have an abstract, ensure that the Section selected for the articles has been configured so that it does not require abstract in Journals > Sections. You can read more about configuring sections in the [Sections portion of Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/3.3/en/journal-setup#sections).
+
+## Uploading Back Issue Articles with ORCIDs
+*FINISH THIIIIIIIIIIIIIS
+
+
+ORCIDs can be added to articles added through QuickSubmit one of two ways depending on whether your journal uses the ORCID plugin.
+
+### If the ORCID Plugin is Enabled
+
+If you already use the ORCID plugin, you should invite authors to provide ORCID authorization to connect their ORCID iDs to the publication. The invitations can be sent when you are filling out the Contributor information. 
+
+### If the ORCID Plugin is Not Enabled
+
+If you are not using the ORCID plugin, but still want to include the ORCID iD in the article information, you can insert it manually.  Be careful to copy and paste the ORCID directly from the ORCID iD profile to avoid typos. And ensure that you use https (not http), in order to avoid future validation errors. 
