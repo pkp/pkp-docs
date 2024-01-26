@@ -1,5 +1,5 @@
 ---
-book: learning-ojs
+book: aprendendo o OJS
 version: 3.3
 showPageTOC: true
 title: Aprendendo Open Journal Systems 3.3 - Fluxo Editorial
@@ -20,11 +20,11 @@ O fluxo de trabalho é dividido em 4 estágios:
 
 Algumas submissões são claramente inadequadas e nunca passam desse estágio.
 
-{% include video.html id="9rx-AahCU10" provider="youtube" title="Video do Fluxo Editorial no OJS 3.3. Módulo 4: Respondendo a uma submissão"%} Módulo 4: Respondendo a uma submissão"%}
+{% include video.html id="9rx-AahCU10" provider="youtube" title="Vídeo do Fluxo Editorial no OJS 3.3. Módulo 4: Respondendo a uma submissão"%}
 
-Este vídeo da Escola do PKP explica os passos que o Editor dá para atribuir uma nova submissão a um Editor de Seção. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+Este vídeo da Escola do PKP explica os passos que o Editor dá para atribuir uma nova submissão a um Editor de Seção. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-**Avaliação**: etapa em que ocorre a avaliação por pares, bem como quaisquer revisões exigidas pelo autor (no caso do autor discordar de alterações propostas pelo(s) avaliador(es), por exemplo).
+**Avaliação**: etapa em que ocorre a avaliação por pares, bem como quaisquer revisões exigidas pelo autor.
 
 Algumas submissões não são aprovadas na avaliação e não passam desse estágio. Aquelas que são aceitas passam para o próximo estágio.
 
@@ -34,7 +34,7 @@ Algumas submissões não são aprovadas na avaliação e não passam desse está
 
 {% include video.html id="-VRKdBQPdn4" provider="youtube" title="Vídeo do Fluxo Editorial no OJS 3.3.  Módulo 9: Editoração."%}
 
-Este vídeo da Escola do PKP explica o estágio de produção. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+Este vídeo da Escola do PKP explica o estágio de produção. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 <hr />
 
@@ -52,7 +52,7 @@ Use a caixa de seleção para marcar tarefas para exclusão (o link está dispon
 
 ## Notificações de submissão
 
-Quando um autor faz uma nova submissão ao seu periódico, o autor e todos os colaboradores receberão um e-mail reconhecendo a sua submissão e um editor receberá automaticamente uma notificação da nova submissão. Em alguns casos, um editor será automaticamente atribuído à submissão. Qual editor (s) recebe a notificação ou é automaticamente atribuído dependerá de como você configurou seu periódco (veja [Editar uma seção](./journal-setup#edit-a-section)).
+Quando um autor faz uma nova submissão ao seu periódico, o autor e todos os colaboradores receberão um e-mail reconhecendo a sua submissão e um editor receberá automaticamente uma notificação da nova submissão. Em alguns casos, um editor será automaticamente atribuído à submissão. Qual(is) editor(es) recebe(m) a notificação ou é automaticamente atribuído dependerá de como você configurou seu periódco (veja [Editar uma seção](./journal-setup#edit-a-section)).
 
 * Se houver apenas um usuário atribuído a um papel de editor ou gerente de periódico, esse usuário será atribuído e notificado automaticamente.
 * Se um ou mais editores de seção forem atribuídos à [seção](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#sections) a qual a submissão foi feita, eles serão automaticamente atribuídos a esta submissão e notificados.
@@ -69,7 +69,7 @@ Para habilitar cópias do e-mail de confirmação de submissão a ser enviado pa
 
 ![As configurações de Notificação de submissão do autor no OJS.](./assets/learning-ojs3.1-configure-submission-notification.png)
 
-Se você quiser desativar os e-mails de Agradecimento pela Submissão, pode fazê-lo, desabilitando o modelo de e-mail na lista de modelos de e-mail. Para saber mais sobre como desabilitar e habilitar modelos de email, consulte *Desabilitar modelos de email*, no [capítulo Configurações de fluxo de trabalho](https://github.com/pkp/pkp-docs/blob/main/learning-ojs/en/settings-workflow).
+Se você quiser desativar os e-mails de confirmação de submissão completamente, você pode fazer isso desabilitando o template de e-mail *Submissão* a partir da lista de modelos de e-mail preparados. Para saber mais sobre como desabilitar e habilitar modelos de email, consulte *Desabilitar modelos de email*, no [capítulo Configurações de fluxo de trabalho](https://github.com/pkp/pkp-docs/blob/main/learning-ojs/en/settings-workflow).
 
 Os usuários também podem alterar suas configurações de notificação individuais em seu próprio perfil, acessando Perfil> Notificações.
 
@@ -87,7 +87,7 @@ A ferramenta **Buscar**, para cada fila, pode, às vezes, ser útil para rastrea
 
 A ferramenta **Filtro** permite limitar sua navegação a um status específico, a fim de se realizar uma pesquisa mais rápida. Dependendo de seu papel, as funções editoriais serão capazes de filtrar:
 
-- **Status**: selecione entre *incompleto*, *atrasado* e *inativo por 30 dias*
+- **Status**: selecionado entre *incompleto*, *atrasado* e *inativo por 30 dias*
 
 - **Estágios**: selecione entre _submissão_, _avaliação_, _edição de texto_ e _editoração_
 
@@ -97,7 +97,7 @@ A ferramenta **Filtro** permite limitar sua navegação a um status específico,
 
 - __Edição atribuída__: apenas gerentes de periódicos podem filtrar por fascículos não publicados, mas editores e assistentes poderão filtrar por fascículos publicados. Esse campo diferencia maiúsculas de minúsculas e requer correspondência exata. Para obter melhores resultados, pesquise por ano ou título, em vez de volume ou número. Esse filtro é usado principalmente se a atribuição de uma submissão a uma edição for feita em uma fase inicial do processo editorial.
 
-Alguns filtros permitem várias seleções. Os usuários podem filtrar por mais de um editor, uma seção ou edição. Os filtros são aplicados com condições OU, portanto, quando um usuário selecionar filtrar pelo Editor A e Editor B, todas as submissões que são atribuídas ao editor A ou ao editor B serão retornadas.
+Alguns filtros permitem várias seleções. Os usuários podem filtrar por mais de um editor, uma seção ou edição. Os filtros são aplicados com condições OU quando um usuário selecionar filtrar pelo Editor A e Editor B, todas as submissões que são atribuídas ao editor A ou ao editor B serão retornadas.
 
 Ao usar vários filtros, a condição E será aplicada entre os filtros. Por exemplo, ao filtrar por Estágio de avaliação E Editor A, apenas as submissões atribuídas ao Editor A no estágio de avaliação serão retornadas.
 
@@ -129,13 +129,13 @@ Essa seção inclui uma lista de todas as submissões rejeitadas ou já publicad
 
 ### Submissão de demonstração
 
-Para esta demonstração, estamos procurando a submissão de Williamson e Serletis, intitulada *Os Agentes Oficiais de Conhecimento e Educação de Adultos*. Ela pode ser encontrada no topo de **Fila (Minhas Submissões Designadas)**, bem como em **Ativos**.
+Para esta demonstração, estamos procurando a submissão de Cerpa, intitulada *A Review of Object Oriented Data Concepts and their Implementation*. Ela pode ser encontrada no topo de **Fila (Minhas Submissões Designadas)**, bem como em **Ativos**.
 
 ![A Minha fila Atribuída no painel de Submissões OJS, com o exemplo do artigo da Cerpa no topo da fila.](./assets/learning-ojs3.3-submission-queue.png)
 
 Após encontrar a submissão, você pode usar o botão visualizar, para ver a submissão, ou usar a seta azul, para revelar opções e ver se há alguma discussão aberta (não há nenhuma neste caso), o número de composições finais criadas e acesso ao registro de atividades e anotações.
 
-![Um envio com o menu de opções expandido.](./assets/learning-ojs3.3-submission-options.png)
+![Uma submissão com o menu de opções expandido.](./assets/learning-ojs3.3-submission-options.png)
 
 O **Log de atividades e anotações** exibe o histórico da submissão.
 
@@ -179,9 +179,9 @@ Para periódicos que usam avaliação anônima, os dados do autor e do avaliador
 
 **Pré-visualização**: mostra como a submissão ficará quando publicada, com seus metadados e arquivos de composição final atuais, clicando em Visualizar.
 
-![learning-ojs-3-ed-preview.png](./assets/learning-ojs-3-ed-preview.png)
+![O recurso de visualização que mostra como um artigo será exibido quando publicado](./assets/learning-ojs-3-ed-preview.png)
 
-**Publicação (Metadados)**: painel onde você pode visualizar e revisar os metadados da submissão. No OJS 3.2 e posterior, os usuários podem receber permissão para revisar determinados metadados de submissão em qualquer estágio do fluxo de trabalho.
+**Metadados**: painel onde você pode visualizar e revisar os metadados da submissão. No OJS 3.2 e posterior, os usuários podem receber permissão para revisar determinados metadados de submissão em qualquer estágio do fluxo de trabalho.
 
 ![A guia Metadados de uma submissão.](./assets/learning-ojs3.1-ed-dashboard-record-metadata.png)
 
@@ -253,7 +253,7 @@ Agora que o Editor de Seção foi designado, ele pode fazer o login e visualizar
 
 Clicar em Visualizar abre o registro de submissão completo.
 
-![learning-ojs3.1-se-record.png](./assets/learning-ojs3.1-se-record.png)
+![Um registro de envio de submissão.](./assets/learning-ojs3.1-se-record.png)
 
 #### Aceitando a designação
 
@@ -281,7 +281,7 @@ Este vídeo da PKP School explica as etapas que o Editor de Seção leva para at
 
 Quando a submissão entra no Estágio de Avaliação, uma notificação indica que os Avaliadores precisam ser atribuídos.
 
-![O "Aguardando que os revisores sejam atribuídos" notificação.](./assets/learning-ojs3.1-se-record-revstage.png)
+![A notificação "Aguardando que os revisores sejam atribuídos".](./assets/learning-ojs3.1-se-record-revstage.png)
 
 > Nota: Na captura de tela acima, vemos a visualização do Editor de Seção. Observe os botões de ação limitados (apenas Fazer recomendação está disponível). Se estivéssemos logados como Editor, veríamos mais botões de ação (Enviar para avaliação, Aceitar submissão, Rejeitar submissão).
 
@@ -289,7 +289,7 @@ Essa ação abre uma nova janela, onde os avaliadores são listados e podem ser 
 
 Essa ação abrirá uma janela para você selecionar quais arquivos (fornecidos pelo autor) serão incluídos na nova rodada de avaliação.
 
-![A janela Localizar uma janela de Revisor listando todos os Revisores.](./assets/learning-ojs-3.1.2-locate-reviewer.png)
+![A janela Localizar Revisor listando todos os Revisores.](./assets/learning-ojs-3.1.2-locate-reviewer.png)
 
 Clicar na seta azul revela mais informações sobre seu histórico de avaliação, incluindo quantas avaliações ativas estão atualmente atribuídas, quantas avaliações estão concluídas ou foram recusadas, etc. Se o usuário adicionou uma biografia ou avaliação de interesses, essas informações serão exibidas aqui.
 
@@ -307,11 +307,11 @@ Na parte inferior desse formulário, você verá opções para:
 
 **Designar usuário existente**: se nenhum dos avaliadores for adequado, você pode inscrever um usuário existente como avaliador.
 
-Para esta demonstração, escolhemos Adela como nosso avaliador e clicamos no botão **Selecionar avaliador**.
+Para esta demonstração, escolhemos Adela como nossa avaliadora e clicamos no botão **Selecionar avaliador**.
 
-Essa ação abrirá uma nova janela.
+Essa ação abrirá uma nova janela com uma mensagem para o Avaliador.
 
-![A tela Adicionar Revisor com o modelo de notificação por e-mail.](./assets/learning-ojs3.1-se-record-revstage-revreq.png)
+![A tela Adicionar Avaliador com o modelo de notificação por e-mail.](./assets/learning-ojs3.1-se-record-revstage-revreq.png)
 
 Você pode editar qualquer texto padrão.
 
@@ -359,7 +359,7 @@ A avaliação cancelada será registrada nas estatísticas do avaliador, que voc
 
 ![Pedidos cancelados como vistos em estatísticas de um revisor.](./assets/learning-ojs-3.2-cancelled-reviews-tracker.png)
 
-**Discussão da avaliação** : a discussão da avaliação é outra maneira de entrar em contato com um avaliador. Em uma discussão de avaliação, você tem a opção de anexar arquivos.
+**Discussão da avaliação:** a discussão da avaliação é outra maneira de entrar em contato com um avaliador. Em uma discussão de avaliação, você tem a opção de anexar arquivos.
 
 Para iniciar uma discussão, clique em “Adicionar comentário”.
 
@@ -397,7 +397,7 @@ No final de uma avaliação, se um avaliador decidir fazer upload de um arquivo 
 
 *Autor*: nenhuma informação de identificação sobre o avaliador ficará visível para o autor na visualização do manuscrito.
 
-![<em x-id="3">Autor</em>: nenhuma informação de identificação sobre o avaliador estará disponível na visualização do manuscrito.](./assets/learning-ojs3.1-ed-rev-anon2.png)
+![Uma amostra do que o autor verá após a análise do envio - nenhuma informação de identificação está incluída.](./assets/learning-ojs3.1-ed-rev-anon2.png)
 
 *Decisão Editorial*: o e-mail de decisão enviado ao(s) autor(es) ao final da avaliação terá títulos genéricos dos avaliadores.
 
@@ -420,7 +420,7 @@ No final de uma avaliação, se um avaliador decidir fazer upload de um arquivo 
 - [Na biblioteca com o Lead Pipe: um acesso aberto, abrir um periódico revisado por pares](https://www.inthelibrarywiththeleadpipe.org/about/)
 - [Intersectional Apocalypse](https://journals.lib.sfu.ca/index.php/ifj/reviewpolicy)
 
-*Avaliador*: O avaliador poderá ver o nome do autor se clicar em "Ver Todos os Detalhes da Submissão" Não precisam de aceitar o pedido de revisão, a fim de visualizar essa informação. O avaliador pode tomar sua decisão sobre se quer revisar um manuscrito, com conhecimento sobre a identidade do autor.
+*Avaliador*: O avaliador poderá ver o nome do autor se clicar em "Ver Todos os Detalhes da Submissão" Não precisam de aceitar o pedido de revisão, a fim de visualizar essa informação. O avaliador pode tomar sua decisão sobre revisar um manuscrito com conhecimento sobre a identidade do autor.
 
 ![Abrir janela da atividade Revisão para editores.](./assets/learning-ojs3.3-ed-rev-open1.png)
 
@@ -438,7 +438,7 @@ O autor, avaliador e editor podem ver as mensagens entre o avaliador e o autor.
 
 ![Exemplo de comentários do revisor em aberto.](./assets/learning-ojs3.3-ed-rev-open4.png)
 
-Uma vez que as identidades não são secretas, não é necessário seguir passos sob [removendo informações](#removing-identifying-information).
+Uma vez que as identidades não são secretas, não é necessário seguir passos sob [removendo informações de identificação](#removing-identifying-information).
 
 ### Removendo Informações de Identificação
 
@@ -492,11 +492,11 @@ O(s) arquivo(s) aparecerá(ão) no upload inicial. Ao enviar a solicitação de 
 
 ![Opções para alternar quais arquivos estão incluídos para revisão.](./assets/learning-ojs3.1-ed-rev-anon10.png)
 
-Clique em **OK**.
+Selecione o(s) Arquivo(s) de Revisão e clique em **OK**.
 
 ### Solicitar revisões
 
-{% include video.html id="LR_1BmmSTek" provider="youtube" title="Vídeo do Fluxo Editorial no OJS 3.3.  Módulo 7: Respondendo as revisões"%}
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Vídeo do Fluxo Editorial no OJS 3.3. Módulo 7: Respondendo as revisões"%}
 
 Este vídeo da Escola do PKP explica as etapas que o Editor de Seção e o autor tomam assim que as análises estiverem completas. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
@@ -510,25 +510,25 @@ Use o link *Ler avaliação*, no painel de avaliadores, para ler os comentários
 
 Selecione o link *Confirmar* na parte inferior da tela.
 
-![A análise confirmada status aplicado a uma revisão.](./assets/learning-ojs-3-ed-rev-thank.png)
+![O status da análise confirmada aplicado a uma revisão.](./assets/learning-ojs-3-ed-rev-thank.png)
 
 No painel de avaliadores, será possível ver o link *Agradecer ao avaliador*. Escolha-o para agradecer ao avaliador.
 
-![A janela do Revisor de Agradecimentos.](./assets/learning-ojs-3-ed-rev-thank2.png)
+![A janela de Agradecimentos do Revisor.](./assets/learning-ojs-3-ed-rev-thank2.png)
 
-Com base nas recomendações do avaliador, você pode usar os botões de ação para tomar uma decisão.
+Clique o botão **Agradecer avaliador** para enviar a mensagem.
 
 ### Tomando a decisão
 
-Com base nas recomendações do editor, você pode usar os botões de ação para tomar uma decisão.
+Com base nas recomendações do avaliador, você pode usar os botões de ação para tomar uma decisão.
 
-![Os vários botões de acção para tomar uma decisão sobre uma submissão.](./assets/learning-ojs-3-ed-rev-decision.png)
+![Os vários botões de ação para tomar uma decisão sobre uma submissão.](./assets/learning-ojs-3-ed-rev-decision.png)
 
 As opções incluem:
 
 **Aceitar submissão**: significa que a submissão foi aceita sem revisões e pode prosseguir para o estágio de Edição de Texto.
 
-Use o botão **Adicionar mensagem** para responder, seja solicitando uma revisão adicional seja informando ao autor que a submissão está pronta para avançar à próxima etapa.
+Use o botão **Adicionar mensagem** para responder, seja solicitando uma revisão adicional, seja informando ao autor que a submissão está pronta para avançar à próxima etapa.
 
 **Rejeitar submissão** : quer dizer que a submissão não foi aprovada na avaliação por pares e não é adequada a análise posterior. A submissão seria então transferida para os Arquivos. Apenas as submissões recusadas ​​nos Arquivos podem ser excluídas. No OJS 3.3, agora existe a opção de reverter uma decisão de recusa na fase de submissão e avaliação. Isso pode ser feito clicando em **Alterar decisão** e, em seguida, em **Reverter Decisão**. Depois que uma decisão de rejeitar é revertida, a submissão é restaurada ao estágio anterior e a rodada de avaliação se ativa.
 
@@ -602,7 +602,7 @@ Uma nova rodada será adicionada ao painel Revisão no painel de envio.
 
 Quando estiver pronto para iniciar a nova rodada de avaliação, atribua avaliadores, como fez na rodada anterior. Você pode atribuir os mesmos avaliadores ou avaliadores diferentes.
 
-Os avaliadores das rodadas anteriores não terão acesso aos comentários que fizeram na rodada anterior. Se um avaliador solicitou seus comentários da rodada anterior, o editor pode copiá-los da Rodada 1 - Detalhes da Avaliação e iniciar uma discussão na Rodada 2. Alternativamente, o periódico pode optar por encorajar o envio de Resposta ao Avaliador como parte da reapresentação .
+Os avaliadores das rodadas anteriores não terão acesso aos comentários que fizeram na rodada anterior. Se um avaliador solicitou seus comentários da rodada anterior, o editor pode copiá-los da Rodada 1 - Detalhes da Avaliação e iniciar uma discussão na Rodada 2. Alternativamente, o periódico pode optar por encorajar o envio de Resposta ao Avaliador como parte da resubmissão.
 
 Essas etapas podem ser repetidas até que uma decisão final, de aceitar ou recusar o manuscrito, seja tomada.
 
@@ -650,17 +650,17 @@ Isso abrirá uma nova janela.
 
 Você pode usar o menu suspenso de funções para escolher copiar e apertar o botão **Pesquisar**. Isto irá abrir todos os Revisores.
 
-Com isso, resta esperar que o Editor de Texto faça seu trabalho.
+Selecione um dos Editores de Texto para esta submissão.
 
-O Editor de Texto receberá uma mensagem do Editor de Seção por e-mail, solicitando que ele aceite a submissão.
+Escolha uma mensagem modelo.
 
 Faça as alterações necessárias na mensagem.
 
-Para fazer isso, selecione o botão azul **Enviar para editoração**.
+Clique em **Enviar**.
 
 Agora você pode ver a nova notificação de que a submissão está aguardando edição de cópias, o Editor de Texto está incluído na lista de Participantes e a solicitação está visível na Discussão de Edição de Texto.
 
-![A janela "Aguardando edição" notificação e lista de participantes atualizada.](./assets/learning-ojs-3-ed-copyediting-add-dash.png)
+![A notificação "Aguardando edição" e lista de participantes atualizada.](./assets/learning-ojs-3-ed-copyediting-add-dash.png)
 
 Agora, você deve esperar que o Editor faça seu trabalho.
 
@@ -670,13 +670,13 @@ O Editor de Texto receberá uma mensagem de e-mail do Editor de Seção solicita
 
 Para começar, eles devem fazer login e encontrar o envio em seu painel.
 
-![A fila de envio do editor de texto.](./assets/learning-ojs-3-ce-dash.png)
+![A fila de submissões do editor de texto.](./assets/learning-ojs-3-ce-dash.png)
 
 Em seguida, ele pode clicar no link Edição de texto ao lado do nome da submissão. Isso os levará diretamente ao estágio de edição de texto para esta submissão.
 
 ![A etapa de edição de cópias, como visto por um autor atribuído.](./assets/learning-ojs-3-ce-submission.png)
 
-A partir desse ponto, é possível ver os arquivos para edição de texto. Estes são os arquivos que requerem edição de texto. Ao clicar no título com link será feito o download do arquivo para a área de trabalho.
+A partir desse ponto, é possível ver os arquivos. Estes são os arquivos que requerem edição de texto. Ao clicar no título com link será feito o download do arquivo para a área de trabalho.
 
 Fora do OJS, eles farão o trabalho de edição.
 
@@ -684,13 +684,13 @@ Para verificar os metadados de envio, clique na guia Fluxo de trabalho para a gu
 
 ![A guia Publicação de um registro de artigo com campos de metadados](./assets/learning-ojs-3-ce-copyediting-metadata.png)
 
-Isso incluiria a verificação do título do artigo, resumo, nomes dos colaboradores, palavras-chave, etc.
+Isso incluiria a verificação do título do artigo, resumo, nomes dos colaboradores, palavras-chave etc.
 
 Se alguma alteração for feita, clique no botão **Salvar** antes de sair dessa janela.
 
 Você pode visualizar como a página Resumo ficaria, se publicada com os metadados atuais, clicando no botão Visualizar, na parte superior direita da página.
 
-#### Respostas do autor
+#### Consulte com o autor
 
 Isso incluiria a verificação do título do artigo, resumo, nomes dos colaboradores, palavras-chave, etc. Assim que terminarem a edição de texto, eles executarão as alterações após o Autor, adicionando uma nova discussão, usando o Discussões de Edição de Texto do painel"<em x-id="3>Adicionar discussão</em> link.
 
@@ -698,7 +698,7 @@ Na janela Adicionar discussão, eles devem escolher o autor e adicionar uma linh
 
 ![Adicionar janela de Discussão.](./assets/learning-ojs-3-ce-add-discussion.png)
 
-Mais adiante essa mesma janela, eles devem fazer o carregamento da cópia do arquivo editado.
+Mais adiante dessa mesma janela, eles devem fazer o carregamento da cópia do arquivo editado.
 
 ![A área de carregamento do arquivo da janela Adicionar Discussão.](./assets/learning-ojs-3-ce-add-discussion2.png)
 

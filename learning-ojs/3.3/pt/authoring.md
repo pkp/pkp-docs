@@ -1,5 +1,5 @@
 ---
-book: learning-ojs
+book: aprendendo o OJS
 version: 3.3
 showPageTOC: true
 title: Aprendendo Open Journal Systems 3.3 - Autoria
@@ -25,7 +25,7 @@ No momento, ela estará vazia, já que você não fez nenhuma submissão.
 
 ## Submissão de um Artigo
 
-Comece uma nova submissão clicando no **Nova submissão** botão localizado no lado direito da tela. Você será direcionado para a Etapa 1 de um processo de 5 etapas, para fazer o upload e descrever o manuscrito submetido.
+Comece uma nova submissão clicando no botão **Nova submissão** localizado no lado direito da tela. Você será direcionado para a Etapa 1 de um processo de 5 etapas, para fazer o upload e descrever o manuscrito submetido.
 
 ![Fila de submissões do autor com o botão de nova submissão](./assets/learning-ojs3.1-au-dashboard-empty.png)
 
@@ -39,7 +39,7 @@ Se a revista permite submissões em múltiplos idiomas, você pode selecionar o 
 
 Se o periódico tiver categorias habilitadas e configuradas, você pode selecionar as categorias de sua submissão da lista. As categorias podem ser configuradas em Configurações da Revista> Categorias.
 
-Selecione a seção apropriada para sua submissão (por exemplo, artigo, revisão, etc.). Se você não tiver certeza de qual seção é apropriada, dê seu melhor palpite.
+Selecione a seção apropriada para sua submissão (por exemplo, artigo, revisão etc). Se você não tiver certeza de qual seção é apropriada, dê seu melhor palpite.
 
 Leia e concorde com as declarações na lista de verificação de envio da submissão marcando cada caixa. Inclua quaisquer comentários para o editor, leia a declaração de privacidade do periódico e clique no botão **Salvar e continuar** para ir à **Etapa 2**.
 
@@ -55,10 +55,10 @@ No OJS 3.3, os autores podem fazer upload de vários arquivos de uma vez, bem co
   <video controls="true" allowfullscreen="true">
     <source src="./assets/submission3.3-files.mp4" type="video/mp4">
   </video>
-  <figcaption>Arraste e solte vários arquivos.</figcaption>
+  <figcaption>OJS 3.3 arraste e solte múltiplos arquivos.</figcaption>
 </figure>
 
-Depois de fazer upload de todos os seus arquivos, você pode indicar o tipo de arquivo para cada um em um único painel de menu. Além disso, metadados como uma descrição ou licença podem ser inseridos durante o fluxo de trabalho.
+Depois de fazer upload de todos os seus arquivos, você pode indicar o tipo de arquivo para cada um em um único painel de menu. Além de metadados como uma descrição ou licença podem ser inseridos durante o fluxo de trabalho.
 
 Depois de terminar de enviar e nomear todos os seus arquivos, clique no **botão Salvar e continuar** para ir à **Etapa 3**.
 
@@ -116,7 +116,7 @@ O envio do arquivo agora está completo! O Editor foi notificado de sua submiss�
 
 Depois de concluir uma submissão, você não pode fazer alterações nela.  Se desejar substituir o arquivo enviado ou fazer outras alterações na submissão, precisará entrar em contato com o Editor por meio da ferramenta de Discussão Pré-revisão.
 
-### Painel
+### Painel de controle
 
 E aqui está a submissão em seu painel. Você pode ver que ela está atualmente no estágio de _Submissão_.
 
@@ -140,7 +140,7 @@ Você poderá fazer alterações em qualquer um dos submenus à esquerda clicand
 
 ![Itens do menu de publicação](./assets/learning-ojs3.2-auth-dashboard-publication2-language.png)
 
-Quando a permissão for concedida, você poderá fazer alterações nas seguintes seções na guia Publicação: Título e Resumo, Colaboradores e Metadados. Embora Composição final esteja listada como uma opção no menu lateral, você não poderá fazer upload ou alterações nesta seção.
+Quando a permissão for concedida, você poderá fazer alterações nas seguintes seções na guia Publicação: Título e Resumo, Colaboradores e Metadados. Embora a composição final esteja listada como uma opção no menu lateral, você não poderá fazer upload ou alterações nesta seção.
 
 Se você notar que o botão 'Salvar' está cinza e inativo, isso significa que terá que solicitar permissão do Editor para fazer alterações em sua submissão ou pedir-lhe que faça as alterações para você.
 
@@ -150,7 +150,7 @@ Para saber mais, veja [o guia de melhores práticas em metadados de periódicos]
 
 ## Respondendo a uma revisão
 
-{% include video.html id="LR_1BmmSTek" provider="youtube" title="Vídeo sobre Respondendo uma avaliação no OJS"%}
+{% include video.html id="LR_1BmmSTek" provider="youtube" title="Vídeo Respondendo uma avaliação no OJS"%}
 Este vídeo da Escola do PKP explica como um editor responde a uma avaliação e como um autor pode fazer upload de revisões. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 Assim que o processo de revisão for concluído, você será notificado por e-mail pelo Editor sobre sua decisão.
@@ -209,7 +209,7 @@ Selecione os usuários que deseja notificar em Participantes.
 
 Adicione uma linha de assunto e uma mensagem.
 
-Clique em **OK**.
+Clique em **OK** para enviar a mensagem.
 
 Um e-mail foi enviado agora ao editor e tanto você quanto ele podem ver a mensagem no painel Revisar Discussões.
 
@@ -308,6 +308,6 @@ Clique no link da discussão para abri-lo, ler a mensagem e abrir o arquivo anex
 
 Depois de ler o arquivo anexado, você pode responder ao Editor de Layout, indicando as alterações necessárias ou sua aprovação.
 
-![Respondendo mensagem de Composição pronta para revisão de provas](./assets/learning-ojs-3-au-production-message2.png)
+![Respondendo à mensagem de Composição pronta para revisão de provas](./assets/learning-ojs-3-au-production-message2.png)
 
 É isso! Sua função no fluxo de trabalho editorial agora está concluída.
