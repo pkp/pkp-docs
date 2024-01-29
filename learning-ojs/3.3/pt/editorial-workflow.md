@@ -706,7 +706,7 @@ Para fazer isso, basta usar o link *Carregar arquivo*. Será aberta uma nova jan
 
 ![A tela de Carregamento de Arquivos.](./assets/learning-ojs-3-ce-upload1.png)
 
-Pressione **Continuar** para continuar.
+Pressione **Continue** para prosseguir.
 
 Isso abrirá a próxima etapa, onde você poderá editar o nome do arquivo, se necessário.
 
