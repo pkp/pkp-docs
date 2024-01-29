@@ -71,11 +71,11 @@ Clique em **Salvar** para gravar as alterações.
 
 ## Seções
 
-Este vídeo da PKP School explica como configurar as seções no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da PKP School explica como configurar as seções no OJS. Para assistir a outros vídeos desta série, visite [canal do Youtube do PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="_AAtxnFEodQ" provider="youtube" title="Vídeo sobre como configurar sessões em OJS"%}
 
-Use essa página para configurar as diferentes seções do periódico. Exemplos: artigos, editoriais, revisões, comentários, etc. O OJS exige pelo menos uma seção e cria automaticamente a seção “Artigos”. Você pode criar novas seções, editar seções existentes, ou excluir seções. As seções aparecerão para um autor selecionar quando eles fizerem uma submissão e serão usadas para organizar os artigos de suas edições publicadas. Você também pode atribuir editores para seções específicas. Esta parte do guia explica como você pode configurar seções.
+Use essa página para configurar as diferentes seções do periódico. Exemplos: artigos, editoriais, revisões, comentários etc. O OJS exige pelo menos uma seção e cria automaticamente a seção “Artigos”. Você pode criar novas seções, editar seções existentes, ou excluir seções. As seções aparecerão para um autor selecionar quando eles fizerem uma submissão e serão usadas para organizar os artigos de suas edições publicadas. Você também pode atribuir editores para seções específicas. Esta parte do guia explica como você pode configurar seções.
 
 ![Visualização do painel OJS das seções do submenu Configurações do Periódico com links para Ordenar e Criar Seção e lista editável das seções atuais.](./assets/learning-ojs3.2-jm-settings-journal-sections.png)
 
@@ -111,7 +111,7 @@ Você pode desmarcar “Itens desta seção NÃO serão incluídos para indexaç
 
 **Identifique os itens publicados nesta seção como\(n\)**: isto é usado por alguns sistemas. Note que esse campo não é obrigatório.
 
-**Editores atribuídos**: se existem editores cadastrados no periódico, você os verá listados aqui e poderá selecionar um deles para a seção. Isso significa que qualquer submissão feita nessa seção será automaticamente atribuída ao editor, poupando o trabalho de designar manualmente um editor.
+**Editores de seção**: se existem editores cadastrados no periódico, você os verá listados aqui e poderá selecionar um deles para a seção. Isso significa que qualquer submissão feita nessa seção será automaticamente atribuída ao editor, poupando o trabalho de designar manualmente um editor.
 
 Clique em **Salvar** para gravar as alterações e retornar à página de Seções.
 
@@ -123,7 +123,7 @@ A partir da página de Seções, selecione a opção Criar Seção para abrir um
 
 Preencha as informações e clique em Salvar para gravar as alterações.
 
-### Restringir submissões
+### Restringir submissões de seção
 
 Cada seção permite restringir envios marcando a caixa de seleção "Os itens só podem ser enviados por Editores e Editores de Seção".
 
