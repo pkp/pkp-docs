@@ -91,15 +91,17 @@ When this plugin is enabled, access the plugin's settings menu to enable the opt
 If you wish to upload articles that do not have an abstract, ensure that the Section selected for the articles has been configured so that it does not require abstract in Journals > Sections. You can read more about configuring sections in the [Sections portion of Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/3.3/en/journal-setup#sections).
 
 ## Uploading Back Issue Articles with ORCIDs
-*FINISH THIIIIIIIIIIIIIS
-
 
 ORCIDs can be added to articles added through QuickSubmit one of two ways depending on whether your journal uses the ORCID plugin.
 
 ### If the ORCID Plugin is Enabled
 
-If you already use the ORCID plugin, you should invite authors to provide ORCID authorization to connect their ORCID iDs to the publication. The invitations can be sent when you are filling out the Contributor information. 
+If you already use the [ORCID plugin](https://docs.pkp.sfu.ca/orcid/en/), you should [invite authors to provide ORCID authorization to connect their ORCID iDs to the publication](https://docs.pkp.sfu.ca/orcid/en/using-plugin#editors-can-invite-contributors-to-connect-their-orcid-ids-to-the-publication). The invitations can be sent when you are filling out the Contributor information. 
+
+![The Add Contributor form with the "Send email to request ORCID authorization from contributor" option enabled.](./assets/orcid-plugin-enabled.png)
 
 ### If the ORCID Plugin is Not Enabled
 
 If you are not using the ORCID plugin, but still want to include the ORCID iD in the article information, you can insert it manually.  Be careful to copy and paste the ORCID directly from the ORCID iD profile to avoid typos. And ensure that you use https (not http), in order to avoid future validation errors. 
+
+![The Add Contributor form with an ORCID manually entered in the ORCID ID field.](./assets/orcid-plugin-enabled.png)
