@@ -267,7 +267,7 @@ Exemplo (veja o link MP3 no menu lateral ao final da página): [International Re
 
 Como alternativa, você pode incorporar o arquivo de áudio, vídeo ou imagem em uma página HTML para que os usuários possam visualizar o arquivo diretamente em seu navegador. Consulte **Adicionar imagens e multimídia a uma prova HTML** acima para obter instruções sobre como fazer isso.
 
-Exemplo: Intersectional Apocalypse
+Exemplo: [Intersectional Apocalypse](https://journals.lib.sfu.ca/index.php/ifj/article/view/673)
 
 ##### Carregar um arquivo multimídia vinculado a um site externo
 
