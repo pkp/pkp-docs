@@ -740,7 +740,7 @@ A partir daqui, você pode ver que nenhuma alteração adicional é necessária.
 
 ### O arquivo final de texto editado
 
-Agora você pode ir em frente e carregar a versão final editada para o painel de de Edição, perto da parte inferior da tela.
+Agora você pode ir em frente e carregar a versão final editada para o painel de Edição, perto da parte inferior da tela.
 
 ![A opção Carregar/Selecionar Arquivos pode ser encontrada perto da seção Editar do painel.](./assets/learning-ojs-3-ce-copyedited.png)
 
