@@ -41,36 +41,35 @@ The following is a good overview of common needs and what potential start points
 | Unfamiliarity with OJS/OMP/OPS | [Documentation Hub](https://docs.pkp.sfu.ca/); [PKP School](https://pkpschool.sfu.ca/) 
 |Familiarity with PKP software, but a specific question regarding OJS/OMP/OPS.|[PKP Forum](https://forum.pkp.sfu.ca/)|
 |Desire to customize PKP software|[PKP Technical Docs](https://docs.pkp.sfu.ca/dev/), [Github Repository](https://github.com/pkp/)|
-|Questions/information related to particular plugins|[PKP Forum](https://forum.pkp.sfu.ca/), Plugin Inventory](https://docs.pkp.sfu.ca/plugin-inventory/en/)|
+|Questions/information related to particular plugins|[PKP Forum](https://forum.pkp.sfu.ca/), [Plugin Inventory](https://docs.pkp.sfu.ca/plugin-inventory/en/)|
 
 ### Documentation
 
-PKP has many user guides and videos on how to install, configure, and use our software in the [PKP Documentation Hub](https://docs.pkp.sfu.ca) [](https://docs.pkp.sfu.ca/) ([https://docs.pkp.sfu.ca](https://docs.pkp.sfu.ca)). If you’re looking for information about how a certain feature works or how to carry out a task in OJS, OMP, or OPS, the PKP Documentation Hub is the best place to go as a starting point.
+PKP has many user guides and videos on how to install, configure, and use our software in the [PKP Documentation Hub](https://docs.pkp.sfu.ca) [](https://docs.pkp.sfu.ca/). If you’re looking for information about how a certain feature works or how to carry out a task in OJS, OMP, or OPS, the PKP Documentation Hub is the best place to go as a starting point.
 
-  
 
 The Documentation Hub also includes a variety of materials on privacy, discoverability, sustainability, and other relevant issues that are more broadly applicable to open access digital publishing which are not particular to PKP software (but may reference it). Browsing the [Documentation Hub](https://docs.pkp.sfu.ca) is a good way to understand the tools offered and to locate resources best suited to your needs.
 
 #### General PKP guides (intended for non-technical audiences):
 
--   Learning OJS 3:  [https://docs.pkp.sfu.ca/learning-ojs/en/](https://docs.pkp.sfu.ca/learning-ojs/en/) is a comprehensive guide on how to use OJS for journal managers, editors, reviewers, and authors. It explains journal setup, editorial workflow, and OJS tools.
+-   [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/): is a comprehensive guide on how to use OJS for journal managers, editors, reviewers, and authors. It explains journal setup, editorial workflow, and OJS tools.
     
--   Learning OMP 3:  [https://docs.pkp.sfu.ca/learning-omp/](https://docs.pkp.sfu.ca/learning-omp/) explains how to use OMP to publish books and manage the editorial workflow.
+-   [Learning OMP 3]([https://docs.pkp.sfu.ca/learning-omp/): explains how to use OMP to publish books and manage the editorial workflow.
     
--   Learning OPS: [https://docs.pkp.sfu.ca/learning-ops/en/](https://docs.pkp.sfu.ca/learning-ops/en/) explains how to use OPS to publish preprints.
+-   [Learning OPS](https://docs.pkp.sfu.ca/learning-ops/en/): explains how to use OPS to publish preprints.
     
--   PKP Software FAQ:  [https://docs.pkp.sfu.ca/faq/en/](https://docs.pkp.sfu.ca/faq/en/) is a list of frequently asked questions and responses related to PKP software.
+-   (PKP Software FAQ)[https://docs.pkp.sfu.ca/faq/en/](https://docs.pkp.sfu.ca/faq/en/): is a list of frequently asked questions and responses related to PKP software.
     
 
   
 
 #### Technical guides (intended for technical audiences):
 
--   PKP Administrators’ Guide  [https://docs.pkp.sfu.ca/admin-guide/en/](https://docs.pkp.sfu.ca/admin-guide/en/) is for systems administrators of PKP software. It includes instructions on managing the server environment, importing and exporting, security, and configuring statistics and email.
+-   [PKP Administrators’ Guide](https://docs.pkp.sfu.ca/admin-guide/en/): is for systems administrators of PKP software. It includes instructions on managing the server environment, importing and exporting, security, and configuring statistics and email.
     
--   Upgrade Guide: [https://docs.pkp.sfu.ca/dev/upgrade-guide/](https://docs.pkp.sfu.ca/dev/upgrade-guide/) is for systems administrators, focused on how to complete OJS upgrades.
+-   [Upgrade Guide](https://docs.pkp.sfu.ca/dev/upgrade-guide/): is for systems administrators, focused on how to complete OJS upgrades.
     
--   Developer Documentation:  [https://docs.pkp.sfu.ca/dev/](https://docs.pkp.sfu.ca/dev/) is a guide for coders who may want to customize or contribute to PKP software development.
+-   [Developer Documentation](https://docs.pkp.sfu.ca/dev/): is a guide for coders who may want to customize or contribute to PKP software development.
     
 
 #### General publishing guides (intended for non-technical audiences)
@@ -120,7 +119,7 @@ The PKP Forum is a very active community space, with an average of 53 topics pos
 
 #### Forum Language
 
-Although English is the primary language of the site, members are allowed to post in any other language of their choosing. On the PKP Forum, some support is available in languages other than English, under the “Regional Networks” categories (presently, German, Spanish, and Italian): [https://forum.pkp.sfu.ca/c/regional-networks/25](https://forum.pkp.sfu.ca/c/regional-networks/25)
+Although English is the primary language of the site, members are allowed to post in any other language of their choosing. On the PKP Forum, some support is available in languages other than English, under the [“Regional Networks”](https://forum.pkp.sfu.ca/c/regional-networks/25) categories (presently, German, Spanish, and Italian).
 
 Responses to forum posts in languages other than English, similar to PKP documentation, is dependent on participation and contribution from particular communities.
 
@@ -128,11 +127,11 @@ Responses to forum posts in languages other than English, similar to PKP documen
 
 [Github](https://github.com) is the online space where PKP software development is managed and discussed. Github is a commonly-used platform for managing open source software development because it makes the development process open and transparent and allows for users to contribute software code, provide input on issues or features, as well as reuse the code for other projects.
 
-PKP stores all the code for its software applications (OJS, OMP, OPS) in its Github repository ([https://github.com/pkp/pkp-lib](https://github.com/pkp/pkp-lib)) on the Github website. As the software developers build the software, they add their code to the Github repository and the code is assembled into [software releases](https://github.com/pkp/pkp-lib/tags). Different versions of the software are stored in the Github repository and software developers can keep track of what features, changes, and bug fixes are included in different software versions. An overview of the versioning system used by PKP software can be found as part of the [upgrade guide](https://docs.pkp.sfu.ca/dev/upgrade-guide/en/#a-note-on-versions).
+PKP stores all the code for its software applications (OJS, OMP, OPS) in its [Github repository](https://github.com/pkp/pkp-lib)) on the Github website. As the software developers build the software, they add their code to the Github repository and the code is assembled into [software releases](https://github.com/pkp/pkp-lib/tags). Different versions of the software are stored in the Github repository and software developers can keep track of what features, changes, and bug fixes are included in different software versions. An overview of the versioning system used by PKP software can be found as part of the [upgrade guide](https://docs.pkp.sfu.ca/dev/upgrade-guide/en/#a-note-on-versions).
 
   
 
-Users can download software from the Github repository and install it locally. Users can get patches and bug fixes from Github and apply them to their own software installations (much of this is explored in the [administrator’s guide](https://docs.pkp.sfu.ca/admin-guide/en/)). The software code can also be used to develop other applications, so long as the rules of the [licence](https://github.com/pkp/pkp-lib/blob/main/LICENSE) are abided by.
+Users can download software from the Github repository and install it locally. Users can get patches and bug fixes from Github and apply them to their own software installations (much of this is explored in the [administrator’s guide](https://docs.pkp.sfu.ca/admin-guide/en/)). The software code can also be used to develop other applications, so long as the rules of the [licence](https://github.com/pkp/pkp-lib/blob/main/LICENSE) are respected.
 
 The Github repository is also where software developers and PKP software users can suggest and discuss new features and report bugs (errors in the software). If you’re having an issue with OJS, OMP, or OPS that you think might be a bug, you can search on Github to see if it has already been reported and/or resolved (you may also be able to find this information through searching the forum). Then, if it has, you may be able to solve the issue by applying a patch or upgrading to a new version of the software, though this might have to be done by a systems administrator.
 
@@ -205,11 +204,11 @@ Using the various advanced search filters on the forum may also assist in narrow
 
 ## 3. Posting to the Forum
 
-It is important to note that support on the PKP Community Forum is provided for free by PKP staff and community members. PKP staff are particularly active on the forum, however, it should be noted that PKP staff are a small team and need to balance time spent answering questions on the Forum with other work developing and maintaining our free and open source software and other services. We cannot guarantee that every question will be answered or that every issue is resolved. As such, we ask that users of the forum have appropriate levels of patience and reasonable expectations, and abide by forum guidelines [https://forum.pkp.sfu.ca/t/forum-guidelines-and-code-of-conduct/37] when posing questions on the forum.
+It is important to note that support on the PKP Community Forum is provided for free by PKP staff and community members. PKP staff are particularly active on the forum, however, it should be noted that PKP staff are a small team and need to balance time spent answering questions on the Forum with other work developing and maintaining our free and open source software and other services. We cannot guarantee that every question will be answered or that every issue is resolved. As such, we ask that users of the forum have appropriate levels of patience and reasonable expectations, and abide by [forum guidelines](https://forum.pkp.sfu.ca/t/forum-guidelines-and-code-of-conduct/37) when posing questions on the forum.
 
 ### Forum etiquette and approach
 
-It is considered good etiquette to first search the forum for answers to the problem you are facing, as users may have encountered and resolved the same, or similar, issue. More information on searching the forum can be found on ___ section.
+It is considered good etiquette to first search the forum for answers to the problem you are facing, as users may have encountered and resolved the same, or similar, issue. More information on searching the forum can be found in the above [search](#searching-the-forum-for-a-solution) section.
   
 Please bear in mind that you should limit your posts to one question only (if you have multiple questions, please remember to create separate forum posts, as per forum [guidelines](https://forum.pkp.sfu.ca/t/forum-guidelines-and-code-of-conduct/37#keep-the-forum-tidy-7)).
 
@@ -217,20 +216,16 @@ Please bear in mind that you should limit your posts to one question only (if yo
 
 In posting questions to the forum, it is important to provide as much information as possible, including, but not limited to:
 
--   the specific version number and software you are using [e.g. OMP/OJS/OPS 3.3.0-11],
+-   the specific version number and software you are using [e.g. OMP/OJS/OPS 3.3.0-11]
     
--   specific steps that you have taken to resolve your issue,
+-   specific steps that you have taken to resolve your issue
     
--   error log messages, where appropriate, and
+-   error log messages (where relevant)
     
 -   screenshots and links where possible (to illustrate something that is publicly visible on the site)
     
 
-
-
 In addition to the above best practices, please respond promptly when asked for follow-up information. More detail on each of these best practices is elaborated here below:
-
-  
 
 Including the specific version number and software you are using will help those who may respond to your post potentially test the issue out using an appropriate version. Or, if the issue you are facing has been resolved, they may be able to point out how your issue may be remedied by applying a patch to your software or by upgrading the version of your software to a version wherein your issue has been resolved. Please see the (forum post on how to determine your version) number[https://forum.pkp.sfu.ca/t/how-do-i-determine-my-pkp-softwares-version/28534] if you are unsure of how to determine which version of the software you are using.
 
@@ -247,7 +242,7 @@ Take care to exclude any personal information when sharing screenshots or video 
 When considering posting to the forum, it is important to note that your issue may have been encountered before and therefore solutions to your issue may exist already.
   
 
-If you want to suggest a new feature, you can [create an account on Github](https://github.com/join) and create an Issue in PKP’s Github repository. However, if you have limited experience with or knowledge with PKP software, it’s better to first post about the feature request on the [Forum](https://pkp.sfu.ca/2022/07/20/improving-how-we-collect-community-feedback/). If proposing a new feature request, the post should be posted under the “Feature Request” category and follow the template provided. Please see this [blog post](https://pkp.sfu.ca/2022/07/20/improving-how-we-collect-community-feedback/) for an overview of how feature requests are handled by the PKP development team. If unsure about the availability of a particular feature in OJS/OMP/OPS, It could be that the software already does what you want it to do (or that there is an available plugin that may meet your need). In those cases, it may be appropriate to create a post on the forum (in the “Software Support” category), if you are unsure whether PKP software may meet your particular need, you may wish to pose a question about your use case on the forum and other users will comment.
+If you want to suggest a new feature, it’s better to first post about the feature request on the [Forum](https://pkp.sfu.ca/2022/07/20/improving-how-we-collect-community-feedback/). When proposing a feature request, the post should be posted under the “Feature Request” category and follow the template provided. Please see this [blog post](https://pkp.sfu.ca/2022/07/20/improving-how-we-collect-community-feedback/) for an overview of how feature requests are handled by the PKP development team. If unsure about the availability of a particular feature in OJS/OMP/OPS, It could be that the software already does what you want it to do (or that there is an available plugin that may meet your need). In those cases, it may be appropriate to create a post on the forum (in the “Software Support” category), if you are unsure whether PKP software may meet your particular need, you may wish to pose a question about your use case on the forum and other users will comment.
 
 ## 4. Github
 
@@ -277,7 +272,7 @@ In this case, this issue, which was deemed an “Enhancement” is associated wi
 
 To search Github for an issue using an example of an editor on a journal using OJS 3.1.2 who finds that the Copyeditor cannot access an article’s metadata.
 
--   Go to [https://github.com/pkp/pkp-lib](https://github.com/pkp/pkp-lib)
+-   Go to [pkp-lib Github repository](https://github.com/pkp/pkp-lib)
     
 -   In the Search box on the top left of the page, enter search terms and press Enter. For this example, we will enter “copyeditor metadata” in the search field.
     
@@ -337,7 +332,7 @@ Sometimes your issue will not actually be related to the software itself and cou
 
   
 
--   Stack Overflow [https://stackoverflow.com/](https://stackoverflow.com/): A general technical support forum for developers and systems administrators. Useful for questions about servers, php, etc.
+-   [Stack Overflow](https://stackoverflow.com/): A general technical support forum for developers and systems administrators. Useful for questions about servers, php, etc.
     
 -   Your IT support person or team
     
