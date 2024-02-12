@@ -1,5 +1,5 @@
 ---
-isBookIndex: true
+isBookIndex: false
 ---
 # PKP Software Help Guide
 
