@@ -1,6 +1,5 @@
 ---
 title: PKP Help Guide
-showPageTOC: true
 generateHeadingToc: true
 ---
 
