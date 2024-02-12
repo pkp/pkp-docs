@@ -1,7 +1,7 @@
 ---
 title: Using QuickSubmit for Back Issues (OJS 3.x)
 description: A guide on how to upload back issues in OJS using the QuickSubmit plugin with the original publication dates.
-showPageTOC: true
+generateHeadingToc: true
 ---
 
 # Introduction
