@@ -26,11 +26,10 @@ Here are the main steps in setting up your press with OMP. The steps are split b
 
 ## After Publishing Content
 
-1. Register with the [PKP Preservation Network to preserve your content](/pkp-pn/en/)
-2. Determine your marketing and promotion strategy
+1. Determine your marketing and promotion strategy
     * Watch [Marketing the Monograph: A conversation on How to Promote Your Book](https://www.youtube.com/watch?v=rhhpOgXarbU)
     * [Highlight and promote content in OMP](/learning-omp/en/catalog-management)
-3. [Get your content indexed](/getting-found-staying-found/en/)
+2. [Get your content indexed](/getting-found-staying-found/en/)
     * Read Measuring monographs: A quantitative method to assess scientific impact and societal relevance
     * Consider applying to [Book Citation Index](https://support.clarivate.com/ScientificandAcademicResearch/s/article/Web-of-Science-Core-Collection-Book-Citation-Index---Coverage-is-of-the-full-book-and-not-selective-chapters?language=en_US) > [Selection Process](https://clarivate.com/webofsciencegroup/essays/selection-process-book-citation-index-web-science/)
     * Consider applying to [Directory of Open Access Books (DOAB)](https://www.doabooks.org/)
