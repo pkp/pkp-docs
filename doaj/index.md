@@ -1,5 +1,5 @@
 ---
-isBookIndex: true
+isBookIndex: false
 ---
 # Directory of Open Access Journals (DOAJ) Application Guide
 
