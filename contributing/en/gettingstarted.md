@@ -94,9 +94,9 @@ Also, since most contributors will not have direct edit access to PKP documents,
 ![Forking the PKP Docs repository](./assets/contrib-github-fork.gif)
 
 
-## Editing on GitHub.com 
+## Editing on GitHub 
 
-If you want to edit existing documentation or add a section or chapter to existing documentation, you can edit the document directly from the docs repository itself on GitHub.com.
+If you want to edit existing documentation or add a section or chapter to existing documentation, you can edit the document directly from the docs repository itself on github.com.
 
 1. Create a [GitHub](https://github.com) account if you do not already have one and log in.
 2. [Fork](https://docs.github.com/en/get-started/quickstart/github-glossary#fork) the [pkp-docs GitHub repository](https://github.com/pkp/pkp-docs) to your own account.
@@ -117,7 +117,7 @@ If you want to edit existing documentation or add a section or chapter to existi
 </figure>
 
 
-## Editing in a browser on the PKP Docs Hub 
+## Editing on the PKP Docs Hub 
 
 You can also edit existing documentation directly from the [PKP Docs Hub](https://docs.pkp.sfu.ca/) on the web. Clicking "Make a suggestion" will bring up an email contact form where you can write to PKP to ask for a change to  documentation. Clicking "Edit this page" will allow you to make edits in the pkp-docs GitHub repository exactly as though you were editing on GitHub.com as described above. 
 
