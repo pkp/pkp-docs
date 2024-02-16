@@ -643,7 +643,7 @@ A nova versão será marcada corretamente para ser reconhecida e atualizada pelo
 
 A publicação contínua – também conhecida como cronograma de publicação contínua – é uma forma de publicar que prioriza o imediato. Quando publicam continuamente, os artigos são liberados assim que estiverem prontos. Os periódicos também podem optar por fornecer uma visão prévia antes do layout (também conhecido como on-line primeiro, noticia, pós-impressão, primeira visão, etc.).
 
-Alguns diários podem achar que um cronograma de publicação mais frequente também pode ajudar com a otimização de mecanismos de busca (SEO) e fornecer uma maneira de gerar saída de mídia social mais frequente.
+Alguns periódicos podem achar que um cronograma de publicação mais frequente também pode ajudar com a otimização de mecanismos de busca (SEO) e fornecer uma maneira de gerar saída de mídia social mais frequente.
 
 O conteúdo deve ser considerado final e já foi submetido a revisão e edição de cópias. Uma vez que o trabalho pode ser citado de imediato, deveriam estar disponíveis números e anexos. Para evitar confusão, se os números das páginas estão sujeitos a mudanças, eles devem ser evitados.
 
