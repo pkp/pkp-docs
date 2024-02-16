@@ -19,7 +19,7 @@ Firstly, you will want to create and publish an issue in OJS for each back issue
 
 Typically, OJS sets the publication date as the date when the "Publish Issue" button was pressed. For back issues, you will likely want to edit this publication date to properly reflect the date when the issue was originally published. 
 
-1, Click on the "Back Issues" tab to locate the issue(s) you've just created to contain the articles you will upload for your back issue(s).
+1. Click on the "Back Issues" tab to locate the issue(s) you've just created to contain the articles you will upload for your back issue(s).
 2. Click the arrow next to the issue to expand the menu.
 3. Click "Edit".
 4. Change the publication date at the very top to the original publication date of the issue. The publication date is only available after the issue has been published.
