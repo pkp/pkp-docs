@@ -7,26 +7,17 @@ showPageTOC: true
 
 Now that you understand the basics of GitHub, this chapter explains how to add new documents and edit documents in the repository.
 
-## Edit a Document
+## File Naming Conventions
 
-If you want to edit existing documentation or add a section or chapter to existing documentation, you can edit the document directly from the docs repository itself.
+**In General**: While any name you create should work, it’s best to keep titles short and descriptive. Always replace spaces between words with a dash.
 
-1. Create a [GitHub](https://github.com) account if you do not already have one and log in.
-2. Navigate to [the repository in GitHub](https://github.com/pkp/pkp-docs).
-3. Follow the directory structure in GitHub until you see the file you want to edit.
-4. Click the filename to view that individual file.
-5. From there, on the top right of the document window, you should see a small pencil icon.
-6. Click that button to open up a plain text editor for the document within GitHub itself.
-7. Edit the document.
+**Titles**: Some example titles include: learning-ojs, pkp-theming-guide, crossref-ojs-manual. Remember that titles are part of the file path in the URL to individual docs so keep it simple.
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="./assets/contrib-01.mp4" type="video/mp4">
-  </video>
-  <figcaption>File edit menu in GitHub.</figcaption>
-</figure>
+**Chapters**: You might be tempted to number chapters, but if we ever need to create new chapters in between existing ones, we would need to re-number. It’s best to keep chapters in the same style as title-level names. Some examples for chapters include: getting-started.md, troubleshooting.md, data-import-and-export.md.
 
-If your edits requires you to replace or add images, see section on Adding/Replacing images.
+**Images**: Store all images in a single “assets” folder within the language you’re working (e.g.: en/assets/). Keep your image titles brief or with abbreviations and consistently named, so they’re easy to locate. Depending on how many images you have, numbering these might be a lot more convenient while working on the document. Listen to your heart. Some examples include: contrib-01.png, authoring-images-01.png. If you’re putting all your images into only the asset folder, it’s a good idea to name your images to correspond with chapter titles.
+
+Note that file names are case sensitive, so if the image is saved as learning-ojs3.1-jm-settings-workflow-email-templates.png and you reference learning-ojs3.1-jm-settings-workflow-email-templates.png in the document, the image will not display.
 
 ## Create a Document
 
@@ -37,7 +28,7 @@ When you create a new document, you need to decided whether to make it a _single
 
 ### Single Page Docs
 
-Single page documents are rendered fully from one markdown file. The table of contents on the side of the page is created using the header tags in markdown. For example:
+Single page documents are rendered fully from one Markdown file. The table of contents on the side of the page is created using the header tags in Markdown. For example:
 
 ```
 ## The "Documentation Hub"
@@ -59,13 +50,13 @@ generateHeadingToc: true
 ---
 ```
 
-From here, write the document out as you would using markdown. Any level two header (e.g.: `## text`) displays on the table of contents on the left as a chapter. Any level three header (e.g.: `### text`) displays as a sub-chapter. Levels four and up does not display on the sidebar table of contents.
+From here, write the document out as you would using Markdown. Any level two header (e.g.: `## text`) displays on the table of contents on the left as a chapter. Any level three header (e.g.: `### text`) displays as a sub-chapter. Levels four and up does not display on the sidebar table of contents.
 
 > Headings should never skip a level. Do not jump from `## Heading` (2) to `#### Sub-heading` (4). It is important that a sub-heading of `## Heading` (2) is `### Heading` (3) for accessibility.
 
 ### Multi-page Docs
 
-Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust directories with folders for individual languages/translations, and a single markdown file for every chapter of the document. They also contain a file called `SUMMARY.md` that creates the table of contents for the document and a file called `README.md` that serves as a first/landing page for your document. To create a multi-page document start with the following:
+Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust directories with folders for individual languages/translations, and a single Markdown file for every chapter of the document. They also contain a file called `SUMMARY.md` that creates the table of contents for the document and a file called `README.md` that serves as a first/landing page for your document. To create a multi-page document start with the following:
 
 1. In the pkp-docs repository, click Create New File. You will create the new folder for the document as you create the file.
 2. Enter the name of the document folder and then /. This will automatically create the folder.
@@ -84,7 +75,7 @@ Unlike with a single-page document, you no longer need to add to index.md. The r
 
 1. Create a folder for the [language of your document](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) using the two-letter ISO 639-1 code (e.g.,: en, fr, es, ar).
 2. Create a file called `SUMMARY.md`
-    - `SUMMARY.md` is the file that determines the display of the table of contents for your document. The markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single markdown file per chapter _or_ as a link to a specific heading within that markdown file. You can fill in all of the chapter and section links after you have created the chapter files.
+    - `SUMMARY.md` is the file that determines the display of the table of contents for your document. The Markdown list hierarchy determines the nesting of contents titles in your sidebar. Each chapter title is written as a link to either a single Markdown file per chapter _or_ as a link to a specific heading within that Markdown file. You can fill in all of the chapter and section links after you have created the chapter files.
         - a chapter link would look like: `- [Statistics](statistics.md)`
         - a heading inside that chapter would look like: `- [Definitions](./statistics.md#definitions)`
 
@@ -130,7 +121,7 @@ Save the README file when it is complete.
 
 #### Create chapter files
 
-Next you can create a separate file for each chapter in the guide and add content to each chapter. Each full chapter of a multi-page document should be a single markdown file.
+Next you can create a separate file for each chapter in the guide and add content to each chapter. Each full chapter of a multi-page document should be a single Markdown file.
 
 Every chapter file should have Title front matter (metadata), which can include the document title, and Description front matter, which should give a summary of the document and include main keywords that would be searched. For example, if the document is "Designing Your OJS Journal" and the chapter is "Inclusive and Accessible Theming," the Title could be as follows:
 
