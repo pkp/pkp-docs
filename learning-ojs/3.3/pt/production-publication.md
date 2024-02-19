@@ -473,7 +473,7 @@ Quando finalizar, clique em **Salvar**.
 
 Você também pode editar uma edição futura existente selecionando a seta azul à esquerda da entrada do problema na página de Edições Futuras.
 
-![Vol 1 No 3 (2018) em Edições Futuras com a seta azul selecionada para mostrar opções adicionais para Editar, Visualizar, Publicar Problema ou Excluir.](./assets/learning-ojs3.1-jm-issues-edit.png)
+![Vol 1 No 3 (2018) em Edições Futuras com a seta azul selecionada para mostrar opções adicionais para Editar, Visualizar, Publicar Edição ou Excluir.](./assets/learning-ojs3.1-jm-issues-edit.png)
 
 Isso revelará um link **Editar**, que abrirá uma nova janela de informações.
 
@@ -485,7 +485,7 @@ Use a seta azul ao lado de cada submissão para revelar links para ir diretament
 
 **Dados da Edição**: fornece acesso aos dados de volume, edição e número inseridos ao criar a edição pela primeira vez.
 
-**Edição de Provas**: permite que você envie as provas da edição completa - por exemplo, um PDF contendo todos os artigos. Isso será vinculado a partir da página da web do problema.
+**Edição de Provas**: permite que você envie as provas da edição completa - por exemplo, um PDF contendo todos os artigos. Isso será vinculado a partir da página da web da edição.
 
 **Identificadores**: Use este espaço para adicionar um DOI para o fascículo, caso seu periódico suporte identificadores em nível de edição.
 
@@ -493,7 +493,7 @@ Use a seta azul ao lado de cada submissão para revelar links para ir diretament
 
 Ao publicar um número, os artigos serão exibidos nas seções do seu periódico.
 
-Se você for para Configurações do diário > Seções e editar uma seção, você pode configurar como ela aparecerá na página do problema publicado, incluindo se o título da seção será exibido.
+Se você for para Configurações do diário > Seções e editar uma seção, você pode configurar como ela aparecerá na página do edição publicada, incluindo se o título da seção será exibido.
 
 Você também pode arrastar e soltar as seções para alterar a ordem de como elas aparecerão na edição publicada.
 
@@ -510,7 +510,7 @@ Se você quiser ver como seus artigos ficarão antes da publicação, clique no 
 
 ![Aba da Publicação da submissão mostra a subguia e a opção de Visualização e Agendamento para Publicação e troca de idiomas para inserir metadados em espanhol e inglês.](./assets/learning-ojs-3.3-ed-production-publish-preview-article.png)
 
-Se você quiser ver como seus artigos ficarão no contexto de um problema antes de publicá-lo, você pode usar o recurso Pré-visualização do problema:
+Se você quiser ver como seus artigos ficarão no contexto de uma edição antes de publicá-la, você pode usar o recurso Pré-visualização da edição:
 
 * Clique na seta azul ao lado da edição futura
 * Clique em **Visualizar**
