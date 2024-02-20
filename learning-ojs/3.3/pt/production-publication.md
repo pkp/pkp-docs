@@ -20,25 +20,25 @@ Clicando no artigo, o registro da submissão será aberto.
 
 Você verá que os arquivos editados agora estão disponíveis no painel **Arquivos Prontos para Publicação**.
 
-Na aba **Publicação**, você pode atribuir participantes (como um Editor de Layout) ao estágio de Editoração do fluxo de trabalho e se comunicar com os participantes no painel de **Discussões de Editoração**.
+Na aba **Editoração**, você pode atribuir participantes (como um Editor de Layout) ao estágio de Editoração do fluxo de trabalho e se comunicar com os participantes no painel de **Discussões de Editoração**.
 
 {% include video.html id="-VRKdBQPdn4" provider="youtube" title="Vídeo do Fluxo Editorial no OJS 3.3. Módulo 9: Editoração."%}
 
 Este vídeo da Escola do PKP explica os passos que o Editor de Seção ou Editor de Layout tomará na fase de Editoração e na aba Publicação. Para assistir a outros vídeos desta série, visite o [canal do PKP no YouTube](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-## Guias de Submissão
+## Abas de Publicação
 
 Todos os aspectos relacionados à publicação de uma submissão são feitos na aba Publicação. A aba Publicação permite editar ou adicionar informações sobre a submissão, incluindo colaboradores, metadados e identificadores. É também onde você fará o upload dos arquivos finais de prova para publicação na revista.
 
 ![Aba Publicação exibe os metadados associados a submissão. ](./assets/learning-ojs-3.2-production-publication-tab.png)
 
-Aqui, tem-se  uma visão geral da finalidade das diferentes abas desta seção. Instruções detalhadas sobre algumas delas estarão disponíveis posteriormente neste capítulo.
+Aqui, tem-se uma visão geral da finalidade das diferentes abas desta seção. Instruções detalhadas sobre algumas delas estarão disponíveis posteriormente neste capítulo.
 
-**Colaboradores**: Use essa aba para adicionar, editar ou remover colaboradores do artigo.
-
-**Metadados**: Use essa aba para adicionar ou editar palavras-chave do artigo.
+**Título & Resumo**: Use essa aba para editar título, subtítulo e resumo do artigo.
 
 Se alguma alteração for feita, clique em Salvar antes de sair dessa janela.
+
+**Contribuidores**: Use essa aba para adicionar, editar ou remover autores do artigo.
 
 **Metadados** Use esta guia para adicionar ou editar palavras-chave do artigo.
 
@@ -70,11 +70,11 @@ A guia de "Edições" permite que você realize o upload de várias imagens de c
 
 Uma notificação indicará que você deve designar algum usuário para criar os arquivos da Leitura de Prova (por exemplo, os PDFs, HTML etc.) a partir dos arquivos prontos para produção.
 
-Isso pode variar de periódico para periódico – você pode ter Editores de Layout ou Assistentes de Edição para fazer este trabalho. Alguns periódicos usam um design gráfico externo ou serviço de digitação. Se você quiser se comunicar com seu Editor de layout, Assistente de edição, designer gráfico ou digitador por meio do OJS e gerenciar o processo de editoração com eles, também no OJS, certifique-se de que tenham uma conta de usuário e adicione-os como participantes da submissão.
+Isso pode variar de periódico para periódico – você pode ter Editores de Layout ou Assistentes de Edição para fazer este trabalho. Alguns periódicos usam um design gráfico externo ou serviço de digitação. Se você quiser se comunicar com seu editor de layout, assistente de edição, designer gráfico ou digitador por meio do OJS e gerenciar o processo de editoração com eles, também no OJS, certifique-se de que tenham uma conta de usuário e adicione-os como participantes da submissão.
 
 Para realizar a tarefa, use o link  **Designar** Participantes. Isso abrirá uma nova janela.
 
-![Nova aba para atribuir participantes, como o Editor de Layout.](./assets/learning-ojs-3.2-se-production-participants-add.png)
+![Nova aba para atribuir participantes, como o editor de layout.](./assets/learning-ojs-3.2-se-production-participants-add.png)
 
 Use o filtro de papéis e o botão de pesquisa para encontrar usuários apropriados. Selecione o usuário e escolha uma mensagem predefinida. Clique em **OK** para enviar.
 
@@ -82,11 +82,11 @@ O usuário agora foi notificado por e-mail e no painel.
 
 ![Painel de submissão após a atribuição de participantes adicionais.](./assets/learning-ojs-3.2-se-production-participants-added.png)
 
-Você pode ver o Editor de Layout na lista de Participantes e o aviso de solicitação no painel Discussão da Edição. Agora, você pode esperar que o Editor de Layout complete suas tarefas.
+Você pode ver o editor de layout na lista de Participantes e o aviso de solicitação no painel Discussão da Editoração. Agora, você pode esperar que o Editor de Layout complete suas tarefas.
 
-### Utilizando templates
+### Edição de Layout
 
-Como Editor de layout, você receberá uma mensagem convidando-o a criar os arquivos de leitura de prova para a submissão. Para começar, faça login no sistema e vá ao seu painel.
+Como editor de layout, você receberá uma mensagem convidando-o a criar os arquivos de leitura de prova para a submissão. Para começar, faça login no sistema e vá ao seu painel.
 
 ![Painel do editor de layout mostrando a lista de manuscritos atribuídos.](./assets/learning-ojs-3.2-le-dashboard.png)
 
@@ -154,17 +154,17 @@ Os arquivos HTML têm a vantagem da flexibilidade. Eles lidam muito bem com link
 
 A criação de um arquivo HTML pode exigir mais tempo e esforço do que a criação de arquivos PDF. Os processadores de texto não possuem ferramentas eficazes para “Salvar como” em HTML. O Microsoft Word tenta fazer isso, mas os resultados não são úteis para carregar no OJS. Em vez disso, tente seguir este fluxo de trabalho:
 
-* Converta o documento do Word. Você pode usar esta [ferramenta on-line gratuita](https://word2cleanhtml.com/) para fazer uma conversão inicial:.
-* Abra os arquivos HTML resultantes em um editor de texto (como, por exemplo, Bloco de notas no Windows) ou editor de HTML (como, por exemplo, Adobe Dreamweaver). A partir daqui, você precisará fazer qualquer limpeza ou formatação final. É necessário compreender os fundamentos do HTML. Existem muitos [tutoriais gratuitos](https://www.w3schools.com/html/), mas leva algum tempo.
+* Converta o documento do Word. Você pode usar esta [ferramenta on-line gratuita](https://word2cleanhtml.com/) para fazer uma conversão inicial.
+* Abra os arquivos HTML resultantes em um editor de texto (por exemplo, bloco de notas no Windows) ou editor de HTML (por exemplo, Adobe Dreamweaver). A partir daqui, você precisará fazer qualquer limpeza ou formatação final. É necessário compreender os fundamentos do HTML. Existem muitos [tutoriais gratuitos](https://www.w3schools.com/html/), mas leva algum tempo.
 * Mantenha a formatação HTML básica. Concentre-se apenas em parágrafos, quebras de linha, cabeçalhos e links. Não se preocupe com fontes, cores ou outros elementos de design - o OJS cuidará de tudo isso automaticamente como parte do design geral da revista.
 * Faça upload para o OJS como um arquivo HTML de leitura de prova.
-* O visualizador de HTML renderiza arquivos HTML em um iframe, o que pode afetar a navegação para páginas da web com hiperlinks. Você pode ignorar esse recurso abrindo hiperlinks em uma nova aba do navegador, adicionando o atributo target = "_ blank" às suas tags href.
+* O visualizador de HTML renderiza arquivos HTML em um iframe, o que pode afetar a navegação para páginas da web com hiperlinks. Você pode ignorar esse recurso abrindo hiperlinks em uma nova aba do navegador, adicionando o atributo `target = "_ blank"` às suas tags href.
 
 Alguns exemplos de modelos HTML podem ser encontrados e adaptados a partir destas fontes:
 
 * [Recurso da U of A](https://drive.google.com/file/d/1mCP0tguFJf7jJn_CNceEwvRn5eCJrvxP/view) - Licença: CC0 1.0 Universal (CC0 1.0)
 
-Para definir o estilo de um arquivo individual de leitura de prova HTML:
+Exemplos (veja o link HTML no final da página):
 
 * [Antropologia Cultural](https://journal.culanth.org/index.php/ca/article/view/4434)
 * [[Evidence Based Library & Information Practice](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621).](https://journals.library.ualberta.ca/eblip/index.php/EBLIP/article/view/29621)
@@ -180,7 +180,7 @@ Para estilizar um arquivo de prova HTML individual:
 * Edite o arquivo de leitura de prova
 * Faça upload das folhas de estilo CSS com o tipo de **componente apropriado - folha de estilo HTML**.
 
-Para estilizar todos os arquivos HTML de leitura de prova: se estiver usando um plugin de tema personalizado, você pode escrever uma linha de código para incluir um estilo personalizado para todos os arquivos HTML. Isso só se aplica a arquivos HTML de leitura de prova que não têm um estilo aplicado individualmente. Mais informações sobre temas personalizados estão disponíveis no [PKP Theming Guide](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
+Para estilizar todos os arquivos HTML de leitura de prova: se estiver usando um plugin de tema personalizado, você pode escrever uma linha de código para incluir um estilo personalizado para todos os arquivos HTML. Isso só se aplica a arquivos HTML de leitura de prova que não têm um estilo aplicado individualmente. Mais informações sobre temas personalizados estão disponíveis no [Guia de Temas do PKP](https://docs.pkp.sfu.ca/pkp-theming-guide/en/).
 
 ##### Adicionar imagens e multimídia a um componente HTML
 
@@ -263,11 +263,11 @@ Os arquivos multimídia podem ser incorporados à página do artigo no site do s
 
 Ao carregar um arquivo multimídia, você pode selecionar “texto do artigo” da lista de componentes e carregar o arquivo (MP3, MP4, arquivo de imagem, etc.) diretamente. Isso permitirá que o usuário acesse o arquivo usando o software de visualização de imagens ou o software de reprodução de áudio/vídeo instalado em seu dispositivo.
 
-Exemplo: [Intersectional Apocalypse](https://journals.lib.sfu.ca/index.php/ifj/article/view/673).
+Exemplo (veja o link MP3 no menu lateral ao final da página): [International Review of Research in Open and Distance Learning](http://www.irrodl.org/index.php/irrodl/article/view/3279)
 
 Como alternativa, você pode incorporar o arquivo de áudio, vídeo ou imagem em uma página HTML para que os usuários possam visualizar o arquivo diretamente em seu navegador. Consulte **Adicionar imagens e multimídia a uma prova HTML** acima para obter instruções sobre como fazer isso.
 
-Exemplo: Intersectional Apocalypse
+Exemplo: [Intersectional Apocalypse](https://journals.lib.sfu.ca/index.php/ifj/article/view/673)
 
 ##### Carregar um arquivo multimídia vinculado a um site externo
 
@@ -473,7 +473,7 @@ Quando finalizar, clique em **Salvar**.
 
 Você também pode editar uma edição futura existente selecionando a seta azul à esquerda da entrada do problema na página de Edições Futuras.
 
-![Vol 1 No 3 (2018) em Edições Futuras com a seta azul selecionada para mostrar opções adicionais para Editar, Visualizar, Publicar Problema ou Excluir.](./assets/learning-ojs3.1-jm-issues-edit.png)
+![Vol 1 No 3 (2018) em Edições Futuras com a seta azul selecionada para mostrar opções adicionais para Editar, Visualizar, Publicar Edição ou Excluir.](./assets/learning-ojs3.1-jm-issues-edit.png)
 
 Isso revelará um link **Editar**, que abrirá uma nova janela de informações.
 
@@ -485,7 +485,7 @@ Use a seta azul ao lado de cada submissão para revelar links para ir diretament
 
 **Dados da Edição**: fornece acesso aos dados de volume, edição e número inseridos ao criar a edição pela primeira vez.
 
-**Edição de Provas**: permite que você envie as provas da edição completa - por exemplo, um PDF contendo todos os artigos. Isso será vinculado a partir da página da web do problema.
+**Edição de Provas**: permite que você envie as provas da edição completa - por exemplo, um PDF contendo todos os artigos. Isso será vinculado a partir da página da web da edição.
 
 **Identificadores**: Use este espaço para adicionar um DOI para o fascículo, caso seu periódico suporte identificadores em nível de edição.
 
@@ -493,7 +493,7 @@ Use a seta azul ao lado de cada submissão para revelar links para ir diretament
 
 Ao publicar um número, os artigos serão exibidos nas seções do seu periódico.
 
-Se você for para Configurações do diário > Seções e editar uma seção, você pode configurar como ela aparecerá na página do problema publicado, incluindo se o título da seção será exibido.
+Se você for para Configurações do diário > Seções e editar uma seção, você pode configurar como ela aparecerá na página do edição publicada, incluindo se o título da seção será exibido.
 
 Você também pode arrastar e soltar as seções para alterar a ordem de como elas aparecerão na edição publicada.
 
@@ -510,7 +510,7 @@ Se você quiser ver como seus artigos ficarão antes da publicação, clique no 
 
 ![Aba da Publicação da submissão mostra a subguia e a opção de Visualização e Agendamento para Publicação e troca de idiomas para inserir metadados em espanhol e inglês.](./assets/learning-ojs-3.3-ed-production-publish-preview-article.png)
 
-Se você quiser ver como seus artigos ficarão no contexto de um problema antes de publicá-lo, você pode usar o recurso Pré-visualização do problema:
+Se você quiser ver como seus artigos ficarão no contexto de uma edição antes de publicá-la, você pode usar o recurso Pré-visualização da edição:
 
 * Clique na seta azul ao lado da edição futura
 * Clique em **Visualizar**
@@ -643,7 +643,7 @@ A nova versão será marcada corretamente para ser reconhecida e atualizada pelo
 
 A publicação contínua – também conhecida como cronograma de publicação contínua – é uma forma de publicar que prioriza o imediato. Quando publicam continuamente, os artigos são liberados assim que estiverem prontos. Os periódicos também podem optar por fornecer uma visão prévia antes do layout (também conhecido como on-line primeiro, noticia, pós-impressão, primeira visão, etc.).
 
-Alguns diários podem achar que um cronograma de publicação mais frequente também pode ajudar com a otimização de mecanismos de busca (SEO) e fornecer uma maneira de gerar saída de mídia social mais frequente.
+Alguns periódicos podem achar que um cronograma de publicação mais frequente também pode ajudar com a otimização de mecanismos de busca (SEO) e fornecer uma maneira de gerar saída de mídia social mais frequente.
 
 O conteúdo deve ser considerado final e já foi submetido a revisão e edição de cópias. Uma vez que o trabalho pode ser citado de imediato, deveriam estar disponíveis números e anexos. Para evitar confusão, se os números das páginas estão sujeitos a mudanças, eles devem ser evitados.
 

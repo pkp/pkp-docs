@@ -6,25 +6,25 @@ version: 3.3
 
 # Sobre o Open Journal Systems (OJS) {#about-ojs}
 
-Open Journal Systems \(OJS\) é uma solução de código aberto para o gerenciamento e publicação de periódicos acadêmicos online. OJS é um sistema de gerenciamento e publicação operado por editor, altamente flexível, que pode ser baixado gratuitamente e instalado em um servidor web local.
+Open Journal Systems \(OJS\) é uma solução de código aberto para o gerenciamento e publicação de periódicos acadêmicos online. O OJS é um sistema de gerenciamento e publicação operado por editor altamente flexível, que pode ser baixado gratuitamente e instalado em um servidor web local.
 
-Foi projetado para reduzir o tempo e a energia dedicados às tarefas rotineiras e gerenciais associadas à edição de um periódico, ao mesmo tempo, enquanto melhora a manutenção de registo e a eficiência dos processos editoriais. Procura aumentar a qualidade acadêmica e de publicação dos periódicos por meio de uma série de inovações, incluindo o aprimoramento da experiência do leitor, tornando mais transparentes as políticas das revistas, e melhorando a indexação.
+Foi projetado para reduzir o tempo e a energia dedicados às tarefas rotineiras e gerenciais associadas à edição de um periódico, enquanto melhora a manutenção de registo e a eficiência dos processos editoriais. Ele procura aumentar a qualidade acadêmica e de publicação dos periódicos por meio de uma série de inovações, incluindo o aprimoramento da experiência do leitor, tornando mais transparentes as políticas das revistas e melhorando a indexação.
 
-Este guia cobre o OJS versão 3.3, liberado em fevereiro de 2021, e apresenta melhorias significativas em relação às versões anteriores do software. Nós esperamos que você ache útil para os seus projetos de publicação.
+Este guia cobre o OJS versão 3.3, liberado em fevereiro de 2021, e apresenta melhorias significativas em relação às versões anteriores do software. Esperamos que você o considere útil para os seus projetos de publicação.
 
 ## Antecedentes
 
-Este vídeo da Escola do PKP explica o plano de fundo de PKP e de OJS. Para assistir a outros vídeos desta série, visite[PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+Este vídeo da Escola do PKP explica o plano de fundo de PKP e de OJS. Para assistir a outros vídeos desta série, visite o [canal do Youtube da PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
 {% include video.html id="SQfFGwIK2wI" provider="youtube" title="Vídeo de fundo sobre o PKP e o OJS"%}
 
-*OJS é um sistema de periódicos/gerenciamento de site/sistema de publicação*. OJS cobre todos os aspectos da publicação de um periódico on-line, desde a implementação do site da revista até as tarefas operacionais, como o processo de submissão do artigo pelo autor, a revisão por pares, edição, publicação, arquivamento e indexação do periódico. O OJS também ajuda a gerenciar os aspectos pessoais da organização de uma revista, incluindo o acompanhamento do trabalho dos editores, pareceristas e autores, notificando leitores e auxiliando com a correspondência.
+* O OJS é um sistema de periódicos/gerenciamento de site/sistema de publicação*. Ele cobre todos os aspectos da publicação de um periódico on-line, desde a implementação do site da revista até as tarefas operacionais, como o processo de submissão do artigo pelo autor, a revisão por pares, edição, publicação, arquivamento e indexação do periódico. O OJS também ajuda a gerenciar os aspectos pessoais da organização de uma revista, incluindo o acompanhamento do trabalho dos editores, pareceristas e autores, notificando leitores e auxiliando com a correspondência.
 
-*OJS é flexível e escalável*. Uma única instalação do OJS pode suportar a operação de uma ou mais revistas. Cada periódico tem seu próprio endereço URL, assim como a sua própria aparência. O OJS pode permitir que um único editor gerencie todos os tópicos da revista e seu website, ou o OJS vai apoiar um grupo de editores internacionais com diversas responsabilidades para as múltiplas seções de uma revista.
+* O OJS é flexível e escalável*. Uma única instalação do OJS pode suportar a operação de uma ou mais revistas. Cada periódico tem seu próprio endereço URL, assim como a sua própria aparência. O OJS pode permitir que um único editor gerencie todos os tópicos da revista e seu website, ou ele vai apoiar um grupo de editores internacionais com diversas responsabilidades para as múltiplas seções de uma revista.
 
-*OJS apoia o princípio de acesso estendido*. Este sistema tem a intenção de não apenas auxiliar a publicação da revista, mas de demonstrar como os custos de publicação de periódicos podem ser reduzidos ao ponto em que prover leitores com o “acesso aberto” aos conteúdos do periódico torna-se uma opção viável. O caso do “Acesso Aberto” é explicado por uma ampla variedade de artigos apresentados neste projeto e disponíveis gratuitamente por trás de Pesquisa > Publicações no website [Public Knowledge Project](https://pkp.sfu.ca).
+*O OJS apoia o princípio de acesso estendido*. Este sistema tem a intenção de não apenas auxiliar a publicação da revista, mas de demonstrar como os custos de publicação de periódicos podem ser reduzidos ao ponto em que prover leitores com o “acesso aberto” aos conteúdos do periódico torna-se uma opção viável. O caso do Acesso Aberto é explicado por uma ampla variedade de artigos apresentados neste projeto e disponíveis gratuitamente por trás de Pesquisa > Publicações no website [Public Knowledge Project](https://pkp.sfu.ca).
 
-*A origem do OJS*. O sistema foi liberado pela primeira vez em 2001, como uma pesquisa e uma iniciativa de desenvolvimento na Universidade da Colúmbia Britânica (University of British Columbia) com o financiamento do Conselho Canadense de Pesquisa em Ciências Sociais e Humanidades, a Max Bell Foundation, o Pacific Press Endowment e a MacArthur Foundation. A continuidade do desenvolvimento está sob os cuidados da Simon Fraser University Library. Para mais informações, acesse o site do [Public Knowledge Project](https://pkp.sfu.ca).
+*A origem do OJS*. O sistema foi liberado pela primeira vez em 2001, como uma pesquisa e uma iniciativa de desenvolvimento na Universidade da Colúmbia Britânica (University of British Columbia) com o financiamento do Conselho Canadense de Pesquisa em Ciências Sociais e Humanidades, a Max Bell Foundation, o Pacific Press Endowment e a MacArthur Foundation. A continuidade do desenvolvimento está sob os cuidados da Biblioteca da Simon Fraser University. Para mais informações, acesse o site do [Public Knowledge Project](https://pkp.sfu.ca).
 
 <hr />
 
@@ -34,15 +34,15 @@ Visite o nosso site para saber mais sobre o [Open Journal Systems](https://pkp.s
 
 ## Instalação e Atualização
 
-OJS é fácil de instalar e configurar. No entanto, executar um serviço da web requer um administrador de sistemas que saiba como implantar aplicativos web. Nosso Guia do Administrador fornece instruções completas sobre como [baixar, instalar e configurar o OJS](/admin-guide/pt).
+O OJS é fácil de instalar e configurar. No entanto, executar um serviço da web requer um administrador de sistemas que saiba como implantar aplicações web. Nosso Guia do Administrador fornece instruções completas sobre como [baixar, instalar e configurar o OJS](/admin-guide/pt).
 
-> Se você não tem a experiência, equipe ou desejo de instalar e gerenciar OJS por conta própria, [Serviços de publicação do PKP](https://pkp.sfu.ca/hosting-services) fornecem soluções de hospedagem completas para cada orçamento. 
+> Se você não tem a experiência, equipe ou desejo de instalar e gerenciar OJS por conta própria, os [Serviços de publicação do PKP](https://pkp.sfu.ca/hosting-services) fornecem soluções de hospedagem completas para cada orçamento. 
 > 
 > {:.tip}
 
 ## O que há de novo no OJS 3.3 {#whats-new}
 
-OJS 3.3 tem um menu simplificado de painel de navegação e novas funcionalidades relacionadas à gestão da submissão, comunicação com os usuários e acessibilidade. Esta seção vai destacar as principais mudanças para que você saiba o que esperar quando atualizar para a versão OJS 3.3. Você também pode assistir [ao vídeo (em inglês) que apresenta novas funcionalidades do OJS 3.3](https://youtu.be/3D_hS4Bd-Y8), criado pelo [Serviço de Publicação do PKP](https://pkpservices.sfu.ca).
+O OJS 3.3 tem um menu simplificado de painel de navegação e novas funcionalidades relacionadas à gestão da submissão, comunicação com os usuários e acessibilidade. Esta seção vai destacar as principais mudanças para que você saiba o que esperar quando atualizar para a versão OJS 3.3. Você também pode assistir [ao vídeo (em inglês) que apresenta novas funcionalidades do OJS 3.3](https://youtu.be/3D_hS4Bd-Y8), criado pelo [Serviço de Publicação do PKP](https://pkpservices.sfu.ca).
 
 Muitas dessas mudanças são aplicáveis também ao Open Monograph Press (OMP) e Open Preprint Systems (OPS).
 
@@ -66,7 +66,7 @@ Um usuário agora pode acessar seu perfil de usuário e selecionar um idioma em 
 
 ![O menu no qual os usuários podem editar o seu perfil e selecionar um idioma](./assets/learning-ojs-3.3-navigation-menu-dashboard-user-menu.png)
 
-O link do painel para acesso público da página inicial do site mudou. O Gerente ou Editor da revista agora pode ver o site público clicando no nome do periódico que aparece no símbolo do mapa do site, no canto esquerdo da página. Para instalações com várias revistas, pode-se clicar no mapa do site, no canto esquerdo da página, que a lista de instalação aparece e pode-se selecionar o site público da revista.
+O link do painel para acesso público da página inicial do site mudou. O Gerente ou Editor da revista agora pode ver o site público clicando no nome do periódico que aparece no símbolo do mapa do site, no canto superior esquerdo da página. Para instalações com várias revistas, pode-se clicar no mapa do site, no canto esquerdo da página, que a lista de instalação aparece e pode-se selecionar o site público da revista.
 
 ![O link para visualizar o site público do periódico](./assets/learning-ojs-3.3-navigation-menu-dashboard-view-journal.png)
 
@@ -74,7 +74,7 @@ O link do painel para acesso público da página inicial do site mudou. O Gerent
 
 #### Carregando arquivos de submissão
 
-Durante o processo de submissão, Autores podem carregar múltiplos arquivos de uma vez, bem como arrastar e soltar arquivos. Os Autores são mais requisitados no processo de inserir conteúdos dos metadados como a descrição, licença e outros. Tais informações podem ser inseridas durante o fluxo, uma vez que o assistente de carga segue em uso. Pode-se encontrar mais informações no [Capítulo para Autores](./authoring#step-2).
+Durante o processo de submissão, os autores podem carregar múltiplos arquivos de uma vez, bem como arrastar e soltar arquivos. Eles não são mais requisitados no processo de inserir conteúdos dos metadados como a descrição, licença etc. Tais informações podem ser inseridas durante o fluxo, onde o antigo assistente de upload de arquivos segue em uso. Pode-se encontrar mais informações no [Capítulo para Autores](./authoring#step-2).
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
@@ -85,7 +85,7 @@ Durante o processo de submissão, Autores podem carregar múltiplos arquivos de 
 
 #### Filtros de Submissão
 
-Todas as submissões ativas e arquivadas podem agora ser filtradas pelo número e editor. Somente gerentes de revista podem utilizar o filtro para editor. Para mais instruções, acesse o [Capítulo do Fluxo Editorial](./editorial-workflow#submission-dashboard).
+Todas as submissões ativas e arquivadas podem agora ser filtradas pelo número e editor designado. Somente gerentes de revista podem utilizar o filtro de editor designado. Para mais instruções, acesse o [Capítulo do Fluxo Editorial](./editorial-workflow#submission-dashboard).
 
 #### Reverter uma decisão declinada
 
@@ -101,13 +101,13 @@ Nas versões anteriores do OJS, os tipos de avaliação eram “Duplo-cega”, �
 
 #### Categoria exibida na página do artigo
 
-As categorias atribuídas a um artigo agora aparecem na página inicial do artigo. Podem-se encontrar mais informações no capítulo [Configurações da Revista](./journal-setup#categories).
+As categorias atribuídas a um artigo agora aparecem na página inicial do artigo. Pode-se encontrar mais informações no capítulo [Configurações da Revista](./journal-setup#categories).
 
 #### Desativar submissões
 
-Os gerentes e editores de periódicos podem definir as configurações do fluxo de trabalho para desativar todas submissões de uma revista. Tal recurso pode ser usado por periódicos que não aceitam novos conteúdos. Podem-se encontrar mais instruções no capítulo [Configurações da Revista](./journal-setup#categories).
+Os gerentes e editores de periódicos podem definir as configurações do fluxo de trabalho para desativar todas as submissões de uma revista. Tal recurso pode ser usado por periódicos que não aceitam novos conteúdos. Pode-se encontrar mais instruções no capítulo [Configurações da Revista](./journal-setup#categories).
 
-### Gerenciamento e comunicação de usuários
+### Gerenciamento de usuários e Comunicação
 
 #### Exportar usuários
 
@@ -115,11 +115,11 @@ Agora existe uma ferramenta de exportação, disponível em Ferramentas -> Impor
 
 #### Notificar usuários
 
-O OJS 3.3 dispõe de um recurso muito solicitado para notificar, ou enviar uma mensagem, a todos os usuários em um papel. Veja o capítulo [Usuários e Papéis](./users-and-roles#email-users) para obter mais informações.
+O OJS 3.3 dispõe de um recurso muito solicitado para notificar ou enviar uma mensagem, a todos os usuários de um papel. Veja o capítulo [Usuários e Papéis](./users-and-roles#email-users) para obter mais detalhes.
 
 #### Filtrar modelos de e-mail por estágio de fluxo de trabalho
 
-Ao gerenciar e editar modelos de e-mail em Configurações > Fluxo de trabalho > E-mails, os gerentes e editores de periódicos podem filtrar os modelos de e-mail por estágio do fluxo de trabalho. Podem-se encontrar mais instruções no capítulo de [Configurações do Fluxo de trabalho](./settings-workflow#filters).
+Ao gerenciar e editar modelos de e-mail em Configurações > Fluxo de trabalho > E-mails, os gerentes e editores de periódicos podem filtrar os modelos de e-mail por estágio do fluxo de trabalho. Pode-se encontrar mais instruções no capítulo de [Configurações do Fluxo de trabalho](./settings-workflow#filters).
 
 ### Acessibilidade
 
@@ -127,7 +127,7 @@ Em 2019, o OJS foi adotado para acessibilidade de pessoas com deficiência e uso
 
 ### Para revistas multilíngues
 
-OJS 3.3 tem um número de novos recursos que aprimoram o uso para jornais que trabalham e/ou publicam em múltiplas línguas.
+O OJS 3.3 tem um número de novos recursos que aprimoram o uso para revistas que trabalham e/ou publicam em múltiplas línguas.
 
 #### Formatos de data e hora
 

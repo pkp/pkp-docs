@@ -2,14 +2,14 @@
 book: ojs-lernen
 version: 3.3
 showPageTOC: wahr
-title: Offenes Journal System 3.3 lernen - Reviewen
+title: Open Journal System 3.3 lernen - Reviewen
 descriptions: Anleitung zur Verwaltung zugewiesener Reviews als Peer-Reviewer in OJS.
 ---
 
 # Reviewen
 
 {% include video.html id="CINhUa35Jic" provider="youtube" title="Video of the Reviewer's Steps in OJS"%}
-Dieses Video der PKP Schule erklärt, wie man einen Artikel in OJS überprüft. Um weiter Videos in dieser Serie zu sehen, besuchen Sie [PKPs YouTube-Kanal](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+Dieses PKP School Video erklärt, wie man einen Artikel in OJS reviewt. Um weiter Videos in dieser Serie zu sehen, besuchen Sie [PKPs YouTube-Kanal](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
 Als Reviewer erfahren Sie von der Bewertungsanfrage per E-Mail oder durch Überprüfen Ihres Dashboards:
 

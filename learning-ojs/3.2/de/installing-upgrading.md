@@ -5,9 +5,9 @@ version: 3.2
 
 # Installation und Aktualisierung
 
-OJS 3 ist eine PHP Webapplikation mit standardisierten Installation und Aktualisierungsprozessen. Diese Prozesse sind so einfach wie möglich gehalten. Es wird trotzdem Systemverwaltungserfahrung empfohlen.
+OJS 3 ist eine PHP Webapplikation mit standardisierten Installations- und Aktualisierungsprozessen. Diese Prozesse sind so einfach wie möglich gehalten. Es wird trotzdem Systemadministrationserfahrung empfohlen.
 
-Aktuelle OJS Systemanforderungen sowie Installations-, Upgrade- und Konfigurationsanweisungen finden Sie an den folgenden Orten:
+Aktuelle OJS Systemanforderungen sowie Installations-, Upgrade- und Konfigurationsanweisungen finden Sie an den folgenden Stellen:
 
 * im Paket, das Sie von der [OJS Download-Seite](https://pkp.sfu.ca/ojs/ojs_download/) heruntergeladen haben (siehe `docs/` Verzeichnis);
 * direkt in den online [README](https://pkp.sfu.ca/ojs/README) oder [UPGRADE](https://pkp.sfu.ca/ojs/UPGRADE) Dokumenten;
