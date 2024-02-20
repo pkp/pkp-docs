@@ -63,7 +63,8 @@ Replace the following variables in the configuration above with the correct path
 | `<root>` | Absolute path to the root directory of the application (OJS, OMP, OPS). |
 | `<log-file>` | Absolute path to a log file. If hosting in a cloud environment, you may want to [direct logs to stdout](https://stackoverflow.com/a/26897648/1723499). |
 
-Take a special note that workers are long running process that loads the application in memory. As a result, any changes when workers are running will not reflect instantly without restarting the worker.
+> Take a special note that workers are long running process that loads the application in memory. As a result, any changes when workers are running will not reflect instantly without restarting the worker.
+{:.notice}
 
 Restart Worker.
 
@@ -85,7 +86,8 @@ You may need to run the following command to apply the configuration changes.
 supervisorctl reread
 ```
 
-We strongly recommend to restart the Worker rather than Supervisor to reflect and consider the new changes pushed to production. Restarting Supervisor suddenly will cause the workers to quit abruptly and if the workers are in the middle of processing a job, it will not get the chance to complete the job which may cause undesired
+> **Warning:** We strongly recommend to restart the Worker rather than Supervisor to reflect and consider the new changes pushed to production. Restarting Supervisor suddenly will cause the workers to quit abruptly and if the workers are in the middle of processing a job, it will not get the chance to complete the job which may cause undesired.
+{:.warning}
 
 To configure Supervisor on other systems, or to learn more about monitoring processes, read the [Supervisor documentation](http://supervisord.org/index.html).
 
