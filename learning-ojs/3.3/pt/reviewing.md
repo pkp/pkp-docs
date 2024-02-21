@@ -2,7 +2,7 @@
 book: learning-ojs
 version: 3.3
 showPageTOC: true
-title: Aprendendo Open Journal Systems 3.3 - Processo de Revisão
+title: Aprendendo Open Journal Systems 3.3 - Processo de Avaliação
 descriptions: Instruções para gerenciar revisões atribuídas como revisor no OJS.
 ---
 
@@ -11,19 +11,19 @@ descriptions: Instruções para gerenciar revisões atribuídas como revisor no 
 {% include video.html id="CINhUa35Jic" provider="youtube" title=" Vídeo dos Passos do Revisor no OJS"%}
 Este vídeo da PKP School explica como revisar um artigo no OJS. Para assistir a outros vídeos desta série, visite [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-Como revisor, você ficará sabendo da solicitação de revisão por e-mail ou verificando seu painel:
+Como revisor, você ficará sabendo da solicitação de avaliação por e-mail ou verificando seu painel:
 
 ![A fila de submissões atribuídas no painel do revisor](./assets/learning-ojs-3-rev-dashboard.png)
 
-Na lista "Minhas Submissões Designadas", encontram-se o título e o link "Revisão". Observe a falta de qualquer informação sobre o autor neste processo de revisão por pares do Revisor Anônimo/Autor Anônimo.
+Na lista "Minhas Submissões Designadas", encontram-se o título e o link "Avaliação". Observe a falta de qualquer informação sobre o autor neste processo de revisão por pares do Revisor Anônimo/Autor Anônimo.
 
-Selecione o link "Revisão" e você será direcionado à primeira etapa de revisão no registro de envio, que é muito mais limitado do que a visão do Editor e não contém informações do Autor
+Selecione o link "Avaliação" e você será direcionado à primeira etapa de revisão no registro de envio, que é muito mais limitado do que a visão do Editor e não contém informações do Autor
 
 ![Um pedido de revisão](./assets/learning-ojs-3-rev-step1.png)
 
 Essa primeira etapa é constituída das seguintes seções:
 
-**Solicitação de revisão**: fornece algum texto, convidando você a trabalhar como avaliador.
+**Solicitação de Avaliação**: fornece algum texto convidando você a atuar como um revisor.
 
 **Título do artigo**: mostra o título do artigo.
 
@@ -62,7 +62,7 @@ Suas escolhas incluem:
 
 **Correções obrigatórias**: o texto requer pequenas alterações que podem ser revisadas e aceitas pelo editor.
 
-**Reenviar para Revisão**: requer grandes alterações e outra etapa de revisão por pares.
+**Reenviar para Avaliação**: requer grandes alterações e outra etapa de revisão por pares.
 
 **Submeter a outra revista**: o manuscrito não parece se ajustar ao foco e escopo do periódico.
 
@@ -78,4 +78,4 @@ Clique em OK. Você será direcionado para a tela de confirmação final, que ag
 
 ![A tela de conclusão da revisão enviada](./assets/learning-ojs-3-rev-step4.png)
 
-É isso! A revisão está completa.
+É isso! A avaliação está completa.
