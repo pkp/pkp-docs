@@ -12,23 +12,25 @@ version: 3.4
 
 When testing or debugging a production instance, you may want to sandbox the application to prevent it from sending emails, depositing data with third-party services, or performing other unwanted tasks. This section will describe some tips to sandbox your install.
 
-## Enabling the Sandbox mode
+## Enabling Sandbox mode
 
-To enable the sandbox mode for an instance, all it require to update the settings `sandbox` to `On` in the `config.inc.php` file . It will have following impact into the system:
+Beginning with OJS, OMP, and OPS 3.4.0-4, there is a sandbox mode that can be enabled in `config.inc.php` in order to prevent interactions with external systems.
 
- - This will set the email `default` driver to `log` at run time. As a result all emails sent by the application can be routed to the server's error log so that no emails will be sent out.
- - Scheduled tasks that run at regular intervals to send out reminder emails, deposit data with third-party services, and perform other tasks will be disabled. This will also disbale schedule task execution via `Acron` plugin.
- - Job execution process will be disabled. However dispatching jobs to queue will perform as it is.
- - `Crossref` and `Datacite` deposition will be disbaled.
- - `ORCiD` plugin, if installed will not have any interaction with orcid service.
- - If subscription enabled, no payment will be handled via `Paypal` .
+To enable the sandbox mode for an installation, edit `config.inc.php` and find the `sandbox` setting in the `[general]` section. Setting it to `On` will have following impacts:
 
-> **Warning:** Enabling the sandbox mode will disbale job processing via `job runner`, `cron` or `worker`. However if any worker process already running piror enabling sandbox mode, it will require separate manual intervention to restart/quit worker gracefully. See the [Job Deployment Guide](/admin-guide/en/deploy-jobs) for more details.
+ - The email `default` driver will be set to `log`. As a result all emails will be routed to the server's error log and no emails will be delivered.
+ - Scheduled tasks that run at regular intervals to send out reminder emails, deposit data with third-party services, and perform other tasks will be disabled. This will also disable schedule task execution via `Acron` plugin.
+ - Job execution will be disabled. However, jobs will continue to be dispatched to the queue as usual.
+ - `Crossref` and `Datacite` deposits will be disabled.
+ - The `ORCiD` plugin will not have any interaction with orcid service.
+ - No payments will dispatched to or handled by Paypal (e.g. for subscription purchases).
+
+> **Warning:** Enabling the sandbox mode will disable job processing via the job runner, cron and worker mechanisms. However, if any worker process is already running prior to enabling sandbox mode, it will require separate manual intervention to restart/quit worker gracefully. See the [Job Deployment Guide](/admin-guide/en/deploy-jobs) for more details.
 {:.warning}
 
-## Manula intervention for Sandboxing
+## Manual intervention for Sandboxing
 
-It is possible to manually configure/update some of the functionality/feature for sandboxing purpose when all above sandboxing feature not desired at a given time. See below how to configure some of the functionality/feature for sandboxing
+As an alternative to the sandbox mode described above, it is also possible to configure individual features with their own sandboxing options. See below for instructions on configuring the sandboxing of individual features.
 
 ### Send emails to the log
 
