@@ -22,9 +22,8 @@ Every server should be configured with _one_ of the following methods for runnin
 
 ### Workers
 
-For large sites, we recommend using the worker mode together with a supervisor-like application to process the jobs.
-The worker will run as a daemon, wait for jobs to be dispatched, execute a single job and quit. Once the worker quits, the supervisor will create another instance of it to process the remaining jobs.
-System resources can be allocated to the worker so that it will not cause spikes in resource usage that slow down the main site.
+For large sites, we recommend using a worker to process jobs. The worker, when run as a daemon, will wait for jobs to be dispatched and then run them one-by-one in a separate process on the server.
+System resources can be specifically allocated to the worker so that it will not cause spikes in resource usage that slow down the main site.
 
 The following command can be used to initialize a worker.
 
