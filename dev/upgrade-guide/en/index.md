@@ -104,7 +104,22 @@ OJS_PRIVATE_PATH="$OJS_ROOT_PATH/files" && \
 DATE=$(date "+%Y%m%d-%H:%M:%S")
 ```
 
-### 2. Enter Maintenance Mode
+### 2. Disable the execution of background tasks
+
+#### Shutdown the execution of scheduled tasks
+
+If you're using a `CRON`-like application to execute the `php tools/runScheduledTasks.php` periodically, please disable it or the specific tasks. If you're using the `Acron` plugin, then disable the plugin.
+
+After disabling, it's better to ensure that all tasks had a time to be completed, you can inspect the database, more specifically the `scheduled_tasks` table, and ensure that the `last_run` field of all entries points to a date slightly in the past (a couple of hours should suffice to execute everything).
+
+#### Shutdown the worker gracefully (only applicable for OJS +3.4)
+
+OJS 3.4 introduced Laravel jobs to process long running tasks, and you might also setup a separated task (worker) to execute these jobs out of the request cycle of the application, as explained in the [admin-guide](/admin-guide/en/deploy-jobs). If you're using the worker, it's needed to stop it gracefully before starting the upgrade.
+
+The worker can be gracefully interrupted by sending a `SIGTERM` signal to the PHP process, notice that OJS 3.4.0-5 has introduced a [`restart` command to the worker](/admin-guide/en/deploy-jobs), which does basically the same.
+If you're using a `supervisor`-like application to manage the worker, which is recommended, then please refer to its documentation regarding interrupting the applications gracefully.
+
+### 3. Enter Maintenance Mode
 
 Before beginning the migration, you should put the site into maintenance mode to ensure that visitors do not see error messages and there are no changes to the database or files while backups are being made. Maintenance mode should prevent all requests from being sent to the application.
 
@@ -127,7 +142,7 @@ Reload the apache server to apply the changes:
 (RHEL)$ systemctl restart httpd
 ```
 
-### 3. Create Backups
+### 4. Create Backups
 
 > **Do not skip this step.** An upgrade can fail for many reasons. Without a backup you may permanently lose data.
 {:.warning}
@@ -167,7 +182,7 @@ $ tar cvzf "$OJS_BACKUP_PATH/ojsfiles-$DATE.tgz" "$OJS_WEB_PATH"
 
 Backup any other customizations you have made to the software, such as custom plugins or locale files.
 
-### 4. Create Sandbox
+### 5. Create Sandbox
 
 Use your backup to create a sandbox environment and test the upgrade in that sandbox first. The steps below can be used in your sandbox environment to perform an upgrade.
 
@@ -175,7 +190,7 @@ Once the test is complete, you can run any automated or manual tests you have co
 
 **Only perform the next steps on your live, production environment if you have already completed a test upgrade in your sandbox environment.**
 
-### 5. Download Release Package
+### 6. Download Release Package
 
 Download the correct release package.
 
@@ -184,7 +199,7 @@ $ cd "$OJS_ROOT_PATH"
 $ wget "https://pkp.sfu.ca/ojs/download/$OJS_VERSION.tar.gz"
 ```
 
-### 6. Check System Requirements
+### 7. Check System Requirements
 
 Check the [README](https://pkp.sfu.ca/ojs/README) file from the downloaded `tar.gz` and be sure your system meets the following requirements.
 
@@ -198,7 +213,7 @@ In addition, you will want to perform the following checks.
 - Adjust your PHP timeouts and memory limits to ensure the upgrade process can complete successfully.
 - Check the server libraries and module requirements for any plugins you've added (these can often be found in the plugin's README file).
 
-### 7. Install Release Package
+### 8. Install Release Package
 
 Backup the application files.
 
@@ -259,7 +274,7 @@ If the server is running under [SElinux](https://en.wikipedia.org/wiki/Security-
 (RHEL)$ sudo restorecon -R "$OJS_WEB_PATH/"
 ```
 
-### 8. Run the Upgrade
+### 9. Run the Upgrade
 
 Confirm the version numbers match your expectations.
 
@@ -294,7 +309,7 @@ Check the progress of the upgrade.
 $ tail -f $OJS_ROOT_PATH/upgrade.log
 ```
 
-### 9. Remove Maintenance Mode
+### 10. Remove Maintenance Mode
 
 When the upgrade is complete, remove the maintenance mode previously configured by modifying your Apache `VirtualHost` directive or updating your `.htaccess` file.
 
@@ -313,7 +328,7 @@ Reload the apache server to apply the changes.
 (RHEL)$ systemctl restart httpd
 ```
 
-### 10. Test the Upgrade
+### 11. Test the Upgrade
 
 It's important to test the site after an upgrade. Any core functions for your journals should be tested, as well as custom plugins or themes once they have been reinstalled.
 
@@ -355,13 +370,17 @@ The following is a short checklist that covers common use cases.
         - Remove the new user by merging it to your admin account
 6. Additional testing of common tasks
 
-### 11. Restore Custom Plugins
+### 12. Restore Custom Plugins
 
 Use the Plugin Gallery to restore any custom plugins that were installed.
 
 If you have installed custom plugins which are not in the Plugin Gallery, check with the plugin distributor for an update which is compatible with your upgraded version.
 
-### 12. Cleanup Backup Files
+### 13. Reenable the execution of background tasks
+
+Basically undo the steps of the item 2, by reenabling the scheduled tasks and the job worker (if you were making use of it).
+
+### 14. Cleanup Backup Files
 
 You may wish to retain your backup files, but if you don't, you can remove them.
 
@@ -369,7 +388,7 @@ You may wish to retain your backup files, but if you don't, you can remove them.
 $ sudo rm -fR "$OJS_BACKUP_PATH/*"
 ```
 
-### 13. Celebrate
+### 15. Celebrate
 
 **Your OJS instance has been successfully upgraded. Congratulations!**
 
