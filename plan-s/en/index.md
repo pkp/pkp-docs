@@ -74,13 +74,15 @@ Statistics can be compiled in OJS by following the guidelines in the [Learning O
 
 **Approval rate**: This can be found in the [Editorial Activity report](https://docs.pkp.sfu.ca/learning-ojs/en/statistics#editorial-activity) under “Acceptance Rate.”
 
-**Average time between submission and publication**: This can be found by combining columns from two reports downloaded from the Report Generator:
+**Average time between submission and publication**: 
+
+**In OJS 3.3.x:** This can be found by combining columns from two reports downloaded from the Report Generator:
 - The Date Published column from the Views Report 
 - The Date Submitted column from the Articles Report
 
 To combine the columns, download both of the above reports in CSV, then import the relevant column from one spreadsheet into the other. Calculate the difference between the Date Published and Date Submitted for all articles in the desired time frame, then calculate an average.
 
-Note that there is an [active request to include Date Published in the Articles report](https://github.com/pkp/pkp-lib/issues/7691) so that the time between submission and publication can be calculated from a single report. This feature may be developed for inclusion in later versions of OJS.
+**In OJS 3.4.x:** This can be found in the Articles Report. Calculate the difference between the Date Submitted and First Published columns for all articles in the desired time frame, then calculate an average.
 
 #### Sharing statistics in OJS
 
@@ -256,11 +258,11 @@ Currently, OJS editors can add a link from an article to an externally hosted re
 
 > Openly accessible data on citations according to the standards by the [Initiative for Open Citations (I4OC)](https://i4oc.org/).
 
-Plan S recommends that journals provide open citation data in a way that is shareable, freely accessible and reusable. Being an open access journal does not automatically mean that journal’s citations are open - additional steps need to be taken to make it happen:
+Plan S recommends that journals provide open citation data in a way that is shareable, freely accessible and reusable. Being an open access journal does not automatically mean that journal’s citations are open.
 
-1. Set your citations to “open”. If you are a Crossref member, [check that your journal’s references are set to “open”](https://www.crossref.org/reporting/members-with-open-references/). Since 2017, all new members’ references are “open”, but earlier members may need to change this setting.
+One of the ways to make your references open is to submit them to Crossref. In OJS, this can be done by using the [Crossref Reference Linking plugin](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references). The plugin will deposit references to Crossref and return DOIs to include in article references in OJS. There is no additional charge to Crossref members for using the plugin.
 
-2. Submit your references to Crossref. In OJS, this can be done by using the [Crossref Reference Linking plugin](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references). The plugin will deposit references to Crossref and return DOIs to include in article references in OJS. There is no additional charge to Crossref members for using the plugin.
+All references you register with Crossref are automatically set to open. This is a change implemented in June 2022; Crossref no longer offers an option to members to restrich their references.
 
 ## Specific conditions for Open Access journals 
 
