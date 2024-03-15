@@ -1,24 +1,24 @@
 ---
-title: Solución de problemas y problemas conocidos - Uso del sistema PKP en varios idiomas
+title: Solución de problemas & problemas conocidos - Uso del software PKP en varios idiomas
 showPageTOC: true
 ---
 
 
 # Solución de problemas y problemas conocidos
 
-## Solución de problemas: Cambio de la configuración regional principal
+## Solución de problemas: Cambiando el idioma principal
 
-Como ya se ha mencionado, el cambio de la configuración regional principal de su revista puede dar lugar a importantes vacíos en los datos.
+Como ya se ha mencionado, el cambio del idioma principal de su revista puede dar lugar a importantes vacíos en los datos.
 
-Para evitar estos problemas, deberá copiar los datos de usuario y los datos de envío en los campos de configuración regional primaria. Si tiene un gran número de registros de usuarios y/o envíos, es posible que tenga que invertir recursos en desarrollar un código de programación o en alguna herramienta para copiar estos datos. Si tiene pocos registros, puede hacerlo manualmente.
+Para evitar estos problemas, deberá copiar los datos del usuario y los datos de envío en los campos del idioma principal. Si tiene un gran número de registros de usuarios y/o envíos, es posible que tenga que invertir recursos en desarrollar un código de programación o en alguna herramienta para copiar estos datos. Si tiene pocos registros, puede hacerlo manualmente.
 
 Para mover los datos manualmente:
 
-1.  Vuelva a activar la configuración regional anterior en Configuración del sitio web > Configuración > Idiomas, para que los datos introducidos anteriormente aparezcan en los registros.
+1.  Vuelva a activar el idioma anterior en Configuración del sitio web > Configuración > Idiomas, para que los datos introducidos anteriormente aparezcan en los registros.
 
-2.  Abra cada registro y copie los datos de configuración regional anteriores en los nuevos campos de configuración regional.
+2.  Abra cada registro y copie los datos del idioma anterior en los nuevos campos del idioma actual.
 
-Si la configuración regional del sitio muestra un idioma distinto del seleccionado como configuración regional principal, limpie los archivos de caché después de cambiar manualmente la información del idioma.
+Si la configuración regional del sitio muestra un idioma distinto del seleccionado como idioma principal, limpie los archivos de caché después de cambiar manualmente la información del idioma.
 
 
 
