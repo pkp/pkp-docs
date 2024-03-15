@@ -17,7 +17,7 @@ Now that you understand the basics of GitHub, this chapter explains how to add n
 
 **Images**: Store all images in a single “assets” folder within the language you’re working (e.g.: en/assets/). Keep your image titles brief or with abbreviations and consistently named, so they’re easy to locate. Depending on how many images you have, numbering these might be a lot more convenient while working on the document. Listen to your heart. Some examples include: contrib-01.png, authoring-images-01.png. If you’re putting all your images into only the asset folder, it’s a good idea to name your images to correspond with chapter titles.
 
-Note that file names are case sensitive, so if the image is saved as learning-ojs3.1-jm-settings-workflow-email-templates.png and you reference learning-ojs3.1-jm-settings-workflow-email-templates.png in the document, the image will not display.
+Note that file names are case sensitive, so if the image is saved as learning-ojs3.1-jm-settings-workflow-email-templates.png and you reference Learning-OJS3.1-jm-settings-workflow-email-templates.png in the document, the image will not display.
 
 ## Create a Document
 
@@ -47,10 +47,11 @@ To create a new single page document in GitHub:
 ```
 ---
 generateHeadingToc: true
+showPageTOC: true
 ---
 ```
 
-From here, write the document out as you would using Markdown. Any level two header (e.g.: `## text`) displays on the table of contents on the left as a chapter. Any level three header (e.g.: `### text`) displays as a sub-chapter. Levels four and up does not display on the sidebar table of contents.
+From here, write the document out as you would using Markdown. Any level two header (e.g.: `## text`) displays on the table of contents on the left as a chapter. Any level three header (e.g.: `### text`) displays as a sub-chapter. Levels four and up do not display on the sidebar table of contents.
 
 > Headings should never skip a level. Do not jump from `## Heading` (2) to `#### Sub-heading` (4). It is important that a sub-heading of `## Heading` (2) is `### Heading` (3) for accessibility.
 
