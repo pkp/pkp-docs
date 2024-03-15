@@ -1,5 +1,5 @@
 ---
-title: Instalación, habilitación y configuración de idiomas - Uso del sistema de PKP en varios idiomas
+title: Instalación, habilitación y configuración de idiomas - Uso del software PKP en varios idiomas
 showPageTOC: true
 ---
 
