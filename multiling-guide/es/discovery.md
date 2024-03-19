@@ -1,5 +1,5 @@
 ---
-title: Indexación y descubrimiento - Uso del sistema PKP en varios idiomas
+title: Indexación y descubrimiento - Uso del software PKP en varios idiomas
 showPageTOC: true
 ---
 
@@ -24,7 +24,7 @@ Los servicios de indexación y descubrimiento suelen solicitar metadatos en ingl
 
 ### Google Scholar
 
-Google Scholar ha declarado que puede indexar artículos en los que todos los campos de metadatos coinciden con los metadatos incluidos en la galerada del artículo, incluido el idioma utilizado. Independientemente del número de idiomas en que estén disponibles los metadatos, Google Scholar ha declarado que sólo indexará aquellos idiomas que vayan acompañados de una versión traducida de la galerada del artículo. Sin embargo, Google Scholar también ha declarado que busca el idioma del artículo en la URL y no en las etiquetas de metadatos, y no indexará artículos multilingües en OJS porque el idioma del artículo no se indica en la URL (debido a otros problemas técnicos que esto causaría).
+Google Scholar ha declarado que puede indexar artículos en donde todos los campos de metadatos coinciden con los metadatos incluidos en la galerada del artículo, incluido el idioma utilizado. Independientemente del número de idiomas en que estén disponibles los metadatos, Google Scholar ha declarado que sólo indexará aquellos idiomas que vayan acompañados de una versión traducida de la galerada del artículo. Sin embargo, Google Scholar también ha declarado que busca el idioma del artículo en la URL y no en las etiquetas de metadatos, y no indexará artículos multilingües en OJS porque el idioma del artículo no se indica en la URL (debido a otros problemas técnicos que esto causaría).
 
 Si observa que Google Scholar no indexa su revista, consulte la sección [Solución de problemas (disponible en inglés)](https://docs.pkp.sfu.ca/google-scholar/en/#troubleshooting-for-journal-managers-and-editors) de la guía de Google Scholar para obtener más información.
 
@@ -34,14 +34,14 @@ MEDLINE/Pubmed muestra un número ilimitado de idiomas cuando hay traducciones d
 
 Para obtener más información de este proceso, ponen a disposición las "[Instrucciones para artículos publicados en idiomas diferentes al inglés](https://www.ncbi.nlm.nih.gov/books/NBK3828/#publisherhelp.Instructions_for_art)".
 
-Las revistas se indexan en el idioma original de la publicación. El idioma de indización es aprobado por el Comité de Revisión Técnica de Selección de Literatura en el momento en que se acepta una revista.
+Las revistas se indexan en el idioma original de la publicación. El idioma de indización es aprobado por el Comité de Revisión Técnica de Selección Bibliográfica en el momento en que se acepta una revista.
 
 
-### CrossRef
+### Crossref
 
 Cuando los metadatos se exportan para su depósito en CrossRef, el DOI registrado por OJS, OMP y OPS adopta el idioma principal del envío.
 
-Si la revista hace el envío de archivos de galeradas en varios idiomas, puede realizar un depósito independiente para cada uno de ellos. Para obtener más información, visite [Documentación de Crossref](https://www.crossref.org/documentation/content-registration/structural-metadata/components/).
+Si la revista hace el envío de archivos de galeradas en varios idiomas, puede realizar un depósito independiente para cada uno de ellos. Para obtener más información, consulte la  [Documentación de Crossref (disponible en inglés)](https://www.crossref.org/documentation/content-registration/structural-metadata/components/).
 
 Para conocer otros requisitos de indexación, consulte la  [Guía de aplicación de indexación](https://docs.pkp.sfu.ca/indexing-guide/en/).
 
@@ -49,4 +49,4 @@ Para conocer otros requisitos de indexación, consulte la  [Guía de aplicación
 
 Si publica contenidos en más de un idioma, actualmente no es posible buscar artículos en un solo idioma. Hay un único índice de búsqueda para cada sitio y se buscará en todo el índice. Sin embargo, si un usuario busca palabras en un idioma, lo más probable es que recupere artículos en ese idioma, a menos que las palabras aparezcan en ambos o en todos los idiomas.
 
-El [Solr Lucene Plugin](https://github.com/ojsde/lucene) se puede utilizar en OJS para filtrar por idioma.
+El [componente Solr Lucene](https://github.com/ojsde/lucene) se puede utilizar en OJS para filtrar por idioma.
