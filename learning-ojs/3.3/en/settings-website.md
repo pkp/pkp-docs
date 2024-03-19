@@ -134,11 +134,17 @@ Some menu item types will only be displayed under certain conditions. For exampl
 
 When you assign a Menu Item with display conditions to a Menu, you will see an icon of an eye with a slash through it. You can click that icon to learn more about when it will be displayed or hidden.
 
-- **Navigation Menu Items**: These are programmed links you can add to either menu above. If you wish to add a link to the Primary Menu (e.g., "Our Society"), add it here using the _Add Item_ link.
+- **Navigation Menu Items**: These are pre-programmed links you can add to the menu above, which point to pre-programmed parts of the website. You can rename any of these pages by clicking on _Edit_. For example, you can rename "Archives" as "Back Issues."
+
+- **Navigation Menu Items: Add Item**: You can add new items to the menu. Click on _Add Item_ and choose from the drop-down menu. In addition to the pre-programmed links, you can also add an unlimited number of custom links. There are two types of custom links:
+
+Custom Page: If you wish to add a new webpage to OJS to the Primary Menu (e.g., "Journal History"), select _Custom Page_ to create a static webpage. Title your new page, and choose a URL path, being careful to ensure that the path is unique. Custom pages can be used for additional content not otherwise available on your website. They must be updated manually, using the correponsponding _Edit_ button within the Navigation Menu Items list.
+
+Remote URL: If you wish to add a link to an external website outside of OJS (e.g., "Our Society"), select _Remote URL_ and insert the full URL. It is good practice to periodically check the remote URL to ensure that it remains functional.
 
 ![Add item screen with item title and remote URL filled out.](./assets/learning-ojs3.1-jm-settings-web-navmenu-add.png)
 
-It will now appear in the list of Navigation Menu Items. Next, go to the desired Navigation Menu (e.g., Primary), use the blue arrow to reveal the options, and choose Edit. You can now drag and drop it from Unassigned Menu Items to Assigned Menu Items and into the appropriate location on the menu.
+Once created, custom links will now appear in the list of Navigation Menu Items. Next, go to the desired Navigation Menu (e.g., Primary), use the blue arrow to reveal the options, and choose Edit. You can now drag and drop it from Unassigned Menu Items to Assigned Menu Items and into the appropriate location on the menu.
 
 ![Primary navigation area with a list of assigned and unassigned menu items.](./assets/learning-ojs3.1-jm-settings-web-navmenu-add-nav.png)
 
@@ -461,33 +467,3 @@ Please note that:
 
 * Usage statistics can only be displayed for the current year. The plugin is reset at the beginning of each year.
 * The statistics being displayed indicate the number of times an article was downloaded.
-
-## Static Pages
-
-The **Static Pages plugin** allows you to create new pages on your journal website for additional content - for example, you could create a page that details your open access policies.
-
-To use the Static Pages plugin:
-
-* Go to Website Settings > Plugins and find the Static Pages plugin
-* Enable the plugin by checking the box beside it
-* Refresh the page in your browser. Now you should see a new tab next to **Plugins** called **Static Pages**.
-* Click the **Static Pages** tab
-
-![Static Pages tab in the Website Settings menu.](./assets/learning-ojs3.2-website-settings-static-pages-plugin.png)
-
-* Add a new page by clicking **Add Static Page**.
-* Fill in the form that opens with the content you want on the page. The **Path** will be used as part of the page URL and the **Title** will appear as the page title.
-
-![Add Static Page menu with a page title and path entered.](./assets/learning-ojs3.2-website-settings-add-static-page.png)
-
-* You can preview the page as you’re working by clicking the **Preview** link at the bottom of the form
-* When you’re finished creating the page, click **Save**
-
-After you create the page you will want to add it to your menu.  Instructions on how to do that are in the above section on **Navigation Menus**.
-
-To edit a page you created with the plugin:
-
-* Go to Website Settings > Static Pages
-* Click **Edit** next to the page you want to edit
-* You can preview the page as you’re working by clicking the **Preview** link at the bottom of the form
-* When you’re finished editing the page, click **Save**
