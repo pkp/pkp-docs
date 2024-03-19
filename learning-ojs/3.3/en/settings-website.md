@@ -136,7 +136,7 @@ When you assign a Menu Item with display conditions to a Menu, you will see an i
 
 - **Navigation Menu Items**: These are pre-programmed links you can add to the menu above, which point to pre-programmed parts of the website. You can rename any of these pages by clicking on _Edit_. For example, you can rename "Archives" as "Back Issues."
 
-- **Navigation Menu Items: Add Item**: You can add new items to the menu. Click on _Add Item_ and choose from the drop-down menu. In addition to the pre-programmed links, you can also add an unlimited number of costum links. There are two types of custom links:
+- **Navigation Menu Items: Add Item**: You can add new items to the menu. Click on _Add Item_ and choose from the drop-down menu. In addition to the pre-programmed links, you can also add an unlimited number of custom links. There are two types of custom links:
 
 Custom Page: If you wish to add a new webpage to OJS to the Primary Menu (e.g., "Journal History"), select _Custom Page_ to create a static webpage. Title your new page, and choose a URL path, being careful to ensure that the path is unique. Custom pages can be used for additional content not otherwise available on your website. They must be updated manually, using the correponsponding _Edit_ button within the Navigation Menu Items list.
 
