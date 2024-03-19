@@ -23,10 +23,10 @@ The Admin Guide describes the [system requirements](../../../admin-guide/en/gett
 Fork and clone the [OJS](https://github.com/pkp/ojs), [OMP](https://github.com/pkp/omp), or [OPS](https://github.com/pkp/ops) repository on GitHub. (Read more about [forking and cloning a repository](https://help.github.com/en/articles/fork-a-repo) on GitHub).
 
 ```
-git clone https://github.com/pkp/ojs --recurse-submodules -b stable-3_3_0
+git clone https://github.com/pkp/ojs --recurse-submodules -b stable-3_4_0
 ```
 
-(Use `omp` or `ops` in place of `ojs`, depending on which application you wish to check out. The `stable-3_3_0` part of the command is the branch to check out; make sure to choose the branch you want to develop against. See [Branches](#branches) for more information.)
+(Use `omp` or `ops` in place of `ojs`, depending on which application you wish to check out. The `stable-3_4_0` part of the command is the branch to check out; make sure to choose the branch you want to develop against. See [Branches](#branches) for more information.)
 
 Next, copy the default config file:
 
@@ -86,10 +86,10 @@ Load your browser and navigate to `http://localhost:8000` to install the applica
 
 ## Branches
 
-Published versions of the software can be found in branches in the git repository. For example, run the following command to check out the latest 3.3.0-x version of the software.
+Published versions of the software can be found in branches in the git repository. For example, run the following command to check out the latest 3.4.0-x version of the software.
 
 ```
-git checkout stable-3_3_0
+git checkout stable-3_4_0
 ```
 
 For any customization work, base your own branches on one of the stable branches. That should make it easier to maintain compatibility with plugins and future updates, and it locks down all dependencies to the versions used at the time of release. This is not true of the `main` branch, introducing the danger of incompatibilities between future versions of those dependencies, preventing successful builds of OJS/OMP/OPS at that point.
