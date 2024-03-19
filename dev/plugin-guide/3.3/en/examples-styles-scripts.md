@@ -40,13 +40,13 @@ class TutorialExamplePlugin extends GenericPlugin {
 }
 ```
 
-By default, scripts and styles are loaded on the reader-facing website. Pass a `context` argument to load them in the editorial backend.
+By default, scripts and styles are loaded on the reader-facing website. Pass a `contexts` argument to load them in the editorial backend.
 
 ```php
 $templateMgr->addStyleSheet(
   'tutorialExampleStyles',
   $url,
-  ['context' => 'backend']
+  ['contexts' => 'backend']
 );
 ```
 
@@ -57,7 +57,7 @@ You can pass more than one context to load them in two places.
 $templateMgr->addStyleSheet(
   'tutorialExampleStyles',
   $url,
-  ['context' => ['backend', 'frontend']
+  ['contexts' => ['backend', 'frontend']
 );
 ```
 
