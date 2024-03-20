@@ -5,7 +5,7 @@ description: A guide on how to contribute to PKP documentation about OJS, OMP, a
 
 # Introduction: Guidelines for Contributing to PKP Documentation
 
-This guide explain everything you need to know to contribute to the Public Knowledge Project's (PKP's) documentation, including how to get involved, how to edit and create documentation in PKP's Github repository, how to find and complete a documentation task, style and formatting tips, and copyright policies. 
+This guide explains everything you need to know to contribute to the Public Knowledge Project's (PKP's) documentation, including how to get involved, how to find and complete a documentation task, how to edit and create documentation in PKP's GitHub repository, tips on style and formatting, and copyright policies. 
 
 PKP creates and maintains extensive documentation about our software applications Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS), as well as on scholarly publishing best practices. All of our documentation is available in the [PKP Docs Hub](https://docs.pkp.sfu.ca/index.html) and includes both user guides and videos.
 
