@@ -17,7 +17,7 @@ Input from our community helps us improve the software. We welcome bug reports a
 
 You can **report a bug** whenever you encounter an error in the software. For example, if the software says an article is published but it is not appearing with other published articles, that is probably a bug. Before reporting a bug, search our [support forum](https://forum.pkp.sfu.ca/c/questions/5) to see if anyone has already reported it. If not, open a new topic or draft. You may need to create an account or log into your account on the forum first.
 
-> You can open a bug report in our [GitHub repository](https://github.com/pkp/pkp-lib/issues/). However, we recommend starting with the support forum because you are more likely to receive help there. When you open an issue in our GitHub repository you will be expected to respond knowledgably to technical questions. GitHub is not a good place to ask for user support.
+> You can open a bug report in our [GitHub repository](https://github.com/pkp/pkp-lib/issues/). However, we recommend starting with the support forum because you are more likely to receive help there. When you open an issue in our GitHub repository you will be expected to respond knowledgeably to technical questions. GitHub is not a good place to ask for user support.
 {:.notice}
 
 You can **suggest an enhancement** whenever you encounter something in the software that doesn't work the way that you expect it to. For example, if you think a user should be notified by email about something but they are not. Before suggesting an enhancement, search our [feature request forum](https://forum.pkp.sfu.ca/c/questions/feature-requests/8) to see if anyone has already requested it. If not, open a new thread.
@@ -30,7 +30,7 @@ PKP's developers work collaboratively across all parts of the software. However,
 
 | Team | Lead | Responsibilities |
 | --- | --- | --- |
-| **Infastructure** | Alec (@asmecher) | Software architecture and development tools: routing, localization, caching, tests, upgrades, dependencies, deployment and performance. |
+| **Infrastructure** | Alec (@asmecher) | Software architecture and development tools: routing, localization, caching, tests, upgrades, dependencies, deployment and performance. |
 | **Distribution and Metadata** | Bozana (@bozana) | Metadata, deposits, and Library Information Science (LIS) protocols: DOIs, OAI-PMH, Crossref, statistics, themes, versioning and retraction. |
 | **Workflow** | Vitaliy (@Vitaliy-1) | Editorial workflow: submission lists, the submission wizard, editorial decisions, stage assignments, submission files, and the author and reviewer workflows. |
 
@@ -69,7 +69,7 @@ No labels, projects or milestones are assigned at this stage.
 A member of the assigned development team will briefly investigate the issue and confirm or close it.
 
 - For **bugs**, follow the reproduction steps or request reproduction steps when none have been provided. Request better reproduction steps or close the issue when unable to reproduce it.
-- For **enhancements**, ask questions to gather all the information necessary to understand the request. Close the issue and ask the reporter to post in the [feature requests forum](https://forum.pkp.sfu.ca/c/questions/5) when more discussion is needed to reach concensus or assess its priority.
+- For **enhancements**, ask questions to gather all the information necessary to understand the request. Close the issue and ask the reporter to post in the [feature requests forum](https://forum.pkp.sfu.ca/c/questions/5) when more discussion is needed to reach consensus or assess its priority.
 
 Allow two weeks for the person who filed the issue to respond to any requests for reproduction steps or more information. If they don't reply after two weeks, close the issue.
 
@@ -145,7 +145,7 @@ pkp/pkp-lib#1572 Added support for withdrawing submissions
 
 ### Pull Requests
 
-A pull request must pass our integration tests before it will be merged. Special commits are required to run the integration tests when changes are made against more than one repository. Read about how to [prepare your pull requests](https://docs.pkp.sfu.ca/dev/testing/en/continuous-integration) for continous testing.
+A pull request must pass our integration tests before it will be merged. Special commits are required to run the integration tests when changes are made against more than one repository. Read about how to [prepare your pull requests](https://docs.pkp.sfu.ca/dev/testing/en/continuous-integration) for continuous testing.
 
 #### Code Review
 
