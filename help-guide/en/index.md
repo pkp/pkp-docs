@@ -56,7 +56,7 @@ The Documentation Hub also includes a variety of materials on privacy, discovera
 
 -   [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/): is a comprehensive guide on how to use OJS for journal managers, editors, reviewers, and authors. It explains journal setup, editorial workflow, and OJS tools.
     
--   [Learning OMP 3]([https://docs.pkp.sfu.ca/learning-omp/): explains how to use OMP to publish books and manage the editorial workflow.
+-   [Learning OMP 3](https://docs.pkp.sfu.ca/learning-omp/): explains how to use OMP to publish books and manage the editorial workflow.
     
 -   [Learning OPS](https://docs.pkp.sfu.ca/learning-ops/en/): explains how to use OPS to publish preprints.
     
