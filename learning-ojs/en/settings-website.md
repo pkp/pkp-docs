@@ -158,7 +158,13 @@ This section allows you to create and display news announcements on the journal'
   - **Introduction**: Enter any general information you would like to appear on your announcements page.
   - **Display on Homepage**: Enter the number of announcements to be displayed on the homepage. If this is left blank, no announcements will be displayed.
 
-Once the Announcements setting is enabled, click "Save." An "Announcements" menu item now appears in the main navigation on the left hand side. Click on this menu item and select "Add Announcement." Here you can include the title of the announcement, a short description and / or full text of the announcement, and an (optional) expiry date. If you wish to send an email notification to all users (who have not opted out of email notifications), select "Send notification email to all registered users." The announcement should now appear on an "Announcements" tab on the public-facing journal site.
+Once the Announcements setting is enabled, click "Save." An "Announcements" menu item now appears in the main navigation on the left hand side. Click on this menu item and select "Add Announcement." Here you can include the title of the announcement, a short description and / or full text of the announcement, and an (optional) expiry date. 
+
+If you wish to send an email notification to all users (who have not opted out of email notifications), select "Send notification email to all registered users." Note that this option only works when sending a new announcement. You can edit an announcement you made before, but no email will be sent at this stage if you select the "Send notification" option.
+
+![OJS 3.4 Create the text for a new announcement.](./assets/learning-ojs3.4-settings-website-new-announcement.png)
+
+The announcement should now appear on an "Announcements" tab on the public-facing journal site.
 
 ![OJS 3.3 Announcements menu enabled in the sidebar with an option to add and edit announcements.](./assets/learning-ojs3.3-settings-website-announcements.png)
 
