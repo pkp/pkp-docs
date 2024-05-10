@@ -162,7 +162,7 @@ Once the Announcements setting is enabled, click "Save." An "Announcements" menu
 
 If you wish to send an email notification to all users (who have not opted out of email notifications), select "Send notification email to all registered users." Note that this option only works when sending a new announcement. You can edit an announcement you made before, but no email will be sent at this stage if you select the "Send notification" option.
 
-![OJS 3.4 Create the text for a new announcement.](./assets/learning-ojs3.4-settings-website-new-announcement.png)
+![OJS 3.3 Create the text for a new announcement.](./assets/learning-ojs3.3-settings-website-new-announcement.png)
 
 The announcement should now appear on an "Announcements" tab on the public-facing journal site.
 
