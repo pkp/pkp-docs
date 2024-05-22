@@ -77,3 +77,78 @@
 		line-height: 44px;
 	}
 }
+
+/* New Header Styles */
+.siteHeader {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    align-items: flex-end;
+    .siteHeader__logo {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width: 300px;
+        height: auto;
+        .siteHeader__logoImage {
+            max-height: none;
+            width: 300px;
+        }
+    }
+    .siteHeader__about {
+        float: none;
+        color: #414042;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+        letter-spacing: 0.4px;
+        position: relative;
+        bottom: 10px;
+        padding-left: 69px;
+    }
+}
+@media (max-width: 800px) {
+    .siteHeader {
+        display: flex;
+        flex-direction: column;
+        padding: 24px;
+        align-items: flex-start;
+        background-color: #CC0633;
+        .siteHeader__logo {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            width: 222px;
+            height: 70.3px;
+
+            .siteHeader__logoImage {
+                max-height: none;
+                width: 222px;
+                height: 70.3px;
+                display: none;
+            }
+            background-image: url(/img/logo-on-red.png);
+            background-size: cover;
+        }
+        .siteHeader__about {
+            a {
+                color: #FFF;
+                font-style: normal;
+                font-weight: 400;
+                text-decoration: underline;
+            }
+            float: none;
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            letter-spacing: 0.28px;
+            position: relative;
+            bottom: 0px;
+            left: 0px;
+            padding-left: 0px;
+        }
+    }
+}
