@@ -237,7 +237,7 @@ $ cp "$OJS_BACKUP_PATH/html/config.inc.php" "$OJS_WEB_PATH"
 Run the following command to compare your configuration file with the template of the new release. Add or remove any configuration options as necessary.
 
 ```bash
-$ diff "$OJS_BACKUP_PATH/config.inc.php" "$OJS_WEB_PATH/config.TEMPLATE.inc.php"
+$ diff "$OJS_WEB_PATH/config.inc.php" "$OJS_WEB_PATH/config.TEMPLATE.inc.php"
 ```
 
 Restore the `.htaccess` file if it exists.
