@@ -129,3 +129,118 @@ h6[id] {
 		}
 	}
 }
+
+/* New Book Header Styles */
+.bookHeader {
+    display: flex;
+    flex-direction: row;
+    padding: 24px;
+    justify-content: justify;
+    align-items: flex-end;
+    height: 144px;
+    .bookHeader__logo {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width: 300px;
+        height: auto;
+        .bookHeader__logoImage {
+            max-height: none;
+            width: 300px;
+        }
+    }
+    .bookHeaderTools {
+        text-align: right;
+        flex-grow: 1;
+        float: none;
+        color: #414042;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+        letter-spacing: 0.4px;
+        position: relative;
+        bottom: -9px;
+        padding-left: 69px;
+        .version {
+            position: relative;
+            top: 4px;
+        }
+    }
+}
+.body--withSidebar .book__sidebar {
+    top: 144px !important;
+}
+@media (max-width: 900px) {
+    .bookHeader {
+		
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: justify;
+        align-items: flex-start;
+        background-color: #CC0633;
+        height: auto;
+		.gsc-input-box {
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
+        #sidebarControl {
+            color: #FFF;
+        }
+        .bookHeader__logo {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            width: 150px;
+            height: 47.5px;
+            .bookHeader__logoImage {
+                max-height: none;
+                width: 150px;
+                height: 47.5px;
+                display: none;
+            }
+            background-image: url(/img/logo-on-red.png);
+            background-size: cover;
+        }
+        .bookHeaderTools {
+            text-align: right;
+            flex-grow: 1;
+            float: none;
+            color: #414042;
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140%;
+            letter-spacing: 0.4px;
+            position: relative;
+            bottom: 0px;
+            padding-left: 0px;
+            display: flex;
+            flex-direction: column;
+            table.gsc-search-box {
+                width: calc(100% - 50px);
+            }
+            .versions {
+                text-align: left;
+                margin-left: 0px;
+                .version {
+                    position: relative;
+                    top: 0px;
+                    color: #FFF;
+                    &.version--current {
+                        background-color: #FFF;
+                        border-color: #FFF;
+                        color: #CC0633;
+                    }
+                    &:hover {
+                        border-color: #FFF;
+                    }
+                }
+            }
+        }
+    }
+    .body--withSidebar .book__sidebar {
+        top: 190px !important;
+    }
+}
