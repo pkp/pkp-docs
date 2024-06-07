@@ -21,26 +21,29 @@ Terminology and classification varies, but to help start the policy development 
 
 ## Errata
 
-Errata are the most common form of correction to a published work. An erratum is published when the change to the original publication affects the article’s metadata or the article text’s meaning. Typically when an erratum is published, the original article is updated to reflect the change when possible.
+Note: The errata section was updated in June 2024. Previously, this guide recommended updating the original article when publishing an erratum. It now proposes measures for the journal to take whether correcting the original or not. 
 
-The process of publishing an erratum and then correcting the original is:
+Errata are the most common form of correction to a published work. An erratum is published when the change to the original publication affects the article’s metadata or the article text’s meaning. When an erratum is published, the original article may or may not be updated to reflect the change. If your journal is indexed elsewhere, your decision to update the original article may depend on their policy. Whatever your approach it should be consistent across all platforms.
 
-- The erratum should have a title that indicates it is a correction and includes the full citation of the original article. Be sure to include the DOI of the original article in the citation.
+The erratum should have a title that indicates it is a correction and includes the full citation of the original article. Be sure to include the DOI of the original article in the citation.
 
 For example:
 
-Correction to: Edgar, B. D., & Willinsky, J. (2010). A Survey of the Scholarly Journals Using Open Journal Systems. *OJS På Dansk, 1*(1). https://doi.org/10.7146/ojssb.v1i1.2707
+- Correction to: Edgar, B. D., & Willinsky, J. (2010). A Survey of the Scholarly Journals Using Open Journal Systems. *OJS På Dansk, 1*(1). https://doi.org/10.7146/ojssb.v1i1.2707
 
 OR
 
-Erratum to Edgar, B. D., & Willinsky, J. (2010). A Survey of the Scholarly Journals Using Open Journal Systems. *OJS På Dansk, 1*(1). https://doi.org/10.7146/ojssb.v1i1.2707
+- Erratum to Edgar, B. D., & Willinsky, J. (2010). A Survey of the Scholarly Journals Using Open Journal Systems. *OJS På Dansk, 1*(1). https://doi.org/10.7146/ojssb.v1i1.2707
 
-- The main text of the erratum will describe the correction (what has been changed and, if you feel it is applicable, how the error occurred) and state that the original has been updated to reflect the change.
+The main text of the erratum will describe the correction (what has been changed and, if you feel it is applicable, how the error occurred) and state whether the original has been updated to reflect the change.
 
-In Edgar, B. D., & Willinsky, J. (2010). A Survey of the Scholarly Journals Using Open Journal Systems. *OJS På Dansk, 1*(1). https://doi.org/10.7146/ojssb.v1i1.2707, the authors were listed in the incorrect order and the affiliation for an author was missing. The correct order of authors is John Willinsky, Brian D. Edgar. The affiliation for Brian D. Edgar is XYZ Institute. The original article has been updated to reflect this change.
+For example:
 
-- Generally, when an erratum is issued due to an error by the journal’s editorial team, the author of the erratum is the journal’s editor. When the error was caused by the authors, those authors are also the authors for the erratum.
-- Publish the erratum and then correct the original article.
+- In Edgar, B. D., & Willinsky, J. (2010). A Survey of the Scholarly Journals Using Open Journal Systems. *OJS På Dansk, 1*(1). https://doi.org/10.7146/ojssb.v1i1.2707, the authors were listed in the incorrect order and the affiliation for an author was missing. The correct order of authors is John Willinsky, Brian D. Edgar. The affiliation for Brian D. Edgar is XYZ Institute. The original article has been updated to reflect this change.
+
+Generally, when an erratum is issued due to an error by the journal’s editorial team, the author of the erratum is the journal’s editor. When the error was caused by the authors, those authors are also the authors for the erratum.
+
+Publish the erratum in the next issue of the journal. If you choose to update the original, publish the erratum and then correct the original article.
 
 ## Prioritize
 
