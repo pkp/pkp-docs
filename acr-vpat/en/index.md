@@ -104,8 +104,7 @@ Conformance to the 30 criteria listed below is distributed within each category 
 
 | Criteria | Conformance Level | Remarks and Explanations |
 | --- | --- | --- |
-| [1.1.1 Non-text Content](https://www.w3.org/TR/WCAG21/#non-text-content) | {::nomarkdown}<ul><li><strong>Web</strong>: Partially Supports</li> </ul>{:/} | {::nomarkdown}<ul><li><strong>Web</strong>: There is a Google reCaptcha embedded function to prevent or mitigate spammer registering influx. We acknowledge the lack of full support for accessibility to this feature since we rely on the functionality of a third-party vendor, i.e. Google. This plugin is optional and it is disabled by default. 
-</li> </ul>{:/} |
+| [1.1.1 Non-text Content](https://www.w3.org/TR/WCAG21/#non-text-content) | {::nomarkdown}<ul><li><strong>Web</strong>: Partially Supports</li> </ul>{:/} | {::nomarkdown}<ul><li><strong>Web</strong>: There is a Google reCaptcha embedded function to prevent or mitigate spammer registering influx. We acknowledge the lack of full support for accessibility to this feature since we rely on the functionality of a third-party vendor, i.e. Google. This plugin is optional and it is disabled by default. </li> </ul>{:/} |
 | [1.2.1 Audio-only and Video-only (Prerecorded)](https://www.w3.org/TR/WCAG21/#audio-only-and-video-only-prerecorded) | {::nomarkdown}<ul><li><strong>Web</strong>: Not Applicable</li> </ul>{:/} | {::nomarkdown}<ul><li><strong>Web</strong>: It relies on the content that authors, editors, or journal managers will upload to the journal. </li> </ul>{:/} |
 | [1.2.2 Captions (Prerecorded)](https://www.w3.org/TR/WCAG21/#captions-prerecorded) | {::nomarkdown}<ul><li><strong>Web</strong>: Not Applicable</li> </ul>{:/} | {::nomarkdown}<ul><li><strong>Web</strong>: It relies on the content that authors, editors, or journal managers will upload to the journal. </li> </ul>{:/} |
 | [1.2.3 Audio Description or Media Alternative (Prerecorded)](https://www.w3.org/TR/WCAG21/#audio-description-or-media-alternative-prerecorded) | {::nomarkdown}<ul><li><strong>Web</strong>: Not Applicable</li> </ul>{:/} | {::nomarkdown}<ul><li><strong>Web</strong>: It relies on the content that authors, editors, or journal managers will upload to the journal. </li> </ul>{:/} |
@@ -178,10 +177,10 @@ Conformance to the 20 criteria listed below is distributed within each category 
 To the maximum extent permitted by applicable law, in no event will Simon Fraser University or any of its affiliates, or any of their respective governors, directors, employees, or agents, be liable for the failure of any content on applications implementing this theme to meet these accessibility standards, to the extent that such content was submitted or uploaded by a third party.
 
 ## Repository
-(https://github.com/pkp/ojs)[https://github.com/pkp/ojs]
+[https://github.com/pkp/ojs](https://github.com/pkp/ojs)
 
 ## Feedback
-(https://pkp.sfu.ca/contact-us/)[https://pkp.sfu.ca/contact-us/]
+[https://pkp.sfu.ca/contact-us/](https://pkp.sfu.ca/contact-us/)
 
 
 ## Copyright
