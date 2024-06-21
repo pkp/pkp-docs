@@ -1,8 +1,14 @@
 # Hook List
 
+> This hook list is out of date. Some hooks may not work with newer versions of OJS. Please consult [v3.3 Common Hooks](/dev/documentation/3.3/en/utilities-hooks#common-hooks) and [v3.4 Common Hooks](/dev/documentation/en/utilities-hooks#common-hooks) for currently supported hooks. 
+{:.warning}
+
 The following list describes all the hooks built into OJS as of release 2.1. Ampersands before variable names (e.g. ``&$sourceFile``) indicate that the parameter has been passed to the hook callback in the parameters array by reference and can be modified by the hook callback. The effect of the hook callback's return value is specified where applicable; in addition to this, the hook callback return value will always determine whether or not further callbacks registered on the same hook will be skipped.
 
 **Table 5.2. Hook List**
+
+> This hook list is out of date. Some hooks may not work with newer versions of OJS. Please consult [v3.3 Common Hooks](/dev/documentation/3.3/en/utilities-hooks#common-hooks) and [v3.4 Common Hooks](/dev/documentation/en/utilities-hooks#common-hooks) for currently supported hooks. 
+{:.warning}
 
 | Name | Parameters | Description |
 | ----- | ----- | ----- |
