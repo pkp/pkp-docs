@@ -66,11 +66,3 @@ apps:
         - path: paypal
         - path: ojs-2-technical-reference
           isDeveloper: true
-  - path: ocs2
-    title: Open Conference Systems
-    titleShort: OCS
-    includeInHero: true
-    description: Usage guides and documentation for our scholarly conference software.
-    cards:
-        - path: ocs
-        - path: ocs-quick-guide
