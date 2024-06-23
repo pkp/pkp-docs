@@ -34,8 +34,6 @@ Apresentamos a seguir uma lista não extensa de recursos adicionais sobre a cria
 
 - [Escrevendo para acessibilidade na web](https://www.w3.org/WAI/tips/writing/) - Dicas sobre as considerações básicas de como escrever para acessibilidade na web desenvolvidas pela W3C.
 
-- [Criando Documentos Acessíveis no Microsoft Word](https://www.washington.edu/accessibility/documents/word/) - Um guia online desenvolvido pela Universidade de Washington com informações sobre como criar um documento acessível usando o Microsoft Word.
-
 - [Criação de documentos acessíveis](https://www.washington.edu/accessibility/documents/) - informações gerais desenvolvidas pela Universidade de Washington com informações sobre a criação de documentos acessíveis.
 
 - [Acessibilidade e usabilidade na Penn State](https://accessibility.psu.edu/) - Um guia online desenvolvido pela Penn State sobre como garantir que páginas da Web e documentos online possam ser disponibilizados para usuários com diferentes deficiências.
