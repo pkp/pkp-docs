@@ -87,8 +87,7 @@ When creating video and audio content, it is important to ensure that it is acce
 
     - [YouTube auto captioning for video](https://www.youtube.com/)
     - [Kapwing Caption Video Online](https://www.kapwing.com/tools/caption-video)
-    - [IBM Watson auto captioning for audio](https://speech-to-text-demo.ng.bluemix.net/) (demo)
-
+    
 - **Transcripts**. Transcripts contain the full text of the spoken word (not necessarily verbatim) that could be accessed and read separately from the multimedia itself. Transcripts allow deaf/blind users to get content through the use of refreshable Braille devices. They are also useful for searching and navigating to a specific part of the text.
 
     When planning a video/audio recording, it is a good idea to have the transcript written out ahead of time. It can then be used both for the multimedia creation and to be made available afterwards.
@@ -147,7 +146,7 @@ We often use colour in web content or in published content to convey meaning. Us
 
 ![An orange circle with a word Yes and a green circle with a word No.](./assets/3_a11y-guide-colour-circles-do.png)
 
-Other tools, such as the [Spectrum Chrome extension](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en) allow you to emulate different types of CVD on any website. This is particularly useful if your articles contain data visualisations. The following two figures, obtained from an article published in the journal Polar Research, illustrate how CVD can affect a user’s understanding of a graph or a chart.
+Other tools, such as the [Let's Go Color Blind Chrome Extension](https://chromewebstore.google.com/detail/lets-get-color-blind/bkdgdianpkfahpkmphgehigalpighjck) allow you to emulate different types of CVD on any website. This is particularly useful if your articles contain data visualisations. The following two figures, obtained from an article published in the journal Polar Research, illustrate how CVD can affect a user’s understanding of a graph or a chart.
 
 ![Two versions of the same map with different colours, description below.](./assets/4_a11y-guide-colour-chart2.png)
 
