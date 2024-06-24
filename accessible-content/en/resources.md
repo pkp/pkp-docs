@@ -34,8 +34,6 @@ A non-extensive list of additional resources on accessible content creation is p
 
 - [Writing for Web Accessibility](https://www.w3.org/WAI/tips/writing/) - Tips on the basic considerations for writing for web accessibility developed by W3C.
 
-- [Creating Accessible Documents in Microsoft Word](https://www.washington.edu/accessibility/documents/word/) - A online guide developed by the University of Washington with information on how to create an accessible document using Microsoft Word.
-
 - [Creating Accessible Documents](https://www.washington.edu/accessibility/documents/) - General information developed by the University of Washington with information on creating accessible documents.
 
 - [Accessibility and Usability at Penn State](https://accessibility.psu.edu/) - An online guide developed by Penn State on how to ensure Web pages and online documents can be made usable for users with different disabilities.
