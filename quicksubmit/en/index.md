@@ -66,7 +66,7 @@ The QuickSubmit plugin requires that at least one Contributor be input in order 
 
 If an article was original published without any author/contributor listed, you will need to enter a placeholder author in order to save the form. After the article has been successfully created, use the "Go to Submission" link to access the submission.
 
-![The screen the QuickSubmit plugin shows after successfully creating an article, with an arrow pointing to the "Go to Submission" link.](./assets/go-to-submission.png)
+![The screen the QuickSubmit plugin shows after successfully creating an article, with an arrow pointing to the "Go to Submission" link.](./assets/go-to-submission-link.png)
 
 Temporarily unpublish the Article using the "Unpublish" link in the upper right.
 
