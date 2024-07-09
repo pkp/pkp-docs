@@ -36,10 +36,10 @@ We provide a [CLI tool](https://github.com/pkp/pkp-plugin-cli/) that can help yo
 npm install -g pkp-plugin-cli
 ```
 
-Use the following to build a release package and upload it as a release to your repository on GitHub.
+Use the following to build a release package and upload it as a release to your repository on GitHub, replacing the plugin name and version number with your own.
 
 ```
-pkp-plugin release
+pkp-plugin release pluginName --newversion 1.0.0.0
 ```
 
 > Any non-essential files provided by your dependency manager (eg - composer, npm) should not be included with the package. These often include demos and examples that can be security risks when uploaded to the plugins directory.
