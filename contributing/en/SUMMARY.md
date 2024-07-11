@@ -12,7 +12,7 @@
   * [File Naming Conventions](./gettingstarted.md#file-naming-conventions)
   * [GitHub Basics](./gettingstarted.md#github-basics)
   * [Editing on GitHub](./gettingstarted.md#editing-on-github)
-  * [Editing on GitHub](./gettingstarted.md#editing-on-the-pkp-docs-hub)
+  * [Editing on the PKP Docs Hub](./gettingstarted.md#editing-on-the-pkp-docs-hub)
   * [Editing with GitHub Desktop](./gettingstarted.md#editing-with-github-desktop)
   * [Contribute in Other Formats](./gettingstarted.md#contribute-in-other-formats)
 * [Create and Edit Documentation](./create-and-edit.md)
