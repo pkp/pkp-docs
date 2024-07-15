@@ -35,12 +35,24 @@ Dates should be in the format `YYYY-MM-DD`.
 
 ## Remove a locale key
 
-A CLI tool is available to remove locale keys. This can be useful when a locale key is no longer used and needs to be removed from every locale.
+A CLI tool to remove locale keys. This can be useful when a locale key is no longer used and needs to be removed from every locale.
 
-From the rood directory of an application, run:
+From the root directory of an application, run:
 
 ```
 php tools/removeLocaleKey.php example.locale.key
 ```
 
 It will remove all instances of that locale key from every locale `.po` file in the application and pkp-lib.
+
+## Move a locale key to pkp-lib
+
+A CLI tool to move a locale key from one file to another and apply the change across all languages. Use this to move a locale key from an application directory to pkp-lib. Use the `-r` flag to move a key from pkp-lib to the application.
+
+Run the following from the root directory of an application.
+
+```
+php lib/pkp/tools/moveLocaleKeysToLib.php example.locale.key emails.po
+```
+
+This will move all translations of `example.locale.key` from `locale/**_**/emails.po` to `lib/pkp/locale/**_**/emails.po`.

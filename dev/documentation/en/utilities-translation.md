@@ -232,3 +232,7 @@ $currencies = Locale::getCurrencies();
 $languages = Locale::getLanguages();
 $scripts = Locale::getScripts();
 ```
+
+## Locale File Tools
+
+Tools are available to perform bulk operations on locale files. See [Resources](./resources) to learn more about these tools and how to use them.
