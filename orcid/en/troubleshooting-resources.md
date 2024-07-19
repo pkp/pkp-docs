@@ -4,17 +4,13 @@ title: Troubleshooting the ORCID Plugin for OJS and OPS
 
 # Troubleshooting
 
-## How to solve problem with pre-plugin typos
+## How to remove pre-plugin unauthenticated ORCID iDs
 
-For journals transitioning from a manually-entered ORCID iD field to using the ORCID plugin, pre-plugin typos may cause validation errors.
+For journals transitioning from a manually-entered ORCID iD field to the ORCID plugin, unauthenticated ORCID iDs will prevent publication. If you see this error message, please follow [these steps to remove unauthenticated iDs](./troubleshooting-resources#remove-unauthenticated-orcid-ids). 
 
-Pre-plugin, users are able to enter their ORCID iDs into an open textbox. After the plugin, the ORCID iD field is controlled and must comply with format requirements. If a pre-plugin manually-entered ORCID iD does not comply with the format requirements, and the journal activates the plugin, the typo will be “locked” in place and cause errors.
+![OJS error message saying unauthenticated ORCiDs for contributors detected.](./assets/unauthenticated_ORCIDs_error.PNG)
 
-For example: if a user enter `http` instead of `https` in front of their ORCID iD, or forget to enter `https://orcid.org` prefix.
-
-Therefore, it’s a good practice to review active submission’ ORCID iDs prior to activating the plugin, to ensure that all manually-entered iDs conform with the correct format.
-
-As a retroactive workaround: the Journal Administrator can temporarily deactivate the plugin, fix or delete the ORCID iD in quest, and re-activate the plugin. This should be done as quickly as possible.
+You may also want to [invite contributors to connect their ORCID iDs](./using-plugin#editors-can-invite-contributors-to-connect-their-orcid-ids-to-the-publication).
 
 ## Make sure your plugin is up to date
 
