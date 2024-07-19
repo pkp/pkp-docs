@@ -65,6 +65,17 @@ Under “E-Mail Settings” you can tick the checkbox to “Send e-mail to reque
 
 ![OJS ORCID plugin with checkbox checked to send email to request ORCID authorization from authors.](./assets/orcid_plugin_auto_emails.png)
 
+#### Remove unauthenticated ORCID iDs
+
+Once you activate the plugin, you will no longer be able to use unauthenticated ORCID iDs. This ensures that the metadata sent to [ORCID.org](https://orcid.org/) is correct and authenticated. If you have submissions in-progress which already have manually-entered ORCID iDs, those articles will be prevented from publishing until the iDs are removed. 
+
+In order to remove an ORCID iD:
+- Navigate to the Submission's Contributor tab
+- Edit the individual Contributor
+- Scroll down to the ORCID heading and check the checkbox: "Delete ORCID iD and access token!"
+
+![OJS ORCID plugin with checkbox checked to delete ORCID iD and access token.].(/assets/how_to_delete_unauthenticated_ORCID.PNG)
+
 ### Site-wide Setup
 
 For multi-journal and multi-preprint server installations the plugin can be set site-wide in `config.inc.php` to enable the ORCID plugin for all journals. Note that site-wide settings through `config.inc.php` override any existing individual plugin settings. However, the plugin can be enabled/disabled on an individual basis for journals, and each journal can manage their own email settings as described above. Adding credentials in the `config.inc.php` hides the Client Secret from Journal/Server Managers, which may be preferred if you have institutional credentials for ORCID. Add the following section to your `config.inc.php` file:
