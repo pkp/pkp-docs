@@ -20,11 +20,10 @@ This plugin will [clear the template and CSS cache](https://github.com/NateWr/ca
 We use [Postman](https://www.getpostman.com/) to work with our REST API endpoints. You can import our request collection for OJS following these steps.
 
 1. In Postman, go to **Collections**.
-3. Click **Import**.
-4. Click **Link**.
-5. Enter `https://docs.pkp.sfu.ca/dev/api/OJS-api-postman-collection.json`.
-6. Open the collection and click on the **Variables** tab.
-7. Enter the `baseUrl` and `apiToken` in the **Current Value** column to connect to the journal's API endpoint .
+2. Click **Import**.
+3. Enter `https://docs.pkp.sfu.ca/dev/api/OJS-api-postman-collection.json`.
+4. Open the collection and click on the **Variables** tab.
+5. Enter the `baseUrl` and `apiToken` in the **Current Value** column to connect to the journal's API endpoint .
 
 The `baseUrl` for a local development instance is usually something like `http://localhost:8000/examplejournal/api/v1`. The `apiToken` for a user can be retrieved from their user profile page in the application.
 
