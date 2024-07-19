@@ -40,10 +40,10 @@ We provide a [CLI tool](https://github.com/pkp/pkp-plugin-cli/) that can help yo
 npm install -g pkp-plugin-cli
 ```
 
-Use the following to build a release package and upload it as a release to your repository on GitHub.
+Use the following to build a release package and upload it as a release to your repository on GitHub, replacing the plugin name and version number with your own.
 
 ```
-pkp-plugin release
+pkp-plugin release pluginName --newversion 1.0.0.0
 ```
 
 ## Get the Plugin into the Plugin Gallery

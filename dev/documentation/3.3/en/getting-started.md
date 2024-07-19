@@ -42,6 +42,11 @@ Install dependencies with [composer](https://getcomposer.org/).
 
 ```
 composer --working-dir=lib/pkp install
+```
+
+Run the following command if you are installing OJS or OMP.
+
+```
 composer --working-dir=plugins/paymethod/paypal install
 ```
 

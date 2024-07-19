@@ -20,11 +20,10 @@ This plugin will [clear the template and CSS cache](https://github.com/NateWr/ca
 We use [Postman](https://www.getpostman.com/) to work with our REST API endpoints. You can import our request collection for OJS following these steps.
 
 1. In Postman, go to **Collections**.
-3. Click **Import**.
-4. Click **Link**.
-5. Enter `https://docs.pkp.sfu.ca/dev/api/OJS-api-postman-collection.json`.
-6. Open the collection and click on the **Variables** tab.
-7. Enter the `baseUrl` and `apiToken` in the **Current Value** column to connect to the journal's API endpoint .
+2. Click **Import**.
+3. Enter `https://docs.pkp.sfu.ca/dev/api/OJS-api-postman-collection.json`.
+4. Open the collection and click on the **Variables** tab.
+5. Enter the `baseUrl` and `apiToken` in the **Current Value** column to connect to the journal's API endpoint .
 
 The `baseUrl` for a local development instance is usually something like `http://localhost:8000/examplejournal/api/v1`. The `apiToken` for a user can be retrieved from their user profile page in the application.
 
@@ -44,7 +43,7 @@ Dates should be in the format `YYYY-MM-DD`.
 
 ## Remove a locale key
 
-A CLI tool is available to remove locale keys. This can be useful when a locale key is no longer used and needs to be removed from every locale.
+A CLI tool to remove locale keys. This can be useful when a locale key is no longer used and needs to be removed from every locale.
 
 Run the following from the root directory of an application.
 
@@ -56,7 +55,7 @@ It will remove all instances of that locale key from every locale `.po` file in 
 
 ## Move a locale key to pkp-lib
 
-A CLI tool to move a locale key from one file to another and apply the change across all languages. Use this to move a locale key from an application directory to pkp-lib.
+A CLI tool to move a locale key from one file to another and apply the change across all languages. Use this to move a locale key from an application directory to pkp-lib. Use the `-r` flag to move a key from pkp-lib to the application.
 
 Run the following from the root directory of an application.
 
@@ -65,6 +64,18 @@ php lib/pkp/tools/moveLocaleKeysToLib.php example.locale.key emails.po
 ```
 
 This will move all translations of `example.locale.key` from `locale/**_**/emails.po` to `lib/pkp/locale/**_**/emails.po`.
+
+### Replace a variable in a locale key
+
+A CLI tool to replace a variable in a locale key across all languages.
+
+Run the following from the root directory of an application.
+
+```
+php lib/pkp/tools/replaceVariableInLocaleKey.php example.locale.key oldVariable newVariable
+```
+
+It will replace the variable name in all instances of that locale key from every locale `.po` file in the application and pkp-lib.
 
 ## Log emails
 

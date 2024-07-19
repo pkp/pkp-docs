@@ -11,17 +11,17 @@ This guide provides instructions on uploading “back issue” content with the 
 
 # Step One: Create and Publish an Issue
 
-Firstly, you will want to create and publish an issue in OJS for each back issue. These steps are the same as creating and publishing an issue for new content, which you can review in the [Create Issues section of the Learning OJS Guide](https://docs.pkp.sfu.ca/learning-ojs/3.3/en/production-publication#create-issue). Repeat this process for all previously published volumes/numbers you are planning to upload to OJS. Even if the issues are empty, publishing the issue veforehand will allow you to adjust the publication dates or other values in the next steps.
+Firstly, you will want to create and publish an issue in OJS for each back issue. These steps are the same as creating and publishing an issue for new content, which you can review in the [Create Issues section of the Learning OJS Guide](https://docs.pkp.sfu.ca/learning-ojs/3.3/en/production-publication#create-issue). Repeat this process for all previously published volumes/numbers you are planning to upload to OJS. Even if the issues are empty, publishing the issue beforehand will allow you to adjust the publication dates or other values in the next steps.
 
 # Step Two: Edit Publication Date for Back Issues
 
-Typically, OJS sets the publication date as the date when the "Publish Issue" button was pressed. For back issues, you will likely want to edit this publication date to properly reflect the date when the issue was originally published. 
+OJS sets the publication date as the date when the "Publish Issue" button was pressed. For back issues, you will need to edit this publication date to properly reflect the date when the issue was originally published. 
 
 1. Click on the "Back Issues" tab to locate the issue(s) you've just created to contain the articles you will upload for your back issue(s).
 2. Click the arrow next to the issue to expand the menu.
 3. Click "Edit".
 4. Change the publication date at the very top to the original publication date of the issue. The publication date is only available after the issue has been published.
-5. Click "Save". You can now unpublish and republish the issue at any time if needed without affecting the newly entered publication date.
+5. Click "Save". 
 
 # Step Three: Add Articles Using QuickSubmit
 You can now use the QuickSubmit plugin to add articles to the back issues you've created with the original publication date. Please reference our [detailed instructions for the QuickSubmit plugin in Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/tools#quick-submit-plugin) as needed (a video tutorial is also available at the link).

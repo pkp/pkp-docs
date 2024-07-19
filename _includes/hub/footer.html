@@ -1,39 +1,44 @@
 <div class="siteFooter">
 	<nav class="siteFooter__container">
-		<div class="siteFooter__logo">
-			<a href="https://pkp.sfu.ca">
-				<img src="/img/pkp-logo.png" alt="Public Knowledge Project">
-			</a>
+		<div class="siteFooter__top">
+			<div class="siteFooter__nav">
+				<div class="siteFooter__navHeader">
+					Contact Us
+				</div>
+				<p>Have a question or suggestion about PKP’s documentation and user guides? <a href="https://pkp.sfu.ca/documentation-feedback/">Use our documentation contact form</a>.</p>
+				<p>If your message is not about documentation, please use the general <a href="https://pkp.sfu.ca/contact-us/">contact form</a>.</p>
+			</div>
+			{% if site.data.site.navContrib %}
+				<div class="siteFooter__nav">
+					<div class="siteFooter__navHeader">
+						{{ site.data.site.navContrib.title }}
+					</div>
+					{% for nav in site.data.site.navContrib.items %}
+						{{ nav | markdownify }}
+					{% endfor %}
+				</div>
+			{% endif %}
+			{% if site.data.site.navAbout %}
+				<div class="siteFooter__nav">
+					<div class="siteFooter__navHeader">
+						{{ site.data.site.navAbout.title }}
+					</div>
+					{% for nav in site.data.site.navAbout.items %}
+						{{ nav | markdownify }}
+					{% endfor %}
+				</div>
+			{% endif %}
+			<div class="siteFooter__logo">
+				<a href="https://pkp.sfu.ca">
+					<img src="/img/logo-on-grey.png" alt="Public Knowledge Project">
+				</a>
+				<p>The Public Knowledge Project is a Core Facility of Simon Fraser University</p>
+                <p>888 University Drive, Burnaby, B.C., Canada V5A 1S6</p>
+                <p>We respectfully acknowledge that SFU occupies the unceded traditional territories of the Coast Salish peoples of the Musqueam, Squamish, and Tsleil-Waututh Nations.</p>
+			</div>
 		</div>
-		{% if site.data.site.navContrib %}
-			<div class="siteFooter__nav">
-				<div class="siteFooter__navHeader">
-					{{ site.data.site.navContrib.title }}
-				</div>
-				{% for nav in site.data.site.navContrib.items %}
-					{{ nav | markdownify }}
-				{% endfor %}
-			</div>
-		{% endif %}
-		{% if site.data.site.navAbout %}
-			<div class="siteFooter__nav">
-				<div class="siteFooter__navHeader">
-					{{ site.data.site.navAbout.title }}
-				</div>
-				{% for nav in site.data.site.navAbout.items %}
-					{{ nav | markdownify }}
-				{% endfor %}
-			</div>
-		{% endif %}
-		{% if site.data.site.navContact %}
-			<div class="siteFooter__nav">
-				<div class="siteFooter__navHeader">
-					{{ site.data.site.navContact.title }}
-				</div>
-				{% for nav in site.data.site.navContact.items %}
-					{{ nav | markdownify }}
-				{% endfor %}
-			</div>
-		{% endif %}
+		<div class="siteFooter__bottom">
+			<p class="footer-copyright"><span class="terms-text"><a href="https://www.sfu.ca/contact/terms-conditions.html" target="_blank">TERMS & CONDITIONS</a> &copy; SIMON FRASER UNIVERSITY.</span><span class="copyright-text"><img src="/img/creativecommons.svg" alt="Creative Commons logo" /><img src="/img/attribution.svg" alt="Attribution icon" /><a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC-BY 2.0</a></span><span class="footer-copyright-separator"> | </span><span class="ab-link">Website by <a target="_blank" href="https://www.affinitybridge.com">Affinity Bridge</a></span></p>
+		</div>
 	</div>
 </div>

@@ -280,15 +280,3 @@ You are probably receiving an error similar to
 Please note that when you click the Manual Install button, the resulting page will say that the OJS/OMP/OCS Install has completed successfully, but this isn't quite true: you still have to copy the SQL statements and add them to your database manually.
 
 **Note:** You may also be encountering a plugin bug. There have been plugin bugs in the past where plugins have attempted to access the "journals" table before the installer has created the table; these will result in a "Table 'ojs.journals' doesn't exist" message when someone attempts to load the installer page in the first place. In this case, you can narrow it down to a particular plugin by checking the stack trace.
-
-## PHP and PKP Application Compatibility
-
-If you are running PHP 5.3+ \(which you should be doing\), you will need to run OJS 2.4.0+, OMP 1.0+ or OCS 2.3.6+. Older versions of the software will not work on newer versions of PHP.
-
-If you are running PHP 7+, you will need to run OJS 3.0+.
-
-OJS and OMP 3.1.2+ **requires** PHP 7.1 or above. Refer to [docs/README](https://github.com/pkp/ojs/tree/main/docs) for your OJS/OMP version for more information about PHP system requirements.
-
-**NOTE**: If you are running OJS or OMP 3.x on a PHP7+ LAMP stack, please remember to update your MySQL driver parameter\(Database section\) on `config.inc.php` file, i.e.:
-
-`driver = mysqli`

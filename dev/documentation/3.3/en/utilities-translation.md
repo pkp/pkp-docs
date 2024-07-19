@@ -110,3 +110,7 @@ Supported submission locales include languages for which the journal, press or p
 ```php
 $locales = $context->getSupportedSubmissionLocales();
 ```
+
+## Locale File Tools
+
+Tools are available to perform bulk operations on locale files. See [Resources](./resources) to learn more about these tools and how to use them.

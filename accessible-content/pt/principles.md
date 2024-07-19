@@ -87,8 +87,7 @@ Ao criar conteúdo de áudio e vídeo, é fundamental garantir que seja acessív
 
     - [Legenda automática do YouTube para vídeo](https://www.youtube.com/)
     - [Kapwing Caption Video Online](https://www.kapwing.com/tools/caption-video)
-    - [Legendas automáticas Watson da IBM para áudio](https://speech-to-text-demo.ng.bluemix.net/) (demonstração)
-
+  
 - **Transcrições**. A transcrição contém o texto completo das falas (não necessariamente literal) que pode ser acessado e lido separadamente da própria multimídia. Transcrições permitem que pessoas surdas/cegas obtenham conteúdo por meio do uso de dispositivos Braille atualizáveis. Eles também são úteis para pesquisa e navegação para uma seção específica do texto.
 
     Ao planejar uma gravação de áudio/vídeo, é importante escrever a transcrição com antecedência. Ela pode então ser usada tanto para a criação da multimídia quanto para disponibilização posterior.
@@ -147,7 +146,7 @@ Frequentemente, usamos cores em conteúdo da Web ou em conteúdo publicado para 
 
 ![Um círculo laranja com a palavra SIM e um círculo verde com a palavra NÃO.](./assets/3_a11y-guide-colour-circles-do.png)
 
-Outras ferramentas, como a [extensão Spectrum do Chrome](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en), permitem emular diferentes tipos de DVC em qualquer site. Isso é particularmente útil se seus artigos contiverem visualizações de dados. As duas figuras a seguir, obtidas de um artigo publicado na revista Polar Research, ilustram como o DVC pode afetar a compreensão de um diagrama ou gráfico pelo leitor.
+Outras ferramentas, como a [extensão Let's Go Color Blind do Chrome](https://chromewebstore.google.com/detail/lets-get-color-blind/bkdgdianpkfahpkmphgehigalpighjck), permitem emular diferentes tipos de DVC em qualquer site. Isso é particularmente útil se seus artigos contiverem visualizações de dados. As duas figuras a seguir, obtidas de um artigo publicado na revista Polar Research, ilustram como o DVC pode afetar a compreensão de um diagrama ou gráfico pelo leitor.
 
 ![Duas versões do mesmo mapa com cores distintas, descrição a seguir.](./assets/4_a11y-guide-colour-chart2.png)
 

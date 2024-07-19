@@ -1,6 +1,7 @@
 ---
 book: dev-documentation
 version: 3.3
+showPageTOC: true
 title: Hooks - Technical Documentation - OJS|OMP|OPS 3.3
 ---
 
@@ -102,7 +103,7 @@ Hooks are most commonly used in generic plugins. Calling hooks from other types 
 
 The following is a list of the most common hooks that can be used.
 
-> This is an incomplete list. Search the application code for `HookRegistry::call` to get a complete list.
+> This is an incomplete list. Search the [application code](https://github.com/pkp/ojs/tree/stable-3_3_0) for `HookRegistry::call` to get a complete list of hooks available in OJS 3.3.
 {:.warning}
 
 ### Request, Routing and Templating

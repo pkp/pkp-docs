@@ -1,7 +1,7 @@
 # Zusammenfassung
 
 * [Vorwort](.)
-* [Einführung](./introduction.md)
+* [Einleitung](./introduction.md)
   * [Hintergrund](./introduction.md#background)
   * [OJS-Funktionen](./introduction.md#ojs-features)
   * [Was ist neu in OJS 3](./introduction.md#whats-new-in-ojs-3)
