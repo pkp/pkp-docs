@@ -12,7 +12,7 @@ This chapter describes registering with a journal, making a submission, respondi
 
 If you are submitting to a journal using the OJS platform and are unfamiliar with the platform, you can refer to this chapter to learn how to proceed with your manuscript at any stage.
 
-## Registering with the Journal
+## Registering with the Journal {#register}
 
 To make a submission to an OJS journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
 
@@ -22,7 +22,7 @@ It is currently empty as you have made no submissions.
 
 <hr />
 
-## Making a Submission
+## Making a Submission {#submit}
 
 Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to the submission wizard where you can upload and describe your submission.
 
@@ -133,7 +133,7 @@ Immediately after submission, your submission will remain in the Submission stag
 
 <hr />
 
-## Editing Submission Information 
+## Editing Submission Information {#edit}
 
 Depending on the settings of the journal and its policies, you may be able to edit the information about your manuscript such as the title, contributors, keywords, etc. (referred to as “metadata” in the software) at different stages of the editorial workflow. Changes might include updated abstracts, correcting spelling errors, or adding additional contributors.
 
@@ -153,7 +153,7 @@ To learn more about creating quality metadata for your submissions, see [the Bet
 
 <hr />
 
-## Responding to Requests for Revision or Resubmission After a Review
+## Responding to Requests for Revision or Resubmission After a Review {#respond-review}
 
 {% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Responding to Reviews in OJS"%}
 This PKP School video explains how an editor responds to a review and how an author can upload revisions (starting from 3:51). To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
@@ -249,7 +249,7 @@ Congratulations! You've been accepted and your submission file will be copyedite
 
 <hr />
 
-## Responding to a Copyediting or Proofreading Request
+## Responding to a Copyediting or Proofreading Request {#respond-copyediting-proofreading}
 
 {% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Copyediting in OJS"%} 
 This PKP School video explains the copyediting process, including how an editor can respond to a copyediting or proofreading request. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
