@@ -4,7 +4,7 @@
 These guides explain how to use OJS plugins. Plugins integrate OJS with services offered by PKP partner organizations.
 
 - [Plugin Inventory](/plugin-inventory/en/)
-- [DOI Plugin Guide](/doi-plugin/en/)
+- [DOI Plugin Guide](/doi-plugin//)
 - [Crossref Plugin Guide](/crossref-ojs-manual/en/)
 - [ORCID Plugin Guide](/orcid/)
 - [QuickSubmit for Back Issues](/quicksubmit/en/)
