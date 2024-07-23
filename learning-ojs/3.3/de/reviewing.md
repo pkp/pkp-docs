@@ -57,7 +57,7 @@ Als nächstes müssen Sie Ihre Empfehlung über das Dropdown-Menü abgeben.
 
 Ihre Auswahl umfasst:
 
-**Einreichung akzeptieren**: Es ist bereit zur Kopierbearbeitung zu gehen.
+**Beitrag annehmen**: Das Manuskript ist ohne Änderungen für das Lektorat geeignet.
 
 **Revisionen erforderlich**: Es erfordert kleinere Änderungen, die vom Editor überprüft und akzeptiert werden können.
 
