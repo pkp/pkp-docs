@@ -57,7 +57,7 @@ From here, write the document out as you would using Markdown. Any level two hea
 
 ### Multi-page Docs
 
-Multi-page documents, like [Learning OJS 3](./learning-ojs), are more robust directories with folders for individual languages/translations, and a single Markdown file for every chapter of the document. They also contain a file called `SUMMARY.md` that creates the table of contents for the document and a file called `README.md` that serves as a first/landing page for your document. To create a multi-page document start with the following:
+Multi-page documents, like [Learning OJS 3](/learning-ojs/en), are more robust directories with folders for individual languages/translations, and a single Markdown file for every chapter of the document. They also contain a file called `SUMMARY.md` that creates the table of contents for the document and a file called `README.md` that serves as a first/landing page for your document. To create a multi-page document start with the following:
 
 1. In the pkp-docs repository, click Create New File. You will create the new folder for the document as you create the file.
 2. Enter the name of the document folder and then /. This will automatically create the folder.

@@ -49,7 +49,7 @@ The [Moderation and Production section](./#moderation) explains the pre-publicat
 ## License Selection
 Following adding the contributors to a submission, authors can then assign a license of their choosing to their submission: 
 
-![The license selection options in OPS.](./assets/learning-ops-3-4-license-selection.png)
+![The license selection options in OPS.](./assets/learning-ops-3.4-license-selection.png)
 
 The license options are the standard [Creative Commons licenses](https://creativecommons.org/licenses/), or, a URL to an alternate license can be provided. 
 
