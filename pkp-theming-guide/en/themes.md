@@ -8,3 +8,4 @@ These pages include a description of each theme and links to a demonstration sit
 - [Health Sciences](theme-healthsciences.md)
 - [Immersion](theme-immersion.md)
 - [Manuscript](theme-manuscript.md)
+- [Pragma](theme-pragma.md)

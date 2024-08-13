@@ -15,7 +15,7 @@ These OJS sites demonstrate existing Bootstrap child themes:
 - [Sandstone](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot6)
 - [Cyborg](https://demo.publicknowledgeproject.org/ojs3/demo/index.php/boot4)
 
-## Install Boostrap3
+## Install Bootstrap3
 
 The **simplest** way to get the Bootstrap3 theme is to download the [latest release](https://github.com/pkp/bootstrap3/releases) from the development repository. Unpack the `.zip` file and move the `bootstrap3` directory to your OJS installation at `/plugins/themes/bootstrap3`.
 
@@ -37,15 +37,15 @@ Since the Bootstrap theme is just a base, it will need a bit of work to fully im
 
 To start, explore the base Bootstrap variables file:
 
-- [plugins/themes/bootstrap3/bootstrap/less/variables.less](https://github.com/pkp/bootstrap3/blob/master/bootstrap/less/variables.less)
+- [plugins/themes/bootstrap3/bootstrap/less/variables.less](https://github.com/pkp/bootstrap3/blob/main/bootstrap/less/variables.less)
 
 Every color, font, etc., is declared here and each of the different bundled themes essentially just overrides these variables. For instance, here's the Flatly theme's variables file:
 
-- [plugins/themes/bootstrap3/bootstrap-themes/flatly/variables.less](https://github.com/pkp/bootstrap3/blob/master/bootstrap-themes/flatly/variables.less)
+- [plugins/themes/bootstrap3/bootstrap-themes/flatly/variables.less](https://github.com/pkp/bootstrap3/blob/main/bootstrap-themes/flatly/variables.less)
 
 And then it includes just a little bit of additional LESS code to tweak a few more things:
 
-- [plugins/themes/bootstrap3/bootstrap-themes/flatly/bootswatch.less](https://github.com/pkp/bootstrap3/blob/master/bootstrap-themes/flatly/bootswatch.less)
+- [plugins/themes/bootstrap3/bootstrap-themes/flatly/bootswatch.less](https://github.com/pkp/bootstrap3/blob/main/bootstrap-themes/flatly/bootswatch.less)
 
 ## Child Theming the Bootstrap3 Theme
 
@@ -68,11 +68,11 @@ You can then use the `modifyStyle()` method from the [Theme API](theme-api.md) t
 
 Now your child theme will load an additional LESS file, `styles/variables.less`, from your theme's file directory. You can override the Bootstrap 3 variables in that file.
 
-Find the [Bootstrap 3 variables file](https://github.com/pkp/bootstrap3/blob/master/bootstrap/less/variables.less). Copy the contents of that file into your own theme at `styles/variables.less`. Then modify them however you'd like.
+Find the [Bootstrap 3 variables file](https://github.com/pkp/bootstrap3/blob/main/bootstrap/less/variables.less). Copy the contents of that file into your own theme at `styles/variables.less`. Then modify them however you'd like.
 
 Here is an example of a modified set of colors in my new `styles/variables.less`.
 
-```less
+```
 @gray-base:              #012434;
 @gray-darker:            lighten(@gray-base, 13.5%);
 @gray-dark:              lighten(@gray-base, 20%);
@@ -96,7 +96,7 @@ To add a new swatch to the Bootstrap3 theme, you need to set up all of the neces
 
 This example will demonstrate how to use the `flatly` swatch as a basis for your new swatch.
 
-1. Copy the folder at `plugins/themes/bootstrap3/bootstrap-themes/flatly` to `plugins/themes/bootstrap3/bootstrap-themes/myswatch`
+1. Copy the folder at `plugins/themes/bootstrap3/bootstrap-themes/flatly` to `plugins/themes/bootstrap3/bootstrap-themes/myswatch`.
 2. Delete the existing `LICENSE` file and replace it with your preferred GPL-compatible license.
 3. Delete the contents from the following so that the following are empty files:
 ```
@@ -104,9 +104,8 @@ plugins/themes/bootstrap3/bootstrap-themes/myswatch/bootswatch.less
 plugins/themes/bootstrap3/bootstrap-themes/myswatch/variables.less
 ```
 
-4. Rename `bootswatch.less` to `myswatch.less`
-
-5. Copy the file `plugins/themes/bootstrap3/styles/flatly.less` to `plugins/themes/bootstrap3/styles/myswatch.less`
+4. Rename `bootswatch.less` to `myswatch.less`.
+5. Copy the file `plugins/themes/bootstrap3/styles/flatly.less` to `plugins/themes/bootstrap3/styles/myswatch.less`.
 6. Edit `plugins/themes/bootstrap3/styles/myswatch.less`:
 Modify the existing references to files in the `flatly` theme with references to your new myswatch.
 ```
@@ -115,19 +114,19 @@ Modify the existing references to files in the `flatly` theme with references to
 @import "../bootstrap-themes/myswatch/myswatch.less";
 ```
 
-7. Edit `plugins/themes/bootstrap3/BootstrapThreeThemePlugin.inc.php` and add a new option entry for your child theme, e.g. `'mytheme' => 'plugins.themes.bootstrap3.options.bootstrapTheme.myswatch',`
+7. Edit `plugins/themes/bootstrap3/BootstrapThreeThemePlugin.inc.php` and add a new option entry for your child theme, e.g. `'mytheme' => 'plugins.themes.bootstrap3.options.bootstrapTheme.myswatch',`.
 8. Edit `plugins/themes/bootstrap3/locale/en_US/locale.xml` and add a new locale entry for your new theme. For example:
-```
-<message key="plugins.themes.bootstrap3.options.bootstrapTheme.myswatch">My Swatch</message>
-```
+    ```xml
+    <message key="plugins.themes.bootstrap3.options.bootstrapTheme.myswatch">My Swatch</message>
+    ```
 
-You may wish to alter the copyright and licensing information to your own specifications in the LESS file as well. For example:
+9. You may wish to alter the copyright and licensing information to your own specifications in the LESS file as well. For example:
 ```
 /**
  * @file plugins/themes/bootstrap3/myswatch.less
  *
- * Copyright (c) 2014-2016 Simon Fraser University Library
- * Copyright (c) 2003-2016 John Willinsky
+ * Copyright (c) 2014-2024 Simon Fraser University Library
+ * Copyright (c) 2003-2024 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * @brief Stylesheet for the My Theme Bootstrap theme.

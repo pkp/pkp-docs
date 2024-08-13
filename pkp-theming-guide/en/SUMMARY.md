@@ -19,5 +19,6 @@
    * [Health Sciences Theme](theme-healthsciences.md)
    * [Immersion Theme](theme-immersion.md)
    * [Manuscript Theme](theme-manuscript.md)
+   * [Pragma Theme](theme-pragma.md)
 * Advanced Techniques
    * [Passing Data to Templates](advanced-custom-data.md)
