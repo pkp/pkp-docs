@@ -10,7 +10,7 @@ A `Repository` provides a public API to interact with an entity. The `Repository
 
 In special cases, you may want to add, edit or delete an object without writing logs, sending emails, or updating the modified date. For example, when importing data. In such cases, you can use the [DAO](./architecture-daos) directly. In all other cases, use the `Repository` class to get, add, edit or delete objects. This will ensure that hooks, email notifications or activity logs are not skipped when an action is taken.
 
-Think of an entity's [DAO](./architecture-daos) as a "dumb" class that only knows how to read and write data for that entity. The `Repository` is a "smart" class that coordinates that entity's relationships with other entities in the application.
+An entity's [DAO](./architecture-daos) only knows how to read and write data for that entity. The `Repository` coordinates that entity's relationships with other entities in the application.
 
 Get the `Repository` for an entity from the `Repo` facade.
 
