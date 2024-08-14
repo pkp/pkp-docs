@@ -6,4 +6,4 @@ Manuscript is a clean, simple theme with a boxed layout that mimics a paper docu
 
 The theme really shines when you configure your journal without a sidebar, benefiting from generous spacing that brings focus to the main content. But it looks great regardless of whether or not you use the sidebar. Just like the default theme, you can tailor the colours to match your journal’s branding.
 
-Installation and configuration instructions are available in the theme's [style guide](https://github.com/pkp/defaultManuscript/blob/master/readme.md).
+Installation and configuration instructions are available in the theme's [style guide](https://github.com/pkp/defaultManuscript/blob/main/readme.md).
