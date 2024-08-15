@@ -5,4 +5,4 @@ In this guide, we describe some of the changes between OJS 2 and OJS 3 and sugge
 
 ---
 
-<span class='fa fa-language'></span> Available in [Español](/upgrading-ojs-2-to-3/es/).
+<span class='fa fa-language'></span> Available in [Español](/upgrading-ojs-2-to-3/es/) and [Bahasa Indonesia](/upgrading-ojs-2-to-3/upgrade-guide-ws-id.html).
