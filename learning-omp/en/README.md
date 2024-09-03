@@ -19,7 +19,7 @@ Open Monograph Press (OMP) is an open-source tool for managing and publishing mo
 
 Visit our website to learn more about [Open Monograph Press](https://pkp.sfu.ca/software/omp) and what it has to offer for book publishers, including full metadata for worldwide dissemination and discovery.
 
-For a detailed description of new features in OMP 3.3, see [What's New in This Version of OJS in the Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/about-ojs#whats-new-in-this-version-of-ojs).
+For a detailed description of new features in OMP 3.4, see [What's New in This Version of OJS in the Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/about-ojs#whats-new-in-this-version-of-ojs).
 
 ### Install and Upgrade
 
