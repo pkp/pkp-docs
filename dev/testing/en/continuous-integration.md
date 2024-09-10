@@ -4,29 +4,29 @@ title: Continuous Integration - Testing - OJS/OMP
 
 # Continuous Integration
 
-We use [Travis CI](https://travis-ci.com) for Continuous Integration (CI) testing. Integration and unit tests are run against every commit and pull request to help catch regressions before they are released.
+We use [GitHub Actions](https://github.com/features/actions) for Continuous Integration (CI) testing. Integration and unit tests are run against every pull request to help catch regressions before they are released.
 
-CI tests are configured to run the tests against multiple PHP versions and databases. The configuration details are stored in the `.travis.yml` file in the application's root directory.
+CI tests are configured to run the tests against multiple PHP versions and databases. The configuration details are stored in `.github/workflows/main.yml` for each application.
 
-![OJS test results in Travis.](./travis-overview.png)
+![OMP test results in GitHub.](./github-actions-overview.png)
 
-View the tests for [OJS](https://travis-ci.com/pkp/ojs/), [OMP](https://travis-ci.com/pkp/omp/) and [OPS](https://travis-ci.com/pkp/ops/).
+View the tests for [OJS](https://github.com/pkp/ojs/actions), [OMP](https://github.com/pkp/omp/actions) and [OPS](https://github.com/pkp/ops/actions).
 
 ## Tests for pull requests
 
-Travis will run tests against every pull request to OJS or OMP. The tests are listed in the checks at the bottom of the pull request.
+GitHub Actions will run tests against every pull request to OJS, OMP, or OPS. The tests are listed in the checks at the bottom of the pull request.
 
-![A Travis check in the pull request.](./travis-pr.png)
+![A list of checks in a pull request.](./github-pr.png)
 
-Click the **Details** link beside the Travis tests to watch the tests as they run and see which tests have passed or failed. All tests must pass before a pull request will be merged.
+Click the **Details** link beside a test to watch the test as it runs and see which tests have passed or failed. All tests must pass before a pull request will be merged.
 
 ### Prepare pull requests for testing
 
-A single change to an application may involve pull requests to more than one repository. For example, a change that impacts `pkp-lib` and `ojs` will require two pull requests.
+A change to an application may involve pull requests to more than one repository. For example, a change that impacts `pkp-lib` and `ojs` will require two pull requests.
 
-Travis must be able to locate the correct repository and branch for the `pkp-lib` submodule in order to run the tests against the correct code. To do this, an extra commit with a special commit message, `Submodule update ##<username>/<branch>##`,  is added to the application repository.
+GitHub Actions must be able to locate the correct repository and branch for the `pkp-lib` submodule in order to run the tests against the correct code. To do this, an extra commit with a special commit message, `Submodule update ##<username>/<branch>##`, is added to the application repository.
 
-The example below will instruct Travis to clone the `ojs` and `pkp-lib` repositories owned by `NateWr` and check out the `i123_example` branch.
+The example below will instruct GitHub Actions to clone the `ojs` and `pkp-lib` repositories owned by `NateWr` and check out the `i123_example` branch.
 
 ```
 cd path/to/ojs
