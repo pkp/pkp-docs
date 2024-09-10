@@ -50,4 +50,4 @@ If a journal is rejected by Scopus, there is an embargo period after which the j
 
 Journals accepted into Scopus are evaluated once a year to confirm they are maintaining a level of quality and meeting Scopus benchmarks. Benchmarks are detailed on the [Scopus website](https://www.elsevier.com/solutions/scopus/how-scopus-works/content/content-policy-and-selection).
 
-Additional Resources: [Scopus Journal FAQs](https://www.elsevier.com/__data/assets/pdf_file/0011/1192583/ScopusFAQContentSelectionProcess20210928.pdf)
+Additional Resources: [Scopus Journal FAQs](https://assets.ctfassets.net/o78em1y1w4i4/1F7TRuno8t45wSx5xRZIyb/3d75dbaa5e06e333848508f9ef72a7f6/Scopus_FAQ-content-selection-process_2023Nov.pdf)
