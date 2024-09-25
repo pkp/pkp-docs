@@ -8,7 +8,7 @@ We use [Cypress](https://www.cypress.io/) and [PHPUnit](https://phpunit.de/) to 
 
 ## Configure your environment
 
-There are many ways to [configure your environment](https://docs.cypress.io/guides/guides/environment-variables.html#Setting) to run the Cypress tests. We recommend creating a `cypress.env.json` file.
+There are many ways to [configure your environment](https://docs.cypress.io/guides/guides/environment-variables#Setting) to run the Cypress tests. We recommend creating a `cypress.env.json` file.
 
 ```json
 {
@@ -31,7 +31,7 @@ The integration tests will install the software and create test data.
 
 ## Run integration tests
 
-The integration tests will install the software and run a number of tests to add users, make submissions, record editorial decisions and publish articles.
+The integration tests will install the software and run tests to add users, make submissions, record editorial decisions and publish articles.
 
 Before the integration tests are run, update your `config.inc.php` file and set the `installed` flag to `Off`.
 
