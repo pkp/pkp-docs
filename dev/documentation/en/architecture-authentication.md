@@ -29,7 +29,7 @@ CSRF tokens must be sent with all `POST`, `PUT` or `DELETE` requests to prevent 
 $csrfToken = $request->getSession()->getCSRFToken();
 ```
 
-CSRF tokens are not required for requests to the API when the [API Token](/dev/api/#api-token) is used.
+CSRF tokens are not required for requests to the API when the [API Token](/dev/api/ojs/3.4#tag/Authentication/API-Token) is used.
 
 ### Page Routes
 
@@ -72,7 +72,7 @@ API Handlers automatically check the CSRF token for all `POST`, `PUT` or `DELETE
 
 ## UI Library
 
-A CSRF token is available as a global variable when working with the UI Library. Learn more about using the [CSRF Token](/dev/ui-library/dev/#/pages/csrf) in ajax requests.
+A CSRF token is available as a global variable when working with the UI Library. Learn more about using the [CSRF Token](/dev/ui-library/dev/#/pages/api#csrf-token) in ajax requests.
 
 ## User Session
 The user's session stores a logged-in user's IP address, last-used date/time and more. You can access the current user's session directly.
