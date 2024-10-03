@@ -48,7 +48,7 @@ mysql> select * from journal_settings where journal_id=1 and setting_name='keywo
 +------------+--------+--------------+---------------+--------------+
 ```
 
-Properties in an entity's [schema](./architecture-entities#schemas) that are an array or object are serialized to JSON when they are stored in the settings table.
+Properties in an entity's [schema](./architecture-entities#schema) that are an array or object are serialized to JSON when they are stored in the settings table.
 
 ```
 mysql> select * from journal_settings where journal_id=1 and setting_name='supportedLocales';

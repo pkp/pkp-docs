@@ -130,7 +130,7 @@ class PKPReviewerGridHandler extends GridHandler
 }
 ```
 
-Finally, the grid must define a `loadData` method that gets the items to be displayed. It should return an `array` of [DataObjects](./architecture-entities#dataobject-class).
+Finally, the grid must define a `loadData` method that gets the items to be displayed. It should return an `array` of [DataObjects](./architecture-entities#dataobject).
 
 ```php
 use APP\core\Request;
@@ -357,7 +357,7 @@ Every action created by the grid handler or the grid row will require an operati
 
 Most controllers are used to display a `Form`, which displays the form, receives the form submission, validates the input, and executes the changes.
 
-> The forms described here are used by Controllers which have been deprecated. Use the forms in the [UI Library](./frontend-components#forms) when building forms for new features.
+> The forms described here are used by Controllers which have been deprecated. Use the forms in the [UI Library](/dev/ui-library/3.4/#/component/Form) when building forms for new features.
 {:.warning}
 
 Every form extends the `Form` class. Define the template to use to render the form and add validation checks in the constructor method.

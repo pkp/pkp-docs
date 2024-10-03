@@ -8,7 +8,7 @@ title: Translation - Technical Documentation - OJS|OMP|OPS
 
 PKP's applications support multilingual publishing. This means the application can be translated into any language. It also means that each journal, press or preprint server can publish material in more than one language. This chapter will describe how to use translations and work with multilingual data.
 
-> This guide describes how to work with translations when coding for PKP applications. Visit the [translating guide](./translating) to create or edit a translation of PKP software.
+> This guide describes how to work with translations when coding for PKP applications. Visit the [translating guide](/translating-guide/) to create or edit a translation of PKP software.
 {:.notice}
 
 ## Translations
@@ -132,7 +132,7 @@ msgstr[2] "%d Komentarzy"
 
 A journal, press or preprint server may publish in more than one language. For that reason, all data objects and forms must accept content in more than one language.
 
-> The Entities chapter describes how to [get multilingual data in the DataObject class](/dev/documentation/en/architecture-entities#dataobject-class) and how to [define multilingual properties in the schema](/dev/documentation/en/architecture-entities#multilingual).
+> The Entities chapter describes how to [get multilingual data in the DataObject class](/dev/documentation/en/architecture-entities#dataobject) and how to [define multilingual properties in the schema](/dev/documentation/en/architecture-entities#schema).
 {:.notice}
 
 Each journal, press, or preprint server can enable a locale in the UI, forms and submissions.
