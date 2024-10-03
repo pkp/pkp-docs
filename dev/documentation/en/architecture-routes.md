@@ -58,7 +58,7 @@ The router will **not** find a file at `/lib/pkp/api/v1/submissions/index.php`.
 
 ## Controller Routes
 
-The diagram below shows a URL for a [Controller Handler](architecture-handlers#controller-handlers).
+The diagram below shows a URL for a [Controller Handler](architecture-handlers#controller-handlers-deprecated).
 
 ![Diagram indicating the parts of a URL for Controller Handlers](../img/url-route-controller.png)
 
