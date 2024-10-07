@@ -11,7 +11,7 @@ It is often appropriate to add to one of the existing tests rather than create a
 > If you are writing a test which checks a particular part of the editorial workflow, it should be put in `cypress/tests/data`. If you are writing a test for something else, such as statistics or journal settings, it should be put in `cypress/tests/integration`.
 {:.notice}
 
-Read the Cypress documentation to learn how to write your [first test](https://docs.cypress.io/guides/getting-started/writing-your-first-test.html), [organize tests](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests.html#Test-Structure), and [interact with buttons and fields](https://docs.cypress.io/guides/core-concepts/interacting-with-elements.html#Actionability).
+Read the Cypress documentation to learn how to write your [first test](https://docs.cypress.io/guides/end-to-end-testing/writing-your-first-end-to-end-test), [organize tests](https://docs.cypress.io/guides/core-concepts/writing-and-organizing-tests#Test-Structure), and [interact with buttons and fields](https://docs.cypress.io/guides/core-concepts/interacting-with-elements#Actionability).
 
 ## Commands
 
