@@ -5,7 +5,8 @@ isBookIndex: true
 # Learning OJS 3.3: A Visual Guide to Open Journal Systems
 
 * [English](./en/)
-* [Español (3.1)](3.1/es/)
+* [Español](./es/)
+* [Português](./pt)
 * [Français](./fr/)
 * [Suomi](./fi/)
 * [العربية](./ar/)
