@@ -189,14 +189,14 @@ HookRegistry::register('Form::config::before', function($hookName, $form) {
 
 	$form->removeField('subjects');
 
-	$form->addField(new \PKP\components\forms\FieldSelect('subjects') {
-		'label' => __('common.subjects'),
-		'isMultilingual' => true,
-		'options' => [
-			['value' => 'geology', 'label' => __('subject.geology'),
-			['value' => 'physics', 'label' => __('subject.physics'),
-		],
-	});
+	$form->addField(new \PKP\components\forms\FieldSelect('subjects', [
+	    'label' => __('common.subjects'),
+	    'isMultilingual' => true,
+	    'options' => [
+	        ['value' => 'geology', 'label' => __('subject.geology')],
+	        ['value' => 'physics', 'label' => __('subject.physics')],
+	    ],
+	]));
 
 	return false;
 }
