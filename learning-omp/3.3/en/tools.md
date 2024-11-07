@@ -10,21 +10,11 @@ description: A guide to understanding the import/export and statistics tools in 
 
 ![The list of import and export tools in OMP.](./assets/learning_omp-tools-import_export.png)
 
-OMP provides a number of tools to import and export data into and out of your press. Please see [PKP’s Administrator’s Guide](/admin-guide/en/data-import-and-export) for information on how to use the Native XML Plugin and the Users XML Plugin. Please also note that the Quick Submit Plugin is not available for OMP.
+OMP provides a number of tools to import and export data into and out of your press. Please see [PKP’s Administrator’s Guide](/admin-guide/3.3/en/data-import-and-export) for information on how to use the Native XML Plugin, the Users XML Plugin, and [the CSV Content Import Plugin](/admin-guide/3.3/en/data-import-and-export#omp-csv-import). The CSV Content Import Plugin can only be used with the command line.
+
+Please also note that the Quick Submit Plugin is not available for OMP.
 
 To export using the ONIX 3.0 Monograph Export Plugin, you need to ensure that all of the fields are completed under Settings > Press > Publisher Identity.
-
-The Tab Delimited Content Import Plugin can only be used with the command line.
-
-### Import publications from CSV
-
-OMP 3.3 actually has the ability to import publications from CSV files using the command line. You can see its usage
-by reading the [Publication Import Tool From CSV](/admin-guide/3.3/en/data-import-and-export#publication-import-tool-from-csv) page.
-
-This application will convert a CSV file into a list of OMP publications/submissions. All book cover images and submission PDFs should be kept in the same path as the CSV file. It makes the management easier.
-
-> Note: This is NOT a comprehensive CSV converter, and many fields are left out.
-
 
 ## Statistics
 
@@ -57,7 +47,3 @@ To export users, navigate to **Statistics > Users**. Click on the button **Expor
 ### Report Generator
 
 You can generate statistical reports for usage and reviews or create a custom report. For information on how to use and configure statistics in OMP see the [PKP Administrator’s Guide](/admin-guide/en/statistics).
-
-### Publication Import Tool From CSV
-
-Please see the [Publication Import Tool From CSV](/learning-omp/3.3/en/publication-import-tool) page for more information.
