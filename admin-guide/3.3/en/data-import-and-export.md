@@ -83,6 +83,54 @@ To export article and issue metadata using the Native XML Plugin:
 
 ![The Export Articles tab under the Native XML Plugin.](./assets/native-xml-plugin-export.png)
 
+### OMP CSV Import
+
+The CSV Content Import Plugin for OMP is a command line tools that allows users to import publications from a CSV file, along with cover images and submission PDFs. This tool will convert a CSV file into OMP publications, where each row represents a publication.
+
+> Note: This is NOT a comprehensive CSV converter, and many fields are left out.
+
+#### Formatting the CSV file
+
+Each row in the CSV must be in this format:
+
+```
+pressPath,authorString,title,abstract,seriesPath,year,isEditedVolume,locale,filename,doi,keywords,subjects,bookCoverImage,bookCoverImageAltText,categories,genreName
+```
+
+1. **pressPath**: **(required)** is the path for the press where the user wants to import a publication. If not present, the tool will skip this submission.
+2. **authorString**: **(required)** is the list of authors presents on the submission. For each author, it contains the given name, the surname and the email address. For each author, the string format must be on the following format: `Author1,Surname1,author@pkp.sfu.ca`.
+  - The author's data must be inside double quotes as follows: `"Author1,Surname1,author@pkp.sfu.ca;Author2,Surname2,author2@sfu.pkp.ca"`;
+  - The information between the authors must be separated by a semicolon as shown above;
+  - The family name and email address are both optional, so if some of these fields are not present, continue using the comma and leave the space for this field blank (e.g. `"Author1,,email@email.com;Author2,Surname2,;Author3,,"`).
+3. **title**: **(required)** the submission's title.
+4. **abstract**: **(required)** the submission's abstract.
+5. **seriesPath**: the path for the series, which must exist in the press.
+6. **year**: the submission's year.
+7. **isEditedVolume**: sets the `work_type` for the submission.
+8. **locale**: **(required)** the submission's locale. Must be one of the supported locales for this press. If it's not present, the tool will skip this submission.
+9. **filename**: **(required)** the submission file name. It must be present on the same directory as the `CSV` file.
+10. **doi**: the submission's DOI.
+11. **keywords**: the submission's keywords. If the submission presents more than one keyword, they need to be separated by a semicolon (e.g. `keyword1;keyword2`);
+12. **subjects**: the submission's subjects. If the submission presents more than one subject, they need to be separated by a semicolon (e.g. `subject1;subject2`);
+13. **bookCoverImage**: the book cover image filename. This file must be in the same directory as the `CSV` file and should be in one of these formats: *gif, jpg, png or webp*. If the image isn't in one of these formats, it won't be imported.
+14. **bookCoverImageAltText**: the alt text for the book cover image. It'll only work if the bookCoverImage is present.
+15. **categories**: the submission's categories. All categories present here must be already added to the Press to work correctly. If the submission presents more than one category, they must be separated by a semicolon (e.g. `Category 1;Category 2`).
+16. **genreName**: the submission's genre. If this field comes empty, the system will assume the **MANUSCRIPT** genre by default
+
+#### Importing the CSV Data
+
+1. Create the CSV file. You can use the `sample.csv` file as an example.
+2. Place your CSV file in a directory of your preference on your server.
+3. Place all cover images and submission files in the same directory as the CSV file. The Submission PDFs and the cover images must have the same filename as in the CSV file.
+4. From the command line, starting on the OMP root directory, run the following command, where `<BASE_PATH>` is where the CSV file is located, `<CSV_FILE_NAME>` is the name of the CSV file and `<USERNAME>` is a valid OMP username:
+```
+php tools/importExport.php CSVImportExportPlugin <BASE_PATH>/<CSV_FILE_NAME>.csv <USERNAME>
+```
+
+The tool will import the publications for every row where data was correctly entered. 
+
+If any data was entered incorrectly, the tool will output any rows that did not import and the reason that each failed, and a CSV file called `invalid_rows.csv` will be generated with more details.
+
 ## Import and export users
 
 ### Export users to XML
