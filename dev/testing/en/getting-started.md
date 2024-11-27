@@ -8,12 +8,13 @@ We use [Cypress](https://www.cypress.io/) and [PHPUnit](https://phpunit.de/) to 
 
 ## Requirements
 
-In main branch or OJS Versions released after 3.5, you will need the following  email setup to locally  run the cypress tests.
+In OJS 3.5 or later, you will need to install and run [the Sendria mail server](https://pypi.org/project/sendria/) to locally run the cypress tests:
 
-Install and run  Sendria  mail server  locally
-- ```python3 -m pip install sendria```  [see details](https://pypi.org/project/sendria/)
+```
+python3 -m pip install sendria
+```
 
-Add the following mail settings to `config.inc.php` file
+Add the following mail settings to your `config.inc.php` file:
 
 ```
 default = smtp
