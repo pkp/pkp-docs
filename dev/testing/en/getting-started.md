@@ -6,6 +6,23 @@ title: Getting Started - Testing - OJS/OMP
 
 We use [Cypress](https://www.cypress.io/) and [PHPUnit](https://phpunit.de/) to test our applications. Before you can run the tests, you will need to [clone and configure](/dev/documentation/en/getting-started) the application's repository so that you have a working installation of the application on your local environment.
 
+## Requirements
+
+In OJS 3.5 or later, you will need to install and run [the Sendria mail server](https://pypi.org/project/sendria/) to locally run the cypress tests:
+
+```
+python3 -m pip install sendria
+```
+
+Add the following mail settings to your `config.inc.php` file:
+
+```
+default = smtp
+smtp = On
+smtp_server = localhost
+smtp_port = 1025
+```
+
 ## Configure your environment
 
 There are many ways to [configure your environment](https://docs.cypress.io/guides/guides/environment-variables#Setting) to run the Cypress tests. We recommend creating a `cypress.env.json` file.
