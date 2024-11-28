@@ -254,6 +254,23 @@ To add a template, click **Edit**, followed by **Add Template**.
 
 ![OJS 3.4 emails templates.](./assets/learning-ojs3.4-jm-settings-workflow-multi-email-templates.png)
 
+#### Email template access
+
+You can restrict access to templates by user group. By default, all user groups have access to the default templates.
+
+1. Go to Workflow Settings > Emails > Add and Edit templates
+2. Click **Edit** on the template you want to modify.
+3. For the **Mark as unrestricted** option, select **Limit access to specific user groups**.
+4. Select the user group(s) that should have access.
+5. When you’re finished, click Save.
+
+You can also mark an email template as unrestricted.
+1. Go to Workflow Settings > Emails > Add and Edit templates
+2. Click **Edit** on the template you want to modify.
+3. For the **Mark as unrestricted** option, select **Mark as unrestricted** to the make the template available to all user groups.
+4. When you’re finished, click Save.
+
+*Note: You can only change the access for templates that are related to the submission workflow.*
 
 #### Filters
 

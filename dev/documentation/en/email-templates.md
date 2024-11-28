@@ -105,3 +105,59 @@ These templates can not be edited or deleted. However, each context can override
 Only the overriden templates will be deleted when a context is deleted or has its email templates reset. The default data will remain.
 
 When using the email templates repository, no extra consideration is required to fetch the correct email template. The repository's `delete` method will only delete custom data.
+
+## Template access restrictions
+
+Version 3.6 of OJS, OMP, and OPS allows Admins and managers to restrict email templates to specific user groups within a Context. By default, templates are open to all user groups, similar to previous versions.
+
+Before displaying an email template to a user, you should check if the template is accessible to that user's user group.
+
+```php
+use APP\facades\Repo;
+
+$emailTemplate = Repo::emailTemplate()->getByKey($contextId, $emailTemplateKey());
+
+return Repo::emailTemplate()->isTemplateAccessibleToUser($user, $emailTemplate, $contextId) ? $emailTemplate : null;
+```
+
+You can also assign user groups to a template.
+
+```php
+Repo::emailTemplate()->setEmailTemplateAccess($emailTemplate, $contextId, $userGroupIds);
+```
+
+*Note: the values passed in `$userGroupIds` will overwrite the existing groups assigned to the template.*
+
+You can make a template unrestricted, thus opened to all user groups.
+
+```php
+$isUnrestricted = true;
+
+Repo::emailTemplate()->setEmailTemplateAccess($emailTemplate, $contextId, null, $isUnrestricted);
+```
+
+If you have a list of templates, you can filter it to include only those accessible to the user.
+
+```php
+$collector = Repo::emailTemplate()->getCollector($contextId)->getMany();
+
+$emailTemplates = Repo::emailTemplate()->filterTemplatesByUserAccess($collector, $user, $contextId);
+```
+
+### Configuring Email Template Access in emailTemplates.xml
+
+When describing the data for email templates in `emailTemplates.xml`, you can specify if a template should be unrestricted by default using the `isUnrestricted` attribute.
+
+```xml
+<email key="EXAMPLE_TEMPLATE" name="mailable.example.name" subject="emails.example.subject" body="emails.example.body" isUnrestricted="1"/>
+```
+
+In the above example, the email template is marked as unrestricted - available to all user groups. You can also mark a template as restricted by using `isUnrestricted="0"`. Restricted templates will only become accessible after being assigned to a user group or marked as unrestricted.
+
+If the `isUnrestricted` attribute is omitted, the template will be treated as unrestricted by default.
+
+```xml
+<email key="EXAMPLE_TEMPLATE" name="mailable.example.name" subject="emails.example.subject" body="emails.example.body" />
+```
+
+The email template in the above template will be marked as unrestricted when installed.
