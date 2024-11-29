@@ -3,9 +3,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-relative-links
   - jekyll-optional-front-matter
-  - jekyll-default-layout
   - jekyll-titles-from-headings
   - jekyll-readme-index
+  - jekyll-sitemap
 defaults:
   -
     scope:
@@ -29,5 +29,3 @@ include:
   - _all-skins.min.css # For the SchemaSpy database documentation (Jekyll excludes files that start with _)
 exclude:
   - dev/ui-library/**/*.md # For the Readme.md files included in the fonts directory (Jekyll will try to make a page out of it)
-plugins:
-  - jekyll-sitemap
