@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem "jekyll", "~> 4.1.0"
+gem "jekyll", "~> 4.3.4"
 group :jekyll_plugins do
 	gem 'jekyll-seo-tag'
 	gem 'jekyll-relative-links'
@@ -8,5 +8,3 @@ group :jekyll_plugins do
 	gem 'jekyll-readme-index'
 	gem 'jekyll-sitemap'
 end
-
-gem "webrick", "~> 1.8"
