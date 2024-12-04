@@ -177,7 +177,7 @@ $ tar cvzf "$OJS_BACKUP_PATH/private-$DATE.tgz" "$OJS_PRIVATE_PATH"
 Backup the public files directory.
 
 ```bash
-$ tar cvzf "$OJS_BACKUP_PATH/ojsfiles-$DATE.tgz" "$OJS_WEB_PATH"
+$ tar cvzf "$OJS_BACKUP_PATH/ojsfiles-$DATE.tgz" "$OJS_PUBLIC_PATH"
 ```
 
 Backup any other customizations you have made to the software, such as custom plugins or locale files.
