@@ -8,20 +8,22 @@ generateHeadingToc: true
 
 ## Introduction {#intro}
 
-The 1.0.9.0 version of the iThenticate Plagiarism Detector Plugin released in late 2024 introduces several new and highly requested features, including:
+The 1.0.7.0 and 1.0.8.0 versions of the iThenticate Plagiarism Detector Plugin released in late 2024 introduces several new and highly requested features, including:
 
 - Control over which content is sent to iThenticate, and when it is sent.
 - The ability to view plagiarism check results directly within the OJS interface.
 
 It also integrates the iThenticate End User License Agreement (EULA), which users must agree to before completing a plagiarism check. The EULA will be displayed in the journal’s language if available, otherwise, it will default to English.
 
-> **IMPORTANT**: To use the updated plugin, journal users must upgrade to an iThenticate 2.0 account. **This version of the plugin requires iThenticate API credentials**. Your iThenticate username and password will no longer work with the plugin. For assistance with upgrading your account, please contact your service provider. {:.warning}
+> **IMPORTANT**: To use the updated plugin, journal users must upgrade to an iThenticate 2.0 account. **This version of the plugin requires iThenticate API credentials**. Your iThenticate username and password will no longer work with the plugin. For assistance with upgrading your account, please contact your service provider. 
+{:.warning}
 
 ## Upgrading the Plugin {#upgrading}
 
 If you are using OJS 3.3 or 3.4, you can update the iThenticate Plagiarism Detector Plugin [directly from the Plugin Gallery](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugin-gallery).
 
-> **IMPORTANT**: Ensure that you have completed migration to iThenticate 2.0 before upgrading your plugin. {:.warning}
+> **IMPORTANT**: Ensure that you have completed migration to iThenticate 2.0 before upgrading your plugin. 
+{:.warning}
 
 ## Configuring the Plugin Settings {#plugin-settings}
 
@@ -31,14 +33,12 @@ Once you’ve upgraded the plugin:
 2. Search for the iThenticate Plagiarism Detector Plugin.
 3. Expand the menu and click **Settings** to update your credentials.
     
-    ![The settings menu for the iThenticate plugin in OJS.](./assets/plugin-settings.png.png)
+![The settings menu for the iThenticate plugin in OJS.](./assets/plugin-settings.png)
     
 
 ### Step 1: Enter Your iThenticate API URL {#url}
 
-Enter your iThenticate API URL in the corresponding field. For Crossref Similarity Check users, **your unique iThenticate API URL will include your Crossref membership number** in the following format:
-
-`https://crossref-[membership-number].turnitin.com`
+Enter your iThenticate API URL in the corresponding field. For Crossref Similarity Check users, **your unique iThenticate API URL will include your Crossref membership number** in the following format: `https://crossref-[membership-number].turnitin.com`
 
 For example, if your Crossref membership number is 1234, your URL would be: `https://crossref-1234.turnitin.com`.
 
@@ -58,7 +58,7 @@ Enter your iThenticate API Key in the corresponding field. If you have not alrea
 
 The plugin offers two options for submitting files for plagiarism checking:
 
-![The "Disable auto upload of submission files to iThenticate" toggle in the iThenticate plugin settings.](auto-toggle.png)
+![The "Disable auto upload of submission files to iThenticate" toggle in the iThenticate plugin settings.](./assets/auto-toggle.png)
 
 1. **Automatic Submission:** All submitted files are automatically sent to iThenticate upon successful submission. **This option is enabled by default**.
 2. **Manual Submission:** Editors can choose specific files to submit for checking. Clicking the "Disable auto upload of submission files to iThenticate at submission time” checkbox will disable Automatic Submission and enable Manual Submission.
@@ -85,9 +85,10 @@ Once the submission is complete, the iThenticate report will be available for re
 
 ![A list of submission files with completed iThenticate report links.](./assets/ithenticate-label.png)
 
-> If you see a "Refresh Plagiarism Similarity Score" message in place of the iThenticate logo, this indicates that the system has not yet updated the interface with the report. You can either click the message or refresh the page to see the updated report for all files. {:.notice}
+> If you see a "Refresh Plagiarism Similarity Score" message in place of the iThenticate logo, this indicates that the system has not yet updated the interface with the report. You can either click the message or refresh the page to see the updated report for all files. 
+{:.notice}
 
-### **How to Manually Conduct Similarity Checks {#manual-checks}**
+### How to Manually Conduct Similarity Checks {#manual-checks}
 
 Manual submission allows editors to select which files associated with a submission should be sent to iThenticate for checking.
 
@@ -109,7 +110,8 @@ After a submission is received, editors will be be given an option conduct a pla
 
 ![List of submission files with the first file accompanied by a link to a completed iThenticate report.](./assets/manual-report-available.png)
 
-> If you see a "Refresh Plagiarism Similarity Score" message in place of the iThenticate logo, this indicates that the system has not yet updated the interface with the report. You can either click the message or refresh the page to see the updated report for all files. {:.notice}
+> If you see a "Refresh Plagiarism Similarity Score" message in place of the iThenticate logo, this indicates that the system has not yet updated the interface with the report. You can either click the message or refresh the page to see the updated report for all files.
+{:.notice}
 
 ### Reviewing and Updating the iThenticate Report  {#report-changes}
 
