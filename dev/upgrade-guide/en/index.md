@@ -1,14 +1,14 @@
 ---
 generateHeadingToc: true
 title: How to Upgrade
-description: How to upgrade Open Journal Systems (OJS) and other PKP software, including a step-by-step tutorial.
+description: How to upgrade Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems (OPS), including a step-by-step tutorial.
 ---
 
 # Introduction: How to Upgrade
 
-This guide will help you upgrade Open Journal Systems (OJS). It describes the knowledge and tools you will need to upgrade your software, and provides a step-by-step tutorial you can follow.
+This guide will help you upgrade Open Journal Systems (OJS), Open Monograph Press (OMP), and Open Preprint Systems. It describes the knowledge and tools you will need to upgrade your software, and provides a step-by-step tutorial you can follow.
 
-The instructions below describe how to upgrade OJS when it is running on a LAMP (Linux, Apache, MySQL, PHP) stack. However, these steps can be adapted to upgrade other PKP software (OMP, OPS) as well as perform upgrades in different server environments.
+The instructions below describe how to upgrade on a LAMP (Linux, Apache, MySQL, PHP) stack. However, these steps can be adapted for different server environments.
 
 > Want to know when new versions are released and what's new? Read the [announcements forum](https://forum.pkp.sfu.ca/c/announcements/10).
 {:.notice}
@@ -16,7 +16,7 @@ The instructions below describe how to upgrade OJS when it is running on a LAMP 
 ## Contributors
 
 Authors:
-Marc Bria, Clinton Graham, Kaitlin Newson, Andrea Pritt. Dulip Withanage
+Marc Bria, Clinton Graham, Kaitlin Newson, Andrea Pritt, Dulip Withanage, Alec Smecher
 
 ## Required Knowledge and Tools
 
@@ -29,11 +29,10 @@ In order to use this guide, you will need experience with basic system administr
 - Server credentials, including database credentials
 - Knowledge of your server stack (this guide assumes a LAMP stack)
 - The ability to access your server's terminal (SSH)
-- An identified OJS release package to upgrade to (downloaded in step 5)
 
 ### Preparing to Upgrade
 
-Before starting your upgrade, you can review `docs/release-notes` and the [release notebook](/dev/release-notebooks/) for your upgrade version to learn about important changes introduced in each version. The `config.TEMPLATE.inc.php` includes a description for most configuration parameters.
+Before starting your upgrade, you can review the release notes in `docs/release-notes` and the [release notebook](/dev/release-notebooks/) for your upgrade version to learn about important changes introduced in each version. The configuration file template, `config.TEMPLATE.inc.php`, includes a description for most configuration parameters.
 
 Note that an upgrade may take from a few minutes up to several hours depending on the size of your site.
 
@@ -52,19 +51,31 @@ In order to understand the upgrade process, you should first determine the size 
 
 You should always perform upgrades in a test environment first, even when upgrading from one build to another.
 
-### Upgrading from 2.x
+### Upgrading from OJS 2.x to 3.x
 
-It is not always possible to upgrade from 2.x to any version of 3.x. When performing upgrades from a 2.x version, you should first upgrade to in-between versions. The table below describes the necessary steps.
+OJS 2.x is extremely out of date and direct upgrades to the latest OJS releases are no longer supported. If you are running OJS 2.x and wish to upgrade, you will need to do it in steps:
 
 | From      | To        | Description                                                                        |
 | --------- | --------- | ---------------------------------------------------------------------------------- |
 | `< 2.4.8` | `2.4.8-x` | Before upgrading to 3.x, make sure you are upgraded to the latest `2.4.8-x` build. |
-| `2.4.8-x` | `3.2.1-x` | You can not upgrade to 3.3.x or later from 2.x                                     |
-| `3.2.1-x` | `3.3 >=`  | Upgrade from `3.2.1-x` to any version 3.3 or later.                                |
+| `2.4.8-x` | `3.2.1-x` | `2.4.8-x` can be upgraded to `3.2.1-x`.                                            |
+| `3.2.1-x` | `3.3 >=`  | `3.2.1-x` can be upgraded to any version 3.3 or later.                             |
+
+## Components of an Installation
+
+Any OJS, OMP, or OPS installation has the following components:
+
+1. **Software.** This is the source code that you download and unpack from the PKP website. This lives in the *installation directory*.
+2. **Configuration file.** This is called `config.inc.php` and lives in the *installation directory*.
+3. **Files directory.** This is where the software stores uploaded files such as word processor documents, PDFs, etc. Its location is given in the *configuration file* in the `files_dir` setting. **It should never be web-accessible.**
+4. **Public files directory.** This is where publicly-accessible files such as logos are stored. It is the `public` subdirectory inside the *installation directory*.
+5. **Database.** This is the MySQL or PostgreSQL database used by the software to store metadata etc. It is configured in the *configuration file*.
+
+A backup, restore, or upgrade operation must consider all of these parts of the installation.
 
 ## Upgrade Tutorial
 
-The following tutorial provides a recommended step-by-step process to safely upgrade OJS. However, each installation is different and your server environment might differ substantially. In all cases, you should review and understand the commands before executing them.
+The following tutorial provides a recommended step-by-step process to safely upgrade. However, each installation is different and your server environment might differ substantially. In all cases, you should review and understand the commands before executing them.
 
 During the tutorial, you will see commands for [Debian](https://www.debian.org/) or [RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) Linux systems. You should only run the command appropriate to your server.
 
