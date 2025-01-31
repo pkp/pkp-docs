@@ -33,7 +33,7 @@ Click the “Install” button to install the plugin. (If you do not see the “
 
 You should see a confirmation of installation:
 
-![Notification: Successfully upgraded to version 1.0.1.0.](./assets/JatsPluginNotification.png)
+![Notification: Successfully upgraded to version 1.0.6.1.](./assets/JATStemplatePluginIntallConfirmation.png)
 
 Next, you’ll need to ensure that there is no newer version of the plugin available. 
 
@@ -41,11 +41,11 @@ In the “Plugin Gallery”, once again find the “JATS Template Plugin” and 
 
 Click the upgrade button if available and confirm that you wish to update the plugin. If the upgrade button is unavailable, your plugin is up to date.
 
-![JATS Template Plugin with plugin information and an Upgrade button.](./assets/jatsTemplatePluginInfo.png)
+![JATS Template Plugin with plugin information and an Upgrade button.](./assets/jatsTemplatePluginUpgrade.png)
 
 You will see a confirmation after the upgrade completes successfully.
 
-![Notification: Successfully upgraded to 1.0.6.1](./assets/JATStemplatePluginIntallConfirmation.png)
+![Notification: Successfully upgraded to 1.0.6.3](./assets/jatsTemplatePluginUpgradeSuccessNotification.png)
 
 
 ### Step 2. Install the latest version of the OAI JATS Plugin
@@ -149,9 +149,11 @@ Note that if the journal publishes in French, the Français (Canada) locale is r
 
 Under Settings > Distribution > Access, you will see a series of settings:
 
-![Access to journal content settings with options to provide open access (selected), require subscription, not use OJS for publishing, and enable OAI access to content (selected).](./assets/journalSettings.png)
+![Distribution settings with enable OAI access to content radio button selected](./assets/journalAccessSettings.png)
 
 Ensure that “Enable OAI access to content” is checked. Save the settings.
+
+Ensure the correct Publishing Mode option is selected for your journal’s publishing model (open access or subscription content)
 
 ### A Note for subscription and non publishing use of OJS
 
