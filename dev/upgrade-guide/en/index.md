@@ -87,7 +87,6 @@ The tutorial below uses the following variables to simplify the terminal command
 | --------------- | ------------------- | -------------------------------- |
 | WEB_USER        | `www-data`          | Webserver user                   |
 | WEB_GROUP       | `www-data`          | Webserver user's group           |
-| OJS_ROOT_PATH   | `/var/www`          | OJS root folder                  |
 | OJS_WEB_PATH    | `/var/www/html`     | OJS web root folder              |
 | OJS_DB_HOST     | `db`                | Database host's name             |
 | OJS_DB_USER     | `ojs`               | Database user                    |
@@ -102,7 +101,6 @@ Rewrite the command below to set up these variables with the correct values for 
 ```bash
 $ WEB_USER="www-data" && \
 WEB_GROUP="www-data" && \
-OJS_ROOT_PATH="/var/www" && \
 OJS_WEB_PATH="/var/www/html" && \
 OJS_DB_HOST="db" && \
 OJS_DB_USER="ojs" && \
@@ -111,33 +109,32 @@ OJS_DB_NAME="ojs" && \
 OJS_BACKUP_PATH="/srv/backup/ojs" && \
 OJS_VERSION="ojs-3.3.0-8" && \
 OJS_PUBLIC_PATH="$OJS_WEB_PATH/public" && \
-OJS_PRIVATE_PATH="$OJS_ROOT_PATH/files" && \
+OJS_PRIVATE_PATH="/var/www/files" && \
 DATE=$(date "+%Y%m%d-%H:%M:%S")
 ```
 
 ### 2. Disable the execution of background tasks
 
-#### Shutdown the execution of scheduled tasks
+#### Shut down the execution of scheduled tasks
 
-If you're using a `CRON`-like application to execute the `php tools/runScheduledTasks.php` periodically, please disable it or the specific tasks. If you're using the `Acron` plugin, then disable the plugin.
+If you're using a `CRON`-like application to execute the `php tools/runScheduledTasks.php` periodically, please disable it. If you're using the `Acron` plugin, then disable the plugin.
 
 After disabling, it's better to ensure that all tasks had a time to be completed, you can inspect the database, more specifically the `scheduled_tasks` table, and ensure that the `last_run` field of all entries points to a date slightly in the past (a couple of hours should suffice to execute everything).
 
-#### Shutdown the worker gracefully (only applicable for OJS +3.4)
+#### Shut down the worker gracefully (only applicable for OJS +3.4)
 
-OJS 3.4 introduced Laravel jobs to process long running tasks, and you might also setup a separated task (worker) to execute these jobs out of the request cycle of the application, as explained in the [admin-guide](/admin-guide/en/deploy-jobs). If you're using the worker, it's needed to stop it gracefully before starting the upgrade.
+Version 3.4 introduced Laravel jobs to process long running tasks, as explained in the [admin-guide](/admin-guide/en/deploy-jobs). If you've configured this feature, you'll need to stop it gracefully before starting the upgrade.
 
-The worker can be gracefully interrupted by sending a `SIGTERM` signal to the PHP process, notice that OJS 3.4.0-5 has introduced a [`restart` command to the worker](/admin-guide/en/deploy-jobs), which does basically the same.
-If you're using a `supervisor`-like application to manage the worker, which is recommended, then please refer to its documentation regarding interrupting the applications gracefully.
+The worker can be gracefully interrupted by sending a `SIGTERM` signal to the PHP process running it. This can be done using the `kill` CLI command. If you're using a `supervisor`-like application to manage the worker, please refer to its documentation.
 
-### 3. Enter Maintenance Mode
+### 3. Preventing Access
 
-Before beginning the migration, you should put the site into maintenance mode to ensure that visitors do not see error messages and there are no changes to the database or files while backups are being made. Maintenance mode should prevent all requests from being sent to the application.
+Before beginning the upgrade, you should ensure that visitors do not interact with the installation while you are working.
 
 > OJS does not support a maintenance mode yet, but we [plan to support it](https://github.com/pkp/pkp-lib/issues/3263).
 {:.notice}
 
-Modify your Apache `VirtualHost` directive or place an `.htaccess` file in the `OJS_WEB_PATH` with the following content.
+Modify your Apache `VirtualHost` directive or place an `.htaccess` file in the `OJS_WEB_PATH` with the following content:
 
 ```bash
 order deny,allow
@@ -145,7 +142,7 @@ deny from all
 ErrorDocument 403 "This site is undergoing maintenance and should return shortly. Thank you for your patience."
 ```
 
-Reload the apache server to apply the changes:
+If you modified your Apache configuration, you will have to reload it:
 
 ```bash
 (Debian)$ service apache2 reload
@@ -206,7 +203,6 @@ Once the test is complete, you can run any automated or manual tests you have co
 Download the correct release package.
 
 ```bash
-$ cd "$OJS_ROOT_PATH"
 $ wget "https://pkp.sfu.ca/ojs/download/$OJS_VERSION.tar.gz"
 ```
 
@@ -309,35 +305,19 @@ If the upgrade is successful, you will see the message below informing you that 
 
 #### Log the Output
 
-The upgrade script will print a lot of information to the terminal. We recommend sending the output to a log file. This will help you troubleshoot if the upgrade fails.
+The upgrade script will print a lot of information to the terminal. You may wish to use `tee` to record its output. This will help you troubleshoot if the upgrade fails.
 
 ```bash
-$ nohup php tools/upgrade.php upgrade > $OJS_ROOT_PATH/upgrade.log &
+$ php tools/upgrade.php upgrade
 ```
 
-Check the progress of the upgrade.
-```bash
-$ tail -f $OJS_ROOT_PATH/upgrade.log
-```
+### 10. Enabling Access
 
-### 10. Remove Maintenance Mode
-
-When the upgrade is complete, remove the maintenance mode previously configured by modifying your Apache `VirtualHost` directive or updating your `.htaccess` file.
-
-```bash
-$ cd "$OJS_WEB_PATH/"
-$ mv .htaccess .htaccess.disabled
-```
+When the upgrade is complete, undo the changes you made in Step 3.
 
 If your PHP timeouts and/or memory limit were adjusted, restore their original values.
 
-Reload the apache server to apply the changes.
-
-```bash
-(Debian)$ service apache2 reload
-
-(RHEL)$ systemctl restart httpd
-```
+You may have to restart the apache server to apply the changes.
 
 ### 11. Test the Upgrade
 
