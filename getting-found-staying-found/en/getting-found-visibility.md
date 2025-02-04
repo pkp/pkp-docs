@@ -278,6 +278,7 @@ It is increasingly common that funders require projects to include a knowledge t
 ## Checklist 
 
 > Contributed by Stuart Yeates and Max Sullivan
+
 Before you start any promotion:
 * Validate you OAI-PMH feed. There are a number of OAI-PMH validators which provide a third-party check of you metadata, for example https://validator.oaipmh.com/ https://oval.base-search.net/ and https://validator.dini.de/ 
 * Check your SSL certificate using one of a number of checkers, for example https://www.ssllabs.com/ssltest/analyze.html https://www.sslchecker.com/sslchecker
