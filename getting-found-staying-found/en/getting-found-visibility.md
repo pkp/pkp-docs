@@ -280,8 +280,8 @@ It is increasingly common that funders require projects to include a knowledge t
 > Contributed by Stuart Yeates and Max Sullivan
 
 Before you start any promotion:
-* Validate you OAI-PMH feed. There are a number of OAI-PMH validators which provide a third-party check of you metadata, for example https://validator.oaipmh.com/ https://oval.base-search.net/ and https://validator.dini.de/ 
-* Check your SSL certificate using one of a number of checkers, for example https://www.ssllabs.com/ssltest/analyze.html https://www.sslchecker.com/sslchecker
+* Validate your OAI-PMH feed. There are a number of OAI-PMH validators which provide a third-party check of you metadata, for example: https://validator.oaipmh.com/ https://oval.base-search.net/ and https://validator.dini.de/ 
+* Check your SSL certificate using one of a number of checkers, for example: https://www.ssllabs.com/ssltest/analyze.html https://www.sslchecker.com/sslchecker
 * Check the ISSN details on https://portal.issn.org/ These details are very important if the ownership becomes contested.
 * Check the DOI metadata by searching for articles on https://search.crossref.org/search/ Seacrh for an article by title and then "Actions" -> "Metadata as JSON" and check all he details. Articles can take 48 hours to appear here.
 * Save the journal homepage to https://web.archive.org/save This will fail if you have a insitutional firewall or similar bocking external access.
