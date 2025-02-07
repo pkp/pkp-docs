@@ -280,14 +280,14 @@ It is increasingly common that funders require projects to include a knowledge t
 > Contributed by Stuart Yeates and Max Sullivan
 
 Before you start any promotion:
-* Validate your OAI-PMH feed. There are a number of OAI-PMH validators which provide a third-party check of you metadata, for example: https://validator.oaipmh.com/ https://oval.base-search.net/ and https://validator.dini.de/ 
+* Validate your OAI-PMH feed. There are a number of OAI-PMH validators which provide a third-party check of you metadata, for example: https://validator.oaipmh.com/ https://oval.base-search.net/ https://validator.dini.de/ 
 * Check your SSL certificate using one of a number of checkers, for example: https://www.ssllabs.com/ssltest/analyze.html https://www.sslchecker.com/sslchecker
-* Check the ISSN details on https://portal.issn.org/ These details are very important if the ownership becomes contested.
-* Check the DOI metadata by searching for articles on https://search.crossref.org/search/ Seacrh for an article by title and then "Actions" -> "Metadata as JSON" and check all he details. Articles can take 48 hours to appear here.
-* Save the journal homepage to https://web.archive.org/save This will fail if you have a insitutional firewall or similar bocking external access.
+* Check the ISSN details on https://portal.issn.org/ These details are very important if journal ownership becomes contested.
+* Check the DOI metadata by searching for articles on https://search.crossref.org/search/ Only applies it using DOIs and getting them via CrossRef Search for an article by title and then "Actions" -> "Metadata as JSON" and check all he details. Articles can take 48 hours to appear here after registering the DOI and providing the metadata. 
+* Save the journal homepage to https://web.archive.org/save or similar web harvester.  This will fail if you have a insitutional firewall or similar bocking external access. Important if journal ownership becomes contested.
 * Browse the journal website with the browser console open, looking for errors or warnings that may be relavent. 
 
-Places to check / add your journal if appropiate:
+Places to check / add your journal, if appropiate:
 * Directory of Open Access Journals https://doaj.org/
 * Retraction Watch Database https://retractiondatabase.org/
 * Unpaywall https://unpaywall.org/ 
