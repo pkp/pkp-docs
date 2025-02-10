@@ -74,7 +74,7 @@ In order to remove an ORCID iD:
 - Edit the individual Contributor
 - Scroll down to the ORCID heading and check the checkbox: "Delete ORCID iD and access token!"
 
-![OJS ORCID plugin with checkbox checked to delete ORCID iD and access token.].(/assets/how_to_delete_unauthenticated_ORCID.PNG)
+![OJS ORCID plugin with checkbox checked to delete ORCID iD and access token.](./assets/how_to_delete_unauthenticated_ORCID.PNG)
 
 ### Site-wide Setup
 
