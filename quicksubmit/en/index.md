@@ -34,7 +34,7 @@ If the back issue content was previously published with a DOI, you should reassi
 
 ### Temporarily configure the DOI plugin for back issues
 
-If you are not already using the DOI plugin, you will need to configure it now. Go to Website > Plugins and use the Search to locate the DOI plugin. Enter your prefix and select the second option for the DOI Suffix pattern ("Enter an individual DOI suffix for each published item"). If you need more information on how to configure this plugin, (consult our DOI plugin guide for step-by-step instructions)[https://docs.pkp.sfu.ca/doi-plugin/en/doi-plugin#configuring].
+If you are not already using the DOI plugin, you will need to configure it now. Go to Website > Plugins and use the Search to locate the DOI plugin. Enter your prefix and select the second option for the DOI Suffix pattern ("Enter an individual DOI suffix for each published item"). If you need more information on how to configure this plugin, [consult our DOI plugin guide for step-by-step instructions](https://docs.pkp.sfu.ca/doi-plugin/en/doi-plugin#configuring).
 
 ![The DOI plugin settings window showing a DOI prefix entered and the "Enter an individual DOI suffix for each published item" setting enabled in the DOI suffix options.](./assets/backissues-doi-config.png)
 
@@ -53,7 +53,7 @@ Navigate to the submission dashboard by clicking on “'Go to Submission”' whe
 
 ### Update the DOI registration
 
-Finally, you will need to update the DOI registration record so that the DOI is pointing to the new OJS version. Navigate to the appropriate DOI registration plugin (e.g. CrossRef) to update the DOI metadata by depositing the article to the registration service. You can (read more about configuring DOI registration plugins and updating DOI records from our CrossRef manual)[https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config].
+Finally, you will need to update the DOI registration record so that the DOI is pointing to the new OJS version. Navigate to the appropriate DOI registration plugin (e.g. CrossRef) to update the DOI metadata by depositing the article to the registration service. You can [read more about configuring DOI registration plugins and updating DOI records from our CrossRef manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/config).
 
 ## Uploading Back Issue Articles with no Contributors
 
@@ -80,7 +80,7 @@ Once completed, click "Schedule For Publication" to republish the Article.
 
 ## Uploading Back Issue Articles without Contributor Emails
 
-OJS and QuickSubmit generally require an email to be associated with each contributor. If you will be uploading articles where a Contributor does not have an email address (or articles published from a time period before email addresses), you can install and enable the “Author Requirements Plugin” available in the Plugin Gallery. Detailed information on installing, enabling, and configuring plugins can be found in the (Plugins section of Learning OJS)[https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins]. 
+OJS and QuickSubmit generally require an email to be associated with each contributor. If you will be uploading articles where a Contributor does not have an email address (or articles published from a time period before email addresses), you can install and enable the “Author Requirements Plugin” available in the Plugin Gallery. Detailed information on installing, enabling, and configuring plugins can be found in the [Plugins section of Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#plugins). 
 
 When this plugin is enabled, access the plugin's settings menu to enable the option that makes Author emails optional. This option and/or plugin can be disabled at a later date if you would like future submissions to the journal to require an email.
 
