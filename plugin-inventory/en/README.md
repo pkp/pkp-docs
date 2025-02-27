@@ -4,17 +4,34 @@ description: The plugin inventory brings together links to existing plugin docum
 generateHeadingToc: true
 ---
 
-# About Plugins
+# Plugin Guide and Inventory
 
-## Introduction
+## Introduction {#introduction}
 
-The plugin inventory brings together links to existing plugin documentation for OJS/OMP/OPS. This list is not exhaustive and will continue to be updated as more plugin guides become available. All plugins on this list should be compatible with OJS/OMP/OPS 3.2+. For compatibility details, see the [live plugin gallery list on GitHub](https://github.com/pkp/plugin-gallery/blob/main/plugins.xml), a list of compatible plugins for possible installation with version listing.
+A plugin is a software component that extends the base functionality of an existing software. Plugins can add fields to forms, change templates, save new information, modify authentication procedures, create new pages or change existing screens in the application, or add integration with external services.
 
-### Plugin gallery vs external plugins
+This guide contains information on how to install and enable plugins, as well as a list with links to documentation for OJS/OMP/OPS. 
 
-The OJS/OMP/OPS built-in Plugin Gallery provides access to externally-created plugins that may not be included in your OJS/OMP/OPS installation, but are available for download and activation. Only an Administrator can install a new plugin. For a full list of plugins included in the Plugin Gallery consult the [live plugin gallery list on GitHub](https://github.com/pkp/plugin-gallery/blob/main/plugins.xml).
+### Where to Find Plugins: The Plugin Gallery and External Plugins {#find-plugins}
 
-Sometimes new plugins or plugins that are developed by users or contributors outside of PKP will not appear in the Plugin Gallery and you need to install them separately. For more details on how to do that consult the [External Plugins section of the Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/settings-website#external-plugins).
+OJS/OMP/OPS include a built-in Plugin Gallery with supported plugins created by PKP and third-party contributors. Many of these are not included by default, but can be installed by a Site Administrator and activated by any roles with access to OJS/OMP/OPS site settings.
+
+In addition to those available in the Plugin Gallery, Site Administrators can also install custom or third-party plugins available through other providers. If you are interested in developing your own plugins, please consult [Developer Documentation: Plugin Guide](https://docs.pkp.sfu.ca/dev/plugin-guide/en/) for details.
+
+## Install, Enable, and Configure Plugins {#install}
+
+In this section, you'll learn how to install, enable, and manage plugins in OJS/OMP/OPS.
+
+This PKP School video explains how to configure Plugins in OJS, but the process is the same for OMP and OPS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
+{% include video.html id="PMAsXY_tLMU" provider="youtube" title="Video of how to configure plugins in OJS"%}
+
+### From the Plugin Gallery
+
+In the Plugins section of Settings: Website > Setup, 
+
+All plugins listed here are available in your OJS installation. Journal Managers can enable and configure the plugins listed here.
+
+### From the Plugin Gallery
 
 ### Find a plugin compatible with your software version
 
@@ -27,13 +44,15 @@ For external plugins that do not appear in the [live plugin gallery list](https:
 > **IMPORTANT:**  Installing a plugin that is not compatible with your OJS/OMP/OPS version can seriously impact software functionality. Installing the compatible version from the Plugin Gallery is the best way to prevent technical issues.
 {:.warning}
 
-## Contribute a plugin
+## Contribute a Plugin {#contribute}
 
-If you have developed a plugin, contributing it to the Plugin Gallery is the best way to make it automatically available for OJS/OMP/OPS users to install. See instructions on how to do this in the [Plugin Gallery readme page](https://github.com/pkp/plugin-gallery).
+If you have developed a plugin and wish to make it available to all OJS/OMP/OPS users, we recommend contributing it to the Plugin Gallery. Please view the [Plugin Gallery readme page](https://github.com/pkp/plugin-gallery) on our GitHub repository for details.
 
 If your plugin is not available for the Plugin Gallery but you would like to have it included in the inventory below, [edit this page on GitHub](https://github.com/pkp/pkp-docs/tree/plugin-inventory/plugin-inventory) or send this information via [Documentation Feedback](https://pkp.sfu.ca/documentation-feedback/). Make sure the plugin is compatible with OJS/OMP/OPS 3.2+. Plugins not in the Gallery will be marked as “unvetted” on the list.
 
-## Inventory
+## Plugin Inventory {#inventory}
+
+The inventory below contains plugins available in the Plugin Gallery for OJS/OMP/OPS and links to related documentation written by the plugin creator or PKP. The list is not exhaustive and will continue to be updated as more plugins and documentation becomes available. For compatibility details, see the [live plugin gallery list on GitHub](https://github.com/pkp/plugin-gallery/blob/main/plugins.xml), a list of compatible plugins for possible installation with version listing. 
 
 ### Acron
 
