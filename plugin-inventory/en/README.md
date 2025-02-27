@@ -39,12 +39,6 @@ If your plugin is not available for the Plugin Gallery but you would like to hav
 
 Attempts to reduce the dependance of the application on periodic scheduling tools such as 'cron.' Once enabled, this plugin should result in the processing of log files (along with other scheduled tasks, such as review and subscription reminders).
 
-### AddThis
-
-Provides the addThis social media sharing on the articles abstract/landing page.
-
-* [AddThis plugin guide](/learning-ojs/en/settings-website#addthis-plugin)
-
 ### Allowed Uploads
 
 Enables journals to choose the filetypes that are allowed when submitting a manuscript.
