@@ -183,22 +183,6 @@ OJS 3 dispose d'un certain nombre de plugiciels que vous pouvez activer pour am�
 
 Veuillez noter que vu que PKP ne gére pas de plugiciels tiers, nous ne pouvons pas garantir qu'il fonctionnera avec votre version d'OJS.
 
-#### Plugiciel AddThis
-
-[AddThis](https://www.addthis.com/) permet un partage facile des réseaux sociaux en intégrant des outils pour plusieurs plates-formes dans un ensemble compact de boutons configurables. Le plugiciel intègre AddThis dans OJS/OMP pour un partage rapide du contenu publié.
-
-Ce plugiciel peut être activé à partir de la galerie de plugiciels.
-
-![](./assets/learning-ojs-settings-plugin-addthis.png)
-
-Vous pouvez configurer les icônes des réseaux sociaux et obtenir des statistiques en cliquant sur le bouton Paramètres du plugin.
-
-![](./assets/learning-ojs-settings-plugin-addthis-2.png)
-
-Afin d'obtenir les statistiques de ce plugiciels, vous devrez vous inscrire pour un [compte AddThis](https://www.addthis.com/) .
-
-![](./assets/learning-ojs-settings-plugin-addthis-3.png)
-
 #### Plugiciel Browse
 
 Ce plugiciel implémente un plugiciel de bloc qui permet à l'utilisateur de naviguer dans le contenu par catégories. Le bloc de navigation apparaît dans la barre latérale de la revue.

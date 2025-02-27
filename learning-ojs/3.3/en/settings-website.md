@@ -244,22 +244,6 @@ As some of the plugins below are 3rd party plugins, it may require that you down
 
 Please note that as PKP does not maintain 3rd party plugins, we cannot guarantee that it will work with your version of OJS.
 
-#### AddThis Plugin
-
-[AddThis](https://www.addthis.com/) permits easy social media sharing by integrating tools for several platforms into a compact set of configurable buttons. The plugin integrates AddThis into OJS/OMP for quick sharing of published content.
-
-This plugin can be enabled from the Plugin Gallery.
-
-![Social media sharing icons displayed on an article page by the AddThis plugin.](./assets/learning-ojs-settings-plugin-addthis.png)
-
-You can configure the social media icons and get statistics by clicking on the Setting button of the Plugin.
-
-![AddThis plugin settings button.](./assets/learning-ojs-settings-plugin-addthis-2.png)
-
-In order to get statistics from this plugin, you will need to register for an [AddThis account](https://www.addthis.com/).
-
-![AddThis plugin settings expanded with different display options.](./assets/learning-ojs-settings-plugin-addthis-3.png)
-
 #### Browse Plugin
 
 This plugin implements a block plugin that allows the user to navigate content by categories. The browse block appears on the journal's sidebar.

@@ -233,22 +233,6 @@ Como alguns dos plugins abaixo são plugins de terceiros, pode ser necessário b
 
 Observe que como o PKP não mantém plugins de terceiros, não podemos garantir que ele funcionará com sua versão do OJS.
 
-#### Adicionar Este Plugin
-
-O [AddThis](https://www.addthis.com/) permite o fácil compartilhamento em mídias sociais ao integrar ferramentas para várias plataformas em um conjunto compacto de botões configuráveis. O plugin integra o AddThis no OJS/OMP para compartilhamento rápido do conteúdo publicado.
-
-Este pugin pode ser ativado a partir da Galeria de Plugins.
-
-![Ícones de compartilhamento de mídia social exibidos em uma página de artigo pelo plugin AddThis.](./assets/learning-ojs-settings-plugin-addthis.png)
-
-Você pode configurar os ícones das mídias sociais e obter estatísticas clicando no botão Configurar do Plugin.
-
-![Adicionar este botão de configurações do plug-in.](./assets/learning-ojs-settings-plugin-addthis-2.png)
-
-Para obter estatísticas a partir desse plugin, será preciso se registrar em [AddThis account](https://www.addthis.com/).
-
-![As configurações do plug-in AddThis foram expandidas com diferentes opções de exibição.](./assets/learning-ojs-settings-plugin-addthis-3.png)
-
 #### Plug-in de navegação
 
 Esse plugin implementa um plugin de bloco que permite ao usuário navegar pelo conteúdo por categorias. O bloco de navegação aparece na barra lateral da revista.
