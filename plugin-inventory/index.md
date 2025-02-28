@@ -2,7 +2,7 @@
 isBookIndex: true
 ---
 
-# Plugin Inventory
+# OJS/OMP/OPS Plugin Guide and Inventory
 
 * [English](./en)
 
