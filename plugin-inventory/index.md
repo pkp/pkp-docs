@@ -6,4 +6,4 @@ isBookIndex: true
 
 * [English](./en)
 
-The plugin inventory brings together links to existing plugin documentation for OJS/OMP/OPS. This list is not exhaustive and will continue to be updated as more plugin guides become available.
+The plugin guide and inventory explains how to install, enable, and configure plugins in OJS, OMP, and OPS. The inventory  lists links to existing plugin documentation for OJS/OMP/OPS.
