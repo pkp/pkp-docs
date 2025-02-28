@@ -16,33 +16,66 @@ This guide contains information on how to install and enable plugins, as well as
 
 OJS/OMP/OPS include a built-in Plugin Gallery with supported plugins created by PKP and third-party contributors. Many of these are not included by default, but can be installed by a Site Administrator and activated by any roles with access to OJS/OMP/OPS site settings.
 
-In addition to those available in the Plugin Gallery, Site Administrators can also install custom or third-party plugins available through other providers. If you are interested in developing your own plugins, please consult [Developer Documentation: Plugin Guide](https://docs.pkp.sfu.ca/dev/plugin-guide/en/) for details.
+In addition to those available in the Plugin Gallery, Site Administrators can also install custom or third-party external plugins available through other providers. If you are interested in developing your own plugins, please consult [Developer Documentation: Plugin Guide](https://docs.pkp.sfu.ca/dev/plugin-guide/en/) for details.
 
 ## Install, Enable, and Configure Plugins {#install}
 
-In this section, you'll learn how to install, enable, and manage plugins in OJS/OMP/OPS.
+In this section, you'll learn how to install, enable, and manage plugins in OJS/OMP/OPS. 
+
+In the Plugins section of Settings: Website > Setup, you will find two tabs: Installed Plugins and Plugin Gallery. The Installed Plugins tab is where you can manage your current plugins, and the Plugin Gallery is where Site Administrators can add new plugins.
 
 This PKP School video explains how to configure Plugins in OJS, but the process is the same for OMP and OPS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 {% include video.html id="PMAsXY_tLMU" provider="youtube" title="Video of how to configure plugins in OJS"%}
 
-### From the Plugin Gallery
+### Add a Plugin from the Plugin Gallery
 
-In the Plugins section of Settings: Website > Setup, 
-
-All plugins listed here are available in your OJS installation. Journal Managers can enable and configure the plugins listed here.
-
-### From the Plugin Gallery
-
-### Find a plugin compatible with your software version
-
-The best way to identify and install a plugin compatible with your version of OJS/OMP/OPS is from within the platform’s Plugin Gallery. The Plugin Gallery will only show plugins compatible with your version and will refresh automatically to reflect the plugins added to the [live plugin gallery list on GitHub](https://github.com/pkp/plugin-gallery/blob/main/plugins.xml).
-
-Another useful tool for checking plugin version compatibility at a glance is the [PKP Plugin Compatibility utility](https://pkp.github.io/plugin-compatibility/index.html).
-
-For external plugins that do not appear in the [live plugin gallery list](https://github.com/pkp/plugin-gallery/blob/main/plugins.xml), consult the plugin developer’s GitHub page to determine compatibility. These plugins will need to be installed manually.
-
-> **IMPORTANT:**  Installing a plugin that is not compatible with your OJS/OMP/OPS version can seriously impact software functionality. Installing the compatible version from the Plugin Gallery is the best way to prevent technical issues.
+> Only Site Administrators are permitted to install new plugins. Please contact your Site Administrator to request installation.
 {:.warning}
+
+The "Plugin Gallery" tab shows all plugins that can be installed for your site, as well as information about whether plugins can be upgraded
+
+![The Plugin Gallery screen in OJS with a list of possible plugins.](./assets/plugin-gallery-3.5.png)
+
+To add a plugin, click the name of the plugin you wish to install. Read the information and click the Install button.
+
+![The plugin information window that opens after a plugin is clicked in the Plugin Gallery, showing the name of the plugin, developer, and important information.](./assets/install-plugin-3.5.png)
+
+The plugin will now be available from the Installed Plugins tab. Newly installed plugins are **not** enabled by default and must be enabled in the Installed Plugins tab.
+
+### Manage Installed Plugins
+
+The "Installed Plugins" tab shows all plugins currently installed for your site. Site Administrators, Journal Managers, and Journal Editors with access to journal settings can freely enable, disable, and configure the plugins on this tab. The Plugin Gallery will only show plugins compatible with the version of the software you are using, and will refresh automatically to reflect changes to the [live plugin gallery list on GitHub](https://github.com/pkp/plugin-gallery/blob/main/plugins.xml).
+
+![The Installed Plugins Screen in OJS, with a list of various plugins that are enabled and disabled.](./assets/installed-plugins-3.5.png)
+
+To enable or disable a plugin, check or uncheck the box next to the plugin name. Note that some plugins are required for the system and cannot be disabled.
+
+Use the Search button to locate a specific plugin from the list.
+
+Plugins may have additional settings, or require configuration before they can be used. Click the blue arrow next to the plugin name to reveal additional options, including Settings, Delete, or Upgrade. 
+
+![The expanded menu below a plugin showing options for Settings, Delete, and Upgrade.](./assets/plugin-options-3.5.png)
+
+**Settings**: Appears to Journal Managers, Journal Editors with access to settings, and Site Administrators. Access the custom settings menu for the plugin. These settings will differ with each plugin.
+**Delete**: Only appears to Site Administrators. Remove the plugin from your site. The plugin can be reinstalled at any time from the Plugin Gallery.
+**Upgrade**: Only appears to Site Administrators. Automatically installs the newest version of the plugin if it is not already installed.
+
+
+### Install an External Plugin {#external-plugins}
+
+Plugins found from sources outside of the Plugin Gallery will require manual installation. Only **Site Administrators** can upload these plugins. 
+
+> **IMPORTANT:** Be sure to confirm that the plugin you are installing is compatible with the version of the software you are using by carefully reading the documentation provided by the developer. Installing a plugin that is not compatible with your OJS/OMP/OPS version can seriously impact software functionality.
+{:.warning}
+
+1. Download the plugin's tar.gz file from its repository under the Releases tab.
+2. Go to the Installed Plugins tab of the journal.
+3. At the top right, click ‘Upload a New Plugin’.
+4. Upload the plugin file.
+5. When it has finished uploading, click Save. It may take some time for the plugin to finish installing and become available in the Installed Plugins list.
+
+> If your upload fails and you see an error message that reads "The uploaded plugin archive does not contain a folder that corresponds to the plugin name.”, this means you must simplify the name of the plugin folder inside the zipped file. Try renaming complex folder names such as “translator-ojs-3_0_0-0” to something simpler, such as “translator.”
+{:.notice}
 
 ## Contribute a Plugin {#contribute}
 
