@@ -1,9 +1,9 @@
 
 ### Plugin Guides
 
-These guides explain how to use OJS plugins. Plugins integrate OJS with services offered by PKP partner organizations.
+Plugins add new functionality to OJS, OMP, and OPS, and integrate additional services offered by PKP partner organizations. Check out the Plugin Guide and Inventory first to learn how to install and enable plugins, as well as view a list of currently available plugins.
 
-- [Plugin Inventory](/plugin-inventory/en/)
+- [Plugin Guide and Inventory](/plugin-inventory/en/)
 - [DOI Plugin Guide](/doi-plugin//)
 - [Crossref Plugin Guide](/crossref-ojs-manual/en/)
 - [ORCID Plugin Guide](/orcid/)
