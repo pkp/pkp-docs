@@ -6,75 +6,75 @@ title: Open Journal System 3.3 lernen - Reviewen
 descriptions: Anleitung zur Verwaltung zugewiesener Reviews als Peer-Reviewer in OJS.
 ---
 
-# Reviewen
+# Begutachtung
 
 {% include video.html id="CINhUa35Jic" provider="youtube" title="Video of the Reviewer's Steps in OJS"%}
-Dieses PKP School Video erklärt, wie man einen Artikel in OJS reviewt. Um weiter Videos in dieser Serie zu sehen, besuchen Sie [PKPs YouTube-Kanal](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
+Dieses PKP School Video erklärt, wie man einen Artikel in OJS begutachtet. Um weitere englischsprachige Videos aus dieser Serie zu sehen, besuchen Sie [PKPs YouTube-Kanal](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-Als Reviewer erfahren Sie von der Bewertungsanfrage per E-Mail oder durch Überprüfen Ihres Dashboards:
+Als externe/r Gutachter/in erfahren Sie von der Begutachtungsanfrage per E-Mail oder durch Überprüfen Ihres Dashboards:
 
-![Die zugewiesene Einreichungsliste im Reviewer-Dashboard](./assets/learning-ojs-3-rev-dashboard.png)
+![Die mir zugewiesenen Einreichungen im Begutachtungs-Dashboard.](./assets/learning-ojs-3-rev-dashboard.png)
 
-Suchen Sie in der Meine Zugewiesene Liste den Titel und Überprüfungs-Link. Beachte Sie das Fehlen von Autoreninformationen in diesem anonymen Überprüfungsprozess.
+Suchen Sie in der List "Mir zugewiesene Beiträge" den Titel und den Link. Beachten Sie das Fehlen von Autor/inneninformationen in diesem anonymen Begutachtungsprozess.
 
-Wenn Sie den Link zur Überprüfung auswählen, gelangen Sie zum ersten Schritt in den Einreichungsdaten, welche viel eingeschränkter ist als die Ansicht des Editors, und keine Informationen des Autors enthält.
+Wenn Sie den Link anklicken, gelangen Sie zum eingereichten Artikel; diese Ansicht ist viel eingeschränkter ist als die Ansicht des/r Redakteur/in und enthält keine Informationen des/r Autors/in.
 
-![Eine Bewertungsanfrage](./assets/learning-ojs-3-rev-step1.png)
+![Eine Begutachtungsanfrage](./assets/learning-ojs-3-rev-step1.png)
 
 Dieser erste Schritt besteht aus den folgenden Abschnitten:
 
-**Bitte um Bewertung**: enthält einen Text, der Sie einlädt, als Prüfer zu fungieren.
+**Begutachtungsanfrage**: enthält einen Text, der Sie einlädt, als Gutachter/in zu fungieren.
 
-**Artikel-Titel**: Gibt den Titel des Artikels an.
+**Artikeltitel**: Gibt den Titel des Artikels an.
 
-**Abstract**: liefert den abstrakten Text.
+**Zusammenfassung**: enthält ein Abstract des Artikels.
 
 Weiter unten auf dem Bildschirm finden Sie weitere Informationen.
 
-![Mehr der Bewertungsanfrageseite](./assets/learning-ojs-3-rev-step1-3.png)
+![Mehr der Begutachtungsanfrageseite](./assets/learning-ojs-3-rev-step1-3.png)
 
-Der **Alle Einreichungsdetails** Link öffnet ein Fenster mit zusätzlichen Informationen, einschließlich aller nicht-Autoren-Metadaten:
+Der **Alle Details der Einreichung anzeigen** Link öffnet ein Fenster mit zusätzlichen Informationen, einschließlich aller nicht auf den/die Autoren/in bezogene Metadaten:
 
 ![Die Ansicht aller Einreichungsdetails](./assets/learning-ojs-3-rev-step1-2.png)
 
-Beachten Sie, dass keines dieser Felder vom Prüfer editierbar ist und nur zur Durchführung einer gründlichen Überprüfung zur Verfügung gestellt wird.
+Beachten Sie, dass keines dieser Felder vom Gutachter/in editierbar ist und nur zur Durchführung einer gründlichen Begutachtung zur Verfügung gestellt wird.
 
-Schließen Sie dieses Fenster und bewegen Sie sich weiter unten auf dem Bildschirm. Von hier aus sehen Sie den Überprüfungsplan, inklusive aller relevanten Fälligkeitsdaten.
+Schließen Sie dieses Fenster und scrollen Sie weiter nach unten. Von hier aus sehen Sie den Zeitplan der Begutachtung, inklusive aller relevanten Fälligkeitsdaten.
 
-Von hier aus können Sie die Bewertung ablehnen oder akzeptieren. Wenn Sie ablehnen, werden Sie aus dem Prozess entfernt. Wenn Sie einverstanden sind, werden Sie zu Schritt 2 weitergeleitet, wo Sie in der Lage wären, alle von der Zeitschrift zur Verfügung gestellten Prüfungsrichtlinien zu lesen.
+Von hier aus können Sie die Begutachtungsanfrage ablehnen oder akzeptieren. Wenn Sie ablehnen, werden Sie in diesem Begutachtungsprozess nicht mehr berücksichtigt. Wenn Sie die Anfrage akzeptieren, werden Sie zum zweiten Schritt weitergeleitet, wo Sie alle von der Zeitschrift zur Verfügung gestellten Begutachtungsrichtlinien lesen können.
 
-![Die Prüferrichtlinien](./assets/learning-ojs-3-rev-step2.png)
+![Die Begutachtungsrichtlinien](./assets/learning-ojs-3-rev-step2.png)
 
-Drücke **Fortsetzen**, um zu Schritt 3 zu gelangen. Hier können Sie eine Kopie der Überprüfungsdateien herunterladen und Ihre Kommentare eintragen. Das erste Fenster ist für Kommentare für den Editor und den Autor, das zweite Fenster ist nur für den Editor.
+Klicken **Fortfahren**, um zu Schritt 3 zu gelangen. Hier können Sie eine Kopie der zu begutachtenden Dateien herunterladen und Ihre Kommentare hinzufügen. Das erste Fenster ist für Kommentare für den/die Redakteur/in und den/die Autorin, das zweite Fenster ist nur für den/die Redakteur/in.
 
-![Der Download- und Review-Tab](./assets/learning-ojs-3-rev-step3.png)
+![Der Download- und Begutachtungsreiter](./assets/learning-ojs-3-rev-step3.png)
 
-Sobald Sie das Paper gelesen und Ihre Kommentare hinzugefügt haben, scrollen Sie die Seite herunter, um optional eine markierte Kopie der Überprüfungsdatei hochzuladen (denken Sie daran, jede persönliche Identifikation aus der Datei zu entfernen, bevor Sie sie hochladen).
+Sobald Sie den Artikel gelesen und Ihre Kommentare hinzugefügt haben, scrollen Sie nach unten, um optional eine Dateiversion mit Ihren Kommentaren hochzuladen. (Denken Sie daran, Hinweise auf Ihre Person aus der Datei zu entfernen, bevor Sie sie hochladen).
 
-![Die Upload-Überprüfer-Dateien und der Bewertungs-Empfehlungen Dropdown](./assets/learning-ojs-3-rev-step3-1.png)
+![Der Upload für die Begutachtungsdateien und der Begutachtungsempfehlung](./assets/learning-ojs-3-rev-step3-1.png)
 
 Als nächstes müssen Sie Ihre Empfehlung über das Dropdown-Menü abgeben.
 
-Ihre Auswahl umfasst:
+Folgende Optionen stehen zur Auswahl:
 
-**Beitrag annehmen**: Das Manuskript ist ohne Änderungen für das Lektorat geeignet.
+**Einreichung annehmen**: Das Manuskript ist ohne Änderungen für das Lektorat geeignet.
 
-**Revisionen erforderlich**: Es erfordert kleinere Änderungen, die vom Editor überprüft und akzeptiert werden können.
+**Überarbeitung erforderlich**: Kleinere Änderungen sind erforderlich, die vom/n der Redakteur/in überprüft und akzeptiert werden können.
 
-**Erneut zur Überprüfung einreichen**: Es erfordert große Änderungen und eine weitere Runde Peer Review.
+**Erneut zur Begutachtung einreichen**: Es sind große Änderungen erforderlich und ein erneuter Peer-Review-Prozess.
 
-**Anderswo erneut einreichen**: Es scheint nicht gut für den Fokus und den Umfang dieses Journals zu passen.
+**Anderswo erneut einreichen**: Die Einreichung passt wahrscheinlich nicht zum Fokus und dem inhaltlichen Spektrum der Zeitschrift.
 
-**Einreichung ablehnen**: Sie hat zu viele Schwächen, um jemals akzeptiert zu werden.
+**Beitrag abgelehnt**: Sie hat zu viele Schwächen, um akzeptiert zu werden.
 
-**Siehe Kommentare**: Wenn keine der oben genannten Empfehlungen sinnvoll sind, können Sie einen Kommentar für den Editor hinterlassen, der Ihre Bedenken detailliert beschreibt.
+**Siehe Kommentare**: Wenn keine der oben genannten Empfehlungen sinnvoll sind, können Sie einen Kommentar für den/die Redakteur/in hinterlassen, der Ihre Bedenken detailliert beschreibt.
 
-Zum Abschluss klicken Sie auf die Schaltfläche "Rezension einreichen" um Ihre Aufgabe abzuschließen. Sie werden gebeten zu bestätigen.
+Zum Abschluss klicken Sie auf den Button "Gutachten einreichen" um Ihre Aufgabe abzuschließen. Diesen Schritt müssen Sie dann noch einmal bestätigen.
 
-![Bestätigungsbildschirm zum Übermitteln der Bewertung](./assets/learning-ojs-3-rev-step3-2.png)
+![Bestätigungsbildschirm zum Übermitteln der Begutachtung](./assets/learning-ojs-3-rev-step3-2.png)
 
-Drücke OK. Sie werden zum letzten Bestätigungsbildschirm weitergeleitet, welcher sich bei Ihnen für Ihre Arbeit bedankt.
+Drücken Sie OK. Zum Abschluss des Begutachtungsprozesses wird Ihnen eine Bestätigung angezeigt.
 
-![Der Bewertungsvervollständigungsbildschirm](./assets/learning-ojs-3-rev-step4.png)
+![Die Anzeige zum Abschluss des Begutachtungsprozesses](./assets/learning-ojs-3-rev-step4.png)
 
-Das war's! Die Bewertung ist jetzt fertig.
+Das war's! Die Begutachtung ist jetzt abgeschlossen.
