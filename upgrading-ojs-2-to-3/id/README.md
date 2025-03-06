@@ -1,0 +1,3 @@
+# Upgrade dari OJS 2 ke OJS 3
+
+Dalam panduan ini, kami menjelaskan beberapa perbedaan antara OJS 2 dan OJS 3 serta menyarankan langkah-langkah dalam merencanakan dan menyelesaikan proses migrasi anda. Panduan ini akan berguna untuk instalasi multijurnal, jurnal yang berdiri sendiri, berbagai jenis institusi, dan penerbit. Panduan ini adalah panduan umum, dan proses upgrade dapat bervariasi tergantung dari penerbitnya.
