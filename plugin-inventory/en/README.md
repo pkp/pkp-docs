@@ -304,12 +304,18 @@ Enables the assignment of the Digital Object Identifiers to issues, articles and
 
 * [DOI plugin guide](/doi-plugin/en/)
 
-### DOI to mEDRA xml export and registration
+### DOI to mEDRA XML Export and Registration
 
 Enables the export of issue, article and galley metadata in ONIX4DOI format and the registration of DOIs with mEDRA.
 
 * [mEDRA plugin guide](/admin-guide/en/data-import-and-export#medra-exportregistration-plugin)
 * [mEDRA plugin in GitHub](https://github.com/pkp/medra/)
+
+### DOI to OP DOI RA XML Export and Registration
+
+Enables the export of issue and article metadata in ONIX4DOI format and the registration of DOIs with OP DOI RA.
+
+* [OP DOI RA plugin in GitHub](https://github.com/Ediser-mEDRA/opdoiraojsplugin/)
 
 ### DRIVER
 
