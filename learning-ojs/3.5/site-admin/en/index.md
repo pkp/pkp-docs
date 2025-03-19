@@ -110,7 +110,7 @@ Once you have saved your newly created journal, the Settings Wizard window will 
 
 **Users** will allow you to add and manage users associated with the journal. Once you have created a journal and completed your configurations, you will likely want to create a user account for the Journal Manager or Editor - see the [Users and Roles chapter](./URL) for details.
 
-![The Users window with a list of current users.](./admin-users-3.5.png)
+![The Users window with a list of current users.](./assets/admin-users-3.5.png)
 
 ### Configure Journal-Specific Settings {#per-journal-settings}
 Clicking **Settings Wizard** will take you to the settings for that journal. This can be used to adjust configurations at the individual journal level.
