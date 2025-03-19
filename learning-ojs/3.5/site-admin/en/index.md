@@ -98,11 +98,16 @@ The **Create Journal** button will let you add a new journal to this OJS install
 Once you have saved your newly created journal, the Settings Wizard window will open.
 
 **Edit** will let you change the journal details.
+
 > If editing journal details, we strongly recommend not changing the path of a journal once it has published content.
 {:.warning}
+
 **Remove** will let you delete the journal from the installation. **Once you have confirmed that you wish to delete the journal and its contents, this action cannot be undone**.
+
 ![Confirmation screen for journal deletion.](./assets/siteadmin-confirm-journal-delete-3.5.png)
+
 **Settings Wizard** will take you to the settings for that journal. This option is described in depth below, under [Configure Journal-Specific Settings](#per-journal-settings).
+
 **Users** will allow you to add and manage users associated with the journal. Once you have created a journal and completed your configurations, you will likely want to create a user account for the Journal Manager or Editor - see the [Users and Roles chapter](./URL) for details.
 
 ![The Users window with a list of current users.](./admin-users-3.5.png)
