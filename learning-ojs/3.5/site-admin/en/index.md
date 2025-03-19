@@ -33,11 +33,13 @@ The “Site Setup” option will appear under “Site Management” in the Admin
 ### Configure Basic Site Settings {#basic-settings}
 “Site Settings” is where you can add the name of your site, a site logo, an introductory statement about your site, a site footer, a redirect option (if you only plan to have one journal on this installation), contact information, a minimum password length for registered users, style sheet and theme options, and sidebar management.
 You will have the opportunity to provide details about individual journal(s) at a later stage.
+
 ![OJS admin menu with site setup tab selected.](./assets/siteadmin-hosted-journals-3.5.png)
 
 ### Manage Languages {#languages}
 OJS is designed to accommodate multilingualism, allowing journals supporting a wide variety of languages under a single site.
 Although one or more locales (languages) can be installed when first configuring OJS, the Site Administrator can later configure the primary locale (default language) of the site and install new locales to make other languages available for use by journals under Administration > Site Settings > Site Setup > Languages. 
+
 ![OJS admin menu with languages tab selected.](./assets/siteadmin-languages-3.5.png)
 
 Here you can see all installed languages, enable, disable or remove languages, and set any language as the Primary Locale (the language that new users will see when first visiting the site).
@@ -47,18 +49,20 @@ To add an additional language:
 2. Check off the locales you would like to install
 3. Click Save
 
-Once installed, Site Administrators and Journal Managers can further customize language settings on a per-journal basis. See the [Installing, Enabling, and Configuring Locales section of Using PKP Software in Multiple Languages](https://docs.pkp.sfu.ca/multiling-guide/) for details.
+Once installed, Site Administrators and Journal Managers can further customize language settings on a per-journal basis. See the [Installing, Enabling, and Configuring Locales section of Using PKP Software in Multiple Languages](https://docs.pkp.sfu.ca/multiling-guide/en/locales) for details.
 
 > Note: Not all locales are fully translated. For information on checking the completeness of a locale, please consult the [Planning section of Using PKP Software in Multiple Languages](https://docs.pkp.sfu.ca/multiling-guide/en/planning).
 
 ### Manage Plugins {#plugins}
 From here, you can choose to enable or disable various plugins for all the journals on your OJS installation.
+
 ![OJS admin menu with plugins tab selected.](./assets/siteadmin-plugins-3.5.png)
 
 For detailed information about how to install, uninstall, update, and configure plugins, as well as a list of all available plugins, please see [the Plugin Guide Inventory](https://docs.pkp.sfu.ca/plugin-inventory/). Note that the Site Administrator is the only role permitted to install and uninstall plugins.
 
 ### Manage Appearance and Navigation Menus {#appearance}
 Use the Appearance tab and the Navigation Menus subtab to customize the look of your main OJS site (i.e., the site that serves as an index for all hosted journals).
+
 ![OJS admin menu with navigation menus tab selected.](./assets/siteadmin-sa-menus-3.5.png.png)
 
 These options are functionally identical to the Appearance options for individual journals. Consult [the Customize the Look of Your Journal section of Learning OJS for Journal Managers](URL) as well as the [Designing Your Journal guide](https://docs.pkp.sfu.ca/designing-your-journal/) for more information.
