@@ -169,11 +169,16 @@ Applies a starter Bootstrap 3 theme. Knowledge of HTML, CSS and JavaScript will 
 * [Bootstrap3 Theme guide](/pkp-theming-guide/en/theme-bootstrap3)
 * [Bootstrap3 Theme in GitHub](https://github.com/pkp/bootstrap3)
 
+### Browse Block
+
+Allows visitors to browse published articles by section in a journal's sidebar or footer (depending on the theme).
+
+* [Browse Block guide](/learning-ojs/en/settings-website#browse-plugin)
+
 ### Browse By Section
 
-Allows visitors to browse published articles by section in a journals sidebar or footer (depending on the theme).
+Allows adding journal sections to the navigation menu, which facilitates browsing all articles published in a specific section.
 
-* [Browse By Section plugin guide](/learning-ojs/en/settings-website#browse-plugin)
 * [Browse By Section plugin in GitHub](https://github.com/pkp/browseBySection)
 
 ### Citation Style Language
