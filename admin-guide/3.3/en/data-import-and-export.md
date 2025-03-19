@@ -22,7 +22,7 @@ Articles and issues can be quickly imported into OJS using the Quick Submit Plug
 
 ### Quick Submit
 
-The Quick Submit Plugin allows you to quickly add complete submissions to an issue. It provides a one-step submission process for editors needing to bypass the traditional submission, review, and editing process. See [Learning OJS 3](/learning-ojs/en/tools) for more details.
+The Quick Submit Plugin allows you to quickly add complete submissions to an issue. It provides a one-step submission process for editors needing to bypass the traditional submission, review, and editing process. See [Learning OJS 3](/learning-ojs/3.3/en/tools) for more details.
 
 ### Native XML Plugin
 
@@ -31,17 +31,17 @@ The Native XML Plugin in OJS 3.x replaces the Articles and Issues XML Plugin, wh
 * Moving article and issue metadata from one OJS journal to another
 * Moving a large number of back issues and articles into OJS
 
-To use this plugin you will need the following:
+To use this plugin you will need:
 
 * A basic understanding of XML
 * To be enrolled as a Journal Manager in the OJS journal
 
 If you are importing data, first create the XML import file.  Here are links to sample XML import files and XML schemas:
 
-* Sample XML file for article metadata: [https://github.com/pkp/ojs/blob/main/cypress/fixtures/export-issues.xml](https://github.com/pkp/ojs/blob/main/cypress/fixtures/export-issues.xml)
-* Sample XML file for issue metadata: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/tests/functional/testissue.xml)
-* XML schema for use across PKP software applications: [https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd](https://github.com/pkp/pkp-lib/blob/main/plugins/importexport/native/pkp-native.xsd)
-* XML schema for use in OJS: [https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd](https://github.com/pkp/ojs/blob/main/plugins/importexport/native/native.xsd)
+* [Sample XML file for article metadata](https://github.com/pkp/datasets/blob/main/ojs/stable-3_3_0/mysql/native-export-sample.xml)
+* [Sample XML file for issue metadata](https://github.com/pkp/ojs/blob/stable-3_3_0/plugins/importexport/native/tests/functional/testissue.xml)
+* [XML schema for use across PKP software applications](https://github.com/pkp/pkp-lib/blob/stable-3_3_0/plugins/importexport/native/pkp-native.xsd)
+* [XML schema for use in OJS](https://github.com/pkp/ojs/blob/stable-3_3_0/plugins/importexport/native/native.xsd)
 
 \* Please note that the XML format used by the Native XML Plugin for OJS 3 is different from the XML format for the Articles and Issues XML Plugin used in OJS 2.  If you export data from OJS 2 and want to import it into OJS 3, you will have to edit the XML file first. Also note that the schema is revised periodically; if exporting from one version of OJS and importing into a different version, you may need to adjust the XML slightly to account for these changes.
 
@@ -147,9 +147,9 @@ To use this plugin you will need the following:
 * A basic understanding of XML
 * To be enrolled as a Journal Manager in the OJS journal
 
-If you are importing users into OJS, first create the XML import file.  Here is a sample XML import file: [https://github.com/pkp/ojs/blob/main/plugins/importexport/users/sample.xml](https://github.com/pkp/ojs/blob/main/plugins/importexport/users/sample.xml)
+If you are importing users into OJS, first create the XML import file. [See the sample user XML import file](https://github.com/pkp/ojs/blob/stable-3_3_0/plugins/importexport/users/sample.xml).
 
-\* Please note that the XML format used by the Users XML Plugin in OJS 3 is different from the XML format used by the Plugin in OJS 2.  If you export data from OJS 2 and want to import it into OJS 3, you will have to edit the XML file first.
+\* Please note that the XML format used by the Users XML Plugin in OJS 3 is different from the XML format used by the Plugin in OJS 2. If you export data from OJS 2 and want to import it into OJS 3, you will have to edit the XML file first.
 
 Here are some things to consider:
 
@@ -230,7 +230,7 @@ To manually export article metadata to DOAJ:
 
 ### Crossref XML Export Plugin
 
-The Crossref XML Export Plugin allows you to automatically and manually export article metadata in Crossref XML format for deposit with Crossref.  For information about how to use this plugin, see the Crossref OJS Manual: [http://docs.pkp.sfu.ca/crossref-ojs-manual/](http://docs.pkp.sfu.ca/crossref-ojs-manual/)
+The Crossref XML Export Plugin allows you to automatically and manually export article metadata in Crossref XML format for deposit with Crossref.  For information about how to use this plugin, see [the Crossref OJS Manual](http://docs.pkp.sfu.ca/crossref-ojs-manual/).
 
 ### mEDRA Export/Registration Plugin
 
