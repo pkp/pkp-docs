@@ -1,6 +1,6 @@
 ---
-title: iThenticate Plagiarism Detector Plugin Guide for OJS
-description: A guide on how to configure the iThenticate plugin for OJS version 3.3/3.4/3.5 and use it to conduct similarity checks on files submitted by authors.
+title: Learning OJS for Site Administrators
+description: A guide on how to configure your OJS site, create and manage journals, and perform site maintenance tasks in OJS 3.5 as the Site Administrator.
 generateHeadingToc: true
 ---
 
