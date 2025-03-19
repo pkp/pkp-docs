@@ -63,7 +63,7 @@ For detailed information about how to install, uninstall, update, and configure 
 ### Manage Appearance and Navigation Menus {#appearance}
 Use the Appearance tab and the Navigation Menus subtab to customize the look of your main OJS site (i.e., the site that serves as an index for all hosted journals).
 
-![OJS admin menu with navigation menus tab selected.](./assets/siteadmin-sa-menus-3.5.png.png)
+![OJS admin menu with navigation menus tab selected.](./assets/siteadmin-sa-menus-3.5.png)
 
 These options are functionally identical to the Appearance options for individual journals. Consult [the Customize the Look of Your Journal section of Learning OJS for Journal Managers](URL) as well as the [Designing Your Journal guide](https://docs.pkp.sfu.ca/designing-your-journal/) for more information.
 
@@ -105,7 +105,7 @@ Once you have saved your newly created journal, the Settings Wizard window will 
 **Settings Wizard** will take you to the settings for that journal. This option is described in depth below, under [Configure Journal-Specific Settings](#per-journal-settings).
 **Users** will allow you to add and manage users associated with the journal. Once you have created a journal and completed your configurations, you will likely want to create a user account for the Journal Manager or Editor - see the [Users and Roles chapter](./URL) for details.
 
-![The Users window with a list of current users.](./admin-users-3.5.png.png)
+![The Users window with a list of current users.](./admin-users-3.5.png)
 
 ### Configure Journal-Specific Settings {#per-journal-settings}
 Clicking **Settings Wizard** will take you to the settings for that journal. This can be used to adjust configurations at the individual journal level.
