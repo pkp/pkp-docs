@@ -30,16 +30,16 @@ After logging in, you will find the Review Assignment for this request in your R
 On the top-right corner, the bell icon (notifications) shows your outstanding tasks. The review assignment will be included in your notifications.
 
 From your queue on the Submissions Dashboard, click the Respond to request button to access your Review Assignment. You will see basic information about the article and the review assignment:
-**Article Title**: The title of the manuscript to be reviewed.
-**Abstract**: The abstract of the manuscript to be reviewed. 
-**Review Type**: The type of review you are being asked to conduct. 
-**Review Files**: All relevant files related to the manuscript.
-**Review Schedule**: The date the review request was sent, the due date for a response to the review request, and the due date for the review.
-**Review Type** is set by a journal’s editor. There are three types of review:
-**Anonymous reviewer/Anonymous author**: a “double-blind” review in which neither the reviewer (you) nor the author know one another’s names.
-**Anonymous reviewer/Disclosed author**: the name of the reviewer (you) is unknown to the author, but the name of the author is known to the reviewer.
-**Open**: the name of the reviewer (you) will be known to the author when the review is submitted and the name of the author is known to the reviewer.
-**Review Schedule** is also set by the journal’s editor. Please note that none of the date fields in the review schedule are editable by the reviewer. These dates are only provided to help you assess whether you’re able to provide a review. If you’d like to negotiate new due dates, please contact the journal editor before accepting the review request.
+* **Article Title**: The title of the manuscript to be reviewed.
+* **Abstract**: The abstract of the manuscript to be reviewed. 
+* **Review Type**: The type of review you are being asked to conduct. 
+* **Review Files**: All relevant files related to the manuscript.
+* **Review Schedule**: The date the review request was sent, the due date for a response to the review request, and the due date for the review.
+* **Review Type** is set by a journal’s editor. There are three types of review:
+ * **Anonymous reviewer/Anonymous author**: a “double-blind” review in which neither the reviewer (you) nor the author know one another’s names.
+ * **Anonymous reviewer/Disclosed author**: the name of the reviewer (you) is unknown to the author, but the name of the author is known to the reviewer.
+ * **Open**: the name of the reviewer (you) will be known to the author when the review is submitted and the name of the author is known to the reviewer.
+* **Review Schedule** is also set by the journal’s editor. Please note that none of the date fields in the review schedule are editable by the reviewer. These dates are only provided to help you assess whether you’re able to provide a review. If you’d like to negotiate new due dates, please contact the journal editor before accepting the review request.
 
 Click “View all Submission Details” for additional information about the submission, including keywords. If the review type allows the author’s name to be disclosed, “View All Submission Details” will include the author’s name.
 
