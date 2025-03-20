@@ -84,7 +84,7 @@ Possible choices include:
 * **Decline Submission**: Doesn’t fit the requirements of the journal and is unsuitable for publication.
 * **See Comments**: If none of the above recommendations are suitable, you can leave a comment for the editor detailing your thoughts.
 
-> Note: Not all options above may be available to you depending on the journal’s settings.
+> Note: Some options may not available to you depending on the journal’s settings.
 {:.tip}
 
 ## Use Discussions to Communicate With Editors {#review-discussion}
@@ -93,6 +93,7 @@ In both Step 3: Download & Review and Step 4: Completion, you will have access t
 Click the “Add discussion” button to begin a new discussion. You can then choose which Editor(s) should receive the message, enter a subject and body, and optionally upload attachments.
 
 ![A sample discussion in the Review Discussions panel.](./assets/review-discussion-3.5.png)
+
 Click a discussion in the panel to open it and view any replies, as well as add new messages.
 
 ## Complete a Review {#complete-review}
