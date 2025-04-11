@@ -12,4 +12,4 @@ Everything you need to know to begin developing with OJS or OMP. [View Now](/dev
 
 ---
 
-Versions: [3.4](/dev/documentation/en), [3.3](/dev/documentation/3.3/en)
+Versions: [3.5](/dev/documentation/en), [3.4](/dev/documentation/3.4/en), [3.3](/dev/documentation/3.3/en)
