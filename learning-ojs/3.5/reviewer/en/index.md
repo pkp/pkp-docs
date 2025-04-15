@@ -12,7 +12,7 @@ OJS allows Editors to invite users to participate in peer review. If you have be
 * Completing a review
 
 Other guides in this series include:
-* [About OJS 3.5](../about-ojs/en/) - Learn the basics about OJS, including the new features added in 3.5. Recommended as the starting point for all users.
+* [About OJS 3.5](../about-ojs/en/) - Learn the basics about OJS, including how to register and manage your account. Recommended as the starting point for all users.
 * [Learning OJS 3.5 for Site Administrators](../site-admin/en/) - Learn how to manage an OJS installation and create new journals as a Site Administrator.
 * [Learning OJS 3.5 for Journal Managers](../journal-manager/en/) - Learn how to configure and prepare a journal to publish from start to finish as a Journal Manager. 
 * [Learning OJS 3.5: The Editorial Workflow](../editorial-workflow/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
