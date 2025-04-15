@@ -1,1 +1,18 @@
+# Summary
 
+* [Preface](.)
+* [Get Started](./get-started.md)
+  * [What You’ll Need to Start](./get-started.md#start-checklist)
+  * [Get to Know the Journal Manager User Interface](./get-started.md#start-checklist)
+  * [Enter Basic Journal Information](./get-started.md#basic-info)
+* [Configure Your Submission, Review, and Licensing Policies](./policies.md)
+  * [What Content Does Your Journal Publish?: Creating and Editing Journal Sections](./policies#sections)
+  * [Organize your Articles into Thematic Collections: Creating Categories](./policies#categories)
+  * [Configure Submission Settings](./policies#submission-settings)
+  * [Disable Submissions](./policies#disable-submissions)
+  * [Prepare Guidelines for Submitting Authors](./policies#uthor-guidelines)
+  * [Define Additional Metadata to be Collected from Authors](./policies#metadata-settings)
+  * [Manage Submission File Labels: Components](./policies#components)
+  * [Configure Basic Review Settings](./policies#basic-review-settngs)
+  * [Add Your Review Guidelines and Competing Interest Disclosure Policy](./policies#review-guidelines)
+  * [Create Review Forms](./policies#review-forms)
