@@ -1,1 +1,22 @@
+---
+book: learning-ojs
+version: 3.5
+title: 'Learning OJS 3.5 for Journal Managers'
+description: A comprehensive visual guide to setting up Open Journal Systems for receiving and publishing submissions as a Journal Manager.
+---
 
+# Learning OJS 3.5 for Journal Managers
+
+The Journal Manager role in OJS is often granted to Editors-in-Chief, Managing Editors, Associate Editors, or similar. Key features of this role are assigning editors to submissions and modifying important journal settings.
+
+This guide covers Journal Manager tasks and configurations necessary for successfully receiving and publishing submissions in OJS, including: 
+* Entering basic journal information
+* Configuring system settings related to submission and review types
+* Entering author and reviewer guidelines
+* Communicating with users through email templates and announcements
+* Configuring copyright and licensing terms, as well as archiving settings
+* Inviting and managing users and roles
+* Configuring the appearance of your site
+
+> If you are looking for information on how to guide a submission on OJS through the various workflow stages until publication (such as assigning reviewers, recording editorial decisions, etc.), visit [Learning OJS 3.5: The Editorial Workflow](../editorial-workflow/en/).
+{:.tip}
