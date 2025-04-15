@@ -90,7 +90,7 @@ Next, you will be asked to provide any comments you have for the editors. This f
 
 Depending on the journal’s settings, you may be asked to suggest reviewers. 
 
-![The Reviewer Suggestions screen, with a cursor hovering over the Add Reviewer Suggestion button](./assets/suggest-reviewers-3.5)
+![The Reviewer Suggestions screen, with a cursor hovering over the Add Reviewer Suggestion button](./assets/suggest-reviewers-3.5.png)
 
 Read the journal’s instructions on the left side and click “Add Reviewer Suggestion” if you wish to suggest a reviewer. 
 
