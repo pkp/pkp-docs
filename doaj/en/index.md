@@ -56,6 +56,10 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 * An example of an acceptable OA statement is: 
 > This is an open access journal which means that all content is freely available without charge to the user or his/her institution. Users are allowed to read, download, copy, distribute, print, search, or link to the full texts of the articles, or use them for any other lawful purpose, without asking prior permission from the publisher or the author.
 * If your journal has a Creative Commons license, this Open Access statement is true of your journal. For instructions on where to add your CC license, see the Licensing question.
+
+**When did the journal start to publish all content using an open license?**
+
+* Enter the year that the journal started to publish all content under an open license. It does not need to be entered in OJS.
     
 ### About the Journal
 
@@ -74,7 +78,7 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 
 *  Enter the URL for your journal.
 
-**Journal ISSN (print)** (only add if you have one)
+**ISSN (print)** (only add if you have one)
 
 * Enter this information in two locations:
 	* Journal Settings > Masthead > Publishing Details > ISSN (this is not a public field and is used for 3rd party metadata services). See [Learning OJS: Journal Settings - Masthead.](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead)
@@ -107,10 +111,10 @@ The DOAJ requires journals to adopt a form of Libre Open Access—a type of open
 * Enter this information at Journal Settings > Contact > Mailing Address. A full mailing address is preferred. See [Learning OJS: Journal Settings - Masthead.](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 * The country will appear on the Contact page of your site.
 
-#### Society or institution, if applicable (Optional)
+#### Other organisation, if applicable (Optional)
 
-**Society or institution’s name** and **Society or institution’s country**
-* Information about a society or institution that sponsors the journal can be entered in Journal Settings > Masthead > Description > About the Journal. See [Learning OJS: Journal Settings - Masthead.Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
+**Other organisation's name** and **Other organisation's country**
+* Information about a society or institution that sponsors or supports the journal can be entered in Journal Settings > Masthead > Description > About the Journal. See [Learning OJS: Journal Settings - Masthead.Learning OJS: Journal Settings](https://docs.pkp.sfu.ca/learning-ojs/en/journal-setup#masthead).
 * You may want to create a special section on the About the Journal page about a sponsoring organization. Both fields can be left blank.
 
 ### Copyright & licensing
@@ -252,11 +256,11 @@ The type of review must be clearly labeled and described. “Editorial Review”
 * If “Yes”, enter the URL where information on additional fees can be found. See the Publication Fees question above for details about where you can display this information.
     
 
-### Best Practices
+## Best Practices
 
-DOAJ recommends adoption of the following best practices, but these are not required for inclusion in DOAJ.
+Journals are encouraged to follow these best practices, but they are NOT REQUIRED for DOAJ application or inclusion. 
 
-#### Archiving policy
+### Archiving policy
 
 **Long-term preservation service(s) where the journal is currently archived**
 
@@ -281,16 +285,16 @@ _Institutional archives and publishers’ own online archives are not valid._
 
 * If any service(s) are selected, you will be prompted to enter the URL with information on your preservation policy. If you are archiving your content in any of the above networks, this information will not automatically be displayed on your OJS site. You can add your archiving policy to the About page or another page and link to it here.
     
-#### Repository policy
+### Repository policy
 
 **Does the journal have a policy allowing authors to deposit versions of their work in an institutional or other repository of their choice? Where is this policy recorded?**
 
 * Select all that apply from the following:
-	* Sherpa/Romeo
-	* Dulcinea
-	* Héloïse
 	* Diadorim
-	* Other
+	* Dulcinea
+	* Mir@bel
+	* Sherpa/Romeo
+	* Other (including publisher's own site)
 	* The journal has no repository policy
     
 ***Where can we find this information? (If existing policy)***
@@ -298,7 +302,7 @@ _Institutional archives and publishers’ own online archives are not valid._
 * In OJS, display the journal’s Author Self-Archiving Policy on your About page or under Author Guidelines or as part of the Copyright Statement. Read more at [Journal Policies and Workflows: Self-Archiving Policies](https://docs.pkp.sfu.ca/journal-policies-workflows/en/oa-policies#self-archiving-policies).
 * If the policy was added to one of the above databases, link to the policy page there.
     
-#### Unique identifiers & structured data
+### Unique identifiers & structured data
 
 **Persistent article identifiers used by the journal**
 
@@ -312,70 +316,6 @@ _Institutional archives and publishers’ own online archives are not valid._
 
 OJS can generate DOIs as part of the metadata and allows deposit of those DOIs directly to CrossRef, DataCite, or mEDRA (with respective membership) . See the [DOI Plugin Guide](https://docs.pkp.sfu.ca/doi-plugin/en/) and [the Crossref OJS Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) for more details on how to set up DOIs in OJS.
     
-**Does the journal allow for ORCID iDs to be present in article metadata?**
-
-* Select “Yes” or “No”. See the [ORCID Plugin Guide](https://docs.pkp.sfu.ca/orcid/en/) for more information on how to set up ORCID in OJS.
-    
-**Does the journal comply with I4OC standards for open citations?**
-
-* Select “Yes” or “No”. See the [Plan S: Open Citation Data](https://docs.pkp.sfu.ca/plan-s/en/#open-citation-data) guide for more information on how to set up open citations in OJS.
-
-## DOAJ SEAL
-
-For journals following best practice in OA publishing. [Read more about the DOAJ Seal](https://doaj.org/apply/seal/)
-
-During the application process, you can be awarded the DOAJ SEAL if these 7 criteria are all met. _A journal can be indexed in the DOAJ without meeting the DOAJ seal requirements._
-
-### 1. Digital preservation
-
-This demonstrates that the journal ensures the long-term availability and preservation of published content for the future. The DOAJ will accept preservation service providers registered in the [Keepers Registry](https://keepers.issn.org/keepers) (e.g., PKP PN LOCKSS/CLOCKSS. Portico, British Library, etc.), Internet Archive, and/or PubMed Central. Please note that institutional servers and repositories do not qualify as long term archival preservation.
-
-See [Learning OJS: Distribution Settings - Archiving](https://docs.pkp.sfu.ca/learning-ojs/en/settings-distribution#archiving) for more details.
-
-### 2. Persistent article identifiers
-
-These ensure articles may continue to be found even when URLs change. The most common form of persistent identifier is the [DOI](https://dx.doi.org/) (Digital Object Identifier), but there may be others in use for a journal.
-
-OJS can generate DOIs as part of the metadata and allows deposit of those DOIs directly to CrossRef, DataCite, or mEDRA (with respective membership) . See the [DOI Plugin Guide](https://docs.pkp.sfu.ca/doi-plugin/en/) and [the Crossref OJS Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) for more details on how to set up DOIs in OJS.
-
-### 3. Metadata supply to DOAJ
-
-Provide greater visibility and discoverability of journal content by providing article-level metadata and links to the full text. Metadata must be provided to the DOAJ within 3 months via article-level xml metadata file uploaded to the DOAJ interface or by the DOAJ API.
-
-You can use the OJS DOAJ Export Plugin at Tools > Import/Export > DOAJ Export Plugin. Read more about [the DOAJ export plugin](https://docs.pkp.sfu.ca/admin-guide/3.3/en/data-import-and-export#doaj-export-plugin).
-
-To learn more about creating metadata, see [the Better Practices in Journal Metadata guide](https://docs.pkp.sfu.ca/metadata-practices/en/).
-
-### 4. License type
-
-To allow for generous reuse and remixing of the content. The DOAJ Seal allows for 4 of the Creative Commons licenses: CC-BY, CC-BY-SA, CC-BY-NC, CC-BY-NC-SA. The DOAJ Seal does not consider any of the Creative Commons licenses that restrict remixing or the creation of derivative products of the published content (e.g. CC-BY-ND, CC-BY-NC-ND).
-
-In OJS, when selecting the license to be embedded with the article metadata and displayed on its webpage, be certain to select one of the following license types: CC Attribution, CC Attribution-ShareAlike, or CC Attribution-Noncommercial. You can select it under Distribution Settings > License.
-
-See  [Journal Policies and Workflows: Creative Commons Licenses](https://docs.pkp.sfu.ca/journal-policies-workflows/en/copyright-licensing#creative-commons-licenses) for more details.
-
-### 5. License information in articles
-
-To ensure readers (users) know and understand what they are permitted to do with the content, license information must be embedded into each published article, in all its outputs - e.g. on the HTML article webpage, in the XML/metadata and PDF version.
-
-OJS offers the Creative Commons license options that are acceptable for the DOAJ seal: CC BY, CC BY-SA, CC BY-NC, or CC BY-NC-SA. This license will be embedded in the metadata of published items and displayed on the item’s webpage. Select the Creative Commons license you will use in Distribution Settings > License.
-
-See  [Journal Policies and Workflows: Where to add Copyright and Licensing Information in OJS](https://docs.pkp.sfu.ca/journal-policies-workflows/en/copyright-licensing#where-to-add-copyright-and-licensing-information-in-ojs) for more details.
-
-### 6. Copyright and publishing rights
-
-The DOAJ Seal expects journals to allow copyright to be retained by the author and not be transferred to the journal or publisher. The journal and publisher must not obtain exclusive publishing rights to the content. DOAJ Best Practice recommends the terms of any license agreement should be made freely available to clarify author rights and what, if anything, authors are required to sign when submitting to the journal.
-
-In OJS you can select the designated copyright holder for the article metadata as the Author, Journal, or Other. To select the Author as the designated copyright holder, go to Distribution Settings > License > Copyright Holder.
-
-See [Journal Policies and Workflows: Copyright and Licensing](https://docs.pkp.sfu.ca/journal-policies-workflows/en/copyright-licensing) for more details.
-
-### 7. Self-archiving policy
-
-Provide information on authors’ self-archiving rights, which should cover their rights to self-archive preprint, accepted, final publisher versions of the article, usually in places like their own website or institutional repository. For the Seal, authors must be permitted to deposit all versions of their paper in an institutional or subject repository and no embargo can be applied. DOAJ prefers a policy to be listed on services like [SHERPA/RoMEO](https://v2.sherpa.ac.uk/romeo/).
-
-In OJS, enter the journal’s Author Self-Archiving Policy on your About page or under Author Guidelines or as part of the Copyright Statement. Read more at [Journal Policies and Workflows: Self-Archiving Policies](https://docs.pkp.sfu.ca/journal-policies-workflows/en/oa-policies#self-archiving-policies).
-
 ## Upgrading from OJS 2 to 3
 
 If you have upgraded from OJS 2 to OJS 3 after your DOAJ application was accepted, you will need to do the following:
