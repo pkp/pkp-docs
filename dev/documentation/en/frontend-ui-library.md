@@ -25,7 +25,7 @@ The [Page component](/dev/ui-library/dev/#/component/Page) is the root component
 {/block}
 ```
 
-> **New in 3.5** For new pages in 3.5, the Page component is only responsible for rendering the top bar, navigation, and the root page component for the given page. Once you have that set up, follow [Guide](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/) in the storybook. Example for a dashboard page:
+> **New in 3.5**: For new pages in 3.5, the Page component is only responsible for rendering the top bar, navigation, and the root page component for the given page. Once you have that set up, review [our UI documentation](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/). Example for a dashboard page:
 {:.tip}
 
 ```html
