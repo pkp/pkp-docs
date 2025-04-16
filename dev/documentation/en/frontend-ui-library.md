@@ -55,7 +55,7 @@ Sometimes the publication status will change before the Smarty template is reloa
 
 ## State
 
-> **New in 3.5** State is now used only to pass initial configuration to the Vue.js component responsible for rendering the page and managing its own state. Currently used mainly to pass the form configurations, which are still being constructed in PHP. Other data should ideally be fetched from the API.
+> **New in 3.5**: State is now used only to pass the initial configuration to the Vue.js component responsible for rendering the page and managing its own state. This is currently used mainly to pass the form configurations, which are still constructed in PHP. Other data should ideally be fetched from the API.
 Using the following name convention to pass the configuration to the new page:
 {:.tip}
 
