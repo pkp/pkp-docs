@@ -10,7 +10,7 @@ title: UI Library - Frontend - Technical Documentation - OJS|OMP|OPS
 {:.tip}
 
 
-> **New in 3.5** Detailed [Guide](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/) for the frontend development of the editorial UI is now covered in [Storybook](https://storybook.js.org) along with documentation for our components and composables. Please follow it when building new features. 
+> **New in 3.5**: Documentation for the frontend development of the editorial interface is now available in [our new UI Library](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/) built with [Storybook](https://storybook.js.org/), along with documentation for our components and composables. Please follow it when building new features. 
 {:.tip}
 
 ## Page Component
