@@ -5,7 +5,7 @@ title: List Panels - Frontend - Technical Documentation - OJS|OMP|OPS
 ---
 
 # List Panels
-> **List Panels are deprecated** and should not be used to build new features. For new listing UI, mostly [Table](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/docs/components-table--docs) component is being used. Good examples are [Reviewer Manager](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/docs/managers-reviewermanager--docs) or [File Manager](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/docs/managers-filemanager--docs) or [Dashboard](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/story/pages-dashboard--init) page.
+> **List Panels are deprecated** and should not be used to build new features. For the new listing interface, [the Table component](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/docs/components-table--docs) should be used. For examples, see the [Reviewer Manager](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/docs/managers-reviewermanager--docs),  [File Manager](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/docs/managers-filemanager--docs), or [Dashboard](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/story/pages-dashboard--init) pages.
 {:.warning}
 
 
