@@ -1,4 +1,4 @@
----
+ ---
 title: How to Set Up the ORCID Plugin in OJS and OPS
 ---
 
