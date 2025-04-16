@@ -1,10 +1,12 @@
 ---
 book: dev-documentation
-version: 3.4
+version: 3.5
 title: List Panels - Frontend - Technical Documentation - OJS|OMP|OPS
 ---
 
 # List Panels
+> **List Panels are deprecated** and should not be used to build new features. For new listing UI, mostly [Table](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/docs/components-table--docs) component is being used. Good examples are [Reviewer Manager](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/docs/managers-reviewermanager--docs) or [File Manager](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/docs/managers-filemanager--docs) or [Dashboard](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/story/pages-dashboard--init) page.
+{:.warning}
 
 
 Many of the [ListPanel](/dev/ui-library/dev/#/component/ListPanel) components are as complex as a small application. They allow the user to add, edit and delete items, perform faceted searches, navigate through paginated lists, and more.
