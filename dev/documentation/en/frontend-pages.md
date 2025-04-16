@@ -67,7 +67,7 @@ Every page template for the editorial backend must use the backend layout to ens
 {/block}
 ```
 
-> **New in 3.5** Starting with version 3.5, page templates go directly to the dedicated Vue.js components. Therefore, the Smarty portion is very minimal. And everything else is implemented directly in Vue.js components. Check out our [Admin UI Technical Roadmap](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/docs/guide-technical-roadmap--docs#vuejs--smarty---vuejs-35) for more details and a dedicated guide for updated [Page architecture](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/docs/guide-page-architecture--docs).
+> **New in 3.5**: Starting with version 3.5, page templates go directly to the dedicated Vue.js components. Therefore, the Smarty portion is very minimal, and everything else is implemented directly in Vue.js components. Check out our [Admin UI Technical Roadmap](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/docs/guide-technical-roadmap--docs#vuejs--smarty---vuejs-35) for more details, and the dedicated guide for the updated [Page architecture](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/docs/guide-page-architecture--docs).
 {:.tip}
 
 ```html
