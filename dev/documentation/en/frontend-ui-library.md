@@ -1,15 +1,17 @@
 ---
 book: dev-documentation
-version: 3.4
+version: 3.5
 title: UI Library - Frontend - Technical Documentation - OJS|OMP|OPS
 ---
 
 # UI Library
 
-> Read and understand the essentials section of the [Vue.js guide](https://vuejs.org/v2/guide/) before continuing.
+> Read and understand the essentials section of the [Vue.js guide](https://vuejs.org/guide/introduction.html) before continuing.
 {:.tip}
 
-The [UI Library](/dev/ui-library/dev) is built with [Vue.js](https://vuejs.org/). It provides reusable components to create consistent, accessible user interfaces for all PKP applications. This chapter describes how to pass data into the root Vue.js component and manage state in the browser.
+
+> **New in 3.5**: Documentation for the frontend development of the editorial interface is now available in [our new UI Library](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/) built with [Storybook](https://storybook.js.org/), along with documentation for our components and composables. Please follow it when building new features. 
+{:.tip}
 
 ## Page Component
 
@@ -22,6 +24,20 @@ The [Page component](/dev/ui-library/dev/#/component/Page) is the root component
 	<badge :is-success="true">Published</badge>
 {/block}
 ```
+
+> **New in 3.5**: For new pages in 3.5, the Page component is only responsible for rendering the top bar, navigation, and the root page component for the given page. Once you have that set up, review [our UI documentation](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com/?path=/). Example for a dashboard page:
+{:.tip}
+
+```html
+{extends file="layouts/backend.tpl"}
+{block name="page"}
+	<dashboard-page v-bind="pageInitConfig" />
+{/block}
+```
+
+
+> **Mixing Smarty and Vue.js templates is deprecated** and should not be used to build new features. The documentation provided here is for developers who need to modify an existing page using Smarty.
+{:.warning}
 
 Smarty syntax can be mixed with components from the UI Library. The template below shows a badge when a submission is published.
 
@@ -38,6 +54,23 @@ Smarty syntax can be mixed with components from the UI Library. The template bel
 Sometimes the publication status will change before the Smarty template is reloaded. When actions are taken in the browser that change the publication status, we need to show or hide the `<badge>` by using state.
 
 ## State
+
+> **New in 3.5**: State is now used only to pass the initial configuration to the Vue.js component responsible for rendering the page and managing its own state. This is currently used mainly to pass the form configurations, which are still constructed in PHP. Other data should ideally be fetched from the API.
+Using the following name convention to pass the configuration to the new page:
+{:.tip}
+
+```php
+	$templateMgr->setState([
+		'pageInitConfig' => [
+			'selectRevisionDecisionForm' => $selectRevisionDecisionForm->getConfig(),
+			'selectRevisionRecommendationForm' => $selectRevisionRecommendationForm->getConfig(),
+		]
+	]);
+```
+
+> The documentation below is for developers who need to modify an existing page using Smarty.
+{:.warning}
+
 
 Data that may change after the page is loaded is called state. For example, when an editor publishes or unpublishes a submission the template needs to update to reflect the new submission status.
 
