@@ -1,7 +1,7 @@
 # Summary
 
 * [Preface](.)
-* [Get Started](./get-started.md)
+* [Get Started: Plan & Enter Basic Journal Details](./get-started.md)
   * [What You’ll Need to Start](./get-started.md#start-checklist)
   * [Get to Know the Journal Manager User Interface](./get-started.md#start-checklist)
   * [Enter Basic Journal Information](./get-started.md#basic-info)
