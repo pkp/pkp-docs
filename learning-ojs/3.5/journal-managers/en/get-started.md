@@ -2,7 +2,7 @@
 book: learning-ojs
 version: 3.5
 showPageTOC: true
-title: Learning OJS 3.5 for Journal Managers - Get Started: Plan & Enter Basic Journal Details
+title: Learning OJS 3.5 for Journal Managers - Get Started - Plan & Enter Basic Journal Details
 description: A guide for Journal Managers preparing a journal in OJS for publication.
 ---
 
