@@ -22,7 +22,7 @@
   * [Find and Edit an Existing User](./users#edit-user)
   * [Allow Users to Connect with ORCID](./users#orcid)
 * [Communications: Manage Emails and Announcements](./communications)
-  * [Configure and Make Announcements](./communications#announcements}
+  * [Configure and Make Announcements](./communications#announcements)
   * [Send Email Notifications to All Users with a Specific Role](./communications#bulk-emails)
   * [Configure and Customize Automated Emails](./communications#email-templates)
 * [Content Access: Who Can Read Your Journal’s Content?](./content-access)
