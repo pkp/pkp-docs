@@ -146,26 +146,12 @@ This opens a menu with options to Email, Edit User, Disable, Remove, Login As, a
 > If you want to email a user about a particular submission, you should use the Discussion feature in the submission. Use this option when you want to send an email to a user without associating it with a particular task or submission.
 {:.tip}
 
-> If you wish to notify all users, see [Configure and Send Announcements](./communications.md). If you wish to email all users with a specific role, see [Send Email Notifications to All Users with a Specific Role](./#bulk-emails).
+> If you wish to notify all users, see [Configure and Send Announcements](./communications.md). If you wish to email all users with a specific role, see [Send Email Notifications to All Users with a Specific Role](./communications.md#bulk-emails).
 {:.notice}
 
 Click the blue arrow next to a user and select the “Email” option to open a composer and draft your message.
 
 ![Email pop-up box for emailing a user](./assets/users-email-3.5.png)
-
-
-### Send Email Notifications to All Users with a Specific Role {#bulk-emails}
-
-> This feature must first be [enabled by a Site Administrator](https://docs.pkp.sfu.ca/learning-ojs/3.5/site-admin/en/#bulk-emails). If the Notify tab does not appear for you, contact your Site Administrator. If you wish to notify all users, see [Configure and Send Announcements](./communications.md). 
-{:.warning}
-
-You can use this feature to send communications to specific roles in your journal. For example, you could send an email to all Journal Editors and Section Editors, or an email to all Reviewers.
-
-In the Notify tab, select the user roles that you would like to email. 
-
-![The Notify tab of Users & Roles showing a list of roles that can be emailed.](./assets/users-notify-bulk-3.5.png)
-
-Type your subject and email message. You can choose to send a copy of the email to your own email address. You will receive a status notification indicating that the message was sent successfully.
 
 
 ### Merge Users {#merge-users}
