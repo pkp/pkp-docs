@@ -19,6 +19,8 @@ This guide is intended for Journal Managers, Editors (including Journal Editors,
 * Creating and publishing issues
 * Using versions to make corrections to articles that have already been published.
 
+This guide is part of a series of learning materials for OJS users. Other parts in the series include:
+
 * [About OJS 3.5](../../about-ojs/en/) - Learn the basics about OJS, including how to register and manage your account. Recommended as the starting point for all users.
 * [Learning OJS 3.5 for Site Administrators](../../site-admin/en/) - Learn how to manage an OJS installation and create new journals as a Site Administrator.
 * [Learning OJS 3.5 for Journal Managers](../../journal-manager/en/) - Learn how to configure and prepare a journal to publish from start to finish as a Journal Manager. 
