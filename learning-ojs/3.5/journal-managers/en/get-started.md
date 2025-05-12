@@ -30,8 +30,30 @@ Before you begin, make sure you have the following information ready:
 This guide will show you how to set up your journal in OJS using the settings that match your policies and goals.
 
 
+## Get to Know the Journal Manager User Interface {#ui-walkthrough}
+
+The best way to understand how OJS works is to understand it as two parts: the Front End (the site that readers see, where your published content lives) and the Back End (your dashboard and workspace, the area where you manage the journal).
+
+### The Front End (What Readers See)
+The Reader-facing Front End area of your journal is visible to readers, authors, and visitors who are not logged in. This includes your journal homepage, navigation, article landing pages, and more.
+
+![A journal front end showing the journals homepage for a site visitor](./assets/Frontend-interface-3.5.png)
+The information and pages displayed here depend on the content you create and settings you make in the Back End as a Journal Manager.
+
+### The Back End (Dashboard and Management)
+The Back End is the area of the journal that you can only access after logging in. As a Journal Manager, your backend will have more functions than other roles in the journal. This includes the Settings menu, which you will use to set up your journal.
+
+![Journal Manager view of the backend with the submissions and  navigation menus](./assets/backend-interface-3.5.png)
+OJS will automatically create and display Front End pages and content depending on what is done in the Back End.
+For example, if you fill out the “About the Journal” section in the backend, that information will appear on the public “About” page.
+
+![Side by side comparison of the Frontend About the journal and Backend Journal Settings Page displaying the same content](./assets/sidebyside-3.5.png)
+When you update something in the Back End—like the journal’s title or theme, the creation of a new journal issue—it automatically updates on the Front End. 
+
+As you move through the many Back End configuration steps in this guide, it can be helpful to check the Front End frequently to ensure you understand the impact your changes make. 
+
 ## Enter Basic Journal Information {basic-info}
-Journal Managers can enter basic information about their journal by selecting “Journal” under the Settings menu in the sidebar.
+Journal Managers can enter basic information about their journal by selecting “Journal” under the Settings menu in the sidebar in the Back End.
 
 ![OJS dashboard View for Journal Managers with links to Settings menu and its submenus in left-hand sidebar.](./assets/jm-settings-journal-3.5.png)
 
