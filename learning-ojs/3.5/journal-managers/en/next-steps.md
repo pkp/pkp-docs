@@ -2,7 +2,7 @@
 book: learning-ojs
 version: 3.5
 showPageTOC: true
-title: Learning OJS 3.5 for Journal Managers - Next Steps: Publishing Content and Extended Functionality
+title: Learning OJS 3.5 for Journal Managers | Next Steps - Publishing Content and Extended Functionality
 description: A guide for Journal Managers preparing a journal in OJS for publication.
 ---
 
@@ -30,7 +30,7 @@ Read them for yourself or distribute them to your journal’s community.
 
 OJS supports the use of plugins created by PKP and its community to further extend its functionality. Learning about plugins can help you connect with external services
 
-You can read about the features available through plugins and how to enable them in our (Plugin Guide and Inventory)[https://docs.pkp.sfu.ca/plugin-inventory/en/]. Work with your Site Administrator to install plugins that will help you publish.
+You can read about the features available through plugins and how to enable them in our [Plugin Guide and Inventory](https://docs.pkp.sfu.ca/plugin-inventory/en/). Work with your Site Administrator to install plugins that will help you publish.
 
 
 ## Other Useful Guides {#guides}
