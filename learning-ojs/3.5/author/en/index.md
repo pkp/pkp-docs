@@ -11,7 +11,7 @@ Other guides in this series include:
 * [Learning OJS 3.5 for Site Administrators](../../site-admin/en/) - Learn how to manage an OJS installation and create new journals as a Site Administrator.
 * [Learning OJS 3.5 for Journal Managers](../../journal-managers/en/) - Learn how to configure and prepare a journal to publish from start to finish as a Journal Manager. 
 * [Learning OJS 3.5: The Editorial Workflow](../../editorial-workflow/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
-* [Learning OJS 3.5 for Reviewers](../../reviewers/en/) - Learn how to respond to a review request and complete a review in OJS as a Reviewer.
+* [Learning OJS 3.5 for Reviewers](../../reviewer/en/) - Learn how to respond to a review request and complete a review in OJS as a Reviewer.
 
 ## Register with the Journal {#register}
 To make a submission to an OJS journal, you will first need to register a user account with a journal and log in (see [Create and Manage Your Account](../../about-ojs/en/#create-manage-account). Your ability to make a submission will require that you have an author role associated with your account. You can generally choose this role when registering, but in rare cases an editor or journal manager will have to assign you author privileges.
