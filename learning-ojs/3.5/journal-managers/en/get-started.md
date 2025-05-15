@@ -36,7 +36,7 @@ The best way to understand how OJS works is to understand it as two parts: the F
 ### The Front End (What Readers See)
 The Reader-facing Front End area of your journal is visible to readers, authors, and visitors who are not logged in. This includes your journal homepage, navigation, article landing pages, and more.
 
-![A journal front end showing the journals homepage for a site visitor](./assets/Frontend-interface-3.5.png)
+![A journal front end showing the journals homepage for a site visitor](./assets/frontend-interface-3.5.png)
 The information and pages displayed here depend on the content you create and settings you make in the Back End as a Journal Manager.
 
 ### The Back End (Dashboard and Management)
