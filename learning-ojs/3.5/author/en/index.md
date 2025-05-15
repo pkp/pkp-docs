@@ -131,7 +131,8 @@ Depending on the settings of the journal and its policies, you may be able to ed
 
 To edit your submitted manuscript, click on the Publication tab of your submission.
 
-> If the ‘Save’ button at the bottom of the page is grey and inactive, this means you will have to request permission from the Editor to make changes to your submission or ask them to make the changes for you. {:.notice}
+> If the ‘Save’ button at the bottom of the page is grey and inactive, this means you will have to request permission from the Editor to make changes to your submission or ask them to make the changes for you.
+{:.notice}
 
 ![Submission publication tab](./assets/author-submission-publication-tab-3.5.png)
 
