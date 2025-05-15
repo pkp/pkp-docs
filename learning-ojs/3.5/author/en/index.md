@@ -14,7 +14,7 @@ Other guides in this series include:
 * [Learning OJS 3.5 for Reviewers](../../reviewers/en/) - Learn how to respond to a review request and complete a review in OJS as a Reviewer.
 
 ## Register with the Journal {#register}
-To make a submission to an OJS journal, you will first need to register a user account with a journal and log in (see [Registering with a Journal](./URL)). Your ability to make a submission will require that you have an author role associated with your account. You can generally choose this role when registering, but in rare cases an editor or journal manager will have to assign you author privileges.
+To make a submission to an OJS journal, you will first need to register a user account with a journal and log in (see [Create and Manage Your Account](../../about-ojs/en/#create-manage-account). Your ability to make a submission will require that you have an author role associated with your account. You can generally choose this role when registering, but in rare cases an editor or journal manager will have to assign you author privileges.
 
 After registering, you will be taken to the New Submission form.
 
@@ -66,11 +66,12 @@ Once you have finished uploading and indicating a type for all of your submissio
 In this step, you will be asked to add more information about contributors (i.e. authors and translators) involved in the submission. By default, your details will already be added as the primary contributor.
 
 ![The list of contributors with different roles in the Submission Wizard](./assets/author-list-contributors-3.5.png)
+
 You can add additional contributors (e.g., co-authors), by clicking the **Add Contributors** button. This will open a new window with fields to enter their information.
 > Contributors will receive an email confirmation of the submission. False email addresses should not be used for contributors. If there is no valid email contact for the contributor, it is recommended that you inform editors in the next step of the process as a note to the editor.
 {:.notice}
 
-![Add contributors](./assets/author-add-contributors-3.5.png)
+![The Add Contributors window, with field to enter information like name, affiliation, email, etc.](./assets/author-add-contributors-3.5.png)
 
 Hit **Save**, and the new contributor will be added to the list.
 
@@ -78,7 +79,7 @@ You can also change the order of the list of contributors. Click Order and press
 
 You can then preview the order in various forms, by using the “Preview Option” with options displayed for Abbreviated, Publication Lists, and Full order. 
 
-![Preview of contributor list formatting](./assets/author-preview-contributor-list-3.5.png)
+![The screen showing a preview of the contributor list formatting.](./assets/author-preview-contributor-list-3.5.png)
 
 Once all contributors have been added and ordered to suit your preferences,  click **Continue** to proceed.
 
@@ -134,7 +135,7 @@ To edit your submitted manuscript, click on the Publication tab of your submissi
 > If the ‘Save’ button at the bottom of the page is grey and inactive, this means you will have to request permission from the Editor to make changes to your submission or ask them to make the changes for you.
 {:.notice}
 
-![Submission publication tab](./assets/author-submission-publication-tab-3.5.png)
+![A sample submission publication tab](./assets/author-submission-publication-tab-3.5.png)
 
 Make changes to any of the information about your submission by clicking the related tab in the sidebar. If you have editing permissions, you will be able to make changes to the following sections on the Publication tab: Title & Abstract, Contributors, and Metadata.
 
