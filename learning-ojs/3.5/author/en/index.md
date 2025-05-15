@@ -155,7 +155,8 @@ After receiving the email with the decision, click the provided link or login an
 
 In the Review tab of the manuscript, you will also see a copy of the Editorial Decision under Notifications. 
 
-> Depending on the type of peer review used by the journal, you may see less information on the Review tab of the journal. (The image below shows an open peer review wherein authors can see the identity of the reviewer.) {:.notice}
+> Depending on the type of peer review used by the journal, you may see less information on the Review tab of the journal. (The image below shows an open peer review wherein authors can see the identity of the reviewer.) 
+{:.notice}
 
 ![Review tab of manuscript](./assets/author-review-tab-manuscript-3.5.png)
 
