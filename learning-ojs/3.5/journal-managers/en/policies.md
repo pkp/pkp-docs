@@ -201,6 +201,7 @@ Using the links provided, you can change the **Order** of the components \(how t
 
 > **WARNING**: Editing component types is not necessary or recommended for journals that do not expect to receive submissions with a large variety of supplementary files. **Do NOT delete components that are in use** without first reassigning any files using that component type to a new component, as this **will** result in the loss of access to any files associated with the deleted component type.
 {:.warning}
+
 You can edit each component by selecting the blue arrow to the left of the component name. This will reveal an Edit link and a Delete link. **Use extreme caution when deleting components as per the warning above**.
 
 
