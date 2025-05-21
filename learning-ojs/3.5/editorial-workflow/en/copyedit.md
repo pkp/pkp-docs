@@ -62,7 +62,7 @@ You can also preview how this information will appear in the published article p
 
 You can use Discussions to communicate with Authors and Editors and get their approval for your copyedits. 
 
-> For information on using Discussions, including how to upload and share files with other participants, consult the [Communication: Use Discussions](URL) section of this guide.
+> For information on using Discussions, including how to upload and share files with other participants, consult the [Use Discussions to Communicate](./dashboard.md#discussions) section of this guide.
 {:.tip}
 
 Once your copyedits are complete and approved, you can upload the final version. Scroll to the Copyedited Files section of the central panel and click the Upload/Select Files button.
