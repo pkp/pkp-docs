@@ -12,7 +12,7 @@ In this first chapter, you will ensure that you have everything you need ready t
 ## What You’ll Need to Start {#start-checklist}
 This guide assumes that you have already installed OJS and that your [Site Administrator](../../site-admin/en/) has finished the basic setup.
 
-It also assumes that you’ve decided on the key details of your journal — such as who it’s for, what it publishes, and how it handles licensing. If you’re still working on those decisions, we recommend reading the [Short Guide to Starting a Journal](https://docs.pkp.sfu.ca/starting-a-journal/en/).
+It also assumes that you’ve decided on the key details of your journal — such as who it’s for, what it publishes, and how it handles licensing. If you’re still working on those decisions, we recommend reading the [Short Guide to Starting a Journal](https://docs.pkp.sfu.ca/starting-a-journal/).
 
 Before you begin, make sure you have the following information ready:
 
