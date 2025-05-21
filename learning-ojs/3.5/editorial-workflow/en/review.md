@@ -116,7 +116,7 @@ Choose a Response Due Date to specify when the reviewer must accept or decline t
 
 Click the “Files to be Reviewed” button and make sure that all files relevant to the review have been selected. Make sure that only anonymized files are selected if the author’s identity is not disclosed.
 
-By default, Reviewers will be provided with an extended text box to type in their comments. However, Journal Managers or Editors may also provide review forms through the Review Form feature. (Read [how to configure Review Forms in Learning OJS for Journal Managers](../../journal-managers/en/policy.md#review-forms).) Select the form under the **Review Form** dropdown to provide it to the Reviewer.
+By default, Reviewers will be provided with an extended text box to type in their comments. However, Journal Managers or Editors may also provide review forms through the Review Form feature. (Read [how to configure Review Forms in Learning OJS for Journal Managers](../../journal-managers/en/policies.md#review-forms).) Select the form under the **Review Form** dropdown to provide it to the Reviewer.
 
 Click the **Add Reviewer** button to send the message and send the assignment request to the Reviewer.
 
