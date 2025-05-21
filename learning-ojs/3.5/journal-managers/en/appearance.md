@@ -38,7 +38,7 @@ In the Setup section of the Appearance tab, you can upload image elements (logo,
 
 - **Page Footer**: Enter any images, text or HTML code that you'd like to appear at the bottom of your website.
 
-- **Sidebar**: This allows you to move different elements (“blocks”) in or out of the sidebar in the reader interface. You can also create a custom block using the [Custom Block plugin](./settings-website.md#custom-block-plugin)
+- **Sidebar**: This allows you to move different elements (“blocks”) in or out of the sidebar in the reader interface. This includes custom blocks created using the Custom Block plugin.
 
 ### Use Advanced Options for Further Customizations {#advanced}
 
