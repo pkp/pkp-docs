@@ -6,6 +6,7 @@ isBookIndex: true
 
 This guide walks authors through the process of registering with a journal, making a submission, responding to peer review, uploading revisions, and proofreading the publication-ready version of a manuscript in OJS.
 
+Select a language to proceed:
 * [English](./en/)
 
 ## Other Learning OJS 3.5 Series Guides 
