@@ -77,7 +77,7 @@ Click the Issue item under the Publication menu.
 Here you can edit the following:
 * **Issue**: Change the issue the article has been assigned to.
 * **Section**: Choose the section the article should belong to.
-* **Categories**: Choose one or more categories the article should belong to. This option only appears for journals with categories enabled. Read more about categories in [Learning OJS for Journal Managers](../journal-managers).
+* **Categories**: Choose one or more categories the article should belong to. This option only appears for journals with categories enabled. Read more about categories in [Learning OJS for Journal Managers](../../journal-managers/en/policies.md#categories).
 * **Cover Image**: Upload an optional cover image for the article. This will display in the issue’s table of contents.
 * **Pages**: Enter an optional page range corresponding to the articles. This generally corresponds with the pages of the article in a full issue galley or print version of the issue.
 * **URL Path**: Enter an optional custom URL path to use in place of the article ID.
@@ -124,7 +124,7 @@ If you **do not** want to send a notification, uncheck the box beside “Send no
 ![Option to notify readers upon issue publication.](./assets/publish-issue-3.5.png)
 
 
-> The content of the announcement is generated automatically and cannot be edited. Consider using the [Announcements feature](URL) to send a publication announcement with customized content.
+> The content of the announcement is generated automatically and cannot be edited. Consider using the [Announcements feature](../../journal-managers/en/communications.md#announcements) to send a publication announcement with customized content.
 {:.tip}
 
 Your newly published issue will now be available as the Current Issue on your journal’s site. Congratulations!
@@ -156,7 +156,7 @@ A substantial change might include:
 
 To create a new version of a submission, navigate to the submission record of a published submission and access any item in the Publication menu. Click the “Create New Version” button. You will now be able to make any changes necessary before clicking “Publish” to publish the new version.
 
-> If scheduled into a published issue, the new version will be immediately available. No notification is sent for new versions. If you need to communicate with readers about the changes, consider using the [Announcements feature](URL).
+> If scheduled into a published issue, the new version will be immediately available. No notification is sent for new versions. If you need to communicate with readers about the changes, consider using the [Announcements feature](../../journal-managers/en/communications.md#announcements).
 
 ![The title and abstract screen of a manuscript showing the current version number of two, a dropdown menu listing each version and its publication date, the Unpublish button, and the Create New Version button.](./assets/version-view-3.5.png)
 

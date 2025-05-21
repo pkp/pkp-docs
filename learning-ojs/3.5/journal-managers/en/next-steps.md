@@ -16,12 +16,12 @@ In this chapter, you can choose the next step of your journey with OJS. Each sec
 
 OJS offers an editorial workflow for managing new submissions from submission to publication online. Any members of the Editorial Board working with submissions should take the time to get familiar with the stages and features of the workflow. 
 
-[Learning OJS: The Editorial Workflow](URL)
+[Learning OJS 3.5: The Editorial Workflow](../../editorial-workflow/)
 
 We also provide role-based guidance to support all participants in the publishing process:
 
-[Learning OJS for Reviewers](URL)
-[Learning OJS for Authors](URL)
+[Learning OJS 3.5 for Reviewers](../../reviewer/)
+[Learning OJS for Authors](../../author/)
 
 Read them for yourself or distribute them to your journal’s community.
 

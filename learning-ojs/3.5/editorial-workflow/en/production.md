@@ -112,7 +112,7 @@ If you have multiple galley files, you may wish to display them in a specific or
 Use the arrow icons to move galleys up and down the list. When you are done, click the Save Order button.
 ### Edit, Replace, or Delete Galley Files
 
-> If an article has **already been published** AND the new galley includes **substantial changes** (i.e. changes with an impact on the content, meaning, or findings of the article), we strongly recommend creating a new version of the article. See [Version a Published Article](URL).
+> If an article has **already been published** AND the new galley includes **substantial changes** (i.e. changes with an impact on the content, meaning, or findings of the article), we strongly recommend creating a new version of the article. See [Version a Published Article](./publication.md#versioning).
 {:.warning}
 
 To edit, replace, or delete a galley file, click the three dots beside the galley file.
@@ -156,8 +156,8 @@ We will explore each item in the menu below.
 
 * **Title & Abstract**: Edit the article title, subtitle, and abstract.
 * **Contributors**: Add, edit, or remove article contributors.
-* **Metadata**: Add or edit additional metadata requested by the journal such as keywords.This item will only appear for journals who have enabled the collection of additional metadata in [their metadata settings](URL #metadata-settings).
-* **References**: Add or edit the reference list for the submission. Note that every reference should be entered on a new line. This item will only appear for journals who have enabled the collection of references in [their metadata settings](URL #metadata-settings).
+* **Metadata**: Add or edit additional metadata requested by the journal such as keywords.This item will only appear for journals who have enabled the collection of additional metadata in [their metadata settings](../../journal-managers/en/policies.md#metadata-settings).
+* **References**: Add or edit the reference list for the submission. Note that every reference should be entered on a new line. This item will only appear for journals who have enabled the collection of references in [their metadata settings](../../journal-managers/en/policies.md#metadata-settings).
 * **JATS XML**: View, download, or upload a JATS XML record for the submission. (Unfamiliar with JATS XML? Learn more from [this interview on the PKP Blog](https://pkp.sfu.ca/2024/04/30/jats-xml-scholarly-publishing-interview-alec-smecher/).
 **Galleys**: Upload the final files for publication, as explained above.
 **Permissions & Disclosure**: Edit copyright holder, copyright year, and license. These are generally filled in automatically according to the journal’s settings. Use this tab to override these defaults.

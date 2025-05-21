@@ -21,7 +21,7 @@ If you are a member of a LOCKSS or CLOCKSS network, use this tab to activate you
 
 ![Distribution settings archiving tab showing LOCKSS and CLOCKSS options.](./assets/distribution-archiving-3.5.png)
 
-If you are interested in using the PKP PN Plugin to deposit your content in the PKP Preservation Network (PN), see the [PKP Preservation Network Guide](/pkp-pn/en/).
+If you are interested in using the PKP PN Plugin to deposit your content in the PKP Preservation Network (PN), see the [PKP Preservation Network Guide](https://docs.pkp.sfu.ca/pkp-pn/).
 
 ## Set up Search Engine Optimization {#seo}
 

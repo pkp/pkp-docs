@@ -14,7 +14,7 @@ When you log in and access the Dashboard from your user menu, you can view your 
 
 ![The expanded Dashboards menu with a list of various dashboard views on the left, with the Active Submissions dashboard view visible in the main window.](./assets/dashboard-active-3.5.png)
 
-You will also see the “Start a New Submission” button under the list of Dashboard views. You can use this to make a new submission as an author. Learn about making a submission in [Learning OJS for Authors](../authors/en/).
+You will also see the “Start a New Submission” button under the list of Dashboard views. You can use this to make a new submission as an author. Learn about making a submission in [Learning OJS for Authors](../../authors/en/).
 
 
 ### Get to Know the Dashboard Layout {#dashboard}
@@ -74,7 +74,7 @@ Use **Filters** to further narrow down your search.
 
 - __Issues:__ Only Journal Manager level roles can filter by unpublished issues, but other editors will be able to filter by published issues. This field is case-sensitive and requires an exact match. For best results, search by year or title, rather than volume or number. 
 
-- __Categories:__ This option is only available if you have set up at least 1 customized [category](./journal-setup#categories).
+- __Categories:__ Choose a submission assigned to a specific category. This option is only available if the Journal Manager has set up at least one customized [category](../../journal-managers/en/policies.md#categories).
 
 - __Days Since Last Activity:__ Specify the number of days since the last activity using the slider or the textbox.
 
@@ -98,7 +98,7 @@ Editors receive a weekly email summary of submissions which require editorial ac
 * Newly submitted revisions
 * Submissions in the copyediting or production stages which have been inactive for 30 or more days
 
-An editor can opt out of email notifications by changing [notification settings in their profile](URL) or clicking on the unsubscribe link.
+An editor can opt out of email notifications by changing [notification settings in their profile](../../about-ojs/en/#edit-profile) or clicking on the unsubscribe link.
 
 ### Get to Know the Submission Record {#submission-record}
 
@@ -130,7 +130,7 @@ In the central panel of the Submission Record, you will see:
 
 **Files**: This panel lists the files associated with the stage. The title of this panel will change between stages—for example, in the Submission stage, it will include any files uploaded with the submission, while in the Copyediting stage, there will be two panels: one for draft files needing copyediting, and one for files that have been fully copyedited.
 
-**Discussions**: This panel allows participants in a stage to communicate with the author, or with others on the editorial team. Using discussions to communicate with authors, reviewers, and other members of your editorial team will be an important part of using OJS effectively, so we will cover them in-depth in [a dedicated section further below](./#discussions.md).
+**Discussions**: This panel allows participants in a stage to communicate with the author, or with others on the editorial team. Using discussions to communicate with authors, reviewers, and other members of your editorial team will be an important part of using OJS effectively, so we will cover them in-depth in [a dedicated section further below](./#discussions).
 
 The content of the central panel will change between stages. Please consult the chapter for your current stage for further information.
 
@@ -171,7 +171,7 @@ The **Notes** tab of the Activity Log can be used to add editorial notes. These 
 
 **Library**: The Library is accessible to Authors and Editors from the top right of every submission page. It is a general file storage for documents that may include conflict-of-interest forms, galley approval forms, etc. 
 
-This submission-specific Library is different from the journal-wide [Publisher Library](URL#publisher-library) that is meant for general files and can generate public links to them.
+This submission-specific Library is distinct from the journal-wide [Publisher Library](../../journal-managers/en/other-tools.md#publisher-library), which can generate public links for uploaded content.
 
 Users throughout the editorial workflow can access all the files in the Publisher Library by opening the submission-specific Library and clicking "View Document Library".
 

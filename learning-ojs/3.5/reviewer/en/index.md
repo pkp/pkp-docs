@@ -12,11 +12,11 @@ OJS allows Editors to invite users to participate in peer review. If you have be
 * Completing a review
 
 Other guides in this series include:
-* [About OJS 3.5](../about-ojs/en/) - Learn the basics about OJS, including how to register and manage your account. Recommended as the starting point for all users.
-* [Learning OJS 3.5 for Site Administrators](../site-admin/en/) - Learn how to manage an OJS installation and create new journals as a Site Administrator.
-* [Learning OJS 3.5 for Journal Managers](../journal-manager/en/) - Learn how to configure and prepare a journal to publish from start to finish as a Journal Manager. 
-* [Learning OJS 3.5: The Editorial Workflow](../editorial-workflow/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
-* [Learning OJS 3.5 for Authors](../authors/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
+* [About OJS 3.5](../../about-ojs/en/) - Learn the basics about OJS, including how to register and manage your account. Recommended as the starting point for all users.
+* [Learning OJS 3.5 for Site Administrators](../../site-admin/en/) - Learn how to manage an OJS installation and create new journals as a Site Administrator.
+* [Learning OJS 3.5 for Journal Managers](../../journal-managers/en/) - Learn how to configure and prepare a journal to publish from start to finish as a Journal Manager. 
+* [Learning OJS 3.5: The Editorial Workflow](../../editorial-workflow/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
+* [Learning OJS 3.5 for Authors](../../author/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
 
 ## Respond to a Review Request {#respond-review-request}
 Invitations to review will be sent to you by a journal editor or section editor. The invitation will be sent via email, with some basic information about the manuscript you’re being asked to review (title, abstract, and relevant dates), followed by a URL to respond to the request.
@@ -88,7 +88,7 @@ Possible choices include:
 {:.tip}
 
 ## Use Discussions to Communicate With Editors {#review-discussion}
-In both Step 3: Download & Review and Step 4: Completion, you will have access to the Review Discussion panel. You can use discussions to communicate with Editors if you have questions about the manuscript or the review process.
+In both **Step 3: Download & Review** and **Step 4: Completion**, you will have access to the Review Discussion panel. You can use discussions to communicate with Editors if you have questions about the manuscript or the review process.
 
 Click the “Add discussion” button to begin a new discussion. You can then choose which Editor(s) should receive the message, enter a subject and body, and optionally upload attachments.
 
