@@ -54,7 +54,8 @@ This option also allows you to configure an embargo period under “Delayed Open
 
 You can learn more about OAI and how it works with OJS by reading [Open Journal Theme’s How to setup OAI and check OAI on OJS? documentation](https://openjournaltheme.com/docs/how-to-setup-oai-and-check-oai-on-ojs/).
 
-For journals adopting an Open Access model that does not require any payments or subscriptions,these are all the configurations you’ll need. If you plan on accepting payments and managing subscriptions in OJS, you’ll need to configure some additional settings described in the [Managing Payments and Subscriptions](URL) section.
+For journals adopting an Open Access model that does not require any payments or subscriptions,these are all the configurations you’ll need. If you plan on accepting payments and managing subscriptions in OJS, you’ll need to configure some additional settings described in our separate [Managing Payments and Subscriptions guide](https://docs.pkp.sfu.ca/manage-subscriptions/en/).
+
 ### Content Access Settings at the Article or Issue Level {#article-issue-access}
 
 OJS also allows you to configure how and when content can be accessed at an article and issue level. 
