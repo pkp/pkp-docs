@@ -10,6 +10,7 @@ This guide will teach users everything needed to successfully peer review a subm
 * Conducting a review 
 * Completing a review
 
+Select your language:
 * [English](./en/)
 
 
