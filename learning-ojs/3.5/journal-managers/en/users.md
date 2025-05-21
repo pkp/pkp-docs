@@ -72,6 +72,7 @@ You can create new roles by clicking the “Create New Role” button, or edit a
 
 > Email configuration must be completed by a system administrator in order for the system to send invitation and registration confirmation emails to users. See the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/deploy-email) for more information.
 {:.warning}
+
 While users can self-register accounts for roles like Reader and Author (or other roles specified by you in the previous section), you can also invite users to take on new roles. This is especially useful for inviting members of your Editorial Board to have the correct permissions they need to work in your journal.
 
 From Settings > Users & Roles, click Invite to a Role.
