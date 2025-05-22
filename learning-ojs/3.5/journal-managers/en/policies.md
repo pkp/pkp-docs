@@ -222,7 +222,7 @@ Journal Managers can configure settings related to peer review by clicking “Wo
 
 ![OJS 3.5 review configuration editing menu.](./assets/jm-settings-workflow-review-3.5.png)
 
-### Configure Basic Review Settings {#basic-review-settngs}
+### Configure Basic Review Settings {#basic-review-settings}
 The Setup tab is where you can configure items such as the default review type for your journal, review file access, and timing for email reminders to reviewers.
 
 **Default Review Mode**: Select whether your journal will follow an anonymous reviewer/anonymous author, anonymous reviewer/disclosed author, or open review process.
