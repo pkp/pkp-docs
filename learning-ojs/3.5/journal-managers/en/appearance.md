@@ -65,7 +65,7 @@ In the Information section of Website > Setup, you can modify the text in the Fo
 > To **remove** these fields and their contents from displaying publicly on the website's user interface, deselect the Information Block in Website Settings > Appearance > Sidebar Management.
 {:.tip}
 
-![OJS dashboard of the information block for Readers, For Authors, For Librarians with default text entered.](./assets/Website-information-3.5.png)
+![OJS dashboard of the information block for Readers, For Authors, For Librarians with default text entered.](./assets/website-information-3.5.png)
 
 ### Set Languages for Submissions and Interface {#languages}
 .
