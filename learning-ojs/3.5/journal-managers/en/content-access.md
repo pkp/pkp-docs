@@ -62,13 +62,13 @@ OJS also allows you to configure how and when content can be accessed at an arti
 
 When you create an issue, there is a tab called **Access** under which you can set the **Access Status** as **Subscription** or **Open Access**.
 
-![Issue settings access tab showing subscription and open access options.](./assets/TOC-issue-access-3.5.png)
+![Issue settings access tab showing subscription and open access options.](./assets/toc-issue-access-3.5.png)
 
 If you set it as **Subscription**, underneath that a box will appear where you can optionally enter an **Open Access Date**, at which the content will become open access.
 
 Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbox will appear beside each article under **Open Access**, where you can optionally set individual articles as open access, even if the rest of the issue remains available by subscription.
 
-![Issue table of contents showing open access checkboxes.](./assets/TOC-article-access-3.5.png)
+![Issue table of contents showing open access checkboxes.](./assets/toc-article-access-3.5.png)
 
 ### Manage Payments and Subscriptions {#payments-subscriptions}
 
