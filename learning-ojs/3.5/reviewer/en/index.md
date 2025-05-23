@@ -21,7 +21,7 @@ Other guides in this series include:
 ## Respond to a Review Request {#respond-review-request}
 Invitations to review will be sent to you by a journal editor or section editor. The invitation will be sent via email, with some basic information about the manuscript you’re being asked to review (title, abstract, and relevant dates), followed by a URL to respond to the request.
 
-To respond to the review request, follow the link or log in to your account on the journal’s website. If you did not already have an account, the editor may have invited you to create a new one . 
+To respond to the review request, follow the link or log in to your account on the journal’s website. If you did not already have an account, the editor may have invited you to create a new one. 
 
 After logging in, you will find the Review Assignment for this request in your Review Assignments Dashboard. If you do not see the submission you expect to see, please contact the journal editor.
 
@@ -77,7 +77,7 @@ Once you have read the paper and added your comments, you can optionally upload 
 Next, you must then make your recommendation using the dropdown menu.
 
 Possible choices include:
-* **Accept Submission**:  The submission does not need further revisions or corrections. .
+* **Accept Submission**:  The submission does not need further revisions or corrections.
 * **Revisions Required**: Requires minor changes.
 * **Resubmit for Review**: Requires major changes and another round of peer review.
 * **Resubmit Elsewhere**: Doesn’t fit the focus and scope of this journal.
