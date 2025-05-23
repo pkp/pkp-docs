@@ -68,6 +68,7 @@ In this step, you will be asked to add more information about contributors (i.e.
 ![The list of contributors with different roles in the Submission Wizard](./assets/author-list-contributors-3.5.png)
 
 You can add additional contributors (e.g., co-authors), by clicking the **Add Contributors** button. This will open a new window with fields to enter their information.
+
 > Contributors will receive an email confirmation of the submission. False email addresses should not be used for contributors. If there is no valid email contact for the contributor, it is recommended that you inform editors in the next step of the process as a note to the editor.
 {:.notice}
 
