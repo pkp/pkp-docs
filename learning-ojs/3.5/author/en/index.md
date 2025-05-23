@@ -14,7 +14,7 @@ Other guides in this series include:
 * [Learning OJS 3.5 for Reviewers](../../reviewer/en/) - Learn how to respond to a review request and complete a review in OJS as a Reviewer.
 
 ## Register with the Journal {#register}
-To make a submission to an OJS journal, you will first need to register a user account with a journal and log in (see [Create and Manage Your Account](../../about-ojs/en/#create-manage-account). Your ability to make a submission will require that you have an author role associated with your account. You can generally choose this role when registering, but in rare cases an editor or journal manager will have to assign you author privileges.
+To make a submission to an OJS journal, you will first need to register a user account with a journal and log in (see [Create and Manage Your Account](../../about-ojs/en/#create-manage-account)). Your ability to make a submission will require that you have an author role associated with your account. You can generally choose this role when registering, but in rare cases an editor or journal manager will have to assign you author privileges.
 
 After registering, you will be taken to the New Submission form.
 
