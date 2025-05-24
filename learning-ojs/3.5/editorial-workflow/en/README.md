@@ -23,7 +23,7 @@ This guide is part of a series of learning materials for OJS users. Other parts 
 
 * [About OJS 3.5](../../about-ojs/en/) - Learn the basics about OJS, including how to register and manage your account. Recommended as the starting point for all users.
 * [Learning OJS 3.5 for Site Administrators](../../site-admin/en/) - Learn how to manage an OJS installation and create new journals as a Site Administrator.
-* [Learning OJS 3.5 for Journal Managers](../../journal-manager/en/) - Learn how to configure and prepare a journal to publish from start to finish as a Journal Manager. 
+* [Learning OJS 3.5 for Journal Managers](../../journal-managers/en/) - Learn how to configure and prepare a journal to publish from start to finish as a Journal Manager. 
 * [Learning OJS 3.5 for Reviewers](../../reviewers/en/) - Learn how to respond to a review request and complete a review in OJS as a Reviewer.
 * [Learning OJS 3.5 for Authors](../../authors/en/) - Learn how to make a submission to a journal using OJS as an Author.
 
