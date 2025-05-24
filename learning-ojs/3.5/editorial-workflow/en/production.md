@@ -149,7 +149,7 @@ You can make these changes using the Publication menu on the left side of a subm
 {:.warning}
 
 
-![The Publication menu in OJS.](./assets/publication-menu-2-3.5.png.png)
+![The Publication menu in OJS.](./assets/publication-menu-2-3.5.png)
 
 
 We will explore each item in the menu below.
@@ -159,9 +159,9 @@ We will explore each item in the menu below.
 * **Metadata**: Add or edit additional metadata requested by the journal such as keywords.This item will only appear for journals who have enabled the collection of additional metadata in [their metadata settings](../../journal-managers/en/policies.md#metadata-settings).
 * **References**: Add or edit the reference list for the submission. Note that every reference should be entered on a new line. This item will only appear for journals who have enabled the collection of references in [their metadata settings](../../journal-managers/en/policies.md#metadata-settings).
 * **JATS XML**: View, download, or upload a JATS XML record for the submission. (Unfamiliar with JATS XML? Learn more from [this interview on the PKP Blog](https://pkp.sfu.ca/2024/04/30/jats-xml-scholarly-publishing-interview-alec-smecher/).
-**Galleys**: Upload the final files for publication, as explained above.
-**Permissions & Disclosure**: Edit copyright holder, copyright year, and license. These are generally filled in automatically according to the journal’s settings. Use this tab to override these defaults.
-**Issues**: Assign the article to a journal issue. This will be explained in the [Publication & Postpublication chapter of this guide](./publication.md).
+* **Galleys**: Upload the final files for publication, as explained above.
+* **Permissions & Disclosure**: Edit copyright holder, copyright year, and license. These are generally filled in automatically according to the journal’s settings. Use this tab to override these defaults.
+* **Issues**: Assign the article to a journal issue. This will be explained in the [Publication & Postpublication chapter of this guide](./publication.md).
 
 >Note: If your journal is using identifiers such as DOIs or plugins related to identifiers (e.g. the Crossref Reference Linking plugin), you should consult the DOIs and DOI Plugin guide](https://docs.pkp.sfu.ca/doi-plugin/en/) and the related [Crossref Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references) (if using Crossref services).
 {:.notice}

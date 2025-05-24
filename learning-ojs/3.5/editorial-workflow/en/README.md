@@ -23,9 +23,9 @@ This guide is part of a series of learning materials for OJS users. Other parts 
 
 * [About OJS 3.5](../../about-ojs/en/) - Learn the basics about OJS, including how to register and manage your account. Recommended as the starting point for all users.
 * [Learning OJS 3.5 for Site Administrators](../../site-admin/en/) - Learn how to manage an OJS installation and create new journals as a Site Administrator.
-* [Learning OJS 3.5 for Journal Managers](../../journal-manager/en/) - Learn how to configure and prepare a journal to publish from start to finish as a Journal Manager. 
-* [Learning OJS 3.5 for Reviewers](../../reviewers/en/) - Learn how to respond to a review request and complete a review in OJS as a Reviewer.
-* [Learning OJS 3.5 for Authors](../../authors/en/) - Learn how to make a submission to a journal using OJS as an Author.
+* [Learning OJS 3.5 for Journal Managers](../../journal-managers/en/) - Learn how to configure and prepare a journal to publish from start to finish as a Journal Manager. 
+* [Learning OJS 3.5 for Reviewers](../../reviewer/en/) - Learn how to respond to a review request and complete a review in OJS as a Reviewer.
+* [Learning OJS 3.5 for Authors](../../author/en/) - Learn how to make a submission to a journal using OJS as an Author.
 
   
 # Understand the Flow of This Guide
@@ -36,10 +36,10 @@ This guide is broken into six chapters. The first is an orientation chapter, fol
 **Who should read this?**: Anyone involved in the editorial process
 
 [**Submission**](./submission.md): New submissions first land in this stage, where they are assigned to Editors (these may be Journal Editors, Section Editors, or Guest Editors), either automatically or manually by a Journal Editor or Journal Manager. The assigned editor will be able to record an editorial decision or choose to move into the Review stage. Some submissions may be rejected at this stage.
-**Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor). Authors should consult [Learning OJS for Authors](../authors/en/).
+**Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor). Authors should consult [Learning OJS for Authors](../author/en/).
 
 [**Review**](./review.md): Peer reviews are conducted at this stage before the assigned Editor makes a decision. This stage may include requesting revisions from the author. 
-**Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor). Reviewers should consult [Learning OJS for Reviewers](../reviewers/en/).
+**Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor). Reviewers should consult [Learning OJS for Reviewers](../reviewer/en/).
 
 [**Copyediting**](./copyedit.md): Accepted articles move to this stage, where they are improved by the work of a copyeditor. Authors may be given the opportunity to review the copyedits.
 **Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor), Copyeditors

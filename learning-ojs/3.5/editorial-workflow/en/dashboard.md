@@ -14,7 +14,7 @@ When you log in and access the Dashboard from your user menu, you can view your 
 
 ![The expanded Dashboards menu with a list of various dashboard views on the left, with the Active Submissions dashboard view visible in the main window.](./assets/dashboard-active-3.5.png)
 
-You will also see the “Start a New Submission” button under the list of Dashboard views. You can use this to make a new submission as an author. Learn about making a submission in [Learning OJS for Authors](../../authors/en/).
+You will also see the “Start a New Submission” button under the list of Dashboard views. You can use this to make a new submission as an author. Learn about making a submission in [Learning OJS for Authors](../../author/en/).
 
 
 ### Get to Know the Dashboard Layout {#dashboard}
@@ -79,7 +79,7 @@ Use **Filters** to further narrow down your search.
 - __Days Since Last Activity:__ Specify the number of days since the last activity using the slider or the textbox.
 
 
-## View Your Tasks {view-tasks}
+## View Your Tasks {#view-tasks}
 
 In addition to the Assigned to Me Dashboard view, you can also access your Tasks from the Bell icon in the upper right corner, next to your user menu. The number beside the bell icon represents the number of unread tasks.
 
