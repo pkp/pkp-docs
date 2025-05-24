@@ -36,10 +36,10 @@ This guide is broken into six chapters. The first is an orientation chapter, fol
 **Who should read this?**: Anyone involved in the editorial process
 
 [**Submission**](./submission.md): New submissions first land in this stage, where they are assigned to Editors (these may be Journal Editors, Section Editors, or Guest Editors), either automatically or manually by a Journal Editor or Journal Manager. The assigned editor will be able to record an editorial decision or choose to move into the Review stage. Some submissions may be rejected at this stage.
-**Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor). Authors should consult [Learning OJS for Authors](../authors/en/).
+**Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor). Authors should consult [Learning OJS for Authors](../author/en/).
 
 [**Review**](./review.md): Peer reviews are conducted at this stage before the assigned Editor makes a decision. This stage may include requesting revisions from the author. 
-**Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor). Reviewers should consult [Learning OJS for Reviewers](../reviewers/en/).
+**Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor). Reviewers should consult [Learning OJS for Reviewers](../reviewer/en/).
 
 [**Copyediting**](./copyedit.md): Accepted articles move to this stage, where they are improved by the work of a copyeditor. Authors may be given the opportunity to review the copyedits.
 **Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor), Copyeditors
