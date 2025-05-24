@@ -79,7 +79,7 @@ Use **Filters** to further narrow down your search.
 - __Days Since Last Activity:__ Specify the number of days since the last activity using the slider or the textbox.
 
 
-## View Your Tasks {view-tasks}
+## View Your Tasks {#view-tasks}
 
 In addition to the Assigned to Me Dashboard view, you can also access your Tasks from the Bell icon in the upper right corner, next to your user menu. The number beside the bell icon represents the number of unread tasks.
 
