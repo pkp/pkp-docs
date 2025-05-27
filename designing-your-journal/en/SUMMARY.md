@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](.)
+* [Working with Theme Plugins](./plugin.md)
 * [Branding Your Journal](./branding.md)
   * [Colours](./branding.md#colours)
   * [Typography](./branding.md#typography)
