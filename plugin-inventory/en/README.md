@@ -271,6 +271,12 @@ Registers DOIs for monographs and chapters for DOI provider Datacite.
 
 * [Datacite export plugin in GitHub](https://github.com/withanage/datacite)
 
+### Dataverse
+
+Enables the integration of OJS and OPS with a Dataverse repository, allowing authors to submit research data associated with their manuscripts during the submission process to the journal or preprint server.
+
+* [Dataverse plugin in GitHub](https://github.com/lepidus/dataversePlugin/)
+
 ### DC Metadata Format
 
 Structures metadata in a way that is consistent with the Dublin Core format.
