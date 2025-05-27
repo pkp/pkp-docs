@@ -74,7 +74,7 @@ Keep in mind that only ORCID member organizations and consortia can use this fea
 ### Allow Authors to Suggest Reviewers {#suggest-reviewers}
 Journal Managers can now choose to allow Authors to suggest reviewers when they make a submission. Find this option under Settings - Workflow > Review > Setup. Click the checkbox under “Reviewer Suggestion at Submission”. 
 
-![A cursor hovering over the checkbox to enable Reviewer Suggestion at Submission.](./assets/enable-suggest-reviewers-3.5..png)
+![A cursor hovering over the checkbox to enable Reviewer Suggestion at Submission.](./assets/enable-suggest-reviewers-3.5.png)
 
 Journal Managers can also customize instructions for suggesting reviewers from Settings - Workflow > Submission > Author Guidance.
 
