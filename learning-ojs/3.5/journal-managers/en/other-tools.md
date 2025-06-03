@@ -55,7 +55,7 @@ Here, you can select your chosen registration agency. Click “Enable automatic 
 To manage and assign your DOIs, click the DOIs item in the sidebar menu.
 
 
-![A cursor hovering over the DOIs option in the sidebar menu, with the DOIs screen open in the main window. The DOIs screen is on the Articles tab, showing a list of articles, the status of their DOIs, and filters for sorting the list..](./assets/dois-menu-3.5.png.png) 
+![A cursor hovering over the DOIs option in the sidebar menu, with the DOIs screen open in the main window. The DOIs screen is on the Articles tab, showing a list of articles, the status of their DOIs, and filters for sorting the list..](./assets/dois-menu-3.5.png) 
 
 
 From here, you can see the status of all Article, Issue, or Galley DOIs by navigating to the relevant tab. 
