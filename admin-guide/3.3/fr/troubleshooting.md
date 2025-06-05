@@ -127,7 +127,7 @@ Les étapes de conversion et le processus d'importation suivants peuvent être u
 - ouvrez `dump.latin.sql` dans vim
 - supprimer 'SET NAMES latin1' du haut du fichier
 - remplacer les définitions de table latin1 par les définitions de table utf8 via `:%s/CHARSET=latin1/CHARSET=utf8/g`
-- définissez l'encodage du fichier pour le fichier sur utf8 via `:set fileencoding=utf8`
+- définissez l'encodage du fichier pour le fichier sur utf8 via `:set fileencoding=utf-8`
 - enregistrez le fichier sous un nouveau nom de fichier via `:w dump.utf8.sql`
 
 Étapes d'importation:

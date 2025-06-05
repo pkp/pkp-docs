@@ -12,10 +12,10 @@ It is difficult to prescribe exact steps towards setting proper file permissions
 
 In general, you want your permissions set such that your webserver can read and write (recursively) to the `config.inc.php` `files_dir`, and to `cache/`, and `public/`. Optionally, for added features and reduced security, you can enable write to `config.inc.php`, to `plugins/` and perhaps to the locale `.xml` files. Your webserver should have read-only access to all other files and directories distributed in the package.
 
-Start by checking which server API PHP uses on your server. If OJS, OMP, or OCS is already installed, log in as Site Administrator, click "System Information", and at the bottom of the page, click "Extended PHP Information". Find the line that says "Server API". Depending on which API you are using \(mod\_php/SAPI or CGI/FastCGI\), permissions should be set as follows.
+Start by checking which server API PHP uses on your server. If OJS, OMP, or OPS is already installed, log in as Site Administrator, click "System Information", and at the bottom of the page, click "Extended PHP Information". Find the line that says "Server API". Depending on which API you are using (mod_php/SAPI or CGI/FastCGI), permissions should be set as follows.
 
-* mod\_php/SAPI: In this configuration, all PHP scripts on the system typically execute as the same user \(usually Apache's "nobody" or "www-data" accounts\). Be warned that this may be insecure on a shared host. The files\_dir \(configured in config.inc.php\), the cache directory, the public directory, and all contents and subdirectories must be writable and readable by the web server user. The config.inc.php configuration file must be readable by the web server user.
-* CGI/FastCGI: In this configuration, PHP scripts will typically run under your user account \(though server configurations may vary\). This can be a well-secured configuration. The files\_dir \(configured in config.inc.php\), the cache directory, the public directory, and all contents and subdirectories must be writable and readable by this user account. The config.inc.php configuration file must be readable by this account.
+* mod_php/SAPI: In this configuration, all PHP scripts on the system typically execute as the same user (usually Apache's "nobody" or "www-data" accounts). Be warned that this may be insecure on a shared host. The `files_dir` (set in `config.inc.php`), the cache directory, the public directory, and all contents and subdirectories must be writable and readable by the web server user. The `config.inc.php` configuration file must be readable by the web server user.
+* CGI/FastCGI: In this configuration, PHP scripts will typically run under your user account (though server configurations may vary). This can be a well-secured configuration. The `files_dir`(set in `config.inc.php`), the cache directory, the public directory, and all contents and subdirectories must be writable and readable by this user account. The `config.inc.php` configuration file must be readable by this account.
 
 #### How does Linux do this?
 
@@ -47,7 +47,7 @@ or
 
 `myuser:ourgroup` with `644`
 
-#### But What about Shared Hosts?
+#### But What About Shared Hosts?
 
 With some shared hosts (for example, if your only access is via cPanel or a similar web-based admin tool), you may not have the ability to change the file ownership, and your webserver is effectively running as your user. In that case, you may still have the ability to protect your files by making them non-writable by your own user (even though this sounds counter-intuitive). In a shared host, you will almost certainly want to deny world permissions to your files, but look to the documentation and support for your host in particular.
 
@@ -57,11 +57,11 @@ Because security configurations can vary, and because of the volume of requests 
 
 PHP Safe Mode is not a recommended configuration and may not function properly. This is because in some configurations it will cause PHP's `mkdir()` function to create directories that cannot thereafter be read or written because of file permissions. This is a limitation of Safe Mode and may prevent you from using OJS in a Safe Mode environment.
 
-### HTML Galleys don't display properly / files I upload aren't being identified properly.
+### HTML Galleys don't display properly / files I upload aren't being identified properly
 
 This is most likely caused by your server incorrectly identifying your HTML file as something other than HTML. The quickest way to diagnose this is to check the Galley Edit page: if you have uploaded an HTML file and the Label field says something other than "HTML" (like "Untitled", for example), then the file has not been correctly identified as HTML and will most likely not display correctly.
 
-OJS, OMP, and OCS use three methods to determine a filetype, in the following order:
+OJS/OMP/OPS use three methods to determine a filetype, in the following order:
 
 * PHP's mime_content_type function, which uses your system's magic.mime file (this method is deprecated)
 * PHP's finfo_... suite of functions (which replaces mime_content_type as the preferred method)
@@ -79,7 +79,7 @@ Additionally, you may be encountering problems due to malformed files. If you ar
 
 You may also want to search the [forum](https://forum.pkp.sfu.ca) for the keywords "magic mime" or for "mimetype" -- many users have had this problem, and there are several discussions on how to solve it.
 
-### My CSS files aren't being identified properly.
+### My CSS files aren't being identified properly
 
 This could be the result of the identification issue above, or it could be because your css file includes a comment on the first line, before any actual CSS. Try removing the comment(s) from the top of the file and re-uploading.
 
@@ -96,7 +96,7 @@ show variables like 'char%';
 show variables like 'collation%';
 ```
 
-The goal of fixing character encoding problems is to ensure that the data stored in the database matches the character set settings of the database, i.e. that we’re storing utf8 data in a utf8 database. Once this has been achieved, we want to ensure that the OJS config.inc.php settings match the data and db settings, i.e. client, connection, database character set settings are all set to utf8 in config.inc.php.
+The goal of fixing character encoding problems is to ensure that the data stored in the database matches the character set settings of the database, i.e. that we’re storing utf8 data in a utf8 database. Once this has been achieved, we want to ensure that the OJS `config.inc.php` settings match the data and db settings, i.e. client, connection, database character set settings are all set to utf8 in `config.inc.php`.
 
 ### Introduction to Character Sets and Encodings
 
@@ -109,8 +109,8 @@ The following articles provide a good introduction to character sets and encodin
 
 ### General Approach
 
-* Check config.inc.php db settings: client, connection, database character sets
-* Compare config.inc.php db settings against actual settings in the db, i.e.
+* Check the `config.inc.php` database settings: client, connection, database character sets
+* Compare the `config.inc.php` database settings against actual settings in the database, i.e.
  * `show variables like 'char%'`
  * `show variables like 'collation%'`
 * There's often a mismatch between 1. and 2. that provides the first mismatch clues
@@ -121,27 +121,29 @@ The following articles provide a good introduction to character sets and encodin
 
 #### Common Problem #1: Latin1 table definitions with UTF8 data
 
-During migration from another institution you may receive a MySQL dump that includes table definitions that are set to latin1 (i.e. CREATE TABLE access\_keys … DEFAULT CHARSET=latin1) even though the actual data saved in the tables is UTF8. You can config.inc.php on the original server to confirm if this is the case: if client\_charset = utf-8 in config.inc.php then data will be stored as UTF8 in the database.
+During migration from another institution you may receive a MySQL dump that includes table definitions that are set to latin1 (i.e. `CREATE TABLE access_keys … DEFAULT CHARSET=latin1`) even though the actual data saved in the tables is UTF8. You can check the `config.inc.php` on the original server to confirm if this is the case: if `client_charset = utf-8` in `config.inc.php` then data will be stored as UTF-8 in the database.
 
-By default, journals on our servers are correctly configured to use UTF8 settings throughout the database and config.inc.php. Importing a mismatched database with Latin1 table definitions and UTF8 data will result in character display issues in OJS.
+By default, journals on our servers are correctly configured to use UTF8 settings throughout the database and `config.inc.php`. Importing a mismatched database with Latin1 table definitions and UTF8 data will result in character display issues in OJS.
 
 The following conversion steps and import process can be used to resolve these issues:
 
-Conversion steps:
+##### Conversion steps
+
 * ask for a latin1 mysql dump with `--default-character-encoding=latin1 --result-file=dump.latin1.sql`
 * open `dump.latin.sql` in vim
 * remove 'SET NAMES latin1' from the top of the file
 * replace latin1 table definitions with utf8 table definitions via `:%s/CHARSET=latin1/CHARSET=utf8/g`
-* set the file encoding for the file to utf8 via `:set fileencoding=utf8`
+* set the file encoding for the file to utf8 via `:set fileencoding=utf-8`
 * save the file to a new filename via `:w dump.utf8.sql`
 
-Import steps:
-* create a clean utf8 database: `CREATE DATABASE import\_ojs DEFAULT CHARSET utf8;`
-* switch to the new db: `USE import\_ojs`
+##### Import steps
+
+* create a clean utf8 database: `CREATE DATABASE import_ojs DEFAULT CHARSET utf8;`
+* switch to the new db: `USE import_ojs`
 * set everything to utf8: `SET NAMES utf8;`
 * import the converted dump: `SOURCE dump.utf8.sql;`
 
-... and so on, replacing "article\_settings" with the table you need to clean up, and "setting\_value" with the column in the table needing cleanup.
+... and so on, replacing "article_settings" with the table you need to clean up, and "setting_value" with the column in the table needing cleanup.
 
 #### Common Problem #2: double-quotes with encoding issue on DUMP files
 
@@ -151,12 +153,12 @@ This problem shows up when users copy-and-paste fancy/smart quotes from MS Word 
 
 The following steps can be used to resolve this encoding issue:
 
-* Install on your local machine [ftfy](https://ftfy.readthedocs.io/en/latest/), as it is a python tool it will require python3 installed as well;
+* Install on your local machine [ftfy](https://ftfy.readthedocs.io/en/latest/), as it is a python tool it will require python3 as well
 * Edit the command-line ftfy executable cli.py (it may be in a different path depending on your environment.):
 	`/usr/local/lib/python3.6/site-packages/ftfy/cli.py`
-* Around line 100 (`$ vim +100 cli.py`) add an extra parameter 'uncurl_quotes=False' to the fix_file function. It will like as follows:
+* Around line 100 (`$ vim +100 cli.py`) add an extra parameter 'uncurl_quotes=False' to the fix_file function. It will then look as follows:
 
-```
+```python
 for line in fix_file(file, encoding=encoding,
      fix_entities=fix_entities,
      normalization=normalization,
@@ -171,14 +173,14 @@ for line in fix_file(file, encoding=encoding,
 If you are running into strange characters like Ã¢â‚¬ / Ã¢â‚¬" / Ã¢â‚¬â„¢ / etc., try the following SQL commands to search and replace them (taken from this [blog post](https://digwp.com/2011/07/clean-up-weird-characters-in-database/)):
 
 ```
-UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬Å“', '"');
-UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬ ', '"');
-UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬â„¢', ''');
-UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬Ëœ', '"');
-UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬"', '"“');
-UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬"', '"”');
-UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬ ¢', '-');
-UPDATE article\_settings SET setting\_value = REPLACE(setting\_value, 'Ã¢â‚¬ ¦', '"¦');
+UPDATE article_settings SET setting_value = REPLACE(setting_value, 'Ã¢â‚¬Å“', '"');
+UPDATE article_settings SET setting_value = REPLACE(setting_value, 'Ã¢â‚¬ ', '"');
+UPDATE article_settings SET setting_value = REPLACE(setting_value, 'Ã¢â‚¬â„¢', ''');
+UPDATE article_settings SET setting_value = REPLACE(setting_value, 'Ã¢â‚¬Ëœ', '"');
+UPDATE article_settings SET setting_value = REPLACE(setting_value, 'Ã¢â‚¬"', '"“');
+UPDATE article_settings SET setting_value = REPLACE(setting_value, 'Ã¢â‚¬"', '"”');
+UPDATE article_settings SET setting_value = REPLACE(setting_value, 'Ã¢â‚¬ ¢', '-');
+UPDATE article_settings SET setting_value = REPLACE(setting_value, 'Ã¢â‚¬ ¦', '"¦');
 ```
 
 If all else fails:
@@ -193,15 +195,15 @@ mysqldump ocs-$USERNAME --opt --default-character-set=latin1 --skip-set-charset 
 
 ### When I click some button or follow some link, I'm left with a blank page. What do I do?
 
-1: Check your webserver error log
+#### Check your webserver error log
 
 Usually, this indicates that a PHP error has occurred and the message has been sent to your web server or system log file. Check there – e.g. `/var/log/apache/error.log`, although the exact location will depend on your server configuration – for further details.
 
-2: Check your file permissions
+#### Check your file permissions
 
-If you haven’t installed OJS, OMP, or OCS yet, then the most likely cause is a problem with file permissions in your cache/ or cache/t_compile directories. See docs/README for information on file permissions.
+If you haven’t installed OJS, OMP, or OPS yet, then the most likely cause is a problem with file permissions in your `cache/` or `cache/t_compile` directories. See docs/README for information on file permissions.
 
-3: Further troubleshooting
+#### Further troubleshooting
 
 If you don’t have access to your server log file, you can try adding the following near the top of index.php to cause error messages to be sent to the browser:
 
@@ -223,7 +225,7 @@ Add below it:
 
 `echo "Importing " . $class . " \n";`
 
-This will cause OJS, OMP, or OCS to list class files before importing them (for ANY viewer of the site). If you are having a problem with a particular file, it will be the last one listed. Double-check the file permissions on it and try running it through the PHP linter (php -l path/to/file.inc.php).
+This will cause OJS, OMP, or OPS to list class files before importing them (for ANY viewer of the site). If you are having a problem with a particular file, it will be the last one listed. Double-check the file permissions on it and try running it through the PHP linter (php -l path/to/file.inc.php).
 
 Be sure to revert this change when you are finished.
 
@@ -231,7 +233,7 @@ Be sure to revert this change when you are finished.
 
 A stacktrace shows the route through the code taken to display the current page. When an error is displayed, a stacktrace is often helpful in helping to track down how the error is being caused, by letting the developer step through the code and see what route they must take to reproduce the error.
 
-To enable stacktracing on errors in OxS, turn on the 'show_stacktrace' option in config.inc.php (near the bottom of the document). An example stacktrace will look like this:
+To enable stacktracing on errors in OxS, turn on the 'show_stacktrace' option in `config.inc.php`. An example stacktrace will look like this:
 
 ```
 DB Error: ERROR: invalid input syntax for integer: ""
@@ -256,7 +258,7 @@ Function: handleRequest()
 
 ### I am receiving the following error: Fatal error: Allowed memory size of 8388608 bytes exhausted (etc.)
 
-Your PHP memory limit is most likely set too low. It's normally set at 8mb by default, but OJS, OMP, and OCS need at least 16mb set to run properly (and often more for occasional tasks like upgrading). You can find a `memory_limit` configuration directive in your server's `php.ini` config file.
+Your PHP memory limit is most likely set too low. It's normally set at 8mb by default, but OJS, OMP, and OPS need at least 16mb set to run properly (and often more for occasional tasks like upgrading). You can find a `memory_limit` configuration directive in your server's `php.ini` config file.
 
 ### After completing the install page, I receive a database error. What's going on?
 
@@ -264,28 +266,16 @@ You are probably receiving an error similar to
 
 `DB Error: Table 'ojs.journals' doesn't exist`
 
-... where the 'ojs' part of the error is the name of your database as specified during install. What has most likely happened is that you have attempted to create your database and the installer has attempted to fill that database with the necessary data, but for some reason was unable to do so. Possible reasons for this include your database system (eg. MySQL) not allowing web-based database creation; or otherwise not allowing large-scale table creation. The best solution is to:
+... where the 'ojs' part of the error is the name of your database as specified during install. What has most likely happened is that you have attempted to create your database and the installer has attempted to fill that database with the necessary data, but for some reason was unable to do so. Possible reasons for this include your database system (e.g. MySQL) not allowing web-based database creation; or otherwise not allowing large-scale table creation. The best solution is to:
 
 * restore your `config.inc.php` to the original (copying over `config.TEMPLATE.php` will do this);
 * create your database manually via phpMyAdmin, CPanel, or similar, depending on what your service provider provides;
-* restart the installation process by reloading your root OJS/OMP/OCS page;
+* restart the installation process by reloading your root OJS/OMP/OPS page;
 * fill in all installation fields as appropriate, ensuring that you write in the correct name for your newly-created database;
 * uncheck the "Create new Database" option;
 * click the "Manual Install" option at the very bottom of the installation page.
 * copy the database query from the resulting page, and run it against your database via phpMyAdmin or similar.
 
-Please note that when you click the Manual Install button, the resulting page will say that the OJS/OMP/OCS Install has completed successfully, but this isn't quite true: you still have to copy the SQL statements and add them to your database manually.
+Please note that when you click the Manual Install button, the resulting page will say that the OJS/OMP/OPS Install has completed successfully, but this isn't quite true: you still have to copy the SQL statements and add them to your database manually.
 
 **Note:** You may also be encountering a plugin bug. There have been plugin bugs in the past where plugins have attempted to access the "journals" table before the installer has created the table; these will result in a "Table 'ojs.journals' doesn't exist" message when someone attempts to load the installer page in the first place. In this case, you can narrow it down to a particular plugin by checking the stack trace.
-
-## PHP and PKP Application Compatibility
-
-If you are running PHP 5.3+ \(which you should be doing\), you will need to run OJS 2.4.0+, OMP 1.0+ or OCS 2.3.6+. Older versions of the software will not work on newer versions of PHP.
-
-If you are running PHP 7+, you will need to run OJS 3.0+.
-
-OJS and OMP 3.1.2+ **requires** PHP 7.1 or above. Refer to [docs/README](https://github.com/pkp/ojs/tree/main/docs) for your OJS/OMP version for more information about PHP system requirements.
-
-**NOTE**: If you are running OJS or OMP 3.x on a PHP7+ LAMP stack, please remember to update your MySQL driver parameter\(Database section\) on `config.inc.php` file, i.e.:
-
-`driver = mysqli`
