@@ -54,7 +54,6 @@ Each submission will be marked with a colored dot and a status in the “Stage�
 You can use the various views under the Dashboards menu to filter submissions by these statuses.
 
 > Note: The “Needs Editor” and “Declined” Dashboard views are only accessible to roles with the Journal Manager permission level. Section Editors see the rejected manuscripts that were assigned to them, Journal Managers see all manuscripts.
-{.:tip}
 
 
 #### Search and Refine Your Results With Filters {#search-filters}
@@ -130,7 +129,7 @@ In the central panel of the Submission Record, you will see:
 
 **Files**: This panel lists the files associated with the stage. The title of this panel will change between stages—for example, in the Submission stage, it will include any files uploaded with the submission, while in the Copyediting stage, there will be two panels: one for draft files needing copyediting, and one for files that have been fully copyedited.
 
-**Discussions**: This panel allows participants in a stage to communicate with the author, or with others on the editorial team. Using discussions to communicate with authors, reviewers, and other members of your editorial team will be an important part of using OJS effectively, so we will cover them in-depth in [a dedicated section further below](./#discussions).
+**Discussions**: This panel allows participants in a stage to communicate with the author, or with others on the editorial team. Using discussions to communicate with authors, reviewers, and other members of your editorial team will be an important part of using OJS effectively, so we will cover them in-depth in [a dedicated section further below](/#discussions).
 
 The content of the central panel will change between stages. Please consult the chapter for your current stage for further information.
 
