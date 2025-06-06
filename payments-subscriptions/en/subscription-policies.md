@@ -3,6 +3,8 @@ title: Configure Subscription Policies
 showPageTOC: true
 ---
 
+## Configure Subscription Policies {#subscription-policies}
+
 Access Payments from the left side menu to begin configuring your subscription settings.
 
 First, navigate to the Subscriptions Policies tab to fill in details about your subscription policies.

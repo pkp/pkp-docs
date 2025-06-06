@@ -3,6 +3,8 @@ title: Enable and Configure Payments
 showPageTOC: true
 ---
 
+## Enable and Configure Payments {#payment-settings}
+
 To access the Payments menu and make configurations for subscriptions or other fees, you’ll first need to enable payments and choose a payment type. OJS allows you to accept payments through PayPal using the PayPal plugin, or manual payments (such as cheque, email transfer, etc.- however, these will need to be manually tracked in the system). **No other payment methods are currently available for OJS.** 
 
 This PKP School video explains how to configure the Payments settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
@@ -24,8 +26,8 @@ After saving, a new menu item called Payments will appear on the main dashboard 
 
 ![The Payments menu highlighted in the left sidebar menu, with the Subscriptions screen open in the main window.](./assets/payment-types-3.5.png)
 
-### Set Up Manual Payments {#manual-payments}
 
+### Set Up Manual Payments {#manual-payments}
 
 If you selected **Manual Fee Payment** under Payment Plugins, enter the instructions into the Manual Fee Payment box and click the Save button. 
 

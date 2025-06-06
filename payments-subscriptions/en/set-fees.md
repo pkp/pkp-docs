@@ -3,16 +3,19 @@ title: Configure Author, Reader, and Other Fees
 showPageTOC: true
 ---
 
+## Configure Author, Reader, and Other Fees {#set-fees)
+
 To set the amounts for different types of fees such as author and reader fees, go to the Payment Types tab of the Payments Menu.
 
 {% include video.html id="9r0mRqtNVuU" provider="youtube" title="Module 11: Distribution. Unit 3: Payments"%}
 
 This PKP School video explains how to set up different payment types in your journal. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-![The Payment Types tab in the Subscriptions menu, with fields to enter Author Fees, Reader Fees, and General Fees.](./assets/payment-types-3.5.png.png)
+![The Payment Types tab in the Subscriptions menu, with fields to enter Author Fees, Reader Fees, and General Fees.](./assets/payment-types-3.5.png)
 
 >Make sure you’ve already configured your payment method and plugins as per  [Enable and Configure Payments](#payment-settings) before proceeding. If these configurations are not complete, you will not be able to request payment of fees.
 {:.warning}
+
 ### Request Author Fees (APCs) {#author-fees}
 
 If you want to charge an article processing charge (APC) to authors, enter the amount in the Author Fees field. Enabling Author Fees will allow you to request an article processing charge after the review process has been completed. 

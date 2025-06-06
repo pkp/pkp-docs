@@ -3,6 +3,8 @@ title: Create Subscription Types
 showPageTOC: true
 ---
 
+## Create Subscription Types {#subscription-types}
+
 The next step will be to access the Subscription Types tab to designate the types of subscriptions your journal offers.
 
 ![The Subscription Types tab in the Subscriptions menu](./assets/subscription-types-3.5.png)
