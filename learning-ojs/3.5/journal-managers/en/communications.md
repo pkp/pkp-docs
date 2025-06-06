@@ -121,7 +121,7 @@ For emails that are sent manually (e.g., Discussion (Copyediting)), you can both
 
 Click the Add Template or Edit button beside an existing template to create an additional template or make changes.
 
-> OJS does not currently support email attachments for automated emails. You can share files by uploading them to the [Publisher Library](#publisher-library) and sharing the URL.
+> OJS does not currently support email attachments for automated emails. You can share files by uploading them to the [Publisher Library](./other-tools#publisher-library) and sharing the URL.
 {:.tip}
 
 Use the  “Insert Content” button to add variables to your email text. Variables are placeholders for information that will change depending on the situation, such as author name, submission title.
