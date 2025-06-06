@@ -27,7 +27,7 @@ Visit our website to learn more about [Open Journal Systems](https://pkp.sfu.ca/
 
 ## Install and Upgrade  {#install-upgrade}
 
-OJS is easy to install and configure. However, running a web service requires a systems administrator who knows how to deploy web applications. Our Administrator's Guide provides full instructions on how to [download, install and configure OJS](./admin-guide/en).
+OJS is easy to install and configure. However, running a web service requires a systems administrator who knows how to deploy web applications. Our Administrator's Guide provides full instructions on how to [download, install and configure OJS](https://docs.pkp.sfu.ca/admin-guide/en/).
 
 > If you do not have the expertise, staff or desire to install and manage OJS on your own, [PKP Publishing Services](https://pkp.sfu.ca/hosting-services) provides complete hosting solutions for every budget.
 {:.tip}
