@@ -18,12 +18,12 @@ To install a Theme plugin, click the plugin name. This will open an additional p
 
 Once installed, the Journal Manager can enable theme plugins by going to Website > Plugins > Installed plugins. All the installed Theme plugins will be listed at the bottom of this page. Click the checkbox to enable them. 
 
-The enabled plugins will be listed on the Theme dropdown bar within Website > Appearance> Theme. 
+The enabled plugins will be listed in the Theme dropdown bar within Website > Appearance > Theme. 
 
-[Screenshot] 
+![Dropdown bar with theme options.](./assets/theme-dropdown.png)
 
 ## Updating Theme Plugins
 
-Theme plugins may be updated from time to time by the developer. If an update for the theme is available, it will be listed with *' Can be upgraded '* status in the Plugin Gallery. **The Journal Administrator will need to update theme plugins.**
+Theme plugins may be updated periodically by the developer. If an update for the theme is available, it will be listed with *' Can be upgraded '* status in the Plugin Gallery. **The Journal Administrator will need to update theme plugins.**
 
-[Screenshot]
+![Gopher Theme with the status Can be upgraded](./assets/theme-update.png)
