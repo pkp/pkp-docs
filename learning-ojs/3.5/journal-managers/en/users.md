@@ -137,7 +137,7 @@ This opens a menu with options to Email, Edit User, Disable, Remove, Login As, a
 
 **Disable** keeps the account in place, but blocks the user from accessing it. You can reenable the account later by selecting “Enable User”.
 
-**Remove** un-enrolls the user from all roles in the journal. Note that their user account will remain in the system. To fully remove a user account from your system, follow the instructions in [**Merge Users** below](./#merge-users).
+**Remove** un-enrolls the user from all roles in the journal. Note that their user account will remain in the system. To fully remove a user account from your system, follow the instructions in [**Merge Users** below](/#merge-users).
 
 **Login As** allows you to temporarily log in as that user, for example, to complete an outstanding task. Please note that this activity will be logged.
 

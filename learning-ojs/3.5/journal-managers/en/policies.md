@@ -178,7 +178,7 @@ Take the time to review the default text and make any edits to reflect your jour
 
 The Metadata tab is where you can configure what additional information you’d like authors or editors to provide for submissions. This includes keywords, subjects, references, and more. Review each option and enable any that suit your journal’s disciplines and policies. 
 
-These options will appear when authors make a submission and in the [Publication tab of the Editorial Workflow](URL).
+These options will appear when authors make a submission and in the [Publication tab of the Editorial Workflow](../../editorial-workflow/en/production#finalize-details).
 
 Some indexing agencies have specific requirements for metadata. See [Better Practices in Journal Metadata](https://docs.pkp.sfu.ca/metadata-practices/) for guidelines.
 
@@ -297,10 +297,10 @@ You can then choose the type of response, including:
 ![OJS 3.5 Create New Item for Review Forms screen.](./assets/jm-settings-review-form-item-3.5.png)
 
 
-![OJS 3.5 Form Item menu tab screen.](./assets/jm-settings-form-item-menu-3.5..png)
+![OJS 3.5 Form Item menu tab screen.](./assets/jm-settings-form-item-menu-3.5.png)
 
 
-![OJS 3.5 Preview Form screen.](./assets/jm-settings-form-preview-3.5..png)
+![OJS 3.5 Preview Form screen.](./assets/jm-settings-form-preview-3.5.png)
 
 
 Remember to hit the **Save** button to record your changes.
@@ -309,7 +309,7 @@ Use the **Preview** tab to see how your form will appear to reviews.
 
 Lastly, you will need to activate the review form from the list. **Once a form is activated and assigned to a review, it can no longer be deactivated**.
 
-> Once you’ve activated a review form, you can select it from the Section options to make it the default review form for that section. See [Edit Sections](./#edit-section) for details.
+> Once you’ve activated a review form, you can select it from the Section options to make it the default review form for that section. See [Edit Sections](/#edit-section) for details.
 
 ## Configure Copyright and Licensing {#copyright-licensing}
 
@@ -334,7 +334,7 @@ The license you select will be automatically added to each article's metadata an
 > If you use a continuous publishing model, select the article's publication date. If you use a traditional, issue-based publishing model, select the issue's publication date.
 {:.tip}
 
-This default can be overridden on a case-by-case basis through the [copyright and licensing tab of an individual submission](URL).
+This default can be overridden on a case-by-case basis through the [copyright and licensing tab of an individual submission](../../editorial-workflow/en/production#finalize-details).
 
 **License Terms**: Enter any additional license terms you would like to display alongside the license selected above on the published article page.
 
