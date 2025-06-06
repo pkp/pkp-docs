@@ -27,7 +27,7 @@ Visit our website to learn more about [Open Journal Systems](https://pkp.sfu.ca/
 
 ## Install and Upgrade  {#install-upgrade}
 
-OJS is easy to install and configure. However, running a web service requires a systems administrator who knows how to deploy web applications. Our Administrator's Guide provides full instructions on how to [download, install and configure OJS](./admin-guide/en).
+OJS is easy to install and configure. However, running a web service requires a systems administrator who knows how to deploy web applications. Our Administrator's Guide provides full instructions on how to [download, install and configure OJS](https://docs.pkp.sfu.ca/admin-guide/en/).
 
 > If you do not have the expertise, staff or desire to install and manage OJS on your own, [PKP Publishing Services](https://pkp.sfu.ca/hosting-services) provides complete hosting solutions for every budget.
 {:.tip}
@@ -117,7 +117,7 @@ Below are some other changes in 3.5 you should be aware of:
 If you’re coming to OJS 3.5 without experiencing 3.4, there are a few key changes that will be new to you.
 
 * **Centralized DOI management**: Management of DOIs has been simplified and centralized in a dedicated DOIs menu item. [Read more about setting up DOIs and using the DOI management area here](../../journal-managers/en/other-tools.md#dois).
-* **Redesigned Submission wizard**: The submission form’s design has been improved. Authors can consult [Learning OJS 3.5 for Authors](../../authors/en) for step-by-step guidance.
+* **Redesigned Submission wizard**: The submission form’s design has been improved. Authors can consult [Learning OJS 3.5 for Authors](../../author/en) for step-by-step guidance.
 * **Submission title formatting**: Submission titles can now contain limited formatting, including bold, italic, underline, superscript and subscript.
 * **Improved email templates**: Email composition tools have been expanded to allow users more freedom when selecting and editing email templates. Emails include a glossary of available variables that can be inserted using the ‘Insert Content’ button. These variables allow you to include context-dependent information: for example, the ($submissionTitle) variable will be automatically replaced with the title of the relevant submission. Additionally, you can now add CC/BCC when sending select emails in the system.
 * **Cancel a review round or move a submission to a prior stage**: You can freely cancel accidentally opened review rounds or return a submission to a previous stage.
@@ -139,10 +139,10 @@ There are two main ways to get a role:
 
 If you're not sure what your role is, or what you’re allowed to do, check with your journal's editorial team. 
 You can also consult the relevant guide below:
-* [Learning OJS 3.5 for Authors](../../authors/en/) - – Learn how to submit and manage your manuscript as an Author.
-* [Learning OJS 3.5 for Reviewers](../../reviewers/en/)  – Learn how to accept review assignments and complete peer reviews.
+* [Learning OJS 3.5 for Authors](../../author/en/) - – Learn how to submit and manage your manuscript as an Author.
+* [Learning OJS 3.5 for Reviewers](../../reviewer/en/)  – Learn how to accept review assignments and complete peer reviews.
 * [Learning OJS 3.5: The Editorial Workflow](../../editorial-workflow/en/) – Recommended for Editors, Copyeditors, Layout Editors, and any other editorial board members working through the publishing stages.
-* [Learning OJS 3.5 for Journal Managers](../../journal-manager/en/) – Learn how to configure your journal and manage the editorial team.
+* [Learning OJS 3.5 for Journal Managers](../../journal-managers/en/) – Learn how to configure your journal and manage the editorial team.
 * [Learning OJS 3.5 for Site Administrators](../../site-admin/en/) – For those managing the overall OJS installation and creating new journals.
 
 ### Create and Manage Your Account {#create-manage-account}
