@@ -334,7 +334,7 @@ The license you select will be automatically added to each article's metadata an
 > If you use a continuous publishing model, select the article's publication date. If you use a traditional, issue-based publishing model, select the issue's publication date.
 {:.tip}
 
-This default can be overridden on a case-by-case basis through the [copyright and licensing tab of an individual submission](URL).
+This default can be overridden on a case-by-case basis through the [copyright and licensing tab of an individual submission](../../editorial-workflow/en/production#finalize-details).
 
 **License Terms**: Enter any additional license terms you would like to display alongside the license selected above on the published article page.
 
