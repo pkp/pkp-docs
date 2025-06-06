@@ -39,7 +39,7 @@ An example of galley files a journal might provide for an article about an art p
 
 ### Assign a Layout Editor
 
-If your journal has dedicated layout editors or designers to prepare the final version of the article, you can assign them as a participant just as you would [assign a copyeditor in the Copyediting stage](./copyediting#assign). 
+If your journal has dedicated layout editors or designers to prepare the final version of the article, you can assign them as a participant just as you would [assign a copyeditor in the Copyediting stage](./copyedit#assign). 
 
 ### Prepare Files for Production
 
@@ -163,7 +163,7 @@ We will explore each item in the menu below.
 * **Permissions & Disclosure**: Edit copyright holder, copyright year, and license. These are generally filled in automatically according to the journal’s settings. Use this tab to override these defaults.
 * **Issues**: Assign the article to a journal issue. This will be explained in the [Publication & Postpublication chapter of this guide](./publication.md).
 
->Note: If your journal is using identifiers such as DOIs or plugins related to identifiers (e.g. the Crossref Reference Linking plugin), you should consult the DOIs and DOI Plugin guide](https://docs.pkp.sfu.ca/doi-plugin/en/) and the related [Crossref Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references) (if using Crossref services).
+>Note: If your journal is using identifiers such as DOIs or plugins related to identifiers (e.g. the Crossref Reference Linking plugin), Journal Managers should be sure to configure these settings in advance. Consult the [DOI guidance sectio of Learning OJS for Journal Managers](../../journal-managers/en/other-tools#dois) and [Crossref Reference Plugin Guide](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/references) (if using Crossref services).
 {:.notice}
 
 Edit the information on this tab in any relevant languages and be sure to click Save at the bottom of each page.
