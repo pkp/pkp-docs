@@ -110,8 +110,11 @@ Once you have saved your newly created journal, the Settings Wizard window will 
 Clicking **Settings Wizard** will take you to the settings for that journal. This can be used to adjust configurations at the individual journal level.
 
 **Journal**: Functionally the same as the “Edit” button on the list of hosted journals. This can be used to change the descriptive information of a journal.
+
 **Appearance**: Customize the theme and appearance of the journal. See our [Designing Your Journal Guide](https://docs.pkp.sfu.ca/designing-your-journal/) for detailed information.
+
 **Language**: Enable different languages for various areas of the site (i.e. UI, forms, submissions). Consult the [Installing, Enabling, and Configuring Locales section of Using PKP Software in Multiple Languages](https://docs.pkp.sfu.ca/multiling-guide/) to learn more.
+
 **Search Indexing**: Allows you to set up search engine optimization. See the [Set up Search Engine Optimization section of Learning OJS for Journal Managers](../../journal-managers/en/archive-seo#seo) to learn more
 
 The setting options above are identical to those accessible to Journal Managers; however, there is one setting in this panel only available to Site Administrators: the Restrict Bulk Emails by Role tab.
