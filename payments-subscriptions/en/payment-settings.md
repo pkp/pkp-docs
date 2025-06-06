@@ -22,9 +22,9 @@ Click Save.
 
 After saving, a new menu item called Payments will appear on the main dashboard menu (left panel). This is where you can manage subscriptions and payments in detail.
 
-![The Payments menu highlighted in the left sidebar menu, with the Subscriptions screen open in the main window.](./assets/payments-menu-3.5.png)
+![The Payments menu highlighted in the left sidebar menu, with the Subscriptions screen open in the main window.](./assets/payment-types-3.5.png)
 
-### Set Up Manual Payments {#manual-payments
+### Set Up Manual Payments {#manual-payments}
 
 
 If you selected **Manual Fee Payment** under Payment Plugins, enter the instructions into the Manual Fee Payment box and click the Save button. 

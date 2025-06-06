@@ -5,13 +5,13 @@ showPageTOC: true
 
 The next step will be to access the Subscription Types tab to designate the types of subscriptions your journal offers.
 
-![The Subscription Types tab in the Subscriptions menu](./assets/learning-ojs3.3-jm-subscriptions-types.png)
+![The Subscription Types tab in the Subscriptions menu](./assets/subscription-types-3.5.png)
 
 Journals typically offer both individual subscription and institutional subscription rates. Some journals may have special offers for members of an organization or students. OJS supports the management of print and/or online subscriptions. More than one type of subscription can be created to cover longer periods of time (12 months, 36 months).
 
 Select **Create New Subscription Type** to add a new one.
 
-![The Create New Subscription Type window.](./assets/learning-ojs3.3-jm-subscriptions-types-create.png)
+![The Create New Subscription Type window.](./assets/subscription-types-create-3.5.png)
 
 * **Name of Type**: Give this new subscription type a unique name (e.g., Student).
 * **Description**: Provide an optional brief description that will appear on the website.
@@ -30,7 +30,7 @@ Once you’ve created your subscription policies and subscription types, you can
 
 The Individual Subscriptions tab is where you can see and manage individual subscriptions.
 
-![The Individual Subscriptions tab in the Subscriptions menu.](./assets/\individual-tab-3.5.png)
+![The Individual Subscriptions tab in the Subscriptions menu.](./assets/individual-tab-3.5.png)
 
 
 Click the Create New Subscription button to create a new individual subscription for an existing user. If the user has not already registered, use the invite feature in Settings - Users & Roles or ask them to register on the journal site. 
@@ -52,7 +52,7 @@ Lastly, you can choose to notify the subscriber by email of their subscription d
 
 
 To make any changes to these details, renew a subscription, or delete a subscription, click the blue arrow next to the subscription and select the relevant option.
-![A subscription with its setting menu open, with options to Edit, Renew, and Delete..](./assets/lsubscription-edit-menu-3.5.png)
+![A subscription with its setting menu open, with options to Edit, Renew, and Delete..](./assets/subscription-edit-menu-3.5.png)
 
 **Edit**: Edit the details of the subscription.
 **Renew**: Extend the end date of the subscription by the duration of the subscription type. For example, if a subscription type lasts 12 months, the end date will be moved ahead by one year.
@@ -69,7 +69,7 @@ Create an Institutional Subscription associated with the institution
 
 After creating your institutional subscription type, navigate to the Institutions tab on the left side menu.
 
-![The Institutional Subscriptions tab in the Subscriptions menu.](./assets/institutions-add-3.5.png)
+![The Institutional Subscriptions tab in the Subscriptions menu.](./assets/institution-add-3.5.png)
 
 
 Click the Add Institution button. This will open the Add Institution window. Here, you’ll be asked to enter:
