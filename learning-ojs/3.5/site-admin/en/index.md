@@ -15,11 +15,11 @@ The Site Administrator role in OJS is created as part of the OJS installation pr
 This guide covers the settings and functions in the Administration panel of your OJS installation. Technical information about administering an OJS site from the back end, including upgrades, email, statistics, and importing and exporting, please consult the [Administrator's Guide](https://docs.pkp.sfu.ca/admin-guide/en/).
 
 Other guides in this series include:
-* [About OJS 3.5](../about-ojs/en/) - Learn the basics about OJS, including the new features added in 3.5. Recommended as the starting point for all users.
-* [Learning OJS 3.5 for Journal Managers](../journal-manager/en/) - Learn how to configure and prepare a journal to publish from start to finish as a Journal Manager. 
-* [Learning OJS 3.5: The Editorial Workflow](../editorial-workflow/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
-* [Learning OJS 3.5 for Reviewers](../reviewers/en/) - Learn how to respond to a review request and complete a review in OJS as a Reviewer.
-* [Learning OJS 3.5 for Authors](../authors/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
+* [About OJS 3.5](../../about-ojs/en/) - Learn the basics about OJS, including the new features added in 3.5. Recommended as the starting point for all users.
+* [Learning OJS 3.5 for Journal Managers](../../journal-managers/en/) - Learn how to configure and prepare a journal to publish from start to finish as a Journal Manager. 
+* [Learning OJS 3.5: The Editorial Workflow](../../editorial-workflow/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
+* [Learning OJS 3.5 for Reviewers](../../reviewer/en/) - Learn how to respond to a review request and complete a review in OJS as a Reviewer.
+* [Learning OJS 3.5 for Authors](../../author/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
 
 ## Access the Administration Menu {#admin-menu}
 To access the Administration menu, login to a journal as the Site Administrator, and choose Administration from the left side menu. Alternatively, hover over your username while logged in and choose Administration.
@@ -28,13 +28,7 @@ To access the Administration menu, login to a journal as the Site Administrator,
 
 ## Configure OJS Site Settings {#sitewide-settings}
 
-The “Site Setup” option will appear under “Site Management” in the Administration menu if you have two or more journals. This is where you can make configurations that apply to **your overall OJS installation**, particularly your main OJS site which contains a list of all hosted journals. This may not be relevant for those who only intend to host a single journal or those who do expect that readers will only access individual journal sites.
-
-### Configure Basic Site Settings {#basic-settings}
-“Site Settings” is where you can add the name of your site, a site logo, an introductory statement about your site, a site footer, a redirect option (if you only plan to have one journal on this installation), contact information, a minimum password length for registered users, style sheet and theme options, and sidebar management.
-You will have the opportunity to provide details about individual journal(s) at a later stage.
-
-![OJS admin menu with site setup tab selected.](./assets/siteadmin-hosted-journals-3.5.png)
+The “Site Settings” option will appear under “Site Management” in the Administration menu if you have two or more journals. This is where you can make configurations that apply to **your overall OJS installation**, particularly your main OJS site which contains a list of all hosted journals. This may not be relevant for those who only intend to host a single journal or those who do expect that readers will only access individual journal sites.
 
 ### Manage Languages {#languages}
 OJS is designed to accommodate multilingualism, allowing journals supporting a wide variety of languages under a single site.
@@ -65,11 +59,11 @@ Use the Appearance tab and the Navigation Menus subtab to customize the look of 
 
 ![OJS admin menu with navigation menus tab selected.](./assets/siteadmin-sa-menus-3.5.png)
 
-These options are functionally identical to the Appearance options for individual journals. Consult [the Customize the Look of Your Journal section of Learning OJS for Journal Managers](..URL) as well as the [Designing Your Journal guide](https://docs.pkp.sfu.ca/designing-your-journal/) for more information.
+These options are functionally identical to the Appearance options for individual journals. Consult [the Customize the Look of Your Journal section of Learning OJS for Journal Managers](../../journal-managers/en/appearance) as well as the [Designing Your Journal guide](https://docs.pkp.sfu.ca/designing-your-journal/) for more information.
 
 ### Enable Bulk Emails {#bulk-emails}
 
-Site Administrators can allow Journal Managers to send bulk emails to several user groups in a journal at one time. See [Users and Roles > Email Users](..URL). As the site administrator, you can use the Site Settings to select which hosted journals will be allowed to send bulk emails.
+Site Administrators can allow Journal Managers to send bulk emails to several user groups in a journal at one time. (See [Send Email Notifications to All Users with a Specific Role](../../journal-managers/en/communications#bulk-emails) for information on how this feature works once enabled). As the site administrator, you can use the Site Settings to select which hosted journals will be allowed to send bulk emails.
 
 > Note: Misuse of this feature to send unsolicited email may violate anti-spam laws in some jurisdictions and may result in your server’s emails being blocked as spam. Seek technical advice before enabling this feature and consider consulting with journal managers to ensure it is used appropriately.
 {:.warning}
@@ -108,7 +102,7 @@ Once you have saved your newly created journal, the Settings Wizard window will 
 
 **Settings Wizard** will take you to the settings for that journal. This option is described in depth below, under [Configure Journal-Specific Settings](#per-journal-settings).
 
-**Users** will allow you to add and manage users associated with the journal. Once you have created a journal and completed your configurations, you will likely want to create a user account for the Journal Manager or Editor - see the [Users and Roles chapter](./URL) for details.
+**Users** will allow you to add and manage users associated with the journal. Once you have created a journal and completed your configurations, you will likely want to create a user account for the Journal Manager or Editor - see the [Users and Roles chapter](../../journal-managers/en/users) for details.
 
 ![The Users window with a list of current users.](./assets/admin-users-3.5.png)
 
@@ -118,7 +112,7 @@ Clicking **Settings Wizard** will take you to the settings for that journal. Thi
 **Journal**: Functionally the same as the “Edit” button on the list of hosted journals. This can be used to change the descriptive information of a journal.
 **Appearance**: Customize the theme and appearance of the journal. See our [Designing Your Journal Guide](https://docs.pkp.sfu.ca/designing-your-journal/) for detailed information.
 **Language**: Enable different languages for various areas of the site (i.e. UI, forms, submissions). Consult the [Installing, Enabling, and Configuring Locales section of Using PKP Software in Multiple Languages](https://docs.pkp.sfu.ca/multiling-guide/) to learn more.
-**Search Indexing**: Allows you to set up search engine optimization. See the [Set up Search Engine Optimization section of Learning OJS for Journal Managers](URL) to learn more
+**Search Indexing**: Allows you to set up search engine optimization. See the [Set up Search Engine Optimization section of Learning OJS for Journal Managers](../../journal-managers/en/archive-seo#seo) to learn more
 
 The setting options above are identical to those accessible to Journal Managers; however, there is one setting in this panel only available to Site Administrators: the Restrict Bulk Emails by Role tab.
 
