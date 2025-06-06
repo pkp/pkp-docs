@@ -68,12 +68,12 @@ In the Information section of Website > Setup, you can modify the text in the Fo
 ![OJS dashboard of the information block for Readers, For Authors, For Librarians with default text entered.](./assets/website-information-3.5.png)
 
 ### Set Languages for Submissions and Interface {#languages}
-.
+
 OJS is multilingual, which means that the interface, emails, and published content can be available in multiple languages. Additionally, you can allow authors to make submissions in one or more languages.
 
 This PKP School video explains how to configure the Language settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-{% include video.html id="VU5kAPOqNPc" provider="youtube" title="Video of how to configure the language settings in OJS"%}.
+{% include video.html id="VU5kAPOqNPc" provider="youtube" title="Video of how to configure the language settings in OJS"%}
 
 Under Website Settings > Setup > Languages, you will see the list of languages or locales installed on your site and their configuration options. You can learn about the specific options as well as warnings and considerations in our detailed [Multilingualism Guide](https://docs.pkp.sfu.ca/multiling-guide/en/locales).
 
