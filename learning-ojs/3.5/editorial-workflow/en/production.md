@@ -29,7 +29,7 @@ Dedicated layout editors, designers, and other assignees will also be able to ac
 ![The All in production queue showing a list of three submissions currently in the Production stage.](./assets/dashboard-production-3.5.png)
 
 
-## Format Final Proofs for Publication
+## Format Final Proofs for Publication {#format}
 
 You will need to prepare the final formats of the article for readers to access. In publishing, these final proofs are typically referred to as “galley” files.
 
@@ -137,7 +137,7 @@ This will show you the article landing page exactly as it will appear to readers
 
 
 
-## Use the Publication Menu to Finalize Details
+## Use the Publication Menu to Finalize Details {#finalize-details}
 
 Once you or your layout editor has finalized the galleys for the submission, the final step is to edit the metadata of the submission. Metadata is information about the submission. This includes basic information like the author list, abstract, title, copyright information, and more.
 
