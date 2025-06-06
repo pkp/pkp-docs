@@ -265,7 +265,7 @@ Choose Accept Submission to open the Accept Submission window. You will be promp
 
 In the next step, you can optionally notify reviewers of the decision. 
 
-Lastly, you will choose the files to be copyedited in [the next stage](./copyediting.md).
+Lastly, you will choose the files to be copyedited in [the next stage](/copyediting.md).
 
 
 ### Request Revisions
@@ -321,6 +321,6 @@ Previous reviews from earlier rounds will be provided to Reviewers for their ref
 ![An example of the Previous Reviews section seen by Reviewers when participating in an additional review round..](./assets/previous-reviews-3.5.png)
 
 
-> Read [Cancel a Review Round](./#cancel) to learn how to cancel a round after it has been started.
+> Read [Cancel a Review Round](/#cancel) to learn how to cancel a round after it has been started.
 {:.notice} 
 
