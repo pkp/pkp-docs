@@ -178,7 +178,7 @@ Take the time to review the default text and make any edits to reflect your jour
 
 The Metadata tab is where you can configure what additional information you’d like authors or editors to provide for submissions. This includes keywords, subjects, references, and more. Review each option and enable any that suit your journal’s disciplines and policies. 
 
-These options will appear when authors make a submission and in the [Publication tab of the Editorial Workflow](URL).
+These options will appear when authors make a submission and in the [Publication tab of the Editorial Workflow](../../editorial-workflow/en/production#finalize-details).
 
 Some indexing agencies have specific requirements for metadata. See [Better Practices in Journal Metadata](https://docs.pkp.sfu.ca/metadata-practices/) for guidelines.
 
@@ -297,10 +297,10 @@ You can then choose the type of response, including:
 ![OJS 3.5 Create New Item for Review Forms screen.](./assets/jm-settings-review-form-item-3.5.png)
 
 
-![OJS 3.5 Form Item menu tab screen.](./assets/jm-settings-form-item-menu-3.5..png)
+![OJS 3.5 Form Item menu tab screen.](./assets/jm-settings-form-item-menu-3.5.png)
 
 
-![OJS 3.5 Preview Form screen.](./assets/jm-settings-form-preview-3.5..png)
+![OJS 3.5 Preview Form screen.](./assets/jm-settings-form-preview-3.5.png)
 
 
 Remember to hit the **Save** button to record your changes.
@@ -309,7 +309,7 @@ Use the **Preview** tab to see how your form will appear to reviews.
 
 Lastly, you will need to activate the review form from the list. **Once a form is activated and assigned to a review, it can no longer be deactivated**.
 
-> Once you’ve activated a review form, you can select it from the Section options to make it the default review form for that section. See [Edit Sections](./#edit-section) for details.
+> Once you’ve activated a review form, you can select it from the Section options to make it the default review form for that section. See [Edit Sections](/#edit-section) for details.
 
 ## Configure Copyright and Licensing {#copyright-licensing}
 
