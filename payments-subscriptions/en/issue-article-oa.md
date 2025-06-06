@@ -3,6 +3,8 @@ title: Designate Selected Issues or Articles as Open Access
 showPageTOC: true
 ---
 
+## Designate Selected Issues or Articles as Open Access {#issue-article-oa}
+
 You can designate specific issues or articles as Open Access by accessing Issues from the left menu. Locate the issue from the Future Issues or Back Issue tab, click the blue arrow next to the issue and select Edit.
 
 To change the access status of the issue or set the open access date of the issue, navigate to the access tab. 
