@@ -39,7 +39,7 @@ Use the role dropdown to select the Copyeditor role and hit the **Search** butto
 
 This will add the assignee to the participants list, granting them access to the submission. It will also open a discussion containing the request.
 
-## Copyedit the Draft Files
+## Copyedit the Draft Files {#copyedit-draft}
 
 Whether copyediting will be done by a dedicated copyeditor or the editor in charge of the submission, the next step is to download the files needing copyediting.
 
@@ -58,7 +58,7 @@ You can also preview how this information will appear in the published article p
 ![A cursor hovering over the Preview button of a submission record.](./assets/submission-preview-3.5.png)
 
 
-## Upload the Final Copyedited Files
+## Upload the Final Copyedited Files {#upload}
 
 You can use Discussions to communicate with Authors and Editors and get their approval for your copyedits. 
 
@@ -84,7 +84,7 @@ The file will now be visible in the Copyedited Files section.
 > If you are a dedicated copyeditor, consider using Discussions to let the Editor know that copyediting is now complete.
 {:.tip}
 
-## Move the Copyedited File to Production
+## Move the Copyedited File to Production {#to-production}
 
 As an Editor, once you have completed copyediting or have been informed by a copyeditor that work is complete, you can move the submission to the final stage before publication.
 
