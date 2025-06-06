@@ -59,7 +59,7 @@ From here, you can change the name or abbreviation of the section, as well as ot
 
 **Word Count**: Use this to limit the number of words for abstracts in this section.
 
-**Review Form**: If you have created any [review forms](./#review-forms), you can select one as the default review form for the section.
+**Review Form**: If you have created any [review forms](/#review-forms), you can select one as the default review form for the section.
 
 **Section Options**: Use these settings to decide if a section should be indexed in search results, peer-reviewed, restrict submissions, or listed in the table of contents.
 
