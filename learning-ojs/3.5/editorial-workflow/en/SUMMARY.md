@@ -1,10 +1,6 @@
 # Summary
 
 * [Introduction](.)
-* [Get Started: Plan & Enter Basic Journal Details](./get-started.md)
-  * [What You’ll Need to Start](./get-started.md#start-checklist)
-  * [Get to Know the Journal Manager User Interface](./get-started.md#start-checklist)
-  * [Enter Basic Journal Information](./get-started.md#basic-info)
 * [The Editorial Dashboard](./dashboard.md)
   * [Get to Know the Dashboard Layout](./dashboard.md#dashboard)
   * [View Your Tasks](./dashboard.md#view-tasks)
