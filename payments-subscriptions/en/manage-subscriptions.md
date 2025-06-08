@@ -5,7 +5,7 @@ title: Manage Payments and Subscriptions
 showPageTOC: true
 ---
 
-## Manage Subscriptions 
+## Manage Subscriptions {#manage-subscriptions}
 
 >Note: The information in this guide is applicable to OJS/OMP/OPS versions 3.4 and 3.5. For information on Managing Subscriptions in an earlier version, please refer to the relevant chapter in [Learning OJS 3.3](https://docs.pkp.sfu.ca/learning-ojs/3.3/en/subscriptions) or the appropriate version.
 {:.notice} 
