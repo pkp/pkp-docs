@@ -1,9 +1,11 @@
 ---
+book: Managing Subscriptions and Payments in OJS & OMP
+version: 3.5
 title: Configure Author, Reader, and Other Fees
 showPageTOC: true
 ---
 
-## Configure Author, Reader, and Other Fees {#set-fees)
+## Configure Author, Reader, and Other Fees {#set-fees}
 
 To set the amounts for different types of fees such as author and reader fees, go to the Payment Types tab of the Payments Menu.
 

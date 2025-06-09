@@ -1,4 +1,6 @@
 ---
+book: Managing Subscriptions and Payments in OJS & OMP
+version: 3.5
 title: Create Subscription Types
 showPageTOC: true
 ---

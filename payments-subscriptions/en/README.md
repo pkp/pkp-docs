@@ -1,6 +1,9 @@
 ---
+book: Managing Subscriptions and Payments in OJS & OMP
+version: 3.5
 title: 'Managing Subscriptions and Payments in OJS and OMP'
 description: Journals that enable subscriptions or charge fees require some additional configurations. In this chapter you’ll learn how to configure and track payments and manage your subscriptions.
+showPageTOC: true
 ---
 
 ## Introduction 

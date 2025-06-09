@@ -1,4 +1,6 @@
 ---
+book: Managing Subscriptions and Payments in OJS & OMP
+version: 3.5
 title: Designate Selected Issues or Articles as Open Access
 showPageTOC: true
 ---
