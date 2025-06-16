@@ -1,6 +1,6 @@
 ---
 book: dev-documentation
-version: 3.4
+version: 3.5
 title: Technical Documentation - OJS|OMP|OPS - Developer Exercises
 description: Developer exercises designed to help learn coding on PKP applications.
 ---

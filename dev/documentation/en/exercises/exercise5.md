@@ -1,6 +1,6 @@
 ---
 book: dev-documentation
-version: 3.4
+version: 3.5
 title: Exercise 5 - Use Templates for a Backend Page
 ---
 

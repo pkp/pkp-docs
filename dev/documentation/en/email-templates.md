@@ -1,6 +1,6 @@
 ---
 book: dev-documentation
-version: 3.4
+version: 3.5
 title: Email Templates - Technical Documentation - OJS|OMP|OPS
 ---
 
