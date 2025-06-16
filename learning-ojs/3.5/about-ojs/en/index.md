@@ -10,7 +10,7 @@ Open Journal Systems \(OJS\) is an open source solution to managing and publishi
 
 It has been designed to reduce the time and energy devoted to the clerical and managerial tasks associated with editing a journal, while improving the record-keeping and efficiency of editorial processes. It seeks to improve the scholarly and public quality of journal publishing through a number of innovations, including enhancing the reader experience, making journal policies more transparent, and improving indexing.
 
-This brief introductory guide covers OJS version 3.5, released in May 2025, and features significant enhancements over the previous versions of the software.
+This brief introductory guide covers OJS version 3.5, released in June 2025, and features significant enhancements over the previous versions of the software.
 
 This guide is part of a series. Additional guides in the series will teach you how to use the software to accomplish tasks specific to your role.
 * [Learning OJS 3.5 for Site Administrators](../../site-admin/en/) - Learn how to manage an OJS installation and create new journals as a Site Administrator.
