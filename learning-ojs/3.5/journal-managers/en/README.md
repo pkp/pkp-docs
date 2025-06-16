@@ -26,4 +26,4 @@ Other guides in this series include:
 * [Learning OJS 3.5 for Site Administrators](../../site-admin/en/) - Learn how to manage an OJS installation and create new journals as a Site Administrator.
 * [Learning OJS 3.5: The Editorial Workflow](../../editorial-workflow/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
 * [Learning OJS 3.5 for Reviewers](../../reviewer/en/) - Learn how to respond to a review request and complete a review in OJS as a Reviewer.
-* [Learning OJS 3.5 for Authors](../../author/en/) - Learn how to configure and prepare a journal to publish from start to finish as a Journal Manager. 
+* [Learning OJS 3.5 for Authors](../../author/en/) - Learn how make a submission to an OJS journal and respond to requests for revisions as an Author. 

@@ -19,7 +19,7 @@ Other guides in this series include:
 * [Learning OJS 3.5 for Journal Managers](../../journal-managers/en/) - Learn how to configure and prepare a journal to publish from start to finish as a Journal Manager. 
 * [Learning OJS 3.5: The Editorial Workflow](../../editorial-workflow/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
 * [Learning OJS 3.5 for Reviewers](../../reviewer/en/) - Learn how to respond to a review request and complete a review in OJS as a Reviewer.
-* [Learning OJS 3.5 for Authors](../../author/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
+* [Learning OJS 3.5 for Authors](../../author/en/) - Learn how make a submission to an OJS journal and respond to requests for revisions as an Author.
 
 ## Access the Administration Menu {#admin-menu}
 To access the Administration menu, login to a journal as the Site Administrator, and choose Administration from the left side menu. Alternatively, hover over your username while logged in and choose Administration.
