@@ -16,7 +16,7 @@ Other guides in this series include:
 * [Learning OJS 3.5 for Site Administrators](../../site-admin/en/) - Learn how to manage an OJS installation and create new journals as a Site Administrator.
 * [Learning OJS 3.5 for Journal Managers](../../journal-managers/en/) - Learn how to configure and prepare a journal to publish from start to finish as a Journal Manager. 
 * [Learning OJS 3.5: The Editorial Workflow](../../editorial-workflow/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
-* [Learning OJS 3.5 for Authors](../../author/en/) - Learn how to take a submission through review, copyediting, production, and publication. Recommended for Editors, Copyeditors, and Layout Designers.
+* [Learning OJS 3.5 for Authors](../../author/en/) - Learn how make a submission to an OJS journal and respond to requests for revisions as an Author.
 
 ## Respond to a Review Request {#respond-review-request}
 Invitations to review will be sent to you by a journal editor or section editor. The invitation will be sent via email, with some basic information about the manuscript you’re being asked to review (title, abstract, and relevant dates), followed by a URL to respond to the request.
