@@ -7,7 +7,7 @@
   * [Enter Basic Journal Information](./get-started.md#basic-info)
 * [Configure Your Submission, Review, and Licensing Policies](./policies.md)
   * [Configure Submission Settings and Author Guidelines](./policies.md#submission-settings)
-  * [Configure Basic Review Settings](./policies.md#basic-review-settngs)
+  * [Configure Basic Review Settings](./policies.md#basic-review-settings)
   * [Configure Copyright and Licensing](./policies.md#copyright-licensing)
 * [Manage Users and Roles](./users.md)
   * [Get to Know Permissions and Roles](./users.md#permissions-roles)

@@ -1,4 +1,6 @@
 ---
+book: learning-ojs
+version: 3.5
 title: About OJS 3.5
 description: A brief introduction to OJS, the new features of version 3.5, and the basics of registering and managing an account in an OJS installation.
 generateHeadingToc: true
