@@ -1,4 +1,6 @@
 ---
+book: learning-ojs
+version: 3.5
 title: Learning OJS for Reviewers
 description: A guide on how to accept or decline a review request and complete a peer review for an OJS journal.
 generateHeadingToc: true

@@ -36,10 +36,10 @@ This guide is broken into six chapters. The first is an orientation chapter, fol
 **Who should read this?**: Anyone involved in the editorial process
 
 [**Submission**](./submission.md): New submissions first land in this stage, where they are assigned to Editors (these may be Journal Editors, Section Editors, or Guest Editors), either automatically or manually by a Journal Editor or Journal Manager. The assigned editor will be able to record an editorial decision or choose to move into the Review stage. Some submissions may be rejected at this stage.
-**Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor). Authors should consult [Learning OJS for Authors](../author/en/).
+**Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor). Authors should consult [Learning OJS for Authors](../../author/en/).
 
 [**Review**](./review.md): Peer reviews are conducted at this stage before the assigned Editor makes a decision. This stage may include requesting revisions from the author. 
-**Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor). Reviewers should consult [Learning OJS for Reviewers](../reviewer/en/).
+**Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor). Reviewers should consult [Learning OJS for Reviewers](../../reviewer/en/).
 
 [**Copyediting**](./copyedit.md): Accepted articles move to this stage, where they are improved by the work of a copyeditor. Authors may be given the opportunity to review the copyedits.
 **Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor), Copyeditors
@@ -47,6 +47,6 @@ This guide is broken into six chapters. The first is an orientation chapter, fol
 [**Production**](./production.md): Once the copyedits are completed and approved, the assigned Editor will move the submission to this stage. Here, the copyedited files are converted to galleys (final article formats ready for publication).
 **Who should read this?**: Editors (Journal Editor, Section Editor, Guest Editor), Layout Editors, Designers
 
-[**Publication & Post-Publication**](./#publication.md): Lastly, this section teaches Journal Editors and/or Journal Managers how to create and manage issues, as well as publish articles. This section also contains information on statistics and creating new versions of articles to manage significant changes to content that has already been published.
+[**Publication & Post-Publication**](./publication.md): Lastly, this section teaches Journal Editors and/or Journal Managers how to create and manage issues, as well as publish articles. This section also contains information on statistics and creating new versions of articles to manage significant changes to content that has already been published.
 **Who should read this?**: Journal Managers & Journal Editors
 

@@ -1,4 +1,6 @@
 ---
+book: learning-ojs
+version: 3.5
 title: Learning OJS for Authors
 description: A guide on how to submit a manuscript and respond to requests for revisions as an author submitting to an OJS journal.
 generateHeadingToc: true

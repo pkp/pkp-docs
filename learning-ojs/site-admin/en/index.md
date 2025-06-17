@@ -1,4 +1,6 @@
 ---
+book: learning-ojs
+version: 3.5
 title: Learning OJS for Site Administrators
 description: A guide on how to configure your OJS site, create and manage journals, and perform site maintenance tasks in OJS 3.5 as the Site Administrator.
 generateHeadingToc: true
@@ -70,7 +72,7 @@ Site Administrators can allow Journal Managers to send bulk emails to several us
 
 ![OJS admin site settings with bulk emails tab selected.](./assets/siteadmin-bulk-emails-3.5.png)
 
-It is possible to disable sending bulk emails to certain roles for individual journals by accessing the [Settings Wizard for that journal as described below](#per-journal-settings}.
+It is possible to disable sending bulk emails to certain roles for individual journals by accessing the [Settings Wizard for that journal as described below](#per-journal-settings).
 
 ## Create and Manage Hosted Journals {#hosted-journals}
 Click “Hosted Journals” under “Site Management” to see the list of all journals in this OJS installation.
