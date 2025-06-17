@@ -4,7 +4,7 @@ version: 3.3
 ---
 # Statistics
 
-This chapter of the Administrator’s Guide provides a general overview of statistics in Open Journal Systems (OJS), and by extension in Open Monograph Press (OMP) and Open Preprint Systems (OPS), as they pertain to System Administrators. If you are looking for a specific description of the various types of reports available and how to generate custom reports, please read the [section on Statistics in the Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/statistics).
+This chapter of the Administrator’s Guide provides a general overview of statistics in Open Journal Systems (OJS), and by extension in Open Monograph Press (OMP) and Open Preprint Systems (OPS), as they pertain to System Administrators. If you are looking for a specific description of the various types of reports available and how to generate custom reports, please read the [section on Statistics in the Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/3.3/en/statistics).
 
 The statistics features of OJS, OMP and OPS allow you to view different numbers that indicate the activity, access, and downloads of various aspects of your site, including article and abstract views, editorial activity, and user counts separate by role. This guide provides information on the statistics framework used, various statistics-related configurations, log files, and legacy information for OJS 2 statistics and the OJS 2 statistics methodology.
 

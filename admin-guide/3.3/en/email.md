@@ -62,7 +62,7 @@ PKP software applications provide a number of options for configuring emails to 
 ; dmarc_compliant_from_displayname = '%n via %s'
 ```
 
-To find out more about email within the OJS user interface, see [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/en/).
+To find out more about email within the OJS user interface, see [Learning OJS 3](https://docs.pkp.sfu.ca/learning-ojs/3.3/en/).
 
 ## Sending Mail
 
