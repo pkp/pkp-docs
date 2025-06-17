@@ -6,7 +6,7 @@ title: Application - Technical Documentation - OJS|OMP|OPS
 
 # Application
 
-The `APP\core\Applicaton` class initializes the application and provides a convenient way to access critical information about the application's state.
+The `APP\core\Application` class initializes the application and provides a convenient way to access critical information about the application's state.
 
 Get the `Application` instance.
 

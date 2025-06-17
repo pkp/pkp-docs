@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.4
 title: Data Access Objects (DAOs) - Technical Documentation - OJS|OMP|OPS
 ---
 

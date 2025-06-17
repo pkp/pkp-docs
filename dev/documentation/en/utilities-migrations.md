@@ -6,7 +6,7 @@ title: Migrations - Technical Documentation - OJS|OMP|OPS
 
 # Migrations
 
-Laravel [Migrations](https://laravel.com/docs/9.x/migrations) can be used to update the database or uploaded files during an upgrade. The most common use of a migration is to modify the database schema from version to version.
+[Laravel Migrations](https://laravel.com/docs/11.x/migrations) can be used to update the database or uploaded files during an upgrade. The most common use of a migration is to modify the database schema from version to version.
 
 ## Create a Migration
 

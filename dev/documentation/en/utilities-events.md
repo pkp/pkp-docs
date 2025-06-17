@@ -6,7 +6,7 @@ title: Events - Technical Documentation - OJS|OMP|OPS
 
 # Events
 
-Laravel [Events](https://laravel.com/docs/9.x/events) can be used to implement an observer pattern. Events should be used to decouple code in the application.
+[Laravel Events](https://laravel.com/docs/11.x/events) can be used to implement an observer pattern. Events should be used to decouple code in the application.
 
 Some examples of when to use event listeners:
 
@@ -123,7 +123,7 @@ Listeners are cached. Clear the cache after an event is added, edited, or remove
 
 ## Jobs Queue
 
-Laravel's event listeners can be [sent to the jobs queue](https://laravel.com/docs/9.x/events#queued-event-listeners) instead of being run synchronously. However, in PKP's applications, the relationship between jobs and listeners is not yet resolved.
+Laravel's event listeners can be [sent to the jobs queue](https://laravel.com/docs/11.x/events#queued-event-listeners) instead of being run synchronously. However, in PKP's applications, the relationship between jobs and listeners is not yet resolved.
 
 For now, use of queued listeners is discouraged. If a listener includes a long-running task, have the listener [dispatch a job](./utilities-jobs).
 
