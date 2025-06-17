@@ -6,7 +6,7 @@ title: Email - Technical Documentation - OJS|OMP|OPS
 
 # Email
 
-Email is sent using Laravel's [Mail](https://laravel.com/docs/9.x/mail) framework. The `PKP\mail\Mailable` extends Laravel's `Mailable` class to add support for envelope senders, DMARC compliance, and [Email Templates](email-templates).
+Email is sent using [Laravel's Mail](https://laravel.com/docs/11.x/mail) framework. The `PKP\mail\Mailable` extends Laravel's `Mailable` class to add support for envelope senders, DMARC compliance, and [Email Templates](email-templates).
 
 In its simplest form, you can use the Mailable class directly to compose and send an email.
 

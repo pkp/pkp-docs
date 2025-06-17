@@ -1,4 +1,6 @@
 ---
+book: dev-documentation
+version: 3.5
 title: Data Access Objects (DAOs) - Technical Documentation - OJS|OMP|OPS
 ---
 
@@ -143,7 +145,7 @@ class DAO extends EntityDAO
 }
 ```
 
-A `DAO` will often require methods to get data that are not supported by the `EntityDAO`. These should be written as public methods using Laravel's [Query Builder](https://laravel.com/docs/8.x/queries).
+A `DAO` will often require methods to get data that are not supported by the `EntityDAO`. These should be written as public methods using Laravel's [Query Builder](https://laravel.com/docs/11.x/queries).
 
 ```php
 namespace PKP\publication;

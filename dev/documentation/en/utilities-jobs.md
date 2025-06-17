@@ -6,7 +6,7 @@ title: Jobs - Technical Documentation - OJS|OMP|OPS
 
 # Jobs
 
-Laravel [Queues](https://laravel.com/docs/9.x/queues) can be used to create, queue and process jobs. Use jobs to prevent long-running tasks from slowing down or freezing the application.
+[Laravel Queues](https://laravel.com/docs/11.x/queues) can be used to create, queue and process jobs. Use jobs to prevent long-running tasks from slowing down or freezing the application.
 
 ## Create a Job
 
@@ -91,13 +91,13 @@ class ExampleJob extends BaseJob
 
 ## Queues
 
-Laravel Queues allow jobs to be dispatched to different [queues](https://laravel.com/docs/9.x/queues#dispatching-to-a-particular-queue). PKP's applications only use a single queue (`default`). Jobs should always be dispatched to the default queue. Otherwise they will not be processed.
+Laravel Queues allow jobs to be dispatched to different [queues](https://laravel.com/docs/11.x/queues#dispatching-to-a-particular-queue). PKP's applications only use a single queue (`default`). Jobs should always be dispatched to the default queue. Otherwise they will not be processed.
 
 In other words, never use the `onQueue()` method to dispatch a job to a specific queue. An exception is made for the `test` queue, which is only used in our [integration tests](/dev/testing/en/continuous-integration).
 
 ## Drivers
 
-Laravel Queues support the user of several [drivers](https://laravel.com/docs/9.x/queues#driver-prerequisites) to process jobs. PKP's applications are only configured to use one driver (`database`).
+Laravel Queues support the user of several [drivers](https://laravel.com/docs/11.x/queues#driver-prerequisites) to process jobs. PKP's applications are only configured to use one driver (`database`).
 
 In other words, never use the `onConnection()` method to dispatch a job to a specific connection.
 

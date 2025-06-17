@@ -6,14 +6,14 @@ title: Validation - Technical Documentation - OJS|OMP|OPS
 
 # Validation
 
-Data can be validated using the [entity schemas](./architecture-entities#schemas) or the `ValidatorFactory`. In both cases, we use Laravel's [Validation](https://laravel.com/docs/5.5/validation) library.
+Data can be validated using the [entity schemas](./architecture-entities#schemas) or the `ValidatorFactory`. In both cases, we use [Laravel's Validation](https://laravel.com/docs/11.x/validation) library.
 
-> All of Laravel's [validation rules](https://laravel.com/docs/5.5/validation#available-validation-rules) are supported except the `exist` rule.
+> All of Laravel's [validation rules](https://laravel.com/docs/11.x/validation#available-validation-rules) are supported except the `exist` rule.
 {:.notice}
 
 ## ValidatorFactory
 
-The `ValidatorFactory` class is a wrapper for Laravel's [Validator](https://laravel.com/docs/5.5/validation). It mimics Laravel's `make` method to create a validator.
+The `ValidatorFactory` class is a wrapper for [Laravel's Validator](https://laravel.com/docs/11.x/validation). It mimics Laravel's `make` method to create a validator.
 
 ```php
 use PKP\validation\ValidatorFactory;

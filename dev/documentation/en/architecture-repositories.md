@@ -302,7 +302,7 @@ $userIds = Repo::user()
     ->getIds();
 ```
 
-Every `Collector` must have a `getQueryBuilder` method that returns a Laravel [Query Builder](https://laravel.com/docs/9.x/queries) with the configured parameters. Use this in plugins or for one-off queries when it's not worth adding a new method to the `Collector`.
+Every `Collector` must have a `getQueryBuilder` method that returns a Laravel [Query Builder](https://laravel.com/docs/11.x/queries) with the configured parameters. Use this in plugins or for one-off queries when it's not worth adding a new method to the `Collector`.
 
 ```php
 use PKP\submission\Collector;
@@ -319,7 +319,7 @@ $earliestDatePublished = $queryBuilder
 
 ## Dependency Injection
 
-A `Repository` is instantiated with Laravel's [Service Container](https://laravel.com/docs/8.x/container). Any arguments in its contructor that have type hints will be resolved through [automatic dependency injection](https://laravel.com/docs/8.x/container#automatic-injection).
+A `Repository` is instantiated with Laravel's [Service Container](https://laravel.com/docs/11.x/container). Any arguments in its constructor that have type hints will be resolved through [automatic dependency injection](https://laravel.com/docs/11.x/container#automatic-injection).
 
 ```php
 namespace PKP\publication;
