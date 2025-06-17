@@ -1,5 +1,5 @@
 
-### [Learning OJS 3](learning-ojs/en/)
+### [Learning OJS 3](learning-ojs/)
 
 A series of role-based, step-by-step guides to using Open Journal Systems. [View Now](learning-ojs/)
 
