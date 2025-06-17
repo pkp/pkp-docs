@@ -144,7 +144,7 @@ How do you plan to keep track of your journal’s usage and success? You can see
 - [Setting up a journal in OJS 3.3](https://pkpschool.sfu.ca/courses/setting-up-a-journal-in-ojs3-3/)
 - [Editorial workflow in OJS 3.3](​​https://pkpschool.sfu.ca/courses/editorial-workflow-in-ojs-3-3/)
 
-You can also refer to our [Learning OJS 3 guide](https://docs.pkp.sfu.ca/learning-ojs/en/) for a visual, step-by-step guide to setting up and managing your journal. If your journal is hosted by an institution or a paid hosting provider, you may also be able to request webinar training for you and / or your editorial team.
+You can also refer to our [Learning OJS 3 guide](https://docs.pkp.sfu.ca/learning-ojs/) for a visual, step-by-step guide to setting up and managing your journal. If your journal is hosted by an institution or a paid hosting provider, you may also be able to request webinar training for you and / or your editorial team.
 
 ## Customise the look and feel of your journal website
 

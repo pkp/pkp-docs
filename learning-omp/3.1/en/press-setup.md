@@ -4,7 +4,7 @@ version: 3.1
 ---
 # Setting up and Maintaining Your Press
 
-There are a number of components to your press found in the Settings menu on the left navigation bar. All of the site configuration options are under Settings > Press. The options you find here control every aspect of the press, including press information, how your press looks, workflow settings, and how the publication and distribution processes work. This section will go in-depth on your Press and Workflow Settings. Please refer to the [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/) for information regarding the Website and Distribution that will be applicable in your OMP installation.
+There are a number of components to your press found in the Settings menu on the left navigation bar. All of the site configuration options are under Settings > Press. The options you find here control every aspect of the press, including press information, how your press looks, workflow settings, and how the publication and distribution processes work. This section will go in-depth on your Press and Workflow Settings. Please refer to the [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/3.1/en/) for information regarding the Website and Distribution that will be applicable in your OMP installation.
 
 ## Press Settings
 
@@ -98,7 +98,7 @@ See the Catalog and Displaying Content chapter for instructions on how to add bo
 
 ## Website Settings
 
-Please refer to the [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on Website Setting applicable to OMP. 
+Please refer to the [Learning OJS guide](https://docs.pkp.sfu.ca/learning-ojs/3.1/en/) for information on Website Setting applicable to OMP. 
 
 Please note that some plugins for OJS are not available for OMP.
 
@@ -107,7 +107,7 @@ Please note that some plugins for OJS are not available for OMP.
 Workflow Settings include all submission and publication configuration options, including those that relate to the initial submission process as well as the review, editing, and production workflow processes. 
 
 
-This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library. 
+This section will focus on the Production tab of Workflow Settings, as these are specific to your OMP installation. Please refer to [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/3.1/en/) for information on configuring Components, Submissions, Review, Press Library, and Emails. The Publisher Library is the journal equivalent to your Press Library. 
 
 Under Production, you will enter all the information required to generate your ONIX metadata.
 
@@ -115,4 +115,4 @@ Under Production, you will enter all the information required to generate your O
 
 ## Distribution
 
-Please refer to [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/en/) for information on Distribution Settings and Subscriptions in OMP.
+Please refer to [Learning OJS](https://docs.pkp.sfu.ca/learning-ojs/3.1/en/) for information on Distribution Settings and Subscriptions in OMP.
