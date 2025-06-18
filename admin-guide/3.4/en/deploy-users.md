@@ -2,7 +2,7 @@
 title: User Accounts - Advanced Configuration - Admin Guide - PKP Developer Docs
 description: Configuration options to manager users in Open Journal Systems (OJS), Open Monograph Press (OPS) or Open Preprint Systems (OPS).
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # User Accounts
