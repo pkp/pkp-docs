@@ -2,7 +2,7 @@
 title: Import and Export - Admin Guide - PKP Developer Docs
 description: How to import and export articles, issues, books, preprints and users with OJS, OMP or OPS.
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Import and Export
@@ -11,11 +11,11 @@ There are many ways to import and export data with OJS, OMP and OPS. To access t
 
 ## REST API
 
-You can use the REST API to read and write some data in the application. See the [API documentation](https://docs.pkp.sfu.ca/dev/api).
+You can use the REST API to read and write some data in the application. See the [api documentation](https://docs.pkp.sfu.ca/dev/api).
 
 ## Native XML
 
-> The Native XML format changes with each major version. You can not import an XML file generated with 3.4 into a 3.5 install.
+> The Native XML format changes with each major version. You can not import an XML file generated with 3.2 into a 3.3 install.
 {:.notice}
 
 The Native XML format is our XML schema to import and export submissions in OJS, OMP and OPS. This format is preferred for importing back issues, books or preprints, or moving submissions from one journal, press or preprint server to another. This format includes the submissions, their metadata, and all submission files. In OJS, it also includes issue metadata. When submissions are imported using this format, all imported issues, authors, users and files will be created.
@@ -36,10 +36,10 @@ Before you can import data using this format, you will need to create a XML file
 
 | Schema | Sample | Description |
 | --- | --- |
-| [native.xsd](https://github.com/pkp/pkp-lib/blob/stable-3_5_0/plugins/importexport/native/pkp-native.xsd) | | Base schema extended by all applications. |
-| [native.xsd](https://github.com/pkp/ojs/blob/stable-3_5_0/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/ojs/stable-3_5_0/mysql/native-export-sample.xml) | Issues and articles in OJS. |
-| [native.xsd](https://github.com/pkp/omp/blob/stable-3_5_0/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/omp/stable-3_5_0/mysql/native-export-sample.xml) | Book in OMP. |
-| [native.xsd](https://github.com/pkp/ops/blob/stable-3_5_0/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/ops/stable-3_5_0/mysql/native-export-sample.xml) | Preprint in OPS. |
+| [native.xsd](https://github.com/pkp/pkp-lib/blob/stable-3_4_0/plugins/importexport/native/pkp-native.xsd) | | Base schema extended by all applications. |
+| [native.xsd](https://github.com/pkp/ojs/blob/stable-3_4_0/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/ojs/stable-3_4_0/mysql/native-export-sample.xml) | Issues and articles in OJS. |
+| [native.xsd](https://github.com/pkp/omp/blob/stable-3_4_0/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/omp/stable-3_4_0/mysql/native-export-sample.xml) | Book in OMP. |
+| [native.xsd](https://github.com/pkp/ops/blob/stable-3_4_0/plugins/importexport/native/native.xsd) | [sample.xml](https://github.com/pkp/datasets/blob/main/ops/stable-3_4_0/mysql/native-export-sample.xml) | Preprint in OPS. |
 
 Consider the following when creating your XML import file.
 
@@ -76,7 +76,7 @@ There are a few ways to import or export user accounts. User accounts control ac
 
 ### REST API
 
-See the [API documentation](https://docs.pkp.sfu.ca/dev/api) to see what user data can be read or written with the REST API.
+See the [api documentation](https://docs.pkp.sfu.ca/dev/api) to see what user data can be read or written with the REST API.
 
 ### CSV
 
@@ -92,7 +92,7 @@ It may take several minutes to generate the CSV file if you have a large user da
 
 ### XML
 
-> The Users XML format changes with each major version. You can not import an XML file generated with 3.4 into a 3.5 install.
+> The Users XML format changes with each major version. You can not import an XML file generated with 3.2 into a 3.3 install.
 {:.notice}
 
 The Users XML format is our XML schema to import and export users and their roles. This can be used to move user accounts between systems, and import from other systems or export to other systems. This format includes the user information and the roles they have in the system.
@@ -113,8 +113,8 @@ Before you can import data using this format, you will need to create a XML file
 
 | Schema | Sample | Description |
 | --- | --- |
-| [pkp-users.xsd](https://github.com/pkp/pkp-lib/blob/stable-3_5_0/plugins/importexport/users/pkp-users.xsd) | [sample.xml](https://github.com/pkp/ojs/blob/stable-3_5_0/plugins/importexport/users/sample.xml) | Example users for OJS |
-| [pkp-users.xsd](https://github.com/pkp/pkp-lib/blob/stable-3_5_0/plugins/importexport/users/pkp-users.xsd) | [sample.xml](https://github.com/pkp/omp/blob/stable-3_5_0/plugins/importexport/users/sample.xml) | Example users for OMP |
+| [pkp-users.xsd](https://github.com/pkp/pkp-lib/blob/stable-3_4_0/plugins/importexport/users/pkp-users.xsd) | [sample.xml](https://github.com/pkp/ojs/blob/stable-3_4_0/plugins/importexport/users/sample.xml) | Example users for OJS |
+| [pkp-users.xsd](https://github.com/pkp/pkp-lib/blob/stable-3_4_0/plugins/importexport/users/pkp-users.xsd) | [sample.xml](https://github.com/pkp/omp/blob/stable-3_4_0/plugins/importexport/users/sample.xml) | Example users for OMP |
 
 Consider the following when creating your xml import file.
 
@@ -148,7 +148,6 @@ Run the following command to see how to use this tool.
 ```
 php tools/importExport.php <PluginName> usage
 ```
-
 
 ## Troubleshooting
 

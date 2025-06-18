@@ -2,7 +2,7 @@
 title: Multi-tenancy - Advanced Configuration - Admin Guide - PKP Developer Docs
 description: Recommendations for running many separate journals, presses or preprint servers in one install with OJS, OMP or OPS.
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Multi-tenancy

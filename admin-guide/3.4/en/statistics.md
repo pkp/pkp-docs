@@ -2,7 +2,7 @@
 title: Statistics - Admin Guide - PKP Developer Docs
 description: How to collect, process, restore and export usage statistics in OJS, OMP or OPS.
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Statistics

@@ -2,7 +2,7 @@
 title: Deployment Guide for OJS, OMP and OPS - Admin Guide - PKP Developer Docs
 description: How to configure OJS, OMP and OPS and safely deploy these applications in a production environment.
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Deployment
@@ -171,4 +171,4 @@ The configuration file includes settings to control the default date formats, ma
 
 ---
 
-You've now configured all of the critical application functions. Next, you can learn how to configure your [email server](./deploy-email) to reliably deliver email.
+You've now configured all of the critical application functions. Next, you can learn how to conifigure your [email server](./deploy-email) to reliably deliver email.

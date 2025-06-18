@@ -2,7 +2,7 @@
 title: Admin Guide for OJS, OMP and OPS - PKP Developer Docs
 description: A guide for system administrators who want to install, deploy and maintain Open Journal Systems (OJS), Open Monograph Press (OMP) or Open Preprint Systems (OPS).
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Administrator's Guide
