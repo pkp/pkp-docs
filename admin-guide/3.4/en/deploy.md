@@ -2,7 +2,7 @@
 title: Deployment Guide for OJS, OMP and OPS - Admin Guide - PKP Developer Docs
 description: How to configure OJS, OMP and OPS and safely deploy these applications in a production environment.
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Deployment
