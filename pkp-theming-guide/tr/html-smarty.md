@@ -78,7 +78,7 @@ Tüm ön uç şablonları, şablonun başlığında hangi değişkenleri kulland
  *
  * Copyright (c) 2014-2016 Simon Fraser University Library
  * Copyright (c) 2003-2016 John Willinsky
- * Distributed under the GNU GPL v2. Tüm koşullar için docs/COPYING dosyasına bakın.
+ * Distributed under the GNU GPL v3. Tüm koşullar için docs/COPYING dosyasına bakın.
  * @brief Display the page to view an article with all of it's details.
  *
  * @uses $article Article This article
