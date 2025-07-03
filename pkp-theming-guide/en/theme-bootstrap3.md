@@ -127,7 +127,7 @@ Modify the existing references to files in the `flatly` theme with references to
  *
  * Copyright (c) 2014-2024 Simon Fraser University Library
  * Copyright (c) 2003-2024 John Willinsky
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * @brief Stylesheet for the My Theme Bootstrap theme.
  */

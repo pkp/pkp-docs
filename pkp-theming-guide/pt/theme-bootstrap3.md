@@ -122,7 +122,7 @@ Você pode  alterar as informações de direitos autorais e licença de uso, con
  *
  * Copyright (c) 2014-2016 Simon Fraser University Library
  * Copyright (c) 2003-2016 John Willinsky
- * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * @brief Stylesheet for the My Theme Bootstrap theme.
  */
