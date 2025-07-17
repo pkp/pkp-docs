@@ -71,8 +71,12 @@ This will tell you the source code version. Note that this may be different than
 
 OJS uses a REST-style URL syntax for all of its links. To force OJS to remove the "index.php" portion of all URLs, edit `config.inc.php` and set "restful_urls" to "On".
    
-In addition, your server will have to support URL rewriting in order to recognize the new URLs. Apache servers use the mod_rewrite plugin, which must be enabled in your `httpd.conf` file, and the following section added to the correct section of either your `httpd.conf` file or an `.htaccess` file (preferred) in your OJS root directory (the same location as `config.inc.php`):
-   
+In addition, your server will have to support URL rewriting in order to recognize the new URLs.
+
+### Apache
+
+Apache servers use the mod_rewrite plugin, which must be enabled in your `httpd.conf` file, and the following section added to the correct section of either your `httpd.conf` file or an `.htaccess` file (preferred) in your OJS root directory (the same location as `config.inc.php`):
+
 ```
 <IfModule mod_rewrite.c>
 RewriteEngine on
@@ -80,4 +84,15 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php/$1 [QSA,L]
 </IfModule>
+```
+
+### nginx
+
+```
+location / {
+   if (!-e $request_filename) { 
+      rewrite ^/(.*) /index.php/$1 last;
+      break; 
+   }
+}
 ```
