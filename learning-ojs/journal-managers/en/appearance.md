@@ -77,10 +77,12 @@ This PKP School video explains how to configure the Language settings in OJS. To
 
 Under Website Settings > Setup > Languages, you will see the list of languages or locales installed on your site and their configuration options. You can learn about the specific options as well as warnings and considerations in our detailed [Multilingualism Guide](https://docs.pkp.sfu.ca/multiling-guide/en/locales).
 
-![OJS dashboard view of Languages menu with English and French options, English option selected as primary locale for the website languages and submission languages.](./assets/website-languages-3.5.png)
+Though we strongly recommend reading the Multilingualism Guide, a brief summary of language options is available below:
+* Locales installed by your Site Administrator can be enabled for the User Interface (OJS system text) and Forms (translations of information entered in forms during journal setup, e.g. Author Guidelines, About the Journal)
+* If you've enabled UI/Forms for multiple languages, make sure that the Language Toggle Block is active under Website Settings > Appearance > Sidebar Management so users can switch between languages.
+* Additional languages can be added as Submission languages *including those not installed by your Site Admin*, by clicking "Add/Remove Languages" next to Submission Languages. Select a default, and determine if you want to collect metadata (e.g. title, abstract, keywords) in that language in addition to manuscripts.
 
-> If you’re offering the UI in multiple languages, make sure that the Language Toggle Block is active under Website Settings > Appearance > Sidebar Management so users can switch between languages.
-{:.tip}
+![OJS dashboard view of Languages menu with English and French options, English option selected as primary locale for the website languages and submission languages.](./assets/website-languages-3.5.png)
 
 ### Customize Navigation and Add New Pages {#navigation}
 
