@@ -5,7 +5,10 @@ showPageTOC: true
 
 # Installing, Enabling, and Configuring Locales
 
-Once you have established the languages you would like to implement and how you would like each one to be used, whether as a user interface language or as a language option for submitted content, you will need to install and enable the relevant locale files.
+Once you have established the languages you would like to implement and how you would like each one to be used, whether as a user interface language or as a language option for submitted content, you will need to install and enable the relevant locale files. 
+
+>Note: In OJS 3.5 and later, installing the relevant locale is *not* required in order to receive submissions and submission metadata (e.g. title, abstract, keywords) in another language. OJS 3.5+ users can proceed directly to the [Submissions section of this guide](https://docs.pkp.sfu.ca/multiling-guide/en/locales#submissions) if they only wish to accept/publish manuscripts in other languages without providing a translated journal site.
+{:.notice}
 
 ## Installing new locales
 
@@ -58,7 +61,13 @@ Once you enable the UI option for at least one additional language, visitors can
 
 ## Submissions
 
-Once Submissions are enabled for a language, users will be given the option to select a submission language each time they make a submissions. Submission-specific required fields such as titles and abstracts, author family names, etc. will be required in the language specified in the first step of the submission process by the user.
+The process for configuring OJS to receive submissions in multiple languages varies slightly between software versions.
+
+**For OJS 3.4 and earlier**
+Submissions are enabled for a language by checking the "Submissions option. Once enabled, users will be given the option to select a submission language each time they make a submission. Submission-specific required fields such as titles and abstracts, author family names, etc. will be required in the language specified in the first step of the submission process by the user.
+
+**For OJS 3.5 and later**
+Submission Languages is a separate panel from Website Languages. You can add a new submission language *even if the locale file for that language has not been installed* by clicking Add/Remove Languages. Choose a language from the list to add it. You can then select a default. Checking off "Submissions" allows manuscripts to be submitted in that language, while checking off "Metadata" allows users to enter manuscript information such as title, abstract, and keywords in that language. 
 
 ### Cautions about changing available submission languages
 
