@@ -30,6 +30,8 @@ Ensure that your ORCID plugin is actually configured and not just enabled; don�
 
 Check to ensure that authors are using the current link and not a previous link from the sandbox. If you are on OJS 3.2 it may also be this bug in ORCID email template for authors - [https://github.com/pkp/orcidProfile/issues/122](https://github.com/pkp/orcidProfile/issues/122) (which is resolved in 3.2-1-3 and 3.3).
 
+Or, if you have used the latest version of OJS 3.2.1-5, but the authors cannot authenticate their ORCID iD using the link provided in an email with an error message: “the ORCID authorization link has already been used or is invalid.” You can resolve this bug by upgrading the ORCID profile plugin to version 1.1.2.30. Check out this GitHub issue for a description of the bug: [https://github.com/pkp/orcidProfile/issues/281](https://github.com/pkp/orcidProfile/issues/281)
+
 ## Author sent “request to authorize” email cannot do so, due to integration error {#integration-error}
 
 Redirect URIs are used by ORCID’s authentication service as a security measure. This prevents services from impersonating each other. Journals must register all redirect URIs: [see instructions to update or request new redirect URI(s)](https://docs.pkp.sfu.ca/orcid/en/installation-setup#orcid-redirect-uris).
