@@ -2,7 +2,6 @@
 book: learning-ojs
 showPageTOC: true
 version: 3.3
-showPageTOC: true
 ---
 
 # About Open Journal Systems (OJS) {#about-ojs}
