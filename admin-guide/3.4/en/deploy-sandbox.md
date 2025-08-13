@@ -2,7 +2,7 @@
 title: Sandbox - Advanced Configuration - Admin Guide - PKP Developer Docs
 description: Safely sandbox an install of OJS, OMP or OPS, to block email sending, data deposits, and other unwanted tasks.
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Sandbox an Instance
