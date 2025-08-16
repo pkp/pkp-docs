@@ -6,7 +6,6 @@ title: Formulários - Frontend - Documentação Técnica - OJS|OMP|OPS 3.3
 
 # List Panels
 
-
 Muitos dos componentes do [ListPanel](/dev/ui-library/dev/#/component/ListPanel) são tão complexos quanto um pequeno aplicativo. Eles permitem que o usuário adicione, edite e exclua itens, realize pesquisas facetadas, navegue por listas paginadas e muito mais.
 
 Os ListPanels mais complexos fornecem uma classe helper para configurá-los e exibi-los na página.
@@ -48,8 +47,7 @@ class PKPAnnouncementsListPanel extends ListPanel {
 }
 ```
 
-> Os props necessários para cada ListPanel estão documentados na [Biblioteca de UI](/dev/ui-library/dev/). 
-> 
+> Os props necessários para cada ListPanel estão documentados na [Biblioteca de UI](/dev/ui-library/dev/).
 > {:.tip}
 
 Em um `PageHandler`, crie uma nova instância do ListPanel e passe as props de configuração.
