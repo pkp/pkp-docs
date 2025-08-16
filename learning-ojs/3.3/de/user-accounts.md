@@ -52,8 +52,8 @@ Von hier aus können Sie über die verschiedenen Registerkarten Ihre persönlich
 
 Unter **Benachrichtigungen** können Sie konfigurieren, welche Arten von Benachrichtigungen Sie von der Zeitschrift erhalten wollen, wenn Ereignisse eintreten, wenn z. B. eine neue Ausgabe der Zeitschrift veröffentlicht wird oder wenn es Aktivitäten zu einer Einreichung gibt, an der Sie beteiligt sind.
 
-* Aktivieren Sie „Diese Arten von Benachrichtigungen dürfen in meinem Benachrichtigungs-Feed erscheinen“, wenn Sie eine Benachrichtigung über dieses Ereignis auf Ihrem Dashboard sehen möchten, sobald Sie sich bei der Website anmelden.
-* Aktivieren Sie die Option „Bitte keine E-Mail über diese Arten von Benachrichtigungen zuschicken“, wenn Sie keine E-Mail-Benachrichtigung über dieses Ereignis erhalten möchten.
+- Aktivieren Sie „Diese Arten von Benachrichtigungen dürfen in meinem Benachrichtigungs-Feed erscheinen“, wenn Sie eine Benachrichtigung über dieses Ereignis auf Ihrem Dashboard sehen möchten, sobald Sie sich bei der Website anmelden.
+- Aktivieren Sie die Option „Bitte keine E-Mail über diese Arten von Benachrichtigungen zuschicken“, wenn Sie keine E-Mail-Benachrichtigung über dieses Ereignis erhalten möchten.
 
 ![Die Registerkarte Benachrichtigungen, auf der Sie Benachrichtigungen verwalten können.](./assets/learning-ojs-3-user-notifications.png)
 
