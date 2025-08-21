@@ -27,7 +27,9 @@ require_validation = On
 
 Google's [reCAPTCHA](https://www.google.com/recaptcha/) service can be enabled for the registration and login forms. This will reduce the number of bots that can sign up by requiring users to complete a task that is difficult for bots to perform during registration and login.
 
-You will need to [sign up](https://www.google.com/recaptcha/) for an account with Google to receive public and private keys. Then set the following options in `config.inc.php`.
+You will need to [sign up for a Google account](https://www.google.com/recaptcha/) to receive public and private keys.
+
+To enable reCAPTCHA, set the following options in `config.inc.php`.
 
 ```
 ;;;;;;;;;;;;;;;;;;;;
@@ -56,6 +58,34 @@ recaptcha_enforce_hostname = Off
 ```
 
 Use of Google's reCAPTCHA service will send your visitors' data to Google's servers. You may be required to notify users of this depending on the privacy laws in your jurisdiction.
+
+### Altcha
+
+[ALTCHA](https://altcha.org/open-source-captcha/) is an open-source and self-hosted alternative to Google's reCAPTCHA. ALTCHA can be enabled to reduce spam activity on registration, login, and password reset forms.
+
+You will need to set up a self-hosted installation to create a private key. Review [the ALTCHA documentation](https://altcha.org/docs/v2/) for more information.
+
+Once you have a private key for ALTCHA, set the following options in `config.inc.php`:
+
+```
+; Whether or not to enable ALTCHA
+altcha = on
+
+; Private key for ALTCHA
+altcha_hmackey = 'Example key'
+
+; Whether or not to use ALTCHA on user registration
+altcha_on_register = on
+
+; Whether or not to use ALTCHA on user login
+altcha_on_login = on
+
+; Whether or not to use ALTCHA on user lost password
+altcha_on_lost_password = on
+
+; The quantity of encryption cycles performed by the ALTCHA system
+altcha_encrypt_number = 10000
+```
 
 ### Honeypot
 

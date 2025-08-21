@@ -64,7 +64,7 @@ Replace the following variables in the configuration above with the correct path
 | `<root>` | Absolute path to the root directory of the application (OJS, OMP, OPS). |
 | `<log-file>` | Absolute path to a log file. If hosting in a cloud environment, you may want to [direct logs to stdout](https://stackoverflow.com/a/26897648/1723499). |
 
-> Take a special note that workers are long running process that loads the application in memory. As a result, any changes when workers are running will not reflect instantly without restarting the worker.
+> Take note that workers are long-running processes that load the application in memory. As a result, any changes when workers are running will not reflect instantly without restarting the worker.
 {:.notice}
 
 Restart Worker.
@@ -154,7 +154,7 @@ job_runner_max_jobs = 30
 ; Lower this setting if jobs are failing due to timeouts.
 job_runner_max_execution_time = 30
 
-; The maximum consumerable memory that should be spent by the built-in
+; The maximum consumable memory that should be spent by the built-in
 ; job runner when running jobs.
 ;
 ; Set as a percentage, such as 80%:
