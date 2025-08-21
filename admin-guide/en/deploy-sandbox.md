@@ -18,12 +18,12 @@ Beginning with OJS, OMP, and OPS 3.4.0-4, there is a sandbox mode that can be en
 
 To enable the sandbox mode for an installation, edit `config.inc.php` and find the `sandbox` setting in the `[general]` section. Setting it to `On` will have following impacts:
 
- - The email `default` driver will be set to `log`. As a result all emails will be routed to the server's error log and no emails will be delivered.
+ - The email `default` driver will be set to `log`. As a result, all emails will be routed to the server's error log and no emails will be delivered.
  - Scheduled tasks that run at regular intervals to send out reminder emails, deposit data with third-party services, and perform other tasks will be disabled. This will also disable schedule task execution via `Acron` plugin.
  - Job execution will be disabled. However, jobs will continue to be dispatched to the queue as usual.
  - `Crossref` and `Datacite` deposits will be disabled.
- - The `ORCiD` plugin will not have any interaction with orcid service.
- - No payments will dispatched to or handled by Paypal (e.g. for subscription purchases).
+ - The application will not have any interaction with the ORCID service.
+ - No payments will be dispatched to or handled by PayPal (e.g. for subscription purchases).
 
 > **Warning:** Enabling the sandbox mode will disable job processing via the job runner, cron and worker mechanisms. However, if any worker process is already running prior to enabling sandbox mode, it will require separate manual intervention to restart/quit worker gracefully. See the [Job Deployment Guide](/admin-guide/en/deploy-jobs) for more details.
 {:.warning}
@@ -95,4 +95,3 @@ Run the following SQL query on the database to set all author account emails to 
 ```sql
 UPDATE authors SET email = 'test@mailinator.com';
 ```
-
