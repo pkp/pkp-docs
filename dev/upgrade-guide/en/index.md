@@ -308,7 +308,7 @@ If the upgrade is successful, you will see the message below informing you that 
 The upgrade script will print a lot of information to the terminal. You may wish to use `tee` to record its output. This will help you troubleshoot if the upgrade fails.
 
 ```bash
-$ php tools/upgrade.php upgrade
+$ php -d memory_limit=2048M tools/upgrade.php upgrade | tee -a upgrade.log
 ```
 
 ### 10. Enabling Access
