@@ -22,19 +22,15 @@ Click the **Details** link beside a test to watch the test as it runs and see wh
 
 ### Prepare pull requests for testing
 
-A change to an application may involve pull requests to more than one repository. For example, a change that impacts `pkp-lib` and `ojs` will require two pull requests.
+A change to an application may involve pull requests to more than one repository. For example, a change that impacts `pkp-lib` and `ojs` will require two pull requests. To ensure that all changes are tested, add a submodule commit to the application repository.
 
-GitHub Actions must be able to locate the correct repository and branch for the `pkp-lib` submodule in order to run the tests against the correct code. To do this, an extra commit with a special commit message, `Submodule update ##<username>/<branch>##`, is added to the application repository.
-
-The example below will instruct GitHub Actions to clone the `ojs` and `pkp-lib` repositories owned by `NateWr` and check out the `i123_example` branch.
+The example below will add a submodule update commit for `pkp-lib` for OJS:
 
 ```
 cd path/to/ojs
 git add lib/pkp
-git commit -m "Submodule update ##NateWr/i123_example##"
+git commit -m "Submodule update"
 ```
-
-For the tests to run correctly against this commit, the changes must be in a branch named `i123_example` in _both repositories_.
 
 > In most cases, your work will be spread across multiple repositories. Use the same branch name across each repository to keep track of them. For example, work on issue 5421 might be in a branch named `i5421_function` in `ojs` and `pkp-lib`.
 {:.tip}
