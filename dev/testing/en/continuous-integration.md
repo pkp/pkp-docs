@@ -6,7 +6,7 @@ title: Continuous Integration - Testing - OJS/OMP
 
 We use [GitHub Actions](https://github.com/features/actions) for Continuous Integration (CI) testing. Integration and unit tests are run against every pull request to help catch regressions before they are released.
 
-CI tests are configured to run the tests against multiple PHP versions and databases. The configuration details are stored in `.github/workflows/main.yml` for each application.
+CI tests are configured to run the tests against multiple PHP versions and databases. The configuration details are stored in `.github/workflows/<branch>.yml` for each application.
 
 ![OMP test results in GitHub.](./github-actions-overview.png)
 
