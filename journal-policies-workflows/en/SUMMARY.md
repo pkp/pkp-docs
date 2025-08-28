@@ -1,4 +1,4 @@
-# Summary
+## Table of Contents
 
 * [Introduction](.)
 * [Alternative Uses of OJS](./alternative-uses.md)

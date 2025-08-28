@@ -1,4 +1,4 @@
-# Summary
+## Table of Contents
 
 * [Introduction](.)
 * [The Editorial Dashboard](./dashboard.md)

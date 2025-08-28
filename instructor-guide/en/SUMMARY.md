@@ -1,4 +1,4 @@
-# Summary
+## Table of Contents
 
 * [Introduction](.)
 * [How can you use OJS?](./using-ojs.md)

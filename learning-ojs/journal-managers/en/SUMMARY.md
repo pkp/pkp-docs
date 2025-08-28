@@ -1,4 +1,4 @@
-# Summary
+## Table of Contents
 
 * [Preface](.)
 * [Get Started: Plan & Enter Basic Journal Details](./get-started.md)

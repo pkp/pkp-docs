@@ -1,4 +1,4 @@
-# Summary
+## Table of Contents
 
 * [Предговор](.)
 * [За Open Journal Systems](./about-ojs.md)

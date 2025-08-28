@@ -1,4 +1,4 @@
-# Summary
+## Table of Contents
 
 * [Introduction](.)
 * [What Is a Theme?](what-is-a-theme.md)

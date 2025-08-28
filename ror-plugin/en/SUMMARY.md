@@ -1,4 +1,4 @@
-# Summary
+## Table of Contents
 
 * [Introduction](.)
 * [About the Research Organization Registry (ROR)](about.md)

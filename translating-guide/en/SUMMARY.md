@@ -1,4 +1,4 @@
-# Summary
+## Table of Contents
 
 * [Introduction](.)
 * [Manage Languages in PKP Software](managing-languages.md)

@@ -1,4 +1,4 @@
-# Summary
+## Table of Contents
 
 * [Introduction](.)
 * [Set up PayPal accounts](setup-paypal-accounts.md)
