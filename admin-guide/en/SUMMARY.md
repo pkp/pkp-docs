@@ -1,4 +1,4 @@
-# Table of contents
+## Table of Contents
 
 * [Introduction](./)
 * [Getting Started](./getting-started)
