@@ -1,4 +1,4 @@
-# Table of contents
+## Table of Contents
 
 * [Coalition Publica OJS Integration Guide](.)
 * [Requirements](./requirements.md)

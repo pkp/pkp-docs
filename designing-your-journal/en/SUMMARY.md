@@ -1,4 +1,4 @@
-# Table of contents
+## Table of Contents
 
 * [Introduction](.)
 * [Working with Theme Plugins](./plugin.md)
