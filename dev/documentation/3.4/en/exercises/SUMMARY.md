@@ -1,4 +1,4 @@
-# Summary
+## Table of Contents
 
 * [Exercise 1: Page Routing](./exercise1)
 * [Exercise 2: Access Control](./exercise2)

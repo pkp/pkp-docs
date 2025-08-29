@@ -1,4 +1,4 @@
-# Summary
+## Table of Contents
 
 * [Introduction](.)
 * [Getting Found: Building Visibility](getting-found-visibility.md)

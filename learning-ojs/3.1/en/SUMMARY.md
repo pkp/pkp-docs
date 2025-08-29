@@ -1,4 +1,4 @@
-# Summary
+## Table of Contents
 
 * [Preface](.)
 * [Chapter 1: Introduction](./introduction.md)

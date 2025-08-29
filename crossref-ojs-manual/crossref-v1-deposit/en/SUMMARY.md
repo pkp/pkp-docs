@@ -1,4 +1,4 @@
-# Summary
+## Table of Contents
 
 - [Introduction](.)
 - [Crossref XML Export](config.md)

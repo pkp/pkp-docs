@@ -1,4 +1,4 @@
-# Summary
+## Table of Contents
 
 * [Introduction and Background](.)
 * [Summary of Better Practices for Journal Metadata](./summary-practices.md)
