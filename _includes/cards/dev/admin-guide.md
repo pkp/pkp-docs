@@ -5,4 +5,4 @@ How to install and configure the application, import and export data, secure you
 
 ---
 
-Versions: [3.4](/admin-guide/en), [3.3](/admin-guide/3.3/en/) ([Français](/admin-guide/3.3/fr/))
+Versions: [3.5](/admin-guide/en), [3.4](/admin-guide/3.4/en), [3.3](/admin-guide/3.3/en/) ([Français](/admin-guide/3.3/fr/))

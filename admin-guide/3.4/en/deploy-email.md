@@ -2,7 +2,7 @@
 title: Email - Advanced Configuration - Admin Guide - PKP Developer Docs
 description: Recommendations for configuring a reliable email server for Open Journal Systems (OJS), Open Monograph Press (OPS) or Open Preprint Systems (OPS).
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Email Configuration
@@ -78,7 +78,7 @@ smtp_password = <password>
 
 You can use a third-party email service, such as MailGun, Amazon SES, or Postmark, to send email if you don't want to run your own email service. However, this is not officially supported so you may need to write a small amount of custom PHP code.
 
-Under-the-hood, all of our applications use [Laravel's Mail](https://laravel.com/docs/11.x/mail) library, which itself uses Symfony's [Mailer](https://symfony.com/doc/current/mailer.html). Transports are included for Mailgun, Amazon SES and Postmark, and these services can be used by writing a small plugin. See the example [Mailgun plugin](https://github.com/Vitaliy-1/mailgun/).
+Under-the-hood, all of our applications use Laravel's [Mail](https://laravel.com/docs/9.x/mail) library, which itself uses Symfony's [Mailer](https://symfony.com/doc/current/mailer.html). Transports are included for Mailgun, Amazon SES and Postmark, and these services can be used by writing a small plugin. See the example [Mailgun plugin](https://github.com/Vitaliy-1/mailgun/).
 
 Other transports can be be found by searching for "symfony mailer transport". A plugin would need to be written to import these transports and make use of them. If you write a transport for a service, please share it with [our community](https://forum.pkp.sfu.ca/).
 
