@@ -18,13 +18,13 @@ Este video de la PKP School explica las bases de PKP y OJS. Para ver otros video
 
 {% include video.html id="SQfFGwIK2wI" provider="youtube" title="Video de las bases de PKP y OJS"%}
 
-*OJS es un sistema de gestión/publicación de páginas web/revistas*. OJS cubre todos los aspectos de la publicación de revistas en línea, desde el establecimiento de un sitio web para dicha revista hasta tareas operativas como el proceso de envío del autor, revisión por pares, edición, publicación, archivo e indexación de la misma. OJS también ayuda a gestionar los aspectos de las personas de la organización de una revista, incluyendo el seguimiento del trabajo de los editores, revisores, y autores, notificando a los lectores y ayudando con la correspondencia.
+_OJS es un sistema de gestión/publicación de páginas web/revistas_. OJS cubre todos los aspectos de la publicación de revistas en línea, desde el establecimiento de un sitio web para dicha revista hasta tareas operativas como el proceso de envío del autor, revisión por pares, edición, publicación, archivo e indexación de la misma. OJS también ayuda a gestionar los aspectos de las personas de la organización de una revista, incluyendo el seguimiento del trabajo de los editores, revisores, y autores, notificando a los lectores y ayudando con la correspondencia.
 
-*OJS es flexible y escalable*. Una sola instalación de OJS puede soportar el funcionamiento de una o varias revistas. Cada revista tiene su propia URL única, así como su propia apariencia y estilo. OJS puede permitir a un único editor gestionar todos los aspectos de una revista y el sitio web de la misma, o apoyar a un equipo internacional de editores con diversas responsabilidades para las múltiples secciones de la revista.
+_OJS es flexible y escalable_. Una sola instalación de OJS puede soportar el funcionamiento de una o varias revistas. Cada revista tiene su propia URL única, así como su propia apariencia y estilo. OJS puede permitir a un único editor gestionar todos los aspectos de una revista y el sitio web de la misma, o apoyar a un equipo internacional de editores con diversas responsabilidades para las múltiples secciones de la revista.
 
-*OJS apoya el principio de extender el acceso*. Este sistema está destinado no sólo a ayudar con la publicación de revistas, pero para demostrar cómo los costos de la publicación de revistas pueden reducirse a tal punto de que proporcionar a los lectores "acceso abierto" al contenido de la revista se convierta en una opción viable. El apoyo al acceso abierto se describe en una amplia serie de artículos derivados de este proyecto que están disponibles libremente en Investigación > Publicaciones en el sitio web de [Public Knowledge Project](https://pkp.sfu.ca/).
+_OJS apoya el principio de extender el acceso_. Este sistema está destinado no sólo a ayudar con la publicación de revistas, pero para demostrar cómo los costos de la publicación de revistas pueden reducirse a tal punto de que proporcionar a los lectores "acceso abierto" al contenido de la revista se convierta en una opción viable. Este sistema está destinado no sólo a ayudar con la publicación de revistas, pero para demostrar cómo los costos de la publicación de revistas pueden reducirse a tal punto de que proporcionar a los lectores "acceso abierto" al contenido de la revista se convierta en una opción viable.
 
-*Los orígenes de OJS*. El sistema fue lanzado por primera vez en 2001 como una iniciativa de investigación y desarrollo en la Universidad de British Columbia, con el apoyo del Consejo de Investigación de Ciencias Sociales y Humanidades de Canadá, la Fundación Max Bell, el Pacific Press Endowment y la Fundación MacArthur. Su continuo desarrollo está actualmente supervisado por la Biblioteca de la Universidad Simon Fraser. Para obtener más información, consulte el [sitio web de Public Knowledge Project](https://pkp.sfu.ca).
+_Los orígenes de OJS_. El sistema fue lanzado por primera vez en 2001 como una iniciativa de investigación y desarrollo en la Universidad de British Columbia, con el apoyo del Consejo de Investigación de Ciencias Sociales y Humanidades de Canadá, la Fundación Max Bell, el Pacific Press Endowment y la Fundación MacArthur. Su continuo desarrollo está actualmente supervisado por la Biblioteca de la Universidad Simon Fraser. Para obtener más información, consulte el [sitio web de Public Knowledge Project](https://pkp.sfu.ca).
 
 <hr />
 
@@ -36,8 +36,7 @@ Visite nuestro sitio web para obtener más información sobre [Open Journal Syst
 
 OJS es fácil de instalar y configurar. Sin embargo, ejecutar un servicio web requiere un administrador de sistemas que sepa cómo implementar aplicaciones web. Nuestra Guía del administrador (disponible en inglés) proporciona instrucciones sobre cómo [ descargar, instalar y configurar OJS](/admin-guide/en).
 
-> Si no tiene la experiencia, el personal o el deseo de instalar y administrar el OJS por su cuenta [PKP Publishing Services](https://pkp.sfu.ca/hosting-services) proporciona servicios de alojamiento para cada presupuesto. 
-> 
+> Si no tiene la experiencia, el personal o el deseo de instalar y administrar el OJS por su cuenta [PKP Publishing Services](https://pkp.sfu.ca/hosting-services) proporciona servicios de alojamiento para cada presupuesto.
 > {:.tip}
 
 ## Novedades en OJS 3.3 {#whats-new}
@@ -79,8 +78,7 @@ Durante el envío, los autores pueden subir varios archivos a la vez, así como 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
     <source src="./assets/learning-ojs3.3-upload-submission-files.mp4" type="video/mp4">
-  </video>
-  <figcaption>Un breve video que muestra cómo se pueden subir archivos en OJS 3.3.</figcaption>
+  </video><figcaption>Un breve video que muestra cómo se pueden subir archivos en OJS 3.3.</figcaption>
 </figure>
 
 #### Filtros de envío
@@ -138,6 +136,7 @@ Ahora se pueden especificar los formatos de fecha y hora para cada revista e idi
 Hay un mejor soporte para idiomas que se leen de derecha a izquierda, como el árabe, Farsi, y hebreo, en el editor de texto enriquecido que aparece en muchos campos de formulario en el OJS.
 
 #### URL remotas
+
 Los elementos del menú de navegación con URL remotas ahora pueden tener diferentes URL para cada idioma.
 
 ## Contribuciones comunitarias
@@ -152,9 +151,9 @@ También aceptamos con satisfacción las contribuciones de testeo de software y 
 
 PKP ofrece los siguientes recursos gratuitos de soporte para OJS:
 
-* [PKP Docs Hub](https://docs.pkp.sfu.ca/): Guías de usuarios, documentación del desarrollador y consejos de publicación para todo nuestro software. También incluye enlaces a videos desarrollados por la comunidad.
-* [Foro de la comunidad PKP](https://forum.pkp.sfu.ca/): Un foro de discusión en línea donde puedes hacer preguntas, responder preguntas y compartir ideas.
-* [PKP School](https://pkpschool.sfu.ca/): Una colección de cursos en línea, abiertos y a ritmo propio diseñados por expertos de PKP en inglés y español. Incluye video tutoriales sobre la configuración de una revista; el proceso editorial en OJS 3; y Convertirse en editor.
+- [PKP Docs Hub](https://docs.pkp.sfu.ca/): Guías de usuarios, documentación del desarrollador y consejos de publicación para todo nuestro software. También incluye enlaces a videos desarrollados por la comunidad.
+- [Foro de la comunidad PKP](https://forum.pkp.sfu.ca/): Un foro de discusión en línea donde puedes hacer preguntas, responder preguntas y compartir ideas.
+- [PKP School](https://pkpschool.sfu.ca/): Una colección de cursos en línea, abiertos y a ritmo propio diseñados por expertos de PKP en inglés y español. Incluye video tutoriales sobre la configuración de una revista; el proceso editorial en OJS 3; y Convertirse en editor.
 
 También hay un enlace "Ayuda" en la esquina superior derecha de cada página en OJS, OMP, y OPS donde usted puede encontrar información sobre la página en la que se está trabajando y sus funciones.
 
