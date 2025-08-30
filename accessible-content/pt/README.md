@@ -1,6 +1,7 @@
-- - -
-título:'Criando Conteúdo Acessível: Um guia para editores de jornais e autores' descrição: um guia para editores de periódicos e autores preparem conteúdos acessíveis para submissão e publicação.
-- - -
+---
+title: 'Como criar conteúdo acessível: um guia para editores de periódicos e autores'
+description: "título:'Criando Conteúdo Acessível: Um guia para editores de jornais e autores' descrição: um guia para editores de periódicos e autores preparem conteúdos acessíveis para submissão e publicação."
+---
 
 # Como criar conteúdo acessível: um guia para editores de periódicos e autores
 
