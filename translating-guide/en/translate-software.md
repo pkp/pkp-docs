@@ -87,10 +87,9 @@ If you have found an error in a translation, you can use the Weblate search feat
 
 ![The strings in a file, showing the source text and translated text.](./assets/translating-guide-weblate-translate-search.png)
 
-
 Paste some or all of the erroneous text into the search and press "Search" to locate the string and make your changes. 
 
 ### Use Your New Translation
 
-To learn how to use the new language you have translated the software into on your installation, see [the Install a Language instructions in this guide](./managing-languages.md#install-a-language).
+To learn how to use the new language you have translated the software into on your installation, see [the Install a Language instructions in this guide](./managing-languages.md#install).
 
