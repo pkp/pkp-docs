@@ -51,7 +51,7 @@ If the language you want is not installed, check the PKP website for the full li
 
 If your desired language isn't listed, consider contributing a translation. Check the rest of this document for details on how to help.
 
-## Install a Language
+## Install a Language {#install}
 
 Site Administrators can install new languages through the Administration dashboard. See [Learning OJS 3.5 for Site Administrators](https://docs.pkp.sfu.ca/learning-ojs/site-admin/en/#languages) for more information on how to install and manage languages in PKP software.
 
