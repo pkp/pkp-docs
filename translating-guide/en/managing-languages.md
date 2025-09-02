@@ -53,7 +53,7 @@ If your desired language isn't listed, consider contributing a translation. Chec
 
 ## Install a Language
 
-Site Administrators can install new languages through the Administration dashboard. See [Learning OJS 3](/learning-ojs/en/site-administration#languages) for more information on how to install and manage languages in PKP software.
+Site Administrators can install new languages through the Administration dashboard. See [Learning OJS 3.5 for Site Administrators](https://docs.pkp.sfu.ca/learning-ojs/site-admin/en/#languages) for more information on how to install and manage languages in PKP software.
 
 If you've translated the software into a new language that hasn't been officially released with a software update, you'll need to install it manually. This requires server access and some technical knowledge.
 
