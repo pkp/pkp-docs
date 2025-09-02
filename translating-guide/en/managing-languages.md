@@ -6,34 +6,48 @@ title: How to Manage Languages in Open Journal Systems (OJS), Open Monograph Pre
 
 # Manage Languages in PKP Software
 
-## How Languages and Locales Work
+## Where does the text in the software come from?
 
-All text you see in a typical fresh install has been abstracted from the software's source code. The source code contains keys that are not specific to any language, and is presented in the user's current language by fetching the translations of those keys from various language-specific gettext PO files. These files can be found in folders using appropriate ISO locale codes (the [Language Code Listing](http://www.loc.gov/standards/iso639-2/php/code_list.php) followed by the [Country Code Listing](http://www.iso.org/iso/country_codes/iso_3166_code_lists/english_country_names_and_code_elements.htm)), for example `en_US` for American English, or `pt_BR` for Brazilian Portuguese. This document will use `en_US` for its examples.
+When you first install the software, all the text you see (including menus, buttons, messages, and more) comes from a set of translation files, not from the code itself. The software uses "keys" (short labels) in its code that aren’t tied to any one language. 
 
-These locale directories will typically have PO files containing lists of message keys written in them: these message keys and their corresponding values correspond to template lines in the system code itself. The following set of message keys are taken from `locale/en_US/locale.po`:
+When a user views the site, it looks up those keys in language files to show the right words in the selected language from specific files. System administrators can find these language-specific gettext PO files in folders using appropriate ISO locale codes (the [Language Code Listing](http://www.loc.gov/standards/iso639-2/php/code_list.php), for example `en` for English, and `de` for German. Rarely, the folder names will include a country ISO code as well, such as `pt_BR` for Brazilian Portuguese.
 
-```
-msgid "navigation.journalHelp"
-msgstr "Journal Help"
+You can open a language file in one of these folders to see these message keys and the values they correspond to. Below, you can see a sample of message keys taken from `locale/en/common.po` on the left, and `locale/ja/common.po` on the right.
 
-msgid "navigation.current"
-msgstr "Current"
+| `locale/en/common.po` | `locale/ja/common.po` |
+|---|---|
+| ```msgid "common.publicKnowledgeProject" 
+msgstr "Public Knowledge Project"  
 
-msgid "navigation.otherJournals"
-msgstr "Other Journals"
+msgid "common.currentStyleSheet" 
+msgstr "Current Stylesheet"  
 
-msgid "navigation.browseByIssue"
-msgstr "By Issue"
-```
+msgid "about.description" 
+msgstr "Description"  
 
-When the system needs to display a piece of text, it first determines which language should be displayed. The language used comes from, in order of preference:
-* The language the user has selected within the UI, if multiple options are enabled
+msgid "about.guidelines" 
+msgstr "Guides"``` | ```msgid "common.publicKnowledgeProject" 
+msgstr "Public Knowledge Project"  
+
+msgid "common.currentStyleSheet" 
+msgstr "現在のスタイルシート"  
+
+msgid "about.description" 
+msgstr "記述"  
+
+msgid "about.guidelines" 
+msgstr "ガイドライン"``` |
+
+As you can see, both language files share `msgid` keys, but these IDs correspond to different text depending on the language the system has been told to use.
+
+When the system needs to display a piece of text, it first determines which language should be displayed. The language selected comes from, in order of preference:
+* The language the user has selected within the UI
 * The default language of the "context" (that's the journal in OJS, the press in OMP, or the server in OPS)
 * The default language of the site
 
-Once the system knows which language to display to the user it grabs the message key value from the locale file that belongs to that specific translation: that is, if it needs to display the text relevant to `msgid "navigation.journalHelp"` from the above example, and knows that it should display this in English, it will look in `locale/en_US/locale.po` for the appropriate key value, in this case "Journal Help". If the message key doesn't exist (if the locale file is missing that particular key, or doesn't exist on the system in the first place), the system will display the raw message key surrounded by hash marks: `##navigation.journalHelp##`
+Once the system knows which language to display to the user it grabs the message key value from the locale file that belongs to that specific translation: that is, if it needs to display the text relevant to `msgid "about.description"` from the above example, and knows that it should display this in English, it will look in `locale/en/common.po` for the matching key value, in this case "Description". 
 
-If you ever see that kind of code on page, you know that the translation is incomplete (or the locale file is not being loaded). You can take a look at the section on translating to see how to complete it.
+If the message key doesn't exist (such as when the file is missing a translation), the system will display the raw message key surrounded by hash marks: `##navigation.journalHelp##`. If you ever see that kind of code on page, you know that the translation is incomplete (or the file is not being properly loaded). Feel free to follow this guide to contribute the correct translation!
 
 ## Check Language Availability
 
