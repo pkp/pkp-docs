@@ -14,29 +14,9 @@ When a user views the site, it looks up those keys in language files to show the
 
 You can open a language file in one of these folders to see these message keys and the values they correspond to. Below, you can see a sample of message keys taken from `locale/en/common.po` on the left, and `locale/ja/common.po` on the right.
 
-| `locale/en/common.po`                                                                                                                                                                                                                 | `locale/ja/common.po`                                                                                                                                                                                                                  |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ```msgid "common.publicKnowledgeProject" 
-msgstr "Public Knowledge Project"  
-
-msgid "common.currentStyleSheet"
-msgstr "Current Stylesheet"  
-
-msgid "about.description" 
-msgstr "Description"  
-
-msgid "about.guidelines" 
-msgstr "Guides"``` | ```msgid "common.publicKnowledgeProject"
-msgstr "Public Knowledge Project"  
-
-msgid "common.currentStyleSheet"
-msgstr "現在のスタイルシート"
-
-msgid "about.description"
-msgstr "記述"  
-
-msgid "about.guidelines"
-msgstr "ガイドライン"``` |
+| `locale/en/common.po`                                                                                                                                        	| `locale/ja/common.po`                                                                                                                                         	|
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------	|---------------------------------------------------------------------------------------------------------------------------------------------------------------	|
+| ```msgid "common.currentStyleSheet" msgstr "Current Stylesheet"  msgid "about.description" msgstr "Description"  msgid "about.guidelines" msgstr "Guides"``` 	| ```msgid "common.currentStyleSheet" msgstr "現在のスタイルシート"  msgid "about.description" msgstr "記述"  msgid "about.guidelines" msgstr "ガイドライン"``` 	|
 
 As you can see, both language files share `msgid` keys, but these IDs correspond to different text depending on the language the system has been told to use.
 
