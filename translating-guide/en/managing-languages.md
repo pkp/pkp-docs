@@ -16,7 +16,11 @@ You can open a language file in one of these folders to see these message keys a
 
 | `locale/en/common.po` | `locale/ja/common.po` |
 |---|---|
-| ```msgid "common.publicKnowledgeProject" <br> msgstr "Public Knowledge Project"<br><br>msgid "common.currentStyleSheet"<br>msgstr "Current Stylesheet"<br><br>msgid "about.description"<br>msgstr "Description" <br><br> msgid "about.guidelines"<br>msgstr "Guides"``` | ```msgid "common.publicKnowledgeProject"<br>msgstr "Public Knowledge Project"<br><br>msgid "common.currentStyleSheet"<br>msgstr "現在のスタイルシート"<br><br>msgid "about.description"<br>msgstr "記述"<br><br>msgid "about.guidelines"<br>msgstr "ガイドライン"``` |
+| ```msgid "common.publicKnowledgeProject"
+msgstr "Public Knowledge Project"
+
+msgid "common.currentStyleSheet"
+msgstr "Current Stylesheet"<br><br>msgid "about.description"<br>msgstr "Description" <br><br> msgid "about.guidelines"<br>msgstr "Guides"``` | ```msgid "common.publicKnowledgeProject"<br>msgstr "Public Knowledge Project"<br><br>msgid "common.currentStyleSheet"<br>msgstr "現在のスタイルシート"<br><br>msgid "about.description"<br>msgstr "記述"<br><br>msgid "about.guidelines"<br>msgstr "ガイドライン"``` |
 
 As you can see, both language files share `msgid` keys, but these IDs correspond to different text depending on the language the system has been told to use.
 
