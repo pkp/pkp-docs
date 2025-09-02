@@ -6,20 +6,20 @@ title: How to Use the Custom Locale Plugin for Open Journal Systems (OJS), Open 
 
 # Customize a Translation Locally
 
-You can use the Custom Locale plugin to customize or change a translation on your local installation. It also allows you to customize text on your OJS journal, OMP press, or OPS server in any language that is installed and enabled. For example, if you want to change the text displayed on the review recommendation buttons in the submission workflow, you can use the Custom Locale plugin. 
+The Custom Locale plugin lets you change or replace text on your site without editing the main translation files. You can customize any language that is already installed and enabled. For example, if you want to change the text displayed on the review recommendation buttons in the submission workflow, you can use the Custom Locale plugin. 
 
-The Custom Locale is only reliably available and operational for OJS/OMP/OPS 3.2.0 and newer. 
+>The Custom Locale is only reliably available and operational for OJS/OMP/OPS 3.2.0 and newer. {:.warning}
 
-If you want to update or contribute to a translation, it is best to [translate in Weblate](./translate-software). However, there are some situations in which customizing a translation on your local installation is preferred, and the Custom Locale plugin allows you to do this. This chapter explains how to use the plugin.
+If you want to share your translations with everyone who uses the software (not just your site), [add your translation in Weblate](./translate-software). However, there are some situations in which customizing a translation on your local installation is preferred, and this plugin is the best option for these cases.
 
-Please see [How Languages and Locales Work](https://docs.pkp.sfu.ca/translating-guide/en/managing-languages#how-languages-and-locales-work) in this guide for an explanation of how languages and locale files work in PKP software. 
+Please see [How Languages and Locales Work](https://docs.pkp.sfu.ca/translating-guide/en/managing-languages) in this guide for an explanation of how languages and locale files work in PKP software. 
 
 ## Install and Enable the Custom Locale Plugin
 
-First, ensure that the plugin is installed and enable it:
+First, ensure that the plugin has been installed by a Site Administrator and enabled. 
 
 1. Go to Settings > Website > Plugins
-2. Find the Custom Locale Plugin in the list of Installed Plugins (if it is not listed with the Installed Plugins, check the Plugin Gallery and you may need to install it first)
+2. Find the Custom Locale Plugin in the list of Installed Plugins (if it is not listed with the Installed Plugins, ask a Site Administrator to install it from the Plugin Gallery)
 3. Click the box to enable it
 4. Click the blue arrow next to the plugin name and then the *Customize* link that appears below it. This will refresh the page and now you should see a new tab in the Website Settings menu called *Locales*.
 
@@ -29,7 +29,7 @@ Under the Locales tab you will see a list of locale files that contain all of th
 
 ![A list of locale files that can be edited.](./assets/translating-guide-custom-locale-localefiles.png)
 
-If you want to edit the locale files for a different language installed on your site, you will need to temporarily set it as the Primary Locale and then change the Primary Locale when you’re finished editing the locales.
+If you want to edit the locale files for a different language installed on your site, you will need to temporarily set it as the Primary Locale. **Be sure to change your Primary Locale back to your original Primary Locale as soon as you are done working**, as submissions and user registrations made while the Primary Locale is changed can be negatively impacted.
 
 ![Page under Website Settings where you can configure the Language settings.](./assets/translating-guide-primary-locale.png)
 
