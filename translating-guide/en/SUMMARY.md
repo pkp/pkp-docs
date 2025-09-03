@@ -2,7 +2,7 @@
 
 * [Introduction](.)
 * [Manage Languages in PKP Software](managing-languages.md)
-  * [How Languages and Locales Work](./managing-languages.md#how-languages-and-locales-work)
+  * [How Does Text Work in PKP Software?](./managing-languages.md#how)
   * [Check Language Availability](./managing-languages.md#check-language-availability)
   * [Install a Language](./managing-languages.md#install-a-language)
   * [Default Translation Plugin](./managing-languages.md#default-translation-plugin)
