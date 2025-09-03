@@ -6,7 +6,7 @@ title: How to Manage Languages in Open Journal Systems (OJS), Open Monograph Pre
 
 # Manage Languages in PKP Software
 
-## Where does the text in the software come from?
+## How Does Text Work in PKP Software? {#how}
 
 When you first install the software, all the text you see (including menus, buttons, messages, and more) comes from a set of translation files, not from the code itself. The software uses "keys" (short labels) in its code that aren’t tied to any one language. 
 
