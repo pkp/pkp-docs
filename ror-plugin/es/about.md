@@ -15,4 +15,4 @@ En lugar de pedir a los investigadores/as que escriban el nombre de su organizac
 Research Organization Registry comprende más de 100.000 organizaciones de todo el mundo. Todos los registros son totalmente abiertos y de dominio público. Cualquiera puede solicitar que se añada una organización de investigación a ROR o que se corrija la información en un registro existente, y estas peticiones son revisadas por el personal de ROR y los voluntarios de la comunidad.
 
 - Para obtener más información sobre ROR, consulte la página [About](https://ror.org/about) o las [ROR FAQs](https://ror.org/faqs).
-- Para buscar una organización, consulte la [búsqueda de ROR](https://ror.org/search). 
+- Para buscar una organización, consulte la [búsqueda de ROR](https://ror.org/search).

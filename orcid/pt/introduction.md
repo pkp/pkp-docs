@@ -12,10 +12,10 @@ Parceiros PKP com ORCID permitem a coleta e exibição de iDs ORCID autenticados
 
 O Plugin de Perfil ORCID para as versões de OJS/OPS 3.1.2 e acima permite que uma revista OJS e um servidor preprint OPS:
 
-* Coletar e autenticar o iD ORCID de um(a) colaborador(a)
-* Enviar automaticamente um e-mail para os colaboradores solicitando a autenticação de sua iD ORCID
-* Exibe o iD do ORCID autenticado de um colaborador na página de pré-impressão ou artigo, que irá vincular ao registro ORCID do colaborador
-* Adicionalmente, apenas para API de Membro - Enviar automaticamente os detalhes de publicação para o registro ORCID de um colaborador uma vez que seu trabalho tenha sido publicado em OJS/OPS
+- Coletar e autenticar o iD ORCID de um(a) colaborador(a)
+- Enviar automaticamente um e-mail para os colaboradores solicitando a autenticação de sua iD ORCID
+- Exibe o iD do ORCID autenticado de um colaborador na página de pré-impressão ou artigo, que irá vincular ao registro ORCID do colaborador
+- Adicionalmente, apenas para API de Membro - Enviar automaticamente os detalhes de publicação para o registro ORCID de um colaborador uma vez que seu trabalho tenha sido publicado em OJS/OPS
 
 Para obter mais detalhes sobre cada uma dessas funções, consulte o capítulo [Usando o plugin ORCID](./using-plugin.md).
 
@@ -23,10 +23,10 @@ Para obter mais detalhes sobre cada uma dessas funções, consulte o capítulo [
 
 Ao integrar ORCID com OJS/OPS, você será capaz de suportar a publicação das melhores práticas por:
 
-* Permitir que os autores coletem seu trabalho publicado em um só lugar confiável
-* Distinguindo autores de outros com um nome semelhante e mantendo um registro atualizado independente das mudanças de nome ou afiliação
-* Demonstrando um compromisso com a transparência e credibilidade atribuindo com precisão os autores a suas obras publicadas
-* Suportando a coleção de metadados precisos do artigo, incluindo informações do autor, compartilhando detalhes da publicação com CrossRef
+- Permitir que os autores coletem seu trabalho publicado em um só lugar confiável
+- Distinguindo autores de outros com um nome semelhante e mantendo um registro atualizado independente das mudanças de nome ou afiliação
+- Demonstrando um compromisso com a transparência e credibilidade atribuindo com precisão os autores a suas obras publicadas
+- Suportando a coleção de metadados precisos do artigo, incluindo informações do autor, compartilhando detalhes da publicação com CrossRef
 
 ## API pública vs. membro
 
