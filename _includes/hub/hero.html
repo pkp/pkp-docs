@@ -2,14 +2,16 @@
 	<div class="hero__content">
 		<div class="hero__text">{{ site.data.index.heroText | markdownify }}</div>
 		{% if site.data.index.apps %}
-			<div class="hero__links">
-				<span class="hero__linksLabel">{{ site.data.index.quickLinksLabel }}</span>
+			<nav class="hero__links" aria-labelledby="quick-links">
+				<span class="hero__linksLabel" id="quick-links">{{ site.data.index.quickLinksLabel }}</span>
+				<ul class="hero__linkList">
 				{% for app in site.data.index.apps %}
 					{% if app.includeInHero %}
-						<a class="hero__link" href="#app{{ app.path }}">{{ app.titleShort }}</a>
+						<li><a class="hero__link" href="#app{{ app.path }}">{{ app.titleShort }}</a></li>
 					{% endif %}
 				{% endfor %}
-			</div>
+				</ul>
+			</nav>
 		{% endif %}
 		<script async src="https://cse.google.com/cse.js?cx=342127f3c8880483d">
 		</script>

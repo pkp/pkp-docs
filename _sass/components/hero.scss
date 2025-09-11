@@ -41,6 +41,23 @@
 	line-height: 1.5em;
 }
 
+.hero__linkList {
+	list-style: none;       /* Remove default bullets */
+	margin: 0;
+	padding: 0;
+	display: inline;        /* Keep it inline with label */
+  }
+  
+  .hero__linkList li {
+	display: inline;        /* Inline list items */
+  }
+  
+  .hero__link {
+	text-decoration: none;
+	color: $link;         /* Your link color */
+  }
+  
+
 @media (min-width: 480px) {
 
 	.hero__content {
