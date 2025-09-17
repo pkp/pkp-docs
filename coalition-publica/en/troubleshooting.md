@@ -34,9 +34,9 @@ Click the Delete button, and confirm your choice to delete the plugin from the s
 
 Follow Steps 1 through 3 in the Initial setup{initial-setup#site-admin} instructions to reinstall and enable the JATS OAI and JATS Metadata plugins.
 
-## System Administrator Steps
+## System Administrator Instructions
 
-### Step 1. Rebuild Your Search Index
+### Rebuilding your search index
 
 * Ensure that OJS knows about your server’s text extraction tools: check your `config.inc.php` file in the `[search]` section to make sure your server’s locations for these tools are specified.
 * If you had to modify your `config.inc.php` file to enable PDF indexing, you will also have to rebuild your search index. You can do this by running the following command on your server, in the OJS web root:
@@ -48,7 +48,7 @@ php tools/rebuildSearchIndex.php
 * You can check that the index has been successfully rebuilt by searching for text that only appears in a PDF (ie. not in other submission metadata stored by OJS, such as title or abstract fields).
 
 
-### Step 2. Troubleshoot PDF full text parsing tool
+### Troubleshooting PDF full text parsing tool
 
 Check that PDF parsing tools are installed and configured correctly
 
