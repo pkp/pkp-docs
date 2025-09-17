@@ -32,9 +32,9 @@ Cliquez sur le bouton *Supprimer* puis confirmez que vous souhaitez supprimer ce
 
 Suivez les étapes 1 à 3 du guide de configuration initiale{initial-setup#site-admin} pour réinstaller et activer les plugiciels *Plugiciel de modèle JATS* et *Format de métadonnées JATS*.
 
-## Étapes d'administration système
+## Instructions d'administration système
 
-### Étape 1. Recréer l'index de recherche
+### Pour recréer l'index de recherche
 
 * Assurez-vous que votre instance OJS connaît les outils d'extraction de texte de votre serveur : dans le fichier `config.inc.php`, à la section `[search]`, vérifiez que l'emplacement de ces outils sur le serveur est indiqué.
 * Si vous avez modifié le fichier `config.inc.php` pour activer l'indexation PDF, vous aurez également à recréer l'index de recherche. Pour ce faire, exécutez la commande suivante sur le serveur à la racine du répertoire de votre instance OJS :
@@ -45,7 +45,7 @@ php tools/rebuildSearchIndex.php
 
 * Validez que l'index a bien été recréé en cherchant du texte apparaissant seulement dans un fichier PDF (c'est-à-dire qui n'apparaît pas dans d'autres métadonnées de soumission stockées par OJS, comme dans les champs titre ou résumé).
 
-### Étape 2. Dépannage de l'outil d'analyse de texte intégral PDF
+### Dépannage de l'outil d'analyse de texte intégral PDF
 
 Vérifiez que les outils d'analyse de PDF sont installés et configurés correctement.
 
