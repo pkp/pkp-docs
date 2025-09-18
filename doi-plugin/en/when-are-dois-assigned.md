@@ -8,7 +8,8 @@ showPageTOC: true
 It is important to understand when DOIs will be assigned because **DOI registration is irreversible**. Once an article or issue is published and your DOI has been registered with an agency, you cannot change it. This is due to the nature of permanent IDs: they are meant to be assigned once and only once and then never change again.
 Broadly speaking, DOIs should be assigned in *OJS when you schedule them for publication in an issue*. 
 
-# Assigning DOIs
+## Assigning DOIs
+
 Once you have DOIs configured in the plugin, in OJS/OMP/OPS version 3.3 or earlier, you will need to assign them to the relevant objects. The process is significantly revamped for OJS/OMP/OPS version 3.4 and later, where DOIs can be managed from one central area. Documentation on assigning DOIs is forthcoming for versions 3.4 and later.
 
 If you have a large number of back issues, you can [use the Assign DOIs button in the DOI plugin settings as described earlier](https://docs.pkp.sfu.ca/doi-plugin/en/doi-plugin#assign-dois).
