@@ -1,6 +1,7 @@
-- - -
-title: Identificador de Objetos Digitales showPageTOC: true
-- - -
+--- 
+title: Identificador de Objetos Digitales
+showPageTOC: true
+---
 
 # Identificador de Objetos Digitales
 

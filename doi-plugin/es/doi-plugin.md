@@ -1,6 +1,7 @@
-- - -
-title: Plugin DOI showPageTOC: true
-- - -
+---
+title: Plugin DOI
+showPageTOC: true
+---
 
 # Plugin DOI
 

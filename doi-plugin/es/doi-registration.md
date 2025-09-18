@@ -1,6 +1,7 @@
-- - -
-title: Registro de DOI showPageTOC: true
-- - -
+---
+title: Registro de DOI
+showPageTOC: true
+---
 
 # Registro de DOI
 
