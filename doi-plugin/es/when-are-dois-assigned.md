@@ -1,12 +1,12 @@
-- - -
+---
 title: ¿Cuándo se asignan los DOIs?
-- - -
+---
 
 # ¿Cuándo y cómo se asignan los DOIs?
 
 Es importante saber cuándo se asignarán los DOIs porque **el registro de DOIs es irreversible**. Una vez publicado un artículo o número y registrado su DOI en una agencia de registro, no podrá cambiarlo. Esto se debe a la naturaleza de los identificaciones permanentes: están pensados para ser asignados una vez y sólo una vez y no volver a cambiar nunca más. En términos generales, los DOIs deben asignarse en *OJS cuando se programan para su publicación en un número*.
 
-# Asignación de DOIs
+## Asignación de DOIs
 Una vez configurados los DOIs en el plugin, en OJS/OMP/OPS versión 3.3 o anterior, deberá asignarlos a los objetos correspondientes. El proceso se ha renovado significativamente para OJS/OMP/OPS versión 3.4 y posteriores, donde los DOIs pueden gestionarse desde un área central. Próximamente se publicará la documentación sobre la asignación de DOIs para las versiones 3.4 y posteriores.
 
 Si tiene una gran cantidad de números atrasados, puede [utilizar el botón Asignar DOIs en la configuración del plugin DOI como se ha descrito anteriormente](https://docs.pkp.sfu.ca/doi-plugin/en/doi-plugin#assign-dois).
