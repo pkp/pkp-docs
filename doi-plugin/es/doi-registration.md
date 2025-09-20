@@ -51,4 +51,4 @@ Los cambios en los metadatos que usted haga en el OJS no se transferirán autom�
 
 ## Registro externo {#external-registration}
 
-Dependiendo de la agencia de registro, puede evitar por completo el uso de OJS. Por ejemplo, Crossref tiene un formulario de depósito web para registrar las nuevas publicaciones. La gestión externa de los DOIs siempre implicará más trabajo y cuidado. Normalmente, se trata de rellenar a mano hojas de cálculo o formularios web. Pero, si realmente está interesado en dedicar algún tiempo con sus DOIs, póngase en contacto con su agencia de registro para conocer más sobre las diferentes opciones. 
+Dependiendo de la agencia de registro, puede evitar por completo el uso de OJS. Por ejemplo, Crossref tiene un formulario de depósito web para registrar las nuevas publicaciones. La gestión externa de los DOIs siempre implicará más trabajo y cuidado. Normalmente, se trata de rellenar a mano hojas de cálculo o formularios web. Pero, si realmente está interesado en dedicar algún tiempo con sus DOIs, póngase en contacto con su agencia de registro para conocer más sobre las diferentes opciones.
