@@ -9,18 +9,17 @@ Desafortunadamente, los servicios de indexación y descubrimiento no se adaptan 
 
 Los servicios de indexación y descubrimiento suelen solicitar metadatos en inglés, además de metadatos en el idioma original del artículo.
 
--   [DOAJ](https://doaj.org/apply/guide/) - Revistas publicadas en cualquier idioma. No es necesario que el sitio web esté en inglés. Si el sitio web está disponible en varios idiomas, entonces la información facilitada debe ser la misma en todos ellos.
+- [DOAJ](https://doaj.org/apply/guide/) - Revistas publicadas en cualquier idioma. No es necesario que el sitio web esté en inglés. Si el sitio web está disponible en varios idiomas, entonces la información facilitada debe ser la misma en todos ellos.
 
--   [Scopus](https://www.readyforscopus.com/) - El título en inglés, los resúmenes, las palabras clave y la afiliación de los autores de todos los artículos son obligatorios.
+- [Scopus](https://www.readyforscopus.com/) - El título en inglés, los resúmenes, las palabras clave y la afiliación de los autores de todos los artículos son obligatorios.
 
--   [Web of Science (WoS)](https://clarivate.com/webofsciencegroup/journal-evaluation-process-and-selection-criteria/) - Los títulos y resúmenes en inglés son obligatorios.
+- [Web of Science (WoS)](https://clarivate.com/webofsciencegroup/journal-evaluation-process-and-selection-criteria/) - Los títulos y resúmenes en inglés son obligatorios.
 
--   [Latindex](https://www.latindex.org/latindex/meto2) - El resumen y las palabras clave en dos idiomas son características deseables.
+- [Latindex](https://www.latindex.org/latindex/meto2) - El resumen y las palabras clave en dos idiomas son características deseables.
 
--   [Redalyc](https://www.redalyc.org/redalyc/editores/evaluacionCriterios.html) - Las directrices del autor en dos idiomas, la tabla de contenidos, el resumen y las palabras clave en dos idiomas (preferiblemente inglés) son criterios deseables y muy valorados.
+- [Redalyc](https://www.redalyc.org/redalyc/editores/evaluacionCriterios.html) - Las directrices del autor en dos idiomas, la tabla de contenidos, el resumen y las palabras clave en dos idiomas (preferiblemente inglés) son criterios deseables y muy valorados.
 
--   [SciELO](https://wp.scielo.org/wp-content/uploads/Criterios-Rede-SciELO-es.pdf) - El título, los resúmenes y las palabras clave en inglés de todos los artículos son obligatorios.
-
+- [SciELO](https://wp.scielo.org/wp-content/uploads/Criterios-Rede-SciELO-es.pdf) - El título, los resúmenes y las palabras clave en inglés de todos los artículos son obligatorios.
 
 ### Google Scholar
 
@@ -35,7 +34,6 @@ MEDLINE/Pubmed muestra un número ilimitado de idiomas cuando hay traducciones d
 Para obtener más información de este proceso, ponen a disposición las "[Instrucciones para artículos publicados en idiomas diferentes al inglés](https://www.ncbi.nlm.nih.gov/books/NBK3828/#publisherhelp.Instructions_for_art)".
 
 Las revistas se indexan en el idioma original de la publicación. El idioma de indización es aprobado por el Comité de Revisión Técnica de Selección Bibliográfica en el momento en que se acepta una revista.
-
 
 ### Crossref
 
