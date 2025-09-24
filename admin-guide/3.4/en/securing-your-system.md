@@ -2,7 +2,7 @@
 title: Secure your System - Admin Guide - PKP Developer Docs
 description: Best practices to set up a secure server when running OJS, OMP or OPS.
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Securing Your System
@@ -10,7 +10,7 @@ version: 3.5
 > This section describes how to run a secure server. Before reading this section, make sure you have followed the [recommended configuration](./deploy) instructions to secure the application.
 {:.warning}
 
-It's important to run OJS, OMP and OPS on a secure server environment. In addition to the security settings in the [recommended configuration](./deploy) of the application, you must ensure the server is secure where the application is run.
+It's important to run OJS, OMP and OPS on a secure server environment. In addition to the security settings in the [recommended configuration](./deploy) of the application, you must ensure the server is secure where the applicaiton is run.
 
 This section makes a few recommendations for running secure servers. However, if you are unfamiliar with server administration, we strongly encourage you to use a professional hosting service or hire a professional system administrator.
 
