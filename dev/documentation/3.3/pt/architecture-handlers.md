@@ -12,8 +12,7 @@ O código dentro de um `Handler` não pode ser reutilizado, portanto, `Handler`s
 
 `Handler`s **não autorizam a solicitação** e não devem ser usados sem as [políticas de autorização](./architecture-authorization) apropriadas.
 
-> **Dica:** `Handler`s desempenham a função de `Controller`s na arquitetura de aplicativo MVC (Model-View-Controller). 
-> 
+> **Dica:** `Handler`s desempenham a função de `Controller`s na arquitetura de aplicativo MVC (Model-View-Controller).
 > {:.tip}
 
 ## Páginas Handlers
@@ -103,8 +102,7 @@ class IssueHandler extends Handler {
 }
 ```
 
-> Leia a seção [Frontend](./frontend) desta documentação para saber mais sobre templates. 
-> 
+> Leia a seção [Frontend](./frontend) desta documentação para saber mais sobre templates.
 > {:.notice}
 
 ## API Handlers
@@ -221,7 +219,7 @@ class PKPSubmissionsHandler extends APIHandler {
 }
 ```
 
-### Responses
+### Respostas
 
 API Handlers recebem um objeto `$response` que deve ser retornado usando o método `$request->withJson()`.
 
@@ -299,8 +297,7 @@ Leia o [guia de uso do Slim API Framework](http://www.slimframework.com/docs/v3/
 
 ## Controlador Handlers (obsoleto)
 
-> **O controlador Handlers estão obsoletos.** Novos recursos devem ser criados usando os componentes da biblioteca de interface do usuário que interagem com as API Handlers.  No entanto, eles são comuns em todo a aplicação e permanecerão em uso por algum tempo. 
-> 
+> **O controlador Handlers estão obsoletos.** Novos recursos devem ser criados usando os componentes da biblioteca de interface do usuário que interagem com as API Handlers.  No entanto, eles são comuns em todo a aplicação e permanecerão em uso por algum tempo.
 > {:.warning}
 
 Os controladores Handlers recebem solicitações de controladores UI e retornam a saída `JSON`. Eles agem como Páginas Handlers, exceto pelo fato de servirem componentes individuais de UI interativos, como uma lista de arquivos de submissão, discussões ou participantes.
