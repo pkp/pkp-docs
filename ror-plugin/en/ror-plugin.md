@@ -4,7 +4,9 @@ The ROR Plugin for OJS and OPS 3 enables authors to find and add the organizatio
 
 The ROR Plugin is shipped with the OJS Plugin gallery beginning with OJS 3.2. For installation of the ROR plugin in OJS 3.2, see [Installing the ROR Plugin](#installing-the-ror-plugin). 
 
-The ROR plugin can be used with OJS 3.x, OPS 3.3, and OMP 3.3.
+The ROR plugin can be used with OJS 3.3/3.4, OPS 3.3, and OMP 3.3.
+
+As of OJS/OMP/OPS version 3.5 ROR has been integrated into the core application, meaning RORs for authors can be added without installing the plugin.
 
 ![ROR Plugin in action from organization entry to front end display.](assets/ror-plugin.gif)
 
