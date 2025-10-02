@@ -2,7 +2,7 @@
 title: Jobs - Advanced Configuration - Admin Guide - PKP Developer Docs
 description: Options to configure the job runner to improve performance with Open Journal Systems (OJS), Open Monograph Press (OPS) or Open Preprint Systems (OPS).
 book: admin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Job Runner
@@ -31,7 +31,7 @@ The following command can be used to initialize a worker.
 php lib/pkp/tools/jobs.php work
 ```
 
-This command supports most of the options supported by Laravel's [queue:work](https://laravel.com/docs/11.x/queues#running-the-queue-worker). Pass the `--help` flag to learn more.
+This command supports most of the options supported by Laravel's [queue:work](https://laravel.com/docs/9.x/queues#running-the-queue-worker). Pass the `--help` flag to learn more.
 
 ```
 php lib/pkp/tools/jobs.php work --help
@@ -64,7 +64,7 @@ Replace the following variables in the configuration above with the correct path
 | `<root>` | Absolute path to the root directory of the application (OJS, OMP, OPS). |
 | `<log-file>` | Absolute path to a log file. If hosting in a cloud environment, you may want to [direct logs to stdout](https://stackoverflow.com/a/26897648/1723499). |
 
-> Take note that workers are long-running processes that load the application in memory. As a result, any changes when workers are running will not reflect instantly without restarting the worker.
+> Take a special note that workers are long running process that loads the application in memory. As a result, any changes when workers are running will not reflect instantly without restarting the worker.
 {:.notice}
 
 Restart Worker.
@@ -154,7 +154,7 @@ job_runner_max_jobs = 30
 ; Lower this setting if jobs are failing due to timeouts.
 job_runner_max_execution_time = 30
 
-; The maximum consumable memory that should be spent by the built-in
+; The maximum consumerable memory that should be spent by the built-in
 ; job runner when running jobs.
 ;
 ; Set as a percentage, such as 80%:
@@ -202,9 +202,9 @@ delete_failed_jobs_after = 180
 
 ## Custom Drivers
 
-[Laravel Queues](https://laravel.com/docs/11.x/queues) are used to dispatch and process jobs. By default, the application uses the `database` driver to store and process jobs.
+Laravel [Queues](https://laravel.com/docs/9.x/queues) are used to dispatch and process jobs. By default, the application uses the `database` driver to store and process jobs.
 
-[Custom drivers](https://laravel.com/docs/11.x/queues#driver-prerequisites) exist for handling jobs with Redis, Beanstalkd, and Amazon SQS. These drivers are not officially supported, but may be implemented with a little coding.
+[Custom drivers](https://laravel.com/docs/9.x/queues#driver-prerequisites) exist for handling jobs with Redis, Beanstalkd, and Amazon SQS. These drivers are not officially supported, but may be implemented with a little coding.
 
 If you use a custom driver, please share your findings with [our community](https://forum.pkp.sfu.ca/).
 
