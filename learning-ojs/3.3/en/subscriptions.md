@@ -9,7 +9,7 @@ title: Learning Open Journal Systems 3.3 - Subscriptions
 
 OJS allows you to restrict some or all of your content to subscribers. To enable Subscriptions, first go to [Settings > Distribution > Access](./settings-distribution.md).
 
-## Subscription Policies
+## Subscription Policies {#subscription-policies}
 
 Fill in details about your subscription policies on this page.
 
@@ -22,7 +22,7 @@ Fill in details about your subscription policies on this page.
 - **Online Payment Notifications**: Keep the Subscription Manager informed of payment activities.
 - **Open Access Options for Subscription Journals**: If appropriate select the number of current months for restricting access. Older content will be automatically made open.
 
-## Subscription Types
+## Subscription Types {#subscription-types}
 
 The next step in setting up subscription management is to designate the types of subscriptions the journal offers.
 
@@ -42,7 +42,7 @@ Select **Create New Subscription Type** to add a new one.
 - **Subscriptions**: Indicate whether this type covers individuals or institutions.
 - **Options**: Select the appropriate options (if any).
 
-## Payment Types
+## Payment Types {#payment-types}
 
 {% include video.html id="9r0mRqtNVuU" provider="youtube" title="Module 11: Distribution. Unit 3: Payments"%}
 
@@ -76,7 +76,7 @@ Note that in order to sell access to an issue, you will need to upload an issue 
 
 Use this to charge other fees, such as memberships.
 
-## Payments
+## Payments {#payments}
 
 As various payments are received, they will be listed under this tab.
 
@@ -86,7 +86,7 @@ As of 3.3, a Payment tab has been added on the manuscript dashboard for Editors 
 
 ![Author Fee Payment record tab.](./assets/learning-ojs3.3-jm-subscription-authorpublicationfee.png)
 
-## Individual Subscriptions
+## Individual Subscriptions {#individual-subscriptions}
 
 All types of individual subscriptions will appear here.
 
@@ -108,7 +108,7 @@ You can create a new individual subscription by using the Create New Subscriptio
 
 **Notes**: If you have any relevant notes to add, record that information here (optional).
 
-## Institutional Subscriptions
+## Institutional Subscriptions {#institutional-subscriptions}
 
 All types of institutional subscriptions will appear here.
 
@@ -131,7 +131,7 @@ You can create a new institutional subscription by using the Create New Subscrip
 
 - **Notes**: If you have any relevant notes to add, record that information here (optional).
 
-## Payment Notifications
+## Payment Notifications {#payment-notifications}
 
 ### Manual payment notifications
 
@@ -147,11 +147,11 @@ From here the subscription manager can update the status as needed based on your
 
 When a payment has been processed through PayPal the account administrator for your PayPal account will receive notification of payment. The payment will also be recorded in the Payment tab in Payments > Payment.
 
-## Subscription Block
+## Subscription Block {##subscription-block}
 
 When a user is being provided access to a site or its content via a subscription, the information of the subscriber providing access can be displayed in the sidebar. The Subscription Block feature must be selected for display in Website Settings > Appearance > Sidebar Management.
 
-## Setting Articles as Open Access
+## Setting Articles as Open Access {#setting-articles-as-open-access}
 
 If you would like to set certain articles as Open Access, this can be done by going to **Issues** on the left menu. If you would like to set it before publishing the issue, click the Future tab followed by the blue arrow beside the Issue.
 
