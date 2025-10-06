@@ -11,7 +11,7 @@ The Distribution Settings focus on access to and visibility of your journal. The
 
 Please note that if your journal is multilingual and you have Forms enabled for multiple languages in the language settings, you will have to configure some of this information for each language. You can switch to another languages by selecting the language under the Help link on the top right.
 
-## License
+## License {#license}
 
 This PKP School video explains how to configure copyright and licensing terms in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -35,7 +35,7 @@ This default can be overridden on a case-by-case basis.
 
 **License Terms**: Enter any additional license terms you would like to display alongside the license selected above on the published article page.
 
-## Search Indexing
+## Search Indexing {#search-indexing}
 
 This PKP School video explains how to enhance search indexing in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -57,7 +57,7 @@ Use **Custom Tags** to add custom HTML header tags to the header of every page o
 <meta name="revisit-after" content="3 month">
 ```
 
-## Payments
+## Payments {#payments}
 
 This PKP School video explains how to configure the Payments settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -103,7 +103,7 @@ If you plan to make your journal or articles available by subscription, go to Di
 
 In OJS 3.x there is not an option to set up a payment type for donations, to manage donations with the Payments module, or to use the PayPal plugin to accept donations. You can add the Donations block to your sidebar, but it will have to link to an external site where donation payments can be made.
 
-## Access
+## Access {#access}
 
 This PKP School video explains how to configure the Access settings in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -129,7 +129,7 @@ Once you set it as **Subscription**, on the **Table of Contents** tab, a checkbo
 
 ![Enable OAI screen with enable and disable options.](./assets/learning-ojs3.2-jm-settings-dist-oai.png)
 
-## Archiving
+## Archiving {#archiving}
 
 This PKP School video explains how to enable archiving in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 

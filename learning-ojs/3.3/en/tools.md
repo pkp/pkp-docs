@@ -18,7 +18,7 @@ Tools consist of an Import/Export tab, a Report Generator tab (called Statistics
 
 This PKP School video explains how to access and use Import/Export tools. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
-## Import/Export
+## Import/Export {#importexport}
 
 Import/Export allows you to easily get data out of your OJS journal and get data into it.
 
@@ -110,7 +110,7 @@ To assign new DOIs to articles:
 3. Open Metadata on the top right and go to the Identifiers tab. You should see a preview of the DOI that will be assigned and a checked box next to "Assign the DOI to this article."
 4. Click Save and the DOI will be assigned.
 
-## Permissions
+## Permissions {#permissions}
 
 The Reset Article Permissions tool allows you to reset the copyright statement and license information on all published articles, and will revert it to your journal's current default settings. Take caution when using this tool and consult legal expertise if you are unsure what rights you hold over the articles published in your journal.
 

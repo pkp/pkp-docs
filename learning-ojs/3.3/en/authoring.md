@@ -13,7 +13,7 @@ In this chapter, you will learn about how an author works in OJS from registrati
 {% include video.html id="AJwDWdAu8BQ" provider="youtube" title="Video of Submitting an Article in OJS"%}
 This PKP School video explains how an author can register for a journal and submit an article. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-## Registering with the Journal
+## Registering with the Journal {#registering-with-the-journal}
 
 To make a submission to an OJS journal, you will first need to register a user account with a journal and log in \(see [Registering with a Journal](./user-accounts#registering-with-a-journal)\). After that, when you login, you will be taken to your Dashboard.
 
@@ -23,7 +23,7 @@ It is currently empty as you have made no submissions.
 
 <hr />
 
-## Submitting an Article
+## Submitting an Article {#submitting-an-article}
 
 Start a new submission by clicking the **New Submission** button on the right side of the screen. You will be taken to Step 1 of a 5-Step process to upload and describe your submission.
 
@@ -126,7 +126,7 @@ Over the coming days, it will move into the Review stage, and if accepted, into 
 
 <hr />
 
-## Editing Metadata
+## Editing Metadata {#editing-metadata}
 
 In OJS 3, you may edit your own metadata at different stages of the editorial workflow. This will be dependent on settings granted by the Journal. You may either have global permission to make edits or have to send a request to the Editor to do so.
 
@@ -148,7 +148,7 @@ To learn more about creating metadata, see [the Better Practices in Journal Meta
 
 <hr />
 
-## Responding to a Review
+## Responding to a Review {#responding-to-a-review}
 
 {% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Responding to Reviews in OJS"%}
 This PKP School video explains how an editor responds to a review and how an author can upload revisions. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
@@ -243,7 +243,7 @@ Congratulations! You've been accepted and your submission file is moving on to t
 
 <hr />
 
-## Resubmitting for Review
+## Resubmitting for Review {#resubmitting-for-review}
 
 If the editor’s decision is to resubmit for review, you will need to log in and select the article in your submissions page. The resubmission is done in the review stage, there is no need to start a new submission.
 
@@ -257,7 +257,7 @@ The peer review process will be repeated, and you will likely receive additional
 
 <hr />
 
-## Responding to a Copyediting Request
+## Responding to a Copyediting Request {#responding-to-a-copyediting-request}
 
 {% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Copyediting in OJS"%} 
 This PKP School video explains the copyediting process, including how an editor can respond to a copyediting or proofreading request. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
@@ -290,7 +290,7 @@ Your role in the copyediting process is now complete and you can wait for the re
 
 <hr />
 
-## Responding to a Proofreading Request
+## Responding to a Proofreading Request {#responding-to-a-proofreading-request}
 
 The next step in the workflow is to inspect your submission files that have been converted into galleys (e.g., PDF, HTML, etc.).
 

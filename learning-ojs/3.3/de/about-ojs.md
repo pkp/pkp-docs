@@ -12,7 +12,7 @@ Es wurde entwickelt, um den Verwaltungsaufwand bei der Herausgabe einer Zeitschr
 
 Dieser Leitfaden bezieht sich auf die OJS Version 3.3, welche im Februar 2021 veröffentlicht wurde und gegenüber den Vorgängerversionen der Software erhebliche Verbesserungen aufweist. Wir hoffen, dass er Ihnen bei Ihren Zeitschriftenprojekten hilfreich ist.
 
-## Hintergrund
+## Hintergrund {#background}
 
 Dieses englischsprachige Video der PKP School erklärt den Hintergrund zu PKP und OJS. Weitere Videos dieser Reihe finden Sie auf [PKPs YouTube-Kanal](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -28,11 +28,11 @@ _Die Ursprünge von OJS_. Das System wurde 2001 erstmals als Forschungs- und Ent
 
 <hr />
 
-## OJS-Funktionen
+## OJS-Funktionen {#ojs-features}
 
 Besuchen Sie unsere Webseite, um mehr über [Open Journal Systems](https://pkp.sfu.ca/software/ojs) zu erfahren und darüber, wie es dem gesamten Weg von den Forscher/innen zu den Leser/innen unterstützt - von der Einreichung über die Begutachtung bis hin zur Produktion und Veröffentlichung.
 
-## Installation und Upgrade
+## Installation und Upgrade {#install-and-upgrade}
 
 OJS ist einfach zu installieren und zu konfigurieren. Der Betrieb eines Webdienstes erfordert jedoch Systemadministrator/innen, die wissen, wie man Webanwendungen bereitstellt. Unsere Administrator/innen-Dokumentation enthält vollständige Anweisungen zum [Herunterladen, Installieren und Konfigurieren von OJS](/admin-guide/en).
 
@@ -139,7 +139,7 @@ Es gibt mit dem Rich-Text-Editor, der in vielen Formularfeldern in OJS erscheint
 
 Einträge im Navigationsmenü mit Remote-URLs können nun unterschiedliche Remote-URLs für jede Sprache haben.
 
-## Community-Beiträge
+## Community-Beiträge {#community-contributions}
 
 Das OJS-Team fördert Beiträge aus der Community der Entwickler/innen. Wenn Sie daran interessiert sind, OJS weiter zu verbessern, freuen wir uns über Ihre Beteiligung.
 
@@ -147,7 +147,7 @@ Hervorragende Beispiele für das Engagement der Community sind die große Anzahl
 
 Wir begrüßen auch Beiträge zu Software-Tests und Hinweise auf Software-Fehler.
 
-## Unterstützung
+## Unterstützung {#support}
 
 PKP bietet folgende kostenlose englischsprachige Support-Ressourcen für OJS an:
 

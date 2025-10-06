@@ -9,7 +9,7 @@ title: Open Journal Systems 3.3 Lernen - Benutzer/innen und Rollen
 
 Dieser Abschnitt enthält Informationen zum Zugriff auf alle Benutzer/innenkonten, die mit Ihrer Zeitschrift verbunden sind, sowie zur Verwaltung von Rollen und Berechtigungen.
 
-## Benutzer/innen verwalten
+## Benutzer/innen verwalten {#managing-users}
 
 Dieses englischsprachige Video der PKP School erklärt, wie man Benutzer/innen in OJS verwaltet. Weitere Videos dieser Reihe finden Sie auf dem [YouTube-Kanal von PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -149,7 +149,7 @@ Wenn sich die Benutzer/innen immer noch nicht anmelden können, wurde das Konto 
 
 <hr />
 
-## Berechtigungen und Rollen
+## Berechtigungen und Rollen {#permissions-and-roles}
 
 Dieses englischsprachige Video der PKP School erklärt, wie Rollen in OJS verwaltet werden. Weitere Videos dieser Reihe finden Sie auf dem [YouTube-Kanal von PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -214,7 +214,7 @@ Verwenden Sie den _Neue Rolle anlegen_-Button, um ein Bearbeitungsfenster zu öf
 
 <hr />
 
-## Zugriffsoptionen
+## Zugriffsoptionen {#site-access-options}
 
 Dieses englischsprachige Video der PKP School erklärt, wie Zugriffsoptionen in OJS verwaltet werden. Weitere Videos dieser Reihe finden Sie auf dem [YouTube-Kanal von PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 

@@ -6,7 +6,7 @@ title: Open Journal Systems 3.3 erlernen - Verwaltung von Benutzer/innenkonten
 description: Ein Leitfaden für die Registrierung und Verwaltung Ihres Benutzer/innenkontos bei Open Journal Systems (OJS).
 ---
 
-# Verwaltung von Benutzer/innenkonten
+# Verwaltung von Benutzer/innenkonten {#registering-with-a-journal}
 
 Dieses englischsprachige PKP School Video erklärt das Benutzer/innen-Dashboard in OJS. Weitere Videos dieser Reihe finden Sie auf dem [YouTube-Kanal von PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -38,7 +38,7 @@ Sie können sich nicht selbst für eine redaktionelle Rolle (z. B. Redakteur/in,
 
 <hr />
 
-## Ansehen und Ändern des Profils
+## Ansehen und Ändern des Profils {#viewing-and-changing-your-profile}
 
 Dieses englischsprachige PKP School Video erklärt, wie man ein Benutzer/innenprofil in OJS verwaltet. Weitere Videos dieser Reihe finden Sie auf dem [YouTube-Kanal von PKP](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -59,7 +59,7 @@ Unter **Benachrichtigungen** können Sie konfigurieren, welche Arten von Benachr
 
 In dem Reiter **API-Key** im Benutzer/innenprofil können Sie die REST-API von OJS verwenden, um mit externen Anwendungen zu interagieren.  Die meisten Benutzer/innen werden die API jedoch nicht verwenden und können diese Registerkarte ignorieren.
 
-## Ihr Passwort zurücksetzen
+## Ihr Passwort zurücksetzen {#resetting-your-password}
 
 Sie können Ihr Passwort zurücksetzen, indem Sie:
 

@@ -38,7 +38,7 @@ Dieses englischsprachige Video von PKP School erläutert die Produktionsphase. W
 
 <hr />
 
-## Aufgaben
+## Aufgaben {#tasks}
 
 Ihre Aufgaben sind über das Menü oben links in Ihrem Dashboard verfügbar. Beachten Sie die Zahl „1“ in der Abbildung unten. Dies bedeutet, dass sich derzeit eine Aufgabe in Ihrer Liste befindet.
 
@@ -50,7 +50,7 @@ Verwenden Sie das Kontrollkästchen, um Aufgaben zum Löschen zu markieren (der 
 
 <hr />
 
-## Einreichungsbenachrichtigungen
+## Einreichungsbenachrichtigungen {#submission-notifications}
 
 Wenn ein/e Autor/in eine neue Einreichung für Ihre Zeitschrift macht, erhalten die/der Autor/in und alle Beitragenden eine E-Mail zur Bestätigung. Die Redakteur/innen erhalten automatisch per E-Mail eine Benachrichtigung über die neue Einreichung. In einigen Fällen wird ein/e Redakteur/in automatisch der Einreichung zugeordnet. Welche Redakteur/innen die Benachrichtigung erhalten oder automatisch zugewiesen werden, hängt davon ab, wie Sie Ihr Journal eingerichtet haben (siehe [Rubrik bearbeiten](./journal-setup#edit-a-section)).
 
@@ -73,7 +73,7 @@ Die *Einreichungsbestätigung* kann in der Liste der vorbereiteten E-Mail-Vorlag
 
 Benutzer/innen können ihre individuellen Benachrichtigungseinstellungen in ihrem eigenen Profil unter Profil bearbeiten > Benachrichtigungen ändern.
 
-## Dashboard für Einreichungen
+## Dashboard für Einreichungen {#submission-dashboard}
 
 Wenn Sie sich in Ihr Dashboard einloggen, finden Sie aktive Einreichungen entweder aus Ihren Aufgaben oder aus einer der Warteschlangen (Meine Warteschlange, Nicht zugewiesene Beiträge, Alle aktiven und Archiv). Der Zähler gibt Ihnen einen Überblick über die Gesamtzahl der Elemente in jeder Warteschlange.
 
@@ -273,7 +273,7 @@ Wählen Sie die Dateien, die begutachtet werden sollen, aus.
 
 <hr />
 
-## Begutachtung
+## Begutachtung {#review}
 
 {% include video.html id="5Hwkqj4Jvew" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 5: Assigning a reviewer."%}
 
@@ -630,7 +630,7 @@ Im Reiter "Gutachten" können Sie sehen, dass die Einreichung nun als akzeptiert
 
 <hr />
 
-## Lektorat
+## Lektorat {#copyediting}
 
 {% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 8: Copyediting."%}
 

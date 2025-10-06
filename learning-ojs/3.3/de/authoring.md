@@ -13,7 +13,7 @@ In diesem Kapitel erfahren Sie, wie Autor/innen in OJS von der Registrierung bis
 {% include video.html id="AJwDWdAu8BQ" provider="youtube" title="Video of Submitting an Article in OJS"%}
 Dieses PKP School Video erklärt, wie ein Autor sich für eine Zeitschrift registrieren und einen Artikel einreichen kann. Um weitere Videos in dieser Reihe anzuschauen, besuchen Sie [PKPs YouTube-Kanal](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-## Registrierung bei einer Zeitschrift
+## Registrierung bei einer Zeitschrift {#registering-with-the-journal}
 
 Um eine Einreichung bei einer OJS-Zeitschrift zu machen, Sie müssen zuerst ein Benutzer/innenkonto bei einer Zeitschrift registrieren und sich einloggen (siehe [Registrierung bei einer Zeitschrift](./user-accounts#registering-with-a-journal)\). Wenn Sie sich anmelden, werden Sie zu Ihrem Dashboard geleitet.
 
@@ -23,7 +23,7 @@ Es ist zurzeit leer, da Sie noch keine Einreichungen gemacht haben.
 
 <hr />
 
-## Einen Artikel einreichen
+## Einen Artikel einreichen {#submitting-an-article}
 
 Starten Sie eine neue Einreichung, indem Sie auf der rechten Seite des Bildschirms auf den Button **Neue Einreichung** klicken. Sie werden zu Schritt 1 eines fünfstufigen Prozesses weitergeleitet, um Ihre Einreichung hochzuladen und zu beschreiben.
 
@@ -125,7 +125,7 @@ Im Laufe der nächsten Tage wird sie in die Phase "Begutachtung" und, sofern sie
 
 <hr />
 
-## Metadaten bearbeiten
+## Metadaten bearbeiten {#editing-metadata}
 
 In OJS 3 können Sie Ihre eigenen Metadaten in verschiedenen Phasen des redaktionellen Workflows bearbeiten. Dies hängt von den vom Journal gewählten Einstellungen ab. Um zu bearbeiten, müssen Sie entweder über die allgemeinen Rechte verfügen oder eine Anfrage an die Redaktion senden.
 
@@ -147,7 +147,7 @@ Um mehr über das Erstellen von Metadaten zu erfahren, lesen Sie den Leitfaden [
 
 <hr />
 
-## Auf ein Gutachten antworten
+## Auf ein Gutachten antworten {#responding-to-a-review}
 
 {% include video.html id="LR_1BmmSTek" provider="youtube" title="Video of Responding to Reviews in OJS"%}
 Dieses PKP-School-Video erklärt, wie ein/e Redakteur/in auf ein Gutachten reagiert und wie ein/e Autor/in eine Überarbeitung hochladen kann. Weitere Videos in dieser Serie finden Sie auf [PKPs YouTube-Kanal](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
@@ -242,7 +242,7 @@ Glückwunsch! Sie wurden akzeptiert und Ihre Einreichungs-Datei wird zum Lektora
 
 <hr />
 
-## Erneut zur Begutachtung einreichen
+## Erneut zur Begutachtung einreichen {#resubmitting-for-review}
 
 Wenn die Redaktion sich entscheidet, dass der Artikel erneut begutachtet werden soll, müssen Sie sich einloggen und den Artikel auf der Seite für Einreichungen auswählen. Die Neueinreichung erfolgt in der Phase Gutachten, es besteht keine Notwendigkeit, eine gänzlich neue Einreichung zu beginnen.
 
@@ -256,7 +256,7 @@ Die Begutachtung wird wiederholt und Sie werden wahrscheinlich zusätzliche Übe
 
 <hr />
 
-## Auf eine Lektoratsanfrage reagieren
+## Auf eine Lektoratsanfrage reagieren {#responding-to-a-copyediting-request}
 
 {% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Copyediting in OJS"%}
 Dieses PKP-School-Video erklärt den Prozess des Lektorats, einschließlich der Frage, wie ein/e Redakteur/in auf eine Lektorats- oder Korrektoratsanfrage reagieren kann. Weitere Videos dieser Reihe finden Sie unter [PKPs YouTube-Kanal](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
@@ -289,7 +289,7 @@ Ihre Rolle im Lektoratsprozess ist nun abgeschlossen und Sie können auf die Auf
 
 <hr />
 
-## Auf eine Anfrage zum Korrekturlesen antworten
+## Auf eine Anfrage zum Korrekturlesen antworten {#responding-to-a-proofreading-request}
 
 Der nächste Schritt im Workflow ist die Prüfung Ihrer Beitragsdateien, die in Fahnen konvertiert wurden (z. B. PDF, HTML, usw.).
 
