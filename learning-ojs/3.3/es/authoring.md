@@ -37,7 +37,7 @@ En el **Paso 1** proporcionará información preliminar sobre su envío.
 
 Si la revista permite envíos en varios idiomas, puede seleccionar el idioma de su envío en el menú desplegable. Los idiomas pueden activarse en la configuración del sitio web -> Configuración -> Idioma.
 
-Si la revista tiene Categorías activadas y configuradas, el autor puede elegir las categorías en las que entra el envío en la primera lista. Las categorías se pueden configurar en Revista> Categorías.
+Si la revista tiene Categorías activadas y configuradas, el autor puede elegir las categorías en las que entra el envío en la primera lista. Si la revista tiene Categorías activadas y configuradas, el autor puede elegir las categorías en las que entra el envío en la primera lista.
 
 Seleccione la sección apropiada para su envío \(artículo, revisión, etc.\). Si no está seguro de qué sección es la apropiada, haga la mejor conjetura posible.
 
@@ -54,8 +54,7 @@ En OJS 3.3 los autores pueden subir varios archivos a la vez, también pueden ar
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
     <source src="./assets/submission3.3-files.mp4" type="video/mp4">
-  </video>
-  <figcaption>Arrastra y suelta varios archivos en OJS 3.3.</figcaption>
+  </video><figcaption>Arrastra y suelta varios archivos en OJS 3.3.</figcaption>
 </figure>
 
 Una vez que se hayan cargado todos los archivos, es posible indicar el tipo de archivo para cada uno desde un solo panel de menú, y los metadatos como una descripción o licencia pueden ser introducidos durante el flujo de trabajo.
@@ -110,9 +109,9 @@ Aparecerá una caja que te pedirá que confirmes que has finalizado. Haga clic e
 
 ¡Su envío ha sido completado! El editor ha sido notificado de su envío. En este punto, puedes seguir los enlaces para:
 
-* Revisar este envío
-* Crear un nuevo envío
-* Regresar al panel de control
+- Revisar este envío
+- Crear un nuevo envío
+- Regresar al panel de control
 
 Una vez que complete un envío, no podrá realizar cambios en el mismo.  Si desea reemplazar el archivo que ha enviado o hacer otros cambios al envío, necesitará ponerse en contacto con el editor a través de la herramienta Discusiones.
 
@@ -175,7 +174,7 @@ Una vez que esté listo para cargar el archivo revisado, desplácese hacia abajo
 
 ![Panel de revisiones](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
-Utilice el enlace *Subir un archivo* para subir su manuscrito revisado.
+Utilice el enlace _Subir un archivo_ para subir su manuscrito revisado.
 
 ![Subir archivo de revisión](./assets/learning-ojs-3-auth-responding-upload.png)
 
@@ -201,7 +200,7 @@ El editor recibirá una notificación sobre el(los) archivo(s) nuevo(s) que se e
 
 ![Panel de revisión de discusiones](./assets/learning-ojs-3-auth-responding-discussion.png)
 
-Desde ahí, seleccione el enlace *Añadir Discusión*.
+Desde ahí, seleccione el enlace _Añadir Discusión_.
 
 Seleccione los usuarios que desea notificar bajo Participantes.
 
@@ -294,7 +293,7 @@ Su papel en el proceso de Corrección ya está completo y puede esperar a la sol
 
 El siguiente paso en el flujo de trabajo es revisar sus archivos de envío que se han convertido en galeradas (por ejemplo, PDF, HTML, etc.).
 
-Recibirá un correo electrónico indicando que los archivos están disponibles. Para verlos, inicie sesión en la revista y vaya a su panel de control.
+Recibirá un correo electrónico indicando que los archivos están disponibles. Para verlos, inicia sesión en la revista y vaya a su panel de control.
 
 ![Panel de control de envíos del autor](./assets/learning-ojs-3-au-production-dashboard.png)
 
@@ -302,7 +301,7 @@ Puede ver su envío en el panel Mis archivos. Seleccione el enlace para ir al re
 
 ![Sección de producción del panel de control del autor](./assets/learning-ojs-3-au-production-record.png)
 
-Haga clic en la discusión relacionada para abrirla, leer el mensaje y abrir el archivo adjunto.
+Haga clic en la discusión para abrirla, leer el mensaje y abrir el archivo adjunto.
 
 ![Mensaje de galerada lista para revisión de maquetación](./assets/learning-ojs-3-au-production-message.png)
 

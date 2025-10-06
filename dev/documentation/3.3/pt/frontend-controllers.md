@@ -6,8 +6,7 @@ title: Controllers - Frontend - Documentação Técnica - OJS|OMP|OPS 3.3
 
 # Controllers
 
-> **Controllers estão obsoletos** e não devem ser usados para criar novos recursos. A documentação fornecida aqui é para desenvolvedores que precisam modificar um controlador existente. 
-> 
+> **Controllers estão obsoletos** e não devem ser usados para criar novos recursos. A documentação fornecida aqui é para desenvolvedores que precisam modificar um controlador existente.
 > {:.warning}
 
 Muitos dos objetos nas aplicações do PKP ainda não foram convertidos para usar a [API REST](/dev/api/), [esquema de entidade](./architecture-entities) a> e [Biblioteca de IU](./frontend-ui-library). Esses objetos fazem uso de controllers.
@@ -40,8 +39,7 @@ class PKPReviewerGridHandler extends GridHandler {
 
 Ações como adicionar um novo item à grid são definidas no método `initialize`. O exemplo abaixo adiciona um botão que abre um modal com um formulário.
 
-> A próxima seção descreverá como carregar e manipular um controlador de formulário. 
-> 
+> A próxima seção descreverá como carregar e manipular um controlador de formulário.
 > {:.notice}
 
 ```php
@@ -216,8 +214,7 @@ class PKPReviewerGridHandler extends GridHandler {
 
 Finalmente, uma classe `GridCellProvider` mapeará cada item para uma das colunas da grid para exibição.
 
-> Leia os exemplos acima que usam `$this->addColumn()` para ver como o provedor de célula da grid é carregada no `GridHandler`. 
-> 
+> Leia os exemplos acima que usam `$this->addColumn()` para ver como o provedor de célula da grid é carregada no `GridHandler`.
 > {:.tip}
 
 ```php
@@ -288,6 +285,7 @@ class ReviewerGridRow extends GridRow {
     }
 }
 ```
+
 O `LinkAction` carrega o modal e o modal faz uma solicitação para o `$readReviewUrl`, que é roteado para o `PKPReviewerGridHandler`. Para que essa solicitação funcione, o `PKPReviewerGridHandler` deve implementar um método `readReview` que retorne o HTML a ser exibido no modal.
 
 ```php
@@ -331,8 +329,7 @@ Cada ação criada pelo grid handler ou linha de grid exigirá uma operação no
 
 A maioria dos controladores são usados para exibir um `Form`, que apresenta o formulário, recebe o envio do formulário, valida a entrada e executa as alterações.
 
-> Os formulários descritos aqui são usados por Controllers que foram descontinuados. Use os formulários na [Biblioteca de IU](./frontend-components#forms) ao criar formulários para novos recursos. 
-> 
+> Os formulários descritos aqui são usados por Controllers que foram descontinuados. Use os formulários na [Biblioteca de IU](./frontend-components#forms) ao criar formulários para novos recursos.
 > {:.warning}
 
 Cada formulário estende a classe `Form`. Defina o template a ser usado para renderizar o formulário e adicionar verificações de validação no método construtor.
@@ -464,8 +461,7 @@ class PKPAuthorForm extends Form {
 }
 ```
 
-> O método execute só será chamado se passar nos requisitos de validação configurados no construtor. 
-> 
+> O método execute só será chamado se passar nos requisitos de validação configurados no construtor.
 > {:.notice}
 
 Finalmente, cada formulário precisa de um template. Use o `FormBuilderVocabulary` para criar um template para o formulário e os campos.
