@@ -20,7 +20,7 @@ Use the tabs to navigate to the different sections of Journal Settings: Masthead
 
 ![OJS dashboard view of Journal Settings with navigation tabs for the Settings submenus across top portion of page content.](./assets/learning-ojs3.2-jm-settings-journal-page.png)
 
-## Masthead
+## Masthead {#masthead}
 
 This PKP School video explains how to configure the Masthead in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -52,7 +52,7 @@ This could include your open access policy, the focus and scope of the journal, 
 
 Hit the **Save** button to save your changes.
 
-## Contact
+## Contact {#contact}
 
 This PKP School video explains how to add journal contacts in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -68,7 +68,7 @@ Use this section to add journal contacts.
 
 Hit the **Save** button to save your changes.
 
-## Sections
+## Sections {#sections}
 
 This PKP School video explains how to configure Sections in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -144,7 +144,7 @@ Hit the **Done** button when you are finished.
 
 You can only delete a section if there are no articles assigned to it. If you want to delete a section that has articles assigned to it, you will need to move the articles to a different section first. Then click the blue arrow below the section name to reveal the **Delete** link, then click the link. OJS will ask if you want to permanently delete the section and you can click **Yes**.
 
-## Categories
+## Categories {#categories}
 
 This PKP School video explains how to create categories in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
