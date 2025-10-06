@@ -1,4 +1,4 @@
---- 
+---
 title: Identificador de Objetos Digitales
 showPageTOC: true
 ---
@@ -13,8 +13,8 @@ Los DOIs son útiles porque sabemos que el contenido no siempre permanece en la 
 
 En la publicación, los DOIs funcionan en _dos etapas_.
 
-   1. Asignación de DOIs
-   2. Registro de DOIs
+1. Asignación de DOIs
+2. Registro de DOIs
 
 En OJS, el plugin DOI _sólo asigna DOIs_. Para que los DOI funcionen correctamente, hay que registrarlos en una agencia de registro de DOIs. Una vez que sea miembro de una agencia de registro de DOIs, puede utilizar su plugin específico en OJS para registrar los DOIs asignados o puede utilizar una de las otras herramientas de registro de metadatos proporcionadas por dicha agencia.
 
@@ -35,4 +35,4 @@ En resumen, los DOI se componen de un **prefijo** y un **sufijo** separados por 
 Una vez obtenido un prefijo y asignado un sufijo a un objeto de publicación, el DOI resultante compuesto de prefijo y sufijo, debe **registrarse** en una agencia de registro. La organización, que hace la publicación, debe formatear los metadatos correspondientes del objeto de publicación, en el formato de metadatos específico que la agencia de registro solicita. En OJS, habrá un archivo XML resultante el cual será enviado a la agencia de registro junto con el DOI y la URL correspondiente del objeto de publicación.
 
 - Para obtener más información sobre los DOI, [consulte el Manual DOI](https://www.doi.org/hb.html) (disponible en inglés) de doi.org.
-- Para obtener más información sobre las características específicas de cada agencia de registro, consulte los sitios oficiales en la lista anterior. 
+- Para obtener más información sobre las características específicas de cada agencia de registro, consulte los sitios oficiales en la lista anterior.

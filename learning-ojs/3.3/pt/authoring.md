@@ -37,7 +37,7 @@ Na **Etapa 1**, você fornecerá informações preliminares sobre a sua submiss�
 
 Se a revista permite submissões em múltiplos idiomas, você pode selecionar o idioma do seu manuscrito que será submetido no menu suspenso. Os idiomas podem ser ativados em Configurações do site -> Configuração -> Idioma.
 
-Se o periódico tiver categorias habilitadas e configuradas, você pode selecionar as categorias de sua submissão da lista. As categorias podem ser configuradas em Configurações da Revista> Categorias.
+Se o periódico tiver categorias habilitadas e configuradas, você pode selecionar as categorias de sua submissão da lista. Se o periódico tiver categorias habilitadas e configuradas, você pode selecionar as categorias de sua submissão da lista.
 
 Selecione a seção apropriada para sua submissão (por exemplo, artigo, revisão etc). Se você não tiver certeza de qual seção é apropriada, dê seu melhor palpite.
 
@@ -54,8 +54,7 @@ No OJS 3.3, os autores podem fazer upload de vários arquivos de uma vez, bem co
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
     <source src="./assets/submission3.3-files.mp4" type="video/mp4">
-  </video>
-  <figcaption>OJS 3.3 arraste e solte múltiplos arquivos.</figcaption>
+  </video><figcaption>OJS 3.3 arraste e solte múltiplos arquivos.</figcaption>
 </figure>
 
 Depois de fazer upload de todos os seus arquivos, você pode indicar o tipo de arquivo para cada um em um único painel de menu. Além de metadados como uma descrição ou licença podem ser inseridos durante o fluxo de trabalho.
@@ -110,9 +109,9 @@ Uma caixa aparecerá solicitando que você confirme que terminou. Clique **OK**.
 
 O envio do arquivo agora está completo! O Editor foi notificado de sua submissão. Neste ponto, você pode seguir os links para:
 
-* Revise esta submissão
-* Crie uma nova submissão
-* Retorne ao seu painel
+- Revise esta submissão
+- Crie uma nova submissão
+- Retorne ao seu painel
 
 Depois de concluir uma submissão, você não pode fazer alterações nela.  Se desejar substituir o arquivo enviado ou fazer outras alterações na submissão, precisará entrar em contato com o Editor por meio da ferramenta de Discussão Pré-revisão.
 
@@ -175,7 +174,7 @@ Quando estiver pronto para carregar o arquivo revisado, role a página para baix
 
 ![Painel de revisões](./assets/learning-ojs-3-auth-responding-revisions4.png)
 
-Use o link *Carregar um Arquivo* para carregar seu manuscrito revisado.
+Use o link _Carregar um Arquivo_ para carregar seu manuscrito revisado.
 
 ![Enviar arquivo de revisão](./assets/learning-ojs-3-auth-responding-upload.png)
 
@@ -201,7 +200,7 @@ O editor receberá uma notificação sobre o(s) novo(s) arquivo(s) sendo enviado
 
 ![Painel de discussões de avaliação](./assets/learning-ojs-3-auth-responding-discussion.png)
 
-A partir daí, selecione o link *Adicionar discussão*.
+A partir daí, selecione o link _Adicionar discussão_.
 
 Selecione os usuários que deseja notificar em Participantes.
 

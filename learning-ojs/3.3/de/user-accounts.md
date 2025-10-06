@@ -44,20 +44,20 @@ Dieses englischsprachige PKP School Video erklärt, wie man ein Benutzer/innenpr
 
 {% include video.html id="OoXQzB_s0gM" provider="youtube" title="Video of how to manage a user profile in OJS"%}
 
-Um Ihr Profil einzusehen und zu bearbeiten, melden Sie sich an und klicken Sie auf den Link Benutzer/innenname in der oberen rechten Ecke. Wählen Sie den Link "Profil ansehen".
+Um Ihr Profil einzusehen und zu bearbeiten, melden Sie sich an und klicken Sie auf den Link Benutzer/innenname in der oberen rechten Ecke. Wählen Sie den Link "Profil bearbeiten".
 
-![Das Menü "Profil ansehen".](./assets/learning-ojs3.3-edit-profile.png)
+![Das Menü "Profil bearbeiten".](./assets/learning-ojs3.3-edit-profile.png)
 
 Von hier aus können Sie über die verschiedenen Registerkarten Ihre persönlichen Daten und Kontaktinformationen aktualisieren, Ihre Rollen ändern, ein persönliches Bild hinzufügen (das manche Zeitschriften zusammen mit Ihrem Artikel oder auf einer Liste von Redakteur/innen veröffentlichen), Ihre Benachrichtigungseinstellungen festlegen oder Ihr Passwort aktualisieren.
 
-Unter **Benachrichtigungen** können Sie konfigurieren, welche Arten von Benachrichtigungen Sie von der Zeitschrift erhalten wollen, wenn Ereignisse eintreten, wenn z. B. eine neue Ausgabe der Zeitschrift veröffentlicht wird oder wenn es Aktivitäten zu einer Einreichung gibt, an der Sie beteiligt sind.
+Unter **Benachrichtigungen** können Sie konfigurieren, welche Arten von Benachrichtigungen Sie von der Zeitschrift erhalten wollen, z. B. wenn eine neue Ausgabe der Zeitschrift veröffentlicht wird.
 
-* Aktivieren Sie „Diese Arten von Benachrichtigungen dürfen in meinem Benachrichtigungs-Feed erscheinen“, wenn Sie eine Benachrichtigung über dieses Ereignis auf Ihrem Dashboard sehen möchten, sobald Sie sich bei der Website anmelden.
-* Aktivieren Sie die Option „Bitte keine E-Mail über diese Arten von Benachrichtigungen zuschicken“, wenn Sie keine E-Mail-Benachrichtigung über dieses Ereignis erhalten möchten.
+- Aktivieren Sie „Diese Arten von Benachrichtigungen dürfen in meinem Benachrichtigungs-Feed erscheinen“, wenn Sie eine Benachrichtigung über dieses Ereignis auf Ihrem Dashboard sehen möchten, sobald Sie sich bei der Website anmelden.
+- Aktivieren Sie die Option „Bitte keine E-Mail über diese Arten von Benachrichtigungen zuschicken“, wenn Sie keine E-Mail-Benachrichtigung über dieses Ereignis erhalten möchten.
 
-![Die Registerkarte Benachrichtigungen, auf der Sie Benachrichtigungen verwalten können.](./assets/learning-ojs-3-user-notifications.png)
+![Die Registerkarte Benachrichtigungen, in der Sie Benachrichtigungen verwalten können.](./assets/learning-ojs-3-user-notifications.png)
 
-Auf der **Registerkarte API** im Benutzer/innenprofil können Sie die REST-API von OJS verwenden, um mit externen Anwendungen zu interagieren.  Die meisten Benutzer/innen werden die API jedoch nicht verwenden und können diese Registerkarte ignorieren.
+In dem Reiter **API-Key** im Benutzer/innenprofil können Sie die REST-API von OJS verwenden, um mit externen Anwendungen zu interagieren.  Die meisten Benutzer/innen werden die API jedoch nicht verwenden und können diese Registerkarte ignorieren.
 
 ## Ihr Passwort zurücksetzen
 
@@ -69,7 +69,7 @@ Sie können Ihr Passwort zurücksetzen, indem Sie:
 4. Ihr aktuelles Passwort und dann zweimal Ihr neues Passwort eingeben und
 5. auf Speichern klicken.
 
-![Der Bildschirm zum Zurücksetzen des Passworts.](./assets/learning-ojs3.1-ed-change-pw.png)
+![Das Fenster zum Zurücksetzen des Passworts.](./assets/learning-ojs3.1-ed-change-pw.png)
 
 Ihr Passwort ist nun geändert.
 
@@ -80,7 +80,7 @@ Die Wiederherstellung Ihres Passworts ist ein dreistufiger Prozess:
 Zuerst müssen Sie ein neues Passwort anfordern:
 
 1. Klicken Sie auf den Link **Login** in der oberen rechten Ecke des Navigationsmenüs.
-2. Klicken Sie auf der folgenden Seite auf den Link **Passwort vergessen**.
+2. Klicken Sie auf der folgenden Seite auf den Button **Passwort vergessen?**.
 3. Geben Sie Ihre E-Mail-Adresse ein.
 4. Klicken Sie auf **Passwort zurücksetzen**.
 
@@ -97,4 +97,4 @@ Jetzt können Sie Ihr neues vorläufiges Passwort eingeben und sich anmelden:
 3. Melden Sie sich mit Ihrem vorläufigen Passwort bei der Zeitschrift an.
 4. Geben Sie ein neues Passwort ein, wenn Sie von der Zeitschrift dazu aufgefordert werden.
 
-Wenn Sie weitere Hilfe benötigen, wenden Sie sich an die Redaktion der Zeitschrift. Eine Liste der Kontakte finden Sie auf der Seite **Über uns**.
+Wenn Sie weitere Hilfe benötigen, wenden Sie sich an die Redaktion der Zeitschrift. Eine Liste der Kontakte finden Sie auf der Seite **Kontakt**.

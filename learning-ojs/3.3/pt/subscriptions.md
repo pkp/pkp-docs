@@ -92,7 +92,7 @@ Todos os tipos de assinaturas individuais aparecerão aqui.
 
 ![A guia de Subscriçoes Individuais no menu de Subscrições.](./assets/learning-ojs3.3-jm-subscriptions-indiv.png)
 
-Você pode criar uma nova assinatura individual usando o link Criar nova assinatura. Porém, primeiro precisará criar uma nova conta para essa pessoa em Usuários e funções ([consulte o capítulo](./user-accounts)). Feito isso, você pode pesquisar a conta e aplicar as diferentes configurações.
+Você pode criar uma nova assinatura individual usando o link Criar nova assinatura. Você pode criar uma nova assinatura individual usando o link Criar nova assinatura. Feito isso, você pode pesquisar a conta e aplicar as diferentes configurações.
 
 ![A janela Criar Nova Subscrição.](./assets/learning-ojs3.3-jm-subscriptions-indiv-create.png)
 
@@ -116,7 +116,7 @@ Todos os tipos de assinaturas institucionais aparecerão aqui.
 
 As assinaturas institucionais são gerenciadas de forma semelhante às assinaturas individuais, mas são usadas para bibliotecas, institutos de pesquisa e outras organizações que assinam o seu periódico.
 
-Você pode criar uma nova assinatura individual usando o link Criar nova assinatura. Porém, primeiro precisará criar uma nova conta para a pessoa de contato da instituição em Usuários e funções (consulte o capítulo [the User Accounts chapter](./user-accounts)). Feito isso, você pode pesquisar a conta e aplicar as diferentes configurações.
+Você pode criar uma nova assinatura individual usando o link Criar nova assinatura. Porém, primeiro precisará criar uma nova conta para essa pessoa em Usuários e funções ([consulte o capítulo](./user-accounts)). Feito isso, você pode pesquisar a conta e aplicar as diferentes configurações.
 
 ![A janela Criar Nova Subscrição.](./assets/learning-ojs3.3-jm-subscriptions-instit-create.png)
 

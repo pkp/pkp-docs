@@ -8,8 +8,7 @@ title: Plugins - Documentação Técnica - OJS|OMP|OPS 3.3
 
 Plugins são módulos independentes que podem ser habilitados e desabilitados para modificar a aplicação.
 
-> Este capítulo descreve como carregar plugins na aplicação principal. Leia o [Guia de Plugins](/dev/plugin-guide/en) para saber como criar seus próprios plugins. 
-> 
+> Este capítulo descreve como carregar plugins na aplicação principal. Leia o [Guia de Plugins](/dev/plugin-guide/en) para saber como criar seus próprios plugins.
 > {:.notice}
 
 ## Carregar Plugins

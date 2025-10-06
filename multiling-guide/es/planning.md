@@ -17,12 +17,11 @@ A continuación se exponen algunas consideraciones que pueden ser importantes pa
 
 El sistema PKP proporciona varias opciones para tratar el idioma de los contenidos. Considere qué enfoque o combinación de enfoques podría funcionar mejor para su revista:
 
--   Publicar artículos en varios idiomas sin proporcionar traducciones - por ejemplo, su revista puede aceptar manuscritos en inglés y español con la expectativa de que los lectores/as dominen ambos idiomas o estén dispuestos a utilizar herramientas de traducción.
+- Publicar artículos en varios idiomas sin proporcionar traducciones - por ejemplo, su revista puede aceptar manuscritos en inglés y español con la expectativa de que los lectores/as dominen ambos idiomas o estén dispuestos a utilizar herramientas de traducción.
 
--   Publicación de artículos con traducciones a otros idiomas - algunos o todos los artículos, independientemente de su idioma original, contendrán varias galeradas en distintos idiomas.
+- Publicación de artículos con traducciones a otros idiomas - algunos o todos los artículos, independientemente de su idioma original, contendrán varias galeradas en distintos idiomas.
 
--   Publicar en un solo idioma pero hacer que la interfaz del sitio esté disponible en varios idiomas mediante configuraciones regionales (versiones traducidas de la interfaz de usuario del sistema).
-
+- Publicar en un solo idioma pero hacer que la interfaz del sitio esté disponible en varios idiomas mediante configuraciones regionales (versiones traducidas de la interfaz de usuario del sistema).
 
 ### Comprobación de la disponibilidad/integridad de la traducción
 
@@ -32,8 +31,7 @@ Se recomienda encarecidamente trabajar con una traducción lo más completa posi
 
 Si una traducción está incompleta o quiere utilizar un idioma al que OJS, OMP u OPS aún no han sido traducidos, considere la posibilidad de contribuir a la traducción, ya que todas las traducciones son desarrolladas y mantenidas por miembros de la comunidad. Consulte la [Guía de traducción de PKP](https://docs.pkp.sfu.ca/translating-guide/en/) para obtener más información sobre la creación y el desarrollo de traducciones.
 
-Si habilita un idioma en su sitio para el que la traducción está incompleta, verá claves de mensaje sin traducir o cadenas de configuración regional como ##plugins.block.browse##. Para mostrar en su lugar el texto original en inglés hasta que la traducción esté completa y disponible, puede utilizar el [*Plugin* de traducción por defecto](https://docs.pkp.sfu.ca/translating-guide/en/managing-languages#default-translation-plugin).
-
+Si habilita un idioma en su sitio para el que la traducción está incompleta, verá claves de mensaje sin traducir o cadenas de configuración regional como ##plugins.block.browse##. Si habilita un idioma en su sitio para el que la traducción está incompleta, verá claves de mensaje sin traducir o cadenas de configuración regional como ##plugins.block.browse##.
 
 ### Elegir un dominio para una revista bilingüe/multilingüe
 
