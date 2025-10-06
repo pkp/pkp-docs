@@ -38,7 +38,7 @@ This PKP School video explains the Production stage. To watch other videos in th
 
 <hr />
 
-## Tasks
+## Tasks {#tasks}
 
 Your Tasks are available from the top left menu of your Dashboard. Note the number "1" in the image below. This indicates that there is currently 1 task in your list.
 
@@ -50,7 +50,7 @@ Use the checkbox to mark tasks for deletion \(the link is available at the botto
 
 <hr />
 
-## Submission Notifications
+## Submission Notifications {#submission-notifications}
 
 When an author makes a new submission to your journal, the author and all contributors will receive an email acknowledging their submission and an editor will be automatically emailed a notification of the new submission. In some cases an editor will be automatically assigned to the submission. Which editor(s) receive the notification or are automatically assigned will depend on how you have set up your journal (see [Edit a section](./journal-setup#edit-a-section)). 
 
@@ -73,7 +73,7 @@ If you want to disable submission acknowledgement emails entirely, you can do so
 
 Users can also change their individual notification settings from their own profile under View Profile > Notifications.
 
-## Submission Dashboard
+## Submission Dashboard {#submission-dashboard}
 
 When you log into your Dashboard, you can find active submissions either from your Tasks, or from one of the queues (My Queue, Unassigned, All Active, and Archives). The counter gives you an overview of how many total items are in each queue.
 
@@ -275,7 +275,7 @@ Keep the files that are to be reviewed checked off.
 
 <hr />
 
-## Review
+## Review {#review}
 
 {% include video.html id="5Hwkqj4Jvew" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 5: Assigning a reviewer."%}
 
@@ -635,7 +635,7 @@ Back on the review tab, you will notice that the status now indicates the submis
 
 <hr />
 
-## Copyediting
+## Copyediting {#copyediting}
 
 {% include video.html id="uc272bhGfeU" provider="youtube" title="Video of Editorial workflow in OJS 3.3. Module 8: Copyediting."%}
 
