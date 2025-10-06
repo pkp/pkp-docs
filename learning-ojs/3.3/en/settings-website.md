@@ -11,7 +11,7 @@ The Website Settings allow you to configure how your journal's website looks and
 
 ![OJS dashboard view of website settings menu.](./assets/learning-ojs3.1-jm-settings-web-appearance.png)
 
-## Appearance
+## Appearance {#appearance}
 
 This PKP School video explains how to configure your journal's appearance in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -52,7 +52,7 @@ If you would like to make minor changes to your site's design and layout, you ca
 
 For further theme customization options, consult the [Designing Your Journal](https://docs.pkp.sfu.ca/designing-your-journal/en/) guide. Note that changes made to the themes may impact journal accessibility.
 
-### Setup
+### Setup {#setup-1}
 
 Where you can upload images (logo, thumbnail, homepage) to your sites main page, enter footer information, and configure your sidebar menu.
 
@@ -192,7 +192,7 @@ This option allows for the configuration of different format for dates and times
 
 ![OJS 3.3 Date and Time menu with an option to select long and short date formats.](./assets/learning-ojs3.3-date-and-time-setup.png)
 
-## Plugins
+## Plugins {#plugins}
 
 This PKP School video explains how to configure Plugins in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
