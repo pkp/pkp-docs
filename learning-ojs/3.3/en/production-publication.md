@@ -26,7 +26,7 @@ In the **Production** tab, you can assign participants (such as a Layout Editor)
 
 This PKP School video explains the steps the Section Editor, Production Editor and/or Designer will take in the Production stage and the Publication tab. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDUKJbWtr4bgy133_jwoiqoF).
 
-## Publication Tabs
+## Publication Tabs {#publication-tabs}
 
 Everything related to publishing a submission is done under the Publication tab. The Publication tab allows you to edit or add information about the submission, including contributors, metadata, and identifiers. It is also where you will upload the final Galley files for publication in the journal.
 
@@ -71,7 +71,7 @@ The “Issue” tab allows you to upload multiple cover images in selected langu
 
 ![Multilingual button and upload field for an issue cover image for French (Canada) in the Issue subtab within Publication.](./assets/learning-ojs3.2-ed-prod-issue-languages.png)
 
-## Format Article for Publication
+## Format Article for Publication {#format-article-for-publication}
 
 ### Assign Layout Editor
 
@@ -402,7 +402,7 @@ To inform the Editor, use the Production Discussion panel's **Add Discussion** l
 
 The next step in publishing the submission is to check and finalize the metadata.
 
-## Finalize Metadata
+## Finalize Metadata {#finalize-metadata}
 
 Before publishing the submission, you should check that the metadata for the article is complete and accurate in OJS and matches the metadata on the PDF. This is important for ensuring that the content is indexed by Google Scholar, discoverable by other services, and accessible to readers. To learn more, see [the Better Practices in Journal Metadata guide](/metadata-practices/en/).
 
@@ -452,7 +452,7 @@ Once you have the plugin set up and have exported the article's metadata to Cros
 3. Click **Check Crossref DOIs**
 4. Some DOIs will now be added to the references
 
-## Create Issue
+## Create Issue {#create-issue}
 
 {% include video.html id="opvVBWYnHho" provider="youtube" title="Video of Setting up a journal in OJS 3.3. Module 7: Issues"%}
 
@@ -551,7 +551,7 @@ Use the **Unpublish Issue** link to remove the issue and all of its content from
 
 You can use the **Delete** link to remove the issue entirely. Not only will the issue be unpublished, the organizational structure and any issue metadata will also be removed. Any assigned articles will revert to their unpublished status.
 
-## Add the Article to an Issue
+## Add the Article to an Issue {#add-the-article-to-an-issue}
 
 Now that you have created an issue, you can add the article to it. Please note that the article will not be published until the issue is published. In this step you are assigning the article to an issue.
 
@@ -568,7 +568,7 @@ Now that you have created an issue, you can add the article to it. Please note t
 
 ![Issue subtab in Manuscript Publication tab showing all options and fields related to Issue - Issue, Section, Categories, Cover Image, Page Number and Date Published.](./assets/learning-ojs3.2-ed-prod-add-to-issue.png)
 
-## Schedule for Publication
+## Schedule for Publication {#schedule-for-publication}
 
 The next step is to schedule the article for publication. Although the article will not be published until the issue it is assigned to is published, the Schedule for Publication step is the final step in confirming that the article is ready to be published.
 
