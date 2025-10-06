@@ -20,7 +20,6 @@
   - [Aussehen](./settings-website.md#appearance)
   - [Einrichtung](./settings-website.md#setup-1)
   - [Plugins](./settings-website.md#plugins)
-  - [Static Pages](./settings-website.md#static-pages)
 - [Workflow-Einstellungen](./settings-workflow.md)
   - [Einreichung](./settings-workflow.md#submission)
   - [Begutachtung](./settings-workflow.md#review)
