@@ -9,7 +9,7 @@ title: Learning Open Journal Systems 3.3 - Users and Roles
 
 This section provides information on accessing all of user accounts associated with your journal, as well as managing roles and permissions.
 
-## Managing Users
+## Managing Users {#managing-users}
 
 This PKP School video explains how to manage users in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -149,7 +149,7 @@ If the user still cannot log in, their account may have been disabled. To re-ena
 
 <hr />
 
-## Permissions and Roles
+## Permissions and Roles {#permissions-and-roles}
 
 This PKP School video explains how to manage roles in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -214,7 +214,7 @@ Use the _Create New Roles_ link to open a window where you can create a new role
 
 <hr />
 
-## Site Access Options
+## Site Access Options {#site-access-options}
 
 This PKP School video explains how to configure site options in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
