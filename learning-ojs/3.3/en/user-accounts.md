@@ -14,7 +14,7 @@ This PKP School video explains the user dashboard in OJS. To watch other videos 
 
 When a user log into the system, they will be taken to their Dashboard. From here, users can change their profile information or account settings, as well as see all of the functions of the system to which they have access. For example, a Reviewer will only see the submission they have been assigned to review, while an Editor will see all of the submissions in the editorial workflow. More information about roles and permissions levels is available in the [Users and Roles chapter](./users-and-roles.md).
 
-## Registering with a Journal
+## Registering with a Journal {#registering-with-a-journal}
 
 This PKP School video explains how to register and log in to a journal in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -38,7 +38,7 @@ You will not be able to self-register for an Editorial Role (e.g., Editor, Secti
 
 <hr />
 
-## Viewing and Changing your Profile
+## Viewing and Changing your Profile {#viewing-and-changing-your-profile}
 
 This PKP School video explains how to manage a user profile in OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -59,7 +59,7 @@ Under **Notifications**, you can configure what kinds of notifications you recei
 
 The **API tab** on the user profile allows you to use OJS’s REST API to interact with external applications.  However, most users will not use the API and can ignore this tab.
 
-## Resetting your Password
+## Resetting your Password {#resetting-your-password}
 
 You can reset your password by:
 
