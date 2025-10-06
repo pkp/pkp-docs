@@ -12,7 +12,7 @@ It has been designed to reduce the time and energy devoted to the clerical and m
 
 This guide covers OJS version 3.3, released in February 2021, and features significant enhancements over the previous versions of the software. We hope you find it helpful for your publishing projects.
 
-## Background
+## Background {#background}
 
 This PKP School video explains the background on PKP and OJS. To watch other videos in this series, visit [PKP’s YouTube channel](https://www.youtube.com/playlist?list=PLg358gdRUrDVTXpuGXiMgETgnIouWoWaY).
 
@@ -28,11 +28,11 @@ This PKP School video explains the background on PKP and OJS. To watch other vid
 
 <hr />
 
-## OJS Features
+## OJS Features {#ojs-features}
 
 Visit our website to learn more about [Open Journal Systems](https://pkp.sfu.ca/software/ojs) and what it has to offer the whole researcher-to-reader workflow, from submission and peer review through to production and distribution.
 
-## Install and Upgrade
+## Install and Upgrade {#install-and-upgrade}
 
 OJS is easy to install and configure. However, running a web service requires a systems administrator who knows how to deploy web applications. Our Administrator's Guide provides full instructions on how to [download, install and configure OJS](/admin-guide/en).
 
@@ -139,7 +139,7 @@ There is better support for languages that read right-to-left, such as Arabic, F
 #### Remote URLs
 Navigation menu items with remote URLs can now have different remote URLs for each language.
 
-## Community Contributions
+## Community Contributions {#community-contributions}
 
 The OJS team encourages contributions from the developer community. If you are interested in getting involved in making OJS even better, we welcome your participation.
 
@@ -147,7 +147,7 @@ Excellent examples of community contributions include the vast array of language
 
 We also welcome software testing and bug reporting contributions.
 
-## Support
+## Support {#support}
 
 PKP offers the following free support resources for OJS:
 
