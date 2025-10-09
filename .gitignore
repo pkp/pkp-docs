@@ -3,3 +3,7 @@
 .DS_Store
 .jekyll-cache
 .jekyll-metadata
+jekyll-build.sh
+jekyll-serve.sh
+.gitignore
+Gemfile
