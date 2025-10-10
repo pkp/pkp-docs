@@ -6,11 +6,24 @@ title: Troubleshooting the ORCID Plugin for OJS and OPS
 
 ## How to remove pre-plugin unauthenticated ORCID iDs
 
-For journals transitioning from a manually-entered ORCID iD field to the ORCID plugin, unauthenticated ORCID iDs will prevent publication. If you see this error message, please follow [these steps to remove unauthenticated iDs](./troubleshooting-resources#remove-unauthenticated-orcid-ids). 
+For journals transitioning from a manually-entered ORCID iD field to the ORCID plugin, unauthenticated ORCID iDs will prevent publication. If you see this error message, please follow [these steps to remove unauthenticated iDs](./using-plugin#remove-an-orcid-id-from-a-user-account). 
 
 ![OJS error message saying unauthenticated ORCiDs for contributors detected.](./assets/unauthenticated_ORCIDs_error.PNG)
 
 You may also want to [invite contributors to connect their ORCID iDs](./using-plugin#editors-can-invite-contributors-to-connect-their-orcid-ids-to-the-publication).
+
+## How to solve problems with pre-plugin typos
+
+For journals transitioning from a manually-entered ORCID iD field to using the ORCID plugin, pre-plugin typos may cause validation errors.
+
+Pre-plugin, users are able to enter their ORCID iDs into a free text box. After the plugin, the ORCID iD field is controlled and must comply with format requirements. 
+
+If a pre-plugin manually-entered ORCID iD does not comply with the format requirements, and the journal activates the plugin, the typo will be “locked” in place and cause errors. For example, a user might have entered “http” instead of “https” in front of their ORCID iD, or they might have neglected to enter the `https://orcid.org` prefix. 
+
+Therefore, it’s a good practice to review ORCID iDs in active submissions prior to activating the plugin, to ensure that all manually-entered iDs conform with the correct format.
+
+As a workaround, the Journal Administrator can temporarily deactivate the plugin, fix or delete the ORCID iD, and re-activate the plugin. 
+
 
 ## Make sure your plugin is up to date
 
