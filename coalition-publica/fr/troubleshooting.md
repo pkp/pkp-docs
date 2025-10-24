@@ -34,17 +34,6 @@ Suivez les étapes 1 à 3 du guide de configuration initiale{initial-setup#site-
 
 ## Instructions d'administration système
 
-### Pour recréer l'index de recherche
-
-* Assurez-vous que votre instance OJS connaît les outils d'extraction de texte de votre serveur : dans le fichier `config.inc.php`, à la section `[search]`, vérifiez que l'emplacement de ces outils sur le serveur est indiqué.
-* Si vous avez modifié le fichier `config.inc.php` pour activer l'indexation PDF, vous aurez également à recréer l'index de recherche. Pour ce faire, exécutez la commande suivante sur le serveur à la racine du répertoire de votre instance OJS :
-
-```
-php tools/rebuildSearchIndex.php
-```
-
-* Validez que l'index a bien été recréé en cherchant du texte apparaissant seulement dans un fichier PDF (c'est-à-dire qui n'apparaît pas dans d'autres métadonnées de soumission stockées par OJS, comme dans les champs titre ou résumé).
-
 ### Dépannage de l'outil d'analyse de texte intégral PDF
 
 Vérifiez que les outils d'analyse de PDF sont installés et configurés correctement.
@@ -61,3 +50,13 @@ Assurez-vous que :
 
 Dans l'exemple ci-dessus, `/usr/bin/pdftotext` est l'outil utilisé. Vous devez valider que cet outil est installé correctement sur le serveur et que le chemin d'accès est valide pour le système d'exploitation (OS) et la version utilisés.
 
+### Pour recréer l'index de recherche
+
+* Assurez-vous que votre instance OJS connaît les outils d'extraction de texte de votre serveur : dans le fichier `config.inc.php`, à la section `[search]`, vérifiez que l'emplacement de ces outils sur le serveur est indiqué.
+* Si vous avez modifié le fichier `config.inc.php` pour activer l'indexation PDF, vous aurez également à recréer l'index de recherche. Pour ce faire, exécutez la commande suivante sur le serveur à la racine du répertoire de votre instance OJS :
+
+```
+php tools/rebuildSearchIndex.php
+```
+
+* Validez que l'index a bien été recréé en cherchant du texte apparaissant seulement dans un fichier PDF (c'est-à-dire qui n'apparaît pas dans d'autres métadonnées de soumission stockées par OJS, comme dans les champs titre ou résumé).
