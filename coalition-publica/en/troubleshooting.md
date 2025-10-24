@@ -36,18 +36,6 @@ Follow Steps 1 through 3 in the Initial setup{initial-setup#site-admin} instruct
 
 ## System Administrator Instructions
 
-### Rebuilding your search index
-
-* Ensure that OJS knows about your server’s text extraction tools: check your `config.inc.php` file in the `[search]` section to make sure your server’s locations for these tools are specified.
-* If you had to modify your `config.inc.php` file to enable PDF indexing, you will also have to rebuild your search index. You can do this by running the following command on your server, in the OJS web root:
-
-```
-php tools/rebuildSearchIndex.php
-```
-
-* You can check that the index has been successfully rebuilt by searching for text that only appears in a PDF (ie. not in other submission metadata stored by OJS, such as title or abstract fields).
-
-
 ### Troubleshooting PDF full text parsing tool
 
 Check that PDF parsing tools are installed and configured correctly
@@ -64,3 +52,16 @@ One of the tools is enabled/uncommented in the config file.
 One of the lines under ; PDF should be uncommented (not prefixed with a ;).
 
 In the example above, /usr/bin/pdftotext is the tool that will be used. You should confirm that the specified tool is correctly installed on the server, and the path is correct for your OS/version.
+
+### Rebuilding your search index
+
+* Ensure that OJS knows about your server’s text extraction tools: check your `config.inc.php` file in the `[search]` section to make sure your server’s locations for these tools are specified.
+* If you had to modify your `config.inc.php` file to enable PDF indexing, you will also have to rebuild your search index. You can do this by running the following command on your server, in the OJS web root:
+
+```
+php tools/rebuildSearchIndex.php
+```
+
+* You can check that the index has been successfully rebuilt by searching for text that only appears in a PDF (ie. not in other submission metadata stored by OJS, such as title or abstract fields).
+
+
