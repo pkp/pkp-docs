@@ -23,7 +23,13 @@
 
 .siteFooter__nav {
 	margin-top: 2rem;
-
+    ul {
+        list-style: none;
+        padding-left: 0;
+        li {
+            margin-bottom: 1.7rem;
+        }
+    }
 	p {
 		margin: 0.25em 0;
 	}
@@ -31,6 +37,7 @@
 
 .siteFooter__navHeader {
 	font-weight: $bold;
+    margin-top: 0;
 }
 
 .book + .siteFooter {
