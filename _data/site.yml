@@ -15,6 +15,7 @@ contactLink: "make a suggestion"
 contactBaseUrl: "https://pkp.sfu.ca/documentation-feedback/"
 orText: "or"
 logoAltText: "PKP Docs"
+versionsLabel: "Documentation version selector"
 navContrib:
   title: Community
   items:
