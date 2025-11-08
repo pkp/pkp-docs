@@ -1,18 +1,18 @@
-<div class="siteFooter">
-	<footer class="siteFooter__container">
+<footer class="siteFooter">
+	<div class="siteFooter__container">
 		<div class="siteFooter__top">
-			<div class="siteFooter__nav">
-				<h2 class="siteFooter__navHeader">
-					Contact Us
-				</h2>
+			<section class="siteFooter__nav" aria-labelledby="footer-contact">
+				<div class="siteFooter__navHeader" id="footer-contact">
+					{{ site.data.site.navContactUs.title }}
+				</div>
 				<p>Have a question or suggestion about PKP’s documentation and user guides? <a href="https://pkp.sfu.ca/documentation-feedback/">Use our documentation contact form</a>.</p>
 				<p>If your message is not about documentation, please use the general <a href="https://pkp.sfu.ca/contact-us/">contact form</a>.</p>
-			</div>
+			</section>
 			{% if site.data.site.navContrib %}
-				<nav class="siteFooter__nav" aria-labelledby="contrib">
-					<h2 class="siteFooter__navHeader" id="contrib">
+				<nav class="siteFooter__nav" aria-labelledby="footer-contrib">
+					<div class="siteFooter__navHeader" id="footer-contrib">
 						{{ site.data.site.navContrib.title }}
-					</h2>
+					</div>
 					<ul>
 						{% for nav in site.data.site.navContrib.items %}
 							<li>{{ nav | markdownify | remove: '<p>' | remove: '</p>' }}</li>
@@ -21,10 +21,10 @@
 				</nav>
 			{% endif %}
 			{% if site.data.site.navAbout %}
-				<nav class="siteFooter__nav" aria-labelledby="about">
-					<h2 class="siteFooter__navHeader" id="about">
+				<nav class="siteFooter__nav" aria-labelledby="footer-about">
+					<div class="siteFooter__navHeader" id="footer-about">
 						{{ site.data.site.navAbout.title }}
-					</h2>
+					</div>
 					<ul>
 						{% for nav in site.data.site.navAbout.items %}
 							<li>{{ nav | markdownify | remove: '<p>' | remove: '</p>' }}</li>
@@ -44,5 +44,5 @@
 		<div class="siteFooter__bottom">
 			<p class="footer-copyright"><span class="terms-text"><a href="https://www.sfu.ca/contact/terms-conditions.html" target="_blank">TERMS & CONDITIONS</a> &copy; SIMON FRASER UNIVERSITY.</span><span class="copyright-text"><img src="/img/creativecommons.svg" alt="Creative Commons logo" /><img src="/img/attribution.svg" alt="Attribution icon" /><a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC-BY 2.0</a></span><span class="footer-copyright-separator"> | </span><span class="ab-link">Website by <a target="_blank" href="https://www.affinitybridge.com">Affinity Bridge</a></span></p>
 		</div>
-	</footer>
-</div>
+	</div>
+</footer>

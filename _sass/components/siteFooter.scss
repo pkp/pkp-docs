@@ -108,7 +108,7 @@
                 line-height: 135%;
                 text-transform: inherit;
                 &:hover {
-                    color: #CC0633;
+                    color: $link-footer-hover;
                 }
             }
         }
@@ -136,7 +136,7 @@
             text-decoration-line: underline;
             text-transform: uppercase;
             &:hover {
-                color: #CC0633;
+                color: $link-footer-hover;
             }
         }
         p {
@@ -183,7 +183,7 @@
                 color: $link-footer;
                 text-decoration: underline;
                 &:hover {
-                    color: #CC0633;
+                    color: $link-footer-hover;
                 }
             }
         }
@@ -205,7 +205,7 @@
                 text-decoration: underline;
                 margin-left: 12px;
                 &:hover {
-                    color: #CC0633;
+                    color: $link-footer-hover;
                 }
             }
         }
@@ -227,7 +227,7 @@
                 color: $link-footer;
                 text-decoration: underline;
                 &:hover {
-                    color: #CC0633;
+                    color: $link-footer-hover;
                 }
             }
         }

@@ -31,4 +31,6 @@ navContact:
   title: Contact
   items:
     - "[Contact Us](https://pkp.sfu.ca/documentation-feedback/)"
+navContactUs:
+  title: Contact Us
 toggleMenu: "Toggle Menu"
