@@ -1,32 +1,36 @@
-<div class="siteFooter">
-	<nav class="siteFooter__container">
+<footer class="siteFooter">
+	<div class="siteFooter__container">
 		<div class="siteFooter__top">
-			<div class="siteFooter__nav">
-				<div class="siteFooter__navHeader">
-					Contact Us
+			<section class="siteFooter__nav" aria-labelledby="footer-contact">
+				<div class="siteFooter__navHeader" id="footer-contact">
+					{{ site.data.site.navContactUs.title }}
 				</div>
 				<p>Have a question or suggestion about PKP’s documentation and user guides? <a href="https://pkp.sfu.ca/documentation-feedback/">Use our documentation contact form</a>.</p>
 				<p>If your message is not about documentation, please use the general <a href="https://pkp.sfu.ca/contact-us/">contact form</a>.</p>
-			</div>
+			</section>
 			{% if site.data.site.navContrib %}
-				<div class="siteFooter__nav">
-					<div class="siteFooter__navHeader">
+				<nav class="siteFooter__nav" aria-labelledby="footer-contrib">
+					<div class="siteFooter__navHeader" id="footer-contrib">
 						{{ site.data.site.navContrib.title }}
 					</div>
-					{% for nav in site.data.site.navContrib.items %}
-						{{ nav | markdownify }}
-					{% endfor %}
-				</div>
+					<ul>
+						{% for nav in site.data.site.navContrib.items %}
+							<li>{{ nav | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+						{% endfor %}
+					</ul>
+				</nav>
 			{% endif %}
 			{% if site.data.site.navAbout %}
-				<div class="siteFooter__nav">
-					<div class="siteFooter__navHeader">
+				<nav class="siteFooter__nav" aria-labelledby="footer-about">
+					<div class="siteFooter__navHeader" id="footer-about">
 						{{ site.data.site.navAbout.title }}
 					</div>
-					{% for nav in site.data.site.navAbout.items %}
-						{{ nav | markdownify }}
-					{% endfor %}
-				</div>
+					<ul>
+						{% for nav in site.data.site.navAbout.items %}
+							<li>{{ nav | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+						{% endfor %}
+					</ul>
+				</nav>
 			{% endif %}
 			<div class="siteFooter__logo">
 				<a href="https://pkp.sfu.ca">
@@ -41,4 +45,4 @@
 			<p class="footer-copyright"><span class="terms-text"><a href="https://www.sfu.ca/contact/terms-conditions.html" target="_blank">TERMS & CONDITIONS</a> &copy; SIMON FRASER UNIVERSITY.</span><span class="copyright-text"><img src="/img/creativecommons.svg" alt="Creative Commons logo" /><img src="/img/attribution.svg" alt="Attribution icon" /><a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC-BY 2.0</a></span><span class="footer-copyright-separator"> | </span><span class="ab-link">Website by <a target="_blank" href="https://www.affinitybridge.com">Affinity Bridge</a></span></p>
 		</div>
 	</div>
-</div>
+</footer>
