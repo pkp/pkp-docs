@@ -2,7 +2,7 @@
 title: Translation - Plugin Guide for OJS, OMP and OPS
 description: How to support multiple languages in your OJS, OMP or OPS plugin.
 book: dev-plugin-guide
-version: 3.4
+version: 3.5
 ---
 
 # Translation

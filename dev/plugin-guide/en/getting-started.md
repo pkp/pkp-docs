@@ -2,7 +2,7 @@
 title: Getting Started - Plugin Guide for OJS, OMP and OPS
 description: A step-by-step tutorial to create your first plugin for Open Journal System (OJS), Open Monograph Press (OMP), or Open Preprint Systems (OPS).
 book: dev-plugin-guide
-version: 3.4
+version: 3.5
 ---
 
 # Getting Started

@@ -1,7 +1,7 @@
 ---
 title: Examples - Plugin Guide for OJS, OMP and OPS
 book: dev-plugin-guide
-version: 3.4
+version: 3.5
 ---
 
 # Examples

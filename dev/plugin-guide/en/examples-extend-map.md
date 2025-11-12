@@ -2,7 +2,7 @@
 title: Example - Extend a Map - Plugin Guide for OJS, OMP and OPS
 description: Example code showing how to extend a map in a plugin for OJS, OMP and OPS.
 book: dev-plugin-guide
-version: 3.4
+version: 3.5
 ---
 
 # Extend a Map

@@ -2,7 +2,7 @@
 title: Example - Events and Listeners - Plugin Guide for OJS, OMP and OPS
 description: How to use events and listeners in a plugin for OJS, OMP or OPS.
 book: dev-plugin-guide
-version: 3.4
+version: 3.5
 ---
 
 # Events and Listeners

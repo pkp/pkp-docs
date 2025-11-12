@@ -2,7 +2,7 @@
 title: Example - Add an Editorial Decision - Plugin Guide for OJS, OMP and OPS
 description: How to add a custom editorial decision in a plugin for OJS, OMP or OPS.
 book: dev-plugin-guide
-version: 3.4
+version: 3.5
 ---
 
 # Add an Editorial Decision

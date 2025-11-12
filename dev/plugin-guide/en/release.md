@@ -2,7 +2,7 @@
 title: Release a Plugin - Plugin Guide for OJS, OMP and OPS
 description: How to package and release a plugin for OJS, OMP or OPS.
 book: dev-plugin-guide
-version: 3.4
+version: 3.5
 ---
 
 # Release a Plugin

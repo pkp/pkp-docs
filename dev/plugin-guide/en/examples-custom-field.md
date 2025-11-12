@@ -2,7 +2,7 @@
 title: Example - Add Custom Fields - Plugin Guide for OJS, OMP and OPS
 description: How to add data and form fields to extend the data model in OJS, OMP and OPS.
 book: dev-plugin-guide
-version: 3.4
+version: 3.5
 ---
 
 # Add Custom Fields
