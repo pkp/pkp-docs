@@ -14,7 +14,8 @@ dev-documentation:
   3.4: /dev/documentation/3.4/en
   3.3: /dev/documentation/3.3/en
 dev-plugin-guide:
-  3.4: /dev/plugin-guide/en
+  3.5: /dev/plugin-guide/en
+  3.4: /dev/plugin-guide/3.4/en
   3.3: /dev/plugin-guide/3.3/en
 importing-exporting:
   current: /importing-exporting/en/
