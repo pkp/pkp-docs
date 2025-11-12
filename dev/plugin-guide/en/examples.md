@@ -9,8 +9,8 @@ version: 3.5
 Plugins can be put to a wide variety of uses. The examples below show you how to do things that many plugins may need to do.
 
 - [Plugin Template](https://github.com/pkp/pluginTemplate){:target="_blank"} - A working starter plugin that you can use as a base for your own plugins.
+- [Extending Backend UI with Vue.js](./examples-backend-ui) - How to extend the editorial backend with custom Vue.js components using the new recommended approach in 3.5+.
 - [Add Styles and Scripts](./examples-styles-scripts) - How to add a CSS stylesheet or JavaScript file to the backend.
-- [Create Vue.js components](https://github.com/jardakotesovec/backend-ui-example-plugin/tree/main) - Example plugin illustrating how to extend backend UI with own Vue.js components.
 - [Context and Site](./examples-context-site) - How to distinguish between one journal and the admin area in your plugin.
 - [Get Data](./examples-get-data) - How to get some data to display in your plugin.
 - [Get Data from the Template Manager](./examples-get-data-template) - How to read data that has been assigned to a template when you hook into the template.

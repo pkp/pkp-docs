@@ -9,6 +9,9 @@ version: 3.5
 > You should understand the [Request Lifecycle](/dev/documentation/en/architecture-request) and be familiar with the application [architecture](/dev/documentation/en/architecture), especially [Handlers](/dev/documentation/en/architecture-handlers), before proceeding.
 {:.notice}
 
+> **New in 3.5:** For adding custom UI to the editorial backend, consider using Vue.js components with the new JS hooks approach. See [Extending Backend UI with Vue.js](./examples-backend-ui) for the recommended method.
+{:.tip}
+
 You may want your plugin to add a new page to the application. This may be a separate settings page or editorial dashboard on the backend, or a new public page on the reader-facing website. A generic plugin can do this by hooking into the request lifecycle and loading its own [PageHandler](/dev/documentation/en/architecture-handlers).
 
 Consider a request to the following page.

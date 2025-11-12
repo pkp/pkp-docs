@@ -10,6 +10,9 @@ version: 3.5
 > View the [example plugin](https://github.com/pkp/tutorialExample) that will be built in this tutorial.
 {:.notice}
 
+> **New in 3.5:** If you want to extend the editorial backend UI with custom components, see [Extending Backend UI with Vue.js](./examples-backend-ui) for the recommended approach.
+{:.tip}
+
 This step-by-step tutorial will describe how to create a generic plugin called the "Tutorial Example Plugin". This plugin will be created for OJS, but the same steps can be followed to create a plugin for OMP or OPS.
 
 Create a directory for the plugin at `plugins/generic/tutorialExample` and create the following files in that directory.

@@ -217,6 +217,9 @@ Themes control the design and layout of a journal, press or preprint server. Rea
 
 Generic plugins are loaded with every request. They hook into the application early in the [Request Lifecycle](/dev/documentation/en/architecture-request) and can be used to modify almost everything.
 
+> **New in 3.5:** To extend the editorial backend UI with Vue.js components, see [Extending Backend UI with Vue.js](./examples-backend-ui).
+{:.tip}
+
 Generic plugins use [Hooks](/dev/documentation/en/utilities-hooks) to intervene in the application. Hooks should be added in a plugin's `register()` method.
 
 > Always check if the plugin is enabled before adding a hook. Otherwise, your plugin will run even when it has been disabled.
