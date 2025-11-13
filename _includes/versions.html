@@ -1,11 +1,16 @@
 {% if versions %}
-	<div class="versions">
-		{% for version in versions %}
-			{% if current == version[0] %}
-				<span class="version version--current">{{ version[0] }}</span>
-			{% else %}
-				<a href="{{ version[1] }}" class="version">{{ version[0] }}</a>
-			{% endif %}
-		{% endfor %}
-	</div>
+	<nav class="versions" aria-label="{{ site.data.site.versionsLabel }}">
+		<h2 class="-screenReader">{{ site.data.site.versionsLabel }}</h2>
+		<ul class="versions__list">
+			{% for version in versions %}
+				<li class="versions__item">
+					{% if current == version[0] %}
+						<span class="version version--current" aria-current="page">{{ version[0] }}</span>
+					{% else %}
+						<a href="{{ version[1] }}" class="version">{{ version[0] }}</a>
+					{% endif %}
+				</li>
+			{% endfor %}
+		</ul>
+	</nav>
 {% endif %}
