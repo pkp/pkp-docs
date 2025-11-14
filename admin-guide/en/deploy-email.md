@@ -20,7 +20,7 @@ Your hosting service should provide instructions on how to add the `TXT` record.
 
 ## DMARC
 
-To comply with the the [DMARC](https://en.wikipedia.org/wiki/Sender_Policy_Framework) framework, the application must be configured with an envelope sender. The envelope sender is an email address that the server has permission to send as. For example, if the application is hosted at https://my-journals.com, the envelope sender should be an email address `@my-journals.com`.
+To comply with the [DMARC](https://en.wikipedia.org/wiki/Sender_Policy_Framework) framework, the application must be configured with an envelope sender. The envelope sender is an email address that the server has permission to send as. For example, if the application is hosted at https://my-journals.com, the envelope sender should be an email address `@my-journals.com`.
 
 When a user signs up to the application with the email address `example@gmail.com`, your email server does not have permission to send  as `example@gmail.com`. The envelope sender acts as the "true" sender, and the email is sent "on behalf of" `example@gmail.com`.
 
@@ -37,7 +37,7 @@ The application uses these settings to reconfigure the `FROM` and `REPLY-TO` hea
 
 ## Sendmail vs SMTP vs PHPMailer
 
-Most hosting services will provide the details the application should use to connect to a SMTP server for sending email. If you have those, follow the instructions in the [configuration guide](/admin-guide/en/deploy#email-server).
+Most hosting services will provide the details the application should use to connect to an SMTP server for sending email. If you have those, follow the instructions in the [configuration guide](/admin-guide/en/deploy#email-server).
 
 If not, the server will probably be configured to send email through the `sendmail` application. In such cases, set the `default` sender to `sendmail` in the `config.inc.php`:
 
@@ -80,7 +80,7 @@ You can use a third-party email service, such as MailGun, Amazon SES, or Postmar
 
 Under-the-hood, all of our applications use [Laravel's Mail](https://laravel.com/docs/11.x/mail) library, which itself uses Symfony's [Mailer](https://symfony.com/doc/current/mailer.html). Transports are included for Mailgun, Amazon SES and Postmark, and these services can be used by writing a small plugin. See the example [Mailgun plugin](https://github.com/Vitaliy-1/mailgun/).
 
-Other transports can be be found by searching for "symfony mailer transport". A plugin would need to be written to import these transports and make use of them. If you write a transport for a service, please share it with [our community](https://forum.pkp.sfu.ca/).
+Other transports can be found by searching for "symfony mailer transport". A plugin would need to be written to import these transports and make use of them. If you write a transport for a service, please share it with [our community](https://forum.pkp.sfu.ca/).
 
 ## Bounce Address
 

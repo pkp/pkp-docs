@@ -87,7 +87,7 @@ You may need to run the following command to apply the configuration changes.
 supervisorctl reread
 ```
 
-> **Warning:** We strongly recommend to restart the Worker rather than Supervisor to reflect and consider the new changes pushed to production. Restarting Supervisor suddenly will cause the workers to quit abruptly and if the workers are in the middle of processing a job, it will not get the chance to complete the job which may cause undesired.
+> **Warning:** We strongly recommend restarting the Worker rather than Supervisor to reflect and consider the new changes pushed to production. Restarting Supervisor suddenly will cause the workers to quit abruptly and if the workers are in the middle of processing a job, it will not get the chance to complete the job which may cause undesired.
 {:.warning}
 
 To configure Supervisor on other systems, or to learn more about monitoring processes, read the [Supervisor documentation](http://supervisord.org/index.html).
@@ -114,7 +114,7 @@ A cron job configured to run the following command will process only one job.
 php lib/pkp/tools/jobs.php run --once
 ```
 
-Whether or not to process one or all jobs will depend on your environment. When **running all jobs at once**, a sudden batch of large, resource-intensive jobs could slow down your server. That's because the cron job will try to churn through everything all at once.
+Whether to process one or all jobs will depend on your environment. When **running all jobs at once**, a sudden batch of large, resource-intensive jobs could slow down your server. That's because the cron job will try to churn through everything all at once.
 
 When **running one job at a time**, the cron job will be less likely to consume a lot of server resources all at once. However, there is a risk that jobs will back up over time. If a bulk email is sent to 5,000 users, it may create 100 jobs. Processing one job every 60 seconds, it would take 100 minutes to send the email.
 

@@ -61,6 +61,12 @@ Set the `require_validation` in order to require new users to validate their ema
 require_validation = On
 ```
 
+During the installation process, the `app_key` should be set automatically. If the key is missing, there is a command-line tool that can be used to generate it:
+
+```bash
+php lib/pkp/tools/appKey.php
+```
+
 ## Secure Files Directory
 
 Every installation needs to have a secure files directory to ensure that private files, like unpublished submissions, can not be accessed by unauthorized users.
@@ -75,7 +81,7 @@ files_dir = <path>
 
 ## Email Server
 
-Most email will be blocked by spam filters unless you use a SMTP server with correctly configured [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DMARC](https://en.wikipedia.org/wiki/DMARC) records.
+Most email will be blocked by spam filters unless you use an SMTP server with correctly configured [SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework) and [DMARC](https://en.wikipedia.org/wiki/DMARC) records.
 
 > Not sure what to do here? Learn more about how to [configure an email server](./deploy-email).
 {:.notice}
