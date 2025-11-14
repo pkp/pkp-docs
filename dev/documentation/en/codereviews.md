@@ -18,7 +18,7 @@ Code reviews work best when they spark discussion between the coder and the revi
 
 Some comments in code review are straightforward — for example, syntax and whitespace issues. But others are an opportunity to learn for both the coder and the reviewer. If you don't understand a comment or disagree with a suggested change, a code review is a great place to discuss it.
 
-# What to expect from a code review
+## What to expect from a code review
 
 A good code review is an opportunity to reach a consensus. When a consensus between the coder and the reviewer can not be reached, a senior developer will make the decision. A code review is **not** an opportunity to disparage your code or criticize your coding ability.
 
@@ -36,7 +36,7 @@ The **reviewer** should expect:
 - To be updated by the coder when any concerns have been addressed.
 - To be able to call on other reviewers if their expertise is needed.
 
-# How to ask for a code review
+## How to ask for a code review
 
 In the course of your work, you will need to prepare pull requests and ask for code reviews. Typically, you should make sure that the tests are passing for your pull requests before asking for code review. However, in some cases, you may be asked to open a draft pull request for code review even before it is ready for merge.
 
@@ -54,7 +54,7 @@ Use a comment in the issue instead of assigning each pull request to the reviewe
 
 When you have updated your code in response to review comments, post again in the issue to let the reviewer know that you are ready for a second round of review.
 
-# How to make a good pull request
+## How to make a good pull request
 
 Remember that your pull request and code review creates work for someone else. The following will help ensure it is as easy as possible to review your code.
 
