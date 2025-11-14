@@ -1,7 +1,7 @@
 ---
 title: Example - Managing Context and Site - Plugin Guide for OJS, OMP and OPS
 book: dev-plugin-guide
-version: 3.5
+version: 3.4
 ---
 
 # Managing Context and Site

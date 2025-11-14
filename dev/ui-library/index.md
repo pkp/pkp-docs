@@ -10,7 +10,8 @@ The UI libraries below contain UI components for the Public Knowledge Project's 
 
 | Version | Description |
 | --- | --- |
-| [dev](./dev/) | A recent snapshot of the `main` branch of the [UI Library](https://github.com/pkp/ui-library/). |
+| [dev](https://main--6555d3db80418bb1681b8b17.chromatic.com/?path=/docs/guide-page-architecture--docs){:target="_blank"} | A recent snapshot of the `main` branch of the [UI Library](https://github.com/pkp/ui-library/). |
+| [3.5](https://stable-3_5_0--6555d3db80418bb1681b8b17.chromatic.com){:target="_blank"} | The UI Library available in version 3.5 of each application. |
 | [3.4](./3.4/) | The UI Library available in version 3.4 of each application. |
 | [3.3](./3.3/) | The UI Library available in version 3.3 of each application. |
 
