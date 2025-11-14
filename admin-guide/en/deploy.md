@@ -61,6 +61,12 @@ Set the `require_validation` in order to require new users to validate their ema
 require_validation = On
 ```
 
+During the installation process, the `app_key` should be set automatically. If the key is missing, there is a command-line tool that can be used to generate it:
+
+```bash
+php lib/pkp/tools/appKey.php
+```
+
 ## Secure Files Directory
 
 Every installation needs to have a secure files directory to ensure that private files, like unpublished submissions, can not be accessed by unauthorized users.

@@ -65,7 +65,7 @@ Complete the form to finish the installation, using the file uploads directory t
 
 ![Screenshot of the install complete screen of OJS](./assets/install-complete.png)
 
-Once you have finished the install, login with the administrator account you set up to access the admin area. Depending on whether you installed OJS, OMP or OPS, you will be taken to a screen where you can create your first journal, press or preprint server.
+Once you have finished the installation, login with the administrator account you set up to access the admin area. Depending on whether you installed OJS, OMP or OPS, you will be taken to a screen where you can create your first journal, press or preprint server.
 
 - In OJS, click the **Add Journal** button.
 - In OMP, click the **Add Press** button.
