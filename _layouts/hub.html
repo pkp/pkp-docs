@@ -3,8 +3,10 @@
 	{% include hub/head.html %}
 	<body>
 		{% include hub/header.html %}
-		{{ content }}
-		{% include hub/callOut--forum.html %}
+		<main>
+			{{ content }}
+			{% include hub/callOut--forum.html %}
+		</main>
 		{% include hub/footer.html %}
 		<script type="text/javascript">{% include js/smoothScrolling.js %}</script>
 		{% include analytics.html %}
