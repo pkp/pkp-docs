@@ -141,7 +141,7 @@ The software must run some tasks every day, such as compiling usage statistics. 
 php tools/runScheduledTasks.php
 ```
 
-If you are unable to configure this cron job, you must enable the Acron plugin after you have installed the software.
+Learn more about [scheduled tasks](./deploy-scheduled-tasks).
 
 ## Job Runner
 

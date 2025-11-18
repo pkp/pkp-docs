@@ -58,11 +58,11 @@ stdout_logfile=<log-file>
 
 Replace the following variables in the configuration above with the correct paths in your system:
 
-| Variable | Description |
-| --- | --- |
-| `<path-to-php>` | Absolute path on the server to the CLI PHP executable. This can be found on most Linux servers by running `which php`. |
-| `<root>` | Absolute path to the root directory of the application (OJS, OMP, OPS). |
-| `<log-file>` | Absolute path to a log file. If hosting in a cloud environment, you may want to [direct logs to stdout](https://stackoverflow.com/a/26897648/1723499). |
+| Variable        | Description                                                                                                                                            |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `<path-to-php>` | Absolute path on the server to the CLI PHP executable. This can be found on most Linux servers by running `which php`.                                 |
+| `<root>`        | Absolute path to the root directory of the application (OJS, OMP, OPS).                                                                                |
+| `<log-file>`    | Absolute path to a log file. If hosting in a cloud environment, you may want to [direct logs to stdout](https://stackoverflow.com/a/26897648/1723499). |
 
 > Take note that workers are long-running processes that load the application in memory. As a result, any changes when workers are running will not reflect instantly without restarting the worker.
 {:.notice}
