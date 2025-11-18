@@ -108,4 +108,4 @@ If you run your own email server, you can ask for help in our [community forum](
 
 ---
 
-Next, learn about how to improve performance with the [job runner](./deploy-jobs).
+Next, learn how to manage your [scheduled tasks](./deploy-scheduled-tasks).

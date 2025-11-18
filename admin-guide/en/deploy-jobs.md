@@ -58,16 +58,16 @@ stdout_logfile=<log-file>
 
 Replace the following variables in the configuration above with the correct paths in your system:
 
-| Variable | Description |
-| --- | --- |
-| `<path-to-php>` | Absolute path on the server to the CLI PHP executable. This can be found on most Linux servers by running `which php`. |
-| `<root>` | Absolute path to the root directory of the application (OJS, OMP, OPS). |
-| `<log-file>` | Absolute path to a log file. If hosting in a cloud environment, you may want to [direct logs to stdout](https://stackoverflow.com/a/26897648/1723499). |
+| Variable        | Description                                                                                                                                            |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `<path-to-php>` | Absolute path on the server to the CLI PHP executable. This can be found on most Linux servers by running `which php`.                                 |
+| `<root>`        | Absolute path to the root directory of the application (OJS, OMP, OPS).                                                                                |
+| `<log-file>`    | Absolute path to a log file. If hosting in a cloud environment, you may want to [direct logs to stdout](https://stackoverflow.com/a/26897648/1723499). |
 
 > Take note that workers are long-running processes that load the application in memory. As a result, any changes when workers are running will not reflect instantly without restarting the worker.
 {:.notice}
 
-Restart Worker.
+To restart the worker:
 
 ```
 php lib/pkp/tools/jobs.php restart
@@ -75,7 +75,7 @@ php lib/pkp/tools/jobs.php restart
 
 The above command will quit the workers gracefully what is workers will get to complete the current job execution and then quit. Then the Supervisor will restart the workers.
 
-Restart Supervisor.
+To restart Supervisor:
 
 ```
 sudo service supervisor restart
@@ -87,10 +87,10 @@ You may need to run the following command to apply the configuration changes.
 supervisorctl reread
 ```
 
-> **Warning:** We strongly recommend restarting the Worker rather than Supervisor to reflect and consider the new changes pushed to production. Restarting Supervisor suddenly will cause the workers to quit abruptly and if the workers are in the middle of processing a job, it will not get the chance to complete the job which may cause undesired.
+> **Warning:** We strongly recommend restarting the Worker rather than Supervisor to reflect and consider the new changes pushed to production. Restarting Supervisor suddenly will cause the workers to quit abruptly, and if the workers are in the middle of processing a job, they will not complete the job which may cause undesired effects.
 {:.warning}
 
-To configure Supervisor on other systems, or to learn more about monitoring processes, read the [Supervisor documentation](http://supervisord.org/index.html).
+To configure Supervisor on other systems or to learn more about monitoring processes, read the [Supervisor documentation](http://supervisord.org/index.html).
 
 Once you have set up the worker, turn the default job runner off in `config.inc.php`:
 
@@ -110,7 +110,7 @@ php lib/pkp/tools/jobs.php run
 
 A cron job configured to run the following command will process only one job.
 
-```php
+```
 php lib/pkp/tools/jobs.php run --once
 ```
 
