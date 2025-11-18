@@ -93,7 +93,7 @@ The [pkp-formHoneypot](https://github.com/ulsdevteam/pkp-formHoneypot) plugin fr
 
 ### Disable Registration
 
-It's possible to set up a journal, press or preprint server to disable user registration. When user registration is disabled, all users will have to be registered by an admin or manager.
+It's possible to set up a journal, press, or preprint server to disable user registration. When user registration is disabled, all users will have to be registered by an admin or manager.
 
 Follow these steps to disable user registration in a journal, press or preprint server.
 
@@ -105,15 +105,15 @@ Follow these steps to disable user registration in a journal, press or preprint 
 6. Click **OK**.
 7. Click the **Search** button.
 8. Under *With permission level set to* select **Author**.
-9. For each role, follow steps 3-7 to prevent user self-registration.
-10. Repeat steps 7-8 with **Reviewer** selected for the permission level.
+9. For each role, follow steps 3–7 to prevent user self-registration.
+10. Repeat steps 7–8 with **Reviewer** selected for the permission level.
 11. For each role, follow steps 3-7 to prevent user self-registration.
 
-Only reader, author and reviewer roles can allow user self-registration. User self-registration is always disabled for other roles.
+Only reader, author, and reviewer roles can allow user self-registration. User self-registration is always disabled for other roles.
 
 ### Remove Accounts
 
-If you already have a large number of spam registrations, you may want to remove these accounts. User accounts can not be deleted. Instead, they must be merged to another account in order to ensure that any editorial data (such as submissions, reviews, etc) is maintained.
+If you already have a large number of spam registrations, you may want to remove these accounts. User accounts cannot be deleted. Instead, they must be merged to another account to ensure that any editorial data (such as submissions, reviews, etc) is maintained.
 
 Run the following command from the root directory of the application to merge a spam registration into another account.
 
@@ -141,10 +141,24 @@ usernameTwo
 usernameThree
 ```
 
-Then load the file into the the command.
+Then load the file into the `mergeUsers` command.
 
 ```bash
 php tools/mergeUsers.php spamaccount $(cat usernames.txt)
+```
+
+## User Invitations
+
+In version 3.5, a new Invitations toolset was introduced. This is used to implement three types of invitations:
+
+- The ability to request an email address change (and confirm it)
+- The one-click reviewer access invitation
+- The new GDPR-compliant user account creation process.
+
+You can change the number of days a user has to accept an invitation before it expires in the `[invitations]` section of `config.inc.php`.
+
+```
+expiration_days = 3
 ```
 
 ## User Uploads
@@ -161,7 +175,7 @@ The [controlPublicFiles](https://github.com/pkp/controlPublicFiles) plugin inclu
 
 ## Single Sign-on
 
-Single sign-on allows users to register and login to your journal, press or preprint server using an account with another service. This may be an institutional account such as a university network, a scholarly infrastructure organization like ORCID, or a commercial service provider like Google, Microsoft or Apple.
+Single sign-on allows users to register and login to your journal, press, or preprint server using an account with another service. This may be an institutional account such as a university network, a scholarly infrastructure organization like ORCID, or a commercial service provider like Google, Microsoft, or Apple.
 
 The following are different approaches to single sign-on that are in use by our community.
 
@@ -169,11 +183,11 @@ The following are different approaches to single sign-on that are in use by our 
 
 The [openid plugin](https://github.com/leibniz-psychology/openid) allows users to register and login using any [OpenID](https://en.wikipedia.org/wiki/OpenID) protocol. This protocol is supported by ORCID, Google, Microsoft, Apple and many others.
 
-The Leibniz Institute for Psychology (ZPID) has developed this plugin.
+The Leibniz Institute for Psychology (ZPID) originally developed this plugin, which is now maintained by the PKP team.
 
 ### ORCID
 
-Users can register and login using their ORCID accounts. Use the [openid plugin](https://github.com/leibniz-psychology/openid).
+Users can register and login using their ORCID accounts. Use the [OpenID plugin](https://github.com/pkp/openid).
 
 ### Shibboleth
 
