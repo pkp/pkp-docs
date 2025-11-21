@@ -1,7 +1,7 @@
 ---
 book: learning-omp
 version: 3.5
-title: For Authors: Submitting and Tracking a Manuscript in OMP
+title: For Authors - Submitting and Tracking a Manuscript in OMP
 description: A guide on how to submit a manuscript and respond to requests for revisions as an author submitting to an OMP press.
 generateHeadingToc: true
 ---
