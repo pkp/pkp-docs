@@ -22,9 +22,9 @@ In OMP 3.2, the Publisher information is now stored under the Press setting. You
 
 ### Masthead
 
-Under Press Settings > Masthead, you can enter and edit key publishing and press details, including. All Masthead information will appear under the pages in the About menu on your press website.
+Under Settings > Press > Masthead, you can enter and edit key publishing and press details. All Masthead information will appear under the pages in the About menu on your press website.
 
-While a section is provided for adding editorial board, OMP 3.5 can now automatically compile a list of editorial board members, replacing the need to manually document the members of your team. Simply select which roles should be captured in the masthead and configure start and end dates for board members. 
+While a section is provided for adding editorial board information, OMP 3.5 can now automatically compile a list of editorial board members, replacing the need to manually document the members of your team. Simply select which roles should be captured in the masthead and configure start and end dates for board members. 
 
 To select which roles should be captured in the masthead:
 - Navigate to Users & Roles and select the "Roles" tab
