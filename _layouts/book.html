@@ -3,7 +3,7 @@
 	{% include book/head.html %}
 	<body {% if page.isBookIndex != true %} class="body--withSidebar"{% endif %}>
 		{% include book/header.html %}
-		<div class="book">
+		<main class="book">
 			{% if page.generateHeadingToc or page.isBookIndex != true %}
 				<a href="#sidebar" class="-screenReader">
 					{{ site.data.site.skipToSummary }}
@@ -57,7 +57,7 @@
 					<div class="book__spacer"></div>
 				</div>
 			{% endif %}
-		</div>
+		</main>
 		<div class="book__footerWrapper">
 			{% include hub/footer.html %}
 		</div>
